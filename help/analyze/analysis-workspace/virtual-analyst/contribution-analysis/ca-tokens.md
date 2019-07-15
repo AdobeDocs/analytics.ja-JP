@@ -5,7 +5,7 @@ seo-title: 貢献度分析の概要
 title: 貢献度分析の概要
 uuid: 2bd295b0- c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: 1b8cfad731646523844aa420b38137a929383462
+source-git-commit: ca632da6b6181298af4b313fbd232926fbbfa125
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: 1b8cfad731646523844aa420b38137a929383462
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>貢献度分析へのアクセスを制限するには、どのようにしますか。</b> </p> </td> 
-   <td colname="col2"> <p>デフォルトでは、貢献度分析を実行できるのは管理者のみですが、管理者は[管理コンソール]（https://helpx.adobe.com/enterprise/using/user-groups.html)）に権限グループを作成することで、他のユーザーへのアクセス権を付与できます。貢献度分析を使用する正当な理由があり、かつアクセス権を悪用しない信用できるユーザーに対してのみ、貢献度分析の使用権限を付与する必要があります。 </p> <p>この権限は、<span class="ignoretag"><span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span></span>では「貢献度分析」と呼ばれています。 </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. 貢献度分析を使用する権限を持つユーザーのみに対して、貢献度分析を使用する権限を与え、アクセスを不正にしないことを信頼する必要があります。 </p> <p>この権限は、<span class="ignoretag"><span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span></span>では「貢献度分析」と呼ばれています。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>1 ヶ月あたり使用可能なトークン数は、どうすればわかりますか。また、当月に使用したトークン数は、どうすればわかりますか。</b> </p> </td> 
