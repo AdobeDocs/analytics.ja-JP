@@ -4,7 +4,7 @@ seo-title: Adobe Analyticsのためのラボ
 description: Adobe Analyticsのプロトタイププロジェクトのプレビュー
 seo-description: Adobe Analyticsのプロトタイプのプレビュー
 translation-type: tm+mt
-source-git-commit: 20bb6b39530c57679463691e7507353aff2d106e
+source-git-commit: da2ced31da19dc8770bfb85c4b7cec36d598ecd4
 
 ---
 
@@ -55,7 +55,8 @@ source-git-commit: 20bb6b39530c57679463691e7507353aff2d106e
 
 1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
 
-   ![feedback_ box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
+   ![新しいフィードバックボックス](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+
 
 1. Click **Submit** to send your feedback.
 
