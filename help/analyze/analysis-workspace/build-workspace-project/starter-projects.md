@@ -5,7 +5,7 @@ seo-title: テンプレート一覧
 title: テンプレート一覧
 uuid: d6d1b745- a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -92,14 +92,6 @@ source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
 [YouTube上のAnalysis Workspaceの標準テンプレート](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) （2:46）
 
 以下に、テンプレートと各テンプレートの回答に役立つ質問を示します。
-
-### 広告
-
-* **Seachエンジン**:このテンプレートは、広告トレンド、広告プラットフォームの合計、キーワードなどを分類します。**注意:** このテンプレートプロジェクトを表示するには、選択したレポートスイートがAdvertising Cloudに対して有効になっている必要があります。
-
-## コマース
-
-* **Magenting:マーケティングとコマース**:このテンプレートは、マーケティングチャネル属性別のeコマースコンバージョンを分類し、検索キーワード、ランディングページ、地理的場所などによるインサイトを提供します。
 
 ### メディア
 
