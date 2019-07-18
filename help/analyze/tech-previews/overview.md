@@ -4,7 +4,7 @@ seo-title: Adobe Analyticsのためのラボ
 description: Adobe Analyticsのプロトタイププロジェクトのプレビュー
 seo-description: Adobe Analyticsのプロトタイプのプレビュー
 translation-type: tm+mt
-source-git-commit: 0fd156b145eca1a370b7d1f36479adcca43f73e1
+source-git-commit: caea9c6fe37292212e6fccb5cf99770fa9a60d06
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 0fd156b145eca1a370b7d1f36479adcca43f73e1
 
 ## 追加情報
 
-* 現在、ラボは数名のベータ顧客にリリースされていますが、後で広くリリースされる予定です。
+* 現在、ラボは限られた数の顧客への先行アクセスとしてリリースされますが、後で広くリリースされる予定です。
 
 * ラボ内のいくつかのプロトタイプはAnalyticsの機能になりますが、その他のプロトタイプは使用できません。フィードバックによって決定が促進されるので、プロトタイプを確認し、アドビにお客様の見つける価値をお知らせください。
 
