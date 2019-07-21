@@ -56,7 +56,7 @@ Analysis Workspaceは、プリタブ化されたレポートよりもキャン�
 
 Analysis Workspaceはレポートツールなので、データ収集には影響しません。意図的にコンポーネントをプロジェクトにドラッグしても、何が動作するかを確認することはありません。ディメンションと指標の様々な組み合わせをワークスペースプロジェクトにドラッグして、利用可能なものを確認します。
 
-誤って無効なコンポーネントをワークスペースプロジェクトにドラッグした場合、またはステップに戻る場合は、Ctrl+ Zキー（Windows）またはCommand+ Zキー（Mac）を押して最後のアクションを取り消します。You can also start with a clean slate by clicking *[!UICONTROL Project] &gt; [!UICONTROL New]* in the upper left menu.
+誤って無効なコンポーネントをワークスペースプロジェクトにドラッグした場合、またはステップに戻る場合は、Ctrl+ Zキー（Windows）またはCommand+ Zキー（Mac）を押して最後のアクションを取り消します。You can also start with a clean slate by clicking *[!UICONTROL Project]&gt;[!UICONTROL New]* in the upper left menu.
 
 アドビでは、右クリックのコンテキストメニューで、Analysis Workspaceに多数の機能を配置しました。多くのビジュアライゼーションおよびコンポーネントは、より詳細な分析とインタラクションを目的として右クリックすることができます。ワークスペース内のコンポーネントを右クリックして、利用可能なオプションを確認することを検討してください。
 
