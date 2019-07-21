@@ -28,12 +28,12 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 ページレポートには、サイト上の個々のページのパフォーマンスが表示されます。
 
-1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 代わりに、アドビではテンプレートと呼ばれる事前に作成されたいくつかのワークスペースを提供しています。コンテンツ消費（ウェブ）テンプレートは、すべてのページレポートに同様の値を提供します。
 
-1. *[!UICONTROL プロジェクト] / [!UICONTROL 新規]*をクリックして、プロジェクトオプションを含むモーダルウィンドウを開きます。
+1. *[!UICONTROL プロジェクト]/[!UICONTROL 新規]*&#x200B;をクリックして、プロジェクトオプションを含むモーダルウィンドウを開きます。
 2. コンテンツ消費（ウェブ）テンプレートをクリックし、「作成」をクリックします。
 
 ## サイトコンテンツ-コンテンツドリルダウン
@@ -44,7 +44,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 ランディングページレポートには、サイト上のトップランディングページが表示されます。Landing pages are available in Analysis Workspace as the **Entry Page** dimension.
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Adobe recommends using the **Visits** metric for this dimension.
@@ -53,7 +53,7 @@ Adobe recommends using the **Visits** metric for this dimension.
 
 出口ページレポートには、個々の訪問の最後のページになったページが表示されます。同じ名前のAnalysis Workspaceで使用できます。
 
-1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Adobe recommends using the **Visits** metric for this dimension.
