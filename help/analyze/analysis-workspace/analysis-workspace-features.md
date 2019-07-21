@@ -25,7 +25,7 @@ YouTube のプレイリストは、[こちら](https://www.youtube.com/playlist?
 
 >[!NOTE]
 >
->See [What&#39;s New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+>See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +53,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project&#39;s table of contents. プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」という新しい右クリックオプションが追加されました。イントラリンクをプロジェクトに追加するには：
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」という新しい右クリックオプションが追加されました。イントラリンクをプロジェクトに追加するには：
 
 1. テキストビジュアライゼーションをプロジェクト内にドラッグします。例えば、コンテキストが必要なビジュアライゼーションまたはテーブルの横に配置します。
 1. テキストボックスに目次などを入力して、パネルまたはビジュアライゼーションにリンクさせたい項目（この例では成功指標）をハイライト表示します。
@@ -97,7 +97,7 @@ See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync
 
 ![](assets/trend-selection.png)
 
-トレンド選択は、下のテーブルに **リンク** され、テーブルで別の行を選択すると、トレンドグラフにその行が反映されるようになりました。
+トレンド選択は、下のテーブルに&#x200B;**リンク**&#x200B;され、テーブルで別の行を選択すると、トレンドグラフにその行が反映されるようになりました。
 
 ![](assets/trend-selection2.png)
 
@@ -105,7 +105,7 @@ See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync
 
 小売業者の場合、キャンペーンをこれまでよりも深く分析して、顧客とのより良い関わり方を把握できます。特定のニーズに合わせて様々な方法でデータを分類し、関連する指標、ディメンション、セグメント、タイムライン、その他の分析分類値を使用するクエリを作成します。
 
-![Step Result](assets/fa_data_table_actions.png)
+![手順の結果](assets/fa_data_table_actions.png)
 
 See [Break down dimensions](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4).
 
@@ -185,7 +185,7 @@ Excel で選択するのと同じように、行および列を選択できま�
 
 **すべての訪問**
 
-Analysis Workspace に特有のデフォルトのセグメントです。*`All Visits`*は、テーブルに追加したコンポーネントの合計を表示します。
+Analysis Workspace に特有のデフォルトのセグメントです。*`All Visits`*&#x200B;は、テーブルに追加したコンポーネントの合計を表示します。
 
 **計算指標**
 
