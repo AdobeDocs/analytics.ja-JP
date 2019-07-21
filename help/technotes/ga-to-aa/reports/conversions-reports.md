@@ -53,7 +53,7 @@ Google AnalyticsのeコマースレポートとAdobe Analyticsの製品レポー
 
 アシストコンバージョンは、各チャネルがコンバージョンを支援する回数を示します。In Analysis Workspace, the **Order Assists** metric can be used.
 
-1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the **Order Assists** metric on top of the automatically created **Occurrences** metric header to replace it. 必要に応じて、追加の指標をワークスペースにドラッグできます。
 
 ### マルチチャネル-トップコンバージョンパス
@@ -61,7 +61,7 @@ Google AnalyticsのeコマースレポートとAdobe Analyticsの製品レポー
 コンバージョンパスレポートは、コンバージョン前にユーザーがとる最上位のチャネルパスを示します。Analysis Workspaceは、フローレポートを使用して、上位のコンバージョンパスを視覚化します。
 
 1. 左側のパネルアイコンをクリックし、属性パネルをフリーフォームテーブルの上にドラッグします。
-2. Click the Components icon on the left, locate the **Marketing Channel** dimension, and drag it to the box labeled &#39;Add Dimension&#39;.
+2. Click the Components icon on the left, locate the **Marketing Channel** dimension, and drag it to the box labeled 'Add Dimension'.
 3. 指標（注文など）の下の目的のコンバージョンイベントを探し、「指標を追加」というラベルの付いたボックスにドラッグします。計算指標はアトリビューションパネルではサポートされていません。
 4. 「作成」をクリックします。
 5. 結果のレポートで、「チャネルフロー」ビジュアライゼーションを見つけます。このフローには、購入前に訪問者が移動したトップパスが表示されます。
@@ -74,14 +74,14 @@ Google AnalyticsのeコマースレポートとAdobe Analyticsの製品レポー
 
 時間の時差レポートは、訪問者がサイト上でのコンバージョンを行うまでに要した時間を示します。In Analysis Workspace, this data is available using the **Days Before First Purchase** dimension. これは、適切に導入された購入イベントのコンテキストでのみ利用できます。
 
-1. In the Components menu, locate the **Days Before First Purchase** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Days Before First Purchase** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Adobe recommends using the **Orders**, **Units**, or **Revenue** metrics with this dimension.
 
 For other types of conversions, including custom events, the **Time Prior to Event** dimension is available. 訪問者が訪問内でイベントをトリガーするまでに要した時間を分単位で示します。
 
-1. In the Components menu, locate the **Time Prior to Event** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Time Prior to Event** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 アドビでは、カスタムイベントまたは購入イベントと共にこのディメンションを使用することをお勧めします。
@@ -91,7 +91,7 @@ For other types of conversions, including custom events, the **Time Prior to Eve
 パスの長さレポートには、コンバージョンイベントの前に表示されるチャネルの数が表示されます。Analysis Workspaceでは、アトリビューションパネルには、そのビジュアライゼーションの1つにこのデータが含まれています。
 
 1. 左側のパネルアイコンをクリックし、フリーフォームテーブルの上にアトリビューションパネルをドラッグします
-2. Click the Components icon on the left, locate the **Marketing Channel** dimension, and drag it to the box labeled &#39;Add Dimension&#39;.
+2. Click the Components icon on the left, locate the **Marketing Channel** dimension, and drag it to the box labeled 'Add Dimension'.
 3. 指標（注文など）の下の目的のコンバージョンイベントを探し、「指標を追加」というラベルの付いたボックスにドラッグします。計算指標はアトリビューションパネルではサポートされていません。
 4. 「作成」をクリックします。
 5. 結果のレポートで、「旅行あたりのタッチポイント」ビジュアライゼーションを探します。このヒストグラムには、購入前に訪問者がタッチしたチャネルの数が表示されます。
