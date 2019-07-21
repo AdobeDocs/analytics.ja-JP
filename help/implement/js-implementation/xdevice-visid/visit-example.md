@@ -26,7 +26,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 訪問者がマーケティング用の電子メールにあるリンクをクリックして、家のコンピューターからサイトを訪問します。この訪問者は過去 7 回このサイトを訪問しています。 | 1 | - | 1 | 1 | 8 |
 | 2 ～ 8 | サイトの別の 7 つのページに訪問します。 | 1 | - | 1 | 2 ～ 8 | 8 |
-| 9 | 家のコンピューターを認証します。 | 1 | CID1 | CID1 | 9 <br>This is CID1&#39;s first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 1 |
+| 9 | 家のコンピューターを認証します。 | 1 | CID1 | CID1 | 9 <br>This is CID1's first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 1 |
 | 10 | 別の 1 つのページを訪問します。 | 1 | CID1 | CID1 | 10 | 8 |
 | 11 | オフィスのノートブックパソコンからサイトを開きます。この訪問者は過去にこのデバイスを使用してこのサイトを訪問したことがありません。 | 2 | - | 2 | 1 | 1 |
 | 12 | ノートブックパソコンを認証します。 | 2 | CID1 | CID1 | 1 | 9 |
