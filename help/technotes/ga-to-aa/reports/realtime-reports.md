@@ -19,7 +19,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 1. Click [!UICONTROL Reports] in the Adobe Analytics header navigation.
 2. In the left menu, Click *[!UICONTROL Site Metrics]* &gt; *[!UICONTROL Real-Time]*.
-3. レポートスイートにリアルタイムが有効になっていない場合、レポートスイートを設定するためのリンクを含むメッセージが表示されます。If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report&#39;s title.
+3. レポートスイートにリアルタイムが有効になっていない場合、レポートスイートを設定するためのリンクを含むメッセージが表示されます。If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report's title.
 
 アドビでは、最大3つのリアルタイムレポートを使用してデータを同時に収集できます。データをリアルタイムで収集するには、それぞれを設定する必要があります。
 
@@ -29,7 +29,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 リアルタイムの場所は、現在の時間の中で訪問者がサイトを訪れた場所を示します。3つのリアルタイムレポートのいずれかを設定して場所データを表示するには:
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Click [!UICONTROL Configure] near the real-time report's title.
 2. リアルタイムレポートスロットの次のいずれかの操作を行います。
    * リアルタイムレポートに名前を付けます。（例:「ロケーション」）。
    * 通常、インスタンスは指標として使用されます。ユーザー/実訪問者は、現時点ではリアルタイムレポートでは利用できません。
@@ -53,9 +53,9 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 リアルタイムコンテンツは、訪問者が現在閲覧しているページを示します。3つのリアルタイムレポートのいずれかを設定してコンテンツデータを表示するには:
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Click [!UICONTROL Configure] near the real-time report's title.
 2. リアルタイムレポートスロットの次のいずれかの操作を行います。
-   * リアルタイムレポートに名前を付けます。（例:&quot;Content&quot;）。
+   * リアルタイムレポートに名前を付けます。（例:"Content"）。
    * 通常、インスタンスは指標として使用されます。ユーザー/実訪問者は、現時点ではリアルタイムレポートでは利用できません。
    * プライマリディメンションの場合、ページは通常使用されます。これらの変数を実装で定義する場合、サイトセクションとサーバーも使用できます。
    * 2つのセカンダリディメンションについては、このトラフィックに対して表示したい追加のデータを使用してください。セカンダリディメンションはコンテンツに固有のものである必要はありません。
@@ -71,9 +71,9 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 リアルタイム変換では、プラットフォーム間でデータが異なります。Google Analyticsの目標は、Adobe Analyticsの指標および成功イベントです。Adobe Analyticsのほとんどの指標（成功イベントや売上高などの標準指標の両方）をリアルタイムレポートで使用できます。Google Analyticsと同様に、リアルタイムレポートで製品名、トラッキングコード、キャンペーンパフォーマンスなどのディメンションを適用することもできます。
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Click [!UICONTROL Configure] near the real-time report's title.
 2. リアルタイムレポートスロットの次のいずれかの操作を行います。
-   * リアルタイムレポートに名前を付けます。（例:&quot;Conversions&quot;）。
+   * リアルタイムレポートに名前を付けます。（例:"Conversions"）。
    * 通常、インスタンスは指標として使用されます。ユーザー/実訪問者は、現時点ではリアルタイムレポートでは利用できません。
    * プライマリディメンションの場合、トラッキングコードは通常使用されます。また、実装で使用する製品ディメンションも使用できます。
    * 2つのセカンダリディメンションについては、このトラフィックに対して表示したい追加のデータを使用してください。セカンダリディメンションは、コンバージョンに固有のものである必要はありません。
