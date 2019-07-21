@@ -23,7 +23,7 @@ In Adobe Analytics, these reports are known as **Marketing Channels**. 基本的
 
 訪問者がサイトに到達するために使用するすべてのチャネルの集計ビューを表示します。
 
-1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## すべてのトラフィック-トレープマップ
@@ -31,7 +31,7 @@ In Adobe Analytics, these reports are known as **Marketing Channels**. 基本的
 チャネルトラフィックのトレリマップを表示します。このレポートはすべてのトラフィック-チャネルに似ていますが、異なる方法で表示されます。
 
 1. 左側のビジュアライゼーションアイコンをクリックし、空のフリーフォームテーブルの上にあるワークスペースにトレリマップビジュアライゼーションをドラッグします。
-2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled 'Drop a dimension here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 4. 追加の指標では、追加のトレリマップが作成されます。1つのトレープマップのみが必要な場合:
    1. 目的の指標の上部のセルをクリックして、トレリマップを表します。
@@ -62,7 +62,7 @@ In Adobe Analytics, these reports are known as **Marketing Channels**. 基本的
 * **ソース** のプライマリディメンションは、Analysis Workspaceで **参照ドメイン** ディメンションとして使用できます。
 * **ランディングページ** のプライマリディメンションは、Analysis Workspaceで **入口ページ** ディメンションとして使用できます。
 
-1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Referring Domain](../../../components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
@@ -83,16 +83,16 @@ Socialレポートは、ソーシャルネットワークのコンテキスト�
 
 ネットワーク照会レポートは、どのソーシャルネットワークドメインがサイトにトラフィックを導いたかを示します。This data is available in Analysis Workspace using the **Referring Domain** dimension and **Visits from Social Sites** segment.
 
-1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled &#39;Drop a segment here&#39;.
+1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ### Social-ランディングページ
 
 ランディングページレポートは、ソーシャルネットワークを通してリンクをクリックした後に訪問者が辿ったページを示します。This data is available in Analysis Workspace using the **Entry Page** dimension and **Visits from Social Sites** segment.
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled &#39;Drop a segment here&#39;.
+1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ### Social-コンバージョン
@@ -108,7 +108,7 @@ Socialレポートは、ソーシャルネットワークのコンテキスト�
 ユーザーフローレポートは、ソーシャルネットワーク経由で到着した訪問者のコンテキストデータを示します。
 
 1. 左側のビジュアライゼーションアイコンをクリックし、フロービジュアライゼーションをフリーフォームテーブルの上のワークスペースにドラッグします
-2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled &#39;Drop a Segment here&#39;.
+2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
 3. **ページ** ディメンションを見つけて、矢印アイコンをクリックしてページ値を表示します。ディメンション値は黄色で表示されます。
 4. 開始するページ値を探し、「ディメンションまたは項目」という名前のスペースにドラッグします
 5. このフローレポートはインタラクティブです。任意の値をクリックして、後続のページまたは前のページにフローを展開します。右クリックメニューを使用して、列を展開または折りたたみます。同じフローレポート内でも異なるディメンションを使用できます。
@@ -119,21 +119,21 @@ The campaigns report is available in Analysis Workspace using the **Tracking Cod
 
 カスタム変数（eVar）を使用して、Adobe AnalyticsでUTMパラメーターを収集できます。Adobe Analyticsでトラッキングコードの値が正確に収集されるように、導入コンサルタントに相談することをお勧めします。
 
-1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## キャンペーン-有料キーワード
 
 有料キーワードレポートは、訪問者が検索エンジンから有料検索リンクをクリックした後にどのように実行されるかを示します。**検索キーワード-有料** ディメンションはAnalysis Workspaceで使用できますが、データ収集には有料検索検知の1回限りの設定が必要です。See [Paid Search Detection](../../../admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
 
-1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## キャンペーン-オーガニックキーワード
 
 オーガニックキーワードレポートは、訪問者が検索エンジンからオーガニック検索リンクをクリックした後にどのように実行されるかを示します。**検索キーワード-自然** ディメンションは、Analysis Workspaceで使用できます。有料検索検知が設定されていない場合、このディメンションは有料キーワードと自然キーワードの両方を収集します。
 
-1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## コスト分析
