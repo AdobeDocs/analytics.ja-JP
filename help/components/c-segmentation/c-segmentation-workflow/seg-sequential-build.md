@@ -73,13 +73,13 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 | 結果の場合… | シーケンス |
 |--- |--- |
 | 一致する | A -&gt; B |
-| 一致しない場合 | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, &quot;A then B&quot; and &quot;A then C then B&quot; would both match. |
+| 一致しない場合 | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
 
 ## 単純なページビューシーケンス
 
 あるページを閲覧した後に別のページを閲覧した訪問者を識別します。以前、過去または中間の訪問セッションまたは間に発生したページビューの時間や数に関係なく、ヒットレベルのデータによって、このシーケンスがフィルターされます。
 
-**** 例:訪問者がページAを閲覧した後、同じまたは別の訪問でページBを閲覧した。
+****&#x200B;例:訪問者がページAを閲覧した後、同じまたは別の訪問でページBを閲覧した。
 
 **使用例**
 
@@ -98,7 +98,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 キャンペーンからフォールアウトしたが、別のセッションでこのページビューのシーケンスに戻ってきた訪問者を識別します。
 
-**** 例:訪問者は1回の訪問でページAを閲覧し、その後別の訪問でページBを閲覧した。
+****&#x200B;例:訪問者は1回の訪問でページAを閲覧し、その後別の訪問でページBを閲覧した。
 
 **ユースケース**
 
@@ -109,7 +109,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 **このセグメントを作成**
 
-この例では、2 つの **[!UICONTROL 訪問]** コンテナをトップレベルの **[!UICONTROL 訪問者]コンテナ内でネストし、[!UICONTROL THEN]演算子を使用してセグメントを順に並べます。**
+この例では、2 つの&#x200B;**[!UICONTROL 訪問]**&#x200B;コンテナをトップレベルの&#x200B;**[!UICONTROL 訪問者]コンテナ内でネストし、[!UICONTROL THEN]演算子を使用してセグメントを順に並べます。**
 
 ![](assets/visitor_seq_across_visits.png)
 
@@ -117,7 +117,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 不明な訪問回数の間に 2 つのページを閲覧し、さらに別の訪問で 3 ページ目を閲覧した訪問者を識別します。
 
-**** 例:訪問者は1回以上の訪問でページAとページBを訪問し、その後別の訪問でページCに訪問します。
+****&#x200B;例:訪問者は1回以上の訪問でページAとページBを訪問し、その後別の訪問でページCに訪問します。
 
 **ユースケース**
 
@@ -130,7 +130,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 1. 左のパネルからトップレベルの「[!UICONTROL 訪問者]」コンテナ内に 2 つのページディメンションをドロップします。
 1. これらのページディメンション間に THEN 演算子を追加します。
-1. **[!UICONTROL オプション]** /コンテナ **[!UICONTROL ]** を追加をクリックし、訪問者レベルの下に [!UICONTROL 訪問] コンテナ [!UICONTROL を追加] して [!UICONTROL 、THEN] 演算子を使用して順番に並べます。
+1. **[!UICONTROL オプション]** /コンテナ **** を追加をクリックし、訪問者レベルの下に [!UICONTROL 訪問] コンテナ [!UICONTROL を追加] して [!UICONTROL 、THEN] 演算子を使用して順番に並べます。
 
 ![](assets/mixed_level_checkpoints.png)
 
@@ -161,7 +161,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 [!UICONTROL 訪問]と[!UICONTROL ヒット]の両方のレベルでチェックポイントを配置することで、特定の訪問に加えて特定のヒット内の要件も満たすようにセグメントに制約をかけることができます。
 
-**** 例:訪問者はページAを訪問し、同じ訪問でページBを訪問した。さらに別の訪問でページ C にアクセスした。
+****&#x200B;例:訪問者はページAを訪問し、同じ訪問でページBを訪問した。さらに別の訪問でページ C にアクセスした。
 
 **このセグメントを作成**
 
@@ -189,7 +189,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 あるチェックポイントが他の 2 つチェックポイント間で明示的に発生しなかった場合に訪問者をセグメント化する論理を強制します。
 
-**** 例:ページAを訪問し、ページCを訪問したが、ページBは訪問しなかった訪問者。
+****&#x200B;例:ページAを訪問し、ページCを訪問したが、ページBは訪問しなかった訪問者。
 
 **ユースケース**
 
@@ -208,7 +208,7 @@ Create a segment as you would for a simple, mixed-level, or nested sequential se
 
 除外チェックポイントが順次セグメントの最初にある場合、除外されないヒットが最初に閲覧される前に、除外されるページは閲覧されないものとして扱われます。
 
-**** 例:訪問者がページAを訪問し、ページBではない。
+****&#x200B;例:訪問者がページAを訪問し、ページBではない。
 
 **ユースケース**
 
@@ -227,7 +227,7 @@ Create a segment as you would for a simple, mixed-level, or nested sequential se
 
 除外チェックポイントがシーケンスの最後にある場合、訪問者シーケンスが終了するまで、除外されない最後のチェックポイントと訪問者シーケンスの最後の間でチェックポイントは発生しません。
 
-**** 例:訪問者は、現在の訪問または後続の訪問でページAを訪問し、ページBを訪問しませんでした。
+****&#x200B;例:訪問者は、現在の訪問または後続の訪問でページAを訪問し、ページBを訪問しませんでした。
 
 **ユースケース**
 
@@ -269,7 +269,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 1. 左のパネルから、ディメンション、イベントまたはセグメントをドラッグします。
 1. 最上位のコンテナを「[!UICONTROL 訪問者]」コンテナに変更します。
 1. デフォルトで挿入される [!UICONTROL AND] または [!UICONTROL OR] 演算子を THEN 演算子に変更します。
-1. [!UICONTROL ヒット] コンテナ（ディメンション、イベントまたはアイテム）を選択し、 **[!UICONTROL オプション]** /選択範囲からコンテナ **[!UICONTROL を追加をクリック]** します。
+1. [!UICONTROL ヒット] コンテナ（ディメンション、イベントまたはアイテム）を選択し、 **[!UICONTROL オプション]** /選択範囲からコンテナ **[!UICONTROL を追加をクリック]**&#x200B;します。
 1. Click the container icon and select **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
 1. これで、階層に関係なく、[!UICONTROL ヒット]を[!UICONTROL 論理グループ]コンテナ内に設定できました。
 
@@ -277,7 +277,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 [!UICONTROL 論理グループ]を使用すると、シーケンスの外部にあるそのグループ内の条件を満たすことができます。This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.****
 
-**** 例:ページAを訪問し、ページBとページCを任意の順序で訪問した訪問者。
+****&#x200B;例:ページAを訪問し、ページBとページCを任意の順序で訪問した訪問者。
 
 **このセグメントを作成**
 
@@ -289,7 +289,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 [!UICONTROL 論理グループ]を使用すると、シーケンスの外部にあるそのグループ内の条件を満たすことができます。この順不同の最初の一致セグメントでは、[!UICONTROL 論理グループ]のルールによって、最初にページビューがページ B またはページ C のどちらであるかが識別され、その後で必須のページ A のビューが識別されます。
 
-**** 例:ページBまたはページCのいずれかを訪問した後、ページAを訪問した。
+****&#x200B;例:ページBまたはページCのいずれかを訪問した後、ページAを訪問した。
 
 **このセグメントを作成**
 
@@ -301,7 +301,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 [!UICONTROL 論理グループ] を使用してセグメントを作成し、複数のページビューが集計されて、他のページが除外されている間にどのページがヒットされる必要があるかを定義します。****
 
-**** 例:訪問者はページAを訪問し、ページBまたはCは明示的に訪問せず、ページDをヒットしていました。
+****&#x200B;例:訪問者はページAを訪問し、ページBまたはCは明示的に訪問せず、ページDをヒットしていました。
 
 **このセグメントを作成**
 
@@ -315,7 +315,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 [!UICONTROL 論理グループ]を使用してセグメントを作成します。このグループでは、複数のページビューを集計して、他の特定のページが除外されている間にどのページがヒットされる必要があるかを定義します。
 
-**** 例:ページAを訪問したが、ページAの前にページBまたはページCを訪問しなかった訪問者。
+****&#x200B;例:ページAを訪問したが、ページAの前にページBまたはページCを訪問しなかった訪問者。
 
 **このセグメントを作成**
 
@@ -345,7 +345,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 | 演算子 | 説明 |
 |--- |--- |
-| AFTER | After 演算子は、2 つのチェックポイントの間隔の最小値を指定するために使用します。After 値を設定すると、セグメントの適用時にこの時間制限が開始されます。例えば、ページAを訪問したが、1日後に訪問ページBに戻らない訪問者を識別するためにコンテナに&quot;After&quot;演算子が設定されている場合、訪問者がページAを離れたときにその日が開始されます。訪問者がセグメントに含まれるようにするには、ページAを離れてからページBを表示した後、最低1440分（1日）が経過する必要があります。 |
+| AFTER | After 演算子は、2 つのチェックポイントの間隔の最小値を指定するために使用します。After 値を設定すると、セグメントの適用時にこの時間制限が開始されます。例えば、ページAを訪問したが、1日後に訪問ページBに戻らない訪問者を識別するためにコンテナに"After"演算子が設定されている場合、訪問者がページAを離れたときにその日が開始されます。訪問者がセグメントに含まれるようにするには、ページAを離れてからページBを表示した後、最低1440分（1日）が経過する必要があります。 |
 | WITHIN | Within 演算子は、2 つのチェックポイントの間隔の最大値を指定するために使用します。例えば、ページAを訪問してから1日以内に訪問ページBに戻った訪問者を識別するためにコンテナに設定されているWithin演算子は、訪問者がページAを離れたときに開始します。セグメントに含めるために、訪問者はページBを開くまでに1日の最大時間を持ちます。訪問者がセグメントに含まれるためには、ページBへの訪問は、ページAを離れてからページBを閲覧した後、最大1440分（1日）以内に発生する必要があります。 |
 | AFTER／WITHIN | After と Within の両方の演算子を使用する場合に重要になるのが、両方の演算子が順次的ではなく並行的に開始および終了するという点です。For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. 最初のページヒットの時点から、両方の条件が適用されます。 |
 
@@ -354,11 +354,11 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 * After の時間では、年、月、日、時間および分を指定して、一致する訪問を追跡できます。
 * After の時間は、このような細かな精度を定義できる唯一のレベルである[!UICONTROL ヒット]コンテナにのみ適用されます。
 
-**** 例:ページAを訪問した訪問者が、2週間後にのみページBに訪問した。****
+****&#x200B;例:ページAを訪問した訪問者が、2週間後にのみページBに訪問した。****
 
 ![](assets/time_between_after_operator.png)
 
-**セグメント** の作成:このセグメントは、2つのヒットコンテナを持つ [!UICONTROL 訪問者] コンテナを追加することによっ [!UICONTROL て] 作成されます。これにより、[!UICONTROL THEN] 演算子を設定し、[!UICONTROL AFTER] 演算子のドロップダウンを展開して、週の数値を設定できます。
+**セグメント**&#x200B;の作成:このセグメントは、2つのヒットコンテナを持つ [!UICONTROL 訪問者] コンテナを追加することによっ [!UICONTROL て] 作成されます。これにより、[!UICONTROL THEN] 演算子を設定し、[!UICONTROL AFTER] 演算子のドロップダウンを展開して、週の数値を設定できます。
 
 ![](assets/after_operator.png)
 
@@ -380,7 +380,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 >
 >「within」句の「THEN」ステートメントの間に、たとえば「within 1 search keyword instance（1 個の検索キーワードのインスタンス内）」や「within 1 eVar 47 instance（1 個の eVar 47 インスタンス内）」というように追加できます。これにより、ディメンションの 1 個のインスタンス内にセグメントが制限されます。
 
-**** 例:ページAを訪問した後、5分以内にページBを訪問した訪問者。
+****&#x200B;例:ページAを訪問した後、5分以内にページBを訪問した訪問者。
 
 ![](assets/time_between_within_operator.png)
 
@@ -396,11 +396,11 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 [!UICONTROL Within] および [!UICONTROL After] は、セグメントの両端でエンドポイントの最大値と最小値を指定するために使用します。
 
-**** 例:ページAを訪問した訪問者が、2週間後に、1か月以内にページBに訪問した。
+****&#x200B;例:ページAを訪問した訪問者が、2週間後に、1か月以内にページBに訪問した。
 
 ![](assets/time_between_using_both_operators.png)
 
-**セグメント** の作成:2 [!UICONTROL つのヒット] コンテナを [!UICONTROL 訪問者] コンテナ内に順に並べて、セグメントを作成します。次に、[!UICONTROL After] 演算子と [!UICONTROL Within] 演算子を設定します。
+**セグメント**&#x200B;の作成:2 [!UICONTROL つのヒット] コンテナを [!UICONTROL 訪問者] コンテナ内に順に並べて、セグメントを作成します。次に、[!UICONTROL After] 演算子と [!UICONTROL Within] 演算子を設定します。
 
 ![](assets/within_after_together.png)
 
