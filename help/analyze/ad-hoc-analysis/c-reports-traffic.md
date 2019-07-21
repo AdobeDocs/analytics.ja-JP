@@ -1,0 +1,140 @@
+---
+description: トラフィックソースレポートでは、訪問者の Web サイトでの行動を詳しく把握できます。
+seo-description: トラフィックソースレポートでは、訪問者の Web サイトでの行動を詳しく把握できます。
+seo-title: トラフィックソースレポート
+solution: Analytics
+title: トラフィックソースレポート
+topic: Ad Hoc Analysis
+uuid: 246afbdc-9f7b-4956- a44a- b7aad948f392
+translation-type: tm+mt
+source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+
+---
+
+
+# トラフィックソースレポート
+
+トラフィックソースレポートでは、訪問者の Web サイトでの行動を詳しく把握できます。
+
+## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+
+トラフィックソースレポートでは、訪問者の Web サイトでの行動を詳しく把握できます。
+
+トラフィックソースレポートでは、次のことができます。
+
+* 訪問者の行動について重要な側面を分析する。
+* トラフィックパターンを監視して把握する。
+* よく閲覧されるサイトコンテンツを特定する。
+* 測定可能な基準によって訪問者をセグメント化する。
+
+**共通の持続性**
+
+[!UICONTROL トラフィックソース]では、すべてのレポート値は、値が上書きされるか訪問が終了するまで保持され、クレジットを受け取ります。以前は、保持されたのはキーワードと参照ドメインのみでした。例えば、訪問者が「DVD」で Google 検索を行い、その結果サイトでの $100 の購入につながった場合、レポートでは $100 のクレジットが「DVD」というキーワードにも Google 検索エンジンにも割り当てられます。This functionality is unalterable, regardless of [!DNL Admin Console] settings.
+
+## 検索キーワード {#concept_071FDCBD0A3B4242BA00744786D1C59C}
+
+すべての検索、有料検索、自然検索について、キーワードの詳細を示します。
+
+<!-- 
+
+c_reports_search_keyword.xml
+
+ -->
+
+** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
+
+** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
+
+** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
+
+## 検索エンジン {#concept_351CDE4F5FC44371B6B657064E125134}
+
+すべての検索、有料検索、自然検索について、訪問者が使用した検索エンジンを表示します。
+
+<!-- 
+
+c_reports_search_engines.xml
+
+ -->
+
+** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. 訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
+
+** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. 訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
+
+** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. 訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
+
+## 参照ドメイン {#concept_804614DF21C14C9FB542451B30F92788}
+
+<!-- 
+
+c_reports_ref_domains.xml
+
+ -->
+
+貴社サイトの成功指標に最も貢献した顧客を誘導したドメインを示します。リファラーは大きく「ドメイン」と「URL」というカテゴリに分けられます。ドメインは、ドメイン名のことであり、検索文字列や添付のサブディレクトリのない基本ドメインとして表示します。URL には基本ドメイン名と、クエリ文字列またはサブディレクトリが含まれます。
+
+## オリジナルの参照ドメイン {#concept_EB18251DF70343169B46BB59543A579A}
+
+<!-- 
+
+c_reports_original_ref_domains.xml
+
+ -->
+
+サイトに顧客を送り込んだオリジナルリファラーを表示します。顧客はサイトを何度も訪問しますが、訪問ごとに参照元が異なるかもしれません。このレポートは、サイトに初めて顧客が来たとき、どのように参照されたかを示します。これは顧客が同じリファラーを継続して使っているかを見たり、サイトに顧客が導かれてきたパターンを見るのに役立ちます。訪問者数をオリジナルリファラー別に表示したり、各オリジナルリファラーのどのくらいの売上高を生み出しているかなどを見ることもできます。リファラーレポートは、訪問者がサイトに来訪するたびに入力できます。1 セッション中に訪問者がサイトに複数回来訪した場合も同様です（訪問の期限が切れる前に）。
+
+## リファラー {#concept_40CF9C2D10B94E82819BC65A232F05C3}
+
+訪問者がどのドメインや URL から Web サイトに来訪したか、訪問者が Web サイトをどのような方法で見つけたか、およびこれらの参照場所から Web サイトへの訪問回数が表示されます。
+
+<!-- 
+
+c_reports_referrers.xml
+
+ -->
+
+例えば、訪問者がサイト A からリンクをクリックしてサイトに来訪した場合、ドメインの一部として定義されていない限り、サイト A がリファラーとなります。Reports and Analytics の導入時に、導入コンサルタントが自社 Web サイトの一部とするドメインや URL の定義をお手伝いすることができます（この変更は、導入後に行うこともできます）。
+
+こうした定義されたドメインおよび URL を含まないドメインや URL は、リファラーと見なされます。例えば、Web ページ A と Web ページ B が内部 URL フィルターに含まれていて、Web ページ C は含まれていないとします。この場合、Web ページ C がリファラーと見なされます。
+
+詳しくは、[ ヘルプの「](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin)内部 URL フィルター[!DNL Admin Console]」を参照してください。
+
+>[!NOTE]
+>
+>Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. 例えば [!DNL https://mail.yahoo.com] からの訪問は、プロトコルが [!DNL https://] :// なので、電子メールリファラーとしてカウントされません。Outlook からの電子メールは「手動入力 / ブックマーク」行に表示されますが、ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「検索エンジン」行に表示されます。
+
+## リファラータイプ {#concept_689E42D8F96C450DA41C7167C7388198}
+
+各訪問における訪問者の参照サイトを追跡して記録することで、各訪問で訪問者がどのようにしてサイトを見つけたかを知ることができます。
+
+<!-- 
+
+c_reports_ref_types.xml
+
+ -->
+
+以下のリストに、様々なタイプのリファラーの定義を示します。
+
+* **&#x200B;その他の Web サイトリファラーは、（サイトの一部として定義されていない）別の Web サイト上のページにあるリンクをクリックした結果、Web サイトに到達した場合に記録されます。
+* **&#x200B;検索エンジンリファラーは、訪問者が検索エンジンを使ってサイトにアクセスした場合に記録されます。
+* **&#x200B;手動入力/ブックマークリファラーは、次の場合に記録されます。
+
+   * 訪問者がブラウザー以外のリンク（例：電子メールのリンク）を通じてサイトに入る場合。
+   * 訪問者がブラウザーに直接サイトの URL を入力する場合。
+   * 訪問者が個人のハードドライブ上にある HTML リンクをクリックする場合。
+   * 訪問者がブラウザーのブックマークを選択してサイトにアクセスする場合。
+
+**定義**
+
+このレポートを実行すると、以下の行項目が表示されることがあります。
+
+**サイト内**：これらの項目は、内部 URL フィルターによってタグ付けされた URL です。これらの項目はリファラーインスタンスとしてはカウントされませんが、他の指標についてレポートするときに表示されることがあります。
+
+** Java Script**はありません:JavaScriptがないので、タイプが識別できませんでした（不明）。これは、リファラー情報がクライアントのブラウザーから提供されなかったため、JavaScript をサポート可能かどうかがレポートされないことを意味します。これらは「リファラーインスタンス」としてはカウントされませんが、他の指標をレポートするときに表示されることがあります。
+
+**USENET（ニュースグループ）**：これは、リファラーの URL が [!DNL news://] :// で始まっていたことを意味します。つまり、リファラーリンクは Web ページではなく USENET ニュースグループで投稿されました。
+
+>[!NOTE]
+>
+>Referrer Type logic matches other traffic sources reports (such as [!UICONTROL Referrers] and [!UICONTROL Referring Domains]). この変更によって、[!UICONTROL リファラータイプ]レポートの「サイト内」と「JavaScript が有効になっていません」という行項目の発生が減少するか、発生されなくなります。
+
