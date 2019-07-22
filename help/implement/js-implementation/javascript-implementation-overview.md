@@ -49,8 +49,7 @@ The easiest and recommended way to send data to [!DNL Analytics] is by using [Dy
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
     <draft-comment> 
      <p><code>VisitorAPI.js</code> の先頭部分に、以下の訪問者 ID 初期化コードを追加します。 </p> 
-     <code class="syntax javascript">var visitor= Visitor. getInstance（"INSERT- MCORG- ID- HERE"）;visitor. trackingServer="INSERT- TRACKING- SERVER- HERE";//s. trackingServer visitor visitor. trackingServerSecure="INSERT- SECURE- TRACKING- SERVER- HERE";//sameas s. trackingServerSecure/*== DO NOT ALTER ANYTHING BELOW THIS LINE== </code>
-  
+     <code class="syntax javascript">var visitor= Visitor. getInstance（"INSERT- MCORG- ID- HERE"）;visitor. trackingServer="INSERT- TRACKING- SERVER- HERE";//s. trackingServer visitor visitor. trackingServerSecure="INSERT- SECURE- TRACKING- SERVER- HERE";//sameas s. trackingServerSecure/*== DO NOT ALTER ANYTHING BELOW THIS LINE== </code>  
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> "INSERT- MCORG- ID- HERE" </code> -（必須） Adobe Experience Cloudのプロビジョニングを行うと、このAdobe Experience Cloud組織IDが管理者に送信されます。 </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code>"INSERT-TRACKING-SERVER-HERE"</code> -（必須）Analytics トラッキングサーバー。 </li> 
