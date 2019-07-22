@@ -9,7 +9,7 @@ title: 設定変数
 topic: 開発者と導入
 uuid: a19484b6- e350-4c12- b4d6- a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 696e7ed6dc6648cf523bc81e6cd40c7a06115484
+source-git-commit: 72f2b06f53c6a3c1cae965a1a9b030b0123bfca1
 
 ---
 
@@ -667,11 +667,13 @@ trackDownloadLinks.xml
 
 **例** {#section_BE2FA1873EBD4C5CA95E98B922B10280}
 
-```js
+```
+js
 s.trackDownloadLinks=true 
 ```
 
-```js
+```
+js
 s.trackDownloadLinks=false
 ```
 
@@ -702,17 +704,20 @@ trackExternalLinks.xml
 
 *`trackExternalLinks`変数には、「true」または「false」を設定する必要があります。*
 
-```js
+```
+js
 s.trackExternalLinks=true|false
 ```
 
 **例** {#section_EF18DB05884240F5B5062631E68E10A7}
 
-```js
+```
+js
 s.trackExternalLinks=true 
 ```
 
-```js
+```
+js
 s.trackExternalLinks=false
 ```
 
@@ -741,7 +746,8 @@ trackInlineStats.xml
 
 **構文と可能な値** {#section_46B2C1DD0D104A01A9C239929420CD90}
 
-```js
+```
+js
 s.trackInlineStats=true|false
 ```
 
