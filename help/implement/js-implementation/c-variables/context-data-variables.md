@@ -26,12 +26,10 @@ prop と eVar にコードで明示的に値を割り当てる代わりに、処
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->
-```>
+>```>
 >and 
 >
->
-```>
+>```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 

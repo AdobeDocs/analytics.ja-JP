@@ -74,7 +74,7 @@ t_dashboard_add.xml
 
 レポートを（レポートレットとして）ダッシュボードに追加する前に、ダッシュボードのレイアウトを指定します。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** /ダッシュボード **[!UICONTROL の管理に移動]**&#x200B;します。
+1. **[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL の管理に移動 ダッシュボード]** します。
 1. Click **[!UICONTROL Add Dashboard]**.
 1. ダッシュボード名を入力します。
 1. Click **[!UICONTROL 3 x 2]** or **[!UICONTROL 2 x 2]** to specify how many reportlets you want on the dashboard page.
