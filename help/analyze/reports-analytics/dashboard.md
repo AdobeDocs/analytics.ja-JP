@@ -106,12 +106,12 @@ t_dashboard_add_report.xml
 1. レポートの実行.
 1. **[!UICONTROL 「ダッシュボード」をクリックします。]**
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
-1.  （オプション）日付の範囲を設定します。 
+1.（オプション）日付の範囲を設定します。 
 
    * **[!UICONTROL 周期的]**：期間（日単位、月単位など）に従って、時間が経過すると日付が変わります。例えば、今日が 1 月 17 日で、日付を 1 月 15 ～ 16 日に設定するとします。Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
    * **[!UICONTROL 特定日]**：時間が経過しても日付が変わらないようにします。
 
-1. （オプション）発行配信リストを上書きします。
+1.（オプション）発行配信リストを上書きします。
 
    **[!UICONTROL 発行リストの上書き：]**&#x200B;このオプションを有効にすると、このレポートレットで参照されたレポートスイートが発行リストの配信時に常に使用されます。このオプションを無効にすると、発行リストのレポートスイートがこのレポートレットを置き換えます。
 
@@ -216,7 +216,7 @@ t_dashboard_branding.xml
 1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL カンパニー設定]**
 1. [!UICONTROL 会社の設定] ページで、"Adobe Experience Cloudの **[!UICONTROL コブランド化」をクリック]**&#x200B;します。
 1. Click **[!UICONTROL Enable Co-Branding]**.
-1.  画像を参照してアップロードし、「**[!UICONTROL 保存]」をクリックします。**
+1. 画像を参照してアップロードし、「**[!UICONTROL 保存]」をクリックします。**
 
    ブラウザーで画像を表示する場合に最良の結果を得るには、100px X 30px の画像をアップロードしてください。PDF 出力の場合は、417px X 125px（300 dpi）の画像をアップロードすると最適に表示されます。画像が大きすぎる場合は、アスペクト比を維持しながら縮小されます。
 
