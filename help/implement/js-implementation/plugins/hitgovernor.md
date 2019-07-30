@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091ae-005a-43c2- b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
 
 ---
 
@@ -55,66 +55,65 @@ hitGovernor プラグインを導入する手順は次のとおりです。
 
    ```
     s.registerPostTrackCallback(function(){ 
-       
-<b> s.governor();</b> 
-   });
+    s.governor();
+   }); 
    ```
 
-   Below the doPlugins section of your AppMeasurement file, include the plugin code contained in [Plugin Source Code](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), below.
+   AppMeasurement ファイルの doPlugins セクションの下に、以下の[プラグインのソースコード](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)に含まれているプラグインコードを追加します。
 
-   The hit limit threshold, hit timing threshold, and traffic exclusion time frames can all be overridden by setting these variables, outside of the plugin itself and preferably with your other configuration variables:
+   ヒット数上限のしきい値、ヒット時間のしきい値およびトラフィック除外期間は、プラグイン自体の外で以下の変数を設定することで変更できます。他の設定変数と一緒に設定することをお勧めします。
 
 <table id="table_9959A40F5F0B40B39DB86E21D03E25FD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Syntax </th> 
-   <th colname="col3" class="entry"> Description </th> 
+   <th colname="col1" class="entry"> 変数 </th> 
+   <th colname="col2" class="entry"> 構文 </th> 
+   <th colname="col3" class="entry"> 説明 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Hit Limit Threshold </p> </td> 
+   <td colname="col1"> <p>ヒット数上限のしきい値 </p> </td> 
    <td colname="col2"> <p> <code> s.hl = 60; </code> </p> </td> 
-   <td colname="col3"> <p>The total number of hits that should not be exceeded during a given timeframe. </p> </td> 
+   <td colname="col3"> <p>特定の期間におけるヒット数の上限。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Hit Time Threshold </p> </td> 
+   <td colname="col1"> <p>ヒット時間のしきい値 </p> </td> 
    <td colname="col2"> <p> <code> s.ht = 10; </code> </p> </td> 
-   <td colname="col3"> <p>The window, in seconds, for when hits are recorded. This number is divided by six to determine the rolling timing windows. </p> </td> 
+   <td colname="col3"> <p>ヒット数を記録する秒数。この数値を 6 で割ることで期間が決定されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Exclusion Threshold </p> </td> 
+   <td colname="col1"> <p>除外のしきい値 </p> </td> 
    <td colname="col2"> <p> <code> s.he = 60; </code> </p> </td> 
-   <td colname="col3"> <p>Number of days that the exclusion cookie is set for that visitor. </p> </td> 
+   <td colname="col3"> <p>該当の訪問者に対して除外 Cookie を設定する日数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-   >[!NOTE]
-   >
-   >Your implementation might use a different object name than the default analytics "s" object. If so, please update the object name accordingly.
+>[!NOTE]
+>
+>実装では、デフォルトの解析の"s"オブジェクトとは異なるオブジェクト名を使用することがあります。その場合は適切なオブジェクト名に変更してください。
 
-1. Configure processing rules.
+1. 処理ルールを設定します。
 
-   This plugin records flagged exceptions as context data in a link tracking image request. As such, processing rules must be configured to assign track those flagged exceptions into appropriate variables like those below.
+   このプラグインは、リンクトラッキングイメージリクエストで、マークされた除外をコンテキストデータとして記録します。そのため、処理ルールを設定し、マークされた該当の除外を以下のような適切な変数に割り当て、追跡する必要があります。
 
    ![](assets/hitgov-config.png)
 
-1. (Optional) Include the traffic-blocking code in doPlugins.
+1. （オプション）トラフィックのブロックコードを doPlugins に追加します。
 
-   After traffic has been identified as an exception, any subsequent hits from that visitor can be blocked entirely by including this code within the `doPlugins` function:
+   トラフィックを例外として識別した後は、以下のコードを `doPlugins` 関数内に追加することで、該当の訪問者の以降のヒットをすべてブロックできます。
 
    ```
    //Check for hit governor flag 
          if(s.Util.cookieRead('s_hg')==9)s.abort=true;
    ```
 
-   If this code is not included, traffic from that visitor will be flagged but not blocked. 
+   このコードを追加しないと、該当の訪問者のトラフィックは例外としてマークされるだけでブロックされません。
 
-## Plugin Source Code {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## プラグインのソースコード {#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
-This code should be added below the doPlugins section of your AppMeasurement library.
+このコードは、AppMeasurement ライブラリの doPlugins セクションの下に追加する必要があります。
 
 ```
 //Hit Governor (Version 0.1 BETA, 11-13-17) 
@@ -133,6 +132,5 @@ s.governor=new Function("",""
 +"',contextData.exceptionFlag';s.contextData['exceptionFlag']='true';" 
 +"s.tl(this,'o','exceptionFlag');}ha[0]++;s.Util.cookieWrite('s_hc',h" 
 +"a.join('|'));"); 
-
 ```
 
