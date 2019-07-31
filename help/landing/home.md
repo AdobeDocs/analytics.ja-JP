@@ -4,14 +4,14 @@ seo-title: Adobe Analytics技術ドキュメントおよびセルフサービス
 description: Analyticsユーザーガイドとリソース
 seo-description: Adobe Analytics技術ドキュメント、リリースノートおよびセルフサービスユーザーガイドの完全なリストです。
 translation-type: tm+mt
-source-git-commit: e922c16fe84d27dbe8d59df0af1c1b4e3ef1d25b
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
 # Adobe Analyticsドキュメント
 
-[![解析](assets/analyze_50px.png)](/help/analyze/home.md)ツール[ガイド](/help/analyze/home.md) - Adobe Analyticsで使用できるすべての分析ツールの機能を紹介します。最初と最前面では、分析の主要な分析と視覚化ツールである分析ワークスペースに関する詳細なドキュメントを提供しています。
+[![ツール](assets/analyze_50px.png)](/help/analyze/home.md) [解析ツールガイド](/help/analyze/home.md) - Adobe Analyticsで使用できるすべての分析ツールが機能します。最初と最前面では、分析の主要な分析と視覚化ツールである分析ワークスペースに関する詳細なドキュメントを提供しています。
 
 [![管理](assets/admin_50px.png)](/help/admin/home.md)者管理[ガイド](/help/admin/home.md) -レポートスイート、データガバナンス、サーバー呼び出しの使用状況などを設定するための管理タスク。
 
