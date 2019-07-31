@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: エンドユーザー
+audience: end-user
 user-guide-title: Analytics解析ガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
-      + [アトリビューション](analysis-workspace/attribution-iq/attribution.md)
+      + [帰属](analysis-workspace/attribution-iq/attribution.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison (IQ) {#segment-comparison}
          + [セグメントIQの概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -213,7 +213,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [リクエストの作成と編集のためのオフラインモード](report-builder/manage-requests/offline-mode.md)
    + [Report Builderオプション](report-builder/options.md)
    + [レポートリクエストのスケジュール設定](report-builder/schedule-report-requests.md)
-   + [データリクエストのスケジュール設定](report-builder/t-schedule-a-data-request.md)
+   + [ワークブックのスケジュール設定](report-builder/t-schedule-a-data-request.md)
    + [スケジュールされたタスクマネージャー](report-builder/r-arb-scheduled-reports.md)
    + ワークブックライブラリ {#workbook-library}
       + [ワークブックのアップロード](report-builder/workbook-library/t-upload-a-workbook.md)
