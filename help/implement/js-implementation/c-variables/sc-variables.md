@@ -9,22 +9,17 @@ title: 変数の概要
 topic: 開発者と導入
 uuid: 067d0135-572a-4a44- af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
 
 # 変数の概要
 
-Analytics には、Analytics データを収集するための変数が多数用意されています。例えば、pageName 変数の値は、レポートされる Web ページの名前になります。ここでは、AppMeasurement でサポートされる変数を示します。
+Analytics には、Analytics データを収集するための変数が多数用意されています。例えば、pageName 変数の値は、レポートされる Web ページの名前になります。ここでは、AppMeasurementでサポートされる変数を示します。
 
-Analytics レポートで各変数がどのように表示されるかについては、[変数 - レポートでの使用方法](https://marketing.adobe.com/resources/help/en_US/reference/?f=variable_definitions)を参照してください。
-
-<!-- 
-
-<p>The following is for a client issue reported by Gundy on 1/22/16 in an email "Documentation and JavaScript Update Request". This may be a KB issue. Awaiting word from Russ. - Blake </p>
-
- -->
+For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## 変数の設定方法 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
