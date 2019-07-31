@@ -5,7 +5,7 @@ seo-title: Adobe Analytics-主要概念
 title: Adobe Analytics-主要概念
 uuid: ef5701c5-2d3e-4847-851f-9312d55db1a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 
 ---
 
@@ -14,119 +14,42 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
 
-## Adobe Analytics - key concepts {#concept_AC30B00A424E4A8492A4CA7B4E7D998C}
+## Analytics tools {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
 
-このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
-
-## Analytics products {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
-
-<!-- 
-
-analytics_products.xml
-
- -->
-
-<table id="table_5F47895B01CE42E98C2C89508377E1E8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 製品 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-   <th colname="col3" class="entry"> ドキュメントリンク </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Reports &amp; Analytics（旧称 SiteCatalyst） </td> 
-   <td colname="col2"> <p>リアルタイムの Web サイトレポートと分析を行う、サブスクリプションベースのホストソリューションです。Analytics パッケージのスターターツールです。 </p> <p>アクセス先：<a href="https://sc.omniture.com/login/" format="https" scope="external">https://sc.omniture.com/login/</a> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/sc/user/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Connectors（旧称 Genesis） </td> 
-   <td colname="col2"> サードパーティのアプリケーションから Analytics にトラッキングデータをインポートできます。これにより、パフォーマンスに関する一元的なエンドツーエンドの可視性が実現します。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works" format="https" scope="external"> https://marketing.adobe.com/developer/ja/documentation/genesis/c-overview-how-it-works</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Warehouse </td> 
-   <td colname="col2"> 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 </td> 
-   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/reference/data_warehouse.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Report Builder </td> 
-   <td colname="col2"> Microsoft Excel のアドインで、Excel ワークシート内の Reporting and Analytics データからカスタマイズされたリクエストを作成する機能を提供します。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/arb/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Ad Hoc Analysis（旧称 Discover） </td> 
-   <td colname="col2"> Reports &amp; Analytics よりも柔軟性の高いレポートを提供します。無制限のリアルタイム訪問者情報によって、価値の高い顧客セグメントを特定できます。データを詳細に分析し、顧客について深く掘り下げ、包括的な情報を正確に把握できます。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/dsc/index.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/dsc/index.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Dynamic Tag Management（DTM） </td> 
-   <td colname="col2"> Analytics、Target およびその他のタグを、ドメイン数にかかわらず、すべてのサイトにわたって管理できます。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/dtm/dtm_home.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/dtm/dtm_home.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Adobe Mobile Services </td> 
-   <td colname="col2"> <p>アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 </p> <p>アクセス先：<a href="https://mobilemarketing.adobe.com/" format="https" scope="external">https://mobilemarketing.adobe.com/</a> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/mobile/" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/mobile/</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Data Workbench（旧称 Insight） </td> 
-   <td colname="col2">複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 <p><i>Analytics Premium の一部のみ</i> </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/insight/client/" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/insight/client/</a> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 製品 | 説明 | ドキュメントリンク |
+|--- |--- |--- |
+| Analysis Workspace | 堅牢なカスタム分析プロジェクトを構築し、インサイトを民主化するブラウザーソリューション。Reports&amp; Analyticsよりも柔軟性の高いレポートを提供します | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Reports &amp; Analytics（旧称 SiteCatalyst） | レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。 | [https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
+| Report Builder | Adobe Analyticsデータからカスタマイズされたリクエストを作成し、Microsoft Excelを使用して視覚化できるExcelアドインです。 | [https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
+| Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析用Javaベースツール。2019年第3四半期に提供終了。 | [https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Data Workbench（旧称 Insight） | 複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 | [https://marketing.adobe.com/resources/help/ja_JP/insight/client/](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
+| Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
+| Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。アクセス先：https://mobilemarketing.adobe.com/ | [https://docs.adobe.com/content/help/en/mobile-services/using/home.html](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Adobe Exchange Data Connectors（旧称Genesis） | サードパーティアプリケーションからAnalyticsにトラッキングデータをインポートして、パフォーマンスのエンドツーエンドの可視性をエンドツーエンドで実現できます。 | [https://marketing.adobe.com/developer/ja/documentation/genesis/c-overview-how-it-works](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
+| Dynamic Tag Management（DTM） | Analytics、Target およびその他のタグを、ドメイン数にかかわらず、すべてのサイトにわたって管理できます。 | [https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
+| Adobe Launch | アドビのWebサイトタグおよびモバイルSDK管理機能の次世代。 | [https://docs.adobe.com/content/help/en/launch/using/overview.html](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
-<!-- 
+追加された Adobe Analytics の用語集を参照するには、[ここをクリック](https://docs.adobe.com/content/help/en/analytics/technotes/terms.html)してください。
 
-key_terminology.xml
+| 用語 | 説明 | ドキュメントリンク |
+|--- |--- |--- |
+| prop（カスタムトラフィック） | ページごとのサイトトラフィックアクティビティを追跡するために使用されるディメンション。prop はページをまたいで保持されません。トラフィック変数の主要な用途を次に示します。 <ul><li>特定の値の「最も人気がある」を検索する単純なカウント</li><li>ユーザーがサイトをどのように遷移しているかを表示する </li></ul><br>トラフィック変数の例:ページ名、サイトセクション、ブラウザー</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| eVar（カスタムコンバージョン） | 自分によってカスタマイズされた一定期間保持されるディメンション。有効期限オプションには、イベントの有効期限、訪問の有効期限、または X-day 有効期限が含まれ、該当の変数で実行される分析のタイプによって決定します。<br>eVarとpropの主な違い:</br><ul><li>propは、持続性が削除されるので、多くの場合パス分析に使用されます。</li><li>eVarは多くの場合コンバージョン分析に使用されます。</li></ul><br>コンバージョン変数の例:内部検索用語、内部プロモーション、外部キャンペーン（s. campaign）</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| イベント/指標（s. events） | サイト上で訪問者がとる主要アクションを測定する指標。イベントには、カウンター、数値、通貨の 3 タイプがあります。イベントは、コンバージョン変数（eVar）レポートに追加すると便利です。eVar は発生した内容に関する定性的情報を提供し、イベントは発生した内容に関する定量的情報を提供します。<br>eVarとイベントの主な違い:</br><ul><li>eVarは、誰が、何を、またはコンバージョンに影響したかを示します</li><li>発生したコンバージョンの数を測定するイベント</li></ul><br>コンバージョンイベントの例には、購入回数、アプリケーション開始、リード、売上高があります。</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
+| コンポーネント | プロジェクトにドラッグ&amp;ドロップできるディメンション、指標、セグメントおよび時間の精度（日付範囲）。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
+| ディメンション | eVar、prop、分類および標準的なアドビの収集された値のコレクション。 | [https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
+| 指標 | 実装されたイベントおよび計算指標のコレクション。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
+| 計算指標 | 導入でキャプチャされた既存の指標からカスタム指標を派生させる機能。 | [https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
+| セグメント | 強力かつ重要な閲覧者セグメントを作成、管理、共有し、Analytics レポートに適用できます。セグメントは Analytics 製品全体で共有されます。また、Experience Cloud 全体で共有することができます。 | [https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
+| 時間（日付範囲） | 任意の期間に日付をフィルターし、分析で再利用できるカスタム日付範囲を作成できます。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
+| ビジュアライゼーション | プロジェクトでのデータの配信に役立つリッチビジュアル。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
+| キュレーション | プロジェクトまたは仮想レポートスイートからアクセスできるコンポーネントを制限できます。 | [VRSキュレーションプロジェクト](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[のキュation比較](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
- -->
 
-追加された Adobe Analytics の用語集を参照するには、[ここをクリック](https://marketing.adobe.com/resources/help/en_US/reference/glossary.html)してください。
 
-<table id="table_84ACDB415EE74A13B1BAD5D03626C7B1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 用語 </th> 
-   <th colname="col2" class="entry"> 定義 </th> 
-   <th colname="col3" class="entry"> ドキュメントリンク </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> レポートスイート </td> 
-   <td colname="col2">Analytics レポートにおける最も基本的なレベルのセグメントです。各レポートスイートは、レポート用の単独サイトとみなされるデータセットを参照します。レポートスイートは、通常、開発／QA（内部テストサイト）および実稼動（公開サイト）に分類されます。 <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html" format="https" scope="external">仮想レポートスイート</a>では、レポートスイートにセグメントを適用し、その組み合わせに基づいて新規ビュー（仮想レポートスイート）を作成することで、特定のセグメントに基づいてユーザーのデータアクセスを制限できます。仮想レポートスイートには、基本レポートスイートと同じようにアクセスできます。 </p> </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suite_gloss.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/reference/report_suite_gloss.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> グローバルレポートスイート </td> 
-   <td colname="col2"> 1 つのレポートスイートですべてのプロパティを表示します。グローバルスイートを作成するためにマルチスイートタギングが導入されています。これにより、イメージリクエストが個々のレポートスイートに加えて単一の「グローバル」レポートスイートに送信されます。 </td> 
-   <td colname="col3">グローバルレポートスイート： <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/rollup_report_suite.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/reference/rollup_report_suite.html</a> </p> <p>マルチスイートタギング： </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/multisuite_tagging.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/reference/multisuite_tagging.html</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> セグメント化 </td> 
-   <td colname="col2"> 強力かつ重要な閲覧者セグメントを作成、管理、共有し、Analytics レポートに適用できます。セグメントは Analytics 製品全体で共有されます。また、Experience Cloud 全体で共有することができます。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_home.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_home.html</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 管理ツール </td> 
-   <td colname="col2"> 管理者がツールと変数の設定を管理したり、高度なツール機能にアクセスしたりすることができる Analytics の領域です。 </td> 
-   <td colname="col3"><a href="https://marketing.adobe.com/resources/help/en_US/reference/admin.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/ja_JP/reference/admin.html</a> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
-
-<!-- 
-
-key_reports.xml
-
- -->
+## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
 <table id="table_5CD38BD3BE854E69B6925EA3F02AFC92"> 
  <thead> 
