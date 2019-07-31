@@ -4,7 +4,7 @@ seo-title: Analytics解析ヘルプ
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 このガイドには、Adobe Analyticsで使用できるすべての分析ツールが用意されています。最初と最前面では、分析の主要な分析と視覚化ツールである分析ワークスペースに関する詳細なドキュメントを提供しています。
 
-## 主要な記事の分析
+## 主要解析ツールの記事
 
 * [Analysis Workspaceはじめに](analysis-workspace/home.md)
 * [Report Builderはじめに](report-builder/home.md)
