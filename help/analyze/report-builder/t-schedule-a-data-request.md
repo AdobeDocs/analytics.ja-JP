@@ -7,18 +7,26 @@ title: データリクエストのスケジュール設定
 topic: Report Builder
 uuid: f6d8c90f- e185-4d60-8035- f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
-# データリクエストのスケジュール設定
+# ワークブックのスケジュール設定
 
-時刻やファイル形式を指定してレポートをスケジュール送信することができます。
+ワークブックのスケジュール設定、アドバンス配信オプションの指定、受信者の指定およびスケジュールの履歴の表示を行うことができます。アドバンス配信オプションでは、特定の時間または間隔で送信するワークブックを設定できます。ワークブックを送信するファイル形式を指定することもできます。
 
-**データリクエストをスケジュールするには**
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. レポートをアップロードする場合のファイルサイズの上限は 5 MB です。
 
-1. レポートを作成して保存します。
+Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. （Reports &amp; Analytics ヘルプの[レポートのスケジュールと配信](/help/analyze/reports-analytics/scheduling.md)を参照してください）。
+
+>[!NOTE]
+>
+>ワークブックをスケジュールするには、Excel2007または互換パックがインストールされている必要があります。Report Builderライセンスごとに最大10個のスケジュール済みワークブックを使用できます。ただし、他のライセンスの最大件数を減らすことにより、最大件数を増やすことができます。To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. スケジュールされた（またはワークブックライブラリにアップロードされた）ワークブックが削除され、28か月以上にわたってタッチ（更新、置き換え）されていません。
+
+**ワークブックをスケジュールするには**
+
+1. ワークブックを生成して保存します。
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    「[!UICONTROL 予定レポート]」タブでは、作成したすべてのタスクと残りのタスク数などの概要が表示されます。
@@ -29,7 +37,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 1. [!UICONTROL 基本のスケジュールウィザード]で、次のオプションを設定します。
 
-* **レポート**&#x200B;の選択:レポートの名前。新規の予定レポートでは、このフィールドに実行中のワークブック名が入力されます。
+* **レポート**&#x200B;の選択:ワークブックの名前。新しいスケジュールされたワークブックの場合、このフィールドにはアクティブなワークブック名が入力されます。
 
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
@@ -57,7 +65,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>送信先：電子メール </p> </td> 
-   <td colname="col2"> <p>レポート受信者の電子メール。 </p> </td> 
+   <td colname="col2"> <p>ワークブックの電子メール受信者。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>送信先：発行リスト </p> </td> 
@@ -73,7 +81,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>スケジュール </p> </td> 
-   <td colname="col2"> <p> レポートを送信するタイミングを指定します（即時、毎時、毎日、毎月、毎年から選択できます）。 </p> </td> 
+   <td colname="col2"> <p> ワークブックをいつ送信するかを指定できます。（即時、毎時、毎日、毎月、毎年から選択できます）。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +102,15 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>配信時間 </p> </td> 
-   <td colname="col2"> <p>レポートを今すぐ配信するか、任意の配信時間を指定します。タイムゾーンは変更できます。 </p> </td> 
+   <td colname="col2"> <p>ワークブックをすぐにスケジュールしたり、後でスケジュールしたりできます。タイムゾーンは変更できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>繰り返しパターン </p> </td> 
-   <td colname="col2"> <p>繰り返す周期を指定します。。 </p> </td> 
+   <td colname="col2"> <p>選択内容に基づいてワークブックを送信します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>繰り返しの範囲 </p> </td> 
-   <td colname="col2"> <p>レポートの配信を開始および停止するタイミングを指定します。 </p> <p> <p>注意：現在の期間（週、月、四半期、年）の最初の日にレポートをスケジュールすると、その期間の最初の日のみにデータが配信されます。 </p> </p> </td> 
+   <td colname="col2"> <p>ワークブックの配信を開始および停止するタイミングを指定できます。 </p> <p> <p>注意:現在の期間（週、月、四半期、年）の最初の日にワークブックをスケジュールすると、最初の日のデータのみが返されます。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>「<b>ファイルオプション</b>」タブ </p> </td> 
@@ -118,7 +126,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>発行リスト </p> </td> 
-   <td colname="col2"> <p> 予定レポートを複数の発行リストに対して送信する場合、各リストに対してレポートが一度実行されます。対象レポートスイートは、発行リストに割り当てられたレポートスイートに置き換えられます。 </p> </td> 
+   <td colname="col2"> <p> スケジュールされたワークブックを複数の発行リストに送信する場合、ワークブックはリストごとに1回実行されます。対象レポートスイートは、発行リストに割り当てられたレポートスイートに置き換えられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイルコンテンツの言語 </p> </td> 
@@ -146,4 +154,5 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   [スケジュールされたタスクマネージャー](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31)に予定レポートが表示されます。
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+
