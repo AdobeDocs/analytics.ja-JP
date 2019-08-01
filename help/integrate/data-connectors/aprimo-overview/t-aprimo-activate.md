@@ -8,20 +8,36 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: a3310ec57ce4c68539f07e0d294c8175742c49dc
 
 ---
 
 
-# Activate the Integration{#activate-the-integration}
+# Activate the Integration {#activate-the-integration}
 
 統合を設定するには、Adobe Data Connectors Configuration Wizardを使用します。
 
-1. [Data Connectors]（http://microsite.omniture.com/t2/help/en_US/DataConnectors/index.html）を起動し、 **[!UICONTROL "+追加」]** をクリックして新しい統合を [追加]します（http://microsite.omniture.com/t2/help/en_US/DataConnectors/index.html?f= t_ add_ integration）。
+1. [Data Connectorsを起動](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) し、「 **[!UICONTROL +追加」]** をクリックして新しい統合を [追加](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html)します。
 1. **[!UICONTROL 表示]** リストで「名前」を選択 **** し、 [!DNL ~パートナー~] 統合を空のプラグインスロットにドラッグします。
 1. 次の表の情報を使用して、統合ウィザードを完了します。
 
-   #### タイトル
-   |  |  |
-   |---|---|
-
+| フィールド | 説明 |
+|--- |--- |
+| レポートスイート | この統合からデータを受け取るレポートスイート。 |
+| 統合名 | Data Connectorsがレポートスイートのアクティブ統合リストに表示する統合名を指定します。 |
+| アカウントID | AprimoアカウントIDを指定します。 |
+| Recipient ID | このIDは、Aprimoシステムからの電子メールアドレスのエンコードまたは数値表現です。この「受信者ID"は、サイト受信者ID（買い物かごの放棄、購入など）でのダウンストリーム訪問者の行動に関連付けられています。をAprimoシステムに取り込み、再マーケティング目的で利用できます。 |
+| クリック済み | （必須）電子メールシステムからインポートされた電子メールを保存するAdobe Analyticsイベントを指定します。クリックイベントにより、電子メールメッセージをクリックした訪問者の数を確認できます。 |
+| メッセージID | （必須）一意のメーリングIDを保存します。 |
+| 開封済み | （必須）電子メールシステムからインポートされた電子メールを保存するAdobe Analyticsイベントを指定します。開封イベントでは、電子メールメッセージを開いた訪問者の数を確認できます。 |
+| Recipient ID | （必須）一意の訪問者IDを保存します。 |
+| 送信済み | （必須）電子メールシステムからインポートされた電子メール送信データを保存するAdobe Analyticsイベントを指定します。送信イベントでは、送信された電子メールメッセージの数を確認できます。 |
+| バウンス | （必須）電子メールシステムからインポートされた電子メールの合計バウンスデータを保存するAdobe Analyticsイベントを指定します。合計バウンスイベントを使用すると、配信の問題が原因で受信者に配信されなかった電子メールメッセージの数を確認できます。 |
+| 登録解除 | （必須）電子メールシステムからインポートされた電子メールのUnsubscribingデータを保存するAdobe Analyticsイベントを指定します。登録解除イベントにより、電子メールメッセージを開いたが、組織からの将来の電子メールメッセージをオプトアウトするためのリンク解除リンクをクリックした訪問者の数を確認できます。 |
+| セグメント | この統合により、パートナーセグメントセクションに表示されるパートナー定義のセグメントが作成されます。さらに、統合に含める既存のレポートスイートレベルのセグメントを選択できます。 |
+| Access Requests | 推奨アクセス権限を有効にします。 |
+| データ収集 | Select **JavaScript Plug-in** if you want to use the s_code.js plug-in as the collection model for this integration. |
+Select **Automated Solution** if you want to use an automated collection model for this integration, then specify the unique identifiers used for this integration. このオプションを選択する場合、この統合に使用する一意の識別子を指定します。
+<ul><li>メッセージIDクエリ文字列パラメータ:この値は、電子メールパートナーによってランディングページのURLに付加されるメッセージIDを表します。</li>
+<li>受信者IDクエリ文字列パラメータ:この値は、電子メールパートナーによってランディングページのURLに割り当てられる受取人IDを表します。</li></ul>|
+|ダッシュボードおよびブックマークの生成|統合のダッシュボードとブックマークを自動的に生成します。|
