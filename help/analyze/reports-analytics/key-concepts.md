@@ -5,7 +5,7 @@ seo-title: Adobe Analytics-主要概念
 title: Adobe Analytics-主要概念
 uuid: ef5701c5-2d3e-4847-851f-9312d55db1a8
 translation-type: tm+mt
-source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
+source-git-commit: d3819975bb65ccf345d60474e268ed9d1b1606a7
 
 ---
 
@@ -19,15 +19,15 @@ source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 | 製品 | 説明 | ドキュメントリンク |
 |--- |--- |--- |
 | Analysis Workspace | 堅牢なカスタム分析プロジェクトを構築し、インサイトを民主化するブラウザーソリューション。Reports&amp; Analyticsよりも柔軟性の高いレポートを提供します | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
-| Reports &amp; Analytics（旧称 SiteCatalyst） | レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。 | [https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
-| Report Builder | Adobe Analyticsデータからカスタマイズされたリクエストを作成し、Microsoft Excelを使用して視覚化できるExcelアドインです。 | [https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析用Javaベースツール。2019年第3四半期に提供終了。 | [https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
-| Data Workbench（旧称 Insight） | 複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 | [https://marketing.adobe.com/resources/help/ja_JP/insight/client/](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
-| Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
-| Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。アクセス先：https://mobilemarketing.adobe.com/ | [https://docs.adobe.com/content/help/en/mobile-services/using/home.html](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
-| Adobe Exchange Data Connectors（旧称Genesis） | サードパーティアプリケーションからAnalyticsにトラッキングデータをインポートして、パフォーマンスのエンドツーエンドの可視性をエンドツーエンドで実現できます。 | [https://marketing.adobe.com/developer/ja/documentation/genesis/c-overview-how-it-works](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
-| Dynamic Tag Management（DTM） | Analytics、Target およびその他のタグを、ドメイン数にかかわらず、すべてのサイトにわたって管理できます。 | [https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
-| Adobe Launch | アドビのWebサイトタグおよびモバイルSDK管理機能の次世代。 | [https://docs.adobe.com/content/help/en/launch/using/overview.html](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
+| Reports &amp; Analytics（旧称 SiteCatalyst） | レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。 | [Reports&amp; Analyticsのホーム](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
+| Report Builder | Adobe Analyticsデータからカスタマイズされたリクエストを作成し、Microsoft Excelを使用して視覚化できるExcelアドインです。 | [Report Builderホーム](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
+| Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析用Javaベースツール。2019年第3四半期に提供終了。 | [Ad Hoc Analysisホーム](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Data Workbench（旧称 Insight） | 複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 | [Data Workbench クライアント](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
+| Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [Data Warehouseホーム](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
+| Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 | [Mobile Servicesホーム](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Adobe Exchange Data Connectors（旧称Genesis） | サードパーティアプリケーションからAnalyticsにトラッキングデータをインポートして、パフォーマンスのエンドツーエンドの可視性をエンドツーエンドで実現できます。 | [Data Connectorsホーム](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
+| Dynamic Tag Management（DTM） | Analytics、Target およびその他のタグを、ドメイン数にかかわらず、すべてのサイトにわたって管理できます。 | [DTMホーム](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
+| Adobe Launch | アドビのWebサイトタグおよびモバイルSDK管理機能の次世代。 | [Adobe Launchホーム](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -35,19 +35,17 @@ source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 
 | 用語 | 説明 | ドキュメントリンク |
 |--- |--- |--- |
-| prop（カスタムトラフィック） | ページごとのサイトトラフィックアクティビティを追跡するために使用されるディメンション。prop はページをまたいで保持されません。トラフィック変数の主要な用途を次に示します。 <ul><li>特定の値の「最も人気がある」を検索する単純なカウント</li><li>ユーザーがサイトをどのように遷移しているかを表示する </li></ul><br>トラフィック変数の例:ページ名、サイトセクション、ブラウザー</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
-| eVar（カスタムコンバージョン） | 自分によってカスタマイズされた一定期間保持されるディメンション。有効期限オプションには、イベントの有効期限、訪問の有効期限、または X-day 有効期限が含まれ、該当の変数で実行される分析のタイプによって決定します。<br>eVarとpropの主な違い:</br><ul><li>propは、持続性が削除されるので、多くの場合パス分析に使用されます。</li><li>eVarは多くの場合コンバージョン分析に使用されます。</li></ul><br>コンバージョン変数の例:内部検索用語、内部プロモーション、外部キャンペーン（s. campaign）</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
-| イベント/指標（s. events） | サイト上で訪問者がとる主要アクションを測定する指標。イベントには、カウンター、数値、通貨の 3 タイプがあります。イベントは、コンバージョン変数（eVar）レポートに追加すると便利です。eVar は発生した内容に関する定性的情報を提供し、イベントは発生した内容に関する定量的情報を提供します。<br>eVarとイベントの主な違い:</br><ul><li>eVarは、誰が、何を、またはコンバージョンに影響したかを示します</li><li>発生したコンバージョンの数を測定するイベント</li></ul><br>コンバージョンイベントの例には、購入回数、アプリケーション開始、リード、売上高があります。</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
-| コンポーネント | プロジェクトにドラッグ&amp;ドロップできるディメンション、指標、セグメントおよび時間の精度（日付範囲）。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
-| ディメンション | eVar、prop、分類および標準的なアドビの収集された値のコレクション。 | [https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
-| 指標 | 実装されたイベントおよび計算指標のコレクション。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
-| 計算指標 | 導入でキャプチャされた既存の指標からカスタム指標を派生させる機能。 | [https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
-| セグメント | 強力かつ重要な閲覧者セグメントを作成、管理、共有し、Analytics レポートに適用できます。セグメントは Analytics 製品全体で共有されます。また、Experience Cloud 全体で共有することができます。 | [https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
-| 時間（日付範囲） | 任意の期間に日付をフィルターし、分析で再利用できるカスタム日付範囲を作成できます。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
-| ビジュアライゼーション | プロジェクトでのデータの配信に役立つリッチビジュアル。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
+| prop（カスタムトラフィック） | ページごとのサイトトラフィックアクティビティを追跡するために使用されるディメンション。prop はページをまたいで保持されません。トラフィック変数の主要な用途を次に示します。 <ul><li>特定の値の「最も人気がある」を検索する単純なカウント</li><li>ユーザーがサイトをどのように遷移しているかを表示する </li></ul><br>トラフィック変数の例:ページ名、サイトセクション、ブラウザー</br> | [Props](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| eVar（カスタムコンバージョン） | 自分によってカスタマイズされた一定期間保持されるディメンション。有効期限オプションには、イベントの有効期限、訪問の有効期限、または X-day 有効期限が含まれ、該当の変数で実行される分析のタイプによって決定します。<br>eVarとpropの主な違い:</br><ul><li>propは、持続性が削除されるので、多くの場合パス分析に使用されます。</li><li>eVarは多くの場合コンバージョン分析に使用されます。</li></ul><br>コンバージョン変数の例:内部検索用語、内部プロモーション、外部キャンペーン（s. campaign）</br> | [eVars](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| イベント/指標（s. events） | サイト上で訪問者がとる主要アクションを測定する指標。イベントには、カウンター、数値、通貨の 3 タイプがあります。イベントは、コンバージョン変数（eVar）レポートに追加すると便利です。eVar は発生した内容に関する定性的情報を提供し、イベントは発生した内容に関する定量的情報を提供します。<br>eVarとイベントの主な違い:</br><ul><li>eVarは、誰が、何を、またはコンバージョンに影響したかを示します</li><li>発生したコンバージョンの数を測定するイベント</li></ul><br>コンバージョンイベントの例には、購入回数、アプリケーション開始、リード、売上高があります。</br> | [イベント](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
+| コンポーネント | プロジェクトにドラッグ&amp;ドロップできるディメンション、指標、セグメントおよび時間の精度（日付範囲）。 | [コンポーネント](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
+| ディメンション | eVar、prop、分類および標準的なアドビの収集された値のコレクション。 | [ディメンション](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
+| 指標 | 実装されたイベントおよび計算指標のコレクション。 | [指標](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
+| 計算指標 | 導入でキャプチャされた既存の指標からカスタム指標を派生させる機能。 | [計算指標](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
+| セグメント | 強力かつ重要な閲覧者セグメントを作成、管理、共有し、Analytics レポートに適用できます。セグメントは Analytics 製品全体で共有されます。また、Experience Cloud 全体で共有することができます。 | [セグメント化](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
+| 時間（日付範囲） | 任意の期間に日付をフィルターし、分析で再利用できるカスタム日付範囲を作成できます。 | [日付範囲](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
+| ビジュアライゼーション | プロジェクトでのデータの配信に役立つリッチビジュアル。 | [ビジュアライゼーション](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | キュレーション | プロジェクトまたは仮想レポートスイートからアクセスできるコンポーネントを制限できます。 | [VRSキュレーションプロジェクト](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[のキュation比較](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
-
-
 
 ## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
@@ -148,12 +146,6 @@ source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
-<!-- 
-
-key_metrics.xml
-
- -->
-
 | 指標名 | 定義 | ドキュメントリンク |
 |---|---|---|
 | 全指標のリスト | Adobe Analytics の全指標の定義。 | [https://marketing.adobe.com/resources/help/ja_JP/reference/metrics.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) |
@@ -165,12 +157,6 @@ key_metrics.xml
 
 ## インポート オプション {#concept_7C6DF03B5F9149E2A77F36C739432059}
 
-<!-- 
-
-import_options.xml
-
- -->
-
 | オプション | 説明 | ドキュメントリンク |
 |---|---|---|
 | 分類インポーター | ブラウザーまたは FTP アップロードを介して、メタデータを取得したディメンションに対してインポートします。ルールビルダーとは異なり、手動で操作します。 | [https://marketing.adobe.com/resources/help/ja_JP/reference/c_working_with_saint.html](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
@@ -180,11 +166,6 @@ import_options.xml
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-<!-- 
-
-export_options.xml
-
- -->
 
 <table id="table_99867D82082D4756872FC3ABD83A33A1"> 
  <thead> 
@@ -229,12 +210,6 @@ export_options.xml
 </table>
 
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
-
-<!-- 
-
-data_collection_and_validation.xml
-
- -->
 
 <table id="table_53039DCCAC1D47F7A1E3485609D13E4D"> 
  <thead> 
