@@ -1,0 +1,30 @@
+---
+description: この統合により、電子メールマーケティングソフトウェア統合フィードバックシステムとAdobe Analyticsの行動レポート機能が統合され、組織にとって強力な分析と最適化の機会を作成できます。
+seo-description: この統合により、電子メールマーケティングソフトウェア統合フィードバックシステムとAdobe Analyticsの行動レポート機能が統合され、組織にとって強力な分析と最適化の機会を作成できます。
+seo-title: optivo® Broadmail Data Connector for Adobe Analytics
+title: optivo® Broadmail Data Connector for Adobe Analytics
+uuid: bd713080-9d1a-49ee- aad0-86dd5c37c34a
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+
+---
+
+
+# optivo® broadmail Data Connector for Adobe Analytics{#optivo-broadmail-data-connector-for-adobe-analytics}
+
+この統合により、電子メールマーケティングソフトウェア統合フィードバックシステムとAdobe Analyticsの行動レポート機能が統合され、組織にとって強力な分析と最適化の機会を作成できます。
+
+[!DNL ~パートナー~] は、プロフェッショナルな電子メールマーケティングソフトウェアです。主要機能として、ニュースレターおよび電子メールキャンペーンを作成、送信、評価することがあります。[!DNL ~パートナー~] はクラウドサービスとして利用できます（サービスとしてのソフトウェア）。
+
+[!DNL ~パートナー~] 統合は、自動再マーケティングとデータ同期を提供し、コンバージョンと売上高を増加させます。この統合により、マーケティング担当者は電子メールのインタラクションとサイトの行動に基づいて、顧客のセグメントを自動的に同期できます。カスタマイズ可能なセグメントの自動データ交換は、買い物かごの放棄などの販売を促進する高度なターゲット化された電子メールキャンペーンを作成し、商品をクロス集計して再販売するための購入を促進する電子メールキャンペーンを作成します。
+
+This integration also exchanges metrics of successful email campaigns from [!DNL ~Partner~] to Adobe Analytics. 重要なデータは、電子メールキャンペーンの概要に一元的に表示されます。
+
+## Data Connectors Laboratory Program {#section-51f9864851b64d96873127b9ac9c9a2b}
+
+このプログラムは、アドビのサードパーティプラットフォームパートナーが統合を構築し、アドビのジョイント市場に配信するための高速トラッキング方式です。統合は、アドビのパートナーによって完全に開発され、コミュニティ方法により、Adobe Marketing Cloudにより提供されます。Adobe Analyticsおよびその他のソリューションのアドビお客様に追加料金なしで提供され、その統合のサードパーティの特性により、アドビからの黙示的な保証を一切提供しません。
+
+現在のサービス、許可またはライセンスに関するご質問は、アドビのアカウントマネージャーにお問い合わせください。
