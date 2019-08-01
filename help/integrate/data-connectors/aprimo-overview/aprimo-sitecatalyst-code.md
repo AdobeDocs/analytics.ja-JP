@@ -8,12 +8,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: 191c2add5b6762181ff669fddea3e4aa559a5044
 
 ---
 
 
-# Adobe Analytics Plug-In Code{#adobe-analytics-plug-in-code}
+# Adobe Analytics Plug-In Code {#adobe-analytics-plug-in-code}
 
 JavaScriptプラグインデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上のAdobe Analyticsコードに追加します。
 
