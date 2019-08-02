@@ -2,7 +2,7 @@
 title: Adobe Analyticsで使用される用語
 description: Adobe Analyticsの用語集で、使用する一般的な用語を定義します。
 translation-type: tm+mt
-source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
+source-git-commit: a11a31d49dcfc3202f963ce25fbccd82ce8988f9
 
 ---
 
@@ -34,6 +34,7 @@ source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
 * **クリックストリームデータフィード:** データフィードを参照してください。
 * **コホート:** 一定期間内に共通の特性を共有する人々のグループ。[コホート分析とは何ですか?](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) を参照してください。
 * **Collection server:** データ収集サーバーを参照してください。
+* **コンテキストデータ変数:** 処理ルールでのみ使用される一時変数。処理ルールでコンバージョン変数またはトラフィック変数にデータをコピーしないと、コンテキストデータ変数の値は永久的に失われます。ユーザーガイドの [コンテキストデータ変数](../implement/js-implementation/c-variables/context-data-variables.md) を参照してください。
 * **コンバージョン変数:** eVarと同義語。カスタム値を格納し、変数値が期限切れになるまで保持します。See [Conversion variables](../components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **相関関係:** キーワードとして使用されなくなりました。ディメンションの分類に置き換えられます。以前のバージョンのAdobe Analyticsでは、クロス集計によりトラフィック変数を分類できました。ユーザーガイドのディメンション [](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) の分類を参照してください。
 * **現在のデータ:** 一部のレポートのオプションで、まだ処理されていない最近収集したデータを含めることができます。ユーザーガイドの [現在のデータ](../analyze/reports-analytics/current-data.md) を参照してください。
@@ -97,6 +98,7 @@ source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
 * **サーバーコール:** イメージリクエストまたはヒットの代替名。ほとんどの場合、請求のコンテキストで使用されます。
 * **単一アクセス:** ディメンションに固有の値のみがある訪問。複数の一意の値がない限り、訪問に複数のヒットを含めることができます。「コンポーネントユーザーガイド»の?«単一アクセス?[](../components/c-variables/c-metrics/metrics-single-access.md)「バウンス」も参照してください。
 * **SiteCatalyst:** キーワードとして使用されなくなりました。Adobe Analyticsの以前の製品名。
+* **ソリューションデザインドキュメント:** ソリューションデザインリファレンスまたはSDRとも呼ばれます。カスタム変数の使用方法と、それらの設定に使用されるロジックの概要を示す内部ドキュメント。「ユーザーガイドの実装」のソリューションデザインドキュメント [](../implement/prepare/solution-design.md) の作成を参照してください。
 * **下位関係:** キーワードとして使用されなくなりました。ディメンションの分類に置き換えられます。以前のバージョンのAdobe Analyticsでは、下位関係によってコンバージョン変数の分類機能が与えられていました。ユーザーガイドのディメンション [](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) の分類を参照してください。
 * **成功イベント:** ユーザーが追跡したアクション。追跡するイベントや追跡に使用する成功イベント変数を組織によって決定します。「コンポーネントユーザーガイド」の [カスタムイベント](../components/c-variables/c-metrics/metrics-custom.md) を参照してください。
 * **サポート対象ユーザー:** 詳しくは、カスタマーサポート委任を参照してください。
