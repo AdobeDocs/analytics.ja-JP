@@ -4,12 +4,12 @@ audience: end-user
 user-guide-title: Analytics解析ガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
 
 ---
 
 
-# Analytics Tools Guide {#analyze}
+# Analyticsツールガイド {#analyze}
 
 + [Analyticsツールガイド](home.md)
 + Analysis Workspace {#analysis-workspace}
@@ -17,7 +17,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Analysis Workspace の機能](analysis-workspace/analysis-workspace-features.md)
    + [Analysis Workspace使用例](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace の新機能](analysis-workspace/new-features-in-analysis-workspace.md)   
-   + Build a Workspace project {#build-workspace-project}
+   + ワークスペースプロジェクトの構築 {#build-workspace-project}
       + [プロジェクトを作成-概要](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [ワークスペースプロジェクトの作成](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -78,7 +78,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
       + [帰属](analysis-workspace/attribution-iq/attribution.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison (IQ) {#segment-comparison}
+      + セグメント比較（IQ） {#segment-comparison}
          + [セグメントIQの概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [セグメントの比較](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [セグメントIQの使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
@@ -324,8 +324,8 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [予定レポートマネージャー](ad-hoc-analysis/c-schedule.md)
    + [表ビルダー](ad-hoc-analysis/c-tablebuilder.md)
    + [時間](ad-hoc-analysis/c-time.md)
-+ Technology Previews {#tech-previews}
-   + [技術プレビューの概要](tech-previews/overview.md)
++ Labs {#tech-previews}
+   + [ラボの概要](tech-previews/overview.md)
 + Analytics レポート API {#analytics-reporting-api}
    + [AnalyticsレポートAPIの概要](c-reporting-api/c-reporting-api.md)
    + [Analytics レポート API の比較](c-reporting-api/api-comparison.md)
