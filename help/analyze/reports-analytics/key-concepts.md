@@ -5,7 +5,7 @@ seo-title: Adobe Analytics-主要概念
 title: Adobe Analytics-主要概念
 uuid: ef5701c5-2d3e-4847-851f-9312d55db1a8
 translation-type: tm+mt
-source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
+source-git-commit: 998699eb14d40b955cb6ae73ecf1940c8aed15ab
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | ビジュアライゼーション | プロジェクトでのデータの配信に役立つリッチビジュアル。 | [ビジュアライゼーション](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | キュレーション | プロジェクトまたは仮想レポートスイートからアクセスできるコンポーネントを制限できます。 | [VRSキュレーションプロジェクト](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[のキュation比較](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## 主要レポート
 
 | レポート | 説明 | ドキュメントリンク |
 |--- |--- |--- |
@@ -61,14 +61,13 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | 顧客の遍歴レポート | サイトまたはアプリでユーザーがたどるパスに関する情報が表示されます。prop、eVarおよびイベントは、Analysis Workspaceでこの分析で使用できます。 | [Analysis Workspace falloutAnalysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[Workspace FlowReports](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[&amp; Analyticsのパス](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) |
 | マーケティングチャネル | ユーザーをサイトに誘導する外部チャネルや、コンバージョンに最も効果があるチャネルを確認するのに役立つレポートです。ファーストタッチおよびラストタッチの属性ビューが提供されます。これは、有料チャネルと自然チャネルの両方において最も包括的なビューなので、Adobe Analytics で（キャンペーンやトラフィックソースよりも）推奨される外部トラフィックソースレポートです。 | [マーケティングチャネル](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
 | モバイル | モバイルデバイスまたはタブレットからアクセスされた Web サイトの情報を表示します。 | [モバイルレポート | （https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html) |
-| モバイルアプリ | モバイルアプリに関する基本的な使用状況の情報を表示します。これらのレポートは、SDK が導入され、レポートが有効になると使用できます。さらに、Adobe Mobile Services によって、より包括的なアプリデータを提供する個別のモバイルアプリインターフェイスが作成されました。これにより、アプリの利用状況を把握し、改善につなげることができます。Access the interface [here](https://mobilemarketing.adobe.com). | [Adobe Mobile サービス](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 製品 | 売上高やチェックアウト数など各種コンバージョン指標に対する個々の商品や商品グループ（カテゴリ）の貢献を明らかにできます。 | [製品レポート](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
+| モバイルアプリ | モバイルアプリに関する基本的な使用状況の情報を表示します。これらのレポートは、SDK が導入され、レポートが有効になると使用できます。さらに、Adobe Mobile Services によって、より包括的なアプリデータを提供する個別のモバイルアプリインターフェイスが作成されました。これにより、アプリの利用状況を把握し、改善につなげることができます。インターフェイス [にアクセス](https://mobilemarketing.adobe.com)します。 | [Adobe Mobile サービス](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 製品 | 売上高やチェックアウト数など各種コンバージョン指標に対する個々の商品や商品グループ（カテゴリ）の貢献を明らかにできます。 | [製品レポート](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
 | セグメント比較 | アクセス権のあるすべての単一の指標およびディメンションの自動分析を通じて、セグメント間で最も大きな統計的差異を見つけます。 | [セグメント比較](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) |
 | サイトコンテンツレポート | サイトで最もアクティブなページや領域、および最もよく利用されているサーバーに関する情報が表示されます。 | [サイトコンテンツレポート](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-content.html) |
 | サイト指標レポート | 実訪問者数、購入回数、売上高などの Web サイトの定量的情報を表示します。各指標は、他の項目ベースレポートに配置できます。 | [サイト指標レポート](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-metrics.html) |
 | 訪問者プロファイル | 国、州、郵便番号コードおよびドメインなどの各種プロファイルカテゴリから、顧客の購入パターンを確認するのに役立つレポートです。 | [訪問者プロファイル](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-profile.html) |
 | 訪問者保持率 | 訪問者がサイトに再訪問した回数や頻度など、顧客忠誠度についての情報を表示します。 | [訪問者保持率](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-retention.html) |
 | プロジェクトリンク、共有およびスケジュール | 他の Analytics インターフェイスで作業内容を保存および他者と共有するための方法です。 | [ファイルの送信とスケジュール](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) |
-
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
@@ -89,17 +88,17 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | ルールビルダー | ユーザー定義のルールに基づき、メタデータ分類を自動的に作成します。 | [分類ルールビルダー](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
 | 顧客属性 | Adobe AnalyticsおよびAdobe Targetで使用するためにExperience CloudにアップロードされたCRMデータ。 | [顧客属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) |
 | データソース | ディメンションに対するインプレッションまたはオフラインの指標、または単に日別の指標。 | [データソース](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
-| Adobe Exchange Data Connectors | See [Adobe Analytics Tools](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
+| Adobe Exchange Data Connectors | 詳しくは、 [Adobe Analyticsツール](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B)を参照してください。 |  |
 | ネイティブ統合 | Audience AnalyticsおよびAdvertising Analytics。 | 「主要レポート」の節を参照してください。 |
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-| オプション | 説明 |  |
-|--- |--- |--- |
-| UIのダウンロードとスケジュール | Analysis WorkspaceからCSVまたはPDFとしてデータをエクスポート | [PDF ファイルまたは CSV ファイルのダウンロード](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
-| Report Builder | 解析ツールを参照してください。 | - |
+| オプション | 説明 | ドキュメントリンク |
+|---|---|---|
+| UIのダウンロードとスケジュール | Analysis WorkspaceからCSVまたはPDFとしてデータをエクスポート | [PDF ファイルまたは CSV ファイルのダウンロード](/help/analyze/analysis-workspace/curate-share/download-send.md) |
+| Report Builder | 解析ツールを参照してください。 |
 | Analytics API | Analytics データの自分用のカスタマイズクエリを作成します。 | <ul><li>[API2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
-| Data Warehouse | 解析ツールを参照してください。 | - |
+| Data Warehouse | 解析ツールを参照してください。 |  |
 | Analytics データフィード | Analytics から最も詳細なデータを取得する方法です。Analytics からヒットレベルフィードを設定します。 | [Analytics データフィード](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html) |
 
 
