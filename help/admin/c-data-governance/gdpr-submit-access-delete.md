@@ -5,7 +5,7 @@ seo-title: アクセス要求および削除要求の送信
 title: アクセス要求および削除要求の送信
 uuid: d006cd5c- e3cd-4385-8683- acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 9bc170ed53f4ebbe212878f884cd77350bd1d620
+source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 9bc170ed53f4ebbe212878f884cd77350bd1d620
 
 ## 要求の送信 {#section_F70F4D91B7FF4242876338A66D2125C3}
 
-アドビの [GDPR UI ポータル](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)または [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) を使用して、GDPR アクセス要求および削除要求を送信できます。
+アドビの [GDPR UI ポータル](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)または [GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html) を使用して、GDPR アクセス要求および削除要求を送信できます。
 
 >[!NOTE]
 >
