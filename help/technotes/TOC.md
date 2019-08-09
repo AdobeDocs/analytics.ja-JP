@@ -30,7 +30,7 @@ source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)
 + [プライバシーの概要](privacy-overview.md)
-+ 地域データ収集（RDC）
++ 地域データ収集 {rdc}
    + [地域データ収集ヘルプ](rdc/regional-data-collection.md)
    + [環境の特性](rdc/rdc-environment-characteristics.md)
    + [SSL 証明書ライセンス](rdc/ssl-cert-licensing.md)
