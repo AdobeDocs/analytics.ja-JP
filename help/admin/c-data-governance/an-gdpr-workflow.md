@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Adobe Analytics GGPRワークフロー
-title: Adobe Analytics GGPRワークフロー
+seo-title: Adobe Analytics GDPR ワークフロー
+title: Adobe Analytics GDPR ワークフロー
 uuid: f24e8be3-8b5c-409b- ad6b-770198ae2549
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
 
 ---
 
 
-# Adobe Analytics GGPRワークフロー
+# Adobe Analytics GDPR ワークフロー
 
 ここでは、Adobe Analytics で GDPR 対応の準備を進める方法について説明します。このワークフローでは、GDPR におけるデータ主体のアクセスおよび削除の権利に対応できるよう Adobe Analytics を設定する手順を解説します。
 
@@ -41,7 +41,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col2"> <p><img  src="assets/step4_icon.png" id="image_FE2039B8345248BCA303B44C10B68EA1" placement="break" />レポートスイート内の各変数に、識別、機密性、データガバナンスのラベルを割り当てます。 </p> <p>注意：ラベル設定は、新しいレポートスイートが作成されるたびに、または既存のレポートスイート内で新しい変数を有効にする際に、確認する必要があります。また、新しいソリューション統合が有効になると、ラベル設定が必要になる可能性のある新しい変数を公開できるので、ラベル設定を確認する必要があります。モバイルアプリまたは Web サイトを再実装すると、既存の変数の使用方法が変わる可能性があり、これにより、ラベルを更新する必要が生じる可能性があります。 </p> </td> 
-   <td colname="col3"> <p> Follow the instructions in <a href="../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731" format="dita" scope="local"> Label Report Suite Data</a>. </p> </td> 
+   <td colname="col3"> <p> [ラベルレポートスイートデータ]の <a href="../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731" format="dita" scope="local"> 指示に従い</a>ます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step5_icon.png" id="image_E9BEF83BF30F4528A030F23F71E5E5D8" />Adobe GDPR API に接続し、アクセス要求および削除要求を送信します。 </p> </td> 
@@ -49,7 +49,16 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step6_icon.png" id="image_5CF03706FECD4F8BBAE0D0C19F98B8BB" />レポートスイートの GDPR 設定を表示、管理します。 </p> </td> 
-   <td colname="col3"> <p>Follow the instructions in <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> View Report Suite's Data Governance Settings</a>. </p> </td> 
+   <td colname="col3"> <p>「レポートスイートのデータガバナンス設定 <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> の表示」の手順に従い</a>ます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+| タスクの説明 | 手順と詳細情報のリンク |
+|--- |--- |
+| **手順1**:GGPR関連データを含むレポートスイートのいずれかがExperience Cloud（IMS）組織にマッピングされていることを確認してください。GDPR 要求は Experience Cloud 組織を使用して送信され、その組織が要求するすべてのレポートスイートに適用されます。要求は、その組織にマッピングされていないレポートスイートには適用されません。ログイン会社のレポートスイートだったとしてもそれは同様です。 | [組織へのレポートスイートのマッピング](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)を参照してください。 |
+| **手順2**&#x200B;データ保持ポリシーを設定します。 | アドビが GDPR のアクセス要求および削除要求に対応できるよう、データ保持ポリシーを設定する必要があります。詳しくは、この[Analytics データ保持の FAQ](/help/technotes/data-retention.md) を参照してください。 |
+| **手順3**:DDER/GDPRラベル、Adobe Analytics ID、名前空間およびID拡張について十分に理解してください。 | このドキュメントの以下のトピックを参照してください。<ul><li>[Analytics 変数用の GDPR ラベル](/help/admin/c-data-governance/gdpr-labels.md)</li><li>[ラベル設定に関するベストプラクティス](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E)</li></ul> |
+| **手順4**:レポートスイート内の各変数に、ID、感度およびデータガバナンスラベルを割り当てます。注意：ラベル設定は、新しいレポートスイートが作成されるたびに、または既存のレポートスイート内で新しい変数を有効にする際に、確認する必要があります。また、新しいソリューション統合が有効になると、ラベル設定が必要になる可能性のある新しい変数を公開できるので、ラベル設定を確認する必要があります。モバイルアプリまたは Web サイトを再実装すると、既存の変数の使用方法が変わる可能性があり、これにより、ラベルを更新する必要が生じる可能性があります。 | [ラベルレポートスイートデータ]の [指示に従い](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-setup-reportsuite.html#concept_FAA948AD8CEA4BC38CB482EAF3648731)ます。 |
+| **手順5**:Adobe GDPR APIに接続し、AccessおよびDelete Requestsを送信します。 | Adobe Analytics をご利用のお客様は、[Adobe Experience Cloud GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html) を呼び出すことで、顧客データに対する GDPR のアクセス要求および削除要求を個別に送信できます。[ラベル設定に関するベストプラクティス](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E)の説明に沿って、要求時に Analytics 識別子と対応する名前空間 ID（データソース ID）を送信できます。 |
+| **手順6**:レポートスイートのGGPR設定を表示および管理します。 | 「レポートスイートのデータガバナンス設定 [の表示」の手順に従い](/help/admin/c-data-governance/gdpr-view-settings.md)ます。 |
