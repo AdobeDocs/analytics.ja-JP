@@ -8,7 +8,7 @@ title: JavaScript 版 AppMeasurement
 topic: 開発者と導入
 uuid: 1440013d- d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 12f8d0017acfad36f3445cd31a629725dd737686
+source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
 
 ---
 
@@ -24,6 +24,18 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## バージョン 2.16.0
+
+Release Date: **August 8, 2019**
+
+| 機能 | 説明 |
+| -----------| ---------- |
+| `sendBeacon` が離脱リンクをサポート | [!UICONTROL AppMeasurement] での離脱リンク計測における `sendBeacon` サポートが実装されました。これにより、離脱リンクトラッキングの精度が向上し、トラフィックが増加することがあります。`SendBeacon` は、ページのコンテキストでは実行されませんが、ブラウザーのコンテキストでは実行されません。つまり、ページの読み込みが解除 `sendBeacon`されている場合、そのリクエストはまだ完了していません。離脱リンクのリクエストが完了する可能性がかなり高くなるので、離脱リンクでは非常に役立ちます。 |
+| ECID/fid の値 | ECID/fid の値は、オプトイン設定が変更された場合でも、最初のヒット時にキャッシュされるようになりました。 |
+| DIL 9.3 | Audience Management モジュールを DIL 9.3 に更新しました。 |
+| リーチトラッキングのスクロール | スクロールリーチのトラッキングをオン／オフするための s.ActivityMap.trackScrollReach の設定が追加されました。 |
+| 訪問者 ID サービス 4.4.0 | 訪問者 ID サービス 4.4.0 を使用するようになりました。 |
 
 ## バージョン 2.15.0
 
@@ -346,7 +358,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 **既知の問題**
 
-In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. 正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html`.
+訪問者API/ [!DNL AppMeasurement][!DNL Audience Manager] モジュール統合では、IE6-9で2つのターゲットパブリッシングiFrameリクエストが行われます。 `//fast.<subdomain>.demdex.net/dest5.html` および`//fast.<subdomain>.demdex.net/dest4.html`正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## バージョン 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
