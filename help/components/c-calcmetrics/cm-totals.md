@@ -4,7 +4,7 @@ seo-title: 計算指標の合計
 description: Analyticsツールで計算指標の合計がどのように異なるかを知る
 seo-description: 計算指標の合計の計算方法
 translation-type: tm+mt
-source-git-commit: 774975605de502b66279888d8dd8ef58989a40de
+source-git-commit: 396a4b8e4e1e03fa958286097721be2c40230de1
 
 ---
 
@@ -35,6 +35,6 @@ source-git-commit: 774975605de502b66279888d8dd8ef58989a40de
 
 Analysis Workspaceでは、状況によって、計算指標が合計され、合計が表示されます。
 
-* [静的行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) と [!UICONTROL 、現在各列] オプション（デフォルト）にある値を合計することで、合計を計算します。
+* [静的行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) と **[!UICONTROL 、現在各列]** オプション（デフォルト）にある値を合計することで、合計を計算します。
 * [ドーナツグラフのビジュアライゼーションで](/help/analyze/analysis-workspace/visualizations/donut.md)、
 * 変更 [の概要ビジュアライゼーションで](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)、
