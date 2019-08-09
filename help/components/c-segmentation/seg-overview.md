@@ -7,7 +7,7 @@ title: セグメントとコンテナについて
 topic: セグメント
 uuid: e8b1edd1-5d6c-4213-994b- feed789ad30a4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 774975605de502b66279888d8dd8ef58989a40de
 
 ---
 
