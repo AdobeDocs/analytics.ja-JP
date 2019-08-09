@@ -2,8 +2,8 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics 導入ガイド
-user-guide-url: /content/help/en/analytics/implementation/home.html
-translation-type: tm+mt
+user-guide-url: /content/help/ja-JP/analytics/implementation/home.html
+translation-type: ht
 source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 # Analytics 導入ガイド {#implementation}
 
-+ [Analytics導入ヘルプ](home.md)
-+ AppMeasurement Release Notes {#appmeasurement-release-notes}
-   + [AppMeasurementリリースノート](appmeasurement-release-notes/appmeasurement-release-notes.md)
++ [Analytics 実装ヘルプ](home.md)
++ AppMeasurement リリースノート {#appmeasurement-release-notes}
+   + [AppMeasurement リリースノート](appmeasurement-release-notes/appmeasurement-release-notes.md)
    + [JavaScript 版 AppMeasurement](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [JavaScript H コード - レガシー](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
@@ -31,11 +31,11 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [PHP](appmeasurement-release-notes/c-release-notes-php.md)
 + Analytics の導入 {#analytics-implementation}
    + [導入ロードマップ](c-implementation/implementation.md)
-   + [一般的な導入リンク](c-implementation/popular-implementation-links.md)
+   + [お勧めの実装リンク](c-implementation/popular-implementation-links.md)
    + [リリースノート](c-implementation/rn.md)
 + Analytics の基本事項 {#analytics-basics}
    + [アラート](analytics-terminology-basics/ref-alerts.md)
-   + [Analyticsコード](analytics-terminology-basics/ref-analytics-code.md)
+   + [Analytics コード](analytics-terminology-basics/ref-analytics-code.md)
    + [分類](analytics-terminology-basics/ref-classifications.md)
    + [コンバージョン変数（eVar）](analytics-terminology-basics/ref-conversion-variables-evar.md)
    + [データ収集](analytics-terminology-basics/data-collection-overview.md)
@@ -47,34 +47,34 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [処理ルール](analytics-terminology-basics/ref-processing-rules.md)
    + [レポートおよびレポートスイート](analytics-terminology-basics/ref-reports-report-suites.md)
    + [セグメント](analytics-terminology-basics/ref-segments.md)
-   + Traffic props and conversion eVars {#traffic-props-evars}
-      + [propおよびeVarの概要](analytics-terminology-basics/c-props-evars/props-evars.md)
+   + トラフィック prop とコンバージョン eVar {#traffic-props-evars}
+      + [prop と eVar の概要](analytics-terminology-basics/c-props-evars/props-evars.md)
       + [Prop と eVar の比較](analytics-terminology-basics/c-props-evars/props-vs-evars.md)
-      + [カウンターとしてのpropの使用](analytics-terminology-basics/c-props-evars/props-counter.md)
+      + [カウンターとしての prop の使用](analytics-terminology-basics/c-props-evars/props-counter.md)
       + [コンテンツ階層のカウント](analytics-terminology-basics/c-props-evars/content-hierarchies.md)
-      + [事前定義されたイベントとは何ですか。](analytics-terminology-basics/c-props-evars/event-predefined.md)
-      + [製品表示ページの詳細](analytics-terminology-basics/c-props-evars/prodview-page.md)
-      + [カスタムイベントとは何ですか。](analytics-terminology-basics/c-props-evars/event-custom.md)
+      + [事前定義されたイベントについて](analytics-terminology-basics/c-props-evars/event-predefined.md)
+      + [詳細製品表示ページ](analytics-terminology-basics/c-props-evars/prodview-page.md)
+      + [カスタムイベントについて](analytics-terminology-basics/c-props-evars/event-custom.md)
       + [ハッシュの競合](analytics-terminology-basics/c-props-evars/hash-collisions.md)
-+ [Analyticsの導入に関するFAQ](faq.md)
-+ Prepare to implement {#prepare}
++ [Analytics の実装に関する FAQ](faq.md)
++ 実装の準備{#prepare}
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
    + [データレイヤーの作成](prepare/data-layer.md)
    + [導入方法の選択](c-implementation-methods/choose-implementation-method.md)
-+ [Analytics導入の概要](c-get-started-implementation/t-analytics-implementation-get-started.md)
-+ Implement Analytics with Adobe Experience Platform Launch {#implement-with-launch}
-   + [Experience Platform LaunchでのAnalyticsプロパティの作成](implement-with-launch/create-analytics-property.md)
++ [Analytics 実装の手引き](c-get-started-implementation/t-analytics-implementation-get-started.md)
++ Adobe Experience Platform Launch による Analytics の実装 {#implement-with-launch}
+   + [Experience Platform Launch での Analytics プロパティの作成](implement-with-launch/create-analytics-property.md)
    + [開発環境への実装のデプロイ](implement-with-launch/deploy-dev.md)
-   + [開発実装の検証と実稼働環境への公開](implement-with-launch/validate-publish-prod.md)
-+ Implement Analytics with DTM {#implement-analytics-with-dtm}
-   + [Dynamic Tag Management実装の概要](c-implement-with-dtm/dtm-implementation-overview.md)
-   + [Webプロパティを作成](c-implement-with-dtm/t-create-web-property.md)
+   + [開発実装の検証と実稼動環境への公開](implement-with-launch/validate-publish-prod.md)
++ DTM による Analytics の実装 {#implement-analytics-with-dtm}
+   + [Dynamic Tag Management 実装の概要](c-implement-with-dtm/dtm-implementation-overview.md)
+   + [Web プロパティの作成](c-implement-with-dtm/t-create-web-property.md)
    + [ホスティングオプションの設定](c-implement-with-dtm/t-configure-hosting.md)
-   + Headers and footers {#headers-footers}
+   + ヘッダーとフッター {#headers-footers}
       + [ヘッダーおよびフッターコードの追加](c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)
       + [ヘッダーおよびフッターコードの検証](c-implement-with-dtm/c-headers-footers/t-verify-header-footer.md)
-   + Adobe Analytics tool {#analytics-tool}
-      + [Adobe Analyticsツールの追加](c-implement-with-dtm/c-aa-tool/analytics-dtm.md)
+   + Adobe Analytics ツール {#analytics-tool}
+      + [Adobe Analytics ツールの追加](c-implement-with-dtm/c-aa-tool/analytics-dtm.md)
       + [一般](c-implement-with-dtm/c-aa-tool/general-settings-analytics.md)
       + [ライブラリ管理](c-implement-with-dtm/c-aa-tool/library-management.md)
       + [コアの AppMeasurement コードの挿入](c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md)
@@ -84,45 +84,45 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [リファラーとキャンペーン](c-implement-with-dtm/c-aa-tool/referrers-campaigns.md)
       + [Cookie](c-implement-with-dtm/c-aa-tool/cookies-analytics.md)
       + [ページコードのカスタマイズ](c-implement-with-dtm/c-aa-tool/customize-page-code.md)
-      + [Adobe Analyticsツールに関するFAQ](c-implement-with-dtm/c-aa-tool/dtm-faq.md)
+      + [Adobe Analytics ツールに関する FAQ](c-implement-with-dtm/c-aa-tool/dtm-faq.md)
    + [データ要素の作成](c-implement-with-dtm/t-data-element.md)
    + [Adobe Analytics の手動導入（レガシー）](c-implement-with-dtm/t-analytics-deploy.md)
    + ルール {#rules}
-      + [新しいルールの作成](c-implement-with-dtm/c-rules/t-rules-create.md)
+      + [新規ルールの作成](c-implement-with-dtm/c-rules/t-rules-create.md)
       + [イベント型ルールの条件の作成](c-implement-with-dtm/c-rules/t-rules-event-conditions.md)
       + [ページ型ルールの条件の作成](c-implement-with-dtm/c-rules/t-rules-page-conditions.md)
       + [ダイレクト型ルールの条件の作成](c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)
       + [トリガー条件のアクションの設定](c-implement-with-dtm/c-rules/t-rules-actions.md)
       + [Akamai ホスティング用の未発行のルールのテスト](c-implement-with-dtm/c-rules/t-test-rules-akamai.md)
-      + [ライブラリのダウンロードまたはFTPのルールのテスト](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
+      + [ライブラリのダウンロードまたは FTP のルールのテスト](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
 + JavaScript を使用した Analytics の導入 {#javascript-implementation}
-   + [JavaScript導入の概要](js-implementation/javascript-implementation-overview.md)
+   + [JavaScript 実装の概要](js-implementation/javascript-implementation-overview.md)
    + [ページコードとグローバル設定の例](js-implementation/appmeasure-mjs-pagecode.md)
-   + JavaScript{#appmeasurement-js} 版 AppMeasurement 
+   + JavaScript{#appmeasurement-js} 版 AppMeasurement
       + [JavaScript 版 AppMeasurement について](js-implementation/c-appmeasurement-js/appmeasure-mjs.md)
       + [JavaScript 版 AppMeasurement への移行](js-implementation/c-appmeasurement-js/appmeasure-mjs-migrate.md)
-      + [AppMeasurementプラグインのサポート](js-implementation/c-appmeasurement-js/plugins-support.md)
+      + [AppMeasurement プラグインのサポート](js-implementation/c-appmeasurement-js/plugins-support.md)
    + [Accelerated Mobile Pages](js-implementation/accelerated-mobile-pages.md)
    + [Facebook インスタント記事](js-implementation/analytics-facebook-instant-articles.md)
-   + Additional web and mobile measurement libraries {#additional-libraries}
-      + [追加ライブラリの概要](js-implementation/c-additional-libraries/libraries.md)
-      + [HTMLイメージタグを使用したAnalyticsの実装](js-implementation/c-additional-libraries/implscwojs.md)
-      + [JavaScriptのガイドラインを使用しない実装](js-implementation/c-additional-libraries/otherreq.md)
+   + 追加の Web およびモバイルの測定ライブラリ {#additional-libraries}
+      + [追加のライブラリの概要](js-implementation/c-additional-libraries/libraries.md)
+      + [HTML イメージタグを使用した Analytics の導入](js-implementation/c-additional-libraries/implscwojs.md)
+      + [JavaScript を使用しない導入のガイドライン](js-implementation/c-additional-libraries/otherreq.md)
       + [サンプルコード](js-implementation/c-additional-libraries/samplecode.md)
       + [モバイルネットワークプロトコル](js-implementation/c-additional-libraries/network-protocols.md)
       + [モバイルプロトコルネットワークゲートウェイ](js-implementation/c-additional-libraries/how-beacon-reaches-adobe.md)
-      + [モバイルプロトコル用のページタグ付け](js-implementation/c-additional-libraries/tagging-mobile-pages.md)
-      + [モバイルプロトコルを使用するデバイス向けのレポート](js-implementation/c-additional-libraries/reports-for-mobile-dev.md)
-      + [モバイルプロトコルのカスタムリンク測定](js-implementation/c-additional-libraries/mobile-link-tracking.md)
-   + Variables for Analytics implementation and reporting {#variables-analytics-reporting}
+      + [モバイルプロトコルに対応するページタギング](js-implementation/c-additional-libraries/tagging-mobile-pages.md)
+      + [モバイルプロトコルを使用するデバイスに関するレポート](js-implementation/c-additional-libraries/reports-for-mobile-dev.md)
+      + [モバイルプロトコルでのカスタムリンク測定](js-implementation/c-additional-libraries/mobile-link-tracking.md)
+   + Analytics 導入およびレポート用変数 {#variables-analytics-reporting}
       + [変数の概要](js-implementation/c-variables/sc-variables.md)
       + [設定変数](js-implementation/c-variables/configuration-variables.md)
       + [コンテキストデータ変数](js-implementation/c-variables/context-data-variables.md)
       + [動的変数](js-implementation/c-variables/dynvars-overview.md)
       + [ページ変数](js-implementation/c-variables/page-variables.md)
-      + [追加のeVarおよびイベント](js-implementation/c-variables/evars-events.md)
+      + [追加された eVar およびイベント](js-implementation/c-variables/evars-events.md)
       + [変数と制限](js-implementation/c-variables/vars-limitiations.md)
-      + [無効なJavaScript文字](js-implementation/c-variables/vars-restrictions.md)
+      + [JavaScript での無効な文字](js-implementation/c-variables/vars-restrictions.md)
    + [s.t() 関数 - ページトラッキング](js-implementation/function-t.md)
    + [s.tl() 関数 - リンクトラッキング](js-implementation/function-tl.md)
    + [s.sa() 関数](js-implementation/function-sa.md)
@@ -132,24 +132,24 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Util.cookieWrite](js-implementation/util-cookiewrite.md)
    + [Util.getQueryParam](js-implementation/util-getqueryparam.md)
    + [オフライン追跡](js-implementation/offline-tracking.md)
-   + Data collection {#data-collection}
+   + データ収集 {#data-collection}
       + [データ収集クエリパラメーター](js-implementation/data-collection/query-parameters.md)
-      + [データ収集HTTPヘッダー](js-implementation/data-collection/http-headers.md)
+      + [データ収集 HTTP ヘッダー](js-implementation/data-collection/http-headers.md)
       + [変数のオーバーライド](js-implementation/data-collection/var-overrides.md)
-      + [レポートスイートID-動的アカウント](js-implementation/data-collection/dynamic-accounts.md)
+      + [レポートスイート ID - 動的アカウント](js-implementation/data-collection/dynamic-accounts.md)
       + [一般的なエラー](js-implementation/data-collection/common-errors.md)
-      + [フォームエレメントからデータを収集する](js-implementation/data-collection/data-elements.md)
-      + [異なる実装タイプでの追跡](js-implementation/data-collection/impl-tupes.md)
+      + [フォームエレメントからのデータの収集](js-implementation/data-collection/data-elements.md)
+      + [異なる実装タイプでのトラッキング](js-implementation/data-collection/impl-tupes.md)
       + [導入のガイドライン](js-implementation/data-collection/impl-guideliens.md)
-      + [実装例](js-implementation/data-collection/impl-examples.md)
-      + [AJAX- Trackリッチメディアアプリケーション](js-implementation/data-collection/impl-media-ajax.md)
+      + [導入例](js-implementation/data-collection/impl-examples.md)
+      + [AJAX で追跡するリッチメディアアプリケーション](js-implementation/data-collection/impl-media-ajax.md)
       + [AJAX による導入](js-implementation/data-collection/impl-ajax.md)
       + [外部電子メールトラッキング](js-implementation/data-collection/email-external.md)
       + [アドビオプトアウトの実装](js-implementation/data-collection/opt-out.md)
       + [オプトアウトリンクの追加](js-implementation/data-collection/opt-out-link.md)
-   + Implementation plug-ins {#plugins}
+   + 導入プラグイン {#plugins}
       + [導入プラグインの使用](js-implementation/plugins/impl-plugins.md)
-      + [doPlugins関数を使用したプラグインの呼び出し](js-implementation/plugins/plugins-calling.md)
+      + [doPlugins 関数を使用したプラグインの呼び出し](js-implementation/plugins/plugins-calling.md)
       + [s.abort フラグ](js-implementation/plugins/abort.md)
       + [appendList](js-implementation/plugins/appendlist.md)
       + [doPlugins 関数](js-implementation/plugins/function-doplugins.md)
@@ -166,30 +166,30 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [getVisitNum](js-implementation/plugins/getvisitnum.md)
       + [getVisitStart](js-implementation/plugins/getvisitstart.md)
       + [hitGovernor](js-implementation/plugins/hitgovernor.md)
-      + [Integrate Module](js-implementation/plugins/integrate.md)
-      + [内部トラフィック](js-implementation/plugins/internal-traffic.md)
+      + [モジュールの統合](js-implementation/plugins/integrate.md)
+      + [社内トラフィック](js-implementation/plugins/internal-traffic.md)
       + [performanceTiming](js-implementation/plugins/performancetiming.md)
       + [trackTNT](js-implementation/plugins/tracktnt.md)
    + パス {#pathing}
       + [パスの概要](js-implementation/c-pathing/pathing.md)
-      + [propでのパスの有効化](js-implementation/c-pathing/pathing-prop.md)
-      + [キャンペーンまたはトラッキングコードごとのパス](js-implementation/c-pathing/pathing-campaign.md)
-      + [パスが記録されない理由](js-implementation/c-pathing/pathing-troubleshooting.md)
-      + [セクション間で移動](js-implementation/c-pathing/pathing-section.md)
-      + [ページテンプレートからページテンプレートに移動](js-implementation/c-pathing/pathing-pagetempalte.md)
-      + [ユーザータイプ別のセグメントパス](js-implementation/c-pathing/pathing-segments.md)
+      + [prop でのパスの有効化](js-implementation/c-pathing/pathing-prop.md)
+      + [キャンペーンまたはトラッキングコードによるパス](js-implementation/c-pathing/pathing-campaign.md)
+      + [パスが記録されない原因](js-implementation/c-pathing/pathing-troubleshooting.md)
+      + [セクション間の移動](js-implementation/c-pathing/pathing-section.md)
+      + [ページテンプレート間の移動](js-implementation/c-pathing/pathing-pagetempalte.md)
+      + [ユーザータイプによるパスのセグメント化](js-implementation/c-pathing/pathing-segments.md)
    + [購入イベント](js-implementation/event-purchase.md)
-   + [イベントシリアル化の概要](js-implementation/event-serialization.md)
-   + Unique visitors {#unique-visitors}
-      + [個別訪問者の特定](js-implementation/c-unique-visitors/visid-overview.md)
+   + [イベントのシリアル化の概要](js-implementation/event-serialization.md)
+   + 実訪問者数 {#unique-visitors}
+      + [実訪問者数の識別](js-implementation/c-unique-visitors/visid-overview.md)
       + [カスタム訪問者 ID](js-implementation/c-unique-visitors/visid-custom.md)
-      + [IDサービス](js-implementation/c-unique-visitors/visid-service.md)
+      + [ID サービス](js-implementation/c-unique-visitors/visid-service.md)
       + [Analytics 訪問者 ID](js-implementation/c-unique-visitors/visid-analytics.md)
-      + [フォールバックIDメソッド](js-implementation/c-unique-visitors/visid-fallback.md)
-      + [モバイルデバイスの特定](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Marketing Cloud コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
-   + Cross-device visitor identification {#cross-device-visitor-id}
-      + [デバイス間でのユーザーの接続](js-implementation/xdevice-visid/xdevice-connecting.md)
+      + [フォールバック ID による方法](js-implementation/c-unique-visitors/visid-fallback.md)
+      + [モバイルデバイスの識別](js-implementation/c-unique-visitors/visid-mobile.md)
+   + [Experience Cloud コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=core_services)
+   + デバイス間の訪問者の識別 {#cross-device-visitor-id}
+      + [デバイス間のユーザーの接続](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [デバイス間の訪問者の識別によるデータの影響](js-implementation/xdevice-visid/xdevice-data.md)
       + [訪問の例](js-implementation/xdevice-visid/visit-example.md)
       + [訪問者](js-implementation/xdevice-visid/visitors.md)
@@ -200,43 +200,43 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [訪問者の移行](js-implementation/visitor-migration.md)
    + [タイムスタンプオプションの使用](js-implementation/timestamps-overview.md)
    + [リダイレクトとエイリアス](js-implementation/redirects-overview.md)
-+ Testing and validation {#testing-and-validation}
-   + Testing and validation process {#testing-and-validation-process}
++ テストと検証 {#testing-and-validation}
+   + テストと検証のプロセス {#testing-and-validation-process}
       + [テストと検証の概要](impl-testing/impl-validation/impl-validation.md)
-      + [デバッガーでs_ account変数を識別する](impl-testing/impl-validation/impl-testing-account.md)
-      + [JavaScript JSファイル](impl-testing/impl-validation/impl-js-file.md)
+      + [Debugger での s_account 変数の識別](impl-testing/impl-validation/impl-testing-account.md)
+      + [JavaScript JS ファイル](impl-testing/impl-validation/impl-js-file.md)
       + [コードの変更](impl-testing/impl-validation/impl-code-updates.md)
       + [変数と値](impl-testing/impl-validation/impl-var-values.md)
-      + [カスタム変数 ～](impl-testing/impl-validation/impl-custom-vars.md)
+      + [カスタム変数](impl-testing/impl-validation/impl-custom-vars.md)
       + [導入の受け入れ](impl-testing/impl-validation/impl-acceptance.md)
       + [データの正確性の検証](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud デバッガー](impl-testing/debugger.md)
    + [パケットアナライザー](impl-testing/packet-monitor.md)
-   + Implementation troubleshooting {#implementation-troubleshooting}
-      + [一般的な導入に関するエラー](impl-testing/impl-troubleshooting/impl-troubleshooting.md)
-      + [headタグへのAnalyticsコードの配置](impl-testing/impl-troubleshooting/impl-head-tag.md)
+   + 実装のトラブルシューティング {#implementation-troubleshooting}
+      + [実装の一般的なエラー](impl-testing/impl-troubleshooting/impl-troubleshooting.md)
+      + [head タグへの Analytics コードの配置](impl-testing/impl-troubleshooting/impl-head-tag.md)
       + [s.linkTrackVars と s.linkTrackEvents の使用](impl-testing/impl-troubleshooting/link-track-vars-events.md)
-      + [製品変数で一般的なエラー](impl-testing/impl-troubleshooting/products-troubleshooting.md)
-      + [pageType変数の設定不正確](impl-testing/impl-troubleshooting/pagetype-troubleshooting.md)
-      + [変数値の空白の使用](impl-testing/impl-troubleshooting/impl-whitespace.md)
+      + [products 変数での一般的なエラー](impl-testing/impl-troubleshooting/products-troubleshooting.md)
+      + [pageType 変数の間違った設定](impl-testing/impl-troubleshooting/pagetype-troubleshooting.md)
+      + [変数の値での空白の使用](impl-testing/impl-troubleshooting/impl-whitespace.md)
       + [引用符の使用](impl-testing/impl-troubleshooting/impl-quotes.md)
-      + [Analyticsコードの置き換え](impl-testing/impl-troubleshooting/impl-update-code.md)
+      + [Analytics コードの置き換え](impl-testing/impl-troubleshooting/impl-update-code.md)
       + [一般的な構文エラー](impl-testing/impl-troubleshooting/impl-syntax-troubleshooting.md)
    + [脆弱性スキャナー](impl-testing/vulnerability-scanner.md)
-   + Optimize your implementation {#optimize-implementation}
+   + 実装の最適化 {#optimize-implementation}
       + [最適化の概要](impl-testing/c-optimize/impl-optimization.md)
-      + [ページの命名](impl-testing/c-optimize/page-naming.md)
-      + [ページネーミング戦略](impl-testing/c-optimize/page-naming-strategies.md)
+      + [ページ命名](impl-testing/c-optimize/page-naming.md)
+      + [ページ命名の戦略](impl-testing/c-optimize/page-naming-strategies.md)
       + [変数の長さ](impl-testing/c-optimize/var-length.md)
-      + [HTMLコードスニペット](impl-testing/c-optimize/impl-html-snippet.md)
-      + [JavaScriptライブラリファイル](impl-testing/c-optimize/impl-js-library.md)
+      + [HTML コードスニペット](impl-testing/c-optimize/impl-html-snippet.md)
+      + [JavaScript ライブラリファイル](impl-testing/c-optimize/impl-js-library.md)
       + [キャッシュディレクティブ](impl-testing/c-optimize/caching-directives.md)
       + [テーブル](impl-testing/c-optimize/tables.md)
-      + [ファイル圧縮](impl-testing/c-optimize/impl-compression.md)
-      + [セキュリティで保護されたページ](impl-testing/c-optimize/secure-pages.md)
+      + [ファイルの圧縮](impl-testing/c-optimize/impl-compression.md)
+      + [セキュリティで保護されているページ](impl-testing/c-optimize/secure-pages.md)
       + [コンテンツ配信サービスおよびコンテンツ配信ネットワーク](impl-testing/c-optimize/cdn.md)
-      + [JavaScriptファイルの場所とconcurrence](impl-testing/c-optimize/impl-js-hosting.md)
+      + [JavaScript ファイルの場所と並行処理](impl-testing/c-optimize/impl-js-hosting.md)
       + [ピアリング](impl-testing/c-optimize/peering.md)
-   + [レポート変数のマッピング](impl-testing/report-variable-mapping.md)
-   + [変数からレポートへのマッピング](impl-testing/var-report-mapping.md)
-+ [デジタルアシスタント用のAnalyticsの実装](c-analytics-digital-assistants/digital-assistants-white-paper.md)
+   + [レポートと変数との対応関係](impl-testing/report-variable-mapping.md)
+   + [変数とレポートとの対応関係](impl-testing/var-report-mapping.md)
++ [デジタルアシスタント向け Analytics ](c-analytics-digital-assistants/digital-assistants-white-paper.md)
