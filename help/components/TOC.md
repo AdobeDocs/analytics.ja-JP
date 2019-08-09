@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analyticsコンポーネントガイド
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -63,6 +63,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [リファレンス:高度な関数](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [指標の互換性](c-calcmetrics/cm-compatibility.md)
       + [計算指標:役割ベースの権限](c-calcmetrics/cm-role-based-rights.md)
+      + [計算指標の合計](c-calcmetrics/cm-totals.md)
 + 仮想レポートスイート {#virtual-report-suites}
    + [仮想レポートスイートの概要](vrs/vrs-about.md)
    + [仮想レポートスイートコンポーネントのキュレーション](vrs/vrs-components.md)
@@ -71,7 +72,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + [レポートの時間処理](vrs/vrs-report-time-processing.md)
    + [VRS FAQ](vrs/vrs-faq.md)
    + [VRSSおよびグローバル/マルチスイートタギングに関する考慮事項](vrs/vrs-considerations.md)
-   + VRS Workflow {#vrs-workflow}
+   + VRSワークフロー {#vrs-workflow}
       + [仮想レポートスイートのワークフロー](vrs/c-workflow-vrs/vrs-workflow.md)
       + [仮想レポートスイートの作成](vrs/c-workflow-vrs/vrs-create.md)
       + [仮想レポートスイートの管理](vrs/c-workflow-vrs/vrs-manage.md)
@@ -112,7 +113,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
 + [カレンダーイベント](t-calendar-event.md)
 + 変数 {#variables}
    + [変数の概要](c-variables/c-variables.md)
-   + Dimensions/Reports {#dimensions-reports}
+   + ディメンション/レポート {#dimensions-reports}
       + [ディメンションの説明](c-variables/dimensionslist/reports-descriptions.md)
       + [ディメンションの互換性](c-variables/dimensionslist/dimension-compatibility.md)
       + [ベストプラクティスとトラブルシューティング](c-variables/dimensionslist/report-troubleshooting.md)
