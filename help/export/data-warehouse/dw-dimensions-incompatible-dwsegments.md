@@ -5,37 +5,13 @@ seo-title: Data Warehouse セグメントと互換性のないディメンショ
 title: Data Warehouse セグメントと互換性のないディメンション
 uuid: ce772b7a-6a30-454a- a38f- d2bb2521f0fb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: b732e31da8d144cd0074c2b91c400ceacc84b991
 
 ---
 
 
-# Data Warehouse セグメントと互換性のないディメンション
+# 一時ページ
 
-次のディメンションは、Data Warehouse セグメントでは使用できません。
+<!-- This page is a duplicate of dimension-support.md. Once internal redirects are in place, we can remove this page and point it to dimension-support.md. -->
 
-* すべての検索ページのランク
-* 午前 / 午後
-* 月間通算日
-* 曜日
-* 年間通算日
-* 入口ビジネスユニット
-* 入口（「入口ページ」を除く、「入口」で始まるすべてのディメンション）
-* 出口（「出口リンク」および「出口ページ」を除く、「出口」で始まるすべてのディメンション）
-* 階層（「階層」で始まるすべてのディメンション）
-* ヒットの深さ
-* ヒットタイプ
-* 時刻
-* 年間通算月
-* エラーページ（404）
-* 有料検索
-* 四半期
-* 再来訪頻度
-* 直帰数
-* イベント前の時間
-* ページでの滞在時間 - グループ
-* 訪問別滞在時間 - グループ
-* トラッキングオプトアウト理由
-* 米国の州
-* 平日 / 週末
-
+これは一時ページです。[コンポーネントのサポート](component-support.md)を参照してください。
