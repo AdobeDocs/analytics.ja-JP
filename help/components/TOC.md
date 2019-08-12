@@ -1,9 +1,9 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analyticsコンポーネントガイド
-user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+user-guide-title: Analytics コンポーネントガイド
+user-guide-url: /content/help/ja-JP/analytics/components/home.html
+translation-type: ht
 source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
@@ -11,23 +11,23 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 # [!DNL Analytics] コンポーネントガイド {#components}
 
-+ [Analyticsコンポーネントヘルプ](home.md)
++ [Analytics コンポーネントヘルプ](home.md)
 + セグメント化 {#segmentation}
-   + [Analyticsセグメント](c-segmentation/seg-home.md)
-   + [セグメントとコンテナについて](c-segmentation/seg-overview.md)
-   + [Analysis Workspaceのセグメント機能](c-segmentation/segmentation-in-analysis-workspace.md)
-   + Segmentation workflow {#segmentation-workflow}
-      + [セグメント化ワークフローの概要](c-segmentation/c-segmentation-workflow/seg-workflow.md)
+   + [Analytics のセグメント](c-segmentation/seg-home.md)
+   + [セグメントおよびコンテナについて](c-segmentation/seg-overview.md)
+   + [Analysis Workspace のセグメント機能](c-segmentation/segmentation-in-analysis-workspace.md)
+   + セグメントのワークフロー {#segmentation-workflow}
+      + [セグメントワークフローの概要](c-segmentation/c-segmentation-workflow/seg-workflow.md)
       + [セグメントの計画](c-segmentation/c-segmentation-workflow/seg-plan.md)
-      + [セグメントの作成](c-segmentation/c-segmentation-workflow/seg-build.md)
-      + [順次セグメントの作成](c-segmentation/c-segmentation-workflow/seg-sequential-build.md)
-      + [セグメントのタグ付け](c-segmentation/c-segmentation-workflow/seg-tag.md)
+      + [セグメントの構築](c-segmentation/c-segmentation-workflow/seg-build.md)
+      + [順次セグメントの構築](c-segmentation/c-segmentation-workflow/seg-sequential-build.md)
+      + [セグメントのタグ設定](c-segmentation/c-segmentation-workflow/seg-tag.md)
       + [セグメントの承認](c-segmentation/c-segmentation-workflow/seg-approve.md)
       + [セグメントの共有](c-segmentation/c-segmentation-workflow/t-seg-share.md)
-      + [Experience Cloudへのセグメントの公開](c-segmentation/c-segmentation-workflow/seg-publish.md)
+      + [Experience Cloud へのセグメントの公開](c-segmentation/c-segmentation-workflow/seg-publish.md)
       + [セグメントの選択と適用](c-segmentation/c-segmentation-workflow/t-seg-apply.md)
       + [セグメントのフィルタリング](c-segmentation/c-segmentation-workflow/t-seg-filter.md)
-      + [セグメントをお気に入りに登録](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
+      + [セグメントのお気に入りへの登録](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
       + [セグメントの削除](c-segmentation/c-segmentation-workflow/seg-delete.md)
       + [セグメントの管理](c-segmentation/c-segmentation-workflow/seg-manage.md)
    + セグメントの参照 {#segment-reference}
@@ -43,13 +43,13 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
    + [よくある質問](c-calcmetrics/cm-transition.md)
    + [ハウツービデオ](c-calcmetrics/cm-videos.md)
    + 計算指標のワークフロー {#calcmetric-workflow}
-      + [計算指標ワークフロー](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [計算指標のワークフロー](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [指標の検索](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [指標タイプとアトリビューション](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [単純な「訪問あたりのページビュー数」指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [セグメント化された指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
-      + [セグメントのスタックと置換](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
+      + [シンプルな「訪問あたりのページビュー数」指標の作成](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [セグメント化指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
+      + [セグメントの積み重ねと置き換え](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [フィルター適用済み指標と重み付け指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [注文支援指標](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [関数の使用](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
@@ -58,66 +58,66 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [計算指標の承認](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [計算指標の共有](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [計算指標マネージャ](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + Metrics reference {#calcmetrics-reference}
-      + [リファレンス:基本関数](c-calcmetrics/cm-reference/cm-functions.md)
-      + [リファレンス:高度な関数](c-calcmetrics/cm-reference/cm-adv-functions.md)
+   + 指標リファレンス {#calcmetrics-reference}
+      + [リファレンス：基本的な関数](c-calcmetrics/cm-reference/cm-functions.md)
+      + [リファレンス：高度な関数](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [指標の互換性](c-calcmetrics/cm-compatibility.md)
-      + [計算指標:役割ベースの権限](c-calcmetrics/cm-role-based-rights.md)
+      + [計算指標：役割ベースの権限](c-calcmetrics/cm-role-based-rights.md)
       + [計算指標の合計](c-calcmetrics/cm-totals.md)
 + 仮想レポートスイート {#virtual-report-suites}
    + [仮想レポートスイートの概要](vrs/vrs-about.md)
    + [仮想レポートスイートコンポーネントのキュレーション](vrs/vrs-components.md)
-   + [Mobile ServicesでのVRSのサポート](vrs/vrs-mobile-services.md)
+   + [Mobile Services の VRS サポート](vrs/vrs-mobile-services.md)
    + [コンテキスト対応セッション](vrs/vrs-mobile-visit-processing.md)
-   + [レポートの時間処理](vrs/vrs-report-time-processing.md)
+   + [レポート時間処理](vrs/vrs-report-time-processing.md)
    + [VRS FAQ](vrs/vrs-faq.md)
-   + [VRSSおよびグローバル/マルチスイートタギングに関する考慮事項](vrs/vrs-considerations.md)
-   + VRSワークフロー {#vrs-workflow}
+   + [VRS とグローバル／マルチスイートタギングに関する考慮事項](vrs/vrs-considerations.md)
+   + VRS のワークフロー {#vrs-workflow}
       + [仮想レポートスイートのワークフロー](vrs/c-workflow-vrs/vrs-workflow.md)
       + [仮想レポートスイートの作成](vrs/c-workflow-vrs/vrs-create.md)
       + [仮想レポートスイートの管理](vrs/c-workflow-vrs/vrs-manage.md)
-      + [仮想レポートスイート情報の表示](vrs/c-workflow-vrs/vrs-view.md)
+      + [仮想レポートスイートの情報の表示](vrs/c-workflow-vrs/vrs-view.md)
 + アラート {#alerts}
    + [インテリジェントアラート](c-alerts/intellligent-alerts.md)
    + [アラートビルダー](c-alerts/alert-builder.md)
    + [アラートマネージャー](c-alerts/alert-manager.md)
-   + [インテリジェントアラート-使用例](c-alerts/alerts-use-cases.md)
+   + [インテリジェントアラート - 使用例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類について](c-classifications2/c-classifications.md)
    + [下位分類について](c-classifications2/c-sub-classifications.md)
-   + [コンバージョン分類](c-classifications2/conversion-classifications.md)
+   + [コンバージョンの分類](c-classifications2/conversion-classifications.md)
    + [トラフィック分類](c-classifications2/traffic-classifications.md)
    + [分類階層](c-classifications2/classification-hierarchies.md)
-   + Classifications importer (upload) {#classifications-importer}
-      + [分類インポーター-概要](c-classifications2/c-classifications-importer/c-working-with-saint.md)
+   + 分類インポーター（アップロード）{#classifications-importer}
+      + [分類インポーター - 概要](c-classifications2/c-classifications-importer/c-working-with-saint.md)
       + [分類データファイル](c-classifications2/c-classifications-importer/c-saint-data-files.md)
       + [分類データの削除](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
       + [分類データのエスケープ](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
       + [未分類のキー](c-classifications2/c-classifications-importer/nonclassified-keys.md)
       + [分類テンプレート](c-classifications2/c-classifications-importer/c-download-saint-data.md)
-      + [ブラウザーとFTPのインポート](c-classifications2/c-classifications-importer/import-file.md)
+      + [ブラウザーおよび FTP インポート](c-classifications2/c-classifications-importer/import-file.md)
       + [ブラウザーインポート](c-classifications2/c-classifications-importer/browser-import.md)
-      + [FTPインポート](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+      + [FTP インポート](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + 分類ルールビルダー {#classifications-rulebuilder}
-      + [分類ルールビルダーのワークフロー](c-classifications2/crb/classification-rule-builder.md)
+      + [分類ルールビルダーのワークフロー ](c-classifications2/crb/classification-rule-builder.md)
       + [分類ルールセット](c-classifications2/crb/classification-rule-set.md)
       + [分類ルール](c-classifications2/crb/classification-quickstart-rules.md)
-      + [分類ルール-定義](c-classifications2/crb/classification-rule-definitions.md)
-      + [下位分類とルールビルダー-使用事例](c-classifications2/crb/sub-classification-rule-builder.md)
-   + Numeric 2 classifications {#numeric2-classification}
-      + [数値2分類の概要](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [数値2分類の作成](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [数値2分類のインポート](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
+      + [分類ルール - 定義](c-classifications2/crb/classification-rule-definitions.md)
+      + [下位分類とルールビルダー - 使用事例](c-classifications2/crb/sub-classification-rule-builder.md)
+   + 数値 2 分類 {#numeric2-classification}
+      + [数値 2 分類の概要 ](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
+      + [数値 2 分類の作成](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [数値 2 分類のインポート](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
       + [例](c-classifications2/c-numeric-2/c-examples.md)
    + [分類のトラブルシューティング](c-classifications2/c-classifications-troubleshooting.md)
 + [カレンダーイベント](t-calendar-event.md)
 + 変数 {#variables}
    + [変数の概要](c-variables/c-variables.md)
-   + ディメンション/レポート {#dimensions-reports}
+   + ディメンション／レポート {#dimensions-reports}
       + [ディメンションの説明](c-variables/dimensionslist/reports-descriptions.md)
       + [ディメンションの互換性](c-variables/dimensionslist/dimension-compatibility.md)
-      + [ベストプラクティスとトラブルシューティング](c-variables/dimensionslist/report-troubleshooting.md)
-      + [アカウント アクティビティ](c-variables/dimensionslist/report-account-activity.md)
+      + [レポート作成のベストプラクティスとトラブルシューティング](c-variables/dimensionslist/report-troubleshooting.md)
+      + [アカウントアクティビティ](c-variables/dimensionslist/report-account-activity.md)
       + [異常値検出](c-variables/dimensionslist/anomaly.md)
       + [レポートのカテゴリ](c-variables/dimensionslist/reports-types.md)
       + [ブックエンドパターン](c-variables/dimensionslist/bookend-pattern.md)
@@ -142,7 +142,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [クロス販売](c-variables/dimensionslist/reports-cross-sell.md)
       + [カスタム](c-variables/dimensionslist/reports-custom.md)
       + [カスタムイベント](c-variables/dimensionslist/reports-custom-events.md)
-      + [カスタムインサイト](c-variables/dimensionslist/reports-custom-insight.md)
+      + [カスタム Insight](c-variables/dimensionslist/reports-custom-insight.md)
       + [カスタムリンク](c-variables/dimensionslist/reports-custom-links.md)
       + [カスタムトラフィック](c-variables/dimensionslist/reports-custom-traffic.md)
       + [顧客属性](c-variables/dimensionslist/reports-customer-attributes.md)
@@ -166,7 +166,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [フルパス](c-variables/dimensionslist/reports-fullpaths.md)
       + [地理特性](c-variables/dimensionslist/reports-geosegmentation.md)
       + [国別の地理特性の地域と郵便番号の使用](c-variables/dimensionslist/reports-geosegmentation-reference.md)
-      + [Hierarchy](c-variables/dimensionslist/reports-hierarchy.md)
+      + [階層](c-variables/dimensionslist/reports-hierarchy.md)
       + [ヒットタイプ](c-variables/dimensionslist/report-hit-type.md)
       + [画像サポート](c-variables/dimensionslist/reports-image-support.md)
       + [情報配信](c-variables/dimensionslist/reports-information-services.md)
@@ -194,15 +194,15 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [次サーバーのフロー](c-variables/dimensionslist/reports-next-server-flow.md)
       + [オペレーティングシステム](c-variables/dimensionslist/reports-operating-system.md)
       + [オペレーティングシステムの種類](c-variables/dimensionslist/reports-os-types.md)
-      + [購入回数](c-variables/dimensionslist/reports-orders.md)
+      + [注文件数](c-variables/dimensionslist/reports-orders.md)
       + [オリジナルの参照ドメイン](c-variables/dimensionslist/reports-original-ref-domains.md)
       + [長期間](c-variables/dimensionslist/reports-overtime.md)
       + [ページの深さ](c-variables/dimensionslist/reports-page-depth.md)
       + [ページサマリ](c-variables/dimensionslist/reports-page-summary.md)
-      + [ページ](c-variables/dimensionslist/reports-page-value.md)
+      + [ページ値](c-variables/dimensionslist/reports-page-value.md)
       + [ページビュー数](c-variables/dimensionslist/reports-page-views.md)
       + [ページ](c-variables/dimensionslist/reports-pages.md)
-      + [エラーページ(404)](c-variables/dimensionslist/reports-pages-not-found.md)
+      + [エラーページ (404)](c-variables/dimensionslist/reports-pages-not-found.md)
       + [有料検索エンジン](c-variables/dimensionslist/reports-paid-search-engines.md)
       + [有料検索キーワード](c-variables/dimensionslist/reports-paid-search-keywords.md)
       + [パスファインダー](c-variables/dimensionslist/report-pathfinder.md)
@@ -248,15 +248,15 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [訪問別滞在時間](c-variables/dimensionslist/reports-time-spent-per-visit.md)
       + [タイムゾーン](c-variables/dimensionslist/reports-time-zones.md)
       + [トップレベルドメイン](c-variables/dimensionslist/reports-top-level-domains.md)
-      + [Totals](c-variables/dimensionslist/reports-totals.md)
+      + [合計](c-variables/dimensionslist/reports-totals.md)
       + [トラッキングコード](c-variables/dimensionslist/reports-tracking-codes.md)
       + [トラフィック](c-variables/dimensionslist/reports-traffic.md)
       + [トラフィックソース](c-variables/dimensionslist/reports-traffic-sources.md)
       + [ユニーク顧客数](c-variables/dimensionslist/reports-unique-customer.md)
       + [実訪問者数](c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md)
-      + [購入点数](c-variables/dimensionslist/reports-units.md)
+      + [単位](c-variables/dimensionslist/reports-units.md)
       + [米国の州名](c-variables/dimensionslist/reports-state.md)
-      + [Video](c-variables/dimensionslist/reports-video.md)
+      + [ビデオ](c-variables/dimensionslist/reports-video.md)
       + [ビデオサポート](c-variables/dimensionslist/reports-video-support.md)
       + [訪問回数](c-variables/dimensionslist/reports-visitor-number.md)
       + [訪問](c-variables/dimensionslist/reports-visits.md)
@@ -264,7 +264,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [訪問者プロファイル](c-variables/dimensionslist/reports-visitor-profile.md)
       + [訪問者保持率](c-variables/dimensionslist/reports-visitor-retention.md)
       + [訪問者](c-variables/dimensionslist/reports-visitors.md)
-      + [Zip](c-variables/dimensionslist/reports-zip.md)
+      + [郵便番号](c-variables/dimensionslist/reports-zip.md)
    + 指標 {#metrics}
       + [指標の概要](c-variables/c-metrics/metricslist.md)
       + [指標のクイックリファレンス](c-variables/c-metrics/metrics-overview.md)
@@ -307,21 +307,21 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [滞在時間](c-variables/c-metrics/metrics-time-spent.md)
       + [合計](c-variables/c-metrics/metrics-total.md)
       + [実訪問者数](c-variables/c-metrics/metrics-unique-visitors.md)
-      + [購入点数](c-variables/c-metrics/metrics-units.md)
+      + [単位](c-variables/c-metrics/metrics-units.md)
       + [訪問](c-variables/c-metrics/metrics-visit.md)
       + [訪問者](c-variables/c-metrics/visitors.md)
       + [Experience Cloud ID を持つ訪問者](c-variables/c-metrics/metric-visitors-mcid.md)
       + [週別訪問者数](c-variables/c-metrics/metrics-weekly-unique-visitors.md)
       + [年別訪問者数](c-variables/c-metrics/metrics-yearly-unique-visitors.md)
       + [訪問者パーティシペーション - Ad Hoc Analysis](c-variables/c-metrics/metrics-visitor-participation.md)
-   + Merchandising variables {#merchandising-variables}
+   + マーチャンダイジング変数 {#merchandising-variables}
       + [マーチャンダイジング変数の概要](c-variables/c-merch-variables/var-merchandising.md)
-      + [マーチャンダイジング変数の実装](c-variables/c-merch-variables/var-merchandising-impl.md)
-      + [マーチャンダイジング変数のインスタンス](c-variables/c-merch-variables/var-merchandising-instances.md)
+      + [マーチャンダイジング変数の導入](c-variables/c-merch-variables/var-merchandising-impl.md)
+      + [マーチャンダイジング変数とインスタンス](c-variables/c-merch-variables/var-merchandising-instances.md)
 + リアルタイムレポート {#real-time-reporting}
    + [リアルタイムレポートの概要](c-real-time-reporting/realtime.md)
    + [リアルタイムレポートの設定](c-real-time-reporting/t-realtime-admin.md)
-   + [サポートされるリアルタイム指標およびディメンション](c-real-time-reporting/realtime-metrics.md)
+   + [サポートされるリアルタイム指標とディメンション](c-real-time-reporting/realtime-metrics.md)
 + マーケティングチャネル {#marketing-channels}
    + [マーケティングチャネル - はじめに](c-marketing-channels/c-getting-started-mchannel.md)
    + [マーケティングチャネルレポートについて](c-marketing-channels/c-overview.md)
@@ -330,7 +330,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
    + [マーケティングチャネルの管理](c-marketing-channels/c-channels.md)
    + [マーケティングチャネルの処理ルール](c-marketing-channels/c-rules.md)
    + [マーケティングチャネルの処理ルールの作成](c-marketing-channels/t-rules.md)
-   + [マーケティングチャネルの処理ルール-定義](c-marketing-channels/r-channel-rule-definitions.md)
+   + [マーケティングチャネルの処理ルール - 定義](c-marketing-channels/r-channel-rule-definitions.md)
    + [よくある質問と例](c-marketing-channels/c-faq.md)
    + [複数のレポートスイートへのテンプレートレポートスイート設定の適用](c-marketing-channels/t-template.md)
    + [マーケティングチャネルでの分類](c-marketing-channels/classifictions-mchannel.md)
