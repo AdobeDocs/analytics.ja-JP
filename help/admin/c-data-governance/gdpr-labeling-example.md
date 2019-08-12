@@ -5,14 +5,14 @@ seo-title: ラベル設定の例
 title: ラベル設定の例
 uuid: a9a5b937- dbde-4f0f- a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: fe1d2eb0bae02ee9eeb59e1689519836f8acf8db
+source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
 
 ---
 
 
 # ラベル設定の例
 
-## ヒットデータのサンプル {#section_94DE6BC0026F46D7AD7061C5625C8D52}
+## ヒットデータのサンプル
 
 以下のヒットデータがあるとします。
 
@@ -20,11 +20,9 @@ source-git-commit: fe1d2eb0bae02ee9eeb59e1689519836f8acf8db
 * 2 番目の行は変数の名前である。ID ラベルがある場合は、割り当てられた名前空間が括弧内に含まれている。
 * ヒットデータは 3 番目の行から開始する。
 
-<!-- Meike, I converted html tables for fix elusive validation error. Bob -->
-
 | ラベル | I2<br>ID- PersonOr<br>- PERSOACC<br>- PERPEN | I2<br>ID- DeviceEL<br>- DeviceACC<br>- ALL | I2<br>KR- PERSOACC<br>- PERPEE | I2<br>K- DeviceEL<br>- PersonACC<br>- ALL | I2<br>ID- DeviceEL<br>- DeviceACC<br>- ALL |
 |---|---|---|---|---|---|
-| Variable Name<br>（Namespace） | myProp1<br>（ユーザー） | 訪問者ID<br>（AID） | MyEvar1 | MyEvar2 | myEvar3<br>（xyz） |
+| **Variable Name**<br>**（Namespace）** | **myProp1**<br>**（ユーザー）** | **訪問者ID**<br>**（AID）** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**（xyz）** |
 | ヒットデータ | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -34,14 +32,13 @@ source-git-commit: fe1d2eb0bae02ee9eeb59e1689519836f8acf8db
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-
-## アクセス要求のサンプル {#section_BDA817FD2415420DAAC835825484BA9D}
+## アクセス要求のサンプル
 
 アクセス要求を送信する場合、概要ファイルには、以下の表に示された値が含まれます。要求は、デバイスファイルファイルのみ、ユーザーファイルのみまたはどちらか 1 つを返す可能性があります。2 つの概要ファイルは、ユーザー ID が使用され、expandIDs が true の場合にのみ返されます。
 
-| API の値 | API の値 | 返されるファイルタイプ | <br>サマリアクセスファイルのデータ </br> | <br>サマリアクセスファイルのデータ</br> | <br>サマリアクセスファイルのデータ</br> | <br>サマリアクセスファイルのデータ</br> | <br>サマリアクセスファイルのデータ</br> |
+| API の値 | API の値 | 返されるファイルタイプ | <br>サマリアクセスファイルのデータ | <br>サマリアクセスファイルのデータ | <br>サマリアクセスファイルのデータ | <br>サマリアクセスファイルのデータ | <br>サマリアクセスファイルのデータ |
 |--- |--- |--- |---|---|---|---|---|
-| 名前空間／ID | expandIDs |  | MyProp1 | 訪問者 ID | MyEvar1 | MyEvar2 | MyEvar3 |
+| **名前空間／ID** | **expandIDs** |  | **MyProp1** | **訪問者 ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | デバイス | 変数が存在しない | 77 | 変数が存在しない | M、P | X、W |
 | AAID=77 | true | デバイス | 変数が存在しない | 77 | 変数が存在しない | M、P | X、W |
 | user=Mary | false | ユーザー | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
@@ -54,13 +51,13 @@ source-git-commit: fe1d2eb0bae02ee9eeb59e1689519836f8acf8db
 
 Cookie ID が使用されている場合、expandIDs の設定は出力に影響しないことに注意してください。
 
-## 削除要求のサンプル {#section_6C75F70F5D574BE7AA540981E8B7EA26}
+## 削除要求のサンプル
 
 表の最初の行にある API の値を使用した削除要求の場合、ヒットの表は以下のように更新されます。
 
-| AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> |
+| AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
-| MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
+| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Mary | 42 | A | GDPR-7398 | GDPR-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
@@ -70,13 +67,11 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE]
->
->AID=77を含む行のセルのみ、およびK- DEVICEラベルが影響を受けます。
+>[!NOTE] AID=77を含む行のセルのみ、およびK- DEVICEラベルが影響を受けます。
 
-| user= maryExpandids<br>= false</br> | user= maryExpandids<br>= false</br> | user= maryExpandids<br>= false</br> | user= maryExpandids<br>= false</br> | user= maryExpandids<br>= false</br> |
+| user= maryExpandids<br>= false | user= maryExpandids<br>= false | user= maryExpandids<br>= false | user= maryExpandids<br>= false | user= maryExpandids<br>= false |
 |--- |---|---|---|---|
-| MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
+| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
 | GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | Y |
 | GDPR-0523 | 99 | GDPR-9045 | GDPR-2864 | Z |
@@ -86,13 +81,11 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE]
->
->user= MaryとKR- PERTESSラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar で、その置き換える値は、数値を異なるランダムな数値で置き換えるのではなく、「GDPR-」で始まり、乱数（GUID）が続く文字列です。
+>[!NOTE] user= MaryとKR- PERTESSラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar で、その置き換える値は、数値を異なるランダムな数値で置き換えるのではなく、「GDPR-」で始まり、乱数（GUID）が続く文字列です。
 
-| user=Mary<br>expandIDs=true</br> | user= maryExpandids<br>= true</br> | user= maryExpandids<br>= true</br> | user= maryExpandids<br>= true</br> | user= maryExpandids<br>= true</br> |
+| user=Mary<br>expandIDs=true | user= maryExpandids<br>= true | user= maryExpandids<br>= true | user= maryExpandids<br>= true | user= maryExpandids<br>= true |
 |--- |---|---|---|---|
-| MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
+| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
 | GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
 | GDPR-5782 | 83 | GDPR-2714 | GDPR-0219 | GDPR-4395 |
@@ -104,7 +97,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 以下のことに注意してください。
 
-* user=Mary および DEL-DEVICE または DEL-PERSON ラベルを含む行のセルが影響を受けます。また、user=Mary を含む行にある Visitor ID を含む行の DEL-DEVICE ラベルの付いたセルも影響を受けます。
-* 4 番目および 5 番目の行には、最初および 2 番目の行と同じ Visitor ID 値が含まれているので、これらの行の MyEvar2 は更新されます。そのため、これらは、デバイスレベルの削除用に、ID 拡張に含まれます。
-* 行 2 および 5 の MyEvar2 の値は、削除の前後で一致しますが、削除後は、その行が削除要求の一環として更新されなかったので、最後の行にある値 N と一致しません。
-* MyEvar3 の動作は ID 拡張をおこなわない場合とは非常に異なりますが、これは、ID 拡張をおこなわないとどの ID-DEVICES とも一致しないからです。現在はそれに対して、最初の 5 行で AAID が一致します。
+* Cells on rows containing `user=Mary` and a `DEL-DEVICE` or `DEL-PERSON` label are impacted, as well as cells with a `DEL-DEVICE` label on rows containing any Visitor ID that occurred on a row containing `user=Mary`.
+* `MyEvar2`4 番目および 5 番目の行には、最初および 番目の行と同じ Visitor ID 値が含まれているので、これらの行の 2 は更新されます。そのため、これらは、デバイスレベルの削除用に、ID 拡張に含まれます。
+* The values of `MyEvar2` in rows two and five match both before and after the delete, but after the delete no longer matches the value N that occurs in the last row, because that row was not updated as part of the delete request.
+* `MyEvar3` の動作は ID 拡張をおこなわない場合とは非常に異なりますが、これは、ID 拡張をおこなわないとどの とも一致しないからです。`ID-DEVICES`Now `AAID` matches on the first five rows.
