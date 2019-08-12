@@ -79,7 +79,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [サポートされるリアルタイム指標とディメンション](admin/realtime/realtime-metrics.md)
    + [予定レポートキュー](admin/scheduled-reports-admin.md)
    + サーバー側転送 {#server-side-forwarding}
-      + [サーバー側転送の FAQ](admin/c-server-side-forwarding/ssf.md)
+      + [サーバー側転送の概要](admin/c-server-side-forwarding/ssf.md)
       + [サーバー側転送の要件](admin/c-server-side-forwarding/ssf-requirements.md)
       + [サーバー側転送のデータとコードのリファレンス](admin/c-server-side-forwarding/ssf-reference.md)
       + [サーバー側転送の実装の確認方法](admin/c-server-side-forwarding/ssf-verify.md)
