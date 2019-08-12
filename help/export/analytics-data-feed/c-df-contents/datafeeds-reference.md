@@ -9,7 +9,7 @@ title: データ列リファレンス
 topic: Reports and Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | ef_id | Adobe Advertising Cloud 統合で使用される ef_id。 | varchar(255) |
 | evar1 ～ evar250 | カスタム変数 1 ～ 250。eVar の使用方法は組織ごとに異なります。組織における各 eVar への値の設定方法について詳しくは、それぞれの組織に固有のソリューションデザインドキュメントを参照してください。 | varchar(255) |
 | event_list | ヒットで発生したイベントを表す数値 ID のコンマ区切りリスト。デフォルトイベントもカスタムイベント 1 ～ 1000 も含まれています。event.tsv 参照テーブルを使用します。 | text |
-| exclude_hit | ヒットがレポートから除外されていることを示すフラグ。visit_ num列は、除外されたヒットに対してはインクリメントされません。<br>1：未使用. Scraped機能の一部。<br>2：未使用. Scraped機能の一部。<br>3:使用されなくなりました。User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as page_url, pagename, page_event, or event_list<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. アカウント固有の除外除外。<br>9：未使用. Scraped機能の一部。<br>10:無効な通貨コード<br>11:タイムスタンプのみのレポートスイートにタイムスタンプがないか、タイムスタンプのないレポートスイート<br>12のタイムスタンプが含まれているヒットがヒットに含まれていました。未使用。Scraped機能の一部。<br>13：未使用. Scraped機能の一部。<br>14:Analyticsのヒット<br>15と一致しなかったTargetヒット:現在使用されていません。<br>16:Analyticsヒットに適合しなかった広告クラウドヒット | tinyint unsigned |
+| exclude_hit | ヒットがレポートから除外されていることを示すフラグ。visit_ num列は、除外されたヒットに対してはインクリメントされません。<br>1：未使用. Scraped機能の一部。<br>2：未使用. Scraped機能の一部。<br>3:使用されなくなりました。ユーザーエージェントの除外<br>4:IPアドレス<br>5に基づく除外:page_ url、pagename、page_ event、event_ list<br>6など、重大なヒット情報がありません:JavaScriptで、ヒット<br>7が正しく処理されませんでした:アカウント固有の除外（VISTAルール<br>8など）:未使用。アカウント固有の除外除外。<br>9：未使用. Scraped機能の一部。<br>10:無効な通貨コード<br>11:タイムスタンプのみのレポートスイートにタイムスタンプがないか、タイムスタンプのないレポートスイート<br>12のタイムスタンプが含まれているヒットがヒットに含まれていました。未使用。Scraped機能の一部。<br>13：未使用. Scraped機能の一部。<br>14:Analyticsのヒット<br>15と一致しなかったTargetヒット:現在使用されていません。<br>16:Analyticsヒットに適合しなかった広告クラウドヒット | tinyint unsigned |
 | first_hit_page_url | 訪問者の本当に最初の URL。 | varchar(255) |
 | first_hit_pagename | 「オリジナルの入口ページ」ディメンションで使用される変数。訪問者のオリジナルの入口ページ名。 | varchar(100) |
 | first_hit_ref_domain | 「オリジナルの参照ドメイン」ディメンションで使用される変数。first_hit_referrer に基づいています。訪問者の本当に最初の参照ドメイン。 | varchar(100) |
@@ -119,14 +119,14 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | mobiledayssincefirstuse | アプリの初回実行時からの経過日数。 | varchar(255) |
 | mobiledayssincelastupgrade | コンテキストデータ変数a. DaysSinceLastUpgradeから収集されます。前回のセッションから経過した日数。 | varchar(255) |
 | mobiledayssincelastuse | アプリの前回実行時からの経過日数。 | varchar(255) |
-| mobiledeepinkid | Collected from the context data variable a.<span>deeplink</span>.id. 獲得レポートで、モバイル獲得リンクの識別子として使用されます。 | varchar(255) |
+| mobiledeepinkid | コンテキストデータ変数a.<span>deepplink</span>. idから収集されます。獲得レポートで、モバイル獲得リンクの識別子として使用されます。 | varchar(255) |
 | mobiledevice | モバイルデバイス名。iOS の場合は、コンマ区切りの 2 桁の文字列として格納されます。最初の番号はデバイスの世代を表し、2 番目の番号はデバイスファミリーを表します。 | varchar(255) |
 | mobilehourofday | アプリが起動された時刻を示します。24 時間形式に従います。 | varchar(255) |
 | mobileinstalldate | モバイルインストール日。モバイルアプリをユーザーが最初に起動した日を示します。 | varchar(255) |
 | mobilelaunchessincelastupgrade | コンテキストデータ変数a. LaunchesSinceUpgradeから収集されます。前回アップグレードからの起動回数をレポートします。 | varchar(255) |
 | mobilelaunchnumber | モバイルアプリが起動されるたびに 1 ずつ増分されます。 | varchar(255) |
 | mobileltv | 廃止。trackLifetimeValue メソッドによって設定されます。 | varchar(255) |
-| mobilemessagebuttonname | Collected from the context data variable a.<span>message</span>.button.id. メッセージを閉じるボタンを識別するためにアプリ内メッセージに使用します。 | varchar(100) |
+| mobilemessagebuttonname | コンテキストデータ変数a.<span>message</span>. button. idから収集されます。メッセージを閉じるボタンを識別するためにアプリ内メッセージに使用します。 | varchar(100) |
 | mobilemessageid | アプリ内メッセージID | varchar(255) |
 | mobilemessageonline | アプリ内メッセージオンライン | varchar(255) |
 | mobilemessagepushoptin | コンテキストデータ変数a. push. optinから収集されます。ユーザーがプッシュメッセージにオプトインするときに"true"に設定します。そうでない場合、値は"false"になります。 | varchar(255) |
@@ -135,7 +135,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | mobileosversion | Mobile Servicesオペレーティングシステムのバージョン | varchar(255) |
 | mobileplaceaccuracy | コンテキストデータ変数a. loc. utilsから収集されます。収集時のGPSの精度をメートル単位で示します。 | varchar(255) |
 | mobileplacecategory | コンテキストデータ変数a. loc. categoryから収集されます。特定の場所のカテゴリについて説明します。 | varchar(255) |
-| mobileplaceid | Collected from the context data variable a.<span>loc</span>.id. 特定の目標地点の識別子。 | varchar(255) |
+| mobileplaceid | コンテキストデータ変数a.<span>loc</span>. idから収集されます。特定の目標地点の識別子。 | varchar(255) |
 | mobilerelaunchampaigncontent | Mobile Servicesの起動コンテンツ | varchar(255) |
 | mobilerelaunchampaignmedium | Mobile Services起動メディア | varchar(255) |
 | mobilerelaunchampaignsource | Mobile Servicesの起動ソース | varchar(255) |
@@ -277,3 +277,109 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | weekly_visitor | ヒットが新しい週別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | yearly_visitor | ヒットが新しい年別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | zip | 「郵便番号」ディメンションの設定に使用されます。 | varchar(50) |
+
+## 空白コラム
+
+次の列は未使用で、データは含まれません。
+
+* mobilepacquitionclicks
+* mobileactioninapptime
+* mobileactiontotaltime
+* mobilepappperformance affectedusers
+* mobileappperformance appid<span>.</span>app- perf- app- name
+* mobileappperformance appid<span>.</span>app- perf- platform
+* mobilepappperformancerashes
+* mobilepappperformancecashd<span>.</span>app- perf- crash- name
+* mobilepappperformanceels
+* mobileappstoreavring
+* mobileappstoredownloads
+* mobileappstoreinapafesue
+* mobilepapprestoreinproprityity
+* mobileapprestorobjectid<span>.</span>app- store- user
+* mobileapprestorobjectid<span>.</span>application- name
+* mobileapprestorobjectid<span>.</span>application- version
+* mobileapprestorobjectid<span>.</span>appstore- name
+* mobileapprestorobjectid<span>.</span>category- name
+* mobileapprestorobjectid<span>.</span>country- name
+* mobileapprestorobjectid<span>.</span>デバイス製造元
+* mobileapprestorobjectid<span>.</span>device- name
+* mobileapprestorobjectid<span>.</span>in- app- name
+* mobileapprestorobjectid<span>.</span>platform- name- version
+* mobileapprestorobjectid<span>.</span>dank- category- type
+* mobileapprestorobjectid<span>.</span>region- name
+* mobileapprestorobjectid<span>.</span>レビューコメント
+* mobileapprestorobjectid<span>.</span>review- title
+* mobilepapprestoreoffenue
+* mobileappstoreoneoffrighttyity
+* mobileappstorepurchases
+* mobilepappstorertank
+* mobileappstorerankdivisor
+* mobileappstorerating
+* mobilepappstorerating除数
+* mobileavgprevessionlength
+* mobilecrashes
+* mobilecrashrate
+* mobiledailagagedusers
+* mobiledeepinkid<span>.</span>name
+* mobileinstalls
+* mobilelaunches
+* mobileltvtotal
+* mobilemessagelicks
+* mobilemessageid<span>.</span>dest
+* mobilemessageid<span>.</span>name
+* mobilemessageid<span>.</span>type
+* mobilemessageインプレッション
+* mobilemessagepushpayloadid<span><span>.</span></span>name
+* mobilemessageviews
+* mobilememlyagagedusers
+* mobilepplacedhewtime
+* mobileplaceentry
+* mobileplaceexit
+* mobileprevsessionlength
+* mobilerelaunchampaigntrackingcode<span><span>.</span></span>name
+* mobileupgrades
+* socialaveragesentiment
+* socialaveragesentiment（非推奨）
+* socialfbstories
+* socialfbstorytellers
+* socialinteractioncount
+* sociallikeadds
+* sociallink
+* sociallink（非推奨）
+* socialmentions
+* socialpageviews
+* socialpostviews
+* socialproperty
+* socialproperty（非推奨）
+* socialpubcomments
+* socialpubposts
+* socialpubrecommends
+* socialpubsubscribers
+* socialterm
+* socialtermslist
+* socialtermslist（非推奨）
+* socialtotalsentiment
+* sourceid
+* videosorized
+* videoaverageminuteaudience
+* videochaptercomplete
+* videochapterstart
+* videochaptertime
+* videopause
+* videopausecount
+* videopausetime
+* videoplay
+* videoprogress10
+* videoprogress25
+* videoprogress50
+* videoprogress75
+* videoprogress96
+* videoqoebitrateaverage
+* videoqoebitratechange
+* videoqoebuffer
+* videoqoedropbeforestart
+* videoqoedroppedframes
+* videoqoeerror
+* videoresume
+* videototaltime
+* videomibquetimed
