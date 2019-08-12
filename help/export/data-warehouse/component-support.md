@@ -2,7 +2,7 @@
 title: Data Warehouseでのコンポーネントのサポート
 description: Data Warehouseで使用できる追加のディメンションと指標、およびサポートされていないものについて説明します。
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
 
 ---
 
@@ -17,10 +17,9 @@ Data Warehouseではディメンションと指標を使用できますが、Ado
 
 ### サポートされているディメンションのみ
 
-* Experience Cloud 訪問者 ID:
-* IP:
-* ページ URL:
-* 購買 ID:
+* Experience Cloud訪問者ID:Experience Cloud IDサービス（ECID）を使用する実装の場合、19桁の連結された64ビット番号から成る128ビットの番号が19桁に設定されます。
+* ページURL:ヒットが発生したページURL。
+* 購入ID:purchaseID変数を使用した購入の一意の識別子。
 * 訪問者ID:訪問者の一意の識別子を提供します。この値は、データフィードの連結された値 `visid_high` と `visid_low` 列と同じです。詳しくは、「データフィード」の「 [データ列リファレンス](../analytics-data-feed/c-df-contents/datafeeds-reference.md) 」を参照してください。
 
 ### サポートされている指標
@@ -59,7 +58,7 @@ Data Warehouseでは、ディメンションと指標の一部はサポートさ
 * すべての検索ページのランク
 * 階層変数
 * ヒットタイプ
-* エラーページ（セグメントのみ）
+* エラーページ（ディメンションとして使用可能）セグメント化ではサポートされていません）
 * 有料検索
 * 直帰数
 * トラッキングオプトアウト理由
