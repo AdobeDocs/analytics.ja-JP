@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 書き出しガイド
 user-guide-url: /content/help/ja-JP/analytics/export/home.html
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
 
 ---
 
@@ -61,6 +61,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [指標で並べ替え](data-warehouse/sorting-by-metric.md)
    + [定期的なリクエストのスケジュール設定](data-warehouse/dw-schedule-recurring.md)
    + [Data Warehouse リクエストの管理](data-warehouse/data-warehouse-requests-manage.md)
+   + [Data Warehouseでサポートされているコンポーネント](data-warehouse/component-support.md)
    + [Data Warehouse セグメントと互換性のないディメンション](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Data Warehouse のベストプラクティス](data-warehouse/data-warehouse-bp.md)
 + FTP と SFTP {#ftp-and-sftp}
