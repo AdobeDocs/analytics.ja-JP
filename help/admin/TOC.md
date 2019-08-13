@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 user-guide-url: /content/help/ja-JP/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -19,10 +19,10 @@ source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 + 管理ツール {#admin-tools}
    + [管理ツール](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
-   + ボットルール {#bot-rules}
-      + [ボットルールの概要](admin/bot-rules/bot-rules.md)
-      + [ボットルールのアップロード](admin/bot-rules/t-upload-bot-rules.md)
-      + [カスタムボットルールの作成](admin/bot-rules/t-create-bot-rules.md)
+   + ボット削除 {#bot-removal}
+      + [ボットルールの概要](admin/bot-removal/bot-rules.md)
+      + [ボットルールのアップロード](admin/bot-removal/t-upload-bot-rules.md)
+      + [カスタムボットルールの作成](admin/bot-removal/t-create-bot-rules.md)
    + [コードマネージャー](admin/code-manager-admin.md)
    + Conversion variables {#conversion-variables}
       + [コンバージョン変数（eVar）](admin/conversion-var-admin/conversion-var-admin.md)
