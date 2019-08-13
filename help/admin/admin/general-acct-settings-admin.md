@@ -7,7 +7,7 @@ title: 一般的なアカウント設定
 topic: 管理ツール
 uuid: c1ab5c34-2c41-4d12- a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 0cecb6f66046b7db8471ce125237d74fdfc9323b
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 0cecb6f66046b7db8471ce125237d74fdfc9323b
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP Obfuscation（IP の不明化）</span> </td> 
-   <td colname="col2"> <p>IP アドレスを認識不可能な文字列に変更して、アドビのデータストアから削除します。IP の不明化を有効にすると、元の IP アドレスは永久に失われます。 </p> <p>注意：Data Warehouse を含め、Analytics のどこでも、IP アドレスが不明化されます。ただし、Target の IP 設定は別に制御されているので、この設定が Target に影響することはありません。 </p> <p>IP の不明化を有効にすると、IP アドレスが不明化される前に IP の除外がおこなわれるので、IP の不明化を有効にする際に、お客様は何も変更する必要はありません。 </p> <p>「<span class="uicontrol">無効</span>」をチェックすると、データの IP アドレスはそのまま変更されません。 </p> <p>「<span class="uicontrol">IP アドレスを不明化</span>」をチェックすると、IP がハッシュ値（234abc6493872038 など）に変更されます。 </p> <p>「<span class="uicontrol">IP アドレスを削除</span>」をチェックすると、地域ルックアップ後に IP アドレスがデータ内で x.x.x.x に置き換えられます。 </p> <p>Note: This setting might require changes to custom <a href="../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot rules</a> or<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
+   <td colname="col2"> <p>IP アドレスを認識不可能な文字列に変更して、アドビのデータストアから削除します。IP の不明化を有効にすると、元の IP アドレスは永久に失われます。 </p> <p>注意：Data Warehouse を含め、Analytics のどこでも、IP アドレスが不明化されます。ただし、Target の IP 設定は別に制御されているので、この設定が Target に影響することはありません。 </p> <p>IP の不明化を有効にすると、IP アドレスが不明化される前に IP の除外がおこなわれるので、IP の不明化を有効にする際に、お客様は何も変更する必要はありません。 </p> <p>「<span class="uicontrol">無効</span>」をチェックすると、データの IP アドレスはそのまま変更されません。 </p> <p>「<span class="uicontrol">IP アドレスを不明化</span>」をチェックすると、IP がハッシュ値（234abc6493872038 など）に変更されます。 </p> <p>「<span class="uicontrol">IP アドレスを削除</span>」をチェックすると、地域ルックアップ後に IP アドレスがデータ内で x.x.x.x に置き換えられます。 </p> <p>注意:この設定には、カスタム <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> ボットルール</a> または<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP除外の変更が必要になる</a>場合があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> トランザクション ID ストレージ</span> </td> 
