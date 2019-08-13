@@ -2,14 +2,14 @@
 description: API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。
 keywords: グループ;permissions
 seo-description: API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。
-seo-title: レポートスイートツールのカスタマイズ permissions
+seo-title: レポートスイートツールの権限のカスタマイズ
 solution: Analytics
 subtopic: ユーザーとグループ
 title: レポートスイートツールの権限のカスタマイズ
 topic: 管理ツール
 uuid: 3c95d296- ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -68,8 +68,8 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | [異常値検出](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法である、異常値検出に対する権限を付与します。 |
 | [チャネルレポート](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | レポート／マーケティングチャネルレポートにあるマーケティングチャネルレポートに対する権限を付与します。 |
 | [リアルタイムレポート](../../../admin/admin/realtime/t-realtime-admin.md) | リアルタイムレポートへのアクセス権を付与します。 |
-| [ボットページ](../../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | ボットルールを使用すると、既知のスパイダやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
-| [ボット](../../../admin/admin/bot-rules/bot-rules.md) | ボットルールを使用すると、既知のスパイダやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
+| [ボットページ](../../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | ボットルールを使用すると、既知のスパイダやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
+| [ボット](../../../admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
 | [カスタム Data Warehouse レポート](../../..//export/data-warehouse/data-warehouse.md) | Data Warehouse は、カスタムレポート用の処理されていない生のデータを取り出す機能です。カスタムレポートはこのデータをフィルタリングして実行します。ユーザー独自の質問に基づいて生のデータから詳細なデータの関連性を表示するように、レポートにリクエストできます。 |
 | [日別再来訪](../../../components/c-variables/dimensionslist/reports-daily-return-visits.md) | （レガシー）ある特定の日に、Web サイトを 2 回以上訪ねた訪問者の数を表示するレポートです。1 日は直前の 24 時間として定義されます。 |
 | [データソースマネージャー](../../../admin/admin/data-sources.md) | データソース機能を使用すると、オフラインソースから Analytics にデータをインポートできます。 |
@@ -79,9 +79,9 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | [再来訪](../../../components/c-variables/dimensionslist/reports-return-visits.md) | 訪問回数が 2 以上である訪問の数を示すレポート。再来訪レポートには、cookie を使用していない訪問者が含まれます。 |
 | [分類インポーター](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) / エクスポーターおよび[ルールビルダー](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | 分類に統合されました（以下を参照してください）。 |
 | データフィードマネージャー | 権限を Analytics データフィード. |
-| 分類       | 次の権限を組み合わせます。「トラフィック分類」、「ビデオ分類」、「コンバージョン分類」、「分類階層」、「分類マネージャー」および「分類インポーター/エクスポーターとルールビルダー」。注意：この権限を持つユーザーは、選択したレポートスイートだけではなく、すべてのレポートスイートの分類を編集できます。 |
+| 分類 | 次の権限を組み合わせます。「トラフィック分類」、「ビデオ分類」、「コンバージョン分類」、「分類階層」、「分類マネージャー」および「分類インポーター/エクスポーターとルールビルダー」。注意：この権限を持つユーザーは、選択したレポートスイートだけではなく、すべてのレポートスイートの分類を編集できます。 |
 | [貢献度分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Analysis Workspace で貢献度分析を使用する権限を付与します。 |
 | **ダッシュボードの項目** |  |
-| The settings in Dashboard Items enables access to [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports &amp; Analytics:, My Recommended Reports, Company Summary Reportlet, Image, KPI/Gauge Reportlet, Report Suite Totals, Text, Reportlet, Usage Summary Reportlet, and Web Resources |  |
+| ダッシュボードの項目の設定により、Reports&amp; Analyticsの [レポートレット](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) にアクセスできます。，推奨レポート，会社サマリレポートレット，画像， KPI/ゲージレポートレット，レポートスイートの合計，テキスト，レポートレット，使用状況サマリレポートレット， Webリソース |  |
 | **その他** |  |
 | ソーシャル | Report Suite Manager のソーシャルの管理メニューへのアクセスを制御します。 |
