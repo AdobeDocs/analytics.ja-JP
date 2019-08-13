@@ -1,16 +1,16 @@
 ---
 description: レポートの時間処理は、データを非破壊的で遡及的な方法で処理できる仮想レポートスイート設定です。
 seo-description: レポートの時間処理は、データを非破壊的で遡及的な方法で処理できる仮想レポートスイート設定です。
-seo-title: レポートの時間処理
-title: レポートの時間処理
+seo-title: レポート時間処理
+title: レポート時間処理
 uuid: 1a1d82ea-8c93-43cc-8689- cdcf59c309b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1e8d5af54ab22311e1c3967979c8bdc982a66d5b
 
 ---
 
 
-# レポートの時間処理
+# レポート時間処理
 
 レポートの時間処理は、データを非破壊的で遡及的な方法で処理できる仮想レポートスイート設定です。
 
@@ -84,7 +84,7 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
    <td colname="col2"> <p> 現在サポートされていません。将来サポートされる予定です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> AMO で予約されている指標／ディメンション </p> </td> 
+   <td colname="col1"> <p> Advertising Cloud予約指標/ディメンションの解析 </p> </td> 
    <td colname="col2"> <p> 現在サポートされていません。将来サポートされる予定です。 </p> </td> 
   </tr> 
   <tr> 
@@ -157,7 +157,7 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
    <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合、レポートの日付範囲内にバックグラウンドヒットしかおこなっていない訪問者は実訪問者数にカウントされません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 訪問回数 </p> </td> 
+   <td colname="col1"> <p> 訪問 </p> </td> 
    <td colname="col2"> <p> 訪問回数には仮想レポートスイートで定義されているすべての設定が反映されます。これらの設定はベースレポートスイートと異なる場合があります。 </p> </td> 
   </tr> 
   <tr> 
@@ -170,19 +170,19 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> バウンス／バウンス率 </p> </td> 
-   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合、フォアグラウンドヒットが後に続かないバックグラウンドヒットはバウンスと見なされず、バウンス率にも影響しません。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合、フォアグラウンドヒットが後に続かないバックグラウンドヒットはバウンスと見なされず、バウンス率にも影響しません。詳しくは <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 、コンテキスト対応のセッション化</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 訪問別滞在時間（秒） </p> </td> 
-   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合は、フォアグラウンドヒットを含む訪問のみがこの指標でカウントされます。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合は、フォアグラウンドヒットを含む訪問のみがこの指標でカウントされます。詳しくは <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 、コンテキスト対応のセッション化</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 訪問別滞在時間 </p> </td> 
-   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合は、フォアグラウンドヒットを含む訪問のみがこの指標でカウントされます。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合は、フォアグラウンドヒットを含む訪問のみがこの指標でカウントされます。詳しくは <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 、コンテキスト対応のセッション化</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 入口 </p> </td> 
-   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合は、フォアグラウンドヒットを含む訪問の入口のみがこの指標でカウントされます。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合は、フォアグラウンドヒットを含む訪問の入口のみがこの指標でカウントされます。詳しくは <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 、コンテキスト対応のセッション化</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 非マーチャンダイジング eVar／予約済み eVar </p> </td> 
@@ -194,7 +194,7 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 入口および出口ディメンション </p> </td> 
-   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合は、フォアグラウンドヒットを含む訪問の入口および出口のみがこのディメンションに表示されます。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 「バックグラウンドヒットで新しい訪問が開始されないようにする」が有効になっている場合は、フォアグラウンドヒットを含む訪問の入口および出口のみがこのディメンションに表示されます。詳しくは <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 、コンテキスト対応のセッション化</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> ヒットタイプ </p> </td> 
