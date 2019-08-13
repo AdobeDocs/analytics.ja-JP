@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理ガイド
 user-guide-url: /content/help/ja-JP/analytics/admin/home.html
-translation-type: ht
-source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
+translation-type: tm+mt
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [ボットルールのアップロード](admin/bot-rules/t-upload-bot-rules.md)
       + [カスタムボットルールの作成](admin/bot-rules/t-create-bot-rules.md)
    + [コードマネージャー](admin/code-manager-admin.md)
-   + コンバージョン変数 {#conversion-variables}
+   + Conversion variables {#conversion-variables}
       + [コンバージョン変数（eVar）](admin/conversion-var-admin/conversion-var-admin.md)
       + [コンバージョン変数の編集](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [コンバージョンの分類](admin/conversion-var-admin/conversion-classifications.md)
@@ -33,7 +33,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [カレンダーのカスタマイズ](admin/custom-calendar.md)
    + [データソース](admin/data-sources.md)
    + [デフォルトの指標](admin/default-metrics.md)
-   + [IP アドレスで除外](admin/exclude-ip.md)
+   + [除外IPアドレス](admin/exclude-ip.md)
    + [検索方法](admin/finding-methods.md)
    + [一般的なアカウント設定](admin/general-acct-settings-admin.md)
    + [グループ管理](admin/group.md)
@@ -41,14 +41,14 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [ログ](admin/logs.md)
    + [マーケティングチャネル](admin/marketing-channels-admin.md)
    + [メニューのカスタマイズ](admin/customize-menus.md)
-   + [指標の表示](admin/metric-visibility.md)
+   + [指標の有効性](admin/metric-visibility.md)
    + [モバイル管理](admin/mobile-management.md)
-   + 有料検索検知 {#paid-search-detection}
+   + Paid search detection {#paid-search-detection}
       + [有料検索検知の概要](admin/paid-search-detection/paid-search-detection.md)
       + [有料検索検知の設定](admin/paid-search-detection/t-paid-search-detection.md)
    + [発行リスト](admin/publishing-list.md)
    + [発行ウィジェット](admin/publishing-widgets-admin.md)
-   + [設定マネージャー](admin/preferences-manager.md)
+   + [環境設定マネージャー](admin/preferences-manager.md)
    + [プライバシー設定](admin/privacy-settings.md)
    + 処理ルール {#processing-rules}
       + [処理ルールの概要](admin/c-processing-rules/processing-rules.md)
@@ -85,7 +85,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [サーバー側転送の実装の確認方法](admin/c-server-side-forwarding/ssf-verify.md)
       + [サーバー側転送の FAQ](admin/c-server-side-forwarding/ssf-faq.md)
    + [シンプル化されたレポートメニュー](admin/t-simplified-menu.md)
-   + [ソーシャルの管理](admin/social-management.md)
+   + [Social management](admin/social-management.md)
    + 成功イベント {#success-events}
       + [成功イベントの概要](admin/c-success-events/success-event.md)
       + [成功イベントの設定](admin/c-success-events/t-success-events.md)
@@ -97,10 +97,10 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [トラフィック分類](admin/c-traffic-variables/traffic-classifications.md)
    + 個別訪問者変数 {#unique-visitor-variable}
       + [実訪問者変数の指定](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [使用事例 - 訪問者 ID の抽出](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [使用例-訪問者IDの抽出](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [ビデオ管理](admin/video-management.md)
 + Experience Cloud Admin Console {#admin-console}
-   + [Experience Cloud Admin Console ヘルプ](admin-console/home.md)
+   + [Experience Cloud管理コンソールヘルプ](admin-console/home.md)
    + 権限 {#permissions}
       + [製品プロファイルヘルプ](admin-console/permissions/product-profile.md)
       + [レポートスイートツールの権限の項目](admin-console/permissions/report-suite-tools.md)
