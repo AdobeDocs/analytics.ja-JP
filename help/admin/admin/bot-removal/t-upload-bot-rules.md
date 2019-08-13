@@ -8,7 +8,7 @@ title: ボットルールのアップロード
 topic: 管理ツール
 uuid: bd70c199-5817-437e-980d-6d8f95d82f2c
 translation-type: tm+mt
-source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
+source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 
 ---
 
@@ -17,20 +17,11 @@ source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
 
 ボットルールを一括してインポートするには、ルールを定義した CSV ファイルをアップロードします。
 
-次の列をこの順番で指定して CSV ファイルを作成します。
+次の列を使用してCSVファイルを作成します。
 
-<table id="table_770891EF9E4A49F695977BB6446736B5"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> ボットの名前</code> </p> </td> 
-   <td colname="col2"> <p> <code>IP の開始値</code> </p> </td> 
-   <td colname="col3"> <p> <code>IP の終了値</code> </p> </td> 
-   <td colname="col4"> <p> <code>エージェントの一致ルール（「含む」または「次で始まる」）</code> </p> </td> 
-   <td colname="col5"> <p> <code>以下を含むエージェント（100 文字以下）</code> </p> </td> 
-   <td colname="col6"> <p> <code>以下を含まないエージェント（255 文字以下）</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 列 1 | 列 2 | 列 3 | 列 4 | 列 5 |
+|---|---|---|---|---|
+| ボットの名前 | IP の開始値 | IP の終了値 | エージェント一致ルール<br>（`contains` また `starts with`は） | Agent Exclude<br>(255 char limit) |
 
 次の 3 種類のボットルールを定義できます。
 
