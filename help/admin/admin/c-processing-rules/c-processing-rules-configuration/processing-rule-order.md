@@ -8,7 +8,7 @@ title: 処理順序
 topic: 管理ツール
 uuid: kea01d13- dfd5-40f7-8b2f- b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
 | 動的変数参照 | 変数を動的に入力するには、HTTP ヘッダーや他の変数から情報を取得します。For example, `s.eVar5="D=c1"` will put the value of prop1 into eVar5. |
 | AppMeasurement | AppMeasurement に使用される関数とプラグインは、ブラウザーまたはクライアントアプリケーションで実行されます。 |
 | Dynamic Tag Management | Dynamic Tag Management で定義したルールは、定義どおりに実行されます。 |
-| ボットルール | [ボットルール](../../../../admin/admin/bot-rules/bot-rules.md)を使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。 |
+| ボットルール | [ボットルール](../../../../admin/admin/bot-removal/bot-rules.md)を使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。 |
 
 ## 処理ルール後
 
