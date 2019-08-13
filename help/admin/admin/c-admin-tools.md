@@ -5,7 +5,7 @@ seo-title: 管理ツール
 title: 管理ツール
 uuid: 6961e956-14ea-4367- bdbd- eb0bcc456aae
 translation-type: tm+mt
-source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
 >同じブラウザで複数の管理者タブを開かないでください。間違って正しくないレポートスイートに設定を保存してしまうおそれがあります。例えば、ルールセットを比較して新しいレポートスイートにコピーする必要がある場合は、新しいブラウザーを開くか、スクリーンショットを撮影して、ルールセットを比較することをお勧めします。
 
 + [課金](billing-admin.md)
-+ [ボットルールの概要](bot-rules/bot-rules.md)
++ [ボットルールの概要](bot-removal/bot-rules.md)
 + [コードマネージャー](code-manager-admin.md)
 + [コンバージョン変数（eVar）](conversion-var-admin/conversion-var-admin.md)
 + [通貨コード](currency.md)
@@ -37,7 +37,7 @@ source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
 + [メニューのカスタマイズ](customize-menus.md)
 + [指標の表示](metric-visibility.md)
 + [モバイル管理](mobile-management.md)
-+ [有料検索検出の概要](paid-search-detection/paid-search-detection.md)
++ [有料検索検知の概要](paid-search-detection/paid-search-detection.md)
 + [発行リスト](publishing-list.md)
 + [発行ウィジェット](publishing-widgets-admin.md)
 + [設定マネージャー](preferences-manager.md)
