@@ -1,27 +1,33 @@
 ---
-title: Analyticsコンポーネントヘルプ
-seo-title: Analyticsコンポーネントヘルプ
+title: Analytics コンポーネントヘルプ
+seo-title: Analytics コンポーネントヘルプ
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analyticsコンポーネントガイド
+# Analytics コンポーネントガイド
 
 ![バナー](../../assets/doc_banner_components.png)
 
-Analyticsコンポーネントは、顧客の遍歴分析を微調整して強化するのに役立ちます。コンポーネントの例としては、セグメント、計算指標、仮想レポートスイート、アラートなどがあります。
+Analyticsコンポーネントを使用すると、データ分析を微調整できます。コンポーネントには次のようなものがあります。
+
+* **セグメント:** データのサブセットにフォーカスします。
+* **計算指標:** 単純式を使用して指標を組み合わせることも、統計分析の高度な関数を使用することもできます。
+* **仮想レポートスイート:** レポートスイートに基づくデータの仮想サイロを作成します。データをクリーンアップまたはセグメント化して、より優れたユーザーエクスペリエンスを実現できます。一部の機能は、仮想レポートスイートでのみ使用できます。
+* **アラート:** データのしきい値を超えると、いつでも通知を受信できます。
+* **分類:** ディメンションを再編成してグループ化し、追加のインサイトを取得します。
+* **変数:** レポートで使用可能なすべてのディメンションおよび指標のリファレンスガイドです。
+* **リアルタイムレポート:** レポートを取得し、その分のトレンドを把握できます。
+* **マーケティングチャネル:** 訪問者がどのようにサイトに到達し、どのチャネルが最も成功しているかを把握する。
 
 ## 主要なAnalyticsコンポーネントの記事
 
 * [ディメンションリファレンス](c-variables/dimensionslist/reports-descriptions.md)
 * [指標リファレンス](c-variables/c-metrics/metricslist.md)
-* [計算指標](c-calcmetrics/cm-overview.md)
-* [セグメント化](c-segmentation/seg-home.md)
-* [マーケティングチャネル](c-marketing-channels/c-overview.md)
 
 ## その他のAnalyticsユーザーガイド
 
@@ -29,11 +35,7 @@ Analyticsコンポーネントは、顧客の遍歴分析を微調整して強�
 
 ## 主要解析リソース
 
-* [導入](https://helpx.adobe.com/analytics/get-started.html)
-* [ビデオ](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [開発者](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud のラーニングとサポート](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [サポートへのお問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
