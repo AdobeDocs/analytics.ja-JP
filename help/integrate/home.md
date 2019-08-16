@@ -4,16 +4,22 @@ seo-title: Analytics統合ヘルプ
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analytics統合ガイド
+# Analytics 統合ガイド
 
 ![バナー](../../assets/doc_banner_integrate.png)
 
-このガイドは、Audience Manager、Advertising Cloud、Targetなどの他のAdobe Experience Cloudソリューションと統合を設定するのに役立ちます。
+Audience Manager、Advertising Cloud、Targetなど、他のAdobe Experience Cloudソリューションと統合を設定します。以下のようなものがあります。
+
+* **Audience Analytics:** Adobe Audience ManagerをAdobe Analyticsと統合します。
+* **Advertising Analytics:** 有料検索データをAdobe Analyticsデータと並べて参照してください。
+* **Analytics for Target:** A4Tは、Adobe AnalyticsとAdobe Targetを統合します。
+* **Adobe Campaignレポート:** Adobe AnalyticsとAdobe Campaignを統合します。
+* **AEM Assetsレポート:** Adobe Experience Managerから提供されるアセットのインプレッション数とクリック数を有効にします。
 
 ## Analyticsの主要統合の記事
 
@@ -26,11 +32,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ## 主要解析リソース
 
-* [導入](https://helpx.adobe.com/analytics/get-started.html)
-* [ビデオ](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [開発者](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud のラーニングとサポート](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [サポートへのお問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
