@@ -1,25 +1,34 @@
 ---
-title: Analytics管理ヘルプ
+title: Analytics 管理ヘルプ
 seo-title: Analytics製品比較
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 3a2b31c2b55add5e34883da32180e4d3a7896ec5
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analytics管理ガイド
+# Analytics 管理ガイド
 
 ![バナー](../../assets/doc_banner_admin.png)
 
-このガイドでは、レポートスイート、ユーザー/グループ、分類またはデータガバナンスの設定など、Adobe Analyticsのすべての管理設定タスクについて説明します。
+現在、Adobe Analyticsには管理者向けの2つの領域があります。
+
+* Adobe Admin Console:この領域を使用して、Experience Cloudツールのプロビジョニングと、ユーザー権限の管理を行います。[adminconsole.adobe.com](https://adminconsole.adobe.com)にあります。
+* Analytics管理コンソール:この領域は、レポートスイートと変数の管理に使用します。Adobe Analyticsの上部のヘッダーにある「管理者」をクリックしてアクセスできます。
+
+このガイドには以下の内容が含まれています。
+
+* Analytics管理コンソールで実行されるすべてのタスク。この領域には、レポートスイート、変数、分類またはデータガバナンスの設定が含まれます。使用可能なレポートスイートおよび会社の設定のリストについては [、管理ツール](admin/c-admin-tools.md) を参照してください。
+* Adobe Admin Consoleで実行されるすべてのAnalytics固有のタスク。この領域には、製品プロビジョニングとユーザー権限管理が含まれます。Adobe [管理コンソールで実行できるアクションのリストについ](admin-console/home.md) ては、Adobe Admin ConsoleのAdobe Analyticsを参照してください。
+
+このガイドは、Adobe管理コンソールが提供する一般的な機能の多くをカバーしていません。代わりに、Enterpriseユーザーガイドの [管理コンソール](https://helpx.adobe.com/enterprise/using/admin-console.html) を参照してください。
 
 ## 主な記事
 
-* [Analytics First Admin Starter Guide](admin-console/first-admin-guide.md)
-* [管理者向けの手引き](admin/c-admin-tools.md)
-* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md)
+* [Analytics First Admin Starter Guide](admin-console/first-admin-guide.md):組織がAdobe Analyticsを初めて使用する場合は、このガイドに従ってAdobe Analyticsから値を取得してください。
+* [Report Suite Manager](c-manage-report-suites/report-suites-admin.md):Analyticsで最もよくアクセスされる管理ツールです。Report Suite Managerには、変数管理の分類管理、タイムゾーンなどの設定が含まれています。
 
 ## その他のAnalyticsユーザーガイド
 
@@ -27,11 +36,7 @@ source-git-commit: 3a2b31c2b55add5e34883da32180e4d3a7896ec5
 
 ## 主要解析リソース
 
-* [導入](https://helpx.adobe.com/analytics/get-started.html)
-* [ビデオ](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [開発者](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud のラーニングとサポート](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [サポートへのお問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
