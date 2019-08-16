@@ -1,19 +1,23 @@
 ---
-title: Analyticsインポートヘルプ
-seo-title: Analyticsインポートヘルプ
+title: Analytics インポートヘルプ
+seo-title: Analytics インポートヘルプ
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analyticsインポートガイド
+# Analytics インポートガイド
 
 ![バナー](../../assets/doc_banner_import.png)
 
-このガイドでは、データソース、挿入API、またはdata connectors経由でAnalyticsにデータを取得する方法について説明します。
+このガイドでは、Analyticsにデータを取得する方法について説明します。以下のようなものがあります。
+
+* **データソース:** 指定したアドビFTPサイトにファイルをアップロードします。アドビはファイルを取得し、レポートスイートにデータを含めます。
+* **Data Insertion API:** API経由でデータを直接アドビのデータ収集に送信します。
+* **Data Connectors:** サポートされているサードパーティと協力して、レポートスイートを強化するためのデータをAdobe Analyticsに取り込みます。
 
 ## 主要なAnalyticsのインポート記事
 
@@ -25,11 +29,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ## 主要解析リソース
 
-* [導入](https://helpx.adobe.com/analytics/get-started.html)
-* [ビデオ](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [開発者](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud のラーニングとサポート](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [サポートへのお問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
