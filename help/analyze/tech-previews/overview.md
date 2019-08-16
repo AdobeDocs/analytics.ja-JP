@@ -4,7 +4,7 @@ seo-title: Adobe Analyticsのためのラボ
 description: Adobe Analyticsのプロトタイププロジェクトのプレビュー
 seo-description: Adobe Analyticsのプロトタイプのプレビュー
 translation-type: tm+mt
-source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
 
 # Labsユーザーガイド
 
-注意:現在、ラボは限られた数の顧客への先行アクセスとしてリリースされていますが、後で広くリリースされます。
+>[!NOTE] 現在、ラボは限られた数の顧客への先行アクセスとしてリリースされていますが、後で広くリリースされます。
 
 ラボでは、初期段階のアイデアのプロトタイピングを高速化できます。これは、顧客にフォーカスを合わせて、開発を透過的に高速化するツールとプロセスの組み合わせです。これにより、ユーザーは新しいテクノロジーに関与し、価値あるインサイトを発見し、将来の開発と優先度に影響を与えることができます。「ラボ」を使用すると、Analyticsの革新的な分析を行い、独自のビジネス使用事例やデータのコンテキスト内の今後の機能を評価できます。
 
@@ -30,20 +30,19 @@ source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
 
 1. Click the **Labs** tab.
 
-
 ## プロトタイプの評価
 
 プロトタイプを起動し評価するには:
 
-1. On the Labs screen, click the **Launch** button of the prototype you want to see. プロトタイプが起動すると、プロトタイプ環境の左上にそのプロトタイプが表示されます。
+1. ラボ画面で、表示するプロトタイプの **「起動」** ボタンをクリックします。プロトタイプが起動すると、プロトタイプ環境の左上にそのプロトタイプが表示されます。
 
    ![プロトタイプ名](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Watch a video that highlights the prototype by clicking on **Watch Video** in the upper right of the screen. Click the **Close** button when the video is completed.
+1. 画面の右上にある「ビデオ **** を視聴」をクリックして、プロトタイプを強調表示するビデオをご覧ください。ビデオが完了したら **、閉じる** ボタンをクリックします。
 
    ![プレビューオプション](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. プロトタイプを使用します。プロタイプ環境で作業する場合:
+1. プロトタイプを使用します。プロトタイプ環境で作業する場合:
 
 * プロトタイプ環境内で作成されたプロジェクトは保存または共有できません。
 
@@ -55,13 +54,13 @@ source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
 
 ## フィードバックを残す
 
-1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
+1. プロトタイプを操作するときに、メッセージボックスにフィードバックを入力するには、「フィードバック **** を付与」ボタンをクリックします。
 
    ![feedback_ box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
-1. Click **Submit** to send your feedback.
+1. 「 **送信」** をクリックしてフィードバックを送信します。
 
-1. To try a different prototype, or to exit the prototype environment, click the **Leave Prototype** button in the upper right of the screen and complete the short survey for the prototype. プロトタイプ環境を終了しても、プロトタイププロジェクトに対する変更は失われます。
+1. 異なるプロトタイプを試したり、プロトタイプ環境を終了するには、画面の右上にある「プロトタイプ **** を終了」ボタンをクリックし、プロトタイプの短い調査を完了します。プロトタイプ環境を終了しても、プロトタイププロジェクトに対する変更は失われます。
 
    ![新しいフィードバックボックス](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
@@ -71,4 +70,3 @@ source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
 
 * ラボ内のいくつかのプロトタイプはAnalyticsの機能になりますが、その他のプロトタイプは使用できません。フィードバックによって決定が促進されるので、プロトタイプを確認し、アドビにお客様の見つける価値をお知らせください。
 * ラボはすべてのSKU権利付与で使用できます。
-
