@@ -2,7 +2,7 @@
 title: Data Warehouseでのコンポーネントのサポート
 description: Data Warehouseで使用できる追加のディメンションと指標、およびサポートされていないものについて説明します。
 translation-type: tm+mt
-source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -24,14 +24,14 @@ Data Warehouseではディメンションと指標を使用できますが、Ado
 
 ### サポートされている指標
 
-* 訪問回数:Data Warehouseのコンテキストでこの指標は、永続的でないcookie訪問を除外します。
+* 訪問回数:Data Warehouseのコンテキストにおけるこの指標は、永続的でないcookie訪問を除外します。
 * 訪問回数-すべての訪問者数:Data Warehouseのコンテキストにおけるこの指標は、Adobe Analytics内の他のツールの訪問指標と同等になります。
 
 ## Data Warehouseでサポートされていないコンポーネント
 
 Data Warehouseでは、ディメンションと指標の一部はサポートされていません。
 
-> [!IMPORTANT] Data Warehouseでディメンションまたは指標がサポートされていない場合、これらのコンポーネントを使用するセグメントはサポートされていません。セグメントの作成または編集時には、常に製品の互換性をチェックしてください。
+> [!NOTE] Data Warehouseでディメンションまたは指標がサポートされていない場合、これらのコンポーネントを使用するセグメントはサポートされていません。セグメントの作成または編集時には、常に製品の互換性をチェックしてください。
 
 ### サポートされていないディメンション
 
