@@ -2,15 +2,15 @@
 cloud: experience-cloud
 product: adobe analytics
 solution-title: Analytics
-solution-hub-url: https://helpx.adobe.com/support/analytics.html
-solution-image: assets/analytics- icon-24. png
-getting-started-title: 導入
-getting-started-url: https://helpx.adobe.com/analytics/get-started.html
+solution-hub-url: https://helpx.adobe.com/jp/support/analytics.html
+solution-image: assets/analytics-icon-24.png
+getting-started-title: はじめに
+getting-started-url: https://helpx.adobe.com/jp/analytics/get-started.html
 tutorials-title: チュートリアル
-tutorials-url: https://helpx.adobe.com/analytics/kt/index/analytics-videos.html
+tutorials-url: https://helpx.adobe.com/jp/analytics/kt/index/analytics-videos.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75404414b7733df6899dc6dae2c7ca154e787a31
 
 ---
@@ -28,4 +28,4 @@ metadata. md ファイルにはリポジトリ内のユーザーガイド TOC.md
 | getting-started-url | Helpx 開始ページへのリンク |
 | tutorials-url | ビデオチュートリアル（ヘルプチュートリアルまたは KT チュートリアル）へのリンク |
 | mini-toc-levels | 右パネルに表示される見出しレベルの数を指定します。デフォルトは 2 です。 |
-| git-repo | 内部使用のマスターレポの場所を指定します |
+| git-repo | 内部使用のマスターリポジトリの場所を指定します。 |
