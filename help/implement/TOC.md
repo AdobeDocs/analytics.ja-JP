@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics 導入ガイド
+user-guide-title: Analytics 実装ガイド
 user-guide-url: /content/help/ja-JP/analytics/implementation/home.html
 translation-type: ht
 source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
@@ -9,7 +9,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 ---
 
 
-# Analytics 導入ガイド {#implementation}
+# Analytics 実装ガイド {#implementation}
 
 + [Analytics 実装ヘルプ](home.md)
 + AppMeasurement リリースノート {#appmeasurement-release-notes}
@@ -29,8 +29,8 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [BlackBerry](appmeasurement-release-notes/c-release-notes-blackberry.md)
    + [Symbian](appmeasurement-release-notes/c-release-notes-symbian.md)
    + [PHP](appmeasurement-release-notes/c-release-notes-php.md)
-+ Analytics の導入 {#analytics-implementation}
-   + [導入ロードマップ](c-implementation/implementation.md)
++ Analytics の実装 {#analytics-implementation}
+   + [実装ロードマップ](c-implementation/implementation.md)
    + [お勧めの実装リンク](c-implementation/popular-implementation-links.md)
    + [リリースノート](c-implementation/rn.md)
 + Analytics の基本事項 {#analytics-basics}
@@ -60,7 +60,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 + 実装の準備{#prepare}
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
    + [データレイヤーの作成](prepare/data-layer.md)
-   + [導入方法の選択](c-implementation-methods/choose-implementation-method.md)
+   + [実装方法の選択](c-implementation-methods/choose-implementation-method.md)
 + [Analytics 実装の手引き](c-get-started-implementation/t-analytics-implementation-get-started.md)
 + Adobe Experience Platform Launch による Analytics の実装 {#implement-with-launch}
    + [Experience Platform Launch での Analytics プロパティの作成](implement-with-launch/create-analytics-property.md)
@@ -86,7 +86,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [ページコードのカスタマイズ](c-implement-with-dtm/c-aa-tool/customize-page-code.md)
       + [Adobe Analytics ツールに関する FAQ](c-implement-with-dtm/c-aa-tool/dtm-faq.md)
    + [データ要素の作成](c-implement-with-dtm/t-data-element.md)
-   + [Adobe Analytics の手動導入（レガシー）](c-implement-with-dtm/t-analytics-deploy.md)
+   + [Adobe Analytics の手動実装（レガシー）](c-implement-with-dtm/t-analytics-deploy.md)
    + ルール {#rules}
       + [新規ルールの作成](c-implement-with-dtm/c-rules/t-rules-create.md)
       + [イベント型ルールの条件の作成](c-implement-with-dtm/c-rules/t-rules-event-conditions.md)
@@ -95,7 +95,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [トリガー条件のアクションの設定](c-implement-with-dtm/c-rules/t-rules-actions.md)
       + [Akamai ホスティング用の未発行のルールのテスト](c-implement-with-dtm/c-rules/t-test-rules-akamai.md)
       + [ライブラリのダウンロードまたは FTP のルールのテスト](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
-+ JavaScript を使用した Analytics の導入 {#javascript-implementation}
++ JavaScript を使用した Analytics の実装 {#javascript-implementation}
    + [JavaScript 実装の概要](js-implementation/javascript-implementation-overview.md)
    + [ページコードとグローバル設定の例](js-implementation/appmeasure-mjs-pagecode.md)
    + JavaScript{#appmeasurement-js} 版 AppMeasurement
@@ -106,15 +106,15 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Facebook インスタント記事](js-implementation/analytics-facebook-instant-articles.md)
    + 追加の Web およびモバイルの測定ライブラリ {#additional-libraries}
       + [追加のライブラリの概要](js-implementation/c-additional-libraries/libraries.md)
-      + [HTML イメージタグを使用した Analytics の導入](js-implementation/c-additional-libraries/implscwojs.md)
-      + [JavaScript を使用しない導入のガイドライン](js-implementation/c-additional-libraries/otherreq.md)
+      + [HTML イメージタグを使用した Analytics の実装](js-implementation/c-additional-libraries/implscwojs.md)
+      + [JavaScript を使用しない実装のガイドライン](js-implementation/c-additional-libraries/otherreq.md)
       + [サンプルコード](js-implementation/c-additional-libraries/samplecode.md)
       + [モバイルネットワークプロトコル](js-implementation/c-additional-libraries/network-protocols.md)
       + [モバイルプロトコルネットワークゲートウェイ](js-implementation/c-additional-libraries/how-beacon-reaches-adobe.md)
       + [モバイルプロトコルに対応するページタギング](js-implementation/c-additional-libraries/tagging-mobile-pages.md)
       + [モバイルプロトコルを使用するデバイスに関するレポート](js-implementation/c-additional-libraries/reports-for-mobile-dev.md)
       + [モバイルプロトコルでのカスタムリンク測定](js-implementation/c-additional-libraries/mobile-link-tracking.md)
-   + Analytics 導入およびレポート用変数 {#variables-analytics-reporting}
+   + Analytics 実装およびレポート用変数 {#variables-analytics-reporting}
       + [変数の概要](js-implementation/c-variables/sc-variables.md)
       + [設定変数](js-implementation/c-variables/configuration-variables.md)
       + [コンテキストデータ変数](js-implementation/c-variables/context-data-variables.md)
@@ -140,15 +140,15 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [一般的なエラー](js-implementation/data-collection/common-errors.md)
       + [フォームエレメントからのデータの収集](js-implementation/data-collection/data-elements.md)
       + [異なる実装タイプでのトラッキング](js-implementation/data-collection/impl-tupes.md)
-      + [導入のガイドライン](js-implementation/data-collection/impl-guideliens.md)
-      + [導入例](js-implementation/data-collection/impl-examples.md)
+      + [実装のガイドライン](js-implementation/data-collection/impl-guideliens.md)
+      + [実装例](js-implementation/data-collection/impl-examples.md)
       + [AJAX で追跡するリッチメディアアプリケーション](js-implementation/data-collection/impl-media-ajax.md)
-      + [AJAX による導入](js-implementation/data-collection/impl-ajax.md)
+      + [AJAX による実装](js-implementation/data-collection/impl-ajax.md)
       + [外部電子メールトラッキング](js-implementation/data-collection/email-external.md)
       + [アドビオプトアウトの実装](js-implementation/data-collection/opt-out.md)
       + [オプトアウトリンクの追加](js-implementation/data-collection/opt-out-link.md)
-   + 導入プラグイン {#plugins}
-      + [導入プラグインの使用](js-implementation/plugins/impl-plugins.md)
+   + 実装プラグイン {#plugins}
+      + [実装プラグインの使用](js-implementation/plugins/impl-plugins.md)
       + [doPlugins 関数を使用したプラグインの呼び出し](js-implementation/plugins/plugins-calling.md)
       + [s.abort フラグ](js-implementation/plugins/abort.md)
       + [appendList](js-implementation/plugins/appendlist.md)
@@ -187,7 +187,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [Analytics 訪問者 ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [フォールバック ID による方法](js-implementation/c-unique-visitors/visid-fallback.md)
       + [モバイルデバイスの識別](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Experience Cloud コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=core_services)
+   + [Experience Cloud コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/core_services.html)
    + デバイス間の訪問者の識別 {#cross-device-visitor-id}
       + [デバイス間のユーザーの接続](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [デバイス間の訪問者の識別によるデータの影響](js-implementation/xdevice-visid/xdevice-data.md)
@@ -208,7 +208,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [コードの変更](impl-testing/impl-validation/impl-code-updates.md)
       + [変数と値](impl-testing/impl-validation/impl-var-values.md)
       + [カスタム変数](impl-testing/impl-validation/impl-custom-vars.md)
-      + [導入の受け入れ](impl-testing/impl-validation/impl-acceptance.md)
+      + [実装の受け入れ](impl-testing/impl-validation/impl-acceptance.md)
       + [データの正確性の検証](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud デバッガー](impl-testing/debugger.md)
    + [パケットアナライザー](impl-testing/packet-monitor.md)
