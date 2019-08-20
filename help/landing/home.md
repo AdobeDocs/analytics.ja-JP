@@ -3,7 +3,7 @@ title: Adobe Analytics テクニカルガイド
 seo-title: Adobe Analytics のテクニカルガイドとセルフサービスのユーザーガイドの完全なリスト
 description: Analytics のユーザーガイドとリソース
 seo-description: Adobe Analytics のテクニカルガイドとセルフサービスのユーザーガイドの完全なリストを提示します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
@@ -25,15 +25,15 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 [![統合](assets/integrate_50px.png)](/help/integrate/home.md) [統合ガイド](/help/integrate/home.md) - Audience Manager、Advertising Cloud、Target といった他の Adobe Experience Cloud ソリューションとの統合の設定について説明します。
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) [Media Analyticsガイド](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) -オーディオソースまたはビデオソースにAnalyticsを実装します。これには、メディア SDK とメディアコレクション API が含まれます。
+[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.translate.html) [Media Analytics ガイド](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.translate.html) – Analytics をオーディオソースまたはビデオソースに実装する方法について説明します。これには、メディア SDK とメディアコレクション API が含まれます。
 
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)™[Data Workbenchガイド](https://marketing.adobe.com/resources/help/en_US/insight/) - Data Workbenchクライアント、インストール、データセット設定など
+[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/ja_JP/insight/) [Data Workbench ガイド](https://marketing.adobe.com/resources/help/ja_JP/insight/) - Data Workbench クライアント、インストール、データセット設定などについて説明します。
 
 [![テクニカルノート](assets/technotes_50px.png)](../technotes/home.md) [Analytics テクニカルノート](../technotes/home.md) -特定の分析ツールやコンポーネントに特化していない、一般的な役立つ記事を含むナレッジベースです。
 
 | 新しいトピックおよび注目すべきトピック | 主な Analytics リソース |
 | --- | --- |
-| <ul><li>[地域データ収集](../technotes/rdc/regional-data-collection.md)</li><li>[Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 製品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>参照：[2019 年ドキュメントのアップデート](doc-updates.md) | <ul><li> [リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics YouTubeチャンネル](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[解析のチュートリアルとビデオ](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analyticsコミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[個人用トレーニングおよび仮想クラス](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[カスタマーケアにお問い合わせください](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[地域データ収集](../technotes/rdc/regional-data-collection.md)</li><li>[Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 製品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>参照：[2019 年ドキュメントのアップデート](doc-updates.md) | <ul><li> [リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)</li><li> [Adobe Analytics YouTube チャンネル](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics のチュートリアルとビデオ](https://helpx.adobe.com/jp/analytics/kt/index/analytics-videos.html)</li><li>[Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[パーソナルトレーニングおよびバーチャル教室](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/analytics)</li><li>[サポート](https://helpx.adobe.com/jp/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
