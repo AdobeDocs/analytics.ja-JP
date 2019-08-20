@@ -316,7 +316,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [訪問者パーティシペーション - Ad Hoc Analysis](c-variables/c-metrics/metrics-visitor-participation.md)
    + マーチャンダイジング変数 {#merchandising-variables}
       + [マーチャンダイジング変数の概要](c-variables/c-merch-variables/var-merchandising.md)
-      + [マーチャンダイジング変数の導入](c-variables/c-merch-variables/var-merchandising-impl.md)
+      + [マーチャンダイジング変数の実装](c-variables/c-merch-variables/var-merchandising-impl.md)
       + [マーチャンダイジング変数とインスタンス](c-variables/c-merch-variables/var-merchandising-instances.md)
 + リアルタイムレポート {#real-time-reporting}
    + [リアルタイムレポートの概要](c-real-time-reporting/realtime.md)
