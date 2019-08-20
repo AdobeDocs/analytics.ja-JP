@@ -301,7 +301,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [Analysis Workspace での変換後のプロジェクトの表示](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [プロジェクトコンバーターに関する FAQ](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
    + [Ad Hoc Analysis の概要](ad-hoc-analysis/adhoc-home.md)
-   + [導入](ad-hoc-analysis/c-getting-started.md)
+   + [はじめに](ad-hoc-analysis/c-getting-started.md)
    + [管理](ad-hoc-analysis/c-administration.md)
    + [Java 11 で Ad Hoc Analysis を実行する](ad-hoc-analysis/adhoc-java.md)
    + [既存のレポートの設定](ad-hoc-analysis/c-reports-configure.md)
