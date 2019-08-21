@@ -7,7 +7,7 @@ title: データリクエストのスケジュール設定
 topic: Report Builder
 uuid: f6d8c90f- e185-4d60-8035- f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
 
 ---
 
@@ -16,13 +16,24 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ワークブックのスケジュール設定、アドバンス配信オプションの指定、受信者の指定およびスケジュールの履歴の表示を行うことができます。アドバンス配信オプションでは、特定の時間または間隔で送信するワークブックを設定できます。ワークブックを送信するファイル形式を指定することもできます。
 
-For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. レポートをアップロードする場合のファイルサイズの上限は 5 MB です。
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. ワークブックのアップロードには、ファイルサイズの上限は5MBです。
 
 Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. （Reports &amp; Analytics ヘルプの[レポートのスケジュールと配信](/help/analyze/reports-analytics/scheduling.md)を参照してください）。
 
 >[!NOTE]
 >
 >ワークブックをスケジュールするには、Excel2007または互換パックがインストールされている必要があります。Report Builderライセンスごとに最大10個のスケジュール済みワークブックを使用できます。ただし、他のライセンスの最大件数を減らすことにより、最大件数を増やすことができます。To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. スケジュールされた（またはワークブックライブラリにアップロードされた）ワークブックが削除され、28か月以上にわたってタッチ（更新、置き換え）されていません。
+
+>[!NOTE]
+>
+>ユーザーが入力した「配信時間」/「時間帯」は、実際に配信される時間ではなく、ワークブックの処理を開始する時間を指定します。ワークブックが配信される実際の時間は、主に処理に要する時間に基づいています（複雑なワークブックと大きいワークブックよりもプロセスの処理に時間がかかる）。例えば、ワークブックの処理に15分かかる場合、実際の配信時間は、元々指定されている「配送時間」/「時刻」の15分以上になります。
+>また、ワークブックが実際に配信されるまでに遅延を増やすことができる他の要因も多数あります。
+>
+> * **同時に同じタイプの様々なスケジュールを実行すると、システムが過負荷** になる可能性があります。スケジュールシステムでは、1つのタイプのワークブックのみが同時に実行できるので、5-10を超えるスケジュールを一度に設定すると、処理を開始する前に他のワークブックが完了するまで待つ必要があります。この問題は、同時にではなく、1日または1時間の間に、会社のワークブックを断続的にスケジュールすることで軽減できます。
+> * 特定のワークブックタイプの他に、会社が一度に15~20を超えるタイプのワークブックを（ **すべての異なるワークブックタイプで）スケジュールした場合、ワークブックは行単位で待機**&#x200B;します。これは、まったく同時に実行するのではなく、驚異的なスケジュール時間を設定することで軽減できます。
+> * **スケジューラーが依存するダウンストリームサービス** の問題は、ワークブックの配信にも影響する可能性があります。例えば、APIを使用してワークブックを実行し、APIリクエストキューに入力すると、そのリソースを競合させながら、スケジュールされたワークブックがゆっくりと配信されることがあります。
+> * **レポートスイートの遅延** （データ収集の遅延）でも、スケジュールされたワークブックを遅延できます。
+
 
 **ワークブックをスケジュールするには**
 
@@ -53,7 +64,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>選択 </p> </td> 
-   <td colname="col2"> <p>「<span class="wintitle">レポートの選択</span>」ページが表示されます。レポートは、サーバー（以前に作成されたすべてのワークブックが格納されている）またはローカルマシンから選択できます。ローカルドライブ上で <span class="filepath">.xls</span> 形式のワークブックを選択すると、そのファイルは <span class="filepath">.xlsx</span> に変換されます。変換の一環として、ファイルが Excel で開かれてアクティブになります。予定レポートで選択されているワークブックのファイル名が現在 Excel で開かれているワークブックと同じである場合、前にアップロードされたファイルではなく、ローカルファイルが選択されます。スケジュールリポジトリからレポートを選択する場合は、ワークブックのコピーがサーバー上に作成されます。その場合、ワークブックのファイル名は末尾に 1 を追加して更新されます。新規に作成された予定レポートはこのコピーされたワークブックを使用します。 </p> </td> 
+   <td colname="col2"> <p>「<span class="wintitle">レポートの選択</span>」ページが表示されます。レポートは、サーバー（以前に作成されたすべてのワークブックが格納されている）またはローカルマシンから選択できます。ローカルドライブ上で <span class="filepath">.xls</span> 形式のワークブックを選択すると、そのファイルは <span class="filepath">.xlsx</span> に変換されます。変換の一環として、ファイルが Excel で開かれてアクティブになります。予定レポートで選択されているワークブックのファイル名が現在 Excel で開かれているワークブックと同じである場合、前にアップロードされたファイルではなく、ローカルファイルが選択されます。スケジュールリポジトリからレポートを選択すると、ワークブックのコピーがサーバー上に作成され、そのファイル名が1で更新されます。新しく作成された予定レポートには、コピーされたワークブックが使用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタマイズ </p> </td> 
