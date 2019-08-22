@@ -8,7 +8,7 @@ title: ボットルールのアップロード
 topic: 管理ツール
 uuid: bd70c199-5817-437e-980d-6d8f95d82f2c
 translation-type: tm+mt
-source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
+source-git-commit: d0bd48684764a60b488d1e39c968ad70c743f1db
 
 ---
 
@@ -20,8 +20,8 @@ source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 次の列を使用してCSVファイルを作成します。
 
 | 列 1 | 列 2 | 列 3 | 列 4 | 列 5 |
-|---|---|---|---|---|
-| ボットの名前 | IP の開始値 | IP の終了値 | エージェント一致ルール<br>（`contains` また `starts with`は） | Agent Exclude<br>(255 char limit) |
+|--- |--- |---|---|---|
+| ボットの名前 | IP の開始値 | IP の終了値 | Agent Match Rule<br>(contains or starts with)</br> | 以下を除外<br>するエージェント（255文字の制限）</br> |
 
 次の 3 種類のボットルールを定義できます。
 
