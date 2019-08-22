@@ -4,7 +4,7 @@ seo-title: Adobe Analyticsでのボット削除
 description: Adobe Analyticsでボットを削除する3つの方法
 seo-description: Adobe Analyticsでボットを削除する3つの方法
 translation-type: tm+mt
-source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
+source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 ---
 
@@ -47,12 +47,13 @@ Adobe Analyticsでは、レポートからボットトラフィックを削除�
 
 ## 手順4:このリストを顧客属性としてAdobeに戻す
 
-データウェアハウスレポートが届くと、履歴データからフィルタする必要のあるeIDのリストが表示されます。これらのeIDをコピーして、2列、EIDフラグ、およびボットフラグだけで空白のCSVファイルに貼り付けます。
+データウェアハウスレポートが届くと、履歴データからフィルタする必要のあるeIDのリストが表示されます。これらのeIDをコピーして、2列、EIDフラグ、およびボットフラグの付いた空白の. CSVファイルに貼り付けます。
 
-
+![](assets/bot-csv-4.png)
 
 最初の列ヘッダーが、上記の新しい宣言済みIDに与えた名前と一致していることを確認してください。この. CSVファイルを顧客属性インポートファイルとして使用し、 [このブログ投稿の説明に従ってレポートスイートを顧客属性に登録](https://theblog.adobe.com/link-digital-behavior-customers)します。
 
 ## 手順5:新しい顧客属性を利用するセグメントの作成
 
 データセットを処理してAnalysis Workspaceに統合したら、新しい「ボットフラグ」顧客属性ディメンションを利用する1つのセグメントを作成します。
+
