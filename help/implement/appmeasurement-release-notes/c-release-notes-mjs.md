@@ -5,10 +5,10 @@ seo-title: JavaScript 版 AppMeasurement
 solution: Analytics
 subtopic: リリースノート
 title: JavaScript 版 AppMeasurement
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 1440013d- d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
+source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
 
 ---
 
@@ -25,13 +25,22 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
 
+## バージョン2.17.0
+
+リリース日：**201 年 8 月 23 日**
+
+| 機能/修正 | 説明 |
+| -----------| ---------- |
+| Baiduのサポートの追加 | Baiduクエリ文字列の並べ替えのサポートが追加されました。 |
+| フィルタリングされたレポートの見出しとして、変数名でなく、「 | オプトインの待機中にキューに登録されていたヒットの古い訪問者の値が原因で発生していた問題を修正しました。 |
+
 ## バージョン 2.16.0
 
 リリース日：**2019 年 8 月 16 日**
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| `sendBeacon` が離脱リンクをサポート | [!UICONTROL AppMeasurement] での離脱リンク計測における `sendBeacon` サポートが実装されました。これにより、離脱リンクトラッキングの精度が向上し、トラフィックが増加することがあります。`SendBeacon` は、ページのコンテキストでは実行されませんが、ブラウザーのコンテキストでは実行されません。つまり、ページの読み込みが解除 `sendBeacon`されている場合、そのリクエストはまだ完了していません。離脱リンクのリクエストが完了する可能性がかなり高くなるので、離脱リンクでは非常に役立ちます。 |
+| `sendBeacon` が離脱リンクをサポート | [!UICONTROL AppMeasurement] による離脱リンク計測における `sendBeacon` サポートが実装されました。これにより、離脱リンクトラッキングの精度が向上し、トラフィックが増加することがあります。`SendBeacon` は、ページのコンテキストでは実行されませんが、ブラウザーのコンテキストでは実行されません。つまり、ページの読み込みが解除 `sendBeacon`されている場合、そのリクエストはまだ完了していません。離脱リンクのリクエストが完了する可能性がかなり高くなるので、離脱リンクでは非常に役立ちます。 |
 | ECID/fid の値 | ECID/fid の値は、オプトイン設定が変更された場合でも、最初のヒット時にキャッシュされるようになりました。 |
 | DIL 9.3 | Audience Management モジュールを DIL 9.3 に更新しました。 |
 | リーチトラッキングのスクロール | スクロールリーチのトラッキングをオン／オフするための s.ActivityMap.trackScrollReach の設定が追加されました。 |
