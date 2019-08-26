@@ -1,9 +1,9 @@
 ---
-title: Analytics統合ヘルプ
-seo-title: Analytics統合ヘルプ
+title: Analytics 統合ヘルプ
+seo-title: Analytics 統合ヘルプ
 description: 'null'
 seo-description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,26 +13,26 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![バナー](../../assets/doc_banner_integrate.png)
 
-Audience Manager、Advertising Cloud、Targetなど、他のAdobe Experience Cloudソリューションと統合を設定します。以下のようなものがあります。
+Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。以下のようなものがあります。
 
-* **Audience Analytics:** Adobe Audience ManagerをAdobe Analyticsと統合します。
-* **Advertising Analytics:** 有料検索データをAdobe Analyticsデータと並べて参照してください。
-* **Analytics for Target:** A4Tは、Adobe AnalyticsとAdobe Targetを統合します。
-* **Adobe Campaignレポート:** Adobe AnalyticsとAdobe Campaignを統合します。
-* **AEM Assetsレポート:** Adobe Experience Managerから提供されるアセットのインプレッション数とクリック数を有効にします。
+* **Audience Analytics：** Adobe Audience Manager を Adobe Analytics と統合します。
+* **Advertising Analytics：**&#x200B;有料検索データを Adobe Analytics データと並べて確認します。
+* **Analytics for Target：** A4T は Adobe Analytics および Adobe Target を統合します。
+* **Adobe Campaign レポート：** Adobe Analytics を Adobe Campaign と統合します。
+* **AEM Assets レポート：** Adobe Experience Manager から提供されるアセットのインプレッション数およびクリック数のコレクションを有効にします。
 
-## Analyticsの主要統合の記事
+## 主な Analytics 統合記事
 
 * [Advertising Analytics](c-advertising-analytics/overview.md)
 * [Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
 
-## その他のAnalyticsユーザーガイド
+## その他の Analytics ユーザーガイド
 
-[Analyticsユーザーガイド](/help/landing/home.md)
+[Analytics ユーザーガイド](/help/landing/home.md)
 
-## 主要解析リソース
+## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [カスタマーケアへのお問い合わせ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
+* [Experience League](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/analytics)
