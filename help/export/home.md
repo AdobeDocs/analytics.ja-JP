@@ -3,7 +3,7 @@ title: Analytics 書き出しヘルプ
 seo-title: Analytics 書き出しヘルプ
 description: 'null'
 seo-description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,24 +13,24 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![バナー](../../assets/doc_banner_export.png)
 
-このガイドでは、Adobe Analyticsからデータを取得する方法について説明します。以下のようなものがあります。
+このガイドでは、Adobe Analytics からデータを取得する方法の概要を説明します。以下のようなものがあります。
 
-* **データフィード:** 1時間ごとまたは毎日の生データのエクスポートを受信します。各行は個々のヒットで、すべての列は変数です。通常、データフィードはFTPサイトに送信されます。
-* **Data Warehouse:** リクエストウィザードを使用して、データのスプレッドシート出力を取得します。Data Warehouseでは、任意の数の行と任意の数の一意の値を許可するために、異なる処理アーキテクチャを使用します。
+* **データフィード：** 1 時間ごとまたは 1 日ごとに生データの書き出しを受け取ります。各行は個別のヒットで、各列は変数です。データフィードは、通常、FTP サイトに送信されます。
+* **Data Warehouse：**&#x200B;リクエストウィザードを使用して、データのスプレッドシート出力を取得します。Data Warehouse は、様々な処理アーキテクチャを使用して、任意の数の行および任意の数の一意の値を可能にします。
 
-## 主要なAnalyticsエクスポート記事
+## 主な Analytics 書き出し記事
 
 * [データフィード列リファレンス](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
 * [Data Warehouse](data-warehouse/data-warehouse.md)
-* [FTPへのエクスポート](ftp-and-sftp/ftp-overview.md)
+* [FTP への書き出し](ftp-and-sftp/ftp-overview.md)
 
-## その他のAnalyticsユーザーガイド
+## その他の Analytics ユーザーガイド
 
-[Analyticsユーザーガイド](/help/landing/home.md)
+[Analytics ユーザーガイド](/help/landing/home.md)
 
-## 主要解析リソース
+## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [カスタマーケアへのお問い合わせ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
+* [Experience League](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/analytics)
