@@ -1,6 +1,6 @@
 ---
 title: テクニカルノートホーム
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -8,19 +8,19 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 # テクニカルノートホーム
 
-このガイドは、特定の解析ツールやコンポーネントに属していないトピックに関する有用な情報を提供します。
+このガイドでは、特定の分析ツールやコンポーネントに特化していないトピックに関する有用な情報を提供します。
 
-## テクニカルノートノートの記事
+## 主なテクニカルノート記事
 
-* [サードパーティの分析プラットフォームからAdobe Analyticsへの移行](ga-to-aa/home.md)
+* [サードパーティの分析プラットフォームから Adobe Analytics への移行](ga-to-aa/home.md)
 
-## その他のAnalyticsユーザーガイド
+## その他の Analytics ユーザーガイド
 
-[Analyticsユーザーガイド](../landing/home.md)
+[Analytics ユーザーガイド](../landing/home.md)
 
-## 主要解析リソース
+## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [カスタマーケアへのお問い合わせ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
+* [Experience League](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/analytics)
