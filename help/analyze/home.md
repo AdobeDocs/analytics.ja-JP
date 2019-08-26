@@ -1,9 +1,9 @@
 ---
 title: Analysis Workspace ヘルプ
-seo-title: Analytics解析ヘルプ
+seo-title: Analytics 分析ヘルプ
 description: 'null'
 seo-description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,28 +13,28 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![バナー](../../assets/doc_banner_analyze.png)
 
-このガイドには、Adobe Analyticsで使用できるすべての分析ツールが用意されています。
+このガイドでは、Adobe Analytics で使用できるすべての分析ツールを紹介します。
 
-* **Analysis Workspace:** Adobe Analyticsの最初の機能。Workspaceにはキャンバスが用意されており、コンポーネントをドラッグしてレポートのニーズに合わせることができます。
-* **Activity Map:** サイト上で最もクリックされた要素を示すオーバーレイを表示するブラウザプラグイン。
-* **Ad Hoc Analysis:** 堅牢なレポート機能を備えたスタンドアロンのJavaアプリケーション。このツールは更新されなくなり、最終的には日曜日になる予定です。
-* **レポートAPI:** アドビのサーバーに直接レポートを作成し、独自の顧客レポートツールで使用するためのレスポンスを取得します。
-* **Report Builder:** Analyticsデータを取得してワークブックに直接配置できるExcelアドインです。
-* **Reports&amp; Analytics:** 多数の事前設計されたレポートを含むツール。アドビでは、ほとんどのレポートニーズに対してAnalysis Workspaceを使用することをお勧めします。
+* **Analysis Workspace：** Adobe Analytics で最初に取り上げられる機能です。Workspace は、コンポーネントをドラッグできるキャンバスを提供し、レポートのニーズを満たします。
+* **Activity Map：**&#x200B;どの要素が最もクリックされたを示すオーバーレイをサイトに表示するブラウザープラグインです。
+* **Ad Hoc Analysis：**&#x200B;堅牢なレポート機能を備えたスタンドアロン Java アプリケーションです。このツールは今後は更新されず、最終的に廃止されます。
+* **レポート API：**&#x200B;アドビのサーバーに直接レポートクエリをおこない、応答を取得して独自のお客様レポートツールで使用します。
+* **Report Builder：** Analytics データを取得してブックに直接配置できる、Excel アドインです。
+* **Reports &amp; Analytics：**&#x200B;多くのレポートがあらかじめ組み込まれているツールです。アドビでは、ほとんどのレポートニーズに対して Analysis Workspace を使用することをお勧めします。
 
-## 主要解析ツールの記事
+## 主な Analytics ツール記事
 
-* [Analysis Workspaceはじめに](analysis-workspace/home.md)
-* [Report Builderはじめに](report-builder/home.md)
-* [Activity Mapはじめに](activity-map/activity-map.md)
+* [Analysis Workspace 使用の手引き](analysis-workspace/home.md)
+* [Report Builder はじめに](report-builder/home.md)
+* [Activity Map はじめに](activity-map/activity-map.md)
 
-## その他のAnalyticsユーザーガイド
+## その他の Analytics ユーザーガイド
 
-[Analyticsユーザーガイド](/help/landing/home.md)
+[Analytics ユーザーガイド](/help/landing/home.md)
 
-## 主要解析リソース
+## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [カスタマーケアへのお問い合わせ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
+* [Experience League](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/analytics)
