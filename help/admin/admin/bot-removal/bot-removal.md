@@ -4,14 +4,14 @@ seo-title: Adobe Analyticsでのボット削除
 description: Adobe Analyticsでボットを削除する3つの方法
 seo-description: Adobe Analyticsでボットを削除する3つの方法
 translation-type: tm+mt
-source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
+source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
 
 ---
 
 
 # Adobe Analyticsでのボット削除
 
-Adobe Analyticsでは、レポートからボットトラフィックを削除するための3つの主なオプションがあります。
+Adobe Analyticsでは、レポートからボットトラフィックを削除するための複数のオプションがあります。
 
 1. Adobe Analyticsのデフォルトのボットフィルタリングメソッドは、IABボットリストに基づくボットルール [](/help/admin/admin/bot-removal/bot-rules.md) を作成することです。このリストは毎月更新され、CDNや主要インターネットプロパティなどの多くのソースからリストをコンパイルします。すべてのお気に入りを含め、数千もの既知のボットが含まれています。Google、Bing、Mozillaなどこのリストでは、ボットフィルタリングに関する大部分の使用事例および必要事項について説明します。
 
@@ -25,7 +25,7 @@ Adobe Analyticsでは、レポートからボットトラフィックを削除�
 
 スクリーンショット
 
-以下に、このIDをデータ要素によって取得する方法のスクリーンショットを示します。必ずAdobe Mcorg IDをデータ要素に入力してください。
+このIDをデータ要素で取得する方法を次に示します。必ずAdobe eOrg IDをデータ要素に入力してください。
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
