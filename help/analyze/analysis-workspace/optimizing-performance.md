@@ -5,7 +5,7 @@ seo-title: Analysis Workspaceのパフォーマンスの最適化
 title: Analysis Workspaceのパフォーマンスの最適化
 uuid: de51d03d- d555-4f0e- b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
+source-git-commit: 9cd6a17db45c139765bea70fa27f37526334bcd0
 
 ---
 
@@ -104,3 +104,6 @@ Analysis Workspaceとの対話時にエラーが発生する場合がありま�
 | `The report suite is experiencing unusually heavy reporting. Please try again later.` | 組織が特定のレポートスイートに対して多数の同時リクエストを実行しようとしています。このエラーの寄稿者は、APIリクエスト、スケジュールされたプロジェクト、予定レポート、スケジュール済みアラート、およびレポートリクエストを作成する同時ユーザーです。レポートスイートのリクエストおよびスケジュールは、1日により均等に拡大することをお勧めします。 |
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | アドビは問題を解決する必要があります。カスタマーケアリクエストからエラーコードを送信することをお勧めします。 |
 | `The request is too complex.` | レポートリクエストが大きすぎて実行できません。このエラーの寄稿者は、リクエストのサイズが原因でタイムアウトになり、セグメントまたは検索フィルターに一致する項目数が多すぎ、互換性のないディメンションや指標の組み合わせなどの指標が多すぎます。リクエストを簡素化することをお勧めします。 |
+| `One of the segments or the search in this visualization contains a text search that returned too many results.` | 検索テキスト条件を絞り込んで、リクエストを再試行することをお勧めします。 |
+| `This dimension does not currently support non-default attribution models.` | テーブル内のディメンションはアトリビューションIQと [互換性があるものと置き換えることをお勧め](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)します。 |
+| `Your request failed as a result of too many columns or pre-configured rows.` | 列または行の一部を削除するか、分割して別のビジュアライゼーションに分割することをお勧めします。 |
