@@ -5,7 +5,7 @@ seo-title: セグメント
 title: セグメント
 uuid: 677f6030-5b3e-4dfa- bb79-9f27f3382fb1
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 [YouTube上のAnalysis Workspaceでのセグメントの使用](https://www.youtube.com/watch?v=QlUCdQDnni4)（6:46）
 
-## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
+## セグメントの作成 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
 任意の種類のコンポーネント（ディメンション、ディメンション項目、イベント、指標、セグメント、セグメントテンプレート、日付範囲）をパネルの上部にあるセグメントドロップゾーンにドロップすることで、セグメントを即座に作成できます。
 
@@ -49,35 +49,9 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 フリーフォームプロジェクトにセグメントを適用するには、他にもいくつかの方法があります。
 
-<table id="table_45B3839D70674430AF3AC5AA3134F825"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> アクション </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>選択からセグメントを作成 </p> </td> 
-   <td colname="col2"> <p>インラインセグメントを作成します。行を選択して、選択範囲を右クリックし、インラインセグメントを作成します。このセグメントは、オープンプロジェクトにのみ適用し、Analytics セグメントとして保存されません。 </p> <p> 
-     <ol id="ol_1D1E661387354EBF992CC150915F642E"> 
-      <li id="li_B96666FD426F4AEE8EAB61B2C00A07FB">行を選択します。 </li> 
-      <li id="li_C2245B3EA81F4FAC88A33647922535AF">選択範囲を右クリックします。 </li> 
-      <li id="li_AB4F8988B9A84920ABA06A91094625F6">「<span class="uicontrol">選択からセグメントを作成</span>」をクリックします。 </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="uicontrol"> コンポーネント</span>／<span class="uicontrol">新しいセグメント</span> </td> 
-   <td colname="col2"> <p><span class="wintitle">セグメントビルダー</span>を表示します。セグメント化について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html" format="https" scope="external">セグメントの作成</a>を参照してください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="ignoretag"><span class="uicontrol"> 共有</span>／<span class="uicontrol">プロジェクトを共有</span></span>または </p> <p> <span class="ignoretag"><span class="uicontrol">共有</span>／<span class="uicontrol">プロジェクトデータをキュレート</span></span> </p> </td> 
-   <td colname="col2"> <p><a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> キュレーションと共有</a>では、プロジェクトに適用するセグメントは、受信者の共有分析で使用できます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ディメンションとしてセグメントを使用 </p> </td> 
-   <td colname="col2"> <p>ビデオ:<a href="https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39" format="https" scope="external">Analysis Workspace でセグメントをディメンションとして使用する</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| アクション | 説明 |
+|--- |--- |
+| 選択からセグメントを作成 | インラインセグメントを作成します。行を選択して、選択範囲を右クリックし、インラインセグメントを作成します。このセグメントは、オープンプロジェクトにのみ適用し、Analytics セグメントとして保存されません。1. 行を選択します。2. 選択範囲を右クリックします。3. Click *Create segment from selection*. |
+| コンポーネント／新しいセグメント | セグメントビルダーを表示します。See [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) for more information about segmentation. |
+| 共有/プロジェクトを共有または共有/プロジェクトデータをキュレーション | [キュレーションおよび共有](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)で、プロジェクトに適用するセグメントを受信者の共有分析で使用できるようにします。 |
+| ディメンションとしてセグメントを使用 | ビデオ:[Analysis Workspace でセグメントをディメンションとして使用する](https://www.youtube.com/watch?v=WmSdReKTWto&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=39) |
