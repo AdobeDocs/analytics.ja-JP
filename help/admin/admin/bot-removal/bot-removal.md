@@ -4,7 +4,7 @@ seo-title: Adobe Analyticsでのボット削除
 description: Adobe Analyticsでボットを削除する3つの方法
 seo-description: Adobe Analyticsでボットを削除する3つの方法
 translation-type: tm+mt
-source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
+source-git-commit: 0e882f4908dababaf96cf225c62f7ab3bb35860e
 
 ---
 
@@ -56,4 +56,18 @@ Adobe Analyticsでは、レポートからボットトラフィックを削除�
 ## 手順5:新しい顧客属性を利用するセグメントの作成
 
 データセットを処理してAnalysis Workspaceに統合したら、新しい「ボットフラグ」顧客属性ディメンションを利用する1つのセグメントを作成します。
+
+![](assets/bot-filter-seg2.png)
+
+## 手順6:仮想レポートスイートフィルターとしてのこのセグメントの使用
+
+最後に、このセグメントを利用して、識別されたボットを除外する仮想レポートスイートを作成します。
+
+![](assets/bot-vrs.png)
+
+このように新しくセグメント化された仮想レポートスイートでは、特定のボットが完全に削除され、データセットが大幅にクリアされるようになりました。
+
+## 手順7:手順2、3および4を定期的に繰り返します
+
+定期的にスケジュールされた分析の前に、少なくとも毎月のリマインダーを設定し、フィルターするように設定します。
 
