@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 分析ガイド
 user-guide-url: /content/help/ja-JP/analytics/analyze/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 ---
@@ -113,7 +113,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
          + [インテリジェントアラート - 使用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [よくある質問](analysis-workspace/faq.md)
    + [管理要件](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Analysis Workspaceのパフォーマンスの最適化](analysis-workspace/optimizing-performance.md)
+   + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/optimizing-performance.md)
    + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace の制限](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
