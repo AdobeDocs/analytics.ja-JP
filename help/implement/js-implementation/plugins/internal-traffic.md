@@ -1,15 +1,15 @@
 ---
-title: 内部トラフィック
+title: 社内トラフィック
 description: Internal Trafficプラグインは、内部ネットワークからの訪問者を動的に識別します。
 seo-description: Internal Traffic plugin
 seo-title: Internal Traffic plugin
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
 
 
-# 内部トラフィック
+# 社内トラフィック
 
 Internal Trafficプラグインは、内部ネットワークからの訪問者を動的に識別します。
 
@@ -30,23 +30,24 @@ Internal Trafficプラグインは、内部ネットワークからの訪問者�
 1. イントラネットピクセルの追加:プラグインでアクセスしようとしたイントラネットに任意のタイプのファイルを追加できます。1x1透明ピクセルを使用することをお勧めします。社内ネットワーク内から広くアクセスできるイントラネット上の場所に配置する必要があります。
 1. eVarの設定:宛先レポートスイート内にeVarを追加する必要があります。「訪問」と「オリジナル値（最初）」の配分が有効である必要があります。
 1. 内部URLの定義:AppMeasurement設定変数内およびdoPluginsのインスタンス化の前に、トラフィックチェックに使用できるピクセルまたはその他のファイルの内部URL変数（s. intURL）を定義します。例えば、`s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to “internal” or “external”.
+1. doPluginsを変更し、eVarを設定します。このプラグインを初期化するには、手順1で定義したeVarを使用して、AppMeasurementライブラリコードのdoPluginsセクションにこのコード行を含めます。 `s.eVarXX = s.intCheck();`
+変数値は"internal"または"external"に設定されます。
 1. プラグインソースコードの追加:プラグインコードをAppMeasurementファイルのdoPluginsセクションの下に含めます。
 
 ## プラグインソースコード
 
 AppMeasurementライブラリのdoPluginsセクションの下にこのコードを追加します。
 
-```s.intCheck=new Function("",""
+```JavaScript
+s.intCheck=new Function("",""
 +"var s=this;if(document.cookie.indexOf('intChk=')==-1){try{document."
 +"cookie='intChk=1';var x=new XMLHttpRequest(),y;x.open('GET',s.intUr"
 +"l,false);x.send();if(x.status===200&&x.statusText==='OK'){y='intern"
-+"al';}}catch(e){y='external'}finally{return y}}");```
++"al';}}catch(e){y='external'}finally{return y}}");
+```
 
-## Other Notes
+## その他のメモ
 
-* Always test plug-in installations to ensure that data collection happens as expected before deploying them in a production environment.
-* Your implementation might be using a different object name than the default Adobe Analytics "s" object. If so, please update the object name accordingly.
-* If you employ a Tag Management System, please follow its steps to update doPlugins and the other custom plugins.
-
+* 必ずプラグインをテストして、データ収集が期待どおりに実行されることを確認してから、実稼働環境にデプロイしてください。
+* 実装では、デフォルトのAdobe Analyticsの"s"オブジェクトとは異なるオブジェクト名を使用している可能性があります。その場合は適切なオブジェクト名に変更してください。
+* Tag Managementシステムを使用する場合は、その手順に従ってdoPluginsと他のカスタムプラグインをアップデートしてください。
