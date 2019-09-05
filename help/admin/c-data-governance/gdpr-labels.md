@@ -5,7 +5,7 @@ seo-title: Analytics 変数用の GDPR ラベル
 title: Analytics 変数用の GDPR ラベル
 uuid: a37a1278-7a0d-4e14- ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
 
 ---
 
@@ -243,6 +243,8 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
 同じレポートスイート内の異なる変数に同じ名前空間を使用することもできます。例えば、一部のカスタム実装は、prop と eVar の両方に CRM-ID を保存します。CRM-ID が常にこれらのどちらか一方（例えば eVar）にあり、他方（prop）にあるのはまれであり、eVar にない場合は prop にもない場合、eVar だけで ID を検索できるので、ID ラベルおよび名前空間が必要なのは eVar のみとなります。ただし、CRM-ID が一方の変数にあることも、もう一方の変数にあることもある場合、両方が同じ名前空間を持つ必要があり、アドビは、この名前空間を持つ、GDPR 要求の一環として指定した ID について、両方の変数を検索します。それでも、これらのすべての変数に対して DEL ラベルを設定する必要があります。それにより、どこで出現しても値が匿名化されます。
 
 別の例として、eVar1 を使用して送信されることも、prop7 を使用して送信されることもある CRM ID があるとします。また、eVar1 から eVar3（存在する場合）に値をコピーする処理ルールがあります。そうでない場合は、prop7 から eVar3 に値をコピーします。このシナリオでは、CRM ID がわかっている場合、必ずそれが eVar3 に格納されるので、ID-PERSON ラベルが必要なのは eVar3 のみとなります。
+
+> [!WARNING] 名前空間"visitorID"および"customVisitorID"は、AnalyticsのレガシートラッキングcookieとAnalyticsの顧客ID IDを識別するために予約されています。カスタムトラフィック変数またはコンバージョン変数にはこれらの名前空間を使用しないでください。
 
 ## 変数のタイプとそれぞれが対応している GDPR／DULE ラベル {#section_CE7C3EDE1344466A98BC45E394B40762}
 
