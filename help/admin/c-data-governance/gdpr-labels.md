@@ -5,7 +5,7 @@ seo-title: Analytics 変数用の GDPR ラベル
 title: Analytics 変数用の GDPR ラベル
 uuid: a37a1278-7a0d-4e14- ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
+source-git-commit: 0df187fd7ebc359d54e4fb14a3d69e3b5eb7ce05
 
 ---
 
@@ -244,7 +244,7 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
 
 別の例として、eVar1 を使用して送信されることも、prop7 を使用して送信されることもある CRM ID があるとします。また、eVar1 から eVar3（存在する場合）に値をコピーする処理ルールがあります。そうでない場合は、prop7 から eVar3 に値をコピーします。このシナリオでは、CRM ID がわかっている場合、必ずそれが eVar3 に格納されるので、ID-PERSON ラベルが必要なのは eVar3 のみとなります。
 
-> [!WARNING] 名前空間"visitorID"および"customVisitorID"は、AnalyticsのレガシートラッキングcookieとAnalyticsの顧客ID IDを識別するために予約されています。カスタムトラフィック変数またはコンバージョン変数にはこれらの名前空間を使用しないでください。
+> [!CAUTION] 名前空間"visitorID"および"customVisitorID"は、AnalyticsのレガシートラッキングcookieとAnalyticsの顧客ID IDを識別するために予約されています。カスタムトラフィック変数またはコンバージョン変数にはこれらの名前空間を使用しないでください。
 
 ## 変数のタイプとそれぞれが対応している GDPR／DULE ラベル {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -335,7 +335,7 @@ GDPR／DULE のラベル設定は、Analytics 変数の 4 つの主要クラス�
    <td colname="col1"> <p>データ処理ディメンション </p> </td> 
    <td colname="col2"> <p>カスタム訪問者 ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE／ID-PERSON </p> <p>DEL-DEVICE／DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>IDまたはYOBラベル（「なし」に設定）を削除することはできませんが、カスタムID実装に応じて、デバイスまたは人物のバリエーションを変更することができます。 </p> <p>カスタム訪問者 ID を使用しない場合、設定は関係ありません。 </p> </td> 
+   <td colname="col4"> <p> </p> <p>カスタム訪問者 ID を使用しない場合、設定は関係ありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
