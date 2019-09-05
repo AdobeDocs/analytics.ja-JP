@@ -5,7 +5,7 @@ seo-title: 名前空間
 title: 名前空間
 uuid: cab61844-3209-4980- b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 9362a59afb6a51bd91d8a94ae5750c4d138fc2f7
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 値は、ダッシュで区切った 2 つの 16 進数で指定される必要があります。アルファベットのすべての 16 進数の桁は、大文字を使用して指定する必要があります。16 進数値は、先頭にゼロを持つことはできません（先頭にゼロが必要だった廃止された形式とは異なることに注意してください）。
 
-It is also acceptable to use `“namespaceId”: 10` instead of or in addition to `“namespace”: “AAID”` and you may see some other Adobe products use that form.
+また `“namespaceId”: 10` 、他 `“namespace”: “AAID”` のアドビ製品の代わりに使用することも、他のアドビ製品がそのフォームを使用することもあります。
 
 ## 従来の Analytics トラッキング Cookie：廃止された形式
 
@@ -66,7 +66,7 @@ It is also acceptable to use `“namespaceId”: 10` instead of or in addition t
 
 値は、38 桁の 10 進数で指定される必要があります。この数値を、データフィードまたはデータウェアハウスレポートからの2つのmcvisid\_ high/lowまたはpost\_ msvisid\_ high列から取得する場合は、それぞれの2つの数値を19桁に固定し、それらの値を最初の値と連結する必要があります。
 
-It is also acceptable to use: `“namespaceId”: 4` instead of or in addition to `“namespace”: “ECID”` and you may see some other Adobe products use that form.
+また、次の使用も認められます。 `“namespaceId”: 4` の代わりに、他のアドビ製品がそのフォームを使用しているかもしれませ `“namespace”: “ECID”` ん。
 
 >[!NOTE]
 >
@@ -106,15 +106,12 @@ It is also acceptable to use: `“namespaceId”: 4` instead of or in addition t
 }
 ```
 
-カスタムのトラフィック変数またはコンバージョン変数（prop または eVar）の ID の場合は、変数に ID-DEVICE または ID-PERSON ラベルを設定してから、独自の名前空間の名前をその ID タイプに割り当てる必要があります。[変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)を参照してください。
+カスタムトラフィックまたはコンバージョン変数（propまたはeVar）のIDの場合、変数にID- DEVICEまたはID- PERANTラベルを付けて、そのタイプのIDに独自の名前空間名を割り当てます。[変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](gdpr-labels.md)を参照してください。
 
 以前に他の変数やレポートスイート用に定義した名前空間を確認し、再利用することもできます。そのため、このタイプの ID を格納するすべてのレポートスイートで、簡単に同一の名前空間を使用することができます。同一の名前空間をレポートスイート内の複数の変数に割り当てることもできます。例えば、CRM ID をトラフィック変数やコンバージョン変数（ページによっていずれか一方または両方）に格納しているお客様もいます。その場合は「CRM ID」という名前空間を両方の変数に割り当てることができます。
 
->[!NOTE]
->
->この変数にID- DEVICEまたはID- PERHERラベルを適用するときに指定した名前空間を除き、変数のわかりやすい名前（レポートUIに表示される名前）または変数の番号（eVar12など）を使用することはできません。わかりやすい名前ではなく名前空間を使用することによって、以下の場合に、同じユーザー ID ブロックで、複数のレポートスイートに対して正しい変数を指定できます。
+> [!TIP] ID- DEVICEまたはID- PERHERラベルを適用するときに名前空間を指定しない限り、変数のわかりやすい名前（レポートUIに表示される名前）または変数の番号（eVar12など）をGGPR APIに指定しないでください。わかりやすい名前ではなく名前空間を使用すると、同じユーザーIDブロックを使用して、複数のレポートスイートに対して正しい変数を指定できます。例えば、レポートスイートの一部でIDが異なるeVarにある場合、またはわかりやすい名前が一致しない場合（わかりやすい名前が特定のレポートスイート用にローカライズされた場合など）です。
 
-* ID が一部のレポートスイートで異なる eVar である、または
-* わかりやすい名前が一致しない（わかりやすい名前が特定のレポートスイート用にローカライズされている場合など）
+> [!CAUTION] 名前空間"visitorID"および"customVisitorID"は、AnalyticsのレガシートラッキングcookieとAnalyticsの顧客ID IDを識別するために予約されています。カスタムトラフィック変数またはコンバージョン変数にはこれらの名前空間を使用しないでください。
 
 詳しくは、[変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)を参照してください。
