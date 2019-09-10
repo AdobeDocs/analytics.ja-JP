@@ -11,7 +11,7 @@ source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 # 計算指標の合計
 
-計算指標の合計の表示方法の違い [!DNL Reports & Analytics][!DNL Analysis Workspace]を示します。ここでは、相違点について説明します。
+計算指標の合計の表示方法の違い [!DNL Reports & Analytics] [!DNL Analysis Workspace]を示します。ここでは、相違点について説明します。
 
 ## 計算指標の合計 [!DNL Reports & Analytics]
 
