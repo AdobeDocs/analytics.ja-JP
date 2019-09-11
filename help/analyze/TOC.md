@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 分析ガイド
 user-guide-url: /content/help/ja-JP/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+translation-type: tm+mt
+source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
 
 ---
 
@@ -326,6 +326,8 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
    + [時間](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs の概要](tech-previews/overview.md)
++ プログレッシブWebアプリ {#pwa}
+   + [プログレッシブWebアプリ](pwa/pwa.md)
 + Analytics レポート API {#analytics-reporting-api}
    + [Analytics レポート API の概要](c-reporting-api/c-reporting-api.md)
    + [Analytics レポート API の比較](c-reporting-api/api-comparison.md)
