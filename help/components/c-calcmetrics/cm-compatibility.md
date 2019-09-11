@@ -5,7 +5,7 @@ seo-title: 指標の互換性
 title: 指標の互換性
 uuid: f2706e2b- c0cc-4af2- bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 6661e99d6b1289242e6c7ce3833b56e2f9990acc
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> 現在のデータ </td> 
-   <td colname="col2"> <p>[現在のデータを含む]オプションは[!DNL Analytics]では最新の[!ほとんどの場合、データが完全に処理されてファイナライズされる前に、DIL Analyticsデータが送信されます。「<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">現在のデータ</a>」には、ほとんどの指標が数分以内で表示され、迅速な意思決定を可能にする実用的なデータが提供されます。 </p> <p>「現在のデータ」では、計算指標（乗算、除算、加算、減算を含む指標）のみがサポートされます。「現在のデータ」では、高度な計算指標（セグメントや関数を含む計算指標）はサポートされません。 </p> </td> 
+   <td colname="col2"> <p>Analytics の「現在のデータを含む」オプションを使用すると、ほとんどの場合、データが完全に処理されてファイナライズされる前に最新の Analytics データを表示できます。「<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">現在のデータ</a>」には、ほとんどの指標が数分以内で表示され、迅速な意思決定を可能にする実用的なデータが提供されます。 </p> <p>「現在のデータ」では、計算指標（乗算、除算、加算、減算を含む指標）のみがサポートされます。「現在のデータ」では、高度な計算指標（セグメントや関数を含む計算指標）はサポートされません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 処理済みのデータ </td> 
