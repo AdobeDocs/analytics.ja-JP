@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理ガイド
 user-guide-url: /content/help/ja-JP/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
+translation-type: tm+mt
+source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
 
 ---
 
@@ -22,8 +22,6 @@ source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
    + ボットの削除 {#bot-removal}
       + [ボットの削除](admin/bot-removal/bot-removal.md)
       + [ボットルールの概要](admin/bot-removal/bot-rules.md)
-      + [ボットルールのアップロード](admin/bot-removal/t-upload-bot-rules.md)
-      + [カスタムボットルールの作成](admin/bot-removal/t-create-bot-rules.md)
    + [コードマネージャー](admin/code-manager-admin.md)
    + コンバージョン変数 {#conversion-variables}
       + [コンバージョン変数（eVar）](admin/conversion-var-admin/conversion-var-admin.md)
