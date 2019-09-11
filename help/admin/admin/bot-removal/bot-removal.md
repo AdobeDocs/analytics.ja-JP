@@ -4,7 +4,7 @@ seo-title: Adobe Analyticsでのボット削除
 description: Adobe Analyticsでボットを削除する3つの方法
 seo-description: Adobe Analyticsでボットを削除する3つの方法
 translation-type: tm+mt
-source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
+source-git-commit: 711d58d139abcff344e43e1484f0ba2f2d3407cf
 
 ---
 
@@ -15,7 +15,14 @@ Adobe Analyticsでは、レポートからボットトラフィックを削除�
 
 ## ボットルールの使用
 
-Adobe Analyticsのデフォルトのボットフィルタリングメソッドは、IABボットリストに基づくボットルール [](/help/admin/admin/bot-removal/bot-rules.md) を作成することです。このリストは毎月更新され、CDNや主要インターネットプロパティなどの多くのソースからリストをコンパイルします。すべてのお気に入りを含め、数千もの既知のボットが含まれています。Google、Bing、Mozillaなどこのリストでは、ボットフィルタリングに関する大部分の使用事例および必要事項について説明します。
+標準ボットフィルタリングメソッドとカスタムボットフィルタリングメソッドは、 **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** /設定 **[!UICONTROL の編集]** / **[!UICONTROL 一般]** / **[!UICONTROL ボットルールでサポート]**&#x200B;されています。
+
+| Rule type | 説明 |
+|--- |--- |
+| 標準IABボットルール | "IABボットフィルタリングルールを有効にする」を選択すると、 [IABの](https://www.iab.com/) （International Advertising Bureau） International Spiders&amp; Bots Listを使用してボットトラフィックが削除されます。ほとんどの顧客は最低でもこのオプションを選択しています。 |
+| カスタムボットルール | ユーザーエージェント、IPアドレスまたはIP範囲に基づいて、カスタムボットルールを定義および追加できます。 |
+
+詳しくは [、ボットルールの概要](/help/admin/admin/bot-removal/bot-rules.md)を参照してください。
 
 ## `hitGovernor` 導入プラグインの使用
 
@@ -27,11 +34,11 @@ Adobe Analyticsのデフォルトのボットフィルタリングメソッド�
 
 ### 手順1:訪問者のExperience Cloud IDを新しい宣言IDに渡す
 
-開始するには [、Audiencesコアサービスで新しい宣言済みIDを作成](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)します。この新しい宣言IDに訪問者のExperience Cloud IDを渡す必要があります。このIDは、Adobe Experience Platform Launchで [迅速かつ容易に実行](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)できます。宣言されたIDに"ECID"という名前を使用します。
+開始するには [、Peopleコアサービスで新しい宣言済みIDを作成](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)します。この新しい宣言IDに訪問者のExperience Cloud IDを渡す必要があります。このIDは、Adobe Experience Platform Launchで [迅速かつ容易に実行](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)できます。宣言されたIDに"ECID"という名前を使用します。
 
-スクリーンショット
+![](assets/bot-cust-attr-setup.png)
 
-このIDをデータ要素で取得する方法を次に示します。必ずAdobe eOrg IDをデータ要素に入力してください。
+このIDをデータ要素で取得する方法を次に示します。必ずExperience Cloud Orgidをデータ要素に入力してください。
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -53,15 +60,18 @@ Adobe Analyticsのデフォルトのボットフィルタリングメソッド�
 
 ### 手順4:このリストを顧客属性としてAdobeに戻す
 
-データウェアハウスレポートが届くと、履歴データからフィルタする必要のあるeIDのリストが表示されます。これらのeIDをコピーして、2列、EIDフラグ、およびボットフラグの付いた空白の. CSVファイルに貼り付けます。
+データウェアハウスレポートが届くと、履歴データからフィルタする必要のあるeIDのリストが表示されます。これらのeIDをコピーして、2つの列、EIDおよびボットフラグだけを持つ空白の. CSVファイルに貼り付けます。
+
+* **ECID**:この列ヘッダーが、上記の新しい宣言済みIDに与えた名前と一致していることを確認してください。
+* **ボットフラグ**:これを顧客属性スキーマディメンションとして追加します。
+
+この. CSVファイルを顧客属性インポートファイルとして使用し、 [このブログ投稿の説明に従ってレポートスイートを顧客属性に登録](https://theblog.adobe.com/link-digital-behavior-customers)します。
 
 ![](assets/bot-csv-4.png)
 
-最初の列ヘッダーが、上記の新しい宣言済みIDに与えた名前と一致していることを確認してください。この. CSVファイルを顧客属性インポートファイルとして使用し、 [このブログ投稿の説明に従ってレポートスイートを顧客属性に登録](https://theblog.adobe.com/link-digital-behavior-customers)します。
-
 ### 手順5:新しい顧客属性を利用するセグメントの作成
 
-データセットを処理してAnalysis Workspaceに統合したら、新しい「ボットフラグ」顧客属性ディメンションを利用する1つのセグメントを作成します。
+データセットを処理してAnalysis Workspaceに統合したら、新しい「ボットフラグ」顧客属性ディメンションとコンテナを !![UICONTROL Exclude] 利用する1つのセグメントを作成します。
 
 ![](assets/bot-filter-seg2.png)
 
@@ -76,4 +86,3 @@ Adobe Analyticsのデフォルトのボットフィルタリングメソッド�
 ### 手順7:手順2、3および4を定期的に繰り返します
 
 定期的にスケジュールされた分析の前に、少なくとも毎月のリマインダーを設定し、フィルターするように設定します。
-
