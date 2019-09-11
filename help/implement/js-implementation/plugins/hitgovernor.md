@@ -5,16 +5,12 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091ae-005a-43c2- b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
+source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
 
 
 # hitGovernor
-
-s.hitGovernor プラグインは、事前定義された期間内に送信された Analytics のイメージリクエストの総数を追跡し、その総数が一定のしきい値を超えた場合に、必要に応じて追加のロジックを実行できます。
-
-## hitGovernor {#topic_56B636A42A624B38A0A446C607ACD700}
 
 s.hitGovernor プラグインは、事前定義された期間内に送信された Analytics のイメージリクエストの総数を追跡し、その総数が一定のしきい値を超えた場合に、必要に応じて追加のロジックを実行できます。
 
