@@ -1,14 +1,14 @@
 ---
 description: 'null'
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 'null'
 seo-title: アドビオプトアウトの実装
 solution: Analytics
 title: アドビオプトアウトの実装
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
 
 ---
 
@@ -34,8 +34,7 @@ Web サイトの訪問者によっては、自分の閲覧情報が Adobe Experi
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* If you implement Adobe Analytics products with your own first-party cookie, you need to [develop your own customized opt-out link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) for your website visitors.
-* アドビの 2o7.net ドメインと omtrdc.net ドメインから設定された cookie を使用した、Web サイト向けオプトアウトメカニズムも公開されています。このオプトアウトメカニズムは、[アドビプライバシーセンター](https://www.adobe.com/privacy/opt-out.html)から利用できます。
+* 独自のファーストパーティcookieを使用してAdobe Analytics製品を実装する場合は、Webサイト訪問者に独自のカスタマイズオプトアウトリンク [](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) を作成する必要があります。
 * 顧客は、ブラウザーの cookie 設定を使用してオプトアウトを有効にすることができます。[ブラウザー cookie のプライバシー設定の有効化](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings)を参照してください。
 
 どのオプトアウトメカニズムを選択した場合も、プライバシーポリシー（または法律で定められた場所）や、最新のベストプラクティスで推奨されている方法で、そのオプトアウトメカニズムが使用できることを明確に示すことをお勧めします。
