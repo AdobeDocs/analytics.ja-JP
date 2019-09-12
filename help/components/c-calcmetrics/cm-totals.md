@@ -4,14 +4,14 @@ seo-title: 計算指標の合計
 description: Analyticsツールで計算指標の合計がどのように異なるかを知る
 seo-description: 計算指標の合計の計算方法
 translation-type: tm+mt
-source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
+source-git-commit: 658925799c530b46ff7b56d5d0685af6d9fef1b8
 
 ---
 
 
 # 計算指標の合計
 
-計算指標の合計の表示方法の違い [!DNL Reports & Analytics] [!DNL Analysis Workspace]を示します。ここでは、相違点について説明します。
+計算指標の合計の表示方法の違い [!DNL Reports & Analytics][!DNL Analysis Workspace]を示します。ここでは、相違点について説明します。
 
 ## 計算指標の合計 [!DNL Reports & Analytics]
 
@@ -28,13 +28,14 @@ source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 * 含める指標の合計バージョンを含む計算指標を作成します。
 * データ抽出レポートを作成して、スケジュールを設定できます。
-* ReportBuilder内でデータリクエストを作成します。
-* Analysis Workspaceを使用します（以下を参照）。
+* Create a data request within [!DNL ReportBuilder].
+* 使用（ [!DNL Analysis Workspace] 下記を参照）。
 
 ## 計算指標の合計 [!DNL Analysis Workspace]
 
-Analysis Workspaceでは、状況によって、計算指標が合計され、合計が表示されます。
+Analysis Workspaceでデータを表示すると、計算指標の合計がほとんどの場合に表示されます。場合によっては、レポートの行が混合形式（例えば、十進数や通貨）の場合など、合計を入力できないことがあります。
 
-* フリーフォームテーブルに [静的行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) があり、 *[!UICONTROL 現在各列]* オプション（デフォルト）にある値を合計して合計を計算する場合。
-* [ドーナツグラフのビジュアライゼーションで](/help/analyze/analysis-workspace/visualizations/donut.md)、
-* 変更 [の概要ビジュアライゼーションで](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)、
+合計が表示されると、サーバーサイドで計算されることがよくあります。つまり、訪問回数や訪問者数などの重複指標の合計です。特定の状況下で、計算指標はテーブルの行全体で合計してクライアントサイドで生成されます。つまり、訪問回数や訪問者数のような指標は重複しません。これは次のようになります。
+
+* フリーフォームテーブルで [静的な行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) を使用する場合、 **[!UICONTROL および現在の行]** の合計オプション（デフォルト）が選択されたとき。
+* [ドーナツグラフのビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/donut.md)では、数字が最大100%追加されます。
