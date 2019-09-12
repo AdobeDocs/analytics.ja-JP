@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 user-guide-url: /content/help/ja-JP/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
 
 ---
@@ -77,10 +77,10 @@ source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
       + [仮想レポートスイートの作成](vrs/c-workflow-vrs/vrs-create.md)
       + [仮想レポートスイートの管理](vrs/c-workflow-vrs/vrs-manage.md)
       + [仮想レポートスイートの情報の表示](vrs/c-workflow-vrs/vrs-view.md)
-+ Cross-Device Analytics {#cda}
++ クロスデバイス分析 {#cda}
    + [クロスデバイス分析の概要](cda/cda-home.md)
    + [クロスデバイス分析の設定](cda/cda-setup.md)
-   + [デバイス間の分析に関するFAQ](cda/cda-faq.md)
+   + [クロスデバイス分析に関する FAQ](cda/cda-faq.md)
 + アラート {#alerts}
    + [インテリジェントアラート](c-alerts/intellligent-alerts.md)
    + [アラートビルダー](c-alerts/alert-builder.md)
