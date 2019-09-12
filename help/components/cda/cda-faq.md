@@ -2,12 +2,14 @@
 title: デバイス間の分析に関するFAQ
 description: デバイス間分析に関するよくある質問（FAQ）
 translation-type: tm+mt
-source-git-commit: c104fbda3dc4a6be6b596c60c6e1973407d94f80
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # よくある質問
+
+> [!NOTE] デバイス間Analyticsのドキュメントは、機能がさらに開発されると変更されることがあります。定期的に更新して更新を行います。
 
 **CDAを使用して、ユーザーがあるデバイスタイプ間の移動方法を確認する方法について教えてください。**
 
