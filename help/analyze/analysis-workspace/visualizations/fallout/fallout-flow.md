@@ -5,7 +5,7 @@ seo-title: フォールアウトの概要
 title: フォールアウトの概要
 uuid: 2d98899e- e401-4d7a-8af0- de0002f84178
 translation-type: tm+mt
-source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
+source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 
 ---
 
@@ -44,7 +44,7 @@ Workspace パネルに適用されたセグメントの動作は、Reports &amp;
 
 Workspace のパネルレベルでセグメントを適用すると、そのセグメントは次のようにフォールアウトと組み合わされます。
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 一方、Reports &amp; Analytics と Ad Hoc Analysis ではセグメントが計算されます。セグメントは次のように組み合わされます。
 
