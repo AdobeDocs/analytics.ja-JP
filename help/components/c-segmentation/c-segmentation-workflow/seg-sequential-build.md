@@ -1,18 +1,18 @@
 ---
 description: 順次セグメントは、AND や OR ではなく、THEN 演算子を使用して作成されます。THEN は、1 つのセグメント条件が発生すると、もう 1 つのセグメント条件が続くことを示します。デフォルトでは、順次セグメントは、フィルター「全員を含む」を表示し、合致するすべてのデータを識別します。順次セグメントは、「シーケンスの前のみ」および「シーケンスの後のみ」オプションを使用して、さらに合致するヒットのサブセットにフィルタリングできます。
 seo-description: 順次セグメントは、AND や OR ではなく、THEN 演算子を使用して作成されます。THEN は、1 つのセグメント条件が発生すると、もう 1 つのセグメント条件が続くことを示します。デフォルトでは、順次セグメントは、フィルター「全員を含む」を表示し、合致するすべてのデータを識別します。順次セグメントは、「シーケンスの前のみ」および「シーケンスの後のみ」オプションを使用して、さらに合致するヒットのサブセットにフィルタリングできます。
-seo-title: 順次セグメントの作成
+seo-title: 順次セグメントの構築
 solution: Analytics
-title: 順次セグメントの作成
+title: 順次セグメントの構築
 topic: セグメント
 uuid: 7fb9f1c7- a738-416a- aaa2- d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
+source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 ---
 
 
-# 順次セグメントの作成
+# 順次セグメントの構築
 
 順次セグメントは、AND や OR ではなく、THEN 演算子を使用して作成されます。THEN は、1 つのセグメント条件が発生すると、もう 1 つのセグメント条件が続くことを示します。デフォルトでは、順次セグメントは、フィルター「全員を含む」を表示し、合致するすべてのデータを識別します。順次セグメントは、「シーケンスの前のみ」および「シーケンスの後のみ」オプションを使用して、さらに合致するヒットのサブセットにフィルタリングできます。
 
@@ -28,7 +28,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 | 結果の場合… | シーケンス |
 |--- |--- |
-| 一致する | A then B<br>A then (in a different visit) B<br>A then D then B |
+| 一致する | A-&gt; BA<br>-&gt;（異なる訪問で） BA<br>-&gt; D-&gt; B |
 | 一致しない場合 | B -&gt; A |
 
 ## シーケンスの前のみおよびシーケンスの後のみ {#section_736E255C8CFF43C2A2CAAA6D312ED574}
@@ -73,7 +73,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 | 結果の場合… | シーケンス |
 |--- |--- |
 | 一致する | A -&gt; B |
-| 一致しない場合 | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
+| 一致しない場合 | A-&gt; C-&gt; B（BはAの1ページ内ではないため）注意:<br>**注意:** ディメンション制限を取り除くと、"A-&gt; B"と"A-&gt; C-&gt; B"は両方と一致します。 |
 
 ## 単純なページビューシーケンス
 
@@ -185,7 +185,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 [!UICONTROL Exclude] 演算子を使用して、特定の訪問またはヒットが訪問者によって実行されないシーケンスを識別できます。[!UICONTROL 除外チェックポイント]も [論理グループ](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-## チェックポイント間の除外
+### チェックポイント間の除外
 
 あるチェックポイントが他の 2 つチェックポイント間で明示的に発生しなかった場合に訪問者をセグメント化する論理を強制します。
 
@@ -200,11 +200,11 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 **このセグメントを作成**
 
-Create a segment as you would for a simple, mixed-level, or nested sequential segment and then set the [!UICONTROL EXCLUDE] operator for the container element. 次の例は、集計セグメントです。ここでは、3 つの[!UICONTROL ヒット]コンテナがキャンバスにドラッグされており、コンテナ論理を結合するために [!UICONTROL THEN] 演算子が割り当てられています。その後で、シーケンス内でページ A からページ C に移動した訪問者だけを含めるために中間のページビューコンテナが除外されています。
+単純な混合レベルまたはネストされた順次セグメントの場合と同様にセグメントを作成し、コンテナ要素に [!UICONTROL 対してEXCLUDE] 演算子を設定します。次の例は、集計セグメントです。ここでは、3 つの[!UICONTROL ヒット]コンテナがキャンバスにドラッグされており、コンテナ論理を結合するために [!UICONTROL THEN] 演算子が割り当てられています。その後で、シーケンス内でページ A からページ C に移動した訪問者だけを含めるために中間のページビューコンテナが除外されています。
 
 ![](assets/exclude_between_checkpoints.png)
 
-## シーケンスの開始時の除外
+### シーケンスの開始時の除外
 
 除外チェックポイントが順次セグメントの最初にある場合、除外されないヒットが最初に閲覧される前に、除外されるページは閲覧されないものとして扱われます。
 
@@ -223,7 +223,7 @@ Create a segment as you would for a simple, mixed-level, or nested sequential se
 
 ![](assets/exclude_beginning_sequence.png)
 
-## シーケンスの終了時の除外
+### シーケンスの終了時の除外
 
 除外チェックポイントがシーケンスの最後にある場合、訪問者シーケンスが終了するまで、除外されない最後のチェックポイントと訪問者シーケンスの最後の間でチェックポイントは発生しません。
 
@@ -244,7 +244,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## 論理グループコンテナ
 
-順次セグメント内では、各コンテナが[コンテナ階層](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551)内で厳密に順序付けられている必要があります。[!UICONTROL 論理グループ]コンテナは、順次セグメント内でより上位のコンテナが必要になる場合を想定して作成されました。これにより、訪問者をさらにフィルターして、複雑なネストされた訪問者レベルの制約を指定してセグメントを洗練できます。
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). [!UICONTROL 論理グループ] コンテナは、グループ化されたチェックポイントの順番を維持することなく、 *複数のチェックポイントをグループ*** として扱うように設計されています。つまり、そのグループ内のチェックポイントの順序は気にしません。例えば、[!UICONTROL 訪問者]コンテナを別の[!UICONTROL 訪問者]コンテナ内にネストすることはできません。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 | 標準的なコンテナ階層 |
 |---|
@@ -255,16 +255,14 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 >
 >[!UICONTROL 論理グループ] は、順次セグメントでのみ定義できます。つまり、式内で [!UICONTROL THEN] 演算子が使用されます。
 
-[!UICONTROL 論理グループ]コンテナは、複数のチェックポイントを順番を付けずに 1 つのグループとして扱います。例えば、[!UICONTROL 訪問者]コンテナを別の[!UICONTROL 訪問者]コンテナ内にネストすることはできません。しかし、代わりに、[!UICONTROL 論理グループ]コンテナを[!UICONTROL 訪問者]コンテナ内にネストし、特定の[!UICONTROL 訪問]および[!UICONTROL ヒット]レベルのチェックポイントをそこに含めることができます。
-
 | 論理コンテナによる標準的ではない階層 |
 |---|
 | ![](assets/logic_group_hierarchy.png) |
 | 標準的なコンテナ階層は、[!UICONTROL 論理グループ]コンテナの外側にも必要です。ただし、[!UICONTROL 論理グループ]コンテナ内部では、チェックポイントの順序や階層を設定する必要はありません。これらのチェックポイントで必要なのは、順序を問わず、訪問者が条件を満たすことです。 |
 
-## Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
+### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-Like other containers, the [!UICONTROL Logic Group] containers can be built in multiple ways within the [!UICONTROL Segment Builder]. [!UICONTROL 論理グループ]コンテナをネストするための推奨される方法は次のとおりです。
+他のコンテナと同様、 [!UICONTROL 論理グループ] コンテナは [!UICONTROL 、セグメントビルダー内で複数の方法で作成]できます。[!UICONTROL 論理グループ]コンテナをネストするための推奨される方法は次のとおりです。
 
 1. 左のパネルから、ディメンション、イベントまたはセグメントをドラッグします。
 1. 最上位のコンテナを「[!UICONTROL 訪問者]」コンテナに変更します。
@@ -273,7 +271,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 1. Click the container icon and select **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
 1. これで、階層に関係なく、[!UICONTROL ヒット]を[!UICONTROL 論理グループ]コンテナ内に設定できました。
 
-## 論理グループのチェックポイントの順序
+### 論理グループのチェックポイントの順序
 
 [!UICONTROL 論理グループ]を使用すると、シーケンスの外部にあるそのグループ内の条件を満たすことができます。This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.****
 
@@ -285,7 +283,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 ![](assets/logic_group_any_order2.png)
 
-## 論理グループの最初の一致
+### 論理グループの最初の一致
 
 [!UICONTROL 論理グループ]を使用すると、シーケンスの外部にあるそのグループ内の条件を満たすことができます。この順不同の最初の一致セグメントでは、[!UICONTROL 論理グループ]のルールによって、最初にページビューがページ B またはページ C のどちらであるかが識別され、その後で必須のページ A のビューが識別されます。
 
@@ -297,7 +295,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 ![](assets/logic_group_1st_match.png)
 
-## 論理グループはANDを除外します
+### 論理グループはANDを除外します
 
 [!UICONTROL 論理グループ] を使用してセグメントを作成し、複数のページビューが集計されて、他のページが除外されている間にどのページがヒットされる必要があるかを定義します。****
 
@@ -311,7 +309,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 ![](assets/logic_exclude_and.png)
 
-## 論理グループはORを除外
+### 論理グループはORを除外
 
 [!UICONTROL 論理グループ]を使用してセグメントを作成します。このグループでは、複数のページビューを集計して、他の特定のページが除外されている間にどのページがヒットされる必要があるかを定義します。
 
@@ -335,7 +333,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 [!UICONTROL Within] および [!UICONTROL After] コンテナを使用し、精度とカウントを指定することで、一致の範囲を指定した期間に制限できます。[!UICONTROL Within] 演算子は、2 つのチェックポイントの間隔の最大値を指定するために使用します。[!UICONTROL After] 演算子は、2 つのチェックポイントの間隔の最小値を指定するために使用します。
 
-## AFTER および WITHIN 演算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### AFTER および WITHIN 演算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 期間は、精度を表す 1 つの大文字の後に、その精度の繰り返し回数を表す数値を記述して指定します。
 
@@ -349,7 +347,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 | WITHIN | Within 演算子は、2 つのチェックポイントの間隔の最大値を指定するために使用します。例えば、ページAを訪問してから1日以内に訪問ページBに戻った訪問者を識別するためにコンテナに設定されているWithin演算子は、訪問者がページAを離れたときに開始します。セグメントに含めるために、訪問者はページBを開くまでに1日の最大時間を持ちます。訪問者がセグメントに含まれるためには、ページBへの訪問は、ページAを離れてからページBを閲覧した後、最大1440分（1日）以内に発生する必要があります。 |
 | AFTER／WITHIN | After と Within の両方の演算子を使用する場合に重要になるのが、両方の演算子が順次的ではなく並行的に開始および終了するという点です。For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. 最初のページヒットの時点から、両方の条件が適用されます。 |
 
-## After演算子の使用
+### After演算子の使用
 
 * After の時間では、年、月、日、時間および分を指定して、一致する訪問を追跡できます。
 * After の時間は、このような細かな精度を定義できる唯一のレベルである[!UICONTROL ヒット]コンテナにのみ適用されます。
@@ -371,7 +369,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 | **A** ヒット：2019 年 6 月 1 日 0 時 1 分 | **B** ヒット：2019 年 6 月 15 日 0 時 1 分 | **一致:** この時間制限は、2019年6月1日（2週間）の後に一致します。 |
 | **A** ヒット：2019 年 6 月 1 日 0 時 1 分 | **B** ヒット:2019年6月8日00:01Bヒット:2019年6月15日00:01 | **一致しない:** ページBの最初のヒットは、2週間後に要求される制約と矛盾するので、一致しません。 |
 
-## Within演算子の使用
+### Within演算子の使用
 
 * [!UICONTROL Within] では、年、月、日、時間および分を指定して、一致する訪問を追跡できます。
 * [!UICONTROL Within] は、このような細かな精度を定義できる唯一のレベルである[!UICONTROL ヒット]コンテナにのみ適用されます。
@@ -392,7 +390,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 この時間制限以内に一致が発生する必要があります。この式では、訪問者がページAをヒットしたときに00:01が発生すると、次のページBへのヒットが00:06（5分後に同じ分を含む）に発生した場合に一致します。ちょうど指定した時間である場合も一致と見なされます。
 
-## Within演算子とAfter演算子
+### Within演算子とAfter演算子
 
 [!UICONTROL Within] および [!UICONTROL After] は、セグメントの両端でエンドポイントの最大値と最小値を指定するために使用します。
 
