@@ -5,9 +5,9 @@ seo-title: 実訪問者数
 solution: Analytics
 title: 実訪問者数
 topic: レポート
-uuid: e70e1a14- b3b9-4d1a- a8a5- a247a443c752
+uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 実訪問者数レポート - トレンド指標 {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL 実訪問者] 数レポートは、Ad Hoc Analysisと同様に動作します。ヒットで訪問が発生するたびに、訪問者がそのヒットでカウントされます。各ページは、そのページで訪問者が発生したというクレジットを受け取ります。
+[!UICONTROL 実訪問者数レポートは] 、Ad Hoc Analysisと同様に動作します。 ヒットで訪問が発生するたびに、訪問者がそのヒットでカウントされます。各ページは、そのページで訪問者が発生したというクレジットを受け取ります。
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -129,7 +129,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-** [!UICONTROL Unique Visitors Report] Broken Down by *`Page`*.**
+ページで分類された&#x200B;**[!UICONTROL 個別訪問者数レポート]*`Page`*.**
 
 [!UICONTROL 実訪問者数レポート]用のページを選択できます。次のレポートでは、訪問者が以下の日付にページ A を訪問します。
 
@@ -388,7 +388,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   <tr> 
    <th colname="col1" class="entry"> ページ </th> 
    <th colname="col02" class="entry"> 訪問の日付  </th> 
-   <th colname="col2" class="entry"> 訪問回数 </th> 
+   <th colname="col2" class="entry"> 訪問 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -420,7 +420,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-ある属性を別の属性で分類する（例えば、*`page`* 」 *`eVar`*&#x200B;により、Analyticsは期間とページ（または相関する属性）の個別インスタンスごとに、期間ベースの実訪問者を割り当てます。
+ある属性を別の属性で分類する（例えば、 *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
 
 ページ A は 1 月 1 日に表示されているので、ページ A を eVar T、U で分類すると、1 月 2 日が除外されます。週別訪問者数については次の結果が表示されます。
 
