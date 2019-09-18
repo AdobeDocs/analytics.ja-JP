@@ -5,9 +5,9 @@ seo-title: トラフィックソースレポート
 solution: Analytics
 title: トラフィックソースレポート
 topic: Ad Hoc Analysis
-uuid: 246afbdc-9f7b-4956- a44a- b7aad948f392
+uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 トラフィックソースレポートでは、訪問者の Web サイトでの行動を詳しく把握できます。
 
-## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+## トラフィックソースレポート {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
 トラフィックソースレポートでは、訪問者の Web サイトでの行動を詳しく把握できます。
 
@@ -41,11 +41,11 @@ c_reports_search_keyword.xml
 
  -->
 
-** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
+**[!UICONTROL 検索キーワード - すべて]**：訪問者がサイトを見つけた時に使用した検索キーワードの詳細を示します。リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
 
-** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
+**[!UICONTROL 検索キーワード - 有料]**：訪問者がサイトを見つけたときに使用した各有料検索キーワードの内訳を表示します。リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
 
-** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
+**[!UICONTROL 検索キーワード - 自然]**：訪問者がサイトを見つけたときに使用した各自然検索キーワードの内訳を表示します。リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
 
 ## 検索エンジン {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,11 +57,11 @@ c_reports_search_engines.xml
 
  -->
 
-** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. 訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
+**[!UICONTROL 検索エンジン - すべて]**：訪問者がどの検索エンジンを使って Web サイトを見つけたかが表示されます。訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
 
-** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. 訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
+**[!UICONTROL 検索エンジン - 有料]**：訪問者がどの有料検索エンジンを使って Web サイトを見つけたかが表示されます。訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
 
-** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. 訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
+**[!UICONTROL 検索エンジン - 自然]**：訪問者がどの自然検索エンジンを使って Web サイトを見つけたかが表示されます。訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
 
 ## 参照ドメイン {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -130,9 +130,9 @@ c_reports_ref_types.xml
 
 **サイト内**：これらの項目は、内部 URL フィルターによってタグ付けされた URL です。これらの項目はリファラーインスタンスとしてはカウントされませんが、他の指標についてレポートするときに表示されることがあります。
 
-** Java Script**はありません:JavaScriptがないので、タイプが識別できませんでした（不明）。これは、リファラー情報がクライアントのブラウザーから提供されなかったため、JavaScript をサポート可能かどうかがレポートされないことを意味します。これらは「リファラーインスタンス」としてはカウントされませんが、他の指標をレポートするときに表示されることがあります。
+** No Java Script**:JavaScriptがなかったので、タイプを識別できませんでした（不明）。 これは、リファラー情報がクライアントのブラウザーから提供されなかったため、JavaScript をサポート可能かどうかがレポートされないことを意味します。これらは「リファラーインスタンス」としてはカウントされませんが、他の指標をレポートするときに表示されることがあります。
 
-**USENET（ニュースグループ）**：これは、リファラーの URL が [!DNL news://] :// で始まっていたことを意味します。つまり、リファラーリンクは Web ページではなく USENET ニュースグループで投稿されました。
+**USENET（ニュースグループ）**：これは、リファラーの URL が `news://` :// で始まっていたことを意味します。つまり、リファラーリンクは Web ページではなく USENET ニュースグループで投稿されました。
 
 >[!NOTE]
 >
