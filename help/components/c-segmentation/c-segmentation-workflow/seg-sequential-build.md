@@ -7,7 +7,7 @@ title: 順次セグメントの構築
 topic: セグメント
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
+source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
 
 ---
 
@@ -244,9 +244,8 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## 論理グループコンテナ
 
-「論理グループ」コンテナは、条件を単一の順次セグメントチェックポイントにグループ化する場合に必要です。 非順次コンテナ（ヒット、訪問、訪問者）は、全体的なシーケンス内で条件を満たす必要がないので、THEN演算子に隣接して使用した場合は直感的でない結果になります。 特別な「論理グループ」コンテナは、順次セグメント化でのみ使用でき、前の順次チェックポイントの後、および後続の順次チェックポイントの前に、条件が満たされるようにします。 論理グループチェックポイント内の条件は、どの順序でも満たすことができます。
-
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). これに対し、「論理グループ」コンテナ [!UICONTROL は] 、グループ化されたチェッ *クポイントの順番を無視して、複数のチェ*&#x200B;ックポイントを1つのグループとして扱うように設計されています ** 。 つまり、そのグループ内のチェックポイントの順序は気にしません。 例えば、[!UICONTROL 訪問者]コンテナを別の[!UICONTROL 訪問者]コンテナ内にネストすることはできません。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+「論理グループ」コンテナは、条件を単一の順次セグメントチェックポイントにグループ化する場合に必要です。 特別な「論理グループ」コンテナは、順次セグメント化でのみ使用でき、前の順次チェックポイントの後、および後続の順次チェックポイントの前に、条件が満たされるようにします。 論理グループチェックポイント内の条件は、どの順序でも満たすことができます。 これに対し、非順次コンテナ（ヒット、訪問、訪問者）は、シーケンス全体で条件を満たす必要がないので、THEN演算子と組み合わせて使用した場合は直感に反する結果が得られます。
+「論理グル [!UICONTROL ープ] 」コンテナは、複数のチェッ *クポイントをグループとして扱うように設計され*&#x200B;ていますが、グループ化されたチェックポイントの順 ** 序は決まりません。 つまり、そのグループ内のチェックポイントの順序は気にしません。 例えば、[!UICONTROL 訪問者]コンテナを別の[!UICONTROL 訪問者]コンテナ内にネストすることはできません。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
@@ -256,6 +255,19 @@ Within sequential segmentation, it is required that containers are ordered stric
 |---|---|---|
 | 標準的なコンテナ階層 | ![](assets/nesting_container.png) | ヒット数、訪問数および訪問者に基づいてセグメントを抽出するために、[!UICONTROL 訪問者]コンテナ内で、[!UICONTROL 訪問]コンテナと[!UICONTROL ヒット]コンテナが順次ネストされます。 |
 | 論理コンテナの階層 | ![](assets/logic_group_hierarchy.png) | 標準的なコンテナ階層は、[!UICONTROL 論理グループ]コンテナの外側にも必要です。ただし、[!UICONTROL 論理グループ]コンテナ内部では、チェックポイントの順序や階層を設定する必要はありません。これらのチェックポイントで必要なのは、順序を問わず、訪問者が条件を満たすことです。 |
+
+論理グループは負担が大きいように見える場合があります。その使用方法に関するベストプラクティスを以下に示します。
+
+**論理グループコンテナまたはヒット/訪問コンテナ**
+順次チェックポイントをグループ化する場合、「コンテナ」は「論理グループ」になります。 ただし、これらの順次チェックポイントが1回のヒットまたは訪問の範囲内で発生する必要がある場合は、「ヒット」または「訪問」コンテナが必要です。 （もちろん、1つのヒットが複数のチェックポイントをクレジットしない場合、「ヒット」は順次チェックポイントのグループに対しては意味を持ちません）。
+
+**論理グループは順次セグメントの作成を単純化しますか。**
+はい、できます。 次の質問に答えようとしているとします。訪問者はページAの後にページB、C、またはDを見たか。 このセグメントは、論理グループコンテナを使用せずに構築できますが、複雑で面倒です。訪問者コン [テナページA -&gt;ページB -&gt;ページC -&gt;ページD] または訪問者コンテナページ [A -&gt;ページD -&gt;ページC] または訪問者コンテナページA -&gt;ページC -&gt;ページB -&gt;ページB -&gt;ページ訪問者コンテ [][][][ナページA次ページC次ページDページDページDページDページV次訪問者コンテナAページDページBページCページCページDページBページCページDページDページDページDページDページTanページDページD次にページB]
+
+次に示すように、「論理グループ」コンテナを使用すると、セグメントが大幅に簡素化されます。
+
+![](assets/logic-grp-example.png)
+
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -276,9 +288,15 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 **このセグメントを作成**
 
-ページ B および C は、外部「[!UICONTROL 訪問者]」コンテナ内の「[!UICONTROL 論理グループ]」コンテナ内でネストされます。次に、A の「[!UICONTROL ヒット]」コンテナの後に、[!UICONTROL AND] 演算子を使用して識別された B と C の「[!UICONTROL 論理グループ]」コンテナが続きます。B と C は「[!UICONTROL 論理グループ]」内にあるので、シーケンスが定義されるわけではなく、ページ B または C をヒットした場合に引数は true になります。
+ページ B および C は、外部「[!UICONTROL 訪問者]」コンテナ内の「[!UICONTROL 論理グループ]」コンテナ内でネストされます。次に、A の「[!UICONTROL ヒット]」コンテナの後に、[!UICONTROL AND] 演算子を使用して識別された B と C の「[!UICONTROL 論理グループ]」コンテナが続きます。Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
+
+**別の例**:ページBまたはページCを訪問し、次にページAを訪問した訪問者：
+
+![](assets/logic_group_any_order3.png)
+
+このセグメントは、論理グループのチェックポイント（BまたはC）の少なくとも1つに一致する必要があります。 また、論理グループの条件は、同じヒットで満たされる場合も、複数のヒットで満たされる場合もあり&#x200B;ます。
 
 ### 論理グループの最初の一致
 
