@@ -5,9 +5,9 @@ seo-title: IP アドレスで除外
 solution: Analytics
 title: IP アドレスで除外
 topic: 管理ツール
-uuid: 1ed6105f- e7c5-4c4f- b8f4- e5f66d0824bb
+uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。IP アドレスデータを除外することにより、レポートの精度が向上します。さらに、データを歪曲するサービス妨害（DoS）や悪意のあるイベントからデータを除外することもできます。除外は、ファイアウォールを使用して設定することもできます。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL IPアドレスごとに除外]**
+**[!UICONTROL Analytics]** /管理 **[!UICONTROL 者]** /IPア **[!UICONTROL ドレスごとに除外]**
 
 >[!NOTE]
 >
->*ボット* としてマークされたヒットは、サーバーコールとして [請求](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)されます。
+>IPアドレスによって除外されたヒットは、サーバーコールとし [て請求されま](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)す。
 
 ## Cookie ごとに除外 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
