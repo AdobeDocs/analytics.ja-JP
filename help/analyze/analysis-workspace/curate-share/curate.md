@@ -2,41 +2,41 @@
 description: キュレーションを使用すると、プロジェクトを共有する前にコンポーネントを制限できます。社内のマーケティング担当者およびその他のアナリストでないユーザーと、プロジェクトおよびそのコンポーネントを共有できます。プロジェクトに注釈を付けたりタグを適用したりします。
 keywords: Analysis Workspace
 seo-description: キュレーションを使用すると、プロジェクトを共有する前にコンポーネントを制限できます。社内のマーケティング担当者およびその他のアナリストでないユーザーと、プロジェクトおよびそのコンポーネントを共有できます。プロジェクトに注釈を付けたりタグを適用したりします。
-seo-title: キュレーション/共有の概要
+seo-title: キュレーション／共有の概要
 solution: Analytics
-title: キュレーション/共有の概要
-topic: Reports and Analytics
-uuid: 267e9678-95a1-4195-8ba4- e8a53c28ea0d
+title: キュレーション／共有の概要
+topic: Reports & Analytics
+uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
 
-# キュレーション/共有の概要
+# キュレーション／共有の概要
 
 キュレーションを使用すると、プロジェクトを共有する前にコンポーネントを制限できます。社内のマーケティング担当者およびその他のアナリストでないユーザーと、プロジェクトおよびそのコンポーネントを共有できます。プロジェクトに注釈を付けたりタグを適用したりします。
 
-**ビデオの概要**
+**ビデオ概要**
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL ワークスペース]** / **[!UICONTROL 共有]**/ **[!UICONTROL プロジェクトデータをキュレーション]**
+**[!UICONTROL Workspace]** /共有 **[!UICONTROL /プロジ]****[!UICONTROL ェクトデータのキュレーション]**
 
 ## プロジェクトデータのキュレーション
 
 1. プロジェクトを作成およびキュレーションするための権限を指定します。
 
-   Analysis Workspace プロジェクトを作成およびキュレーションする前に、管理者は、**[!UICONTROL Analysis Workspace のプロジェクトを作成 / キュレーション]**&#x200B;権限を有効にした[グループ](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)か、**全レポートアクセス]ユーザーグループに自分を追加する必要があります。[!UICONTROL **( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [プロジェクトを作成して保存](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) し、 **[!UICONTROL 共有]** /プロジェクトデータ **[!UICONTROL をキュレーションをクリック]**&#x200B;します。
+1. [プロジェクトを作成し](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 、保存して、共有 **[!UICONTROL /プロジェクトデータをキ]** ュレーションをクリックします ****。
 1. 共有したいコンポーネントを、左側にあるドラッグ可能なコンポーネントスタックから「**[!UICONTROL キュレートされたコンポーネント]」フィールドにドラッグします。**
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >コンポーネントをキュレーションする必要はありません。プロジェクトをすべての利用可能なデフォルトコンポーネント、または選択したコンポーネントと共有できます。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. プロジェクト内でコンポーネントをキュレーションすると、その他のコンポーネントをそのプロジェクトで使用できなくなります。
+   >プロジェクトを共有する場合は、コンポーネントのキュレーションは必要ありません。 プロジェクトをすべての利用可能なデフォルトコンポーネント、または選択したコンポーネントと共有できます。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. プロジェクト内でコンポーネントをキュレーションすると、その他のコンポーネントをそのプロジェクトで使用できなくなります。
 
 1. 「**[!UICONTROL 完了]**」をクリックします。
 
@@ -55,13 +55,13 @@ source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
 
    >[!IMPORTANT]
    >
-   >この設定は永続的ではありません。共有時に単一のアクションです。
+   >この設定は保持されません。共有時の単数の操作です。
 
 1. オプションで、このページを受信者のランディングページとして設定できます。
 
    >[!IMPORTANT]
    >
-   >この設定は永続的ではありません。共有時に単一のアクションです。
+   >この設定は保持されません。共有時の単数の操作です。
 
 1. 「**[!UICONTROL 共有]**」をクリックします。
 
