@@ -5,9 +5,9 @@ seo-title: サイト指標レポート
 solution: Analytics
 title: サイト指標レポート
 topic: Ad Hoc Analysis
-uuid: 0730747a-216f-4a58- b62b- a9812968cde5
+uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 訪問者が特定のページを閲覧した回数、特定ページから行われた購入数、来訪日時など、Web サイトについての量的な情報が表示されます。これらの各レポートはその他の項目ベースのレポートに設定できる指標です。
 
-## Site Metrics reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## サイト指標レポート {#concept_0639CA16551749A693F49ADED4842CCE}
 
 訪問者が特定のページを閲覧した回数、特定ページから行われた購入数、来訪日時など、Web サイトについての量的な情報が表示されます。これらの各レポートはその他の項目ベースのレポートに設定できる指標です。
 
@@ -92,7 +92,7 @@ c_reports_time_spent_per_visit.xml
 
 ## 購入レポート {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-売上高、注文件数および購入点数のサマリデータを表示します。[!DNL Purchase Conversion Funnel] レポートを表示することもできます。
+売上高、注文件数および購入点数のサマリデータを表示します。また、レポートを表示することもで [!DNL Purchase Conversion Funnel] きます。
 
 <!-- 
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **売上高**：選択した期間の粗利益を見ることができます。例としては、3 月の売上高、先週の購入、本日の売上高などがあります。
 * **注文件数**：指定された期間における Web サイトでの注文件数を表示します。注文には複数の製品が含まれることがあります。
 * **購入点数**：指定された期間に注文された総数量が表示されます。
-* **購入コンバージョンファネル**:小売設定など、特定の順序で発生した場合にサイト上のコンバージョンイベントを表示する場合に最適です。ファネルレポートには、コンバージョンプロセスの各手順のコンバージョン指標のほか、注文件数、売上高、購入点数が表示されます。
+* **購入コンバージョンファネル**:小売設定など、特定の順序で発生するコンバージョンイベントをサイトに表示する場合に最適です。 ファネルレポートには、コンバージョンプロセスの各手順のコンバージョン指標のほか、注文件数、売上高、購入点数が表示されます。
 
 ## 買い物かごレポート {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
@@ -162,8 +162,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-** [!UICONTROL First or Last Touch Channel Report] **: Displays metrics showing data about a specific first-touch or last-touch channel. これらのレポートでは、チャネルを分類し、各チャネルの詳細を表示できます。AdLens が有効になっている場合は、Reports and Analytics チャネルレポートに分類が表示されます。
+**[!UICONTROL ファーストタッチまたはラストタッチチャネルレポート]**：特定のファーストタッチチャネルまたはラストタッチチャネルに関するデータを示す指標が表示されます。これらのレポートでは、チャネルを分類し、各チャネルの詳細を表示できます。AdLens が有効になっている場合は、Reports and Analytics チャネルレポートに分類が表示されます。
 
-** [!UICONTROL First or Last Touch Channel Detail Reports] **: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. チャネル詳細レポートでは、概要レポートで報告されたチャネルの詳細値を詳しく調査できます。
+**[!UICONTROL ファーストタッチまたはラストタッチチャネル詳細レポート]**：ルールの設定時に「[!UICONTROL チャネルの値を次に設定する]」オプションで設定したチャネルの値から取得された、ページ名やリファラーなどの詳細が表示されます。チャネル詳細レポートでは、概要レポートで報告されたチャネルの詳細値を詳しく調査できます。
 
 Reports &amp; Analytics でマーケティングチャネルを設定する方法について詳しくは、[マーケティングチャネルのヘルプ](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html)システムを参照してください。
