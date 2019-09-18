@@ -1,24 +1,24 @@
 ---
-description: AppMeasurement. jsで設定された設定変数。
-keywords: Analytics の導入
-seo-description: Adobe Analytics用AppMeasurement. jsで設定された設定変数
+description: AppMeasurement.jsに設定される設定変数。
+keywords: Analytics の実装
+seo-description: AppMeasurement.jsで設定されたAdobe Analytics用の設定変数
 seo-title: 設定変数
 solution: Analytics
 subtopic: 変数
 title: 設定変数
-topic: 開発者と導入
-uuid: a19484b6- e350-4c12- b4d6- a31c79a42db0
+topic: 開発者と実装
+uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 72f2b06f53c6a3c1cae965a1a9b030b0123bfca1
+source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
 
 ---
 
 
 # 設定変数
 
-設定変数は、データが取得され、レポートで処理される方法を制御します。一般的な設定変数は、主にメインのグローバルJavaScript AppMeasurement. jsに設定されます。これらの変数は、Analyticsページレベルのコードおよび必要に応じてリンク内で設定できます。
+設定変数は、データが取得され、レポートで処理される方法を制御します。最も一般的な設定変数は、通常、メインのグローバルJavaScript appMeasurement.jsに設定されます。 これらの変数は、必要に応じて、Analyticsのページレベルコード内およびリンク内に設定できます。
 
-**[!UICONTROL 管理ツール]** / **[!UICONTROL コードマネージャー]**&#x200B;でコードを生成するときに、これらの変数の一部がコードにデフォルトで表示されるわけではありません。これらの設定変数の一部は、サイトの導入ニーズに当てはまらない可能性があります。
+Not all of these variables appear in the code by default when you generate code through the **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. これらの設定変数の一部は、サイトの導入ニーズに当てはまらない可能性があります。
 
 これらの設定変数を使用するうえでの目標の一部を次に示します。
 
@@ -30,13 +30,9 @@ source-git-commit: 72f2b06f53c6a3c1cae965a1a9b030b0123bfca1
 
 >[!NOTE]
 >
->[!DNL AppMeasurement] track関数の最初の呼び出しの前に、すべての設定変数が設定されている必要 `t()`があります。If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+>[!DNL AppMeasurement] は、track関数の最初の呼び出しの前に、すべての設定変数が設定されている必要がありま `t()`す。 の呼び出しの後に設定変数が設定されている場合、予期しな `t()`い結果が発生する可能性があります。 To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
 ## s.account {#concept_685A5C832A6C40619ACB5920925785DC}
-
-<!--
-s_account.xml
--->
 
  変数は、データの保存とレポートをおこなうレポートスイートを決定します。
 
@@ -52,11 +48,11 @@ If sending to multiple report suites (multi-suite tagging), `s.account` may be a
 
 レポートスイートは、レポーティングにおける最も基本的なレベルのセグメントです。レポートスイートは、契約で許される限り、いくらでも設定可能です。各レポートスイートは、アドビの収集サーバー上で確保されたデータ領域を参照します。レポートスイートは JavaScript コード内の`s_account` 変数によって指定されます。
 
-[!DNL Analytics] 内では、レポートのヘッダー右上に現在のレポートスイートが表示されます。各レポートスイートは、レポートスイート ID と呼ばれる一意の識別子を持ちます。`s_account` 変数には、データを送信する1つまたは複数のレポートスイートIDが含まれています。このレポートスイート ID 値（[!DNL Analytics] ユーザーは見ることができない）は、使用の前にアドビから提供または承認される必要があります。すべてのレポートスイート ID には「わかりやすい名前」が関連付けられています。この名前は、[!DNL Admin Console] のレポートスイートセクションで変更することができます。
+[!DNL Analytics] 内では、レポートのヘッダー右上に現在のレポートスイートが表示されます。各レポートスイートは、レポートスイート ID と呼ばれる一意の識別子を持ちます。The `s_account` variable contains one or more report suite IDs to which data is sent. このレポートスイート ID 値（[!DNL Analytics] ユーザーは見ることができない）は、使用の前にアドビから提供または承認される必要があります。すべてのレポートスイート ID には「わかりやすい名前」が関連付けられています。この名前は、[!DNL Admin Console] のレポートスイートセクションで変更することができます。
 
-`s_account` この変数は通常、JavaScriptファイル（s_ code. js）内で宣言されます。You can declare the `s_account` variable on the HTML page, which is a common practice when the value of `s_account` may change from page to page. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. `s_account` JavaScriptファイルの読み込み時に値がない場合、データは送信されません [!DNL Analytics]。
+The `s_account` variable is normally declared inside the JavaScript file (s_code.js). 変数はHTMLページで宣言 `s_account` できます。これは、の値がページごとに変わる場合の一般 `s_account` 的な方法です。 Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
 
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. In some cases, the value of `s_account` also appears in the domain, before 112.2o7.net. パスの値が、送信先レポートスイートを決定する唯一の値です。次のボールドテキストは、デバッガーに表示される、データの送信先であるレポートスイートを示しています。詳しくは、 [DigitalPulse Debugger](../../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2).
+Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. 場合によっては、の値も112.2o7.net `s_account` より前のドメインに表示されることがあります。 パスの値が、送信先レポートスイートを決定する唯一の値です。次のボールドテキストは、デバッガーに表示される、データの送信先であるレポートスイートを示しています。詳しくは、 [DigitalPulse Debugger](../../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
@@ -65,13 +61,13 @@ https://mycompany.112.207.net/b/ss/
 
 **構文と可能な値** {#section_3BE913DF26D848AEB4CB5B0A6CE7F0CA}
 
-レポートスイート ID は、ASCII 文字の英数字文字列であり、40 バイト以下で指定する必要があります。使用できる英数字以外の文字はハイフンだけです。スペース、ピリオド、コンマ、その他の句読点は使用できません。"`s_account` 変数には、複数のレポートスイートを含めることができ、すべてのレポートスイートがページからデータを受け取ります。
+レポートスイート ID は、ASCII 文字の英数字文字列であり、40 バイト以下で指定する必要があります。使用できる英数字以外の文字はハイフンだけです。スペース、ピリオド、コンマ、その他の句読点は使用できません。Folio Builder`s_account` 変数には、複数のレポートスイートを含めることができ、すべてのレポートスイートがページからデータを受け取ります。
 
 ```js
 var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
 ```
 
-All values of `s_account` must be provided or approved by Adobe.
+のすべての値は、ア `s_account` ドビが提供または承認する必要があります。
 
 **例** {#section_16580A9101B64560A58C7745397FB42F}
 
@@ -91,7 +87,7 @@ var s_account="mycompanycom,mycompanysection"
 
 * If `s_account` is empty, not declared, or contains an unexpected value, no data is collected.
 * When the `s_account` variable is a comma-separated list (multi-suite tagging), do not put spaces between report suite IDs.
-* [!UICONTROL s. dynamicAccountSelection] がTrueに *設定されている場合、URL* は送信先レポートスイートを決定するために使用されます。送信先レポートスイートを確認する場合は、[!DNL DigitalPulse Debugger] を使用してください。
+* If [!UICONTROL s.dynamicAccountSelection] is set to *True* the URL is used to determine the destination report suite. 送信先レポートスイートを確認する場合は、[!DNL DigitalPulse Debugger] を使用してください。
 
 * 場合によっては、[!DNL VISTA] を使用して送信先レポートスイートを変更することができます。ファーストパーティ cookie を使用する場合、またはサイトに 20 を超えるアクティブなレポートスイートがある場合は、[!DNL VISTA] を使用して別のレポートスイートにデータを再ルーティングまたはコピーすることを推奨します。
 
@@ -137,14 +133,10 @@ None
 
 **注意事項、質問、ヒント** {#section_62F0B0895BC84A05840AEEED0643DE60}
 
-* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* JavaScript版AppMeasurementでは、動的なアカウント選択はサポ [ートされていません](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)。
 * 各ページからデータを受信するレポートスイートを決定する場合は、必ず [!DNL DigitalPulse Debugger] を使用してください。
 
 ## s.dynamicAccountList {#concept_19715BA0AD4D41748E0C4A4A6B71AB51}
-
-<!-- 
-dynamicAccountList.xml
--->
 
 [!DNL AppMeasurement]JavaScript 版 では、データ送信先のレポートスイートを動的に選択できます。 変数には、目的のレポートスイートを決定するために使用されるルールが含まれます。
 
@@ -152,11 +144,11 @@ dynamicAccountList.xml
 |---|---|---|---|
 | 該当なし | 該当なし | 該当なし | "" |
 
-この変数は、*`dynamicAccountSelection`**`dynamicAccountMatch`* と変数を使用します。The rules in *`dynamicAccountList`* are applied if *`dynamicAccountSelection`* is set to 'true,' and they apply to the section of the URL specified in *`dynamicAccountMatch`*.
+この変数は、 と変 *`dynamicAccountSelection`* 数 *`dynamicAccountMatch`* を追加。 のルールは、 *`dynamicAccountList`* が「true」に設 *`dynamicAccountSelection`* 定され、で指定されたURLのセクションに適用される場合に適用されます *`dynamicAccountMatch`*。
 
-If none of the rules in *`dynamicAccountList`* matches the URL of the page, the report suite identified in `s_account` is used. この変数で示されるルールは、左から右の順で適用されます。ページ URL が複数のルールと一致する場合、最も左にあるルールを使用してレポートスイートが決定されます。そのため、より一般的なルールをリストの右側に移動する必要があります。
+のルールがページのURLに一致し *`dynamicAccountList`* ない場合は、で識別されたレポートスイートが使用 `s_account` されます。 この変数で示されるルールは、左から右の順で適用されます。ページ URL が複数のルールと一致する場合、最も左にあるルールを使用してレポートスイートが決定されます。そのため、より一般的なルールをリストの右側に移動する必要があります。
 
-In the following examples, the page URL is `www.mycompany.com/path1/?prod_id=12345` and `dynamicAccountSelection` is set to *true* and `s_account` is set to `mysuitecom.`
+次の例では、ページURLは `www.mycompany.com/path1/?prod_id=12345` trueで `dynamicAccountSelection` 、 *は* true `s_account` に設定され、 `mysuitecom.`
 
 | DynamicAccountList の値 | DynamicAccountMatch の値 | データを受信するレポートスイート |
 |---|---|---|
@@ -167,7 +159,7 @@ In the following examples, the page URL is `www.mycompany.com/path1/?prod_id=123
 
 **構文と可能な値** {#section_7360E4354ED345E8BAAE210DBD58A7EC}
 
-`dynamicAccountList` この変数は、name= valueのペア（ルール）のセミコロン区切りリストです。リストの各要素には以下の項目が含まれる必要があります。
+The `dynamicAccountList` variable is a semicolon-separated list of name=value pairs (rules). リストの各要素には以下の項目が含まれる必要があります。
 
 * 1 つ以上のレポートスイート ID（コンマ区切り）
 * 等号
@@ -195,26 +187,22 @@ None
 
 **注意事項、質問、ヒント** {#section_3E10534FCC05457AB67147BB480C8BB3}
 
-* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* JavaScript版AppMeasurementでは、動的なアカウント選択はサポ [ートされていません](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)。
 * ページ URL が複数のルールと一致する場合、最も左にあるルールが使用されます。
 * 一致するルールがない場合、デフォルトのレポートスイートが使用されます。
 * ページが他のユーザーのハードドライブに保存されているか、Web ベースの翻訳エンジンを介して翻訳されている場合（Google 翻訳後のページなど）は、動的アカウント選択はおそらく動作しません。より精度の高いトラッキングをおこなうには、`s_account` 変数をサーバーサイドで設定してください。
-* `dynamicAccountSelection` ルールは、で指定したURLのセクションにのみ適用 `dynamicAccountMatch`されます。
+* The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
 
-* When using dynamic account selection, be sure to update *`dynamicAccountList`* every time you obtain a new domain.
-* 送信先のレポートスイートを識別する際には、[!DNL DigitalPulse Debugger] を使用します。`dynamicAccountSelection` 変数は常に値を上書き `s_account`します。
+* 動的アカウント選択を使用する場合は、新しいドメインを取得す *`dynamicAccountList`* るたびに必ず更新するようにしてください。
+* 送信先のレポートスイートを識別する際には、[!DNL DigitalPulse Debugger] を使用します。The `dynamicAccountSelection` variable always overrides the value of `s_account`.
 
 ## s.dynamicAccountMatch {#concept_718171E602214CCC9905C749708BBE52}
-
-<!-- 
-dynamicAccountMatch.xml
--->
 
  変数は DOM オブジェクトを使用して、 のすべてのルールが適用される URL のセクションを取得します。
 
 This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' デフォルト値は [!DNL window.location.host] であるので、この変数は[!UICONTROL 動的アカウント選択]が動作するための必須の変数ではありません。For additional information, see [dynamicAccountList](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51).
 
-The rules found in `dynamicAccountList` are applied to the value of `dynamicAccountMatch`. If `dynamicAccountMatch` only contains [!DNL window.location.host] (default), the rules in `dynamicAccountList` apply only to the domain of the page.
+に示すルールは、 `dynamicAccountList` の値に適用されます `dynamicAccountMatch`。 にのみ `dynamicAccountMatch` が含まれ [!DNL window.location.host] る場合（デフォルト）、のルールはペ `dynamicAccountList` ージのドメインにのみ適用されます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -222,7 +210,7 @@ The rules found in `dynamicAccountList` are applied to the value of `dynamicAcco
 
 **構文と可能な値** {#section_95CD81972C22419B80A921CA137D3841}
 
-`dynamicAccountMatch` この変数は通常、JavaScript版AppMeasurementファイルを提供するアドビコンサルタントによって入力されます。ただし、以下に挙げる値はいつでも適用できます。
+The `dynamicAccountMatch` variable is usually populated by the Adobe consultant who provides the AppMeasurement for JavaScript file. ただし、以下に挙げる値はいつでも適用できます。
 
 ```js
 s.dynamicAccountMatch=[DOM object]
@@ -253,16 +241,12 @@ None
 
 **注意事項、質問、ヒント** {#section_EF9B2977BC21497D8C5EEB9BAD731E17}
 
-* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* JavaScript版AppMeasurementでは、動的なアカウント選択はサポ [ートされていません](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8)。
 * ページがハードドライブに保存されている場合、[!DNL window.location.host] は空になり、これらのページビュー数はデフォルトのレポートスイート（ `s_account`).
 
 * ページが Google などの Web ベースの翻訳エンジンによって翻訳されている場合、[!UICONTROL 動的アカウント選択]は設計どおりに動作しません。より精度の高いトラッキングをおこなうには、[!UICONTROL s_account] 変数をサーバーサイドで設定してください。
 
 ## s.dynamicVariablePrefix {#concept_38C1F2452DDB47FCA8F458BE1398E276}
-
-<!-- 
-dynamicVariablePrefix.xml
--->
 
  変数を使用すると、動的に設定する必要のある変数にフラグを付けることができます。
 
@@ -307,13 +291,9 @@ s.prop1="..User-Agent"
 
 ## s.charSet {#concept_E65B9A8F75C3482C87D0D455805F89BD}
 
-<!-- 
-charset.xml
--->
+通常JavaScriptファイルで設定されるcharSetプロパティは、Analyticsで、受信データをUTF-8に変換して、Analyticsでの保存とレポートに使用されます。
 
-通常、JavaScriptファイルで設定されるcharSetプロパティは、Analyticsによって受信データをUTF-8に変換して、Analyticsで保存およびレポートするために使用されます。
-
->[!Ntoo:] charSetプロパティは、データをマルチバイトレポートスイートに送信するときに必要で、標準レポートスイートには絶対に使用しないでください。charSet プロパティを標準の ISO レポートスイートに設定すると、変数の切り捨てや予想外の文字変換が発生することがあります。
+>[!N] 注意：charSetプロパティは、データをマルチバイトのレポートスイートに送信する場合に必要です。標準のレポートスイートでは絶対に使用しないでください。 charSet プロパティを標準の ISO レポートスイートに設定すると、変数の切り捨てや予想外の文字変換が発生することがあります。
 
 charSet プロパティの値は、たとえ構文がわずかに異なっていたとしても、META タグまたは http ヘッダーでの Web ページエンコーディングに一致する必要があります。META タグはエンコーディングにエイリアスを使用できますが、charSet の値は通称（または公式）のエンコーディング名を使用する必要があります。
 
@@ -327,7 +307,7 @@ charSet プロパティの値は、たとえ構文がわずかに異なってい
 | Big5 | Big-5 |
 | Shift_JIS | SJIS |
 
-エンコーディングおよびエイリアスが多数存在するので、charSetの適切な値が上の表にない場合は、担当の導入コンサルタントまたはアドビカスタマーケアにお問い合わせください。
+エンコーディングやエイリアスが多数存在するので、charSetが上の表に表示されない場合は、導入コンサルタントまたはアドビカスタマーケアに問い合わせて、適切な値を確認してください。
 
 If a site has different web encodings on different pages, or a single JavaScript file is used for multiple sites, the charSet property can be set to a default value in the JavaScript file and then reset on specific pages as needed to override the default; for example, `s.charSet="UTF-8"` or `s.charSet="SJIS"`.
 
@@ -335,7 +315,7 @@ charSet パラメーターの空白でない値により、データは UTF-8 �
 
 同様に、charSet パラメーターの空白の値はデータ変換プロセスがスキップされ、128～255 の範囲の文字は 1 バイトとして保存されます。これらの文字の 1 バイトコードは有効な UTF-8 ではないので、これらの文字はマルチバイトレポートスイートでは正しく表示されません。したがって、charSet パラメーターは必ずマルチバイトレポートスイートで使用する必要があります。また、Web ページのエンコーディングに関しては適切な値を使用することが必要です。
 
-If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. However, if the variables on your pages contain non-ASCII characters, the *`charSet`* variable must be populated.
+If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. ただし、ページ上の変数にASCII以外の文字が含まれている場合は、その変数を入力す *`charSet`* る必要があります。
 
 **パラメーター**
 
@@ -361,13 +341,9 @@ s.charSet="SJIS"
 
 ## s.currencyCode {#concept_CE216F1610E2499D8178DB9A8EB97C63}
 
-<!-- 
-currencycode.xml
--->
-
  変数は、売上高に適用される換算レートを決定します。
 
-すべての売上は、選択した通貨で保存されます。その通貨が *`currencyCode`*&#x200B;が空 *`currencyCode`* の場合、コンバージョンは適用されません。
+すべての売上は、選択した通貨で保存されます。その通貨が  *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied.
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |--- |--- |--- |--- |
@@ -375,17 +351,15 @@ currencycode.xml
 
 サイトで複数の通貨により購入できるようにしている場合は、*`currencyCode`* 変数を使用して、売上高を適切な通貨で保存する必要があります。For example, if the base currency for your report suite is USD, and you sell an item for 40 Euros, you should populate the *`currencyCode`* with "EUR" on the HTML page. データ収集がそのデータを受け取るとすぐに、その時点の換算レートを使用して、この 40 ユーロを USD に換算します。
 
-Populating the *`currencyCode`* variable on the HTML page instead of in the JavaScript file is recommend if you sell in multiple currencies. If you want to use your own conversion rates rather than the conversion rates used by Adobe, set the *`currencyCode`* to equal the base currency of your report suite. その上で、すべての売上高を換算してから、[!DNL Analytics] に送信します。
+Populating the *`currencyCode`* variable on the HTML page instead of in the JavaScript file is recommend if you sell in multiple currencies. アドビが使用するコンバージョン率ではなく、独自のコンバージョン率を使用する場合は、をレポートスイートのベ *`currencyCode`* ース通貨と同じに設定します。 その上で、すべての売上高を換算してから、[!DNL Analytics] に送信します。
 
-通貨換算は、売上高と通貨イベントの両方に適用されます。通貨イベントとは、税金や送料など、売上高に類似した値を合計するために使用するイベントです。売上高および通貨イベントは、製品文字列内で指定します。products について詳しくは、 [events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE). 通貨の管理方法について詳しくは、[複数通貨のサポート](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/)を参照してください。
+通貨換算は、売上高と通貨イベントの両方に適用されます。通貨イベントとは、税金や送料など、売上高に類似した値を合計するために使用するイベントです。売上高および通貨イベントは、製品文字列内で指定します。products について詳しくは、 [events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE).
 
 **構文と可能な値** {#section_7CD68F08AB4848EE9B0D19DCC3F1BECE}
 
 ```js
 s.currencyCode="currency_code"
 ```
-
-[複数通貨のサポート](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/)で一覧表示されている通貨コードのみを使用できます。
 
 **例** {#section_D55ED45369544C8AAA02B3193752636C}
 
@@ -403,16 +377,12 @@ Adobe [!DNL Customer Care] が、レポートスイートのデフォルトの�
 
 **注意事項、質問、ヒント** {#section_08A80A87B54A4861905953A6FA61FF8F}
 
-* If you notice surprisingly large amounts of revenue in reports, ensure that the *`currencyCode`* variable and base currency of the report suite are set correctly.
-* *`currencyCode`* 変数は永続的ではありません。つまり、売上高やその他の通貨関連指標と同じイメージリクエストで変数を渡す必要があります。
+* レポートで驚くほど売上高が多い場合は、レポートスイートの変数とベ *`currencyCode`* ース通貨が正しく設定されていることを確認してください。
+* The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
 * 通貨イベントは、通貨以外の目的では使用しないでください。通貨ではない任意の値または動的な値をカウントする必要がある場合は、[!UICONTROL 数値]イベントタイプを使用してください。
-* "*`currencyCode`* 変数が空の場合は、換算は適用されません。
+* When *`currencyCode`* 変数が空の場合は、換算は適用されません。
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
-
-<!-- 
-cookiedomain.xml
--->
 
 The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
 
@@ -422,25 +392,21 @@ Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `win
 
 ## s.cookieDomainPeriods {#concept_F17A59C7D8F54F5897AD40980B6725EB}
 
-<!-- 
-cookiedomainperiods.xml
--->
-
 The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. この変数は、一部のプラグインで、プラグインの cookie を設定するための適切なドメインを決定する際にも使用されます。
 
-The default value for *`cookieDomainPeriods`* is "2". This is the value that is used if *`cookieDomainPeriods`* is omitted. For example, using the domain `www.mysite.com`, *`cookieDomainPeriods`* should be "2". For `www.mysite.co.jp`, *`cookieDomainPeriods`* should be "3".
+のデフォルト *`cookieDomainPeriods`* 値は「2」です。 This is the value that is used if *`cookieDomainPeriods`* is omitted. 例えば、ドメインを使用する場 `www.mysite.com`合は「2」 *`cookieDomainPeriods`* にする必要があります。 の場 `www.mysite.co.jp`合は、 *`cookieDomainPeriods`* 「3」に設定します。
 
 If *`cookieDomainPeriods`* is set to "2" but the domain contains three periods, the JavaScript file attempts to set cookies on the domain suffix.
 
-For example, if setting *`cookieDomainPeriods`* to "2" on the domain `www.mysite.co.jp`, the `s_cc` and `s_sq` cookies are created on the domain `co.jp`. `co.jp` は無効なドメインであるので、ほぼすべてのブラウザーでこれらの cookie が拒否されます。その結果、訪問者クリックマップ用のデータが消失し、[!UICONTROL 訪問者プロファイル]／[!UICONTROL 技術]／[!UICONTROL cookie] レポートに、ほぼ 100 ％の訪問者から cookie が拒否されたと示されます。
+例えば、ドメインで「2」 *`cookieDomainPeriods`* に設定した場合、ドメ `www.mysite.co.jp`インに `s_cc` 対してと `s_sq` cookieが作成されま `co.jp`す。 `co.jp` は無効なドメインであるので、ほぼすべてのブラウザーでこれらの cookie が拒否されます。その結果、訪問者クリックマップ用のデータが消失し、[!UICONTROL 訪問者プロファイル]／[!UICONTROL 技術]／[!UICONTROL cookie] レポートに、ほぼ 100 ％の訪問者から cookie が拒否されたと示されます。
 
-If *`cookieDomainPeriods`* が「3」で、ドメインにピリオドが 2 つだけ含まれている場合、JavaScript ファイルはサイトのサブドメインに対して cookie を設定します。For example, if setting *`cookieDomainPeriods`* to "3" on the domain `www2.mysite.com`, the `s_cc` and `s_sq` cookies are created on the domain `www2.mysite.com`. When a visitor goes to another subdomain of your site (such as `www4.mysite.com`), all cookies set with `www2.mysite.com` cannot be read.
+if *`cookieDomainPeriods`* が「3」で、ドメインにピリオドが 2 つだけ含まれている場合、JavaScript ファイルはサイトのサブドメインに対して cookie を設定します。例えば、ドメインで「3」 *`cookieDomainPeriods`* に設定した場合、ドメ `www2.mysite.com`インに `s_cc` 対してと `s_sq` cookieが作成されま `www2.mysite.com`す。 When a visitor goes to another subdomain of your site (such as `www4.mysite.com`), all cookies set with `www2.mysite.com` cannot be read.
 
 >[!NOTE]
 >
->Do not include additional subdomains as part of *`cookieDomainPeriods`*. For example, `store.toys.mysite.com` would still have *`cookieDomainPeriods`* set to "2". この変数定義によって、ルートドメイン [!DNL mysite.com] に対して cookie が正しく設定されます。Setting *`cookieDomainPeriods`* to "3" in this example would set cookies on the domain [!DNL toys.mysite.com], which has the same implications as the prior example.
+>Do not include additional subdomains as part of *`cookieDomainPeriods`*. 例えば、「2」 `store.toys.mysite.com` に設定した *`cookieDomainPeriods`* ままの場合、 この変数定義によって、ルートドメイン [!DNL mysite.com] に対して cookie が正しく設定されます。Setting *`cookieDomainPeriods`* to "3" in this example would set cookies on the domain [!DNL toys.mysite.com], which has the same implications as the prior example.
 
-[s. fpCookieDomainPeriods](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_0A25BD152B0744989E7C662A95448274)も参照してください。
+s.fpCookieDomainPeriods [も参照してください](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_0A25BD152B0744989E7C662A95448274)。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -448,7 +414,7 @@ If *`cookieDomainPeriods`* が「3」で、ドメインにピリオドが 2 つ�
 
 >[!NOTE]
 >
->一部のクラウドコンピューティングサービスは、cookieを書き込むことができないトップレベルドメインと見なされます。(For example, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, and so on.) これらのサービスに実装すると、お客様の独自のドメインを設定していない場合（導入をテストする場合など）に、すべての Cookie をブロックしているユーザーを削除する Analytics のプライバシー設定による影響が生じることがあります。その場合は、システムによって Cookie が無効化されている、機能していないまたはアクセスできないと判断されたヒットは、すべてオプトアウトされるので、レポートからは除外されます。
+>一部のクラウドコンピューティングサービスはトップレベルドメインと見なされ、cookieの書き込みが許可されません。 (For example, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, and so on.) これらのサービスに実装すると、お客様の独自のドメインを設定していない場合（導入をテストする場合など）に、すべての Cookie をブロックしているユーザーを削除する Analytics のプライバシー設定による影響が生じることがあります。その場合は、システムによって Cookie が無効化されている、機能していないまたはアクセスできないと判断されたヒットは、すべてオプトアウトされるので、レポートからは除外されます。
 
 **例** {#section_4218BE29FA5E49F58975A2094329B268}
 
@@ -482,21 +448,17 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
 * If you notice that visitor click map data is absent, or that the [!UICONTROL Traffic] &gt; [!UICONTROL Technology] &gt; [!UICONTROL Cookies] report shows a large percentage of visitors who reject cookies, check that the value of *`cookieDomainPeriods`* is correct.
 
 * If *`cookieDomainPeriods`* is higher than the number of sections in the domain, cookies will be set with the full domain. この設定により、訪問者がサブドメインを切り替えたときにデータが消失する可能性があります。
-* "*`cookieDomainPeriods`* 変数は、訪問者ID cookieを設定 *`trackingServer`* する前に、非推奨の実装で使用されていました。Though only present in outdated code, failure to correctly define *`cookieDomainPeriods`* in this circumstance puts your implementation at risk of data loss.
+* Folio Builder 変数 *`cookieDomainPeriods`* は、訪問者ID cookieを設定する前に、非推奨の導入で *`trackingServer`* 使用されていました。 古いコードでのみ存在しますが、この状況で正しく定義できないと、実装 *`cookieDomainPeriods`* でデータが失われるリスクがあります。
 
 ## s.fpCookieDomainPeriods {#concept_0A25BD152B0744989E7C662A95448274}
 
-<!-- 
-fpCookieDomainPeriods.xml
--->
-
  変数は、導入でサードパーティ 2o7.net または omtrdc.net ドメインが使用されている場合でも、JavaScript（s_sq、s_cc、プラグイン）によって設定された本質的にファーストパーティの Cookie 用に使用されます。
 
-*`fpCookieDomainPeriods`* 変数は動的に設定しないでください。If you use *`cookieDomainPeriods`*, it is good practice to specify a value for *`fpCookieDomainPeriods`* as well. *`fpCookieDomainPeriods`* 値を継承 *`cookieDomainPeriods`* します。Note that *`fpCookieDomainPeriods`* does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.
+The *`fpCookieDomainPeriods`* variable should never be dynamically set . を使用する場 *`cookieDomainPeriods`*&#x200B;合は、の値も指定することをお勧め *`fpCookieDomainPeriods`* します。 *`fpCookieDomainPeriods`* は値を継承 *`cookieDomainPeriods`* します。 Note that *`fpCookieDomainPeriods`* does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.
 
-The name " *`fpCookieDomainPeriods`*" refers to the number of periods (".") ドメインが「www」で始まる場合のドメインのピリオド（.）の数を指します。For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
+「」とい *`fpCookieDomainPeriods`*&#x200B;う名前は、ピリオド(".")の数を表します。ドメインが「www」で始まる場合のドメインのピリオド（.）の数を指します。For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
 
-The [!DNL AppMeasurement] for JavaScript file uses the *`fpCookieDomainPeriods`* variable to determine the domain with which to set first-party cookies other than the [!UICONTROL visitor ID] (s_vi) cookie. この変数によって少なくとも 2 つの cookie が影響を受けます。s_sq および s_cc です（それぞれ訪問者クリックマップおよび cookie の確認に使用されます）。[!UICONTROL getValOnce] などのプラグインで使用される cookie も影響を受けます。
+for javaScriptフ [!DNL AppMeasurement] ァイルは、変数を使 *`fpCookieDomainPeriods`* 用して、訪問者ID  (s_vi) cookie以外のファーストパーティcookieを設定するドメインを決定します。 この変数によって少なくとも 2 つの cookie が影響を受けます。s_sq および s_cc です（それぞれ訪問者クリックマップおよび cookie の確認に使用されます）。[!UICONTROL getValOnce] などのプラグインで使用される cookie も影響を受けます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -513,7 +475,7 @@ if(d.indexOf('.co.uk')>-1||d.indexOf('.com.au')>-1)
 
 **構文と可能な値** {#section_87923F4C12E74AF99CC9AFC0FFD77D49}
 
-*`cookieDomainPeriods`* この変数は、以下のように文字列として想定されています。
+The *`cookieDomainPeriods`* variable is expected to be a string, as shown below.
 
 ```js
 s.fpCookieDomainPeriods="3"
@@ -535,20 +497,16 @@ None
 
 ## s.cookieLifetime {#concept_8347C6648B0E4D4996E2F223C34B9A3D}
 
-<!-- 
-cookielifetime.xml
--->
-
  変数は、JavaScript とデータ収集サーバーの両方で、Cookie の有効期限を決定するために使用されます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 該当なし | cl | トラフィック／技術／cookie（訪問者関連のすべてのレポート） | "" |
 
-If *`cookieLifetime`* が設定されている場合、JavaScript とデータ収集サーバーの両方について、その値が他のすべての cookie 有効期限よりも優先されますが、以下で説明するように 1 つだけ例外があります。*`cookieLifetime`* 変数には、次の3つの値のいずれかを指定できます。
+if *`cookieLifetime`* が設定されている場合、JavaScript とデータ収集サーバーの両方について、その値が他のすべての cookie 有効期限よりも優先されますが、以下で説明するように 1 つだけ例外があります。The *`cookieLifetime`* variable can have one of three values:
 
 * [!DNL Analytics] Cookie
-* cookie
+* Cookie
 * JavaScript 設定とプラグイン
 
 **構文と可能な値** {#section_09D4D122451B45FAB2C9398600EC66F1}
@@ -580,28 +538,24 @@ None
 
 **注意事項、質問、ヒント** {#section_23E24877F6554E0D9F8C8B7A9C2994B2}
 
-*`cookieLifetime`*[!DNL Analytics] の追跡に影響します。If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Use caution when setting *`cookieLifetime`*.
+*`cookieLifetime`* はトラッキングに [!DNL Analytics] 影響します。 If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Use caution when setting *`cookieLifetime`*.
 
 ## s.doPlugins {#concept_676EAE4FAFCF4B018876390FC874EFDA}
 
-<!-- 
-doPlugins.xml
--->
-
  変数は 関数への参照です。この変数を使用すると、JavaScript ファイル内の適切な場所で 関数を呼び出すことができます。
 
-*`s_doPlugins`* 関数は、次のいずれかの処理を行うたびに呼び出されます。
+The *`s_doPlugins`* function is called each time any of the following occurs:
 
-* The *`t()`* function is called
-* The *`tl()`* function is called
+* 関数 *`t()`* が呼び出されます
+* 関数 *`tl()`* が呼び出されます
 * 離脱リンクまたはダウンロードリンクがクリックされた
 * 訪問者クリックマップによって追跡されているページ要素がクリックされた
 
-"*`doPlugins`* 関数は、データの収集や変更のためのカスタマイズされたルーチンを実行するために使用します。If you are using an object name other than "s," make sure that the *`s_doPlugins`* is renamed appropriately. For example, if your object name is s_mc, the *`s_doPlugins`* function should be called s_mc_doPlugins.
+Folio Builder *`doPlugins`* 関数は、データの収集や変更のためのカスタマイズされたルーチンを実行するために使用します。If you are using an object name other than "s," make sure that the *`s_doPlugins`* is renamed appropriately. 例えば、オブジェクト名がs_mcの場合、関 *`s_doPlugins`* 数の名前はs_mc_doPluginsです。
 
 **構文と可能な値** {#section_5CFB94598521455E80947964A306EA89}
 
-The *`s_doPlugins`* function should not be in quotes, and *`doPlugins`* should always be assigned to the exact name of the *`s_doPlugins`* function (if that function is renamed).
+関数 *`s_doPlugins`* は引用符で囲まないでください。関数名 *`doPlugins`* が変更された場合は、常に関数名に正確な名前を *`s_doPlugins`* 割り当てる必要があります。
 
 ```js
 s.doPlugins=s_doPlugins;
@@ -623,11 +577,11 @@ None
 
 **注意事項、質問、ヒント** {#section_0C7FB61CF0C946EF8A7D1B686D36E6ED}
 
-* オブジェクト名を（s から s_mc などに）変更するのは、他の顧客とコンテンツを共有するか他の顧客のコンテンツを取り込む場合のみです。名前の変更&#x200B;*`s_doPlugins`* 関数を [!UICONTROL s_ mc_ doPlugins] に設定すると、別のクライアントのJavaScriptファイルが関数を *`doPlugins`* 上書きしないようになります。
+* オブジェクト名を（s から s_mc などに）変更するのは、他の顧客とコンテンツを共有するか他の顧客のコンテンツを取り込む場合のみです。名前の変更 *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function.
 
-* If you unexpectedly start pulling in content from another Adobe customer, and your *`s_doPlugins`* function is being overwritten, it is possible to simply rename the *`s_doPlugins`* function without changing the object name. 同じページ上の他の JavaScript ファイルとは異なるオブジェクト名を使用することが最善策ですが、これは必須ではありません。
+* 別のアドビの顧客から意図せずにコンテンツの取り込みを開始し、関数が上書きされる場合は、オブジェクト名を変更せずに、単に関数の *`s_doPlugins`**`s_doPlugins`* 名前を変更するだけで済みます。 同じページ上の他の JavaScript ファイルとは異なるオブジェクト名を使用することが最善策ですが、これは必須ではありません。
 
-## s. registerPreTrackCallbackおよびs. registerPostTrackCallback
+## s.registerPreTrackCallbackとs.registerPostTrackCallback
 
 これらの関数は、コールバック（関数）およびそのパラメーターをパラメーターとして取ります。以下に例を示します。
 
@@ -647,19 +601,15 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 
 ## s.trackDownLoadLinks {#concept_0A7AEAB3172A4BEA8B2E8B1A3A8F596C}
 
-<!-- 
-trackDownloadLinks.xml
--->
-
 サイト上のダウンロード可能ファイルへのリンクを追跡する場合は、 を「true」に設定します。
 
-*`trackDownloadLinks`* が"true"の場合、どの *`linkDownloadFileTypes`* リンクがダウンロード可能ファイルであるかを判断するために使用されます。
+が「true」 *`trackDownloadLinks`* の場合は、どのリンクがダ *`linkDownloadFileTypes`* ウンロード可能ファイルかを判断するために使用されます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 該当なし | 該当なし | 該当なし | True |
 
-"*`trackDownloadLinks`*&#x200B;サイトにダウンロード可能ファイルへのリンクがない場合、またはダウンロード可能ファイルのクリック数を追跡する必要がない場合は、trackDownloadLinks 変数を「false」に設定してください。If *`trackDownloadLinks`* is 'true,' when a file download link is clicked, data is immediately sent to [!DNL Analytics]. ダウンロードリンクで送信されるデータには、ダウンロードリンクの URL と、そのリンクの訪問者クリックマップ用のデータが含まれます。If *`trackDownloadLinks`* が"false"の場合、サイト上のダウンロード可能ファイルへのリンクの訪問者クリックマップデータが、レポートに表示される可能性が高くなります。
+Folio Builder *`trackDownloadLinks`*&#x200B;サイトにダウンロード可能ファイルへのリンクがない場合、またはダウンロード可能ファイルのクリック数を追跡する必要がない場合は、trackDownloadLinks 変数を「false」に設定してください。If *`trackDownloadLinks`* is 'true,' when a file download link is clicked, data is immediately sent to [!DNL Analytics]. ダウンロードリンクで送信されるデータには、ダウンロードリンクの URL と、そのリンクの訪問者クリックマップ用のデータが含まれます。if *`trackDownloadLinks`* is 'false,' then visitor click map data for links to downloadable files on your site is likely to be under reported.
 
 **構文と可能な値** {#section_828492CC2A144BC68D18C30CF397EEFC}
 
@@ -688,17 +638,13 @@ None
 
 ## s.trackExternalLinks {#concept_E1321318696841648A54CF77F6C4A7AF}
 
-<!-- 
-trackExternalLinks.xml
--->
-
-が"true"の場合、クリックされたリンクが離脱リンクであるかどうかを判断するために使用されます。
+が「true」の場合、およびを使用して、クリックされたリンクが離脱リンクであるかどうかを判断します。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 該当なし | 該当なし | 該当なし | True |
 
-"*`trackExternalLinks`*&#x200B;サイトに離脱リンクがない場合、または離脱リンクのクリック数を追跡する必要がない場合は、trackExternalLinks 変数を「false」に設定してください。出口リンクは、訪問者がサイトから出て行くすべてのリンクです。If *`trackExternalLinks`* が"true"の場合、離脱リンクをクリックすると、トラッキングデータが直ちに送信されます。離脱リンクで送信されるデータには、リンクの URL、リンク名、そのリンクの訪問者クリックマップ用のデータが含まれます。If *`trackExternalLinks`* が"false"の場合、サイト上の離脱リンクの訪問者クリックマップデータは、レポートに表示される可能性が高くなります。
+Folio Builder *`trackExternalLinks`*&#x200B;サイトに離脱リンクがない場合、または離脱リンクのクリック数を追跡する必要がない場合は、trackExternalLinks 変数を「false」に設定してください。出口リンクは、訪問者がサイトから出て行くすべてのリンクです。if *`trackExternalLinks`* is 'true,' then when you click an exit link, tracking data is immediately sent. 離脱リンクで送信されるデータには、リンクの URL、リンク名、そのリンクの訪問者クリックマップ用のデータが含まれます。if *`trackExternalLinks`* is 'false,' then visitor click map data for exit links on your site is likely to be under reported.
 
 **構文と可能な値** {#section_267748949A7544658E1D838AAEF964B2}
 
@@ -732,13 +678,9 @@ None
 
 ## s.trackInlineStats {#concept_E3A811D9761E4917935F6CD9059C7FCC}
 
-<!-- 
-trackInlineStats.xml
--->
-
  変数は、ClickMap データを収集するかどうかを決定します。
 
-*`trackInlineStats`* が"true"の場合、クリックされたページおよびリンクに関するデータはs_ sqというcookieに保存されます。If 'false,' s_sq will have a value of "[[B]]," which is considered null.
+If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null.
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -769,10 +711,6 @@ None
 
 ## s.linkDownloadFileTypes {#concept_06CC14C69DFD4887A5E6967A157A9E05}
 
-<!-- 
-linkDownloadFileTypes.xml
--->
-
  変数は、コンマで区切られたファイル拡張子のリストです。
 
 サイトにこれらの拡張子の付いたファイルへのリンクが含まれる場合、これらのリンクがクリックされた場合にその URL が[!UICONTROL ファイルのダウンロード数]レポートに表示されます。
@@ -781,11 +719,11 @@ linkDownloadFileTypes.xml
 |--- |--- |--- |--- |
 | 該当なし | 該当なし | トラフィック／サイトトラフィック／ファイルのダウンロード数 | "exe、zip、wav、mp3、mov、mpg、avi、wmv、doc、pdf、xls" |
 
-"*`linkDownloadFileTypes`* 変数は、"True"に設定されている場合 *`trackDownloadLinks`* にのみ有効です。
+Folio Builder 変 *`linkDownloadFileTypes`* 数は、が「True」に設定さ *`trackDownloadLinks`* れている場合にのみ関連します。
 
 リンク上でマウスを左クリックした場合にのみ、[!UICONTROL ファイルのダウンロード数]レポートでカウントされます。ページが読み込まれたときに自動的に開始されるファイルダウンロード、またはリダイレクトの後で実行されるファイルダウンロードはすべて、[!UICONTROL ファイルのダウンロード数]レポートではカウントされません。ファイルを右クリックし「対象をファイルに保存」オプションを選択した場合も、[!UICONTROL ファイルのダウンロード数]レポートではカウントされません。
 
-"*`linkDownloadFileTypes`* 変数は、RSS フィードに対するクリック数を追跡するために使用することができます。If you have links to RSS feeds with a .xml or other extension, appending ",xml" to the *`linkDownloadFileTypes`* list allows you to see how often each RSS link is clicked.
+Folio Builder *`linkDownloadFileTypes`* 変数は、RSS フィードに対するクリック数を追跡するために使用することができます。.xmlまたは他の拡張子を持つRSSフィードへのリンクがある場合は、リストに「,xml」を追加すると、各RSSリンクがクリックされ *`linkDownloadFileTypes`* る頻度を確認できます。
 
 **構文と可能な値** {#section_E0B3F3817BBF4B11AFAABEF8BB951E5A}
 
@@ -814,15 +752,11 @@ None
 **注意事項、質問、ヒント** {#section_786CF22D5553429EB6524B13774793BC}
 
 * ダウンロードファイルを左クリックした場合のみ、URL が[!UICONTROL ファイルのダウンロード数レポート]に表示されます。
-* 一般的なファイル拡張子のインクルード&#x200B;*`linkDownloadFileTypes`* に一般的なファイル拡張子を含めると、Adobe のサーバーに送信されるサーバーコール総数が大幅に増えることがあります。
+* 共通のファイル拡張子を&#x200B;*`linkDownloadFileTypes`* に一般的なファイル拡張子を含めると、Adobe のサーバーに送信されるサーバーコール総数が大幅に増えることがあります。
 * Links to server-side redirects or HTML pages that automatically begin downloading a file are not counted unless the file extension is in *`linkDownloadFileTypes`*.
 * JavaScript（javascript:openLink( ) など）を使用するリンクは、ファイルのダウンロード数にはカウントされません。
 
 ## s.linkInternalFilters {#concept_D53C1186762E4AAE82451712B0801CAD}
-
-<!-- 
-linkInternalFilters.xml
--->
 
  変数は、サイトのどのリンクが離脱リンクであるかを判別するために使用されます。
 
@@ -834,13 +768,13 @@ linkInternalFilters.xml
 
 >[!NOTE]
 >
->以前は、linkInternalFiltersをjavascript:に設定することを推奨していました。この方法では、タグが設定されている現在のドメインを含め、すべてのドメインが外部と認識されます。一部のドメインが内部と認識されるようにする場合は、以下の例のように、それらのドメインを追加できます。
+>以前は、linkInternalFiltersをjavascript：に設定することを推奨していました。 この方法では、タグが設定されている現在のドメインを含め、すべてのドメインが外部と認識されます。一部のドメインが内部と認識されるようにする場合は、以下の例のように、それらのドメインを追加できます。
 
-The *`linkInternalFilters`* variable is used to determine whether a link is an exit link, which is defined as any link that takes a visitor away from your site. 離脱リンクのターゲットウィンドウがポップアップであるか、既存のウィンドウであるかは、そのリンクが離脱リンクレポートに表示されるかどうかに影響しません。離脱リンクは、*`trackExternalLinks`* が `"true"` に設定されている場合に、スウォッチ選択の変更を発生させる秒単位の時間遅延です。（DTM による離脱リンクの処理方法について詳しくは、Dynamic Tag Management のドキュメントの[リンクトラッキング](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html)を参照してください）The filters in *`linkInternalFilters`* are not case-sensitive.
+The *`linkInternalFilters`* variable is used to determine whether a link is an exit link, which is defined as any link that takes a visitor away from your site. 離脱リンクのターゲットウィンドウがポップアップであるか、既存のウィンドウであるかは、そのリンクが離脱リンクレポートに表示されるかどうかに影響しません。離脱リンクは、*`trackExternalLinks`* が `"true"` に設定されている場合に、スウォッチ選択の変更を発生させる秒単位の時間遅延です。（DTM による離脱リンクの処理方法について詳しくは、Dynamic Tag Management のドキュメントの[リンクトラッキング](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html)を参照してください）のフィルターでは、大 *`linkInternalFilters`* 文字と小文字が区別されません。
 
-The list of filters in *`linkInternalFilters`* applies to the domain and path of any link by default. If *`linkLeaveQueryString`* is set to `"true"`, then the filters apply to the entire URL (domain, path, and query string). これらのフィルターは、相対パスが href 値として使用されている場合でも、URL の絶対パスに常に適用されます。
+のフィルターのリストは、デ *`linkInternalFilters`* フォルトではリンクのドメインとパスに適用されます。 If *`linkLeaveQueryString`* is set to `"true"`, then the filters apply to the entire URL (domain, path, and query string). これらのフィルターは、相対パスが href 値として使用されている場合でも、URL の絶対パスに常に適用されます。
 
-貴社のサイトのすべてのドメイン（および貴社の JavaScript ファイルを使用しているすべてのパートナー）は、*`linkInternalFilters`* と呼ばれる iFrame を読み込みます。すべてのドメインをリストに含めていない場合、それらのドメイン上にあるリンクとそれらのドメインへのリンクはすべて、離脱リンクであると見なされ、送信されるサーバーコールの数が増加します。If you would like multiple domains or companies to use a single [!DNL AppMeasurement] for JavaScript file, you may consider populating *`linkInternalFilters`* on the page, overriding the value specified in the JavaScript file. 直ちにメインドメインへリダイレクトされるバニティドメインがある場合、それらのバニティドメインをリストに含める必要はありません。
+貴社のサイトのすべてのドメイン（および貴社の JavaScript ファイルを使用しているすべてのパートナー）は、*`linkInternalFilters`* と呼ばれる iFrame を読み込みます。すべてのドメインをリストに含めていない場合、それらのドメイン上にあるリンクとそれらのドメインへのリンクはすべて、離脱リンクであると見なされ、送信されるサーバーコールの数が増加します。複数のドメインまたは会社で単一の [!DNL AppMeasurement] for javaScriptファイルを使用する場合は、JavaScriptファイルで指定された値を上書きして、ページに *`linkInternalFilters`* データを埋め込むことを検討してください。 直ちにメインドメインへリダイレクトされるバニティドメインがある場合、それらのバニティドメインをリストに含める必要はありません。
 
 次の例では、この変数の使用方法を示します。In this example, the URL of the page is `https://www.mysite.com/index.html`.
 
@@ -858,7 +792,7 @@ s.linkLeaveQueryString=false
 
 **構文と可能な値** {#section_810966F09912415B96EA9C2EDAE0CEA0}
 
-*`linkInternalFilters`* 変数は、ASCII文字のカンマ区切りリストです。スペースは使用できません。
+The *`linkInternalFilters`* variable is a comma-separated list of ASCII characters. スペースは使用できません。
 
 ```js
 s.linkInternalFilters="site1.com[,site2.com[,site3.net[...]]]"
@@ -890,10 +824,6 @@ s.linkInternalFilters="mysite.com,mysite.net,mypartner.net/adclick"
 ```
 
 ## s.linkLeaveQueryString {#concept_118C280E29394DB5A16DBBF41EB4D742}
-
-<!-- 
-linkLeaveQueryString.xml
--->
 
 デフォルトでは、クエリ文字列はすべての レポートから除外されます。
 
@@ -944,25 +874,21 @@ s.linkLeaveQueryString=true
 **注意事項、質問、ヒント** {#section_085E79D1A7F74F5D95F82D34FB82AEC4}
 
 * Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
-* `linkLeaveQueryString` この変数は、記録されたページのURL、訪問者クリックマップまたは [!UICONTROL パス] レポートには影響しません。
+* The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.
 
 ## s.linkTrackVars {#concept_A6B117826C15402EBD0781A94C8065B9}
 
-<!-- 
-linkTrackVars.xml
--->
-
  変数は、カスタムリンク、離脱リンク、ダウンロードリンクで送信される変数のコンマ区切りのリストです。
 
-*`linkTrackVars`* を"に設定すると、値を持つすべての変数がリンクデータと共に送信されます。To avoid inflation of instances or page views associated with other variables, Adobe recommends populating *`linkTrackVars`* and *`linkTrackEvents`* in the [!UICONTROL onClick] event of a link that is used for link tracking.
+If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. 他の変数に関連付けられたインスタンスやページビューの水増しを防ぐため、アドビでは、リンクトラッキ *`linkTrackVars`* ングに使 *`linkTrackEvents`* 用されるリンクの [!UICONTROL onClick] イベントにデータを埋め込むことをお勧めします。
 
-All variables that should be sent with link data (custom, exit, and download links) should be listed in *`linkTrackVars`*. If *`linkTrackEvents`* is used, *`linkTrackVars`* should contain "events."
+All variables that should be sent with link data (custom, exit, and download links) should be listed in *`linkTrackVars`*. を使 *`linkTrackEvents`* 用する場合は、 *`linkTrackVars`* 「events」を含める必要があります。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 該当なし | 該当なし | いずれか | "なし" |
 
-入力時&#x200B;*`linkTrackVars`*&#x200B;変数には"s."プレフィックスを使用しないでください。For example, instead of populating *`linkTrackVars`* with "s.prop1," you should populate it with "prop1." The following example illustrates how *`linkTrackVars`* should be used.
+埋め込み時 *`linkTrackVars`*, do not use the 's.' prefix for variables. 例えば、「s.prop1」 *`linkTrackVars`* を入力する代わりに、「prop1」を入力する必要があります。 次の例は、使用方法 *`linkTrackVars`* を示しています。
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -985,7 +911,7 @@ The *`linkTrackVars`* variable is a case-sensitive, comma-separated list of vari
 s.linkTrackVars="variable_name[,variable_name[...]]"
 ```
 
-"*`linkTrackVars`* 変数には、送信先の変数のみを含めることができます。つまり [!DNL Analytics]、次のように指定します。 *`events`**`campaign`**`purchaseID`*、 *`products`*[!UICONTROL eVar1-75]、 [!UICONTROL prop1-75]、 [!UICONTROL hier1~5]*`channel`**`server`*、 *`state`**`zip`*&#x200B;および *`pageType`*.
+Folio Builder 変数に *`linkTrackVars`* は、送信先の変数のみを含めるこ [!DNL Analytics]とができます。 *`events`*,,,, *`campaign`* eVar1-75, *`purchaseID`* eVar1-75 *`products`*, prop1-75, [!UICONTROL prop1-prop1,]prop1, [!UICONTROL prop, prop,]prod, *`channel`**`server`**`state`**`zip`**`pageType`* prod.
 
 **例** {#section_546BAAC7373A41BF8583B280EAAB607C}
 
@@ -1003,17 +929,13 @@ None
 
 **注意事項、質問、ヒント** {#section_99E0783A608C4462945F35D21AB4AC2B}
 
-* *`linkTrackVars`* が空白の場合、値を持つすべての変数がすべてのサーバーコールで追跡されます。
+* If *`linkTrackVars`* is blank, all variables that have values are tracked with all server calls.
 * Any variable listed in *`linkTrackVars`* that has a value at the time of any download, exit, or custom link, are tracked.
-* If *`linkTrackEvents`* is used, *`linkTrackVars`* must contain "events."
+* を使 *`linkTrackEvents`* 用する場合は、 *`linkTrackVars`* 「events」を含める必要があります。
 
 * 変数に「s.」または「s_objectname」のプレフィックスを使用しないでください。
 
 ## s.linkTrackEvents {#concept_34D029097A674D0A97690C9569590EF5}
-
-<!-- 
-linkTrackEvents.xml
--->
 
 The  variable is a comma-separated list of events that are sent with a [!UICONTROL custom], [!UICONTROL exit], or [!UICONTROL download] link.
 
@@ -1029,9 +951,9 @@ s.t() // both event1 and event2 are recorded
 
 [!DNL help.php] への最初のリンクでは、events 変数にはリンクがクリックされる前に設定された値が保持されています。これにより、event1 がカスタムリンクで送信されます。In the second example, the link to [!DNL test.php], event2 is not recorded because it is not listed in *`linkTrackEvents`*.
 
-To avoid confusion and potential problems, Adobe recommends populating *`linkTrackVars`* and *`linkTrackEvents`* in the [!UICONTROL onClick] event of a link that is used for link tracking.
+混乱や潜在的な問題を避けるため、アドビでは、リンクトラッキ *`linkTrackVars`* ングに使 *`linkTrackEvents`* 用するリ [!UICONTROL ンクのonClick] イベントにデータを埋め込むことをお勧めします。
 
-*`linkTrackEvents`* 変数には、 [!UICONTROL カスタム]リンク、 [!UICONTROL ダウンロード]リンクおよび [!UICONTROL 離脱] リンクで送信されるイベントが含まれています。This variable is only considered if *`linkTrackVars`* contains "events."
+The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. この変数は、「events」が含まれ *`linkTrackVars`* る場合にのみ考慮されます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -1039,7 +961,7 @@ To avoid confusion and potential problems, Adobe recommends populating *`linkTra
 
 **構文と可能な値** {#section_89BA2425FBDC400A8C8B7FCDE7D67D63}
 
-*`linkTrackEvents`* 変数はコンマ区切りのイベントリストです（スペースなし）。
+The *`linkTrackEvents`* variable is a comma-separated list of events (no spaces).
 
 ```js
 s.linkTrackEvents="event1[,event2[,event3[...]]]"
@@ -1063,7 +985,7 @@ None
 
 **注意事項、質問、ヒント** {#section_DBB68BECC9D44380816113DB2566C38C}
 
-* The JavaScript file only uses *`linkTrackEvents`* if *`linkTrackVars`* contains the "events" variable. "events" should be included in *`linkTrackVars`* only when *`linkTrackEvents`* is defined.
+* JavaScriptファイルは、「events」変数 *`linkTrackEvents`* が含ま *`linkTrackVars`* れる場合にのみを使用します。 「events」は、が定義されている場合にの *`linkTrackVars`* み含める必 *`linkTrackEvents`* 要があります。
 
 * Beware if an event is fired on a page, and is listed in *`linkTrackEvents`*. That event is recorded again with any [!UICONTROL exit], [!UICONTROL download], or [!UICONTROL custom] links unless the events variable is reset prior to that event (in the [!UICONTROL onClick] of a link or after the call to the *`t()`* function).
 
@@ -1071,25 +993,21 @@ None
 
 ## s.linkExternalFilters {#concept_92A59169DCE443EBAE81A373B27BB6DD}
 
-<!-- 
-linkExternalFilters.xml
--->
-
 サイトに外部サイトへのリンクが多数含まれており、一部の離脱リンクは追跡する必要がない場合、 を使用すると、離脱リンクの特定のサブセットについてレポートすることができます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 該当なし | 該当なし | パス／入口と出口／出口リンク | "" |
 
-"*`linkExternalFilters`* 変数はオプションの変数で、リンクが離脱リンクかどうかを判断 *`linkInternalFilters`* するために使用されます。出口リンクは、訪問者がサイトから出て行くすべてのリンクとして定義されます。離脱リンクのターゲットウィンドウがポップアップであるか、既存のウィンドウであるかは、そのリンクが離脱リンクレポートに表示されるかどうかに影響しません。出口リンクは、*`trackExternalLinks`* は"true"に設定されています。The filters in *`linkExternalFilters`* and *`linkInternalFilters`* are case insensitive.
+Folio Builder 変数は、 *`linkExternalFilters`* リンクが離脱リンクであるかどうかを判断するた *`linkInternalFilters`* めにと組み合わせて使用されるオプションの変数です。 出口リンクは、訪問者がサイトから出て行くすべてのリンクとして定義されます。離脱リンクのターゲットウィンドウがポップアップであるか、既存のウィンドウであるかは、そのリンクが離脱リンクレポートに表示されるかどうかに影響しません。出口リンクは、 *`trackExternalLinks`* is set to 'true.' とのフィルターでは、大 *`linkExternalFilters`* 文字と *`linkInternalFilters`* 小文字が区別されません。
 
 >[!NOTE]
 >
->If you don't want to use *`linkExternalFilters`*, delete it or set it to "".
+>使用しない場合は、削除す *`linkExternalFilters`*&#x200B;るか、""に設定します。
 
-The filters list in *`linkExternalFilters`* and *`linkInternalFilters`* apply to the domain and path of any link by default. If *`linkLeaveQueryString`* is set to 'true,' the filters apply to the entire URL (domain, path, and query string). これらのフィルターは、相対パスが href 値として使用されている場合でも、URL の絶対パスに常に適用されます。
+デフォルトでは、のフィルタ *`linkExternalFilters`* ーリスト *`linkInternalFilters`* とは、リンクのドメインとパスに適用されます。 を「true」 *`linkLeaveQueryString`* に設定すると、フィルターはURL全体（ドメイン、パス、クエリ文字列）に適用されます。 これらのフィルターは、相対パスが href 値として使用されている場合でも、URL の絶対パスに常に適用されます。
 
-ほとんどの企業では、*`linkInternalFilters`* では、不要な離脱リンクを十分に制御 *`linkExternalFilters`*&#x200B;できます。Using *`linkExternalFilters`* simply decreases the likelihood that an exit link is considered external. If *`linkExternalFilters`* has a value, then a link is considered only external if it does not match *`linkInternalFilters`* and does match *`linkExternalFilters`*.
+ほとんどの企業では、 *`linkInternalFilters`* gives them enough control over exit links that they don't need *`linkExternalFilters`*. Using *`linkExternalFilters`* simply decreases the likelihood that an exit link is considered external. If *`linkExternalFilters`* has a value, then a link is considered only external if it does not match *`linkInternalFilters`* and does match *`linkExternalFilters`*.
 
 次の例では、この変数の使用方法を示します。In this example, the URL of the page is `https://www.mysite.com/index.html`.
 
@@ -1108,7 +1026,7 @@ s.linkLeaveQueryString=false
 
 **構文と可能な値** {#section_E35DAAAE8BDE44CEB8F6763EF1344693}
 
-*`linkExternalFilters`* 変数は、ASCII文字のカンマ区切りリストです。スペースは使用できません。
+The *`linkExternalFilters`* variable is a comma-separated list of ASCII characters. スペースは使用できません。
 
 ```js
 s.linkExternalFilters="site1.com[,site2.com[,site3.net[...]]]"
@@ -1132,21 +1050,17 @@ None
 
 **注意事項、質問、ヒント** {#section_8B40E6F539E3473B934A8DB7C5086D73}
 
-* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Do not use this variable in place of *`linkInternalFilters`* to force internal links to become exit links.
+* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. 内部リンクを強制的に離脱リンクにする場 *`linkInternalFilters`* 合は、の代わりにこの変数を使用しないでください。
 
-* If *`linkExternalFilters`* should be applied to the query string of a link, make sure *`linkLeaveQueryString`* is set to 'true.' See [linkLeaveQueryString](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_118C280E29394DB5A16DBBF41EB4D742) before setting to `"true"`.
+* リン *`linkExternalFilters`* クのクエリ文字列に適用する必要がある場合は、が「true」に設 *`linkLeaveQueryString`* 定されていることを確認します。 See [linkLeaveQueryString](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_118C280E29394DB5A16DBBF41EB4D742) before setting to `"true"`.
 
 * To disable exit link tracking, set *`trackExternalLinks`* to `"false"`.
 
 ## s.usePlugins {#concept_81836470A25C41228CE04084565F667D}
 
-<!-- 
-s_usePlugins.xml
--->
-
 If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.'
 
-[!UICONTROL usePlugins] が"true"の場合、 *`s_doPlugins`* 各イメージリクエストの前に関数が呼び出されます。
+usePlugins [!UICONTROL が「true] 」の場合、各イメージリクエ *`s_doPlugins`* ストの前に関数が呼び出されます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -1170,7 +1084,7 @@ s.usePlugins=true
 s.usePlugins=false
 ```
 
-The [!UICONTROL usePlugins] variable should only be false (or not declared) if the *`s_doPlugins`* function is not declared in your JavaScript file.
+関数 [!UICONTROL がJavaScriptファイルで宣言されていない場合、] usePlugins変数はfalse(または宣言されて *`s_doPlugins`* いない)にする必要があります。
 
 **設定** {#section_DFD41717134147E988B6AFC7DE5BB9E3}
 
