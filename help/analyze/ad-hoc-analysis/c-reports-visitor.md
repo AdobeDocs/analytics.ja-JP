@@ -1,20 +1,20 @@
 ---
-description: 訪問者数、顧客忠誠度、訪問者の特性など、訪問者に関する情報を表示します。
-seo-description: 訪問者数、顧客忠誠度、訪問者の特性など、訪問者に関する情報を表示します。
+description: 訪問者数、顧客の忠誠度、訪問者の特性など、訪問者に関する情報を表示します。
+seo-description: 訪問者数、顧客の忠誠度、訪問者の特性など、訪問者に関する情報を表示します。
 seo-title: 訪問者レポート
 solution: Analytics
 title: 訪問者レポート
 topic: Ad Hoc Analysis
-uuid: 3e9b41d1- d6ff-47a8- aa6b-829df1040c34
+uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
 # 訪問者レポート
 
-訪問者数、顧客忠誠度、訪問者の特性など、訪問者に関する情報を表示します。
+訪問者数、顧客の忠誠度、訪問者の特性など、訪問者に関する情報を表示します。
 
 ## 再来訪頻度 {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
@@ -60,22 +60,22 @@ c_reports_visit_number.xml
 
 他のレポートや変数を使用してこのレポートを分類し、次のような事項を確認できます。
 
-* キャンペーン XYZ のクリックを通じて購入に至った訪問者の一般的な訪問回数を参照してください。
+* キャンペーン XYZ のクリックを通じて購入に至った訪問者の一般的な訪問回数.
 * 例えば東京からの訪問者がリードを生み出すまでの訪問回数は、ロンドンからの訪問者よりも多いかどうか
 
 >[!NOTE]
 >
->同じ訪問者が同じ期間内にWebサイトを複数回訪問した場合、各訪問ごとに訪問回数が増分されます。
+>同じ訪問者が同じ期間に複数回Webサイトを訪問した場合、指定された各訪問回数が各訪問ごとに増分されます。
 
 このレポートは、訪問者がサイトを訪問するたびにアドビに渡される訪問者 ID データに基づいています。アドビでこのデータが受け取られると、このデータと過去の訪問者 ID データが比較され、次のどの訪問者であるかが判断されます。
 
-* 新規の訪問者（訪問回数が 1 になる）を参照してください。
+* 新規の訪問者（訪問回数が 1 になる）.
 * 訪問を継続している訪問者（訪問回数は増分されない）
 * 再訪している以前の訪問者（訪問回数が 1 増分される）
 
 >[!NOTE]
 >
->各Analytics訪問者IDは、Adobeサーバー上の訪問者プロファイルに関連付けられています。訪問者プロファイルは、少なくとも 13 ヶ月操作が実行されなかった場合、訪問者 ID cookie の有効期限にかかわらず削除されます。
+>各Analytics訪問者IDは、アドビのサーバー上の訪問者プロファイルに関連付けられます。 訪問者プロファイルは、少なくとも 13 ヶ月操作が実行されなかった場合、訪問者 ID cookie の有効期限にかかわらず削除されます。
 
 ## 顧客の忠誠度 {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -96,7 +96,7 @@ c_reports_customerloyalty.xml
 
 >[!NOTE]
 >
->これらの指標を使用すると、訪問（訪問者）に購入が含まれているかどうかに関係なく、このレポートにすべてのユーザー訪問（またはすべての訪問者）が表示されます。
+>これらの指標を使用する場合、訪問（訪問者）に購入が含まれているかどうかに関係なく、すべてのユーザー訪問（またはすべての訪問者）がこのレポートに表示されます。
 
 忠誠度の状態は、購入イベントが発生した訪問の終了後に変更されます。例えば、新規顧客（購入回数 1 回）が購入を行い、その後同じ訪問中にニュースレターに登録したとします。訪問者の顧客忠誠度の状態が次の訪問まで変更されないので、このニュースレター登録イベントは引き続き新規顧客のインタラクションと見なされます。
 
@@ -110,13 +110,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-** [!UICONTROL Languages] **: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+**[!UICONTROL 言語]**：訪問者の設定言語を表示し、ブラウザーのデフォルト言語を取り込み、サイトで訪問者が最も頻繁に使用する言語を表示します。
 
-** [!UICONTROL Domains] **: Lists the organizations and ISPs your visitors use to access your site. このレポートは[!UICONTROL フルドメイン]レポートとは異なります。フルドメインレポートがフル ISP ドメインを登録するのに対して、このレポートはセカンダリドメインを表示します。
+**[!UICONTROL ドメイン]**：訪問者がサイトにアクセスするために利用した団体および ISP を一覧表示します。このレポートは[!UICONTROL フルドメイン]レポートとは異なります。フルドメインレポートがフル ISP ドメインを登録するのに対して、このレポートはセカンダリドメインを表示します。
 
-** [!UICONTROL Top Level Domains] **: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. 商用（.com）、ネットワーク（.net）、教育機関（.edu）、政府機関（.gov）、非営利団体（.org）などで終わるドメインは、通常米国のドメインで、その他の国のドメインは別途一覧表示されます。
+**[!UICONTROL トップレベルドメイン]**：閲覧元ドメインの拡張子に基づき、世界中の訪問者の居住地域を明らかにし、それらの国々から何人の訪問者が訪れているかを示します。商用（.com）、ネットワーク（.net）、教育機関（.edu）、政府機関（.gov）、非営利団体（.org）などで終わるドメインは、通常米国のドメインで、その他の国のドメインは別途一覧表示されます。
 
-** [!UICONTROL Visitor ZIP/Postal Code] **: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics.
+**[!UICONTROL 訪問者の郵便番号]**：購入成功指標に最も大きな影響を与えた顧客の郵便番号を示します。
 
 ## 地理特性 {#concept_7C1B930F90F945B49205D3855CAE1813}
 
