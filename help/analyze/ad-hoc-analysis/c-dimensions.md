@@ -5,9 +5,9 @@ seo-title: ディメンション
 solution: Analytics
 title: ディメンション
 topic: Ad Hoc Analysis
-uuid: a843d3ae-093b-438e-83312a2ea6f2a2ea6f2
+uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 画面の解像度
 * カスタム eVar 評価、s.prop 値
 
-** [!UICONTROL ディメンションパネル**]
+**[!UICONTROL ディメンション]パネル**
 
 [!UICONTROL ディメンション]パネルには、Reports and Analytics で実装されたすべてのディメンションが一覧表示および分類されています。任意のディメンション項目に基づいてレポートを作成できます。ほぼすべてのディメンションは他のディメンションで分類して、分析および比較できます。
 
