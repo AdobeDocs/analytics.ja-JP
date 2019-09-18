@@ -3,12 +3,12 @@ description: 分類ルールを設定すると、分類されていない語句�
 seo-description: 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
 seo-title: 分類ルール
 solution: Analytics
-subtopic: '分類      '
+subtopic: 分類
 title: 分類ルール
 topic: 管理ツール
-uuid: 08685919-216d-448b- b886-3adf5ff5405e
+uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -17,20 +17,20 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
 
 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
 
-## Classification rules {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
+## 分類ルール {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
 
 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL 分類ルールビルダー]**
+**[!UICONTROL Analytics]** /管理 **[!UICONTROL 者]** /分 **[!UICONTROL 類ルールビルダー]**
 
-The Rule Builder lets you create a *`classification rule set`*, which is a list of *`classification rules`*. ルールは、指定された条件との照合を行い、アクションを実行します。
+ルールビルダーを使用すると、のリ *`classification rule set`*&#x200B;ストであるを作成できま *`classification rules`*&#x200B;す。 ルールは、指定された条件との照合を行い、アクションを実行します。
 
 分類ルールは、次の項目に使用すると便利です。
 
 * **電子メール**&#x200B;および&#x200B;**ディスプレイ広告**：電子メールキャンペーンと比較したディスプレイ広告キャンペーンのパフォーマンスを確認するために、個々のディスプレイ広告キャンペーンをグループ化する分類ルールを作成できます。
 
 * **トラッキングコード**：トラッキングコードの文字列から派生するキー値を分類するための分類ルールを作成し、定義した特定の条件と照合します。
-* **検索用語**：[正規表現](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)とワイルドカードを使用して、検索用語の分類を簡略化できます。For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.
+* **検索用語**：[正規表現](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)とワイルドカードを使用して、検索用語の分類を簡略化できます。例えば、検索用語に「次を含む」が含ま *`baseball`*&#x200B;れる場合、分類を「」に設 *`Sports League`* 定できま *`MLB`*&#x200B;す。
 
 例えば、電子メールキャンペーン ID が次のトラッキングコードを持つとします。
 
@@ -60,13 +60,13 @@ about_classification_rules.xml
 
 >[!NOTE]
 >
->[!UICONTROL ルールビルダー] は数値2分類をサポートしていません。
+>The [!UICONTROL Rule Builder] does not support Numeric 2 classifications.
 
 ## ルールに関する重要な情報 {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
 * Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
 
-* **正規表現**:ヘルプは、分類ルールの [「正規表現」で利用](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)できます。
+* **正規表現**:「分類ルール」の「正 [規表現」でヘルプを参照できます](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)。
 
 * **レポートスイート**：分類を選択するには、1 つ以上のレポートスイートが選択されている必要があります。レポートスイートは、ルールセットが作成され変数が割り当てられていないと、適用できません。
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
    アクティブなルールは 4 時間ごとに処理され、通常、分類データの調査は月に 1 回行われます。ルールでは、自動的に新しい値がチェックされ、インポーターを使用して分類がアップロードされます。
 
-* **既存の分類の上書き**：詳しくは、[ルールによるキーの分類が行われない状況を参照してください。](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) 必要に応じて、インポーターを使用して既存の分類を削除または削除できます。
+* **既存の分類の上書き**：詳しくは、[ルールによるキーの分類が行われない状況を参照してください。](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) 必要に応じて、インポーターを使用して既存の分類を削除できます。
 
 ## ルールによるキーの分類が行われない状況{#section_4481E88CA28246B6B19EA16E2D83A3A8}
 
@@ -94,7 +94,7 @@ about_classification_rules.xml
 
    >[!NOTE]
    >
-   >レポートでは、キーが存在する場合は常に、指定されたすべての時間枠に分類が適用されます。レポートの日付範囲はレポートに影響しません。
+   >レポートでは、キーが存在する場合は常に、指定した時間枠に分類が適用されます。 レポートの日付範囲はレポートに影響しません。
 
 ![](assets/overwrite_keys.png)
 
@@ -146,20 +146,20 @@ regex_classification_rules.xml
 
 This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
 
-** [!UICONTROL ルールビルダー] **
+**[!UICONTROL ルールビルダー]**
 
 [!UICONTROL ルールビルダー]で、次のようにルールを設定します。
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定先 |
 |---|---|---|---|
-| 正規表現 | &amp; amp;帽子;（.+)\:(.+)\:(.+)$ | キャンペーンの日付 | $3 |
+| 正規表現 | &amp;Hat;(.+)\:(.+)\:(.+)$ | キャンペーンの日付 | $3 |
 
 **構文**
 
 | 正規表現 | 文字列または一致結果 | 対応する一致グループ |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:em:JuneSale:20130601:em `$1`:JuneSale `$2`:20130601`$3` |
-| 構文の構築 | `^` =を指定すると、行（）=をグループ化し、括弧内の一致する文字を抽出できます。`(.+)` = 1 ( . ) 文字と（+）以上の\= startを追加します。`$` =は、直前の文字（または文字グループ）が最後の文字であることを示します。 |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:em:JuneSale:20130601 `$1`:em `$2`:JuneSale `$3`:20130601 |
+| 構文の構築 | `^` =は行() =文字をグループ化し、括弧内の一致する文字を抽出します。  `(.+)` = 1 ( . )文字と( + )任意の\ =文字列の先頭  `$` =は、前の文字（または文字グループ）が行の最後であることを示します。 |
 
 正規表現の文字が何を意味しているかについては、[正規表現 - 参照表](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)を参照してください。
 
@@ -174,14 +174,14 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 ![](assets/regex_char_position.png)
 
-** [!UICONTROL ルールビルダー] **
+**[!UICONTROL ルールビルダー]**
 
 [!UICONTROL ルールビルダー]で、次のようにルールを設定します。
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定先 |
 |--- |--- |--- |--- |
-| 正規表現 | `^.(s).*$` | ブランドおよびエンジン | `$0` （ブランド名と検索エンジンの最初の2文字をキャプチャします）。 |
-| Regular Expression | `^.(s).*$` | 検索エンジン | `$1` （Googleの2番目の文字をキャプチャします）。 |
+| 正規表現 | `^.(s).*$` | ブランドおよびエンジン | `$0` （ブランド名と検索エンジンの最初の2文字を取り込みます。） |
+| Regular Expression | `^.(s).*$` | 検索エンジン | `$1` （Googleの2番目の文字を取り込みます。） |
 
 ## 正規表現 - 様々な長さのトラッキングコードの一致 {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
@@ -199,18 +199,18 @@ This example tells the rule that the campaign date `20140601` is at the third gr
 
 ![](assets/regex_varying_length.png)
 
-** [!UICONTROL ルールビルダー] **
+**[!UICONTROL ルールビルダー]**
 
 [!UICONTROL ルールビルダー]で、次のようにルールを設定します。
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |--- |--- |--- |--- |
-| 一致文字列aの正規表現:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 一致文字列aの正規表現:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 一致文字列aの正規表現:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 一致文字列aの正規表現:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 一致文字列aの正規表現:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| 一致文字列aの正規表現:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| 一致文字列a:bの正規表現 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 一致文字列a:bの正規表現 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 一致文字列a:b:cの正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 一致文字列a:b:cの正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 一致文字列a:b:cの正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| 一致文字列a:b:c:dの正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## 正規表現 - 「含まない」の例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -270,7 +270,7 @@ In this result, `a:b:1313` does not indicate a match.
 | `a{3,}` | 3 個以上の a |
 | `a{3,6}` | 3 ～ 6 個の a |
 
-正規表現の有効性をテストするための適切なリソースは、https://rubular.com/です。
+正規表現の有効性のテストに関するリソースはhttps://rubular.com/です。
 
 ## ルールの優先度について {#concept_93527FEB3C9B48FB96FB7DF857E5F980}
 
@@ -292,7 +292,7 @@ rule_priority.xml
 | 2 | 次を含む | ファンタジー | 検索タイプ | ファンタジー |
 | 3 | 次を含む | Romo | 検索タイプ | プレーヤー |
 
-ユーザーが&#x200B;*`Cowboys fantasy Tony Romo`*&#x200B;に *`Player`* 分類されます。
+ユーザーが *`Cowboys fantasy Tony Romo`*, the term *`Player`* is classified, because it matches the last given classification shown in the Set Classification column.
 
 同じように、以下の検索語についてルールを 2 つ設定している場合を考えます。
 
@@ -317,24 +317,24 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->この手順では、1つまたは複数のレポートスイートにルールを適用する必要があります。ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 以上ある場合には、[下位分類](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE)を使ってルールセットを簡素化する方法の検討が必要です。
+>この手順では、1つ以上のレポートスイートにルールを適用する必要があります。 ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 以上ある場合には、[下位分類](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE)を使ってルールセットを簡素化する方法の検討が必要です。
 
-1. [分類ルールセットの作成](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) を参照してください。
+1. [分類ルールセットの作成を参照してください](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) 。
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
 
    ![](assets/add_rule.png)
 
-1. **[!UICONTROL 「レポートスイート]**」の横の「スイート **** を追加」をクリックして、このルールセットに割り当てる1つまたは複数のレポートスイートを指定します。
+1. Next to **[!UICONTROL Report Suites]**, click **[!UICONTROL Add Suites]** to specify one or more report suites to assign to this rule set.
 
    **[!UICONTROL レポートスイートを選択]ページが表示されます。**
 
    >[!NOTE]
-   Report suites display on this page *`only`* when the following conditions are met:        &gt;
+   次の条件が満たされると、レポートス *`only`* イートがこのページに表示されます。&gt;
 
    * レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
-   この前提条件の説明については、*`Variable`*[」を](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) 参照してください）。
+   この前提条件の説明については、 (「分 *`Variable`* 類ルールセ [ット](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) 」でを参照)。
 
-   * **[!UICONTROL 利用可能なレポートスイート]** ページでレポートスイートを選択した場合は、「ルールセット [](/help/components/c-classifications2/crb/classification-rule-set.md) を追加」をクリックしてルールセットを作成した後に表示されます。
+   * [使用可能なレポートスイート]ページでレポ **[!UICONTROL ートスイートを選択しました]** 。このレポートスイートは、[ルールセットの追加 [](/help/components/c-classifications2/crb/classification-rule-set.md) ]をクリックしてルールセットを作成した後に表示されます。
 
 
 1. 既存の値を上書きするかどうかを指定します。
@@ -347,13 +347,13 @@ t_classification_rule.xml
 
    ![手順の結果](assets/classification_rules_page.png)
 
-   For examples of building rules, see [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) and [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+   ルールの作成例については、「分類ルールビ [ルダー](/help/components/c-classifications2/crb/classification-rule-builder.md) 」および「 [分類ルールの正規表現](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)」を参照してください。
 
    >[!NOTE]
    >
-   >キーが（分類を設定列で）同じ分類を設定する複数のルールに一致する場合、分類に一致する最後のルールが使用されます。See **About Rule Priority** above for more information about sorting rules.
+   >（分類を設定列で）同じ分類を設定する複数のルールにキーが一致する場合は、その分類に一致する最後のルールが使用されます。 See **About Rule Priority** above for more information about sorting rules.
 
-1. [ルールセット](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158)をテストします。
+1. [ルールセットをテストします](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158)。
 1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
 
    ルールをアクティブ化すると、自動的にファイルが構築され、アップロードされます。
@@ -370,7 +370,7 @@ t_classifications_test_rule.xml
 
 分類ルールまたはルールセットをテストする方法について手順を説明します。テストを実行すると、セット内のすべてのルールがチェックされます。
 
-1. [分類ルールセットの作成](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) を参照してください。
+1. [分類ルールセットの作成を参照してください](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) 。
 1. [!UICONTROL 分類ルールビルダー]で、ルールセット名をクリックします。
 1. ルールセットがレポートスイートに関連付けられていることを確認します。
 1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
@@ -389,7 +389,7 @@ t_classifications_test_rule.xml
    「[!UICONTROL 結果]」テーブルに一致するルールが表示されます。
 1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
 
-   既存の分類を上書きするルールの使用について詳しくは、を参照してください。
+   ルールを使用して既存の分類を上書きする方法の詳細については、を参照してください。
 
 ## Validate and Activate Classification Rules {#task_2B4FA41F1EE64F4AAC6170C5EFC066AC}
 
@@ -401,7 +401,7 @@ t_validate_rules.xml
 
 分類ルールを検証およびアクティブ化する方法について手順を説明します。
 
-1. [分類ルールセット](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) の作成後 [、セットに分類ルール](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) を追加します。
+1. [分類ルールセットを作成し](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) 、分類ル [ールをセット](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) に追加します。
 1. On the rule editor, click **[!UICONTROL Activate]**.
 
    ![](assets/overwrite_keys.png)
