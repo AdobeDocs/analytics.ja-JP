@@ -9,7 +9,7 @@ title: 設定変数
 topic: 開発者と実装
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
+source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
 
 ---
 
@@ -381,6 +381,8 @@ Adobe [!DNL Customer Care] が、レポートスイートのデフォルトの�
 * The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
 * 通貨イベントは、通貨以外の目的では使用しないでください。通貨ではない任意の値または動的な値をカウントする必要がある場合は、[!UICONTROL 数値]イベントタイプを使用してください。
 * When *`currencyCode`* 変数が空の場合は、換算は適用されません。
+
+詳しくは、「通貨コード」を参 [照してください](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html)。
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
