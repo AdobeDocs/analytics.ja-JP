@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 処理ルール
 title: 処理ルールのヒントとテクニック
 topic: 管理ツール
-uuid: e3a9ff8a- b81a-41c9-9f61- e40cb4bf7d99
+uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 ---
 
@@ -39,7 +39,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-また、処理順を考慮することも重要です。次の例では、Page Name がない場合、カスタム eVar の Previous Pagename は URL に設定されます。ただし、処理ルールが適用された後でページ名に URL が設定されても、Page Name がページ上で設定されていなければ、Page Name は空になります。
+また、処理順を考慮することも重要です。次の例では、ページ名が存在しない場合、カスタムeVarの「前のページ名」がURLに設定されます。 ただし、処理ルールが適用された後でページ名に URL が設定されても、Page Name がページ上で設定されていなければ、Page Name は空になります。
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
