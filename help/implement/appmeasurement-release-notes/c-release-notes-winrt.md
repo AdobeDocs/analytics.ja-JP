@@ -1,23 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Windows 8 向けの WinRT
-solution: Analytics、Marketing Cloud
+seo-title: WinRT for Windows 8
+solution: Analytics,Experience Cloud
 subtopic: リリースノート
-title: Windows 8 向けの WinRT
-topic: 開発者と導入
-uuid: cec19d63-114c-4ef6- a55e- db6aad4e948b
+title: WinRT for Windows 8
+topic: 開発者と実装
+uuid: cec19d63-114c-4ef6-a55e-db6ad4e948b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Windows 8 向けの WinRT{#winrt-for-windows}
+# WinRT for Windows 8{#winrt-for-windows}
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログを有効にします。
+>現在のライブラリバージョンを検索するには、デバッグログをオンにします。
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
@@ -53,7 +53,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 リリース日：**2013 年 3 月 22 日**
 
-* `ADMS_Measurement.visitorID` には、デフォルト値が事前入力されます。
+* `ADMS_Measurement.visitorID` がデフォルト値で事前設定されるようになりました。
 * デバイス情報の取得に関する問題を修正しました。
 
 ## バージョン 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
@@ -69,7 +69,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 リリース日：**2012 年 11 月**
 
 * 画面解像度が C#、C++ および HTML5／WinJS プラットフォーム用に正確に収集されるようになりました。
-* `ADMS_Churn` クラスが内部で使用されるようになりました。アプリケーションのライフサイクルトラッキングのベストプラクティスを利用するには、以下の呼び出しを使用します。
+* `ADMS_Churn` クラスが内部になりました。 アプリケーションのライフサイクルトラッキングのベストプラクティスを利用するには、以下の呼び出しを使用します。
 
    ```
    public void ADMS_Measurement.StartSession(); 
