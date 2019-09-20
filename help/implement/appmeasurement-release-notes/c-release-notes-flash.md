@@ -5,10 +5,10 @@ seo-title: Flash-Flex
 solution: Analytics
 subtopic: リリースノート
 title: Flash-Flex
-topic: 開発者と導入
-uuid: 2ee7fb92-9b62-44d4- bd93-6dff26764b7f
+topic: 開発者と実装
+uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Flash のこれまでのリリースノートです。ActionScript を使用し�
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログを有効にします。
+>現在のライブラリバージョンを検索するには、デバッグログをオンにします。
 
 <!-- 
 
@@ -35,13 +35,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 ## 2016 年 8 月 19 日 {#section_D72EF20672174249B864997905D7552A}
 
-**4.0.2-アップデート**
+** 4.0.2 — アップデート**
 
 訪問者 API 1.6.0 を同梱しました。
 
 ## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
-**4.0.1-アップデート**
+** 4.0.1 — アップデート**
 
 Visitor API 1.5.6 を同梱しました。
 
@@ -60,42 +60,42 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-影響を受けるバージョンは、すべてのプラットフォーム向けの[!DNL AppMeasurement] を参照してください。
+影響を受けるバージョンは、すべてのプラットフォーム向けの すべ [!DNL AppMeasurement] てのプラットフォームでFlashバージョン4.0以前の場合。
 
 >[!NOTE]
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. 既存の AS2 ベースのプロジェクトからのデータ収集は、引き続きサポートされます。ただし、実装を AS3 にアップグレードして [!DNL AppMeasurement]Flash 版   の最新のセキュリティ機能を取り入れることを強くお勧めします。
 
-[!DNL AppMeasurement] この問題の影響を受けるFlashユーザーが、アップデートされたライブラリを使用して、 [!DNL Analytics] コンソール [からダウンロードできるようになったプロジェクトを再構築する必要があります。](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) （AN-121780）
+[!DNL AppMeasurement] この問題の影響を受けるFlashユーザーは、更新されたライブラリを使用してプロジェクトを再構築する必要があります。詳細情報… [!DNL Analytics][](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
-バージョン4.0-アップデート:
+バージョン4.0 — アップデート：
 
 * Visitor API 1.5.3 を同梱しました。
 
-## 2015 年 9 月 17 日 {#section_319911C0F080452981F8C8BEA2880463}
+## September 17, 2015 {#section_319911C0F080452981F8C8BEA2880463}
 
-バージョン4.0-アップデート:
+バージョン4.0 — アップデート：
 
 * Visitor API 1.5.2 を同梱しました。
 
-## 2015 年 8 月 20 日 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
+## August 20, 2015 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
 
-バージョン4.0-アップデート:
+バージョン4.0 — アップデート：
 
 * Visitor API 1.5.1 を同梱しました。
 
 ## 2015 年 6 月 18 日 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
-バージョン4.0-アップデート
+バージョン4.0 — アップデート
 
 * Visitor API 1.5 を同梱しました。
 * 顧客 ID および認証済み状態を収集し、データ収集リクエストとともにそれらの ID を送付するには、Visitor API 1.5 以降の getCustomerIDs メソッドを使用してください（AN-102131）。
 
 ## 2015 年 5 月 22 日 {#section_F5EFCC451F13499F9AA53326AE5926F1}
 
-バージョン3.9.2-アップデート:
+バージョン3.9.2 — アップデート：
 
 * Visitor API 1.4 を同梱しました。
 
@@ -132,25 +132,25 @@ s.debugTracking = false; // set to false or remove line
 
 リリース日：**2014 年 4 月 18 日**
 
-* [Marketing Cloud 訪問者 ID サービス](https://marketing.adobe.com/resources/help/en_US/mcvid/)がサポートされます。
+* [Experience cloud訪問者IDサービスのサポート](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ## バージョン 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
 リリース日：**2014 年 3 月 14 日**
 
-* [!UICONTROL ハートビート] ビデオトラッキングに関する複数のバグ修正。
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## バージョン 3.7.2 {#section_D6DCE5FE846A45F1A2CED237E8AAEFE9}
 
 リリース日：**2014 年 2 月 7 日**
 
-* [!UICONTROL ハートビート] ビデオトラッキングに関する複数のバグ修正。
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## バージョン 3.7.1 {#section_DC79F108AB5E42189A8EC7D87697AE0B}
 
 リリース日：**2013 年 11 月 15 日**
 
-* [!UICONTROL ハートビート] ビデオトラッキングに関する複数のバグ修正。
+* Multiple bug fixes to [!UICONTROL Heartbeat] video tracking.
 
 ## バージョン 3.7 {#section_7239878DCD724FD0B9BC900821A4DA96}
 
