@@ -7,7 +7,7 @@ title: 順次セグメントの構築
 topic: セグメント
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
+source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ---
 
@@ -262,9 +262,17 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 順次チェックポイントをグループ化する場合、「コンテナ」は「論理グループ」になります。 ただし、これらの順次チェックポイントが1回のヒットまたは訪問の範囲内で発生する必要がある場合は、「ヒット」または「訪問」コンテナが必要です。 （もちろん、1つのヒットが複数のチェックポイントをクレジットしない場合、「ヒット」は順次チェックポイントのグループに対しては意味を持ちません）。
 
 **論理グループは順次セグメントの作成を単純化しますか。**
-はい、できます。 次の質問に答えようとしているとします。訪問者はページAの後にページB、C、またはDを見たか。 このセグメントは、論理グループコンテナを使用せずに構築できますが、複雑で面倒です。訪問者コン [テナページA -&gt;ページB -&gt;ページC -&gt;ページD] または訪問者コンテナページ [A -&gt;ページD -&gt;ページC] または訪問者コンテナページA -&gt;ページC -&gt;ページB -&gt;ページB -&gt;ページ訪問者コンテ [][][][ナページA次ページC次ページDページDページDページDページV次訪問者コンテナAページDページBページCページCページDページBページCページDページDページDページDページDページTanページDページD次にページB]
+はい、できます。 次の質問に答えようとしているとします。訪問 **者はページB、ページC、またはページAの後のページDを見たか。**
 
-次に示すように、「論理グループ」コンテナを使用すると、セグメントが大幅に簡素化されます。
+このセグメントは、論理グループコンテナを使用せずに構築できますが、複雑で面倒です。
+* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
+* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
+* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
+* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
+* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
+* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
+
+次に示すように、「論理グループ」コンテナを使用すると、このセグメントを簡単に作成できます。
 
 ![](assets/logic-grp-example.png)
 
