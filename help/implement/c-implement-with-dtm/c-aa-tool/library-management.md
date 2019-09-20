@@ -1,13 +1,13 @@
 ---
 description: Dynamic Tag Management の「ライブラリ管理」設定のフィールドおよびオプションの説明です。
-keywords: ライブラリ管理;page code;load library at;adobe by adobe;custom;コード、ホスト、ホストされているs_ code
+keywords: ライブラリ管理；ページコード；ライブラリの読み込み；adobeで管理；カスタム；コードホスト；s_codeホスト
 seo-description: Dynamic Tag Management の「ライブラリ管理」設定のフィールドおよびオプションの説明です。
 seo-title: ライブラリ管理
-solution: Marketing Cloud、Dynamic Tag Management
+solution: Experience Cloud,Dynamic Tag Management
 title: ライブラリ管理
-uuid: 4cfa47f9- ae98-4feb- a58d- a3a6e45f8d5b
+uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: 3489f00bd7dddefda0420fc361056416f6f10d3f
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 3489f00bd7dddefda0420fc361056416f6f10d3f
 
 Dynamic Tag Management の「ライブラリ管理」設定のフィールドおよびオプションの説明です。
 
-**[!UICONTROL *`Property`*]** / ![](assets/settings_gear.png)**[!UICONTROL ツール]** を編集/ **[!UICONTROL ライブラリ管理]**
+**[!UICONTROL /ツ&#x200B;*`Property`*]** ールを ![](assets/settings_gear.png) 編集 **[!UICONTROL /ラ]****[!UICONTROL イブラリ管理]**
 
 >[!NOTE]
 >
->1つのWebプロパティで複数のAdobe Analyticsツールを使用する場合、各ツールには一意のトラッカー変数名が必要です。1 つの Web プロパティ内で使用する Adobe Analytics ツール間にオブジェクト変数名の重複があると、競合が発生します。
+>1つのWebプロパティで複数のAdobe Analyticsツールを使用する場合、各ツールに一意のトラッカー変数名が必要です。 1 つの Web プロパティ内で使用する Adobe Analytics ツール間にオブジェクト変数名の重複があると、競合が発生します。
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -35,7 +35,7 @@ Dynamic Tag Management の「ライブラリ管理」設定のフィールドお
    <td colname="col2"> <p> <span class="keyword">Adobe Analytics</span> のページコードが既にサイトに存在する場合、Dynamic Tag Management がコードをインストールするのを防ぎます。 </p> <p>この機能により、一から開始するのではなく、既存の実装に追加する形で Dynamic Tag Management を使用できます。このボックスをチェックする場合は、トラッカー変数名を適切に設定してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt;<span class="term"> ページの上部</span> または <span class="term"> ページの下</span>/ </p> </td> 
+   <td colname="col1"> <p>&lt;<span class="term"> Page Top</span> or <span class="term"> Page Bottom</span>&gt; </p> </td> 
    <td colname="col2"> <p>ページコードを読み込むタイミングと位置を指定します。何を選択する場合にも、Analytics ツールを使用するすべてのルールで同じ設定を選択する必要があります。 </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Dynamic Tag Management の「ライブラリ管理」設定のフィールドお
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>DTM</b>：Dynamic Tag Management 内で <span class="filepath">s_code</span> をホストできます。「<span class="uicontrol">コードを編集</span>」をクリックして、s_code（AppMeasurement）の内容を直接エディターに貼り付けます。 </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL 指定</b>：適切な <span class="filepath">s_code</span> ファイルが既に存在し、それを更新するプロセスに満足している場合、ここでそのファイルの URL を指定できます。Dynamic Tag Management は、<span class="filepath">Adobe Analytics</span> による計測のためにこの <span class="keyword">s_code</span> ファイルをロードします。 </li> 
-    </ul> <p> <b>エディターを開く: </b>コアのAppMeasurementコード <a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local"> を挿入</a>できます。This code is populated automatically when using the automatic configuration method described in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Adobe Analytics Settings</a>. </p> <p> <b>トラッカー変数名: </b>Adobe Analyticsの <span class="keyword"> 2つのインスタンスを並行</span> して（Dynamic Tag Management内とネイティブに1つずつ）実行する場合は、メイン <span class="term"> のs</span> オブジェクトの名前を変更できます。オブジェクト名を変更すると名前の競合を避けることができます。 </p> </td> 
+    </ul> <p> <b>エディターを開く：コア </b>のAppMeasurement <a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local"> コードを挿入できます</a>。 This code is populated automatically when using the automatic configuration method described in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local"> Adobe Analytics Settings</a>. </p> <p> <b>トラッカー変数名：2つ </b>のAdobe Analyticsインスタンスを並行して(1つはDynamic Tag Management内で、もう1つはネイティブで <span class="keyword"> )実行する場合は、メインのsオブジェクトの名前を変更で</span> きます <span class="term"></span> 。 オブジェクト名を変更すると名前の競合を避けることができます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
