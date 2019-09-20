@@ -6,12 +6,12 @@ seo-title: Web サイトのデータコレクションコードの更新
 solution: Analytics
 title: Web サイトのデータコレクションコードの更新
 topic: Data Connectors
-uuid: a97d1b62- f883-48b1-9516-4f889e701901
+uuid: a97d1b62-f883-48b1-9516-4f889e701901
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,7 +22,7 @@ DFA 用の Genesis 統合は、DFA Floodlight 設定 ID（dfa_SPOTID）を利用
 
 >[!NOTE]
 >
->Spotlightという用語は、Google DFAの最近のリリースでFloodlightに変更されました。JavaScript パラメーター `dfa_SPOTID` は、Spotlight の用語に基づいて命名されましたが、両方のバージョンで使用されます。
+>Spotlightという用語は、Google DFAの最近のリリースでFloodlightに変更されました。 JavaScript パラメーター `dfa_SPOTID` は、Spotlight の用語に基づいて命名されましたが、両方のバージョンで使用されます。
 
 Web サイトで DFA 統合を有効にするには、次を追加して JavaScript データコレクションコードを更新する必要があります。
 
@@ -31,7 +31,7 @@ Web サイトで DFA 統合を有効にするには、次を追加して JavaScr
 
 ## DFA 用 Integrate モジュール {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-DFA 統合は、Adobe Marketing Cloud Integrate モジュールを利用して、コア JavaScript データコレクションコード（`s_code.js`）に機能を追加します。Integrateモジュールは、コードマネージャーからJavaScript版AppMeasurementコードをダウンロードする際に、 [.zipファイルの一部として提供](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)されます。追加のヘルプが必要な場合にのみ、アドビコンサルタントにお問い合わせください。
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). Integrateモジュールは、コードマネージャーからJavaScript版AppMeasurementコードをダウンロードする際に、.zipファイルの一部として [提供されます](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)。 アドビコンサルタントにお問い合わせください。
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 
@@ -101,5 +101,5 @@ DFA Integrate 設定ブロックは、DFA 統合で必要な変数を設定し�
 
 >[!CAUTION]
 >
->不要なDFAクエリを排除するためにプラグインが使用するメカニズムの1つは、ドメインベースの訪問cookieです。複数のドメインにわたる統合レポートスイートは、DFA が影響を受けるビュースルーまたはクリックスルーの後で訪問者がドメインを横断すると、クリックスルーおよびビュースルーデータを水増しします。
+>不要なDFAクエリを排除するためにプラグインが使用するメカニズムの1つは、ドメインベースの訪問cookieです。 複数のドメインにわたる統合レポートスイートは、DFA が影響を受けるビュースルーまたはクリックスルーの後で訪問者がドメインを横断すると、クリックスルーおよびビュースルーデータを水増しします。
 
