@@ -1,40 +1,40 @@
 ---
-description: 2つのチェックを実行して統合が正常にデータの転送に成功したことを検証します。
-seo-description: 2つのチェックを実行して統合が正常にデータの転送に成功したことを検証します。
-seo-title: 統合の確認
+description: いくつかのチェックを完了して、統合がデータを正常に転送していることを検証します。
+seo-description: いくつかのチェックを完了して、統合がデータを正常に転送していることを検証します。
+seo-title: 統合の検証
 solution: Analytics
-title: 統合の確認
-uuid: d56f4d99- a74a-4d32- b9ff-01678708e4e7
+title: 統合の検証
+uuid: d56f4d99-a74a-4d32-b9ff-01678708e4e7
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 統合の確認{#verify-the-integration}
+# 統合の検証{#verify-the-integration}
 
-2つのチェックを実行して統合が正常にデータの転送に成功したことを検証します。
+いくつかのチェックを完了して、統合がデータを正常に転送していることを検証します。
 
 ## 統合アクティビティログ {#section-0472df9180db4f218db5f6040cab07af}
 
-Adobe Marketing Cloud内で、 **[!UICONTROL サポート]** / **[!UICONTROL 統合アクティビティログに移動して、Kampyle統合設定を表示]**&#x200B;します。「 **[!UICONTROL データの入力」]** タブで、分類データが正常にインポートされたことを示すエントリを表示します。
+Adobe Experience cloud内でKampyle統合の設定を表示するには、サポート/統合アクティビティ **[!UICONTROL ログ]** に **[!UICONTROL 移動します]**。 「データの **[!UICONTROL 場所]** 」タブに、分類データが正常にインポートされたことを示すエントリが表示されます。
 
 >[!NOTE]
 >
->正常に導入された24時間以内にログエントリが表示されるようにします。
+>ログエントリは、展開が正常に完了してから24時間以内に表示されます。
 
 ![](assets/integration_activity_log.png)
 
-## Adobe Reporting Data {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
+## アドビのレポートデータ {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
 
-Kampyleフィードバックレポートを、適切なメニュー構造内のKampyleレポートに移動して、Adobe Analyticsと共に表示します。
+KampyleフィードバックレポートをAdobe Analyticsで表示するには、適切なメニュー構造内でKampyleレポートに移動します。
 
 >[!NOTE]
 >
->統合フィードバックフォームが送信を積極的に受信していると仮定して、24~48時間以内にレポートデータが表示されるようにする必要があります。
+>統合フィードバックフォームが積極的に送信を受け取っていると仮定して、レポートデータは、導入が成功してから24 ～ 48時間以内に表示されます。
 
 ![](assets/adobe_reporting_data.png)
 
