@@ -1,13 +1,13 @@
 ---
 description: Dynamic Tag Management でデータ要素を作成します。
-keywords: Dynamic Tag Management;データ要素、新しいデータ要素を作成する;name;type;default value;force小文字の値;この値は、
+keywords: Dynamic Tag Management；データ要素；新しいデータ要素を作成；名前；型；デフォルト値；強制小文字の値；この値を
 seo-description: Dynamic Tag Management でデータ要素を作成します。
 seo-title: データ要素の作成
-solution: Marketing Cloud、Analytics、Target、Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: データ要素の作成
-uuid: eacd5c60-6197-4129- a9e1- a39e9a58b38a
+uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
