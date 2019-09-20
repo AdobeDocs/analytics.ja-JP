@@ -1,17 +1,17 @@
 ---
 description: Adobe Audience Manager（AAM）は、ファーストパーティ、セカンドパーティ／パートナーおよびサードパーティのデータ統合から一意のオーディエンスプロファイルを構築できる強力なデータ管理プラットフォームです。広告主の場合、これらのオーディエンスプロファイルを利用すれば、デジタルチャネル全体で最も効果的なセグメントを定義できます。
 seo-description: Adobe Audience Manager（AAM）は、ファーストパーティ、セカンドパーティ／パートナーおよびサードパーティのデータ統合から一意のオーディエンスプロファイルを構築できる強力なデータ管理プラットフォームです。広告主の場合、これらのオーディエンスプロファイルを利用すれば、デジタルチャネル全体で最も効果的なセグメントを定義できます。
-seo-title: Audience Analytics概要
-solution: 'Marketing Cloud '
-title: オーディエンス分析の概要
-uuid: 86ef9391- dd6a-495f- a10e- e98bc069dbn4
+seo-title: Audience Analytics の概要
+solution: Experience Cloud
+title: Audience Analytics の概要
+uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# オーディエンス分析の概要
+# Audience Analytics の概要
 
 Adobe Audience Manager（AAM）は、ファーストパーティ、セカンドパーティ／パートナーおよびサードパーティのデータ統合から一意のオーディエンスプロファイルを構築できる強力なデータ管理プラットフォームです。広告主の場合、これらのオーディエンスプロファイルを利用すれば、デジタルチャネル全体で最も効果的なセグメントを定義できます。
 
@@ -32,7 +32,7 @@ Audience Analytics 統合には次の主要なメリットがあります。
 ![](assets/mc-aud-dataflow.png)
 
 1. デジタルプロパティに訪問者が訪問するたびに、ヒットが収集されて Analytics に送信されます。
-1. with[サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)では、Analytics が受け取った各ヒットが AAM にリアルタイムで自動的に送信されます。
+1. With[サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)では、Analytics が受け取った各ヒットが AAM にリアルタイムで自動的に送信されます。
 1. Audience Analytics 統合を通じて、各ヒットについて訪問者のオーディエンスメンバーシップが AAM で検索され、リアルタイムで処理するためにセグメント ID のリストが Analytics に返されます。
 
 AAM セグメントは同じヒットごとに挿入されるので、AAM で使用可能な訪問者に関するどのデータも欠落することなく、ヒットに対して最新の状態が保たれます。AppMeasurement プラグインでは、これらのセグメントを次のヒットでのみ使用できます（現在のヒットでは使用できません）。Analytics データ収集は、この点で AppMeasurement プラグインより優れています。
@@ -45,8 +45,8 @@ AAM セグメントは同じヒットごとに挿入されるので、AAM で使
 
 * Audience Manager と Adobe Analytics の両方のユーザーである。
 * Audience Manager 管理者である。
-* IDサービスv1.5以降を使用している。
+* Identity Service v1.5以降を使用している。
 * AAM および Adobe Analytics レポートスイートが、[同じ Experience Cloud 組織にマッピングされている](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)。
-* [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md) を使用して [、Audience Managementモジュール](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) （DILコードなし）- AppMeasurement1.5以降を実装しました。
+* You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
 
-These prerequisites are described in the [Audience Analytics Workflow](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83).
+これらの前提条件は、 [Audience Analyticsワークフローで説明します](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83)。
