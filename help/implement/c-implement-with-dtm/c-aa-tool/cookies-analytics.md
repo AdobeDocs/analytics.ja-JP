@@ -1,13 +1,13 @@
 ---
 description: Adobe Analytics に Dynamic Tag Management をデプロイする際に使用される Cookie のグローバル設定に関するフィールドの説明です。
-keywords: Dynamic Tag Management;cookie;訪問者ID;visitor namespace;ドメインピリオド、fpドメインピリオド、トランザクションID;cookieの有効期間
+keywords: Dynamic Tag Management;cookies；訪問者ID；訪問者名前空間；ドメインピリオド数；fpドメインピリオド数；トランザクションID;cookieの有効期間
 seo-description: Adobe Analytics に Dynamic Tag Management をデプロイする際に使用される Cookie のグローバル設定に関するフィールドの説明です。
 seo-title: Cookie
-solution: Marketing Cloud、Analytics、Dynamic Tag Management
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookie
-uuid: 9c81ecbb-0f02-4c1a- a5a5-426cdea57f38
+uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
 
-**[!UICONTROL *`Property`*]** &gt;**[!UACROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
 
 Edit Tool]** &gt; **[!UICONTROL Cookies]**
 
@@ -42,7 +42,7 @@ Edit Tool]** &gt; **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> FP ドメインピリオド数 </td> 
-   <td colname="col2"> <p>"<span class="term"> fpCookieDomainPeriods</span> 変数は、実装でサードパーティ2o7. netまたはomtrdc. netドメインを使用している場合でも、本質的にファーストパーティcookieであるJavaScript（<code> s_ sq</code>、 <code> s_ cc</code>、プラグイン） <span class="filepath"> によって</span> 設定 <span class="filepath"> されるcookie</span> 用です。 </p> <p><a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s. fpCookieDomainPeriods</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>Folio Builder <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>s.fpCookieDomainPeriods <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> を参照してください</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> トランザクション ID </td> 
