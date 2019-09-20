@@ -2,11 +2,11 @@
 description: Audience Analytics を実装するときによくある質問への回答です。
 seo-description: Audience Analytics を実装するときによくある質問への回答です。
 seo-title: よくある質問
-solution: 'Marketing Cloud '
+solution: Experience Cloud
 title: よくある質問
-uuid: 9dfc8f19- f9b2-4c2e- bff9-3d91cffe01bca
+uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -47,7 +47,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q：Audience Manager で Analytics の宛先を作成するにはどうすればよいですか。</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> AAMでのAnalytics <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> の宛先の設定を参照してくださ </a>い。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：Analytics の宛先を作成して保存した後、選択したレポートスイートにデータが表示されるまでにどれくらい時間がかかりますか。</b> </p> </td> 
@@ -58,7 +58,7 @@ Audience Analytics を実装するときによくある質問への回答です�
    <td colname="col2"> <p>「<span class="uicontrol">Segment Mappings</span>」で「<span class="uicontrol">Automatically map all current and future segments</span>」オプションを選択すると、Analytics の宛先はセグメントの「Destination Mappings」セクションに表示されなくなります。 </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>これを防ぐには、自動オプションの代わりに「<span class="uicontrol">Manually map segments</span>」を選択します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Q:AAMのすべての情報をAnalyticsで提供しますか。</b> </p> </td> 
+   <td colname="col1"> <p> <b>質問：AnalyticsのAAMからすべての情報が提供されますか。</b> </p> </td> 
    <td colname="col2"> <p>いいえ。Audience Manager オーディエンスの有効化中または有効化後、およびセグメント認定中／認定後にサイトを訪問するユーザーに関連するデータのみ提供されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Audience Analytics を実装するときによくある質問への回答です�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Q：Analytics を宛先とする従来の cookie との違いは何ですか。</b> </p> </td> 
-   <td colname="col2"> <p>セグメントは、同じヒットで、リアルタイムで取得および返されます。 </p> <p>わかりやすい名前が自動的に表示されます。 </p> </td> 
+   <td colname="col2"> <p>セグメントは、同じヒットに対して、リアルタイムで資格を持ち、返されます。 </p> <p>わかりやすい名前が自動的に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：個人データがあるレポートスイートと個人データがないレポートスイートがある場合はどうすればよいですか。</b> </p> </td> 
@@ -101,7 +101,7 @@ Audience Analytics を実装するときによくある質問への回答です�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q:Analyticsレポートで「オーディエンスの上限に達しました」と表示されるのはなぜですか。(Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>質問：Analyticsレポートに「オーディエンスの上限に達しました」と表示されるのはなぜですか。 (注意：これは、Data WarehouseではオーディエンスID = -1および「::max_audiences_exceeded:::」としても表されます。</b> </p> </td> 
    <td colname="col2"> <p>デフォルトでは、AAM の Audience Analytics 統合は、訪問者が認定されたすべてのセグメントをヒットごとに Analytics に送信します。単一のヒットで訪問者が 150 を超える AAM セグメントに属している場合、<b>150 個の最近認定されたセグメント</b>が Analytics に送信され、残りのリストは切り捨てられます。 </p> <p>セグメントリストが切り捨てられたことを示す追加のフラグが Analytics に送信され、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示され、オーディエンス ID ディメンションに「-1」が表示されます。 </p> <p>特定のヒットで訪問者が 150 を超えるセグメントに認定されることはあまりありませんが、まれに起こる可能性があります。レポートに「オーディエンスの制限に達しました」が表示される場合は、2 つの選択肢があります。 </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>選択肢 1</b>：統合を初期状態で使用し、特定の訪問者が最近認定された 150 個のセグメントを送信します。 </li> 
@@ -125,12 +125,12 @@ Audience Analytics を実装するときによくある質問への回答です�
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：Analytics 管理で特定のレポートスイートを SSF に対して有効にできないのはなぜですか。</b> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud組織にマッピングされているスイートのみ有効にできます。 </p> </td> 
+   <td colname="col2"> <p>有効にできるのは、Experience cloud組織にマップされているスイートのみです。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+このトピックに関するその他のFAQについては、「サ [ーバー側転送FAQ」を参照してください](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)。
 
 ## 一般事項についてのよくある質問（FAQ） {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -142,7 +142,7 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：AAM の「オーディエンス」と Analytics の「セグメント」の違いは何ですか。</b> </p> </td> 
-   <td colname="col2"> <p>詳しくは、<a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> AnalyticsおよびAudience Managerのセグメントを確認 </a>します。 </p> <p>AAM オーディエンスは、Analytics で使用するために送信されて、「ディメンション」コンポーネントとして共有されます。これらはセグメントビルダーなどではセグメントとして表示されませんが、セグメントを作成できるディメンションとして表示されます。 </p> </td> 
+   <td colname="col2"> <p>詳しくは、 <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM オーディエンスは、Analytics で使用するために送信されて、「ディメンション」コンポーネントとして共有されます。これらはセグメントビルダーなどではセグメントとして表示されませんが、セグメントを作成できるディメンションとして表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：顧客属性と AAM から統合された顧客データの違いは何ですか。</b> </p> </td> 
