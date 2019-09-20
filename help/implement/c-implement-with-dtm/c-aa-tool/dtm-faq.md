@@ -1,18 +1,18 @@
 ---
 description: Adobe Analytics 導入の自動設定に関する FAQ です。自動設定の手法では、AppMeasurement コードを管理します。
-keywords: Dynamic Tag Management;plugins;ステージング;effect on current settings;revision履歴;落とし穴、レポートスイートID;currency code;トラッキングサーバー;sslトラッキングサーバー;カスタムコード;ライブラリ管理
+keywords: Dynamic Tag Management；プラグイン；ステージング；現在の設定への影響；リビジョン履歴；潜在的な問題；レポートスイートID；通貨コード；トラッキングサーバー；SSLトラッキングサーバー；カスタムコード；ライブラリ管理
 seo-description: Adobe Analytics 導入の自動設定に関する FAQ です。自動設定の手法では、AppMeasurement コードを管理します。
-seo-title: Adobe Analyticsツールに関するFAQ
-solution: Marketing Cloud、Analytics、Target、Dynamic Tag Management
-title: Adobe Analyticsツールに関するFAQ
-uuid: 8fexto893- e305-4a95- a033-9066a56b09cd
+seo-title: Adobe Analytics ツールに関する FAQ
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+title: Adobe Analytics ツールに関する FAQ
+uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Adobe Analyticsツールに関するFAQ
+# Adobe Analytics ツールに関する FAQ
 
 Adobe Analytics 導入の自動設定に関する FAQ です。The automatic configuration method manages the [!DNL AppMeasurement] code for you.
 
@@ -26,7 +26,7 @@ Adobe Analytics 導入の自動設定に関する FAQ です。The automatic con
  <tbody> 
   <tr> 
    <td colname="col1"> <p> DTM を介して Adobe Analytics を実装する場合、どこにプラグインを置いたらよいですか。 </p> </td> 
-   <td colname="col2"> <p> DTM を使用して手動で <code>s_code</code> をホストしている場合、通常の Adobe Analytics の実装と同じように、プラグインはホストされている <code>s_code</code> と同じエディターに追加できます。 </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. どちらの実装方法も効果は同じです。 </p> </td> 
+   <td colname="col2"> <p> DTM を使用して手動で <code>s_code</code> をホストしている場合、通常の Adobe Analytics の実装と同じように、プラグインはホストされている <code>s_code</code> と同じエディターに追加できます。 </p> <p>ただし、ツール設定の「ページコードをカスタマイズ」セクション内のエディターにプ <span class="term"> ラグインを配置するオプシ</span> ョンも1つあります。 どちらの実装方法も効果は同じです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>新しいバージョンのツールの設定を変更した場合、実稼動環境に発行する前にステージングでテストできますか。 </p> </td> 
@@ -58,5 +58,5 @@ See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool
 * ツールにレポートスイート ID が正しく入力されている。
 * ツールのレポートスイート ID が [!DNL AppMeasurement] コードの ID と一致している。
 * 通貨コード、文字セット、トラッキングサーバーおよび SSL トラッキングサーバーの設定フィールドに、サポートされている値が正しく設定されている。
-* Custom code is defined in [!DNL Library Management].
+* カスタムコードは、で定義されま [!DNL Library Management]す。
 
