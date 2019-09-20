@@ -5,10 +5,10 @@ seo-title: JavaScript H コード - レガシー
 solution: Analytics
 subtopic: リリースノート
 title: JavaScript H コード - レガシー
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -126,7 +126,7 @@ Visitor API 1.5.5 を同梱しました。
 
 リリース日：**2014 年 5 月 23 日**
 
-* [Marketing Cloud 訪問者 ID サービス](https://marketing.adobe.com/resources/help/en_US/mcvid/)がサポートされます。
+* [Experience cloud訪問者IDサービスのサポート](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 * [Target と Analytics の統合](https://marketing.adobe.com/resources/help/en_US/target/a4t/) がサポートされます。
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -171,12 +171,12 @@ Visitor API 1.5.5 を同梱しました。
 
 * `useForcedLinkTracking` の影響を受けるクリックイベントの範囲を絞り込みました。自動強制のリンクトラッキングは、次の場合にのみ適用されます。
 
-   * `<A>` および `<AREA>` タグ
+   * `<A>` およびタ `<AREA>` グ
 
    * タグに `HREF` 属性が含まれている必要がある
-   * `HREF` " `#``about:``javascript:`
+   * The `HREF` can't start with `#`, `about:`, or `javascript:`
 
-   * `TARGET` 属性を設定しない、または現在 `TARGET` のウィンドウ（ `_self`、 `_top`または値 `window.name`）を参照する必要がある
+   * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`)
 
 ## H.25.3 {#section_FA6A6F9F5D64455DA5A54C007081341A}
 
@@ -205,7 +205,7 @@ Visitor API 1.5.5 を同梱しました。
 
 リリース日：**2012 年 10 月**
 
-* [!DNL JavaScript] バージョンレポートでの追加バージョン番号のレポートのサポートを追加しました。従来はバージョンが 2 文字まで（例：1.8）に制限されていましたが、3 文字のバージョン番号（例：1.8.5）を使用できるようになりました。
+* Added support for reporting an additional version number in the [!DNL JavaScript] version report. 従来はバージョンが 2 文字まで（例：1.8）に制限されていましたが、3 文字のバージョン番号（例：1.8.5）を使用できるようになりました。
 * Fixed an issue with [!DNL Tag Manager] that prevented repeated values in Dependant Code blocks from being sent.
 
 ## H.25.1 {#section_680CE31CFA9945978F42612B684DB831}
@@ -273,25 +273,22 @@ Firefox および Internet Explorer では、リンクトラッキングが実�
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>このフラグは、WebKit ブラウザーでの強制のリンクトラッキングを無効にする場合に使用します。強制のリンクトラッキングは、WebKit ブラウザーではデフォルトで有効で、他のブラウザーでは無視されます。 </p> <p> <b>デフォルト値</b> </p> <p> <code> true </code> </p> <p> <b>例</b> </p> 
-    <code class="syntax javascript">s. useForcedLinkTracking&amp; amp;nbsp;= amp;nbsp;false </code>
-  </td> 
+    <code class="syntax javascript">
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p><code>s.tl</code> に渡された <code>doneAction</code> の実行前に、トラッキングの完了を待機する時間（ミリ秒）の最大値。この値によって、最大の待機時間が指定されます。このタイムアウトの前にリンクトラッキングが完了した場合は、<code>doneAction</code> が直ちに実行されます。リンクトラッキングが未完了になっている場合は、このタイムアウト時間を長くする必要があると考えられます。 </p> <p> <b>デフォルト値</b> </p> <p>250 </p> <p> <b>例</b> </p> 
-    <code class="syntax javascript">s. forcedLinkTrackingTimeout&amp; amp;nbsp;= amp;nbsp;500 </code>
-  </td> 
+    <code class="syntax javascript">
+      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink（<code>s.tl</code>） </td> 
    <td colname="col2"> <p>離脱リンクとダウンロードリンク、カスタムリンクを追跡します。WebKit ブラウザーでのリンクトラッキングの完了後にどのナビゲーションアクションを実行するかを指定するオプションのパラメーターとなります。 </p> <p> <b>構文</b> </p> 
-    <code class="syntax javascript">s. tl（linkObject， linkType， linkName， variableOverrides， doneAction） </code>
-  <p> <b>doneAction</b>：（オプション）リンクトラッキングの送信後、またはリンクトラッキングのタイムアウト（<code>s.forcedLinkTrackingTimeout</code> での指定値による）後に実行するアクションを指定します。<code>doneAction</code> に 'navigate' という文字列を指定すると、このメソッドによって <code>document.location</code> に <code>linkObject</code> の <code>href</code> 属性が設定されます。また、<code>doneAction</code> に関数を指定し、高度なカスタマイズを行うこともできます。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>例</b> </p> 
-    <code class="syntax javascript">&lt; a&amp; amp;nbsp;href="…」&amp; amp;nbsp;onclick="s. tl（this，'o'，'myLink'， null，'navigate'）;return&amp; amp;nbsp;false"&gt;クリックamp;nbsp;ここに&lt;/a&gt; </code><code class="syntax javascript">
-
-
-&lt; a&amp; amp;nbsp;href="#"&amp; amp;nbsp;onclick="s. tl（this，'o'，'myLink'， null， function（）{if（'reset?'））document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </code> </td> 
+    <code class="syntax javascript">
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>：（オプション）リンクトラッキングの送信後、またはリンクトラッキングのタイムアウト（<code>s.forcedLinkTrackingTimeout</code> での指定値による）後に実行するアクションを指定します。<code>doneAction</code> に 'navigate' という文字列を指定すると、このメソッドによって <code>document.location</code> に <code>linkObject</code> の <code>href</code> 属性が設定されます。また、<code>doneAction</code> に関数を指定し、高度なカスタマイズを行うこともできます。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>例</b> </p> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;クリック&amp;アンプ； </code><code class="syntax javascript">nbsp;Here&lt;/a&gt; &lt;a&amp;nbsp;href="#"&amp;;sp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;クリック&amp;アンプ；nbsp；ここ&lt;/a&gt; </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,7 +299,7 @@ Firefox および Internet Explorer では、リンクトラッキングが実�
 
 このアップデートは、すべてのお客様に推奨されます。
 
-* Google Chrome Prerender（[https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)）を使用してページが事前にレンダリングされているかどうかを検出できるように改良されました。Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. [!DNL JavaScript] ライブラリは、ユーザーがこれらの事前にレンダリングされたページのサーバーコールを送信するまで待機するようになりました。
+* Google Chrome Prerender（[https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)）を使用してページが事前にレンダリングされているかどうかを検出できるように改良されました。Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages.
 * タイムスタンプデータをその他の ライブラリと同じような形式にカスタマイズするために、 ライブラリに `timestamp`[!DNL JavaScript] 変数を追加しました。[!DNL AppMeasurement]
 
 ```js
