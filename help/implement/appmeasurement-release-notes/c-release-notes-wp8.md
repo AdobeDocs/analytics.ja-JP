@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Windows Phone 8
-solution: Analytics、Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: リリースノート
 title: Windows Phone 8
-topic: 開発者と導入
-uuid: 7378969a- d219-42bf-9750-141acc9e4b7d
+topic: 開発者と実装
+uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログを有効にします。
+>現在のライブラリバージョンを検索するには、デバッグログをオンにします。
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 >[!NOTE]
 >
->[!DNL Windows] Phone8SDKは [、Windows8.1ユニバーサルアプリストア](../appmeasurement-release-notes/c-release-notes-winu.md) SDKに置き換えられました。今後、この SDK の開発はおこなわれません。
+>The [!DNL Windows] Phone 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. 今後、この SDK の開発はおこなわれません。
 
 ## バージョン 3.0.4 {#section_51A8A53CDFB24F6F9D882E9C30ECDB49}
 
@@ -53,7 +53,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 リリース日：**2013 年 2 月 27 日**
 
-* `ADMS_Measurement.visitorID` には、デフォルト値が事前入力されます。
+* `ADMS_Measurement.visitorID` がデフォルト値で事前設定されるようになりました。
 * キャッシュから自動応答が発生することがある問題を修正しました。
 
 ## バージョン 3.0.1 {#section_5865E881249441ADBB03A9637548650F}
