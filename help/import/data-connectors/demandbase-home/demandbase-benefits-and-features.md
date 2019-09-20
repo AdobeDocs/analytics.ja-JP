@@ -1,25 +1,25 @@
 ---
-description: 上位5つの利点と機能が表示されます。
-seo-description: 上位5つの利点と機能が表示されます。
-seo-title: 主要なメリットと機能
-title: 主要なメリットと機能
-uuid: 95405ebb-8aaa-43fe- af31- d1b37e97bf06
+description: 上位5つのメリットと機能を示します。
+seo-description: 上位5つのメリットと機能を示します。
+seo-title: 主なメリットと機能
+title: 主なメリットと機能
+uuid: 95405ebb-8aeb-43fe-af31-d1b37e97bf06
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 主要なメリットと機能{#key-benefits-and-features}
+# 主なメリットと機能{#key-benefits-and-features}
 
-上位5つの利点と機能が表示されます。
+上位5つのメリットと機能を示します。
 
-* 8標準のDemandbase組織のディメンション（会社名、業種、売上高範囲など）のトラフィックレポートおよびコンバージョンレポートを提供します。
-* 追加の8オプションのDemandbaseディメンションを選択できます。これには、アカウント監視ディメンションを含めることができます。
-* Demandbaseディメンションを使用して、Adobe Marketing Cloud全体でセグメントを構築し、適用することができます。
-* レポートスイート変数の最適化を提供します。16のDemandbaseディメンションはすべて、2つのカスタムコンバージョン変数（eVar）のみを使用してキャプチャできます。
-* 統合されたDemandbaseディメンションをAdobe Targetに送信して、特定のオーディエンスに対するターゲット設定で使用できます。
+* 会社名、業種、売上高範囲など、8つの標準Demandbase組織ディメンションに関するトラフィックおよびコンバージョンのレポートを提供します。
+* 選択した追加の8つのオプションのDemandbaseディメンションを含めることができます。 これには、勘定科目監視ディメンションを含めることができます。
+* Adobe Experience cloud全体でのセグメントの作成と適用にDemandbaseディメンションを使用する機能が含まれます。
+* レポートスイート変数の最適化を提供します。 16の可能なDemandbaseディメンションはすべて、2つのカスタムコンバージョン変数(eVar)のみを使用して取得できます。
+* 特定のオーディエンスに対するターゲット設定に使用するために、統合DemandbaseディメンションをAdobe targetに送信できます。
 
