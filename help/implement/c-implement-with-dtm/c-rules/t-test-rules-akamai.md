@@ -1,13 +1,13 @@
 ---
 description: Akamai ホスティングを使用する場合は、コンソールから未発行のルールをテストします。
-keywords: Dynamic Tag Management;ルール、swatcherプラグイン;Akamai;test amamai;未発行ルール、未発行のルールのテスト、デバッグルール
+keywords: Dynamic Tag Management；ルール；切り替えプラグイン；Akamai；テストAkamai；未公開ルール；未公開ルールのテスト；デバッグルール
 seo-description: Akamai ホスティングを使用する場合は、コンソールから未発行のルールをテストします。
 seo-title: Akamai ホスティング用の未発行のルールのテスト
-solution: Marketing Cloud、Analytics、Target、Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Akamai ホスティング用の未発行のルールのテスト
-uuid: 979e3d74-8d96-47d0- b581- cf5371248434
+uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,10 +22,10 @@ Switcher プラグインを使用せずにテストする方法を次に示し�
 
 1. Access your web console on your site and type `localStorage.setItem('sdsat_stagingLibrary', true)`.
 1. Press **[!UICONTROL Enter]**.
-1. Type `_satellite.setDebug(true)`, then press **[!UICONTROL Enter]**.
+1. と入力 `_satellite.setDebug(true)`し、Enterキーを押 **[!UICONTROL します]**。
 1. ページを更新します。
 
    このアクションにより、ステージング用ライブラリが読み込まれ、デバッガーが設定されるので、ページで実行される使用可能なすべての（発行された／未発行の）ルールの詳細が確認できます。
-1. When finished, run `localStorage.setItem('sdsat_stagingLibrary', false)`, then press **[!UICONTROL Enter]**.
+1. 終了したら、を実行し `localStorage.setItem('sdsat_stagingLibrary', false)`、Enterキーを押 **[!UICONTROL します]**。
 
    手順の結果
