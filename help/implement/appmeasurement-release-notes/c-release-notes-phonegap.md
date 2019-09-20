@@ -2,13 +2,13 @@
 description: PhoneGap のこれまでのリリースノートです。
 seo-description: PhoneGap のこれまでのリリースノートです。
 seo-title: PhoneGap
-solution: Analytics、Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: リリースノート
 title: PhoneGap
-topic: 開発者と導入
-uuid: 430f5e71-909e-4841- b8fb-2895b01736ad
+topic: 開発者と実装
+uuid: 430f5e71-909e-4841-b8fb-2895b01736ad
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
