@@ -1,13 +1,13 @@
 ---
 description: トリガー条件のアクションを設定します。
-keywords: Dynamic Tag Management;ルール、ルールの作成;new rule;javascript/サードパーティタグ;条件のアクションを設定します。新しいスクリプトの追加;non- sequential javascript;sequential javascript;non- sequential html
+keywords: Dynamic Tag Management；ルール；ルールの作成；ルールの新規作成；JavaScript/サードパーティタグ；条件のアクションの設定；新しいスクリプトの追加；非順次javascript；順次javaScript；非順次html
 seo-description: トリガー条件のアクションを設定します。
 seo-title: トリガー条件のアクションの設定
-solution: Marketing Cloud、Analytics、Target、Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: トリガー条件のアクションの設定
-uuid: 2e892f0b-7261-41ee- b849-6e3054a38de0
+uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **トリガー条件のアクションを設定するには**
 
-1. **[!UICONTROL "JavaScript/サードパーティタグ]** 」をクリックして、ルールに新しいスクリプトを追加します。
+1. Click **[!UICONTROL JavaScript / Third Party Tags]** to add a new script to your rule.
 
    ![](assets/scripts-actions.png)
 
