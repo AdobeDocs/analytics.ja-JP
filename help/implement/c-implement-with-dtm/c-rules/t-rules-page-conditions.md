@@ -1,13 +1,13 @@
 ---
 description: ルールがトリガーされるページを決定するルールを作成します。
-keywords: Dynamic Tag Management;ルール、ルールの作成;new rule;ページ型ルール
+keywords: Dynamic Tag Management；ルール；ルールの作成；新規ルール；ページ型ルール
 seo-description: ルールがトリガーされるページを決定するルールを作成します。
 seo-title: ページ型ルールの条件の作成
-solution: Marketing Cloud、Analytics、Target、Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: ページ型ルールの条件の作成
-uuid: 30a6c69f-56e7-414e-9636-64c262e7CCD4
+uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
