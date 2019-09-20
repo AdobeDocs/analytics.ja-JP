@@ -1,17 +1,17 @@
 ---
-description: 'AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例を以下に示します '
-seo-description: 'AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例を以下に示します '
-seo-title: Analyticsでのオーディエンスデータの使用
-solution: 'Marketing Cloud '
-title: Analyticsでのオーディエンスデータの使用
-uuid: 203925fb- f070-441c-813a-43099cb9b2b9
+description: 'AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例を以下に示します。 '
+seo-description: 'AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例を以下に示します。 '
+seo-title: Analytics でのオーディエンスデータの使用
+solution: Experience Cloud
+title: Analytics でのオーディエンスデータの使用
+uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Analyticsでのオーディエンスデータの使用
+# Analytics でのオーディエンスデータの使用
 
 AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例としては、次のものがあります。
 
@@ -20,7 +20,7 @@ AAM オーディエンスディメンションは Analytics の任意の場所�
 Analysis Workspace では、AAM セグメントは 2 つのディメンションとして表示されます。
 
 1. Go to **[!UICONTROL Workspace]**.
-1. **[!UICONTROL ディメンション]**&#x200B;のリストから **[!UICONTROL 、オーディエンスID]** または **[!UICONTROL オーディエンス名を選択]**&#x200B;します。名前は ID をわかりやすく分類するものです。
+1. From the list of **[!UICONTROL Dimensions]**, select the dimensions **[!UICONTROL Audience ID]** or **[!UICONTROL Audience Name]**. 名前は ID をわかりやすく分類するものです。
 
    ![](assets/aw-mcaudiences.png)
 
@@ -73,7 +73,7 @@ AAM セグメントのデータはヒットごとに Analytics に渡され、�
 
 Analytics が収集した行動情報に加えて、オーディエンスディメンションを Analytics の[セグメントビルダー](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)に取り込むことができます。
 
-1. **[!UICONTROL コンポーネント]** / **[!UICONTROL セグメントに移動]** します。
+1. Go to  **[!UICONTROL Components]** &gt; **[!UICONTROL Segments]** .
 1. 「**[!UICONTROL 追加]」をクリックして新しいセグメントを作成します。**
 1. セグメントに名前を付けたら「[!UICONTROL オーディエンス名]」ディメンションを定義パネルにドラッグします。
 1. （オプション）：他の条件をセグメントに追加します。
