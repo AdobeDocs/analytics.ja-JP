@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -18,16 +18,16 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 Lyris/Adobe Analyticsの統合が成功したことを確認する手順です。
 
-すべてのデプロイメント手順が完了したら、統合のデータ転送が正常に完了したことを確認できます。
+すべての導入手順が完了したら、統合が正常にデータを転送していることを検証できます。
 
 >[!NOTE]
 >
->データ交換が開始されるまで数日かかります。統合をアクティベートした後、Lirisにお問い合わせください。
+>データ交換が始まるまでに数日かかります。 統合をアクティブ化した後は、Lyrisにお問い合わせください。
 
-1. Data Connectors内のLulris統合に移動します。**[!UICONTROL 「サポート]** 」タブ/ **[!UICONTROL 統合アクティビティログ]**&#x200B;で、インポートされた **[!UICONTROL 指標データ]** や **[!UICONTROL 分類データが正常]**&#x200B;にインポートされたようなイベントを確認します。
+1. Data Connectors内のLyris統合に移動します。 「 **[!UICONTROL Support]** 」タブ/ **[!UICONTROL Integration Activity Logで、「]** Data imported successfully **[!UICONTROL /or Classification data imported]****** successfully」などのイベントが表示されます。
 
    ![](assets/integration_info.png)
 
-1. Lyrisメッセージレポートを適切な指標で表示できるようになりました。Adobe Marketing Cloudで、 **[!UICONTROL "Reports&amp; Analytics]**」を選択します。
+1. Lyrisのメッセージレポートを適切な指標で表示します。 Adobe Experience cloudで、「 **[!UICONTROL Reports &amp; Analytics」を選択します]**。
 1. 適切なレポートスイートを選択します。
-1. **[!UICONTROL 「カスタムコンバージョン]**»で??、メッセージIDレポートを選択??し、??«メッセージID/メッセージ名??********
+1. 「カスタ **[!UICONTROL ムコンバージョン]**」で、「 **[!UICONTROL Message ID Reports]** 」を選択し、「 **[!UICONTROL Message ID/Message Name」を選択します]**。
