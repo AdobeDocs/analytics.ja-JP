@@ -1,21 +1,21 @@
 ---
-description: 数値 2 分類は、インポーターを介して Adobe Marketing Cloud にインポートできる柔軟なカスタム指標を提供します。
-seo-description: 数値 2 分類は、インポーターを介して Adobe Marketing Cloud にインポートできる柔軟なカスタム指標を提供します。
-seo-title: 数値2分類の概要
+description: 数値 2 分類は、インポーターを介して Adobe Experience Cloud にインポートできる柔軟なカスタム指標を提供します。
+seo-description: 数値 2 分類は、インポーターを介して Adobe Experience Cloud にインポートできる柔軟なカスタム指標を提供します。
+seo-title: '数値 2 分類の概要 '
 solution: Analytics
-subtopic: '分類      '
-title: 数値2分類の概要
+subtopic: 分類
+title: '数値 2 分類の概要 '
 topic: 管理ツール
-uuid: cbea7cd1-3a92-4e9d- b671-646e9add1ee6
+uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 数値2分類の概要
+# 数値 2 分類の概要 
 
-数値 2 分類は、インポーターを介して Adobe Marketing Cloud にインポートできる柔軟なカスタム指標を提供します。
+数値 2 分類は、インポーターを介して Adobe Experience Cloud にインポートできる柔軟なカスタム指標を提供します。
 
 >[!IMPORTANT]
 >
@@ -23,13 +23,13 @@ source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
 
 >[!NOTE]
 >
->2018年5月10日のAnalyticsメンテナンスリリースでは、日付の有効化および数値分類の機能の制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類および数値の分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。
+>2018年5月10日のAnalyticsメンテナンスリリースで、アドビでは、日付が有効な分類と数値分類の機能を制限するようになりました。 これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類および数値の分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。
 
 数値 2 分類は、売上原価など、各商品に対して時間の経過と共に変化する数値変数に使用するのが一般的です。管理ツールの[!UICONTROL コンバージョンの分類]ページで分類を作成し、その後インポーターを使用してファイルをエクスポートし、編集してから、ファイルを再度インポートすることができます。データをインポートすると、計算指標の作成時に数値の分類を使用できます。
 
 >[!IMPORTANT]
 >
->Analysis WorkspaceおよびAd Hoc Analysisでは、数値2分類はサポートされません。
+>Analysis WorkspaceとAd Hoc Analysisは、数値2分類をサポートしていません。
 
 次の表に、各分類タイプの相違点を示します。
 
