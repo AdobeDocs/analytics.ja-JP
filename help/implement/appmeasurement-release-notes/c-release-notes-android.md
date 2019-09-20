@@ -2,13 +2,13 @@
 description: Android モバイルライブラリのこれまでのリリースノートです。
 seo-description: Android モバイルライブラリのこれまでのリリースノートです。
 seo-title: Android
-solution: Analytics、Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: リリースノート
 title: Android
-topic: 開発者と導入
-uuid: 32232d28-3459-4f78- bb00- ca3163c63461
+topic: 開発者と実装
+uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,13 +19,13 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログを有効にします。
+>現在のライブラリバージョンを検索するには、デバッグログをオンにします。
 
 モバイルライブラリのダウンロードは、[GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) と [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1) で入手できます。
 
 ## バージョン 4.13.4 {#section_E4743079D8E64B9C890180A025C94B44}
 
-[!DNL Android] SDKバージョン4.13.4（2017年2月17日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.13.4 (Feb 16, 2017) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_C0197701CB9B45E596818AF0BE5AC4F2"> 
  <thead> 
@@ -52,7 +52,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.13.3 {#section_1C235192E9FB46E2A651017C1CF24A7F}
 
-[!DNL Android] SDKバージョン4.13.3（2017年1月20日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_5E744C8C9D064E999EB5055A8E3A99C5"> 
  <thead> 
@@ -79,7 +79,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.13.2 {#section_CEA2FF01EA414A32A8D164D981FBE71F}
 
-[!DNL Android] SDKバージョン4.13.2（2016年11月11日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_812CAB7DDC364DAABB7CDEDE55532E39"> 
  <thead> 
@@ -91,7 +91,7 @@ Android モバイルライブラリのこれまでのリリースノートです
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 訪問者 ID サービス </p> </td> 
-   <td colname="2"> <p><code>adobe_mc</code> パラメーターにタイムスタンプと Marketing Cloud 組織 ID が追加されました。 </p> </td> 
+   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> ディープリンク </p> </td> 
@@ -102,7 +102,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.13.1 {#section_647C43BA95A3485381AC2E8DEAA6D2E4}
 
-[!DNL Android] SDKバージョン4.13.1（2016年10月21日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_1D1AFD90F8BB4F59869FD417ED9C45AB"> 
  <thead> 
@@ -121,7 +121,7 @@ Android モバイルライブラリのこれまでのリリースノートです
    <td colname="2"> Google Play リファラー変数とカスタム変数が格納され、<code>AdobeDataCallback</code> の呼び出しによって適切に返されるようになりました。 </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Target  </p> </td> 
+   <td colname="1"> <p>Target </p> </td> 
    <td colname="2"> 訪問者 ID サービスのパラメーターが、<span class="keyword">Target</span> リクエストで <code>mboxParams</code> を介して渡されるようになりました。 </td> 
   </tr> 
  </tbody> 
@@ -133,7 +133,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.13.0 {#section_03370D8F93AE4B7A81C4B03910086556}
 
-[!DNL Android] SDKバージョン4.13.0（2016年9月16日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.13.0 (Sept 15, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AACF8B9BE89A4057B0396F487F82CF99"> 
  <thead> 
@@ -159,7 +159,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.12.0 {#section_3FBC1C24267141C08A60E288662160D8}
 
-[!DNL Android] SDKバージョン4.12.0（2016年8月19日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.12.0 (Aug 18, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_3BDD15254859475CBE5E27870619FF3A"> 
  <thead> 
@@ -178,7 +178,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.11.0 {#section_34B295F3697F4AD6B6A6B8DD70AD1ECA}
 
-[!DNL Android] SDKバージョン4.11.0（2016年6月23日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.11.0 (June 22, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_C3DC3890E81744828DE8946AE8067E1A"> 
  <thead> 
@@ -200,7 +200,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.10.0 {#section_262928ABA971490EA6B8E277E17BDD89}
 
-[!DNL Android] SDKバージョン4.10.0（2016年5月21日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.10.0 (May 20, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_E6B19BD9903A41D9AAF0035CD66756B5"> 
  <thead> 
@@ -223,7 +223,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.9.0 {#section_7393D3A5EA61431D9E7C07ECE176D17C}
 
-[!DNL Android] SDKバージョン4.9.0（2016年5月6日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.9.0 (May 5, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_7D893A6E12554E9CA9AF2B03DA4C1A4B"> 
  <thead> 
@@ -242,7 +242,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.8.3 {#section_9BB3DFBECC434AC6B3D7C18AA9BC895C}
 
-[!DNL Android] SDKバージョン4.8.3（2016年2月19日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.8.3 (February 18, 2016) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_6DE145BC30154B9FADCE584A9737018D"> 
  <thead> 
@@ -254,14 +254,14 @@ Android モバイルライブラリのこれまでのリリースノートです
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> オプトアウトおよびプライバシー設定 </td> 
-   <td colname="2"> <p><span class="keyword"> Android</span> SDK4.8.3以降、 <code> setPrivacyStatus</code> メソッドを使用したプライバシー設定は <span class="keyword"> 、Analytics</span>、 <span class="keyword"> Target</span> および <span class="keyword"> Audience Managerのアクティビティに影響</span>します。 </p> </td> 
+   <td colname="2"> <p><span class="keyword"> Android SDK 4.8.3以降、</span> set PrivacyStatus <code> メソッドを使用して設定されたプライバシー設定は、Analyticsからのアクティビティに影響を与えます。Target</code> Target <span class="keyword"> Audience Manager</span><span class="keyword"></span><span class="keyword"></span>Android Audience Manager </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## バージョン 4.8.0 {#section_18FA091344644B43AA0E226241FF90DC}
 
-[!DNL Android] SDKバージョン4.8.0（2015年11月3日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_C47B9AEB2BB649CFA1D5CF04093B497B"> 
  <thead> 
@@ -272,7 +272,7 @@ Android モバイルライブラリのこれまでのリリースノートです
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> 新しい Marketing Cloud 訪問者 ID サービスメソッド </td> 
+   <td colname="1"> 新しいExperience cloud訪問者IDサービスのメソッド </td> 
    <td colname="2"> <p>次のメソッドが追加されました。 </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
      <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
@@ -320,7 +320,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.6.1 {#section_98CC97CF0F0C48F7855130044386845A}
 
-[!DNL Android] SDKバージョン4.6.1（2015年9月25日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.6.1 (September 24, 2015) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_80693083398F472F8A4E7861606E602D"> 
  <thead> 
@@ -339,7 +339,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.6 {#section_ADF6F871CF3C4E2381464D62DA6E1EB1}
 
-[!DNL Android] SDKバージョン4.6（2015年9月18日）には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_35D0692698EF49AE8204F2AEB57CABD7"> 
  <thead> 
@@ -350,7 +350,7 @@ Android モバイルライブラリのこれまでのリリースノートです
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword"> Analytics</span> セグメントへのプッシュメッセージ </p> </td> 
+   <td colname="1"> <p>Push Messaging to <span class="keyword"> Analytics</span> Segments </p> </td> 
    <td colname="2"> <p><span class="keyword">Adobe Mobile Services</span> および <span class="keyword">Adobe Mobile</span> SDK を使用すると、<span class="keyword">Analytics</span> セグメントにプッシュメッセージを送信できます。また、SDK では、プッシュメッセージを開いた結果としてアプリを開いたユーザーを簡単にレポートできます。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -374,7 +374,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 ## バージョン 4.5 {#section_6E7614D4AEA24B7E81C4FC094882F062}
 
-[!DNL Android] SDKバージョン4.5には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.5 includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_BF98A1E904EB4314828AC58A2A6E7016"> 
  <thead> 
@@ -386,14 +386,14 @@ Android モバイルライブラリのこれまでのリリースノートです
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> Android ウェアラブル拡張機能</span> </p> </td> 
-   <td colname="2"> <p><span class="keyword"> Android</span> SDKバージョン4.5以降、Android <span class="keyword"></span> の <span class="keyword"></span> ウェアラブルアプリからデータを収集することができます。 </p> </td> 
+   <td colname="2"> <p>Starting in <span class="keyword"> Android</span> SDK version 4.5, a new <span class="keyword"> Android</span> extension lets you collect data from your <span class="keyword"> Android</span> Wearable app. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## バージョン 4.4 {#section_8D7FC183081E4BCFA8ADC33FB55E057C}
 
-[!DNL Android] SDKバージョン4.4には、次の変更が含まれています。
+The [!DNL Android] SDK version 4.4 includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_E8628F3806E24A0FB7157847D97C7B7A"> 
  <thead> 
@@ -409,7 +409,7 @@ Android モバイルライブラリのこれまでのリリースノートです
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p><code> trackBeacon</code> 呼び出しと <code> clearCurrentBeacon</code> 呼び出しがPhoneGapで <span class="keyword"> 使用できる</span>ようになりました。 </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -418,7 +418,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 リリース日：**2014 年 11 月 25 日**
 
-* 新機能 - Adobe Marketing Cloud ID 統合
+* 新機能 — Adobe Experience Cloud IDの統合
 * デバッグログを改良して明確化しました。
 * アプリ内メッセージ確認時の潜在的なクラッシュを解決しました。
 
@@ -458,13 +458,13 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 リリース日：**2014 年 4 月 18 日**
 
-* 新機能- Bluetoothビーコントラッキング。
-* 新機能-タイムスタンプが有効なアプリで、クラッシュのヒットは正しいセッションまで遡ります。
-* 新機能-タイムスタンプが有効なアプリで、以前のセッションが正しいセッションまで遡ったヒットに送信されます。（以前のセッションではなくなります）。
-* 新機能-ヒットのバッチ処理。
-* Google Playリファラートラッキングを設定可能なタイムアウトで修正し、Googleリファラーデータが遅延できるように修正。
-* 特定のシナリオで発生する可能性のあるStrictModeの警告を解決しました。
-* 特定のメソッドが特定の順序で呼び出された場合に、ごくまれにライブラリがロックされる可能性がある問題を解決しました。
+* 新機能 — Bluetoothビーコントラッキング。
+* 新機能 — タイムスタンプが有効なアプリで、クラッシュヒットの日付を正しいセッションまで遡ります。
+* 新機能 — タイムスタンプが有効なアプリで、正しいセッションまで遡ったヒットで前のセッションが送信されます。 （以前のセッションではなくなります）。
+* 新規 — ヒットのバッチ処理。
+* Google再生リファラーの追跡を修正し、設定可能なタイムアウトを使用して、Googleリファラーデータの遅延を許可するようにしました。
+* 特定のシナリオで発生する可能性があるStrictModeの警告を解決しました。
+* 特定のメソッドが特定の順序で呼び出された場合に、ほとんどライブラリがロックされない問題を解決しました。
 
 ## バージョン 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
@@ -503,7 +503,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 リリース日：**2013 年 9 月 28 日**
 
-[!DNL Android]Marketing Cloud ソリューション用の SDK 4.x を使用して、以下の新機能を提供できるようになりました。
+[!DNL Android] Experience cloudソリューション用SDK 4.xが、次の新機能を提供できるようになりました。
 
 * 大幅なパフォーマンス強化。すべての処理をバックグラウンドスレッドで実行します。SDK は完全にスレッドセーフです。
 * 位置情報と目標点
@@ -581,7 +581,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 * 非推奨だった `offlineThrottleDelay` の設定は、スレッドの最適化によって不要になりました。この設定は後方互換性のために引き続き保持されますが、効果は何もありません。
 * オフラインヒットのキャッシュでの同期の潜在的な問題を修正しました。
 * #6 以上のヒエラルキー変数を設定したときに表示される警告メッセージをわかりやすくしました。
-* [!DNL Android] バージョン4.0でOSVersionが誤ってレポートされる可能性がある問題を修正しました。
+* Fixed issue that could cause OSVersion to be misreported on versions of [!DNL Android] &gt; 4.0.
 * パフォーマンスの強化をいくつか行いました。
 * 間違った形式の URL による潜在的な例外の問題を解決しました。
 
@@ -639,7 +639,7 @@ Light Server Call（trackLight）で使用できる変数にタイムスタン�
 
 リリース日：**2012 年 1 月**
 
-* [!DNL Android] 3. xと4. xの互換性を追加しました。
+* Added [!DNL Android] 3.x and 4.x compatibility.
 * Implemented a UUID for visitor ID on [!DNL Android] devices that do not have SIM cards (For example, Kindle Fire).
 
 ## バージョン 1.2 {#section_EC83BE1F00BF481EA1C74A63E4B90F65}
