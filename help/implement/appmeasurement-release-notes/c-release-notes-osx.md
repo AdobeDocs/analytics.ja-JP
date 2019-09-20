@@ -2,26 +2,26 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Mac OS X
-solution: Analytics、Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: リリースノート
 title: Mac OS X
-topic: 開発者と導入
-uuid: d5e46c86-2d00-4a18-8eee- dcab082761af
+topic: 開発者と実装
+uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Mac OS X ～{#mac-os-x}
+# Mac OS X{#mac-os-x}
 
 >[!IMPORTANT]
 >
->これらのSDKは、パッケージ化されており、アドビがサポートまたは配布することはできません。
+>これらのSDKは日没しており、アドビによってサポートまたは配布されなくなりました。
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログを有効にします。
+>現在のライブラリバージョンを検索するには、デバッグログをオンにします。
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
@@ -61,7 +61,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 リリース日：**2013 年 3 月 22 日**
 
-* `ADMS_Measurement.visitorID` には、デフォルト値が事前入力されます。
+* `ADMS_Measurement.visitorID` がデフォルト値で事前設定されるようになりました。
 
 ## バージョン 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
