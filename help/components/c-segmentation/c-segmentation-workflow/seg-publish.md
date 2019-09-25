@@ -1,128 +1,129 @@
 ---
-description: オーディエンスライブラリ、TargetおよびAudience Managerのマーケティングアクティビティにセグメントを使用できます。
-seo-description: オーディエンスライブラリ、TargetおよびAudience Managerのマーケティングアクティビティにセグメントを使用できます。
-seo-title: Experience Cloudへのセグメントの公開
+description: セグメントをオーディエンスライブラリ、TargetおよびAudience Managerのマーケティングアクティビティで使用できます。
+seo-description: セグメントをオーディエンスライブラリ、TargetおよびAudience Managerのマーケティングアクティビティで使用できます。
+seo-title: Experience Cloud へのセグメントの公開
 solution: Analytics
-title: Experience Cloudへのセグメントの公開
+title: Experience Cloud へのセグメントの公開
 topic: セグメント
-uuid: e5ce20c0- ce43-423b- a29f- ba66e9e24d27
+uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 6298c00cf4c74a493b6ba6266763d693897d5299
+source-git-commit: bac0b1ae330753cfc537817e8da1ea70fbaaf0d5
 
 ---
 
 
-# Experience Cloudへのセグメントの公開
+# Experience Cloud へのセグメントの公開
 
 >[!IMPORTANT]
 >
->セグメント投稿に関する待ち時間の改善およびこのページで説明されているユーザーインターフェイスは、まだすべての顧客に展開されません。The current production environment is described [here](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html).
+>The latency improvements regarding segment publishing and the user interface that are described on this page are not rolled out to all customers yet. The current production environment is described [here](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html).
 
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. 最新の更新により、投稿ワークフローが大幅に最適化されました。以前は、使用可能なセグメントの公開には約48時間かかりました。
+Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. Recent updates have significantly optimized the publishing workflow. Previously, publishing a usable segment took approximately 48 hours.
 
-現在では、処理には最大8時間かかることがありますが、他のトラフィックやセグメントサイズによって処理がより高速になります。（ただし、現在、セグメントが利用可能なときに通知する手段がないので、手動でチェックする必要があります）。また、公開可能なセグメントの最大数を75（20から）に増やしました。コンポーネント/セグメントで、公開済みのセグメントを表示できます。
+Now, processing can take up to 8 hours, but depending on other traffic and on the segment size, processing may be even faster. (However, we currently do not have a way to inform you when the segment is available, so you will have to check manually.) また、公開可能なセグメントの最大数を20から75に増やしました。 You can view published segments in Components &gt; Segments.
 
 
 ## 前提条件
 
-* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). そうしないと、エクスペリエンスクラウドに投稿できません。
-* Make sure you are working in a report suite that is [mapped to your Experience Cloud organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
-* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
+* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Otherwise you cannot publish it to the Experience Cloud.
+* Make sure you are working in a report suite that is mapped to your Experience Cloud organization.[](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)
+* Ensure that your organization is using Experience Cloud IDs.
+* Before you can publish segments, your Admin needs to assign the Segment Publishing permission to a product profile in the Admin Console, and add you to the product profile.[](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
 
 
 ## 注意点
 
-* **レポートスイートの制限**:レポートスイートごとに75個までのセグメントを公開できます。この制限は適用されます。既に75個のセグメントが公開されている場合は、75個のセグメントしきい値を下回るまで、追加のセグメントを公開することはできません。
-* **メンバーシップの制限**:Analytics [!DNL Experience Cloud] から共有されるオーディエンスを2,000万人の一意のメンバーを超えることはできません。
-* **データプライバシー**:オーディエンスは、訪問者の認証状態に基づいてフィルタリングされません。訪問者が未認証状態および認証状態でサイトを閲覧できる場合、訪問者が未認証のときに生じるアクションによって、訪問者がオーディエンスに含められる可能性があります。Review [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
-* For a discussion about the differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager], go [here](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
+* **レポートスイートの制限**:レポートスイートごとに最大75個のセグメントを公開できます。 この制限は適用されます。 既に75個のセグメントが公開されている場合は、公開を取り消して75個のセグメントしきい値を下回るまで、追加のセグメントを公開することはできません。
+* **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Analytics cannot exceed 20 million unique members.
+* **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. 訪問者が未認証状態および認証状態でサイトを閲覧できる場合、訪問者が未認証のときに生じるアクションによって、訪問者がオーディエンスに含められる可能性があります。オーディエンス共有がプライバシーに与える影響をすべて理解するには [](https://www.adobe.com/privacy/experience-cloud.html) 、Adobe Experience cloudのプライバシーを確認します。
+* とのセグメント間の違いにつ **いては、こちらを参[!DNL Adobe Analytics]照し[!DNL Audience Manager]**&#x200B;てく [ださい](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
 
 ## セグメント公開タイムライン
 
-| 利用可能な機能 | 使用可能な場合 | 利用可能な場所 |
+| 利用可能な情報 | 利用可能な場合 | 利用可能な場所 |
 |---|---|---|
-| メタデータ（セグメントタイトルおよび定義） | 公開直後 | [!DNL Audience Manager]、 [!UICONTROL Experience Cloudオーディエンスライブラリ]、 [!DNL Target] |
-| メンバーシップで使用可能なセグメント | 公開後8時間~8時間 | Visitor Profile Viewer in [!DNL Audience Manager] |
+| メタデータ（セグメントのタイトルと定義） | 投稿直後 | [!DNL Audience Manager]、 [!UICONTROL Experience cloudオーディエンスライブラリ]、 [!DNL Target] |
+| メンバーシップを持つ使用可能なセグメント | 出版後8時間 | Visitor Profile Viewer in [!DNL Audience Manager] |
 | 特性とメンバーシップの母集団 | 24時間以内 | [!DNL Audience Manager] |
 
-## Publish segments in [!UICONTROL Segment Builder]
+## セグメントビルダーでのセ [!UICONTROL グメントの公開]
 
-1. [!UICONTROL Analytics/ワークスペース/コンポーネント/セグメント] /+に移動します
-1. [!UICONTROL セグメントビルダーでセグメントを作成]します。
-1. セグメントのタイトルと説明を入力してください。それ以外の場合は保存できません。
-1. Check [!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)].
+1. **[!UICONTROL Analytics/ワークスペース/コンポーネント/セグメント]/+に移動します。**
+1. セグメントビルダーでセグメン [!UICONTROL トを作成します]。
+1. セグメントのタイトルと説明を指定します。指定しないと、セグメントを保存できません。
+1. Check **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
+1. Adobe Analyticsの数値とAudience Managerの数値を比較する際に、Analyticsでセグメントプレビューを表示する際に、「個別訪問者」の合計セグメントプレビューではなく、「Experience Cloud IDを持つ訪問者」を使用してください。
 
 ![](assets/publish-ec.png)
 
 | 要素 | 説明 |
 |---|---|
-| Experience Cloud にこのセグメントを公開 (`<report suite>` 用) | このオプションを有効にすると、セグメントタイトルと定義（広告プラットフォームで頻繁に使用されるシェルオーディエンスなど）がExperience Cloudと瞬時に共有され、セグメントメンバーシップは4時間ごとに評価および共有されます。<br> 例えば、そのオーディエンスがアクティビティに関連付けられている [!DNL Target]場合、 [!DNL Analytics] 例えば、そのエクスペリエンスクラウドおよび [!DNL Target] オーディエンスに振り分けられた訪問者のIDを送信し始めます。At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
-| オーディエンス作成期間 | 選択した期間は、オーディエンスを周期的なカレンダー単位で作成します。例えば、「過去30日間」（デフォルト）には、今日の日付からの過去30日間のオーディエンスの資格があります（セグメント作成時の元の日付からはNOT）。 |
-| オーディエンスライブラリに作成 | 作成および公開するセグメントは、Experience Cloudオーディエンスライブラリで遅延なしで使用できます。Analyticsの更新に依存しません。これらのセグメントは、公開されたセグメント75個の制限に対してカウントされません。 |
-| x of75Published | エクスペリエンスクラウドに公開したセグメントの数が表示されます。リンクをクリックすると、公開済みセグメントと関連するレポートスイートおよび所有者のリストが表示されます。 |
-| 保存 | このセグメントを保存します。 |
+| **[!UICONTROL このセグメントをExperience cloudに公開します(*<report suite>*)]** | このオプションを有効にすると、セグメントのタイトルと定義（広告プラットフォームで頻繁に使用されるシェルオーディエンス）が瞬時にExperience cloudで共有され、セグメントのメンバーシップが4時間ごとに評価および共有されます。 <br> 例えば、そのオーディエンスがのアクティビティに関連付け [!DNL Target]られている場合、そのExperience cloudとオー [!DNL Analytics] ディエンスに振り分けられた訪問者のIDの送信を開始 [!DNL Target] します。 At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
+| **[!UICONTROL オーディエンス作成期間]** | 選択した時間枠を使用して、周期的なカレンダーベースでオーディエンスが作成されます。 例えば、「過去30日間」（デフォルト）には、今日の日付から過去30日間（セグメントが作成された元の日付からではなく）のオーディエンス資格を持つ訪問者が含まれます。 |
+| **[!UICONTROL オーディエンスライブラリに作成]** | 作成および投稿したセグメントは、Experience cloudオーディエンスライブラリで待ち時間なく使用できます。 Analyticsの更新には依存しません。 これらのセグメントは、公開済みの75個のセグメントの制限に対してはカウントされません。 |
+| **[!UICONTROL x of 75発行済み]** | Experience cloudに公開したセグメントの数を表示します。 リンクをクリックすると、公開済みのセグメントと、関連するレポートスイートおよび所有者のリストが表示されます。 |
+| **[!UICONTROL 保存]** | Saves this segment. |
 
-## セグメントの公開取り消しまたは削除
+## Unpublish or delete segments
 
-Experience Cloudに公開されているセグメントを削除するには、まず公開を取り消す必要があります。To unpublish a segment, just **unclick** the checkbox that you used to publish it.
+Experience Cloud に公開されているセグメントを削除するには、まず非公開にする必要があります。セグメントを非公開にするには、公開するために使用したチェックボックスの&#x200B;**チェックを解除**&#x200B;します。
 
 >[!NOTE]
 >
->You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (for [!DNL Core Service] &amp; [!DNL Audience Manager] customers) and all other external partners (for [!DNL Audience Manager] customers). You **can** unpublish a segment that is in use by [!DNL Target].
+>次のいずれかのアドビソリューションで現在使用中のセグメントの公開を取り消すことは&#x200B;**できません**：[!DNL Analytics]（[!DNL Audience Analytics]の場合）、[!DNL Campaign]、[!DNL Advertising Cloud]（[!DNL Core Service]および[!DNL Audience Manager] の顧客の場合）、およびその他すべての外部パートナー（[!DNL Audience Manager] の顧客の場合）。[!DNL Target] で使用中のセグメントを非公開にすることが&#x200B;**できます**。
 
-## [!UICONTROL セグメントマネージャでのセグメント投稿ステータスの表示]
+## View segment publishing status in the Segment Manager
 
-1. [!UICONTROL Analytics/コンポーネント/セグメントに移動]します。
-1. Notice the new [!UICONTROL Published] column. はい/いいえは、そのセグメントがExperience Cloudに公開されているかどうかを示します。
+1. Navigate to Analytics &gt; Components &gt; Segments.
+1. Notice the new Published column. Yes/No refers to whether the segment has been published to the Experience Cloud or not.
 
 ![](assets/publish-status.png)
 
-## [!DNL Audience Manager] UUIDの取得
+## Retrieve the  UUID[!DNL Audience Manager]
 
-ブラウザーに現在関連付けられているAAM UUIDをキャプチャするには、2つの方法があります。
+There are two ways to capture the AAM UUID currently associated with the browser:
 
 * Adobe Experience Cloud デバッガー
-* ブラウザーのネイティブ開発者ツール（Chrome Developer Toolsなど）
+* Native developer tool in browsers (e.g., Chrome Developer Tools)
 
-次のスクリーンショットは、ブラウザー上でAAM UUIDを取得し、それをAudience Manager訪問者プロファイルビューアで使用して特性とセグメントのメンバーシップを検証する方法を示しています。
+次のスクリーンショットは、ブラウザーでAAM UUIDを取得し、Audience Manager訪問者プロファイルビューアーでAAM UUIDを使用して特性とセグメントのメンバーシップを検証する方法を示しています。
 
-**方法1:Adobe Experience Cloud Debuggerを使用する**
+**Method 1: Use Adobe Experience CLoud Debugger**
 
-1. Download and install [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) in the Chrome Web Store.
-1. ページの読み込み時にデバッガーを起動します。
+1. Download and install Adobe Experience Cloud Debugger in the Chrome Web Store.[](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)
+1. Launch the debugger when loading a page.
 1. Scroll to the Audience Manager section and find the AAM UUID set on the current browser page
-(`50814298273775797762943354787774730612` in the example below)
+( in the example below)`50814298273775797762943354787774730612`
 
 ![](assets/debugger.jpg)
 
-**方法2:Chrome Developer Tools（またはその他のブラウザー開発者ツール）を使用**
+**Method 2: Use Chrome Developer Tools (or other browser developer tools)**
 
-1. ページを読み込む前にChrome Developer Toolsを起動する
-1. ページを読み込み、アプリケーション/Cookieをチェックします。The AAM UUID should be set in the 3rd-party
-Demdex cookie ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
-on the browser (`50814298273775797762943354787774730612` in the example below).
+1. Launch Chrome Developer Tools before loading a page
+1. ページを読み込み、アプリケーション/Cookieを確認します。 AAM UUIDは、サードパーティDemdex cookieに設定する必要があります([下の例では](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) 、adobe.demdex.net)。 demdexフィールドは、ブラウザー上のAAM UUID設定です(`50814298273775797762943354787774730612` 以下の例を参照)。
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
-## Use Audience Manager [!UICONTROL Visitor Profile Viewer]
+## Audience Manager訪問者プロファイル [!UICONTROL ビューアを使用する]
 
-The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) for more information.
+訪問者プロファイルビューアが読み込まれると、ブラウザーのAAM UUIDがデ [!UICONTROL フォルトで使用され] ます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドにUUIDを入力し、「 [!UICONTROL Refresh」をクリックします]。 詳しくは、訪問者プ [ロファイルビューア](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) （英語のみ）を参照してください。
 
 ![](assets/aam-vpv.png)
 
-## View the segment traits in [!DNL Audience Manager]
+## セグメント特性の表示 [!DNL Audience Manager]
 
-AAMでは、特定のセグメントのeIDを持つ訪問者のリストは、AnalyticsがExperience Cloudとの共有セグメントで評価されます。
+AAMでは、AnalyticsがExperience cloudとセグメントを共有するので、特定のセグメントのECIDを持つ訪問者のリストがストリーミング方式で評価されます。
 
-1. In [!DNL Audience Manager], go to [!UICONTROL Audience Data &gt; Traits &gt; Analytics Traits]. Experience Cloud組織にマッピングされている各Analyticsレポートスイートのフォルダーが表示されます。これらのフォルダー（特性、セグメントおよびデータソース用）は、プロファイルおよびオーディエンス/Peopleコアサービスが開始またはプロビジョニングされると作成されます。
-1. Select the folder for the report suite in which you previously created the segment you wanted to share with [!DNL Audience Manager]. 作成したセグメント/オーディエンスが表示されます。When you share a segment, 2 things happen in [!DNL Audience Manager]:
-* 特性が作成され、まずデータが含まれません。およそ。8 hours after the segment gets published in [!DNL Analytics], the list of ECIDs gets onboarded and shared with [!DNL Audience Manager] and other Experience Cloud solutions.
+1. で、オ [!DNL Audience Manager]ーディエンスデ [!UICONTROL ータ/特性/Analytics特性に移動します]。 Experience cloud組織にマップされている各Analyticsレポートスイートのフォルダーが表示されます。 これらのフォルダー（特性、セグメントおよびデータソースの場合）は、Profiles &amp; Audiences/Peopleコアサービスが開始またはプロビジョニングされると作成されます。
+1. 共有するセグメントを以前に作成したレポートスイートのフォルダを選択します [!DNL Audience Manager]。 作成したセグメント/オーディエンスが表示されます。 セグメントを共有すると、次の2つのことが行われま [!DNL Audience Manager]す。
+* 特性が作成されます。まず、データが含まれません。 約 セグメントが公開されてから8時間後に、ECIDのリ [!DNL Analytics]ストがオンボードされ、他のExperience cloudソリューションと共 [!DNL Audience Manager] 有されるようになります。
 
 ![](assets/aam-traits.png)
 
-* 1つの特性セグメントが作成されます。セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
+* 1つの特性セグメントが作成されます。 セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
 
-## View the segment in [!DNL Adobe Target]
+## セグメントを [!DNL Adobe Target]
 
-The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. Analytics または Audience Manager で作成されたセグメントは、Target のアクティビティで使用できます。例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。], click [!UICONTROL Audiences].
-1. [!UICONTROL オーディエンス] ページで、対象 [!DNL Experience Cloud]のオーディエンスを見つけます。These audiences are available for use in [!DNL Target] activities.
+The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. Analytics または Audience Manager で作成されたセグメントは、Target のアクティビティで使用できます。例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。]をクリックし、「オーディエン [!UICONTROL ス]」をクリックします。
+1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
+
