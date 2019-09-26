@@ -5,7 +5,7 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 4a6bac589d1d6d6caaf34dc5363c60bbfbb952d5
+source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 ---
 
@@ -28,9 +28,9 @@ If sending to multiple report suites (multi-suite tagging), `s.account` may be a
 
 [!DNL Analytics] 内では、レポートのヘッダー右上に現在のレポートスイートが表示されます。各レポートスイートは、レポートスイート ID と呼ばれる一意の識別子を持ちます。The `s_account` variable contains one or more report suite IDs to which data is sent. このレポートスイート ID 値（[!DNL Analytics] ユーザーは見ることができない）は、使用の前にアドビから提供または承認される必要があります。すべてのレポートスイート ID には「わかりやすい名前」が関連付けられています。この名前は、[!DNL Admin Console] のレポートスイートセクションで変更することができます。
 
-The `s_account` variable is normally declared inside the JavaScript file (s_code.js). 変数はHTMLページで宣言 `s_account` できます。これは、の値がページごとに変わる場合の一般 `s_account` 的な方法です。 Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
+The `s_account` variable is normally declared inside the JavaScript file (s_code.js). You can declare the  variable on the HTML page, which is a common practice when the value of  may change from page to page. `s_account``s_account`Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
 
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. 場合によっては、の値も112.2o7.net `s_account` より前のドメインに表示されることがあります。 パスの値が、送信先レポートスイートを決定する唯一の値です。次のボールドテキストは、デバッガーに表示される、データの送信先であるレポートスイートを示しています。詳しくは、 [DigitalPulse Debugger](/help/implement/impl-testing/debugger.md).
+Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. 場合によっては、の値も112.2o7.net `s_account` より前のドメインに表示されることがあります。 パスの値が、送信先レポートスイートを決定する唯一の値です。次のボールドテキストは、デバッガーに表示される、データの送信先であるレポートスイートを示しています。詳しくは、 [DigitalPulse Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
