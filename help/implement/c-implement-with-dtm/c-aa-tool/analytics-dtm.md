@@ -1,29 +1,29 @@
 ---
-description: Adobe Analyticsツールを作成し、自動または手動でページコードを設定することにより、Dynamic Tag Managementを使用してAdobe Analyticsを導入します。ほとんどの場合は、自動的な導入方法をお勧めします。
-keywords: Analyticsの導入;導入方法、Dynamic Tag Management;dtm;analyticsツール;property;ツールタイプ;ツール名;configurationメソッド;analytics Premium;evar;events
-seo-description: Adobe Analyticsツールを作成し、自動または手動でページコードを設定することにより、Dynamic Tag Managementを使用してAdobe Analyticsを導入します。ほとんどの場合は、自動的な導入方法をお勧めします。
-seo-title: Adobe Analyticsツールの追加
+description: Dynamic Tag Managementを使用してAdobe Analyticsを導入するには、Adobe Analyticsツールを作成し、自動または手動でページコードを設定します。 ほとんどの場合は、自動的な導入方法をお勧めします。
+keywords: Analyticsの実装；実装方法；Dynamic Tag Management;dtm;Analyticsツール；プロパティ；ツールタイプ；ツール名；設定方法；Analytics Premium;evars;events
+seo-description: Dynamic Tag Managementを使用してAdobe Analyticsを導入するには、Adobe Analyticsツールを作成し、自動または手動でページコードを設定します。 ほとんどの場合は、自動的な導入方法をお勧めします。
+seo-title: Adobe Analytics ツールの追加
 solution: Analytics
-title: Adobe Analyticsツールの追加
-topic: 開発者と導入
-uuid: 1c54331e- de03-4f44-8002- a19723c585b0
+title: Adobe Analytics ツールの追加
+topic: 開発者と実装
+uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
 
-# Adobe Analyticsツールの追加
+# Adobe Analytics ツールの追加
 
-Adobe Analyticsツールを作成し、自動または手動でページコードを設定することにより、Dynamic Tag Managementを使用してAdobe Analyticsを導入します。ほとんどの場合は、自動的な導入方法をお勧めします。
+Dynamic Tag Managementを使用してAdobe Analyticsを導入するには、Adobe Analyticsツールを作成し、自動または手動でページコードを設定します。 ほとんどの場合は、自動的な導入方法をお勧めします。
 
 >[!NOTE]
 >
->For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>訪問者の追跡機能を強化するには、IDサービスを有効にすることを強く [お勧めします](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ## Adobe Analytics ツールの追加 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. **[!UICONTROL *`Web Property Name`*]** / **[!UICONTROL 概要]** /ツールを **[!UICONTROL 追加]** / **[!UICONTROL Adobe Analytics]** をクリックします。
+1. Click  **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL Overview]** &gt; **[!UICONTROL Add a Tool]** &gt; **[!UICONTROL Adobe Analytics]** .
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -50,11 +50,11 @@ Adobe Analyticsツールを作成し、自動または手動でページコー�
    <td colname="col2"> <p> <b>自動</b>（推奨）：Dynamic Tag Management を使用して設定を管理します。This method enables automatic synchronization of <span class="keyword"> Adobe Analytics</span> report suites via a <span class="keyword"> Experience Cloud</span> login or Web Services ID, and manages the [!DNL AppMeasurement] code. </p> <p>アカウントが接続されると、<span class="keyword">Adobe Analytics</span> レポートスイート ID と名前が取得され、ツール設定インターフェイスに入力されます。したがってユーザーのミスが発生しにくく、ツールのデプロイメントを迅速に実行できます。 </p> <p> <p>注意：<span class="wintitle">Adobe Analytics Premium</span> をお使いの場合は、「<span class="keyword">自動</span>」オプションを選択する必要があります。下の「<a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local">Adobe Analytics Premium の有効化</a>」を参照してください。 </p> </p> <p>自動設定に特有のフィールドに設定を入力します。 </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
      <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b>：（デフォルト）<span class="keyword">Experience Cloud</span> のシングルサインオンを使用します。お使いの Experience Cloud ID とパスワードを入力してください。 </p> </li> 
-     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Web サービス</b>：Web サービスのユーザー名と共有暗号鍵を指定します。 </p> <p>共有暗号鍵資格情報は、<span class="uicontrol">管理ツール</span>／<span class="uicontrol">カンパニー設定</span>／<a href="https://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html" format="html" scope="external">Web サービス</a>にあります。 </p> <p>Web サービス資格情報の取得については、開発者向けの「<a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">企業 API への Web サービスアクセスの取得</a>」を参照してください。 </p> </li> 
+     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Web サービス</b>：Web サービスのユーザー名と共有暗号鍵を指定します。 </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html" format="html" scope="external"> Web Services</a>. </p> <p>Web サービス資格情報の取得については、開発者向けの「<a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">企業 API への Web サービスアクセスの取得</a>」を参照してください。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>手動</b>:[!DNL AppMeasurement]コードを参照してください。<span class="keyword">Analytics</span> の <span class="keyword">AppMeasurement</span> コードは、<span class="ignoretag"><span class="uicontrol">管理ツール</span>／<span class="uicontrol">コードマネージャー</span></span>からダウンロードできます。 </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>手動設定に特有のフィールドに設定を入力します。 </p> 
+   <td colname="col2"> <p> <b>手動</b>:[!DNL appMeasurement]コードを手動で管理します。 <span class="keyword">Analytics</span> の <span class="keyword">AppMeasurement</span> コードは、<span class="ignoretag"><span class="uicontrol">管理ツール</span>／<span class="uicontrol">コードマネージャー</span></span>からダウンロードできます。 </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>手動設定に特有のフィールドに設定を入力します。 </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>実稼動アカウント ID</b>：（必須）データ収集用の実稼動アカウント。Analytics の場合、これはレポートスイート ID です。Dynamic Tag Management は、実稼動およびステージング環境に適切なタグを自動的にインストールします。 </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ステージングアカウント ID</b>：（必須）開発環境またはテスト環境で使用するアカウント。Analytics の場合、これはレポートスイート ID です。ステージングアカウントには、実稼動用データとは別個のテストデータが保持されます。 </p> </li> 
@@ -92,7 +92,7 @@ See [Frequently Asked Questions About the Adobe Analytics Tool](../../../impleme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>自動設定を有効にする </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>このオプションを選択すると、Dynamic Tag Management によって <span class="keyword">Adobe Analytics</span> アカウントの設定が自動取得されます。 </p> <p>最新の[!新しいバージョンが利用可能になると、DIL AppMeasurementコードが使用され、アップグレード通知が選択用に表示されます。前の[!DIL AppMeasurement]のバージョンを使用します。最大で 5 つの古いバージョンが表示されます。 </p> </td> 
+   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>このオプションを選択すると、Dynamic Tag Management によって <span class="keyword">Adobe Analytics</span> アカウントの設定が自動取得されます。 </p> <p>最新の[!DNL appMeasurement]コードが使用され、新しいバージョンが利用可能になると、アップグレード通知が表示され、選択できるようになります。 また、必要に応じて、互換性の理由など、以前の[!DNL appMeasurement]バージョンに戻すこともできます。 最大で 5 つの古いバージョンが表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資格情報を更新 </p> </td> 
