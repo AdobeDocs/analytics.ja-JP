@@ -1,5 +1,5 @@
 ---
-description: AppMeasurement.jsに設定される設定変数。
+description: Configuration variables set in AppMeasurement.js.
 keywords: Analytics の実装
 seo-description: AppMeasurement.jsで設定されたAdobe Analytics用の設定変数
 seo-title: 設定変数
@@ -9,14 +9,14 @@ title: 設定変数
 topic: 開発者と実装
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: 9212d70ab8fd7bc0ccfb7e781a92b1731f0a40bd
 
 ---
 
 
-# Configuration variables overview
+# 設定変数の概要
 
-設定変数は、データが取得され、レポートで処理される方法を制御します。最も一般的な設定変数は、通常、メインのグローバルJavaScript appMeasurement.jsに設定されます。 これらの変数は、必要に応じて、Analyticsのページレベルコード内およびリンク内に設定できます。
+設定変数は、データが取得され、レポートで処理される方法を制御します。The most-common configuration variables that are typically set in the main global JavaScript AppMeasurement.js). これらの変数は、必要に応じて、Analyticsのページレベルコード内およびリンク内に設定できます。
 
 Not all of these variables appear in the code by default when you generate code through the **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. これらの設定変数の一部は、サイトの導入ニーズに当てはまらない可能性があります。
 
@@ -30,43 +30,43 @@ Not all of these variables appear in the code by default when you generate code 
 
 >[!NOTE]
 >
->[!DNL AppMeasurement] は、track関数の最初の呼び出しの前に、すべての設定変数が設定されている必要がありま `t()`す。 If configuration variables are set after the call to , unexpected results may occur. `t()`To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+>[!DNL AppMeasurement] requires that all configuration variables are set before the initial call to the track function, `t()`. の呼び出しの後に設定変数が設定されている場合、予期しな `t()`い結果が発生する可能性があります。 To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
-For help with specific configuration variables, refer to the following links:
+特定の設定変数に関するヘルプが必要な場合は、次のリンクをクリックしてください。
 
-* [s_account](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):データの保存とレポートを行うレポートスイートを指定します。
+* [s.account](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):データの保存とレポートを行うレポートスイートを指定します。
 
 * [s.dynamicAccountSelection](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):各ページのURLに基づいてレポートスイートを動的に選択します。
 
-* [s.dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Specify the rules used for determining the destination report suite.
+* [s.dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):送信先レポートスイートの決定に使用するルールを指定します。
 
 * [s.dynamicAccountMatch](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):DOMオブジェクトを使用して、すべてのルールが適用されるURLのセクションを取得します。
 
-* [s.dynamicVariablePrefix: Deploy flagging for dynamically-populated variables.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
+* [s.dynamicVariablePrefix](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):動的に設定された変数のデプロイフラグ。
 
 * [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):受信データをUTF-8に変換して、Analyticsでの保存とレポートを可能にします。
 
 * [s.currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):売上高に適用するコンバージョン率を決定します。
 
-* [s.cookieDomain: Determines which domain the  and  cookies are set.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)`s_cc``s_sq`
+* [s.cookieDomain](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):CookieとCookieを設定するド `s_cc` メイン `s_sq` を決定します。
 
-* [s.cookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Determine the domain for `s_cc` and `s_sq` cookies by specifying the number of periods in the domain of the page URL.
+* [s.cookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):ページURLのドメイン `s_cc` 内のピ `s_sq` リオド数を指定して、のドメインとcookieを決定します。
 
-* [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Specify cookies set by JavaScript (`s_sq`, `s_cc`, plug-ins) that are inherently first-party cookies, even with third-party `2o7.net` or `omtrdc.net` domains.
+* [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):JavaScript（、プラグイン）によって設定さ`s_sq`れた、本質的にファ `s_cc`ーストパーティのCookie（サードパーティまたはドメインを含む）を `2o7.net` 指定 `omtrdc.net` します。
 
 * [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):JavaScriptとデータ収集サーバーの両方で処理されるcookieの有効期限を決定します。
 
-* [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Refer and allow the function to be called at the appropriate location within the JavaScript file.
+* [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):JavaScriptファイル内の適切な場所で関数を参照し、呼び出すことを許可します。
 
-* [s.registerPreTrackCallback: Function for taking as parameters both the callback (a function), and the parameters to that function.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
+* [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):コールバック（関数）とその関数のパラメーターの両方をパラメーターとして取る関数。
 
 * [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):コールバック（関数）とその関数のパラメーターの両方をパラメーターとして取る関数。
 
 * [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):サイト上のダウンロード可能ファイルへのリンクを追跡します。
 
-* [s.trackExternalLinks: Determine whether any link clicked is an exit link.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
+* [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):クリックされたリンクが離脱リンクであるかどうかを判定します。
 
-* [strackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):ClickMapデータを収集するかどうかを決定します。
+* [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):ClickMapデータを収集するかどうかを決定します。
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):ファイル拡張子のコンマ区切りリストを含めます。
 
