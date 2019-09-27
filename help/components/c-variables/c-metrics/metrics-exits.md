@@ -5,9 +5,9 @@ seo-title: 出口
 solution: Analytics
 title: 出口
 topic: 指標
-uuid: cd5436ef-65d3-431b- a24f- acef8542c50
+uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 訪問の最後の値として特定の値が取得された回数を表します。出口は 1 回の訪問で一度しか生じません。
 
-出口ページは、訪問を分類する基準となります。つまり、訪問のすべてのヒットに対して持続性を持ちます。詳しくは、[分類とセグメント化コンテナ](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=c_Breakdown_and_segmentation_containers)を参照してください。
+出口ページは、訪問を分類する基準となります。つまり、訪問のすべてのヒットに対して持続性を持ちます。詳しくは、[分類とセグメント化コンテナ](https://marketing.adobe.com/resources/help/en_US/sc/user/c_Breakdown_and_segmentation_containers.html)を参照してください。
 
 1 つのディメンションに適用された出口は、訪問の最後の値にカウントされます。これは、訪問中のどのヒットにも生じる可能性があります。最後のヒットに値がない場合、出口は最新の値に与えられます。
 
