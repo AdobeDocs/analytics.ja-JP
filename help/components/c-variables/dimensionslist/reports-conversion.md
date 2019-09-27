@@ -7,7 +7,7 @@ title: コンバージョン
 topic: レポート
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * [!UICONTROL カスタムコンバージョン]レポートは eVar（コンバージョン変数）に基づいています。
 * コンバージョン変数は、ページビューの完了後も持続でき、指定した有効期限内で指標と関連付けることができます。
-* レポートのデフォルト指標は売上高です。デフォルト指標を変更する方法については、[デフォルトのレポート指標の選択](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_metrics_set_default)を参照してください。
+* レポートのデフォルト指標は売上高です。デフォルト指標を変更する方法については、[デフォルトのレポート指標の選択](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)を参照してください。
 * これらのレポートをトレンドとランクの両方の形式で表示します。
 * これらのレポートで分類を使用すると、行項目の名前変更や統合ができます。
 * 基本的な下位関係が有効であれば、これらのレポートは以下のもので分類できます。
