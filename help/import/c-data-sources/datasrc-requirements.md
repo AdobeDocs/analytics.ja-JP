@@ -1,19 +1,19 @@
 ---
 description: データソース使用前のレポートスイートに対する要件についての情報です。
 seo-description: データソース使用前のレポートスイートに対する要件についての情報です。
-seo-title: 要件とアップロード制限
+seo-title: 要件とアップロードに関する制限
 solution: Analytics
 subtopic: データソース
-title: 要件とアップロード制限
-topic: 開発者と導入
-uuid: d79fca77- fa0e-4171- b978- cdee5c67d9df
+title: 要件とアップロードに関する制限
+topic: 開発者と実装
+uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# 要件とアップロード制限
+# 要件とアップロードに関する制限
 
 データソース使用前のレポートスイートに対する要件についての情報です。
 
@@ -35,9 +35,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 現在または過去の日付があるデータのみをインポートできます。データソースのデータには未来の日付を使用しないでください。
 * レポートのグラフ機能を有効にするために、すべての行に日付を指定する必要があります。日付を含まない行がある場合、データソースでエラーが発生しファイルが拒否されます。日付および時刻のフォーマットは、データソースのタイプによって次のように異なります。
 
-   * **フル処理データソース**:ISO8601の日付形式（例: `YYYY-MM-DDThh:mm:ss±UTC_offset``2013-09-01T12:00:00-07:00`）、またはUnixの時刻フォーマット（1970年1月1日から経過した秒数）を使用します。
+   * **フル処理データソース**:ISO 8601の日付形式(例： `YYYY-MM-DDThh:mm:ss±UTC_offset``2013-09-01T12:00:00-07:00`)またはUnixの時間形式（1970年1月1日から経過した秒数）を使用します。
 
-   * **標準データソースと統合データソース**:次の日付形式を使用します。 `MM/DD/YYYY/HH/mm/SS` （など）`01/01/2013/06/00/00`
+   * **標準および統合データソース**:次の日付形式を使用します。 `MM/DD/YYYY/HH/mm/SS` (例 `01/01/2013/06/00/00`:
 
 ## 一般 {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
@@ -60,7 +60,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>対応。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=new_report_suite" format="https" scope="external">新しいレポートスイート</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>対応。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">新しいレポートスイート</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> バイトオーダーマーク付きの UTF-8（EF BB BF） </td> 
