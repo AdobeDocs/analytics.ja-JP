@@ -5,9 +5,9 @@ seo-title: リアルタイムレポート
 solution: Analytics
 title: リアルタイムレポート
 topic: Report Builder
-uuid: eb39b4a5- fb6f-476d-9383- e5323afcc51d
+uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -25,9 +25,9 @@ Web ページトラフィックをリアルタイムで表示し、ページビ�
 * 任意のカスタムイベント、買い物かごイベントまたはインスタンスを使用できます。
 * 最大 20 時間の履歴データとリアルタイムデータを表示できます。
 
-リアルタイム機能には、ユーザーおよびグループの権限が適用されます。例えば、売上高の表示権限を持たないユーザーは、売上高データを含むリアルタイムレポートを表示できません。eVar（コンバージョン指標）はサポートされていません。リアルタイム機能の権限を有効にするには、[管理ツール](https://marketing.adobe.com/resources/help/en_US/reference/?f=RealTime_Reports_Configuration)を使用します。
+リアルタイム機能には、ユーザーおよびグループの権限が適用されます。例えば、売上高の表示権限を持たないユーザーは、売上高データを含むリアルタイムレポートを表示できません。eVar（コンバージョン指標）はサポートされていません。リアルタイム機能の権限を有効にするには、[管理ツール](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html)を使用します。
 
 >[!NOTE]
 >
->[!UICONTROL リアルタイムレポート] は、以前にリリースされた [«現在のデータ](https://marketing.adobe.com/resources/help/en_US/arb/?f=options) を含む»（データ最新性）機能とは異なります。これにより、標準レポートの待ち時間が短縮され、ファイナライズされる前にデータが表示されます。
+>[!UICONTROL リアルタイムレポートは] 、以前にリリースした「現在のデータを含む」 [](https://marketing.adobe.com/resources/help/en_US/arb/options.html) （データ最新性）機能とは異なります。これにより、標準レポートの待ち時間が短縮され、データが確定される前に表示されます。
 
