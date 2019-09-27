@@ -1,15 +1,15 @@
 ---
 description: コンテキストデータ変数を使用すると、処理ルールで読み取れる各ページ上にカスタム変数を定義できます。
-keywords: Analyticsの導入;contextdata;s. contextdata
+keywords: Analytics実装；contextdata;s.contextdata
 seo-description: コンテキストデータ変数を使用すると、処理ルールで読み取れる各ページ上にカスタム変数を定義できます。
 seo-title: コンテキストデータ変数
 solution: Analytics
 subtopic: 変数
 title: コンテキストデータ変数
-topic: 開発者と導入
-uuid: 4b215803-99d4-46f2- b3c1- e78558987764
+topic: 開発者と実装
+uuid: 4b215803-99d4-46f2-b3c1-e7855898764
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -22,14 +22,16 @@ prop と eVar にコードで明示的に値を割り当てる代わりに、処
 
 >[!NOTE]
 >
->コンテキストデータ変数では、大文字と小文字は区別されません。例えば、次の2つの変数は事実上同じです。&gt;
+>コンテキストデータ変数では、大文字と小文字が区別されません。 例えば、次の2つの変数は事実上同じです。&gt;
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->```>
+>
+```>
 >and 
 >
->```>
+>
+```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 
@@ -37,7 +39,7 @@ prop と eVar にコードで明示的に値を割り当てる代わりに、処
 
 コンテキストデータを使用すると、レポートスイート設定を変更するためにコードを更新する必要性が減ります。
 
-例えば、以下の *`s.contextData`* 変数:
+例えば、以下の  *`s.contextData`* variable:
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -68,7 +70,7 @@ s.contextData['myco.rsid'] = 'value'
    <td colname="col2"> <p>変数の先頭には会社名やサイト名などの値を付けて、レポートスイート全体で名前が一意になるようにすることをお勧めします。 </p> <p>コンテキストデータ変数は、他の JavaScript 変数に類似した名前を付けることができます。namespace <code>a.*</code> の使用はアドビ製品のコンテキスト変数名で予約されているので注意してください。例えば、AppMeasurement for iOS ライブラリでは、<code>a.InstallEvent</code> を使用してアプリケーションのインストールを測定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Internet ExplorerのURL制限 </p> </td> 
+   <td colname="col1"> <p>URL Limits for Internet Explorer </p> </td> 
    <td colname="col2"> <p>Internet Explorer 6 および 7 で、URL が 2,000 バイト以下に切り捨てられるという古い URL の制限が発生する場合があります。<span class="keyword">DigitalPulse</span> Debugger を使用して URL 文字列のサイズを決定できます。 </p> <p>AppMeasurement の最近のアップデート（2014 年 9 月）では、Internet Explorer 8 以上で HTTP POST が使用され、切り捨ての問題が解決されています。 </p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +92,7 @@ s.tl(true,"o","Link Name");
 
 ## 例 {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-*`s.pageName`* 変数の実装を置換する可能性のある方法（処理ルールがそれぞれに対して正しく設定されている場合）
+Possible ways to replace implementation of the  variable, assuming that processing rules are set up correctly for each:*`s.pageName`*
 
 ```
 s.contextData['page'] = "Home Page" 
@@ -106,4 +108,4 @@ s.contextData['campaign'] = "Campaign A"
 s.contextData['author'] = "Sheridan Andrius"
 ```
 
-例については、Analytics リファレンスの[コンテキストデータ変数の eVar へのコピー](https://marketing.adobe.com/resources/help/en_US/reference/?f=processing_rules_copy_context_data)を参照してください。
+例については、Analytics リファレンスの[コンテキストデータ変数の eVar へのコピー](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html)を参照してください。
