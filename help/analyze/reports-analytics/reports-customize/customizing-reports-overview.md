@@ -1,18 +1,18 @@
 ---
 description: レポートの実行後は、レポートをカスタマイズしてニーズに応じたデータの表示、分析を行うことができます。レポートデータをフィルターしたり、データを図示する方法を変更したり、日付精度を変更したりできます。
 seo-description: レポートの実行後は、レポートをカスタマイズしてニーズに応じたデータの表示、分析を行うことができます。レポートデータをフィルターしたり、データを図示する方法を変更したり、日付精度を変更したりできます。
-seo-title: レポートの概要のカスタマイズ
+seo-title: レポートのカスタマイズの概要
 solution: Analytics
-title: レポートの概要のカスタマイズ
-topic: Reports and Analytics
-uuid: 37d221b7-50fd-4425- b2ba- f40911b72a2f
+title: レポートのカスタマイズの概要
+topic: Reports & Analytics
+uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# レポートの概要のカスタマイズ
+# レポートのカスタマイズの概要
 
 レポートの実行後は、レポートをカスタマイズしてニーズに応じたデータの表示、分析を行うことができます。レポートデータをフィルターしたり、データを図示する方法を変更したり、日付精度を変更したりできます。
 
@@ -31,14 +31,14 @@ t_reports_custom.xml
 **カスタムレポートを作成するには**
 
 1.  レポートを実行し、必要に応じて設定します。
-1. **[!UICONTROL その他]** /カスタムレポート **[!UICONTROL の作成をクリック]**&#x200B;します。
+1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Create Custom Report]**.
 1. Name the report, then click **[!UICONTROL Save.]**
 
    既存のレポート名と重複していないことを確認します。
 
 >[!MORE_LIKE_THIS]
 >
->* [メニューのカスタマイズ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [メニューのカスタマイズ](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
 
 ## 日付または日付範囲の選択 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -51,7 +51,7 @@ t_reports_select_date.xml
 
  -->
 
-特定の日、週、月、または年を選択できます。比較レポートを実行することもできます。を参照してください。
+特定の日、週、月、または年を選択できます。比較レポートを実行することもできます。.
 
 開いたダッシュボードに様々な日付範囲のレポートレットがある場合は、カレンダーで新しい日付範囲を選択できます。変更は、ダッシュボード内のすべてのレポートレットに適用されます。
 
@@ -59,15 +59,15 @@ t_reports_select_date.xml
 
 1. レポートの実行.
 1. 右上のカレンダーアイコンをクリックします。
-1. 日付を選択します。
+1.  日付を選択します。
 
-   以下の操作を行うことができます:
+   以下の操作を行うことができます。
 
    * 日、月、年を表示します（3 つまで）。
    * 日付上でカーソルをドラッグして範囲を選択します。
    * 日付を手動で入力します。
    * 月をクリックして月を選択します。
-   * 「**[!UICONTROL プリセットの選択]**」をクリックして、プリセット日付を選択します。
+   * 「**[!UICONTROL プリセットの選択]」をクリックして、プリセット日付を選択します。**
    * 日付を比較します
 
 1. Click **[!UICONTROL Run Report]**.
@@ -109,7 +109,7 @@ t_reports_graph_percent.xml
 グラフによる視覚化は、ダッシュボードのレポートレットでも利用できます。
 
 1.  [!UICONTROL ページレポート]のように、パーセンテージをサポートするレポートを実行します。
-1. **[!UICONTROL 割合の表示形式をクリックします。グラフ]**&#x200B;を参照してください。
+1. Click **[!UICONTROL Percent Shown As: Graph]**.
 
 ## レポートデータの標準化 {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
@@ -191,7 +191,7 @@ t_reports_granularity.xml
 
 **レポート精度を指定するには**
 
-1. **[!UICONTROL サイトコンテンツ]** / **[!UICONTROL ページなどのトレンドレポートを生成します。]**
+1. Generate a trended report, such as **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages.]**
 1.  「**閲覧者**」リンクをクリックし、精度をクリックします。
 
 ## 曜日レポートの実行 {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
