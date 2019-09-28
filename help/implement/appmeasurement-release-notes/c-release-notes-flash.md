@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: 開発者と実装
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ Flash のこれまでのリリースノートです。ActionScript を使用し�
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログをオンにします。
+>To find the current library version, turn on debug logging.
 
 <!-- 
 
@@ -86,9 +86,9 @@ s.debugTracking = false; // set to false or remove line
 
 * Visitor API 1.5.1 を同梱しました。
 
-## 2015 年 6 月 18 日 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
+## June 18, 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
-バージョン4.0 — アップデート
+Version 4.0 - Update
 
 * Visitor API 1.5 を同梱しました。
 * 顧客 ID および認証済み状態を収集し、データ収集リクエストとともにそれらの ID を送付するには、Visitor API 1.5 以降の getCustomerIDs メソッドを使用してください（AN-102131）。
@@ -99,7 +99,7 @@ s.debugTracking = false; // set to false or remove line
 
 * Visitor API 1.4 を同梱しました。
 
-## 2015 年 2 月 19 日 {#section_95ADF1725CE7415D956944A28182E69B}
+## February 19, 2015 {#section_95ADF1725CE7415D956944A28182E69B}
 
 バージョン 3.9.2:
 
@@ -157,7 +157,7 @@ s.debugTracking = false; // set to false or remove line
 リリース日：**2013 年 10 月 18 日**
 
 * [ハートビートビデオトラッキング](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)がサポートされます。
-* [訪問者 ID サービス](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)をサポートするため、VisitorAPI.swc を同梱しました。
+* [訪問者 ID サービス](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html)をサポートするため、VisitorAPI.swc を同梱しました。
 * ActionScript 3 を使用した Flash Player 9 のサポートが廃止されました。ActionScript 3 の最小 Flash Player バージョンは 10 です。
 
 ## バージョン 3.6.2 {#section_57FB21568BDD48F7882F00AD630E6CE8}
@@ -184,7 +184,7 @@ s.debugTracking = false; // set to false or remove line
 
 * アドビのデータ収集サーバーのページ URL フィールドのサイズ拡大に対応するために、255 バイトを超える URL の送信のサポートを追加しました。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. これにより、ブラウザーを切り捨てる場合に長い URL が他のデータより優先されないようにする一方、長い URL の収集を引き続き有効にすることができます。
 
-* 訪問者の新たな識別方法が追加されました。[個別訪問者の識別](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)を参照してください。
+* 訪問者の新たな識別方法が追加されました。[個別訪問者の識別](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)を参照してください。
 * `abort` フラグを新しく追加しました。このフラグは `doPlugins` 内で設定できます。このフラグを true に設定すると、対象のトラッキング呼び出しで [!DNL AppMeasurement] ライブラリが続行しません。abort フラグはあらゆるトラッキング呼び出しによってリセットされるので、後続のトラッキング呼び出しも中止する必要がある場合は、このフラグを再度 `doPlugins` 内に設定する必要があります。
 
    ```js
