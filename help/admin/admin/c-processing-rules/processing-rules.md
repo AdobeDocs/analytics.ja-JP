@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 処理ルール
 title: 処理ルールの概要
 topic: 管理ツール
-uuid: 6b4ee7c9-2b86-47a6- b64c- c8d644fff67d
+uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -35,15 +35,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 現在は、管理者には処理ルールを使用する権限が&#x200B;**デフォルトで**&#x200B;与えられています。試験を受ける必要はなくなりました。また、管理者は、管理ツールインターフェイスを使用してこの権限を非管理者に付与できます。その方法を次に示します。
 
 1. まだ完了していなければ、処理ルールを使用する権限を持つべき非管理者のみで構成される   [グループを作成](../../../admin/user-management2/c-user-groups/groups.md)します。
-1. [管理者以外のユーザーをそのグループに追加](../../../admin/user-management2/c-user-management/t-add-user-to-group.md)します。
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理]** / **[!UICONTROL グループ]** / **[!UACROL[グループ名]]** / **[!UICONTROL 編集]** / **[!UICONTROL レポートアクセス]** / **[!UICONTROL レポートスイートツール]** / **[!UICONTROL カスタマイズ]** / **[!UICONTROL レポートスイートの管理]**
+1. [Add the non-administrators to that group.](../../../admin/user-management2/c-user-management/t-add-user-to-group.md)
+1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL[group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
 1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->処理ルールはAnalyticsデータに永続的に影響するので、処理ルール管理者は、Adobe Analyticsの認定トレーニングを受信し、レポートスイート（標準的なWebサイト、モバイルサイト、モバイルアプリ、Data Insertion APIなど）のすべてのデータソースに精通していることを強くお勧めします。様々なプラットフォームで入力されるコンテキストデータ変数と標準変数に関する知識は、データの予期しない削除や変更を防ぐのに役立ちます。
+>処理ルールはAnalyticsデータに永続的な影響を与えるので、処理ルール管理者はAdobe Analyticsで認定トレーニングを受け、レポートスイート（標準Webサイト、モバイルサイト、モバイルアプリ、Data Insertion APIなど）のすべてのデータソースに精通することを強くお勧めします。 様々なプラットフォームで入力されるコンテキストデータ変数と標準変数に関する知識は、データの予期しない削除や変更を防ぐのに役立ちます。
 
 ## コンテキストデータを使用したデータ収集の単純化 {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -51,7 +51,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/evar-context-map.png)
 
-実装のヘルプの[コンテキストデータ変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables)を参照してください。
+実装のヘルプの[コンテキストデータ変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)を参照してください。
 
 ## 処理ルールを使用したヒットデータの変換とイベントのトリガー {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -61,4 +61,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 定義したコンテキストデータ変数をレポートで使用するには、eVar などの変数にコピーする必要があります。
 
-詳しくは、[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7)[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)ここをクリックしてください。
+詳しくは、 here and here.[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7)[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)
