@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics に Accelerated Mobile Pages（AMP）プロジェクトを導入します。
-keywords: Analyticsの導入;amp;amp- analytics;adobeanalyticsテンプレート;adobeanalytics_ nativeConfigテンプレート;click tracking;訪問者の水増し;idサービス
+keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
 seo-description: Adobe Analytics に Accelerated Mobile Pages（AMP）プロジェクトを導入します。
 seo-title: Accelerated Mobile Pages
 solution: Analytics
 title: Accelerated Mobile Pages
-topic: 開発者と導入
-uuid: c86e4a80-7191-4ee7- ab20-787730026c4b
+topic: 開発者と実装
+uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -38,7 +38,7 @@ AMP には、参加する技術パートナーおよび発行者の別のコン�
 
 これらの問題を解決するために、アドビは、発行者がビジネスニーズに最適になるように選択できる 2 つのオプションで AMP パートナーおよび発行者と連携しました。両方のオプションで `amp-analytics` タグを使用します。The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. 次の表に、各アプローチの長所と短所を示します。
 
-|  | **「adobeanalytics」テンプレート** | **"adobeanalytics_ nativeConfig" template** |
+|  | **「adobeanalytics」テンプレート** | ** "adobeanalytics_nativeConfig" template** |
 |---|---|---|
 | （既存のレポートスイートの）訪問者数／訪問数 | 高い水増し | 最小の水増し |
 | 別のレポートスイートの使用 | 推奨 | 不要 |
@@ -50,9 +50,9 @@ AMP には、参加する技術パートナーおよび発行者の別のコン�
 
 ## amp-analytics タグと「adobeanalytics」テンプレートの使用 {#section_2E4EBF4EF623440D95DE98E78C47244E}
 
-`"adobeanalytics"`トラッキングテンプレートは `amp-analytics` タグを利用して、トラッキングリクエストを直接作成します。Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). クリックイベントは、セレクターを指定することで、特定のエレメント ID またはクラスに適用するようにカスタマイズできます。Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
+The `"adobeanalytics"`tracking template utilizes the `amp-analytics` tag to construct a tracking request directly. Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). クリックイベントは、セレクターを指定することで、特定のエレメント ID またはクラスに適用するようにカスタマイズできます。Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
 
-次のコード例に、`pageLoad` および `click` が定義された 2 つのトリガーがあります。`pageLoad` トリガーは、ドキュメントが表示されたときに実行され、そこで定義されている `pageName` 変数が含ま `vars section`れます。2 番目のトリガー、`click` は、ボタンがクリックされると実行されます。`eVar 1``button clicked`に設定されます。
+次のコード例に、`pageLoad` および `click` が定義された 2 つのトリガーがあります。The `pageLoad` trigger will fire when the document becomes visible and will include the `pageName` variable as defined in the `vars section`. 2 番目のトリガー、`click` は、ボタンがクリックされると実行されます。`eVar 1` will be set for this event with the value `button clicked`.
 
 ```
   <amp-analytics type="adobeanalytics"> 
@@ -89,17 +89,17 @@ AMP には、参加する技術パートナーおよび発行者の別のコン�
 
 さらに、`amp-analytics` は、認識しているデータ値を AMP が提供できるように、多くの変数の置換をサポートします。[amp-analytics 変数ドキュメント](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md)では、これらのすべておよびその他について学習できます。
 
-任意のテクノロジーまたは DOM 変数（ブラウザー、画面サイズ、デバイス、リファラー、その他）を組み込みたい場合、自動的には生成されないので、リクエストに明示的に追加する必要があることに注意してください。トラッキングに使用される、利用可能な各クエリ文字列パラメーターのドキュメントは、[こちら](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=query_parameters)を参照してください。
+任意のテクノロジーまたは DOM 変数（ブラウザー、画面サイズ、デバイス、リファラー、その他）を組み込みたい場合、自動的には生成されないので、リクエストに明示的に追加する必要があることに注意してください。トラッキングに使用される、利用可能な各クエリ文字列パラメーターのドキュメントは、[こちら](https://marketing.adobe.com/resources/help/en_US/sc/implement/query_parameters.html)を参照してください。
 
 amp-analytics によって作成されたヒットを調査すると、アドビが各リクエストに `vid` クエリパラメーターを含めていることがわかります。組み込み AMP 関数に基づいて `vid` を設定し、`adobe_amp_id` という名前のカスタム Analytics cookie ID を設定します。この ID は、どこかで [!DNL Adobe Analytics] によって設定される他の ID（例：`s_vi cookie`）とは独立しており、ヒットが送信されるレポートスイートに新しい訪問者を作成します。
 
-注意が必要な点がいくつかあります。amp-analytics タグを前述のように使用する場合、訪問者は通常のトラッキングとは独立しており、AMP は任意のコンテンツ配信ネットワークから読み込めるので、訪問者がこの AMP を表示した各 CDN の個別訪問者を取得します（そのため、前述のとおり、訪問者が水増しされます）。For this reason, Adobe recommends that if you use the `"adobeanalytics"` template for `amp-analytics`, you put your data into a separate report suite specific to AMP. [!DNL Experience Cloud] また、IDサービス（以前の） *`visitor ID service`*&#x200B;はこの方法を使用してサポートされていません。したがって、ビジネスで追加 [!DNL Experience Cloud] の統合が必要な場合、または将来的にはこのオプションではない場合があります。
+注意が必要な点がいくつかあります。amp-analytics タグを前述のように使用する場合、訪問者は通常のトラッキングとは独立しており、AMP は任意のコンテンツ配信ネットワークから読み込めるので、訪問者がこの AMP を表示した各 CDN の個別訪問者を取得します（そのため、前述のとおり、訪問者が水増しされます）。For this reason, Adobe recommends that if you use the `"adobeanalytics"` template for `amp-analytics`, you put your data into a separate report suite specific to AMP. Also, the [!DNL Experience Cloud] ID service (formerly, *`visitor ID service`*) is not supported using this method, so if your business requires additional [!DNL Experience Cloud] integrations, or will in the future, this is probably not the option for you.
 
 最後に、そしておそらく最も重要なことは、この `amp-analytics` ソリューションは、既存のプライバシーポリシー制御が優先されるように、`vars` セクションで指定したトラッキングサーバーがメインサイトのトラッキングサーバーと一致している必要があるということです。そうでない場合、AMP 用に個別のプライバシーポリシーを作成する必要があります。
 
 ## amp-analytics タグと「adobeanalytics_nativeConfig」テンプレートの使用 {#section_3556B68304A4492991F439885727E9FF}
 
-`"adobeanalytics_nativeConfig"` 通常のWebページと同じタグ付け手法を使用するので、タグの実装が簡単になります。これを遂行するには、`amp-analytics` タグに次を追加します。
+The `"adobeanalytics_nativeConfig"` tag is easier to implement, as it will use the same tagging methodology you use on your normal web pages. これを遂行するには、`amp-analytics` タグに次を追加します。
 
 ```
 <amp-analytics type="adobeanalytics_nativeConfig"> 
@@ -123,7 +123,7 @@ amp-analytics によって作成されたヒットを調査すると、アドビ
 
 このアプローチは、`iframeMessage` リクエストパラメーターに追加された特別なクエリ文字列パラメーターを使用して、ユーティリティ Web ページにデータを送信します。ここでは、`ampdocUrl AMP` 変数と `documentReferrer` をクエリ文字列パラメーター `pageURL` に追加し、それぞれ上の `iframeMessage` リクエストを参照しています。これらの追加のクエリ文字列パラメーターは、それらから適切なデータを収集するように [!DNL stats.html] ページ（下記を参照）が設定されている限り、好きなように名前を付けることができます。
 
-`"adobeanalytics_nativeConfig"` また、このテンプレートではamp- analyticsタグの `extraUrlParams` セクションに一覧表示されている変数に基づいてクエリ文字列パラメーターを追加します。この場合、`pageName` ページで使用される `v1` および [!DNL stats.html] パラメーターを指定していることを確認できます。
+The `"adobeanalytics_nativeConfig"` template also adds query string parameters based on the variables listed in the `extraUrlParams` section of the amp-analytics tag. この場合、`pageName` ページで使用される `v1` および [!DNL stats.html] パラメーターを指定していることを確認できます。
 
 Be aware that you can only use a single `amp-analytics` template at a time and can not use the `"adobeanalytics"` template as well as the `"adobeanalytics_nativeConfig"` template on the same AMP. そのような場合、ブラウザーコンソールにエラーが表示され、訪問者数が誤って水増しされます。
 
@@ -211,7 +211,7 @@ AMP プロジェクトは、動きが速く頻繁に変更されるので、[こ
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="keyword">Experience Cloud</span> ID サービスとは何ですか。必要ですか。 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> IDサービス </a> （以前 <span class="term"> の訪問者IDサービス </span>）は <span class="keyword"> 、Experience Cloud </span> コアサービスを有効にし、異なるAdobe <span class="keyword"> Experience Cloud </span> ソリューション間の統合を可能にします。<span class="keyword">Adobe Audience Manager</span> または <span class="keyword">Adobe Target</span> と統合している場合、おそらくこのサービスを使用しています。また、このサービスは、今後提供される多くの <span class="keyword">Adobe Analytics</span> 機能の基盤でもあります。ID サービスのサポートが必要な場合、または将来必要になる場合、<code>iframeMessage</code> ソリューションを使用することをお勧めします。 </p> </td> 
+   <td colname="col2"> <p>The  Identity Service  (formerly  visitor ID service ) enables  Experience Cloud  core services and allows integrations between different Adobe  Experience Cloud  solutions. <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"></a><span class="term"></span><span class="keyword"></span><span class="keyword"></span><span class="keyword">Adobe Audience Manager</span> または <span class="keyword">Adobe Target</span> と統合している場合、おそらくこのサービスを使用しています。また、このサービスは、今後提供される多くの <span class="keyword">Adobe Analytics</span> 機能の基盤でもあります。ID サービスのサポートが必要な場合、または将来必要になる場合、<code>iframeMessage</code> ソリューションを使用することをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>「adobeanalytics_nativeConfig」</code>テンプレートについて、ユーティリティページをどこでホストすべきですか。 </p> </td> 
