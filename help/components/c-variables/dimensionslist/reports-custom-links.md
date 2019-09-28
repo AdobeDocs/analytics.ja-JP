@@ -5,9 +5,9 @@ seo-title: カスタムリンク
 solution: Analytics
 title: カスタムリンク
 topic: レポート
-uuid: 2e0d0175- d5e4-4919- b601-3f488ef3e090
+uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 サイトの訪問者が好むリンクが表示されます。例えば、サイトのホームページには、同一ページを表示する複数のリンクが貼られていることがよくあります。画像リンクとテキストリンクが同じリンク先ページに接続されている場合もあります。このレポートは、画像リンクを使用した訪問者とテキストリンクを使用した訪問者のパーセントを示します。
 
-トラッキング対象のリンクは、特別なタグで変更する必要があります。詳しくは、[リンクトラッキング](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=c_linktracking)を参照してください。
+トラッキング対象のリンクは、特別なタグで変更する必要があります。詳しくは、[リンクトラッキング](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)を参照してください。
 
 [!UICONTROL カスタムリンクレポート]は次の目的で使用できます。
 
@@ -25,7 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## モバイル SDK のリンク名 {#section_70C91FE794104B5FBF289B19CC02EA8E}
 
-[モバイルSDK](https://marketing.adobe.com/resources/help/en_US/mobile/home.html) は、カスタムリンクを使用して、アクションおよびライフサイクル指標を追跡します。モバイルアプリの測定に使用されるレポートスイートには、SDK によって設定される次のリンク名が表示されます。
+The [mobile SDKs](https://marketing.adobe.com/resources/help/en_US/mobile/home.html) use custom links to track actions and lifecycle metrics. モバイルアプリの測定に使用されるレポートスイートには、SDK によって設定される次のリンク名が表示されます。
 
 | ADBINTERNAL:Lifecycle | 4.x SDK のライフサイクル呼び出しによって送信されます。 |
 |---|---|
