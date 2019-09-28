@@ -1,14 +1,14 @@
 ---
 description: データソース使用の準備に利用できる手順です。
 seo-description: データソース使用の準備に利用できる手順です。
-seo-title: データソースの使用の準備
+seo-title: データソースを使用するための準備
 solution: Analytics
 subtopic: データソース
-title: データソースの使用の準備
-topic: 開発者と導入
-uuid: 876ea069-574b-4e23-93b7- e3828bfd90f5
+title: データソースを使用するための準備
+topic: 開発者と実装
+uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -29,11 +29,11 @@ It is important to understand the metrics or measurements that are contained in 
 
 データソースのデータに対して指標とイベントとの適切なマッピングを決定した後は、イベント名を、関連するデータソース指標に対応するわかりやすい名前に変更します。
 
-管理ツールのヘルプの「[成功イベント](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event)」を参照してください。
+管理ツールのヘルプの「[成功イベント](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)」を参照してください。
 
 >[!NOTE]
 >
->データソースのデータには、新しい空のイベントを使用することを強くお勧めしますが、事前に存在するイベントを使用する場合には意味がありません。
+>データソースのデータで新しい空のイベントを使用することを強くお勧めしますが、既存のイベントを使用すると効果的な場合が稀にあります。
 
 ## データディメンションの指定 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -41,17 +41,17 @@ It is important to understand the metrics or measurements that are contained in 
 
 例えば、データソース指標で広告インプレッションを測定する場合は、キャンペーントラッキングコードをデータディメンションとすることが考えられます。オフラインの売上高を測定する場合、製品コード（SKU）をデータディメンションとして使用できます。
 
-指標に複数のデータディメンションを定義できますが、各指標が、関連付けられた各データディメンションに対して、関連する値または値の組み合わせを提供する必要があります。例えば、オフラインの売上高指標をインポートし、これを&#x200B;*`Product`* および *`Partner`* データディメンションの場合、オフラインの売上高指標は製品とパートナーの各組み合わせ（例えば、合計売上高）に関連している必要があります。
+指標に複数のデータディメンションを定義できますが、各指標が、関連付けられた各データディメンションに対して、関連する値または値の組み合わせを提供する必要があります。例えば、オフラインの売上高指標をインポートし、これを *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
 >[!NOTE]
 >
->どのデータディメンションでも分類できないトータル指標をインポートできます。
+>It is possible to import Total metrics that cannot be broken down by any data dimension.
 
 データソースで使用するデータディメンションを定義した後は、変数へのマッピングによってディメンションデータをマーケティングレポート内に組み込みます。標準のレポート（製品、トラッキングコード、検索キーワードなど）またはコンバージョントラフィック変数（eVar）のどちらかを使用します。
 
 eVar を使用する場合は、既存の eVar と新規の eVar のどちらでもデータディメンションとして使用できます。データソースからデータディメンションを受け取る eVar を選択したら、必ずこれらの eVar に適切な名前を付けてください。
 
-Analytics のヘルプの「[成功イベント](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event)」を参照してください。
+Analytics のヘルプの「[成功イベント](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)」を参照してください。
 
 ## キャンペーントラッキングコード {#section_468222796FF449ABAA90D88EB3264CB1}
 
