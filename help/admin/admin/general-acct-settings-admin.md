@@ -5,9 +5,9 @@ seo-title: 一般的なアカウント設定
 solution: Analytics
 title: 一般的なアカウント設定
 topic: 管理ツール
-uuid: c1ab5c34-2c41-4d12- a706-0e760dff8a95
+uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 管理におけるレポートスイートの一般的なアカウント設定のフィールドの説明。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** / **[!UICONTROL 設定を編集]** / **[!UICONTROL 一般]** / **[!UICONTROL 一般的なアカウント設定]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /]** レポート **[!UICONTROL Suites]** /設定の編集/一般 **[!UICONTROL Settings/一般General]** Account ******[!UICONTROL Settings]**
 
 これらの設定には、名前やタイムゾーンなど、基本的なレポートスイート機能の編集オプションが含まれます。
 
@@ -50,15 +50,15 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle">IP アドレスの最後のオクテットを 0 に置き換えます</span> </td> 
-   <td colname="col2"> <p>最後のオクテットの削除が、IP フィルタリングの前におこなわれます。最後のオクテットが 0 に置換されるので、末尾が 0 の IP アドレスに一致するように IP 除外ルールを更新します。「* に一致」は、 0 にも一致します。 </p> <p>このオプションを選択すると、IP アドレスが処理される前に変更されます。例えば、IP アドレス 134.123.567.780 は 134.123.567.0 に変更されます。地理特性データは、変更前の IP アドレスを使用した場合と正確には一致しません。具体的には、市区町村の精度は国や地域の精度よりも影響を受けます。変更前の IP アドレスは、ボットルールと VISTA ルールのどちらでも使用できないので、これらのルールは共に影響を受けます。また、マーケティングチャネルルールやレポートスイート処理ルールなどの IP ベースの処理ルールも、この設定の影響を受けます。 </p> <p>注意： 2019 年 1 月以降、ロンドンデータセンターで作成される新しいレポートスイートでは、この設定がデフォルトで有効になりますが、これは、そのレポートスイートの設定が、Admin Console に一覧表示されるテンプレートからコピーされた場合に限ります。他のレポートスイートから設定をコピーしたレポートスイートでは、すべての設定が、選択したレポートスイートから継承されます。 </p></td> 
+   <td colname="col2"> <p>最後のオクテットの削除が、IP フィルタリングの前におこなわれます。最後のオクテットが 0 に置換されるので、末尾が 0 の IP アドレスに一致するように IP 除外ルールを更新します。「* に一致」は、 0 にも一致します。 </p> <p>このオプションを選択すると、IP アドレスが処理される前に変更されます。例えば、IP アドレス 134.123.567.780 は 134.123.567.0 に変更されます。地理特性データは、変更前の IP アドレスを使用した場合と正確には一致しません。Specifically, city accuracy is going to be more affected than country or region accuracy. 変更前の IP アドレスは、ボットルールと VISTA ルールのどちらでも使用できないので、これらのルールは共に影響を受けます。また、マーケティングチャネルルールやレポートスイート処理ルールなどの IP ベースの処理ルールも、この設定の影響を受けます。 </p> <p>注意： 2019 年 1 月以降、ロンドンデータセンターで作成される新しいレポートスイートでは、この設定がデフォルトで有効になりますが、これは、そのレポートスイートの設定が、Admin Console に一覧表示されるテンプレートからコピーされた場合に限ります。他のレポートスイートから設定をコピーしたレポートスイートでは、すべての設定が、選択したレポートスイートから継承されます。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP Obfuscation（IP の不明化）</span> </td> 
-   <td colname="col2"> <p>IP アドレスを認識不可能な文字列に変更して、アドビのデータストアから削除します。IP の不明化を有効にすると、元の IP アドレスは永久に失われます。 </p> <p>注意：Data Warehouse を含め、Analytics のどこでも、IP アドレスが不明化されます。ただし、Target の IP 設定は別に制御されているので、この設定が Target に影響することはありません。 </p> <p>IP の不明化を有効にすると、IP アドレスが不明化される前に IP の除外がおこなわれるので、IP の不明化を有効にする際に、お客様は何も変更する必要はありません。 </p> <p>「<span class="uicontrol">無効</span>」をチェックすると、データの IP アドレスはそのまま変更されません。 </p> <p>「<span class="uicontrol">IP アドレスを不明化</span>」をチェックすると、IP がハッシュ値（234abc6493872038 など）に変更されます。 </p> <p>「<span class="uicontrol">IP アドレスを削除</span>」をチェックすると、地域ルックアップ後に IP アドレスがデータ内で x.x.x.x に置き換えられます。 </p> <p>注意:この設定には、カスタム <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> ボットルール</a> または<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP除外の変更が必要になる</a>場合があります。 </p> </td> 
+   <td colname="col2"> <p>IP アドレスを認識不可能な文字列に変更して、アドビのデータストアから削除します。IP の不明化を有効にすると、元の IP アドレスは永久に失われます。 </p> <p>注意：Data Warehouse を含め、Analytics のどこでも、IP アドレスが不明化されます。ただし、Target の IP 設定は別に制御されているので、この設定が Target に影響することはありません。 </p> <p>IP の不明化を有効にすると、IP アドレスが不明化される前に IP の除外がおこなわれるので、IP の不明化を有効にする際に、お客様は何も変更する必要はありません。 </p> <p>「<span class="uicontrol">無効</span>」をチェックすると、データの IP アドレスはそのまま変更されません。 </p> <p>「<span class="uicontrol">IP アドレスを不明化</span>」をチェックすると、IP がハッシュ値（234abc6493872038 など）に変更されます。 </p> <p>「<span class="uicontrol">IP アドレスを削除</span>」をチェックすると、地域ルックアップ後に IP アドレスがデータ内で x.x.x.x に置き換えられます。 </p> <p>注意：この設定では、カスタムボットルールまたは <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> IP除外の変更</a> が必要になる場合があります<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"></a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> トランザクション ID ストレージ</span> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID" format="https" scope="external">トランザクション ID</a> データソースを使用できるようにします。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external">トランザクション ID</a> データソースを使用できるようにします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Ad Hoc Analysis をアクティブ化</span> </td> 
