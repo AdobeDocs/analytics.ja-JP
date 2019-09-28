@@ -1,14 +1,14 @@
 ---
 description: どのようにして Web サイトへの訪問が Adobe Analytics のレポートになるかを説明します。
-keywords: Analyticsの導入;データ収集
+keywords: Analyticsの導入；データ収集
 seo-description: どのようにして Web サイトへの訪問が Adobe Analytics のレポートになるかを説明します。
 seo-title: データ収集
 solution: Analytics
 title: データ収集
-topic: 開発者と導入
-uuid: d0d6098d-113e-4cf5- bb89- e435f7b6b1af
+topic: 開発者と実装
+uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -21,7 +21,7 @@ Analytics データ収集は、Adobe データ収集サーバーに特別なイ�
 
 ブラウザー処理の通常のボトルネックは Web サーバーからのページエレメント（画像など）のダウンロードにかかる時間なので、ブラウザーが JavaScript コードを実行するのに必要な時間は無視できます。ただし、訪問者のブラウザーが Adobe データ収集サーバーから画像をリクエストする最後のステップは、合計ページダウンロード時間に追加されます。ページダウンロード時間に対する全体的な影響は、Adobe データ収集サーバーまでの Web サイト訪問者の距離（通常、地理的な距離ではなく、インターネットホップ数）によって異なります。
 
-アドビでは、Analytics にデータを送信する複数の方法を導入しています。これらの方法では、次のソースからのリアルタイムのトラッキング情報も処理されます。
+アドビでは、Analytics にデータを送信する複数の方法を用意しています。これらの方法では、次のソースからのリアルタイムのトラッキング情報も処理されます。
 
 * インターネットにアクセスできるアプリケーション
 * キャンペーン
@@ -61,7 +61,7 @@ Analytics データ収集は、Adobe データ収集サーバーに特別なイ�
 
    >[!NOTE]
    >
-   >各イメージリクエストには、ブラウザーのキャッシュを防ぎ、後続のイメージリクエストがブラウザーによって確実に実行されるように、乱数文字列が含まれています。
+   >各イメージリクエストには乱数文字列が含まれ、ブラウザーのキャッシュを防ぎ、以降のイメージリクエストがブラウザーによって行われるようにします。
 
 1. Adobe は、透明なピクセルイメージを返します。
 
@@ -69,11 +69,11 @@ Analytics データ収集は、Adobe データ収集サーバーに特別なイ�
 
    コードは追加の詳細（オペレーティングシステム、ブラウザーのタイプ、ブラウザーの高さと幅、IP アドレス、ブラウザーの言語など）を自動的に収集します。
 
-1. Adobe servers store web analysis data in *`report suites`* (your data repository).
+1. アドビのサーバーは、Web分析データを *`report suites`* （お客様のデータリポジトリ）に保存します。
 
    ![](assets/how-data-is-collected-5.png)
 
-   [レポートスイート](https://marketing.adobe.com/resources/help/en_US/reference/?f=report_suites_admin)では、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。
+   [レポートスイート](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)では、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。
 
 1. レポートスイートデータは、Web ブラウザーでアクセスできるレポートに入力されます。
 
