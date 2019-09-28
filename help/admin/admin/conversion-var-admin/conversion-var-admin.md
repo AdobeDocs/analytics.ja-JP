@@ -6,9 +6,9 @@ seo-title: コンバージョン変数（eVar）
 solution: Analytics
 title: コンバージョン変数（eVar）
 topic: 管理ツール
-uuid: 1eed0cb1-0735-4142- be21-43f264216b50
+uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -29,11 +29,11 @@ eVar は、次のような原因と結果を測定するために最適です。
 
 >[!NOTE]
 >
->イメージリクエストのeVarに格納できるのは単一の値のみです。1 つの eVar の値に複数の値を格納したい場合は、[リスト変数（リスト var）](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)を実装することをお勧めします。
+>イメージリクエストのeVarに格納できる値は1つだけです。 1 つの eVar の値に複数の値を格納したい場合は、[リスト変数（リスト var）](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)を実装することをお勧めします。
 
 ## コンバージョン変数 - 説明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descriptions of fields used when [editing conversion variables](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97).
+Descriptions of fields used when editing conversion variables.[](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97)
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 
@@ -49,11 +49,11 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">タイプ</span> </p> <p>（eVar のみ） </p> </td> 
-   <td colname="col2"> <p>次のような変数値のタイプがあります。 </p> <p> <b>テキスト文字列</b>:</span> サイトで使用されているテキスト値をキャプチャします。これが最も一般的なタイプの eVar であり、デフォルトの設定です。この eVar は他の変数と同様に機能し、変数内の値は静的テキスト文字列です。内部キャンペーンや内部検索のキーワードなどを追跡している場合は、このタイプの設定をお勧めします。 </p> <p> <b>カウンター</b>:</span> あるアクションが成功イベントの前に発生した回数をカウントします。例えば、eVar を使ってサイト上での内部検索を追跡する場合、この値を「<span class="uicontrol">テキスト文字列</span>」に設定して検索用語の使用状況を追跡します。この値を「<span class="uicontrol">カウンター</span>」に設定すると、使用された検索用語にかかわらず検索回数がカウントされます。例えば、カウンター eVar を使用すると、誰かが購入前に内部検索を使用した回数を追跡できます。 </p> </td> 
+   <td colname="col2"> <p>次のような変数値のタイプがあります。 </p> <p> <b></b> Text String</span>:サイトで使用されているテキスト値を取得します。 これが最も一般的なタイプの eVar であり、デフォルトの設定です。この eVar は他の変数と同様に機能し、変数内の値は静的テキスト文字列です。内部キャンペーンや内部検索のキーワードなどを追跡している場合は、このタイプの設定をお勧めします。 </p> <p> <b></b> カウンタ</span>:あるアクションが成功イベントの前に発生した回数を数えます。 例えば、eVar を使ってサイト上での内部検索を追跡する場合、この値を「<span class="uicontrol">テキスト文字列</span>」に設定して検索用語の使用状況を追跡します。この値を「<span class="uicontrol">カウンター</span>」に設定すると、使用された検索用語にかかわらず検索回数がカウントされます。例えば、カウンター eVar を使用すると、誰かが購入前に内部検索を使用した回数を追跡できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">配分</span> </p> </td> 
-   <td colname="col2"> <p>成功イベントの前に変数が複数の値を受け取った場合、そのイベントのクレジットを Analytics がどのように割り当てるかを決定します。次の値がサポートされています。 </p> <p> <b>最新</b>:最後のeVar値は、そのeVarが期限切れになるまで、成功イベントのクレジットを常に受け取ります。 </p> <p> <b>元の値</b>:最初のeVarは、そのeVarが期限切れになるまで、成功イベントのクレジットを常に受け取ります。 </p> <p> <b> 線形</b>:成功イベントをeVarのすべての値に均等に配分します。線形配分ではある訪問中の値のみが正確に分配されるので、線形配分は訪問の eVar 有効期限を設定して使用します。 </p> <p>注意：線形配分に切り替えたり、線形配分から切り替えたりすると、履歴データが表示されなくなります。レポートインターフェイスに配分タイプが混在していると、レポートに表示されるデータが不正確になる可能性があります。例えば、線形配分によって、複数の異なる eVar 値で売上高が分割される可能性があります。「最新」配分に変更すると、その売上高の 100% が最新の単一の値に関連付けられます。この関連付けによって、ユーザーが間違った結論を下す可能性があります。 </p> <p>レポートで混乱が発生する可能性を回避するために、Analytics では、インターフェイスで履歴データを使用できないようにしています。eVar を最初の配分設定に戻すと履歴データを表示できますが、履歴データにアクセスするためだけに eVar の配分設定を変更しないでください。記録済みのデータで新しい配分設定が必要になる場合は、既に大量の履歴データが作成されている eVar の配分設定を変更するのではなく、新しい eVar を使用することをお勧めします。 </p> </td> 
+   <td colname="col2"> <p>成功イベントの前に変数が複数の値を受け取った場合、そのイベントのクレジットを Analytics がどのように割り当てるかを決定します。次の値がサポートされています。 </p> <p> <b>最新</b>:最後のeVar値が、そのeVarの期限が切れるまで、成功イベントのクレジットを常に受け取ります。 </p> <p> <b>元の値</b>:最初のeVarは、そのeVarの期限が切れるまで、成功イベントのクレジットを常に受け取ります。 </p> <p> <b> 線形</b>：成功イベントをeVarのすべての値に均等に配分します。 線形配分ではある訪問中の値のみが正確に分配されるので、線形配分は訪問の eVar 有効期限を設定して使用します。 </p> <p>注意：線形配分に切り替えたり、線形配分から切り替えたりすると、履歴データが表示されなくなります。レポートインターフェイスに配分タイプが混在していると、レポートに表示されるデータが不正確になる可能性があります。例えば、線形配分によって、複数の異なる eVar 値で売上高が分割される可能性があります。「最新」配分に変更すると、その売上高の 100% が最新の単一の値に関連付けられます。この関連付けによって、ユーザーが間違った結論を下す可能性があります。 </p> <p>レポートで混乱が発生する可能性を回避するために、Analytics では、インターフェイスで履歴データを使用できないようにしています。eVar を最初の配分設定に戻すと履歴データを表示できますが、履歴データにアクセスするためだけに eVar の配分設定を変更しないでください。記録済みのデータで新しい配分設定が必要になる場合は、既に大量の履歴データが作成されている eVar の配分設定を変更するのではなく、新しい eVar を使用することをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 有効期限</span> </p> </td> 
@@ -76,12 +76,12 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">月で設定：有効期限は 31 日後の午前 7 時 15 分に切れます。 </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定のコンバージョンイベント。</b>eVar に関連付けて指定された特定のイベントの後に発生するその他のコンバージョンイベント。 </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>なし</b>。<span class="varname"> visitorID</span> cookieは不変で、eVarとイベントの間で任意の時間を渡すことができます。 </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>なし</b>。 <span class="varname"> visitorID</span> cookie is intact, any amount of time can pass between eVar and event. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> ステータス</span> </p> <p>（eVar のみ） </p> </td> 
-   <td colname="col2"> <p>eVar の状態を次のように定義します。 </p> <p><b>無効</b>:</span> eVarを無効にします。eVar をコンバージョン変数リストから削除します。 </p> <p> <b>下位関係なし</b>:</span> eVarを下位関係で分類できないようにします。 </p> <p> <b>基本サブリレーション</b>: </span>任意のレポートでeVarをフルサブリレーション（製品やキャンペーンなど）で分類できます。 </p> </td> 
+   <td colname="col2"> <p>eVar の状態を次のように定義します。 </p> <p><b></b> 無効</span>:eVarを無効にします。 eVar をコンバージョン変数リストから削除します。 </p> <p> <b></b> 下位関係なし</span>:eVarを下位関係で分類するのを防ぎます。 </p> <p> <b>基本的な下位関係</b>:フル </span>サブリレーション（製品やキャンペーンなど）を含む任意のレポートでeVarを分類できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">リセット</span> </p> </td> 
@@ -89,7 +89,7 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> マーチャンダイジング</span> </p> <p>（eVar のみ） </p> </td> 
-   <td colname="col2"> <p>マーチャンダイジング変数は次の 2 つの構文のいずれかに従います。 </p> <p> <b>製品構文</b>:</span> eVar値を製品に関連付けます。注意：商品構文を選択すると、「マーチャンダイジングバインディングイベント」セクションは無効になり、編集できなくなります。この構文で、バインディングイベントは使用できません。 </p> </p> <p> <b>コンバージョン変数の構文</b>:</span> バインディングイベントが発生した場合のみ、eVarを製品に関連付けます。この場合、バインディングイベントに設定するイベントを選択します。 </p> <p>JavaScript コードを適切に更新せずにこの設定を変更すると、データが失われます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=var_merchandising" format="http" scope="external">マーチャンダイジング変数</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>マーチャンダイジング変数は次の 2 つの構文のいずれかに従います。 </p> <p> <b></b> 製品の構文</span>:eVar値を製品に関連付けます。 注意：商品構文を選択すると、「マーチャンダイジングバインディングイベント」セクションは無効になり、編集できなくなります。この構文で、バインディングイベントは使用できません。 </p> </p> <p> <b></b> コンバージョン変数の構文</span>:バインディングイベントが発生した場合にのみeVarを製品に関連付けます。 この場合、バインディングイベントに設定するイベントを選択します。 </p> <p>JavaScript コードを適切に更新せずにこの設定を変更すると、データが失われます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">マーチャンダイジング変数</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> マーチャンダイジングバインディングイベント</span> </p> <p>（eVar のみ） </p> </td> 
