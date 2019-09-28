@@ -4,9 +4,9 @@ seo-description: 以前の Target Classic と同じように、Adobe Analytics �
 seo-title: Target の上昇率と信頼性
 solution: Analytics
 title: Target の上昇率と信頼性
-uuid: 00276cd2-2e0d-4a25- ae8a- d9f4b30dd8ba
+uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
 
-**[!UICONTROL Analytics]** / **[!UICONTROL レポート]** /すべて **[!UICONTROL のレポート]** を表示/ **[!UICONTROL Adobe Target]** / **[!UICONTROL Targetの分析]** / **[!UICONTROL ターゲットアクティビティ]**
+**[!UICONTROL Analytics &gt; Reports &gt; View All Reports &gt; Adobe Target &gt; Analytics for Target &gt; Target Activities .]**********************
 
-Adobe Target ドキュメントには、[上昇率](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_estimating_lift_in_revenue)と[信頼性](https://marketing.adobe.com/resources/help/en_US/rec/?f=c_Confidence_Level_and_Confidence_Interval)についての詳細な情報が記載されています。
+Adobe Target ドキュメントには、[上昇率](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html)と[信頼性](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html)についての詳細な情報が記載されています。
 
 上昇率と信頼性を計算するには：
 
