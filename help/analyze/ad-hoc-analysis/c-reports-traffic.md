@@ -7,7 +7,7 @@ title: トラフィックソースレポート
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -97,7 +97,7 @@ c_reports_referrers.xml
 
 こうした定義されたドメインおよび URL を含まないドメインや URL は、リファラーと見なされます。例えば、Web ページ A と Web ページ B が内部 URL フィルターに含まれていて、Web ページ C は含まれていないとします。この場合、Web ページ C がリファラーと見なされます。
 
-詳しくは、[ ヘルプの「](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin)内部 URL フィルター[!DNL Admin Console]」を参照してください。
+詳しくは、[ ヘルプの「](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html)内部 URL フィルター[!DNL Admin Console]」を参照してください。
 
 >[!NOTE]
 >
