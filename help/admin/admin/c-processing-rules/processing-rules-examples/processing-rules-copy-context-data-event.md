@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 処理ルール
 title: コンテキストデータ変数を使用したイベントの設定
 topic: 管理ツール
-uuid: 4a6018eb-03e2-4ec8-874b- e48bf716e103
+uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/add-context-variable.png)
 
-The following rule definition expands on the [Copy a Context Data Variable to an eVar](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) rule to also set an event on every hit that contains a specific context data variable:
+次のルール定義は、「コンテキストデ [](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) ータ変数をeVarにコピー」ルールで拡張し、特定のコンテキストデータ変数を含むすべてのヒットにイベントを設定します。
 
 | ルールセット | 値 |
 |---|---|
@@ -38,4 +38,4 @@ The following rule definition expands on the [Copy a Context Data Variable to an
 
 ![](assets/processing_rule_set_event.png)
 
-実装のヘルプの[コンテキストデータ変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables)を参照してください。
+実装のヘルプの[コンテキストデータ変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)を参照してください。
