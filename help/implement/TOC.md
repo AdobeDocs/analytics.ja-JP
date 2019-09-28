@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 実装ガイド
 user-guide-url: /content/help/ja-JP/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
       + [モバイルプロトコルでのカスタムリンク測定](js-implementation/c-additional-libraries/mobile-link-tracking.md)
    + Analytics 実装およびレポート用変数 {#variables-analytics-reporting}
       + [変数の概要](js-implementation/c-variables/sc-variables.md)
-      + [設定変数リスト](js-implementation/c-variables/configuration-variables.md)
+      + [Configuration variables list](js-implementation/c-variables/configuration-variables.md)
       + 設定変数 {#config-var}
          + [s.account](js-implementation/c-variables/config-vars/s-account.md)
          + [s.dynamicAccountSelection](js-implementation/c-variables/config-vars/s-dynaccsel.md)
@@ -211,7 +211,7 @@ source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
       + [Analytics 訪問者 ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [フォールバック ID による方法](js-implementation/c-unique-visitors/visid-fallback.md)
       + [モバイルデバイスの識別](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Experience Cloud コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
+   + [Experience Cloud コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + デバイス間の訪問者の識別 {#cross-device-visitor-id}
       + [デバイス間のユーザーの接続](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [デバイス間の訪問者の識別によるデータの影響](js-implementation/xdevice-visid/xdevice-data.md)
