@@ -1,19 +1,19 @@
 ---
 description: 処理ルールは、コンテキストデータ変数の値を prop および eVar に移動するために使用されます。
 seo-description: 処理ルールは、コンテキストデータ変数の値を prop および eVar に移動するために使用されます。
-seo-title: コンテキストデータ変数のeVarへのコピー
+seo-title: コンテキストデータ変数の eVar へのコピー
 solution: Analytics
 subtopic: 処理ルール
-title: コンテキストデータ変数のeVarへのコピー
+title: コンテキストデータ変数の eVar へのコピー
 topic: 管理ツール
-uuid: 1bebas4c-71e9-49ce- b154-78408cc532a3
+uuid: 1beac4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# コンテキストデータ変数のeVarへのコピー
+# コンテキストデータ変数の eVar へのコピー
 
 処理ルールは、コンテキストデータ変数の値を prop および eVar に移動するために使用されます。
 
@@ -38,4 +38,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/set-context-data.png)
 
-実装のヘルプの[コンテキストデータ変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables)を参照してください。
+実装のヘルプの[コンテキストデータ変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)を参照してください。
