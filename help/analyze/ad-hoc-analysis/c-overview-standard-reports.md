@@ -7,7 +7,7 @@ title: レポートの概要
 topic: Ad Hoc Analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 標準レポートには、Web サイトと訪問者のアクティビティに関するデータ、トラフィックパターン、リファラーデータ、広告キャンペーン、訪問者保持率、製品データなどが表示されます。レポートを実行し、ツールを使用してセグメント、指標およびレポート比較を設定できます。
 
-## Reports overview {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
+## レポートの概要 {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
 
 標準レポートには、Web サイトと訪問者のアクティビティに関するデータ、トラフィックパターン、リファラーデータ、広告キャンペーン、訪問者保持率、製品データなどが表示されます。レポートを実行し、ツールを使用してセグメント、指標およびレポート比較を設定できます。
 
@@ -61,7 +61,7 @@ c_reports_campaigns.xml
 
  -->
 
-これらのレポートは通常カスタマイズされるので、分析ごとに異なります。詳しくは、 ヘルプの「[キャンペーンマネージャー](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=campaign_manager_admin)」を参照してください。[!DNL Admin Console]
+これらのレポートは通常カスタマイズされるので、分析ごとに異なります。詳しくは、 ヘルプの「[キャンペーンマネージャー](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html)」を参照してください。[!DNL Admin Console]
 
 ## 統計指標 {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -79,10 +79,10 @@ c_Statistical_Calculation_ad_hoc.xml
 
 1. Select **[!UICONTROL Tools]** &gt; **[!UICONTROL Ranked]** from the menu.
 
-1. **[!UICONTROL 「設定]**」を選択します。
+1. Select **[!UICONTROL Settings]**.
 1. Select **[!UICONTROL Default Statistics]**.
 
-**[!UICONTROL 統計指標でゼロを無視]**&#x200B;します。このオプションをオンにすると、ゼロが無視され、別の指標を追加しても、既に計算が終わっている代表値が変わらなくなります。この設定は、統計指標すべてに影響します（合計は除く）。
+**[!UICONTROL 統計計算でゼロを無視]**。 このオプションをオンにすると、ゼロが無視され、別の指標を追加しても、既に計算が終わっている代表値が変わらなくなります。この設定は、統計指標すべてに影響します（合計は除く）。
 
 | 指標 | 説明 |
 |--- |--- |
@@ -104,7 +104,7 @@ Mean 関数では、Microsoft Excel でデータが列になっている場合�
   <tr> 
    <th colname="col1" align="center" class="entry"> 日付 </th> 
    <th colname="col2" align="center" class="entry"> 単一訪問 </th> 
-   <th colname="col3" align="center" class="entry"> 訪問数 </th> 
+   <th colname="col3" align="center" class="entry"> 入口 </th> 
    <th colname="col4" align="center" class="entry"> 直帰率 </th> 
    <th colname="col5" align="center" class="entry"> </th> 
   </tr>
@@ -160,4 +160,4 @@ c_groups.xml
 
  -->
 
-**[!UICONTROL ツール]** / **[!UICONTROL グループマネージャー]**&#x200B;をクリックします。
+Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Group Manager]**.
