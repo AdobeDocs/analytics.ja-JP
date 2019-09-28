@@ -5,10 +5,10 @@ seo-title: マーケティングチャネルでの分類
 solution: Analytics
 subtopic: マーケティングチャネル
 title: マーケティングチャネルでの分類
-topic: Reports and Analytics
-uuid: 8b31cff5-36a6-4072- b0f9- f932dc890a87
+topic: Reports & Analytics
+uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -25,11 +25,11 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 >[!NOTE]
 >
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) in Analytics Reference help.
+>Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
 
 >[!IMPORTANT]
 >
->マーケティングチャネル分類レポートは、標準分類とは多少異なります。ファーストタッチレポートまたはラストタッチレポートの分類を作成すると、両方に自動的に適用されます。分類しないで分類することはできません。
+>マーケティングチャネルの分類レポートの動作は、標準の分類とは少し異なります。ファーストタッチまたはラストタッチのレポートの分類を作成すると、その両方に自動的に適用されます。 一方を分類すると、他方を分類しないと分類できません。
 
 ## マーケティングチャネルの分類 - 定義 {#section_38D2F8BBA47D444780B65BD84156532D}
 
@@ -43,7 +43,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 [!UICONTROL マーケティングチャネル]レポートの分類を作成します。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
-1. [!UICONTROL Report Suite Manager]で、設定 **[!UICONTROL を編集]** / **[!UICONTROL マーケティングチャネル]** / **[!UICONTROL マーケティングチャネルの分類]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
 1. [マーケティングチャネルの分類](../../components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D)ページで、分類のタイプを指定します。
 1. 「[!UICONTROL 分類]**」で、「[!UICONTROL 分類の追加]**」をクリックします（または既存の分類を編集します）。
