@@ -5,9 +5,9 @@ seo-title: マーケティングチャネルの詳細 - ファーストタッチ
 solution: Analytics
 title: マーケティングチャネルの詳細 - ファーストタッチとラストタッチ
 topic: レポート
-uuid: 669152df-90b3-4a39- b8c0- aea0f5dd8323
+uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,17 +18,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **レポートプロパティ**
 
-* このレポートは、マーケティングチャネルで定義されたルールで実行されます。[チャネルとルール](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_channels_rules)を参照してください。
+* このレポートは、マーケティングチャネルで定義されたルールで実行されます。[チャネルとルール](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html)を参照してください。
 
-   特に、このレポートは各ルールの&#x200B;**[!UICONTROL チャネルの値を次に設定する]部分を使用します。**&#x200B;これらのルールまたはチャネルの値をどのように設定するかを変更すると、このレポート内のデータを計算する方法が変わります。詳しくは、マーケティングチャネルの処理ルールの [FAQ](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_faq) を参照してください。
+   特に、このレポートは各ルールの&#x200B;**[!UICONTROL チャネルの値を次に設定する]部分を使用します。**&#x200B;これらのルールまたはチャネルの値をどのように設定するかを変更すると、このレポート内のデータを計算する方法が変わります。詳しくは、マーケティングチャネルの処理ルールの [FAQ](https://marketing.adobe.com/resources/help/en_US/mchannel/c_faq.html) を参照してください。
 
-* ファーストタッチとラストタッチの違いについては、[マーケティングチャネルレポートの概要](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview)を参照してください。****
+* ファーストタッチとラストタッチの違いについては、[マーケティングチャネルレポートの概要](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview.html)を参照してください。****
 
 * 処理ルールの順序は、マーケティングチャネルの機能にとって重要です。それぞれのヒットでは最初に最上部の処理ルールの条件がチェックされ、そこから下に絞り込まれます。
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
-* 標準の方法で収集された様々なチャネルに加えて、[オフラインデータソース](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview_online_offline)も使用できます。
-* このレポートで[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)を使用すると、行項目の名前変更や統合ができます。マーケティングチャネルについて詳しくは、[ここ](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_classifications)を参照してください。
+* 標準の方法で収集された様々なチャネルに加えて、[オフラインデータソース](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_online_offline.html)も使用できます。
+* このレポートで[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)を使用すると、行項目の名前変更や統合ができます。マーケティングチャネルについて詳しくは、[ここ](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html)を参照してください。
 
 * 他のすべてのマーケティングチャネルレポートにより、このレポートを掘り下げることができます。
 * カスタムサブリレーションを使用して、このレポートの追加の詳細を有効にすることができます。追加の情報については、組織のサポート対象のユーザーから担当のカスタマーケアに連絡して、特定の変数の有効化を要求してください。
@@ -40,9 +40,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    * e コマースのすべての標準的な指標：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、買い物かごからの削除数
    * すべてのカスタムイベント：イベント 1 ～ 80（H22 コード以上では、さらにイベント 81 ～ 100）
    * 訪問回数および訪問者数：使用できるかどうかは、組織およびレポートスイートに依存します。詳細については、アカウントマネージャーにお問い合わせください。
-   [!UICONTROL マーケティング チャネル]ヘルプの[指標](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview_metrics)を参照してください。
+   [!UICONTROL マーケティング チャネル]ヘルプの[指標](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html)を参照してください。
 
 >[!NOTE]
 >
->[!UICONTROL マーケティングチャネル] レポートは、バージョン13.5では利用できません。
+>[!UICONTROL マーケティングチャネルレポートは] 、バージョン13.5では使用できません。
 
