@@ -5,10 +5,10 @@ seo-title: Windows Silverlight、NET、IIS、XBOX
 solution: Analytics
 subtopic: リリースノート
 title: Windows Silverlight、NET、IIS、XBOX
-topic: 開発者と導入
-uuid: 15c20bca-4886-4d57-9957- fe99743851ea
+topic: 開発者と実装
+uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->これらのSDKは、パッケージ化されており、アドビがサポートまたは配布することはできません。
+>これらのSDKは日没しており、アドビによってサポートまたは配布されなくなりました。
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログを有効にします。
+>現在のライブラリバージョンを検索するには、デバッグログをオンにします。
 
 ## バージョン 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
@@ -43,7 +43,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * アドビのデータ収集サーバーのページ URL フィールドのサイズ拡大に対応するために、255 バイトを超える URL の送信のサポートを追加しました。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. これにより、ブラウザーを切り捨てる場合に長い URL が他のデータより優先されないようにする一方、長い URL の収集を引き続き有効にすることができます。
 
-* 訪問者の新たな識別方法が追加されました。[個別訪問者の識別](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)を参照してください。
+* 訪問者の新たな識別方法が追加されました。[個別訪問者の識別](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)を参照してください。
 * `abort` フラグを新しく追加しました。このフラグは `doPlugins` 内で設定できます。このフラグを true に設定すると、対象のトラッキング呼び出しで [!DNL AppMeasurement] ライブラリが続行しません。abort フラグはあらゆるトラッキング呼び出しによってリセットされるので、後続のトラッキング呼び出しも中止する必要がある場合は、このフラグを再度 `doPlugins` 内に設定する必要があります。
 
    ```js
