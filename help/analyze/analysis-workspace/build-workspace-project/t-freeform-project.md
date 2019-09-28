@@ -2,18 +2,18 @@
 description: プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
 keywords: Analysis Workspace
 seo-description: プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
-seo-title: ワークスペースプロジェクトの作成
+seo-title: Workspace プロジェクトの作成
 solution: Analytics
-title: ワークスペースプロジェクトの作成
-topic: Reports and Analytics
-uuid: c1def77a- a76e-4699-9feb-1ede5b70b7ba
+title: Workspace プロジェクトの作成
+topic: Reports & Analytics
+uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# ワークスペースプロジェクトの作成
+# Workspace プロジェクトの作成
 
 プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
 
@@ -23,7 +23,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 1. プロジェクトを作成およびキュレーションするためのユーザー権限を指定します。
 
-   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に **[!UICONTROL Analysis Workspace のプロジェクトを作成 / キュレーション]**&#x200B;権限を有効にしたグループか、**全レポートアクセス]ユーザーグループに追加してもらう必要があります[!UICONTROL **( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)).
+   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に **[!UICONTROL Analysis Workspace のプロジェクトを作成 / キュレーション]**&#x200B;権限を有効にしたグループか、**全レポートアクセス]ユーザーグループに追加してもらう必要があります[!UICONTROL **( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
@@ -53,7 +53,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
    >[!NOTE]
    >
-   >プロジェクトに含まれるすべてのコンポーネント（指標/ディメンション）がレポートスイートに含まれていない場合、「互換性のないレポートスイート」メッセージが表示されることがあります。互換性のないコンポーネントのリストを表示できるので、このメッセージが表示される理由を把握できます。
+   >プロジェクトを読み込む（またはレポートスイートに切り替える）際に「互換性のないレポートスイート」というメッセージが表示され、プロジェクトに含まれていないコンポーネント（指標/ディメンション）がレポートスイートに含まれる場合があります。 互換性のないコンポーネントのリストを表示できるので、このメッセージが表示される理由を把握できます。
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -88,11 +88,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
    >[!NOTE]
    >
-   >コピーまたは保存した後は、コピー元のプロジェクトではなく、内部のプロジェクトからの相対リンクが、その中にあるプロジェクトに関連付けられます。
+   >コピー/名前を付けて保存した後、イントラリンクは、コピー元のプロジェクトではなく、そのプロジェクト内に存在するプロジェクトに対する相対リンクになります。
 
 ## コンポーネントとビジュアライゼーションの追加 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Build your project by dragging *`components`* and *`visualizations`* to the project.
+1. プロジェクトを作成するには、プロジ *`components`* ェクトに *`visualizations`* ドラッグ&amp;ドラッグします。
 
    **コンポーネント**
 
@@ -112,11 +112,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr> 
   <tr> 
    <td colname="col1"> 指標（緑） </td> 
-   <td colname="col2"> <p>プロジェクトレベルに適用します。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 回数</span> は、データテーブルのデフォルト指標です。 </p> </td> 
+   <td colname="col2"> <p>プロジェクトレベルに適用します。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 回数は</span> 、データテーブルのデフォルト指標です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> セグメント（青） </td> 
-   <td colname="col2"> <p>パネルレベルにのみドラッグできますが、データテーブルにインラインセグメントを作成できます。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Use Cases for Analysis Workspace</a> for more information. </p> </td> 
+   <td colname="col2"> <p>パネルレベルにのみドラッグできますが、データテーブルにインラインセグメントを作成できます。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>詳しく <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> は、「Analysis Workspaceの使用例</a> 」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日付範囲および精度（紫） </td> 
