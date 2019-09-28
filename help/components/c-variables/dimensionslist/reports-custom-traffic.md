@@ -5,9 +5,9 @@ seo-title: カスタムトラフィック
 solution: Analytics
 title: カスタムトラフィック
 topic: レポート
-uuid: 627e8f34- e8f7-4f79-919b- f6237f85685d
+uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,8 +18,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## カスタムトラフィックレポートのプロパティ {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
-* カスタムトラフィックレポートは、[prop](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_propn) （トラフィック変数）とは完全に無関係です。
-* レポートのデフォルト指標はページビュー数です（バージョン 15 ではインスタンス）。バージョン 14 のページビュー数とバージョン 15 のインスタンスは同じです。変数が定義された回数の合計がカウントされます。バージョン 15 のページビュー数は、*`s.t()`* イメージリクエスト（リクエストを除く *`s.tl()`* ）。
+* カスタムトラフィックレポートは、[prop](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) （トラフィック変数）とは完全に無関係です。
+* レポートのデフォルト指標はページビュー数です（バージョン 15 ではインスタンス）。バージョン 14 のページビュー数とバージョン 15 のインスタンスは同じです。変数が定義された回数の合計がカウントされます。バージョン 15 のページビュー数は、  image requests (excluding  requests).*`s.t()`**`s.tl()`*
 
 * パスを有効にできるのは、パスが組織の契約に含まれ、サポート対象ユーザーにより要求があった場合です。トラフィック変数に対してパスを有効にすると、次の指標を使用できます。
 * 
@@ -30,7 +30,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    * 出口
    * リロード回数
    * 単一アクセス
-   * 訪問回数
+   * 訪問
 
 * トラフィックレポートでパーティシペーション指標を使用できます。使用できるのは、組織の契約に含まれ、要求があった場合です。
 * これらのレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
