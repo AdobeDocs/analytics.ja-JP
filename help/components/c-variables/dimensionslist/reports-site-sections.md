@@ -5,9 +5,9 @@ seo-title: サイトセクション
 solution: Analytics
 title: サイトセクション
 topic: レポート
-uuid: 6839c566- f88f-4979-9cf5-52a77c0b0416
+uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 サイトの訪問者が最もアクセスしたサイトの領域を表示します。サイトセクションには、ユーザー定義可能な、カテゴリに類似した製品グループを含めることができます。例えば、カメラのページグループ、コンピューターのページグループなどが考えられます。コンバージョンサイトセクションレポートのデータは、トラフィックグループのサイトセクションレポートからインポートされ、トラッキングコードの channel 変数から情報を取得します。このレポートを使用すると、サイトの統計に最も大きな影響を与えるサイトセクションの項目を特定できます。
 
-* このレポートは、Web サイトで実装された [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_channel) 変数からデータを直接参照します。
+* このレポートは、Web サイトで実装された [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) 変数からデータを直接参照します。
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
 * 分類をこのレポートで使用すると、行項目の名前変更や統合ができます。
 * 相関関係は、管理ツールで他のトラフィック変数を使用して作成できます。
 * このレポートでは以下の指標を利用できます。
 
-   * **ページビュー数**：[pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) 変数または URL が（デフォルト指標として）定義された回数
+   * **ページビュー数**：[pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) 変数または URL が（デフォルト指標として）定義された回数
 
    * **すべてのパス指標**：訪問回数、平均ページ深度、ページでの平均滞在時間、リロード回数、および単一アクセス数
    * 組織とレポートスイートの設定に応じて、日別、週別、月別、および四半期別訪問者数をこのレポートで有効化できます。
