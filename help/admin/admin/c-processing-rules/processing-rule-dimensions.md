@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 処理ルール
 title: 処理ルールで使用可能なディメンション
 topic: 管理ツール
-uuid: ba73ab59- a8cf-491c-8757-5fb03d6b0745
+uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンテキストデータ変数 </p> </td> 
-   <td colname="col2"> <p>ヒットで送信される名前付き変数。 </p> <p>注意：コンテキストデータ変数に含まれるすべてのデータは、レポート内で表示するためにレポート変数にコピーする必要があります。コンテキストデータ変数は、クリックストリームデータフィードなどのレポートインターフェイスで表示できません。 </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> コンテキストデータ変数の eVar へのコピー </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> コンテキストデータ変数を使用したイベントの設定 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables" format="http" scope="external"> コンテキストデータ変数</a> </p> </td> 
+   <td colname="col2"> <p>ヒットで送信される名前付き変数。 </p> <p>注意：コンテキストデータ変数に含まれるすべてのデータは、レポート内で表示するためにレポート変数にコピーする必要があります。コンテキストデータ変数は、クリックストリームデータフィードなどのレポートインターフェイスで表示できません。 </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> コンテキストデータ変数の eVar へのコピー </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> コンテキストデータ変数を使用したイベントの設定 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> コンテキストデータ変数</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
