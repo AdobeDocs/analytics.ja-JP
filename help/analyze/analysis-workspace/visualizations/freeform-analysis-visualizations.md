@@ -5,10 +5,10 @@ seo-description: Analysis Workspace のビジュアライゼーションおよ�
 seo-title: ビジュアライゼーションの概要
 solution: Analytics
 title: ビジュアライゼーションの概要
-topic: Reports and Analytics
-uuid: 318dea64-6277-4ec3- ad48-4fdcb7a54555
+topic: Reports & Analytics
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 
-[YouTube上のAnalysis Workspaceのビジュアライゼーションタイプ](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) （2:57）
+[Visualization Types in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -33,7 +33,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 
 >[!IMPORTANT]
 >
->表示されるビジュアライゼーション設定は、ビジュアライゼーションによって異なります。すべてのビジュアライゼーションにすべての設定が適用されるわけではありません。さらに一部の詳細設定は、特定のビジュアライゼーションの場合に&#x200B;**のみ**&#x200B;表示されます（例えば[ヒストグラム設定](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)）。
+>表示されるビジュアライゼーション設定は、ビジュアライゼーションによって異なります。 すべてのビジュアライゼーションにすべての設定が適用されるわけではありません。さらに一部の詳細設定は、特定のビジュアライゼーションの場合に&#x200B;**のみ**&#x200B;表示されます（例えば[ヒストグラム設定](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)）。
 
 ![](assets/visualization_settings.png)
 
@@ -67,11 +67,11 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
   </tr> 
   <tr> 
    <td colname="col1"> <p>正規化 </p> </td> 
-   <td colname="col2"> <p>指標を均等な比率にします。See <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> Normalization</a>. </p> </td> 
+   <td colname="col2"> <p>指標を均等な比率にします。See <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalization</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>二重軸を表示 </p> </td> 
-   <td colname="col2"> <p>2つの指標がある場合にのみ適用されます。（1つの指標の場合は） Y軸を、もう1つの指標にはY軸を使用できます。 </p> </td> 
+   <td colname="col2"> <p>Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>異常値を表示 </p> </td> 
