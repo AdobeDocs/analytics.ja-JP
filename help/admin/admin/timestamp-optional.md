@@ -5,9 +5,9 @@ seo-title: タイムスタンプオプション
 solution: Analytics
 title: タイムスタンプオプション
 topic: 管理ツール
-uuid: 0fa63658-1cc2-4adc-8d51- a0662d0aa941
+uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) on data that is already timestamped. これにより、データが破壊され、時間の計算（滞在時間値など）、属性（eVar の持続性）、訪問回数／訪問のカウントおよびパスレポートに悪影響を与える可能性があります。
+>If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. これにより、データが破壊され、時間の計算（滞在時間値など）、属性（eVar の持続性）、訪問回数／訪問のカウントおよびパスレポートに悪影響を与える可能性があります。
 
 >[!NOTE]
 >
->タイムスタンプが有効なセッションデータは、最大 92 日間保持されます。つまり、訪問/セッションは、その前のヒット（ヒット時間）の後32日間（ヒット時間内）、同じ訪問/セッションにも含めることができますが、92日間は「保留」となります。注文から受け取った「古い」ヒットは、多数の要因（セグメント化、配分、有効期限など）から、「不明」の結果を生み出します。は、これらのヒットがレポーティングに含まれるかどうかに影響します。
+>タイムスタンプが有効なセッションデータは、最大 92 日間保持されます。つまり、前回のヒット（ヒット時間）から30分以内でない追加のヒットが同じ訪問/セッションに含まれる間、訪問/セッションは92日間「開いたまま」となります。 Any "old" hits that are received out of order will produce "unknown" results, since a number of factors (segmentation, allocation, expiration, etc.) これらのヒットがレポートに含まれるかどうかに影響を与えます。
 
 ## 新しいレポートスイート {#section_095A7CFBD280494593B9BEC1592B73A6}
 
