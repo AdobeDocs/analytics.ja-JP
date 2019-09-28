@@ -3,9 +3,9 @@ description: ユーザーを設定し、データサンプリングを行う方�
 seo-description: ユーザーの管理方法と、データサンプリングについて説明します。
 seo-title: 管理
 title: 管理
-uuid: 12f90223-139f-4a8d- bfd3-5cd9af7489d2
+uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 99078f95e45821bcee5017b4d480006c85f1c9e4
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99078f95e45821bcee5017b4d480006c85f1c9e4
 
 ユーザーを設定し、データサンプリングを行う方法について説明します。
 
-[!DNL Admin Console] ヘルプについては [、Analyticsリファレンス](https://marketing.adobe.com/resources/help/en_US/reference/index.html)を参照してください。
+For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
 
 ## ユーザーライセンス {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -38,8 +38,8 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
-1. **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
+1. にログインします [!DNL Experience Cloud]。
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
    貴社がユーザーライセンスを購入している場合、「[!UICONTROL グループ名]」列に「[!UICONTROL Ad Hoc Analysis ライセンスユーザー]」グループが表示されます。ユーザーログインに使用できるライセンスの数も表示されます。
@@ -60,7 +60,7 @@ t_managing_users.xml
 
  -->
 
-1. **[!UICONTROL Adobe Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理をクリック]**&#x200B;し、「ユーザーを管理」をクリック ****&#x200B;します。
+1. Adobe Analytics **[!UICONTROL /管理者]** /ユーザー管 **[!UICONTROL 理をク]** リックし、ユーザー管理をク **[!UICONTROL リ]******&#x200B;ックします。
 1. ユーザーを探し、「**[!UICONTROL 終了]」をクリックします。**
 
    [!UICONTROL アクティブな Ad Hoc Analysis セッション]ページで、最もアイドル時間の長いユーザーがリストの先頭に表示されます。
@@ -85,8 +85,8 @@ t_permissions.xml
 
  -->
 
-1. **[!UICONTROL Experience Cloudにログイン]**&#x200B;します。
-1. **[!UICONTROL Adobe Analytics/管理者]** / **[!UICONTROL ユーザー管理]** /グループ **[!UICONTROL の編集をクリック]**&#x200B;します。
+1. **[!UICONTROL Experience cloudにログインします]**。
+1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
 1. Click **[!UICONTROL All Report Access]**.
 1. 「[!UICONTROL 利用可能なユーザー]**」で、ユーザーを選択し、「[!UICONTROL 追加]」をクリックします。**
 1. Click **[!UICONTROL Save Group]**.
@@ -101,8 +101,8 @@ t_permission_groups.xml
 
  -->
 
-1. **[!UICONTROL Experience Cloudにログイン]**&#x200B;します。
-1. **[!UICONTROL Adobe Analytics/管理者]** / **[!UICONTROL ユーザー管理]** /グループ **[!UICONTROL の編集をクリック]**&#x200B;します。
+1. **[!UICONTROL Experience cloudにログインします]**。
+1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
 1. 管理者以外のユーザー向けの権限グループを作成し、ユーザーからのアクセスを許可する、Ad Hoc Analysis が有効なレポートスイートを含めます。
 
    ユーザーが使用できるレポートスイートは、新しいプロジェクトを作成するときに[!UICONTROL レポート Cloud] メニューに表示されます。
@@ -119,8 +119,8 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis では、サーバーとの通信に HTTP を使用します。他の HTTP トラフィックと同じプロキシポリシーが適用されます。
 
-1. In the [!DNL Windows Control Panel], launch the [!UICONTROL Java Control Panel].
-1. **[!UICONTROL 「一般»??タブで、??«ネットワーク設定??]******
+1. で、 [!DNL Windows Control Panel]Java Control panelを起動します 。
+1. On the **[!UICONTROL General]** tab, click **[!UICONTROL Network Settings]**.
 1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
 
@@ -154,6 +154,6 @@ c_overview_data_sampling.xml
 
 >[!MORE_LIKE_THIS]
 >
->* [ユーザー](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=users)
->* [グループ ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=groups)
+>* [ユーザー](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
+>* [グループ ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
 
