@@ -5,9 +5,9 @@ seo-title: フォールアウト
 solution: Analytics
 title: フォールアウト
 topic: レポート
-uuid: 2385834e- a1b1-4ac5-9530-3afde6d02d3d
+uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -28,10 +28,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ** Reports and Analytics **
 
-構成情報については、ヘルプの[フォールアウトレポートの実行](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_reports_fallout)を参照してください。
+構成情報については、ヘルプの[フォールアウトレポートの実行](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html)を参照してください。
 
 ** Ad Hoc Analysis **
 
 訪問または訪問者のレベルでフォールアウトデータを解析します。また、指定した期間におけるフォールアウトのグラフを表示するトレンドパスも表示できます。単一のページまたは複数のページのグループをレポートのチェックポイントとして設定したり、あらゆる組み合わせや順番でディメンションや指標を追加することができます。また、マーケティングレポートで設定したカテゴリをこのレポートのチェックポイントとして使用することもできます。
 
-構成情報については、ヘルプの[フォールアウトレポート](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_reports_fallout)を参照してください。
+構成情報については、ヘルプの[フォールアウトレポート](https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_fallout.html)を参照してください。
