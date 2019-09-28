@@ -5,9 +5,9 @@ seo-title: 発行リストの上書きの許可
 solution: Analytics
 title: 発行リストの上書きの許可
 topic: Report Builder
-uuid: f2cc9878- ab54-4c6f-8a88-3f3b579955e3
+uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 発行リストは Analytics 管理ツールで設定しておく必要があります。
 
-Analytics リファレンスの[発行リスト](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=publishing_list)を参照してください。
+Analytics リファレンスの[発行リスト](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html)を参照してください。
 
 この機能を有効にするには、[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウを開きます。
 
