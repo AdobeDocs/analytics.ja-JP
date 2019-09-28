@@ -3,12 +3,12 @@ description: マーケティングチャネルに対して設定可能な様々�
 seo-description: マーケティングチャネルに対して設定可能な様々なルールを入力するためのベストプラクティスと例をご確認ください。
 seo-title: よくある質問と例
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: よくある質問と例
-topic: Reports and Analytics
-uuid: 1c63a1b5- a191-4855- aa65- ac19ab1037a
+topic: Reports & Analytics
+uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 マーケティングチャネルに対して設定可能な様々なルールを入力するためのベストプラクティスと例をご確認ください。
 
-* [よくある質問（FAQ）](../../components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573)
+* [よくある質問](../../components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573)
 * [チャネルが識別されませんでした](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)
 * [有料検索](../../components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1)
 * [自然検索](../../components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386)
@@ -28,16 +28,16 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * [Email](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
 * [直接アクセス](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 
-正規表現のテストについては、[マーケティングチャネル処理ルール](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) の作成 [!UICONTROL を参照してください。]
+正規表現のテストについては、 [Create Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
-## よくある質問（FAQ） {#section_E490CEAF0E76422C91D34D8A80A0C573}
+## よくある質問 {#section_E490CEAF0E76422C91D34D8A80A0C573}
 
 マーケティングチャネルの処理ルールの実装は、トラッキングコードによって異なります。求める結果をもたらすようなルールを設定するには、問題を解決するための工夫が求められる場合があります。
 
 **質問**：私のトラッキングコードはパターンに従っていません。また、アフィリエイトチャネル用に指定しなければならないコードが無数にあります。
 
 * 除外処理を使用します。電子メールチャネルとアフィリエイトチャネルに同一のクエリ文字列パラメーターを使用しているとき、電子メールのトラッキングコードが少数なら、電子メールを定義するルールセットで電子メールトラッキングコードを指定することができます。その後、残りすべてのトラッキングコードをアフィリエイトとして分類します。 *`affiliates.`*
-* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. If it does not contain *`eml`*, then it is an affiliate.
+* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. If it does not contain , then it is an affiliate.*`eml`*
 
 **質問**：参照ドメインに予想より多くのデータが含まれています。
 
@@ -57,19 +57,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * ルールは順番に処理されます。以下のような場合は、どの条件にも一致しないことがあります。
 
-1. リファラーはありません（直接訪問）。
+1. リファラーなし（直接訪問）。
 
-2. 内部リファラー（訪問の最初のページ）。
+2. 内部リファラー。
 
-3. ページの処理異常。
+3. ページの処理エラー。
 
 この 3 つの可能性用のチャネルを用意してください。例えば、次のようなルールを作成します。
 
-1. **[!UICONTROL リファラー]** と **[!UICONTROL 存在しない]** 、 **[!UICONTROL 訪問の最初のページ]**。（[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) を参照）。
+1. **[!UICONTROL Referrer]** and **[!UICONTROL Does Not Exist]** and **[!UICONTROL Is First Page of Visit]**. （[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) を参照）。
 
-2. **[!UICONTROL リファラーが内部URLフィルタ]** に一致し、 **[!UICONTROL 訪問の最初のページ]**。（[内部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)を参照）。
+2. **[!UICONTROL Referrer Matches Internal URL Filters]** and **[!UICONTROL Is First page of Visit]**. （[内部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)を参照）。
 
-3. **[!UICONTROL リファラー]** と **[!UICONTROL 存在する]** 、 **[!UICONTROL およびリファラーが内部URLフィルターに一致]**&#x200B;しない。
+3. **[!UICONTROL Referrer]** and **[!UICONTROL Exists]** and **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
 
 最後に、[チャネルが識別されませんでした](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)で説明されているように、残りのヒットを捕捉する「その他」**&#x200B;のチャネルを作成します。
 
@@ -83,7 +83,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 >[!NOTE]
 >
->チャネルが識別された「チャネルが識別されませんでした」というカテゴリに分類されるチャネルトラフィックもあります。例えば、訪問者がサイトを訪問してページをブックマークし、その訪問中にブックマークを使用してそのページに戻った場合がこれに該当します。このページは訪問者が最初に訪問したページではなく、参照ドメインが存在しないので、直接アクセスチャネルにもその他チャネルにも分類されません。
+>[チャネルが識別されませんでした]カテゴリに該当するチャネルトラフィックがまだ存在する可能性があります。 例えば、訪問者がサイトを訪問してページをブックマークし、その訪問中にブックマークを使用してそのページに戻った場合がこれに該当します。このページは訪問者が最初に訪問したページではなく、参照ドメインが存在しないので、直接アクセスチャネルにもその他チャネルにも分類されません。
 
 ## 有料検索 {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -93,7 +93,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ![](assets/example_paid_search.png)
 
-詳しくは、管理ヘルプの「[有料検索検知](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection)」を参照してください。
+詳しくは、管理ヘルプの「[有料検索検知](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)」を参照してください。
 
 ## 自然検索 {#section_A4C6B8F0360449BE94F0128FF7C71386}
 
@@ -105,7 +105,7 @@ Analytics には自然検索の検出は用意されていません。有料検�
 
 ![](assets/example_natural_search.png)
 
-詳しくは、管理ヘルプの「[有料検索検知](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection)」を参照してください。
+詳しくは、管理ヘルプの「[有料検索検知](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)」を参照してください。
 
 ## アフィリエイト {#section_8D142C7074CD4DEC87DF55B691107622}
 
