@@ -1,15 +1,15 @@
 ---
 description: ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。
 seo-title: ページ変数
 solution: Analytics
 subtopic: 変数
 title: ページ変数
-topic: 開発者と導入
-uuid: 2578eddd-74db-4a8a-96f2- d0289ec1826b
+topic: 開発者と実装
+uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: af2c0dd5269fe54dec949d4bd98bb09f22c9bfa2
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -30,7 +30,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->この変数は読み取り専用で、設定しないでください。
+>This variable should only be read and never set.
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -69,7 +69,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->この変数は読み取り専用で、設定しないでください。
+>This variable should only be read and never set.
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -129,9 +129,9 @@ There are two main ways to populate the *`campaign`* variable:
 
 * [!UICONTROL getQueryParam] プラグインを JavaScript ファイル内で使用して、URL からクエリ文字列パラメーターを取得します。[!UICONTROL getQueryParam] プラグインについて詳しくは、 [導入プラグイン](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-* Assign a value to the *`campaign`* variable in the HTML on the Web page.
+* Assign a value to the  variable in the HTML on the Web page.*`campaign`*
 
-With either method of populating the *`campaign`* variable, the Back button traffic may inflate the actual number of click-throughs from a campaign element.
+With either method of populating the  variable, the Back button traffic may inflate the actual number of click-throughs from a campaign element.*`campaign`*
 
 例えば、ある訪問者が有料検索キーワードをクリックしてサイトに訪問したとします。この訪問者がランディングページに到達したとき、URL にはそのキーワードのトラッキングコードを識別するクエリ文字列パラメーターが含まれます。次に、この訪問者が別のページへのリンクをクリックした後、すぐに「戻る」ボタンをクリックしてランディングページに戻ったとします。この場合、この訪問者がランディングページに 2 回目に到達したとき、クエリ文字列パラメーターを含む URL によって、トラッキングコードが再び識別されます。この 2 回目のクリックスルーが登録されるので、クリックスルー数が誤って水増しされます。
 
@@ -143,7 +143,7 @@ With either method of populating the *`campaign`* variable, the Back button traf
 s.campaign="112233"
 ```
 
-*`campaign`* 変数には、他のすべての変数と同じ制限があります。値の範囲を、標準的な ASCII 文字に制限することをお勧めします。
+The *`campaign`* variable has the same limitations as all other variables. 値の範囲を、標準的な ASCII 文字に制限することをお勧めします。
 
 **大文字と小文字の区別** {#section_112A9A0F886148B6BEF9A7C94BE0A36F}
 
@@ -167,7 +167,7 @@ campaign の各値はユーザーに対して引き続き有効となり、有�
 
 * クリックスルー数の水増しを防ぐには、[!UICONTROL getValOnce] プラグインを使用して、キャンペーンのクリックスルーがセッションあたり 1 回のみカウントされるようにします。[!UICONTROL getValOnce] プラグインについて詳しくは、 [導入プラグイン](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-* マーケティングキャンペーンの追跡およびキーワードの購入について詳しくは、[キャンペーン](https://marketing.adobe.com/resources/help/en_US/reference/?f=campaign)を参照してください。
+* マーケティングキャンペーンの追跡およびキーワードの購入について詳しくは、[キャンペーン](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html)を参照してください。
 * キャンペーンの実際の値を確認するには、[!DNL DigitalPulse Debugger] を使用します（デバッガーで v0 を確認します）。デバッガーで v0 が表示されない場合は、そのキャンペーンデータは記録されていません。
 
 ## channel {#concept_C7770B8C15724A99B10F8F468AF82D0D}
@@ -196,7 +196,7 @@ When sections have one or more levels of subsections, you can show those section
 s.channel="value"
 ```
 
-*`channel`* 変数には、その値に関する特別な制限はありません。
+The *`channel`* variable has no extra limitations on its values.
 
 **例** {#section_2527B2BB1CFD46CB952178ABF7A9028A}
 
@@ -312,9 +312,9 @@ eVar を訪問者に対して設定すると、その値が期限切れになる
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
-| 255 バイト | V1-v75 ( [or v100 or v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | カスタムコンバージョン | "" |
+| 255 バイト | V1-v75 ( or v100 or v250)[](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28) | カスタムコンバージョン | "" |
 
-**有効期限**{#section_6DB5882B960D4660AE248B91B76883C4}
+**Expiration** {#section_6DB5882B960D4660AE248B91B76883C4}
 
 [!UICONTROL eVar] は、指定した期間が過ぎると有効期限切れになります。eVar の有効期限が切れた後は、成功イベントのクレジットを受け取らなくなります。eVar は、成功イベントの発生時に有効期限切れになるように設定することもできます。例えば、訪問の最後に有効期限切れになる内部プロモーションがある場合、その内部プロモーションは、アクティブ化された訪問中におこなわれた購入または登録に関するクレジットのみを受け取ります。
 
@@ -323,7 +323,7 @@ eVar を有効期限切れにする方法は以下の 2 つです。
 * 指定した期間またはイベントの後に有効期限切れになるように eVar を設定できます。
 * eVar の有効期限切れを強制的に適用することができます。これは、変数を再利用する場合に便利です。
 
-5月に内部プロモーションを反映し、21日後に有効期限切れにしたeVarを使用し、6月に内部検索キーワードを取り込む場合、6月1日に変数の有効期限を強制またはリセットする必要があります。これにより、内部プロモーションの値を 6 月のレポートから除外できます。
+If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. これにより、内部プロモーションの値を 6 月のレポートから除外できます。
 
 **大文字と小文字の区別** {#section_6E9145B7FCC2438E95BB35AAE3857412}
 
@@ -333,7 +333,7 @@ eVar では大文字と小文字が区別されませんが、表示上は、各
 
 eVar は、文字列値を保持するためによく使用されますが、カウンターとして動作するように設定されることもあります。eVar は、ユーザーがイベントの前に実行したアクション数をカウントする場合に、カウンターとして使用できます。例えば、購入前の内部検索数を取り込むために eVar を使用できます。訪問者が検索をおこなうたびに、eVar には「+1」した値が含まれます。訪問者が購入前に 4 回検索をおこなった場合、それぞれの合計数に関するインスタンス（1.00、2.00、3.00 および 4.00）を確認できます。ただし、4.00 のインスタンスのみが、購入イベント（注文指標および売上高指標）のクレジットを受け取ります。eVar カウンターの値には、正の数値のみを使用できます。
 
-**下位関係**{#section_2BEABBBC735241F4BA42E74D19B5AEE0}
+**下位関係** {#section_2BEABBBC735241F4BA42E74D19B5AEE0}
 
 [!UICONTROL カスタム eVar] レポートでよくある要件は、ある[!UICONTROL カスタム eVar] レポートを別の eVar で分類することです。例えば、ある eVar に性別が含まれ、別の eVar に給料が含まれる場合に、「サイトの女性訪問者について、年収が $50,000 を超える女性によって生み出された売上高はどれほどか」という質問が考えられます。フルサブリレーションが有効な eVar を使用して、レポート内でこのような分類をおこなうことができます。例えば、性別を示す eVar でフルサブリレーションを有効にした場合、他のすべてのカスタム eVar レポートを性別ごとに分類し、性別は他のすべての eVar ごとに分類できます。2 つのレポート間の関係を参照する場合、フルサブリレーションを有効にする必要があるのは一方のみです。デフォルトでは、[!UICONTROL キャンペーン]、[!UICONTROL 製品]および[!UICONTROL カテゴリ]レポートではフルサブリレーションが有効です（任意の eVar をキャンペーンごとまたは製品ごとに分類できます）。
 
@@ -359,7 +359,7 @@ s.eVar23="internal spring promo 4"
 
 **設定** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
 
-eVars can be configured in [!UICONTROL Analytics &gt; Admin &gt; Report Suites &gt; Edit Settings &gt; Conversion &gt; Conversion Variables]. すべての eVar は、[!UICONTROL 名前]、[!UICONTROL タイプ]、[!UICONTROL 配分]、[!UICONTROL 有効期限]設定または[!UICONTROL リセット]を使用して設定できます。それぞれの設定は個別に指定します。
+eVars can be configured in Analytics &gt; Admin &gt; Report Suites &gt; Edit Settings &gt; Conversion &gt; Conversion Variables. すべての eVar は、[!UICONTROL 名前]、[!UICONTROL タイプ]、[!UICONTROL 配分]、[!UICONTROL 有効期限]設定または[!UICONTROL リセット]を使用して設定できます。それぞれの設定は個別に指定します。
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -397,7 +397,7 @@ eVars can be configured in [!UICONTROL Analytics &gt; Admin &gt; Report Suites &
 * [!UICONTROL prop] 変数とは異なり、eVar 変数に値を区切ったリストを設定することはできません。eVar に値のリストを設定した場合（例：「one,two,three」）、このままの文字列がレポート内に表示されます。
 * eVar カウンターには負の値は設定できません。
 
-## Events {#concept_FFD115543D54401B98FE683BD7D5B3FE}
+## イベント {#concept_FFD115543D54401B98FE683BD7D5B3FE}
 
  変数は、一般的な買い物かご成功イベントやカスタム成功イベントを記録するために使用します。
 
@@ -442,7 +442,7 @@ events.xml
 
 | イベント | 説明 | 入力されるレポート |
 |---|---|---|
-| prodView | 製品表示 | 製品 |
+| prodView | 商品ビュー | 製品 |
 | scOpen | 新しい買い物かごを開くまたは初期化 | 買い物かご |
 | scAdd | 買い物かごへの品目の追加 | 買い物かごへの追加 |
 | scRemove | 買い物かごからの品目の削除 | 買い物かごからの削除 |
@@ -562,7 +562,7 @@ None
 
 >[!NOTE]
 >
->階層に変更を加えるとサービス料が発生する可能性があります。
+>階層を変更すると、サービス料が発生する可能性があります。
 
 ## homepage {#concept_0A3E416F1A064BA396B5FCEABFB7B0B4}
 
@@ -578,7 +578,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->この変数は読み取り専用で、設定しないでください。
+>This variable should only be read and never set.
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -600,7 +600,7 @@ javaEnabled.xml
 
 >[!NOTE]
 >
->この変数は読み取り専用で、設定しないでください。
+>This variable should only be read and never set.
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -642,7 +642,7 @@ linkName.xml
 
  -->
 
-*`linkName`* この変数は、 *`tl()`* 関数内の3番目のパラメーターに置き換えられるので、通常は必要ありません。
+The *`linkName`* variable is not normally needed because the third parameter in the *`tl()`* function replaces it.
 
 <table id="table_4B0D1C9AADA542A59B626E077D5FC568"> 
  <thead> 
@@ -663,7 +663,7 @@ linkName.xml
  </tbody> 
 </table>
 
-[!UICONTROL カスタムリンク]はトラッキングデータを送信するリンクを参照します。"*`linkName`* 変数（または *`tl()`* 関数内の3番目のパラメーター）は、 [!UICONTROL カスタム]リンク、 [!UICONTROL ダウンロード]リンクまたは [!UICONTROL 離脱リンク] レポートに表示される値を識別するために使用します。*`linkName`* が入力されていない場合、リンクのURLがレポートに表示されます。
+[!UICONTROL カスタムリンク]はトラッキングデータを送信するリンクを参照します。Folio Builder *`linkName`* variable (or the third parameter in the *`tl()`* function) is used to identify the value that appears in the [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report. If *`linkName`* is not populated, the URL of the link appears in the report.
 
 **構文と可能な値** {#section_C8D89834C98B4C7A858C947293C4148E}
 
@@ -726,11 +726,11 @@ The *`linkType`* variable is not normally needed because the second parameter in
 
 カスタムリンクはデータを Analytics に送信します。The *`linkType`* variable (or the second parameter in the *`tl()`* function) is used to identify the report in which the link name or URL appears ( [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report).
 
-For exit and download Links, the *`linkType`* variable is automatically populated depending on whether the link clicked is an exit or download link. A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. By setting *`linkType`* to 'o,' 'e,' or 'd,' the *`linkName`* or link URL is sent to the [!UICONTROL Custom Links], [!UICONTROL Exit Links], or [!UICONTROL File Downloads] report respectively.
+離脱リンクとダウンロードリンクの場合、クリ *`linkType`* ックされたリンクが離脱リンクかダウンロードリンクかに応じて、変数が自動的に設定されます。 A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. 「 *`linkType`* o」、「e」または「d」を設定すると、またはリンクURLがカスタムリンク、 *`linkName`* Custom Links 、 [!UICONTROL File Downloads]exit reportにそれぞれ送信され  ます。
 
 **構文と可能な値** {#section_18DB3A8083FB4F75B970055ED336DA4E}
 
-*`linkType`* 変数構文は、XMLを使用するかクエリ文字列を使用するかによって異なります。
+The *`linkType`* variable syntax depends on whether you use XML or a query string.
 
 XML を使用する場合は、変数には 1 つの文字（o、e または d）のみが含まれます。
 
@@ -755,7 +755,7 @@ None
 
 **注意事項、質問、ヒント** {#section_F0D01DDE3FDA486C987162DA50A79C45}
 
-* If *`linkType`* is not specified, custom links ('o') is assumed.
+* を指 *`linkType`* 定しない場合、カスタムリンク('o')が想定されます。
 
 ## リスト prop {#concept_83ED74232225431F83A796E22FFC75B4}
 
@@ -773,7 +773,7 @@ list_props.xml
 * パスおよびクロス集計は、リスト prop では有効にできません。
 * リスト prop レポートを含む、ほとんどすべてのレポートに訪問数および個別訪問者数を追加できます。
 * リスト prop では分類がサポートされています。
-* カスタムトラフィック変数はどれもリスト props として使用できます（例外：[pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328)、 [channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D)および [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2)。）
+* カスタムトラフィック変数はどれもリスト props として使用できます（例外： [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328)、 [channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D)、 [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2))。
 
 * 同じイメージリクエストに重複した値が定義される場合、インスタンスの重複は除外されません。
 
@@ -831,7 +831,7 @@ listN.xml
 
 Adobe ClientCare の関与なく Admin Console の設定にアクセスし、更新できます。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイートに移動します]**
+1. Go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
 1. レポートスイートを選択します。
 1. Click  **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL List Variables]** .
 
@@ -840,7 +840,7 @@ Adobe ClientCare の関与なく Admin Console の設定にアクセスし、更
 
    >[!NOTE]
    >
-   >リスト変数ではマルチバイト文字は区切り文字としてサポートされていません。区切り文字は 1 バイト文字にする必要があります。
+   >Multi-byte characters are not supported as delimiters in List Vars. 区切り文字は 1 バイト文字にする必要があります。
 
 * **有効期限**：eVar の有効期限と同様に、リスト Var とコンバージョンイベントとの間で関連付けが生じるまでの経過時間の上限を指定します。
 
@@ -951,15 +951,15 @@ s.maxDelay="750";
 
 * 待機時間を減少させると Analytics のヒットデータを失うリスクは低くなりますが、ヒットデータと一緒に送信される DFA データの量は少なくなります。
 
-   Losing DFA integration data would occur when the *`s.maxDelay`* period does not accommodate enough time for the DFA host to respond.
+   DFA統合データの損失は、期間がDFAホストの応 *`s.maxDelay`* 答に十分な時間を満たさない場合に発生します。
 
 >[!NOTE]
 >
->アドビではDFAの応答時間を制御できません。最大遅延期間を妥当な時間枠に増やした後でも整合性の問題が見られる場合は、貴社の DFA アカウント管理者にお問い合わせください。
+>アドビはDFAの応答時間を制御できません。 最大遅延期間を妥当な時間枠に増やした後でも整合性の問題が見られる場合は、貴社の DFA アカウント管理者にお問い合わせください。
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
-この変数は、再生されるメディアの合計長を指定します。
+この変数は、再生中のメディアの合計長さを指定します。
 
 <!-- 
 
@@ -988,7 +988,7 @@ mediaLength.xml
 
 **構文と可能な値** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** autoTrackメソッド:**
+** autoTrackメソッド：**
 
 [!UICONTROL s.Media.autoTrack] を使用する場合、[!UICONTROL mediaLength] 変数を明示的に導入する必要はありません。この変数は、JavaScript 版 AppMeasurement コードによって自動的に判別されます。
 
@@ -1312,7 +1312,7 @@ media_trackVars.xml
 
 **構文と可能な値** {#section_7374684A7EB34AE685E8C40A66CFD289}
 
-[!UICONTROL propN]*`eVarN`*、 *`events`*&#x200B;など *`channel`*&#x200B;の変数名。
+変数名( [!UICONTROL propN]、 *`eVarN`*、 *`events`**`channel`*&#x200B;など)。
 
 **例** {#section_48653222ABA14AB0A3C4471659971FAA}
 
@@ -1334,7 +1334,7 @@ mobile.xml
 
  -->
 
-[モバイルネットワークプロトコル](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC)を参照してください。
+See [Mobile network protocols](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC).
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -1349,7 +1349,7 @@ s.mobile=""  // if set to an empty string or not set at all, cookies used first,
 
 **注意事項、質問、ヒント** {#section_06CD5CB4EF1E4B9FBE3B9D1F18AAFA30}
 
-Use cross-visitor identification to mitigate possible spikes in visitor traffic when using the *`s.mobile`* variable with the JavaScript cookie implementation.
+訪問者間の識別を使用して、JavaScript cookie実装で変数を使用する場合に訪問者トラフィックのスパ *`s.mobile`* イクが発生する可能性を軽減します。
 
 ## pageName {#concept_5827B499DAC34B5D8445F9D9140CC328}
 
@@ -1380,7 +1380,7 @@ pageName.xml
  </tbody> 
 </table>
 
-"*`pageName`* 変数には、ビジネスユーザーにとってわかりやすい値を入力する必要があります。In most cases the *`pageName`* value is not the URL or the path to the file. Common *`pageName`* values include names such as "Home Page," "Checkout," "Purchase Thank you," or "Registration."
+Folio Builder *`pageName`* 変数には、ビジネスユーザーにとってわかりやすい値を入力する必要があります。ほとんどの場合、値 *`pageName`* はURLやファイルのパスではありません。 Common *`pageName`* values include names such as "Home Page," "Checkout," "Purchase Thank you," or "Registration."
 
 改行文字、em ダッシュ（長いダッシュ）、en ダッシュ（短いダッシュ）または HTML 文字が、ページ名やその他の変数に使用されないように注意してください。改行文字を送信するブラウザーもありますが、送信しないブラウザーもあります。これにより、Analytics のデータが、外見上は同じ 2 つのページ名に分割される場合があります。多くの Office アプリケーションや電子メールクライアントでは、入力時にハイフンが自動的に en ダッシュまたは em ダッシュに変換されます。en ダッシュおよび em ダッシュは Analytics 変数では無効な文字なので（128 以上のコードの ASCII 文字）、Analytics では無効な文字を含むページ名が記録されず、代わりに URL が表示されます（日本語を有効化したレポートスイートを除く）。
 
@@ -1388,7 +1388,7 @@ If *`pageName`* is left blank, the URL is used to represent the page name. Leavi
 
 **構文と可能な値** {#section_7A61EE70F1A84D26B414404998C84BA8}
 
-*`pageName`* 変数には、Analyticsのビジネスユーザーに役立つ識別子を含める必要があります。
+The *`pageName`* variable should contain a useful identifier for business users of Analytics.
 
 ```js
 s.pageName="page_name"
@@ -1412,7 +1412,7 @@ s.pageName="Standard Offer List"
 
 **注意事項、質問、ヒント** {#section_BB41DC9682C34385B9CAA80D5257C113}
 
-Make sure the *`pageName`* doesn't contain illegal characters.
+に不正な文字が含ま *`pageName`* れていないことを確認してください。
 
 ## pageType {#concept_F67870238EF74491B5D3909A33CDB985}
 
@@ -1443,15 +1443,15 @@ pageType.xml
  </tbody> 
 </table>
 
-"*`pageType`* 変数は、404 エラーページが表示されたときにのみ固定文字列をセットします。これにより、リンク切れをすばやく見つけることができます。Set up the *`pageType`* variable on the error page exactly as shown below.
+Folio Builder *`pageType`* 変数は、404 エラーページが表示されたときにのみ固定文字列をセットします。これにより、リンク切れをすばやく見つけることができます。次に示すように、エ *`pageType`* ラーページで変数を設定します。
 
-404 エラーページではページ名変数を使用しないでください。"*`pageType`* 変数は、404 エラーページにのみ使用されます。
+404 エラーページではページ名変数を使用しないでください。Folio Builder *`pageType`* 変数は、404 エラーページにのみ使用されます。
 
 ほとんどの場合、404 エラーページはハードコードされた静的なページです。このような場合、.JS ファイルへの参照が適切な絶対または相対パス／ディレクトリに設定されていることが重要です。
 
 **構文と可能な値** {#section_C1C59968226446559B05F6EE7374D525}
 
-The only allowable value of *`pageType`* is "errorPage" as shown below.
+次に示すように、の *`pageType`* 唯一の許可値は「errorPage」です。
 
 ```js
 s.pageType="errorPage"
@@ -1508,7 +1508,7 @@ pageURL.xml
 
 **構文と可能な値** {#section_22AF3BF7C2F743549967B0C760A095C0}
 
-*`pageURL`* 変数は有効なプロトコルを持つ有効なURLである必要があります。ドメインは、レポートに入力される前に強制的に小文字表示になり、クエリ文字列は、Analytics の設定に応じて削除される場合があります。
+The *`pageURL`* variable must be a valid URL, with a valid protocol. ドメインは、レポートに入力される前に強制的に小文字表示になり、クエリ文字列は、Analytics の設定に応じて削除される場合があります。
 
 ```js
 s.pageURL="proto://domain/path?query_string"
@@ -1518,7 +1518,7 @@ URL と互換性のある文字のみページ URL として許可されます�
 
 >[!NOTE]
 >
->It is strongly advised that you contact your Adobe consultant or Customer Care before using the *`pageURL`* variable for custom purposes.
+>カスタム目的で変数を使用する前に、アドビのコンサルタントまたはカスタマーケアにお問い合わせ *`pageURL`* いただくことを強くお勧めします。
 
 **例** {#section_45158FDA3F8F4574BDEB5CBC9F7E6C97}
 
@@ -1548,7 +1548,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->この変数は読み取り専用で、設定しないでください。
+>This variable should only be read and never set.
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -1578,9 +1578,9 @@ products.xml
 >
 考えられる副作用として、*`prodView`* イベントによってトリガーされるマーチャンダイジング eVar は、空の *`product`* と関連付けられることがありますが、これは、*`product list`に無効な product のみが含まれる（product がリストされていないセミコロンなど）場合にのみ発生します。*
 
-*`products`* この変数は、ユーザーがサイト上の製品とどのようにやり取りしたかを追跡します。例えば、products 変数を使用して、製品の表示、買い物かごへの追加、チェックアウトおよび購入の各回数を追跡できます。サイトでのマーチャンダイジングカテゴリの相対的効果を追跡することもできます。products 変数を使用する場合は、次のようなシナリオが一般的です。
+The *`products`* variable tracks how users interact with products on your site. 例えば、products 変数を使用して、製品の表示、買い物かごへの追加、チェックアウトおよび購入の各回数を追跡できます。サイトでのマーチャンダイジングカテゴリの相対的効果を追跡することもできます。products 変数を使用する場合は、次のようなシナリオが一般的です。
 
-"*`products`* 変数は、必ず成功イベントと組み合わせて設定する必要があります。
+The *`products`* 変数は、必ず成功イベントと組み合わせて設定する必要があります。
 
 <table id="table_D5A11AFDDD364D0993D387906343DDF3"> 
  <thead> 
@@ -1593,7 +1593,7 @@ products.xml
  </thead>
  <tbody> 
   <tr> 
-   <td> <p><span class="wintitle"> "products </span>」文字列の最大サイズは64kです。 </p> </td> 
+   <td> <p>「 <span class="wintitle"> products 」 </span>文字列の最大サイズは64kです。 </p> </td> 
    <td> products </td> 
    <td> 製品 <p>カテゴリ（オプション） </p> <p>売上高（オプション） </p> <p>購入点数（オプション） </p> <p>カスタムイベント（オプション） </p> <p>eVar（オプション） </p> </td> 
    <td> " " </td> 
@@ -1609,26 +1609,26 @@ products.xml
 
 | フィールド | 定義 |
 |---|---|
-| Category | 関連付けられている製品カテゴリを含みます。バージョン 15 では、products を複数のカテゴリに関連付けることができるようになり、バージョン 14 に存在した制限を修正しています。これまでに製品カテゴリを記録していなかった場合、これからは、バージョン 15 のレポートスイート用に、このフィールドに値を設定してください。 |
+| カテゴリ | 関連付けられている製品カテゴリを含みます。バージョン 15 では、products を複数のカテゴリに関連付けることができるようになり、バージョン 14 に存在した制限を修正しています。これまでに製品カテゴリを記録していなかった場合、これからは、バージョン 15 のレポートスイート用に、このフィールドに値を設定してください。 |
 | Product | （必須）製品を追跡するために使用される識別子。この識別子は、[!UICONTROL 製品]レポートのデータを設定するために使用されます。チェックアウトプロセス全体で同じ識別子を必ず使用してください。 |
 | Quantity | 購入した数量。このフィールドは、記録される[!UICONTROL 購入]イベントと共に設定する必要があります。 |
 | Price | 個々の価格ではなく、購入総量の連結コスト（数量 x 単価）を表します。このフィールドは、[!UICONTROL 購入]イベントと共に設定する必要があります。 |
-| Events | 指定された製品に関連付けられる通貨イベント。詳しくは、[製品固有の通貨イベント](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)および[注文全体にわたる通貨イベント](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)を参照してください。 |
+| イベント | 指定された製品に関連付けられる通貨イベント。詳しくは、[製品固有の通貨イベント](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)および[注文全体にわたる通貨イベント](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)を参照してください。 |
 | eVars | 特定の製品に関連付けられるマーチャンダイジング eVar 値[マーチャンダイジング変数](/help/components/c-variables/c-merch-variables/var-merchandising.md)を参照してください。 |
 
-この値は、*`products`* 変数に含まれる値は、記録しているイベントの種類に基づきます。Category を省略するときは、プレースホルダーとしてカテゴリと製品の区切り文字（;）が必要です。含めるパラメーターを区別する必要がある場合に限り、他の区切り文字が必要です。
+The values included in the *`products`* 変数に含まれる値は、記録しているイベントの種類に基づきます。Category を省略するときは、プレースホルダーとしてカテゴリと製品の区切り文字（;）が必要です。含めるパラメーターを区別する必要がある場合に限り、他の区切り文字が必要です。
 
 **購入以外のイベントによる products 変数の設定** {#section_D5E689D4AAE941EC851CA9B98328A4DE}
 
-*`products`* 変数は、成功イベントと組み合わせて設定する必要があります。
+The *`products`* variable must be set in conjunction with a success event.
 
 **購入イベントによる products 変数の設定** {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
 
-*`purchase`* イベントは、最終確認（「ご購入ありがとうございました。」）設定する必要があります。製品名、カテゴリ、数量および価格はすべて *`products`* 変数を使用します。Although the *`purchaseID`* variable is not required, it is strongly recommended in order to prevent duplicate orders.
+The *`purchase`* event should be set on the final confirmation ("Thank You!") 設定する必要があります。製品名、カテゴリ、数量および価格はすべて  *`products`* variable. Although the *`purchaseID`* variable is not required, it is strongly recommended in order to prevent duplicate orders.
 
 **製品固有／通貨イベント** {#section_F814DF053C0D463A97DA039E6323720C}
 
-If a currency event receives a value in the *`products`* variable instead of the events variable, it applies only to that value. これは、製品固有の割引額や送料などの値を追跡するのに役立ちます。例えば、製品送料を追跡するように event1 を設定した場合、送料が「4.50」の製品は、次のように表示されます。
+通貨イベントがイベント変数ではなく変数内の値を受け *`products`* 取った場合、その値にのみ適用されます。 これは、製品固有の割引額や送料などの値を追跡するのに役立ちます。例えば、製品送料を追跡するように event1 を設定した場合、送料が「4.50」の製品は、次のように表示されます。
 
 ```js
 s.events="event1" 
@@ -1639,7 +1639,7 @@ s.products="Footwear;Running Shoes;1;99.99;event1=4.50"
 
 **注文全体にわたる通貨イベント** {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
 
-If a currency event receives a value in the events list instead of the *`products`* variable, it applies to all products in the *`products`* variable. これは、個別の製品に対してセットする価格に影響を与えることなく、または製品リスト内の製品価格を別に追跡することによって、注文全体にわたる割引額や送料などの値を追跡するのに役立ちます。
+通貨イベントが変数ではなくイベントリストの値を受け取った場合、そ *`products`* の通貨イベントは変数内のすべての製品に適用さ *`products`* れます。 これは、個別の製品に対してセットする価格に影響を与えることなく、または製品リスト内の製品価格を別に追跡することによって、注文全体にわたる割引額や送料などの値を追跡するのに役立ちます。
 
 例えば、event10 に注文全体にわたる割引額を設定した場合、10 ％割引のある購入は以下のようになります。
 
@@ -1653,7 +1653,7 @@ s.purchaseID="1234567890"
 
 >[!NOTE]
 >
->*`products`* 変数に同じ数値/通貨イベントの値が指定されている場合、その *`events`* 変数からの値が使用 *`events`* されます。
+>同じ数値/通貨イベントの値が変数と変数で指定さ *`products`* れている場合は、そ *`events`* の値が使用 *`events`* されます。
 
 **注意事項、質問、ヒント** {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
 
@@ -1763,9 +1763,9 @@ Whenever the [!UICONTROL purchase] event is used on your site, you should use th
 |---|---|---|---|
 | 20 バイト | purchaseID | コンバージョン／購入／売上高、コンバージョン | "" |
 
-訪問者がサイトで品目を購入したとき、*`purchaseID`* が、[!UICONTROL 購入]イベントが発生した「ご購入ありがとうございました」ページに対して設定されます。If the *`purchaseID`* is populated, the products on the "Thank You" page are counted only once per *`purchaseID`*. サイトへの多くの訪問者が、それぞれの目的で「ご購入ありがとうございました」ページ（「確認ページ」）を保存するので、1 回だけカウントされることは非常に重要です。"*`purchaseID`* は、ページが表示されるたびに購入がカウントされるのを防ぎます。
+訪問者がサイトで品目を購入したとき、*`purchaseID`* が、[!UICONTROL 購入]イベントが発生した「ご購入ありがとうございました」ページに対して設定されます。If the *`purchaseID`* is populated, the products on the "Thank You" page are counted only once per *`purchaseID`*. サイトへの多くの訪問者が、それぞれの目的で「ご購入ありがとうございました」ページ（「確認ページ」）を保存するので、1 回だけカウントされることは非常に重要です。Folio Builder *`purchaseID`* は、ページが表示されるたびに購入がカウントされるのを防ぎます。
 
-In addition to keeping the purchase data from being counted twice, the *`purchaseID`*, when used, keeps all conversion data from being double counted in reports.
+購入データが2回カウントされるのを防ぐだけでなく、を使用すると、す *`purchaseID`*&#x200B;べてのコンバージョンデータがレポートで二重にカウントされるのを防ぎます。
 
 **構文と可能な値** {#section_E352CE2370D54BA69A368E1F63A9C32D}
 
@@ -1788,7 +1788,7 @@ None
 
 **注意事項、質問、ヒント** {#section_F5D010F234ED43F19AD1FCD2CD64E060}
 
-*`purchaseID`* この変数を使用すると、ページ上のすべてのコンバージョン変数をレポートで1回のみカウントできます。
+The *`purchaseID`* variable allows all conversion variables on the page to be counted only once in reports.
 
 ## referrer {#concept_3D8E6A5D30DC4D92982EFA34D4C7F81B}
 
@@ -1806,7 +1806,7 @@ referrer.xml
 |---|---|---|---|
 | 255 バイト | R | トラフィック／検索方法、コンバージョン／検索方法 | document.referrer |
 
-多くの企業では、Web サイト内の多数の場所でリダイレクトを使用します。例えば、訪問者を検索エンジンの有料検索結果からのリダイレクト経由で送信します。ブラウザーがリダイレクトされると、リファラーは多くの場合失われます。"*`referrer`* 変数は、リダイレクト後に最初のページの元 *`referrer`* の値を復元するために使用できます。*`referrer`* サーバーサイドまたはJavaScript経由でクエリ文字列を使用できます。
+多くの企業では、Web サイト内の多数の場所でリダイレクトを使用します。例えば、訪問者を検索エンジンの有料検索結果からのリダイレクト経由で送信します。ブラウザーがリダイレクトされると、リファラーは多くの場合失われます。The 変数は、 *`referrer`* リダイレクト後に最初のページの元 *`referrer`* の値を復元するために使用できます。 The *`referrer`* may be populated server-side, or via JavaScript from the query string.
 
 Analytics でリファラーを記録するには、リファラーが「整形式」であることが必要です。つまり、標準の URL 形式に従っており、プロトコルと適切な場所を含んでいる必要があります。
 
@@ -1875,23 +1875,23 @@ By creating a unique object ID for a link or link location on a page, you can ei
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
-| 100 バイト | OID | [!UICONTROL Activity Map]， [!UICONTROL ClickMap] | クリックされたリンクの絶対 URL |
+| 100 バイト | OID | [!UICONTROL Activity Map]、 [!UICONTROL ClickMap] | クリックされたリンクの絶対 URL |
 
 s_objectID を使用する一般的な理由には、 *`s_objectID`*:
 
 * 1 日のうちに頻繁に変化する訪問者のアクティビティを集計するため。
-* [!UICONTROL Activity Map] が組み合わせるリンクアクティビティを分離する。
-* [!UICONTROL Activity Map] データレポートの精度を向上させるため。
+* To separate link activity that [!UICONTROL Activity Map] combines.
+* To improve the accuracy of [!UICONTROL Activity Map] data reporting.
 
 **非常に動的なリンクに対するクリック数を集計する** {#section_BA730A0393B149DDBCAA272C3C23A1C5}
 
-If your site is highly dynamic, and links on some pages change throughout the day, *`s_objectID`* may used to identify the location of a link on the page. If *`s_objectID`* is set to "top left 1" or "top left 2," which represents the first link in the top left of the page for example, then all links that appear in that location (or that have *`s_objectID`* set to the same value) are reported together with visitor click map. If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
+サイトが非常に動的で、一部のページ上のリンクが1日を通して変化する場合は、を使用して *`s_objectID`* ページ上のリンクの場所を特定できます。 を「 *`s_objectID`**`s_objectID`* top left 1」または「top left 2」（例えば、ページの左上にある最初のリンクを表す）に設定した場合、その場所に表示される（または同じ値に設定された）すべてのリンクが、訪問者クリックマップと共にレポートされます。 If you don't use *`s_objectID`*, you see the number of times that a specific link was clicked, but you lose insight into how all the other links in that location were used by visitors to your site.
 
 **合算されるクリック数を分解する** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
-If the *`pageName`* variable on your site is used to show the section or template a visitor is viewing, rather than the specific page the visitor is viewing, you may want to use *`s_objectID`* to separate links that appear on multiple versions of that page template. 例えば、1 つのテンプレートページでサイト上のすべての製品に対応している場合、すべてのページに、そのテンプレートからホームページおよび検索ボックスへ移動するリンクが表示される可能性があります。これらのリンクが、テンプレートごとではなく、個々の製品ごとにどのように使用されているかを確認する場合は、*`s_objectID`* に、「prod 123789 home page」や「prod 123789 search」などの製品固有の値を入力できます。Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
+訪問者が *`pageName`**`s_objectID`* 閲覧している特定のページではなく、訪問者が閲覧しているセクションまたはテンプレートを表示するためにサイトの変数を使用する場合は、そのページテンプレートの複数のバージョンに表示されるリンクを分割するのに使用できます。 例えば、1 つのテンプレートページでサイト上のすべての製品に対応している場合、すべてのページに、そのテンプレートからホームページおよび検索ボックスへ移動するリンクが表示される可能性があります。これらのリンクが、テンプレートごとではなく、個々の製品ごとにどのように使用されているかを確認する場合は、*`s_objectID`* に、「prod 123789 home page」や「prod 123789 search」などの製品固有の値を入力できます。Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
 
-**[!UICONTROL Activity Map]の精度の向上**{#section_08B3406821294DCCABEEB99C90CF5C52}
+**Activity Map[!UICONTROL の精度の向上]**{#section_08B3406821294DCCABEEB99C90CF5C52}
 
 Internet Explorer、Firefox、Netscape、Opera、Safari 以外のブラウザーはレポートされないことがあります。このような状況が発生する割合が小さくても、クリック数やその他の指標に影響することがあります。Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. s_objectID を使用するためにリンクを更新する方法の例を *`s_objectID`*:
 
@@ -1908,7 +1908,7 @@ s_objectID にはテキストの識別子を含めることができます。
 s_objectID="unique_id" 
 ```
 
-制限はありません&#x200B;*`s_objectID`* には、標準的な変数の制限以外の制限はありません。
+～に制限はない。*`s_objectID`* には、標準的な変数の制限以外の制限はありません。
 
 **例** {#section_33F119D532CA4ACAA3426253C42030BB}
 
@@ -1977,7 +1977,7 @@ The *`server`* variable can be used to show which domains are most popular or wh
 
 ## state {#concept_82295D22888947BF8B1C76182C635C6C}
 
-変数はコンバージョン変数です。
+変数と変数はコンバージョン変数です。
 
 <!-- 
 
@@ -1985,13 +1985,13 @@ state.xml
 
  -->
 
-これらの変数は、イベントを取り込む点で eVar と同様ですが、eVar とは異なり永続的ではありません。"*`zip`**`state`* と変数は、すぐに期限切れになるeVarのようになります。
+これらの変数は、イベントを取り込む点で eVar と同様ですが、eVar とは異なり永続的ではありません。Folio Builder *`zip`* and *`state`* variables are like eVars that expire immediately.
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 50 バイト | state | コンバージョン／訪問者プロファイル／訪問者の州 | "" |
 
-Because the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events that are fired on the same page on which they are populated. For example, if you are using *`state`* to compare conversion rates by state, you should populate the *`state`* variable on every page of the checkout process. コンバージョンサイトでは、郵便番号のソースとして請求先住所の使用を推奨しますが、代わりに届け先住所を選択することもできます（注文の届け先住所が 1 つだけである場合）。メディアサイトでは、登録および広告クリックスルートラッキングのために、*`zip`**`state`* および登録または広告クリックスルー追跡を使用する場合。
+Because the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events that are fired on the same page on which they are populated. For example, if you are using *`state`* to compare conversion rates by state, you should populate the *`state`* variable on every page of the checkout process. コンバージョンサイトでは、郵便番号のソースとして請求先住所の使用を推奨しますが、代わりに届け先住所を選択することもできます（注文の届け先住所が 1 つだけである場合）。メディアサイトでは、登録および広告クリックスルートラッキングのために、 *`zip`* and *`state`* for registration or ad click-through tracking.
 
 **構文と可能な値** {#section_EDD1F5F9EDBC457898E61695F08C1744}
 
@@ -1999,7 +1999,7 @@ Because the *`state`* and *`zip`* variables expire immediately, the only events 
 s.state="state"
 ```
 
-*`state`* 変数には特別な値やフォーマットの制限はありません。There are no limitations on *`state`* outside of the standard variable limitations.
+The *`state`* variable does not impose any special value or format restrictions. There are no limitations on *`state`* outside of the standard variable limitations.
 
 **例** {#section_D181B163F79A41D199CA4C70765E583F}
 
@@ -2040,7 +2040,7 @@ timestamp.xml
 s.timestamp="UNIX or ISO-8601 format timestamp"
 ```
 
-*`timestamp`* 変数は、次のセクションで説明する形式でなければなりません。
+The *`timestamp`* variable must be in the format explained in the next section.
 
 >[!IMPORTANT]
 >
@@ -2056,7 +2056,7 @@ s.timestamp="UNIX or ISO-8601 format timestamp"
 
 * 日付と時刻を「T」で区切り、両方を指定する必要があります。
 * 日付はすべて揃った暦日付（年、月および日）であることが必要です。. 曜日と年間通算日はサポートされません。
-* 日付は、標準形式または拡張形式（`YYYY-MM-DD` または `YYYYMMDD`）が可能ですが、どちらの形式でも時間と分は含める必要があります。Seconds are optional ( `HH:MM`, `HH:MM:SS`, `HHMM`, or `HHMMSS`). 分と秒の小数点以下の部分は、渡すことはできますが無視されます。
+* 日付は、標準形式または拡張形式（`YYYY-MM-DD` または `YYYYMMDD`）が可能ですが、どちらの形式でも時間と分は含める必要があります。秒はオプションで `HH:MM`す(、、 `HH:MM:SS`、ま `HHMM`たは `HHMMSS`)。 分と秒の小数点以下の部分は、渡すことはできますが無視されます。
 
 * An optional time zone can be specified in standard or extended format ( `±HH`, `±HH:MM`, `±HH`, `±HHMM`, or Z)
 
@@ -2106,7 +2106,7 @@ trackingServer.xml
 
  -->
 
-セキュリティ保護されていないページで使用されます。If *`trackingServer`* が定義されている場合、2o7. netには何も送信されません。If *`trackingServer`* is not defined (and dc is not defined), data goes to 112.2o7.net.
+セキュリティ保護されていないページで使用されます。if *`trackingServer`* is defined, nothing goes to 2o7.net. If *`trackingServer`* is not defined (and dc is not defined), data goes to 112.2o7.net.
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -2124,7 +2124,7 @@ trackingServerSecure.xml
 
  -->
 
-セキュリティ保護されているページで使用されます。If *`trackingServerSecure`* が定義されていない場合、SSLデータは送信 *`trackingServer`*&#x200B;されません。
+セキュリティ保護されているページで使用されます。if *`trackingServerSecure`* is not defined, SSL data goes to *`trackingServer`*.
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -2148,13 +2148,13 @@ transactionID.xml
 
 **トランザクションIDストレージの有効化**{#section_3EA2C9DC9D4C4F0FBE4AB67981BCB52E}
 
-*`transactionID`* 値が記録される前に、Report Suite Managerで選択したレポートスイートに [!UICONTROL 対してトランザクションIDストレージ] を有効にする必要があります。この設定は、次の場所にあります。
+Before *`transactionID`* values are recorded, [!UICONTROL Transaction ID Storage] must be enabled for the report suite selected in the Report Suite Manager. この設定は、次の場所にあります。
 
 ```
 Analytics > Admin > Report Suites > Edit Settings > General > General Account Settings.
 ```
 
-To see whether *`transactionID Storage`* is enabled for a report suite, go to
+がレポートスイー *`transactionID Storage`* トに対して有効になっているかどうかを確認するには、
 
 ```
 Analytics > Admin > Data Sources > Manage
@@ -2184,15 +2184,15 @@ s.transactionID=s.purchaseID
 
 **注意事項、質問、ヒント** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
-* *`transactionID`* 記録が有効になっていない場合、 *`transactionID`* 値は破棄され、統合データソースで [!UICONTROL 使用できません]。Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*.
+* 記録が *`transactionID`* 有効になっていない場 *`transactionID`* 合、値は破棄され、統合データソースで使用で [!UICONTROL きなくなります]。 Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*.
 
-* If you are recording [!UICONTROL transactionIDs] for multiple systems, such as purchases and leads, make sure the value in *`transactionID`* is always unique. これは、lead_1234 や purchase_1234 のように、ID にプレフィックスを追加することで実現できます。[!UICONTROL 一意の値が2回表示されている場合、統合データソース] は期待どおりに機能しません（ [!UICONTROL データソース] のデータが間違ったデータに関連付け *`transactionID`* られています）。
+* 購入やリードな [!UICONTROL ど] 、複数のシステムのtransactionIDを記録する場合は、の値が常に一意であることを確 *`transactionID`* 認します。 これは、lead_1234 や purchase_1234 のように、ID にプレフィックスを追加することで実現できます。[!UICONTROL 統合データソースは] 、一意のデータが2回表示されると [!UICONTROL 、期待どおりに機能しません(データソースのデータは] 、間違ったデータに結び付け *`transactionID`* られます)。
 
-* By default, *`transactionID`* values are remembered for 90 days. オフラインのインタラクションプロセスが 90 日を超える場合は、カスタマーケアにご連絡いただき、限度を延長してください。
+* デフォルトでは、 *`transactionID`* 値は90日間記憶されます。 オフラインのインタラクションプロセスが 90 日を超える場合は、カスタマーケアにご連絡いただき、限度を延長してください。
 
 >[!NOTE]
 >
->*`transactionID`* 変数にはコンマ以外の任意の文字を含めることができます。文字制限（最大 100 バイト）が指定される場所に配置されます。マルチバイト文字が使用されている場合、transactionID に予期しない文字が含まれるという問題が発生しないように、マルチバイト文字のサポートを有効にする必要があります。*`transactionID`*（名前をつけて保存）する必要があります。
+>The *`transactionID`* variable can contain any character other than a comma. 文字制限（最大 100 バイト）が指定される場所に配置されます。マルチバイト文字が使用されている場合、transactionID に予期しない文字が含まれるという問題が発生しないように、マルチバイト文字のサポートを有効にする必要があります。*`transactionID`*（名前をつけて保存）する必要があります。
 
 ## visitorID {#concept_CD273CC915CC4ABD8F52E4209FF9557E}
 
@@ -2204,7 +2204,7 @@ visitorID.xml
 
  -->
 
-*`visitorID`* 英数字は最大100文字で、ハイフンを含めることはできません。
+The *`visitorID`* can be up to 100 alpha-numeric characters and must not contain a hyphen.
 
 カスタム ID を明示的に設定する場合は、常に他の ID メソッドの前に使用する必要があります。
 
@@ -2222,7 +2222,7 @@ s.visitorID="visitor_id"
 
 >[!NOTE]
 >
->*`visitorID`* 変数にハイフンを含めることはできません。
+>The *`visitorID`* variable should not contain a hyphen.
 
 **例** {#section_F7F07FEFAC3644A5A084D166ACE1315E}
 
@@ -2244,7 +2244,7 @@ visitorNamespace.xml
 
  -->
 
-If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. *`visitorNamespace`* 変更すると、Analyticsでレポートされるすべての訪問者が新規訪問者になる可能性があります。また、訪問者履歴が現在および今後のトラフィックから切り離されます。アドビの担当者の許可がない場合は、この変数を変更しないでください。
+If *`visitorNamespace`* is used in your JavaScript file, do not delete or alter it. If *`visitorNamespace`* changes, all visitors reported in Analytics may become new visitors. また、訪問者履歴が現在および今後のトラフィックから切り離されます。アドビの担当者の許可がない場合は、この変数を変更しないでください。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -2282,7 +2282,7 @@ None
 
 ## zip {#concept_C1DF93083553410DA36EAB61FBFDF69A}
 
-変数はコンバージョン変数です。
+The  and  variables are conversion variables.
 
 <!-- 
 
@@ -2290,13 +2290,13 @@ zip.xml
 
  -->
 
-これらの変数は、イベントを取り込む点で eVar と同様ですが、eVar とは異なり永続的ではありません。"*`zip`**`state`* と変数は、すぐに期限切れになるeVarのようになります。
+これらの変数は、イベントを取り込む点で eVar と同様ですが、eVar とは異なり永続的ではありません。The *`zip`* and *`state`* variables are like eVars that expire immediately.
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 50 バイト | zip | コンバージョン／訪問者プロファイル／郵便番号 | "" |
 
-そのため、*`state`* および *`zip`* 変数の有効期限はすぐに切れるので、変数に関連付けられたイベントは、入力された同じページで発生したイベントと同じです。For example, if you are using *`zip`* to compare conversion rates by Zip Code, you should populate *`zip`* on every page of the checkout process. アドビでは、郵便番号のソースとして請求先住所を使用することを推奨します。代わりに、配送先住所を選択することもできます（注文の配送先住所が 1 つだけである場合）。メディアサイトでは、登録および広告クリックスルートラッキングのために、*`zip`**`state`* および登録または広告クリックスルー追跡を使用する場合。
+Since the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. For example, if you are using *`zip`* to compare conversion rates by Zip Code, you should populate *`zip`* on every page of the checkout process. アドビでは、郵便番号のソースとして請求先住所を使用することを推奨します。代わりに、配送先住所を選択することもできます（注文の配送先住所が 1 つだけである場合）。メディアサイトでは、登録および広告クリックスルートラッキングのために、 *`zip`* and *`state`* for registration or ad click-through tracking.
 
 **構文と可能な値** {#section_5EDCFCAC8FC241D1B4CC777996858CD7}
 
@@ -2304,7 +2304,7 @@ zip.xml
 s.zip="zip_code"
 ```
 
-*`zip`* 変数には、値や形式の制限はありません。There are no limitations on *`zip`* outside of the standard variable limitations.
+The *`zip`* variable does not impose any value or format restrictions. There are no limitations on *`zip`* outside of the standard variable limitations.
 
 **例** {#section_F25C0D0CC3C04B81892A662CD605C593}
 
