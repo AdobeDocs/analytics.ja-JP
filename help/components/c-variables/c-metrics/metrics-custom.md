@@ -5,9 +5,9 @@ seo-title: カスタム指標
 solution: Analytics
 title: カスタム指標
 topic: 指標
-uuid: ff0c92cc-07c4-40ef- a946-2cd277b5a97c
+uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 カスタム指標を使用して、サイトの追加の成功指標を追跡できます。
 
-カスタム指標は、[イベント](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=events#)変数を使用して取得され、次の 2 種類があります。
+カスタム指標は、[イベント](https://marketing.adobe.com/resources/help/en_US/sc/implement/events#.html)変数を使用して取得され、次の 2 種類があります。
 
 * 何かが発生した回数をカウントするイベント。広告表示、チェックアウト、および同様のイベントは、この種類のイベントを使用して追跡されます。
 * 追加の計算によく使用される値を保存するイベント。これらのイベントは、レポートで計算を実行するために使用することができる通貨などの数値を保存します。例えば、購入の配送料をカスタムイベントに保存することができます。これにより、配送のために収集された金額と、配送業者に実際に支払った料金を比較することができます。
