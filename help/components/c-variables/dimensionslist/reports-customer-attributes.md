@@ -6,7 +6,7 @@ solution: Experience Cloud,Analytics
 title: 顧客属性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -15,18 +15,18 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 顧客属性に関する Analytics の FAQ と顧客属性レポートの実行方法です。
 
-**[!UICONTROL レポート]** /訪問者プロファイル **[!UICONTROL /顧]****[!UICONTROL 客属性]**
+**[!UICONTROL Reports &gt; Visitor Profile &gt; Customer Attributes]**********
 
 エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。データがアップロードされると、Reports &amp; Analytics の顧客属性レポートを実行できます。
 
 * [Analytics の顧客属性とレポート指標](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [FAQ - Analytics の顧客属性](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-顧客属性データのアップロードについて詳しくは、Experience Cloud ヘルプの[顧客属性](https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=attributes)を参照してください。
+顧客属性データのアップロードについて詳しくは、Experience Cloud ヘルプの[顧客属性](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)を参照してください。
 
 ## Analytics の顧客属性とレポート指標 {#section_EF343662146B460A882D3DF772ADD86D}
 
-顧客属性をアップロードし、（Experience cloudで）スキーマを検証した後、属性文字列と整数にマップしたわかりやすい名前( *`age`* またはな *`gender`*&#x200B;ど)に基づいて指標が作成されます。 These metrics appear in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** reports.
+After you upload customer attributes and validate the schema (in the Experience Cloud), the system creates metrics based on the friendly names (like  or ) that you map to the attribute strings and integers. *`age`**`gender`* These metrics appear in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** reports.
 
 次に例を示します。
 
@@ -59,8 +59,8 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
    <td colname="col2"> <p>IDサービスを使用すると、次のような多くの利点があります。 </p> 
     <ul id="ul_5D3659604D43419F9CA5920B4F93728E"> 
      <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">Customer IDをIDサービスと共に設定しない場合、顧客レコードはAdobe Analyticsでのみ使用できます。 顧客レコードをリアルタイムターゲティングに使用する場合は、IDサービスを使用する必要があります。 </li> 
-     <li id="li_228358684E474A298E39578D427BF932">IDサービスを使用して顧客IDを設定すると、IDをExperience cloudと同期するのにかかる時間が短縮されます。 顧客 ID を prop または eVar に入力すると、顧客 ID は、バッチで発生するバックエンドサーバー同期を通じて Experience Cloud に送信されます。IDサービスは、すぐに顧客IDをExperience cloudと同期します。 </li> 
-     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> propやeVarの代わりにIDサービスを使用すると、そのpropやeVarを解放して他の用途に使用できるようになります。 </li> 
+     <li id="li_228358684E474A298E39578D427BF932">IDサービスを使用して顧客IDを設定すると、IDをExperience cloudと同期するのにかかる時間が短縮されます。 顧客 ID を prop または eVar に入力すると、顧客 ID は、バッチで発生するバックエンドサーバー同期を通じて Experience Cloud に送信されます。The Identity Service synchronizes the Customer ID with the Experience Cloud immediately. </li> 
+     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> Using the Identity Service instead of a prop or eVar frees up that prop or eVar for other uses. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
