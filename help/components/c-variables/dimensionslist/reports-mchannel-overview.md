@@ -5,9 +5,9 @@ seo-title: マーケティングチャネル概要
 solution: Analytics
 title: マーケティングチャネル概要
 topic: レポート
-uuid: e4542014-2098-4f4a- ac0d-97587182d6cc
+uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,23 +18,23 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 一般的なプロパティ {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* このレポートは、マーケティングチャネルの[処理ルール](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_channels_rules)にのみ依存しています。これらのルールを変更すると、このレポート内のデータの計算方法が変更されます。
+* このレポートは、マーケティングチャネルの[処理ルール](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html)にのみ依存しています。これらのルールを変更すると、このレポート内のデータの計算方法が変更されます。
 * 処理ルールの順序は、マーケティングチャネルの機能にとって重要です。それぞれのヒットでは最初に最上部の処理ルールの条件がチェックされ、そこから下に絞り込まれます。
 * このレポートは 2 つの分類（チャネル自体とチャネル詳細）で構成されています。各チャネル横の「+」 ボタンをクリックすると、その詳細が表示されます。
 * 各列に追加できる指標は 4 つだけです。ただし、使用できる列数に制限はありません。
 * 最後の列の末尾には小さいトレンドラインが表示されることがあります。このトレンドラインはアクティブな指標の間で循環できます。
 * 標準の方式で収集される多様なチャネルに加え、オフラインデータソースを使用できます。
-* [分類](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_classifications)を使用すると、行項目の名前変更や統合ができます。
+* [分類](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html)を使用すると、行項目の名前変更や統合ができます。
 * このレポートでは以下の指標を使用できます（組織とレポートスイートの設定に応じて異なります）。
 
-   * **クリックスルー**: *`s.campaign`* 変数が定義された回数。
+   * **クリックスルー**:変数が定義さ *`s.campaign`* れた回数。
 
-   * [新規エンゲージメント](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_visitor_engagement)：新規ファーストタッチチャネルを受け取った訪問者の数。
+   * [新規エンゲージメント](https://marketing.adobe.com/resources/help/en_US/mchannel/t_visitor_engagement.html)：新規ファーストタッチチャネルを受け取った訪問者の数。
    * e コマースのすべての標準的な指標：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、買い物かごからの削除数
    * すべてのカスタムイベント：イベント 1 ～ 80（H22 コード以上では、さらにイベント 80 ～ 100）
    * **訪問数**&#x200B;および&#x200B;**訪問者数**：コマース訪問数指標およびコマース訪問者数指標（組織とレポートスイートに依存します）が必要です。詳細については、アカウントマネージャーにお問い合わせください。
 
-   * **予算**&#x200B;と&#x200B;**コスト**：マーケティングチャネルに特有の指標。[コストと予算](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview_budget)を参照してください。
+   * **予算**&#x200B;と&#x200B;**コスト**：マーケティングチャネルに特有の指標。[コストと予算](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html)を参照してください。
 
 ## 製品固有のプロパティ {#section_0C78D294D00942FD9A26D37CB5D645AE}
 
