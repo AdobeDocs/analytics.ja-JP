@@ -1,25 +1,25 @@
 ---
-description: 分類とは、Analytics変数データを分類し、レポートを生成するときに様々な方法でデータを表示する方法です。
-seo-description: 分類とは、Analytics変数データを分類し、レポートを生成するときに様々な方法でデータを表示する方法です。
+description: 分類は、Analytics変数データを分類し、レポートを生成する際に様々な方法でデータを表示する方法です。
+seo-description: 分類は、Analytics変数データを分類し、レポートを生成する際に様々な方法でデータを表示する方法です。
 seo-title: 分類について
 solution: Analytics
-subtopic: '分類      '
+subtopic: 分類
 title: 分類について
 topic: 管理ツール
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
 # 分類について
 
-分類とは、Analytics変数データを分類し、レポートを生成するときに様々な方法でデータを表示する方法です。
+分類は、Analytics変数データを分類し、レポートを生成する際に様々な方法でデータを表示する方法です。
 
 [Analytics 分類](https://video.tv.adobe.com/v/16853/?captions=jpn)のビデオ概要。
 
-**[!UICONTROL 管理]** 者/ **[!UICONTROL レポートスイート]** / **[!UICONTROL 設定を編集]** / *`<Traffic or Conversion>`*
+**[!UICONTROL 管理者]** /レ **[!UICONTROL ポートスイート]** / **[!UICONTROL 設定を編集]** / *`<Traffic or Conversion>`*
 
 分類を行う場合は、変数とその変数に関連するメタデータとの間に関係を確立します。分類は、キャンペーンに最もよく使用されます。変数（eVar、prop、event）情報を使用して収集されたデータは、変数内の収集された値にメタデータを適用することでロールアップできます。
 
@@ -33,9 +33,9 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
 
 >[!NOTE]
 >
->2018年5月10日のAnalyticsメンテナンスリリースでは、日付の有効化および数値分類の機能の制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類および数値の分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。
+>2018年5月10日のAnalyticsメンテナンスリリースで、アドビでは、日付が有効な分類と数値分類の機能を制限するようになりました。 これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類および数値の分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。
 
-分類を作成すると、Adobe Analytics全体で新しいデータ属性を活用できます。
+分類を作成した後、Adobe Analytics全体で新しいデータ属性を活用できます。
 
 **トラッキングコードの例**
 
@@ -43,9 +43,9 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
 
 レポーティングと解析には、トラッキングコード変数の分類が事前定義されており、クリエイティブエレメントやキャンペーンと呼ばれる分類ベースのレポートを作成できます。その他すべてのコンバージョン変数およびトラフィック変数については、分類を手動で設定する必要があります。
 
-[トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)および[コンバージョン分類](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=conversion_classifications)を参照してください。
+[トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)および[コンバージョン分類](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)を参照してください。
 
-次の表では、使用できる様々なタイプの分類およびこれらの分類をサポートする変数のタイプについて説明します。データファイルをアップロードする前に、[一般的なファイル構造](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) を参照してください。
+次の表では、使用できる様々なタイプの分類およびこれらの分類をサポートする変数のタイプについて説明します。データファイルをアップロードする前に、 一般的なフ [ァイル構造を参照し](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) 、データファイルをアップロードします。
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
@@ -62,13 +62,13 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
    <td colname="col3"> <p>テキストの分類によって、レポート用に変数データをグループ分けするカテゴリを定義します。 </p> <p>例えば、シャツを販売する場合、シャツの販売数（コンバージョン）を色、サイズ、スタイルでカテゴリに分け、シャツの販売数をこれらのカテゴリ別に表示するレポートを生成できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> 日付が有効なテキスト</span> </p> <p>注意:2018年5月10日のAnalyticsメンテナンスリリースでは、日付が有効な分類の機能の制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付対応分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。 </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> 日付が有効なテキスト</span> </p> <p>注意：  In the May 10, 2018, Analytics Maintenance release, Adobe started to limit the functionality of date-enabled classifications. これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類は追加できません。 既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。 </p> </td> 
    <td colname="col2"> <p>コンバージョン変数 </p> </td> 
-   <td colname="col3"> <p>日付が有効なテキストの分類によって、日付範囲をテキストの分類に割り当てることができます。この分類は通常、キャンペーン分類で使用します。これにより、<span class="wintitle">キャンペーン</span>レポートでガントチャート表示を利用できるようになります。 </p> <p>分類データを入力するデータファイルに、実際のキャンペーン日を含めることができます。 </p> <p>Reports&amp; Analyticsでは、キャンペーンの終了日が過ぎていてもキャンペーントラッキングコードが収集されますが、キャンペーンの終了日以降に収集されたキャンペーンデータはキャンペーンに関連付けられません。 </p> </td> 
+   <td colname="col3"> <p>日付が有効なテキストの分類によって、日付範囲をテキストの分類に割り当てることができます。この分類は通常、キャンペーン分類で使用します。これにより、<span class="wintitle">キャンペーン</span>レポートでガントチャート表示を利用できるようになります。 </p> <p>分類データを入力するデータファイルに、実際のキャンペーン日を含めることができます。 </p> <p>Reports &amp; Analyticsは、キャンペーンの終了日が過ぎていてもキャンペーントラッキングコードを収集しますが、キャンペーンの終了日より後に収集されたキャンペーンデータはキャンペーンに関連付けられません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> 数値</span> <p>注意:2018年5月10日のAnalyticsメンテナンスリリースでは、数値分類の機能の制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい数値分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。 </p> </p> </td> 
-   <td colname="col2"> <p>コンバージョン変数     </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> 数値</span> <p>注意：  In the May 10, 2018, Analytics Maintenance release, Adobe started to limit the functionality of numeric classifications. これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。No new numeric classifications can be added. 既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。 </p> </p> </td> 
+   <td colname="col2"> <p>コンバージョン変数 </p> </td> 
    <td colname="col3"> <p>数値の分類によって、固定の数値を<span class="wintitle">コンバージョン</span>レポートに適用できます。これらの分類は、指標レポートとして表示されます。 </p> <p><span class="wintitle">数値</span>の分類を追加する場合、数値は固定値を使用し、長期にわたり変更しないことが必要になります。 </p> </td> 
   </tr> 
  </tbody> 
