@@ -4,10 +4,10 @@ seo-description: 指標はレポートの基礎で、データの相互関連を
 seo-title: 指標
 solution: Analytics
 title: 指標
-topic: Reports and Analytics
-uuid: ae2021eb-8b26-4a98- b7a0- ce36bca46753
+topic: Reports & Analytics
+uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 [計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)は指標を組み合わせて作成します。
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics).
+For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
 
 ## デフォルトのレポート指標の選択 {#task_9537A607288A4450AE07EC7C070B47C6}
 
