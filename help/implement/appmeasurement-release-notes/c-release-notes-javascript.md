@@ -8,7 +8,7 @@ title: JavaScript H コード - レガシー
 topic: 開発者と実装
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -151,7 +151,7 @@ Visitor API 1.5.5 を同梱しました。
 
 リリース日：**2013 年 4 月 30 日**
 
-* `useForcedLinkTracking`カスタムリンクコードを使用した手動リンクトラッキング[で説明している ](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) オプションが Firefox 20 以降にも適用されるようになりました（以前は WebKit ブラウザーにのみ適用されました）。
+* `useForcedLinkTracking`カスタムリンクコードを使用した手動リンクトラッキング[で説明している ](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) オプションが Firefox 20 以降にも適用されるようになりました（以前は WebKit ブラウザーにのみ適用されました）。
 
 * 画像オブジェクトの ID 生成がインスタンス間で一意になりました。そのため、同じページ上に複数のインスタンスがある場合の衝突を防ぐことができます。
 
@@ -187,7 +187,7 @@ Visitor API 1.5.5 を同梱しました。
 * `escape` と `encodeURIComponent` を組み合わせて使用しエンコードされた文字列の URL デコードの処理を修正しました。
 
 * WebKit ブラウザーで、ページの最初のサーバーコールがタイムアウトした場合、リンクの追跡に失敗する問題を修正しました。
-* 訪問者の新たな識別方法が追加されました。[個別訪問者の識別](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)を参照してください。
+* 訪問者の新たな識別方法が追加されました。[個別訪問者の識別](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)を参照してください。
 * `abort` フラグを新しく追加しました。このフラグは `doPlugins` 内で設定できます。このフラグを true に設定すると、対象のトラッキング呼び出しで [!DNL AppMeasurement] ライブラリが続行しません。abort フラグはあらゆるトラッキング呼び出しによってリセットされるので、後続のトラッキング呼び出しも中止する必要がある場合は、このフラグを再度 `doPlugins` 内に設定する必要があります。
 
 ```js
@@ -286,7 +286,8 @@ Firefox および Internet Explorer では、リンクトラッキングが実�
    <td colname="col1"> trackLink（<code>s.tl</code>） </td> 
    <td colname="col2"> <p>離脱リンクとダウンロードリンク、カスタムリンクを追跡します。WebKit ブラウザーでのリンクトラッキングの完了後にどのナビゲーションアクションを実行するかを指定するオプションのパラメーターとなります。 </p> <p> <b>構文</b> </p> 
     <code class="syntax javascript">
-      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>：（オプション）リンクトラッキングの送信後、またはリンクトラッキングのタイムアウト（<code>s.forcedLinkTrackingTimeout</code> での指定値による）後に実行するアクションを指定します。<code>doneAction</code> に 'navigate' という文字列を指定すると、このメソッドによって <code>document.location</code> に <code>linkObject</code> の <code>href</code> 属性が設定されます。また、<code>doneAction</code> に関数を指定し、高度なカスタマイズを行うこともできます。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>例</b> </p> 
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
+    </code> <p> <b>doneAction</b>：（オプション）リンクトラッキングの送信後、またはリンクトラッキングのタイムアウト（<code>s.forcedLinkTrackingTimeout</code> での指定値による）後に実行するアクションを指定します。<code>doneAction</code> に 'navigate' という文字列を指定すると、このメソッドによって <code>document.location</code> に <code>linkObject</code> の <code>href</code> 属性が設定されます。また、<code>doneAction</code> に関数を指定し、高度なカスタマイズを行うこともできます。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>例</b> </p> 
     <code class="syntax javascript">
       &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;クリック&amp;アンプ； </code><code class="syntax javascript">nbsp;Here&lt;/a&gt; &lt;a&amp;nbsp;href="#"&amp;;sp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;クリック&amp;アンプ；nbsp；ここ&lt;/a&gt; </code> </td> 
   </tr> 
