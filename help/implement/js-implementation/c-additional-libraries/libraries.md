@@ -1,23 +1,23 @@
 ---
 description: 使用できる測定ライブラリを示します。
-keywords: Analyticsの導入;収集、data;collection
+keywords: Analytics Implementation;collect;data;collection
 seo-description: 使用できる測定ライブラリを示します。
-seo-title: 追加ライブラリの概要
+seo-title: 追加のライブラリの概要
 solution: Analytics
-title: 追加ライブラリの概要
-topic: 開発者と導入
-uuid: 1ec291f6-073f-49d1- b6ab-044b1069db4e
+title: 追加のライブラリの概要
+topic: 開発者と実装
+uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 追加ライブラリの概要
+# 追加のライブラリの概要
 
 使用できる測定ライブラリを示します。
 
-以下の表では、使用可能なすべてのプラットフォームで Analytics データの収集に利用できるライブラリの概要を説明しています。詳しくは、[Analytics でのデータ収集](https://marketing.adobe.com/resources/help/en_US/reference/?f=usecase_sending_data_to_sc)を参照してください。
+以下の表では、使用可能なすべてのプラットフォームで Analytics データの収集に利用できるライブラリの概要を説明しています。詳しくは、[Analytics でのデータ収集](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html)を参照してください。
 
 <table id="table_B01E5B7E5DEB42A28AB851E640A6F08E"> 
  <thead> 
