@@ -3,9 +3,9 @@ description: 指標は、ページビュー数、クリックスルー数、リ�
 seo-description: 指標は、ページビュー数、クリックスルー数、リロード回数、平均滞在時間、購入点数、注文件数、売上高など、訪問者のアクティビティに関する量的な情報です。指標と関連データは、レポートの列に表示されます。
 seo-title: 指標
 title: 指標
-uuid: ab9d8a45-0297-4757- b0f0- d8b0e0db8d67
+uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * **コンバージョン**：Web サイトの成功イベントに関するデータを表示します。成功イベントには、Web サイト上での購入、ダウンロードなど、望ましいユーザーアクションが含まれます。
 * **計算**：他の指標を組み合わせて作成されたカスタマイズ可能な指標です。例えば、売上高からキーワード費用と商品費用を差し引いて純売上高を計算する指標などを作成できます。その後、この値を注文総数で割って、注文あたりの平均純売上高を計算できます。
 
-[ での指標の使用方法については、「](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics)解析リファレンス&#x200B;*」の「*&#x200B;指標の定義[!DNL Experience Cloud]」を参照してください。
+[ での指標の使用方法については、「](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)解析リファレンス&#x200B;*」の「*&#x200B;指標の定義[!DNL Experience Cloud]」を参照してください。
 
 [!UICONTROL 指標の整理]ツールを使用して、指標の新しいフォルダーを作成できます。その後、必要に応じて指標をグループ化することができます。指標の整理ツールでは、ドラッグ＆ドロップによって既存の指標をカスタムフォルダーにコピーできます。
 
@@ -40,7 +40,7 @@ t_organize_metrics.xml
 
  -->
 
-1. [!UICONTROL 指標] ツールパネルで、 **[!UICONTROL 「その他のアクション]**」をクリックします。（ ![](assets/tools_icon.png)
+1. In the [!UICONTROL Metrics] tool pane, click **[!UICONTROL More Actions]**. (  ![](assets/tools_icon.png)
 
    ）
 1. Click **[!UICONTROL Organize Metrics]**.
@@ -50,7 +50,7 @@ t_organize_metrics.xml
 
    >[!NOTE]
    >
-   >フォルダを削除すると、フォルダー内のすべての指標が現在選択されているプロジェクトから削除されます。
+   >フォルダを削除すると、そのフォルダ内のすべての指標が現在選択しているプロジェクトから削除されます。
 
 ## レポートへの指標の追加 {#task_747DD1718B3F4776B83A115D0BE8754C}
 
@@ -70,7 +70,7 @@ t_add_metrics_dsc.xml
 
    レポートに指標を繰り返し追加する回数を減らすために、必要に応じて、「[!UICONTROL 設定]」で事前にデフォルトの指標を指定することができます。
 
-   詳しくは、[ランクタブ-定義](../../analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF)を参照してください。
+   詳しくは、 [Ranked Tab - Definitions](../../analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## 計算指標ビルダー {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
@@ -86,7 +86,7 @@ c_calc_metric_builder.xml
 
 次に、Ad Hoc Analysis の計算指標ビルダーへのアクセス方法を示します。
 
-1. [!UICONTROL [指標] ]ペインで **[!UICONTROL [その他のオプション]]**&#x200B;をクリックし、 **[!UICONTROL [計算指標ビルダ]**]をクリックします。
+1. In the [!UICONTROL Metrics] pane, click **[!UICONTROL More Options]**, then **[!UICONTROL Calculated Metrics Builder]**.
 
    ![](assets/more_options_calc.png)
 
