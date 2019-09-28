@@ -7,7 +7,7 @@ title: トラッキングコード
 topic: レポート
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -48,11 +48,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
 
-* すべての[リスト変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=list_var)によって、このレポートを掘り下げることができます。
+* すべての[リスト変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)によって、このレポートを掘り下げることができます。
 * ページビュー数、訪問回数、および実訪問者数は指標として使用できます。
 * このレポートではセグメントを使用できます。
 
-** Ad Hoc Analysisプロパティ**
+** Ad Hoc Analysis Properties**
 
 * すぐに使用できるほとんどのコンバージョン変数に加え、レポートインターフェイス内の他のすべてのレポートによってトラッキングコードレポートを分類できます。
 * e コマースおよびカスタムイベントに加えて、すべてのコンバージョンおよびトラフィック指標を利用できるほか、すべてのコンバージョン指標について様々な配分を使用できます。
