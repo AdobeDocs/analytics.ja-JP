@@ -8,7 +8,7 @@ title: Android
 topic: 開発者と実装
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -254,7 +254,7 @@ The [!DNL Android] SDK version 4.8.3 (February 18, 2016) includes the following 
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> オプトアウトおよびプライバシー設定 </td> 
-   <td colname="2"> <p><span class="keyword"> Android SDK 4.8.3以降、</span> set PrivacyStatus <code> メソッドを使用して設定されたプライバシー設定は、Analyticsからのアクティビティに影響を与えます。Target</code> Target <span class="keyword"> Audience Manager</span><span class="keyword"></span><span class="keyword"></span>Android Audience Manager </p> </td> 
+   <td colname="2"> <p>Starting with <span class="keyword"> Android</span> SDK 4.8.3, privacy settings set via the <code> setPrivacyStatus</code> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> , and <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -458,7 +458,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 リリース日：**2014 年 4 月 18 日**
 
-* 新機能 — Bluetoothビーコントラッキング。
+* New - Bluetooth beacon tracking.
 * 新機能 — タイムスタンプが有効なアプリで、クラッシュヒットの日付を正しいセッションまで遡ります。
 * 新機能 — タイムスタンプが有効なアプリで、正しいセッションまで遡ったヒットで前のセッションが送信されます。 （以前のセッションではなくなります）。
 * 新規 — ヒットのバッチ処理。
@@ -597,7 +597,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 リリース日：**2012 年 10 月**
 
-* [Google Play キャンペーントラッキング](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer)のサポートを追加しました。
+* [Google Play キャンペーントラッキング](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html)のサポートを追加しました。
 
 ## バージョン 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
