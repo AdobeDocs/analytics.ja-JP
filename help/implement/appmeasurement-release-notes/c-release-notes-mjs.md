@@ -8,7 +8,7 @@ title: JavaScript 版 AppMeasurement
 topic: 開発者と実装
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -51,7 +51,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 Release Date: **July 15, 2019**
 
 * Activity mapのスクロールリーチ追跡機能をActivity map拡張機能に追加しました。(AN-172949)
-* DIL 9.2がAppMeasurementに追加されました。(AN-182472)
+* Added DIL 9.2 to AppMeasurement (AN-182472)
 
 ## バージョン 2.14.0
 
@@ -177,7 +177,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * 最新版の [!DNL dil.js] が含まれています。（AN-140396）
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. （AN-131920）
 * 訪問者 API 2.1.0 が再び含まれました。（AN-140873）
-* Added `mcorgid` parameter. （AN-139586）
+* パラメータ `mcorgid` ーを追加。 （AN-139586）
 * cp（customerPerspective）パラメーターが追加されました。（AN-140897）
 
 ## バージョン 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -279,7 +279,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 リリース日：**2016 年 5 月 20 日**
 
-[!DNL JavaScript] バージョン1.5.6
+[!DNL JavaScript] version 1.5.6
 
 * Visitor API 1.5.6 を同梱しました。
 * Firefox で、完了イベントを発生させないリンククリックのトラッキング処理を修正しました。
@@ -353,11 +353,11 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS 拡張機能</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external">iOS 拡張機能の実装</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">iOS 拡張機能の実装</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android ウェアラブル拡張機能</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external">Android ウェアラブル拡張機能</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android ウェアラブル拡張機能</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,7 +432,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_implement.html) implementation for Experience Cloud.
 
 ## バージョン 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -441,7 +441,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * バージョン 15 ではプラグインのレポートは存在しないため、ブラウザープラグインの追跡（`p` クエリパラメーター）は削除されました。
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-[追加された eVar](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=evars_events)（76 ～ 250）およびイベント（101 ～ 1000）のサポートが追加されました。
+[追加された eVar](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)（76 ～ 250）およびイベント（101 ～ 1000）のサポートが追加されました。
 
 >[!NOTE]
 >
@@ -497,7 +497,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 リリース日：**2013 年 11 月 15 日**
 
 * [ハードビートビデオ指標](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)のサポートが追加されました。
-* [!DNL VisitorAPI.js] 訪問者IDサービスをサポートす [るために追加されました](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)。
+* [!DNL VisitorAPI.js] 訪問者IDサービスをサポートす [るために追加されました](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html)。
 
 ## バージョン 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
@@ -541,8 +541,8 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 * クエリパラメーターの取得、Cookie の読み取り／書き込み、高度なリンクトラッキングの実行をネイティブサポート。
 * モバイルサイトで使用できるほど軽量かつ高速で、フルデスクトップ Web で使用できるほど堅牢。1 つのライブラリを Web 環境全体で活用できます。
 
-詳しくは、 導入ガイドの [JavaScript 版 AppMeasurement](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=appmeasure_mjs) を参照してください。[!DNL Analytics]
+詳しくは、 導入ガイドの [JavaScript 版 AppMeasurement](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) を参照してください。[!DNL Analytics]
 
 >[!NOTE]
 >
->一部のプラグインは、この新しいバージョンではサポートされていません。 詳しくは、[プラグインのサポート](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support)を参照してください。
+>Some plug-ins are not supported in this new version. 詳しくは、[プラグインのサポート](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)を参照してください。
