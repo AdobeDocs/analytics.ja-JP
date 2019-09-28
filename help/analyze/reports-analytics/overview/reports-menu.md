@@ -3,9 +3,9 @@ description: Reports & Analytics のレポートメニューの概要を示し�
 seo-description: Reports & Analytics のレポートメニューの概要を示します。
 seo-title: レポートメニュー
 title: レポートメニュー
-uuid: 562cb6bf-9396-42a3- adf4-9651af8341cb
+uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -29,7 +29,7 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 ![](assets/reports-landing.png){width="672px"}
 
-個々のレポートについて詳しくは、[レポートの説明](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions)を参照してください。
+個々のレポートについて詳しくは、[レポートの説明](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)を参照してください。
 
 ## レポートの検索 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -41,7 +41,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
 
 >[!NOTE]
 >
->prop、eVarおよびイベント番号でレポートリストを検索することもできます。検索バーに prop、eVar またはイベント番号を入力してください。
+>また、レポートリストをprop、eVar、イベント番号で検索することもできます。 検索バーに prop、eVar またはイベント番号を入力してください。
 
 ## ナビゲーション概要 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +55,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
  <tbody> 
   <tr> 
    <td colname="col1">Experience Cloud ソリューションメニュー<img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> このアイコンをクリックすると、Experience Cloudメニューが展開し、他のMarketing Cloudソリューションにアクセスできます。 </td> 
+   <td colname="col2"> このアイコンをクリックすると、Experience cloudメニューが展開し、他のMarketing Couldソリューションにアクセスできます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">レポートメニューを切り替え <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -99,14 +99,14 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> ブックマーク...</span> </td> 
-   <td colname="col2">Lets you <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> bookmark</a> the report. </td> 
+   <td colname="col2">レポートにブックマ <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> ーク</a> を設定できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> ダッシュボード</span>... </td> 
    <td colname="col2">Lets you add the report to a <a href="../../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">詳細情報...</span> </td> 
+   <td colname="col1"><span class="uicontrol"> さらに詳しく...</span> </td> 
    <td colname="col2"> 次の一部またはすべてのアクションを実行できます：印刷、データの抽出、アラートの追加、カスタムレポートの作成、グラフのコピー、このレポートへのリンクの設定、新規ウィンドウのオープン </td> 
   </tr> 
   <tr> 
@@ -122,4 +122,4 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
 
 ## すべてのレポートメニューのカスタマイズ {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)」を参照してください。
+管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)」を参照してください。
