@@ -7,7 +7,7 @@ title: 離脱リンク
 topic: レポート
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -23,15 +23,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 自動カスタムリンクトラッキングを使用する場合は、以下の要件がすべて満たされている必要があります。
 * 
 
-   * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_trackexlinks) が *true* に設定されている。
+   * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackexlinks.html) が *true* に設定されている。
 
-   * ユーザーがクリックしたリンクが [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkinfilters) 変数内の値に一致しない。
-   * [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkinfilters) が実装されている場合は、外部リンクがこの変数で設定された値のいずれかに一致している。
+   * ユーザーがクリックしたリンクが [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) 変数内の値に一致しない。
+   * [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) が実装されている場合は、外部リンクがこの変数で設定された値のいずれかに一致している。
 
 * 以上の要件のいずれかを満たしていない場合は、このレポートにヒットが入力されません。
 
 * 
-* すべてのカスタムリンクトラッキングヒットと同様、ページビュー数の水増しを避けるために、[s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) 変数はイメージリクエストから削除されます。
+* すべてのカスタムリンクトラッキングヒットと同様、ページビュー数の水増しを避けるために、[s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) 変数はイメージリクエストから削除されます。
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
 * You can create [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
