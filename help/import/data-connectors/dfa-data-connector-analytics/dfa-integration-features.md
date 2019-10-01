@@ -1,17 +1,14 @@
 ---
-description: 'アクティブ化すると、Data Connectors DFA統合によってAdobe Analyticsレポートに対して次の指標が提供されます '
+description: 'アクティブ化すると、Data Connectors DFA統合はAdobe Analyticsレポートに対して次の指標を提供します '
 keywords: DFA
-seo-description: 'アクティブ化すると、Data Connectors DFA統合によってAdobe Analyticsレポートに対して次の指標が提供されます '
+seo-description: 'アクティブ化すると、Data Connectors DFA統合はAdobe Analyticsレポートに対して次の指標を提供します '
 seo-title: 統合の機能
 solution: Analytics
 title: 統合の機能
 topic: Data Connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -28,7 +25,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 >[!NOTE]
 >
->この統合では、クリックトラッカー（以前のクリックコマンド）はサポートされません。クリックトラッカーは、テキストリンク、電子メールメッセージのリンク、または Web サイト上でハードコードされた他の要素のクリック数を記録するために使用されます。
+>この統合では、クリックトラッカー（旧称クリックコマンド）はサポートされません。 クリックトラッカーは、テキストリンク、電子メールメッセージのリンク、または Web サイト上でハードコードされた他の要素のクリック数を記録するために使用されます。
 
 Data Connectors DFA 統合は、DFA によって返されたデータから DFA トラッキングコードを自動的に構成します。これらのトラッキングコードは、広告とそれに関連付けられたプレースメントおよびクリエイティブを個別に識別するために構成されます。統合の各バージョンのトラッキングコードの概要を次に示します。バージョン 1.5 では、次のようになります。
 
@@ -65,5 +62,5 @@ If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is sele
 
 >[!NOTE]
 >
->SearchCenter/DFA重複除外が有効で、SearchCenterクエリ文字列パラメータが設定されている場合、その訪問はDFA処理用に考慮されません。つまり、SearchCenter クエリ文字列パラメーターは、DFA クリックスルーパラメーターとは異なる必要があり、表示広告に SearchCenter クエリ文字列パラメーターが設定されないようにする必要があります。
+>SearchCenter/DFA重複除外が有効で、SearchCenterクエリ文字列パラメーターが設定されている場合、訪問はDFA処理と見なされません。 つまり、SearchCenter クエリ文字列パラメーターは、DFA クリックスルーパラメーターとは異なる必要があり、表示広告に SearchCenter クエリ文字列パラメーターが設定されないようにする必要があります。
 
