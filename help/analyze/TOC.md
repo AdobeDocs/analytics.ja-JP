@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 分析ガイド
 user-guide-url: /content/help/ja-JP/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
+translation-type: tm+mt
+source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
 
 ---
 
@@ -30,6 +30,7 @@ source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
       + [テーブルのページネーション、フィルタリングおよび並べ替え](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [カラーパレット](analysis-workspace/build-workspace-project/color-palettes.md)
       + [表示密度](analysis-workspace/build-workspace-project/view-density.md)
+      + [ワークスペースの合計](analysis-workspace/build-workspace-project/workspace-totals.md)
    + コンポーネント {#components}
       + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
       + ディメンション {#dimensions}
