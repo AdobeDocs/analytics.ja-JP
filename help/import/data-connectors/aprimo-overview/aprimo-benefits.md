@@ -1,23 +1,12 @@
 ---
-description: 'この統合には、次のようなメリットがあります '
-seo-description: 'この統合には、次のようなメリットがあります '
-seo-title: 主要なメリットと機能
-title: 主要なメリットと機能
-uuid: 1140d0d1-5e4a-4cf6- b5b7- dc47270b4ca5
-index: y
-internal: n
-snippet: y
+description: 'この統合には、次の主な利点が含まれます '
+seo-description: 'この統合には、次の主な利点が含まれます '
+seo-title: 主なメリットと機能
+title: 主なメリットと機能
+uuid: 1140d0d1-5e4a-4cf6-b5b7-dc47270b4ca5
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
-
-# 主要なメリットと機能{#key-benefits-and-features}
-
-この統合には、次のようなメリットがあります。
-
-* 電子メールマーケティングおよび解析データを1つのレポートインターフェイスに統合できます。
-* コンバージョンおよびサイトの成功に対する貢献度によって電子メールキャンペーンを最適化します。
-* 主要訪問者に再マーケティングし、動的マーケティングセグメントに基づいてセグメント化します。
 
