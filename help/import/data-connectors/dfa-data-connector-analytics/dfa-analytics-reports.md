@@ -7,11 +7,8 @@ solution: Analytics
 title: DFA データを使用した Analytics レポート
 topic: Data Connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -56,4 +53,3 @@ DFA レポートを生成するには
 * 特定の DFA 広告名を選択して、特定の DFA 広告に関する詳細情報を表示するためのオプションのメニューを開きます。
 * 各指標の列には、グラフで指標に割り当てられた色に対応するカラーキーが示されます。
 * レポートは、売上高指標を基準に並べられ、最も高い売上高の広告がトップに表示されます。別の列（指標）のラベルをクリックすることで、レポートの並び順を変更できます。
-
