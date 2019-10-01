@@ -1,24 +1,21 @@
 ---
-description: 以下のコードを使用する前に、Adobe Analyticsの管理ツールで必要なeVarを予約してください。
-seo-description: 以下のコードを使用する前に、Adobe Analyticsの管理ツールで必要なeVarを予約してください。
+description: 以下のコードを操作する前に、必要なeVarをAdobe Analyticsの管理ツールで予約します。
+seo-description: 以下のコードを操作する前に、必要なeVarをAdobe Analyticsの管理ツールで予約します。
 seo-title: クエリ文字列パラメータープラグインコード
 solution: Analytics
 title: クエリ文字列パラメータープラグインコード
-uuid: a71e7774- bc7a-414e- a116-739770b900bf
-index: y
-internal: n
-snippet: y
+uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # クエリ文字列パラメータープラグインコード{#query-string-param-plug-in-code}
 
-以下のコードを使用する前に、Adobe Analyticsの管理ツールで必要なeVarを予約してください。
+以下のコードを操作する前に、必要なeVarをAdobe Analyticsの管理ツールで予約します。
 
-予約済みのeVarが [わかったら、eVarN](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238)をeVar10などの関連するeVarに置き換えます。
+予約したeVarがわかったら、eVarNをeVar10などの関連するeVarに置き換えます。
 
 ```
 /* 
