@@ -1,27 +1,23 @@
 ---
-description: appFigures統合は、複数のアプリケーションストアにまたがる複数のアプリケーション用にデータを収集するためによく使用されます。セグメントを作成して、特定のアプリまたはアプリストアのレポートデータを分離できます。
-seo-description: appFigures統合は、複数のアプリケーションストアにまたがる複数のアプリケーション用にデータを収集するためによく使用されます。セグメントを作成して、特定のアプリまたはアプリストアのレポートデータを分離できます。
-seo-title: アプリケーションデータのセグメント化
-title: アプリケーションデータのセグメント化
-uuid: 9c2aaf0d-088f-4178-8ed1- a8124087a683
-index: y
-internal: n
-snippet: y
+description: appFiguresの統合は、多くの場合、複数のアプリストアにまたがる複数のアプリ用のデータを収集するために使用されます。 セグメントを作成して、特定のアプリまたはアプリストアのレポートデータを分離できます。
+seo-description: appFiguresの統合は、多くの場合、複数のアプリストアにまたがる複数のアプリ用のデータを収集するために使用されます。 セグメントを作成して、特定のアプリまたはアプリストアのレポートデータを分離できます。
+seo-title: アプリデータのセグメント化
+title: アプリデータのセグメント化
+uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# アプリケーションデータのセグメント化{#segmenting-app-data}
+# アプリデータのセグメント化{#segmenting-app-data}
 
-appFigures統合は、複数のアプリケーションストアにまたがる複数のアプリケーション用にデータを収集するためによく使用されます。セグメントを作成して、特定のアプリまたはアプリストアのレポートデータを分離できます。
+appFiguresの統合は、多くの場合、複数のアプリストアにまたがる複数のアプリ用のデータを収集するために使用されます。 セグメントを作成して、特定のアプリまたはアプリストアのレポートデータを分離できます。
 
-appFiguresデータのセグメント化ガイドライン:
+appFiguresデータのセグメント化のガイドライン：
 
 * ページビューコンテナのみを使用する必要があります。
-* フィルタルールで [はappFiguresディメンション](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) のみを使用する必要があります。
-* [appFiguresのディメンション](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) のみが参照されている場合は、複数のセグメントルールを使用できます。
+* フィルタリングルールで [はAppFiguresディメンションのみ](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) を使用する必要があります。
+* AppFiguresディメンションのみが参照されている限り、複数のセグメントル [ールを使用でき](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) ます。
 * [以下を含む]キャンバスと[以下を除外する]キャンバスの両方を使用できます。
 * セグメントはAdobe Analytics v15にのみ適用されます。
-
