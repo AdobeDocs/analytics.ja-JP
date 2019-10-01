@@ -6,12 +6,9 @@ seo-title: よくある質問
 solution: Analytics
 title: よくある質問
 topic: Data Connectors
-uuid: 59d187e9-1ec1-4cf3-8831- b981f87c9372
-index: y
-internal: n
-snippet: y
+uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -32,7 +29,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 >[!NOTE]
 >
->CSIDは、統合のバージョン2.0では使用されないので、CSIDネゴシエーションプロセスは適用されません。
+>CSIDは統合のバージョン2.0では使用されないので、CSIDネゴシエーションプロセスは適用されません。
 
 ## 統合の 2.0 を使用していますが、DFA 広告のコスト指標が表示されません。なぜですか。 {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -48,6 +45,8 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 第 1 に、問題の広告にランディングページの URL があり、それが（a）違いを表示している同じレポートスイートの Adobe コードでタグ付けされ、（b）*`clickThroughParam`* クエリ文字列パラメーターを含んでいることをチェックします。
 
-次に、DFA統合の成功の確認の [手順に従って、作業統合があることを確認](../dfa-data-connector-analytics/dfa-integration/dfa-confirm-integration.md#concept-c1c869d2a6fa46b09fe41fc286e407c6)します。DFA トラッキングコードがランディングページの Adobe ヒットを使用して表示されている場合、クリックスルーは DFA キャンペーンレポートで表示する必要があります。表示されない場合、レポートスイートがランディングページの *`s.account`* 変数で一致し、Reports &amp; Analytics でレポートスイートが表示されるかを確認します。これらが一致する場合、ビュースルー eVar レポートのトラッキングコードが DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX のようになっているかをチェックします。
+第2に、「DFA統合の成功の確認」の手順に従って、統合が正常に機能して [いることを確認します](../dfa-data-connector-analytics/dfa-integration.md)。 DFA トラッキングコードがランディングページの Adobe ヒットを使用して表示されている場合、クリックスルーは DFA キャンペーンレポートで表示する必要があります。表示されない場合、レポートスイートがランディングページの *`s.account`* 変数で一致し、Reports &amp; Analytics でレポートスイートが表示されるかを確認します。これらが一致する場合、ビュースルー eVar レポートのトラッキングコードが DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX のようになっているかをチェックします。
 
-これらは、DFA から生データを要約する DFA VISTA ルールにエラーがあることを示します。この問題は、アドビのアカウント担当者を通じてサポートチケットを開くことで改善できます。上記の解決策についての説明がない場合は、「指標の不一致 [の調整」](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md#concept-8c31ebe761ca4b3fab1e3a18ef5d098f) を参照して、他の可能性を参照してください
+これらは、DFA から生データを要約する DFA VISTA ルールにエラーがあることを示します。この問題は、アドビのアカウント担当者を通じてサポートチケットを開くことで改善できます。
+
+問題が上記の解決策に対応しない場合は、 [Reconciling Metric Discrepancies](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) to explore other possibilities.
