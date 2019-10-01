@@ -7,7 +7,7 @@ title: Experience Cloud へのセグメントの公開
 topic: セグメント
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a900832fa09717295cb45c9dda6d453873641012
+source-git-commit: d65a7582546a96856790dcbe481757ad3f5500a4
 
 ---
 
@@ -35,21 +35,21 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 * **レポートスイートの制限**:レポートスイートごとに最大75個のセグメントを公開できます。 この制限は適用されます。 既に75個のセグメントが公開されている場合は、公開を取り消して75個のセグメントしきい値を下回るまで、追加のセグメントを公開することはできません。
 * **メンバーシップ**:Analyticsからに共有されるオーディエ [!DNL Experience Cloud] ンスは、2,000万人を超える一意のメンバーを超えることはできません。
-* **Data Privacy**:オーディエンスは、訪問者の認証状態に基づいてフィルタリングされません。 訪問者が未認証状態および認証状態でサイトを閲覧できる場合、訪問者が未認証のときに生じるアクションによって、訪問者がオーディエンスに含められる可能性があります。オーディエンス共有がプライバシーに与える影響をすべて理解するには [](https://www.adobe.com/privacy/experience-cloud.html) 、Adobe Experience cloudのプライバシーを確認します。
-* とのセグメント間の違いにつ **いては、こちらを[!DNL Adobe Analytics]参照[!DNL Audience Manager]**&#x200B;して [ください](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
+* **Data Privacy**:オーディエンスは、訪問者の認証状態に基づいてフィルタリングされません。 訪問者が未認証状態および認証状態でサイトを閲覧できる場合、訪問者が未認証のときに生じるアクションによって、訪問者がオーディエンスに含められる可能性があります。Review Adobe Experience Cloud privacy to understand the full privacy implications of audience sharing.[](https://www.adobe.com/privacy/experience-cloud.html)
+* For a discussion about the differences between segments in  and , go here.**[!DNL Adobe Analytics][!DNL Audience Manager]**[](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)
 
-## セグメント公開タイムライン
+## Segment publishing timeline
 
-| 利用可能な情報 | 利用可能な場合 | 利用可能な場所 |
+| What's available | When it's available | Where it's available |
 |---|---|---|
-| メタデータ（セグメントのタイトルと定義） | 投稿直後 | [!DNL Audience Manager]、 [!UICONTROL Experience cloudオーディエンスライブラリ]、 [!DNL Target] |
-| メンバーシップを持つ使用可能なセグメント | 出版後8時間 | Visitor Profile Viewer in [!DNL Audience Manager] |
-| 特性とメンバーシップの母集団 | 24時間以内 | [!DNL Audience Manager] |
+| Meta data (segment title and definition) | Immediately after publishing | [!DNL Audience Manager]、 [!UICONTROL Experience cloudオーディエンスライブラリ]、 [!DNL Target] |
+| Usable segment with membership | ~ 8 hours after publishing | Visitor Profile Viewer in [!DNL Audience Manager] |
+| Trait and membership population | Within 24-48 hours | [!DNL Audience Manager] |
 
-## セグメントビルダーでのセ [!UICONTROL グメントの公開]
+## Publish segments in [!UICONTROL Segment Builder]
 
-1. **[!UICONTROL Analytics/ワークスペース/コンポーネント/セグメント]/+に移動します。**
-1. セグメントビルダーでセグメン [!UICONTROL トを作成します]。
+1. Navigate to **[!UICONTROL Analytics &gt; Workspace &gt; Components &gt; Segments]&gt; +**
+1. Create a segment in the Segment Builder.
 1. セグメントのタイトルと説明を指定します。指定しないと、セグメントを保存できません。
 1. Check **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
 
@@ -108,26 +108,26 @@ Experience Cloud に公開されているセグメントを削除するには、
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
-## Audience Manager訪問者プロファイル [!UICONTROL ビューアを使用する]
+## Use Audience Manager Visitor Profile Viewer
 
-訪問者プロファイルビューアが読み込まれると、ブラウザーのAAM UUIDがデ [!UICONTROL フォルトで使用され] ます。 他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドにUUIDを入力し、「 [!UICONTROL Refresh」をクリックします]。 詳しくは、訪問者プ [ロファイルビューア](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) （英語のみ）を参照してください。
+The AAM UUID on the browser will be used by default when Visitor Profile Viewer is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click Refresh. Refer to Visitor Profile Viewer for more information.[](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html)
 
 ![](assets/aam-vpv.png)
 
-## セグメント特性の表示 [!DNL Audience Manager]
+## View the segment traits in [!DNL Audience Manager]
 
 AAMでは、AnalyticsがExperience cloudとセグメントを共有するので、特定のセグメントのECIDを持つ訪問者のリストがストリーミング方式で評価されます。
 
-1. で、オ [!DNL Audience Manager]ーディエンスデ [!UICONTROL ータ/特性/Analytics特性に移動します]。 Experience cloud組織にマップされている各Analyticsレポートスイートのフォルダーが表示されます。 これらのフォルダー（特性、セグメントおよびデータソースの場合）は、Profiles &amp; Audiences/Peopleコアサービスが開始またはプロビジョニングされると作成されます。
-1. 共有するセグメントを以前に作成したレポートスイートのフォルダを選択します [!DNL Audience Manager]。 作成したセグメント/オーディエンスが表示されます。 セグメントを共有すると、次の2つのことが行われま [!DNL Audience Manager]す。
-* 特性が作成されます。まず、データが含まれません。 約 セグメントが公開されてから8時間後に、ECIDのリ [!DNL Analytics]ストがオンボードされ、他のExperience cloudソリューションと共 [!DNL Audience Manager] 有されるようになります。
+1. In , go to Audience Data &gt; Traits &gt; Analytics Traits. [!DNL Audience Manager]You will see a folder for each Analytics reports suite that is mapped to your Experience Cloud organization. These folders (for Traits, Segments, and Data Sources) get created when the Profiles and Audiences/People core service gets initiated or provisioned.
+1. Select the folder for the report suite in which you previously created the segment you wanted to share with . [!DNL Audience Manager]作成したセグメント/オーディエンスが表示されます。 When you share a segment, 2 things happen in :[!DNL Audience Manager]
+* 特性が作成されます。まず、データが含まれません。 Approx. 8 hours after the segment gets published in , the list of ECIDs gets onboarded and shared with  and other Experience Cloud solutions.[!DNL Analytics][!DNL Audience Manager]
 
 ![](assets/aam-traits.png)
 
-* 1つの特性セグメントが作成されます。 セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
+* A one-trait segment gets created. セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
 
-## セグメントを [!DNL Adobe Target]
+## View the segment in [!DNL Adobe Target]
 
-The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. Analytics または Audience Manager で作成されたセグメントは、Target のアクティビティで使用できます。例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。]をクリックし、「オーディエン [!UICONTROL ス]」をクリックします。
+The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. Analytics または Audience Manager で作成されたセグメントは、Target のアクティビティで使用できます。例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。], click Audiences.
 1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
 
