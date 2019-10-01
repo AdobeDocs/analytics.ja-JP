@@ -1,6 +1,6 @@
 ---
 description: コンテキストデータ変数を使用すると、処理ルールで読み取れる各ページ上にカスタム変数を定義できます。
-keywords: Analytics実装；contextdata;s.contextdata
+keywords: Analytics Implementation;contextdata;s.contextdata
 seo-description: コンテキストデータ変数を使用すると、処理ルールで読み取れる各ページ上にカスタム変数を定義できます。
 seo-title: コンテキストデータ変数
 solution: Analytics
@@ -9,7 +9,7 @@ title: コンテキストデータ変数
 topic: 開発者と実装
 uuid: 4b215803-99d4-46f2-b3c1-e7855898764
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
 
 ---
 
@@ -22,11 +22,11 @@ prop と eVar にコードで明示的に値を割り当てる代わりに、処
 
 >[!NOTE]
 >
->コンテキストデータ変数では、大文字と小文字が区別されません。 例えば、次の2つの変数は事実上同じです。
+>コンテキストデータ変数では、大文字と小文字が区別されません。 例えば、以下の 2 つの変数は実際には同一です。
 >```
->s.contextData['article_title'] = 'Weekend Concert Controversy';
+>s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
->and
+>と
 >```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
