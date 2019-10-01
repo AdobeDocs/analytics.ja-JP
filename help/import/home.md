@@ -3,8 +3,8 @@ title: Analytics インポートヘルプ
 seo-title: Analytics インポートヘルプ
 description: 'null'
 seo-description: 'null'
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -15,13 +15,9 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 このガイドでは、Analytics にデータを取得する方法を説明します。以下のようなものがあります。
 
-* **データソース：**&#x200B;指定された Adobe FTP サイトにファイルをアップロードします。アドビは、ファイルを取得し、データをレポートスイートに含めます。
-* **Data Insertion API：** API を使用して、アドビのデータコレクションに直接データを送信します。
-* **Data Connectors：**&#x200B;サポートされるサードパーティと連携して、サードパーティデータを Adobe Analytics に取り込み、レポートスイートを強化します。
-
-## 主な Analytics インポート記事
-
-* [データソース](c-data-sources/datasrc-home.md)
+* **[データソース](c-data-sources/datasrc-home.md)**:指定したアドビのFTPサイトにファイルをアップロードします。 アドビは、ファイルを取得し、データをレポートスイートに含めます。
+* **[Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)**:APIを使用して、アドビのデータ収集にデータを直接送信します。
+* **[Data Connectors](data-connectors/getting-started-data-connectors.md)**:サポート対象のサードパーティと連携して、Adobe Analyticsにデータを取り込み、レポートスイートを強化します。
 
 ## その他の Analytics ユーザーガイド
 
@@ -29,7 +25,7 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-* [Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
-* [Experience League](https://experienceleague.adobe.com/?lang=ja#recommended/solutions/analytics)
+* [カスタマーケアへのお問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
