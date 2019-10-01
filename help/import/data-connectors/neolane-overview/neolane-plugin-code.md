@@ -1,21 +1,18 @@
 ---
-description: JavaScriptプラグインデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上のAdobe Analyticsコードに追加します。
-seo-description: JavaScriptプラグインデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上のAdobe Analyticsコードに追加します。
+description: JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーし、ページ上のAdobe Analyticsコードに追加します。
+seo-description: JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーし、ページ上のAdobe Analyticsコードに追加します。
 seo-title: Adobe Analyticsプラグインコード
 title: Adobe Analyticsプラグインコード
-uuid: b10345ba-1e80-4e5c- af87-6e6a9dc87c00
-index: y
-internal: n
-snippet: y
+uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Adobe Analyticsプラグインコード{#adobe-analytics-plug-in-code}
 
-JavaScriptプラグインデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上のAdobe Analyticsコードに追加します。
+JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーし、ページ上のAdobe Analyticsコードに追加します。
 
 `/*`
 
@@ -29,5 +26,5 @@ JavaScriptプラグインデータ収集方法を選択した場合は、次の�
 
 >[!NOTE]
 >
->上記のプラグインは、特定のカスタムコマース変数（eVar）を使用できることを前提としています。上記のプラグインで指定した変数がAdobe Analyticsのデプロイメント内で使用できない場合は、使用可能なものに置き換えてください。
+>上記のプラグインは、特定のカスタムコマース変数(eVar)が使用可能であることを前提としています。 上記のプラグインで指定した変数がAdobe Analyticsのデプロイメント内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
 
