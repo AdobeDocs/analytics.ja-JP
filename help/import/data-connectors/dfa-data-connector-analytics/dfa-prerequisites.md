@@ -6,12 +6,9 @@ seo-title: 前提条件
 solution: Analytics
 title: 前提条件
 topic: Data Connectors
-uuid: b5f5e30c- e269-41a4-9236-5ddc404bfd94
-index: y
-internal: n
-snippet: y
+uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -20,7 +17,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 DFA 用の Adobe Data Connectors 統合を開始する前に、以下をおこないます。
 
-* 統合のバージョン 1.5 に対して統合するか、またはバージョン 2.0 を待つかを決定します。この決定は、DFA アカウントでどの機能を使用するかや、統合する期間によって決まります。詳しくは、[バージョン 2.0 について](../dfa-data-connector-analytics/dfa-version-differences.md#concept-2c7d6a6ab8524dccad96ea0c17228664)を参照してください。
+* 統合のバージョン 1.5 に対して統合するか、またはバージョン 2.0 を待つかを決定します。この決定は、DFA アカウントでどの機能を使用するかや、統合する期間によって決まります。
 * DFA 広告主をどのように Adobe Analytics レポートスイートにマッピングするかを決定します。例えば、複数の DFA 広告主と複数のレポートスイートがある場合、どの広告主とどのレポートスイートをペアにするかを決定する必要があります。
 * データコレクションコードのバージョン H.22 以降を使用して、Adobe データコレクションコードをトラッキングするすべてのページに実装します。
 * 統合する Floodlight 設定の一部である DFA アカウントの広告主 ID を確認します。統合は、Floodlight 設定内にあるすべての広告主を自動的にインポートします。
