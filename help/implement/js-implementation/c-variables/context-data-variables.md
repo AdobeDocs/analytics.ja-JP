@@ -22,20 +22,14 @@ prop と eVar にコードで明示的に値を割り当てる代わりに、処
 
 >[!NOTE]
 >
->コンテキストデータ変数では、大文字と小文字が区別されません。 例えば、次の2つの変数は事実上同じです。&gt;
->```>
->s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
->
-```>
->and 
->
->
-```>
+>コンテキストデータ変数では、大文字と小文字が区別されません。 例えば、次の2つの変数は事実上同じです。
+>```
+>s.contextData['article_title'] = 'Weekend Concert Controversy';
+>```
+>and
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```>
-
-
+>```
 
 コンテキストデータを使用すると、レポートスイート設定を変更するためにコードを更新する必要性が減ります。
 
