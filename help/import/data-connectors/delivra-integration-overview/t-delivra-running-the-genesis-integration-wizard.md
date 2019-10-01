@@ -4,11 +4,8 @@ seo-description: Data Connectors統合ウィザードでは、Data Connectors統
 seo-title: Data Connectors統合ウィザードの実行
 title: Data Connectors統合ウィザードの実行
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -130,4 +127,3 @@ Data Connectors統合ウィザードでは、Data Connectors統合プロセス�
   </tr> 
  </tbody> 
 </table>
-
