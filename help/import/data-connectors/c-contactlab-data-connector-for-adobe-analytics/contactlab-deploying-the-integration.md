@@ -6,7 +6,7 @@ solution: Analytics
 title: 統合のデプロイ
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -48,24 +48,22 @@ Data Connectorsインターフェイスで統合ウィザードを完了する�
    1. 「セ **[!UICONTROL グメント]**」で、この統合に含めるカスタムセグメントを選択します。 管理パネルで、追加のカスタムセグメントを作成できます。
    1. 「アクセ **[!UICONTROL ス要求」で]**、製品情報を毎日の再マーケティングセグメントでContactLabにエクスポートできるようにするチェックボックスをオンにします。
    1. 必要に応じて計算指標の名前を変更します。
-   1. IDを収集するかどうかは、Analyticsコレクションコードを手動で更新するか、自動化ソリューションを使用して設定します。 「 **[!UICONTROL Automated Solution」を選択する場合]**、IDを渡すための電子メールリンクで使用するパラメーターを含める必要があります。
-1. すべての設定項目を確認し、「今すぐアクティブ化」 **[!UICONTROL をクリックしま]**&#x200B;す。
+   1. Configure whether you will collect ID’s by manually updating your Analytics collection code or by using the automated solution. 「 **[!UICONTROL Automated Solution」を選択する場合]**、IDを渡すための電子メールリンクで使用するパラメーターを含める必要があります。
+1. Review all configuration items and click Activate Now.****
 
-## 統合の検証{#verifying-the-integration}
+## Verify the Integration{#verifying-the-integration}
 
-Adobe Experience cloud内でContactLab統合設定を表示します。
+View your ContactLab integration setup within the Adobe Experience Cloud
 
-1. 統合アクティビティログを表示します。
-
-   1. Adobe Experience cloudで、サポート/統合アクティビティ **[!UICONTROL ログ]** に **[!UICONTROL 移動します]**。
+1. View the integration activity log.
+   1. In the Adobe Experience Cloud, navigate to Support &gt; Integration Activity Log.********
 
       ![](assets/integration_activity_log.png)
 
-   1. 「分類データが正常にインポートさ **[!UICONTROL れた」、「指標データが正常にインポートされ]**」、「指標デ **[!UICONTROL ータが正常にエクスポートされた]**」などのエントリを探します ****。 これらのエントリは、導入が成功した1日以内に表示されます。
-1. Adobe Analytics内でレポートデータを表示します。
-
-   1. カスタムコンバ **[!UICONTROL ージョン]** /カスタムコ **[!UICONTROL ンバージョン1 ～ 10]** /メッセージ **[!UICONTROL IDレポートに移動します]**。
+   1. Look for entries like Classification Data imported successfully, Metrics Data imported successfully, and Metric Data exported successfully. ************&#x200B;これらのエントリは、導入が成功した1日以内に表示されます。
+1. View your reporting data within Adobe Analytics.
+   1. Navigate to Custom Conversion &gt; Custom Conversion 1-10 &gt; Message ID Reports.************
 
       ![](assets/reporting.png)
 
-   1. ContactLabレポートを探します。 このデータは、導入が成功してから24 ～ 48時間以内に表示されます。
+   1. Look for ContactLab reporting. This data should appear within 24-48 hours of successful deployment.
