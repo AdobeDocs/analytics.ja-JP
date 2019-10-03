@@ -6,7 +6,7 @@ solution: Analytics
 title: 統合のデプロイ
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -24,14 +24,12 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 1. Kampyle統合ウィザードを起動します。
 1. 目的のレポートスイートを選択し、統合の名前を指定します。
 1. 次の項目を設定します。
-
    1. **[!UICONTROL 電子メールアドレス]** — 主連絡先の電子メールアドレス。
    1. **[!UICONTROL 説明]** — （オプション）この統合設定の説明。
    1. **[!UICONTROL Kampyle Key]** — このキーは、Kampyleアプリケーションの「 **[!UICONTROL Feedback Form]** / **[!UICONTROL Feedback Form Customization]**」で確認できます。
    1. **[!UICONTROL トラッキングサーバー]** - Adobe Analyticsデータの追跡に使用するトラッキングサーバー（ドメイン）設定。
    1. **[!UICONTROL トラッキングサーバーのセキュリティ]** — セキュリティで保護された/httpsトラフィックに対してトラッキングサーバーが異なる場合は、ここでその設定を指定します。
 1. 次の「 **[!UICONTROL Variable Mappings]** 」項目を設定します。
-
    1. **[!UICONTROL KampyleフィードバックID]** — レポートスイートから使用可能なeVar変数を選択します。
    1. **[!UICONTROL フィードバックのグレード]** — レポートスイートから利用可能な成功イベント（「カウンター」と入力）を選択します。
    1. **[!UICONTROL フィードバック項目]** — レポートスイートから利用可能な成功イベント（「カウンター」と入力）を選択します。
@@ -45,9 +43,7 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 多くの場合、統合設定オブジェクトをデプロイする最も簡単な方法は、統合オブジェクトをAdobe Analyticsデプロイメントコードに含めることです。
 
->[!NOTE]
->
->Adobe tagManagerまたはDynamic Tag Managementを使用してAdobe Analyticsを導入する場合は、このツールを使用して統合設定オブジェクトを簡単に追加できます。
+> [!NOTE] Adobe tagManagerまたはDynamic Tag Managementを使用してAdobe Analyticsを導入する場合は、このツールを使用して統合設定オブジェクトを簡単に追加できます。
 
 1. 統合の **[!UICONTROL Resources]** / **[!UICONTROL Support]** （サポート）タブに移動します。
 1. Kampyle統合コード(JS) **[!UICONTROL リソースをダウンロードして保存し]** ます。 コードは次のようになります。
@@ -57,23 +53,20 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
      window.k_sc_param = { "version":1.1 }
    ```
 
-1. 次のいずれかの方法を使用してコードをデプロイします。
+1. Deploy the code using one of the following methods:
+| You use Adobe TagManager or Dynamic Tag Management.**** | Use the tag management interface to add the code. |
+|---|---|
+| **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
 
-   | **Adobe tagManagerまたはDynamic Tag Managementを使用します。** | tag managementインターフェイスを使用してコードを追加します。 |
-   |---|---|
-   | **その他の場合は** | Adobe Analytics導入コードの更新を担当する組織のリソースにコードを配信します。 |
-
-## 統合の検証{#verify-the-integration}
+## Verify the Integration{#verify-the-integration}
 
 いくつかのチェックを完了して、統合がデータを正常に転送していることを検証します。
 
 ### 統合アクティビティログ {#section-0472df9180db4f218db5f6040cab07af}
 
-Adobe Experience cloud内でKampyle統合の設定を表示するには、サポート/統合アクティビティ **[!UICONTROL ログ]** に **[!UICONTROL 移動します]**。 「データの **[!UICONTROL 場所]** 」タブに、分類データが正常にインポートされたことを示すエントリが表示されます。
+View your Kampyle integration setup within the Adobe Experience Cloud by navigating to Support &gt; Integration Activity Log. ********「データの **[!UICONTROL 場所]** 」タブに、分類データが正常にインポートされたことを示すエントリが表示されます。
 
->[!NOTE]
->
->ログエントリは、展開が正常に完了してから24時間以内に表示されます。
+> [!NOTE] ログエントリは、展開が正常に完了してから24時間以内に表示されます。
 
 ![](assets/integration_activity_log.png)
 
@@ -81,9 +74,7 @@ Adobe Experience cloud内でKampyle統合の設定を表示するには、サポ
 
 KampyleフィードバックレポートをAdobe Analyticsで表示するには、適切なメニュー構造内でKampyleレポートに移動します。
 
->[!NOTE]
->
->統合フィードバックフォームが積極的に送信を受け取っていると仮定して、レポートデータは、導入が成功してから24 ～ 48時間以内に表示されます。
+> [!NOTE] 統合フィードバックフォームが積極的に送信を受け取っていると仮定して、レポートデータは、導入が成功してから24 ～ 48時間以内に表示されます。
 
 ![](assets/adobe_reporting_data.png)
 
