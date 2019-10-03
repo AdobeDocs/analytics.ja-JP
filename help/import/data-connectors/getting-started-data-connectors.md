@@ -4,7 +4,7 @@ seo-description: Data Connectorsにサインインします。サードパーテ
 seo-title: Analytics Data Connectors
 title: Analytics data connectors使用の手引き
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -105,6 +105,5 @@ s.events="purchase";
 | 製品 ID 情報が再マーケティングセグメントファイルに表示されません。 | 同じイメージ要求で正しいイベントが発生したが、製品変数が存在しない場合に発生します。 これを修正するために、前述の実装例で見たように、製品変数と対応するイベントが同じページで発生することを確認します。 |
 | 再マーケティングセグメントファイルを受け取りません。 | ファイルを受け取っていない場合、組織のサポートされたユーザーが ClientCare に問い合わせて、レポートが正しく受け取れない原因を調査します。 |
 
-> [!IMPORTANT]
->
-> コンサルタントは、標準的なData Connectors統合リマーケティングセグメントファイルに加えて、Data Warehouseリクエストを日次スケジュールレポートとして設定することも一般的です。 この Data Warehouse リクエストは、Data Connectors 変数および非 Data Connectors 変数を含むことがあり、このリクエストは、組織の特定のリクエストにのみ基づいてスケジュールできます。トラブルシューティング時に混乱を避けるために、問題になっているファイルが実際の再マーケティングセグメントファイルか、または非 Genesis 変数を含む Data Warehouse リクエストかを指定します。
+
+> [!IMPORTANT] コンサルタントは、標準的なData Connectors統合リマーケティングセグメントファイルに加えて、Data Warehouseリクエストを日次スケジュールレポートとして設定することも一般的です。 この Data Warehouse リクエストは、Data Connectors 変数および非 Data Connectors 変数を含むことがあり、このリクエストは、組織の特定のリクエストにのみ基づいてスケジュールできます。トラブルシューティング時に混乱を避けるために、問題になっているファイルが実際の再マーケティングセグメントファイルか、または非 Genesis 変数を含む Data Warehouse リクエストかを指定します。
