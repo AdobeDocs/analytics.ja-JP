@@ -1,64 +1,82 @@
 ---
-description: Adobe Experience Cloud デバッガーをインストールします。デバッガーは、Analytics Cloud、Adobe Target、Advertising Cloud、IDサービス、Dynamic Tag ManagementおよびExperience Platform Launchのタグを調査します。
-seo-description: Adobe Experience Cloud デバッガーをインストールします。デバッガーは、Analytics Cloud、Adobe Target、Advertising Cloud、IDサービス、Dynamic Tag ManagementおよびExperience Platform Launchのタグを調査します。
-seo-title: Experience Cloud デバッガー
-title: Experience Cloud デバッガー
-uuid: e4b35a89- a41f-44a8-9e3f-6e872c4487c1
+description: レガシーのAdobe Experience cloudデバッガーをインストールします。 このデバッガーは、Analytics、Target、Advertising Cloud、IDサービス、DTMおよび起動のタグを調べます。
+seo-description: レガシーのAdobe Experience cloudデバッガーをインストールします。 このデバッガーは、Analytics、Target、Advertising Cloud、IDサービス、DTMおよび起動のタグを調べます。
+seo-title: レガシーAdobe Experience cloudデバッガー
+title: レガシーAdobe Experience cloudデバッガー
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
-# Experience Cloud デバッガー
+# レガシーAdobe Experience cloudデバッガー
 
-Install the Adobe # [!DNL Experience Cloud] [!UICONTROL Debugger]. [!UICONTROL デバッガー] は、「 [!DNL Analytics Cloud]、Adobe [!DNL Target]»、?«?IDサービス»、?«Dynamic Tag Management?»および?«Adobe Experience Platform Launch?[!DNL Advertising Cloud][!DNL Experience Cloud]
+> [!IMPORTANT] このデバッグツールはもはやメンテナンスされません。 代わりに、 [Adobe Experience Cloud Debugger Chrome Extensionを使用することをお勧めします](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)。
 
-## Experience Cloud デバッガー {#topic_E05CEAF0682E483A9AB147D774CF2188}
+レガシー [!UICONTROL デバッガーは] 、ほとんどのAdobe Experience cloudサービスに対してタグを調べます。 デバッガーを使用すると、サイトの任意のページでアドビに送信されるデータを確認できます。 この情報を使用して、組織の導入のトラブルシューティングや検証を行うことができます。
 
-Install the Adobe Experience Cloud [!UICONTROL Debugger]. [!UICONTROL デバッガー] は、Analytics Cloud、Adobe Target、Advertising Cloud、IDサービス、Dynamic Tag ManagementおよびExperience Platform Launchのタグを調査します。
+## レガシーデバッガのインストール
 
->[!IMPORTANT]
->
->アドビでは、Chrome 向けの [Adobe Experience Cloud デバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)のエクステンションを使用することをお勧めしています。
+JavaScriptブックマークレットを作成してデバッガーをインストールします。
 
-Experience Cloud デバッガーをブラウザーで実行すると、そのページから Experience Cloud ソリューションへのデータ転送がおこなわれたイメージリクエストが表示されます。このとき、取り込まれた変数値やパラメーターも表示されます。これにより、ユーザーおよび開発者は、サイト上にある任意のページでの導入の正当性を調べることができます。
+### 手順1:ブックマークレットコードのコピー
 
-[!UICONTROL DigitalPulse Debugger] は、Mozilla Firefox、Google Chrome、Microsoft Internet Explorer、Safari の最新バージョンおよび最新ビルドでの使用を公式にサポートしています。
+次のコードをクリップボードにコピーします。
 
->[!NOTE]
->
->[!UICONTROL Web] ブラウザーで特別なブックマークにアクセスするときに、デバッガーはポップアップウィンドウを作成するので、広告ブロックプラグインやポップアップブロッカーによって [!UICONTROL はデバッガーの読み込みが妨げ]られる場合があります。
+```JavaScript
+javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
+```
 
-## Chrome でのデバッガーのインストール {#task_0CEF858083B64F7DB9790567282F7248}
+### 手順2:ブックマークレットコードのブックマークへの貼り付け
 
-Google Chrome ブラウザーで、Experience Cloud デバッガーのエクステンションをインストールします。
+ブックマークの処理方法はブラウザごとに異なりますが、概念は同じです。 目的の名前とブックマークレットコードをURLとして使用してブックマークが作成されます。
 
-1. [Adobe Experience Cloud デバッガー](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)のページにアクセスします。
-1. 手順に沿って Chrome にエクステンションを追加します。
+#### Chrome
 
-## Install the Debugger in Firefox (not supported) {#task_D3DD0A300B4B4F5EBF2D139E8FF5A724}
+chrome拡張機能を使用しないようにする場合は [](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)、レガシーデバッガーブックマークレットを代わりに使用できます。
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Mozilla Firefox.
+1. 右上の3つのドットをクリックし、ブックマーク/ブックマークマネージャーに移動します。 また、+ `Ctrl` + `Shift` (Windows)または `O` + `Cmd` + `Shift` (Mac)を押すこともで `O` きます。
+2. ブックマークマネージャーの右上で、3つのドットをクリックし、「新しいブックマークの追加」をクリックします。
+3. 「名前」フィールドで、「Adobe Experience Cloud Debugger」というラベルを付け、「URL」フィールドにコードスニペットを貼り付けます。
+4. Use the bookmark manager to place your new bookmarklet in the desired location.
 
-1. Right-click the bookmarks sidebar, then click **[!UICONTROL New Bookmark]**.
-1. **[!UICONTROL 「名前」]** フィールドで、新しいブックマークの名前として **Adobe[!UICONTROL Debugger]** を指定します。
-1. **[!UICONTROL 「場所]** 」フィールドで、クリップボードにコピーしたコードを貼り付けます。
-1. Select **[!UICONTROL Load the Bookmark in the Sidebar]**, if desired.
-1. Click **[!UICONTROL Add]**.
+#### Firefox
 
-## Install the Debugger in Internet Explorer (not supported) {#task_D60F6BBFE7314A6882D13F8A0DFF0F6C}
+1. 右上の3行をクリックし、ライブラリ/ブックマーク/すべてのブックマークを表示に移動します。 You can also press  +  +  (Windows) or  +  +  (Mac).`Ctrl``Shift``B``Cmd``Shift``B`
+2. Click Organize &gt; New Bookmark.
+3. In the Name field, label it "Adobe Experience Cloud Debugger", and paste the code snippet into the Location field. The Tags and Keyword fields are not required.
+4. Use the library window to place your new bookmarklet in the desired location.
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Internet explorer.
+#### Edge
 
-1. In the [!UICONTROL Favorites Bar], click the **[!UICONTROL Add to Favorites Bar]** icon ![Image](assets/icon_add_to_favorites_bar.png).
+Edge does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
 
-   [!UICONTROL お気に入りバー]が表示されていない場合は、ブラウザーのヘッダーを右クリックして、「[!UICONTROL お気に入りバー]」をクリックします。
+1. Click the star icon on the right side of the URL field to bookmark the current page.
+2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
+3. Click the star icon with lines to open the Favorites bar.
+4. Right click the newly created bookmark, the select 'Edit URL'.
+5. Paste the code snippet in the text field, then hit Enter.
 
-   新しいブックマークが作成されます。
+#### Safari
 
-1. Right-click the bookmark, then click **[!UICONTROL Rename]**.
-1. **[!UICONTROL 「新しい名前]** »フィールドで、名前として?Adobe ?Debugger??を指定し、??«OK??********
-1. Right-click the newly created bookmark again, then click **[!UICONTROL Properties]**.
-1. **[!UICONTROL "URL]** 」フィールドに、クリップボードにコピーしたコードを貼り付けます。
-1. Click **[!UICONTROL OK]**.
+Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+
+1. 右上の共有アイコンをクリックすると、ブックマークモーダルウィンドウが開きます。
+2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
+3. ブックマーク/ブックマークの編集をクリックし、新しく作成したブックマークを見つけます。
+4. Right click &gt; Edit Address, then paste the code snippet into text field.
+
+## レガシーデバッガーの使用
+
+デバッガーを使用するには、サイト上の目的のページに移動し、ブックマークレットをクリックします。 アドビに送信されたデータを示すポップアップウィンドウが表示されます。
+
+> [!NOTE] 特定の広告ブロッキングプラグインやポップアップブロッカーが、デバッガーウィンドウの読み込みを妨げる可能性があります。 ブラウザーでブロックされたポップアップを確認し、デバッガーが正しく動作するようにポップアップを許可します。
+
+デバッガには複数のオプションが用意されており、そのすべてでデータの表示方法をカスタマイズできます。 これらのオプションはデータ収集に影響を与えません。
+
+* **** Experience cloud製品の表示：各Experience cloud製品の画像リクエストの表示/非表示を切り替えます。
+* **** URLデコード：URLは、イメージ要求をデコードして、レポートに表示される内容に一致させます。 このチェックボックスはオンのままにすることをお勧めします。
+* **** 自動更新：数秒ごとにポップアップを自動的に更新し、ページ上で追加のイメージリクエストがないかどうかを確認します。 デバッガーでコンテンツをコピー/貼り付ける必要がある場合は、自動更新を無効にして、選択を維持します。
+* **** わかりやすい形式：イメージリクエストで役立つラベルと生のクエリ文字列の表示形式を切り替えます。 詳しくは、 [データ収集クエリのパラメータ](../js-implementation/data-collection/query-parameters.md) ーを参照してください。
+
+デバッガーのデフォルトの表示オプションを保存するには、右上隅の「Adobe Debugger」リンクを右クリックし、リンクアドレスをコピーします。 現在のデバッガーのブックマークレットを編集し、更新したコードスニペットを「URL」フィールドに貼り付けます。
