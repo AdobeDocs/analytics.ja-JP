@@ -1,28 +1,28 @@
 ---
 description: データフィードの各列について説明するテーブルデータです。
-keywords: データフィード;列
+keywords: データフィード；列
 seo-description: データフィードの各列について説明するテーブルデータです。
 seo-title: データ列リファレンス
 solution: Analytics
 subtopic: データフィード
 title: データ列リファレンス
-topic: Reports and Analytics
+topic: Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
 # データ列リファレンス
 
-このページを使用して、各列に含まれるデータを学習します。ほとんどの実装ではすべての列を使用しないので、データフィードエクスポートに含める列を決定するときにこのページを参照できます。
+このページを使用して、各列に含まれるデータを確認します。 ほとんどの実装ではすべての列を使用していないので、データフィードのエクスポートに含める列を決定する際に、このページを参照できます。
 
-> [!IMPORTANT] 任意の列（255文字として定義されている）の場合、文字列内の値がエスケープされた文字が追加されるので、データフィードは追加の文字を送信できます。実装で文字制限を超える値を定期的に送信する場合は、このトピックに注意してください。
+> [!IMPORTANT] 任意の列（例えば255文字と定義されている列）に対して、文字列にエスケープする文字が追加されたため、データフィードは追加の文字を送信できます。 実装で文字制限を超える値が定期的に送信される場合は、このトピックに注意してください。
 
 ## 列、説明、データタイプ
 
-> [!NOTE] ほとんどの列には、プレフィックス付きの類似の列があり `post_`ます。post 列には、サーバー側ロジック、処理ルール、VISTA ルールの適用後の値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。
+> [!NOTE] ほとんどの列には、プレフィックスが付いた同様の列が含まれま `post_`す。 post 列には、サーバー側ロジック、処理ルール、VISTA ルールの適用後の値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。
 
 | 列名 | 列の説明 | データタイプ |
 | --- | --- | --- |
@@ -38,19 +38,19 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | carrier | Adobe Advertising Cloud 統合変数。携帯電話会社を指定します。carrier 参照テーブルを参照します。 | varchar(100) |
 | channel | 「サイトセクション」ディメンションで使用される変数。 | varchar(100) |
 | click_action | 廃止。レガシー ClickMap ツール内でクリックされたリンクのアドレス。 | varchar(100) |
-| click_action_type | 廃止。レガシー ClickMap ツールのリンクタイプ。<br>0:HREF URL<br>1:カスタムID<br>2:JavaScript onClickイベント<br>3:フォーム要素 | tinyint unsigned |
+| click_action_type | 廃止。レガシー ClickMap ツールのリンクタイプ。<br>0:HREF URL<br>1:カスタムID<br>2:JavaScript onClick event<br>3:フォーム要素 | tinyint unsigned |
 | click_context | 廃止。リンククリックが発生したページの名前。レガシー ClickMap ツールの一部。 | varchar(255) |
-| click_context_type | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0:ページURL<br>1:ページ名 | tinyint unsigned |
+| click_context_type | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0: Page URL<br>1: Page Name | tinyint unsigned |
 | click_sourceid | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。レガシー ClickMap ツールの一部。 | int unsigned |
 | click_tag | 廃止。クリックされた HTML 要素のタイプ。 | char(10) |
-| clickmaplink | Activity Mapリンク | varchar(255) |
-| clickmaplinkbyregion | 地域別のActivity Mapリンク | varchar(255) |
-| clickmappage | Activity Mapページ | varchar(255) |
-| clickmapregion | Activity Map地域 | varchar(255) |
+| clickmaplink | Activity mapリンク | varchar(255) |
+| clickmaplinkbyregion | 地域別のActivity mapリンク | varchar(255) |
+| clickmappage | Activity mapページ | varchar(255) |
+| clickmapregion | Activity map領域 | varchar(255) |
 | code_ver | イメージリクエストのコンパイルと送信に使用される AppMeasurement Library のバージョン。 | char(16) |
 | color | c_color 列の値に基づいた色深度 ID。color_depth.tsv 参照テーブルを参照します。 | smallint unsigned |
 | connection_type | 接続タイプを表す数値 ID。「接続タイプ」ディメンションで使用される変数。connection_type.tsv 参照テーブルを参照します。 | tinyint unsigned |
-| cookie | 「cookie サポート」ディメンションで使用される変数。<br>Y:enableDN<br>:disabledU<br>:不明 | char(1) |
+| cookie | 「cookie サポート」ディメンションで使用される変数。<br>Y:<br>EnabledN:<br>DisabledU:不明 | char(1) |
 | country | ヒットの発生元となった国を表す数値 ID。アドビでは Digital Envoy 社との提携により、IP アドレスと国を対応させることができます。country.tsv 参照テーブルを使用します。 | smallint unsigned |
 | ct_connect_type | connection_type 列と関連しています。よく使用される値は LAN/Wi-Fi、Mobile Carrier、Modem です。 | char(20) |
 | curr_factor | 通貨の小数点以下の桁数を指定します。通貨の変換に使用されます。例えば、USD では小数点以下 2 桁を使用するので、この列の値は 2 になります。 | tinyint |
@@ -67,7 +67,7 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | ef_id | Adobe Advertising Cloud 統合で使用される ef_id。 | varchar(255) |
 | evar1 ～ evar250 | カスタム変数 1 ～ 250。eVar の使用方法は組織ごとに異なります。組織における各 eVar への値の設定方法について詳しくは、それぞれの組織に固有のソリューションデザインドキュメントを参照してください。 | varchar(255) |
 | event_list | ヒットで発生したイベントを表す数値 ID のコンマ区切りリスト。デフォルトイベントもカスタムイベント 1 ～ 1000 も含まれています。event.tsv 参照テーブルを使用します。 | text |
-| exclude_hit | ヒットがレポートから除外されていることを示すフラグ。visit_ num列は、除外されたヒットに対してはインクリメントされません。<br>1：未使用. Scraped機能の一部。<br>2：未使用. Scraped機能の一部。<br>3:使用されなくなりました。ユーザーエージェントの除外<br>4:IPアドレス<br>5に基づく除外:page_ url、pagename、page_ event、event_ list<br>6など、重大なヒット情報がありません:JavaScriptで、ヒット<br>7が正しく処理されませんでした:アカウント固有の除外（VISTAルール<br>8など）:未使用。アカウント固有の除外除外。<br>9：未使用. Scraped機能の一部。<br>10:無効な通貨コード<br>11:タイムスタンプのみのレポートスイートにタイムスタンプがないか、タイムスタンプのないレポートスイート<br>12のタイムスタンプが含まれているヒットがヒットに含まれていました。未使用。Scraped機能の一部。<br>13：未使用. Scraped機能の一部。<br>14:Analyticsのヒット<br>15と一致しなかったTargetヒット:現在使用されていません。<br>16:Analyticsヒットに適合しなかった広告クラウドヒット | tinyint unsigned |
+| exclude_hit | ヒットがレポートから除外されていることを示すフラグ。visit_num列は、除外されたヒットに対しては増分されません。<br>1：未使用. Part of a scrapped feature.<br>2：未使用. Part of a scrapped feature.<br>3:使用されなくなりました。 ユーザーエージェントの除<br>外4:IPアドレス5に基づく除<br>外：重要なヒット情報がない。page_url、pagename、page_event、event_list<br>6など。JavaScriptがヒット<br>7を正しく処理しなかった：アカウント固有の除外(VISTAルール<br>8など):未使用。 Alternate account-specific exclusion.<br>9：未使用. Part of a scrapped feature.<br>10: Invalid currency code<br>11: Hit missing a timestamp on a timestamp-only report suite, or a hit contained a timestamp on a non-timestamp report suite<br>12: Not used. Part of a scrapped feature.<br>13：未使用. Part of a scrapped feature.<br>14:Analyticsヒット<br>15と一致しないターゲットヒット：現在は使用されていません。<br>16:Analyticsヒットと一致しないAdvertising cloudヒット | tinyint unsigned |
 | first_hit_page_url | 訪問者の本当に最初の URL。 | varchar(255) |
 | first_hit_pagename | 「オリジナルの入口ページ」ディメンションで使用される変数。訪問者のオリジナルの入口ページ名。 | varchar(100) |
 | first_hit_ref_domain | 「オリジナルの参照ドメイン」ディメンションで使用される変数。first_hit_referrer に基づいています。訪問者の本当に最初の参照ドメイン。 | varchar(100) |
@@ -78,10 +78,10 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | geo_country | ヒットの発生元となった国の略称（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと国を対応させることができます。 | char(4) |
 | geo_dma | ヒットの発生元となった人口分布地域の数値 ID（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと人口分布地域を対応させることができます。 | int unsigned |
 | geo_region | ヒットの発生元となった州または地域の名前（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと州または地域を対応させることができます。 | char(32) |
-| geo_zip | IPに基づいて送信された郵便番号。アドビでは Digital Envoy 社との提携により、IP アドレスと郵便番号を対応させることができます。 | varchar(16) |
+| geo_zip | The zip code the hit came came from, based on IP. アドビでは Digital Envoy 社との提携により、IP アドレスと郵便番号を対応させることができます。 | varchar(16) |
 | hier1 ～ hier5 | 階層変数で使用。値の区切りリストが格納されます。区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
-| hit_source | ヒットの発生源を示します。<br>1:タイムスタンプ <br>2のない標準イメージリクエスト:タイムスタンプ <br>3の標準イメージリクエスト:タイムスタンプ <br>4を使用したライブデータソースのアップロード:未使用 <br>5:汎用データソースアップロード <br>6:フル処理データソースアップロード <br>7:transactionIDデータソースのアップロード <br>8:使用されなくなりました。Adobe Advertising Cloudデータソース <br>9の以前のバージョン:使用されなくなりました。Adobe Socialサマリ指標 | tinyint unsigned |
-| hit_time_gmt | Adobeデータ収集サーバーのタイムスタンプが、Unix時間に基づいてヒットを受け取りました。 | int |
+| hit_source | ヒットの発生源を示します。<br>1:タイムスタンプのない標準イメージリクエ <br>スト2:タイムスタンプ <br>3の標準イメージリクエスト：タイムスタンプ <br>4を使用したライブデータソースのアップロード：未使用 <br>5:汎用データソースアップロ <br>ード6:フル処理データソースのアップロ <br>ード7:TransactionIDデータソースのアップロ <br>ード8:使用されなくなりました。以前のバージョンのAdobe Advertising cloudデータソース <br>9:使用されなくなりました。Adobe Socialサマリ指標 | tinyint unsigned |
+| hit_time_gmt | The timestamp of the hit Adobe data collection servers received the hit, based in Unix time. | int |
 | hitid_high | hitid_low と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
 | hitid_low | hitid_high と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
 | homepage | 廃止。現在の URL がブラウザーのホームページかどうかを示します。 | char(1) |
@@ -89,27 +89,27 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | ip | イメージリクエストの HTTP ヘッダーに基づく IP アドレス。 | char(20) |
 | ip2 | 未使用。IP アドレスに基づく VISTA ルールを含んだレポートスイートのバックエンド参照変数。 | char(20) |
 | j_jscript | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
-| java_enabled | Java が有効かどうかを示すフラグ。<br>Y:有効にする <br>N:無効 <br>なU:不明 | char(1) |
+| java_enabled | Java が有効かどうかを示すフラグ。<br>Y:有効 <br>N:無効 <br>U:不明 | char(1) |
 | javascript | JavaScript のバージョンの参照 ID（j_jscript に基づく）。参照テーブルを使用します。 | tinyint unsigned |
 | language | 言語の数値 ID。languages.tsv 参照テーブルを使用します。 | smallint unsigned |
 | last_hit_time_gmt | 前回のヒットのタイムスタンプ（UNIX 時間）。「前回訪問からの日数」ディメンションの計算に使用されます。 | int |
-| last_purchase_num | 「顧客の忠誠度」ディメンションで使用される変数。訪問者がこれまでにおこなった購入の回数を示します。<br>0:以前の購入なし（顧客ではない） <br>1:2回前の購入（新規顧客） <br>2:3回前の購入（リターン顧客） <br>3:3回以上の購入（常連客） | int unsigned |
+| last_purchase_num | 「顧客の忠誠度」ディメンションで使用される変数。訪問者がこれまでにおこなった購入の回数を示します。<br>0:事前購入なし（非顧客） <br>1:1つ前の購入（新規顧客） <br>2:前回購入回数2回（リターン顧客） <br>3:3回以上の事前購入（常連客） | int unsigned |
 | last_purchase_time_gmt | 「前回購入からの日数」ディメンションで使用されます。前回おこなった購入のタイムスタンプ（UNIX 時間）。初回の購入やこれまでに購入をおこなっていない訪問者の場合、この値は 0 になります。 | int |
 | latlon1 | ロケーション (半径 10 km 以内) | varchar(255) |
 | latlon23 | ロケーション (半径 100 m 以内) | varchar(255) |
 | latlon45 | ロケーション (半径 1 m 以内) | varchar(255) |
 | mc_audiences | 訪問者が属している Audience Manager セグメント ID のリスト。 | text |
 | mcvisid | Experience Cloud 訪問者 ID.2 つの 64 ビット数値を連結して 19 桁にパディングした 128 ビット数値です。 | varchar(255) |
-| mobile_id | ユーザーがモバイルデバイスを使用している場合、デバイスの数値ID。 | int |
-| mobileaction | モバイルアクション。Mobile ServicesでtrackActionが呼び出されると自動的に収集されます。アプリ内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
-| mobileappid | モバイルアプリ ID。アプリの名前とバージョンを次の形式で格納します。[appName] [BundleVersion] | varchar(255) |
-| mobileappperformance appid | Apteligentデータコネクタで使用します。Apteligentで使用されるアプリID。 | varchar(255) |
-| mobilepappperformancerashd | Apteligentデータコネクタで使用します。Apteligentで使用されるクラッシュID。 | varchar(255) |
-| mobileapprestoreobjectid | appFiguresデータコネクタで使用します。App StoreオブジェクトID | varchar(255) |
+| mobile_id | ユーザーがモバイルデバイスを使用している場合は、デバイスの数値ID。 | int |
+| mobileaction | モバイルアクション。Mobile ServicesでtrackActionが呼び出されたときに自動的に収集されます。 アプリ内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
+| mobileappid | モバイルアプリ ID。アプリの名前とバージョンを次の形式で格納します。[AppName][BundleVersion] | varchar(255) |
+| mobileappperformanceappid | Apteligentデータコネクタで使用されます。 Apteligentで使用されるアプリID。 | varchar(255) |
+| mobileappperformancecrashid | Apteligentデータコネクタで使用されます。 Apteligentで使用されるクラッシュID。 | varchar(255) |
+| mobileappstoreobjectid | Appfiguresデータコネクタで使用されます。 App StoreオブジェクトID | varchar(255) |
 | mobilebeaconmajor | Mobile Servicesビーコンメジャー | varchar(100) |
 | mobilebeaconminor | Mobile Servicesビーコンマイナー | varchar(100) |
 | mobilebeaconproximity | Mobile Servicesビーコンの近接性 | varchar(255) |
-| mobilebeaconuuid | Mobile ServicesビーコンのUUID | varchar(100) |
+| mobilebeaconuuid | Mobile ServicesビーコンUUID | varchar(100) |
 | mobilecampaigncontent | リンクを表示するコンテンツの名前または ID。モバイルアプリの獲得によって設定されます。 | varchar(255) |
 | mobilecampaignmedium | バナーや電子メールなどのマーケティングメディア。モバイルアプリの獲得によって設定されます。 | varchar(255) |
 | mobilecampaignname | キャンペーンの名前。キャンペーン変数にも格納されます。モバイルアプリケーションの獲得によって設定されます。 | varchar(255) |
@@ -117,38 +117,38 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | mobilecampaignterm | この獲得で追跡する有料検索キーワードやその他の語句。モバイルアプリケーションの獲得によって設定されます。 | varchar(255) |
 | mobiledayofweek | アプリが起動された曜日を表す数値。 | varchar(255) |
 | mobiledayssincefirstuse | アプリの初回実行時からの経過日数。 | varchar(255) |
-| mobiledayssincelastupgrade | コンテキストデータ変数a. DaysSinceLastUpgradeから収集されます。前回のセッションから経過した日数。 | varchar(255) |
+| mobiledayssincelastupgrade | コンテキストデータ変数a.DaysSinceLastUpgradeから収集されます。 前のセッションから経過した日数。 | varchar(255) |
 | mobiledayssincelastuse | アプリの前回実行時からの経過日数。 | varchar(255) |
-| mobiledeepinkid | コンテキストデータ変数a.<span>deepplink</span>. idから収集されます。獲得レポートで、モバイル獲得リンクの識別子として使用されます。 | varchar(255) |
+| mobiledeeplinkid | コンテキストデータ変数a.<span>deeplink</span>.idから収集されます。 ダウンロード計測用レポートで、モバイルダウンロード計測用リンクの識別子として使用されます。 | varchar(255) |
 | mobiledevice | モバイルデバイス名。iOS の場合は、コンマ区切りの 2 桁の文字列として格納されます。最初の番号はデバイスの世代を表し、2 番目の番号はデバイスファミリーを表します。 | varchar(255) |
 | mobilehourofday | アプリが起動された時刻を示します。24 時間形式に従います。 | varchar(255) |
 | mobileinstalldate | モバイルインストール日。モバイルアプリをユーザーが最初に起動した日を示します。 | varchar(255) |
-| mobilelaunchessincelastupgrade | コンテキストデータ変数a. LaunchesSinceUpgradeから収集されます。前回アップグレードからの起動回数をレポートします。 | varchar(255) |
+| mobilelaunchessincelastupgrade | コンテキストデータ変数a.LaunchesSinceUpgradeから収集されます。 前回のアップグレード以降の起動回数を報告します。 | varchar(255) |
 | mobilelaunchnumber | モバイルアプリが起動されるたびに 1 ずつ増分されます。 | varchar(255) |
 | mobileltv | 廃止。trackLifetimeValue メソッドによって設定されます。 | varchar(255) |
-| mobilemessagebuttonname | コンテキストデータ変数a.<span>message</span>. button. idから収集されます。メッセージを閉じるボタンを識別するためにアプリ内メッセージに使用します。 | varchar(100) |
+| mobilemessagebuttonname | コンテキストデータ変数a.<span>message</span>.button.idから収集されます。 メッセージを閉じたボタンを識別するために、アプリ内メッセージングに使用します。 | varchar(100) |
 | mobilemessageid | アプリ内メッセージID | varchar(255) |
 | mobilemessageonline | アプリ内メッセージオンライン | varchar(255) |
-| mobilemessagepushoptin | コンテキストデータ変数a. push. optinから収集されます。ユーザーがプッシュメッセージにオプトインするときに"true"に設定します。そうでない場合、値は"false"になります。 | varchar(255) |
-| mobilemessagepushpayloadid | コンテキストデータ変数a. push. payloadidから収集されました。ペイロード識別子としてプッシュメッセージで使用されます。 | varchar(255) |
-| mobileosenvironment | コンテキストデータ変数a. oSEnvironmentから収集されます。AndroidやiOSなどのステートOS環境。 | varchar(255) |
+| mobilemessagepushoptin | コンテキストデータ変数a.push.optinから収集されます。 ユーザーがプッシュメッセージをオプトインする場合は「true」に設定します。それ以外の場合、値は「false」です。 | varchar(255) |
+| mobilemessagepushpayloadid | コンテキストデータ変数a.push.payloadidから収集されます。 ペイロード識別子としてプッシュメッセージングで使用されます。 | varchar(255) |
+| mobileosenvironment | コンテキストデータ変数a.OSEnvironmentから収集されます。 AndroidやiOSなどのOS環境を状態にします。 | varchar(255) |
 | mobileosversion | Mobile Servicesオペレーティングシステムのバージョン | varchar(255) |
-| mobileplaceaccuracy | コンテキストデータ変数a. loc. utilsから収集されます。収集時のGPSの精度をメートル単位で示します。 | varchar(255) |
-| mobileplacecategory | コンテキストデータ変数a. loc. categoryから収集されます。特定の場所のカテゴリについて説明します。 | varchar(255) |
-| mobileplaceid | コンテキストデータ変数a.<span>loc</span>. idから収集されます。特定の目標地点の識別子。 | varchar(255) |
-| mobilerelaunchampaigncontent | Mobile Servicesの起動コンテンツ | varchar(255) |
-| mobilerelaunchampaignmedium | Mobile Services起動メディア | varchar(255) |
-| mobilerelaunchampaignsource | Mobile Servicesの起動ソース | varchar(255) |
-| mobilerelaunchampaignterm | Mobile Servicesの開始用語 | varchar(255) |
-| mobilerelaunchampaigntrackingcode | コンテキストデータ変数a. launch. campaign. trackingcodeから収集されます。獲得キャンペーンのトラッキングコードとして、獲得で使用されます。 | varchar(255) |
+| mobileplaceaccuracy | コンテキストデータ変数a.loc.accから収集されます。 収集時のGPSの精度をメートル単位で示します。 | varchar(255) |
+| mobileplacecategory | コンテキストデータ変数a.loc.categoryから収集されます。 特定の場所のカテゴリを示します。 | varchar(255) |
+| mobileplaceid | コンテキストデータ変数a.<span>loc</span>.idから収集されます。 特定の目標地点の識別子。 | varchar(255) |
+| mobileraunchcampaigncontent | Mobile Servicesの起動コンテンツ | varchar(255) |
+| mobilerlaunchcampaignmedium | Mobile Services起動媒体 | varchar(255) |
+| mobileraunchcampaignsource | Mobile Services起動ソース | varchar(255) |
+| mobilerlaunchcampaignterm | Mobile Servicesの起動用語 | varchar(255) |
+| mobilerlaunchcampaigntrackingcode | コンテキストデータ変数a.launch.campaign.trackingcodeから収集されます。 獲得を開始キャンペーンのトラッキングコードとして使用します。 | varchar(255) |
 | mobileresolution | モバイルデバイスの解像度。幅 x 高さ（ピクセル単位）。 | varchar(255) |
 | monthly_visitor | 当月の月別訪問者であることを示すフラグ。 | tinyint unsigned |
-| mvvar1~ mvvar3 | リスト変数値。実装に応じて、カスタム値の区切りリストを格納します。 | text |
+| mvvar1 ～ mvvar3 | リスト変数値。実装に応じて、カスタム値の区切りリストを格納します。 | text |
 | namespace | 未使用。以前に廃止された機能の一部。 | varchar(50) |
 | new_visit | 現在のヒットが新しい訪問であるかどうかを指定するフラグ。訪問がアクティブでなくなった 30 分後にアドビのサーバーによって設定されます。 | tinyint unsigned |
 | os | 訪問者のオペレーティングシステムを表す数値 ID。user_agent 列に基づきます。os 参照テーブルを使用します。 | int unsigned |
 | p_plugins | 廃止。ブラウザーで使用可能なプラグインのリスト。JavaScript 関数 navigator.plugins() を使用します。 | text |
-| page_event | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。 | tinyint unsigned |
+| page_event | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。See [Page event lookup](datafeeds-page-event.md). | tinyint unsigned |
 | page_event_var1 | リンクトラッキングイメージリクエストでのみ使用されます。クリックされたダウンロードリンク、離脱リンク、カスタムリンクの URL。 | text |
 | page_event_var2 | リンクトラッキングイメージリクエストでのみ使用されます。リンクのカスタム名（指定された場合）。 | varchar(100) |
 | page_event_var3 | 廃止。調査モジュールやメディアモジュールのデータが格納されます。Adobe Analytics の以前のバージョンで設定されたレガシービデオレポート。 | text |
@@ -159,8 +159,8 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | partner_plugins | 未使用。以前に廃止された機能の一部。 | varchar(255) |
 | persistent_cookie | 「永続的な cookie のサポート」ディメンションで使用されます。各ヒットの後で破棄されない Cookie を訪問者がサポートしているかどうかを示します。 | char(1) |
 | plugins | 廃止。ブラウザー内で使用可能なプラグインに対応する数値 ID のリスト。plugins.tsv 参照テーブルを使用します。 | varchar(180) |
-| pointofinterest | Mobile Servicesの目標地点名 | varchar(255) |
-| pointofinterestdistance | Mobile Servicesの目標地点までの距離 | varchar(255) |
+| pointofinterest | Mobile Services目標地点名 | varchar(255) |
+| pointofinterestdistance | 目標地点センターまでのMobile Servicesの距離 | varchar(255) |
 | post_ プレフィックスの付いた列 | レポートで最終的に使用された値が格納されます。各 post 列には、サーバー側ロジック、処理ルール、VISTA ルールの適用後に値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。 | post 以外の各列を参照してください。 |
 | prev_page | 未使用。前のページを表すアドビ独自の識別子。 | int unsigned |
 | product_list | 製品変数を通じて渡される製品リスト。製品はコンマで区切られますが、個々の製品プロパティはセミコロンで区切られます。 | text |
@@ -169,10 +169,10 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | purchaseid | 購入の一意な識別子（s_purchaseID 変数を使用して設定）。duplicate_purchase 列で使用されます。 | char(20) |
 | quarterly_visitor | ヒットが新しい四半期別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | ref_domain | referrer 列に基づきます。ヒットの参照ドメイン。 | varchar(100) |
-| ref_type | ヒットのリファラルのタイプを表す数値 ID。<br>1:サイト<br>2内:その他のウェブサイト <br>3:検索エンジン <br>4:ハードドライブ <br>5:USENET <br>6:手動入力/ブックマーク（リファラーなし） <br>7:Email <br>8:No JavaScript <br>9:ソーシャルネットワーク | tinyint unsigned |
+| ref_type | ヒットのリファラルのタイプを表す数値 ID。<br>1:サイト内<br>2:その他のWebサ <br>イト3:検索エン <br>ジン4:ハードドラ <br>イブ5:USENET <br>6:手動入力/ブックマーク(リファラーな <br>し) 7:電子メ <br>ール8:JavaScript <br>9なし：ソーシャルネットワーク | tinyint unsigned |
 | referrer | 前のページのページ URL。 | varchar(255) |
 | resolution | モニターの解像度を表す数値 ID。「画面の解像度」ディメンションの値を設定します。resolution.tsv 参照テーブルを使用します。 | smallint unsigned |
-| s_kwcid | Adobe Advertising Cloud統合で使用されるキーワードID。 | varchar(255) |
+| s_kwcid | Adobe Advertising cloud統合で使用されるキーワードID。 | varchar(255) |
 | s_resolution | 画面解像度の生の値。JavaScript 関数 screen.width および screen.height を使用して収集されます。 | char(20) |
 | sampled_hit | 廃止。以前 Ad Hoc Analysis でサンプリングに使用されていました。 | char(1) |
 | search_engine | サイトに訪問者を誘導した検索エンジンを表す数値 ID。search_engines.tsv 参照テーブルを使用します。 | smallint unsigned |
@@ -196,12 +196,12 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | socialownedpropertypropertyvsapp | 廃止。Social 所有プロパティとアプリ | varchar(255) |
 | state | 状態変数。 | varchar(50) |
 | stats_server | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
-| t_time_info | 訪問者の現地時刻。形式を次に示します。M/D/YYYY HH:MM:SS Month（0-11，0=1月）タイムゾーンのオフセット（分単位） | varchar(100) |
+| t_time_info | 訪問者の現地時刻。形式を次に示します。 M/D/YYYY HH:MM:SS Month （0-11, 0=1月）タイムゾーンのオフセット（分単位） | varchar(100) |
 | tnt | Adobe Target 統合で使用されます。 | text |
 | tnt_action | Adobe Target 統合で使用されます。 | text |
 | tnt_post_vista | 廃止。代わりに post_tnt を使用してください。 | text |
 | transactionid | データソースを使用して後から様々なデータポイントをアップロードするための一意の識別子。 | text |
-| truncated_hit | イメージリクエストが切り捨てられたことを示すフラグ。部分的なヒットを受信したことを示します。<br>Y:ヒットが切り捨てられました。部分的なヒット数 <br>N:ヒットが切り捨てられなかった問題を修正しました。全ヒット受信 | char(1) |
+| truncated_hit | イメージリクエストが切り捨てられたことを示すフラグ。部分的なヒットを受信したことを示します。<br>Y:ヒットが切り捨てられました。部分的なヒットが <br>Nを受け取りました。ヒットが切り捨てられませんでした。全ヒットを受け取る | char(1) |
 | ua_color | 廃止。以前、色深度のフォールバックとして使用されていました。 | char(20) |
 | ua_os | 廃止。以前、オペレーティングシステムのフォールバックとして使用されていました。 | char(80) |
 | ua_pixels | 廃止。以前、ブラウザーの高さと幅のフォールバックとして使用されていました。 | char(20) |
@@ -216,26 +216,26 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | va_finder_id | 「ファーストタッチチャネル」ディメンションを識別する数値 ID。この ID の参照はマーケティングチャネルマネージャーにあります。 | tinyint unsigned |
 | va_instance_event | マーケティングチャネルインスタンスを識別するフラグ。「マーケティングチャネルラストタッチインスタンス」指標で使用されます。 | tinyint unsigned |
 | va_new_engagement | マーケティングチャネルの新規エンゲージメントを識別するフラグ。「新規エンゲージメント」指標で使用されます。 | tinyint unsigned |
-| video | ビデオコンテンツ | varchar(255) |
-| videoad | ビデオ広告名 | varchar(255) |
-| videoadinpod | ポッド位置のビデオ広告 | varchar(255) |
-| videoadlength | ビデオ広告の長さ | varchar(255) |
+| video | Video content | varchar(255) |
+| videoad | Video ad name | varchar(255) |
+| videoadinpod | Video ad in pod position | varchar(255) |
+| videoadlength | Video ad length | varchar(255) |
 | videoadload | ビデオ広告の読み込み | varchar(255) |
-| videoadname | ビデオ広告名 | varchar(255) |
-| videoadplayername | ビデオ広告プレーヤー名 | varchar(255) |
+| videoadname | Video ad name | varchar(255) |
+| videoadplayername | Video ad player name | varchar(255) |
 | videoadpod | ビデオ広告ポッド | varchar(255) |
 | videoadvertiser | ビデオ広告主 | varchar(255) |
 | videoaudioalbum | ビデオオーディオアルバム | varchar(255) |
 | videoaudioartist | ビデオオーディオアーティスト | varchar(255) |
-| videoauditoauthor | ビデオオーディオ作成者 | varchar(255) |
+| videoaudioauthor | ビデオオーディオ作成者 | varchar(255) |
 | videoaudiolabel | ビデオオーディオラベル | varchar(255) |
-| videoaudiopuubler | ビデオオーディオパブリッシャー | varchar(255) |
+| videoaudiopublisher | ビデオオーディオパブリッシャー | varchar(255) |
 | videoaudiostation | ビデオオーディオステーション | varchar(255) |
 | videocampaign | ビデオキャンペーン | varchar(255) |
 | videochannel | ビデオチャネル | varchar(255) |
 | videochapter | ビデオチャプター名 | varchar(255) |
-| videocontenttype | ビデオコンテンツタイプ。すべてのビデオ視聴で、自動的に「ビデオ」に設定されます。 | varchar(255) |
-| videodaypart | ビデオ日パート | varchar(255) |
+| videocontenttype | ビデオコンテンツタイプ。 すべてのビデオ視聴で、自動的に「ビデオ」に設定されます。 | varchar(255) |
+| videodaypart | ビデオ日分割 | varchar(255) |
 | videoepisode | ビデオエピソード | varchar(255) |
 | videofeedtype | ビデオフィードのタイプ | varchar(255) |
 | videogenre | ビデオジャンル | text |
@@ -248,23 +248,23 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | videoqoebitrateaverageevar | ビデオ画質平均ビットレート | varchar(255) |
 | videoqoebitratechangecountevar | ビデオ画質変更回数 | varchar(255) |
 | videoqoebuffercountevar | ビデオ画質バッファ数 | varchar(255) |
-| videoqoebuffertimeevar | ビデオ画質バッファー時間 | varchar(255) |
+| videoqoebuffertimeevar | ビデオ画質のバッファー時間 | varchar(255) |
 | videoqoedroppedframecountevar | ビデオ画質ドロップフレーム数 | varchar(255) |
 | videoqoeerrorcountevar | ビデオ画質エラー数 | varchar(255) |
-| videoqoeexternalerrors | ビデオ画質外部エラー | text |
+| videoqoeexternalerrors | ビデオ画質の外部エラー | text |
 | videoqoeplayersdkerrors | ビデオ画質SDKエラー | text |
 | videoqoetimetostartevar | ビデオ画質開始時間 | varchar(255) |
 | videoseason | ビデオシーズン | varchar(255) |
 | videosegment | ビデオセグメント | varchar(255) |
 | videoshow | ビデオショー | varchar(255) |
-| videoshowtype | ビデオショータイプ | varchar(255) |
+| videoshowtype | ビデオショーのタイプ | varchar(255) |
 | videostreamtype | ビデオストリームタイプ | varchar(255) |
 | visid_high | visid_low と組み合わせて使用し、訪問を一意に識別します。 | bigint unsigned |
 | visid_low | visid_high と組み合わせて使用し、訪問を一意に識別します。 | bigint unsigned |
 | visid_new | 新しく生成された訪問者 ID がヒットに含まれているかどうかを識別するフラグ。 | char(1) |
 | visid_timestamp | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX 時間）を示します。 | int |
-| visid_type | 訪問者の識別に使用された方法を表す数値 ID。<br>0:カスタムvisitorID <br>1:IPおよびユーザーエージェントフォールバック <br>2:HTTPモバイル加入者ヘッダー <br>3:レガシーcookieの値（s_ vi） <br>4:フォールバックcookieの値（s_ fid） <br>5:IDサービス | tinyint unsigned |
-| visit_keywords | 「検索キーワード」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限を使用します。 | varchar(244) |
+| visid_type | 訪問者の識別に使用された方法を表す数値 ID。<br>0:カスタム <br>訪問者ID 1:IPおよびユーザーエージェントのフォールバ <br>ック2:HTTPモバイル加入者ヘッ <br>ダー3:従来のcookie値(s_vi) <br>4:フォールバックcookieの値(s_fid) <br>5:IDサービス | tinyint unsigned |
+| visit_keywords | 「検索キーワード」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限が使用されます。 | varchar(244) |
 | visit_num | 「通算訪問回数」ディメンションで使用される変数。1 から始まり、訪問者ごとに新しい訪問が開始されるたびに増分されます。 | int unsigned |
 | visit_page_num | 「ヒットの深さ」ディメンションで使用される変数。ユーザーがヒットを生成するたびに 1 ずつ増えます。訪問ごとにリセットされます。 | int unsigned |
 | visit_ref_domain | visit_referrer 列に基づきます。訪問の最初の参照ドメイン。 | varchar(100) |
@@ -278,65 +278,65 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 | yearly_visitor | ヒットが新しい年別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | zip | 「郵便番号」ディメンションの設定に使用されます。 | varchar(50) |
 
-## 空白コラム
+## 空の列
 
-次の列は未使用で、データは含まれません。
+次の列のリストは未使用で、データが含まれていません。
 
-* mobilepacquitionclicks
+* mobileaccuptionclicks
 * mobileactioninapptime
 * mobileactiontotaltime
-* mobilepappperformance affectedusers
-* mobileappperformance appid<span>.</span>app- perf- app- name
-* mobileappperformance appid<span>.</span>app- perf- platform
-* mobilepappperformancerashes
-* mobilepappperformancecashd<span>.</span>app- perf- crash- name
-* mobilepappperformanceels
-* mobileappstoreavring
+* mobileappperformanceeffectedusers
+* mobileappperformanceappid<span>.</span>app-perf-app-name
+* mobileappperformanceappid<span>.</span>app-perf-platform
+* mobileappperformancecrashes
+* mobileappperformancecrashid<span>。</span>app-perf-crash-name
+* mobileappperformanceloads
+* mobileappstoreavgrating
 * mobileappstoredownloads
-* mobileappstoreinapafesue
-* mobilepapprestoreinproprityity
-* mobileapprestorobjectid<span>.</span>app- store- user
-* mobileapprestorobjectid<span>.</span>application- name
-* mobileapprestorobjectid<span>.</span>application- version
-* mobileapprestorobjectid<span>.</span>appstore- name
-* mobileapprestorobjectid<span>.</span>category- name
-* mobileapprestorobjectid<span>.</span>country- name
-* mobileapprestorobjectid<span>.</span>デバイス製造元
-* mobileapprestorobjectid<span>.</span>device- name
-* mobileapprestorobjectid<span>.</span>in- app- name
-* mobileapprestorobjectid<span>.</span>platform- name- version
-* mobileapprestorobjectid<span>.</span>dank- category- type
-* mobileapprestorobjectid<span>.</span>region- name
-* mobileapprestorobjectid<span>.</span>レビューコメント
-* mobileapprestorobjectid<span>.</span>review- title
-* mobilepapprestoreoffenue
-* mobileappstoreoneoffrighttyity
+* mobileappstoreinapprevenue
+* mobileappstoreinapprovality
+* mobileappstoreobjectid<span>.</span>app-store-user
+* mobileappstoreobjectid<span>.</span>application-name
+* mobileappstoreobjectid<span>.</span>application-version
+* mobileappstoreobjectid<span>.</span>appstore-name
+* mobileappstoreobjectid<span>.</span>category-name
+* mobileappstoreobjectid<span>.</span>country-name
+* mobileappstoreobjectid<span>.</span>デバイス製造者
+* mobileappstoreobjectid<span>.</span>device-name
+* mobileappstoreobjectid<span>.</span>アプリ内名
+* mobileappstoreobjectid<span>.</span>platform-name-version
+* mobileappstoreobjectid<span>.</span>rank-category-type
+* mobileappstoreobjectid<span>.</span>region-name
+* mobileappstoreobjectid<span>.</span>review-comment
+* mobileappstoreobjectid<span>.</span>review-title
+* mobileappstoreoneoffrevenue
+* mobileappstoreoffroyalty
 * mobileappstorepurchases
-* mobilepappstorertank
+* mobileappstorerank
 * mobileappstorerankdivisor
 * mobileappstorerating
-* mobilepappstorerating除数
-* mobileavgprevessionlength
+* mobileappstoreratingdivisor
+* mobileavgprevsessionlength
 * mobilecrashes
 * mobilecrashrate
-* mobiledailagagedusers
-* mobiledeepinkid<span>.</span>name
+* mobiledayengagedusers
+* mobiledeeplinkid<span>.</span>name
 * mobileinstalls
 * mobilelaunches
 * mobileltvtotal
-* mobilemessagelicks
+* mobilemessageclicks
 * mobilemessageid<span>.</span>dest
 * mobilemessageid<span>.</span>name
 * mobilemessageid<span>.</span>type
-* mobilemessageインプレッション
+* mobilemessageimpressions
 * mobilemessagepushpayloadid<span><span>.</span></span>name
 * mobilemessageviews
-* mobilememlyagagedusers
-* mobilepplacedhewtime
+* mobilemonthlyengedusers
+* mobileplacedwelltime
 * mobileplaceentry
 * mobileplaceexit
 * mobileprevsessionlength
-* mobilerelaunchampaigntrackingcode<span><span>.</span></span>name
+* mobileraunchcampaigntrackingcode<span><span>.</span></span>name
 * mobileupgrades
 * socialaveragesentiment
 * socialaveragesentiment（非推奨）
@@ -360,7 +360,7 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 * socialtermslist（非推奨）
 * socialtotalsentiment
 * sourceid
-* videosorized
+* videoauthorized
 * videoaverageminuteaudience
 * videochaptercomplete
 * videochapterstart
@@ -382,4 +382,4 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 * videoqoeerror
 * videoresume
 * videototaltime
-* videomibquetimed
+* videounquetimeplayed
