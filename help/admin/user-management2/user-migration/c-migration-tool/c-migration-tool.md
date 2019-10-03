@@ -4,11 +4,8 @@ seo-description: Adobe Experience Cloud で Analytics ユーザー ID を Admin 
 seo-title: Admin Console への Analytics ユーザーの移行
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -151,14 +148,14 @@ Admin Console の使用メリットには、次のようなものがあります
    <td colname="col1"> <p>移行開始日を延期できますか。 </p> </td> 
    <td colname="col2"> <p>はい。<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">アドビカスタマーケア</a>に連絡してください。 </p> 
     <draft-comment> 
-     <p>開始日における現在のAnalyticsユーザーおよび権限管理に対する変更については、以下を参照してください。 </p> 
+     <p>See below for a description of the changes to your current Analytics User and Permissions management on the start date. </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>会社が Admin Console への移行を予定しています。移行開始日前は、新規ユーザーおよび権限グループをどこで作成しますか。 </p> </td> 
    <td colname="col2"> <p>移行開始日前は、Admin Console または Analytics／ユーザー管理でユーザーを作成できます。 </p> <p>移行開始後は、Admin Console でのみユーザーおよび権限グループを作成できます。 </p> 
     <draft-comment> 
-     <p>移行の開始日に発生する処理の詳細については、以下の「移行」の節を参照してください。 </p> 
+     <p>see the Migration section below for more details on what happens on the start date of the migration). </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
@@ -192,7 +189,7 @@ Admin Console の使用メリットには、次のようなものがあります
    <td colname="col1"> <p>移行されていないユーザーの権限グループのメンバーシップを更新できますか。 </p> </td> 
    <td colname="col2"> <p>はい。移行されていないユーザーのグループメンバーシップは、Analytics の「ユーザー管理」セクションから変更できます。 </p> 
     <draft-comment> 
-     <p>アショクの説明を待つ。 </p> 
+     <p>Awaiting clarification from Ashok about where that's done. </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
