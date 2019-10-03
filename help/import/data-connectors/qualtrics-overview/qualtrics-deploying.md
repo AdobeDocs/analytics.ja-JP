@@ -8,7 +8,7 @@ title: 統合のデプロイ
 topic: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfef09
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -32,38 +32,32 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
    | Qualtrics組織ID | [Qualtrics組織IDの検索](../qualtrics-overview/qualtrics-org-id.md) |
    | Adobe siteCatalystトークン | [Qualtrics Adobe Analyticsトークンの生成](../qualtrics-overview/qualtrics-token.md) |
 
-1. **ウィザードの手順2 — 変数のマッピング**
+1. **ウィザードの手順2 — 変数のマッピング**| Qualtrics応答リスト|使用可能なリスト変数をレポートスイートから選択します。 （場合によっては、Report Suite Manager内で新しいlistVarを有効にする必要があります）。||—|—|| Qualtrics応答ID|使用可能なeVarまたはpropをレポートスイートから選択します。 （場合によっては、Report Suite Manager内で新しいlistVarを有効にする必要があります）。||トラッキングサーバー|Adobe Analyticsデータの追跡に使用するトラッキングサーバー（ドメイン）設定を指定します。 標準のトラッキ `trackingServerSecure` ングサーバー設定と異なる場合は、トラッキングサーバーを使用します。  || Qualtrics調査の提出|レポートスイートから利用可能なイベントを選択します（Report Suite Manager内で新しいイベントを有効にする必要がある場合があります）。  |
 
-   | Qualtrics応答リスト | 使用可能なリスト変数をレポートスイートから選択します。 （場合によっては、Report Suite Manager内で新しいlistVarを有効にする必要があります）。 |
-   |---|---|
-   | Qualtrics応答ID | 使用可能なeVarまたはpropをレポートスイートから選択します。 （場合によっては、Report Suite Manager内で新しいlistVarを有効にする必要があります）。 |
-   | トラッキングサーバー | Adobe Analyticsデータの追跡に使用するトラッキングサーバー（ドメイン）設定を指定します。 標準のトラッキ `trackingServerSecure` ングサーバー設定と異なる場合は、トラッキングサーバーを使用します。 |
-   | Qualtrics surveyの提出 | 使用可能なイベントをレポートスイートから選択します（Report Suite Manager内で新しいイベントを有効にする必要がある場合があります）。 |
+1. **Wizard Step 3: Nothing required, informational only.**
 
-1. **ウィザード：手順3**:必要ない、情報のみ。
-
-   ステップ結果1 **ウィザードの手順4 — 設定のエクスポート**
+   ステップ結果1 **Wizard Step 4 - Export Settings**
 
    | eVar | Qualtricsに書き出すeVarを5つまで選択できます。 |
    |---|---|
-   | イベント | Qualtricsに書き出すために公開するカスタムイベントを5つまで選択します |
-   | prop | Qualtricsに書き出すために公開するpropを5つまで選択します |
-   | Access Requests | Qualtricsにエクスポートする標準指標および標準ディメンションのチェックボックスをオンにします。 は、エ `visitor_id` クスポートが正しく機能するようにするために必要です。 |
+   | イベント | Select up to five of your custom events to expose for exporting to Qualtrics |
+   | prop | Select up to five of your Props to expose for exporting to Qualtrics |
+   | Access Requests | Check the box for any of the standard metrics and dimensions that you wish to export to Qualtrics. The  is required to allow the export to function properly.`visitor_id` |
 
-1. **ウィザード：手順5**:設定を確認し、「今すぐアクティブ化」を **[!UICONTROL クリックしま]**&#x200B;す。
+1. **Wizard Step 5: Review configuration and then click Activate Now.******
 
-## Qualtrics Research Suiteでの統合の有効化{#enabling-the-integration-in-qualtrics-research-suite}
+## Enabling the Integration in Qualtrics Research Suite{#enabling-the-integration-in-qualtrics-research-suite}
 
-統合ウィザードを完了したら、接続する各Qualtrics調査の統合をアクティブ化する必要があります。
+After completing the integration wizard, you must activate the integration for each Qualtrics survey that you want connected.
 
-1. Qualtrics Research suiteにログインします。
+1. Log in to the Qualtrics Research Suite.
 1. 「マイ **[!UICONTROL 調査]** 」タブで、統合する **[!UICONTROL 調査の「編集]** 」ボタンをクリックします。
-1. アドバンスオ **[!UICONTROL プション]** メニューをクリックし **[!UICONTROL 、「Adobe Analytics]**」を選択します。 （このオプションが表示されない場合は、必要な権限の取得について管理者に問い合わせてください）。
+1. Click the Advanced Options menu and select Adobe Analytics. ********(if you do not see this option, ask your administrator about gaining the permissions required).
 
    ![](assets/advanced_options.png)
 
-1. 「Adobe Analytics設定」を選択し、「保存」をクリッ **[!UICONTROL クします]**。 使用できる設定がない場合は、Adobe Integration wizardを完了していない可能性があります。
-   1. 「部分 **[!UICONTROL 的な回答を含む]** 」チェックボックスを使用して、各部分的な調査画面が完了した後にAdobe Analyticsにデータを取り込むことを示すことができます。 選択しない場合、完全に完了した調査のデータのみが転送されます。
+1. 「Adobe Analytics設定」を選択し、「保存」をクリッ **[!UICONTROL クします]**。 If no configurations are available then you likely have not yet completed the Adobe Integration Wizard.
+   1. The Include Partial Responses checkbox can be used to indicate that you’d like to capture data into Adobe Analytics after each partial survey screen is completed. **** If not checked, then data is transferred only for fully completed surveys.
    1. 「Send Timestamp With Beacon **** 」チェックボックスは、タイムスタンプ付きのデータ（共通ではない）を受け取るように設定されたレポートスイートとの統合時にのみ使用します。
    ![](assets/integration_config.png)
 
