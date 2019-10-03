@@ -1,15 +1,15 @@
 ---
 description: getTimeParting プラグインは、時間、曜日および週末と平日の値をカスタム変数に入力します。Analysis Workspace では、初期設定で時間分割のディメンションを利用できます。このプラグインは、他の Analytics ソリューション（Analysis Workspace 以外）で時間分割のディメンションが必要な場合に使用します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: getTimeParting プラグインは、時間、曜日および週末と平日の値をカスタム変数に入力します。Analysis Workspace では、初期設定で時間分割のディメンションを利用できます。このプラグインは、他の Analytics ソリューション（Analysis Workspace 以外）で時間分割のディメンションが必要な場合に使用します。
 seo-title: getTimeParting
 solution: Analytics
 subtopic: プラグイン
 title: getTimeParting
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
 
 ---
 
@@ -22,7 +22,7 @@ getTimeParting プラグインは、時間、曜日および週末と平日の�
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+>以下の手順では、サイト上のデータ収集コードを変更する必要があります。 変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## プラグインコード {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +30,7 @@ getTimeParting プラグインは、時間、曜日および週末と平日の�
 
 次のコードを [!DNL s_code.js] ファイルにある [!UICONTROL CONFIG SECTION] という名称の領域に置き、下記の説明のとおりに更新をおこないます。
 
-`s._tpDST` - DST値の配列。The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - DST値の配列。 The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -43,7 +43,9 @@ s._tpDST = {
 2016:'4/3,10/2', 
 2017:'4/2,10/1', 
 2018:'4/1,10/7', 
-2019:'4/7,10/6'} 
+2019:'4/7,10/6',
+2020:'4/5,10/4',
+2021:'4/4,10/3'} 
   
 //US 
 s._tpDST = { 
@@ -54,7 +56,9 @@ s._tpDST = {
 2016:'3/13,11/6', 
 2017:'3/12,11/5', 
 2018:'3/11,11/4', 
-2019:'3/10,11/3'} 
+2019:'3/10,11/3',
+2020:'3/8,11/1',
+2021:'3/14,11/7'} 
   
 //Europe 
 s._tpDST = { 
@@ -65,7 +69,9 @@ s._tpDST = {
 2016:'3/27,10/30', 
 2017:'3/26,10/29', 
 2018:'3/25,10/28', 
-2019:'3/31,10/27'}
+2019:'3/31,10/27',
+2020:'3/29,10/25',
+2021:'3/28,10/31'}
 ```
 
 北半球のクライアントに対する注意：この配列内の DST 値は DST 開始日と DST 終了日です。
