@@ -3,12 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 移行の影響を受ける API
 title: 移行の影響を受ける API
-uuid: 9a5d43be- e146-476b-961e-49ea0a30b500
-index: y
-internal: n
-snippet: y
+uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
