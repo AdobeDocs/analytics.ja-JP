@@ -1,28 +1,28 @@
 ---
 description: このセクションでは、データフィード配信に含まれるファイルについて説明します。
-keywords: データフィード;job;content;manifest;file;参照;ヒットデータ、配信コンテンツ
+keywords: データフィード；ジョブ；コンテンツ；マニフェスト；ファイル；参照；ヒットデータ；配信コンテンツ
 seo-description: このセクションでは、データフィード配信に含まれるファイルについて説明します。
-seo-title: データフィードの内容-概要
+seo-title: データフィードの内容 - 概要
 solution: Analytics
 subtopic: データフィード
-title: データフィードの内容-概要
-topic: Reports and Analytics
-uuid: 82a86314-4841-4133- a0dc-4e7c6cd14fc1
+title: データフィードの内容 - 概要
+topic: Reports & Analytics
+uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 7fe23291d8ee9675181065025692108aee3ea9a5
+source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
 
 ---
 
 
-# データフィードの内容-概要
+# データフィードの内容 - 概要
 
 このセクションでは、データフィード配信に含まれるファイルについて説明します。
 
-## マニフェストファイル {#section_044BBDE2906D49518F8264CD4832D429}
+## マニフェストファイル
 
 マニフェストファイルには、アップロードされるデータセット内の各ファイルに関する以下の詳細情報が含まれます。
 
-* ファイル名
+* File name
 * ファイルサイズ
 * MD5 ハッシュ
 * ファイルに含まれるレコードの数
@@ -31,23 +31,23 @@ source-git-commit: 7fe23291d8ee9675181065025692108aee3ea9a5
 
 The manifest file is always delivered last as a separate `.txt` file, so that its existence indicates that the complete data set for that request period has already been delivered. マニフェストファイルには以下の書式の名前が付けられます。
 
-```
-<report_suite_id>_YYYY_MM_DD.txt
+```text
+[rsid]_[YYYY-mm-dd].txt
 ```
 
 一般的なマニフェストファイルには以下のようなデータが含まれています。
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 1
  Data-Files: 1
  Total-Records: 611
 
- Lookup-File: bugzilla_2012-09-09-lookup_data.tar.gz
+ Lookup-File: rsid_date-lookup_data.tar.gz
  MD5-Digest: af6de42d8b945d4ec1cf28360085308
  File-Size: 63750
 
- Data-File: 01-bugzilla_2012-09-09.tsv.gz
+ Data-File: 01-rsid_date.tsv.gz
  MD5-Digest: 9c70bf783cb3d0095a4836904b72c991
  File-Size: 122534
  Record-Count: 611
@@ -55,18 +55,18 @@ Datafeed-Manifest-Version: 1.0
 
 すべてのマニフェストファイルに、参照ファイルの合計数、データファイルの合計数、全データファイル内のレコードの合計数を示すヘッダーが含まれています。このヘッダーの後に、データフィード配信に含まれる各ファイルの情報が記述された複数のセクションが続きます。
 
-Some feeds are configured to receive a `rsid_YYYY-MM-DD.fin` file instead of a `.txt` manifest. The `.fin` indicates that the upload is complete, but it contains no metadata about the upload.
+Some feeds are configured to receive a `.fin` file instead of a `.txt` manifest. The `.fin` indicates that the upload is complete, but it contains no metadata about the upload.
 
-## 参照ファイル {#section_B5863537A48D47D78D0F7274838923C1}
+## 参照ファイル
 
-参照ファイルにはヒットデータは含まれません。参照ファイルは、ヒットデータの列ヘッダーを提供する補助ファイル、およびデータフィード内の ID を実際の値に変換するための参照ファイルです。例えば、ブラウザー列の値「497」は、そのヒットが「Microsoft Internet Explorer 8」からのものであることを示します。
+一部のデータフィード列は、実際の値に対応する数値を出力します。 ルックアップファイルは、データフィード列の数値を照合し、実際の値と照合するために使用されます。 例えば、「ヒットデータ」列の値が「497」の場合、「Microsoft Internet Explorer 8」からのヒットであることを示します（を参照） `browser``browser.tsv`。
 
 Note that the `column_headers.tsv` and `event_list.tsv` are specific to the data feed and report suite. それ以外のファイル（`browser.tsv` など）は汎用ファイルです。
 
 参照ファイルは次の書式の名前を持つ 1 つのファイルに圧縮されて配信されます。
 
-```
-<report_suite_id>_<YYYY-mm-dd>-<HHMMSS>-lookup_data.<compression_suffix>
+```text
+[rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
 * [!DNL column_headers.tsv]（このデータフィード用にカスタマイズされています）
@@ -84,68 +84,50 @@ Note that the `column_headers.tsv` and `event_list.tsv` are specific to the data
 * [!DNL search_engines.tsv]
 * [!DNL event_lookup.tsv]（このデータフィード用にカスタマイズされています）
 
-## ヒットデータファイル {#section_B0745236104E41F2BA625D24AB442636}
+## ヒットデータファイル
 
 Hit data is provided in a [!DNL hit_data.tsv] file. このファイルに含まれるデータの分量は、配信形式（時間別または日別、および単一ファイルまたは複数ファイル）によって異なります。このファイルにはヒットデータのみが含まれます。列ヘッダーは、参照ファイルと一緒に別途配信されます。このファイル内の各行には 1 個のサーバーコールが含まれます。
 
-## 配信内容 {#section_994B43D1E71A4EFDB2E4183C0929A397}
+アドビから配信されるファイルは、設定したデータフィードの種類によって異なります。 すべてのファイルはISO-8859-1を使用してエンコードされます。
 
->[!NOTE]
->
->ファイルはISO-8859-1を使用してエンコードされます。
+* `[rsid]` は、データフィードの元となるレポートスイートIDを指します。
+* `[index]` は、複数のファイルフィードでのみ使用され、ページ分割されたファイルの正しい順序を示します。
+* `[YYYY-mm-dd]` は、データフィードの開始日を指します。
+* `[HHMMSS]` は時間別フィードでのみ使用され、データフィードの開始時間を示します。
+* `[compression_suffix]` は、使用される圧縮のタイプを指します。 通常、データフィードはファイルに圧 `tar.gz` 縮さ `zip` れます。
 
-アドビから配信される実際のファイルは、設定したデータフィードの種類によって異なります。使用するデータフィードと一致する設定については、以下の表の配信ファイルの説明を参照してください。
+### 日別、単一ファイル
 
-ファイル名で示される時刻（HHMMSS）は、ファイルの作成時またはアップロード時の時刻とは関係なく、常にファイル内のデータの日時範囲の開始時刻を示します。
+1日分のデータが収集された後、圧縮された1つのデータファイルとマニフェストファイルを受け取ります。 データファイルの名前は次のとおりです。
 
-<table id="table_DBF34F39D29D4DA2B2689029CDA24B92"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 配信形式 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 日別、単一ファイル </td> 
-   <td colname="col2"> <p>1 日分のデータが収集された後、以下の内容が配信されます。 </p> 
-    <ul id="ul_D630D73D0DBA440FA704CF31856243C7"> 
-     <li id="li_717873DBBF264422A39217E1A8829742">単一の圧縮データファイル。 </li> 
-     <li id="li_9F75D42FD56E4CC89C4683D32E59337B">マニフェストファイル。 </li> 
-    </ul> <p>データファイルは以下のような書式の名前で配信されます。 </p> 
-    <code>&lt; report_ suite&gt;_&lt; YYYY- mm- dd&gt;.&lt;compression_suffix&gt;
-    </code> <p> <code>&lt;compression_suffix&gt;</code> の部分は <code>tar.gz</code> または <code>zip</code> です。 </p> <p>圧縮解除すると、データファイルには、その日の全データが含まれる 1 つの <span class="filepath">hit_data.tsv</span> ファイルと、前述の圧縮参照ファイルが含まれています。 </p> <p>ヒットデータのファイルサイズは、レポートスイートでアクティブに使用される変数の数およびトラフィック量に応じて大きく異なります。ただし、データ 1 行の平均は約 500 B（圧縮時）または 2 KB（非圧縮時）です。これにサーバーコールの数をかけることによって、データフィードファイルのおおよその大きさを概算できます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 日別、複数ファイル </td> 
-   <td colname="col2"> <p>1 日分のデータが収集された後、以下の内容が配信されます。 </p> 
-    <ul id="ul_4B873D3F6F18467890C36AE8E86F49DA"> 
-     <li id="li_227315384B954A5784FA370D9B30E2AF">1 個または複数の圧縮データファイル。2 GB ごとのチャンクに分割されています。 </li> 
-     <li id="li_4169D889CEA3446CB5FAA08FD60AA0D0">マニフェストファイル。 </li> 
-    </ul> <p>各データファイルは以下のような書式の名前で配信されます。 </p> 
-    <code>&lt; index&gt;-&lt; report_ suite&gt;_&lt; YYYY- mm- dd&gt;.&lt;compression_suffix&gt;
-    </code> <p> <code>&lt;index&gt;</code> の部分はファイル数 <i>n</i> 個の場合に <i>1</i> から <i>n</i> まで順に大きくなるファイルインデックス、<code>&lt;compression_suffix&gt;</code> の部分は <code>tar.gz</code> または <code>zip</code> です。 </p> <p>圧縮解除すると、各データファイルには約 2 GB の非圧縮データが含まれる 1 つの <span class="filepath">hit_data.tsv</span> ファイルと、前述の圧縮参照ファイルが含まれています。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 時間別、単一ファイル </td> 
-   <td colname="col2"> <p>1 時間分のデータが収集された後、以下の内容が配信されます。 </p> 
-    <ul id="ul_29B06981A4F74D2AA1171D733C5FB1F4"> 
-     <li id="li_072BBC4BA9B84C61B4E8EFA35F54707B">単一のデータファイル。 </li> 
-     <li id="li_E2D05E9DAE814309B6BC91798BB29FBB">マニフェストファイル。 </li> 
-    </ul> <p>データファイルは以下のような書式の名前で配信されます。 </p> 
-    <code>&lt; report_ suite&gt;_&lt; YYYY- mm- dd&gt;-&lt; HHMMSS&gt;.&lt;compression_suffix&gt;
-    </code> <p> <code>&lt;compression_suffix&gt;</code> の部分は <code>tar.gz</code> または <code>zip</code> です。 </p> <p>圧縮解除すると、データファイルには、その 1 時間の全データが含まれる 1 つの <span class="filepath">hit_data.tsv</span> ファイルが含まれています。その日の最初の 1 時間のデータの場合のみ、前述の圧縮参照ファイルが一緒に配信されます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 時間別、複数ファイル </td> 
-   <td colname="col2"> <p>1 時間分のデータが収集された後、以下の内容が配信されます。 </p> 
-    <ul id="ul_A739BA12B66547A28BA45E0B9B747B16"> 
-     <li id="li_C0DF059D1E6843C8A38E24CA1B59D99C">1 個または複数の圧縮データファイル。2 GB ごとのチャンクに分割されています。 </li> 
-     <li id="li_604266DA9B8A4000905C44C95DA65D14">マニフェストファイル。 </li> 
-    </ul> <p>各データファイルは以下のような書式の名前で配信されます。 </p> 
-    <code>&lt; index&gt;-&lt; report_ suite&gt;_&lt; YYYY- mm- dd&gt;-&lt; HHMMSS&gt;. tsv.&lt;compression_suffix&gt;
-    </code> <p><code>&lt;index&gt;</code> の部分はファイル数 <i>n</i> 個の場合に <i>1</i> から <i>n</i> まで順に大きくなるファイルインデックス、<code>&lt;compression_suffix&gt;</code> の部分は <code>gz</code> または <code>zip</code> です。 </p> <p>圧縮解除すると、各データファイルには約 2 GB の非圧縮データが含まれる 1 つの <span class="filepath">hit_data.tsv</span> ファイルが含まれています。その日の最初の 1 時間のデータの場合のみ、前述の圧縮参照ファイルが一緒に配信されます。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+`[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
+抽出すると、その日のすべてのデータを含む1つの `hit_data.tsv` ファイルと、必要な列の参照ファイルがデータファイルに格納されます。
+
+### 毎日、複数のファイル
+
+1日分のデータが収集された後、1つ以上の圧縮データファイルとマニフェストファイルを受け取ります。 データファイルの名前は次のとおりです。
+
+`[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
+
+抽出すると、各データファイルには約2 GBの非圧縮 `hit_data.tsv` データと、必要な列の参照ファイルが含まれる1つのファイルが含まれます。
+
+### 時間別、単一ファイル
+
+1時間分のデータが収集された後、1つの圧縮データファイルとマニフェストファイルを受け取ります。 データファイルの名前は次のとおりです。
+
+`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+
+抽出すると、データファイルには、その時間のすべてのデ `hit_data.tsv` ータを含む単一のファイルと、必要な列の参照ファイルが含まれます。
+
+### 時間別、複数ファイル
+
+1時間分のデータが収集された後、1つ以上の圧縮データファイルとマニフェストファイルを受け取ります。 データファイルの名前は次のとおりです。
+
+`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+
+抽出すると、各データファイルには約2 GBの非圧縮 `hit_data.tsv` データと、必要な列の参照ファイルが含まれる1つのファイルが含まれます。
+
+## データファイルサイズ
+
+ヒットデータのファイルサイズは、アクティブに使用される変数の数や、レポートスイートに送信されるトラフィックの量に応じて大きく異なります。 ただし、データ 1 行の平均は約 500 B（圧縮時）または 2 KB（非圧縮時）です。これにサーバーコールの数を掛けると、データフィードファイルの大きさに関する概算値が得られます。 組織がデータフィードファイルの受信を開始すると、行数を合計ファイルサイズで割ることで、より正確な数 `hit_data.tsv` を見つけることができます。
