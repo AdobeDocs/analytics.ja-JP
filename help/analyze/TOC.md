@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 分析ガイド
 user-guide-url: /content/help/ja-JP/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
 
 ---
 
@@ -261,7 +261,6 @@ source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
    + [Activity Map の設定](activity-map/activitymap-overlay-settings.md)
    + [Activity Map ユーザーインターフェイス](activity-map/activitymap-user-interface.md)
    + [Analytics の Activity Map レポート](activity-map/activitymap-reporting-analytics.md)
-   + [AEM Sites と Activity Map の統合](activity-map/aem-sites-integration.md)
    + [ブラウザー拡張のトラブルシューティング](activity-map/troubleshooting-browser-extensions.md)
    + [情報リソース](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
