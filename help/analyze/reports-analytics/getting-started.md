@@ -8,7 +8,7 @@ title: Reports and Analytics の概要
 topic: Reports & Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
+source-git-commit: cc76128ac4aad2a78a70e84cadf0198d18809498
 
 ---
 
@@ -51,7 +51,7 @@ Reports &amp; Analytics インターフェイスにログインするための�
 
 ## Reports &amp; Analyticsへのログイン
 
-インターフェイスにアクセスする前に、アカウントマネージャーまたはカスタマーケアと協力して会社のアカウントを設定してください。
+インターフェイスにアクセスする前に、担当のアカウントマネージャーまたはアドビカスタマーケアに相談して、会社のアカウントを設定します。
 
 ## Experience cloudを使用したログイン
 
