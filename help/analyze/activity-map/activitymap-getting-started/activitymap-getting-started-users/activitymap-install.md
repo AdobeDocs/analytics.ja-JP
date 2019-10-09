@@ -1,18 +1,18 @@
 ---
 description: インストールプロセスは、使用しているブラウザーによって異なります。
 seo-description: インストールプロセスは、使用しているブラウザーによって異なります。
-seo-title: Activity Mapブラウザープラグインのインストール
+seo-title: Activity Map ブラウザープラグインのインストール
 solution: Analytics
-title: Activity Mapブラウザープラグインのインストール
+title: Activity Map ブラウザープラグインのインストール
 topic: Activity Map
-uuid: b5c07718- e25c-4ba9-885d-3a2a47dd9f60
+uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: eabc2e89336b2417d727aa59ba4c9c882c9599d1
 
 ---
 
 
-# Install Activity Map browser plug-ins{#install-activity-map-browser-plug-ins}
+# Activity Map ブラウザープラグインのインストール{#install-activity-map-browser-plug-ins}
 
 インストールプロセスは、使用しているブラウザーによって異なります。
 
@@ -27,7 +27,7 @@ Activity Map ブラウザープラグインには次の特徴があります。
 
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}
 
-1. **[!UICONTROL Adobe Analytics]** / **[!UICONTROL ツール]** / **[!UICONTROL Activity Mapに移動]**&#x200B;します。 ![](assets/install_am.png)
+1. **[!UICONTROL Adobe Analytics]** /ツール/ **** Activity Mapに移 **[!UICONTROL 動します]**。  ![](assets/install_am.png)
 
 1. Click **[!UICONTROL Download Activity Map]**.
 1. Click **[!UICONTROL Install the Activity Map Plug-in]**.
@@ -36,11 +36,11 @@ Activity Map ブラウザープラグインには次の特徴があります。
 1. Return to Chrome's address bar and enter `chrome://extensions`.
 1. 「デベロッパーモード」ボックスをチェックします。
 1. 「パッケージ化されていない拡張機能を読み込む」をクリックして、解凍したフォルダーをポップアップから選択します。
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. You can now [launch Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) from your page.
+1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
 
 ## Install Activity Map plug-in on Firefox {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL Activity Mapに移動]**&#x200B;します。
+1. **[!UICONTROL Analytics]** / **[!UICONTROL Activity mapに移動します]**。
 
 1. Click **[!UICONTROL Download Activity Map]**.
 1. Click **[!UICONTROL Install the Activity Map Plug-in]**.
@@ -50,23 +50,23 @@ Activity Map ブラウザープラグインには次の特徴があります。
 1. Click the **[!UICONTROL Open Menu]** icon at the top right and select **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
 
 1. Firefox アドオンの 1 つとして Activity Map が表示されます。
-1. Adobe Analytics アイコン ![ がツールバーに追加されていれば、ダウンロードは成功しています。](assets/an_icon.png)You can now [launch Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) from your page.
+1. Adobe Analytics アイコン ![ がツールバーに追加されていれば、ダウンロードは成功しています。](assets/an_icon.png)Activity Map [](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)をページから起動できるようになりました。
 
 ## Install Activity Map plug-in on Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL Activity Mapに移動]**&#x200B;します。
+1. **[!UICONTROL Analytics]** / **[!UICONTROL Activity mapに移動します]**。
 
 1. Click **[!UICONTROL Download Activity Map]**.
 1. Click **[!UICONTROL Install the Activity Map Plug-in]**.
 1. 「**[!UICONTROL 実行]」をクリックして Activity Map のインストールを開始します。**
 1. ポップアップで「**[!UICONTROL はい]」をクリックして、プログラムによるコンピューターへの変更を許可します。**
 1. インストールウィザードの指示に従います。
-1. Activity Map が正常にインストールされている場合は、Activity Map ツールバーの使用準備ができていることを伝える通知が Internet Explorer に表示されます。有効にしてアプリケーションの使用を開始します。You can now [launch Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) from your page.
+1. Activity Map が正常にインストールされている場合は、Activity Map ツールバーの使用準備ができていることを伝える通知が Internet Explorer に表示されます。有効にしてアプリケーションの使用を開始します。Activity Map [](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)をページから起動できるようになりました。
 
 ## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL Activity Mapに移動]**&#x200B;します。
+1. **[!UICONTROL Analytics]** / **[!UICONTROL Activity mapに移動します]**。
 
-1. Navigate to <https://safari-extensions.apple.com/>.
+1. に移動しま <https://safari-extensions.apple.com/>す。
 1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. You can now [launch Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8) from your page.
+1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. Activity Map [](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)をページから起動できるようになりました。
