@@ -7,7 +7,7 @@ title: Activity Map ブラウザープラグインのインストール
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: eabc2e89336b2417d727aa59ba4c9c882c9599d1
+source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
 
 ---
 
@@ -50,7 +50,7 @@ Activity Map ブラウザープラグインには次の特徴があります。
 1. Click the **[!UICONTROL Open Menu]** icon at the top right and select **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
 
 1. Firefox アドオンの 1 つとして Activity Map が表示されます。
-1. Adobe Analytics アイコン ![ がツールバーに追加されていれば、ダウンロードは成功しています。](assets/an_icon.png)Activity Map [](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)をページから起動できるようになりました。
+1. Adobe Analytics アイコン ![ がツールバーに追加されていれば、ダウンロードは成功しています。](assets/an_icon.png)これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
 
 ## Install Activity Map plug-in on Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 
@@ -61,7 +61,7 @@ Activity Map ブラウザープラグインには次の特徴があります。
 1. 「**[!UICONTROL 実行]」をクリックして Activity Map のインストールを開始します。**
 1. ポップアップで「**[!UICONTROL はい]」をクリックして、プログラムによるコンピューターへの変更を許可します。**
 1. インストールウィザードの指示に従います。
-1. Activity Map が正常にインストールされている場合は、Activity Map ツールバーの使用準備ができていることを伝える通知が Internet Explorer に表示されます。有効にしてアプリケーションの使用を開始します。Activity Map [](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)をページから起動できるようになりました。
+1. Activity Map が正常にインストールされている場合は、Activity Map ツールバーの使用準備ができていることを伝える通知が Internet Explorer に表示されます。有効にしてアプリケーションの使用を開始します。これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
 
 ## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
 
@@ -69,4 +69,4 @@ Activity Map ブラウザープラグインには次の特徴があります。
 
 1. に移動しま <https://safari-extensions.apple.com/>す。
 1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. Activity Map [](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)をページから起動できるようになりました。
+1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
