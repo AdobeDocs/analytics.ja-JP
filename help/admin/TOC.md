@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 user-guide-url: /content/help/ja-JP/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
+source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
 
 ---
 
@@ -49,6 +49,7 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [発行ウィジェット](admin/publishing-widgets-admin.md)
    + [設定マネージャー](admin/preferences-manager.md)
    + [プライバシー設定](admin/privacy-settings.md)
+   + [プライバシー設定](admin/privacy-reporting.md)
    + 処理ルール {#processing-rules}
       + [処理ルールの概要](admin/c-processing-rules/processing-rules.md)
       + 処理ルールの設定 {#processing-rules-configuration}
@@ -160,18 +161,20 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [電子メールユーザー](user-management2/t-email-users.md)
 + データガバナンス {#data-governance}
    + [Adobe Analytics と GDPR](c-data-governance/an-gdpr-overview.md)
+   + [Adobe AnalyticsとCCPA](c-data-governance/an-ccpa-overview.md)
    + [よくある質問](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics GDPR ワークフロー](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analyticsデータプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
    + [レポートスイートのデータガバナンス設定の表示／管理](c-data-governance/gdpr-view-settings.md)
    + [レポートスイートのデータのラベル設定](c-data-governance/gdpr-setup-reportsuite.md)
    + [アクセス要求および削除要求の送信](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics 変数用の GDPR ラベル](c-data-governance/gdpr-labels.md)
+   + [Analytics変数のデータプライバシーラベル](c-data-governance/gdpr-labels.md)
    + [名前空間](c-data-governance/gdpr-namespaces.md)
    + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
    + [ラベル設定に関するベストプラクティス](c-data-governance/gdpr-analytics-ids.md)
    + [ラベル設定の例](c-data-governance/gdpr-labeling-example.md)
-   + [GDPR と Data Connectors（Genesis）](c-data-governance/data-connectors-gdpr.md)
-   + [GDPR 関連の用語](c-data-governance/gdpr-terminology.md)
+   + [Data Privacy and Data Connectors(Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [データプライバシーの用語](c-data-governance/gdpr-terminology.md)
+   + [同意管理変数](c-data-governance/consent-variables.md)
 + サーバーコールの使用状況 {#server-call-usage}
    + [サーバーコールの使用状況の概要](c-server-call-usage/overage-overview.md)
    + [現在のサーバーコールの使用状況の表示](c-server-call-usage/server-call-usage-dashboard.md)
