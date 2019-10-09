@@ -7,7 +7,7 @@ title: Activity Map ブラウザープラグインのインストール
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
+source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
 
 ---
 
@@ -22,7 +22,7 @@ Activity Map ブラウザープラグインには次の特徴があります。
 * ブラウザーのツールバーでボタンまたはメニュー項目によって起動します。
 * Internet Explorer、Firefox、Chrome および Safari の最新バージョンとのみ互換性があります。
 * **[!UICONTROL ログイン情報を記憶]機能をサポートします。**
-* Analytics ページコードを含まない Web ページに Activity Map ツールバーを挿入&#x200B;**できます**。ページに Analytics ページコードが含まれていない場合は、エラーメッセージを表示します。
+* Analytics ページコードを含まない Web ページに Activity Map ツールバーを挿入&#x200B;****&#x200B;できます。ページに Analytics ページコードが含まれていない場合は、エラーメッセージを表示します。
 * ブラウザープラグインのインストールプロセスを実行する必要があります。
 
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}
