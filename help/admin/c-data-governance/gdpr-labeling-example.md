@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: ラベル設定の例
 title: ラベル設定の例
-uuid: a9a5b937- dbde-4f0f- a171-005ef4c79df9
+uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -20,9 +20,9 @@ source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
 * 2 番目の行は変数の名前である。ID ラベルがある場合は、割り当てられた名前空間が括弧内に含まれている。
 * ヒットデータは 3 番目の行から開始する。
 
-| ラベル | I2<br>ID- PersonOr<br>- PERSOACC<br>- PERPEN | I2<br>ID- DeviceEL<br>- DeviceACC<br>- ALL | I2<br>KR- PERSOACC<br>- PERPEE | I2<br>K- DeviceEL<br>- PersonACC<br>- ALL | I2<br>ID- DeviceEL<br>- DeviceACC<br>- ALL |
+| ラベル | I2<br>ID-<br>PERSONDEL-<br>PERSONACC-PERSON | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL | I2<br>DEL-<br>PERSONACC-PERSON | I2<br>DEL-<br>DEVICEDEL-<br>PERSONACC-ALL | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL |
 |---|---|---|---|---|---|
-| **Variable Name**<br>**（Namespace）** | **myProp1**<br>**（ユーザー）** | **訪問者ID**<br>**（AID）** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**（xyz）** |
+| **Variable Name**<br>**(Namespace)** | **MyProp1**<br>**(user)** | **訪問者ID**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**（xyz）** |
 | ヒットデータ | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -36,7 +36,7 @@ source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
 
 アクセス要求を送信する場合、概要ファイルには、以下の表に示された値が含まれます。要求は、デバイスファイルファイルのみ、ユーザーファイルのみまたはどちらか 1 つを返す可能性があります。2 つの概要ファイルは、ユーザー ID が使用され、expandIDs が true の場合にのみ返されます。
 
-| API の値 | API の値 | 返されるファイルタイプ | <br>サマリアクセスファイルのデータ | <br>サマリアクセスファイルのデータ | <br>サマリアクセスファイルのデータ | <br>サマリアクセスファイルのデータ | <br>サマリアクセスファイルのデータ |
+| API の値 | API の値 | 返されるファイルタイプ | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File | Data in <br>Summary Access File |
 |--- |--- |--- |---|---|---|---|---|
 | **名前空間／ID** | **expandIDs** |  | **MyProp1** | **訪問者 ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | デバイス | 変数が存在しない | 77 | 変数が存在しない | M、P | X、W |
@@ -58,39 +58,39 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | GDPR-7398 | GDPR-9152 |
+| Mary | 42 | A | プライバシー —7398 | プライバシー —9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
-| John | 42 | D | GDPR-1866 | GDPR-8216 |
+| John | 42 | D | プライバシー —1866 | プライバシー —8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] AID=77を含む行のセルのみ、およびK- DEVICEラベルが影響を受けます。
+>[!NOTE] AAID = 77およびDEL-DEVICEラベルを含む行のセルのみが影響を受けます。
 
-| user= maryExpandids<br>= false | user= maryExpandids<br>= false | user= maryExpandids<br>= false | user= maryExpandids<br>= false | user= maryExpandids<br>= false |
+| user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false | user=<br>MaryexpandIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
-| GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | Y |
-| GDPR-0523 | 99 | GDPR-9045 | GDPR-2864 | Z |
+| プライバシー —0523 | 77 | プライバシー —1866 | プライバシー —3681 | X |
+| プライバシー —0523 | 88 | プライバシー —2178 | プライバシー —1975 | はい |
+| プライバシー —0523 | 99 | Privacy-9045 | プライバシー —2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] user= MaryとKR- PERTESSラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar で、その置き換える値は、数値を異なるランダムな数値で置き換えるのではなく、「GDPR-」で始まり、乱数（GUID）が続く文字列です。
+>[!NOTE] user=MaryとDEL-PERSONラベルを含む行のセルのみが影響を受けます。 また、実際には、A_IDを含む変数はpropまたはeVarで、その置換値は「プライバシー — 」で始まり、次に乱数(GUID)が続く文字列になり、数値を別の乱数値に置き換えるのではなくなります。
 
-| user=Mary<br>expandIDs=true | user= maryExpandids<br>= true | user= maryExpandids<br>= true | user= maryExpandids<br>= true | user= maryExpandids<br>= true |
+| user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true | user=<br>MaryexpandIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
-| GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
-| GDPR-5782 | 83 | GDPR-2714 | GDPR-0219 | GDPR-4395 |
-| John | 09 | D | GDPR-8454 | GDPR-8216 |
-| John | 16 | E | GDPR-2911 | GDPR-2930 |
+| プライバシー —5782 | 09 | プライバシー —0859 | プライバシー —8183 | プライバシー —9152 |
+| プライバシー —5782 | 16 | プライバシー —6104 | プライバシー —2911 | プライバシー —6821 |
+| プライバシー —5782 | 83 | プライバシー —2714 | プライバシー —0219 | Privacy-4395 |
+| John | 09 | D | Privacy-8454 | プライバシー —8216 |
+| John | 16 | E | プライバシー —2911 | プライバシー —2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
