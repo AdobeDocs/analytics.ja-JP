@@ -1,26 +1,26 @@
 ---
 description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
 seo-description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
-seo-title: GDPR と Data Connectors（Genesis）
-title: GDPR と Data Connectors（Genesis）
-uuid: d3a32c09- d3c5-452c-8302-8da28e62ead3
+seo-title: Data Privacy and Data Connectors(Genesis)
+title: Data Privacy and Data Connectors(Genesis)
+uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 ---
 
 
-# GDPR と Data Connectors（Genesis）
+# Data Privacy and Data Connectors(Genesis)
 
 このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
 
-この情報により、GDPR 要求を受信する際に、アドビのコネクタを使用して読み込まれた、個人を直接的または間接的に特定できるデータを識別できます。
+この情報を使用すると、直接識別可能なデータや、コネクタを介してインポートされた間接的に識別可能なデータを、データプライバシーリクエストを受け取ったときに識別できます。
 
 次のいずれかのコネクタの統合を使用している場合、統合のどのパートナー変数／分類が潜在的に個人を直接的または間接的に特定できるデータを含んでいる可能性があるかを簡単にチェックできます。
 
 >[!NOTE]
 >
->This information is provided to help you identify variables that must be [labeled](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [GDPR readiness](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) (updating classifications, etc.).
+>この情報は、ラベルを付ける必要がある変数を特定するのに役立ちますが [、データコントローラーとして、適切なラベルを適用したり、](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731)Data Privacy Readiness [](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) （分類の更新など）の他のアクションを実行する必要があります。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Alset</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>CheetahMail</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>eDialog Precision Central</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exact Target</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -150,12 +150,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -184,17 +184,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>ThinData EMS</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>WhatCounts Email</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Yesmail Enterprise</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪問者 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
