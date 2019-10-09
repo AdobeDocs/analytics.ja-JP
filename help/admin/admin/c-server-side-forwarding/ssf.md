@@ -4,9 +4,9 @@ seo-description: サーバー側転送は、Analytics のデータを他の Expe
 seo-title: サーバー側転送の概要
 solution: Audience Manager
 title: サーバー側転送の概要
-uuid: 22ddbde5-6805-4aba-8f82-62772644daa
+uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
 
 ---
 
@@ -17,33 +17,33 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 以下の点でデータ収集時のサーバー側転送が改善されました。
 
-* ページからの呼び出し回数が減ります。With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. 呼び出し回数が減ることはページの読み込み時間の改善につながり、サイトのカスタマーエクスペリエンスが向上します。
+* ページからの呼び出し回数が減ります。With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. DILを削除するとは、呼び出しを削除するこ `"/event"` とです。 呼び出し回数が減ることはページの読み込み時間の改善につながり、サイトのカスタマーエクスペリエンスが向上します。
 * Experience Cloud ソリューション間でデータ共有を利用できます。
 * Audience Manager コードの実装と導入に関するアドビのベストプラクティスに準拠します。
 
 >[!TIP]
 >
->Analyticsを使用する現在のAudience Managerユーザーは、サーバー側転送に移行する必要があります。Adobe Analytics と Audience Manager の新しいお客様は、デフォルトのデータ収集および転送方法として（DIL ではなく）サーバー側転送を実装する必要があります。
+>Analyticsを使用するAudience Managerの現在のお客様は、サーバー側転送に移行する必要があります。 Adobe Analytics と Audience Manager の新しいお客様は、デフォルトのデータ収集および転送方法として（DIL ではなく）サーバー側転送を実装する必要があります。
 
 >[!IMPORTANT]
 >EU Cookie コンプライアンス規定により、データ管理者（Analytics のお客様）には、同意前のデータを Adobe Analytics に限定して、Adobe Audience Manager（AAM）にサーバー側転送しないようにするオプションが追加されました。新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。この変数を設定すると、同意を受け取るまで、これらのヒットは AAM に送信されません。詳しくは、GDPR_ePrivacy コンプライアンスおよびサーバー側転送を参照してください。
 
 サーバー側転送の実装状況を確認するには、以下の検証ステップを実行してください。
 
-## ![ステップ1_ icon. png画像](assets/step1_icon.png) の検証MIDサービスの実装
+## ![step1_icon.png image MIDサービス実装の確認](assets/step1_icon.png)
 
 [Analytics トラッキングリクエスト](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html)を調べて、Experience Cloud ID（MID）サービスが実装されているかどうかを確認します。
 
-「リクエスト」タブで、MID 値が設定されていることを確認します。これは、IDサービスが正しく実装されていることを示します。これは、サーバー側転送の前提条件です。
+「リクエスト」タブで、MID 値が設定されていることを確認します。これにより、IDサービスが正しく実装され、サーバ側転送の前提条件となることがわかります。
 
 * MID 値が表示されている場合は、手順 2 に進みます。
 * If you do not see a MID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
 
-## ![ステップ2_ icon. png画像](assets/step2_icon.png) :サーバー側転送の実装バージョンの確認
+## ![step2_icon.png imageサーバー側転送実装バージョン](assets/step2_icon.png) の確認
 
-Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](../../../admin/admin/c-server-side-forwarding/ssf-verify.md).
+Analyticsトラッキングリクエストを調べて、サーバー側転送が既に実装されている [かどうかを確認します](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)。
 
-「応答」タブで、応答に Audience Manager データが含まれているかどうかを確認します。以下が表示されます。
+「応答」タブで、応答に Audience Manager データが含まれているかどうかを確認します。表示される場合：
 
 * **Audience Manager からの JSON 応答に「postbacks」や「dcs_region」などの項目が含まれている場合**：何らかの形のサーバー側転送が既に有効になっています。手順 3 に進みます。
 * **"status":"SUCCESS"**：Audience Management モジュールが実装されていますが、サーバー側転送が適切に設定されていません。手順 3 に進みます。
@@ -56,13 +56,13 @@ Verify whether you already have a version of server-side forwarding implemented,
    * **AAM の新しいお客様** - Audience [Management モジュール](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html)ページのコードをインストールし、手順 3 に進みます。手順 3 でサーバー側転送を有効にするまでは、データは Audience Manager に送信されません。
 
 
-## ![手順3_ icon. png画像](assets/step3_icon.png) :レポートスイートのサーバー側転送実装の確認
+## ![step3_icon.png imageレポートスイートの](assets/step3_icon.png) 、サーバ側転送の実装を確認する
 
 従来のトラッキングサーバーアプローチではなく、サーバー側転送がレポートスイートレベルで実装されているかどうかを確認します。
 
 レポートスイートレベルでのサーバー側転送は、Analytics から共有するデータをより細かく制御できるので、従来のトラッキングサーバーアプローチよりも推奨されます。これは Audience Analytics 統合の前提条件でもあります。
 
-**Analytics** / **管理者** / **レポートスイート** /（レポートスイートを選択 ****）/設定 **を編集** / **一般** / **サーバー側転送**&#x200B;に移動します。このチェックボックスが
+**Analytics** /管理者 **/レポートスイート/** （レポートスイートを選択）/レポート設定/一般/一般 **/** サーバー側転送サーバー側転送 ****************/ このチェックボックスが
 
 * **非アクティブ**&#x200B;の場合（項目を選択できないか、メニューが存在しない場合）：選択されているレポートスイートは IMS Org にマップされていません。[レポートスイートマッピング UI](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html) を使用して、該当するレポートスイートを適切な IMS Org にマップしてください。
 * **オフ**&#x200B;の場合：新しいサーバー側転送は有効になっていません。ページのコンテンツを読んで、機能を有効にしてください。
