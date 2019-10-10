@@ -3,8 +3,8 @@ description: 'null'
 seo-description: 'null'
 seo-title: GDPR 関連の用語
 title: GDPR 関連の用語
-uuid: a3e44f08-6f9c-4b23-874c-51c6e4（9af9）
-translation-type: tm+mt
+uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
