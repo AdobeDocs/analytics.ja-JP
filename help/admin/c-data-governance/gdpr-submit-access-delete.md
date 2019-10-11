@@ -5,7 +5,7 @@ seo-title: アクセス要求および削除要求の送信
 title: アクセス要求および削除要求の送信
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 各ファイルですべてのレポートスイートのデータが結合され、レプリケートされたヒットの余分なコピーは自動的に削除されます。お客様は、これらのファイルのうちどれをデータ主体に返すかを決めることができます。例えば、これらのデータの一部を抽出し、他のシステムのデータと組み合わせてからデータ主体に返すことができます。
 
-## 要求の送信 {#section_F70F4D91B7FF4242876338A66D2125C3}
+## 要求の送信 {#submit-requests}
 
 データプライバシーアクセスを送信したり、データプライバシーUIポータルを通じ [てリクエストを削除したり](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) 、データプライバシーAPI [を通じてリクエストを送信できます。](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
@@ -122,12 +122,12 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 データ管理者であるお客様のアクセス要求に対して返されるデータには、お客様が所有する各アドビ製品のディレクトリを含む、ZIP ファイルをダウンロードできる URL が含まれます。Analytics フォルダー内には、次のいずれかまたは両方のファイルが含まれています。
 
-* Personファイル — 一致したID-PERSONラベルを含むヒットから派生
+* ユーザーファイル – 一致した ID-PERSON ラベルを含むヒットを基に作成されます。
 
    * 一致するヒットごとの行と、ACC-ALL または ACC-PERSON ラベルを含むフィールドごとの列で構成される CSV ファイル。タイムスタンプを基準とした並び順になっています。
    * ACC-ALL または ACC-PERSON ラベルごとのエントリで構成される HTML 概要ファイル。各エントリには、そのフィールドのすべての一意の値と、それぞれの値が発生した回数がリストされます。タイムスタンプを含むフィールドは、一意の日付のみを指定するために丸められます。
 
-* デバイスファイル — 指定したID-DEVICEに一致するフィールドの1つが指定したID-PERSONに一致しないヒットから派生します。
+* デバイスファイル – いずれかのフィールドが指定した ID-DEVICE に一致したが、指定した ID-PERSON には一致しなかったヒットから派生します。
 
    * 一致するヒットごとの行と、ACC-ALL ラベルを含むフィールドごとの列で構成される CSV ファイル。タイムスタンプを基準とした並び順になっています。
    * ACC-ALL ラベルごとのエントリで構成される HTML 概要ファイル。各エントリには、そのフィールドのすべての一意の値と、それぞれの値が発生した回数がリストされます。タイムスタンプを含むフィールドは、一意の日付のみを指定するために丸められます。
