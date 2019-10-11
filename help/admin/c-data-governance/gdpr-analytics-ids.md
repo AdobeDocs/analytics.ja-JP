@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: ラベル設定に関するベストプラクティス
 title: ラベル設定に関するベストプラクティス
-uuid: d1e9bff-9b04-4e3e-9b4e-a6e527b1b2e3
+uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 >[!NOTE]
 >
->新しいレポートスイートが作成されるたび、または既存のレポートスイート内で新しい変数が有効になるたびに、ラベル付けを確認する必要があります。 また、新しいソリューション統合が有効になると、ラベル設定が必要になる可能性のある新しい変数を公開できるので、ラベル設定を確認する必要があります。モバイルアプリまたは Web サイトを再実装すると、既存の変数の使用方法が変わる可能性があり、これにより、ラベルを更新する必要が生じる可能性があります。
+>ラベル設定は、新しいレポートスイートが作成されるたびに、または既存のレポートスイート内で新しい変数を有効にする際に、確認する必要があります。また、新しいソリューション統合が有効になると、ラベル設定が必要になる可能性のある新しい変数を公開できるので、ラベル設定を確認する必要があります。モバイルアプリまたは Web サイトを再実装すると、既存の変数の使用方法が変わる可能性があり、これにより、ラベルを更新する必要が生じる可能性があります。
 
 ## 個人を直接的に特定できる ID と間接的に特定できる ID {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -23,7 +23,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 * **個人を直接的に特定できる ID（I1）**：個人の名前を示す ID や、個人に直接連絡できる手段となる ID。例えば、人の名前（同じ名前が何百人もいる可能性がある、John Smith のようなよくある名前も含む）や電子メールアドレス、電話番号が該当します。名前を含まない電子メールアドレスは、特定できるのが世帯または企業のみで、その中のどの個人かは特定できない場合でも、個人を直接的に特定できる ID と見なされることがあります。
 * **個人を間接的に特定できる ID（I2）**：単独では個人を特定することはできないものの、他の情報（お客様が所有しているものとそうでないものを含む）と組み合わせることで個人を特定できる ID。例えば、顧客のロイヤルティ番号や、企業の CRM システムで使用される顧客ごとの一意の ID などが該当します。「データのプライバシー」では、Analyticsが使用する追跡cookieに保存された匿名IDは、個人ではなくデバイスのみを識別できる場合でも、間接的に識別されていると見なされる場合があります。共有デバイスでは、これらのcookieはシステムの異なるユーザーを区別できません。 例えば、Cookie を使用して、その Cookie を持つコンピューターを検索することはできませんが、ユーザーがコンピューターにアクセスして Cookie を見つけた場合は、Analytics の Cookie データをそのコンピューターに関連付けることができます。
 
-   IP アドレスも個人を間接的に特定できる ID と見なされます。これは、特定の時点で単一デバイスのみに割り当てられる場合があるからです。ただし、ISP が多くのユーザーの IP アドレスを変更することがよくあるので、時間が経つと、ある IP アドレスが ISP のすべてのユーザーに使用されていた可能性があるというケースも出てきます。また、ISP の多くのユーザーや、企業の同一イントラネット上の複数の従業員が同じ外部 IP アドレスを共有することも稀ではありません。Because of this, Adobe will not support using an IP address as the ID for a [Data Privacy request.](../../admin/c-data-governance/gdpr-submit-access-delete.md#concept_0941C076F76641FF8BF865C7C1CB916B)ただし、アドビが許可している ID が削除要求で使用されていた場合は、アドビはその ID に伴って発生した IP アドレスも削除します。収集するIDがI1またはI2のカテゴリに該当するが、データプライバシーリクエストの識別IDとして使用するのには適さない他のIDが存在するかどうかを判断する必要があります。
+   IP アドレスも個人を間接的に特定できる ID と見なされます。これは、特定の時点で単一デバイスのみに割り当てられる場合があるからです。ただし、ISP が多くのユーザーの IP アドレスを変更することがよくあるので、時間が経つと、ある IP アドレスが ISP のすべてのユーザーに使用されていた可能性があるというケースも出てきます。また、ISP の多くのユーザーや、企業の同一イントラネット上の複数の従業員が同じ外部 IP アドレスを共有することも稀ではありません。Because of this, Adobe will not support using an IP address as the ID for a [Data Privacy request.](../../admin/c-data-governance/gdpr-submit-access-delete.md#submit-requests)ただし、アドビが許可している ID が削除要求で使用されていた場合は、アドビはその ID に伴って発生した IP アドレスも削除します。収集するIDがI1またはI2のカテゴリに該当するが、データプライバシーリクエストの識別IDとして使用するのには適さない他のIDが存在するかどうかを判断する必要があります。
 
 会社がAnalyticsデータ内で様々なIDを収集する場合でも、これらのIDのサブセットのみをデータプライバシーリクエストに使用するよう選択できます。 その主な理由は次のとおりです。
 
@@ -48,9 +48,9 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
    <td colname="col1"> <p>Cookie ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external">（従来の）Analytics Cookie</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> IDサービ </a> スcookie(ECID)。旧称Marketing Cloud ID(MCID) </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">ID サービスの Cookie</a>（ECID）：旧 Marketing Cloud ID（MCID） </li> 
     </ul> </td> 
-   <td colname="col2"> <p>この Cookie ではデバイスが識別されます。より具体的には、特定のデバイスのユーザーが使用しているブラウザーが識別されます。共通のログイン情報を使用する共有デバイスの場合は、この ID はデバイスのすべてのユーザーに適用される可能性があります。Adobe has created some <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> unified JavaScript </a> that you can place on your website to collect these cookies if you want to allow them to be used for Data Privacy requests. </p> <p>Adobe Analytics のモバイル SDK のユーザーも Experience Cloud ID（ECID）を持っています。このIDを読み取るAPI呼び出しがSDK内に存在するので、アプリを拡張してデータプライバシーリクエスト用に収集できます。 </p> <p>多くの企業では、ブラウザーの Cookie ID は共有デバイス ID と考えられています。その結果、法務チームとの相談の際に、データプライバシーリクエストに使用できる有効なIDとして使用しないか、IDを使用する場合は非常に限られた量のデータを返すか、削除リクエストに対してのみ許可するかを選択できます。 </p> <p>これらの Cookie には、変更できない ID-DEVICE ラベルが設定されています（I2 および DEL-DEVICE ラベルも設定されています）。Adobe Analytics のデフォルト設定では、デバイスに関する一般的な情報（デバイスのタイプ、OS、ブラウザーなど）と、Web サイトにこれらの ID を使用する訪問があった日時のみが返されます。ただし、以下で説明するように、データプライバシーリクエストに対してこれらのIDをサポートする場合は、ACC-ALLラベルを追加または削除して、データプライバシーアクセスリクエストに返すフィールドの正確なセットを設定できます。 </p> <p>特に、レポートスイートがモバイルアプリに対応しており、モバイルアプリでログインが必要な場合は、デバイスの Experience Cloud ID が特定のユーザーに一致するので、訪問されたページの名前や閲覧された製品など、より多くのフィールドに ACC-ALL ラベルを設定するケースもあります。 </p> <p>注意： データプライバシーリクエストで「expandIds」オプションを指定した場合、リクエストには、指定した他のIDに加えて、常にCookie IDが含まれます。 詳しくは、<a href="../../admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913" format="dita" scope="local">ID 拡張</a>を参照してください。そうした場合、Cookie ID のみを持ち、他の ID を持たないヒットは、アクセス要求の一部として ACC-ALL のラベルが設定されたデータのみを返します。 </p> </td> 
+   <td colname="col2"> <p>この Cookie ではデバイスが識別されます。より具体的には、特定のデバイスのユーザーが使用しているブラウザーが識別されます。共通のログイン情報を使用する共有デバイスの場合は、この ID はデバイスのすべてのユーザーに適用される可能性があります。Adobe has created some <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> unified JavaScript </a> that you can place on your website to collect these cookies if you want to allow them to be used for Data Privacy requests. </p> <p>Adobe Analytics のモバイル SDK のユーザーも Experience Cloud ID（ECID）を持っています。このIDを読み取るAPI呼び出しがSDK内に存在するので、アプリを拡張してデータプライバシーリクエスト用に収集できます。 </p> <p>多くの企業では、ブラウザーの Cookie ID は共有デバイス ID と考えられています。その結果、法務チームとの相談の際に、データプライバシーリクエストに使用できる有効なIDとして使用しないか、IDを使用する場合は非常に限られた量のデータを返すか、削除リクエストに対してのみ許可するかを選択できます。 </p> <p>これらの Cookie には、変更できない ID-DEVICE ラベルが設定されています（I2 および DEL-DEVICE ラベルも設定されています）。Adobe Analytics のデフォルト設定では、デバイスに関する一般的な情報（デバイスのタイプ、OS、ブラウザーなど）と、Web サイトにこれらの ID を使用する訪問があった日時のみが返されます。ただし、以下で説明するように、データプライバシーリクエストに対してこれらのIDをサポートする場合は、ACC-ALLラベルを追加または削除して、データプライバシーアクセスリクエストに返すフィールドの正確なセットを設定できます。 </p> <p>特に、レポートスイートがモバイルアプリに対応しており、モバイルアプリでログインが必要な場合は、デバイスの Experience Cloud ID が特定のユーザーに一致するので、訪問されたページの名前や閲覧された製品など、より多くのフィールドに ACC-ALL ラベルを設定するケースもあります。 </p> <p>注意： データプライバシーリクエストで「expandIds」オプションを指定した場合、リクエストには、指定した他のIDに加えて、常にCookie IDが含まれます。 詳しくは、<a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 拡張</a>を参照してください。そうした場合、Cookie ID のみを持ち、他の ID を持たないヒットは、アクセス要求の一部として ACC-ALL のラベルが設定されたデータのみを返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタム変数の ID </p> </td> 
@@ -72,7 +72,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 >[!NOTE]
 >
->propは常に大文字と小文字が区別されません。 eVar もデフォルトでは大文字と小文字が区別されませんが、アドビカスタマーケア経由で区別するように変更できます。IDを含む大文字と小文字の区別があるeVarの場合は、データプライバシーリクエストを送信する際に、リクエストで使用される大文字と小文字が一致するように、適切な大文字と小文字を区別する必要があります。
+>prop は常に大文字と小文字が区別されません。eVar もデフォルトでは大文字と小文字が区別されませんが、アドビカスタマーケア経由で区別するように変更できます。IDを含む大文字と小文字の区別があるeVarの場合は、データプライバシーリクエストを送信する際に、リクエストで使用される大文字と小文字が一致するように、適切な大文字と小文字を区別する必要があります。
 
 削除ラベルの DEL-DEVICE および DEL-PERSON は、慎重に使用してください。データプライバシーリクエストの一部として使用されたIDを含まない変数に適用した場合、Analytics履歴レポートのカウント（指標）はほとんど常に変更されます。
 
