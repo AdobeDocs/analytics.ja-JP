@@ -5,7 +5,7 @@ seo-title: Analytics変数のデータプライバシーラベル
 title: Analytics変数のデータプライバシーラベル
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 計測データのプライバシー性と契約上の制限に従ってデータをラベルで分類するためのツールを提供開始します。ラベルは、（1）データ主体の識別、（2）アクセス要求に対応するデータの特定、（3）削除要求に対して削除する必要があるデータフィールドの識別をおこなう場合に重要かつ有用です。
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 Adobe Analyticsのデータプライバシー実装では、IDデータ、機密データおよびデータガバナンスに関して、次のラベルをサポートしています。
 
@@ -26,7 +26,7 @@ Adobe Analyticsのデータプライバシー実装では、IDデータ、機密
 
 >[!NOTE]
 >
->Data Usage Labeling &amp; Enforcement(DULE)フレームワークは、Adobe Solutions/Services/Platformsのすべてにわたって、Adobe Experience cloud全体のデータに関するメタデータを取得、通信、使用する一貫した方法を提供するように設計されています。 データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。この最初のリリースでは、Analyticsは、データのプライバシーに関連するDULEラベルのみを公開します。 他のアドビ製品が DULE ラベルのサポートを実装するのに伴い、将来のリリースでは、追加の機密データラベルに加えて契約のラベルが導入されます。これは、製品間で共有されたデータが法的に許容される方法でのみ使用されることを保証するのに役立ちます。
+>Data Usage Labeling &amp; Enforcement（DULE）フレームワークは、アドビのすべてのソリューション／サービス／プラットフォームにまたがり、共通の方法で Adobe Experience Cloud 全体のデータに関するメタデータを取得、伝達、利用できるようにすることを目的としています。データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。この最初のリリースでは、Analyticsは、データのプライバシーに関連するDULEラベルのみを公開します。 他のアドビ製品が DULE ラベルのサポートを実装するのに伴い、将来のリリースでは、追加の機密データラベルに加えて契約のラベルが導入されます。これは、製品間で共有されたデータが法的に許容される方法でのみ使用されることを保証するのに役立ちます。
 
 ## 識別データラベル（DULE） {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
 
@@ -85,7 +85,7 @@ Adobe Analyticsのデータプライバシー実装では、IDデータ、機密
  </tbody> 
 </table>
 
-## データガバナンスラベル（データプライバシー） {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## データガバナンスラベル（データプライバシー） {#data-governance-labels}
 
 データガバナンスラベルを使用すると、規制や企業のポリシーに準拠するためにプライバシー関連の注意事項や契約条件を反映したデータを分類できます。
 
@@ -212,8 +212,8 @@ Adobe Analyticsのデータプライバシー実装では、IDデータ、機密
 
 以前、ログイン会社の任意のレポートスイートの他の変数に ID ラベルを割り当てている場合、これらの既存の名前空間の 1 つを選択できます。名前空間で既にラベル付けされている他の変数と同じタイプの ID がこの変数に含まれている場合、また要求を送信する際に、それらの ID をすべて検索する必要がある場合、その名前空間を再利用してください。
 
-1. 「**[!UICONTROL 名前空間を選択]」をクリックして、既存の名前空間の 1 つを選択します。**
-1. Click **[!UICONTROL Apply]**.
+1. 「**[!UICONTROL 名前空間を選択]**」をクリックして、既存の名前空間の 1 つを選択します。
+1. 「**[!UICONTROL 適用]**」をクリックします。
 
 ![](assets/namespace.png)
 
@@ -221,12 +221,12 @@ Adobe Analyticsのデータプライバシー実装では、IDデータ、機密
 
 また、新しい名前空間を定義することもできます。名前空間文字列は、英数字、アンダースコア、ダッシュおよびスペースに制限することをお勧めします。すべて小文字に変換されます。
 
-1. 「**[!UICONTROL 名前空間を選択]」をクリックして、名前空間のタイトルを入力します。**
+1. 「**[!UICONTROL 名前空間を選択]**」をクリックして、名前空間のタイトルを入力します。
 
    ![](assets/namespace2.png)
 
-1. **[!UICONTROL Enter]キーを押してこの名前空間を追加します。**&#x200B;これで「適用」ボタンがアクティブになります。
-1. Click **[!UICONTROL Apply]**.
+1. **[!UICONTROL Enter]** キーを押してこの名前空間を追加します。これで「適用」ボタンがアクティブになります。
+1. 「**[!UICONTROL 適用]**」をクリックします。
 
 名前空間として指定する文字列は、データプライバシーAPIを介して要求を送信する場合に、「namespace」パラメーターの値として使用する必要がある文字列と同じです。 この要求により、Adobe Analytics は、要求で指定した ID について、この名前空間を共有するすべてのレポートスイートのすべての変数を検索します。
 
@@ -244,7 +244,7 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
 
 別の例として、eVar1 を使用して送信されることも、prop7 を使用して送信されることもある CRM ID があるとします。また、eVar1 から eVar3（存在する場合）に値をコピーする処理ルールがあります。そうでない場合は、prop7 から eVar3 に値をコピーします。このシナリオでは、CRM ID がわかっている場合、必ずそれが eVar3 に格納されるので、ID-PERSON ラベルが必要なのは eVar3 のみとなります。
 
-> [!CAUTION] 名前空間「visitorId」と「customVisitorId」は、Analyticsの従来の追跡cookieとAnalyticsの顧客訪問者IDを識別するために予約されています。 これらの名前空間は、カスタムトラフィックやコンバージョン変数には使用しないでください。
+> [!CAUTION] 名前空間「visitorId」と「customVisitorId」は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
 
 ## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -335,7 +335,7 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
    <td colname="col1"> <p>データ処理ディメンション </p> </td> 
    <td colname="col2"> <p>カスタム訪問者 ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE／ID-PERSON </p> <p>DEL-DEVICE／DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>IDラベルまたはDELラベル（「なし」に設定）は削除できませんが、カスタムID実装に応じて、DEVICEまたはPERSONのいずれかのバリアントに変更できます。 </p> <p>カスタム訪問者IDを使用しない場合、設定は関係ありません。 </p> </td> 
+   <td colname="col4"> <p>ID または DEL ラベルを削除（なしに設定）することはできませんが、カスタム ID 実装に応じて、DEVICE バリアントまたは PERSON バリアントに変更できます。 </p> <p>カスタム訪問者IDを使用しない場合、設定は関係ありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -434,11 +434,11 @@ Adobe Analyticsでのデータプライバシー削除リクエストのサポ�
   </tr> 
   <tr> 
    <td colname="col1"> <p>訪問者 ID </p> <p>MCID／ECID </p> </td> 
-   <td colname="col2"> <p> これらには DEL-DEVICE ラベルが設定されていますが、DEL-PERSON ラベルを追加することはできません。各要求で<a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local"> ID 拡張</a>を指定した場合、ID-PERSON を使用している要求も含め、すべての削除要求に対して、これらの ID が自動的に削除されます。 </p> <p>ID 拡張を使用しないが、一致する ID が prop または eVar に含まれているヒットでこれらの Cookie ID を匿名化したい場合は、実際にユーザーを特定できる場合でも、prop または eVar に ID-DEVICE ラベルを設定することで、このラベル設定の制限を回避できます（すべての DEL-PERSON ラベルを DEL-DEVICE ラベルに変更する必要があります）。この場合、訪問者 ID または ECID の一部のインスタンスのみが匿名化されるので、履歴レポートでは個別訪問者数が変更されます。 </p> </td> 
+   <td colname="col2"> <p> これらには DEL-DEVICE ラベルが設定されていますが、DEL-PERSON ラベルを追加することはできません。各要求で<a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> ID 拡張</a>を指定した場合、ID-PERSON を使用している要求も含め、すべての削除要求に対して、これらの ID が自動的に削除されます。 </p> <p>ID 拡張を使用しないが、一致する ID が prop または eVar に含まれているヒットでこれらの Cookie ID を匿名化したい場合は、実際にユーザーを特定できる場合でも、prop または eVar に ID-DEVICE ラベルを設定することで、このラベル設定の制限を回避できます（すべての DEL-PERSON ラベルを DEL-DEVICE ラベルに変更する必要があります）。この場合、訪問者 ID または ECID の一部のインスタンスのみが匿名化されるので、履歴レポートでは個別訪問者数が変更されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p> Adobe Advertising Cloud IDは、変更不可能なDEL-DEVICEラベルを持つソリューション変数です。 これは、訪問者 ID や MCID と同様に、Cookie から値が入力されます。これは、他の ID が削除されるたびに、ヒットから削除される必要があります。詳細については、それらの変数の説明を参照してください。 </p> </td> 
+   <td colname="col2"> <p> Adobe Advertising Cloud ID は、変更不能な DEL-DEVICE ラベルが設定されたソリューション変数です。これは、訪問者 ID や MCID と同様に、Cookie から値が入力されます。これは、他の ID が削除されるたびに、ヒットから削除される必要があります。詳細については、それらの変数の説明を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
