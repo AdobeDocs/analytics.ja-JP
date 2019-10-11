@@ -6,7 +6,7 @@ solution: Analytics
 title: 同意管理変数
 topic: 管理ツール
 translation-type: tm+mt
-source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
+source-git-commit: a272be92292f3a12be19a5d6fd061b32a565448c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 # 同意管理変数
 
 プライバシーデータの管理に関する追加の支援を提供するために、一連の予約済み変数を特定のコンテキストデータ変数と組み合わせて使用できます。
-これらの同意管理変数は、各分析ヒットの同意ステータスを捕捉するための使いやすいフレームワークを提供します。
+これらの同意管理変数は、各分析ヒットの同意ステータスを取得するための使いやすいフレームワークです。
 
 ## 変数
 
@@ -35,15 +35,15 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 
 ## レポート
 
-同意管理変数は、Analytics管理コンソール内の新しいプライバシー設定を使用して有効にできます。
+Analytics管理コンソール内で利用可能な新しいプライバシー設定を使用して、同意管理変数を有効にできます。
 
 各レポートスイートは、次のように設定できます。
-1. Reports &amp; Analyticsで、管理者/レポートスイートの順にクリックします。
-1. Select the report suite(s) where you are collecting media data and click [!UICONTROL Edit Settings &gt; Privacy Management]
+1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
+1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings &gt; Privacy Management.]**
 
    ![](assets/rsm-privacy-select.png)
 
-1. 「データプライバシー [!UICONTROL レポートを有効にする] 」ボタンをクリックします。  注：有効化した後で、これらの変数をオフにすることはできません。
+1. 「データプライバシー **[!UICONTROL レポートを有効にする]** 」ボタンをクリックします。 **** 注意：一旦有効にすると、これらの変数はオフにできません。
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -63,21 +63,21 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 
 ### SSF
 
-* コンテキストデータ：`contextData.['cm.ssf']`
+* コンテキストデータ：contextData。['cm.ssf']
 * 指定可能な値：
-   * `1`  — 値を送信するときに、サ `1`ーバー側転送がオプトアウト状態にあることを示します。 この変数と `1` 対になる値は、Adobe Audience Managerとのこのヒットの共有をブロックします。 AAM ePrivacy Complianceを参 [照してください。](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
-   * このパラメーターには他の値は使用できません
+   * 1 — 値「1」を送信する場合、これはサーバー側転送がオプトアウト状態であることを示します。 この変数と対になる値「1」は、Adobe Audience Managerとのこのヒットの共有をブロックします。 AAM ePrivacy Complianceを参 [照してください。](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * このパラメーターには、他の値は使用できません。
 
 ### DMP
 
-* コンテキストデータ：`contextData.['opt.dmp']`
+* コンテキストデータ：contextData。['opt.dmp']
 * 指定可能な値：
-   * `N`  — 値を送信するとき、こ `N`れは、コンシューマーがデータ管理プラットフォームへの共有をオプトアウトしていることを示します。 AAMへの現在のブロック共有は行われません。  その機能にはSSFを使用します。
-   * `Y`  — 値を送信する際に、コンシューマ `Y`ーがデータ管理プラットフォームへの共有をオプトインしていることを示します。
+   * N — 値「N」を送信する場合、コンシューマーがデータ管理プラットフォームへの共有をオプトアウトしていることを示します。 **** 注意：この変数を「N」に設定しても、現在AAMへの共有はブロックされませんが、AAM機能の呼び出しをブロックする機能は、2020年の初めに追加される予定です。 現在のところ、AAMにヒットが送信され `c.cm.ssf=1` るのをブ `c.opt.dmp=N` ロックするように、との両方を設定することをお勧めします。
+   * Y — 値「Y」を送信すると、コンシューマーがデータ管理プラットフォームへの共有を選択していることを示します。
 
 ### 販売
 
-* コンテキストデータ：`contextData.['opt.sell']`
+* コンテキストデータ：contextData。['opt.sell']
 * 指定可能な値：
-   * `N` ・価値を送信する際に、 `N`消費者がデータの共有や販売を第三者にオプトアウトしていることを示す。
-   * `Y` ・価値を送信する際に、 `Y`消費者がデータの共有や第三者への販売を選択していることを示す。
+   * N — 値「N」を送信する場合、消費者がデータの共有または販売を第三者にオプトアウトしていることを示します。
+   * Y — 値「Y」を送信する場合、消費者がデータの共有または第三者への販売を選択していることを示します。
