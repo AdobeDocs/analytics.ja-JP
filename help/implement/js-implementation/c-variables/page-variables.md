@@ -7,9 +7,9 @@ solution: Analytics
 subtopic: 変数
 title: ページ変数
 topic: 開発者と実装
-uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
+uuid: 2578edd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -30,7 +30,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>この変数は読み取り専用で、設定しないでください。
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -69,7 +69,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>この変数は読み取り専用で、設定しないでください。
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -129,9 +129,9 @@ There are two main ways to populate the *`campaign`* variable:
 
 * [!UICONTROL getQueryParam] プラグインを JavaScript ファイル内で使用して、URL からクエリ文字列パラメーターを取得します。[!UICONTROL getQueryParam] プラグインについて詳しくは、 [導入プラグイン](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-* Assign a value to the  variable in the HTML on the Web page.*`campaign`*
+* Webページ上のHTML *`campaign`* 内の変数に値を割り当てます。
 
-With either method of populating the  variable, the Back button traffic may inflate the actual number of click-throughs from a campaign element.*`campaign`*
+どちらの方法でも、「戻る」ボタン *`campaign`* のトラフィックによって、キャンペーン要素からの実際のクリックスルー数が水増しされる場合があります。
 
 例えば、ある訪問者が有料検索キーワードをクリックしてサイトに訪問したとします。この訪問者がランディングページに到達したとき、URL にはそのキーワードのトラッキングコードを識別するクエリ文字列パラメーターが含まれます。次に、この訪問者が別のページへのリンクをクリックした後、すぐに「戻る」ボタンをクリックしてランディングページに戻ったとします。この場合、この訪問者がランディングページに 2 回目に到達したとき、クエリ文字列パラメーターを含む URL によって、トラッキングコードが再び識別されます。この 2 回目のクリックスルーが登録されるので、クリックスルー数が誤って水増しされます。
 
@@ -312,9 +312,9 @@ eVar を訪問者に対して設定すると、その値が期限切れになる
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
-| 255 バイト | V1-v75 ( or v100 or v250)[](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28) | カスタムコンバージョン | "" |
+| 255 バイト | V1 ～ v75(ま [たはv100またはv250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | カスタムコンバージョン | "" |
 
-**Expiration** {#section_6DB5882B960D4660AE248B91B76883C4}
+**有効期限**{#section_6DB5882B960D4660AE248B91B76883C4}
 
 [!UICONTROL eVar] は、指定した期間が過ぎると有効期限切れになります。eVar の有効期限が切れた後は、成功イベントのクレジットを受け取らなくなります。eVar は、成功イベントの発生時に有効期限切れになるように設定することもできます。例えば、訪問の最後に有効期限切れになる内部プロモーションがある場合、その内部プロモーションは、アクティブ化された訪問中におこなわれた購入または登録に関するクレジットのみを受け取ります。
 
@@ -323,7 +323,7 @@ eVar を有効期限切れにする方法は以下の 2 つです。
 * 指定した期間またはイベントの後に有効期限切れになるように eVar を設定できます。
 * eVar の有効期限切れを強制的に適用することができます。これは、変数を再利用する場合に便利です。
 
-If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. これにより、内部プロモーションの値を 6 月のレポートから除外できます。
+5月にeVarを使用して内部プロモーションを反映し、21日後に期限切れになり、6月に内部検索キーワードを取り込んだ場合、6月1日に変数の有効期限を強制的に切る（リセットする）必要があります。 これにより、内部プロモーションの値を 6 月のレポートから除外できます。
 
 **大文字と小文字の区別** {#section_6E9145B7FCC2438E95BB35AAE3857412}
 
@@ -359,7 +359,7 @@ s.eVar23="internal spring promo 4"
 
 **設定** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
 
-eVars can be configured in Analytics &gt; Admin &gt; Report Suites &gt; Edit Settings &gt; Conversion &gt; Conversion Variables. すべての eVar は、[!UICONTROL 名前]、[!UICONTROL タイプ]、[!UICONTROL 配分]、[!UICONTROL 有効期限]設定または[!UICONTROL リセット]を使用して設定できます。それぞれの設定は個別に指定します。
+eVarは、 [!UICONTROL Analytics/管理者/レポートスイート/設定を編集/コンバージョン/コンバージョン変数で設定できます]。 すべての eVar は、[!UICONTROL 名前]、[!UICONTROL タイプ]、[!UICONTROL 配分]、[!UICONTROL 有効期限]設定または[!UICONTROL リセット]を使用して設定できます。それぞれの設定は個別に指定します。
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -578,7 +578,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>この変数は読み取り専用で、設定しないでください。
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -600,7 +600,7 @@ javaEnabled.xml
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>この変数は読み取り専用で、設定しないでください。
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -831,7 +831,7 @@ listN.xml
 
 Adobe ClientCare の関与なく Admin Console の設定にアクセスし、更新できます。
 
-1. Go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
+1. **[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポ]** ートス **[!UICONTROL イートに移動]**
 1. レポートスイートを選択します。
 1. Click  **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL List Variables]** .
 
@@ -840,7 +840,7 @@ Adobe ClientCare の関与なく Admin Console の設定にアクセスし、更
 
    >[!NOTE]
    >
-   >Multi-byte characters are not supported as delimiters in List Vars. 区切り文字は 1 バイト文字にする必要があります。
+   >リスト変数では、マルチバイト文字の区切り文字はサポートされていません。 区切り文字は 1 バイト文字にする必要があります。
 
 * **有効期限**：eVar の有効期限と同様に、リスト Var とコンバージョンイベントとの間で関連付けが生じるまでの経過時間の上限を指定します。
 
@@ -988,7 +988,7 @@ mediaLength.xml
 
 **構文と可能な値** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** autoTrackメソッド：**
+**autoTrack メソッド：**
 
 [!UICONTROL s.Media.autoTrack] を使用する場合、[!UICONTROL mediaLength] 変数を明示的に導入する必要はありません。この変数は、JavaScript 版 AppMeasurement コードによって自動的に判別されます。
 
@@ -1548,7 +1548,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>この変数は読み取り専用で、設定しないでください。
 
 これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
 
@@ -1580,7 +1580,7 @@ products.xml
 
 The *`products`* variable tracks how users interact with products on your site. 例えば、products 変数を使用して、製品の表示、買い物かごへの追加、チェックアウトおよび購入の各回数を追跡できます。サイトでのマーチャンダイジングカテゴリの相対的効果を追跡することもできます。products 変数を使用する場合は、次のようなシナリオが一般的です。
 
-The *`products`* 変数は、必ず成功イベントと組み合わせて設定する必要があります。
+Folio Builder *`products`* 変数は、必ず成功イベントと組み合わせて設定する必要があります。
 
 <table id="table_D5A11AFDDD364D0993D387906343DDF3"> 
  <thead> 
@@ -1616,7 +1616,7 @@ The *`products`* 変数は、必ず成功イベントと組み合わせて設定
 | イベント | 指定された製品に関連付けられる通貨イベント。詳しくは、[製品固有の通貨イベント](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)および[注文全体にわたる通貨イベント](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)を参照してください。 |
 | eVars | 特定の製品に関連付けられるマーチャンダイジング eVar 値[マーチャンダイジング変数](/help/components/c-variables/c-merch-variables/var-merchandising.md)を参照してください。 |
 
-The values included in the *`products`* 変数に含まれる値は、記録しているイベントの種類に基づきます。Category を省略するときは、プレースホルダーとしてカテゴリと製品の区切り文字（;）が必要です。含めるパラメーターを区別する必要がある場合に限り、他の区切り文字が必要です。
+Folio Builderに&#x200B;*`products`* 変数に含まれる値は、記録しているイベントの種類に基づきます。Category を省略するときは、プレースホルダーとしてカテゴリと製品の区切り文字（;）が必要です。含めるパラメーターを区別する必要がある場合に限り、他の区切り文字が必要です。
 
 **購入以外のイベントによる products 変数の設定** {#section_D5E689D4AAE941EC851CA9B98328A4DE}
 
@@ -1806,7 +1806,7 @@ referrer.xml
 |---|---|---|---|
 | 255 バイト | R | トラフィック／検索方法、コンバージョン／検索方法 | document.referrer |
 
-多くの企業では、Web サイト内の多数の場所でリダイレクトを使用します。例えば、訪問者を検索エンジンの有料検索結果からのリダイレクト経由で送信します。ブラウザーがリダイレクトされると、リファラーは多くの場合失われます。The 変数は、 *`referrer`* リダイレクト後に最初のページの元 *`referrer`* の値を復元するために使用できます。 The *`referrer`* may be populated server-side, or via JavaScript from the query string.
+多くの企業では、Web サイト内の多数の場所でリダイレクトを使用します。例えば、訪問者を検索エンジンの有料検索結果からのリダイレクト経由で送信します。ブラウザーがリダイレクトされると、リファラーは多くの場合失われます。Folio Builder 変数は、 *`referrer`* リダイレクト後に最初のページの元 *`referrer`* の値を復元するために使用できます。 The *`referrer`* may be populated server-side, or via JavaScript from the query string.
 
 Analytics でリファラーを記録するには、リファラーが「整形式」であることが必要です。つまり、標準の URL 形式に従っており、プロトコルと適切な場所を含んでいる必要があります。
 
@@ -2282,7 +2282,7 @@ None
 
 ## zip {#concept_C1DF93083553410DA36EAB61FBFDF69A}
 
-The  and  variables are conversion variables.
+変数と変数はコンバージョン変数です。
 
 <!-- 
 
@@ -2290,13 +2290,13 @@ zip.xml
 
  -->
 
-これらの変数は、イベントを取り込む点で eVar と同様ですが、eVar とは異なり永続的ではありません。The *`zip`* and *`state`* variables are like eVars that expire immediately.
+これらの変数は、イベントを取り込む点で eVar と同様ですが、eVar とは異なり永続的ではありません。Folio Builder *`zip`* and *`state`* variables are like eVars that expire immediately.
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 50 バイト | zip | コンバージョン／訪問者プロファイル／郵便番号 | "" |
 
-Since the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. For example, if you are using *`zip`* to compare conversion rates by Zip Code, you should populate *`zip`* on every page of the checkout process. アドビでは、郵便番号のソースとして請求先住所を使用することを推奨します。代わりに、配送先住所を選択することもできます（注文の配送先住所が 1 つだけである場合）。メディアサイトでは、登録および広告クリックスルートラッキングのために、 *`zip`* and *`state`* for registration or ad click-through tracking.
+次に *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. For example, if you are using *`zip`* to compare conversion rates by Zip Code, you should populate *`zip`* on every page of the checkout process. アドビでは、郵便番号のソースとして請求先住所を使用することを推奨します。代わりに、配送先住所を選択することもできます（注文の配送先住所が 1 つだけである場合）。メディアサイトでは、登録および広告クリックスルートラッキングのために、 *`zip`* and *`state`* for registration or ad click-through tracking.
 
 **構文と可能な値** {#section_5EDCFCAC8FC241D1B4CC777996858CD7}
 
