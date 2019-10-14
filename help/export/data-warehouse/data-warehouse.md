@@ -1,18 +1,18 @@
 ---
 description: Data warehouse は、保存用およびデータをフィルタリングして実行できるカスタムレポート用の、Analytics データのコピーを参照します。ユーザー独自の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできます。Data warehouse レポートは、電子メールまたは FTP 経由で送信できます。処理のために最大で 72 時間かかります。処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
 seo-description: Data warehouse は、保存用およびデータをフィルタリングして実行できるカスタムレポート用の、Analytics データのコピーを参照します。ユーザー独自の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできます。Data warehouse レポートは、電子メールまたは FTP 経由で送信できます。処理のために最大で 72 時間かかります。処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
-seo-title: Data Warehouseの概要
+seo-title: Data Warehouse の概要
 solution: Analytics
-title: Data Warehouseの概要
+title: Data Warehouse の概要
 topic: Data Warehouse
-uuid: 768557dd-1644-4ce6- bfc2-8c46dd6e1cd1
+uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Data Warehouseの概要
+# Data Warehouse の概要
 
 Data Warehouse は、保存用およびカスタムレポート用の Analytics データのコピーを参照し、データをフィルタリングして実行できます。ユーザー独自の質問に基づいて生のデータから詳細なデータの関連性を表示するように、レポートにリクエストできます。Data warehouse レポートは、電子メールまたは FTP 経由で送信できます。処理のために最大で 72 時間かかります。処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
 
@@ -24,11 +24,11 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
 
 >[!NOTE]
 >
->Data Warehouseは、レポート期間中に最初に検出された値をレポートします。
+>Data Warehouseは、レポート期間中に最初に発生した値をレポートします。
 
 >[!IMPORTANT]
 >
->分類された値にセグメント化する場合、Analysis WorkspaceとData Warehouseは「未指定」の値を扱います。Workspace では、「未指定」は分類されていない値を表し、Data Warehouse では「未指定」はユーザーが「未指定」に分類した値を表します。
+>分類された値に対してセグメントを設定する場合、Analysis WorkspaceとData Warehouseでは「未指定」の値の処理方法が異なります。 Workspace では、「未指定」は分類されていない値を表し、Data Warehouse では「未指定」はユーザーが「未指定」に分類した値を表します。
 
 ## Data Warehouse リクエストの説明 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -57,7 +57,7 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 選択可能なセグメント</span> </td> 
-   <td colname="col2"> <p>調査対象の訪問者のみを選択し、複合セグメントを生成できます。事前に設定されたセグメントを読み込んだり、新しいセグメントを作成したり、またセグメントのコンポーネントを他のセグメント構築時に使用するためライブラリに保存することが可能です。 </p> <p>セグメントのスタックが可能になりました。複数のセグメントを選択するときには、プレビュー領域、リクエストマネージャー、リクエストの詳細のポップアップに、カンマ区切りの名前のリスト（「Segment1, Segment2」など）が表示されます。 </p> <p>詳細については、[セグメント化ガイド]（/help/components/c- segmentation/seg- home. md）を参照してください。 </p> <p>注意：同じ Data Warehouse レポート内の同一のセグメントに、セグメントフィルターと分類の両方を含めることはできません。これはエラーの原因となります。 </p> </td> 
+   <td colname="col2"> <p>調査対象の訪問者のみを選択し、複合セグメントを生成できます。事前に設定されたセグメントを読み込んだり、新しいセグメントを作成したり、またセグメントのコンポーネントを他のセグメント構築時に使用するためライブラリに保存することが可能です。 </p> <p>セグメントのスタックが可能になりました。複数のセグメントを選択するときには、プレビュー領域、リクエストマネージャー、リクエストの詳細のポップアップに、カンマ区切りの名前のリスト（「Segment1, Segment2」など）が表示されます。 </p> <p>詳しくは、<a href="/help/components/c-segmentation/seg-home.md"> セグメントガイド</a>を参照してください。 </p> <p>注意：同じ Data Warehouse レポート内の同一のセグメントに、セグメントフィルターと分類の両方を含めることはできません。これはエラーの原因となります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 分類</span> </td> 
@@ -69,7 +69,7 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 指標の並べ替え</span> </td> 
-   <td colname="col2">Reports &amp; Analytics ユーザーインターフェイス、Data Workbench などに表示されるレポートのような、指標値を降順で並べ替えたランク分類レポートを提供します。<a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local">詳細情報...</a> </td> 
+   <td colname="col2">Reports &amp; Analytics ユーザーインターフェイス、Data Workbench などに表示されるレポートのような、指標値を降順で並べ替えたランク分類レポートを提供します。<a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> さらに詳しく...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 配信の予定</span> </td> 
