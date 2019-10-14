@@ -7,7 +7,7 @@ title: Report Builder のアップグレード
 topic: Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -37,13 +37,13 @@ Report Builder のアップグレードに関する手順と考慮事項です�
 
    ![](assets/upgrade.png)
 
-1. If a new version is available, click **[!UICONTROL Update...]**. ボタンには、更新後のバージョンが、「バージョン 5.0.50 に更新」のように表示されます。
+1. **[!UICONTROL 新しいバージョンが利用可能な場合は、「更新…」]**&#x200B;をクリックします。. ボタンには、更新後のバージョンが、「バージョン 5.0.50 に更新」のように表示されます。
 
    >[!NOTE]
    >
-   >このボタンが灰色表示の場合、Report Builderの新しいバージョンは使用できません。
+   >このボタンがグレー表示の場合は、新しいバージョンのReport Builderは使用できません。
 
-1. Optionally select the **[!UICONTROL Update when a new version is available]**checkbox. 将来新しいバージョンが利用可能になったときに、更新プロセスが自動的に開始されます。
+1. オプションとして、「**[!UICONTROL 新しいバージョンが利用可能な場合に更新]」チェックボックスを選択すると、**&#x200B;将来新しいバージョンが利用可能になったときに、更新プロセスが自動的に開始されます。
 1. When the setup screen appears, click **[!UICONTROL Next &gt;]**.
 
    ![](assets/setup.png)
