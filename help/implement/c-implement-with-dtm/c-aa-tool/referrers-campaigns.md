@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: リファラーとキャンペーン
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,11 +28,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody> 
   <tr> 
    <td colname="col1"> リファラーの上書き </td> 
-   <td colname="col2"> <p>ブラウザーに設定されたリファラーではなく、 <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>[Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ブラウザーに設定されたリファラーではなく、 <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>「ページ <a href="/help/implement/js-implementation/c-variables/page-variables.md">変数」を参照</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> キャンペーン </td> 
-   <td colname="col2"> <p>訪問者をサイトに誘導するために使用されるマーケティングキャンペーンを識別する変数です。通常、キャンペーンの値は、クエリ文字列パラメーターから取得します。 </p> <p>[Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)を参照してください。 </p> </td> 
+   <td colname="col2"> <p>訪問者をサイトに誘導するために使用されるマーケティングキャンペーンを識別する変数です。通常、キャンペーンの値は、クエリ文字列パラメーターから取得します。 </p> <p>[ページ変<a href="/help/implement/js-implementation/c-variables/page-variables.md">数</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
