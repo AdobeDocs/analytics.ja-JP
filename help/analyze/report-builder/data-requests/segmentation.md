@@ -5,9 +5,9 @@ seo-title: セグメントの管理
 solution: Analytics
 title: セグメントの管理
 topic: Report Builder
-uuid: 4e4edc39- ed93-498f-913d-7b231b10e7a0
+uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
 
 Report Builder で Adobe Analytics のセグメントを追加、編集、適用およびフィルターする方法について説明します。
 
-Report Builder のリクエストウィザードのステップ 1 にセグメント化パネルが追加されました。このパネルでは、次のことを実行できます。セグメントの作成と管理を参照してください。
+Report Builder のリクエストウィザードのステップ 1 にセグメント化パネルが追加されました。このパネルでは、次のことを実行できます。 セグメントの作成と管理を行います。
 
 ![](assets/seg_dialog.png)
 
@@ -24,7 +24,7 @@ Report Builder のリクエストウィザードのステップ 1 にセグメ�
 
 >[!NOTE]
 >
->Report Builderのセグメントのインターフェイスを追加または編集するには、Microsoft Internet ExplorerウィンドウでAnalyticsセグメントビルダーを起動します。Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
+>セグメントを追加または編集するには、Report BuilderのセグメントインターフェイスでMicrosoft Internet ExplorerウィンドウのAnalyticsのセグメントビルダーを起動します。 Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
 1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは[https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) を参照してください。
@@ -33,7 +33,7 @@ Report Builder のリクエストウィザードのステップ 1 にセグメ�
 
 >[!IMPORTANT]
 >
->このリストはキャッシュされ、更新しない限り新しく作成したセグメントは表示されません。
+>このリストはキャッシュされ、更新しない限り、新しく作成したセグメントは表示されません。
 
 ## コンテキスト内セグメントの作成 {#section_6DD2C663B2854469AA1075438F907678}
 
@@ -57,7 +57,7 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 
 リクエストに 1 つ以上のセグメントを適用できます。これには順次セグメントも含まれます。
 
-1. **[!UICONTROL 「セグメント」]** ドロップダウンリストに移動し、「[!UICONTROL セグメント]を選択**"ボックスの小さい下矢印をクリックして、すべてのセグメントを表示します。
+1. 「**[!UICONTROL セグメント]**」ドロップダウンリストに移動し、「**セグメントを選択[!UICONTROL 」ボックス右側の小さい下矢印をクリックして、すべてのセグメントを表示します。]**
 
    ![](assets/seg_list.png)
 
@@ -65,7 +65,7 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 
 >[!NOTE]
 >
->管理者または管理者以外のユーザーの場合、Report Builderでは、自分が所有しているセグメントおよび自分が共有しているセグメントのみを表示できます。（Reports &amp; Analytics のユーザーインターフェイスでは、管理者は組織内のすべてのセグメントが表示されます）。
+>管理者である場合も管理者以外の場合も、Report Builderでは自分が所有するセグメントと自分が共有しているセグメントのみを表示できます。 （Reports &amp; Analytics のユーザーインターフェイスでは、管理者は組織内のすべてのセグメントが表示されます）。
 
 ## セグメントのフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
 
