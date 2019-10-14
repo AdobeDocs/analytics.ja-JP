@@ -1,18 +1,18 @@
 ---
 description: スプレッドシートへの項目のマッピングを開始する前に、スプレッドシートが保護されていないことを確認してください。ワークシートの保護によってユーザーの操作が妨げられると、スプレッドシートでセルを選択できなくなります。まず、シートの保護を解除してから、セルのマッピングを追加してください。
 seo-description: スプレッドシートへの項目のマッピングを開始する前に、スプレッドシートが保護されていないことを確認してください。ワークシートの保護によってユーザーの操作が妨げられると、スプレッドシートでセルを選択できなくなります。まず、シートの保護を解除してから、セルのマッピングを追加してください。
-seo-title: 指標とディメンションのセルへのマッピング
+seo-title: 指標およびディメンションのセルへのマッピング
 solution: Analytics
-title: 指標とディメンションのセルへのマッピング
+title: 指標およびディメンションのセルへのマッピング
 topic: Report Builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 指標とディメンションのセルへのマッピング
+# 指標およびディメンションのセルへのマッピング
 
 スプレッドシートへの項目のマッピングを開始する前に、スプレッドシートが保護されていないことを確認してください。ワークシートの保護によってユーザーの操作が妨げられると、スプレッドシートでセルを選択できなくなります。まず、シートの保護を解除してから、セルのマッピングを追加してください。
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 詳細は以下の節に説明されています。
 
-* [セルの範囲の選択](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [セル範囲の選択](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
 * [セル選択のテクニック](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [マッピングの問題](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
@@ -30,20 +30,18 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 [!UICONTROL リクエストウィザード：ステップ 2] で、トレンドリクエストに対して「[!UICONTROL カスタムレイアウト]」を有効にすると、セルの一定の範囲にリクエストをマッピングすることができます。
 
-**[!UICONTROL 範囲セレクター]**![select_ cell_ icon. pngをクリックします](assets/select_cell_icon.png)
+範囲セレク **[!UICONTROL ター]**![select_cell_icon.pngをクリックします。](assets/select_cell_icon.png)
 
 をクリックします。
 
-* ** All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request.
-
-* ** First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). このオプションを使用すると、Report Builder によってセルが自動的に選択されます。
-
-* **範囲の方向:**セル範囲を列または行として指定できます。
+* **範囲内のすべてのセル：**[!UICONTROL カスタムレイアウト]スタイルのリクエストに対して、セルの範囲を選択する必要があります。
+* **範囲の最初のセル：**&#x200B;範囲の左上にあたるセルを選択します。その後、「[!UICONTROL 範囲の方向]」が表示されるので、そこで入力セルと出力セル（列または行）について、縦方向または横方向を指定します。このオプションを使用すると、Report Builder によってセルが自動的に選択されます。
+* **範囲の方向：**&#x200B;列または行としてセル範囲の方向を指定します。
 * **範囲の先頭のセルを選択：**&#x200B;セル参照を表示します。
 
 ## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
 
-**[!UICONTROL 範囲選択]** アイコン ![をクリックして、データを選択します。"_ cell_ icon. png"](assets/select_cell_icon.png)
+You select the data by clicking the **[!UICONTROL Range Selection]** icon  ![select_cell_icon.png](assets/select_cell_icon.png)
 
  をクリックし、スプレッドシートで選択したいセル範囲をマウスでクリック＆ドラッグして、データを選択します。連続した選択領域が、黒の枠線で囲まれます。
 
@@ -74,6 +72,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * [!UICONTROL リクエストマネージャー]を起動し、表示される個々のリクエストをクリックします。リクエストをクリックすると、リクエストがマッピングされているスプレッドシート内のセルが強調表示されます。
 * リクエストマネージャーを起動し、新しいマッピングのために使用するセルを選択し、「[!UICONTROL シートから取得]」をクリックします。[!UICONTROL リクエストマネージャー]によって、選択されたセルと交差する出力項目があるリクエストがリスト内で選択されます。選択されるリクエストがない場合は、そのセルを使用することができます。
-
 * スプレッドシートでセルを選択し、右クリックでコンテキストメニューを表示し、「[!UICONTROL リクエストを編集]」を選択できるかどうかを確認します。選択できる場合は、そのセルに関連付けられたリクエストが存在します。
-
