@@ -1,24 +1,24 @@
 ---
 description: サーバーのすべての使用状況アラートを追加または管理できます。アラートをセットアップすると、課金会社のすべてのログイン会社におけるすべてのレポートスイートに適用されます。
 seo-description: サーバーのすべての使用状況アラートを追加または管理できます。アラートをセットアップすると、課金会社のすべてのログイン会社におけるすべてのレポートスイートに適用されます。
-seo-title: サーバーコールの使用状況アラート
-title: サーバーコールの使用状況アラート
+seo-title: サーバーコールの使用に関するアラート
+title: サーバーコールの使用に関するアラート
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# サーバーコールの使用状況アラート
+# サーバーコールの使用に関するアラート
 
 アラートをセットアップすると、課金会社のすべてのログイン会社におけるすべてのレポートスイートに適用されます。
 
 ## 概要
 
-**[!UICONTROL サーバーコールの使用状況アラート]** と呼ばれる新しいアラートカテゴリは、既存 [のアラート管理](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) ユーザーインターフェイスの一部です。
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. このアラートにより、次のいずれかの条件を満たしている場合、ログイン会社のすべての管理者に通知が送信されます。
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. このアラートは、次のいずれかの条件を満たしている場合に、すべてのログイン会社の管理者に宛てた通知をトリガーします。
 
 * 該当するあらゆるサーバーコールタイプの「あらゆる」サーバーコール使用状況が 100 ％「以上」である。
 * 該当するあらゆるサーバーコールタイプの「あらゆる」サーバーコール使用状況が 90 ％「以上」である。
@@ -43,16 +43,16 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
    ![](assets/sc_alert.png)
 
-   * **タイトル**:わかりやすい名前を指定します。名前を付けずにアラートを保存することはできません。
-   * **時間の精度**:アラートをチェックする頻度を示します。*現時点では、週 1 回の精度のみサポートしています。*&#x200B;つまり、アラートは週 1 回のペースでチェックされ、現在の使用期間のデータを振り返ります。
-   * **受信者**:アラートによって指定されたしきい値がトリガーされた場合に電子メールを受信するユーザーを指定します。
+   * **タイトル**:わかりやすい名前を指定します。 名前を付けずにアラートを保存することはできません。
+   * **時間の精度**:アラートがチェックされる頻度を示します。 *現時点では、週 1 回の精度のみサポートしています。*&#x200B;つまり、アラートは週 1 回のペースでチェックされ、現在の使用期間のデータを振り返ります。
+   * **受信者**:アラートが指定したしきい値をトリガーしたときに電子メールを受け取る必要のある組織上の任意のユーザーを指定します。
    * **有効期限**:デフォルトでは、有効期限はアラート作成日から1年です。
    * **次の場合にアラートを送信**:
 
-      * いずれかの指標のトリガー「サーバーコール数」のタイプを指標として追加し、修飾子としきい値を選択してアラートしきい値を指定します。
+      * いずれかの指標トリガーサーバー呼び出しのタイプを指標として追加し、修飾子としきい値を選択してアラートしきい値を指定します。
          * 以上
          * 以下
-      * 「使用状況期間」のしきい値と条件（以上、以上、以下）を指定します。
+      * 「使用期間」のしきい値と条件（「使用期間」の値以上、「以下」または「等しい」）を指定します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
