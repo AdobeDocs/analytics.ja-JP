@@ -1,14 +1,14 @@
 ---
 description: ページがブラウザー内でアクティブタブになっていた秒数を記録し、その値を次のページビューに関する指標に渡します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: ページがブラウザー内でアクティブタブになっていた秒数を記録し、その値を次のページビューに関する指標に渡します。
 seo-title: getPageVisibility
 solution: Analytics
 title: getPageVisibility
-topic: 開発者と導入
-uuid: 3891e2aa- d5c1-4a2b-8522- eb2bae39ea2e
+topic: 開発者と実装
+uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->これはベータ版のプラグインであり、追加のアップデートが提供される可能性があります。
+>これはベータ版のプラグインで、追加のアップデートが提供される可能性があります。
 
-This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+このプラグインにはgetVisitStartが必 [要です](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8)。
 
 このプラグインは、ページがブラウザー内にあった秒数の合計（アクティブとパッシブ両方の表示時間）も記録します。ページ表示イベントに関連付けられた前のページ名を追跡するには、getPreviousValue プラグインを使用する必要があります。これらの値を追跡すると、訪問者エンゲージメントについてより深く理解し、サイトでの訪問者の行動をより正確に追跡することができます。
 
@@ -29,7 +29,7 @@ This plug-in requires [getVisitStart](../../../implement/js-implementation/plugi
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、Analytics の使用と導入の経験がある開発者のみがおこなうようにしてください。This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+>以下の手順では、サイト上のデータ収集コードを変更する必要があります。 変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、Analytics の使用と導入の経験がある開発者のみがおこなうようにしてください。This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 ## 必要なサポートプラグイン {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -108,10 +108,10 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 * ブラウザーの制限により、ごくわずかな割合のユーザーで、ページビューデータの受け渡しがおこなわれない場合があります。また、結果的にデータがゆがめられないようにするロジックがプラグインに含まれています。なお、このプラグインは IE、Firefox、Chrome および Safari で動作することが確認されています。
 * プラグインが合計秒数を測定し、その値を前のページ名に関連付ける方法によって、ページ指標と合計秒数指標に対して費やされるデフォルトの時間が異なります。
-* [!UICONTROL 以下の指標に関連付けられた訪問者行動を要約し、把握するために、計算指標] を作成できます。
+* [!UICONTROL 計算指標は] 、次の指標に関連する訪問者の行動を要約し、把握するのに役立つように作成できます。
 
-   * **ページ表示比率**（ページ表示秒数合計/ページ秒数合計）
-   * **非表示の秒数**の合計**（ページ秒数合計-ページ表示秒数合計）
+   * **ページ表示率**（ページ表示秒数合計/ページ秒数合計）
+   * **非表示秒数合計** （ページ秒数合計 — ページ表示秒数合計）
    * **平均ページ表示秒数**（ページ表示秒数合計/ページ表示インスタンス数合計）
    * **平均ページ非表示秒数**（（ページ秒数合計 - ページ表示秒数合計）/ページ表示インスタンス数合計）
 
@@ -120,15 +120,15 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 ## よくある質問 {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-**このプラグインは追加のサーバーコールを行いますか。**
+**このプラグインは追加のサーバー呼び出しをおこないますか。**
 
 このプラグインは、後続のページビューサーバー呼び出しに対するページ表示値を記録するだけです。その際に追加のサーバー呼び出しは使用しません。
 
-**合計ページ秒数または合計ページ表示インスタンス数を取り込みたくない場合は、イベントリストからそれらを除外できますか。**
+**ページ秒数合計やページ表示インスタンス数合計を取り込みたくない場合、イベントリストからこれらを除外できますか。**
 
 はい。ページ秒数合計と表示インスタンス数合計はオプションのイベントなので、必要に応じてリストから除外することができます。
 
-**キャプチャしたイベントは、前のページ名以外のレポートで使用すると意味がありますか。**
+**取り込んだイベントを「前のページ名」以外のレポートで使用した場合、意味のある結果は得られますか。**
 
 このプラグインは後続のイメージリクエストに対する値を記録するので、「前のページ」のコンテキスト（「前のページの URL」など）で取り込まれた他の eVar のみを適用できます。
 
