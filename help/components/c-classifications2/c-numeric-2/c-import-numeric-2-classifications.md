@@ -1,19 +1,19 @@
 ---
 description: インポートおよびエクスポートファイルには、それぞれの数値 2 分類に対して 6 つの列が含まれています。
 seo-description: インポートおよびエクスポートファイルには、それぞれの数値 2 分類に対して 6 つの列が含まれています。
-seo-title: 数値2分類のインポート
+seo-title: 数値 2 分類のインポート
 solution: Analytics
-subtopic: '分類      '
-title: 数値2分類のインポート
+subtopic: Classifications
+title: 数値 2 分類のインポート
 topic: 管理ツール
-uuid: 82a3034c- e002-4991-900f-22dd45d54910
+uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 数値2分類のインポート
+# 数値 2 分類のインポート
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,15 @@ source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
 
 **~MyCost：**&#x200B;行を説明する名前。
 
-**~ MyCost^~id~:** 既存の行を編集するためのID。新しい行を追加した場合、この ID は空白です。分類マネージャーからエクスポートすると、ID が自動的に割り当てられます。
+**~～MyCost^~id**:既存の行を編集するためのID。 新しい行を追加した場合、この ID は空白です。分類マネージャーからエクスポートすると、ID が自動的に割り当てられます。
 
-**~MyCost^~value~: **The value for the row. レート（rate）列が固定値の場合、この値は期間全体で配分されるフラット値になります。レート（rate）列がイベントの場合、この値はイベントに対する乗数になります。このエントリにコンマを含めないでください。
+**~～MyCost^~value**:行の値。 レート（rate）列が固定値の場合、この値は期間全体で配分されるフラット値になります。レート（rate）列がイベントの場合、この値はイベントに対する乗数になります。このエントリにコンマを含めないでください。
 
-**~ MyCost^~period~:** この行が対応する期間。開始日と終了日をダッシュで区切って含める必要があります。ダッシュの前後には空白を挿入する必要があります。定義は、次のようにフォーマットする必要があります。
+**~～MyCost^~period**:この行が対応する期間。 開始日と終了日をダッシュで区切って含める必要があります。ダッシュの前後には空白を挿入する必要があります。定義は、次のようにフォーマットする必要があります。
 
 YYYY/MM/DD - YYYY/MM/DD
 
-**~ MyCost^~rate~:**[!UICONTROL Value] 列に乗算するイベントです。有効値は次のとおりです。
+**~～MyCost^~rate**:Value列を掛けるイベ [!UICONTROL ント] 。 有効値は次のとおりです。
 
 * fixed - 期間中のフラット値であることを示すために使用します。
 * revenue
@@ -50,4 +50,4 @@ YYYY/MM/DD - YYYY/MM/DD
 * event2
 * etc
 
-**~ MyCost^~ヒンジ~:** 分類中に値を配布するために使用するイベントです。This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none].
+**~～MyCost^~hinge**:分類中に値を配分するために使用するイベントです。 This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none].
