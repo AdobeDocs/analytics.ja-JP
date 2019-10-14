@@ -3,9 +3,9 @@ description: 新しいインテリジェントアラートシステムは、ア�
 seo-description: 新しいインテリジェントアラートシステムは、アラートに対するより詳細な制御を可能とし、異常値検出をアラートシステムと統合します。
 seo-title: インテリジェントアラート
 title: インテリジェントアラート
-uuid: ac8c9710- d245-46e9- b906-32d3bb0013c0
+uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. インテリジェントアラートを使用すると、次のことができます。
+新しいアラートビルダーとアラートマネージャーは、アドビの既存のアラート機能に置き換わりま [!DNL Analytics]す。 インテリジェントアラートを使用すると、次のことができます。
 
 * 異常値（90％、95％、99％、99.75％、99.9％のしきい値、変化率、超過／未満）に基づいてアラートを構築します。
 * アラートがトリガーされる頻度のプレビュー。
@@ -39,7 +39,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
 
    ![](assets/create-alert-from-selection.png)
 
-* [!UICONTROL Reports&amp; Analytics] レポート内から **[!UICONTROL 、その他]** /アラート **[!UICONTROL の追加に移動]** します。これにより、新しいアラートビルダーが開き、レポートから適用された適切な指標およびフィルターでビルダーを事前設定します。これで、必要に応じて、アラートを編集できます。
+* From within a [!UICONTROL Reports &amp; Analytics] report, by going to  **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]** . これにより、新しいアラートビルダーが開き、レポートから適用された適切な指標およびフィルターでビルダーを事前設定します。これで、必要に応じて、アラートを編集できます。
 
    ![](assets/add-alert.png)
 
@@ -57,7 +57,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>質問：アラートの異常値検出はデータの異常値を判別するためにどれくらい過去に遡りますか。</b> </p> </td> 
-   <td colname="col2"> <p>トレーニング期間は選択した精度によって異なります詳しくは、「異常値検出で使用される統計的手法」（/help/analyze/analysis- workspace/virtual- analytics- detection/statistics- discellaries- detection. md）を参照してください。要約を次に示します。 </p> 
+   <td colname="col2"> <p>トレーニング期間は選択した精度によって異なります詳しくは、異常値検出で使用される <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">統計的手法</a> （英語）を参照してください。 要約を次に示します。 </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">月単位 = 15 ヶ月 + 前年の同じ時間範囲 </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">週単位 = 15 週 + 前年の同じ時間範囲 </li> 
@@ -75,7 +75,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：「予期された値」のテーブル（点線またはそれらの値の意味の出力で構成される）を入手できますか。</b> </p> </td> 
-   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> [!UICONTROL Reports &amp; Analytics] anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。30 日間の固定のトレーニング期間と固定の 95% 間隔が使用され、<a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Reports &amp; Analytics の異常値検出</a>に似ています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
