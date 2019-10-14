@@ -3,9 +3,9 @@ description: 計算指標ビルダーは、ディメンション、指標、セ�
 seo-description: 計算指標ビルダーは、ディメンション、指標、セグメントおよび関数をドラッグ＆ドロップし、コンテナ階層ロジック、ルール、演算子に基づいてカスタム指標を作成するためのキャンバスです。この統合開発ツールでは、シンプルな計算指標または複雑で高度な計算指標を作成および保存できます。
 seo-title: 指標の作成
 title: 指標の作成
-uuid: 3f51e911- cafa-4af4-90dd-5a4cb42bf0a7
+uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
 
 * Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), or
 
-* **[!UICONTROL Analytics]** / **[!UICONTROL レポートに移動]**&#x200B;し、任意のレポートを開き、指標アイコン ![](assets/metrics_icon.png) をクリックして指標レールを表示し、 **[!UICONTROL 「追加]**」をクリックします。
+* **[!UICONTROL Analytics]** / **[!UICONTROL Reports]**（レポート）に移動し、任意のレポートを開き、指標アイコンをクリックして指標 ![](assets/metrics_icon.png) レールを表示し、「追加」をクリック **[!UICONTROL します]**。
 
 ![](assets/cm_builder_ui.png)
 
@@ -53,7 +53,7 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">上昇傾向を次の形式で表示</span> </td> 
-   <td colname="col3"> <p>この指標の両極性設定で[!DNL Analytics]は、指標の上昇傾向を良い（緑）または悪い（赤）と見なす必要があります。そのため、レポートのグラフは、上昇傾向の場合に緑または赤で表示されます。 </p> </td> 
+   <td colname="col3"> <p>この指標の両極性の設定は、Analytics が指標の上昇傾向を良い（緑）または悪い（赤）のどちらと見なすべきかを示します。そのため、レポートのグラフは、上昇傾向の場合に緑または赤で表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> タグ </span> </td> 
@@ -87,7 +87,7 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 製品の互換性 </span> </td> 
-   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local">詳細情報...</a> </p> </p> </td> 
+   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> さらに詳しく... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 追加 </span> </td> 
@@ -119,7 +119,7 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
    <td colname="col3"> <p>指標は次の 3 つのカテゴリに分かれています。 </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
      <li id="li_90F2312927A6499CA1CE04F8FFC912CF">標準指標（<img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />） </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">計算指標（<img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />） </li> 
+     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">計算指標 ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
      <li id="li_8735E76637ED4C3F983731A66E04C93E">指標テンプレート（<img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />） - リストの一番下 </li> 
     </ul> <p>指標の上にカーソルを移動すると、右側に情報アイコンが表示されます。<img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />このアイコンをクリックすると、次の情報が表示されます。 </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
@@ -130,11 +130,11 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
   </tr> 
   <tr> 
    <td colname="col2"> <p>セグメントリスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external">詳細情報...</a> </p> </td> 
+   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external"> さらに詳しく... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>関数リスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）関数が 2 つのリストに分けて表示されます。<a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> 基本（ </a> 最も頻繁に使用される）および <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Advanced </a>。 </p> </td> 
+   <td colname="col3"> <p>（高度な計算指標のみ）関数が 2 つのリストに分けて表示されます。 <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> Basic </a> (used most often) and <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Advanced </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>レポートスイートの選択 </p> </td> 
