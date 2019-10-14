@@ -7,7 +7,7 @@ title: カレンダーイベント
 topic: Reports & Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. （オプション）カレンダーイベントは、共有しない限りはユーザー専用となります。イベントを共有するには、「**[!UICONTROL 共有]**」を選択します。
 1. （オプション）カレンダーイベントをユーザーにプッシュします。共有としてマークされたカレンダーイベントに、他のユーザーに「プッシュ」するオプションが追加されました。カレンダーイベントをプッシュすると、受信ユーザーのトレンドグラフおよびオーバータイムグラフにカレンダーイベントが表示されます。
    1. 「**[!UICONTROL 閲覧ユーザーを選択]**」をクリックします。
-   1. **[!UICONTROL すべてをオンにする]**か、ユーザー名の隣にあるボックスをオンにします。
+   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. 「**[!UICONTROL 保存]**」をクリックします。
    これにより、カレンダーイベントがより一層使いやすくなります。ユーザーのレポート上にオーバーレイを強制して、より多くのコンテキストを表示することができるようになりました。
 1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL カレンダーイベント]**&#x200B;をクリックします。
