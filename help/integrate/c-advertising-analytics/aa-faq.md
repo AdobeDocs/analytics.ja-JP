@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: よくある質問
 title: よくある質問
-uuid: 05724f56- cf98-4ad8- ad0d-83a5a4b1944a
+uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -99,7 +99,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics 指標は<b>マーケティングチャネル</b>レポートでレポート可能ですか？ </p> </td> 
-   <td colname="col2"> <p>回答：いいえ。それらの指標はマーケティングチャネルレポートに含まれません。 </p> </td> 
+   <td colname="col2"> <p>A:いいえ。マーケティングチャネルレポートには含まれません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：検索データは Analytics に<b>いつ</b>取り込まれますか？ </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：キャプチャするのは google.com のみですか、それとも<b>各国語版</b>（google.co.uk、google.it、google.fr、google.de など）も含まれますか？ </p> </td> 
-   <td colname="col2"> <p>A:広告プラットフォーム分類では、次の値を取得します。"Google Adwords"および"Bing Ads"。 </p> <p>一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。これにより、フィルタリングしたりセグメント化したりできます（例：すべてのキャンペーンがcountrycode_ で始まる場合、「UK_」で始まるキャンペーン（AMO ID）のセグメントを作成すると、UK のデータのみが提供されます）。 </p> </td> 
+   <td colname="col2"> <p>A:広告プラットフォーム分類は、次の値を取得します。「Google Adwords」および「Bing Ads」を参照してください。 </p> <p>一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。これにより、フィルタリングしたりセグメント化したりできます（例：すべてのキャンペーンがcountrycode_ で始まる場合、「UK_」で始まるキャンペーン（AMO ID）のセグメントを作成すると、UK のデータのみが提供されます）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：指標「AMO コスト」は、検索エンジンでレポートされたキーワード／広告ごとに支払われたコストですが、これは、純コストと総コストのどちらですか？ </p> </td> 
