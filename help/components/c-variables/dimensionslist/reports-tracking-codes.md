@@ -7,7 +7,7 @@ title: トラッキングコード
 topic: レポート
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 * ページビュー数、訪問回数、および実訪問者数は指標として使用できます。
 * このレポートではセグメントを使用できます。
 
-** Ad Hoc Analysis Properties**
+**Ad Hoc Analysis のプロパティ**
 
 * すぐに使用できるほとんどのコンバージョン変数に加え、レポートインターフェイス内の他のすべてのレポートによってトラッキングコードレポートを分類できます。
 * e コマースおよびカスタムイベントに加えて、すべてのコンバージョンおよびトラフィック指標を利用できるほか、すべてのコンバージョン指標について様々な配分を使用できます。
