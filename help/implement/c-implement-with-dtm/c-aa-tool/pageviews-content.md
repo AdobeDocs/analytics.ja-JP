@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: ページビューとコンテンツ
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,19 +28,19 @@ Analytics の導入時のページビューおよびコンテンツの設定の�
  <tbody> 
   <tr> 
    <td colname="col1"> ページ名 </td> 
-   <td colname="col2"> <p>サイトの各ページの名前。 </p> <p>[Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)を参照してください。 </p> </td> 
+   <td colname="col2"> <p>サイトの各ページの名前。 </p> <p>「ページ <a href="/help/implement/js-implementation/c-variables/page-variables.md">変数」を参照</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ページ URL の上書き </td> 
-   <td colname="col2"> <p> ページの実際の URL より優先されます。 </p> <p>[Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)を参照してください。 </p> </td> 
+   <td colname="col2"> <p> ページの実際の URL より優先されます。 </p> <p>「ページ <a href="/help/implement/js-implementation/c-variables/page-variables.md">変数」を参照</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> チャンネル（サイトセクション） </td> 
-   <td colname="col2"> <p>サイトのセクションを識別します。 </p> <p>詳しくは、 [Page Variables](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>サイトのセクションを識別します。 </p> <p>詳しくは、 <a href="/help/implement/js-implementation/c-variables/page-variables.md">ページ変数</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 階層 </td> 
-   <td colname="col2"> <p>サイトの階層におけるページの位置を決定します。 </p> <p>[Page Variables](/help/implement/js-implementation/c-variables/page-variables.md)を参照してください。 </p> </td> 
+   <td colname="col2"> <p>サイトの階層におけるページの位置を決定します。 </p> <p>「ページ <a href="/help/implement/js-implementation/c-variables/page-variables.md">変数」を参照</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
