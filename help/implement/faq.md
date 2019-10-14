@@ -8,7 +8,7 @@ title: Analytics の実装に関する FAQ
 topic: 開発者と実装
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -73,7 +73,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col2"> <p>パフォーマンス - 外部 Adobe JavaScript の読み込みがパフォーマンス低下の原因となることはありますか。 </p> </td> 
-   <td colname="col3"> <p> JavaScript ファイルは訪問者のブラウザーでの初回の読み込み後にキャッシュされます。通常、JavaScript ファイルは1 回のセッションで 2 回以上ダウンロードされることはありません。このファイルがサイトの各ページで使用されている場合でも、ページごとにダウンロードされることはありません。ほとんどの Web サイトでは、ユーザーは通常 1 回のセッションで複数のページを表示するので、何度も使用される JavaScript コードをこのファイルに記述しておくと、全体でダウンロードされるデータ量を削減できます。 </p> <p> [!DNL AppMeasurement] 用 JavaScript の圧縮：アドビの JavaScript クライアントのページの重さ（サイズ）が問題となっている場合、GZIP を使用してファイルを圧縮することを推奨します。GZIP はすべての主要なブラウザーでサポートされており、JavaScript の圧縮よりも高いパフォーマンスで、コア <span class="filepath">s_code.js</span> JavaScript ファイルを圧縮および解凍します。 </p> </td> 
+   <td colname="col3"> <p> JavaScript ファイルは訪問者のブラウザーでの初回の読み込み後にキャッシュされます。通常、JavaScript ファイルは1 回のセッションで 2 回以上ダウンロードされることはありません。このファイルがサイトの各ページで使用されている場合でも、ページごとにダウンロードされることはありません。ほとんどの Web サイトでは、ユーザーは通常 1 回のセッションで複数のページを表示するので、何度も使用される JavaScript コードをこのファイルに記述しておくと、全体でダウンロードされるデータ量を削減できます。 </p> <p> AppMeasurement 用 JavaScript の圧縮：アドビの JavaScript クライアントのページの重さ（サイズ）が問題となっている場合、GZIP を使用してファイルを圧縮することを推奨します。GZIP はすべての主要なブラウザーでサポートされており、JavaScript の圧縮よりも高いパフォーマンスで、コア <span class="filepath">s_code.js</span> JavaScript ファイルを圧縮および解凍します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>パフォーマンス - ブラウザーから Adobe サーバーへのデータの送信によってパフォーマンスが低下することはありますか。 </p> </td> 
