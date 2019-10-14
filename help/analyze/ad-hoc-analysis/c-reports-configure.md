@@ -3,9 +3,9 @@ description: グラフや分類の設定、データの抽出など、レポー�
 seo-description: グラフや分類の設定、データの抽出など、レポートで実行できる様々なアクションについて説明します。
 seo-title: 既存のレポートの設定
 title: 既存のレポートの設定
-uuid: 5c7bb66a- a9a2-49fe- ba98-1a99a922f6b1
+uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>配信オプション </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Delivery Options</a>. </p> </td> 
+   <td colname="col2"> <p> 「配信オプ <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> ション」を参照してくださ</a>い。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 印刷 </p> </td> 
@@ -64,7 +64,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>データソース </p> </td> 
-   <td colname="col2"> <p>詳しくは、<a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local">「一般的な設定」タブの定義</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>表示 </p> </td> 
@@ -95,7 +95,7 @@ c_chart_options.xml
    <td colname="col1"> <p>グラフの種類 </p> </td> 
    <td colname="col2"> <p> グラフの種類を折れ線グラフ、棒グラフ、積み重ね面グラフ、バブルチャートなどに変更できます。 </p> 
     <ul id="ul_98A8DBBCADA042359C5D096EA0B1104B"> 
-     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>バブル</b>：バブルチャートは、どのランクレポートでも利用できます。バブルチャートでは、5 つのディメンションまでの指標分析ができます。点の直径に指標を一切適用しない場合は、このグラフを散布グラフとして使用できます。バブルチャートは、レポートデータの変化を反映して動的に変化します。を参照してください。 </li> 
+     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>バブル</b>：バブルチャートは、どのランクレポートでも利用できます。バブルチャートでは、5 つのディメンションまでの指標分析ができます。点の直径に指標を一切適用しない場合は、このグラフを散布グラフとして使用できます。バブルチャートは、レポートデータの変化を反映して動的に変化します。. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -162,7 +162,7 @@ t_reports_breakdown_table.xml
 
    >[!NOTE]
    >
-   >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. 分類を含む保存されたレポートや予定レポートを開いた場合、「**[!UICONTROL 表を置換]」をクリックして動的なレポートデータの分類を更新する必要があることがあります。**&#x200B;例えば、日付範囲や訪問者のアクティビティに基づいて変化する可能性がある行項目の分類が予定レポートに含まれている場合は、予定レポートを更新する必要があります。
+   >柔軟性を高めるために、表ビルダー [を使用して](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 、分類を含むレポートを設定します。 分類を含む保存されたレポートや予定レポートを開いた場合、「**[!UICONTROL 表を置換]」をクリックして動的なレポートデータの分類を更新する必要があることがあります。**&#x200B;例えば、日付範囲や訪問者のアクティビティに基づいて変化する可能性がある行項目の分類が予定レポートに含まれている場合は、予定レポートを更新する必要があります。
 
 >[!MORE_LIKE_THIS]
 >
@@ -192,7 +192,7 @@ t_reports_clipboard.xml
 
  -->
 
-1. Microsoft Excelを開きます。
+1. Microsoft excelを開きます。
 
    Excel を起動するとメモリバッファーがクリアされるので、データをコピーする前に Excel を開くことをお勧めします。
 
@@ -207,7 +207,7 @@ t_reports_extract_ID.xml
 
  -->
 
-Reports&amp; Analyticsでは、ユーザーIDデータを含むフィールドを設定できます。このオプションを設定した場合に、「[!UICONTROL 訪問者 ID の抽出]」オプションが使用可能になります。このオプションを有効にせず、後になって有効にすることにした場合、以前にさかのぼって過去の訪問者 ID を抽出することはできません。
+Reports &amp; Analyticsでは、ユーザーIDデータを含むフィールドを設定できます。 このオプションを設定した場合に、「[!UICONTROL 訪問者 ID の抽出]」オプションが使用可能になります。このオプションを有効にせず、後になって有効にすることにした場合、以前にさかのぼって過去の訪問者 ID を抽出することはできません。
 
 **訪問者 ID を抽出するには**
 
