@@ -1,20 +1,20 @@
 ---
-description: Steps on running the different report types.
-seo-description: Steps on running the different report types.
+description: 様々なレポートタイプの実行手順を説明します。
+seo-description: 様々なレポートタイプの実行手順を説明します。
 seo-title: 異なるレポートタイプの実行
 solution: Analytics
 title: 異なるレポートタイプの実行
 topic: レポート、Reports & analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # 異なるレポートタイプの実行
 
-Steps on running the different report types.
+様々なレポートタイプの実行手順を説明します。
 
 
 ## ランクレポートの実行 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
@@ -155,7 +155,7 @@ t_anomaly_view.xml
 
 Analysis Workspace の新しい[異常値検出と貢献度分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)機能を調べます。
 
-**[!UICONTROL Reports &gt; Site Metrics &gt; Anomaly Detection .]**********
+**[!UICONTROL レポート]** /サ **[!UICONTROL イト指標]** /異常 **[!UICONTROL 値検出]** 。
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ Analysis Workspace の新しい[異常値検出と貢献度分析](https://marke
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">上限値と期待値が等しい場合は、偏差率は 100% になります。 </li> 
         <li id="li_CA48064F5788448C8646CCE196161237">それ以外の場合、偏差率は次の式で求められます。 (（実際の値 — 上限値） / （上限値 — 期待値）) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">If the lower bounds and the expected value are the same, the deviation % is -100% </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">下限と期待値が同じ場合、偏差率は —100%です。 </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">それ以外の場合、偏差率は次の式で求められます。 (（下限値 — 実際の値） / （期待値 — 下限値）) * -100 </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C">「<span class="uicontrol">表示セグメント</span>」をクリックすると、異常値検出レポートにセグメントを適用するためのセグメントパネルが表示されます。セグメントについての<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external">詳細</a>を参照してください。 </li> 
@@ -224,9 +224,9 @@ t_anomaly_config.xml
 
 1. **[!UICONTROL Analytics／レポート／サイト指標／異常値検出]**&#x200B;に移動します。
 1. 異常値検出を毎日追跡したいレポートスイートを選択します。レポートスイートのリストを表示するには、レポートスイートセレクターのドロップダウンメニューをクリックします。
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
 
-   全指標のリスト（計算指標を含む）または追跡指標のリストから、必要な指標を選択できます。特定の条件に基づいてフィルターし、リストを絞り込むこともできます。1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the **[!UICONTROL View Period]** for anomaly detection. （トレーニング期間は、このアルゴリズムの「学習期間」と考えてください）。
+   全指標のリスト（計算指標を含む）または追跡指標のリストから、必要な指標を選択できます。特定の条件に基づいてフィルターし、リストを絞り込むこともできます。1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. （トレーニング期間は、このアルゴリズムの「学習期間」と考えてください）。
 
    ![](assets/view_training_periods.png)
 
@@ -243,7 +243,7 @@ t_anomaly_config.xml
 
    セグメントの作成と管理について詳しくは、[Analytics セグメント化ガイド](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)を参照してください。1. （オプション）レポートをお気に入りにするか、ブックマークします。
 1. （オプション）表示期間の終了日を変更します。デフォルトは昨日です。
-1. これで、レポートを表示できるようになります。[Viewing Anomaly Detection charts](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+1. これで、レポートを表示できるようになります。[異常値検出グラフの表示を参照してください](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
 
 ## リアルタイムレポートの実行 {#task_5D25929C918E40B18965222FA94176B0}
 
