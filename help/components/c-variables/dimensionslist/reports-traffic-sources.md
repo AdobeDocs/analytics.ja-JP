@@ -5,9 +5,9 @@ seo-title: トラフィックソース
 solution: Analytics
 title: トラフィックソース
 topic: レポート
-uuid: 34ab8797-7a3e-43fd- afb2-4335869661b8
+uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> リファラー </td> 
-   <td colname="col2"> <p> 訪問者がどのドメインや URL から Web サイトに来訪したか、訪問者が Web サイトをどのような方法で見つけたか、およびこれらの参照場所から Web サイトへの訪問回数が表示されます。 </p> <p>例えば、訪問者がサイト A からリンクをクリックしてサイトに来訪した場合、ドメインの一部として定義されていない限り、サイト A がリファラーとなります。導入時に、担当の導入コンサルタントが Web サイトの一部となるドメインや URL の定義を支援します（これは導入後におこなうこともできます）。このように定義されたドメインと URL の一部でないドメインや URL は、いずれもリファラーと見なされます。 </p> <p>例えば、Web ページ A と Web ページ B が内部 URL フィルターに追加されていて、Web ページ C が追加されていない場合、Web ページ C はリファラーと見なされます。 </p> <p>詳しくは、[Internal URL Filters]（/help/admin/admin/internal- URL- filter- admin. md）</p> <p>注意：Analytics は、訪問者が <code>imap://</code> または <span class="filepath">mail://</span> のプロトコルを含む電子メールメッセージリンクをクリックしてサイトに来訪した場合、参照ドメインを電子メールリファラーとして記録します。 </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Outlook からの電子メールは「<span class="wintitle">手動入力 / ブックマーク</span>」行に表示されます。ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「<span class="wintitle">検索エンジン</span>」行に表示されます。 </p> </td> 
+   <td colname="col2"> <p> 訪問者がどのドメインや URL から Web サイトに来訪したか、訪問者が Web サイトをどのような方法で見つけたか、およびこれらの参照場所から Web サイトへの訪問回数が表示されます。 </p> <p>例えば、訪問者がサイト A からリンクをクリックしてサイトに来訪した場合、ドメインの一部として定義されていない限り、サイト A がリファラーとなります。導入時に、担当の導入コンサルタントが Web サイトの一部となるドメインや URL の定義を支援します（これは導入後におこなうこともできます）。このように定義されたドメインと URL の一部でないドメインや URL は、いずれもリファラーと見なされます。 </p> <p>例えば、Web ページ A と Web ページ B が内部 URL フィルターに追加されていて、Web ページ C が追加されていない場合、Web ページ C はリファラーと見なされます。 </p> <p>詳しくは、 <a href="/help/admin/admin/internal-URL-filter-admin.md">内部 URL フィルター</a></p> <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Outlook からの電子メールは「<span class="wintitle">手動入力 / ブックマーク</span>」行に表示されます。ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「<span class="wintitle">検索エンジン</span>」行に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> リファラータイプ </td> 
