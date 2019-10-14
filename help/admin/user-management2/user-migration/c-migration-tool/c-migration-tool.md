@@ -5,7 +5,7 @@ seo-title: Admin Console への Analytics ユーザーの移行
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -148,14 +148,14 @@ Admin Console の使用メリットには、次のようなものがあります
    <td colname="col1"> <p>移行開始日を延期できますか。 </p> </td> 
    <td colname="col2"> <p>はい。<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">アドビカスタマーケア</a>に連絡してください。 </p> 
     <draft-comment> 
-     <p>See below for a description of the changes to your current Analytics User and Permissions management on the start date. </p> 
+     <p>開始日における現在のAnalyticsユーザーおよび権限管理に対する変更については、以下を参照してください。 </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>会社が Admin Console への移行を予定しています。移行開始日前は、新規ユーザーおよび権限グループをどこで作成しますか。 </p> </td> 
    <td colname="col2"> <p>移行開始日前は、Admin Console または Analytics／ユーザー管理でユーザーを作成できます。 </p> <p>移行開始後は、Admin Console でのみユーザーおよび権限グループを作成できます。 </p> 
     <draft-comment> 
-     <p>see the Migration section below for more details on what happens on the start date of the migration). </p> 
+     <p>移行の開始日に発生する処理の詳細については、以下の「移行」の節を参照してください。 </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
@@ -189,7 +189,7 @@ Admin Console の使用メリットには、次のようなものがあります
    <td colname="col1"> <p>移行されていないユーザーの権限グループのメンバーシップを更新できますか。 </p> </td> 
    <td colname="col2"> <p>はい。移行されていないユーザーのグループメンバーシップは、Analytics の「ユーザー管理」セクションから変更できます。 </p> 
     <draft-comment> 
-     <p>Awaiting clarification from Ashok about where that's done. </p> 
+     <p>アショクの説明を待つ。 </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
@@ -338,11 +338,11 @@ To email all users, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ad
 
 **件名：** Adobe Analytics と Adobe Experience Cloud へのログイン方法が新しくなります
 
-** Body:** Adobe Analyticsユーザーの皆様へ！
+**本文：** Adobe Analytics ユーザーの皆様へ
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). この移行に伴い、Adobe Analytics アカウントがアップグレードされ、Adobe Experience Cloud を通じて Analytics にアクセスできるようになります。Analytics にアクセスする方法は変わりますが、レポートスイートやツールに対する既存の権限はすべて維持されます。
 
-**次の手順：**次の時点からユーザーの移行を開始します <INSERT DATE> の呼び出しの後におこなわれる場合です。ご利用の Analytics アカウントに登録されている電子メール ID 宛に、新しいログイン情報が記載されたウェルカムメッセージが送信されますので、そちらをご確認ください。[Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) を電子メールアドレスにリンクする設定をしていない場合は、アカウントを設定するように求められます。
+**** 次の手順：次の日から始まるユーザーの移行を開始します。 <INSERT DATE> の呼び出しの後におこなわれる場合です。ご利用の Analytics アカウントに登録されている電子メール ID 宛に、新しいログイン情報が記載されたウェルカムメッセージが送信されますので、そちらをご確認ください。[Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) を電子メールアドレスにリンクする設定をしていない場合は、アカウントを設定するように求められます。
 
 **参考情報：**
 
