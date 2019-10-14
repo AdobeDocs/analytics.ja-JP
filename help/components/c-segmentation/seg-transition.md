@@ -1,21 +1,21 @@
 ---
 description: 'null'
-keywords: セグメント化、セグメント
+keywords: セグメント化；セグメント
 seo-description: 'null'
 seo-title: よくある質問
 solution: Analytics
 title: よくある質問
 topic: セグメント
-uuid: f49dc829-1d53-4183-9add-1aaa5219d89
+uuid: f49dc829-1d53-4183-9add-1aea5219d89
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # よくある質問
 
-セグメント化機能、アクセス、権限、ベストプラクティスおよびレガシーセグメントの管理に関する頻繁な質問に答えます。
+セグメント化機能、アクセス、権限、ベストプラクティス、既存のセグメントの管理に関するよくある質問に回答します。
 
 ## 機能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -27,7 +27,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 * [レポートやプロジェクトに複数のセグメントを適用](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)できます。
 * セグメントが、レポートスイート全体で共通になりました。
-* [セグメントビルダー](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) を使用すると、セグメントの作成を簡素化できます。
+* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
 * [セグメントマネージャー](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF)を設定できます。
 
 * フォルダーを使用する代わりに[セグメントにタグを設定](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)して、セグメントを整理したり検索したりできます。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
@@ -37,7 +37,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 詳しくは、Digital Marketing Blog の投稿 [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) を参照してください。
 
-## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## セグメントツールにアクセスする {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **セグメントビルダーへの移動方法**
 
@@ -63,9 +63,9 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 **レガシーセグメントドロップダウンの移動先**
 
-The segment drop-down in Reports &amp; Analytics has been replaced by a much more feature rich [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+Reports &amp; Analyticsのセグメントドロップダウンは、より多くの機能を備えた [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) （セグメントビルダー）インターフェイスに置き換えられ、レポートスイート全体およびAdobe Analyticsソリューション全体で使用できる「ユニバーサル」セグメントを作成できます。 既存のセグメントのリストを表示するには、セグメントアイコン ![](assets/segment_icon.png)
 
-をクリックすると、セグメントレールが表示されます。
+左側のナビゲーションとセグメントレールが表示されます。
 
 **レガシーレポートスイートドロップダウンの移動先**
 
@@ -79,7 +79,7 @@ The segment drop-down in Reports &amp; Analytics has been replaced by a much mor
 
 デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
-管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[詳細情報...](../../components/c-segmentation/seg-reference/seg-rights.md)
+管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[さらに詳しく...](../../components/c-segmentation/seg-reference/seg-rights.md)
 
 **社内のすべてのセグメントを表示できますか？**
 
@@ -144,7 +144,7 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 
 **Data Warehouse セグメントへの影響**
 
-既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。ほとんどのData Warehouseセグメントは、Analysis Workspace、Ad Hoc Analysis、Reports&amp; Analyticsなどの他のコンポーネントでも機能します。
+既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。ほとんどのData Warehouseセグメントは、Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analyticsなどの他のコンポーネントでも機能します。
 
 新しい Data Warehouse セグメントは、セグメントビルダーとセグメントマネージャで作成または編集できます。セグメントビルダーの製品の互換性メカニズムは、セグメントが Data Warehouse と互換性があるかどうかを自動的に判定します。
 
@@ -166,7 +166,7 @@ Ad Hoc Analysis のこのセグメントは、Adobe Analytics の通常のセグ
 
 既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。
 
-** Experience Cloud（スイート）セグメントへの影響:**
+**Experience Cloud（スイート）セグメントへの影響**
 
 * 非購入者
 * 購入者
@@ -200,13 +200,13 @@ seg_definition.xml
 
 次のヒントは、一般的なディメンションを移行するのに役立ちます。
 
-* 地域-市/地域/国-部分一致を使用する代わりに、特定の市区町村、地域または国を検索して選択します。
-* ブラウザー-ブラウザータイプディメンションを使用して、すべてのブラウザー（例: Google Chrome）を取得します
-* オペレーティングシステム- OSタイプディメンションを使用して、Microsoft Windowsなどのすべてのオペレーティングシステムを取得します。
+* 地域 — 市/地域/国 — 部分一致を使用する代わりに、特定の市区町村、地域または国を検索して選択します。
+* ブラウザー — ブラウザータイプディメンションを使用して、Google Chromeなどのタイプのすべてのブラウザーを取得します。
+* オペレーティングシステム — OSの種類ディメンションを使用して、Microsoft Windowsなど、すべてのオペレーティングシステムを特定の種類で取得します。
 
 * [新しいディメンションと名前が変更されたディメンション](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [次の項目に対する変更](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [次よりも小さい/より大きい変更](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [次を含む項目の変更](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [次の値より小さいか大きいかの変更](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 新しいディメンションと名前が変更されたディメンション {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -248,7 +248,7 @@ seg_definition.xml
   </tr> 
   <tr> 
    <td colname="col1"> cookie サポート </td> 
-   <td colname="col2"> cookie </td> 
+   <td colname="col2"> Cookie </td> 
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
