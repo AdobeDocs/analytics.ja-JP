@@ -7,7 +7,7 @@ title: フォールアウト
 topic: レポート
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 詳しくは、[カスタマージャーニー - フォールアウト](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)を参照してください。
 
-** Reports and Analytics **
+**Reports and Analytics**
 
 構成情報については、ヘルプの[フォールアウトレポートの実行](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html)を参照してください。
 
-** Ad Hoc Analysis **
+**Ad Hoc Analysis**
 
 訪問または訪問者のレベルでフォールアウトデータを解析します。また、指定した期間におけるフォールアウトのグラフを表示するトレンドパスも表示できます。単一のページまたは複数のページのグループをレポートのチェックポイントとして設定したり、あらゆる組み合わせや順番でディメンションや指標を追加することができます。また、マーケティングレポートで設定したカテゴリをこのレポートのチェックポイントとして使用することもできます。
 
