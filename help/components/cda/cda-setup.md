@@ -2,7 +2,7 @@
 title: クロスデバイス分析の設定
 description: 前提条件を満たした後、デバイス間分析を設定する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
+source-git-commit: 8c5e8d18ce4e09049d3fea07b8dd75ded6894313
 
 ---
 
@@ -28,9 +28,10 @@ source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 3. 上部の「コンポーネント」の上にカーソルを置き、「仮想レポートスイート」をクリックします。
 4. 「Add」をクリックします。
 5. 仮想レポートスイートの名前を入力し、CDA対応のレポートスイートが選択されていることを確認します。
-6. 「レポートの時間処理を有効にする」チェックボックスをクリックし、デバイス間分析などのその他のオプションを有効にします。
-7. 「デバイス間のユーザー訪問をステッチ」チェックボックスをクリックします。
-8. 「続行」をクリックし、仮想レポートスイートの設定を終了して、「保存」をクリックします。
+6. （オプション）仮想レポートスイートにセグメントを適用します。 例えば、CDAがオンになってステッチが開始された後の日付に仮想レポートスイートを制限するセグメントを適用できます。 このセグメントを使用すると、VRS内の関連付けられた日付範囲のみをユーザーが確認できます。
+7. 「レポートの時間処理を有効にする」チェックボックスをクリックし、デバイス間分析などのその他のオプションを有効にします。
+8. 「デバイス間のユーザー訪問をステッチ」チェックボックスをクリックします。
+9. 「続行」をクリックし、仮想レポートスイートの設定を終了して、「保存」をクリックします。
 
 ![CDAチェックボックス](assets/cda-checkbox.png)
 
@@ -45,19 +46,19 @@ source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 ## 圧縮計算指標
 
-The ability for Cross-Device Analytics to stitch devices together depends on a wide range of factors. The effectiveness of the feature's ability to stitch data can be measured with a calculated metric called compression. Factors that contribute to compression include:
+デバイス間分析でデバイスを結合する機能は、様々な要因に依存します。 データをステッチする機能の有効性は、圧縮と呼ばれる計算指標を使用して測定できます。 圧縮に貢献する要因は次のとおりです。
 
-* Using the Co-op graph or Private graph: Generally speaking, organizations using the device co-op tend to see better compression rates than organizations using the private graph.
-* Log in rate: The more users log in on your site, the more Adobe can identify and stitch visitors across devices. Sites with a low log in rate also have low compression rates.
-* Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
-* Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.
-* Reporting granularity: Compression by day is typically smaller than compression by month or year. The chances for an individual to use multiple devices becomes smaller within a single day than over an entire month. Segmenting, filtering, or using breakdown dimensions can also show a lower compression rate.
+* Co-opグラフまたはプライベートグラフの使用：一般に、Device Co-opを使用する組織は、プライベートグラフを使用する組織よりも高い圧縮率を確認する傾向があります。
+* ログイン率：サイトにログインするユーザーが増えるほど、デバイス間で訪問者を識別し、繋ぎ合わせることができます。 ログイン率が低いサイトも、圧縮率が低くなります。
+* Experience Cloud IDの有効範囲：ECIDを持つ訪問者のみを繋ぎ合わせることができます。 ECIDを使用してサイトに来訪した訪問者の割合が低いと、圧縮率が低くなります。
+* 複数のデバイスの使用：サイトの訪問者が複数のデバイスを使用していない場合は、圧縮率が低くなります。
+* レポート精度：通常、日別の圧縮は、月別または年別の圧縮よりも小さくなります。 1人のユーザーが1日で複数のデバイスを使用する機会は、1か月で1か月で使用する場合よりも少なくなります。 セグメント化、フィルタリングまたは分類ディメンションを使用した場合も、圧縮率が低くなります。
 
 特定の期間における組織の圧縮を確認するには：
 
-1. Click Workspace at the top, then click 'Create New Project'.
-2. Start with a Blank Project, then click Create.
-3. Drag the Unique Devices metric onto the canvas area labeled 'Drop a Metric Here'.
+1. 上部の「ワークスペース」をクリックし、「新しいプロジェクトを作成」をクリックします。
+2. 空白のプロジェクトから開始し、「作成」をクリックします。
+3. [個別デバイス]指標を[ここに指標をドロップ]というラベルの付いたキャンバス領域にドラッグします。
 4. [個別デバイス]指標ヘッダーの右側にあるキャンバスに[人]指標を直接ドラッグし、2つの指標を並べて表示します。
 5. 左側の利用可能な指標の横にある「`+`」記号をクリックして、計算指標ビルダーを開きます。
 6. この計算指標に次の設定を指定します。
