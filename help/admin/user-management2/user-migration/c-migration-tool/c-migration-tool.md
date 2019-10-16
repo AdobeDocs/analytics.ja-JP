@@ -5,7 +5,7 @@ seo-title: Admin Console への Analytics ユーザーの移行
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -23,14 +23,16 @@ Adobe Experience Cloud で Analytics ユーザー ID を Admin Console に移行
 <p>https://wiki.corp.adobe.com/display/analyticssolution/Migration+of+Analytics+Access+and+User+Management+to+the+Marketing+Cloud </p>
 -->
 
-このページでは、次の内容について説明します。
+<!-- This is duplicating the right-side nav, so... Please feel free to uncomment if you feel strongly that you  want it here.
+On this page:
 
-* [ ユーザー ID の移行とは](../c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c)
-* [ユーザー ID の移行前に知っておくべき情報（FAQ）](../c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9)
-* [移行中に知っておくべき情報（FAQ）](../c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc)
-* [移行後に知っておくべき情報（FAQ）](../c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff)
-* [Admin Console でサポートされない Analytics の機能](../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56)
-* [移行について通知する方法](../c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+* [What is the user ID migration?](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-adbe49aba10c4e62afa836a97894107c) 
+* [What to know before migrating user IDs (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-b0fc7f0bbd4b488e95b0c8e77ff077a9) 
+* [What to know during the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-d394524aa6d046d79025bbd7499792bc) 
+* [What to know after the migration (FAQ)](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-9681baa01b8c41cdb9659b73b70b50ff) 
+* [Unsupported Analytics features in the Admin Console](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56) 
+* [How to notify your users about the migration](/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md#section-f3b25f672a3a4d03b0559656fd99d20a)
+-->
 
 Admin Console に関する一般的な（Analytics の移行に関連しない）ヘルプについては、『[Admin Console ユーザーガイド](https://helpx.adobe.com/enterprise/administering/user-guide.html)』を参照してください。
 
