@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: ユーザーとグループ
 title: ユーザーと製品の管理
 topic: 管理ツール
-uuid: 891a8cb3- b77d-46f6- ab23- cbed49f215b5
+uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -68,7 +68,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新しいユーザーの追加</span> </td> 
-   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>詳しくは、 <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> ユーザー</a>. </p> </td> 
+   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> ユーザー</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> レポートのダウンロード</span> </td> 
@@ -76,7 +76,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ログイン</span> </td> 
-   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>詳しくは、 <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> ユーザー</a>. </p> </td> 
+   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> ユーザー</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名</span> </td> 
@@ -112,7 +112,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Edit</span> </td> 
-   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>詳しくは、 <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> ユーザー</a>. </p> </td> 
+   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> ユーザー</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Delete</span> </td> 
@@ -120,7 +120,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 転送</span> </td> 
-   <td colname="col2">あるユーザーアカウントの権限（許可とリソースアクセス）を別のユーザーアカウントに割り当てます。 <p>詳しくは、 <a href="../../admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md#task_A17A57DB5B114E869ABB1768F7910092" format="dita" scope="local"> ユーザーアカウント権限の転送</a>. </p> </td> 
+   <td colname="col2">あるユーザーアカウントの権限（許可とリソースアクセス）を別のユーザーアカウントに割り当てます。 <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> ユーザーアカウント権限の転送</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> このユーザとしてログイン</span> </td> 
