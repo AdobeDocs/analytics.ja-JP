@@ -8,7 +8,7 @@ title: コンバージョン変数（eVar）
 topic: 管理ツール
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -33,7 +33,7 @@ eVar は、次のような原因と結果を測定するために最適です。
 
 ## コンバージョン変数 - 説明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descriptions of fields used when editing conversion variables.[](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97)
+コンバージョン変数の編集時に使用さ [れるフィールドの説明](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md)。
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 
