@@ -5,7 +5,7 @@ seo-title: Analytics変数のデータプライバシーラベル
 title: Analytics変数のデータプライバシーラベル
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analyticsのデータプライバシー実装では、IDデータ、機密
 >
 >Data Usage Labeling &amp; Enforcement（DULE）フレームワークは、アドビのすべてのソリューション／サービス／プラットフォームにまたがり、共通の方法で Adobe Experience Cloud 全体のデータに関するメタデータを取得、伝達、利用できるようにすることを目的としています。データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。この最初のリリースでは、Analyticsは、データのプライバシーに関連するDULEラベルのみを公開します。 他のアドビ製品が DULE ラベルのサポートを実装するのに伴い、将来のリリースでは、追加の機密データラベルに加えて契約のラベルが導入されます。これは、製品間で共有されたデータが法的に許容される方法でのみ使用されることを保証するのに役立ちます。
 
-## 識別データラベル（DULE） {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
+## 識別データラベル（DULE） {#identity-data-labels}
 
 識別データの「I」ラベルは、個人を特定できるデータまたは個人に連絡できるデータの分類に使用されます。
 
@@ -62,7 +62,7 @@ Adobe Analyticsのデータプライバシー実装では、IDデータ、機密
  </tbody> 
 </table>
 
-## 機密データラベル（DULE） {#section_533E1406F3F24A01B51D94139B94CAEC}
+## 機密データラベル（DULE） {#sensitive-data-labels}
 
 機密データの「S」ラベルは、地理データなどの機密データの分類に使用されます。将来的に、他のタイプの機密情報を特定するために、追加の機密データラベルが導入される予定です。
 
@@ -434,7 +434,7 @@ Adobe Analyticsでのデータプライバシー削除リクエストのサポ�
   </tr> 
   <tr> 
    <td colname="col1"> <p>訪問者 ID </p> <p>MCID／ECID </p> </td> 
-   <td colname="col2"> <p> これらには DEL-DEVICE ラベルが設定されていますが、DEL-PERSON ラベルを追加することはできません。各要求で<a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> ID 拡張</a>を指定した場合、ID-PERSON を使用している要求も含め、すべての削除要求に対して、これらの ID が自動的に削除されます。 </p> <p>ID 拡張を使用しないが、一致する ID が prop または eVar に含まれているヒットでこれらの Cookie ID を匿名化したい場合は、実際にユーザーを特定できる場合でも、prop または eVar に ID-DEVICE ラベルを設定することで、このラベル設定の制限を回避できます（すべての DEL-PERSON ラベルを DEL-DEVICE ラベルに変更する必要があります）。この場合、訪問者 ID または ECID の一部のインスタンスのみが匿名化されるので、履歴レポートでは個別訪問者数が変更されます。 </p> </td> 
+   <td colname="col2"> <p> これらには DEL-DEVICE ラベルが設定されていますが、DEL-PERSON ラベルを追加することはできません。各要求で<a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> ID 拡張</a>を指定した場合、ID-PERSON を使用している要求も含め、すべての削除要求に対して、これらの ID が自動的に削除されます。 </p> <p>ID 拡張を使用しないが、一致する ID が prop または eVar に含まれているヒットでこれらの Cookie ID を匿名化したい場合は、実際にユーザーを特定できる場合でも、prop または eVar に ID-DEVICE ラベルを設定することで、このラベル設定の制限を回避できます（すべての DEL-PERSON ラベルを DEL-DEVICE ラベルに変更する必要があります）。この場合、訪問者 ID または ECID の一部のインスタンスのみが匿名化されるので、履歴レポートでは個別訪問者数が変更されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
