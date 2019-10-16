@@ -5,7 +5,7 @@ seo-title: 名前空間
 title: 名前空間
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -38,7 +38,7 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 
 値は、ダッシュで区切った 2 つの 16 進数で指定される必要があります。アルファベットのすべての 16 進数の桁は、大文字を使用して指定する必要があります。16 進数値は、先頭にゼロを持つことはできません（先頭にゼロが必要だった廃止された形式とは異なることに注意してください）。
 
-また、代わりに、またはそれに加えて、 `“namespaceId”: 10` を使用することもできます。また、他のアドビ製 `“namespace”: “AAID”` 品がそのフォームを使用している場合があります。
+また、`"namespace": "AAID"` の代わりに（または追加として）`"namespaceId": 10` を使用することもできます。その場合、その形式を使用できるその他のアドビ製品が表示されます。
 
 ## 従来の Analytics トラッキング Cookie：廃止された形式
 
@@ -52,9 +52,9 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 
 廃止された形式：
 
-値は、16 桁の 2 つの 16 進数または 19 桁の 2 つの 10 進数で指定される必要があります。この値は、ダッシュ、アンダースコアまたはコロンで区切られる必要があります。いずれかの数値が十分な桁数を持たない場合、先頭にゼロを追加する必要があります。
+値は、16 桁の 2 つの 16 進数または 19 桁の 2 つの 10 進数で指定される必要があります。この値は、ダッシュ、アンダースコアまたはコロンで区切られる必要があります。いずれかの数値に十分な桁数がない場合は、先頭にゼロを追加する必要があります。
 
-## IDサービスCookie
+## ID サービスの cookie
 
 ```
 {
@@ -64,15 +64,15 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 }
 ```
 
-値は、38 桁の 10 進数で指定される必要があります。データフィードまたはData Warehouseレポートから2つのmcvisid\_high/low列またはpost\_msvisid\_high/low列からこの数値を取り込む場合は、それぞれの数値のパッドを0にして19桁にし、最初に高い値と連結する必要があります。
+値は、38 桁の 10 進数で指定される必要があります。この数値をデータフィードまたは Data Warehouse レポートからの 2 つの mcvisid\_high/low 列または post\_msvisid\_high/low 列からプルしている場合、2 つの数値がそれぞれ 19 桁になるようにゼロを追加して、大きい値を先にして連結する必要があります。
 
-また、次の値を使用することもできます。の代わり `“namespaceId”: 4` に、またはに加えて、他のアドビ製 `“namespace”: “ECID”` 品がそのフォームを使用している場合があります。
+また、`"namespace": "ECID"` の代わりに（または追加として）`"namespaceId": 4` を使用することもできます。その場合、その形式を使用できるその他のアドビ製品が表示されます。
 
 >[!NOTE]
 >
->Experience Cloud ID(ECID)は、以前はMarketing Cloud ID(MCID)と呼ばれていましたが、一部の既存のドキュメントでは同じ名前で参照されています。
+>Experience Cloud ID（ECID）の旧称は Marketing Cloud ID（MCID）ですが、既存のドキュメント内では、まだその名前で呼ばれている場合があります。
 >
->これらのIDは、「analytics」以外の「タイプ」値を使用するAnalyticsでサポートされる唯一のIDです。
+>これらの ID は、「analytics」以外の「type」値を使用する Analytics によってサポートされる唯一の ID です。
 
 これらのcookie IDの値部分の形式が、そのIDに対して記述された形式に従っていない場合、データプライバシーリクエストは失敗し、「値が正しく形式設定されていません」というエラーが表示されます。
 
@@ -106,12 +106,12 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 }
 ```
 
-カスタムトラフィックまたはコンバージョン変数（propまたはeVar）のIDの場合、変数にID-DEVICEまたはID-PERSONラベルを付け、そのタイプのIDに独自の名前空間名を割り当てます。 See [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](gdpr-labels.md)
+カスタムのトラフィック変数またはコンバージョン変数（prop または eVar）の ID の場合は、変数に ID-DEVICE または ID-PERSON ラベルを設定してから、独自の名前空間の名前をその ID タイプに割り当てます。See [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](gdpr-labels.md)
 
 以前に他の変数やレポートスイート用に定義した名前空間を確認し、再利用することもできます。そのため、このタイプの ID を格納するすべてのレポートスイートで、簡単に同一の名前空間を使用することができます。同一の名前空間をレポートスイート内の複数の変数に割り当てることもできます。例えば、CRM ID をトラフィック変数やコンバージョン変数（ページによっていずれか一方または両方）に格納しているお客様もいます。その場合は「CRM ID」という名前空間を両方の変数に割り当てることができます。
 
-> [!TIP] データプライバシーAPIに名前空間を指定する場合は、変数のわかりやすい名前（レポートUIに表示される名前）や変数の番号（eVar12など）を使用しないでください。ただし、ID-DEVICEまたはID-PERSONラベルを適用する際に指定した名前空間は例外です。 わかりやすい名前ではなく名前空間を使用すると、同じユーザーIDブロックで複数のレポートスイートに対して正しい変数を指定できます。 例えば、IDが一部のレポートスイートで異なるeVarに含まれている場合や、フレンドリ名が一致しない場合（特定のレポートスイートに対してフレンドリ名がローカライズされている場合など）。
+> [!TIP] データプライバシーAPIに名前空間を指定する場合は、変数のわかりやすい名前（レポートUIに表示される名前）や変数の番号（eVar12など）を使用しないでください。ただし、ID-DEVICEまたはID-PERSONラベルを適用する際に指定した名前空間は例外です。 わかりやすい名前ではなく名前空間を使用することによって、同じユーザー ID ブロックで、複数のレポートスイートに対して正しい変数を指定できます。例えば、IDが一部のレポートスイートで異なるeVarに含まれている場合や、フレンドリ名が一致しない場合（特定のレポートスイートに対してフレンドリ名がローカライズされている場合など）。
 
-> [!CAUTION] 名前空間「visitorId」と「customVisitorId」は、Analyticsの従来の追跡cookieとAnalyticsの顧客訪問者IDを識別するために予約されています。 これらの名前空間は、カスタムトラフィックやコンバージョン変数には使用しないでください。
+> [!CAUTION] 名前空間「visitorId」と「customVisitorId」は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
 
-For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)
+For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md)
