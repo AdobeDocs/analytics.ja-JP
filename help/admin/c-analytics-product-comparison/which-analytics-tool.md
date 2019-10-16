@@ -1,24 +1,23 @@
 ---
 description: このヘルプページでは、各 Adobe Analytics ツールの推奨される使用例が紹介されています。ここにリストされている順にツールを検討するとよいでしょう。あるツールがニーズを満たさない場合は、次のツールの使用を検討します。
 seo-description: このヘルプページでは、各 Adobe Analytics ツールの推奨される使用例が紹介されています。ここにリストされている順にツールを検討するとよいでしょう。あるツールがニーズを満たさない場合は、次のツールの使用を検討します。
-seo-title: どのAdobe Analyticsツールを使用する必要がありますか。
-title: どのAdobe Analyticsツールを使用する必要がありますか。
-uuid: 1179e49d-3cfc-4abd- a8eb-35c5ae380c16
+seo-title: 使用する Adobe Analytics ツールの検討
+title: 使用する Adobe Analytics ツールの検討
+uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# どのAdobe Analyticsツールを使用する必要がありますか。
+# 使用する Adobe Analytics ツールの検討
 
 このヘルプページでは、各 Adobe Analytics ツールの推奨される使用例が紹介されています。ここにリストされている順にツールを検討するとよいでしょう。あるツールがニーズを満たさない場合は、次のツールの使用を検討します。
 
-Adobe Analytics の製品比較について詳しくは、[こちら](../../admin/c-analytics-product-comparison/analytics-product-comparison.md#concept_D9DB9FA42CA04F4C97765B6B31A0005D)を参照してください。
-
+Adobe Analytics の製品比較について詳しくは、[こちら](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)を参照してください。
 ## Adobe Analytics レポートユーザーインターフェイス {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** は、レポートおよび分析のあらゆるニーズに応える中心的なユーザーインターフェイスです。アドビでは、この製品への投資を続け、毎月、製品のアップデートをリリースしています。Analysis Workspaceで実行できないタスクがある場合は、以下のインターフェイスを考慮してください。**
+**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** は、レポートおよび分析のあらゆるニーズに応える中心的なユーザーインターフェイスです。アドビでは、この製品への投資を続け、毎月、製品のアップデートをリリースしています。Analysis Workspaceで実行できないタスクがある場合は、以下の他のインターフェイスを考慮してください。**
 
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** は以下の場合に使用します。
 
@@ -107,13 +106,13 @@ Adobe Analytics の製品比較について詳しくは、[こちら](../../admi
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** は以下の場合に使用します。
 
-* UIに表示されない変数（IPアドレス、エクスペリエンスクラウドID、Analytics訪問者ID、ページURL）にアクセスするには
+* UIに表示されない変数（IPアドレス、Experience Cloud ID、Analytics訪問者ID、ページURL）にアクセスするには
 * UI よりも詳細なデータへのアクセス（非正規化テーブル表示）
 * ピボットテーブルの入力に適した形式でのデータのダウンロード 
 * 顧客が Adobe データをサードパーティ製のデータ可視化ツールに入力することを希望する場合（ヒットレベルではなく、若干要約されたデータ）
 * すべての個別ディメンション値へのアクセス（Adobe Analytics で「低トラフィック」を検出した場合）
 
-**[Analyticsデータフィード](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** を使用する必要があります。
+**[Analyticsデータフィードは](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** 、次の場合に使用します。
 
 * アドビが提供する最も詳細なデータフィード（訪問者 ID、ヒット）の利用。
 * 顧客がアドビのデータを（送信可能な最も詳細なレベルで）顧客側のデータベースに格納したい場合。
