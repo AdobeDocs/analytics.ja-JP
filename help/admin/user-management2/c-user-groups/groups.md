@@ -1,19 +1,19 @@
 ---
 description: ユーザーグループの定義ページにあるエレメントの説明。
 seo-description: ユーザーグループの定義ページにあるエレメントの説明。
-seo-title: ユーザーグループの設定
+seo-title: ユーザーグループ設定
 solution: Analytics
 subtopic: ユーザーとグループ
-title: ユーザーグループの設定
+title: ユーザーグループ設定
 topic: 管理ツール
-uuid: b411032a-7d56-44fd- b676- abee4af756f9
+uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# ユーザーグループの設定（レガシー）
+# ユーザーグループ設定（レガシー）
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
 
 ユーザーグループの定義ページにあるエレメントの説明。
 
-**[!UICONTROL 管理]** 者/ **[!UICONTROL ユーザー管理]** / **[!UICONTROL グループ]** / **[!UICONTROL 新しいユーザーグループの追加]**
+**[!UICONTROL 管理者]** /ユ **[!UICONTROL ーザー管理]** /グル **[!UICONTROL ープ]** /新しいユ **[!UICONTROL ーザーグループの追加]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -63,7 +63,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>トラフィックレポート</b>:ページビュー数、訪問回数、実訪問者数など、トラフィックに基づくすべてのレポートに対するアクセス権を付与します。 </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>トラフィックレポート</b>:ページビュー数、訪問回数、実訪問者数など、トラフィックに基づくすべてのレポートへのアクセスを許可します。 </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>ツール</b>（除外 IP アドレス、分類、以前の ClickMap など、Reports &amp; Analytics で使用されているツールに対するアクセス権を付与） </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>ビデオおよびモバイルレポート</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>パスレポート</b>（次のページ、フォールアウト、ページでの滞在時間などのパスレポートに対するアクセス権を付与） </li> 
@@ -95,10 +95,10 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
      </ul> </p> </td> 
    <td colname="col2"> <p>グループメンバーはレポートグループのレポートのサブセットにアクセスできます。「<span class="uicontrol">カスタマイズ</span>」をクリックしてページを開き、グループメンバーがアクセスできるレポートグループの特定のレポートを選択します。 </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local">Analytics ツール</a>：一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。 </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF" format="dita" scope="local">レポートスイートツール</a>：API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。 </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="../../../admin/user-management2/c-customize-report-access/groups-metrics.md#concept_05D54436430E4320A48C7C685D337FBE" format="dita" scope="local">指標</a>：トラフィック、コンバージョン、カスタムイベント、ソリューションイベントおよびコンテンツ対応などに関する権限を有効にします。 </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local">ディメンション</a>：eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含め、詳細なレベルでユーザーアクセスをカスタマイズします。 </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">Analytics ツール</a>：一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。 </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local">レポートスイートツール</a>：API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。 </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local">指標</a>：トラフィック、コンバージョン、カスタムイベント、ソリューションイベントおよびコンテンツ対応などに関する権限を有効にします。 </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local">ディメンション</a>：eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含め、詳細なレベルでユーザーアクセスをカスタマイズします。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
