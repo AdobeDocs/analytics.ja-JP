@@ -1,16 +1,16 @@
 ---
 description: サーバー側転送の特徴、機能、問題に関するよくある質問です。
 seo-description: サーバー側転送の特徴、機能、問題に関するよくある質問です。
-seo-title: サーバー側転送に関するFAQ
-title: サーバー側転送に関するFAQ
-uuid: prop0bc9b- ebf7-414e-88a2- ebba3fd75c92
+seo-title: サーバー側転送の FAQ
+title: サーバー側転送の FAQ
+uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# サーバー側転送に関するFAQ
+# サーバー側転送の FAQ
 
 サーバー側転送の特徴、機能、問題に関するよくある質問です。
 
@@ -26,14 +26,14 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | 質問 | 回答 |
 |--- |--- |
 | Q：サイトでマルチスイートタギングを利用している場合はどうなりますか？サーバー側転送によって Audience Manager へのサーバーコールが 2 倍になりますか？ | いいえ。Analytics から Audience Manager に転送されるヒットは、ヒット内のレポートスイートの数に関係なく、1 回だけ Audience Manager に送信されます。ヒット内のレポートスイートのそれぞれに対して Audience Manager に対応するデータソースがある場合、それぞれが単一のヒットから適切に設定されます。ただし、現在クライアント側データ収集（DIL）を使用していて、Audience Management モジュールをインストールせずにサーバー側転送を有効にした場合は、Analytics ヒット内のレポートスイートの数に関係なく Audience Manager へのサーバーコールが 2 倍になることに注意してください。 |
-| Q:別のExperience Cloud Orgsにマッピングされているマルチスイートのタグ付きレポートスイートがある場合はどうなりますか? | 単一のAnalyticsヒットからのデータを、個別のExperience Cloud Orgsに属する2つのレポートスイートに送信することは避けてください。ただし、これが発生する場合は、ページ上のIDサービス設定との一致をExperience Cloud組織に転送するだけで済みます。 |
-| Q:複数スイートタギングがあり、レポートスイートのうち1つのみがExperience Cloud組織にマッピングされています。その他のレポートスイートは、 | マッピングされたレポートスイート上のExperience Cloud組織用に対応するデータ収集サーバーにヒットを転送します。ただし、マッピングされていないレポートスイートには、Audience Managerに関連付けられたデータソースが含まれていないので、Audience Managerでマッピングされていないレポートスイートのデータは記録されません。 |
-| Q:複数のExperience Cloud Orgsにマッピングされているレポートスイートがある場合はどうなりますか? | Analytics によってこのレポートスイートはマップされていないと見なされるので、このレポートスイートに対してサーバー側転送を有効にできません。この問題を解決するには、カスタマーケアにお問い合わせください。 |
+| 質問：別々のExperience cloud組織にマッピングされる複数スイートタグ付きレポートスイートがある場合はどうなりますか。 | 単一のAnalyticsヒットから別々のExperience cloud組織に属する2つのレポートスイートにデータを送信しないでください。この場合、ヒットは、ページ上のIDサービスの設定に一致するExperience cloud組織にのみ転送されます。 |
+| 質問：マルチスイートタギングを使用し、レポートスイートの1つのみがExperience cloud組織にマッピングされ、もう1つがマッピングされない場合はどうなりますか。 | マッピングされたレポートスイートのExperience cloud組織の対応するデータ収集サーバーにヒットを転送しますが、マッピングされていないレポートスイートはAudience Managerで関連データソースを持たないので、Audience Managerでマッピングされていないレポートスイートのデータは記録されません。 |
+| 質問：複数のExperience cloud組織にマッピングされたレポートスイートがある場合はどうなりますか。 | Analytics によってこのレポートスイートはマップされていないと見なされるので、このレポートスイートに対してサーバー側転送を有効にできません。この問題を解決するには、カスタマーケアにお問い合わせください。 |
 | Q：レポートスイートベースのサーバー側転送手法はトラッキングサーバーベースのサーバー側転送より低速ですか？ | いいえ。応答時間は同じです。 |
-| Q:Experience Cloud Orgs（またはAAMインスタンス）を2つ所有していて、Experience Cloud Orgsの間でデータを共有する場合はどうしますか。単一のAnalyticsヒットを複数のExperience Cloud Orgsにサーバー側で転送できますか。 | いいえ。1つのExperience Cloud組織で収集されたデータを別のExperience Cloud組織に共有する必要がある場合は、Audience Managerを使用して、あるAudience Managerインスタンスから別のオーディエンスに適用可能なオーディエンスを送信することをお勧めします。 |
+| 質問：2つのExperience Cloud Orgs（またはAAMインスタンス）があり、両方のExperience cloud組織間でデータを共有する場合はどうなりますか。 サーバー側で単一のAnalyticsヒットを複数のExperience cloud組織に転送できますか。 | いいえ。あるExperience cloud組織で収集したデータを別のExperience cloud組織と共有する必要がある場合は、Audience Managerインスタンスから別のAudience Marketplaceを使用して、該当するオーディエンスを別のExperience cloud組織に送信することをお勧めします。 |
 | Q：サーバー側転送によって Audience Manager または Analytics で追加の課金が発生しますか？ | Analytics では、追加の課金は発生しません。Audience Manager では、転送されたヒットは他のヒットと同じように扱われ、課金されます。これが、DIL とサーバー側転送を同時に有効にしないことが重要である理由です。この場合、データの重複が発生するだけでなく、2 重に課金されることになります。 |
 
 >[!MORE_LIKE_THIS]
 >
->* [サーバー側転送](ssf.md#concept_9563FCADF29748928E770EC5221B2685)
+>* [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
