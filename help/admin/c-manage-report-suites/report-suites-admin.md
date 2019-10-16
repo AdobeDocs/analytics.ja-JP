@@ -1,26 +1,26 @@
 ---
 description: レポートスイートでは、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。通常、レポートスイートは 1 つの Web サイトですが、複数サイトの数値を組み合わせて合計を示すグローバルセグメントとなる場合もあります。Adobe Analytics ソリューションにログインしたら、使用するレポートスイートを 1 つ選択します（レポートスイートを組み合わせたロールアップを使用する場合を除く）。また、サイトの一部に対してレポートを実行する場合は、レポートスイートが Web サイトより小さくなることがあります。Analytics ソリューションが集約され、これらのデータストアについてレポートします。管理ツールの Report Suite Manager では、レポートスイートでのデータの処理方法を制御するルールを定義できます。
 seo-description: レポートスイートでは、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。通常、レポートスイートは 1 つの Web サイトですが、複数サイトの数値を組み合わせて合計を示すグローバルセグメントとなる場合もあります。Adobe Analytics ソリューションにログインしたら、使用するレポートスイートを 1 つ選択します（レポートスイートを組み合わせたロールアップを使用する場合を除く）。また、サイトの一部に対してレポートを実行する場合は、レポートスイートが Web サイトより小さくなることがあります。Analytics ソリューションが集約され、これらのデータストアについてレポートします。管理ツールの Report Suite Manager では、レポートスイートでのデータの処理方法を制御するルールを定義できます。
-seo-title: Report Suite Manager
+seo-title: レポートスイートマネージャー
 solution: Analytics
-title: Report Suite Manager
+title: レポートスイートマネージャー
 topic: 管理ツール
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Report Suite Manager
+# レポートスイートマネージャー
 
 レポートスイートでは、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。通常、レポートスイートは 1 つの Web サイトですが、複数サイトの数値を組み合わせて合計を示すグローバルセグメントとなる場合もあります。Adobe Analytics ソリューションにログインしたら、使用するレポートスイートを 1 つ選択します（レポートスイートを組み合わせたロールアップを使用する場合を除く）。また、サイトの一部に対してレポートを実行する場合は、レポートスイートが Web サイトより小さくなることがあります。Analytics ソリューションが集約され、これらのデータストアについてレポートします。管理ツールの Report Suite Manager では、レポートスイートでのデータの処理方法を制御するルールを定義できます。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポ]** ートスイ **[!UICONTROL ート]**
 
 >[!NOTE]
 >
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. [仮想レポートスイートのドキュメント](/help/components/vrs/vrs-about.md)を参照してください。
+>Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. 仮想レポートスイートのドキ [ュメントを参照してください](/help/components/vrs/vrs-about.md)。
 
 ## Report Suite Manager の説明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -56,7 +56,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ロールアップ</span> </td> 
-   <td colname="col2"> <p>ロールアップとは、他の複数のレポートスイートのトラッキングデータを組み合わせる単一のレポートスイートのことです。 </p> <p>詳しくは、 <a href="../../admin/c-manage-report-suites/rollup-report-suite.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> ロールアップレポートスイート</a>. </p> </td> 
+   <td colname="col2"> <p>ロールアップとは、他の複数のレポートスイートのトラッキングデータを組み合わせる単一のレポートスイートのことです。 </p> <p>詳しくは、 <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> ロールアップレポートスイート</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 設定の編集</span> </td> 
@@ -64,7 +64,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新規作成</span> </td> 
-   <td colname="col2"><a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#concept_3CBBE252279C43069030EFBBD7D26376" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </td> 
+   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> コラムのカスタマイズ</span> </td> 
@@ -72,15 +72,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">レポートスイート ID</span> </td> 
-   <td colname="col2"><a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </td> 
+   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> サイトのタイトル</span> </td> 
-   <td colname="col2"> <p>管理ツール、およびマーケティングレポートヘッダーのレポートスイートドロップダウンリストで、レポートスイートを識別します。 </p> <p><a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>管理ツール、およびマーケティングレポートヘッダーのレポートスイートドロップダウンリストで、レポートスイートを識別します。 </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Base URL</span> </td> 
-   <td colname="col2"> <p>レポートスイートのベース ドメインを定義します。 </p> <p><a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>レポートスイートのベース ドメインを定義します。 </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
