@@ -5,7 +5,7 @@ seo-title: 使用する Adobe Analytics ツールの検討
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 このヘルプページでは、各 Adobe Analytics ツールの推奨される使用例が紹介されています。ここにリストされている順にツールを検討するとよいでしょう。あるツールがニーズを満たさない場合は、次のツールの使用を検討します。
 
 Adobe Analytics の製品比較について詳しくは、[こちら](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)を参照してください。
+
 ## Adobe Analytics レポートユーザーインターフェイス {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** は、レポートおよび分析のあらゆるニーズに応える中心的なユーザーインターフェイスです。アドビでは、この製品への投資を続け、毎月、製品のアップデートをリリースしています。Analysis Workspaceで実行できないタスクがある場合は、以下の他のインターフェイスを考慮してください。**
