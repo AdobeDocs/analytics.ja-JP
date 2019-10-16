@@ -8,7 +8,7 @@ title: レポートスイートに対するユーザーグループの割り当�
 topic: 管理ツール
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -21,12 +21,12 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 ユーザーグループをレポートスイートに割り当てる方法について手順を説明します。
 
-[!UICONTROL レポートスイート]ページでは、会社のレポートスイートを表示し、設定できます。Analytics は、グループメンバーシップでレポートスイートのアクセスを管理します。初回のセットアップで、必要なグループを作成（各グループにレポートスイートを割り当てる）し、ユーザーアカウントを適切な     [グループ](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F)に割り当てます。
+[!UICONTROL レポートスイート]ページでは、会社のレポートスイートを表示し、設定できます。Analytics は、グループメンバーシップでレポートスイートのアクセスを管理します。初回のセットアップで、必要なグループを作成（各グループにレポートスイートを割り当てる）し、ユーザーアカウントを適切な     [グループ](/help/admin/user-management2/c-user-groups/groups.md)に割り当てます。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
-1. **[!UICONTROL [レポートスイート]**]をクリックします。
-1. レポートスイートを選択します。
-1. **[!UICONTROL レポートスイート権限の管理]** ページで、レポートスイートに割り当てるグループを選択します。
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
+1. Click **[!UICONTROL Report Suites]**.
+1. レポートスイートの選択.
+1. Under **[!UICONTROL Report Suite Permissions Management]** page, select the groups to assign to the report suite:
 
    **[!UICONTROL 利用可能なグループ：]**&#x200B;現在定義されているすべてのグループが表示されます。Select the desired groups, then click **[!UICONTROL Add]**. 割り当てられたグループは「次を含むグループ」フィールド（右側）に表示されます。
 
