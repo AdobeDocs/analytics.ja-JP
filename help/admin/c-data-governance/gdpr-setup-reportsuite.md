@@ -5,7 +5,7 @@ seo-title: レポートスイートのデータのラベル設定
 title: レポートスイートのデータのラベル設定
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
 >[!NOTE]
 >
->新しいレポートスイートが作成されるたび、または既存のレポートスイート内で新しい変数が有効になるたびに、ラベル付けを確認する必要があります。 また、新しいソリューション統合が有効になると、ラベル設定が必要になる可能性のある新しい変数を公開できるので、ラベル設定を確認する必要があります。モバイルアプリまたは Web サイトを再実装すると、既存の変数の使用方法が変わる可能性があり、これにより、ラベルを更新する必要が生じる可能性があります。
+>ラベル設定は、新しいレポートスイートが作成されるたびに、または既存のレポートスイート内で新しい変数を有効にする際に、確認する必要があります。また、新しいソリューション統合が有効になると、ラベル設定が必要になる可能性のある新しい変数を公開できるので、ラベル設定を確認する必要があります。モバイルアプリまたは Web サイトを再実装すると、既存の変数の使用方法が変わる可能性があり、これにより、ラベルを更新する必要が生じる可能性があります。
 
 ## レポートスイートのラベルの割り当てまたは編集 {#section_39F829F35A274EACA532E2F6FF392996}
 
@@ -41,27 +41,27 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
    ![](assets/info.png)
 
-1. チェックボックスをオンにして 1 つ以上の変数を選択してから、右側の&#x200B;**[!UICONTROL 編集]アイコンをクリックして変数を編集します。**
+1. チェックボックスをオンにして 1 つ以上の変数を選択してから、右側の&#x200B;**[!UICONTROL 編集]**&#x200B;アイコンをクリックして変数を編集します。
 
    ![](assets/edit.png)
 
-1. **ID データ**&#x200B;ラベルダイアログが自動的に開きます。これらのラベルでは、単独または他のデータと組み合わせることで、個人を特定できるデータまたは個人への直接連絡が可能となるデータを分類します。For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC)
+1. **ID データ**&#x200B;ラベルダイアログが自動的に開きます。これらのラベルでは、単独または他のデータと組み合わせることで、個人を特定できるデータまたは個人への直接連絡が可能となるデータを分類します。For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
    >[!NOTE]
    >
-   >Data Usage Labeling &amp; Enforcement(DULE)フレームワークは、ソリューション/サービス/プラットフォーム間で、Adobe Experience cloud全体のデータに関するメタデータを取得、通信および使用するための統一された方法を提供するように設計されています。 データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。
+   >Data Usage Labeling &amp; Enforcement（DULE）フレームワークは、様々なソリューション／サービス／プラットフォームにまたがり、共通の方法で Adobe Experience Cloud 全体のデータに関するメタデータを取得、伝達、利用できるようにすることを目的としています。データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。
 
    ![](assets/identity_labels.png)
 
-1. 「**機密データ**」セクションを開いて、位置情報データに分類される機密データラベルを設定します。For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC)
+1. 「**機密データ**」セクションを開いて、位置情報データに分類される機密データラベルを設定します。For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. この節では、データプライバシーアクセスおよび削除リクエストの各変数の処理方法、およびこれらのリクエストのデータの件名IDを検索するためにスキャンする必要がある変数を定義する方法についてアドビに説明します。 For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B)
+1. Open the Data Privacy Data section to set **Data Governance** Labels. この節では、データプライバシーアクセスおよび削除リクエストの各変数の処理方法、およびこれらのリクエストのデータの件名IDを検索するためにスキャンする必要がある変数を定義する方法についてアドビに説明します。 For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
-1. すべてのラベル設定が完了したら、「**[!UICONTROL 適用]」をクリックします。**
+1. すべてのラベル設定が完了したら、「**[!UICONTROL 適用]**」をクリックします。
 
 ## レポートスイートへのラベルのコピー{#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -69,15 +69,15 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
 1. コピーする変数を含んでいる変数グループ（標準ディメンション、コンバージョンディメンションなど）を選択します。一度にコピーできるラベルは変数の 1 グループのみであることに注意してください。
 1. このグループの一部、またはすべての変数を選択します。
-1. データガバナンスダイアログの右上にある「**[!UICONTROL レポートスイートにコピー]」をクリックします。**
+1. データガバナンスダイアログの右上にある「**[!UICONTROL レポートスイートにコピー]**」をクリックします。
 
    ![](assets/apply_as_template.png)
 
-1. 「**[!UICONTROL すべて選択]」をチェックして、選択した変数のラベルをすべてのレポートスイートにコピーするか、ラベルをコピーするレポートスイートを個別に選択します。**
+1. 「**[!UICONTROL すべて選択]**」をチェックして、選択した変数のラベルをすべてのレポートスイートにコピーするか、ラベルをコピーするレポートスイートを個別に選択します。
 
    >[!IMPORTANT]
    >
-   >選択するすべてのレポートスイートは、Experience cloud組織にマッピングする必要があります。
+   >選択したレポートスイートは、すべて Experience Cloud 組織にマッピングする必要があります。
 
    1 つの変数または変数のセットのラベルを別のレポートスイートにコピーする場合、コピーは、コピー先レポートスイートの対応する位置の変数に対しておこなわれます。標準ディメンション、標準指標、ソリューションディメンションおよびイベント、データ処理ディメンションの場合、ラベルは、コピー先のレポートスイートの&#x200B;**同じ名前**&#x200B;の変数にコピーされます。
 
@@ -89,7 +89,7 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
    >[!IMPORTANT]
    >
-   >ラベルが正しくコピーされていることを確認するために、必ずレポートスイートをチェックする必要があります。 これは、ID または DEL ラベルを持つ変数で特に重要です。
+   >常にコピー先レポートスイートをチェックして、ラベルが適切にコピーされていることを確認する必要があります。これは、ID または DEL ラベルを持つ変数で特に重要です。
 
-1. Click **[!UICONTROL Apply]**.
+1. **[!UICONTROL 適用]**&#x200B;をクリックします。
 
