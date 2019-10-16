@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: ユーザーとグループ
 title: ユーザー管理の概要
 topic: 管理ツール
-uuid: 6f1d67cd- e169-461b-9f08- eec2c6b4e6df
+uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 
 ユーザー管理ページでレポートのユーザーとグループを管理すると、ユーザーとグループを管理して、レポート、ツールおよびレポートスイートへのアクセスを制御できます。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理]** /ユーザー **[!UICONTROL の編集]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /ユ]** ーザ **[!UICONTROL ー管理]** /ユー **[!UICONTROL ザーの編集]**
 
 ## ユーザーアカウントの説明 {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -50,7 +50,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 | [!UICONTROL 姓] | ユーザーの姓。 |
 | [!UICONTROL タイトル] | （オプション）ユーザーの肩書。 |
 | [!UICONTROL 電話番号] | （オプション）ユーザーのビジネス用電話番号。 |
-| [!UICONTROL 電子メールアドレス] | ユーザーのビジネス用電子メールアドレス。 |
+| [!UICONTROL Email Address] | ユーザーのビジネス用電子メールアドレス。 |
 
 **デフォルトのダッシュボード**
 
@@ -82,7 +82,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ユーザー</span> </td> 
-   <td colname="col2"> <p> ユーザーに選択されたグループの権限のみを許可します。「<span class="uicontrol">利用可能なグループ</span>」フィールド（左側）で目的のグループを選択し、「<span class="uicontrol">追加</span>」をクリックします。割り当てられたグループは「<span class="uicontrol">割り当てられたグループ</span>」フィールド（右側）に表示されます。For information about creating and managing groups, see <a href="../../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> ユーザーに選択されたグループの権限のみを許可します。「<span class="uicontrol">利用可能なグループ</span>」フィールド（左側）で目的のグループを選択し、「<span class="uicontrol">追加</span>」をクリックします。割り当てられたグループは「<span class="uicontrol">割り当てられたグループ</span>」フィールド（右側）に表示されます。For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
