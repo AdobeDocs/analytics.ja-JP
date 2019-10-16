@@ -6,16 +6,16 @@ solution: Analytics
 subtopic: ボットルール
 title: ボットルールの概要
 topic: 管理ツール
-uuid: 3cb9e29d-1c37-43de- b7ac-34441093a60e
+uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 5574b9e37e68971f7ecaa05056a30dab0b3d5d47
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
 # ボットルールの概要
 
-ボットルールを使用すると、既知のスパイダーおよびボットによって生成されたレポートスイートからトラフィックを削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。
+ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックをレポートスイートから削除できます。 ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。
 
 ボットルールを定義すると、すべてのトラフィックが定義済みのルールと比較されます。ボットルールのいずれかと一致するトラフィックは、レポートスイートでは収集されず、レポート対象から除外されます。
 
@@ -27,20 +27,20 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 | ルールタイプ | 説明 |
 |--- |--- |
-| 標準IABボットルール | 「 [!UICONTROL IABボットフィルタリングルール] を有効にする」を選択すると、 [IABの](https://www.iab.com) （International Advertising Bureau） International Spiders&amp; Bots Listを使用してボットトラフィックが削除されます。ほとんどの顧客は最低でもこのオプションを選択しています。 |
-| カスタムボットルール | ユーザーエージェント、IPアドレスまたはIP範囲に基づいて、カスタムボットルールを定義および追加できます。 |
+| 標準IABボットルール | 「 [!UICONTROL IABボットフィルタリングルール] を有効にする [」を選択すると、](https://www.iab.com) IAB（International Advertising Bureauの）International Spiders &amp; Bots listを使用してボットトラフィックが削除されます。 ほとんどのお客様は、少なくともこのオプションを選択します。 |
+| カスタムボットルール | ユーザーエージェント、IPアドレス、またはIP範囲に基づいて、カスタムボットルールを定義して追加できます。 |
 
 ## 標準IABボットルール
 
-標準IABボットルールは、"IABボットフィルタリングルール [!UICONTROL を有効にする」] チェックボックスをオンにしてオンにすることができます。これにより、ボットトラフィックを削除するためにIABの（International Advertising Bureau） International Spiders&amp; Bots Listにボットが削除されます。IABはこのリストを毎月更新します。
+標準IABボットルールは、「IABボットフィルタールールを有効にする」チェッ [!UICONTROL クボックスをオンにすることで] 有効にできます。 この選択により、ボットトラフィックを削除するために、IAB(International Advertising Bureau)のInternational Spiders &amp; Bots listのボットが削除されます。 IABはこのリストを毎月更新します。
 
 ![](assets/bot-iab-checkbox.png)
 
-アドビは詳細な IAB ボットリストをお客様に提供できませんが、ボットレポートを使用して、サイトにアクセスしたボットのリストを表示できます。ボットをIABリストに送信するには、IABを訪問 [](https://www.iab.com)します。
+アドビは詳細な IAB ボットリストをお客様に提供できませんが、ボットレポートを使用して、サイトにアクセスしたボットのリストを表示できます。ボットをIABリストに送信するには、 [IABにアクセスします](https://www.iab.com)。
 
 ## カスタムボットルール
 
->[!Ntoo]
+>[!N注]
 >ユーザーインターフェイスでは 500 個のルールを手動で定義することが可能です。この制限を超える場合は、「ファイルのインポート」および「ボットルールをエクスポート」オプションを使用して、ルールを一括処理する必要があります。
 
 カスタムボットルールを使用すると、定義した条件に基づいてトラフィックをフィルターできます。
@@ -76,7 +76,7 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 ### カスタムボットルールの定義
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者に移動]**&#x200B;し、1つまたは複数のレポートスイートを選択して、 **[!UICONTROL 一般]** / **[!UICONTROL ボットルール]**&#x200B;をクリックします。
+1. **[!UICONTROL Analytics]** /管理者に移動し、1つ以上のレ **[!UICONTROL ポートスイートを選択して、一般/ボ]**&#x200B;ットルー ********&#x200B;ルをクリックします。
 1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
 1. 「**[!UICONTROL 保存]**」をクリックします。変更が反映されるまで、最大 30 分かかります。
 
@@ -84,11 +84,11 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 ボットルールを一括してインポートするには、ルールを定義した CSV ファイルをアップロードします。
 
-次の列を使用してCSVファイルを作成します。
+次の列を順番に並べてCSVファイルを作成します。
 
 | 列 1 | 列 2 | 列 3 | 列 4 | 列 5 |
 |--- |--- |---|---|---|
-| ボットの名前 | IP の開始値 | IP の終了値 | Agent Match Rule<br>(contains or starts with)</br> | 以下を除外<br>するエージェント（255文字の制限）</br> |
+| ボットの名前 | IP の開始値 | IP の終了値 | Agent Match Rule<br>(contains or starts with)</br> | Agent Exclude<br>（255文字以内）</br> |
 
 次の 3 種類のボットルールを定義できます。
 
@@ -100,7 +100,7 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 * **「次を含む」または「次で始まる」ユーザーエージェント**：以下を含むエージェント列に、照合する 1 つのユーザーエージェント文字列を指定します。「エージェントの一致ルール」フィールドに、「次を含む&#x200B;**」または「次で始まる&#x200B;**」を入力して、実行する照合のタイプを指定します。An optional value can be included in the Agent Exclude column that defines one or more pipe-delimited ( `|` ) strings that the Agent does not contain. 文字列の照合では、大文字と小文字が区別されません。「IP の開始値」列と「IP の終了値」列の両方は、空にする必要があります。
 
-* **単一のIPアドレスまたはワイルドカードの一致**:単一のIPアドレス（ `10.10.10.1`）またはワイルドカードのIPアドレス（ `10.10.*.*`）に一致させるには、"IPの開始」列と"IPの終了」列の両方に同じ値を設定します。「一致ルール」、「以下を含むエージェント」、「以下を含まないエージェント」は空にする必要があります。
+* **単一のIPアドレスまたはワイルドカードの一致**:単一のIPアドレス( `10.10.10.1`)またはワイルドカードIPアドレス( `10.10.*.*`)を一致させるには、「IPの開始値」列と「IPの終了値」列の両方に同じ値を指定します。 「一致ルール」、「以下を含むエージェント」、「以下を含まないエージェント」は空にする必要があります。
 
 * **IP 範囲の一致**：IP の開始値列とIP の終了値列を使用して、IP アドレスの範囲を定義します。Wildcards can be used to match IP ranges, for example `10.10.10.*` to `10.10.20.*`. 「一致ルール」、「以下を含むエージェント」、「以下を含まないエージェント」は空にする必要があります。
 
@@ -121,13 +121,13 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 ボットルールは、すべての解析データに適用されます。ボットルールによって削除されたデータは、ボットレポートとボットページレポートにのみ表示されます。
 
-VISTA rules are applied after Bot Rules (see [Processing Order](../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E)).
+VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
 
 **高ヒット訪問の処理**：訪問において 100 を超えるヒットが発生した場合、訪問において経過した時間（秒数）が訪問のヒット数以下かどうかを判定します。このような場合、長く集中的な訪問はデータを処理する時間がかかるので、訪問が強制的に終了され、新たな訪問として計測が継続されます。一般に、高ヒットの訪問はボット攻撃によるもので、通常の訪問者による閲覧とは考えられません。
 
 >[!NOTE]
 >
->ヒットがサーバー *`bots`* コールとして [請求されるヒット](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/overage-overview.html)。
+>とマークされたヒッ *`bots`* トは、サーバーコール [として請求されます。](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
