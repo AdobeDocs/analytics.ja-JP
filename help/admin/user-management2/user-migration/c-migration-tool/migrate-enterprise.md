@@ -5,7 +5,7 @@ seo-title: Enterprise ID と Federated ID の Analytics ユーザーアカウン
 title: Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 Enterprise または Federated ID として Analytics ユーザーアカウントを Admin Console に移行する方法。
 
-## 前提条件 {#concept-e60d8deb3fc54a1a81f1f47a26658de3}
+## 前提条件 {#prereqs}
 
 Admin Console でユーザーを管理するための前提条件。
 
@@ -52,19 +52,19 @@ Admin Console でユーザーを管理するための前提条件。
 
    1. *ユーザーを既に移行済みの場合は* 、 **[!UICONTROL Analytics]** / **[!UICONTROL Analyticsのユーザーとアセットに移動します]**。
 
-      ![Step Info](assets/admin-analytics-users-assets.png)
+      ![ステップ情報](assets/admin-analytics-users-assets.png)
 
    1. On the [!DNL Users] page, select users, then click **[!UICONTROL Export to CSV]**.
 
-      ![Step Info](assets/export-csv-migrate.png)
+      ![ステップ情報](assets/export-csv-migrate.png)
 
    1. Open the downloaded [!DNL User List.csv] file in Excel.
 
-      Be prepared to copy the , , and  values to a  file (described in the next step).*`Email`**`First Name`**`Last Name`*[!DNL sample.csv]
+      、、およびの値をファ *`Email`*&#x200B;イルにコ *`First Name`*&#x200B;ピ *`Last Name`* ーす [!DNL sample.csv] る準備をします（次の手順で説明）。
 
       >[!IMPORTANT]
       >
-      >The values in the CSV file must be comma delimited.
+      >CSVファイル内の値はコンマで区切る必要があります。
 
       **ヒント**：この手順の間に、ユーザーリストを整理して、Enterprise または Federated ID 移行に有効な電子メール ID を持つユーザーのみを含めることをお勧めします。
 
@@ -83,7 +83,7 @@ Admin Console でユーザーを管理するための前提条件。
 1. Admin Console から CSV テンプレートをダウンロード：
    1. On the Users tab, click **[!UICONTROL Add users by CSV]**, then **[!UICONTROL Download CSV Template]**.
 
-      ![Step Info](assets/add-users-csv.png)
+      ![ステップ情報](assets/add-users-csv.png)
 
    1. Choose **[!UICONTROL Standard Template]**.
 
@@ -91,7 +91,7 @@ Admin Console でユーザーを管理するための前提条件。
 
       ![](assets/download-csv-template.png)
 
-1. Copy the , , and  column values from  to the corresponding columns in the  template.*`Email`**`First Name`**`Last Name`*[!DNL User Logins List.tab][!DNL sample.csv]
+1. の、および *`Email`*&#x200B;列の値を、テ *`First Name`*&#x200B;ンプレート *`Last Name`* 内の対応する列 [!DNL User Logins List.tab] にコピー [!DNL sample.csv] します。
 
    **テンプレートファイルの例**
 
@@ -121,11 +121,11 @@ Admin Console でユーザーを管理するための前提条件。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID タイプ </p> </td> 
-   <td colname="col2"> <p><span class="term"> Federated ID or  Enterprise ID.</span><span class="term"></span> </p> </td> 
+   <td colname="col2"> <p><span class="term"> Federated IDまたは</span> Enterprise ID <span class="term"></span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ドメイン </p> </td> 
-   <td colname="col2"> <p>ドメインが  Domain and  Email column are matching the domain(s) established in the  prerequisites.<span class="term"></span><span class="term"></span><a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"></a> </p> </td> 
+   <td colname="col2"> <p>ドメインが 「 <span class="term"> Domain</span> 」列と「 <span class="term"> Email</span> 」列は、前提条件で確立されたドメインと一致し <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"> ます</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国コード </p> </td> 
@@ -138,13 +138,13 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 
 >[!NOTE]
 >
->Other columns, such as  and  can be blank.*`Product Configurations`**`Admin Roles`*
+>その他の列（およびなど） *`Product Configurations`* は空白 *`Admin Roles`* にできます。
 
-1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in [Step 3](../c-migration-tool/migrate-enterprise.md#step-190321c6025947e38b195daed122c063).).
-1. In Analytics, run the migration tool (as described in Migrate Analytics user accounts).[](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)
+1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
+1. Analyticsで、移行ツールを実行します(Analyticsユーザーアカウントの移 [行を参照](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9))。
 1. Click **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
-   ![Step Info](assets/migrate-as-enterprise.png)
+   ![ステップ情報](assets/migrate-as-enterprise.png)
 
    When you click **[!UICONTROL Migrate]**, user are linked to the Enterprise ID/Federated ID account in Admin Console. The permissions of the legacy user account in Analytics will match the permissions granted to the Enterprise/Federated ID login in **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Product Profiles]**. 「移行完了」バケットにユーザー ID が表示されます。従来の [!DNL my.omniture.com] アクセスを無効にできます。
 
