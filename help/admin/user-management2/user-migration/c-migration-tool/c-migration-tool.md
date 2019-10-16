@@ -5,7 +5,7 @@ seo-title: Admin Console への Analytics ユーザーの移行
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 ---
 
@@ -123,7 +123,7 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>ユーザー ID を移行するにはどうしたらよいですか。 </p> </td> 
-   <td colname="col2"> <p> 管理者ページの「ユーザー管理」の下にある「<a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local">ユーザー ID を移行</a>」をクリックします。ツールを使用して、ユーザーを Admin Console の製品プロファイル（Analytics の権限グループから複製したもの）に追加します。ユーザー ID の移行は自分のペースでおこなうことができます。 </p> <p>管理権限が必要です。移行が完了したら、元に戻すことはできません。 </p> <p>移行終了日になると、ログイン会社内のユーザーの <span class="filepath">my.omniture.com</span> へのアクセス権が無効になります。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>注意：移行前に、ユーザーおよびグループを監査することをお勧めします。古い未使用のアカウントや、製品へのアクセス権を持つべきではなくなっているアカウント（もう組織にいない従業員など）を削除してください。 </p> <p>Related topic: <a href="../c-migration-tool/migrate-enterprise.md#topic-6fd22bc6fbc14fd69ce6a8518a5b9c00" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> 管理者ページの「ユーザー管理」の下にある「<a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local">ユーザー ID を移行</a>」をクリックします。ツールを使用して、ユーザーを Admin Console の製品プロファイル（Analytics の権限グループから複製したもの）に追加します。ユーザー ID の移行は自分のペースでおこなうことができます。 </p> <p>管理権限が必要です。移行が完了したら、元に戻すことはできません。 </p> <p>移行終了日になると、ログイン会社内のユーザーの <span class="filepath">my.omniture.com</span> へのアクセス権が無効になります。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>注意：移行前に、ユーザーおよびグループを監査することをお勧めします。古い未使用のアカウントや、製品へのアクセス権を持つべきではなくなっているアカウント（もう組織にいない従業員など）を削除してください。 </p> <p>Related topic: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行は Analytics の実装やデータの収集方法に影響しますか。 </p> </td> 
@@ -237,7 +237,7 @@ Admin Console の使用メリットには、次のようなものがあります
      <li id="li_BD943B3245FF47E7A0DDA6107EA1EF89">アセット転送 </li> 
      <li id="li_2DF7004D67ED4C6CB40461EEFB038A5A">ユーザーの有効期限 </li> 
      <li id="li_980E3F5B98F344A492B0EBAD7F1DA60C">ユーザーログ </li> 
-    </ul> <p>これらの機能は、引き続き Analytics のユーザー管理で使用できます。 </p> <p>詳細については、<a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local">Admin Console でサポートされない Analytics の機能</a>を参照してください。 </p> </td> 
+    </ul> <p>これらの機能は、引き続き Analytics のユーザー管理で使用できます。 </p> <p>詳細については、<a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md" format="dita" scope="local">Admin Console でサポートされない Analytics の機能</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console でいくつかの設定を作成し、Analytics の権限グループにマッピングしました。移行が始まると、このような設定はどうなりますか。 </p> </td> 
