@@ -5,7 +5,7 @@ seo-title: ID 拡張
 title: ID 拡張
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 "expandIds": true
 ```
 
-このオプションを要求に含める方法の例については、[サンプルの JSON 要求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F)を参照してください。For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+このオプションを要求に含める方法の例については、[サンプルの JSON 要求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)を参照してください。For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -30,7 +30,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie ID の拡張 </p> </td> 
-   <td colname="col2"> <p>Many Analytics customers originally used the (Legacy) <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external"> Analytics Cookie </a>, but are now using the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service (ECID) </a>, previously known as the Marketing Cloud ID Service (MCID). 移行後に、こうしたお客様の Web サイトを初めて訪問したユーザーの場合は、ECID のみが使用されます。ただし、従来の Cookie しか利用できなかった時期に Web サイトを初めて訪問し、それ以降も訪問し続けているユーザーの場合は、一部のデータで両方の Cookie が使用され、古いデータでは Analytics Cookie のみ、最新のデータでは稀に ECID のみが使用される場合もあります。 </p> <p>Analytics（訪問者 ID）Cookie または ECID で識別された 1 人の訪問者に関するすべてのデータが確実に検出される必要があります。このため、現在は ECID を使用し、以前は Analytics Cookie を使用していた場合、いずれかのタイプの ID を使用して要求を送信する場合はいつでも、要求に両方の ID を含めるか、expandIDs オプションを指定する必要があります。expandIDs を指定すると、指定した任意の Cookie ID に対応する他の ECID または Analytics Cookie がないかどうかチェックされます。新しく特定されたこれらの Cookie ID を含めるように要求が自動的に拡張されます。 </p> </td> 
+   <td colname="col2"> <p>Analytics をご利用の多くのお客様は、以前までは（従来の）<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external">Analytics Cookie</a> を使用していましたが、現在は <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> ID サービス（ECID）</a>（旧称 Marketing Cloud ID サービス（MCID））を使用しています。移行後に、こうしたお客様の Web サイトを初めて訪問したユーザーの場合は、ECID のみが使用されます。ただし、従来の Cookie しか利用できなかった時期に Web サイトを初めて訪問し、それ以降も訪問し続けているユーザーの場合は、一部のデータで両方の Cookie が使用され、古いデータでは Analytics Cookie のみ、最新のデータでは稀に ECID のみが使用される場合もあります。 </p> <p>Analytics（訪問者 ID）Cookie または ECID で識別された 1 人の訪問者に関するすべてのデータが確実に検出される必要があります。このため、現在は ECID を使用し、以前は Analytics Cookie を使用していた場合、いずれかのタイプの ID を使用して要求を送信する場合はいつでも、要求に両方の ID を含めるか、expandIDs オプションを指定する必要があります。expandIDs を指定すると、指定した任意の Cookie ID に対応する他の ECID または Analytics Cookie がないかどうかチェックされます。新しく特定されたこれらの Cookie ID を含めるように要求が自動的に拡張されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタム ID から Cookie ID への拡張 </p> </td> 
@@ -50,18 +50,18 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 「expandIDs」フラグに加えて、Analyticsは、データプライバシーリクエストの一部として渡すことのできる他の2つのフラグをサポートします。 これらのフラグとそのデフォルト値は次のとおりです。
 
 ```
-"analyticsDeleteMethod": “anonymize”
-“priority”: “normal”
+"analyticsDeleteMethod": "anonymize"
+"priority": "normal"
 ```
 
-今後、「analyticsDeleteMethod」では、デフォルト値の「anonymize」に加え、「purge」という値もサポートされる可能性があります。この値がサポートされると、単純に DEL ラベルが付いたヒットフィールドの値が更新されるのではなく、ヒット全体が削除されるようになります。
+今後、「analyticsDeleteMethod」は、「anymize」のデフォルト値に加えて、「purge」の値をサポートする可能性があります。 この値がサポートされると、単純に DEL ラベルが付いたヒットフィールドの値が更新されるのではなく、ヒット全体が削除されるようになります。
 
-priority フィールドでは、デフォルト値に加え、「low」という値もサポートされています。この値は、データ主体による要求の結果として発生した要求ではないために 30 日以内に完了しなければならないという法的義務が課せられていない要求に対して指定する必要があります。アドビでは、サブジェクトから開始されたリクエスト以外の理由でPrivacy Service APIの使用をお勧めします。 プライバシーサービスAPIは、データのクレンジングや修復に適したツールではなく、意図しない結果が生じます。
+デフォルト値に加えて、優先度フィールドでも「low」の値がサポートされます。 この値は、データ主体による要求の結果として発生した要求ではないために 30 日以内に完了しなければならないという法的義務が課せられていない要求に対して指定する必要があります。アドビでは、サブジェクトから開始されたリクエスト以外の理由でPrivacy Service APIの使用をお勧めします。 プライバシーサービスAPIは、データのクレンジングや修復に適したツールではなく、意図しない結果が生じます。
 
 [!NOTE]
 プライバシー [サービスAPIは](https://www.adobe.io/apis/experienceplatform/gdpr.html) 、時間に依存するデータプライバシーリクエストを満たすのに役立つように提供されています。 他の目的でのこのAPIの使用は、アドビではサポートされていません。また、ユーザーが開始する、優先度の高いデータプライバシーリクエストを、アドビがタイムリーに回避する機能に影響を与える可能性があります。 大規模な訪問者グループに誤って送信されたデータの消去など、他の目的でプライバシーサービスAPIを使用しないでください。
 
 また、データプライバシー削除リクエストの結果、ヒットが削除（更新または匿名化）された訪問者は、その状態情報をリセットすることにも注意してください。 そのような訪問者が再び Web サイトを訪問した場合は、新規訪問者として扱われます。eVar の割り当ては最初からすべてやり直され、訪問回数、リファラー、最初に訪問したページなどの情報も最初から収集し直されます。この副作用は、データフィールドを消去し、プライバシーサービスAPIがこの使用に適していない理由の1つに焦点を当てる必要がある場合には望ましくありません。
 
-PIIやデータの問題を取り除くためのさらなるレビューと作業レベルの提供を行うには、担当のアカウントマネージャー(CSM)にお問い合わせください。
+PII やデータに関連する問題が発生した場合は、アカウントマネージャー（CSM）に連絡し、エンジニアリングアーキテクトコンサルティングチームと協力して問題解決に必要な労力のレベルを確認したうえで、問題を解決するよう依頼してください。
 
