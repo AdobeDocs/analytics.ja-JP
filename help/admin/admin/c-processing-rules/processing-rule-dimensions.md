@@ -8,7 +8,7 @@ title: 処理ルールで使用可能なディメンション
 topic: 管理ツール
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンテキストデータ変数 </p> </td> 
-   <td colname="col2"> <p>ヒットで送信される名前付き変数。 </p> <p>注意：コンテキストデータ変数に含まれるすべてのデータは、レポート内で表示するためにレポート変数にコピーする必要があります。コンテキストデータ変数は、クリックストリームデータフィードなどのレポートインターフェイスで表示できません。 </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> コンテキストデータ変数の eVar へのコピー </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> コンテキストデータ変数を使用したイベントの設定 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> コンテキストデータ変数</a> </p> </td> 
+   <td colname="col2"> <p>ヒットで送信される名前付き変数。 </p> <p>注意：コンテキストデータ変数に含まれるすべてのデータは、レポート内で表示するためにレポート変数にコピーする必要があります。コンテキストデータ変数は、クリックストリームデータフィードなどのレポートインターフェイスで表示できません。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> コンテキストデータ変数の eVar へのコピー </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> コンテキストデータ変数を使用したイベントの設定 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> コンテキストデータ変数</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,19 +58,19 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
  <tbody> 
   <tr> 
    <td colname="col1"> <p>prop 1 ～ 75 </p> </td> 
-   <td colname="col2"> <p> <code> prop1～prop75</code> </p> </td> 
+   <td colname="col2"> <p> <code> prop1 - prop75</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>階層 1 ～ 5 </p> </td> 
-   <td colname="col2"> <p> <code> hier1 ～ hier5</code> </p> </td> 
+   <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>サイトセクション </p> </td> 
-   <td colname="col2"> <p> <code>s.channel</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>サーバー </p> </td> 
-   <td colname="col2"> <p> <code>s.server</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページ URL </p> </td> 
-   <td colname="col2"> <code>s.pageURL</code>。<code>s.pageURL</code> が指定されていない場合は現在のページ URL。 </td> 
+   <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>クエリ文字列パラメーター </p> </td> 
@@ -164,7 +164,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
  <tbody> 
   <tr> 
    <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> ～ <code>evarN</code> </p> </td> 
+   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>キャンペーントラッキングコード </p> </td> 
@@ -176,7 +176,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>リスト変数 1 ～ 3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> ～ <code>s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>購入 ID </p> </td> 
@@ -211,7 +211,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
  <tbody> 
   <tr> 
    <td colname="col1"> <p>イベント 1 ～ 1000 </p> <p>（SiteCatalyst 15 のお客様の場合、イベント 1 ～ 100） </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> ～ <code>event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase、scView、scAdd およびその他の買い物かごイベント </p> </td> 
