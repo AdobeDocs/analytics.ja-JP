@@ -1,22 +1,22 @@
 ---
 description: 新しいレポートスイートを作成するには、事前定義済みのテンプレートを選択するか、モデルとなる既存のレポートスイートを 1 つ選択して使用します。
 seo-description: 新しいレポートスイートを作成するには、事前定義済みのテンプレートを選択するか、モデルとなる既存のレポートスイートを 1 つ選択して使用します。
-seo-title: 新しいレポートスイート-設定
+seo-title: 新しいレポートスイート - 設定
 solution: Analytics
-title: 新しいレポートスイート-設定
+title: 新しいレポートスイート - 設定
 topic: 管理ツール
-uuid: 3508f684-11a3-4c8f- a233- bea6bafd57c0
+uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 新しいレポートスイート-設定
+# 新しいレポートスイート - 設定
 
 新しいレポートスイートを作成するには、事前定義済みのテンプレートを選択するか、モデルとなる既存のレポートスイートを 1 つ選択して使用します。
 
-使用する要素の説明[レポートスイートの作成時](../../../admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md#task_67033B9710CB49F9B71A4DE374A538A0)に使用されるエレメントの説明。
+使用される要素の説明。[レポートスイートの作成時](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)に使用されるエレメントの説明。
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live 日 </p> </td> 
-   <td colname="col2">このレポートスイートがアクティブになると予想される日をアドビに知らせます。If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">このレポートスイートがアクティブになると予想される日をアドビに知らせます。If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 予想日別ページビュー数</span> </td> 
@@ -60,11 +60,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 基準通貨</span> </td> 
-   <td colname="col2"> <p>すべての通貨データの保存に使用するデフォルトの通貨を指定します。Analytics はデータを受け取った時点での為替レートを使用して、別の通貨のトランザクションをベース通貨に変換します。 </p> <p> Analytics レポーティングでは、<span class="varname"> currencyCode</span> JavaScript変数を使用して、特定のトランザクションの通貨を特定します。 </p> </td> 
+   <td colname="col2"> <p>すべての通貨データの保存に使用するデフォルトの通貨を指定します。Analytics はデータを受け取った時点での為替レートを使用して、別の通貨のトランザクションをベース通貨に変換します。 </p> <p> Analytics レポーティングでは、 <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">2 バイト文字サポートの無効化</span> </td> 
-   <td colname="col2"> <p>レポートスイートのマルチバイト文字サポートを無効にします。マルチバイト文字のサポートが無効になっている場合、システムはデータを ISO-8859-1 形式であると想定します。Web ページの文字セットは、<span class="varname"> charSet</span> JavaScript変数。 </p> <p>マルチバイト文字のサポートでは、UTF-8 を使用してレポートスイートに文字が保存されます。この要求を受けると、Web ページの文字セットから UTF-8 文字セットにデータが変換されて、マーケティングレポートで任意の言語を使用できるようになります。 </p> <p>既存のレポートスイートのマルチバイト文字サポートを変更する場合は、担当のアカウントマネージャーまたはカスタマーケアにお問い合わせください。 </p> </td> 
+   <td colname="col2"> <p>レポートスイートのマルチバイト文字サポートを無効にします。マルチバイト文字のサポートが無効になっている場合、システムはデータを ISO-8859-1 形式であると想定します。Web ページの文字セットは、 <span class="varname"> charSet</span> javaScript変数。 </p> <p>マルチバイト文字のサポートでは、UTF-8 を使用してレポートスイートに文字が保存されます。この要求を受けると、Web ページの文字セットから UTF-8 文字セットにデータが変換されて、マーケティングレポートで任意の言語を使用できるようになります。 </p> <p>既存のレポートスイートのマルチバイト文字サポートを変更する場合は、担当のアカウントマネージャーまたはカスタマーケアにお問い合わせください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> このスイートの Ad Hoc Analysis をアクティブにする</span> </td> 
