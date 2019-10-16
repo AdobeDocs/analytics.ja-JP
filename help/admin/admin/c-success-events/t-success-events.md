@@ -5,9 +5,9 @@ seo-title: 成功イベントの設定
 solution: Analytics
 title: 成功イベントの設定
 topic: 管理ツール
-uuid: ca3d3f46-5fad-4481- aef6-04CAD6bc6e2d
+uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,8 +16,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 成功イベントを設定する方法について手順を説明します。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
-1. レポートスイートを選択します。
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. レポートスイートの選択.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**.
 
    ![手順の結果](assets/success_event_page.png)
@@ -27,20 +27,21 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >Before you change an event type, see [Change event type](../../../admin/admin/c-success-events/event-type.md#concept_2A6FCC19E7FC429DBDFA65BC640BD448).
+   >イベントタイプを変更する前に、「イベントタイプを変更する」 [を参照してくださ](/help/admin/admin/c-success-events/event-type.md)い。
 
-   ここに挙げた要素について詳しくは、[成功イベントページ - 説明](../../../admin/admin/c-success-events/success-event.md#section_681ECEC981694CABBDBF00E18165B447)を参照してください。
+   ここに挙げた要素について詳しくは、[成功イベントページ - 説明](/help/admin/admin/c-success-events/success-event.md)を参照してください。
 
-1. **[!UICONTROL 極性]** 列で、この指標の上昇傾向が良いか悪いかを指定します。
-1. **[!UICONTROL 表示]** 列では、メニュー、指標セレクター、計算指標ビルダーおよびセグメントビルダーの標準（組み込み）指標、カスタムイベントおよび組み込みイベントを非表示にできます。
+1. In the **[!UICONTROL Polarity]** column, specify whether an upward trend for this metric is good or bad.
+1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.
 
-   この設定は、ユーザーインターフェイス内での表示にのみ影響し、指標やイベントのデータ収集には影響しません。[さらに詳しく...](../../../admin/admin/metric-visibility.md#concept_A85EB68D27534C4581AF1DCF5702DDE5) 1. 説明を入力します。
+   この設定は、ユーザーインターフェイス内での表示にのみ影響し、指標やイベントのデータ収集には影響しません。[さらに詳しく...](/help/admin/admin/metric-visibility.md)
+1. 説明を入力します。
 1. イベントを常に記録するかどうかを選択します。
-1. [パーティシペーション指標](/help/components/c-variables/c-metrics/metrics-participation.md)を有効または無効にします。
+1. パーティシペーション指標を有 [効または無効にしま](/help/components/c-variables/c-metrics/metrics-participation.md)す。
 
    >[!NOTE]
    >
-   >パーティシペーションは最大100個のカスタムイベントに対して有効にできます。100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
+   >パーティシペーションは、最大100個のカスタムイベントに対して有効にできます。 100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
