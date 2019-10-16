@@ -5,7 +5,7 @@ seo-title: Adobe ID 用に Analytics ユーザーアカウントを移行する
 title: Adobe ID 用に Analytics ユーザーアカウントを移行する
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
   </tr> 
   <tr> 
    <td colname="col1"> <p>従来のログインの無効化 </p> </td> 
-   <td colname="col2"> <p>会社 ID を使用している従来のログインが無効化されます。ユーザーは、Adobe ID または Enterprise ID を使用して、Experience Cloud にアクセスするようになります。すべてのユーザーがこのフェーズに達すると、移行が完了します。 </p> <p>移行時には、従来のログインは無効になります。 ユーザーはExperienceCloud.adobe.com <span class="filepath"> にリダイレクトされ、</span> Adobe IDまたはEnterprise IDを使用してログインする必要があります。 </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>会社 ID を使用している従来のログインが無効化されます。ユーザーは、Adobe ID または Enterprise ID を使用して、Experience Cloud にアクセスするようになります。すべてのユーザーがこのフェーズに達すると、移行が完了します。 </p> <p>移行時には、従来のログインは無効になります。 ユーザーはExperienceCloud.adobe.com <span class="filepath"> にリダイレクトされ、</span> Adobe IDまたはEnterprise IDを使用してログインする必要があります。 </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
