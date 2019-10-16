@@ -5,7 +5,7 @@ seo-title: レポートスイートのデータガバナンス設定の表示／
 title: レポートスイートのデータガバナンス設定の表示／管理
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 管理ツールのデータガバナンスダイアログには、Experience Cloud 組織にマッピングされているかどうかや、データ保持ポリシーが設定されているかどうかなど、データガバナンスが設定されているレポートスイートの概要が表示されます。
 
 1. Adobe Experience Cloud にログインします。
-1. **[!UICONTROL Analytics]** /管理者 **[!UICONTROL /]** Data Governanceに移 **[!UICONTROL 動します]** 。
+1. **[!UICONTROL Analytics]** /管理者/ **[!UICONTROL データ管理に]****[!UICONTROL 移動します。]**
 
    ログイン会社のレポートスイートがすべて表示されます。
 
@@ -38,7 +38,7 @@ source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>マップ済み</b>：このレポートスイートは、ログインした Analytics ログイン会社として、同じ Experience Cloud 組織に既にマッピングされています。この設定のあるレポートスイートのみ、ラベル設定できます。 </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>レポートスイートをマップ</b>：このリンクをクリックすると、Experience Cloud 組織に<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">レポートスイートをマップ</a>できます。 <p>つまり、Experience cloud組織 — レポートスイートマッピング管理ページにリダイレクトされ、レポートスイートを検索して適切な組織に割り当てる必要があります。 それが完了したら、このデータガバナンス画面に戻ります。 </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>レポートスイートをマップ</b>：このリンクをクリックすると、Experience Cloud 組織に<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">レポートスイートをマップ</a>できます。 <p>すると、Experience Cloud 組織 – レポートスイートマッピング管理ページにリダイレクトされます。そこから、レポートスイートを検索して適切な組織に割り当てる必要があります。それが完了したら、このデータガバナンス画面に戻ります。 </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>別の組織にマップ済み</b>：このレポートスイートは、別の Experience Cloud 組織に既にマッピングされています。 </li> 
     </ul> </td> 
   </tr> 
