@@ -5,9 +5,9 @@ seo-title: 有料検索検知
 solution: Analytics
 title: 有料検索検知
 topic: 管理ツール
-uuid: 41aadf17-7b8b-49ce-84ca- dc3293660205
+uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
 
 ## 有料検索検知 - Descriptions {#section_0C2CFA0AF77B47098BE37CB024665D0D}
 
-The following table describes the fields and options you use to [configure paid search detection](../../../admin/admin/paid-search-detection/t-paid-search-detection.md#task_D0BBDB78771E4BDBB495A004A080D647).
+次の表に、有料検索検知を設定する際に使用するフィールドとオ [プションを示します](/help/admin/admin/paid-search-detection/t-paid-search-detection.md)。
 
 | エレメント | 説明 |
 |--- |--- |
 | 検索エンジン | ドロップダウンリストから検索エンジンを選択します。検索エンジンごとに異なるクエリ文字列パラメーターを使用する場合は、エンジンを指定します。通常は、値 Any で十分です。 |
-| クエリ文字列 | 大文字と小文字を区別するルールのセットを指定して、特定の値を含めるか、含めないようにします。この値は、"?"を除くクエリ文字列パラメータにする必要があります。<br>**注意**:有料検索検知では大文字と小文字が区別されます。例えば、クエリ文字列パラメータとしてPIDを指定するルールは、レポートにpidを表示しません。組織が大文字と小文字を混在使用している場合、正確な値を別々のルールとして設定し、必要なすべてのクエリ文字列パラメーターが対象になるようにします。</br> |
+| クエリ文字列 | 大文字と小文字を区別するルールのセットを指定して、特定の値を含めるか、含めないようにします。この値は、「?」を除くクエリ文字列パラメーターにする必要があります。 <br>**注意**:有料検索検知では大文字と小文字が区別されます。 例えば、クエリ文字列パラメーターとしてPIDを指定するルールでは、レポートにpidが表示されません。 組織が大文字と小文字を混在使用している場合、正確な値を別々のルールとして設定し、必要なすべてのクエリ文字列パラメーターが対象になるようにします。</br> |
