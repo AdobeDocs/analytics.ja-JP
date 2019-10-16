@@ -8,7 +8,7 @@ title: コンテキストデータ変数を使用したイベントの設定
 topic: 管理ツール
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ![](assets/add-context-variable.png)
 
-次のルール定義は、「コンテキストデ [](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) ータ変数をeVarにコピー」ルールで拡張し、特定のコンテキストデータ変数を含むすべてのヒットにイベントを設定します。
+次のルール定義は、「コンテキストデ [](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) ータ変数をeVarにコピー」ルールで拡張し、特定のコンテキストデータ変数を含むすべてのヒットにイベントを設定します。
 
 | ルールセット | 値 |
 |---|---|
