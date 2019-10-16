@@ -9,7 +9,7 @@ title: Analytics ツールの権限のカスタマイズ
 topic: 管理ツール
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 >[!NOTE]
 >
->2016年秋のリリース（10月21日）では、グループ管理に変更が加えられました。 See [Administrative Changes - Fall 2016](../../../admin/user-management2/c-user-management/permissions-changes.md#concept_86581595B86B47D5B8F90282FC3E31EF) for a summary of changes.
+>2016年秋のリリース（10月21日）では、グループ管理に変更が加えられました。 See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
 
 ## レポートアクセス - Analytics ツール
 
