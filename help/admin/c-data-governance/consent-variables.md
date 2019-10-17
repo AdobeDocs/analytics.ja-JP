@@ -1,20 +1,20 @@
 ---
-description: データプライバシーの同意管理用の変数。
-seo-description: データプライバシーの同意管理用の変数。
-seo-title: 同意管理変数
+description: データプライバシーのプライバシーレポート用の変数。
+seo-description: データプライバシーのプライバシーレポート用の変数。
+seo-title: プライバシーレポート変数
 solution: Analytics
-title: 同意管理変数
+title: プライバシーレポート変数
 topic: 管理ツール
 translation-type: tm+mt
-source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
+source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ---
 
 
-# 同意管理変数
+# プライバシーレポート変数
 
 プライバシーデータの管理に関する追加の支援を提供するために、一連の予約済み変数を特定のコンテキストデータ変数と組み合わせて使用できます。
-これらの同意管理変数は、各分析ヒットの同意ステータスを取得するための使いやすいフレームワークです。
+これらのプライバシーレポート変数は、各分析ヒットのプライバシーステータスを取り込むための使いやすいフレームワークです。
 
 ## 変数
 
@@ -35,7 +35,7 @@ source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
 
 ## レポート
 
-Analytics管理コンソール内で利用可能な新しいプライバシー設定を使用して、同意管理変数を有効にできます。
+Analytics管理コンソールで利用できる新しいプライバシー設定を使用して、プライバシーレポート変数を有効にできます。
 
 各レポートスイートは、次のように設定できます。
 1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
@@ -57,7 +57,7 @@ Analytics管理コンソール内で利用可能な新しいプライバシー�
 
 ## 実装
 
-同意管理予約変数を使用するために、3つのコンテキストデータ変数が事前に定義されています。  これらの変数の管理方法と設定の永続化方法は、各導入エンジニアが決定します。
+3つのコンテキストデータ変数が、プライバシーレポート管理予約変数と連携するように事前に定義されています。  これらの変数の管理方法と設定の永続化方法は、各導入エンジニアが決定します。
 
 コンテキスト [データ変数の実装に関する一般的なガイダンスは](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) 、「コンテキストデータ変数」を参照してください。
 
