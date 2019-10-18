@@ -1,20 +1,20 @@
 ---
-description: Activity Map の使用と互換性のないブラウザーのパラメーターを示します。これらの設定は無効にする必要があります。
-seo-description: Activity Map の使用と互換性のないブラウザーのパラメーターを示します。これらの設定は無効にする必要があります。
+description: '[!DNL Activity Map]の使用と互換性のないブラウザーパラメーターを表示します。 これらの設定は無効にする必要があります。'
+seo-description: '[!DNL Activity Map]の使用と互換性のないブラウザーパラメーターを表示します。 これらの設定は無効にする必要があります。'
 seo-title: ブラウザー拡張のトラブルシューティング
 solution: Analytics
 title: ブラウザー拡張のトラブルシューティング
 topic: Activity Map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# ブラウザー拡張のトラブルシューティング
+# ブラウザー拡張機能のトラブルシューティング
 
-Activity Mapの使用と互換性のないブラウザーのパラメーターが表示されます。これらの設定は無効にする必要があります。
+Shows the browser parameters that are not compatible with the use of [!DNL Activity Map]. これらの設定は無効にする必要があります。
 
 ## Chrome
 
