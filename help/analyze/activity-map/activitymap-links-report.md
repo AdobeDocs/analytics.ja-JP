@@ -5,9 +5,9 @@ seo-title: リンクレポート
 solution: Analytics
 title: リンクレポート
 topic: Activity Map
-uuid: 1e7ca5d8- d144-4a21- a2f9- e05bd3232c59
+uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 リンクレポートは、現在のページで見つかったリンクについて報告します。そのページ用に収集されたすべてのリンクについて報告するわけではありません。
 
-ページ上のリンクレポートリンクのクリック数（またはその他の指標）のランクを 1 つのビューで表示したい場合があります。こうすると、リンク同士を比較しやすくなります。ページ上のすべてのリンクのランクリスト（リンク ID 別）、クリック情報（回数と割合）、ページ内の領域を含むページ上のリンクレポートを作成します。Activity Map ツールバーの「ページ上のリンク」レポートボタンをクリックします。
+ページ上のリンクレポートリンクのクリック数（またはその他の指標）のランクを 1 つのビューで表示したい場合があります。こうすると、リンク同士を比較しやすくなります。ページ上のすべてのリンクのランクリスト（リンク ID 別）、クリック情報（回数と割合）、ページ内の領域を含むページ上のリンクレポートを作成します。Click the Links in Page report button in the [!DNL Activity Map] toolbar.
 
-ブラウザーフレームの下の Activity Map ダッシュボードに、**[!UICONTROL ページ上のリンク]レポートが開きます。**
+ブラウザーフレームの下の ダッシュボードに、**[!UICONTROL ページ上のリンク]レポートが開きます。**[!DNL Activity Map]
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -40,7 +40,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> リンク ID </td> 
-   <td colname="col2">リンクのプライマリID </td> 
+   <td colname="col2">リンクのプライマリID(プライマリIDの定義方法について詳しくは、[新しいリンクトラッキング手法](/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> クリック数 </td> 
@@ -63,11 +63,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **データをフィルター**
 
-特定のリンクに的を絞る場合は、「**[!UICONTROL データをフィルター]」フィールドで関連する用語を検索できます。**&#x200B;検索条件に一致するリンクのみがオーバーレイを持ちます。フィルターがない場合は、「[Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md)」で指定されているオーバーレイが表示されます。
+特定のリンクに的を絞る場合は、「**[!UICONTROL データをフィルター]」フィールドで関連する用語を検索できます。**&#x200B;検索条件に一致するリンクのみがオーバーレイを持ちます。Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
-ライブモードでは、ページ上のリンクレポートに、数分にわたるトレンドデータが表示されます。
+ライブモードでは、ページ上のリンクレポートに数分間のトレンドデータが表示されます。
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> リンク ID </td> 
-   <td colname="col2">リンクのプライマリ ID。新しい[リンクトラッキング手法]（/help/analyze/activity- map/activitymap- link- tracking/activitymap- md）によってプライマリIDがどのように定義されているかについて詳しくは、「リンクトラッキング方法」を参照してください。 </td> 
+   <td colname="col2">リンクのプライマリ ID。プライマリIDが新しい[リンクトラッキング手法](/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodology.md)で定義される方法について詳しくは、を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> リンククリック数 </td> 
