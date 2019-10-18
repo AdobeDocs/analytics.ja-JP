@@ -6,7 +6,7 @@ solution: Analytics
 title: プライバシーレポート変数
 topic: 管理ツール
 translation-type: tm+mt
-source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -63,21 +63,21 @@ Analytics管理コンソールで利用できる新しいプライバシー設�
 
 ### SSF
 
-* コンテキストデータ：contextData。['cm.ssf']
+* コンテキストデータ：`contextData.['cm.ssf']`
 * 指定可能な値：
    * 1 — 値「1」を送信する場合、これはサーバー側転送がオプトアウト状態であることを示します。 この変数と対になる値「1」は、Adobe Audience Managerとのこのヒットの共有をブロックします。 AAM ePrivacy Complianceを参 [照してください。](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * このパラメーターには、他の値は使用できません。
 
 ### DMP
 
-* コンテキストデータ：contextData。['opt.dmp']
+* コンテキストデータ：`contextData.['opt.dmp']`
 * 指定可能な値：
    * N — 値「N」を送信する場合、コンシューマーがデータ管理プラットフォームへの共有をオプトアウトしていることを示します。 **** 注意：この変数を「N」に設定しても、現在AAMへの共有はブロックされませんが、AAM機能の呼び出しをブロックする機能は、2020年の初めに追加される予定です。 現在のところ、AAMにヒットが送信され `c.cm.ssf=1` るのをブ `c.opt.dmp=N` ロックするように、との両方を設定することをお勧めします。
    * Y — 値「Y」を送信すると、コンシューマーがデータ管理プラットフォームへの共有を選択していることを示します。
 
 ### 販売
 
-* コンテキストデータ：contextData。['opt.sell']
+* コンテキストデータ：`contextData.['opt.sell']`
 * 指定可能な値：
    * N — 値「N」を送信する場合、消費者がデータの共有または販売を第三者にオプトアウトしていることを示します。
    * Y — 値「Y」を送信する場合、消費者がデータの共有または第三者への販売を選択していることを示します。
