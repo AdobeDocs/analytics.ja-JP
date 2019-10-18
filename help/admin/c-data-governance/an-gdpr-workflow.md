@@ -5,7 +5,7 @@ seo-title: Adobe Analyticsデータプライバシーワークフロー
 title: Adobe Analyticsデータプライバシーワークフロー
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
 translation-type: tm+mt
-source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -24,11 +24,11 @@ Adobe AnalyticsとData Privacy Readinessへようこそ。 このワークフロ
  <tbody> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step1_icon.png" id="image_15849358972A4846A54FCB51997576D5" /> データプライバシー関連のデータを含む可能性のあるレポートスイートが、Experience Cloud（またはIMS）組織にマッピングされていることを確認します。 </p> <p>データのプライバシーリクエストは、Experience cloud組織を使用して送信され、その組織が要求するすべてのレポートスイートに適用されます。 要求は、その組織にマッピングされていないレポートスイートには適用されません。ログイン会社のレポートスイートだったとしてもそれは同様です。 </p> </td> 
-   <td colname="col3"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">組織へのレポートスイートのマッピング</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p>Refer to <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external"> Map report suites to an organization.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step2_icon.png" id="image_372B2C65DFAD46E39AE4D715313ABD0E"/>データ保持ポリシーを設定します。 </p> </td> 
-   <td colname="col3"> <p>アドビがデータプライバシーデータのアクセス/削除の要求に対応するには、データ保持ポリシーを設定する必要があります。 </p> <p>詳しくは、この<a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html" format="html" scope="external">Analytics データ保持の FAQ</a> を参照してください。 </p> </td> 
+   <td colname="col3"> <p>アドビがデータプライバシーデータのアクセス/削除の要求に対応するには、データ保持ポリシーを設定する必要があります。 </p> <p>For more information, see this <a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html" format="html" scope="external"> Analytics Data Retention FAQ.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step3_icon.png" id="image_30DB956290CC4E64A7085B46364BE059" /> SDULE/Data Privacy Label、Adobe Analytics ID、名前空間、IDの拡張について詳しく理解してください。 </p> </td> 
@@ -45,7 +45,7 @@ Adobe AnalyticsとData Privacy Readinessへようこそ。 このワークフロ
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step5_icon.png" id="image_E9BEF83BF30F4528A030F23F71E5E5D8" /> Adobe Data Privacy APIに接続し、アクセスおよび削除のリクエストを送信します。 </p> </td> 
-   <td colname="col3"> <p>As an Adobe Analytics customer, you can submit individual Data Privacy requests to access and delete customer data, by calling the <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html" format="html" scope="external"> Adobe Experience Cloud Data Privacy API</a>. </p> <p>You can submit any Analytics identifiers (as described in the section <!--<a href="/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E" format="dita" scope="local"> Labeling Best Practices</a>-->) in the requests along with their respective namespace IDs (data source IDs). </p> </td> 
+   <td colname="col3"> <p>As an Adobe Analytics customer, you can submit individual Data Privacy requests to access and delete customer data, by calling the <a href="https://www.adobe.io/apis/cloudplatform/gdpr.html" format="html" scope="external"> Adobe Experience Cloud Data Privacy API.</a> </p> <p>You can submit any Analytics identifiers (as described in the section <!--<a href="/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E" format="dita" scope="local"> Labeling Best Practices</a>-->) in the requests along with their respective namespace IDs (data source IDs). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step6_icon.png" id="image_5CF03706FECD4F8BBAE0D0C19F98B8BB" /> レポートスイートのデータプライバシー設定を表示および管理します。 </p> </td> 
