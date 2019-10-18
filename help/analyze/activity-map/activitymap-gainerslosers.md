@@ -5,9 +5,9 @@ seo-title: カスタマイズ可能なオーバーレイ
 solution: Analytics
 title: カスタマイズ可能なオーバーレイ
 topic: Activity Map
-uuid: c1e56480- c1df-4a81-8a2a-42ea1362175c
+uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 オーバーレイを使用すると、複数の方法でデータの視覚化を設定できるので、ページ上のリンクの人気度を簡単に確認、理解できます。
 
-オーバーレイを使用すると、クリックデータをページ上で直接視覚化できます。これが、Activity Map のような視覚的分析ツールと Reports &amp; Analytics のような主に表やグラフィックを使用するツールとの違いです。
+オーバーレイを使用すると、クリックデータをページ上で直接視覚化できます。This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
 
-Activity Map では次の 3 つのタイプのオーバーレイが提供されています。
+[!DNL Activity Map] には、次の3種類のオーバーレイが用意されています。
 
 * グラデーションオーバーレイ（ヒートマップ）
 * バブルオーバーレイ
@@ -46,19 +46,19 @@ Activity Map では次の 3 つのタイプのオーバーレイが提供され�
 
 バブルオーバーレイは、オーバーレイの内容（指標、割合またはランク）を、小さい引き出し線のバブルで表示します。
 
-バブルオーバーレイは、ツールバーの「オーバーレイのタイプ」でこのオーバーレイを選択したときに表示されます。バブルオーバーレイは、[Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) の選択（上位 30 件、上位 50 件、すべて、など）に一致するすべてのリンクに関して表示されます。グラデーションオーバーレイは、このオプションが選択されていない場合に表示されます。
+バブルオーバーレイは、ツールバーの「オーバーレイのタイプ」でこのオーバーレイを選択したときに表示されます。Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). グラデーションオーバーレイは、このオプションが選択されていない場合に表示されます。
 
 ![](assets/bubble_overlay.png)
 
 >[!NOTE]
 >
->サブメニューのバブルオーバーレイは、サブメニューを表示するときにのみ表示されます。
+>サブメニューのバブルオーバーレイは、サブメニューを表示する場合にのみ表示されます。
 >
 >![](assets/bubbles_submenu.png)&gt;
 
 ## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL 勝者および敗者のオーバーレイ]** は、ライブモードでのみ使用できます。現在の期間の指標を直前の期間の指標と比較することにより、リンクアクティビティのリアルタイムの変化を報告します。これにより、視覚的に説得力のある方法で、トレンドをリアルタイムで表示できます。
+**[!UICONTROL 勝者および敗者のオーバーレイは]** 、ライブモードでのみ使用できます。 現在の期間の指標を直前の期間の指標と比較することにより、リンクアクティビティのリアルタイムの変化を報告します。これにより、視覚的に説得力のある方法で、トレンドをリアルタイムで表示できます。
 
 このリアルタイムのオーバーレイでは、前回の期間と現在の期間の間の指標値の変化に基づいてクリック数をランク付けします。
 
