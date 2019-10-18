@@ -1,28 +1,28 @@
 ---
-description: Activity Map Settings パネルを使用すると、すべてのタイプのオーバーレイ視覚化の設定およびプロパティを変更できます。
-seo-description: Activity Map Settings パネルを使用すると、すべてのタイプのオーバーレイ視覚化の設定およびプロパティを変更できます。
-seo-title: Activity Mapの設定
+description: '[!DNL Activity Map]設定パネルを使用すると、すべてのタイプのオーバーレイビジュアライゼーションの設定とプロパティを変更できます。'
+seo-description: '[!DNL Activity Map]設定パネルを使用すると、すべてのタイプのオーバーレイビジュアライゼーションの設定とプロパティを変更できます。'
+seo-title: '[!DNL Activity Map]の設定を構成する'
 solution: Analytics
-title: Activity Mapの設定
+title: '[!DNL Activity Map]の設定を構成する'
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Activity Mapの設定
+# Configure [!DNL Activity Map] settings
 
-Activity Map Settings パネルを使用すると、すべてのタイプのオーバーレイ視覚化の設定およびプロパティを変更できます。
+The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
 
-Activity Map Settings パネルにアクセスするには、Activity Map ツールバーの歯車アイコンをクリックします。
+Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
 
 設定パネルの表示内容は、選択したアプリケーションモードによって異なります。「その他」タブには一般的な設定が含まれています。
 
 | 標準 | **[!UICONTROL グラデーション]**&#x200B;オーバーレイまたは&#x200B;**[!UICONTROL バブル]オーバーレイ** |
 |---|---|
-| ライブ | **[!UICONTROL 勝者&amp;敗者]**、 **[!UICONTROL グラデーション]**、 **[!UICONTROL バブル]** オーバーレイ |
+| ライブ | **[!UICONTROL 勝者と敗者]**、グラデー **[!UICONTROL ション]**、バブル **** オーバーレイ |
 | その他 | レポートスイートの選択と言語の選択 |
 
 ## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
@@ -97,7 +97,7 @@ Activity Map Settings パネルにアクセスするには、Activity Map ツー
  <tbody> 
   <tr> 
    <td colname="col1"> レポートスイート </td> 
-   <td colname="col2"> <p>アクセス可能なレポートスイートリストはウェブページタグで定義されるレポートスイートに制限されなくなりました。選択したレポートスイート（ページ上のタグのいずれかに対応）を別のレポートスイートで置き換えることができるようになりました。この新しいレポートスイートは、ページ上のタグにリンクされる必要はありません。Activity Map の設定で選択されているレポートスイートを変更した場合、<span class="uicontrol">保存</span>処理を行うと、影響を受ける Analytics レポートがすべて更新されます。 </p> <p> <p>重要：仮想レポートスイートは、ライブモードとは互換性がなく、標準モードのみと互換性があります。標準レポートスイートのライブモードのときに、このダイアログで仮想レポートスイートを選択した場合、ここで「<span class="uicontrol">OK</span>」をクリックすると、標準モードが表示されます。 </p> </p> <p>さらに、レポートスイートのカレンダータイプ（グレゴリオ暦、小売、カスタムなど）に一致するように、カレンダーコントロールが再初期化されます。 </p> </td> 
+   <td colname="col2"> <p>アクセス可能なレポートスイートリストはウェブページタグで定義されるレポートスイートに制限されなくなりました。選択したレポートスイート（ページ上のタグのいずれかに対応）を別のレポートスイートで置き換えることができるようになりました。この新しいレポートスイートは、ページ上のタグにリンクされる必要はありません。If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>重要：仮想レポートスイートは、ライブモードとは互換性がなく、標準モードのみと互換性があります。標準レポートスイートのライブモードのときに、このダイアログで仮想レポートスイートを選択した場合、ここで「<span class="uicontrol">OK</span>」をクリックすると、標準モードが表示されます。 </p> </p> <p>さらに、レポートスイートのカレンダータイプ（グレゴリオ暦、小売、カスタムなど）に一致するように、カレンダーコントロールが再初期化されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 言語 </td> 
