@@ -1,20 +1,20 @@
 ---
-description: 'Activity Map UIは、2つの部分から構成されています '
-seo-description: 'Activity Map UIは、2つの部分から構成されています '
-seo-title: Activity Mapユーザーインターフェイス
+description: '[!DNL Activity Map] UIは2つの部分で構成されています '
+seo-description: '[!DNL Activity Map] UIは2つの部分で構成されています '
+seo-title: '[!DNL Activity Map]ユーザーインターフェイス'
 solution: Analytics
-title: Activity Mapユーザーインターフェイス
+title: '[!DNL Activity Map]ユーザーインターフェイス'
 topic: Activity Map
-uuid: f6734b60-0b77-4f50- a45a-6a6936d1524e
+uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Activity Mapユーザーインターフェイス
+# [!DNL Activity Map] ユーザインターフェース
 
-Activity Map の UI は、次の 2 つの部分で構成されています。
+The [!DNL Activity Map] UI is comprised of two parts:
 
 * Web ページと、挿入されたオーバーレイおよびツールバーを表示する上部ウィンドウ
 * レポートを表示する下部パネル
