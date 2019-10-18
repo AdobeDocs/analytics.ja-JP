@@ -1,20 +1,20 @@
 ---
-description: 正しいブラウザープラグインがインストールされている場合は、Web ページから直接 Activity Map を起動できます。
-seo-description: 正しいブラウザープラグインがインストールされている場合は、Web ページから直接 Activity Map を起動できます。
-seo-title: Activity Map の起動
+description: 正しいブラウザープラグインがインストールされている場合は、Webページから直接[!DNL Activity Map]を起動できます。
+seo-description: 正しいブラウザープラグインがインストールされている場合は、Webページから直接[!DNL Activity Map]を起動できます。
+seo-title: '[!DNL Activity Map]を起動'
 solution: Analytics
-title: Activity Map の起動
+title: '[!DNL Activity Map]を起動'
 topic: Activity Map
-uuid: f617fbc3- a577-4bd2- a316-578959219874
+uuid: f617fbc3-a577-4bd2-a316-578959219874
 translation-type: tm+mt
-source-git-commit: 8f72f8cf086be0eade5616b074123a9f22e33347
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Activity Map の起動{#launch-activity-map}
+# Launch [!DNL Activity Map]{#launch-activity-map}
 
-正しいブラウザープラグインがインストールされている場合は、Web ページから直接 Activity Map を起動できます。
+Assuming that the correct browser plug-in is installed, you can launch [!DNL Activity Map] directly from your web page.
 
 1. ブラウザーのアドレスバーの右側にあるAdobe Analyticsアイコンをクリックします。\
    ![](assets/an_icon.png){width="90px"}
