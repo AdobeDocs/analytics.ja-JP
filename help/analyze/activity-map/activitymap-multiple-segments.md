@@ -1,20 +1,20 @@
 ---
-description: Activity Map 内で複数セグメントフィルターを適用できます。
-seo-description: Activity Map 内で複数セグメントフィルターを適用できます。
+description: '[!DNL Activity Map]内で複数セグメントフィルターを適用できます。'
+seo-description: '[!DNL Activity Map]内で複数セグメントフィルターを適用できます。'
 seo-title: 顧客セグメント
 solution: Analytics
 title: 顧客セグメント
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # 顧客セグメント
 
-Activity Map 内で複数セグメントフィルターを適用できます。
+Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
 >[!NOTE]
 >
@@ -30,4 +30,4 @@ Activity Map 内で複数セグメントフィルターを適用できます。
 
 ![](assets/two_segments.png)
 
-選択したセグメントは、Activity Map で提示されているすべての Analytics レポート、つまり、オーバーレイ、**[!UICONTROL ページ上のリンク]**&#x200B;レポート、**ページの詳細]レポートに適用されます。[!UICONTROL **
+The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
