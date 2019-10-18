@@ -7,7 +7,7 @@ title: リンクトラッキング手法
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Activity Map によって PII データがどのように収集される可能性があるかについて詳しくは、[こちら](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6)を参照してください。
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). For more information on how [!DNL Activity Map] may be collecting PII data, go [here](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
 
-Activity Map では、次の 2 つの ID に基づいてリンクトラッキングを行います。
+[!DNL Activity Map] は、次の2つのIDに基づいてリンクトラッキングを行います。
 
 * プライマリ ID：リンクの認識可能なパラメーターです。
 * リンク領域：このセカンダリパラメーターを使用すると、ページまたは領域の全体的なリンク領域を表現する文字列を指定できます。このパラメーターは、ユーザーが指定しない場合は自動的に生成できます。
@@ -48,7 +48,7 @@ HTML に s_objectid が含まれている場合、プライマリ ID はデフ�
 * リンクの ID が適切に表現されます。一般的に複数のリンクが同じテキストになることがないので、プライマリ ID の重複が大幅に減少します。
 * デバイスやブラウザーのタイプをまたがってプライマリ ID の一貫性が確保されます。
 * ページ上のリンク再配置の影響を受けません。
-* 読みやすさが向上するので、Activity Map 外でリンクトラッキングレポートの分析を開始できます。
+* It improves readability, so users can start analyzing Link tracking reports outside [!DNL Activity Map].
 
 ## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
@@ -112,9 +112,9 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Configuration variables {#section_634197EACD404AC086DF9A03B813C8C3}
+## 設定変数 {#section_634197EACD404AC086DF9A03B813C8C3}
 
-以下の変数はあくまでも参照目的です。Activity Map は追加設定なしで適切に設定できますが、以下の変数を使用して実装をカスタマイズすることもできます。
+以下の変数はあくまでも参照目的です。[!DNL Activity Map] は追加設定なしで適切に設定できますが、以下の変数を使用して実装をカスタマイズすることもできます。
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
@@ -126,37 +126,41 @@ s.ActivityMap.regionIDAttribute="lpos";
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> s. ActivityMap. regionIDAttribute </td> 
+   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
    <td colname="col2"> デフォルトで "id" パラメーターに設定されます。これを別のパラメーターに設定できます。 </td> 
    <td colname="col3"> s.linkObject の上位（parent、parent.parent など）要素（<b>クリックされた要素</b>）の領域 ID として使用するタグ属性を識別する文字列。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. ActivityMap. link </td> 
+   <td colname="col1"> s.ActivityMap.link </td> 
    <td colname="col2"> 
-    <code>//only needs only"title" attributes from A tags function（clickedElement）{var linkId;if（clickedElement&amp;&amp; clickedElement. tagName. toUpperCase（）==='A'）{linkId= clickedElement. getAttribute（'title'）;} return linkId;} </code>
-  </td> 
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
+    </code> </td> 
    <td colname="col3"> クリックされた HTMLElement を受け取り、<b>クリックされたリンク</b>を表す文字列値を返す関数。 <p>戻り値が false（null、未定義、空の文字列、0）の場合、リンクは追跡されません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. ActivityMap. region </td> 
+   <td colname="col1"> s.ActivityMap.region </td> 
    <td colname="col2"> 
-    <code>//only use using lowercase version of tag name as the region className as the region function（clickedElement）{var RegionID， className;while（clickElement&amp;&amp;（clickIdement= clientNode））{regionId= clickNode= sinRegionId. tagName;if（RegionId）{return RegionId. toLowerCase（）;}}} </code>
-  </td> 
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 
+    </code> </td> 
    <td colname="col3"> クリックされた HTMLElement を受け取り、<b>クリックしたときにリンクが見つかった領域</b>を表す文字列値を返す関数。 <p>戻り値が false（null、未定義、空の文字列、0）の場合、リンクは追跡されません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.linkExclusions </td> 
    <td colname="col2"> 
-    <code>//特殊なlinkExc除外CSSクラス&lt; style&gt;. linkExcluded{displayによってタグ付けされたリンクを除外:ブロック;height:1px;left:-9999px;オーバーフロー:hidden;position:solute;width:1px;}&lt;/style&gt;&lt; a href="next-page.html"&gt;リンクは、リンクに一致するテキストがないので、リンクが追跡されます。&lt;/a&gt;&lt; a href="next-page.html"&gt; s. Activity Map. linkExclusionsが設定されているため、リンクは追跡されません。このリンクには、フィルターに一致するテキストが含まれています。&lt; span class="linkExclude"&gt; exclude- link1&lt;/span&gt;&lt;/a&gt;&lt; a href="next-page.html"&gt;リンクはトラッキングされません。s. Activity Map. linkExclusionsが設定されており、このリンクにはフィルターとの非表示テキストがあるためです。 &lt;span class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2'; &lt;/script&gt; 
+    <code>
+      //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
     </code> </td> 
-   <td colname="col3"> <p>リンクテキスト内を検索する文字列のコンマ区切りのリストを受け取る文字列。見つかった場合、リンクは Activity Map による追跡から除外されます。設定されていない場合、Activity Map によるリンクの追跡を停止することはありません。 </p> </td> 
+   <td colname="col3"> <p>リンクテキスト内を検索する文字列のコンマ区切りのリストを受け取る文字列。見つかった場合、リンクは[!DNL Activity Map]による追跡から除外されます。 設定されていない場合、[!DNL Activity Map]によるリンクの追跡を停止する試みは行われません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.regionExclusions </td> 
    <td colname="col2"> 
-    <code>//Activity Map&lt; div id="links- included"&gt;&lt; a href="next-page.html"&gt;リンクによってトラッキング可能なリンクからページを除外します。s. Activity Map. RegionExclusionsが設定されているが、フィルターと一致しないためにリンクが追跡されます。&lt;/a&gt;&lt;/div&gt;&lt; div id="links- excluded"&gt;&lt; a href="next-page.html"&gt;リンクはトラッキングされません。s. Activity Map. RegionExclusionsが設定され、このリンクがフィルターと一致するためです。&lt;/a&gt; &lt;/div&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.regionExclusions = 'links-excluded'; &lt;/script&gt;
+    <code>
+      //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
     </code> </td> 
-   <td colname="col3"> <p>地域テキスト内を検索する文字列のコンマ区切りのリストを受け取る文字列。見つかった場合、リンクは Activity Map による追跡から除外されます。設定されていない場合、Activity Map によるリンクの追跡を停止することはありません。 </p> </td> 
+   <td colname="col3"> <p>地域テキスト内を検索する文字列のコンマ区切りのリストを受け取る文字列。見つかった場合、リンクは[!DNL Activity Map]による追跡から除外されます。 設定されていない場合、[!DNL Activity Map]によるリンクの追跡を停止する試みは行われません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
