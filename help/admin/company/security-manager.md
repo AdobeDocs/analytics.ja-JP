@@ -5,9 +5,9 @@ seo-title: セキュリティマネージャー
 solution: Analytics
 title: セキュリティマネージャー
 topic: 管理ツール
-uuid: b3fbdba0- e2bf-4d67-92e3- ef05711141d4
+uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 レポーティングデータに対するアクセスを制御できます。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL カンパニー設定]** / **[!UICONTROL セキュリティ]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /カンパニー]** 設定 **[!UICONTROL /セキュリ]****[!UICONTROL ティ]**
 
 <table id="table_F1AD9DE5094A4FC2B9DA8D01198F944B"> 
  <thead> 
@@ -44,23 +44,21 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP ログイン制限の実施</span> </td> 
-   <td colname="col2"> <p>レポート アクセスを特定の IP アドレスまたは IP アドレスの範囲に限定します。 </p> <p>IP アドレスフィルターリストには、最大 100 個のエントリを追加でき、各エントリには特定のアドレスまたはアドレスの範囲を指定できます。 </p> <p> <span class="wintitle">IP ログイン制限の実施</span>は、「IP アドレスフィルター」リストに少なくとも 1 つのエントリが存在する状態になるまで適用されません。 </p> <p> <span class="uicontrol"> 許可されたIPアドレス</span>:IPアドレスの範囲を指定するには、範囲を角括弧で囲みます（例えば、
-       <code>
-           192.168.10.[20-240]
-       </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-       <code>
-           192.168.[10-14].*
-       </code>) </p> <p>失敗したログインについては<a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">使用状況およびアクセスログ</a>にログが記録され、閲覧できます。 </p> </td> 
+   <td colname="col2"> <p>（この機能は2020年1月には使用できなくなります）。レポート アクセスを特定の IP アドレスまたは IP アドレスの範囲に限定します。 </p> <p>IP アドレスフィルターリストには、最大 100 個のエントリを追加でき、各エントリには特定のアドレスまたはアドレスの範囲を指定できます。 </p> <p> <span class="wintitle">IP ログイン制限の実施</span>は、「IP アドレスフィルター」リストに少なくとも 1 つのエントリが存在する状態になるまで適用されません。 </p> <p> <span class="uicontrol"> 受け入れられるIPアドレス</span>:IPアドレス範囲を指定するには、範囲を角括弧で囲みます(例： <code>
+       192.168.10.[20-240]
+     </code>)。 You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+     <code>
+       192.168.[10-14].*
+     </code>) </p> <p>失敗したログインについては<a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">使用状況およびアクセスログ</a>にログが記録され、閲覧できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 電子メールドメイン制限の強制</span> </td> 
-   <td colname="col2"> <p>Analytics がブックマーク、ダウンロード可能なレポートおよびアラートを送信する電子メールアドレスおよびドメインをフィルターします。 </p> <p>電子メールフィルターリストでは、最大 100 個のエントリをサポートし、各エントリは電子メールアドレスか電子メールドメイン全体を指定できます。 </p> <p>許可されていない電子メールの送信先が予定レポートに含まれる場合、Analytics は、問題の電子メール通知とレポートのスケジュールを解除するためのリンクを送信します </p> <p> <span class="wintitle">電子メールドメイン制限の強制</span>は、<span class="wintitle">許可された電子メールドメインフィルター</span>リストに少なくとも 1 つのエントリが存在するまで適用されません。 </p> <p> <span class="uicontrol"> 受け入れられる電子メールアドレスおよびドメイン</span>:IPアドレスの範囲を指定するには、範囲を角括弧で囲みます（例えば、 
-       <code>
-           192.168.10.[20-240]
-       </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-       <code>
-           192.168.[10-14].*
-       </code>) </p> </td> 
+   <td colname="col2"> <p>Analytics がブックマーク、ダウンロード可能なレポートおよびアラートを送信する電子メールアドレスおよびドメインをフィルターします。 </p> <p>電子メールフィルターリストでは、最大 100 個のエントリをサポートし、各エントリは電子メールアドレスか電子メールドメイン全体を指定できます。 </p> <p>許可されていない電子メールの送信先が予定レポートに含まれる場合、Analytics は、問題の電子メール通知とレポートのスケジュールを解除するためのリンクを送信します </p> <p> <span class="wintitle">電子メールドメイン制限の強制</span>は、<span class="wintitle">許可された電子メールドメインフィルター</span>リストに少なくとも 1 つのエントリが存在するまで適用されません。 </p> <p> <span class="uicontrol"> 受け入れ済みの電子メールアドレスとドメイン</span>:IPアドレス範囲を指定するには、範囲を角括弧で囲みます(例： <code>
+       192.168.10.[20-240]
+     </code>)。 You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+     <code>
+       192.168.[10-14].*
+     </code>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> パスワードリカバリの通知</span> </td> 
