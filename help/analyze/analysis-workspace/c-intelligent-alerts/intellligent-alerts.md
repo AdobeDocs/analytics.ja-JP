@@ -1,83 +1,53 @@
 ---
 description: 新しいインテリジェントアラートシステムは、アラートに対するより詳細な制御を可能とし、異常値検出をアラートシステムと統合します。
 seo-description: 新しいインテリジェントアラートシステムは、アラートに対するより詳細な制御を可能とし、異常値検出をアラートシステムと統合します。
-seo-title: インテリジェントアラート概要
+seo-title: インテリジェントアラートの概要
 title: インテリジェントアラートの概要
-uuid: b9bf75ad- bb6f-49fe-8c55-355ea3c50a71
+uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 translation-type: tm+mt
-source-git-commit: 2f06b402486d4162a968764b398e13893b4a7a75
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
 # インテリジェントアラートの概要
 
->[!Imutant]
->タイムスタンプ付きのデータを使用してアラートを作成すると、アラート/が不正確に発生することがあります。そのため、インテリジェントアラートの場合は、タイムスタンプのないデータを使用することをお勧めします。
+インテリジェントアラートを使用すると、アラートをより詳細に制御し、異常値検出をアラートシステムに統合できます。
 
-新しいインテリジェントアラートシステムでは、アラートをより詳細に制御でき、異常値検出とアラートシステムが統合されます。
+[YouTubeに関するインテリジェントアラート](https://www.youtube.com/watch?v=UVH9xr_2REA) (5:34)
 
-[YouTube上のインテリジェントアラート](https://www.youtube.com/watch?v=UVH9xr_2REA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=65) （5:34）
+## 概要
 
-## 概要 {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
+Analysis Workspace の新しいアラートビルダーおよびアラートマネージャーは、Reports &amp; Analytics の既存のアラート機能を置き換えます。インテリジェントアラートを使用すると、次のことができます。:
 
-Analysis Workspace の新しいアラートビルダーおよびアラートマネージャーは、Reports &amp; Analytics の既存のアラート機能を置き換えます。インテリジェントアラートを使用すると、次のことができます。
-
-* 異常値（90％、95％、99％、99.75％、99.9％のしきい値、変化率、超過／未満）に基づいてアラートを構築します。
-* アラートがトリガーされる頻度のプレビュー。
-* 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信。
-* 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成。
-
-新しいアラートシステムのコンポーネントには、アラートビルダー、アラートマネージャー、アラートプレビュー、アラート作成への優れたコンテキスト内アクセスが含まれます。古いアラートシステムユーザーインターフェイスは、使用できなくなりますが、アラートは移行されます。一部のレガシーアラート機能は、[使用できなくなります](https://marketing.adobe.com/resources/help/en_US/sc/user/deprecated_alerts.html)。
+* 異常値（90%、95%、99%、99.75%、99.9%のしきい値）に基づいてアラートを作成する。% change;上/下)
+* アラートがトリガーされる頻度のプレビュー
+* 自動生成されたAnalysis Workspaceプロジェクトへのリンクを含む電子メールまたはSMSによるアラートの送信
+* 単一のアラートで複数の指標をキャプチャする「積み重ね」アラートを作成する
 
 アラートビルダーにアクセスするには、次の 4 つの方法があります。
 
-* Analysis Workspace で次のショートカットを使用する。
+* アラートビルダーに直接移動する場合： コンポ **[!UICONTROL ーネント]** /ア **[!UICONTROL ラート]**
+* Workspaceでのキーボードショートカットの使用： `Ctrl + Shift + A` (Windows)また `Cmd + Shift + A` は(Mac OS)
+* Selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. これにより、アラートビルダーが開き、表から適用した適切な指標およびフィルターが事前設定されます。 必要に応じてアラートを編集できます。
 
-   `ctrl (or cmd) + shift + a`
-* By going directly to the Alert Builder:  **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]** .
-* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. これにより、アラートビルダーが開き、テーブルから適用された適切な指標およびフィルターでビルダーを事前設定します。これで、必要に応じて、アラートを編集できます。
+   ![選択からアラートを作成](assets/create-alert-from-selection.png)
 
-   ![](assets/create-alert-from-selection.png)
+* From within a Reports &amp; Analytics report, by going to  **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]** . これにより、アラートビルダーが開き、レポートから適用した適切な指標およびフィルターを事前設定します。 必要に応じてアラートを編集できます。
 
-* From within a Reports &amp; Analytics report, by going to  **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]** . これにより、新しいアラートビルダーが開き、レポートから適用された適切な指標およびフィルターでビルダーを事前設定します。これで、必要に応じて、アラートを編集できます。
+   ![アラートの追加](assets/add-alert.png)
 
-   ![](assets/add-alert.png)
+パーセントしきい値は標準偏差です。 例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。しきい値を小さく設定すると（90%など）、しきい値を大きく設定する場合(99.75%)よりも多くの異常値が得られます。
 
-## FAQ: How alerts are calculated and triggered {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+> [!IMPORTANT] タイムスタンプ付きのデータを使用してアラートを作成すると、アラートが正しく起動しない場合があります。 インテリジェントアラートには、タイムスタンプのないデータの使用をお勧めします。
 
-% しきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](../../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md#concept_0705DC91F0F44951AC2226EC846E824C)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。低いしきい値（90% など）を設定すると、高いしきい値（99% など）を設定した場合よりも多くの異常値が取得されます。99.75% と 99.99% のしきい値は、時間単位の精度用に、多数の異常値がトリガーされないようにするために導入されました。
+## アラートの異常値ルックバック
 
-<table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 質問 </th> 
-   <th colname="col2" class="entry"> 回答 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>質問：アラートの異常値検出はデータの異常値を判別するためにどれくらい過去に遡りますか。</b> </p> </td> 
-   <td colname="col2"> <p>トレーニング期間は選択した精度によって異なります（<a href="../../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md#concept_0705DC91F0F44951AC2226EC846E824C" format="dita" scope="local"> 異常値検出 </a> で使用される統計的手法を参照してください）。要約を次に示します。 </p> 
-    <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
-     <li id="li_E246091A3F1E484C8444AF4052FCA784">月単位 = 15 ヶ月 + 前年の同じ時間範囲 </li> 
-     <li id="li_CC014FB38AE1492B9647E990C29BFB3C">週単位 = 15 週 + 前年の同じ時間範囲 </li> 
-     <li id="li_2517EE2097534324BE9C1B54CD181A62">日単位 = 35 日 + 前年の同じ時間範囲 </li> 
-     <li id="li_710BC8B009354542AA4962A59A646099">時間単位 = 336 時間 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>質問：行動が減少または急増したときにのみアラートを受け取りたい場合、異常値機能を使用できますか。または絶対値を使用する必要がありますか。</b> </p> </td> 
-   <td colname="col2"> <p>絶対値を使用した場合でも、減少および急増でアラートがトリガーされます。減少または急増のみにアラートを分離することはできません。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>質問：1 日の特定の時間内（営業時間内、営業時間外など）にのみトリガーされるようにアラートを設定できますか。</b> </p> </td> 
-   <td colname="col2"> <p>現在はできません。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>質問：「予期された値」のテーブル（点線またはそれらの値の意味の出力で構成される）を入手できますか。</b> </p> </td> 
-   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。30 日間の固定のトレーニング期間と固定の 95% 間隔が使用され、<a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external">Reports &amp; Analytics の異常値検出</a>に似ています。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+異常値検出を使用するアラートの場合、トレーニング期間は、アラートに対して選択した精度に応じて異なります。
 
+* 月単位の精度：15か月+昨年同じ範囲
+* 週単位の精度：15週間+昨年同じ期間
+* 毎日の精度：35日+昨年同じ範囲
+* 時間単位の精度：336時間
+
+詳しくは [、異常値検出で使用される統計的手法](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) （英語）を参照してください。
