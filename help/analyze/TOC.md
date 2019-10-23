@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 分析ガイド
 user-guide-url: /content/help/ja-JP/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
+source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
 
 ---
 
@@ -77,11 +77,14 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
-      + [アトリビューション](analysis-workspace/attribution-iq/attribution.md)
+      + 属性{attribution}
+         + [アトリビューションの概要](analysis-workspace/c-panels/attribution/attribution.md)
+         + [アトリビューションパネルの使用](analysis-workspace/c-panels/attribution/use-attribution.md)
+         + [アトリビューションFAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
-      + セグメント比較（IQ） {#segment-comparison}
+      + Segment comparison {#segment-comparison}
          + [セグメント IQ の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [セグメントの比較](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
+         + [一時ページ](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [セグメント IQ の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + プロジェクトのキュレーションおよび共有 {#curate-share}
@@ -92,10 +95,10 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
       + [ファイルの送信 - プロジェクトの配信スケジュールの設定](analysis-workspace/curate-share/t-schedule-report.md)
       + [スケジュール済みプロジェクトマネージャー](analysis-workspace/curate-share/schedule-projects.md)
    + Attribution IQ {#attribution-iq}
-      + [Attribution IQ の概要](analysis-workspace/attribution-iq/attribution.md)
-      + [Analysis Workspace の Attribution IQ の使用](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [計算指標でのアトリビューションの使用](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [Attribution IQ の FAQ](analysis-workspace/attribution-iq/attribution-faq.md)
+      + [一時ページ](analysis-workspace/attribution-iq/attribution.md)
+      + [一時ページ](analysis-workspace/attribution-iq/use-attribution-iq.md)
+      + [一時ページ](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
+      + [一時ページ](analysis-workspace/attribution-iq/attribution-faq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + 異常値検出 {#anomaly-detection}
