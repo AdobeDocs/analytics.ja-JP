@@ -3,24 +3,22 @@ description: Analysis Workspace 内で、コンテキスト上のデータの異
 seo-description: Analysis Workspace 内で、コンテキスト上のデータの異常値を表示および分析できます。
 seo-title: 異常値検出の概要
 title: 異常値検出の概要
-uuid: 991fde08-198c-4410-9606- d5a4f3dd8339
+uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
 # 異常値検出の概要
 
-Analysis Workspace 内で、コンテキスト上のデータの異常値を表示および分析できます。
+Analysis Workspace内でコンテキスト上のデータの異常を表示および分析できます。
 
-[YouTubeでの異常値検出](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) （4:53）
+[YouTubeでの異常値検出](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
-[YouTubeに対する貢献度分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) （3:20）
+[YouTubeでの貢献度分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
->[!IMPORTANT]
->
->異常値検出は、Reports&amp; Analytics機能セットから削除され、現在はAnalysis Workspace経由でのみ使用できます。Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、ワークスペースで「毎日の精度」の異常値検出のみにアクセスできます。詳しくは、[異常値検出と貢献度分析の権限](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)を参照してください。
+> [!IMPORTANT] 異常値検出は、Analysis Workspaceでのみ使用できます。 Adobe Analytics Select and Foundationのお客様は、Workspaceの「毎日の精度」の異常値検出にのみアクセスできます。 詳しくは、[異常値検出と貢献度分析の権限](../contribution-analysis/ca-tokens.md)を参照してください。
 
 異常値検出は、以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。
 
