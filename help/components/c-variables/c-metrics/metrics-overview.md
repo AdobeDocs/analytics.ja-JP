@@ -7,7 +7,7 @@ title: 指標のクイックリファレンス
 topic: 指標
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: bdac23691a7de1cd308e9f1c68c74739a51244d6
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
