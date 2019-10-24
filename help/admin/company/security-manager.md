@@ -7,7 +7,7 @@ title: セキュリティマネージャー
 topic: 管理ツール
 uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP ログイン制限の実施</span> </td> 
-   <td colname="col2"> <p>（この機能は2020年1月には使用できなくなります）。レポート アクセスを特定の IP アドレスまたは IP アドレスの範囲に限定します。 </p> <p>IP アドレスフィルターリストには、最大 100 個のエントリを追加でき、各エントリには特定のアドレスまたはアドレスの範囲を指定できます。 </p> <p> <span class="wintitle">IP ログイン制限の実施</span>は、「IP アドレスフィルター」リストに少なくとも 1 つのエントリが存在する状態になるまで適用されません。 </p> <p> <span class="uicontrol"> 受け入れられるIPアドレス</span>:IPアドレス範囲を指定するには、範囲を角括弧で囲みます(例： <code>
+   <td colname="col2"> <p>(この機能は、Experience cloudログインと組み合わせて使用することはできません。 この機能は、2020年1月以降は利用できなくなります。)レポート アクセスを特定の IP アドレスまたは IP アドレスの範囲に限定します。 </p> <p>IP アドレスフィルターリストには、最大 100 個のエントリを追加でき、各エントリには特定のアドレスまたはアドレスの範囲を指定できます。 </p> <p> <span class="wintitle">IP ログイン制限の実施</span>は、「IP アドレスフィルター」リストに少なくとも 1 つのエントリが存在する状態になるまで適用されません。 </p> <p> <span class="uicontrol"> 受け入れられるIPアドレス</span>:IPアドレス範囲を指定するには、範囲を角括弧で囲みます(例： <code>
        192.168.10.[20-240]
      </code>)。 You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
