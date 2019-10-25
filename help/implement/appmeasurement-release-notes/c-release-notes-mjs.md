@@ -8,7 +8,7 @@ title: JavaScript 版 AppMeasurement
 topic: 開発者と実装
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -27,7 +27,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## バージョン2.17.0
 
-リリース日：**201 年 8 月 23 日**
+リリース日：**2019 年 8 月 23 日**
 
 | 機能／修正 | 説明 |
 | -----------| ---------- |
@@ -51,7 +51,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 Release Date: **July 15, 2019**
 
 * Activity mapのスクロールリーチ追跡機能をActivity map拡張機能に追加しました。(AN-172949)
-* Added DIL 9.2 to AppMeasurement (AN-182472)
+* DIL 9.2がAppMeasurementに追加されました。(AN-182472)
 
 ## バージョン 2.14.0
 
@@ -279,7 +279,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 リリース日：**2016 年 5 月 20 日**
 
-[!DNL JavaScript] version 1.5.6
+[!DNL JavaScript] バージョン1.5.6
 
 * Visitor API 1.5.6 を同梱しました。
 * Firefox で、完了イベントを発生させないリンククリックのトラッキング処理を修正しました。
@@ -545,4 +545,4 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 
 >[!NOTE]
 >
->Some plug-ins are not supported in this new version. 詳しくは、[プラグインのサポート](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)を参照してください。
+>一部のプラグインは、この新しいバージョンではサポートされていません。 詳しくは、[プラグインのサポート](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)を参照してください。
