@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 実装ガイド
 user-guide-url: /content/help/ja-JP/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
+source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
 
 ---
 
@@ -13,7 +13,6 @@ source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
 
 + [Analytics 実装ヘルプ](home.md)
 + AppMeasurement リリースノート {#appmeasurement-release-notes}
-   + [AppMeasurement リリースノート](appmeasurement-release-notes/appmeasurement-release-notes.md)
    + [JavaScript 版 AppMeasurement](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [JavaScript H コード - レガシー](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
