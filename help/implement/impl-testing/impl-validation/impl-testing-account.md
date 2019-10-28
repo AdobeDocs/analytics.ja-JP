@@ -1,25 +1,25 @@
 ---
-description: Experience Cloudデバッガーを実行するときに、s_ account変数を探すことができます。
-keywords: Analytics の導入
-seo-description: Experience Cloudデバッガーを実行するときに、s_ account変数を探すことができます。
-seo-title: デバッガーでs_ account変数を識別する
+description: Experience Cloud Debugger の実行時に、s_account 変数を検索できます。
+keywords: Analytics の実装
+seo-description: Experience Cloud Debugger の実行時に、s_account 変数を検索できます。
+seo-title: Debugger での s_account 変数の識別
 solution: Analytics
-title: デバッガーでs_ account変数を識別する
-topic: 開発者と導入
+title: Debugger での s_account 変数の識別
+topic: 開発者と実装
 uuid: aae1763a-07e0-45e7-9695-15862d77c0ec
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# デバッガーでs_ account変数を識別する
+# Debugger での s_account 変数の識別
 
-Experience Cloudデバッガーを実行するときに、s_ account変数を探すことができます。
+Experience Cloud Debugger の実行時に、s_account 変数を検索できます。
 
-検証とテストは、必ず開発レポートスイートで行う必要があります。
+検証とテストは、必ず開発レポートスイートを使用して実行してください。
 
-The following figure shows the location of the *`s_account`* variable.
+以下の図は、*`s_account`* 変数の場所を示します。
 
 ![](assets/debugger_code.png)
 
