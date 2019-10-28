@@ -1,13 +1,13 @@
 ---
 description: パスは、ユーザーがサイト内を移動する遷移です。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: パスは、ユーザーがサイト内を移動する遷移です。
 seo-title: パスの概要
 solution: Analytics
 title: パスの概要
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 ---
@@ -23,6 +23,6 @@ Analytics を初期設定の状態で使用すると、ページレベルのパ�
 
 >[!NOTE]
 >
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. サイトセクションおよびサーバーレポートでパスを有効にするには、カスタマーケアにお問い合わせください。
+>パスを有効にするには、**[!UICONTROL 管理者／レポートスイート／設定を編集／トラフィック／トラフィック変数]**&#x200B;に移動します。サイトセクションおよびサーバーレポートでパスを有効にするには、カスタマーケアにお問い合わせください。
 
-Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
+[Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) でより強力なパス（フロー）オプションを調べます。
