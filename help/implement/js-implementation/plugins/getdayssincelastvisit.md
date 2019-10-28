@@ -1,14 +1,14 @@
 ---
 description: ユーザーが最後にサイトを訪問してからの日数を判断し、その情報を Analytics 変数に取り込みます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: ユーザーが最後にサイトを訪問してからの日数を判断し、その情報を Analytics 変数に取り込みます。
 seo-title: getDaysSinceLastVisit
 solution: Analytics
 subtopic: プラグイン
 title: getDaysSinceLastVisit
-topic: 開発者と導入
-uuid: cad95882-3bd0-4f94- a0c3-4e7b6058d246
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) には、最後の訪問 **** ディメンションからの日数が含まれるようになり、このプラグインの必要がなくなりました。
+>[Analysis Workspace](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/) には、すぐに使える **[!UICONTROL 前回訪問からの日数]**&#x200B;ディメンションが含まれるようになったので、このプラグインが必要なくなりました。
 
 この再訪問頻度データによって次の質問に答えることができます。
 
@@ -32,7 +32,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+>後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## プラグインコードと導入 {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -42,13 +42,14 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **Plugin Config**
 
-Place the following code within the `s_doPlugins()` function, which is located in the area of the [!DNL s_code.js] file labeled *Plugin Config*. 再訪問頻度データを取り込むために、1 つのカスタムトラフィック（s.prop）変数および 1 つのカスタムコンバージョン（s.eVar）変数、またはそのいずれかを選択します。これは Admin Console を使って有効にした変数で、他の目的では使用されていないものを使います。次の例はあくまでもサンプルとして提供されており、お客様の必要に応じて適切に更新する必要があります。
+次のコードを `s_doPlugins()` 関数内に置いてください。この関数は、[!DNL s_code.js] ファイルの *Plugin Config* という名称の領域にあります。再訪問頻度データを取り込むために、1 つのカスタムトラフィック（s.prop）変数および 1 つのカスタムコンバージョン（s.eVar）変数、またはそのいずれかを選択します。これは Admin Console を使って有効にした変数で、他の目的では使用されていないものを使います。次の例はあくまでもサンプルとして提供されており、お客様の必要に応じて適切に更新する必要があります。
 
 ```js
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
 ```
 
-**PLUGINS SECTION**[!DNL s_code.js] ファイルにある *PLUGINS SECTION* という名称の領域に次のコードを追加します。プラグインコードのこの部分は一切変更しないでください。
+**PLUGINS SECTION**
+[!DNL s_code.js] ファイルにある *PLUGINS SECTION* という名称の領域に次のコードを追加します。プラグインコードのこの部分は一切変更しないでください。
 
 ```js
 /* 
