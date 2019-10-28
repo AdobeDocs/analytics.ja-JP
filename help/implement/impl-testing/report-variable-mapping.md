@@ -1,30 +1,30 @@
 ---
 description: 以下の表で、レポートと変数の対応関係（レポートとそのレポート内で使用される変数）について説明します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 以下の表で、レポートと変数の対応関係（レポートとそのレポート内で使用される変数）について説明します。
-seo-title: レポート変数のマッピング
+seo-title: レポートと変数との対応関係
 solution: Analytics
-title: レポート変数のマッピング
-topic: 開発者と導入
-uuid: 4707660c-4be5-425c- a690-7bc6df4cc0cc0cc
-translation-type: tm+mt
+title: レポートと変数との対応関係
+topic: 開発者と実装
+uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# レポート変数のマッピング
+# レポートと変数との対応関係
 
 以下の表で、レポートと変数の対応関係（レポートとそのレポート内で使用される変数）について説明します。
 
-**コンバージョンレポート** 次の表に、各レポートの入力に使用されるコンバージョン変数を示します。
+**コンバージョンレポート**：次の表に、各レポートに入力するために使用されるコンバージョン変数を示します。
 
 | 購入 |
 |---|
 | コンバージョンおよび平均 | s.events、s.products、s.purchaseID | s.events を購入、製品の詳細、注文番号に設定します |
 | 売上高 | s.events、s.products、s.purchaseID | s.events を購入、製品の詳細、注文番号に設定します |
 | 購入回数 | s.events、s.products、s.purchaseID | s.events を購入、製品の詳細、注文番号に設定します |
-| 数量 | s.events、s.products、s.purchaseID | s.events を購入、製品の詳細、注文番号に設定します |
+| 単位 | s.events、s.products、s.purchaseID | s.events を購入、製品の詳細、注文番号に設定します |
 
 | 買い物かご |
 |---|
@@ -52,8 +52,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|
 | コンバージョンおよび平均 | s.products、s.events、s.campaign |  |
 | トラッキングコード | s.campaign |  |
-| クリエイティブエレメント | 該当なし | Defined in [!DNL Analytics] |
-| キャンペーン | 該当なし | Defined in [!DNL Analytics] |
+| クリエイティブエレメント | 該当なし | [!DNL Analytics] で定義済み |
+| キャンペーン | 該当なし | [!DNL Analytics] で定義済み |
 
 | 顧客の忠誠度 |
 |---|
@@ -92,7 +92,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | サイトパス |
 |---|
-| ページ | s.pageName、s.products、s.events、s.purchaseID |  |
+| ページ値 | s.pageName、s.products、s.events、s.purchaseID |  |
 | 入口ページ | s.pageName |  |
 | オリジナルの入口ページ | s.pageName |  |
 | 訪問ごとのページ数 | 該当なし | [!DNL Analytics] のビジネスルールによって計算されます |
@@ -107,7 +107,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | ... |  |  |
 | カスタム eVar 評価 75 | [!UICONTROL s.eVar] 75 |  |
 
-## トラフィックレポート {#section_76A74C3D7B60461D9ADE0E5E183DD777}
+## トラフィックレポート{#section_76A74C3D7B60461D9ADE0E5E183DD777}
 
 次の表に、各レポートに入力するために使用される[!UICONTROL トラフィック]変数を示します。
 
@@ -132,8 +132,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 検索エンジン | 該当なし | .JS ファイルによって自動的に設定されます |
 | 検索キーワード | 該当なし | .JS ファイルによって自動的に設定されます |
 | 再来訪頻度 | 該当なし | [!DNL Analytics] のビジネスルールによって計算されます |
-| 日別再訪問 | 該当なし | [!DNL Analytics] のビジネスルールによって計算されます |
-| 再訪問 | 該当なし | [!DNL Analytics] のビジネスルールによって計算されます |
+| 日別再来訪 | 該当なし | [!DNL Analytics] のビジネスルールによって計算されます |
+| 再来訪 | 該当なし | [!DNL Analytics] のビジネスルールによって計算されます |
 | 訪問回数 | 該当なし | [!DNL Analytics] のビジネスルールによって計算されます |
 
 | 訪問者プロファイル |
@@ -170,7 +170,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | Java | 該当なし | .JS ファイルによって自動的に設定されます |
 | JavaScript | 該当なし | .JS ファイルによって自動的に設定されます |
 | JavaScript のバージョン | 該当なし | .JS ファイルによって自動的に設定されます |
-| cookie | 該当なし | .JS ファイルによって自動的に設定されます |
+| Cookie | 該当なし | .JS ファイルによって自動的に設定されます |
 | 接続タイプ | 該当なし | .JS ファイルによって自動的に設定されます |
 | セグメント化 |
 
@@ -180,7 +180,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 最頻訪問サイトセクション | s.channel |  |
 | 最頻訪問サーバー | s.server |  |
 
-| カスタムインサイト |
+| カスタム Insight |
 |---|
 | カスタムリンク | s.linkName | カスタム導入が必要です |
 | カスタムインサイト 1 | s.prop1 |  |
@@ -193,19 +193,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | ... | ... |  |
 | 階層 5 | s.hier5 |  |
 
-## パスレポート {#section_85E0A2396B894659A6BE572819263E95}
+## パスレポート{#section_85E0A2396B894659A6BE572819263E95}
 
 次の表に、[!DNL Analytics] 内の各レポートに入力するために使用されるパス変数を示します。
 
-| ページ数 |
+| ページ |
 |---|
 | ページサマリ | s.pageName（またはその他のパス変数） | 内部のビジネスルールによっても異なります |
-| ページ | s.pageName（またはその他のパス変数） | 内部のビジネスルールによっても異なります |
+| ページ値 | s.pageName（またはその他のパス変数） | 内部のビジネスルールによっても異なります |
 | 最頻訪問ページ | s.pageName（またはその他のパス変数） | 内部のビジネスルールによっても異なります |
 | リロード回数 | s.pageName（またはその他のパス変数） | 内部のビジネスルールによっても異なります |
 | ページへのクリック数 | s.pageName（またはその他のパス変数） | 内部のビジネスルールによっても異なります |
 | ページでの滞在時間 | s.pageName（またはその他のパス変数） | 内部のビジネスルールによっても異なります |
-| エラーページ | s.pageName（またはその他のパス変数） | 内部のビジネスルールによっても異なります |
+| エラーページ (404) | s.pageName（またはその他のパス変数） | 内部のビジネスルールによっても異なります |
 
 | 入口と出口 |
 |---|
