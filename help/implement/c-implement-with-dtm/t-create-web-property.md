@@ -1,31 +1,31 @@
 ---
 description: Web プロパティは、1 つ以上のドメインおよびサブドメインの集合と複数のルールで構成され、1 つの埋め込みコードに組み込まれます。
-keywords: Analyticsの導入;導入方法、Dynamic Tag Management;dtm;webプロパティ;property
+keywords: Analytics の実装, 実装方法, dynamic tag management, dtm, web プロパティ, プロパティ
 seo-description: Web プロパティは、1 つ以上のドメインおよびサブドメインの集合と複数のルールで構成され、1 つの埋め込みコードに組み込まれます。
-seo-title: Webプロパティを作成
+seo-title: Web プロパティの作成
 solution: Analytics
-title: Webプロパティを作成
-topic: 開発者と導入
-uuid: f19d5504- eb44-4d93- a387-7470ab4b3a3a
-translation-type: tm+mt
+title: Web プロパティの作成
+topic: 開発者と実装
+uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
 
 
-# Webプロパティを作成
+# Web プロパティの作成
 
 Web プロパティは、1 つ以上のドメインおよびサブドメインの集合と複数のルールで構成され、1 つの埋め込みコードに組み込まれます。
 
 >[!NOTE]
 >
->管理者権限を持つユーザーのみがプロパティを作成できます。For more information about roles, see [Create and Manage Groups in DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) in the Dynamic Tag Management Product Documentation.
+>プロパティを作成できるのは管理者権限を持つユーザーのみです。役割について詳しくは、Dynamic Tag Management 製品ドキュメントの「[DTM でのグループの作成と管理](https://marketing.adobe.com/resources/help/ja_JP/dtm/groups.html)」を参照してください。
 
 それらのアセットを DTM で管理および追跡できます。例えば、1 つのテンプレートに基づく複数の Web サイトがあり、それらすべての Web サイトに関する共通のアセットを追跡する場合などに役立ちます。1 つの Web プロパティを複数のドメインに適用することもできます。
 
-Web プロパティの概要とベストプラクティスについては、「[Dynamic Tag Management製品ドキュメント](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) のWebプロパティを参照してください。
+Web プロパティの概要とベストプラクティスについては、Dynamic Tag Management 製品ドキュメントの「[Web プロパティ](https://marketing.adobe.com/resources/help/ja_JP/dtm/web_property.html)」を参照してください。
 
-1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
+1. 会社ページに移動して、「**[!UICONTROL プロパティの追加]**」をクリックします。
 
    ![](assets/dtm-create-web-property.png)
 
@@ -40,7 +40,7 @@ Web プロパティの概要とベストプラクティスについては、「[
     </thead>
     <tbody> 
     <tr> 
-    <td colname="col1"> <span class="uicontrol"> Name</span> </td> 
+    <td colname="col1"> <span class="uicontrol">名前</span> </td> 
     <td colname="col2"> <p>プロパティの名前。 </p> </td> 
     </tr> 
     <tr> 
@@ -87,4 +87,4 @@ Web プロパティの概要とベストプラクティスについては、「[
     </tbody> 
     </table>
 
-1. Click **[!UICONTROL Create Property]**.
+1. 「**[!UICONTROL プロパティを作成]**」をクリックします。
