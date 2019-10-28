@@ -1,14 +1,14 @@
 ---
 description: 訪問者のスクロール操作を測定します。訪問者が別のページに移動する前に、該当のページのどのくらいの割合を閲覧したのかがわかります。このプラグインを使用すると、ユーザーが平均的に見ているコンテンツの量を判断できるので、ユーザーの行動に基づいてページの長さやレイアウトを最適化できます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 訪問者のスクロール操作を測定します。訪問者が別のページに移動する前に、該当のページのどのくらいの割合を閲覧したのかがわかります。このプラグインを使用すると、ユーザーが平均的に見ているコンテンツの量を判断できるので、ユーザーの行動に基づいてページの長さやレイアウトを最適化できます。
 seo-title: getPercentPageViewed
 solution: Analytics
 subtopic: プラグイン
 title: getPercentPageViewed
-topic: 開発者と導入
-uuid: 1751dddb-699f-4bd1-8bcb-5e62fa24896a
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
+translation-type: ht
 source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
 
 ---
@@ -16,47 +16,47 @@ source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
 
 # getPercentPageViewed
 
-getPercentPageViewedプラグインは、訪問者のスクロールアクティビティを測定して、訪問者が他のページに移動する前に閲覧したページの割合を表示します。
+getPercentPageViewed プラグインは、訪問者のスクロール操作を測定します。訪問者が別のページに移動する前に、該当のページのどのくらいの割合を閲覧したのかがわかります。
 
 >[!NOTE]
->Webページの高さが小さい場合、getPercentPageViewedプラグインを使用する必要はありません。また、訪問者がどれだけ下にスクロールするかを測定する必要はありません。また、終了ページでのみスクロールアクティビティを測定する場合、このプラグインは使用できません。
+>Web ページの高さが小さく、訪問者がどれだけ下にスクロールするかを測定する必要がない場合は、getPercentPageViewed プラグインを使用する必要はありません。また、離脱ページでのスクロールアクティビティのみを測定する場合は、このプラグインを使用できません。
 
 ## 前提条件
 
-getPercentPageViewedプラグインを実行するには、AppMeasurementおよびhandlePvEventsヘルパープラグインが必要です。
+getPercentPageViewed プラグインを実行するには、AppMeasurement と handlePPVevents ヘルパープラグインが必要です。
 
 ## 実装
 
-To implement this plugin, copy and paste the code to anywhere within the **[!UICONTROL Plugins]** section of the [!DNL AppMeasurement] file.
+このプラグインを実装するには、[!DNL AppMeasurement] ファイルの **[!UICONTROL プラグイン]**&#x200B;セクション内の任意の場所にコードをコピーして貼り付けます。
 
 >[!NOTE]
->太字のコメント/バージョン番号をAppMeasurementファイルに追加すると、潜在的な実装の問題をトラブルシューティングできます。
+>コードの太字のコメント／バージョン番号を AppMeasurement ファイルに追加すると、実装時に発生する可能性のある問題のトラブルシューティングに役立ちます。
 
-You can run the `getPercentPageViewed` function as needed within the doPlugins function (see example calls below.)
+必要に応じて doPlugins 関数内で、必要に応じて `getPercentPageViewed` 関数を実行できます（以下の呼び出し例を参照）。
 
 ## 渡す引数
 
 | 引数 | 定義 |
 |---|---|
-| pid（オプション、文字列） | プラグイン測定によって提供される割合と相関しているページ識別子。これは、Analytics pageName変数またはpageName変数が設定されていない場合はURLです |
-| ch（オプション、ブール型） | この引数の推奨/デフォルト値は"True"です。SPAコード、動的HTMLなどにより、ページの初期読み込み後にページのサイズに加えた変更をこのプラグインに考慮しないようにするには、このプラグインを"false"に設定します。 |
+| pid（オプション、文字列） | プラグイン測定によって提供されるパーセンテージと関連するページ識別子。デフォルトでは、Analytics の pageName 変数に設定されます。pageName が設定されていない場合は URL になります。 |
+| ch（オプション、ブール値） | この引数では、「true」が推奨値であり、デフォルト値です。SPA コードや動的 HTML などによる、最初の読み込み後のページサイズの変更についてはプラグインで考慮しない場合は、この引数を false に設定します。 |
 
 ## 戻り値
 
-getPercentPageViewedプラグインは何も返しません。その代わり、AppMeasurement オブジェクト内の次の変数が設定されます。
+getPercentPageViewed プラグインは何も返しません。その代わり、AppMeasurement オブジェクト内の次の変数が設定されます。
 
-* `s._ppvPreviousPage`:前のページの名前（最後のページが読み込まれるまでは使用できないため）。
-* `s._ppvHighestPercentViewed`:訪問者が閲覧した前のページの割合（高さ）。つまり、訪問者が前のページを下にスクロールした時点で最も遠いポイントです。
-* `s._ppvInitialPercentViewed`:前のページが最初に読み込まれたときに表示された前のページの割合。
-* `s._ppvHighestPixelSeen`:訪問者が前のページをスクロールダウンしたときに表示される総ピクセル数（高さ）。
+* `s._ppvPreviousPage`：前に閲覧されたページの名前（新しいページが読み込まれるまで、最終的な測定値を使用できないため）。
+* `s._ppvHighestPercentViewed`：訪問者が閲覧した前のページの最高閲覧率（ページの高さ）。つまり、前のページで、訪問者が前のページを最も下までスクロールしたポイントです。
+* `s._ppvInitialPercentViewed`：前のページで、最初の読み込み時に表示されたパーセンテージ。
+* `s._ppvHighestPixelSeen`：前のページで、訪問者が下にスクロールしたときに表示された合計ピクセル数の最高値（高さが基準）。
 
 ## Cookie
 
-The getPercentPageViewed plugin creates a cookie, called `s_ppv`, that is passed from page to page. cookieのコンテンツには、前述の4つの変数に挿入された値が含まれており、セッションの最後に期限切れになります。
+getPercentPageViewed プラグインは、ページからページに渡される、「`s_ppv`」というcookieを作成します。Cookie の内容には、上記の 4 つの変数に挿入された値が含まれ、有効期限はセッションが終わるまでです。
 
 ## 呼び出しの例
 
-**サンプル呼び出し1**
+**サンプル呼び出し 1**
 
 ```
 if(s.pageName) s.getPercentPageViewed();
@@ -67,22 +67,22 @@ s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + "initialPercent
 }  
 ```
 
-上記のコードサンプル:
-* s. pageNameが設定されているかどうかを判定します。そうしないと、コードはgetPercentPageViewed関数を実行します。
-* `getPercentPageViewed` 関数が実行されると、上記の「戻り値」セクションで説明されている変数が作成されます。
-* 「戻り値」変数が正常に設定された場合:
+上記のコード例：
+* s.pageName が設定されているかどうかを判断し、設定されている場合、コードは getPercentPageViewed 関数を実行します。
+* `getPercentPageViewed` 関数を実行すると、上記の「戻り値」の節で説明した変数が作成されます。
+* 「戻り値」変数が正常に設定された場合：
 
-   * The code sets s.prop1 equal to the value of `s._ppvPreviousPag`e (i.e. the previous value of `s.pageName`, or the previous page.)
-   * また、このコードでは、s. prop2に前のページで表示された上位の割合の割合と、前のページで表示された初期の割合の割合が設定されます。
+   * コードセット s.prop1 は`s._ppvPreviousPag` の値（例：`s.pageName` の前の値、または前のページ）
+   * また、s.prop2 には、前のページの最高閲覧率と、前のページの初期閲覧率に等しい値を設定します。
 
 >[!NOTE]
->最初にロードされたときにページ全体が表示されている場合、表示される割合の上限と表示比率の初期値は100となります。ただし、最初のページに移動したときにページ全体が表示されないが、訪問者が次のページに移動する前にページをスクロールしない場合、「閲覧された最大の割合」のディメンションと最初の割合の表示ディメンションの両方が同じ値になります。
+>ページが最初に読み込まれたときにページ全体が表示される場合、「最高閲覧率」と「初期閲覧率」の両方のディメンションは 100 に等しくなります。ただし、ページが最初に読み込まれたときにページ全体が表示されず、訪問者が次のページに進む前にページをスクロールしなかった場合、最高閲覧率ディメンションと初期閲覧率ディメンションの両方が同じ値になります。
 
-**サンプル呼び出し2**
+**サンプル呼び出し 2**
 
-s. prop5が、ページ名全体ではなく、ロールアップ「ページタイプ」を取得するように別途設定されているとします。
+ページ名全体ではなくロールアップされた「ページタイプ」を取り込むため、s.prop5 が別途設定されているとします。
 
-次のコードでは、s. prop5が設定されているかどうかを判断し、その場合は「前のページ」として値を保存して、表示された上位の割合と表示された初期の割合のディメンションとコリレートします。The value is still stored in the `s._ppvPreviousPage` variable but can be treated as if it were the previous page type instead of the previous page name.
+次のコードは、s.prop5 が設定されているかどうかを判別し、設定されている場合はその値を「前のページ」として保存して、最高閲覧率（％）ディメンションと初期閲覧率（％）ディメンションを関連付けます。この値は `s._ppvPreviousPage` 変数に保存されたままですが、前のページ名の代わりに前のページタイプとして扱うことができます。
 
 ```
 if(s._ppvPreviousPage)
@@ -92,17 +92,17 @@ s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPe
 }  
 ```
 
-## Sオブジェクトの置き換え
+## S オブジェクトの置換
 
-"s"以外の名前を持つメインのAppMeasurementライブラリオブジェクトをインスタンス化するときは、次のプラグインコードの一部を変更してください。
+「s」以外の名前でメインの AppMeasurement ライブラリオブジェクトをインスタンス化する場合は、プラグインコードの次の部分を、
 
 `s.getPercentPageViewed=function(pid,ch)`
 
-を次に示します。
+次のように変更します。
 
 `[objectname].getPercentPageViewed=function(pid,ch)`
 
-## 導入コード
+## デプロイするコード
 
 Plugins Section：`s_code.js` ファイルにある PLUGINS SECTION という名称の領域に次のコードを追加します。プラグインコードのこの部分は一切変更しないでください。
 
