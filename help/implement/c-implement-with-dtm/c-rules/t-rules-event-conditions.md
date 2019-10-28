@@ -1,12 +1,12 @@
 ---
 description: 条件は、イベント型ルールがいつトリガーされるかを決定するものです。
-keywords: Dynamic Tag Management；ルール；ルールの作成；ルールの新規作成；イベント型ルール；リンクのアクティブ化の遅延；要素にイベントハンドラーを直接適用；バブリング；イベントバブリング
+keywords: Dynamic Tag Management, ルール, ルールの作成, 新規ルール, イベント型ルール, リンクの有効化の遅延, イベントハンドラーを要素に直接適用, バブリング, イベントバブリング
 seo-description: 条件は、イベント型ルールがいつトリガーされるかを決定するものです。
 seo-title: イベント型ルールの条件の作成
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: イベント型ルールの条件の作成
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    ![](assets/condition-event-based.png)
 
-   詳しくは、Adobe Tag Management 製品ドキュメントの[イベントタイプ](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html)を参照してください。
+   詳しくは、Adobe Tag Management 製品ドキュメントの「[イベントタイプ](https://marketing.adobe.com/resources/help/ja_JP/dtm/event_types.html)」を参照してください。
 
 1. 必要に応じて、次のオプションを有効にします。
 
@@ -29,7 +29,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
    | リンクの有効化の遅延 | 別のページに移動するリンクのクリック時に、処理に時間がかかるルールを実行する場合に有効にします。ページ移動など、クリック後に本来おこなわれるべき処理がスタートする前に待ち時間が発生するようになります。 |
    | イベントハンドラーを要素に直接適用 | 対象にした特定の要素にイベントハンドラーを適用します。この設定は、ブラウザーのバブリングおよびレイヤリング概念とも関連します。 |
 
-   For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. An event like a click can potentially bubble up to `<body>`. ルールが正しく起動するようにするには、イベントが実際にバインドされている対象を理解し、具体的にイベント型ルールを設定することが重要です。
+   例えば、`<a href="abc.html"><img src="xyz.png"/></a>` というアンカータグで囲まれた画像をクリックする場合、タグがバブリングの流れの上にあるので、クリックがアンカータグに関連付けられるように思えます。しかし、開発ツールでクリックを調査すると、クリックは、実際には `<img>` タグにのみ影響しているかもしれません。イベントが正しく処理されるようにするには、クリックを `<img>` タグに関連付け、親要素へのバブリングというブラウザー仕様への依存をさけるのが得策です。クリックのようなイベントは、潜在的に `<body>` にまでバブリングする可能性があります。ルールが正しく起動するようにするには、イベントが実際にバインドされている対象を理解し、具体的にイベント型ルールを設定することが重要です。
 
    *バブリング*&#x200B;とは、イベントが最も深い要素で最初にキャプチャおよび処理され、次に外側の要素に伝達されることを意味します。
 
@@ -37,7 +37,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    ![](assets/condition-event-based2.png)
 
-   正しい要素タグの見つけ方については、Dynamic Tag Management 製品ドキュメントの [CSS セレクターの使用](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html)を参照してください。
+   正しい要素タグの見つけ方について詳しくは、Dynamic Tag Management 製品ドキュメントの「[CSS セレクターの使用](https://marketing.adobe.com/resources/help/ja_JP/dtm/css-selector.html)」を参照してください。
 
 1. さらに条件を追加することもできます。
 
