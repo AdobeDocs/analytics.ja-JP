@@ -1,19 +1,19 @@
 ---
 description: 次の表に、Analytics レポートへの入力に使用される変数について、変数とレポートとの対応関係を示します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 次の表に、Analytics レポートへの入力に使用される変数について、変数とレポートとの対応関係を示します。
-seo-title: 変数からレポートへのマッピング
+seo-title: 変数とレポートとの対応関係
 solution: Analytics
-title: 変数からレポートへのマッピング
-topic: 開発者と導入
-uuid: fd81f97d- dd1a-47d5-9157- b7932fe13490
-translation-type: tm+mt
+title: 変数とレポートとの対応関係
+topic: 開発者と実装
+uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 変数からレポートへのマッピング
+# 変数とレポートとの対応関係
 
 次の表に、Analytics レポートへの入力に使用される変数について、変数とレポートとの対応関係を示します。
 
