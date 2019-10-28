@@ -1,14 +1,14 @@
 ---
 description: ここでは、コア JavaScript ファイルおよびサイト上のページのコード例を紹介します。
-keywords: Analyticsの導入;appmeasurement. jsコード;ページコードの例
+keywords: Analytics の実装, appmeasurement.js コード, ページコードのサンプル
 seo-description: ここでは、コア JavaScript ファイルおよびサイト上のページのコード例を紹介します。
 seo-title: ページコードとグローバル設定の例
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: ページコードとグローバル設定の例
-topic: 開発者と導入
-uuid: e8880d77-172b-42e5-8187- ce371aa9foo9
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -20,13 +20,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->This example uses the visitor ID service, which is deployed as part of your [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md). 訪問者 API JavaScript ファイルをすべてのサイトページに含める前に、AppMeasurement で訪問者 ID サービスを有効にすると、訪問者が二重にカウントされる可能性があります。訪問者の二重カウントを避けるには、 [訪問者 ID サービス](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>この例では訪問者 ID サービスを使用していますが、このサービスは [JavaScript の実装](../../implement/js-implementation/javascript-implementation-overview.md)の一部としてデプロイされます。訪問者 API JavaScript ファイルをすべてのサイトページに含める前に、AppMeasurement で訪問者 ID サービスを有効にすると、訪問者が二重にカウントされる可能性があります。訪問者の二重カウントを避けるには、「[訪問者 ID サービス](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07)」に記載されているプロセスを理解して従うようにしてください。
 
 ## コード例：AppMeasurement.js {#section_4351543F2D6049218E18B48769D471E2}
 
 >[!IMPORTANT]
 >
->Configuration variables should be set above the *`doPlugins`* function.
+>設定変数は、*`doPlugins`* 関数の上に設定する必要があります。
 
 新規に実装する場合、最初に AppMeasurement.js の先頭に以下のグローバル設定コードを貼り付けます。
 
@@ -85,7 +85,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 
 ## ページコードの例 {#section_042412C29CC249E298F19B2BC2F43CE7}
 
-新しい実装の場合、 <body> タグをクリックします。
+新しい実装の場合、次のページコードを、追跡したいページの開始 <body> タグの直後に貼り付けることができます。
 
 ```js
 <script language="JavaScript" type="text/javascript"><!-- 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-各ページに `AppMeasurement.js` と `VisitorAPI.js` への参照が含まれていることも必ず確認してください。See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions.
+各ページに `AppMeasurement.js` と `VisitorAPI.js` への参照が含まれていることも必ず確認してください。「[JavaScript の実装](../../implement/js-implementation/javascript-implementation-overview.md)」を参照してください。
