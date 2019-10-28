@@ -3,8 +3,8 @@ description: s.hitGovernor プラグインは、事前定義された期間内�
 seo-description: s.hitGovernor プラグインは、事前定義された期間内に送信された Analytics のイメージリクエストの総数を追跡し、その総数が一定のしきい値を超えた場合に、必要に応じて追加のロジックを実行できます。
 seo-title: hitGovernor
 title: hitGovernor
-uuid: d9091ae-005a-43c2- b419-980b795bc2a9
-translation-type: tm+mt
+uuid: d9091eae-005a-43c2-b419-980b795bc2a9
+translation-type: ht
 source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
@@ -18,13 +18,13 @@ s.hitGovernor プラグインは、事前定義された期間内に送信され
 
 このプラグインを利用すると、該当の訪問者の以降のトラフィックを自動的にブロックできます。そうしたトラフィックをレポート内で動的に識別することもできます。
 
-## hitGovernor プラグインの仕組み {#section_541BC639E31442D09B1C85A2FFCDC02C}
+## hitGovernor プラグインの仕組み{#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-このプラグインは、イメージリクエストがトラッキングサーバーに送信されるたびに Cookie の値を増分し、一定の期間にわたってそれを追跡します。デフォルトの期間は 1 分ですが、変更できます（以下の[導入](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)を参照）。If the total number of hits during that time frame exceeds the default hit threshold (60), a final custom link image request is sent to set the *`exceptionFlag`* context data variable. デフォルトのヒット数のしきい値も変更できます。
+このプラグインは、イメージリクエストがトラッキングサーバーに送信されるたびに Cookie の値を増分し、一定の期間にわたってそれを追跡します。デフォルトの期間は 1 分ですが、変更できます（以下の[導入](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)を参照）。この期間中のヒットの総数がデフォルトのヒット数のしきい値（60）を超えると、最終的なカスタムリンクイメージリクエストが送信され、*`exceptionFlag`* コンテキストデータ変数が設定されます。デフォルトのヒット数のしきい値も変更できます。
 
-必要に応じて、その時点からデフォルトの 60 日間が経過するまでは、該当の訪問者のトラフィックデータの収集をブロックできます。トラフィックをブロックするためには、以下に示すように、doPlugins 関数にコードを追加する必要があります。期間も変更できます。The logic allows time to either include that visitor's IP address, User Agent, or [!DNL Experience Cloud] Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. 60 日後にプラグインによってこのトラフィックが不正と見なされた場合は、再度例外としてマークされ、さらに 60 日間データの収集がブロックされます。
+必要に応じて、その時点からデフォルトの 60 日間が経過するまでは、該当の訪問者のトラフィックデータの収集をブロックできます。トラフィックをブロックするためには、以下に示すように、doPlugins 関数にコードを追加する必要があります。期間も変更できます。このロジックでは、訪問者の IP アドレス、ユーザーエージェントまたは [!DNL Experience Cloud] 訪問者 ID を適切な永続例外ロジックに含めるか、60 日経過後にタイムアウト期間をリセットすることができます。60 日後にプラグインによってこのトラフィックが不正と見なされた場合は、再度例外としてマークされ、さらに 60 日間データの収集がブロックされます。
 
-## レポート {#section_E742F19B528041808454744DB2C7007C}
+## レポート{#section_E742F19B528041808454744DB2C7007C}
 
 設定する必要があるデフォルトの変数およびイベントはありませんが、処理ルールのロジックをセットアップし、適切な変数やイベントを設定することを強くお勧めします。そうしたカスタムの変数やイベントの例は次のとおりです。
 
@@ -47,7 +47,7 @@ hitGovernor プラグインを導入する手順は次のとおりです。
 
    >[!NOTE]
    >
-   >Although the `registerPostTrackCallback` functionality is included in AppMeasurement libraries 1.8.0+, it is not included in any custom code configuration by default. doPlugins 関数の後および&#x200B;*外*&#x200B;に追加します。
+   >`registerPostTrackCallback` 機能は AppMeasurement ライブラリ 1.8.0 以降に含まれていますが、デフォルトではカスタムコード設定に含まれていません。doPlugins 関数の後および&#x200B;*外*&#x200B;に追加します。
 
    ```
     s.registerPostTrackCallback(function(){ 
@@ -88,7 +88,7 @@ hitGovernor プラグインを導入する手順は次のとおりです。
 
 >[!NOTE]
 >
->実装では、デフォルトの解析の"s"オブジェクトとは異なるオブジェクト名を使用することがあります。その場合は適切なオブジェクト名に変更してください。
+>実際の実装では、Analytics のデフォルトの「s」オブジェクトとは違うオブジェクト名を使用する場合もあります。その場合は適切なオブジェクト名に変更してください。
 
 1. 処理ルールを設定します。
 
@@ -107,7 +107,7 @@ hitGovernor プラグインを導入する手順は次のとおりです。
 
    このコードを追加しないと、該当の訪問者のトラフィックは例外としてマークされるだけでブロックされません。
 
-## プラグインのソースコード {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## プラグインのソースコード{#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
 このコードは、AppMeasurement ライブラリの doPlugins セクションの下に追加する必要があります。
 
