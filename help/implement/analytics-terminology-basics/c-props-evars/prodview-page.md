@@ -1,23 +1,23 @@
 ---
 description: products 変数は、製品と製品カテゴリ（および購入数量と購入価格）を追跡するために使用します。
-keywords: Analyticsの導入;products変数;製品表示;successイベント
+keywords: Analytics の実装, products 変数, 製品表示, 成功イベント
 seo-description: products 変数は、製品と製品カテゴリ（および購入数量と購入価格）を追跡するために使用します。
-seo-title: 製品表示ページの詳細
+seo-title: 詳細製品表示ページ
 solution: Analytics
-title: 製品表示ページの詳細
-topic: 開発者と導入
-uuid: 464c9daf- b042-4fb8-8ca6- e104c0bexton45
-translation-type: tm+mt
+title: 詳細製品表示ページ
+topic: 開発者と実装
+uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 製品表示ページの詳細
+# 詳細製品表示ページ
 
 products 変数は、製品と製品カテゴリ（および購入数量と購入価格）を追跡するために使用します。
 
-A success event should always be set in conjunction with the *`products`* variable.
+成功イベントは、常に *`products`* と一緒に設定する必要があります。
 
 ```js
 s.events="prodView"
@@ -25,7 +25,7 @@ s.events="prodView"
 
 >[!NOTE]
 >
->While *`prodView`* is treated in implementation like an event, it does not have the same flexibility in the interface. The *`prodView`*event is an instance of the product and is only available in the *`products`* report. Adobe recommends you use a *`custom`* event in addition to the *`prodView`* event. 両方のイベントを使用して、他のコンバージョンレポート内にある他の指標と共に、製品表示指標を表示できます。
+>*`prodView`* は実装ではイベントのように扱われますが、インターフェイスではイベントと同様の柔軟性はありません。`prodView` イベントは製品のインスタンスであり、*`products`* でのみ利用できます。アドビでは、*`prodView`* イベントに加えて、*`custom`* イベントも使用することをお勧めします。両方のイベントを使用して、他のコンバージョンレポート内にある他の指標と共に、製品表示指標を表示できます。
 
 ```js
 s.products=";diamond earrings (54321)"
@@ -33,9 +33,9 @@ s.products=";diamond earrings (54321)"
 
 >[!NOTE]
 >
->products文字列構文はセミコロンで始まる必要があります。これは、従来の構文上の要件です。セミコロンは以前に、カテゴリと製品を区切るために使用されていましたが、製品の分類方法を変更したい場合に、それがインターフェイス内での制限となります。レポートにおける柔軟性を最大限に高めるには、これを空のままにして、「分類」を使用してカテゴリを設定することが最善策です。
+>製品文字列の構文はセミコロンで始める必要があります。これは、従来の構文上の要件です。セミコロンは以前に、カテゴリと製品を区切るために使用されていましたが、製品の分類方法を変更したい場合に、それがインターフェイス内での制限となります。レポートにおける柔軟性を最大限に高めるには、これを空のままにして、「分類」を使用してカテゴリを設定することが最善策です。
 
-## Shopping Cart Page ( scOpen , scAdd , scRemove ) {#section_469B64F4150149DFB6B2C731279C0BC7}
+## 買い物かごページ（scOpen、scAdd、scRemove）{#section_469B64F4150149DFB6B2C731279C0BC7}
 
 ```js
 s.events="scOpen,scAdd" 
@@ -58,6 +58,6 @@ s.products=";SKU"
 
 >[!NOTE]
 >
->While using the SKU in the product string may make the *`products`* report less readable, it provides the maximum flexibility later when you want to classify your products. 完了、製造元、カテゴリおよびサブカテゴリを示すカテゴリを SKU から作成できます。
+>製品文字列で SKU を使用すると、*`products`* レポートが読みにくくなる場合がありますが、後で製品を分類する際の柔軟性が最大限に高まります。完了、製造元、カテゴリおよびサブカテゴリを示すカテゴリを SKU から作成できます。
 
-"*`products`* 変数が *`purchase`* イベントと組み合わせて設定されている場合、上記のように購入数量と購入総額がproducts値に含まれます。
+*`products`* 変数を&#x200B;*`purchase`* イベントと組み合わせて設定した場合、上記のように、購入数量と合計購入価格が products の値に含まれ�
