@@ -1,13 +1,13 @@
 ---
 description: ページの読み込み時間（10 分の 1 秒単位）を取得し、その値を prop、eVar および数値イベントに格納できます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: ページの読み込み時間（10 分の 1 秒単位）を取得し、その値を prop、eVar および数値イベントに格納できます。
 seo-title: getLoadTime
 solution: Analytics
 title: getLoadTime
-topic: 開発者と導入
-uuid: 5d26a69b- cbde-4be1- bac1-5ee8a4e55ca3
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+>後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## プラグインコードと導入 {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -35,11 +35,11 @@ function s_getLoadTime(){if(!window.s_loadT){var b=new Date().getTime(),o=window
 
 **最初の関数呼び出し**
 
-Add a call to `s_getLoadTime()` near the beginning of [!DNL s_code.js], outside of any function.
+[!DNL s_code.js] の先頭近く、他の関数の外側に `s_getLoadTime()` への呼び出しを追加します。
 
 **最後の関数呼び出し**
 
-Add another call to `s_getLoadTime()` in the `s_doPlugins()` function, saving the returned value in a prop, eVar, and/or a numeric event.
+`s_getLoadTime()` の 2 回目の呼び出しを `s_doPlugins()` 関数に追加します。返される値は prop、eVar または数値イベントに保存します。
 
 使用例 1 - ページ読み込み時間を prop10 および eVar20 に保存する
 
