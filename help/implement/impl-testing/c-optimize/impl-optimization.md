@@ -1,14 +1,14 @@
 ---
 description: Analytics の導入は、主に 3 つの手順にまとめることができます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: Analytics の導入は、主に 3 つの手順にまとめることができます。
 seo-title: 最適化の概要
 solution: Analytics
 subtopic: トラブルシューティング
 title: 最適化の概要
-topic: 開発者と導入
-uuid: 8e8comg5b- d4b1-4d13-8525-39e4924df247
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -25,5 +25,5 @@ Analytics の導入は、主に 3 つの手順にまとめることができま�
 
 >[!NOTE]
 >
->Analyticsのオーバーヘッドを最小限に抑えるために、追加の手順を実行できます。
+>お客様は、追加の手順を実行して、Analytics のオーバーヘッドを最小限に抑えることができます。
 
