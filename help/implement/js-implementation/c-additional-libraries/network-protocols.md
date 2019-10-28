@@ -1,13 +1,13 @@
 ---
 description: WAP と i モードは、現在使用されている 2 つの主要プロトコル（標準）です。WAP は主に米国で使用され、i モードは日本とヨーロッパでよく使用されています。
-keywords: Analyticsの導入;wap;iモード
+keywords: Analytics の実装, wap, i-mode
 seo-description: WAP と i モードは、現在使用されている 2 つの主要プロトコル（標準）です。WAP は主に米国で使用され、i モードは日本とヨーロッパでよく使用されています。
 seo-title: モバイルネットワークプロトコル
 solution: Analytics
 title: モバイルネットワークプロトコル
-topic: 開発者と導入
-uuid: b453677c-7449-4174- a243- a0eb024b319d
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: b453677c-7449-4174-a243-a0eb024b319d
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
