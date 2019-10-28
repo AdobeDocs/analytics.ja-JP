@@ -1,19 +1,19 @@
 ---
 description: 事前定義されたイベントを一覧に示します。
-keywords: Analyticsの導入;イベント
+keywords: Analytics の実装, イベント
 seo-description: 事前定義されたイベントを一覧に示します。
-seo-title: 事前定義されたイベントとは何ですか。
+seo-title: 事前定義されたイベントについて
 solution: Analytics
-title: 事前定義されたイベントとは何ですか。
-topic: 開発者と導入
-uuid: 4d0799ba-0f97-42c3- a620-36c03f9995da
-translation-type: tm+mt
+title: 事前定義されたイベントについて
+topic: 開発者と実装
+uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 事前定義されたイベントとは何ですか。
+# 事前定義されたイベントについて
 
 事前定義されたイベントを一覧に示します。
 
