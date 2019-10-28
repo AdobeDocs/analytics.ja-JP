@@ -1,12 +1,12 @@
 ---
 description: Adobe Analytics に Dynamic Tag Management をデプロイする際に使用される Cookie のグローバル設定に関するフィールドの説明です。
-keywords: Dynamic Tag Management;cookies；訪問者ID；訪問者名前空間；ドメインピリオド数；fpドメインピリオド数；トランザクションID;cookieの有効期間
+keywords: Dynamic Tag Management, cookie, 訪問者 id, 訪問者名前空間, ドメインピリオド, fp ドメインピリオド, トランザクション id, cookie の有効期限
 seo-description: Adobe Analytics に Dynamic Tag Management をデプロイする際に使用される Cookie のグローバル設定に関するフィールドの説明です。
 seo-title: Cookie
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud, Analytics, Dynamic Tag Management
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 # Cookie
 
-Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
+Adobe Analytics に [!UICONTROL Dynamic Tag Management] をデプロイする際に使用される Cookie のグローバル設定に関するフィールドの説明です。
 
-**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]**／**[!UICONTROL   ![](assets/settings_gear.png)
 
-Edit Tool]** &gt; **[!UICONTROL Cookies]**
+ツールを編集]**／**[!UICONTROL Cookie]**
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -42,7 +42,7 @@ Edit Tool]** &gt; **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> FP ドメインピリオド数 </td> 
-   <td colname="col2"> <p>Folio Builder <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>s.fpCookieDomainPeriods <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> を参照してください</a>。 </p> </td> 
+   <td colname="col2"> <p><span class="term"> fpCookieDomainPeriods</span> 変数は、導入でサードパーティ <span class="filepath">2o7.net</span> または <span class="filepath">omtrdc.net</span> ドメインが使用されている場合でも、JavaScript（<code> s_sq</code>、<code> s_cc</code>、プラグイン）によって設定された本質的にファーストパーティの Cookie 用に使用されます。 </p> <p>「<a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local">s.fpCookieDomainPeriods</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> トランザクション ID </td> 
