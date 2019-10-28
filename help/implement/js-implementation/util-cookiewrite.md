@@ -1,14 +1,14 @@
 ---
 description: cookie に値を書き込みます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: cookie に値を書き込みます。
 seo-title: Util.cookieWrite
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
-topic: 開発者と導入
-uuid: 8d526e4c-6d7a-4119-9434- d7ce4fbb7577
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
