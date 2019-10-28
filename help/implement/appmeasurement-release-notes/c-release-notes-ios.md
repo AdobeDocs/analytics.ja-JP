@@ -2,12 +2,12 @@
 description: iOS のこれまでのリリースノートです。
 seo-description: iOS のこれまでのリリースノートです。
 seo-title: iOS
-solution: Analytics,Experience Cloud
+solution: Analytics, Experience Cloud
 subtopic: リリースノート
 title: iOS
 topic: 開発者と実装
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -19,17 +19,17 @@ iOS のこれまでのリリースノートです。
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログをオンにします。
+>ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
-モバイルライブラリのダウンロードは、[GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) と [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) で入手できます。
+モバイルライブラリのダウンロードは、[GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) および [Developer Connection](https://marketing.adobe.com/developer/ja/gallery/app-measurement-for-ios) で入手できます。
 
-[4.x のドキュメント](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
+[4.x ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/)
 
-[3.x のドキュメント](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
+[3.x ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/sc/appmeasurement/ios/)
 
 ## バージョン 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
-The [!DNL iOS] SDK version 4.13.4 (Feb 16, 2017) includes the following changes:
+[!DNL iOS] SDK バージョン 4.13.4（2017 年 2 月 17 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_657D643E874D47C099F2F43519C9C1C7"> 
  <thead> 
@@ -52,7 +52,7 @@ The [!DNL iOS] SDK version 4.13.4 (Feb 16, 2017) includes the following changes:
 
 ## バージョン 4.13.3 {#section_39618D2B29F942FCBF37E4F5507AA131}
 
-The [!DNL iOS] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
+[!DNL iOS] SDK バージョン 4.13.3（2017 年 1 月 20 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_341D35BF18714139A95CA5491899185D"> 
  <thead> 
@@ -79,7 +79,7 @@ The [!DNL iOS] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
 
 ## バージョン 4.13.2 {#section_CB0DFFDB38FE4D14A84423DF40BF8FD3}
 
-The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
+[!DNL iOS] SDK バージョン 4.13.2（2016 年 11 月 11 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_AA26B14D271948FFBA44D4D06E3B71AA"> 
  <thead> 
@@ -91,7 +91,7 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 訪問者 ID サービス </p> </td> 
-   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
+   <td colname="2"> <p> <code>adobe_mc</code> パラメーターにタイムスタンプと Experience Cloud 組織 ID が追加されました。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 設定 </p> </td> 
@@ -110,7 +110,7 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
 
 ## バージョン 4.13.1 {#section_18C8A7166EFD4E67AC0F7C06DFBBFE6A}
 
-The [!DNL iOS] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
+[!DNL iOS] SDK バージョン 4.13.1（2016 年 10 月 21 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_5B67A6B8B79D4783BA8DCDA7C2ACA765"> 
  <thead> 
@@ -134,11 +134,11 @@ The [!DNL iOS] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
 **バグの修正**
 
 * [!DNL Adobe Analytics] にトラッキングヒットを送信するのと同時に新しい ID を訪問者 ID サービスと同期しようとするとクラッシュが発生する問題を修正しました。
-* Fixed an issue that was causing build warnings when targeting [!DNL iOS] versions older than 8.
+* 8 より古い [!DNL iOS] バージョンをターゲットとするとビルド警告が発生する問題を修正しました。
 
 ## バージョン 4.13.0 {#section_F72A3357994E4887A9F3967F0FBFFCDD}
 
-The [!DNL iOS] SDK version 4.13.0 (Sep 15, 2016) includes the following changes:
+[!DNL iOS] SDK バージョン 4.13.0（2016 年 9 月 16 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_FD6156E58FF54BA2BEED7398BC780C46"> 
  <thead> 
@@ -157,7 +157,7 @@ The [!DNL iOS] SDK version 4.13.0 (Sep 15, 2016) includes the following changes:
 
 ## バージョン 4.12.0 {#section_2AD26AABBB434833AE961C8D71C9AFE8}
 
-The [!DNL iOS] SDK version 4.12.0 (Aug 18, 2016) includes the following changes:
+[!DNL iOS] SDK バージョン 4.12.0（2016 年 8 月 19 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_CC3CD01203ED4BDA9BC26427E925C70D"> 
  <thead> 
@@ -180,7 +180,7 @@ The [!DNL iOS] SDK version 4.12.0 (Aug 18, 2016) includes the following changes:
 
 ## バージョン 4.11.0 {#section_3ABABE0F0B964EB48BD482CCE260A13D}
 
-The [!DNL iOS] SDK version 4.11.0 (June 22, 2016) includes the following changes:
+[!DNL iOS] SDK バージョン 4.11.0（2016 年 6 月 23 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_14B23402BA3B41238F419CA57341B8F5"> 
  <thead> 
@@ -202,7 +202,7 @@ The [!DNL iOS] SDK version 4.11.0 (June 22, 2016) includes the following changes
 
 ## バージョン 4.10.0 {#section_F0D6D7FD89DE4DF5A121B05FA093CC5B}
 
-The [!DNL iOS] SDK version 4.10.0 (May 20, 2016) includes the following changes:
+[!DNL iOS] SDK バージョン 4.10.0（2016 年 5 月 20 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_AC447B6E4D55489F803923BF5D1D6653"> 
  <thead> 
@@ -248,7 +248,7 @@ The [!DNL iOS] SDK version 4.10.0 (May 20, 2016) includes the following changes:
 
 ## バージョン 4.9.0 {#section_DA97D7294B214067A4904B9738450759}
 
-The [!DNL iOS] SDK version 4.9.0 (May 5, 2016) includes the following changes:
+[!DNL iOS] SDK バージョン 4.9.0（2016 年 5 月 6 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_0B3A0F44549C4DA48C7639048C030065"> 
  <thead> 
@@ -267,7 +267,7 @@ The [!DNL iOS] SDK version 4.9.0 (May 5, 2016) includes the following changes:
 
 ## バージョン 4.8.6 {#section_0150641B44CF4F6CBE2B21002F8EAB30}
 
-The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
+[!DNL iOS] SDK バージョン 4.8.6（2016 年 3 月 9 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_5175CFFCA30B4DDBACFB23532111CB8A"> 
  <thead> 
@@ -279,14 +279,14 @@ The [!DNL iOS] SDK version 4.8.6 (March 9, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>アプリのクラッシュを追跡 </p> </td> 
-   <td colname="2"> <p>The <span class="keyword"> iOS</span> SDK version 4.8.6 contains critical changes that prevent false crashes from being reported. バージョン 4.8.6 に更新することを強くお勧めします。 </p> </td> 
+   <td colname="2"> <p><span class="keyword">iOS</span> SDK バージョン 4.8.6 には、誤ったクラッシュがレポートされるのを防ぐ重要な変更が含まれています。バージョン 4.8.6 に更新することを強くお勧めします。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## バージョン 4.8.5 {#section_F42EB64F91024748893E89575F2E4487}
 
-The [!DNL iOS] SDK version 4.8.5 (February 18, 2016) includes the following changes:
+[!DNL iOS] SDK バージョン 4.8.5（2016 年 2 月 19 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_AB225AF04A374421BDD8A972506ACD06"> 
  <thead> 
@@ -298,14 +298,14 @@ The [!DNL iOS] SDK version 4.8.5 (February 18, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>オプトアウトおよびプライバシー設定 </p> </td> 
-   <td colname="2"> <p>Starting with <span class="keyword"> iOS</span> SDK 4.8.5, privacy settings set via the <code> setPrivacyStatus</code> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span>, and <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="2"> <p><span class="keyword">iOS</span> SDK 4.8.5 以降、<code>setPrivacyStatus</code> メソッドを使用したプライバシー設定は、<span class="keyword">Analytics</span>、<span class="keyword">Target</span>、および<span class="keyword">Audience Manager</span> のアクティビティに影響します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## バージョン 4.8.0 {#section_2CF142C8C2D24B529559DAF76F851BBF}
 
-The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following changes:
+[!DNL iOS] SDK バージョン 4.8.0（2015 年 11 月 3 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_9DB41F070D66498FACF1A9C135603C7A"> 
  <thead> 
@@ -316,7 +316,7 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> 新しいExperience cloud訪問者IDサービスのメソッド </td> 
+   <td colname="1"> 新しい Experience Cloud 訪問者 ID サービスメソッド </td> 
    <td colname="2"> <p>次の新しいメソッドが追加されました。 </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -345,7 +345,7 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
 
 ## バージョン 4.7.0 {#section_B37B1CAF065346E9A2073A06AB7AFEC2}
 
-The [!DNL iOS] SDK version 4.7.0 (October 15, 2015) includes the following changes:
+[!DNL iOS] SDK バージョン 4.7.0（2015 年 10 月 16 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_3CCA327B859B498D828B2E056A075BEC"> 
  <thead> 
@@ -361,7 +361,7 @@ The [!DNL iOS] SDK version 4.7.0 (October 15, 2015) includes the following chang
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> App Transport Security のサポート </td> 
-   <td colname="2"> <p>Starting with <span class="keyword"> iOS</span> 9, Apple introduced App Transport Security, a set of requirements that conforms to best practices for secure connections. </p> </td> 
+   <td colname="2"> <p>Apple は <span class="keyword">iOS</span> 9 以降、セキュアな接続を実現するベストプラクティスに基づいて一連の要件を規定した App Transport Security を導入しました。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> PhoneGap プラグインのメソッド</span> </p> </td> 
@@ -404,7 +404,7 @@ The [!DNL iOS] SDK version 4.7.0 (October 15, 2015) includes the following chang
 
 ## バージョン 4.6 {#section_D091872501DA49C1A18CDC33C84B8256}
 
-The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following changes:
+[!DNL iOS] SDK バージョン 4.6（2015 年 9 月 18 日）には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_084C27B1A75A4A2EB84822242E37ED35"> 
  <thead> 
@@ -415,7 +415,7 @@ The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following chang
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Push Messaging to <span class="keyword"> Analytics</span> Segments </p> </td> 
+   <td colname="1"> <p><span class="keyword">Analytics</span> セグメントに対するプッシュメッセージ </p> </td> 
    <td colname="2"> <p> <span class="keyword">Adobe Mobile Services</span> および <span class="keyword">Adobe Mobile</span> SDK を使用すると、<span class="keyword">Analytics</span> セグメントにプッシュメッセージを送信できます。また、SDK では、プッシュメッセージを開いた結果としてアプリを開いたユーザーを簡単にレポートできます。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -444,7 +444,7 @@ The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following chang
 
 ## バージョン 4.5 {#section_53DFAF8CFD614F69B3168014EF84DE9F}
 
-The [!DNL iOS] SDK version 4.5 includes the following changes:
+[!DNL iOS] SDK バージョン 4.5 には、次の変更が含まれています。
 
 <table frame="all" colsep="1" rowsep="1" id="table_A69D0B8DA45348B8A5D6A014126F97C2"> 
  <thead> 
@@ -456,7 +456,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS 拡張機能</span> </p> </td> 
-   <td colname="2"> <p>Starting in <span class="keyword"> iOS</span> SDK version 4.5, a new <span class="keyword"> iOS</span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS</span> extension apps. </p> <p>We strongly recommend that you use the <span class="keyword"> iOS</span> SDK rather than using your own wrapper. </p> <p>Apple は、Watch アプリと収容アプリとの通信を可能にする API のセット（収容アプリにリクエストを送信し、応答を受信する）を提供しています。 </p> <p>Watch アプリから収容アプリに辞書としてトラッキングデータを送信し、収容アプリに対してトラッキングメソッドを呼び出してデータを送信することは可能ですが、この方法には限界があります。 </p> <p>ほとんどの場合、Watch アプリの使用時には収容アプリがバックグラウンドで実行されているため、安全に呼び出せるメソッドは <code>TrackActionInBackground</code>、<code>TrackLocation</code>、<code>TrackBeacon</code> の 3 つのみとなります。他のトラッキングメソッドはライフサイクルデータに干渉するので、Watch アプリからデータを送信する際には使用できません。 </p> <p>Even if these three tracking methods meet your requirements, we recommend using the <span class="keyword"> iOS</span> SDK because the SDK for watch app includes all <span class="keyword"> Mobile</span> features except in-app messaging. </p> </td> 
+   <td colname="2"> <p><span class="keyword">iOS</span> SDK バージョン 4.5 から、新しい <span class="keyword">iOS</span> 拡張機能によって Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの <span class="keyword">iOS</span> 拡張機能アプリから使用データを収集できるようになりました。 </p> <p>独自のラッパーではなく、<span class="keyword">iOS</span> SDK を使用することをお勧めします。 </p> <p>Apple は、Watch アプリと収容アプリとの通信を可能にする API のセット（収容アプリにリクエストを送信し、応答を受信する）を提供しています。 </p> <p>Watch アプリから収容アプリに辞書としてトラッキングデータを送信し、収容アプリに対してトラッキングメソッドを呼び出してデータを送信することは可能ですが、この方法には限界があります。 </p> <p>ほとんどの場合、Watch アプリの使用時には収容アプリがバックグラウンドで実行されているため、安全に呼び出せるメソッドは <code>TrackActionInBackground</code>、<code>TrackLocation</code>、<code>TrackBeacon</code> の 3 つのみとなります。他のトラッキングメソッドはライフサイクルデータに干渉するので、Watch アプリからデータを送信する際には使用できません。 </p> <p><span class="keyword">iOS</span> SDK には、アプリ内メッセージ以外のすべての<span class="keyword">モバイル</span>機能が含まれています。そのため、上記の 3 つのトラッキングメソッドで必要なデータを収集できる場合であっても、Watch アプリ向けの iOS SDK を使用することが推奨されています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -476,8 +476,8 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
    <td colname="2"> <p>ライフサイクル指標を含むカスタムコンテキストデータ変数を含めることができるようになりました。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="1"> <p><span class="keyword">PhoneGap</span> でのビーコントラッキングサポート </p> </td> 
+   <td colname="2"> <p><code>trackBeacon</code> 呼び出しと <code>clearCurrentBeacon</code> 呼び出しを <span class="keyword">PhoneGap</span> で使用できるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -486,7 +486,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 リリース日：**2014 年 11 月 25 日**
 
-* 新機能 — Adobe Experience Cloud IDの統合
+* 新機能 - Adobe Experience Cloud ID 統合
 * デバッグログを改良して明確化しました。
 
 ## バージョン 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
@@ -496,7 +496,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 * 新機能 - アプリ内メッセージング機能。
 * 新機能 - 設定ファイルの場所をアプリの起動時に指定できるようになりました。
 * 新機能 - 新しい設定ファイルを必要とせずに、目標点を自動的に更新できるようになりました。
-* New - [!DNL Analytics] calls are now sent as HTTP POST requests.
+* 新機能 - [!DNL Analytics] の呼び出しが HTTP POST リクエストとして送信されるようになりました。
 * debugLogging が有効な場合、ログメッセージがクリアされ、より詳細なログが追加されます。
 * パフォーマンスと安定性に関する強化をいくつかおこないました。
 
@@ -504,7 +504,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 リリース日：**2014 年 9 月 19 日**
 
-* Resolved potential crash that could occur if Audience Manager Submit Signal call or [!DNL Target] Load Request call failed due to an unknown network error.
+* Audience Manager の信号送信呼び出しまたは [!DNL Target] のリクエスト読み込み呼び出しが不明なネットワークエラーによって失敗した場合に発生する可能性がある潜在的なクラッシュを解決しました。
 
 ## バージョン 4.1.2 {#section_6128902E5AE142C4A95D2FB3053188F8}
 
@@ -547,7 +547,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 リリース日：**2013 年 9 月 28 日**
 
-[!DNL iOS] Experience cloudソリューション用SDK 4.xが、次の新機能を提供できるようになりました。
+Experience Cloud ソリューション用の [!DNL iOS] SDK 4.x を使用して、以下の新機能を提供できるようになりました。
 
 * 大幅なパフォーマンス強化。すべての処理をバックグラウンドスレッドで実行します。SDK は完全にスレッドセーフです。
 * 位置情報と目標点
@@ -555,7 +555,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 * 経過時間イベント
 * オプトイン／オプトアウト管理
 * Audience Manager サポート
-* Lifecycle metrics passed to [!DNL Target] as mbox parameters
+* ライフサイクル指標を mbox パラメーターとして [!DNL Target] に渡す
 * コンテキストデータおよび処理ルールを標準化
 
 ## バージョン 3.3.0 {#section_28FB7CD64D6C49BF93E321587F1E8950}
@@ -576,13 +576,13 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 リリース日：**2013 年 8 月 7 日**
 
 * Adobe Audience Manager のサポートを追加しました。
-* Lifecycle data is now sent with [!DNL Target] Mbox requests when lifecycle tracking is enabled.
+* ライフサイクル追跡が有効な場合、[!DNL Target] の mbox リクエストとともにライフサイクルデータを送信するようになりました。
 
 ## バージョン 3.1.8 {#section_849BCD1D4379433D874B8A0E0099E2B1}
 
 リリース日：**2013 年 6 月 21 日**
 
-* Fixed a bug introduced in 3.1.7 that was causing issues with lifecycle on devices below [!DNL iOS] 5.0.
+* 3.1.7 で導入された、[!DNL iOS] 5.0 以下のデバイスでライフサイクルに関する問題が発生するバグを修正しました。
 
 ## バージョン 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
@@ -600,7 +600,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 リリース日：**2013 年 3 月 22 日**
 
-* `ADMS_Measurement.visitorID` がデフォルト値で事前設定されるようになりました。
+* `ADMS_Measurement.visitorID` にデフォルト値があらかじめ設定されるようになりました。
 
 ## バージョン 3.1.4 {#section_B04D1A4858A84A19AA65A57609C9F53F}
 
@@ -622,7 +622,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 * `lifecycleSessionTimeout` 設定変数を追加しました。この変数によって、アプリケーションを再起動する際に、新しいセッションが認識されるのに必要な経過時間を秒単位で指定できます。
 * 測定オブジェクトに設定されたイベントによって、メディアモジュールで設定されたイベントが上書きされる問題を修正しました。
-* Fixed an issue that caused an exception when allocating an mbox through the [!DNL Target] integration.
+* [!DNL Target] の統合による mbox の配分時に例外が発生する問題を修正しました。
 
 ## バージョン 3.1.0 {#section_0F3E939885DE4DF1B7430DF5F5749AD2}
 
@@ -630,7 +630,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 * armv7 アーキテクチャのサポートを追加しました。
 * armv6 アーキテクチャのサポートを廃止しました。
-* Minimum supported [!DNL iOS] SDK is now 4.3
+* サポートされる [!DNL iOS] SDK の最小バージョンが 4.3 になりました。
 
 ## バージョン 3.0.2 {#section_1224693620524D6C8CCAB7707483536E}
 
@@ -703,9 +703,9 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 * deleteLightProfiles
 * retrieveLightProfiles
 
-## 以前の iOS バージョン（2.x） {#section_5F76C3DA854D4BAEA636A68B3811142B}
+## 以前の iOS バージョン（2.x）{#section_5F76C3DA854D4BAEA636A68B3811142B}
 
-The following release notes apply to the 2.x version of [!DNL AppMeasurement] for [!DNL iOS]. できれば、3.x のバージョンにアップグレードすることをお勧めします。
+以下のリリースノートは、[!DNL iOS] 版 [!DNL AppMeasurement] のバージョン 2.x に適用されます。できれば、3.x のバージョンにアップグレードすることをお勧めします。
 
 ## バージョン 2.1.12 {#section_85C073B86B684D52A14E8038379F56DD}
 
@@ -740,16 +740,16 @@ The following release notes apply to the 2.x version of [!DNL AppMeasurement] fo
 
 リリース日：**2011 年 11 月**
 
-* Added support for [!DNL iOS] 5.
-* [!DNL AppMeasurement] for では、非推奨の UDID の値が訪問者 ID のデフォルト値として使用されなくなりました。[!DNL iOS]アプリケーションでオリジナルの訪問者 ID を設定する場合（例：`s.visitorID = @12345`）、この変更による影響はありません。オリジナルの訪問者 ID を設定しない場合、訪問者 ID は初回起動時に生成され、その後 User Defaults データベースに格納されます。This key is used by [!DNL AppMeasurement] from that point forward. また、このキーはアプリケーションの標準的なバックアッププロセスでも保存、復元されます。
+* [!DNL iOS] 5 のサポートを追加しました。
+* [!DNL AppMeasurement] for では、非推奨の UDID の値が訪問者 ID のデフォルト値として使用されなくなりました。[!DNL iOS]アプリケーションでオリジナルの訪問者 ID を設定する場合（例：`s.visitorID = @12345`）、この変更による影響はありません。オリジナルの訪問者 ID を設定しない場合、訪問者 ID は初回起動時に生成され、その後 User Defaults データベースに格納されます。このキーはそれ以降、[!DNL AppMeasurement] によって使用されます。また、このキーはアプリケーションの標準的なバックアッププロセスでも保存、復元されます。
 
-* Updated calls from the [!DNL iOS] Best Practices plug-in that are not associated with a page view to send hits using trackLink. これにより、trackLink 測定時にページビューがデフォルト値の「アプリケーションの名前／バージョン」で記録されなくなりました。
+* ページビューに関連付けられていない [!DNL iOS] Best Practices プラグインからのコールを更新し、trackLink を使ってヒットを送信できるようになりました。これにより、trackLink 測定時にページビューがデフォルト値の「アプリケーションの名前／バージョン」で記録されなくなりました。
 
 ## バージョン 2.1.3 {#section_E39666D780554B7398900C39C285CDB8}
 
 リリース日：**2011 年 10 月**
 
-* delegate 処理を改善しました。This fixes an issue that caused the [!DNL iOS] Best Practices Plug-in to crash when bringing the application out of the background.
+* delegate 処理を改善しました。これにより、アプリケーションをバックグラウンド以外で使用した場合に [!DNL iOS] Best Practices プラグインがクラッシュする問題が修正されました。
 
 ## バージョン 2.1.2 {#section_21014073AF804EFC8231047D8847485C}
 
