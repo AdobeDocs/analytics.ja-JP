@@ -1,14 +1,14 @@
 ---
 description: apl（または appendList）プラグインを使うと、任意のコンマ区切り形式のリストに値を付加できます。大文字と小文字の区別をするかしないかのオプションがあり、値がリストに存在しないことを確認するチェックもおこなえます。APL プラグインはいくつかの標準プラグインによって参照されますが、さまざまな状況で直接使うことができます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: apl（または appendList）プラグインを使うと、任意のコンマ区切り形式のリストに値を付加できます。大文字と小文字の区別をするかしないかのオプションがあり、値がリストに存在しないことを確認するチェックもおこなえます。APL プラグインはいくつかの標準プラグインによって参照されますが、さまざまな状況で直接使うことができます。
 seo-title: appendList
 solution: Analytics
 subtopic: プラグイン
 title: appendList
-topic: 開発者と導入
-uuid: e923c86c- eaa6-4e17- a3a4-0e08af886674
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -31,7 +31,7 @@ apl（または appendList）プラグインを使うと、任意のコンマ区
  <tbody> 
   <tr> 
    <td colname="col1"> <p>シナリオ </p> </td> 
-   <td colname="col2"> <p>イベントが重複しないことを確認しながら<span class="term"> event1 </span> を指定します。 </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>イベントが重複しないことを確認しながら<span class="term"> event1 </span> を現在のイベント変数に追加します。 </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コード </p> </td> 
@@ -50,7 +50,7 @@ apl（または appendList）プラグインを使うと、任意のコンマ区
  <tbody> 
   <tr> 
    <td colname="col1"> <p>シナリオ </p> </td> 
-   <td colname="col2"> <p>history<span class="term"> 履歴 </span> をリスト変数 <span class="varname"> prop1 </span>に設定した場合、 <span class="term"> 履歴 </span> と <span class="term"> 履歴 </span> は同じ値と見なされます。 </p> <p>s.prop1="Science,History" </p> </td> 
+   <td colname="col2"> <p>値  <span class="term">history</span> をリスト変数 <span class="varname"> prop1 </span> に追加します。<span class="term"> history </span> と <span class="term"> History </span> は同じ値とみなされます。 </p> <p>s.prop1="Science,History" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コード </p> </td> 
@@ -58,21 +58,21 @@ apl（または appendList）プラグインを使うと、任意のコンマ区
   </tr> 
   <tr> 
    <td colname="col1"> <p>結果 </p> </td> 
-   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> 履歴 </span> は、 <span class="term"> 履歴 </span> がリストに既に存在するので追加されません。 </p> </td> 
+   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term">History</span> は既にリストに含まれているので、<span class="term">history</span> は追加されません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+>後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## 実装 {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
 次の手順で APL プラグインを導入します。
 
 1. カスタマーケアまたは現在の担当アドビコンサルタントに、プラグインコードをリクエストします。
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
+1. 必要に応じて、*`s_doPlugins`* 関数内にAPI 関数への呼び出しを追加します。
 
 以下はサイトでのコードの一例です。
 
