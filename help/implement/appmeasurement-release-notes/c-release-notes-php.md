@@ -5,9 +5,9 @@ seo-title: PHP
 solution: Analytics
 subtopic: リリースノート
 title: PHP
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 65a644ef-8e50-406b-8b12-0582495d130a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログを有効にします。
+>ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
 ## バージョン 1.2.2 {#section_0D547871DC684417B6CE1370E5C6AAC2}
 
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 リリース日：**2012 年 7 月**
 
-* Added a check for the "off" returned for the $_SERVER['HTTPS'] in IIS. Without this check, typecasting to boolean ((bool)$_SERVER['HTTPS']) returned true in IE whether the request was made through HTTP or HTTPS. その結果、保護されていないページが保護された画像リクエストを実行しようとします。
+* IIS の $_SERVER['HTTPS'] に "off" が返されたときのチェック機能を追加しました。このチェックがない場合、IE でブール関数 ((bool)$_SERVER['HTTPS']) に型キャストすると、リクエストが HTTP を経由するか HTTPS を経由するかにかかわらず true が返されます。その結果、保護されていないページが保護された画像リクエストを実行しようとします。
 
 ## バージョン 1.1 {#section_8F4479681ED642FCB9233459E04FF702}
 
@@ -42,10 +42,10 @@ PHP 1.1 用の Measurement Library には、バージョン 1.0 からの以下�
 * ボット検出リストを絞り込みました。
 * `debugTracking` および `sendFromServer` が有効な場合にデバッグ情報（HTTP ヘッダー、応答、エラーなど）が追加されました。
 
-* Added the `debugFilename` variable (when `sendFromServer` is enabled).
+* `debugFilename` 変数が追加されました（`sendFromServer` が有効な場合）。
 
-* The pagename variable defaults to `$_SERVER['SCRIPT_NAME']` when neither `pagename` nor `pageURL` are set.
+* `pagename` も `pageURL` も設定されていない場合に pagename 変数のデフォルト値が `$_SERVER['SCRIPT_NAME']` に設定されます。
 
 * PHP の CGI 実装が完全にサポートされます。
-* パフォーマンス強化.
+* パフォーマンス強化。
 
