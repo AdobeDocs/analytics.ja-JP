@@ -1,13 +1,13 @@
 ---
 description: Facebook インスタント記事に Analytics を導入する方法です。
-keywords: Analyticsの導入;embed;カスタム変数;カスタムイベント;訪問者の追跡;tracking;制限事項
+keywords: Analytics の実装, 埋め込み, カスタム変数, カスタムイベント, 訪問者トラッキング, トラッキング, 制限
 seo-description: Facebook インスタント記事に Analytics を導入する方法です。
 seo-title: Facebook インスタント記事
 solution: Analytics
 title: Facebook インスタント記事
-topic: 開発者と導入
-uuid: 04b6366b-7c52-4ae- b2dd- bb6b78fd409c
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
@@ -21,9 +21,9 @@ Facebook インスタント記事は、発行者が Facebook で迅速にイン�
 
 Adobe Analytics は、Facebook インスタント記事内に埋め込んで、コンテンツでやり取りした訪問者の行動をトラッキングできます。発行者のコンテンツは Facebook アプリ内にあり、発行者の Web サイトにはないので、タグ付け方法は、標準的な Analytics 実装とは少し異なります。
 
-## 手順 1. Analytics HTML ページを埋め込む {#section_0DF847F8BA624CF8A239C10003A39E59}
+## 手順 1.Analytics HTML ページを埋め込む {#section_0DF847F8BA624CF8A239C10003A39E59}
 
-Facebook インスタント記事コンテンツを作成する際に、Analytics HTML コンテンツを iFrame 内に埋め込むことができます。以下に例を示します。
+Facebook インスタント記事コンテンツを作成する際に、Analytics HTML コンテンツを iFrame 内に埋め込むことができます。次に例を示します。
 
 ```
 <iframe class="no-margin" src="https://[your-domain-here]/analytics.html" height="0"></iframe>
@@ -83,9 +83,9 @@ Facebook インスタント記事コンテンツを作成する際に、Analytic
    1. 訪問者名前空間変数。**注意：**&#x200B;これらの値の多くは、標準 Analytics 実装内に見けることができます。必要に応じて、適切な値の提供についてカスタマーケアまたはアドビコンサルティングにお問い合わせいただくこともできます。
 
 1. [カスタム変数およびイベントトラッキングを設定](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B)します。
-1. Include the page view image request syntax `( s.t())`.
+1. ページビューイメージリクエスト構文 `( s.t())` を含めます。
 
-## 手順 3. カスタム変数およびイベントトラッキングを設定する {#section_932C41BD21154C25B99389299BDF3E0B}
+## 手順 3.カスタム変数およびイベントトラッキングを設定する {#section_932C41BD21154C25B99389299BDF3E0B}
 
 カスタム変数およびイベントは、Analytics HTML 内で異なる方法でトラッキングできます。第 1 の方法は標準 Analytics 実装でおこなうのと同じように、JavaScript ロジックをカスタム設定に含めることです。例えば、prop の値を設定するには、通常の実装で使用しているのと同じ構文を使用するだけです。
 
@@ -110,13 +110,13 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## 訪問者トラッキング {#section_60F0C77659534949831E85B5FD9AE81E}
 
-Analytics HTML ページがお使いの Web サーバーでホストされている限り、アドビは、既存のプライバシーポリシーをすべての Facebook インスタント記事にわたってサポートできます。これは、エンドユーザーがプライマリサイトのトラッキングをオプトアウトした場合、追加の手順を必要としないで、すべての Facebook インスタント記事のトラッキングもオプトアウトされることを意味します。また、このユーティリティページを使用すると、Facebookインスタント記事でキャプチャされた指標と変数を他のExperience Cloudと統合できるように、IDサービス（訪問者ID）がサポートされます。(An example is for targeted advertising using [!DNL Adobe Audience Manager]).
+Analytics HTML ページがお使いの Web サーバーでホストされている限り、アドビは、既存のプライバシーポリシーをすべての Facebook インスタント記事にわたってサポートできます。これは、エンドユーザーがプライマリサイトのトラッキングをオプトアウトした場合、追加の手順を必要としないで、すべての Facebook インスタント記事のトラッキングもオプトアウトされることを意味します。また、このユーティリティページの使用は、Facebook インスタント記事とその他の Experience Cloud で取得された指標および変数を統合できるように、ID サービス（訪問者 ID）がサポートされることを意味します（例えば、[!DNL Adobe Audience Manager] を使用したターゲット化した広告）。
 
 ## トラッキングの制限 {#section_1EE1BB069A3148DB9446371AFE196567}
 
 わずかですがこの方法で注意すべき問題があります。通常、Facebook インスタント記事の JavaScriptでのみアクセス可能な DOM 値（リファラーなど）が、トラッキング用の iframe で取得できなくなります。ただし、標準的な技術のレポート（ブラウザー、デバイス、画面サイズまたは解像度など）は、通常どおりに機能します。さらに、pageURL は、ユーティリティページから [!DNL document.referrer] を参照することで取得できます。
 
-## What's Next? {#section_A170A10E2A3642A784DF720195DA8B38}
+## 次の手順{#section_A170A10E2A3642A784DF720195DA8B38}
 
 [!DNL Adobe Analytics] は、Facebook および発行者と提携して、モバイル Web の発行者に業界最先端の分析機能を提供し、超高速ユーザーエクスペリエンスを実現します。アドビは、長期的な最高のソリューションを構築し、お客様が抱える分析ニーズの発展に応えることに取り組んでいきます。
 
