@@ -1,19 +1,19 @@
 ---
 description: 導入プロセスの手順です。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 導入プロセスの手順です。
-seo-title: 導入の受け入れ
+seo-title: 実装の受け入れ
 solution: Analytics
-title: 導入の受け入れ
-topic: 開発者と導入
-uuid: 6f7ec56e-9e4f-4dc8- b534-92b1580b5b47
-translation-type: tm+mt
+title: 実装の受け入れ
+topic: 開発者と実装
+uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 導入の受け入れ
+# 実装の受け入れ
 
 導入プロセスの手順です。
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. 導入時にはアドビコンサルタントが技術的な問題に対処し、必要に応じて解決策を提案します。
 1. クライアントサイドの技術担当者が、導入の単体テストをおこないます。
 
-   Testers log in to [!DNL Analytics] and verifying all variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, econversion variables, custom traffic variables, *`products`*, and all other variables).
+   テスト担当者は、[!DNL Analytics] にログインし、すべての変数（*`page name`*、*`channel`*、*`server`*、*`events`*、*`campaign`*、コンバージョン変数、カスタムトラフィック変数、*`products`*,、およびその他すべての変数）を検証します。
 1. お客様は導入が完了したことをアドビに通知します。
 
    また、データの正確さを検証するために、アドビコンサルタントに検証用のサンプル（データサンプル）を提供します（VISTA によって生成されるレポートスイートは、適切な指標を比較することで検証されます。このようなレポートスイートで検証される指標についてのお客様とアドビ間の取り決めは、VISTA ルールを作成するときに事前に策定しておく必要があります）。
