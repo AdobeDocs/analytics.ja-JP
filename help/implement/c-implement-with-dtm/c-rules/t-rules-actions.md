@@ -1,12 +1,12 @@
 ---
 description: トリガー条件のアクションを設定します。
-keywords: Dynamic Tag Management；ルール；ルールの作成；ルールの新規作成；JavaScript/サードパーティタグ；条件のアクションの設定；新しいスクリプトの追加；非順次javascript；順次javaScript；非順次html
+keywords: Dynamic Tag Management, ルール, ルールの作成, 新規ルール, javascript／サードパーティタグ, 条件のアクションの設定, 新規スクリプトを追加, 非順次 javascript, 順次 javascript, 非順次 html
 seo-description: トリガー条件のアクションを設定します。
 seo-title: トリガー条件のアクションの設定
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: トリガー条件のアクションの設定
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -24,20 +24,20 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->Because DTM allows you to inject custom code into your page, please take care not to create cross-site scripting (XSS) vulnerabilities (see [OWASP’s guide](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) for more info). 特に、スクリプトの中でデータ要素を使用する場合は警戒が必要です。データ要素には、信頼できない提供元から得られた値が含まれている可能性が常にあることを意識してください。
+>ページ内にカスタムコードを挿入できる DTM の機能によってクロスサイトスクリプティング（XSS）脆弱性が入り込まないよう、十分注意してください（詳しくは、[OWASP のガイド資料](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))を参照してください）。特に、スクリプトの中でデータ要素を使用する場合は警戒が必要です。データ要素には、信頼できない提供元から得られた値が含まれている可能性が常にあることを意識してください。
 
 **トリガー条件のアクションを設定するには**
 
-1. Click **[!UICONTROL JavaScript / Third Party Tags]** to add a new script to your rule.
+1. 「**[!UICONTROL Javascript / サードパーティタグ]**」をクリックして、新しいスクリプトをルールに追加します。
 
    ![](assets/scripts-actions.png)
 
-1. Click **[!UICONTROL Add New Script]**.
+1. 「**[!UICONTROL 新規スクリプトを追加]**」をクリックします。
 
    ![](assets/scripts-actions2.png)
 
 1. スクリプトに名前を付けます。
-1. Specify how you want the script to trigger, and paste the desired content into the text area. ![](assets/scripts-actions3.png)
+1. スクリプトのトリガー方法を指定して、目的のコンテンツをテキスト領域に貼り付けます。![](assets/scripts-actions3.png)
 
-1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
+1. 「**[!UICONTROL コードを保存]**」をクリックすると、スクリプトがルールのキューに追加されます。![](assets/scripts-actions4.png)
 
