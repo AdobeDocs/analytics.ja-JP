@@ -1,14 +1,14 @@
 ---
 description: 訪問者が新規訪問者とリピーターのどちらであるかを判断し、その情報を Analytics 変数に取り込みます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 訪問者が新規訪問者とリピーターのどちらであるかを判断し、その情報を Analytics 変数に取り込みます。
 seo-title: getNewRepeat
 solution: Analytics
 subtopic: プラグイン
 title: getNewRepeat
-topic: 開発者と導入
-uuid: e3e9f362- e0b1-4a2b- bb5b-98eddaya0a7f4
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+>後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## プラグインコードと導入 {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -34,7 +34,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **プラグイン構成**
 
-次のコードを *`s_doPlugins()`* 関数 *`s_code.js`***&#x200B;を使用します。持続値データを取り込むために、1 つのカスタムトラフィック（s.prop）変数または 1 つのカスタムコンバージョン（s.eVar）変数を選択します。これは Admin Console を使って有効にした変数で、他の目的では使用されていないものを使います。次のサンプルは自分の条件に合わせて変更して使用できます。
+次のコードを  *`s_doPlugins()`* 関数内に配置します。この関数は、「*Plugin Config*」というラベルの付いた *`s_code.js`* ファイルの領域にあります。持続値データを取り込むために、1 つのカスタムトラフィック（s.prop）変数または 1 つのカスタムコンバージョン（s.eVar）変数を選択します。これは Admin Console を使って有効にした変数で、他の目的では使用されていないものを使います。次のサンプルは自分の条件に合わせて変更して使用できます。
 
 `s.prop1=s.getNewRepeat(30,'s_getNewRepeat');`
 
