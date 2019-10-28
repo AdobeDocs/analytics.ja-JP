@@ -1,19 +1,19 @@
 ---
 description: パスレポートは初期設定の状態ではページに対して使用できますが、カスタムトラフィック変数に対しても有効にすることができます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: パスレポートは初期設定の状態ではページに対して使用できますが、カスタムトラフィック変数に対しても有効にすることができます。
-seo-title: propでのパスの有効化
+seo-title: prop でのパスの有効化
 solution: Analytics
-title: propでのパスの有効化
-topic: 開発者と導入
-uuid: 582f7ecb-3f36-4d52- ac69- f74ad37c5f7a
-translation-type: tm+mt
+title: prop でのパスの有効化
+topic: 開発者と実装
+uuid: 582f7ecb-3f36-4d52-ac69-f74ad37c5f7a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# propでのパスの有効化
+# prop でのパスの有効化
 
 パスレポートは初期設定の状態ではページに対して使用できますが、カスタムトラフィック変数に対しても有効にすることができます。
 
@@ -23,11 +23,11 @@ prop でのパスの有効化には、Admin Console を使用します。次の�
 * ユーザーが訪問時によく訪れるのはどのサイトセクションか。
 * ユーザーのタイプごとのページパスをどのように解釈できるか。
 
-Advanced pathing is available in [!DNL Ad hoc analysis]. Ad Hoc Analysis は、任意のレポートに対してその場でセグメント化をおこなうもので、パスの設定を有効化する必要も、特別な方法で prop のデータを構造化する必要もありません。この分析は、パスレポートをセグメント化する最も簡単で最適な方法でもあります。詳しくは、[ad hoc analysis に関するドキュメント](https://marketing.adobe.com/resources/help/en_US/dsc/)を参照してください。
+[!DNL Ad hoc analysis] では、高度なパス分析を使用できます。Ad Hoc Analysis は、任意のレポートに対してその場でセグメント化をおこなうもので、パスの設定を有効化する必要も、特別な方法で prop のデータを構造化する必要もありません。この分析は、パスレポートをセグメント化する最も簡単で最適な方法でもあります。詳しくは、「[アドホック分析ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/dsc/)」を参照してください。
 
 prop に対してパスを有効化すると、標準のパスレポートの下に新しいパスレポートのセットが表示されます。パスレポートでは、その訪問者が辿ってきたページの順序が示されます。prop に対してパスを有効化すると、同じことが実行されます。つまり、そのユーザーが辿ってきた prop 値の順序が示されます。この値の順序の表示方法は、参照しているパスレポートによって異なります。
 
 >[!NOTE]
 >
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. サイトセクションおよびサーバーレポートでパスを有効にするには、カスタマーケアにお問い合わせください。
+>パスを有効にするには、**[!UICONTROL 管理者／レポートスイート／設定を編集／トラフィック／トラフィック変数]**&#x200B;に移動します。サイトセクションおよびサーバーレポートでパスを有効にするには、カスタマーケアにお問い合わせください。
 
