@@ -1,13 +1,13 @@
 ---
 description: リンクトラッキングの導入を正しくおこなうために重要なことは、s.linkTrackVars 変数と s.linkTrackEvents 変数について理解することです。これらの変数を使用して、ユーザーのアクション実行時にカスタム変数の値を渡すことができます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: リンクトラッキングの導入を正しくおこなうために重要なことは、s.linkTrackVars 変数と s.linkTrackEvents 変数について理解することです。これらの変数を使用して、ユーザーのアクション実行時にカスタム変数の値を渡すことができます。
 seo-title: s.linkTrackVars と s.linkTrackEvents の使用
 solution: Analytics
 title: s.linkTrackVars と s.linkTrackEvents の使用
-topic: 開発者と導入
-uuid: f6b7019b-987b-4b7d- a446-80205f7cc36c
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 リンクトラッキングの導入を正しくおこなうために重要なことは、s.linkTrackVars 変数と s.linkTrackEvents 変数について理解することです。これらの変数を使用して、ユーザーのアクション実行時にカスタム変数の値を渡すことができます。
 
-カスタムリンクトラッキングを導入し、[!UICONTROL custom] 変数と *`events`*&#x200B;に設定します。 [!UICONTROL s. linkTrackVars] 変数に *`events`* 、変数を含めて渡されるすべての変数のコンマ区切りリストが含まれていることを確認します。[!UICONTROL s.linkTrackEvents] に、渡されるすべてのイベントのコンマ区切りリストが含まれていることを確認します。
+カスタムリンクトラッキングを導入し、[!UICONTROL custom] 変数と  *`events`* を設定する場合、[!UICONTROL s.linkTrackVars] 変数に、渡されるすべての変数（*`events`* 変数を含む）のコンマ区切りリストが含まれていることを確認します。[!UICONTROL s.linkTrackEvents] に、渡されるすべてのイベントのコンマ区切りリストが含まれていることを確認します。
 
 [!UICONTROL s.linkTrackVars] および [!UICONTROL s.linkTrackEvents] の設定によって、実際にこれらの変数やイベントが設定されるわけではなく、[!DNL Analytics] コードで設定できるようにするための準備がおこなわれます。手動で変数を設定する必要があります。次に例を示します。
 
