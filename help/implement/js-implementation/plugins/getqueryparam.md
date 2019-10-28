@@ -1,14 +1,14 @@
 ---
 description: 現在のページ URL に指定したクエリ文字列パラメーターがある場合、その値を返します。重要なデータ（キャンペーントラッキングコード、内部検索キーワードなど）はページ上のクエリ文字列に含まれているので、getQueryParam は、データを取得して Analytics 変数に取り込むのに役立ちます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 現在のページ URL に指定したクエリ文字列パラメーターがある場合、その値を返します。重要なデータ（キャンペーントラッキングコード、内部検索キーワードなど）はページ上のクエリ文字列に含まれているので、getQueryParam は、データを取得して Analytics 変数に取り込むのに役立ちます。
 seo-title: getQueryParam
 solution: Analytics
 subtopic: プラグイン
 title: getQueryParam
-topic: 開発者と導入
-uuid: ba202756- c728-4ebc-8fd9-5bc29a9f673b
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,25 +20,25 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->このプラグインはHコードのみで使用されます。[JavaScript版AppMeasurementは、この](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 機能を、Util. getQueryParamを [使用してネイティブに提供](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)します。
+>このプラグインは H コードのみで使用されます。[JavaScript 版 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) は、[Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5) を使用してこの機能をネイティブで提供します。
 
-Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. プラグインは、指定したクエリ文字列があればそれを検出し、選択した変数にその値を入力します。クエリ文字列パラメーターがその値で見つからない場合、空の文字列が返されます。If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+プラグインを JavaScript 版 [!DNL AppMeasurement] コードにインストールすると、クエリ文字列にあるデータを入力する [!DNL Analytics] 変数を選択し、取り込むクエリ文字列の値を指定することによってプラグインを設定できます。プラグインは、指定したクエリ文字列があればそれを検出し、選択した変数にその値を入力します。クエリ文字列パラメーターがその値で見つからない場合、空の文字列が返されます。クエリ文字列パラメーターがあるものの値がない場合（例えば、`?param1&param2=value` の param1）、「*`true`*」という単語が返されます。
 
 >[!NOTE]
 >
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+>後述のサンプルを機能させるには、JavaScript 版 [!DNL AppMeasurement] コードにプラグインのベースコードをインストールしておく必要があります。
 
-*`s.campaign`**`cid`* クエリパラメータの値として使用できるキャンペーントラッキングコードを取り込むには、 *`doPlugins()`* JavaScriptコード [!DNL AppMeasurement] の次の関数に入力します。
+*`s.campaign`* を使用して *`cid`* クエリパラメーターの値として利用可能なキャンペーンコードを取得するには、JavaScript 版 [!DNL AppMeasurement] コードに次の *`doPlugins()`* 関数を入力します。
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. これは [!DNL DigitalPulse] Debugger で確認でき、イメージリクエストの一環として *v0=123456* と表示されます。
+この例では、ユーザーがサイトのランディングページにアクセスし、その URL が[!DNL https://www.yoursite.com/index.html?cid=123456] の場合、*`s.campaign`* は値「*123456*」を受け取ります。これは [!DNL DigitalPulse] [!UICONTROL Debugger] で確認でき、イメージリクエストの一環として *v0=123456* と表示されます。
 
 >[!NOTE]
 >
->The parameter *`cid`* and others are used here as examples. これらは、サイトに存在する任意のクエリ文字列パラメーターで置き換えることができます。
+>パラメーター *`cid`* およびその他はは例として使用されています。これらは、サイトに存在する任意のクエリ文字列パラメーターで置き換えることができます。
 
-"*`getQueryParam`* プラグインには、Analytics 変数にデータを取り込める引数がさらに 2 つあります（オプション）。
+*`getQueryParam`* プラグインには、Analytics 変数にデータを取り込める引数がさらに 2 つあります（オプション）。
 
 ```js
 s.getQueryParam('p','d','u') 
@@ -58,7 +58,7 @@ s.campaign=s.getQueryParam('cid');
  s.campaign=s.getQueryParam('iid'); 
 ```
 
-バージョン *`getQueryParam`* v2.0 からは、オプションとして 3 つ目の引数 *u* が許可されています。この引数では、クエリ文字列パラメーターの抽出元となる URL を指定できます。デフォルト（つまりこの 3 つ目の引数が省略または空白にされた場合）では、プラグインはページ URL を使用します。例えば、リファラーからクエリ文字列を抽出する場合、次のコードを使用できます。
+バージョン  *`getQueryParam`* v2.0 からは、オプションとして 3 つ目の引数 *u* が許可されています。この引数では、クエリ文字列パラメーターの抽出元となる URL を指定できます。デフォルト（つまりこの 3 つ目の引数が省略または空白にされた場合）では、プラグインはページ URL を使用します。例えば、リファラーからクエリ文字列を抽出する場合、次のコードを使用できます。
 
 ```js
 // take the query string from the referrer 
@@ -76,7 +76,7 @@ s.campaign=s.getQueryParam('cid');
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+>後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 **プラグインコード**
 
