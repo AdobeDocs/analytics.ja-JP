@@ -1,13 +1,13 @@
 ---
 description: コードマネージャーを使用すると、Web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。
-keywords: Analyticsの導入;データ収集;コードマネージャー
+keywords: Analytics の実装, データ収集, コードマネージャー
 seo-description: コードマネージャーを使用すると、Web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。
 seo-title: コードマネージャー
 solution: Analytics
 title: コードマネージャー
-topic: 開発者と導入
-uuid: 4dc79214- a38b-4e1a-90f9- d09c8142dd0a
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,9 +17,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 コードマネージャーを使用すると、Web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。
 
-**[!UICONTROL Analytics/管理者/コードマネージャー]**
+**[!UICONTROL Analytics／管理者／コードマネージャー**]
 
-ライブラリをダウンロードした後、データを適切なトラッキングサーバとレポートスイートに送信するようにコードを設定する必要があります。その他の導入リソースは、[開発者と実装](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)で利用できます。
+ライブラリをダウンロードした後、データを適切なトラッキングサーバーとレポートスイートに送信するようにコードを設定する必要があります。その他の実装リソースは、「[開発者と実装](https://marketing.adobe.com/resources/help/ja_JP/reference/developer.html)」を参照してください。
 
 ## コードマネージャーページの説明 {#section_0C23784E20BD4631841FF24E5075DA12}
 
