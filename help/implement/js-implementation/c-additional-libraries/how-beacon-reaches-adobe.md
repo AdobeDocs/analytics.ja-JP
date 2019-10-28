@@ -1,13 +1,13 @@
 ---
 description: モバイルデバイスが Web サーバーにページを要求する際、その要求はゲートウェイ経由で送信されます。そのとき、モバイルリクエスト（通常 WAP または i モードプロトコル）は、HTTP リクエストに変換されてから Web サーバーに送信されます。
-keywords: Analyticsの導入;ゲートウェイ;wap;i- mode;wbmp
+keywords: Analytics の実装, ゲートウェイ, wap, i-mode, wbmp
 seo-description: モバイルデバイスが Web サーバーにページを要求する際、その要求はゲートウェイ経由で送信されます。そのとき、モバイルリクエスト（通常 WAP または i モードプロトコル）は、HTTP リクエストに変換されてから Web サーバーに送信されます。
 seo-title: モバイルプロトコルネットワークゲートウェイ
 solution: Analytics
 title: モバイルプロトコルネットワークゲートウェイ
-topic: 開発者と導入
-uuid: a2c92ce2-53a9-4b5b- be1a-89d9f1bf776f
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: a2c92ce2-53a9-4b5b-be1a-89d9f1bf776f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
