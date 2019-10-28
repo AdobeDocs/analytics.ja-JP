@@ -1,13 +1,13 @@
 ---
 description: adobe.com を例として使用します。ここで説明する導入では、同じ visid の cookie を参照します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: adobe.com を例として使用します。ここで説明する導入では、同じ visid の cookie を参照します。
 seo-title: 実装例
 solution: Analytics
 title: 実装例
-topic: 開発者と導入
-uuid: 17d8d2b2-2303-495a- b0f9- d8d3c05f3893
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
