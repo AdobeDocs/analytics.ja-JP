@@ -1,12 +1,12 @@
 ---
 description: Analytics のデプロイ時にページコードをカスタマイズするには、Dynamic Tag Management のフィールドの説明を使用します。
-keywords: Dynamic Tag Management；ページコードのカスタマイズ；エディターを開く；実行
+keywords: Dynamic Tag Management, ページコードのカスタマイズ, エディターの起動, 実行
 seo-description: Analytics のデプロイ時にページコードをカスタマイズするには、Dynamic Tag Management のフィールドの説明を使用します。
 seo-title: ページコードのカスタマイズ
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: ページコードのカスタマイズ
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Analytics のデプロイ時にページコードをカスタマイズするには、Dynamic Tag Management のフィールドの説明を使用します。
 
-Analytics ツールと同時に確実にコードを実行させるには、プラグインを追加します。Analytics のプラグインについて詳しくは、 [導入プラグイン](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+Analytics ツールと同時に確実にコードを実行させるには、プラグインを追加します。Analytics のプラグインについて詳しくは、[実装プラグイン](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)を参照してください。
 
-**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]**／**[!UICONTROL   ![](assets/settings_gear.png)
 
-Edit Tool]** &gt; **[!UICONTROL Customize Page Code]**
+ツールの編集]**／**[!UICONTROL ページコードをカスタマイズ]**
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 
