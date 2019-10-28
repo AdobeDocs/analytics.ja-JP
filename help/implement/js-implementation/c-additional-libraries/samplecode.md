@@ -1,13 +1,13 @@
 ---
 description: HTML サンプルページ内でのサーバー生成イメージタグの使用例を示します。
-keywords: Analyticsの導入;変数
+keywords: Analytics の実装, 変数
 seo-description: HTML サンプルページ内でのサーバー生成イメージタグの使用例を示します。
 seo-title: サンプルコード
 solution: Analytics
 title: サンプルコード
-topic: 開発者と導入
-uuid: 47e5e82c- cfb2-4912-919b-720b2ee852ba
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -31,7 +31,7 @@ HTML サンプルページ内でのサーバー生成イメージタグの使用
 | zip | 90210 |
 | 乱数 | 123456 |
 
-## 例 1 {#section_91D91CE318AE43F0ADDF6005607E83C7}
+## 例 1{#section_91D91CE318AE43F0ADDF6005607E83C7}
 
 次の例は、サーバーサイドのイメージタグを示しています。強調表示された乱数は、イメージのキャッシュを防いでいます。
 
@@ -51,7 +51,7 @@ Thanks for your order #0123456.
 </codeph outputclass="syntax">
 ```
 
-## 例 2 {#section_726D12029583428BA853043F988ED1B8}
+## 例 2{#section_726D12029583428BA853043F988ED1B8}
 
 次の例は、最小限の JavaScript イメージタグを示しています。
 
