@@ -1,22 +1,22 @@
 ---
 description: 新しいバージョンの JavaScript AppMeasurement では、サポートされるプラグインが変更されました。
-keywords: Analyticsの導入;appMeasurement;javascript;plugin;プラグイン
+keywords: Analytics の実装, appmeasurement, javascript, プラグイン
 seo-description: 新しいバージョンの JavaScript AppMeasurement では、サポートされるプラグインが変更されました。
-seo-title: AppMeasurementプラグインのサポート
+seo-title: AppMeasurement プラグインのサポート
 solution: Analytics
 subtopic: JavaScript AppMeasurement
-title: AppMeasurementプラグインのサポート
-topic: 開発者と導入
-uuid: e048e16b-994a-4079- bde4-3faa3df8c96d
-translation-type: tm+mt
+title: AppMeasurement プラグインのサポート
+topic: 開発者と実装
+uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
 
 
-# AppMeasurementプラグインのサポート
+# AppMeasurement プラグインのサポート
 
-JavaScript AppMeasurementの現在のバージョンのプラグインサポート。
+現在のバージョンの JavaScript AppMeasurement でのプラグインサポート。
 
 ## 検証済みのプラグイン {#section_48415FB895E6455FAC34B0B96DE6EBE7}
 
@@ -24,7 +24,7 @@ JavaScript AppMeasurementの現在のバージョンのプラグインサポー�
 
 * [s.abort フラグ](/help/implement/js-implementation/plugins/abort.md)
 * [appendList](/help/implement/js-implementation/plugins/appendlist.md)
-* [doPlugins関数](/help/implement/js-implementation/plugins/function-doplugins.md)
+* [doPlugins 関数](/help/implement/js-implementation/plugins/function-doplugins.md)
 * [getAndPersistValue](/help/implement/js-implementation/plugins/getandpersistvalue.md)
 * [getDaysSinceLastVisit](../../../implement/js-implementation/plugins/getdayssincelastvisit.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
 * [getLoadTime](/help/implement/js-implementation/plugins/getloadtime.md)
