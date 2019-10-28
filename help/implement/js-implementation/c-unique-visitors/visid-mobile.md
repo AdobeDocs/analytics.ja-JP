@@ -1,25 +1,25 @@
 ---
 description: ほとんどのモバイルデバイスがブラウザー cookie を受け付けます。ただし、デバイスが cookie を受け付けない場合は、別の方法を使用してワイヤレスデバイスを一意に識別します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: ほとんどのモバイルデバイスがブラウザー cookie を受け付けます。ただし、デバイスが cookie を受け付けない場合は、別の方法を使用してワイヤレスデバイスを一意に識別します。
-seo-title: モバイルデバイスの特定
+seo-title: モバイルデバイスの識別
 solution: Analytics
-title: モバイルデバイスの特定
-topic: 開発者と導入
-uuid: 22587dd1- cead-485b- a4d8-94dfb7cd9662
-translation-type: tm+mt
+title: モバイルデバイスの識別
+topic: 開発者と実装
+uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
+translation-type: ht
 source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ---
 
 
-# モバイルデバイスの特定
+# モバイルデバイスの識別
 
 ほとんどのモバイルデバイスがブラウザー cookie を受け付けます。ただし、デバイスが cookie を受け付けない場合は、別の方法を使用してワイヤレスデバイスを一意に識別します。
 
 アドビでは、ほとんどのモバイルデバイスを一意に識別する様々な HTTP [加入者 ID ヘッダー](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)を識別しています。これらのヘッダーには、デバイスの電話番号（または電話番号をハッシュ化したもの）やその他の識別子が含まれます。現在のほとんどのデバイスには、デバイスを一意に識別する 1 つ以上のヘッダーがあり、アドビのすべてのデータ収集サーバーでは、訪問者 ID の代わりにこれらのヘッダーが自動的に使用されます。
 
-In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). ただし、デバイスが HTTP ヘッダーに基づいてモバイルデバイスとして認識される場合は、「1」の代わりに「5」が渡されます。これは、wbmp 形式のイメージを返す必要があることと、認識済みのワイヤレスヘッダーのリスト（cookie ではない）を使用してデバイスを識別する必要があることを示します。
+一般的なイメージリクエストでは、パス（`/b/ss/rsid/1`/）内の「1」は、アドビサーバーに対して、gif イメージを返し、持続的な[!UICONTROL 訪問者 ID] cookie（`AMCV_` または `s_vi`）の設定を試行するように命令します。ただし、デバイスが HTTP ヘッダーに基づいてモバイルデバイスとして認識される場合は、「1」の代わりに「5」が渡されます。これは、wbmp 形式のイメージを返す必要があることと、認識済みのワイヤレスヘッダーのリスト（cookie ではない）を使用してデバイスを識別する必要があることを示します。
 
 次の表に、パス内の返されるイメージタイプ値（「1」または「5」）に基づいて使用される ID メソッドの順序を示します。
 
@@ -56,7 +56,7 @@ In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe ser
 
 また、「1」または「5」はイメージリクエストに手動で渡すこともできますが、これらのコードは相互に排他的なので、常に「5」を渡すと、cookie がサポートされていても利用されません。デバイスが cookie をサポートしているかを判定できる独自のメカニズムを組み込んで、cookie をサポートしている場合にイメージ内で「5」ではなく「1」を渡すことができます。この状況で改善される精度は、cookie をサポートするモバイルデバイスの数に限られます。
 
-## 加入者 ID ヘッダー {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
+## 加入者 ID ヘッダー{#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
 cookie には cookie の削除、cookie の承認、ゲートウェイ cookie 管理などに関する問題があるので、一般的に訪問者 ID は cookie よりも信頼性の高いユーザー識別方法です。
 
@@ -88,4 +88,4 @@ cookie には cookie の削除、cookie の承認、ゲートウェイ cookie �
 
 例えば、「callinglineid」は、「X-Up-Calling-Line-ID」および「nokia-callinglineid」に一致します。ヘッダータイプは、ヘッダーの内容を示します。ヘッダーの優先順位はこの表の並びのとおりです（「callinglineid」ヘッダーが存在する場合、そのヘッダーが「subno」の代わりに使用されます）。
 
-次のいずれかを使用できます[動的変数](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)を使用すると、ヘッダーから特定の値を抽出できます。
+[動的変数](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)を使用すると、ヘッダーから特定の値を抽出できます。
