@@ -1,14 +1,14 @@
 ---
 description: オプトアウトリンクを指定し、リンクのブランディングをカスタマイズします。Web サイトの訪問者は、データ収集ドメインのオプトアウトページを開いて、自分の行動が Adobe Analytics 製品でトラッキングされないように選択することができます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: オプトアウトリンクを指定し、リンクのブランディングをカスタマイズします。Web サイトの訪問者は、データ収集ドメインのオプトアウトページを開いて、自分の行動が Adobe Analytics 製品でトラッキングされないように選択することができます。
 seo-title: オプトアウトリンクの追加
 solution: Analytics
 subtopic: トラブルシューティング
 title: オプトアウトリンクの追加
-topic: 開発者と導入
-uuid: c12092be-3be7-4621- b838- d6b78d074f84
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: c12092be-3be7-4621-b838-d6b78d074f84
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -26,9 +26,9 @@ URL 構成の collection_domain セクションが、JavaScript ファイルで�
 
 アドビでは、すべての導入タイプに応じたオプトアウト方法を用意しています。お客様は自身のプライバシーポリシーに責任を負うとともに、それ以外にお客様が署名した規約を遵守する責任を負います。ここで説明しているように、導入タイプに応じてオプトアウトページへのリンクが変わることに注意してください。
 
-アドビが所有するドメイン（つまり、207.net または omtrdc.net）に設定された cookie を使用して Adobe Analytics 製品およびサービスを導入した場合、Adobe Analytics の製品およびサービスに対応するアドビ cookie を使用するすべてのサイトについて、[アドビプライバシーセンター](https://www.adobe.com/privacy/opt-out.html)で提供されるオプトアウトメカニズムへのリンクを Web サイトに設置できます。The direct link to the Adobe opt-out mechanism is `https:// *collection_domain* /optout.html`.
+アドビが所有するドメイン（つまり、207.net または omtrdc.net）に設定された cookie を使用して Adobe Analytics 製品およびサービスを導入した場合、Adobe Analytics の製品およびサービスに対応するアドビ cookie を使用するすべてのサイトについて、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)で提供されるオプトアウトメカニズムへのリンクを Web サイトに設置できます。アドビのオプトアウトメカニズムへの直接リンクは、`https:// *collection_domain* /optout.html` です。
 
-More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
+Adobe Analytics のプライバシープラクティスについて詳しくは、[https://www.adobe.com/jp/privacy/advertising-services.html](https://www.adobe.com/jp/privacy/advertising-services.html) を参照してください。
 
 * [オプトアウトページの URL 構成](../../../implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748)
 * [オプトアウト URL の例](../../../implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E)
@@ -42,9 +42,9 @@ More information about Adobe Analytics privacy practices can be found at [https:
 https://collection_domain/optout.html[?optional_parameters]
 ```
 
-The `optional_parameters` include:
+`optional_parameters` には以下が含まれます。
 
-`locale=[code]`:翻訳版のオプトアウトページを提供します。以下のロケールがサポートされています。
+`locale=[code]`：各国語バージョンのオプトアウトページを表示します。以下のロケールがサポートされています。
 
 * en_US（デフォルト）
 * de_DE
@@ -77,7 +77,7 @@ https://example.d3.sc.omtrdc.net/optout.html?locale=fr_FR
 https://example.112.2o7.net/optout.html?popup=1&locale=de_DE
 ```
 
-## オプトアウト URL のブランディング {#section_674AB62E810B414AB8F1615C0E3061F8}
+## オプトアウト URL のブランディング{#section_674AB62E810B414AB8F1615C0E3061F8}
 
 次のようなリンクを、Web サイトの任意の場所に設定できます。
 
@@ -86,6 +86,6 @@ https://example.112.2o7.net/optout.html?popup=1&locale=de_DE
 Click Here to Opt Out! </a>
 ```
 
-ここで、「*`stats.adobe.com`* は、 *`s.trackingServer`* 変数が設定されているものに置き換えられます。
+ここで、「*`stats.adobe.com`* は、*`s.trackingServer`* 変数の設定内容に置き換えられます。
 
-Additionally, if you want like to provide a link to opt-in, use the same URL, but replace `?optout=1` with `?optin=1`, and keep the `confirm_change=1`.
+さらに、オプトインのためのリンクを提供したい場合、同じ URL を使用しますが、`?optout=1` を `?optin=1` に置き換えて、`confirm_change=1` はそのままにします。
