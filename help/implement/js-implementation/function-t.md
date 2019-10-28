@@ -1,14 +1,14 @@
 ---
 description: s.t() 関数は、対象のページに定義されているすべての変数をイメージリクエストにまとめて、Adobe サーバーに送信します。
-keywords: track;Analyticsの導入;ページトラッキング;トラックページ
+keywords: 追跡, Analytics の実装, ページトラッキング, ページの追跡
 seo-description: s.t() 関数は、対象のページに定義されているすべての変数をイメージリクエストにまとめて、Adobe サーバーに送信します。
 seo-title: s.t() 関数 - ページトラッキング
 solution: Analytics
 subtopic: 関数
 title: s.t() 関数 - ページトラッキング
-topic: 開発者と導入
-uuid: 67696e46-1e0d-4200- bfad-4217d1023948
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 67696e46-1e0d-4200-bfad-4217d1023948
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -25,7 +25,7 @@ s.t() 関数は、対象のページに定義されているすべての変数�
 * 1 回のページ読み込みで複数のイメージリクエストを実行する場合は、[!UICONTROL s.tl()] 関数を使用することを推奨します。
 * この関数をトリガーすると、常に[!UICONTROL ページビュー数]が増加し、[!UICONTROL s.pageName] 変数が含まれます。
 
-## 導入 {#section_F75C7BD4A8954CD5BE066C6B88A4A01C}
+## 実装{#section_F75C7BD4A8954CD5BE066C6B88A4A01C}
 
 [!UICONTROL コードマネージャー]内でコードを生成すると、ページコードの末尾は次のようになります。
 
