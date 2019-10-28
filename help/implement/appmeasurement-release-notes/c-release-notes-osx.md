@@ -2,12 +2,12 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Mac OS X
-solution: Analytics,Experience Cloud
+solution: Analytics, Experience Cloud
 subtopic: リリースノート
 title: Mac OS X
 topic: 開発者と実装
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!IMPORTANT]
 >
->これらのSDKは日没しており、アドビによってサポートまたは配布されなくなりました。
+>これらの SDK は非推奨となっており、アドビによってサポートまたは配布されなくなりました。
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログをオンにします。
+>ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+モバイルライブラリの[ダウンロード](https://marketing.adobe.com/developer/ja/get-started/mobile/c-measuring-mobile-applications)は [!DNL Developer Connection] で入手できます。
 
 ## バージョン 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
@@ -43,7 +43,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 リリース日：**2013 年 8 月 6 日**
 
 * Adobe Audience Manager のサポートを追加しました。
-* Lifecycle data will now be sent with [!DNL Target] Mbox requests.
+* ライフサイクルデータが [!DNL Target] の mbox リクエストとともに送信されるようになります。
 
 ## バージョン 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
@@ -61,10 +61,10 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 リリース日：**2013 年 3 月 22 日**
 
-* `ADMS_Measurement.visitorID` がデフォルト値で事前設定されるようになりました。
+* `ADMS_Measurement.visitorID` にデフォルト値があらかじめ設定されるようになりました。
 
 ## バージョン 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
 リリース日：**2013 年 2 月**
 
-初回リリース。This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS].
+初回リリース。[!DNL iOS]このバージョンは 3.1.4 のコードベースに基づいているので、[!DNL iOS] に合わせて最初のバージョン番号を設定しました。
