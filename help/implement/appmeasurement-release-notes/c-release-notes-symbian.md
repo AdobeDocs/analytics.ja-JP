@@ -5,9 +5,9 @@ seo-title: Symbian
 solution: Analytics
 subtopic: リリースノート
 title: Symbian
-topic: 開発者と導入
-uuid: 000c0b76-00f9-40a5- b9b8- c67798ce705e
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 000c0b76-00f9-40a5-b9b8-c67798ce705e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->現在のライブラリバージョンを検索するには、デバッグログを有効にします。
+>ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
 ## バージョン 1.1 {#section_F7F055CEB8EA44369A718F800268174D}
 
