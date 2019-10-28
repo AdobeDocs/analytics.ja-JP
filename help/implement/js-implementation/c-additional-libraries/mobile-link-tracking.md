@@ -1,19 +1,19 @@
 ---
 description: 'null'
-keywords: Analyticsの導入;リンク参照;redir
+keywords: Analytics の実装; リンクリファレンス; redir
 seo-description: 'null'
-seo-title: モバイルプロトコルのカスタムリンク測定
+seo-title: モバイルプロトコルでのカスタムリンク測定
 solution: Analytics
-title: モバイルプロトコルのカスタムリンク測定
-topic: 開発者と導入
-uuid: eb82de26- da2e-41c2-8924-59b6b5cef28
-translation-type: tm+mt
+title: モバイルプロトコルでのカスタムリンク測定
+topic: 開発者と実装
+uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# モバイルプロトコルのカスタムリンク測定
+# モバイルプロトコルでのカスタムリンク測定
 
 多くのモバイルデバイスユーザーは、ポッドキャストや着信音などのファイルをデバイスにダウンロードします。多くのモバイルデバイスは JavaScript をサポートしないので、リダイレクトを利用してリンク測定を導入する必要があります。リダイレクトを使用するには、html の href リンクを変更して、REDIR 要素を追加します。カスタムリンクの一般的な形式は以下のようになります。
 
@@ -38,4 +38,4 @@ https://<your_Namespace>.112.2o7.net/b/ss/<RSID>/4/REDIR/
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-詳しくは、[離脱リンクトラッキングのリダイレクトに関するホワイトペーパー](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/)を参照してください。
+詳しくは、「[離脱リンクトラッキングのリダイレクトに関するホワイトペーパー](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/redirects/)」を参照してください。
