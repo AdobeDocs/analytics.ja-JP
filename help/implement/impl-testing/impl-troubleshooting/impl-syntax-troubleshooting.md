@@ -1,14 +1,14 @@
 ---
 description: 正しいコードと、不正なコードエラーとの違いを表に示します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 正しいコードと、不正なコードエラーとの違いを表に示します。
 seo-title: 一般的な構文エラー
 solution: Analytics
 subtopic: トラブルシューティング
 title: 一般的な構文エラー
-topic: 開発者と導入
-uuid: 9845dcb9-9f10-4f65- a43d-2af41edaa122
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -33,6 +33,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | s.events="event1, event2" | s.events="event1,event2"（マルチスイートタギングをおこなう場合はイベント ID 間にスペースを挿入しない） |
 | s.products="product name" | s.products=";product name"（製品カテゴリを列挙しない場合はセミコロンを使用する） |
 
-## 追加情報 {#section_E2B6A9C966AD40A09578DD0F784DCAB9}
+## 追加情報{#section_E2B6A9C966AD40A09578DD0F784DCAB9}
 
 スクリプトで NOSCRIPT を使用する場合でも、HTML コメント終了は Adobe コードの最後に記述しておいてください。
