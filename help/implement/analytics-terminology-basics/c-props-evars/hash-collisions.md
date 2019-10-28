@@ -1,13 +1,13 @@
 ---
 description: ハッシュの競合とは何かと、どのようにレポートで示されるかについて説明します。
-keywords: Analyticsの導入;ハッシュ;衝突;prop;evar;ハッシュ
+keywords: Analytic のs実装; ハッシュ; 競合; prop; evar;ハッシュ
 seo-description: ハッシュの競合とは何かと、どのようにレポートで示されるかについて説明します。
 seo-title: ハッシュの競合
 solution: Analytics
 title: ハッシュの競合
-topic: 開発者と導入
-uuid: 7dfd6e64-4a62-4087- bc28- fb867ec2b1b6
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
