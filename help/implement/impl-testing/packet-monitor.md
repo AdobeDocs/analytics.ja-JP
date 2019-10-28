@@ -1,14 +1,14 @@
 ---
 description: パケットアナライザーを使用すると、導入によってアドビのデータ収集サーバーに送信されたデータを表示できます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: パケットアナライザーを使用すると、導入によってアドビのデータ収集サーバーに送信されたデータを表示できます。
 seo-title: パケットアナライザー
 solution: Analytics
 subtopic: デバッガー
 title: パケットアナライザー
-topic: 開発者と導入
-uuid: 3597c23a-1c72-46e6-909d- f861cbest490
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -31,19 +31,19 @@ Analytics の要求を表示するには、「b/ss」を使用して送信要求
 
 >[!NOTE]
 >
->これらのリストは、包括的なものではありませんが、頻繁に使用する監視に関する情報です。パケット監視を既にお持ちで、正しく使用しており、その便利さを実感されている場合は、このウィンドウの右にある「[!UICONTROL フィードバック]」ボタンを使用して、ご意見をお寄せください。
+>以下の表は、詳細な情報を示したものではありませんが、頻繁に使用される監視の概要を示しています。パケット監視を既にお持ちで、正しく使用しており、その便利さを実感されている場合は、このウィンドウの右にある「[!UICONTROL フィードバック]」ボタンを使用して、ご意見をお寄せください。
 
 | Firefox | Internet Explorer | Chrome | スタンドアロンプログラム |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin)（タグビューア） | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin)（タグビューア） | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome 開発者ツール](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
 | [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
 >[!NOTE]
 >
->アドビでは、これらのパケット監視で発生する可能性のある問題をサポートしたりトラブルシューティングしたりしません。サポートが必要な場合は、パケット監視の作成元のサイトを参照してください。
+>アドビでは、これらのパケット監視で発生した問題について、サポートやトラブルシューティングをおこなっておりません。サポートが必要な場合は、パケット監視の作成元のサイトを参照してください。
 
 <!-- 
 
