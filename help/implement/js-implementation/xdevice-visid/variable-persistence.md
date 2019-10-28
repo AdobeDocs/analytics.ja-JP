@@ -1,13 +1,13 @@
 ---
 description: 複数の訪問者プロファイルが同じ訪問者 ID 変数と関連付けられた後に統合された場合、過去データのアトリビューション（配分方法）は変更されません。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 複数の訪問者プロファイルが同じ訪問者 ID 変数と関連付けられた後に統合された場合、過去データのアトリビューション（配分方法）は変更されません。
 seo-title: アトリビューションと持続性
 solution: Analytics
 title: アトリビューションと持続性
-topic: 開発者と導入
-uuid: 5dd706be-83f6-498a- a856- e3c5af995348
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->デバイス間で訪問者を識別する方法は推奨されなくなりました。[Adobe Experience Cloud Device Co- opのドキュメント](https://marketing.adobe.com/resources/help/en_US/mcdc/)を参照してください。
+>デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。詳しくは、[Adobe Experience Cloud Device Co-op ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcdc/)を参照してください。
 
 複数の訪問者プロファイルが同じ訪問者 ID 変数と関連付けられた後に統合された場合、過去データのアトリビューション（配分方法）は変更されません。
 
@@ -31,12 +31,12 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 次の例に、ユーザーが最初のデバイスで初めて認証されるときに Adobe Analytics にデータがどのような方法で送信されるかを示します。
 
-* `eVar16` は有効期限が1日で、訪問時に `evar17` 有効期限が切れます。
+* `eVar16` は 1 日で有効期限切れに、`evar17` は訪問時に有効期限切れになります。
 
-* `post_visitor_id` この列は、Adobe Analyticsによって管理されるプロファイルを表します。
-* `post_evar16``post_evar17` および列には、eVarの永続性が表示されます。
+* `post_visitor_id` 列は、Adobe Analytics サーバーによって保持されるプロファイルを表します。
+* `post_evar16` および `post_evar17` 列は、eVar の持続性を示します。
 
-* `cust_visid` に設定されている値を表し `s.visitorID`ます。
+* `cust_visid` は、`s.visitorID` に設定される値を表します。
 
 * 1 つの行が 1 つの「ヒット」、つまり Adobe Analytics データ収集サーバーに送信される単一の要求です。
 
