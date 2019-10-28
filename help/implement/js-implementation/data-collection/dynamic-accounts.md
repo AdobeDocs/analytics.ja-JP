@@ -1,19 +1,19 @@
 ---
 description: .js ファイルは、レポートスイート ID を自動的に選択するように設定できます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: .js ファイルは、レポートスイート ID を自動的に選択するように設定できます。
-seo-title: レポートスイートID-動的アカウント
+seo-title: レポートスイート ID - 動的アカウント
 solution: Analytics
-title: レポートスイートID-動的アカウント
-topic: 開発者と導入
-uuid: 763a9741-309d-4795-8819-654386607d5
-translation-type: tm+mt
+title: レポートスイート ID - 動的アカウント
+topic: 開発者と実装
+uuid: 763a9741-309d-4795-8819-6543866047d5
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# レポートスイートID-動的アカウント
+# レポートスイート ID - 動的アカウント
 
 .js ファイルは、レポートスイート ID を自動的に選択するように設定できます。.js ファイルは、URL に基づいてイメージリクエストをレポートスイートへ自動的に送ります。例えば、URL が `www.mysite.com` だとすれば、イメージリクエストはレ
 ポートスイート A へ自動送信されます。URL が `www.mysite1.com` だとすれば、イメージリクエストはレポートスイート B へ自動送信されます。
@@ -31,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## マッチングに使用する URL セグメントの定義 {#section_8099162F75F641CFBE46FD814450EF36}
 
-次のサンプル URL の場合の、URL の各構成要素と、`s.dynamicAccountMatch` 変数でどのように設定すべきかを以下の表に示します（デフォルト（`s.dynamicAccountMatch` が定義されていない場合）では、ホスト名またはドメイン名のみ検索します）。Sample URL: `https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321`
+次のサンプル URL の場合の、URL の各構成要素と、`s.dynamicAccountMatch` 変数でどのように設定すべきかを以下の表に示します（デフォルト（`s.dynamicAccountMatch` が定義されていない場合）では、ホスト名またはドメイン名のみ検索します）。サンプル URL：`https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321`
 
 | 構成要素 | 例（上記から引用） |
 |---|---|
@@ -62,11 +62,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * `s.dynamicAccountSelection=true`
 * `s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com"`
 
-The code first checks to determine if `qa.client.com` exists within the Host/Domain Name. If so, the report suite `devreportsuite1` is selected, and the match stops. ルールが複数ある場合はセミコロンで区切ります。
+コードでは最初に、ホスト名またはドメイン名の中に「`qa.client.com`」が存在するかどうかを確認します。存在する場合は、「`devreportsuite1`」というレポートスイート名が選択され、マッチングが停止します。ルールが複数ある場合はセミコロンで区切ります。
 
-## デフォルトのレポートスイート {#section_0360D724929348B0B211708B5BA15647}
+## デフォルトのレポートスイート{#section_0360D724929348B0B211708B5BA15647}
 
-`s_account` 変数は最初に設定でき、指定した文字列が見つからない場合にはデフォルト値として機能します。次に例を示します。
+`s_account` 変数を最初に設定し、指定された文字列が見つからない場合にデフォルト値として使用できます。次に例を示します。
 
 ```javascript
 var s_account="defaultreportsuiteid" 
@@ -74,4 +74,4 @@ s.dynamicAccountSelection=true
 s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com" 
 ```
 
-In the case above, if the host/domain name did not contain either `qa.client.com` or `client.com`, the report suite *defaultreportsuiteid* would be used.
+上記の例では、ホスト名またはドメイン名に「`qa.client.com`」または「`client.com`」が含まれていなかった場合、「*defaultreportsuiteid*」というレポートスイート名が使用されます。
