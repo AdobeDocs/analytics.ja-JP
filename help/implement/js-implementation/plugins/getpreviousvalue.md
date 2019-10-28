@@ -1,14 +1,14 @@
 ---
 description: 次のページビューで Analytics 変数の値を取り込みます。例えば、プラグインを使って前のページビューから s.pageName 値を取得して、カスタムトラフィック変数に取り込むことができます。指定した成功イベントがセットされた場合にのみ前の値を取得するオプションもあります。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 次のページビューで Analytics 変数の値を取り込みます。例えば、プラグインを使って前のページビューから s.pageName 値を取得して、カスタムトラフィック変数に取り込むことができます。指定した成功イベントがセットされた場合にのみ前の値を取得するオプションもあります。
 seo-title: getPreviousValue
 solution: Analytics
 subtopic: プラグイン
 title: getPreviousValue
-topic: 開発者と導入
-uuid: 20da7b4a-9820-4690- a1cc- d10b6dd627a7
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+>後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## プラグインコードと導入 {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -28,15 +28,15 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **プラグイン構成**
 
-次のコードを *`s_doPlugins()`* 関数 *`s_code.js`***&#x200B;を使用します。持続値データを取り込むために、1 つのカスタムトラフィック（s.prop）変数または 1 つのカスタムコンバージョン（s.eVar）変数を選択します。これは Admin Console を使って有効にした変数で、他の目的では使用されていないものを使います。次のサンプルは自分の条件に合わせて変更して使用できます。
+次のコードを  *`s_doPlugins()`* 関数内に配置します。この関数は、「*Plugin Config*」というラベルの付いた *`s_code.js`* ファイルの領域にあります。持続値データを取り込むために、1 つのカスタムトラフィック（s.prop）変数または 1 つのカスタムコンバージョン（s.eVar）変数を選択します。これは Admin Console を使って有効にした変数で、他の目的では使用されていないものを使います。次のサンプルは自分の条件に合わせて変更して使用できます。
 
 `s.prop1=s.getPreviousValue(s.pageName,'gpv_pn','event1');`
 
 *`s.getPreviousValue`* には 3 つの引数があります。
 
-1. The variable to be captured from the previous page ( *`s.pageName`* above).
-1. The cookie name for use in storing the value for retrieval ( *`gpv_pn`* above).
-1. The events that must be set on the page view in order to trigger the retrieval of the previous value ( *`event1`* above). 空白または省略された場合、プラグインはすべてのページビューで前の値を取り込みます。
+1. 前のページから取り込む変数（上記の *`s.pageName`*）。
+1. 取得用に値を格納するための cookie の名前（上記の *`gpv_pn`*）。
+1. 前の値の取得をトリガーするためにページビューで設定する必要のあるイベント（上記の *`event1`*）。空白または省略された場合、プラグインはすべてのページビューで前の値を取り込みます。
 
 **PLUGINS SECTION**：[!DNL s_code.js] ファイルにある PLUGINS SECTION という名称の領域に次のコードを追加します。プラグインコードのこの部分は一切変更しないでください。
 
@@ -64,7 +64,7 @@ s.split=new Function("l","d",""
 * 必ず、プラグインでデータの収集が希望どおりに実行されることを十分にテストし確認してから、実稼動環境に実装してください。
 * 任意のページで選択した変数に値がない場合、*no value*&#x200B;というテキストが cookie に含まれます。
 * これにより、各 cookie に 30 分の固定有効期限が設定され、毎回のページ読み込みでリフレッシュされます。プラグインは訪問の全期間で機能します。
-* 関数はコードのプラグインセクションの一部として呼び出す必要があるため、コードは *`s.t()`* または *`s.tl()`* 呼び出されます。
+* 関数はコードのプラグインセクションの一部として呼び出す必要があるため、コードは  *`s.t()`* または *`s.tl()`* が呼び出されるたびに実行します。
 
-* The chosen variable should be populated with a value prior to the call to *`s.getPreviousValue`*. *`s_doPlugins()`* この関数は、ページ上の変数の入力後に実行されるので、この問題は発生しません。It should only be a matter of concern if the variable used with this plug-in is populated within the *`s_doPlugins()`* function and after the call to *`s.getPreviousValue`*.
+* 選択された変数は、*`s.getPreviousValue`* への呼び出しの前に、値を使用して生成する必要があります。*`s_doPlugins()`* 関数はページの変数に値が入力されてから実行されるため、この問題が生じることは極めてまれです。このプラグインで使用される変数が&#x200B;*`s_doPlugins()`* 関数内および *`s.getPreviousValue`* 呼び出し後に設定される場合にのみ、問題が発生する可能性があります 。
 
