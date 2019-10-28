@@ -1,14 +1,14 @@
 ---
 description: プライベートネットワークのピアリングによって、ISP のネットワークから Analytics ネットワークへより効率的にデータを渡すことができるようになります。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: プライベートネットワークのピアリングによって、ISP のネットワークから Analytics ネットワークへより効率的にデータを渡すことができるようになります。
 seo-title: ピアリング
 solution: Analytics
 subtopic: トラブルシューティング
 title: ピアリング
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: b3d34369-8cb8-4f12-8b58-847132c43881
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
