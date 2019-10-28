@@ -1,14 +1,14 @@
 ---
 description: JavaScript ライブラリファイルは、ユーザーがページを最初に読み込んだ後、ユーザーのブラウザーにキャッシュされるよう意図されています。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: JavaScript ライブラリファイルは、ユーザーがページを最初に読み込んだ後、ユーザーのブラウザーにキャッシュされるよう意図されています。
 seo-title: キャッシュディレクティブ
 solution: Analytics
 subtopic: トラブルシューティング
 title: キャッシュディレクティブ
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 6bd2c26d-93ee-4039-8beb-6a6b16218a07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
