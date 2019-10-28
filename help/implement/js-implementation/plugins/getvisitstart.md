@@ -1,13 +1,13 @@
 ---
 description: 新しい訪問が開始しているかを確認します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 新しい訪問が開始しているかを確認します。
 seo-title: getVisitStart
 solution: Analytics
 title: getVisitStart
-topic: 開発者と導入
-uuid: 7dd3e51f-2f73-4452- a9fb- cac513cd28eb
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 7dd3e51f-2f73-4452-a9fb-cac513cd28eb
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
