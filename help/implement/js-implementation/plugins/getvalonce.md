@@ -1,14 +1,14 @@
 ---
 description: getValOnce プラグインは、特定の変数が以前に定義された値に設定されないようにします。これは、cookie を使用して変数の最後の表示値を判断します。現在の値が cookie の値と一致する場合、その変数はブランク文字列で上書きされた後でアドビの処理サーバーに送信されます。このプラグインは、ユーザーがページをリフレッシュした場合または「戻る」ボタンをクリックした場合に、コンバージョン変数のインスタンスが膨張するのを防ぐのに役立ちます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: getValOnce プラグインは、特定の変数が以前に定義された値に設定されないようにします。これは、cookie を使用して変数の最後の表示値を判断します。現在の値が cookie の値と一致する場合、その変数はブランク文字列で上書きされた後でアドビの処理サーバーに送信されます。このプラグインは、ユーザーがページをリフレッシュした場合または「戻る」ボタンをクリックした場合に、コンバージョン変数のインスタンスが膨張するのを防ぐのに役立ちます。
 seo-title: getValOnce
 solution: Analytics
 subtopic: プラグイン
 title: getValOnce
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ getValOnce プラグインは、特定の変数が以前に定義された値に
 
 >[!IMPORTANT]
 >
->This plug-in has not been validated to be compatible with [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). [AppMeasurementプラグインのサポート](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)を参照してください。
+>このプラグインは、[JavaScript 版 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) との互換性が検証されていません。[AppMeasurement プラグインのサポート](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)を参照してください。
 
 **パラメーター**
 
@@ -31,7 +31,7 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
 * **Variable：**&#x200B;確認される変数です。これは通常、定義されている変数と同じです。
 * **Cookie：**&#x200B;比較対象である以前の値を保持する cookie の名前です。cookie は任意の値です。
 * （オプション）**Expiration：** cookie の有効期限が切れる日数です。設定されない、または 0 に設定された場合、デフォルトの有効期限はブラウザーのセッションとなります。
-* （オプション）**Minute：**&#x200B;これを文字列の値 *`m`*&#x200B;の場合、有効期限の値は日数ではなく分数で定義されます。If not set, *`days`* is the default expiration.
+* （オプション）**Minute：**&#x200B;これを文字列の値  *`m`* に設定すると、有効期限の値は日数ではなく分数で定義されます。設定しなかった場合、*`days`* がデフォルトの有効期限になります。
 
 **プロパティ**
 
@@ -47,13 +47,13 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+>後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## 実装 {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
 >[!NOTE]
 >
->If your organization uses Marketing Channels and has rules set up based on `s.campaign`, it is recommended that you not use the getValOnce plugin when setting the `s.campaign`value. このプラグインを使用すると、二次的なキャンペーンのクリックスルーに間違ったチャネルが割り当てられる場合があります。
+>組織でマーケティングチャネルを使用しており、`s.campaign` を基にルールを設定している場合は、`s.campaign` の値を設定する際に getValOnce プラグインを使用しないことをお勧めします。このプラグインを使用すると、二次的なキャンペーンのクリックスルーに間違ったチャネルが割り当てられる場合があります。
 
 このプラグインを導入するには、次のコードを [!DNL s_code.js] ファイル内に置きます。
 
@@ -72,9 +72,11 @@ s.getValOnce=new Function("v","c","e","t",""
 +"==0?0:a);}return v==k?'':v");
 ```
 
-Once the above code is implemented, define the desired variable using the *`getValOnce`* function. 次は導入のいくつかの例です。
+上記のコートを導入した後、*`getValOnce`* 関数を使用して目的の変数を定義します。次は導入のいくつかの例です。
 
-**cookie が設定されてから 30 日未満で重複する値が検知された場合に、同じキャンペーン値が定義されるのを防ぎます。**`s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`**cookieが設定されてから30分以内に重複値が検出された場合、同じeVar1値が定義されないようにします。**`s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`**同じブラウザセッションで同じeVar2値が複数回定義されないようにします。**`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');`**メモ**
+**cookie が設定されてから 30 日未満で重複する値が検知された場合に、同じキャンペーン値が定義されるのを防ぎます。**
+`s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`**** cookie が設定されてから 30 分以内に重複する値が検出された場合、同じ eVar1 値が定義されるのを防ぎます。`s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`**** 同じブラウザーセッションで同じ eVar2 値が複数回定義されるのを防ぎます。
+`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');`**メモ**
 
 * 必ず、プラグインでデータの収集が希望どおりに実行されることを十分にテストし確認してから、実稼動環境に実装してください。
 * テストでは cookie を削除するか、新しい固有値を使用してください。そうでないと、変数が送信されません。
