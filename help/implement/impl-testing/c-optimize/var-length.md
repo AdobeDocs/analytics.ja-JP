@@ -1,14 +1,14 @@
 ---
 description: Analytics 変数の長さは、HTML コードスニペット、JavaScript ライブラリファイル、イメージリクエストの各サイズに影響する場合があります。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: Analytics 変数の長さは、HTML コードスニペット、JavaScript ライブラリファイル、イメージリクエストの各サイズに影響する場合があります。
 seo-title: 変数の長さ
 solution: Analytics
 subtopic: トラブルシューティング
 title: 変数の長さ
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 87deabb3-2acb-4797-9a65-769d9e2fbd62
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -22,5 +22,5 @@ Analytics 変数の長さは、HTML コードスニペット、JavaScript ライ
 
 >[!NOTE]
 >
->ほとんどのAnalytics変数は最大100文字です（eVarは最大255文字）。Internet Explorer では、GET イメージリクエストの URL 全体で最大 2,048 文字まで許可されます。イメージリクエストのサイズ制限は、変数だけでなく、ブラウザー、オペレーティングシステム、ブラウザープラグイン（Netscape／Mozilla のみ）に関する情報にも適用されます。
+>ほとんどの Analytics 変数には、最大 100 文字（eVar では最大 255 文字）の制限があります。Internet Explorer では、GET イメージリクエストの URL 全体で最大 2,048 文字まで許可されます。イメージリクエストのサイズ制限は、変数だけでなく、ブラウザー、オペレーティングシステム、ブラウザープラグイン（Netscape／Mozilla のみ）に関する情報にも適用されます。
 
