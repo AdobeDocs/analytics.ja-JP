@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud では複数のタイプの変数を使用できます。最もよく使用される 2 つのタイプである prop と eVar は、標準装備のレポートで提供されないカスタムディメンションについてのレポートをサイトに提供することを可能にします。
-keywords: Analyticsの導入;prop;evar;prop vs evar;命名規則;トラフィック変数、persistence;successイベント;パス
+keywords: Analytics の実装, prop, evar, prop と evar, 命名規則, トラフィック変数, 永続性, 成功イベント, パス
 seo-description: Experience Cloud では複数のタイプの変数を使用できます。最もよく使用される 2 つのタイプである prop と eVar は、標準装備のレポートで提供されないカスタムディメンションについてのレポートをサイトに提供することを可能にします。
 seo-title: Prop と eVar の比較
 solution: Analytics
 title: Prop と eVar の比較
-topic: 開発者と導入
-uuid: 0f02760f- ff69-481c- a817-799f02dafe8e
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -44,12 +44,12 @@ prop と eVar の主な違いは以下のとおりです。
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>サイトでの平均 </p> </td> 
+   <td colname="col1"> <p>平均滞在時間 </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_9F0F396E11B442959EC3E5D4D508496D" /> </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>バウンス率 </p> </td> 
+   <td colname="col1"> <p>直帰率 </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_A268EAF747EA45F8A6A93A1B66667A06" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_09D486144CEA4293A505DCA3F90B82EC" /> </p> </td> 
   </tr> 
@@ -133,14 +133,14 @@ prop と eVar の主な違いは以下のとおりです。
 
 * **分類**：prop は相関関係を使用して、同じイメージリクエスト内で呼び出された他のトラフィック変数に関するページビュー数を表示します。eVar は下位関係を使用して、成功イベントに関連する他のコンバージョン変数による分類を提供します。
 
-## prop または eVar 固有の利点 {#section_B384031AB8674065BA5187B0A3A3DAB9}
+## prop または eVar 固有の利点{#section_B384031AB8674065BA5187B0A3A3DAB9}
 
 バージョン 15 のリリースでは、prop と eVars の機能にほとんど違いはありません。eVar は最近アップデートされ、訪問回数／実訪問者などの機能とパス指標が追加されました。
 
 prop は eVar の利点をいくつか有しており、その一部は回避することができます。
 
 * prop データは収集されてすぐにレポートで使用できます。eVar はレポートスイートデータに表示されるまでに 30 分以上かる場合があります。
-* すべての prop でフローチャート形式のレポートを有効にすることができます。これにより、訪問者のサイトまでの遷移を確認できます。These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis].
+* すべての prop でフローチャート形式のレポートを有効にすることができます。これにより、訪問者のサイトまでの遷移を確認できます。これらのパスフローレポートは、[!UICONTROL Ad Hoc Analysis] の prop と eVar の両方で使用できます。
 * prop は複数のレベルに関連付けることができますが、eVar は下位レベルに一度だけ関連付けることができます。この制限は、セグメント化を使用し、クロス集計として同一データを提供することで軽減できます。
 * パーティシペーション指標では、成功イベントの前に関係した prop の値を確認できます。
 
@@ -151,7 +151,7 @@ prop は eVar の利点をいくつか有しており、その一部は回避す
 
 合計滞在時間、入口、出口などのパス指標は、以前は eVar でのみ使用できました。しかし、最近のアップデートにより eVar の値が増え、これらの指標を使用できるようになりました。
 
-## どちらを使用するか {#section_022D016A4EEB45179A15BFF044A261A4}
+## どちらを使用するか{#section_022D016A4EEB45179A15BFF044A261A4}
 
 **prop：**&#x200B;待ち時間が最大の懸念事項であり、このディメンションで（成功イベントではなく）トラフィックの測定のみをおこなう場合に適しています。
 
@@ -159,5 +159,5 @@ prop は eVar の利点をいくつか有しており、その一部は回避す
 
 >[!TIP]
 >
->eVarを永続的にしないようにするには、その有効期限を「ヒット」に変更して、ヒット以外のデータを保持しないようにします。
+>eVar を保持しない場合は、その有効期限を「ヒット」に変更すると、ヒット以降はデータが保持されません。
 
