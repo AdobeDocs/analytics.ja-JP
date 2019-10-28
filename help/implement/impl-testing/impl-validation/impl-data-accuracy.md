@@ -1,13 +1,13 @@
 ---
 description: データの正確性の検証は、レポートのデータと、検証可能な既知のデータポイントとを比較するプロセスです。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: データの正確性の検証は、レポートのデータと、検証可能な既知のデータポイントとを比較するプロセスです。
 seo-title: データの正確性の検証
 solution: Analytics
 title: データの正確性の検証
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. これらのページでは、ブラウザーベースのデータ収集において、他の訪問されたページよりも大きな差が表れます。
+>[!DNL index.html] などのデフォルトのページは、自動化されたトラフィックや監視トラフィックをよく受信します。これらのページでは、ブラウザーベースのデータ収集において、他の訪問されたページよりも大きな差が表れます。
 
 これらの 3 種類の検証のすべてで、対象となる期間のデバッグログまたはデータフィードが必要になります。期間は通常、1 日かそれ未満です。
 
@@ -43,5 +43,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * クエリとレポートスイートのタイムゾーンの時差が合っていることを確認します。
 * カスタムの Keynote または同等のトラフィック（Keynote Transaction など）で、注文処理を測定してタグに反映されるが、注文システムから削除されるもの。
 * クライアントの重複排除プロセスを考慮する必要があります。
-* 注文ページのリロード（注文回数は、 *`purchaseID`*).
+* 注文ページのリロード（注文回数は、*`purchaseID`* に基づいて重複排除されます）。
 
