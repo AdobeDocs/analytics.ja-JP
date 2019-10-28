@@ -7,7 +7,7 @@ title: カスタムリンク
 topic: レポート
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 サイトの訪問者が好むリンクが表示されます。例えば、サイトのホームページには、同一ページを表示する複数のリンクが貼られていることがよくあります。画像リンクとテキストリンクが同じリンク先ページに接続されている場合もあります。このレポートは、画像リンクを使用した訪問者とテキストリンクを使用した訪問者のパーセントを示します。
 
-トラッキング対象のリンクは、特別なタグで変更する必要があります。詳しくは、[リンクトラッキング](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)を参照してください。
+トラッキング対象のリンクは、特別なタグで変更する必要があります。詳しくは、[リンクトラッキング](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)を参照してください。
 
 [!UICONTROL カスタムリンクレポート]は次の目的で使用できます。
 
