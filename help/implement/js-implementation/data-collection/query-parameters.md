@@ -1,13 +1,13 @@
 ---
 description: 以下の表に、データ収集に送られる各 Analytics 変数の値が含まれるクエリパラメーターを示します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 以下の表に、データ収集に送られる各 Analytics 変数の値が含まれるクエリパラメーターを示します。
 seo-title: データ収集クエリパラメーター
 solution: Analytics
 title: データ収集クエリパラメーター
-topic: 開発者と導入
-uuid: 4d5af486- df27-42fe- bb9c-28938dddf2b2
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
+translation-type: ht
 source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 以下の表に、データ収集に送られる各 Analytics 変数の値が含まれるクエリパラメーターを示します。
 
-ここに示す情報は、[パケットアナライザー](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)、イメージリクエストを手動で作成するとき、または動的変数を使用 [する場合](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)。
+ここに示す情報は、[パケットアナライザー](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)を使用してデバッグするとき、手動でイメージリクエストを作成するとき、さらに.[動的変数](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)を使用するときに役に立ちます。
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
@@ -78,10 +78,10 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> カラー画像画質（ビット） </td> 
   </tr> 
   <tr> 
-   <td> <code> c. <span class="varname"> [key] </code></span> </td> 
+   <td> <code> c. <span class="varname"> [キー] </code> </span> </td> 
    <td> <p>s.contextData </p> </td> 
    <td> <p>なし </p> </td> 
-   <td> <p>キー値のペアは以下のどちらかの形式で指定します。 </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>または </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>この例では、どちらの形式でもコンテキストデータ値は <code>my.a = red</code> になります。複数のキー値ペアを指定できます。 </p> <p>In the query string, this context data variable would appear as <code> c.&amp;my.a=red </code> </p> </td> 
+   <td> <p>キー値のペアは以下のどちらかの形式で指定します。 </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>または </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>この例では、どちらの形式でもコンテキストデータ値は <code>my.a = red</code> になります。複数のキー値ペアを指定できます。 </p> <p>クエリ文字列では、このコンテキストデータ変数は <code> c.&amp;my.a=red </code> と表記されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> c1 ～ c75 </td> 
@@ -135,7 +135,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> <code> D </code> </td> 
    <td> dynamicVariablePrefix </td> 
    <td> なし </td> 
-   <td> <p>詳しくは、 <a href="../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262" format="dita" scope="local"> 動的変数 </a>. </p> </td> 
+   <td> <p>詳しくは、「<a href="../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262" format="dita" scope="local">動的変数 </a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td> events または ev </td> 
@@ -322,12 +322,15 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> （自動、カスタムタイムスタンプを持たないすべてのヒットと共に送信） </td> 
    <td> なし </td> 
    <td> <p><code>t</code> パラメーターは以下の形式で指定します。 </p> 
-    <code>dd/mm/yyyy&amp; amp;nbsp;hh:mm:amp&amp; amp;nbsp;テキスト（&amp; amp）;nbsp;OFFSET </code>
-  <p>ここで、D は曜日を表す <code>0 ～ 6</code> の範囲の値です。<code>OFFSET</code> は次の値を表します。 </p> 
-    <code>offset&amp; amp;nbsp;from&amp; amp;nbsp;GMT&amp; amp;nbsp;in&amp; amp;nbsp;hours&amp; amp;nbsp;* amp;nbsp;60&amp; amp;nbsp;* amp;nbsp;-&amp; amp;nbsp;1 </code>
-  <p> 次に例を示します。 </p> 
-    <code>23/09/2016&amp; amp;nbsp;14:00:00&amp; amp;nbsp;1&amp; amp;nbsp;420 </code>
-  </td> 
+    <code>
+      dd/mm/yyyy&amp;nbsp;hh:mm:ss&amp;nbsp;D&amp;nbsp;OFFSET 
+    </code> <p>ここで、D は曜日を表す <code>0 ～ 6</code> の範囲の値です。<code>OFFSET</code> は次の値を表します。 </p> 
+    <code>
+      offset&amp;nbsp;from&amp;nbsp;GMT&amp;nbsp;in&amp;nbsp;hours&amp;nbsp;*&amp;nbsp;60&amp;nbsp;*&amp;nbsp;-&amp;nbsp;1 
+    </code> <p> 次に例を示します。 </p> 
+    <code>
+      23/09/2016&amp;nbsp;14:00:00&amp;nbsp;1&amp;nbsp;420 
+    </code> </td> 
   </tr> 
   <tr> 
    <td> <code> ts </code> </td> 
@@ -357,7 +360,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> vid </td> 
    <td> <p>s.visitorID </p> </td> 
    <td> なし </td> 
-   <td> 訪問者固有の ID。を" 訪問者 ID 変数. </td> 
+   <td> 訪問者 ID 変数で指定された訪問者固有の ID。 </td> 
   </tr> 
   <tr> 
    <td> vmk </td> 
