@@ -1,24 +1,24 @@
 ---
 description: デバイス間の訪問者の識別では、デバイス間の訪問者を関連付けます。デバイス間の訪問者の識別では、訪問者 ID 変数の s.visitorID を使用して、デバイス間のユーザーを関連付けます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: デバイス間の訪問者の識別では、デバイス間の訪問者を関連付けます。デバイス間の訪問者の識別では、訪問者 ID 変数の s.visitorID を使用して、デバイス間のユーザーを関連付けます。
-seo-title: デバイス間でのユーザーの接続
+seo-title: デバイス間のユーザーの接続
 solution: Analytics
-subtopic: 訪問者数
-title: デバイス間でのユーザーの接続
-topic: 開発者と導入
-uuid: 6243957b-5cc1-49ef- aa94-5b5ec4eac313
-translation-type: tm+mt
+subtopic: 訪問者
+title: デバイス間のユーザーの接続
+topic: 開発者と実装
+uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# デバイス間でのユーザーの接続
+# デバイス間のユーザーの接続
 
 >[!IMPORTANT]
 >
->デバイス間で訪問者を識別する方法は推奨されなくなりました。[Adobe Experience Cloud Device Co- opのドキュメント](https://marketing.adobe.com/resources/help/en_US/mcdc/)を参照してください。
+>デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。詳しくは、[Adobe Experience Cloud Device Co-op ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcdc/)を参照してください。
 
 デバイス間の訪問者の識別では、デバイス間の訪問者を関連付けます。デバイス間の訪問者の識別では、訪問者 ID 変数の s.visitorID を使用して、デバイス間のユーザーを関連付けます。
 
@@ -26,9 +26,9 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 [!UICONTROL 訪問者 ID] は通常、認証後、または使用デバイスとは独立して訪問者を個別に識別できる何らかの操作を訪問者がおこなった後に設定されます。個人を識別できる情報を含まない、ユーザー名のハッシュまたは内部 ID を作成することをお勧めします。
 
-"[前述の例](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md)では、顧客がそれぞれのデバイスからサインオンした後、すべて同じユーザープロファイルに関連付けられます。訪問者が後にデバイスからサインアウトした場合でも、それぞれのデバイスの cookie に保存されている[!UICONTROL 訪問者 ID] が同じ訪問者プロファイルに関連付けられているので、ステッチは引き続き機能します。[!UICONTROL 訪問者 ID] cookie が削除された場合に備えて、可能な限り [!UICONTROL s.visitorID] 変数を設定することをお勧めします。
+[前述の例](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md)では、顧客がそれぞれのデバイスからサインオンした後、すべて同じユーザープロファイルに関連付けられます。訪問者が後にデバイスからサインアウトした場合でも、それぞれのデバイスの cookie に保存されている[!UICONTROL 訪問者 ID] が同じ訪問者プロファイルに関連付けられているので、ステッチは引き続き機能します。[!UICONTROL 訪問者 ID] cookie が削除された場合に備えて、可能な限り [!UICONTROL s.visitorID] 変数を設定することをお勧めします。
 
-## 個別訪問者と訪問回数 {#section_70330AB6724C4E419A4BD0BDD54641AC}
+## 個別訪問者と訪問回数{#section_70330AB6724C4E419A4BD0BDD54641AC}
 
 2 つのデバイスについて次の接続順序を考えます。
 
