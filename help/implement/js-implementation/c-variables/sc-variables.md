@@ -1,14 +1,14 @@
 ---
 description: Analytics には、Analytics データを収集するための変数が多数用意されています。例えば、pageName 変数の値は、レポートされる Web ページの名前になります。ここでは、AppMeasurement でサポートされる変数を示します。
-keywords: Analyticsの導入;AppMeasurement変数
+keywords: Analytics の実装, appmeasurement 変数
 seo-description: Analytics には、Analytics データを収集するための変数が多数用意されています。例えば、pageName 変数の値は、レポートされる Web ページの名前になります。ここでは、AppMeasurement でサポートされる変数を示します。
 seo-title: 変数の概要
 solution: Analytics
 subtopic: 変数
 title: 変数の概要
-topic: 開発者と導入
-uuid: 067d0135-572a-4a44- af9e-445d3c4e9271
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
+translation-type: ht
 source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
@@ -16,16 +16,16 @@ source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 # 変数の概要
 
-Analytics には、Analytics データを収集するための変数が多数用意されています。例えば、pageName 変数の値は、レポートされる Web ページの名前になります。ここでは、AppMeasurementでサポートされる変数を示します。
+Analytics には、Analytics データを収集するための変数が多数用意されています。例えば、pageName 変数の値は、レポートされる Web ページの名前になります。ここでは、AppMeasurement でサポートされる変数を示します。
 
-For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
-For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
+ページ変数について詳しくは、[こちら](/help/implement/js-implementation/c-variables/page-variables.md)を参照してください。
+設定変数について詳しくは、[こちら](/help/implement/js-implementation/c-variables/configuration-variables.md)を参照してください。
 
 ## 変数の設定方法 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
-AppMeasurement requires that all configuration variables be set before the initial call to the track function, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
+AppMeasurement では、トラック関数 *`t()`* に最初の呼び出しをおこなう前に、すべての設定変数を設定する必要があります。*`t()`* への呼び出しの後に設定変数が設定されている場合、予期しない結果が発生する可能性があります。
 
-Configuration variables are set inside the *`doPlugins`* function, which is called during the execution of the track function. The specific configuration variable causing this issue is *`trackInlineStats`*, which enables ClickMap data collection. これにより、ClickMap モジュールは不確定な状態のままになり、その結果、最初のトラッキングコールで文字列「undefined」が Adobe Analytics ビーコンに追加されます。これは通貨コードに影響します。
+設定変数は、*`doPlugins`* 関数内で設定されます。この関数は、track 関数の実行中に呼び出されます。この問題を引き起こす設定変数は、ClickMap のデータコレクションを有効にする *`trackInlineStats`* です。これにより、ClickMap モジュールは不確定な状態のままになり、その結果、最初のトラッキングコールで文字列「undefined」が Adobe Analytics ビーコンに追加されます。これは通貨コードに影響します。
 
 この問題を解決するには、すべての設定変数を doPlugins 関数の上に移動します。
 
