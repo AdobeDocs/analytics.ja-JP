@@ -1,25 +1,25 @@
 ---
 description: 一般に、ユーザータイプによるパスのセグメント化は、サイト上で特定のユーザータイプのパスがどのようなものであるかを把握する場合に必要となります。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 一般に、ユーザータイプによるパスのセグメント化は、サイト上で特定のユーザータイプのパスがどのようなものであるかを把握する場合に必要となります。
-seo-title: ユーザータイプ別のセグメントパス
+seo-title: ユーザータイプによるパスのセグメント化
 solution: Analytics
-title: ユーザータイプ別のセグメントパス
-topic: 開発者と導入
-uuid: 5c298f39-381d-453b- a608-109e3276b361
-translation-type: tm+mt
+title: ユーザータイプによるパスのセグメント化
+topic: 開発者と実装
+uuid: 5c298f39-381d-453b-a608-109e3276b361
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# ユーザータイプ別のセグメントパス
+# ユーザータイプによるパスのセグメント化
 
 一般に、ユーザータイプによるパスのセグメント化は、サイト上で特定のユーザータイプのパスがどのようなものであるかを把握する場合に必要となります。
 
 ユーザータイプとページ名を [!UICONTROL sprop] に連結して、その [!UICONTROL sprop] に対してパスを有効化できます。
 
-For example, let's say you have two user types: _Registered_ users and _Non-Registered_ users. 各ページでこれら 2 つのユーザータイプを区別し、これらのユーザーの値を目的の [!UICONTROL sprop] に入力する必要があります。prop に入力すると、次のように表示されます。
+例えば、「_登録済み_」ユーザーと「_未登録_」ユーザーという 2 つのユーザータイプがあるとします。各ページでこれら 2 つのユーザータイプを区別し、これらのユーザーの値を目的の [!UICONTROL sprop] に入力する必要があります。prop に入力すると、次のように表示されます。
 
 ```js
  s.prop1=”Registered : “ + s.pageName;
