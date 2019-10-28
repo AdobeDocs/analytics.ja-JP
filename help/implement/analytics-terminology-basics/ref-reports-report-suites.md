@@ -1,13 +1,13 @@
 ---
 description: レポートスイートでは、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。通常、レポートスイートは 1 つの Web サイトですが、複数サイトの数値を組み合わせて合計を示すグローバルセグメントとなる場合もあります。マーケティングレポート、Ad hoc analysis および Report builder にログインしたら、使用するレポートスイートを 1 つ選択します（レポートスイートを組み合わせたロールアップを使用する場合を除く）。
-keywords: Analyticsの導入;レポート、レポートスイート;analyticsレポート;グローバルセグメント;ロールアップ;ロールアップ;組み合わせ、レポートスイート、トラフィック、コンバージョン;path
+keywords: Analytics の実装, レポート, レポートスイート, analytics レポート, グローバルセグメント, ロールアップ, レポートスイートの組み合わせ, トラフィック, コンバージョン, パス
 seo-description: レポートスイートでは、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。通常、レポートスイートは 1 つの Web サイトですが、複数サイトの数値を組み合わせて合計を示すグローバルセグメントとなる場合もあります。マーケティングレポート、Ad hoc analysis および Report builder にログインしたら、使用するレポートスイートを 1 つ選択します（レポートスイートを組み合わせたロールアップを使用する場合を除く）。
 seo-title: レポートおよびレポートスイート
 solution: Analytics
 title: レポートおよびレポートスイート
-topic: 開発者と導入
-uuid: 288203f6- cd13-4e01-9950-2c7e5cfb8a17
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
+translation-type: ht
 source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 ---
@@ -35,24 +35,24 @@ Adobe Analytics の導入後、Analytics レポート&#x200B;**&#x200B;を実行
 
 高レベルのレポートタイプを次に示します。
 
-* [トラフィック](https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html)：訪問者の Web サイトとの関わり方に関する詳細な分析とカスタマイズされたトラフィック統計情報を提供します。
-* [コンバージョン](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html)：ユーザーが定義した成功指標についての情報が表示されます。
-* [パス](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html)：訪問者のブラウズパス全体をトラッキングおよび記録できます。
+* [トラフィック](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_traffic.html)：訪問者の Web サイトとの関わり方、およびカスタマイズされたトラフィック統計に関する深いインサイトを提供します。
+* [コンバージョン](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_conversion.html)：定義した成功指標に関する情報が表示されます。
+* [パス](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_paths.html)：訪問者のブラウズパス全体を追跡し、記録できます。
 
-[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) を使用すると、単一の Analytics レポートの一般的な制限を解除できます。堅牢かつ柔軟なキャンバスでカスタム分析プロジェクトを作成できます。任意の数のデータテーブル、ビジュアライゼーション、コンポーネント（ディメンション、指標、セグメントおよび時間の精度）をプロジェクトにドラッグ＆ドロップします。すばやく、分類およびセグメントの作成、分析用のコホートの作成、アラートの作成、セグメントの作成をおこない、レポートをキュレーションして会社の任意のユーザーと共有します。
+[Analysis Workspace](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/) を使用して、単一の Analytics レポートの一般的な制限を削除できます。堅牢かつ柔軟なキャンバスでカスタム分析プロジェクトを作成できます。任意の数のデータテーブル、ビジュアライゼーション、コンポーネント（ディメンション、指標、セグメントおよび時間の精度）をプロジェクトにドラッグ＆ドロップします。すばやく、分類およびセグメントの作成、分析用のコホートの作成、アラートの作成、セグメントの作成をおこない、レポートをキュレーションして会社の任意のユーザーと共有します。
 
 <p class="head"> <b>関連トピック</b> </p>
 
 * [Analysis Workspace ヘルプ](/help/analyze/analysis-workspace/analysis-workspace-features.md)
-* [Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)
-* [リアルタイムレポート](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
-* [Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) ヘルプ
-* [データ抽出](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
-* [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
-* [Report Suite Manager](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
-* [Analytics の製品比較と必要システム構成](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
-* [レポートの説明](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
-* [ダッシュボードおよびレポートレット](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
+* [Reports and Analytics](/help/analyze/reports-analytics/overview/report-overview.md)
+* [リアルタイムレポート](https://marketing.adobe.com/resources/help/ja_JP/reference/realtime.html)
+* [アドビレポートビルダー](https://marketing.adobe.com/resources/help/ja_JP/arb/)のヘルプ
+* [データの抽出](https://marketing.adobe.com/resources/help/ja_JP/sc/user/data_extract.html)
+* [Activity Map](https://marketing.adobe.com/resources/help/ja_JP/analytics/activitymap/)
+* [レポートスイートマネジャー](https://marketing.adobe.com/resources/help/ja_JP/reference/report_suites_admin.html)
+* [Analytics の製品比較と必要システム構成](https://marketing.adobe.com/resources/help/ja_JP/reference/analytics-product-comparison.html)
+* [レポートの説明](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_descriptions.html)
+* [ダッシュボードとレポートレット](https://marketing.adobe.com/resources/help/ja_JP/sc/user/dashboard.html)
 * [ブックマーク](/help/analyze/reports-analytics/bookmarks.md)
 * [仮想レポートスイート](/help/components/vrs/vrs-about.md)
 * [異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
