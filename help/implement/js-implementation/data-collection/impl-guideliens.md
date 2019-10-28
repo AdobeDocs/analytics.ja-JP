@@ -1,25 +1,25 @@
 ---
 description: このガイドラインに従うと、同じ cookie ドメインを使用して、様々なタイプの導入で訪問を追跡できるようになります。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: このガイドラインに従うと、同じ cookie ドメインを使用して、様々なタイプの導入で訪問を追跡できるようになります。
-seo-title: 導入のガイドライン
+seo-title: 実装のガイドライン
 solution: Analytics
-title: 導入のガイドライン
-topic: 開発者と導入
-uuid: 2917f4af-19bd-4666- ae4b-056e7e33f642
-translation-type: tm+mt
+title: 実装のガイドライン
+topic: 開発者と実装
+uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# 導入のガイドライン
+# 実装のガイドライン
 
 このガイドラインに従うと、同じ cookie ドメインを使用して、様々なタイプの導入で訪問を追跡できるようになります。
 
 * **RSID：**[!UICONTROL レポートスイート ID]
 * **VNS：**（訪問者ネームスペース）[!DNL 2o7.net]訪問者 ID[!DNL omtrdc.net] cookie を保存するために使用される [!UICONTROL  または ] のサブドメイン。
-* **COOKIEDOMAIN：** VNS + trackingServer。これらはデータセンターと RDC 設定によって大きく異なります。[データ収集ドメインについて不明な点がある場合は、カスタマーケア](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) にお問い合わせください。
+* **COOKIEDOMAIN：** VNS + trackingServer。これらはデータセンターと RDC 設定によって大きく異なります。データ収集ドメインのについてよくわからない場合は、[カスタマーケアにお問合せ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html#analytics)ください。
 
 ## JavaScript
 
