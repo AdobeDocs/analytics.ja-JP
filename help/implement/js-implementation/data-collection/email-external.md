@@ -1,13 +1,13 @@
 ---
 description: Analytics を使用して電子メールキャンペーンの成功を判定します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: Analytics を使用して電子メールキャンペーンの成功を判定します。
 seo-title: 外部電子メールトラッキング
 solution: Analytics
 title: 外部電子メールトラッキング
-topic: 開発者と導入
-uuid: fa450f45-14cf-4d0d- a87c-14a946512a9b
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -29,7 +29,7 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
 
 これらのような主要指標を取り込むには、HTML 電子メールの本文と JavaScript ライブラリに対する変更が必要です。
 
-## 導入 {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
+## 実装{#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
 
 電子メールキャンペーン分析データを正しく表示するには、いくつかの手順を実行する必要があります。この手順は以下のとおりです。
 
@@ -60,9 +60,9 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
 
    JavaScript ファイル（[!DNL s_code.js]）内のコードを変更すると、電子メールからクリックスルーし、以降の成功イベントに関係したユーザー数（およびユーザー情報）を取り込むことができます。JavaScript ライブラリの更新方法は以下の 2 つです。
 
-   1. Customize [!DNL s_code.js] by calling [!UICONTROL getQueryParam].
+   1. [!DNL s_code.js]getQueryParam[!UICONTROL  を呼び出して、] をカスタマイズします。
 
-      [!DNL s_code.js] ファイルは、Web サーバー上の、各 Web ページからアクセス可能な場所に配置する必要があります。The *`doPlugins`* function within this file should be altered so it captures the query string parameters on the email links. 以下に例を示します。
+      [!DNL s_code.js] ファイルは、Web サーバー上の、各 Web ページからアクセス可能な場所に配置する必要があります。*`doPlugins`* 関数を変更し、電子メールリンク上のクエリ文字列パラメーターを取り込めるようにする必要があります。次に例を示します。
 
       ```js
       /* Plugin Config */ 
@@ -75,7 +75,7 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
       s.doPlugins=s_doPlugins 
       ```
 
-      変数内にコピーする必要のあるクエリ文字列パラメーターのそれぞれで、[!UICONTROL getQueryParam] を 1 回呼び出す必要があります。この例では、クエリ文字列パラメーター [!UICONTROL sc_cid] が *`campaign`*（名前をつけて保存）する必要があります。
+      変数内にコピーする必要のあるクエリ文字列パラメーターのそれぞれで、[!UICONTROL getQueryParam] を 1 回呼び出す必要があります。この例では、クエリ文字列パラメーター [!UICONTROL sc_cid] が  *`campaign`*（名前をつけて保存）する必要があります。
 
       クリックスルーを取り込むには、[!UICONTROL getQueryParam] の最初の呼び出しのみが必要です。Adobe [!DNL Customer Care] にこの関数を導入するように依頼し、お使いのバージョンの JavaScript ファイルに [!UICONTROL getQueryParam] プラグインが含まれていることを確認してください。
 
@@ -84,7 +84,7 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
       この JavaScript ライブラリを更新するときには、以下のポイントを意識することが重要です。以下にそのポイントを示します。
 
       * クエリ文字列パラメーター [!UICONTROL sc_cid] は、最終ランディングページ上の URL 内に表示されている必要があります。表示されていない場合、クリックスルーコンバージョンは記録されません。
-      * [!UICONTROL sc_cid] パラメーターはクエリ文字列パラメーターの一例です。[!UICONTROL getQueryParam] プラグインを使用して、任意のクエリ文字列パラメーターを使用したり取り込んだりすることができます。それらのクエリ文字列パラメーターがキャンペーントラッキングにのみ使用されていることを確認してください。パラメーターがクエリ文字列内に出現するたびに、その値が *`campaign`*（名前をつけて保存）する必要があります。
+      * [!UICONTROL sc_cid] パラメーターはクエリ文字列パラメーターの一例です。[!UICONTROL getQueryParam] プラグインを使用して、任意のクエリ文字列パラメーターを使用したり取り込んだりすることができます。それらのクエリ文字列パラメーターがキャンペーントラッキングにのみ使用されていることを確認してください。パラメーターがクエリ文字列内に出現するたびに、その値が  *`campaign`*（名前をつけて保存）する必要があります。
 
 1. [!UICONTROL SAINT] を使用して、キャンペーントラッキングコードを分類します。
 
