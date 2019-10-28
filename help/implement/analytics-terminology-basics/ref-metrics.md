@@ -1,13 +1,13 @@
 ---
 description: 指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。
-keywords: Analyticsの導入;metrics;トラフィック指標;コンバージョン指標、video metric;social metric;計算指標、ページビュー;visit;個別訪問者
+keywords: Analytics の実装, 指標, トラフィック指標, コンバージョン指標, ビデオ指標, ソーシャル指標, 計算指標, ページビュー, 訪問, 実訪問者
 seo-description: 指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。
 seo-title: 指標
 solution: Analytics
 title: 指標
-topic: 開発者と導入
-uuid: d2addb55- fia6-470d- b482-303ef365809c
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: d2addb55-cae6-470d-b482-303ef365809c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -45,9 +45,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>計算指標 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">計算指標</a>を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/reference/calculated_metric.html" format="html" scope="external">計算指標</a>を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-指標の定義について詳しくは、Analytics ヘルプとリファレンスの[指標](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)を参照してください。
+指標の定義については、Analytics ヘルプとリファレンスの「[指標](https://marketing.adobe.com/resources/help/ja_JP/reference/metrics.html)」を参照してください。
