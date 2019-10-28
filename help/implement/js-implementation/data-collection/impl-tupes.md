@@ -1,19 +1,19 @@
 ---
 description: この情報は、レポートと導入の両方に精通している上級ユーザー向けです。導入を変更した場合の影響を把握していない場合は、導入を変更しないでください。導入を変更する必要がある場合は、社内のアカウントマネージャーにお問い合わせください。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: この情報は、レポートと導入の両方に精通している上級ユーザー向けです。導入を変更した場合の影響を把握していない場合は、導入を変更しないでください。導入を変更する必要がある場合は、社内のアカウントマネージャーにお問い合わせください。
-seo-title: 異なる実装タイプでの追跡
+seo-title: 異なる実装タイプでのトラッキング
 solution: Analytics
-title: 異なる実装タイプでの追跡
-topic: 開発者と導入
-uuid: a0a3229a-79a2-4dc2- b0be-4b8fac2efa3a
-translation-type: tm+mt
+title: 異なる実装タイプでのトラッキング
+topic: 開発者と実装
+uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 異なる実装タイプでの追跡
+# 異なる実装タイプでのトラッキング
 
 この情報は、レポートと導入の両方に精通している上級ユーザー向けです。導入を変更した場合の影響を把握していない場合は、導入を変更しないでください。導入を変更する必要がある場合は、社内のアカウントマネージャーにお問い合わせください。
 
@@ -22,6 +22,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * *`s_account`*
 * *`s.visitorNamespace`*
 * *`s.trackingServer`*
-* *`s.trackingServerSecure`* （SSLを使用している場合）
+* *`s.trackingServerSecure`*（SSL を使用する場合）
 
 これらの変数が導入間で一致しない場合は、ユーザーが個別の訪問者として追跡される可能性があります。
