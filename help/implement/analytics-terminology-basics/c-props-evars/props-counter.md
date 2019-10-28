@@ -1,19 +1,19 @@
 ---
 description: カウンターによって、特定のイベントまたはプロセスが発生した回数が保存（場合によっては表示）されます。
-keywords: Analyticsの導入;props;s. prop;カスタムトラフィック、カウンター
+keywords: Analytics の実装, prop, s.prop, カスタムトラフィック, カウンター
 seo-description: カウンターによって、特定のイベントまたはプロセスが発生した回数が保存（場合によっては表示）されます。
-seo-title: カウンターとしてのpropの使用
+seo-title: カウンターとしての prop の使用
 solution: Analytics
-title: カウンターとしてのpropの使用
-topic: 開発者と導入
-uuid: ab83bd7e-10d9-49f9- b9e7- c50397e95c17
-translation-type: tm+mt
+title: カウンターとしての prop の使用
+topic: 開発者と実装
+uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# カウンターとしてのpropの使用
+# カウンターとしての prop の使用
 
 カウンターによって、特定のイベントまたはプロセスが発生した回数が保存（場合によっては表示）されます。
 
@@ -31,11 +31,11 @@ s.prop1="WindowsMP"
 
 >[!NOTE]
 >
->Adobe offers up to 75 [!UICONTROL s.prop] variables for you to use.
+>75 個までの [!UICONTROL s.prop] 変数が提供されます。
 
 訪問者がサイトに来訪して Real Player または Windows Media Player を含むページにアクセスすると、[!DNL Analytics] では、訪問したページに基づいてユーザーをセグメント化できます。[!UICONTROL カスタムトラフィック]レポートに、各ページの訪問数が表示されます。
 
 >[!NOTE]
 >
->[!UICONTROL カスタムトラフィック] レポートの名前はカスタマイズできます。例えば、[!UICONTROL カスタムトラフィック]レポートの名前を「プレイヤータイプレポート」に変更できます。
+>[!UICONTROL カスタムトラフィック]レポートの名前はカスタマイズできます。例えば、[!UICONTROL カスタムトラフィック]レポートの名前を「プレイヤータイプレポート」に変更できます。
 
