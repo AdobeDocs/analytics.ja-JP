@@ -1,20 +1,20 @@
 ---
 description: ページの最上部に JavaScript ライブラリファイルの呼び出しを配置すると、ダウンロードされる最初の要素にイメージが必ず含まれるようになります。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: ページの最上部に JavaScript ライブラリファイルの呼び出しを配置すると、ダウンロードされる最初の要素にイメージが必ず含まれるようになります。
-seo-title: JavaScriptファイルの場所とconcurrence
+seo-title: JavaScript ファイルの場所と並行処理
 solution: Analytics
 subtopic: トラブルシューティング
-title: JavaScriptファイルの場所とconcurrence
-topic: 開発者と導入
-uuid: ed5118a8- b142-4fab-8aa1-92d931cc1439
-translation-type: tm+mt
+title: JavaScript ファイルの場所と並行処理
+topic: 開発者と実装
+uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# JavaScriptファイルの場所とconcurrence
+# JavaScript ファイルの場所と並行処理
 
 ページの最上部に JavaScript ライブラリファイルの呼び出しを配置すると、ダウンロードされる最初の要素にイメージが必ず含まれるようになります。
 
@@ -24,5 +24,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->サードパーティのインターネットパフォーマンス監査プロバイダー（Keynote Systemsなど）は、同時ではなく順番にページイメージ要素をダウンロードするので、一般的なユーザーエクスペリエンスを模倣しません。
+>サードパーティのインターネットパフォーマンス監査プロバイダー（Keynote Systems など）はページのイメージ要素を同時ではなく順番にダウンロードするので、一般的なユーザーエクスペリエンスが再現されません。
 
