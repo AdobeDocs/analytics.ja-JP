@@ -1,14 +1,14 @@
 ---
 description: 変数のオーバーライドを使用して、一度のみのトラッキングまたはリンクトラッキングのための変数値をセットできます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: 変数のオーバーライドを使用して、一度のみのトラッキングまたはリンクトラッキングのための変数値をセットできます。
 seo-title: 変数のオーバーライド
 solution: Analytics
 subtopic: 変数
 title: 変数のオーバーライド
-topic: 開発者と導入
-uuid: 3ec09ae8- b9df-426f-8065-42b4518e6c5f
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 変数のオーバーライドを使用して、一度のみのトラッキングまたはリンクトラッキングのための変数値をセットできます。
 
-To override variables, create a new object, assign variable values, and pass this object as the first parameter to `s.t()`, or as the fourth parameter to `s.tl()`:
+変数をオーバーライドするには、新しいオブジェクトを作成し、変数値を割り当て、このオブジェクトを最初のパラメーターとして `s.t()` に、または 4 番目のパラメーターとして `s.tl()` に渡します。
 
 ```js
 s.eVar1="one"; 
