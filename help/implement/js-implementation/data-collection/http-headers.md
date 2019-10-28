@@ -1,23 +1,23 @@
 ---
 description: HTTP リクエストヘッダーと HTTP 応答ヘッダーは、AppMeasurement によって収集されるデータ以外の追加データを収集するために使用します。この節では、データ収集中に使用するこれらのヘッダーについて説明します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: HTTP リクエストヘッダーと HTTP 応答ヘッダーは、AppMeasurement によって収集されるデータ以外の追加データを収集するために使用します。この節では、データ収集中に使用するこれらのヘッダーについて説明します。
-seo-title: データ収集HTTPヘッダー
+seo-title: データ収集 HTTP ヘッダー
 solution: Analytics
-title: データ収集HTTPヘッダー
-topic: 開発者と導入
-uuid: 3325e13c- b300-46e4- a592-3a83ED59718b
-translation-type: tm+mt
+title: データ収集 HTTP ヘッダー
+topic: 開発者と実装
+uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# データ収集HTTPヘッダー
+# データ収集 HTTP ヘッダー
 
 HTTP リクエストヘッダーと HTTP 応答ヘッダーは、AppMeasurement によって収集されるデータ以外の追加データを収集するために使用します。この節では、データ収集中に使用するこれらのヘッダーについて説明します。
 
-## HTTP リクエストヘッダー {#section_C1DE3416CCC241A898155C915A01A0FC}
+## HTTP リクエストヘッダー{#section_C1DE3416CCC241A898155C915A01A0FC}
 
 <table id="table_84D1F4B54ABE4423A2EBE840C49D3876"> 
  <tbody> 
@@ -27,7 +27,7 @@ HTTP リクエストヘッダーと HTTP 応答ヘッダーは、AppMeasurement 
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>データ収集サーバーによって以前に作成された Cookie を読み取ります。 </p> <p> 2014 年以降、アドビのサーバーでは、アドビが設定した Cookie を除き、サーバーコールに伴うすべての Cookie が破棄されます。アドビの Cookie の一覧については、<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Experience Cloud で使用される cookie</a> を参照してください。 </p> </td> 
+   <td> <p>データ収集サーバーによって以前に作成された Cookie を読み取ります。 </p> <p> 2014 年以降、アドビのサーバーでは、アドビが設定した Cookie を除き、サーバーコールに伴うすべての Cookie が破棄されます。アドビの Cookie の一覧については、<a href="https://marketing.adobe.com/resources/help/ja_JP/whitepapers/cookies/" format="https" scope="external">Experience Cloud で使用される cookie</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -90,7 +90,7 @@ HTTP リクエストヘッダーと HTTP 応答ヘッダーは、AppMeasurement 
 
 >[!NOTE]
 >
->動的変数を使用した実装には、上記に挙げられていない他のHTTPリクエストヘッダーで読み取るオプションがあります。
+>導入で動的変数を使用する場合、上記に挙げられていない他の HTTP リクエストヘッダーで読み取るオプションがあります。
 
 ## HTTP 応答ヘッダー {#section_A9C7035198C84037A21A8033CC408F0E}
 
@@ -112,4 +112,4 @@ HTTP リクエストヘッダーと HTTP 応答ヘッダーは、AppMeasurement 
 
 >[!NOTE]
 >
->内部ステータス監視の応答には、その他のHTTPヘッダーを設定できます。これらのヘッダーの一部はブラウザーに返される可能性がありますが、ブラウザーがそのヘッダーを受け取る必要はありません。
+>内部ステータス監視への応答には、他の HTTP ヘッダーが設定される場合があります。これらのヘッダーの一部はブラウザーに返される可能性がありますが、ブラウザーがそのヘッダーを受け取る必要はありません。
