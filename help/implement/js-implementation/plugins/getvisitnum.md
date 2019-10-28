@@ -1,14 +1,14 @@
 ---
 description: getVisitNum プラグインは、ユーザーがサイトを訪問した回数を判断し、その回数を Analytics 変数に取り込みます。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: getVisitNum プラグインは、ユーザーがサイトを訪問した回数を判断し、その回数を Analytics 変数に取り込みます。
 seo-title: getVisitNum
 solution: Analytics
 subtopic: プラグイン
 title: getVisitNum
-topic: 開発者と導入
-uuid: 27d57f92- fffb-44d0- b9ca-9da93323f64c
-translation-type: tm+mt
+topic: 開発者と実装
+uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -24,13 +24,13 @@ getVisitNum プラグインは、ユーザーがサイトを訪問した回数�
 
 **プラグイン構成**
 
-次のコードを *`s_doPlugins()`* 関数 *`s_code.js`***&#x200B;を使用します。訪問回数データを取り込むために、1 つのカスタムトラフィック（s.prop）変数または 1 つのカスタムコンバージョン（s.eVar）変数を選択します。これは管理コンソールを使って有効にした変数で、他の目的では使用されていないものを使います。次のサンプルは自分の条件に合わせて変更して使用できます。
+次のコードを  *`s_doPlugins()`* 関数内に配置します。この関数は、「*Plugin Config*」というラベルの付いた *`s_code.js`* ファイルの領域にあります。訪問回数データを取り込むために、1 つのカスタムトラフィック（s.prop）変数または 1 つのカスタムコンバージョン（s.eVar）変数を選択します。これは管理コンソールを使って有効にした変数で、他の目的では使用されていないものを使います。次のサンプルは自分の条件に合わせて変更して使用できます。
 
 `s.prop1=s.getVisitNum();`
 
 >[!NOTE]
 >
->次の手順では、サイトのデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+>後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 **PLUGINS SECTION**：[!DNL s_code.js] ファイルにある PLUGINS SECTION という名称の領域に次のコードを追加します。プラグインコードのこの部分は一切変更しないでください。
 
