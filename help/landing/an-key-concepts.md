@@ -4,7 +4,7 @@ seo-description: このセクションには、Adobe Analytics の主要概念�
 seo-title: Adobe Analytics - 主要概念
 title: Adobe Analytics - 主要概念
 translation-type: tm+mt
-source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
+source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
 | Analysis Workspace | 堅牢なカスタム分析プロジェクトを構築し、インサイトを民主化するためのブラウザーソリューション。 Reports &amp; Analyticsよりも柔軟にレポートを作成できる | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
 | Reports &amp; Analytics（旧称 SiteCatalyst） | レポートおよび分析のためのブラウザーソリューション。 Analytics パッケージのスターターツールです。 | [Reports &amp; Analyticsホーム](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Adobe Analyticsデータからカスタマイズしたリクエストを作成し、Microsoft excelを使用して視覚化できるExcelアドインです。 | [Report Builderホーム](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析を行うJavaベースのツール。 2019年第3四半期に提供終了予定。 | [Ad Hoc Analysisホーム](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析を行うJavaベースのツール。 | [Ad Hoc Analysisホーム](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
 | Data Workbench（旧称 Insight） | 複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 | [Data Workbench クライアント](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
 | Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [Data Warehouseホーム](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 | [Mobile Servicesホーム](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
@@ -34,8 +34,8 @@ source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
 
 | 用語 | 説明 | ドキュメントリンク |
 |--- |--- |--- |
-| prop（カスタムトラフィック） | ページごとのサイトトラフィックアクティビティの追跡に使用されるディメンション。 prop はページをまたいで保持されません。トラフィック変数の主要な用途を次に示します。 <ul><li>特定の値の「最頻使用」を見つける単純なカウント</li><li>ユーザがサイト内をどのように移動しているかを把握する </li></ul><br>トラフィック変数の例：ページ名、サイトセクション、ブラウザ</br> | [Props](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
-| eVar （カスタムコンバージョン） | カスタマイズされた一定期間持続するディメンション。 有効期限オプションには、イベントの有効期限、訪問の有効期限、または X-day 有効期限が含まれ、該当の変数で実行される分析のタイプによって決定します。<br>eVarとpropの主な違い：</br><ul><li>永続性は削除されるので、propはパス分析によく使用されます。</li><li>eVarは、多くの場合、コンバージョン分析に使用されます。</li></ul><br>コンバージョン変数の例を次に示します。内部検索用語、内部プロモーション、外部キャンペーン(s.campaign)</br> | [eVars](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| prop（カスタムトラフィック） | ページごとのサイトトラフィックアクティビティの追跡に使用されるディメンション。 prop はページをまたいで保持されません。トラフィック変数の主要な用途を次に示します。 <ul><li>特定の値の「最頻使用」を見つける単純なカウント</li><li>ユーザがサイト内をどのように移動しているかを把握する </li></ul><br>トラフィック変数の例：ページ名、サイトセクション、ブラウザ</br> | [prop](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| eVar （カスタムコンバージョン） | カスタマイズされた一定期間持続するディメンション。 有効期限オプションには、イベントの有効期限、訪問の有効期限、または X-day 有効期限が含まれ、該当の変数で実行される分析のタイプによって決定します。<br>eVarとpropの主な違い：</br><ul><li>永続性は削除されるので、propはパス分析によく使用されます。</li><li>eVarは、多くの場合、コンバージョン分析に使用されます。</li></ul><br>コンバージョン変数の例を次に示します。内部検索用語、内部プロモーション、外部キャンペーン(s.campaign)</br> | [eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | イベント/指標(s.events) | 訪問者がサイトでとるべき主要なアクションを測定する指標。 イベントには、カウンター、数値、通貨の 3 タイプがあります。イベントは、コンバージョン変数（eVar）レポートに追加すると便利です。eVar は発生した内容に関する定性的情報を提供し、イベントは発生した内容に関する定量的情報を提供します。<br>eVarとイベントの主な違い：</br><ul><li>eVarは、コンバージョンに影響を与えたユーザー、対象、または対象を示します。</li><li>イベントは、発生したコンバージョンの数を測定します。</li></ul><br>コンバージョンイベントの例には、購入回数、アプリケーション開始、リード、売上高があります。</br> | [イベント](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
 | コンポーネント | プロジェクトにドラッグ&amp;ドロップできるディメンション、指標、セグメントおよび時間の精度（日付範囲）。 | [コンポーネント](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
 | ディメンション | eVar、prop、分類およびアドビの標準収集値のコレクション。 | [ディメンション](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
@@ -74,7 +74,7 @@ source-git-commit: cad3d8add1de220ad0044477fff473b5405bb17d
 |---|---|---|
 | 全指標のリスト | Adobe Analytics の全指標の定義。 | [指標の概要](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html) |
 | 実訪問者数 | 特定期間における Web サイトへの重複なしの訪問者数。 | [実訪問者数](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-unique-visitors-v15-dsc.html) |
-| 訪問 | 1 回のランディングでの一連のページビュー。訪問は、ユーザーが最初にサイトのページを表示したときに開始し、非アクティブ状態が 30 分続いた後に終了します。 | [訪問](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) |
+| 訪問回数 | 1 回のランディングでの一連のページビュー。訪問は、ユーザーが最初にサイトのページを表示したときに開始し、非アクティブ状態が 30 分続いた後に終了します。 | [訪問回数](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) |
 | ページビュー数 | ページビューは、訪問者が Web サイトのページを表示したときに発生します。 | [ページビュー数](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-page-view.html) |
 | インスタンス | 変数が定義された回数。Adobe Analytics に変数内の値が表示されるたびに、それぞれのレポートでインスタンスが 1 つずつ増分します。 | [インスタンス](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-instance.html) |
 | 発生件数 | 変数が定義または持続された回数。 | [発生件数](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-occurrences.html) |
