@@ -1,18 +1,18 @@
 ---
 description: 選択したセル領域内のセルを埋める数だけリクエストのコピーを作成するよう指示することで、1 つのオリジナルのリクエストを複数コピーできます。
 seo-description: 選択したセル領域内のセルを埋める数だけリクエストのコピーを作成するよう指示することで、1 つのオリジナルのリクエストを複数コピーできます。
-seo-title: リクエストの複数コピーを作成する
+seo-title: リクエストの複数コピー
 solution: Analytics
-title: リクエストの複数コピーを作成する
+title: リクエストの複数コピー
 topic: Report Builder
-uuid: aa8442f3-28c7-4665- b0ff- e81fcdb79f6c
+uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# リクエストの複数コピーを作成する
+# リクエストの複数コピー
 
 選択したセル領域内のセルを埋める数だけリクエストのコピーを作成するよう指示することで、1 つのオリジナルのリクエストを複数コピーできます。
 
