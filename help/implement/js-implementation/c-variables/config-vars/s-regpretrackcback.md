@@ -5,14 +5,14 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# s.registerPreTrackCallbackとs.registerPostTrackCallback
+# s.registerPreTrackCallback と s.registerPostTrackCallback
 
-これらの関数は、コールバック（関数）およびそのパラメーターをパラメーターとして取ります。以下に例を示します。
+これらの関数は、コールバック（関数）およびそのパラメーターをパラメーターとして取ります。次に例を示します。
 
 ```
 s.registerPreTrackCallback(function(requestUrl,a,b,c) { 
