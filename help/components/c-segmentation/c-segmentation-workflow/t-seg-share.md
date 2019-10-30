@@ -5,9 +5,9 @@ seo-title: セグメントの共有
 solution: Analytics
 title: セグメントの共有
 topic: セグメント
-uuid: 48736078-85a7-49bd- b8b8-562818798c5e
+uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,4 +39,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    セグメントの横に共有アイコン ![ が表示されます。](assets/share_icon.png)
 
-1. **[!UICONTROL フィルター]** / **[!UICONTROL その他のフィルター]** /自分と **[!UICONTROL 共有に移動して、自分と共有しているセグメントをフィルタリング]**&#x200B;できます。
+1. You can filter on segments shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
