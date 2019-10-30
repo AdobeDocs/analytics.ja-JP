@@ -7,8 +7,8 @@ solution: Analytics
 title: 変数と値
 topic: 開発者と実装
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,8 +48,6 @@ var s_code=s.t();if(s_code)document.write(s_code)//-->
 
 ページ名では大文字と小文字が区別され、大文字と小文字が異なると、ページレコードが追加されます。つまり、「Home」と「home」は、[!DNL Analytics] では 2 つの異なるページになります。
 
->[!NOTE]
->
->レポート内で複数のページレコードを結合することはできません。
+> [!NOTE]レポート内で複数のページレコードを結合することはできません。
 
 リンクが[!UICONTROL カスタムリンク]レポートに表示されていることを確認します。[!UICONTROL tl] 関数に適切なパラメーターが渡されていることを確認します。[!UICONTROL カスタムリンク]について詳しくは、「[リンクトラッキング](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E)」を参照してください。
