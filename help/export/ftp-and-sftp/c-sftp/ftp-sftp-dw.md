@@ -1,28 +1,28 @@
 ---
-description: アドビでは、Data WarehouseリクエストのSFTPサーバーへのエクスポートをサポートしています。
+description: アドビは、SFTPサーバーへのData Warehouseリクエストのエクスポートをサポートしています。
 keywords: ftp;sftp
-seo-description: アドビでは、Data WarehouseリクエストのSFTPサーバーへのエクスポートをサポートしています。
-seo-title: Data WarehouseリクエストのSFTPサーバーへの送信
+seo-description: アドビは、SFTPサーバーへのData Warehouseリクエストのエクスポートをサポートしています。
+seo-title: SFTP サーバーへの Data Warehouse リクエストの送信
 solution: Analytics
-title: Data WarehouseリクエストのSFTPサーバーへの送信
-uuid: 393634a1-0643-4d63- bb6e- fb80f1ba76c1
+title: SFTP サーバーへの Data Warehouse リクエストの送信
+uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Data WarehouseリクエストのSFTPサーバーへの送信
+# SFTP サーバーへの Data Warehouse リクエストの送信
 
-アドビでは、Data WarehouseリクエストのSFTPサーバーへのエクスポートをサポートしています。
+アドビは、SFTPサーバーへのData Warehouseリクエストのエクスポートをサポートしています。
 
 以下の作業を行います。
 
-アドビでは、次の条件に適合するように、Data WarehouseリクエストのSFTPサーバーへのエクスポートをサポートしています。
+アドビは、次の条件が満たされている場合に、SFTPサーバーへのData Warehouseリクエストのエクスポートをサポートします。
 
-* [!DNL sftp://] プロトコルは、Data Warehouseレポートをリクエストするときにホストフィールド（ [!DNL sftp://ftp.example.com]など）で指定し、ポート22のみを使用します。
+* [!DNL sftp://] プロトコルがホストフィールド(例： [!DNL sftp://ftp.example.com])で指定され、Data Warehouseレポートをリクエストする際にポート22のみが使用されます。
 
-   You can also use the [!DNL sftp+norename://] option, as described below.
+   このオプションは、以下に説 [!DNL sftp+norename://] 明するように使用することもできます。
 
 * Adobe's [!DNL authorized_keys] file is in the [!DNL .ssh] directory within the root directory of the user you log in with
 
@@ -36,11 +36,11 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 1. このファイルを入手したら、[!DNL Data Warehouse] リクエストで使用されているものと同じ資格情報で FTP サイトにログインします。
 1. In the root directory, navigate to the folder named [!DNL .ssh] (if one does not exist, create one) and place the [!DNL authorized_keys] file there.
 
-1. [!DNL Data Warehouse] リクエストマネージャーに移動します。Configure the request as desired, then click **[!UICONTROL Advanced Delivery Options]**.
+1. Go to the [!DNL Data Warehouse] request manager. Configure the request as desired, then click **[!UICONTROL Advanced Delivery Options]**.
 
 1. In the pop-up window, click **[!UICONTROL FTP]**, then specify the ftp site (including the [!DNL sftp://] protocol, such as [!DNL sftp://ftp.omniture.com]) via port 22.
 
-   [!DNL sftp://] プロトコルを含めることは、SFTPを使用する場合にのみ許可されます。Regular FTP requests should omit the protocol prefix (such as, [!DNL ftp.omniture.com] instead of [!DNL ftp://ftp.omniture.com]).
+   Including the [!DNL sftp://] protocol is only permitted when using SFTP. Regular FTP requests should omit the protocol prefix (such as, [!DNL ftp.omniture.com] instead of [!DNL ftp://ftp.omniture.com]).
 
 1. 「フォルダー」フィールドに、ファイルを配置するフォルダーの名前を入力します。フォルダーは必須です。
 1. 手順 2 と同じユーザー名とパスワードを入力します。
@@ -48,4 +48,4 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 
 SFTP の PUT コマンドを使用すると、指定したディレクトリに、.part という拡張子の一時ファイルが配置されます。アップロードが完了すると、ファイルの拡張子が最終的な拡張子に変更され、その時点でファイルが使用できるようになります。
 
-Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. この方法は、SFTPサーバーが自動的にアップロード中にファイルの名前変更を処理する場合に適しており、アップロードが完了する前にファイルを処理する可能性がありません。
+Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. この方法は、SFTPサーバーがアップロード中にファイル名の変更を自動的に処理し、アップロードが完了する前にファイルが処理される可能性がない場合に適しています。
