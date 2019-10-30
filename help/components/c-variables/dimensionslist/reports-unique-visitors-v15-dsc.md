@@ -7,7 +7,7 @@ title: 実訪問者数
 topic: レポート
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -388,7 +388,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   <tr> 
    <th colname="col1" class="entry"> ページ </th> 
    <th colname="col02" class="entry"> 訪問の日付  </th> 
-   <th colname="col2" class="entry"> 訪問 </th> 
+   <th colname="col2" class="entry"> 訪問回数 </th> 
   </tr> 
  </thead>
  <tbody> 
