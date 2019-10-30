@@ -8,7 +8,7 @@ title: ボットルールの概要
 topic: 管理ツール
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -40,8 +40,7 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 ## カスタムボットルール
 
->[!N注]
->ユーザーインターフェイスでは 500 個のルールを手動で定義することが可能です。この制限を超える場合は、「ファイルのインポート」および「ボットルールをエクスポート」オプションを使用して、ルールを一括処理する必要があります。
+>[!N注] ：ユーザーインターフェイスでは、500個のルールを手動で定義できます。 この制限を超える場合は、「ファイルのインポート」および「ボットルールをエクスポート」オプションを使用して、ルールを一括処理する必要があります。
 
 カスタムボットルールを使用すると、定義した条件に基づいてトラフィックをフィルターできます。
 
@@ -125,9 +124,7 @@ VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/ad
 
 **高ヒット訪問の処理**：訪問において 100 を超えるヒットが発生した場合、訪問において経過した時間（秒数）が訪問のヒット数以下かどうかを判定します。このような場合、長く集中的な訪問はデータを処理する時間がかかるので、訪問が強制的に終了され、新たな訪問として計測が継続されます。一般に、高ヒットの訪問はボット攻撃によるもので、通常の訪問者による閲覧とは考えられません。
 
->[!NOTE]
->
->とマークされたヒッ *`bots`* トは、サーバーコール [として請求されます。](/help/admin/c-server-call-usage/overage-overview.md)
+> [!NOTE] とマークされたヒッ *`bots`* トは、サーバーコール [として請求されます。](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
