@@ -1,25 +1,25 @@
 ---
-description: マーケティングチャネルレポートで指標を使用する方法。
-seo-description: マーケティングチャネルレポートで指標を使用する方法。
+description: マーケティングチャネルレポートでの指標の使用方法を説明します。
+seo-description: マーケティングチャネルレポートでの指標の使用方法を説明します。
 seo-title: マーケティングチャネルレポートで使用される指標
 solution: Analytics
 subtopic: マーケティングチャネル
 title: マーケティングチャネルレポートで使用される指標
-topic: Reports and Analytics
-uuid: be5bcb94-927e-4b5f- b201-3d54eb51e740
+topic: Reports & Analytics
+uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 15b3f0172f470086ca9a9a596a891de572fcb83e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # マーケティングチャネルレポートで使用される指標
 
-マーケティングチャネルレポートで指標を使用する方法。
+マーケティングチャネルレポートでの指標の使用方法を説明します。
 
-## Metrics used in Marketing Channel reports {#topic_F83F5D4C3E144967AD90D956F0E8A999}
+## マーケティングチャネルレポートで使用される指標 {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
-マーケティングチャネルレポートで指標を使用する方法。
+マーケティングチャネルレポートでの指標の使用方法を説明します。
 
 ![](assets/metric_edit_icon.png)
 
@@ -29,16 +29,16 @@ source-git-commit: 15b3f0172f470086ca9a9a596a891de572fcb83e
 
  レポートに列を追加します。
 
-## First and last-touch metrics {#concept_68D9A50204304BA58C1F8013451E7853}
+## ファーストタッチ指標とラストタッチ指標 {#concept_68D9A50204304BA58C1F8013451E7853}
 
-ファーストタッチとラストタッチは、チャネル内の訪問者のアクティビティによって生じる新規エンゲージメント（または製品表示、売上高、注文件数などの指標データ）の数を表示するためのチャネル属性です。
+ファーストタッチとラストタッチは、チャネル内の訪問者のアクティビティから生じた新規のエンゲージメント（または、製品表示、売上高、注文件数などの指標データ）の数を確認できるチャネル属性です。
 
 When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). 訪問者が最初に使用したチャネルと、最新（最後）のチャネルが認識されます。その後、該当する各チャネルに成功イベントのクレジットが与えられます。
 
 <!-- 
 
 <note>
-  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset. 
+  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset.
 </note>
 
  -->
@@ -63,9 +63,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 すべての成功イベントのインスタンスに、ファーストタッチチャネルとラストタッチチャネルが必ず 1 つずつ含まれます。つまり、成功イベントに特定の指標の列を追加すると、この列は常に同じ期間の合計数と同一になります。また、この合計数は、該当する[!UICONTROL サイト指標]／[!UICONTROL カスタムイベント]レポートでのイベントの合計数と同一になります。同じ訪問で複数のチャネルが呼び出される場合があるので、成功イベント以外の指標（訪問数や訪問者数）は 1 対 1 で一致するわけではありません。
 
->[!NOTE]
->
->このレポートでは、各指標のファーストタッチまたはラストタッチバージョンを使用します。したがって、[!UICONTROL マーケティングチャネル]レポートに表示されるデータと他のレポートに表示されるデータとは一致しないことがあります。
+> [!NOTE] このレポートでは、各指標のファーストタッチバージョンまたはラストタッチバージョンを使用します。 したがって、[!UICONTROL マーケティングチャネル]レポートに表示されるデータと他のレポートに表示されるデータとは一致しないことがあります。
 
 ## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
 
