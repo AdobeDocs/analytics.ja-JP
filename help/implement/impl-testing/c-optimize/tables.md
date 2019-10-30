@@ -8,8 +8,8 @@ subtopic: トラブルシューティング
 title: テーブル
 topic: 開発者と実装
 uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,5 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 テーブルタグの外側に JavaScript ライブラリファイルの呼び出しを配置すると、Analytics サーバーの呼び出しがページコンテンツの表示に影響を与えなくなります。
 
->[!NOTE]
->
->ファイルは画像の正しい位置に配置し、開始 <body> タグと終了 </body> タグの間に配置する必要があります。
+> [!NOTE] ファイルは画像の正しい位置に配置し、開始 <body> タグと終了 </body> タグの間に配置する必要があります。
 
