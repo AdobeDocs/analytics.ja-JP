@@ -5,7 +5,7 @@ seo-title: Analyticsプラグインコード
 title: Analyticsプラグインコード
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,6 +24,4 @@ JavaScriptプラグインのデータ収集方法を選択した場合は、次�
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
->[!NOTE]
->
->上記のプラグインは、特定のカスタムコマース変数(eVar)が使用可能であることを前提としています。 上記のプラグインで指定した変数がAnalyticsのデプロイメント内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
+> [!NOTE] 上記のプラグインは、特定のカスタムコマース変数(eVar)が使用可能であることを前提としています。 上記のプラグインで指定した変数がAnalyticsのデプロイメント内で使用できない場合は、それらを使用可能な変数に置き換えます。
