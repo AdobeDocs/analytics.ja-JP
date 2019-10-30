@@ -1,23 +1,23 @@
 ---
 description: データソースのカテゴリは、提供する機能の類似性に基づいて様々なデータソースのタイプを識別します。
 seo-description: データソースのカテゴリは、提供する機能の類似性に基づいて様々なデータソースのタイプを識別します。
-seo-title: データタイプとカテゴリの概要
+seo-title: データのタイプとカテゴリの概要
 solution: Analytics
 subtopic: データソース
-title: データタイプとカテゴリの概要
-topic: 開発者と導入
-uuid: b5004cdc- b68a-4a82- a159- a7cd7b8bfe21
+title: データのタイプとカテゴリの概要
+topic: 開発者と実装
+uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# データタイプとカテゴリの概要
+# データのタイプとカテゴリの概要
 
 データソースのカテゴリは、提供する機能の類似性に基づいて様々なデータソースのタイプを識別します。
 
-カテゴリによって、ユーザーの視点でデータソースをグループ分けすることができます。データソース UI からデータソースを作成する場合、まずデータソースのカテゴリを選択してから、データソースのタイプを指定します。各カテゴリに含まれるデータソースのタイプは、類似したタイプのデータをサポートしています。データソースには、次のようなデータソースのカテゴリがあります。
+カテゴリを使用すると、ユーザーの観点からデータソースをグループ化できます。 データソース UI からデータソースを作成する場合、まずデータソースのカテゴリを選択してから、データソースのタイプを指定します。各カテゴリに含まれるデータソースのタイプは、類似したタイプのデータをサポートしています。データソースには、次のようなデータソースのカテゴリがあります。
 
 ## Web サイトの使用状況 {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -36,9 +36,9 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
    <td colname="col3"> <p>大部分の Web サーバーは、提供したすべてのページを記録するログファイルを生成しています。このデータソースを使用すると、大部分の Web サーバーデータからのログファイルを処理してレポートに追加することができます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>広告クラウドバルクアップロード </p> </td> 
+   <td colname="col1"> <p>Advertising cloudのバルクアップロード </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> コンバージョン </a> </p> </td> 
-   <td colname="col3"> <p>手動およびExcelで自動化されたバルクアップロードをAdvertising Cloudで提供します。 </p> </td> 
+   <td colname="col3"> <p>Advertising cloudで手動およびExcelによるバルクアップロードを提供します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>サイトレベルのトラフィックデータソース </p> </td> 
@@ -167,7 +167,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>一般的なデータソース（トランザクション ID） </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> トランザクション ID </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> Visitor ID </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> トランザクション ID </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> 訪問者 ID </a> </p> </td> 
    <td colname="col3"> <p>任意のオフラインイベントをオンラインイベントに関連付けることができます。トランザクション ID は、オフラインイベントとオンラインイベント間のキーとして機能します。 </p> </td> 
   </tr> 
  </tbody> 
