@@ -3,12 +3,12 @@ description: マーケティングチャネルに対して設定可能な様々�
 seo-description: マーケティングチャネルに対して設定可能な様々なルールを入力するためのベストプラクティスと例をご確認ください。
 seo-title: よくある質問と例
 solution: Analytics
-subtopic: Marketing channels
+subtopic: マーケティングチャネル
 title: よくある質問と例
 topic: Reports & Analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 **質問**：私のトラッキングコードはパターンに従っていません。また、アフィリエイトチャネル用に指定しなければならないコードが無数にあります。
 
 * 除外処理を使用します。電子メールチャネルとアフィリエイトチャネルに同一のクエリ文字列パラメーターを使用しているとき、電子メールのトラッキングコードが少数なら、電子メールを定義するルールセットで電子メールトラッキングコードを指定することができます。その後、残りすべてのトラッキングコードをアフィリエイトとして分類します。 *`affiliates.`*
-* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. If it does not contain , then it is an affiliate.*`eml`*
+* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. 含まれない場合はアフ *`eml`*&#x200B;ィリエイトです。
 
 **質問**：参照ドメインに予想より多くのデータが含まれています。
 
@@ -65,11 +65,11 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 この 3 つの可能性用のチャネルを用意してください。例えば、次のようなルールを作成します。
 
-1. **[!UICONTROL Referrer]** and **[!UICONTROL Does Not Exist]** and **[!UICONTROL Is First Page of Visit]**. （[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) を参照）。
+1. **[!UICONTROL 「リファラ]** ー」と「 **[!UICONTROL 存在しない」は]** 、「 **[!UICONTROL 訪問の最初のページ]**」。 （[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A) を参照）。
 
-2. **[!UICONTROL Referrer Matches Internal URL Filters]** and **[!UICONTROL Is First page of Visit]**. （[内部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)を参照）。
+2. **[!UICONTROL 「リファラーが内部URLフィルタに一致する]** 」および **[!UICONTROL 「は訪問の最初のページ]**」。 （[内部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)を参照）。
 
-3. **[!UICONTROL Referrer]** and **[!UICONTROL Exists]** and **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
+3. **[!UICONTROL リファラー]** と存在 **[!UICONTROL する]** 、リフ **[!UICONTROL ァラーが内部URLフィルターに一致しない]**。
 
 最後に、[チャネルが識別されませんでした](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)で説明されているように、残りのヒットを捕捉する「その他」**&#x200B;のチャネルを作成します。
 
@@ -81,9 +81,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 This kind of rule serves as a catch-all to ensure that channel traffic always matches external traffic, and typically does not end up in **[!UICONTROL No Channel Identified]**. 内部トラフィックも識別してしまうルールを作成しないように注意してください。「その他」のルールを作成するには、チャネルの値を&#x200B;**[!UICONTROL 参照ドメイン]**&#x200B;または&#x200B;**ページ URL]にするのが最も一般的で有効な方法です。[!UICONTROL **
 
->[!NOTE]
->
->[チャネルが識別されませんでした]カテゴリに該当するチャネルトラフィックがまだ存在する可能性があります。 例えば、訪問者がサイトを訪問してページをブックマークし、その訪問中にブックマークを使用してそのページに戻った場合がこれに該当します。このページは訪問者が最初に訪問したページではなく、参照ドメインが存在しないので、直接アクセスチャネルにもその他チャネルにも分類されません。
+> [!NOTE] [チャネルが識別されませんでした]カテゴリに該当するチャネルトラフィックがまだ存在する可能性があります。 例えば、訪問者がサイトを訪問してページをブックマークし、その訪問中にブックマークを使用してそのページに戻った場合がこれに該当します。このページは訪問者が最初に訪問したページではなく、参照ドメインが存在しないので、直接アクセスチャネルにもその他チャネルにも分類されません。
 
 ## 有料検索 {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -133,7 +131,7 @@ Analytics には自然検索の検出は用意されていません。有料検�
 
 ## 電子メール {#section_4A927BE947B748E39595F4525B7280DE}
 
-このルールを設定するには、電子メールキャンペーンのクエリ文字列パラメーターが必要です。この例では、パラメーターは  *`eml`*:
+このルールを設定するには、電子メールキャンペーンのクエリ文字列パラメーターが必要です。この例では、パラメーターは *`eml`* に追加してパートナーのリンクをフィルタリングしまｍす。
 
 ![](assets/example_email.png)
 
