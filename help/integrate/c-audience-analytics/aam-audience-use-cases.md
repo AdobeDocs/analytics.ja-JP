@@ -1,20 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Audience Analyticsの使用例
-title: Audience Analyticsの使用例
-uuid: 51c0576c- ce8a-4a87-9c8f- be193e50279d
+seo-title: Audience Analytics の使用例
+title: Audience Analytics の使用例
+uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Audience Analyticsの使用例
+# Audience Analytics の使用例
 
 ## 広告販売およびコンテンツの決定 {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-メディアパブリッシャー は、サイズのみではなくオーディエンス有効性指標を広告販売チームに提供できます。特定のデモグラフィックセグメント（初めて子供を持った 30 才台の女性など）が最も共鳴するコンテンツを判別することもできます。
+メディアパブリッシャー は、サイズのみではなくオーディエンス有効性指標を広告販売チームに提供できます。また、「30代の女性が初めての母親」のように、特定の人口統計セグメントで最も共感を呼ぶコンテンツを判断することもできます。
 
 ## リターゲティングの機会 {#section_29C46BA00B3D43CE8A433EA64072D952}
 
