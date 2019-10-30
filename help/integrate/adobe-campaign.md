@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Adobe Campaignレポート
-title: Adobe Campaignレポート
+seo-title: Adobe Campaign レポート
+title: Adobe Campaign レポート
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Adobe Campaignレポート
+# Adobe Campaign レポート
 
 この統合を設定する方法について詳しくは、[Adobe Campaign のドキュメント](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html)を参照してください。
 
@@ -18,17 +18,17 @@ Adobe Analytics と Adobe Campaign のこの統合により、
 
 * Adobe Campaign Standard の KPI（主要なパフォーマンスインジケーター）データを Adobe Analytics と共有できます。
 * Adobe Analytics のパラメーターにより、トラッキングの数式が拡張されます。
-* **[!UICONTROL Analytics]** / **[!UICONTROL レポート]** / **[!UICONTROL Adobe Campaignの下に新しいレポートを追加します。]**
+* Adds a new report under  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL Adobe Campaign.]**
 * 5 個の新しい Adobe Campaign 分類が追加されます。
 * 10 個の新しい Adobe Campaign 指標が追加されます。
 * 6 個の新しい Adobe Campaign ディメンションが追加されます。
 * 15 分ごとにデータが Analytics に同期されます。
 
-## 手順 1. Adobe Campaign レポートを有効にする {#section_C685EF10505045708A6536BB13F6CD58}
+## 手順 1.Adobe Campaign レポートを有効にする {#section_C685EF10505045708A6536BB13F6CD58}
 
 Analytics で Campaign データを表示するには、最初に Campaign レポートを有効にする必要があります。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** / **[!UICONTROL <select report suite>]** 設定 **[!UICONTROL を編集]** / **[!UICONTROL Adobe Campaign]** / **[!UICONTROL Adobe Campaign Reportingに移動]** します。
+1. **[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポート]** /スイート **[!UICONTROL /]** 設定/設定/ **[!UICONTROL <select report suite>]************** Adobe Campaign Adobe Campaign Reporting Reporting Adobe Analytics/管理者/レポートスイートに移動します。
 1. Click **[!UICONTROL Enable Campaign Reporting]**.
 
    ![](assets/enable-campaign.png)
@@ -52,14 +52,14 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
  </tbody> 
 </table>
 
-## 手順 3. Adobe Campaign 分類を使用する {#section_74A28AF3F4CA4091943789DE4D8B2B63}
+## 手順 3.Adobe Campaign 分類を使用する {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** / **[!UICONTROL <select report suite>]** 設定 **** を編集/ **[!UICONTROL Adobe Campaign]** / **[!UICONTROL Adobe Campaign分類]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポー]** トスイート **[!UICONTROL /]** Edit Suites **[!UICONTROL <select report suite>]** /Edit Edit **********[!UICONTROL Suites/Adobe Campaign Campaign Classifications Adobe Campaign Campaign Classifications]**
 
 Adobe Campaign に対してレポートスイートを有効にすると、次の分類を使用できます。
 
 * 配信 ID（Campaign 内で表示される内部配信名）
-* 配信ラベル（キャンペーンでの配信-個々の配信/定期配信/トランザクション配信）
+* 配信ラベル(（キャンペーンでの配信 — 個別配信/定期配信/トランザクション配信）
 * キャンペーン ID（Campaign 内で表示される内部キャンペーン名）
 * キャンペーンラベル（Adobe Campaign のキャンペーン）
 * 実行された配信ラベル（個々の実行された配信のリスト）
@@ -87,5 +87,5 @@ Adobe Analytics レポートスイートで、次の Campaign の&#x200B;**デ�
 | キャンペーンラベル | キャンペーン ID のラベル |
 | 配信 ID | 期間中に KPI が送信されたすべての配信の ID。定期的な配信およびトランザクション配信のマスター配信の ID も含まれます。例：定期的な配信 DM1 がスケジュールされ、DM2、DM3、DM4 および DM5 が定期的な配信の子配信であるとします。配信 ID には、DM1～DM5 のすべての配信の結果が表示されます。 |
 | 配信ラベル | 配信 ID のラベル |
-| 実行済み配信ID | 実行された配信の ID のみ。定期的な配信およびトランザクション配信のマスター配信の ID は含まれません。例：定期的な配信 DM1 がスケジュールされ、DM2、DM3、DM4 および DM5 が定期的な配信の子配信であるとします。実行された配信 ID には、実際に実行された配信である DM2～DM5 のすべての配信の結果が表示されます。 |
+| 実行された配信ID | 実行された配信の ID のみ。定期的な配信およびトランザクション配信のマスター配信の ID は含まれません。例：定期的な配信 DM1 がスケジュールされ、DM2、DM3、DM4 および DM5 が定期的な配信の子配信であるとします。実行された配信 ID には、実際に実行された配信である DM2～DM5 のすべての配信の結果が表示されます。 |
 | 実行された配信ラベル | 実行された配信 ID のラベル |
