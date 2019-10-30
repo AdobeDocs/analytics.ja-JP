@@ -3,12 +3,12 @@ description: 分類階層ページでは、階層レポートを作成するの�
 seo-description: 分類階層ページでは、階層レポートを作成するのに使用できる分類階層を同じ名前で定義できます。
 seo-title: 分類階層
 solution: Analytics
-subtopic: '分類      '
+subtopic: 分類
 title: 分類階層
 topic: 管理ツール
-uuid: 1b2b73af-84ea-4b90- b4a5- ba75235547fb
+uuid: 1b2b73af-84ea-4b90-b4a5-ba7523547fb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 分類階層ページでは、階層レポートを作成するのに使用できる分類階層を同じ名前で定義できます。
 
-## Classification hierarchies {#concept_10A956342D7D4C3E9114CCFCE1364741}
+## 分類階層 {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
 [!UICONTROL 分類階層]ページでは、[!UICONTROL 階層]レポートを作成するのに使用できる分類階層を同じ名前で定義できます。
 
@@ -37,8 +37,8 @@ t_classification_heirarchy.xml
 
  -->
 
-1. **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
-1. レポートスイートを選択します。
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. レポートスイートの選択.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
 1. 「**階層の構築対象**」フィールドで、分類階層の作成先の変数を選択します。
 
