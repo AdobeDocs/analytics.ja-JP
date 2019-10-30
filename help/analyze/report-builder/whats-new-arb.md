@@ -1,16 +1,16 @@
 ---
 description: 現在および以前のリリースとその機能を列挙します。
 seo-description: 現在および以前のリリースとその機能を列挙します。
-seo-title: Report Builderの新機能
-title: Report Builderの新機能
-uuid: 20f4a839-0667-45a7- b037-0357d0e23010
+seo-title: Report Builder の新機能
+title: Report Builder の新機能
+uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Report Builderの新機能
+# Report Builder の新機能
 
 現在および以前のリリースとその機能を列挙します。
 
@@ -24,13 +24,13 @@ source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
 
 ## Report Builder 5.5
 
-**Power BIへのReport Builder5.5の公開**
+**Report Builder 5.5 での Power BI への発行**
 
 Microsoft Power BI は、データを分析してインサイトを共有するビジネス分析ダッシュボードのスイートです。Adobe Analytics と Power BI を統合すると、Microsoft Power BI 内で Report Builder Analytics データを視覚化し、組織全体で簡単に共有できます。
 
 これまで、アナリストは Report Builder ワークブックを電子メール（または ftp）で配信するようスケジュールを設定していました。それが、関係するビジネスユーザーが様々なプラットフォームやデバイスからアクセス可能な Web ベース環境で正確かつ最新のデータに（Power BI アカウント内から）アクセスできるようになりました。
 
-Report Builder のレポート生成機能を Power BI の視覚化機能と組み合わせることで、組織の全員が情報にアクセスできるようになります。Power BI を使用すると、Adobe Analytics を他のデータソース（POS、CRM など）と統合して、独自の顧客インサイト、関連事項および機会を発見することもできます。[詳細情報...](../../analyze/report-builder/c-publish-power-bi/power-bi.md#concept_07653F1641774B70AD2DE77F0614B8CC)
+Report Builder のレポート生成機能を Power BI の視覚化機能と組み合わせることで、組織の全員が情報にアクセスできるようになります。Power BI を使用すると、Adobe Analytics を他のデータソース（POS、CRM など）と統合して、独自の顧客インサイト、関連事項および機会を発見することもできます。[さらに詳しく...](../../analyze/report-builder/c-publish-power-bi/power-bi.md#concept_07653F1641774B70AD2DE77F0614B8CC)
 
 ## Report Builder 5.4
 
@@ -42,7 +42,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
    >
    >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
 
-* **強化されたログインセキュリティ** 新しい [ログイン画面](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)に加え、標準Report Builderログインには、OAuth承認フレームワークに基づく、より安全な認証プロセスが追加されました。
+* **ログインセキュリティの強化** 新しいログイン画面に加え [て](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)、標準のReport Builderログインには、OAuth認証フレームワークに基づく、より安全な認証プロセスが備わっています。
 
 ## Report Builder 5.3
 
@@ -52,9 +52,9 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 ## Report Builder 5.2
 
-* **計算指標** Report Builder5.2では、Adobe Analytics [統合計算指標](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4)がサポートされています。これにより、すべての計算指標にグローバル ID が付けられ、複数のレポートスイートで使用することができるようになりました。
+* **計算指標** Report Builder 5.2は、Adobe Analytics統合計算指標をサ [ポートします](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4)。 これにより、すべての計算指標にグローバル ID が付けられ、複数のレポートスイートで使用することができるようになりました。
 
-* **強化されたレポートと指標の検索** Adobe Analytics の [eVar およびイベント](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)が追加されたのに伴い、Adobe Report Builder で提供されるレポートと指標の数が大幅に増えています。In order to simplify the search, a couple of new search bars have been added to the Request Wizard: one for [report search](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) and one to search for [metrics](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
+* **強化されたレポートと指標の検索** Adobe Analytics の [eVar およびイベント](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)が追加されたのに伴い、Adobe Report Builder で提供されるレポートと指標の数が大幅に増えています。検索を簡素化するために、リクエストウィザードに新しい検索バーが2つ追加されました。1つはレポート [検索用で](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) 、もう1つは指標検索 [用です](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4)。
 
-* **顧客属性** 顧客属性は、VisAttrという新しいタイプの要素に保存され、ディメンションまたは指標として設定できます。顧客属性をアップロードする方法について詳しくは、「[Experience Cloud ヘルプ](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)」を参照してください。
+* **顧客属性** 顧客属性は、VisAttrと呼ばれる新しいタイプの要素に保存され、ディメンションまたは指標として設定できます。 顧客属性をアップロードする方法について詳しくは、「[Experience Cloud ヘルプ](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)」を参照してください。
 
