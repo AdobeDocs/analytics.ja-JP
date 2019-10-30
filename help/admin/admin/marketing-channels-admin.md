@@ -5,9 +5,9 @@ seo-title: マーケティングチャネル
 solution: Analytics
 title: マーケティングチャネル
 topic: 管理ツール
-uuid: 05a74391- b694-4ed3-9793-5538d6373db2
+uuid: 05a74391-b694-4ed3-9793-5538d6373db2
 translation-type: tm+mt
-source-git-commit: 1986561a83f22619b627d754376f7e936902a737
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,6 +16,6 @@ source-git-commit: 1986561a83f22619b627d754376f7e936902a737
 
 マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネル処理ルールを作成してカスタマイズできます。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** / **[!UICONTROL 設定を編集]** / **[!UICONTROL マーケティングチャネル]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポ]** ートスイ **[!UICONTROL ート]** /設定 **[!UICONTROL /マーケティング]******&#x200B;チャネルを編集
 
 詳しくは、[マーケティングチャネル](/help/components/c-marketing-channels/c-overview.md)を参照してください。
