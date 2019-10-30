@@ -1,19 +1,19 @@
 ---
 description: データソースの .txt テンプレートに関する情報です。
 seo-description: データソースの .txt テンプレートに関する情報です。
-seo-title: ファイル参照の読み込み
+seo-title: インポートファイルの参照
 solution: Analytics
 subtopic: データソース
-title: ファイル参照の読み込み
-topic: 開発者と導入
-uuid: cc58f8d8- cb6e-4908-846f-0a41c6da805d
+title: インポートファイルの参照
+topic: 開発者と実装
+uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# ファイル参照の読み込み
+# インポートファイルの参照
 
 データソースの .txt テンプレートに関する情報です。
 
@@ -28,9 +28,9 @@ source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
 
 **日付**：（必須）ファイル内の各データ行のタイムスタンプ。
 
-**変数**：データソースのデータディメンションにマッピングされているレポート変数の名前。
+**変数**:データソースのデータディメンションにマッピングされるレポート変数の名前。
 
-**イベント**：データソースの指標にマッピングされているイベントの名前。
+**イベント**:データソースの指標にマッピングされているイベントの名前。
 
 データソーステンプレートを使用して、アップロードするデータを含むデータソースファイルを作成します。データソースファイルを作成する場合、以下の点に注意してください。
 
@@ -63,6 +63,6 @@ source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
 
 **.FIN ファイル**
 
-データソースファイルの入力が完了したら、そのファイルをAnalyticsにFTPで送信できます。ただし、データを処理するためにはファイルがもう 1 つ必要です。You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+データソースファイルの入力が完了したら、AnalyticsにFTPで送信できます。 ただし、データを処理するためにはファイルがもう 1 つ必要です。You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
-For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. [!DNL .fin] ファイルがない場合、データは処理されません。
+For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
