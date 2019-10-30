@@ -4,9 +4,9 @@ seo-description: Analytics レポート API の比較表です。サポートド
 seo-title: Analytics レポート API の比較
 solution: Analytics
 title: Analytics レポート API の比較
-uuid: fa533a8e-33c0-42f4- a294- cabee0258c8f
+uuid: fa533a8e-33c0-42f4-a294-cabe0258c8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,9 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Analytics レポート API の比較表です。サポートドキュメントへのリンクが設定されています。
 
->[!NOTE]
->
->遅延について、Analytics for Target（A4T）は、統合レポート用に同じヒットのAnalyticsデータとTargetデータを組み合わせます。Analytics と Target の呼び出しは、異なる時間に発生するので、両方のソリューションからデータを収集するために、ヒットは、処理が発生する前に格納されます。この処理により、すべてのチェックポイントに&#x200B;**さらに 7 ～ 10 分**&#x200B;の遅延が追加されます。
+> [!NOTE] 待ち時間に関して、Analytics for Target(A4T)は、統合レポート用に同じヒットのAnalyticsとTargetのデータを組み合わせます。 Analytics と Target の呼び出しは、異なる時間に発生するので、両方のソリューションからデータを収集するために、ヒットは、処理が発生する前に格納されます。この処理により、すべてのチェックポイントに&#x200B;**さらに 7 ～ 10 分**&#x200B;の遅延が追加されます。
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
