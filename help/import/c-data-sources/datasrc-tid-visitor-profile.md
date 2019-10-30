@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: トランザクションIDおよび訪問者プロファイル
+seo-title: トランザクション ID と訪問者プロファイル
 solution: Analytics
-title: トランザクションIDおよび訪問者プロファイル
-topic: 開発者と導入
-uuid: 7a72779c-7f67-4872- ad5e- edf298d53cac
+title: トランザクション ID と訪問者プロファイル
+topic: 開発者と実装
+uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# トランザクションIDおよび訪問者プロファイル
+# トランザクション ID と訪問者プロファイル
 
 このセクションには、トランザクション ID を使用したデータのアップロード時に使用される訪問者プロファイルのデータに関する重要な情報が記されています。
 
