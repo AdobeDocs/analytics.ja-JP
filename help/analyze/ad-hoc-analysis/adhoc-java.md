@@ -4,7 +4,7 @@ seo-description: Java 11でAd Hoc Analysisを実行する方法について説�
 seo-title: Ad Hoc AnalysisおよびJava 11
 title: Java 11 で Ad Hoc Analysis を実行する
 translation-type: tm+mt
-source-git-commit: 23bdb0c24416c376ec1df7b609a5794dbf8886f2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,13 +25,11 @@ IT チームと協力して、以下を確認してください。
 1. **[!UICONTROL Analytics/ツール/Ad Hoc Analysisに移動します]**。
 1. Click **[!UICONTROL Ad Hoc Analysis (Java 11)]**. これにより、zip ファイルがダウンロードされます。
 1. ダウンロードしたファイルを展開します。
-1. **.bat（PC）または.sh（Mac）ファイルを選択します**。Adobe Analytics の URL の「sc」に続く数字を確認し、適切なデータセンターファイルを選択します。(3 = LON、4 = SIN、5 = PNW) PCを使用する場合は、「PCについて」に移動して、32-bitと64-bitのWindowsオペレーティングシステムのどちらを実行しているかを確認します。 次に、適切な .bat ファイルを選択します。
+1. **.bat（PC）または.sh（Mac）ファイルを選択します**。Adobe Analytics URLの次の「sc」の番号を確認して、適切なデータセンターファイルを選択します。 (3 = LON, 4 = SIN, 5 = PNW) PCを使用する場合は、「PCについて」に移動して、32-bitと64-bitのWindowsオペレーティングシステムのどちらを実行しているかを確認します。 次に、適切な .bat ファイルを選択します。
 1. **選択したファイルを実行します**。PCの場合：.bat　ファイルをダブルクリックします。Mac の場合、.sh ファイルを右クリックしてから、「**[!UICONTROL このアプリケーションで開く／その他... ／ユーティリティ／（すべてのアプリケーションを有効にする）／ターミナルを選択／開く]**」を選択します。
 1. Ad Hoc Analysis にログインします。
 
->[!N注]
->
-> Federated IDとEnterprise IDの認証方法は、Ad Hoc AnalysisのJava 11バージョンと互換性がありません。
+> [!NOTE] Federated IDとEnterprise IDの認証方法は、Ad Hoc AnalysisのJava 11バージョンと互換性がありません。
 
 ## Ad Hoc Analysis　（Java 11）でサポートされていない機能
 
