@@ -5,7 +5,7 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,11 +20,11 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 |--- |--- |--- |--- |
 | 該当なし | 該当なし | トラフィック／サイトトラフィック／ファイルのダウンロード数 | "exe、zip、wav、mp3、mov、mpg、avi、wmv、doc、pdf、xls" |
 
-Folio Builder 変 *`linkDownloadFileTypes`* 数は、が「True」に設定さ *`trackDownloadLinks`* れている場合にのみ関連します。
+Folio Builder *`linkDownloadFileTypes`* 変数は、*`trackDownloadLinks`* が「True」に設定されている場合にのみ関係します。
 
 リンク上でマウスを左クリックした場合にのみ、[!UICONTROL ファイルのダウンロード数]レポートでカウントされます。ページが読み込まれたときに自動的に開始されるファイルダウンロード、またはリダイレクトの後で実行されるファイルダウンロードはすべて、[!UICONTROL ファイルのダウンロード数]レポートではカウントされません。ファイルを右クリックし「対象をファイルに保存」オプションを選択した場合も、[!UICONTROL ファイルのダウンロード数]レポートではカウントされません。
 
-The *`linkDownloadFileTypes`* 変数は、RSS フィードに対するクリック数を追跡するために使用することができます。.xmlまたは他の拡張子を持つRSSフィードへのリンクがある場合は、リストに「,xml」を追加すると、各RSSリンクがクリックされ *`linkDownloadFileTypes`* る頻度を確認できます。
+Folio Builder *`linkDownloadFileTypes`* 変数は、RSS フィードに対するクリック数を追跡するために使用することができます。.xml または他の拡張子を持つ RSS フィードへのリンクがある場合は、*`linkDownloadFileTypes`* リストに「,xml」を追加すると、各 RSS リンクのクリック回数を確認できます。
 
 ## 構文と可能な値
 
@@ -54,5 +54,5 @@ s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls,xml"
 
 * ダウンロードファイルを左クリックした場合のみ、URL が[!UICONTROL ファイルのダウンロード数レポート]に表示されます。
 * 共通のファイル拡張子を&#x200B;*`linkDownloadFileTypes`* に一般的なファイル拡張子を含めると、Adobe のサーバーに送信されるサーバーコール総数が大幅に増えることがあります。
-* Links to server-side redirects or HTML pages that automatically begin downloading a file are not counted unless the file extension is in *`linkDownloadFileTypes`*.
+* サーバーサイドでのリダイレクトへのリンクやファイルのダウンロードを自動的に開始する HTML ページはカウントされません（ファイル拡張子が *`linkDownloadFileTypes`* の場合を除く）。
 * JavaScript（javascript:openLink( ) など）を使用するリンクは、ファイルのダウンロード数にはカウントされません。
