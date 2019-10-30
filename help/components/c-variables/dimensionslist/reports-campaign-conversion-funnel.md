@@ -5,9 +5,9 @@ seo-title: キャンペーンコンバージョンファネル
 solution: Analytics
 title: キャンペーンコンバージョンファネル
 topic: レポート
-uuid: b0a90917- e4c7-40da-854e-58649de09742
+uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 キャンペーンレポートグループの指標の平均値を表示します。デフォルト指標はクリックスルー、総売上高、注文、売上高です。
 
-**[!UICONTROL キャンペーン]** / **[!UICONTROL キャンペーンコンバージョンファネル]**
+**[!UICONTROL キャンペーン]** /キャンペーン **[!UICONTROL コンバージョンファネル]**
 
 ファネル図の上部にコンバージョンデータが表示されます。下部には、注文およびその他の 2 つまでの指標、売上高と数量に基づく上部のすべてのイベントの統計が表示されます。
 
