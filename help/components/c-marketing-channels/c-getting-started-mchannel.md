@@ -5,10 +5,10 @@ seo-title: マーケティングチャネル - はじめに
 solution: Analytics
 subtopic: マーケティングチャネル
 title: マーケティングチャネル - はじめに
-topic: Reports and Analytics
-uuid: d38cb0e5-0b75-4690- b1da- fea2fdff9e7d
+topic: Reports & Analytics
+uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,17 +34,15 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
 
 チャネルの推奨事項のリストについては、 [よくある質問と例](../../components/c-marketing-channels/c-faq.md#concept_72CE3270AC264DB2A64BCB3E4B0D9C44). 使用するチャネルのリストを作成し、チャネルの作成時にチャネルの有効化と定義を簡単に行えるようにします。
 
-![](assets/step2_icon.png)[!UICONTROL マーケティングチャネルマネージャ] ページでマーケティングチャネルを追加します。
+![](assets/step2_icon.png) マーケティングチャネルマネージャ [!UICONTROL ーページでマーケティングチャネル] を追加します。
 
 After defining what channels to track, you enable them in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
 See [Channels and Rules](../../components/c-marketing-channels/c-channels-rules.md#concept_C832E652974F419C82A4FAD9076C3197) for important prerequisite and conceptual information.
 
-See [Add marketing channels](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) for the procedure.
+手順につ [いては、「マーケティングチャネルの追加](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) 」を参照してください。
 
->[!NOTE]
->
->If Marketing Channels have not been previously configured, the [automatic setup](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) displays. このセットアップではいくつかの事前定義のチャネルが提供され、これらのチャネルをカスタマイズできます。アドビでは、これらのルールをテンプレートとして使用することをお勧めします。ただし、既に確立されたチャネル定義がある場合は、自動セットアップをスキップすることができます。
+> [!NOTE] マーケティングチャネルが事前に設定されていない場合は、自動セ [ットアップ](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) が表示されます。 このセットアップではいくつかの事前定義のチャネルが提供され、これらのチャネルをカスタマイズできます。アドビでは、これらのルールをテンプレートとして使用することをお勧めします。ただし、既に確立されたチャネル定義がある場合は、自動セットアップをスキップすることができます。
 
 ![](assets/step3_icon.png)[!UICONTROL マーケティングチャネルの処理ルール]ページで、各チャネルのルールを設定または調整する
 
