@@ -4,10 +4,10 @@ seo-description: ターゲットでは、Web サイトのパフォーマンス�
 seo-title: ターゲット
 solution: Analytics
 title: ターゲット
-topic: Reports and Analytics
+topic: Reports & Analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## ターゲットフィールドの説明 {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL ターゲット]**
+**[!UICONTROL Analytics]** /コンポ **[!UICONTROL ーネント]** /ター **[!UICONTROL ゲッ]**&#x200B;ト。
 
 [!UICONTROL ターゲットの追加/編集]ページのフィールドとオプションについて説明します。
 
@@ -75,14 +75,14 @@ t_add_a_target.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL ターゲット]**&#x200B;をクリックします。
-1. [!UICONTROL ターゲットマネージャ] ページで、「新規追加」をクリック ****&#x200B;します。
+1. **[!UICONTROL Analytics]** /コンポーネント **[!UICONTROL /ターゲッ]** トをクリックします ****。
+1. On the [!UICONTROL Target Manager] page, click **[!UICONTROL Add New]**.
 1. [ターゲットフィールドの説明](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
 ## ターゲットの編集 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL ターゲット]**&#x200B;をクリックします。
+1. **[!UICONTROL Analytics]** /コンポーネント **[!UICONTROL /ターゲッ]** トをクリックします ****。
 1.  「**管理**」列で、「**[!UICONTROL 編集]」アイコンをクリックします。**
 1. [ターゲットフィールドの説明](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
