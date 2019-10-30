@@ -1,21 +1,21 @@
 ---
 description: データソースには、オフラインで発生するイベントをオンラインデータに統合する方法がさらに 2 つ用意されています。
 seo-description: データソースには、オフラインで発生するイベントをオンラインデータに統合する方法がさらに 2 つ用意されています。
-seo-title: トランザクションと顧客の統合
+seo-title: トランザクションの統合と顧客の統合
 solution: Analytics
 subtopic: データソース
-title: トランザクションと顧客の統合
-topic: 開発者と導入
-uuid: 71f73a47-3436-4314- a182-36de4bd935ba
+title: トランザクションの統合と顧客の統合
+topic: 開発者と実装
+uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# トランザクションと顧客の統合
+# トランザクションの統合と顧客の統合
 
-データソースには、オフラインで発生するイベントをオンラインデータに統合するための2つの方法があります。
+データソースには、オフラインで発生するイベントをオンラインデータに統合する方法がさらに2つ用意されています。
 
 * [トランザクション ID の記録の有効化](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [トランザクションの統合](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -27,7 +27,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 トランザクション ID は、ClientCare にお問い合わせいただかなくても、UI で次の手順を実行して有効／無効にできます。
 
-**[!UICONTROL 管理]** 者/ **[!UICONTROL レポートスイート]** / **[!UIACROL[レポートスイート]を選択/** 設定 **[!UICONTROL を編集]** / **[!UICONTROL 一般]** / **[!UICONTROL 一般的なアカウント設定]**
+Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -49,10 +49,10 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 顧客 ID を使用すると、顧客のオフラインアクティビティを指定し、このアクティビティをオンラインアクティビティに関連付けることができます。この ID は次のような場合に使用します。
 
-* 顧客 ID が&#x200B;*`visitorID`* 変数を使用します。
+* 顧客 ID が&#x200B;*`visitorID`* 変数にも取り込まれます。
 * 顧客のアクティビティがオフラインに移行する（リードの送信、購入など）明確な時点が存在しない。
 
-このタイプのデータソースを設定するには、次を参照してください。 [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+このタイプのデータソースを設定するには、次を参照してください。 [訪問者 ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
 
 ## トランザクションの統合 {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
