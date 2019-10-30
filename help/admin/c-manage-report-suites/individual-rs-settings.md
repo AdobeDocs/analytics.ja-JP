@@ -5,9 +5,9 @@ seo-title: 個々のレポートスイートの設定
 solution: Analytics
 title: 個々のレポートスイートの設定
 topic: 管理ツール
-uuid: a61164ef- fc96-44ef-95d3-49e88d5fd94a
+uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,8 +18,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 [!UICONTROL 個々のレポートスイートの設定]にアクセスするには：
 
-1. **[!UICONTROL 「管理者]**»をクリックし、??«レポートスイート??****
+1. Click **[!UICONTROL Admin]**, then click **[!UICONTROL Report Suites]**.
 
-1. レポートスイートを選択します。
+1. レポートスイートの選択.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Suite Settings]** &gt; *`<selection>`*.
 
