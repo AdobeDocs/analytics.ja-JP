@@ -5,9 +5,9 @@ seo-title: リファラー
 solution: Analytics
 title: リファラー
 topic: レポート
-uuid: e63b47b4-49f3-43af-8409-3272bas0484e
+uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
