@@ -4,9 +4,9 @@ seo-description: 指標値を降順で並べ替えた、Data Warehouse のラン
 seo-title: 指標で並べ替え
 solution: Analytics
 title: 指標で並べ替え
-uuid: 07da2607- b3fd-463b-90d4-6884a93c7e25
+uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 この表の「レポートのレイアウト」列を参照して、「指標の並べ替え」がどのように他の Data Warehouse レポートオプションと相互に作用するかを識別してください。
 
-| 指標で並べ替え | 指標がある | 分類がある | 日付精度 | 最大行数が設定されている | レポートのレイアウト |
+| 指標で並べ替え? | 指標がある | 分類がある | 日付精度 | 最大行数が設定されている | レポートのレイアウト |
 |---|---|---|---|---|---|
 | × | ○／× | ○／× | ○／× | ○／× | 1 |
 | ○ | × | ○／× | ○／× | ○／× | 1 |
