@@ -1,18 +1,18 @@
 ---
 description: Analysis Workspace の「元に戻す」オプションに関する変更と機能強化。
 seo-description: Analysis Workspace の「元に戻す」オプションに関する変更と機能強化。
-seo-title: 取り消しとやり直しの設定
-title: 取り消しとやり直しの設定
-uuid: a4dbc169-5fd7-4383- aee0-6b5ba1c235ab
+seo-title: 「元に戻す」および「やり直し」の設定
+title: 「元に戻す」および「やり直し」の設定
+uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 取り消しとやり直しの設定
+# 「元に戻す」および「やり直し」の設定
 
-**[!UICONTROL ワークスペース]** / **[!UICONTROL プロジェクト]** / **[!UICONTROL 取り消し/やり直し]**
+**[!UICONTROL ワークスペース]** /プ **[!UICONTROL ロジェクト]** /元 **[!UICONTROL に戻す/やり直し]**
 
 * 「**[!UICONTROL やり直し]**」オプション（元に戻した操作をやり直す）は&#x200B;**編集[!UICONTROL メニューにあります。]**
 
@@ -22,7 +22,7 @@ source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
 
 * レポートスイートの変更の取り消し／やり直しをおこなうことができます。
 * プロジェクト名の近くに取り消し／やり直しのメッセージが表示されます。このメッセージは、取り消しまたはやり直しが進行中であることを示します。
-* You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* 次のホットキーを使用で [きます](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)。
 
    * Ctrl（または Command）+ Z（「元に戻す」）
    * Ctrl（または Command）+ Shift + Z（「やり直し」）
