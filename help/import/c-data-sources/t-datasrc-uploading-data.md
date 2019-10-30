@@ -5,10 +5,10 @@ seo-title: データソースファイルのアップロード
 solution: Analytics
 subtopic: データソース
 title: データソースファイルのアップロード
-topic: 開発者と導入
-uuid: 5a9dbc91-1297-47e5-9393-611b40413c17
+topic: 開発者と実装
+uuid: 5a9dde91-1297-47e5-9393-611b40413c17
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 データソースのデータファイルを準備したら、処理を行うためにそのファイルをデータソースに送信します。アドビが管理するデータソース FTP サーバーがいくつかあり、このサーバーにデータソースファイルをアップロードすることができます。データソース FTP サーバーについて、次の点に注意してください。
 
-* 「[!UICONTROL データソースの管理]」タブでデータソースエントリの横にある「FTP 情報」を選択すると、そのデータソースの FTP アカウントについて FTP ホスト、ログイン、およびパスワードの情報を確認できます。この情報にアクセスできるユーザーは誰でも、データをレポートスイートにアップロードできます。
+* Select FTP Info next to the Data Source entry in the [!UICONTROL Data Sources Manage] tab to see the FTP Host, Login, and Password information for the data source's FTP account. この情報にアクセスできるユーザーは誰でも、データをレポートスイートにアップロードできます。
 * セキュリティの都合上、FTP アカウントは 30 日間未使用の状態が続くとクローズされます。
 * FTP アカウントは、データソースに固有のものです。1 つの FTP アカウントを使用して、複数のデータソースにデータソースファイルをアップロードすることはできません。
 
