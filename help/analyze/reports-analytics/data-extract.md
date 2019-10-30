@@ -5,10 +5,10 @@ seo-title: データ抽出
 solution: Analytics
 subtopic: スケジュール
 title: データ抽出
-topic: Reports and Analytics
-uuid: 430f03bb-09e2-4e43-8cbd-1754b49affe
+topic: Reports & Analytics
+uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 データ抽出では、レポートの X 軸と Y 軸の両方に表示するパラメーターと、レポートをフィルターする項目を選択できます。
 
-## Data extract {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
+## データ抽出 {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
 
 データ抽出では、レポートの X 軸と Y 軸の両方に表示するパラメーターと、レポートをフィルターする項目を選択できます。
 
