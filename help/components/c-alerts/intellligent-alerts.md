@@ -5,7 +5,7 @@ seo-title: インテリジェントアラート
 title: インテリジェントアラート
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ## FAQ：アラートが計算およびトリガーされる仕組み {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-% しきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。低いしきい値（90% など）を設定すると、高いしきい値（99% など）を設定した場合よりも多くの異常値が取得されます。99.75% と 99.99% のしきい値は、時間単位の精度用に、多数の異常値がトリガーされないようにするために導入されました。
+% しきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。低いしきい値（90% など）を設定すると、高いしきい値（99% など）を設定した場合よりも多くの異常値が取得されます。99.75%と99.99%のしきい値は、異常値が多く発生しないように、時間単位の精度に特別に導入されました。
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -74,7 +74,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
    <td colname="col2"> <p>現在はできません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>質問：「予期された値」のテーブル（点線またはそれらの値の意味の出力で構成される）を入手できますか。</b> </p> </td> 
+   <td colname="col1"> <p><b>質問：点線を構成する「期待値」の表、またはそれらの値が何かを出力する表を取得できますか。 </b> </p> </td> 
    <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。30 日間の固定のトレーニング期間と固定の 95% 間隔が使用され、<a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Reports &amp; Analytics の異常値検出</a>に似ています。 </p> </td> 
   </tr> 
  </tbody> 
