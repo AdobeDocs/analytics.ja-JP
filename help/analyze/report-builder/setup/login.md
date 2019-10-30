@@ -5,9 +5,9 @@ seo-title: Report Builder へのサインイン
 solution: Analytics
 title: Report Builder へのサインイン
 topic: Report Builder
-uuid: 9a21b791- e323-46d2- b850-2d67babe964b
+uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ Report Builder への 3 種類のサインイン方法に関する情報です�
 
 Adobe Analytics の資格情報を使用して Report Builder にサインインする場合は、このログインを使用します。
 
-**Report Builderのログイン-フィールドの定義**
+**Report Builderログイン — フィールドの定義**
 
 | フィールド | 定義 |
 |--- |--- |
@@ -46,11 +46,9 @@ Adobe Analytics の資格情報を使用して Report Builder にサインイン
 
 ## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-Experience Cloud ログインを使用すると、Enterprise ID（電子メールとパスワード）を使用して Adobe Experience Cloud にログインできます。**[!UICONTROL サインイン]** / **[!UICONTROL Enterprise ID]** でサインインをクリックして、会社のシングルサインオンページにリダイレクトします。Enterprise ID について詳しくは、[ここ](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis)をクリックしてください。
+Experience Cloud ログインを使用すると、Enterprise ID（電子メールとパスワード）を使用して Adobe Experience Cloud にログインできます。Click **[!UICONTROL Sign In]** &gt; **[!UICONTROL Sign in with an Enterprise ID]** to be redirected to your company's single sign-on page. Enterprise ID について詳しくは、[ここ](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis)をクリックしてください。
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]
->
->Experience Cloudログインはセッションベースで、トークンは30日後に期限切れになります。
+> [!NOTE] Experience cloudのログインはセッションベースで、トークンは30日後に有効期限が切れます。
 
