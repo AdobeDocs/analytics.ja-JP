@@ -4,7 +4,7 @@ seo-title: Adobe Analyticsでのボットの削除
 description: Adobe Analyticsでボットを削除する3つの方法
 seo-description: Adobe Analyticsでボットを削除する3つの方法
 translation-type: tm+mt
-source-git-commit: ef17712b4a8a4a5c13dde9be9fdf2281eeb40091
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,11 +42,11 @@ Adobe Analyticsでは、レポートからボットトラフィックを削除�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-このデータ要素を設定したら、次の手順に従 [って](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) 、宣言済みIDを起動のECIDツールに渡します。
+このデータ要素を設定したら、次の手順に従 [って](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) 、「起動」のECIDツールに宣言済みIDを渡します。
 
 ### 手順2:セグメント化を使用したボットの識別
 
-訪問者のECIDを宣言済みIDに渡したので、Analysis Workspaceのセグメント化を使用して、ボットのよう [な行動を示す訪問者を識別できます](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) 。 ボットは、多くの場合、その動作によって定義されます。直帰数、通常と異なるユーザーエージェント、不明なデバイス/ブラウザー情報、リファラーなし、新規訪問者、通常と異なるランディングページなど Workspaceのドリルダウンとセグメント化の機能を使用して、IABフィルタリングを回避したボットとレポートスイートのボットルールを識別します。 例えば、次のスクリーンショットに使用できるセグメントを示します。
+訪問者のECIDを宣言済みIDに渡したので、Analysis Workspaceのセグメント化を使用して、ボットのよう [な行動を示す訪問者を識別できます](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) 。 ボットは、多くの場合、その動作によって定義されます。直帰数、通常と異なるユーザーエージェント、不明なデバイス/ブラウザー情報、リファラーなし、新規訪問者、通常と異なるランディングページなど Workspaceのドリルダウンとセグメント化の機能を使用して、IABフィルタリングを回避したボットとレポートスイートのボットルールを識別します。 例えば、次に使用できるセグメントのスクリーンショットを示します。
 
 ![](assets/bot-filter-seg1.png)
 
@@ -62,7 +62,7 @@ Experience cloud訪問者IDをディメンションとして使用し、ボッ�
 
 Data Warehouseレポートが届くと、履歴データからフィルタする必要のあるECIDのリストが表示されます。 これらのECIDをコピーして、ECIDとボットフラグの2列の空白の.CSVファイルに貼り付けます。
 
-* **ECID**:この列ヘッダーが、上記の新しい宣言済みIDに与えた名前と一致することを確認します。
+* **ECID**:この列ヘッダーが、上記の新しい宣言済みIDに与えた名前と一致することを確認してください。
 * **ボットフラグ**:これを顧客属性スキーマディメンションとして追加します。
 
 この.CSVファイルを顧客属性インポートファイルとして使用し、このブログ投稿の説明に従って顧客属性にレポートスイートを登録 [します](https://theblog.adobe.com/link-digital-behavior-customers)。
