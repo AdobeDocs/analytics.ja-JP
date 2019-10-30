@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 定期的なリクエストのスケジュール設定
 title: 定期的なリクエストのスケジュール設定
-uuid: 8ebeb78c-23a0-4b39- a63e-51835e0677a8
+uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 日、月、年単位で Data Warehouse リクエストのスケジュールを設定するには、*プリセット* が適切に選択されていることを確認します。
 
-1. [!UICONTROL 「レポート日]»で、??«プリセット??****
+1. Under [!UICONTROL Reporting Date], select **[!UICONTROL Preset]**.
 
 1. Under [!UICONTROL Schedule Delivery], click **[!UICONTROL Advanced Delivery Options]**.
 
@@ -25,5 +25,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/dw_schedule.png)
 
-1. Click **[!UICONTROL Schedule]**.
+1. **[!UICONTROL スケジュール]** をクリックします。
 
