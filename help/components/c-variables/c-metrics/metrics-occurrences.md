@@ -5,14 +5,14 @@ seo-title: 発生件数
 solution: Analytics
 title: 発生件数
 topic: 指標
-uuid: ff999fba- fcb7-4b16-9446-001ファセット0f15d
+uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 回数
+# 発生件数
 
 特定の値が取り込まれた回数、および該当する値で持続したページビュー数。つまり、回数とはページビューとページイベントの合計です。回数は Analysis Workspace と Ad Hoc Analysis で使用可能です。
 
