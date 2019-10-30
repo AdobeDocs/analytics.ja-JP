@@ -8,7 +8,7 @@ title: キュレーション／共有の概要
 topic: Reports & Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
    >
    >プロジェクトを共有する場合は、コンポーネントのキュレーションは必要ありません。 プロジェクトをすべての利用可能なデフォルトコンポーネント、または選択したコンポーネントと共有できます。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. プロジェクト内でコンポーネントをキュレーションすると、その他のコンポーネントをそのプロジェクトで使用できなくなります。
 
-1. 「**[!UICONTROL 完了]**」をクリックします。
+1. **[!UICONTROL 完了]** をクリックします。
 
 生成されるプロジェクトは、Analysis Workspace の通常のプロジェクトのように動作しますが、選択できるのは指定したコンポーネントだけです。
 
@@ -51,7 +51,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
    ![](assets/share_component.png)
 
 1. 受信者を追加します。
-1. （オプション）埋め込みプロジェクトコンポーネント（セグメント、計算指標、日付範囲）をすべての受信者と共有できます。共有すると、これらのコンポーネントは受信者のワークスペースのコンポーネントドロップダウンに表示されます。
+1. （オプション）埋め込みプロジェクトコンポーネント（セグメント、計算指標、日付範囲）をすべての受信者と共有できます。共有後、これらのコンポーネントは受信者のワークスペースのコンポーネントドロップダウンに表示されます。
 
    >[!IMPORTANT]
    >
