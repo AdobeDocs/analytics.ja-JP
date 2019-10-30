@@ -5,7 +5,7 @@ seo-title: optivo® broadmail Data Connector for Adobe Analytics
 title: optivo® broadmail Data Connector for Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 この統合には、次の主な利点が含まれます。
 
 * 閲覧して放棄した買い物客を回復する
-* ターゲットを絞ったクロス販売およびアップセルリマーケティングによる売上の増加
+* ターゲットを絞ったクロス販売と高額商品販売のリマーケティングによる売上の増加
 * セグメントベースの自動キャンペーン
 * 最適化キャンペーンが進行中です
 * ターゲットを絞った再マ [!DNL ~ーケティング~] のためのパートナー内のセグメント
