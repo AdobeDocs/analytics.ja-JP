@@ -3,8 +3,8 @@ title: 内部トラフィック
 description: 内部トラフィックプラグインは、内部ネットワークからの訪問者を動的に識別します。
 seo-description: 内部トラフィックプラグイン
 seo-title: 内部トラフィックプラグイン
-translation-type: ht
-source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,8 +30,8 @@ source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 1. イントラネットピクセルの追加：プラグインがアクセスを試みるイントラネット上に、任意の種類のファイルを追加できます。1 x 1 の透過ピクセルを使用することをお勧めします。内部ネットワーク内から広くアクセス可能なイントラネット上の場所に配置する必要があります。
 1. eVar の設定：eVar は、宛先レポートスイート内に追加する必要があります。「訪問」の有効期限と「元の値（最初）」の配分が必要です。
 1. 内部 URL の定義：AppMeasurement 設定変数内、および doPlugins がインスタンス化される前に、ピクセルまたは他のファイルの内部 URL 変数（s.intURL）をトラフィックチェックに使用できるように定義します。例：`s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. doPlugins を変更して eVar を設定します。次に、手順 1 で定義したeVarを使用して、AppMeasurement ライブラリコードの doPlugins セクションに次のコード行を含めることで、プラグインを初期化できます。`s.eVarXX = s.intCheck();`
-変数値は「internal」または「external」に設定されます。
+1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
+The variable value will be set to "internal" or "external".
 1. プラグインソースコードの追加：AppMeasurement ファイルの doPlugins セクションの下にプラグインコードを含めます。
 
 ## プラグインのソースコード
