@@ -7,8 +7,8 @@ solution: Analytics
 title: 外部電子メールトラッキング
 topic: 開発者と実装
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
 
 これらのような主要指標を取り込むには、HTML 電子メールの本文と JavaScript ライブラリに対する変更が必要です。
 
-## 実装{#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
+## 実装 {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
 
 電子メールキャンペーン分析データを正しく表示するには、いくつかの手順を実行する必要があります。この手順は以下のとおりです。
 
