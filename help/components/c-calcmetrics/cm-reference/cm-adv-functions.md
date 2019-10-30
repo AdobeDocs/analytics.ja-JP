@@ -3,14 +3,14 @@ description: これらの関数にアクセスするには、関数ドロップ�
 seo-description: これらの関数にアクセスするには、関数ドロップダウンリストの「アドバンスを表示」を選択します。
 seo-title: 高度な関数の参照
 title: 高度な関数の参照
-uuid: 7d1071b9-1737-4b7c- b318-87907ae5619
+uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: ff46935f6ec38c8981e4a1fffdbdc637bdf557db
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# リファレンス:高度な関数
+# リファレンス：高度な関数
 
 <!-- 
 
@@ -36,9 +36,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 引数の値を返します。値がある特定の値に等しくないことを示すには、NOT を使用します。
 
->[!NOTE]
->
->0（ゼロ）はFalseを、その他の値はTrueを表します。
+> [!NOTE] 0（ゼロ）はFalseを意味し、その他の値はTrueを意味します。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -65,7 +63,7 @@ Approximate Count Distinct (dimension)
 
 個別概算カウント（顧客 ID eVar）は、この関数の一般的な使用例です。
 
-新しい計算指標「概算顧客数」の定義は次のようになります。
+新しい「お客様に近似」計算指標の定義：
 
 ![](assets/approx-count-distinct.png)
 
@@ -214,9 +212,7 @@ N &lt;= 0 の場合、前のすべての行を使用します。この関数は�
 
 N &lt;= 0 の場合、前のすべての行を使用します。この関数はディメンションによって規定されているので、日付やパスの長さなど、自然順序を持つディメンションでのみ役立ちます。
 
->[!NOTE]
->
->これは、売上高/訪問者数などのレート指標で予想されるものではありません。この指標は、最後のNにわたる売上高を合計し、最後のNを通して訪問者を合計してからそれらを除算する代わりに、レートを平均します。代わりに、次の数式を使用してください。
+> [!NOTE] これは、売上高/訪問者などのレート指標では期待どおりに機能しません。これは、過去N件の売上高を合計し、過去N件の訪問者を合計して、それらを除算するのではなく、レートの平均を計算します。 代わりに、次の数式を使用してください。
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -459,9 +455,7 @@ NOT を使用する場合は、式（&lt;、&gt;、=、&lt;&gt; など）が 0 �
 
 いずれかの引数が TRUE の場合は TRUE を返します。すべての引数が FALSE の場合は FALSE を返します。
 
->[!NOTE]
->
->0（ゼロ）はFalseを、その他の値はTrueを表します。
+> [!NOTE] 0（ゼロ）はFalseを意味し、その他の値はTrueを意味します。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -658,7 +652,7 @@ z スコアのエイリアス。つまり、平均値を標準偏差で割って
 
 t スコア col および自由度 n の t 検定（m-tailed）を実行します。
 
-The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+署名はです `t_test( x, n, m )`。 その下では、単に呼び出し `m*cdf_t(-abs(x),n)`ます (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
 ここで、`m` はテール数、`n` は自由度です。これらは数値でなければなりません（全体レポートの場合は、行ごとに変わらない定数でなければなりません）。
 
@@ -666,9 +660,9 @@ The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(
 
 返される値は、指定された自由度とテール数において検定統計量 x が見られる確率です。
 
-**例：**
+**例:**
 
-1. 外れ値を見つけるには、次の手順を使用します。
+1. 外れ値を検索するには、次の手順に従います。
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
@@ -702,9 +696,7 @@ z スコアの式は次のようになります。
 
 ここで、[!DNL x] は生のスコア、[!DNL μ] は母集団の平均値、[!DNL σ] は母集団の標準偏差です。
 
->[!NOTE]
->
->[!DNL μ] （mu）および[!DNL σ] （シグマ）は、指標から自動的に計算されます。
+> [!NOTE] [!DNL μ] (mu)と[!DNL σ] (sigma)は、指標から自動的に計算されます。
 
 zスコア（指標）
 
@@ -729,7 +721,5 @@ z スコア A の Z 検定（n-tailed）を実行します。
 
 現在の行が列に偶然表示される可能性を返します。
 
->[!NOTE]
->
->値が通常分布すると仮定します。
+> [!NOTE] 値が通常分布されると仮定します。
 
