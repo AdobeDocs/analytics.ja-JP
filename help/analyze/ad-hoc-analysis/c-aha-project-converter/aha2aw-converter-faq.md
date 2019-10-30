@@ -3,7 +3,7 @@ description: 'null'
 seo-description: 'null'
 seo-title: プロジェクトコンバーターに関する FAQ
 title: プロジェクトコンバーターに関する FAQ
-uuid: 8e1bf0e9- ce0f-443a- bcfe-45d3e2c82b1c
+uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -14,18 +14,18 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## プロジェクトコンバーターに関する FAQ {#topic_8231595303AD403E9322645A63632D57}
 
-* [既知の変換に関する問題](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
+* [既知のコンバージョンの問題](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
 * [コンバージョンFAQ](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
-## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
+## 既知のコンバージョンの問題 {#section_39C922A58B2E49C9877B363042801361}
 
 | 問題 | 説明 |
 |--- |--- |
-| 分類または列での分単位の精度 | 分単位の精度で分類が適用されているか、または分単位の精度が列にある場合、プロジェクトはAnalysis Workspaceに変換できません。解決策として、分の精度の分類を削除して列から削除し、プロジェクトを変換します。その後、Analysis Workspaceで分単位の精度で分類を適用できます。 |
-| 列セグメントとともに使用される内部計算指標 | 列セグメントとともに内部計算指標を使用している場合、プロジェクトはAnalysis Workspaceに変換できません。この問題を回避するには、コンバージョン前にプロジェクトから内部計算指標を削除してから、Analysis Workspaceに再度追加してください。 |
+| 分類を含む分単位の精度または列 | 分の精度に分類が適用されている場合、または列に分の精度が存在する場合、プロジェクトは分析ワークスペースに変換できません。  回避策として、分単位の精度の内訳を削除し、列から削除して、プロジェクトを変換します。 その後、Analysis Workspaceで分の精度に分類を適用できます。 |
+| 列セグメントと共に使用される内部計算指標 | 内部計算指標を列セグメントと共に使用している場合、プロジェクトはAnalysis Workspaceに変換できません。 この問題を回避するには、コンバージョン前に内部計算指標をプロジェクトから削除し、Analysis Workspaceで再度追加します。 |
 
 
-## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}
+## コンバージョンFAQ {#section_1E53FE373AF045978F939916124E194E}
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>質問：Ad Hoc Analysis の機能のうち、Analysis Workspace でサポートされないものがありますか。</b> </p> </td> 
-   <td colname="col2"> <p>回答：サイト分析レポートは Analysis Workspace ではサポートされません。Ad Hoc AnalysisとWorkspaceの他のビジュアライゼーションとの間に若干の違いがあります。詳しくは、以下の質問を参照してください。 </p> </td> 
+   <td colname="col2"> <p>回答：サイト分析レポートは Analysis Workspace ではサポートされません。また、Ad Hoc AnalysisとWorkspaceの他のビジュアライゼーションには、若干の違いがあります。 詳しくは、以下の質問を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：表の設定はどのように変換されますか。</b> </p> </td> 
@@ -95,7 +95,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>グローバルデータ設定を使用する場合、同じプロジェクトを 2 回エクスポートしたときに両者の動作が異なることがあります。 </p> 
     <ul id="ul_E3827883DD8045FAAB359D7E85E3EEFA"> 
      <li id="li_1056CA4813C44638BEB070228AE6914C"><b>繰り返しインスタンスのカウント：</b>エクスポート時に適用されていた設定が、Analysis Workspace 内のエクスポート後のプロジェクトに適用されます。 </li> 
-     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>データソース：</b> Analysis Workspace ではデータソースも含め、Analytics のすべてのデータが表示されます。 </li> 
+     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>データソース.</b> Analysis Workspace ではデータソースも含め、Analytics のすべてのデータが表示されます。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
