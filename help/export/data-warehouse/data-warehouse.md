@@ -7,7 +7,7 @@ title: Data Warehouse の概要
 topic: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
 
 スケジュールに従ってダウンロードされる個々のレポートに対する 1 回のリクエストで、Data Warehouse の処理できる行数に制限はありません。
 
->[!NOTE]
->
->Data Warehouseは、レポート期間中に最初に発生した値をレポートします。
+> [!NOTE] Data Warehouseは、レポート期間中に最初に発生した値をレポートします。
 
 >[!IMPORTANT]
 >
