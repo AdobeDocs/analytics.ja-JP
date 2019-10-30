@@ -7,7 +7,7 @@ title: 入口
 topic: 指標
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
