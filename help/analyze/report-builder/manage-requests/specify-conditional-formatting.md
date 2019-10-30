@@ -5,9 +5,9 @@ seo-title: 条件付き書式の指定
 solution: Analytics
 title: 条件付き書式の指定
 topic: Report Builder
-uuid: 13ac12f1-3498-4bf9- a6d0- c5d84e0125dc
+uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,5 @@ On the report builder Toolbar, click **[!UICONTROL Format]**.
 
 セキュリティ上の理由から、Excel の Visual Basic for Applications（VBA）言語を使用してワークブック用に作成したマクロは無効になります。
 
->[!NOTE]
->
->条件付き書式はExcelの機能です。書式ルール作成については、Excel のマニュアルを参照してください。
+> [!NOTE] 条件付き書式はExcelの機能です。 書式ルール作成については、Excel のマニュアルを参照してください。
 
