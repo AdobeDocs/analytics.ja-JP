@@ -5,7 +5,7 @@ title: Adobe Report Builder ヘルプ
 topic: Report Builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 
 <!-- >>[!IMPORTANT]
 >
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018. 
+>Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
 >See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
 
@@ -39,7 +39,7 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 * [データリクエストの作成方法](data-requests/t-create-a-data-request.md)
 * [Report Builder のトラブルシューティングとベストプラクティス](troubleshoot.md)
 
-## Experience Cloudリソース
+## Experience cloudのリソース
 
 * [Adobe Analytics コミュニティ](https://helpx.adobe.com/marketing-cloud/analytics.html)
 * [Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
@@ -49,8 +49,8 @@ source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
 * [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [主なソリューションセンター](https://www.omniture.com/en/products/online_business_optimization)
 
-## Reports&amp; Analyticsヘルプ
+## Reports &amp; Analyticsヘルプ
 
 * [Analysis Workspace ヘルプ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
 * [Reports &amp; Analytics ヘルプ](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [Analyticsリファレンス](https://marketing.adobe.com/resources/help/en_US/reference/index.html) ヘルプを参照してください。
+* [管理ツール](https://marketing.adobe.com/resources/help/en_US/reference/index.html) 、レポートおよび指標に関するAnalyticsリファレンスヘルプ。
