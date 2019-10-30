@@ -1,19 +1,19 @@
 ---
-description: Adobe Engineering Servicesグループでは、SFTPを使用してデータを外部FTPアカウントにリダイレクトするカスタムプロジェクトを設定できます。
+description: アドビエンジニアリングサービスグループは、SFTPを使用して外部FTPアカウントにデータをリダイレクトするカスタムプロジェクトを設定できます。
 keywords: ftp;sftp
-seo-description: Adobe Engineering Servicesグループでは、SFTPを使用してデータを外部FTPアカウントにリダイレクトするカスタムプロジェクトを設定できます。
-seo-title: SFTPを使用した外部FTPアカウントへのAdobeデータの送信
+seo-description: アドビエンジニアリングサービスグループは、SFTPを使用して外部FTPアカウントにデータをリダイレクトするカスタムプロジェクトを設定できます。
+seo-title: SFTP を使用した外部 FTP アカウントへのアドビデータの送信
 solution: Analytics
-title: SFTPを使用した外部FTPアカウントへのAdobeデータの送信
-uuid: 3edf27f1- b7b5-4bc2- abf9-1489e4397dd3
+title: SFTP を使用した外部 FTP アカウントへのアドビデータの送信
+uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# SFTPを使用した外部FTPアカウントへのAdobeデータの送信
+# SFTP を使用した外部 FTP アカウントへのアドビデータの送信
 
-Adobe Engineering Servicesグループでは、SFTPを使用してデータを外部FTPアカウントにリダイレクトするカスタムプロジェクトを設定できます。
+アドビエンジニアリングサービスグループは、SFTPを使用して外部FTPアカウントにデータをリダイレクトするカスタムプロジェクトを設定できます。
 
 このメリットは、アドビの FTP サイトからデータを取得することなく、安全にデータが送信されることにあります。プロジェクトの範囲を決定するには、アドビのアカウントマネージャーにご連絡ください。
