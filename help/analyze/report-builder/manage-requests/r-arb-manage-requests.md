@@ -1,18 +1,18 @@
 ---
 description: Report Builder の「リクエストを管理」におけるフィールドの説明です。
 seo-description: Report Builder の「リクエストを管理」におけるフィールドの説明です。
-seo-title: リクエストの管理-定義
+seo-title: リクエストの管理 - 定義
 solution: Analytics
-title: リクエストの管理-定義
+title: リクエストの管理 - 定義
 topic: Report Builder
-uuid: 01b21d0e- c870-4df8-95b9- f4aef1f4d16b
+uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# リクエストの管理-定義
+# リクエストの管理 - 定義
 
 Report Builder の「リクエストを管理」におけるフィールドの説明です。
 
@@ -20,11 +20,9 @@ Report Builder の「リクエストを管理」におけるフィールドの�
 
 [!UICONTROL リクエストマネージャー]は、実行中のワークブックのすべてのシートで作成された、すべてのリクエストの状況について詳細を表示します。また、リクエストが設定されたセルを右クリックして、リクエストの追加、編集、更新および削除（[!UICONTROL リクエストウィザード]および[!UICONTROL リクエストマネージャー]に関連付けられた一般的な機能）を実行することもできます。
 
-[!UICONTROL リクエストマネージャー] は、Report Builderツールバーの **[!UICONTROL 「管理」]**![](assets/edit_request.gif) をクリックすると表示されます。
+リクエス [!UICONTROL トマネージャーは] 、Report Builderツールバー **[!UICONTROL の「管理]** 」() ![](assets/edit_request.gif) をクリックすると表示されます。
 
->[!NOTE]
->
->Adobe Report Builderでは、同じワークシート内でのみリクエストの依存関係が実行されます。ワークシート間では実行されません。依存関係を単一のワークシート内に制限することによって、確実にタイムリーに実行します。
+> [!NOTE] Adobe Report Builderでは、リクエストの依存関係は同じワークシート内でのみ適用され、ワークシート間では適用されません。 依存関係を単一のワークシート内に制限することによって、確実にタイムリーに実行します。
 
 ## 定義 {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -78,11 +76,11 @@ Report Builder の「リクエストを管理」におけるフィールドの�
   </tr> 
   <tr> 
    <td colname="col1"> <p>セルから取得 </p> </td> 
-   <td colname="col2"> <p>ワークシートからリクエストのデータを取得します。現在選択されているセルとの関連付けられたリクエストが選択されます。 </p> </td> 
+   <td colname="col2"> <p>ワークシートからリクエストのデータを取得します。 現在選択されているセルとの関連付けられたリクエストが選択されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 更新 </p> </td> 
-   <td colname="col2"> <p>選択した 1 つまたは複数のリクエストを更新します（ <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> リクエストの更新</a>.) </p> </td> 
+   <td colname="col2"> <p>選択した 1 つまたは複数のリクエストを更新します( <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> リクエストの更新</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>リストを更新 </p> </td> 
