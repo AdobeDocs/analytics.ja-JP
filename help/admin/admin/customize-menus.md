@@ -5,9 +5,9 @@ seo-title: メニューのカスタマイズ
 solution: Analytics
 title: メニューのカスタマイズ
 topic: 管理ツール
-uuid: 31e335e7- c91a-4669- a9b7-00f9e385375a
+uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 メニューの変更はそのレポートスイートにアクセスするすべてのユーザーに適用されます。ただし、ユーザーはレポートスイートの使用中にメニューをデフォルト設定に戻すことができます。
 
->[!NOTE]
->
->メニュー構造の変更は、Report BuilderおよびAd Hoc Analysisには影響しません。ただし、レポート名の変更は、両方のツールに反映されます。
+> [!NOTE] メニュー構造の変更は、Report BuilderおよびAd Hoc Analysisには影響しません。 ただし、レポート名の変更は、両方のツールに反映されます。
 
 ## メニューのカスタマイズの説明 {#section_B0D224DACB914A378902A4E0E1234889}
 
