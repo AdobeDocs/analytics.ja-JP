@@ -1,22 +1,22 @@
 ---
 description: Analytics で Activity Map レポートを有効にするための管理者の手順です。
 seo-description: Analytics で Activity Map レポートを有効にするための管理者の手順です。
-seo-title: Activity Mapレポート
+seo-title: Activity Map レポート
 solution: Analytics
-title: Activity Mapレポート
+title: Activity Map レポート
 topic: レポート
-uuid: 7636c670- bb6c-4a25-823a-7bbbba0b747b
+uuid: 7636c670-bb6c-4a25-823a-7bbba0b747b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Activity Mapレポート
+# Activity Map レポート
 
 Analytics で Activity Map レポートを有効にするための管理者の手順です。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** / **[!UICONTROL <select report suite>]** 設定 **[!UICONTROL を編集]** / **[!UICONTROL Activity Map]** / **[!UICONTROL Activity Mapレポート]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポートスイー]** ト **[!UICONTROL /]** Edit Suites **[!UICONTROL <select report suite>]** /Edit Settings/Activity Map Activity Reporting **[!UICONTROL の順に]********[!UICONTROL 設定/Activity Map Activity Map]**
 
 Activity Map（旧称 ClickMap）から提供されるユーザーアクティビティ情報を収集できます。この統合により、
 
