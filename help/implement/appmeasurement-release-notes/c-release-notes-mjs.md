@@ -8,14 +8,14 @@ title: JavaScript 版 AppMeasurement
 topic: 開発者と実装
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # JavaScript{#appmeasurement-for-javascript} 版 AppMeasurement
 
-Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
+JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートです。
 
 <!-- 
 
@@ -23,9 +23,9 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
  -->
 
-The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+各ライブラリの最新バージョンは、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL コードマネージャー]**&#x200B;からダウンロードできます。
 
-## バージョン2.17.0
+## バージョン 2.17.0
 
 リリース日：**2019 年 8 月 23 日**
 
@@ -40,7 +40,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 | 機能 | 説明 |
 | -----------| ---------- |
-| `sendBeacon` が離脱リンクをサポート | [!UICONTROL AppMeasurement] による離脱リンク計測において、ブラウザーの `sendBeacon` 機能が活用されるようになりました。これにより、離脱リンクトラッキングの精度が向上し、コール数が増加することがあります。`SendBeacon` は、ページのコンテキストではなく、ブラウザーのコンテキストで実行されます。 ページがでアンロードされた場合、 `sendBeacon`リクエストは完了したままとなります。 離脱リンクのリクエストが完了する可能性が高いので、これは離脱リンクで非常に役立ちます。 |
+| `sendBeacon` が離脱リンクをサポート | [!UICONTROL AppMeasurement] による離脱リンク計測において、ブラウザーの `sendBeacon` 機能が活用されるようになりました。これにより、離脱リンクトラッキングの精度が向上し、コール数が増加することがあります。`SendBeacon` は、ページのコンテキストではなく、ブラウザーのコンテキストで実行されます。`sendBeacon` ページがでアンロードされても、リクエストは完了します。離脱リンクのリクエストが完了する可能性が高くなるので、離脱リンクで非常に役立ちます。 |
 | ECID/fid の値 | ECID/fid の値は、オプトイン設定が変更された場合でも、最初のヒット時にキャッシュされるようになりました。 |
 | DIL 9.3 | Audience Management モジュールを DIL 9.3 に更新しました。 |
 | リーチトラッキングのスクロール | スクロールリーチのトラッキングをオン／オフするための s.ActivityMap.trackScrollReach の設定が追加されました。 |
@@ -48,10 +48,10 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## バージョン 2.15.0
 
-Release Date: **July 15, 2019**
+リリース日：**2019 年 7 月 16 日**
 
-* Activity mapのスクロールリーチ追跡機能をActivity map拡張機能に追加しました。(AN-172949)
-* DIL 9.2がAppMeasurementに追加されました。(AN-182472)
+* Activity Map 拡張機能に ActivityMap スクロールリーチトラッキングが追加されました。（AN-172949）
+* AppMeasurement に DIL 9.2 が追加されました（AN-182472）
 
 ## バージョン 2.14.0
 
@@ -62,21 +62,21 @@ Release Date: **July 15, 2019**
 
 ## バージョン 2.13.0
 
-Release Date: **April 10, 2019**
+リリース日：**2019 年 4 月 11 日**
 
-clearVarsで報告された多くの問題を修正。 この問題は、トラッカーの準備が整う前にヒットが送信された場合に発生します。 トラッカーの準備が整ったら、既にクリアまたは変更された変数をライブラリで設定できます。 (AN-176931、AN-176629、DTM-12758)。
+clearVars で報告された多くの問題を修正しました。この問題は、トラッカーの準備が整う前にヒットが送信された場合に発生します。トラッカーの準備が整うと、ライブラリは、既にクリアまたは変更された変数を設定できます。（AN-176931、AN-176629、DTM-12758）
 
 ## バージョン 2.12.0
 
-Release Date: **02/22/2019**
+リリース日：**2019 年 2 月 23 日**
 
 * Audience Management モジュールを DIL 9.1 に更新しました。（AN-175255）
 * GTM セキュリティポリシーにより Activity Map モジュールが許可されない問題を解決しました。（AN-174679）
-* IDサービスがオプトインで承認されない場合に、AppMeasurementがオプトアウトを受け入れるように改善しました。 （AN-175259）
+* オプトインで ID サービスが承認されない場合、オプトアウトを受け入れるよう AppMeasurement を改善しました。（AN-175259）
 
 ## バージョン 2.11.0
 
-Release Date: **02/11/2019**
+リリース日：**2019 年 2 月 12 日**
 
 * AppMeasurement に新しい Adobe オプトインサービス機能のサポートが追加されました。（AN-163546）
 * セッションストレージにリンクトラッキングデータを保存するためのサポートが追加されました。（AN-162272）
@@ -84,24 +84,22 @@ Release Date: **02/11/2019**
 
 ## バージョン 2.10.0 {#section_0788526EF23049C9AEB1EE5E8FC985DD}
 
-Release Date: **09/20/2018**
+リリース日：**2019 年 9 月 21 日**
 
-This release ensures that the [!DNL AppMeasurement] library submits cookies correctly for all connection types.
+このリリースでは、[!DNL AppMeasurement] ライブラリがすべての接続タイプに対して Cookie を適切に送信するようになります。
 
 * [!DNL AppMeasurement] は、POST 中の Cookie の送信をブロックします。（AN-165538）
 * XドメインRequest のドロップをサポートします。（AN-165733）
-* Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. （AN-158572）
-* Remove the Media Module from the Code Manager ( [!DNL AppMeasurement]) (AN-166590)
+* [!DNL AppMeasurement] のデフォルトの Cookie の有効期間を 5 年から 2 年に短縮します。（AN-158572）
+* コードマネージャー（[!DNL AppMeasurement]）からメディアモジュールを削除します。（AN-166590）
 
 ## バージョン 2.9.0 {#section_E973B8A628F348AA9A1A1599CFE37DB9}
 
 リリース日：**2018 年 5 月 25 日**
 
->[!NOTE]
->
->Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. 関連付けられたコードライブラリ（[!DNL at.js] など）が更新された場合は常に、訪問者 API を最新バージョンにアップグレードすることをお勧めします。[!DNL AppMeasurement.js]
+> [!NOTE][!DNL Experience Cloud] ID サービスを使用している場合、訪問者 API 3.0 以降が必要です。関連付けられたコードライブラリ（[!DNL at.js] など）が更新された場合は常に、訪問者 API を最新バージョンにアップグレードすることをお勧めします。[!DNL AppMeasurement.js]
 
-* Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. （AN-151483）
+* [!DNL AppMeasurement] を更新し、ID のリクエストに更新された Visitor インターフェイスを使用します。（AN-151483）
 * リンクトラッキングがオフになるとリンクトラッキング Cookie が書き込みを継続していた問題を修正しました。（AN-156332）
 * `registerPreTrackCallback` および `registerPostTrackCallback` が複数回呼び出されるとコールバック関数シグネチャが壊れていた問題を修正しました。（AN-158566）
 
@@ -109,9 +107,9 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 
 リリース日：**2018 年 4 月 13 日**
 
-* Update [!DNL AppMeasurement] to use the updated visitor interface for requesting IDs. （AN-151483）
+* [!DNL AppMeasurement] を更新し、ID のリクエストに更新された Visitor インターフェイスを使用します。（AN-151483）
 * リンクトラッキングがオフになるとリンクトラッキングクッキーが書き込みを継続します。（AN-156332）
-* Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. （AN-158572）
+* [!DNL AppMeasurement] のデフォルトの Cookie の有効期間を 5 年から 2 年に短縮します。（AN-158572）
 
 ## バージョン 2.8.1 {#section_6C1C4091F2EE4C90B6F3D7EE783DD884}
 
@@ -125,9 +123,9 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 
 訪問者 API 3.1.0（AN-159524）を再びバンドルします。これには、ホットフィックス（CORE-11390、CORE-10634）が含まれます。
 
-* Bundle VAPI v3.1 with [!DNL AppMeasurement] v2.8. （AN-158353）
+* [!DNL AppMeasurement] v2.8 に VAPI v3.1 をバンドルします。（AN-158353）
 * 共有を促進するために、データ収集エンドポイントをリファクタリンクビルドしました。（AN-156647）
-* Add request round-trip timing metrics to [!DNL AppMeasurement]. （AN-158343）
+* [!DNL AppMeasurement] に要求の往復時間指標を追加しました。（AN-158343）
 
 ## バージョン 2.7.0 {#section_2C047D410B614CEE950DBBC75F035033}
 
@@ -141,13 +139,13 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 
 リリース日：**2017 年 11 月 10 日**
 
-Fixed an issue where [!DNL AppMeasurement] library does not always set the correct account combination when s_gl is called. （AN-152153）
+s_gl が呼び出されると、 ライブラリで正しい[!DNL AppMeasurement]アカウントの組み合わせを設定されないことがあった問題を修正しました。（AN-152153）
 
 ## バージョン 2.5.0 {#section_3C0006D526CA405FA0C47E2D991012BA}
 
 リリース日：**2017 年 9 月 22 日**
 
-* Inclusion of [!DNL dil.js 6.12] ( [!DNL Audience Manager] module)
+* [!DNL dil.js 6.12]（[!DNL Audience Manager] モジュール）を同梱しました。
 
 * 訪問者 API 2.5.0 を同梱しました。
 
@@ -163,26 +161,26 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 リリース日：**2017 年 7 月 21 日**
 
 * [!DNL s.Util.getQueryParam] が # を取得していた問題を修正しました。
-* Added v6.10 of [!DNL dil.js] (AN-145701)
+* [!DNL dil.js] のバージョン 6.10 を追加しました。（AN-145701）
 
 ## バージョン 2.2.0 {#section_5E23F21413B1443B9A3021CCC9578C4B}
 
 リリース日：**2017 年 6 月 9 日**
 
-* Added support for multiple [!DNL AppMeasurement] instantiation order. （AN-138237）
+* 複数の [!DNL AppMeasurement] インスタンス化のサポートが追加されました。（AN-138237）
 * 訪問者 API バージョン 2.2.0 を同梱しました。（AN-144042）
 
 ## バージョン 2.1.0 {#section_5FE53738F9124C86811DFA08923B6F7B}
 
 * 最新版の [!DNL dil.js] が含まれています。（AN-140396）
-* Added support for `adobe_mc_ref` parameter which overrides the page referrer. （AN-131920）
+* ページリファラーをオーバーライドする `adobe_mc_ref` パラメーターがサポートされるようになりました。（AN-131920）
 * 訪問者 API 2.1.0 が再び含まれました。（AN-140873）
-* パラメータ `mcorgid` ーを追加。 （AN-139586）
-* cp（customerPerspective）パラメーターが追加されました。（AN-140897）
+* `mcorgid`パラメーターを追加しました。（AN-139586）
+* cp（customerPerspective）パラメーターを追加しました。（AN-140897）
 
 ## バージョン 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
 
-リリース日：**2017 年 3 月 10 日**
+リリース日：**2017 年 9 月 3 日**
 
 * 新しいビルドプロセスに移行したので、バージョン番号を 2.0.0 に更新しました。（AN-137878）
 * トラッキングの呼び出しがおこなわれる正しいセクションの場所に mboxMCSDID 処理を移動しました。（AN-138483）
@@ -197,7 +195,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
    * s.registerPreTrackCallback
    * s.registerPostTrackCallback
-   これらの関数は、コールバック（関数）およびそのパラメーターをパラメーターとして取ります。以下に例を示します。
+   これらの関数は、コールバック（関数）およびそのパラメーターをパラメーターとして取ります。次に例を示します。
 
    ```
    s.registerPreTrackCallback(function(requestUrl,a,b,c) { 
@@ -221,14 +219,14 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 更新：**2016 年 10 月 21 日**
 
-* Update [!DNL Audience Manager] module with Demdex Integration Library (DIL) 6.6. （AN-132065）
-* 訪問者 API 1.9.0 を同梱しました。（AN-132072）
+* [!DNL Audience Manager] モジュールを Demdex 統合ライブラリ（DIL） 6.6 に更新しました。（AN-132065）
+* Visitor API 1.9.0 を同梱しました。（AN-132072）
 
 ## バージョン 1.7.0 {#section_945311938EE2480A9A697BFE1E5B2AA7}
 
 更新：**2016 年 9 月 16 日**
 
-* Update [!DNL AppMeasurement] [!DNL Audience Manager] Module with DIL 6.5 and Additional Configurations (AN-129411)
+* [!DNL AppMeasurement] [!DNL Audience Manager]モジュールが DIL 6.5 と追加設定で更新されました。（AN-129411）
 
 * 訪問者 API 1.8.0 が同梱されました。（AN-129887）
 
@@ -236,35 +234,33 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 更新：**2016 年 8 月 19 日**
 
-* Updated [!DNL AppMeasurement] to read and write AMCV cookies. （AN-127098）
-* 訪問者 API 1.7.0 を同梱しました。
+* [!DNL AppMeasurement] が更新され、AMCV cookie を読み書きするようになりました。（AN-127098）
+* Visitor API 1.7.0 を同梱しました。
 
->[!NOTE]
->
->Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
+> [!NOTE][!DNL JavaScript] バージョン 1.6.3 について次のリリースノートも参照してください。Experience Cloud ID サービスの更新された要件が記載されています。
 
 ## バージョン 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
 更新：**2016 年 8 月 5 日**
 
-* Fixed an issue where [!DNL AppMeasurement] prematurely terminated request connections. （AN-126448）
+* リクエストの接続が [!DNL AppMeasurement] によって途中で切断される問題を修正しました。（AN-126448）
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
+>Version 1.6.0 of the [!DNL Experience Cloud] ID サービスのバージョン 1.6.0 には、[!DNL JavaScript] 版 [!DNL AppMeasurement] のバージョン 1.6.3 以降が&#x200B;*必要です*。Experience Cloud ID サービスのバージョン 1.6.0 にアップグレードする場合は、バージョン 1.6.3 以降の [!DNL AppMeasurement] コードを使用してください。
 
 ## バージョン 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
 
 リリース日：**2016 年 7 月 22 日**
 
 * 訪問者 API 1.6.0 を同梱しました。
-* Fixed an issue causing [!DNL AppMeasurement] to call the wrong obfuscated method in the Visitor API. （AN-126006）
-* Fixed an issue causing the [!DNL JavaScript] error: "Attribute only valid on v:image". （AN-124009）
+* [!DNL AppMeasurement] が訪問者 API の不適切な不明化されたメソッドを呼び出してしまう問題を修正しました。（AN-126006）
+* 「属性は v:image でのみ有効です」という [!DNL JavaScript] エラーが発生する問題を修正しました。（AN-124009）
 
 <!-- 
 
 <note type="important">
-  Adobe strongly recommends upgrading to version 1.6.2 or higher. This version requires Visitor API 1.6.0, and vice-versa. 
+  Adobe strongly recommends upgrading to version 1.6.2 or higher. This version requires Visitor API 1.6.0, and vice-versa.
 </note>
 
  -->
@@ -273,13 +269,13 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 リリース日：**2016 年 6 月 17 日**
 
-訪問者 API 1.5.7 を同梱しました。
+Visitor API 1.5.7 を同梱しました。
 
 ## バージョン 1.6.1 {#section_5927689A57164EC99BA501B4FDF0AE8F}
 
 リリース日：**2016 年 5 月 20 日**
 
-[!DNL JavaScript] バージョン1.5.6
+[!DNL JavaScript] バージョン 1.5.6
 
 * Visitor API 1.5.6 を同梱しました。
 * Firefox で、完了イベントを発生させないリンククリックのトラッキング処理を修正しました。
@@ -288,22 +284,22 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 リリース日：**2016 年 4 月 22 日**
 
-* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Additionally, [!DNL Activity Map] tracking is activated by default. (AN-112689)
+* [!DNL AppMeasurement] の [!DNL Activity Map] モジュールが、[!DNL AppMeasurement] 標準モジュールに統合され、1 つの [!DNL .js] ファイルだけを参照するだけで済むようになりました。さらに、[!DNL Activity Map] トラッキングはデフォルトで有効化されます。(AN-112689)
 
-* Fixed a truncation issue occurring with the order of query-string variables in [!DNL AppMeasurement], so that *`pageURLRest`* is last. （AN-114647）
+* [!DNL AppMeasurement] 内で、*`pageURLRest`* が最後になるよう、クエリ文字列変数の並び順で発生していた切り捨て問題を修正しました。（AN-114647）
 
 ## バージョン 1.5.4 {#section_A230E5F656734ABD9917388790A37B5D}
 
 リリース日：**2016 年 3 月 18 日**
 
-* 訪問者 API 1.5.4 を同梱しました。
+* Visitor API 1.5.4 を同梱しました。
 * Visitor API 1.5.4 以降のオプトアウトがサポートされます。
 
 ## バージョン 1.5.3 {#section_796927A1BBF74DF6A1A4B9477E0BD20E}
 
 リリース日：**2016 年 1 月 22 日**
 
-* Fixed handling of [!DNL Audience Manager] module when POSTs are used for tracking calls. （AN-115381）
+* トラッキングコールに POST が使用されている場合の [!DNL Audience Manager] モジュールの処理を修正しました。（AN-115381）
 * ページ URL の残り（「-g」）をトラッキングリクエストクエリ文字列の最後に移動しました。（AN-114647）
 
 ## バージョン 1.5.2 {#section_17CFD0BBC8744447BDFCC833883BC93E}
@@ -329,14 +325,14 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 リリース日：**2015 年 7 月 17 日**
 
-* Updated [!DNL Audience Manager] module to use AAM DIL 6.2 - getCustomer IDs from VisitorAPI.js and pass them in /event call to AAM. （AN-104978）
+* [!DNL Audience Manager] モジュールが更新され、AAM DIL 6.2 を使用できるようになりました。VisitorAPI.js から getCustomerIDs を実行し、/event 呼び出しで AAM に渡します。（AN-104978）
 
 ## バージョン 1.5 {#section_8809DBD822E440C6B5B7FF41E5DF3015}
 
 リリース日：**2015 年 6 月 19 日**
 
 * 訪問者 API 1.5（*`getCustomerIDs`* メソッドを使用して顧客 ID および認証済み状態を収集し、データ収集リクエストとともにそれらの ID を送付）のサポート。
-* Fixed the creation of duplicate destinationing iframe in **[!UICONTROL AudienceManagement]** module (DIL 6.1)
+* **[!UICONTROL AudienceManagement]** モジュール（DIL 6.1）での重複する送信先 iFrame の作成が修正されました。
 * リリース 1.4.5 で説明されている既知の問題を修正しました。
 
 ## バージョン 1.4.5 {#section_FA2E94DF78614ACE9944660E14EF3A75}
@@ -353,11 +349,11 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS 拡張機能</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">iOS 拡張機能の実装</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">iOS</span> SDK バージョン 4.5 から、新しい <span class="keyword">iOS</span> 拡張機能によって Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの <span class="keyword">iOS</span> 拡張機能アプリから使用データを収集できるようになりました。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">iOS 拡張機能の実装</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android ウェアラブル拡張機能</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android ウェアラブル拡張機能</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Android</span> SDK バージョン 4.5 から、新しい <span class="keyword">Android</span> 拡張機能によって <span class="keyword">Android</span> ウェアラブルアプリからデータを収集できるようになりました。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android ウェアラブル拡張機能</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,7 +363,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 **既知の問題**
 
-訪問者API/モジュールの統 [!DNL AppMeasurement] 合では、IE6-9 [!DNL Audience Manager] で2つのターゲットパブリッシングiFrameリクエストが行われます。 `//fast.<subdomain>.demdex.net/dest5.html` と `//fast.<subdomain>.demdex.net/dest4.html`。 正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html`.
+訪問者 API／[!DNL AppMeasurement] [!DNL Audience Manager]モジュールの統合では、IE6-9 で `//fast.<subdomain>.demdex.net/dest5.html` と `//fast.<subdomain>.demdex.net/dest4.html` の 2つの宛先パブリッシング iFrame リクエストがおこなわれます。正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html` のみを読み込むことです。
 
 ## バージョン 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
@@ -386,7 +382,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
    <td colname="2"> <p>ライフサイクル指標を含むカスタムコンテキストデータ変数を含めることができるようになりました。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap </span> </p> </td> 
+   <td colname="1"> <p><span class="keyword">PhoneGap</span> でのビーコントラッキングサポート  </p> </td> 
    <td colname="2"> <p>The <code> trackBeacon </code> and <code> clearCurrentBeacon </code> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -399,7 +395,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 リリース日：**2015 年 2 月 20 日**
 
 * 遅延したトラッキングコールのすべての処理を一貫させるようにしました。これにより、クリックされたオブジェクトなど、遅延中のバックアップ変数の問題を修正しました。
-* 最初のトラッキングコールの後、自動リファラートラッキングを行わないように変更されました。これにより、最初のトラッキングコールの前に *`s.referrer`* が手動で設定された場合に、2 回目、3 回目などのトラッキングコール（通常はリンクトラッキング）で、リファラーを二重にカウントしなくなります。
+* 最初のトラッキングコールの後、自動リファラートラッキングを行わないように変更されました。これにより、最初のトラッキングコールの前に  *`s.referrer`* が手動で設定された場合に、2 回目、3 回目などのトラッキングコール（通常はリンクトラッキング）で、リファラーを二重にカウントしなくなります。
 * 配布 zip を更新して Visitor API 1.3.5 を含めました。
 
 ## バージョン 1.4.2 {#section_0A0BE40D32144A338231022F97B0E72B}
@@ -407,7 +403,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 リリース日：**2015 年 1 月 16 日**
 
 * 非表示のプリレンダリングページを追跡していなかった WebKit プリレンダリング処理を修正しました。
-* The distribution zip was updated to include Visitor API 1.3.4 and an updated **[!UICONTROL AudienceManagement]** module that includes DIL version 5.5.
+* 配布 zip を更新して Visitor API 1.3.4 を含めました。同梱の最新の **[!UICONTROL AudienceManagement]** モジュールには DIL バージョン 5.5 が含まれています。
 
 ## バージョン 1.4.1 {#section_616FF936062F44E8B70032D18AAAFC5F}
 
@@ -439,13 +435,11 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 リリース日：**2014 年 8 月 22 日**
 
 * バージョン 15 ではプラグインのレポートは存在しないため、ブラウザープラグインの追跡（`p` クエリパラメーター）は削除されました。
-* Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
+* ダウンロード用 zip に **[!UICONTROL AudienceManagement]** モジュールが追加されました。
 
 [追加された eVar](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)（76 ～ 250）およびイベント（101 ～ 1000）のサポートが追加されました。
 
->[!NOTE]
->
->Hコードは、追加されたeVarおよびイベントをサポートしていません。
+> [!NOTE]H コード は、追加の eVar およびイベントをサポートしていません。
 
 [!DNL JavaScript]
 
@@ -453,14 +447,14 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 リリース日：**2014 年 6 月 20 日**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
+* 訪問者関連の API フィールド（従来の [!DNL Analytics] 訪問者 ID など）の done および waiting フラグの取り扱いでエラーが生じる問題を修正しました。
 * 訪問者 ID サービス 1.3 の新機能がサポートされました。
 
 ## バージョン 1.3.1 {#section_5E65422B9C1E4437A2473B119A14163E}
 
 リリース日：**2014 年 5 月 23 日**
 
-* [!DNL AppMeasurement] の関数で、H [!DNL JavaScript] コードを使用して作成されたインスタンスが正しく検索されなかった問題を修正しまし `s_gi``s_gi`た。 Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
+* [!DNL JavaScript] 版 [!DNL AppMeasurement] の `s_gi` 関数が、H コードの `s_gi` を使用して作成されたインスタンスを正しく検索できない問題を修正しました。この問題は、[!DNL JavaScript] 版 [!DNL AppMeasurement] および H コードが同じページの別のインスタンスで存在し、インスタンスの検索にレポートスイートで `s_gi` が使用されているデュアルタグ実装にのみ影響します。
 
 ## バージョン 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
@@ -484,7 +478,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 リリース日：**2014 年 2 月 7 日**
 
-* Fixed a compatibility issue with the [!DNL Audience Manager] DIL module. [!DNL Audience Manager] ユーザーは、DIL モジュールのバージョン 4.8 にアップデートする必要もあります。
+* [!DNL Audience Manager] の DIL モジュールとの互換性の問題を修正しました。[!DNL Audience Manager] ユーザーは、DIL モジュールのバージョン 4.8 にアップデートする必要もあります。
 
 ## バージョン 1.2.1 {#section_6DA9384BC2C84698952D51FFB3732019}
 
@@ -502,27 +496,27 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 ## バージョン 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
 * 「opera:」で始まるリンクについて（「opera:」は他のブラザーの「about:」および「chrome:」と同じ）、リンクトラッキング呼び出しが Opera ブラウザーから送信されませんでした。
-* Added `alt=""` to all Image objects to comply with Accessible Video and Communications Act.
+* Accessible Video and Communications Act に準拠するために、すべての画像オブジェクトに `alt=""` が追加されました。
 
 ## バージョン 1.1 {#section_4508FF0A14AE46DF96A08B5C6703E123}
 
 リリース日：**2013 年 9 月 19 日**
 
 * ライブラリとページコードを `head` タグに配置できない不具合を修正しました。
-* Added missing module `onLoad` support.
+* `onLoad` のサポートを追加しました。
 
 ## バージョン 1.0.3 {#section_A74A78C30067480AB36C54A06706DF89}
 
 リリース日：**2013 年 8 月 16 日**
 
 * Adobe Tag Management を使用したデプロイメントのサポートを追加しました。
-* Fixed an issue that prevented hierarchy variables from being set on the [!DNL AppMeasurement] object.
+* 階層変数が [!DNL AppMeasurement] オブジェクトで設定されない問題を修正しました。
 
 ## バージョン 1.0.2 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
 
 リリース日：**2013 年 7 月 19 日**
 
-* 自動リンク追跡でハッシュ／フラグメントが無視されるようになりました。Previously the following URL was automatically tracked since the entire `href` ended in `.pdf`:
+* 自動リンク追跡でハッシュ／フラグメントが無視されるようになりました。以前は、次の URL が自動的にダウンロードリンクとして追跡されていました。これは、`href` 全体が `.pdf` で終わるためです。
 
    ```js
    <a href="index.htm#anchor.pdf">Test Link</a>
@@ -534,7 +528,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 リリース日：**2013 年 5 月 24 日**
 
-A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code Manager. このライブラリは [!DNL s_code.js] と同じ機能を提供しますが、モバイルサイトとデスクトップサイトのどちらで使用してもより軽量で高速です。
+新しい [!DNL JavaScript] 版 [!DNL AppMeasurement] ライブラリがコードマネージャーで使用できるようになりました。このライブラリは [!DNL s_code.js] と同じ機能を提供しますが、モバイルサイトとデスクトップサイトのどちらで使用してもより軽量で高速です。
 
 * H.25 コードと比較して 3 倍 ～ 7 倍も高速
 * わずか 21K の非圧縮コード、8K の gzip 圧縮コード（H.25 コードでは、33K もの非圧縮コード、13K の gzip 圧縮コード）
@@ -543,6 +537,4 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 
 詳しくは、 導入ガイドの [JavaScript 版 AppMeasurement](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) を参照してください。[!DNL Analytics]
 
->[!NOTE]
->
->一部のプラグインは、この新しいバージョンではサポートされていません。 詳しくは、[プラグインのサポート](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)を参照してください。
+> [!NOTE]一部のプラグインは今回の新しいバージョンではサポートされていません。詳しくは、[プラグインのサポート](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)を参照してください。
