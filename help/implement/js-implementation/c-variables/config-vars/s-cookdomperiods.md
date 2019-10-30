@@ -5,36 +5,32 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.cookieDomainPeriods
 
-The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. この変数は、一部のプラグインで、プラグインの cookie を設定するための適切なドメインを決定する際にも使用されます。
+変数は、ページ URL のドメイン内のピリオド数を指定することで、[!DNL Analytics] の cookie である `s_cc` と `s_sq` を設定するドメインを決定します。この変数は、一部のプラグインで、プラグインの cookie を設定するための適切なドメインを決定する際にも使用されます。
 
-The default value for  is "2". *`cookieDomainPeriods`* This is the value that is used if *`cookieDomainPeriods`* is omitted. For example, using the domain ,  should be "2". `www.mysite.com`*`cookieDomainPeriods`* For ,  should be "3".`www.mysite.co.jp`*`cookieDomainPeriods`*
+*`cookieDomainPeriods`* のデフォルト値は「2」です。この値は、*`cookieDomainPeriods`* が省略された場合に使用されます。例えば、ドメイン`www.mysite.com`*`cookieDomainPeriods`を使用する場合、* は「2」にする必要があります。`www.mysite.co.jp` の場合、*`cookieDomainPeriods`* は「3」にする必要があります。
 
-If *`cookieDomainPeriods`* is set to "2" but the domain contains three periods, the JavaScript file attempts to set cookies on the domain suffix.
+*`cookieDomainPeriods`* が「2」で、ドメインに 3 つのピリオドが含まれている場合、JavaScript ファイルはドメインのサフィックスに対して cookie を設定しようとします。
 
-For example, if setting  to "2" on the domain , the  and  cookies are created on the domain . *`cookieDomainPeriods`*`www.mysite.co.jp``s_cc``s_sq``co.jp``co.jp` は無効なドメインであるので、ほぼすべてのブラウザーでこれらの cookie が拒否されます。その結果、訪問者クリックマップ用のデータが消失し、[!UICONTROL 訪問者プロファイル]／[!UICONTROL 技術]／[!UICONTROL cookie] レポートに、ほぼ 100 ％の訪問者から cookie が拒否されたと示されます。
+例えば、*`cookieDomainPeriods`* が `www.mysite.co.jp` ドメインで「2」に設定され、`s_cc` および `s_sq` cookies はドメイン `co.jp` 上で作成されます。`co.jp` は無効なドメインであるので、ほぼすべてのブラウザーでこれらの cookie が拒否されます。その結果、訪問者クリックマップ用のデータが消失し、[!UICONTROL 訪問者プロファイル]／[!UICONTROL 技術]／[!UICONTROL cookie] レポートに、ほぼ 100 ％の訪問者から cookie が拒否されたと示されます。
 
-if *`cookieDomainPeriods`* が「3」で、ドメインにピリオドが 2 つだけ含まれている場合、JavaScript ファイルはサイトのサブドメインに対して cookie を設定します。For example, if setting  to "3" on the domain , the  and  cookies are created on the domain . *`cookieDomainPeriods`*`www2.mysite.com``s_cc``s_sq``www2.mysite.com`When a visitor goes to another subdomain of your site (such as `www4.mysite.com`), all cookies set with `www2.mysite.com` cannot be read.
+if *`cookieDomainPeriods`* が「3」で、ドメインにピリオドが 2 つだけ含まれている場合、JavaScript ファイルはサイトのサブドメインに対して cookie を設定します。例えば、*`cookieDomainPeriods`* が `www2.mysite.com` ドメインで「3」に設定され、`s_cc` および `s_sq` cookies はドメイン `www2.mysite.com` 上で作成されます。訪問者がサイトの別のサブドメイン（`www4.mysite.com` など）に移動した場合、`www2.mysite.com` によって設定されたすべての cookie を読み取ることができなくなります。
 
->[!NOTE]
->
->Do not include additional subdomains as part of *`cookieDomainPeriods`*. For example,  would still have  set to "2". `store.toys.mysite.com`*`cookieDomainPeriods`*&#x200B;この変数定義によって、ルートドメイン [!DNL mysite.com] に対して cookie が正しく設定されます。Setting *`cookieDomainPeriods`* to "3" in this example would set cookies on the domain [!DNL toys.mysite.com], which has the same implications as the prior example.
+> [!NOTE] の一部に追加のサブドメインを含めないでくださ *`cookieDomainPeriods`*&#x200B;い。 例えば、`store.toys.mysite.com` の場合、*`cookieDomainPeriods`* は引き続き「2」に設定されます。この変数定義によって、ルートドメイン [!DNL mysite.com] に対して cookie が正しく設定されます。*`cookieDomainPeriods`* を「3」に設定すると、[!DNL toys.mysite.com] ドメインに対して cookie が設定されるようになります。これは、前述の例と同様です。
 
-See also [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html).
+「[s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)」も参照してください。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 該当なし | CDP | 訪問者 ID の保存方法と処理方法を制御するため、複数のレポートに影響します。 | "2" |
 
->[!NOTE]
->
->Some cloud computing services are considered Top-Level Domains, which do not allow cookies to be written. (For example, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, and so on.) これらのサービスに実装すると、お客様の独自のドメインを設定していない場合（導入をテストする場合など）に、すべての Cookie をブロックしているユーザーを削除する Analytics のプライバシー設定による影響が生じることがあります。その場合は、システムによって Cookie が無効化されている、機能していないまたはアクセスできないと判断されたヒットは、すべてオプトアウトされるので、レポートからは除外されます。
+> [!NOTE]一部のクラウドコンピューティングサービスはトップレベルドメインと見なされ、Cookie を書き込むことができません（`*.googlecode.com`、`compute.amazonaws.com`、`*.herokuapp.com` など）。これらのサービスに実装すると、お客様の独自のドメインを設定していない場合（導入をテストする場合など）に、すべての Cookie をブロックしているユーザーを削除する Analytics のプライバシー設定による影響が生じることがあります。その場合は、システムによって Cookie が無効化されている、機能していないまたはアクセスできないと判断されたヒットは、すべてオプトアウトされるので、レポートからは除外されます。
 
 ## 例
 
@@ -65,7 +61,7 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
 
 ## 注意事項、質問、ヒント
 
-* 訪問者クリックマップ用のデータがないことに気付いた場合、または[!UICONTROL トラフィック]／[!UICONTROL 技術]／[!UICONTROL cookie] レポートで大きな割合の訪問者が cookie を拒否していることを示している場合、*`cookieDomainPeriods`* の値が正しいことを確認してください。
+* 訪問者クリックマップ用のデータがないことに気付いた場合、または[!UICONTROL トラフィック]／[!UICONTROL 技術]／[!UICONTROL cookie] レポートで、大部分の訪問者が cookie を拒否していることを示している場合は、*`cookieDomainPeriods`* の値が正しいことを確認します。
 
-* If *`cookieDomainPeriods`* is higher than the number of sections in the domain, cookies will be set with the full domain. この設定により、訪問者がサブドメインを切り替えたときにデータが消失する可能性があります。
-* The  variable was used in deprecated implementations prior to  to set the visitor ID cookie. *`cookieDomainPeriods`**`trackingServer`* Though only present in outdated code, failure to correctly define  in this circumstance puts your implementation at risk of data loss.*`cookieDomainPeriods`*
+* *`cookieDomainPeriods`* がドメインのセクション数より多い場合、cookie はフルドメインに設定されます。この設定により、訪問者がサブドメインを切り替えたときにデータが消失する可能性があります。
+* Folio Builder *`cookieDomainPeriods`* 変数は、*`trackingServer`* を訪問者 ID cookie に設定する前の、非推奨となった実装に使用されていました。この変数は古いコードにしか存在していませんが、この状況で.*`cookieDomainPeriods`* が正しく定義されていない場合、実装でデータを失うリスクが発生します。
