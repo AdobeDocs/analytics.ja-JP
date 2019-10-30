@@ -7,8 +7,8 @@ solution: Analytics
 title: 一般
 topic: 開発者と実装
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,10 +35,10 @@ Adobe Analytics の実装のための DTM の「一般」設定のフィール�
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> Cookie が存在し、<span class="term">true</span> に設定されている場合、ツールは通常どおり読み込まれます。 </li> 
     </ul> <p>訪問者がオプトアウトしている場合、<span class="filepath">sat_track</span>（またはカスタム名）cookie を <span class="term">false</span> に設定する必要があります。次のカスタムコードを実行することでこれを達成できます： </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
      </code> </p> <p> また、訪問者が後でオプトインできるようにするには、次のよに、cookie を <span class="term">true</span> に設定するメカニズムも必要です。 </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Adobe Analytics の実装のための DTM の「一般」設定のフィール�
   </tr> 
   <tr> 
    <td colname="col1"> <p>SSL トラッキングサーバー </p> </td> 
-   <td colname="col2"> <p>イメージリクエストおよび Cookie が記述されたドメイン。セキュリティ保護されているページで使用されます。定義されていない場合、SSL データは  <span class="term"> trackingServer </span> に送られます。 </p> </td> 
+   <td colname="col2"> <p>イメージリクエストおよび Cookie が記述されたドメイン。セキュリティ保護されているページで使用されます。if定義されていない場合、SSL データは  <span class="term"> trackingServer </span> に送られます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>データセンター </p> </td> 
