@@ -5,7 +5,7 @@ seo-title: 統合のアクティブ化
 title: 統合のアクティブ化
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
