@@ -5,9 +5,9 @@ seo-title: オペレーティングシステムの種類
 solution: Analytics
 title: オペレーティングシステムの種類
 topic: レポート
-uuid: 2f442d6b-6bcc-4667- a853-3715a5379ec5
+uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
