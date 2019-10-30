@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指標がありますが、様々な理由で 100％同じではありません。
 seo-description: Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指標がありますが、様々な理由で 100％同じではありません。
-seo-title: 訪問者数の相違点
-title: 訪問者数の相違点
-uuid: c3bbb887- bd02-4c1c-9a2b-64811c0ef56a
+seo-title: 訪問者数の相違
+title: 訪問者数の相違
+uuid: c3bb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 訪問者数の相違点
+# 訪問者数の相違
 
 Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指標がありますが、様々な理由で 100％同じではありません。
 
@@ -67,9 +67,9 @@ Audience Analytics レポート内で使用される AAM の「Real-time Segment
   <tr> 
    <td colname="col1"> <p>150 セグメントの制限 </p> </td> 
    <td colname="col2"> <p>なし </p> </td> 
-   <td colname="col3"> <p>あり - Analytics のカウントは、150 セグメントの統合制限によって最大 5％影響を受けることがあります。切り捨てが発生した場合、オーディエンス名ディメンションに「オーディエンスの制限に達しました」が表示されます。 </p> </td> 
+   <td colname="col3"> <p>あり - Analytics のカウントは、150 セグメントの統合制限によって最大 5％影響を受けることがあります。切り捨てが発生すると、「オーディエンスの上限に達しました」がオーディエンス名ディメンションに表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Analytics と Audience Manager のデータとセグメントの相違について詳しくは、[Analytics と Audience Manager のセグメントについて](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B)を参照してください。
+See [Understanding Segments in Analytics and Audience Manager](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
