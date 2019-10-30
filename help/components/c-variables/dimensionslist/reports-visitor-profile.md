@@ -7,7 +7,7 @@ title: 訪問者プロファイル
 topic: レポート
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> 言語 </td> 
-   <td colname="col2"> <p> 訪問者の設定言語を表示し、ブラウザーのデフォルト言語を取得して、サイトで訪問者が最も頻繁に使用する言語を表示します。 </p> </td> 
+   <td colname="col2"> <p> 訪問者の好みの言語を表示し、デフォルトのブラウザー言語を取り込み、サイトで訪問者が最も頻繁に使用する言語を表示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ドメイン </td> 
