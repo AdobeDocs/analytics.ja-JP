@@ -2,7 +2,7 @@
 title: クロスデバイス分析
 description: デバイス間の分析では、デバイスデータをつなぎ合わせることで、データをデバイス中心から個人中心に変更します。
 translation-type: tm+mt
-source-git-commit: ca79141a353dbd09176dbbe295611656262ba107
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
