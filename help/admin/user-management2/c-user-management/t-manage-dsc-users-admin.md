@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: ユーザーとグループ
 title: Ad Hoc Analysis ユーザーの管理
 topic: 管理ツール
-uuid: 9018e90c- e808-4ef3- a0d6-529d931632a5
+uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 
 Ad Hoc Analysisユーザーを追加、編集または削除する手順を説明します。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Manage Ad Hoc Analysis Users]**.
 
    Ad Hoc Analysis ライセンスを購入している場合、[!UICONTROL Ad Hoc Analysis ライセンスユーザー]グループが[!UICONTROL グループ名]列に表示されます。ユーザーログインに使用できるライセンスの数も表示されます。
