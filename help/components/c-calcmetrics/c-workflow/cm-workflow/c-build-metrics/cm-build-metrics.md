@@ -5,7 +5,7 @@ seo-title: 指標の作成
 title: 指標の作成
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -112,7 +112,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col2"> <p>ディメンションリスト </p> </td> 
-   <td colname="col3"> <p>（セグメントビルダーで）シンプルなセグメント（例：「Page = Homepage」）を作成するときに、計算指標ビルダーから離れずに、直接ディメンション（例：Page）をドラッグしてアイテム（例：Homepage）を選択できます。 </p> <p>これにより、セグメントを利用する計算指標の作成が容易になります。 </p> </td> 
+   <td colname="col3"> <p>（セグメントビルダーで）単純なセグメントを作成するために計算指標ビルダーを終了する代わりに、「ページ=ホームページ」を参照してください。 </p> <p>これにより、セグメントを利用する計算指標の作成が容易になります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>指標リスト </p> </td> 
