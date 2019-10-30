@@ -6,7 +6,7 @@ solution: Analytics
 title: 統合のデプロイ
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -53,18 +53,16 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
      window.k_sc_param = { "version":1.1 }
    ```
 
-1. Deploy the code using one of the following methods:
-| You use Adobe TagManager or Dynamic Tag Management.**** | Use the tag management interface to add the code. |
-|---|---|
-| **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
+1. 次のいずれかの方法を使用してコードをデプロイします。
+| **Adobe tagManagerまたはDynamic Tag Managementを使用します。** | tag managementインターフェイスを使用してコードを追加します。 ||—|—||そ **の他の場合** | Adobe Analytics導入コードの更新を担当する組織リソースにコードを配信します。  |
 
-## Verify the Integration{#verify-the-integration}
+## 統合の検証{#verify-the-integration}
 
 いくつかのチェックを完了して、統合がデータを正常に転送していることを検証します。
 
 ### 統合アクティビティログ {#section-0472df9180db4f218db5f6040cab07af}
 
-View your Kampyle integration setup within the Adobe Experience Cloud by navigating to Support &gt; Integration Activity Log. ********「データの **[!UICONTROL 場所]** 」タブに、分類データが正常にインポートされたことを示すエントリが表示されます。
+Adobe Experience cloud内でKampyle統合の設定を表示するには、サポート/統合アクティビティ **[!UICONTROL ログ]** に **[!UICONTROL 移動します]**。 「データの **[!UICONTROL 場所]** 」タブに、分類データが正常にインポートされたことを示すエントリが表示されます。
 
 > [!NOTE] ログエントリは、展開が正常に完了してから24時間以内に表示されます。
 
