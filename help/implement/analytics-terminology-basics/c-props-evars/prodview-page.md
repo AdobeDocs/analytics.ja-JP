@@ -46,7 +46,7 @@ s.products=";SKU"
 
 ```js
 s.events="scCheckout" 
-s.products=”;SKU" 
+s.products=";SKU" 
 ```
 
 ## 確認ページ {#section_E006943CD5FD42358086581CA44B9660}
@@ -60,4 +60,4 @@ s.products=";SKU"
 >
 >製品文字列で SKU を使用すると、*`products`* レポートが読みにくくなる場合がありますが、後で製品を分類する際の柔軟性が最大限に高まります。完了、製造元、カテゴリおよびサブカテゴリを示すカテゴリを SKU から作成できます。
 
-*`products`* 変数を&#x200B;*`purchase`* イベントと組み合わせて設定した場合、上記のように、購入数量と合計購入価格が products の値に含まれ�
+*`products`* 変数を&#x200B;*`purchase`* イベントと組み合わせて設定した場合、上記のように、購入数量と合計購入価格が products の値に含まれます。
