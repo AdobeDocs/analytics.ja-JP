@@ -1,16 +1,16 @@
 ---
 description: 個々の指標でセグメント化をおこなうと、同じレポート内の指標を比較できます。（派生指標のみ）
 seo-description: 個々の指標でセグメント化をおこなうと、同じレポート内の指標を比較できます。（派生指標のみ）
-seo-title: セグメント化された指標
-title: セグメント化された指標
+seo-title: セグメント化指標
+title: セグメント化指標
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# セグメント化された指標
+# セグメント化指標
 
 個々の指標でセグメント化をおこなうと、同じレポート内の指標を比較できます。（派生指標のみ）
 
@@ -30,7 +30,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >[また、セグメントビルダー](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)でもこれを行うことができますが、計算指標ビルダーでディメンションを利用できるようにしてワークフローを簡素化しました。
+   >You can also do this in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
 
    >[!NOTE]
    >
@@ -46,7 +46,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/workspace-pages.png)
 
-1. [!UICONTROL また、Reports&amp; Analytics]で [!UICONTROL ページ] レポートを開き、 **[!UICONTROL «指標を表示»をクリック]**&#x200B;して、新しい«米国の訪問者»セグメント化指標と«海外の訪問者»セグメント化指標を適用して、コンテンツの閲覧行動の比較方法を確認します。
+1. Or, in [!UICONTROL Reports &amp; Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
 
    ![](assets/pages-report.png)
 
@@ -67,7 +67,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 米国と海外の閲覧行動の最も大きな違いを簡単に確認する場合は、それぞれから割合を引くもう 1 つの指標を作成できます。そのためには、2 つの指標セットを囲む丸括弧として、コンテナ機能を使用できます。
 
-1. [!UICONTROL 定義] キャンバスで **[!UICONTROL 、追加]** / **[!UICONTROL コンテナ]**&#x200B;をクリックします。
+1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** &gt; **[!UICONTROL Container]**:
 
    ![](assets/cm_add_container.png)
 
