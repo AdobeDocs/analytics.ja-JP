@@ -7,8 +7,8 @@ solution: Analytics
 title: s.abort フラグ
 topic: 開発者と実装
 uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
