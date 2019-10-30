@@ -1,24 +1,24 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: データソースの処理時間
+seo-title: データソース処理時間
 solution: Analytics
-title: データソースの処理時間
-uuid: d7cd679a- f9e3-4740-87cf-6171f3fe5cd9
+title: データソース処理時間
+uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 84c86c5b42b6dd85ee7780f9ba1fea950e71d663
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# データソースの処理時間
+# データソース処理時間
 
->[!Ntoo]
->データ処理期間は、概算と見なされ、サービスレベル契約（SLA）は構成されません。
+>[!N注]
+>データ処理の期間は、おおよそのものと見なされ、SLA(Service Level Agreement)を構成しません。
 
 データ処理時間は、次のガイドラインに示すように、場合によって異なります。
 
-* 今日のデータ:データのアップロードから約2時間後に処理が完了します。
+* 現在の日のデータ：処理は、データのアップロード後約2時間で完了します。
 * 前日のデータ：データのアップロード後、約 3 時間後に処理が完了します。
 
 アップロードで 1 日追加されるごとに、処理時間に約 1 時間追加されます（最大 17 時間）。
