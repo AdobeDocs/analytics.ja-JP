@@ -8,7 +8,7 @@ title: DFA 統合
 topic: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ DFA Data Connectors 統合を順を追って説明します。
 
 設定ページには、統合の概要とその他の情報に関する便利なリンクがあります。この統合に関連して、Adobe と DoubleClick の両方で料金が発生します。両方の組織の営業担当者に問い合わせて、料金体系を把握するようにしてください。
 
-1. にログインします [!DNL Adobe Analytics]。
+1. Log in to the [!DNL Adobe Analytics].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 
    ![](assets/data_connectors.png)
@@ -46,7 +46,7 @@ DFA Data Connectors 統合を順を追って説明します。
   <tr> 
    <td colname="col1"> 1 </td> 
    <td colname="col2"> 統合名 </td> 
-   <td colname="col3"> Genesis で、レポートスイートの有効な統合リストに表示される統合名。 </td> 
+   <td colname="col3"> Genesisがレポートスイートのアクティブな統合リストに表示する統合名。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 1 </td> 
@@ -81,7 +81,7 @@ DFA Data Connectors 統合を順を追って説明します。
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> クリック数 </td> 
-   <td colname="col3"> DFA クリック数指標データを受け取るカスタムイベントを選択します。クリック数は、訪問者が DFA のリダイレクトによって測定された広告をクリックした回数を示します。クリック数指標は、Analytics クリックスルー指標と相関関係があります。 <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected.  </a>. </p> </td> 
+   <td colname="col3"> DFA クリック数指標データを受け取るカスタムイベントを選択します。クリック数は、訪問者がDFAのリダイレクトによって測定された広告をクリックした回数を示します。 クリック数指標は、Analytics クリックスルー指標と相関関係があります。 <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -96,7 +96,7 @@ DFA Data Connectors 統合を順を追って説明します。
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> ビュースルー数 </td> 
-   <td colname="col3"> DFA ビュースルー数指標データを受け取るカスタムイベント。ビュースルーイベントをビュースルー変数と共に使用して、直接クリックスルーに影響しないが、その後の時間にサイトへのトラフィック上昇に一役買った可能性のあるキャンペーンはどれかを確認します。 <p>Data Connectors は、選択したカスタムイベントの名前を「ビュースルー数」に変更します。 </p> </td> 
+   <td colname="col3"> DFA ビュースルー数指標データを受け取るカスタムイベント。ビュースルーイベントをビュースルー変数と共に使用して、ダイレクトクリックスルーに影響を与えなかったが、その後の時間にサイトへのトラフィックの促進に一役買った可能性のあるキャンペーンを確認します。 <p>Data Connectorsは、選択したカスタムイベントの名前を「ビュースルー」に変更します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 6 </td> 
@@ -125,13 +125,13 @@ Genesis で DFA 統合用に Analytics レポートスイートを設定した�
 
 DFA 用の Data Connectors 統合では、ページのドメインに cookie を設定する必要があります。
 
-ドメインが、一部の Web ブラウザーに対する cookie 対応数の最大値に達している場合が稀にあります。訪問者の Web サイトでの閲覧に影響を与えないよう、ネットワーク運用チーム、開発チーム、またはエンジニアリンググループに相談して、DFA 統合に使用されるページのドメインに別の cookie を追加してもユーザーエクスペリエンスに影響がでないかを検証します。また、cookie の名前を選択する必要があります。
+ドメインが、一部の Web ブラウザーに対する cookie 対応数の最大値に達している場合が稀にあります。Webサイトでの訪問者の閲覧エクスペリエンスに影響を与えないようにするには、ネットワークオペレーション、開発チーム、またはエンジニアリンググループに問い合わせて、DFA統合に使用するページのドメインに別のcookieを追加しても、ユーザーエクスペリエンスに影響を与えません。 また、cookie の名前を選択する必要があります。
 
 ### DFA クエリ文字列パラメーターの更新{#update-your-dfa-query-string-parameter}
 
 DFA 統合の前に既に Adobe Analytics で広告キャンペーンをトラッキングしている場合、すべてのキャンペーン（電子メール、検索またはバナー）で同じクエリ文字列パラメーターを使用して、ランディングページ上の参照するキャンペーン ID を識別できます。
 
-DFA 広告キャンペーン用に DFA データからビュースルーおよびクリックスルーデータをいつリクエストするかを理解するには、Data Connectors は、訪問者がいつ DFA キャンペーンバナー広告をクリックしたかを識別する必要があります。これを可能にするために、異なるクエリ文字列パラメーターを DFA 広告キャンペーンのランディングページ URL に追加して、Data Connectors が Web サイトで実施する DFA 広告キャンペーンページと他の広告キャンペーンページを区別できるようにする必要があります。DFAに `dfa_overrideParam` 使用されるJavaScriptプラグインのを参照してください。
+DFA 広告キャンペーン用に DFA データからビュースルーおよびクリックスルーデータをいつリクエストするかを理解するには、Data Connectors は、訪問者がいつ DFA キャンペーンバナー広告をクリックしたかを識別する必要があります。これを可能にするには、DFA広告キャンペーンのランディングページURLに差別化されたクエリ文字列パラメーターを追加して、Data ConnectorsがDFA広告キャンペーンページとウェブサイト上にある他の広告キャンペーンページを区別できるようにする必要があります。 DFAに `dfa_overrideParam` 使用されるJavaScriptプラグインのを参照してください。
 
 >[!CAUTION]
 >
@@ -141,9 +141,7 @@ DFA 広告キャンペーン用に DFA データからビュースルーおよ�
 
 DFA 用の Genesis 統合は、DFA Floodlight 設定 ID（dfa_SPOTID）を利用します。これにより、DFA と Adobe データ収集システム間のレポートの一貫性が向上します。
 
->[!NOTE]
->
->Spotlightという用語は、Google DFAの最近のリリースでFloodlightに変更されました。 JavaScript パラメーター `dfa_SPOTID` は、Spotlight の用語に基づいて命名されましたが、両方のバージョンで使用されます。
+> [!NOTE] Spotlightという用語は、Google DFAの最近のリリースでFloodlightに変更されました。 JavaScript パラメーター `dfa_SPOTID` は、Spotlight の用語に基づいて命名されましたが、両方のバージョンで使用されます。
 
 Web サイトで DFA 統合を有効にするには、次を追加して JavaScript データコレクションコードを更新する必要があります。
 
@@ -204,7 +202,7 @@ DFA Integrate 設定ブロックは、DFA 統合で必要な変数を設定し�
 
 **requestURL**：広告情報をクエリするためのリモート DFA ホスト。アドビによる指示のない限り、この値を変更しないでください。
 
-**maxDelay**：JavaScript データコレクションコードが DFA Floodlight サーバーからの応答を待機する時間を指定します（ミリ秒）。サイトのトラフィックに基づく最適な値を見つけるために、この値をテストしてみることをお勧めします。例えば、この値を増やすと、一般に、より多くの DFA データを収集しますが、遅延の間に訪問者がサイトを離れると、ベースの訪問者データを失うリスクが増加します。この値を減少させると、ヒットデータを失うリスクは低くなりますが、Adobe ヒットデータと一緒に送信される DFA データの量は少なくなります。
+**maxDelay**：JavaScript データコレクションコードが DFA Floodlight サーバーからの応答を待機する時間を指定します（ミリ秒）。サイトのトラフィックに基づいて最適な値を見つけるには、この値を試すことをお勧めします。 例えば、この値を増やすと、一般に、より多くの DFA データを収集しますが、遅延の間に訪問者がサイトを離れると、ベースの訪問者データを失うリスクが増加します。この値を減少させると、ヒットデータを失うリスクは低くなりますが、Adobe ヒットデータと一緒に送信される DFA データの量は少なくなります。
 
 **visitCookie**：DFA 呼び出しを訪問あたり 1 回に制限するために使用される cookie の名前。
 
@@ -265,7 +263,7 @@ Timeout Percentage = [Step 3] / [Step 2] * 100
 
 タイムアウトの割合では、実際はサイトへのすべての訪問者が考慮されます。一部の訪問者は、DFA にまったく結び付けられず、タイムアウトは誤った結果になる可能性があります。To improve this computation, another analysis could consider only unique visitors to pages with the `clickThroughParam` set (for example, `?CID=1`). これは、より正確に表示します。
 
-タイムアウトの割合が非常に低い場合、*`s.maxDelay`* と呼ばれる iFrame を読み込みます。If it is very high, increase *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. When increasing *`s.maxDelay`*, you will want to run a [!DNL Page Views Report] to make sure page views aren’t falling out due to lost data. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
+タイムアウトの割合が非常に低い場合、*`s.maxDelay`* と呼ばれる iFrame を読み込みます。If it is very high, increase *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. 値を増や *`s.maxDelay`*&#x200B;す場合は、データの損失が原因でペ [!DNL Page Views Report] ージビューがフォールアウトしないように、を実行します。 Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
 
 The optimal setting for *`s.maxDelay`* is the point at which the timeout percentage is minimized while Page Views do not drop off.
 
