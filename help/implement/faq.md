@@ -8,7 +8,7 @@ title: Analytics の実装に関する FAQ
 topic: 開発者と実装
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
    <td colname="col3"> <p>ユーザーおよびグループの管理方法については、Adobe Experience Cloud ヘルプの<a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external">ユーザーと製品の管理</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>eVar 有効期限 - レポートで eVars の属性が「なし」になるのはなぜですか。 </p> </td> 
+   <td colname="col2"> <p>eVar有効期限 — レポート内でeVarが「なし」に関連付けられるのはなぜですか。 </p> </td> 
    <td colname="col3"> <p> 「<span class="uicontrol">有効期限</span>」は、eVar 値の有効期限が切れる（成功イベントのクレジットを受け取らなくなる）までの期間またはイベントを指定します。eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。有効期限にイベントを指定した場合、そのイベントが発生した場合にのみ eVar の有効期限が切れます。イベントが発生しない場合、eVar の有効期限は切れません。<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [さらに詳しく...] </a> </p> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 | 質問 | 回答 |
 |---|---|
 | Analytics のユーザーおよびグループはどのようにして管理しますか。 | ユーザーとグループの管理について詳しくは、Adobe Experience cloudコアサ [ービスヘルプのExperience cloudユーザーと製品の管理](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) （英語のみ）を参照してください。 |
-| eVar 有効期限 - レポートで eVars の属性が「なし」になるのはなぜですか。 | `Expire After` は、eVar 値の有効期限が切れる（成功イベントのクレジットを受け取らなくなる）までの期間またはイベントを指定します。eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。有効期限にイベントを指定した場合、そのイベントが発生した場合にのみ eVar の有効期限が切れます。イベントが発生しない場合、eVar の有効期限は切れません。[[さらに詳しく...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| eVar有効期限 — レポート内でeVarが「なし」に関連付けられるのはなぜですか。 | `Expire After` は、eVar 値の有効期限が切れる（成功イベントのクレジットを受け取らなくなる）までの期間またはイベントを指定します。eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。有効期限にイベントを指定した場合、そのイベントが発生した場合にのみ eVar の有効期限が切れます。イベントが発生しない場合、eVar の有効期限は切れません。[[さらに詳しく...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | カスタムイベントの表示 - レポートメニューにカスタムイベントが表示されないのはなぜですか。 | 表示列で、メニュー、指標セレクター、計算指標ビルダーおよびセグメントビルダー内の標準（組み込み）指標、カスタムイベントおよび組み込みイベントを非表示にできます。この設定は、ユーザーインターフェイス内での表示にのみ影響し、指標やイベントのデータ収集には影響しません。[[さらに詳しく...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/metric-visibility.html) |
 | タイムスタンプ - タイムスタンプ設定を変更する前に考慮する必要があることは何ですか。 | タイムスタンプオプション機能を使用すると、データを損失することなく、タイムスタンプのないデータをタイムスタンプのあるデータと組み合わせることができます。モバイルデバイスで生成されたタイムスタンプのあるオフラインデータは、Web ページからのライブのタイムスタンプのないデータと組み合わせたり、クライアント側のタイムスタンプ呼び出しを使用した任意のプラットフォームからのデータと統合したりできます。[[さらに詳しく...](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/timestamps-overview.html) |
 | 訪問者 ID - 訪問者 ID 猶予期間はどのように機能し、どうしたら有効にできますか。 | 同じレポートスイートにデータを送信する複数の JavaScript ファイルがある場合、またはサイト上で Flash ビデオによる測定などの他のテクノロジーを使用している場合は、猶予期間を設定することをお勧めします。[さらに詳しく...](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/grace-period.html) |
@@ -156,7 +156,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 | パフォーマンス - ブラウザーから Adobe サーバーへのデータの送信によってパフォーマンスが低下することはありますか。 | Adobe JavaScript ファイルは、HTML ページ内にイメージオブジェクトを作成し、ブラウザーは、Adobe サーバーからイメージオブジェクトをリクエストします。Adobe サーバーが低速になったり応答しなくなった場合、そのリクエストを処理するスレッドは、イメージが返されるかタイムアウトが発生するまで、遅延します。ブラウザーはイメージを複数のスレッドで処理するので、アドビの停止状態はページ読み込み時間にわずかな影響しか与えず、1 つのスレッドが停止していても、他のスレッドは機能し続けます。 |
 | パフォーマンス - Adobe からの JavaScript イベントがシステムの動作や機能に影響することはありますか。 | いいえ。前述のパフォーマンスに関する回答を参照してください。 |
 | 収集されたデータを規定の条件に基づいて変更するにはどうすればよいですか。 | 処理ルールを使用すると、データ収集をシンプル化し、レポートに送信されるコンテンツを管理できます。([さらに詳しく...](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
-| s_code ファイルの最新バージョン | Web プラットフォームおよびモバイルプラットフォームの AppMeasurement ライブラリのリリース履歴について説明します。各ライブラリの最新バージョンは、Analytics／管理ツール／コードマネージャーからダウンロードできます。[さらに詳しく...](/help/implement/appmeasurement-release-notes/c-release-notes-mjs.md) |
+| s_code ファイルの最新バージョン | Web プラットフォームおよびモバイルプラットフォームの AppMeasurement ライブラリのリリース履歴について説明します。各ライブラリの最新バージョンは、Analytics／管理者／コードマネージャーからダウンロードできます。[さらに詳しく...](/help/implement/appmeasurement-release-notes/c-release-notes-mjs.md) |
 | s_code ファイルのデバッグ方法を教えてください | Experience Cloud Debugger はアドビが提供する無料のツールで、特定のページに関してユーザーのサイトから収集されたデータを表示することができます。[さらに詳しく...](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) |
 | 複数のリンクタイプを追跡する方法を教えてください。 | ファイルのダウンロード数と離脱リンクは、JavaScript 版 AppMeasurement ファイルで設定されたパラメーターに基づいて、自動的に追跡することができます。[さらに詳しく...](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/function-tl.html) |
 | ビデオを追跡する方法を教えてください。 | JavaScript を使用して、さまざまなプレーヤーを追跡できます。JavaScript を使用して追跡をおこなうには、プレーヤーが含まれている Web ページにコードを追加し、イベントハンドラーを使用してプレーヤーを追跡します。[さらに詳しく...](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) |
