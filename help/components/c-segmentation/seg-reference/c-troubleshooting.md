@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: セグメント化のトラブルシューティング
 title: セグメント化のトラブルシューティング
-uuid: 8476d617-4b44-4ff2-9b3a-02685f666abc
+uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
 translation-type: tm+mt
-source-git-commit: 50069fe860d58f04df7ffe63714afeef9d3d7a28
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
