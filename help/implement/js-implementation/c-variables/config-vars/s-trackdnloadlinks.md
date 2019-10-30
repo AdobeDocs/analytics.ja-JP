@@ -5,7 +5,7 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 サイト上のダウンロード可能ファイルへのリンクを追跡する場合は、 を「true」に設定します。
 
-If  is 'true,'  is used to determine which links are downloadable files.*`trackDownloadLinks`**`linkDownloadFileTypes`*
+*`trackDownloadLinks`* が「true」の場合は、どのリンクがダウンロード可能ファイルかを判断するために *`linkDownloadFileTypes`* を使用します。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 該当なし | 該当なし | 該当なし | True |
 
-Folio Builder *`trackDownloadLinks`*&#x200B;サイトにダウンロード可能ファイルへのリンクがない場合、またはダウンロード可能ファイルのクリック数を追跡する必要がない場合は、trackDownloadLinks 変数を「false」に設定してください。If *`trackDownloadLinks`* is 'true,' when a file download link is clicked, data is immediately sent to [!DNL Analytics]. ダウンロードリンクで送信されるデータには、ダウンロードリンクの URL と、そのリンクの訪問者クリックマップ用のデータが含まれます。if *`trackDownloadLinks`* is 'false,' then visitor click map data for links to downloadable files on your site is likely to be under reported.
+Folio Builder *`trackDownloadLinks`*&#x200B;サイトにダウンロード可能ファイルへのリンクがない場合、またはダウンロード可能ファイルのクリック数を追跡する必要がない場合は、trackDownloadLinks 変数を「false」に設定してください。*`trackDownloadLinks`* が「true」の場合は、ファイルのダウンロードリンクがクリックされると、データが直ちに [!DNL Analytics] に送信されます。ダウンロードリンクで送信されるデータには、ダウンロードリンクの URL と、そのリンクの訪問者クリックマップ用のデータが含まれます。if *`trackDownloadLinks`* が「false」の場合は、サイト上のダウンロード可能ファイルへのリンクの訪問者クリックマップ用のデータがレポートで少なくカウントされることがあります。
 
 ## 構文と可能な値
 
@@ -44,6 +44,6 @@ s.trackDownloadLinks=false
 
 ## 注意事項、質問、ヒント
 
-* When *`trackDownloadLinks`* is 'false,' links that people use to download files on your site are likely to be under reported in visitor click map.
+* *`trackDownloadLinks`* が「false」の場合は、ユーザーがサイト上でファイルのダウンロードに使用するリンクの数が、訪問者クリックマップでのレポートで少なくカウントされることがあります。
 
-* When *`trackDownloadLinks`* is 'true,' data is sent each time a visitor clicks a file download link.
+* *`trackDownloadLinks`* が「true」の場合は、訪問者がファイルのダウンロードリンクをクリックするたびにデータが送信されます。
