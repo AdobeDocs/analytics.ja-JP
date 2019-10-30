@@ -5,10 +5,10 @@ seo-title: マーケティングチャネルの処理ルールの作成
 solution: Analytics
 subtopic: マーケティングチャネル
 title: マーケティングチャネルの処理ルールの作成
-topic: Reports and Analytics
+topic: Reports & Analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 この手順では、例として電子メールルールを使用します。この例では、マーケティングチャネルマネージャーページのチャネルのリストに電子メールチャネルを追加済みであることを前提としています。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
-1. レポートスイートを選択します。
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. レポートスイートの選択.
 
    レポートスイートでチャネルが定義されていない場合、[!UICONTROL マーケティングチャネル ：自動セットアップ]ページが表示されます。
 
