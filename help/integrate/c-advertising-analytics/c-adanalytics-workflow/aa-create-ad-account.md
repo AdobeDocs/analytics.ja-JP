@@ -1,9 +1,9 @@
 ---
 seo-title: 広告アカウントの設定
 title: 広告アカウントの設定
-uuid: 4e37ca3- e4a5-43ad-97c0-12db62ad5283
+uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 
 1. In Adobe Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
 1. （初回の使用時のみ）エンドユーザー使用許諾契約書に同意します。
-1. **[!UICONTROL "+追加]**」をクリックします。
+1. Click **[!UICONTROL + Add]**.
 1. [!UICONTROL 新規検索エンジンアカウント]ダイアログが表示されます。
 
    ![](assets/aa_new_se_account.png)
@@ -35,7 +35,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>タイプ </p> </td> 
-      <td colname="col2"> <p>次の2つのオプションがあります。Google AdWordsおよびMicrosoft Bing広告 </p> <p>注意：Yahoo Gemini は、2019 年 3 月 31 日に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。  </p> </td> 
+      <td colname="col2"> <p>次の2つのオプションがあります。Google adWordsおよびMicrosoft Bing広告を参照してください。 </p> <p>注意：Yahoo Gemini は、2019 年 3 月 31 日に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>アカウント名 </p> </td> 
@@ -47,9 +47,9 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords：Google アカウント ID を入力します。 </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：Bing アカウント ID と Bing カスタマー ID を入力します。 </li> 
-        </ul> <p>これらの ID について詳しくは、<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local">アカウント ID を見つける方法</a>を参照してください。 </p> <p>ログインすると、OAuthトークンフィールドが表示されます 
+        </ul> <p>これらの ID について詳しくは、<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local">アカウント ID を見つける方法</a>を参照してください。 </p> <p>ログインが完了すると、OAuth Tokenフィールドが表示されます 
         <systemoutput>
-          Retrieved
+          取得済み
         </systemoutput>を参照してください。 </p> </td> 
       </tr> 
     </tbody> 
@@ -69,12 +69,12 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
       <td colname="col1"> <p>タイプ </p> </td> 
       <td colname="col2"> 
         <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol">自動</span>：Advertising Cloud Engine によって、トラッキングパラメーターを検索エンジンのトラッキングテンプレート／リンク先 URL に追加する方法が決定されます。これはもっともシンプルな方法ですが、統合されたデータセットの品質が最良ではなくなる可能性があります。 <p>重要：「自動モード」で検索エンジンのアカウントを設定するには、以下の作業を行う責任があります。 
+        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> 自動</span>:Advertising cloudエンジンで、検索エンジンのトラッキングテンプレート/リンク先URLにトラッキングパラメーターを追加する方法を決定できます。 これはもっともシンプルな方法ですが、統合されたデータセットの品質が最良ではなくなる可能性があります。 <p>重要：「自動モード」で検索エンジンのアカウントを設定するには、次の操作を行う必要があります。 
           <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">「s_kwcid」のパラメーターおよび値がアカウントのトラッキングテンプレート、または追加されるアカウント内のランディングページ URL に追加されます。これは、URL の最後に挿入されます。結果として、ウェブサーバーに特定の key=value ペアが URL の最後に必要な場合や、URLの で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業を行う必要がある場合があります。 </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">加えて、キーワードを「s_kwcid」値の一部としてランディング URL に追加できるため、特殊文字や記号が含まれている場合、ウェブサーバーでそれらの文字がサポートされていることを確認してください（一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます）。 </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol">手動</span>：トラッキングパラメーターを検索エンジンのトラッキングテンプレート／リンク先 URL に追加する方法を管理できます。<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local">各検索エンジンについては手動トラッキングの例を参照してください</a>。 </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 手動</span>:検索エンジンのトラッキングテンプレート/リンク先URLにトラッキングパラメータを追加する方法を管理できます。 <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local">各検索エンジンについては手動トラッキングの例を参照してください</a>。 </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -108,7 +108,5 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 
    Advertising Accounts [管理 UI](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB) に移動し、新規に作成したアカウントが表示されます。
 
->[!NOTE]
->
->検索エンジンデータの入力が開始されるまで、少なくとも24時間待機する予定です。
+> [!NOTE] 検索エンジンのデータがAnalyticsレポートに入力し始めるまで、少なくとも24時間待つ必要があります。
 
