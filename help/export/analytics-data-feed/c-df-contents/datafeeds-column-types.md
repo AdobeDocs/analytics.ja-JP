@@ -1,19 +1,19 @@
 ---
 description: pre 列にはデータ収集に送信されたデータがそのまま含まれます。post 列には処理後の値が含まれます。
-keywords: データフィード;job;pre列;post列;大文字と小文字の区別
+keywords: データフィード；ジョブ；pre列；post列；大文字と小文字の区別
 seo-description: pre 列にはデータ収集に送信されたデータがそのまま含まれます。post 列には処理後の値が含まれます。
-seo-title: pre列とpost列
+seo-title: Pre 列と Post 列
 solution: Analytics
-title: pre列とpost列
-topic: Reports and Analytics
-uuid: a415327b-6151-4d08- b8b9-5aa2348eb0c
+title: Pre 列と Post 列
+topic: Reports & Analytics
+uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# pre列とpost列
+# Pre 列と Post 列
 
 pre 列にはデータ収集に送信されたデータがそのまま含まれます。post 列には処理後の値が含まれます。
 
@@ -27,10 +27,10 @@ pre バージョンと post バージョンの区別のない列（`visit_num` �
 
 データフィードを処理する際に、比較のために値をすべて小文字にする一方で、表示用に大文字と小文字の区別を維持したいことがあります。
 
-pre 列と post 列に、同じ文字の並びで大文字と小文字の組み合わせだけが異なる値が含まれている場合は（pre 列が "snow"、post 列が "Snow" など）、サイト上でその値を大文字バージョンと小文字バージョンの両方で渡していることを示します。post 列内のバージョンは、以前に渡されて仮想 cookie に保存されている値か、同時期にそのレポートスイート用に処理された値です。以下に例を示します。
+pre 列と post 列に、同じ文字の並びで大文字と小文字の組み合わせだけが異なる値が含まれている場合は（pre 列が "snow"、post 列が "Snow" など）、サイト上でその値を大文字バージョンと小文字バージョンの両方で渡していることを示します。post 列内のバージョンは、以前に渡されて仮想 cookie に保存されている値か、同時期にそのレポートスイート用に処理された値です。次に例を示します。
 
-ヒット 1：s.list1="Tabby,Persian,Siamese”;
+ヒット 1：s.list1="Tabby,Persian,Siamese";
 
-ヒット 2：s.list1=“tabby,persian,siamese”;
+ヒット2:s.list1="tabby,persian,siamese";
 
 データフィード内でヒット 2 がレポートされる場合、pre 列には渡されたそのままの大文字小文字の値（tabby,persian,siamese）が格納されますが、その訪問の間はヒット 1 の値が持続する可能性があり、この値が post 列でレポートされます（Tabby,Persian,Siamese になります）。大文字と小文字を区別しない比較が実行される場合、ヒット 1 とヒット 2 にはまったく同じ値が格納されるためです。
