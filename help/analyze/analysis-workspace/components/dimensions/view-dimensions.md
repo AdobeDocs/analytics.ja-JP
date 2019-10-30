@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: ディメンションのプレビュー
 title: ディメンションのプレビュー
-uuid: dd1f87de-2d83-4c6b- b8cd- ce81c741d7a3
+uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
