@@ -8,8 +8,8 @@ subtopic: 変数
 title: 動的変数
 topic: 開発者と実装
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,13 +18,11 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 動的変数を使用すると、サイトのイメージリクエストで完全な値を複数回入力することなく、ある変数の値を別の変数にコピーできます。
 
-動的変数は、同時に複数の変数から同じデータ（例えば、キャンペーントラッキングコード）を取得するために使われます。これは、様々なレポートで重要な固有の指標が提供される場合の一般的な方法です。例えば、[!UICONTROL カスタムコンバージョン]変数および[!UICONTROL カスタムトラフィック]変数で同一のサイト内部検索キーワードを取得すると、これらのキーワードにそれぞれ関連付けられている[!UICONTROL 売上高]指標と[!UICONTROL 週別訪問者数]指標を表示できます。
+動的変数は、同時に複数の変数から同じデータ（例えば、キャンペーントラッキングコード）を取得するために使われます。これは、様々なレポートで重要な固有の指標が提供される場合の一般的な方法です。例えば、[!UICONTROL カスタムコンバージョン]変数および[!UICONTROL カスタムトラフィック]変数で同一のサイト内部検索キーワードを取得すると、これらのキーワードにそれぞれ関連付けられている[!UICONTROL 売上高]指標と[!UICONTROL 週別訪問者数]指標を表示できます。を参照してください。
 
 また、動的変数は様々なレポーティング状況でデータを表示する場合にも役立ちます。様々な配分設定と cookie の有効期限を設定した複数の eVar にキャンペーントラッキングコードをセットできます。これにより、ユーザーはコンバージョン指標をどのようにキャンペーンに関連付けるか、レポート時に選択できるようになります。
 
->[!NOTE]
->
->動的変数は、cookie との組み合わせはサポートされません（s_cc、s_sq、s_fid、s_vi およびプラグインで設定された任意の cookie）。`D=<cookie value>` は使用できません。
+> [!NOTE]動的変数は、cookie との組み合わせはサポートされません（s_cc、s_sq、s_fid、s_vi およびプラグインで設定された任意の cookie）。`D=<cookie value>` は使用できません。
 
 動的変数の大きなメリットとして、複数の変数にある長いデータ文字列を、実際にはその長い文字列を何度も受け渡すことなく習得できるという点があります。一部のブラウザーでは、HTTP GET 要求（アドビのイメージリクエストを含む）の長さの上限を設定しています。動的変数を使用することにより、いくつかの変数でデータが重複している場合、アドビのサーバーに送られる要求の長さを短縮してすべてのデータが取得されるようにします。
 
@@ -67,13 +65,9 @@ Analytics で使用可能な動的変数の例を示します。
 
 `D=[variable]`　の値は引用符で囲む必要があります。Analytics コードはこれを文字列として扱います。文字列は、URL エンコードされて Analytics に渡されます（DigitalPulse Debugger または類似のユーティリティでリクエストを表示させると確認できます）。これは正常です。アドビのサーバーは `D=[variable]` の構文を認識して、適切な値をコピーします。
 
->[!NOTE]
->
->リンクを追跡するためにイメージリクエストを使用する場合、リンク URL またはリンク名（pev2）が定義されているように、リンクのタイプ（download=lnk_d、exit=lnk_e、または custom link=lnk_o）が定義されている必要があります。リンクは、`<a href>` タグ内にコードを挿入して手動で導入する必要があります。
+> [!NOTE]リンクを追跡するためにイメージリクエストを使用する場合、リンク URL またはリンク名（pev2）が定義されているように、リンクのタイプ（download=lnk_d、exit=lnk_e、または custom link=lnk_o）が定義されている必要があります。リンクは、`<a href>` タグ内にコードを挿入して手動で導入する必要があります。
 
->[!NOTE]
->
->動的変数は、cookie との組み合わせはサポートされません（s_cc、s_sq、s_fid、s_vi およびプラグインで設定された任意の cookie）。`D=<cookie value>` は使用できません。
+> [!NOTE]動的変数は、cookie との組み合わせはサポートされません（s_cc、s_sq、s_fid、s_vi およびプラグインで設定された任意の cookie）。`D=<cookie value>` は使用できません。
 
 <table id="table_A25D5EA2A8C446F5A55AB32955B9848C"> 
  <thead> 
@@ -139,7 +133,7 @@ Analytics で使用可能な動的変数の例を示します。
   <tr> 
    <td colname="col1"> 
     <code class="syntax javascript">
-      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
+      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d&nbsp;is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
     </code> </td> 
    <td colname="col2"> <p>prop1 をキャンペーンに設定する 4 つの方法 </p> </td> 
   </tr> 
