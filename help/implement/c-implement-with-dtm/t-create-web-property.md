@@ -7,8 +7,8 @@ solution: Analytics
 title: Web プロパティの作成
 topic: 開発者と実装
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,13 +17,11 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 Web プロパティは、1 つ以上のドメインおよびサブドメインの集合と複数のルールで構成され、1 つの埋め込みコードに組み込まれます。
 
->[!NOTE]
->
->プロパティを作成できるのは管理者権限を持つユーザーのみです。役割について詳しくは、Dynamic Tag Management 製品ドキュメントの「[DTM でのグループの作成と管理](https://marketing.adobe.com/resources/help/ja_JP/dtm/groups.html)」を参照してください。
+> [!NOTE]プロパティを作成できるのは管理者権限を持つユーザーのみです。ロールについて詳しくは、Dynamic Tag Management製品ドキ [ュメントの「DTMでのグループの作成](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) と管理」を参照してください。
 
 それらのアセットを DTM で管理および追跡できます。例えば、1 つのテンプレートに基づく複数の Web サイトがあり、それらすべての Web サイトに関する共通のアセットを追跡する場合などに役立ちます。1 つの Web プロパティを複数のドメインに適用することもできます。
 
-Web プロパティの概要とベストプラクティスについては、Dynamic Tag Management 製品ドキュメントの「[Web プロパティ](https://marketing.adobe.com/resources/help/ja_JP/dtm/web_property.html)」を参照してください。
+Web プロパティの概要とベストプラクティスについては、 Dynamic Tag [](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) Management製品ドキュメントのWebプロパティ。
 
 1. 会社ページに移動して、「**[!UICONTROL プロパティの追加]**」をクリックします。
 
