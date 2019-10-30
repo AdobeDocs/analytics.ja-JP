@@ -8,8 +8,8 @@ subtopic: プラグイン
 title: appendList
 topic: 開発者と実装
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ apl（または appendList）プラグインを使うと、任意のコンマ区
  </tbody> 
 </table>
 
->[!NOTE]
->
->後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+> [!NOTE]後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## 実装 {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
