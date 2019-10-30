@@ -5,16 +5,16 @@ seo-title: 顧客の忠誠度
 solution: Analytics
 title: 顧客の忠誠度
 topic: レポート
-uuid: 7dc30b57-7b18-4228- a6ab-6eb66b3d9402
+uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 顧客の忠誠度
 
-顧客の忠誠度は顧客の購入パターンを示します。
+顧客の忠誠度 顧客の購入パターンを明らかにします。
 
 このレポートでは、次の 4 つの忠誠度のカテゴリに基づいた顧客の購入パターンが表示されます。
 
