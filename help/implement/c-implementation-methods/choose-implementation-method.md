@@ -7,8 +7,8 @@ solution: Analytics
 title: 実装方法の選択
 topic: 開発者と実装
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
-translation-type: ht
-source-git-commit: b1e69abd65f171b804e7f56031e594890bbd27bb
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,16 +27,16 @@ Adobe Analytics は様々な方法で導入できます。
 
 [!UICONTROL Experience Platform Launch] を利用すると、拡張と呼ばれる [!DNL Experience Platform Launch] との独自の統合を誰でも作成および管理できます。これらの拡張は、Web およびモバイルで [!UICONTROL Experience Platform Launch] をご利用のお客様自身がアプリストアで利用できるので、統合をすばやくインストール、設定およびデプロイできます。
 
-詳しくは、「[Experience Platform Launch 使用の手引き](https://docs.adobelaunch.com/getting-started)」を参照してください。
+For more information, see [Getting Started with Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
 
 ## [!UICONTROL Dynamic Tag Management] {#section_22E3F3F928894A6A8D77E6953E6CA51C}
 
 [!UICONTROL Dynamic Tag Management] では、[!DNL Analytics] の導入に伴う細かい作業の大部分を自動化できます。フォームベースのインターフェイスに必要な情報を入力すると、ページに追加する必要があるコードが [!DNL Dynamic Tag Management] によって生成されます。JavaScript に精通し、次のような基本的な Analytics の基本用語を理解するのに便利です。
 
-* [eVar](https://marketing.adobe.com/resources/help/ja_JP/reference/conversion_var_admin.html) およびそのしくみについて
+* [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) の概要と仕組み
 * カスタムイベントを使用す [るタイミング](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
 
-Dynamic Tag Management へのアクセス権の取得、およびインストールと導入については、Dynamic Tag Management 製品ドキュメントの「[はじめに](https://marketing.adobe.com/resources/help/ja_JP/dtm/get_started.html)」を参照してください。
+Dynamic Tag Management にアクセスする方法と利用開始方法については、Dynamic Tag Management 製品ドキュメントの[はじめに](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)を参照してください。
 
 詳しくは、「[Dynamic Tag Management を使用した Analytics の実装](../../implement/c-implement-with-dtm/dtm-implementation-overview.md)」を参照してください。
 
