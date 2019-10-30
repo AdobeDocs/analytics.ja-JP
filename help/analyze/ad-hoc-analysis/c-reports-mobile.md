@@ -3,7 +3,7 @@ description: モバイルデバイスからの Web サイトへのアクセス�
 seo-description: モバイルデバイスからの Web サイトへのアクセスに関する情報が表示されます。モバイルレポートは、サイトの閲覧に使用されたモバイルデバイスについてのデータを収集することで訪問者の識別を改善します。モバイルレポートからは、デバイスの製造元、および画面サイズ、ビデオ、オーディオ、cookie のサポートなどの機能を識別できます。モバイルレポートはすべてのレポートスイートで使用できます。
 seo-title: モバイルレポート
 title: モバイルレポート
-uuid: feb1fc34-3541-4b2d- b9cb-84d2e91d9539
+uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 モバイルデバイスからの Web サイトへのアクセスに関する情報が表示されます。モバイルレポートは、サイトの閲覧に使用されたモバイルデバイスについてのデータを収集することで訪問者の識別を改善します。モバイルレポートからは、デバイスの製造元、および画面サイズ、ビデオ、オーディオ、cookie のサポートなどの機能を識別できます。モバイルレポートはすべてのレポートスイートで使用できます。
 
-## Mobile reports {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
+## モバイルレポート {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
 
 モバイルデバイスからの Web サイトへのアクセスに関する情報が表示されます。モバイルレポートは、サイトの閲覧に使用されたモバイルデバイスについてのデータを収集することで訪問者の識別を改善します。モバイルレポートからは、デバイスの製造元、および画面サイズ、ビデオ、オーディオ、cookie のサポートなどの機能を識別できます。モバイルレポートはすべてのレポートスイートで使用できます。
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->To view reports on a mobile a device, login to the [Experience Cloud](https://login.experiencecloud.adobe.com).
+>モバイルデバイスでレポートを表示するには、 [Experience cloudにログインします](https://login.experiencecloud.adobe.com)。
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
@@ -117,7 +117,7 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> デコレーションメールのサポートレポート </td> 
-   <td colname="col2"> <p>DecoMail をサポートしているかどうかでモバイルデバイスをグループ分けします。DecoMail は画像やアニメーションでメールを装飾できる機能です。レポートには PTT サポートを設定できないデバイスの<span class="term"> デコレーションメールがサポートされていないデバイスの</span> 不明なグループ。 </p> </td> 
+   <td colname="col2"> <p>DecoMail をサポートしているかどうかでモバイルデバイスをグループ分けします。DecoMail は画像やアニメーションでメールを装飾できる機能です。レポートには PTT サポートを設定できないデバイスの デコレ <span class="term"> ーション</span> ・メールがサポートされているかどうかを判断できないデバイスの不明なグループ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 情報サービスレポート </td> 
