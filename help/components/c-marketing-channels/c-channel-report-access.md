@@ -5,10 +5,10 @@ seo-title: レポートへのアクセス
 solution: Analytics
 subtopic: マーケティングチャネル
 title: レポートへのアクセス
-topic: Reports and Analytics
-uuid: 5da9f2e7-582b-40e4- a027- b5248065b89c
+topic: Reports & Analytics
+uuid: 5da9f2e7-582b-40e4-a027-b5248065b89c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 マーケティングチャネルレポートを実行し、制限付きの管理者ユーザー権限とユーザーグループ権限をレポートに許可する方法について説明します。
 
-マーケティングチャネルレポートを表示するには、適切な権限をユーザーグループに許可します。アドビのExperience Cloudの権限設定システムはグループベースです。つまり、ユーザーのグループはレポートへのアクセスを決定します。
+マーケティングチャネルレポートを表示するには、適切な権限をユーザーグループに許可します。アドビのExperience cloudの権限設定システムはグループベースです。つまり、レポートへのアクセス権はユーザーのグループによって決まります。
