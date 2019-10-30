@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: JavaScript 版 AppMeasurement について
 topic: 開発者と実装
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,13 +76,13 @@ JavaScript [!DNL AppMeasurement] は、以下の組み込みのユーティリ�
 * `zip`
 * `campaign`
 
-次に例を示します。
+以下に例を示します。
 
 ```js
 s.clearVars()
 ```
 
-## 利点{#section_091E5A28E89E438E8A54A95F55165743}
+## 利点 {#section_091E5A28E89E438E8A54A95F55165743}
 
 * H.25 コードと比較して 3 倍 ～ 7 倍も高速。
 * わずか 21K の非圧縮コード、8K の gzip 圧縮コード（H.25 コードでは、33K もの非圧縮コード、13K の gzip 圧縮コード）。
