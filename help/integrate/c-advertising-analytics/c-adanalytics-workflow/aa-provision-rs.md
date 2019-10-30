@@ -1,21 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 広告分析用にレポートスイートを有効にする
-title: 広告分析用にレポートスイートを有効にする
-uuid: 934f0e02- b5d7-4eca-93d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f95d8-92f
+seo-title: Advertising Analytics 用のレポートスイートの有効化
+title: Advertising Analytics 用のレポートスイートの有効化
+uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 広告分析用にレポートスイートを有効にする
+# Advertising Analytics 用のレポートスイートの有効化
 
-Analyticsで広告分析の検索データを表示するには、広告分析レポート用の各Experience Cloudマップレポートスイートを設定する必要があります。
+Advertising Analytics検索データをAnalyticsで表示するには、Advertising Analyticsレポート用にExperience cloudにマッピングされた各レポートスイートを設定する必要があります。
 
 1. [レポートスイートを組織にマッピング](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html)します。
-1. **[!UICONTROL 管理]** 者/ **[!UICONTROL レポートスイート]**&#x200B;に移動します。
+1. Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
 1. Select the report suite that is [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**.
@@ -24,7 +24,7 @@ Analyticsで広告分析の検索データを表示するには、広告分析�
 
    >[!IMPORTANT]
    >
-   >AMO IDは、検索データが挿入されるAdobe Advertising Cloud変数を指します。
+   >AMO IDは、検索データの挿入先となるAdobe Advertising cloud変数を指します。
 
 1. 変数の配分と AMO ID 変数で使用する有効期限を設定します。コンバージョン変数（eVar）を使用することで、Adobe Analytics は成功イベントを具体的な変数値と紐づけることができます。成功イベントが発生するまでに変数が変化することがあります。その場合、どの変数値にイベントのクレジットが付与されるかは、配分の設定によって決まります。
 
