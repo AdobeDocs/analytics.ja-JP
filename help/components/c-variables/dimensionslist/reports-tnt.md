@@ -5,14 +5,14 @@ seo-title: Target
 solution: Analytics
 title: Target
 topic: レポート
-uuid: 387dfc37- d799-465c-99e3-2d3980fec183
+uuid: 387dfc37-d799-465c-99e3-2d3980fec183
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Target 
+# Target
 
 Adobe Target のトラフィックデータをレポートに表示してセグメント化します。
 
@@ -23,7 +23,7 @@ Adobe Target のトラフィックデータをレポートに表示してセグ�
 次のような例があります。
 
 * Measuring the success of Adobe [!DNL Target] campaigns through your KPIs.
-* [!DNL Target] キャンペーンおよびレシピデータのコンバージョン変数への分類。
+* Breaking down [!DNL Target] campaign and recipe data with conversion variables.
 * Breaking down other reports with [!DNL Target] campaign and recipe traffic data.
 
 By leveraging data in Analytics reports, you can drill into your [!DNL Target] recipes using [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) and detect high performing segments that are ideal for future tests and potentially targeted campaigns. The report displays Analytics conversion data rather than conversion data from [!DNL Target].
