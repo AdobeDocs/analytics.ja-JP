@@ -7,8 +7,8 @@ solution: Analytics
 title: レポートスイート ID - 動的アカウント
 topic: 開発者と実装
 uuid: 763a9741-309d-4795-8819-6543866047d5
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 コードでは最初に、ホスト名またはドメイン名の中に「`qa.client.com`」が存在するかどうかを確認します。存在する場合は、「`devreportsuite1`」というレポートスイート名が選択され、マッチングが停止します。ルールが複数ある場合はセミコロンで区切ります。
 
-## デフォルトのレポートスイート{#section_0360D724929348B0B211708B5BA15647}
+## デフォルトのレポートスイート {#section_0360D724929348B0B211708B5BA15647}
 
 `s_account` 変数を最初に設定し、指定された文字列が見つからない場合にデフォルト値として使用できます。次に例を示します。
 
