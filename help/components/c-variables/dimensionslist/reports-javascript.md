@@ -5,9 +5,9 @@ seo-title: JavaScript サポート
 solution: Analytics
 title: JavaScript サポート
 topic: レポート
-uuid: 7b95001a- cd35-478a-8b24-54d30666110d
+uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 デバイスで JavaScript が有効、無効、不明のいずれであるかに基づいて指標を表示します。
 
->[!NOTE]
->
->In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
+> [!NOTE] 2016年11月始めに、モバイルデバイス用にJavaScriptが常に表示されるという制限を撤廃する *`disabled / unidentified`* 予定です。
 
 JavaScript レポートは、生データの javascript 列に対応します。
 
