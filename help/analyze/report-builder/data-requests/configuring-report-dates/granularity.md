@@ -1,13 +1,13 @@
 ---
-description: リクエストウィザードの手順1では、データリクエストに精度レベルを適用できます。精度では、レポートに含まれる時間軸の詳細レベルを指定します。
-seo-description: リクエストウィザードの手順1では、データリクエストに精度レベルを適用できます。精度では、レポートに含まれる時間軸の詳細レベルを指定します。
+description: リクエストウィザード：ステップ1で、データリクエストに精度を適用できます。 精度では、レポートに含まれる時間軸の詳細レベルを指定します。
+seo-description: リクエストウィザード：ステップ1で、データリクエストに精度を適用できます。 精度では、レポートに含まれる時間軸の詳細レベルを指定します。
 seo-title: 精度
 solution: Analytics
 title: 精度
 topic: Report Builder
-uuid: 948b3ff2- fcff-45fc-9e8c-8a025ac562b1
+uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
