@@ -9,7 +9,7 @@ title: ユーザーおよびグループ権限の変更
 topic: 管理ツール
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 **[!UICONTROL 管理者]** /ユ **[!UICONTROL ーザー管理]** /グル **[!UICONTROL ープ]**
 
->[!NOTE]
->
->使用可能な権限の組み合わせが多数あるため、すべての権限の組み合わせで使用できるすべてのAPIメソッドを説明するドキュメントを提供することはできません。 一般に、Web サービスへのアクセス権を付与された非管理者は、API メソッドへの読み取りアクセスのみ可能です。API メソッドへの書き込みアクセスはできません。
+> [!NOTE] 使用可能な権限の組み合わせが多数あるため、すべての権限の組み合わせで使用できるすべてのAPIメソッドを説明するドキュメントを提供することはできません。 一般に、Web サービスへのアクセス権を付与された非管理者は、API メソッドへの読み取りアクセスのみ可能です。API メソッドへの書き込みアクセスはできません。
 
 API とインターフェイスでは同じ権限付与システムを使用しているので、管理者以外の個々のユーザーがインターフェイス（Adobe Admin Console）で管理者からどのような権限を付与されようと、API に対するそのユーザーの権限と同じものになります。
 
@@ -128,9 +126,7 @@ API とインターフェイスでは同じ権限付与システムを使用し�
 
 次の表に、会社のステータスに応じたタスクとその実行場所を示します。
 
->[!NOTE]
->
->A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. 電子メールの招待が受け入れられない場合、ユーザーはAnalyticsユーザーのままで、管理コンソールで管理できません。 （例外は、移行が [Enterprise ID または Federated ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html) を使用する場合です。この場合、ユーザーは、管理者がユーザーごとにユーザーを移行する際に移行されます。）
+> [!NOTE] とは、 *`migrated user`* Experience cloudへの *`Experience Cloud user`* 招待メールを受け入れたユーザーを指します。 電子メールの招待が受け入れられない場合、ユーザーはAnalyticsユーザーのままで、管理コンソールで管理できません。 （例外は、移行が [Enterprise ID または Federated ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html) を使用する場合です。この場合、ユーザーは、管理者がユーザーごとにユーザーを移行する際に移行されます。）
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
