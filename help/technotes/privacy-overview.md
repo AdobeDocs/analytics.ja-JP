@@ -7,14 +7,14 @@ solution: Analytics
 title: プライバシーの概要
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # プライバシーの概要
 
-Adobe Analytics が収集するデータの概要とプライバシーに関する他の考慮事項
+Adobe Analytics が収集するデータの概要とプライバシーに関する他の考慮事項です。
 
 ## 収集されるデータの詳細 {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -74,7 +74,7 @@ Adobe Analytics は次のデータを収集します。
   </tr> 
   <tr> 
    <td colname="col1"> グローバル </td> 
-   <td colname="col2"> ファーストパーティ分析は、オンライン行動ターゲティング広告に関する自主的行動規範（「AdChoices」）の対象範囲外です。 </td> 
+   <td colname="col2"> ファーストパーティ分析は、オンライン行動広告に関する自主規制プログラム(「AdChoices」)の対象外です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> グローバル </td> 
@@ -94,15 +94,15 @@ Adobe Analytics は次のデータを収集します。
   </tr> 
   <tr> 
    <td colname="col1"> グローバル </td> 
-   <td colname="col2"> 顧客は、cookie の全期間変数を JavaScript 測定コードで「none」、「session」または他の測定値（秒単位）に設定できます。 </td> 
+   <td colname="col2"> 顧客は、JavaScript測定コードのcookieの有効期間変数を「なし」、「セッション」または秒単位の別の指定値に設定できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ヨーロッパ </td> 
-   <td colname="col2"> アドビは、「設計によるプライバシー」という新しい設定を開発しており、現在 Adobe ClientCare for Adobe Analytics（旧称 SiteCatalyst）リリースバージョン 14.9 および 15.4 で有効にできます。この新しい設定を有効にすると、IP アドレスがアドビに収集された直後に最後のオクテット（最後の位置）が値 0 に置き換えられます。この不明化は、IP アドレスの地域ルックアップ（オプション）や ISP ルックアップなど、IP アドレスに対する一切の処理が行われる前に行われます。 </td> 
+   <td colname="col2"> アドビは、Adobe clientCare for Adobe Analytics（旧称SiteCatalyst）リリースバージョン14.9および15.4で有効にできる新しい「プライバシーバイデザイン」設定を開発しました。この新しい設定を有効にすると、IPアドレスがアドビによって収集されると、IPアドレスの最後のオクテット（最後の部分）が即座に値0に置き換えられます。 この不明化は、IP アドレスの地域ルックアップ（オプション）や ISP ルックアップなど、IP アドレスに対する一切の処理が行われる前に行われます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ドイツ </td> 
-   <td colname="col2"> <p>Adobe Analytics に関するデータ処理協定（DPA）をアドビとまだ交わしていない顧客は、Adobe アカウントマネージャーまたはカスタマーサクセスマネージャーに連絡してください。これらのマネージャーがアドビ法務部門と DPA を交わします。 </p> <p>アドビは、バイエルンデータ保護機関（Bayerisches Landesamt fuer Datenschutzaufsicht- BayLDA）によって確認および認定されたAnalytics用データ処理協定（Vertrag fer Aufagagsdatenverarbeitung- ADV）を準備しました。ADV はドイツ語と英語で使用できます。 </p> </td> 
+   <td colname="col2"> <p>Adobe Analytics に関するデータ処理協定（DPA）をアドビとまだ交わしていない顧客は、Adobe アカウントマネージャーまたはカスタマーサクセスマネージャーに連絡してください。これらのマネージャーがアドビ法務部門と DPA を交わします。 </p> <p>アドビは、Bavarian Data Protection Authority(Bayerisches Landesamt Fuer Datenschutzaufht - bayLDA)によって確認および承認された、Analytics用のデータ処理契約(Vertrag fuer Auftargstadatenverarbeitung - ADV)を準備しました。 ADV はドイツ語と英語で使用できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
