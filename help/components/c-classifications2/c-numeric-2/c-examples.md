@@ -3,12 +3,12 @@ description: 以下の例で、数値 2 分類のインポートについて説�
 seo-description: 以下の例で、数値 2 分類のインポートについて説明します。
 seo-title: 例
 solution: Analytics
-subtopic: '分類      '
+subtopic: 分類
 title: 例
 topic: 管理ツール
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -70,7 +70,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-2 月のユーザー側の Product1 のコストは売上高の 15％に減少し、Product2 は売上高の 25％に減少しました。
+2月には、Product1のユーザーのコストは売上高の15%に、Product2は売上高の25%に減少しました。
 
 ## 結果 {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -170,9 +170,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
->[!NOTE]
->
->この機能は、上級ユーザーが値を概算するために使用します。結果のデータは、正確な値として使用しないでください。
+> [!NOTE] この機能は、上級ユーザーが概算値を得るためのものです。 結果のデータは、正確な値として使用しないでください。
 
 <!-- 
 
@@ -198,7 +196,7 @@ c_example_5__identical_rate_hinge.xml
 
 レポート：製品（ページ別）
 
-| 製品（ページ別） | 注文件数 | MyCost |
+| 製品（ページ別） | 購入回数 | MyCost |
 |---|---|---|
 | Product1 | 1000 | $1000.00 |
 | ホームページ | 600 | $600 |
@@ -228,7 +226,7 @@ c_example_5__fixed_no_hinge.xml
 
 レポート：製品（ページ別）
 
-| 製品（ページ別） | 注文件数 | MyCost |
+| 製品（ページ別） | 購入回数 | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | ホームページ | 600 | 0 |
@@ -260,7 +258,7 @@ c_example_7__fixed_hinge.xml
 
 レポート：製品（ページ別）
 
-| 製品（ページ別） | 注文件数 | MyCost |
+| 製品（ページ別） | 購入回数 | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | ホームページ | 600 | $1800.00 |
@@ -290,7 +288,7 @@ c_example_7_continued__different_rate_hinge.xml
 
 レポート：製品（ページ別）
 
-| 製品（ページ別） | 注文件数 | MyCost |
+| 製品（ページ別） | 購入回数 | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | ホームページ | 600 | $1,000.00 |
