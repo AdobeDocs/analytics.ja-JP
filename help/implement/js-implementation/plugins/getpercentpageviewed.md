@@ -8,8 +8,8 @@ subtopic: プラグイン
 title: getPercentPageViewed
 topic: 開発者と実装
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
-translation-type: ht
-source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
