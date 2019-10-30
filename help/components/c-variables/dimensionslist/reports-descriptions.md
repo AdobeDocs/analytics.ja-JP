@@ -5,9 +5,9 @@ seo-title: ディメンションの説明
 solution: Analytics
 title: ディメンションの説明
 topic: レポート
-uuid: 8518aacb- a407-4fa8- bc25-6b349c44528a
+uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Reports &amp; Analytics で使用可能な事前定義済みレポートの定義および Analysis Workspace などの他の Analytics ツールで使用可能なディメンションの定義です。
 
-ディメンションは、レポート内で表示、クロス集計や比較が行える行項目です。これらは、元のレポートタイプ指標に分類される数値以外の数値や日付です。
+ディメンションは、レポート内で表示、クロス集計や比較が行える行項目です。これらは数値以外の値や日付で、分類されたり、元のレポートタイプ指標の分類となります。
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
