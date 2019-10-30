@@ -6,8 +6,8 @@ seo-title: 新規ルールの作成
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: 新規ルールの作成
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
