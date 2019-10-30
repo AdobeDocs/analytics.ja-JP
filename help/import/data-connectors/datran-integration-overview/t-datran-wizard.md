@@ -5,7 +5,7 @@ seo-title: Data Connectors統合ウィザードの実行
 title: Data Connectors統合ウィザードの実行
 uuid: 714417f7-c1df-4e61-a07f-d319f6581c9c
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
