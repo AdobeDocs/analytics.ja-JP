@@ -3,12 +3,12 @@ description: トラフィック分類では、トラフィック変数（prop）
 seo-description: トラフィック分類では、トラフィック変数（prop）の分類が行えます。トラフィック分類ではテキスト分類しか使用できません。
 seo-title: トラフィック分類
 solution: Analytics
-subtopic: '分類      '
+subtopic: 分類
 title: トラフィック分類
 topic: 管理ツール
-uuid: 091betk9b-98ff-4d67- b789- e51c2712839f
+uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 トラフィック分類では、トラフィック変数（prop）の分類がおこなえます。トラフィック分類ではテキスト分類しか使用できません。
 
-## Traffic classifications {#concept_028079B29A9C412AA68910A87E11176F}
+## トラフィック分類 {#concept_028079B29A9C412AA68910A87E11176F}
 
 トラフィック分類では、トラフィック変数（prop）の分類がおこなえます。トラフィック分類ではテキスト分類しか使用できません。
 
@@ -36,14 +36,14 @@ t_classification_add_traffic.xml
 選択したレポートスイートの分類を追加または編集する方法について手順を説明します。
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. レポートスイートを選択します。
+1. レポートスイートの選択.
 1. 「**分類タイプの選択**」フィールドで分類の追加先の変数を選択します。
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]**.
 
    ![ステップ情報](assets/traffic-classification.png)
 
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]** or **[!UICONTROL Edit Classification]**.
-1. **[!UICONTROL テキスト分類]** ダイアログボックスで、必要に応じて分類を設定します。
+1. In the **[!UICONTROL Text Classification]** dialog box, configure the classification as desired:
 
    **[!UICONTROL 名前：]**&#x200B;分類に名前を付けます。
 
