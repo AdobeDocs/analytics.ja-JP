@@ -1,16 +1,16 @@
 ---
 description: シンプルな「訪問あたりのページビュー数」指標の作成方法を示します。
 seo-description: シンプルな「訪問あたりのページビュー数」指標の作成方法を示します。
-seo-title: 単純な「訪問あたりのページビュー数」指標の作成
-title: 単純な「訪問あたりのページビュー数」指標の作成
-uuid: 0730e51c-1f8f-473b-8825- d72911f2944c
+seo-title: シンプルな「訪問あたりのページビュー数」指標の作成
+title: シンプルな「訪問あたりのページビュー数」指標の作成
+uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 単純な「訪問あたりのページビュー数」指標の作成
+# シンプルな「訪問あたりのページビュー数」指標の作成
 
 シンプルな「訪問あたりのページビュー数」指標の作成方法を示します。
 
@@ -31,5 +31,5 @@ UI コンポーネントについて詳しくは、「 [指標の作成](../../.
 1. 製品の互換性は、指標が「[現在のデータ](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html)」と互換性があるかどうか、または「処理済みのデータ」とのみ互換性があるかどうかを示します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 「**[!UICONTROL 概要]」の数式は、指標の定義を変更すると更新されます。**
-1. You are now automatically taken to the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), which is similar to the Segment Manager. 計算指標マネージャを使用すると、指標の共有、承認、（再）タグ付け、名前変更または削除を行うことができます。
+1. セグメントマネージャに似た計算指 [標マネージャ](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)(Calculated Metric Manager)に自動的に移動します。 計算指標マネージャを使用すると、指標の共有、承認、（再）タグ付け、名前変更または削除を行うことができます。
 
