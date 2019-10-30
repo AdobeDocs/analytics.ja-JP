@@ -5,7 +5,7 @@ seo-title: Adobe ID 用に Analytics ユーザーアカウントを移行する
 title: Adobe ID 用に Analytics ユーザーアカウントを移行する
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 従来の Analytics ユーザー管理システムから Admin Console へユーザーを移行します。
 
->[!NOTE]
->
->Experience cloud経由でログインしていない管理者がユーザーID移行ツールにアクセスしようとすると、Experience cloudのログインページにリダイレクトされます。
+> [!NOTE] Experience cloud経由でログインしていない管理者がユーザーID移行ツールにアクセスしようとすると、Experience cloudのログインページにリダイレクトされます。
 
 **Analytics ユーザーを移行するには**
 
