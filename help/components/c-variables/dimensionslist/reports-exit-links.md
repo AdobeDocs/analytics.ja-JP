@@ -7,7 +7,7 @@ title: 離脱リンク
 topic: レポート
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
