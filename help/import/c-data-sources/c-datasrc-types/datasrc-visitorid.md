@@ -5,10 +5,10 @@ seo-title: 訪問者 ID
 solution: Analytics
 subtopic: データソース
 title: 訪問者 ID
-topic: 開発者と導入
+topic: 開発者と実装
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 汎用（トランザクション ID）カテゴリを選択して、訪問者 ID を統合することができます。
 
-See [Integrate Offline Data](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6).
+「オフライ [ンデータの統合」を参照してくださ](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6)い。
 
 <p class="head"> <b>訪問者 ID のディメンション</b> </p>
 
@@ -28,7 +28,7 @@ See [Integrate Offline Data](../../../import/c-data-sources/datasrc-integrating-
 | トラッキングコード | トラッキングコード名。 |
 | カテゴリ | カテゴリ名。カテゴリを指定する場合、製品も指定する必要があります。 |
 | チャネル | チャネル名。 |
-| eVarN | eVarN名。n には 1～75 の整数を指定できます。 |
+| eVarn | eVarn名。 n には 1～75 の整数を指定できます。 |
 | 製品 | 製品名。 |
 | 都道府県 | 都道府県名。 |
 | 郵便番号 | 郵便番号。 |
@@ -44,8 +44,8 @@ See [Integrate Offline Data](../../../import/c-data-sources/datasrc-integrating-
 | 買い物かご表示 | 買い物かごの表示回数。 |
 | チェックアウト | チェックアウトの回数。 |
 | イベント n | イベント n が発生した回数。n には 1～100 の整数を指定できます。表示イベントを指定する場合、対応するデータディメンション（eVar）も指定する必要があります。例えば、eVar2 表示数を含める場合、eVar2 と値をリストに含める必要があります。 |
-| eVarnビュー数 | eVar n が表示された回数。n には 1～75 の整数を指定できます。 |
+| eVarnビュー | eVar n が表示された回数。n には 1～75 の整数を指定できます。 |
 | 価格 | 製品の価格。 |
 | 購入回数 | 発注された回数。 |
-| 製品表示 | 製品の表示回数。 |
+| 商品ビュー | 製品の表示回数。 |
 | 数量 | 販売数。 |
