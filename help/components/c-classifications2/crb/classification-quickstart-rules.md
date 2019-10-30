@@ -8,7 +8,7 @@ title: 分類ルール
 topic: 管理ツール
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -58,9 +58,7 @@ about_classification_rules.xml
 * [ルールによるキーの分類が行われない状況](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [ルールの優先度について](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)
 
->[!NOTE]
->
->The [!UICONTROL Rule Builder] does not support Numeric 2 classifications.
+> [!NOTE] ルール [!UICONTROL ビルダーは] 、数値2分類をサポートしていません。
 
 ## ルールに関する重要な情報 {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
@@ -94,7 +92,7 @@ about_classification_rules.xml
 
    >[!NOTE]
    >
-   >In reports, classifications apply to any time frame specified, whenever a key exists. レポートの日付範囲はレポートに影響しません。
+   >レポートでは、キーが存在する場合は常に、指定した時間枠に分類が適用されます。 レポートの日付範囲はレポートに影響しません。
 
 ![](assets/overwrite_keys.png)
 
@@ -114,15 +112,11 @@ regex_classification_rules.xml
 * [正規表現 - 「含まない」の例](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [正規表現 - 参照表](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE]
->
->ベストプラクティスとして、正規表現は区切り文字を使用するトラッキングコードに最適です。
+> [!NOTE] ベストプラクティスとして、正規表現は区切り文字を使用するトラッキングコードに最適です。
 
 ## 正規表現 - トラッキングコードの例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE]
->
->If the tracking code is URL encoded, it will **not** be classified by the Rules Builder.
+> [!NOTE] トラッキングコードがURLエンコードされている場合、ル **ールビルダ** ーで分類されません。
 
 この例では、次のキャンペーン ID を分類することを前提とします。
 
@@ -315,9 +309,7 @@ t_classification_rule.xml
 
 分類に条件を対応させることによってルールを追加し、そのアクションを指定します。
 
->[!NOTE]
->
->この手順では、1つ以上のレポートスイートにルールを適用する必要があります。 ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 以上ある場合には、[下位分類](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE)を使ってルールセットを簡素化する方法の検討が必要です。
+> [!NOTE] この手順では、1つ以上のレポートスイートにルールを適用する必要があります。 ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 以上ある場合には、[下位分類](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE)を使ってルールセットを簡素化する方法の検討が必要です。
 
 1. [分類ルールセットの作成を参照してください](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) 。
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
