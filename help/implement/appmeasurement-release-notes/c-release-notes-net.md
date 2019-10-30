@@ -8,7 +8,7 @@ title: Windows Silverlight、NET、IIS、XBOX
 topic: 開発者と実装
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,17 +17,15 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!IMPORTANT]
 >
->これらのSDKは日没しており、アドビによってサポートまたは配布されなくなりました。
+>これらの SDK は非推奨となっており、アドビによってサポートまたは配布されなくなりました。
 
->[!NOTE]
->
->現在のライブラリバージョンを検索するには、デバッグログをオンにします。
+> [!NOTE]ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
 ## バージョン 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 リリース日：**2014 年 8 月**
 
-* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* [!DNL Microsoft Silverlight Analytics Framework] のサポートを削除しました。[!DNL AppMeasurement] 用の [!DNL Microsoft Silverlight Analytics Framework] の統合は、サポートまたは配布されなくなります。
 
 * 今後追加される機能をサポートするために、コードの内容を一部変更しました。
 
@@ -35,13 +33,13 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 リリース日：**2013 年 3 月**
 
-* Fixed exception with getting default referrer in [!DNL Silverlight] outside of a browser context and properly exposed SSL property in the [!DNL Microsoft Silverlight Analytics Framework] component.
+* ブラウザーのコンテキスト外にある [!DNL Silverlight] のデフォルトのリファラーと、[!DNL Microsoft Silverlight Analytics Framework] コンポーネントに正しく公開されている SSL プロパティの取得に関する例外を修正しました。
 
 ## バージョン 1.4 {#section_2F4ADA4628EC43B480177C3DDB3D1CFA}
 
 リリース日：**2013 年 2 月**
 
-* アドビのデータ収集サーバーのページ URL フィールドのサイズ拡大に対応するために、255 バイトを超える URL の送信のサポートを追加しました。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. これにより、ブラウザーを切り捨てる場合に長い URL が他のデータより優先されないようにする一方、長い URL の収集を引き続き有効にすることができます。
+* アドビのデータ収集サーバーのページ URL フィールドのサイズ拡大に対応するために、255 バイトを超える URL の送信のサポートを追加しました。255 バイトを超えるページ URL は分割され、最初の 255 バイトは `g=` パラメーターに、残りのバイトはその後のクエリ文字列の `-g=` クエリパラメーターに表示されます。これにより、ブラウザーを切り捨てる場合に長い URL が他のデータより優先されないようにする一方、長い URL の収集を引き続き有効にすることができます。
 
 * 訪問者の新たな識別方法が追加されました。[個別訪問者の識別](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)を参照してください。
 * `abort` フラグを新しく追加しました。このフラグは `doPlugins` 内で設定できます。このフラグを true に設定すると、対象のトラッキング呼び出しで [!DNL AppMeasurement] ライブラリが続行しません。abort フラグはあらゆるトラッキング呼び出しによってリセットされるので、後続のトラッキング呼び出しも中止する必要がある場合は、このフラグを再度 `doPlugins` 内に設定する必要があります。
@@ -64,7 +62,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 * カスタムの `media.monitor` メソッドを使ってメディア終了イベントを追跡すると、ビデオ完了イベントが送信されないことがありましたが、この問題が修正されました。
 
    ```
-   If(media.event==”CLOSE”) { 
+   If(media.event=="CLOSE") { 
    … 
    } 
    ```
@@ -73,7 +71,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 リリース日：**2012 年 4 月**
 
-*  [!DNL XBOX].
+*  [!DNL XBOX] のサポートを追加しました。
 
 ## バージョン 1.3.6 {#section_9F2738FA31CD48C4877AB92281EC67A9}
 
@@ -90,7 +88,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ## バージョン 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* New support and build for [!DNL iOS] Phone platform including offline tracking.
+* [!DNL iOS] Phone プラットフォームへの新たなサポートとビルド（オフライン追跡を含む）を追加しました。
 * 追跡データにリクエストを送信する方法を上書きするための doRequest delegate のサポートを追加しました。
 * サーバー側の処理ルールを駆動する contextData のサポートを追加しました（v15 のみ）。
 * Light Server Call のサポートを追加しました（現在ベータ版のみ）。
