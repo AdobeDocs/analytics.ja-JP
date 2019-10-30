@@ -6,8 +6,8 @@ seo-title: Akamai ホスティング用の未発行のルールのテスト
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Akamai ホスティング用の未発行のルールのテスト
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Akamai ホスティングを使用する場合は、コンソールから未発行のルールをテストします。
 
-多くの場合、Switcher プラグインを使用すると最も簡単にテストを実施できます。詳しくは、Dynamic Tag Management 製品ドキュメントの「[Search Discovery プラグイン](https://marketing.adobe.com/resources/help/ja_JP/dtm/search_discovery_plugins.html)」を参照してください。
+多くの場合、Switcher プラグインを使用すると最も簡単にテストを実施できます。詳しくは、Dynamic Tag Management 製品ドキュメントで、「[Search Discovery プラグイン](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html)」を参照してください。
 
 Switcher プラグインを使用せずにテストする方法を次に示します。
 
