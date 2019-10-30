@@ -5,9 +5,9 @@ seo-title: カスタムレポートの説明
 solution: Analytics
 title: カスタムレポートの説明
 topic: 管理ツール
-uuid: df7b57ab-4bd9-4465- bcd1- d47647eed3ff
+uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 eVar、prop、分類およびイベントに対して、カスタムレポートの説明を入力できます。説明は、すべてのエンドユーザーに表示されます。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** / **[!UICONTROL 設定]** を編集/ **[!UICONTROL *変数*]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /]** レポー **[!UICONTROL トスイ]** ート **[!UICONTROL /設]** 定 **[!UICONTROL */設定/変数を編集*]**
 
->[!NOTE]
->
->従来の分類では説明を追加できますが、現在モバイル分類用には説明されていません。
+> [!NOTE] 説明の追加は、ほとんどの従来の分類で使用できますが、現在のところモバイル分類では使用できません。
 
 ![](assets/report_descriptions.png)
 
