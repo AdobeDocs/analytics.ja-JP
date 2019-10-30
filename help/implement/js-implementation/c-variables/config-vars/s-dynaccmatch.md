@@ -5,7 +5,7 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
  変数は DOM オブジェクトを使用して、 のすべてのルールが適用される URL のセクションを取得します。
 
-This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' デフォルト値は [!DNL window.location.host] であるので、この変数は[!UICONTROL 動的アカウント選択]が動作するための必須の変数ではありません。For additional information, see [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+この変数は、*`dynamicAccountSelection`* が「True」に設定されているときのみ有効です。デフォルト値は [!DNL window.location.host] であるので、この変数は[!UICONTROL 動的アカウント選択]が動作するための必須の変数ではありません。詳しくは、「[dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)」を参照してください。
 
-に示すルールは、 `dynamicAccountList` の値に適用されます `dynamicAccountMatch`。 If `dynamicAccountMatch` only contains [!DNL window.location.host] (default), the rules in `dynamicAccountList` apply only to the domain of the page.
+`dynamicAccountList` に示すルールは、`dynamicAccountMatch` の値に適用されます。`dynamicAccountMatch` にのみ [!DNL window.location.host] が含まれる場合（デフォルト）、`dynamicAccountList` のルールはページのドメインにのみ適用されます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -24,7 +24,7 @@ This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' �
 
 ## 構文と可能な値
 
-Folio Builder`dynamicAccountMatch` 変数は通常、JavaScript 版 AppMeasurement ファイルを提供するアドビコンサルタントによって設定されます。ただし、以下に挙げる値はいつでも適用できます。
+`dynamicAccountMatch` 変数は通常、JavaScript 版 AppMeasurement ファイルを提供するアドビコンサルタントによって設定されます。ただし、以下に挙げる値はいつでも適用できます。
 
 ```js
 s.dynamicAccountMatch=[DOM object]
@@ -55,8 +55,8 @@ s.dynamicAccountMatch=window.location.host+window.location.pathname
 
 ## 注意事項、質問、ヒント
 
-* 動的なアカウント選択は、 [JavaScript 版 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* [JavaScript 版 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)では、動的なアカウント選択はサポ ートされていません。
 
-* ページがハードドライブに保存されている場合、[!DNL window.location.host] は空になり、これらのページビュー数はデフォルトのレポートスイート（ `s_account`).
+* ページがハードドライブに保存されている場合、[!DNL window.location.host] は空になり、これらのページビュー数はデフォルトのレポートスイート（`s_account`）.
 
 * ページが Google などの Web ベースの翻訳エンジンによって翻訳されている場合、[!UICONTROL 動的アカウント選択]は設計どおりに動作しません。より精度の高いトラッキングをおこなうには、[!UICONTROL s_account] 変数をサーバーサイドで設定してください。
