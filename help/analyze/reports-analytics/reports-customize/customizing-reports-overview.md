@@ -7,7 +7,7 @@ title: レポートのカスタマイズの概要
 topic: Reports & Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,13 +51,13 @@ t_reports_select_date.xml
 
  -->
 
-特定の日、週、月、または年を選択できます。比較レポートを実行することもできます。.
+特定の日、週、月、または年を選択できます。比較レポートを実行することもできます。を参照してください。
 
 開いたダッシュボードに様々な日付範囲のレポートレットがある場合は、カレンダーで新しい日付範囲を選択できます。変更は、ダッシュボード内のすべてのレポートレットに適用されます。
 
 **日付範囲を選択するには**
 
-1. レポートの実行.
+1. レポートを実行します。
 1. 右上のカレンダーアイコンをクリックします。
 1.  日付を選択します。
 
@@ -84,13 +84,11 @@ t_reports_comparing_dates.xml
 
 トレンドレポート間の日付の比較はできません。
 
->[!NOTE]
->
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
+> [!NOTE] ダッシュボードの主要指標に対して日付比較を実行する場合は、2つの異なるリクエストを使用して [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) にデータを取り込みます。 その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
 
 Reports &amp; Analytics のランクレポート間で日付を比較するには、以下のようにします。
 
-1. レポートの実行.
+1. レポートを実行します。
 1. 右上のカレンダーをクリックします。
 1. Click **[!UICONTROL Compare Dates]**.
 1. 使用する日付を選択します。
