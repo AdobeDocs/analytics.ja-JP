@@ -1,14 +1,14 @@
 ---
 description: page_event の値に基づいてヒットタイプを判別する参照テーブル。
-keywords: データフィード;ページ;event;page_ event;post_ page_ event
+keywords: データフィード；page;event;page_event;post_page_event
 seo-description: page_event の値に基づいてヒットタイプを判別する参照テーブル。
 seo-title: ページイベント参照
 solution: Analytics
 title: ページイベント参照
-topic: Reports and Analytics
-uuid: 73af597c-5560-466e-94b2- ddd1d64797c8
+topic: Reports & Analytics
+uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,17 +29,17 @@ page_event の値に基づいてヒットタイプを判別する参照テーブ
   <tr> 
    <td colname="col1"> ページビュー </td> 
    <td colname="col02"> post と同じ </td> 
-   <td colname="col2"> <p>0 の場合、すべてのページビュー（<code>s.t()</code> コール） </p> <p>0 の場合、モバイル SDK からの <code>trackState</code> コール </p> </td> 
+   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 の場合、モバイル SDK からの <code> trackState </code> コール </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> リンクトラッキング </td> 
-   <td colname="col02"> <p>10 の場合、「その他のリンク」 </p> <p>10 の場合、モバイル SDK からの <code>trackAction</code> コールおよびライフサイクルコール </p> <p>11 の場合、「ダウンロードリンク」 </p> <p>12 の場合、「外部リンクまたは離脱リンク」 </p> </td> 
-   <td colname="col2"> <p>100 の場合、「その他のリンク」 </p> <p>100 の場合、モバイル SDK からの <code>trackAction</code> コールおよびライフサイクルコール </p> <p>101 の場合、「ダウンロードリンク」 </p> <p>102 の場合、「外部リンクまたは離脱リンク」 </p> </td> 
+   <td colname="col02"> <p>10 の場合、「その他のリンク」 </p> <p>10 の場合、モバイル SDK からの <code> trackAction </code> コールおよびライフサイクルコール </p> <p>11 の場合、「ダウンロードリンク」 </p> <p>12 の場合、「外部リンクまたは離脱リンク」 </p> </td> 
+   <td colname="col2"> <p>100 の場合、「その他のリンク」 </p> <p>100 の場合、モバイル SDK からの <code> trackAction </code> コールおよびライフサイクルコール </p> <p>101 の場合、「ダウンロードリンク」 </p> <p>102 の場合、「外部リンクまたは離脱リンク」 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> マイルストーンビデオ </td> 
    <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – メディア開始イベント </p> <p>32 - メディアの更新のみのイベント（eVarまたはその他の変数処理を実行しません） </p> <p>33 – メディアと他の変数の更新イベント（eVar その他の変数処理を含む） </p> </td> 
+    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – メディア開始イベント </p> <p>32 – メディアの更新のみのイベント（eVar その他の変数処理を実行しない） </p> <p>33 – メディアと他の変数の更新イベント（eVar その他の変数処理を含む） </p> </td> 
    <td colname="col2"> 
     <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76 – メディア開始イベント </p> <p>77 – メディアの更新のみのイベント（eVar その他の変数処理を実行しない） </p> <p>78 – メディアと他の変数の更新イベント（eVar その他の変数処理を含む） </p> </td> 
   </tr> 
