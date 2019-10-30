@@ -8,7 +8,7 @@ title: Analytics 変数とイベント
 topic: Data Connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ DFA の Data Connectors 統合は、Analytics 変数を使用して DFA キャ�
 | 変数 | わかりやすい名前 | セット方法 | 説明 |
 |---|---|---|---|
 | s.campaign または eVar | 広告トラッキングコード | Data Connector によって DFA キャンペーン用に自動的に設定されます。 | すべてのキャンペーンのクリックスルーコンバージョンをトラッキングします。 |
-| eVar* | ビュースルー | VISTA および DFA によって DFA キャンペーン用に自動的に設定されます。 | DFA ID のビュースルーデータをトラッキングします。この eVar は、 *`s.campaign`* variable. 変数プロバイダーIDで識別されたのと同じコンバージョン変数である必要があります。 eVar で、完全な下位関係が有効になっていることを確認します。この機能を有効にするためのコストは、Data Connectors 統合の費用に含まれています。 |
+| eVar* | ビュースルー | VISTA および DFA によって DFA キャンペーン用に自動的に設定されます。 | DFA ID のビュースルーデータをトラッキングします。この eVar は、*`s.campaign`* 変数にも取り込まれます。変数プロバイダーIDで識別されたのと同じコンバージョン変数である必要があります。 eVar で、完全な下位関係が有効になっていることを確認します。この機能を有効にするためのコストは、Data Connectors 統合の費用に含まれています。 |
 | eVar* | DFA クエリエラー | （オプション）JavaScript コレクションコードを使用して設定されます。 | DFAから返されたいくつかのエラーコードの1つを含みます。 |
 | event* | ビュースルー数 | Data Connector によって DFA キャンペーン用に自動的に設定されます。 | ユーザーが広告を表示して、クリックスルーはせずにサイトに到達した回数をキャプチャします。 |
 | event* | インプレッション数 | DFA からのデータフィードによって自動的に設定されます。 | 特定の DFA 広告が提供された回数をトラッキングします。 |
