@@ -5,15 +5,15 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.cookieDomain
 
-The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
+変数は、[!DNL Analytics] の Cookie である `s_cc` および `s_sq` を設定するドメインを決定します。
 
-一般に、は `s.cookieDomainPeriods` から生成するために使 `s.cookieDomain` 用されま `window.location.hostname`す。 を使用する代 `s.cookieDomainPeriods`わりに、実装で使用する `s.cookieDomain` ものを明示的に設定できます。 例えば以下を使用して、ページの完全修飾名で Cookie を設定できます。
+Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `window.location.hostname`. Instead of using `s.cookieDomainPeriods`, you can explicitly set `s.cookieDomain` to what you want to use in your implementation. 例えば以下を使用して、ページの完全修飾名で Cookie を設定できます。
 
 `s.cookieDomain = window.location.hostname;`
