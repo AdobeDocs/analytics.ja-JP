@@ -3,14 +3,14 @@ description: 計算指標ビルダーを使用すると、統計関数と数学�
 seo-description: 計算指標ビルダーを使用すると、統計関数と数学関数を適用して、高度な計算指標を作成できます。
 seo-title: 基本関数の参照
 title: 基本関数の参照
-uuid: 5c2b4a0e-613c-4b27-95b8-01d480aab78
+uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: a4ccd3503d9d8e5e5367bb1ebd149262c5cb925a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# リファレンス:基本関数
+# リファレンス：基本的な関数
 
 <!-- 
 
@@ -22,9 +22,7 @@ cm_functions.xml
 
 ここでは、関数とその定義をアルファベット順に示します。
 
->[!NOTE]
->
->Where [!DNL metric] is identified as an argument in a function, other expressions of metrics are also allowed. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] が関 [!DNL metric] 数の引数として識別される場合、指標の他の式も使用できます。 For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
 
 ## 表関数と行関数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -107,7 +105,7 @@ EXP(metric)
 累乗演算子
 
 <pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+pow(x,y) =<sup>xy</sup> = x*x*x*...（y回）
 </pre>
 
 ## 平均値（表）{#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -160,7 +158,7 @@ modulo(modulo(x,y)+y,y)
 
 ## パーセンタイル（表）{#concept_51DF57B606D14F898E5010DBA61CA979}
 
-指標の値の k 番目のパーセンタイルを返します。この関数を使用すると、受け入れのしきい値を確立できます。例えば、90%の割合を超えるディメンションエレメントを調べることができます。
+指標の値の k 番目のパーセンタイルを返します。この関数を使用すると、受け入れのしきい値を確立できます。例えば、スコアが90パーセンタイルを超えるディメンションエレメントを調べることができます。
 
 ```
 PERCENTILE(metric,k)
@@ -212,7 +210,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-**quart* = 0 の場合、QUARTILE は最小値を返します。*quart* =1の場合、QUARTILEは第1四分位数（25パーセンタイル）を返します。*quart* =2の場合、QUARTILEは第1四分位数（50パーセンタイル）を返します。*quart* =3の場合、QUARTILEは第1四分位数（75パーセンタイル）を返します。*quart* = 4 の場合、QUARTILE は最大値を返します。
+**quart* = 0 の場合、QUARTILE は最小値を返します。If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). *quart* = 4 の場合、QUARTILE は最大値を返します。
 
 ## ラウンド数 {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -237,7 +235,7 @@ round( 314.15, -2) = 300
 
 ## 行数 {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-指定された列の行の数（ディメンション内でレポートされた一意の要素の数）を返します。「超過したユニーク数」は 1 としてカウントされます。
+特定の列の行数（ディメンション内でレポートされる一意の要素数）を返します。「ユニークが超過しました」は1とカウントされます。
 
 ## 行最大 {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -310,11 +308,11 @@ VARIANCE(metric)
 
 平方偏差を計算するには、数字の列全体を見ます。まず、すべての数字の平均を求めます。平均を求めたら、各数字に対して次の計算をおこないます。
 
-1. 数字から平均を引きます。
+1. 数から平均を引きます。
 
-2. 結果を正方形にします。
+2. 結果を垂直化します。
 
-3. その結果を合計に追加します。
+3. それを合計に加算します。
 
 この計算をすべての数字に対して実行し、1 つの合計を求めます。その合計を列内にある数字の個数で除算します。その結果が列の平方偏差です。平方偏差は単一の数字です。ただし、数字の列として表示されます。
 
@@ -326,7 +324,7 @@ VARIANCE(metric)
 
 3
 
-この列の平均は 2 です。列の平方偏差は（（1-2）²+（2-2）²+（3-2）÷/3=2/3）になります。Ad Hoc Analysis では、次のようになります。
+この列の平均は 2 です。柱の平方偏差は、((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3です。 Ad Hoc Analysis では、次のようになります。
 
 1 2/3
 
