@@ -7,7 +7,7 @@ title: リアルタイムレポート
 topic: レポート
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 Web ページのトラフィックを表示し、ページビューをリアルタイムでランク付けします。ビジネス上の意思決定の基になる実行可能なデータを提供します。
 
->[!NOTE]
->
->リアルタイムレポートでは、追加の実装やタグ付けは必要ありません。 Adobe Analytics の既存の実装が使用されます。リアルタイムレポートの設定については、[リアルタイムレポートの設定](/help/admin/admin/realtime/t-realtime-admin.md)を参照してください。
+> [!NOTE] リアルタイムレポートでは、追加の実装やタグ付けは必要ありません。 Adobe Analytics の既存の実装が使用されます。リアルタイムレポートの設定については、[リアルタイムレポートの設定](/help/admin/admin/realtime/t-realtime-admin.md)を参照してください。
 
 **[!UICONTROL サイト指標]** /リ **[!UICONTROL アルタイム]**
 
