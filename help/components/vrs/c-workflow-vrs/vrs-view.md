@@ -2,18 +2,18 @@
 description: 情報を表示するには、レポートスイート名の横にある「i」（情報）アイコンをクリックします。
 keywords: 仮想レポートスイート
 seo-description: 情報を表示するには、レポートスイート名の横にある「i」（情報）アイコンをクリックします。
-seo-title: 仮想レポートスイート情報の表示
+seo-title: 仮想レポートスイートの情報の表示
 solution: Analytics
-title: 仮想レポートスイート情報の表示
-topic: Reports and Analytics
-uuid: 7aa9da77-604e-473d- a914-6c0bc558548a
+title: 仮想レポートスイートの情報の表示
+topic: Reports & Analytics
+uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 仮想レポートスイート情報の表示
+# 仮想レポートスイートの情報の表示
 
 情報を表示するには、レポートスイート名の横にある「i」（情報）アイコンをクリックします。
 
