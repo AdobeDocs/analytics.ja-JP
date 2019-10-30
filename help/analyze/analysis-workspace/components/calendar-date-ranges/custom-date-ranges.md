@@ -5,10 +5,10 @@ seo-description: Analysis Workspace でカスタム日付範囲を作成し、�
 seo-title: Analysis Workspace でカスタム日付範囲を作成
 solution: Analytics
 title: Analysis Workspace でカスタム日付範囲を作成
-topic: Reports and Analytics
-uuid: c8873d41-454d-4f22- ad1f-38cacec5a3bc
+topic: Reports & Analytics
+uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Analysis Workspace でカスタム日付範囲を作成し、時間コンポー�
 
 ![](assets/date-range-two-months-table.png)
 
-## Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## 7日周期の日付範囲の使用 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 日付範囲は、パネルレベルに適用します。プロジェクトに日付範囲を追加するには、**アクション**／**パネルを追加**&#x200B;をクリックして、新しい日付範囲を指定します。
 
@@ -45,7 +45,7 @@ Analysis Workspace でカスタム日付範囲を作成し、時間コンポー�
 
 ![](assets/create_date_range.png)
 
-Use *`rolling daily`*（名前をつけて保存）する必要があります。
+使用する&#x200B;*`rolling daily`*（名前をつけて保存）する必要があります。
 
 * The Start settings would be *`current day minus 14 days`*.
 
