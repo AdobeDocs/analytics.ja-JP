@@ -46,7 +46,7 @@ t_organize_metrics.xml
 1. Click **[!UICONTROL Organize Metrics]**.
 1. Click **[!UICONTROL New]** to create a folder.
 1. 他のフォルダーにある指標を選択し、新しいフォルダーにドラッグします。
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
    >[!NOTE]
    >
