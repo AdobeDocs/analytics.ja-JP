@@ -7,8 +7,8 @@ solution: Analytics
 title: 事前定義されたイベントについて
 topic: 開発者と実装
 uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
