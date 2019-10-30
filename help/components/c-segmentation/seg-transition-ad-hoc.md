@@ -1,14 +1,14 @@
 ---
 description: Ad Hoc Analysis のセグメントビルダーの操作に慣れている場合は、この FAQ で、既存のセグメントとフォルダーへの影響、および実行する必要があるアクションを確認してください。
-keywords: セグメント化、セグメント
+keywords: セグメント化；セグメント
 seo-description: Ad Hoc Analysis のセグメントビルダーの操作に慣れている場合は、この FAQ で、既存のセグメントとフォルダーへの影響、および実行する必要があるアクションを確認してください。
 seo-title: Ad Hoc Analysis の移行ガイド
 solution: Analytics
 title: Ad Hoc Analysis の移行ガイド
 topic: セグメント
-uuid: d409d71a- f8d9-42a2- add2-37d426cd40d1
+uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -94,7 +94,7 @@ Ad Hoc Analysis では、自分が作成したセグメントまたは自分に�
    <td colname="col2">Ad Hoc Analysis のこのセグメントは、Adobe Analytics の通常のセグメントとして表示されます。 <p>セグメントマネージャーのお気に入り機能（セグメントをお気に入りとしてマークする機能）と混同しないようにしてください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Ad Hoc Analysisの事前設定済みセグメント: 
+   <td colname="col1">Ad Hoc Analysisの事前設定済みセグメント： 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">単一ページ訪問 </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">モバイルデバイスからの訪問 </li> 
