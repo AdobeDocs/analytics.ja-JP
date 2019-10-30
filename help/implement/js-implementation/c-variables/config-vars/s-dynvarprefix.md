@@ -5,7 +5,7 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 ## 構文と可能な値
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 または、動的変数用のカスタムフラグを使用します。
@@ -35,7 +35,7 @@ s.dynamicVariablePrefix=".."
 ## 例
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 または、動的変数用のカスタムフラグを使用します。
