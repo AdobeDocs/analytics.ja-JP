@@ -7,7 +7,7 @@ title: トラフィックソースレポート
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ c_reports_ref_domains.xml
 
  -->
 
-貴社サイトの成功指標に最も貢献した顧客を誘導したドメインを示します。リファラーは大きく「ドメイン」と「URL」というカテゴリに分けられます。ドメインは、ドメイン名のことであり、検索文字列や添付のサブディレクトリのない基本ドメインとして表示します。URL には基本ドメイン名と、クエリ文字列またはサブディレクトリが含まれます。
+サイトの成功指標に最も貢献した顧客を誘導したドメインを示します。リファラーは大きく「ドメイン」と「URL」というカテゴリに分けられます。ドメインは、ドメイン名のことであり、検索文字列や添付のサブディレクトリのない基本ドメインとして表示します。URL には基本ドメイン名と、クエリ文字列またはサブディレクトリが含まれます。
 
 ## オリジナルの参照ドメイン {#concept_EB18251DF70343169B46BB59543A579A}
 
@@ -99,13 +99,11 @@ c_reports_referrers.xml
 
 詳しくは、[ ヘルプの「](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html)内部 URL フィルター[!DNL Admin Console]」を参照してください。
 
->[!NOTE]
->
->Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. 例えば [!DNL https://mail.yahoo.com] からの訪問は、プロトコルが [!DNL https://] :// なので、電子メールリファラーとしてカウントされません。Outlook からの電子メールは「手動入力 / ブックマーク」行に表示されますが、ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「検索エンジン」行に表示されます。
+> [!NOTE] Reports &amp; Analyticsは、訪問者がプロトコルを含む電子メールメッセージリンクをクリックしてサイトに到着した場合、または訪問者がそのリファラードメ [!DNL imap://] インを電 [!DNL mail://] 子メールとして記録します。 例えば [!DNL https://mail.yahoo.com] からの訪問は、プロトコルが [!DNL https://] :// なので、電子メールリファラーとしてカウントされません。Outlook からの電子メールは「手動入力 / ブックマーク」行に表示されますが、ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「検索エンジン」行に表示されます。
 
 ## リファラータイプ {#concept_689E42D8F96C450DA41C7167C7388198}
 
-各訪問における訪問者の参照サイトを追跡して記録することで、各訪問で訪問者がどのようにしてサイトを見つけたかを知ることができます。
+各訪問に関する訪問者の参照サイトを追跡して記録することで、訪問者が各訪問でサイトを見つけた方法を知ることができます。
 
 <!-- 
 
@@ -120,7 +118,7 @@ c_reports_ref_types.xml
 * **&#x200B;手動入力/ブックマークリファラーは、次の場合に記録されます。
 
    * 訪問者がブラウザー以外のリンク（例：電子メールのリンク）を通じてサイトに入る場合。
-   * 訪問者がブラウザーに直接サイトの URL を入力する場合。
+   * 訪問者がブラウザーにサイトのURLを直接入力した場合。
    * 訪問者が個人のハードドライブ上にある HTML リンクをクリックする場合。
    * 訪問者がブラウザーのブックマークを選択してサイトにアクセスする場合。
 
@@ -134,7 +132,5 @@ c_reports_ref_types.xml
 
 **USENET（ニュースグループ）**：これは、リファラーの URL が `news://` :// で始まっていたことを意味します。つまり、リファラーリンクは Web ページではなく USENET ニュースグループで投稿されました。
 
->[!NOTE]
->
->Referrer Type logic matches other traffic sources reports (such as [!UICONTROL Referrers] and [!UICONTROL Referring Domains]). この変更によって、[!UICONTROL リファラータイプ]レポートの「サイト内」と「JavaScript が有効になっていません」という行項目の発生が減少するか、発生されなくなります。
+> [!NOTE] リファラータイプロジックは、他のトラフィックソースレポート(リファラ [!UICONTROL ー] 、参照ド [!UICONTROL メインなど])に一致します。 この変更によって、[!UICONTROL リファラータイプ]レポートの「サイト内」と「JavaScript が有効になっていません」という行項目の発生が減少するか、発生されなくなります。
 
