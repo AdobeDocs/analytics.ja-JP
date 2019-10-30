@@ -3,9 +3,9 @@ description: ディメンション間のフローを使用すると、様々な�
 seo-description: ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを検証できます。
 seo-title: ディメンション間のフロー
 title: ディメンション間のフロー
-uuid: 51d08531-1c56-46c7- b505- bd8d5e6aa6c1
+uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 アプリの使用例と Web の使用例の 2 つについて見ていきます。
 
-## Use case one: app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## 使用例1:app {#section_3D31D37B9C9F4134AE46C96291E41294}
 
 返される上位の項目が [!UICONTROL ItemAdded] で、[!UICONTROL アクション名]ディメンションがフローに追加されました。
 
@@ -50,7 +50,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 これにより、深いインサイトが可能になり、分析するアプリに対する変更の可能性を考慮できます。
 
-## Use case two: web {#section_8D55983FA0C84926995270052AE01CD8}
+## 使用例2:web {#section_8D55983FA0C84926995270052AE01CD8}
 
 この使用例は、最も多くのエントリを Web サイトに導くキャンペーンをどのようにして分析できるかを示します。
 
