@@ -7,8 +7,8 @@ solution: Analytics
 title: ID サービス
 topic: 開発者と実装
 uuid: 8ae013d4-d5a9-4b20-bf3b-145f0dcc3d6d
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ID サービスは、従来の Analytics 訪問者 ID メカニズムに代わるものであり、[!UICONTROL ハートビート]ビデオ指標、Target と Analytics の統合および今後の Experience Cloud コアサービスと統合で必須となる機能です。
 
-このサービスに関する製品ドキュメントについては、「[ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)」を参照してください。
+このサービ [スに関する製品ドキュメントについては](https://marketing.adobe.com/resources/help/en_US/mcvid/) 、「IDサービス」を参照してください。
