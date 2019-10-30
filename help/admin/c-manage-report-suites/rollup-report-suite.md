@@ -5,9 +5,9 @@ seo-title: ロールアップレポートスイートとグローバルレポー
 solution: Analytics
 title: ロールアップレポートスイートとグローバルレポートスイート
 topic: 管理ツール
-uuid: c90b8e38-2c95-4318-8165- a362106b6142
+uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
