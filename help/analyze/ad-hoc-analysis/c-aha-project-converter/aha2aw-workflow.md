@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Ad Hoc Analysisのプロジェクトの変換
-title: Ad Hoc Analysisのプロジェクトの変換
-uuid: 20bd9974-209e-457c-9e52- d50f90078af6
+seo-title: Ad Hoc Analysis のプロジェクトの変換
+title: Ad Hoc Analysis のプロジェクトの変換
+uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Ad Hoc Analysisのプロジェクトの変換
+# Ad Hoc Analysis のプロジェクトの変換
 
-## Convert your projects in Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## Ad Hoc Analysis のプロジェクトの変換 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 プロジェクトを変換する前に、以下の点に注意してください。
 
