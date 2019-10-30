@@ -8,8 +8,8 @@ subtopic: プラグイン
 title: getPreviousValue
 topic: 開発者と実装
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 次のページビューで Analytics 変数の値を取り込みます。例えば、プラグインを使って前のページビューから s.pageName 値を取得して、カスタムトラフィック変数に取り込むことができます。指定した成功イベントがセットされた場合にのみ前の値を取得するオプションもあります。
 
->[!NOTE]
->
->後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+> [!NOTE]後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## プラグインコードと導入 {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -28,7 +26,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **プラグイン構成**
 
-次のコードを  *`s_doPlugins()`* 関数内に配置します。この関数は、「*Plugin Config*」というラベルの付いた *`s_code.js`* ファイルの領域にあります。持続値データを取り込むために、1 つのカスタムトラフィック（s.prop）変数または 1 つのカスタムコンバージョン（s.eVar）変数を選択します。これは Admin Console を使って有効にした変数で、他の目的では使用されていないものを使います。次のサンプルは自分の条件に合わせて変更して使用できます。
+次のコードを *`s_doPlugins()`* 関数内に置いてください。この関数は、*`s_code.js`ファイルの* Plugin Config *という名称の領域にあります。*&#x200B;持続値データを取り込むために、1 つのカスタムトラフィック（s.prop）変数または 1 つのカスタムコンバージョン（s.eVar）変数を選択します。これは Admin Console を使って有効にした変数で、他の目的では使用されていないものを使います。次のサンプルは自分の条件に合わせて変更して使用できます。
 
 `s.prop1=s.getPreviousValue(s.pageName,'gpv_pn','event1');`
 
