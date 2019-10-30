@@ -7,7 +7,7 @@ title: 最頻使用フィルター
 topic: Report Builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,9 +47,9 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    **条件を追加：**&#x200B;式に条件を追加します。追加できる条件の数に制限はありません。
 
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
    ![ステップ情報](assets/choose_page_02.png)
 
 1. 「[!UICONTROL ページを選択]**」で「[!UICONTROL 保存]**」をクリックし、式を保存します。
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
