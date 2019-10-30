@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Audience Analytics の概要
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,11 +33,11 @@ Audience Analytics 統合には次の主要なメリットがあります。
 
 1. デジタルプロパティに訪問者が訪問するたびに、ヒットが収集されて Analytics に送信されます。
 1. With[サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)では、Analytics が受け取った各ヒットが AAM にリアルタイムで自動的に送信されます。
-1. Audience Analytics 統合を通じて、各ヒットについて訪問者のオーディエンスメンバーシップが AAM で検索され、リアルタイムで処理するためにセグメント ID のリストが Analytics に返されます。
+1. Audience Analyticsの統合により、ヒットごとに訪問者のオーディエンスメンバーシップがAAMで検索され、セグメントIDのリストがAnalyticsに返され、リアルタイムで処理されます。
 
 AAM セグメントは同じヒットごとに挿入されるので、AAM で使用可能な訪問者に関するどのデータも欠落することなく、ヒットに対して最新の状態が保たれます。AppMeasurement プラグインでは、これらのセグメントを次のヒットでのみ使用できます（現在のヒットでは使用できません）。Analytics データ収集は、この点で AppMeasurement プラグインより優れています。
 
-また、AAM セグメント ID はわかりやすい名前に自動的に分類されるので、Analytics レポートで英数字の ID を参照する必要はありません。
+また、AAMセグメントIDは、Analyticsレポートで英数字のIDを確認する必要がないように、わかりやすい名前に自動的に分類されます。
 
 ## 前提条件 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
