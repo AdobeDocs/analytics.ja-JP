@@ -6,7 +6,7 @@ solution: Analytics
 title: Target の上昇率と信頼性
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
 
-**[!UICONTROL Analytics &gt; Reports &gt; View All Reports &gt; Adobe Target &gt; Analytics for Target &gt; Target Activities .]**********************
+**[!UICONTROL Analytics]** /Reports **[!UICONTROL /]** View All Reports **[!UICONTROL /Adobe Target]** /Target Target Analytics Target Target Activities/Target Target Target ************ Target Activities
 
 Adobe Target ドキュメントには、[上昇率](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html)と[信頼性](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html)についての詳細な情報が記載されています。
 
