@@ -5,7 +5,7 @@ seo-title: 統合手順と前提条件
 title: 統合手順と前提条件
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
