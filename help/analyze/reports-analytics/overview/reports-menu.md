@@ -5,7 +5,7 @@ seo-title: レポートメニュー
 title: レポートメニュー
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,9 +39,7 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 Tab キーまたは下向き矢印（↓）を押してレポートのリストを移動できます。現在のレポートを変更せずに検索を閉じるには、Esc キーを押します。選択したレポートを読み込むには、Enter キーを押します。
 
->[!NOTE]
->
->また、レポートリストをprop、eVar、イベント番号で検索することもできます。 検索バーに prop、eVar またはイベント番号を入力してください。
+> [!NOTE] また、レポートリストをprop、eVar、イベント番号で検索することもできます。 検索バーに prop、eVar またはイベント番号を入力してください。
 
 ## ナビゲーション概要 {#section_A6A0A369207149BABE504753B48A42D7}
 
