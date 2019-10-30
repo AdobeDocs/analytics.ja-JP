@@ -5,7 +5,7 @@ seo-title: 既存のレポートの設定
 title: 既存のレポートの設定
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
