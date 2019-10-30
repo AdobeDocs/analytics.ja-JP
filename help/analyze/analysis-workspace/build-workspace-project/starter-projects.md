@@ -1,11 +1,11 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: テンプレート一覧
-title: テンプレート一覧
-uuid: d6d1b745- a684-41c1-879b-9f9a9503fe00
+seo-title: テンプレート
+title: テンプレート
+uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ## テンプレート {#topic_40932F09E18A467983AFBB29908E1CB8}
 
-プロジェクトを作成するかどうかを選択できます。
+プロジェクトの作成元を選択できます。
 
-* 空白のプロジェクト（デフォルト）。For instructions, see [Create an Analysis Workspace Project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2).
+* 空白のプロジェクト（デフォルト）。手順については、Analysis Workspaceプ [ロジェクトの作成を参照してください](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)。
 * 標準テンプレート。これらのテンプレートは、アドビによって作成され、標準で提供されます。
 * カスタムテンプレート。これらのテンプレートは、「テンプレートとして保存」権限が与えられている場合に、管理者権限を持つユーザーまたは管理者以外のユーザーが作成できます(See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
@@ -25,12 +25,12 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 * [カスタムテンプレートの作成](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
 * [標準テンプレート](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
 
-## Create a custom template {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## カスタムテンプレートの作成 {#task_279637F56CFD4B6094D7CBDB82FA4835}
 
 管理者権限を持つユーザーは、作成した任意のプロジェクトをカスタムテンプレートに変換できます。その方法を次に示します。
 
 1. そのプロジェクトを開きます。
-1. **[!UICONTROL プロジェクト]** /テンプレートとして **[!UICONTROL 保存に移動]**&#x200B;します。
+1. Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
@@ -38,7 +38,7 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
    >[!NOTE]
    >
-   >デフォルトでは、プロジェクトテンプレートは組織内のすべてのユーザーに表示されます。タグを適用することで、これを整理できます&#x200B;**[!UICONTROL （プロジェクト]** / **[!UICONTROL プロジェクト情報および設定]** に移動して、タグと説明を編集します）。
+   >デフォルトでは、プロジェクトテンプレートは組織内のすべてのユーザーに表示されます。 タグを適用することで、これを整理できます(Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
 
 ### カスタムテンプレートで実行できるアクション
 
@@ -53,7 +53,7 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>テンプレートを編集   template </p> </td> 
+   <td colname="col1"> <p>テンプレートを編集    template </p> </td> 
    <td colname="col2"> <p>管理者は、そのデータソースを変更したり、コンポーネント、ビジュアライゼーション、日付範囲などを変更したりすることで、テンプレートを編集できます。 </p> <p>カスタムテンプレートを編集するには、次のいずれかを実行します。 </p> 
     <ul id="ul_2B3A371F83334E14806385753A360903"> 
      <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">Analysis Workspace でカスタムテンプレートのリストを表示し、カスタムテンプレートを選択して、「<span class="uicontrol">テンプレートを編集</span>」をクリックする。 </li> 
@@ -85,63 +85,61 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
-ワークスペースを初めて開くと、テンプレートは左側のナビゲーションバーに表示されます。Analysis Workspace のテンプレートは、一般的な使用例に対応しています。それらは、所属する部門ごとにグループ化され、選択したレポートスイートに応じて、異なるディメンション、セグメント、指標およびビジュアライゼーションで設定されます。
+最初にワークスペースを開くと、左側のレールでテンプレートを使用できます。 Analysis Workspace のテンプレートは、一般的な使用例に対応しています。それらは、所属する部門ごとにグループ化され、選択したレポートスイートに応じて、異なるディメンション、セグメント、指標およびビジュアライゼーションで設定されます。
 
 これらの事前設定されたテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。
 
-[YouTube上のAnalysis Workspaceの標準テンプレート](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) （2:46）
+[YouTube上のAnalysis Workspaceの標準テンプレート](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-以下に、テンプレートと各テンプレートの回答に役立つ質問を示します。
+以下に、利用可能なテンプレートと各テンプレートに関する質問について説明します。
 
 ### 広告
 
 >[!IMPORTANT]
 >
->広告テンプレートは、レポートスイートが広告クラウドで有効になっている場合にのみ利用できます。
+>広告テンプレートは、レポートスイートがAdvertising cloudに対して有効になっている場合にのみ使用できます。
 
-* **検索エンジン**:このテンプレートは、広告トレンド、広告プラットフォーム、キーワード、アカウント、キャンペーンなどを分類します。
+* **検索エンジン**:このテンプレートは、広告の傾向、広告プラットフォーム、キーワード、アカウント、キャンペーンなどを分類します。
 
 ### コマース
 
-* **Magenting:マーケティングとコマース**:このテンプレートは、マーケティングチャネル属性別のeコマースコンバージョンを分類し、検索キーワード、ランディングページ、地理的場所などによるインサイトを提供します。For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **孫都：マーケティングとコマース**:このテンプレートは、マーケティングチャネルアトリビューション別にeコマースコンバージョンを分類し、検索キーワード、ランディングページ、地理的な場所などによるインサイトを提供します。 ビデオの概要については、/を参照してください。[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### メディア
 
-* **オーディオの消費**:どのコンテンツが最も消費され、ユーザーが関与しているか。
-* **最新性-頻度-忠誠度**:常連読者は誰ですか。
+* **オーディオ消費**:最も消費され、ユーザーの関心を引くコンテンツはどれか。
+* **最新性 — 頻度 — 忠誠度**:常連読者は誰か
 
 ### モバイル
 
 >[!IMPORTANT]
 >
->モバイルテンプレートは、レポートスイートがモバイル用に有効になっている場合にのみ使用できます。
+>モバイルテンプレートは、レポートスイートでモバイルが有効になっている場合にのみ使用できます。
 
-* **メッセージング:** アプリ内およびプッシュメッセージングのパフォーマンスに重点を置きます。
-* **場所:** マップショーの場所データが含まれます。
-* **主要指標:** アプリの主要指標の傾向を把握。
-* **アプリケーションの使用状況:** アプリのユーザー数、起動回数、初回起動数、セッションの長さはどれだけでしたか。
-* **獲得:** モバイル獲得リンクのパフォーマンスを確認します。
-* **パフォーマンス:** アプリはどのように動作し、ユーザーはどこに問題を抱えているか。
-* **リテンション:** 常連ユーザーは誰で、何を行うか。
-* **ジャーニー:** アプリの主な使用パターンはどれか。
+* **** メッセージ：アプリ内メッセージングとプッシュメッセージングのパフォーマンスに重点を置いています。
+* **** 場所：マップ表示場所データが含まれます。
+* **** 主要指標：アプリの主要指標のパルスを維持します。
+* **** アプリの使用状況：アプリのユーザー数、起動回数、初回起動回数、セッションの平均長はどれだけか。
+* **** 獲得：モバイルダウンロード計測用リンクのパフォーマンスを確認します。
+* **** パフォーマンス：アプリのパフォーマンスと、ユーザーが問題を抱えている場所
+* **** リテンション：常連ユーザーは誰で、何をしているか。
+* **** ジャーニー：アプリの顕著な使用パターンは何ですか。
 
 ### 小売
 
-* **キャンペーンのパフォーマンス:** 最も売上高をもたらしているキャンペーンは何か。
-* **製品:** どの製品が最高のパフォーマンスを発揮しているか。
+* **** キャンペーンのパフォーマンス：最も売上高を増やしているのはどのキャンペーンか。
+* **** 製品：最もパフォーマンスの高い商品はどれか。
 
 ### Web
 
-* **獲得:** Webサイトへのトラフィックの最上位のドライバーは何ですか。
-* **コンテンツ消費:** サイトで人々が最もよく行く場所は何か。
-* **リテンション:** サイトの常連ユーザーになる可能性の高いユーザーはどのタイプか。
-* **技術:** サイトにアクセスするために人々が使用しているテクノロジーは何か。
+* **** 獲得：自社のWebサイトに最もトラフィックが多いのは何か。
+* **** コンテンツ消費：訪問者がサイトで最も多く訪れている場所はどれか。
+* **** リテンション：サイトの常連ユーザになりそうなユーザのタイプは何か。
+* **** 技術：訪問者がサイトにアクセスするために使用しているテクノロジーは何か。
 
 ### People
 
->[!NOTE]
->
->The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+> [!NOTE] 人物テンプレートとその関連する人物指標は、 [Adobe Experience Cloud Device Co-opの一部としてのみ使用できます](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)。
 
 このテンプレートは、実訪問者指標の重複を排除したバージョンである人の指標に基づいています。人の指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。このテンプレートでは次の操作が可能です。
 
