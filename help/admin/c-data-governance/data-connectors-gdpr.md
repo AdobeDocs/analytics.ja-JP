@@ -1,26 +1,24 @@
 ---
 description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
 seo-description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
-seo-title: Data Privacy and Data Connectors(Genesis)
-title: Data Privacy and Data Connectors(Genesis)
+seo-title: データプライバシーと Data Connector（Genesis）
+title: データプライバシーと Data Connector（Genesis）
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Data Privacy and Data Connectors(Genesis)
+# データプライバシーと Data Connector（Genesis）
 
 このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
 
-この情報を使用すると、直接識別可能なデータや、コネクタを介してインポートされた間接的に識別可能なデータを、データプライバシーリクエストを受け取ったときに識別できます。
+この情報により、データプライバシー要求を受信する際に、アドビのコネクタを使用して読み込まれた、個人を直接的または間接的に特定できるデータを識別できます。
 
 次のいずれかのコネクタの統合を使用している場合、統合のどのパートナー変数／分類が潜在的に個人を直接的または間接的に特定できるデータを含んでいる可能性があるかを簡単にチェックできます。
 
->[!NOTE]
->
->This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
+> [!NOTE]この情報は、[ラベル設定](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)が必要な変数を特定するのに役立ちますが、データコントローラーは、適切なラベルを適用したり、[データプライバシー対応状況](/help/admin/c-data-governance/an-gdpr-overview.md)（分類の更新など）に関するその他のアクションを実行したりする必要があります。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
