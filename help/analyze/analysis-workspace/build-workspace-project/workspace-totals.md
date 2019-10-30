@@ -1,26 +1,26 @@
 ---
-description: How Workspace totals are calculated.
+description: Workspaceの合計の計算方法。
 seo-description: Workspaceの合計の計算方法を説明します。
-seo-title: How Workspace totals are calculated.
+seo-title: Workspaceの合計の計算方法。
 title: ワークスペースの合計
 translation-type: tm+mt
-source-git-commit: b2e76715a2bab0931b1ddf8c612c29eea530ce6c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # ワークスペースの合計
 
-In Freeform tables, a total row appears at each breakdown level and can show two totals:
+フリーフォームテーブルでは、合計行が各分類レベルに表示され、2つの合計を示すことができます。
 
-* **[!UICONTROL 総合計]** （灰色の「不足」数） — この合計は、収集されたすべてのヒットを表し、「レポートスイートの合計」とも呼ばれます。 When a segment is applied either at the panel level or within the freeform table, this total adjusts to reflect all hits that match the segment criteria.
-* **[!UICONTROL Table Total (black number) - this total is typically equal to or a subset of the Grand Total.]**「なしを含む」オプションなど、フリーフォームテーブル内で適用されたすべてのテー [!UICONTROL ブルフィルタ] を反映します。
+* **[!UICONTROL 総合計]** （灰色の「不足」数） — この合計は、収集されたすべてのヒットを表し、「レポートスイートの合計」とも呼ばれます。 セグメントがパネルレベルまたはフリーフォームテーブル内で適用されると、この合計は、セグメント条件に一致するすべてのヒットを反映するように調整されます。
+* **[!UICONTROL テーブル合計]** （黒い数字） — 通常、この合計は総合計と等しいか、またはそのサブセット [!UICONTROL です]。 「なしを含む」オプションなど、フリーフォームテーブル内で適用されたすべてのテー [!UICONTROL ブルフィルタ] を反映します。
 
 ![](assets/total-row.png)
 
-## Display Total Setting
+## 合計設定を表示
 
-Under Column Settings, there are options to Show Totals and Show Grand Total. ************&#x200B;これらの設定がオフの場合、合計は表から削除されます。 これは、特定の計算指標のシナリオなどで合計が意味を持たない場合に [必要です](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)。
+[列の設 **[!UICONTROL 定]**]の下に、[合計を表示 **と[総合計を表]** 示]のオプションがあ **[!UICONTROL ります]**。 これらの設定がオフの場合、合計は表から削除されます。 これは、特定の計算指標のシナリオなどで合計が意味を持たない場合に [必要です](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)。
 
 ![](assets/column-settings-total.png)
 
