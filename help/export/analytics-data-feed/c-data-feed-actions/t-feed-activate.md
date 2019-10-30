@@ -1,13 +1,13 @@
 ---
 description: 一時停止した、または非アクティブなフィードをアクティブ化できます。
-keywords: データフィード;フィード;アクティブ化
+keywords: データフィード；フィード；アクティブ化
 seo-description: 一時停止した、または非アクティブなフィードをアクティブ化できます。
 seo-title: フィードのアクティブ化
 solution: Analytics
 title: フィードのアクティブ化
-uuid: f7bd977e-3004-4134- a1fb-07f1f7c516ea
+uuid: f7bd977e-3004-4134-a1fb-07f1f7c516ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
