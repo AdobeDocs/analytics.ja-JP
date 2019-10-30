@@ -5,9 +5,9 @@ seo-title: 特定のフィルター
 solution: Analytics
 title: 特定のフィルター
 topic: Report Builder
-uuid: b3a8187a-3d59-4da0- abca- e933664332e3
+uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
 
    ![手順の結果](assets/dimension_filter.png)
 
-1. [!UICONTROL リクエストウィザード:手順2]で、グリッド内のディメンションの横にあるリンクをクリックし、「フィルター」を選択 ****&#x200B;します。
+1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
 
    ![手順の結果](assets/choose_page_specific01.png)
 
-1. **[!UICONTROL 「特定の」を有効に]**&#x200B;して、次のいずれかのオプションを有効にします。
+1. Enable **[!UICONTROL Specific]**, then enable one of the following options:
 
    * **セル範囲から選択：**&#x200B;セルからデータを選択します。以下を選択できます。
    * **範囲内のすべてのセル：**&#x200B;範囲内のすべてのセルからフィルター条件を読み取ります。説明テキストでは、選択する必要のあるセルのグループ数が指定されます。隣接しない複数の領域を指定するには、Ctrl キーを押しながらセル範囲を指定します。マッピングする必要のある範囲に含まれるセルが 1 つのみである場合は、使用できるのはこのオプションだけになります。
