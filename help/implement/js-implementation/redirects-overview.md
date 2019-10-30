@@ -8,8 +8,8 @@ subtopic: リダイレクト
 title: リダイレクトとエイリアス
 topic: 開発者と実装
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,7 +41,7 @@ redirects_sc.xml
 * [例：リダイレクトを使用しない場合のブラウザーでの表示](../../implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
 * [例：リダイレクトを使用する場合のブラウザーでの表示](../../implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
 
-## 例：リダイレクトを使用しない場合のブラウザーでの表示{#section_5C835A4D665A4625A23333C2C21F152D}
+## 例：リダイレクトを使用しない場合のブラウザーでの表示 {#section_5C835A4D665A4625A23333C2C21F152D}
 
 次に示す仮定のシナリオについて検討してください。このシナリオでは、ユーザーがリダイレクトされることはありません。
 
@@ -124,7 +124,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-ブラウザーによって参照元 URL が取り除かれるので、リダイレクトをおこなうメカニズム（Web サーバー、サーバーサイドのコード、クライアントサイドのコードなど）で、オリジナルリファラーの情報が渡されるように設定する必要があります。エイリアスリンクの URL も記録したい場合、この URL も最終的なランディングページに渡す必要があります。*`s_pageURL`* 変数を使用して、現在の URL に優先させます。
+ブラウザーによって参照元 URL が取り除かれるので、リダイレクトをおこなうメカニズム（Web サーバー、サーバーサイドのコード、クライアントサイドのコードなど）で、オリジナルリファラーの情報が渡されるように設定する必要があります。エイリアスリンクの URL も記録したい場合、この URL も最終的なランディングページに渡す必要があります。を使用します。*`s_pageURL`* 変数を使用して、現在の URL に優先させます。
 
 リダイレクトの実装には多くの方法があるので、Web オペレーショングループやオンライン広告パートナーと協力して、貴社の Web サイトでリダイレクトが実行されるメカニズムを特定する必要があります。
 
@@ -149,7 +149,7 @@ s.pageName=""
 s.server="" 
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
-// Setting the s.pageURL variable is optional. 
+// Setting the s.pageURL variable is optional.
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
@@ -163,7 +163,7 @@ redirects_verify_referrer.xml
 
 リファラー、発信元 URL（*`s_server`*）およびキャンペーン変数が取り込まれていることを確認するために、テストを実行します。
 
-これらの変数は、[Experience Cloud Debugger](https://marketing.adobe.com/resources/help/ja_JP/experience-cloud-debugger/) では次のパラメーターとして表示されます。
+These variables will be represented as the following parameters in the [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
