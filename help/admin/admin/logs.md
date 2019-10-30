@@ -5,9 +5,9 @@ seo-title: ログ
 solution: Analytics
 title: ログ
 topic: 管理ツール
-uuid: d5d4723d- f4cf-403e- ae9c-76d7faed2be6
+uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL ログ]**
+**[!UICONTROL Analytics]** /管理 **[!UICONTROL 者]** /ロ **[!UICONTROL グ]**
 
 ## 管理ログ {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
