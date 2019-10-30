@@ -3,7 +3,7 @@ description: このセクションは Adobe Analytics 管理者を対象とし�
 seo-description: このセクションは Adobe Analytics 管理者を対象としています。新しいリンクトラッキングパラメーターについて説明し、それによって異なるブラウザー間、デバイス間でのリンクの一意性と一貫性を確保し、ページ上でのリンクの再配置の処理を向上する方法を示します。
 seo-title: リンクトラッキング手法
 solution: Analytics
-title: リンクトラッキング手法
+title: リンクトラッキング 方法論
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
