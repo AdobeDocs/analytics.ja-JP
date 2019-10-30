@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: アラートビルダー
 title: アラートビルダー
-uuid: ebc2d457-4abd-4b1a-9357-489b5ab3f64
+uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,18 +16,18 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 >
 >インテリジェントアラートは、Adobe Analytics PrimeおよびAdobe Analytics Ultimateのお客様のみ利用できます。
 
-## アクセスアラートビルダー
+## アクセスの警告ビルダー
 
 アラートビルダーには、以下の 4 つのうちいずれかの方法でアクセスします。
 
 * Analysis Workspace で以下のショートカットを使用する。
 
    `ctrl (or cmd) + shift + a`
-* **[!UICONTROL ワークスペース]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL 新しいアラート]**&#x200B;に移動します。
+* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
 * By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
 * From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
 
-## アラートの構築
+## アラートの作成
 
 アラートビルダーインターフェイスは、Analytics でセグメントや計算指標を作成していたユーザーにとってなじみのあるものです。
 
@@ -43,9 +43,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 いつ指標がチェックされるかを、1 時間ごと、毎日、毎週または毎月から指定します。
 
->[!NOTE]
->
->カスタムカレンダーのレポートスイートでは、アラートビルダーの毎月の精度はサポートされません。
+> [!NOTE] カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度はサポートされていません。
 
 **受信者**
 
@@ -55,7 +53,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 >
 >The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
 
-アラートがトリガーされるとユーザーが受け取る電子メールは、次のようになります。
+アラートがトリガーされた後にユーザーが受け取る電子メールは、次のようになります。
 
 ![](assets/alerts-email.PNG)
 
@@ -69,7 +67,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 * トリガーを追加するキャンバスに指標をドラッグ＆ドロップします。
 
-   **アラート内のすべてのコンポーネント（指標/ディメンション/セグメント）が現在選択されているレポートスイートと互換性がある場合、«互換性のないコンポーネント»** メッセージが表示されます。
+   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 * アラートが設定される前に指標が超過している必要があるしきい値を指定します。この値をしきい値に設定し、以下のいずれかの条件にすることができます。
 
    * 異常値が存在する
@@ -90,7 +88,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 ギアアイコンをクリックして、AND または OR ルールを追加できます。
 
-## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## アラートのプレビュー {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 インタラクティブアラートプレビューは、過去の経験に基づいて、アラートが実行されるおよその頻度を表示します。
 
