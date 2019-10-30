@@ -5,9 +5,9 @@ seo-title: データソース
 solution: Analytics
 title: データソース
 topic: 管理ツール
-uuid: eab8a22b-5471-4922- b246- c991814c4b8b
+uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
