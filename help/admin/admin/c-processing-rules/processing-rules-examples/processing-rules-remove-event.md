@@ -3,9 +3,9 @@ description: ページ上の変更を実装することなく処理ルールを�
 seo-description: ページ上の変更を実装することなく処理ルールを使用してヒットからイベントを削除または破棄する方法を示します。
 seo-title: ヒットからのイベントの削除
 title: ヒットからのイベントの削除
-uuid: 4c481aa2- d074-4abe- b472-9f685bb1f4a3
+uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ページ上の変更を実装することなく処理ルールを使用してヒットからイベントを削除または破棄する方法を示します。
 
-## Remove an event from a hit {#topic_9548385BFE344FC08CA99718A24FC093}
+## ヒットからのイベントの削除 {#topic_9548385BFE344FC08CA99718A24FC093}
 
 ページ上の変更を実装することなく処理ルールを使用してヒットからイベントを削除または破棄する方法を示します。
 
