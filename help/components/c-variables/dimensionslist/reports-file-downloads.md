@@ -7,7 +7,7 @@ title: ファイルのダウンロード数
 topic: レポート
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 マーケティングレポートは、JavaScript コードが含まれているサイトのページからダウンロードされたファイルの情報を取得します。ただし、ファイルのダウンロードに関する情報をレポートするには、特定の変数が存在し、正しく設定されている必要があります。このレポートにデータが表示されないか、期待した値が示されない場合は、以下の手順で実装を検証してください。
 
-1. サイト上で、グローバル JavaScript ファイルを探します。これは [!DNL s_code.js] という名前であることが多いですが、名前が変更されている場合もあります。If it has been renamed, you can search the JavaScript files on your site for the value , which is a part of the JavaScript code.*`s.account`*
+1. サイト上で、グローバル JavaScript ファイルを探します。これは [!DNL s_code.js] という名前であることが多いですが、名前が変更されている場合もあります。名前が変更されている場合は、サイト上のJavaScriptファイルでJavaScriptコードの一 *`s.account`*&#x200B;部である値を検索できます。
 
 1. ファイル内で、[s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) 変数を見つけます。これが *true* に設定されていることを確認してください。
 
