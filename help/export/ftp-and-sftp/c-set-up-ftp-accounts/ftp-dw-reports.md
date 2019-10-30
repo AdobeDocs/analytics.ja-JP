@@ -2,17 +2,17 @@
 description: Data Warehouse を使用すると、ユーザー固有の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできるようになります。
 keywords: ftp;sftp
 seo-description: Data Warehouse を使用すると、ユーザー固有の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできるようになります。
-seo-title: Data Warehouse配信レポート
+seo-title: Data Warehouse が配信するレポート
 solution: Analytics
-title: Data Warehouse配信レポート
-uuid: 7a26e6f7-51a1-45fb- b53e-8c49c4f84aa6
+title: Data Warehouse が配信するレポート
+uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Data Warehouse配信レポート
+# Data Warehouse が配信するレポート
 
 Data Warehouse を使用すると、ユーザー固有の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできるようになります。
 
