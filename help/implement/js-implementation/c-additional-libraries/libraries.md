@@ -1,6 +1,6 @@
 ---
 description: 使用できる測定ライブラリを示します。
-keywords: Analytics Implementation;collect;data;collection
+keywords: Analytics の導入, 収集, データ, コレクション
 seo-description: 使用できる測定ライブラリを示します。
 seo-title: 追加のライブラリの概要
 solution: Analytics
@@ -8,7 +8,7 @@ title: 追加のライブラリの概要
 topic: 開発者と実装
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
  <tbody> 
   <tr> 
    <td colname="col1"> Web ブラウザー </td> 
-   <td colname="col2"> <p>Experience Cloud のすべてのお客様は <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="https" scope="external">Dynamic Tag Management</a> を利用できます。これは、すべてのソリューションの JavaScript タグと HTML ページタグを Web サイトに導入する方式の標準機能です。 </p> <p>JavaScript と HTML の測定を導入する他の方法については、<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/" format="http" scope="external">Analytics の導入ガイド</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>Experience Cloud のすべてのお客様は <a href="https://marketing.adobe.com/resources/help/en_US/dtm/" format="https" scope="external">Dynamic Tag Management</a> を利用できます。これは、すべてのソリューションの JavaScript タグと HTML ページタグを Web サイトに実装する方式の標準機能です。 </p> <p>JavaScript と HTML の測定を導入する他の方法については、<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/" format="http" scope="external">Analytics の実装ガイド</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Web サーバー </td> 
@@ -42,7 +42,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> モバイル デバイス </td> 
+   <td colname="col1"> モバイルデバイス </td> 
    <td colname="col2"> <p>iOS、Android、Windows Phone 8、Blackberry、Symbian などのネイティブライブラリが用意されています。 </p> 
     <ul id="ul_DB6A44A2FF724B5BB36973FDFB8353A5"> 
      <li id="li_2B97BA81591747638D620A23881411F6"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/" format="http" scope="external">iOS AppMeasurement 4.x</a>（最新バージョン） </li> 
