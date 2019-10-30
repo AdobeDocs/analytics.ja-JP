@@ -3,7 +3,7 @@ description: '[!DNL Activity Map]でのリンクトラッキングに関する�
 seo-description: '[!DNL Activity Map]でのリンクトラッキングに関するよくある質問(FAQ)です。'
 seo-title: リンクトラッキングの FAQ
 solution: Analytics
-title: リンクトラッキングの FAQ
+title: リンクトラッキングFAQ
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
@@ -48,7 +48,7 @@ Here are some known cases where PII data might be collected using [!DNL Activity
    <td colname="col1"> <b>質問：[!DNL Activity Map]は、他の視覚的なHTML要素をどのように追跡しますか？</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>関数を使 <code> s.tl() </code> 用</b> <p>s.tl呼び出しを通じてクリックが発生した場合、[!DNL Activity Map]もこのクリックイベントを受け取り、linkName文字列変数が見つかったかどうかを判断します。 s.tlの実行中、そのlinkNameは[!DNL Activity Map]リンクIDとして設定されます。 クリックされた、s.tl() 呼び出しを起源とする要素は、領域を特定するために使用されます。例を以下に示します。 </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>関数を使 <code> s.tl() </code> 用</b> <p>s.tl呼び出しを通じてクリックが発生した場合、[!DNL Activity Map]もこのクリックイベントを受け取り、linkName文字列変数が見つかったかどうかを判断します。 s.tlの実行中、そのlinkNameは[!DNL Activity Map]リンクIDとして設定されます。 クリックされた、s.tl() 呼び出しを起源とする要素は、領域を特定するために使用されます。例： </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
