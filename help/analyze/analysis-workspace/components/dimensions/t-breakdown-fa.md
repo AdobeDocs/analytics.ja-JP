@@ -5,10 +5,10 @@ seo-description: Analysis Workspace のディメンションおよびディメ�
 seo-title: ディメンションの分類
 solution: Analytics
 title: ディメンションの分類
-topic: Reports and Analytics
-uuid: 0b888e26- f201-4405-99f9-755b3ee6cd18
+topic: Reports & Analytics
+uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,8 +28,8 @@ Analysis Workspace のディメンションおよびディメンション項目�
 
    >[!NOTE]
    >
-   >表に表示する分類の数は200に制限されています。この制限は、分類をエクスポートする場合は増加します。
+   >テーブルに表示する分類の数は200までに制限されています。 この制限は、分類をエクスポートする場合は増加します。
 
-[YouTube上のAnalysis Workspaceのディメンション](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) （4:54）
+[YouTube上のAnalysis Workspaceのディメンション](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
-[YouTubeでのディメンション分類](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) （2:02）
+[YouTubeでのディメンションの分類](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
