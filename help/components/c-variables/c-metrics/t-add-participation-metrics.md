@@ -5,9 +5,9 @@ seo-title: パーティシペーション指標の追加
 solution: Analytics
 title: パーティシペーション指標の追加
 topic: 指標
-uuid: 0cadc5f7-64d0-442a-8faf- b3bf13f04434
+uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Participation has to be [enabled](../../../components/c-variables/c-metrics/metr
 
 1. ログインして、要求したパーティシペーション指標に関するコンバージョンレポートまたはトラフィックレポートに移動します。
 1. Click **[!UICONTROL Add Metrics]**.
-1. **[!UICONTROL 指標タイプ]** メニューで **[!UICONTROL 、「パーティシペーション]**」を選択します。
+1. Under the **[!UICONTROL Metric Type]** menu, select **[!UICONTROL Participation]**.
 1. Drag the desired participation metrics to the columns canvas, then click **[!UICONTROL OK]**.
 
    結果のレポートに、パーティシペーション指標と割合（%）および括弧で囲まれた数値が表示されます。
