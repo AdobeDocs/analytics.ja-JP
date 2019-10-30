@@ -7,7 +7,7 @@ title: リアルタイムレポート
 topic: Report Builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,5 @@ Web ページトラフィックをリアルタイムで表示し、ページビ�
 
 リアルタイム機能には、ユーザーおよびグループの権限が適用されます。例えば、売上高の表示権限を持たないユーザーは、売上高データを含むリアルタイムレポートを表示できません。eVar（コンバージョン指標）はサポートされていません。リアルタイム機能の権限を有効にするには、[管理ツール](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html)を使用します。
 
->[!NOTE]
->
->[!UICONTROL リアルタイムレポートは] 、以前にリリースした「現在のデータを含む」 [](https://marketing.adobe.com/resources/help/en_US/arb/options.html) （データ最新性）機能とは異なります。これにより、標準レポートの待ち時間が短縮され、データが確定される前に表示されます。
+> [!NOTE] リアルタ [!UICONTROL イムレポートは][](https://marketing.adobe.com/resources/help/en_US/arb/options.html) 、以前にリリースした「現在のデータを含む」（データ最新性）機能とは異なります。これにより、標準レポートの遅延が減少し、データが確定される前にデータが表示されます。
 
