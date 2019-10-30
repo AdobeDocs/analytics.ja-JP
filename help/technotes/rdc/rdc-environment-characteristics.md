@@ -1,23 +1,23 @@
 ---
 title: RDC 環境特性
-seo-title: Adobe Analytics RDC環境特性
+seo-title: Adobe Analytics RDC環境の特性
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # RDC環境の特性
 
-地域データ収集（RDC）環境には、以下のような特性が含まれています。
+地域データ収集(RDC)環境には、次に示す特徴が含まれます。
 
 ## パフォーマンスの向上
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
+RDCを使用する場合の現在の応答時間については、 [Adobe Analyticsリクエストのパフォーマンスを参照してください](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/)。
 
-一般に、RDCの応答時間の改善は次のようになります。
+一般に、ユーザーは次のようにRDCで応答時間が改善されています。
 
 | 地域 | RDC による応答時間短縮率 |
 | --- | --- |
@@ -41,9 +41,9 @@ For current response times when using RDC, see [Adobe Analytics Request Performa
 
 既存のサイトは、ファーストパーティ Cookie を使って実装されている場合と、サードパーティ Cookie を使って実装されている場合があります。ファーストパーティ Cookie について詳しくは、[こちら](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html)を参照してください。
 
-## セキュリティで保護されたページ
+## セキュリティで保護されているページ
 
-サイトにhttpsプロトコルを使用するページが含まれている場合、ページはセキュリティで保護されています。Adobe Analyticsによって追跡されるページビューのほとんどは、httpsプロトコルを使用して保護されます。セキュリティで保護されたページをトラッキングするには、SSL 証明書が必要となります。WebプロパティでサードパーティCookieを使用している場合、セキュリティで保護されたページではアドビが所有するSSL証明書を使用します。これにより、FPSSL実装なしでデータ収集サーバーに安全にデータを送信できます。
+サイトにhttpsプロトコルを使用するページが含まれている場合は、セキュリティで保護されたページが存在します。 Adobe Analyticsで追跡されるページビューのほとんどは、httpsプロトコルを使用して保護されます。 セキュリティで保護されたページをトラッキングするには、SSL 証明書が必要となります。WebプロパティでサードパーティCookieを使用している場合、セキュアページではアドビが所有するSSL証明書が使用され、FPSSL実装を使用せずにデータを安全にデータ収集サーバーに送信できます。
 
 ## DNS 変更（CNAME の変更）
 
