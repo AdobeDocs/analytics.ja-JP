@@ -3,9 +3,9 @@ description: 仮想レポートスイートをキュレートして、Analysis W
 seo-description: 仮想レポートスイートをキュレートして、Analysis Workspace で利用可能なコンポーネントを限定できます。
 seo-title: 仮想レポートスイートコンポーネントのキュレーション
 title: 仮想レポートスイートコンポーネントのキュレーション
-uuid: 6c6a4071-22ad-4e8c- b1ed-140b2aa04f76
+uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,13 +14,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 仮想レポートスイートをキュレートして、Analysis Workspace で利用可能なコンポーネントを限定できます。
 
->[!NOTE]
->
->キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイート（VRS）で、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. [更新されたキュレーション機能](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html)により、どのコンポーネントを表示できるかをより詳細に制御できます。
+> [!NOTE]キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイート（VRS）で、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. [更新されたキュレーション機能](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html)により、どのコンポーネントを表示できるかをより詳細に制御できます。
 
 コンポーネントのキュレーションを有効にするには、次の手順に従います。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL 仮想レポートスイート]** /新しい仮想レポートスイート **[!UICONTROL を作成に移動]**&#x200B;します。
+1. **[!UICONTROL Analytics]** /コンポーネント **[!UICONTROL /仮想レポートスイート]** / ********&#x200B;新しい仮想レポートスイートを作成に移動します。
 1. **[!UICONTROL 設定]**&#x200B;を定義したら、「**コンポーネント[!UICONTROL 」タブをクリックします。]**
 
 1. Select the checkbox **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
@@ -33,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL DataWarehouse]
+   * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics レポート API
    このチェックボックスを選択した後は、「除外されたコンポーネント」列から「含まれるコンポーネント」列にコンポーネントをドラッグすることで、任意のコンポーネントを仮想レポートスイートに追加できます。仮想レポートスイートに含めるかどうかを選択できるコンポーネントは次のとおりです。
