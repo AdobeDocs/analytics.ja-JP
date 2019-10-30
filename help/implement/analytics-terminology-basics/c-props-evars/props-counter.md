@@ -7,8 +7,8 @@ solution: Analytics
 title: カウンターとしての prop の使用
 topic: 開発者と実装
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,13 +29,9 @@ s.prop1="RealPlayer"
 s.prop1="WindowsMP"
 ```
 
->[!NOTE]
->
->75 個までの [!UICONTROL s.prop] 変数が提供されます。
+> [!NOTE]75 個までの [!UICONTROL s.prop] 変数が提供されます。
 
 訪問者がサイトに来訪して Real Player または Windows Media Player を含むページにアクセスすると、[!DNL Analytics] では、訪問したページに基づいてユーザーをセグメント化できます。[!UICONTROL カスタムトラフィック]レポートに、各ページの訪問数が表示されます。
 
->[!NOTE]
->
->[!UICONTROL カスタムトラフィック]レポートの名前はカスタマイズできます。例えば、[!UICONTROL カスタムトラフィック]レポートの名前を「プレイヤータイプレポート」に変更できます。
+> [!NOTE][!UICONTROL カスタムトラフィック]レポートの名前はカスタマイズできます。例えば、[!UICONTROL カスタムトラフィック]レポートの名前を「プレイヤータイプレポート」に変更できます。
 
