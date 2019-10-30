@@ -7,8 +7,8 @@ solution: Analytics
 title: getLoadTime
 topic: 開発者と実装
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 このプラグインを使用するには、関数のコードを挿入し、[!DNL s_code.js] ファイル内でその関数を 2 回呼び出します。1 回目はファイルの先頭で、2 回目は `doPlugins` セクションで呼び出します。このプラグインは意図的に s オブジェクトのメソッドとして定義されていません。s オブジェクトのメソッドとして定義した場合には、算出されるページ読み込み時間が長くなってしまうためです。
 
->[!NOTE]
->
->後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+> [!NOTE]後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## プラグインコードと導入 {#section_968AC379C3004C359A85AFED5A48D5AE}
 
