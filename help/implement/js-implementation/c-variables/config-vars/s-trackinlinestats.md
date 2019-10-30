@@ -5,7 +5,7 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
  変数は、ClickMap データを収集するかどうかを決定します。
 
-If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null.
+*`trackInlineStats`* が「true」の場合、ページおよびクリックされたリンクのデータが、s_sq という cookie に保存されます。false の場合、s_sq には "[[B]]" の値（null と見なされる）がセットされます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
