@@ -8,7 +8,7 @@ title: 下位分類とルールビルダー - 使用事例
 topic: 管理ツール
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,9 +47,7 @@ t_rule_builder_subclass.xml
 
 ルールビルダーを使用して下位分類をアップロードする方法についての手順の例を説明します。
 
->[!NOTE]
->
->次の手順では、下位分類とルールビルダーで説明した使用例 [を達成する方法を説明します](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)。
+> [!NOTE] 次の手順では、下位分類とルールビルダーで説明した使用例 [を達成する方法を説明します](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)。
 
 1. [分類マネージャー](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)で、分類と下位分類を作成します。
 
@@ -76,13 +74,13 @@ t_rule_builder_subclass.xml
 
    例：
 
-   | キー | チャネル | Broad Campaign code | Broad Campaign code &amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
+   | キー | チャネル | Broad Campaign code | Broad Campaign code &amp;Hat;Campaign type | Broad Campaign code &amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Brand | Suzanne |  |
    | * |  | 222 | Brand | Frank |  |
 
 1. 参照テーブルをメンテナンスするために、（この例のような）小さなファイルをアップロードします。
 
-   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. このファイルは、以前に分類した値に適用されます。同様に、新しい下位分類を作成する（例えば  *`Creative Theme`* as a sub-classification of *`Creative code`*), you upload only the sub-classification file, rather than the entire classification file.
+   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. このファイルは、以前に分類した値に適用されます。同様に、新しい下位分類を作成する（例えば  の副分 *`Creative Theme`* 類として)、分類フ *`Creative code`*&#x200B;ァイル全体ではなく、副分類ファイルのみをアップロードします。
 
    レポーティングでは、これらの下位分類はトップレベル分類と同様に機能します。これにより、分類の利用に必要となる管理上の負荷が軽減されます。
