@@ -1,25 +1,23 @@
 ---
-description: 'さらに多くのデータを計測したいのに十分な変数がないという場合のために、利用できる eVar および成功イベントの数が増えました。 '
+description: '追加の情報を追跡する必要があるが、そのための十分な変数がない場合、追加のeVarおよび成功イベントにアクセスできるようになりました。 '
 keywords: Analytics の実装, evar, イベント, evar の数, evar 数, イベント数
-seo-description: 'さらに多くのデータを計測したいのに十分な変数がないという場合のために、利用できる eVar および成功イベントの数が増えました。 '
+seo-description: '追加の情報を追跡する必要があるが、そのための十分な変数がない場合、追加のeVarおよび成功イベントにアクセスできるようになりました。 '
 seo-title: 追加された eVar およびイベント
 solution: Analytics
 title: 追加された eVar およびイベント
 topic: 開発者と実装
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 追加された eVar およびイベント
 
-さらに多くのデータを計測したいのに十分な変数がないという場合のために、利用できる eVar および成功イベントの数が増えました。
+追加情報を追跡する必要があるが、そのための十分な変数がない場合、追加のeVarおよび成功イベントにアクセスできるようになりました。
 
->[!NOTE]
->
->H-Code は、これらの追加の eVar およびイベントをサポートしていません。
+> [!NOTE]H-Code は、これらの追加の eVar およびイベントをサポートしていません。
 
 ## カスタムディメンションおよびイベントの利用条件 {#section_869EC3D8A5614036A9C586F2B74FA7DC}
 
@@ -48,9 +46,9 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 * **すべての Adobe Analytics インターフェイスでこれらの新しい変数に即時アクセスできますか。**&#x200B;これらのインターフェイスから、[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL Ad Hoc Analysis]、API、および [!UICONTROL Data Workbench] に即時アクセスできます。
 
-* **追加された eVar およびイベントは、自分のデータフィードに自動的に表示されますか。**&#x200B;新しい変数およびイベントを有効にすると、データフィードで利用可能になります。新しい eVar 列は、ユーザーがそれらを含めるよう選択するまで表示されません。しかし、新しいイベントは、有効になるとすぐに event_list 列に表示され、そのイベント ID に対するイベント名がイベント検索テーブルに格納されます。データフィードで取り込んで処理する準備ができるまでは、新しいイベントを有効にしないでください。
+* **追加された eVar およびイベントは、自分のデータフィードに自動的に表示されますか。**&#x200B;新しい変数およびイベントを有効にすると、データフィードで利用可能になります。新しい eVar 列は、ユーザーがそれらを含めるよう選択するまで表示されません。ただし、新しいイベントは有効になるとすぐにevent_list列に表示され、イベント参照テーブルにはそれらのイベントIDのイベント名が含まれます。 データフィードで取り込んで処理する準備ができるまでは、新しいイベントを有効にしないでください。
 
-* **新しいデータフィード列をリクエストするにはどうすればよいですか。**&#x200B;新しい列をリクエストするには、「[データフィードの設定](https://marketing.adobe.com/resources/help/ja_JP/sc/clickstream/datafeeds_configure.html)」を参照してください。
+* **新しいデータフィード列をリクエストするにはどうすればよいですか。**&#x200B;新しい列をリクエストする方法については、[データフィードの設定](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_configure.html)を参照してください。
 
 * **現在 200 個以上の eVar を有効にしている Analytics Ultimate ユーザーが Analytics Prime に戻るとどうなりますか。**&#x200B;アドビによって既存の eVar が無効化されることはありませんが、追加で有効にすることはできなくなります。eVar を無効にすると、有効になっている eVar の数が Analytics Prime の上限である 200 個を下回るまで、該当の eVar を再度有効にすることはできません。
 
