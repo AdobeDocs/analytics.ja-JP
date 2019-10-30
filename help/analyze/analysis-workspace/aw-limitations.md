@@ -1,59 +1,59 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Workspaceの制限事項， Analysis Workspaceの既知の制限
-title: Analysis Workspaceの既知の制限事項
+seo-title: Workspaceの制限、Analysis Workspaceの既知の制限
+title: Analysis Workspaceの既知の制限
 translation-type: tm+mt
-source-git-commit: 9d6b35c7c6de6fcb49fea3b662ff8bc9044b5e29
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Analysis Workspaceの既知の制限事項
+# Analysis Workspaceの既知の制限
 
-Analysis Workspaceとその関連コンポーネントの既知の制限事項を次に示します。
+以下に、Analysis Workspaceとその関連コンポーネントに関する既知の制限を示します。
 
 ## テーブル
 
-* 日付範囲または指標がテーブルの行として使用されている場合、日付比較列を追加できません。
-* セグメントをテーブルの行として使用すると、選択から指標を作成することはできません。さらに、選択から指標を作成しても、日付揃え列には適用できません。
+* 日付範囲または指標がテーブルの行として使用されている場合は、日付比較列を追加できません。
+* セグメントをテーブルの行として使用すると、「選択から指標を作成」が無効になります。 また、「選択から指標を作成」は、日付整列の列には適用しないでください。
 * 分類行の条件付き書式では、カスタム範囲を使用できません。
-* 行の値設定を合計して合計を計算する場合は、テーブル合計行をトレンド表示できません（通常、静的行項目で使用されます）。
-* [!UICONTROL 貢献度分析] は [!UICONTROL 、毎日] の精度 _でのみ実行_&#x200B;できます。[!UICONTROL 時間別]、 [!UICONTROL 週単位]など、時間別には実行できません。
+* 行の値を合計して合計を計算する設定が適用されている場合は、テーブルの合計行をトレンド表示できません（通常は静的行項目で使用されます）。
+* [!UICONTROL 貢献度分析は] 、毎日の精度でのみ [!UICONTROL 実行で] きま _す_。 時間別、週別など [!UICONTROL のデ]ータに対し 、実行できません。
 
 ## ビジュアライゼーション
 
-* [!UICONTROL フォールアウト]、 [!UICONTROL フロー]、 [!UICONTROL コホート]、 [!UICONTROL ヒストグラム]などのセグメント化を活用するビジュアライゼーションでは、計算指標を入力として受け入れることはできません。
-* [!UICONTROL フロー]:入口ページ/出口ディメンション（ [!UICONTROL 入口ページ]など）は、フローでは使用できません。
-* [!UICONTROL コホート]:整数以外の場合は、コホート条件として使用できません。
+* セグメント化( [!UICONTROL Fallout]、Flow [!UICONTROL 、Cohort]、 Histogramなど)を利用するビジュアライゼーションでは、計算指標を入力として受け入れることはできません。
+* [!UICONTROL フロー]:入口/出口ディメンション(入口ペ [!UICONTROL ージ])は、フローでは使用できません。
+* [!UICONTROL コホート]:整数以外の値をコホート条件として使用することはできません。
 
 ## パネル
 
-* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.
+* セグメント比較：最初のド  ロップゾーンでセグメントテンプレートが使用されている場合、その他全員セグメントは作成されません。
 
 ## コンポーネント/セグメント
 
-* Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
-* Certain components and operators are unavailable if a segment is created from Workspace (as opposed to being created from [!UICONTROL Components &gt; Segments]). 例えば、IPアドレスです。
+* 回数、実訪問者数など、特定の指標やディメンション [!UICONTROL は]、セグメ [!UICONTROL ント化できません]。
+* セグメントがWorkspaceから作成される場合(コンポーネント/セグメントから作成される場合とは異なり )、特定のコンポーネントと演算子は使用できません。 例えば、IPアドレス。
 
 ## コンポーネント/計算指標
 
-* 特定のビジュアライゼーションで計算指標を使用することはできません。上記の「ビジュアライゼーション」を参照してください。
-* Calculated metrics cannot be used in the [!UICONTROL Attribution] panel, since calculated metrics themselves can include separate attribution models.
-* Certain components and operators are unavailable if a calculated metric is created from Workspace (as opposed to being created from [!UICONTROL Components &gt; Segments]). For example, [!UICONTROL IP Address].
+* 計算指標は、特定のビジュアライゼーションでは使用できません。 上記の「ビジュアライゼーション」を参照してください。
+* 計算指標自体に別々のアトリビューションモデルを含める [!UICONTROL ことができるので] 、計算指標はアトリビューションパネルでは使用できません。
+* 計算指標がWorkspaceから作成される場合(コンポーネント/セグメントから作成される場合とは異なり )、特定のコンポーネントと演算子は使用できません。 例えば、 [!UICONTROL IPアドレス]。
 
 ## コンポーネント/日付範囲
 
-* Custom date ranges do not support [!UICONTROL This day last year], [!UICONTROL This day last month], etc.
+* カスタム日付範囲では、昨年 [!UICONTROL の今日]、先 [!UICONTROL 月の今日などはサポートされません]。
 
 ## コンポーネント/仮想レポートスイート
 
-* レポートの時間処理が有効になっている場合、一部のコンポーネントはサポートされていません。For a full list, see [Report Time Processing](/help/components/vrs/vrs-report-time-processing.md).
+* レポート時間の処理が有効な場合、一部のコンポーネントはサポートされません。 完全なリストについては、「レポート時 [間の処理」を参照してくださ](/help/components/vrs/vrs-report-time-processing.md)い。
 
 ## コンポーネント/レポート設定
 
-* [!UICONTROL レポート設定] ページの設定の一部は適用されません。Analysis Workspace uses only the [!UICONTROL Language/Currency/Encoding] settings at the bottom: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], and [!UICONTROL CSV Separator Character].
+* [レポート設定]ページの一 [!UICONTROL 部の設定は] 、適用されません。 Analysis Workspaceでは、下部の「言語/通貨 [!UICONTROL /エンコード] 」設定のみが使用されます。千単位区 [!UICONTROL 切り文字]、予定レ [!UICONTROL ポートのエンコード]、 [!UICONTROL CSV区切り文字]。
 
 ## Attribution IQ
 
-* A subset of metrics is not supported in [!UICONTROL Attribution IQ]. For a full list, see the [Attribution IQ FAQ](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md).
+* 指標のサブセットは、アトリビューションIQではサポ [!UICONTROL ートされません]。 完全なリストについては、 [Attribution IQ FAQを参照してください](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md)。
