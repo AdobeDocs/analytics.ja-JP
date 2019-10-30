@@ -3,9 +3,9 @@ description: ヒットタイプディメンションは、ヒットの収集時�
 seo-description: ヒットタイプディメンションは、ヒットの収集時にアプリがフォアグラウンドとバックグラウンドのどちらにあったかを示します。
 seo-title: ヒットタイプ
 title: ヒットタイプ
-uuid: 14a04260-27b2-4f59- b0a5-80387d39e1a9
+uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,4 +16,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 このディメンションは、SDK によって自動的に収集されます。SDK のバージョン 4.13.6 以降でサポートされます。
 
-「バックグラウンドのヒット数の従来のレポートおよび属性を無効にします」がオンの場合、バックグラウンドヒットは、[仮想レポートスイート](../../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD)。
+If "Disable Legacy Reporting and Attribution for Background Hits" is checked, then background hits will show up only in [Virtual Report suites](../../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD).
