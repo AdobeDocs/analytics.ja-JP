@@ -7,7 +7,7 @@ title: 指標
 topic: Reports & Analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,7 +36,7 @@ t_metrics_set_default.xml
 
  -->
 
-1. レポートの実行.
+1. レポートを実行します。
 1.  デフォルトの指標として保存する指標を追加します。
 1. Click the **[!UICONTROL Add Metrics]** drop-down list, then select **[!UICONTROL Set as Default]**.
 
