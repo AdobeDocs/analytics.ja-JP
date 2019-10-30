@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: フォールアウトビジュアライゼーションの設定
 title: フォールアウトビジュアライゼーションの設定
-uuid: fc117745- baf3-46fb-873d-9307092cc337
+uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
 
 追加できる手順の数または使用するディメンションの数に制限はありません。
 
-マーチャンダイジング eVar および [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)（製品、listVar、マーチャンダイジング eVar およびリスト prop など、ヒットあたり複数の値を持つことができる変数）を含む、eVar へのパスを設定できます。例えば、誰かが靴とシャツを 1 つのページで探していて、次のページでシャツとソックスを探しているとします。靴の次の製品フローレポートは、シャツではなく、シャツおよびソックスです。
+マーチャンダイジング eVar および [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)（製品、listVar、マーチャンダイジング eVar およびリスト prop など、ヒットあたり複数の値を持つことができる変数）を含む、eVar へのパスを設定できます。例えば、誰かが靴やシャツを1ページで見ていて、次のページでシャツやソックスを見ているとします。 靴の次の製品フローレポートは、シャツではなく、シャツおよびソックスです。
 
 1. 「[!UICONTROL フォールアウト]」ビジュアライゼーションを「ビジュアライゼーション」ドロップダウンから「[!UICONTROL フリーフォームテーブル]」にドラッグします。
 
@@ -64,7 +64,7 @@ source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
 | 設定 | 説明 |
 |--- |--- |
 | フォールアウトコンテナ <ul><li>訪問</li><li>訪問者</li></ul> | 「訪問」と「訪問者」を切り替えて、訪問者のパスを分析できます。デフォルトは訪問者です。これらの設定により、訪問者のエンゲージメントを（訪問全体にわたって）訪問者レベルで分析したり、1 回の訪問に分析を制限したりできます。 |
-| 最初のタッチポイントとして「すべての訪問者」を表示 | 「すべての訪問」を最初のタッチポイントにしたくない場合、これを選択解除できます。 |
+| 「すべての訪問者」を最初のタッチポイントとして表示 | 「すべての訪問」を最初のタッチポイントにしたくない場合、これを選択解除できます。 |
 
 When you **right-click a touchpoint**, the following options appear:
 
