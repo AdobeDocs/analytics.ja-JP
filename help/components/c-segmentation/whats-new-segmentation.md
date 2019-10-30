@@ -5,7 +5,7 @@ seo-title: Analytics のセグメントの新機能
 title: Analytics のセグメントの新機能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Analytics のセグメントの新機能。
 * [2014 年 9 月](../../components/c-segmentation/whats-new-segmentation.md#concept_6FF28E134DE647FDA4CC1FD7DC1FADC8)
 * [2014 年 8 月](../../components/c-segmentation/whats-new-segmentation.md#concept_8AD156B1DCB74D938A0501365F77D4ED)
 * [2014 年 7 月](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
-* [2014 年 5 月](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
+* [2014年5月](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -53,7 +53,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>セグメント内の日付範囲 </p> </td> 
-   <td colname="col2"> <p>実施中のキャンペーンやイベントに関する質問に回答するため、日付範囲の周期を含むセグメントを構築できます。例えば、「過去 60 日間に購入したすべてのユーザー」を含むセグメントを容易に構築できるようになりました。 </p> <p> <p>注意：この機能は、Ad Hoc Analysis では使用できません。 </p> </p> </td> 
+   <td colname="col2"> <p>実施中のキャンペーンやイベントに関する質問に回答するため、日付範囲の周期を含むセグメントを構築できます。例えば、「過去60日間に購入したすべてのユーザー」を含むセグメントを簡単に作成できます。 </p> <p> <p>注意：この機能は、Ad Hoc Analysis では使用できません。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Analytics のセグメントの新機能。
   </tr> 
   <tr> 
    <td colname="col1"> <p>順次セグメントでのディメンション制約 </p> </td> 
-   <td colname="col2"> <p>「within」句の「THEN」ステートメントの間に、たとえば「within 1 search keyword instance（1 個の検索キーワードのインスタンス内）」や「within 1 eVar 47 instance（1 個の eVar 47 インスタンス内）」というように追加できます。これにより、ディメンションの 1 個のインスタンス内にセグメントが制限されます。 </p> </td> 
+   <td colname="col2"> <p>「within」句のTHENステートメントの間に、例えば「within 1 search keyword instance」や「within 1 eVar 47 instance」などを追加できます。 これにより、ディメンションの 1 個のインスタンス内にセグメントが制限されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">フォールアウト分析でのセグメントの使用 </a> </p> </td> 
@@ -136,7 +136,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse：セグメントによる分類 </p> </td> 
-   <td colname="col2"> <p>サポートの追加<span class="wintitle">セグメントによる分類</span>のサポートが追加されました。標準（項目）およびカスタム（インサイト）による分類に加えて、セグメント別にレポートを分類できるようになりました。「<span class="wintitle">セグメント</span>」タブを選択すると、<span class="wintitle">選択可能なセグメント</span>ドロップダウンリストで提供されたセグメントと同じセットのリストが入力されます。 </p> <p>行項目がセグメントのメンバーである場合に「1」の値が、そうでない場合は「0」が入ります。 </p> </td> 
+   <td colname="col2"> <p>次のサポートを追加しました。<span class="wintitle">セグメントによる分類</span>のサポートが追加されました。標準（項目）およびカスタム（インサイト）による分類に加えて、セグメント別にレポートを分類できるようになりました。「<span class="wintitle">セグメント</span>」タブを選択すると、<span class="wintitle">選択可能なセグメント</span>ドロップダウンリストで提供されたセグメントと同じセットのリストが入力されます。 </p> <p>行項目がセグメントのメンバーである場合、値は「1」で、項目はセグメントレポート「0」以外で報告されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>セグメントビルダーの権限の変更 </p> </td> 
-   <td colname="col2"> <p>管理者ユーザーは、新しいセグメントを作成できるユーザーを制限できます。デフォルトでは、すべてのユーザーがセグメントを作成できます。<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">詳細情報...</a> </p> </td> 
+   <td colname="col2"> <p>管理者ユーザーは、新しいセグメントを作成できるユーザーを制限できます。デフォルトでは、すべてのユーザーがセグメントを作成できます。<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> さらに詳しく...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Data Warehouse セグメントでの「一致」および「一致しない」のサポート </p> </td> 
-   <td colname="col2"> <p>Data Warehouse では、セグメント定義で「一致」および「一致しない」をサポートするようになりました（Reports &amp; Analytics および Ad Hoc Analysis では、既にサポートされています）。 </p> <p>Data Warehouse が「一致」および「一致しない」をサポートしていないことが原因でこれまで Data Warehouse と互換性のなかったセグメントは、このリリース以降、互換性を持つようになります（セグメントの互換性のない理由がこの点だけである場合）。このリリース以降、Data Warehouse セグメントリストに追加のセグメントが表示される可能性があります。 </p> </td> 
+   <td colname="col2"> <p>Data Warehouseで、セグメント定義で「一致」および「一致しない」がサポートされるようになりました。 （Reports &amp; Analytics および Ad Hoc Analysis では、既にサポートされています）。 </p> <p>Data Warehouseが「一致」をサポートしていなかったため、以前はData Warehouseと互換性がなかったセグメントは、リリース後に互換性がなくなります（これがセグメントに互換性がなかった唯一の理由と仮定）。このリリース以降、Data Warehouse セグメントリストに追加のセグメントが表示される可能性があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web サービス API の Segments.Save </p> </td> 
