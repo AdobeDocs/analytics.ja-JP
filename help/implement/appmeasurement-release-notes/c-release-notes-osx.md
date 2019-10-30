@@ -7,8 +7,8 @@ subtopic: リリースノート
 title: Mac OS X
 topic: 開発者と実装
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,11 +19,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 >
 >これらの SDK は非推奨となっており、アドビによってサポートまたは配布されなくなりました。
 
->[!NOTE]
->
->ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
+> [!NOTE]ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
-モバイルライブラリの[ダウンロード](https://marketing.adobe.com/developer/ja/get-started/mobile/c-measuring-mobile-applications)は [!DNL Developer Connection] で入手できます。
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 ## バージョン 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
