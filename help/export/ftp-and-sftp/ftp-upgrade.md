@@ -2,17 +2,17 @@
 description: アドビの FTP サーバーのアップグレードでは、特定のサーバー設定に依存した自動スクリプト（多くの場合、データを定期的にダウンロードまたはアップロードするために使用されます）に影響を与える新しい設定が導入されることがあります。
 keywords: ftp;sftp
 seo-description: アドビの FTP サーバーのアップグレードでは、特定のサーバー設定に依存した自動スクリプト（多くの場合、データを定期的にダウンロードまたはアップロードするために使用されます）に影響を与える新しい設定が導入されることがあります。
-seo-title: アドビのFTPサーバーのアップグレード
+seo-title: Adobe FTP サーバーのアップグレード
 solution: Analytics
-title: アドビのFTPサーバーのアップグレード
-uuid: cc9e5e13- e213-480f-9ff6-3dbf24beheee
+title: Adobe FTP サーバーのアップグレード
+uuid: cc9e5e13-e213-480f-9ff6-3dbec24baee
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# アドビのFTPサーバーのアップグレード
+# Adobe FTP サーバーのアップグレード
 
 アドビの FTP サーバーのアップグレードでは、特定のサーバー設定に依存した自動スクリプト（多くの場合、データを定期的にダウンロードまたはアップロードするために使用されます）に影響を与える新しい設定が導入されることがあります。
 
