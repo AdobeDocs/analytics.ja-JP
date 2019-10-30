@@ -5,7 +5,7 @@ seo-title: この統合をアクティブ化する前に
 title: この統合をアクティブ化する前に
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,9 +36,7 @@ Silverpopに関連する、このData Connectors統合に関する次の情報�
 * **** 有効なSilverpopアカウント：Data Connectors電子メール統合を使用するには、電子メールが有効なアクティブなSilverpopアカウントと、アクティブなユーザー資格情報が必要です。
 * **Silverpopの担当者にお問い合わせください**。 この統合は、Silverpopでは自動的には有効になりません。 Analyticsからデータをインポートまたはエクスポートする前に、Silverpopの担当者に連絡してSilverpopの設定を開始する必要があります。
 
->[!NOTE]
->
->この統合は、ソーシャル管理組織（Transactではない）でのみ機能します。
+> [!NOTE] この統合は、ソーシャル管理組織（Transactではない）でのみ機能します。
 
 ## 価格{#pricing}
 
