@@ -5,7 +5,7 @@ seo-title: Data Connectors電子メール統合の準備
 title: Data Connectors電子メール統合の準備
 uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
