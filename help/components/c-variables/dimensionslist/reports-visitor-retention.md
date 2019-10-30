@@ -5,9 +5,9 @@ seo-title: 訪問者保持率
 solution: Analytics
 title: 訪問者保持率
 topic: レポート
-uuid: e2d477d0- f704-489b- b4b3-941bc352cd7a
+uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
