@@ -3,7 +3,7 @@ title: アトリビューションFAQ
 seo-title: アトリビューションFAQ
 description: アトリビューションに関するよくある質問に対する回答を得ます。
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 アトリビューションパネルでは、すべてのディメンションがサポートされます。 サポートされない指標は次のとおりです。
 
 * 実訪問者数
-* 訪問
+* 訪問回数
 * 発生件数
 * ページビュー数
 * A4T（Analytics と Target の統合）関連指標
