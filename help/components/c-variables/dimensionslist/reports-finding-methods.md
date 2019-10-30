@@ -5,9 +5,9 @@ seo-title: 検索方法
 solution: Analytics
 title: 検索方法
 topic: レポート
-uuid: f748419e-4epa-4868- ae1a-9bd7e6f177c4
+uuid: f748419e-4cea-4868-ae1a-9bd7e6f177c4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
