@@ -5,9 +5,9 @@ seo-title: 単純なリクエストのコピー
 solution: Analytics
 title: 単純なリクエストのコピー
 topic: Report Builder
-uuid: ff20560a-01ee-47e7-8bd1- b73edb010456
+uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 参照リクエスト以外の単純なリクエストをコピーします。単純なリクエストとは、他のセルのリクエストまたは内容への参照を含まないリクエストです。
 
-[参照リクエスト](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) では、データフィルターや相関フィルターなどのパラメーターの入力としてセルの値を使用します。これらのフィルターは一致またはトレンドのいずれかを使用しており、前のリクエストの結果または入力セルと呼ばれるユーザーが入力したセルの内容に基づいています。
+A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. これらのフィルターは一致またはトレンドのいずれかを使用しており、前のリクエストの結果または入力セルと呼ばれるユーザーが入力したセルの内容に基づいています。
 1. 有効なリクエストを作成します。
 1. リクエストがマッピングされているセルの 1 つを右クリックするか、リクエストを含むセルの領域を選択します。
 
@@ -31,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >リクエストのみコピーされ、セルの内容はコピーされません。セルに表示されているデータに関連する、リクエストに基づいていない他の情報（表の列ヘッダーまたは行識別子など）については、Excel の標準的な「コピー」および「貼り付け」コマンドを使用できます。
+   >リクエストのみがコピーされ、セルの内容はコピーされません。 セルに表示されているデータに関連する、リクエストに基づいていない他の情報（表の列ヘッダーまたは行識別子など）については、Excel の標準的な「コピー」および「貼り付け」コマンドを使用できます。
 
    セルの内容のコピーとリクエストのコピーには異なるクリップボードが使用されるので、コピー／貼り付け、リクエストをコピー／リクエストを貼り付けの順に実行すると、リクエストを含まないセルの内容をコピーし、さらにリクエストをコピーすることができます。ただし、スプレッドシート内のリクエストに書式を適用している場合、コピーおよび貼り付けを実行すると、元と同じ書式（罫線、フォントなど）が貼り付け先領域に適用されます。
 
