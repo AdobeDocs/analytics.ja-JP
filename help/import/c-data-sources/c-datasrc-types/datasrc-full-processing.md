@@ -5,10 +5,10 @@ seo-title: フル処理
 solution: Analytics
 subtopic: データソース
 title: フル処理
-topic: 開発者と導入
-uuid: 590ae89c-6e17-453b- b701- ce1adbea6fa4
+topic: 開発者と実装
+uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,25 +51,26 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>注意：この変数は、標準のデータソースでも <code>currency code</code> としてサポートされています。 </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>注意：この変数は、標準のデータソースでも <code> currency code </code> としてサポートされています。 </p> </td> 
    <td colname="col3"> <p>売上高の通貨コード（例：USD）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p><code>YYYY-MM-DDThh:mm:ss±UTC_offset</code> という ISO 8601 の日付フォーマット（例：<code>2013-09-01T12:00:00-07:00</code>）、または Unix の時刻フォーマット（1970 年 1 月 1 日からの経過秒数）を使用します。 </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>（例：&lt;eVar2&gt;…&lt;/eVar2&gt;） </p> </td> 
-   <td colname="col3"> <p>コンバージョン eVar 名。最大 75 個の eVar（<span class="varname"> eVar1 </span> ~ <span class="varname"> eVar75 </span>）。 </p> <p>eVar 名（eVar12 など）や、わかりやすい名前（Ad Campaign 3 など）を指定できます。 </p> </td> 
+   <td colname="col3"> <p>コンバージョン eVar 名。最大 75 個の eVar（ <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>eVar 名（eVar12 など）や、わかりやすい名前（Ad Campaign 3 など）を指定できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
-    <code>scAdd、event1、event7 </code>
-  </td> 
+    <code>
+      scAdd,event1,event7 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
@@ -109,12 +110,12 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>ページURL(例： <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>製品リスト（例：<code>"Sports;Ball;1;5.95"）</code>。 </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 ～ prop75 </p> </td> 
@@ -201,7 +202,7 @@ JavaScript ライブラリを使用したときに自動的に入力されるト
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>訪問者の接続タイプ（<span class="term"> lan </span> また <span class="term"> はmodem </span>）。 </p> </td> 
+   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
