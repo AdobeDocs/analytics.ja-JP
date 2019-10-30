@@ -5,7 +5,7 @@ seo-title: Adobe Analyticsプラグインコード
 title: Adobe Analyticsプラグインコード
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,5 @@ JavaScriptプラグインのデータ収集方法を選択した場合は、次�
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
->[!NOTE]
->
->上記のプラグインは、特定のカスタムコマース変数(eVar)が使用可能であることを前提としています。 上記のプラグインで指定した変数がAdobe Analyticsのデプロイメント内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
+> [!NOTE] 上記のプラグインは、特定のカスタムコマース変数(eVar)が使用可能であることを前提としています。 上記のプラグインで指定した変数がAdobe Analyticsのデプロイメント内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
 
