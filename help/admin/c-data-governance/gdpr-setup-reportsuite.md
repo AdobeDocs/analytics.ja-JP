@@ -5,7 +5,7 @@ seo-title: レポートスイートのデータのラベル設定
 title: レポートスイートのデータのラベル設定
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,15 +14,13 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。事前にラベルとその意味について学んでおいてください。
 
->[!NOTE]
->
->ラベル設定は、新しいレポートスイートが作成されるたびに、または既存のレポートスイート内で新しい変数を有効にする際に、確認する必要があります。また、新しいソリューション統合が有効になると、ラベル設定が必要になる可能性のある新しい変数を公開できるので、ラベル設定を確認する必要があります。モバイルアプリまたは Web サイトを再実装すると、既存の変数の使用方法が変わる可能性があり、これにより、ラベルを更新する必要が生じる可能性があります。
+> [!NOTE]ラベル設定は、新しいレポートスイートが作成されるたびに、または既存のレポートスイート内で新しい変数を有効にする際に、確認する必要があります。また、新しいソリューション統合が有効になると、ラベル設定が必要になる可能性のある新しい変数を公開できるので、ラベル設定を確認する必要があります。モバイルアプリまたは Web サイトを再実装すると、既存の変数の使用方法が変わる可能性があり、これにより、ラベルを更新する必要が生じる可能性があります。
 
 ## レポートスイートのラベルの割り当てまたは編集 {#section_39F829F35A274EACA532E2F6FF392996}
 
-**例**:データコントローラーとして、データサブジェクトから電子メールアドレスとcookie IDを収集し、データプライバシーリクエストを処理する予定です。 この Cookie ID は Adobe Analytics のレポートスイートに保管されます。電子メールアドレスと Cookie ID のラベルを作成するには、Analytics で Adobe Cloud Platform の Data Usage Labeling &amp; Enforcement（DULE）フレームワークを使用する必要があります。
+**例**：データ管理者が、データプライバシー要求を処理するためにデータ主体から電子メールアドレスと Cookie ID を収集する予定だとします。この Cookie ID は Adobe Analytics のレポートスイートに保管されます。電子メールアドレスと Cookie ID のラベルを作成するには、Analytics で Adobe Cloud Platform の Data Usage Labeling &amp; Enforcement（DULE）フレームワークを使用する必要があります。
 
-1. In Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**／**[!UICONTROL （レポートスイートを選択）]**&#x200B;の順に選択します。![](assets/privacy_rs_settings.png)
 
 1. ラベルを設定する変数のグループを選択します。
 
@@ -45,7 +43,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
    ![](assets/edit.png)
 
-1. **ID データ**&#x200B;ラベルダイアログが自動的に開きます。これらのラベルでは、単独または他のデータと組み合わせることで、個人を特定できるデータまたは個人への直接連絡が可能となるデータを分類します。For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
+1. **ID データ**&#x200B;ラベルダイアログが自動的に開きます。これらのラベルでは、単独または他のデータと組み合わせることで、個人を特定できるデータまたは個人への直接連絡が可能となるデータを分類します。これらのオプションについて詳しくは、「[ID データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)」を参照してください。
 
    >[!NOTE]
    >
@@ -53,11 +51,11 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
    ![](assets/identity_labels.png)
 
-1. 「**機密データ**」セクションを開いて、位置情報データに分類される機密データラベルを設定します。For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
+1. 「**機密データ**」セクションを開いて、位置情報データに分類される機密データラベルを設定します。これらのオプションについて詳しくは、「[機密データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)」を参照してください。
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. この節では、データプライバシーアクセスおよび削除リクエストの各変数の処理方法、およびこれらのリクエストのデータの件名IDを検索するためにスキャンする必要がある変数を定義する方法についてアドビに説明します。 For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
+1. 「データプライバシーのデータ」セクションを開いて、**データガバナンス**&#x200B;ラベルを設定します。このセクションを使用して、データプライバシーアクセス要求および削除要求用の各変数の処理方法をアドビに知らせ、それらの要求用にデータ主体の ID を探すためにスキャンされる必要がある変数を定義します。これらのオプションについて詳しくは、「[データガバナンスラベル（データプライバシー）](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)」を参照してください。
 
    ![](assets/privacy_labels.png)
 
@@ -65,7 +63,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ## レポートスイートへのラベルのコピー{#section_7C6FDAFF049F4126B84F6261F72668EE}
 
-同じスケジュール/データのプライバシー設定を複数のレポートスイートに適用する場合は、次の手順に従います。
+次に、複数のレポートスイートに同じ DULE／データプライバシー設定を割り当てる手順を示します。
 
 1. コピーする変数を含んでいる変数グループ（標準ディメンション、コンバージョンディメンションなど）を選択します。一度にコピーできるラベルは変数の 1 グループのみであることに注意してください。
 1. このグループの一部、またはすべての変数を選択します。
@@ -91,5 +89,5 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
    >
    >常にコピー先レポートスイートをチェックして、ラベルが適切にコピーされていることを確認する必要があります。これは、ID または DEL ラベルを持つ変数で特に重要です。
 
-1. **[!UICONTROL 適用]**&#x200B;をクリックします。
+1. 「**[!UICONTROL 適用]**」をクリックします。
 
