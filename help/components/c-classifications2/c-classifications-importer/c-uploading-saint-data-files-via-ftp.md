@@ -1,27 +1,27 @@
 ---
 description: FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 seo-description: FTP を使用してデータファイルをアップロードする方法について手順を説明します。
-seo-title: FTPインポート
+seo-title: FTP インポート
 solution: Analytics
-subtopic: '分類      '
-title: FTPインポート
+subtopic: 分類
+title: FTP インポート
 topic: 管理ツール
-uuid: a914970d- ba02-4111-9dcf-06448f71b9f3
+uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# FTPインポート
+# FTP インポート
 
 FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 
-## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
+## FTP インポート {#concept_2F965BE873254546A61FB755F25299FD}
 
 FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 
-**[!UICONTROL 管理]** 者/ **[!UICONTROL 分類インポーター]**
+**[!UICONTROL 管理者]** /分 **[!UICONTROL 類インポーター]**。
 
 次の推奨限度に注意してください。
 
@@ -36,9 +36,7 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 その月のユニーク値が超過すると、その超過した値に対応する分類データはレポート上で表示されません。このような分類は、data warehouse または ad hoc analysis で表示できます。
 
->[!NOTE]
->
->分類データファイルの処理に要する時間は、ファイルのサイズと、アドビのサーバーが処理中のファイル数によって異なります。データファイルの処理にかかる時間は、通常 72 時間以内です。
+> [!NOTE] 分類データファイルの処理に要する時間は、ファイルのサイズと、アドビのサーバーで処理中のファイルの数によって異なります。 データファイルの処理にかかる時間は、通常 72 時間以内です。
 
 FTP を使用してデータをアップロードする前に、FTP アカウントを作成します。詳しくは、 [FTP アカウントの作成](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
@@ -54,7 +52,7 @@ FTP アカウントを使用して分類を Adobe Analytics にインポート�
 
 FTP アカウントの作成について詳しくは、 [FTP アカウントの作成](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
-1. **[!UICONTROL 管理者]** / **[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
 1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
 1. FTP アクセス情報（ホスト、ログイン、パスワード）を使用して、選択した FTP クライアントで FTP サーバーにアクセスします。
@@ -77,7 +75,7 @@ t_create_an_ftp_account.xml
 
 Adobe FTP サーバーについて詳しくは、「[FTP と SFTP（FTP and SFTP）](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/)」を参照してください。
 
-1. **[!UICONTROL 管理者]** / **[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
 1. On the **[!UICONTROL Import File]** tab, click **[!UICONTROL Add New]**.
 1. FTP アカウントについて次の詳細を指定します。
