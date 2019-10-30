@@ -1,7 +1,7 @@
 ---
-description: Configuration variables set in AppMeasurement.js.
+description: 設定変数は、AppMeasurement.js に設定されます。
 keywords: Analytics の実装
-seo-description: AppMeasurement.jsで設定されたAdobe Analytics用の設定変数
+seo-description: 設定変数は、AppMeasurement.js で Adobe Analytics 用に設定されます。
 seo-title: 設定変数
 solution: Analytics
 subtopic: 変数
@@ -9,16 +9,16 @@ title: 設定変数
 topic: 開発者と実装
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a340bb50ec437db64dafaddc0b20aec740aee299
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 設定変数の概要
+# 設定変数概要
 
-設定変数は、データが取得され、レポートで処理される方法を制御します。最も一般的な設定変数は、通常、メインのグローバルJavaScript appMeasurement.jsに設定されます。 これらの変数は、必要に応じて、Analyticsのページレベルコード内およびリンク内に設定できます。
+設定変数は、データが取得され、レポートで処理される方法を制御します。最も一般的な設定変数は、通常、メインのグローバル JavaScript（AppMeasurement.js）に設定されます。これらの変数は、必要に応じて、Analytics のページレベルのコード内およびリンクに設定できます。
 
-Not all of these variables appear in the code by default when you generate code through the **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. これらの設定変数の一部は、サイトの導入ニーズに当てはまらない可能性があります。
+**[!UICONTROL 管理ツール]**／**[!UICONTROL コードマネージャー]**&#x200B;でコードを生成する場合、これらのすべての変数がデフォルトでコードに現れるわけではありません。これらの設定変数の一部は、サイトの導入ニーズに当てはまらない可能性があります。
 
 これらの設定変数を使用するうえでの目標の一部を次に示します。
 
@@ -28,9 +28,7 @@ Not all of these variables appear in the code by default when you generate code 
 * リンクトラッキング（ダウンロードしたファイルの数、外部サイトへのリンク数）。
 * 独自の用途でカスタムリンクをトラッキングする。
 
->[!NOTE]
->
->[!DNL AppMeasurement] は、track関数の最初の呼び出しの前に、すべての設定変数が設定されている必要がありま `t()`す。 の呼び出しの後に設定変数が設定されている場合、予期しな `t()`い結果が発生する可能性があります。 To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+> [!NOTE][!DNL AppMeasurement] では、トラック関数 `t()` に最初の呼び出しをおこなう前に、すべての設定変数を設定する必要があります。`t()` への呼び出しの後に設定変数が設定されている場合、予期しない結果が発生する可能性があります。適切なデータ収集を確実におこなうには、すべての設定変数が.`doPlugins` 関数以上に設定されている必要があります。
 
 特定の設定変数に関するヘルプが必要な場合は、次のリンクをクリックしてください。
 
@@ -46,29 +44,29 @@ Not all of these variables appear in the code by default when you generate code 
 
 * [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-charset.html):受信データをUTF-8に変換して、Analyticsでの保存とレポートを可能にします。
 
-* [s.currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-currcode.html): Determine the conversion rate to apply to revenue.
+* [s.currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-currcode.html):売上高に適用するコンバージョン率を決定します。
 
-* [s.cookieDomain: Determines which domain the  and  cookies are set.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cookdom.html)`s_cc``s_sq`
+* [s.cookieDomain](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cookdom.html):CookieとCookieを設定するド `s_cc` メイン `s_sq` を決定します。
 
-* [s.cookieDomainPeriods: Determine the domain for  and  cookies by specifying the number of periods in the domain of the page URL.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cookdomperiods.html)`s_cc``s_sq`
+* [s.cookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cookdomperiods.html):ページURLのドメイン `s_cc` 内のピ `s_sq` リオド数を指定して、のドメインとcookieを決定します。
 
-* [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-fpcookdomperiods.html): Specify cookies set by JavaScript (`s_sq`, `s_cc`, plug-ins) that are inherently first-party cookies, even with third-party `2o7.net` or `omtrdc.net` domains.
+* [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-fpcookdomperiods.html):JavaScript（、プラグイン）によって設定さ`s_sq`れた、本質的にファ `s_cc`ーストパーティのCookie（サードパーティまたはドメインを含む）を `2o7.net` 指定 `omtrdc.net` します。
 
-* [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cooklifetime.html): Determine lifespan of a cookie as processed by both JavaScript and data collection servers.
+* [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-cooklifetime.html):JavaScriptとデータ収集サーバーの両方で処理されるcookieの有効期限を決定します。
 
-* [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-doplugins.html): Refer and allow the function to be called at the appropriate location within the JavaScript file.
+* [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-doplugins.html):JavaScriptファイル内の適切な場所で関数を参照し、呼び出すことを許可します。
 
-* [s.registerPreTrackCallback: Function for taking as parameters both the callback (a function), and the parameters to that function.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html)
+* [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):コールバック（関数）とその関数のパラメーターの両方をパラメーターとして取る関数。
 
-* [s.registerPostTrackCallback: Function for taking as parameters both the callback (a function), and the parameters to that function.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html)
+* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):コールバック（関数）とその関数のパラメーターの両方をパラメーターとして取る関数。
 
-* [s.trackDownLoadLinks: Track links to downloadable files on your site.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html)
+* [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html):サイト上のダウンロード可能ファイルへのリンクを追跡します。
 
-* [s.trackExternalLinks: Determine whether any link clicked is an exit link.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html)
+* [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html):クリックされたリンクが離脱リンクであるかどうかを判定します。
 
-* [s.trackInlineStats: Determine whether ClickMap data is gathered.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackinlinestats.html)
+* [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackinlinestats.html):ClickMapデータを収集するかどうかを決定します。
 
-* [s.linkDownloadFileTypes: Include a comma-separated list of file extensions.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html)
+* [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html):ファイル拡張子のコンマ区切りリストを含めます。
 
 * [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html):サイトの一部であるリンクを表すフィルターのコンマ区切りリストが含まれます。
 
@@ -78,5 +76,5 @@ Not all of these variables appear in the code by default when you generate code 
 
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html):離脱リンクの特定のサブセットに関するレポートを作成するために使用します。
 
-* [s.usePlugins: Call the  function prior to each image request.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html)`s_doPlugins`
+* [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html):各イメージリクエ `s_doPlugins` ストの前に関数を呼び出します。
 
