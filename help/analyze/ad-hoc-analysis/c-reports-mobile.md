@@ -5,7 +5,7 @@ seo-title: モバイルレポート
 title: モバイルレポート
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 モバイルデバイスによる訪問者をさらに認識しやすくするには、ドメインへの加入者 ID を送信する通信業者のリスト（ホワイトリスト）に登録されていることが必要です(You can view the carrier in the **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** report.)
 
->[!NOTE]
->
->モバイルデバイスでレポートを表示するには、 [Experience cloudにログインします](https://login.experiencecloud.adobe.com)。
+> [!NOTE] モバイルデバイスでレポートを表示するには、 [Experience cloudにログインします](https://login.experiencecloud.adobe.com)。
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
@@ -69,11 +67,11 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> <p>色設定レポート </p> </td> 
-   <td colname="col2"> <p>モバイルデバイスからの訪問回数を、サポートされている色の数でグループ分けします。このレポートには、モバイルデバイスを使用してサイトに来訪した訪問者総数とモバイルデバイスの画面の色数別のグループに細分した訪問者数が表示されます。例えば、訪問者の携帯電話が 24 色をサポートしている場合、Reports and Analytics はこれら 24 色に対応する行項目を増分します。 </p> </td> 
+   <td colname="col2"> <p>モバイルデバイスからの訪問回数を、サポートされている色の数でグループ分けします。このレポートには、モバイルデバイスを使用してサイトに来訪した訪問者総数とモバイルデバイスの画面の色数別のグループに細分した訪問者数が表示されます。例えば、訪問者の携帯電話が24色をサポートしている場合、Reports &amp; Analyticsは24色に対応する行項目を増分します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>オーディオサポートレポート </p> </td> 
-   <td colname="col2"> <p>サポートするオーディオ形式別にモバイルデバイスをグループ分けします。例えば、訪問者の電話が <span class="filepath">.mp3</span> 形式をサポートしている場合、<span class="wintitle">オーディオサポート</span>レポートの値は少なくとも 1 増分されます。携帯電話が複数のオーディオ形式をサポートしている場合は、1 回のサイトへの訪問で、レポートの値がサポートしている各オーディオタイプの数だけ増分される可能性があります。つまり、<span class="filepath">.mp3</span>、<span class="filepath">.aac</span>、<span class="filepath">.amr</span> 形式をサポートしている携帯電話を使ってサイトを訪問した場合、レポートの各グループの値が増分されます。このため、グループの合計は、レポートの一番下に表示される合計値より大きくなることがあります。 </p> </td> 
+   <td colname="col2"> <p>サポートするオーディオ形式別にモバイルデバイスをグループ分けします。For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. 携帯電話が複数のオーディオ形式をサポートしている場合は、1 回のサイトへの訪問で、レポートの値がサポートしている各オーディオタイプの数だけ増分される可能性があります。つまり、<span class="filepath">.mp3</span>、<span class="filepath">.aac</span>、<span class="filepath">.amr</span> 形式をサポートしている携帯電話を使ってサイトを訪問した場合、レポートの各グループの値が増分されます。このため、グループの合計は、レポートの一番下に表示される合計値より大きくなることがあります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ビデオサポートレポート </p> </td> 
