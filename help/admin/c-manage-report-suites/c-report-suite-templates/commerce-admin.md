@@ -5,9 +5,9 @@ seo-title: コマース
 solution: Analytics
 title: コマース
 topic: 管理ツール
-uuid: 85fc235d-0180-4245- b831-0243eet3c40c
+uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,8 +38,8 @@ e コマース Web サイトの共通設定を定義します。
 | 標準コマースイベント | タイプ | `s_code` variable |
 |---|---|---|
 | 売上高 | カウンター | `purchase` |
-| 注文件数 | カウンター | `purchase` |
-| 購入点数 | カウンター | `purchase` |
+| 購入回数 | カウンター | `purchase` |
+| 単位 | カウンター | `purchase` |
 | 買い物かご | カウンター | `scOpen` |
 | 買い物かご表示 | カウンター | `scView` |
 | インスタンス | カウンター | 該当なし |
