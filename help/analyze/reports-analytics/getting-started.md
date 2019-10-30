@@ -8,7 +8,7 @@ title: Reports and Analytics の概要
 topic: Reports & Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: cc76128ac4aad2a78a70e84cadf0198d18809498
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
