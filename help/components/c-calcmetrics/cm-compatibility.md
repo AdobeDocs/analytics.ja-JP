@@ -3,9 +3,9 @@ description: 「製品の互換性」の 3 つのオプションについて説�
 seo-description: 「製品の互換性」の 3 つのオプションについて説明します。
 seo-title: 指標の互換性
 title: 指標の互換性
-uuid: f2706e2b- c0cc-4af2- bcb4-1318796e9845
+uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: 6661e99d6b1289242e6c7ce3833b56e2f9990acc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
