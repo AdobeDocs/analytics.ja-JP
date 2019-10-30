@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: ユーザーとグループ
 title: 電子メールユーザー
 topic: 管理ツール
-uuid: c44a1398- dba4-4edc-9b90- b0ceb9da395c
+uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 電子メールのメッセージを社内のすべてのユーザーに送信する方法について手順を説明します。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Email Users]**.
 1. 電子メールを 管理者のみに制限するには、「**Administrators Only（管理者のみ）**」チェックボックスを選択します。
 
