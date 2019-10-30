@@ -5,9 +5,9 @@ seo-title: 初回購入までの日数
 solution: Analytics
 title: 初回購入までの日数
 topic: レポート
-uuid: 8ceea9e8-2b81-44f1- b4c0- aa6542eeba2b
+uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
