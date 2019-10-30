@@ -5,7 +5,7 @@ seo-title: はじめに
 title: はじめに
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,9 +66,7 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE]
->
->2018 年 7 月から、Ad Hoc Analysis では Java 8 以降のみがサポートされます。2018年7月のメンテナンスリリース後にJava 7上でAd Hoc Analysisを実行する場合、アドビはお使いのAd Hoc Analysis実装をサポートしなくなります。
+> [!NOTE]2018 年 7 月から、Ad Hoc Analysis では Java 8 以降のみがサポートされます。2018年7月のメンテナンスリリース後にJava 7上でAd Hoc Analysisを実行する場合、アドビはお使いのAd Hoc Analysis実装をサポートしなくなります。
 
 * OpenGL 2.0 をサポートするビデオカード
 * cookie：必要
