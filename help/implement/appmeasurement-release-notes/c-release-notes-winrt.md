@@ -7,23 +7,19 @@ subtopic: リリースノート
 title: WinRT for Windows 8
 topic: 開発者と実装
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # WinRT for Windows 8{#winrt-for-windows}
 
->[!NOTE]
->
->ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
+> [!NOTE]ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
-モバイルライブラリの[ダウンロード](https://marketing.adobe.com/developer/ja/get-started/mobile/c-measuring-mobile-applications)は [!DNL Developer Connection] で入手できます。
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
->[!NOTE]
->
->[!DNL Windows] 版 [!DNL WinRT] 8 SDK は [Windows 8.1 ユニバーサルアプリストア](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK により置き換えられます。今後、この SDK の開発はおこなわれません。
+> [!NOTE][!DNL WinRT] 版 [!DNL Windows] 8 SDK は [Windows 8.1 ユニバーサルアプリストア](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK により置き換えられます。今後、この SDK の開発はおこなわれません。
 
 ## バージョン 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
