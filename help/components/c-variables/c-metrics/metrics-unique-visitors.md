@@ -5,9 +5,9 @@ seo-title: 実訪問者数
 solution: Analytics
 title: 実訪問者数
 topic: 指標
-uuid: ae210698-99f9-485e- a640- c7520807adc7
+uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ Version 14 does not remove duplicate [!UICONTROL Visits] and [!UICONTROL Unique 
 | コンバージョン | 訪問者とは、Web サイトを訪れた人のことです。コンバージョン関連のイベントまたは活動が発生したときにカウントされます。 |
 | Ad Hoc Analysis | 訪問者とは、Web サイトを訪れた人のことです。持続的 cookie は必要としません。 |
 
-[実訪問者数レポート-バージョン15およびAd Hoc Analysisを参照](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)してください。
+実訪問者 [数レポート — バージョン15およびAd Hoc Analysisを参照してください](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)。
 
 >[!MORE_LIKE_THIS]
 >
