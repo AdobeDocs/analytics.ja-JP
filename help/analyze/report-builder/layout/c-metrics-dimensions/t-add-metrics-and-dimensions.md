@@ -1,22 +1,22 @@
 ---
 description: リクエストに指標およびディメンションを追加する手順です。
 seo-description: リクエストに指標およびディメンションを追加する手順です。
-seo-title: 指標とディメンションの追加
+seo-title: 指標およびディメンションの追加
 solution: Analytics
-title: 指標とディメンションの追加
+title: 指標およびディメンションの追加
 topic: Report Builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 指標とディメンションの追加
+# 指標およびディメンションの追加
 
 リクエストに指標およびディメンションを追加する手順です。
 
-1. [リクエストウィザード](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) でデータリクエスト [!UICONTROL を作成します。ステップ1]で、「 **[!UICONTROL 次へ]**」をクリックします。
+1. [リクエストウィザードで](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) 、データリクエ [!UICONTROL ストを作成します。手順1]:「次へ」をクリッ **[!UICONTROL クします]**。
 1. [!UICONTROL リクエストウィザード：ステップ 2] で、指標をダブルクリックするか、目的の位置までドラッグします。
 
    ![ステップ情報](assets/adding_metrics.png)
@@ -55,17 +55,16 @@ source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
 
 「[!UICONTROL ディメンション]」タブには、分類されたディメンション、またはステップ 1 で選択するベースレポートの分類、レポートスイートの設定に関するディメンションが表示されます。ディメンションをレイアウトグリッドにドロップすると、そのディメンションはツリービューから削除され、使用可能な残りのディメンションのリストが再計算されます。
 
-「[!UICONTROL 日付]」ディメンションは自動的に追加されます。使用可能な日付ディメンションは、[!UICONTROL リクエストウィザード：ステップ 1] で選択された精度によって異なります（有効な値は次のとおりです。
+「[!UICONTROL 日付]」ディメンションは自動的に追加されます。使用可能な日付ディメンションは、[!UICONTROL リクエストウィザード：ステップ 1] で選択された精度によって異なります(有効な値は次のとおりです。
 
-    * Hour
-    * Day
-    * Week
-    * Month
-    * Year
+    *時間
+    *日
+    *週
+    *月*年
+    
     *日付範囲（精度が指定されていない場合）
 
-1. [フォーマットオプション](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) とフィルターを設定して、指標およびディメンションを変更します。
-1. Click **[!UICONTROL Finish]**.
-次の例では、[!UICONTROL ページ]指標に関連するディメンションが表示されています。ここでは、[!UICONTROL 参照ドメイン]ディメンションによって、[!UICONTROL ページ]と[!UICONTROL 参照ドメイン]の分類レポートが作成されています。分類レポートに追加できるディメンションのみが表示されるように、「[!UICONTROL ディメンション]」タブが更新されます。
+1. 形式のオプションとフィルターを設定して、指標 [とディメンション](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) を変更します。
+1. 「**[!UICONTROL Finish]**」をクリックします。次の例では、[!UICONTROL ページ]指標に関連するディメンションが表示されています。ここでは、[!UICONTROL 参照ドメイン]ディメンションによって、[!UICONTROL ページ]と[!UICONTROL 参照ドメイン]の分類レポートが作成されています。分類レポートに追加できるディメンションのみが表示されるように、「[!UICONTROL ディメンション]」タブが更新されます。
 
 ![](assets/page_pageview_02.png)
