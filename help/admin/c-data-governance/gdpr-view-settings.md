@@ -5,7 +5,7 @@ seo-title: レポートスイートのデータガバナンス設定の表示／
 title: レポートスイートのデータガバナンス設定の表示／管理
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 管理ツールのデータガバナンスダイアログには、Experience Cloud 組織にマッピングされているかどうかや、データ保持ポリシーが設定されているかどうかなど、データガバナンスが設定されているレポートスイートの概要が表示されます。
 
 1. Adobe Experience Cloud にログインします。
-1. **[!UICONTROL Analytics]** /管理者/ **[!UICONTROL データ管理に]****[!UICONTROL 移動します。]**
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**&#x200B;に移動します。
 
    ログイン会社のレポートスイートがすべて表示されます。
 
@@ -44,11 +44,11 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
   </tr> 
   <tr> 
    <td colname="col1"> <p>データ保持ポリシー </p> </td> 
-   <td colname="col2"> <p>Analyticsデータプライバシーの導入では、データ保持ポリシーを設定する必要があります。 </p> <p>この設定では、以下の点を確認できます。 </p> 
+   <td colname="col2"> <p>Analytics のデータプライバシー実装では、データ保持ポリシーを適用する必要があります。 </p> <p>この設定では、以下の点を確認できます。 </p> 
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">このレポートスイートに対してデータ保持ポリシーが適用されているかどうか。 </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">アドビによってデータが保持される期間（この期間を過ぎると削除されます）。デフォルトのデータ保持期間は 25 ヶ月です。 </li> 
-    </ul> <p>注意： データ保持期間が設定されていない場合、Adobe Analyticsは、Data Privacy APIに対するリクエストの処理、つまり、エンドユーザーから受け取ったアクセスや削除のリクエストの処理を支援できません。 データ保持期間の設定については、カスタマーサクセスマネージャーまでお問い合わせください。 </p> </td> 
+    </ul> <p>注意：データ保持期間が設定されていないと、Adobe Analytics は、データプライバシー API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、カスタマーサクセスマネージャーまでお問い合わせください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>グループ </p> </td> 
