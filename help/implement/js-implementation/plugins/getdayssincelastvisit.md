@@ -8,8 +8,8 @@ subtopic: プラグイン
 title: getDaysSinceLastVisit
 topic: 開発者と実装
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/) には、すぐに使える **[!UICONTROL 前回訪問からの日数]**&#x200B;ディメンションが含まれるようになったので、このプラグインが必要なくなりました。
+>[Analysis Workspaceには](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 、最後の訪問か **[!UICONTROL らの日数ディメンションが追加され、]** 「Days since」プラグインが不要になりました。
 
 この再訪問頻度データによって次の質問に答えることができます。
 
@@ -30,9 +30,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 また、プラグインから、セグメント化に使用する値を生成できます。例えば、先回訪問してから 30 日以上経過しているユーザーの訪問のみのデータをすべて表示するセグメントを作成できます。
 
->[!NOTE]
->
->後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+> [!NOTE]後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## プラグインコードと導入 {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -48,8 +46,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
 ```
 
-**PLUGINS SECTION**
-[!DNL s_code.js] ファイルにある *PLUGINS SECTION* という名称の領域に次のコードを追加します。プラグインコードのこの部分は一切変更しないでください。
+**PLUGINS SECTION**[!DNL s_code.js] ファイルにある *PLUGINS SECTION* という名称の領域に次のコードを追加します。プラグインコードのこの部分は一切変更しないでください。
 
 ```js
 /* 
