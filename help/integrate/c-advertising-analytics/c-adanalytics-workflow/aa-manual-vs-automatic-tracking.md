@@ -5,7 +5,7 @@ seo-title: 手動モードと自動モードの追跡
 title: 手動モードと自動モードの追跡
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: ab2d18a7aa75f29315b841e80a52419fb1bb404c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **サードパーティ(DoubleClick)`{lpurl}`**
 
-URL がリダイレクトを経由し、値「unescapedlpurl」を使用しない場合は、文字列がリダイレクトを通じて最終的なランディングページ URL まで保持されるように十分な時間エンコードする必要があります。
+URLがリダイレクトを経て、「unescapedlpurl」値を使用しない場合は、最終的なランディングページURLへのリダイレクトを通じてURLが持続するように、十分な時間をかけて文字列をエンコードする必要があります。
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -116,7 +116,7 @@ s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 
 **サードパーティ(DoubleClick)`{lpurl}`**
 
-URL がリダイレクトを経由し、値「unescapedlpurl」を使用しない場合は、文字列がリダイレクトを通じて最終的なランディングページ URL まで保持されるように十分な時間エンコードする必要があります。
+URLがリダイレクトを経て、「unescapedlpurl」値を使用しない場合は、最終的なランディングページURLへのリダイレクトを通じてURLが持続するように、十分な時間をかけて文字列をエンコードする必要があります。
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}
