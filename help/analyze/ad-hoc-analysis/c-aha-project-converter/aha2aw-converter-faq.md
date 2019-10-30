@@ -5,7 +5,7 @@ seo-title: プロジェクトコンバーターに関する FAQ
 title: プロジェクトコンバーターに関する FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col1"> <p><b>質問：日付範囲はどのように変換されますか。</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">日付範囲「最近の X 日間」の場合、Ad Hoc Analysis では今日が<i>除外されます</i>が、Analysis Workspace では今日が<i>含められます</i>。このため、「最近の 90 日間」のような日付範囲は、ツール間で厳密に一致しない場合があります。Analysis Workspace で同じ期間を取得するには、カスタム日付範囲を使用してください。 </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. したがって、「過去90日間」のような日付範囲は、ツール間で正確に一致しない場合があります。 Analysis Workspace で同じ期間を取得するには、カスタム日付範囲を使用してください。 </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis のワークスペースレベルの日付範囲は、Analysis Workspace のプロジェクト／ワークスペースレベルに適用されます。 </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis のレポートレベルの日付範囲は、Analysis Workspace のテーブル列レベルに適用されます。 </li> 
     </ul> <p>カスタム日付範囲を編集するには、<span class="uicontrol">Analytics</span>／<span class="uicontrol">コンポーネント</span>／<span class="uicontrol">日付範囲</span>を選択します。 </p> </td> 
