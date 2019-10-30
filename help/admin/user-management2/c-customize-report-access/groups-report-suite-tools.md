@@ -9,7 +9,7 @@ title: レポートスイートツールの権限のカスタマイズ
 topic: 管理ツール
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -79,7 +79,7 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | [再来訪](/help/components/c-variables/dimensionslist/reports-return-visits.md) | 訪問回数が 2 以上である訪問の数を示すレポート。再来訪レポートには、cookie を使用していない訪問者が含まれます。 |
 | [分類インポーター](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) / エクスポーターおよび[ルールビルダー](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | 分類に統合されました（以下を参照してください）。 |
 | データフィードマネージャー | 権限を Analytics データフィード. |
-| Classifications | 次の権限を組み合わせます。「トラフィック分類」、「ビデオ分類」、「コンバージョンの分類」、「分類階層」、「分類マネージャー」および「分類インポーター/エクスポーター&amp;ルールビルダー」。  注意：この権限を持つユーザーは、選択したレポートスイートだけではなく、すべてのレポートスイートの分類を編集できます。 |
+| 分類 | 次の権限を組み合わせます。「トラフィック分類」、「ビデオ分類」、「コンバージョンの分類」、「分類階層」、「分類マネージャー」および「分類インポーター/エクスポーター&amp;ルールビルダー」。  注意：この権限を持つユーザーは、選択したレポートスイートだけではなく、すべてのレポートスイートの分類を編集できます。 |
 | [貢献度分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Analysis Workspace で貢献度分析を使用する権限を付与します。 |
 | **ダッシュボードの項目** |  |
 | ダッシュボード項目の設定を使用すると、Reports &amp; Analytics [、推奨レポート、会社サマリレポートレット、画像、KPI](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) /ゲージレポートレット、レポートスイートの合計、テキスト、レポートレット、使用状況サマリレポートレット、Webリソースのレポートレットにアクセスできます |  |
