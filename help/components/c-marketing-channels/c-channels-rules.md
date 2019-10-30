@@ -5,10 +5,10 @@ seo-title: チャネルとルールについて
 solution: Analytics
 subtopic: マーケティングチャネル
 title: チャネルとルールについて
-topic: Reports and Analytics
-uuid: 7d574790-4d0d-419d-8fb5- c16ec5a4a387
+topic: Reports & Analytics
+uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,16 +23,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 アドビでは、複数の事前定義のチャネルを[自動セットアップ](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B)を利用すると、事前定義された複数のチャネルが設定されます。このチャネルはニーズに合わせて編集できます。
 
->[!NOTE]
->
->アドビでは、テスト用にテンプレートとして使用できるレポートスイートにレポートを設定することを推奨します。それをひな形として、1 つまたはそれ以上の本番用レポートスイートにまとめてチャネルとルールセットを適用することができます。
+> [!NOTE] アドビでは、テスト用にテンプレートとして使用できるレポートスイートにレポートを設定することをお勧めします。 それをひな形として、1 つまたはそれ以上の本番用レポートスイートにまとめてチャネルとルールセットを適用することができます。
 >
 >詳しくは、 [複数のレポートスイートへのテンプレートレポートスイート設定の適用](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
 
 また、次のトピックを確認してください。
 
 * [前提条件](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [重要な処理メモ](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [処理に関する重要な注意事項](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
 
 ## 前提条件 {#section_9913D2932E3140C099B7978CA95378B2}
 
@@ -42,7 +40,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    See [General Account Settings](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) in Analytics help for more information.
 
-* **[!UICONTROL マーケティングチャネルレポートへのユーザーグループのアクセス権を設定]**&#x200B;します。
+* Set up user group access to the **[!UICONTROL Marketing Channel Report]**.
 
    See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C).
 
