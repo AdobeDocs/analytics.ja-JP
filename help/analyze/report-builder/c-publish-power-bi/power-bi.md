@@ -5,7 +5,7 @@ seo-title: ' Power BI への発行 - 概要'
 title: ' Power BI への発行 - 概要'
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Adobe Report Builder との統合により、以下のことができるよう�
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->ワークブックにマクロが含まれている場合、「Power BIデータセットテーブルとしてワークブック内のすべての書式化されたテーブルを発行」は無効になります。
+> [!NOTE] ワークブックにマクロが含まれている場合、「Power BIデータセットテーブルとしてワークブック内のすべての書式化されたテーブルを発行」は無効になります。
 
 ワークブック全体をインポートする代わりに、ワークブック内のすべてのフォーマット済みテーブルの内容のみをインポートすることができます。
 
@@ -119,7 +117,7 @@ Adobe Report Builder との統合により、以下のことができるよう�
 1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**.
 1. [!UICONTROL スケジュールウィザード - アドバンス]の「**[!UICONTROL 発行オプション]**」タブで「**[!UICONTROL すべての Report Builder リクエストを Power BI データセットテーブルとして発行]」の横にあるチェックボックスをオンにします。**![](assets/advanced-schedule-wizard2.png)
 
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
 **Power BIで要求データを表示します**
 
