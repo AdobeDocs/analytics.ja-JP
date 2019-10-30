@@ -1,18 +1,18 @@
 ---
 description: 新しいポータルなどのコンテンツを集積する Web サイト用の共通設定を定義します。
 seo-description: 新しいポータルなどのコンテンツを集積する Web サイト用の共通設定を定義します。
-seo-title: アグリゲーターポータル
+seo-title: 集積ポータル
 solution: Analytics
-title: アグリゲーターポータル
+title: 集積ポータル
 topic: 管理ツール
-uuid: d227c209-4d88-4ev- b126-994b2a179c51
+uuid: d227c209-4d88-4eff-b126-994b2a179c51
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# アグリゲーターポータル
+# 集積ポータル
 
 新しいポータルなどのコンテンツを集積する Web サイト用の共通設定を定義します。
 
@@ -37,8 +37,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 標準コマースイベント | タイプ | `s_code` variable |
 |---|---|---|
 | 売上高 | カウンター | `purchase` |
-| 注文件数 | カウンター | `purchase` |
-| 購入点数 | カウンター | `purchase` |
+| 購入回数 | カウンター | `purchase` |
+| 単位 | カウンター | `purchase` |
 | 買い物かご | カウンター | `scOpen` |
 | 買い物かご表示 | カウンター | `scView` |
 | インスタンス | カウンター | 該当なし |
