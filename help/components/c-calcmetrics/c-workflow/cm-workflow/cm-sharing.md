@@ -5,7 +5,7 @@ seo-title: 計算指標の共有
 title: 計算指標の共有
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,5 +39,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    指標の横に共有アイコン ![ が表示されます。](assets/share_icon.png)
 
-1. **[!UICONTROL フィルター]** / **[!UICONTROL その他のフィルター]** /自分と **[!UICONTROL 共有に移動して、自分と共有している指標をフィルタリング]**&#x200B;できます。
+1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
 
