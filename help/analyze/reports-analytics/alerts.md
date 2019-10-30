@@ -5,10 +5,10 @@ seo-title: アラート
 solution: Analytics
 subtopic: アラート
 title: アラート
-topic: Reports and Analytics
-uuid: e1333a9b- aba0-45b7- b7e6-46e06190db64
+topic: Reports & Analytics
+uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,14 +17,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## アラート {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-すべてのAdobe Analyticsの新しいアラートシステムとして、インテリジェントアラートを使用すると、アラートプレビューとルール貢献度を使用してアラートを作成および管理できます。次のことが可能です。
+すべてのAdobe Analyticsの新しいアラートシステムであるインテリジェントアラートを使用すると、アラートのプレビューとルール貢献度を備えたアラートを作成および管理できます。 次のことが可能です。
 
 * 異常値（90％、95％または 99％ のしきい値、変化率、超過／未満）に基づいたアラートの構築。
 * アラートがトリガーされる頻度のプレビュー。
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信。
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成。
 
-You can access this new Alerts system from **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+この新しいアラートシステムには、Reports &amp; Analytics の任意のレポートの&#x200B;**[!UICONTROL その他]**／**[!UICONTROL アラート]**&#x200B;からアクセスできます。
 
 詳しくは、Analysis Workspace ドキュメントの[インテリジェントアラート](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)を参照してください。
 
@@ -38,17 +38,17 @@ t_add_an_alert.xml
 
  -->
 
-**[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** メニューの新しいアラートビルダーに移動します。ただし、Reports &amp; Analytics のレポート内からもアクセスできます。
+**[!UICONTROL Analytics/コンポーネントメニューで新しいアラートビル]** ダーに移 **[!UICONTROL 動します]** 。 ただし、Reports &amp; Analytics のレポート内からもアクセスできます。
 
 1. Reports &amp; Analytics で、アラートを設定するレポートを開きます。
-1. **[!UICONTROL その他]** /アラート **[!UICONTROL の追加をクリック]**&#x200B;します。
+1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
 1. これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html)が表示されます。
 
 ## 既存のアラートを表示または編集するには {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 タスクコンテキスト
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL アラートに移動]**&#x200B;します。これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html)が表示されます。
+1. **[!UICONTROL Analytics]** /コンポーネント **[!UICONTROL /アラ]** ートに移 **[!UICONTROL 動します]**。 これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html)が表示されます。
 
 ## レガシーアラートの移行 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -80,7 +80,7 @@ deprecated_alerts.xml
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>時間ベースの実訪問者数アラート（毎日、毎週、毎月などの実訪問者数） </p> <p> </p> </td> 
+   <td colname="col1"> <p>時間ベースの実訪問者数アラート（毎日、毎週、毎月などの実訪問者数) </p> <p> </p> </td> 
    <td colname="col2"> <p>1 時間ごと、毎日、毎週、毎月の実訪問者数レポートに関するアラートを作成します。 </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは、こうした時間ベースの実訪問者数アラートは、サポートされなくなります。例えば、以前、日別訪問者数に関する毎週のアラートを設定していても、発行される実訪問者数指標に毎日、毎週などのアラートを設定できます（Analysis Workspace は、実訪問者数指標をサポートしますが、毎日／毎週／毎月などの実訪問者数指標はサポートしません）。 </p> <p> </p> </td> 
   </tr> 
