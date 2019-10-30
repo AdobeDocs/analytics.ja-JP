@@ -1,15 +1,15 @@
 ---
 description: データフィードで使用される特殊文字に関する情報です。
-keywords: データフィード;job;特殊文字;hit_ data;複数値の変数;events_ list;products_ list;mvvars
+keywords: データフィード；ジョブ；特殊文字；hit_data；複数値の変数；events_list;products_list;mvvars
 seo-description: データフィードで使用される特殊文字に関する情報です。
 seo-title: 特殊文字
 solution: Analytics
 subtopic: データフィード
 title: 特殊文字
-topic: Reports and Analytics
-uuid: 5ee019b-39e6-4226- a936-88202a02f5e6
+topic: Reports & Analytics
+uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,19 +54,19 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <code>,</code>（コンマ文字） </td> 
+   <td colname="col1"> <code> , </code> （コンマ文字） </td> 
    <td colname="col02"> 値の終わり </td> 
    <td colname="col2"> <p>複数値の変数内にある製品文字列、イベント ID などの値を分離します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>;</code>（セミコロン文字） </td> 
+   <td colname="col1"> <code> ; </code> （セミコロン文字） </td> 
    <td colname="col02"> 個々の製品の値内にある副値の終わり </td> 
-   <td colname="col2"> <p><code>product_list</code> 内にある個々の製品に関連する値を分離します。 </p> </td> 
+   <td colname="col2"> <p><code> product_list </code> 内にある個々の製品に関連する値を分離します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code>=</code>（等号文字） </td> 
+   <td colname="col1"> <code> = </code> （等号文字） </td> 
    <td colname="col02"> 値の割り当て </td> 
-   <td colname="col2"> <p><code>event_list</code> 内のイベントに値を割り当てます。 </p> </td> 
+   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
