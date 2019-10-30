@@ -6,7 +6,7 @@ solution: Analytics
 title: 統合のデプロイ
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -75,9 +75,7 @@ Lyris/Adobe Analyticsの統合が成功したことを確認する手順です�
 
 すべての導入手順が完了したら、統合が正常にデータを転送していることを検証できます。
 
->[!NOTE]
->
->データ交換が始まるまでに数日かかります。 統合をアクティブ化した後は、Lyrisにお問い合わせください。
+> [!NOTE] データ交換が始まるまでに数日かかります。 統合をアクティブ化した後は、Lyrisにお問い合わせください。
 
 1. Data Connectors内のLyris統合に移動します。 「 **[!UICONTROL Support]** 」タブ/ **[!UICONTROL Integration Activity Logで、「]** Data imported successfully **[!UICONTROL /or Classification data imported]****** successfully」などのイベントが表示されます。
 
@@ -91,9 +89,7 @@ Lyris/Adobe Analyticsの統合が成功したことを確認する手順です�
 
 Adobe Analyticsで使用するLyrisプラグインコードを表示します。
 
->[!NOTE]
->
->以下のコードを使用する前に、必要なeVarをAdobe Analyticsの管理ツールで予約していることを確認してください。 予約したeVarを特定したら、eVarNを関連するeVarに置き換えます。 例：eVar10
+> [!NOTE] 以下のコードを使用する前に、必要なeVarをAdobe Analyticsの管理ツールで予約していることを確認してください。 予約したeVarを特定したら、eVarNを関連するeVarに置き換えます。 例：eVar10
 
 ```
 /* 
