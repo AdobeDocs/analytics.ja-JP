@@ -3,9 +3,9 @@ description: Report Builder 5.2 では、Adobe Analytics Unified Calculated Metr
 seo-description: Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポートされています。これにより、すべての計算指標にグローバル ID が付けられ、複数のレポートスイートで使用することができるようになりました。
 seo-title: 計算指標
 title: 計算指標
-uuid: c9814894- cda6-40ff-8ec4-3ab2c1908ebc
+uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポートされています。これにより、すべての計算指標にグローバル ID が付けられ、複数のレポートスイートで使用することができるようになりました。
 
->[!NOTE]
->
->既存のワークブックは、従来の指標IDを持つリクエストを指す場合があります。Report Builder 5.2 を使用すると、既存のワークブックでは従来の指標 ID が新しいグローバル ID に変換されます。Report Builder 5.2 を使用して変換されたワークブックを Report Builder の 5.1 以前のバージョンで開くと、計算指標は表示されません。
+> [!NOTE] 既存のワークブックは、従来の指標IDを持つリクエストを指し示す場合があります。 Report Builder 5.2 を使用すると、既存のワークブックでは従来の指標 ID が新しいグローバル ID に変換されます。Report Builder 5.2 を使用して変換されたワークブックを Report Builder の 5.1 以前のバージョンで開くと、計算指標は表示されません。
 
 新しい計算指標ビルダーおよび計算指標マネージャでの計算指標の作成と管理方法について詳しくは、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics)ガイドを参照してください。
 
@@ -24,7 +22,7 @@ Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポ
 
 ## 計算指標へのフィルター設定 {#section_376E986D3E684999A7CDB08E53854159}
 
-**計算指標をフィルタ** するには、[フィルタ]アイコンをクリックします。 ![](assets/segment_filter.png)
+**フィルタ** (Filter)アイコンをクリックして、計算指標をフィルタリングします。  ![](assets/segment_filter.png)
 
  の呼び出しの後におこなわれる場合です。アドバンスフィルターダイアログに、標準指標と計算指標の両方が入力されます。
 
