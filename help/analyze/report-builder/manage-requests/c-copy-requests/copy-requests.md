@@ -5,9 +5,9 @@ seo-title: リクエストのコピーの概要
 solution: Analytics
 title: リクエストのコピーの概要
 topic: Report Builder
-uuid: 1e0274a3-2038-45c7-87c8- bd949538d4e1
+uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
