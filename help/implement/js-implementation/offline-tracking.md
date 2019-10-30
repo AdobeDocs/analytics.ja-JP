@@ -7,8 +7,8 @@ solution: Analytics
 title: オフライン追跡
 topic: 開発者と実装
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 以下の変数と関数を使用して、アプリケーションがオフラインの間に実行された測定コールを格納できます。
 
->[!NOTE]
->
->オフライン追跡を有効にするには、レポートスイートでタイムスタンプを有効にする必要があります。レポートスイートでタイムスタンプが有効になっている場合、`trackOffline` 設定プロパティを&#x200B;*必ず* true に設定してください。レポートスイートでタイムスタンプが有効になっていない場合、`trackOffline` 設定プロパティを&#x200B;*必ず* false に設定してください。このプロパティを適切に設定しなければ、データが失われます。レポートスイートのタイムスタンプが有効になっているかどうか判断できない場合は、[カスタマーケアへお問い合わせ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html#analytics)ください。
+> [!NOTE]オフライン追跡を有効にするには、レポートスイートでタイムスタンプを有効にする必要があります。レポートスイートでタイムスタンプが有効になっている場合、`trackOffline` 設定プロパティを&#x200B;*必ず* true に設定してください。レポートスイートでタイムスタンプが有効になっていない場合、`trackOffline` 設定プロパティを&#x200B;*必ず* false に設定してください。このプロパティを適切に設定しなければ、データが失われます。レポートスイートのタイムスタンプが有効になっているかどうか判断できない場合は、 [contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
 オフラインでの AppMeasurement を有効にすると、次のような動作になります。
 
@@ -60,13 +58,12 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> 測定オブジェクトのオンライン状態またはオフライン状態を手動で設定します。デバイスがオフラインであるかオンラインであるかは、ライブラリで自動的に検出されます。したがって、これらのメソッドは、測定を強制的にオフラインにする場合にのみ必要になります。<code>forceOnline</code> は、手動でオフラインにした後にオンライン状態に戻す場合にのみ使用します。 </p> <p>測定がオフラインの場合： </p> 
+   <td colname="col2"> <p> 測定オブジェクトのオンライン状態またはオフライン状態を手動で設定します。デバイスがオフラインであるかオンラインであるかは、ライブラリで自動的に検出されます。したがって、これらのメソッドは、測定を強制的にオフラインにする場合にのみ必要になります。<code> forceOnline </code> は、手動でオフラインにした後にオンライン状態に戻す場合にのみ使用します。 </p> <p>測定がオフラインの場合： </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> <code>trackOffline</code> が true の場合：ヒットは測定がオンラインになるまで保存されます。 </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> <code>trackOffline</code> が false の場合：ヒットは破棄されます。 </li> 
+     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> <code> trackOffline </code> が true の場合：ヒットは測定がオンラインになるまで保存されます。 </li> 
+     <li id="li_6A623377462548DB97C31654EADCFAF3"> <code> trackOffline </code> が false の場合：ヒットは破棄されます。 </li> 
     </ul> <p> <b>例:</b> </p> 
-    <code class="syntax c">
-      s.forceOffline();
+    
 
 s.forceOnline();
 </code> </td>
