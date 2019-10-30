@@ -7,8 +7,8 @@ solution: Analytics
 title: モバイルデバイスの識別
 topic: 開発者と実装
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <code> /5/ /5.1/ /5.5/</code> </td> 
-   <td colname="col2"> <p>デバイスがワイヤレスデバイスとして識別されました。または、<code>/5</code> がイメージリクエストに手動で設定されていました。 </p> 
+   <td colname="col2"> <p>Device was identified as a wireless device, or <code> /5/</code> was manually sent in the image request: </p> 
     <ul id="ul_624BEDFA3E1243CF9B42081D8B8EFFFB"> 
      <li id="li_D65761D23B684DB59BC23E92C9098122">カスタム訪問者 ID </li> 
      <li id="li_ADBA806B74CA43EFA8612301E06106C6">加入者 ID ヘッダー </li> 
@@ -56,7 +56,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 また、「1」または「5」はイメージリクエストに手動で渡すこともできますが、これらのコードは相互に排他的なので、常に「5」を渡すと、cookie がサポートされていても利用されません。デバイスが cookie をサポートしているかを判定できる独自のメカニズムを組み込んで、cookie をサポートしている場合にイメージ内で「5」ではなく「1」を渡すことができます。この状況で改善される精度は、cookie をサポートするモバイルデバイスの数に限られます。
 
-## 加入者 ID ヘッダー{#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
+## 加入者 ID ヘッダー {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
 cookie には cookie の削除、cookie の承認、ゲートウェイ cookie 管理などに関する問題があるので、一般的に訪問者 ID は cookie よりも信頼性の高いユーザー識別方法です。
 
@@ -88,4 +88,4 @@ cookie には cookie の削除、cookie の承認、ゲートウェイ cookie �
 
 例えば、「callinglineid」は、「X-Up-Calling-Line-ID」および「nokia-callinglineid」に一致します。ヘッダータイプは、ヘッダーの内容を示します。ヘッダーの優先順位はこの表の並びのとおりです（「callinglineid」ヘッダーが存在する場合、そのヘッダーが「subno」の代わりに使用されます）。
 
-[動的変数](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)を使用すると、ヘッダーから特定の値を抽出できます。
+この場合、[動的変数](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)を使用すると、ヘッダーから特定の値を抽出できます。
