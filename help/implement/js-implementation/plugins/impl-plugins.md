@@ -8,8 +8,8 @@ subtopic: プラグイン
 title: 実装プラグインの使用
 topic: 開発者と実装
 uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
