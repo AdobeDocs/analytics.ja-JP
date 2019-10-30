@@ -1,6 +1,6 @@
 ---
 description: どのようにして Web サイトへの訪問が Adobe Analytics のレポートになるかを説明します。
-keywords: Analyticsの導入；データ収集
+keywords: Analytics の実装, 収集, データ, コレクション
 seo-description: どのようにして Web サイトへの訪問が Adobe Analytics のレポートになるかを説明します。
 seo-title: データ収集
 solution: Analytics
@@ -8,7 +8,7 @@ title: データ収集
 topic: 開発者と実装
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,7 +61,7 @@ Analytics データ収集は、Adobe データ収集サーバーに特別なイ�
 
    >[!NOTE]
    >
-   >各イメージリクエストには乱数文字列が含まれ、ブラウザーのキャッシュを防ぎ、以降のイメージリクエストがブラウザーによって行われるようにします。
+   >ブラウザーのキャッシュを防ぎ、後続のイメージリクエストがブラウザーによって作成されるようにするために、各イメージリクエストには、ランダムな数値文字列が含まれています。
 
 1. Adobe は、透明なピクセルイメージを返します。
 
@@ -69,7 +69,7 @@ Analytics データ収集は、Adobe データ収集サーバーに特別なイ�
 
    コードは追加の詳細（オペレーティングシステム、ブラウザーのタイプ、ブラウザーの高さと幅、IP アドレス、ブラウザーの言語など）を自動的に収集します。
 
-1. アドビのサーバーは、Web分析データを *`report suites`* （お客様のデータリポジトリ）に保存します。
+1. アドビのサーバーは、Web 分析データを *`report suites`*（お客様のデータリポジトリ）に保存します。
 
    ![](assets/how-data-is-collected-5.png)
 
