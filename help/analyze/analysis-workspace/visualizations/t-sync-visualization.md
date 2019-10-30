@@ -1,14 +1,14 @@
 ---
 description: ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。
-keywords: Analysis Workspace;ビジュアライゼーションとデータソースの同期
+keywords: Analysis Workspace；ビジュアライゼーションとデータソースの同期
 seo-description: ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。
 seo-title: データソースの管理
 solution: Analytics
 title: データソースの管理
-topic: Reports and Analytics
-uuid: 7batchf497- a933-463a- bf9d- f6d0c5de0cba
+topic: Reports & Analytics
+uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 0bd28ea64b4e225b33c1fec7f185c7006bdb7f7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 0bd28ea64b4e225b33c1fec7f185c7006bdb7f7c
 
 データソースを管理すると、データソースを表示したり、選択をロックしたりできます。これらの設定は、新しいデータが入ってきた際にどのようにビジュアライゼーションを変更するか（または変更しないか）を決定します。
 
-1. [データテーブルとビジュアライゼーション](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) を使用してプロジェクト [を作成](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)します。
+1. [データテーブルと](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 、ビジュアライゼーションを使用してプロジェクトを [作成しま](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)す。
 1. データテーブルで、ビジュアライゼーションに関連付けたいセル（データソース）を選択します。
 1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
 
@@ -35,7 +35,7 @@ source-git-commit: 0bd28ea64b4e225b33c1fec7f185c7006bdb7f7c
 | データソースを表示 | ビジュアライゼーションに対応するデータテーブルを表示したり（チェックボックスをオン）、非表示にしたり（チェックボックスをオフ）できます。 |
 | 選択をロック | この設定を有効にすると、ビジュアライゼーションを、対応するデータテーブルで現在選択されているデータにロックできます。チェックボックスをオンにすると、次のいずれかを選択できます。  <ul><li>**選択した位置**：対応するデータテーブルで選択されている位置にビジュアライゼーションをロックした状態で固定するには、このオプションを選択します。これらの位置に配置された特定のアイテムが変更されても、これらの位置は引き続きビジュアライゼーションの対象になります。たとえば、上位 5 つのキャンペーン名が何であろうと、このビジュアライゼーションで上位 5 つのキャンペーン名を常に表示する場合は、このオプションを選択します。</li> <li>**選択した項目**：対応するデータテーブルで現在選択されている特定の項目について、ビジュアライゼーションをロックした状態で維持するには、このオプションを選択します。これらのアイテムは、テーブルのアイテム間のランクが変更されても、引き続きビジュアライゼーションの対象になります。例えば、このビジュアライゼーションで 5 つの特定のキャンペーン名を、キャンペーン名のランクにかかわらず表示する場合は、このオプションを選択します。</li></ul> |
 
-このアーキテクチャは、以前のAnalysis Workspaceとは異なり、ロックされた選択範囲を保存する非表示の非表示テーブルが作成されることはなくなりました。現在は、データソースはビジュアライゼーションの作成元であるテーブルがポイントされます。
+このアーキテクチャは前のアーキテクチャと異なりますが、Analysis Workspaceでは、ロックされた選択を格納する重複した非表示テーブルが作成されなくなりました。 現在は、データソースはビジュアライゼーションの作成元であるテーブルがポイントされます。
 
 **使用例：**
 
