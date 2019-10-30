@@ -2,17 +2,17 @@
 description: 多くの Adobe Engineering Services エンゲージメントではデータの交換を行いますが、その際に FTP が必要になります。
 keywords: ftp;sftp
 seo-description: 多くの Adobe Engineering Services エンゲージメントではデータの交換を行いますが、その際に FTP が必要になります。
-seo-title: FTPを使用したエンジニアリングサービスエンゲージメント
+seo-title: FTP を使用した Engineering Services エンゲージメント
 solution: Analytics
-title: FTPを使用したエンジニアリングサービスエンゲージメント
-uuid: 38d1fc13- b709-4661-805b-7efa82b57a47
+title: FTP を使用した Engineering Services エンゲージメント
+uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# FTPを使用したエンジニアリングサービスエンゲージメント
+# FTP を使用した Engineering Services エンゲージメント
 
 多くの Adobe Engineering Services エンゲージメントではデータの交換を行いますが、その際に FTP が必要になります。
 
@@ -26,4 +26,4 @@ FTP 経由での SAINT アップロードと同様に、[!UICONTROL DB VISTA] �
 
 ## カスタムエンゲージメント {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Adobe Engineering Servicesは、FTPとSFTPの両方を使用するカスタムプロジェクトを提供します。カスタムプロジェクトについて詳しくは、Adobe Engineering Services を参照してください。For information on SFTP, see [Secure File Transfer Protocol](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
+アドビエンジニアリングサービスは、FTPとSFTPの両方を使用するカスタムプロジェクトを提供します。 カスタムプロジェクトについて詳しくは、Adobe Engineering Services を参照してください。SFTPについて詳しくは、 [Secure File Transfer Protocolを参照してください](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC)。
