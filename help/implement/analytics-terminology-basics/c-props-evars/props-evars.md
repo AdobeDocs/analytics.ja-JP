@@ -7,8 +7,8 @@ solution: Analytics
 title: prop と eVar の概要
 topic: 開発者と実装
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 例えば、自動車メーカーでは、「ページ」レポートを完成させるために「最も人気のある車種」を把握したい場合があります。これをおこなうには、トラフィックプロパティの 1 つを割り当てて、車種を表します。次に、適切なページで車種を渡すコードを導入します。
 
->[!NOTE]
->
->[!DNL Analytics] では、最大 75 個の [!UICONTROL s.prop] 変数をサポートします。
+> [!NOTE][!DNL Analytics] では、最大 75 個の [!UICONTROL s.prop] 変数をサポートします。
 
 prop は、パスレポートやクロス集計レポートで使用されます。例えば、[!UICONTROL プロパティ]変数を使用して、コンテンツタイプ、サブセクションまたはテンプレート名を示すことができます。作成される[!UICONTROL カスタムトラフィック]レポートには、最も頻繁に閲覧されるコンテンツタイプ、サブセクションまたはテンプレートが示されます。
 
@@ -40,6 +38,6 @@ eVar（または [!UICONTROL カスタムコンバージョンインサイト]�
 
 コンバージョンサイトでは、ログインしていない訪問者と比較して、ログインした訪問者がどのように購入を完了するかを追跡するのに eVar を使用できます。訪問者がログインしたとき、eVar は「logged in」に設定されます。その訪問者がチェックアウトページに到達したとき、チェックアウトイベントが「logged in」値に関連付けられます。訪問者が購入後に「ご購入ありがとうございました」ページに到達したとき、製品と購入金額が「logged in」値に関連付けられます。作成される[!UICONTROL カスタム eVar] レポートには、「ログインした」訪問者と「ログインしていない」訪問者のチェックアウト数および注文数の合計が示されます。
 
-詳しくは、Analytics ヘルプおよびリファレンスの「[トラフィック変数](https://marketing.adobe.com/resources/help/jp_JP/reference/traffic_var.html)」を参照してください。
+その他の情報については、Analytics ヘルプとリファレンスの[トラフィック変数](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html)を参照してください。
 
 Digital Tag Management でプロパティを作成する方法については、「[Web プロパティの作成](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)」を参照してください。
