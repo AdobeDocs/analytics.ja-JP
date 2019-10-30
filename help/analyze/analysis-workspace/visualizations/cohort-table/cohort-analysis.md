@@ -6,7 +6,7 @@ title: コホート分析とは
 topic: Reports & Analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,19 +35,19 @@ A *`cohort`* is a group of people sharing common characteristics over a specifie
 >
 >コホート分析は計算指標をサポートしていません。
 
-## Cohort Analysis capabilities
+## コホート分析機能
 
 2019年1月に、アドビは、大幅に強化された新しいバージョンのコホート分析をリリースしました。 新バージョンでは、作成するコホートに対してより詳細な制御が可能になります。主な機能強化は以下のとおりです。
 
 ### リテンションテーブル
 
-A retention cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. 指標は最大 3 個、セグメントは最大 10 個含めることができます。
+リテンションコホートレポートは、訪問者を返します。各データセルには、その期間にアクションを実行したコホート内の訪問者の生の数と割合が表示されます。 指標は最大 3 個、セグメントは最大 10 個含めることができます。
 
 ![](assets/retention-report.png)
 
 ### チャーンテーブル
 
-A Churn cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. 指標は最大 3 個、セグメントは最大 10 個含めることができます。
+チャーンコホートはリテンションテーブルの逆で、コホートのフォールアウト条件に一度も合致しなかった訪問者を示します。 指標は最大 3 個、セグメントは最大 10 個含めることができます。
 
 ![](assets/churn-report.png)
 
