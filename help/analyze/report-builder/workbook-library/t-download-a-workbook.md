@@ -5,9 +5,9 @@ seo-title: ワークブックのダウンロード
 solution: Analytics
 title: ワークブックのダウンロード
 topic: Report Builder
-uuid: 8b69254f-4769-433a-9957- fad788447aa6
+uuid: 8b69254f-4769-433a-9957-fad788447aa6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
