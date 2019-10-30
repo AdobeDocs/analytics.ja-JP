@@ -5,14 +5,14 @@ seo-title: 売上高
 solution: Analytics
 title: 売上高
 topic: レポート
-uuid: e5b72798- f5c7-440d- a62d-376bfd115ac8
+uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 売上高 
+# 売上高
 
 すべての製品が特定の期間に発生させた収益の量を測定します。
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * このレポートが正しくデータを収集するために満たす必要のある要件があります。同じイメージリクエスト内で以下のことが起きる必要があります。
 
-   * [!UICONTROL 購入]イベントが       `s.events` 変数に設定されている値と同じ。
+   * [!UICONTROL 購入]イベントが       `s.events` 変数にも取り込まれます。
 
    * `products` 変数が価格フィールドで値と共に定義されている必要があります。
    * この例では $35.99 が売上高レポートに渡されます。
@@ -39,7 +39,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >単一製品で数量が増加すると、売上高は乗算されません。For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >1つの製品で数量が増加した場合、売上高は乗算されません。 For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
 
 * [!UICONTROL 売上高]では、ある期間での合計金額が最も近い通貨値に丸められます。それぞれの個別製品やヒットが丸められることはありません。
 * Analytics では、それぞれの日が最も近い整数の通貨に丸められるので、それぞれの日の合計を月別合計と比較すると、非常に小さい金額のずれがあります。これは、月別合計が丸められたそれぞれの日の合計ではなく、合計を最も近い整数の通貨に丸めた値であるためです。
