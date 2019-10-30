@@ -7,8 +7,8 @@ solution: Analytics
 title: イベント
 topic: 開発者と実装
 uuid: d2edd432-60bc-4426-9967-153b713147a1
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,4 +27,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 詳しくは、「[成功イベントの設定](/help/admin/admin/c-success-events/t-success-events.md)」を参照してください。
 
-成功イベントについて、「[Analytics ヘルプとリファレンス](https://marketing.adobe.com/resources/help/ja_JP/reference/success_event.html)」で詳しく説明しています。
+成功イベントについて詳しくは、[Analytics ヘルプとリファレンス](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)を参照してください。
