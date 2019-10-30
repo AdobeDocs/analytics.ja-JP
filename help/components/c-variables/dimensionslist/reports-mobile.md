@@ -5,9 +5,9 @@ seo-title: モバイル
 solution: Analytics
 title: モバイル
 topic: レポート
-uuid: ec8f6977- da92-478e- a934- c32cf5889526
+uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 モバイルデバイスからの Web サイトへのアクセスに関する情報が表示されます。モバイルレポートは、サイトの閲覧に使用されたモバイルデバイスについてのデータを収集することで訪問者の識別を改善します。モバイルレポートからは、デバイスの製造元、および画面サイズ、ビデオ、オーディオ、cookie のサポートなどの機能を識別できます。モバイルレポートはすべてのレポートスイートで使用できます。
 
->[!NOTE]
->
->モバイルレポートにはモバイルWebトラフィックのみが表示されます。ネイティブ iOS、Android および他の SDK を使用して収集されたモバイル アプリ データがモバイルアプリレポートに表示されます。また、これらのデータは管理ツールで有効になっている場合にのみ表示されます。
+> [!NOTE] モバイルレポートには、モバイルWebトラフィックのみが表示されます。 ネイティブ iOS、Android および他の SDK を使用して収集されたモバイル アプリ データがモバイルアプリレポートに表示されます。また、これらのデータは管理ツールで有効になっている場合にのみ表示されます。
 
 次のモバイルレポートを使用できます。
 
@@ -61,19 +59,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> cookie サポート </td> 
-   <td colname="col2"> <p>モバイルデバイスからの訪問数を、cookie がサポートされているかどうかによってグループ分けします。訪問者は、cookie をサポートする訪問者とサポートしない訪問者のグループに分けられます。モバイルデバイスの種類はユーザーエージェント文字列で識別されます。アドビは cookie をサポートしていることがわかっているモバイルデバイスリストを管理しています。If the mobile device listed in the user agent string is also listed in Adobe’s list of mobile devices, then the <span class="term"> Supported</span> line item in the <span class="wintitle"> Cookie Support</span> report is incremented. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
+   <td colname="col2"> <p>モバイルデバイスからの訪問数を、cookie がサポートされているかどうかによってグループ分けします。訪問者は、cookie をサポートする訪問者とサポートしない訪問者のグループに分けられます。モバイルデバイスの種類はユーザーエージェント文字列で識別されます。アドビは cookie をサポートしていることがわかっているモバイルデバイスリストを管理しています。If the mobile device listed in the user agent string is also listed in Adobe's list of mobile devices, then the <span class="term"> Supported</span> line item in the <span class="wintitle"> Cookie Support</span> report is incremented. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 画像サポート </td> 
-   <td colname="col2"> <p> サポートする画像形式別にモバイルデバイスをグループ分けします。 </p> <p>例えば、訪問者が <span class="filepath">.jpeg</span> 画像をサポートしている電話でサイトにアクセスすると、<span class="wintitle">画像サポート</span>レポートの値は少なくとも 1 増分されます。携帯電話が複数の画像形式をサポートしている場合は、サイトへの訪問によってレポートの値がその画像形式の数だけ増分されます。つまり、<span class="filepath">.jpeg</span>、<span class="filepath">.png</span> および <span class="filepath">.gif</span> 形式をサポートしている携帯電話を使用してサイトを訪問した場合、レポートの各グループの値が増分されます。このため、グループの合計は、レポートの一番下に表示される合計値より大きくなることがあります。 </p> </td> 
+   <td colname="col2"> <p> サポートする画像形式別にモバイルデバイスをグループ分けします。 </p> <p>For example, if a visitor's phone that supports <span class="filepath"> .jpeg</span> images, accesses a site, the <span class="wintitle"> Image Support</span> report is incremented by at least one. 携帯電話が複数の画像形式をサポートしている場合は、サイトへの訪問によってレポートの値がその画像形式の数だけ増分されます。つまり、<span class="filepath">.jpeg</span>、<span class="filepath">.png</span> および <span class="filepath">.gif</span> 形式をサポートしている携帯電話を使用してサイトを訪問した場合、レポートの各グループの値が増分されます。このため、グループの合計は、レポートの一番下に表示される合計値より大きくなることがあります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 画面の色 </td> 
-   <td colname="col2"> <p> モバイルデバイスからの訪問回数を、サポートされている色の数でグループ分けします。このレポートには、モバイルデバイスを使用してサイトに来訪した訪問者総数とモバイルデバイスの画面の色数別のグループに細分した訪問者数が表示されます。 </p> <p>例えば、訪問者の携帯電話が 24 色をサポートしている場合、レポートではこれら 24 色に対応する行項目が増分されます。 </p> </td> 
+   <td colname="col2"> <p> モバイルデバイスからの訪問回数を、サポートされている色の数でグループ分けします。このレポートには、モバイルデバイスを使用してサイトに来訪した訪問者総数とモバイルデバイスの画面の色数別のグループに細分した訪問者数が表示されます。 </p> <p>例えば、訪問者の携帯電話が24色をサポートしている場合、レポートでは24色に対応する行項目が増分されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> オーディオサポート </td> 
-   <td colname="col2"> <p> サポートするオーディオ形式別にモバイルデバイスをグループ分けします。 </p> <p>例えば、訪問者の電話が <span class="filepath">.mp3</span> 形式をサポートしている場合、オーディオサポートレポートの値は少なくとも 1 増分されます。携帯電話が複数のオーディオ形式をサポートしている場合は、1 回のサイトへの訪問で、レポートの値がサポートしている各オーディオタイプの数だけ増分される可能性があります。つまり、<span class="filepath">.mp3</span>、<span class="filepath">.aac</span>、<span class="filepath">.amr</span> 形式をサポートしている携帯電話を使ってサイトを訪問した場合、レポートの各グループの値が増分されます。そのため、グループの合計は、レポートの一番下に表示されている合計値より大きくなります。 </p> </td> 
+   <td colname="col2"> <p> サポートするオーディオ形式別にモバイルデバイスをグループ分けします。 </p> <p>For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the Audio Support report increments by at least one. 携帯電話が複数のオーディオ形式をサポートしている場合は、1 回のサイトへの訪問で、レポートの値がサポートしている各オーディオタイプの数だけ増分される可能性があります。つまり、<span class="filepath">.mp3</span>、<span class="filepath">.aac</span>、<span class="filepath">.amr</span> 形式をサポートしている携帯電話を使ってサイトを訪問した場合、レポートの各グループの値が増分されます。そのため、グループの合計は、レポートの一番下に表示されている合計値より大きくなります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ビデオサポート </td> 
@@ -81,7 +79,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> DRM </td> 
-   <td colname="col2"> <p> サポートされるデジタル著作権管理（DRM）のタイプ別にモバイルデバイスをグループ分けします。DRM グループには<span class="term"> 転送ロック</span>、 <span class="term"> 結合配信</span>、 <span class="term"> 分離配信</span>、 <span class="term"> 不明。</span> </p> </td> 
+   <td colname="col2"> <p> サポートされるデジタル著作権管理（DRM）のタイプ別にモバイルデバイスをグループ分けします。DRM グループには <span class="term"> Forward Lock</span>、 <span class="term"> Combined Delivery</span>、 <span class="term"> Separate Delivery</span>、 <span class="term"> Unknown。</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 通信方式 </td> 
@@ -89,7 +87,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> オペレーティングシステム（廃止） </td> 
-   <td colname="col2"> <p> デバイスで実行されているモバイルオペレーティングシステム別にモバイルデバイスをグループ分けします。モバイルオペレーティングシステムには Windows、RIM、iOS、Symbian などがあります。また、識別できないモバイルオペレーティングシステムは「不明」グループに分類されます。 </p> <p>Note: This report was deprecated when the Technology &gt; <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> Operating Systems</a> report was updated to include all operating systems, including mobile. 「モバイルデバイス」が存在するセグメントを作成して、技術／オペレーティングシステムレポートに適用し、モバイルオペレーティングシステムだけを表示できます。 </p> </td> 
+   <td colname="col2"> <p> デバイスで実行されているモバイルオペレーティングシステム別にモバイルデバイスをグループ分けします。モバイルオペレーティングシステムには Windows、RIM、iOS、Symbian などがあります。また、識別できないモバイルオペレーティングシステムは「不明」グループに分類されます。 </p> <p>注意：このレポートは、技術/オペレーティングシステムレポートが更新され <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"></a> 、モバイルを含むすべてのオペレーティングシステムが含まれるようになった場合に非推奨となりました。 「モバイルデバイス」が存在するセグメントを作成して、技術／オペレーティングシステムレポートに適用し、モバイルオペレーティングシステムだけを表示できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java バージョン </td> 
@@ -113,11 +111,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> プッシュツートーク（PTT）をサポートしているかどうかでモバイルデバイスをグループ分けします。レポートには PTT サポートを設定できないデバイスの<span class="term"> PTTがサポートされていないデバイスの</span> 不明なグループ。 </p> </td> 
+   <td colname="col2"> <p> プッシュツートーク（PTT）をサポートしているかどうかでモバイルデバイスをグループ分けします。レポートには PTT サポートを設定できないデバイスの <span class="term"></span> PTTサポートを特定できないデバイスの不明なグループです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> デコメ対応 </td> 
-   <td colname="col2"> <p> DecoMail をサポートしているかどうかでモバイルデバイスをグループ分けします。DecoMail は画像やアニメーションでメールを装飾できる機能です。レポートには PTT サポートを設定できないデバイスの<span class="term"> デコレーションメールがサポートされていないデバイスの</span> 不明なグループ。 </p> </td> 
+   <td colname="col2"> <p> DecoMail をサポートしているかどうかでモバイルデバイスをグループ分けします。DecoMail は画像やアニメーションでメールを装飾できる機能です。レポートには PTT サポートを設定できないデバイスの デコレ <span class="term"> ーション</span> ・メールがサポートされているかどうかを判断できないデバイスの不明なグループ。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 情報配信 </td> 
