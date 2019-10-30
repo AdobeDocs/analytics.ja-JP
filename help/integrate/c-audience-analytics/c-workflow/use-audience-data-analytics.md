@@ -1,19 +1,19 @@
 ---
-description: 'AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例を以下に示します。 '
-seo-description: 'AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例を以下に示します。 '
+description: 'AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンスIDは「mc_audiences」列に保存されます。 現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例を以下に示します。 '
+seo-description: 'AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンスIDは「mc_audiences」列に保存されます。 現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例を以下に示します。 '
 seo-title: Analytics でのオーディエンスデータの使用
 solution: Experience Cloud
 title: Analytics でのオーディエンスデータの使用
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Analytics でのオーディエンスデータの使用
 
-AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例としては、次のものがあります。
+AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンスIDは「mc_audiences」列に保存されます。 現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例としては、次のものがあります。
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
@@ -26,7 +26,7 @@ Analysis Workspace では、AAM セグメントは 2 つのディメンション
 
 ## セグメント比較 {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[セグメント比較](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)は、2 つのセグメントの統計的に最も重要な違いを検出します。オーディエンスデータは、セグメント比較で 2 つの方法（1：比較する 2 つのセグメントとして、2：「上位ディメンション項目」テーブルの項目として）で使用できます。
+[セグメント比較](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)は、2 つのセグメントの統計的に最も重要な違いを検出します。オーディエンスデータは、次の2つの方法でセグメント比較に使用できます。1)を、比較対象の2つのセグメント、2)を「上位のディメンション項目」テーブルの項目として使用します。
 
 1. **[!UICONTROL ワークスペース]**&#x200B;に移動して、左レールから&#x200B;**グメント比較[!UICONTROL パネルを選択します。]**
 
@@ -37,13 +37,13 @@ Analysis Workspace では、AAM セグメントは 2 つのディメンション
 1. （オプション）：ほかのディメンション項目またはセグメントを選択することも可能です。最大 2 つを比較できます。
 1. Click **[!UICONTROL Build]**.
 
-   オーディエンス ID ディメンションとオーディエンス名ディメンションは、比較している 2 つのセグメントの追加のプロファイルデータであるので、「上位ディメンション項目」テーブルに自動的に表示されます。
+   オーディエンスIDディメンションと名前ディメンションは、比較対象の2つのセグメントに対する追加のプロファイルデータなので、「上位のディメンション項目」テーブルに自動的に表示されます。
 
    ![](assets/aud-segcompare.png)
 
 ## Analysis Workspace でのカスタマージャーニー（フロー） {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM セグメントのデータはヒットごとに Analytics に渡され、その時点での訪問者のオーディエンスのメンバーシップを表します。これは、訪問者があるセグメント（例えば、「認識」）に該当し、その後、他のセグメント（例えば、「検討」）に認定される場合があることを意味します。Analysis Workspace で[フロー](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)を使用すると、訪問者がオーディエンス間でたどるカスタマージャーニーを可視化できます。
+AAM セグメントのデータはヒットごとに Analytics に渡され、その時点での訪問者のオーディエンスのメンバーシップを表します。つまり、訪問者が1つのセグメント(例えば、「認識」)を使用し、後でより適切なセグメント(例："検討")。 Analysis Workspace で[フロー](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)を使用すると、訪問者がオーディエンス間でたどるカスタマージャーニーを可視化できます。
 
 1. **[!UICONTROL ワークスペース]**&#x200B;に移動して、左レールから「**フロー[!UICONTROL 」ビジュアライゼーションを選択します。]**
 
