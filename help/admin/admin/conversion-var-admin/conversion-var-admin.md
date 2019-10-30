@@ -8,7 +8,7 @@ title: コンバージョン変数（eVar）
 topic: 管理ツール
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,9 +27,7 @@ eVar は、次のような原因と結果を測定するために最適です。
 
 トラフィック測定またはパスが必要な場合、トラフィック変数を使うことをお勧めします。
 
->[!NOTE]
->
->イメージリクエストのeVarに格納できる値は1つだけです。 1 つの eVar の値に複数の値を格納したい場合は、[リスト変数（リスト var）](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)を実装することをお勧めします。
+> [!NOTE]イメージリクエストの 1 つの eVar には、単一の値のみを格納できます。1 つの eVar の値に複数の値を格納したい場合は、[リスト変数（リスト var）](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)を実装することをお勧めします。
 
 ## コンバージョン変数 - 説明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -48,7 +46,7 @@ eVar は、次のような原因と結果を測定するために最適です。
    <td colname="col2"> <p>コンバージョン変数のわかりやすい名前。この名前は、通常のレポートで eVar がどのように参照されるかを示しています。またこの名前は、左側のメニューに表示されるレポート名でもあります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">タイプ</span> </p> <p>（eVar のみ） </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> タイプ</span> </p> <p>（eVar のみ） </p> </td> 
    <td colname="col2"> <p>次のような変数値のタイプがあります。 </p> <p> <b></b> Text String</span>:サイトで使用されているテキスト値を取得します。 これが最も一般的なタイプの eVar であり、デフォルトの設定です。この eVar は他の変数と同様に機能し、変数内の値は静的テキスト文字列です。内部キャンペーンや内部検索のキーワードなどを追跡している場合は、このタイプの設定をお勧めします。 </p> <p> <b></b> カウンタ</span>:あるアクションが成功イベントの前に発生した回数を数えます。 例えば、eVar を使ってサイト上での内部検索を追跡する場合、この値を「<span class="uicontrol">テキスト文字列</span>」に設定して検索用語の使用状況を追跡します。この値を「<span class="uicontrol">カウンター</span>」に設定すると、使用された検索用語にかかわらず検索回数がカウントされます。例えば、カウンター eVar を使用すると、誰かが購入前に内部検索を使用した回数を追跡できます。 </p> </td> 
   </tr> 
   <tr> 
