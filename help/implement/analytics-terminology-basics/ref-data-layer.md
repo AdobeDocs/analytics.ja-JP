@@ -7,8 +7,8 @@ solution: Analytics
 title: データ層
 topic: 開発者と実装
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
-translation-type: ht
-source-git-commit: 26c3cc9895c27d6abc452e0a4636771fb2415fb3
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
