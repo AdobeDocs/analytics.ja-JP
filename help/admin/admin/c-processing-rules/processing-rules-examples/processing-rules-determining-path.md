@@ -1,19 +1,19 @@
 ---
 description: eVar の値を prop にコピーしてパス指定を有効にすることができます。
 seo-description: eVar の値を prop にコピーしてパス指定を有効にすることができます。
-seo-title: eVar値をpropにコピーしてパスを特定する
+seo-title: eVar 値を prop にコピーしてパスを指定
 solution: Analytics
 subtopic: 処理ルール
-title: eVar値をpropにコピーしてパスを特定する
+title: eVar 値を prop にコピーしてパスを指定
 topic: 管理ツール
-uuid: 8d7647c7- aa91-466b-8d31- fb4dce83f04a
+uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# eVar値をpropにコピーしてパスを特定する
+# eVar 値を prop にコピーしてパスを指定
 
 eVar の値を prop にコピーしてパス指定を有効にすることができます。
 
