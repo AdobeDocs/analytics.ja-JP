@@ -5,9 +5,9 @@ seo-title: トラフィック
 solution: Analytics
 title: トラフィック
 topic: レポート
-uuid: c32af0c0- f0c2-47f7- a5f6-4a2df63e11fc
+uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,4 +27,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **共通の持続性**
 
-トラフィックソースでは、すべてのレポート値は、値が上書きされるか訪問が終了するまで保持され、クレジットを受け取ります。以前は、保持されたのはキーワードと参照ドメインのみでした。例えば、訪問者が *`DVD`*&#x200B;を使用してサイトに100ドルの購入を行うと、レポートでは$100のクレジットがキーワード *`DVD`* に割り当てられ、Google検索エンジンにも割り当てられます。この機能は、管理設定の内容にかかわらず、変更できません。
+トラフィックソースでは、すべてのレポート値は、値が上書きされるか訪問が終了するまで保持され、クレジットを受け取ります。以前は、保持されたのはキーワードと参照ドメインのみでした。例えば、訪問者が  *`DVD`*, which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword *`DVD`* and also to the Google search engine. この機能は、管理設定の内容にかかわらず、変更できません。
