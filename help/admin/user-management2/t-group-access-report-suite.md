@@ -8,7 +8,7 @@ title: レポートスイートに対するユーザーグループの割り当�
 topic: 管理ツール
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
    **[!UICONTROL 利用可能なグループ：]**&#x200B;現在定義されているすべてのグループが表示されます。Select the desired groups, then click **[!UICONTROL Add]**. 割り当てられたグループは「次を含むグループ」フィールド（右側）に表示されます。
 
    **[!UICONTROL 次を含むグループ：]**&#x200B;レポートスイートに現在割り当てられているすべてのグループが表示されます。To remove a group, select it, then click **[!UICONTROL Remove]**.
-1. Click **[!UICONTROL Save Changes]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
