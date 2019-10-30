@@ -5,9 +5,9 @@ seo-title: リクエストの更新
 solution: Analytics
 title: リクエストの更新
 topic: Report Builder
-uuid: bb94fcc6-027b-4134- adc8-56a1ea7cc56b
+uuid: bb94fc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,6 +26,6 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
    **現在の日付：**&#x200B;更新の基準になる日付です。「[!UICONTROL 基準日]」とも呼ばれます。
 
    **今後の更新アクションで現在の日付に設定：**&#x200B;このオプションを有効にすると、現在の日付が[!UICONTROL 基準日]として必ず使用されます。この設定は、ツールバーの「[!UICONTROL オプション]」をクリックすると、元に戻すことができます。
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
    更新が正常に完了すると、[!UICONTROL リクエストマネージャー]で緑のアイコンでレポートされます。
