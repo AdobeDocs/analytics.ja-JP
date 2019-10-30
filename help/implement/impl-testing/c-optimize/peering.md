@@ -8,8 +8,8 @@ subtopic: トラブルシューティング
 title: ピアリング
 topic: 開発者と実装
 uuid: b3d34369-8cb8-4f12-8b58-847132c43881
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
