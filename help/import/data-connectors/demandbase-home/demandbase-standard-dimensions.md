@@ -5,7 +5,7 @@ seo-title: Demandbase標準ディメンション
 title: Demandbase標準ディメンション
 uuid: dea1c680-b5e2-4237-bb2f-baf5f17c8019
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 | ディメンション | APIフィールド | 説明 |
 |---|---|---|
 | Demandbase SID | demandbase_sid | Demandbaseデータベースから識別された組織の一意の識別子。 |
-| 会社名 | company_name | 識別された会社のDemandbaseの標準化された組織名。 |
+| 会社名 | company_name | 識別された会社に対するDemandbaseの標準化された組織名。 |
 | 業界 | 業界 | 識別された組織の業種名または業種。 |
 | サブ業界 | sub_industry | 識別された組織の業種名。 |
 | 従業員範囲 | employee_range | 識別された組織の従業員数に基づく従業員範囲。 |
