@@ -1,19 +1,19 @@
 ---
 description: マーチャンダイジング変数でインスタンスをカウントする方法を説明します。
-keywords: Analytics の導入
+keywords: Analytics の実装
 seo-description: マーチャンダイジング変数でインスタンスをカウントする方法を説明します。
-seo-title: マーチャンダイジング変数のインスタンス
+seo-title: マーチャンダイジング変数とインスタンス
 solution: Analytics
-title: マーチャンダイジング変数のインスタンス
-topic: 開発者と導入
-uuid: 4cdfd53e-88aa-48cf- a135-98f7fc8cucks
+title: マーチャンダイジング変数とインスタンス
+topic: 開発者と実装
+uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dce
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# マーチャンダイジング変数のインスタンス
+# マーチャンダイジング変数とインスタンス
 
 マーチャンダイジング変数でインスタンスをカウントする方法を説明します。
 
@@ -50,7 +50,5 @@ s.products=";Fernie Snow Goggles"
 
 バインディングイベントが発生しないページで eVar の値を設定する場合、またはバインディングイベントがない products 文字列に eVar 値を設定する場合、「なし」への割り当てが発生します。
 
->[!NOTE]
->
->マーチャンダイジング変数のインスタンスをカウントするための現在の機能はレビュー中で、今後のリリースで変更する予定です。
+> [!NOTE] マーチャンダイジング変数のインスタンス数の現在の機能は、見直しが進められ、今後のリリースで変更される予定です。
 
