@@ -7,7 +7,7 @@ title: リクエストを含むワークブックの保存
 topic: Report Builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
