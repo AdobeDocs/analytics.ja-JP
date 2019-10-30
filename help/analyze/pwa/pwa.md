@@ -1,33 +1,33 @@
 ---
-title: Analyticsの場合はpID
-seo-title: Analyticsの場合はpID
-description: Adobe Analytics用のプログレッシブWebアプリケーション
-seo-description: AnalyticsでのpIDの使用
+title: Analytics用のPWA
+seo-title: Analytics用のPWA
+description: Adobe Analytics用プログレッシブWebアプリ
+seo-description: AnalyticsでのPWAの使用
 translation-type: tm+mt
-source-git-commit: f64e5d9977bebd0e9db4af0f7118e9e64978c1c7
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Analyticsの場合はpID
+# Analytics用のPWA
 
-このガイドでは、Adobe AnalyticsをプログレッシブWebアプリケーション（pID）と共に使用する方法について説明します。
+このガイドでは、Adobe AnalyticsをプログレッシブWebアプリ(PWA)と共に使用する方法について説明します。
 
 ## はじめに
 
-PIDは、Webサイトのネイティブアプリケーションエクスペリエンスおよびオフライン機能を提供できます。通常、pIDにはサービスワーカー、キャッシュの条件、マニフェストファイルが含まれています。これらのファイルはすべて読み込み時間、容易なナビゲーションおよびレスポンシブ動作に役立ちます。
+PWAは、Webサイトに対してネイティブのアプリエクスペリエンスとオフライン機能を提供できます。 通常、PWAにはサービスワーカー、キャッシュのプロビジョニング、マニフェストファイルが含まれ、これらのファイルは、読み込み時間の短縮、ナビゲーションの容易化、レスポンシブな動作に役立ちます。
 
-Adobe Analyticsは従来のWebサイトと同様に、pIDと共にシームレスに機能します。pIDには、プログレッシブに行動するための要件がいくつかありますが、Analyticsが従来のWebサイトとは異なる方法でデータを収集またはレポートする方法について、障害や制限は作成されません。実際、Analyticsにはオフライン追跡機能が既に含まれているので、PIDは従来のWebサイトよりも簡単にこの組み込み機能を活用するのに役立ちます。
+Adobe Analyticsは、従来のWebサイトと同様に、PWAとシームレスに連携します。 PWAには、プログレッシブに動作するための要件がいくつかありますが、従来のWebサイトとは異なる方法でAnalyticsがデータを収集したりレポートする方法に関する障害や制限は生じません。 実際、Analyticsには既にオフライン追跡機能が含まれているので、PWAは、従来のWebサイトよりも簡単にこの組み込み機能を利用できます。
 
-## PWA Analyticsデータの取得
+## PWA解析データの取得
 
-PWAデータをAnalyticsで収集および分析するには、設定変更を行う必要はありません。Analyticsは、従来のWebサイトと同じ機能と機能をすべて自動的に提供します。
+AnalyticsでPWAデータを収集して分析する場合は、設定を変更する必要はありません。 Analyticsは、従来のWebサイトと同じ機能と機能をすべて自動的に提供します。
 
-## オフライントラッキングを追加してPWAの効果を高める
+## PWAの効果を高めるためのオフライン追跡の追加
 
-Analytics [のオフライン追跡機能を](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) 使用して、PWAの有効性を向上できます。デフォルトでは、この機能はオフになっていますが、AppMeasurement. jsファイルに次のプロパティを追加して、有効にすることができます。 `s.trackOffline=true;`を参照してください。
+Analyticsのオフライン追跡機能を使用して、PWAの効果を高め [ることができます](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) 。 デフォルトでは、この機能はオフになっていますが、AppMeasurement.jsファイルに次のプロパティを追加してオンにすることができます。 `s.trackOffline=true;`.
 
-例えば、次のAppMeasurement. jsファイルでは、プロパティが最後に追加 `CONFIG SECTION`されます。
+例えば、次のAppMeasurement.jsファイルでは、プロパティが `CONFIG SECTION`
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -47,8 +47,8 @@ s.trackOffline=true
 ```
 
 
-AppMeasurement. jsファイルの編集について詳しくは、AppMeasurement. jsファイルへのコード [の挿入を](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)参照してください。
+AppMeasurement.jsファイルの編集について詳しくは、「AppMeasurement.jsファ [イルへのコードの挿入」を参照してください](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)。
 
-AppMeasurement. jsファイルの設定の例については、AppMeasurement. jsファイル [の設定](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)を参照してください。
+AppMeasurement.jsファイルの設定例については、AppMeasurement.jsファ [イルの設定を参照してください](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)。
 
-AppMeasurement. jsファイルの特性について詳しくは [、JavaScriptの実装の概要](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)を参照してください。
+AppMeasurement.jsファイルの特性について詳しくは、 [Javascript実装の概要を参照してください](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
