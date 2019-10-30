@@ -7,7 +7,7 @@ title: 金融サービス
 topic: 管理ツール
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,8 +34,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 標準コマースイベント | タイプ | `s_code` variable |
 |---|---|---|
 | 売上高 | カウンター | `purchase` |
-| 注文件数 | カウンター | `purchase` |
-| 購入点数 | カウンター | `purchase` |
+| 購入回数 | カウンター | `purchase` |
+| 単位 | カウンター | `purchase` |
 | 買い物かご | カウンター | `scOpen` |
 | 買い物かご表示 | カウンター | `scView` |
 | インスタンス | カウンター | 該当なし |
