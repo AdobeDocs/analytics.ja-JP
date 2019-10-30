@@ -7,7 +7,7 @@ title: ページの詳細
 topic: Activity Map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
