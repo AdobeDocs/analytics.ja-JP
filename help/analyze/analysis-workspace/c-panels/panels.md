@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: パネルの概要
 title: パネルの概要
-uuid: 480700e6-332e-44f2- a486- e3d1852cmdbc
+uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/create_dropdown.png)
 
-   これにより、そのコンポーネントがセグメントではなくてドロップダウンリストになります。（キーを押さずにセグメントを追加することもできます）。
+   これにより、そのコンポーネントがセグメントではなくてドロップダウンリストになります。（キーを押さないでセグメントを追加することもできます）。
 
    ![](assets/dropdown.png)
 
