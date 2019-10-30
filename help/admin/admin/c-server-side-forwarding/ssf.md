@@ -6,7 +6,7 @@ solution: Audience Manager
 title: サーバー側転送の概要
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,10 +43,10 @@ source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
 
 Analyticsトラッキングリクエストを調べて、サーバー側転送が既に実装されている [かどうかを確認します](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)。
 
-「応答」タブで、応答に Audience Manager データが含まれているかどうかを確認します。表示される場合：
+「応答」タブで、応答にAudience Managerデータが含まれていることを確認します。 表示される場合：
 
-* **Audience Manager からの JSON 応答に「postbacks」や「dcs_region」などの項目が含まれている場合**：何らかの形のサーバー側転送が既に有効になっています。手順 3 に進みます。
-* **"status":"SUCCESS"**：Audience Management モジュールが実装されていますが、サーバー側転送が適切に設定されていません。手順 3 に進みます。
+* A **JSON response from Audience Manager that includes items such as "postbacks" or "dcs_region"**: you have some form of server-side forwarding already enabled. 手順 3 に進みます。
+* The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. 手順 3 に進みます。
 * **2 x 2 の画像**：サーバー側転送および Audience Management モジュールは実装されていません。修正手順を以下に示します。
 
    * **DIL を使用している AAM のお客様**：以下の 2 つの項目を緊密に連携および調整します。
@@ -70,7 +70,5 @@ Analyticsトラッキングリクエストを調べて、サーバー側転送�
 
 <!-- Meike, check Report Suite Mapping UI link above -->
 
->[!NOTE]
->
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. 有効にした後、これらの設定が反映されるまでに数時間かかります。
+> [!NOTE] 3つの手順がすべて完了するまで、 [Audience Managerや](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) Audiences [](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) など、他のExperience cloudソリューションにデータは表示されません。 有効にした後、これらの設定が反映されるまでに数時間かかります。
 
