@@ -3,12 +3,12 @@ description: （オプション）分類をマーケティングレポートに�
 seo-description: （オプション）分類をマーケティングレポートにインポートする前に、分類データファイルの作成に役立つテンプレートをダウンロードできます。データファイルでは、必要な分類を列見出しとして使用し、レポートデータセットを適切な分類見出しの下に整理します。
 seo-title: 分類テンプレート
 solution: Analytics
-subtopic: '分類      '
+subtopic: 分類
 title: 分類テンプレート
 topic: 管理ツール
-uuid: 4edd411b-164c-4b4d- a872- b57a3163ca72
+uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 1986561a83f22619b627d754376f7e936902a737
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 1986561a83f22619b627d754376f7e936902a737
 
 （オプション）分類をマーケティングレポートにインポートする前に、分類データファイルの作成に役立つテンプレートをダウンロードできます。データファイルでは、必要な分類を列見出しとして使用し、レポートデータセットを適切な分類見出しの下に整理します。
 
-## Classification template {#concept_0F06847AD8D042F5BA818AE3C37E2417}
+## 分類テンプレート {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
 （オプション）分類をマーケティングレポートにインポートする前に、分類データファイルの作成に役立つテンプレートをダウンロードできます。データファイルでは、必要な分類を列見出しとして使用し、レポートデータセットを適切な分類見出しの下に整理します。
 
-**[!UICONTROL 管理]** 者/ **[!UICONTROL 分類インポーター]**
+**[!UICONTROL 管理者]** /分 **[!UICONTROL 類インポーター]**。
 
 | 要素 | 説明 |
 |---|---|
@@ -33,21 +33,17 @@ source-git-commit: 1986561a83f22619b627d754376f7e936902a737
 
 このテンプレートには、特定のデータセットについて現在定義されている分類（列見出し）が含まれています。各分類に関連付けられたデータは含まれていません。
 
->[!NOTE]
->
->テンプレートメソッドでは、分類データのダウンロードを単一のレポートスイートに制限します。
+> [!NOTE] テンプレート方法を使用する場合、分類データのダウンロード先は1つのレポートスイートに制限されます。
 
-For more information about the data file structure, see [About Classification Data Files](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+データファイルの構造について詳しくは、分類データファイルに [ついてを参照してください](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)。
 
 ## 分類データテンプレートのダウンロード（オプション）{#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
 このテンプレートは、分類に関して従う必要があるファイル形式を提供します。
 
->[!NOTE]
->
->テンプレートメソッドでは、データのダウンロードを単一のレポートスイートに制限します。
+> [!NOTE] テンプレート方法を使用する場合、データのダウンロード先は1つのレポートスイートに制限されます。
 
-1. **[!UICONTROL 管理者]** / **[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
 1. Click **[!UICONTROL Download]**.
 1. テンプレートファイルをローカルシステムに保存します。
