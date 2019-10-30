@@ -7,8 +7,8 @@ solution: Analytics
 title: セグメント
 topic: 開発者と実装
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,4 +25,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 デバイス間の訪問者の識別にセグメントを使用する方法について詳しくは、「[セグメントの作成](../../implement/js-implementation/xdevice-visid/segments.md#concept_77F0A880A6BA4A919A233DAF9D0D6FB5)」を参照してください。
 
-Adobe Analytics のセグメント化について詳しくは、「[セグメント化ガイド](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/)」を参照してください。
+Adobe Analytics のセグメントの詳細については、[セグメント化ガイド](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)を参照してください。
