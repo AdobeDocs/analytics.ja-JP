@@ -2,20 +2,20 @@
 description: 'null'
 keywords: Analysis Workspace
 seo-description: 'null'
-seo-title: プロジェクトを作成-概要
+seo-title: プロジェクトの作成 - 概要
 solution: Analytics
-title: プロジェクトを作成-概要
-topic: Reports and Analytics
-uuid: a68be05d- f31e-4e6d- ad04- c784ecb0eb00
+title: プロジェクトの作成 - 概要
+topic: Reports & Analytics
+uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# プロジェクトを作成-概要
+# プロジェクトの作成 - 概要
 
-**[!UICONTROL Analytics]** / **[!UICONTROL ワークスペース]**
+**[!UICONTROL Analytics]** / **[!UICONTROL Workspace]**
 
 ビジュアライゼーション、レポートコンポーネントおよびデータテーブルを任意に組み合わせて、堅牢な Analytics プロジェクトを作成できます。Analytics で Ad Hoc Analysis の数多くのテーブル作成機能を使用できます。
 
@@ -25,7 +25,7 @@ Analysis Workspace では、新たな方法でデータの比較および詳細�
 
 ## Workspace のプロジェクト一覧ページ {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-**[!UICONTROL Analytics]** / **[!UICONTROL ワークスペース]**&#x200B;に移動すると、自分が所有するすべてのプロジェクトまたはアクセス権を付与されたすべてのプロジェクトが表示されます。You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. （下のスクリーンショットのように、このオプションが表示されない場合、既にランディングページに設定されています）。
+When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. （下のスクリーンショットのように、このオプションが表示されない場合、既にランディングページに設定されています）。
 
 ![](assets/sample-project.png)
 
@@ -33,7 +33,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 | 要素 | 説明 |
 |---|---|
-| プロジェクト[テンプレート](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) | これらの事前設定されたプロジェクトテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。 |
+| プロジェクト [テンプレート](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) | これらの事前設定されたプロジェクトテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。 |
 | [新規プロジェクトを作成](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) | このリンクをクリックすると、新しいプロジェクトを最初から作成できます。 |
 | プロジェクトの管理 | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
 | チュートリアルを表示 | [YouTube の Analysis Workspace 関連ビデオ](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)に移動します。 |
@@ -44,7 +44,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 ## プロジェクト情報および設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL ワークスペース]** / **[!UICONTROL プロジェクト]** / **[!UICONTROL プロジェクト情報および設定]**
+**[!UICONTROL Workspace]** / **[!UICONTROL Project]** / **[!UICONTROL Project Info &amp; Settings]**
 
 ![](assets/projectinfo.png)
 
@@ -69,9 +69,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 サブメニューには次のオプションが含まれます。
 
->[!NOTE]
->
->Options marked by an asterisk (*) display only with **saved** projects.
+> [!NOTE] アスタリスク(*)が付いているオプションは、保存されたプロジェクトでのみ表 **示され** ます。
 
 | プロジェクト | 編集 | 挿入 | コンポーネント | 共有 | ヘルプ |
 |---|---|---|---|---|---|
