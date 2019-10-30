@@ -7,8 +7,8 @@ solution: Analytics
 title: キャンペーンまたはトラッキングコードによるパス
 topic: 開発者と実装
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ s.prop1=s.pageName;
 ユーザーがキャンペーンをクリックしてランディングしないページはこのような設定でかまいません。ユーザーがキャンペーンをクリックしてそのキャンペーンのランディングページに到達している場合は、キャンペーンと[!UICONTROL ページ名]を連結した値を prop に設定します。次を参照してください。
 
 ```js
- s.prop1=s.campaign + ‘ : ’ + s.pageName;
+ s.prop1=s.campaign + ' : ' + s.pageName;
 ```
 
 クリックされたキャンペーンの名前が「banner1234」であり、ランディングページの名前が「Home Page」である場合、prop の値は「banner1234 : Home Page」になります。後続のすべてのページでは、前の例で示したように[!UICONTROL ページ名]を prop に設定します。
@@ -36,7 +36,7 @@ s.prop1=s.pageName;
 ユーザーがこのキャンペーンをクリックし、その訪問時に合計で 4 つのページを表示した場合、sprop の値は次のような順番になります。
 
 ```js
-“banner1234 : Home Page” > “Page 2” > “Page 3” > “Page 4”
+"banner1234 : Home Page" > "Page 2" > "Page 3" > "Page 4"
 ```
 
 このように [!UICONTROL prop1] にデータが取り込まれるようにし、この prop に対してパスを有効にすると、ユーザーがキャンペーンをクリックした後にサイトをどのように移動したかについて把握することができます。
