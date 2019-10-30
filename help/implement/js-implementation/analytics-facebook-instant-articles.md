@@ -7,8 +7,8 @@ solution: Analytics
 title: Facebook インスタント記事
 topic: 開発者と実装
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 Facebook インスタント記事に Analytics を導入する方法です。
 
-Facebook インスタント記事は、発行者が Facebook で迅速にインタラクティブな記事を作成するための新しい手法です。インスタント記事は、モバイル Web よりも最大 10 倍高速にコンテンツを読み込めます。
+Facebook インスタント記事 は、発行者がFacebook上で高速でインタラクティブな記事を作成するための新しい方法です。 インスタント記事は、モバイル Web よりも最大 10 倍高速にコンテンツを読み込めます。
 
 Adobe Analytics は、Facebook インスタント記事内に埋め込んで、コンテンツでやり取りした訪問者の行動をトラッキングできます。発行者のコンテンツは Facebook アプリ内にあり、発行者の Web サイトにはないので、タグ付け方法は、標準的な Analytics 実装とは少し異なります。
 
@@ -82,7 +82,7 @@ Facebook インスタント記事コンテンツを作成する際に、Analytic
    1. 会社のトラッキングサーバードメイン。
    1. 訪問者名前空間変数。**注意：**&#x200B;これらの値の多くは、標準 Analytics 実装内に見けることができます。必要に応じて、適切な値の提供についてカスタマーケアまたはアドビコンサルティングにお問い合わせいただくこともできます。
 
-1. [カスタム変数およびイベントトラッキングを設定](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B)します。
+1. [カスタム変数およびイベントトラッキングを設定する](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. ページビューイメージリクエスト構文 `( s.t())` を含めます。
 
 ## 手順 3.カスタム変数およびイベントトラッキングを設定する {#section_932C41BD21154C25B99389299BDF3E0B}
