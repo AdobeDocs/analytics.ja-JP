@@ -8,7 +8,7 @@ title: ダッシュボードマネージャー
 topic: Reports & Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,15 +73,11 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 既存のレガシーダッシュボードを引き続き実行し、編集、ダウンロードおよびスケジュールを行うこともできますが、レガシーダッシュボードを新規作成することはできません。必要なユーザーアクション：既存のレガシーダッシュボードを新しいダッシュボードフォーマットにアップグレードすることを強くお勧めします。
 
->[!NOTE]
->
->Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+> [!NOTE] 今後は、 [Analysis Workspaceプロジェクトの使用と](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 、ダウンロードおよびスケジュール機能の使用を検討します。
 
 レガシーダッシュボードをコピーすると、編集用のレガシーダッシュボードが表示され、レガシーコンテンツまたは新しいコンテンツを追加できます。レガシーダッシュボードをコピーしても、元のレガシーダッシュボードはレガシーダッシュボードのリストに保持されます。
 
->[!NOTE]
->
->レガシーコンテンツをダッシュボードに追加すると、最新のダッシュボード機能に基づいてダッシュボードが作成されます。 ただし、レガシーレポートレットには以前のデータプラットフォームに基づくデータが含まれている可能性があります。
+> [!NOTE] レガシーコンテンツをダッシュボードに追加すると、最新のダッシュボード機能に基づいてダッシュボードが作成されます。 ただし、レガシーレポートレットには以前のデータプラットフォームに基づくデータが含まれている可能性があります。
 
 **バージョン 14.x のレガシーダッシュボードを移行するには**
 
@@ -115,9 +111,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 ## ダッシュボードのアーカイブ
 
->[!NOTE]
->
->この機能は、2020年1月にはご利用いただけなくなります。
+> [!NOTE] この機能は、2020年1月にはご利用いただけなくなります。
 
 送信したダッシュボードを PDF ファイルとしてアーカイブする手順を説明します。アーカイブされたファイルは 2 年間または最大 4 GB に達するまで（いずれか短い期間）保存されます。
 
