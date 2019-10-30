@@ -8,8 +8,8 @@ subtopic: プラグイン
 title: getQueryParam
 topic: 開発者と実装
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 プラグインを JavaScript 版 [!DNL AppMeasurement] コードにインストールすると、クエリ文字列にあるデータを入力する [!DNL Analytics] 変数を選択し、取り込むクエリ文字列の値を指定することによってプラグインを設定できます。プラグインは、指定したクエリ文字列があればそれを検出し、選択した変数にその値を入力します。クエリ文字列パラメーターがその値で見つからない場合、空の文字列が返されます。クエリ文字列パラメーターがあるものの値がない場合（例えば、`?param1&param2=value` の param1）、「*`true`*」という単語が返されます。
 
->[!NOTE]
->
->後述のサンプルを機能させるには、JavaScript 版 [!DNL AppMeasurement] コードにプラグインのベースコードをインストールしておく必要があります。
+> [!NOTE]後述のサンプルを機能させるには、JavaScript 版 [!DNL AppMeasurement] コードにプラグインのベースコードをインストールしておく必要があります。
 
 *`s.campaign`* を使用して *`cid`* クエリパラメーターの値として利用可能なキャンペーンコードを取得するには、JavaScript 版 [!DNL AppMeasurement] コードに次の *`doPlugins()`* 関数を入力します。
 
@@ -34,11 +32,9 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 この例では、ユーザーがサイトのランディングページにアクセスし、その URL が[!DNL https://www.yoursite.com/index.html?cid=123456] の場合、*`s.campaign`* は値「*123456*」を受け取ります。これは [!DNL DigitalPulse] [!UICONTROL Debugger] で確認でき、イメージリクエストの一環として *v0=123456* と表示されます。
 
->[!NOTE]
->
->パラメーター *`cid`* およびその他はは例として使用されています。これらは、サイトに存在する任意のクエリ文字列パラメーターで置き換えることができます。
+> [!NOTE]パラメーター *`cid`* およびその他はは例として使用されています。これらは、サイトに存在する任意のクエリ文字列パラメーターで置き換えることができます。
 
-*`getQueryParam`* プラグインには、Analytics 変数にデータを取り込める引数がさらに 2 つあります（オプション）。
+Folio Builder *`getQueryParam`* プラグインには、Analytics 変数にデータを取り込める引数がさらに 2 つあります（オプション）。
 
 ```js
 s.getQueryParam('p','d','u') 
@@ -58,7 +54,7 @@ s.campaign=s.getQueryParam('cid');
  s.campaign=s.getQueryParam('iid'); 
 ```
 
-バージョン  *`getQueryParam`* v2.0 からは、オプションとして 3 つ目の引数 *u* が許可されています。この引数では、クエリ文字列パラメーターの抽出元となる URL を指定できます。デフォルト（つまりこの 3 つ目の引数が省略または空白にされた場合）では、プラグインはページ URL を使用します。例えば、リファラーからクエリ文字列を抽出する場合、次のコードを使用できます。
+バージョン *`getQueryParam`* v2.0 からは、オプションとして 3 つ目の引数 *u* が許可されています。この引数では、クエリ文字列パラメーターの抽出元となる URL を指定できます。デフォルト（つまりこの 3 つ目の引数が省略または空白にされた場合）では、プラグインはページ URL を使用します。例えば、リファラーからクエリ文字列を抽出する場合、次のコードを使用できます。
 
 ```js
 // take the query string from the referrer 
@@ -74,9 +70,7 @@ s.campaign=s.getQueryParam('cid');
 
 フレームと *f* パラメーターを使う場合、*`getValOnce`* プラグインを使って、毎回のページビューでキャンペーントラッキングコードが送信されないようにすることが推奨されています。
 
->[!NOTE]
->
->後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+> [!NOTE]後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 **プラグインコード**
 
