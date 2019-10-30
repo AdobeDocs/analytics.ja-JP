@@ -5,9 +5,9 @@ seo-title: 入口と出口
 solution: Analytics
 title: 入口と出口
 topic: レポート
-uuid: 756de55b-136b-427b- a80c- f822260131b1
+uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 # 入口と出口
 
 >[!NOTE]
->製品変数に複数の値が含まれているヒットの場合、入口と出口は、最初のヒットだけではなく、ヒット内のすべての製品値に適用されます。
+>製品変数に複数の値を持つヒットの場合、入口と出口は、最初の値ではなく、ヒット内のすべての製品値に適用されます。
 
 入口ページレポートは、新規訪問で、サイトで最初に閲覧したページの割合および合計訪問回数を示します。
 
