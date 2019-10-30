@@ -3,9 +3,9 @@ description: 仮想レポートスイートを使用すると、Adobe Analytics 
 seo-description: 仮想レポートスイートを使用すると、Adobe Analytics データをセグメントに分割して、各セグメントへのアクセスを制御できます。
 seo-title: 仮想レポートスイートの概要
 title: 仮想レポートスイートの概要
-uuid: 51c63c56- dd58-4c23- a997- ea6942480d22
+uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
