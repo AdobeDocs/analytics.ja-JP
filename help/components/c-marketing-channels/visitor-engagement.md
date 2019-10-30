@@ -5,10 +5,10 @@ seo-title: 訪問者のエンゲージメント期間
 solution: Analytics
 subtopic: マーケティングチャネル
 title: 訪問者のエンゲージメント期間
-topic: Reports and Analytics
-uuid: 47f1cabc-3ce7-494d- b456-956a3a3c6c9a
+topic: Reports & Analytics
+uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 マーケティングチャネルで訪問者のエンゲージメント期間を指定する方法について説明します。
 
-## Visitor engagement expiration {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
+## 訪問者のエンゲージメント期間 {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 マーケティングチャネルで訪問者のエンゲージメント期間を指定する方法について説明します。
 
@@ -35,8 +35,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 訪問者のエンゲージメント期間を指定します。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
-1. [!UICONTROL Report Suite Manager]で、設定 **[!UICONTROL を編集]** / **[!UICONTROL マーケティングチャネル]** / **[!UICONTROL マーケティングチャネルの有効期限]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Expiration]**.
 
    ![](assets/mchannel_expiration.png)
 
