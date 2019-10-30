@@ -5,16 +5,16 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.linkTrackEvents
 
-The  variable is a comma-separated list of events that are sent with a [!UICONTROL custom], [!UICONTROL exit], or [!UICONTROL download] link.
+[!UICONTROL custom]、[!UICONTROL exit]、または[!UICONTROL download] 変数は、カスタムリンク、離脱リンクまたはダウンロードリンクのトラッキング時に送信されるイベントのコンマ区切りのリストです。
 
-If an event is not in *`linkTrackEvents`*, it is not sent to [!DNL Analytics], even if it is populated in the [!UICONTROL onClick] event of a link, as shown in the following example:
+イベントが *`linkTrackEvents`* に含まれていない場合、リンクの [!UICONTROL onClick] イベントに入力されていても、[!DNL Analytics] に送信されません。以下に例を示します。
 
 ```js
 s.linkTrackVars="events" 
@@ -24,11 +24,11 @@ s.t() // both event1 and event2 are recorded
 <a href="test.php" onClick="s=s_gi('rs1');s.events='event2';s.tl(this,'o')">No events are recorded</a> 
 ```
 
-[!DNL help.php] への最初のリンクでは、events 変数にはリンクがクリックされる前に設定された値が保持されています。これにより、event1 がカスタムリンクで送信されます。In the second example, the link to [!DNL test.php], event2 is not recorded because it is not listed in *`linkTrackEvents`*.
+[!DNL help.php] への最初のリンクでは、events 変数にはリンクがクリックされる前に設定された値が保持されています。これにより、event1 がカスタムリンクで送信されます。2 番目の例である [!DNL test.php] へのリンクでは、event2 は *`linkTrackEvents`* にリストされていないので、記録されません。
 
-混乱や潜在的な問題を避けるため、アドビでは、リンクトラッキ *`linkTrackVars`* ングに使 *`linkTrackEvents`* 用するリ [!UICONTROL ンクのonClick] イベントにデータを埋め込むことをお勧めします。
+混乱や潜在的な問題を回避するため、アドビでは、リンクトラッキングに使用するリンクの [!UICONTROL onClick] イベントに、*`linkTrackVars`* および *`linkTrackEvents`* を入力することをお勧めします。
 
-The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. この変数は、「events」が含まれ *`linkTrackVars`* る場合にのみ考慮されます。
+*`linkTrackEvents`* 変数には、[!UICONTROL カスタム]リンク、[!UICONTROL ダウンロード]リンクおよび[!UICONTROL 離脱]リンクで送信されるイベントが含まれます。この変数は、*`linkTrackVars`* に「events」が含まれる場合にのみ考慮されます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -36,13 +36,13 @@ The *`linkTrackEvents`* variable contains the events that should be sent with [!
 
 ## 構文と可能な値
 
-Folio Builder *`linkTrackEvents`* 変数は、コンマで区切られたイベントのリストです（スペースは使用できません）。
+*`linkTrackEvents`* 変数は、コンマで区切られたイベントのリストです（スペースは使用できません）。
 
 ```js
 s.linkTrackEvents="event1[,event2[,event3[...]]]"
 ```
 
- *`linkTrackEvents`*. These events are listed in [Events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). イベント名の前または後ろにスペースがある場合、どのリンクイメージリクエストでもイベントは送信されません。
+ *`linkTrackEvents`* ではイベント名のみを使用できます。これらのイベントについては、「[イベント](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html)」にリストされています。イベント名の前または後ろにスペースがある場合、どのリンクイメージリクエストでもイベントは送信されません。
 
 ## 例
 
@@ -60,8 +60,8 @@ s.linkTrackEvents="scAdd,scCheckout,purchase,event14"
 
 ## 注意事項、質問、ヒント
 
-* JavaScript ファイルでは  に「 *`linkTrackEvents`**`linkTrackVars`* events」変数が含まれる場合は、 「events」は、が定義されている場合にの *`linkTrackVars`* み含める必 *`linkTrackEvents`* 要があります。
+* JavaScript ファイルは、*`linkTrackVars`* に「events」変数が含まれている場合にのみ *`linkTrackEvents`* を使用します。「events」は、*`linkTrackEvents`* が定義されている場合にのみ、*`linkTrackVars`* に含める必要があります。
 
-* Beware if an event is fired on a page, and is listed in *`linkTrackEvents`*. That event is recorded again with any [!UICONTROL exit], [!UICONTROL download], or [!UICONTROL custom] links unless the events variable is reset prior to that event (in the [!UICONTROL onClick] of a link or after the call to the *`t()`* function).
+* ページでイベントが発生するかどうか、およびそのイベントが *`linkTrackEvents`* にリストされているかどうかを把握しておいてください。このイベントは、[!UICONTROL 離脱]リンク、[!UICONTROL ダウンロード]リンクまたは[!UICONTROL カスタム]リンクで再度記録されます。ただし、このイベントより前（リンクの [!UICONTROL onClick] 内または *`t()`* 関数への呼び出しの後）に、events 変数がリセットされている場合を除きます。
 
-* If *`linkTrackEvents`* contains spaces between event names, the events are not recorded.
+* *`linkTrackEvents`* でイベント名の間にスペースが含まれていると、それらのイベントは記録されません。
