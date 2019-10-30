@@ -7,8 +7,8 @@ solution: Analytics
 title: 実装のガイドライン
 topic: 開発者と実装
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 * **RSID：**[!UICONTROL レポートスイート ID]
 * **VNS：**（訪問者ネームスペース）[!DNL 2o7.net]訪問者 ID[!DNL omtrdc.net] cookie を保存するために使用される [!UICONTROL  または ] のサブドメイン。
-* **COOKIEDOMAIN：** VNS + trackingServer。これらはデータセンターと RDC 設定によって大きく異なります。データ収集ドメインのについてよくわからない場合は、[カスタマーケアにお問合せ](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html#analytics)ください。
+* **COOKIEDOMAIN：** VNS + trackingServer。これらはデータセンターと RDC 設定によって大きく異なります。[データ収集ドメインについて](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) 、不明な点はカスタマーケアにお問い合わせください。
 
 ## JavaScript
 
