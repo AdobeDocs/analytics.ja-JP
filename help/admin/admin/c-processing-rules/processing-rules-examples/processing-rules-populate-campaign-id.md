@@ -1,19 +1,19 @@
 ---
 description: クエリ文字列パラメーターを使用して、変数を入力することができます。
 seo-description: クエリ文字列パラメーターを使用して、変数を入力することができます。
-seo-title: クエリ文字列パラメータからのキャンペーンIDの入力
+seo-title: クエリ文字列パラメーターからのキャンペーン ID の入力
 solution: Analytics
 subtopic: 処理ルール
-title: クエリ文字列パラメータからのキャンペーンIDの入力
+title: クエリ文字列パラメーターからのキャンペーン ID の入力
 topic: 管理ツール
-uuid: 2bc61f9f- d8d2-41b7- bd39-4a9df30ff013
+uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# クエリ文字列パラメータからのキャンペーンIDの入力
+# クエリ文字列パラメーターからのキャンペーン ID の入力
 
 クエリ文字列パラメーターを使用して、変数を入力することができます。
 
