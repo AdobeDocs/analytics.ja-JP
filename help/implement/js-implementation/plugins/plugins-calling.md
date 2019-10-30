@@ -8,8 +8,8 @@ subtopic: プラグイン
 title: doPlugins 関数を使用したプラグインの呼び出し
 topic: 開発者と実装
 uuid: 95dd01de-8136-4ec9-aac9-4a3d5371b839
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,9 +45,7 @@ function s_doPlugins(s) {
 s.doPlugins=s_doPlugins
 ```
 
->[!NOTE]
->
->一部の非常に古いブラウザー（IE 4 や IE 5 など）をサポートするために、H コード以前のバージョンでは別の構文を使用しています。
+> [!NOTE]一部の非常に古いブラウザー（IE 4 や IE 5 など）をサポートするために、H コード以前のバージョンでは別の構文を使用しています。
 
 ## doPlugins 関数の名前の変更 {#section_70B7D58E057B48058E25907AB3726725}
 
@@ -100,7 +98,7 @@ s.campaign=s.getQueryParam('cid');
 s.getQueryParam=new Function("qp","d","" 
 +"var s=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l" 
 // 
-// ... more code below ... 
+// ... more code below ...
 // 
 ```
 
