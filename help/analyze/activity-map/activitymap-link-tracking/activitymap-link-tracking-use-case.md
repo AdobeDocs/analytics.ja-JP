@@ -7,7 +7,7 @@ title: 同じリンク ID、領域を参照する複数のリンクの区別
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -90,9 +90,7 @@ As an example, let's say you have multiple "Buy" links that are identified by [!
 
 "Buy" リンクごとに独自の領域を定義することにより、領域をカスタマイズできます。これを行うには、"Buy" アンカータグごとに、親の 1 つに "id" パラメーターを追加します。
 
->[!NOTE]
->
->領域識別子として「id」パラメーターに厳密に制限されるわけではありません。 また、JavaScript変数「s.ActivityMap.regionIDAttribute」を使用して独自の識別子を設定することもできます。
+> [!NOTE] 領域識別子として「id」パラメーターに厳密に制限されるわけではありません。 また、JavaScript変数「s.ActivityMap.regionIDAttribute」を使用して独自の識別子を設定することもできます。
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
