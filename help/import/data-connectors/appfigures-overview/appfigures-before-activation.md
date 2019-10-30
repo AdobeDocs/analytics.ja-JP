@@ -5,7 +5,7 @@ seo-title: この統合をアクティブ化する前に
 title: この統合をアクティブ化する前に
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -58,9 +58,7 @@ appFigures用のdata connectors統合では、Analytics変数を使用して様�
 
 ### 必須変数 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE]
->
->この統合では、アプリストアデータに専用の変数を使用するので、カスタムコマース変数やイベントを割り当てる必要はありません。
+> [!NOTE] この統合では、アプリストアデータに専用の変数を使用するので、カスタムコマース変数やイベントを割り当てる必要はありません。
 
 | 変数の種類 | 名前 | セット方法 | 説明 |
 |---|---|---|---|
