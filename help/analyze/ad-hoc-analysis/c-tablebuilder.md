@@ -3,7 +3,7 @@ description: 表ビルダーを使用すると、指標、ディメンション�
 seo-description: 表ビルダーを使用すると、指標、ディメンション、セグメントなどを柔軟に指定したレポートを作成できます。例えば、表ビルダーに複数の指標を追加してから、それらすべての指標に対して、セグメントを一度に適用することができます。ツールパネルから項目を行および分類として適用したり、列として適用したりできます。また、別のビュー用に表を簡単にピボットすることができます。表の作成後、結果として表示されたデータテーブルを直接操作して、分析することができます。表ビルダーからデータテーブルを作成する場合、クエリが実行され、新しいデータテーブルが作成されることに注意してください。
 seo-title: 表ビルダー
 title: 表ビルダー
-uuid: d5dbd05e-9ebd-4571- b3a5-3856c28b65f3
+uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -75,7 +75,7 @@ t_table_builder.xml
 
  -->
 
-1. [!UICONTROL 表ビルダー]にアクセスするには、サポートされているレポートを実行し、 **[!UICONTROL 「表ビルダー]**」をクリックします。
+1. To access the [!UICONTROL Table Builder], run a supported report, then click **[!UICONTROL Table Builder]**.
 1. ツールパネルから[!UICONTROL 表ビルダー]に項目（ディメンション、指標、セグメント）をドラッグします。
 1. 各項目を行、分類および列として設定します。
 1. Click **[!UICONTROL Replace Table]** to generate the report.
