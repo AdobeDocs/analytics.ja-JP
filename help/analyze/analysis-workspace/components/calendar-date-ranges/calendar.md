@@ -1,11 +1,11 @@
 ---
 description: カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。
 seo-description: カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。
-seo-title: カレンダーおよび日付範囲の概要
+seo-title: カレンダーと日付範囲の概要
 title: カレンダーと日付範囲の概要
-uuid: 3d7727ba-9070-4f7c-815f- c98baa4e3a2d
+uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 ![](assets/aw_calendar.png)
 
-[YouTube上のAnalysis Workspaceでの日付範囲とカレンダーの使用](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) （4:07）
+[YouTubeでのAnalysis Workspaceでの日付範囲とカレンダーの使用](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 
 | 設定 | 説明 |
 |--- |--- |
-| 選択された期間 (日数) | 選択日/週/月/年。 |
-| 日周期を使用 | 日周期を使用すると、レポートを実行したタイミングに基づいて、一定期間、将来や過去を確認する動的レポートを生成できます。例えば、（「作成日」フィールドに基づく）「先月」に発行されたすべての注文をレポートしたい場合、12 月にレポートを実行すると、11 月に発行された注文が表示されます。同じレポートを 1 月に実行すると、12 月に発行された注文が表示されます。日付のプレビュー：周期的なカレンダーに含まれる期間を示します。開始：本日、今週、今月、今四半期、本年から選択できます。終了：本日、今週、今月、今四半期、本年から選択できます。For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
+| 選択された期間 (日数) | 選択した日/週/月/年。 |
+| 日周期を使用 | 日周期を使用すると、レポートを実行したタイミングに基づいて、一定期間、将来や過去を確認する動的レポートを生成できます。例えば、「作成日」フィールドに基づく「先月」に発行されたすべての注文を12月に実行すると、11月に発行された注文が表示されます。 1月に同じレポートを実行すると、12月に注文が発生します。  日付のプレビュー：周期的なカレンダーに含まれる期間を示します。開始：本日、今週、今月、今四半期、本年から選択できます。終了：本日、今週、今月、今四半期、本年から選択できます。For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
 | 日付範囲 | プリセット日付範囲を選択できます。最近の 30 日間がデフォルトです。 |
 | すべてのパネルに適用 | 現在のパネルだけでなくプロジェクト内の他のすべてのパネルで選択された日付の範囲を変更できます。 |
 | 適用 | 日付範囲をこのパネルにのみ適用します。 |
