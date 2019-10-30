@@ -1,15 +1,15 @@
 ---
 description: トラフィック指標、コンバージョン指標、カスタムイベント、ソリューションイベントおよびコンテンツ対応に関する権限を有効にします。
-keywords: グループ;permissions
+keywords: グループ；権限
 seo-description: トラフィック指標、コンバージョン指標、カスタムイベント、ソリューションイベントおよびコンテンツ対応に関する権限を有効にします。
 seo-title: 指標の権限のカスタマイズ
 solution: Analytics
 subtopic: ユーザーとグループ
 title: 指標の権限のカスタマイズ
 topic: 管理ツール
-uuid: 7bfff68a-2add-4068- a07d-87a4f624634c
+uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 トラフィック指標、コンバージョン指標、カスタムイベント、ソリューションイベントおよびコンテンツ対応に関する権限を有効にします。
 
-**[!UICONTROL ユーザー管理]** / **[!UICONTROL グループ]** / **[!UICONTROL レポートアクセス]** / **[!UICONTROL 指標]** / **[!UICONTROL カスタマイズ]**
+**[!UICONTROL ユーザー管理]** /レポートア **[!UICONTROL クセス]** /指標 **[!UICONTROL /カスタマイズ]**********
 
 カスタム指標ページの設定は、[!UICONTROL ユーザーグループの定義]ページで選択されたレポートスイートに適用されます。
 
@@ -36,7 +36,7 @@ In addition to [Custom Events](https://marketing.adobe.com/resources/help/en_US/
 
 指標を含むすべてのカスタムグループには、新しい指標として追加されたすべての Analytics ソリューションイベントがあります。
 
-Analytics で使用される指標について詳しくは、[指標の概要を](/help/components/c-variables/c-metrics/metricslist.md) 参照してください。
+Analytics で使用される指標について詳しくは、 [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md) for information about metrics used in Analytics.
 
 ## コンテンツ対応
 
