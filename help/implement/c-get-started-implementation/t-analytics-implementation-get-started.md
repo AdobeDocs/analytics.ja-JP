@@ -8,8 +8,8 @@ subtopic: Analysis Workspace
 title: 簡易実装モーダル
 topic: Reports & Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,18 +30,16 @@ Adobe Analytics 実装を初めて実装する場合について説明します�
 
 ここでは以下の処理をおこなえます。
 
-* 最初の[レポートスイート](https://marketing.adobe.com/resources/help/ja_JP/analytics/getting-started/report-suites.html)を素早く作成する。
-* [!DNL Analytics] と[ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)をデプロイする。
+* 最初の[レポートスイート](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)をすばやく作成する。
+* デプロイ [!DNL Analytics] とIDサー [ビス](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 * 基本ページレベルのデータでレポートを実行する。
 
->[!NOTE]
->
->開始する前に、Analytics が[Adobe Experience Cloud で有効になっている](https://marketing.adobe.com/resources/help/ja_JP/mcloud/core_services.html)（ソリューションプロビジョニングプロセス）ことを確認してください。Enterprise Dashboard の Analytics にログインするための招待メールを受け取った場合は、この前提条件を完了しています。
+> [!NOTE] 開始する前に、AnalyticsがAdobe Experience Cloud [](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) （ソリューションプロビジョニングプロセス）で有効になっていることを確認します。 Enterprise Dashboard の Analytics にログインするための招待メールを受け取った場合は、この前提条件を完了しています。
 
 **シンプル化された実装モーダルを実行するには**
 
-1. [!DNL Adobe Experience Cloud]（[experiencecloud.adobe.com](https://experiencecloud.adobe.com)）にログインします。
+1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
 
    [!DNL Analytics] にアクセスする際に、レポートスイートがあるかどうかをシステムが識別します。ない場合、[!UICONTROL Adobe Analytics 使用の手引き]ページが表示されます。
 
@@ -73,7 +71,7 @@ Adobe Analytics 実装を初めて実装する場合について説明します�
       </tr> 
       <tr> 
        <td colname="col1"> <p>データリポジトリ（レポートスイート） </p> </td> 
-       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/getting-started/report-suites.html" format="html" scope="external">レポートスイート</a>は、通常、単一のプロパティ（サイトまたはアプリ）またはブランドに対応する、個別のデータセットです各レポートスイートには、レポートおよび指標の独自のセットがあります。 </p> </td> 
+       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">レポートスイート</a>は、通常、単一のプロパティ（サイトまたはアプリ）またはブランドに対応する、個別のデータセットです各レポートスイートには、レポートおよび指標の独自のセットがあります。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>タイムゾーン </p> </td> 
@@ -110,20 +108,20 @@ Adobe Analytics 実装を初めて実装する場合について説明します�
       </tr> 
       <tr> 
        <td colname="col1"> <p>ダウンロード </p> </td> 
-       <td colname="col2"> <p> <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span> という名前のインストールファイルをダウンロードします。このオプションは、<a href="https://marketing.adobe.com/resources/help/ja_JP/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 実装</a>を理解している経験豊富なユーザー向けです。 </p> <p> <p>重要：コードのダウンロードは、<span class="keyword">Analytics</span> のデプロイの構成要素ではありません。これは、サイトのページ上でユーザーが実行する、またはアドビのコンサルティングサービスを通じておこなう手動のデプロイです。 </p> </p> </td> 
+       <td colname="col2"> <p> <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span> という名前のインストールファイルをダウンロードします。このオプションは、<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 実装</a>を理解している経験豊富なユーザー向けです。 </p> <p> <p>重要：コードのダウンロードは、<span class="keyword">Analytics</span> のデプロイの構成要素ではありません。これは、サイトのページ上でユーザーが実行する、またはアドビのコンサルティングサービスを通じておこなう手動のデプロイです。 </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
 
 1. レポートを実行します。
 
-   Analytics ツールをデプロイしたら、Reports &amp; Analytics でレポートを実行して、データがサイトに関連していることを確認します（Analytics のインターフェイスについて詳しくは、[ログインおよびナビゲート](https://marketing.adobe.com/resources/help/ja_JP/analytics/getting-started/analytics-navigation.html)を参照してください。)
+   Analytics ツールをデプロイしたら、Reports &amp; Analytics でレポートを実行して、データがサイトに関連していることを確認します（Analytics のインターフェイスについて詳しくは、[サインインとナビゲーション](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html)を参照してください）。
 
    例えば、**[!UICONTROL サイト指標]**／**[!UICONTROL リアルタイム]**&#x200B;を選択すると、即時のデータを確認できます。
 
    >[!NOTE]
    >
-   >[!UICONTROL リアルタイム]レポートは、実行前にいくつかの設定が必要です。詳しくは、「[リアルタイムレポートの設定](https://marketing.adobe.com/resources/help/ja_JP/reference/t_realtime_admin.html)」を参照してください。
+   >[!UICONTROL リアルタイム]レポートは、実行前にいくつかの設定が必要です。[リアルタイムレポートの設定](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html)を参照してください。
 
 **リアルタイムレポートの例**
 
