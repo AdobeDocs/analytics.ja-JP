@@ -1,16 +1,16 @@
 ---
 description: レポートスイートのトラフィックに関するサマリデータを表示します。
 seo-description: レポートスイートのトラフィックに関するサマリデータを表示します。
-seo-title: アカウント アクティビティ
-title: アカウント アクティビティ
-uuid: 21d2b1f6-838b-41ae-89b2- d4a299bfb1bd
+seo-title: アカウントアクティビティ
+title: アカウントアクティビティ
+uuid: 21d2b1f6-838b-41ae-89b2-d4a299bfb1bd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# アカウント アクティビティ
+# アカウントアクティビティ
 
 レポートスイートのトラフィックに関するサマリデータを表示します。
 
