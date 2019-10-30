@@ -3,9 +3,9 @@ description: ネストされた長方形の集まりとして、（ツリー構�
 seo-description: ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。
 seo-title: ツリーマップ
 title: ツリーマップ
-uuid: 4e1ec255- d43e-46f2- ac62-296f15218799
+uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
