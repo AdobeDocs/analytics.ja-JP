@@ -7,7 +7,7 @@ title: ボット
 topic: レポート
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
