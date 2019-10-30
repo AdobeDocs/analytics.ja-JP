@@ -7,7 +7,7 @@ title: '[!DNL Activity Map]ユーザーインターフェイス'
 topic: Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
