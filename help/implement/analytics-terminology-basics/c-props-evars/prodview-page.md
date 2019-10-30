@@ -7,8 +7,8 @@ solution: Analytics
 title: 詳細製品表示ページ
 topic: 開発者と実装
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 656fb909447ed079fa42a909a9c197296c9e2723
 
 ---
 
@@ -60,4 +60,4 @@ s.products=";SKU"
 >
 >製品文字列で SKU を使用すると、*`products`* レポートが読みにくくなる場合がありますが、後で製品を分類する際の柔軟性が最大限に高まります。完了、製造元、カテゴリおよびサブカテゴリを示すカテゴリを SKU から作成できます。
 
-*`products`* 変数を&#x200B;*`purchase`* イベントと組み合わせて設定した場合、上記のように、購入数量と合計購入価格が products の値に含まれます。
+When *`products`* 変数を&#x200B;*`purchase`* イベントと組み合わせて設定した場合、上記のように、購入数量と合計購入価格が products の値に含まれます。
