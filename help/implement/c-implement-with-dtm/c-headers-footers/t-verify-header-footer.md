@@ -7,8 +7,8 @@ solution: Analytics
 title: ヘッダーおよびフッターコードの検証
 topic: 開発者と実装
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
