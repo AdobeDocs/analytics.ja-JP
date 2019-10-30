@@ -7,7 +7,7 @@ title: セグメントの管理
 topic: Report Builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Report Builder のリクエストウィザードのステップ 1 にセグメ�
 
 ## セグメントの追加または編集 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE]
->
->セグメントを追加または編集するには、Report BuilderのセグメントインターフェイスでMicrosoft Internet ExplorerウィンドウのAnalyticsのセグメントビルダーを起動します。 Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
+> [!NOTE] セグメントを追加または編集するには、Report BuilderのセグメントインターフェイスでMicrosoft Internet ExplorerウィンドウのAnalyticsのセグメントビルダーを起動します。 Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
 1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは[https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) を参照してください。
@@ -63,9 +61,7 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 
 1. 適用するセグメントのチェックボックスをオンにします。
 
->[!NOTE]
->
->管理者である場合も管理者以外の場合も、Report Builderでは自分が所有するセグメントと自分が共有しているセグメントのみを表示できます。 （Reports &amp; Analytics のユーザーインターフェイスでは、管理者は組織内のすべてのセグメントが表示されます）。
+> [!NOTE] 管理者である場合も管理者以外の場合も、Report Builderでは自分が所有するセグメントと自分が共有しているセグメントのみを表示できます。 （Reports &amp; Analytics のユーザーインターフェイスでは、管理者は組織内のすべてのセグメントが表示されます）。
 
 ## セグメントのフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
 
