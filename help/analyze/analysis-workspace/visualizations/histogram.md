@@ -3,9 +3,9 @@ description: ヒストグラムは、Analysis Workspace の新しいビジュア
 seo-description: ヒストグラムは、Analysis Workspace の新しいビジュアライゼーションタイプです。
 seo-title: ヒストグラム
 title: ヒストグラム
-uuid: 8a6bd2c4- da15-4f64- b889- ab9add685046
+uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/histogram.png)
 
->[!NOTE]
->
->ヒストグラムは、計算指標ではなく標準指標のみをサポートします。
+> [!NOTE] ヒストグラムは、標準指標のみをサポートし、計算指標はサポートしません。
 
 ここでは、実訪問者数ごとにページビュー数指標を使用しました。最初の（左の）グループは、実訪問者数ごとの 1 ページビューに対応し、2 番目のグループは 2 ページビューに対応します（以下同様）。
 
@@ -41,9 +39,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 開始グループ | どのグループからヒストグラムが始まるかを決定します。1 がデフォルトです。開始の数を 0 から無限大まで（負の数はなし）設定できます。 |
 | 指標グループ | データ範囲（グループ）の数を増減できます。グループの最大数は 50 です。 |
 | 指標グループのサイズ | 各グループのサイズを設定できます。例えば、グループサイズを 1 ページビューから 2 ページビューに変更できます。 |
-| カウント方法 | [訪問者](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html)、[訪問](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html)または[ヒット](https://marketing.adobe.com/resources/help/en_US/reference/hit.html)から選択できます。例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルの y 軸指標として、「回数」が使用されます。 |
+| カウント方法 | [訪問者](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html)、[訪問](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html)または[ヒット](https://marketing.adobe.com/resources/help/en_US/reference/hit.html)から選択できます。例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルのY軸指標として「回数」が使用されます。 |
 
-**例**：
+**例**:
 
 * 開始グループ：1、指標グループ：5、指標グループのサイズ：2 は、1～2、3～4、5～6、7～8、9～10 というヒストグラムになります。
 * 開始グループ：0、指標グループ：3、指標グループのサイズ：5 は、0～4、5～9、10～14 というヒストグラムになります。
