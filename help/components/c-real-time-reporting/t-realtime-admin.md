@@ -5,9 +5,9 @@ seo-title: リアルタイムレポートの設定
 solution: Analytics
 title: リアルタイムレポートの設定
 topic: 管理ツール
-uuid: a2c3c515-55f2-4c64- ac92- a86d75e78a86
+uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 リアルタイムレポートを設定するための管理者の手順です。
 
-[!UICONTROL Reports&amp; Analytics] 内でリアルタイムレポートを設定するには、レポートスイートを選択し、そのレポートスイートに対して最大3つのレポートを設定します。
+Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consists of selecting the report suite and configuring up to 3 reports for it.
 
 1. リアルタイムレポートを有効にするレポートスイートを選択します。
 
-   **[!UICONTROL Analytics]** / **[!UICONTROL レポート]** /すべてのレポート **[!UICONTROL を表示/サイト指標]** / **[!UICONTROL リアルタイム]** に移動し、上部のドロップダウンからレポートスイートを選択します。
+   **[!UICONTROL Analytics]** /レポート **[!UICONTROL /レ]** ポートを表示/サイト指標 **[!UICONTROL /す]****** べてのリアルタイムレポートスイートに移動し、上部のドロップダウンから選択します。
 
    ![](assets/report_suite_selector.png)
 
@@ -28,16 +28,16 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. **[!UICONTROL 「設定」]** （歯車アイコン）をクリックして [!UICONTROL 、Report Suite Managerを実行]します。
+1. Click **[!UICONTROL Configure]** (gear icon) to run the [!UICONTROL Report Suite Manager].
 
-   **[!UICONTROL （Analytics]** / **[!UICONTROL 管理者/レポートスイート]** /設定 **[!UICONTROL の編集]** / **[!UICONTROL リアルタイムからも利用できます）]**。
+   (Also available under **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin &gt; Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Real-Time]**.)
 
 1. Turn on the **[!UICONTROL Enable Real-Time]** setting.
 1. 最大 3 つのレポートに対してリアルタイムデータ収集を設定し、レポートあたり 1 つの指標と 3 つのディメンションまたは分類を使用できます。
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   サポートされるリアルタイム指標とディメンションについて詳しくは、「サポートされる指標とデ [ィメンション」を参照してくださ](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7)い。
 
    分類を作成している場合は、定義されているディメンションの下に、それらの分類がインデントして表示されます。
 
@@ -45,13 +45,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >単一のリアルタイムレポートでは、ディメンションごとに異なる分類が選択されていても、ディメンションの複製を有効にすることは現在サポートされていません。
+   >単一のリアルタイムレポートでは、ディメンションごとに異なる分類が選択されている場合でも、現在、ディメンションの複製を有効にする機能はサポートされていません。
 
-   For more information about classifications, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   分類の詳細については、「分類について」を参 [照してください](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE)。
 
    >[!NOTE]
    >
-   >「検索キーワード」や「製品」などのディメンションは、Adobe Analyticsのどこでも同様にリアルタイムで保持されません。永続的ではない指標を選択すると、次の警告が表示されます。
+   >「検索キーワード」や「製品」などのディメンションは、Adobe Analyticsの他の場所と同様に、リアルタイムで保持されません。 永続的ではない指標を選択すると、次の警告が表示されます。
 
    ![](assets/warning_dimensions.png)
 
