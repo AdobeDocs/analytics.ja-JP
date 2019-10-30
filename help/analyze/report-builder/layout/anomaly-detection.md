@@ -1,13 +1,13 @@
 ---
 description: 異常値検出は、統計的なモデリングを使用して、データ内の予期しないトレンドを自動的に見つけます。このモデルは、指標を分析して、値の下限、上限および期待値を決定します。予期しないスパイクまたは下落が発生した場合にレポートします。
 seo-description: 異常値検出は、統計的なモデリングを使用して、データ内の予期しないトレンドを自動的に見つけます。このモデルは、指標を分析して、値の下限、上限および期待値を決定します。予期しないスパイクまたは下落が発生した場合にレポートします。
-seo-title: 変則性の検出
+seo-title: 異常値検出
 solution: Analytics
 title: 異常値検出
 topic: Report Builder
-uuid: 02da21b4-3394-471b-97b5- aa1bdf1f445
+uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * ビデオのバッファーイベントの下落
 * ビデオの低ビットレートの下落
 
->[!NOTE]
->
->異常値検出は、「日」の精度を選択した場合にのみ使用できます。
+> [!NOTE] 異常値検出は、「日」の精度を選択した場合にのみ使用できます。
 
 <p class="head"> <b>異常値検出の指標</b> </p>
 
