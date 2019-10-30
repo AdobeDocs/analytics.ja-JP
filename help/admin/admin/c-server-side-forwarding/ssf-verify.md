@@ -1,17 +1,17 @@
 ---
 description: サーバー側転送が適切に有効になっていることを確認するには、Analytics トラッキングリクエストの HTTP 応答を調べる必要があります。そのためには、ブラウザーの開発者ツールを使用するか、Charles Web デバッガーなどのプロキシツールを使用します。サーバー側転送が適切に有効になっていることを示すデータを確認する手順を以下に示します。
 seo-description: サーバー側転送が適切に有効になっていることを確認するには、Analytics トラッキングリクエストの HTTP 応答を調べる必要があります。そのためには、ブラウザーの開発者ツールを使用するか、Charles Web デバッガーなどのプロキシツールを使用します。サーバー側転送が適切に有効になっていることを示すデータを確認する手順を以下に示します。
-seo-title: サーバー側転送の実装を検証する方法
+seo-title: サーバー側転送の実装の確認方法
 solution: Audience Manager
-title: サーバー側転送の実装を検証する方法
-uuid: e37296cc-0120-486a- a4ca-78d648cf6a11
+title: サーバー側転送の実装の確認方法
+uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# サーバー側転送の実装を検証する方法
+# サーバー側転送の実装の確認方法
 
 サーバー側転送が適切に有効になっていることを確認するには、Analytics トラッキングリクエストの HTTP 応答を調べる必要があります。そのためには、ブラウザーの開発者ツールを使用するか、Charles Web デバッガーなどのプロキシツールを使用します。サーバー側転送が適切に有効になっていることを示すデータを確認する手順を以下に示します。
 
@@ -25,7 +25,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 >[!CAUTION]
 >
->If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. IDサービスが正しくデプロイされていること、App Measurementモジュールをデプロイしたこと、適切なレポートスイートが正しいIMS組織にマッピングされていること、およびAnalytics管理コンソールでサーバー側転送が有効になっていることを確認してください。
+>If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. IDサービスが適切にデプロイされ、App Measurementモジュールがデプロイされ、該当するレポートスイートが正しいIMS組織にマッピングされ、Analytics管理コンソールでサーバー側転送が有効になっていることを確認してください。
 
 >[!MORE_LIKE_THIS]
 >
