@@ -5,9 +5,9 @@ seo-title: 異常値検出リクエストの設定
 solution: Analytics
 title: 異常値検出リクエストの設定
 topic: Report Builder
-uuid: 1e504ff9- df88-4fa7-95ea-1ca05a6f9c0d
+uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,17 +21,17 @@ Report Builder で異常値検出関連データを抽出する手順です。
 
    >[!NOTE]
    >
-   >[!UICONTROL 異常値検出] メニューは、「日」の精度を選択した場合にのみ使用できます。選択した期間を問わず、過去 30 日間のデータが統計データのトレーニング期間として使用されます。
+   >The [!UICONTROL Anomaly Detection] menu is available only when you select Day granularity. 選択した期間を問わず、過去 30 日間のデータが統計データのトレーニング期間として使用されます。
 
 1. After configuring date ranges, click **[!UICONTROL Next]**.
 
-   手順1.On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
+   手順の結果 1On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
 
-   手順1.For the added metric, click the **[!UICONTROL None]** link.
+   手順の結果 1For the added metric, click the **[!UICONTROL None]** link.
 
    ![手順の結果](assets/anomaly_select.png)
 
-1. **[!UICONTROL 異常値検出]** / **[!UICONTROL `<selection>`]**&#x200B;を選択します。
+1. Select **[!UICONTROL Anomaly Detection]** &gt; **[!UICONTROL `<selection>`]**.
 
    ![ステップ情報](assets/anomaly_visit.png)
 
