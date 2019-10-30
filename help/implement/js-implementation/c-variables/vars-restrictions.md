@@ -8,8 +8,8 @@ subtopic: 変数
 title: JavaScript での無効な文字
 topic: 開発者と実装
 uuid: 04e3b4b4-7ff5-4673-8060-34302b6ee545
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
