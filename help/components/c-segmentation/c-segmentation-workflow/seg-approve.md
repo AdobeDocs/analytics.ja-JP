@@ -5,9 +5,9 @@ seo-title: セグメントの承認
 solution: Analytics
 title: セグメントの承認
 topic: セグメント
-uuid: 01f4ff51- d923-4328- a68d- c4e793cb5b34
+uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. セグメントマネージャで、セグメントタイトルの左側にあるチェックボックスを選択します。
 1. セグメント管理タスクバーの「**[!UICONTROL 承認]」をクリックします。**
 1. 承認済みセグメントを組織で共有することを検討します。
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 1. リスト内のセグメントの横に承認アイコンがあることに注意します。
 
    ![](assets/seg_approved.png)
