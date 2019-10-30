@@ -6,7 +6,7 @@ seo-title: 計算指標および高度な計算（派生）指標
 title: 計算指標および高度な計算（派生）指標
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
 >
 >* 「マーケティングチャネルラストタッチ」および「マーケティングチャネルファーストタッチ」配分モデルは、それぞれ新しい「ラストタッチ」および「ファーストタッチ」アトリビューションモデルに移行されました(注意：「マーケティングチャネル」は廃止されていません。計算指標に表示される2つの配分モデルのみが推奨されています。
->* さらに、線形配分の計算方法を修正しました。 顧客が線形配分モデルで計算指標を使用する場合、修正された新しいアトリビューションモデルを反映してレポートが若干変わる可能性があります。This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 詳細については、[2018 年 7 月 19 日時点の線形配分の適用方法](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
+>* さらに、線形配分の計算方法を修正しました。 「線形」配分モデルを使用する計算指標を使用している顧客の場合、新しい修正済みアトリビューションモデルを反映して、レポートが少し変わる可能性があります。 This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 詳細については、[2018 年 7 月 19 日時点の線形配分の適用方法](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
 
 
 計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
