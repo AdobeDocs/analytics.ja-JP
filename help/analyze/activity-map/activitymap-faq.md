@@ -143,4 +143,4 @@ A: [!DNL Activity Map] inherits your Admin-level segments (reporting segments) f
 
 **質問：仮想レポ[!DNL Activity Map]ートスイートと互換性があるか。**
 
-回答：はい。However, due to virtual report suite limitations, [!DNL Activity Map]'s Live Mode is not compatible with virtu
+回答：はい。However, due to virtual report suite limitations, [!DNL Activity Map]'s Live Mode is not compatible with virtual report suites.
