@@ -5,9 +5,9 @@ seo-title: 診断メッセージ
 solution: Analytics
 title: 診断メッセージ
 topic: Report Builder
-uuid: 8ba783b7-5c81-4d60- b830- ff10313a3b01
+uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
