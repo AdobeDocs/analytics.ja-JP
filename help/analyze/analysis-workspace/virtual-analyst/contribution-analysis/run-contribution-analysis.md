@@ -5,7 +5,7 @@ seo-title: 貢献度分析の実行
 title: 貢献度分析の実行
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,9 +51,7 @@ source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
    * [アラートを作成する](/help/components/c-alerts/intellligent-alerts.md)
    * [セグメントを作成したり比較したりする](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 
->[!NOTE]
->
->貢献度分析内の青い点とリンクされたインテリジェントアラートプロジェクトの異常値を強調表示します。これにより、分析された異常値がより明確に示されます。
+> [!NOTE] 貢献度分析内で、分析中の異常値を青い点で強調表示し、その異常値にリンクされたインテリジェントアラートプロジェクトを示します。 これにより、分析された異常値がより明確に示されます。
 
 ## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
