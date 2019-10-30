@@ -7,7 +7,7 @@ title: 一般的なアカウント設定
 topic: 管理ツール
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP Obfuscation（IP の不明化）</span> </td> 
-   <td colname="col2"> <p>IP アドレスを認識不可能な文字列に変更して、アドビのデータストアから削除します。IP の不明化を有効にすると、元の IP アドレスは永久に失われます。 </p> <p>注意：Data Warehouse を含め、Analytics のどこでも、IP アドレスが不明化されます。ただし、Target の IP 設定は別に制御されているので、この設定が Target に影響することはありません。 </p> <p>IP の不明化を有効にすると、IP アドレスが不明化される前に IP の除外がおこなわれるので、IP の不明化を有効にする際に、お客様は何も変更する必要はありません。 </p> <p>「<span class="uicontrol">無効</span>」をチェックすると、データの IP アドレスはそのまま変更されません。 </p> <p>「<span class="uicontrol">IP アドレスを不明化</span>」をチェックすると、IP がハッシュ値（234abc6493872038 など）に変更されます。 </p> <p>「<span class="uicontrol">IP アドレスを削除</span>」をチェックすると、地域ルックアップ後に IP アドレスがデータ内で x.x.x.x に置き換えられます。 </p> <p>注意：この設定では、カスタムボットルールまたは <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> IP除外の変更</a> が必要になる場合があります<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"></a>。 </p> </td> 
+   <td colname="col2"> <p>IP アドレスを認識不可能な文字列に変更して、アドビのデータストアから削除します。IP の不明化を有効にすると、元の IP アドレスは永久に失われます。 </p> <p>注意：Data Warehouse を含め、Analytics のどこでも、IP アドレスが不明化されます。ただし、Target の IP 設定は別に制御されているので、この設定が Target に影響することはありません。 </p> <p>IPの不明化を有効にすると、IPアドレスが不明化される前にIPの除外が行われるので、IPの不明化を有効にする際に変更を加える必要はありません。 </p> <p>「<span class="uicontrol">無効</span>」をチェックすると、データの IP アドレスはそのまま変更されません。 </p> <p>「<span class="uicontrol">IP アドレスを不明化</span>」をチェックすると、IP がハッシュ値（234abc6493872038 など）に変更されます。 </p> <p>「<span class="uicontrol">IP アドレスを削除</span>」をチェックすると、地域ルックアップ後に IP アドレスがデータ内で x.x.x.x に置き換えられます。 </p> <p>注意：この設定では、カスタムボットルールまたは <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> IP除外の変更</a> が必要になる場合があります<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"></a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> トランザクション ID ストレージ</span> </td> 
