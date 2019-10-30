@@ -5,7 +5,7 @@ seo-title: ログファイル
 solution: Analytics
 title: ログファイル
 topic: Ad Hoc Analysis
-uuid: 1e5c0e70-928b-45de-9f5b-0c562909bayed
+uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -18,12 +18,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ログファイルを簡単に保存および表示する方法を次に示します。
 
-1. **[!UICONTROL ヘルプ]** / **[!UICONTROL Ad Hoc Analysisについてをクリックします]**
+1. Click **[!UICONTROL Help]** &gt; **[!UICONTROL About Ad Hoc Analysis]**
 
 1. 「**[!UICONTROL Ad Hoc Analysis]」のロゴをクリックします。**
 1. Click **[!UICONTROL Save Log File]**.
 
 >[!NOTE]
 >
->この手順を使用して保存するログは、現在のセッション用です。
+>この手順で保存したログは、現在のセッション用です。
 
