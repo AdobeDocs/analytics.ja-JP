@@ -1,18 +1,18 @@
 ---
 description: セグメントマネージャでは、セグメントにタグを付けて管理できます。
 seo-description: セグメントマネージャでは、セグメントにタグを付けて管理できます。
-seo-title: セグメントのタグ付け
+seo-title: セグメントのタグ設定
 solution: Analytics
-title: セグメントのタグ付け
+title: セグメントのタグ設定
 topic: セグメント
-uuid: 2adb95b8-862e-439a-8694- e2ee163066a6
+uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# セグメントのタグ付け
+# セグメントのタグ設定
 
 セグメントマネージャでは、セグメントにタグを付けて管理できます。
 
@@ -38,4 +38,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 これで、タグが「タグ」列に表示されます（右上のギアアイコンをクリックして列を管理します）。
 
-**[!UICONTROL フィルター]** / **[!UICONTROL タグに移動して、タグをフィルタリング]**&#x200B;することもできます。
+You can also filter on tags by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Tags]**.
