@@ -6,8 +6,8 @@ seo-title: Adobe Analytics の手動実装（レガシー）
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Adobe Analytics の手動実装（レガシー）
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
       | 要素 | 説明 |
       |---|---|
       | ツールタイプ | Analytics、Target、Social などの Experience Cloud ソリューション。 |
-      | ツール名 | このツールの名前。この名前は、[!UICONTROL インストール済みツール]の「[!UICONTROL 概要]」タブに表示されます。 |
+      | ツール名 | このツールの名前。この名前は、「[!UICONTROL インストールされているツール]」の「[!UICONTROL 概要]」タブに表示されます。 |
       | 実稼動アカウント ID | 実稼動サイトのデータを計測するアカウントの RSID。Dynamic Tag Management は、実稼動およびステージング環境に適切なタグを自動的にインストールします。 |
       | ステージングアカウント ID | 開発またはテスト環境で使用されます。ステージングアカウントには、実稼動用データとは別個のテストデータが保持されます。 |
 
