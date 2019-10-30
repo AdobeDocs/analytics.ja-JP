@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: フロービジュアライゼーションの設定
 title: フロービジュアライゼーションの設定
-uuid: ff36dc09-6175-43ed- a82a-630d28bca806
+uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,4 +42,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 フロー図内で表示できるフロー数に制限はありません。
 
-**[!UICONTROL プロジェクト]** / **[!UICONTROL CSVをダウンロードに移動して、フロー図をプロジェクトの. CSVファイルの一部として書き出し、さらに分析]**&#x200B;することもできます。
+You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV]**.
