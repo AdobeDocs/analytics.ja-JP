@@ -8,7 +8,7 @@ title: 処理ルールのヒントとテクニック
 topic: 管理ツール
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 **検索用語を読み取るルールのテスト**
 
-「prop1 に news が含まれる場合」などの条件に基づく検索では、prop1 レポートを開き、「news」を検索して、予期していなかった一致があるかどうかを確認します。
+prop1に「news」が含まれる場合など、検索に基づく条件については、prop1レポートに移動し、「news」を検索して、予期していなかった一致があるかどうかを確認します。
 
 **変数を読み取るルールのテスト**
 
@@ -31,7 +31,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 **開発レポートスイートの使用**
 
-開発レポートスイートに処理ルールを設定して、これらのルールが正しく動作していることを確認することをお勧めします。可能であれば、幅広く導入する前に、ルールを小規模な実稼動用レポートスイートにコピーしてください。
+開発レポートスイートで処理ルールが正しく機能することを確認するように設定することをお勧めします。 可能であれば、幅広く導入する前に、ルールを小規模な実稼動用レポートスイートにコピーしてください。
 
 ## 空の値の確認 {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -62,4 +62,3 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 正しい照合条件を選択して、正確に照合を行う最も厳密な条件を見つけます。ルールを作成する前にレポート内の値を検索して、意図しない一致がないことを確認します。例えば、prop2 レポートを検索して、この条件が一致する場所をすべて見つけてから、このルールを有効にします。
 
 ![](assets/tips-startswith.png)
-
