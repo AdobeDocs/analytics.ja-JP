@@ -5,10 +5,10 @@ seo-title: 複数のレポートスイートへのテンプレートレポート
 solution: Analytics
 subtopic: マーケティングチャネル
 title: 複数のレポートスイートへのテンプレートレポートスイート設定の適用
-topic: Reports and Analytics
-uuid: 212d16d7- fb0c-40c4- b8ff- a86c9a511a23
+topic: Reports & Analytics
+uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,14 +17,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 マーケティングチャネル設定をテストするテンプレートとして、マスターレポートスイートを使用する方法です。時間を節約するために、1 つのレポートスイートにおける設定を 1 つ以上のレポートスイートに適用することが可能です。この作業は、チャネルとルールセットに対して別々に実行します。
 
->[!NOTE]
->
->ルールセットを適用する前に、テンプレートからチャネルを適用してください。この手順を実行する際、チャネルは全レポートスイート間で同一である必要があります。
+> [!NOTE] ルールセットを適用する前に、テンプレートからチャネルを適用します。 この手順を実行する際、チャネルは全レポートスイート間で同一である必要があります。
 
 **複数のレポートスイートへのテンプレートレポートスイート設定の適用**
 
 1. 選択したレポートスイートでマーケティングチャネルレポートが有効になっていることを確認します。この手順はアカウントマネージャーが行います。
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. [!UICONTROL Report Suite Manager] ページで、テンプレートレポートスイートと、1 つ以上の対象レポートスイートを選択します。
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 1. [!UICONTROL マスターレポートスイートの選択]ページで、テンプレートレポートスイートを選択します。
