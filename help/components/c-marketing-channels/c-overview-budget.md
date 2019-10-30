@@ -1,31 +1,31 @@
 ---
-description: チャネルにコストと予算額を割り当てる方法について説明します。
-seo-description: チャネルにコストと予算額を割り当てる方法について説明します。
+description: チャネルにコストと予算額を割り当てる方法を説明します。
+seo-description: チャネルにコストと予算額を割り当てる方法を説明します。
 seo-title: コストと予算
 solution: Analytics
 subtopic: マーケティングチャネル
 title: コストと予算
-topic: Reports and Analytics
-uuid: 7ba0e968- e565-4d4c-8fc0-39bf25d3e5b1
+topic: Reports & Analytics
+uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # コストと予算
 
-チャネルにコストと予算額を割り当てる方法について説明します。
+チャネルにコストと予算額を割り当てる方法を説明します。
 
-## Costs and budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
+## コストと予算 {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
 
-チャネルにコストと予算額を割り当てる方法について説明します。
+チャネルにコストと予算額を割り当てる方法を説明します。
 
 コストは、そのチャネルに費やした費用を示します。予算とは、使用可能な金額を表します。
 
 投資利益率（ROI）を確認する方法の一つは、売上高からコストを引いた額を示す計算指標を作成することです。また、合計コストおよび新規のエンゲージメント当たりのコストの分類を示す計算指標を作成する方法もあります。例えば、新規のエンゲージメントを示す[!UICONTROL ファーストタッチチャネル]レポートを実行し、計算指標を作成して新規のエンゲージメント当たりのコストを示すファーストタッチコスト指標を追加することが可能です。
 
-詳しくは、[計算指標はマーケティングチャネルレポート](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74)を使用します。
+詳しくは、 [マーケティングチャネルレポートで使用される計算指標](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
 
 チャネルにはコストと予算額のみを割り当てることができます。すべてのコストに対して、レポート内で適用される期間が示されます。コストをチャネルに直接関連付けると、チャネル内のキャンペーンごとのコストの内訳を示すために配分指標が選択されます。
 
@@ -35,10 +35,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 コストと予算項目をマーケティングチャネルに追加します。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
+1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. [!UICONTROL Report Suite Manager] ページで、レポートスイートを選択します。
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Costs]**.
-1. [!UICONTROL マーケティングチャネルコスト] ページで、「コスト項目 **[!UICONTROL を追加」]** または「予算項目 **[!UICONTROL を追加」をクリック]**&#x200B;します。
+1. On the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Add Cost Item]** or **[!UICONTROL Add Budget Item]**.
 1. Click **[!UICONTROL Save.]**
 
    To continue adding cost items, click **[!UICONTROL Save and Add Another]**.
