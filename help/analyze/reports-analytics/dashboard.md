@@ -8,7 +8,7 @@ title: ダッシュボードおよびレポートレット
 topic: Reports & Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,9 +34,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 * リアルタイムレポート
 * その他のダッシュボード
 
->[!NOTE]
->
->The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. ただし、次のような状況においては、「サイト概要」の一部またはすべてのレポートレットが引き続き表示されます。
+> [!NOTE] サイト **[!UICONTROL 概要ダッシュボードは]** 、Reports &amp; Analyticsに表示されなくなりました。 ただし、次のような状況においては、「サイト概要」の一部またはすべてのレポートレットが引き続き表示されます。
 
 * 例えば、よく表示しているレポートが 3 つだけの場合は、「**[!UICONTROL 推奨レポート]」ダッシュボードの空き領域を埋めるために、「サイト概要」ダッシュボードの 2 つのレポートが表示されます。**
 * 新規のレポートスイートには、最初は「サイト概要」のレポートレットが表示されますが、使用するうちに、よく表示されるレポートに置き換えられます。Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**.
@@ -103,7 +101,7 @@ t_dashboard_add_report.xml
 
  -->
 
-1. レポートの実行.
+1. レポートを実行します。
 1. Click **[!UICONTROL Dashboard.]**
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
 1.  （オプション）日付の範囲を設定します。 
@@ -115,7 +113,7 @@ t_dashboard_add_report.xml
 
    **[!UICONTROL 発行リストの上書き：]**&#x200B;このオプションを有効にすると、このレポートレットで参照されたレポートスイートが発行リストの配信時に常に使用されます。このオプションを無効にすると、発行リストのレポートスイートがこのレポートレットを置き換えます。
 
-1. 「**[!UICONTROL 新規作成]**」をクリックします。
+1. **[!UICONTROL 新規作成]** をクリックします。
 
    レポートレットがダッシュボードエディターの&#x200B;**[!UICONTROL ダッシュボードコンテンツ]メニューに追加されます。**
 
