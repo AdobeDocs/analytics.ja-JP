@@ -4,15 +4,15 @@ seo-description: フィルターを使用すると、フィルターに一致す
 seo-title: レポートデータのフィルタリング
 solution: Analytics
 title: レポートデータのフィルタリング
-topic: Reports and Analytics
-uuid: b6daaf7-61f0-4793-870d- e1d156575d5a
+topic: Reports & Analytics
+uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: bf67baa33bc21e71c911d5108ee6044adf634fce
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# レポートデータのフィルタ {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 
@@ -48,9 +48,7 @@ help:Internal Search Term
 
 行項目のどこかに指定の単語が含まれる場合に一致します。これはシンプルフィルターと同じ機能になります。
 
->[!NOTE]
->
->スペースは検索時に区切り文字となるので、フィルターではスペースを使用できません
+> [!NOTE] 検索ではスペースは区切り文字なので、フィルターではスペースを使用できません
 
 **次を含まない**
 
@@ -131,11 +129,11 @@ Ocean Blue Jean
 | アドバンス（特殊文字） | 説明 |
 |--- |--- |
 | `" "` | 指定したフレーズと正確に等しい場合に一致します。 |
-| `*` | ワイルドカード、最長一致の検索ができます。<br>例えば、"Registration Signup" `r*p` と一致します。 |
+| `*` | ワイルドカード、最長一致の検索ができます。<br>例えば、「Registration Signup」 `r*p` と一致します。 |
 | `^` | 次の語句で始まる. <br>この特殊文字と検索フレーズの間にスペースを入れてはなりません。 |
 | `$` | 次の語句で終わる. <br>この特殊文字と検索フレーズの間にスペースを入れてはなりません。 |
 | `-` | NOT. <br>この特殊文字と検索フレーズの間にスペースを入れてはなりません。 |
-| `|` | Or<br>Note:  you must include a space on each side of the pipe character, `" | "`. |
+| `|` | <br>OrNote: パイプ文字の両側にスペースを含める必要があります `" | "`。 |
 
 ## レポート固有のフィルターの作成 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -153,11 +151,11 @@ t_reports_filter_specific.xml
 
 **レポート固有フィルターを作成するには**
 
-1. [!UICONTROL 購入レポートなどのレポートを生成します] （ **[!UICONTROL サイト指標]** / **[!UICONTROL 購入]** / **[!UICONTROL 購入コンバージョンファネル]**）。
+1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
 1.  レポートのヘッダーで、**フィルター**&#x200B;リンクをクリックします。
 1. [!UICONTROL フィルターセレクター]**で「[!UICONTROL フィルターの適用]**」をクリックし、フィルタータイプを指定します。
 1.  項目を検索するには、**検索**&#x200B;フィールドに文字列を入力します。
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
 ## クロス集計フィルターの追加 {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
