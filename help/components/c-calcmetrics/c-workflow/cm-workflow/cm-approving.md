@@ -5,7 +5,7 @@ seo-title: 計算指標の承認
 title: 計算指標の承認
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. 計算指標マネージャで、指標タイトルの左側にあるチェックボックスを選択します。
 1. 上部にある管理タスクの「**[!UICONTROL 承認]」をクリックします。**
 1. 承認済みの計算指標を組織で共有することを検討します。
-1. Click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 1. リスト内の計算指標の横に承認アイコンがあることに注意します。![](assets/cm_approve_icon.png)
 
 1. 「**[!UICONTROL 未承認]」をクリックして、この指標を承認済みの計算指標のリストから除外することもできます。**
