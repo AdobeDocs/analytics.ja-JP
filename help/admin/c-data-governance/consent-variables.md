@@ -1,49 +1,49 @@
 ---
-description: データプライバシーのプライバシーレポート用の変数。
-seo-description: データプライバシーのプライバシーレポート用の変数。
+description: データプライバシーにおけるプライバシーレポート用変数。
+seo-description: データプライバシーにおけるプライバシーレポート用変数。
 seo-title: プライバシーレポート変数
 solution: Analytics
 title: プライバシーレポート変数
 topic: 管理ツール
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # プライバシーレポート変数
 
-プライバシーデータの管理に関する追加の支援を提供するために、一連の予約済み変数を特定のコンテキストデータ変数と組み合わせて使用できます。
+プライバシーデータ管理に関する追加の支援を提供するために、一連の予約済み変数を特定のコンテキストデータ変数と組み合わせて使用できます。
 これらのプライバシーレポート変数は、各分析ヒットのプライバシーステータスを取り込むための使いやすいフレームワークです。
 
 ## 変数
 
 * 同意管理のオプトアウト
-   * 予約変数：リストprop
+   * 予約変数：リスト prop
    * タイプ：コンマ区切り文字列
-   * 次を含む:
-      * `contextData.['cm.ssf']=1` SSFとして表示
-      * `contextData.['opt.dmp']=N` DMPとして表示
-      * `contextData.['opt.sell']=N` SELLとして表示
+   * 次を含む：
+      * SSF として表示される `contextData.['cm.ssf']=1`
+      * DMP として表示される `contextData.['opt.dmp']=N`
+      * SELL として表示される `contextData.['opt.sell']=N`
 
 * 同意管理のオプトイン
-   * 予約変数：リストprop
+   * 予約変数：リスト prop
    * タイプ：コンマ区切り文字列
-   * 次を含む:
-      * `contextData.['opt.dmp']=Y` DMPとして表示
-      * `contextData.['opt.sell']=Y` SELLとして表示
+   * 次を含む：
+      * DMP として表示される `contextData.['opt.dmp']=Y`
+      * SELL として表示される `contextData.['opt.sell']=Y`
 
 ## レポート
 
-Analytics管理コンソールで利用できる新しいプライバシー設定を使用して、プライバシーレポート変数を有効にできます。
+Analytics Admin Console で利用できる新しいプライバシー設定を使用して、プライバシーレポート変数を有効にできます。
 
 各レポートスイートは、次のように設定できます。
-1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
-1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings &gt; Privacy Management.]**
+1. Reports &amp; Analytics で、**[!UICONTROL 管理者／レポートスイート]**&#x200B;をクリックします。
+1. メディアデータを収集するレポートスイートを選択して、**[!UICONTROL 設定を編集／プライバシー管理]**&#x200B;をクリックします。
 
    ![](assets/rsm-privacy-select.png)
 
-1. 「データプライバシー **[!UICONTROL レポートを有効にする]** 」ボタンをクリックします。 **** 注意：一旦有効にすると、これらの変数はオフにできません。
+1. 「**[!UICONTROL データプライバシー レポートを有効にする]**」ボタンをクリックします。**注：**&#x200B;有効化した後で、これらの変数をオフにすることはできません。
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -51,33 +51,33 @@ Analytics管理コンソールで利用できる新しいプライバシー設�
 
    ![](assets/rsm-privacy-config.png)
 
-1. 予約変数がレポートで使用できるようになりました。  「同意管理オプトアウト」および「同意管理オプトイン」を参照してください。
+1. 予約変数がレポートで使用できるようになりました。「同意管理のオプトアウト」および「同意管理のオプトイン」を参照してください。
 
    ![](assets/rsm-privacy-reports.png)
 
 ## 実装
 
-3つのコンテキストデータ変数が、プライバシーレポート管理予約変数と連携するように事前に定義されています。  これらの変数の管理方法と設定の永続化方法は、各導入エンジニアが決定します。
+3 つのコンテキストデータ変数が、プライバシーレポート管理予約変数と連携するように事前に定義されています。これらの変数の設定の管理方法と保持の方法は、各実装エンジニアが決定します。
 
-コンテキスト [データ変数の実装に関する一般的なガイダンスは](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) 、「コンテキストデータ変数」を参照してください。
+コンテキスト データ変数の実装に関する一般的なガイダンスについては、「[コンテキストデータ変数](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)」を参照してください。
 
 ### SSF
 
 * コンテキストデータ：`contextData.['cm.ssf']`
 * 指定可能な値：
-   * 1 — 値「1」を送信する場合、これはサーバー側転送がオプトアウト状態であることを示します。 この変数と対になる値「1」は、Adobe Audience Managerとのこのヒットの共有をブロックします。 AAM ePrivacy Complianceを参 [照してください。](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * 1：値「1」を送信する場合は、サーバー側転送がオプトアウト状態であることを示します。この変数と対になる値「1」は、このヒットが Adobe Audience Manager と共有されるのをブロックします。「[AAM ePrivacy のコンプライアンス](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)」を参照してください。
    * このパラメーターには、他の値は使用できません。
 
 ### DMP
 
 * コンテキストデータ：`contextData.['opt.dmp']`
 * 指定可能な値：
-   * N — 値「N」を送信する場合、コンシューマーがデータ管理プラットフォームへの共有をオプトアウトしていることを示します。 **** 注意：この変数を「N」に設定しても、現在AAMへの共有はブロックされませんが、AAM機能の呼び出しをブロックする機能は、2020年の初めに追加される予定です。 現在のところ、AAMにヒットが送信され `c.cm.ssf=1` るのをブ `c.opt.dmp=N` ロックするように、との両方を設定することをお勧めします。
-   * Y — 値「Y」を送信すると、コンシューマーがデータ管理プラットフォームへの共有を選択していることを示します。
+   * N：値「N」を送信すると、データ管理プラットフォームへの共有をコンシューマーがオプトアウトしていることを示します。**注：**&#x200B;現在、この変数を「N」に設定しても AAM への共有はブロックされませんが、2020 年初めに AAM 機能の呼び出しをブロックする機能が追加される予定です。現時点では、AAM にヒットが送信されるのを防ぐよう、`c.cm.ssf=1` と `c.opt.dmp=N` の両方を設定することをお勧めします。
+   * Y：値「Y」を送信すると、データ管理プラットフォームへの共有をコンシューマーがオプトインしていることを示します。
 
-### 販売
+### SELL
 
 * コンテキストデータ：`contextData.['opt.sell']`
 * 指定可能な値：
-   * N — 値「N」を送信する場合、消費者がデータの共有または販売を第三者にオプトアウトしていることを示します。
-   * Y — 値「Y」を送信する場合、消費者がデータの共有または第三者への販売を選択していることを示します。
+   * N：値「N」を送信すると、データをサードパーティへのデータの共有または販売を、コンシューマーがオプトアウトしていることを示します。
+   * Y：値「Y」を送信すると、データをサードパーティへのデータの共有または販売を、コンシューマーがオプトインしていることを示します。
