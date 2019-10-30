@@ -7,8 +7,8 @@ solution: Analytics
 title: アラート
 topic: 開発者と実装
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,4 +26,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 この新しいアラートシステムには、Reports &amp; Analytics の任意のレポートの&#x200B;**[!UICONTROL その他]**／**[!UICONTROL アラート]**&#x200B;からアクセスできます。
 
-[!UICONTROL Analysis Workspace] ヘルプの「[インテリジェントアラート](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)」を参照してください。
+詳しくは、 [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) Analysis Workspaceヘルプのインテリジェント [!UICONTROL ・アラート] を参照してください。
