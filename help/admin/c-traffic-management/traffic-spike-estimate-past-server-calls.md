@@ -4,9 +4,9 @@ seo-description: 特定期間内の昨年の日別サーバーコール数平均
 seo-title: 過去のサーバーコールの推定とトラフィックスパイクのスケジュール
 solution: Analytics
 title: 過去のサーバーコールの推定とトラフィックスパイクのスケジュール
-uuid: 38deb1df- afb0-437d- b541-69295f0dc8dc
+uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 1. 「**[!UICONTROL 展開]**」をクリックしてレポートスイートのリストを展開し、「**レポートスイートを選択[!UICONTROL 」をクリックして複数のレポートスイートを選択します。]**
 
-1. **[!UICONTROL 「スケジュールスパイク]**」をクリックします。
-1. **[!UICONTROL 「過去のサーバーコール]**」で、選択したレポートスイートの開始日と終了日を選択します。
+1. Click **[!UICONTROL Schedule Spikes]**.
+1. Under **[!UICONTROL Past Server Calls]**, select a start and end date for the selected report suites.
 
    「ピーク日」の値には、「ピーク日のサーバーコール」と「1 日当たりのサーバーコール平均」が生成されます。
 
