@@ -6,7 +6,7 @@ solution: Analytics
 title: 統合のデプロイ
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,7 +47,7 @@ Data Connectorsインターフェイスで統合ウィザードを完了する�
    1. 必要に応じて分類の名前を変更します。
    1. **[!UICONTROL パートナーセグメント]** は、統合に含まれる標準のリマーケティングセグメントです。
    1. 「アクセ **[!UICONTROL スリクエスト]**」で、製品情報をResponsysに毎日のリマーケティングセグメントでエクスポートできるようにするチェックボックスをオンにします。
-   1. IDを収集するかどうかは、Analyticsコレクションコードを手動で更新するか、自動化ソリューションを使用して設定します。 「 **[!UICONTROL Automated Solution」を選択する場合]**、IDを渡すための電子メールリンクで使用するパラメーターを含める必要があります。
+   1. IDを収集するかどうかは、Analyticsコレクションコードを手動で更新するか、自動化ソリューションを使用して設定します。 「 **[!UICONTROL Automated Solution]**」を選択した場合は、IDを渡すために電子メールリンクで使用するパラメーターを含める必要があります。
 1. すべての設定項目を確認し、「今すぐアクティブ化」 **[!UICONTROL をクリックしま]**&#x200B;す。
 
 ## 応答システム内での設定{#configuring-within-the-responsys-system}
