@@ -9,20 +9,18 @@ title: getTimeParting
 topic: 開発者と実装
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # getTimeParting
 
-getTimeParting プラグインは、時間、曜日および週末と平日の値をカスタム変数に入力します。Analysis Workspace では、初期設定で時間分割のディメンションを利用できます。The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+getTimeParting プラグインは、時間、曜日および週末と平日の値をカスタム変数に入力します。[!UICONTROL Analysis Workspace] では、初期設定で時間分割のディメンションを利用できます。このプラグインは、他の Analytics ソリューション（[!UICONTROL Analysis Workspace] 以外）で時間分割のディメンションが必要な場合に使用します。
 
 このプラグインは、ユーザーの Web ブラウザーから日付および時間の情報を読み込みます。この情報から、時間帯と曜日の情報を取得します。その後、選択したタイムゾーンにこのデータを変換します。夏時間にも対応しています。
 
->[!NOTE]
->
->以下の手順では、サイト上のデータ収集コードを変更する必要があります。 変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
+> [!NOTE]後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
 ## プラグインコード {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +28,7 @@ getTimeParting プラグインは、時間、曜日および週末と平日の�
 
 次のコードを [!DNL s_code.js] ファイルにある [!UICONTROL CONFIG SECTION] という名称の領域に置き、下記の説明のとおりに更新をおこないます。
 
-`s._tpDST` - DST値の配列。 The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - DST 値の配列。この配列は次のような構造を持ちます：`YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -105,6 +103,7 @@ s.prop1 = tp;
 ```
 
 **PLUGINS SECTION**
+
 
 次のコードを [!UICONTROL  ファイルの ]PLUGINS SECTION[!DNL s_code.js] に追加します。
 
