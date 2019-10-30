@@ -8,7 +8,7 @@ title: ビジュアライゼーションの概要
 topic: Reports & Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 
-[Visualization Types in Analysis Workspace on YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[YouTube上のAnalysis Workspaceのビジュアライゼーションタイプ](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -67,11 +67,11 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
   </tr> 
   <tr> 
    <td colname="col1"> <p>正規化 </p> </td> 
-   <td colname="col2"> <p>指標を均等な比率にします。See <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalization</a>. </p> </td> 
+   <td colname="col2"> <p>指標を均等な比率にします。標準化を参 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> 照してください</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>二重軸を表示 </p> </td> 
-   <td colname="col2"> <p>Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). </p> </td> 
+   <td colname="col2"> <p>2つの指標がある場合にのみ適用されます。1つの指標のY軸を左側に、もう1つの指標のY軸を右側に配置できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>異常値を表示 </p> </td> 
