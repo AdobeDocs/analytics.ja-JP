@@ -2,11 +2,11 @@
 keywords: Analysis Workspace
 seo-title: Analysis Workspaceの概要
 solution: Analytics
-title: Analysis Workspaceの概要
-topic: Reports and Analytics
-uuid: 4df6be48-2c88-4b9d-9536- ed64ffbb6ee4
+title: Analysis Workspace概要
+topic: Reports & Analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
 
 Analysis Workspace では、単一の Analytics レポートの通常の制限事項がすべて取り除かれます。堅牢かつ柔軟なキャンバスでカスタム分析プロジェクトを作成できます。任意の数のデータテーブル、ビジュアライゼーション、コンポーネント（ディメンション、指標、セグメントおよび時間の精度）をプロジェクトにドラッグ＆ドロップします。分類およびセグメントの作成、分析用のコホートの作成、アラートの作成、セグメントの比較、フローおよびフォールアウト分析をすばやくおこなうほか、レポートのキュレーションとスケジュールをおこなって会社の任意のユーザーと共有します。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL ワークスペース]**
+**[!UICONTROL Analytics]** / **[!UICONTROL Workspace]**
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -23,9 +23,7 @@ Analysis Workspace では、単一の Analytics レポートの通常の制限�
 
 YouTube のプレイリストは、[こちら](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)から参照できます。
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] 機能に [関する更新については、「Analysis Workspaceの新機能](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) 」を参照してください。
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +51,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」という新しい右クリックオプションが追加されました。イントラリンクをプロジェクトに追加するには：
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」と呼ばれる新しい右クリックオプションが追加されました。 イントラリンクをプロジェクトに追加するには：
 
 1. テキストビジュアライゼーションをプロジェクト内にドラッグします。例えば、コンテキストが必要なビジュアライゼーションまたはテーブルの横に配置します。
 1. テキストボックスに目次などを入力して、パネルまたはビジュアライゼーションにリンクさせたい項目（この例では成功指標）をハイライト表示します。
@@ -69,9 +67,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 パネルまたはビジュアライゼーションがプロジェクト内で折りたたまれている場合は、リンクをクリックすると、パネル／ビジュアライゼーションが展開されて表示されます。
 
->[!NOTE]
->
->You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+> [!NOTE] この機能は、「説明を編集」( **[!UICONTROL Edit Description]** )右クリックオプション内でも使用できます。
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
@@ -121,7 +117,7 @@ See [Break down dimensions](../../analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-詳しくは、[セグメント](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80)を参照してください。
+詳しくは、 [セグメント](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
@@ -144,7 +140,7 @@ Analysis Workspace でプロジェクトおよびコンポーネントにタグ�
 | 共有 | セグメントにのみ適用します。 |
 | 削除 | セグメントにのみ適用します。 |
 
-See [Visualizations](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) for more information.
+詳しくは、ビジ [ュアライゼーション](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276) (Visualizations)を参照してください。
 
 ## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
@@ -171,7 +167,7 @@ See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/b
 
 **選択と操作**
 
-Excel で選択するのと同じように、行および列を選択できます。さらに、選択範囲に対して次の操作を実行できます。以下に例を示します。
+Excel で選択するのと同じように、行および列を選択できます。さらに、選択範囲に対して次の操作を実行できます。次に例を示します。
 
 * 選択範囲からビジュアライゼーションを作成
 * クリップボードにコピー（Ctrl または Command + C）
