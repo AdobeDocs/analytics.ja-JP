@@ -5,7 +5,7 @@ seo-title: Analysis Workspace の Attribution IQ の使用
 title: Analysis Workspace の Attribution IQ の使用
 uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
 translation-type: tm+mt
-source-git-commit: 989568079f301a99a744e06b9de3d8636b3686a1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,13 +28,13 @@ Analysis Workspace のフリーフォームテーブルでは、ほぼあらゆ�
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
-フリーフォームテーブル内のあらゆる分類にも、任意のアトリビューションモデルを適用することができ、そのモデルは親列と同じでも別のものでもかまいません。例えば、マーケティングチャネルディメンションで線形の注文件数を分析するものの、チャネル内の特定のトラッキングコードには U 字形の注文件数を適用するといったことができます。分類に適用されるアトリビューションモデルを編集するには、その分類モデルの上にマウスポインターを置いて「編集」をクリックするだけです。
+フリーフォームテーブル内のあらゆる分類にも、任意のアトリビューションモデルを適用することができ、そのモデルは親列と同じでも別のものでもかまいません。例えば、マーケティングチャネルディメンションで線形の注文件数を分析するものの、チャネル内の特定のトラッキングコードには U 字形の注文件数を適用するといったことができます。分類に適用したアトリビューションモデルを編集するには、分類モデルの上にマウスポインターを置き、「編集」をクリックします。
 
 ![](assets/breakdown_settings.png)
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-If you’d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
@@ -69,4 +69,4 @@ If you’d like to quickly and easily compare one attribution model to another, 
 | ディメンション重複グラフ | 上位 3 つのディメンション項目（チャネルなど）と、それらがコンバージョンに一緒に関与する頻度を示すベン図です。例えば、バブルの重複部分のサイズは、両方のディメンション項目（チャネルなど）に訪問者が接触したときにコンバージョンが発生した頻度を示します。フリーフォームテーブルで他の行を選択すると、その選択を反映するようにビジュアライゼーションが更新されます。 |
 | ジャーニーあたりのマーケティングタッチポイント | レポート日付範囲における訪問者のマーケティング（または任意のディメンション）タッチポイントの数を示すヒストグラムです。これは、使用しているデータセットでのマルチタッチアトリビューションの効果を確認するのに役立ちます。ほぼすべての訪問者にタッチポイントが 1 つしかない場合は、アトリビューションモデルが違っても、結果はあまり変わりません。 |
 | マーケティングチャネルパフォーマンスの詳細 | 散布図を使用して、最大 3 つのアトリビューションモデルを視覚的に比較できます。 |
-| マーケティングチャネルフロー | 訪問者のジャーニー全体を通してどのチャネルとのインタラクションが最もよく発生しているか、また、どのような順序で発生しているかを確認できます。 |
+| マーケティングチャネルフロー | どのチャネルが最も一般的に、どのチャネルと訪問者の遍歴の間でどの順序でやりとりが行われているかを調べることができます。 |
