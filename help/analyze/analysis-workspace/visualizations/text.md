@@ -3,9 +3,9 @@ description: ユーザー定義のテキストをワークスペースに追加�
 seo-description: ユーザー定義のテキストをワークスペースに追加できます。
 seo-title: テキスト
 title: テキスト
-uuid: 904b7170-073f-44ea-9fcb-4019befcab8a
+uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
