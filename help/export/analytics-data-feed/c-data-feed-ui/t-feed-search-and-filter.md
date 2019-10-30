@@ -1,20 +1,20 @@
 ---
 description: 検索とフィルタリングは、リストでフィードを探すのに役立ちます。
-keywords: データフィード;検索;filter;レポートスイート;owner;status
+keywords: データフィード；検索；フィルタ；レポートスイート；所有者；ステータス
 seo-description: 検索とフィルタリングは、リストでフィードを探すのに役立ちます。
 seo-title: 検索とフィルター
 solution: Analytics
 title: 検索とフィルター
-uuid: 0d9e38ea- e681-4aa3-843a- d0221e88c177
+uuid: 0d9e38ea-e681-4aa3-843a-d0221e88c177
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 検索とフィルター
 
-検索とフィルターは、リスト内でフィードを探すのに役立ちます。
+検索とフィルタリングは、リスト内のフィードを見つけるのに役立ちます。
 
 1. フィルターアイコンをクリックするか、アイコンの上にマウスポインターを置いて、フィルターオプションを表示します。
 
