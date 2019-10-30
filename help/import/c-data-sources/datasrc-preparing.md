@@ -8,7 +8,7 @@ title: データソースを使用するための準備
 topic: 開発者と実装
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 管理ツールのヘルプの「[成功イベント](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)」を参照してください。
 
->[!NOTE]
->
->データソースのデータで新しい空のイベントを使用することを強くお勧めしますが、既存のイベントを使用すると効果的な場合が稀にあります。
+> [!NOTE] データソースのデータで新しい空のイベントを使用することを強くお勧めしますが、既存のイベントを使用すると効果的な場合が稀にあります。
 
 ## データディメンションの指定 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -43,9 +41,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 指標に複数のデータディメンションを定義できますが、各指標が、関連付けられた各データディメンションに対して、関連する値または値の組み合わせを提供する必要があります。例えば、オフラインの売上高指標をインポートし、これを *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
->[!NOTE]
->
->It is possible to import Total metrics that cannot be broken down by any data dimension.
+> [!NOTE] どのデータディメンションでも分類できないトータル指標をインポートできます。
 
 データソースで使用するデータディメンションを定義した後は、変数へのマッピングによってディメンションデータをマーケティングレポート内に組み込みます。標準のレポート（製品、トラッキングコード、検索キーワードなど）またはコンバージョントラフィック変数（eVar）のどちらかを使用します。
 
