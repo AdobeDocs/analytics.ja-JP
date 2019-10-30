@@ -1,22 +1,22 @@
 ---
 description: Analytics で AEM Assets レポートを有効にするための管理者の手順です。
 seo-description: Analytics で AEM Assets レポートを有効にするための管理者の手順です。
-seo-title: AEM Assetsレポート
+seo-title: AEM Assets レポート
 solution: Analytics
-title: AEM Assetsレポート
+title: AEM Assets レポート
 topic: レポート
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# AEM Assetsレポート
+# AEM Assets レポート
 
 Analytics で AEM Assets レポートを有効にするための管理者の手順です。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** / **[!UICONTROL <select report suite>]** 設定 **[!UICONTROL を編集]** / **[!UICONTROL AEM]** / **[!UICONTROL AEM Assetsレポート]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポー]** トスイート **[!UICONTROL /]** / **[!UICONTROL <select report suite>]** 設定/設定/AEMアセッ **********[!UICONTROL トレポート]**
 
 AEM Assets インサイトから提供されるアセットのインプレッション数とクリック数の情報を収集できます。この統合により、
 
