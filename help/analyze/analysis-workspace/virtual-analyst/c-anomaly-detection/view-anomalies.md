@@ -1,16 +1,16 @@
 ---
 description: 異常値をテーブルまたは線グラフで表示できます。
 seo-description: 異常値をテーブルまたは線グラフで表示できます。
-seo-title: Analysis Workspaceの異常値の表示
-title: Analysis Workspaceの異常値の表示
+seo-title: Analysis Workspace での異常値の表示
+title: Analysis Workspace での異常値の表示
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Analysis Workspaceの異常値の表示
+# Analysis Workspace での異常値の表示
 
 異常値をテーブルまたは線グラフで表示できます。
 
