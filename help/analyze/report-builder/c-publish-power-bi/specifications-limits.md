@@ -1,22 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 制限と仕様
-title: 制限と仕様
-uuid: 6717b6ea-7e01-49b8-8f6e- fb733a03b687
+seo-title: 制限および仕様
+title: 制限および仕様
+uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 制限と仕様
+# 制限および仕様
 
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE]
->
->これらの制限は、"Report BuilderリクエストをPower BIデータセットテーブルとして発行」オプションにのみ適用されます。
+> [!NOTE] これらの制限は、「Report BuilderリクエストをPower BIデータセットテーブルとして発行」オプションにのみ適用されます。
 
 * Power BI にエクスポートできる Report Builder リクエストの上限は、ワークブックあたり 100 個です。
 * リクエストのエクスポートは、スケジュールの処理でリクエストの数が 101 になったときに停止されます。
@@ -24,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE]
->
->この仕様は、"Power BIデータセットテーブルとしてすべてのリクエストを発行」オプションおよび「ワークブック内のすべての書式設定済みテーブルをPower BIデータセットテーブルとして発行」オプションに適用されます。
+> [!NOTE] この仕様は、「Power BIデータセットテーブルとしてすべてのReport Builderリクエストを発行」および「Power BIデータセットテーブルとしてワークブック内のすべての書式化されたテーブルを発行」オプションに適用されます。
 
 Power BI に発行した後に Report Builder リクエストを編集すると、問題が発生する場合があります。
 
@@ -68,5 +64,5 @@ Power BI に発行した後に Report Builder リクエストを編集すると�
 
 * ラベルは、行および列のアドレスと間違えられる可能性がある文字と数字の組み合わせにすることはできません。例えば、A100 をラベルにすることはできません。これは、ワークシート内のセルのアドレスだからです。
 * 「#」、「@」、「!」、「$」、「^」、「&amp;」、「*」、「`」、「~」、「 」の各文字は、ラベルの文字として無効です。これらの文字はアンダースコア文字に置換されます。
-* 無効な名前を入力すると、警告メッセージが表示され、自動生成された名前の候補が提示されます。**[!UICONTROL 「はい]**」をクリックすると、この名前が使用されます。**[!UICONTROL 「いいえ」]**&#x200B;をクリックすると、アドバンスウィザードのUIに新しい名前を入力できます。
+* 無効な名前を入力すると、警告メッセージが表示され、自動生成された名前の候補が提示されます。If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
 
