@@ -9,24 +9,20 @@ title: ディメンションの権限のカスタマイズ
 topic: 管理ツール
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
 
 # ディメンションの権限のカスタマイズ
 
->[!IMPORTANT]
->
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] ユーザーと製品の管理が管理コンソールに移 [行します](https://helpx.adobe.com/enterprise/using/admin-console.html)。 ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
 
 eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。
 
 **[!UICONTROL User Management]** / **[!UICONTROL Report Access]** / **[!UICONTROL Dimensions]** / ******[!UICONTROL Customize]**
 
->[!IMPORTANT]
->
->現時点では、一部のディメンションに対して権限を設定できません。 このようなディメンションとしては、モバイルのブックマークの長さ、モバイルデバイス番号、モバイル DRM、モバイル情報サービス、モバイル Java VM、モバイルデコレーションメール、モバイルインターネットプロトコル、モバイル OS、モバイルプッシュトゥトークがあります。
+> [!IMPORTANT] 現時点では、一部のディメンションに対して権限を設定できません。 このようなディメンションとしては、モバイルのブックマークの長さ、モバイルデバイス番号、モバイル DRM、モバイル情報サービス、モバイル Java VM、モバイルデコレーションメール、モバイルインターネットプロトコル、モバイル OS、モバイルプッシュトゥトークがあります。
 >
 >これらのディメンションは、他の権限にかかわらず、すべてのユーザーが使用可能です。
 
@@ -58,11 +54,11 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVars </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVar </a> </p> </td> 
    <td colname="col2"> <p>eVar 1 ～250 に対して個別に権限が与えられます。eVar は、カスタムレポートのコンバージョン成功指標をセグメント化するために使用するカスタムコンバージョン変数です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external"> Props </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external"> prop </a> </p> </td> 
    <td colname="col2"> <p>prop は、カスタムトラフィック変数です。 </p> <p>Analytics の導入の<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external">トラフィック prop と コンバージョン eVar</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -107,4 +103,3 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
   </tr> 
  </tbody> 
 </table>
-
