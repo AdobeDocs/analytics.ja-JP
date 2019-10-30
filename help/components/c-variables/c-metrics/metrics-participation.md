@@ -7,7 +7,7 @@ title: パーティシペーション
 topic: 指標
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-
 * **無効**：各コンバージョンイベントでのデフォルトの状態。このイベントではパーティシペーションデータは収集されません。
 * **有効**：このイベントではパーティシペーションデータが収集されます。
 
->[!NOTE]
->
->パーティシペーションは最大100個のカスタムイベントに対して有効にできます。100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
+> [!NOTE] パーティシペーションは、最大100個のカスタムイベントに対して有効にできます。 100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
 
 有効になったパーティシペーション指標は、すべてのコンバージョンレポートで自動的に利用できるようになります。ただし、リクエストに応じて特定のトラフィックレポートでパーティシペーション指標を表示することもできます。オプションで、パーティシペーション指標を特定のカスタムトラフィックレポートで使用することをリクエストします。
 
