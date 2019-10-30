@@ -3,9 +3,9 @@ description: 時間分割は、収集したヒットのタイムスタンプを�
 seo-description: 時間分割は、収集したヒットのタイムスタンプを取得し、「時間帯」や「曜日」など、よりわかりやすいディメンションに分類します。
 seo-title: 時間分割ディメンション
 title: 時間分割ディメンション
-uuid: c9fa7921- aa57-483c- b2f9- da55013ada17
+uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,9 +21,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 平日の売上と比較すると、週末の売上はどうか。
 * 特定のマーケティングキャンペーンでコンバージョンが高いのは午前中か、それとも午後か。
 
->[!NOTE]
->
->時間分割ディメンションは、Analysis Workspaceでのみ使用できます。時間分割ディメンションを別の Analytics ソリューションで使用するには、[getTimeParting プラグイン](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html)を実装します。
+> [!NOTE] 時間分割ディメンションは、Analysis Workspaceでのみ使用できます。 時間分割ディメンションを別の Analytics ソリューションで使用するには、[getTimeParting プラグイン](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html)を実装します。
 
 Analysis Workspace の時間分割ディメンションに含まれるものを以下に示します。
 
