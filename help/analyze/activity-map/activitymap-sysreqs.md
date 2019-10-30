@@ -7,7 +7,7 @@ title: サポートされているシステムおよび要件
 topic: Activity Map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 | Firefox | 最新バージョン |
 | Chrome | 最新バージョン の呼び出しの後におこなわれる場合です。Note:  The [!DNL Activity Map] Chrome plugin is a "developer mode" plugin only at this time. このプラグインを起動すると、開発者モードの拡張を無効にするよう推奨するメッセージが表示されます。このメッセージはプラグインを起動するたびに表示されます。 |
 
->[!NOTE]
->
->From a link collection perspective, [!DNL Activity Map] supports a much larger list of browsers.
+> [!NOTE] リンク収集の観点からは、はるか [!DNL Activity Map] に大きなブラウザーのリストをサポートしています。
 
 その他の要件は次のとおりです。
 
