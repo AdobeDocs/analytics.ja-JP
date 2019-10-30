@@ -7,7 +7,7 @@ title: レポートスイートマネージャー
 topic: 管理ツール
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポ]** ートスイ **[!UICONTROL ート]**
 
->[!NOTE]
->
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. 仮想レポートスイートのドキ [ュメントを参照してください](/help/components/vrs/vrs-about.md)。
+> [!NOTE] 仮想レポートスイートは、 **[!UICONTROL Analytics]** /コンポーネ **[!UICONTROL ント]** /仮想レ **[!UICONTROL ポートスイートで管理します]**。 仮想レポートスイートのドキ [ュメントを参照してください](/help/components/vrs/vrs-about.md)。
 
 ## Report Suite Manager の説明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
