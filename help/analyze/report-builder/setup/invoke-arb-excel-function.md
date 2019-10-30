@@ -1,26 +1,24 @@
 ---
 description: Report Builder のユーザーインターフェイスにアクセスすることなく、Excel の関数のみで Report Builder リクエストを操作できます。
 seo-description: Report Builder のユーザーインターフェイスにアクセスすることなく、Excel の関数のみで Report Builder リクエストを操作できます。
-seo-title: Microsoft Excelの関数からReport Builder機能を呼び出す
+seo-title: Microsoft Excel の関数からの Report Builder 機能の呼び出し
 solution: Analytics
-title: Microsoft Excelの関数からReport Builder機能を呼び出す
+title: Microsoft Excel の関数からの Report Builder 機能の呼び出し
 topic: Report Builder
-uuid: 5342cc4f-085d-4a2d- a498-38b00a3ef4d3
+uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Microsoft Excelの関数からReport Builder機能を呼び出す
+# Microsoft Excel の関数からの Report Builder 機能の呼び出し
 
 Report Builder のユーザーインターフェイスにアクセスすることなく、Excel の関数のみで Report Builder リクエストを操作できます。
 
 例えば、Excel 内で他のソースから取得されたデータに基づいて入力フィルターを適用する Report Builder リクエストを自動的に更新することができます。このような処理を、string RefreshRequestsInCellsRange(..) 関数を使用して実行できます。すべての呼び出しは非同期で実行されます。関数は、呼び出しの処理が完全に実行されるまで待機せず、すぐに制御が戻ります。
 
->[!NOTE]
->
->この機能を動作させるには、Report Builder5.0（以降）がインストールされている必要があります。
+> [!NOTE] この機能を動作させるには、Report Builder 5.0（以降）をインストールする必要があります。
 
 利用可能な関数は以下の通りです。
 
