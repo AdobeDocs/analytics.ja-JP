@@ -5,7 +5,7 @@ seo-title: Data Connectors統合ウィザードの実行
 title: Data Connectors統合ウィザードの実行
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 Data Connectors統合ウィザードでは、Data Connectors統合プロセスの手順を実行します。
 
-1. にログインします [!DNL Adobe Experience Cloud]。
+1. Log in to the [!DNL Adobe Experience Cloud].
 1. メニューで目的のレポートスイートがアクティブになっていることを確認 [!DNL Report Suite] します。
 1. **[!UICONTROL Adobe Experience Cloud]** / **[!UICONTROL Data Connectorsをクリックします]**。
 
