@@ -7,8 +7,8 @@ solution: Analytics
 title: JavaScript JS ファイル
 topic: 開発者と実装
 uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
