@@ -4,7 +4,7 @@ seo-description: Data Connectorsにサインインします。サードパーテ
 seo-title: Analytics Data Connectors
 title: Analytics data connectors使用の手引き
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ data connectors は、多くの一般的なブラウザーで正しく統合さ�
 * 画面の解像度：1024x768（最低 800x600）
 * 画面の色：16 ビット以上
 
-また、ユーザーの Web ブラウザーで JavaScript が有効になっていると、データ収集のパフォーマンスが向上します。
+また、ユーザーのWebブラウザーでJavaScriptが有効になっている場合は、データ収集が向上します。
 
 **前提条件**
 
