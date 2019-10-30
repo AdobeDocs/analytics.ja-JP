@@ -16,7 +16,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 Explains the steps the Analytics Admin needs to complete to enable [!DNL Activity Map] link collection and user download.
 
-## 手順 1. Update Your AppMeasurement (Javascript) Code to v1.6 (or higher) {#section_5D1586289DF2489289B1B6C1C80C300D}
+## 手順 1.Update Your AppMeasurement (Javascript) Code to v1.6 (or higher) {#section_5D1586289DF2489289B1B6C1C80C300D}
 
 The [!DNL Activity Map] module is part of the AppMeasurement.js file (located at the top of the file). The AppMeasurement library will load the [!DNL Activity Map] module when instantiated.
 
@@ -48,7 +48,7 @@ First, you need to enable [!DNL Activity Map] reports at a report-suite level.
 
 1. After about an hour, check the [[!DNL Activity Map] Page report](/help/analyze/activity-map/activitymap-reporting-analytics.md), which shows all the pages where users clicked on a link.
 
-## 手順 3. Add users to [!DNL Activity Map] access group {#section_4C7A47BB7DEF4AFFBC276392467F9675}
+## 手順 3.Add users to [!DNL Activity Map] access group {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
 1. Click **[!UICONTROL Add Users to Group]**.
 
