@@ -5,7 +5,7 @@ seo-title: 統合のデプロイ
 title: 統合のデプロイ
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,9 +73,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 統合ウィザードを完了したら、統合コードをAdobe Analytics導入コード(s_code)に導入する必要があります。
 
->[!NOTE]
->
->Adobe tagManagerまたはDynamic Tag Managementを使用してAdobe Analyticsを導入した場合は、これらのツールのいずれかを使用して統合コードを簡単に追加できます。
+> [!NOTE] Adobe tagManagerまたはDynamic Tag Managementを使用してAdobe Analyticsを導入した場合は、これらのツールのいずれかを使用して統合コードを簡単に追加できます。
 
 1. 「サポート」タブ **[!UICONTROL に移動し]** 、統合の「リソース」 `integration code v2_0_1` 領域からリソースをダウンロードして保存します。
 
@@ -202,9 +200,7 @@ Adobe統合ウィザード（手順7）を使用して自動的に作成され�
 
 または、Adobe Analyticsのメニュー構造内でDemandbaseレポートに移動し、以下のスクリーンショットを参照します。
 
->[!NOTE]
->
->このデータは、導入が成功してから24 ～ 48時間以内に表示されます。
+> [!NOTE] このデータは、導入が成功してから24 ～ 48時間以内に表示されます。
 
 ![](assets/reporting1.png)
 
