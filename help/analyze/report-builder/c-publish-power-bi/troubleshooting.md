@@ -1,20 +1,20 @@
 ---
 description: ここでは、Report Builder を Power BI と共に使用しているときによく発生する問題をいくつか紹介します。
 seo-description: ここでは、Report Builder を Power BI と共に使用しているときによく発生する問題をいくつか紹介します。
-seo-title: Power BI統合のトラブルシューティング
-title: Power BI統合のトラブルシューティング
+seo-title: Power BI 統合のトラブルシューティング
+title: Power BI 統合のトラブルシューティング
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Power BI統合のトラブルシューティング
+# Power BI 統合のトラブルシューティング
 
 ここでは、Report Builder を Power BI と共に使用しているときによく発生する問題をいくつか紹介します。
 
-## 手順 1. Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
+## 手順 1.Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
 
 スケジュールされたワークブックの Power BI 発行が成功するには、Power BI サービスが起動して動作している必要があります。発行の失敗には主に次の 2 つの理由があります。
 
