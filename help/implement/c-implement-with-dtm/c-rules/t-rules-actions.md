@@ -6,8 +6,8 @@ seo-title: トリガー条件のアクションの設定
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: トリガー条件のアクションの設定
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 各ルールは、スクリプトや HTML 挿入をいくつでもトリガーできます。
 
->[!NOTE]
->
->ページ内にカスタムコードを挿入できる DTM の機能によってクロスサイトスクリプティング（XSS）脆弱性が入り込まないよう、十分注意してください（詳しくは、[OWASP のガイド資料](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))を参照してください）。特に、スクリプトの中でデータ要素を使用する場合は警戒が必要です。データ要素には、信頼できない提供元から得られた値が含まれている可能性が常にあることを意識してください。
+> [!NOTE] DTMではページにカスタムコードを挿入できるので、クロスサイトスクリプティング(XSS)脆弱性を作成しないように注意してください(詳しくは [OWASPのガイド](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) を参照)。 特に、スクリプトの中でデータ要素を使用する場合は警戒が必要です。データ要素には、信頼できない提供元から得られた値が含まれている可能性が常にあることを意識してください。
 
 **トリガー条件のアクションを設定するには**
 
