@@ -5,16 +5,16 @@ seo-description: data connectors を使用してアドビパートナーとの�
 seo-title: Data Connectors
 solution: Analytics
 title: Data Connectors
-uuid: 76edb815- f40d-413d-986f-565b6619648d
+uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Data Connectors
 
-[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)を使用してアドビパートナーとの統合を作成する場合、アドビは、再マーケティングまたはその他のデータをFTPアカウントにプッシュして、ユーザーまたはパートナーがダウンロードできます。
+When you create an integration with an Adobe partner using [data connectors](https://www.adobeexchange.com/experiencecloud.html), Adobe can push re-marketing or other data to an FTP account, which you or the partner can download.
 
 お客様には、アドビからこの FTP アカウントに送信されるデータを適切に受信するために、十分な容量が確保されるよう FTP アカウント上のファイル管理にご協力いただきたく思います。このタイプの FTP アカウントでは、最大で 2 GB または 63 個のファイルを保存できます。
 
