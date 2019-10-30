@@ -7,7 +7,7 @@ title: リロード回数
 topic: 指標
 uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
