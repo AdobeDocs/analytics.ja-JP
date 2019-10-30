@@ -5,10 +5,10 @@ seo-title: データソースマネージャー
 solution: Analytics
 subtopic: データソース
 title: データソースマネージャー
-topic: 開発者と導入
-uuid: cca4a1c-7c56-421b-8ee6- a42b334659b1
+topic: 開発者と実装
+uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
 
 データソースの作成および管理を行い、レポートスイートでのデータソースの使用状況を表示します。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL データソース]**
+**[!UICONTROL Analytics]** /管理 **[!UICONTROL 者]** /デ **[!UICONTROL ータソ]**&#x200B;ース。
 
 ## 「作成」タブ{#section_74603FDA3D8842E49F1A51624A06DE20}
 
@@ -67,7 +67,7 @@ source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
    <td colname="col1"> <p>ステータス </p> </td> 
    <td colname="col2"> <p> ファイルの現在のステータス。可能なステータス値は次のとおりです。 </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">待機中（手順 1／3）：ファイルは存在しますが、処理が開始されていません。ファイルが 30 分以内に表示されない場合は、関連する <span class="filepath">.fin</span> ファイルが存在することを確認してください。 </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">待機中（手順 1／3）：ファイルは存在しますが、処理が開始されていません。If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">準備（手順 2／3）：ファイルはエラーや警告の確認中です。 </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">処理（手順 3／3）：ファイルは処理中です。 </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">失敗：エラーにより、ファイルは処理されませんでした。 </li> 
