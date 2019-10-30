@@ -4,10 +4,10 @@ seo-description: ツールバー、カレンダー、詳細テーブルなど、
 seo-title: レポートの各機能
 solution: Analytics
 title: レポートの各機能
-topic: Reports and Analytics
-uuid: 32f72961- cb94-4e50- ae18-03326e02bc8b
+topic: Reports & Analytics
+uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,7 +30,7 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/toolbar.png){width="672px"}
 
-Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+「レポートのカス [タマイズ」も参照](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
 ## レポートのヘッダーと設定 {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +38,7 @@ Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-
 
 ![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.
+詳細につ [いては、「レポートのカスタマイズ](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) 」を参照してください。
 
 ## カレンダー {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,7 +46,7 @@ See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/
 
 ![](assets/calendar_large.png){width="672px"}
 
-See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [Comparing Dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+日付ま [たは日付範囲の選択および日付の比較](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) を参照 [してください](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824)。
 
 ## グラフの種類 {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
@@ -80,4 +80,4 @@ See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-
 
 詳細テーブルで、データのフィルタリング、内訳の表示、指標の追加などを行うことができます。
 
-See [Customizing Reports](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+「レポートの [カスタマイズ](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md)」を参照。
