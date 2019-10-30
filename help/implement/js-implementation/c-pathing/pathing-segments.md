@@ -7,8 +7,8 @@ solution: Analytics
 title: ユーザータイプによるパスのセグメント化
 topic: 開発者と実装
 uuid: 5c298f39-381d-453b-a608-109e3276b361
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,19 +22,19 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 例えば、「_登録済み_」ユーザーと「_未登録_」ユーザーという 2 つのユーザータイプがあるとします。各ページでこれら 2 つのユーザータイプを区別し、これらのユーザーの値を目的の [!UICONTROL sprop] に入力する必要があります。prop に入力すると、次のように表示されます。
 
 ```js
- s.prop1=”Registered : “ + s.pageName;
+ s.prop1="Registered : " + s.pageName;
 ```
 
 ユーザーが登録済みユーザーであり、ホームページにアクセスした場合、prop の値は次のように表示されます。
 
 ```js
- “Registered : Home Page”
+ "Registered : Home Page"
 ```
 
 このユーザーが「Page 2」という別のページにクリックして移動すると、そのページでの値は次のように表示されます。
 
 ```js
- “Registered : Page 2”
+ "Registered : Page 2"
 ```
 
 [!UICONTROL パス]を有効にすると、これら 2 つの値が連続して表示されます。登録済みユーザーがどのようにしてホームページから移動したかを把握したい場合、いずれかのパスレポートで「Registered : Home Page」という値を探し、それらのユーザーがアクセスした次のページを確認します。この例の場合、登録済みユーザーは「Page 2」に移動しています。
