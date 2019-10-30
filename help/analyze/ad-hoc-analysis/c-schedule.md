@@ -5,7 +5,7 @@ seo-title: 予定レポートマネージャー
 solution: Analytics
 title: 予定レポートマネージャー
 topic: Ad Hoc Analysis
-uuid: 82a054ef-109d-414d- a6e1- e09ee57c163f
+uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -22,13 +22,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->ユーザーアカウントが無効になっている場合、そのユーザーによって作成されたスケジュール済みレポートの配信は中止されます。
+>ユーザーアカウントが無効になっている場合、そのユーザーが作成した予定レポートの配信は中止されます。
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
+保存されたレポートや予定レポートで内訳の行項目が確実に保持されるようにするには、表ビルダーの「項目の編集 **[!UICONTROL 」機能を使用して]**[](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) 、分類の固定ディメンションリストを作成します。
 
 >[!IMPORTANT]
 >
->Ad Hoc Analysisを使用すると、特定のタイムリーでアドホックなレポートニーズに関するレポートをすばやく定義およびスケジュールできます。データ抽出機能を使用し、行、列、指標の評価結果または詳細な分類に関する情報が大量に含まれるデータをすべてエクスポートするような処理には、対応する設計になっていません。
+>Ad Hoc Analysisを使用すると、タイムリーな特定のレポートニーズに合わせて、すばやくレポートを定義し、スケジュールを設定できます。 データ抽出機能を使用し、行、列、指標の評価結果または詳細な分類に関する情報が大量に含まれるデータをすべてエクスポートするような処理には、対応する設計になっていません。
 >
 >「レポートの作成が 10 分以内に（Ad Hoc Analysis のタイムアウトまでに）終わらないようなら、レポートが複雑すぎる可能性が高い」という原則が、Ad Hoc Analysis のスケジュールを使用したレポート作成機能の現実的な制約になります。
 >
