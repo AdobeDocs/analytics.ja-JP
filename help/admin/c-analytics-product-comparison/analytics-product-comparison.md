@@ -6,7 +6,7 @@ solution: Analytics
 title: Analytics 製品の比較と必要システム構成
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -52,7 +52,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> 最大 2 個のセグメント </td> 
    <td> 制限なし </td> 
    <td> 制限なし（データリクエストスタッキング） </td> 
-   <td colname="col06"> 1 個のセグメント。複数のセグメント（スタック）をサポート </td> 
+   <td colname="col06"> 1 個のセグメント の呼び出しの後におこなわれる場合です。複数のセグメント（スタック）をサポート </td> 
    <td colname="col6"> 制限なし </td> 
   </tr> 
   <tr> 
