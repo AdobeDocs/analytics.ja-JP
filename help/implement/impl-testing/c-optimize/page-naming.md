@@ -7,8 +7,8 @@ solution: Analytics
 title: ページ命名
 topic: 開発者と実装
 uuid: b4438314-eb45-4009-aa66-f062701ea07c
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
