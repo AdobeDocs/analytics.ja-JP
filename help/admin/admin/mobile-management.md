@@ -5,9 +5,9 @@ seo-title: モバイル管理
 solution: Analytics
 title: モバイル管理
 topic: 管理ツール
-uuid: d09edf72- bb91-422d- b22c-7b6971f228de
+uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 6184104b5a46242c5973552298964e96ff671d7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,9 +26,9 @@ Adobe Analytics と Mobile Services のこの統合により、
 *  Adobe Mobile ディメンションが追加されます。
 * 15 分ごとにデータが Analytics に同期されます
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** / **[!UICONTROL 設定を編集]** / **[!UICONTROL モバイル管理]** / **[!UICONTROL モバイルアプリケーションレポート]**
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポー]** トスイート **[!UICONTROL /設定の編集]****[!UICONTROL /モバイルアプリケーションレポート]**********/モバイルアプリケーションレポート管理
 
-## 手順 1. アプリレポートを有効にする {#section_FBADF80AED2B4978A904ABB770B3B931}
+## 手順 1.アプリレポートを有効にする {#section_FBADF80AED2B4978A904ABB770B3B931}
 
 アプリレポート v3.0 を有効にして、次の指標を測定します。
 
@@ -46,18 +46,18 @@ Adobe Analytics と Mobile Services のこの統合により、
 * Mobile Services 内で特定の目標地点（POI）を識別、作成および視覚化します。POI は、モバイル SDK 設定ファイル内に定義する必要があります。
 * Bluetooth ビーコン（UUID、Major、Minor および Proximity）を追跡します。
 
-## 手順 3. （オプション）バックグラウンドヒットの従来のレポートおよび属性を有効にする{#section_1708BCAA87AA4884986F7532759C5DD4}
+## 手順 3.（オプション）バックグラウンドヒットの従来のレポートおよび属性を有効にする{#section_1708BCAA87AA4884986F7532759C5DD4}
 
 有効なバックグラウンドヒット（アプリがバックグラウンドにあるときに生成されたヒット）とは、ヒットが通常のフォアグラウンドヒットとして扱われることを意味します。有効なバックグラウンドヒットは、通常のレポートに表示され、属性にも影響します。通常、この設定は、レガシー実装との一貫性を保つ目的でのみ使用することをお勧めします。
 
-代わりに、[仮想レポートスイート](../../components/vrs/vrs-about.md)に「バックグラウンドヒットを含める」ことをお勧めします。こうすることで、ヒットは表示されますが、訪問および訪問者カウントには影響しなくなります。**[!UICONTROL モバイル管理]** / **[!UICONTROL モバイルアプリケーションレポートを有効にすると、モバイル分類が有効]**&#x200B;になります。
+Instead, we recommend that you "include background hits" in a [virtual report suite](../../components/vrs/vrs-about.md). こうすることで、ヒットは表示されますが、訪問および訪問者カウントには影響しなくなります。Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 分類は数値データをグループにカテゴリ化してグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「ポップミュージック用語」というカテゴリに入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に対してそのカテゴリの成功をレポートします。
 
 | 分類 | 定義 |
 |--- |--- |
 | 初回起動日 | インストール後または再インストール後の初回起動日。MM/DD/YYYY |
-| アプリケーション ID | アプリケーションの名前とバージョンを次の形式で格納します。`[AppName] [BundleVersion]` 例えば、 `myapp 1.1.` |
+| アプリケーション ID | アプリケーションの名前とバージョンを次の形式で格納します。`[AppName] [BundleVersion]`例：`myapp 1.1.`。 |
 | 起動回数 | アプリが起動したか、またはバックグラウンドから復帰した回数。 |
 | 初回使用からの日数 | 初回起動時からの日数。 |
 | 前回使用からの日数 | 前回使用時からの日数。 |
