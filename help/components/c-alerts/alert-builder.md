@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: アラートビルダー
 title: アラートビルダー
-uuid: 86d00a33- dc99-4dc3- a732-0b895ba487bc
+uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
 * Analysis Workspace で以下のショートカットを使用する。
 
    `ctrl (or cmd) + shift + a`
-* **[!UICONTROL ワークスペース]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL 新しいアラート]**&#x200B;に移動します。
+* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
 * By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* [!UICONTROL Reports&amp; Analytics] レポート内から **[!UICONTROL 、その他]** /アラート **[!UICONTROL の追加に移動]**&#x200B;します。
+* From within a [!UICONTROL Reports &amp; Analytics] report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
 
 The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
 
@@ -37,9 +37,7 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 いつ指標がチェックされるかを、1 時間ごと、毎日、毎週または毎月から指定します。
 
->[!NOTE]
->
->カスタムカレンダーのレポートスイートでは、アラートビルダーの毎月の精度はサポートされません。
+> [!NOTE] カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度はサポートされていません。
 
 **受信者**
 
@@ -59,7 +57,7 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 * トリガーを追加するキャンバスに指標をドラッグ＆ドロップします。
 
-   Note that an **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
 * アラートが設定される前に指標が超過している必要があるしきい値を指定します。この値をしきい値に設定し、以下のいずれかの条件にすることができます。
 
