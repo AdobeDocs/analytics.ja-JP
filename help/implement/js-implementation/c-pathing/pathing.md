@@ -7,8 +7,8 @@ solution: Analytics
 title: パスの概要
 topic: 開発者と実装
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,8 +21,6 @@ source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 Analytics を初期設定の状態で使用すると、ページレベルのパスが提供されます。パスの背景にある基本的な概念は、ユーザーが訪問時に閲覧したページの順番を示すことです。このデータは複数の様々なレポートに含まれており、表示する対象に応じて様々な方法で表示されます。
 
->[!NOTE]
->
->パスを有効にするには、**[!UICONTROL 管理者／レポートスイート／設定を編集／トラフィック／トラフィック変数]**&#x200B;に移動します。サイトセクションおよびサーバーレポートでパスを有効にするには、カスタマーケアにお問い合わせください。
+> [!NOTE]パスを有効にするには、**[!UICONTROL 管理者／レポートスイート／設定を編集／トラフィック／トラフィック変数]**&#x200B;に移動します。サイトセクションおよびサーバーレポートでパスを有効にするには、カスタマーケアにお問い合わせください。
 
 [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) でより強力なパス（フロー）オプションを調べます。
