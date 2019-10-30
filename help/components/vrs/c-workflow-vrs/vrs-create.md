@@ -5,10 +5,10 @@ seo-description: 仮想レポートスイートの作成を始める前に、以
 seo-title: 仮想レポートスイートの作成
 solution: Analytics
 title: 仮想レポートスイートの作成
-topic: Reports and Analytics
-uuid: 022a6656-808e-4c92- b7ec-4d2a42e84fa8
+topic: Reports & Analytics
+uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,10 +19,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * 仮想レポートスイートマネージャーは管理者ユーザー以外には表示されません。
 * 仮想レポートスイートは共有できません。「共有」するには、グループや権限を使用します。
-* 仮想レポートスイートマネージャーには、自分が所有する仮想レポートスイートのみが表示されます。他のユーザーの仮想レポートスイートを表示するには、「すべて表示」をクリックする必要があります。
+* 仮想レポートスイートマネージャーには、自分が所有する仮想レポートスイートのみが表示されます。他のユーザーの情報を表示するには、「すべて表示」をクリックする必要があります。
 
-1. **[!UICONTROL コンポーネント]** / **[!UICONTROL 仮想レポートスイートに移動]**&#x200B;します。
-1. **[!UICONTROL 「追加+]**」をクリックします。
+1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
+1. Click **[!UICONTROL Add +]**.
 
    ![](assets/new_vrs.png)
 
