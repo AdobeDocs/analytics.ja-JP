@@ -5,16 +5,16 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.charSet
 
-The charSet property, which is normally set in the JavaScript file, is used by Analytics to convert incoming data into UTF-8 for storage and reporting by Analytics.
+通常 JavaScript ファイルで設定される charSet プロパティは、Analytics では着信データを UTF-8 に変換して Analytics で保存およびレポートを行うのに使用されます。
 
->[!N] 注意：charSetプロパティは、データをマルチバイトのレポートスイートに送信する場合に必要です。標準のレポートスイートでは絶対に使用しないでください。 charSet プロパティを標準の ISO レポートスイートに設定すると、変数の切り捨てや予想外の文字変換が発生することがあります。
+>[!N注意：]charSet プロパティは、データをマルチバイトレポートスイートに送るときに必要なものであるため、標準レポートスイートには絶対に使用しないでください。charSet プロパティを標準の ISO レポートスイートに設定すると、変数の切り捨てや予想外の文字変換が発生することがあります。
 
 charSet プロパティの値は、たとえ構文がわずかに異なっていたとしても、META タグまたは http ヘッダーでの Web ページエンコーディングに一致する必要があります。META タグはエンコーディングにエイリアスを使用できますが、charSet の値は通称（または公式）のエンコーディング名を使用する必要があります。
 
@@ -28,15 +28,15 @@ charSet プロパティの値は、たとえ構文がわずかに異なってい
 | Big5 | Big-5 |
 | Shift_JIS | SJIS |
 
-エンコーディングやエイリアスが多数存在するので、charSetが上の表に表示されない場合は、導入コンサルタントまたはアドビカスタマーケアに問い合わせて、適切な値を確認してください。
+エンコーディングやエイリアスは多数あるので、charSet の正しい値が上の表にない場合は、担当の導入コンサルタントまたはアドビのカスタマーケアに連絡してご確認ください。
 
-If a site has different web encodings on different pages, or a single JavaScript file is used for multiple sites, the charSet property can be set to a default value in the JavaScript file and then reset on specific pages as needed to override the default; for example, `s.charSet="UTF-8"` or `s.charSet="SJIS"`.
+あるサイトが別々のページで異なる Web エンコーディングを行っている場合、または単一の JavaScript ファイルを複数のサイトで使用している場合、charSet プロパティを JavaScript ファイルのデフォルト値に設定し、特定のページでは必要に応じてリセットしてデフォルトを無効にすることができます（例：`s.charSet="UTF-8"` または `s.charSet="SJIS"`）。
 
 charSet パラメーターの空白でない値により、データは UTF-8 に変換されて保存されます。128～255 の範囲の文字は、適切な UTF-8 の 2 バイトシーケンスに変換されて保存されます。これらの文字は標準レポートスイートでは正しく表示されません。したがって、charSet プロパティは標準レポートスイートには絶対に使用しないでください。
 
 同様に、charSet パラメーターの空白の値はデータ変換プロセスがスキップされ、128～255 の範囲の文字は 1 バイトとして保存されます。これらの文字の 1 バイトコードは有効な UTF-8 ではないので、これらの文字はマルチバイトレポートスイートでは正しく表示されません。したがって、charSet パラメーターは必ずマルチバイトレポートスイートで使用する必要があります。また、Web ページのエンコーディングに関しては適切な値を使用することが必要です。
 
-If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. However, if the variables on your pages contain non-ASCII characters, the *`charSet`* variable must be populated.
+*`charSet`* 変数の値を正しくセットしない場合、他のすべての変数で文字化けを起こすことがあります。ページ上の JavaScript 変数（例：*`pageName`*、[!UICONTROL prop1]、または *`channel`*）に ASCII 文字のみ含まれている場合は、*`charSet`* を定義する必要はありません。ただし、ページ上の変数に ASCII 以外の文字が含まれている場合は、*`charSet`* 変数を生成する必要があります。
 
 ## パラメーター
 
