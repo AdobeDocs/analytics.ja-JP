@@ -8,7 +8,7 @@ title: JavaScript H コード - レガシー
 topic: 開発者と実装
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 レガシー JavaScript H コードのこれまでのリリースノートです。
 
->[!NOTE]
->
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
+> [!NOTE] 現在のライブラリバージョンを検索するには、 [DigitalPulse Debuggerを使用します](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html)。
 
 <!-- 
 
@@ -27,62 +25,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
  -->
 
-## H.27.5 - Update {#section_DB9535C7EC4A4DDE9BA56B6C02BE8327}
+## H.27.5 の更新{#section_DB9535C7EC4A4DDE9BA56B6C02BE8327}
 
 リリース日：**2016 年 6 月 17 日**
 
-訪問者 API 1.5.7 を同梱しました。
+Visitor API 1.5.7 を同梱しました。
 
-## H.25.5 - Update {#section_B10151D7718F4568AE523BE1553FCCB7}
+## H.25.5 の更新{#section_B10151D7718F4568AE523BE1553FCCB7}
 
 リリース日：**2016 年 5 月 20 日**
 
 Visitor API 1.5.5 を同梱しました。
 
-## H.27.5 - Update {#section_AD73ECD5CDAB4E158B509BA7B4B8CC1F}
+## H.27.5 の更新{#section_AD73ECD5CDAB4E158B509BA7B4B8CC1F}
 
 リリース日：**2015 年 11 月 6 日**
 
 * Visitor API 1.5.3 を同梱しました。
 
-## H.27.5 - Update {#section_8A94D8A74A39486AAE248A22D661A261}
+## H.27.5 の更新{#section_8A94D8A74A39486AAE248A22D661A261}
 
 リリース日：**2015 年 9 月 18 日**
 
 * Visitor API 1.5.2 を同梱しました。
 
-## H.27.5 - Update {#section_62D1787F90FB4730B5F0C79EC1EF84B1}
+## H.27.5 の更新{#section_62D1787F90FB4730B5F0C79EC1EF84B1}
 
 リリース日：**2015 年 8 月 21 日**
 
 * Visitor API 1.5.1 を同梱しました。
 
-## H.27.5 - Update {#section_F58AF8B7FAE9470ABCBF2AAD9E7AF881}
+## H.27.5 の更新{#section_F58AF8B7FAE9470ABCBF2AAD9E7AF881}
 
 リリース日：**2015 年 6 月 19 日**
 
 * Visitor API 1.5 を同梱しました。
 
-## H.27.5 - Update {#section_B3E310AFF909480BAD59A7F87D298348}
+## H.27.5 の更新{#section_B3E310AFF909480BAD59A7F87D298348}
 
 リリース日：**2015 年 5 月 22 日**
 
 * Visitor API 1.4 を同梱しました。
 
-## H.27.5 - Update {#section_E7006FC903064376A85D3EC2AC1D2544}
+## H.27.5 の更新{#section_E7006FC903064376A85D3EC2AC1D2544}
 
 リリース日：**2015 年 4 月 17 日**
 
-* Added Integrate module to s_code.js in legacy [!DNL AppMeasurement] for [!DNL JavaScript] H.X ZIP file. （AN-101001）
+* [!DNL JavaScript] H.X の ZIP ファイル用の従来の [!DNL AppMeasurement] の s_code.js に統合モジュールが追加されました。（AN-101001）
 
 ## H.27.5 {#section_22DCF43169614B28BC17F46426C5D5B6}
 
 リリース日：**2015 年 2 月 20 日**
 
 * Visitor API 1.3.5 を同梱しました。
-* 最初のトラッキングコールの後、自動リファラートラッキングを実行しないように変更されました。これにより、最初のトラッキングコールの前に *`s.referrer`* が手動で設定された場合に、2 回目、3 回目などのトラッキングコール（通常はリンクトラッキング）で、リファラーを二重にカウントしなくなります。（AN-92647）
+* 最初のトラッキングコールの後、自動リファラートラッキングを実行しないように変更されました。これにより、最初のトラッキングコールの前に  *`s.referrer`* が手動で設定された場合に、2 回目、3 回目などのトラッキングコール（通常はリンクトラッキング）で、リファラーを二重にカウントしなくなります。（AN-92647）
 
-## H.27.4 - Update {#section_ED38D59E83B4417180877F7C10BE4582}
+## H.27.4 の更新{#section_ED38D59E83B4417180877F7C10BE4582}
 
 リリース日：**2015 年 1 月 16 日**
 
@@ -113,14 +111,14 @@ Visitor API 1.5.5 を同梱しました。
 
 リリース日：**2014 年 6 月 20 日**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
+* 訪問者関連の API フィールド（従来の [!DNL Analytics] 訪問者 ID など）の done および waiting フラグの取り扱いでエラーが生じる問題を修正しました。
 * 訪問者 ID サービス 1.3 の新機能がサポートされました。
 
 ## H.27.1 {#section_CC2556C734EE4BAAB71D6A93095DB38F}
 
 リリース日：**2014 年 6 月 12 日**
 
-* Fixed an issue in the [!DNL Analytics] for [!DNL Target] integration that caused some hits to incorrectly be merged.
+* いくつかのヒットが誤って結合される [!DNL Target] と [!DNL Analytics] の統合の問題を修正しました。
 
 ## H.27 {#section_023B6267C0DB424F99A23EBB732B8C69}
 
@@ -133,13 +131,13 @@ Visitor API 1.5.5 を同梱しました。
 
 リリース日：**2013 年 10 月 18 日**
 
-* Added `alt=""` to all Image objects to comply with Accessible Video and Communications Act.
+* Accessible Video and Communications Act に準拠するために、すべての画像オブジェクトに `alt=""` が追加されました。
 
 ## H.26.1 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
 
 リリース日：**2013 年 7 月 19 日**
 
-* 自動リンク追跡でハッシュ／フラグメントが無視されるようになりました。Previously the following URL was automatically tracked since the entire `href` ended in `.pdf`:
+* 自動リンク追跡でハッシュ／フラグメントが無視されるようになりました。以前は、次の URL が自動的にダウンロードリンクとして追跡されていました。これは、`href` 全体が `.pdf` で終わるためです。
 
 ```js
   <a href="index.htm#anchor.pdf">Test Link</a>
@@ -159,7 +157,7 @@ Visitor API 1.5.5 を同梱しました。
 
 リリース日：**2013 年 4 月 20 日**
 
-* Fixed an issue in forced link tr [!DNL Windows]acking that caused a [!DNL JavaScript] error on some [!DNL Android] 2.2 Devices.
+* 一部の [!DNL Android] 2.2 デバイスで [!DNL JavaScript] エラーが発生していた強制リンクトラッキングの問題が修正されました。[!DNL Windows]
 
 *  Media Player のビデオ自動トラッキングで、再生時間が正確にトラッキングされなかったスクラビングの問題が修正されました。
 
@@ -167,22 +165,22 @@ Visitor API 1.5.5 を同梱しました。
 
 リリース日：**2013 年 2 月**
 
-* Changed automatic exit link tracking to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+* 離脱リンクの自動追跡を変更し、、`about:`、`#`、または `javascript:`で始まる `HREF` 属性を含むリンクを常に無視するようにしました。
 
 * `useForcedLinkTracking` の影響を受けるクリックイベントの範囲を絞り込みました。自動強制のリンクトラッキングは、次の場合にのみ適用されます。
 
-   * `<A>` およびタ `<AREA>` グ
+   * `<A>` および `<AREA>` タグ
 
    * タグに `HREF` 属性が含まれている必要がある
-   * The `HREF` can't start with `#`, `about:`, or `javascript:`
+   * `HREF` を `about:`、`#`、または `javascript:` で始めることができない。
 
-   * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`)
+   * `TARGET` 属性が設定不可、または `TARGET` で現在のウィンドウ（`_self`、`_top`、または `window.name` の値）を参照する必要がある。
 
 ## H.25.3 {#section_FA6A6F9F5D64455DA5A54C007081341A}
 
 リリース日：**2013 年 1 月**
 
-* アドビのデータ収集サーバーのページ URL フィールドのサイズ拡大に対応するために、255 バイトを超える URL の送信のサポートを追加しました。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. これにより、ブラウザーを切り捨てる場合に長い URL が他のデータより優先されないようにする一方、長い URL の収集を引き続き有効にすることができます。
+* アドビのデータ収集サーバーのページ URL フィールドのサイズ拡大に対応するために、255 バイトを超える URL の送信のサポートを追加しました。255 バイトを超えるページ URL は分割され、最初の 255 バイトは `g=` パラメーターに、残りのバイトはその後のクエリ文字列の `-g=` クエリパラメーターに表示されます。これにより、ブラウザーを切り捨てる場合に長い URL が他のデータより優先されないようにする一方、長い URL の収集を引き続き有効にすることができます。
 
 * `escape` と `encodeURIComponent` を組み合わせて使用しエンコードされた文字列の URL デコードの処理を修正しました。
 
@@ -205,8 +203,8 @@ Visitor API 1.5.5 を同梱しました。
 
 リリース日：**2012 年 10 月**
 
-* Added support for reporting an additional version number in the [!DNL JavaScript] version report. 従来はバージョンが 2 文字まで（例：1.8）に制限されていましたが、3 文字のバージョン番号（例：1.8.5）を使用できるようになりました。
-* Fixed an issue with [!DNL Tag Manager] that prevented repeated values in Dependant Code blocks from being sent.
+* [!DNL JavaScript] バージョンのレポートにおいて、追加のバージョン番号がレポートされるようになりました。従来はバージョンが 2 文字まで（例：1.8）に制限されていましたが、3 文字のバージョン番号（例：1.8.5）を使用できるようになりました。
+* [!DNL Tag Manager] で、依存コードブロック内の繰り返し値が送信されない問題を修正しました。
 
 ## H.25.1 {#section_680CE31CFA9945978F42612B684DB831}
 
@@ -223,12 +221,12 @@ Visitor API 1.5.5 を同梱しました。
   '
 ```
 
-This resolves issues with un-escaped characters being stored in the [!DNL ClickMap] `s_sq` cookie.
+これにより、非エスケープ文字が [!DNL ClickMap] の `s_sq` cookie に保存される問題が解決されます。
 
 * カスタムの `media.monitor` メソッドを使ってメディア終了イベントを追跡すると、ビデオ完了イベントが送信されないことがありましたが、この問題が修正されました。
 
 ```
-  If(media.event==”CLOSE”) { 
+  If(media.event=="CLOSE") { 
   … 
   } 
   
@@ -238,7 +236,7 @@ This resolves issues with un-escaped characters being stored in the [!DNL ClickM
 
 リリース日：**2012 年 7 月**
 
-WebKit ブラウザー（Safari および Chrome）でリンクトラッキングが正常に完了するように更新されました。この更新により、自動的に追跡されるダウンロードリンクおよび離脱リンク（`s.trackDownloadLinks` および `s.trackExternalLinks` で指定）は正常に追跡されるようになりました。If you are tracking custom links using manual [!DNL JavaScript] calls, you need to modify how these calls are made.
+WebKit ブラウザー（Safari および Chrome）でリンクトラッキングが正常に完了するように更新されました。この更新により、自動的に追跡されるダウンロードリンクおよび離脱リンク（`s.trackDownloadLinks` および `s.trackExternalLinks` で指定）は正常に追跡されるようになりました。手動による [!DNL JavaScript] 呼び出しを使用してカスタムリンクを追跡している場合は、これらの呼び出しの実行方法を修正する必要があります。
 
 例えば、離脱リンクおよびダウンロードリンクは、多くの場合次のようなコードを使用して計測されています。
 
@@ -274,22 +272,28 @@ Firefox および Internet Explorer では、リンクトラッキングが実�
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>このフラグは、WebKit ブラウザーでの強制のリンクトラッキングを無効にする場合に使用します。強制のリンクトラッキングは、WebKit ブラウザーではデフォルトで有効で、他のブラウザーでは無視されます。 </p> <p> <b>デフォルト値</b> </p> <p> <code> true </code> </p> <p> <b>例</b> </p> 
     <code class="syntax javascript">
-      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
-   <td colname="col2"> <p><code>s.tl</code> に渡された <code>doneAction</code> の実行前に、トラッキングの完了を待機する時間（ミリ秒）の最大値。この値によって、最大の待機時間が指定されます。このタイムアウトの前にリンクトラッキングが完了した場合は、<code>doneAction</code> が直ちに実行されます。リンクトラッキングが未完了になっている場合は、このタイムアウト時間を長くする必要があると考えられます。 </p> <p> <b>デフォルト値</b> </p> <p>250 </p> <p> <b>例</b> </p> 
+   <td colname="col2"> <p><code> doneAction </code> に渡された <code> s.tl </code> の実行前に、トラッキングの完了を待機する時間（ミリ秒）の最大値。この値によって、最大の待機時間が指定されます。このタイムアウトの前にリンクトラッキングが完了した場合は、<code> doneAction </code> が直ちに実行されます。リンクトラッキングが未完了になっている場合は、このタイムアウト時間を長くする必要があると考えられます。 </p> <p> <b>デフォルト値</b> </p> <p>250 </p> <p> <b>例</b> </p> 
     <code class="syntax javascript">
-      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
+      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
+    </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> trackLink（<code>s.tl</code>） </td> 
+   <td colname="col1"> trackLink ( <code> s.tl </code>) </td> 
    <td colname="col2"> <p>離脱リンクとダウンロードリンク、カスタムリンクを追跡します。WebKit ブラウザーでのリンクトラッキングの完了後にどのナビゲーションアクションを実行するかを指定するオプションのパラメーターとなります。 </p> <p> <b>構文</b> </p> 
     <code class="syntax javascript">
       s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
-    </code> <p> <b>doneAction</b>：（オプション）リンクトラッキングの送信後、またはリンクトラッキングのタイムアウト（<code>s.forcedLinkTrackingTimeout</code> での指定値による）後に実行するアクションを指定します。<code>doneAction</code> に 'navigate' という文字列を指定すると、このメソッドによって <code>document.location</code> に <code>linkObject</code> の <code>href</code> 属性が設定されます。また、<code>doneAction</code> に関数を指定し、高度なカスタマイズを行うこともできます。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>例</b> </p> 
+    </code> <p> <b>doneAction</b>：（オプション）リンクトラッキングの送信後、またはリンクトラッキングのタイムアウト（<code> s.forcedLinkTrackingTimeout </code> での指定値による）後に実行するアクションを指定します。The <code> doneAction </code> can be the string 'navigate', which causes the method to set <code> document.location </code> to the <code> href </code> attribute of <code> linkObject </code>. また、<code> doneAction</code> に関数を指定し、高度なカスタマイズを行うこともできます。 </p> <p>アンカーの <code> onclick </code> イベントの <code> false </code> に値を指定する場合は、<code> s.tl </code> の呼び出し後に <code> href </code> を返すようにし、デフォルトのブラウザーナビゲーションがおこなわれないようにする必要があります。 </p> <p> デフォルトの動作を反映し、<code> doneAction </code> 属性で指定された URL に移動するには、<code> doneAction </code> に 'navigate' の文字列を指定します。 </p> <p>オプションとして、ナビゲーションイベントを処理するために独自の関数を指定するには、この関数を <code>$1</code> として渡すことができます。 </p> <p> <b>例</b> </p> 
     <code class="syntax javascript">
-      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;クリック&amp;アンプ； </code><code class="syntax javascript">nbsp;Here&lt;/a&gt; &lt;a&amp;nbsp;href="#"&amp;;sp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;クリック&amp;アンプ；nbsp；ここ&lt;/a&gt; </code> </td> 
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
+    </code> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="#"&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
+    </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -300,7 +304,7 @@ Firefox および Internet Explorer では、リンクトラッキングが実�
 
 このアップデートは、すべてのお客様に推奨されます。
 
-* Google Chrome Prerender（[https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)）を使用してページが事前にレンダリングされているかどうかを検出できるように改良されました。Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages.
+* Google Chrome Prerender（[https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)）を使用してページが事前にレンダリングされているかどうかを検出できるように改良されました。Prerender は [!DNL JavaScript] を読み込んで実行するので、ユーザーがクリックしてサイトを訪問する前に呼び出しが送信される場合もありました。[!DNL JavaScript] ライブラリは、ユーザーがサイトを訪問するまで待機してから、これらの事前にレンダリングされたページへのサーバーコールを送信するようになりました。
 * タイムスタンプデータをその他の ライブラリと同じような形式にカスタマイズするために、 ライブラリに `timestamp`[!DNL JavaScript] 変数を追加しました。[!DNL AppMeasurement]
 
 ```js
@@ -322,7 +326,7 @@ Firefox および Internet Explorer では、リンクトラッキングが実�
 リリース日：**2012 年 1 月**
 
 * v15 の新しいビデオトラッキングで、再生完了（Video Completes）を手動または自動で計測するための新しい s.Media.complete() メソッドが利用できるようになりました。
-* Fixed an issue that caused an "Attribute only valid on v:image" [!DNL JavaScript] error for `OnClick` events on VML elements in IE.
+* IE の VML 要素に `OnClick` イベントが設定されていると、「Attribute only valid on v:image」という [!DNL JavaScript] エラーが発生する問題を修正しました。
 * コンテキストデータ変数が `linkTrackVars` で参照されているにもかかわらず、この変数がリンクサーバーコールに含まれないバグを修正しました。コンテキストデータ変数は処理ルールで使用されます。
 
 ## H.24.1 {#section_967356D219FE4E9CAA110D03EDF4C8B1}
@@ -335,19 +339,19 @@ Firefox および Internet Explorer では、リンクトラッキングが実�
 
 リリース日：**2011 年 11 月**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* [!DNL Adobe Tag Manager] 対応のため、内部アップデートが実行されました。
 
 ## H.23.9 {#section_3834625A639A47428683E08A472359C7}
 
 リリース日：**2011 年 11 月**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* [!DNL Adobe Tag Manager] 対応のため、内部アップデートが実行されました。
 
 ## H.23.8 {#section_FF3CEEAB6C6744D6B5EE314A0B5841CA}
 
 リリース日：**2011 年 10 月**
 
-* Fixed an issue that caused the `linkTrackVars=none` and `linkTrackEvents=none` settings to not apply when using automatic exit link tracking. これらの設定が自動離脱リンクに適用されるようになったので、離脱リンク画像リクエストと共に prop や eVars、イベントが送信されることがなくなりました。
+* 離脱リンクの自動追跡を使用している場合に、`linkTrackVars=none` と `linkTrackEvents=none` の設定が適用されない問題を修正しました。これらの設定が自動離脱リンクに適用されるようになったので、離脱リンク画像リクエストと共に prop や eVars、イベントが送信されることがなくなりました。
 
 ## H.23.7 {#section_D9D0CF343EBF49D9844C6BDA0C3C7A2E}
 
@@ -365,13 +369,13 @@ Firefox および Internet Explorer では、リンクトラッキングが実�
 
 リリース日：**2011 年 7 月**
 
-*  [!DNL Adobe Tag Manager].
+*  [!DNL Adobe Tag Manager] のサポートを追加しました。
 
 ## H.23.4 {#section_E9152B4437C24107A68D264F70361930}
 
 リリース日：**2011 年 6 月**
 
-* Fixed an issue that caused [!DNL JavaScript] errors when accessing certain properties of Vector Markup Language (VML) shape elements.
+* ベクトルマークアップ言語（VML）の shape 要素の一部のプロパティにアクセスするときに [!DNL JavaScript] エラーが発生する問題を修正しました。
 * 255 文字を超える参照文字列が、クエリ文字列ではなくパスの短縮によって切り捨てられるようになりました。これにより、クエリ文字列パラメーターが切り捨てられ収集されない問題が修正されました。
 
 ## H.23.3 {#section_EAB0602E07EE4A5CA6521351F461D22D}
