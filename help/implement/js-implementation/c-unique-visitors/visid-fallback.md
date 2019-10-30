@@ -7,8 +7,8 @@ solution: Analytics
 title: フォールバック ID による方法
 topic: 開発者と実装
 uuid: f242d481-81f0-4287-be4f-52fd03eb01fc
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 訪問者 ID による他の方法が失敗した場合、アドビでは、フォールバック cookie を設定するか、IP アドレスとユーザーエージェントの組み合わせを使用して訪問者を識別します。
 
-## フォールバック訪問者の識別方法{#section_2BA15E4FA6034C3EBF43859406343EB6}
+## フォールバック訪問者の識別方法 {#section_2BA15E4FA6034C3EBF43859406343EB6}
 
-JavaScript 1.x 版 AppMeasurement と JavaScript H.25.3（2013 年 1 月リリース）以降のバージョンは、アドビのデータ収集サーバーによって設定される cookie（`s_vi`）をブロックするブラウザーを使用している訪問者を対象とした、新しいフォールバック訪問者の識別方法を備えています。以前は、cookie を設定できない場合、データ収集時に IP アドレスとユーザーエージェント文字列の組み合わせを使用して訪問者を識別していました。
+AppMeasurement for JavaScript 1.x and JavaScript H.25.3 (released January 2013) contain a new fallback visitor identification method for visitors whose browser blocks the cookie set by Adobe's data collection servers (called `s_vi`). 以前は、cookie を設定できない場合、データ収集時に IP アドレスとユーザーエージェント文字列の組み合わせを使用して訪問者を識別していました。
 
 この更新により、標準的な `s_vi` cookie を使用できない場合は、ランダムに生成された一意の ID を使用して、Web サイトでフォールバック cookie が作成されます。この cookie は `s_fid` と呼ばれ、2 年間の有効期限付きで設定され、今後のフォールバック識別方法として使用されます。この変更により、プライマリ cookie（`AMCV_` または `s_vi`）を設定できない状況での、訪問回数と訪問者数の精度が向上します。
 
