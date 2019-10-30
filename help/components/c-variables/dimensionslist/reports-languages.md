@@ -7,7 +7,7 @@ title: 言語
 topic: レポート
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **[!UICONTROL 訪問者プロファイル]** / **[!UICONTROL 言語]**
 
-このレポートは、http ヘッダーリクエストの accept-language の部分に基づいて生成されます。accept-language HTTP ヘッダーは、各ブラウザーの言語設定で設定されます。
+このレポートは、http ヘッダーリクエストの accept-language の部分に基づいて生成されます。受け入れ言語のHTTPヘッダーは、各ブラウザーの言語設定の一部として設定されます。
 
 [https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 
@@ -26,7 +26,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 このレポートの一部の行項目には、地域が含まれています。これらは地域の下位タグです。
 
->[!NOTE]
->
->時間単位の時間の精度はサポートされていません。
+> [!NOTE] 時間別の時間の精度はサポートされていません。
 
