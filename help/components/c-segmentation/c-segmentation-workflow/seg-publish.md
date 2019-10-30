@@ -7,7 +7,7 @@ title: Experience Cloud へのセグメントの公開
 topic: セグメント
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: cd2d9f90c548d3bb32a57faa47b185dc25db1d5a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 現在は、処理には最大8時間かかりますが、他のトラフィックやセグメントサイズによっては、処理がさらに高速になる場合があります。 （ただし、現在、セグメントが利用可能になった時点で通知する方法はないので、手動で確認する必要があります）。また、公開可能なセグメントの最大数を20から75に増やしました。 公開済みのセグメントは、コンポーネント/セグメントで表示できます。
 
->[!NOTE]
->
->Adobe Campaign（ClassicとStandard）の動作は、8時間の遅延に加えて24時間の遅延が追加される点で異なります。
+> [!NOTE] Adobe Campaign（ClassicとStandard）の動作は、8時間の遅延に加えて24時間の遅延が追加される点で異なります。
 
 
 ## 前提条件
@@ -77,9 +75,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 Experience Cloud に公開されているセグメントを削除するには、まず非公開にする必要があります。セグメントを非公開にするには、公開するために使用したチェックボックスの&#x200B;**チェックを解除**&#x200B;します。
 
->[!NOTE]
->
->次のいずれかのアドビソリューションで現在使用中のセグメントの公開を取り消すことは&#x200B;**できません**：[!DNL Analytics]（[!DNL Audience Analytics]の場合）、[!DNL Campaign]、[!DNL Advertising Cloud]（[!DNL Core Service]および[!DNL Audience Manager] の顧客の場合）、およびその他すべての外部パートナー（[!DNL Audience Manager] の顧客の場合）。[!DNL Target] で使用中のセグメントを非公開にすることが&#x200B;**できます**。
+> [!NOTE]次のいずれかのアドビソリューションで現在使用中のセグメントの公開を取り消すことは&#x200B;**できません**：[!DNL Analytics]（[!DNL Audience Analytics]の場合）、[!DNL Campaign]、[!DNL Advertising Cloud]（[!DNL Core Service]および[!DNL Audience Manager] の顧客の場合）、およびその他すべての外部パートナー（[!DNL Audience Manager] の顧客の場合）。[!DNL Target] で使用中のセグメントを非公開にすることが&#x200B;**できます**。
 
 ## セグメントマネージャでのセグメントの公 [!UICONTROL 開状況の表示]
 
@@ -133,5 +129,4 @@ AAMでは、AnalyticsがExperience cloudとセグメントを共有するので�
 ## セグメントを [!DNL Adobe Target]
 
 The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. Analytics または Audience Manager で作成されたセグメントは、Target のアクティビティで使用できます。例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。]をクリックし、「オーディエン [!UICONTROL ス]」をクリックします。
-1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
-
+1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for
