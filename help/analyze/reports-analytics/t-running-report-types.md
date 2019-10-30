@@ -7,7 +7,7 @@ title: 異なるレポートタイプの実行
 topic: レポート、Reports & analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -157,9 +157,7 @@ Analysis Workspace の新しい[異常値検出と貢献度分析](https://marke
 
 **[!UICONTROL レポート]** /サ **[!UICONTROL イト指標]** /異常 **[!UICONTROL 値検出]** 。
 
->[!NOTE]
->
->また、Analysis Workspaceプロジェクト内から異常値検出を実行することもできます。 [さらに詳しく...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] また、Analysis Workspaceプロジェクト内から異常値検出を実行することもできます。 [さらに詳しく...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 異常値検出の設定については、[リファレンスガイド](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)を参照してください。
 
@@ -313,7 +311,7 @@ reports_realtime.xml
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>並べ替え... 最頻使用/勝者/敗者</strong></td> 
-   <td class="chdesc stentry"> <span class="uicontrol">最頻使用</span>（デフォルト）、<span class="uicontrol">勝者</span>（最も大きく上昇したディメンション）、<span class="uicontrol">敗者</span>（最も大きく下降したディメンション）の順で並べ替えることができます。 <p>リアルタイムレポートで勝者または敗者を判定する際には、最古のサンプルと最新より 1 つ前のサンプルが参照され、単純な変化率の計算が行われます。したがって、「過去 15 分間」を選択していて、n が現在の分を表す場合には、n-1 と n-15 を比較することになります。リアルタイムレポートは、現時点では重み付けを行いません。現在の分が無視されるのは、その分がまだ完了していないため、誤った変化率が導かれる可能性があるからです。 </p> <p>この計算方法は、リアルタイムレポートで使用されるすべての指標に適用されます。 </p> </td> 
+   <td class="chdesc stentry"> <span class="uicontrol">最頻使用</span>（デフォルト）、<span class="uicontrol">勝者</span>（最も大きく上昇したディメンション）、<span class="uicontrol">敗者</span>（最も大きく下降したディメンション）の順で並べ替えることができます。 <p>勝者または敗者を判断するために使用される式を次に示します。リアルタイムでは、最も古いサンプルと次から最も新しいサンプルを調べ、単純な「%変更」の計算を行います。 したがって、「過去15分間」が選択され、nが現在の分を表す場合、n-1がn-15と比較されます。 リアルタイムレポートは、現時点では重み付けを行いません。現在の分が無視されるのは、その分がまだ完了していないため、誤った変化率が導かれる可能性があるからです。 </p> <p>この計算方法は、リアルタイムレポートで使用されるすべての指標に適用されます。 </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>セカンダリ 1 レポートレット</strong></td> 
