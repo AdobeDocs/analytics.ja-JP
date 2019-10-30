@@ -5,16 +5,16 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.usePlugins
 
-If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.'
+関数が利用可能になっていて、有効なコードが含まれている場合は、[!UICONTROL s_usePlugins] を「true」に設定する必要があります。
 
-usePlugins [!UICONTROL が「true] 」の場合、各イメージリクエ *`s_doPlugins`* ストの前に関数が呼び出されます。
+[!UICONTROL usePlugins] が「true」の場合、イメージリクエストの前に *`s_doPlugins`* 関数が呼び出されます。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -38,7 +38,7 @@ s.usePlugins=true
 s.usePlugins=false
 ```
 
-[!UICONTROL usePlugins] 変数を false に設定する（またはこの変数を宣言しない）のは、 *`s_doPlugins`* function is not declared in your JavaScript file.
+JavaScript ファイル内で *`s_doPlugins`* 関数が宣言されていない場合、[!UICONTROL usePlugins] 関数は false （または宣言なし）になります。
 
 ## 設定
 
