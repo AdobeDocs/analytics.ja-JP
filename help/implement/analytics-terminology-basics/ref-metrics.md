@@ -7,8 +7,8 @@ solution: Analytics
 title: 指標
 topic: 開発者と実装
 uuid: d2addb55-cae6-470d-b482-303ef365809c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>トラフィック指標 </p> </td> 
-   <td colname="col2"> <p> <b>ページビュー：</b>ユーザーのブラウザーに読み込まれた 1 つの Web ページ（Reports &amp; Analytics コードの 1 つの実行）のことです。 </p> <p> <b>訪問：</b>訪問者がサイトに訪れた際の任意の数のページビューです。30 分間無操作状態が続くとその訪問は終わります。 </p> <p> <b>個別訪問者：</b>特定の期間内（時間、日、週、月、四半期、年など）で初めてサイトに訪問している人です（これには、どのような期間の個別訪問者も含まれます）。 </p> </td> 
+   <td colname="col2"> <p> <b></b> ページビュー：ユーザーのブラウザーに読み込まれる1つのWebページ（Reports &amp; Analyticsコードの1回の実行）。 </p> <p> <b>訪問：</b>訪問者がサイトに訪れた際の任意の数のページビューです。30 分間無操作状態が続くとその訪問は終わります。 </p> <p> <b>個別訪問者：</b>特定の期間内（時間、日、週、月、四半期、年など）で初めてサイトに訪問している人です（これには、どのような期間の個別訪問者も含まれます）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンバージョン指標 </p> </td> 
@@ -45,9 +45,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>計算指標 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/reference/calculated_metric.html" format="html" scope="external">計算指標</a>を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">計算指標</a>を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-指標の定義については、Analytics ヘルプとリファレンスの「[指標](https://marketing.adobe.com/resources/help/ja_JP/reference/metrics.html)」を参照してください。
+指標の定義について詳しくは、Analytics ヘルプとリファレンスの[指標](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)を参照してください。
