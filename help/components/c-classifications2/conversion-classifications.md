@@ -1,23 +1,23 @@
 ---
 description: 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「ポップミュージック用語」という分類に入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関してそのカテゴリの成功を報告します。
 seo-description: 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「ポップミュージック用語」という分類に入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関してそのカテゴリの成功を報告します。
-seo-title: コンバージョン分類
+seo-title: コンバージョンの分類
 solution: Analytics
-subtopic: '分類      '
-title: コンバージョン分類
+subtopic: 分類
+title: コンバージョンの分類
 topic: 管理ツール
-uuid: 4c8726c9- f527-44e1- be01-8c7b3b5c20f0
+uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# コンバージョン分類
+# コンバージョンの分類
 
 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「ポップミュージック用語」という分類に入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関してそのカテゴリの成功を報告します。
 
-## Conversion classifications {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
+## コンバージョンの分類 {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「*ポップミュージック用語*」という分類に入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関してそのカテゴリの成功を報告します。
 
@@ -36,7 +36,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Name</span> </td> 
+   <td colname="col1"> <span class="wintitle">名前</span> </td> 
    <td colname="col2"> 分類の名前。 </td> 
   </tr> 
   <tr> 
@@ -64,8 +64,8 @@ t_classification_conversion.xml
 
 管理でコンバージョン分類を追加する方法について手順を説明します。
 
-1. **[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
-1. レポートスイートを選択します。
+1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. レポートスイートの選択.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1. **分類タイプの選択**&#x200B;ドロップダウンリストで分類の追加先の変数を選択します。
 
@@ -75,11 +75,11 @@ t_classification_conversion.xml
 1. **「タイプの選択」フィールドで、変数に追加する分類のタイプを選択します。**
 
    Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
-1. **[!UICONTROL テキスト分類]** ダイアログボックスで、必要に応じて分類を設定します。
+1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
 
    これらのエレメントについて詳しくは、[コンバージョン分類の説明](../../components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4)を参照してください。
 
-1. **[!UICONTROL ドロップダウンリスト]** ダイアログボックスで、オプションを追加または削除します。
+1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
 
    オプションを追加すると、その分類に使用できる分類値のリストが作成されます。campaign 変数でこのオプションを使用して、キャンペーンマネージャーの分類でサポートされている値のリストをユーザーに提供することができます。このリストは、ほとんどまたはまったく変更がない少数の値を許可する分類ディメンションに使用します。例えば、異なるレベルの顧客忠誠度（シルバー、ゴールド、プラチナ）向けに異なるキャンペーンを実施するとします。その際、ドロップダウンリストを使用すると、3 つのレベルに適した値だけを受け付けることが可能です。異なる値を使用しようとすると、破棄されます。
 1. 「**[!UICONTROL 保存]**」をクリックします。
@@ -95,7 +95,7 @@ t_classification_delete_conversion.xml
 不要になった時点でコンバージョンの分類を削除します。
 
 1. Open the Report Suite Manager by clicking **[!UICONTROL Admin]**&gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. レポートスイートを選択します。
+1. レポートスイートの選択.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1. **分類タイプの選択**&#x200B;ドロップダウンリストで分類を削除する変数を選択します。
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Delete Classification]**.
