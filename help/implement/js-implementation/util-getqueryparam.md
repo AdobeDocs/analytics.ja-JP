@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
 topic: 開発者と実装
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,11 +28,9 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 s.Util.getQueryParam(key, [url], [delim])
 ```
 
->[!NOTE]
->
->ユーティリティの構文はプラグインの構文と異なります。
+> [!NOTE]ユーティリティの構文はプラグインの構文と異なります。
 
-**パラメーター：**
+**パラメーター:**
 
 | パラメーター | 説明 |
 |---|---|
@@ -40,7 +38,7 @@ s.Util.getQueryParam(key, [url], [delim])
 | url | （オプション）デフォルトの url は、`s.pageURL` または `window.location` です。このパラメーターの値を指定すると、クエリパラメーターが取得される URL より優先されます。 |
 | delim | （オプション）URL でのパラメーターの区切り文字デフォルトの区切り文字は「&amp;」です。ここで、「;」など代わりに使用するクエリ文字列の区切り文字を指定できます。 |
 
-**戻り値：**
+**戻り値:**
 
 キーが指定されていない場合、URL オプションが存在しない場合、または URL にキーが見つからない場合は、空の文字列 "" が返されます。URL 内にフラグメント区切り記号 # が見つかった場合、フラグメント区切り記号の後のすべての要素は考慮されなくなります。キーが存在し、値に割り当てられている場合、値は URL デコードされて返されます。
 
