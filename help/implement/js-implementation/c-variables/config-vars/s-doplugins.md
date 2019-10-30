@@ -5,7 +5,7 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,18 +15,18 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
  変数は 関数への参照です。この変数を使用すると、JavaScript ファイル内の適切な場所で 関数を呼び出すことができます。
 
-The *`s_doPlugins`* function is called each time any of the following occurs:
+次のいずれかが発生するたびに *`s_doPlugins`* 関数が呼び出されます。
 
-* 関数 *`t()`* が呼び出されます
-* 関数 *`tl()`* が呼び出されます
+* *`t()`* 関数が呼び出されます。
+* *`tl()`* 関数が呼び出されます。
 * 離脱リンクまたはダウンロードリンクがクリックされた
 * 訪問者クリックマップによって追跡されているページ要素がクリックされた
 
-Folio Builder *`doPlugins`* 関数は、データの収集や変更のためのカスタマイズされたルーチンを実行するために使用します。If you are using an object name other than "s," make sure that the *`s_doPlugins`* is renamed appropriately. 例えば、オブジェクト名がs_mcの場合、関 *`s_doPlugins`* 数の名前はs_mc_doPluginsです。
+Folio Builder *`doPlugins`* 関数は、データの収集や変更のためのカスタマイズされたルーチンを実行するために使用します。「s」以外のオブジェクト名を使用する場合は、*`s_doPlugins`* の名前が適切に変更されていることを確認してください。例えば、オブジェクト名がs_mcの場合、*`s_doPlugins`* 関数の名前は「s_mc_doPlugins」です。
 
 ## 構文と可能な値
 
-関数 *`s_doPlugins`* は引用符で囲まないでください。関数名 *`doPlugins`* が変更された場合は、常に関数名に正確な名前を *`s_doPlugins`* 割り当てる必要があります。
+*`s_doPlugins`* 関数は引用符で囲まないでください。（関数名が変更された場合）*`doPlugins`**には常に`s_doPlugins`* 関数の正確な名前に割り当てる必要があります。
 
 ```js
 s.doPlugins=s_doPlugins;
@@ -48,6 +48,6 @@ s_mc.doPlugins=s_mc_doPlugins;
 
 ## 注意事項、質問、ヒント
 
-* オブジェクト名を（s から s_mc などに）変更するのは、他の顧客とコンテンツを共有するか他の顧客のコンテンツを取り込む場合のみです。名前の変更 *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function.
+* オブジェクト名を（s から s_mc などに）変更するのは、他の顧客とコンテンツを共有するか他の顧客のコンテンツを取り込む場合のみです。名前の変更&#x200B;*`s_doPlugins`* 関数の名前を [!UICONTROL s_mc_doPlugins] に変更することで、別のクライアントの JavaScript によって *`doPlugins`* 関数が上書きされるのを防ぎます。
 
-* 別のアドビの顧客から意図せずにコンテンツの取り込みを開始し、関数が上書きされる場合は、オブジェクト名を変更せずに、単に関数の *`s_doPlugins`**`s_doPlugins`* 名前を変更するだけで済みます。 同じページ上の他の JavaScript ファイルとは異なるオブジェクト名を使用することが最善策ですが、これは必須ではありません。
+* 別のアドビの顧客から意図せずにコンテンツの取り込みを開始し、*`s_doPlugins`* 関数が上書きされる場合は、オブジェクト名を変更せずに、*`s_doPlugins`* 関数の名前を変更するだけで済みます。同じページ上の他の JavaScript ファイルとは異なるオブジェクト名を使用することが最善策ですが、これは必須ではありません。
