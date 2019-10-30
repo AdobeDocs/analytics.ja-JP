@@ -1,18 +1,18 @@
 ---
 description: フィルターを適用してフォールアウトレポートを作成する手順について説明します。
 seo-description: フィルターを適用してフォールアウトレポートを作成する手順について説明します。
-seo-title: リクエストウィザードを使用したフォールアウトレポートのフィルター
+seo-title: リクエストウィザードを使用したフォールアウトレポートのフィルタリング
 solution: Analytics
-title: リクエストウィザードを使用したフォールアウトレポートのフィルター
+title: リクエストウィザードを使用したフォールアウトレポートのフィルタリング
 topic: Report Builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# リクエストウィザードを使用したフォールアウトレポートのフィルター
+# リクエストウィザードを使用したフォールアウトレポートのフィルタリング
 
 フィルターを適用してフォールアウトレポートを作成する手順について説明します。
 
@@ -24,13 +24,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/page_fallout.png)
 
-1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
-1. Click **[!UICONTROL Next]**.
+1. 適切な日付範囲を [設定します](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
+1. 「**[!UICONTROL Next]**」をクリックします。
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. （フォールアウトレポートでは、パターンが事前に適用されているパスレポートとは異なり、常にパスエレメントを定義する必要があります）。
 
    ![](assets/define_checkpoints.png)
 
-1. **[!UICONTROL 「フィルター」]** オプションを選択します。
+1. Select the **[!UICONTROL Filter]** option.
 
 1. In the **[!UICONTROL Define Site Section Fallout Checkpoints]** dialog, define checkpoints from a range of cells or from a list. Then click **[!UICONTROL OK]**.
 1. セルの範囲またはリストのいずれから選択するかを決定します。
