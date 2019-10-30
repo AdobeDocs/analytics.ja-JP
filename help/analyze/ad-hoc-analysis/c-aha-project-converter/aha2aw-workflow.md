@@ -5,7 +5,7 @@ seo-title: Ad Hoc Analysis のプロジェクトの変換
 title: Ad Hoc Analysis のプロジェクトの変換
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
