@@ -5,7 +5,7 @@ seo-title: よくある質問
 title: よくある質問
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics アカウントに<b>仮想レポートスイート</b>（VRS）を割り当てることはできますか？ </p> </td> 
-   <td colname="col2"> <p>回答：仮想レポートスイート（VRS）はデータを収集しないので、VRS に Advertising Analytics アカウントを直接マッピングすることはできません。 </p> <p>ただし、データを表示したい VRS の親レポートスイートに Advertising Analytics をマッピングできます。 </p> <p>検索エンジンの指標（クリック、コスト、インプレッション）は、AMO ID（またはその分類）に基づいたセグメントのロジックに「or」条件を含めない限り、VRS に表示されない場合があります。例：「AMO ID が存在するすべてのヒット」を追加すると、セグメント内の検索エンジンの指標が含まれます。 </p> </td> 
+   <td colname="col2"> <p>回答：仮想レポートスイート（VRS）はデータを収集しないので、VRS に Advertising Analytics アカウントを直接マッピングすることはできません。 </p> <p>ただし、データを表示したい VRS の親レポートスイートに Advertising Analytics をマッピングできます。 </p> <p>AMO ID（またはその分類）に基づくセグメントロジックに「or」条件を含めない限り、検索エンジン指標（クリック/コスト/インプレッション）がVRSに表示されない場合があります。 例：「AMO IDが存在するすべてのヒット」を追加すると、セグメントに検索エンジン指標が含まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics 指標は<b>マーケティングチャネル</b>レポートでレポート可能ですか？ </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：キャプチャするのは google.com のみですか、それとも<b>各国語版</b>（google.co.uk、google.it、google.fr、google.de など）も含まれますか？ </p> </td> 
-   <td colname="col2"> <p>A:広告プラットフォーム分類は、次の値を取得します。「Google Adwords」および「Bing Ads」を参照してください。 </p> <p>一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。これにより、フィルタリングしたりセグメント化したりできます（例：すべてのキャンペーンがcountrycode_ で始まる場合、「UK_」で始まるキャンペーン（AMO ID）のセグメントを作成すると、UK のデータのみが提供されます）。 </p> </td> 
+   <td colname="col2"> <p>A:広告プラットフォーム分類は、次の値を取得します。「Google Adwords」および「Bing Ads」を参照してください。 </p> <p>一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。次に、フィルターまたはセグメント化を行います(例えば、すべてのキャンペーンが国コードで始まる場合、キャンペーン(AMO ID)が「UK_」で始まるセグメントを作成すると、英国のデータのみが提供されます)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：指標「AMO コスト」は、検索エンジンでレポートされたキーワード／広告ごとに支払われたコストですが、これは、純コストと総コストのどちらですか？ </p> </td> 
