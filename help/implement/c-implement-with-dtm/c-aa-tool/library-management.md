@@ -6,8 +6,8 @@ seo-title: ライブラリ管理
 solution: Experience Cloud, Dynamic Tag Management
 title: ライブラリ管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Dynamic Tag Management の「ライブラリ管理」設定のフィールドお
 
 **[!UICONTROL *`Property`*]**／![](assets/settings_gear.png) **[!UICONTROL ツールを編集]**／**[!UICONTROL ライブラリ管理]**
 
->[!NOTE]
->
->1 つの Web プロパティで複数の Adobe Analytics ツールを使用する場合は、ツールごとに異なる名前のトラッカー変数を使用する必要があります。1 つの Web プロパティ内で使用する Adobe Analytics ツール間にオブジェクト変数名の重複があると、競合が発生します。
+> [!NOTE]1 つの Web プロパティで複数の Adobe Analytics ツールを使用する場合は、ツールごとに異なる名前のトラッカー変数を使用する必要があります。1 つの Web プロパティ内で使用する Adobe Analytics ツール間にオブジェクト変数名の重複があると、競合が発生します。
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
