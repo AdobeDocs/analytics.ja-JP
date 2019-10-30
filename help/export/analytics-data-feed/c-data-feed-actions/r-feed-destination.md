@@ -1,13 +1,13 @@
 ---
 description: 「フィード宛先」セクションは、フィードの配信方法を定義します。
-keywords: データフィード;フィード;destination;sftp;s3;ftp;settings
+keywords: データフィード；フィード；宛先；SFTP;s3;ftp；設定
 seo-description: 「フィード宛先」セクションは、フィードの配信方法を定義します。
 seo-title: フィード宛先
 solution: Analytics
 title: フィード宛先
-uuid: 4a59e8de- e7a6-4f7a- bf42- db7d59e61b4c
+uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -103,7 +103,7 @@ Azure BLOB にファイルをアップロードできます。
   </tr> 
   <tr> 
    <td colname="col1"> <p> ホスト </p> </td> 
-   <td colname="col2"> <p>FTP または SFTP ホストの場所を指定します。 </p> <p>この値は、適切な FTP/SFTP 形式（<code>ftp.domain.com/subdomain</code> または <code>sftp.domain.com/subdomain</code>）に準拠する必要があります。 </p> <p> FTP および SFTP の標準ポート 21 および 22 が必要です。 </p> </td> 
+   <td colname="col2"> <p>FTP または SFTP ホストの場所を指定します。 </p> <p>This value must comply to the proper ftp/sftp format, <code> ftp.domain.com/subdomain</code> or <code> sftp.domain.com/subdomain</code>. </p> <p> FTP および SFTP の標準ポート 21 および 22 が必要です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>パスワード </p> <p>パスワードを確認 </p> </td> 
