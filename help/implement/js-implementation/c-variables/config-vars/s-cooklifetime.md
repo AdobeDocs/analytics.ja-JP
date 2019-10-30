@@ -5,7 +5,7 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 |---|---|---|---|
 | 該当なし | cl | トラフィック／技術／cookie（訪問者関連のすべてのレポート） | "" |
 
-if *`cookieLifetime`* が設定されている場合、JavaScript とデータ収集サーバーの両方について、その値が他のすべての cookie 有効期限よりも優先されますが、以下で説明するように 1 つだけ例外があります。The *`cookieLifetime`* variable can have one of three values:
+If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. *`cookieLifetime`* 変数には以下の 3 つの値のいずれかを設定できます。
 
 * [!DNL Analytics] Cookie
 * Cookie
@@ -53,4 +53,4 @@ s.cookieLifetime="86400" // one day in seconds
 
 ## 注意事項、質問、ヒント
 
-*`cookieLifetime`* affects  tracking. [!DNL Analytics]If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Use caution when setting *`cookieLifetime`*.
+*`cookieLifetime`* は [!DNL Analytics] トラッキングに影響します。*`cookieLifetime`* が 2日間の場合、月別、四半期別および年別訪問者数レポートに正しい値が表示されません。*`cookieLifetime`* を使用する際は注意してください。
