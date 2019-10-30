@@ -5,9 +5,9 @@ seo-title: 技術
 solution: Analytics
 title: 技術
 topic: レポート
-uuid: 8e2f88dc- e1b9-428e- b0d3- faf4c063bebc
+uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 画面の色 </td> 
-   <td colname="col2"> <p> 訪問者のコンピューターで設定されている、最も人気の高い画面の色を表示します。画面の色とは、画面に表示される色の数のことです。 </p> </td> 
+   <td colname="col2"> <p> 訪問者のコンピューターで設定されている、訪問者の最も人気の高い画面の色を表示します。 画面の色とは、画面に表示される色の数のことです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 画面の解像度 </td> 
@@ -62,10 +62,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript のバージョン </td> 
-   <td colname="col2"> <p> 訪問者がサイトを閲覧しているときの、訪問者のブラウザーが利用している JavaScript のバージョンを表示します。 </p> </td> 
+   <td colname="col2"> <p> 訪問者がサイトを閲覧している間に、訪問者のブラウザが使用するJavaScriptのバージョンを表示します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> cookie </td> 
+   <td colname="col1"> Cookie </td> 
    <td colname="col2"> <p> 閲覧の際に cookie の使用を好む訪問者の割合を表示します。 </p> </td> 
   </tr> 
   <tr> 
