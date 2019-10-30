@@ -6,8 +6,8 @@ seo-title: Adobe Analytics ツールに関する FAQ
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Adobe Analytics ツールに関する FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 導入の自動設定に関する FAQ です。自動設定の�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> DTM を介して Adobe Analytics を実装する場合、どこにプラグインを置いたらよいですか。 </p> </td> 
-   <td colname="col2"> <p> DTM を使用して手動で <code>s_code</code> をホストしている場合、通常の Adobe Analytics の実装と同じように、プラグインはホストされている <code>s_code</code> と同じエディターに追加できます。 </p> <p>ただし、ツール設定の「<span class="term">ページコードをカスタマイズ</span>」セクション内のエディターにプラグインを配置するオプションも 1 つあります。どちらの実装方法も効果は同じです。 </p> </td> 
+   <td colname="col2"> <p> DTM を使用して手動で <code> s_code</code> をホストしている場合、通常の Adobe Analytics の実装と同じように、プラグインはホストされている <code> s_code</code> と同じエディターに追加できます。 </p> <p>ただし、ツール設定の「<span class="term">ページコードをカスタマイズ</span>」セクション内のエディターにプラグインを配置するオプションも 1 つあります。どちらの実装方法も効果は同じです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>新しいバージョンのツールの設定を変更した場合、実稼動環境に発行する前にステージングでテストできますか。 </p> </td> 
