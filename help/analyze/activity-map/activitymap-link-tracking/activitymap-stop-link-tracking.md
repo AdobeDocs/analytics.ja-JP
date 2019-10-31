@@ -1,20 +1,20 @@
 ---
-description: '[!DNL Activity Map]またはレガシーClickMapでリンクトラッキングを停止する手順です。'
-seo-description: '[!DNL Activity Map]またはレガシーClickMapでリンクトラッキングを停止する手順です。'
+description: Activity Map またはレガシー ClickMap でリンクトラッキングを停止する手順です。
+seo-description: Activity Map またはレガシー ClickMap でリンクトラッキングを停止する手順です。
 seo-title: リンクトラッキングの停止
 solution: Analytics
 title: リンクトラッキングの停止
 topic: Activity Map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # リンクトラッキングの停止
 
-Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
+Activity Map またはレガシー ClickMap でリンクトラッキングを停止する手順です。
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,8 +25,8 @@ Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!DNL Activity Map] </td> 
-   <td colname="col2"> Remove the following content from the Appmeasurement.js file: 
+   <td colname="col1"> Activity Map </td> 
+   <td colname="col2"> Appmeasurement.js ファイルから次のコンテンツを削除します。 
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
