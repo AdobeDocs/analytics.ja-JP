@@ -1,20 +1,20 @@
 ---
-description: '[!DNL Activity Map]は、ページアクティビティの補完的なレポートを提供する2つの基本モードを提供します。'
-seo-description: '[!DNL Activity Map]は、ページアクティビティの補完的なレポートを提供する2つの基本モードを提供します。'
+description: Activity Map は 2 つの基本モードを備えており、ページアクティビティの補完的なレポートを提供します。
+seo-description: Activity Map は 2 つの基本モードを備えており、ページアクティビティの補完的なレポートを提供します。
 seo-title: 標準モードとライブモード
 solution: Analytics
 title: 標準モードとライブモード
 topic: Activity Map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # 標準モードとライブモード
 
-[!DNL Activity Map] は 2 つの基本モードを備えており、ページアクティビティの補完的なレポートを提供します。
+Activity Map は 2 つの基本モードを備えており、ページアクティビティの補完的なレポートを提供します。
 
 * 標準モードでは、[ページ上のリンクレポート](/help/analyze/activity-map/activitymap-links-report.md)に、1 日から複数日に及ぶリンクデータが、日付範囲全体に渡って集計して表示されます。
 * ライブモードでは、アクティビティのトレンドをリアルタイムで表示します。
@@ -31,7 +31,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 質問：あるページの別の地域に同じリンク名を持つリンクがある場合、どうなりますか。あるページに別の地域があるが同じリンク名を持つので、2 つのリンクが別々にクレジットを受け取りますか。
 
-回答：リンクデータの集計方法によって異なります。In [!DNL Activity Map], we look at Link ID|Region for a given page, so the allocated data would be for the "Link ID|Region" combination. この場合、地域が異なるので、リンク|地域は明らかに異なり、その結果、最初の「リンク|地域」に割り合てられた売上高は、2 番目のリンクに割り当てられたすべての売上高とは別のものになります。ただし、Adobe Analytics UI では、所定のページの（リンク|地域レポートではなく）リンク ID レポートのみを調べます（ページはリンクで分類されます）。その場合、売上高では、両方の地域が集計されます。
+回答：リンクデータの集計方法によって異なります。Activity Map では、割り当てられたデータが「リンク ID|地域」の組み合わせに対するものになるように、所定のページのリンク ID|地域を調べます。この場合、地域が異なるので、リンク|地域は明らかに異なり、その結果、最初の「リンク|地域」に割り合てられた売上高は、2 番目のリンクに割り当てられたすべての売上高とは別のものになります。ただし、Adobe Analytics UI では、所定のページの（リンク|地域レポートではなく）リンク ID レポートのみを調べます（ページはリンクで分類されます）。その場合、売上高では、両方の地域が集計されます。
 
 ## ライブモード {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
