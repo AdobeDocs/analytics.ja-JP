@@ -7,7 +7,7 @@ title: 同じリンク ID、領域を参照する複数のリンクの区別
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 s_objectID 変数を使用したリンク ID のカスタマイズ、領域のカスタマイズ、AppMeasurement Activity Map モジュールファイルのカスタマイズによってリンクを区別できます。
 
-As an example, let's say you have multiple "Buy" links that are identified by [!DNL Activity Map] under the same Link ID and Region:
+例として、リンク ID と領域が同じで、Activity Map によって識別される "Buy" リンクが複数あるとします。
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -51,11 +51,11 @@ As an example, let's say you have multiple "Buy" links that are identified by [!
 
 ## s_objectID を使用したリンク ID のカスタマイズ {#section_01B0D463397B4837B2D46F087A6E5937}
 
-リンクまたはページのリンクの場所に対して固有のオブジェクト ID を作成することにより、[!DNL Activity Map] トラッキングを向上したり、[!DNL Activity Map] を使用して、リンク URL ではなく、リンクタイプやリンクの場所でレポートします。s_objectID 変数について詳しくは、[ここ](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)をクリックしてください。
+リンクまたはページのリンクの場所に対して固有のオブジェクト ID を作成することにより、Activity Map のトラッキングを向上したり、Activity Map を使用して、リンク URL ではなく、リンクタイプやリンクの場所について報告します。s_objectID 変数について詳しくは、[ここ](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)をクリックしてください。
 
 >[!IMPORTANT]
 >
->Note that a trailing semicolon (;) is required when using s_objectID in [!DNL Activity Map].
+>Activity mapでs_objectIDを使用する場合は、末尾にセミコロン(;)が必要です。
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
