@@ -1,31 +1,31 @@
 ---
-description: '[!DNL Activity Map]は、 '
-seo-description: '[!DNL Activity Map]は、 '
+description: 'Activity mapでは、 '
+seo-description: 'Activity mapでは、 '
 seo-title: 強力なリンク追跡
 solution: Analytics
 title: 強力なリンク追跡
 topic: Activity Map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # 強力なリンク追跡
 
-[!DNL Activity Map] より堅牢なアルゴリズムを使用して、リンクを追跡します。
+Activity Map では、より強力なアルゴリズムを使用してリンクを追跡します。
 
 * ページ領域の追跡を含めることにより、ページ上の複数の位置にリンクが表示されるために同じリンクが複数の異なるデバイスにまたがって混同される問題を回避します。
 * リンクの一意性を保証します。つまり、リンク ID の問題や異なるブラウザーをまたがることから生じる問題により、個々のリンクが別のものと間違われることがなくなります。
 
-For more on link tracking in [!DNL Activity Map], go [here](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
+Activity Map でのリンクの追跡について詳しくは、[ここ](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)を参照してください。
 
-## How [!DNL Activity Map] link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
+## How Activity Map link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
-> [!CAUTION] 追跡機能をオンにす [!DNL Activity Map] ると、個人情報(PII)データを収集している可能性があります。 そのようなデータは単独で、または他の情報を組み合わせることによって、個人の識別、個人への連絡、または個人の所在地の特定に利用できたり、文脈から個人を識別するために利用できたりします。
+> [!CAUTION]Activity Map トラッキングをオンにすると、個人識別情報 (PII) データを収集できます。このデータは、そのまま使用するか、その他の情報と共に使用して、個人を特定および検索したり、個人と連絡を取ったり、コンテキスト内で個人を特定したりすることができます。
 
-Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
+Activity Map トラッキングによって PII データが収集される可能性がある既知のケースには次のようなものがあります。
 
 * `Mailto` リンク、 mailto リンクは、メールを送信するためにコンピューター上のデフォルトのメールクライアントを起動するの HTML リンクです。
 * `User ID` ユーザーがログインした後にWebサイトのヘッダー/フッターに表示される可能性のあるリンク。
