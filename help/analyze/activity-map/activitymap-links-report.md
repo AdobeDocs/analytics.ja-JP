@@ -7,7 +7,7 @@ title: リンクレポート
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 リンクレポートは、現在のページで見つかったリンクについて報告します。そのページ用に収集されたすべてのリンクについて報告するわけではありません。
 
-ページ上のリンクレポートリンクのクリック数（またはその他の指標）のランクを 1 つのビューで表示したい場合があります。こうすると、リンク同士を比較しやすくなります。ページ上のすべてのリンクのランクリスト（リンク ID 別）、クリック情報（回数と割合）、ページ内の領域を含むページ上のリンクレポートを作成します。Click the Links in Page report button in the [!DNL Activity Map] toolbar.
+ページ上のリンクレポートリンクのクリック数（またはその他の指標）のランクを 1 つのビューで表示したい場合があります。こうすると、リンク同士を比較しやすくなります。ページ上のすべてのリンクのランクリスト（リンク ID 別）、クリック情報（回数と割合）、ページ内の領域を含むページ上のリンクレポートを作成します。Activity Map ツールバーの「ページ上のリンク」レポートボタンをクリックします。
 
-ブラウザーフレームの下の ダッシュボードに、**[!UICONTROL ページ上のリンク]レポートが開きます。**[!DNL Activity Map]
+ブラウザーフレームの下の Activity Map ダッシュボードに、**[!UICONTROL ページ上のリンク]レポートが開きます。**
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -63,7 +63,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **データをフィルター**
 
-特定のリンクに的を絞る場合は、「**[!UICONTROL データをフィルター]」フィールドで関連する用語を検索できます。**&#x200B;検索条件に一致するリンクのみがオーバーレイを持ちます。Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
+特定のリンクに的を絞る場合は、「**[!UICONTROL データをフィルター]」フィールドで関連する用語を検索できます。**&#x200B;検索条件に一致するリンクのみがオーバーレイを持ちます。フィルターがない場合は、「[Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md)」で指定されているオーバーレイが表示されます。
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
