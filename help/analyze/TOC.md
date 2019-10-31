@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 分析ガイド
 user-guide-url: /content/help/ja-JP/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
+source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
-      + 属性{attribution}
+      + アトリビューション {#attribution}
          + [アトリビューションの概要](analysis-workspace/c-panels/attribution/attribution.md)
          + [アトリビューションパネルの使用](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [アトリビューションFAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
