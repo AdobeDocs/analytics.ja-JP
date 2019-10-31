@@ -1,20 +1,20 @@
 ---
-description: '[!DNL Activity Map]またはレガシーClickMapでリンクトラッキングを開始する手順です。'
-seo-description: '[!DNL Activity Map]またはレガシーClickMapでリンクトラッキングを開始する手順です。'
+description: Activity Map またはレガシー ClickMap でリンクトラッキングを開始する手順です。
+seo-description: Activity Map またはレガシー ClickMap でリンクトラッキングを開始する手順です。
 seo-title: リンクトラッキングの開始
 solution: Analytics
 title: リンクトラッキングの開始
 topic: Activity Map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # リンクトラッキングの開始
 
-Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
+Activity Map またはレガシー ClickMap でリンクトラッキングを開始する手順です。
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,8 +25,8 @@ Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!DNL Activity Map] </td> 
-   <td colname="col2"> Add the following content from the Appmeasurement.js file: 
+   <td colname="col1"> Activity Map </td> 
+   <td colname="col2"> Appmeasurement.js ファイルから次のコンテンツを追加します。 
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
