@@ -1,20 +1,20 @@
 ---
-description: '[!DNL Activity Map]内で複数セグメントフィルターを適用できます。'
-seo-description: '[!DNL Activity Map]内で複数セグメントフィルターを適用できます。'
+description: Activity Map 内で複数セグメントフィルターを適用できます。
+seo-description: Activity Map 内で複数セグメントフィルターを適用できます。
 seo-title: 顧客セグメント
 solution: Analytics
 title: 顧客セグメント
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # 顧客セグメント
 
-Lets you apply a multiple-segment filter within [!DNL Activity Map].
+Activity Map 内で複数セグメントフィルターを適用できます。
 
 > [!NOTE] Adobe Analyticsプラットフォームはリアルタイムデータのセグメント化をサポートしていないので、セグメントコントロールは標準モードでのみ使用できます。
 
@@ -28,4 +28,4 @@ Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
+選択したセグメントは、Activity Map で提示されているすべての Analytics レポート、つまり、オーバーレイ、**[!UICONTROL ページ上のリンク]**&#x200B;レポート、**ページの詳細]レポートに適用されます。[!UICONTROL **
