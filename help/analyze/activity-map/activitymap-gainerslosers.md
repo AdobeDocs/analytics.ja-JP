@@ -7,7 +7,7 @@ title: カスタマイズ可能なオーバーレイ
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 オーバーレイを使用すると、複数の方法でデータの視覚化を設定できるので、ページ上のリンクの人気度を簡単に確認、理解できます。
 
-オーバーレイを使用すると、クリックデータをページ上で直接視覚化できます。This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
+オーバーレイを使用すると、クリックデータをページ上で直接視覚化できます。これが、Activity Map のような視覚的分析ツールと Reports &amp; Analytics のような主に表やグラフィックを使用するツールとの違いです。
 
-[!DNL Activity Map] には、次の3種類のオーバーレイが用意されています。
+Activity Map では次の 3 つのタイプのオーバーレイが提供されています。
 
 * グラデーションオーバーレイ（ヒートマップ）
 * バブルオーバーレイ
@@ -46,7 +46,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 バブルオーバーレイは、オーバーレイの内容（指標、割合またはランク）を、小さい引き出し線のバブルで表示します。
 
-バブルオーバーレイは、ツールバーの「オーバーレイのタイプ」でこのオーバーレイを選択したときに表示されます。Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). グラデーションオーバーレイは、このオプションが選択されていない場合に表示されます。
+バブルオーバーレイは、ツールバーの「オーバーレイのタイプ」でこのオーバーレイを選択したときに表示されます。バブルオーバーレイは、[Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) の選択（上位 30 件、上位 50 件、すべて、など）に一致するすべてのリンクに関して表示されます。グラデーションオーバーレイは、このオプションが選択されていない場合に表示されます。
 
 ![](assets/bubble_overlay.png)
 
