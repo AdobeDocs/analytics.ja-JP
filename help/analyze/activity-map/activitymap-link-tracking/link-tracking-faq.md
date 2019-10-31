@@ -1,24 +1,26 @@
 ---
-description: '[!DNL Activity Map]でのリンクトラッキングに関するよくある質問(FAQ)です。'
-seo-description: '[!DNL Activity Map]でのリンクトラッキングに関するよくある質問(FAQ)です。'
+description: Activity Map でのリンクトラッキングに関するよくある質問（FAQ）です。
+seo-description: Activity Map でのリンクトラッキングに関するよくある質問（FAQ）です。
 seo-title: リンクトラッキングの FAQ
 solution: Analytics
 title: リンクトラッキングFAQ
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # リンクトラッキングの FAQ
 
-Frequently asked questions about link tracking in [!DNL Activity Map].
+Activity Map でのリンクトラッキングに関するよくある質問（FAQ）です。
 
-> [!CAUTION] 追跡機能をオンにする [!DNL Activity Map] と、個人 **識別情報** ( **PII)データを収集できる場合があります。**&#x200B;そのようなデータは単独で、または他の情報を組み合わせることによって、個人の識別、個人への連絡、または個人の所在地の特定に利用できたり、文脈から個人を識別するために利用できたりします。
+>[!CAUTION]
+>
+>**Activity mapの追跡をオンにすると、個人**&#x200B;識別情報(PII)データを収集できる場合があります。このデータは、単独で、または他の情報と共に使用して、1人の人物を識別、連絡、特定したり、コンテキスト内の個人を識別したりできます。
 
-Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
+Activity Map トラッキングによって PII データが収集される可能性がある既知のケースには次のようなものがあります。
 
 * `Mailto` リンク、 mailto リンクは、メールを送信するためにコンピューター上のデフォルトのメールクライアントを起動するの HTML リンクです。
 * `User ID` ユーザーがログインした後にWebサイトのヘッダー/フッターに表示される可能性のあるリンク。
@@ -29,7 +31,7 @@ Here are some known cases where PII data might be collected using [!DNL Activity
  <tbody> 
   <tr> 
    <td colname="col1"> <b>質問：リンクトラッキングはいつ行われますか。</b> <p> </p> </td> 
-   <td colname="col2"> A:[!DNL Activity Map]リンクと地域の識別は、ユーザーがページをクリックしたときに行われます。 </td> 
+   <td colname="col2"> 回答：Activity Map のリンクと領域の識別は、ユーザーがページをクリックしたときに行われます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>質問：デフォルトでは何が追跡されますか。</b> <p> </p> </td> 
@@ -40,20 +42,20 @@ Here are some known cases where PII data might be collected using [!DNL Activity
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">値または子テキストを持つ INPUT タグまたは SUBMIT ボタンかどうか </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">タイプが IMAGE で src プロパティを持つ INPUT タグかどうか </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">&lt;Button&gt; かどうか </li> 
-    </ul> <p>上記のいずれかの質問に対する答が<b>はい</b>の場合、要素はリンクとして処理され、追跡されます。 </p> <p>重要：属性 type="button" を含む button タグは、AppMeasurement によってリンクと見なされません。button タグから "type='button'" を削除して、代わりに role="button" または submit="button" を追加することを検討してください。 </p> <p>重要：「#」で始まるhrefを持つアンカータグは、リンクではなく、AppMeasurementによって内部ターゲットの場所と見なされます（ページを離れないため）。既定では、[!DNL Activity Map]はこれらの内部ターゲットの場所を追跡しません。 新しいページに移動するリンクのみを追跡します。</p></td> 
+    </ul> <p>上記のいずれかの質問に対する答が<b>はい</b>の場合、要素はリンクとして処理され、追跡されます。 </p> <p>重要：属性 type="button" を含む button タグは、AppMeasurement によってリンクと見なされません。button タグから "type='button'" を削除して、代わりに role="button" または submit="button" を追加することを検討してください。 </p> <p>重要：「#」で始まるhrefを持つアンカータグは、リンクではなく、AppMeasurementによって内部ターゲットの場所と見なされます（ページを離れないため）。デフォルトでは、Activity mapはこれらの内部ターゲットの場所を追跡しません。 新しいページに移動するリンクのみを追跡します。</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>質問：[!DNL Activity Map]は、他の視覚的なHTML要素をどのように追跡しますか？</b> </td> 
+   <td colname="col1"> <b>質問：Activity Map では、その他の視覚的 HTML 要素をどのように追跡しますか。</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>関数を使 <code> s.tl() </code> 用</b> <p>s.tl呼び出しを通じてクリックが発生した場合、[!DNL Activity Map]もこのクリックイベントを受け取り、linkName文字列変数が見つかったかどうかを判断します。 s.tlの実行中、そのlinkNameは[!DNL Activity Map]リンクIDとして設定されます。 クリックされた、s.tl() 呼び出しを起源とする要素は、領域を特定するために使用されます。例： </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>関数を使 <code> s.tl() </code> 用</b> <p>s.tl 呼び出し経由でクリックが発生した場合、Activity Map もこのクリックイベントを受け取り、linkName 文字列値が見つかったかどうかを特定します。s.tl の実行中に、その linkName が Activity Map のリンク ID として設定されます。クリックされた、s.tl() 呼び出しを起源とする要素は、領域を特定するために使用されます。例： </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
      <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>変数を使 <code> s_objectID </code> 用</b> <p>例： </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
-       </code> </p> <p>重要： [!DNL Activity Map]でs_objectIDを使用する場合は、末尾にセミコロン(;)が必要です。 </p> </li> 
+       </code> </p> <p>重要：Activity Map で s_objectID を使用する場合、末尾のセミコロン（;）は必須です。 </p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
