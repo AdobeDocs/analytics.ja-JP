@@ -8,7 +8,7 @@ title: JavaScript 版 AppMeasurement
 topic: 開発者と実装
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -284,7 +284,7 @@ Visitor API 1.5.7 を同梱しました。
 
 リリース日：**2016 年 4 月 22 日**
 
-* [!DNL AppMeasurement] の [!DNL Activity Map] モジュールが、[!DNL AppMeasurement] 標準モジュールに統合され、1 つの [!DNL .js] ファイルだけを参照するだけで済むようになりました。さらに、[!DNL Activity Map] トラッキングはデフォルトで有効化されます。(AN-112689)
+* The [!DNL AppMeasurement] Activity Map module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Activity Map トラッキングはデフォルトで有効化されます。(AN-112689)
 
 * [!DNL AppMeasurement] 内で、*`pageURLRest`* が最後になるよう、クエリ文字列変数の並び順で発生していた切り捨て問題を修正しました。（AN-114647）
 
