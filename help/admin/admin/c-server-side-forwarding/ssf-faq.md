@@ -5,7 +5,7 @@ seo-title: サーバー側転送の FAQ
 title: サーバー側転送の FAQ
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 | 質問：2つのExperience Cloud Orgs（またはAAMインスタンス）があり、両方のExperience cloud組織間でデータを共有する場合はどうなりますか。 サーバー側で単一のAnalyticsヒットを複数のExperience cloud組織に転送できますか。 | いいえ。あるExperience cloud組織で収集したデータを別のExperience cloud組織と共有する必要がある場合は、Audience Managerインスタンスから別のAudience Marketplaceを使用して、該当するオーディエンスを別のExperience cloud組織に送信することをお勧めします。 |
 | Q：サーバー側転送によって Audience Manager または Analytics で追加の課金が発生しますか？ | Analytics では、追加の課金は発生しません。Audience Manager では、転送されたヒットは他のヒットと同じように扱われ、課金されます。これが、DIL とサーバー側転送を同時に有効にしないことが重要である理由です。この場合、データの重複が発生するだけでなく、2 重に課金されることになります。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
