@@ -6,7 +6,7 @@ solution: Audience Manager
 title: サーバー側転送の実装の確認方法
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >
 >If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. IDサービスが適切にデプロイされ、App Measurementモジュールがデプロイされ、該当するレポートスイートが正しいIMS組織にマッピングされ、Analytics管理コンソールでサーバー側転送が有効になっていることを確認してください。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Charles Web デバッガー](https://www.charlesproxy.com/)
 
