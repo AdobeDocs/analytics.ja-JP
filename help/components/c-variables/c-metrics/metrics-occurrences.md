@@ -7,7 +7,7 @@ title: 発生件数
 topic: 指標
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | インスタンスが回数より多い | すべてのインスタンスは回数としても記録されるため、レポーティングではこのような結果にはなりません。 |
 | インスタンスと回数が同じ | トラフィック変数は本質的にイメージ要求を超えて持続することがないため、トラフィック変数で最も一般的な結果となります。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [インスタンス](/help/components/c-variables/c-metrics/metrics-instance.md)
 
