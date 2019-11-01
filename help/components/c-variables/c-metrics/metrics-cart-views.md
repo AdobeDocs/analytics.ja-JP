@@ -5,9 +5,9 @@ seo-title: 買い物かご表示
 solution: Analytics
 title: 買い物かご表示
 topic: 指標
-uuid: f51213ed- c396-4d6a-8f88-4ea870e5bfl
+uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | コンバージョン | 設定される[!UICONTROL 買い物かご表示]イベントのインスタンス。買い物かごの中の品目が表示されたときに発生します。 |
 | Ad Hoc Analysis | 設定される[!UICONTROL 買い物かご表示]イベントのインスタンス。買い物かごの中の品目が表示されたときに発生します。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [買い物かごレポート](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
 
