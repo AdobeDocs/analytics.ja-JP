@@ -4,12 +4,14 @@ seo-title: Adobe Analytics のテクニカルガイドとセルフサービス�
 description: Analytics のユーザーガイドとリソース
 seo-description: Adobe Analytics のテクニカルガイドとセルフサービスのユーザーガイドの完全なリストを提示します。
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 85d80a186d7f833065a2ebebad53ca158c788100
 
 ---
 
 
 # Adobe Analytics ドキュメント
+
+Adobe Analytics製品および技術ドキュメントのホームページへようこそ。 ここでは、 [!UICONTROL Analysis Workspace、Report Buidler]、 [!UICONTROL Reporting API]、 [!UICONTROL Data Workbench、]Activity Map Workbenchなどのレポートツールのセルフヘルプおよびサポート情報を確認で きます。 また、製品とユーザーの管理、実装、およびAdobe Analyticsでサポートされるすべての機能に関するドキュメントにアクセスすることもできます。
 
 [![ツール](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics ツールガイド](/help/analyze/home.md) – Adobe Analytics で使用できるすべての分析ツールを紹介します。最初のセクションでは、Analytics 向けの優れた分析ツールと視覚化ツールを提供する Analysis Workspace について詳細に説明しています。
 
