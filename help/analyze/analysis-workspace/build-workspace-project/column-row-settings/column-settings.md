@@ -5,7 +5,7 @@ seo-title: 列設定
 title: 列設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | カスタム | 条件付き書式の「上限」、「中間点」、「下限」の各フィールドに手動で値を割り当てることができます。これにより、どのような場合に列の値が良好、平均的、望ましくないと判断されるかを柔軟に決定できます。 |
 | テーブルのセルのプレビュー | 現在選択されている書式オプションが適用されると各セルがどのように表示されるかを示すプレビューが表示されます。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [データソースの管理](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
