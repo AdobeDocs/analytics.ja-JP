@@ -8,7 +8,7 @@ title: マーケティングチャネルの処理ルールの作成
 topic: Reports & Analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 1. ルールに優先順位を付けるには、目的の位置にルールをドラッグアンドドロップします。
 1. Click **[!UICONTROL Save.]**
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [よくある質問と例](/help/components/c-marketing-channels/c-faq.md)
 
