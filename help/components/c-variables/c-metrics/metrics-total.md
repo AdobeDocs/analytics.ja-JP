@@ -5,9 +5,9 @@ seo-title: 合計
 solution: Analytics
 title: 合計
 topic: 指標
-uuid: b0827325-9736-4a68- ade2-3fe859c7f43c
+uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [合計レポート](/help/components/c-variables/dimensionslist/reports-totals.md)
 
