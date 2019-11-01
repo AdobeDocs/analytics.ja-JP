@@ -7,7 +7,7 @@ title: レポートスイートの作成
 topic: 管理ツール
 uuid: fada5b10-f574-4c3f-8704-679c992fc88
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 1. 「新しいレポートスイート」で説明されて [いるフィールドに入力します。](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Click **[!UICONTROL Create Report Suite]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [仮想レポートスイートの作成](/help/components/vrs/c-workflow-vrs/vrs-create.md)
 
