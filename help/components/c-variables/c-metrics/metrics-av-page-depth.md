@@ -7,7 +7,7 @@ title: 平均ページの深さ
 topic: 指標
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [ページの深さのレポート](/help/components/c-variables/dimensionslist/reports-page-depth.md)
 
