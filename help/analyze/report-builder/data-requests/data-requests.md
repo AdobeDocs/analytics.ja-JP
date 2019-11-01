@@ -5,7 +5,7 @@ seo-title: データリクエスト - リクエストウィザード：ステッ
 title: データリクエスト - リクエストウィザード：ステップ 1
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -32,6 +32,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. **精度の適用**：日付範囲を分割する単位を指定します。詳しくは、 [精度](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [データリクエストの作成](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
