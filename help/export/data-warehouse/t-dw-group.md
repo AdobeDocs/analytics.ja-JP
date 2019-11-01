@@ -7,7 +7,7 @@ title: Data Warehouse ユーザーグループの追加
 topic: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    >
    >権限が競合する場合（2つのグループに割り当てられたユーザーのうち1つは機能へのアクセスを拒否し、もう1つは同じアクセスを許可するなど）、システムは権限を制限します。 data warehouse に対するアクセスが認められていないグループに所属するユーザーを、そのグループから削除する必要があります。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [グループ ](/help/admin/user-management2/c-user-groups/groups.md)
 
