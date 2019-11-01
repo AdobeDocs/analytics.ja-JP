@@ -7,7 +7,7 @@ title: パス表示
 topic: 指標
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | コンバージョン | 該当なし |
 | Ad Hoc Analysis | 訪問全体の長さではなく、通常、各パスが 3 ～ 4 ページであるパスの集まりです。そのパス上の訪問頻度が表示されます。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [パスレポート](/help/components/c-variables/dimensionslist/reports-paths.md)
 
