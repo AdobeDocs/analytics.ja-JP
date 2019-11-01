@@ -5,7 +5,7 @@ seo-title: 既存のレポートの設定
 title: 既存のレポートの設定
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -164,7 +164,7 @@ t_reports_breakdown_table.xml
    >
    >柔軟性を高めるために、表ビルダー [を使用して](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 、分類を含むレポートを設定します。 分類を含む保存されたレポートや予定レポートを開いた場合、「**[!UICONTROL 表を置換]」をクリックして動的なレポートデータの分類を更新する必要があることがあります。**&#x200B;例えば、日付範囲や訪問者のアクティビティに基づいて変化する可能性がある行項目の分類が予定レポートに含まれている場合は、予定レポートを更新する必要があります。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [表ビルダー](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -249,7 +249,7 @@ t_column_width.xml
 
    「[!UICONTROL 列を画面に合わせる]」が選択されている場合、このオプションは無効です。1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [表ビルダー](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
