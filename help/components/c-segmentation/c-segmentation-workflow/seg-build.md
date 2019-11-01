@@ -7,7 +7,7 @@ title: セグメントの構築
 topic: セグメント
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ac663ccb22e4d33a35ede96d59ee0699b04de8d5
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 セグメントビルダーにアクセスする方法はいくつかあります。
 
-* **** 解析のトップナビゲーション：Analytics/コンポ **[!UICONTROL ーネント]** /セグメ **[!UICONTROL ント]** をクリ **[!UICONTROL ックします]**。
-* **Analysis Workspace**: **[!UICONTROL Analytics]** / **[!UICONTROL Workspaceをクリックし、プロジェクトを開き、]**+新規 **[!UICONTROL /セグメントを作成をクリ]******&#x200B;ックします。
-* **Reports &amp; Analytics**: **[!UICONTROL Analytics]** / **[!UICONTROL Reports]**（レポート）をクリックし、既存のレポートを開いて、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックし、「追加」をクリック **[!UICONTROL します]**。
-* **Ad Hoc Analysis**:Ad Hoc Analysis [でのセグメントの作成](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6)。
-* **Report Builder**:Report Builder [でセグメントを追加または編集します](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)。
+* **Analyticsのトップナビゲーション**:Analytics/コンポ **[!UICONTROL ーネント]** /セグメ **[!UICONTROL ント]** をクリ **[!UICONTROL ックします]**。
+* **[!UICONTROL Analysis Workspace]**: **[!UICONTROL Analytics]** / **[!UICONTROL Workspaceをクリックし、プロジェクトを開き、]**+新規 **[!UICONTROL /セグメントを作成をクリ]******&#x200B;ックします。
+* **[!UICONTROL Reports &amp; Analytics]**: **[!UICONTROL Analytics]** / **[!UICONTROL Reports]**（レポート）をクリックし、既存のレポートを開いて、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックし、「追加」をクリック **[!UICONTROL します]**。
+* **[!UICONTROL Ad Hoc Analysis]**:Ad Hoc Analysis [でのセグメントの作成](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6)。
+* **[!UICONTROL Report Builder]**:Report Builder [でセグメントを追加または編集します](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)。
 
 ## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -47,40 +47,43 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/segment_builder_ui.png)
 
-1. **** タイトル：セグメントに名前を付けたり、名前を変更したりできます。
-1. **** 説明：セグメントの説明を入力します。 セグメントを共有したい場合は、説明を入力する必要があります。
-1. **** タグ：作成し [ているセグメントにタグを付けるには](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) 、既存のタグのリストから選択するか、新しいタグを作成します。
-1. **** 定義：ここで、セグメントの作成 [と設定、ルールの追加](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)、コンテナのネストと順序付けを行います。 コンテナを選択し、ディメンション、セグメントまたは指標を定義にドラッグ＆ドロップすることで、新しいセグメントの説明を提供できます。
-1. **** 表示：（上部のコンテナセレクター）。Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). デフォルトのトップレベルのコンテナは、ヒットコンテナです。
-1. **** オプション：（歯車）アイコン
+1. **[!UICONTROL タイトル]**:セグメントに名前を付けたり、名前を変更したりできます。
+1. **[!UICONTROL 説明]**:セグメントの説明を入力します。 セグメントを共有したい場合は、説明を入力する必要があります。
+1. **[!UICONTROL タグ]**:作成し [ているセグメントにタグを付けるには](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) 、既存のタグのリストから選択するか、新しいタグを作成します。
+1. **[!UICONTROL 定義]**:ここで、セグメントの作成 [と設定、ルールの追加](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)、コンテナのネストと順序付けを行います。 コンテナを選択し、ディメンション、セグメントまたは指標を定義にドラッグ＆ドロップすることで、新しいセグメントの説明を提供できます。
+1. **[!UICONTROL 表示]**:（上部のコンテナセレクター）。Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ([!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). デフォルトのトップレベルのコンテナは、ヒットコンテナです。
+1. **[!UICONTROL オプション]**:（歯車）アイコン
 
-   * **** +コンテナを追加：セグメント定義に（最上位コンテナの下に）新しいコンテナを追加できます。
-   * **** +選択からコンテナを追加：「定義」フィールドで選択した（複数の）要素から新しいコンテナを作成できます。
-   * **** 除外：1つ以上のディメンション、セグメントまたは指標を除外して、セグメントを定義できます。
-   **** アトリビューションモデル：ディメンションセグメント用。 ディメンションモデルは、フローのビジュアライゼーションをサポートするディメンションなど、順次セグメント化で特に役立ちます。
-   * **[!UICONTROL 繰り返し]** （デフォルト）:ディメンションのインスタンスと永続化された値が含まれます。
-   * **[!UICONTROL インスタンス]**:ディメンションのインスタンスが含まれます。
-   * **[!UICONTROL 非繰り返しインスタンス]**:ディメンションに一意のインスタンス（繰り返しなし）を含めます。
-   ![](assets/attribution-models.jpg)
+   * **[!UICONTROL + コンテナを追加]**：セグメント定義（トップレベルのコンテナの下）に新しいコンテナを追加できます。
+   * **[!UICONTROL + 選択項目からコンテナを追加]**：定義フィールドで選択した要素から新しいコンテナを作成できます。
+   * **[!UICONTROL 次を除外する]**：1 つ以上のディメンション、セグメントまたは指標を除外することで、セグメントを定義できます。
 
-1. **** ディメンション：ディメンションがディメンションリスト（オレンジ色のサイドバー）からドラッグ&amp;ドロップされます。
-1. **** 比較：選択した演算子を使用して、値を比較および制限できます。
-1. **** 値：ディメンション、セグメント、指標に対して入力または選択した値。
+**[!UICONTROL アトリビューションモデル]**:ディメンションセグメント用。 ディメンションモデルは、フローのビジュアライゼーションをサポートするディメンションなど、順次セグメント化で特に役立ちます。
+
+    * **繰り[!UICONTROL 返し]** （デフォルト）:ディメンションのインスタンスと永続化された値が含まれます。
+    * **[!UICONTROL Instance]**:ディメンションのインスタンスが含まれます。
+    * **繰り返[!UICONTROL しないインスタンス]**:ディメンションに一意のインスタンス（繰り返しなし）を含めます。
+
+![](assets/attribution-models.jpg)
+
+1. **[!UICONTROL ディメンション]**:ディメンションがディメンションリスト（オレンジ色のサイドバー）からドラッグ&amp;ドロップされます。
+1. **[!UICONTROL 比較]**:選択した演算子を使用して、値を比較および制限できます。
+1. **[!UICONTROL 値]**:ディメンション、セグメント、指標に対して入力または選択した値。
 1. **[!UICONTROL And/Or/Then]**:コンテナ [!UICONTROL またはルール間にAND/OR] /THEN演算子を割り当てます。 The THEN operator lets you [define sequential segments](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560).
 1. **[!UICONTROL 指標]**:（緑のサイドバー）指標リストからドラッグ&amp;ドロップした指標。
 1. **[!UICONTROL 比較演算子]** :選択した演算子を使用して、値を比較および制限できます。
 1. **[!UICONTROL 値]**:ディメンション、セグメント、指標に対して入力または選択した値。
 1. **[!UICONTROL X]**:（削除）セグメント定義のこの部分を削除できます。
 1. **[!UICONTROL 保存]** /キ **[!UICONTROL ャンセル]**:セグメントを保存またはキャンセルします。 After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
-1. **** 検索：ディメンション、セグメントまたは指標のリストを検索します。
-1. **** ディメンション：（リスト）ヘッダーをクリックして展開します。
-1. **** 指標：ヘッダーをクリックして展開します。
-1. **** セグメント：ヘッダーをクリックして展開します。
-1. **** レポートスイートの選択：このセグメントを保存するレポートスイートを選択できます。 セグメントは、すべてのレポートスイートで利用できます。
-1. **** セグメントのプレビュー：主要指標をプレビューして、有効なセグメントがあるかどうかを確認し、セグメントの範囲を確認できます。 このセグメントを適用した場合に期待するデータセットの分類を表します。データセットに対してセグメントを実行した結果の[!UICONTROL ヒット数]、[!UICONTROL 訪問]および[!UICONTROL 訪問者]の件数と割合が 3 つの同心円とリストで表示されます。このグラフは、セグメント定義を作成または変更するとすぐに更新されます。
-1. **** 製品の互換性：作成したセグメントと互換性があるAdobe Analytics製品(Analysis Workspace、 [!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse)のリストが表示されます。 ほとんどのセグメントは、すべての製品と互換性があります。ただし、演算子とディメンションは、すべての Analytics 製品と互換性があるとは限りません。特に、 [Data Warehouse](../../../components/c-segmentation/seg-reference/seg-compatibility.md#concept_7A2CC00352274A75ACD4949CA3C144D4). このグラフは、セグメント定義を変更するとすぐに更新されます。
+1. **[!UICONTROL 検索]**:ディメンション、セグメントまたは指標のリストを検索します。
+1. **[!UICONTROL ディメンション]**:（リスト）ヘッダーをクリックして展開します。
+1. **[!UICONTROL 指標]**:ヘッダーをクリックして展開します。
+1. **[!UICONTROL セグメント]**:ヘッダーをクリックして展開します。
+1. **[!UICONTROL レポートスイートの選択]**:このセグメントを保存するレポートスイートを選択できます。 セグメントは、すべてのレポートスイートで利用できます。
+1. **[!UICONTROL セグメントのプレビュー]**:主要指標をプレビューして、有効なセグメントがあるかどうかを確認し、セグメントの範囲を確認できます。 このセグメントを適用した場合に期待するデータセットの分類を表します。データセットに対してセグメントを実行した結果の[!UICONTROL ヒット数]、[!UICONTROL 訪問]および[!UICONTROL 訪問者]の件数と割合が 3 つの同心円とリストで表示されます。このグラフは、セグメント定義を作成または変更するとすぐに更新されます。
+1. **[!UICONTROL 製品の互換性]**:作成したセグメントと互換性があるAdobe Analytics製品(Analysis Workspace、 [!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse)のリストが表示されます。 ほとんどのセグメントは、すべての製品と互換性があります。ただし、演算子とディメンションは、すべての Analytics 製品と互換性があるとは限りません。特に、 [Data Warehouse](../../../components/c-segmentation/seg-reference/seg-compatibility.md#concept_7A2CC00352274A75ACD4949CA3C144D4). このグラフは、セグメント定義を変更するとすぐに更新されます。
 
-   Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports &amp; Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports &amp; Analytics] gives you the intersection of the report date range and the segment's embedded date range.
+Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports &amp; Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports &amp; Analytics] gives you the intersection of the report date range and the segment's embedded date range.
 
 **[!UICONTROL Experience cloudに公開(`<report suite name>`対象)]**:（画面に表示されません）このオプションは、このセグメントの保存先のレポートスイートがExperience cloudに対して有効にな [っている場合にのみ表示されます](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01)。 By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. 公開するためには、セグメントタイトルと説明が必須です。
 
