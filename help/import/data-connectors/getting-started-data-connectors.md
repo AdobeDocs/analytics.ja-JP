@@ -4,7 +4,7 @@ seo-description: Data Connectorsにサインインします。サードパーテ
 seo-title: Analytics Data Connectors
 title: Analytics data connectors使用の手引き
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Analyticsは、Data Warehouseを介して、これらを毎日別々のフ
    * 購入： `purchase` 事件
    * Product Views: `prodView` event
 
-**** 注意：製品がイベントを関連付けずに定義されている場合、prodViewイベントが自動的に発生します。
+> [!NOTE] 製品がイベントを関連付けずに定義されている場合、prodViewイベントが自動的に発生します。
 上記の要件が満たされない場合、対応する再マーケティングセグメントは適切にレポートされません。
 
 [!UICONTROL 買い物かごの放棄]：ユーザーが商品を買い物かごに追加した後に発生します。
