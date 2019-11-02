@@ -8,7 +8,7 @@ title: フル処理
 topic: 開発者と実装
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 フル処理データソースのデータは個別の訪問者プロファイルを使用して処理されるので、たとえアップロードされたデータ内の訪問者 ID が JavaScript やその他の AppMeasurement ライブラリを使用して収集されたデータと一致しても、eVar の割り当てに関しては訪問者プロファイルが関連付けられることはありません。
 
-例えば、"user@example.com" という訪問者 ID を持つユーザーが、キャンペーン変数に格納されている、"Spring Sale"（スプリングセール）と名付けられたマーケティングキャンペーンを通してサイトを訪問したとします。後で同じ訪問者 ID を使用してトランザクションをアップロードした場合、"Spring Sale" キャンペーンは、フル処理データソースを使用してアップロードされたどのような売上イベントや成功イベントに対するクレジットも受け取ることはありません。
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. 後で同じ訪問者 ID を使用してトランザクションをアップロードした場合、"Spring Sale" キャンペーンは、フル処理データソースを使用してアップロードされたどのような売上イベントや成功イベントに対するクレジットも受け取ることはありません。
 
 ## 列リファレンス {#section_92BAE76639E3404E97276B1BE0581078}
 
