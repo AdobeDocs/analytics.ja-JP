@@ -5,7 +5,7 @@ seo-title: ヒットタイプ
 title: ヒットタイプ
 uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,4 +16,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 このディメンションは、SDK によって自動的に収集されます。SDK のバージョン 4.13.6 以降でサポートされます。
 
-If "Disable Legacy Reporting and Attribution for Background Hits" is checked, then background hits will show up only in [Virtual Report suites](../../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD).
+If "Disable Legacy Reporting and Attribution for Background Hits" is checked, then background hits will show up only in [Virtual Report suites](/help/components/vrs/vrs-mobile-visit-processing.md).
