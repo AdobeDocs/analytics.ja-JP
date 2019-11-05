@@ -5,7 +5,7 @@ seo-title: 行設定
 title: 行設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 行設定は、テーブルにドラッグしたコンポーネントによって異なります。
 
-また、[テーブル内の右クリックアクション](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F)を使用して、選択されている行を管理することもできます。
+また、[テーブル内の右クリックアクション](/help/analyze/analysis-workspace/visualizations/freeform-table.md)を使用して、選択されている行を管理することもできます。
 
 テーブルの行の設定にアクセスするには、それぞれのディメンション、セグメント、指標、期間または分類の横にある設定アイコンをクリックします。
 
@@ -29,7 +29,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 日付の比較</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 日付の比較</a> </p> </td> 
    <td colname="col2"> <p><b>各列の日付を整列させて、すべて同じ行から始まるようにします。</b> </p> <p>日付を整列させると、例えば 2016 年 10 月を 9 月と比較する前月比の場合、左側の列は 10 月 1 日、右側の列は 9 月 1 日から始まります。 </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>デフォルトでは無効です。 </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>列の合計 </p> </td> 
-   <td colname="col2"> <p>これらの設定は、<a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local">手動の（静的な）行</a>（有限の項目セットを選択した場合）にのみ表示され、動的な行（すべての項目を示すディメンションにドロップした場合）は表示されません。 <p>注意：<i>指標の</i>手動の行では、この設定は無効です。これは、テーブルの現在の行以外について指標を合計することは意味がないからです。 </p> </p> <p><b>現在各列にある値を加算して合計を計算します（デフォルトで有効です）。</b> </p> <p>このオプションは、現在、テーブルにある行のみを計算します。（クライアント側の計算） </p> <p><b>各指標についてすべての行に基づいて合計を計算します（デフォルトで無効です）。</b> </p> <p>このオプションは、テーブルにリストされていなくても、このディメンションに関するすべてのディメンション項目を含めます。（サーバー側の計算） </p> </td> 
+   <td colname="col2"> <p>これらの設定は、<a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  >手動の（静的な）行</a>（有限の項目セットを選択した場合）にのみ表示され、動的な行（すべての項目を示すディメンションにドロップした場合）は表示されません。 <p>注意：<i>指標の</i>手動の行では、この設定は無効です。これは、テーブルの現在の行以外について指標を合計することは意味がないからです。 </p> </p> <p><b>現在各列にある値を加算して合計を計算します（デフォルトで有効です）。</b> </p> <p>このオプションは、現在、テーブルにある行のみを計算します。（クライアント側の計算） </p> <p><b>各指標についてすべての行に基づいて合計を計算します（デフォルトで無効です）。</b> </p> <p>このオプションは、テーブルにリストされていなくても、このディメンションに関するすべてのディメンション項目を含めます。（サーバー側の計算） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>分類 </p> </td> 
