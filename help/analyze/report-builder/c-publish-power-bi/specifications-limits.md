@@ -5,7 +5,7 @@ seo-title: 制限および仕様
 title: 制限および仕様
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,7 +31,7 @@ Power BI に発行した後に Report Builder リクエストを編集すると�
    **次に示すのは、ビジュアライゼーションが壊れる例です。**
 
    1. Report Builder で、ページディメンションとページビュー数指標を使用して、1 つのリクエストが含まれたワークブックを作成します。
-   1. Power BI に発行されるよう[このリクエストをスケジュール](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)します。
+   1. Power BI に発行されるよう[このリクエストをスケジュール](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)します。
    1. Power BI で、ページとページビュー数のビジュアライゼーションを作成します。
    1. 次にワークブックを編集して、リクエストからページビュー数を削除します。
    1. 更新したワークブックでスケジュールを編集し、リクエストを Power BI に発行し直します。
@@ -43,7 +43,7 @@ Power BI に発行した後に Report Builder リクエストを編集すると�
    **次に示すのは、ビジュアライゼーションが壊れない例です。**
 
    1. Report Builder で、ページディメンションとページビュー数指標を使用して、1 つのリクエストが含まれたワークブックを作成します。
-   1. Power BI に発行されるよう[このリクエストをスケジュール](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)します。
+   1. Power BI に発行されるよう[このリクエストをスケジュール](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)します。
    1. Power BI で、ページとページビュー数のビジュアライゼーションを作成します。
    1. 次に Report Builder でワークブックを編集して、ページおよびページビュー数を維持したまま訪問指標を追加します。
    1. 更新したワークブックでスケジュールを編集し、リクエストを Power BI に発行し直します。
