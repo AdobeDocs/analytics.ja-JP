@@ -8,7 +8,7 @@ title: コンバージョン変数（eVar）
 topic: 開発者と実装
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ eVar は訪問ベースにすることができ、cookie と同じように機�
 
 変数について詳しくは、以下を参照してください。
 
-* このヘルプの「[Analytics の実装およびレポート用の変数](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB)」。
+* このヘルプの「[Analytics の実装およびレポート用の変数](/help/implement/js-implementation/c-variables/sc-variables.md)」。
 * [変数 - レポートでの使用方法](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
 * [ページ変数](/help/implement/js-implementation/c-variables/page-variables.md)
 * [キャンペーン変数](/help/implement/js-implementation/c-variables/page-variables.md)
