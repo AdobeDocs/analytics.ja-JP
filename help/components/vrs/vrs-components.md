@@ -5,7 +5,7 @@ seo-title: 仮想レポートスイートコンポーネントのキュレーシ
 title: 仮想レポートスイートコンポーネントのキュレーション
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
