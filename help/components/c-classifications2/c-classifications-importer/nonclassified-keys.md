@@ -8,7 +8,7 @@ title: 未分類のキー
 topic: 管理ツール
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,4 +40,4 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
    この文書の例であれば、[!UICONTROL モバイルキャンペーン名]という名前の列に「モバイルキャンペーン対象外」と入力することが考えられます。
 
    この入力によって、 *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
-1. [データをシステムにインポート](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D)します。
+1. [データをシステムにインポート](/help/components/c-classifications2/c-classifications-importer/import-file.md)します。
