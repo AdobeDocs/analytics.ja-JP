@@ -7,8 +7,8 @@ solution: Analytics
 title: JavaScript を使用しない実装のガイドライン
 topic: 開発者と実装
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -23,7 +23,7 @@ JavaScript を使用せずに Analytics を導入する場合、追加の要件�
 
 **大文字と小文字の区別**
 
-パラメーター名（`pageName`、`purchaseID` など）は大文字と小文字を区別し、[クエリパラメーター](../../../implement/js-implementation/data-collection/query-parameters.md)で指定されている場合を除き、適切にデータを記録できません。
+パラメーター名（`pageName`、`purchaseID` など）は大文字と小文字を区別し、[クエリパラメーター](/help/implement/js-implementation/data-collection/query-parameters.md)で指定されている場合を除き、適切にデータを記録できません。
 
 **クエリパラメーターのエンコード**
 
@@ -33,7 +33,7 @@ JavaScript を使用せずに Analytics を導入する場合、追加の要件�
 
 **変数の最大長**
 
-各変数には、最大の長さがあります。この長さは、[Analytics 変数](../../../implement/js-implementation/c-variables/sc-variables.md)で変数ごとに指定されています。変数の最大長を超えると、Analytics で保存や表示をするときに、変数の値が切り詰められることがあります。
+各変数には、最大の長さがあります。この長さは、[Analytics 変数](/help/implement/js-implementation/c-variables/sc-variables.md)で変数ごとに指定されています。変数の最大長を超えると、Analytics で保存や表示をするときに、変数の値が切り詰められることがあります。
 
 **無効な文字**
 
