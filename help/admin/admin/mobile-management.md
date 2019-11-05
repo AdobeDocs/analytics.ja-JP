@@ -7,7 +7,7 @@ title: モバイル管理
 topic: 管理ツール
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Analytics と Mobile Services のこの統合により、
 
 有効なバックグラウンドヒット（アプリがバックグラウンドにあるときに生成されたヒット）とは、ヒットが通常のフォアグラウンドヒットとして扱われることを意味します。有効なバックグラウンドヒットは、通常のレポートに表示され、属性にも影響します。通常、この設定は、レガシー実装との一貫性を保つ目的でのみ使用することをお勧めします。
 
-Instead, we recommend that you "include background hits" in a [virtual report suite](../../components/vrs/vrs-about.md). こうすることで、ヒットは表示されますが、訪問および訪問者カウントには影響しなくなります。Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+Instead, we recommend that you "include background hits" in a [virtual report suite](/help/components/vrs/vrs-about.md). こうすることで、ヒットは表示されますが、訪問および訪問者カウントには影響しなくなります。Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 分類は数値データをグループにカテゴリ化してグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「ポップミュージック用語」というカテゴリに入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に対してそのカテゴリの成功をレポートします。
 
