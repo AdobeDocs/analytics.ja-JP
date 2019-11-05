@@ -5,7 +5,7 @@ seo-title: 計算指標の役割に基づく権限
 title: 計算指標の役割に基づく権限
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <b>管理者レベルユーザー</b> </td> 
-   <td colname="col02"> 管理者は、計算指標を作成できるだけでなく、<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">グループ</a>を作成して、計算指標を作成するユーザーの権限を制限できます。 </td> 
+   <td colname="col02"> 管理者は、計算指標を作成できるだけでなく、<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >グループ</a>を作成して、計算指標を作成するユーザーの権限を制限できます。 </td> 
    <td colname="col2"> 会社全体、ユーザーグループおよび個人ユーザーと共有できます。 </td> 
    <td colname="col3"> <span class="keyword"> [!UICONTROL Reports &amp; Analytics] </span>:その他の 表示／編集／削除などが可能です。 <p> <span class="keyword">Ad Hoc Analysis</span> および <span class="keyword">Report Builder</span>：ユーザー自身の計算指標と他のユーザーと共有している計算指標の表示／編集／削除などが可能です。 </p> </td> 
    <td colname="col4"> 計算指標を正規の指標として承認できます。 </td> 
