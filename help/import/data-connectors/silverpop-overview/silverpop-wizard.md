@@ -5,7 +5,7 @@ seo-title: Silverpop統合
 title: Silverpop統合
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -123,7 +123,7 @@ Data Connectors統合ウィザードでは、Data Connectors統合プロセス�
   <tr valign="top"> 
    <td colname="col2"> <p>データ収集 </p> </td> 
    <td colname="col03"> <p>(3)データ設定 </p> </td> 
-   <td colname="col3"> <p>s_code <b>.jsプラグインをこの統合の収集モデルとして使用する場合は、「</b> JavaScriptプラグイン」を選択します( <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"> Analyticsプラグインコードを参照</a>)。 </p> <p>この統 <b>合に自動収集モデルを使用する場合は、「自動ソリューション</b> 」を選択し、この統合に使用する一意の識別子を指定します。 </p> <p>このオプションを選択した場合は、この統合に使用する一意の識別子を指定します。 </p> <p> <b>メッセージIDクエリ文字列パラメ</b>ーター：この値は、電子メールパートナーによってランディングページURLに追加されたメッセージIDを表します。 </p> <p> <b></b> 受信者IDクエリ文字列パラメータ：この値は、電子メールパートナーがランディングページのURLに追加する受信者IDを表します。 </p> </td> 
+   <td colname="col3"> <p>s_code <b>.jsプラグインをこの統合の収集モデルとして使用する場合は、「</b> JavaScriptプラグイン」を選択します( <a href="../silverpop-overview/silverpop-analytics-code.md"> Analyticsプラグインコードを参照</a>)。 </p> <p>この統 <b>合に自動収集モデルを使用する場合は、「自動ソリューション</b> 」を選択し、この統合に使用する一意の識別子を指定します。 </p> <p>このオプションを選択した場合は、この統合に使用する一意の識別子を指定します。 </p> <p> <b>メッセージIDクエリ文字列パラメ</b>ーター：この値は、電子メールパートナーによってランディングページURLに追加されたメッセージIDを表します。 </p> <p> <b></b> 受信者IDクエリ文字列パラメータ：この値は、電子メールパートナーがランディングページのURLに追加する受信者IDを表します。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>ダッシュボードとブックマークの生成 </p> </td> 
