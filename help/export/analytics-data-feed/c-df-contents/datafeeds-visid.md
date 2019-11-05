@@ -8,22 +8,22 @@ title: 訪問者の特定
 topic: Reports & Analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # 訪問者の特定
 
-Analytics には、訪問者を特定できる（[訪問者の特定](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#concept_BE966BABA7D0475BB706BC6676B8FA11)に表示される）メカニズムがいくつかあります。Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
+Analytics には、訪問者を特定できる（[訪問者の特定](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md)に表示される）メカニズムがいくつかあります。Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
 
 **一意の訪問者を特定するには**
 
 1. Exclude all rows where `exclude_hit > 0`.
-1. Exclude all rows with `hit_source = 5,7,8,9`. 5、8、および 9 の行は、データソースを使用してアップロードされる概要行です。7 はトランザクション ID データソースアップロードを表し、これは訪問回数や訪問者数には含めません。詳しくは、 [ヒットソース参照](../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42)
+1. Exclude all rows with `hit_source = 5,7,8,9`. 5、8、および 9 の行は、データソースを使用してアップロードされる概要行です。7 はトランザクション ID データソースアップロードを表し、これは訪問回数や訪問者数には含めません。詳しくは、 [ヒットソース参照](/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
 1. と組 `post_visid_high` み合わ `post_visid_low`せ All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
 
-訪問者 ID 値の判別に使用されたメカニズムを判断したい場合（cookie の受け入れを計算するためなど）は、使用された ID 方式を示す参照キーが `post_visid_type` に格納されています。この参照キーは、[下記のテーブル](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A)に訪問者 ID メカニズムと共に表示されます。
+訪問者 ID 値の判別に使用されたメカニズムを判断したい場合（cookie の受け入れを計算するためなど）は、使用された ID 方式を示す参照キーが `post_visid_type` に格納されています。この参照キーは、[下記のテーブル](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md#aa-vids)に訪問者 ID メカニズムと共に表示されます。
 
 ## Experience Cloud ID {#section_1628ED37D31E4B0EB75632E397A06B29}
 
@@ -35,7 +35,7 @@ If the Experience Cloud ID was used to identify the visitor, the ID will be cont
 >
 > When using the Adobe Analytics visitor ID as a key for other systems, always use `post_visid_high` and `post_visid_low`. これらのフィールドは、必ずデータフィードのすべての行に値を持つ唯一の訪問者 ID フィールドです。
 
-## Analytics 訪問者 ID {#section_DE1DC9FC9B6D4388995B70E35B8BCDDF}
+## Analytics 訪問者 ID {#aa-vids}
 
 Analytics で訪問者を特定する方法はいくつかあります（優先順に以下の表に示します）。
 
