@@ -8,7 +8,7 @@ title: コストと予算
 topic: Reports & Analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 チャネルにコストと予算額を割り当てる方法を説明します。
 
-## コストと予算 {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
-
-チャネルにコストと予算額を割り当てる方法を説明します。
-
 コストは、そのチャネルに費やした費用を示します。予算とは、使用可能な金額を表します。
 
 投資利益率（ROI）を確認する方法の一つは、売上高からコストを引いた額を示す計算指標を作成することです。また、合計コストおよび新規のエンゲージメント当たりのコストの分類を示す計算指標を作成する方法もあります。例えば、新規のエンゲージメントを示す[!UICONTROL ファーストタッチチャネル]レポートを実行し、計算指標を作成して新規のエンゲージメント当たりのコストを示すファーストタッチコスト指標を追加することが可能です。
 
-詳しくは、 [マーケティングチャネルレポートで使用される計算指標](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+詳しくは、 [マーケティングチャネルレポートで使用される計算指標](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 チャネルにはコストと予算額のみを割り当てることができます。すべてのコストに対して、レポート内で適用される期間が示されます。コストをチャネルに直接関連付けると、チャネル内のキャンペーンごとのコストの内訳を示すために配分指標が選択されます。
 
 コストおよび予算項目を追加した後で、表のデータを CSV ファイルにエクスポートできます。また、CSV ファイルをマーケティングチャネル コストページにインポートすることも可能です。
 
-## コストと予算項目の追加 {#task_9238A033994440748960DE21593E6388}
+## コストと予算項目の追加 {#add-cost-and-budget}
 
 コストと予算項目をマーケティングチャネルに追加します。
 
@@ -45,11 +41,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 
-## Marketing Channel costs - definitions {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Marketing Channel costs - definitions {#mktg-channel-costs}
 
 「マーケティングチャネルのコスト（または予算）」のフィールドの定義です。
-
-
 
 | フィールド | 定義 |
 |--- |--- |
