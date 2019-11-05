@@ -7,7 +7,7 @@ title: 滞在時間
 topic: 指標
 uuid: a9f63da3-7e79-49c3-9b0b-6dcd2ae6aadc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Adobe Analytics には、様々な滞在時間指標およびディメンションが用意されています。ここでは、その内容および計算方法について説明します。
 
-* [滞在時間指標](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_4F54D70300944748A62088F5870E4B6C)
-* [滞在時間ディメンション](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_D51606544CB046FC902E2E317318892C)
-* [滞在時間の計算方法](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_90A3882638974969A4B8B674FFDB7624)
-* [滞在時間に関する FAQ](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_51C2735BACAB42CCBA1DD3CBF238E2F7)
-* [計算例](../../../components/c-variables/c-metrics/metrics-time-spent.md#section_3D63D6A601F34E42AD5366435CB610D5)
+* [滞在時間指標](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_4F54D70300944748A62088F5870E4B6C)
+* [滞在時間ディメンション](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_D51606544CB046FC902E2E317318892C)
+* [滞在時間の計算方法](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_90A3882638974969A4B8B674FFDB7624)
+* [滞在時間に関する FAQ](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_51C2735BACAB42CCBA1DD3CBF238E2F7)
+* [計算例](/help/components/c-variables/c-metrics/metrics-time-spent.md#section_3D63D6A601F34E42AD5366435CB610D5)
 
 ## 滞在時間指標 {#section_4F54D70300944748A62088F5870E4B6C}
 
