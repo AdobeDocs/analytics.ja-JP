@@ -9,7 +9,7 @@ title: 簡易実装モーダル
 topic: Reports & Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,11 +67,11 @@ Adobe Analytics 実装を初めて実装する場合について説明します�
       </tr> 
       <tr> 
        <td colname="col1"> <p>データ層 </p> </td> 
-       <td colname="col2"> <p>（推奨）情報を保存するために使用される JavaScript 配列。Dynamic Tag Management を使用して自動セットアップを実行する場合、データ層を使用します。 </p> <p>データ層に関するブログについては、「<a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external">Data Later: From Buzzword to Best Practice</a>（データ層：バズワードからベストプラクティスまで）」を参照してください。 </p> </td> 
+       <td colname="col2"> <p>（推奨）情報を保存するために使用される JavaScript 配列。Dynamic Tag Management を使用して自動セットアップを実行する場合、データ層を使用します。 </p> <p>データ層に関するブログについては、「<a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/">Data Later: From Buzzword to Best Practice</a>（データ層：バズワードからベストプラクティスまで）」を参照してください。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>データリポジトリ（レポートスイート） </p> </td> 
-       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">レポートスイート</a>は、通常、単一のプロパティ（サイトまたはアプリ）またはブランドに対応する、個別のデータセットです各レポートスイートには、レポートおよび指標の独自のセットがあります。 </p> </td> 
+       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html">レポートスイート</a>は、通常、単一のプロパティ（サイトまたはアプリ）またはブランドに対応する、個別のデータセットです各レポートスイートには、レポートおよび指標の独自のセットがあります。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>タイムゾーン </p> </td> 
@@ -108,7 +108,7 @@ Adobe Analytics 実装を初めて実装する場合について説明します�
       </tr> 
       <tr> 
        <td colname="col1"> <p>ダウンロード </p> </td> 
-       <td colname="col2"> <p> <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span> という名前のインストールファイルをダウンロードします。このオプションは、<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 実装</a>を理解している経験豊富なユーザー向けです。 </p> <p> <p>重要：コードのダウンロードは、<span class="keyword">Analytics</span> のデプロイの構成要素ではありません。これは、サイトのページ上でユーザーが実行する、またはアドビのコンサルティングサービスを通じておこなう手動のデプロイです。 </p> </p> </td> 
+       <td colname="col2"> <p> <span class="filepath">INSTALL-ME &lt;report suite name&gt;.js</span> という名前のインストールファイルをダウンロードします。このオプションは、<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html">JavaScript 実装</a>を理解している経験豊富なユーザー向けです。 </p> <p> <p>重要：コードのダウンロードは、<span class="keyword">Analytics</span> のデプロイの構成要素ではありません。これは、サイトのページ上でユーザーが実行する、またはアドビのコンサルティングサービスを通じておこなう手動のデプロイです。 </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
