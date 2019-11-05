@@ -9,7 +9,7 @@ title: ページ変数
 topic: 開発者と実装
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -123,7 +123,7 @@ campaign.xml
 
 *`campaign`* 変数の生成方法は主に 2 つあります。
 
-* [!UICONTROL getQueryParam] プラグインを JavaScript ファイル内で使用して、URL からクエリ文字列パラメーターを取得します。[!UICONTROL getQueryParam] プラグインについて詳しくは、[実装プラグイン](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)を参照してください。
+* [!UICONTROL getQueryParam] プラグインを JavaScript ファイル内で使用して、URL からクエリ文字列パラメーターを取得します。[!UICONTROL getQueryParam] プラグインについて詳しくは、[実装プラグイン](/help/implement/js-implementation/plugins/impl-plugins.md)を参照してください。
 
 * Web ページ上の HTML の *`campaign`* 変数に値を割り当てます。
 
@@ -131,7 +131,7 @@ campaign.xml
 
 例えば、ある訪問者が有料検索キーワードをクリックしてサイトに訪問したとします。この訪問者がランディングページに到達したとき、URL にはそのキーワードのトラッキングコードを識別するクエリ文字列パラメーターが含まれます。次に、この訪問者が別のページへのリンクをクリックした後、すぐに「戻る」ボタンをクリックしてランディングページに戻ったとします。この場合、この訪問者がランディングページに 2 回目に到達したとき、クエリ文字列パラメーターを含む URL によって、トラッキングコードが再び識別されます。この 2 回目のクリックスルーが登録されるので、クリックスルー数が誤って水増しされます。
 
-このようなクリックスルー数の水増しを防ぐには、[!UICONTROL getValOnce] プラグインを使用して、各キャンペーンのクリックスルーをセッションあたり 1 回のみカウントするように設定することをお勧めします。[!UICONTROL getValOnce] プラグインについて詳しくは、[実装プラグイン](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)を参照してください。
+このようなクリックスルー数の水増しを防ぐには、[!UICONTROL getValOnce] プラグインを使用して、各キャンペーンのクリックスルーをセッションあたり 1 回のみカウントするように設定することをお勧めします。[!UICONTROL getValOnce] プラグインについて詳しくは、[実装プラグイン](/help/implement/js-implementation/plugins/impl-plugins.md)を参照してください。
 
 **構文と可能な値** {#section_91A141841A6D4711A1EE08A6145A301D}
 
@@ -161,7 +161,7 @@ campaign の各値はユーザーに対して引き続き有効となり、有�
 
 **注意事項、質問、ヒント** {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
-* クリックスルー数の水増しを防ぐには、[!UICONTROL getValOnce] プラグインを使用して、キャンペーンのクリックスルーがセッションあたり 1 回のみカウントされるようにします。[!UICONTROL getValOnce] プラグインについて詳しくは、[実装プラグイン](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)を参照してください。
+* クリックスルー数の水増しを防ぐには、[!UICONTROL getValOnce] プラグインを使用して、キャンペーンのクリックスルーがセッションあたり 1 回のみカウントされるようにします。[!UICONTROL getValOnce] プラグインについて詳しくは、[実装プラグイン](/help/implement/js-implementation/plugins/impl-plugins.md)を参照してください。
 
 * マーケティングキャンペーンの追跡およびキーワードの購入について詳しくは、[キャンペーン](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html)を参照してください。
 * キャンペーンの実際の値を確認するには、[!DNL DigitalPulse Debugger] を使用します（デバッガーで v0 を確認します）。デバッガーで v0 が表示されない場合は、そのキャンペーンデータは記録されていません。
@@ -300,7 +300,7 @@ eVar を訪問者に対して設定すると、その値が期限切れになる
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
-| 255 バイト | V1～v75（[または v100 または v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)） | カスタムコンバージョン | "" |
+| 255 バイト | V1～v75（[または v100 または v250](/help/implement/js-implementation/c-variables/page-variables.md)） | カスタムコンバージョン | "" |
 
 **有効期限** {#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -327,7 +327,7 @@ eVar は、文字列値を保持するためによく使用されますが、カ
 
 **構文と可能な値** {#section_BD46438B14F3488FB9AC42994C317B06}
 
-eVar の名前は変更できますが、JavaScript ファイル内では必ず eVarX にする必要があります。X は 1 ～ 75 の数値（[または 100 または 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)）です。
+eVar の名前は変更できますが、JavaScript ファイル内では必ず eVarX にする必要があります。X は 1 ～ 75 の数値（[または 100 または 250](/help/implement/js-implementation/c-variables/page-variables.md)）です。
 
 ```js
 s.eVarX="value"
@@ -418,11 +418,11 @@ events.xml
 
 デフォルトでは、成功イベントは&#x200B;*カウンター*&#x200B;イベントとして設定されます。カウンターイベントは、成功イベントが設定された回数をカウントします（x+1）。また、イベントは&#x200B;*数値*&#x200B;イベントとしても設定できます。数値イベントを使用すると、数値の増分を指定できます（サイト内検索によって返される結果の数など、動的な値や任意の値をカウントする場合に必要となることがあります）。
 
-*通貨*&#x200B;イベントタイプは、数値イベントと同様に追加する数量を定義するために使用できますが、レポート内では通貨として表示され、s.*`currencyCode`* の値およびレポートスイートのデフォルトの通貨設定に基づいて通貨換算が実行されます。数値イベントと通貨イベントの使用について詳しくは、「[製品](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2)」を参照してください。
+*通貨*&#x200B;イベントタイプは、数値イベントと同様に追加する数量を定義するために使用できますが、レポート内では通貨として表示され、s.*`currencyCode`* の値およびレポートスイートのデフォルトの通貨設定に基づいて通貨換算が実行されます。数値イベントと通貨イベントの使用について詳しくは、「[製品](/help/implement/js-implementation/c-variables/page-variables.md)」を参照してください。
 
 **変数の設定** {#section_9195286C34C54B02B2598E2B856492C3}
 
-[!UICONTROL s.events] 変数は、すべての導入に対してデフォルトで有効化されます。事前設定済みの 7 つのコンバージョンイベントは、新しいレポートスイートで自動的に有効化されます。新しいカスタムイベント（event1 ～  [event100 または event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)）は、管理者レベルのユーザーが Admin Console を使用して有効にする必要があります。
+[!UICONTROL s.events] 変数は、すべての導入に対してデフォルトで有効化されます。事前設定済みの 7 つのコンバージョンイベントは、新しいレポートスイートで自動的に有効化されます。新しいカスタムイベント（event1 ～  [event100 または event1000](/help/implement/js-implementation/c-variables/page-variables.md)）は、管理者レベルのユーザーが Admin Console を使用して有効にする必要があります。
 
 **可能な値** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -475,7 +475,7 @@ s.events="scRemove=3,event6,event2=4"
 
 デフォルトでは、サイトでイベントが設定されるたびにそのイベントがカウントされますが、重複判定による除外もできます。
 
-「[イベントのシリアル化](../../../implement/js-implementation/event-serialization.md#concept_092B638D7FEE423D91F8A57EA8E09705)」を参照してください。
+「[イベントのシリアル化](/help/implement/js-implementation/event-serialization.md)」を参照してください。
 
 **構文** {#section_8559D42D3F344AF3BB3C0125F78C4989}
 
@@ -749,11 +749,11 @@ list_props.xml
 
 **注意点**
 
-* リスト prop はトラフィック変数（[prop](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254)）のオプションです。
+* リスト prop はトラフィック変数（[prop](/help/implement/js-implementation/c-variables/page-variables.md)）のオプションです。
 * パスおよびクロス集計は、リスト prop では有効にできません。
 * リスト prop レポートを含む、ほとんどすべてのレポートに訪問数および個別訪問者数を追加できます。
 * リスト prop では分類がサポートされています。
-* カスタムトラフィック変数はどれもリスト props として使用できます（例外：[pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328)、[channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D)、および [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2)）
+* カスタムトラフィック変数はどれもリスト props として使用できます（例外：[pageName](/help/implement/js-implementation/c-variables/page-variables.md)、[channel](/help/implement/js-implementation/c-variables/page-variables.md)、および [server](/help/implement/js-implementation/c-variables/page-variables.md)）
 
 * 同じイメージリクエストに重複した値が定義される場合、インスタンスの重複は除外されません。
 
@@ -1312,7 +1312,7 @@ mobile.xml
 
  -->
 
-「[モバイルネットワークプロトコル](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC)」を参照してください。
+「[モバイルネットワークプロトコル](/help/implement/js-implementation/c-additional-libraries/network-protocols.md)」を参照してください。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -1585,7 +1585,7 @@ Folio Builder *`products`* 変数は、必ず成功イベントと組み合わ�
 | Product | （必須）製品を追跡するために使用される識別子。この識別子は、[!UICONTROL 製品]レポートのデータを設定するために使用されます。チェックアウトプロセス全体で同じ識別子を必ず使用してください。 |
 | Quantity | 購入した数量。このフィールドは、記録される[!UICONTROL 購入]イベントと共に設定する必要があります。 |
 | Price | 個々の価格ではなく、購入総量の連結コスト（数量 x 単価）を表します。このフィールドは、記録される[!UICONTROL 購入]イベントと共に設定する必要があります。 |
-| イベント | 指定された製品に関連付けられる通貨イベント。詳しくは、[製品固有の通貨イベント](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)および[注文全体にわたる通貨イベント](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)を参照してください。 |
+| イベント | 指定された製品に関連付けられる通貨イベント。詳しくは、[製品固有の通貨イベント](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)および[注文全体にわたる通貨イベント](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)を参照してください。 |
 | eVar | 特定の製品に関連付けられるマーチャンダイジング eVar 値[マーチャンダイジング変数](/help/components/c-variables/c-merch-variables/var-merchandising.md)を参照してください。 |
 
 Folio Builderに&#x200B;*`products`* 変数に含まれる値は、記録しているイベントの種類に基づきます。Category を省略するときは、プレースホルダーとしてカテゴリと製品の区切り文字（;）が必要です。含めるパラメーターを区別する必要がある場合に限り、他の区切り文字が必要です。
@@ -2014,7 +2014,7 @@ s.timestamp="UNIX or ISO-8601 format timestamp"
 >
 >また、オフライントラッキングをサポートするためにレポートスイートのタイムスタンプサポートを有効にした場合は、JavaScript からこのレポートスイートに送られるすべてのヒットにもタイムスタンプが手動で設定（ *`s.timestamp`*）.タイムスタンプ付きのヒットとタイムスタンプのないヒットを同じレポートスイートで記録することはできません。
 >
->また、[タイムスタンプオプション](../../../implement/js-implementation/timestamps-overview.md#concept_1A7DF6F7BDA34467B51A6F61E08BB73F)設定を使用して、タイムスタンプのあるデータとないデータを同じグローバルレポートスイートで組み合わせたり、モバイルアプリからグローバルレポートスイートにタイムスタンプのあるデータを送信したり、新しいレポートスイートを作成することなくタイムスタンプを使用できるようにアプリをアップグレードしたりできます。
+>また、[タイムスタンプオプション](/help/implement/js-implementation/timestamps-overview.md)設定を使用して、タイムスタンプのあるデータとないデータを同じグローバルレポートスイートで組み合わせたり、モバイルアプリからグローバルレポートスイートにタイムスタンプのあるデータを送信したり、新しいレポートスイートを作成することなくタイムスタンプを使用できるようにアプリをアップグレードしたりできます。
 
 **タイムスタンプの形式** {#section_C12CBCECCD7047D38EF63A5800761CE9}
 
