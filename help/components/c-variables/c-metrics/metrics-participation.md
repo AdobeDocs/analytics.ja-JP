@@ -7,7 +7,7 @@ title: パーティシペーション
 topic: 指標
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 パーティシペーション指標は、成功イベントの全クレジットを、訪問中に渡された eVar のすべての値に割り当てます。サイトの成功に最も貢献しているページやキャンペーンなどのカスタム変数値を判断する場合に便利です。パーティシペーションは訪問ベースです。イベント発生時のヒット前（イベント発生時のヒットも含む）の訪問における eVar の値はすべて、有効期限の設定にかかわらず、パーティシペーションクレジットを受け取ります。
 
-See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-metrics/metrics-visitor-participation.md#concept_ACBAE3626B224D9683257B5F73E0FB4A) for more information about how Ad Hoc Analysis uses participation.
+See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
 
 パーティシペーション指標には、コンバージョンイベントごとに 2 つの設定があります。
 
