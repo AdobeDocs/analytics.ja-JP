@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: 開発者と実装
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE]これはベータ版のプラグインであり、追加アップデートが提供される可能性があります。
 
-このプラグインには [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8) が必要です。
+このプラグインには [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md) が必要です。
 
 このプラグインは、ページがブラウザー内にあった秒数の合計（アクティブとパッシブ両方の表示時間）も記録します。ページ表示イベントに関連付けられた前のページ名を追跡するには、getPreviousValue プラグインを使用する必要があります。これらの値を追跡すると、訪問者エンゲージメントについてより深く理解し、サイトでの訪問者の行動をより正確に追跡することができます。
 
