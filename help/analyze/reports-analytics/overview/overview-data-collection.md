@@ -8,12 +8,12 @@ title: データ収集について
 topic: Reports & Analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# データ収集について{#about-data-collection}
+# データ収集について
 
 Adobe Analytics 用にデータを収集する方法を説明します。
 
@@ -29,4 +29,4 @@ Adobe Analytics 用にデータを収集する方法を説明します。
 
 データの収集は非常に短時間で行われるので、ページロード時間に影響しません。ブラウザーの「**更新**」または「**戻る**」ボタンのクリックによるページビューも収集されます。ページがブラウザーキャッシュから取得された場合でも、JavaScript コードが実行されます。
 
-See [Data Collection in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
+See [Data Collection in Analytics.](/help/import/home.md)
