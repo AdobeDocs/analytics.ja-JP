@@ -1,36 +1,36 @@
 ---
-title: Analyticsプラットフォームの処理とアーキテクチャの違い
-description: Adobe AnalyticsやGoogle Analyticsなどのプラットフォーム間でのデータの収集方法と表示方法について説明します。
+title: Analyticsプラットフォーム間の処理とアーキテクチャの違い
+description: Adobe AnalyticsやGoogle Analyticsなどのプラットフォーム間で、一部のデータの収集方法と表示方法が異なる場合について説明します。
 translation-type: tm+mt
-source-git-commit: a5f612ba5e8446a56bc2bd252a8781e8ab1de403
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Analyticsプラットフォームの処理とアーキテクチャの違い
+# Analyticsプラットフォーム間の処理とアーキテクチャの違い
 
-Adobe AnalyticsとGoogle Analyticsは共にAnalyticsツールですが、プラットフォーム間でデータを収集して処理する方法は非常に異なります。このページを使用して、特定のディメンションや指標がどのように収集されるか、および同様のレポートで異なる数字を表示する理由について説明します。
+Adobe AnalyticsとGoogle Analyticsは両方ともAnalyticsツールですが、プラットフォーム間でのデータの収集方法と処理方法は大きく異なります。 このページを使用して、特定のディメンションと指標の収集方法に関する主な違い、および同様のレポートで異なる数値が表示される理由を理解します。
 
-## バウンス率
+## 直帰率
 
-直帰率は、ほとんどの解析ツールで有効性とランディングページの関連性を測定するのに役立つ一般的なKPIです。これは一般に、Webサイトに入ってきたが、別のページにクリックを含まない訪問として定義されています。
+直帰率は、ほとんどの分析ツールでランディングページの効果と関連性を測定するのに使用される一般的なKPIです。 これは、一般に、Webサイトに入る訪問で、別のページへのクリックは含まない訪問と定義されます。
 
-* In Adobe Analytics, Bounce Rate is calculated using the formula **Bounces divided by Entries**.
-* In Google Analytics, Bounce Rate is calculated using the formula **Single-page sessions divided by Sessions**.
+* Adobe Analyticsでは、直帰率はバウンスを入口数で割った数式を使 **用して計算されます**。
+* Google Analyticsでは、直帰率は、単一ページのセッション数をセッシ **ョン数で割った数式を使用して計算されます**。
 
-両方のプラットフォームで、同じ訪問またはセッションで複数のヒットが送信された場合、バウンスと見なされません。Adobe Analyticsでは、カスタムリンクは使用でき、訪問がバウンスとしてカウントされるのを防ぐことができます。通常、Google Analyticsは同じページに複数のデータリクエストを送信しません。
+両方のプラットフォームで、同じ訪問またはセッションで複数のヒットが送信された場合、バウンスとは見なされません。 Adobe Analyticsでは、カスタムリンクを利用でき、かなり一般的で、訪問がバウンスとしてカウントされない可能性があります。 通常、Google Analyticsは同じページで複数のデータリクエストを送信しません。
 
-レポートツール間でより優れた結果を得るには、計算指標の一部としてバウンスの代わりに、Adobe Analyticsの直帰数指標を使用します。直帰数指標には、1ページビューのみが含まれているが、その他のページにクリックを含まない訪問者数の合計が含まれます。
+レポートツール間の統一性を高めるには、バウンスではなくAdobe Analyticsの直帰数指標を計算指標の一部として使用します。 直帰数指標は、1ページビューのみを含む訪問、またはWebサイトに訪問したが、別のページへのクリックは含まない訪問の合計数を含みます。
 
-See the [Bounce Rate](../../components/c-variables/c-metrics/metrics-bounce-rate.md) metric in the Components user guide for more information.
+詳しくは、『 [コンポーネント](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) 』ユーザガイドの「直帰率」指標を参照してください。
 
 ## 訪問回数とセッション数
 
-訪問回数（Google Analyticsのセッションと呼ばれる）は、同じユーザーが短時間で行ったページビューのグループです。通常、両方のプラットフォームでの訪問は、無操作状態が30分間続くと有効期限が切れます。どちらのプラットフォームでも、訪問の有効期限が切れるとカスタマイズが可能になります。各プラットフォームに違いが生じる可能性があるシナリオがいくつかあります。
+訪問回数（Google Analyticsのセッションと呼ばれる）は、同じユーザーが短時間で行ったページビューのグループです。 両方のプラットフォームでの訪問は、通常、無操作状態が30分間続くと有効期限が切れます。 どちらのプラットフォームでも、訪問の有効期限が切れた場合にカスタマイズできます。 各プラットフォームで異なる原因となるシナリオがいくつかあります。
 
-* **終了日:** Google Analyticsのすべてのセッションは、特定の日に午後11時59分に終了します。ユーザーが午前12時以降にサイトで引き続きアクティブになっている場合は、新しいセッションが作成されます。Adobe Analyticsは、同じ訪問の一部として次の日に引き続き訪問します。
-* **異なるキャンペーン:** Google Analyticsの新しいセッションは、ユーザーのキャンペーンソースが変更された場合に開始されます。Adobe Analyticsで新しいトラッキングコード値が表示された場合、その値は同じ訪問の一部と見なされます。
-* **手動セッションの上書き:** Google Analyticsの新しいセッションは、セッションを手動で `sessionControl` 開始または終了するときに開始します。訪問回数は、Adobe Analyticsで手動で終了することはできません。
-* **Adobe Analyticsでの外れ訪の検出:** Adobe Analyticsの新しい訪問は、ユーザーが12時間連続してアクティビティ、2500ヒットまたは100秒以内に100ヒットに達すると自動的に開始されます。これらの検出条件はそれぞれボットアクティビティによってトリガーされます。
+* **** 終了日：Google Analyticsのすべてのセッションは、指定した日の午後11:59以降に期限が切れます。 午前12時以降もユーザーがサイトでアクティブな状態のままの場合は、新しいセッションが作成されます。 Adobe Analyticsは、同じ訪問の一環として、翌日まで引き続き訪問します。
+* **** 異なるキャンペーン：Google Analyticsの新しいセッションは、ユーザーのキャンペーンソースが変更されると開始されます。 新しいトラッキングコード値がAdobe Analyticsに表示される場合、同じ訪問の一部と見なされます。
+* **** 手動セッションの上書き：Google Analyticsの新しいセッションは、を使用してセッションを手動で開始 `sessionControl` または終了すると開始されます。 Adobe Analyticsでは、訪問を手動で終了することはできません。
+* **** Adobe Analyticsでの外れ値訪問検出：Adobe Analyticsの新しい訪問は、ユーザーが100秒以内に12時間連続した操作、2500ヒットまたは100ヒットに達した場合に自動的に開始されます。 これらの各検出条件は、通常、ボットアクティビティによってトリガーされます。
 
-See the [Visits](../../components/c-variables/c-metrics/metrics-visit.md) metric in the Components user guide for more information.
+詳しくは、コ [ンポーネント](/help/components/c-variables/c-metrics/metrics-visit.md) ・ユーザー・ガイドの訪問回数指標を参照してください。
