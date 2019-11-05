@@ -8,7 +8,7 @@ title: コンテキストデータ変数の eVar へのコピー
 topic: 管理ツール
 uuid: 1beac4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ![条件付き](assets/add-conditional.png)
 
-コンテキストデータ変数の実装について詳しくは、実装ユーザーガ [イドの](../../../../implement/js-implementation/c-variables/context-data-variables.md) 「コンテキストデータ変数」を参照してください。
+コンテキストデータ変数の実装について詳しくは、実装ユーザーガ [イドの](/help/implement/js-implementation/c-variables/context-data-variables.md) 「コンテキストデータ変数」を参照してください。
