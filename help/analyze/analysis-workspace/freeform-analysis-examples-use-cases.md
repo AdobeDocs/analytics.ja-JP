@@ -8,7 +8,7 @@ title: Analysis Workspace 使用例
 topic: Reports & Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -60,5 +60,5 @@ Analysis Workspace のデータテーブル、セグメントおよび使用例�
 
    データは分類され、これにより推奨事項とクロスセルを得ることができます。マーチャンダイジングチームはこれらの推奨とクロスセルを他のキャンペーンに導入したり、会社の売上高を向上させることができます。期待する結果が得られるまで、さらに分類を続けることができます。
 
-   これで、[マーチャンダイジングチームとレポートを共有](../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6)できます。
+   これで、[マーチャンダイジングチームとレポートを共有](/help/analyze/analysis-workspace/curate-share/curate.md)できます。
 
