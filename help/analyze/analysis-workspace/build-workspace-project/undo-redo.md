@@ -5,7 +5,7 @@ seo-title: 「元に戻す」および「やり直し」の設定
 title: 「元に戻す」および「やり直し」の設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * レポートスイートの変更の取り消し／やり直しをおこなうことができます。
 * プロジェクト名の近くに取り消し／やり直しのメッセージが表示されます。このメッセージは、取り消しまたはやり直しが進行中であることを示します。
-* 次のホットキーを使用で [きます](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)。
+* 次のホットキーを使用で [きます](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)。
 
    * Ctrl（または Command）+ Z（「元に戻す」）
    * Ctrl（または Command）+ Shift + Z（「やり直し」）
