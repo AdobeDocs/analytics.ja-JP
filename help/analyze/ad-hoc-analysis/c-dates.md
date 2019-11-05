@@ -5,7 +5,7 @@ seo-title: 日付と日付範囲
 title: 日付と日付範囲
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,8 +40,8 @@ c_legacy_data.xml
 
 **履歴日付スライスにアクセスするには**
 
-1. [プロジェクトを作成するか、または開きます。](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. カレンダー [を開き](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)、「四半期」または「年 **[!UICONTROL 」を選]** 択します ****。
+1. [プロジェクトを作成するか、または開きます。](/help/analyze/ad-hoc-analysis/c-getting-started.md)
+1. カレンダー [を開き](/help/analyze/ad-hoc-analysis/c-dates.md)、「四半期」または「年 **[!UICONTROL 」を選]** 択します ****。
 
 > [!NOTE] 履歴日付スライスは、四半期と年の制約があります。 データの日付範囲がレガシースライスから新しい処理プラットフォームに及んでいる場合は、そのデータを表示することはできません。両方にまたがる日付範囲は、エラーになります。また、日付範囲はグレゴリオ暦カレンダーにのみ適用され、カスタムカレンダーには適用されません。
 
