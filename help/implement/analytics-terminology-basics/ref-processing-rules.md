@@ -7,8 +7,8 @@ solution: Analytics
 title: 処理ルール
 topic: 開発者と実装
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -28,9 +28,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 処理ルールについて詳しくは、以下を参照してください。
 
-* Analytics ヘルプおよびリファレンスガイドの「[処理ルール](https://marketing.adobe.com/resources/help/ja_JP/reference/processing_rules.html)」を参照してください。
-* [新規ルールの作成](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB)（このヘルプドキュメント）
-* マーケティングチャネルドキュメントの「[マーケティングチャネル - はじめに](https://marketing.adobe.com/resources/help/ja_JP/mchannel/c_getting_started_mchannel.html)」を参照してください。
-* Analytics ヘルプおよびリファレンスガイドの「[VISTA ルール](https://marketing.adobe.com/resources/help/ja_JP/reference/VISTA.html)」を参照してください。
-* Analytics ヘルプおよびリファレンスガイドの「[ボットルール](https://marketing.adobe.com/resources/help/ja_JP/reference/bot_rules.html)」を参照してください。
+* [処理ルール](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html)（Analytics ヘルプとリファレンスガイド）
+* [新規ルールの作成](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md)（このヘルプドキュメント）
+* [マーケティングチャネル - はじめに](https://marketing.adobe.com/resources/help/en_US/mchannel/c_getting_started_mchannel.html)（マーケティングチャネルのドキュメント）
+* [VISTA ルール](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html)（Analytics ヘルプとリファレンスガイド）
+* [ボットルール](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html)（Analytics ヘルプとリファレンスガイド）
 
