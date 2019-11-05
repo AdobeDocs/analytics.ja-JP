@@ -7,7 +7,7 @@ solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Adobe Analytics の手動実装（レガシー）
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [!UICONTROL Dynamic Tag Management ]を使用した導入のために Adobe Analytics ツールを作成します。ここでは、手動（レガシー）導入について説明します。
 
-自動導入の管理については、「[Adobe Analytics ツールの追加](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8)」を参照してください。
+自動導入の管理については、「[Adobe Analytics ツールの追加](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md)」を参照してください。
 
 手動設定を自動設定に変更する場合は、ツールを編集し、「**[!UICONTROL 自動設定を有効にする]**」をクリックします。
 
 1. Analytics 測定コードをダウンロードします：
    1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL コードマネージャー]**&#x200B;をクリックします。
    1. 「**[!UICONTROL JavaScript (新規)]**」をクリックして、コードをローカルにダウンロードします。
-1. [!UICONTROL Dynamic Tag Management] で、[web プロパティを作成](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)します。
+1. [!UICONTROL Dynamic Tag Management] で、[web プロパティを作成](/help/implement/c-implement-with-dtm/t-create-web-property.md)します。
 
    ![](assets/dtm-property.png)
 
@@ -53,11 +53,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    少なくとも、「**[!UICONTROL Cookie]」をクリックしてトラッキングサーバーおよび SSL トラッキングサーバーを設定します。**
 
-1. **[!UICONTROL 一般]**／[コアの AppMeasurement コードの挿入](../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658)をクリックします。
-1. [!DNL Analytics] データを収集する[ページ型ルール](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB)を定義します。
+1. **[!UICONTROL 一般]**／[コアの AppMeasurement コードの挿入](/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md)をクリックします。
+1. [!DNL Analytics] データを収集する[ページ型ルール](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md)を定義します。
 
    これで、解析データを収集するためのルールを定義する準備ができました。最初にいくつかのデータ要素を定義するとよいでしょう。データ要素を使用すると、ページから抽出したデータをルールの設定に使用できます。最初はまず、各ページの [!DNL Analytics] データを収集するための条件を持たないページ型ルールを定義するとよいでしょう。
-1. [「埋め込み」タブのヘッダーおよびフッターコードを各ページに追加](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5)します。
+1. [「埋め込み」タブのヘッダーおよびフッターコードを各ページに追加](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)します。
 
    ステージングでは、デフォルト設定のままでもよいでしょう。必要に応じて、実稼動サイトへ発行する前までに変更してください。
 1. （オプション）「オプション」タブの「**[!UICONTROL 設定]**」（![](assets/settings_gear.png)）をクリックして、Adobe Analytics コードを設定します。
