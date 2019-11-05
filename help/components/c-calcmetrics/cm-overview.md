@@ -6,7 +6,7 @@ seo-title: 計算指標および高度な計算（派生）指標
 title: 計算指標および高度な計算（派生）指標
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
 >
 >* 「マーケティングチャネルラストタッチ」および「マーケティングチャネルファーストタッチ」配分モデルは、それぞれ新しい「ラストタッチ」および「ファーストタッチ」アトリビューションモデルに移行されました(注意：「マーケティングチャネル」は廃止されていません。計算指標に表示される2つの配分モデルのみが推奨されています。
->* さらに、線形配分の計算方法を修正しました。 「線形」配分モデルを使用する計算指標を使用している顧客の場合、新しい修正済みアトリビューションモデルを反映して、レポートが少し変わる可能性があります。 This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 詳細については、[2018 年 7 月 19 日時点の線形配分の適用方法](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
+>* さらに、線形配分の計算方法を修正しました。 「線形」配分モデルを使用する計算指標を使用している顧客の場合、新しい修正済みアトリビューションモデルを反映して、レポートが少し変わる可能性があります。 This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 詳細については、[2018 年 7 月 19 日時点の線形配分の適用方法](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
 
 
 計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
@@ -34,13 +34,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 | ビルダーのオプション | 計算指標 | 高度な計算（派生）指標 |
 |---|---|---|
-| [形式のタイプ（小数、時間、割合、通貨）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18) | ○ | ○ |
-| [アトリビューションの変更（デフォルト、線形、パーティシペーションなど）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) | ○ | ○ |
-| [指標のタイプ（標準、合計）](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) | ○ | ○ |
+| [形式のタイプ（小数、時間、割合、通貨）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | ○ | ○ |
+| [アトリビューションの変更（デフォルト、線形、パーティシペーションなど）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | ○ | ○ |
+| [指標のタイプ（標準、合計）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | ○ | ○ |
 | 基本的な演算子（可算、減算、乗算、除算） | ○ | ○ |
-| [セグメントの適用](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md#concept_21C77BD86E7E45E79AF030D8ED54DB3E) | × | ○ |
-| [基本的な関数（カウント、絶対値、平均など）](../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) | × | ○ |
-| [高度な関数（回帰、if/then、t スコアなど）](../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174) | × | ○ |
+| [セグメントの適用](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | × | ○ |
+| [基本的な関数（カウント、絶対値、平均など）](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | × | ○ |
+| [高度な関数（回帰、if/then、t スコアなど）](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | × | ○ |
 
 ## 機能 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
@@ -83,7 +83,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18" format="dita" scope="local"> 計算指標ビルダー</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > 計算指標ビルダー</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
      <li id="li_A4A6E716374243A190C539A3F4A41C0C">高度な配分モデルを使用した計算指標および高度な計算指標を作成する。 </li> 
@@ -98,7 +98,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653" format="dita" scope="local"> 計算指標マネージャ</a> </td> 
+   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > 計算指標マネージャ</a> </td> 
    <td colname="col2"> 
     <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
      <li id="li_E0B216BA1478406EB6212263DF71D85B">他のユーザーと指標を共有する。 </li> 
@@ -110,10 +110,10 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> 指標セレクターレール </td> 
-   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>このレールを使用すると、指標を検索したり、指標をレポートに追加または適用したりできます。また、<a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">並べ替え</a>順を変更することもできます（オプション：アルファベット順、推奨、頻繁に使用、最近使用）。さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標だけを表示できます。 </p> <p>この指標セレクターにアクセスするには、レポートの左側の指標アイコン <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> をクリックします。次の図に示すのが指標セレクターです。 </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>このレールを使用すると、指標を検索したり、指標をレポートに追加または適用したりできます。また、<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >並べ替え</a>順を変更することもできます（オプション：アルファベット順、推奨、頻繁に使用、最近使用）。さらに、レポートスイートをフィルタリングして、特定のレポートスイートで作成された指標だけを表示できます。 </p> <p>この指標セレクターにアクセスするには、レポートの左側の指標アイコン <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> をクリックします。次の図に示すのが指標セレクターです。 </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> 計算指標の API</a> </td> 
+   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 計算指標の API</a> </td> 
    <td colname="col2"> <p>Adobe Analytics 2.0 APIセットの一部。 </p> </td> 
   </tr> 
  </tbody> 
