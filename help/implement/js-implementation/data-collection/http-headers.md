@@ -8,7 +8,7 @@ title: データ収集 HTTP ヘッダー
 topic: 開発者と実装
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ HTTP リクエストヘッダーと HTTP 応答ヘッダーは、AppMeasurement 
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>データ収集サーバーによって以前に作成された Cookie を読み取ります。 </p> <p> 2014 年以降、アドビのサーバーでは、アドビが設定した Cookie を除き、サーバーコールに伴うすべての Cookie が破棄されます。アドビの Cookie の一覧については、<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Experience Cloud で使用される cookie</a> を参照してください。 </p> </td> 
+   <td> <p>データ収集サーバーによって以前に作成された Cookie を読み取ります。 </p> <p> 2014 年以降、アドビのサーバーでは、アドビが設定した Cookie を除き、サーバーコールに伴うすべての Cookie が破棄されます。アドビの Cookie の一覧については、<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/">Experience Cloud で使用される cookie</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
