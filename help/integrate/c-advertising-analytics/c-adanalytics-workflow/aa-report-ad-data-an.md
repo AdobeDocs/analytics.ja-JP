@@ -5,7 +5,7 @@ seo-title: Analytics での広告データのレポート
 title: Analytics での広告データのレポート
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,9 @@ Analysis Workspace テンプレート、および Reports &amp; Analytics と Re
 
 このテンプレートを使用すると、この検索エンジン統合を実装するユーザーは、Analytics で大量の検索エンジンデータにアクセスできます。You can access it via **[!UICONTROL Workspace]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Advertising]** &gt; **[!UICONTROL Search Engines.]**
 
-> [!NOTE] 広告テンプレートカテゴリは、広告アカウントを実装していない場合でも、すべての顧客に表示されます。 ただし、プロビジョニングされていない会社の検索エンジンテンプレートを開こうとすると、検索エンジンアカウントが設定されていないというエラーメッセージが表示されます。この場合は、「**[!UICONTROL 今すぐ設定]**」をクリックし、[Advertising アカウント設定](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C)画面に移動します。
+>[!NOTE]
+>
+> 広告テンプレートカテゴリは、広告アカウントを実装していない場合でも、すべての顧客に表示されます。 ただし、プロビジョニングされていない会社の検索エンジンテンプレートを開こうとすると、検索エンジンアカウントが設定されていないというエラーメッセージが表示されます。この場合は、「**[!UICONTROL 今すぐ設定]**」をクリックし、[Advertising アカウント設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)画面に移動します。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
