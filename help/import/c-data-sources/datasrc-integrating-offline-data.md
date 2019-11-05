@@ -8,7 +8,7 @@ title: トランザクションの統合と顧客の統合
 topic: 開発者と実装
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 データソースには、オフラインで発生するイベントをオンラインデータに統合する方法がさらに2つ用意されています。
 
-* [トランザクション ID の記録の有効化](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
-* [トランザクションの統合](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
-* [顧客の統合](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_9F4AAD710D2543BDA834090A98115FBF)
+* [トランザクション ID の記録の有効化](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
+* [トランザクションの統合](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
+* [顧客の統合](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_9F4AAD710D2543BDA834090A98115FBF)
 
 これらの統合によって、オフラインデータが特定のオンライントランザクションやオンライン訪問者と関連付けられます。
 
@@ -34,7 +34,7 @@ Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONT
 <p>When contacting Customer Care, be prepared to provide the following information: </p> 
 <ul id="ul_C425C7A074484650AFCCF0425E8E3F47"> 
  <li id="li_7640C0C4DF0C49749A3C37E5461DC22F">Report Suite ID of the data source for which you need transaction ID recording enabled. <p>In Data Sources, the report suite ID is the first part of the login appended by a random number that identifies the specific data source that was set up. For example, <code> RSID-drmossdev5 Login-drmossdev5_0001343430</code>. </p> </li> 
- <li id="li_4FB0E3EC7BE94A2DBEE9063365A71C9C">The Transaction ID expiration window (described in <a href="../../import/c-data-sources/datasrc-tid-visitor-profile.md#concept_0AF92491E8274BF69E66DB36E5F54A0F" format="dita" scope="local"> Transaction ID and Visitor Profiles</a>). By default this is 90 days, but it can be extended to up to 2 years. </li> 
+ <li id="li_4FB0E3EC7BE94A2DBEE9063365A71C9C">The Transaction ID expiration window (described in <a href="/help/import/c-data-sources/datasrc-tid-visitor-profile.md"  > Transaction ID and Visitor Profiles</a>). By default this is 90 days, but it can be extended to up to 2 years. </li> 
 </ul>
 
  -->
@@ -52,7 +52,7 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 * 顧客 ID が&#x200B;*`visitorID`* 変数にも取り込まれます。
 * 顧客のアクティビティがオフラインに移行する（リードの送信、購入など）明確な時点が存在しない。
 
-このタイプのデータソースを設定するには、次を参照してください。 [訪問者 ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+このタイプのデータソースを設定するには、次を参照してください。 [訪問者 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## トランザクションの統合 {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
@@ -68,4 +68,4 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 これは、トランザクション ID データが訪問とは関連付けられておらず（通常、オフラインイベントはオンラインイベントに含まれないため）、訪問者と関連付けられているからです。
 
-参照： [トランザクション ID](../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776).
+参照： [トランザクション ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
