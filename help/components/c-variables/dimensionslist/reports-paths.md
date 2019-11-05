@@ -7,7 +7,7 @@ title: パス
 topic: レポート
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,7 +38,7 @@ Web サイトのページがアクセスされた順序が表示されます。�
 
 ![](assets/fallout_graphic.png)
 
-詳しくは、[フォールアウトレポート](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41)からの作成
+詳しくは、[フォールアウトレポート](/help/components/c-variables/dimensionslist/reports-fallout.md)からの作成
 
 **[!UICONTROL パスファインダー]**：フルパスをフラグメントに細分し、サイトの最適化に役立つ精密なパターンを作り出すことができます。パスファインダーウィザードを使用すると、レポートの生成に使用する選択条件を指定できるので、パスフラグメントを分析し、特定のページで始まるパス、特定のページで終わるパス、または特定のページで始まり特定のページで終わるパスを検索できます。
 
