@@ -5,7 +5,7 @@ seo-title: レポートスイートのデータガバナンス設定の表示／
 title: レポートスイートのデータガバナンス設定の表示／管理
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,16 +38,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>マップ済み</b>：このレポートスイートは、ログインした Analytics ログイン会社として、同じ Experience Cloud 組織に既にマッピングされています。この設定のあるレポートスイートのみ、ラベル設定できます。 </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>レポートスイートをマップ</b>：このリンクをクリックすると、Experience Cloud 組織に<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">レポートスイートをマップ</a>できます。 <p>すると、Experience Cloud 組織 – レポートスイートマッピング管理ページにリダイレクトされます。そこから、レポートスイートを検索して適切な組織に割り当てる必要があります。それが完了したら、このデータガバナンス画面に戻ります。 </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>レポートスイートをマップ</b>：このリンクをクリックすると、Experience Cloud 組織に<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html">レポートスイートをマップ</a>できます。 <p>すると、Experience Cloud 組織 – レポートスイートマッピング管理ページにリダイレクトされます。そこから、レポートスイートを検索して適切な組織に割り当てる必要があります。それが完了したら、このデータガバナンス画面に戻ります。 </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>別の組織にマップ済み</b>：このレポートスイートは、別の Experience Cloud 組織に既にマッピングされています。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>データ保持ポリシー </p> </td> 
-   <td colname="col2"> <p>Analytics のデータプライバシー実装では、データ保持ポリシーを適用する必要があります。 </p> <p>この設定では、以下の点を確認できます。 </p> 
-    <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
-     <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">このレポートスイートに対してデータ保持ポリシーが適用されているかどうか。 </li> 
-     <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">アドビによってデータが保持される期間（この期間を過ぎると削除されます）。デフォルトのデータ保持期間は 25 ヶ月です。 </li> 
+   <td colname="col2"> <p>Analytics のデータプライバシー実装では、データ保持ポリシーを適用する必要があります。 </p> <p>この設定は、次のいずれかを示します。 </p> 
+    <ul> 
+     <li>このレポートスイートに対してデータ保持ポリシーが設定され、 </li> 
+     <li>データが削除されるまでにアドビが保持する期間。 デフォルトのデータ保持期間は 25 ヶ月です。 </li> 
     </ul> <p>注意：データ保持期間が設定されていないと、Adobe Analytics は、データプライバシー API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、カスタマーサクセスマネージャーまでお問い合わせください。 </p> </td> 
   </tr> 
   <tr> 
