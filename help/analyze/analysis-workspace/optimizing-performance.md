@@ -5,7 +5,7 @@ seo-title: Analysis Workspace のパフォーマンスの最適化
 title: Analysis Workspace のパフォーマンスの最適化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ Analysis Workspace のプロジェクトのパフォーマンスに影響を与�
 
 日付範囲（紫のコンポーネント）がパネルの日付範囲よりも優先されることに注意してください。そのため、別の日付範囲を列として使用すると（例えば、先月、先週、昨日などの列）、パネルの日付範囲は列のすべての日付範囲にまたがる必要がなくなります。フリーフォームテーブルで使用されているデータ範囲はパネルよりも優先されるので、これは、単に昨日に設定するだけで済みます。Analysis Workspace での日付範囲の扱いについて詳しくは、[こちらのビデオ](https://www.youtube.com/watch?v=ybmv6EBmhn0)をご覧ください。
 
-Use [date comparison options](../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764) to pull in the specific time periods of data you want to compare. 例えば、先月のデータを前年の同じ月と比較して表示する必要がある場合は、パネルを過去 13 ヶ月のデータに設定するのではなく、単純に期間の比較オプションを使用して前年比のパフォーマンスを示します。
+Use [date comparison options](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) to pull in the specific time periods of data you want to compare. 例えば、先月のデータを前年の同じ月と比較して表示する必要がある場合は、パネルを過去 13 ヶ月のデータに設定するのではなく、単純に期間の比較オプションを使用して前年比のパフォーマンスを示します。
 
 ## ビジュアライゼーションの数
 
