@@ -1,19 +1,19 @@
 ---
 description: Web ログデータソースから、標準の Web サーバーログファイルをインポートできます。
 seo-description: Web ログデータソースから、標準の Web サーバーログファイルをインポートできます。
-seo-title: Webログ
+seo-title: Web ログ
 solution: Analytics
 subtopic: データソース
-title: Webログ
-topic: 開発者と導入
-uuid: a0efed57-6d1b-43d8-97ce- dc31009805e0
+title: Web ログ
+topic: 開発者と実装
+uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Webログ
+# Web ログ
 
 Web ログデータソースから、標準の Web サーバーログファイルをインポートできます。
 
