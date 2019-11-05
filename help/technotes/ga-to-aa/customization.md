@@ -1,72 +1,72 @@
 ---
 title: Adobe Analyticsでのレポートのカスタマイズ
-description: Adobe Analyticsでレポートをカスタマイズする方法について説明します
+description: Adobe Analyticsでレポートをカスタマイズする方法について説明します。
 translation-type: tm+mt
-source-git-commit: a5f612ba5e8446a56bc2bd252a8781e8ab1de403
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # レポートのカスタマイズ
 
-Googleアナリティクスなどのサードパーティプラットフォームでは、いくつかのカスタマイズオプションを使用できます。これらのカスタマイズにより、ユーザーはダッシュボード、カスタムレポート、保存されたレポートおよびカスタムアラートを作成できます。Analysis Workspaceでは、空白のキャンバスからレポートを作成できるので、ほとんどのカスタマイズはツールに直接組み込まれています。
+Google Analyticsなどのサードパーティプラットフォームでは、複数のカスタマイズオプションを使用できます。 これらのカスタマイズにより、ユーザーはダッシュボード、カスタムレポート、保存されたレポート、カスタムアラートを作成できます。 Analysis Workspaceでは空白のキャンバスからレポートを作成できるので、ほとんどのカスタマイズはツールに直接組み込まれます。
 
-このページでは、Analysis Workspaceの使用に関する基本的な知識があると想定しています。See [Create a basic report in Analysis Workspace for Google Analytics users](reports/create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+このページでは、ユーザーがAnalysis Workspaceの使用に関する基本的な知識を持っていることを前提としています。 Adobe Analytics [のツールに詳しくない場合は、Analysis WorkspaceでのGoogle Analyticsユーザー用の基本レポートの作成](reports/create-report.md) （英語のみ）を参照してください。
 
 ## ダッシュボード
 
-Analysis Workspaceのアーキテクチャは、ダッシュボードウィジェットの概念と同様に構築されています。Analysis Workspaceのプロジェクトは、Google Analyticsのダッシュボードとほぼ同じです。Analysis Workspaceのビジュアライゼーションは、Google Analyticsのウィジェットとほぼ同じです。
+Analysis Workspaceのアーキテクチャは、ダッシュボードウィジェットの概念と似たように構築されています。 Analysis Workspaceのプロジェクトは、Google Analyticsのダッシュボードとほぼ同じです。 Analysis Workspaceのビジュアライゼーションは、Google Analyticsのウィジェットとほぼ同じです。
 
 ### プロジェクトへのコンテンツの追加
 
 1. 左側のビジュアライゼーションアイコンをクリックし、目的のビジュアライゼーションをワークスペースにドラッグします。
-2. 左側のコンポーネントアイコンをクリックし、目的のディメンションおよび指標をビジュアライゼーションにドラッグして、データを入力します。
+2. 左側のコンポーネントアイコンをクリックし、目的のディメンションと指標をビジュアライゼーションにドラッグして、データを埋め込みます。
 3. ビジュアライゼーションの端をドラッグしてサイズを変更し、ビジュアライゼーションのタイトルをドラッグして移動します。
 
-すべてのGoogle Analyticsウィジェットは、Analysis Workspaceで利用できます。
+Analysis Workspaceでは、すべてのGoogle Analyticsウィジェットを使用できます。
 
-* **指標ウィジェット** は、概要番号ビジュアライゼーションとほぼ同じです。
-* **タイムラインウィジェット** は、線のビジュアライゼーションとほぼ同じです。
-* **ジオマップウィジェット** は、マップのビジュアライゼーションとほぼ同じです。
-* **テーブルウィジェット** は、ほぼフリーフォームテーブルのビジュアライゼーションとほぼ同じです。
-* **円ウィジェット** は、ドーナツグラフのビジュアライゼーションとほぼ同じです。
-* **バーウィジェット** はバーのビジュアライゼーションとほぼ同じです。
+* 指標ウ **ィジェットは** 、数の概要ビジュアライゼーションとほぼ等しくなります。
+* タイムライン **ウィジェットは** 、線のビジュアライゼーションとほぼ等しくなります。
+* Geomapウィジ **ェットは** 、Mapビジュアライゼーションとほぼ同じです。
+* テーブル **ウィジェットは** 、フリーフォームテーブルのビジュアライゼーションとほぼ等しくなります。
+* 円ウィ **ジェットは** 、ドーナツビジュアライゼーションとほぼ等しくなります。
+* バーウィ **ジェットは** 、バーのビジュアライゼーションとほぼ等しくなります。
 
-Analysis Workspaceには、レポートのニーズに最適なデータを表示するための、より多くの視覚化オプションが用意されています。See [Visualizations in Analysis Workspace](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) in the Analyze User Guide for more information.
+Analysis Workspaceには、レポートのニーズに最も適した方法でデータを表示するための、さらに多くのビジュアライゼーションオプションが含まれています。 詳しくは [、Analyzeユーザーガイドの](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 「Analysis Workspaceのビジュアライゼーション」を参照してください。
 
 ### プロジェクトの共有
 
-プロジェクトへのコンテンツの追加が完了したら、コンテンツを共有できます。
+プロジェクトへのコンテンツの追加が完了したら、共有できます。
 
-* プロジェクトを同僚と共有するには、共有/プロジェクトを共有に移動します。受信者は、Adobe Analyticsアカウントを持つ組織内の他のユーザーです。
-* リンクを使用してプロジェクトを共有するには、共有/プロジェクトリンクを取得に移動します。ただし、組織内でAdobe Analyticsにログインする必要があります。
+* プロジェクトを同僚と共有するには、共有/プロジェクトを共有に移動します。 受信者は、組織内でAdobe Analyticsアカウントを持つ他のユーザーです。
+* リンクを使用してプロジェクトを共有するには、共有/プロジェクトリンクの取得に移動します。 この場合も、組織内のAdobe Analyticsにログインする必要があります。
 
 ### プロジェクトの書き出し
 
 Analysis Workspaceは、PDFに加えてCSVエクスポートを提供します。
 
-1. *[!UICONTROL 共有]* /ファイルを今 **&#x200B;すぐ送信をクリックして、モーダルウィンドウを開きます。
+1. 共有/フ *[!UICONTROL ァイルを]* 今すぐ送信 *[!UICONTROL (Send File Now]*)をクリックし、モーダルウィンドウを開きます。
 2. ファイルの種類と受信者を指定します。
 3. Click [!UICONTROL Send Now].
 
 ## カスタムレポート
 
-Google Analyticsでカスタムレポートを作成する場合、必要なフィールドはワークスペース内のビジュアライゼーションの作成のワークフローと似ています。ディメンション、指標およびフィルターの定義は、プラットフォーム間で似ています。Analysis Workspaceでは、リストからディメンションや指標を選択する代わりに、ディメンションと指標がフリーフォームテーブルにドラッグされます。
+Google Analyticsでカスタムレポートを作成する場合、必要なフィールドは、ワークスペースでビジュアライゼーションを作成する際のワークフローと似ています。 ディメンション、指標およびフィルターの定義は、プラットフォーム間で似ています。 Analysis Workspaceでは、リストからディメンションと指標を選択する代わりに、ディメンションと指標をフリーフォームテーブルにドラッグします。
 
 ### カスタムレポートの計算指標
 
-カスタムレポートは、Google Analyticsの一部の領域の1つで、計算指標を使用できます。Analysis Workspaceはキャンバスのように動作するので、計算指標はさかのぼって、任意のコンテキストで動作します。
+カスタムレポートは、Google Analyticsで計算指標を使用できる数少ない領域の1つです。 Analysis Workspaceはキャンバスのように機能するので、計算指標は遡及的に、また任意のコンテキストで機能します。
 
 計算指標を作成するには：
 
-1. Click the **+** icon near the metric list to open the Calculated Metric Builder.
+1. 指標リストの **近くにある** +アイコンをクリックして、計算指標ビルダーを開きます。
 2. 計算指標に名前を付け、形式を指定します。
 3. 指標コンポーネントを定義領域にドラッグし、各コンポーネント間のドロップダウンを使用して演算子を指定します。
-4. 計算指標に目的の数式が表示されたら、[保存]をクリックしてワークスペースに戻ります。
+4. 計算指標に目的の数式が含まれたら、「保存」をクリックしてワークスペースに戻ります。
 5. 新しく定義した計算指標をワークスペースにドラッグします。
 
-   Learn more about [Calculated Metrics](../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
+   計算指標につい [て詳しくは](/help/components/c-variables/c-metrics/calculated-metric.md) 、コンポーネントユーザーガイドを参照してください。
 
 ## カスタムアラート
 
-アラートは両方のプラットフォームで使用できます。In Adobe Analytics, use the header navigation menu and go to *[!UICONTROL Components]* &gt; *[!UICONTROL Alerts]*. See [Intelligent Alerts](../../components/c-alerts/intellligent-alerts.md) in the Components User Guide for more information.
+アラートは、両方のプラットフォームで使用できます。 Adobe Analyticsで、ヘッダーナビゲーションメニューを使用し、コンポーネント *[!UICONTROL /アラートに移]* 動します **。 詳細につ [いては、『コンポーネントユーザガイド](/help/components/c-alerts/intellligent-alerts.md) 』の「インテリジェントアラート」を参照してください。
