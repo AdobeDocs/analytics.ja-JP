@@ -5,7 +5,7 @@ seo-title: インテリジェントアラート
 title: インテリジェントアラート
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -75,7 +75,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：点線を構成する「期待値」の表、またはそれらの値が何かを出力する表を取得できますか。 </b> </p> </td> 
-   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。30 日間の固定のトレーニング期間と固定の 95% 間隔が使用され、<a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Reports &amp; Analytics の異常値検出</a>に似ています。 </p> </td> 
+   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。30 日間の固定のトレーニング期間と固定の 95% 間隔が使用され、<a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html"  ><span class="uicontrol"></span>Reports &amp; Analytics の異常値検出</a>に似ています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
