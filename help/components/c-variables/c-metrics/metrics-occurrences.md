@@ -7,7 +7,7 @@ title: 発生件数
 topic: 指標
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 似たように見える次の 2 つの指標が一覧表示されます。
 
-**[インスタンス](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)**：変数に対して特定の値が設定された回数。
+**[インスタンス](/help/components/c-variables/c-metrics/metrics-instance.md)**：変数に対して特定の値が設定された回数。
 
 **回数**：値が設定または持続された回数の合計。
 
