@@ -7,7 +7,7 @@ title: パーティシペーション指標の追加
 topic: 指標
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 パーティシペーション指標を追加する方法について手順を説明します。
 
-Participation has to be [enabled](../../../components/c-variables/c-metrics/metrics-participation.md#concept_8E6B39106A244CB49E055150B291B477) for events (1-100) in the Admin Tools before you can add them to a report.
+Participation has to be [enabled](/help/components/c-variables/c-metrics/metrics-participation.md) for events (1-100) in the Admin Tools before you can add them to a report.
 
 パーティシペーション指標は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーで作成することもできます。
 
