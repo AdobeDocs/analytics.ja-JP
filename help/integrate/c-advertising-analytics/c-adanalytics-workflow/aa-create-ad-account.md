@@ -3,7 +3,7 @@ seo-title: 広告アカウントの設定
 title: 広告アカウントの設定
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Adobe Analytics Administrator は、新しい広告アカウントを作成して、複数のアカウントを複数のレポートスイート（1 対 1、1 対多、多対多）にマッピングできます。
 
-また管理者は、Advertising アカウントを設定するための[アクセス権限を管理者以外のユーザーに付与する](../../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)こともできます。
+また管理者は、Advertising アカウントを設定するための[アクセス権限を管理者以外のユーザーに付与する](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)こともできます。
 
 ![](assets/aa_accounts.png)
 
@@ -47,7 +47,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords：Google アカウント ID を入力します。 </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：Bing アカウント ID と Bing カスタマー ID を入力します。 </li> 
-        </ul> <p>これらの ID について詳しくは、<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local">アカウント ID を見つける方法</a>を参照してください。 </p> <p>ログインが完了すると、OAuth Tokenフィールドが表示されます 
+        </ul> <p>これらの ID について詳しくは、<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >アカウント ID を見つける方法</a>を参照してください。 </p> <p>ログインが完了すると、OAuth Tokenフィールドが表示されます 
         <systemoutput>
           取得済み
         </systemoutput>を参照してください。 </p> </td> 
@@ -74,7 +74,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">「s_kwcid」のパラメーターおよび値がアカウントのトラッキングテンプレート、または追加されるアカウント内のランディングページ URL に追加されます。これは、URL の最後に挿入されます。結果として、ウェブサーバーに特定の key=value ペアが URL の最後に必要な場合や、URLの で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業を行う必要がある場合があります。 </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">加えて、キーワードを「s_kwcid」値の一部としてランディング URL に追加できるため、特殊文字や記号が含まれている場合、ウェブサーバーでそれらの文字がサポートされていることを確認してください（一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます）。 </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 手動</span>:検索エンジンのトラッキングテンプレート/リンク先URLにトラッキングパラメータを追加する方法を管理できます。 <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local">各検索エンジンについては手動トラッキングの例を参照してください</a>。 </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 手動</span>:検索エンジンのトラッキングテンプレート/リンク先URLにトラッキングパラメータを追加する方法を管理できます。 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  >各検索エンジンについては手動トラッキングの例を参照してください</a>。 </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -98,7 +98,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>レポートスイートのマッピング </p> </td> 
-      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external">使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
+      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -106,7 +106,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 保存すると、免責事項に注意事項の一覧が表示されます。この注意事項を読み、理解したことを確認してください。Click the checkbox, then click **[!UICONTROL OK]**.
 
-   Advertising Accounts [管理 UI](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB) に移動し、新規に作成したアカウントが表示されます。
+   Advertising Accounts [管理 UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) に移動し、新規に作成したアカウントが表示されます。
 
 > [!NOTE] 検索エンジンのデータがAnalyticsレポートに入力し始めるまで、少なくとも24時間待つ必要があります。
 
