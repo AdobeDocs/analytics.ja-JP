@@ -1,32 +1,32 @@
 ---
-title: サードパーティの分析プラットフォームからAdobe Analyticsへの移行
-description: Googleアナリティクスなど、他のプラットフォームに精通しているユーザー向けのレポートを取得するための主要概念について説明します。
+title: サードパーティの分析プラットフォームから Adobe Analytics への移行
+description: Google Analyticsなど、他のプラットフォームに詳しいユーザーを対象にした、レポートを取得するための主要概念について説明します。
 translation-type: tm+mt
-source-git-commit: a5f612ba5e8446a56bc2bd252a8781e8ab1de403
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# サードパーティの分析プラットフォームからAdobe Analyticsへの移行
+# サードパーティの分析プラットフォームから Adobe Analytics への移行
 
-このガイドでは、Adobe Analyticsの中核的な概念やワークフローを学習し、Adobe Analyticsと他の一般的なツールの違いに焦点を当てる、基本的な概念やワークフローについて説明します。このガイドは、基本的なデジタル解析概念に精通しているが、Adobe Analyticsの新しい概念に精通していることを目的としています。Adobeデータ収集サーバーにデータを送信する作業環境があることを前提としています。If your organization has not yet set up an Adobe Analytics implementation, start with the [Adobe Analytics First Admin Guide](../../admin/admin-console/first-admin-guide.md).
+このガイドでは、Adobe Analyticsの主要な概念とワークフローを学ぶのに役立つ、アドビと他の一般的なツールとの主な類似点と違いに焦点を当てた一般的なレポートタイプを示します。 このガイドは、デジタル解析の基本概念に詳しいが、Adobe Analyticsを初めて使用するアナリストを対象としています。 組織に、アドビのデータ収集サーバーにデータを送信する実装が正常に行われていることを前提としています。 組織でAdobe Analyticsの実装をまだ設定していない場合は、まず『 [Adobe Analytics First Admin Guide』を参照してください](/help/admin/admin-console/first-admin-guide.md)。
 
-Google AnalyticsとAdobe Analyticsは共に強力なプラットフォームであり、Webサイトのパフォーマンスに貴重なインサイトを得ることができます。それぞれに独自の処理アーキテクチャとユーザーインターフェイスがあり、各プラットフォーム固有の利点があります。このガイドは、Adobe Analyticsに関してGoogle Analyticsに精通したユーザーを支援するために設計されています。
+Google AnalyticsとAdobe Analyticsは、Webサイトのパフォーマンスに対する価値あるインサイトを得るための強力なプラットフォームです。 それぞれに独自の処理アーキテクチャとユーザーインターフェイスがあり、プラットフォームごとに異なる利点があります。 このガイドは、Google Analyticsでの経験を持つユーザーをAdobe Analyticsに適合させるのに役立つように設計されています。
 
-Adobe Analyticsでは、Adobe Experience Cloudにログインした後に基本レポートを取り込む2つの主な方法があります。
+Adobe Analyticsでは、Adobe Experience cloudにログインした後に基本レポートを取り込む方法は2つあります。
 
-* **Reports&amp; Analytics** は基本的なレポートを引き出すための履歴です。左側のメニューには、プリタブ化されたレポートのリストが表示され、ユーザーは目的のレポートに移動してデータを取得できます。セグメントと指標によって、追加のカスタマイズを提供できます。Google Analyticsレポートに精通しているユーザーは、このレイアウトを熟知している可能性があります。
-* **分析ワークスペース** は、ほとんどのレポートを引き出すための現在の推奨方法です。左側のメニューを使用すると、ユーザーはコンポーネントをドラッグ&amp;ドロップして独自のレポートを作成できます。正確なレポートのニーズをはるかに満たすことができます。Google Analyticsのダッシュボードとカスタムレポートの作成経験があるユーザーは、このレイアウトを熟知している可能性があります。
+* **Reports &amp; Analyticsは** 、基本的なレポートを取り込む過去の方法です。 左側のメニューには、プレハブレポートのリストが表示され、ユーザは必要なレポートに移動してデータを取得できます。 セグメントと指標は、追加のカスタマイズを提供できます。 Google Analyticsのレポートに慣れているユーザーは、このレイアウトを使い慣れていると思われます。
+* **ほとんどのレポートを取り込むには** 、Analysis Workspaceが推奨される方法です。 左側のメニューを使用すると、ユーザーはコンポーネントをドラッグ&amp;ドロップして独自のレポートを作成できます。 これにより、正確なレポートのニーズを満たすための自由度が大幅に向上します。 Google Analyticsのダッシュボードとカスタムレポートの作成経験がある方は、このレイアウトを使い慣れていると思います。
 
-ほとんどのレポートは、Reports&amp; AnalyticsとAnalysis Workspaceの両方で作成できます。ただし、一部のレポートは1つのプラットフォームのみを使用して取り込むことができます。ほとんどの場合、特定の機能がReports&amp; Analyticsでのみ利用可能でない限り、アドビではAnalysis Workspaceの使用を推奨しています。
+ほとんどのレポートは、Reports &amp; AnalyticsとAnalysis Workspaceの両方で作成できます。 ただし、一部のレポートは、一方のプラットフォームを使用してのみ取り込むことができます。 特定の機能がReports &amp; Analyticsでのみ使用できる場合を除き、ほとんどの場合、Analysis Workspaceの使用をお勧めします。
 
-## 推奨される学習パス
+## 推奨学習パス
 
-レポートデータの取得については、基本的な基本原則から始めてください。
+レポートデータの取得に関する基本事項から始めることをお勧めします。
 
-* [GAユーザー用のAnalysis Workspaceでの基本レポートの作成](reports/create-report.md)
+* [Analysis Workspace for GA での基本レポートの作成](reports/create-report.md)
 
-Analysis Workspaceのコンポーネントに慣れたら、適切なコンポーネントを使用して、ほとんどのレポートを再作成する方法を学習できます。
+Analysis Workspaceのコンポーネントについて理解したら、適切なコンポーネントを使用してほとんどのレポートを再作成する方法を学ぶことができます。
 
 * [Adobe Analyticsでリアルタイムレポートを作成する](reports/realtime-reports.md)
 * [Adobe Analyticsでのオーディエンスレポートの作成](reports/audience-reports.md)
@@ -34,4 +34,4 @@ Analysis Workspaceのコンポーネントに慣れたら、適切なコンポ�
 * [Adobe Analyticsでの行動レポートの作成](reports/behavior-reports.md)
 * [Adobe Analyticsでのコンバージョンレポートの作成](reports/conversions-reports.md)
 
-After learning to pull reports, understanding [processing and architecture differences](processing-differences.md) can help reconcile the different numbers obtained between platforms. [FAQ](faq.md) もご利用いただけます。
+レポートの取り込みを学習した後、処理とア [ーキテクチャの違いを理解する](processing-differences.md) と、プラットフォーム間で取得される異なる数値を調整できます。 FAQも [あり](faq.md) 、
