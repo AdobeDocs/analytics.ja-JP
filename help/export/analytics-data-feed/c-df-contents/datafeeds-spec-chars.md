@@ -9,7 +9,7 @@ title: 特殊文字
 topic: Reports & Analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 データフィードで使用される特殊文字に関する情報です。
 
-* [hit_data ファイル内の特殊文字](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
-* [複数値の変数（events_list、products_list、mvvars）内の特殊文字](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
-* [サンプルワークフロー](../../../export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+* [hit_data ファイル内の特殊文字](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
+* [複数値の変数（events_list、products_list、mvvars）内の特殊文字](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
+* [サンプルワークフロー](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
 
 ## hit_data ファイル内の特殊文字 {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
 
