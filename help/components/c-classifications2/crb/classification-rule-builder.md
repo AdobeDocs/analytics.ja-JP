@@ -8,7 +8,7 @@ title: '分類ルールビルダーのワークフロー '
 topic: 管理ツール
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,14 +36,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 手順 | 作業する場所 | 説明 |
 |--- |--- |--- |
 | Step 1 (Prerequisite): [Set up your classification schema](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html). | [!UICONTROL 管理者] /レ [!UICONTROL ポートスイ] ート [!UICONTROL /設定を編集] /&lt;トラフィック分類またはコンバージョン分類&gt; | 変数を選択し、その変数で使用する分類を定義します。<br>変数をルールで使用するには、事前に 1 つ以上の分類列を作成しておく必要があります。<br>分類が有効になると、インポーターおよびルールビルダーを使用して特定の値を分類できます。 |
-| Step 2: [Create a rule set](../../../components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL 管理者]／[!UICONTROL 分類ルールビルダー]／[!UICONTROL ルールセットを追加] | ルールセットは、特定の変数の分類ルールのグループです。 |
+| Step 2: [Create a rule set](/help/components/c-classifications2/crb/classification-rule-set.md). | [!UICONTROL 管理者]／[!UICONTROL 分類ルールビルダー]／[!UICONTROL ルールセットを追加] | ルールセットは、特定の変数の分類ルールのグループです。 |
 | 手順3:レポートスイートと変数を設定します。 | [!UICONTROL 分類ルールビルダー] /&lt;your rule set&gt; | レポートスイートおよび変数にルールセットを適用します。 |
-| Step 4: [Add classification rules to the set](../../../components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL 分類ルールビルダー] /&lt;your rule set&gt; | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「ルールの処理方法」の情 [報を確認します](../../../components/c-classifications2/crb/classification-quickstart-rules.md)。 |
-| Step 5: [Test a Classification Rule Set](../../../components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | ルールをドラフトモードで編集してその有効性をテストします。ドラフトモードでは、ルールを実行できません。<br>この手順は、正規表現を使用する場合 [に重要です](../../../components/c-classifications2/crb/classification-quickstart-rules.md)。 |
-| 手順6:有効なル [ールをアクティブ化](../../../components/c-classifications2/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。詳しくは、[ルールの処理方法](../../../components/c-classifications2/crb/classification-quickstart-rules.md)を参照してください。 |
-| Step 7 (Optional): [Delete unwanted rules](../../../components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。See  [Delete classification data](../../../components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) if you need to delete classified data. |
+| Step 4: [Add classification rules to the set](/help/components/c-classifications2/crb/classification-quickstart-rules.md). | [!UICONTROL 分類ルールビルダー] /&lt;your rule set&gt; | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「ルールの処理方法」の情 [報を確認します](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。 |
+| Step 5: [Test a Classification Rule Set](/help/components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | ルールをドラフトモードで編集してその有効性をテストします。ドラフトモードでは、ルールを実行できません。<br>この手順は、正規表現を使用する場合 [に重要です](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。 |
+| 手順6:有効なル [ールをアクティブ化](/help/components/c-classifications2/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。詳しくは、[ルールの処理方法](/help/components/c-classifications2/crb/classification-quickstart-rules.md)を参照してください。 |
+| Step 7 (Optional): [Delete unwanted rules](/help/components/c-classifications2/crb/classification-rule-definitions.md). | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。See  [Delete classification data](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md) if you need to delete classified data. |
 
-> [!NOTE] 分類インポートツールを使用する権限を持つグループは、分類ルールを使用できます。 See [How Rules Are Processed](../../../components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+>[!NOTE]
+>
+> 分類インポートツールを使用する権限を持つグループは、分類ルールを使用できます。 See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **その他のリソース**
 
