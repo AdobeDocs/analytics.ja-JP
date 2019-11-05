@@ -8,7 +8,7 @@ title: マーケティングチャネルの管理
 topic: Reports & Analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,18 +17,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 マーケティングチャネルマネージャーでマーケティングチャネルを追加または有効にします。 レポートスイートにマーケティングチャネルがない場合は、自動セットアップによって複数のチャネルと各チャネルのルールを作成することができます。ニーズに合わせて事前定義のチャネルを編集したり、独自に作成したりすることができます（合計 25 個まで）。
 
-## マーケティングチャネルの管理 {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
-
-Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. レポートスイートにマーケティングチャネルがない場合は、自動セットアップによって複数のチャネルと各チャネルのルールを作成することができます。ニーズに合わせて事前定義のチャネルを編集したり、独自に作成したりすることができます（合計 25 個まで）。
-
 チャネル作成時のガイドラインは次のとおりです。
 
 * すべての訪問者が適切なチャネルに分類されるように、すべてのチャネルの一覧を作成し、事前に計画を立ててください。
-* 常に[内部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)ヒットのカテゴリ用のチャネルと、[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)ヒットのカテゴリ用のチャネルを含めてください。
+* 常に[内部](/help/components/c-marketing-channels/c-faq.md)ヒットのカテゴリ用のチャネルと、[直接](/help/components/c-marketing-channels/c-faq.md)ヒットのカテゴリ用のチャネルを含めてください。
 
-[!UICONTROL マーケティングチャネル]ページへのチャネルの追加は、[マーケティングチャネルの処理ルール](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08)ページのルールの作成から独立して行うことができます。ルールを作成するときに、そのルールをチャネルに関連付けます
+[!UICONTROL マーケティングチャネル]ページへのチャネルの追加は、[マーケティングチャネルの処理ルール](/help/components/c-marketing-channels/t-rules.md)ページのルールの作成から独立して行うことができます。ルールを作成するときに、そのルールをチャネルに関連付けます
 
-## マーケティングチャネルの追加 {#task_98C9D3F5DBBC4B198E0A9ED4D3891E03}
+## マーケティングチャネルの追加 {#add-mktg-channels}
 
 マーケティングチャネルマネージャーでマーケティングチャネルを追加します。
 
@@ -39,11 +35,11 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
 
    複数のレポートスイートを選択した場合、テンプレートから選択したレポートスイートに設定をコピーするために、テンプレートを選択する必要があります。
 
-   詳しくは、 [複数のレポートスイートへのテンプレートレポートスイート設定の適用](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+   詳しくは、 [複数のレポートスイートへのテンプレートレポートスイート設定の適用](/help/components/c-marketing-channels/t-template.md).
 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) page displays.
+   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
 
 1. On the [!UICONTROL Marketing Channel Manager] page, click **[!UICONTROL Add Channel]**.
 
@@ -52,9 +48,9 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
 1. Click **[!UICONTROL Save.]**
 1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
 
-   See [Create Marketing Channel processing rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08).
+   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
 
-## Marketing Channel Manager - interface definitions {#reference_01779A2928054BF48339897D4033AFB9}
+## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
 
 [!UICONTROL マーケティングチャネルマネージャー]ページのフィールドの定義です。
 
@@ -84,7 +80,7 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
   </tr> 
   <tr> 
    <td colname="col1"> <p>タイプ </p> </td> 
-   <td colname="col2"> <p> サイトへのユーザーの訪問手段を指定します。「<span class="uicontrol">オンライン</span>」または「<span class="uicontrol">オフライン</span>」を選択できます。検索エンジンまたは電子メールキャンペーンから来訪した訪問者に対しては「オンライン」チャネルを使用します。「オフライン」チャネルは、新聞のクーポンや雑誌の広告でサイトの情報を見つけた訪問者に使用します。オフラインチャネルには通常、データソースからインポートされたデータが含まれます。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" scope="external" format="http">データソース</a>を参照してください。 </p> <p>See <a href="../../components/c-marketing-channels/t-offline-data.md#task_FC96E6A48F0D4D37A79BD234E90DAA26" type="task" format="dita" scope="local"> Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> サイトへのユーザーの訪問手段を指定します。「<span class="uicontrol">オンライン</span>」または「<span class="uicontrol">オフライン</span>」を選択できます。検索エンジンまたは電子メールキャンペーンから来訪した訪問者に対しては「オンライン」チャネルを使用します。「オフライン」チャネルは、新聞のクーポンや雑誌の広告でサイトの情報を見つけた訪問者に使用します。オフラインチャネルには通常、データソースからインポートされたデータが含まれます。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >データソース</a>を参照してください。 </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>色 </p> </td> 
