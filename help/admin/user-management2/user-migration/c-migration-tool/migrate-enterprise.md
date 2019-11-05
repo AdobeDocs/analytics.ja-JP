@@ -5,7 +5,7 @@ seo-title: Enterprise ID と Federated ID の Analytics ユーザーアカウン
 title: Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -121,7 +121,7 @@ Admin Console でユーザーを管理するための前提条件。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ドメイン </p> </td> 
-   <td colname="col2"> <p>ドメインが 「 <span class="term"> Domain</span> 」列と「 <span class="term"> Email</span> 」列は、前提条件で確立されたドメインと一致し <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"> ます</a>。 </p> </td> 
+   <td colname="col2"> <p>ドメインが 「 <span class="term"> Domain</span> 」列と「 <span class="term"> Email</span> 」列は、前提条件で確立されたドメインと一致し <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  > ます</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国コード </p> </td> 
