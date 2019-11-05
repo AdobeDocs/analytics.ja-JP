@@ -1,87 +1,87 @@
 ---
 title: Adobe Analyticsの動作レポート
-description: Adobe Analyticsで動作レポートを作成する方法について説明します
+description: Adobe Analyticsで動作レポートを作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
 # 行動レポート
 
-ビヘイビアーレポートには、ユーザーがサイトとどのようにやり取りしたかに関する情報が表示されます。
+行動レポートは、ユーザがサイトとやり取りする方法に関する情報を表示します。
 
-このページでは、Analysis Workspaceの使用に関する基本的な知識があると想定しています。See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+このページでは、ユーザーがAnalysis Workspaceの使用に関する基本的な知識を持っていることを前提としています。 Adobe Analytics [のツールに詳しくない場合は、Analysis WorkspaceでのGoogle Analyticsユーザー用の基本レポートの作成](create-report.md) （英語のみ）を参照してください。
 
 ## 動作フロー
 
-行動フローレポートは、フロービジュアライゼーションを使用して再作成できます。
+動作フローレポートは、フロービジュアライゼーションを使用して再作成できます。
 
 1. 左側のビジュアライゼーションアイコンをクリックし、フロービジュアライゼーションをフリーフォームテーブルの上のワークスペースにドラッグします
-2. **ページ** ディメンションを見つけて、矢印アイコンをクリックしてページ値を表示します。ディメンション値は黄色で表示されます。
-3. 開始するページ値を探し、「ディメンションまたは項目」という名前のスペースにドラッグします
-4. このフローレポートはインタラクティブです。任意の値をクリックして、後続のページまたは前のページにフローを展開します。右クリックメニューを使用して、列を展開または折りたたみます。同じフローレポート内でも異なるディメンションを使用できます。
+2. ページディメン **ションを見つけ** 、矢印アイコンをクリックしてページ値を表示します。 寸法値は黄色で表示されます。
+3. 開始するページ値を見つけ、中央の「ディメンションまたは項目」というラベルの付いたスペースにドラッグします
+4. このフローレポートはインタラクティブです。 いずれかの値をクリックして、後続のページまたは前のページへのフローを展開します。 右クリックメニューを使用して、列を展開または折りたたむことができます。 同じフローレポート内で異なるディメンションを使用することもできます。
 
-![フローレポート](../assets/flow.png)
+![フローレポート](/help/technotes/ga-to-aa/assets/flow.png)
 
-## サイトコンテンツ-すべてのページ
+## サイトコンテンツ — すべてのページ
 
-ページレポートには、サイト上の個々のページのパフォーマンスが表示されます。
+ページレポートは、サイト上の個々のページのパフォーマンスを示します。
 
-1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、 **Pages** （ページ）ディメンションを見つけ、「Drop a Dimension here（ディメンションをここにドロップ）」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-代わりに、アドビではテンプレートと呼ばれる事前に作成されたいくつかのワークスペースを提供しています。コンテンツ消費（ウェブ）テンプレートは、すべてのページレポートに同様の値を提供します。
+別の方法として、アドビでは、テンプレートと呼ばれる事前に作成されたワークスペースをいくつか用意しています。 コンテンツ消費(Web)テンプレートは、すべてのページレポートと同様の値を提供します。
 
-1. *[!UICONTROL プロジェクト]/[!UICONTROL 新規]*&#x200B;をクリックして、プロジェクトオプションを含むモーダルウィンドウを開きます。
-2. コンテンツ消費（ウェブ）テンプレートをクリックし、「作成」をクリックします。
+1. プロジェ *[!UICONTROL クト]/新規をク[!UICONTROL リックし]*、プロジェクトオプションを含むモーダルウィンドウを開きます。
+2. コンテンツ消費(Web)テンプレートをクリックし、「作成」をクリックします。
 
-## サイトコンテンツ-コンテンツドリルダウン
+## サイトコンテンツ — コンテンツドリルダウン
 
-コンテンツドリルダウンレポートでは、URL構造によってページトラフィックを調べることができます。Analysis Workspaceで使用するには、追加の実装が必要です。アドビでは、このデータが正確に収集されるように、導入コンサルタントに相談することを推奨しています。
+コンテンツドリルダウンレポートでは、URL構造別にページトラフィックを確認できます。 Analysis Workspaceで使用するには、追加の実装が必要です。 アドビでは、このデータが正確に収集されるように導入コンサルタントに相談することをお勧めします。
 
-## サイトコンテンツ-ランディングページ
+## サイトコンテンツ — ランディングページ
 
-ランディングページレポートには、サイト上のトップランディングページが表示されます。Landing pages are available in Analysis Workspace as the **Entry Page** dimension.
+ランディングページレポートは、サイト上で最も多く閲覧されているランディングページを示します。 ランディングページは、Analysis Workspaceの入口ページディメンションと **して使用でき** ます。
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、入口ページディメ **ンションを見つけ** 、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-Adobe recommends using the **Visits** metric for this dimension.
+アドビでは、このディメンシ **ョンに** 「訪問回数」指標を使用することを推奨します。
 
-## サイトコンテンツ-出口ページ
+## サイトコンテンツ — 出口ページ
 
-出口ページレポートには、個々の訪問の最後のページになったページが表示されます。同じ名前のAnalysis Workspaceで使用できます。
+出口ページレポートは、個人の訪問の最後のページとなった上位のページを表示します。 同じ名前でAnalysis Workspaceで使用できます。
 
-1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、 **Exit Page** （ページから離脱）ディメンションを見つけ、「Drop a Dimension here（ディメンションをここにドロップ）」というラベルの付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-Adobe recommends using the **Visits** metric for this dimension.
+アドビでは、このディメンシ **ョンに** 「訪問回数」指標を使用することを推奨します。
 
 ## サイト速度レポート
 
-サイト速度レポートでは、ページの読み込みがどれくらい速いかを表示し、ページ読み込み時間を増やす機会を表示します。
+サイト速度レポートは、ページの読み込み速度を示し、ページ読み込み時間を長くする機会を与えます。
 
-この機能には、両方のプラットフォームに追加の実装が必要です。アドビでは、このデータがAnalysis Workspace用に正しく構成されていることを確認するために、導入コンサルタントと協力することを推奨しています。[通常、パフォーマンスタイミングプラグイン](../../../implement/js-implementation/plugins/performancetiming.md) は、Adobe Analyticsのパフォーマンスデータを取得するためにeVarに割り当てられます。
+この機能を使用するには、両方のプラットフォームで追加の実装が必要です。このデータがAnalysis Workspaceに対して正しく設定されていることを確認するには、導入コンサルタントに相談することをお勧めします。 通常、パ [フォーマンスのタイミングプラグインは](/help/implement/js-implementation/plugins/performancetiming.md) 、Adobe Analyticsでパフォーマンスデータを取得するためにeVarに割り当てられます。
 
 ## サイト検索レポート
 
-サイト検索レポートは、訪問者がサイトの内部検索機能をどのように利用しているかについての洞察を提供します。
+サイト検索レポートは、訪問者がサイトの内部検索機能をどのように利用しているかに関するインサイトを提供します。
 
-この機能には、両方のプラットフォームに追加の実装が必要です。アドビでは、このデータがAnalysis Workspace用に正しく構成されていることを確認するために、導入コンサルタントと協力することを推奨しています。通常、内部検索語句はクエリ文字列パラメータから取得され、レポート用のeVarに配置されます。
+この機能を使用するには、両方のプラットフォームで追加の実装が必要です。このデータがAnalysis Workspaceに対して正しく設定されていることを確認するには、導入コンサルタントに相談することをお勧めします。 通常、内部検索用語はクエリ文字列パラメータから取り出され、レポート用にeVarに配置されます。
 
 ## イベントレポート
 
-イベントには、GoogleとAdobe Analyticsの主な構造の違いがあります。両方のプラットフォームで、追加の実装の変更が適切に機能する必要があります。
+イベントは、GoogleとAdobe Analyticsの間で大きな構造上の違いがあります。 どちらのプラットフォームでも適切に機能するために、追加の実装の変更が必要です。
 
-* Google Analyticsでは、イベントはテキストとして実装で定義されます。イベントには、カテゴリ、アクションおよびラベルがあります。
-* Adobe Analyticsでは、IDが割り当てられている管理コンソールでイベントが最初に設定されます。この識別子は導入コードで使用されます。次に例を示します。
-   1. 管理コンソールで「登録」としてevent1を設定できます。
-   2. 実装では、登録確認ページのイベント変数にevent1を含めます。登録確認ページが表示されるたびに、event1が増加します。
+* Google Analyticsでは、イベントはテキストとして実装内で定義されます。 イベントには、カテゴリ、アクションおよびラベルがあります。
+* Adobe Analyticsでは、イベントは最初に管理コンソールで設定され、管理コンソールで識別子が割り当てられます。 その識別子は実装コードで使用されます。 次に例を示します。
+   1. 管理コンソールで、event1を「登録」として設定できます。
+   2. 実装では、登録確認ページのevents変数にevent1を含めます。 登録確認ページが表示されるたびにevent1が増加します。
    3. Analysis Workspaceでは、「登録」は任意のレポートで使用する指標として表示されます。
 
-この機能には実装の変更が必要なので、データがAnalysis Workspace用に正しく設定されていることを確認するために、導入コンサルタントと相談することをお勧めします。
+この機能には実装の変更が必要なので、Analysis Workspace用にデータが正しく設定されていることを確認するために、アドビでは導入コンサルタントと協力することをお勧めします。
 
-## 投稿者レポート
+## 投稿レポート
 
-GoogleはGoogle広告マネージャーとの接続を必要とする方法と同様に、Adobe Advertising Cloudというインサイトを提供する専用製品を提供しています。組織がこの製品の使用を希望する場合は、貴社のアカウントマネージャーにお問い合わせください。
+GoogleがGoogle Ad Managerとの接続を必要とするのと同様に、アドビはAdobe Advertising cloudと呼ばれるインサイトを提供する専用製品を提供しています。 貴社がこの製品の使用に関心を持っている場合は、貴社のアカウントマネージャーにお問い合わせください。
