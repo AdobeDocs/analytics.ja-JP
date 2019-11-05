@@ -5,7 +5,7 @@ seo-title: モバイルレポート
 title: モバイルレポート
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -91,7 +91,7 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> Java バージョンレポート </td> 
-   <td colname="col2"> <p>サポートされる Java バージョン別にモバイルデバイスをグループ分けします。Java バージョンレポートでは、デバイスでサポートされている Java 仕様要求（JSR）により Java バージョンを識別します。また、識別できないモバイルオペレーティングシステムは「不明」グループに分類されます。 </p> <p>JSR の詳細については、<a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a> の Web サイトをご覧ください。 </p> </td> 
+   <td colname="col2"> <p>サポートされる Java バージョン別にモバイルデバイスをグループ分けします。Java バージョンレポートでは、デバイスでサポートされている Java 仕様要求（JSR）により Java バージョンを識別します。また、識別できないモバイルオペレーティングシステムは「不明」グループに分類されます。 </p> <p>JSR の詳細については、<a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a> の Web サイトをご覧ください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ブックマーク URL の長さレポート </td> 
