@@ -8,7 +8,7 @@ title: ユーザーと製品の管理
 topic: 管理ツール
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,11 +33,11 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analytics ユーザー ID の Admin Console への移行 </p> </td> 
-   <td colname="col2"> <p> Analytics 管理者がユーザー ID を Adobe Admin Console に移行する際には、アドビがお手伝いします。この対応は順次おこなわれます。お客様のユーザーを移行する順番になったら、手順を含む電子メールでアドビから Analytics 管理者に通知されます。その時点で、この作業を簡単にするための<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html" format="html" scope="external">移行ツール</a>が Analytics ユーザー管理で使用できるようになります。 </p> <p>重要：ユーザーの移行をおこなう日に、以前の権限グループが自動的に Admin Console にコピーされます。Analytics 管理ツールで新規ユーザーを招待したり、新規グループを作成したりできなくなります。移行の準備方法と影響を受ける管理機能については、<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="https" scope="external">Admin Console への Analytics ユーザーの移行</a>の FAQ とヘルプを参照してください。 </p> </td> 
+   <td colname="col2"> <p> Analytics 管理者がユーザー ID を Adobe Admin Console に移行する際には、アドビがお手伝いします。この対応は順次おこなわれます。お客様のユーザーを移行する順番になったら、手順を含む電子メールでアドビから Analytics 管理者に通知されます。その時点で、この作業を簡単にするための<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">移行ツール</a>が Analytics ユーザー管理で使用できるようになります。 </p> <p>重要：ユーザーの移行をおこなう日に、以前の権限グループが自動的に Admin Console にコピーされます。Analytics 管理ツールで新規ユーザーを招待したり、新規グループを作成したりできなくなります。移行の準備方法と影響を受ける管理機能については、<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Admin Console への Analytics ユーザーの移行</a>の FAQ とヘルプを参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console を起動 </p> </td> 
-   <td colname="col2"> <p>ユーザーアカウントが移行されたら、すべてのソリューションのユーザーおよび製品を Admin Console で管理できます。 </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#" format="html" scope="external"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Admin Console での Experience Cloud ユーザーおよび製品管理への更新について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external">Experience Cloud ユーザーおよび製品の管理</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーアカウントが移行されたら、すべてのソリューションのユーザーおよび製品を Admin Console で管理できます。 </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Admin Console での Experience Cloud ユーザーおよび製品管理への更新について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Experience Cloud ユーザーおよび製品の管理</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,7 +68,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新しいユーザーの追加</span> </td> 
-   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> ユーザー</a>. </p> </td> 
+   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md"> ユーザー</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> レポートのダウンロード</span> </td> 
@@ -76,7 +76,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ログイン</span> </td> 
-   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> ユーザー</a>. </p> </td> 
+   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md"> ユーザー</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名</span> </td> 
@@ -112,7 +112,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Edit</span> </td> 
-   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> ユーザー</a>. </p> </td> 
+   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md"> ユーザー</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Delete</span> </td> 
@@ -120,7 +120,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 転送</span> </td> 
-   <td colname="col2">あるユーザーアカウントの権限（許可とリソースアクセス）を別のユーザーアカウントに割り当てます。 <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> ユーザーアカウント権限の転送</a>. </p> </td> 
+   <td colname="col2">あるユーザーアカウントの権限（許可とリソースアクセス）を別のユーザーアカウントに割り当てます。 <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> ユーザーアカウント権限の転送</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> このユーザとしてログイン</span> </td> 
