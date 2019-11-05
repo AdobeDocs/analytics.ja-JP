@@ -8,7 +8,7 @@ title: チャネルとルールについて
 topic: Reports & Analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,18 +21,20 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/buckets_2.png)
 
-アドビでは、複数の事前定義のチャネルを[自動セットアップ](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B)を利用すると、事前定義された複数のチャネルが設定されます。このチャネルはニーズに合わせて編集できます。
+アドビでは、複数の事前定義のチャネルを[自動セットアップ](/help/components/c-marketing-channels/c-channel-autosetup.md)を利用すると、事前定義された複数のチャネルが設定されます。このチャネルはニーズに合わせて編集できます。
 
-> [!NOTE] アドビでは、テスト用にテンプレートとして使用できるレポートスイートにレポートを設定することをお勧めします。 それをひな形として、1 つまたはそれ以上の本番用レポートスイートにまとめてチャネルとルールセットを適用することができます。
+>[!NOTE]
 >
->詳しくは、 [複数のレポートスイートへのテンプレートレポートスイート設定の適用](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+> アドビでは、テスト用にテンプレートとして使用できるレポートスイートにレポートを設定することをお勧めします。 それをひな形として、1 つまたはそれ以上の本番用レポートスイートにまとめてチャネルとルールセットを適用することができます。
+>
+>詳しくは、 [複数のレポートスイートへのテンプレートレポートスイート設定の適用](/help/components/c-marketing-channels/t-template.md).
 
 また、次のトピックを確認してください。
 
-* [前提条件](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [処理に関する重要な注意事項](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [前提条件](/help/components/c-marketing-channels/c-channels-rules.md#prereqs)
+* [処理に関する重要な注意事項](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
-## 前提条件 {#section_9913D2932E3140C099B7978CA95378B2}
+## 前提条件 {#prereqs}
 
 必要な場合は、次の前提条件に関してカスタマーケアに問い合わせることができます。
 
@@ -42,11 +44,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * Set up user group access to the **[!UICONTROL Marketing Channel Report]**.
 
-   See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C).
+   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
 
 * Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 
-## Important processing notes {#section_DE372EEF02314F2395750CF2892DAAE1}
+## Important processing notes {#important-proc-rules}
 
 * システムは指定された順序でルールを処理し、ルールの 1 つが満たされると残りのルールの処理を中止します。
 * ルールは VISTA が設定した変数にはアクセスできますが、VISTA が削除したデータにはアクセスできません。
