@@ -5,7 +5,7 @@ seo-title: パネルの概要
 title: パネルの概要
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 空のパネルとフリーフォームパネルは、分析を開始する場所で、他方 Attribution IQ とセグメント比較は、より高度な分析に役立ちます。「+」パネルボタンを追加したため、空のパネルをいつでも追加できます。
 
-デフォルトの開始パネルはフリーフォームパネルですが、[空のパネル](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2)をデフォルトにすることも可能です。
+デフォルトの開始パネルはフリーフォームパネルですが、[空のパネル](/help/analyze/analysis-workspace/c-panels/blank-panel.md)をデフォルトにすることも可能です。
 
 ## パネルのドロップダウンフィルター {#section_D2828EEDD52944528E87F470EAB581CF}
 
