@@ -7,7 +7,7 @@ title: ブラウザーの幅／高さ
 topic: 指標
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 実際に表示されているブラウザーウィンドウのみでの横／縦の長さを示す指標です。具体的には、ブラウザー
 
-Adobe Analytics では、訪問の初回ヒット時のブラウザーの高さと幅のみを使用します。同じ訪問中の残りのヒットでは、この属性を取得しません。The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](../../../components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
+Adobe Analytics では、訪問の初回ヒット時のブラウザーの高さと幅のみを使用します。同じ訪問中の残りのヒットでは、この属性を取得しません。The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
 
 例えば、ブラウザーの幅または高さをモバイル解像度で分類する場合、次の違いを意識する必要があります。
 
