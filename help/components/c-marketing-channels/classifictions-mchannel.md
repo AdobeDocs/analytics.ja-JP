@@ -8,16 +8,12 @@ title: マーケティングチャネルでの分類
 topic: Reports & Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # マーケティングチャネルでの分類
-
-分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
-
-## マーケティングチャネルでの分類 {#topic_18E1471F1A584B358E57E191074A7243}
 
 分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
 
@@ -29,7 +25,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 >
 >マーケティングチャネルの分類レポートの動作は、標準の分類とは少し異なります。ファーストタッチまたはラストタッチのレポートの分類を作成すると、その両方に自動的に適用されます。 一方を分類すると、他方を分類しないと分類できません。
 
-## マーケティングチャネルの分類 - 定義 {#section_38D2F8BBA47D444780B65BD84156532D}
+## マーケティングチャネルの分類 - 定義 {#mktg-channel-classifications}
 
 | 用語 | 定義 |
 |--- |--- |
@@ -37,11 +33,13 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 | 名前 | 分類の名前。追加した分類は、「マーケティングチャネルマネージャー」の「チャネルの分類」オプションに表示されます。 |
 | オプション | 分類の名前。追加した分類は、「マーケティングチャネルマネージャー」の「チャネルの分類」オプションに表示されます。 |
 
-## マーケティングチャネルの分類の作成 {#task_BCA5597281574E339E71F3BBC1BE3DFA}
+## マーケティングチャネルの分類の作成 {#create-mktg-channel-classifications}
 
 [!UICONTROL マーケティングチャネル]レポートの分類を作成します。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
-1. [マーケティングチャネルの分類](../../components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D)ページで、分類のタイプを指定します。
+<!--
+1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D) page, specify the classification type.
+-->
 1. 「[!UICONTROL 分類]**」で、「[!UICONTROL 分類の追加]**」をクリックします（または既存の分類を編集します）。
