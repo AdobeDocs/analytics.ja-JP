@@ -2,7 +2,7 @@
 title: クロスデバイス分析に関する FAQ
 description: デバイス間分析に関するよくある質問(FAQ)
 translation-type: tm+mt
-source-git-commit: e7a78c2ac21042f57487c1c230e1c96318810429
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: e7a78c2ac21042f57487c1c230e1c96318810429
 
 **CDAはカスタム訪問者IDとどのように比較しますか。**
 
-[カスタム訪問者IDは](../../implement/js-implementation/c-unique-visitors/visid-custom.md) 、デバイス間でユーザーを接続す [る従来の方法です](../../implement/js-implementation/xdevice-visid/xdevice-connecting.md)。 カスタム訪問者IDでは、この変数を使用し `s.visitorID` て、訪問者ロジックに使用するIDを明示的に設定します。 この変 `s.visitorID` 数は、存在するcookieベースのIDよりも優先されます。 詳しく [は、導入ユーザーガイド](../../implement/js-implementation/c-unique-visitors/visid-overview.md) 「実訪問者の識別」を参照してください。
+[カスタム訪問者IDは](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) 、デバイス間でユーザーを接続す [る従来の方法です](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md)。 カスタム訪問者IDでは、この変数を使用し `s.visitorID` て、訪問者ロジックに使用するIDを明示的に設定します。 この変 `s.visitorID` 数は、存在するcookieベースのIDよりも優先されます。 詳しく [は、導入ユーザーガイド](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) 「実訪問者の識別」を参照してください。
 
 カスタム訪問者IDには、CDAが克服または最小限に抑えるように設計された、望ましくない副作用が多数あります。 例えば、カスタム訪問者ID手法には、ルックバック機能はありません。 訪問の途中でユーザーが認証を行うと、訪問の最初の部分は、訪問の後の部分とは異なる訪問者IDに関連付けられます。 個別の訪問者IDは、訪問と訪問者の水増しにつながります。 CDAの30日間のルックバックウィンドウでは、同じ人物の前の行動を逆に戻して、非認証のクロスデバイス動作と、ゼロまたは最小限の膨張で認証済みのクロスデバイス動作を再現できます。
 
