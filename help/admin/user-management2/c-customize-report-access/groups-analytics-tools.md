@@ -9,7 +9,7 @@ title: Analytics ツールの権限のカスタマイズ
 topic: 管理ツール
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -39,23 +39,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 要素 | 説明 |
 |--- |--- |
 | **一般** |  |
-| [コードマネージャー](../../../admin/admin/code-manager-admin.md) | Web およびモバイルプラットフォーム用のデータ収集コードをダウンロードする権限を有効にします。 |
+| [コードマネージャー](/help/admin/admin/code-manager-admin.md) | Web およびモバイルプラットフォーム用のデータ収集コードをダウンロードする権限を有効にします。 |
 | コードマネージャー - Web サービス | Web サービスを使用したコードマネージャーへのアクセスを管理者以外のユーザーに許可します。 |
-| [ログ](../../../admin/admin/logs.md) | ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルに対する権限を有効にします。 |
+| [ログ](/help/admin/admin/logs.md) | ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルに対する権限を有効にします。 |
 | ログ - Web サービス | Web サービスを使用した管理ツールのログへのアクセスを管理者以外のユーザーに許可します。 |
-| [トラフィック管理](../../../admin/c-traffic-management/traffic-management.md) | トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。 |
+| [トラフィック管理](/help/admin/c-traffic-management/traffic-management.md) | トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。 |
 | 権限管理 | 管理ツールのユーザー管理ページへのアクセス権を管理者以外のユーザーに付与します。読み取り権限がありますが、書き込み権限はありません。 |
 | 権限（書き込み） - Web サービス | 管理者以外のユーザーが Web サービスのユーザー管理で権限設定の読み取り／書き込みをおこなうことができるようにします。<br>この設定は、特に、管理 API の該当する権限アクションを指します。 |
 | 権限（読み取り） - Web サービス | 管理者以外のユーザーが Web サービスのユーザー管理に権限設定を表示できるようにします。<br>この設定は、特に、管理 API の該当する権限アクションを指します。 |
 | **会社管理** |  |
-| [セキュリティ](../../../admin/company/security-manager.md) | レポートデータへのアクセスを制御するセキュリティマネージャーページに対する権限を付与します。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。 |
+| [セキュリティ](/help/admin/company/security-manager.md) | レポートデータへのアクセスを制御するセキュリティマネージャーページに対する権限を付与します。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。 |
 | サポート情報 | カンパニー設定のサポート情報に対する権限を付与します。 |
-| [Web サービス](../../../admin/company/web-services-admin.md) | 管理ツールインターフェイスの Web サービスページにアクセスできるようにします（[!UICONTROL カンパニー設定]／[!UICONTROL Web サービス]）。<br>Web Services API を使用すると、ユーザーインターフェイスを通じて使用可能な機能を複製および補強する Adobe Analytics サービスにプログラムレベルでアクセスできます。 |
+| [Web サービス](/help/admin/company/web-services-admin.md) | 管理ツールインターフェイスの Web サービスページにアクセスできるようにします（[!UICONTROL カンパニー設定]／[!UICONTROL Web サービス]）。<br>Web Services API を使用すると、ユーザーインターフェイスを通じて使用可能な機能を複製および補強する Adobe Analytics サービスにプログラムレベルでアクセスできます。 |
 | シングルサインオン（レガシー） | 管理ツールのシングルサインオンページへのアクセス権を付与します。<br>**注意：** Adobe Experience Cloud のシングルサインオンは、Experience Cloud とソリューションの間の[アカウントのリンク](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を使用して実装されます。 |
-| [保留中のアクション](../../../admin/company/pending-actions-admin.md) | [!UICONTROL カンパニー設定]の保留中のアクションを管理する権限を付与します。 |
-| [ブランド提携](../../../admin/company/co-branding-admin.md) | Analytics のコブランド化の権限を付与します。 |
-| [環境設定](../../../admin/admin/preferences-manager.md) | [!UICONTROL Preference Manager] に対する権限を付与します。 |
-| [レポートスイートを非表示](../../../admin/company/c-hide-report-suites.md) | Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にする権限を付与します。 |
+| [保留中のアクション](/help/admin/company/pending-actions-admin.md) | [!UICONTROL カンパニー設定]の保留中のアクションを管理する権限を付与します。 |
+| [ブランド提携](/help/admin/company/co-branding-admin.md) | Analytics のコブランド化の権限を付与します。 |
+| [環境設定](/help/admin/admin/preferences-manager.md) | [!UICONTROL Preference Manager] に対する権限を付与します。 |
+| [レポートスイートを非表示](/help/admin/company/c-hide-report-suites.md) | Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にする権限を付与します。 |
 | **ツール** | これらの設定は、Analytics ツール（インターフェイスおよびアプリケーション）およびセグメンテーションや計算指標などの高度な機能へのアクセス権を付与します。 |
 | [現在のデータ](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | レポートの「現在のデータ」機能を使用する権限を付与します。 |
 | [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) ライセンスユーザー | [!UICONTROL Ad Hoc Analysis] へのアクセス権を付与します。 |
