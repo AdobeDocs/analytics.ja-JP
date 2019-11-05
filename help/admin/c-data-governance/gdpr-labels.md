@@ -5,7 +5,7 @@ seo-title: Analytics 変数のデータプライバシーラベル
 title: Analytics 変数のデータプライバシーラベル
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -432,7 +432,7 @@ Adobe Analytics でのデータプライバシー削除要求は、レポート�
   </tr> 
   <tr> 
    <td colname="col1"> <p>訪問者 ID </p> <p>MCID／ECID </p> </td> 
-   <td colname="col2"> <p> これらには DEL-DEVICE ラベルが設定されていますが、DEL-PERSON ラベルを追加することはできません。各要求で<a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> ID 拡張</a>を指定した場合、ID-PERSON を使用している要求も含め、すべての削除要求に対して、これらの ID が自動的に削除されます。 </p> <p>ID 拡張を使用しないが、一致する ID が prop または eVar に含まれているヒットでこれらの Cookie ID を匿名化したい場合は、実際にユーザーを特定できる場合でも、prop または eVar に ID-DEVICE ラベルを設定することで、このラベル設定の制限を回避できます（すべての DEL-PERSON ラベルを DEL-DEVICE ラベルに変更する必要があります）。この場合、訪問者 ID または ECID の一部のインスタンスのみが匿名化されるので、履歴レポートでは個別訪問者数が変更されます。 </p> </td> 
+   <td colname="col2"> <p> これらには DEL-DEVICE ラベルが設定されていますが、DEL-PERSON ラベルを追加することはできません。各要求で<a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> ID 拡張</a>を指定した場合、ID-PERSON を使用している要求も含め、すべての削除要求に対して、これらの ID が自動的に削除されます。 </p> <p>ID 拡張を使用しないが、一致する ID が prop または eVar に含まれているヒットでこれらの Cookie ID を匿名化したい場合は、実際にユーザーを特定できる場合でも、prop または eVar に ID-DEVICE ラベルを設定することで、このラベル設定の制限を回避できます（すべての DEL-PERSON ラベルを DEL-DEVICE ラベルに変更する必要があります）。この場合、訪問者 ID または ECID の一部のインスタンスのみが匿名化されるので、履歴レポートでは個別訪問者数が変更されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
