@@ -8,7 +8,7 @@ title: ビジュアライゼーションの概要
 topic: Reports & Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 
 >[!IMPORTANT]
 >
->表示されるビジュアライゼーション設定は、ビジュアライゼーションによって異なります。 すべてのビジュアライゼーションにすべての設定が適用されるわけではありません。さらに一部の詳細設定は、特定のビジュアライゼーションの場合に&#x200B;**のみ**&#x200B;表示されます（例えば[ヒストグラム設定](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)）。
+>表示されるビジュアライゼーション設定は、ビジュアライゼーションによって異なります。 すべてのビジュアライゼーションにすべての設定が適用されるわけではありません。さらに一部の詳細設定は、特定のビジュアライゼーションの場合に&#x200B;**のみ**&#x200B;表示されます（例えば[ヒストグラム設定](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)）。
 
 ![](assets/visualization_settings.png)
 
@@ -67,7 +67,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
   </tr> 
   <tr> 
    <td colname="col1"> <p>正規化 </p> </td> 
-   <td colname="col2"> <p>指標を均等な比率にします。標準化を参 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> 照してください</a>。 </p> </td> 
+   <td colname="col2"> <p>指標を均等な比率にします。標準化を参 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > 照してください</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>二重軸を表示 </p> </td> 
