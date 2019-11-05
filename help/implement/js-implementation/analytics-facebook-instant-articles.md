@@ -8,7 +8,7 @@ title: Facebook インスタント記事
 topic: 開発者と実装
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -82,7 +82,7 @@ Facebook インスタント記事コンテンツを作成する際に、Analytic
    1. 会社のトラッキングサーバードメイン。
    1. 訪問者名前空間変数。**注意：**&#x200B;これらの値の多くは、標準 Analytics 実装内に見けることができます。必要に応じて、適切な値の提供についてカスタマーケアまたはアドビコンサルティングにお問い合わせいただくこともできます。
 
-1. [カスタム変数およびイベントトラッキングを設定する](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [カスタム変数およびイベントトラッキングを設定する](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. ページビューイメージリクエスト構文 `( s.t())` を含めます。
 
 ## 手順 3.カスタム変数およびイベントトラッキングを設定する {#section_932C41BD21154C25B99389299BDF3E0B}
