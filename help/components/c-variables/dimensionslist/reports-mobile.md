@@ -7,7 +7,7 @@ title: モバイル
 topic: レポート
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,11 +87,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> オペレーティングシステム（廃止） </td> 
-   <td colname="col2"> <p> デバイスで実行されているモバイルオペレーティングシステム別にモバイルデバイスをグループ分けします。モバイルオペレーティングシステムには Windows、RIM、iOS、Symbian などがあります。また、識別できないモバイルオペレーティングシステムは「不明」グループに分類されます。 </p> <p>注意：このレポートは、技術/オペレーティングシステムレポートが更新され <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"></a> 、モバイルを含むすべてのオペレーティングシステムが含まれるようになった場合に非推奨となりました。 「モバイルデバイス」が存在するセグメントを作成して、技術／オペレーティングシステムレポートに適用し、モバイルオペレーティングシステムだけを表示できます。 </p> </td> 
+   <td colname="col2"> <p> デバイスで実行されているモバイルオペレーティングシステム別にモバイルデバイスをグループ分けします。モバイルオペレーティングシステムには Windows、RIM、iOS、Symbian などがあります。また、識別できないモバイルオペレーティングシステムは「不明」グループに分類されます。 </p> <p>注意：このレポートは、技術/オペレーティングシステムレポートが更新され <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  ></a> 、モバイルを含むすべてのオペレーティングシステムが含まれるようになった場合に非推奨となりました。 「モバイルデバイス」が存在するセグメントを作成して、技術／オペレーティングシステムレポートに適用し、モバイルオペレーティングシステムだけを表示できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java バージョン </td> 
-   <td colname="col2"> <p> サポートされる Java バージョン別にモバイルデバイスをグループ分けします。Java バージョンレポートでは、デバイスでサポートされている Java 仕様要求（JSR）により Java バージョンを識別します。また、識別できないモバイルオペレーティングシステムは「不明」グループに分類されます。 </p> <p>JSR の詳細については、<a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a> の Web サイトをご覧ください。 </p> </td> 
+   <td colname="col2"> <p> サポートされる Java バージョン別にモバイルデバイスをグループ分けします。Java バージョンレポートでは、デバイスでサポートされている Java 仕様要求（JSR）により Java バージョンを識別します。また、識別できないモバイルオペレーティングシステムは「不明」グループに分類されます。 </p> <p>JSR の詳細については、<a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a> の Web サイトをご覧ください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ブックマーク URL の長さ </td> 
