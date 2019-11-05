@@ -8,7 +8,7 @@ title: マーケティングチャネル - はじめに
 topic: Reports & Analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,22 +32,24 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * すべてのソーシャルネットワーキングサイトの集計を行うか。または、個別に追跡したいソーシャルネットワーキングサイトがあるか。
 * コンバージョンに影響を与えている可能性があり、追跡したい他のチャネルがあるか。
 
-チャネルの推奨事項のリストについては、 [よくある質問と例](../../components/c-marketing-channels/c-faq.md#concept_72CE3270AC264DB2A64BCB3E4B0D9C44). 使用するチャネルのリストを作成し、チャネルの作成時にチャネルの有効化と定義を簡単に行えるようにします。
+チャネルの推奨事項のリストについては、 [よくある質問と例](/help/components/c-marketing-channels/c-faq.md). 使用するチャネルのリストを作成し、チャネルの作成時にチャネルの有効化と定義を簡単に行えるようにします。
 
 ![](assets/step2_icon.png) マーケティングチャネルマネージャ [!UICONTROL ーページでマーケティングチャネル] を追加します。
 
 After defining what channels to track, you enable them in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-See [Channels and Rules](../../components/c-marketing-channels/c-channels-rules.md#concept_C832E652974F419C82A4FAD9076C3197) for important prerequisite and conceptual information.
+See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.md) for important prerequisite and conceptual information.
 
-手順につ [いては、「マーケティングチャネルの追加](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) 」を参照してください。
+手順につ [いては、「マーケティングチャネルの追加](/help/components/c-marketing-channels/c-channels.md) 」を参照してください。
 
-> [!NOTE] マーケティングチャネルが事前に設定されていない場合は、自動セ [ットアップ](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) が表示されます。 このセットアップではいくつかの事前定義のチャネルが提供され、これらのチャネルをカスタマイズできます。アドビでは、これらのルールをテンプレートとして使用することをお勧めします。ただし、既に確立されたチャネル定義がある場合は、自動セットアップをスキップすることができます。
+>[!NOTE]
+>
+> マーケティングチャネルが事前に設定されていない場合は、自動セ [ットアップ](/help/components/c-marketing-channels/c-channel-autosetup.md) が表示されます。 このセットアップではいくつかの事前定義のチャネルが提供され、これらのチャネルをカスタマイズできます。アドビでは、これらのルールをテンプレートとして使用することをお勧めします。ただし、既に確立されたチャネル定義がある場合は、自動セットアップをスキップすることができます。
 
 ![](assets/step3_icon.png)[!UICONTROL マーケティングチャネルの処理ルール]ページで、各チャネルのルールを設定または調整する
 
 [!UICONTROL マーケティングチャネルマネージャー]ページでチャネルを作成したら、ルールを設定して、チャネルからデータを取得しレポートできるようにします。
 
-詳しくは、 [マーケティングチャネルの処理ルール](../../components/c-marketing-channels/c-rules.md#concept_9ADC8D3AA4C84288ACC6D441D4036646).
+詳しくは、 [マーケティングチャネルの処理ルール](/help/components/c-marketing-channels/c-rules.md).
 
 チャネルが自動セットアップで作成された場合は、これらのチャネルのルールが定義されています。ニーズに合わせてこれらのルールを変更します。
