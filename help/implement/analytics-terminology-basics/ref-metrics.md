@@ -8,7 +8,7 @@ title: 指標
 topic: 開発者と実装
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>計算指標 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">計算指標</a>を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html">計算指標</a>を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
