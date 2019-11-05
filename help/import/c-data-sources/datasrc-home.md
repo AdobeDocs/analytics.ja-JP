@@ -8,7 +8,7 @@ title: データソースの概要
 topic: 開発者と実装
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,6 +37,6 @@ Adobe Analytics データソースを使用すると、追加のオンライン�
 
 >[!IMPORTANT]
 >
->トランザクション ID データソースについてオフラインデータをオンラインイベントと関連付けるには、トランザクション ID の記録がカスタマーケアによって有効にされている必要があります。詳しくは、[トランザクション ID の記録](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)を参照してください。
+>トランザクション ID データソースについてオフラインデータをオンラインイベントと関連付けるには、トランザクション ID の記録がカスタマーケアによって有効にされている必要があります。詳しくは、[トランザクション ID の記録](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)を参照してください。
 
 インポートしたデータソースのデータのほとんどが、Digital Marketing Suite 内で使用できます。
