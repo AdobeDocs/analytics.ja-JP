@@ -1,18 +1,18 @@
 ---
 description: Report Builder における相対日付のフィールドの定義です。
 seo-description: Report Builder における相対日付のフィールドの定義です。
-seo-title: リクエストウィザードの定義-相対日付
+seo-title: リクエストウィザードの定義 - 相対日付
 solution: Analytics
-title: リクエストウィザードの定義-相対日付
+title: リクエストウィザードの定義 - 相対日付
 topic: Report Builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# リクエストウィザードの定義-相対日付
+# リクエストウィザードの定義 - 相対日付
 
 Report Builder における相対日付のフィールドの定義です。
 
@@ -26,7 +26,7 @@ Report Builder における相対日付のフィールドの定義です。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>式をカスタマイズ </p> </td> 
-   <td colname="col2"> <p>詳しくは、 <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45" type="task" format="dita" scope="local"> 日付式のカスタマイズ</a>. </p> </td> 
+   <td colname="col2"> <p>詳しくは、 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 日付式のカスタマイズ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 基準日 </p> </td> 
