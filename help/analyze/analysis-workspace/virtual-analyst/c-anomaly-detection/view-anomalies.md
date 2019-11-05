@@ -5,7 +5,7 @@ seo-title: Analysis Workspace での異常値の表示
 title: Analysis Workspace での異常値の表示
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 異常値が発生した日付
 * 異常値の生の値
 * 期待値を上回るまたは下回る割合の値。これは緑の実線で表されます。
-* [貢献度分析](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)を開始するための分析リンク。
+* [貢献度分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)を開始するための分析リンク。
 
 ![](assets/anomaly_linechart.png)
 
