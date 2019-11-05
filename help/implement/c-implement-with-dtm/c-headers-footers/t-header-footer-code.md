@@ -8,7 +8,7 @@ title: ヘッダーおよびフッターコードの追加
 topic: 開発者と実装
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Dynamic Tag Management には、ステージングおよび実稼動用の埋め
 
    >[!NOTE]
    >
-   >実稼動埋め込みコードは、その[プロパティ](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)ないの公開済みアイテムのみを反映します。ただし、ステージングの埋め込みコードは、発行済みまたは未発行の状態にかかわらず、関連するプロパティのすべてのアイテムを反映します。実稼動環境の未発行アイテムをテストするには、[Akamai ホスティング用の未発行のルールのテスト](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259)の手順に従って、コンソールでステージングをローカルで有効にします。
+   >実稼動埋め込みコードは、その[プロパティ](/help/implement/c-implement-with-dtm/t-create-web-property.md)ないの公開済みアイテムのみを反映します。ただし、ステージングの埋め込みコードは、発行済みまたは未発行の状態にかかわらず、関連するプロパティのすべてのアイテムを反映します。実稼動環境の未発行アイテムをテストするには、[Akamai ホスティング用の未発行のルールのテスト](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md)の手順に従って、コンソールでステージングをローカルで有効にします。
 
 1. 実稼動サイト用のフッターコードをコピーして、サイトの HTML の [!DNL BODY] セクションに配置します。
 
