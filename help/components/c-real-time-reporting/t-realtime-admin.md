@@ -7,7 +7,7 @@ title: リアルタイムレポートの設定
 topic: 管理ツール
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    ![](assets/real_time_admin.png)
 
-   サポートされるリアルタイム指標とディメンションについて詳しくは、「サポートされる指標とデ [ィメンション」を参照してくださ](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7)い。
+   サポートされるリアルタイム指標とディメンションについて詳しくは、「サポートされる指標とデ [ィメンション」を参照してくださ](/help/components/c-real-time-reporting/realtime-metrics.md)い。
 
    分類を作成している場合は、定義されているディメンションの下に、それらの分類がインデントして表示されます。
 
@@ -47,7 +47,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
    >
    >単一のリアルタイムレポートでは、ディメンションごとに異なる分類が選択されている場合でも、現在、ディメンションの複製を有効にする機能はサポートされていません。
 
-   分類の詳細については、「分類について」を参 [照してください](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE)。
+   分類の詳細については、「分類について」を参 [照してください](/help/components/c-classifications2/c-classifications.md)。
 
    >[!NOTE]
    >
