@@ -8,7 +8,7 @@ title: キュレーション／共有の概要
 topic: Reports & Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [プロジェクトを作成し](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 、保存して、共有 **[!UICONTROL /プロジェクトデータをキ]** ュレーションをクリックします ****。
+1. [プロジェクトを作成し](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) 、保存して、共有 **[!UICONTROL /プロジェクトデータをキ]** ュレーションをクリックします ****。
 1. 共有したいコンポーネントを、左側にあるドラッグ可能なコンポーネントスタックから「**[!UICONTROL キュレートされたコンポーネント]」フィールドにドラッグします。**
 
    ![](assets/curated-components.png)
