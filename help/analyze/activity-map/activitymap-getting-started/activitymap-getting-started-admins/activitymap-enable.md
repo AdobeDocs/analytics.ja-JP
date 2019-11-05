@@ -7,7 +7,7 @@ title: Activity Map の有効化
 topic: Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -24,7 +24,7 @@ Activity Map のデータは、このバージョン以上の AppMeasurement に
 
 1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]** and [implement it](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
 
-   Activity Map モジュールを含めることによるコードの変更を視覚的に確認できるように、[実装コードのサンプル](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734)を含めました。
+   Activity Map モジュールを含めることによるコードの変更を視覚的に確認できるように、[実装コードのサンプル](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)を含めました。
 
 1. 実装を検証します。
 
@@ -56,6 +56,6 @@ Activity Map のデータは、このバージョン以上の AppMeasurement に
 
 1. [このグループにユーザーを追加し](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) 、「グ **[!UICONTROL ループを保存]**」。
 
-1. This allow your Admin users to download Activity Map from  **Adobe Analytics** &gt; **[!UICONTROL Tools]** &gt; **ActivityMap** .
+1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
 > [!NOTE] 管理者以外のユーザーがActivity mapをダウンロードできるようにする場合は、「ツール」と「従来のClickMapのインストール」に対する権限を提供する新しいユーザーグループを作成します。 このレベルの権限は、Activity mapアクセスと組み合わされて、ツールをダウンロードして使用する権限を提供します。
