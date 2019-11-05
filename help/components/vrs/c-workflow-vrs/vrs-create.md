@@ -8,7 +8,7 @@ title: 仮想レポートスイートの作成
 topic: Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> セグメント </td> 
-   <td colname="col2"> <p>セグメントは、1 つだけ追加することも、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html" format="https" scope="external">積み重ねることもできます</a>。 </p> <p> <p>注意：2 つのセグメントを積み重ねると、それらのセグメントが AND ステートメントで結合されます。これを OR ステートメントに変更することはできません。 </p> </p> <p>仮想レポートスイートで現在使用中のセグメントを削除または編集しようとすると、警告が表示されます。 </p> </td> 
+   <td colname="col2"> <p>セグメントは、1 つだけ追加することも、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >積み重ねることもできます</a>。 </p> <p> <p>注意：2 つのセグメントを積み重ねると、それらのセグメントが AND ステートメントで結合されます。これを OR ステートメントに変更することはできません。 </p> </p> <p>仮想レポートスイートで現在使用中のセグメントを削除または編集しようとすると、警告が表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
