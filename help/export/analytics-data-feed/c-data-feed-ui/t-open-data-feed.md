@@ -7,7 +7,7 @@ solution: Analytics
 title: データフィードインターフェイスを開く
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -27,4 +27,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 フィードが設定されていない場合、ページに「**[!UICONTROL 新しいデータフィードを作成]」ボタンが表示されます。**
 
-ジョブを表示するに [は](../../../export/analytics-data-feed/c-data-feed-actions/t-feed-job-history.md#task_0D05F2D1B41B4E4A95B570DC78014480)、「ジョブ」をクリ **[!UICONTROL ックします]**。 To return to the feeds view, click **[!UICONTROL Feeds]**.
+ジョブを表示するに [は](/help/export/analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)、「ジョブ」をクリ **[!UICONTROL ックします]**。 To return to the feeds view, click **[!UICONTROL Feeds]**.
