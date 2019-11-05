@@ -1,141 +1,141 @@
 ---
 title: Adobe Analyticsの獲得レポート
-description: Analysis Workspaceを使用して獲得ベースのレポートを作成する方法について説明します。
+description: Analysis Workspaceを使用して獲得ベースのレポートを作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # 獲得レポート
 
-獲得レポートには、サイトへの訪問者の獲得方法が表示されます。
+獲得レポートは、サイトへの訪問者の獲得方法を示します。
 
-In Adobe Analytics, these reports are known as **Marketing Channels**. 基本的な初期セットアップが必要ですが、より多くのカスタマイズされたチャネル表示が可能です。
+Adobe Analyticsでは、これらのレポートはマーケティングチャネル **と呼ばれます**。 基本的な初期設定が必要ですが、チャネルの表示をよりカスタマイズできます。
 
 > [!IMPORTANT]
 >
-> これらのレポートを使用するようにマーケティングチャネルの処理ルールを設定します。See [Getting Started with Marketing Channels](../../../components/c-marketing-channels/c-getting-started-mchannel.md) for information on how to best configure Marketing Channels in your organization.
+> これらのレポートを使用するようにマーケティングチャネルの処理ルールを設定します。 貴社でマ [ーケティングチャネルを最適に設定する方法については](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 、「マーケティングチャネル — はじめに」を参照してください。
 
-このページでは、Analysis Workspaceの使用に関する基本的な知識があると想定しています。See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+このページでは、ユーザーがAnalysis Workspaceの使用に関する基本的な知識を持っていることを前提としています。 Adobe Analytics [のツールに詳しくない場合は、Analysis WorkspaceでのGoogle Analyticsユーザー用の基本レポートの作成](create-report.md) （英語のみ）を参照してください。
 
-## すべてのトラフィック-チャネル
+## すべてのトラフィック — チャネル
 
-訪問者がサイトに到達するために使用するすべてのチャネルの集計ビューを表示します。
+訪問者がサイトにアクセスする際に使用するすべてのチャネルの集計ビューを表示します。
 
-1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、マーケティングチャネ **ルディメンションを見つけ** 、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-## すべてのトラフィック-トレープマップ
+## すべてのトラフィック — ツリーマップ
 
-チャネルトラフィックのトレリマップを表示します。このレポートはすべてのトラフィック-チャネルに似ていますが、異なる方法で表示されます。
+チャネルトラフィックのツリーマップを表示します。 このレポートは「すべてのトラフィック — チャネル」に似ていますが、別の方法で表示されます。
 
-1. 左側のビジュアライゼーションアイコンをクリックし、空のフリーフォームテーブルの上にあるワークスペースにトレリマップビジュアライゼーションをドラッグします。
-2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled 'Drop a dimension here'.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
-4. 追加の指標では、追加のトレリマップが作成されます。1つのトレープマップのみが必要な場合:
-   1. 目的の指標の上部のセルをクリックして、トレリマップを表します。
-   2. 同じ指標列の最後のセルをShiftキーを押しながらクリックすると、その列が青色で強調表示されます。正しく実行されると、ビジュアライゼーションに1つのトレープマップが存在します。
-   3. トレリマップビジュアライゼーションの右上隅にある色付きの点をクリックし、チェックボックスの「選択をロック」をクリックします。
+1. 左側のビジュアライゼーションアイコンをクリックし、ツリーマップビジュアライゼーションを空のフリーフォームテーブルの上のワークスペースにドラッグします。
+2. 左側のコンポーネントアイコンをクリックし、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にマーケティングチャネル **(** Marketing Channel)ディメンションをドラッグします。
+3. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
+4. 追加の指標は追加のツリーマップを作成します。 1つのツリーマップのみが必要な場合：
+   1. 目的の指標の上部のセルをクリックして、ツリーマップを表します。
+   2. 同じ指標列の最後のセルをShiftキーを押しながらクリックすると、列が青色でハイライト表示されます。 正しく行われると、1つのツリーマップがビジュアライゼーションに存在します。
+   3. ツリーマップビジュアライゼーションの右上隅にある色付きの点をクリックし、「選択をロック」チェックボックスをクリックします。
 
-トレーママップはマーケティングチャネルだけではなく、あらゆるディメンションに適用できます。
+ツリーマップは、マーケティングチャネルだけでなく、あらゆるディメンションに適用できます。
 
-## All Traffic- Source/Medium
+## すべてのトラフィック — ソース/標準
 
-ソースレポートと媒体レポートには、サイトへのトラフィックを導いたドメインが表示されます。
+ソースレポートと媒体レポートは、トラフィックをサイトに導いたドメインを示します。
 
-* **ソース** のプライマリディメンションは、Analysis Workspaceで **参照ドメイン** ディメンションとして使用できます。
-* **Medium** プライマリディメンションは **、リファラータイプ** ディメンションとしてAnalysis Workspaceで使用できます。
-* **キーワード** のプライマリディメンションは、Analysis Workspaceで **検索キーワード** ディメンションとして使用できます。
+* Source **primaryディメンションは、Analysis Workspaceで** Referring domainディメンションとして使用 **できます** 。
+* Mediumプライ **マリディメンションは** 、Analysis Workspaceでリファラータイプディメンションと **して使用できます** 。
+* キーワ **ード** ( **Keyword** )プライマリディメンションは、Analysis Workspaceで検索キーワード(Search Keyword)ディメンションとして使用できます。
 
-1. コンポーネントメニューで、前述の目的のディメンションを見つけて、「ここにディメンションをドロップ」というラベルの大きなフリーフォームテーブル領域にドラッグします。
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、上記で説明した目的のディメンションを見つけ、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-それぞれのディメンションについて詳しくは、「コンポーネントユーザーガイド」の次のページを参照してください。
+各ディメンションの詳細については、『コンポーネントユーザガイド』の以下のページを参照してください。
 
-* [参照ドメイン](../../../components/c-variables/dimensionslist/reports-referring-domains.md)
-* [リファラータイプ](../../../components/c-variables/dimensionslist/reports-ref-types.md)
-* [検索キーワード](../../../components/c-variables/dimensionslist/reports-search-keywords.md)
+* [参照ドメイン](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
+* [リファラータイプ](/help/components/c-variables/dimensionslist/reports-ref-types.md)
+* [検索キーワード](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
 
-## すべてのトラフィック-照会
+## すべてのトラフィック — 照会
 
-* **ソース** のプライマリディメンションは、Analysis Workspaceで **参照ドメイン** ディメンションとして使用できます。
-* **ランディングページ** のプライマリディメンションは、Analysis Workspaceで **入口ページ** ディメンションとして使用できます。
+* Source **primaryディメンションは、Analysis Workspaceで** Referring domainディメンションとして使用 **できます** 。
+* ランデ **ィングページのプライマリディメンションは** 、Analysis Workspaceで入口ページディメンションとして **使用できます** 。
 
-1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、参照ドメイン **または参照ページ****** ディメンションを見つけ、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-See the [Referring Domain](../../../components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
+詳しくは、『コ [ンポーネント](/help/components/c-variables/dimensionslist/reports-referring-domains.md) 』ユーザーガイドの「参照ドメイン」ディメンションを参照してください。
 
-## Google広告レポートおよび検索コンソールレポート
+## Google広告レポートと検索コンソールレポート
 
-Adobeは、Analysis Workspaceと呼ばれる分析ワークスペースの機能を使用して、Googleを含め、複数のプラットフォームから広告および検索データを取り込みます。
+アドビでは、Advertising Analyticsと呼ばれるAnalysis Workspaceの機能を使用して、Googleを含む複数のプラットフォームから広告や検索データを取り込みます。
 
-広告分析機能には、データを返すための設定が必要です。See [Advertising Analytics Help](../../../integrate/c-advertising-analytics/overview.md) for details on how to enable these additional dimensions in Analysis Workspace.
+advertising analytics機能では、データを返すように設定する必要があります。 Analysis Workspaceでこれ [らの追加ディメンションを有効にする方法について詳しくは、「Advertising Analyticsヘルプ](/help/integrate/c-advertising-analytics/overview.md) 」を参照してください。
 
 ## Social レポート
 
-Socialレポートは、ソーシャルネットワークのコンテキストを除き、それぞれの行動レポートと同様の情報を提供します。このデータは、ディメンションとセグメントを組み合わせて、Analysis Workspaceで使用できます。
+Socialレポートは、ソーシャルネットワークのコンテキストを除き、それぞれの行動レポートと同様の情報を提供します。 このデータは、Analysis Workspaceで、ディメンションとセグメントを組み合わせて使用できます。
 
-訪問者が同じセッションで複数のチャネルを通してサイトに到達することがあります。例えば、訪問者がソーシャルメディアページをクリックしてから数分間後に、数分間後に検索エンジンを訪問したとします。この場合、ソーシャルドメイン以外のドメインがこのレポートに表示されます。ソーシャル以外のドメインを除外する場合は、訪問回数でレポートを並べ替えたり、訪問ではなくヒットに基づいてセグメントのコピーを作成したりします。See [Segmentation Containers](../../../components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+訪問者が同じセッション内の複数のチャネルを通じてサイトに到達する場合があります。 例えば、訪問者がソーシャルメディアページをクリックし、数分後に検索エンジンを訪問してサイトに到達したとします。 この場合、非ソーシャルドメインをこのレポートに表示できます。 ソーシャル以外のドメインを除外する場合は、訪問別にレポートを並べ替えるか、訪問数ではなくヒット数に基づいてセグメントのコピーを作成します。 詳しくは、 [コンポーネント](/help/components/c-segmentation/seg-overview.md) ・ユーザー・ガイドのセグメント化コンテナを参照してください。
 
-### Social-ネットワーク照会
+### Social — ネットワーク照会
 
-ネットワーク照会レポートは、どのソーシャルネットワークドメインがサイトにトラフィックを導いたかを示します。This data is available in Analysis Workspace using the **Referring Domain** dimension and **Visits from Social Sites** segment.
+ネットワーク照会レポートは、トラフィックをサイトに導いたソーシャルネットワークドメインを示します。 このデータは、Analysis Workspaceで、Socialサイトからの参照ドメ **インディメンション** と訪 **問回数セグメントを使用して使用できます** 。
 
-1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、参照ドメイン **ディメンションを見つけ** 、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. コンポーネントメニューで、「 **** Social Sitesからの訪問」セグメントを見つけ、「ここにセグメントをドロップ」というラベルが付いたフリーフォームテーブルのすぐ上の小さな領域にドラッグします。
+3. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-### Social-ランディングページ
+### Social — ランディングページ
 
-ランディングページレポートは、ソーシャルネットワークを通してリンクをクリックした後に訪問者が辿ったページを示します。This data is available in Analysis Workspace using the **Entry Page** dimension and **Visits from Social Sites** segment.
+ランディングページレポートは、訪問者がソーシャルネットワークを介してリンクをクリックした後に到達したページを示します。 このデータは、Analysis Workspaceで入口ページディメンションと **ソーシャルサイトからの訪問** (Social Sites **)セグメントを使用して使用できます** 。
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、入口ページディメ **ンションを見つけ** 、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. コンポーネントメニューで、「 **** Social Sitesからの訪問」セグメントを見つけ、「ここにセグメントをドロップ」というラベルが付いたフリーフォームテーブルのすぐ上の小さな領域にドラッグします。
+3. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-### Social-コンバージョン
+### Social — コンバージョン
 
-コンバージョンレポートは、ソーシャルネットワークのコンテキストにおけるeコマースデータを表示します。これらのレポートを両方のプラットフォームで使用するには、追加の実装が必要です。アドビでは、このデータがAnalysis Workspace用に正しく構成されていることを確認するために、導入コンサルタントと協力することを推奨しています。
+コンバージョンレポートは、ソーシャルネットワークのコンテキストでeコマースデータを表示します。 両方のプラットフォームでこれらのレポートを使用するには、追加の実装が必要です。このデータがAnalysis Workspaceに対して正しく設定されていることを確認するには、導入コンサルタントに相談することをお勧めします。
 
-### Social- Plugins
+### Social — プラグイン
 
-プラグインレポートは、サイト上の埋め込みソーシャルメディアプラグインと訪問者がどのようにやりとりしたかを示します。Analysis Workspaceで使用するには、追加の実装が必要です。アドビでは、このデータが正確に収集されるように、導入コンサルタントに相談することを推奨しています。
+プラグインレポートは、訪問者がサイトに埋め込まれたソーシャルメディアプラグインとどのようにやり取りするかを示します。 Analysis Workspaceで使用するには、追加の実装が必要です。 アドビでは、このデータが正確に収集されるように導入コンサルタントに相談することをお勧めします。
 
-### Social-ユーザーフロー
+### ソーシャル — ユーザーのフロー
 
-ユーザーフローレポートは、ソーシャルネットワーク経由で到着した訪問者のコンテキストデータを示します。
+ユーザーフローレポートは、ソーシャルネットワークを介して訪問者が到着した状況に応じたパスデータを示します。
 
 1. 左側のビジュアライゼーションアイコンをクリックし、フロービジュアライゼーションをフリーフォームテーブルの上のワークスペースにドラッグします
-2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
-3. **ページ** ディメンションを見つけて、矢印アイコンをクリックしてページ値を表示します。ディメンション値は黄色で表示されます。
-4. 開始するページ値を探し、「ディメンションまたは項目」という名前のスペースにドラッグします
-5. このフローレポートはインタラクティブです。任意の値をクリックして、後続のページまたは前のページにフローを展開します。右クリックメニューを使用して、列を展開または折りたたみます。同じフローレポート内でも異なるディメンションを使用できます。
+2. 左側のコンポーネントアイコンをクリックし、「ソーシャルサイトからの訪問」セグメントを **** 、「ここにセグメントをドロップ」というラベルが付いたフロービジュアライゼーションのすぐ上の小さな領域にドラッグします。
+3. ページディメ **ンションを見つけ** 、矢印アイコンをクリックしてページ値を表示します。 寸法値は黄色で表示されます。
+4. 開始するページ値を見つけ、中央の「ディメンションまたは項目」というラベルの付いたスペースにドラッグします
+5. このフローレポートはインタラクティブです。 いずれかの値をクリックして、後続のページまたは前のページへのフローを展開します。 右クリックメニューを使用して、列を展開または折りたたむことができます。 同じフローレポート内で異なるディメンションを使用することもできます。
 
-## キャンペーン-すべて
+## キャンペーン — すべて
 
-The campaigns report is available in Analysis Workspace using the **Tracking Code** dimension. トラッキングコードディメンションを使用するには、データを収集するための追加の実装が必要です。
+キャンペーンレポートは、Analysis Workspaceでトラッキングコードディメンションを使 **用して使用でき** ます。 データを収集するには、追跡コードディメンションを使用する追加の実装が必要です。
 
-カスタム変数（eVar）を使用して、Adobe AnalyticsでUTMパラメーターを収集できます。Adobe Analyticsでトラッキングコードの値が正確に収集されるように、導入コンサルタントに相談することをお勧めします。
+カスタム変数(eVar)を使用して、Adobe AnalyticsでUTMパラメーターを収集できます。 Adobe Analyticsでトラッキングコードの値が正確に収集されるように、導入コンサルタントに相談することをお勧めします。
 
-1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、トラッキングコ **ードディメンションを見つけ** 、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-## キャンペーン-有料キーワード
+## キャンペーン — 有料キーワード
 
-有料キーワードレポートは、訪問者が検索エンジンから有料検索リンクをクリックした後にどのように実行されるかを示します。**検索キーワード-有料** ディメンションはAnalysis Workspaceで使用できますが、データ収集には有料検索検知の1回限りの設定が必要です。See [Paid Search Detection](../../../admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
+有料キーワードレポートは、訪問者が検索エンジンから有料検索リンクをクリックした後の各キーワードのパフォーマンスを示します。 Analysis Workspaceで **は検索キーワード — 有料** (Search Keywords - Paid)ディメンションを使用できますが、データを収集するには1回限りの有料検索検出の設定が必要です。 設定の詳 [細については](/help/admin/admin/paid-search-detection/paid-search-detection.md) 、『管理者ユーザーガイド』の「有料検索検知」を参照してください。
 
-1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、 **Search Keyword - Paid** （検索キーワード — 有料）ディメンションを探し、「Drop a Dimension here（ディメンションをここにドロップ）」というラベルの付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-## キャンペーン-オーガニックキーワード
+## キャンペーン — オーガニックキーワード
 
-オーガニックキーワードレポートは、訪問者が検索エンジンからオーガニック検索リンクをクリックした後にどのように実行されるかを示します。**検索キーワード-自然** ディメンションは、Analysis Workspaceで使用できます。有料検索検知が設定されていない場合、このディメンションは有料キーワードと自然キーワードの両方を収集します。
+オーガニックキーワードレポートは、訪問者が検索エンジンからオーガニック検索リンクをクリックした後の各キーワードのパフォーマンスを示します。 Analysis Workspaceで **は、Search Keywords - Natural** （検索キーワード — 自然）ディメンションを使用できます。 有料検索検知が設定されていない場合、このディメンションは有料キーワードと自然キーワードの両方を収集します。
 
-1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、 **Search Keyword - Natural** （検索キーワード — 自然）ディメンションを探し、「Drop a Dimension here（ディメンションをここにドロップ）」というラベルの付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
 ## コスト分析
 
-このレポートには、有料マーケティングチャネルの訪問、コスト、売上高のパフォーマンスデータが表示されます。アドビは、Adobe Advertising Cloudというインサイトを提供する専用の製品を提供しています。組織がこの製品の使用を希望する場合は、貴社のアカウントマネージャーにお問い合わせください。
+このレポートには、有料マーケティングチャネルの訪問数、コスト数、売上高のパフォーマンスデータが表示されます。 アドビは、Adobe Advertising cloudと呼ばれるインサイトを提供する専用製品を提供しています。 貴社がこの製品の使用に関心を持っている場合は、貴社のアカウントマネージャーにお問い合わせください。
