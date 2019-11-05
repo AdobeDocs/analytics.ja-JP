@@ -7,7 +7,7 @@ title: 指標のクイックリファレンス
 topic: 指標
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Adobe Analytics の標準指標のリストです。
 
-> [!NOTE] 以下に示されていない指標（イベント）は、カスタ [ム指標](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) （カスタムイベント）です。
+>[!NOTE]
+>
+>以下に示されていない指標（イベント）は、カスタ [ム指標](/help/components/c-variables/c-metrics/metrics-custom.md) （カスタムイベント）です。
 
 >[!IMPORTANT]
 >
