@@ -8,7 +8,7 @@ title: prop と eVar の概要
 topic: 開発者と実装
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 カスタムトラフィック変数（prop（s.prop）またはプロパティ変数とも呼ばれます）は、各変数が Analytics に送信された回数をカウントするカウンターです。
 
-割り当てる変数のタイプや場所を判断する際は、prop と eVar の機能性の違いを理解していることが重要です。これらの違いを理解していれば、最適の変数のタイプを判断できます。詳しくは、「[Prop と eVar の比較](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC)」を参照してください。
+割り当てる変数のタイプや場所を判断する際は、prop と eVar の機能性の違いを理解していることが重要です。これらの違いを理解していれば、最適の変数のタイプを判断できます。詳しくは、「[Prop と eVar の比較](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md)」を参照してください。
 
 また、prop は、カスタムデータを特定のトラフィック関連イベントに相互に関連付けることができます。これらの変数は、Web サイトの各ページの [!DNL Analytics] コードに埋め込まれます。[!UICONTROL  は、]s.prop[!DNL Analytics] 変数を使用して、組織、産業、およびビジネス目標に特有のカスタムレポートの作成を可能にします。
 
@@ -40,4 +40,4 @@ eVar（または [!UICONTROL カスタムコンバージョンインサイト]�
 
 その他の情報については、Analytics ヘルプとリファレンスの[トラフィック変数](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html)を参照してください。
 
-Digital Tag Management でプロパティを作成する方法については、「[Web プロパティの作成](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)」を参照してください。
+Digital Tag Management でプロパティを作成する方法については、「[Web プロパティの作成](/help/implement/c-implement-with-dtm/t-create-web-property.md)」を参照してください。
