@@ -7,7 +7,7 @@ title: 予定レポートマネージャー
 topic: Ad Hoc Analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE] ユーザーアカウントが無効になっている場合、そのユーザーが作成した予定レポートの配信は中止されます。
 
-保存されたレポートや予定レポートで内訳の行項目が確実に保持されるようにするには、表ビルダーの「項目の編集 **[!UICONTROL 」機能を使用して]**[](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) 、分類の固定ディメンションリストを作成します。
+保存されたレポートや予定レポートで内訳の行項目が確実に保持されるようにするには、表ビルダーの「項目の編集 **[!UICONTROL 」機能を使用して]**[](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 、分類の固定ディメンションリストを作成します。
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ r_delivery_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> アドバンス </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_F99B65BF7C9746638D8147EED147015B" type="reference" format="dita" scope="local"> Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイルの保存先 </p> </td> 
