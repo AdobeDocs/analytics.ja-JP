@@ -3,8 +3,8 @@ title: 開発環境への Adobe Analytics のデプロイ
 seo-title: 開発環境への Adobe Analytics のデプロイ
 description: Adobe Experience Platform Launch を使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
 seo-description: Adobe Experience Platform Launch を使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
-translation-type: ht
-source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Platform Launch ライブラリが実稼働環境にプッシ�
 
 Experience Cloud デバッガーは、ページに存在するすべての Experience Cloud タグを表示する Chrome プラグインです。
 
-1. [Chrome Web ブラウザー](https://www.google.com/chrome/) を開き、Chrome Web ストアで [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) に移動して拡張機能をインストールします。
+1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
 2. Launch を実装した開発用 Web サイトに移動します。
 3. Chrome の右上にある Adobe Experience Cloud デバッガーアイコンをクリックします
 4. すべてが正しく実装されている場合は、Adobe Analytics、Adobe Experience Platform Launch および Adobe Experience Cloud 訪問者 ID サービス内に次のコンテンツが表示されます。
@@ -66,4 +66,4 @@ Experience Cloud デバッガーは、ページに存在するすべての Exper
 これで基本的な実装が設定されました。組織内でのお客様の役割では、詳細を確認したいパスに影響を与えることができます。
 
 * [ソリューションデザインドキュメントの作成](../prepare/solution-design.md)：カスタム変数の使用方法を計画し、実装に含めます。
-* [Analysis Workspace の使用を開始する](../../analyze/analysis-workspace/home.md)：ツールの主力機能を使用して、Adobe Analytics に直接アクセスします。
+* [Analysis Workspace の使用を開始する](/help/analyze/analysis-workspace/home.md)：ツールの主力機能を使用して、Adobe Analytics に直接アクセスします。
