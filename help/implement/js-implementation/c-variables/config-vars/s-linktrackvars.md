@@ -5,7 +5,7 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -67,4 +67,4 @@ s.linkTrackVars="products"
 * *`linkTrackVars`* に含まれる変数で、ダウンロードリンク、離脱リンクまたはカスタムリンクのクリック時点で値を持つものが追跡されます。
 * *`linkTrackEvents`* を使用する場合は、*`linkTrackVars`* に「events」を含める必要があります。
 
-* 変数に「s.」または「s_objectname」のプレフィックスを使用しないでくだ
+* 変数に「s.」または「s_objectname」のプレフィックスを使用しないでください。
