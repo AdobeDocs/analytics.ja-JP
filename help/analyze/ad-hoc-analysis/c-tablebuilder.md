@@ -5,7 +5,7 @@ seo-title: 表ビルダー
 title: 表ビルダー
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> アイテムを選択</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>ディメンション項目のリストを選択して、分類の固定リストを作成します。このリストに項目を追加すると、その項目は保存されたレポート内で常に表示される項目となります。これらの項目は、保存されたレポートや予定レポートを開いたときに、折りたたまれた状態になりません。 </p> <p>詳しくは、 <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> 表データの分類</a>. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>ディメンション項目のリストを選択して、分類の固定リストを作成します。このリストに項目を追加すると、その項目は保存されたレポート内で常に表示される項目となります。これらの項目は、保存されたレポートや予定レポートを開いたときに、折りたたまれた状態になりません。 </p> <p>詳しくは、 <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > 表データの分類</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 列</span> </td> 
