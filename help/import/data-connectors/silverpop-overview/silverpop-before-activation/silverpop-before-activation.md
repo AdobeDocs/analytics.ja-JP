@@ -5,7 +5,7 @@ seo-title: この統合をアクティブ化する前に
 title: この統合をアクティブ化する前に
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 Adobe Analyticsに関連する、このData Connectors統合に関する次の情報を確認します。
 
 * **** レポートスイート固有：この統合は、レポートスイートに固有のものであることをお勧めします。 統合をアクティブ化する前に、目的のレポートスイートが選択されていることを確認します。
-* **** 利用可能で設定済みのAnalytics変数：この統合には、5つのカスタムイベントと2つのカスタムeVarが必要です。また、オプションで3つの追加イベントと3つの追加eVarが必要です。 詳しくは、 [Analytics統合変数を参照してください](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2)。
+* **** 利用可能で設定済みのAnalytics変数：この統合には、5つのカスタムイベントと2つのカスタムeVarが必要です。また、オプションで3つの追加イベントと3つの追加eVarが必要です。 詳しくは、 [Analytics統合変数を参照してください](/help/import/data-connectors/silverpop-overview/silverpop-variables.md)。
 
 * **** 認定担当者：この統合を有効にすると、お客様の会社がAdobe, Inc.とのサービス契約またはアドビの信頼できるパートナーとのサービス契約に従って、該当する料金が発生する可能性があります。 この統合をアクティブ化すると、お客様は会社の承認された代表者であることを表します。そのため、お客様の会社は、上記のサービス契約に定める料金を支払うことに同意します。
 * **** Data Warehouse™:この統合では、リマーケティングセグメントを生成するためにData Warehouseが有効になっている必要があります。 Data Warehouseを有効にしていない場合は、アドビにお問い合わせください。
