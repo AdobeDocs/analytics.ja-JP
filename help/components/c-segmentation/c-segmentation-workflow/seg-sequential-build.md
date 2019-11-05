@@ -7,7 +7,7 @@ title: 順次セグメントの構築
 topic: セグメント
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/before-after-sequence.png)
 
-Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
+Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ## 全員を含む {#section_75ADDD5D41F04800A09E592BB2940B35}
 
@@ -183,7 +183,7 @@ Additionally, you can constrain sequential segments to a specific duration of t
 * **参照ドメインの除外**。Google.com からの参照ドメインのみ含み、その他のすべての参照ドメインを除外するルールを使用します。
 * **非購入者の識別**。注文件数が 1 以上の場合を識別して、その[!UICONTROL 訪問者]を除外します。
 
-[!UICONTROL Exclude] 演算子を使用して、特定の訪問またはヒットが訪問者によって実行されないシーケンスを識別できます。[!UICONTROL 除外チェックポイント]も [論理グループ](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
+[!UICONTROL Exclude] 演算子を使用して、特定の訪問またはヒットが訪問者によって実行されないシーケンスを識別できます。[!UICONTROL 除外チェックポイント]も [論理グループ](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ### チェックポイント間の除外
 
@@ -324,7 +324,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 **このセグメントを作成**
 
-このセグメントを作成するには、左のパネルからディメンション、イベントおよび事前ビルドセグメントをドラッグします。See [Building a Logic Group Segment](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
+このセグメントを作成するには、左のパネルからディメンション、イベントおよび事前ビルドセグメントをドラッグします。See [Building a Logic Group Segment](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 「[!UICONTROL 論理グループ]」内で値をネストしてから、「**[!UICONTROL 論理グループ]」コンテナ内の**[!UICONTROL 除外]ボタンをクリックします。
 
@@ -425,7 +425,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 **一致する場合**
 
-2019 年 6 月 1 日にページ A をヒットした後、2019 年 6 月 15 日 0 時 1 分より後、2019 年 7 月 1 日より前に戻った訪問者がこのセグメントに含まれます。**[間隔：「以下を除外する」](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8)と比較してください。
+2019 年 6 月 1 日にページ A をヒットした後、2019 年 6 月 15 日 0 時 1 分より後、2019 年 7 月 1 日より前に戻った訪問者がこのセグメントに含まれます。**[間隔：「以下を除外する」](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)と比較してください。
 
 [!UICONTROL After] 演算子と [!UICONTROL Within] 演算子を一緒に使用して、順次セグメントを定義できます。
 
