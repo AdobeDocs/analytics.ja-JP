@@ -9,7 +9,7 @@ title: ページコードとグローバル設定の例
 topic: 開発者と実装
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 >[!IMPORTANT]
 >
->この例では訪問者 ID サービスを使用していますが、このサービスは [JavaScript の実装](../../implement/js-implementation/javascript-implementation-overview.md)の一部としてデプロイされます。訪問者 API JavaScript ファイルをすべてのサイトページに含める前に、AppMeasurement で訪問者 ID サービスを有効にすると、訪問者が二重にカウントされる可能性があります。訪問者の二重カウントを避けるには、「[訪問者 ID サービス](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07)」に記載されているプロセスを理解して従うようにしてください。
+>この例では訪問者 ID サービスを使用していますが、このサービスは [JavaScript の実装](/help/implement/js-implementation/javascript-implementation-overview.md)の一部としてデプロイされます。訪問者 API JavaScript ファイルをすべてのサイトページに含める前に、AppMeasurement で訪問者 ID サービスを有効にすると、訪問者が二重にカウントされる可能性があります。訪問者の二重カウントを避けるには、「[訪問者 ID サービス](/help/implement/js-implementation/c-unique-visitors/visid-service.md)」に記載されているプロセスを理解して従うようにしてください。
 
 ## コード例：AppMeasurement.js {#section_4351543F2D6049218E18B48769D471E2}
 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-各ページに `AppMeasurement.js` と `VisitorAPI.js` への参照が含まれていることも必ず確認してください。「[JavaScript の実装](../../implement/js-implementation/javascript-implementation-overview.md)」を参照してください。
+各ページに `AppMeasurement.js` と `VisitorAPI.js` への参照が含まれていることも必ず確認してください。「[JavaScript の実装](/help/implement/js-implementation/javascript-implementation-overview.md)」を参照してください。
