@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: AppMeasurement プラグインのサポート
 topic: 開発者と実装
 uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -26,14 +26,14 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 * [appendList](/help/implement/js-implementation/plugins/appendlist.md)
 * [doPlugins 関数](/help/implement/js-implementation/plugins/function-doplugins.md)
 * [getAndPersistValue](/help/implement/js-implementation/plugins/getandpersistvalue.md)
-* [getDaysSinceLastVisit](../../../implement/js-implementation/plugins/getdayssincelastvisit.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
+* [getDaysSinceLastVisit](/help/implement/js-implementation/plugins/getdayssincelastvisit.md)
 * [getLoadTime](/help/implement/js-implementation/plugins/getloadtime.md)
-* [getNewRepeat](../../../implement/js-implementation/plugins/getnewrepeat.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
+* [getNewRepeat](/help/implement/js-implementation/plugins/getnewrepeat.md)
 * [getPageVisibility](/help/implement/js-implementation/plugins/pagevisibility.md)
 * [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md)
 * [getPreviousValue](/help/implement/js-implementation/plugins/getpreviousvalue.md)
 * [getQueryParam](/help/implement/js-implementation/plugins/getqueryparam.md)
-* [getTimeParting](../../../implement/js-implementation/plugins/gettimeparting.md#concept_3746EA1D1EF746049AE84105B911F44A)
+* [getTimeParting](/help/implement/js-implementation/plugins/gettimeparting.md)
 * [getValOnce](/help/implement/js-implementation/plugins/getvalonce.md)
 * [getVisitNum](/help/implement/js-implementation/plugins/getvisitnum.md)
 * [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md)
