@@ -8,7 +8,7 @@ title: JavaScript 版 AppMeasurement
 topic: 開発者と実装
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -349,11 +349,11 @@ Visitor API 1.5.7 を同梱しました。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS 拡張機能</span> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">iOS</span> SDK バージョン 4.5 から、新しい <span class="keyword">iOS</span> 拡張機能によって Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの <span class="keyword">iOS</span> 拡張機能アプリから使用データを収集できるようになりました。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">iOS 拡張機能の実装</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">iOS</span> SDK バージョン 4.5 から、新しい <span class="keyword">iOS</span> 拡張機能によって Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの <span class="keyword">iOS</span> 拡張機能アプリから使用データを収集できるようになりました。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html">iOS 拡張機能の実装</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android ウェアラブル拡張機能</span> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Android</span> SDK バージョン 4.5 から、新しい <span class="keyword">Android</span> 拡張機能によって <span class="keyword">Android</span> ウェアラブルアプリからデータを収集できるようになりました。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android ウェアラブル拡張機能</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Android</span> SDK バージョン 4.5 から、新しい <span class="keyword">Android</span> 拡張機能によって <span class="keyword">Android</span> ウェアラブルアプリからデータを収集できるようになりました。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html">Android ウェアラブル拡張機能</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
