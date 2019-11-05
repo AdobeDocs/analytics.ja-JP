@@ -8,7 +8,7 @@ title: データソースに関する FAQ
 topic: 開発者と実装
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## オフラインデータをオンラインイベントに関連付けるにはどうしたらいいですか。 {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
-トランザクション ID データソースを使用してオフラインデータをオンラインイベントに関連付けるには、トランザクション ID の記録を有効にする必要があります。詳しくは、[トランザクション ID の記録](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)を参照してください。
+トランザクション ID データソースを使用してオフラインデータをオンラインイベントに関連付けるには、トランザクション ID の記録を有効にする必要があります。詳しくは、[トランザクション ID の記録](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)を参照してください。
 
 ## データソース機能の使用料はいくらですか。 {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 
