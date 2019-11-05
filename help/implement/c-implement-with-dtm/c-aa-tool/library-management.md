@@ -7,7 +7,7 @@ solution: Experience Cloud, Dynamic Tag Management
 title: ライブラリ管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -46,7 +46,7 @@ Dynamic Tag Management の「ライブラリ管理」設定のフィールドお
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>DTM</b>：Dynamic Tag Management 内で <span class="filepath">s_code</span> をホストできます。「<span class="uicontrol">コードを編集</span>」をクリックして、s_code（AppMeasurement）の内容を直接エディターに貼り付けます。 </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL 指定</b>：適切な <span class="filepath">s_code</span> ファイルが既に存在し、それを更新するプロセスに満足している場合、ここでそのファイルの URL を指定できます。Dynamic Tag Management は、<span class="filepath">Adobe Analytics</span> による計測のためにこの <span class="keyword">s_code</span> ファイルをロードします。 </li> 
-    </ul> <p> <b>エディターを開く：</b><a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local">コア AppMeasurement コードを挿入</a>できます。「<a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local">Adobe Analytics 設定い</a>」で説明した自動設定メソッドを使用すると、このコードは自動生成されます。 </p> <p> <b>トラッカー変数名：</b>2 つの <span class="keyword">Adobe Analytics</span> インスタンスを並行して（1 つは Dynamic Tag Management で、もう 1 つはネイティブで）実行する場合に、メインの <span class="term">s</span> オブジェクトの名前を変更できます。オブジェクト名を変更すると名前の競合を避けることができます。 </p> </td> 
+    </ul> <p> <b>エディターを開く：</b><a href="/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md"  >コア AppMeasurement コードを挿入</a>できます。「<a href="/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md"  >Adobe Analytics 設定い</a>」で説明した自動設定メソッドを使用すると、このコードは自動生成されます。 </p> <p> <b>トラッカー変数名：</b>2 つの <span class="keyword">Adobe Analytics</span> インスタンスを並行して（1 つは Dynamic Tag Management で、もう 1 つはネイティブで）実行する場合に、メインの <span class="term">s</span> オブジェクトの名前を変更できます。オブジェクト名を変更すると名前の競合を避けることができます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
