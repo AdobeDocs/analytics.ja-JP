@@ -7,7 +7,7 @@ solution: Analytics
 title: データフィード
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ Adobe Data Warehouse、標準データフィードを購入済みの場合 [!UIC
 
 FTP アカウントがいっぱいになった場合は、現在あるファイルをダウンロードおよび削除して、容量を確保したことをアドビに通知してください。通知があった後、配信されなかったファイルを再送信します。Data Warehouse などの一部のツールでは、ユーザーがこれらのファイルを再送信することができます。アドビの関与なく再送信できる場合があります。FTP アカウントがいっぱいになることが頻繁にある場合は、アドビカスタマーケアにご連絡ください。アカウントの FTP 容量やファイル数の割り当ての増加など、利用できる配信オプションについてご提案します。
 
-FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)を参照してください。
+FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](/help/export/ftp-and-sftp/ftp-limits.md)を参照してください。
