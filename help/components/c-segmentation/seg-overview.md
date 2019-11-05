@@ -7,7 +7,7 @@ title: セグメントおよびコンテナについて
 topic: セグメント
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 セグメントは、[!UICONTROL 訪問者]、[!UICONTROL 訪問]および[!UICONTROL ヒット]の各レベル階層に基づき、ネストされたコンテナモデルを使用して構成されます。ネストされたコンテナを使用することで、コンテナ間およびコンテナ内のルールに基づいて、訪問者の属性とアクションを定義できます。Analytics セグメントは、[!DNL Adobe Experience Cloud] の複数の製品および機能間で構築、承認、共有、保存および実行できます。セグメントはレポートから生成したり、ダッシュボードレポートに組み込んだりできます。また、セグメントをブックマークに登録すると、セグメントにすばやくアクセスできるようになります。
 
-セグメントビルダーでセグメントを作成して保存することも、（[!DNL ad hoc analysis] で）フォールアウトレポートからセグメントを生成することもできます。また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。さらに、[積み重ねセグメント](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_40C299B60B354E10B344702EA3138B34)として複数のセグメントを使用することもできます。
+セグメントビルダーでセグメントを作成して保存することも、（[!DNL ad hoc analysis] で）フォールアウトレポートからセグメントを生成することもできます。また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。さらに、[積み重ねセグメント](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)として複数のセグメントを使用することもできます。
 
 ## セグメント {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -113,7 +113,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **論理グループコンテナ**
 
-論理グループコンテナは、セグメントルール内の個別のコンテナを提供して、階層に基づかずにエンティティをフィルタリングするために使用できます。例えば、訪問者に基づいてフィルタリングするセグメント内にネストされたコンテナを提供するとします。この論理タイプでは、（トップレベルの訪問者コンテナが既に存在するので）階層を超えて選択した訪問者のみをフィルタリングする必要があります。これは、論理グループコンテナを使用して実現できます。詳しくは、[論理グループの例](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560)を参照してください。
+論理グループコンテナは、セグメントルール内の個別のコンテナを提供して、階層に基づかずにエンティティをフィルタリングするために使用できます。例えば、訪問者に基づいてフィルタリングするセグメント内にネストされたコンテナを提供するとします。この論理タイプでは、（トップレベルの訪問者コンテナが既に存在するので）階層を超えて選択した訪問者のみをフィルタリングする必要があります。これは、論理グループコンテナを使用して実現できます。詳しくは、[論理グループの例](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)を参照してください。
 
 ## Nesting containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -154,13 +154,13 @@ Country = United States + Order = True
 
 ![](assets/nesting_container.png)
 
-「[!UICONTROL 訪問者]」コンテナは順次セグメントでは最上位のコンテナです。「[!UICONTROL 訪問]」コンテナは、「[!UICONTROL 訪問者]」コンテナ内に含まれ、「[!UICONTROL ヒット]」コンテナは「[!UICONTROL 訪問者]」コンテナまたは「[!UICONTROL 訪問]」コンテナ内に含まれます。適切な順序の順次セグメントを作成するためには、この[コンテナ階層](../../components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70)を維持する必要があります。
+「[!UICONTROL 訪問者]」コンテナは順次セグメントでは最上位のコンテナです。「[!UICONTROL 訪問]」コンテナは、「[!UICONTROL 訪問者]」コンテナ内に含まれ、「[!UICONTROL ヒット]」コンテナは「[!UICONTROL 訪問者]」コンテナまたは「[!UICONTROL 訪問]」コンテナ内に含まれます。適切な順序の順次セグメントを作成するためには、この[コンテナ階層](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70)を維持する必要があります。
 
 **順次セグメントを作成するには**、コンテナをネストし、[!UICONTROL THEN] 演算子を使用して論理を順に結合します。この演算子は、各コンテナに対して、訪問者の訪問やヒットの順序を満たすことを求めるものです。
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-このコンテナ階層には唯一の例外があります。それは、[論理グループコンテナ](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560)を使用する場合です。[!UICONTROL 論理グループ]コンテナでは、特定の順序に従わずに、コンテナ内でヒットをネストしてイベントやディメンションを収集できます。
+このコンテナ階層には唯一の例外があります。それは、[論理グループコンテナ](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)を使用する場合です。[!UICONTROL 論理グループ]コンテナでは、特定の順序に従わずに、コンテナ内でヒットをネストしてイベントやディメンションを収集できます。
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -253,7 +253,7 @@ Country = United States + Order = True
 
 キャンペーン eVar や、参照ディメンションなど、ページの範囲間で持続するディメンションを使用したフィルタリングは、コンテナレベルで収集されるデータに影響します。精度の高いレポートを作成するには、こうしたフィルタリングについて理解する必要があります。
 
-セグメントデータは、選択されたページ間でディメンションや適用される変数の持続性に応じて変化します。ページディメンションなどのディメンションは、ページレベルで固有値を提供し、ヒットコンテナのデータに基づいてフィルタリングされます（[コンテナデータに基づくレポート](../../components/c-segmentation/seg-overview.md#concept_BE822C12F87C4F07B7147D80BEFBAB87)の例を参照してください）。また、参照ドメインディメンションなどのディメンションは、訪問の複数のページ間で持続します。訪問期間などのディメンションや適用される変数は、訪問者の履歴全体に及びます。
+セグメントデータは、選択されたページ間でディメンションや適用される変数の持続性に応じて変化します。ページディメンションなどのディメンションは、ページレベルで固有値を提供し、ヒットコンテナのデータに基づいてフィルタリングされます（[コンテナデータに基づくレポート](/help/components/c-segmentation/seg-overview.md)の例を参照してください）。また、参照ドメインディメンションなどのディメンションは、訪問の複数のページ間で持続します。訪問期間などのディメンションや適用される変数は、訪問者の履歴全体に及びます。
 
 ![](assets/RefDomain_aol.png)
 
