@@ -8,7 +8,7 @@ title: DTM 実装の概要
 topic: 開発者と実装
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,11 +25,11 @@ Dynamic Tag Management による導入手順について詳しくは、Adobe Ana
 
 このガイドでは、DTM を使用して Analytics を導入する際の次の手順について説明します。
 
-1. [Web プロパティを作成](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)する。
-1. [ホスティングオプションを設定](../../implement/c-implement-with-dtm/t-configure-hosting.md#task_EAD99BB391F544C0BB197D0B3D03EBAC)する。
-1. [各管理対象ページにヘッダーおよびフッターコードを追加](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5)する。
-1. [Adobe Analytics ツールを追加](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8)する。
-1. [データ要素](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)、[ルールと条件](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB)、[アクション](../../implement/c-implement-with-dtm/c-rules/t-rules-actions.md#task_94DFE0D8B53A43E2892851BABE381121)を作成します。
+1. [Web プロパティを作成](/help/implement/c-implement-with-dtm/t-create-web-property.md)する。
+1. [ホスティングオプションを設定](/help/implement/c-implement-with-dtm/t-configure-hosting.md)する。
+1. [各管理対象ページにヘッダーおよびフッターコードを追加](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)する。
+1. [Adobe Analytics ツールを追加](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md)する。
+1. [データ要素](/help/implement/c-implement-with-dtm/t-data-element.md)、[ルールと条件](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md)、[アクション](/help/implement/c-implement-with-dtm/c-rules/t-rules-actions.md)を作成します。
 
 1. 実稼動サーバーにツールおよびルールを発行する。
 
