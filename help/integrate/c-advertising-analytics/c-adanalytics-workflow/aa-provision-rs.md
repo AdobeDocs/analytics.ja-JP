@@ -5,7 +5,7 @@ seo-title: Advertising Analytics 用のレポートスイートの有効化
 title: Advertising Analytics 用のレポートスイートの有効化
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,5 +34,5 @@ Advertising Analytics検索データをAnalyticsで表示するには、Advertis
    | 最新（最後） | 最後の値に成功イベントのクレジットのすべての配分が付与されます。その前にどのような変数が発生したかは関係ありません。 |
    | 有効期限 | eVar 値の有効期限が切れる（成功イベントのクレジットを受け取らなくなる）までの期間またはイベントを指定できます。eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。 |
 
-1. Click **[!UICONTROL Enable Advertising Analytics Reporting]** (first time), or **[!UICONTROL Update Advertising Analytics Reporting]** (subsequent times). これで、レポートスイートが Advertising Analytics 検索データを受け取ることができます。[アカウントを作成できる](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C)状態ではありません。
+1. Click **[!UICONTROL Enable Advertising Analytics Reporting]** (first time), or **[!UICONTROL Update Advertising Analytics Reporting]** (subsequent times). これで、レポートスイートが Advertising Analytics 検索データを受け取ることができます。[アカウントを作成できる](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)状態ではありません。
 
