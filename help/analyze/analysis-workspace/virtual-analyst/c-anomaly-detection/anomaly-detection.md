@@ -5,7 +5,7 @@ seo-title: 異常値検出の概要
 title: 異常値検出の概要
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace内でコンテキスト上のデータの異常を表示お�
 
 [YouTubeでの貢献度分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
-> [!IMPORTANT] 異常値検出は、Analysis Workspaceでのみ使用できます。 Adobe Analytics Select and Foundationのお客様は、Workspaceの「毎日の精度」の異常値検出にのみアクセスできます。 詳しくは、[異常値検出と貢献度分析の権限](../contribution-analysis/ca-tokens.md)を参照してください。
+>[!IMPORTANT] 異常値検出は、Reports &amp; Analyticsの機能セットから削除され、Analysis Workspaceでのみ使用できるようになりました。 Adobe Analytics selectおよびAdobe Analytics Foundationのお客様は、Workspaceの「毎日の精度」の異常値検出にのみアクセスできます。 詳しくは、[異常値検出と貢献度分析の権限](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)を参照してください。
 
 異常値検出は、以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。
 
