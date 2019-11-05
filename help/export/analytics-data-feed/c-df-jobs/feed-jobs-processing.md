@@ -1,18 +1,18 @@
 ---
 description: 「ジョブ」タブを使用して、ジョブ履歴を表示したり、ジョブ管理タスクを実行したりできます。
-keywords: データフィード;job;設定
+keywords: データフィード；ジョブ；設定
 seo-description: 「ジョブ」タブを使用して、ジョブ履歴を表示したり、ジョブ管理タスクを実行したりできます。
-seo-title: データフィードジョブ-概要
+seo-title: データフィードジョブ - 概要
 solution: Analytics
-title: データフィードジョブ-概要
-uuid: 83caabb-9457-4e37-9d1e- f2ee281daba6
+title: データフィードジョブ - 概要
+uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# データフィードジョブ-概要
+# データフィードジョブ - 概要
 
 「ジョブ」タブを使用して、ジョブ履歴を表示したり、ジョブ管理タスクを実行したりできます。
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | フィード名 | フィードの名前。 |
 | 開始時間 | タイムゾーンに表示される、ジョブの開始名。 |
 | 実行時間 | ジョブを実行するまでに必要な時間。dd hh:mm:ss で表示されます。 |
-| ステータス | ジョブの現在の[ステータス](../../../export/analytics-data-feed/c-df-jobs/r-job-status.md#reference_7A39A327F643447F9B5AE3A2502C72BA)。 |
+| ステータス | ジョブの現在の[ステータス](/help/export/analytics-data-feed/c-df-jobs/r-job-status.md)。 |
 | 完了時間 | ジョブが実行を終了する時間。自分のタイムゾーンで表示されます。 |
 | リクエスト日 | ジョブに含まれるデータの日付スタンプ。 |
 
