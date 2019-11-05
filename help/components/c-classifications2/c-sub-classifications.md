@@ -8,7 +8,7 @@ title: 下位分類について
 topic: 管理ツール
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -42,7 +42,7 @@ c_single-level_classifications.xml
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-データファイルについて詳しくは、 [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+データファイルについて詳しくは、 [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 <!-- 
 
@@ -54,7 +54,7 @@ c_multiple-level_classifications.xml
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**親の分類：**&#x200B;子の分類が関連付けられている分類は、すべて親の分類となります。分類は、親の分類にも子の分類にも指定できます。最上位レベルの親の分類は、単一レベルの分類に相当します（[単一レベルの分類](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)を参照）。
+**親の分類：**&#x200B;子の分類が関連付けられている分類は、すべて親の分類となります。分類は、親の分類にも子の分類にも指定できます。最上位レベルの親の分類は、単一レベルの分類に相当します（[単一レベルの分類](/help/components/c-classifications2/c-sub-classifications.md)を参照）。
 
 **子の分類：**&#x200B;変数ではなく別の分類を親として持つ分類は、すべて子の分類になります。子の分類は、親の分類についての追加情報を示します。例えば、[!UICONTROL キャンペーン]分類はキャンペーン所有者という子の分類を持つ場合があります。[!UICONTROL 数値]の分類は、分類レポートで指標としても機能します。
 
@@ -62,7 +62,7 @@ c_multiple-level_classifications.xml
 
 `<parent_name>^<child_name>`
 
-データファイルの形式について詳しくは、「分類データファイル」 [を参照してください](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)。
+データファイルの形式について詳しくは、「分類データファイル」 [を参照してください](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
 次に例を示します。
 
