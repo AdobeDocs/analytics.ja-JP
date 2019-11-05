@@ -7,7 +7,7 @@ title: s.tl() 関数の使用
 topic: Activity Map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
