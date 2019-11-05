@@ -8,7 +8,7 @@ title: Accelerated Mobile Pages
 topic: 開発者と実装
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ Adobe Analytics に Accelerated Mobile Pages（AMP）プロジェクトを導入
 
 AMP は、すばやくレンダリングされる静的コンテンツの Web ページを構築できる[オープンソースプロジェクト](https://www.ampproject.org/)です。この機能は、モバイル用に最適化されたコンテンツを 1 度作成して、あらゆる場所に即座に読み込ませたい発行者に最適です。このリファレンスには次のトピックが含まれます。
 
-* [仕組み](../../implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
-* [amp-analytics タグと「adobeanalytics」テンプレートの使用](../../implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
-* [amp-analytics タグと「adobeanalytics_nativeConfig」テンプレートの使用](../../implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
-* [概要](../../implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
-* [よくある質問](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
+* [仕組み](/help/implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
+* [amp-analytics タグと「adobeanalytics」テンプレートの使用](/help/implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
+* [amp-analytics タグと「adobeanalytics_nativeConfig」テンプレートの使用](/help/implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
+* [概要](/help/implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
+* [よくある質問](/help/implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
 
 **追加ドキュメントと例**
 
@@ -211,7 +211,7 @@ AMP プロジェクトは、動きが速く頻繁に変更されるので、[こ
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="keyword">Experience Cloud</span> ID サービスとは何ですか。必要ですか。 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">ID サービス</a>（以前の<span class="term">訪問者 ID サービス</span>）を使用すると、<span class="keyword">Experience Cloud </span> コアサービスが有効になり、別の Adobe <span class="keyword"> Experience Cloud </span> ソリューションと統合できるようになります。<span class="keyword">Adobe Audience Manager</span> または <span class="keyword">Adobe Target</span> と統合している場合、おそらくこのサービスを使用しています。また、このサービスは、今後提供される多くの <span class="keyword">Adobe Analytics</span> 機能の基盤でもあります。ID サービスのサポートが必要な場合、または将来必要になる場合、<code> iframeMessage </code> ソリューションを使用することをお勧めします。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"  >ID サービス</a>（以前の<span class="term">訪問者 ID サービス</span>）を使用すると、<span class="keyword">Experience Cloud </span> コアサービスが有効になり、別の Adobe <span class="keyword"> Experience Cloud </span> ソリューションと統合できるようになります。<span class="keyword">Adobe Audience Manager</span> または <span class="keyword">Adobe Target</span> と統合している場合、おそらくこのサービスを使用しています。また、このサービスは、今後提供される多くの <span class="keyword">Adobe Analytics</span> 機能の基盤でもあります。ID サービスのサポートが必要な場合、または将来必要になる場合、<code> iframeMessage </code> ソリューションを使用することをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
@@ -219,7 +219,7 @@ AMP プロジェクトは、動きが速く頻繁に変更されるので、[こ
   </tr> 
   <tr> 
    <td colname="col1"> <p>これは <span class="keyword">Facebook インスタント記事</span>と同じではありませんか。<span class="keyword">Adobe Analytics</span> を Facebook インスタント記事と共にセットアップするにはどうしたらよいですか。 </p> </td> 
-   <td colname="col2"> <p> Facebook インスタント記事は、前述の nativeConfig ソリューションと同様のソリューションをサポートします。実際、前に作成した stats.html ページは、AMP と FIA の分析ニーズに同時に応えることができます。FIA でのトラッキングの導入について詳しくは、<a href="../../implement/js-implementation/analytics-facebook-instant-articles.md#concept_AC9AD1431CD14F919E329A161A80AA08" format="dita" scope="local"> Facebook インスタント記事 </a> </p> </td> 
+   <td colname="col2"> <p> Facebook インスタント記事は、前述の nativeConfig ソリューションと同様のソリューションをサポートします。実際、前に作成した stats.html ページは、AMP と FIA の分析ニーズに同時に応えることができます。FIA でのトラッキングの導入について詳しくは、<a href="/help/implement/js-implementation/analytics-facebook-instant-articles.md"  > Facebook インスタント記事 </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
