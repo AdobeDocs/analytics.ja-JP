@@ -9,7 +9,7 @@ title: getQueryParam
 topic: 開発者と実装
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 >[!IMPORTANT]
 >
->このプラグインは H コードのみで使用されます。[JavaScript 版 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) は、[Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5) を使用してこの機能をネイティブで提供します。
+>このプラグインは H コードのみで使用されます。[JavaScript 版 AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) は、[Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md) を使用してこの機能をネイティブで提供します。
 
 プラグインを JavaScript 版 [!DNL AppMeasurement] コードにインストールすると、クエリ文字列にあるデータを入力する [!DNL Analytics] 変数を選択し、取り込むクエリ文字列の値を指定することによってプラグインを設定できます。プラグインは、指定したクエリ文字列があればそれを検出し、選択した変数にその値を入力します。クエリ文字列パラメーターがその値で見つからない場合、空の文字列が返されます。クエリ文字列パラメーターがあるものの値がない場合（例えば、`?param1&param2=value` の param1）、「*`true`*」という単語が返されます。
 
