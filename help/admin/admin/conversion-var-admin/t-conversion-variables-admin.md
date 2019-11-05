@@ -7,7 +7,7 @@ title: コンバージョン変数の編集
 topic: 管理ツール
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,5 +26,5 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    「**[!UICONTROL 新規追加]」をクリックして、未使用の eVar をレポートスイートに追加します。**
 1. 変更するコンバージョン変数フィールドを選択します。
 
-   [コンバージョン変数 - 説明](../../../admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)を参照してください。一部のフィールドでは、直接入力できます。ドロップダウンリストからサポートされている値を選択するフィールドもあります。
+   [コンバージョン変数 - 説明](/help/admin/admin/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)を参照してください。一部のフィールドでは、直接入力できます。ドロップダウンリストからサポートされている値を選択するフィールドもあります。
 1. 「**[!UICONTROL 保存]**」をクリックします。
