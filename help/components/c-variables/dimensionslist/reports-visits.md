@@ -7,7 +7,7 @@ title: 訪問回数
 topic: レポート
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,12 +24,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 訪問の先頭部分は、新規訪問者による最初のイメージリクエスト、または既存ユーザーの訪問の有効期限が切れた後の最初のイメージリクエストです。これは入口ページとして識別できます。
 * 訪問の末尾部分は、訪問の有効期限が切れる前の最後のイメージリクエストです。これは入口ページとして識別できます。
 
-   詳しくは、 [入口および出口レポート](../../../components/c-variables/dimensionslist/reports-entries-exits.md#concept_C4AED2C1D62E43A48ACAA837327FCCF2).
+   詳しくは、 [入口および出口レポート](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * 時間別の分類はレポートスイートのタイムゾーンに基づいています。
 * このレポートには行項目は含まれていません。これはトレンドフォーマットでのみ表示されます。
 * 時間、日、週、月、四半期、および年の精度を適用できます。これらの精度設定はレポートの日付範囲に応じて使用できます。
 
-詳しくは、[訪問指標](../../../components/c-variables/c-metrics/metrics-visit.md#concept_9DA4D9EF8B964755BAC57378AD37911E)を参照して、Experience Cloud でこの指標がどのように処理されるかを確認してください。
+詳しくは、[訪問指標](/help/components/c-variables/c-metrics/metrics-visit.md)を参照して、Experience Cloud でこの指標がどのように処理されるかを確認してください。
 
 **製品固有のレポート情報**
 
