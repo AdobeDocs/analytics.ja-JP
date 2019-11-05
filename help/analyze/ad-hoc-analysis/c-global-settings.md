@@ -5,7 +5,7 @@ seo-title: 設定
 title: 設定
 uuid: 3444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,7 +40,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> データ設定 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">繰り返しインスタンスをカウント</span>：インスタンスがレポート内でカウントされるかどうかを指定します。つまり、同じ変数に対して複数の連続する値が存在する場合、それらの値を変数の 1 つのインスタンスか複数のインスタンスのどちらかとしてカウントできます。 </p> <p>例えば、ページリロードの繰り返し（1 回の訪問で Web サイト上のページがリロードまたは更新される回数）を確認できます。このオプションでは、同じページでの複数のヒットを 1 回としてカウントするか、複数のページ表示回数としてカウントするかを指定できます。 </p> <p> <span class="uicontrol"><span class="keyword">Ad Hoc</span></span>：<span class="keyword">ad hoc</span> をレポートの唯一のデータソースとして指定します。このデータは、Web ページによって生成されたイメージ要求が基になります。 </p> <p> <span class="uicontrol"><span class="keyword">データソース</span></span>：他のアドビのソースまたはカスタムのデータソースからアップロードされたデータを使用するかどうかを指定します。このデータは、<span class="keyword">Experience Cloud</span> の製品で使用可能になります。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html" scope="external" format="html">Data Sources</a> を参照してください。 </p> <p> <span class="uicontrol">両方</span>：（デフォルト）<span class="keyword">ad hoc analysis</span> および他のデータソースからのデータを使用します。 </p> <p>注意：これらのオプションを変更すると、<span class="keyword">ad hoc analysis</span> と <span class="keyword">Reports and Analytics</span> の間でレポートの相違が起こる可能性があります。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol">繰り返しインスタンスをカウント</span>：インスタンスがレポート内でカウントされるかどうかを指定します。つまり、同じ変数に対して複数の連続する値が存在する場合、それらの値を変数の 1 つのインスタンスか複数のインスタンスのどちらかとしてカウントできます。 </p> <p>例えば、ページリロードの繰り返し（1 回の訪問で Web サイト上のページがリロードまたは更新される回数）を確認できます。このオプションでは、同じページでの複数のヒットを 1 回としてカウントするか、複数のページ表示回数としてカウントするかを指定できます。 </p> <p> <span class="uicontrol"><span class="keyword">Ad Hoc</span></span>：<span class="keyword">ad hoc</span> をレポートの唯一のデータソースとして指定します。このデータは、Web ページによって生成されたイメージ要求が基になります。 </p> <p> <span class="uicontrol"><span class="keyword">データソース</span></span>：他のアドビのソースまたはカスタムのデータソースからアップロードされたデータを使用するかどうかを指定します。このデータは、<span class="keyword">Experience Cloud</span> の製品で使用可能になります。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html"  >Data Sources</a> を参照してください。 </p> <p> <span class="uicontrol">両方</span>：（デフォルト）<span class="keyword">ad hoc analysis</span> および他のデータソースからのデータを使用します。 </p> <p>注意：これらのオプションを変更すると、<span class="keyword">ad hoc analysis</span> と <span class="keyword">Reports and Analytics</span> の間でレポートの相違が起こる可能性があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 自動保存設定 </p> </td> 
