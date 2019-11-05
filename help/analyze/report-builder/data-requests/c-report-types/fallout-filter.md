@@ -7,7 +7,7 @@ title: リクエストウィザードを使用したフォールアウトレポ�
 topic: Report Builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    ![](assets/page_fallout.png)
 
-1. 適切な日付範囲を [設定します](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
+1. 適切な日付範囲を [設定します](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
 1. 「**[!UICONTROL Next]**」をクリックします。
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. （フォールアウトレポートでは、パターンが事前に適用されているパスレポートとは異なり、常にパスエレメントを定義する必要があります）。
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 1. セルの範囲またはリストのいずれから選択するかを決定します。
 1. If you select from a list, click **[!UICONTROL Add]** to select checkpoints to add to the fallout path. 3 ～ 8 件のチェックポイントを定義できます(Search for available elements by clicking **[!UICONTROL More]**.)
 
-   For more information on refining the filter, see [Filter Dimensions](../../../../analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md#concept_9C0518E2CF604AADA97DDBB1B4ECAAF8). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
+   For more information on refining the filter, see [Filter Dimensions](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
 1. Click **[!UICONTROL OK]** three times, then click **[!UICONTROL Finish]**.
 
    レポートが更新されます。
