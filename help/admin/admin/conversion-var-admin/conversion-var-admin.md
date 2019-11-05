@@ -8,7 +8,7 @@ title: コンバージョン変数（eVar）
 topic: 管理ツール
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,7 +87,7 @@ eVar は、次のような原因と結果を測定するために最適です。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> マーチャンダイジング</span> </p> <p>（eVar のみ） </p> </td> 
-   <td colname="col2"> <p>マーチャンダイジング変数は次の 2 つの構文のいずれかに従います。 </p> <p> <b></b> 製品の構文</span>:eVar値を製品に関連付けます。 注意：商品構文を選択すると、「マーチャンダイジングバインディングイベント」セクションは無効になり、編集できなくなります。この構文で、バインディングイベントは使用できません。 </p> </p> <p> <b></b> コンバージョン変数の構文</span>:バインディングイベントが発生した場合にのみeVarを製品に関連付けます。 この場合、バインディングイベントに設定するイベントを選択します。 </p> <p>JavaScript コードを適切に更新せずにこの設定を変更すると、データが失われます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">マーチャンダイジング変数</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>マーチャンダイジング変数は次の 2 つの構文のいずれかに従います。 </p> <p> <b></b> 製品の構文</span>:eVar値を製品に関連付けます。 注意：商品構文を選択すると、「マーチャンダイジングバインディングイベント」セクションは無効になり、編集できなくなります。この構文で、バインディングイベントは使用できません。 </p> </p> <p> <b></b> コンバージョン変数の構文</span>:バインディングイベントが発生した場合にのみeVarを製品に関連付けます。 この場合、バインディングイベントに設定するイベントを選択します。 </p> <p>JavaScript コードを適切に更新せずにこの設定を変更すると、データが失われます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html">マーチャンダイジング変数</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> マーチャンダイジングバインディングイベント</span> </p> <p>（eVar のみ） </p> </td> 
