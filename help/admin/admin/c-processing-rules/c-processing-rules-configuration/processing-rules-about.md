@@ -8,7 +8,7 @@ title: 処理ルールのしくみ
 topic: 管理ツール
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ルールは単一のレポートスイートに適用されます。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> 他のレポートスイートへの処理ルールのコピー </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> 他のレポートスイートへの処理ルールのコピー </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールはリストに表示された順番で適用されます。 </p> </td> 
@@ -41,15 +41,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールは、保存後すぐにレポートスイートに適用されます。 </p> </td> 
-   <td colname="col2"> <p>処理ルールの変更は、保存後数分以内にレポートスイートに表示される必要があります。処理ルールをテストする際は、テストレポートスイートで <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>処理ルールの変更は、保存後数分以内にレポートスイートに表示される必要があります。処理ルールをテストする際は、テストレポートスイートで <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールは、コンテキストデータ変数にアクセスする唯一の方法です。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> コンテキストデータ変数の eVar へのコピー </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> コンテキストデータ変数の eVar へのコピー </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールは、VISTA ルールとマーケティングチャネルルールの前に適用されます。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> 処理順序 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> 処理順序 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ヒットは除外できません。 </p> </td> 
@@ -81,7 +81,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>UI の値の比較では、大文字と小文字が区別されません。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> レポート内の値のクリーンアップ </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> レポート内の値のクリーンアップ </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンテキストデータ変数名には、アルファベット文字、アンダースコア、ドットのみ含めることができます。それ以外の文字は削除されます。 </p> </td> 
