@@ -8,7 +8,7 @@ title: 下位分類とルールビルダー - 使用事例
 topic: 管理ツール
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 分類ルールビルダーを下位分類と組み合わせることで、分類の管理をシンプル化し、必要なルール数を削減できます。トラッキングコードに、個別に分類したいコードが含まれているような場合に、この方法を使用できます。
 
-See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
 **例**
 
@@ -33,7 +33,7 @@ See [Sub-Classifications](../../../components/c-classifications2/c-sub-classific
 
 ![](assets/sub_class_table.png)
 
-この構造を作成したら、[分類ルールビルダー](../../../components/c-classifications2/crb/classification-rule-builder.md)を使用して、参照テーブル（前述の画像の緑と赤のテーブル）を更新するだけの小さなファイルをアップロードできます。次に、このルールビルダーを使用して、メインの分類テーブルを最新の状態に維持できます。
+この構造を作成したら、[分類ルールビルダー](/help/components/c-classifications2/crb/classification-rule-builder.md)を使用して、参照テーブル（前述の画像の緑と赤のテーブル）を更新するだけの小さなファイルをアップロードできます。次に、このルールビルダーを使用して、メインの分類テーブルを最新の状態に維持できます。
 
 以下のタスクで、この実現方法を説明します。
 
@@ -47,7 +47,9 @@ t_rule_builder_subclass.xml
 
 ルールビルダーを使用して下位分類をアップロードする方法についての手順の例を説明します。
 
-> [!NOTE] 次の手順では、下位分類とルールビルダーで説明した使用例 [を達成する方法を説明します](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)。
+>[!NOTE]
+>
+> 次の手順では、下位分類とルールビルダーで説明した使用例 [を達成する方法を説明します](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)。
 
 1. [分類マネージャー](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)で、分類と下位分類を作成します。
 
@@ -55,7 +57,7 @@ t_rule_builder_subclass.xml
 
    ![ステップ情報](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
+1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    この操作には、正規表現を使用します。この例では、*`Broad Campaign code`* の設定ルールで次の正規表現を使用します。
 
@@ -70,7 +72,7 @@ t_rule_builder_subclass.xml
 
 1. 指定した下位分類のみを含む分類ファイルをアップロードします。
 
-   「複数レ [ベルの分類」を参照してください](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)。
+   「複数レ [ベルの分類」を参照してください](/help/components/c-classifications2/c-sub-classifications.md)。
 
    例：
 
