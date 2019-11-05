@@ -7,7 +7,7 @@ title: Data Warehouse の概要
 topic: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,7 +67,7 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 指標の並べ替え</span> </td> 
-   <td colname="col2">Reports &amp; Analytics ユーザーインターフェイス、Data Workbench などに表示されるレポートのような、指標値を降順で並べ替えたランク分類レポートを提供します。<a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> さらに詳しく...</a> </td> 
+   <td colname="col2">Reports &amp; Analytics ユーザーインターフェイス、Data Workbench などに表示されるレポートのような、指標値を降順で並べ替えたランク分類レポートを提供します。<a href="/help/export/data-warehouse/sorting-by-metric.md"  > さらに詳しく...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 配信の予定</span> </td> 
