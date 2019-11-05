@@ -5,7 +5,7 @@ seo-title: プロジェクトコンバーターに関する FAQ
 title: プロジェクトコンバーターに関する FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
 
 ---
 
@@ -14,8 +14,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## プロジェクトコンバーターに関する FAQ {#topic_8231595303AD403E9322645A63632D57}
 
-* [既知のコンバージョンの問題](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
-* [コンバージョンFAQ](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
+* [既知のコンバージョンの問題](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
+* [コンバージョンFAQ](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
 ## 既知のコンバージョンの問題 {#section_39C922A58B2E49C9877B363042801361}
 
@@ -52,9 +52,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>回答：Analysis Workspace ではチャートやグラフはビジュアライゼーションと呼ばれることに注意してください。 </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>設定</b>：Analysis Workspace では、項目数や棒グラフ数といったビジュアライゼーション設定はサポートされません。 </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>円グラフ</b>：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html" format="html" scope="external">ドーナツグラフ</a>ビジュアライゼーションとしてエクスポートされます。Analysis Workspace のこのビジュアライゼーションでは、分割数の上限は 19 分割になっています。 </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>バブルチャート</b>：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html" format="html" scope="external">散布図</a>ビジュアライゼーションとしてエクスポートされます。散布図ではデフォルトで、最初の指標が x 軸に、2 番目の指標が y 軸にそれぞれ描画されます。指標が 1 つしかない場合、バブルチャートは折れ線グラフビジュアライゼーションに変換されます。 </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>ヒストグラム</b>：Analysis Workspace と Ad Hoc Analysis では、サポートされるグループ化ロジックが異なっています。このため、ヒストグラムは<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html" format="html" scope="external">棒グラフ</a>ビジュアライゼーションに変換されます。 </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>円グラフ</b>：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html"  >ドーナツグラフ</a>ビジュアライゼーションとしてエクスポートされます。Analysis Workspace のこのビジュアライゼーションでは、分割数の上限は 19 分割になっています。 </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>バブルチャート</b>：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html"  >散布図</a>ビジュアライゼーションとしてエクスポートされます。散布図ではデフォルトで、最初の指標が x 軸に、2 番目の指標が y 軸にそれぞれ描画されます。指標が 1 つしかない場合、バブルチャートは折れ線グラフビジュアライゼーションに変換されます。 </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>ヒストグラム</b>：Analysis Workspace と Ad Hoc Analysis では、サポートされるグループ化ロジックが異なっています。このため、ヒストグラムは<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html"  >棒グラフ</a>ビジュアライゼーションに変換されます。 </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>散布図</b>：Analysis Workspace にエクスポートされたプロジェクトでは、Y 軸が最初の列に設定され、X 軸が 2 番目の列、直径が 3 番目の列になります。 </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>フォールアウトの表</b>：フォールスルーまたはフォールアウトの表を表示するには、チェックポイントを右クリックして分類オプションを選択します。 </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>フォールアウトレポートレベルの日付範囲</b>：カスタマイズされたレポートの日付範囲は、フォールアウトビジュアライゼーションに適用されていません。 </li> 
@@ -70,7 +70,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Ad Hoc Analysis のワークスペースレベルのセグメントは、Analysis Workspace のプロジェクト／ワークスペースレベルに適用されます。 </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Ad Hoc Analysis のレポートレベルのセグメントは、Analysis Workspace のテーブル列レベルに適用されます。 </li> 
      <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis の表のセグメントは、Analysis Workspace の列レベルに適用されます。 </li> 
-    </ul> <p>セグメントを編集するには、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="https" scope="external">セグメントビルダー</a>を使用します。 </p> </td> 
+    </ul> <p>セグメントを編集するには、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >セグメントビルダー</a>を使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：日付範囲はどのように変換されますか。</b> </p> </td> 
@@ -88,7 +88,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_010572F793F54680ABE64117DAB7E800">計算指標はエクスポートされたプロジェクトの内部（非公開）になります。それらを公開するには、指標を右クリックして<span class="uicontrol">公開する</span>をクリックします。 <p><img placement="inline"  src="assets/calc_metric_internal.png" id="image_EA19BA55B161499CBDB9275A5C94BA90" width="200px" /> </p> </li> 
      <li id="li_930546EC8FEB432C8810FAF93556FC9A">すべてのタイプの計算指標がエクスポート対象としてサポートされています。 </li> 
      <li id="li_DFF7C6F8BB2344928D49194DA0F6EC38"><b>配分タイプ</b>：Analysis Workspace では計算指標の配分タイプは明示的に表示されませんが、エクスポート時には、Ad Hoc Analysis に存在していた配分タイプが作成され、そのタイプへのマッチングがおこなわれます。 </li> 
-    </ul> <p>配分タイプを編集するには、編集（鉛筆）アイコンをクリックして<a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/" format="https" scope="external">計算指標ビルダー</a>を開きます。 </p> </td> 
+    </ul> <p>配分タイプを編集するには、編集（鉛筆）アイコンをクリックして<a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/"  >計算指標ビルダー</a>を開きます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：Ad Hoc Analysis のグローバルデータ設定は変換後のプロジェクトにどのように適用されますか。</b> </p> </td> 
@@ -104,7 +104,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：2 つのツールの間で何か名前の違いはありますか。</b> </p> </td> 
-   <td colname="col2"> <p>回答：はい。Analysis Workspace のドキュメントにある<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html" format="html" scope="external">主な用語の比較</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>回答：はい。Analysis Workspace のドキュメントにある<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  >主な用語の比較</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
