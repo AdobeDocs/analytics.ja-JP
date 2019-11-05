@@ -6,8 +6,8 @@ seo-title: データ要素の作成
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: データ要素の作成
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Dynamic Tag Management でデータ要素を作成します。
 
-1. [Web プロパティを作成します](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)（まだ作成していない場合）。
+1. [Web プロパティを作成します](/help/implement/c-implement-with-dtm/t-create-web-property.md)（まだ作成していない場合）。
 1. Web プロパティで、**[!UICONTROL ルール]**／**[!UICONTROL データ要素]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 新規データ要素を作成]**」をクリックします。
 1. 次のフィールドおよびオプションに情報を入力します。
@@ -30,12 +30,12 @@ Dynamic Tag Management でデータ要素を作成します。
       <td class="choption"><strong>名前</strong></td> 
       <td class="chdesc stentry"> <p>マーケティング担当者が認識できる、データ要素のわかりやすい名前。例えば、 
         <code>
-          製品 ID
+          Product ID
         </code>. </p> <p> <p>注意：ルール作成時には、ID ではなく名前が参照されます。データ要素の名前を変更した場合は、それを使用しているルール内の参照をすべて変更する必要があります。 </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>タイプ</strong></td> 
-      <td class="chdesc stentry"> <p> JS オブジェクト、CSS セレクター、Cookie、URL パラメーター、カスタムスクリプトなど、データ取得元のタイプを指定します。 </p> <p>選択したタイプに応じて、異なるオプションが表示されます。詳細と例については、Dynamic Tag Management 製品ドキュメントの<a href="https://marketing.adobe.com/resources/help/ja_JP/dtm/data_elements.html" format="html" scope="external">データ要素のタイプ</a>を参照してください。 </p> </td> 
+      <td class="chdesc stentry"> <p> JS オブジェクト、CSS セレクター、Cookie、URL パラメーター、カスタムスクリプトなど、データ取得元のタイプを指定します。 </p> <p>選択したタイプに応じて、異なるオプションが表示されます。詳細と例については、Dynamic Tag Management 製品ドキュメントの<a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html">データ要素のタイプ</a>を参照してください。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>デフォルト値</strong></td> 
@@ -56,5 +56,5 @@ Dynamic Tag Management でデータ要素を作成します。
     </tr> 
    </table>
 
-   データ要素の使用方法について詳しくは、Adobe Tag Management 製品ドキュメントの「[データ要素](https://marketing.adobe.com/resources/help/ja_JP/dtm/data_elements.html)」を参照してください。
+   データ要素の使用方法について詳しくは、Adobe Tag Management 製品ドキュメントの[データ要素](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html)を参照してください。
 1. 「**[!UICONTROL データ要素を保存]**」をクリックします。
