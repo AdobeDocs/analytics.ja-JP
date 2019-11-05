@@ -8,7 +8,7 @@ title: ダッシュボードマネージャー
 topic: Reports & Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -86,7 +86,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
    コピーされたダッシュボードがダッシュボードレイアウトエディターで開かれます。
 
-   詳しくは、 [ダッシュボードとレポートレットのデータの編集](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460).
+   詳しくは、 [ダッシュボードとレポートレットのデータの編集](/help/analyze/reports-analytics/dashboard.md).
 
 ## ダッシュボードの共有
 
@@ -107,7 +107,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 1. ダッシュボードを開きます。
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 
-   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information.
+   See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
 
 ## ダッシュボードのアーカイブ
 
