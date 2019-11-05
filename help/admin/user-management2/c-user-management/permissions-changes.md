@@ -9,7 +9,7 @@ title: ユーザーおよびグループ権限の変更
 topic: 管理ツール
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,15 +40,15 @@ API とインターフェイスでは同じ権限付与システムを使用し�
    <td colname="col1"> <p id="reportaccess"><span class="uicontrol">レポートアクセス</span>の変更（グループのカスタマイズ） </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> 新しいグループを追加</span>／<span class="uicontrol">レポートアクセス</span> </p> <p><span class="wintitle">ユーザーグループの定義</span>ページの「<span class="wintitle">レポートアクセス</span>」セクションは、4 つのカテゴリに整理され、詳細なレベルで権限をカスタマイズできます。 </p> <p><img  src="assets/report-access.png" id="image_CB83E5C7DB4343619421A1FAA61478D0"> </img> </p> <p>以前の項目は、次のように変更されています。 </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">Analytics ツール</a>：一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。 </p> <p> <b>注意：</b>Admin Console のカスタマイズカテゴリのカンパニー設定は、Analytics ツールに移動されました。 </p> </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local">レポートスイートツール</a>：Web アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。 </p> </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local">指標</a>：トラフィック、コンバージョン、カスタムイベント、ソリューションイベントおよびコンテンツ対応などに関する権限を有効にします。 </p> </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local">ディメンション</a>：eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含め、詳細なレベルでユーザーアクセスをカスタマイズします。 </p> </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Analytics ツール</a>：一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。 </p> <p> <b>注意：</b>Admin Console のカスタマイズカテゴリのカンパニー設定は、Analytics ツールに移動されました。 </p> </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md">レポートスイートツール</a>：Web アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。 </p> </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md">指標</a>：トラフィック、コンバージョン、カスタムイベント、ソリューションイベントおよびコンテンツ対応などに関する権限を有効にします。 </p> </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">ディメンション</a>：eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含め、詳細なレベルでユーザーアクセスをカスタマイズします。 </p> </li> 
     </ul> <p>例えば、特定の指標およびディメンション（eVar を含む）およびセグメントや計算指標の作成などの機能に対する権限を持つ、複数の Analytics ツール（<span class="wintitle">Analysis Workspace</span>、<span class="wintitle">Reports &amp; Analytics</span> および <span class="wintitle">Report Builder</span>）へのアクセス権を持つグループを作成できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>定義済みグループの変更 </p> </td> 
-   <td colname="col2"> <p> <b>管理者アクセス：</b>管理者には、定義済みのグループは、必要なくなりました。管理者は、すべての項目（ツール、指標、ディメンション）に加え、Web サービス、Report Builder、Activity Map、Ad Hoc Analysis にアクセスできるようになりました。 </p> <p>将来的なグループの目的は、管理者以外のユーザーにアクセスを付与または制限することです。 </p> <p> <b>カスタムグループ：</b>カスタムグループが、定義済みのグループから置き換わりました。既存の定義済みグループは、同じグループ名を使用して、カスタムグループに移行されます。作成したカスタムグループは、その設定も含めて保持されます。ただし、設定の場所が移動されることに注意してください。例えば、（Admin Console のカスタマイズの）カンパニー設定は、現在は、<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">Analytics ツールのカスタマイズ</a>にあります。 </p> <p> 「全レポートアク <span class="term"> セス」に属するユーザーは</span> 、次のアクセス権を持つカスタムグループに移行されました。 </p> 
+   <td colname="col2"> <p> <b>管理者アクセス：</b>管理者には、定義済みのグループは、必要なくなりました。管理者は、すべての項目（ツール、指標、ディメンション）に加え、Web サービス、Report Builder、Activity Map、Ad Hoc Analysis にアクセスできるようになりました。 </p> <p>将来的なグループの目的は、管理者以外のユーザーにアクセスを付与または制限することです。 </p> <p> <b>カスタムグループ：</b>カスタムグループが、定義済みのグループから置き換わりました。既存の定義済みグループは、同じグループ名を使用して、カスタムグループに移行されます。作成したカスタムグループは、その設定も含めて保持されます。ただし、設定の場所が移動されることに注意してください。例えば、（Admin Console のカスタマイズの）カンパニー設定は、現在は、<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Analytics ツールのカスタマイズ</a>にあります。 </p> <p> 「全レポートアク <span class="term"> セス」に属するユーザーは</span> 、次のアクセス権を持つカスタムグループに移行されました。 </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">すべてのディメンション </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">すべての指標 </li> 
@@ -57,19 +57,19 @@ API とインターフェイスでは同じ権限付与システムを使用し�
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">異常値検出レポートの権限 </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">リアルタイムレポートの権限 </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace のアクセス権限 </li> 
-    </ul> <p>定義済みのグループで以前に使用可能だったすべての設定が<span class="wintitle">ユーザーグループの定義</span>の「<a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">レポートアクセス</a>」設定でカスタマイズに利用できるので、管理者は、カスタムグループを削除して、独自のものを作成できます。 </p> </td> 
+    </ul> <p>定義済みのグループで以前に使用可能だったすべての設定が<span class="wintitle">ユーザーグループの定義</span>の「<a href="/help/admin/user-management2/c-user-groups/groups.md">レポートアクセス</a>」設定でカスタマイズに利用できるので、管理者は、カスタムグループを削除して、独自のものを作成できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ディメンションレベルの権限 </p> </td> 
    <td colname="col2"> <p>権限をカスタマイズして、（指標に加えて）ディメンションへのアクセス権を含めたり、除外したりできます。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html" format="html" scope="external">変数</a>へのアクセスによって判断されます。 </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>新規のお客様または <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external">Experience Cloud でプロビジョニングされた</a>会社を持つお客様の場合にのみお勧めします。既存の <span class="keyword">Analytics</span> のお客様の <span class="keyword">Experience Cloud</span> ID 管理システムへの移行は、予定されています。 </p> <p>詳しくは、管理コンソールの「製 <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html" format="html" scope="external"> 品の権限を管理」を参照してください</a>。 </p> </td> 
+   <td colname="col2"> <p>新規のお客様または <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud でプロビジョニングされた</a>会社を持つお客様の場合にのみお勧めします。既存の <span class="keyword">Analytics</span> のお客様の <span class="keyword">Experience Cloud</span> ID 管理システムへの移行は、予定されています。 </p> <p>詳しくは、管理コンソールの「製 <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html"> 品の権限を管理」を参照してください</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ API とインターフェイスでは同じ権限付与システムを使用し�
    <td colname="col1"> <p><b>2016 年 10 月</b>リリースでは、どの権限が変更されましたか。 </p> </td> 
    <td colname="col2"> <p>現在の<span class="wintitle">管理ツール</span>インターフェイスに対する次の機能強化が利用できます。 </p> <p> 
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
-      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">管理上の変更 — 2016年秋に説明さ <a href="/help/admin/user-management2/c-user-management/permissions-changes.md" format="dita" scope="local"> れている権限の変更</a>。 </li> 
+      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">管理上の変更 — 2016年秋に説明さ <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"> れている権限の変更</a>。 </li> 
       <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">メニューになくなった使用されなくなったトラフィックレポートが削除されました。 </li> 
       <li id="li_57234CF27E1D405987DE89312CD62C52">分類権限：分類へのアクセスは、分類の対象となる変数へのアクセスによって決まります。 </li> 
      </ul> </p> </td> 
@@ -140,15 +140,15 @@ API とインターフェイスでは同じ権限付与システムを使用し�
  <tbody> 
   <tr> 
    <td colname="col1"> ユーザーの作成 </td> 
-   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md" format="dita" scope="local"> 管理ツール</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external">管理コンソール</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external">管理コンソール</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理ツール</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/">管理コンソール</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/">管理コンソール</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ユーザーの編集 </td> 
-   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md" format="dita" scope="local"> 管理ツール</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external">管理コンソール</a> </p> <p> 管理ツール - 移行されたユーザーの管理ツールでの編集は、API キー管理およびアセットの削除／転送に制限されます。 </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external">管理コンソール</a> </p> <p> 管理ツール - 編集は、API キー管理およびアセットの削除／転送に制限されます。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理ツール</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/">管理コンソール</a> </p> <p> 管理ツール - 移行されたユーザーの管理ツールでの編集は、API キー管理およびアセットの削除／転送に制限されます。 </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/">管理コンソール</a> </p> <p> 管理ツール - 編集は、API キー管理およびアセットの削除／転送に制限されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ユーザーの削除 </td> 
@@ -165,8 +165,8 @@ API とインターフェイスでは同じ権限付与システムを使用し�
   <tr> 
    <td colname="col1"> グループの作成 </td> 
    <td colname="col2"> <p>管理コンソール — 管理コンソールでグループを作成すると、Analyticsでマッピングされたグループが管理ツールに表示されますが、このマッピングされたグループの名前を管理ツールから変更したり、管理ツールから削除したりすることはできません。 </p> <p>管理ツール. </p> </td> 
-   <td colname="col3"> <p>管理コンソール(<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> 製品設定の作成</a>) </p> </td> 
-   <td colname="col4"> <p>管理コンソール(<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> 製品設定の作成</a>) </p> </td> 
+   <td colname="col3"> <p>管理コンソール(<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> 製品設定の作成</a>) </p> </td> 
+   <td colname="col4"> <p>管理コンソール(<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> 製品設定の作成</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> グループのユーザーの編集 </td> 
