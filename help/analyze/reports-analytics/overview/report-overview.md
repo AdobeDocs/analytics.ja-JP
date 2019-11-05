@@ -7,12 +7,12 @@ title: レポートの各機能
 topic: Reports & Analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# レポートの各機能{#report-features}
+# レポートの各機能
 
 ツールバー、カレンダー、詳細テーブルなど、レポートの機能について説明します。
 
@@ -30,7 +30,7 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/toolbar.png){width="672px"}
 
-「レポートのカス [タマイズ」も参照](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
+「レポートのカス [タマイズ」も参照](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
 ## レポートのヘッダーと設定 {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +38,7 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/settings_header.png){width="672px"}
 
-詳細につ [いては、「レポートのカスタマイズ](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) 」を参照してください。
+詳細につ [いては、「レポートのカスタマイズ](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) 」を参照してください。
 
 ## カレンダー {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,23 +46,23 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/calendar_large.png){width="672px"}
 
-日付ま [たは日付範囲の選択および日付の比較](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) を参照 [してください](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824)。
+日付ま [たは日付範囲の選択および日付の比較](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) を参照 [してください](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
 ## グラフの種類 {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
-表示するグラフや表の種類を選択します。
+表示するグラフまたはグラフのタイプを選択します。
 
 ![](assets/graph_type.png)
 
-詳しくは、 [レポートグラフの変更](../../../analyze/reports-analytics/reports-customize/t-reports-graphs.md#task_B290BF0B82124111AA19B3F3ACED500A).
+See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
 
 ## グラフの表示 {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-選択したグラフの種類によりますが、通常は詳細リストにある最初の数項目が表示されます。異なる期間を表示するトレンドグラフでは、全期間が表示されます。
+選択したグラフの種類によりますが、通常は詳細リストにある最初の数項目が表示されます。異なる期間を表示するトレンドグラフでは、全期間が表示されます。:
 
 ![](assets/graph.png)
 
-詳しくは、 [レポートのカスタマイズ](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+「レポートのカ [スタマイズ」を参照してください。](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
 ## 指標 {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -70,14 +70,14 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/metrics.png)
 
-詳しくは、 [指標](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
+詳しくは、 [指標.](/help/analyze/reports-analytics/metrics.md)
 
 ## 詳細テーブル {#section_449A5DC848744F65A10DA12E189B835D}
 
-レポートデータの大部分は詳細データです。この場合はページのリストが表示され、ページビュー数（期間内に読み込まれた回数）が表示されます。
+レポートデータの大部分は詳細データです。この場合、ページがリストに表示され、そのページはページビュー数で測定されます。これは、その期間に読み込まれた回数を示します。
 
 ![](assets/detail.png)
 
 詳細テーブルで、データのフィルタリング、内訳の表示、指標の追加などを行うことができます。
 
-「レポートの [カスタマイズ](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md)」を参照。
+「レポートのカ [スタマイズ」を参照してください。](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
