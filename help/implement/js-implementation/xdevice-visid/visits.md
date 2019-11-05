@@ -9,7 +9,7 @@ title: 訪問回数
 topic: 開発者と実装
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics は訪問ページ番号が 1 であるサーバーコールが実行されるたびに訪問をカウントします。
 
-[前述の表](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)を見ると、これは 4 回（ヒット1、9、11、12）発生しています。訪問者数と同様、初回の関連付けの後は、有効な[!UICONTROL 訪問者 ID] の変更によって[!UICONTROL 訪問ページ番号]が 1 にリセットされるので、訪問数は増加しません。
+[前述の表](/help/implement/js-implementation/xdevice-visid/visit-example.md)を見ると、これは 4 回（ヒット1、9、11、12）発生しています。訪問者数と同様、初回の関連付けの後は、有効な[!UICONTROL 訪問者 ID] の変更によって[!UICONTROL 訪問ページ番号]が 1 にリセットされるので、訪問数は増加しません。
