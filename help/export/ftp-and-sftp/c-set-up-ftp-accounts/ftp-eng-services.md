@@ -7,7 +7,7 @@ solution: Analytics
 title: FTP を使用した Engineering Services エンゲージメント
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 これらのエンゲージメントには、[!UICONTROL DB VISTA] やカスタムプロジェクトがあります。
 
-FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)を参照してください。
+FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](/help/export/ftp-and-sftp/ftp-limits.md)を参照してください。
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
@@ -26,4 +26,4 @@ FTP 経由での SAINT アップロードと同様に、[!UICONTROL DB VISTA] �
 
 ## カスタムエンゲージメント {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-アドビエンジニアリングサービスは、FTPとSFTPの両方を使用するカスタムプロジェクトを提供します。 カスタムプロジェクトについて詳しくは、Adobe Engineering Services を参照してください。SFTPについて詳しくは、 [Secure File Transfer Protocolを参照してください](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC)。
+アドビエンジニアリングサービスは、FTPとSFTPの両方を使用するカスタムプロジェクトを提供します。 カスタムプロジェクトについて詳しくは、Adobe Engineering Services を参照してください。SFTPについて詳しくは、 [Secure File Transfer Protocolを参照してください](/help/export/ftp-and-sftp/c-sftp/ftp-sftp.md)。
