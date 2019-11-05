@@ -5,7 +5,7 @@ seo-title: サーバーコールの使用状況の概要
 title: サーバーコールの使用状況の概要
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,8 +28,8 @@ Previously, while you could access monthly server call consumption data under  *
 
 ## 前提条件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **権限**：サーバーコール使用状況ダッシュボード、アラートビルダー、アラートマネージャーにアクセスするには、Adobe Analytics 管理者である必要があります。
-* **権限**:管理者は管理者以外のユーザーにアクセスを許可できます。この権限は、「 **[!UICONTROL Server Call Usage」と呼ばれます]**。 See [Server Call Usage Permission](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **** 権限：サーバーコールの使用状況ダッシュボードとアラートビルダー/マネージャーにアクセスするには、Adobe Analytics管理者である必要があります。
+* **** 権限：管理者は管理者以外のユーザーにアクセスを許可できます。この権限は、「 **[!UICONTROL Server Call Usage」と呼ばれます]**。 See [Server Call Usage Permission](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## 重要な用語 {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -53,13 +53,13 @@ Previously, while you could access monthly server call consumption data under  *
   </tr> 
   <tr> 
    <td colname="col1"> <p>ログイン会社 </p> </td> 
-   <td colname="col2"> <p>1 つの課金会社が<a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html" format="html" scope="external">複数のログイン会社</a>を持つことができます。企業が使用するレポートスイートの集まりです。企業によっては、複数のログイン会社名を持ち、組織内の異なる部署に適用します。この機能は特に、様々な事業単位を扱う大きな組織で、多くのレポートスイートが社内の他の従業員には適用されない場合に便利です。 </p> <p>多くの場合、これらは会社の地域子会社です。以下に、ログイン会社とそれらに関連するレポートスイートの例を示します。 </p> 
+   <td colname="col2"> <p>1 つの課金会社が<a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html">複数のログイン会社</a>を持つことができます。企業が使用するレポートスイートの集まりです。企業によっては、複数のログイン会社名を持ち、組織内の異なる部署に適用します。この機能は特に、様々な事業単位を扱う大きな組織で、多くのレポートスイートが社内の他の従業員には適用されない場合に便利です。 </p> <p>多くの場合、これらは会社の地域子会社です。以下に、ログイン会社とそれらに関連するレポートスイートの例を示します。 </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide：RS1、RS2、RS3、RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us：RS1、RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in：RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de：RS4 </li> 
-    </ul> <p>注意：課金会社内の<u>全</u>レポートスイートのサーバーコール使用状況データは、適切な<a href="../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369" format="dita" scope="local">権限</a>を持つすべてのユーザーから参照できます。 </p> </td> 
+    </ul> <p>注意：課金会社内の<u>全</u>レポートスイートのサーバーコール使用状況データは、適切な<a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">権限</a>を持つすべてのユーザーから参照できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 組織 </p> </td> 
