@@ -6,7 +6,7 @@ solution: Analytics
 title: Analytics レポート API の比較
 uuid: fa533a8e-33c0-42f4-a294-cabe0258c8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -36,7 +36,7 @@ Analytics レポート API の比較表です。サポートドキュメント�
    <td colname="col5"> 大量のデータエクスポートを引き出すために使用される、完全に処理済みで、ファイナライズされたデータ。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf" format="https" scope="external"> 遅延</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > 遅延</a> </p> </td> 
    <td colname="col2"> 30 ～ 90 分 </td> 
    <td colname="col3"> * 数秒 ～ 10 分 </td> 
    <td colname="col4"> 数秒 ～ 10 分 </td> 
@@ -50,7 +50,7 @@ Analytics レポート API の比較表です。サポートドキュメント�
    <td colname="col5"> フル </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/" format="https" scope="external"> レポートインターフェイス</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > レポートインターフェイス</a> </td> 
    <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics、Report Builder、API のリアルタイムレポート </td> 
    <td colname="col4"> API のみ </td> 
@@ -86,10 +86,10 @@ Analytics レポート API の比較表です。サポートドキュメント�
   </tr> 
   <tr> 
    <td colname="col1"> <b>ドキュメント</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B" format="https" scope="external"> Web サービス</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time" format="https" scope="external"> リアルタイムレポート</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B" format="https" scope="external"> Livestream の概要</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> Data Warehouse</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web サービス</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > リアルタイムレポート</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream の概要</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
