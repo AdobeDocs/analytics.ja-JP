@@ -5,7 +5,7 @@ seo-title: ' Power BI への発行 - 概要'
 title: ' Power BI への発行 - 概要'
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,13 +22,13 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 Adobe Report Builder との統合により、以下のことができるようになります。
 
-* [スケジュールされた Report Builder ワークブックを Power BI に発行する](../../../analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687)
-* [ワークブック内のすべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行する](../../../analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A)
-* [すべての Report Builder リクエストを Power BI データセットテーブルとして発行する](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [スケジュールされた Report Builder ワークブックを Power BI に発行する](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [ワークブック内のすべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行する](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [すべての Report Builder リクエストを Power BI データセットテーブルとして発行する](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## システム要件 {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5がインストールされま [した](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* Adobe Report Builder 5.5がインストールされま [した](/help/analyze/report-builder/setup/t-install-arb.md)
 * Power BI にログインできるアクティブな Microsoft アカウント
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -81,7 +81,7 @@ Adobe Report Builder との統合により、以下のことができるよう�
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. （オプション）発行されたアセットの名前を Power BI でカスタマイズできます。これは、ワークブック名の一部としてバージョン番号を使用しており（myworkbook_v1.1.xlsx など）、発行された Power BI アセットの名前にバージョン番号を表示したくない場合に便利です。バージョン番号が変更されても、発行されたアセットは変更されないという利点もあります（こちらの[仕様](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD)を参照してください）。
+1. （オプション）発行されたアセットの名前を Power BI でカスタマイズできます。これは、ワークブック名の一部としてバージョン番号を使用しており（myworkbook_v1.1.xlsx など）、発行された Power BI アセットの名前にバージョン番号を表示したくない場合に便利です。バージョン番号が変更されても、発行されたアセットは変更されないという利点もあります（こちらの[仕様](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md)を参照してください）。
 
 **Power BIでの表データの表示**
 
