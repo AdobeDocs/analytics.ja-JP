@@ -9,7 +9,7 @@ title: 訪問者
 topic: 開発者と実装
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics は、一意の有効な各訪問者 IDを一意の訪問者としてカウントします。
 
-[前述の表](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)を見ると、これは 3 回（ヒット1、9、10）発生しています。サーバーコールで有効な[!UICONTROL 訪問者 ID] が同じ場合、追加の訪問者はカウントされません。また、この訪問の間隔が数時間あったり、異なるデバイスからの訪問であっても、訪問者 ID が同じなので、訪問者は増えません。
+[前述の表](/help/implement/js-implementation/xdevice-visid/visit-example.md)を見ると、これは 3 回（ヒット1、9、10）発生しています。サーバーコールで有効な[!UICONTROL 訪問者 ID] が同じ場合、追加の訪問者はカウントされません。また、この訪問の間隔が数時間あったり、異なるデバイスからの訪問であっても、訪問者 ID が同じなので、訪問者は増えません。
 
 このような場合、クロスデバイス訪問者の識別を有効にすると、一意の訪問者の数が増加することがあります。訪問者が、同じ訪問で 2 回カウントされる可能性があるためです。初回訪問で 1 回カウントされ、ユーザーが認証された後でもう 1 回カウントされます。
 
