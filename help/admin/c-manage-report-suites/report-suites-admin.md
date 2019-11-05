@@ -7,7 +7,7 @@ title: レポートスイートマネージャー
 topic: 管理ツール
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ロールアップ</span> </td> 
-   <td colname="col2"> <p>ロールアップとは、他の複数のレポートスイートのトラッキングデータを組み合わせる単一のレポートスイートのことです。 </p> <p>詳しくは、 <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> ロールアップレポートスイート</a>. </p> </td> 
+   <td colname="col2"> <p>ロールアップとは、他の複数のレポートスイートのトラッキングデータを組み合わせる単一のレポートスイートのことです。 </p> <p>詳しくは、 <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> ロールアップレポートスイート</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 設定の編集</span> </td> 
@@ -62,7 +62,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新規作成</span> </td> 
-   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </td> 
+   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新しいレポートスイート</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> コラムのカスタマイズ</span> </td> 
@@ -70,15 +70,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">レポートスイート ID</span> </td> 
-   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </td> 
+   <td colname="col2"><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新しいレポートスイート</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> サイトのタイトル</span> </td> 
-   <td colname="col2"> <p>管理ツール、およびマーケティングレポートヘッダーのレポートスイートドロップダウンリストで、レポートスイートを識別します。 </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>管理ツール、およびマーケティングレポートヘッダーのレポートスイートドロップダウンリストで、レポートスイートを識別します。 </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新しいレポートスイート</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Base URL</span> </td> 
-   <td colname="col2"> <p>レポートスイートのベース ドメインを定義します。 </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新しいレポートスイート</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>レポートスイートのベース ドメインを定義します。 </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新しいレポートスイート</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
