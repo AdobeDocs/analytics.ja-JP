@@ -1,6 +1,6 @@
 ---
 description: データフィードを使用して一般的な指標を計算する方法について説明します。
-keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
+keywords: データフィード；ジョブ；指標；pre列；post列；ボット；日付フィルタ；イベント文字列；共通；数式
 seo-description: データフィードを使用して一般的な指標を計算する方法について説明します。
 seo-title: 計算指標
 solution: Analytics
@@ -8,7 +8,7 @@ title: 計算指標
 topic: Reports & Analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -51,74 +51,77 @@ The event string in `event_list` and `post_event_list` contains a comma-delimite
  <tbody> 
   <tr> 
    <td colname="col1"> ページビュー数 </td> 
-   <td colname="col2"> <p> ページビュー数は、<code>post_pagename</code> または <code>post_page_url</code> のどちらかに値がある場合にカウントすることで計算できます。 </p> 
+   <td colname="col2"> <p> Page views can be calculated by counting when there is either a value in <code> post_pagename </code> or <code> post_page_url </code>. </p> 
     <p>同様のロジックでカスタムリンクの数もカウントできます。 </p> 
     <ul id="ul_8DFBEE3ED30C465D8E55B1F3880D5263"> 
-     <li id="li_009F2B7E3F9443889AE95B3358169444"> <code>post_page_event = 100</code> ではカスタムリンク数をカウントします。 </li> 
-     <li id="li_866DA2F5C2404347863CD1417F822FE8"> <code>post_page_event = 101</code> ではダウンロードリンク数をカウントします。 </li> 
-     <li id="li_4BC6E62CE8B1474DB22448FA32C9EE01"> <code>post_page_event = 102</code> では離脱リンク数をカウントします。 </li> 
+     <li id="li_009F2B7E3F9443889AE95B3358169444"> <code> post_page_event = 100 </code> をクリックして、カスタムリンクをカウントします。 </li> 
+     <li id="li_866DA2F5C2404347863CD1417F822FE8"> <code> post_page_event = 101 </code> をクリックします。 </li> 
+     <li id="li_4BC6E62CE8B1474DB22448FA32C9EE01"> <code> post_page_event = 102 </code> を使用して離脱リンクをカウントします。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 訪問 </td> 
+   <td colname="col1"> 訪問回数 </td> 
    <td colname="col2"> 
     <ol id="ol_FE1831195A474650B07D7820DCD38728"> 
-     <li id="li_274590E937A142D19B204768B1F10325"><code>exclude_hit &gt; 0</code> の行をすべて排除します。 </li> 
-     <li id="li_038B8FF66EA44E138C8A8932DA7B39E5"><code>hit_source = 5,7,8,9</code> の行をすべて排除します。5、8、および 9 の行は、データソースを使用してアップロードされる概要行です。7 はトランザクション ID データソースアップロードを表し、これは訪問回数や訪問者数には含めません。詳しくは、 <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> ヒットソース参照 </a>. </li> 
-     <li id="li_7FCD9BDF4D8547719420B34BA48BFA2D"><code>post_visid_high</code>、<code>post_visid_low</code>、<code>visit_num</code> および <code>visit_start_time_gmt</code>* を結合します。一意の結合数をカウントします。 </li> 
-    </ol> <p>*まれに、インターネットの不整合、システムの不整合またはカスタム訪問者 ID の使用によって、異なる<code>訪問</code>の同じ訪問者 ID に対して <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html" format="http" scope="external">visit_num</a> 値が重複することがあります。問題の発生を避けるには、訪問をカウントする際に、<code>visit_start_time_gmt</code> も含めます。 </p> </td> 
+     <li id="li_274590E937A142D19B204768B1F10325">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
+     <li id="li_038B8FF66EA44E138C8A8932DA7B39E5">Exclude all rows with <code> hit_source = 5,7,8,9 </code>. 5、8、および 9 の行は、データソースを使用してアップロードされる概要行です。7 はトランザクション ID データソースアップロードを表し、これは訪問回数や訪問者数には含めません。詳しくは、 <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > ヒットソース参照 </a>. </li> 
+     <li id="li_7FCD9BDF4D8547719420B34BA48BFA2D">組み合 <code> post_visid_high </code>わせ、 <code> post_visid_low </code>、、 <code> visit_num </code>および <code> visit_start_time_gmt </code>*を使用します。 一意の結合数をカウントします。 </li> 
+    </ol> <p>*まれに、インターネットの不整合、システムの不整合またはカスタム訪問者 ID の使用によって、異なる<code> visit_num </code>訪問<a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html"  >の同じ訪問者 ID に対して </a> 値が重複することがあります。To avoid resulting issues, also include <code> visit_start_time_gmt </code> when counting visits. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 訪問者 </td> 
    <td colname="col2"> 
     <ol id="ol_E2BC9235A3164EF5936EFC5D9E9327D0"> 
-     <li id="li_2C145CA54EBF4B358FC7DC78D8DA577D"><code>exclude_hit &gt; 0</code> の行をすべて排除します。 </li> 
-     <li id="li_9EF364652A214A4D9B66552BC6BBE527"><code>hit_source = 5,7,8,9</code> の行をすべて排除します。5、8、および 9 の行は、データソースを使用してアップロードされる概要行です。7 はトランザクション ID データソースアップロードを表し、これは訪問回数や訪問者数には含めません。詳しくは、 <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> ヒットソース参照 </a> </li> 
-     <li id="li_4AB5129315644A29987E8FCB9C9F9C39"><code>post_visid_high</code> と <code>post_visid_low</code> を結合します。一意の結合数をカウントします。 </li> 
+     <li id="li_2C145CA54EBF4B358FC7DC78D8DA577D">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
+     <li id="li_9EF364652A214A4D9B66552BC6BBE527">Exclude all rows with <code> hit_source = 5,7,8,9 </code>. 5、8、および 9 の行は、データソースを使用してアップロードされる概要行です。7 はトランザクション ID データソースアップロードを表し、これは訪問回数や訪問者数には含めません。詳しくは、 <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > ヒットソース参照 </a> </li> 
+     <li id="li_4AB5129315644A29987E8FCB9C9F9C39">と組 <code> post_visid_high </code> み合わ <code> post_visid_low </code>せ 一意の結合数をカウントします。 </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> イベントインスタンス数 </td> 
-   <td colname="col2"> <p>ヒットにイベントが設定されると、<code>post_event_list</code> にそのイベントが含まれます。<code>post_event_list</code> は重複排除されているので、イベントインスタンスの判別に推奨されます。 </p> <p>次に例を示します。 </p> 
+   <td colname="col2"> <p>When an event is set on a hit, <code> post_event_list </code> contains the event. The <code> post_event_list </code> is de-duplicated and is recommended to determine event instances. </p> <p>次に例を示します。 </p> 
     <code>
-      post_event_list = 1,200 </code> <p>これは、<code>purchase</code> と <code>event1</code> の 1 つのインスタンスを示します。 </p> 
+      post_event_list = 1,200 
+    </code> <p>Indicates an instance of <code> purchase </code> and <code> event1 </code>. </p> 
     <ol id="ol_84B529A668A54686957D1EB36D944467"> 
-     <li id="li_F953D7668C704C1AB7970123E369472A"><code>exclude_hit &gt; 0</code> の行をすべて排除します。 </li> 
-     <li id="li_65B0B504DB654479844EAE490D9283EB"><code>hit_source = 5,8,9</code> の行をすべて排除します。これらはデータソースを使用してアップロードされる概要行です。詳しくは、 <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> ヒットソース参照 </a>. </li> 
-     <li id="li_FB1C31048EC7415088F41E8CDC01AEBD"><code>post_event_list</code> 内にイベント参照の値が出現する回数をカウントします。 </li> 
+     <li id="li_F953D7668C704C1AB7970123E369472A">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
+     <li id="li_65B0B504DB654479844EAE490D9283EB">Exclude all rows with <code> hit_source = 5,8,9 </code>. これらはデータソースを使用してアップロードされる概要行です。詳しくは、 <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > ヒットソース参照 </a>. </li> 
+     <li id="li_FB1C31048EC7415088F41E8CDC01AEBD">Count the number of times the event lookup value appears in <code> post_event_list </code>. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> eVar インスタンス数 </td> 
-   <td colname="col2"> <p>ヒットに eVar が設定されると、<code>event_list</code> にその eVar のインスタンスが含まれます。 </p> <p>次に例を示します。 </p> 
+   <td colname="col2"> <p>ヒットに eVar が設定されると、<code> event_list </code> にその eVar のインスタンスが含まれます。 </p> <p>次に例を示します。 </p> 
     <code>
-      post_event_list&amp;nbsp;=&amp;nbsp;100,101,106 </code> <p>これは、<code>eVar1</code>、<code>eVar2</code>、および <code>eVar7</code> の 1 つのインスタンスを示します。つまり、ヒットにこれらの 3 つの eVar の値が設定されたことになります。 </p> <p>eVar のインスタンス数を計算するには、前述の「<i>イベントインスタンス数</i>」で説明したロジックと同じロジックを使用しますが、この場合は <code>post_event_list</code> 内に eVar 参照が出現する回数をカウントします。 </p> </td> 
+      post_event_list&amp;nbsp;=&amp;nbsp;100,101,106 
+    </code> <p>Indicates an instance of <code> eVar1 </code>, <code> eVar2 </code>, and <code> eVar7 </code>. つまり、ヒットにこれらの 3 つの eVar の値が設定されたことになります。 </p> <p>eVar のインスタンス数を計算するには、前述の「<i>イベントインスタンス数</i>」で説明したロジックと同じロジックを使用しますが、この場合は <code> post_event_list </code> 内に eVar 参照が出現する回数をカウントします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 滞在時間 </td> 
    <td colname="col2"> <p>滞在時間を計算するには、訪問別にヒットをグループ化してから、その訪問内のヒット数に従ってグループに順序を付けます。 </p> 
     <ol id="ol_946E7CD6005A42EB9A4B79268BF84066"> 
-     <li id="li_D109FAF4686D4935B7A6DCA5D383612F"><code>exclude_hit &gt; 0</code> の行をすべて排除します。 </li> 
-     <li id="li_D88F3691DB6746EBA84AA52841E56803"><code>visid_high</code>、<code>visid_low</code>、<code>visit_num</code> を連結して、1 回の訪問に対するヒットをグループ化します。 </li> 
-     <li id="li_08792F3BDFEA4DA29E0983C4BE65D73B"><code>visit_page_num</code> で各訪問に対するヒットに順序を付けます。 </li> 
-     <li id="li_4B956734DBB84603B86DDA6A2B0B41A0">Using <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-page-event.md#concept_A3AC076C3728445EB4CC572A6EDA5263" format="dita" scope="local"> page_event </a>, filter the types of hits you want. </li> 
-     <li id="li_2C5AC0477CFC409B8F169079354C8226">滞在時間の追跡に必要な値が設定されているヒットを探します。以下に例を示します。 
-      ヒ <code>ット1:post_prop1=赤のヒット2:post_prop1=青 </code> </li> 
-     <li id="li_20106B322F7B45CE8D2FBD9B0CB3D60D">ヒット 1 の <code>post_cust_hit_time</code> をヒット 2 の <code>post_cust_hit_time</code> から引いて、これら 2 つのヒット間の秒数を決定します。結果は <code>post_prop1=red</code> の滞在時間になります。この結果が負数の場合は、ヒットを受信した順序が正しくないことを示しているため、計算を破棄する必要があります。 </li> 
-    </ol> <p>このロジックを拡張して、他の値の滞在時間を計算できます。滞在時間を計算する場合、Analytics は <code>track</code> (<code>page_event=0</code>) または <code>trackLink</code> (<code>page_event=10|11|12</code>) の呼び出しで値が設定された時刻に基づいて、次のページビュー（<code>track</code> 呼び出し）の時刻までの滞在時間を計算します。 </p> <p>特定の期間の滞在時間をレポートする場合、Marketing Reports &amp; Analytics およびアドホック分析は、期間の開始日付または終了日付が月の境界に設定されている場合を除き、レポート期間を超えているヒットを評価して、レポート期間内の値に対する滞在時間を決定します。そのような計算は複雑であるため、滞在時間指標を正確に一致させることは難しい場合があります。データウェアハウスはレポート期間を超えているヒットを評価しません。 </p> </td> 
+     <li id="li_D109FAF4686D4935B7A6DCA5D383612F">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
+     <li id="li_D88F3691DB6746EBA84AA52841E56803">Group hits for a visit by concatenating <code> visid_high </code>, <code> visid_low </code>, and <code> visit_num </code>. </li> 
+     <li id="li_08792F3BDFEA4DA29E0983C4BE65D73B">Order hits for each visit by <code> visit_page_num </code>. </li> 
+     <li id="li_4B956734DBB84603B86DDA6A2B0B41A0">Using <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-page-event.md"  > page_event </a>, filter the types of hits you want. </li> 
+     <li id="li_2C5AC0477CFC409B8F169079354C8226">滞在時間の追跡に必要な値が設定されているヒットを探します。例：<code>
+        hit&nbsp;1:&nbsp;post_prop1=red hit&nbsp;2:&nbsp;post_prop1=blue 
+      </code> </li> 
+     <li id="li_20106B322F7B45CE8D2FBD9B0CB3D60D">Subtract the <code> post_cust_hit_time </code> for hit 1 from the <code> post_cust_hit_time </code> for hit 2 to determine the seconds between these two hits. The result is the time spent for <code> post_prop1=red </code>. この結果が負数の場合は、ヒットを受信した順序が正しくないことを示しているため、計算を破棄する必要があります。 </li> 
+    </ol> <p>このロジックを拡張して、他の値の滞在時間を計算できます。When calculating time spent, Analytics calculates time spent based on the time the value was set in a <code> track </code> ( <code> page_event=0 </code>) or <code> trackLink </code> ( <code> page_event=10|11|12 </code>) call, to the time of the next page view ( <code> track </code> call). </p> <p>特定の期間の滞在時間をレポートする場合、Marketing Reports &amp; Analytics およびアドホック分析は、期間の開始日付または終了日付が月の境界に設定されている場合を除き、レポート期間を超えているヒットを評価して、レポート期間内の値に対する滞在時間を決定します。そのような計算は複雑であるため、滞在時間指標を正確に一致させることは難しい場合があります。データウェアハウスはレポート期間を超えているヒットを評価しません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 売上高、注文、数量 </td> 
-   <td colname="col2"> <p>通貨換算は、レポートスイートの設定に従って <code>post_product_list</code> に適用されるので、この列の使用を推奨します。 </p> 
+   <td colname="col2"> <p>通貨換算は、レポートスイートの設定に従って <code> post_product_list </code> に適用されるので、この列の使用を推奨します。 </p> 
     <ol id="ol_03D62086EDDE42AD82049830D85FDC69"> 
-     <li id="li_2A5B8205EA30492986C35DC382B91F16"><code>exclude_hit &gt; 0</code> の行をすべて排除します。 </li> 
-     <li id="li_6417C228AC414B01A30F85BE4842ED3C"><code>hit_source = 5,8,9</code> の行をすべて排除します。5-9 は、データソースを使用してアップロードされる概要行を表します。詳しくは、 <a href="../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42" format="dita" scope="local"> ヒットソース参照 </a>. </li> 
-     <li id="li_C48F91C74F5E4286B5F0B285E33AF733"><code>duplicate_purchase = 1</code> の行の購入データを無視します。このフラグは、購入が重複している（同じ <code>purchaseID</code> を持つヒットが既に記録されていた）ことを示します。 </li> 
-     <li id="li_FA1639FEF516419BA1BFDC37B063B346"> <p><code>post_product_list</code> は <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_products.html" format="http" scope="external">s.products</a> と同じ構文を使用するので、この文字列を解析して指標を計算できます。次に例を示します。 </p> 
+     <li id="li_2A5B8205EA30492986C35DC382B91F16">Exclude all rows where <code> exclude_hit &gt; 0 </code>. </li> 
+     <li id="li_6417C228AC414B01A30F85BE4842ED3C">Exclude all rows with <code> hit_source = 5,8,9 </code>. 5-9 は、データソースを使用してアップロードされる概要行を表します。詳しくは、 <a href="/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md"  > ヒットソース参照 </a>. </li> 
+     <li id="li_C48F91C74F5E4286B5F0B285E33AF733">Ignore purchase data for rows where <code> duplicate_purchase = 1 </code>. このフラグは、購入が重複している（同じ <code> purchaseID </code> を持つヒットが既に記録されていた）ことを示します。 </li> 
+     <li id="li_FA1639FEF516419BA1BFDC37B063B346"> <p><code> post_product_list </code> は <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_products.html"  >s.products</a> と同じ構文を使用するので、この文字列を解析して指標を計算できます。次に例を示します。 </p> 
       <code>
         ;Cross Trainers;1;69.95,;Athletic Socks;10;29.99 
       </code> <p>この文字列を解析することによって、クロストレーナー 1 足 が $69.95 で購入されたことや、この購入の売上高合計が $99.94 だったことがわかります。 </p> </li> 
-    </ol> <p>注意：Analytics では、製品の売上高を含む通貨イベントをイベント文字列で渡すことができるので、製品文字列に含まれない売上高の存在を考慮する必要があります。<i>s.events</i> の「<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_events.html" format="http" scope="external">数値／通貨イベント</a>」を参照してください。 </p> </td> 
+    </ol> <p>注意：Analytics では、製品の売上高を含む通貨イベントをイベント文字列で渡すことができるので、製品文字列に含まれない売上高の存在を考慮する必要があります。<i>s.events</i> の「<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/c_events.html"  >数値／通貨イベント</a>」を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
