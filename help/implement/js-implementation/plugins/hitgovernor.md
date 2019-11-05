@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ s.hitGovernor プラグインは、事前定義された期間内に送信され
 
 ## hitGovernor プラグインの仕組み {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-このプラグインは、イメージリクエストがトラッキングサーバーに送信されるたびに Cookie の値を増分し、一定の期間にわたってそれを追跡します。デフォルトの期間は 1 分ですが、変更できます（以下の[導入](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)を参照）。この期間中のヒットの総数がデフォルトのヒット数のしきい値（60）を超えると、最終的なカスタムリンクイメージリクエストが送信され、*`exceptionFlag`* コンテキストデータ変数が設定されます。デフォルトのヒット数のしきい値も変更できます。
+このプラグインは、イメージリクエストがトラッキングサーバーに送信されるたびに Cookie の値を増分し、一定の期間にわたってそれを追跡します。デフォルトの期間は 1 分ですが、変更できます（以下の[導入](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)を参照）。この期間中のヒットの総数がデフォルトのヒット数のしきい値（60）を超えると、最終的なカスタムリンクイメージリクエストが送信され、*`exceptionFlag`* コンテキストデータ変数が設定されます。デフォルトのヒット数のしきい値も変更できます。
 
 必要に応じて、その時点からデフォルトの 60 日間が経過するまでは、該当の訪問者のトラフィックデータの収集をブロックできます。トラフィックをブロックするためには、以下に示すように、doPlugins 関数にコードを追加する必要があります。期間も変更できます。このロジックでは、訪問者の IP アドレス、ユーザーエージェントまたは [!DNL Experience Cloud] 訪問者 ID を適切な永続例外ロジックに含めるか、60 日経過後にタイムアウト期間をリセットすることができます。60 日後にプラグインによってこのトラフィックが不正と見なされた場合は、再度例外としてマークされ、さらに 60 日間データの収集がブロックされます。
 
@@ -55,7 +55,7 @@ hitGovernor プラグインを導入する手順は次のとおりです。
    }); 
    ```
 
-   AppMeasurement ファイルの doPlugins セクションの下に、以下の[プラグインのソースコード](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)に含まれているプラグインコードを追加します。
+   AppMeasurement ファイルの doPlugins セクションの下に、以下の[プラグインのソースコード](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)に含まれているプラグインコードを追加します。
 
    ヒット数上限のしきい値、ヒット時間のしきい値およびトラフィック除外期間は、プラグイン自体の外で以下の変数を設定することで変更できます。他の設定変数と一緒に設定することをお勧めします。
 
