@@ -5,9 +5,9 @@ seo-title: 指標の計算
 solution: Analytics
 title: 指標の計算
 topic: 指標
-uuid: 2af58f1e-12c5-4828- ae39- c9aeaef6b705
+uuid: 2af58f1e-12c5-4828-ae39-c9aeef6b705
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -34,11 +34,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 線形 </td> 
-   <td colname="col2"> <p>線形配分が選択されている場合、その訪問で表示されたすべての変数値に均等に成功イベントが配分されます。数値イベントおよび通貨イベントの場合、<span class="term"> 売上</span>高、金額が分割されます。<span class="term"> 注文</span>件数などのカウンターイベントでは、訪問の各変数値にイベントの端数が配分されます。レポートでは、これらの端数は合計され、最も近い整数に丸められます。 </p> <p>例えば、成功イベントの前に 4 つのページが訪問された場合、各ページにはイベントの 25％のクレジットが配分されます。同じ訪問で<span class="varname"> キャンペーン</span> に2つの値がある場合、各キャンペーン値にはイベントの50%のクレジットが配分されていました。 </p> </td> 
+   <td colname="col2"> <p>線形配分が選択されている場合、その訪問で表示されたすべての変数値に均等に成功イベントが配分されます。次のような数値イベントと通貨イベント <span class="term"> Revenue</span>, the monetary amount is divided. 注文件数などのカウンター <span class="term"> イベントの場合</span>、訪問の各変数値にイベントの一部が与えられます。 レポートでは、これらの端数は合計され、最も近い整数に丸められます。 </p> <p>例えば、成功イベントの前に 4 つのページが訪問された場合、各ページにはイベントの 25％のクレジットが配分されます。同じ訪問で キャン <span class="varname"> ペーンに</span> 2つの値があり、各キャンペーンの値にイベントの50%のクレジットが付与されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> パーティシペーション </td> 
-   <td colname="col2"> <p>訪問中における成功イベントに貢献している各変数値にフルクレジットを割り当てます。クロス訪問パーティシペーション指標を使用する場合、この計算は訪問者セッションにも適用されます。 </p> <p>詳しくは、<a href="../../../components/c-variables/c-metrics/metrics-participation.md#concept_8E6B39106A244CB49E055150B291B477" format="dita" scope="local">パーティシペーション</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>訪問中における成功イベントに貢献している各変数値にフルクレジットを割り当てます。クロス訪問パーティシペーション指標を使用する場合、この計算は訪問者セッションにも適用されます。 </p> <p>詳しくは、<a href="/help/components/c-variables/c-metrics/metrics-participation.md"  >パーティシペーション</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 サイトでコンバージョン変数（eVar）を使用して内部検索を追跡しているとします。訪問者が $100 の購入をする前に内部検索を数回実行しました。
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt;$100購入
+*`Pet`* &gt; &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; $100購入
 
 レポートでのクレジットの配分は次のようになります。
 
