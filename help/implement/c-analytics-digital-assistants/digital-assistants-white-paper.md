@@ -1,11 +1,11 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 'デジタルアシスタント向け Analytics '
-title: 'デジタルアシスタント向け Analytics '
+seo-title: デジタルアシスタント向け Analytics
+title: デジタルアシスタント向け Analytics
 uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 translation-type: tm+mt
-source-git-commit: de48a1211edd3a4fd35cc455f2002384deeed5be
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -56,7 +56,7 @@ GET
 /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net" format="http" scope="external">
+<xref href="https://sc.omtrdc.net">
   sc.omtrdc.net
  Cache-Control: no-cache
 </xref href="https:>
@@ -82,7 +82,7 @@ Cache-Control: no-cache
 
 Adobe Analyticsは、 [Adobe Experience Cloud Identity Serviceを使用して](https://docs.adobe.com/content/help/en/id-service/using/home.html) 、同じ人物と時間の経過に応じてインタラクションを結び付けます。 ほとんどのデジタルアシスタントは、様々 `userID` なユーザーのアクティビティを保持するために使用できるアクティビティを返します。 ほとんどの場合、この値を一意の識別子として渡すことができます。 一部のプラットフォームは、許可された100文字を超える識別子を返します。 このような場合、固有の識別子を固定長値にハッシュするには、標準のハッシュアルゴリズム（MD5やSha1など）を使用することをお勧めします。
 
-様々なデバイス（例えば、Webアシスタントとデジタルアシスタント）でECIDをマッピングする場合、IDサービスを使用すると最も大きな価値が得られます。 アプリがモバイルアプリの場合は、Experience Platform SDKをそのまま使用し、メソッドを使用してユーザーIDを送信し `setCustomerID` ます。 ただし、アプリがサービスの場合は、サービスによって提供されたユーザーIDをECIDとして使用し、ECIDを設定します `setCustomerID`。
+様々なデバイス（例えば、Webアシスタントとデジタルアシスタント）でECIDをマッピングする場合、IDサービスを使用すると最も大きな価値が得られます。 アプリがモバイルアプリの場合は、Experience Platform SDKをそのまま使用し、メソッドを使用してユーザーIDを送信し `setCustomerID` ます。 However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
@@ -117,7 +117,7 @@ Cache-Control: no-cache
 
 デジタルアシスタントには、目的を検知してから、対処方法を導き出すためにその目的を「アプリ」に渡すためのアルゴリズムがあります。こうした目的は、要求を簡潔に表現するもので、
 
-例えばユーザーが「Siri、昨夜のディナー代として、ジョンにバンキングアプリから 20 ドル送金して」と言った場合は、その目的は  *sendMoney*.
+例えばユーザーが「Siri、昨夜のディナー代として、ジョンにバンキングアプリから 20 ドル送金して」と言った場合は、その目的は   *sendMoney*.
 
 これらの各リクエストをeVarとして送信することで、会話アプリの各インテントに対してパスレポートを実行できます。 アプリで、意図せずにリクエストを処理できることを確認します。 変数を省略するのではなく、インテントコンテキストデータ変数に「インテントが指定されていません」を渡すことをお勧めします。
 
@@ -167,7 +167,7 @@ Cache-Control: no-cache
 
 ほとんどのプラットフォームは、ユーザーがスポークしたデバイスを公開しませんが、デバイスの機能を公開します。 例えば、オーディオ、画面、ビデオなど。 この情報は、ユーザーとの対話時に使用できるコンテンツのタイプを定義するので役立ちます。 デバイスの機能を測定する場合は、それらを（アルファベット順に）連結することをお勧めします。
 
-例: `":Audio:Camera:Screen:Video:"`
+例：`":Audio:Camera:Screen:Video:"`
 
 セグメントを作成する際に、先頭と末尾のコロンが役立ちます。 例えば、機能を持つすべてのヒットを表示 `:Audio:` します。
 
