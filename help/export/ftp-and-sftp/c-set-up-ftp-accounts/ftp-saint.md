@@ -7,7 +7,7 @@ solution: Analytics
 title: 分類
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ FTP 経由で分類データをダウンロードしたり、データファイ�
 
 インポートが成功すると、エクスポートには適切な変更が即時に反映されますが、Analytics のデータが変更されるには、ブラウザーによるインポートの場合は最大 4 時間、FTP によるインポートの場合は最大 24 時間かかります。
 
-FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)を参照してください。
+FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](/help/export/ftp-and-sftp/ftp-limits.md)を参照してください。
 
 ## 分類およびデータソースのアップロードの .fin ファイルについて {#section_1484719F8A134EAE91212DBD8F15174F}
 
