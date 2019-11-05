@@ -5,7 +5,7 @@ seo-title: 関数の使用
 title: 関数の使用
 uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 関数を使用すると、データをフィルタリングしたり並べ替えたりできます。また、統計分析を行うこともできます。
 
-すべての関数の一覧については、「 基本 [関数](../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) 、 [高度な関数](../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174)。
+すべての関数の一覧については、「 基本 [関数](/help/components/c-calcmetrics/cm-reference/cm-functions.md) 、 [高度な関数](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)。
 
 > [!NOTE] 計算指標の数式に関数を含める場合は、指標やセグメントをドラッグする前に、必ず関数を適用してください。
 
