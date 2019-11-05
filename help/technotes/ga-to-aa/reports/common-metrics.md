@@ -1,65 +1,65 @@
 ---
-title: 他のプラットフォームの翻訳ガイドでよく使用される指標
-description: 多くの一般的なレポートの指標データを、Google Analyticsユーザーになじみのある用語を使用して引き出す方法について説明します。
+title: 他のプラットフォームでよく使用される指標の翻訳ガイド
+description: Google Analyticsユーザーにとってより親しみのある用語を使用して、多くの一般的なレポートの指標データを取り込む方法を説明します。
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
-# 他のプラットフォームの翻訳ガイドでよく使用される指標
+# 他のプラットフォームでよく使用される指標の翻訳ガイド
 
-Google Analyticsなどの他のプラットフォームでは、多くのレポートで一般的な指標数が共有されています。このページでは、多くのレポートで使用される指標を再作成する方法について説明します。
+Google Analyticsなどの他のプラットフォームでは、多くのレポートで共通の数の指標が共有されます。 このページを使用して、多くのレポートで使用される指標の再作成方法を説明します。
 
-複数の指標をワークスペースフリーフォームテーブルに追加するには、ワークスペース内の指標ヘッダーの横にあるコンポーネント領域から指標をドラッグします。
+ワークスペースのフリーフォームテーブルに複数の指標を追加するには、ワークスペース内の指標ヘッダーの横にあるコンポーネント領域から指標をドラッグします。
 
-![追加の指標](../assets/new_metric.png)
+![追加指標](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## 獲得指標
 
-**ユーザー** は、Workspaceでの **実訪問者数** にほぼ等しくなります。See the [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) metric in the Components user guide for additional details.
+**ユーザー** は、Workspaceの実訪問者 **数とほぼ等しくなります** 。 詳しくは、コ [ンポーネント](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) ・ユーザー・ガイドの実訪問者数指標を参照してください。
 
-**新しいユーザー** は、次の方法で取得できます。
+**新規ユーザは** 、次の方法で入手できます。
 
-1. **個別訪問者** 指標をワークスペースにドラッグします。
-2. Drag the **First Time Visits** segment above the Unique Visitors metric headers:
+1. 実訪問者数指標 **をワークスペース** にドラッグします。
+2. 初回訪問セグ **メントを個別訪問者数指標ヘッダー** の上にドラッグします。
 
    ![初回訪問件数](../assets/first_time_visits.png)
 
-**セッション** は、分析ワークスペースの **訪問回数** とほぼ同じです。See the [Visits](../../../components/c-variables/c-metrics/metrics-visit.md) metric in the Components user guide for additional details.
+**Sessionsは** 、Analysis Workspaceの訪問回 **数とほぼ等しい** 。 詳しくは、コ [ンポーネント](/help/components/c-variables/c-metrics/metrics-visit.md) ユーザーガイドの訪問回数指標を参照してください。
 
 ![獲得指標](../assets/acquisition_metrics.png)
 
 ## 行動指標
 
-**直帰率** は、Analysis Workspaceで指標として簡単に使用できます。See the [Bounce Rate](../../../components/c-variables/c-metrics/metrics-bounce-rate.md) metric in the Components user guide for additional information.
+**直帰率は** 、Analysis Workspaceで指標として簡単に使用できます。 詳しくは、コン [ポーネント](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) ・ユーザー・ガイドの直帰率指標を参照してください。
 
-**ページ/セッション** は計算指標です。これは、次のようにして取得できます。
+**ページ/セッション** は計算指標です。 次の方法で取得できます。
 
-1. 既にこの計算指標を作成している場合は、指標の下にある指標を探してワークスペースにドラッグします。
-2. If you have not yet created this calculated metric, click the **+** icon near the metric list to open the Calculated Metric Builder.
-3. 「訪問あたりのページビュー」のタイトルと、必要に応じて説明を付けます。
+1. この計算指標を既に作成済みの場合は、「指標」の下でその指標を探し、ワークスペースにドラッグします。
+2. この計算指標をまだ作成していない場合は、指標リストの近くにある **+アイコンを** クリックして、計算指標ビルダーを開きます。
+3. 必要に応じて、「1訪問あたりのページビュー数」のタイトルを付け、説明を付けます。
 4. 形式を「小数」に設定し、小数点以下の桁数を2に設定します。
-5. **ページビュー** 指標および **訪問** 回数指標を定義領域にドラッグします。
-6. Arrange the definition so the formula is **Page Views divided by Visits**.
+5. ページビュー **数指標と訪問回数指標** を **** 、定義領域にドラッグします。
+6. 数式がページビュー数を訪問回数で割ら **れるように定義を並べます**。
 
-   ![1訪問あたりのページビュー数](../assets/page_views_per_visit.png)
+   ![1訪問あたりのページビュー数](/help/technotes/ga-to-aa/assets/page_views_per_visit.png)
 
-7. 「保存」をクリックしてワークスペースに戻ります。
+7. 「保存」をクリックして、ワークスペースに戻ります。
 8. 新しく定義した計算指標をワークスペースにドラッグします。
 
-   Learn more about [Calculated Metrics](../../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
+   計算指標につい [て詳しくは](/help/components/c-variables/c-metrics/calculated-metric.md) 、コンポーネントユーザーガイドを参照してください。
 
-**解決までのSession Duration** is approximately equal to **Time Spent per Visit (seconds)**. Learn more about [Time Spent](../../../components/c-variables/c-metrics/metrics-time-spent.md) metrics in the Components user guide.
+**解決までのSession Durationは** 、訪問別滞在時 **間（秒）とほぼ同じです**。 滞在時間指標につ [いて詳しくは](/help/components/c-variables/c-metrics/metrics-time-spent.md) 、コンポーネントユーザーガイドを参照してください。
 
 ## コンバージョン指標
 
-**目標コンバージョン率**、 **目標の合計**、 **目標の値** は、両方のプラットフォームで追加の実装を必要とします。実装が既に製品ディメンションと購入イベントに対応している場合は、次の手順を考慮してください。
+**目標コンバージョン率**、目標 **達成率**、お **よび目標値は** 、両方のプラットフォームで追加の実装が必要です。 実装で既にproductsディメンションとpurchaseイベントを利用できる場合は、次の手順を考慮します。
 
-1. **注文** 指標、 **売上** 高指標および **訪問** 指標をワークスペースにドラッグします。
-1. Create a calculated metric of **Orders per Visit**. 両方の指標ヘッダーでCtrlキー（Windows）またはCommandキー（Mac OS）を押しながらクリックして、それらをハイライト表示します。Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. この新しい指標は、目標コンバージョン率に似ています。
-1. 小数点以下の桁数が必要な場合は、計算指標を編集します。指標ヘッダーの情報ボタンをクリックし、鉛筆アイコンをクリックします。計算指標ビルダーウィンドウで"1桁または2桁の桁数を追加」を追加し、「保存」をクリックします。
+1. 注文指標、売 **上高指標** 、訪問 **回数指標をワ****** ークスペースにドラッグします。
+1. 訪問あたりの注文件数の計算 **指標を作成します**。 両方の指標ヘッダーでCtrlキー(Windows)またはCommandキー(Mac)を押しながらクリックして、ハイライト表示します。 いずれかのヘッダーを右クリックし、「選択から指標を **作成」を選択して**、「分割」をクリッ **クします**。 この新しい指標は、目標コンバージョン率に似ています。
+1. 小数点以下の桁数が必要な場合は、計算指標を編集します。 指標ヘッダーの「情報」ボタンをクリックし、鉛筆アイコンをクリックします。 計算指標ビルダーウィンドウに小数点以下の桁数を1桁または2桁追加し、「保存」をクリックします。
 
-   ![訪問あたりの注文件数](../assets/orders_per_visit.png)
+   ![訪問あたりの注文件数](/help/technotes/ga-to-aa/assets/orders_per_visit.png)
 
-導入で製品またはコンバージョンデータにまだ対応していない場合は、データの品質と整合性を確保するために、導入コンサルタントに相談することをお勧めします。
+お使いの実装がまだ製品やコンバージョンデータに対応していない場合は、データの品質と整合性を確保するために、導入コンサルタントと協力することをお勧めします。
