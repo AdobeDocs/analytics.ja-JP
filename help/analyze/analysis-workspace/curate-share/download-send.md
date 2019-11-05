@@ -5,7 +5,7 @@ seo-title: PDF ファイルまたは CSV ファイルのダウンロード
 title: PDF ファイルまたは CSV ファイルのダウンロード
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
