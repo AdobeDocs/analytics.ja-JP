@@ -8,7 +8,7 @@ title: 要件とアップロードに関する制限
 topic: 開発者と実装
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 以下の節では、データソース、およびマーケティングレポートにインポートするデータに適用される制約を示します。
 
-* [サイズ制限](../../import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
-* [日付](../../import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
-* [一般](../../import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
-* [2 バイト文字のサポート](../../import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [Web ログファイルのアップロード](../../import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [サイズ制限](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
+* [日付](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
+* [一般](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
+* [2 バイト文字のサポート](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
+* [Web ログファイルのアップロード](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## サイズ制限 {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
@@ -43,7 +43,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * データソースファイルをアップロードすると、データソースによって基本的なデータ検証が実行され、ファイルにフォーマットエラーがないことが確認されます。ファイルにエラーが見つかった場合、電子メール通知が送信され、処理が停止します。
 * データフィールドにセミコロンを含めることはできません。セミコロンを含むレコードはスキップされます。
-* Web ログ、トラフィック、および一部の汎用データソースのグループは、Data Warehouse や Discover で使用できません。詳しくは、[データのタイプとカテゴリ](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105)を参照してください。
+* Web ログ、トラフィック、および一部の汎用データソースのグループは、Data Warehouse や Discover で使用できません。詳しくは、[データのタイプとカテゴリ](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)を参照してください。
 * データソースは、シリアル化されたイベントをサポートしません。
 
 ## 2 バイト文字のサポート {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,7 +60,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>対応。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">新しいレポートスイート</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>対応。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  >新しいレポートスイート</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> バイトオーダーマーク付きの UTF-8（EF BB BF） </td> 
