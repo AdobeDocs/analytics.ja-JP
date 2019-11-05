@@ -8,7 +8,7 @@ title: マーケティングチャネルレポートで使用される計算指�
 topic: Reports & Analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analyticsのマーケティングチャネルレポートに計算指標を追加します。
 
-## マーケティングチャネルレポートで使用される計算指標 {#topic_4521D324A79E43EF99E69FCDE1E92F74}
-
-Analyticsのマーケティングチャネルレポートに計算指標を追加します。
-
 Reports &amp; Analytics で作成された計算指標は、ファーストタッチとラストタッチの計算指標として、[!UICONTROL マーケティングチャネル]レポートで使用することができます。例えば、注文 1 件当たりの平均売上高という計算指標を作成した場合、その指標は「ファーストタッチ注文 1 件当たりの平均売上高」および「ラストタッチ注文 1 件当たりの平均売上高」 *`First Touch Revenue per Order`* および *`Last Touch Revenue per Order`*.
 
 計算指標は[!UICONTROL マーケティングチャネルレポート]から直接作成できます。計算指標を使用すると、ファーストタッチとラストタッチのチャネル指標を比較できるので便利です。例えば、ファーストタッチとラストタッチの売上高の違いを表示できます。
 
-## マーケティングチャネルレポートへの計算指標の追加 {#task_4A9E82ACA23A4071B58191C821DBD3D3}
+## マーケティングチャネルレポートへの計算指標の追加 {#add-calc-metrics}
 
 マーケティングチャネル概要レポートから計算指標を追加します。指標を 4 つまでレポートに追加することができます。
 
 1. [!UICONTROL マーケティングチャネル概要レポート]を開きます。
 
-   See [Run Marketing Channel reports](../../components/c-marketing-channels/t-reports-sc.md#task_AED9E5814809432AB00955CC54F80C84).
+   See [Run Marketing Channel reports](/help/components/c-marketing-channels/t-reports-sc.md).
 
 1. **[!UICONTROL レポートで、「編集」をクリッ]**&#x200B;クします。 ![](assets/metric_edit_icon.png)
 
