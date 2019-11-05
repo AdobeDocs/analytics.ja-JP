@@ -7,7 +7,7 @@ title: 単純なリクエストのコピー
 topic: Report Builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 参照リクエスト以外の単純なリクエストをコピーします。単純なリクエストとは、他のセルのリクエストまたは内容への参照を含まないリクエストです。
 
-A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. これらのフィルターは一致またはトレンドのいずれかを使用しており、前のリクエストの結果または入力セルと呼ばれるユーザーが入力したセルの内容に基づいています。
+A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. これらのフィルターは一致またはトレンドのいずれかを使用しており、前のリクエストの結果または入力セルと呼ばれるユーザーが入力したセルの内容に基づいています。
 1. 有効なリクエストを作成します。
 1. リクエストがマッピングされているセルの 1 つを右クリックするか、リクエストを含むセルの領域を選択します。
 
