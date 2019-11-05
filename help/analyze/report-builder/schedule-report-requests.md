@@ -5,13 +5,13 @@ seo-title: レポートリクエストのスケジュール設定
 solution: Analytics
 title: レポートリクエストのスケジュール設定
 topic: Report Builder
-uuid: d9b65b82-1975-403b- bc50- f22cfea6019f
+uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# レポートリクエストのスケジュール設定
+# レポートリクエストのスケジュール
 
 See [Schedule a data request](/help/analyze/report-builder/t-schedule-a-data-request.md).
