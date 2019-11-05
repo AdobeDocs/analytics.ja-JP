@@ -4,61 +4,61 @@ keywords: Analytics のトラブルシューティング
 seo-description: Analytics に関して最もよくある質問に対する回答とトラブルシューティングの提案を示します。
 seo-title: よくある質問
 title: よくある質問
-uuid: 285b0ea4- aa07-4d39- a74f-37b1d02d19f1
+uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # よくある質問
 
-Reports&amp; Analyticsの最も頻繁に使用されるAnalytics質問の一部に対する回答およびトラブルシューティングの提案を示します。For frequently asked implementation questions, see the [FAQ](../../implement/faq.md) in the Implement user guide.
+Reports &amp; Analyticsに関して最もよくある質問に対する回答とトラブルシューティングの提案を示します。 導入に関するよくある質問については、『導入ユーザ [ーガイド](/help/implement/faq.md) 』のFAQを参照してください。
 
-**アカウントがロックされています。ロック解除する方法**
+**私の口座は鍵がかかっているロックを解除する方法**
 
-アカウントを再アクティブ化するには、組織内の管理者にお問い合わせください。See also [Troubleshoot login issues with Adobe Analytics](../../technotes/troubleshoot-login.md) in the Technotes user guide.
+アカウントを再アクティブ化するには、組織内の管理者に問い合わせてください。 Technotesユーザーガイド [の「Adobe Analyticsでのログインに関する問題のトラブルシューティング](/help/technotes/troubleshoot-login.md) 」も参照してください。
 
-**データが収集されていても、空白のレポートが表示されるのはなぜですか。**
+**データが収集されているのに空白のレポートが表示されるのはなぜですか。**
 
-レポートデータのトラブルシューティングにはいくつかの点があります。
+レポートデータのトラブルシューティングには、次の点を確認する必要があります。
 
-* 使用する指標のチェック:Reports&amp; Analyticsでは、デフォルトで売上高が使用されます。表示する指標がレポートに関連していることを確認してください。
-* 日付範囲の確認:日付範囲（特に組織のデータ保持ポリシーを超えている場合）は、データを返さないことがあります。日付範囲が正しく設定されていることを確認してください。
-* 内部URLフィルタのチェック:一部のトラフィックソースレポートは、内部URLフィルタを正しく定義するまで機能しません。
+* 使用する指標を確認します。一部のレポートは、Reports &amp; Analyticsではデフォルトで売上高に設定されます。 表示している指標がレポートに関連していることを確認します。
+* 日付範囲の確認：特に、組織のデータ保持ポリシーを超える日付範囲は、データを返すことができません。 日付範囲が正しく設定されていることを確認します。
+* 内部URLフィルターの確認：一部のトラフィックソースレポートは、内部URLフィルターを正しく定義するまで機能しません。
 
 **ナビゲーションメニューに一部のレポートが表示されないのはなぜですか。**
 
-メニューに表示されないレポートは、制限付き権限またはメニューのカスタマイズによって最も多く発生します。組織内の製品管理者に連絡して、必要なすべてのディメンションおよび指標にアクセスできること、およびレポートスイートのメニュー構造がカスタマイズされていないことを確認します。
+メニューに表示されないレポートは、最も一般的に制限付き権限またはメニューのカスタマイズから作成されます。 組織内の製品管理者に問い合わせて、必要なすべてのディメンションと指標にアクセスでき、レポートスイートのメニュー構造がカスタマイズされていないことを確認します。
 
-**長期間の値が断ち切れるのはなぜですか。**
+**なぜ長い値が切れるのか。**
 
-Adobe Analyticsのほとんどの変数には、文字制限があります。ページ名には100文字の制限があり、カスタムコンバージョン変数（eVar）には255文字の制限があります。アドビでは、切り捨てを防ぐために、アドビに送信する値を簡潔にすることをお勧めします。
+Adobe Analyticsのほとんどの変数には文字制限があります。 ページ名には100文字の制限があり、カスタムコンバージョン変数(eVar)には255文字の制限があります。 切り捨てを防ぐため、アドビに送信する値は簡潔にすることをお勧めします。
 
-**レポートに大きな遅延が表示されるのはなぜですか。**
+**レポートに大きな遅れが生じるのはなぜですか。**
 
-リアルタイムレポートでは、いくつかのトラフィック指標を数分以内に使用できますが、コンバージョンやその他の処理中心データは通常30~90分以内に利用できます。Experience Cloud プラットフォームは堅牢ですが、いくつかの状況下ではレポーティングに遅延が生じることがあります。この遅延は遅延と呼ばれます。See [Latency](../../technotes/latency.md) in the Technotes user guide for more information.
+リアルタイムレポートを使用すると、一部のトラフィック指標は数分で利用でき、コンバージョンやその他の処理負荷の高いデータは通常30 ～ 90分で利用できます。 Experience Cloud プラットフォームは堅牢ですが、いくつかの状況下ではレポーティングに遅延が生じることがあります。この遅延は、遅延と呼ばれます。 詳しく [は、Technotes](/help/technotes/latency.md) ユーザーガイドの遅延を参照してください。
 
 **iPhoneでデバイスのバージョンが表示されないのはなぜですか。**
 
-Appleデバイスは、デバイスのバージョンではなく、ユーザーエージェント文字列にファームウェアバージョンをレポートします。Adobe Analyticsで使用できる情報を使用してiPhoneデバイスのバージョンを判断するのは困難です。See [Comparing iPhone device versions](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) in the Analytics KB for more information.
+Appleのデバイスは、デバイスのバージョンではなく、ユーザーエージェント文字列にファームウェアのバージョンを報告します。 Adobe Analyticsで利用できる情報を使用してiPhoneデバイスのバージョンを判断するのは困難です。 詳しくは [、Analytics KBでのiPhoneデバイスのバージョン](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) の比較を参照してください。
 
-**レポートの一番下の合計が値と値と一致しないのはなぜですか。**
+**値を合計した場合、レポートの一番下の合計が一致しないのはなぜですか。**
 
-ディメンション値は複数の場所に適用することがよくあります。例えば、午前0時にまたがる訪問、または1回の注文に属する複数の製品。ディメンション値は、該当するすべての行項目にわたってレポートされますが、レポートの合計で重複しません。See [Compare sum of line items to report total](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in the Analytics KB for more information.
+多くの場合、寸法値は複数の場所に適用されます。例えば、午前0時にまたがる訪問や、単一の注文に属する複数の製品の訪問などです。 ディメンション値は、該当するすべての行項目にわたってレポートされますが、レポートの合計で重複が除外されます。 詳しく [は、Analytics KBでの行項目の合計を比較し](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) 、合計をレポートするを参照してください。
 
 **レポートスイートの特定のIPアドレスからデータを除外する方法を教えてください。**
 
-サイトのテストや従業員の使用など、社内のWebサイト活動からのデータをレポートから除外できます。この機能により、自身や会社の同僚はトラフィックデータを歪曲することなく、自社サイトを訪問することができます。See [Exclude by IP Address](../../admin/admin/exclude-ip.md) in the Admin user guide for more information.
+サイトのテストや従業員の使用など、社内のWebサイト活動のデータをレポートから除外できます。 この機能により、自身や会社の同僚はトラフィックデータを歪曲することなく、自社サイトを訪問することができます。詳細につ [いては、『管理者ユーザーガイド](/help/admin/admin/exclude-ip.md) 』の「IPアドレスごとに除外」を参照してください。
 
 **レポートスイートを削除できますか。**
 
-レポートスイートの削除はできません。ただし、レポートスイートはAdobe Analyticsのすべてのビューに表示されません。非表示のレポートスイートに送信されるサーバー呼び出しは、引き続き月額契約にカウントされます。See [Hide report suites](../../admin/company/c-hide-report-suites.md) in the Admin user guide for more information.
+レポートスイートを削除することはできません。 ただし、Adobe Analyticsのすべてのビューでレポートスイートを非表示にすることはできます。 非表示のレポートスイートに送信されるサーバーコールは、引き続き月間契約の上限にカウントされます。 詳しくは [、管理者ユーザーガイドの](/help/admin/company/c-hide-report-suites.md) 「レポートスイートを非表示にする」を参照してください。
 
-**セグメント化を使用する場合、どのコンテナを使用すべきですか。Page view, visit, or visitor?**
+**セグメント化を使用する場合は、どのコンテナを使用する必要がありますか。 ページビュー、訪問、訪問者**
 
-使用するセグメントコンテナは、データを取得する範囲によって異なります。ページビューコンテナは、セグメント条件に一致するヒットのみを取り込み、訪問の無関係な部分を除外するのに役立ちます。訪問コンテナは、1つまたは複数のヒットがセグメント条件と一致するヒットのヒットをすべて取得し、一般的にセッションを調べるのに役立ちます。訪問者コンテナは、セグメント条件に一致するヒットがすべての訪問に取り込まれ、訪問者を確認するのに役立ちます。使用する最適なセグメントコンテナを決定するためのアナリストとして選択できます。See [Segmentation overview](../../components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+使用するセグメントコンテナは、データを取り込む範囲に応じて異なります。 ページビューコンテナは、セグメント条件に一致するヒットのみを取り込みます。これは、訪問の無関係な部分をフィルタリングして除外するのに役立ちます。 「訪問」コンテナは、1つ以上のヒットがセグメント条件に一致する訪問のすべてのヒットを取り込みます。これは、一般的なセッションの調査に役立ちます。 訪問者コンテナは、ヒットがセグメント条件に一致した訪問をすべて取り込み、訪問者を調べるのに役立ちます。 どのセグメントコンテナを使用するのが最適かを判断するのは、アナリストとして選択します。 詳しくは、 [コンポーネント](/help/components/c-segmentation/seg-overview.md) ・ユーザー・ガイドの「セグメント化の概要」を参照してください。
 
 **セグメントがData Warehouseに表示されないのはなぜですか。**
 
-Data Warehouseの一意の処理アーキテクチャにより、パスなどのデータタイプを処理するためにプラットフォームは最適化されません。See [Data Warehouse segment compatibility](../../components/c-segmentation/seg-reference/seg-compatibility.md) in the Components user guide for more information.
+Data Warehouse固有の処理アーキテクチャにより、プラットフォームは、パスなど、一部のタイプのデータを処理するように最適化されていません。 詳しくは、 [『コンポーネントユーザガイド](/help/components/c-segmentation/seg-reference/seg-compatibility.md) 』の「Data Warehouseセグメントの互換性」を参照してください。
