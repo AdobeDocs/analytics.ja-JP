@@ -8,7 +8,7 @@ title: 実装方法の選択
 topic: 開発者と実装
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,11 +34,11 @@ For more information, see [Getting Started with Experience Platform Launch](http
 [!UICONTROL Dynamic Tag Management] では、[!DNL Analytics] の導入に伴う細かい作業の大部分を自動化できます。フォームベースのインターフェイスに必要な情報を入力すると、ページに追加する必要があるコードが [!DNL Dynamic Tag Management] によって生成されます。JavaScript に精通し、次のような基本的な Analytics の基本用語を理解するのに便利です。
 
 * [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) の概要と仕組み
-* カスタムイベントを使用す [るタイミング](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
+* カスタムイベントを使用す [るタイミング](/help/implement/analytics-terminology-basics/c-props-evars/event-custom.md)
 
 Dynamic Tag Management にアクセスする方法と利用開始方法については、Dynamic Tag Management 製品ドキュメントの[はじめに](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)を参照してください。
 
-詳しくは、「[Dynamic Tag Management を使用した Analytics の実装](../../implement/c-implement-with-dtm/dtm-implementation-overview.md)」を参照してください。
+詳しくは、「[Dynamic Tag Management を使用した Analytics の実装](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md)」を参照してください。
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
@@ -49,4 +49,4 @@ JavaScript による導入での必要事項は次のとおりです。
 * JavaScript の高いスキル
 * Analytics の概念と用語に関する詳細な知識
 
-詳しくは、「[JavaScript を使用した Analytics の実装](../../implement/js-implementation/javascript-implementation-overview.md)」を参照してください。
+詳しくは、「[JavaScript を使用した Analytics の実装](/help/implement/js-implementation/javascript-implementation-overview.md)」を参照してください。
