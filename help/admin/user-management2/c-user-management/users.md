@@ -8,7 +8,7 @@ title: ユーザー管理の概要
 topic: 管理ツール
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -82,7 +82,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ユーザー</span> </td> 
-   <td colname="col2"> <p> ユーザーに選択されたグループの権限のみを許可します。「<span class="uicontrol">利用可能なグループ</span>」フィールド（左側）で目的のグループを選択し、「<span class="uicontrol">追加</span>」をクリックします。割り当てられたグループは「<span class="uicontrol">割り当てられたグループ</span>」フィールド（右側）に表示されます。For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> ユーザーに選択されたグループの権限のみを許可します。「<span class="uicontrol">利用可能なグループ</span>」フィールド（左側）で目的のグループを選択し、「<span class="uicontrol">追加</span>」をクリックします。割り当てられたグループは「<span class="uicontrol">割り当てられたグループ</span>」フィールド（右側）に表示されます。For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
