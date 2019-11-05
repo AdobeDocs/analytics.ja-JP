@@ -9,7 +9,7 @@ title: 動的変数
 topic: 開発者と実装
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ページビューで生じるイメージリクエストでは、動的変数を使用して[!UICONTROL カスタムトラフィック ] の値を[!UICONTROL カスタムコンバージョン ] にコピーした場合、`v1=D=c1`1=1 と表示されます。要求で eVar1 が以前に値を受け取っていた場合、アドビのサーバーはデータプロセッシングで[!UICONTROL カスタムトラフィック 1] の値を[!UICONTROL カスタムコンバージョン 1] に動的にコピーします。その結果、[!UICONTROL カスタムトラフィック 1] を使って受け渡された元の値も[!UICONTROL カスタムコンバージョン 1] レポートに表示されます。
 
-動的変数は、対象となる値に変数を設定し、他の変数を「`D=[variable abbreviation]`」に設定することによって受け渡されます。各変数の省略形については、「[データ収集クエリーパラメーター](../../../implement/js-implementation/data-collection/query-parameters.md)」を参照してください。動的変数は以下の場所からデータを取り込むことができます。
+動的変数は、対象となる値に変数を設定し、他の変数を「`D=[variable abbreviation]`」に設定することによって受け渡されます。各変数の省略形については、「[データ収集クエリーパラメーター](/help/implement/js-implementation/data-collection/query-parameters.md)」を参照してください。動的変数は以下の場所からデータを取り込むことができます。
 
 * 他のクエリ文字列変数
 * HTTP ヘッダー（Cookie HTTP ヘッダーを除く）
