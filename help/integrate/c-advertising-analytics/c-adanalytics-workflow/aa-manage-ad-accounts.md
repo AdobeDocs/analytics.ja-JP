@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 広告アカウントの管理
 title: 広告アカウントの管理
-uuid: 0b205046-2eb5-4cd6- be62- cdf716fe934e
+uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -26,11 +26,11 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>アクション</b> </p> </td> 
-   <td colname="col2"> <p><b>注意:アクションは、少なくとも1つの広告アカウントを選択した場合にのみ表示されます。 </b> </p> </td> 
+   <td colname="col2"> <p><b>注意：アクションは、少なくとも1つの広告アカウントを選択した場合にのみ表示されます。 </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 追加 </p> </td> 
-   <td colname="col2"> <p><a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C" format="dita" scope="local">Advertising アカウントの設定</a> UI が表示されます。 </p> </td> 
+   <td colname="col2"> <p><a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Advertising アカウントの設定</a> UI が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>名前変更 </p> </td> 
@@ -62,7 +62,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>アカウント </p> </td> 
-   <td colname="col2"> <p>サポートされている2つのアカウントタイプのいずれかを表示します。Google AdwordsまたはBing広告。 </p> </td> 
+   <td colname="col2"> <p>次の2つのサポートされているアカウントタイプのいずれかを示します。Google AdwordsまたはBing Adsを参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ステータス </p> </td> 
