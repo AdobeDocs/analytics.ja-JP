@@ -8,7 +8,7 @@ title: モバイルプロトコルに対応するページタギング
 topic: 開発者と実装
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -52,4 +52,4 @@ Adobe サーバーはトラッキングビーコンをキャッシュしない�
 
 * `/5.5/` の場合、常に WBMP イメージを返します。
 
-「[モバイルプロトコルを使用した訪問者の識別](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49)」を参照してください。
+「[モバイルプロトコルを使用した訪問者の識別](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md)」を参照してください。
