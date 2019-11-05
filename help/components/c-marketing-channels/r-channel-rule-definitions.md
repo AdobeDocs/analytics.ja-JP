@@ -8,7 +8,7 @@ title: マーケティングチャネルの処理ルール - 定義
 topic: Reports & Analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンバージョン変数 </p> </td> 
-   <td colname="col2"> <p>このレポートスイート用に有効になっている eVar から構成され、これらの変数がページ上の Adobe コード経由で設定された場合にのみ適用されます。 </p> <p>『<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf" scope="external" format="html">導入マニュアル</a>』を参照してください。 </p> </td> 
+   <td colname="col2"> <p>このレポートスイート用に有効になっている eVar から構成され、これらの変数がページ上の Adobe コード経由で設定された場合にのみ適用されます。 </p> <p>『<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf"  >導入マニュアル</a>』を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>存在する </p> </td> 
@@ -56,7 +56,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>チャネルを %s として特定している </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">マーケティングチャネルマネージャー</span>ページに追加したマーケティングチャネルにルールを関連付けます。 </p> <p>See <a href="../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03" type="task" format="dita" scope="local"> Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">マーケティングチャネルマネージャー</span>ページに追加したマーケティングチャネルにルールを関連付けます。 </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>有料検索の検出ルールに一致 </p> </td> 
@@ -72,7 +72,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>リファラーが内部 URL フィルターに一致しない </p> </td> 
-   <td colname="col2"> <p>管理ツールにあるレポートスイートで定義されたとおり、参照 URL が内部 URL フィルターに一致しません。この設定を「ページの URL」および「存在する」と共に使用して <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>管理ツールにあるレポートスイートで定義されたとおり、参照 URL が内部 URL フィルターに一致しません。この設定を「ページの URL」および「存在する」と共に使用して <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>内部 URL フィルターに一致するヒットを無視する </p> </td> 
@@ -147,6 +147,3 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
  </tbody> 
 </table>
-
-
-
