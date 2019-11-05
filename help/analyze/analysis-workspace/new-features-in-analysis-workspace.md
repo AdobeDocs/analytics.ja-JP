@@ -8,7 +8,7 @@ title: Analysis Workspace の新機能
 topic: Reports & Analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -100,7 +100,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>新規テンプレート: Audio Consumption</b> </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html" format="html" scope="external">Audio Analytics</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Audio Analytics</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/attribution-iq/attribution.md#concept_5BDCF631FCC841FF920FE07F1B0D08A2" format="dita" scope="local"> Attribution IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Attribution IQ は、マーケティングパフォーマンスについて、さらに高度でインテリジェントな分析を実現します。新しいアトリビューションモデルは、Analysis Workspace（任意のテーブルまたは分類）の指標および計算指標で使用できます。新しい属性パネルでは、ビジュアライゼーションと比較機能が強化されました。 </p> </td> 
   </tr> 
   <tr> 
@@ -158,7 +158,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>可能な場合は、計算指標の合計（割合を含む）が表示されるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>新規<a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local">日付範囲</a>プリセット</b> </p> </td> 
+   <td colname="col1"> <p><b>新規<a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >日付範囲</a>プリセット</b> </p> </td> 
    <td colname="col2"> <p>Analysis Workspace の日付範囲プリセットに、「最近の 13 週間」を追加しました。 </p> </td> 
   </tr> 
  </tbody> 
@@ -177,7 +177,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/components/dimensions/view-dimensions.md#concept_5459DF3389564391A04AEBC63D732337" format="dita" scope="local"> 動的ディメンション列 </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > 動的ディメンション列 </a> </b> </p> </td> 
    <td colname="col2"> <p>以前は、ディメンションが列にドロップされると、時間以外のディメンションの上位 5 件（および時間ディメンションの上位 15 件）が表示され、これらの値は静的なままでした（つまり、選択された 5 件は変更されませんでした）。 </p> <p>今後は、デフォルトでは静的な値ではなく動的な値が表示されると共に、静的な値に変更するオプションも用意されます。その他の注意事項を次に示します。 </p> 
     <ul id="ul_C802BC32CB084E30B4E58E9E90B9A63D"> 
      <li id="li_452466AB416F4737B532849C604BD4CC">動的ディメンションの（i）をクリックすると、ランキング（上位 1～5）およびディメンションタイプが表示されます。 </li> 
@@ -210,7 +210,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>インターフェイスの右下隅に、本日のヒントを（ショートビデオとともに）表示します。これらのヒントは、Analysis Workspace の多数ある優れた機能を紹介するものです。<span class="uicontrol">ヘルプ</span>／<span class="uicontrol">ヒント</span>から、いつでもヒントを解除、または利用可能にすることを選択できます。 </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> セグメントテ <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> ンプレート </a> と計算指 <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> 標テンプレート </a></b> </p> </td> 
+   <td colname="col1"> <p><b> セグメントテ <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > ンプレート </a> と計算指 <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 標テンプレート </a></b> </p> </td> 
    <td colname="col2"> <p>左側のレールには、セグメントテンプレートと計算指標テンプレートが表示されるようになりました。 </p> </td> 
   </tr> 
   <tr> 
@@ -218,7 +218,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>コンポーネントを新しい場所にドラッグしている最中に、上下にスクロールできるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>詳しくは、 <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md#concept_B215F229DD804928BB4455198E89A68D" format="dita" scope="local"> 異常値に関する追加情報 </a></b> </p> </td> 
+   <td colname="col1"> <p><b>詳しくは、 <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 異常値に関する追加情報 </a></b> </p> </td> 
    <td colname="col2"> <p>折れ線グラフで異常値にカーソルを合わせると、日付および生の値の情報が表示されるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
@@ -237,19 +237,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">「ヘッダーテキストを折り返し」がデフォルトで有効</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >「ヘッダーテキストを折り返し」がデフォルトで有効</a> </p> </td> 
    <td colname="col2"> <p>フリーフォームテーブルの列設定で、「<span class="uicontrol">ヘッダーテキストを折り返し</span>」がデフォルトで有効になりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local">新しい行設定</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >新しい行設定</a> </p> </td> 
    <td colname="col2"> <p><span class="uicontrol">行ごとに割合を計算</span>という新しい設定により、フリーフォームテーブルでは、列ではなく行全体のセルの割合が表示されるようになります。これは、あるディメンション値が他の値に対してどの程度公正であるかを経時でトレンド分析する場合など、割合のトレンド分析に特に役立ちます。<span class="uicontrol">視覚化</span>アイコンをクリックした場合、これはデフォルトでオンになります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local">「100% の積み重ね」ビジュアライゼーション設定</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >「100% の積み重ね」ビジュアライゼーション設定</a> </p> </td> 
    <td colname="col2"> <p>積み重ね面／積み重ね棒／積み重ね横棒グラフのビジュアライゼーションを 100% の積み重ねに変更する新しい設定が追加され、相対的な比率を確認できるようになりました。 </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/virtual-analyst/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local">異常値検出と貢献度分析</a>は、現在、Analysis Workspace からのみ使用できます。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  >異常値検出と貢献度分析</a>は、現在、Analysis Workspace からのみ使用できます。 </p> </td> 
    <td colname="col2"> <p>異常値検出と貢献度分析は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。 </p> <p>Adobe Analytics selectおよびAdobe Analytics Foundationのお客様は、Workspaceの「毎日の精度」の異常値検出にのみアクセスできます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -268,15 +268,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> ヘッダーテキストの折り返し </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > ヘッダーテキストの折り返し </a> </p> </td> 
    <td colname="col2"> <p>ヘッダーを読みやすく、またテーブルを共有しやすくするため、フリーフォームテーブルでヘッダーテキストを折り返せるようになりました。列設定に「ヘッダーテキストを折り返す」オプションが追加されました。 これは、特に .pdf のレンダリングや名前の長い指標に使用すると便利です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> 右クリックメニューから指標を作成 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 右クリックメニューから指標を作成 </a> </p> </td> 
    <td colname="col2"> <p>計算指標をすばやく簡単に作成できるように、フリーフォームテーブルの右クリックメニューに「<span class="uicontrol">選択から指標を作成</span>」が追加されました。このオプションは、ヘッダー列のセルが 1 つ以上選択されると表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> マップビジュアライゼーションの機能強化 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップビジュアライゼーションの機能強化 </a> </p> </td> 
    <td colname="col2"> <p>マップビジュアライゼーションで対前年比などの前期比を表示できるように、次の機能を追加しました。 </p> 
     <ul id="ul_F570E6AB174C45788620CF50E2742A08"> 
      <li id="li_746E329037764644A9CCF79161C26350">マップビジュアライゼーションで負の数を表示できるようになりました。たとえば、前年比指標のグラフを表示するときに、ニューヨークの上に -33% と表示することができます。 </li> 
@@ -285,7 +285,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> カスタムテンプレートのアップデート </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > カスタムテンプレートのアップデート </a> </p> </td> 
    <td colname="col2"> <p>カスタムテンプレートの最新リリースで、次のアップデートをおこないました。 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">テンプレートの編集モードとプロジェクトの開始時点でのテンプレートの使用を区別しやすくするため、プロジェクトの上部（タイトル付近）にテンプレートアイコンを追加しました。 </li> 
@@ -308,11 +308,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#section_309C3DEDC9584A3FA3699BE10BF751ED" format="dita" scope="local"> カスタム Workspace テンプレート </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > カスタム Workspace テンプレート </a> </p> </td> 
    <td colname="col2"> <p>独自の Workspace テンプレートを作成して保存することで、組織内の他のユーザーが自身の関連するデータを使用して作業を開始することができるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 新規プロジェクト開始モーダル </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 新規プロジェクト開始モーダル </a> </p> </td> 
    <td colname="col2"> <p>「新しいプロジェクト」をクリックすると、新しい画面が開き、開始する前に選択できるようになります </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">空白のプロジェクト </li> 
@@ -325,15 +325,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>右クリックで「クリップボードにコピー」オプションが追加されたので、セルやテーブルを一貫した方法でコピーできます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">列の割合に対する改善</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >列の割合に対する改善</a> </p> </td> 
    <td colname="col2"> <p>特定のシナリオが原因で行が合計の100%を超える場合でも、列に表示される「合計の割合」の上限は100%でした（例：平均）。 </p> <p>精度向上のために、100 ％を超える割合が表示されるようになりました。列の幅をさらに大きくできるように、上限を 1,000 ％まで高める予定です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB" format="dita" scope="local"> 分類における条件付き書式の有効化 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 分類における条件付き書式の有効化 </a> </p> </td> 
    <td colname="col2"> <p>「カスタム」の制限を選択しない限り、フリーフォームテーブル内での条件付き書式（色など）の適用が、分類で自動的に有効になるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Changes to default <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> calendar </a> view </p> </td> 
+   <td colname="col1"> <p>Changes to default <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > calendar </a> view </p> </td> 
    <td colname="col2"> <p>Workspace カレンダーには、デフォルトで当月と翌月ではなく当月と前月が表示されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -356,7 +356,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>フリーフォームテーブルの他のディメンション項目の<a href="../../analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md#concept_3E1AE8B53CBE4D06B2C4470EDA7E9FE9" format="dita" scope="local">フィルタリングオプション</a> </p> </td> 
+   <td colname="col1"> <p>フリーフォームテーブルの他のディメンション項目の<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  >フィルタリングオプション</a> </p> </td> 
    <td colname="col2"> <p>（既存の「次を含む」および「次を含まない」オプションに加えて）ディメンション項目用に次の（詳細）フィルタリングオプションが追加されました。 </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">すべての語句を含む </li> 
@@ -371,11 +371,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>  パネルやプロジェクトをまたがった<a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C" format="dita" scope="local">ビジュアライゼーション／パネルのコピー＆ペースト</a> </p> </td> 
+   <td colname="col1"> <p>  パネルやプロジェクトをまたがった<a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  >ビジュアライゼーション／パネルのコピー＆ペースト</a> </p> </td> 
    <td colname="col2"> <p>ビジュアライゼーションまたはパネルを右クリックしてコピーし、コピーした要素をプロジェクト内の別の場所、または別のプロジェクトに貼り付ける（「挿入する」）ことができるようになりました。 </p> <p>この機能を使用すると、ビジネスに固有のデータで「構築ブロック」（定義済みのビジュアライゼーション／パネル）を作成し、他のプロジェクトにコピーして作業を迅速化できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local">「メッセージング」および「ロケーション」に関する新しい Mobile テンプレート</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >「メッセージング」および「ロケーション」に関する新しい Mobile テンプレート</a> </p> </td> 
    <td colname="col2"> <p>2 つの新しいプロジェクトテンプレートが追加されました。 </p> 
     <ul id="ul_2F5976C849474A2B8A6BCDA2559F2855"> 
      <li id="li_51B7830E062A4CFDBDF219C56249A733">アプリ内およびプッシュメッセージのパフォーマンスに重点を置いた、「メッセージング」に関する Mobile の新しいプロジェクトテンプレート。 </li> 
@@ -387,19 +387,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>左端の列のサイズを変更するときに、残りの列の幅の割合が維持されるようになりました（右隣の列幅が調整されるだけではありません）。この変更により、分析や共有のテーブルを、より短時間で作成できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>テーブルに <a href="../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local">400 行</a>を表示 </p> </td> 
+   <td colname="col1"> <p>テーブルに <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400 行</a>を表示 </p> </td> 
    <td colname="col2"> <p>1 つのテーブルに 400 行を表示できるようになり（変更前は 200 行）、365 日間のトレンドに対応するようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>  PDF での<a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local">マップビジュアライゼーション</a>のサポート </p> </td> 
+   <td colname="col1"> <p>  PDF での<a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  >マップビジュアライゼーション</a>のサポート </p> </td> 
    <td colname="col2"> <p>2017 年 10 月に導入されたマップビジュアライゼーションを、PDF でも表示できるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> プロジェクトをコピー／名前を付けて保存する際の相対的内部リンク</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > プロジェクトをコピー／名前を付けて保存する際の相対的内部リンク</a> </p> </td> 
    <td colname="col2"> <p>以前は、プロジェクトをコピーした場合や「名前を付けて保存」した場合、プロジェクトに保存されたすべてのイントラリンクは、コピーされたプロジェクトではなく、元のプロジェクトを指していました。 </p> <p>コピー／名前を付けて保存の後でも、内部リンクは内部のプロジェクトに対して相対的になりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>貢献度分析：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html" format="html" scope="external">トークン通知 </a> </p> </td> 
+   <td colname="col1"> <p>貢献度分析：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  >トークン通知 </a> </p> </td> 
    <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。&amp;nbspa; </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
   </tr> 
   <tr> 
@@ -449,23 +449,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> マップのビジュアライゼーション </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップのビジュアライゼーション </a> </p> </td> 
    <td colname="col2"> <p>新しいアンプ(&amp;A);nbsp；マップの視覚化(&amp;A);nbsp；を使用すると、場所のコンテキスト内での顧客のインタラクションを簡単に表示できます。 マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>位置情報は、デスクトップ（非モバイル）の場合は IP アドレス、Mobile SDK を実装したアプリの場合は緯度と経度がベースになります。&amp;nbspa; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/line.md#concept_EBE07FCD66C24D2AB58F1EC0F8017AD8" format="dita" scope="local"> トレンドビジュアライゼーションの精度セレクター </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > トレンドビジュアライゼーションの精度セレクター </a> </p> </td> 
    <td colname="col2"> <p>データソースのディメンションが時間ディメンションの場合、時間の精度を簡単に切り替えることができるようになりました。ビジュアライゼーション設定のドロップダウンから精度を切り替えることができます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> セグメントドロップゾーンの拡張：フルディメンションおよびイベント </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > セグメントドロップゾーンの拡張：フルディメンションおよびイベント </a> </p> </td> 
    <td colname="col2"> <p>以前は、セグメントドロップゾーンにドロップできるのは、ディメンション項目、日付範囲またはセグメントだけでしたが、フルディメンションまたはイベントをセグメントドロップゾーンにドロップできるようになりました。どちらの場合も、「存在する」ヒットセグメントが Analysis Workspace で作成されます。 </p> <p>例：「eVar1 が存在するヒット」または「event1 が存在するヒット」 </p> <p>注意：計算指標をセグメントゾーンにドロップすることはできません。セグメントゾーンにドロップできるのは、セグメントを作成できるディメンションまたは指標だけです。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> データソース設定に一覧表示される接続済みのビジュアライゼーション </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > データソース設定に一覧表示される接続済みのビジュアライゼーション </a> </p> </td> 
    <td colname="col2"> <p>フリーフォームテーブルまたはコホートテーブルに接続されたビジュアライゼーションがある場合は、左上の点（データソース設定）から接続済みのビジュアライゼーションを一覧表示できるようになりました。カーソルを合わせるとリンク済みのビジュアライゼーションが強調表示され、クリックで移動できます。 </p> <p>さらに、データテーブルの表示または非表示が可能な「データテーブルを表示／非表示」チェックボックスもあります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 左側レールのイベント名に追加されたイベント番号表示 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 左側レールのイベント名に追加されたイベント番号表示 </a> </p> </td> 
    <td colname="col2"> <p>以前は、evar の番号および prop の番号がディメンション名に追加され、これらの番号を使用して検索できました。この同じ機能がイベントでも使用できるようになりました。 </p> <p>例：「サブスクリプション」という名前のイベントは、左側のレールに「サブスクリプション（event1）」と表示されます。 </p> <p>次の点に注意してください。 </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">テーブル中では、表示文字数を短くするためイベント番号は表示されません。 </li> 
@@ -473,7 +473,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local">デフォルトで論理順序で並べ替えられる事前設定済みディメンション</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >デフォルトで論理順序で並べ替えられる事前設定済みディメンション</a> </p> </td> 
    <td colname="col2"> <p>次の場合における一部の事前設定済みディメンションのデフォルトの並べ替え順が更新されました。 </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">フリーフォームテーブルにドラッグされる場合。 </li> 
@@ -481,11 +481,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p>例えば、「時間帯」がテーブルにドロップされる場合、午前 12 時～午後 11 時の順に並べ替えられます。指標列で並べ替えるオプションは現在も使用できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md" format="dita" scope="local"> 信頼区間でチャートを再調整するオプション </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 信頼区間でチャートを再調整するオプション </a> </p> </td> 
    <td colname="col2"> <p>異常値検出の信頼区間では、ビジュアライゼーションの Y 軸を自動的に調整しないため分かりやすくなります。 </p> <p>信頼区間でチャートを調整できるオプションが追加されました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local"> アラート：「<b>更新</b>」オプションの追加 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md"  > アラート：「<b>更新</b>」オプションの追加 </a> </p> </td> 
    <td colname="col2"> <p>アラートマネージャーで、1 つまたは複数のアラートを選択して「<span class="uicontrol">更新</span>」をクリックすると、これらを更新できます。 </p> <p>これにより、元の有効期限に関係なく、「<span class="uicontrol">更新</span>」がクリックされた日から 1 年先に有効期限日が延長されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -513,7 +513,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md#concept_03D6295D84CD42528D40B932AD80AE04" format="dita" scope="local">Analysis Workspace の時間分割ディメンション</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md"  >Analysis Workspace の時間分割ディメンション</a> </p> </td> 
    <td colname="col2"> <p>タイムスタンプに基づくディメンションが Analysis Workspace に追加されました。ディメンションに含まれるものを以下に示します。 </p> 
     <ul id="ul_9BDBC0B344504E85840040E493873A47"> 
      <li id="li_826A8CBF4FDB4C98AC176C7145C09DB2">時間帯（例：01、12、15、23） </li> 
@@ -527,27 +527,27 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> フリーフォームテーブル内で一度に複数の列を管理 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > フリーフォームテーブル内で一度に複数の列を管理 </a> </p> </td> 
    <td colname="col2"> <p>複数の列の設定を一度に変更できるようになりました。複数の列を選択し、いずれかの列の設定アイコンをクリックするだけです。加えた変更が、選択されているセルを含むすべての列に適用されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27" format="dita" scope="local"> フロー：ディメンション間のラベル付け </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > フロー：ディメンション間のラベル付け </a> </p> </td> 
    <td colname="col2"> <p>各フロー列の先頭の新しいディメンションラベルにより、フローのビジュアライゼーションで複数のディメンションをより直感的に使用できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477" format="dita" scope="local"> ヒストグラムの「ヒット」カウント方法 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477"  > ヒストグラムの「ヒット」カウント方法 </a> </p> </td> 
    <td colname="col2"> <p>これまで、ヒストグラムのビジュアライゼーションでのカウント方法には、訪問と訪問者（デフォルト）の 2 種類がありました。 </p> <p>3 番目のカウント方法である「ヒット」をセグメントコンテナとして使用できるようになりました。「回数」は、フリーフォームテーブルのY軸指標として使用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>  セグメント比較および貢献度分析設定の「<span class="uicontrol">すべてクリア</span>」ボタン </p> </td> 
    <td colname="col2"> <p>以下の Workspace 領域において、各要素を手動で削除する代わりにすべての要素をクリアできるようになりました。 </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC" format="dita" scope="local"> 貢献度分析の除外されたコンポーネント </a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="../../analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937" format="dita" scope="local"> セグメント比較の除外されたコンポーネント </a> </li> 
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 貢献度分析の除外されたコンポーネント </a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937"  > セグメント比較の除外されたコンポーネント </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local">変更概要表示タイプの名前の更新</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  >変更概要表示タイプの名前の更新</a> </p> </td> 
    <td colname="col2"> <p>変更概要の設定画面における表示タイプの選択肢の名前が、その用途をわかりやすくするために変更されました。 </p> 
     <ul id="ul_7301D1C73E72424F911EE8DAAD9247A0"> 
      <li id="li_89D94632E0C94263A84887AF5B360E27">表示タイプ／変化の割合 </li> 
@@ -555,7 +555,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local">短縮された数値の概要／変更概要の小数点以下の桁数の拡張</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  >短縮された数値の概要／変更概要の小数点以下の桁数の拡張</a> </p> </td> 
    <td colname="col2"> <p>これまで、短縮された数値の概要／変更概要のビジュアライゼーションで表示される小数点以下の桁数は 0 でした。 </p> <p>0～3 の小数点以下の桁数を選択して、レポートの質を高めることができるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
@@ -574,19 +574,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 保存中のプロジェクトのタグ付け </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 保存中のプロジェクトのタグ付け </a> </p> </td> 
    <td colname="col2"> <p>プロジェクトの保存中にプロジェクトにタグ付けできるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7" format="dita" scope="local"> プロジェクト一覧ページのタグ列 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  > プロジェクト一覧ページのタグ列 </a> </p> </td> 
    <td colname="col2"> <p>Workspace のプロジェクト一覧ページに<span class="wintitle">タグ</span>列を追加しました。この列には、各プロジェクトに設定されたタグが表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> フロービジュアライゼーションの .CSV ファイルでの書き出し </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > フロービジュアライゼーションの .CSV ファイルでの書き出し </a> </p> </td> 
    <td colname="col2"> <p>フロービジュアライゼーションを .csv ファイルとしてダウンロードできるようになりました。これにより、フロー結果を Microsoft Excel （表として表示）またはその他のツールで分析できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> インテリジェントアラート：信頼レベルの追加 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md"  > インテリジェントアラート：信頼レベルの追加 </a> </p> </td> 
    <td colname="col2"> <p>異常値検出に基づいたアラートに、2 つの信頼レベル（99.75％と 99.9％）が新しく追加されました。精度の選択のデフォルトも変更されました。 </p> 
     <ul id="ul_EB1F07A4D2204D57B2DDD9838CE4F5D9"> 
      <li id="li_542AAACE703F4EBFBD91F11F5ABC2929">1 時間ごと：99.75％になりました </li> 
@@ -609,23 +609,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F" format="dita" scope="local"> リッチテキストエディター </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/text.md"  > リッチテキストエディター </a></b> </p> </td> 
    <td colname="col2"> <p>テキストボックスビジュアライゼーションおよびパネル／ビジュアライゼーションの説明内でフォント設定（太字、斜体など）およびハイパーリンクを設定できるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086" format="dita" scope="local">イントラリンク（クイックビジュアライゼーションリンク）</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  >イントラリンク（クイックビジュアライゼーションリンク）</a></b> </p> </td> 
    <td colname="col2"> <p><b>イントラリンク</b>を使用すると、例えばプロジェクトの目次を作成するために、テキストボックスからプロジェクト内の特定のパネルおよびビジュアライゼーションにリンクできます。プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」と呼ばれる新しい右クリックオプションが追加されました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> 凡例ラベルの編集 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE"  > 凡例ラベルの編集 </a></b> </p> </td> 
    <td colname="col2"> <p>使いやすくするために、ビジュアライゼーション凡例の系列名を変更できます（フォールアウト、面グラフ、積み重ね面グラフ、棒グラフ、積み重ね棒グラフ、ドーナツ、ヒストグラム、横棒グラフ、積み重ね横棒グラフ、折れ線グラフ、散布図、ベン図）。 </p> <p>凡例の編集は、ツリーマップ、ブレットグラフ、変更概要または数値の概要、テキスト、フリーフォーム、ヒストグラム、コホートまたはフローのビジュアライゼーションには適用<b>されません</b>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> 「デ <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> ータソースの管理」の更新 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> 「デ <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > ータソースの管理」の更新 </a></b> </p> </td> 
    <td colname="col2"> <p>データソース（ビジュアライゼーションの動作）の管理方法を再開発しました。 データソースをテーブルにロックした場合、他の非表示のテーブルはなくなります。 </p> <p>代わりに、作成したテーブルに関連する表示を維持します。また、これにより、精度を変更しても次にプロジェクトを読み込むと古い精度に戻っていた、ライブリンクテーブルの問題も解決されました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#concept_0E420C3EB71847399AA1D719C0B75250" format="dita" scope="local"> 特定の異常値をハイライトする機能 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > 特定の異常値をハイライトする機能 </a></b> </p> </td> 
    <td colname="col2"> <p>貢献度分析およびそれにリンクされたインテリジェントアラートプロジェクトで、異常値が青い点でハイライト表示されるようになりました。これにより、分析された異常値がより明確に示されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -633,7 +633,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>以前は、Experience Cloud 資格情報でログインして Analytics に移動すると、<span class="ignoretag"><span class="uicontrol">共有</span>／<span class="uicontrol">プロジェクトリンクを取得</span></span>の機能を使用できませんでした。この問題は修正されました。 このオプションを使用するには、その前にプロジェクトを保存する必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C" format="dita" scope="local">スケジュール済みプロジェクトマネージャーの「期限切れのプロジェクト」フィルター</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >スケジュール済みプロジェクトマネージャーの「期限切れのプロジェクト」フィルター</a></b> </p> </td> 
    <td colname="col2"> <p>スケジュール済みプロジェクトマネージャーで、期限切れのプロジェクトをフィルターできるようになりました。これにより、それらのプロジェクトを再開するか削除するかを決定できます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -652,7 +652,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md#concept_298891C950D5498FA820CC4D7F51F4CA" format="dita" scope="local"> フォールアウト</a></b>機能の強化 </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > フォールアウト</a></b>機能の強化 </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">無制限のセグメント比較 </li> 
@@ -663,14 +663,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow-settings.md#concept_1DD357A991414622877364BAB40C8E26" format="dita" scope="local"> <b>フロー</b></a>機能の強化 </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>フロー</b></a>機能の強化 </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">「<span class="wintitle">ラベルの切り捨てを無効化</span>」という新しいビジュアライゼーション設定が追加されました（デフォルト = オフ）。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> カレン <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> ダー </a></b> の変更 </td> 
+   <td colname="col1"> <b> カレン <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > ダー </a></b> の変更 </td> 
    <td colname="col2"> Reports &amp; Analytics カレンダーに合わせて、カレンダーが変更されました。 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">最初のクリックでは、日付範囲の選択を開始します。前または後の日付範囲をハイライト表示し、2 回目のクリックで日付範囲の終了を選択します。最初の日付をクリックしたまま Shift キーを押す（または右クリックする）と、その日付が範囲に追加されます。 </li> 
@@ -686,7 +686,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">「割合制限を使用」チェックボックス</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >「割合制限を使用」チェックボックス</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> 特に割合に基づく指標用に、割合カットオフを指定するチェックボックスが追加されました（ただし、割合に基づく指標以外でも機能します）。 </li> 
@@ -700,7 +700,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local"> アラートマネージャー</a></b>機能の強化 </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > アラートマネージャー</a></b>機能の強化 </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">アラートを有効／無効にする機能が追加されました。 </li> 
@@ -709,7 +709,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>新規 <b> <a href="../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051" format="dita" scope="local"> ホットキー </a></b> </p> </td> 
+   <td colname="col1"> <p>新規 <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > ホットキー </a></b> </p> </td> 
    <td colname="col2"> <p>以下のホットキーが追加されました。 </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">Alt + Shift + 1 = パネルウィンドウに移動 </li> 
@@ -733,12 +733,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> 人物テンプレート </a> </p> </td> 
-   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人の指標は、<a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html" format="html" scope="external">Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 人物テンプレート </a> </p> </td> 
+   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人の指標は、<a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html"  >Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>「元に戻す」／「やり直し」オプションの強化 </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace で元に戻す／やり直すことができる操作とできない操作については、<a href="../../analyze/analysis-workspace/build-workspace-project/undo-redo.md#concept_993110B9F2F84EB192308108882F8EEC" format="dita" scope="local">こちらのリスト</a>に示されています。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace で元に戻す／やり直すことができる操作とできない操作については、<a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  >こちらのリスト</a>に示されています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -756,7 +756,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local"> 位置で分類 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 位置で分類 </a> </p> </td> 
    <td colname="col2"> <p>テーブルの位置による分類を許可します。例：「フリーフォームテーブルの上位7行を常に分類する」 フリーフォームテーブルを作成するとチェックボックスが表示されるようになりました。これにより、「位置で分類」することができます。この設定は、デフォルトで無効になっています。 </p> <p>以前は、分類の値のリストは「ロック」されていました。 例えば、<span class="wintitle">日付</span>を<span class="wintitle">ページ</span>ごとに分類した場合、選択した日付範囲の上位 50 ページのリストが表示されていました。 </p> <p>そのレポートを保存して 1 ヶ月後に実行した場合、上位 50 ページが変動している可能性があるものの、Analysis Workspace は現在の月を日付範囲としながらも、以前の分類の結果を「信頼」して同じページを返していました。 </p> </td> 
   </tr> 
  </tbody> 
@@ -775,11 +775,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025" format="dita" scope="local">プロジェクトを保存することなく PDF を送信およびダウンロード</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  >プロジェクトを保存することなく PDF を送信およびダウンロード</a> </p> </td> 
    <td colname="col2"> <p>プロジェクトを保存しなくても Workspace で PDF を送信およびダウンロードできるようになりました。未保存でも最新のプロジェクト名が PDF ファイル名になります。ダウンロードされた PDF にはプロジェクトの未保存の変更内容が含まれています。保存されていないプロジェクトはスケジュールできないことに注意してください（保存されていない CSV ファイルも送信およびダウンロードできますが、それらはスケジュールできません）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local">プロジェクトコンポーネントの自動共有</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >プロジェクトコンポーネントの自動共有</a> </p> </td> 
    <td colname="col2"> <p>すべての受信者とプロジェクトのコンポーネント（セグメント、計算指標および日付範囲）を自動的に共有するオプションが用意されるようになりました。共有後、これらのコンポーネントは受信者のワークスペースのコンポーネントドロップダウンに表示されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -787,11 +787,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>フォールアウトビジュアライゼーションの CSV 形式でのダウンロードがサポートされるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> セグメント内の日付範囲 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > セグメント内の日付範囲 </a> </p> </td> 
    <td colname="col2"> <p>セグメントドロップゾーン（例えば、パネルのセグメントドロップゾーンやフォールアウトビジュアライゼーションのセグメントドロップゾーンなど）に日付範囲をドロップできます。それらの日付範囲はセグメントに自動変換されます。日付範囲はカスタムでもカスタムでなくてもかまいませんが、時間／日／週／月／四半期／年のような精度ではありません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> テーブルの各列に期間を追加 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > テーブルの各列に期間を追加 </a> </p> </td> 
    <td colname="col2"> <p>テーブルの各列に期間を追加できるようになりました。これにより、カレンダーの設定先とは異なる期間を追加できます。この機能でも日付を比較することができます。各列の日付を整列させて、すべて同じ行から始まるようにすることもできます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -810,7 +810,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 日付の比較 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 日付の比較 </a> </p> </td> 
    <td colname="col2"> <p>新しい日付比較機能により、任意の列を使用して、前年比、前四半期比、前月比などの一般的な日付比較を作成できます。 </p> <p>日付比較を利用すると、自動的に「差異」列が追加され、割合（％）の変化が表示されます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -829,7 +829,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> フォールアウト分析 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > フォールアウト分析 </a></b> </td> 
    <td colname="col2"> <p>新しいフォールアウト機能は、Analysis Workspace にマーケティングファネル機能をもたらします。ファネルを使用すると、顧客がマーケティングキャンペーンを放棄した地点や、Web サイトまたはクロスチャネルキャンペーンとの対話中に、定義済みのコンバージョンパスからそれた地点を特定できます。フォールアウト分析は、主要成功指標のコンバージョンを識別するために Analysis Workspace が提供する新しいビジュアライゼーションと特有の柔軟性を備えた堅牢なファネルを構築できます。フォールアウト分析を使用すると、次のことができます。 </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">ファネルステップ（タッチポイント）のドラッグ、ドロップ、整列 </li> 
@@ -838,7 +838,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> フロービジュアライゼーション </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > フロービジュアライゼーション </a></b> </td> 
    <td colname="col2"> <p>新しいフロー機能を使用すると、顧客がサイト／アプリをどのように移動および処理しているかを発見するための、Analysis Workspace の新しい、更新された柔軟性のあるビジュアライゼーションにより、サイト／アプリの顧客フロー／カスタマージャーニーを表示できます。フローを使用すると、次のことができます。 </p> <p> </p> 
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC"> 
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">アセット全体のカスタマージャーニーをビジュアライズする </li> 
@@ -847,7 +847,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local">インテリジェントアラート</a></b> </td> 
+   <td colname="col1"> <b><a href="/help/components/c-alerts/intellligent-alerts.md"  >インテリジェントアラート</a></b> </td> 
    <td colname="col2"> <p>Adobe Analytics 全体の新しいアラートシステムであるインテリジェントアラートでは、アラートプレビューとルール貢献度を備えた Analysis Workspace 内でアラートの作成と管理をおこなうことができます。次のことができます。 </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
      <li id="li_01504AABBC514DF38354683843222541">異常値（90％、95％または 99％のしきい値、変化の率、超過／未満）に基づいたアラートの構築。 </li> 
@@ -857,7 +857,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_65E7C869C20B4509984189C8FD971F0E" format="dita" scope="local"> 異常値検出と貢献度分析 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > 異常値検出と貢献度分析 </a></b> </td> 
    <td colname="col2"> <p>トレンドデータにおける変化が有意な場合に、その旨とその原因を通知します。 </p> <p>異常値検出と貢献度分析の双方が、Analysis Workspace の主要ワークフローになりました。 </p> <p>重要：貢献度分析は、Adobe Analytics Premium のお客様のみご利用いただけます。 </p> <p>次のことができます。 </p> <p> </p> 
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">データの統計的に有意なデータの異常値を自動的に検出します。 </li> 
@@ -865,7 +865,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/anomaly_linechart.png" width="500px" id="image_DFAF4034E2AC4B4AAB140EA004112722" /> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> スタータープロジェクト </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > スタータープロジェクト </a></b> </td> 
    <td colname="col2"> ユーザーが Analysis Workspace を開始しやすくするために、次のような一般的なビジネス上の問題のための事前作成されたプロジェクトテンプレートを作成しました。 <p> </p> 
     <ul id="ul_603F5ACC16F74D53AEB9F762FAC91656"> 
      <li id="li_6B3F2E5D4B044EC19D45E5501E33DB91">ユーザーの定着 </li> 
@@ -873,7 +873,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local">ヒストグラムビジュアライゼーション</a></b> </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md">ヒストグラムビジュアライゼーション</a></b> </td> 
    <td colname="col2"> <p>ヒストグラムを使用すると、ユーザーは成功イベントにわたるユーザーの分布を確認できます。グループおよびグループサイズをカスタマイズして、あらゆる分布に対応し、高価値および低価値のユーザーを識別できます。 </p> <p><img placement="break"  src="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
@@ -888,7 +888,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_946EC05568D4447193E9307546DF6F9B">タグ、お気に入り、承認された項目およびコンポーネントで検索できるフィルターを検索バーに追加しました。 </li> 
      <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">セグメント、指標、日付範囲をプレビューするためのプレビューアイコンを手動の行に追加しました（ディメンション項目を表示する動的な行には表示されません）。 </li> 
      <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Analysis Workspace のチュートリアルの YouTube リンクを <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS" format="https" scope="external">https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a> に更新しました。 </li> 
+      <!--AN-128702: -->Analysis Workspace のチュートリアルの YouTube リンクを <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a> に更新しました。 </li> 
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->ビジュアライゼーションで、「<span class="uicontrol">やり直し</span>」という右クリックオプションをコンテキストメニューに追加しました（フロー、ベン、ヒストグラムで動作します）。現在のビジュアライゼーションの設定は削除され、設定し直すための新しいパネルが開きます。 </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">「凡例を表示」という新しいビジュアライゼーション設定では、数値の概要／変更概要ビジュアライゼーションのフィルター詳細テキストを隠すことができます。 </li> 
@@ -905,18 +905,18 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 2016 年 6 月 17 日にリリースされた新機能：
 
 * [管理者が](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) 、ユーザーの **[!UICONTROL Analytics]** / **[!UICONTROL Workspace]** タブへのアクセスを許可または拒否できる新しいグループ権限です。 2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
-* Folio Builder[セグメント比較パネル](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
-* トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
-* [新しい左側のレール](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7)：パネル、ビジュアライゼーションおよびコンポーネント
-* 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[](../../analyze/analysis-workspace/visualizations/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D)ベン図のビジュアライゼーションタイプ。
-* ランク付けされたテーブルの[トレンド選択](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折れ線グラフ）がリンクされました。
-* [ビジュアルを作成アイコン](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)：このアイコンをクリックすると、次の操作がインテリジェントに推測されます（棒グラフ、ベン図など）。
-* 拡張された[手動の行](../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8)機能
-* [セグメントを追加](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80)ドロップゾーン
+* Folio Builder[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
+* トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
+* [新しい左側のレール](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント
+* 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[](/help/analyze/analysis-workspace/visualizations/venn.md)ベン図のビジュアライゼーションタイプ。
+* ランク付けされたテーブルの[トレンド選択](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折れ線グラフ）がリンクされました。
+* [ビジュアルを作成アイコン](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：このアイコンをクリックすると、次の操作がインテリジェントに推測されます（棒グラフ、ベン図など）。
+* 拡張された[手動の行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)機能
+* [セグメントを追加](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)ドロップゾーン
 * マイナーアップデート：
 
    * パネル内のすべてのビジュアライゼーション、およびプロジェクト内のすべてのパネルを削除できるようになりました。（以前は、少なくとも 1 つのビジュアライゼーションか 1 つのパネルを維持する必要がありました。）
-   * Analysis Workspace の操作を容易にする[ショートカットキー](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)（ホットキー）が変更されました。
+   * Analysis Workspace の操作を容易にする[ショートカットキー](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（ホットキー）が変更されました。
    * スタイルの変更：ビジュアライゼーションのフォントが小さくなり、行のカラースウォッチが追加され、パネルの日付選択機能が下に移動されました。
 
 ## 2016 年 4 月
@@ -933,7 +933,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> ファイルを送信 </td> 
-   <td colname="col2"> <p>電子メールを使用して Analysis Workspace を送信したり、Analysis Workspace の配信をスケジュールしたりします。詳しくは、 <a href="../../analyze/analysis-workspace/curate-share/t-schedule-report.md#task_509549DD2D83495A94A0DFC6724DA907" format="dita" scope="local"> ファイルの送信 - プロジェクトの配信スケジュールの設定 </a>. </p> </td> 
+   <td colname="col2"> <p>電子メールを使用して Analysis Workspace を送信したり、Analysis Workspace の配信をスケジュールしたりします。詳しくは、 <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > ファイルの送信 - プロジェクトの配信スケジュールの設定 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> PDF をダウンロード </td> 
@@ -946,17 +946,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 2016 年 1 月 22 日にリリースされた新機能。
 
-* [操作を元に戻す](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
-* [このプロジェクトへのリンク](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
-* [ブレットグラフ、散布図、ツリーマップビジュアライゼーション](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
-* [セグメント、指標、日付を名前を付けて保存](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
-* [「新しいセグメントを追加」ボタン](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
-* [条件付き書式](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
-* [ディメンションプレビュー](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
-* [凡例を表示](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
-* [Y 軸をゼロに固定](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
-* [タブタイトルのプロジェクト名](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
-* [プロジェクト所有権の転送](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
+* [操作を元に戻す](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
+* [このプロジェクトへのリンク](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
+* [ブレットグラフ、散布図、ツリーマップビジュアライゼーション](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
+* [セグメント、指標、日付を名前を付けて保存](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
+* [「新しいセグメントを追加」ボタン](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
+* [条件付き書式](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
+* [ディメンションプレビュー](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
+* [凡例を表示](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
+* [Y 軸をゼロに固定](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
+* [タブタイトルのプロジェクト名](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
+* [プロジェクト所有権の転送](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
 
 
 ## 操作を元に戻す {#section_12890C393D5E4FC8A3CF050318BD8482}
@@ -967,7 +967,7 @@ Analysis Workspace で行ったほとんどの操作を元に戻すことがで�
 
 ![](assets/undo.png)
 
-WindowsおよびMacの標準のキーボードショートカッ [ト](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) （CtrlまたはCommand + z）を元に戻すこともできます。
+WindowsおよびMacの標準のキーボードショートカッ [ト](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) （CtrlまたはCommand + z）を元に戻すこともできます。
 
 *`Undo`*&#x200B;は、テーブルの分類操作を元に戻す場合に特に便利です。
 
