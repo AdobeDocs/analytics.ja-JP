@@ -5,7 +5,7 @@ seo-title: テンプレート
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 プロジェクトの作成元を選択できます。
 
-* 空白のプロジェクト（デフォルト）。手順については、Analysis Workspaceプ [ロジェクトの作成を参照してください](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)。
+* 空白のプロジェクト（デフォルト）。手順については、Analysis Workspaceプ [ロジェクトの作成を参照してください](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
 * 標準テンプレート。これらのテンプレートは、アドビによって作成され、標準で提供されます。
 * カスタムテンプレート。これらのテンプレートは、「テンプレートとして保存」権限が与えられている場合に、管理者権限を持つユーザーまたは管理者以外のユーザーが作成できます(See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [カスタムテンプレートの作成](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
-* [標準テンプレート](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [カスタムテンプレートの作成](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* [標準テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## カスタムテンプレートの作成 {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## カスタムテンプレートの作成 {#create-custom-template}
 
 管理者権限を持つユーザーは、作成した任意のプロジェクトをカスタムテンプレートに変換できます。その方法を次に示します。
 
