@@ -7,7 +7,7 @@ title: 予定レポートキュー
 topic: レポート
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,10 +20,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 予定レポートマネージャーの管理者レベルの機能には次のものがあります。
 
-* 組織内の[すべての予定レポートを表示](../../admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)するオプション。
-* 組織全体にわたる[高度なフィルター機能](../../admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275)。
-* レポートサーバーで実行するためにキューに登録されているすべてのレポートを一覧表示する新しい「[レポートキュー](../../admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B)」タブ
-* レポートキューインターフェイスでの[スケジュール ID](../../admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) の公開
+* 組織内の[すべての予定レポートを表示](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)するオプション。
+* 組織全体にわたる[高度なフィルター機能](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275)。
+* レポートサーバーで実行するためにキューに登録されているすべてのレポートを一覧表示する新しい「[レポートキュー](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B)」タブ
+* レポートキューインターフェイスでの[スケジュール ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) の公開
 
 ## すべての予定レポートを表示 {#section_3F167CAAEEC24140B476CF95B7402690}
 
