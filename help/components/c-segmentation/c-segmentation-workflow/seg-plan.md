@@ -7,7 +7,7 @@ title: セグメントの計画
 topic: セグメント
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,10 +23,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * このセグメントはどのような分野で役立ちますか。
    * このセグメントはいつ使用する必要がありますか。
 
-1. セグメントの&#x200B;**スコープ**&#x200B;を決定します。スコープを最も適切に表すのは、どの[セグメントコンテナ](../../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399)ですか。できるだけ小さいコンテナを使用します。
+1. セグメントの&#x200B;**スコープ**&#x200B;を決定します。スコープを最も適切に表すのは、どの[セグメントコンテナ](/help/components/c-segmentation/seg-overview.md)ですか。できるだけ小さいコンテナを使用します。
 
-1. セグメント定義に含める&#x200B;**要素**&#x200B;と値を決定します。その際、[変数の持続性](../../../components/c-segmentation/seg-overview.md#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB)も決定します。
+1. セグメント定義に含める&#x200B;**要素**&#x200B;と値を決定します。その際、[変数の持続性](/help/components/c-segmentation/seg-overview.md)も決定します。
 
 1. **承認プロセス**&#x200B;の展開方法を検討します。セグメントの確認および承認を 1 人の担当者のみで行いますか。それとも委員会で判定しますか。
-1. **セグメントライブラリ**&#x200B;へのビューを使用してセグメントを定義します。セグメントライブラリを使用すると、部品としてのセグメントをモジュール形式で積み重ねおよび再利用できます。[](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_40C299B60B354E10B344702EA3138B34)このライブラリを有益なものとするには、どのような「モジュール」を定義する必要がありますか。
+1. **セグメントライブラリ**&#x200B;へのビューを使用してセグメントを定義します。セグメントライブラリを使用すると、部品としてのセグメントをモジュール形式で積み重ねおよび再利用できます。[](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)このライブラリを有益なものとするには、どのような「モジュール」を定義する必要がありますか。
 
