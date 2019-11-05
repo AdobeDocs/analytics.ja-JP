@@ -8,7 +8,7 @@ title: Analytics の実装に関する FAQ
 topic: 開発者と実装
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
 
 ---
 
@@ -25,39 +25,39 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics のユーザーおよびグループはどのようにして管理しますか。 </p> </td> 
-   <td colname="col3"> <p>ユーザーおよびグループの管理方法については、Adobe Experience Cloud ヘルプの<a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external">ユーザーと製品の管理</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p>ユーザーおよびグループの管理方法については、Adobe Experience Cloud ヘルプの<a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html">ユーザーと製品の管理</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>eVar有効期限 — レポート内でeVarが「なし」に関連付けられるのはなぜですか。 </p> </td> 
-   <td colname="col3"> <p> 「<span class="uicontrol">有効期限</span>」は、eVar 値の有効期限が切れる（成功イベントのクレジットを受け取らなくなる）までの期間またはイベントを指定します。eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。有効期限にイベントを指定した場合、そのイベントが発生した場合にのみ eVar の有効期限が切れます。イベントが発生しない場合、eVar の有効期限は切れません。<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [さらに詳しく...] </a> </p> </td> 
+   <td colname="col3"> <p> 「<span class="uicontrol">有効期限</span>」は、eVar 値の有効期限が切れる（成功イベントのクレジットを受け取らなくなる）までの期間またはイベントを指定します。eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。有効期限にイベントを指定した場合、そのイベントが発生した場合にのみ eVar の有効期限が切れます。イベントが発生しない場合、eVar の有効期限は切れません。<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html"> [さらに詳しく...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>カスタムイベントの表示 - レポートメニューにカスタムイベントが表示されないのはなぜですか。 </p> </td> 
-   <td colname="col3"> <p>表示列で、メニュー、指標セレクター、計算指標ビルダーおよびセグメントビルダー内の標準（組み込み）指標、カスタムイベントおよび組み込みイベントを非表示にできます。この設定は、ユーザーインターフェイス内での表示にのみ影響し、指標やイベントのデータ収集には影響しません。<a href="https://marketing.adobe.com/resources/help/en_US/reference/metric-visibility.html" format="https" scope="external"> [さらに詳しく...] </a> </p> </td> 
+   <td colname="col3"> <p>表示列で、メニュー、指標セレクター、計算指標ビルダーおよびセグメントビルダー内の標準（組み込み）指標、カスタムイベントおよび組み込みイベントを非表示にできます。この設定は、ユーザーインターフェイス内での表示にのみ影響し、指標やイベントのデータ収集には影響しません。<a href="https://marketing.adobe.com/resources/help/en_US/reference/metric-visibility.html"> [さらに詳しく...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>タイムスタンプ - タイムスタンプ設定を変更する前に考慮する必要があることは何ですか。 </p> </td> 
-   <td colname="col3"> <p>タイムスタンプオプション機能を使用すると、データを損失することなく、タイムスタンプのないデータをタイムスタンプのあるデータと組み合わせることができます。モバイルデバイスで生成されたタイムスタンプのあるオフラインデータは、Web ページからのライブのタイムスタンプのないデータと組み合わせたり、クライアント側のタイムスタンプ呼び出しを使用した任意のプラットフォームからのデータと統合したりできます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/timestamps-overview.html" format="https" scope="external"> [さらに詳しく...] </a> </p> </td> 
+   <td colname="col3"> <p>タイムスタンプオプション機能を使用すると、データを損失することなく、タイムスタンプのないデータをタイムスタンプのあるデータと組み合わせることができます。モバイルデバイスで生成されたタイムスタンプのあるオフラインデータは、Web ページからのライブのタイムスタンプのないデータと組み合わせたり、クライアント側のタイムスタンプ呼び出しを使用した任意のプラットフォームからのデータと統合したりできます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/timestamps-overview.html"> [さらに詳しく...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>訪問者 ID - 訪問者 ID 猶予期間はどのように機能し、どうしたら有効にできますか。 </p> </td> 
-   <td colname="col3"> <p>同じレポートスイートにデータを送信する複数の JavaScript ファイルがある場合、またはサイト上で Flash ビデオによる測定などの他のテクノロジーを使用している場合は、猶予期間を設定することをお勧めします。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html" format="https" scope="external"> [さらに詳しく...] </a> </p> </td> 
+   <td colname="col3"> <p>同じレポートスイートにデータを送信する複数の JavaScript ファイルがある場合、またはサイト上で Flash ビデオによる測定などの他のテクノロジーを使用している場合は、猶予期間を設定することをお勧めします。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html"> [さらに詳しく...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>訪問者 ID - Experience Cloud 訪問者 ID と Analytics 訪問者 ID の違いは何ですか。 </p> </td> 
-   <td colname="col3"> <p>ID サービスは、すべてのサイト訪問者に、一意の永続的な識別子を割り当てます。この ID を使用して、訪問者やそのデータを Experience Cloud の他のソリューションで共有できます。また、この ID は、Analytics 訪問者 ID などのソリューション専用の ID を置き換えたり、共に使用したりできます。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html" format="https" scope="external"> [さらに詳しく...] </a> </p> </td> 
+   <td colname="col3"> <p>ID サービスは、すべてのサイト訪問者に、一意の永続的な識別子を割り当てます。この ID を使用して、訪問者やそのデータを Experience Cloud の他のソリューションで共有できます。また、この ID は、Analytics 訪問者 ID などのソリューション専用の ID を置き換えたり、共に使用したりできます。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html"> [さらに詳しく...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>訪問者 ID - cookie がブロックされている場合、訪問者 ID はどのように設定されますか。 </p> </td> 
-   <td colname="col3"> <p>標準的な s_vi cookie を使用できない場合は、ランダムに生成された一意の ID を使用して、Web サイトでフォールバック cookie が作成されます。この cookie は s_fid と呼ばれ、2 年間の有効期限付きで設定され、今後のフォールバック識別方法として使用されます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html" format="https" scope="external"> [さらに詳しく...] </a> </p> </td> 
+   <td colname="col3"> <p>標準的な s_vi cookie を使用できない場合は、ランダムに生成された一意の ID を使用して、Web サイトでフォールバック cookie が作成されます。この cookie は s_fid と呼ばれ、2 年間の有効期限付きで設定され、今後のフォールバック識別方法として使用されます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html"> [さらに詳しく...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Dynamic Tag Management - DTM のルールが実行されないのはなぜですか。 </p> </td> 
-   <td colname="col3"> <p>イベント型ルールが実行されない場合、ルールのセレクターまたは条件に問題がある可能性があります。Firefox で目的のイベントアクションが発生するサイトの要素を探して右クリックし、「要素を調査」を選択します。開いたボックスで強調表示されたスクリプトを検証し、正しい要素をターゲットにしていることを確認します。<a href="https://marketing.adobe.com/resources/help/en_US/dtm/c_Troubleshooting.html" format="https" scope="external"> [さらに詳しく...] </a> </p> </td> 
+   <td colname="col3"> <p>イベント型ルールが実行されない場合、ルールのセレクターまたは条件に問題がある可能性があります。Firefox で目的のイベントアクションが発生するサイトの要素を探して右クリックし、「要素を調査」を選択します。開いたボックスで強調表示されたスクリプトを検証し、正しい要素をターゲットにしていることを確認します。<a href="https://marketing.adobe.com/resources/help/en_US/dtm/c_Troubleshooting.html"> [さらに詳しく...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>どのようにしてハートビートビデオトラッキングを実装すればよいですか。 </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/" format="https" scope="external">この節</a>に、お使いのプラットフォーム用のビデオハートビート SDK および開発者ガイドをダウンロードする手順が含まれています。また、ビデオハートビートに関する特定の実装手順を含んでいるので、SDK をダウンロードする際に、docs フォルダーにある開発者ガイドもダウンロードしてください。 </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/">この節</a>に、お使いのプラットフォーム用のビデオハートビート SDK および開発者ガイドをダウンロードする手順が含まれています。また、ビデオハートビートに関する特定の実装手順を含んでいるので、SDK をダウンロードする際に、docs フォルダーにある開発者ガイドもダウンロードしてください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>適切なサブドメインに cookie を追加するには、どうしたらよいですか。 </p> </td> 
@@ -65,11 +65,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col2"> <p>トラッキングサーバー - トラッキングサーバーを適切に設定するにはどうしたらよいですか。 </p> </td> 
-   <td colname="col3"> <p>Adobe Analytics サーバーにデータを送信するように実装を設定する場合、正しい場所に送信する必要があります。そうしないと、訪問者数の水増しやデータ損失の原因となります。<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external"> [さらに詳しく...] </a> </p> </td> 
+   <td colname="col3"> <p>Adobe Analytics サーバーにデータを送信するように実装を設定する場合、正しい場所に送信する必要があります。そうしないと、訪問者数の水増しやデータ損失の原因となります。<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html"> [さらに詳しく...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>パフォーマンス - 外部の Adobe JavaScript の読み込みの失敗は（それが Adobe でのインターネット接続、プロキシ、ファイアウォール、またはサービスの中断によるものであろうとなかろうと）、パフォーマンスに影響しますか。 </p> </td> 
-   <td colname="col3"> <p>いいえ。JavaScript ファイルは、Adobe サーバーでホストしていないで、Adobe の停止状態が JavaScript の実行に影響することはありません。Dynamic Tag Management が採用されている場合、JavaScript ファイルは Akamai でホストされているか、顧客が決定したサーバーの場所にあります。 </p> <p>「<i>Dynamic Tag Management によって Web サイトのパフォーマンスが低下することはありますか</i>」（<a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html" format="https" scope="external">Dynamic Tag Management FAQ</a>）を参照してください。 </p> <p>さらに、Akamai の CDN に依存することに不安を感じる場合は、独自のコア Dynamic Tag Management ファイルをホストできます。<a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html" format="https" scope="external">埋め込みコードとホスティングオプション</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p>いいえ。JavaScript ファイルは、Adobe サーバーでホストしていないで、Adobe の停止状態が JavaScript の実行に影響することはありません。Dynamic Tag Management が採用されている場合、JavaScript ファイルは Akamai でホストされているか、顧客が決定したサーバーの場所にあります。 </p> <p>「<i>Dynamic Tag Management によって Web サイトのパフォーマンスが低下することはありますか</i>」（<a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html">Dynamic Tag Management FAQ</a>）を参照してください。 </p> <p>さらに、Akamai の CDN に依存することに不安を感じる場合は、独自のコア Dynamic Tag Management ファイルをホストできます。<a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html">埋め込みコードとホスティングオプション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>パフォーマンス - 外部 Adobe JavaScript の読み込みがパフォーマンス低下の原因となることはありますか。 </p> </td> 
@@ -85,55 +85,55 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col2"> 収集されたデータを規定の条件に基づいて変更するにはどうすればよいですか。 </td> 
-   <td colname="col3"> 処理ルールを使用すると、データ収集をシンプル化し、レポートに送信されるコンテンツを管理できます。<a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> [さらに詳しく...] </a> </td> 
+   <td colname="col3"> 処理ルールを使用すると、データ収集をシンプル化し、レポートに送信されるコンテンツを管理できます。<a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> s_code ファイルの最新バージョン </td> 
-   <td> Web プラットフォームおよびモバイルプラットフォームの [!DNL AppMeasurement] ライブラリのリリース履歴について説明します。各ライブラリの最新バージョンは、Reports &amp; Analytics／管理ツール／コードマネージャーからダウンロードできます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> Web プラットフォームおよびモバイルプラットフォームの [!DNL AppMeasurement] ライブラリのリリース履歴について説明します。各ライブラリの最新バージョンは、Reports &amp; Analytics／管理ツール／コードマネージャーからダウンロードできます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> s_code ファイルのデバッグ方法を教えてください </td> 
-   <td> Adobe Debugger（旧称 DigitalPulse Debugger）はアドビが提供する無料のツールで、特定のページに関してユーザーのサイトから収集されたデータを表示することができます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> Adobe Debugger（旧称 DigitalPulse Debugger）はアドビが提供する無料のツールで、特定のページに関してユーザーのサイトから収集されたデータを表示することができます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> 複数のリンクタイプを追跡する方法を教えてください。 </td> 
-   <td> ファイルのダウンロード数と離脱リンクは、JavaScript 版 AppMeasurement ファイルで設定されたパラメーターに基づいて、自動的に追跡することができます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> ファイルのダウンロード数と離脱リンクは、JavaScript 版 AppMeasurement ファイルで設定されたパラメーターに基づいて、自動的に追跡することができます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> ビデオを追跡する方法を教えてください。 </td> 
-   <td> JavaScript を使用して、さまざまなプレーヤーを追跡できます。JavaScript を使用して追跡をおこなうには、プレーヤーが含まれている Web ページにコードを追加し、イベントハンドラーを使用してプレーヤーを追跡します。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> JavaScript を使用して、さまざまなプレーヤーを追跡できます。JavaScript を使用して追跡をおこなうには、プレーヤーが含まれている Web ページにコードを追加し、イベントハンドラーを使用してプレーヤーを追跡します。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> モバイルアプリを追跡する方法を教えてください。 </td> 
-   <td> Adobe Mobile Services に一意の追跡コードを持つダウンロード計測用リンクが生成されます。ユーザーが生成されたリンクをクリックした後で Apple App Store からアプリをダウンロードして実行すると、SDK が自動的に獲得データを収集し、Adobe Mobile Services に送信します。<a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/acquisition.html" format="http" scope="external"> iOS</a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html" format="http" scope="external">Android </a> </td> 
+   <td> Adobe Mobile Services に一意の追跡コードを持つダウンロード計測用リンクが生成されます。ユーザーが生成されたリンクをクリックした後で Apple App Store からアプリをダウンロードして実行すると、SDK が自動的に獲得データを収集し、Adobe Mobile Services に送信します。<a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/acquisition.html"> iOS</a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html">Android </a> </td> 
   </tr> 
   <tr> 
    <td> ビデオトラッキングを導入する方法を教えてください。 </td> 
-   <td> ビデオプレイヤーのイベントハンドラーに追加する関数を作成することで、メディアプレイヤーを追跡できます。これにより、Media.open、Media.play、Media.stop、Media.close を適切なタイミングで呼び出すことができます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js_events.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> ビデオプレイヤーのイベントハンドラーに追加する関数を作成することで、メディアプレイヤーを追跡できます。これにより、Media.open、Media.play、Media.stop、Media.close を適切なタイミングで呼び出すことができます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js_events.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> ファーストパーティ Cookie を設定する方法を教えてください。 </td> 
-   <td> Analytics は、画像リクエストとブラウザーセッション間で保持されない変数およびコンポーネントの情報を提供するために、cookie を使用します。これらの cookie は安全で、アドビがホストするドメインから作成されるもので、サードパーティ cookie と呼ばれます。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> Analytics は、画像リクエストとブラウザーセッション間で保持されない変数およびコンポーネントの情報を提供するために、cookie を使用します。これらの cookie は安全で、アドビがホストするドメインから作成されるもので、サードパーティ cookie と呼ばれます。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> SSL 証明書を取得する方法を教えてください。 </td> 
-   <td> サイトが https:// プロトコルを使用するかどうかを指定します。使用する場合、CSR を要求し SSL 証明書を購入する必要があります。注意：セキュリティで保護されているページやコンテンツがない場合、SSL 証明書は不要です。サイトで https:// プロトコルのみを使用する場合は、この手順全体をスキップできます。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> サイトが https:// プロトコルを使用するかどうかを指定します。使用する場合、CSR を要求し SSL 証明書を購入する必要があります。注意：セキュリティで保護されているページやコンテンツがない場合、SSL 証明書は不要です。サイトで https:// プロトコルのみを使用する場合は、この手順全体をスキップできます。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> 証明書の有効期限の通知に関する情報は、どこで確認できますか。 </td> 
-   <td> SSL 証明書は毎年期限が切れ、期限切れになるたびにアドビから証明書の更新が要求されます。期限切れになると FPC スペシャリストから十分な警告がありますが、有効期限の監視、およびアドビへの更新された証明書の提供を事前に計画されることをお勧めします。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_renewals.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> SSL 証明書は毎年期限が切れ、期限切れになるたびにアドビから証明書の更新が要求されます。期限切れになると FPC スペシャリストから十分な警告がありますが、有効期限の監視、およびアドビへの更新された証明書の提供を事前に計画されることをお勧めします。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_renewals.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> プラグインとは何ですか。 </td> 
-   <td> JavaScript 版 AppMeasurement プラグインは、いくつかの高度な機能を実行するプログラムや関数です。これらのプラグインは、JavaScript ファイルの機能を拡張して、基本的な実装では利用できなかった機能を提供します。アドビは他にも多数のプラグインを高度なソリューションの一部として提供しています。JavaScript を使用してデータを取り込む必要があるが、手順がわからない場合は、社内のアカウントマネージャーにお問い合わせください。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> JavaScript 版 AppMeasurement プラグインは、いくつかの高度な機能を実行するプログラムや関数です。これらのプラグインは、JavaScript ファイルの機能を拡張して、基本的な実装では利用できなかった機能を提供します。アドビは他にも多数のプラグインを高度なソリューションの一部として提供しています。JavaScript を使用してデータを取り込む必要があるが、手順がわからない場合は、社内のアカウントマネージャーにお問い合わせください。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> Data Insertion API についての情報 </td> 
-   <td> アドビでは、Analytics にデータを送信する複数の方法を用意しています。<a href="https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html" format="http" scope="external"> [さらに詳しく...] </a> </td> 
+   <td> アドビでは、Analytics にデータを送信する複数の方法を用意しています。<a href="https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> 500 エラーとは何ですか。 </td> 
-   <td> 「500 Query Error」の状態を引き起こす内部サーバーエラーについての情報です。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html" format="http" scope="external">pageType 変数を参照</a> </td> 
+   <td> 「500 Query Error」の状態を引き起こす内部サーバーエラーについての情報です。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html">pageType 変数を参照</a> </td> 
   </tr> 
  </tbody> 
 </table>
