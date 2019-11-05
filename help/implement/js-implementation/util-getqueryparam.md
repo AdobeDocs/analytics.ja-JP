@@ -9,7 +9,7 @@ title: Util.getQueryParam
 topic: 開発者と実装
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 重要なデータ（キャンペーントラッキングコード、内部検索キーワードなど）はページ上のクエリ文字列に含まれているので、getQueryParam はデータを取得して Analytics 変数に取り込むのに役立ちます。
 
-このユーティリティは、[getQueryParam](../../implement/js-implementation/plugins/getqueryparam.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) プラグインに代わるものです。
+このユーティリティは、[getQueryParam](/help/implement/js-implementation/plugins/getqueryparam.md) プラグインに代わるものです。
 
 **構文：**
 
