@@ -1,13 +1,13 @@
 ---
 description: ジョブは、いくつかのステータスラベルのいずれかで表示できます。
-keywords: データフィード;job;status;データの待機中;失敗;ready;処理;complete;データなし
+keywords: データフィード；ジョブ；ステータス；データの待機；失敗；準備完了；処理；完了；データなし
 seo-description: ジョブは、いくつかのステータスラベルのいずれかで表示できます。
 seo-title: ジョブステータス
 solution: Analytics
 title: ジョブステータス
-uuid: 0058b83f-7bff-4fd0- bb9f- ab15616d29cf
+uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | ステータス | 説明 |
 |---|---|
 | データを待機中 | ジョブは稼動中で、データを収集中です。 |
-| 失敗 | 問題が発生しました。詳しくは、[ジョブのトラブルシューティング](../../../export/analytics-data-feed/jobs-troubleshooting.md#concept_F3B0CDCCCD8047EEA3CFE9717D860320)を参照してください。 |
+| 失敗 | 問題が発生しました。詳しくは、[ジョブのトラブルシューティング](/help/export/analytics-data-feed/jobs-troubleshooting.md)を参照してください。 |
 | 準備完了 | ジョブを実行する準備ができました。 |
 | 処理中 | ジョブは、データファイルを作成中で、送信する準備をしています。 |
 | 完了 | ジョブが作成され、ファイルが送信されました。 |
