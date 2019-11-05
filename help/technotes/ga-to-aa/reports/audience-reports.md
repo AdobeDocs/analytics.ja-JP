@@ -1,187 +1,187 @@
 ---
 title: Adobe Analyticsのオーディエンスレポート
-description: Analysis Workspaceを使用してオーディエンスベースのレポートを作成する方法について説明します。
+description: Analysis Workspaceを使用してオーディエンスベースのレポートを作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # オーディエンスレポート
 
-オーディエンスレポートには、サイトの訪問者のタイプに関する情報が表示されます。
+オーディエンスレポートには、サイトを訪問した人のタイプに関する情報が表示されます。
 
-このページでは、Analysis Workspaceの使用に関する基本的な知識があると想定しています。See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+このページでは、ユーザーがAnalysis Workspaceの使用に関する基本的な知識を持っていることを前提としています。 Adobe Analytics [のツールに詳しくない場合は、Analysis WorkspaceでのGoogle Analyticsユーザー用の基本レポートの作成](create-report.md) （英語のみ）を参照してください。
 
 ## アクティブなユーザー
 
-アクティブなユーザーは、1、7、14または28日前のサイトへのユーザーの累積数を表示します。Adobeでは、Google Analyticsでの正確な計算が行われていませんが、指標個別訪問者数を使用して、選択した日付範囲に基づいて、サイトに対して重複しないユーザー数を表示できます。
+アクティブなユーザーは、過去1日、7日、14日または28日間のサイトへのユーザーの累計数を表示します。 Google Analyticsで使用される正確な計算方法はアドビにはありませんが、「個別訪問者数」指標を使用して、選択した日付範囲に基づいて、サイトへの訪問者数の重複を除外した数を確認できます。
 
-個別訪問者の折れ線グラフを取得するには:
+実訪問者数の折れ線グラフを取得するには：
 
-1. 左側のビジュアライゼーションアイコンをクリックし、空白のフリーフォームテーブルの上にあるワークスペースに線ビジュアライゼーションをドラッグします。
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled 'Drop a Metric here'.
-3. If different granularity is desired, drag the desired date range (e.g. **Day**, **Week**, **Month**, etc.) をクリックします。
+1. 左側のビジュアライゼーションアイコンをクリックし、行ビジュアライゼーションを空のフリーフォームテーブルの上のワークスペースにドラッグします。
+2. 左側のコンポーネントアイコンをクリックし、個別訪問者数指標 **を** 「ここに指標をドロップ」というラベルの付いた小さいスペースにドラッグします。
+3. 異なる精度が必要な場合は、目的の日付範囲(日 **、週**、月 ********&#x200B;など)をを既存の日付ディメンションヘッダーの上に置きます。
 
-See [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) in the Components user guide for details on how Adobe calculates unique visitors.
+アドビが [個別訪問者を計算する方法について詳しくは、『コンポーネント](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) 』ユーザーガイドの「個別訪問者数」を参照してください。
 
 ## ライフタイム値
 
-ライフタイム値は、両方のプラットフォームで特別な特別実装を必要とする機能です。アドビでは、このデータを取得するために導入コンサルタントと協力することを推奨しています。
+ライフタイム値は、両方のプラットフォームで特別な実装を追加する必要がある機能です。 このデータは、導入コンサルタントと相談して取得することをお勧めします。
 
 ## コホート分析
 
-コホート分析は、同じユーザーがサイトに戻る頻度を示します。
+コホート分析は、同じユーザーがサイトに戻ってくる頻度を示します。
 
-コホートテーブルを作成するには:
+コホートテーブルを作成するには：
 
-1. 左側のビジュアライゼーションアイコンをクリックし、コホートテーブルビジュアライゼーションをワークスペースにドラッグします。
-2. Click the Components icon on the left, then drag the **Visits** metric onto both the Inclusion Criteria and Return Criteria.
+1. 左側のビジュアライゼーションアイコンをクリックし、コホートテーブルのビジュアライゼーションをワークスペースにドラッグします。
+2. 左側のコンポーネントアイコンをクリックし、訪問指標を **含める条件** と再来訪条件の両方にドラッグします。
 3. 「作成」をクリックします。
 
-See [Cohort Analysis](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analysis Workspace user guide for details on additional customizations to the cohort visualization.
+コホー [](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) トビジュアライゼーションのその他のカスタマイズについて詳しくは、Analysis Workspaceユーザーガイドのコホート分析を参照してください。
 
 ## オーディエンス
 
-Google Analyticsのオーディエンスレポートには、オーディエンスの設定が必要です。オーディエンスには、Adobe Audience Managerを使用したアドビの設定も必要です。詳しくは、"Adobe Audience Managerユーザーガイド」を参照してください。
+Google Analyticsのオーディエンスレポートでは、オーディエンスの設定が必要です。 オーディエンスには、Adobe Audience Managerを使用したアドビでの設定も必要です。 詳しくは、Adobe Audience Managerユーザーガイドを参照してください。
 
 ## User Explorer
 
-ユーザーエクスプローラーレポートを使用すると、アナリストは匿名識別子を使用して個々の訪問を表示できます。アドビでは、データフィードの外部でバックエンド識別子を処理しません。これはデータのヒットレベルのRAWエクスポートです。
+ユーザーエクスプローラーレポートを使用すると、アナリストは匿名化された識別子を使用して個々の訪問を表示できます。 アドビは、データのヒットレベルの生のエクスポートであるデータフィードの外部でバックエンド識別子を表示しません。
 
-* このデータがAnalysis Workspaceで必要な場合は、導入コンサルタントと協力して、匿名化された一意の識別子cookieの値をeVarに渡すことができます。これは、1か月あたり100万人未満の個別訪問者数で構成される小規模な実装でのみ機能します。
-* If this data is desired within data feeds, the concatenated columns `visid_high` and `visid_low` are the most common way to identify unique visitors. Learn more about [Data Feeds](../../../export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide.
+* このデータがAnalysis Workspaceで必要な場合は、導入コンサルタントと協力して、匿名化された一意の識別子cookieの値をeVarに渡すことができます。 これは、1か月あたり100万人未満の個別訪問者で構成される小規模な実装でのみ機能します。
+* このデータがデータフィード内で必要な場合、連結された列と `visid_high` が最 `visid_low` も一般的な方法で個別訪問者を識別します。 データフィードにつ [いて詳しくは](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) 、「書き出し」ユーザーガイドを参照してください。
 
-## 人口統計レポートと目標レポート
+## 人口統計と関心レポート
 
-人口統計と関心データは、サイトユーザーの年齢、性別、興味に関する情報を提供します。このデータは、クロスサイトトラッキング機能を通してGoogleによって収集されます。
+人口統計と関心データは、サイトユーザの年齢、性別、関心に関する情報を提供します。 そのデータは、Googleがクロスサイトトラッキング機能を通じて収集します。
 
-人口統計と興味のデータは、アドビによって自動的に収集されることはありません。ただし、組織がこのデータを取得した場合は、Adobe Experience Cloudプラットフォーム内の機能である顧客属性を使用できます。属性によってデータ編成を完全に制御できるので、人口統計や興味に限りません。
+人口統計および関心のデータは、アドビによって自動的には収集されません。 ただし、このデータを取得した場合は、顧客属性（Adobe Experience Cloudプラットフォーム内の機能）を使用できます。 属性別のデータの編成を完全に制御でき、人口統計や関心事だけに限定されません。
 
 詳しくは、顧客属性ヘルプを参照してください。
 
-## 地域-言語
+## 地域 — 言語
 
-地域言語レポートは、訪問者のブラウザーの言語設定によってサイトトラフィックを表示します。
+地域言語レポートは、訪問者のブラウザーの言語設定別にサイトトラフィックを表示します。
 
-言語レポートを作成するには:
+言語レポートを作成するには：
 
-1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで言語ディメンション **を見つけ** 、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-See the [Language](../../../components/c-variables/dimensionslist/reports-languages.md) dimension in the Components user guide for more information.
+詳しくは、『コ [ンポーネント](/help/components/c-variables/dimensionslist/reports-languages.md) 』ユーザーガイドのLanguageディメンションを参照してください。
 
-## 地域-場所
+## 地域 — 場所
 
-地域レポートでは、世界規模の地図表示、データの分類が国ごとに行われます。
+地域レポートは、国別のデータを細分化した世界地図を表示します。
 
-地域レポートを作成するには:
+地域レポートを作成するには：
 
-1. 左側のビジュアライゼーションアイコンをクリックし、マップビジュアライゼーションを空のフリーフォームテーブルの上にあるワークスペースにドラッグします。
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled 'Add Metric'.
+1. 左側のビジュアライゼーションアイコンをクリックし、マップビジュアライゼーションを空のフリーフォームテーブルの上のワークスペースにドラッグします。
+2. 左側のコンポーネントアイコンをクリックし、実訪問者数 **指標を** 「指標を追加」というラベルの付いたスペースにドラッグします。
 3. 「作成」をクリックします。
 
-マップに加えてテーブルが必要な場合:
+マップに加えてテーブルも必要な場合：
 
-1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、 **Countriesディメンションを見つけ** 、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geosegmentation.md) dimensions in the Components user guide for more information.
+詳しくは、 [コンポーネント](/help/components/c-variables/dimensionslist/reports-geosegmentation.md) ・ユーザー・ガイドの地理特性ディメンションを参照してください。
 
-## 行動-新規とリターン
+## 動作 — 新規とリピーター
 
-新規レポートとリターンレポートでは、最初のセッション（新規訪問）と後続セッション（再来訪）を簡単に表示できます。
+新しい訪問と再訪レポートは、最初のセッション（新しい訪問）とそれ以降のセッション（再来訪）を簡単に表示します。
 
-新規訪問回数レポートと再来訪レポートを作成するには:
+新しい訪問回数レポートと再訪問回数レポートを作成するには：
 
-1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled 'Drop a Dimension here'. **初回訪問回数** はセグメントですが、Workspaceでは通常、行を表すディメンションが使用されます。
-2. **再来訪** セグメントを見つけて、セグメント行ヘッダーの上部にドラッグします。これにより、セグメントが初回訪問件数以下のディメンションとして追加され、容易に比較できるようになります。
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、初回訪問セグメ **ントを見つけ** 、「ここにディメンションをドロップ」というラベルの付いた大きなフリーフォームテーブル領域にドラッグします。 初回訪問はセグ **メントですが** 、Workspaceは通常、行を表すディメンションを使用します。
+2. 再来訪セグメ **ントを見つけ** 、セグメント行ヘッダーの上にドラッグします。 これにより、セグメントが[初回訪問]の下のディメンションとして追加され、簡単に比較できます。
+3. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-折れ線グラフも必要な場合:
+折れ線グラフも必要な場合：
 
-1. 左側のビジュアライゼーションアイコンをクリックし、フリーフォームテーブルの上のワークスペースに線ビジュアライゼーションをドラッグします
-2. フリーフォームテーブルの各行にあるCtrlキー（Windows）またはCommandキー（Mac OS）を押しながら、各行をハイライト表示します。これにより、両方のトレンドが行のビジュアライゼーションに表示されます。
-3. 線のビジュアライゼーションの左上隅にある小さい丸い丸の点をクリックし、チェックボックスの「選択項目をロック」をクリックします。
+1. 左側のビジュアライゼーションアイコンをクリックし、線のビジュアライゼーションをフリーフォームテーブルの上のワークスペースにドラッグします
+2. フリーフォームテーブルの各行をCtrlキー(Windows)またはCommandキー(Mac)を押しながらクリックしてハイライト表示します。 これにより、両方のトレンドを線のビジュアライゼーションに表示できます。
+3. 線のビジュアライゼーションの左上隅にある小さな丸い色付きの点をクリックし、「選択をロック」チェックボックスをクリックします。
 
-## 行動-頻度と最新性
+## 動作 — 頻度と最新性
 
-The frequency &amp; recency report is approximately equal to the **Visit Number** dimension in Analysis Workspace.
+頻度と最新性レポートは、Analysis Workspaceの訪問回数 **ディメンション** とほぼ等しくなります。
 
-1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、訪問回数ディメ **ンションを見つけ** 、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-See the [Visit Number](../../../components/c-variables/dimensionslist/reports-visitor-number.md) dimension in the Components user guide for more information.
+詳しくは、『コ [ンポーネント](/help/components/c-variables/dimensionslist/reports-visitor-number.md) 』ユーザーガイドの「訪問回数」ディメンションを参照してください。
 
-## 行動-アクション
+## 動作 — アクション
 
-The engagement report is approximately equal to the **Time Spent per Visit - Bucketed** dimension.
+エンゲージメントレポートは、訪問別滞在時間 — グ **ループディメンションとほぼ同じで** す。
 
-1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、「訪問別滞 **在時間 — グループ」ディメンションを見つけ** 、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md) dimension in the Components user guide for more information.
+詳しくは、コ [ンポーネントユーザーガイドの](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md) 「訪問別滞在時間」ディメンションを参照してください。
 
-## 技術-ブラウザーとOS
+## 技術 — ブラウザーとOS
 
-ブラウザーおよびOSレポートには、複数の主要ディメンションがあります。
+ブラウザーとOSのレポートには、複数の主要ディメンションが用意されています。
 
-* **ブラウザー** のプライマリディメンションは、Analysis Workspaceでディメンションとしても使用できます。
-* **オペレーティングシステム** のプライマリディメンションは、Analysis Workspaceでディメンションとしても使用できます。
-* **画面解像度** のプライマリディメンションは、Analysis Workspaceで **モニター解像** 度ディメンションとして使用できます。
-* **画面色** のプライマリディメンションは、Analysis Workspaceで **色深度** ディメンションとして使用できます。
-* **Flashバージョン** のプライマリディメンションはAdobe Analyticsでは使用できませんが、必要に応じてeVarによってこのデータを収集できます。
+* ブラウ **ザー** ・プライマリ・ディメンションは、Analysis Workspaceでもディメンションとして使用できます。
+* オペレーティ **ングシステム** (OS)のプライマリディメンションは、Analysis Workspaceでもディメンションとして使用できます。
+* 画面解 **像度** ( **Screen Resolution)のプライマリディメンションは、Analysis WorkspaceのMonitor Resolution（画面解像度）ディメンションと** して使用できます。
+* 画面の色 **(** Screen Colors)のプライマリディメンションは、Analysis Workspaceで色深度( **Color Depth** )ディメンションとして使用できます。
+* Flashバー **ジョン** (Primary)ディメンションはAdobe Analyticsでは使用できませんが、必要に応じてeVarでこのデータを収集できます。
 
-1. コンポーネントメニューで、前述の目的のディメンションを見つけて、「ここにディメンションをドロップ」というラベルの大きなフリーフォームテーブル領域にドラッグします。
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、上記で説明した目的のディメンションを見つけ、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-それぞれのディメンションについて詳しくは、「コンポーネントユーザーガイド」の次のページを参照してください。
+各ディメンションの詳細については、『コンポーネントユーザガイド』の以下のページを参照してください。
 
-* [ブラウザー](../../../components/c-variables/dimensionslist/reports-browsers.md)
-* [オペレーティングシステム](../../../components/c-variables/dimensionslist/reports-operating-system.md)
-* [画面の解像度](../../../components/c-variables/dimensionslist/reports-technology.md)
-* [画面の色](../../../components/c-variables/dimensionslist/reports-color-depth.md)
+* [ブラウザー](/help/components/c-variables/dimensionslist/reports-browsers.md)
+* [オペレーティングシステム](/help/components/c-variables/dimensionslist/reports-operating-system.md)
+* [画面の解像度](/help/components/c-variables/dimensionslist/reports-technology.md)
+* [画面の色](/help/components/c-variables/dimensionslist/reports-color-depth.md)
 
-## 技術-ネットワーク
+## 技術 — ネットワーク
 
-The network report is approximately equal to the **Domain** dimension.
+ネットワークレポートは、 **Domain** （ドメイン）ディメンションとほぼ等しくなります。
 
-1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、 **Domain** （ドメイン）ディメンションを見つけ、「Drop a dimension here（ディメンションをここにドロップ）」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.md) dimension in the Components user guide for more information.
+詳しくは、『コ [ンポーネント](/help/components/c-variables/dimensionslist/reports-domains.md) 』ユーザーガイドの「ドメイン」ディメンションを参照してください。
 
-## モバイル-概要
+## モバイル — 概要
 
-The mobile overview report is approximately equal to the **Mobile Device Type** dimension. 「その他」の値はデスクトップトラフィックと同じです。
+モバイルの概要レポートは、モバイルデバイスタイプディメン **ションとほぼ同じで** す。 「その他」の値はデスクトップトラフィックと同じであることに注意してください。
 
-1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、 **Mobile Device Typeディメンションを探し、** 「Drop a dimension here」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-See the [Mobile Device Type](../../../components/c-variables/dimensionslist/reports-device-types.md) dimension in the Components user guide for more information.
+詳しくは、『コ [ンポーネント](/help/components/c-variables/dimensionslist/reports-device-types.md) 』ユーザーガイドの「モバイルデバイスタイプ」ディメンションを参照してください。
 
-## モバイル-デバイス
+## モバイル — デバイス
 
-The mobile devices report is approximately equal to the **Mobile Device** dimension.
+モバイルデバイスレポートは、モバイルデバイスディメンションとほぼ **等しくなりま** す。
 
-1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. コンポーネントメニューで、 **Mobile Device** （モバイルデバイス）ディメンションを見つけ、「Drop a dimension here（ディメンションをここにドロップ）」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
+2. 目的の指標を、自動的に作成された回数指標の横のワークスペースにド **ラッグ** します。 各指標の取 [得方法の詳細については](common-metrics.md) 、「指標の翻訳ガイド」を参照してください。
 
-See the [Mobile Device](../../../components/c-variables/dimensionslist/reports-devices.md) dimension in the Components user guide for more information.
+詳しくは、コン [ポーネント](/help/components/c-variables/dimensionslist/reports-devices.md) ・ユーザー・ガイドのモバイル・デバイスのディメンションを参照してください。
 
 ## カスタム
 
-カスタムレポートは、実装ごとに定義されます。これらのレポートを解釈するには、組織のAnalytics管理者または導入コンサルタントに相談してください。Typically an organization maintains a [Solution Design Document](../../../implement/prepare/solution-design.md) to keep track of custom variable values and how they are populated.
+カスタムレポートは、実装単位で定義されます。 これらのレポートを解釈するには、組織のAnalytics管理者または導入コンサルタントに相談してください。 通常、組織は [Solution Design Documentを管理して](/help/implement/prepare/solution-design.md) 、カスタム変数の値とその入力方法を追跡します。
 
 ## ベンチマーク
 
-ベンチマークレポートを使用すると、データのファセットを業界平均とどのように比較するかを確認できます。現時点では、アドビは顧客間でのデータのベンチマークを共有していません。
+ベンチマークレポートを使用すると、データのファセットを業界平均と比較できます。 現時点では、アドビのお客様間でベンチマークデータを共有していません。
 
-## ユーザーフロー
+## ユーザーのフロー
 
-フローレポートは両方のプラットフォームで利用できます。フローレポートを作成するには:
+フローレポートは、両方のプラットフォームで使用できます。 フローレポートを作成するには：
 
 1. 左側のビジュアライゼーションアイコンをクリックし、フロービジュアライゼーションをフリーフォームテーブルの上のワークスペースにドラッグします
-2. **ページ** ディメンションを見つけて、矢印アイコンをクリックしてページ値を表示します。ディメンション値は黄色で表示されます。
-3. 開始するページ値を探し、「ディメンションまたは項目」という名前のスペースにドラッグします
-4. このフローレポートはインタラクティブです。任意の値をクリックして、後続のページまたは前のページにフローを展開します。右クリックメニューを使用して、列を展開または折りたたみます。同じフローレポート内でも異なるディメンションを使用できます。
+2. ページディメ **ンションを見つけ** 、矢印アイコンをクリックしてページ値を表示します。 寸法値は黄色で表示されます。
+3. 開始するページ値を見つけ、中央の「ディメンションまたは項目」というラベルの付いたスペースにドラッグします
+4. このフローレポートはインタラクティブです。 いずれかの値をクリックして、後続のページまたは前のページへのフローを展開します。 右クリックメニューを使用して、列を展開または折りたたむことができます。 同じフローレポート内で異なるディメンションを使用することもできます。
