@@ -5,7 +5,7 @@ seo-title: パーティシペーション指標
 title: パーティシペーション指標
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. 計算指標ビルダーで新しい指標を作成します。
 1. 成功イベント「注文件数」を「定義」キャンバスにドラッグします。
-1. 設定ギアの [下のイベントのアトリビューシ](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) ョンモデル **[!UICONTROL を「パーティシペー]** ション **** 」に変更します。 「訪問のル **[!UICONTROL ックバック]** 」を選択します。 定義は次のようになるはずです。
+1. 設定ギアの [下のイベントのアトリビューシ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) ョンモデル **[!UICONTROL を「パーティシペー]** ション **** 」に変更します。 「訪問のル **[!UICONTROL ックバック]** 」を選択します。 定義は次のようになるはずです。
 
    ![](assets/participation.png)
 
