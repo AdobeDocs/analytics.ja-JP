@@ -8,7 +8,7 @@ title: 分類テンプレート
 topic: 管理ツール
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 |---|---|
 | レポートスイートの選択 | テンプレートで使用するレポートスイートを選択します。このレポートスイートとデータセットが一致する必要があります。 |
 | 分類するデータセット | データファイルのデータのタイプを選択します。このメニューには、分類用に設定されたレポートスイート内のすべてのレポートが含まれています。 |
-| 数値 2 をエクスポート | 数値 2 分類は、インポーターを使用してシステムにインポートできます。数値 2 分類は、[!UICONTROL マーケティングチャネル]レポートのコストおよび予算額の値など、各商品に対して時間の経過と共に変化する変数を使用する場合に役立ちます。詳しくは、[数値 2 分類](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B)を参照してください。 |
+| 数値 2 をエクスポート | 数値 2 分類は、インポーターを使用してシステムにインポートできます。数値 2 分類は、[!UICONTROL マーケティングチャネル]レポートのコストおよび予算額の値など、各商品に対して時間の経過と共に変化する変数を使用する場合に役立ちます。詳しくは、[数値 2 分類](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md)を参照してください。 |
 | エンコード | データファイルの文字エンコードを選択します。デフォルトのエンコード形式は UTF-8 です。 |
 | ダウンロード | テンプレートファイルをダウンロードします。 |
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE] テンプレート方法を使用する場合、分類データのダウンロード先は1つのレポートスイートに制限されます。
 
-データファイルの構造について詳しくは、分類データファイルに [ついてを参照してください](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)。
+データファイルの構造について詳しくは、分類データファイルに [ついてを参照してください](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
 ## 分類データテンプレートのダウンロード（オプション）{#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
@@ -44,7 +44,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 > [!NOTE] テンプレート方法を使用する場合、データのダウンロード先は1つのレポートスイートに制限されます。
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
+1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 1. Click **[!UICONTROL Download]**.
 1. テンプレートファイルをローカルシステムに保存します。
 
