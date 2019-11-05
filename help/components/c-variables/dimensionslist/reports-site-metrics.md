@@ -7,7 +7,7 @@ title: サイト指標
 topic: レポート
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 指標レポートは時間と共に変化する[トレンド](/help/components/c-variables/dimensionslist/reports-types.md)を示します。つまり、これらのレポートに時間や曜日の細かい分類を適用することができます。
 
-* [ページビュー数](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33)
-* [訪問件数レポート](../../../components/c-variables/dimensionslist/reports-visits.md#concept_50CA55CF2A41430CBC754AEEEE6023A9)
-* [訪問者数レポート](../../../components/c-variables/dimensionslist/reports-visitors.md#concept_7371DAB5DA474D03A2D1448F151E011B)
-* [訪問別滞在時間](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
-* [イベント前の時間](../../../components/c-variables/dimensionslist/reports-time-prior-to-event.md#concept_00820DACA2F24EE6A83B0FB211BE6907)
-* [買い物かご](../../../components/c-variables/dimensionslist/reports-shopping-cart.md#concept_6AEC5A6C707B46B790C1A79E72F9A339)
-* [カスタムイベント](../../../components/c-variables/dimensionslist/reports-custom-events.md#concept_9337B2FB8A3F417BA8689FE7FD64629F)
-* [ボット](../../../components/c-variables/dimensionslist/reports-bots.md#concept_15E1C8514EF54581A9467877F62426EC)
+* [ページビュー数](/help/components/c-variables/dimensionslist/reports-page-views.md)
+* [訪問件数レポート](/help/components/c-variables/dimensionslist/reports-visits.md)
+* [訪問者数レポート](/help/components/c-variables/dimensionslist/reports-visitors.md)
+* [訪問別滞在時間](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md)
+* [イベント前の時間](/help/components/c-variables/dimensionslist/reports-time-prior-to-event.md)
+* [買い物かご](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
+* [カスタムイベント](/help/components/c-variables/dimensionslist/reports-custom-events.md)
+* [ボット](/help/components/c-variables/dimensionslist/reports-bots.md)
