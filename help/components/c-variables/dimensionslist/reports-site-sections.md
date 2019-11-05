@@ -7,7 +7,7 @@ title: サイトセクション
 topic: レポート
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * **e コマースのすべての標準的な指標**：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、および買い物かごからの削除数
    * **すべてのカスタムイベント**：イベント 1 ～ 80（H22 コード以上では、さらにイベント 80 ～ 100）
 
-[!UICONTROL サイトセクションレポート]では、すべてのコンバージョンイベントで最後の配分が使用されます。コンバージョンは、実装内で成功イベントを含まないページ間で分割されて表示されます。これは、線形配分を使用する[ページレポート](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)とは異なります。
+[!UICONTROL サイトセクションレポート]では、すべてのコンバージョンイベントで最後の配分が使用されます。コンバージョンは、実装内で成功イベントを含まないページ間で分割されて表示されます。これは、線形配分を使用する[ページレポート](/help/components/c-variables/dimensionslist/reports-pages.md)とは異なります。
 
 **製品固有の情報**
 
