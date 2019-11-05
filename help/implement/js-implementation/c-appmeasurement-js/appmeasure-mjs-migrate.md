@@ -9,7 +9,7 @@ title: JavaScript 版 AppMeasurement への移行
 topic: 開発者と実装
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -18,13 +18,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 現在導入している環境を移行するために実行する必要のあるタスクの一覧について、表に示します。
 
-> [!NOTE]JavaScript 版 [ に移行する場合は、](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07)ID サービス[!DNL AppMeasurement] に移行することをお勧めします。
+>[!NOTE]
+>
+>JavaScript 版 [!DNL AppMeasurement] に移行する場合は、[ID サービス](/help/implement/js-implementation/c-unique-visitors/visid-service.md) に移行することをお勧めします。
 
 ![](assets/step1_icon.png) プラグインの互換性のチェック
 
 次の場合：s\_code.js
 
-一部のプラグインはサポートされなくなりました。「[AppMeasurement プラグインのサポート](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)」を参照してください。
+一部のプラグインはサポートされなくなりました。「[AppMeasurement プラグインのサポート](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md)」を参照してください。
 
 ![](assets/step2_icon.png) 新しい AppMeasurement のダウンロード
 
@@ -42,7 +44,7 @@ s\_code.js で `DO NOT ALTER ANYTHING BELOW THIS LINE` セクションの前に�
 
 次の場合：AppMeasurement.js
 
-getQueryParam プラグインを使用している場合は、このプラグインの呼び出し部分で、新しいユーティリティ [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5) を使用するように更新します。
+getQueryParam プラグインを使用している場合は、このプラグインの呼び出し部分で、新しいユーティリティ [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md) を使用するように更新します。
 
 ![](assets/step5_icon.png)（オプション）メディアモジュールおよび統合モジュールの更新
 
