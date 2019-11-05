@@ -7,7 +7,7 @@ title: 離脱リンク
 topic: レポート
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,6 +35,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
 * You can create [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
-* [インスタンス](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)は、このレポート内でデフォルトで使用できる唯一の指標です。離脱リンクがクリックされた回数をカウントします。
+* [インスタンス](/help/components/c-variables/c-metrics/metrics-instance.md)は、このレポート内でデフォルトで使用できる唯一の指標です。離脱リンクがクリックされた回数をカウントします。
 * このレポートで、日別、週別、月別、四半期別の訪問者を有効にすることができます。ただし、Adobe 担当者のみがこれらを有効にすることができ、追加の費用が必要です。すべてのカスタムリンクトラッキング変数に対して実訪問者を有効にすると、レポートスイートの待ち時間が大幅に増大します。
 
