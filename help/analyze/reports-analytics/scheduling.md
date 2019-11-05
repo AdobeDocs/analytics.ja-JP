@@ -8,7 +8,7 @@ title: レポートのスケジュールと配信
 topic: Reports & Analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -142,4 +142,4 @@ Adobe Analytics アプリケーションでレポートの配信予定日時を�
 
 レポートを登録解除しても、定期レポートはキャンセルされません。
 
-定期レポートをキャンセルするには、予定レポートマネージャーに移動し、レポート名の横にある赤の X をクリックします。[さらに詳しく...](../../analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
+定期レポートをキャンセルするには、予定レポートマネージャーに移動し、レポート名の横にある赤の X をクリックします。[さらに詳しく...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
