@@ -9,7 +9,7 @@ title: リダイレクトとエイリアス
 topic: 開発者と実装
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,8 +38,8 @@ redirects_sc.xml
 
 次の例は、リダイレクトを使用する場合と使用しない場合に、ブラウザーでの表示にどのような影響があるかを示しています。
 
-* [例：リダイレクトを使用しない場合のブラウザーでの表示](../../implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
-* [例：リダイレクトを使用する場合のブラウザーでの表示](../../implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
+* [例：リダイレクトを使用しない場合のブラウザーでの表示](/help/implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
+* [例：リダイレクトを使用する場合のブラウザーでの表示](/help/implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
 
 ## 例：リダイレクトを使用しない場合のブラウザーでの表示 {#section_5C835A4D665A4625A23333C2C21F152D}
 
@@ -58,7 +58,7 @@ redirects_sc.xml
 1. ブラウザーウィンドウのアドレスバーには、ユーザーが検索フィールドに入力した検索語句が表示されます（`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`）。検索語句は、`https://www.google.com/search?` の後に続く URL クエリ文字列パラメーターに含まれます。また、ブラウザーには、いずれかのドメイン名へのリンク（[!DNL https://www.flytohawaiiforfree.com/]/）が記載された検索結果を含むページが表示されます。この「*バニティ*」ドメインは、ユーザーを `https://www.flywithus.com/` にリダイレクトするように設定されます。
 1. ユーザーがリンク `https://www.flytohawaiiforfree.com/` をクリックすると、サーバーによってメインサイト `https://www.flywithus.com` にリダイレクトされます。このリダイレクトが発生すると、ブラウザーが参照 URL をクリアするので、[!DNL Analytics] のデータ収集にとって重要なデータが失われます。したがって、[!DNL Analytics] レポートで使用されるオリジナルの検索情報（[!UICONTROL 参照ドメイン]、[!UICONTROL 検索エンジン]、[!UICONTROL 検索キーワード]など）が失われます。
 
-[リダイレクトの導入](../../implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7)では、[!DNL Analytics] 変数を利用して、リダイレクトで失われたデータを取り込む方法について説明しています。特に、上記の「discount airline tickets」の問題の修正方法について説明している節を参照してください。
+[リダイレクトの導入](/help/implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7)では、[!DNL Analytics] 変数を利用して、リダイレクトで失われたデータを取り込む方法について説明しています。特に、上記の「discount airline tickets」の問題の修正方法について説明している節を参照してください。
 
 ## リダイレクトの実装 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
