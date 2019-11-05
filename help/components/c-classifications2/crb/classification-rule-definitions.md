@@ -8,7 +8,7 @@ title: 分類ルール - 定義
 topic: 管理ツール
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
  <tbody> 
   <tr> 
    <td colname="col1"> <p>レポートスイートと変数の選択 </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>ルールセットを適用するレポートスイート。 </p> <p><b>変数</b> </p> <p>分類ルールセットを作成するときは、変数を 1 つだけ適用できます。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。 </p> <p>注意：レポートスイートでは、アクセス権のある変数のみを使用できます。変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ<span class="wintitle">新しいルールセット</span>パネルに表示されます。 </p> <p>例えば、ページをルールセット <span class="term"> の変数として使用できるようにするには、レポートスイートにページ用のトラフィック分類が</span> 実装されている <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> ことを確認します</a><span class="term"></span>。 </p> <p> 変数の分類を作成するには、<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">トラフィック</span>／<span class="uicontrol">トラフィック分類</span>（または<span class="uicontrol">コンバージョン</span>／<span class="uicontrol">コンバージョンの分類</span>）を使用します。次に、変数を選択し、「<span class="uicontrol">分類の追加</span>」をクリックします。 </p> <p>管理ヘルプの<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html" format="https" scope="external">トラフィック分類</a>および<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html" format="https" scope="external">コンバージョンの分類</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>ルールセットを適用するレポートスイート。 </p> <p><b>変数</b> </p> <p>分類ルールセットを作成するときは、変数を 1 つだけ適用できます。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。 </p> <p>注意：レポートスイートでは、アクセス権のある変数のみを使用できます。変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ<span class="wintitle">新しいルールセット</span>パネルに表示されます。 </p> <p>例えば、ページをルールセット <span class="term"> の変数として使用できるようにするには、レポートスイートにページ用のトラフィック分類が</span> 実装されている <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  > ことを確認します</a><span class="term"></span>。 </p> <p> 変数の分類を作成するには、<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">トラフィック</span>／<span class="uicontrol">トラフィック分類</span>（または<span class="uicontrol">コンバージョン</span>／<span class="uicontrol">コンバージョンの分類</span>）を使用します。次に、変数を選択し、「<span class="uicontrol">分類の追加</span>」をクリックします。 </p> <p>管理ヘルプの<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >トラフィック分類</a>および<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  >コンバージョンの分類</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> アクティブ化</span> </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポートスイートと変数を設定 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">利用可能なレポートスイート</span>が表示されます。このページでは、利用可能なレポートスイートから、すべてのルールセットで使用する 1 つ以上のレポートスイートを選択できます（このページは、<span class="wintitle">分類ルールビルダー</span>を最初に実行したときにも表示されます）。 </p> <p>この機能は、非常に多くの利用可能なレポートスイートが存在する場合に、レポートスイートのロード時間を短縮するのに役立ちます。 </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>注意：レポートスイートは、管理ツール <span class="term"> で</span> 、変数に対して定義された分類がレポートスイートに1つ以上ある場合にのみ使用 <span class="wintitle"> 可能になります</span>。 <p>(この前提条件 <span class="term"> については</span><a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"></a> 、「分類ルールセットの変数」を参照してください。) </p> </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">利用可能なレポートスイート</span>が表示されます。このページでは、利用可能なレポートスイートから、すべてのルールセットで使用する 1 つ以上のレポートスイートを選択できます（このページは、<span class="wintitle">分類ルールビルダー</span>を最初に実行したときにも表示されます）。 </p> <p>この機能は、非常に多くの利用可能なレポートスイートが存在する場合に、レポートスイートのロード時間を短縮するのに役立ちます。 </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>注意：レポートスイートは、管理ツール <span class="term"> で</span> 、変数に対して定義された分類がレポートスイートに1つ以上ある場合にのみ使用 <span class="wintitle"> 可能になります</span>。 <p>(この前提条件 <span class="term"> については</span><a href="/help/components/c-classifications2/crb/classification-rule-set.md"  ></a> 、「分類ルールセットの変数」を参照してください。) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ルールによって既存の値は上書きされます </p> </td> 
@@ -59,10 +59,10 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>ルックバックウィンドウ </p> </td> 
-   <td colname="col2"> <p>ルールをアクティブ化および検証する場合、そのルールの影響を受けるキーの既存の分類を上書きするかどうかを指定できます（指定した期間内に <span class="keyword">Adobe Analytics</span> に渡された分類されたキーのみが影響を受けます）。 </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) このオプションを有効にしなければ、既存の分類が上書きされることはありません。 </p> <p><b>開発センター</b>：パートナーは、<span class="wintitle">開発センター</span>で分類ルールを作成できます。これらのルールは、顧客が統合をアクティブ化すると表示されます。<span class="wintitle">開発センター</span>で「<span class="uicontrol">以降を上書き</span>」オプションを使用すると、パートナーは、顧客が統合をアクティブ化または編集するときに上書き値を決定できるかどうかを指定できます。 </p> <p>See <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_A67A23F523844D37898583C632DB9D25" format="dita" scope="local"> How Rules Are Processed</a> for more information about rule processing. </p> </td> 
+   <td colname="col2"> <p>ルールをアクティブ化および検証する場合、そのルールの影響を受けるキーの既存の分類を上書きするかどうかを指定できます（指定した期間内に <span class="keyword">Adobe Analytics</span> に渡された分類されたキーのみが影響を受けます）。 </p> <p>If you to not specify a <span class="term"> lookback window</span>, the rules look back roughly one month (depending on current day of the month.) このオプションを有効にしなければ、既存の分類が上書きされることはありません。 </p> <p><b>開発センター</b>：パートナーは、<span class="wintitle">開発センター</span>で分類ルールを作成できます。これらのルールは、顧客が統合をアクティブ化すると表示されます。<span class="wintitle">開発センター</span>で「<span class="uicontrol">以降を上書き</span>」オプションを使用すると、パートナーは、顧客が統合をアクティブ化または編集するときに上書き値を決定できるかどうかを指定できます。 </p> <p>See <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > How Rules Are Processed</a> for more information about rule processing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> ルールを追加 </a> </td> 
+   <td colname="col1"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > ルールを追加 </a> </td> 
    <td colname="col2"> <p>ルールをルールセットに追加します。 </p> <p>注意：1 つの値がルールセット内で複数回一致する場合は、最後のルールを使用して値が分類されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
    <td colname="col2"> ルールセットを別の変数や異なるレポートスイートの同じ変数に適用できるように、ルールセットを複製（コピー）します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_618A1E7CC8664E728F312250E8367158" format="dita" scope="local"> テスト用ルールセット </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > テスト用ルールセット </a> </p> </td> 
    <td colname="col2"> <p>ルールセットの正当性をテストします。 </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>ルール番号。 </p> <p>詳しくは、<a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_A67A23F523844D37898583C632DB9D25" format="dita" scope="local">ルールの処理方法</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ルール番号。 </p> <p>詳しくは、<a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  >ルールの処理方法</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ルールタイプを選択</span> </td> 
@@ -96,7 +96,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
      <li id="li_5C702D4F460841D38A59621A5161A3BC">次で始まる </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">次で終わる </li> 
      <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">次を含む </li> 
-     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D" format="dita" scope="local"> 正規表現 </a> </li> 
+     <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > 正規表現 </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 | 一致グループ | キャンペーン ID 内の位置を分類できるように、正規表現がどのようにキャンペーン ID 文字に一致するかを示します。 |
 | 一致結果 | 正規表現に一致する文字列の部分を表示します。 |
 
-詳しくは、[分類ルールの正規表現](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)を参照してください。
+詳しくは、[分類ルールの正規表現](/help/components/c-classifications2/crb/classification-quickstart-rules.md)を参照してください。
 
 ## テストページ {#section_EC926F97901C4E65901413F9683AA70A}
 
