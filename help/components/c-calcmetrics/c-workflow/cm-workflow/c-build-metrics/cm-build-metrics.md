@@ -5,7 +5,7 @@ seo-title: 指標の作成
 title: 指標の作成
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * In Analysis Workspace, open a project and click  **[!UICONTROL + New]** &gt; **[!UICONTROL Create Metric]** .
 * In [!DNL Analytics], go to **[!UICONTROL Components]** &gt; **[!UICONTROL Calculated Metrics]**.
 
-* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), or
+* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or
 
 * **[!UICONTROL Analytics]** / **[!UICONTROL Reports]**（レポート）に移動し、任意のレポートを開き、指標アイコンをクリックして指標 ![](assets/metrics_icon.png) レールを表示し、「追加」をクリック **[!UICONTROL します]**。
 
@@ -87,7 +87,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 製品の互換性 </span> </td> 
-   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> さらに詳しく... </a> </p> </p> </td> 
+   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > さらに詳しく... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 追加 </span> </td> 
@@ -100,11 +100,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col2"> 歯車アイコン（<span class="uicontrol">指標タイプ</span>、<span class="uicontrol">アトリビューション</span>） </td> 
-   <td colname="col3"> <p>Selecting the gear icon next to a metric lets you specify the <a href="../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E" format="dita" scope="local"> metric type and attribution models </a>. </p> </td> 
+   <td colname="col3"> <p>Selecting the gear icon next to a metric lets you specify the <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metric type and attribution models </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + 新規 </span> </td> 
-   <td colname="col3"> <p>新しいセグメントなど新しいコンポーネントを作成できます（新しいセグメントを作成する場合は、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="https" scope="external">セグメントビルダー</a>が表示されます）。 </p> </td> 
+   <td colname="col3"> <p>新しいセグメントなど新しいコンポーネントを作成できます（新しいセグメントを作成する場合は、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >セグメントビルダー</a>が表示されます）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>コンポーネントを検索 </p> </td> 
@@ -130,11 +130,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col2"> <p>セグメントリスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external"> さらに詳しく... </a> </p> </td> 
+   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  > さらに詳しく... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>関数リスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）関数が 2 つのリストに分けて表示されます。 <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> Basic </a> (used most often) and <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Advanced </a>. </p> </td> 
+   <td colname="col3"> <p>（高度な計算指標のみ）関数が 2 つのリストに分けて表示されます。 <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basic </a> (used most often) and <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Advanced </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>レポートスイートの選択 </p> </td> 
