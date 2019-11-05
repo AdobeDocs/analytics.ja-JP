@@ -7,7 +7,7 @@ title: 訪問者プロファイル
 topic: レポート
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -43,6 +43,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </tbody> 
 </table>
 
-[地理特性](../../../components/c-variables/dimensionslist/reports-geosegmentation.md#concept_1B9CB209CFD94398B09C913D11648802)
+[地理特性](/help/components/c-variables/dimensionslist/reports-geosegmentation.md)
 
-[技術](../../../components/c-variables/dimensionslist/reports-technology.md#concept_BD66B540E4AE49D999289B48445A9AFE)
+[技術](/help/components/c-variables/dimensionslist/reports-technology.md)
