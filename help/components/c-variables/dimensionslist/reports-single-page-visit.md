@@ -7,7 +7,7 @@ title: 直帰数
 topic: レポート
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,8 +24,8 @@ Ad Hoc Analysis の直帰数指標とは異なります。直帰数レポート�
 
 * 直帰数は、単一のイメージリクエストではなく 1 つのユニーク値を含む訪問とみなされます。
 
-   * のコンテキスト内[ページレポート](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)のコンテキストでは、1 つだけの個別ページが訪問内で呼び出されます。
-   * サイトセクションレポートのコ [ンテキストでは](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD)、訪問内で単一の個別サイトセクションが呼び出されます。
+   * のコンテキスト内[ページレポート](/help/components/c-variables/dimensionslist/reports-pages.md)のコンテキストでは、1 つだけの個別ページが訪問内で呼び出されます。
+   * サイトセクションレポートのコ [ンテキストでは](/help/components/c-variables/dimensionslist/reports-site-sections.md)、訪問内で単一の個別サイトセクションが呼び出されます。
    * トラフィック変数のコンテキ [ストでは](/help/admin/admin/c-traffic-variables/traffic-var.md)、1つの一意の値が呼び出された場合に訪問によってこのレポートが設定されます。
 
 * レポートのコンテキストにある変数には単一のユニーク値が含まれている限り、多数のイメージリクエストで直帰数が構成されることも可能です。2 番目のユニーク値が入力されると、その訪問は直帰数とはみなされなくなります。
