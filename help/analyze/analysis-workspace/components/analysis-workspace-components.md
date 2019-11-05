@@ -5,7 +5,7 @@ seo-title: コンポーネントの概要
 title: コンポーネントの概要
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analysis Workspace のコンポーネントは、指標、ディメンション、セグメントおよび時間の精度で構成されており、これらはプロジェクトにドラッグ＆ドロップできます。カスタム日付範囲などの、作成したカスタムコンポーネントがこれらのパネルに追加されます。
 
-コンポーネントパネルにアクセスするには、左側のレールで&#x200B;**[!UICONTROL コンポーネント]アイコンをクリックします。**&#x200B;左側のパネルのアイコンを使用するか、ホットキーを使用して、 [(空白パネル、フリーフォームパネル](../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F)、またはセグメント比較パネル [)](../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) 、ビジュアライゼーション [、コンポーネントを切り替えるこ](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)[](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)とができます。
+コンポーネントパネルにアクセスするには、左側のレールで&#x200B;**[!UICONTROL コンポーネント]アイコンをクリックします。**&#x200B;左側のパネルのアイコンを使用するか、ホットキーを使用して、 [(空白パネル、フリーフォームパネル](/help/analyze/analysis-workspace/visualizations/freeform-table.md)、またはセグメント比較パネル [)](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) 、ビジュアライゼーション [、コンポーネントを切り替えるこ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)[](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)とができます。
 
 ![](assets/components.png)
 
-See [Create a freeform analysis project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for information about using Components in a project.
+See [Create a freeform analysis project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for information about using Components in a project.
 
 ## コンポーネントのアクション {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
