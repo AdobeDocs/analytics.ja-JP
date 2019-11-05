@@ -7,7 +7,7 @@ title: 表示ヘッダーのフォーマット
 topic: Report Builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    | レポート名 | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | フィルターパラメーター | 検索フィルターなどのディメンションフィルターを表示します。 |
    | Segment | セグメントパラメーターを表示します。 |
-   | データ最新性 | 直近いつまでのデータが含まれているかを表示します。例：   データ最新性：ページビュー数（1.5時間前）、出口数（30分前）現在のデータ処理について詳しくは、 [オプション](../../../analyze/report-builder/options.md) (Options)を参照してください。 |
+   | データ最新性 | 直近いつまでのデータが含まれているかを表示します。例：   データ最新性：ページビュー数（1.5時間前）、出口数（30分前）現在のデータ処理について詳しくは、 [オプション](/help/analyze/report-builder/options.md) (Options)を参照してください。 |
 
    表示順については、ステップ 2 の[!UICONTROL 行ラベル]グリッドに項目が含まれる場合は、リクエストの最初の項目が表示されます。項目がない場合は、[!UICONTROL 列ラベル]グリッドの最初の項目が使用されます。行にも列にも項目がない場合は、[!UICONTROL 指標]グリッドにある最初の項目が表示されます。
 
@@ -43,6 +43,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    **自動アウトラインを実行：** Report Builder から返される日付をリストビューからツリービューに変換します。
 
-   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。この名前は、[!UICONTROL リクエストマネージャー]で[!UICONTROL レポート]名として表示されます。詳しくは、 [リクエストの名前の設定](../../../analyze/report-builder/layout/name-a-request.md#concept_37277AFB63EA4541B6FD93A5B713D82D).
+   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。この名前は、[!UICONTROL リクエストマネージャー]で[!UICONTROL レポート]名として表示されます。詳しくは、 [リクエストの名前の設定](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. 「**[!UICONTROL OK]**」をクリックします。
