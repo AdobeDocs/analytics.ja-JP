@@ -5,7 +5,7 @@ seo-title: 貢献度分析の実行
 title: 貢献度分析の実行
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    ![](assets/contribution-analysis.png)
 
-1. （オプション）折れ線グラフまたはテーブルで&#x200B;**[!UICONTROL 貢献度分析を実行]**&#x200B;をクリックしたら、[ディメンションを除外](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC)することで、分析の範囲を狭める（その結果、スピードアップする）ことができます。
+1. （オプション）折れ線グラフまたはテーブルで&#x200B;**[!UICONTROL 貢献度分析を実行]**&#x200B;をクリックしたら、[ディメンションを除外](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC)することで、分析の範囲を狭める（その結果、スピードアップする）ことができます。
 
 1. 貢献度分析が読み込まれるまでしばらく待ちます。レポートスイートのサイズおよびディメンションの数によって、これには、かなりの時間がかかる可能性があります。貢献度分析は、ディメンションあたり上位 50,000 項目の分析を実行します。
 1. 次に、このプロジェクト内に直接新しい貢献度分析パネルが読み込まれます。以前 Reports &amp; Analytics の貢献度分析を使用したことがあるユーザーは、多くのパネルを既に目にしたことがあるでしょう。
@@ -45,11 +45,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. 貢献度分析は、Analysis Workspace の一部なので、テーブルの右クリックメニューから数多くの機能を活用して、分析を一層意味のあるものにすることができます。例えば、次のような機能があります。
 
-   * [各ディメンション項目を別のディメンションで分類する](../../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4)
-   * [1 つまたは複数の行のトレンドを示す](../../../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
-   * [新しいビジュアライゼーションを追加する](../../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)
+   * [各ディメンション項目を別のディメンションで分類する](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
+   * [1 つまたは複数の行のトレンドを示す](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [新しいビジュアライゼーションを追加する](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [アラートを作成する](/help/components/c-alerts/intellligent-alerts.md)
-   * [セグメントを作成したり比較したりする](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
+   * [セグメントを作成したり比較したりする](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 > [!NOTE] 貢献度分析内で、分析中の異常値を青い点で強調表示し、その異常値にリンクされたインテリジェントアラートプロジェクトを示します。 これにより、分析された異常値がより明確に示されます。
 
