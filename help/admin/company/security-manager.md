@@ -7,7 +7,7 @@ title: セキュリティマネージャー
 topic: 管理ツール
 uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
 translation-type: tm+mt
-source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
      </code>)。 You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
        192.168.[10-14].*
-     </code>) </p> <p>失敗したログインについては<a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">使用状況およびアクセスログ</a>にログが記録され、閲覧できます。 </p> </td> 
+     </code>) </p> <p>失敗したログインについては<a href="/help/admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232">使用状況およびアクセスログ</a>にログが記録され、閲覧できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 電子メールドメイン制限の強制</span> </td> 
