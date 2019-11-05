@@ -7,7 +7,7 @@ title: サンプル実装コード
 topic: Activity Map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -63,12 +63,12 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
  //The following module enables ActivityMap tracking in Adobe Analytics. ActivityMap 
   allows you to view data overlays on your links and content to understand how 
   users engage with your web site. If you do not intend to use ActivityMap, you 
-  can remove the following block of code from your AppMeasurement.js file. 
+  can remove the following block of code from your AppMeasurement.js file.
   Additional documentation on how to configure Activity Map is available at: 
   https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html 
  */ 
  function AppMeasurement_Module_Activity Map(g){func 
- ... 
+ ...
  /* END Activity Map MODULE */ 
  </b> 
 /* 
