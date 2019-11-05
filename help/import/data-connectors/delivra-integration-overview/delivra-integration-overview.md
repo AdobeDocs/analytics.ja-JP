@@ -5,7 +5,7 @@ seo-title: Adobe Analytics用Deliva Data Connector
 title: Adobe Analytics用Deliva Data Connector
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
