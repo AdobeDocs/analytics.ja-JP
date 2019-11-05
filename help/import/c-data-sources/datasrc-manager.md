@@ -8,7 +8,7 @@ title: データソースマネージャー
 topic: 開発者と実装
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [!UICONTROL 「作成」]タブでは、現在選択されているレポートスイートに対して新しいデータソースを設定できます。データソースをアクティブにすると、[!UICONTROL データソースウィザード]によってデータソーステンプレートを作成する処理が進められ、データをアップロードするための FTP の場所が作成されます。
 
-「作成」タブでの選択内容により、作成されるテンプレートの初期設定のフィールドが決まります。詳しくは、 [インポートファイルテンプレートの作成](../../import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md#task_A2F150D9DC1A4D338E878534FA506267).
+「作成」タブでの選択内容により、作成されるテンプレートの初期設定のフィールドが決まります。詳しくは、 [インポートファイルテンプレートの作成](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
 ## 「管理」タブ{#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -41,7 +41,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理の完了 </p> </td> 
-   <td colname="col2"> <p>データソースファイル内で開いている訪問をすべて閉じるよう指示し、データソースファイルの処理が完了したかのように処理を終了します。複数のデータソースファイルにまたがる訪問がある場合に便利です。これは <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> フル処理</a>. </p> </td> 
+   <td colname="col2"> <p>データソースファイル内で開いている訪問をすべて閉じるよう指示し、データソースファイルの処理が完了したかのように処理を終了します。複数のデータソースファイルにまたがる訪問がある場合に便利です。これは <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > フル処理</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>非アクティブ化 </p> </td> 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>エラー時に処理を中断する／警告時に処理を中断する </p> </td> 
-   <td colname="col2"> <p> エラーの発生時に処理を停止するよう、データソース処理エンジンに指示します。「処理の再開」を選択するまで、データソースの処理は再開しません。警告時に処理を中断するオプションは、 <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> フル処理</a>. </p> <p>ファイルエラーが検出されると、データソースによってエラーが通知されます。エラーのあるデータソースファイルは、FTP サーバー上の <span class="filepath">files_with_errors</span> というフォルダーに移動されます。問題を解決した後、処理を実行するためにデータソースファイルを再送信してください。 </p> </td> 
+   <td colname="col2"> <p> エラーの発生時に処理を停止するよう、データソース処理エンジンに指示します。「処理の再開」を選択するまで、データソースの処理は再開しません。警告時に処理を中断するオプションは、 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > フル処理</a>. </p> <p>ファイルエラーが検出されると、データソースによってエラーが通知されます。エラーのあるデータソースファイルは、FTP サーバー上の <span class="filepath">files_with_errors</span> というフォルダーに移動されます。問題を解決した後、処理を実行するためにデータソースファイルを再送信してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>設定 </p> </td> 
