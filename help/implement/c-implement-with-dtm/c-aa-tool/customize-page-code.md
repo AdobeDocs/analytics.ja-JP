@@ -6,8 +6,8 @@ seo-title: ページコードのカスタマイズ
 solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: ページコードのカスタマイズ
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Analytics のデプロイ時にページコードをカスタマイズするには、Dynamic Tag Management のフィールドの説明を使用します。
 
-Analytics ツールと同時に確実にコードを実行させるには、プラグインを追加します。Analytics のプラグインについて詳しくは、[実装プラグイン](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F)を参照してください。
+Analytics ツールと同時に確実にコードを実行させるには、プラグインを追加します。Analytics のプラグインについて詳しくは、[実装プラグイン](/help/implement/js-implementation/plugins/impl-plugins.md)を参照してください。
 
 **[!UICONTROL *`Property`*]**／**[!UICONTROL   ![](assets/settings_gear.png)
 
@@ -32,7 +32,7 @@ Analytics ツールと同時に確実にコードを実行させるには、プ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>エディターを開く </p> </td> 
-   <td colname="col2"> <p><code>s_code</code> に含まれる、最後の <code>s.t()</code> 呼び出しの前にトリガーされる必要のある任意の JavaScript 呼び出しを挿入できます。 </p> </td> 
+   <td colname="col2"> <p>You can insert any JavaScript call that must be triggered before the final <code> s.t()</code> call, which is contained in the <code> s_code</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>実行 </p> </td> 
