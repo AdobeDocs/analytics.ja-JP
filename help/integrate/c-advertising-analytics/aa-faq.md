@@ -5,7 +5,7 @@ seo-title: よくある質問
 title: よくある質問
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics の使用権限を得られるのはどの<b>Adobe Analytics SKU</b> ですか？ </p> </td> 
-   <td colname="col2"> <p>回答：Advertising Analytics は、Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external">Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external">Prime</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external">Ultimate</a> SKU で利用できます。 </p> </td> 
+   <td colname="col2"> <p>回答：Advertising Analytics は、Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> SKU で利用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics を使用するには、<b>追加料金</b>が必要ですか？ </p> </td> 
@@ -91,7 +91,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：<b>Advertising Analytics アカウントを特定のレポートスイートにマッピングしようとしていますが</b>、レポートスイートモーダルで利用できません。なぜですか？ </p> </td> 
-   <td colname="col2"> <p>回答：レポートスイートを Advertising Analytics アカウントに割り当てるには、目的のレポートスイートを<a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local"> Advertising Analytics レポート用にプロビジョニングする</a>必要があります。 </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>回答：レポートスイートを Advertising Analytics アカウントに割り当てるには、目的のレポートスイートを<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Advertising Analytics レポート用にプロビジョニングする</a>必要があります。 </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics アカウントに<b>仮想レポートスイート</b>（VRS）を割り当てることはできますか？ </p> </td> 
