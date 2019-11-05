@@ -7,7 +7,7 @@ solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
 title: Adobe Analytics ツールに関する FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Analytics 導入の自動設定に関する FAQ です。自動設定の�
  </tbody> 
 </table>
 
-「[Adobe Analytics ツールの追加](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8)」を参照してください。
+「[Adobe Analytics ツールの追加](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md)」を参照してください。
 
 ## 潜在的な問題 {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
