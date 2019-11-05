@@ -8,7 +8,7 @@ title: コンバージョンの分類
 topic: 管理ツール
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 コンバージョン分類では、コンバージョン変数を分類できます。分類後は、主要データを使用して生成できるすべてのレポートは、関連付けられたデータプロパティを使用して生成することもできるようになります。
 
-分類を有効にした後、[分類インポーター](../../components/c-classifications2/c-classifications-importer/c-working-with-saint.md#concept_08ED8C7A86C64E7DA5DE3044BB94B2EA)を使用して、該当する分類に特定の値を割り当てます。
+分類を有効にした後、[分類インポーター](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md)を使用して、該当する分類に特定の値を割り当てます。
 
 ## コンバージョン分類の説明 {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
@@ -74,10 +74,10 @@ t_classification_conversion.xml
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
 1. **「タイプの選択」フィールドで、変数に追加する分類のタイプを選択します。**
 
-   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
 1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
 
-   これらのエレメントについて詳しくは、[コンバージョン分類の説明](../../components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4)を参照してください。
+   これらのエレメントについて詳しくは、[コンバージョン分類の説明](/help/components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4)を参照してください。
 
 1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
 
