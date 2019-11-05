@@ -8,16 +8,12 @@ title: マーケティングチャネルレポートで使用される指標
 topic: Reports & Analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # マーケティングチャネルレポートで使用される指標
-
-マーケティングチャネルレポートでの指標の使用方法を説明します。
-
-## マーケティングチャネルレポートで使用される指標 {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 マーケティングチャネルレポートでの指標の使用方法を説明します。
 
@@ -29,11 +25,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
  レポートに列を追加します。
 
-## ファーストタッチ指標とラストタッチ指標 {#concept_68D9A50204304BA58C1F8013451E7853}
+## ファーストタッチ指標とラストタッチ指標 {#first-and-last-touch}
 
 ファーストタッチとラストタッチは、チャネル内の訪問者のアクティビティから生じた新規のエンゲージメント（または、製品表示、売上高、注文件数などの指標データ）の数を確認できるチャネル属性です。
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). 訪問者が最初に使用したチャネルと、最新（最後）のチャネルが認識されます。その後、該当する各チャネルに成功イベントのクレジットが与えられます。
+When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). 訪問者が最初に使用したチャネルと、最新（最後）のチャネルが認識されます。その後、該当する各チャネルに成功イベントのクレジットが与えられます。
 
 <!-- 
 
@@ -65,7 +61,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 > [!NOTE] このレポートでは、各指標のファーストタッチバージョンまたはラストタッチバージョンを使用します。 したがって、[!UICONTROL マーケティングチャネル]レポートに表示されるデータと他のレポートに表示されるデータとは一致しないことがあります。
 
-## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
+## Metric definitions {#metric-defs}
 
 | 指標 | 定義 |
 |--- |--- |
@@ -73,7 +69,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 | ファーストタッチの訪問者 | チャネルレポート機能におけるファーストタッチの訪問者は、チャネルから派生する日別訪問者です。訪問者のエンゲージメントはサイトに対するエンゲージメント期間中に保存されるので、多数の訪問が続く可能性があります。 |
 | ラストタッチチャネル | コンバージョンチャネル、つまり訪問者の関心を向けさせ、コンバージョンに結びつく最後のマーケティングチャネルです。ファーストタッチチャネルとして設定されるのは、1 つのチャネルのみです。ラストタッチチャネルは、サイトへの再来訪ごとに変化する場合があります。すべての訪問にはファーストタッチチャネルとラストタッチチャネルがありますが、ファーストタッチチャネルの値が以降の値によって変わることはありません。 |
 
-## クリックスルー {#reference_55E2254F02EF4E7EB0AD2838C948347A}
+## クリックスルー {#click-through}
 
 クリックスルーは、ラストタッチチャネル上のインスタンスです。これは配分が最新（最後）に設定された eVar です。
 
@@ -89,7 +85,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 この場合、ファーストタッチチャネルレポートには、有料検索の新規エンゲージメントとして 1 が表示されます。その他の各チャネルの新規エンゲージメントとしては 0 が表示されます。ラストタッチチャネルレポートには、有料検索のクリックスルーとして 2、表示として 3、自然検索として 2 が表示されます。
 
-## マーケティングチャネルレポートへの指標の追加 {#task_D381139E00504666AB2402D553CFEA5B}
+## マーケティングチャネルレポートへの指標の追加 {#add-metrics-to-mktg-channel-rpt}
 
 マーケティングチャネルレポートに指標を追加します。レポートの各列に対して指標を 4 つまで追加することができます。列はいくつでも追加できます。
 
