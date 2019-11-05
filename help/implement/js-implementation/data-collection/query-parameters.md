@@ -8,7 +8,7 @@ title: データ収集クエリパラメーター
 topic: 開発者と実装
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 以下の表に、データ収集に送られる各 Analytics 変数の値が含まれるクエリパラメーターを示します。
 
-ここに示す情報は、[パケットアナライザー](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)を使用してデバッグするとき、手動でイメージリクエストを作成するとき、さらに.[動的変数](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)を使用するときに役に立ちます。
+ここに示す情報は、[パケットアナライザー](/help/implement/impl-testing/packet-monitor.md)を使用してデバッグするとき、手動でイメージリクエストを作成するとき、さらに.[動的変数](/help/implement/js-implementation/c-variables/dynvars-overview.md)を使用するときに役に立ちます。
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
