@@ -7,7 +7,7 @@ title: 次ページのフロー
 topic: レポート
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> 訪問者が特定のページの後に閲覧した最頻訪問ページを 2 つのレベルで表示するには、「<span class="uicontrol">グラフィック</span>」をクリックします。また、このレポートは、訪問者がサイトから離れた日時をハイライトします。 </p> <p>リスト内の次のページを表示するには、「<b>表</b>」をクリックします。<a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local">次のページ レポート</a>と同じように使用できます。なお、それぞれの<i>次のページ</i>をドリルダウンして、2 つのページフローごとに次のページを表示することもできます。 </p> <p>Reports &amp; Analytics ではパス表示が使用されます。 </p> </td> 
+   <td colname="col2"> <p> 訪問者が特定のページの後に閲覧した最頻訪問ページを 2 つのレベルで表示するには、「<span class="uicontrol">グラフィック</span>」をクリックします。また、このレポートは、訪問者がサイトから離れた日時をハイライトします。 </p> <p>リスト内の次のページを表示するには、「<b>表</b>」をクリックします。<a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  >次のページ レポート</a>と同じように使用できます。なお、それぞれの<i>次のページ</i>をドリルダウンして、2 つのページフローごとに次のページを表示することもできます。 </p> <p>Reports &amp; Analytics ではパス表示が使用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
