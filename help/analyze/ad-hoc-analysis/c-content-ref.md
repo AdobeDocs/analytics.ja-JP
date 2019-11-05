@@ -7,7 +7,7 @@ title: セグメントの構築
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,17 +22,17 @@ Ad Hoc Analysis には、従来のようなセグメント作成機能のほか�
 
 統合セグメント化環境でのセグメントの作成および管理に関する詳細については、[統合セグメント化](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html)に関するドキュメントを参照してください。
 
-* [新機能](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
+* [新機能](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [セグメントの定義の変更](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [既存のセグメントはどうなりますか？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
-* [既存のセグメントフォルダーはどうなりますか？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
-* [セグメントマネージャーでは Analytics のセグメントをすべて管理できるのですか？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [ヒットコンテナとは何ですか？ページビューコンテナとは違うものですか？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
-* [セグメントの使用、作成および管理に必要な権限と許可](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [次の項目を含む重複したセグメントの処理方法](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [Adobe が推奨するセグメントのクリーンアップ方法](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
-* [このセグメントを削除できないのはなぜですか？](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
-* [その他、既存のセグメントに発生する事項](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [既存のセグメントはどうなりますか？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [既存のセグメントフォルダーはどうなりますか？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
+* [セグメントマネージャーでは Analytics のセグメントをすべて管理できるのですか？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
+* [ヒットコンテナとは何ですか？ページビューコンテナとは違うものですか？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [セグメントの使用、作成および管理に必要な権限と許可](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
+* [次の項目を含む重複したセグメントの処理方法](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [Adobe が推奨するセグメントのクリーンアップ方法](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [このセグメントを削除できないのはなぜですか？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
+* [その他、既存のセグメントに発生する事項](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## 機能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -117,7 +117,7 @@ Ad Hoc Analysis のセグメントマネージャーでは、自身の所有と�
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">有料検索からの訪問 </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">訪問者 ID cookie の訪問 </li> 
     </ul> </td> 
-   <td colname="col2"> <p>ここに挙げたセグメントはいずれも、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">セグメントテンプレート</a>としてセグメントビルダーに移行します。 </p> <p>既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。 </p> </td> 
+   <td colname="col2"> <p>ここに挙げたセグメントはいずれも、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >セグメントテンプレート</a>としてセグメントビルダーに移行します。 </p> <p>既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud（スイート）セグメント 
@@ -130,7 +130,7 @@ Ad Hoc Analysis のセグメントマネージャーでは、自身の所有と�
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">以前に 5 回以上の訪問履歴がある訪問* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Facebook からの訪問件数* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> ここに挙げた（アスタリスク * が付いたものを除く）セグメントのほとんどは、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">セグメントテンプレート</a>としてセグメントビルダーに移行します。このほかに、新しいセグメントテンプレートがいくつか追加されています。 </p> <p>既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。 </p> </td> 
+   <td colname="col2"> <p> ここに挙げた（アスタリスク * が付いたものを除く）セグメントのほとんどは、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >セグメントテンプレート</a>としてセグメントビルダーに移行します。このほかに、新しいセグメントテンプレートがいくつか追加されています。 </p> <p>既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">管理セグメント <p>（別名「グローバル」セグメント） </p> </td> 
