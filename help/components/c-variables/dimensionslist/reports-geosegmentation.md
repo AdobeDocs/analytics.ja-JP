@@ -7,7 +7,7 @@ title: 地理特性
 topic: レポート
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d8744d23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,7 +32,7 @@ Reports &amp; Analytics で利用できる指標は、コンバージョン指�
   </tr> 
   <tr> 
    <td colname="col1"> 地域 </td> 
-   <td colname="col2"> <p> 国より小さく、市区町村より大きな地域です。国によって、地域は州、郡、または都道府県となります。その他の地域では、国、行政区画、または大都市圏となります。表示されている各地域の右側の括弧内には、その地域の国名も表示されます。 </p> <p>表の詳細から「市区町村レポートをこの地域に対して実行する」（拡大鏡アイコン）をクリックしてレポートを実行し、選択した地域の市区町村と他の地域の市区町村とのパフォーマンスを比較できます。 </p> <p>詳しくは、<a href="../../../components/c-variables/dimensionslist/reports-geosegmentation-reference.md#concept_F7D998B418544B39ACD8838B48B732F1" format="dita" scope="local">国別の地理特性の地域と郵便番号の使用</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 国より小さく、市区町村より大きな地域です。国によって、地域は州、郡、または都道府県となります。その他の地域では、国、行政区画、または大都市圏となります。表示されている各地域の右側の括弧内には、その地域の国名も表示されます。 </p> <p>表の詳細から「市区町村レポートをこの地域に対して実行する」（拡大鏡アイコン）をクリックしてレポートを実行し、選択した地域の市区町村と他の地域の市区町村とのパフォーマンスを比較できます。 </p> <p>詳しくは、<a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  >国別の地理特性の地域と郵便番号の使用</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 市区町村 </td> 
