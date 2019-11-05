@@ -7,7 +7,7 @@ solution: Analytics
 title: フィード宛先
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -95,7 +95,7 @@ Azure BLOB にファイルをアップロードできます。
   </tr> 
   <tr> 
    <td colname="col1"> <p>グループ </p> </td> 
-   <td colname="col2"> <p>Amazon S3 バケットの場所を入力します。 </p> <p>この値は、適切な S3 バケット形式に合致する必要があります。(See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html" format="html" scope="external"> https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>注意：Amazon S3 の設定について詳しくは、後述の <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Amazon S3 データフィードの BucketOwnerFullControl 設定</a>を参照してください。 </p> </p> </td> 
+   <td colname="col2"> <p>Amazon S3 バケットの場所を入力します。 </p> <p>この値は、適切な S3 バケット形式に合致する必要があります。(See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>注意：Amazon S3 の設定について詳しくは、後述の <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Amazon S3 データフィードの BucketOwnerFullControl 設定</a>を参照してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンテナ </p> </td> 
@@ -111,7 +111,7 @@ Azure BLOB にファイルをアップロードできます。
   </tr> 
   <tr> 
    <td colname="col1"> <p>パス </p> </td> 
-   <td colname="col2"> <p>ホストまたはバケットへのパスを選択します。このパスは、フィード作成前に存在している必要があります。 </p> <p> <p>注意：Amazon S3 の設定について詳しくは、後述の <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Amazon S3 データフィードの BucketOwnerFullControl 設定</a>を参照してください。 </p> </p> </td> 
+   <td colname="col2"> <p>ホストまたはバケットへのパスを選択します。このパスは、フィード作成前に存在している必要があります。 </p> <p> <p>注意：Amazon S3 の設定について詳しくは、後述の <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Amazon S3 データフィードの BucketOwnerFullControl 設定</a>を参照してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アカウント </p> </td> 
@@ -119,11 +119,11 @@ Azure BLOB にファイルをアップロードできます。
   </tr> 
   <tr> 
    <td colname="col1"> <p>公開鍵 </p> </td> 
-   <td colname="col2"> <p>SFTP 公開鍵を指定します。 </p> <p>公開鍵をダウンロードして SFTP リポジトリを設定する必要があります。 </p> <p> <p>注意：フィードを作成するために公開鍵をダウンロードする必要はありません。 </p> </p> <p>以前のフィードの作成時に既にダウンロード済みの公開鍵を使用できます。 </p> <p>詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html" format="html" scope="external">https://marketing.adobe.com/resources/help/ja_JP/whitepapers/ftp/ftp_sftp_dw.html</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>SFTP 公開鍵を指定します。 </p> <p>公開鍵をダウンロードして SFTP リポジトリを設定する必要があります。 </p> <p> <p>注意：フィードを作成するために公開鍵をダウンロードする必要はありません。 </p> </p> <p>以前のフィードの作成時に既にダウンロード済みの公開鍵を使用できます。 </p> <p>詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html"  >https://marketing.adobe.com/resources/help/ja_JP/whitepapers/ftp/ftp_sftp_dw.html</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>キー </p> <p>キーを確認 </p> </td> 
-   <td colname="col2"> <p> ストレージアクセスキーを入力します。確認のために再入力します。 </p> <p> <p>注意：アクセスキーへのアクセスについては、<a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys" format="https" scope="external">https://docs.microsoft.com/ja-JP/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> を参照してください。 </p> </p> </td> 
+   <td colname="col2"> <p> ストレージアクセスキーを入力します。確認のために再入力します。 </p> <p> <p>注意：アクセスキーへのアクセスについては、<a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys"  >https://docs.microsoft.com/ja-JP/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> を参照してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>シークレットキー </p> <p>シークレットキーを確認 </p> </td> 
