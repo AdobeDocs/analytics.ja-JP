@@ -5,7 +5,7 @@ seo-title: 指標タイプとアトリビューション
 title: 指標タイプとアトリビューション
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 指標の横にある歯車アイコンをクリックすると、指標タイプとアトリビューションモデルを指定できます。
 
-* [指標タイプ](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [列のアトリビューションモデル](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [2018 年 7 月 19 日以降の線形配分の適用方法](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
+* [指標タイプ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
+* [列のアトリビューションモデル](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
+* [2018 年 7 月 19 日以降の線形配分の適用方法](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## 指標タイプ {#section_34A86FB402F94E988724232283BF18B7}
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >
 >* デフォルト以外のアトリビューションモデルの完全なリストとサポートされるルックバックウィンドウについては、[Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) のドキュメントを参照してください。
 >* 「マーケティングチャネルラストタッチ」および「マーケティングチャネルファーストタッチ」配分モデルは、それぞれ新しい「ラストタッチ」および「ファーストタッチ」アトリビューションモデルに移行されます(注意：「マーケティングチャネル」は廃止されません。計算指標に表示される2つの配分モデルのみが使用されます。
->* さらに、線形配分の計算方法が修正されます。「線形」配分モデルを使用する計算指標を使用している顧客の場合、新しい修正済みアトリビューションモデルを反映して、レポートが少し変わる可能性があります。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 詳しくは、[2018 年 7 月 19 日以降の線形配分の適用方法](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
+>* さらに、線形配分の計算方法が修正されます。「線形」配分モデルを使用する計算指標を使用している顧客の場合、新しい修正済みアトリビューションモデルを反映して、レポートが少し変わる可能性があります。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 詳しくは、[2018 年 7 月 19 日以降の線形配分の適用方法](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
 >
 
 
