@@ -4,17 +4,17 @@ seo-description: マーケティングレポートで使用される Web 解析�
 seo-title: 一般用語
 solution: Analytics
 title: 一般用語
-topic: Reports and Analytics
+topic: Reports & Analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
 
 ---
 
 
-# 一般用語{#common-terms}
+# 一般用語
 
-使用されるAdobe Analyticsの一般的な用語について説明します。
+一般的に使用されるAdobe Analyticsの用語の紹介。
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -30,7 +30,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
   </tr> 
   <tr> 
    <td> <p>指標 </p> </td> 
-   <td> <p>ビュー数、クリックスルー数、リロード回数、平均滞在時間、日付、数量など、Web サイトでの行動を表す定量データです。 </p> <p>For more information, see <a scope="local" href="../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686" type="concept" format="dita"> Metrics</a>. </p> </td> 
+   <td> <p>ビュー数、クリックスルー数、リロード回数、平均滞在時間、日付、数量など、Web サイトでの行動を表す定量データです。 </p> <p>For more information, see <a href="/help/analyze/reports-analytics/metrics.md">Metrics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> ディメンション </p> </td> 
@@ -38,7 +38,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
   </tr> 
   <tr> 
    <td> <p> レポート </p> </td> 
-   <td> <p>マーケティングレポート機能の基本です。収集したデータすべてに対してオンラインレポートを実行できます。 </p> <p>詳しくは、    <a href="../../../analyze/reports-analytics/reports.md#concept_54DA0D426E2B49F3BF0E707FE83932A6" type="concept" format="dita" scope="local"> レポートタイプ</a>. </p> </td> 
+   <td> <p>マーケティングレポート機能の基本です。収集したデータすべてに対してオンラインレポートを実行できます。 </p> <p>詳しくは、    <a href="/help/analyze/reports-analytics/reports.md"> レポートタイプ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> ページビュー </p> </td> 
@@ -46,7 +46,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
   </tr> 
   <tr> 
    <td> <p>訪問 </p> </td> 
-   <td> <p>1 回のランディングでの一連のページビュー。訪問は、30 分操作が実行されなかった後、または 12 時間連続して操作が実行された後にのみ終了します（この時間の測定は、Web 解析の業界標準です）。訪問は cookie によって追跡されます。訪問は、ビューアがページにアクセスした時に開始します。訪問は<span class="term"> セッション</span>にアクセスできますが、ブラウザーセッションではありません。別のサイトに移動する、ブラウザーを閉じる、またはコンピューターを再起動した場合でも訪問は終了しません。 </p> <p> 訪問者がページを閲覧中に無操作のタイムアウトが発生した場合、その訪問が終了し、処理されます。訪問者が別のページをクリックスルーすると新しい訪問が開始します。 </p> <p>真夜中にサイトを訪問するなど、訪問中に日付が変わった場合、その訪問は訪問が開始された日に含まれます。 </p> </td> 
+   <td> <p>1 回のランディングでの一連のページビュー。訪問は、30 分操作が実行されなかった後、または 12 時間連続して操作が実行された後にのみ終了します（この時間の測定は、Web 解析の業界標準です）。訪問は cookie によって追跡されます。訪問は、ビューアがページにアクセスした時に開始します。訪問は <span class="term"> session</span>, but it is not a browser session. 別のサイトに移動する、ブラウザーを閉じる、またはコンピューターを再起動した場合でも訪問は終了しません。 </p> <p> 訪問者がページを閲覧中に無操作のタイムアウトが発生した場合、その訪問が終了し、処理されます。訪問者が別のページをクリックスルーすると新しい訪問が開始します。 </p> <p>真夜中にサイトを訪問するなど、訪問中に日付が変わった場合、その訪問は訪問が開始された日に含まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 個別訪問者 </p> </td> 
@@ -66,7 +66,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
   </tr> 
   <tr> 
    <td> <p>チャネル </p> </td> 
-   <td> <p> 定義されたサイトのセクションまたはカテゴリ。2 つの主なカテゴリ（天気やニュース<span class="term"> 天気</span> 予報と <span class="term"> ニュース</span>には2つのチャネルがあります。サイト内の任意のチャネルに対するページビュー件数の統計をすべてグループ化できます。 </p> </td> 
+   <td> <p> 定義されたサイトのセクションまたはカテゴリ。2 つの主なカテゴリ（天気やニュース 天気 <span class="term"> とニ</span> ュースは <span class="term"></span>2つのチャネルを持つ。 サイト内の任意のチャネルに対するページビュー件数の統計をすべてグループ化できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
