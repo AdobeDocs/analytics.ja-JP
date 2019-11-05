@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: よくある質問
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -24,7 +24,7 @@ Audience Analytics を実装するときによくある質問への回答です�
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">prop または eVar に電子メール／アドレスなどを格納している場合は、収集時にデータをハッシュすることを検討します。 </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">お客様の国で IP アドレスが PII（個人情報）と見なされる場合は、<a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html" format="html" scope="external">IP の不明化を有効にします</a>。 </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">お客様の国で IP アドレスが PII（個人情報）と見なされる場合は、<a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html"  >IP の不明化を有効にします</a>。 </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Analytics 管理者に問い合わせて、収集内容を確認します。 </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">社内の法務部に問い合わせて、PII と見なされる情報を確認します。 </li> 
     </ul> </td> 
@@ -47,7 +47,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q：Audience Manager で Analytics の宛先を作成するにはどうすればよいですか。</b> </p> </td> 
-   <td colname="col2"> AAMでのAnalytics <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> の宛先の設定を参照してくださ </a>い。 </td> 
+   <td colname="col2"> AAMでのAnalytics <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  > の宛先の設定を参照してくださ </a>い。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：Analytics の宛先を作成して保存した後、選択したレポートスイートにデータが表示されるまでにどれくらい時間がかかりますか。</b> </p> </td> 
@@ -138,11 +138,11 @@ Audience Analytics を実装するときによくある質問への回答です�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Q：Audience Manager と Analytics でセグメント訪問者のカウント数が異なるのはなぜですか。</b> </p> </td> 
-   <td colname="col2"> <p>詳しくは、 <a href="../../integrate/c-audience-analytics/visitor-count-reconciliation.md#concept_03DD2B594C2B4D23907D5272DDFADFA0" format="dita" scope="local"> 訪問者数の相違 </a>. </p> </td> 
+   <td colname="col2"> <p>詳しくは、 <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > 訪問者数の相違 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：AAM の「オーディエンス」と Analytics の「セグメント」の違いは何ですか。</b> </p> </td> 
-   <td colname="col2"> <p>詳しくは、 <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM オーディエンスは、Analytics で使用するために送信されて、「ディメンション」コンポーネントとして共有されます。これらはセグメントビルダーなどではセグメントとして表示されませんが、セグメントを作成できるディメンションとして表示されます。 </p> </td> 
+   <td colname="col2"> <p>詳しくは、 <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM オーディエンスは、Analytics で使用するために送信されて、「ディメンション」コンポーネントとして共有されます。これらはセグメントビルダーなどではセグメントとして表示されませんが、セグメントを作成できるディメンションとして表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：顧客属性と AAM から統合された顧客データの違いは何ですか。</b> </p> </td> 
