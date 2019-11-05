@@ -7,7 +7,7 @@ title: 実訪問者数
 topic: 指標
 uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ Version 14 does not remove duplicate [!UICONTROL Visits] and [!UICONTROL Unique 
 | コンバージョン | 訪問者とは、Web サイトを訪れた人のことです。コンバージョン関連のイベントまたは活動が発生したときにカウントされます。 |
 | Ad Hoc Analysis | 訪問者とは、Web サイトを訪れた人のことです。持続的 cookie は必要としません。 |
 
-実訪問者 [数レポート — バージョン15およびAd Hoc Analysisを参照してください](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)。
+実訪問者 [数レポート — バージョン15およびAd Hoc Analysisを参照してください](/help/components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md)。
 
 >[!MORELIKETHIS]
 >
