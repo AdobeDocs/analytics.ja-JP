@@ -8,7 +8,7 @@ title: アラート
 topic: Reports & Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -103,17 +103,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>ASI スロットをレポートスイートとして使用するアラート </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html" format="https" scope="external">ASI スロットを作成または編集</a>できなくなっており、Analysis Workspace で使用できません。従って、新しいアラートでサポートされません。 </p> <p> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >ASI スロットを作成または編集</a>できなくなっており、Analysis Workspace で使用できません。従って、新しいアラートでサポートされません。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>パーティシペーション指標を使用したアラート </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html" format="https" scope="external">パーティシペーション指標</a>は、Reports &amp; Analytics で使用できますが、Analysis Workspace の新しいアラートシステムでは、現在、使用できません。 </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  >パーティシペーション指標</a>は、Reports &amp; Analytics で使用できますが、Analysis Workspace の新しいアラートシステムでは、現在、使用できません。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタムカレンダーレポートスイート用の毎月のアラート </p> </td> 
-   <td colname="col2"> <p>これは、<a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html" format="https" scope="external">カスタムの月の開始日</a>（全米小売業協会／NRF およびカスタムカレンダータイプ）を含むレポートスイートに関するアラートを設定しているお客様にのみ影響します。 </p> <p>グレゴリオ暦または修正グレゴリオ暦カレンダーのレポートスイートに関するアラートには影響しません。以前は、これらのアラートは、グレゴリオ暦の月の最初の日（例：1 月 1 日、2 月 1 日など）に送信されていました。これは、異常値を検出する際に以前の月のデータを考慮する、アラートの新しい異常値検出機能では動作しません。将来は、カスタムカレンダーのスケジュールシステムのサポートを追加し、アラートおよびスケジュールされたプロジェクトの両方で、グレゴリオ暦の月の最初の日でなく、カスタムカレンダーの月の最初の日に送信するようにスケジュールできるようになります。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>これは、<a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >カスタムの月の開始日</a>（全米小売業協会／NRF およびカスタムカレンダータイプ）を含むレポートスイートに関するアラートを設定しているお客様にのみ影響します。 </p> <p>グレゴリオ暦または修正グレゴリオ暦カレンダーのレポートスイートに関するアラートには影響しません。以前は、これらのアラートは、グレゴリオ暦の月の最初の日（例：1 月 1 日、2 月 1 日など）に送信されていました。これは、異常値を検出する際に以前の月のデータを考慮する、アラートの新しい異常値検出機能では動作しません。将来は、カスタムカレンダーのスケジュールシステムのサポートを追加し、アラートおよびスケジュールされたプロジェクトの両方で、グレゴリオ暦の月の最初の日でなく、カスタムカレンダーの月の最初の日に送信するようにスケジュールできるようになります。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは、まだ使用できません。 </p> </td> 
   </tr> 
   <tr> 
