@@ -7,7 +7,7 @@ title: レポートの表示設定とナビゲーション
 topic: レポート、Reports & analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -65,7 +65,7 @@ nav_menu.xml
 |  | サイト概要 | 指標／サイト概要 |
 |  | 主要指標 | 指標／主要指標 |
 |  | ページビュー数 | 指標／ページビュー数 |
-|  | 訪問 | 指標／訪問回数 |
+|  | 訪問回数 | 指標／訪問回数 |
 |  | 訪問者 | 指標／訪問者数 |
 |  | 訪問別滞在時間 | 指標／訪問別滞在時間 |
 |  | イベント前の時間 | コンバージョン／イベント前の時間 |
