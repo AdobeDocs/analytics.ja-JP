@@ -7,7 +7,7 @@ title: レポートデータのフィルタリング
 topic: Reports & Analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -173,7 +173,7 @@ t_reports_correlation_filter.xml
 
 **クロス集計フィルターを追加するには**
 
-1. クロス集計をサポートするレポートを実行します(See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. クロス集計をサポートするレポートを実行します(See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1.  レポートのヘッダーで、**クロス集計フィルター**&#x200B;リンクをクリックします。
 1. 「[!UICONTROL フィルター規則クリエイター]」で、アイテムのクロス集計カテゴリを選択します。
 1. Click **[!UICONTROL OK.]**
