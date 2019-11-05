@@ -8,7 +8,7 @@ title: 分類ルールセット
 topic: 管理ツール
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ルールセットは、特定の変数の分類ルールのグループです。変数をルールセットに適用します。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。
 
-## 分類ルールセット {#concept_CD3D510F5070486584F3BB535AE41524}
+## 分類ルールセット
 
 ルールセットは、特定の変数の分類ルールのグループです。変数をルールセットに適用します。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local">ルールセットを追加</a>      </p> </td> 
+   <td colname="col1"> <p><a href="/help/components/c-classifications2/crb/classification-rule-set.md"  >ルールセットを追加</a>      </p> </td> 
    <td colname="col2"> <p>ルールセットを作成します。 </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </tbody> 
 </table>
 
-## Create a Classification Rule Set {#task_86F216DFD2534FA181E64ABDF306782B}
+## Create a Classification Rule Set {#create-classification-rule-set}
 
 <!-- 
 
@@ -89,6 +89,6 @@ t_classification_rule_set.xml
 
    レポートスイートと変数リストには、ログインしている会社のすべてのレポートスイートで利用できるすべての分類された変数が入力されます。レポートスイート内の 1 つの変数が所属することのできるルールセットは、1 つのみです。
 
-   詳しくは、*`Variable`*（[分類ルールビルダー](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4D1A70A607C9419EB2116A5174EACB72)ページの定義）を参照してください。
+   詳しくは、*`Variable`*（[分類ルールビルダー](/help/components/c-classifications2/crb/classification-rule-definitions.md)ページの定義）を参照してください。
 1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) to the rule set.
+1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
