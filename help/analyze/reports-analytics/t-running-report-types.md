@@ -7,7 +7,7 @@ title: 異なるレポートタイプの実行
 topic: レポート、Reports & analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -186,7 +186,7 @@ Analysis Workspace の新しい[異常値検出と貢献度分析](https://marke
         <li id="li_4090357A0D214BC7B1C3DE0615875554">下限と期待値が同じ場合、偏差率は —100%です。 </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">それ以外の場合、偏差率は次の式で求められます。 (（下限値 — 実際の値） / （期待値 — 下限値）) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">「<span class="uicontrol">表示セグメント</span>」をクリックすると、異常値検出レポートにセグメントを適用するためのセグメントパネルが表示されます。セグメントについての<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external">詳細</a>を参照してください。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">「<span class="uicontrol">表示セグメント</span>」をクリックすると、異常値検出レポートにセグメントを適用するためのセグメントパネルが表示されます。セグメントについての<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >詳細</a>を参照してください。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">「<span class="uicontrol">指標を編集</span>」をクリックすると、異常値を検出する指標の選択および選択解除が行えます。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -241,7 +241,7 @@ t_anomaly_config.xml
 
    セグメントの作成と管理について詳しくは、[Analytics セグメント化ガイド](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)を参照してください。1. （オプション）レポートをお気に入りにするか、ブックマークします。
 1. （オプション）表示期間の終了日を変更します。デフォルトは昨日です。
-1. これで、レポートを表示できるようになります。[異常値検出グラフの表示を参照してください](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
+1. これで、レポートを表示できるようになります。[異常値検出グラフの表示を参照してください](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
 
 ## リアルタイムレポートの実行 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -268,7 +268,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>レポートスイートの選択</strong></td> 
-   <td class="chdesc stentry"> このリアルタイムレポートに表示するレポートスイートを選択します。レポートスイートを変更する方法については、<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">リアルタイムレポートの設定</a>を参照してください。 </td> 
+   <td class="chdesc stentry"> このリアルタイムレポートに表示するレポートスイートを選択します。レポートスイートを変更する方法については、<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >リアルタイムレポートの設定</a>を参照してください。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>レポートの切り替え</strong></td> 
