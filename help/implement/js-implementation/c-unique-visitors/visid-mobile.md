@@ -8,7 +8,7 @@ title: モバイルデバイスの識別
 topic: 開発者と実装
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ほとんどのモバイルデバイスがブラウザー cookie を受け付けます。ただし、デバイスが cookie を受け付けない場合は、別の方法を使用してワイヤレスデバイスを一意に識別します。
 
-アドビでは、ほとんどのモバイルデバイスを一意に識別する様々な HTTP [加入者 ID ヘッダー](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)を識別しています。これらのヘッダーには、デバイスの電話番号（または電話番号をハッシュ化したもの）やその他の識別子が含まれます。現在のほとんどのデバイスには、デバイスを一意に識別する 1 つ以上のヘッダーがあり、アドビのすべてのデータ収集サーバーでは、訪問者 ID の代わりにこれらのヘッダーが自動的に使用されます。
+アドビでは、ほとんどのモバイルデバイスを一意に識別する様々な HTTP [加入者 ID ヘッダー](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)を識別しています。これらのヘッダーには、デバイスの電話番号（または電話番号をハッシュ化したもの）やその他の識別子が含まれます。現在のほとんどのデバイスには、デバイスを一意に識別する 1 つ以上のヘッダーがあり、アドビのすべてのデータ収集サーバーでは、訪問者 ID の代わりにこれらのヘッダーが自動的に使用されます。
 
 一般的なイメージリクエストでは、パス（`/b/ss/rsid/1`/）内の「1」は、アドビサーバーに対して、gif イメージを返し、持続的な[!UICONTROL 訪問者 ID] cookie（`AMCV_` または `s_vi`）の設定を試行するように命令します。ただし、デバイスが HTTP ヘッダーに基づいてモバイルデバイスとして認識される場合は、「1」の代わりに「5」が渡されます。これは、wbmp 形式のイメージを返す必要があることと、認識済みのワイヤレスヘッダーのリスト（cookie ではない）を使用してデバイスを識別する必要があることを示します。
 
@@ -88,4 +88,4 @@ cookie には cookie の削除、cookie の承認、ゲートウェイ cookie �
 
 例えば、「callinglineid」は、「X-Up-Calling-Line-ID」および「nokia-callinglineid」に一致します。ヘッダータイプは、ヘッダーの内容を示します。ヘッダーの優先順位はこの表の並びのとおりです（「callinglineid」ヘッダーが存在する場合、そのヘッダーが「subno」の代わりに使用されます）。
 
-この場合、[動的変数](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)を使用すると、ヘッダーから特定の値を抽出できます。
+この場合、[動的変数](/help/implement/js-implementation/c-variables/dynvars-overview.md)を使用すると、ヘッダーから特定の値を抽出できます。
