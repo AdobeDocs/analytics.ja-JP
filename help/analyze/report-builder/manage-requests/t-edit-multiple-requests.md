@@ -7,7 +7,7 @@ title: 複数のリクエストの編集
 topic: Report Builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * **セグメント別**：セグメント名に基づいてリクエストをグループ化します。
 
       * **セグメントを選択**：リクエストにセグメントが存在しない場合に表示されます。セグメントを追加するには、「**[!UICONTROL グループの編集]**」をクリックして、[!UICONTROL グループの編集]パネルからセグメントを選択します。
-   * **指標別**:「複数のリク [エストにわたる指標の編集」を参照してくださ](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB)い。
+   * **** 指標別：「複数のリク [エストにわたる指標の編集」を参照してくださ](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)い。
 
    * **日付範囲と精度：**&#x200B;日付範囲および時間精度別にリクエストの表示をグループ化します。
    * **グループ：**&#x200B;グループ化されたリクエストのセット別にリクエストの表示をグループ化します。
