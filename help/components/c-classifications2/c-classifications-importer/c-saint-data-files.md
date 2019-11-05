@@ -8,7 +8,7 @@ title: 分類データファイル
 topic: 管理ツール
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 インポーターを使用すると、分類データを Analytics レポートに一括してファイルでアップロードできます。データのアップロードを正常に行うために、インポートでは指定のファイル形式を使用する必要があります。
 
-有効なデータファイルを作成するために、テンプレートファイルをダウンロードして、このテンプレートのファイル構造に分類データを貼り付けることができます。詳しくは、 [分類テンプレートのダウンロード](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
+有効なデータファイルを作成するために、テンプレートファイルをダウンロードして、このテンプレートのファイル構造に分類データを貼り付けることができます。詳しくは、 [分類テンプレートのダウンロード](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 
-See [General File Structure](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) for more information about character limits in classifications.
+See [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) for more information about character limits in classifications.
 
-See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
+See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
 
 ## 一般的なファイル構造
 
@@ -34,7 +34,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 * 分類は、0（ゼロ）の値を持つことはできません。
 * インポートおよびエクスポートする列の数を 30 以内にすることをお勧めします。
 * アップロードするファイルは、BOM なしの UTF-8 でエンコードする必要があります。
-* タブ、改行、引用符などの特殊文字は、バージョン 2.1 のファイル形式が指定されており、セルが適切に[エスケープ](../../../components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md#task_EB47E80063F14F9CB2D186C0CAA9CBAD)されている場合にのみ使用することができます。特殊文字には、次のものがあります。
+* タブ、改行、引用符などの特殊文字は、バージョン 2.1 のファイル形式が指定されており、セルが適切に[エスケープ](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md)されている場合にのみ使用することができます。特殊文字には、次のものがあります。
 
    ```
    \t     tab character 
@@ -60,7 +60,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
    * ファイル内で v2.1 が指定されているが実際には v2.0 が必要な場合、つまり、Excel のフォーマットとしては不正な方法で引用符が使用されている場合は、問題が生じることがあります。例えば、"VP NO REPS" S/l Dress w/ Overlay という値があるとします。v2.1 では、これは正しくないフォーマットであり（値は開始引用符と終了引用符で囲み、実際の値の一部である引用符は引用符でエスケープする必要があります）、これ以降の行は分類処理がおこなわれません。
    * ファイルのヘッダー（セル C1）を変更してファイル形式を v2.0 に変更するか、ファイル全体で Excel の引用符を正しく使用してください。
 
-* データファイルの最初にある（コメントなしの）行には、列内の分類データを示す列見出しが含まれます。列見出しには、特定の形式を使用する必要があります。詳しくは、[列見出しの形式](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_ADC08C783477451B959782CEA23AF5EF)を参照してください。
+* データファイルの最初にある（コメントなしの）行には、列内の分類データを示す列見出しが含まれます。列見出しには、特定の形式を使用する必要があります。詳しくは、[列見出しの形式](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)を参照してください。
 * データファイルのヘッダー行のすぐ後には、データ行が続きます。データの各行には、列見出しごとに 1 つのデータフィールドを含める必要があります。
 * データファイルでは、以下の制御コードがサポートされます。このコードは、ファイルを構造化し、分類データを正確にインポートするために使用されます。
 
@@ -78,11 +78,11 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>自動的にこのエレメントの一意の ID が生成されます。 </p> <p>キャンペーン用途の場合は、この制御値によってクリエイティブエレメントごとに ID が割り当てられます。詳しくは、 <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443" format="dita" scope="local"> キー </a>. </p> </td> 
+   <td colname="col2"> <p>自動的にこのエレメントの一意の ID が生成されます。 </p> <p>キャンペーン用途の場合は、この制御値によってクリエイティブエレメントごとに ID が割り当てられます。詳しくは、 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > キー </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>該当する列は日付範囲を表す文字列であることをシステムに伝えます。詳しくは、 <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9ECCD5ED97764CDC90C0B7B0F9461825" format="dita" scope="local"> Date </a>. </p> </td> 
+   <td colname="col2"> <p>該当する列は日付範囲を表す文字列であることをシステムに伝えます。詳しくは、 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > Date </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>空のフィールド </p> </td> 
@@ -90,7 +90,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
   </tr> 
   <tr> 
    <td colname="col1"> <p>PER 修飾子 </p> </td> 
-   <td colname="col2"> <p>データ列が <span class="wintitle">PER 修飾子</span>のフィールドを示すことを指定します。See <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_7E199A26E3274B31B07CCAF8DFE3B274" format="dita" scope="local"> PER Modifier Headings </a>. </p> </td> 
+   <td colname="col2"> <p>データ列が <span class="wintitle">PER 修飾子</span>のフィールドを示すことを指定します。See <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > PER Modifier Headings </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
