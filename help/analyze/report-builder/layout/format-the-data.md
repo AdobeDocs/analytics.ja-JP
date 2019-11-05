@@ -1,22 +1,22 @@
 ---
 description: Excel の書式／セル（Ctrl + 1 キー）の機能で利用できる標準的なセル書式設定に加え、Report Builder を使用してセル範囲に対して簡易的な書式を適用できます。それらの書式設定に使用できるオプションは、選択した指標によって異なります。
 seo-description: Excel の書式／セル（Ctrl + 1 キー）の機能で利用できる標準的なセル書式設定に加え、Report Builder を使用してセル範囲に対して簡易的な書式を適用できます。それらの書式設定に使用できるオプションは、選択した指標によって異なります。
-seo-title: 日付の形式設定
+seo-title: 日付の書式
 solution: Analytics
-title: 日付の形式設定
+title: 日付の書式
 topic: Report Builder
-uuid: 5211db30-07b3-4413-97c3- e40e6ff223cd
+uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# 日付の形式設定
+# 日付の書式
 
 Excel の書式／セル（Ctrl + 1 キー）の機能で利用できる標準的なセル書式設定に加え、Report Builder を使用してセル範囲に対して簡易的な書式を適用できます。それらの書式設定に使用できるオプションは、選択した指標によって異なります。
 
-After you [add dimensions](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) to the Row Labels grid, click **[!UICONTROL Format]**.
+After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.
 
 「**[!UICONTROL 書式]**」メニューで、「**カスタムフォーマット[!UICONTROL 」をクリックして、前付け／後付け機能と同様に、カスタマイズされた書式を日付に適用します。]**&#x200B;例えば、日付の後に常に付加されるテキスト（A.D.、B.C.E.、A.H. など）を入力することができます。また、日付の前に、「[!UICONTROL 開始日]」、「[!UICONTROL 開始・終了日]」などのテキストを追加することもできます。さらに、日、月、年の略語を使用してカスタムの日付式を作成し、日付の内部にカスタムの区切り文字を使用することができます。すべての日付書式は 3 つの略語で構成され、括弧で囲まれている必要があります。
 
