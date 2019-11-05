@@ -5,7 +5,7 @@ seo-title: よくある質問
 title: よくある質問
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,43 +14,43 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 These changes to the way calculated metrics work in [!DNL Analytics] may impact you.
 
-[計算指標ビルダーにアクセスするにはどうすればよいですか？](../../components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
+[計算指標ビルダーにアクセスするにはどうすればよいですか？](/help/components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
 
-[計算指標マネージャにアクセスするにはどうすればよいですか？](../../components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
+[計算指標マネージャにアクセスするにはどうすればよいですか？](/help/components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
 
-[同じ名前の計算指標が多数あるのはなぜですか？](../../components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
+[同じ名前の計算指標が多数あるのはなぜですか？](/help/components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
 
-[グローバル計算指標はどうなりましたか？](../../components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
+[グローバル計算指標はどうなりましたか？](/help/components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
 
-[ログイン会社で共有されていたグローバル計算指標はどうなりましたか？](../../components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
+[ログイン会社で共有されていたグローバル計算指標はどうなりましたか？](/help/components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
 
-[分類が Numeric または Numeric2 の計算指標はどうなりましたか？](../../components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
+[分類が Numeric または Numeric2 の計算指標はどうなりましたか？](/help/components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
 
-[全期間指標はどうなりましたか？](../../components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
+[全期間指標はどうなりましたか？](/help/components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
 
-[日別／週別／月別／四半期別／年別訪問者数指標に基づく計算指標についてどのような情報が必要ですか？](../../components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
+[日別／週別／月別／四半期別／年別訪問者数指標に基づく計算指標についてどのような情報が必要ですか？](/help/components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
 
-[古いレポートスイート API メソッドを使用して作成または管理されている計算指標はどうなりますか？](../../components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
+[古いレポートスイート API メソッドを使用して作成または管理されている計算指標はどうなりますか？](/help/components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
 
-[「現在のデータ」はすべてのタイプの計算指標をサポートしますか？](../../components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
+[「現在のデータ」はすべてのタイプの計算指標をサポートしますか？](/help/components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
 
-[移行した計算指標とともに表示される「名前が指定されていません」というメッセージはどのような意味ですか？](../../components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
+[移行した計算指標とともに表示される「名前が指定されていません」というメッセージはどのような意味ですか？](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
 
-[ユーザーが削除された場合、そのユーザーの計算指標はどうなりますか？](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
+[ユーザーが削除された場合、そのユーザーの計算指標はどうなりますか？](/help/components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[他のレポートスイートで作成および適用できる計算指標が「有効」でない場合、「不明」と表示されるのはなぜですか。](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[他のレポートスイートで作成および適用できる計算指標が「有効」でない場合、「不明」と表示されるのはなぜですか。](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
-[従来の計算指標に対して行った変更が保存されないのはなぜですか？](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
+[従来の計算指標に対して行った変更が保存されないのはなぜですか？](/help/components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[計算指標がマーケティングチャネルレポートに表示されないのはなぜですか。](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[計算指標がマーケティングチャネルレポートに表示されないのはなぜですか。](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
-[一部の計算指標の数式に、追加した丸括弧が表示されないのはなぜですか？](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
+[一部の計算指標の数式に、追加した丸括弧が表示されないのはなぜですか？](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[（Ad Hoc Analysis のみ）埋め込みまたはインラインのセグメント定義を含む計算指標は引き続きサポートされますか？](../../components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
+[（Ad Hoc Analysis のみ）埋め込みまたはインラインのセグメント定義を含む計算指標は引き続きサポートされますか？](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
-[（Report Builder のみ）計算指標が要求に表示されなくなったのはなぜですか？](../../components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
+[（Report Builder のみ）計算指標が要求に表示されなくなったのはなぜですか？](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
-[計算指標の合計はどのように計算されますか？](../../components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
+[計算指標の合計はどのように計算されますか？](/help/components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
 
 ## 計算指標ビルダーにアクセスするにはどうすればよいですか？{#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 
