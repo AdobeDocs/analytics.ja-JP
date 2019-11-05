@@ -8,7 +8,7 @@ title: 分類インポーター - 概要
 topic: 管理ツール
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -23,6 +23,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE]インポートおよびエクスポートする列の数を 30 以内にすることをお勧めします。
 
-See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
+See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
 
 [一般的な SAINT のアップロードの問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)を参照してください。不適切なファイル形式およびファイルの内容に起因する問題について説明したナレッジベースの記事です。
