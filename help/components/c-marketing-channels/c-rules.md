@@ -8,7 +8,7 @@ title: マーケティングチャネルの処理ルール
 topic: Reports & Analytics
 uuid: f6394f4b-a244-48e9-9892-7dfbfceb5fc9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,15 +22,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * ルールは処理する順序に並べること。
 * リストの最後に包括的ルール（「その他」など）を追加すること。このルールは、内部トラフィックではなく外部トラフィックを識別します。
 
-   [チャネルが識別されませんでした](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)を参照してください。
+   See [No Channel Identified.](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)
 
 > [!NOTE] これらのルールはマーケティングチャネル以外のレポートには影響しませんが、マーケティングチャネルのデータ収集には影響します。 これらのルールを使用して収集されたデータは完全に永久的なもので、データの収集後に変更されたルールを過去のデータにさかのぼって適用させることはできません。[!UICONTROL マーケティングチャネルの処理ルール]を保存する前に、すべての状況について確認と検討を行い、間違ったチャネルでデータが収集されないようにすることを強くお勧めします。
 
-**前提条件**
+## 前提条件
 
-* 概念情報については、 マーケテ [ィングチャネルの概要](../../components/c-marketing-channels/c-getting-started-mchannel.md#concept_0C28C1592F564E53BB467E6EBC168E8C) 、お [よびマーケティングチャネルレポート](../../components/c-marketing-channels/c-overview.md#concept_77BE50D20BAA402CB292026436A39068)。
+* 「マーケティングチャネル — はじめに [」および「マーケティングチャネルレ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ポートについて [」の概](/help/components/c-marketing-channels/c-overview.md)念情報を確認してください。
 
 * ルールを割り当てるためにチャネルを 1 つ以上作成してください。
 
-   詳しくは、 [マーケティングチャネルの追加](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03).
-
+   詳しくは、 [マーケティングチャネルの追加.](/help/components/c-marketing-channels/c-channels.md)
