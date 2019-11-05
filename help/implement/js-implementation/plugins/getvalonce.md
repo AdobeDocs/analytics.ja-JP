@@ -9,7 +9,7 @@ title: getValOnce
 topic: 開発者と実装
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ getValOnce プラグインは、特定の変数が以前に定義された値に
 
 >[!IMPORTANT]
 >
->このプラグインは、[JavaScript 版 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) との互換性が検証されていません。[AppMeasurement プラグインのサポート](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)を参照してください。
+>このプラグインは、[JavaScript 版 AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) との互換性が検証されていません。[AppMeasurement プラグインのサポート](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md)を参照してください。
 
 **パラメーター**
 
