@@ -8,7 +8,7 @@ title: ダッシュボードおよびレポートレット
 topic: Reports & Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [!UICONTROL ダッシュボードマネージャー]を使用して、ダッシュボードの編集と管理を行い、DirectAccessでのダッシュボードの使用を有効にします。
 
-詳しくは、 [ダッシュボードの管理](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+詳しくは、 [ダッシュボードの管理](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
 
 ## ダッシュボードの作成 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -84,10 +84,10 @@ t_dashboard_add.xml
 
 1. 項目をレポートレットのキャンバスにドラッグして、使用できるコンテンツをダッシュボードに追加します。
 
-   「レポート [レットの作成」および「ダッシュボード](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 設定 [の編集」を参照してください](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
+   「レポート [レットの作成」および「ダッシュボード](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 設定 [の編集」を参照してください](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
 1. Click **[!UICONTROL Save.]**
 
-   ダッシュボードを保存すると、**[!UICONTROL ダッシュボード]メニューで使用できるようになります。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (「ダッシュボ [ードの管理](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F)」を参照)。
+   ダッシュボードを保存すると、**[!UICONTROL ダッシュボード]メニューで使用できるようになります。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (「ダッシュボ [ードの管理](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F)」を参照)。
 
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** &gt; **[!UICONTROL Set as Landing Page]**.
 
