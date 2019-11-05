@@ -8,7 +8,7 @@ title: よくある質問
 topic: セグメント
 uuid: f49dc829-1d53-4183-9add-1aea5219d89
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,12 +25,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * 比較の[ディメンションとしてセグメント](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html)を使用できます。
    * [フォールアウト分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html)でセグメントを使用できます。
 
-* [レポートやプロジェクトに複数のセグメントを適用](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)できます。
+* [レポートやプロジェクトに複数のセグメントを適用](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)できます。
 * セグメントが、レポートスイート全体で共通になりました。
-* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
-* [セグメントマネージャー](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF)を設定できます。
+* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* [セグメントマネージャー](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)を設定できます。
 
-* フォルダーを使用する代わりに[セグメントにタグを設定](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)して、セグメントを整理したり検索したりできます。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)して、セグメントを整理したり検索したりできます。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
 
 * Ad Hoc Analysis 以外でも[連続セグメント](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)を作成できます。
 * ページビューコンテナの名称が「ヒットコンテナ」に変わりました。これは、ページビューだけでなく、すべての種類のデータをセグメント化するコンテナであることを意味しています。例えば、リンクトラッキング呼び出しと、モバイル SDK からの trackAction 呼び出しは、ヒットコンテナの対象になります。このコンテナは名前が変更されただけで、機能に変更はありません。
@@ -63,7 +63,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **レガシーセグメントドロップダウンの移動先**
 
-Reports &amp; Analyticsのセグメントドロップダウンは、より多くの機能を備えた [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) （セグメントビルダー）インターフェイスに置き換えられ、レポートスイート全体およびAdobe Analyticsソリューション全体で使用できる「ユニバーサル」セグメントを作成できます。 既存のセグメントのリストを表示するには、セグメントアイコン ![](assets/segment_icon.png)
+Reports &amp; Analyticsのセグメントドロップダウンは、より多くの機能を備えた [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) （セグメントビルダー）インターフェイスに置き換えられ、レポートスイート全体およびAdobe Analyticsソリューション全体で使用できる「ユニバーサル」セグメントを作成できます。 既存のセグメントのリストを表示するには、セグメントアイコン ![](assets/segment_icon.png)
 
 左側のナビゲーションとセグメントレールが表示されます。
 
@@ -79,7 +79,7 @@ Reports &amp; Analyticsのセグメントドロップダウンは、より多く
 
 デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
-管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[さらに詳しく...](../../components/c-segmentation/seg-reference/seg-rights.md)
+管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[さらに詳しく...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
 **社内のすべてのセグメントを表示できますか？**
 
@@ -97,7 +97,7 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 
 **このセグメントを削除できないのはなぜですか？**
 
-セグメントが [Experience Cloud に公開されている](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01)場合には、そのセグメントを削除したり、編集したりすることはできません。ただし、コピーしたうえでそのコピーしたものを編集することは可能です。
+セグメントが [Experience Cloud に公開されている](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)場合には、そのセグメントを削除したり、編集したりすることはできません。ただし、コピーしたうえでそのコピーしたものを編集することは可能です。
 
 ## ベストプラクティス {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -112,13 +112,13 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 * 自分が所有しているセグメントを確認します。
 * セグメントを適切なセグメントライブラリに追加します。
 * 正規のセグメントを承認します。
-* セグメントのタグ付け[ベストプラクティス](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)に従ってセグメントにタグを設定します。
+* セグメントのタグ付け[ベストプラクティス](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
 
 ## レガシーセグメントの管理 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 **既存のセグメントへの影響**
 
-既存のセグメントは、引き続きこれまでと同様に機能します。既存のセグメントが適用されたレポートも、これまでと同様に適切に機能します。詳しくは、[こちら](../../components/c-segmentation/seg-transition.md#section_83ACAB256F394DCD8B424D8920BDD853)を参照してください。
+既存のセグメントは、引き続きこれまでと同様に機能します。既存のセグメントが適用されたレポートも、これまでと同様に適切に機能します。詳しくは、[こちら](/help/components/c-segmentation/seg-transition.md)を参照してください。
 
 従来の事前定義されたスイートセグメントは、ほとんどがセグメントテンプレートとしてセグメントビルダーに移行されます。セグメントテンプレートは、一般的な閲覧者を含むカスタムセグメントをすばやく作成するために部品として利用できます。セグメントテンプレートは、レポートに直接適用できませんが、カスタムセグメントには容易に保存できます。
 
@@ -204,9 +204,9 @@ seg_definition.xml
 * ブラウザー — ブラウザータイプディメンションを使用して、Google Chromeなどのタイプのすべてのブラウザーを取得します。
 * オペレーティングシステム — OSの種類ディメンションを使用して、Microsoft Windowsなど、すべてのオペレーティングシステムを特定の種類で取得します。
 
-* [新しいディメンションと名前が変更されたディメンション](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [次を含む項目の変更](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [次の値より小さいか大きいかの変更](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [新しいディメンションと名前が変更されたディメンション](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
+* [次を含む項目の変更](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [次の値より小さいか大きいかの変更](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 新しいディメンションと名前が変更されたディメンション {#section_73CF121B64A24DEF8E6499F3167BF742}
 
