@@ -8,7 +8,7 @@ title: コンバージョン
 topic: 開発者と実装
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
