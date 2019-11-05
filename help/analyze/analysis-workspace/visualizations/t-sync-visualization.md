@@ -8,7 +8,7 @@ title: データソースの管理
 topic: Reports & Analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 データソースを管理すると、データソースを表示したり、選択をロックしたりできます。これらの設定は、新しいデータが入ってきた際にどのようにビジュアライゼーションを変更するか（または変更しないか）を決定します。
 
-1. [データテーブルと](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 、ビジュアライゼーションを使用してプロジェクトを [作成しま](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)す。
+1. [データテーブルと](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) 、ビジュアライゼーションを使用してプロジェクトを [作成しま](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)す。
 1. データテーブルで、ビジュアライゼーションに関連付けたいセル（データソース）を選択します。
 1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
 
