@@ -7,7 +7,7 @@ title: 日付のカスタマイズに関する考慮事項
 topic: Report Builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -51,4 +51,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 11 月 23 日（日）に開始する現在の週の開始日から 1 日間を引いた日付 = 11 月 22 日（土）
 
-ヨーロッパや他の一部の国々では、週は日曜日ではなく月曜日に開始します。この場合、カレンダーをカスタマイズして開始日を変更することができます( [カスタムカレンダー](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).)
+ヨーロッパや他の一部の国々では、週は日曜日ではなく月曜日に開始します。この場合、カレンダーをカスタマイズして開始日を変更することができます( [カスタムカレンダー](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
