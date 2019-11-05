@@ -5,10 +5,10 @@ seo-description: Analysis Workspace の必要システム構成です。
 seo-title: 管理要件
 solution: Analytics
 title: 管理要件
-topic: Reports and Analytics
-uuid: 6c8bfeaa-0cf8-435d- a4d1-67e2cb55da4c
+topic: Reports & Analytics
+uuid: 6c8bfea-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -37,7 +37,7 @@ Analysis Workspace の必要システム構成です。
   </tr> 
   <tr> 
    <td colname="col1"> ユーザー </td> 
-   <td colname="col2"> <p>Analytics の「ワークスペース」タブへのアクセスを有効にするには、管理者は、<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span>で、<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Analysis Workspace アクセス</a>グループにユーザーを追加する必要があります。 </p> </td> 
+   <td colname="col2"> <p>Analytics の「ワークスペース」タブへのアクセスを有効にするには、管理者は、<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span>で、<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Analysis Workspace アクセス</a>グループにユーザーを追加する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> プロジェクトの転送 </td> 
