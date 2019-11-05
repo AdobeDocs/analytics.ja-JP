@@ -1,18 +1,18 @@
 ---
 description: カスタム式を作成して、複雑な日付範囲を指定することができます。
 seo-description: カスタム式を作成して、複雑な日付範囲を指定することができます。
-seo-title: カスタマイズされた日付式-概要
+seo-title: カスタマイズされた日付式 - 概要
 solution: Analytics
-title: カスタマイズされた日付式-概要
+title: カスタマイズされた日付式 - 概要
 topic: Report Builder
-uuid: 7d6d7c03- a3f4-4dec-8343- de2e6478bf06
+uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# カスタマイズされた日付式-概要
+# カスタマイズされた日付式 - 概要
 
 カスタム式を作成して、複雑な日付範囲を指定することができます。
 
@@ -20,6 +20,6 @@ source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
 
 **カスタム式を有効にするには**
 
-1. [!UICONTROL リクエストウィザード:手順1]で、 **[!UICONTROL 「相対日付]**」を選択します。
-1. **[!UICONTROL 「カスタム式]**」を有効にします。
+1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Rolling Dates]**.
+1. Enable **[!UICONTROL Custom Expression]**.
 1. 以下に示す略語、構文ルールおよび例に従って、「**開始日**」フィールドと「**[!UICONTROL 終了日]」フィールドに専用の式を入力します。**
