@@ -8,7 +8,7 @@ title: head タグへの Analytics コードの配置
 topic: 開発者と実装
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics コードによりイメージオブジェクトが作成されます。これは、ページ上には表示されないイメージです。
 
-> [!NOTE]この節の説明は、s_code.js によるレガシー導入にのみ当てはまります。[JavaScript 版 AppMeasurement 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) では、`<head>` タグへのライブラリおよびページコードのデプロイがサポートされます。
+>[!NOTE]
+>
+>この節の説明は、s_code.js によるレガシー導入にのみ当てはまります。[JavaScript 版 AppMeasurement 1.0](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) では、`<head>` タグへのライブラリおよびページコードのデプロイがサポートされます。
 
 これまでは、Analytics JavaScript コードを <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> と </head> タグの間に配置する導入方法が一般的でした。この 2 つのタグの間にコードを配置すると、Adobe サーバーにデータを送信した要求から 1 x 1 ピクセルの画像が返された際に、ページレイアウトに影響しなくなります。また、ドキュメントの head 部分にコードを配置すると、コードが早く出現することになります。したがって、コードは早い段階で実行され、部分的なページ読み込みのページビューをより効果的にカウントできます。
 
