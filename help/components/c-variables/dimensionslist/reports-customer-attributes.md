@@ -6,7 +6,7 @@ solution: Experience Cloud,Analytics
 title: 顧客属性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。データがアップロードされると、Reports &amp; Analytics の顧客属性レポートを実行できます。
 
-* [Analytics の顧客属性とレポート指標](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
-* [FAQ - Analytics の顧客属性](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
+* [Analytics の顧客属性とレポート指標](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
+* [FAQ - Analytics の顧客属性](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
 顧客属性データのアップロードについて詳しくは、Experience Cloud ヘルプの[顧客属性](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)を参照してください。
 
@@ -74,4 +74,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   <tr> 
    <td colname="col1"> <p>CRM データは、Data Warehouse およびデータフィードで使用できるようになりますか。 </p> </td> 
    <td colname="col2"> <p>現在、CRM データは、Data Warehouse または Analytics データフィードで使用できません。 </p> </td> 
-  </tr
+  </tr> 
+ </tbody> 
+</table>
+
