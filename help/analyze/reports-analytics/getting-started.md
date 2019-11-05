@@ -8,7 +8,7 @@ title: Reports and Analytics の概要
 topic: Reports & Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,13 +77,13 @@ Adobe Experience cloudを使用してログインする手順を説明します�
 
 1. [!UICONTROL Reports &amp; Analytics] にログインします。
 
-   [レポート]メニューが表示されます。ダッ [シュボード](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) （設定済みの場合）が表示されます。
+   [レポート]メニューが表示されます。ダッ [シュボード](/help/analyze/reports-analytics/dashboard.md) （設定済みの場合）が表示されます。
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
 
 ## ユーザーのアカウント設定の編集
 
@@ -116,11 +116,11 @@ Click the Account icon ![](assets/account.png)at the top right, then click the *
   </tr> 
   <tr> 
    <td> <p> ログイン </p> </td> 
-   <td> <p>アカウントのユーザー名が表示され、アカウントのパスワードを変更できます。 </p> <p><a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" scope="external">Reports &amp; Analytics アカウントのパスワードのリセット方法</a>も参照してください。 </p> </td> 
+   <td> <p>アカウントのユーザー名が表示され、アカウントのパスワードを変更できます。 </p> <p><a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Reports &amp; Analytics アカウントのパスワードのリセット方法</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Web サービス </p> </td> 
-   <td> <p>この アカウントに関連付けられた Web サービスのユーザー名と共通の秘密が表示されます。Web サービス API から Experience Cloud にアクセスする場合、これらの資格情報を使用します。詳しくは、<a href="https://marketing.adobe.com/developer" scope="external" format="https">Developer Connection</a> を参照してください。 </p> <p> <p>注：この情報は、アカウントが Web サービスのユーザーとして認可されている場合にのみ表示されます。 </p> </p> </td> 
+   <td> <p>この アカウントに関連付けられた Web サービスのユーザー名と共通の秘密が表示されます。Web サービス API から Experience Cloud にアクセスする場合、これらの資格情報を使用します。詳しくは、<a href="https://marketing.adobe.com/developer"  >Developer Connection</a> を参照してください。 </p> <p> <p>注：この情報は、アカウントが Web サービスのユーザーとして認可されている場合にのみ表示されます。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> このコンピューターを除外 </p> </td> 
