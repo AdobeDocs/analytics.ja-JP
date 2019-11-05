@@ -7,7 +7,7 @@ title: ターゲット
 topic: Reports & Analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,12 +77,12 @@ t_add_a_target.xml
 
 1. **[!UICONTROL Analytics]** /コンポーネント **[!UICONTROL /ターゲッ]** トをクリックします ****。
 1. On the [!UICONTROL Target Manager] page, click **[!UICONTROL Add New]**.
-1. [ターゲットフィールドの説明](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
+1. [ターゲットフィールドの説明](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
 1. 「**[!UICONTROL OK]**」をクリックします。
 
 ## ターゲットの編集 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. **[!UICONTROL Analytics]** /コンポーネント **[!UICONTROL /ターゲッ]** トをクリックします ****。
 1.  「**管理**」列で、「**[!UICONTROL 編集]」アイコンをクリックします。**
-1. [ターゲットフィールドの説明](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
+1. [ターゲットフィールドの説明](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
 1. 「**[!UICONTROL OK]**」をクリックします。
