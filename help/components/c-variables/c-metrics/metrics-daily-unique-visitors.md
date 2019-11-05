@@ -7,7 +7,7 @@ title: 日別訪問者数
 topic: 指標
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | コンバージョン | [!UICONTROL 日別訪問者数]のみをサポートします。コンバージョン関連のイベントがあるときにのみカウントされる以外は、トラフィックと同じ定義です。 |
 | Ad Hoc Analysis | 1 日にサイトにアクセスした実訪問者。1 日のうちの複数回の訪問は 1 人の[!UICONTROL 日別訪問者]としてカウントされます。 |
 
-詳しくは、 [実訪問者数](../../../components/c-variables/c-metrics/metrics-unique-visitors.md#concept_9B3F44A4EA4E4F178FF164EF9694F88E).
+詳しくは、 [実訪問者数](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).
