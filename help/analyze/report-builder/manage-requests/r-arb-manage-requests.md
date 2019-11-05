@@ -7,7 +7,7 @@ title: リクエストの管理 - 定義
 topic: Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -60,11 +60,11 @@ Report Builder の「リクエストを管理」におけるフィールドの�
   </tr> 
   <tr> 
    <td colname="col1"> <p>追加 </p> </td> 
-   <td colname="col2"> <p>リクエストウィザードダイアログを表示します。詳しくは、<a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local">データリクエストの作成</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>リクエストウィザードダイアログを表示します。詳しくは、<a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >データリクエストの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>編集 </p> </td> 
-   <td colname="col2"> <p> （または「複数を編集」）選択したリクエストを編集します。<span class="wintitle">リクエストウィザード</span>ダイアログを表示します。See <a href="../../../analyze/report-builder/manage-requests/t-edit-multiple-requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> （または「複数を編集」）選択したリクエストを編集します。<span class="wintitle">リクエストウィザード</span>ダイアログを表示します。See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>削除 </p> </td> 
@@ -80,7 +80,7 @@ Report Builder の「リクエストを管理」におけるフィールドの�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 更新 </p> </td> 
-   <td colname="col2"> <p>選択した 1 つまたは複数のリクエストを更新します( <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> リクエストの更新</a>.) </p> </td> 
+   <td colname="col2"> <p>選択した 1 つまたは複数のリクエストを更新します( <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > リクエストの更新</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>リストを更新 </p> </td> 
