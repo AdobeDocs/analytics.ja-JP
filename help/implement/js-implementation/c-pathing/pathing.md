@@ -8,7 +8,7 @@ title: パスの概要
 topic: 開発者と実装
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
