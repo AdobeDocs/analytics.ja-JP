@@ -8,7 +8,7 @@ title: 訪問者の移行
 topic: 開発者と実装
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>準備：</b><a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external">カスタマーケアに連絡して</a>、移行するドメインと、有効にする移行期間（30 日、60日または 90 日）を伝えます。安全性を確保したドメインもそうでないドメインも必ず含めてください。 </p> </td> 
+   <td colname="col1"> <p> <b>準備：</b><a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  >カスタマーケアに連絡して</a>、移行するドメインと、有効にする移行期間（30 日、60日または 90 日）を伝えます。安全性を確保したドメインもそうでないドメインも必ず含めてください。 </p> </td> 
    <td colname="col3"> <p>移行元のドメインと移行先のドメインの<i>正確な</i>構文をリストにまとめます。 </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -51,11 +51,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>設定変更から 6 時間以上経過後：</b>Analytics の JavaScript コード内の <code> s.trackingServer</code> 変数および <code> s.trackingServerSecure</code> 変数を新しいデータ収集サーバーに変更します。 </p> </td> 
-   <td colname="col3"> <p>この変更をおこなった後、<a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local">パケットアナライザー</a>を使用して、Analytics イメージリクエストが更新されたデータ収集サーバーに送信されることを確認します。 </p> </td> 
+   <td colname="col3"> <p>この変更をおこなった後、<a href="/help/implement/impl-testing/packet-monitor.md"  >パケットアナライザー</a>を使用して、Analytics イメージリクエストが更新されたデータ収集サーバーに送信されることを確認します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics コードの更新直後：</b>サイトをテストして、以前のデータ収集ドメインへのリダイレクトがおこなわれていることを確認します。 </p> </td> 
-   <td colname="col3"> <p><a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local">パケットアナライザー</a>を使用して、初めてサイトにアクセスしたときや cookie を消去した後に、200（OK）HTTP ステータスコードの前に 2 つの 302（リダイレクト）HTTP ステータスコードが表示されていることを確認してください。いずれかのリダイレクトに失敗した場合は、すぐにカスタマーケアに問い合わせて、移行が適切に設定されているかどうか確認してください。 </p> </td> 
+   <td colname="col3"> <p><a href="/help/implement/impl-testing/packet-monitor.md"  >パケットアナライザー</a>を使用して、初めてサイトにアクセスしたときや cookie を消去した後に、200（OK）HTTP ステータスコードの前に 2 つの 302（リダイレクト）HTTP ステータスコードが表示されていることを確認してください。いずれかのリダイレクトに失敗した場合は、すぐにカスタマーケアに問い合わせて、移行が適切に設定されているかどうか確認してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>移行期間全体</b>：前のホスト名の DNS レコードをアクティブに維持します。 </p> </td> 
