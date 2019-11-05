@@ -7,7 +7,7 @@ title: リアルタイムレポートの概要
 topic: レポート
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 リアルタイムレポートでは、Webページトラフィックが表示され、ページビューがリアルタイムでランク付けされます。 ビジネス上の意思決定の基になる実行可能なデータを提供します。
 
-> [!NOTE] リアルタイムレポートでは、追加の実装やタグ付けは必要ありません。 Adobe Analytics の既存の実装が使用されます。リアルタイムレポートの設定については、[リアルタイムレポートの設定](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)を参照してください。
+>[!NOTE]
+>
+>リアルタイムレポートでは、追加の実装やタグ付けは必要ありません。 Adobe Analytics の既存の実装が使用されます。リアルタイムレポートの設定については、[リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md)を参照してください。
 
 **[!UICONTROL サイト指標]** /リ **[!UICONTROL アルタイム]**
 
@@ -42,7 +44,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 例えば、先週の値と昨年の値（および今日の合計）を比較することができます。
 
-永続性の概念がないので、eVar（コンバージョン指標）はサポートされないことに注意してください。コンバージョン指標を選択することはできますが、それが機能するのは、ディメンションと同じページに設定されている場合のみです。詳しくは、 リア [ルタイムレポートの設定](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)。
+永続性の概念がないので、eVar（コンバージョン指標）はサポートされないことに注意してください。コンバージョン指標を選択することはできますが、それが機能するのは、ディメンションと同じページに設定されている場合のみです。詳しくは、 リア [ルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md)。
 
 リアルタイムレポートの設定および表示をおこなうことができるのは、管理者または「全レポートアクセス」および「高度なレポート機能」権限グループのユーザーに制限されています。ただし、リアルタイムは権限を重視します。例えば、売上高を表示する権限がないユーザーは、売上高データを含むリアルタイムレポートを表示できません。
 
