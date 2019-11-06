@@ -5,7 +5,7 @@ seo-title: 使用する Adobe Analytics ツールの検討
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * プロジェクト作業のタブ編成が求められる場合を参照してください。
 * サイト分析レポートを使用する（3D パスレポート）。
 
-**[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** は以下の場合に使用します。
+**[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** は以下の場合に使用します。
 
 * 柔軟性の最も高い Analytics ツールとして使用（訪問者レベル、ヒットレベル分析に至るまで対応）。
 * CRM から POS さらに Web へのオンラインおよびオフラインインタラクションのマルチチャネルデータセットを作成する。
