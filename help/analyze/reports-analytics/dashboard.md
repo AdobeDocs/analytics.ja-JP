@@ -104,14 +104,14 @@ t_dashboard_add_report.xml
 1. レポートを実行します。
 1. Click **[!UICONTROL Dashboard.]**
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
-1.  （オプション）日付の範囲を設定します。 
+1.  （オプション）日付の範囲を設定します。
 
    * **[!UICONTROL 周期的]**：期間（日単位、月単位など）に従って、時間が経過すると日付が変わります。例えば、今日が 1 月 17 日で、日付を 1 月 15 ～ 16 日に設定するとします。Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
    * **[!UICONTROL 特定日]**：時間が経過しても日付が変わらないようにします。
 
 1. （オプション）発行配信リストを上書きします。
 
-   **[!UICONTROL 発行リストの上書き：]**&#x200B;このオプションを有効にすると、このレポートレットで参照されたレポートスイートが発行リストの配信時に常に使用されます。このオプションを無効にすると、発行リストのレポートスイートがこのレポートレットを置き換えます。
+   **[!UICONTROL 発行リストの上書き]**:&#x200B;このオプションを有効にすると、このレポートレットで参照されたレポートスイートが発行リストの配信時に常に使用されます。このオプションを無効にすると、発行リストのレポートスイートがこのレポートレットを置き換えます。
 
 1. **[!UICONTROL 新規作成]** をクリックします。
 
