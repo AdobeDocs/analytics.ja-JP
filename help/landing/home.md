@@ -4,7 +4,7 @@ seo-title: Adobe Analytics のテクニカルガイドとセルフサービス�
 description: Analytics のユーザーガイドとリソース
 seo-description: Adobe Analytics のテクニカルガイドとセルフサービスのユーザーガイドの完全なリストを提示します。
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics製品および技術ドキュメントのホームページへ�
 
 [![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)Media Analyticsガイド[](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) — オーディオまたはビデオソースにAnalyticsを実装します。 これには、メディア SDK とメディアコレクション API が含まれます。
 
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)Data Workbenchガイド[](https://marketing.adobe.com/resources/help/en_US/insight/) - Data Workbenchクライアント、インストール、データセット設定など
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)Data Workbenchガイド[](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - Data Workbenchクライアント、インストール、データセット設定など
 
 [![テクニカルノート](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics テクニカルノート](/help/technotes/home.md) -特定の分析ツールやコンポーネントに特化していない、一般的な役立つ記事を含むナレッジベースです。
 
@@ -47,7 +47,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
+* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
 * [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
 * [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
