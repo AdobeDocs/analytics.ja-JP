@@ -1,11 +1,9 @@
 ---
 description: '送信する ID では、Analytics でデータ主体に関連付けることができるヒットデータの一部をカバーできない場合もあります。Analytics では、ID のセットを拡張し、関連付けられているデータをデータプライバシー要求に含めることができます。このオプションを要求するには、送信する各データプライバシー要求に対するオプションのパラメーターを JSON 要求に追加します。 '
-seo-description: '送信する ID では、Analytics でデータ主体に関連付けることができるヒットデータの一部をカバーできない場合もあります。Analytics では、ID のセットを拡張し、関連付けられているデータをデータプライバシー要求に含めることができます。このオプションを要求するには、送信する各データプライバシー要求に対するオプションのパラメーターを JSON 要求に追加します。 '
-seo-title: ID 拡張
 title: ID 拡張
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 "expandIds": true
 ```
 
-このオプションを要求に含める方法の例については、[サンプルの JSON 要求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)を参照してください。詳しくは、[プライバシーサービス API のドキュメント](https://www.adobe.io/apis/experienceplatform/gdpr.html)を参照してください。
+このオプションを要求に含める方法の例については、[サンプルの JSON 要求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)を参照してください。For more details, refer to the [Privacy Service API documentation](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -58,7 +56,7 @@ Analytics では、「expandIDs」フラグに加え、データプライバシ�
 
 priority フィールドでは、デフォルト値に加え、「low」という値もサポートされています。この値は、データ主体による要求の結果として発生した要求ではないために 30 日以内に完了しなければならないという法的義務が課せられていない要求に対して指定する必要があります。アドビでは、データ主体からの要求以外の目的でプライバシーサービス API を使用すること推奨していません。プライバシーサービス API はデータの消去や修正を目的としたツールではなく、そのような目的にこの API を使用すると意図しない結果が生じます。
 
-[!NOTE]
+> [!NOTE]
 [プライバシーサービス API](https://www.adobe.io/apis/experienceplatform/gdpr.html) は、時間的制約が厳しいデータプライバシー要求を着実に実行できるようにすることを目的として提供されています。この API をその他の目的に使用することはサポートされておらず、そのような利用はユーザーからの優先度の高いデータプライバシー要求をアドビの他のお客様のためにタイムリーに処理する能力に影響を及ぼす可能性があります。大規模な訪問者グループ全体にわたって間違って送信されたデータを消去するなど、本来の目的とは異なる用途にプライバシーサービス API を使用することは避けください。
 
 また、データプライバシー削除要求の結果、ヒットが削除（更新または匿名化）された訪問者の状態情報はリセットされるということを認識しておく必要があります。そのような訪問者が再び Web サイトを訪問した場合は、新規訪問者として扱われます。eVar の割り当ては最初からすべてやり直され、訪問回数、リファラー、最初に訪問したページなどの情報も最初から収集し直されます。データフィールドを消去すると、このような望ましくない副次的効果が生じます。これは、プライバシーサービス API がそのような用途に適していない理由の 1 つでもあります。
