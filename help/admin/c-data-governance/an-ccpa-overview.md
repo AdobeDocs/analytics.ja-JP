@@ -1,11 +1,9 @@
 ---
 description: このドキュメントでは、CCPA におけるデータ主体のアクセス権および削除権に対応するために、Adobe Analytics でどのような作業が必要かを説明します。
-seo-description: このドキュメントでは、CCPA におけるデータ主体のアクセス権および削除権に対応するために、Adobe Analytics でどのような作業が必要かを説明します。
-seo-title: Adobe Analytics と CCPA
 title: Adobe Analytics と CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+translation-type: tm+mt
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -18,17 +16,17 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 >[!IMPORTANT]このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。CCPA に関する助言については、お客様の企業の法務部門にご相談ください。
 
-2020 年 1 月 1 日、カリフォルニア州消費者プライバシー法（CCPA）が施行されます。アドビの対応と、アドビの製品をご利用のお客様への影響について詳しくは、「[アドビのプライバシーセンター](https://www.adobe.com/jp/privacy.html)」を参照してください。
+2020 年 1 月 1 日、カリフォルニア州消費者プライバシー法（CCPA）が施行されます。アドビの対応と、アドビの製品をご利用のお客様への影響について詳しくは、「[アドビのプライバシーセンター](https://www.adobe.com/privacy.html)」を参照してください。
 
 アドビはソフトウェアやサービスを企業に提供する際に、サービスの一環として、お客様に代わって個人データの受信および保管をおこなうデータ処理者としての役割を果たします。アドビはデータ処理者として、お客様の許可と指示（お客様とアドビとの間で締結された契約の内容など）に従って個人データを処理します。
 
-データ管理者であるお客様は、アドビに処理および保管を委任する個人データを決めます。Adobe Experience Cloud ソリューションをご利用のお客様の場合は、お客様が使用しているソリューションと、お客様が Adobe Experience Cloud アカウントに送信するよう設定した情報に基づいて、アドビは個人データをホストします。サンプルのリストについては、「[Adobe Experience Cloud のプライバシー](https://www.adobe.com/jp/privacy/experience-cloud.html#collect)」を参照してください。
+データ管理者であるお客様は、アドビに処理および保管を委任する個人データを決めます。Adobe Experience Cloud ソリューションをご利用のお客様の場合は、お客様が使用しているソリューションと、お客様が Adobe Experience Cloud アカウントに送信するよう設定した情報に基づいて、アドビは個人データをホストします。サンプルのリストについては、「[Adobe Experience Cloud のプライバシー](https://www.adobe.com/privacy/marketing-cloud.html#collect)」を参照してください。
 
 ## アドビによる CCPA データの処理方法
 
 Adobe Cloud Platform（ACP）には統合型ソリューションが用意されており、お客様のデータガバナンスインフラストラクチャと、顧客エクスペリエンスを作成および管理するためのアドビのツールを連携させることができます。Adobe Cloud Platform のこのデータガバナンス機能によって、データガバナンスポリシーとデータ利用を直接リンクさせることができます。
 
-「[Adobe Analytics による GDPR の処理方法](https://www.adobe.com/jp/data-analytics-cloud/analytics/general-data-protection-regulation.html)」を確認してください。ここでは、プライバシー対応の手順と、Adobe Experience Cloud プライバシーサービス API との統合方法について説明しています。
+「[Adobe Analytics による GDPR の処理方法](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html)」を確認してください。ここでは、プライバシー対応の手順と、Adobe Experience Cloud プライバシーサービス API との統合方法について説明しています。
 
 ## CCPA 対応の準備とお客様の Adobe Analytics データ
 
@@ -39,8 +37,8 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 ## 前提条件
 
 * [GDPR 関連の用語](/help/admin/c-data-governance/gdpr-terminology.md)について学びます。
-* ログイン会社名と Experience Cloud 組織をリンクさせます（まだリンクさせていない場合）。アドビカスタマーケアに問い合わせ、[組織とアカウントのリンク設定](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)についてお尋ねください。
-* データガバナンスの設定をおこなう Adobe Analytics のレポートスイートを、[Experience Cloud 組織](https://marketing.adobe.com/resources/help/ja_JP/mcloud/report-suite-mapping.html)にマッピングします。
+* ログイン会社名と Experience Cloud 組織をリンクさせます（まだリンクさせていない場合）。アドビカスタマーケアに問い合わせ、[組織とアカウントのリンク設定](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)についてお尋ねください。
+* データガバナンスの設定をおこなう Adobe Analytics のレポートスイートを、[Experience Cloud 組織](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)にマッピングします。
 * CCPA の削除要求およびアクセス要求に対応できるよう、各レポートスイートのデータ保持ポリシーを設定します。
 
    データ保持期間が設定されていないと、Adobe Analytics は、プライバシーサービス API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、カスタマーサクセスマネージャーまでお問い合わせください。
