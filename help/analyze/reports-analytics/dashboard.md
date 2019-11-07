@@ -8,7 +8,7 @@ title: ダッシュボードおよびレポートレット
 topic: Reports & Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 [!UICONTROL ダッシュボードマネージャー]を使用して、ダッシュボードの編集と管理を行い、DirectAccessでのダッシュボードの使用を有効にします。
 
-詳しくは、 [ダッシュボードの管理](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+詳しくは、 [ダッシュボードの管理](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## ダッシュボードの作成 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -87,7 +87,7 @@ t_dashboard_add.xml
    「レポート [レットの作成」および「ダッシュボード](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 設定 [の編集」を参照してください](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
 1. Click **[!UICONTROL Save.]**
 
-   ダッシュボードを保存すると、**[!UICONTROL ダッシュボード]メニューで使用できるようになります。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (「ダッシュボ [ードの管理](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F)」を参照)。
+   ダッシュボードを保存すると、**[!UICONTROL ダッシュボード]メニューで使用できるようになります。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (「ダッシュボ [ードの管理](/help/analyze/reports-analytics/dashboard-manage.md)」を参照)。
 
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** &gt; **[!UICONTROL Set as Landing Page]**.
 
@@ -104,14 +104,14 @@ t_dashboard_add_report.xml
 1. レポートを実行します。
 1. Click **[!UICONTROL Dashboard.]**
 1. On the [!UICONTROL Add Reportlet] page, name the report, then select a dashboard from **[!UICONTROL Place in Dashboard]**.
-1.  （オプション）日付の範囲を設定します。
+1.  （オプション）日付の範囲を設定します。 
 
    * **[!UICONTROL 周期的]**：期間（日単位、月単位など）に従って、時間が経過すると日付が変わります。例えば、今日が 1 月 17 日で、日付を 1 月 15 ～ 16 日に設定するとします。Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
    * **[!UICONTROL 特定日]**：時間が経過しても日付が変わらないようにします。
 
 1. （オプション）発行配信リストを上書きします。
 
-   **[!UICONTROL 発行リストの上書き]**:&#x200B;このオプションを有効にすると、このレポートレットで参照されたレポートスイートが発行リストの配信時に常に使用されます。このオプションを無効にすると、発行リストのレポートスイートがこのレポートレットを置き換えます。
+   **[!UICONTROL 発行リストの上書き：]**&#x200B;このオプションを有効にすると、このレポートレットで参照されたレポートスイートが発行リストの配信時に常に使用されます。このオプションを無効にすると、発行リストのレポートスイートがこのレポートレットを置き換えます。
 
 1. **[!UICONTROL 新規作成]** をクリックします。
 
