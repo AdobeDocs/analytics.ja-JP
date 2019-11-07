@@ -1,11 +1,9 @@
 ---
 description: 管理ツールのデータガバナンスダイアログには、Experience Cloud 組織にマッピングされているかどうかや、データ保持ポリシーが設定されているかどうかなど、データガバナンスが設定されているレポートスイートの概要が表示されます。
-seo-description: 管理ツールのデータガバナンスダイアログには、Experience Cloud 組織にマッピングされているかどうかや、データ保持ポリシーが設定されているかどうかなど、データガバナンスが設定されているレポートスイートの概要が表示されます。
-seo-title: レポートスイートのデータガバナンス設定の表示／管理
 title: レポートスイートのデータガバナンス設定の表示／管理
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -15,7 +13,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 管理ツールのデータガバナンスダイアログには、Experience Cloud 組織にマッピングされているかどうかや、データ保持ポリシーが設定されているかどうかなど、データガバナンスが設定されているレポートスイートの概要が表示されます。
 
 1. Adobe Experience Cloud にログインします。
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**&#x200B;に移動します。
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**&#x200B;の順にクリックします。
 
    ログイン会社のレポートスイートがすべて表示されます。
 
