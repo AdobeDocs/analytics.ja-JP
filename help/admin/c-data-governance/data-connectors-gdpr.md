@@ -1,16 +1,14 @@
 ---
 description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
-seo-description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
-seo-title: データプライバシーと Data Connector（Genesis）
-title: データプライバシーと Data Connector（Genesis）
+title: データプライバシーと Data Connectors（Genesis）
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
 
-# データプライバシーと Data Connector（Genesis）
+# データプライバシーと Data Connectors（Genesis）
 
 このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
 
