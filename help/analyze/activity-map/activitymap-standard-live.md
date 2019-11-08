@@ -6,7 +6,7 @@ solution: Analytics
 title: 標準モードとライブモード
 topic: Activity Map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 Activity Map は 2 つの基本モードを備えており、ページアクティビティの補完的なレポートを提供します。
 
-* 標準モードでは、[ページ上のリンクレポート](/help/analyze/activity-map/activitymap-links-report.md)に、1 日から複数日に及ぶリンクデータが、日付範囲全体に渡って集計して表示されます。
+* 標準モードでは、[ページ上のリンクレポート](/help/analyze/activity-map/activitymap-links-report.md)に、1 日から複数日に及ぶリンクデータが、日付範囲全体にわたって集計して表示されます。
 * ライブモードでは、アクティビティのトレンドをリアルタイムで表示します。
 
 この 2 つのモードは、ツールバーの「モード」ボタンをクリックすることによって切り替えできます。
@@ -41,7 +41,7 @@ Activity Map は 2 つの基本モードを備えており、ページアクテ�
 
 >[!IMPORTANT]
 >
->仮想レポートスイートは、ライブモードとは互換性がなく、標準モードとのみ互換性があります。
+>仮想レポートスイートは、ライブモードとは互換性がなく、標準モードのみと互換性があります。
 
 ![](assets/live_mode.png)
 
