@@ -6,7 +6,7 @@ solution: Analytics
 title: Activity Map の FAQ
 topic: Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -16,23 +16,23 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 Activity Map での設定や機能の使用に関するよくある質問（FAQ）です。
 
-## 導入と AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
+## 実装と AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
 
 **質問：新規の Activity Map を有効にするための実装手順をおしえてください。**
 
-回答：「 [Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+回答：「[Activity Map の有効化](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)」を参照してください。
 
 **質問：Analytics ユーザーは全員が管理ツールの Activity Map 実施可能ページにアクセスできますか。**
 
-A:Adobe siteCatalystのお客様は、管理コンソールのActivity map有効化ページにアクセスできません。 Adobe Analytics Standard および Adobe Analytics Premium の契約を締結している企業のみが、この設定ページにアクセスできます。
+回答：Adobe SiteCatalyst ユーザーは Admin Console の Activity Map 実施可能ページにアクセスできません。Adobe Analytics Standard および Adobe Analytics Premium の契約を締結している企業のみが、この設定ページにアクセスできます。
 
 **質問：新しい AppMeasurement コードは、Dynamic Tag Management（DTM）を使用して設定できますか。**
 
-回答：はい。新しい AppMeasurement コードは[手動で実装](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html)できます。
+回答：はい。新しい AppMeasurement コードは[手動で実装](https://marketing.adobe.com/resources/help/ja_JP/dtm/analytics_dtm.html)できます。
 
 **質問：AppMeasurement v1.6 ライブラリの大きな変更点は何ですか。**
 
-回答：AppMeasurement v1.6 の唯一の変更点は、Activity Map リンクの追跡プロセスの手法です。ページ名、リンク ID、地域 ID が必要です。
+回答：AppMeasurement v1.6 の唯一の変更点は、Activity Map リンクトラッキングプロセスの手法です。ページ名、リンク ID、地域 ID が必要です。
 
 **質問：AppMeasurement は、特定のページ上ではなく、ドメインレベルでロールアウトされますか。**
 
@@ -42,7 +42,7 @@ A:Adobe siteCatalystのお客様は、管理コンソールのActivity map有効
 
 回答：いいえ。Activity Map の機能は、訪問者 API には依存しません。
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Activity Map アプリケーション {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
 **質問：以前に Web サイトで訪問者 ClickMap を使用していなかった場合でも、Activity Map を使用できますか。**
 
@@ -73,13 +73,13 @@ A:Adobe siteCatalystのお客様は、管理コンソールのActivity map有効
 
 **質問：指標のドロップダウンに同じ指標が複数回表示されるのはなぜですか。**
 
-回答：Activity Map では、すべてのレポートスイートの指標のリストを表示します。その結果、[指標の統合処理](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html)をおこなっていない場合は、重複が発生する可能性があります。
+回答：Activity Map では、すべてのレポートスイートの指標のリストを表示します。その結果、[指標の統合処理](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/cm_transition.html)をおこなっていない場合は、重複が発生する可能性があります。
 
 指標ドロップダウンを使用すると、訪問したページのレポートスイートに割り当てられたものに計算指標のリストを制限できます。
 
 **質問：Activity Map のすべてのリンクレポートは、Reports &amp; Analytics の Activity Map レポートとどのように比較されますか。**
 
-A: To pull the All Links Report in Activity Map, we create a breakdown request as follows: Activity Map Page = "visitedpage", broken down by Activity Map Link&amp;Region in `<list of link&regions present in the page at rendering time>`.
+回答：Activity Map ですべてのリンクレポートを引き出すには、`<list of link&regions present in the page at rendering time>` の Activity Map のリンクと地域を基準として Activity Map ページ = "visitedpage" を分類する分類リクエストを作成します。
 
 Reports &amp; Analytics で同等のレポートを得るには、まず Activity Map のページレポートに移動する必要があります。次に、Activity Map で訪問されたページ名をフィルターします。訪問されたページ名が、Activity Map のページの詳細下部パネルの左列に表示されます。ページが見つかったら、そのページから分類して、Activity Map のリンクと地域をセカンダリディメンションとして選択できます。
 
@@ -89,7 +89,7 @@ Reports &amp; Analytics で同等のレポートを得るには、まず Activit
 
 回答：デフォルトで、Activity Map は、ページから最初に送信されたタグと関連付けられているレポートスイートを使用します。
 
-別のタグ付きレポートを選択するには、Activity Map Settings／Others タブを使用します。
+Activity Map 設定／「その他」タブで、別のタグ付きレポートスイートを選択できます。
 
 **質問：Activity Map では、Analytics タグをスキャンするのにどのくらい時間がかかりますか。**
 
@@ -119,21 +119,21 @@ Reports &amp; Analytics で同等のレポートを得るには、まず Activit
 
 *互換性のない Analytics タグ（AppMeasurement v1.5 以前）を含む Web ページ*
 
-ページコードをv1.6にアップグレードする必要がある(/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)ことを示す警告メッセージが表示されます。
+ページコードを v1.6 にアップグレード (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) する必要があることを示す警告メッセージが表示されます。
 
 *互換性のある Analytics タグ（AppMeasurement v1.6 以降）を含む Web ページ、ただし、管理ツールで Activity Map のレポートが有効になっていない場合*
 
-管理者に対して、\[Activity mapレポートを有効にする\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md")を依頼する必要があることを示す警告メッセージが表示されます。
+\[Activity Map のレポートの有効化\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md")を管理者に依頼する必要があることを示す警告メッセージが表示されます。
 
-**質問：Activity Map データ (contextData) は[Analytics データフィード](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)を経由してエクスポートできますか？**
+**質問：[Analytics データフィード](https://marketing.adobe.com/resources/help/ja_JP/reference/analytics-data-feed.html)を使用して Activity Map データ（contextData）を書き出すことはできますか。**
 
-A：いいえ。
+回答：いいえ。
 
 ## Activity Map でのセグメント化 {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
 
 **質問：セグメントは個々のユーザーセグメントに関連付けられていますか。それとも、共有の管理者レベルのセグメントが Activity Map で利用可能ですか。**
 
-A:Activity mapは、管理者レベルのセグメント（レポートセグメント）をAnalyticsから継承します。
+回答：Activity Map は、管理者レベルのセグメント（レポートセグメント）を Analytics から継承します。
 
 **質問：セグメントはライブモードで動作しますか。**
 
