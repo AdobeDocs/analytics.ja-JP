@@ -6,7 +6,7 @@ solution: Analytics
 title: リンクトラッキングFAQ
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,19 +18,19 @@ Activity Map でのリンクトラッキングに関するよくある質問（F
 
 >[!CAUTION]
 >
->**Activity mapの追跡をオンにすると、個人**&#x200B;識別情報(PII)データを収集できる場合があります。このデータは、単独で、または他の情報と共に使用して、1人の人物を識別、連絡、特定したり、コンテキスト内の個人を識別したりできます。
+>Activity Map トラッキングをオンにすると、**個人を特定できる情報（PII）のデータを収集できます。**&#x200B;このデータは、そのまま使用するか、その他の情報と共に使用して、個人を特定および検索したり、個人と連絡を取ったり、コンテキスト内で個人を特定したりすることができます。
 
 Activity Map トラッキングによって PII データが収集される可能性がある既知のケースには次のようなものがあります。
 
-* `Mailto` リンク、 mailto リンクは、メールを送信するためにコンピューター上のデフォルトのメールクライアントを起動するの HTML リンクです。
-* `User ID` ユーザーがログインした後にWebサイトのヘッダー/フッターに表示される可能性のあるリンク。
+* `Mailto` リンク。mailto リンクは、メールを送信するためにコンピューター上のデフォルトのメールクライアントを起動するの HTML リンクです。
+* `User ID` リンク。ユーザーがログインすると、Web サイトのヘッダー／フッターに表示される場合があります。
 * 金融機関では、口座番号がリンクとして表示されている場合があります。そのリンクをクリックすると、リンクのテキストが収集されます。
 * また、医療関連の Web サイトでも、PII データがリンクとして表示されている場合があります。これらのリンクをクリックすると、リンクのテキストが収集されるので、PII データが収集されることになります。
 
 <table id="table_0951EAC617344156BAE43000CCD838AF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>質問：リンクトラッキングはいつ行われますか。</b> <p> </p> </td> 
+   <td colname="col1"> <b>質問：リンクトラッキングはいつおこなわれますか。</b> <p> </p> </td> 
    <td colname="col2"> 回答：Activity Map のリンクと領域の識別は、ユーザーがページをクリックしたときに行われます。 </td> 
   </tr> 
   <tr> 
@@ -42,17 +42,17 @@ Activity Map トラッキングによって PII データが収集される可�
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">値または子テキストを持つ INPUT タグまたは SUBMIT ボタンかどうか </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">タイプが IMAGE で src プロパティを持つ INPUT タグかどうか </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">&lt;Button&gt; かどうか </li> 
-    </ul> <p>上記のいずれかの質問に対する答が<b>はい</b>の場合、要素はリンクとして処理され、追跡されます。 </p> <p>重要：属性 type="button" を含む button タグは、AppMeasurement によってリンクと見なされません。button タグから "type='button'" を削除して、代わりに role="button" または submit="button" を追加することを検討してください。 </p> <p>重要：「#」で始まるhrefを持つアンカータグは、リンクではなく、AppMeasurementによって内部ターゲットの場所と見なされます（ページを離れないため）。デフォルトでは、Activity mapはこれらの内部ターゲットの場所を追跡しません。 新しいページに移動するリンクのみを追跡します。</p></td> 
+    </ul> <p>上記のいずれかの質問に対する答が<b>はい</b>の場合、要素はリンクとして処理され、追跡されます。 </p> <p>重要：AppMeasurement では、属性 type="button" を含む button タグは、リンクと見なされません。button タグから "type='button'" を削除して、代わりに role="button" または submit="button" を追加することを検討してください。 </p> <p>重要：AppMeasurement では、「#」で開始する href を含むアンカータグは、リンクではなく、内部のターゲット場所と見なされます（ページを離れないので）。デフォルトでは、Activity Map は、これらの内部のターゲット場所を追跡しません。ユーザーを新しいページにナビゲートするリンクのみを追跡します。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>質問：Activity Map では、その他の視覚的 HTML 要素をどのように追跡しますか。</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>関数を使 <code> s.tl() </code> 用</b> <p>s.tl 呼び出し経由でクリックが発生した場合、Activity Map もこのクリックイベントを受け取り、linkName 文字列値が見つかったかどうかを特定します。s.tl の実行中に、その linkName が Activity Map のリンク ID として設定されます。クリックされた、s.tl() 呼び出しを起源とする要素は、領域を特定するために使用されます。例： </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b><code> s.tl() </code> 関数を使用</b> <p>s.tl 呼び出し経由でクリックが発生した場合、Activity Map もこのクリックイベントを受け取り、linkName 文字列値が見つかったかどうかを特定します。s.tl の実行中に、その linkName が Activity Map のリンク ID として設定されます。クリックされた、s.tl() 呼び出しを起源とする要素は、領域を特定するために使用されます。例： </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>変数を使 <code> s_objectID </code> 用</b> <p>例： </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b><code> s_objectID </code> 変数を使用</b> <p>例： </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>重要：Activity Map で s_objectID を使用する場合、末尾のセミコロン（;）は必須です。 </p> </li> 
@@ -92,11 +92,11 @@ Activity Map トラッキングによって PII データが収集される可�
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
-     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">理由：<code> s_ObjectID </code> も <code> s.tl() </code> も存在しない
       <code>
         &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
       </code> </li> 
-     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">理由：<code> s_ObjectID </code> も <code> s.tl() </code> も存在しない
       <code>
         &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
       </code> </li> 
