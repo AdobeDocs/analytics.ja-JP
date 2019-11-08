@@ -1,18 +1,18 @@
 ---
 description: s_objectID 変数を使用したリンク ID のカスタマイズ、領域のカスタマイズ、AppMeasurement Activity Map モジュールファイルのカスタマイズによってリンクを区別できます。
 seo-description: s_objectID 変数を使用したリンク ID のカスタマイズ、領域のカスタマイズ、AppMeasurement Activity Map モジュールファイルのカスタマイズによってリンクを区別できます。
-seo-title: 同じリンク ID、領域を参照する複数のリンクの区別
+seo-title: 同じリンク ID および領域を参照する複数のリンクの区別
 solution: Analytics
-title: 同じリンク ID、領域を参照する複数のリンクの区別
+title: 同じリンク ID および領域を参照する複数のリンクの区別
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# 同じリンク ID、領域を参照する複数のリンクの区別
+# 同じリンク ID および領域を参照する複数のリンクの区別
 
 s_objectID 変数を使用したリンク ID のカスタマイズ、領域のカスタマイズ、AppMeasurement Activity Map モジュールファイルのカスタマイズによってリンクを区別できます。
 
@@ -51,11 +51,11 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 
 ## s_objectID を使用したリンク ID のカスタマイズ {#section_01B0D463397B4837B2D46F087A6E5937}
 
-リンクまたはページのリンクの場所に対して固有のオブジェクト ID を作成することにより、Activity Map のトラッキングを向上したり、Activity Map を使用して、リンク URL ではなく、リンクタイプやリンクの場所について報告します。s_objectID 変数について詳しくは、[ここ](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)をクリックしてください。
+リンクまたはページのリンクの場所に対して固有のオブジェクト ID を作成することにより、Activity Map のトラッキングを向上したり、Activity Map を使用して、リンク URL ではなく、リンクタイプやリンクの場所について報告します。s_objectID 変数について詳しくは、[ここ](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/s_objectID.html)をクリックしてください。
 
 >[!IMPORTANT]
 >
->Activity mapでs_objectIDを使用する場合は、末尾にセミコロン(;)が必要です。
+>Activity Map で s_objectID を使用する場合、末尾のセミコロン（;）は必須です。
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -90,7 +90,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 
 "Buy" リンクごとに独自の領域を定義することにより、領域をカスタマイズできます。これを行うには、"Buy" アンカータグごとに、親の 1 つに "id" パラメーターを追加します。
 
-> [!NOTE] 領域識別子として「id」パラメーターに厳密に制限されるわけではありません。 また、JavaScript変数「s.ActivityMap.regionIDAttribute」を使用して独自の識別子を設定することもできます。
+> [!NOTE]領域 ID は、"id" パラメーターに厳密に制限されているわけではありません。JavaScript の変数 "s.ActivityMap.regionIDAttribute" を使用して独自の ID を設定することもできます。
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
@@ -125,9 +125,9 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 
 >[!CAUTION]
 >
->変更したコードをテストし、正しく動作することを確認してください。 変更後のコードの動作については、アドビでは一切責任を負いません。
+>必ず、変更したコードをテストして、適切に機能することを確認してください。変更後のコードの動作については、アドビでは一切責任を負いません。
 
-以下に、AppMeasurement.jsファイルに（変更された形式で）含めることができる**汎用**リンク/領域関数の例を示します。
+AppMeasurement.js ファイルに（変更した形式で）含めることのできる **一般的な** リンク／領域関数の例を 2 つ示します。
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
