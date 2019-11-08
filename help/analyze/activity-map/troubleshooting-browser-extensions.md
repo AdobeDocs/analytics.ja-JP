@@ -6,15 +6,15 @@ solution: Analytics
 title: ブラウザー拡張のトラブルシューティング
 topic: Activity Map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
-# ブラウザー拡張機能のトラブルシューティング
+# ブラウザー拡張のトラブルシューティング
 
-Activity mapの使用と互換性のないブラウザーパラメーターを表示します。 これらの設定は無効にする必要があります。
+Activity Map の使用と互換性のないブラウザーのパラメーターを示します。これらの設定は無効にする必要があります。
 
 ## Chrome
 
