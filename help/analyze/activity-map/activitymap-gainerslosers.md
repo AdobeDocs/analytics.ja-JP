@@ -6,7 +6,7 @@ solution: Analytics
 title: カスタマイズ可能なオーバーレイ
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -30,7 +30,7 @@ Activity Map では次の 3 つのタイプのオーバーレイが提供され�
 
 オーバーレイにカーソルを合わせると、その[詳細](/help/analyze/activity-map/activitymap-overlay-details.md)が表示されます。
 
-## Gradient overlay (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
+## グラデーションオーバーレイ（ヒートマップ） {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 グラデーションオーバーレイでは、色の強度はリンクの人気度に基づきます。この強度は、上位 30 件、または指標絶対値の関数に合わせて標準化できます。
 
@@ -42,7 +42,7 @@ Activity Map では次の 3 つのタイプのオーバーレイが提供され�
 
 ![](assets/gradient.png)
 
-## Bubble overlay {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
+## バブルオーバーレイ {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
 
 バブルオーバーレイは、オーバーレイの内容（指標、割合またはランク）を、小さい引き出し線のバブルで表示します。
 
@@ -50,13 +50,13 @@ Activity Map では次の 3 つのタイプのオーバーレイが提供され�
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] サブメニューのバブルオーバーレイは、サブメニューを表示する場合にのみ表示されます。
+> [!NOTE]サブメニューのバブルオーバーレイは、サブメニューを表示したときにのみ表示されます。
 >
 >![](assets/bubbles_submenu.png)&gt;
 
-## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
+## 勝者および敗者のオーバーレイ {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL 勝者および敗者のオーバーレイは]** 、ライブモードでのみ使用できます。 現在の期間の指標を直前の期間の指標と比較することにより、リンクアクティビティのリアルタイムの変化を報告します。これにより、視覚的に説得力のある方法で、トレンドをリアルタイムで表示できます。
+**[!UICONTROL 勝者および敗者のオーバーレイ]**&#x200B;は、ライブモードでのみ利用可能です。現在の期間の指標を直前の期間の指標と比較することにより、リンクアクティビティのリアルタイムの変化を報告します。これにより、視覚的に説得力のある方法で、トレンドをリアルタイムで表示できます。
 
 このリアルタイムのオーバーレイでは、前回の期間と現在の期間の間の指標値の変化に基づいてクリック数をランク付けします。
 
