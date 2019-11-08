@@ -1,12 +1,12 @@
 ---
-description: 'Activity Map UIは、2つの部分で構成されています '
-seo-description: 'Activity Map UIは、2つの部分で構成されています '
+description: 'Activity Map の UI は、次の 2 つの部分で構成されています。 '
+seo-description: 'Activity Map の UI は、次の 2 つの部分で構成されています。 '
 seo-title: Activity Map ユーザーインターフェイス
 solution: Analytics
 title: Activity Map ユーザーインターフェイス
 topic: Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -19,7 +19,7 @@ Activity Map の UI は、次の 2 つの部分で構成されています。
 * Web ページと、挿入されたオーバーレイおよびツールバーを表示する上部ウィンドウ
 * レポートを表示する下部パネル
 
-## Top panel {#section_2DA8ACD35D4C4ACBA32C13EFB5317E7C}
+## 上部パネル {#section_2DA8ACD35D4C4ACBA32C13EFB5317E7C}
 
 上部には、Web ページと、[挿入されたツールバー](/help/analyze/activity-map/activitymap-standard-live.md)および[リンクオーバーレイ](/help/analyze/activity-map/activitymap-gainerslosers.md)が表示されます。バブルのランクがリンク上に表示され、合計クリック数を確認できます。
 
@@ -27,7 +27,7 @@ Activity Map の UI は、次の 2 つの部分で構成されています。
 
 リンクの追加の詳細は、それぞれのリンクオーバーレイにカーソルを合わせるとアクセスできます。
 
-## Bottom reports panel {#section_21B129D69B7A4F918E975E8E66DB02EE}
+## 下部レポートパネル {#section_21B129D69B7A4F918E975E8E66DB02EE}
 
 ページの下部には、[ページ上のリンク](/help/analyze/activity-map/activitymap-links-report.md)レポートと[ページの詳細](/help/analyze/activity-map/activitymap-page-flow.md)レポートが表示され、現在の Web ページの概要およびページフローの情報を確認できます。
 
