@@ -6,7 +6,7 @@ solution: Analytics
 title: リンクレポート
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ページ上のリンクレポートリンクのクリック数（またはその他の指標）のランクを 1 つのビューで表示したい場合があります。こうすると、リンク同士を比較しやすくなります。ページ上のすべてのリンクのランクリスト（リンク ID 別）、クリック情報（回数と割合）、ページ内の領域を含むページ上のリンクレポートを作成します。Activity Map ツールバーの「ページ上のリンク」レポートボタンをクリックします。
 
-ブラウザーフレームの下の Activity Map ダッシュボードに、**[!UICONTROL ページ上のリンク]レポートが開きます。**
+ブラウザーフレームの下の Activity Map ダッシュボードに、**[!UICONTROL ページ上のリンク]**&#x200B;レポートが開きます。
 
-## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
+## 標準モード {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
 ![](assets/links_in_page.png)
 
@@ -40,7 +40,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
   </tr> 
   <tr> 
    <td colname="col1"> リンク ID </td> 
-   <td colname="col2">リンクのプライマリID(プライマリIDの定義方法について詳しくは、[新しいリンクトラッキング手法](/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
+   <td colname="col2">リンクのプライマリ ID（新しいリンクトラッキング手法によるプライマリ ID の定義方法について詳しくは、[新しいリンクトラッキング手法] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) を参照）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> クリック数 </td> 
@@ -63,11 +63,11 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **データをフィルター**
 
-特定のリンクに的を絞る場合は、「**[!UICONTROL データをフィルター]」フィールドで関連する用語を検索できます。**&#x200B;検索条件に一致するリンクのみがオーバーレイを持ちます。フィルターがない場合は、「[Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md)」で指定されているオーバーレイが表示されます。
+特定のリンクに的を絞る場合は、「**[!UICONTROL データをフィルター]**」フィールドで関連する用語を検索できます。検索条件に一致するリンクのみがオーバーレイを持ちます。フィルターがない場合は、「[Activity Map Settings](/help/analyze/activity-map/activitymap-overlay-settings.md)」で指定されているオーバーレイが表示されます。
 
-## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
+## ライブモード {#section_AC1967217B5A4532ACB01D33636F6770}
 
-ライブモードでは、ページ上のリンクレポートに数分間のトレンドデータが表示されます。
+ライブモードでは、ページ上のリンクレポートに、数分間にわたるトレンドデータが表示されます。
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
   </tr> 
   <tr> 
    <td colname="col1"> リンク ID </td> 
-   <td colname="col2">リンクのプライマリ ID。プライマリIDが新しい[リンクトラッキング手法](/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodology.md)で定義される方法について詳しくは、を参照してください。 </td> 
+   <td colname="col2">リンクのプライマリ ID。プライマリ ID の定義方法について詳しくは、新しい[リンクトラッキング手法] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodology.md) を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> リンククリック数 </td> 
@@ -114,7 +114,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
  </tbody> 
 </table>
 
-## Sorting and filtering {#section_4B8E8233C21247CAA70DAEC2156548AD}
+## 並べ替えとフィルター {#section_4B8E8233C21247CAA70DAEC2156548AD}
 
 特定のページ領域（左パネルなど）の結果のみを分析して、Web ページのその領域のコンテンツをどのように構成するか判断することが必要になる場合があります。
 
