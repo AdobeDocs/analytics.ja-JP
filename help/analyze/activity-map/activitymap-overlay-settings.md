@@ -6,7 +6,7 @@ solution: Analytics
 title: Activity Map の設定
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -20,12 +20,12 @@ Activity Map Settings パネルにアクセスするには、Activity Map ツー
 
 設定パネルの表示内容は、選択したアプリケーションモードによって異なります。「その他」タブには一般的な設定が含まれています。
 
-| 標準 | **[!UICONTROL グラデーション]**&#x200B;オーバーレイまたは&#x200B;**[!UICONTROL バブル]オーバーレイ** |
+| 標準 | **[!UICONTROL グラデーション]**&#x200B;オーバーレイまたは&#x200B;**[!UICONTROL バブル]**&#x200B;オーバーレイ |
 |---|---|
-| ライブ | **[!UICONTROL 勝者と敗者]**、グラデー **[!UICONTROL ション]**、バブル **** オーバーレイ |
+| ライブ | **[!UICONTROL 勝者＆敗者]**&#x200B;オーバーレイ、**[!UICONTROL グラデーション]**&#x200B;オーバーレイ、**[!UICONTROL バブル]**&#x200B;オーバーレイ |
 | その他 | レポートスイートの選択と言語の選択 |
 
-## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
+## 標準モードのオーバーレイの設定 {#section_24DB95376E1A448494ECF3F57743FC19}
 
 ![](assets/settings_standard.png)
 
@@ -49,7 +49,7 @@ Activity Map Settings パネルにアクセスするには、Activity Map ツー
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> ラベルのフォントサイズ</span> </td> 
-   <td colname="col3"> スライダーを使用して、オーバーレイラベルのフォントサイズを読みやすいように拡大、縮小します。 </td> 
+   <td colname="col3"> スライダーを使用して、オーバーレイラベルのフォントサイズを読みやすいように拡大、縮小できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 表示</span> </td> 
@@ -57,7 +57,7 @@ Activity Map Settings パネルにアクセスするには、Activity Map ツー
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">ヒットのなかったリンクのオーバーレイを非表示にします。</span> </td> 
-   <td colname="col3"> このチェックボックスでは、ヒットのなかったリンクのオーバーレイを非表示にして、インターフェイスを整理できます。 </td> 
+   <td colname="col3"> このチェックボックスを使用すると、ヒットのなかったリンクのオーバーレイを非表示にして、インターフェイスを整理できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> グラデーションの色／バブルの色</span> </td> 
@@ -78,18 +78,18 @@ Activity Map Settings パネルにアクセスするには、Activity Map ツー
  </tbody> 
 </table>
 
-## Settings for live mode overlays {#section_D30F6E62FB5D404090B588F396A460AF}
+## ライブモードのオーバーレイの設定 {#section_D30F6E62FB5D404090B588F396A460AF}
 
 ![](assets/settings_live.png)
 
 | 設定 | 説明 |
 |---|---|
-| **[!UICONTROL 上位を表示]** | Select number of links to display (or all) and the **[!UICONTROL Gainers]** or **[!UICONTROL Losers]** (or both) to display as overlays. |
+| **[!UICONTROL 上位を表示]** | 表示するリンクの数（またはすべて）と、オーバーレイとして表示するものとして「**[!UICONTROL 勝者]**」または「**[!UICONTROL 敗者]**」（または両方）を選択します。 |
 | **[!UICONTROL 下位を除外（％）]** | データの少ない勝者と敗者のリンクを排除します。下位のほうから指定した割合のリンク変更をフィルターで除外して、意味のある増減を示すデータが十分に含まれているリンクのみを表示します。割合は、ページ上のリンク数に基づいて計算されます。例えば、200 リンクのリストの下位 10% をフィルターで除外すると、最後の 20 リンクが除外されます。 |
-| **[!UICONTROL データを自動更新]** | 新しい期間を計算するときに、インターフェイスに表示されている Analytics データを自動的に更新するかどうかを指定できます。 |
+| **[!UICONTROL データを自動更新]** | 新しい期間を計算する際に、インターフェイスに表示されている Analytics データを自動的に更新するかどうかを指定できます。 |
 | **[!UICONTROL 自動更新期間]** | チェックすると、新しいデータを取得するたびに Web ページが更新され、ページ上のリンクを収集されたデータとより密接に同期できます。 |
 
-## Other settings {#section_697A12F099494D699A4BF498598178C5}
+## その他の設定 {#section_697A12F099494D699A4BF498598178C5}
 
 ![](assets/settings_other.png)
 
@@ -97,7 +97,7 @@ Activity Map Settings パネルにアクセスするには、Activity Map ツー
  <tbody> 
   <tr> 
    <td colname="col1"> レポートスイート </td> 
-   <td colname="col2"> <p>アクセス可能なレポートスイートリストはウェブページタグで定義されるレポートスイートに制限されなくなりました。選択したレポートスイート（ページ上のタグのいずれかに対応）を別のレポートスイートで置き換えることができるようになりました。この新しいレポートスイートは、ページ上のタグにリンクされる必要はありません。Activity Map の設定で選択されているレポートスイートを変更した場合、<span class="uicontrol">保存</span>処理を行うと、影響を受ける Analytics レポートがすべて更新されます。 </p> <p> <p>重要：仮想レポートスイートは、ライブモードとは互換性がなく、標準モードのみと互換性があります。標準レポートスイートのライブモードのときに、このダイアログで仮想レポートスイートを選択した場合、ここで「<span class="uicontrol">OK</span>」をクリックすると、標準モードが表示されます。 </p> </p> <p>さらに、レポートスイートのカレンダータイプ（グレゴリオ暦、小売、カスタムなど）に一致するように、カレンダーコントロールが再初期化されます。 </p> </td> 
+   <td colname="col2"> <p>アクセス可能なレポートスイートリストはウェブページタグで定義されるレポートスイートに制限されなくなりました。選択したレポートスイート（ページ上のタグのいずれかに対応）を別のレポートスイートで置き換えることができるようになりました。この新しいレポートスイートは、ページ上のタグにリンクされる必要はありません。Activity Map の設定で選択されているレポートスイートを変更した場合、<span class="uicontrol">保存</span>処理をおこなうと、影響を受ける Analytics レポートがすべて更新されます。 </p> <p> <p>重要：仮想レポートスイートは、ライブモードとは互換性がなく、標準モードのみと互換性があります。標準レポートスイートのライブモードのときに、このダイアログで仮想レポートスイートを選択した場合、ここで「<span class="uicontrol">OK</span>」をクリックすると、標準モードが表示されます。 </p> </p> <p>さらに、レポートスイートのカレンダータイプ（グレゴリオ暦、小売、カスタムなど）に一致するように、カレンダーコントロールが再初期化されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 言語 </td> 
