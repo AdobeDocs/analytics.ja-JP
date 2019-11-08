@@ -6,7 +6,7 @@ solution: Analytics
 title: ページの詳細
 topic: Activity Map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/page_flow.png)
 
-## Page report {#section_2335A9EFE57B4A7687B397DF2098CC6B}
+## ページレポート {#section_2335A9EFE57B4A7687B397DF2098CC6B}
 
 このパネルは、訪問があった Web ページに関連するトラフィック指標を表示します。Analytics ページタグが実装されていない Web ページを訪問した場合は、このパネルは表示されません。
 
-## Page Flow report {#section_D6EDE78CF7124758BF846E57ADABA234}
+## ページフローレポート {#section_D6EDE78CF7124758BF846E57ADABA234}
 
 左側には「前のページ」と「外部リファラー」が表示され、これを交互に展開して各カテゴリの上位 4 つのエントリを表示できます。
 
