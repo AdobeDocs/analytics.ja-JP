@@ -1,42 +1,42 @@
 ---
-description: AppMeasurement 3.x for Android
-seo-description: AppMeasurement 3.x for Androidのレガシードキュメント
-seo-title: AppMeasurement 3.x for Android
+description: AppMeasurement 3.x for ios
+seo-description: AppMeasurement 3.x for iosのレガシードキュメント
+seo-title: AppMeasurement 3.x for ios
 solution: Analytics
 subtopic: ブックマーク
-title: AppMeasurement 3.x for Android
+title: AppMeasurement 3.x for ios
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 595efd52fe3b8edae32d8b3c2216ea066ec642be
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# AppMeasurement 3.x for Android
+# AppMeasurement 3.x for iOS
 
-*注意：このドキュメントには、AppMeasurementの以前のバージョン、特にAndroidのバージョン3.x向けのレガシー情報が含まれています。
+*注意：このドキュメントには、AppMeasurementの以前のバージョン（特にiOS用バージョン3.x向け）に関するレガシー情報が含まれています。
 現在のAppMeasurement実装について詳しくは、Javascript版AppMeasurementに[ついてを参照してください](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。*
 
-*2018年3月16日AppMeasurement 3.x for Androidの最終更新日*
+*2018年3月16日AppMeasurement 3.x for iOSの最終更新日*
 
-Adobe AppMeasurement for Androidでは、Adobe Experience cloudでネイティブAndroidアプリケーションの測定を実行できます。
+Adobe appMeasurement for iOSを使用すると、Adobe Experience cloudでネイティブのApple iPhoneおよびiPadアプリケーションの測定を行うことができます。
 
-本書は二つの部分に分かれている。adobe Analyticsのエクスペリエンスを持つアナリスト向けの1つのセクションと、モバイルアプリの開発エクスペリエンスを持つAndroid開発者向けの1つのセクションです。
+本書は二つの部分に分かれている。adobe Analyticsのエクスペリエンスを持つアナリスト向けの1つのセクションと、モバイルアプリの開発エクスペリエンスを持つiOS開発者向けの1つのセクションです。
 
-**サポート対象バージョン**:Android 2.0以降。
+**サポート対象バージョン**:iOS 4.3以降。
 
-**すべてのAppMeasurementモバイルプラ**&#x200B;ットフォームのライブラリのダウンロード手順とリンクは、Developer Connectionの測定と最適化モバイルアプリケーションページで入手できます。 ライブラリをダウンロードするには、無料の Developer Connection アカウントまたは SiteCatalyst ログインが必要です。ダウンロードリンクはログインしないと表示されません。
+**すべてのAppMeasurementモバイルプラ**&#x200B;ットフォームのライブラリのダウンロード手順とリンクは、Developer Connectionの測定と最適化モバイルアプリケーションページで入手できます。 ライブラリをダウンロードするには、無料の Developer Connection アカウントまたは Reports &amp; Analytics ログインが必要です。ダウンロードリンクはログインしないと表示されません。
 
 ## アナリストクイックスタート
 
-Android ライブラリの実装、および標準的な実装に必要となるコードの追加に関する手順を説明します。カスタムイベントやその他のデータの送信方法を示す手順も含まれています。
+iOS ライブラリの実装、および標準的な実装に必要となるコードの追加に関する手順を説明します。カスタムイベントやその他のデータの送信方法を示す手順も含まれています。
 
 アナリストとしてご使用の場合は、モバイルアプリケーションレポートをレポートスイートで有効にする必要があります。レポートの収集指標を追加したい場合は、どのようなコンテキストデータ変数をアプリケーションから送りたいかを開発者に詳しくお伝えください。例えば、ログイン後のユーザー名を収集するために、`myco.username` というコンテキストデータ変数にユーザー名を設定するように開発者に指示します。
 
-### SiteCatalyst でのモバイルアプリケーションレポートの有効化
+### Analytics でのモバイルアプリケーションレポートの有効化
 
-SiteCatalyst には、モバイルアプリのライフサイクル追跡機能を有効にするためのインターフェイスが用意されています。この追跡機能のマッピングによって、SiteCatalyst ではモバイルアプリケーションレポートが自動的に生成されます。
+Analytics には、モバイルアプリのライフサイクル追跡機能を有効にするためのインターフェイスが用意されています。この追跡機能のマッピングによって、Analytics ではモバイルアプリケーションレポートが自動的に生成されます。
 
 1. 管理コンソール／レポートスイート／設定の編集／モバイル管理／モバイルアプリケーションレポートを開きます。
 1. 「モバイルアプリのライフサイクル追跡を有効にする」をクリックします。
@@ -57,19 +57,17 @@ SiteCatalyst には、モバイルアプリのライフサイクル追跡機能�
 
 オフライン追跡を有効にした後、すべてのヒットにタイムスタンプを付ける必要があります。タイムスタンプのないヒットは収集されません。現在、同じレポートスイートで JavaScript と AppMeasurement からデータを収集している場合は、データの消失を防ぐためにモバイルデータのレポートスイートを個別に設定するか、s.timestamp 変数を使用して JavaScript からのデータにカスタムタイムスタンプを入れてください。
 
-レポートスイートでタイムスタンプが有効になっているかどうかがわからない場合は、ClientCareにお問い合わせください。
+レポートスイートでタイムスタンプが有効になっているかどうかがわからない場合は、カスタマーケアにお問い合わせください。
 
 ## 開発者クイックスタート
 
-Android データの収集に使用するイベント、eVar および prop の選択と設定に関する手順を説明します。Android ライブラリから送信されたコンテキストデータをこれらの変数にコピーするための処理ルールの作成手順も含まれています。
-
-Androidライブラリを実装し、測定データの送信を開始する手順は次のとおりです。
+iOSライブラリを実装し、測定データの送信を開始する手順を説明します。次に例を示します。
 
 * ライブラリの取得
 * プロジェクトへのライブラリの追加
-* アプリの権限の追加
 * TrackingHelper の概要
 * 実装
+
 
 ### ライブラリの取得
 
