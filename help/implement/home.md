@@ -1,19 +1,37 @@
 ---
-title: Analytics 実装ヘルプ
-seo-title: Analytics 実装ヘルプ
+title: モバイルデバイス用のAnalyticsの実装
+seo-title: モバイルデバイス用のAnalyticsの実装
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# Analytics 実装ガイド
+# モバイルデバイス用のAnalyticsの実装
 
 ![バナー](../../assets/doc_banner_implement.png)
 
-このガイドでは、様々な Adobe Analytics 実装方法を説明します。
+モバイルデバイス用のAnalyticsを実装するには、SDKリポジトリとドキュメントの次のリストを参照してください。
+
+エクスペリエンスプラットフォームSDK
+
+
+エクスペリエンスプラットフォームSDK
+
+エクスペリエンスプラットフォームSDKドキュメント
+
+SDK 4.x:
+
+4.x SDKドキュメント
+
+3.x SDKドキュメント：モバイルデバイス用の3.x Analytics SDKはサポートされなくなりましたが、次のドキュメントにアクセスできます。
+
+
+
+
+
 
 * **Adobe Experience Platform Launch：** Adobe Analytics を実装するための標準化されたお勧めの方法です。各ページにローダータグを配置し、Launch のインターフェイスを使用して、各変数の定義方法を決定します。
 * **Dynamic Tag Management：** Launch の前に使用されていた方法です。DTM は、似たようなインターフェイスを使用して Analytics を実装しますが、今後は更新されず、柔軟ではありません。アドビでは、Adobe Analytics の実装には Launch を使用することをお勧めします。
