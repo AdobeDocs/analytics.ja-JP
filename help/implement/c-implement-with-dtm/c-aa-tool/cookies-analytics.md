@@ -7,7 +7,7 @@ solution: Experience Cloud, Analytics, Dynamic Tag Management
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 9b946238b48fa4532d136d2f7aa0187fdabd005b
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 Adobe Analytics に [!UICONTROL Dynamic Tag Management] をデプロイする際に使用される Cookie のグローバル設定に関するフィールドの説明です。
 
-**[!UICONTROL *`Property`*]**／**[!UICONTROL   ![](assets/settings_gear.png)
-
-ツールを編集]**／**[!UICONTROL Cookie]**
+*`Property`* /ツールを編集/Cookie
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
