@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 実装ガイド
 user-guide-url: /content/help/ja-JP/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
+source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
 
 ---
 
@@ -191,7 +191,7 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
       + [getVisitStart](js-implementation/plugins/getvisitstart.md)
       + [hitGovernor](js-implementation/plugins/hitgovernor.md)
       + [モジュールの統合](js-implementation/plugins/integrate.md)
-      + [社内トラフィック](js-implementation/plugins/internal-traffic.md)
+      + [内部トラフィック](js-implementation/plugins/internal-traffic.md)
       + [performanceTiming](js-implementation/plugins/performancetiming.md)
       + [trackTNT](js-implementation/plugins/tracktnt.md)
    + パス {#pathing}
@@ -217,7 +217,7 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
       + [デバイス間の訪問者の識別によるデータの影響](js-implementation/xdevice-visid/xdevice-data.md)
       + [訪問の例](js-implementation/xdevice-visid/visit-example.md)
       + [訪問者](js-implementation/xdevice-visid/visitors.md)
-      + [訪問](js-implementation/xdevice-visid/visits.md)
+      + [訪問回数](js-implementation/xdevice-visid/visits.md)
       + [セグメントの作成](js-implementation/xdevice-visid/segments.md)
       + [地域特性データ](js-implementation/xdevice-visid/geo-data.md)
       + [アトリビューションと持続性](js-implementation/xdevice-visid/variable-persistence.md)
@@ -264,3 +264,4 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + [レポートと変数との対応関係](impl-testing/report-variable-mapping.md)
    + [変数とレポートとの対応関係](impl-testing/var-report-mapping.md)
 + [デジタルアシスタント向け Analytics ](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [モバイルデバイス用のAnalyticsの実装](mobile-device-sdk.md)
