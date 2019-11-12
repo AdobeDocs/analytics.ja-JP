@@ -1,10 +1,10 @@
 ---
 title: Analytics 管理ヘルプ
 seo-title: Analytics 製品比較
-description: 'null'
-seo-description: 'null'
+description: 管理コンソールでのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics管理者向けの管理ヘルプ。
+seo-description: 管理コンソールでのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics管理者向けの管理ヘルプ。
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
 
 ---
 
@@ -12,6 +12,8 @@ source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 # Analytics 管理ガイド
 
 ![バナー](/assets/doc_banner_admin.png)
+
+このヘルプは、Adobe Analyticsの管理者を対象としています。 管理コンソールでのユーザーと製品の管理、レポートスイート、変数、分類、データ収集の設定に関するヘルプが含まれます。
 
 Adobe Analytics には、現在、管理者向けの以下の 2 つの領域があります。
 
