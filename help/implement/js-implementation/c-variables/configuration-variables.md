@@ -9,7 +9,7 @@ title: 設定変数
 topic: 開発者と実装
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -68,7 +68,7 @@ source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html):ファイル拡張子のコンマ区切りリストを含めます。
 
-* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html):サイトの一部であるリンクを表すフィルターのコンマ区切りリストが含まれます。
+* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackintfilters.html):サイトの一部であるリンクを表すフィルターのコンマ区切りリストが含まれます。
 
 * [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linklvqrystring.html):クエリ文字列を離脱リンクおよびファイルのダウンロード数レポートに含めるかどうかを決定します。
 
@@ -77,4 +77,3 @@ source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html):離脱リンクの特定のサブセットに関するレポートを作成するために使用します。
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html):各イメージリクエ `s_doPlugins` ストの前に関数を呼び出します。
-
