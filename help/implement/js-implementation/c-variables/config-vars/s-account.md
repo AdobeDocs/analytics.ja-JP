@@ -5,16 +5,17 @@ seo-description: 動的変数を使用すると、サイトのイメージリク
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
 
-# s.account
+# s.useForcedLinkTracking
+
 
  変数は、データの保存とレポートをおこなうレポートスイートを決定します。
 
-If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. レポートスイート ID はアドビが決定します。
+複数のレポートスイート（複数スイートタギング）に送信している場合、`s.account` は値のカンマ区切りリストになることがあります。レポートスイート ID はアドビが決定します。
 
 ## パラメーター
 
@@ -26,11 +27,11 @@ If sending to multiple report suites (multi-suite tagging), `s.account` may be a
 
 レポートスイートは、レポーティングにおける最も基本的なレベルのセグメントです。レポートスイートは、契約で許される限り、いくらでも設定可能です。各レポートスイートは、アドビの収集サーバー上で確保されたデータ領域を参照します。レポートスイートは JavaScript コード内の`s_account` 変数によって指定されます。
 
-[!DNL Analytics] 内では、レポートのヘッダー右上に現在のレポートスイートが表示されます。各レポートスイートは、レポートスイート ID と呼ばれる一意の識別子を持ちます。The `s_account` variable contains one or more report suite IDs to which data is sent. このレポートスイート ID 値（[!DNL Analytics] ユーザーは見ることができない）は、使用の前にアドビから提供または承認される必要があります。すべてのレポートスイート ID には「わかりやすい名前」が関連付けられています。この名前は、[!DNL Admin Console] のレポートスイートセクションで変更することができます。
+[!DNL Analytics] 内では、レポートのヘッダー右上に現在のレポートスイートが表示されます。各レポートスイートは、レポートスイート ID と呼ばれる一意の識別子を持ちます。`s_account` 変数には、データが送信される 1 つ以上のレポートスイート ID が含まれます。このレポートスイート ID 値（[!DNL Analytics] ユーザーは見ることができない）は、使用の前にアドビから提供または承認される必要があります。すべてのレポートスイート ID には「わかりやすい名前」が関連付けられています。この名前は、[!DNL Admin Console] のレポートスイートセクションで変更することができます。
 
-The `s_account` variable is normally declared inside the JavaScript file (s_code.js). You can declare the  variable on the HTML page, which is a common practice when the value of  may change from page to page. `s_account``s_account`Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
+`s_account` 変数は、通常、JavaScript ファイル（s_code.js）内で宣言されます。`s_account`変数は HTML ページで宣言できます。これは、`s_account` の値がページごとに変わる場合の一般的な方法です。`s_account` 変数はグローバルスコープなので、アドビの JavaScript ファイルを含める直前に宣言する必要があります。`s_account` に値が含まれていない場合、データは [!DNL Analytics] に送信されません。
 
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. 場合によっては、の値も112.2o7.net `s_account` より前のドメインに表示されることがあります。 パスの値が、送信先レポートスイートを決定する唯一の値です。次のボールドテキストは、デバッガーに表示される、データの送信先であるレポートスイートを示しています。詳しくは、 [DigitalPulse Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
+アドビの [!DNL DigitalPulse Debugger]には、`s_account` の値が表示されます。この値は、「Image」という語句のすぐ下、/b/ss/ の直後に示されます。場合によっては、`s_account` の値もドメイン（112.2o7.net より前）に表示されることがあります。パスの値が、送信先レポートスイートを決定する唯一の値です。次のボールドテキストは、デバッガーに表示される、データの送信先であるレポートスイートを示しています。詳しくは、「[DigitalPulse Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)」を参照してください。
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
@@ -45,7 +46,7 @@ https://mycompany.112.207.net/b/ss/
 var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
 ```
 
-のすべての値は、ア `s_account` ドビが提供または承認する必要があります。
+`s_account` のすべての値は、アドビが提供または承認する必要があります。
 
 ## 例
 
@@ -63,10 +64,10 @@ var s_account="mycompanycom,mycompanysection"
 
 ## 注意事項、質問、ヒント
 
-* If `s_account` is empty, not declared, or contains an unexpected value, no data is collected.
-* When the `s_account` variable is a comma-separated list (multi-suite tagging), do not put spaces between report suite IDs.
-* If [!UICONTROL s.dynamicAccountSelection] is set to *True* the URL is used to determine the destination report suite. 送信先レポートスイートを確認する場合は、[!DNL DigitalPulse Debugger] を使用してください。
+* `s_account` が空の場合、宣言されていない場合、または予期しない値が含まれている場合、データは収集されません。
+* `s_account` 変数をコンマ区切りリスト（マルチスイートタギング）で複数指定する場合、レポートスイート ID の間にスペースを挿入しないでください。
+* [!UICONTROL s.dynamicAccountSelection] が「*True*」に設定されている場合は、URL を使用して送信先レポートスイートが決定されます。送信先レポートスイートを確認する場合は、[!DNL DigitalPulse Debugger] を使用してください。
 
 * 場合によっては、[!DNL VISTA] を使用して送信先レポートスイートを変更することができます。ファーストパーティ cookie を使用する場合、またはサイトに 20 を超えるアクティブなレポートスイートがある場合は、[!DNL VISTA] を使用して別のレポートスイートにデータを再ルーティングまたはコピーすることを推奨します。
 
-* Always declare `s_account` inside the JS file or just before it is included.
+* `s_account` は常に JS ファイル内、または JS ファイルが含まれる直前に宣言します。
