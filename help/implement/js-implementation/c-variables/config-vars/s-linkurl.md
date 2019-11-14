@@ -1,20 +1,20 @@
 ---
 description: 動的変数を使用すると、サイトのイメージリクエストで完全な値を複数回入力することなく、ある変数の値を別の変数にコピーできます。
-keywords: Analytics の実装
+keywords: Analytics Implementation
 seo-description: 動的変数を使用すると、サイトのイメージリクエストで完全な値を複数回入力することなく、ある変数の値を別の変数にコピーできます。
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 2d8b6c453ba11fa14bec86f3ebaef9a47388cf2f
 
 ---
 
 
 # s-linkURL
 
-リンクの URL。linkName がない場合には名前として使用されます。どの URL 文字列にも設定できます。これはイメージリクエストの `pev1` パラメーターです。
+The URL of the link, which acts as the name if a `linkName` does not exist. どの URL 文字列にも設定できます。これはイメージリクエストの `pev1` パラメーターです。
 
-If set with `linkType`, an image request will be sent as a download, custom or exit link.
+If set with `linkType`, an image request will be sent as a download, custom, or exit link.
 
 **例**
 
