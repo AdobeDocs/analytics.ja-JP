@@ -1,0 +1,34 @@
+---
+description: ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。
+keywords: Analytics Implementation
+solution: Analytics
+subtopic: Variables
+title: ページ変数
+topic: null
+uuid: null
+translation-type: tm+mt
+source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+
+---
+
+
+
+# javaEnabled
+
+ 変数は、Java がブラウザーで有効になっているかどうかを示します。
+
+<!-- 
+
+javaEnabled.xml
+
+ -->
+
+この変数は、ページコードが開始されてから doPlugins が実行されるまでの間に設定されます。
+
+> [!NOTE]この変数は読み取り専用です。設定しないでください。
+
+これらの値を読み取り、prop または eVar にコピーすることは可能ですが、値の変更はしないでください。この変数は、JavaScript ファイルのバージョン H.11 で導入されました。
+
+| クエリパラメーター | 値 | 例 | 影響を受けるレポート |
+|---|---|---|---|
+| v | Y または N | Y | トラフィック／技術／Java |
