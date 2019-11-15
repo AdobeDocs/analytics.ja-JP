@@ -1,10 +1,10 @@
 ---
 description: 動的変数を使用すると、サイトのイメージリクエストで完全な値を複数回入力することなく、ある変数の値を別の変数にコピーできます。
-keywords: Analytics の実装
+keywords: Analytics Implementation
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
     * `e` （終了）
     * `o` （カスタム/その他）
 
-これはイメージリクエストの `pe` パラメーターです。`linkURL` または `linkName` と共に設定される場合、サーバーコールはダウンロードリンク、カスタムリンクまたは離脱リンクとして送信されます。
+これはイメージリクエストの `pe` パラメーターです。If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
 
 *注意：各リンクタ[`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)イプがページビューではなく、関連するページ名を持たないので、ファイルのダウンロード数、離脱リンクまたはカスタムリンクに対して変数を設定することはできません。*
 
