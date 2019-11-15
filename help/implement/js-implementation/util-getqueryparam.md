@@ -1,15 +1,13 @@
 ---
 description: 現在のページ URL または入力文字列に指定したクエリ文字列パラメーターが含まれる場合、その値を返します。
-keywords: Analytics の実装
-seo-description: 現在のページ URL または入力文字列に指定したクエリ文字列パラメーターが含まれる場合、その値を返します。
-seo-title: Util.getQueryParam
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
