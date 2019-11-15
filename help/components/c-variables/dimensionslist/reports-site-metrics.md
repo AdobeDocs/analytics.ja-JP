@@ -1,13 +1,11 @@
 ---
 description: サイト指標レポートには、Web サイトの定量情報が表示されます。例えば、訪問者のページ閲覧回数、特定のページからの購入回数、ページ閲覧時間、売上高などの定量データが表示されます。これらの各レポートはその他の項目ベースのレポートに設定できる指標です。
-seo-description: サイト指標レポートには、Web サイトの定量情報が表示されます。例えば、訪問者のページ閲覧回数、特定のページからの購入回数、ページ閲覧時間、売上高などの定量データが表示されます。これらの各レポートはその他の項目ベースのレポートに設定できる指標です。
-seo-title: サイト指標
 solution: Analytics
 title: サイト指標
-topic: レポート
+topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
