@@ -1,13 +1,11 @@
 ---
 description: オーバーレイの詳細は、リンクオーバーレイにカーソルを合わせたときに表示されます。
-seo-description: オーバーレイの詳細は、リンクオーバーレイにカーソルを合わせたときに表示されます。
-seo-title: オーバーレイの詳細
 solution: Analytics
 title: オーバーレイの詳細
-topic: Activity Map
+topic: Activity map
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
