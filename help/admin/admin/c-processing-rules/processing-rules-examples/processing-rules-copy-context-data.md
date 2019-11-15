@@ -1,14 +1,12 @@
 ---
 description: 処理ルールは、コンテキストデータ変数の値を prop および eVar に移動するために使用されます。
-seo-description: 処理ルールは、コンテキストデータ変数の値を prop および eVar に移動するために使用されます。
-seo-title: コンテキストデータ変数の eVar へのコピー
 solution: Analytics
-subtopic: 処理ルール
+subtopic: Processing rules
 title: コンテキストデータ変数の eVar へのコピー
-topic: 管理ツール
-uuid: 1beac4c-71e9-49ce-b154-78408cc532a3
+topic: Admin tools
+uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
