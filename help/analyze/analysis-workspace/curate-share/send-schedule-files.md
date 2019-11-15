@@ -1,11 +1,9 @@
 ---
 description: プロジェクトの共有とキュレーションをおこなえるほか、今すぐまたはスケジュールに従って、プロジェクトファイルを（PDF または CSV 形式で）送信できます。
-seo-description: プロジェクトの共有とキュレーションをおこなえるほか、今すぐまたはスケジュールに従って、プロジェクトファイルを（PDF または CSV 形式で）送信できます。
-seo-title: プロジェクトファイルの共有およびスケジュール
 title: プロジェクトファイルの共有およびスケジュール
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
