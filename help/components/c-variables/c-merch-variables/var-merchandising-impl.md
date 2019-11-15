@@ -1,13 +1,11 @@
 ---
 description: マーチャンダイジング変数を有効にして導入する方法を説明します。
-keywords: Analyticsの実装；マーチャンダイジング；変数；製品の構文；コンバージョン変数の構文；s.products
-seo-description: マーチャンダイジング変数を有効にして導入する方法を説明します。
-seo-title: マーチャンダイジング変数の実装
+keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 solution: Analytics
 title: マーチャンダイジング変数の実装
-topic: 開発者と実装
+topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: f3c3a3c74434586f2bd8bcf3c23f488994129394
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
