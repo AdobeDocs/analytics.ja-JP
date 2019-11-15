@@ -1,13 +1,11 @@
 ---
 description: Activity Map またはレガシー ClickMap でリンクトラッキングを開始する手順です。
-seo-description: Activity Map またはレガシー ClickMap でリンクトラッキングを開始する手順です。
-seo-title: リンクトラッキングの開始
 solution: Analytics
 title: リンクトラッキングの開始
-topic: Activity Map
+topic: Activity map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ Activity Map またはレガシー ClickMap でリンクトラッキングを開
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称 Visitor ClickMap） </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 変数を true に設定します。The syntax reads as follows: 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 変数を true に設定します。構文は次のようになります。
      <code>
        s.trackInlineStats=true
      </code> </p> </td> 
