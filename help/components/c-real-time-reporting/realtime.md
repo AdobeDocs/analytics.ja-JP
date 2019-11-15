@@ -1,13 +1,11 @@
 ---
 description: Web ページのトラフィックを表示し、ページビューをリアルタイムでランク付けします。ビジネス上の意思決定の基になる実行可能なデータを提供します。
-seo-description: Web ページのトラフィックを表示し、ページビューをリアルタイムでランク付けします。ビジネス上の意思決定の基になる実行可能なデータを提供します。
-seo-title: リアルタイムレポートの概要
 solution: Analytics
 title: リアルタイムレポートの概要
-topic: レポート
+topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -57,4 +55,4 @@ After the A4T integration is enabled in Adobe [!DNL Target], you will experience
 * ライブストリーム、リアルタイムのレポートと API リクエスト、トラフィック変数の現在のデータでは、追加のデータ ID が設定されたヒットのみが遅延します。
 * コンバージョン指標の現在のデータ、ファイナライズされたデータ、データフィードでは、すべてのヒットが追加で 5 ～ 7 分遅延します。
 
-この統合を完全に実装していない場合でも、待ち時間の増加は、IDサービスを実装した後に始まることに注意してください。
+この統合を完全に実装していなくても、ID サービスを導入すると追加の待ち時間が発生することに注意してください。
