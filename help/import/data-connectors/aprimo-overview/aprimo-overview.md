@@ -1,11 +1,9 @@
 ---
 description: このAdobe® Data Connectors™電子メール統合は、Adobe Analytics®の行動情報と電子メールマーケティングを組み合わせて、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
-seo-description: このAdobe® Data Connectors™電子メール統合は、Adobe Analytics®の行動情報と電子メールマーケティングを組み合わせて、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
-seo-title: Adobe Analytics用Aprimo Data Connector
 title: Adobe Analytics用Aprimo Data Connector
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
