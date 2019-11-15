@@ -1,14 +1,12 @@
 ---
 description: プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
 keywords: Analysis Workspace
-seo-description: プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
-seo-title: Workspace プロジェクトの作成
 solution: Analytics
 title: Workspace プロジェクトの作成
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
