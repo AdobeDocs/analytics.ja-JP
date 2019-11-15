@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Adobe Campaign レポート
 title: Adobe Campaign レポート
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,7 +22,7 @@ Adobe Analytics と Adobe Campaign のこの統合により、
 * 6 個の新しい Adobe Campaign ディメンションが追加されます。
 * 15 分ごとにデータが Analytics に同期されます。
 
-## 手順 1.Adobe Campaign レポートを有効にする {#section_C685EF10505045708A6536BB13F6CD58}
+## 手順 1. Adobe Campaign レポートを有効にする {#section_C685EF10505045708A6536BB13F6CD58}
 
 Analytics で Campaign データを表示するには、最初に Campaign レポートを有効にする必要があります。
 
@@ -33,7 +31,7 @@ Analytics で Campaign データを表示するには、最初に Campaign レ�
 
    ![](assets/enable-campaign.png)
 
-## 手順 2：Adobe Campaign レポートを表示する {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
+## 手順 2. Adobe Campaign レポートを表示する {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
 The integration between Adobe Campaign Standard and Adobe Analytics adds the following report under  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**
 
@@ -52,7 +50,7 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
  </tbody> 
 </table>
 
-## 手順 3.Adobe Campaign 分類を使用する {#section_74A28AF3F4CA4091943789DE4D8B2B63}
+## 手順 3. Adobe Campaign 分類を使用する {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
 **[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポー]** トスイート **[!UICONTROL /]** Edit Suites **[!UICONTROL <select report suite>]** /Edit Edit **********[!UICONTROL Suites/Adobe Campaign Campaign Classifications Adobe Campaign Campaign Classifications]**
 
