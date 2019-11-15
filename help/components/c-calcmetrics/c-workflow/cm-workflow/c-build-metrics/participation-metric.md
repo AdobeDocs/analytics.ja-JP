@@ -1,11 +1,9 @@
 ---
 description: 計算指標ビルダーを使用して、誰でもパーティシペーション指標を作成できます。
-seo-description: 計算指標ビルダーを使用して、誰でもパーティシペーション指標を作成できます。
-seo-title: パーティシペーション指標
 title: パーティシペーション指標
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
