@@ -1,13 +1,11 @@
 ---
 description: コピー元ワークブックのスプレッドシート全体を 1 つ以上のコピー先ワークブックにコピーします。
-seo-description: コピー元ワークブックのスプレッドシート全体を 1 つ以上のコピー先ワークブックにコピーします。
-seo-title: ワークブック間でのリクエストおよびワークシートのコピー
 solution: Analytics
 title: ワークブック間でのリクエストおよびワークシートのコピー
-topic: Report Builder
+topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
