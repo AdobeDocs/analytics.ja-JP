@@ -1,14 +1,12 @@
 ---
 description: インポーターを使用して、分類をAdobe Analyticsにアップロードします。 インポートの前に、更新用にデータをエクスポートすることもできます。
-seo-description: インポーターを使用して、分類をAdobe Analyticsにアップロードします。 インポートの前に、更新用にデータをエクスポートすることもできます。
-seo-title: 分類インポーター - 概要
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 分類インポーター - 概要
-topic: 管理ツール
+topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
