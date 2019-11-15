@@ -1,13 +1,11 @@
 ---
 description: レポートスイートを作成する方法とレポートスイートの設定を新しいレポートスイートにコピーする手順について説明します。
-seo-description: レポートスイートを作成する方法とレポートスイートの設定を新しいレポートスイートにコピーする手順について説明します。
-seo-title: レポートスイートの作成
 solution: Analytics
 title: レポートスイートの作成
-topic: 管理ツール
-uuid: fada5b10-f574-4c3f-8704-679c992fc88
+topic: Admin tools
+uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
