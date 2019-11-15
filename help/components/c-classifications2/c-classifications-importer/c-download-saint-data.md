@@ -1,14 +1,12 @@
 ---
 description: （オプション）分類をマーケティングレポートにインポートする前に、分類データファイルの作成に役立つテンプレートをダウンロードできます。データファイルでは、必要な分類を列見出しとして使用し、レポートデータセットを適切な分類見出しの下に整理します。
-seo-description: （オプション）分類をマーケティングレポートにインポートする前に、分類データファイルの作成に役立つテンプレートをダウンロードできます。データファイルでは、必要な分類を列見出しとして使用し、レポートデータセットを適切な分類見出しの下に整理します。
-seo-title: 分類テンプレート
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 分類テンプレート
-topic: 管理ツール
+topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
