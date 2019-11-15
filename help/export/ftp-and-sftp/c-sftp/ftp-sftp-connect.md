@@ -1,13 +1,11 @@
 ---
 description: アドビの FTP サーバーとの安全な転送を設定するための手順です。
 keywords: ftp;sftp
-seo-description: アドビの FTP サーバーとの安全な転送を設定するための手順です。
-seo-title: SFTP を使用したアドビの FTP アカウントへの接続
 solution: Analytics
 title: SFTP を使用したアドビの FTP アカウントへの接続
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
