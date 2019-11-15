@@ -1,13 +1,11 @@
 ---
 description: Activity Map 内で複数セグメントフィルターを適用できます。
-seo-description: Activity Map 内で複数セグメントフィルターを適用できます。
-seo-title: 顧客セグメント
 solution: Analytics
 title: 顧客セグメント
-topic: Activity Map
+topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,9 +14,9 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 Activity Map 内で複数セグメントフィルターを適用できます。
 
-> [!NOTE] Adobe Analyticsプラットフォームはリアルタイムデータのセグメント化をサポートしていないので、セグメントコントロールは標準モードでのみ使用できます。
+> [!NOTE]Adobe Analytics プラットフォームではリアルタイムデータのセグメント化をサポートしていないので、セグメントコントロールは標準モードでのみ使用できます。
 
-以下に示す「**[!UICONTROL セグメント]」ドロップダウンメニューから、1 つまたは複数のセグメントを選択できます。**&#x200B;リストに表示されるセグメントは、所有しているセグメント、または選択したレポートスイートに関して Reports &amp; Analytics 経由で共有されているセグメントと同じです。
+次に示す&#x200B;**[!UICONTROL セグメント]**&#x200B;ドロップダウンメニューから、1 つまたは複数のセグメントを選択できます。リストに表示されるセグメントは、所有しているセグメント、または選択したレポートスイートに関して Reports &amp; Analytics 経由で共有されているセグメントと同じです。
 
 ![](assets/segments.png)
 
@@ -28,4 +26,4 @@ Activity Map 内で複数セグメントフィルターを適用できます。
 
 ![](assets/two_segments.png)
 
-選択したセグメントは、Activity Map で提示されているすべての Analytics レポート、つまり、オーバーレイ、**[!UICONTROL ページ上のリンク]**&#x200B;レポート、**ページの詳細]レポートに適用されます。[!UICONTROL **
+選択したセグメントは、Activity Map で提示されているすべての Analytics レポート（つまり、オーバーレイ、**[!UICONTROL ページ上のリンク]**&#x200B;レポート、**[!UICONTROL ページの詳細]**&#x200B;レポート）に適用されます。
