@@ -1,13 +1,11 @@
 ---
 description: モバイルデバイスを携帯電話、タブレット、e リーダー、ゲーム機、テレビ、セットトップボックス、メディアプレーヤー、その他の高レベルカテゴリに分類して、モバイルデバイスタイプ間の分散を表示できます。
-seo-description: モバイルデバイスを携帯電話、タブレット、e リーダー、ゲーム機、テレビ、セットトップボックス、メディアプレーヤー、その他の高レベルカテゴリに分類して、モバイルデバイスタイプ間の分散を表示できます。
-seo-title: デバイスタイプ
 solution: Analytics
 title: デバイスタイプ
-topic: レポート
+topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
