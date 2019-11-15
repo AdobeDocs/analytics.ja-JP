@@ -1,13 +1,11 @@
 ---
 description: 実際に表示されているブラウザーウィンドウのみでの横／縦の長さを示す指標です。具体的には、ブラウザー
-seo-description: 実際に表示されているブラウザーウィンドウのみでの横／縦の長さを示す指標です。具体的には、ブラウザー
-seo-title: ブラウザーの幅／高さ
 solution: Analytics
 title: ブラウザーの幅／高さ
-topic: 指標
+topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
