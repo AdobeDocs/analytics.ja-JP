@@ -1,14 +1,12 @@
 ---
 description: モバイルトラッキングコードは、サーバー生成イメージタグの形式で、ページ上に配置されます。
-keywords: Analytics の実装, モバイルトラッキング, モバイルプロトコル, キャッシュの回避, alt タグ, デフォルトのイメージタイプ
-seo-description: モバイルトラッキングコードは、サーバー生成イメージタグの形式で、ページ上に配置されます。
-seo-title: モバイルプロトコルに対応するページタギング
+keywords: Analytics Implementation;mobile tracking;mobile protocols;prevent caching;alt tag;default image type
 solution: Analytics
 title: モバイルプロトコルに対応するページタギング
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
