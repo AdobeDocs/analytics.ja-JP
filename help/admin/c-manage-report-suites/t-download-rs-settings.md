@@ -1,13 +1,11 @@
 ---
-description: 選択したレポートスイートのすべての設定を含む Excel ワークシートを生成する方法について手順を説明します。
-seo-description: 選択したレポートスイートのすべての設定を含む Excel ワークシートを生成する方法を説明する手順。
-seo-title: レポートスイートの設定のダウンロード
+description: 選択したレポートスイートのすべての設定を含む Excel ワークシートを生成する方法を説明する手順。
 solution: Analytics
 title: レポートスイートの設定のダウンロード
-topic: 管理ツール
+topic: Admin tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
