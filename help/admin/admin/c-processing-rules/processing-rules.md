@@ -1,14 +1,12 @@
 ---
 description: 処理ルールはデータ収集をシンプル化し、レポーティングに送信されるコンテンツを管理します。
-seo-description: 処理ルールはデータ収集をシンプル化し、レポーティングに送信されるコンテンツを管理します。
-seo-title: 処理ルールの概要
 solution: Analytics
-subtopic: 処理ルール
+subtopic: Processing rules
 title: 処理ルールの概要
-topic: 管理ツール
+topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
