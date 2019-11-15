@@ -1,18 +1,16 @@
 ---
 description: 事前定義済みのフィルターを使用してパスレポートを作成する方法について説明します。
-seo-description: 事前定義済みのフィルターを使用してパスレポートを作成する方法について説明します。
-seo-title: 依存リクエストの追加によるパスレポートのフィルター
 solution: Analytics
-title: 依存リクエストの追加によるパスレポートのフィルター
-topic: Report Builder
-uuid: dd1294f8- a26b-4254- a9f6-1365b2912adf
+title: 依存リクエストの追加によるパスレポートのフィルタリング
+topic: Report builder
+uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 依存リクエストの追加によるパスレポートのフィルター
+# 依存リクエストの追加によるパスレポートのフィルタリング
 
 事前定義済みのフィルターを使用してパスレポートを作成する方法について説明します。
 
@@ -38,4 +36,4 @@ Report Builder does not offer these as standalone reports, but you can create th
 
 1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
 
-   「前のページ」指標が既に選択された状態でリクエストウィザードが表示されます。1. リクエストウィザードでリクエストを絞り込み、リクエストを生成します。
+   「前のページ」指標が既に選択された状態でリクエストウィザードが表示されます。1.引き続きリクエストウィザードでリクエストを絞り込み、リクエストを生成します。
