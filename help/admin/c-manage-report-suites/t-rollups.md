@@ -1,13 +1,11 @@
 ---
-description: ロールアップレポートスイートを作成する方法について手順を説明します。
-seo-description: ロールアップレポートスイートを作成する方法を説明する手順。
-seo-title: ロールアップレポートスイートの作成
+description: ロールアップレポートスイートを作成する方法を説明する手順。
 solution: Analytics
 title: ロールアップレポートスイートの作成
-topic: 管理ツール
+topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
