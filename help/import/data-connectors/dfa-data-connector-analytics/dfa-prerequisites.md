@@ -1,14 +1,12 @@
 ---
 description: 'null'
 keywords: DFA
-seo-description: 'null'
-seo-title: 前提条件
 solution: Analytics
 title: 前提条件
-topic: Data Connectors
+topic: Data connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
