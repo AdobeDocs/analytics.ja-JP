@@ -1,11 +1,9 @@
 ---
 description: '実装の際は、次のドキュメントが参考になります。 '
-seo-description: '実装の際は、次のドキュメントが参考になります。 '
-seo-title: お勧めの実装リンク
 title: お勧めの実装リンク
 uuid: 4441aa4c-0bb7-4797-91b9-cd201aad99f2
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
