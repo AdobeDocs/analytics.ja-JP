@@ -1,13 +1,11 @@
 ---
 description: 完全な下位関係は、すべてのコンバージョンレポートで有効であるため、eVar を別の eVar によって分類できます。レポート表の分類基準メニューは、標準 Analytics レポートメニューに一致し、選択の整合性を維持しています。
-seo-description: 完全な下位関係（フルサブリレーション）は、すべてのコンバージョンレポートで有効であるため、eVar を別の eVar によって分類できます。レポート表の分類基準メニューは、標準 Analytics レポートメニューに一致し、選択の整合性を維持しています。
-seo-title: 下位関係
 solution: Analytics
 title: 下位関係
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
