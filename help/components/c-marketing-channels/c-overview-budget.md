@@ -1,14 +1,12 @@
 ---
 description: チャネルにコストと予算額を割り当てる方法を説明します。
-seo-description: チャネルにコストと予算額を割り当てる方法を説明します。
-seo-title: コストと予算
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: コストと予算
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
