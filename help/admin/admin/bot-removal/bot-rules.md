@@ -1,14 +1,12 @@
 ---
 description: ボットルールを使用すると、既知のスパイダやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。
-seo-description: ボットルールを使用すると、既知のスパイダやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。
-seo-title: ボットルール
 solution: Analytics
-subtopic: ボットルール
+subtopic: Bot rules
 title: ボットルールの概要
-topic: 管理ツール
+topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
