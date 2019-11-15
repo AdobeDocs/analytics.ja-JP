@@ -1,13 +1,11 @@
 ---
 description: Web サイトのページがアクセスされた順序が表示されます。訪問者がサイト上の各ページに達する前と後にどのページにアクセスしたかの情報を収集できます。
-seo-description: Web サイトのページがアクセスされた順序が表示されます。訪問者がサイト上の各ページに達する前と後にどのページにアクセスしたかの情報を収集できます。
-seo-title: パス
 solution: Analytics
 title: パス
-topic: レポート
+topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
