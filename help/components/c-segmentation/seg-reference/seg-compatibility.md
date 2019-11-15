@@ -1,13 +1,11 @@
 ---
 description: セグメントビルダーで作成するすべてのセグメントが Data Warehouse と互換性があるとは限りません。サポートされる機能を次の表に示します
-seo-description: セグメントビルダーで作成するすべてのセグメントが Data Warehouse と互換性があるとは限りません。サポートされる機能を次の表に示します
-seo-title: Data Warehouse セグメントの互換性
 solution: Analytics
 title: Data Warehouse セグメントの互換性
-topic: セグメント
+topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 26bba9528873c983852754056a5495c4004d25e6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -47,7 +45,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>ディメンション</b> </td> 
-   <td colname="col2">セグメントビルダーの<span class="uicontrol">定義</span>フィールドにディメンションをドラッグ＆ドロップして、プロトコルの互換性を調べます。例えば、以下のディメンションは、Analysis Workspace、Reports&amp; AnalyticsおよびAd Hoc Analysisでのみサポートされています。 
+   <td colname="col2">セグメントビルダーの<span class="uicontrol">定義</span>フィールドにディメンションをドラッグ＆ドロップして、プロトコルの互換性を調べます。例えば、次のディメンションは、Analysis Workspace、Reports &amp; AnalyticsおよびAd Hoc Analysisでのみサポートされます。 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">入口サーバー </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">入口カテゴリ </li> 
