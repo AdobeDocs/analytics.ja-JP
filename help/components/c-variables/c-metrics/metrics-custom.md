@@ -1,13 +1,11 @@
 ---
 description: カスタム指標を使用して、サイトの追加の成功指標を追跡できます。
-seo-description: カスタム指標を使用して、サイトの追加の成功指標を追跡できます。
-seo-title: カスタム指標
 solution: Analytics
 title: カスタム指標
-topic: 指標
+topic: Metrics
 uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
