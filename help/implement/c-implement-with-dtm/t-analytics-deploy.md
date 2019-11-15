@@ -1,13 +1,11 @@
 ---
 description: Dynamic Tag Management を使用した導入のために Adobe Analytics ツールを作成します。ここでは、手動（レガシー）導入について説明します。
 keywords: Dynamic Tag Management
-seo-description: Dynamic Tag Management を使用した導入のために Adobe Analytics ツールを作成します。ここでは、手動（レガシー）導入について説明します。
-seo-title: Adobe Analytics の手動実装（レガシー）
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics の手動実装（レガシー）
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
       |---|---|
       | ツールタイプ | Analytics、Target、Social などの Experience Cloud ソリューション。 |
       | ツール名 | このツールの名前。この名前は、「[!UICONTROL インストールされているツール]」の「[!UICONTROL 概要]」タブに表示されます。 |
-      | 実稼動アカウント ID | 実稼動サイトのデータを計測するアカウントの RSID。Dynamic Tag Management は、実稼動およびステージング環境に適切なタグを自動的にインストールします。 |
+      | 実稼動アカウント ID | 実稼動サイトのデータを計測するアカウントの RSID。Dynamic Tag Management は、実稼働およびステージング環境に適したアカウントを自動的にインストールします。 |
       | ステージングアカウント ID | 開発またはテスト環境で使用されます。ステージングアカウントには、実稼動用データとは別個のテストデータが保持されます。 |
 
 1. 「**[!UICONTROL ツールを作成]**」をクリックします。
