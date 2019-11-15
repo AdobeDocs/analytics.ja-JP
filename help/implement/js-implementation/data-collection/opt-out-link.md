@@ -1,15 +1,13 @@
 ---
 description: オプトアウトリンクを指定し、リンクのブランディングをカスタマイズします。Webサイトの訪問者は、データ収集ドメインのオプトアウトページにアクセスして、アドビのAnalytics製品でアクティビティを追跡しないように選択できます。
-keywords: Analytics の実装
-seo-description: オプトアウトリンクを指定し、リンクのブランディングをカスタマイズします。Webサイトの訪問者は、データ収集ドメインのオプトアウトページにアクセスして、アドビのAnalytics製品でアクティビティを追跡しないように選択できます。
-seo-title: オプトアウトリンクの追加
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: トラブルシューティング
+subtopic: Troubleshooting
 title: オプトアウトリンクの追加
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
