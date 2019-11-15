@@ -1,14 +1,12 @@
 ---
 description: マーケティングチャネル設定をテストするテンプレートとして、マスターレポートスイートを使用する方法です。時間を節約するために、1 つのレポートスイートにおける設定を 1 つ以上のレポートスイートに適用することが可能です。この作業は、チャネルとルールセットに対して別々に実行します。
-seo-description: マーケティングチャネル設定をテストするテンプレートとして、マスターレポートスイートを使用する方法です。時間を節約するために、1 つのレポートスイートにおける設定を 1 つ以上のレポートスイートに適用することが可能です。この作業は、チャネルとルールセットに対して別々に実行します。
-seo-title: 複数のレポートスイートへのテンプレートレポートスイート設定の適用
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: 複数のレポートスイートへのテンプレートレポートスイート設定の適用
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
