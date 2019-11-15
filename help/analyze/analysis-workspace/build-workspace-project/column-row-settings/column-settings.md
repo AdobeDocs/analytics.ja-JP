@@ -1,11 +1,9 @@
 ---
 description: 列設定では、列の書式を設定できます。一部の列には条件付き書式を設定することもできます。
-seo-description: 列設定では、列の書式を設定できます。一部の列には条件付き書式を設定することもできます。
-seo-title: 列設定
 title: 列設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
