@@ -1,14 +1,12 @@
 ---
 description: 処理ルールで、コンテキストデータ変数に基づいてイベントをトリガーできます。
-seo-description: 処理ルールで、コンテキストデータ変数に基づいてイベントをトリガーできます。
-seo-title: コンテキストデータ変数を使用したイベントの設定
 solution: Analytics
-subtopic: 処理ルール
+subtopic: Processing rules
 title: コンテキストデータ変数を使用したイベントの設定
-topic: 管理ツール
+topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
