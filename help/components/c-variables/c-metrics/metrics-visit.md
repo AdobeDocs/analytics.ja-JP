@@ -1,14 +1,12 @@
 ---
 description: 1 回の着席での一連のページビュー。訪問指標は、一般的に、選択した時間内のユーザーセッション数を表示するレポートで使用されます。
-keywords: 訪問
-seo-description: 1 回の着席での一連のページビュー。訪問指標は、一般的に、選択した時間内のユーザーセッション数を表示するレポートで使用されます。
-seo-title: 訪問
+keywords: visit
 solution: Analytics
 title: 訪問
-topic: 指標
+topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
