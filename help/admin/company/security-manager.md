@@ -1,13 +1,11 @@
 ---
 description: レポーティングデータに対するアクセスを制御できます。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。
-seo-description: レポーティングデータに対するアクセスを制御できます。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。
-seo-title: セキュリティマネージャー
 solution: Analytics
 title: セキュリティマネージャー
-topic: 管理ツール
-uuid: b3fbdba0-e2bf-4d67-92e3-ef0571141d4
+topic: Admin tools
+uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
