@@ -1,13 +1,11 @@
 ---
 description: サイトに来訪する各訪問者の訪問回数を追跡して、訪問者の忠誠度を測定します。選択した期間中にサイトに来訪した訪問者について、初めての訪問の人と 20 回目の訪問の人のどちらが多いかがわかります。
-seo-description: サイトに来訪する各訪問者の訪問回数を追跡して、訪問者の忠誠度を測定します。選択した期間中にサイトに来訪した訪問者について、初めての訪問の人と 20 回目の訪問の人のどちらが多いかがわかります。
-seo-title: 訪問回数
 solution: Analytics
 title: 訪問回数
-topic: レポート
+topic: Reports
 uuid: f98dafab-9369-4055-a793-5ea0217b78b0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
