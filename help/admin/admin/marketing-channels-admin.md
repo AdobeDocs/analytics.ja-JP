@@ -1,13 +1,11 @@
 ---
 description: マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネル処理ルールを作成してカスタマイズできます。
-seo-description: マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネル処理ルールを作成してカスタマイズできます。
-seo-title: マーケティングチャネル
 solution: Analytics
 title: マーケティングチャネル
-topic: 管理ツール
+topic: Admin tools
 uuid: 05a74391-b694-4ed3-9793-5538d6373db2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
