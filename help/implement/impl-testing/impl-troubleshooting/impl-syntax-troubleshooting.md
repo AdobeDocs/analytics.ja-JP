@@ -1,15 +1,13 @@
 ---
 description: 正しいコードと、不正なコードエラーとの違いを表に示します。
-keywords: Analytics の実装
-seo-description: 正しいコードと、不正なコードエラーとの違いを表に示します。
-seo-title: 一般的な構文エラー
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: トラブルシューティング
+subtopic: Troubleshooting
 title: 一般的な構文エラー
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
