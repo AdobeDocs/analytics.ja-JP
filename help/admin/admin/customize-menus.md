@@ -1,13 +1,11 @@
 ---
 description: この機能を使用すると、Reports & Analytics でユーザーに表示されるレポートメニューをカスタマイズできます。レポートを表示または非表示にでき、すべてのユーザーを対象として異なるフォルダーに移動できます。この機能は、企業で特定のレポートしか使用せず、左側のメニューが未使用または不必要なデータであふれるのを避けたい場合に特に役立ちます。
-seo-description: この機能を使用すると、Reports & Analytics でユーザーに表示されるレポートメニューをカスタマイズできます。レポートを表示または非表示にでき、すべてのユーザーを対象として異なるフォルダーに移動できます。この機能は、企業で特定のレポートしか使用せず、左側のメニューが未使用または不必要なデータであふれるのを避けたい場合に特に役立ちます。
-seo-title: メニューのカスタマイズ
 solution: Analytics
 title: メニューのカスタマイズ
-topic: 管理ツール
+topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
