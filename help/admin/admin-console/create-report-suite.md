@@ -1,10 +1,8 @@
 ---
 title: レポートスイートの作成
-seo-title: Adobe Analyticsでのレポートスイートの作成
 description: Adobe Analyticsでデータ収集用の基本コンテナを作成します。
-seo-description: Adobe Analyticsでデータ収集用の基本コンテナを作成します。
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -21,7 +19,7 @@ source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ## レポートスイートの作成
 
-> [!NOTE]注意：Adobe Analyticsで従来の管理者を使用してレポートスイートを作成する方法もあります。 アドビでは、ここで説明するレポートスイートセットアップウィザードを使用することをお勧めします。
+> [!NOTE] Adobe Analyticsで従来の管理者を使用してレポートスイートを作成する方法もあります。 アドビでは、ここで説明するレポートスイートセットアップウィザードを使用することをお勧めします。
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 1. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
