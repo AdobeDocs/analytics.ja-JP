@@ -1,11 +1,9 @@
 ---
 description: JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーし、ページ上のAdobe Analyticsコードに追加します。
-seo-description: JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーし、ページ上のAdobe Analyticsコードに追加します。
-seo-title: Adobe Analyticsプラグインコード
 title: Adobe Analyticsプラグインコード
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
