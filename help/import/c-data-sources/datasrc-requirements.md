@@ -1,14 +1,12 @@
 ---
 description: データソース使用前のレポートスイートに対する要件についての情報です。
-seo-description: データソース使用前のレポートスイートに対する要件についての情報です。
-seo-title: 要件とアップロードに関する制限
 solution: Analytics
-subtopic: データソース
+subtopic: Data sources
 title: 要件とアップロードに関する制限
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
