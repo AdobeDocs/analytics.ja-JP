@@ -1,11 +1,9 @@
 ---
 description: 統合を設定するには、Adobe Data Connectors設定ウィザードを使用します。
-seo-description: 統合を設定するには、Adobe Data Connectors設定ウィザードを使用します。
-seo-title: 統合のアクティブ化
 title: 統合のアクティブ化
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
