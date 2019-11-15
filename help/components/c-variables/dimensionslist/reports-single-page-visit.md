@@ -1,13 +1,11 @@
 ---
 description: Ad Hoc Analysis の直帰数指標とは異なります。直帰数レポートは、Web サイトへの訪問者が入口として使用し、他のページを表示する手順をおこなわずにそのまま出口に使用したページを示します。
-seo-description: Ad Hoc Analysis の直帰数指標とは異なります。直帰数レポートは、Web サイトへの訪問者が入口として使用し、他のページを表示する手順をおこなわずにそのまま出口に使用したページを示します。
-seo-title: 直帰数
 solution: Analytics
 title: 直帰数
-topic: レポート
+topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
