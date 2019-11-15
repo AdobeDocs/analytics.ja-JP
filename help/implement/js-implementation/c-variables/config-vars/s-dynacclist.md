@@ -1,11 +1,10 @@
 ---
 description: 動的変数を使用すると、サイトのイメージリクエストで完全な値を複数回入力することなく、ある変数の値を別の変数にコピーできます。
-keywords: Analytics の実装
-seo-description: 動的変数を使用すると、サイトのイメージリクエストで完全な値を複数回入力することなく、ある変数の値を別の変数にコピーできます。
+keywords: Analytics Implementation
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 > [!NOTE] この変 `s.dynamicAccountList` 数は、現在のAppMeasurementライブラリではサ [ポートされていません](../../c-appmeasurement-js/appmeasure-mjs.md)。 Hコードなど、従来のAppMeasurementでのみ使用されます。
 
-この変 `s.dynamicAccountList` 数は、データの送信先のレポートスイートを動的に決定するのに役立ちます。 変数および変数と組み合わせて使 `dynamicAccountSelection` 用され `dynamicAccountMatch` ます。 のルールは、がに設 `dynamicAccountList` 定され `dynamicAccountSelection` ている場合 `true`に適用され、で指定したURLのセクションに適用されます `dynamicAccountMatch`。
+この変 `s.dynamicAccountList` 数は、データの送信先のレポートスイートを動的に決定するのに役立ちます。 変数および変数と組み合わせて使 `dynamicAccountSelection` 用され `dynamicAccountMatch` ます。 The rules in `dynamicAccountList` are applied if `dynamicAccountSelection` is set to `true`, and they apply to the section of the URL specified in `dynamicAccountMatch`.
 
 ## 構文と可能な値
 
@@ -22,11 +21,11 @@ source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 s.dynamicAccountList="rs1[,rs2]=domain1.com[,domain2.com/path][;...]";
 ```
 
-Valid input is a semicolon-separated list of name=value pairs (rules). 各リストには、次の項目が含まれます。
+有効な入力は、name=valueのペア（ルール）をセミコロンで区切ったリストです。 各リストには、次の項目が含まれます。
 
-* One or more report suite ID's (separated by commas)
-* An equals sign
-* One or more URL filters (comma-separated)
+* 1つ以上のレポートスイートID（コンマ区切り）
+* 等号
+* 1つ以上のURLフィルター（コンマ区切り）
 
 文字列内では標準的な ASCII 文字のみを使用してください（空白は使用できません）。
 
@@ -50,8 +49,8 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 
 ## 注意事項、質問、ヒント
 
-* この変数で示されるルールは、左から右の順で適用されます。If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. As a result, place more generic rules to the right of the list.
+* この変数で示されるルールは、左から右の順で適用されます。If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. その結果、より一般的なルールをリストの右側に配置します。
 * If no rules match, the default report suite in `s_account` is used.
-* If your page is saved to someone's hard drive or translated via a web-based translation engine (such as Google's translated pages), the dynamic account selection likely won't work.
-* The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
-* を使用して、 [!DNL Adobe Experience Cloud Debugger] 送信先のレポートスイートをテストします。
+* ページが他のユーザーのハードドライブに保存されたり、Webベースの翻訳エンジン（Googleの翻訳済みページなど）を使用して翻訳された場合、動的アカウントの選択は動作しない可能性があります。
+* `dynamicAccountSelection` ルールは、`dynamicAccountMatch` で指定された URL のセクションにのみ適用されます。
+* Use the [!DNL Adobe Experience Cloud Debugger] to test the destination report suite.
