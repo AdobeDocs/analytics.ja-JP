@@ -1,14 +1,12 @@
 ---
 description: マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネルの処理ルールをカスタマイズできます。
-seo-description: マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネルの処理ルールをカスタマイズできます。
-seo-title: マーケティングチャネル - はじめに
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: マーケティングチャネル - はじめに
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,7 +42,7 @@ See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.
 
 >[!NOTE]
 >
-> マーケティングチャネルが事前に設定されていない場合は、自動セ [ットアップ](/help/components/c-marketing-channels/c-channel-autosetup.md) が表示されます。 このセットアップではいくつかの事前定義のチャネルが提供され、これらのチャネルをカスタマイズできます。アドビでは、これらのルールをテンプレートとして使用することをお勧めします。ただし、既に確立されたチャネル定義がある場合は、自動セットアップをスキップすることができます。
+>マーケティングチャネルが事前に設定されていない場合は、自動セ [ットアップ](/help/components/c-marketing-channels/c-channel-autosetup.md) が表示されます。 このセットアップではいくつかの事前定義のチャネルが提供され、これらのチャネルをカスタマイズできます。アドビでは、これらのルールをテンプレートとして使用することをお勧めします。ただし、既に確立されたチャネル定義がある場合は、自動セットアップをスキップすることができます。
 
 ![](assets/step3_icon.png)[!UICONTROL マーケティングチャネルの処理ルール]ページで、各チャネルのルールを設定または調整する
 
