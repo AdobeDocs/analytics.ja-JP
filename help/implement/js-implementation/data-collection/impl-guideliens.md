@@ -1,14 +1,12 @@
 ---
 description: このガイドラインに従うと、同じ cookie ドメインを使用して、様々なタイプの導入で訪問を追跡できるようになります。
-keywords: Analytics の実装
-seo-description: このガイドラインに従うと、同じ cookie ドメインを使用して、様々なタイプの導入で訪問を追跡できるようになります。
-seo-title: 実装のガイドライン
+keywords: Analytics Implementation
 solution: Analytics
 title: 実装のガイドライン
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
