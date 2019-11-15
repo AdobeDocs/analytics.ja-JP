@@ -1,11 +1,9 @@
 ---
 description: 顧客属性は、VisAttr という名前の新たなタイプの要素に保存されます。これはディメンションまたは指標として選択できます。
-seo-description: 顧客属性は、VisAttr という名前の新たなタイプの要素に保存されます。これはディメンションまたは指標として選択できます。
-seo-title: 顧客属性
 title: 顧客属性
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
