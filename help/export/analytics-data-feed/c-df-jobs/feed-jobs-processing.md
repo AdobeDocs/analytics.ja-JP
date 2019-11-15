@@ -1,13 +1,11 @@
 ---
 description: 「ジョブ」タブを使用して、ジョブ履歴を表示したり、ジョブ管理タスクを実行したりできます。
-keywords: データフィード；ジョブ；設定
-seo-description: 「ジョブ」タブを使用して、ジョブ履歴を表示したり、ジョブ管理タスクを実行したりできます。
-seo-title: データフィードジョブ - 概要
+keywords: Data Feed;job;configure
 solution: Analytics
 title: データフィードジョブ - 概要
 uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
