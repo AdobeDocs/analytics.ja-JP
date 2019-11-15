@@ -1,14 +1,12 @@
 ---
 description: マーケティングチャネルレポートでの指標の使用方法を説明します。
-seo-description: マーケティングチャネルレポートでの指標の使用方法を説明します。
-seo-title: マーケティングチャネルレポートで使用される指標
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: マーケティングチャネルレポートで使用される指標
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
