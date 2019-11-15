@@ -1,14 +1,12 @@
 ---
 description: products 変数は、製品と製品カテゴリ（および購入数量と購入価格）を追跡するために使用します。
-keywords: Analytics の実装, products 変数, 製品表示, 成功イベント
-seo-description: products 変数は、製品と製品カテゴリ（および購入数量と購入価格）を追跡するために使用します。
-seo-title: 詳細製品表示ページ
+keywords: Analytics Implementation;products variable;product view;success event
 solution: Analytics
 title: 詳細製品表示ページ
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
