@@ -1,13 +1,11 @@
 ---
 description: 平均して訪問のどの深さで各値が発生したかを表示します。この指標は、特定のページまたは prop 値で、訪問したオーディエンスがどの深さまで到達するかを知るのに役立ちます。平均ページの深さは、パスが有効などの変数でも使用できます。
-seo-description: 平均して訪問のどの深さで各値が発生したかを表示します。この指標は、特定のページまたは prop 値で、訪問したオーディエンスがどの深さまで到達するかを知るのに役立ちます。平均ページの深さは、パスが有効などの変数でも使用できます。
-seo-title: 平均ページの深さ
 solution: Analytics
 title: 平均ページの深さ
-topic: 指標
+topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
