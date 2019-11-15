@@ -1,12 +1,11 @@
 ---
 keywords: Analysis Workspace
-seo-title: コホート分析とは
 solution: Analytics
 title: コホート分析とは
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
