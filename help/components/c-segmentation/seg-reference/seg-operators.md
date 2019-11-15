@@ -1,13 +1,11 @@
 ---
 description: セグメントビルダーでは、選択した演算子を使用して値を比較および制限できます。
-seo-description: セグメントビルダーでは、選択した演算子を使用して値を比較および制限できます。
-seo-title: セグメントの比較演算子
 solution: Analytics
 title: セグメントの比較演算子
-topic: セグメント
+topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
