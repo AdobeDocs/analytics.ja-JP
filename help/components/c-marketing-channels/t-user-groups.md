@@ -1,14 +1,12 @@
 ---
 description: マーケティングチャネルへのユーザーグループのアクセス権を設定します。
-seo-description: マーケティングチャネルへのユーザーグループのアクセス権を設定します。
-seo-title: ユーザーグループのアクセス権の設定
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: ユーザーグループのアクセス権の設定
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
