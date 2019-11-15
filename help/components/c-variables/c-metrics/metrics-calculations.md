@@ -1,13 +1,11 @@
 ---
 description: 指標の計算には、標準、パーティシペーション、最新、線形配分の各メソッドが使用されます。各メソッドで使用する式に基づき、値の計算方法が異なります。
-seo-description: 指標の計算には、標準、パーティシペーション、最新、線形配分の各メソッドが使用されます。各メソッドで使用する式に基づき、値の計算方法が異なります。
-seo-title: 指標の計算
 solution: Analytics
 title: 指標の計算
-topic: 指標
-uuid: 2af58f1e-12c5-4828-ae39-c9aeef6b705
+topic: Metrics
+uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
