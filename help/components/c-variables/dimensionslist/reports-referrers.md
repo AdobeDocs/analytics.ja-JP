@@ -1,13 +1,11 @@
 ---
 description: 訪問者がどのドメインや URL から Web サイトに来訪したか、訪問者が Web サイトをどのような方法で見つけたか、およびこれらの参照場所から Web サイトへの訪問回数が表示されます。
-seo-description: 訪問者がどのドメインや URL から Web サイトに来訪したか、訪問者が Web サイトをどのような方法で見つけたか、およびこれらの参照場所から Web サイトへの訪問回数が表示されます。
-seo-title: リファラー
 solution: Analytics
 title: リファラー
-topic: レポート
+topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
