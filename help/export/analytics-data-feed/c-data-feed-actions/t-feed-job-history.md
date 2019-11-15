@@ -1,13 +1,11 @@
 ---
 description: デフォルトでは、過去 30 日間のジョブ履歴がすべてのレポートスイートでレポートされます。
-keywords: データフィード；フィード；ジョブ；履歴
-seo-description: デフォルトでは、過去 30 日間のジョブ履歴がすべてのレポートスイートでレポートされます。
-seo-title: フィードのジョブ履歴の表示
+keywords: Data Feed;feed;job;history
 solution: Analytics
 title: フィードのジョブ履歴の表示
 uuid: db47c9c5-4700-4269-9846-e8b38911a654
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
