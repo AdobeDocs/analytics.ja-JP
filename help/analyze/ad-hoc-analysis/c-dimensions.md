@@ -1,13 +1,11 @@
 ---
 description: ディメンションは、レポート内で表示、クロス集計や比較が行える行項目です。数値ではなく文字列や日付であり、クロス集計や分類が可能です。
-seo-description: ディメンションは、レポート内で表示、クロス集計や比較が行える行項目です。数値ではなく文字列や日付であり、クロス集計や分類が可能です。
-seo-title: ディメンション
 solution: Analytics
 title: ディメンション
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
