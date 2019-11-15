@@ -1,14 +1,12 @@
 ---
 description: インポーターの問題のトラブルシューティングに役立つリソースです。
-seo-description: インポーターの問題のトラブルシューティングに役立つリソースです。
-seo-title: 分類のトラブルシューティング
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 分類のトラブルシューティング
-topic: 管理ツール
+topic: Admin tools
 uuid: e8273635-28b7-4264-aca5-c5307f313e81
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
