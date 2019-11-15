@@ -1,14 +1,12 @@
 ---
 description: 変数に対して特定の値が設定された回数。
-keywords: インスタンス
-seo-description: 変数に対して特定の値が設定された回数。
-seo-title: インスタンス
+keywords: instances
 solution: Analytics
 title: インスタンス
-topic: 指標
+topic: Metrics
 uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
