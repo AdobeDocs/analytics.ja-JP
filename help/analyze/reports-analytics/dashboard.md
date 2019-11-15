@@ -1,14 +1,12 @@
 ---
 description: ダッシュボードは、レポートレットと呼ばれるサムネイル表示されたレポートの集まりです。ダッシュボードは、検索方法や訪問者プロファイルのような、特定の切り口で分析するための関連レポートレットをいくつも掲載する場合に特に便利です。
-seo-description: ダッシュボードは、レポートレットと呼ばれるサムネイル表示されたレポートの集まりです。ダッシュボードは、検索方法や訪問者プロファイルのような、特定の切り口で分析するための関連レポートレットをいくつも掲載する場合に特に便利です。
-seo-title: ダッシュボードおよびレポートレット
 solution: Analytics
-subtopic: ダッシュボード
+subtopic: Dashboards
 title: ダッシュボードおよびレポートレット
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
