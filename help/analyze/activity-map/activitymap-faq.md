@@ -1,13 +1,11 @@
 ---
 description: Activity Map での設定や機能の使用に関するよくある質問（FAQ）です。
-seo-description: Activity Map での設定や機能の使用に関するよくある質問（FAQ）です。
-seo-title: Activity Map の FAQ
 solution: Analytics
 title: Activity Map の FAQ
-topic: Activity Map
+topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -28,7 +26,7 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 
 **質問：新しい AppMeasurement コードは、Dynamic Tag Management（DTM）を使用して設定できますか。**
 
-回答：はい。新しい AppMeasurement コードは[手動で実装](https://marketing.adobe.com/resources/help/ja_JP/dtm/analytics_dtm.html)できます。
+回答：はい。新しい AppMeasurement コードは[手動で実装](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html)できます。
 
 **質問：AppMeasurement v1.6 ライブラリの大きな変更点は何ですか。**
 
@@ -73,7 +71,7 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 
 **質問：指標のドロップダウンに同じ指標が複数回表示されるのはなぜですか。**
 
-回答：Activity Map では、すべてのレポートスイートの指標のリストを表示します。その結果、[指標の統合処理](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/cm_transition.html)をおこなっていない場合は、重複が発生する可能性があります。
+回答：Activity Map では、すべてのレポートスイートの指標のリストを表示します。その結果、[指標の統合処理](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html)をおこなっていない場合は、重複が発生する可能性があります。
 
 指標ドロップダウンを使用すると、訪問したページのレポートスイートに割り当てられたものに計算指標のリストを制限できます。
 
@@ -125,7 +123,7 @@ Activity Map 設定／「その他」タブで、別のタグ付きレポート�
 
 \[Activity Map のレポートの有効化\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md")を管理者に依頼する必要があることを示す警告メッセージが表示されます。
 
-**質問：[Analytics データフィード](https://marketing.adobe.com/resources/help/ja_JP/reference/analytics-data-feed.html)を使用して Activity Map データ（contextData）を書き出すことはできますか。**
+**質問：[Analytics データフィード](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)を使用して Activity Map データ（contextData）を書き出すことはできますか。**
 
 回答：いいえ。
 
