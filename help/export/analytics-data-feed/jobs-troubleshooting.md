@@ -1,13 +1,11 @@
 ---
 description: エラーが発生した場合、エラーはジョブステータス列にレポートされます。
-keywords: データフィード；ジョブ；トラブルシューティング；エラー；ftp;chdir；接続；ログイン；put
-seo-description: エラーが発生した場合、エラーはジョブステータス列にレポートされます。
-seo-title: ジョブのトラブルシューティング
+keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
 solution: Analytics
 title: ジョブのトラブルシューティング
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
