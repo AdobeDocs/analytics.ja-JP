@@ -1,14 +1,12 @@
 ---
 description: 分類は、元のレポートの細かいデータをグループ化（分類）することによって作成されます。
-keywords: Analytics の実装, 分類
-seo-description: 分類は、元のレポートの細かいデータをグループ化（分類）することによって作成されます。
-seo-title: 分類
+keywords: Analytics Implementation;classification
 solution: Analytics
 title: 分類
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,5 +19,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 詳しくは、以下を参照してください。
 
-* Analytics ヘルプおよびリファレンスガイドの「[分類](https://marketing.adobe.com/resources/help/ja_JP/reference/classifications.html)」を参照してください。
+* [データの分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)（Analytics ヘルプとリファレンスガイド）
 
