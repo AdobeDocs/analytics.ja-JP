@@ -1,11 +1,9 @@
 ---
 description: 権限に応じて、指標を組織全体、グループまたは個々のユーザーと共有できます。
-seo-description: 権限に応じて、指標を組織全体、グループまたは個々のユーザーと共有できます。
-seo-title: 計算指標の共有
 title: 計算指標の共有
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
