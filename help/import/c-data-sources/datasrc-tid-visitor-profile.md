@@ -1,13 +1,11 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: トランザクション ID と訪問者プロファイル
 solution: Analytics
 title: トランザクション ID と訪問者プロファイル
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
