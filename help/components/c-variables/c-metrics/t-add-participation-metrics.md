@@ -1,13 +1,11 @@
 ---
 description: パーティシペーション指標を追加する方法について手順を説明します。
-seo-description: パーティシペーション指標を追加する方法について手順を説明します。
-seo-title: パーティシペーション指標の追加
 solution: Analytics
 title: パーティシペーション指標の追加
-topic: 指標
+topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
