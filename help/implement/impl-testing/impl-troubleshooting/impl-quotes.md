@@ -1,15 +1,13 @@
 ---
 description: 変数に値を入力するときに従うべきいくつかのベストプラクティスがあります。
-keywords: Analytics の実装
-seo-description: 変数に値を入力するときに従うべきいくつかのベストプラクティスがあります。
-seo-title: 引用符の使用
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: トラブルシューティング
+subtopic: Troubleshooting
 title: 引用符の使用
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
