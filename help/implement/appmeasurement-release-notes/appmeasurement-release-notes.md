@@ -1,14 +1,12 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: AppMeasurement リリースノート
 solution: Analytics
-subtopic: リリースノート
+subtopic: Release notes
 title: AppMeasurement リリースノート
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 89d06844-5c02-422e-b6f4-3b8e1bc017bf
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
