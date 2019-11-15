@@ -1,11 +1,9 @@
 ---
 description: 複数のリクエストの指標を編集する機能を使用すると、既存のリクエストの指標やグループ化されたリクエストの指標を容易に追加、削除または置換できます。
-seo-description: 複数のリクエストの指標を編集する機能を使用すると、既存のリクエストの指標やグループ化されたリクエストの指標を容易に追加、削除または置換できます。
-seo-title: 複数のリクエストの指標を編集
 title: 複数のリクエストの指標を編集
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
