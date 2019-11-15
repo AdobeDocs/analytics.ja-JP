@@ -1,13 +1,11 @@
 ---
 description: 購入イベントで売上高が取り込まれ、各商品の注文の総額として定義されます。この値は購入イベントから取得されます。
-seo-description: 購入イベントで売上高が取り込まれ、各商品の注文の総額として定義されます。この値は購入イベントから取得されます。
-seo-title: 売上高
 solution: Analytics
 title: 売上高
-topic: 指標
+topic: Metrics
 uuid: d0c2c012-42a7-4ff2-8224-6486ab956d98
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
