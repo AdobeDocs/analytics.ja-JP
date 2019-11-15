@@ -1,15 +1,13 @@
 ---
 description: 一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。
-keywords: グループ；権限
-seo-description: 一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。
-seo-title: Analytics ツールの権限のカスタマイズ
+keywords: groups;permissions
 solution: Analytics
-subtopic: ユーザーとグループ
+subtopic: Users and groups
 title: Analytics ツールの権限のカスタマイズ
-topic: 管理ツール
+topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
