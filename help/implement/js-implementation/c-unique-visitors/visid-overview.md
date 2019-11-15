@@ -1,15 +1,13 @@
 ---
 description: アドビでは Cookie を使用して個別のブラウザーおよびデバイスを追跡しています。
-keywords: Analytics の実装
-seo-description: アドビでは Cookie を使用して個別のブラウザーおよびデバイスを追跡しています。
-seo-title: 実訪問者数の識別
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 訪問者
+subtopic: Visitors
 title: 実訪問者数の識別
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
