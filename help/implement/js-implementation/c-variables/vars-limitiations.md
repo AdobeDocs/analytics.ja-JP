@@ -1,15 +1,13 @@
 ---
 description: 変数とその制限に関する概要です。
-keywords: Analytics 実装; 変数; 制限; 制限
-seo-description: 変数とその制限に関する概要です。
-seo-title: 変数と制限
+keywords: Analytics Implementation;variable;limitations;limits
 solution: Analytics
-subtopic: 変数
+subtopic: Variables
 title: 変数と制限
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
