@@ -1,15 +1,13 @@
 ---
 description: cookie の値を取得します。
-keywords: Analytics の実装
-seo-description: cookie の値を取得します。
-seo-title: Util.cookieRead
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieRead
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 825a75c6-b804-4bfe-b23a-907113b8bfa6
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,13 +22,13 @@ cookie の値を取得します。
 s.Util.cookieRead(key)
 ```
 
-**パラメーター：**
+**パラメーター:**
 
 | パラメーター | 説明 |
 |---|---|
 | key | （必須）cookie で値を書き込むためのキー。 |
 
-**戻り値：**
+**戻り値:**
 
 cookie の値（cookie が見つからない場合は空の文字列）を返します。
 
