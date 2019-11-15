@@ -1,13 +1,11 @@
 ---
 description: ジョブは、いくつかのステータスラベルのいずれかで表示できます。
-keywords: データフィード；ジョブ；ステータス；データの待機；失敗；準備完了；処理；完了；データなし
-seo-description: ジョブは、いくつかのステータスラベルのいずれかで表示できます。
-seo-title: ジョブステータス
+keywords: Data Feed;job;status;waiting for data;failed;ready;processing;complete;no data
 solution: Analytics
 title: ジョブステータス
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
