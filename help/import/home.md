@@ -1,10 +1,8 @@
 ---
 title: Analytics インポートヘルプ
-seo-title: Analytics インポートヘルプ
 description: 'null'
-seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ## 主な Analytics リソース
 
-* [カスタマーケアへのお問い合わせ](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
