@@ -1,15 +1,13 @@
 ---
 description: リダイレクトとは、ユーザーの介入なしでブラウザーを新しい場所に転送することです。リダイレクトは Web ブラウザー（クライアントサイドのリダイレクト）または Web サーバー（サーバーサイドのリダイレクト）で実行されます。
-keywords: Analytics の実装
-seo-description: リダイレクトとは、ユーザーの介入なしでブラウザーを新しい場所に転送することです。リダイレクトは Web ブラウザー（クライアントサイドのリダイレクト）または Web サーバー（サーバーサイドのリダイレクト）で実行されます。
-seo-title: リダイレクトとエイリアス
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: リダイレクト
+subtopic: Redirects
 title: リダイレクトとエイリアス
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
