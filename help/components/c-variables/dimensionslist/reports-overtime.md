@@ -1,13 +1,11 @@
 ---
 description: 購入、買い物かごおよびカスタムイベントをレポートするセクションで使用されます。ページビュー数に類似しており、これらのレポートには、1 日、1 週間、1 ヶ月などの特定の期間に収集された、単一の成功指標によるデータが表示されます。
-seo-description: 購入、買い物かごおよびカスタムイベントをレポートするセクションで使用されます。ページビュー数に類似しており、これらのレポートには、1 日、1 週間、1 ヶ月などの特定の期間に収集された、単一の成功指標によるデータが表示されます。
-seo-title: 長期間
 solution: Analytics
 title: 長期間
-topic: レポート
+topic: Reports
 uuid: 4cd8492b-319e-4a55-8d99-70dd6ec9b4ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
