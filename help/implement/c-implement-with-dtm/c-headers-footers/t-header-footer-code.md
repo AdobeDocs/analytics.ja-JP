@@ -1,14 +1,12 @@
 ---
 description: サイトへの JavaScript およびページコンテンツの読み込みを判断するヘッダーとフッターを、Dynamic Tag Management を使用して追加します。使用するホスティングオプションにかかわらず、サイトのすべてのページにヘッダーとフッターの両方のコードをインストールする必要があります。
-keywords: Analytics の導入, 導入方法, dynamic tag management, dtm, コード, ページコード, ヘッダーコード, フッターコード, 埋め込みコード, 「埋め込み」タブ, 埋め込み
-seo-description: サイトへの JavaScript およびページコンテンツの読み込みを判断するヘッダーとフッターを、Dynamic Tag Management を使用して追加します。使用するホスティングオプションにかかわらず、サイトのすべてのページにヘッダーとフッターの両方のコードをインストールする必要があります。
-seo-title: ヘッダーおよびフッターコードの追加
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
 solution: Analytics
 title: ヘッダーおよびフッターコードの追加
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
