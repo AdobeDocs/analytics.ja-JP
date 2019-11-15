@@ -1,14 +1,12 @@
 ---
 description: この表は、マーケティングチャネルの処理ルールページで選択可能なフィールド、オプションおよびヒット属性を定義しています。
-seo-description: この表は、マーケティングチャネルの処理ルールページで選択可能なフィールド、オプションおよびヒット属性を定義しています。
-seo-title: マーケティングチャネルの処理ルール - 定義
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: マーケティングチャネルの処理ルール - 定義
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -39,7 +37,7 @@ source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ED ID </p> </td> 
-   <td colname="col2"> <p>Advertising cloudで使用されるセカンダリトラッキングコード。 このトラッキングコードの主な目的は、Ad cloudにデータを返送する際の鍵となることです。 ただし、2つの異なるマーケティングチャネルとして表示したい場合は、表示クリックスルー数と表示ビュースルーを識別するためにも使用できます。 これは、「表示クリックスルー」の場合は「AMO EF ID」のマーケティングチャネルロジックを「:d」で終わるように設定し、「表示ビュースルー」の場合は「:i」で終わるように設定することで可能です。 「表示」を2つのチャネルに分割しない場合は、代わりにAMO IDディメンションを使用します。 </p> </td> 
+   <td colname="col2"> <p>Advertising cloudで使用されるセカンダリトラッキングコード。 このトラッキングコードの主な目的は、Ad cloudにデータを返送する際の鍵となることです。 ただし、2つの異なるマーケティングチャネルとして表示したい場合は、表示クリックスルーと表示ビュースルーを識別するためにも使用できます。 これは、「表示クリックスルー」の場合は「AMO EF ID」のマーケティングチャネルロジックを「:d」で終わるように設定し、「表示ビュースルー」の場合は「:i」で終わるように設定することで可能です。 「表示」を2つのチャネルに分割しない場合は、代わりにAMO IDディメンションを使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンバージョン変数 </p> </td> 
