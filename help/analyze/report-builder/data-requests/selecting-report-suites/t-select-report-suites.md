@@ -1,18 +1,16 @@
 ---
 description: リクエストウィザードで表示されるメニューからレポートスイートを選択する手順です。
-seo-description: リクエストウィザードで表示されるメニューからレポートスイートを選択する手順です。
-seo-title: レポートスイートを選択します。
 solution: Analytics
-title: レポートスイートを選択します。
-topic: Report Builder
-uuid: e9fb6e20-217c-4b36- aCopyright-19ccf407da93
+title: レポートスイートの選択
+topic: Report builder
+uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# レポートスイートを選択します。
+# レポートスイートの選択
 
 リクエストウィザードで表示されるメニューからレポートスイートを選択する手順です。
 
