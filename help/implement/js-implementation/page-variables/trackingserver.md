@@ -7,7 +7,7 @@ title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
 
