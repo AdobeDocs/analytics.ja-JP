@@ -1,14 +1,12 @@
 ---
 description: インポートテンプレートファイルの目的は、インポートを開始できるようにすることです。
-seo-description: インポートテンプレートファイルの目的は、インポートを開始できるようにすることです。
-seo-title: インポートファイルテンプレートの作成
 solution: Analytics
-subtopic: データソース
+subtopic: Data sources
 title: インポートファイルテンプレートの作成
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
