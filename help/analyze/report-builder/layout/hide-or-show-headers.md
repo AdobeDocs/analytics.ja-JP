@@ -1,18 +1,16 @@
 ---
 description: ヘッダーの表示または非表示の方法について説明します。
-seo-description: ヘッダーの表示または非表示の方法について説明します。
-seo-title: ヘッダーの表示/非表示
 solution: Analytics
-title: ヘッダーの表示/非表示
-topic: Report Builder
+title: ヘッダーの表示または非表示
+topic: Report builder
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# ヘッダーの表示/非表示
+# ヘッダーの表示または非表示
 
 ヘッダーの表示または非表示の方法について説明します。
 
