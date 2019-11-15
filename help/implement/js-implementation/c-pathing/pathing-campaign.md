@@ -1,14 +1,12 @@
 ---
 description: 「ユーザーがキャンペーンをクリックしてサイトにアクセスした後、そのユーザーはそのサイト上のどこへ移動するのか」という質問に回答できます。
-keywords: Analytics の実装
-seo-description: 「ユーザーがキャンペーンをクリックしてサイトにアクセスした後、そのユーザーはそのサイト上のどこへ移動するのか」という質問に回答できます。
-seo-title: キャンペーンまたはトラッキングコードによるパス
+keywords: Analytics Implementation
 solution: Analytics
 title: キャンペーンまたはトラッキングコードによるパス
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
