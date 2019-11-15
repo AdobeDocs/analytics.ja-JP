@@ -1,13 +1,11 @@
 ---
 description: 対象者にとって最も有用になるようにグラフをカスタマイズする手順を説明します。
-seo-description: 対象者にとって最も有用になるようにグラフをカスタマイズする手順を説明します。
-seo-title: レポートのグラフの変更
 solution: Analytics
 title: レポートのグラフの変更
-topic: Reports and Analytics
-uuid: c2e81c6c- bfe9-4457-8b5d-512255ca9711
+topic: Reports and analytics
+uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **レポートグラフを変更するには**
 
-1. レポートの実行.
+1. レポートを実行します。
 1. Click **[!UICONTROL Configure Graph]**.
 1.  グラフタイプを選択します。
 
