@@ -1,13 +1,11 @@
 ---
 description: レポートの実行後は、レポートをカスタマイズしてニーズに応じたデータの表示、分析を行うことができます。レポートデータをフィルターしたり、データを図示する方法を変更したり、日付精度を変更したりできます。
-seo-description: レポートの実行後は、レポートをカスタマイズしてニーズに応じたデータの表示、分析を行うことができます。レポートデータをフィルターしたり、データを図示する方法を変更したり、日付精度を変更したりできます。
-seo-title: レポートのカスタマイズの概要
 solution: Analytics
 title: レポートのカスタマイズの概要
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
