@@ -1,12 +1,10 @@
 ---
 description: 以前の Target Classic と同じように、Adobe Analytics 上でキャンペーンの成功を評価できます。
-seo-description: 以前の Target Classic と同じように、Adobe Analytics 上でキャンペーンの成功を評価できます。
-seo-title: Target の上昇率と信頼性
 solution: Analytics
 title: Target の上昇率と信頼性
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
