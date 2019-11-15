@@ -1,13 +1,11 @@
 ---
 description: Adobe Analytics 導入の自動設定に関する FAQ です。自動設定の手法では、AppMeasurement コードを管理します。
-keywords: Dynamic Tag Management, プラグイン, ステージング, 現在の設定への影響, 変更履歴, 潜在的な問題, レポートスイート id, 通貨コード, トラッキングサーバー, ssl トラッキングサーバー, カスタムコード, ライブラリ管理
-seo-description: Adobe Analytics 導入の自動設定に関する FAQ です。自動設定の手法では、AppMeasurement コードを管理します。
-seo-title: Adobe Analytics ツールに関する FAQ
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;plugins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics ツールに関する FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
