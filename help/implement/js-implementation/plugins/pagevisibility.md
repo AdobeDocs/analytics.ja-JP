@@ -1,14 +1,12 @@
 ---
 description: ページがブラウザー内でアクティブタブになっていた秒数を記録し、その値を次のページビューに関する指標に渡します。
-keywords: Analytics の実装
-seo-description: ページがブラウザー内でアクティブタブになっていた秒数を記録し、その値を次のページビューに関する指標に渡します。
-seo-title: getPageVisibility
+keywords: Analytics Implementation
 solution: Analytics
 title: getPageVisibility
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
