@@ -1,14 +1,12 @@
 ---
 description: ユーザーがサイトに訪問すると、ブラウザーへの HTTP 応答に cookie を含めることで、アドビの Web サーバーによって持続的 cookie が設定されます。この cookie は、指定されたデータ収集ドメインに対して設定されます。
-keywords: Analytics の実装
-seo-description: ユーザーがサイトに訪問すると、ブラウザーへの HTTP 応答に cookie を含めることで、アドビの Web サーバーによって持続的 cookie が設定されます。この cookie は、指定されたデータ収集ドメインに対して設定されます。
-seo-title: Analytics 訪問者 ID
+keywords: Analytics Implementation
 solution: Analytics
 title: Analytics 訪問者 ID
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
