@@ -1,13 +1,11 @@
 ---
 description: 編集やフィルターでリクエストを変更した後や、最新のデータを表示する必要がある場合は、リクエストを更新します。ワークシートの複数のリクエストを選択して、一度にすべてのリクエストを更新することができます。
-seo-description: 編集やフィルターでリクエストを変更した後や、最新のデータを表示する必要がある場合は、リクエストを更新します。ワークシートの複数のリクエストを選択して、一度にすべてのリクエストを更新することができます。
-seo-title: リクエストの更新
 solution: Analytics
 title: リクエストの更新
-topic: Report Builder
-uuid: bb94fc6-027b-4134-adc8-56a1ea7cc56b
+topic: Report builder
+uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
