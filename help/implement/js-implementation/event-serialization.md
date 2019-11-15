@@ -1,14 +1,12 @@
 ---
 description: イベントのシリアル化とは、Analytics レポートに重複したイベントが追加されないようにすることです。ユーザーがページを何度も更新したり、特定のページに何度も移動したり、Web ページを自分のコンピューターに保存したりすると、重複したイベントが発生する可能性があります（例えば、購入者が購入確認ページを自分のコンピューターに保存している場合、イベントのシリアル化が適切におこなわれていないと、そのページを表示するたびに、注文と収入が再カウントされます）。
-keywords: Analytics の実装
-seo-description: イベントのシリアル化とは、Analytics レポートに重複したイベントが追加されないようにすることです。ユーザーがページを何度も更新したり、特定のページに何度も移動したり、Web ページを自分のコンピューターに保存したりすると、重複したイベントが発生する可能性があります（例えば、購入者が購入確認ページを自分のコンピューターに保存している場合、イベントのシリアル化が適切におこなわれていないと、そのページを表示するたびに、注文と収入が再カウントされます）。
-seo-title: イベントのシリアル化の概要
+keywords: Analytics Implementation
 solution: Analytics
 title: イベントのシリアル化の概要
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
