@@ -1,13 +1,11 @@
 ---
 description: カスタムトラフィックレポートでは、各組織がデフォルトで実装されていない追加のディメンションのレポートを作成できます。カスタムトラフィックレポートは、いくつかの方法で使用できます。最も一般的な方法は、トラフィックとパスの測定です。
-seo-description: カスタムトラフィックレポートでは、各組織がデフォルトで実装されていない追加のディメンションのレポートを作成できます。カスタムトラフィックレポートは、いくつかの方法で使用できます。最も一般的な方法は、トラフィックとパスの測定です。
-seo-title: カスタムトラフィック
 solution: Analytics
 title: カスタムトラフィック
-topic: レポート
+topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
