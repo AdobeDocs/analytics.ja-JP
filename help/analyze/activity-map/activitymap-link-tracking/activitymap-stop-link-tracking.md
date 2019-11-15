@@ -1,13 +1,11 @@
 ---
 description: Activity Map またはレガシー ClickMap でリンクトラッキングを停止する手順です。
-seo-description: Activity Map またはレガシー ClickMap でリンクトラッキングを停止する手順です。
-seo-title: リンクトラッキングの停止
 solution: Analytics
 title: リンクトラッキングの停止
-topic: Activity Map
+topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ Activity Map またはレガシー ClickMap でリンクトラッキングを停
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称 Visitor ClickMap） </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 変数を false（デフォルト）に設定します。The syntax reads as follows: 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 変数を false（デフォルト）に設定します。構文は次のようになります。
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
