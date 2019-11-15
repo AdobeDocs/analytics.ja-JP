@@ -1,13 +1,11 @@
 ---
 description: Activity Map は以下の Web ブラウザーでサポートされています。
-seo-description: Activity Map は以下の Web ブラウザーでサポートされています。
-seo-title: サポートされているシステムおよび要件
 solution: Analytics
 title: サポートされているシステムおよび要件
-topic: Activity Map
+topic: Activity map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
