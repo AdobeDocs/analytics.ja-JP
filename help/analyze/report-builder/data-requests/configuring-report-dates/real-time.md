@@ -1,13 +1,11 @@
 ---
 description: Web ページトラフィックをリアルタイムで表示し、ページビュー数をランク付けします。これにより、サイトのトレンドをよりすばやく把握できるようになります。
-seo-description: Web ページトラフィックをリアルタイムで表示し、ページビュー数をランク付けします。これにより、サイトのトレンドをよりすばやく把握できるようになります。
-seo-title: リアルタイムレポート
 solution: Analytics
 title: リアルタイムレポート
-topic: Report Builder
+topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
