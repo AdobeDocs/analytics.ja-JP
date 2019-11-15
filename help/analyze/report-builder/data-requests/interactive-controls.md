@@ -1,13 +1,11 @@
 ---
 description: インタラクティブコントロールを使用すると、リクエストのセグメントや日付範囲をワークシートから直接編集できます。これにより、Report Builder リクエストを柔軟に更新できるようになります。
-seo-description: インタラクティブコントロールを使用すると、リクエストのセグメントや日付範囲をワークシートから直接編集できます。これにより、Report Builder リクエストを柔軟に更新できるようになります。
-seo-title: インタラクティブコントロール
 solution: Analytics
 title: インタラクティブコントロール
-topic: Report Builder
+topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
