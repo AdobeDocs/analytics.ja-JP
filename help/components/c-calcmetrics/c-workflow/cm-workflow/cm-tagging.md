@@ -1,11 +1,9 @@
 ---
 description: 計算指標マネージャでは、セグメントにタグを付けて管理できます。
-seo-description: 計算指標マネージャでは、セグメントにタグを付けて管理できます。
-seo-title: 計算指標のタグ付け
 title: 計算指標のタグ付け
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
