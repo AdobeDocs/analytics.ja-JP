@@ -1,14 +1,12 @@
 ---
 description: 処理ルールはデータ収集をシンプル化し、レポートに送信されるコンテンツを管理します。
-keywords: Analytics の実装, 処理ルール, ルール
-seo-description: 処理ルールはデータ収集をシンプル化し、レポートに送信されるコンテンツを管理します。
-seo-title: 処理ルール
+keywords: Analytics Implementation;processing rules;rules
 solution: Analytics
 title: 処理ルール
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
