@@ -1,14 +1,12 @@
 ---
 description: 場合によっては、一部の指標は、Adobe Analytics 指標を DFA 指標と比較する際に、許容される差異の範囲を超える場合があります。指標の定義と不一致の考えられる理由を以下に示します。
 keywords: DFA
-seo-description: 場合によっては、一部の指標は、Adobe Analytics 指標を DFA 指標と比較する際に、許容される差異の範囲を超える場合があります。指標の定義と不一致の考えられる理由を以下に示します。
-seo-title: 指標の不一致の調整
 solution: Analytics
 title: 指標の不一致の調整
-topic: Data Connectors
+topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
