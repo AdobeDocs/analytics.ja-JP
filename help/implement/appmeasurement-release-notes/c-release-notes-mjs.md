@@ -1,14 +1,12 @@
 ---
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
-seo-description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
-seo-title: JavaScript 版 AppMeasurement
 solution: Analytics
-subtopic: リリースノート
+subtopic: Release notes
 title: JavaScript 版 AppMeasurement
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
