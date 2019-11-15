@@ -1,14 +1,12 @@
 ---
 description: ここでは、よくある質問とその回答を示します。
-seo-description: ここでは、よくある質問とその回答を示します。
-seo-title: データソースに関する FAQ
 solution: Analytics
-subtopic: データソース
+subtopic: Data sources
 title: データソースに関する FAQ
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
