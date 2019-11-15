@@ -1,15 +1,13 @@
 ---
 description: 一般的な顧客インタラクションで送信されるサーバーコールのサンプルを含む例です。
-keywords: Analytics の実装
-seo-description: 一般的な顧客インタラクションで送信されるサーバーコールのサンプルを含む例です。
-seo-title: 訪問の例
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 訪問者
+subtopic: Visitors
 title: 訪問の例
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
