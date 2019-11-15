@@ -1,15 +1,13 @@
 ---
 description: cookie に値を書き込みます。
-keywords: Analytics の実装
-seo-description: cookie に値を書き込みます。
-seo-title: Util.cookieWrite
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,7 +22,7 @@ cookie に値を書き込みます。
 s.Util.cookieWrite(key, value [,expire])
 ```
 
-**パラメーター：**
+**パラメーター:**
 
 | パラメーター | 説明 |
 |---|---|
@@ -32,7 +30,7 @@ s.Util.cookieWrite(key, value [,expire])
 | value | （オプション）cookie に書き込むための値。 |
 | expire | （オプション）cookie の有効期限を含む日付オブジェクト。デフォルトでは、セッション cookie を使用します。 |
 
-**戻り値：**
+**戻り値:**
 
 **例：**
 
