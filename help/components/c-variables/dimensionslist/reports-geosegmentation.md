@@ -1,13 +1,11 @@
 ---
 description: 訪問者の所在地に関するデータを表示します。地理特性レポートには、国、地域、市区町村、米国の州および米国 DMA（デジタル販売地域）が含まれます。地理特性レポートは、すべてのお客様に対して有効になっています。
-seo-description: 訪問者の所在地に関するデータを表示します。地理特性レポートには、国、地域、市区町村、米国の州および米国 DMA（デジタル販売地域）が含まれます。地理特性レポートは、すべてのお客様に対して有効になっています。
-seo-title: 地理特性
 solution: Analytics
 title: 地理特性
-topic: レポート
-uuid: 66aa22c4-dcbc-491a-b23c-0c3d8744d23
+topic: Reports
+uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
