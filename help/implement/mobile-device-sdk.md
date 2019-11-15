@@ -1,10 +1,8 @@
 ---
 title: モバイルデバイス用のAnalyticsの実装
-seo-title: モバイルデバイス用のAnalyticsの実装
 description: 'null'
-seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
+source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 
 ---
 
@@ -36,5 +34,5 @@ source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 *注意：モバイルデバイス用のAppMeasurement 3.x SDKはサポートされなくなりました。 ただし、SDKのドキュメントは以下のとおりです。*
 
 
-* [iOSドキュメント](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/assets/adobe_mobile_ios_3.x.pdf)
-* [Androidドキュメント](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/assets/android_3.x.pdf)
+* [iOSドキュメント](/assets/adobe_mobile_ios_3.x.pdf)
+* [Androidドキュメント](/assets/android_3.x.pdf)
