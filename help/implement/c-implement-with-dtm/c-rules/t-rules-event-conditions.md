@@ -1,13 +1,11 @@
 ---
 description: 条件は、イベント型ルールがいつトリガーされるかを決定するものです。
-keywords: Dynamic Tag Management, ルール, ルールの作成, 新規ルール, イベント型ルール, リンクの有効化の遅延, イベントハンドラーを要素に直接適用, バブリング, イベントバブリング
-seo-description: 条件は、イベント型ルールがいつトリガーされるかを決定するものです。
-seo-title: イベント型ルールの条件の作成
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;delay link activation;apply event handler directly to element;bubbling;event bubbling
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: イベント型ルールの条件の作成
 uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
