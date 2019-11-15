@@ -1,19 +1,17 @@
 ---
 description: Analysis Workspace で使用できるキーボード操作、ショートカットキー、ポイント＆クリックの動作です。
 keywords: Analysis Workspace
-seo-description: Analysis Workspace で使用できるキーボード操作、ショートカットキー、ポイント＆クリックの動作です。
-seo-title: Analysis Workspaceで使用可能なホットキー
 solution: Analytics
-title: Analysis Workspaceで使用可能なホットキー
-topic: Reports and Analytics
-uuid: 1ee93ce3- acab-44f8- abdc-9a68placement35d32
+title: Analysis Workspace で使用できるホットキー
+topic: Reports and analytics
+uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Analysis Workspaceで使用可能なホットキー
+# Analysis Workspace で使用できるホットキー
 
 Analysis Workspace で使用できるキーボード操作、ショートカットキー、ポイント＆クリックの動作です。
 
