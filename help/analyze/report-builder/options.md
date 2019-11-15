@@ -1,13 +1,11 @@
 ---
 description: オプションパネルでは、日付設定、待ち時間設定（現在のデータ）およびログ情報を指定し、更新を設定できます。
-seo-description: オプションパネルでは、日付設定、待ち時間設定（現在のデータ）およびログ情報を指定し、更新を設定できます。
-seo-title: Report Builder オプション
 solution: Analytics
 title: Report Builder オプション
-topic: Report Builder
+topic: Report builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
