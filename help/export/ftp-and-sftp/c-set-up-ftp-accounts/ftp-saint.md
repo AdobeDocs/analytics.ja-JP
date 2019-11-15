@@ -1,13 +1,11 @@
 ---
 description: 分類（SAINT）FTP オプションは、複数のレポートスイートへのデータアップロード機能や、50,000 行を超えるデータセットのアップロード機能など、大規模な分類データセットを柔軟にアップロードできる機能を備えています。
 keywords: ftp;sftp
-seo-description: 分類（SAINT）FTP オプションは、複数のレポートスイートへのデータアップロード機能や、50,000 行を超えるデータセットのアップロード機能など、大規模な分類データセットを柔軟にアップロードできる機能を備えています。
-seo-title: 分類
 solution: Analytics
 title: 分類
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
