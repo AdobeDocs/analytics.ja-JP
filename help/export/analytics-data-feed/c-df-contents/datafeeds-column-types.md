@@ -1,14 +1,12 @@
 ---
 description: pre 列にはデータ収集に送信されたデータがそのまま含まれます。post 列には処理後の値が含まれます。
-keywords: データフィード；ジョブ；pre列；post列；大文字と小文字の区別
-seo-description: pre 列にはデータ収集に送信されたデータがそのまま含まれます。post 列には処理後の値が含まれます。
-seo-title: Pre 列と Post 列
+keywords: Data Feed;job;pre column;post column;case sensitivity
 solution: Analytics
 title: Pre 列と Post 列
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
