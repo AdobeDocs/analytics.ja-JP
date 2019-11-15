@@ -1,14 +1,12 @@
 ---
-description: 選択した時間、日、週、月、四半期、年におけるサイトへの実訪問者数。
-keywords: 訪問者
-seo-description: 選択した時間、日、週、月、四半期、年におけるサイトへの個別訪問者数。
-seo-title: 訪問者
+description: 選択した時間、日、週、月、四半期、年におけるサイトへの個別訪問者数。
+keywords: visitors
 solution: Analytics
 title: 訪問者
-topic: 指標
+topic: Metrics
 uuid: 098beb78-5294-42b4-8875-f3908aa646ca
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
