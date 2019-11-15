@@ -1,14 +1,12 @@
 ---
 description: ページで .JS ファイルが正しく参照されていることを確認します。パスには、現在のドキュメントを基準とした相対パスを指定するか、または絶対パス名を使用できます。
-keywords: Analytics の実装
-seo-description: ページで .JS ファイルが正しく参照されていることを確認します。パスには、現在のドキュメントを基準とした相対パスを指定するか、または絶対パス名を使用できます。
-seo-title: JavaScript JS ファイル
+keywords: Analytics Implementation
 solution: Analytics
 title: JavaScript JS ファイル
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
