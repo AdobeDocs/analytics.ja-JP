@@ -1,14 +1,12 @@
 ---
 description: page_event の値に基づいてヒットソースを判別する参照テーブル。
-keywords: データフィード;ヒット、source
-seo-description: page_event の値に基づいてヒットソースを判別する参照テーブル。
-seo-title: ヒットソース参照
+keywords: Data Feed;hit;source
 solution: Analytics
 title: ヒットソース参照
-topic: Reports and Analytics
-uuid: b4ef2366- a7c3-421b-8dc6-279706fe277f
+topic: Reports and analytics
+uuid: b4ef2366-a7c3-421b-8dc6-279706fe277f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
