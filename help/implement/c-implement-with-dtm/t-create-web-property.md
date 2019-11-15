@@ -1,14 +1,12 @@
 ---
 description: Web プロパティは、1 つ以上のドメインおよびサブドメインの集合と複数のルールで構成され、1 つの埋め込みコードに組み込まれます。
-keywords: Analytics の実装, 実装方法, dynamic tag management, dtm, web プロパティ, プロパティ
-seo-description: Web プロパティは、1 つ以上のドメインおよびサブドメインの集合と複数のルールで構成され、1 つの埋め込みコードに組み込まれます。
-seo-title: Web プロパティの作成
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
 solution: Analytics
 title: Web プロパティの作成
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,7 +19,7 @@ Web プロパティは、1 つ以上のドメインおよびサブドメイン�
 
 それらのアセットを DTM で管理および追跡できます。例えば、1 つのテンプレートに基づく複数の Web サイトがあり、それらすべての Web サイトに関する共通のアセットを追跡する場合などに役立ちます。1 つの Web プロパティを複数のドメインに適用することもできます。
 
-Web プロパティの概要とベストプラクティスについては、 Dynamic Tag [](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) Management製品ドキュメントのWebプロパティ。
+Web プロパティの概要とベストプラクティスについては、Dynamic Tag Management 製品ドキュメントの「[Web プロパティ](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)」。
 
 1. 会社ページに移動して、「**[!UICONTROL プロパティの追加]**」をクリックします。
 
