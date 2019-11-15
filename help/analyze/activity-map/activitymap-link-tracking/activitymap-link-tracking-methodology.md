@@ -1,13 +1,11 @@
 ---
 description: このセクションは Adobe Analytics 管理者を対象としています。新しいリンクトラッキングパラメーターについて説明し、それによって異なるブラウザー間、デバイス間でのリンクの一意性と一貫性を確保し、ページ上でのリンクの再配置の処理を向上する方法を示します。
-seo-description: このセクションは Adobe Analytics 管理者を対象としています。新しいリンクトラッキングパラメーターについて説明し、それによって異なるブラウザー間、デバイス間でのリンクの一意性と一貫性を確保し、ページ上でのリンクの再配置の処理を向上する方法を示します。
-seo-title: リンクトラッキング手法
 solution: Analytics
-title: リンクトラッキング 方法論
-topic: Activity Map
+title: リンクトラッキング手法
+topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,9 +16,9 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Activity Map によって PII データがどのように収集される可能性があるかについて詳しくは、[こちら](/help/analyze/activity-map/lnk-tracking-overview.md)を参照してください。
+>テキスト（href 以外）に PII（Personally Identifiable Information：個人を特定できる情報）が含まれている可能性のあるリンクは、[s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) を使用して明示的に実装するか、[s.ActivityMap.linkExclusions または s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) で ActivityMap リンクコレクションを除外して実装する必要があります。Activity Map によって PII データがどのように収集される可能性があるかについて詳しくは、[こちら](/help/analyze/activity-map/lnk-tracking-overview.md)を参照してください。
 
-Activity Map では、次の 2 つの ID に基づいてリンクトラッキングを行います。
+Activity Map では、次の 2 つの ID に基づいてリンクトラッキングをおこないます。
 
 * プライマリ ID：リンクの認識可能なパラメーターです。
 * リンク領域：このセカンダリパラメーターを使用すると、ページまたは領域の全体的なリンク領域を表現する文字列を指定できます。このパラメーターは、ユーザーが指定しない場合は自動的に生成できます。
@@ -50,7 +48,7 @@ HTML に s_objectid が含まれている場合、プライマリ ID はデフ�
 * ページ上のリンク再配置の影響を受けません。
 * 読みやすさが向上するので、Activity Map 外でリンクトラッキングレポートの分析を開始できます。
 
-## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
+## リンク領域 {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
 この新しい属性では、リンクが配置されているページ領域を表現する文字列を指定できます。
 
@@ -61,12 +59,12 @@ HTML に s_objectid が含まれている場合、プライマリ ID はデフ�
 * プライマリ ID が同じ複数のリンクを区別できます。
 * 領域のトレンドに対する Web ページの動的側面の影響が小さくなります。
 * 領域内でパフォーマンスが上位のリンクを確認できます。領域をアンカーとして、現在ページに表示されていないリンク（Ajax、ターゲティング）のオーバーレイを表示できます。
-* 特定の領域を複数の Web ページで使用する場合があるので、領域をページより優先させることができます。次のような質問に答えるのに役立ちます。「製品提供」領域は、女性用ランディングページと男性用ランディングページのどちらでパフォーマンスが最も良いか。
+* 特定の領域を複数の Web ページで使用する場合があるので、領域をページより優先させることができます。これは、「製品提供」領域が女性のランディングページと男性のランディングページのどちらで良いパフォーマンスを発揮するかといった質問に回答する際に役立ちます。
 * 領域は、それ自体、高度に動的な Web ページの分析に関連するディメンションです。これは、リンクが絶え間なく変化することによるノイズが削減されるからです。CNN のランディングページの「最新ニュース」領域では、多くのリンクが頻繁に変更されている可能性があります。それでも、領域は常にそこにあります。そのため、領域レベルで長期に渡ってトレンドを分析すると興味深い結果が得られる場合があります。
 
 **カスタマイズされた領域トラッキング**
 
-リンクの領域パラメーターをカスタマイズできます（デフォルトはリンク ID）。「ID」に設定されているタグは、領域としての "id" パラメーターを持つすべての HTML 要素を使用します。したがって、領域タグを「id」に設定すると、多くの場合、多くの異なる領域が返されます（ページ上に異なる「ID」が存在する限り）。 また、よりカスタマイズされた実装が必要な場合は、領域タグを "region_id" など、より具体的なものに設定できます。
+リンクの領域パラメーターをカスタマイズできます（デフォルトはリンク ID）。「ID」に設定されているタグは、領域としての "id" パラメーターを持つすべての HTML 要素を使用します。したがって、領域タグを "id" に設定すると、多くの場合、多数の異なる領域が返されます（ページ上の「ID」の数に応じて）。また、よりカスタマイズされた実装が必要な場合は、領域タグを "region_id" など、より具体的なものに設定できます。
 
 以下に、デフォルトの領域 ID 属性 "id" を使用したサンプルの HTML を示します。
 
