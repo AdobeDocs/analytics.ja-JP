@@ -1,20 +1,18 @@
 ---
 description: 設定変数は、AppMeasurement.js に設定されます。
-keywords: Analytics の実装
-seo-description: 設定変数は、AppMeasurement.js で Adobe Analytics 用に設定されます。
-seo-title: 設定変数
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 変数
+subtopic: Variables
 title: 設定変数
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 
 ---
 
 
-# 設定変数 概要
+# 設定変数の概要
 
 設定変数は、データが取得され、レポートで処理される方法を制御します。最も一般的な設定変数は、通常、メインのグローバルJavaScript appMeasurement.jsに設定されます。 これらの変数は、必要に応じて、Analytics のページレベルのコード内およびリンクに設定できます。
 
@@ -58,8 +56,6 @@ source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 * [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):コールバック（関数）とその関数のパラメーターの両方をパラメーターとして取る関数。
 
-* [s.registerPostTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-regpretrackcback.html):コールバック（関数）とその関数のパラメーターの両方をパラメーターとして取る関数。
-
 * [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackdnloadlinks.html):サイト上のダウンロード可能ファイルへのリンクを追跡します。
 
 * [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackextlinks.html):クリックされたリンクが離脱リンクであるかどうかを判定します。
@@ -77,3 +73,17 @@ source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html):離脱リンクの特定のサブセットに関するレポートを作成するために使用します。
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html):各イメージリクエ `s_doPlugins` ストの前に関数を呼び出します。
+
+* [s.useForcedlinkTracking](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-usedforcedlinktracking.html):一部のブラウザーの強制リンクトラッキングを無効にします。
+
+* [s.linkType](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktype.html):ダウンロード、終了またはカスタムのリンクタイプを設定します。
+
+* [s.linkName](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html):ダウンロード、離脱またはカスタムリンクのレポートに表示する名前を設定します。
+
+* [s.ForcedlinkTrackingTimeout](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-forcedlinktrackingtimeout.html):トラッキングの最大待機時間を設定します。
+
+* [s.linkTrackEvents](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackingevents.html):一部のブラウザーの強制リンクトラッキングを無効にします。
+
+* [s.linkUrl](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkurl.html):リンクのURLを設定します。
+
+* [s.linkObject](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkobject.html):クリックされたオブジェクトを参照します。
