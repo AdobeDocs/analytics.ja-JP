@@ -1,14 +1,12 @@
 ---
 description: ID サービスは、従来の Analytics 訪問者 ID メカニズムに代わるものであり、ハートビートビデオ指標、Target と Analytics の統合および今後の Experience Cloud コアサービスと統合で必須となる機能です。
-keywords: Analytics の実装
-seo-description: ID サービスは、従来の Analytics 訪問者 ID メカニズムに代わるものであり、ハートビートビデオ指標、Target と Analytics の統合および今後の Experience Cloud コアサービスと統合で必須となる機能です。
-seo-title: ID サービス
+keywords: Analytics Implementation
 solution: Analytics
 title: ID サービス
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 8ae013d4-d5a9-4b20-bf3b-145f0dcc3d6d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
