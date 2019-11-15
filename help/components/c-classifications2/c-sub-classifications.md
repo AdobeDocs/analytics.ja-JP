@@ -1,14 +1,12 @@
 ---
 description: Adobe Analyticsは、単一レベルの分類モデルと複数レベルの分類モデルの両方をサポートしています。 分類階層を使用すると、分類に対して分類を適用できます。
-seo-description: Adobe Analyticsは、単一レベルの分類モデルと複数レベルの分類モデルの両方をサポートしています。 分類階層を使用すると、分類に対して分類を適用できます。
-seo-title: 下位分類について
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 下位分類について
-topic: 管理ツール
+topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
