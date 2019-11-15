@@ -1,13 +1,11 @@
 ---
 description: 日付が記入されたセルを選択して、日付範囲を指定することができます。Report Builder では、リクエストでこの特定の日付範囲情報が使用されます。今日の日付を選択すると、リクエストが実行される時刻に基づいて、更新中の未確定データが表示されます。
-seo-description: 日付が記入されたセルを選択して、日付範囲を指定することができます。Report Builder では、リクエストでこの特定の日付範囲情報が使用されます。今日の日付を選択すると、リクエストが実行される時刻に基づいて、更新中の未確定データが表示されます。
-seo-title: セルからの日付の指定
 solution: Analytics
 title: セルからの日付の指定
-topic: Report Builder
+topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
