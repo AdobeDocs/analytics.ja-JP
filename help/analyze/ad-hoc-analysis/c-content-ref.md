@@ -1,13 +1,11 @@
 ---
 description: Ad Hoc Analysisは、Analyticsのセグメント化環境と統合されており、アドビ製品全体で訪問者セグメントを作成、共有、管理および適用できます。 Ad Hoc Analysisは、他のAnalyticsツールで使用されるWebベースのツールと同じ、Javaベースのユーザーインターフェイスをセグメントビルダーおよびセグメントマネージャーに提供し、サーバー呼び出しを照合し、Javaベースのコンソールと同じ機能を提供します。
-seo-description: Ad Hoc Analysisは、Analyticsのセグメント化環境と統合されており、アドビ製品全体で訪問者セグメントを作成、共有、管理および適用できます。 Ad Hoc Analysisは、他のAnalyticsツールで使用されるWebベースのツールと同じ、Javaベースのユーザーインターフェイスをセグメントビルダーおよびセグメントマネージャーに提供し、サーバー呼び出しを照合し、Javaベースのコンソールと同じ機能を提供します。
-seo-title: セグメントの構築
 solution: Analytics
 title: セグメントの構築
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
