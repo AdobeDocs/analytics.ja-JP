@@ -1,15 +1,13 @@
 ---
 description: 次のページビューで Analytics 変数の値を取り込みます。例えば、プラグインを使って前のページビューから s.pageName 値を取得して、カスタムトラフィック変数に取り込むことができます。指定した成功イベントがセットされた場合にのみ前の値を取得するオプションもあります。
-keywords: Analytics の実装
-seo-description: 次のページビューで Analytics 変数の値を取り込みます。例えば、プラグインを使って前のページビューから s.pageName 値を取得して、カスタムトラフィック変数に取り込むことができます。指定した成功イベントがセットされた場合にのみ前の値を取得するオプションもあります。
-seo-title: getPreviousValue
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: プラグイン
+subtopic: Plug-ins
 title: getPreviousValue
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
