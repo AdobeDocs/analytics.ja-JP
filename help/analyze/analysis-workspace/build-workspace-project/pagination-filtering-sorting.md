@@ -1,20 +1,18 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: ページ編集、テーブルのフィルタリングと並べ替え
-title: ページ編集、テーブルのフィルタリングと並べ替え
-uuid: 53263cec- c378-459b-9689-6adaeb66e5c9
+title: テーブルのページネーション、フィルタリングおよび並べ替え
+uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# ページ編集、テーブルのフィルタリングと並べ替え
+# テーブルのページネーション、フィルタリングおよび並べ替え
 
 概要については、YouTube のこのビデオをご覧ください。
 
-[Analysis Workspaceでのページ番号付け、テーブルのフィルタリングと並べ替え](https://www.youtube.com/watch?v=2zxpRPCGspg)
+[Analysis Workspaceのテーブルのページ編集、フィルタリングおよび並べ替え](https://www.youtube.com/watch?v=2zxpRPCGspg)
 
 ## Advanced filtering options {#section_36E92E31442B4EBCB052073590C1F025}
 
