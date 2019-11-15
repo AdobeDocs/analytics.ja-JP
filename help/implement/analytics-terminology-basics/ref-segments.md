@@ -1,14 +1,12 @@
 ---
 description: セグメントとは、データを独自に絞り込んだサブセット、つまり指定した規則でデータをフィルタリングしたものです。
-keywords: Analytics の実装, セグメント
-seo-description: セグメントとは、データを独自に絞り込んだサブセット、つまり指定した規則でデータをフィルタリングしたものです。
-seo-title: セグメント
+keywords: Analytics Implementation;segment
 solution: Analytics
 title: セグメント
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
