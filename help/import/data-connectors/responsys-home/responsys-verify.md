@@ -1,12 +1,10 @@
 ---
 description: デプロイ後は、以下のチェックを使用して、統合が正常にデータを転送していることを検証する必要があります。
-seo-description: デプロイ後は、以下のチェックを使用して、統合が正常にデータを転送していることを検証する必要があります。
-seo-title: 統合の確認
 solution: Analytics
 title: 統合の確認
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
