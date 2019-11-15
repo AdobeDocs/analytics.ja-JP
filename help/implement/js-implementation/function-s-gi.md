@@ -1,14 +1,12 @@
 ---
 description: s_gi() 関数は、レポートスイート ID を使用して AppMeasurement のインスタンスを作成したり、検索したりする際に使用します。AppMeasurement は作成されるすべてのインスタンスを内部で追跡しており、s_gi() はレポートスイートに対応する既存のインスタンスがある場合にそれを返します。インスタンスが存在しなければ、新しいインスタンスが作成されて返されます。
-keywords: Analytics の実装
-seo-description: s_gi() 関数は、レポートスイート ID を使用して AppMeasurement のインスタンスを作成したり、検索したりする際に使用します。AppMeasurement は作成されるすべてのインスタンスを内部で追跡しており、s_gi() はレポートスイートに対応する既存のインスタンスがある場合にそれを返します。インスタンスが存在しなければ、新しいインスタンスが作成されて返されます。
-seo-title: s_gi() 関数
+keywords: Analytics Implementation
 solution: Analytics
 title: s_gi() 関数
-topic: 開発者と実装
-uuid: a77de90e-c60e-4946-90cf-loam8aa3d755
+topic: Developer and implementation
+uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 s_gi() 関数は、レポートスイート ID を使用して AppMeasurement のインスタンスを作成したり、検索したりする際に使用します。AppMeasurement は作成されるすべてのインスタンスを内部で追跡しており、s_gi() はレポートスイートに対応する既存のインスタンスがある場合にそれを返します。インスタンスが存在しなければ、新しいインスタンスが作成されて返されます。
 
-We recommend calling `s_gi()` before setting variables and making tracking calls throughout your page code. そうすることで、s 変数が誤って上書きされていた場合でも正しいオブジェクトを使用してトラッキングコールを実行することができます。
+変数を設定してページコード全体でトラッキングコールを実行する前に、`s_gi()` を呼び出すことをお勧めします。そうすることで、s 変数が誤って上書きされていた場合でも正しいオブジェクトを使用してトラッキングコールを実行することができます。
 
 ## 複数のレポートスイートの使用 {#section_F2F3B76E7AFD4B4B91CDC8BBEB34BBC5}
 
