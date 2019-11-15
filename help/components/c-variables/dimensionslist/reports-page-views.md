@@ -1,13 +1,11 @@
 ---
 description: 指定された期間（時間、日、週、月、四半期、年）に Web サイトのページが閲覧された回数を表示するトレンドレポートです。このレポートでは、サイトの各ページのページビュー数と、サイト全体のページビュー合計数を追跡できます。
-seo-description: 指定された期間（時間、日、週、月、四半期、年）に Web サイトのページが閲覧された回数を表示するトレンドレポートです。このレポートでは、サイトの各ページのページビュー数と、サイト全体のページビュー合計数を追跡できます。
-seo-title: ページビュー数
 solution: Analytics
 title: ページビュー数
-topic: レポート
+topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
