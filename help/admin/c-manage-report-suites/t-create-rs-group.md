@@ -1,13 +1,11 @@
 ---
-description: レポートスイートグループを作成する方法について手順を説明します。
-seo-description: レポートスイートグループを作成する方法を説明する手順。
-seo-title: レポートスイートグループの作成
+description: レポートスイートグループを作成する方法を説明する手順。
 solution: Analytics
 title: レポートスイートグループの作成
-topic: 管理ツール
+topic: Admin tools
 uuid: 4a5c9a8e-518e-43a0-8ed6-6275825009f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
