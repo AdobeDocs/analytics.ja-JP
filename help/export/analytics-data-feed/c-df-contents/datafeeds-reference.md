@@ -1,15 +1,13 @@
 ---
 description: データフィードの各列について説明するテーブルデータです。
-keywords: データフィード；列
-seo-description: データフィードの各列について説明するテーブルデータです。
-seo-title: データ列リファレンス
+keywords: Data Feed;columns
 solution: Analytics
-subtopic: データフィード
+subtopic: data feeds
 title: データ列リファレンス
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -40,7 +38,7 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | click_action | 廃止。レガシー ClickMap ツール内でクリックされたリンクのアドレス。 | varchar(100) |
 | click_action_type | 廃止。レガシー ClickMap ツールのリンクタイプ。<br>0:HREF URL<br>1:カスタムID<br>2:JavaScript onClick event<br>3:フォーム要素 | tinyint unsigned |
 | click_context | 廃止。リンククリックが発生したページの名前。レガシー ClickMap ツールの一部。 | varchar(255) |
-| click_context_type | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0: Page URL<br>1: Page Name | tinyint unsigned |
+| click_context_type | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0:ページURL<br>1:ページ名 | tinyint unsigned |
 | click_sourceid | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。レガシー ClickMap ツールの一部。 | int unsigned |
 | click_tag | 廃止。クリックされた HTML 要素のタイプ。 | char(10) |
 | clickmaplink | Activity mapリンク | varchar(255) |
@@ -67,7 +65,7 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | ef_id | Adobe Advertising Cloud 統合で使用される ef_id。 | varchar(255) |
 | evar1 ～ evar250 | カスタム変数 1 ～ 250。eVar の使用方法は組織ごとに異なります。組織における各 eVar への値の設定方法について詳しくは、それぞれの組織に固有のソリューションデザインドキュメントを参照してください。 | varchar(255) |
 | event_list | ヒットで発生したイベントを表す数値 ID のコンマ区切りリスト。デフォルトイベントもカスタムイベント 1 ～ 1000 も含まれています。event.tsv 参照テーブルを使用します。 | text |
-| exclude_hit | ヒットがレポートから除外されていることを示すフラグ。visit_num列は、除外されたヒットに対しては増分されません。<br>1：未使用. Part of a scrapped feature.<br>2：未使用. Part of a scrapped feature.<br>3:使用されなくなりました。 ユーザーエージェントの除<br>外4:IPアドレス5に基づく除<br>外：重要なヒット情報がない。page_url、pagename、page_event、event_list<br>6など。JavaScriptがヒット<br>7を正しく処理しなかった：アカウント固有の除外(VISTAルール<br>8など):未使用。 Alternate account-specific exclusion.<br>9：未使用. Part of a scrapped feature.<br>10: Invalid currency code<br>11: Hit missing a timestamp on a timestamp-only report suite, or a hit contained a timestamp on a non-timestamp report suite<br>12: Not used. Part of a scrapped feature.<br>13：未使用. Part of a scrapped feature.<br>14:Analyticsヒット<br>15と一致しないターゲットヒット：現在は使用されていません。<br>16:Analyticsヒットと一致しないAdvertising cloudヒット | tinyint unsigned |
+| exclude_hit | ヒットがレポートから除外されていることを示すフラグ。visit_num列は、除外されたヒットに対しては増分されません。<br>1：未使用. 削除されたフィーチャの一部。<br>2：未使用. 削除されたフィーチャの一部。<br>3:使用されなくなりました。 ユーザーエージェントの除<br>外4:IPアドレス5に基づく除<br>外：重要なヒット情報がない。page_url、pagename、page_event、event_list<br>6など。JavaScriptがヒット<br>7を正しく処理しなかった：アカウント固有の除外(VISTAルール<br>8など):未使用。 代替のアカウント固有の除外。<br>9：未使用. 削除されたフィーチャの一部。<br>10:無効な通貨コード<br>11:タイムスタンプのみのレポートスイートでタイムスタンプがないヒット、またはタイムスタンプ以外のレポートスイート<br>12でタイムスタンプが含まれているヒット：未使用。 削除されたフィーチャの一部。<br>13：未使用. 削除されたフィーチャの一部。<br>14:Analyticsヒット<br>15と一致しないターゲットヒット：現在は使用されていません。<br>16:Analyticsヒットと一致しないAdvertising cloudヒット | tinyint unsigned |
 | first_hit_page_url | 訪問者の本当に最初の URL。 | varchar(255) |
 | first_hit_pagename | 「オリジナルの入口ページ」ディメンションで使用される変数。訪問者のオリジナルの入口ページ名。 | varchar(100) |
 | first_hit_ref_domain | 「オリジナルの参照ドメイン」ディメンションで使用される変数。first_hit_referrer に基づいています。訪問者の本当に最初の参照ドメイン。 | varchar(100) |
@@ -78,10 +76,10 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | geo_country | ヒットの発生元となった国の略称（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと国を対応させることができます。 | char(4) |
 | geo_dma | ヒットの発生元となった人口分布地域の数値 ID（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと人口分布地域を対応させることができます。 | int unsigned |
 | geo_region | ヒットの発生元となった州または地域の名前（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと州または地域を対応させることができます。 | char(32) |
-| geo_zip | The zip code the hit came came from, based on IP. アドビでは Digital Envoy 社との提携により、IP アドレスと郵便番号を対応させることができます。 | varchar(16) |
+| geo_zip | IPに基づく、ヒットの由来となった郵便番号。 アドビでは Digital Envoy 社との提携により、IP アドレスと郵便番号を対応させることができます。 | varchar(16) |
 | hier1 ～ hier5 | 階層変数で使用。値の区切りリストが格納されます。区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
-| hit_source | ヒットの発生源を示します。<br>1:タイムスタンプのない標準イメージリクエ <br>スト2:タイムスタンプ <br>3の標準イメージリクエスト：タイムスタンプ <br>4を使用したライブデータソースのアップロード：未使用 <br>5:汎用データソースアップロ <br>ード6:フル処理データソースのアップロ <br>ード7:TransactionIDデータソースのアップロ <br>ード8:使用されなくなりました。以前のバージョンのAdobe Advertising cloudデータソース <br>9:使用されなくなりました。Adobe Socialサマリ指標 | tinyint unsigned |
-| hit_time_gmt | The timestamp of the hit Adobe data collection servers received the hit, based in Unix time. | int |
+| hit_source | ヒットの発生源を示します。<br>1:タイムスタンプのない標準イメージリクエ <br>スト2:タイムスタンプ <br>3の標準イメージリクエスト：タイムスタンプ <br>4を使用したライブデータソースのアップロード：未使用 <br>5:汎用データソースアップロ <br>ード6:フル処理データソースのアップロ <br>ード7:TransactionIDデータソースのアップロ <br>ード8:使用されなくなりました。Adobe Advertising cloudの以前のバージョンのデータソ <br>ース9:使用されなくなりました。Adobe Socialサマリ指標 | tinyint unsigned |
+| hit_time_gmt | Unix時間に基づく、ヒットを受け取ったAdobeデータ収集サーバーのタイムスタンプ。 | int |
 | hitid_high | hitid_low と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
 | hitid_low | hitid_high と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
 | homepage | 廃止。現在の URL がブラウザーのホームページかどうかを示します。 | char(1) |
@@ -216,13 +214,13 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | va_finder_id | 「ファーストタッチチャネル」ディメンションを識別する数値 ID。この ID の参照はマーケティングチャネルマネージャーにあります。 | tinyint unsigned |
 | va_instance_event | マーケティングチャネルインスタンスを識別するフラグ。「マーケティングチャネルラストタッチインスタンス」指標で使用されます。 | tinyint unsigned |
 | va_new_engagement | マーケティングチャネルの新規エンゲージメントを識別するフラグ。「新規エンゲージメント」指標で使用されます。 | tinyint unsigned |
-| video | Video content | varchar(255) |
-| videoad | Video ad name | varchar(255) |
-| videoadinpod | Video ad in pod position | varchar(255) |
-| videoadlength | Video ad length | varchar(255) |
+| video | ビデオコンテンツ | varchar(255) |
+| videoad | ビデオ広告名 | varchar(255) |
+| videoadinpod | ポッド位置のビデオ広告 | varchar(255) |
+| videoadlength | ビデオ広告の長さ | varchar(255) |
 | videoadload | ビデオ広告の読み込み | varchar(255) |
-| videoadname | Video ad name | varchar(255) |
-| videoadplayername | Video ad player name | varchar(255) |
+| videoadname | ビデオ広告名 | varchar(255) |
+| videoadplayername | ビデオ広告プレイヤー名 | varchar(255) |
 | videoadpod | ビデオ広告ポッド | varchar(255) |
 | videoadvertiser | ビデオ広告主 | varchar(255) |
 | videoaudioalbum | ビデオオーディオアルバム | varchar(255) |
