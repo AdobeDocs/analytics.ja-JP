@@ -1,13 +1,11 @@
 ---
 description: 公開ウィジェットは、Web ページにマーケティングレポート（ブックマークとダッシュボード）を埋め込むことのできるコンテナです。マーケティングレポートにアクセスできない従業員も適切なデータを見ることができます。
-seo-description: 公開ウィジェットは、Web ページにマーケティングレポート（ブックマークとダッシュボード）を埋め込むことのできるコンテナです。マーケティングレポートにアクセスできない従業員も適切なデータを見ることができます。
-seo-title: 発行ウィジェット
 solution: Analytics
 title: 発行ウィジェット
-topic: 管理ツール
+topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
