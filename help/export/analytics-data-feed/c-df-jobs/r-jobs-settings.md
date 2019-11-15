@@ -1,13 +1,11 @@
 ---
 description: フィードを設定する際に、ジョブの頻度を決定するいくつかの設定が処理されます。
-keywords: データフィード；ジョブ；設定；日別；時間別；時間別データフィードのデータバックフィル；バックフィル
-seo-description: フィードを設定する際に、ジョブの頻度を決定するいくつかの設定が処理されます。
-seo-title: ジョブ設定
+keywords: Data Feed;job;settings;daily;hourly;Data Backfills for Hourly Data Feeds;backfill
 solution: Analytics
 title: ジョブ設定
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
