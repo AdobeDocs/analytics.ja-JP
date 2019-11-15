@@ -1,13 +1,11 @@
 ---
 description: Akamai ホスティングを使用する場合は、コンソールから未発行のルールをテストします。
-keywords: Dynamic Tag Management, ルール, switcher プラグイン, akamai, akamai のテスト, 未発行のルール, 未発行のルールのテスト, ルールのデバッグ
-seo-description: Akamai ホスティングを使用する場合は、コンソールから未発行のルールをテストします。
-seo-title: Akamai ホスティング用の未発行のルールのテスト
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Akamai ホスティング用の未発行のルールのテスト
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
