@@ -1,13 +1,11 @@
 ---
 description: サービスおよび製品の情報を提供する Web サイトの共通設定を定義します。これらのサービスおよび製品は、通常、さらに多くのエンゲージメントを介して販売されるものです。
-seo-description: サービスおよび製品の情報を提供する Web サイトの共通設定を定義します。これらのサービスおよび製品は、通常、さらに多くのエンゲージメントを介して販売されるものです。
-seo-title: リードジェネレーション
 solution: Analytics
 title: リードジェネレーション
-topic: 管理ツール
+topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
