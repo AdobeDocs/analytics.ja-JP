@@ -1,14 +1,12 @@
 ---
 description: .js ファイルは、レポートスイート ID を自動的に選択するように設定できます。
-keywords: Analytics の実装
-seo-description: .js ファイルは、レポートスイート ID を自動的に選択するように設定できます。
-seo-title: レポートスイート ID - 動的アカウント
+keywords: Analytics Implementation
 solution: Analytics
 title: レポートスイート ID - 動的アカウント
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 763a9741-309d-4795-8819-6543866047d5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
