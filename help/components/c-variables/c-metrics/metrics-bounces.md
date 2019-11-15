@@ -1,14 +1,12 @@
 ---
 description: 単一のサーバーコールから構成される訪問。例えば 1 回のページ訪問で、訪問者がリンクやビデオ開始のクリックなど、アドビにデータを送信するようなやりとりをページでおこなわない場合、その訪問はバウンスとなります。訪問で複数のヒットが記録された場合、バウンスにはカウントされません。
-keywords: バウンス
-seo-description: 単一のサーバーコールから構成される訪問。例えば 1 回のページ訪問で、訪問者がリンクやビデオ開始のクリックなど、アドビにデータを送信するようなやりとりをページでおこなわない場合、その訪問はバウンスとなります。訪問で複数のヒットが記録された場合、バウンスにはカウントされません。
-seo-title: バウンス
+keywords: bounce
 solution: Analytics
 title: バウンス
-topic: 指標
+topic: Metrics
 uuid: 0a5efe5f-467e-4d40-951a-5b462149e482
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
