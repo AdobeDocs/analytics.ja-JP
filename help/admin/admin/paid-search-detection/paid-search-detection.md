@@ -1,13 +1,11 @@
 ---
 description: 有料検索探知は、検索エンジンと検索キーワードレポート内の自然検索と有料検索を区別します。有料広告を使用する検索エンジンを指定し、有料広告から訪問した URL 内で見つかった文字列を指定できます。
-seo-description: 有料検索探知は、検索エンジンと検索キーワードレポート内の自然検索と有料検索を区別します。有料広告を使用する検索エンジンを指定し、有料広告から訪問した URL 内で見つかった文字列を指定できます。
-seo-title: 有料検索検知
 solution: Analytics
 title: 有料検索検知
-topic: 管理ツール
+topic: Admin tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
