@@ -1,13 +1,11 @@
 ---
 description: すべての検索、有料検索、自然検索について、訪問者が使用した検索エンジンを表示します。
-seo-description: すべての検索、有料検索、自然検索について、訪問者が使用した検索エンジンを表示します。
-seo-title: 検索エンジン
 solution: Analytics
 title: 検索エンジン
-topic: レポート
+topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
