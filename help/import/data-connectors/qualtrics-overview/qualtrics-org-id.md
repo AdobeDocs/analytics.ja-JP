@@ -1,14 +1,12 @@
 ---
 description: 統合ウィザードを完了するには、組織IDが必要です。 このIDを検索するには、次の手順を実行する必要があります。
-seo-description: 統合ウィザードを完了するには、組織IDが必要です。 このIDを検索するには、次の手順を実行する必要があります。
-seo-title: Qualtrics組織IDの検索
 solution: Analytics
 subtopic: Qualtrics
 title: Qualtrics組織IDの検索
-topic: Data Connectors
+topic: Data connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
