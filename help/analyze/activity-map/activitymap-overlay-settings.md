@@ -1,13 +1,11 @@
 ---
 description: Activity Map Settings パネルを使用すると、すべてのタイプのオーバーレイ視覚化の設定およびプロパティを変更できます。
-seo-description: Activity Map Settings パネルを使用すると、すべてのタイプのオーバーレイ視覚化の設定およびプロパティを変更できます。
-seo-title: Activity Map の設定
 solution: Analytics
 title: Activity Map の設定
-topic: Activity Map
+topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
