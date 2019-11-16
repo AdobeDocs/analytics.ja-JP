@@ -1,11 +1,9 @@
 ---
 description: このAdobe® Data Connectors™電子メール統合は、Analytics®の行動情報と電子メールマーケティングを組み合わせて、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
-seo-description: このAdobe® Data Connectors™電子メール統合は、Analytics®の行動情報と電子メールマーケティングを組み合わせて、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
-seo-title: Adobe Analytics用DreamMail Data Connector
 title: Adobe Analytics用DreamMail Data Connector
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
