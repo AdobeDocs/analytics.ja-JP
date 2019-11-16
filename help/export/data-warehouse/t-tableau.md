@@ -1,13 +1,11 @@
 ---
 description: Data Warehouseは、Tableauデータ抽出(TDE)ファイル形式でレポートを配信できます。この形式では、Adobe Analyticsの外部からのデータや追加データのレイヤーを視覚化できます。 この情報は、電子メールで送信したり、FTP サイトに FTP で送信したりできます。
-seo-description: Data Warehouseは、Tableauデータ抽出(TDE)ファイル形式でレポートを配信できます。この形式では、Adobe Analyticsの外部からのデータや追加データのレイヤーを視覚化できます。 この情報は、電子メールで送信したり、FTP サイトに FTP で送信したりできます。
-seo-title: Tableau 形式のデータファイル
 solution: Analytics
 title: Tableau 形式のデータファイル
-topic: Data Warehouse
+topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
