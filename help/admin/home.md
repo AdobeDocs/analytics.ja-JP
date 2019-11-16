@@ -1,10 +1,8 @@
 ---
 title: Analytics 管理ヘルプ
-seo-title: Analytics 製品比較
 description: 管理コンソールでのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics管理者向けの管理ヘルプ。
-seo-description: 管理コンソールでのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics管理者向けの管理ヘルプ。
 translation-type: tm+mt
-source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
