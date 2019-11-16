@@ -1,13 +1,11 @@
 ---
 description: レポートに大量のユニーク値がある場合、アドビは最も重要な値を確実にレポートに表示する機能を提供します。
-seo-description: レポートに大量のユニーク値がある場合、アドビは最も重要な値を確実にレポートに表示する機能を提供します。
-seo-title: Adobe Analyticsの低トラフィック値
 solution: Analytics
 title: Adobe Analyticsの低トラフィック値
-topic: 指標
+topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
