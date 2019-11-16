@@ -1,15 +1,13 @@
 ---
 description: Analytics ツール、レポートスイートツール、指標およびディメンションに対するグループ権限をカスタマイズします。
-keywords: グループ；権限
-seo-description: Analytics ツール、レポートスイートツール、指標およびディメンションに対するグループ権限をカスタマイズします。
-seo-title: レポートアクセスのカスタマイズ - 概要
+keywords: groups;permissions
 solution: Analytics
-subtopic: ユーザーとグループ
+subtopic: Users and groups
 title: レポートアクセスのカスタマイズ - 概要
-topic: 管理ツール
+topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
