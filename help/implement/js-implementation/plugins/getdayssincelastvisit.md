@@ -1,15 +1,13 @@
 ---
 description: ユーザーが最後にサイトを訪問してからの日数を判断し、その情報を Analytics 変数に取り込みます。
-keywords: Analytics の実装
-seo-description: ユーザーが最後にサイトを訪問してからの日数を判断し、その情報を Analytics 変数に取り込みます。
-seo-title: getDaysSinceLastVisit
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: プラグイン
+subtopic: Plug-ins
 title: getDaysSinceLastVisit
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
