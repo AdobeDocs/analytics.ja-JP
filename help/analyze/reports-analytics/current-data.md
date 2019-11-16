@@ -1,13 +1,12 @@
 ---
 description: Reports & Analytics の「現在のデータを含む」オプションを使用すると、ほとんどの場合、データが完全に処理されてファイナライズされる前に最新の Analytics データを表示できます。現在のデータには、ほとんどの指標が数分以内で表示され、迅速な意思決定を可能にする実用的なデータが提供されます。
-seo-title: 現在のデータ
 solution: Analytics
-subtopic: 現在のデータ
+subtopic: Current Data
 title: 現在のデータ
-topic: レポート
+topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
