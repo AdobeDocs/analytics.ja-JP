@@ -1,14 +1,12 @@
 ---
 description: ここでは、処理ルールのテストに関するガイドラインと、回避する必要がある一般的な間違いについて説明します。
-seo-description: ここでは、処理ルールのテストに関するガイドラインと、回避する必要がある一般的な間違いについて説明します。
-seo-title: 処理ルールのヒントとテクニック
 solution: Analytics
-subtopic: 処理ルール
+subtopic: Processing rules
 title: 処理ルールのヒントとテクニック
-topic: 管理ツール
+topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
