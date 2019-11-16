@@ -1,15 +1,13 @@
 ---
 description: 現在のページ URL に指定したクエリ文字列パラメーターがある場合、その値を返します。重要なデータ（キャンペーントラッキングコード、内部検索キーワードなど）はページ上のクエリ文字列に含まれているので、getQueryParam は、データを取得して Analytics 変数に取り込むのに役立ちます。
-keywords: Analytics の実装
-seo-description: 現在のページ URL に指定したクエリ文字列パラメーターがある場合、その値を返します。重要なデータ（キャンペーントラッキングコード、内部検索キーワードなど）はページ上のクエリ文字列に含まれているので、getQueryParam は、データを取得して Analytics 変数に取り込むのに役立ちます。
-seo-title: getQueryParam
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: プラグイン
+subtopic: Plug-ins
 title: getQueryParam
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
