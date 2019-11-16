@@ -1,11 +1,9 @@
 ---
 description: 目的の値が、他のパフォーマンス範囲（目標）と照らし合わせて、どのように比較または測定されるかを確認できます。
-seo-description: 目的の値が、他のパフォーマンス範囲（目標）と照らし合わせて、どのように比較または測定されるかを確認できます。
-seo-title: ブレットグラフ
 title: ブレットグラフ
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
