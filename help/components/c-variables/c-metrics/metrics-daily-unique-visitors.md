@@ -1,13 +1,11 @@
 ---
 description: 1 日の間に Web サイトにアクセスした、重複しない（1 回だけカウントされた）訪問者の数。日別訪問者数でカウントされる訪問は、レポートスイートで選択したタイムゾーンの深夜 0 時までとします。
-seo-description: 1 日の間に Web サイトにアクセスした、重複しない（1 回だけカウントされた）訪問者の数。日別訪問者数でカウントされる訪問は、レポートスイートで選択したタイムゾーンの深夜 0 時までとします。
-seo-title: 日別訪問者数
 solution: Analytics
 title: 日別訪問者数
-topic: 指標
+topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
