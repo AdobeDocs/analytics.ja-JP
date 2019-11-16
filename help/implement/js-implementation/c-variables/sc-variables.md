@@ -1,15 +1,13 @@
 ---
 description: Analytics には、Analytics データを収集するための変数が多数用意されています。例えば、pageName 変数の値は、レポートされる Web ページの名前になります。ここでは、AppMeasurement でサポートされる変数を示します。
-keywords: Analytics の実装, appmeasurement 変数
-seo-description: Analytics には、Analytics データを収集するための変数が多数用意されています。例えば、pageName 変数の値は、レポートされる Web ページの名前になります。ここでは、AppMeasurement でサポートされる変数を示します。
-seo-title: 変数の概要
+keywords: Analytics Implementation;appmeasurement variables
 solution: Analytics
-subtopic: 変数
+subtopic: Variables
 title: 変数の概要
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
-translation-type: ht
-source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
