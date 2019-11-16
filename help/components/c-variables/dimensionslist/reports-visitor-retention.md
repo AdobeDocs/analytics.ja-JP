@@ -1,13 +1,11 @@
 ---
 description: 顧客の忠誠度についての情報が表示されます。サイトに再訪問した訪問者数と訪問頻度を調べることができます。このカテゴリのレポートには、顧客忠誠度に関する情報が表示されます。サイトに再訪問した訪問者数と訪問頻度を調べることができます。
-seo-description: 顧客の忠誠度についての情報が表示されます。サイトに再訪問した訪問者数と訪問頻度を調べることができます。このカテゴリのレポートには、顧客忠誠度に関する情報が表示されます。サイトに再訪問した訪問者数と訪問頻度を調べることができます。
-seo-title: 訪問者保持率
 solution: Analytics
 title: 訪問者保持率
-topic: レポート
+topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
