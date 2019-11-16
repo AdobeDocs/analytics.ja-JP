@@ -1,11 +1,9 @@
 ---
 description: Analysis Workspaceの日付比較を使用すると、日付範囲を含む列を選択し、前年比、四半期比、前月比などの一般的な日付比較を作成できます。
-seo-description: Analysis Workspaceの日付比較を使用すると、日付範囲を含む列を選択し、前年比、四半期比、前月比などの一般的な日付比較を作成できます。
-seo-title: 日付の比較
 title: 日付の比較
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
