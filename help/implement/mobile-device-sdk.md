@@ -2,7 +2,7 @@
 title: モバイルデバイス用のAnalyticsの実装
 description: 'null'
 translation-type: tm+mt
-source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
+source-git-commit: c94e581e98ae1563359140b9896eb892303c06ba
 
 ---
 
@@ -21,7 +21,6 @@ source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 
 ## バージョン4モバイルSDK
 
-
 * [SDKリポジトリ](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
 
 * [iOSドキュメント](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
@@ -32,7 +31,6 @@ source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 ## AppMeasurement 3.x
 
 *注意：モバイルデバイス用のAppMeasurement 3.x SDKはサポートされなくなりました。 ただし、SDKのドキュメントは以下のとおりです。*
-
 
 * [iOSドキュメント](/assets/adobe_mobile_ios_3.x.pdf)
 * [Androidドキュメント](/assets/android_3.x.pdf)
