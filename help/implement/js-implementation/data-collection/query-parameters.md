@@ -1,14 +1,12 @@
 ---
 description: 以下の表に、データ収集に送られる各 Analytics 変数の値が含まれるクエリパラメーターを示します。
-keywords: Analytics の実装
-seo-description: 以下の表に、データ収集に送られる各 Analytics 変数の値が含まれるクエリパラメーターを示します。
-seo-title: データ収集クエリパラメーター
+keywords: Analytics Implementation
 solution: Analytics
 title: データ収集クエリパラメーター
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
