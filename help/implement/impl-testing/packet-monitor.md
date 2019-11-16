@@ -1,15 +1,13 @@
 ---
 description: パケットアナライザーを使用すると、導入によってアドビのデータ収集サーバーに送信されたデータを表示できます。
-keywords: Analytics の実装
-seo-description: パケットアナライザーを使用すると、導入によってアドビのデータ収集サーバーに送信されたデータを表示できます。
-seo-title: パケットアナライザー
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: デバッガー
+subtopic: Debugger
 title: パケットアナライザー
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
