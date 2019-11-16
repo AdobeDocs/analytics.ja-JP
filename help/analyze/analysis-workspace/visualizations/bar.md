@@ -1,16 +1,14 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 棒グラフと横向き棒グラフ
-title: 棒グラフと横向き棒グラフ
-uuid: 45d2d9f3-3fb3-460f- bc87-7d6e3cc44494
+title: 棒グラフおよび積み重ね棒グラフ
+uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 棒グラフと横向き棒グラフ
+# 棒グラフおよび積み重ね棒グラフ
 
 ## 棒グラフ {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
 
