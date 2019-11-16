@@ -1,14 +1,12 @@
 ---
 description: マーケティングチャネルマネージャーでマーケティングチャネルを追加または有効にします。 レポートスイートにマーケティングチャネルがない場合は、自動セットアップによって複数のチャネルと各チャネルのルールを作成することができます。ニーズに合わせて事前定義のチャネルを編集したり、独自に作成したりすることができます（合計 25 個まで）。
-seo-description: マーケティングチャネルマネージャーでマーケティングチャネルを追加または有効にします。 レポートスイートにマーケティングチャネルがない場合は、自動セットアップによって複数のチャネルと各チャネルのルールを作成することができます。ニーズに合わせて事前定義のチャネルを編集したり、独自に作成したりすることができます（合計 25 個まで）。
-seo-title: マーケティングチャネルの管理
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: マーケティングチャネルの管理
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
