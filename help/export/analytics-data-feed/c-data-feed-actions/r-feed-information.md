@@ -1,13 +1,11 @@
 ---
 description: 「フィード情報」セクションを使用して、フィードに名前を付けたり、フィードを実行するレポートスイート、フィードの繰り返し、フィードの開始と終了のタイミングを指定したりできます。
-keywords: データフィード；情報；名前；レポートスイート；完了時の電子メール；電子メール；間隔；フィード；遅延処理；遅延；開始；終了；日付；連続フィード
-seo-description: 「フィード情報」セクションを使用して、フィードに名前を付けたり、フィードを実行するレポートスイート、フィードの繰り返し、フィードの開始と終了のタイミングを指定したりできます。
-seo-title: フィード情報
+keywords: Data Feed;information;name;report suite;email when complete;email;interval;feed;delay processing;delay;start;end;date;continuous feed
 solution: Analytics
 title: フィード情報
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
