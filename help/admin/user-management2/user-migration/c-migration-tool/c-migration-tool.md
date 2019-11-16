@@ -1,11 +1,9 @@
 ---
 description: Adobe Experience Cloud で Analytics ユーザー ID を Admin Console に移行するプロセスについて説明します。
-seo-description: Adobe Experience Cloud で Analytics ユーザー ID を Admin Console に移行するプロセスについて説明します。
-seo-title: Admin Console への Analytics ユーザーの移行
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -344,7 +342,7 @@ To email all users, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ad
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). この移行に伴い、Adobe Analytics アカウントがアップグレードされ、Adobe Experience Cloud を通じて Analytics にアクセスできるようになります。Analytics にアクセスする方法は変わりますが、レポートスイートやツールに対する既存の権限はすべて維持されます。
 
-**** 次の手順：次の日から始まるユーザーの移行を開始します。 <INSERT DATE> の呼び出しの後におこなわれる場合です。ご利用の Analytics アカウントに登録されている電子メール ID 宛に、新しいログイン情報が記載されたウェルカムメッセージが送信されますので、そちらをご確認ください。[Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) を電子メールアドレスにリンクする設定をしていない場合は、アカウントを設定するように求められます。
+**** 次の手順：次の日から始まるユーザーの移行を開始します。 <INSERT DATE>。ご利用の Analytics アカウントに登録されている電子メール ID 宛に、新しいログイン情報が記載されたウェルカムメッセージが送信されますので、そちらをご確認ください。[Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) を電子メールアドレスにリンクする設定をしていない場合は、アカウントを設定するように求められます。
 
 **参考情報：**
 
