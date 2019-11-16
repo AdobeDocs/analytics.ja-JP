@@ -1,13 +1,11 @@
 ---
 description: セグメントをオーディエンスライブラリ、TargetおよびAudience Managerのマーケティングアクティビティで使用できます。
-seo-description: セグメントをオーディエンスライブラリ、TargetおよびAudience Managerのマーケティングアクティビティで使用できます。
-seo-title: Experience Cloud へのセグメントの公開
 solution: Analytics
 title: Experience Cloud へのセグメントの公開
-topic: セグメント
+topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -129,4 +127,5 @@ AAMでは、AnalyticsがExperience cloudとセグメントを共有するので�
 ## セグメントを [!DNL Adobe Target]
 
 The [!UICONTROL Publish this segment to the Experience Cloud] checkbox during the segment creation process in Adobe Analytics allows the segment to be available within the Adobe Target's custom audience library. Analytics または Audience Manager で作成されたセグメントは、Target のアクティビティで使用できます。例えば、Analytics コンバージョン指標および Analytics で作成されたオーディエンスセグメントに基づいてキャンペーンアクティビティを作成できます。]をクリックし、「オーディエン [!UICONTROL ス]」をクリックします。
-1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for
+1. On the [!UICONTROL Audiences] page, locate the audience sourced from the [!DNL Experience Cloud]. These audiences are available for use in [!DNL Target] activities.
+
