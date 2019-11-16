@@ -1,13 +1,11 @@
 ---
 description: サポートするネットワークプロトコル（GPRS、CSD、EDGE、HSCSD など）別にモバイルデバイスをグループ分けします。また、識別できないネットワークプロトコルは「不明」グループに分類されます。
-seo-description: サポートするネットワークプロトコル（GPRS、CSD、EDGE、HSCSD など）別にモバイルデバイスをグループ分けします。また、識別できないネットワークプロトコルは「不明」グループに分類されます。
-seo-title: 通信方式
 solution: Analytics
 title: 通信方式
-topic: レポート
+topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
