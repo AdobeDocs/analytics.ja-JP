@@ -1,18 +1,16 @@
 ---
 description: Report Builder で指標を設定する際に使用するフィールドの説明です。
-seo-description: Report Builder で指標を設定する際に使用するフィールドの説明です。
-seo-title: 指標の変更-フィールドの定義
 solution: Analytics
-title: 指標の変更-フィールドの定義
-topic: Report Builder
-uuid: 5b82f4f7- f9d2-41c3- b5cb- ebefcc2c1d3a6
+title: 指標の変更 - フィールドの定義
+topic: Report builder
+uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 指標の変更-フィールドの定義
+# 指標の変更 - フィールドの定義
 
 Report Builder で指標を設定する際に使用するフィールドの説明です。
 
