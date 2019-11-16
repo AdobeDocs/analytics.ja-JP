@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: アトリビューションパネルの概要
 title: アトリビューションパネルの概要
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: bfa8dbdae3c67ec441d18fa4dfa181fa057bd24d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
