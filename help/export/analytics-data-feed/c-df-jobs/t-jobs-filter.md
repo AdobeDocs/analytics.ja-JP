@@ -1,18 +1,16 @@
 ---
 description: 検索とフィルターは、リストでジョブを探すのに役立ちます。
-keywords: データフィード;job;filter;search
-seo-description: 検索とフィルターは、リストでジョブを探すのに役立ちます。
-seo-title: ジョブリストのフィルタリング
+keywords: Data Feed;job;filter;search
 solution: Analytics
-title: ジョブリストのフィルタリング
-uuid: 811990bb- b721-42c3-9262-2ec2ba262087
+title: ジョブリストのフィルター
+uuid: 811990bb-b721-42c3-9262-2ec2ba262087
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# ジョブリストのフィルタリング
+# ジョブリストのフィルター
 
 検索とフィルターは、リストでジョブを探すのに役立ちます。
 
