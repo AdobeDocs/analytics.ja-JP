@@ -1,15 +1,13 @@
 ---
 description: 訪問者のスクロール操作を測定します。訪問者が別のページに移動する前に、該当のページのどのくらいの割合を閲覧したのかがわかります。このプラグインを使用すると、ユーザーが平均的に見ているコンテンツの量を判断できるので、ユーザーの行動に基づいてページの長さやレイアウトを最適化できます。
-keywords: Analytics の実装
-seo-description: 訪問者のスクロール操作を測定します。訪問者が別のページに移動する前に、該当のページのどのくらいの割合を閲覧したのかがわかります。このプラグインを使用すると、ユーザーが平均的に見ているコンテンツの量を判断できるので、ユーザーの行動に基づいてページの長さやレイアウトを最適化できます。
-seo-title: getPercentPageViewed
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: プラグイン
+subtopic: Plug-ins
 title: getPercentPageViewed
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
