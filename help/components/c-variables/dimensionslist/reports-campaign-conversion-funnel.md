@@ -1,13 +1,11 @@
 ---
 description: キャンペーンレポートグループの指標の平均値を表示します。デフォルト指標はクリックスルー、総売上高、注文、売上高です。
-seo-description: キャンペーンレポートグループの指標の平均値を表示します。デフォルト指標はクリックスルー、総売上高、注文、売上高です。
-seo-title: キャンペーンコンバージョンファネル
 solution: Analytics
 title: キャンペーンコンバージョンファネル
-topic: レポート
+topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
