@@ -1,15 +1,13 @@
 ---
 description: このセクションでは、データフィード配信に含まれるファイルについて説明します。
-keywords: データフィード；ジョブ；コンテンツ；マニフェスト；ファイル；参照；ヒットデータ；配信コンテンツ
-seo-description: このセクションでは、データフィード配信に含まれるファイルについて説明します。
-seo-title: データフィードの内容 - 概要
+keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 solution: Analytics
-subtopic: データフィード
+subtopic: data feeds
 title: データフィードの内容 - 概要
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
