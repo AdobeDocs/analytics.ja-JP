@@ -1,13 +1,11 @@
 ---
 description: ジョブリストから 1 つまたは複数のジョブを再実行できます。
-keywords: データフィード;job;再実行
-seo-description: ジョブリストから 1 つまたは複数のジョブを再実行できます。
-seo-title: ジョブの再実行
+keywords: Data Feed;job;rerun
 solution: Analytics
 title: ジョブの再実行
-uuid: 5abf95da- dd88-4b1a- a081-684f4fd1f714
+uuid: 5caf95da-dd88-4b1a-a081-684f4fd1f714
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
