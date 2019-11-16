@@ -1,11 +1,9 @@
 ---
 description: この統合をアクティブ化する前に、Adobe Analytics®のデプロイメントと電子メールソフトウェアに対して、次の項目を確認します。
-seo-description: この統合をアクティブ化する前に、Adobe Analytics®のデプロイメントと電子メールソフトウェアに対して、次の項目を確認します。
-seo-title: この統合をアクティブ化する前に
 title: この統合をアクティブ化する前に
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
