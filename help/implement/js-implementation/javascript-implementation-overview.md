@@ -1,14 +1,12 @@
 ---
 description: Analytics の使用を開始するにあたって、レポートに表示するデータをレポートスイートに送信する必要があります。
-keywords: Analytics の実装, javascript, javascript による実装, appmeasurement, appmeasurement のダウンロード, Experience Cloud ID サービス, visitorapi.js, キャッシュ, appmeasurement 圧縮
-seo-description: Analytics の使用を開始するにあたって、レポートに表示するデータをレポートスイートに送信する必要があります。
-seo-title: JavaScript 実装の概要
+keywords: Analytics Implementation;javascript;javascript implementation;appmeasurement;download appmeasurement;Identity Service;visitorapi.js;caching;appmeasurement compression
 solution: Analytics
 title: JavaScript 実装の概要
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: bb661d8c-faf9-4454-ac3c-0c1a4c0a9336
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
