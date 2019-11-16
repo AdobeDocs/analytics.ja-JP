@@ -1,11 +1,9 @@
 ---
 description: ここでは、GoogleおよびBing用のアカウントIDを特定する方法について説明します。
-seo-description: ここでは、GoogleおよびBing用のアカウントIDを特定する方法について説明します。
-seo-title: アカウント ID を見つける方法
 title: アカウント ID を見つける方法
-uuid: 34f9bb8d-84b4-4890-9200-c926d0ab1d6
+uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
