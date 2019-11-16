@@ -1,14 +1,12 @@
 ---
 description: サーバーのスクリプトまたはコードによって設定される変数が、値に影響する引用符を出力しないことを確認してください。
-keywords: Analytics の実装
-seo-description: サーバーのスクリプトまたはコードによって設定される変数が、値に影響する引用符を出力しないことを確認してください。
-seo-title: 変数と値
+keywords: Analytics Implementation
 solution: Analytics
 title: 変数と値
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
