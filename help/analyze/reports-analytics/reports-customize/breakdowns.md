@@ -1,13 +1,11 @@
 ---
 description: レポートの項目またはセグメントと他のレポートとの関連付けについて詳しく知りたい場合には、内訳を使用します。これは、別のレポートによるレポートの「分類」と呼ばれることがあります。
-seo-description: レポートの項目またはセグメントと他のレポートとの関連付けについて詳しく知りたい場合には、内訳を使用します。これは、別のレポートによるレポートの「分類」と呼ばれることがあります。
-seo-title: 分類
 solution: Analytics
 title: 分類
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
