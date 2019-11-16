@@ -1,11 +1,9 @@
 ---
 description: Ad Hoc Analysis の用語およびタスクを Analysis Workspace と比較します。
-seo-description: Ad Hoc Analysis の用語およびタスクを Analysis Workspace と比較します。
-seo-title: Analysis Workspace と Ad Hoc Analysis の比較
 title: Analysis Workspace と Ad Hoc Analysis の比較
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
