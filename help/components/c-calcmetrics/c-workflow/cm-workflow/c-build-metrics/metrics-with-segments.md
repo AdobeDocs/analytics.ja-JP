@@ -1,11 +1,9 @@
 ---
 description: 個々の指標でセグメント化をおこなうと、同じレポート内の指標を比較できます。（派生指標のみ）
-seo-description: 個々の指標でセグメント化をおこなうと、同じレポート内の指標を比較できます。（派生指標のみ）
-seo-title: セグメント化指標
 title: セグメント化指標
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
