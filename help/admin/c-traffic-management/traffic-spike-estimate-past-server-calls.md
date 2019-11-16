@@ -1,12 +1,10 @@
 ---
 description: 特定期間内の昨年の日別サーバーコール数平均に加え、今年のサーバーコールの予想増加量を取得できます。その後、この増倍率に基づいて、トラフィックスパイクをスケジュールできます。
-seo-description: 特定期間内の昨年の日別サーバーコール数平均に加え、今年のサーバーコールの予想増加量を取得できます。その後、この増倍率に基づいて、トラフィックスパイクをスケジュールできます。
-seo-title: 過去のサーバーコールの推定とトラフィックスパイクのスケジュール
 solution: Analytics
 title: 過去のサーバーコールの推定とトラフィックスパイクのスケジュール
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
