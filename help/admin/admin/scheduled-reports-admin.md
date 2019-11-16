@@ -1,13 +1,11 @@
 ---
 description: 管理者レベルのユーザーは、組織全体の予定レポートを表示および管理できます。
-seo-description: 管理者レベルのユーザーは、組織全体の予定レポートを表示および管理できます。
-seo-title: 予定レポートキュー
 solution: Analytics
 title: 予定レポートキュー
-topic: レポート
+topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
