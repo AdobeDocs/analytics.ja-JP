@@ -1,11 +1,9 @@
 ---
 description: インプレッションや、これらのインプレッションを表示した個別ユーザー数を表示します。
-seo-description: インプレッションや、これらのインプレッションを表示した個別ユーザー数を表示します。
-seo-title: 散布図
 title: 散布図
 uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
