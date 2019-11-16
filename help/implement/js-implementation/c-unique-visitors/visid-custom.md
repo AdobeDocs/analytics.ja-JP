@@ -1,14 +1,12 @@
 ---
 description: s.visitorID 変数を設定して訪問者を識別するためのカスタム方法を実装できます。
-keywords: Analytics の実装
-seo-description: s.visitorID 変数を設定して訪問者を識別するためのカスタム方法を実装できます。
-seo-title: カスタム訪問者 ID
+keywords: Analytics Implementation
 solution: Analytics
 title: カスタム訪問者 ID
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
