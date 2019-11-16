@@ -1,13 +1,11 @@
 ---
 description: カスタムインサイトトラフィック変数（またはprop）を使用すると、カスタムデータを特定のトラフィック関連イベントに関連付けることができます。 prop 変数は、Web サイトの各ページの導入コードに埋め込まれます。
-seo-description: カスタムインサイトトラフィック変数（またはprop）を使用すると、カスタムデータを特定のトラフィック関連イベントに関連付けることができます。 prop 変数は、Web サイトの各ページの導入コードに埋め込まれます。
-seo-title: トラフィック変数（prop）の概要
 solution: Analytics
 title: トラフィック変数（prop）の概要
-topic: 管理ツール
+topic: Admin tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
