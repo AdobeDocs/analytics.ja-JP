@@ -1,14 +1,12 @@
 ---
 description: 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
-seo-description: 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
-seo-title: 分類ルール
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 分類ルール
-topic: 管理ツール
+topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -307,7 +305,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
-> この手順では、1つ以上のレポートスイートにルールを適用する必要があります。 ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 以上ある場合には、[下位分類](/help/components/c-classifications2/c-sub-classifications.md)を使ってルールセットを簡素化する方法の検討が必要です。
+>この手順では、1つ以上のレポートスイートにルールを適用する必要があります。 ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 以上ある場合には、[下位分類](/help/components/c-classifications2/c-sub-classifications.md)を使ってルールセットを簡素化する方法の検討が必要です。
 
 1. [分類ルールセットの作成を参照してください](/help/components/c-classifications2/crb/classification-rule-set.md) 。
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -319,7 +317,7 @@ t_classification_rule.xml
    **[!UICONTROL レポートスイートを選択]ページが表示されます。**
 
    >[!NOTE]
-   次の条件が満たされると、レポートス *`only`* イートがこのページに表示されます。&gt;
+   次の条件が満たされると、レポートス *`only`* イートがこのページに表示されます。       &gt;
 
    * レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
    この前提条件の説明については、 (「分 *`Variable`* 類ルールセ [ット](/help/components/c-classifications2/crb/classification-rule-set.md) 」でを参照)。
