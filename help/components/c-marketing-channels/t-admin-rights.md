@@ -1,14 +1,12 @@
 ---
 description: 制限付き管理権限をマーケティングチャネルレポートのユーザーに許可するグループを作成し、ユーザーをそのグループに割り当てます。例えば、管理権限のないユーザーがコストまたは予算金額を入力できるようにするグループを作成できます。
-seo-description: 制限付き管理権限をマーケティングチャネルレポートのユーザーに許可するグループを作成し、ユーザーをそのグループに割り当てます。例えば、管理権限のないユーザーがコストまたは予算金額を入力できるようにするグループを作成できます。
-seo-title: 制限付き管理権限の許可
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: 制限付き管理権限の許可
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
