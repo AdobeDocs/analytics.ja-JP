@@ -1,13 +1,11 @@
 ---
 description: 「ページの詳細」タブには、ページレポートは表で表示され、ページフローレポートは蝶ネクタイ型のレポートで表示されます。
-seo-description: 「ページの詳細」タブには、ページレポートは表で表示され、ページフローレポートは蝶ネクタイ型のレポートで表示されます。
-seo-title: ページの詳細
 solution: Analytics
 title: ページの詳細
-topic: Activity Map
+topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: ht
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
