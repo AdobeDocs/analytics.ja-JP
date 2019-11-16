@@ -1,11 +1,9 @@
 ---
 description: このAdobe® Data Connectors™電子メール統合は、Analytics®の行動情報とemarsys電子メールマーケティングを組み合わせて、成功指標とターゲットオーディエンスをより関連性の高いメッセージで再定義する強力なツールを作成します。
-seo-description: このAdobe® Data Connectors™電子メール統合は、Analytics®の行動情報とemarsys電子メールマーケティングを組み合わせて、成功指標とターゲットオーディエンスをより関連性の高いメッセージで再定義する強力なツールを作成します。
-seo-title: Adobe Analytics用Emarsys Data Connector
 title: Adobe Analytics用Emarsys Data Connector
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
