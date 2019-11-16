@@ -1,11 +1,9 @@
 ---
 description: フィルター適用済み指標と重み付け指標の例を示します。
-seo-description: フィルター適用済み指標と重み付け指標の例を示します。
-seo-title: フィルター適用済み指標と重み付け指標
 title: フィルター適用済み指標と重み付け指標
-uuid: 8c4ed912-68a3-4896-91c8- aa7dafae6a9
+uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
