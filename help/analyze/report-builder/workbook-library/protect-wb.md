@@ -1,13 +1,11 @@
 ---
 description: ワークブックをロックすることで、リクエストの追加や編集を行えないようにすることができます。これにより、すべてのレポートリクエストを一時停止して、ワークブックのオフライン編集を可能にし、より効率的な編集を実現します。
-seo-description: ワークブックをロックすることで、リクエストの追加や編集を行えないようにすることができます。これにより、すべてのレポートリクエストを一時停止して、ワークブックのオフライン編集を可能にし、より効率的な編集を実現します。
-seo-title: ワークブックのロック／ロック解除
 solution: Analytics
 title: ワークブックのロック／ロック解除
-topic: Report Builder
+topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
