@@ -1,14 +1,12 @@
 ---
 description: 事前定義されたイベントを一覧に示します。
-keywords: Analytics の実装, イベント
-seo-description: 事前定義されたイベントを一覧に示します。
-seo-title: 事前定義されたイベントについて
+keywords: Analytics Implementation;event
 solution: Analytics
 title: 事前定義されたイベントについて
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
