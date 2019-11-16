@@ -1,13 +1,11 @@
 ---
 description: セグメントビルダーによって作成され、セグメントマネージャによって管理されるセグメント用の推奨ワークフローについて説明します。
-seo-description: セグメントビルダーによって作成され、セグメントマネージャによって管理されるセグメント用の推奨ワークフローについて説明します。
-seo-title: セグメントワークフローの概要
 solution: Analytics
 title: セグメントワークフローの概要
-topic: セグメント
+topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 29bff19e4d33402e8fb65192d7eee134c76c537d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
