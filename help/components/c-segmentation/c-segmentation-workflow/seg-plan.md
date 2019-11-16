@@ -1,13 +1,11 @@
 ---
 description: セグメントを計画する際に従う手順とベストプラクティスの概要を説明します。
-seo-description: セグメントを計画する際に従う手順とベストプラクティスの概要を説明します。
-seo-title: セグメントの計画
 solution: Analytics
 title: セグメントの計画
-topic: セグメント
+topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
