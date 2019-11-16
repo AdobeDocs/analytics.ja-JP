@@ -1,13 +1,11 @@
 ---
 description: このページを使用して、各種の検索方法レポートがサイト上のコンバージョンの成功イベントのクレジットを受け取る方法を指定します。例えば、自社サイトで購入した訪問者を検索エンジンが参照する場合に、参照用のクレジットを検索エンジンが受け取る方法を、検索方法で指定します。
-seo-description: このページを使用して、各種の検索方法レポートがサイト上のコンバージョンの成功イベントのクレジットを受け取る方法を指定します。例えば、自社サイトで購入した訪問者を検索エンジンが参照する場合に、参照用のクレジットを検索エンジンが受け取る方法を、検索方法で指定します。
-seo-title: 検索方法
 solution: Analytics
 title: 検索方法
-topic: 管理ツール
+topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
