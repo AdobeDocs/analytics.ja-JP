@@ -1,13 +1,11 @@
 ---
 description: サイトにアクセスする際に経由している Web 上の場所についての情報が表示されます。どの検索エンジンまたはドメイン外の Web サイトから訪問者が送り込まれているかがわかります。
-seo-description: サイトにアクセスする際に経由している Web 上の場所についての情報が表示されます。どの検索エンジンまたはドメイン外の Web サイトから訪問者が送り込まれているかがわかります。
-seo-title: トラフィックソース
 solution: Analytics
 title: トラフィックソース
-topic: レポート
+topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
