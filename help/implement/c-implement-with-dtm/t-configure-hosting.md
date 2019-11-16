@@ -1,14 +1,12 @@
 ---
 description: Dynamic Tag Management は、利用可能なホスティングオプションを 1 つ以上利用して実装できます。
-keywords: Analytics の実装, 実装方法, dynamic tag management, dtm, ホスティング, ホスティングオプション, akamai, セルフホスティング, 自己ホスト, ftp 配信, ftp ホスティング, ライブラリのダウンロード
-seo-description: Dynamic Tag Management は、利用可能なホスティングオプションを 1 つ以上利用して実装できます。
-seo-title: ホスティングオプションの設定
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;hosting;hosting options;akamai;self hosting;self-hosting;ftp delivery;ftp hosting;library download
 solution: Analytics
 title: ホスティングオプションの設定
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
