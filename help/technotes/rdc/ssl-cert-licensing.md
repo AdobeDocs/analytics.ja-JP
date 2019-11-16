@@ -1,10 +1,8 @@
 ---
 title: SSL 証明書のライセンス
-seo-title: Adobe Analytics SSL証明書のライセンス
 description: null
-seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
