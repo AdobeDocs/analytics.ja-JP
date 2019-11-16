@@ -1,13 +1,11 @@
 ---
 description: カスタム式を作成して、複雑な日付範囲を指定することができます。
-seo-description: カスタム式を作成して、複雑な日付範囲を指定することができます。
-seo-title: カスタマイズされた日付式 - 概要
 solution: Analytics
 title: カスタマイズされた日付式 - 概要
-topic: Report Builder
+topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
