@@ -1,14 +1,12 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: PHP
 solution: Analytics
-subtopic: リリースノート
+subtopic: Release notes
 title: PHP
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 65a644ef-8e50-406b-8b12-0582495d130a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
