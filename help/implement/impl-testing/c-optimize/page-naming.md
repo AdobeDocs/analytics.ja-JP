@@ -1,14 +1,12 @@
 ---
 description: pageName 変数は、Web サイトで追跡される各ページを識別するために使用されます。
-keywords: Analytics の実装
-seo-description: pageName 変数は、Web サイトで追跡される各ページを識別するために使用されます。
-seo-title: ページ命名
+keywords: Analytics Implementation
 solution: Analytics
 title: ページ命名
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: b4438314-eb45-4009-aa66-f062701ea07c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
