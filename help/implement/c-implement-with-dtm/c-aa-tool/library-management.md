@@ -1,13 +1,11 @@
 ---
 description: Dynamic Tag Management の「ライブラリ管理」設定のフィールドおよびオプションの説明です。
-keywords: ライブラリ管理, ページコード, ライブラリの読み込み元, アドビが管理, カスタム, ホストするコード, ホストする s_code
-seo-description: Dynamic Tag Management の「ライブラリ管理」設定のフィールドおよびオプションの説明です。
-seo-title: ライブラリ管理
-solution: Experience Cloud, Dynamic Tag Management
+keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
+solution: Experience Cloud,Dynamic Tag Management
 title: ライブラリ管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
