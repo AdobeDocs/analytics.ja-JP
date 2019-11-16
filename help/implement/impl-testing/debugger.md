@@ -1,10 +1,8 @@
 ---
 description: レガシーのAdobe Experience cloudデバッガーをインストールします。 このデバッガーは、Analytics、Target、Advertising Cloud、IDサービス、DTMおよび起動のタグを調べます。
-seo-description: レガシーのAdobe Experience cloudデバッガーをインストールします。 このデバッガーは、Analytics、Target、Advertising Cloud、IDサービス、DTMおよび起動のタグを調べます。
-seo-title: レガシーAdobe Experience cloudデバッガー
 title: レガシーAdobe Experience cloudデバッガー
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -38,33 +36,33 @@ chrome拡張機能を使用しないようにする場合は [](https://docs.ado
 1. 右上の3つのドットをクリックし、ブックマーク/ブックマークマネージャーに移動します。 また、+ `Ctrl` + `Shift` (Windows)または `O` + `Cmd` + `Shift` (Mac)を押すこともで `O` きます。
 2. ブックマークマネージャーの右上で、3つのドットをクリックし、「新しいブックマークの追加」をクリックします。
 3. 「名前」フィールドで、「Adobe Experience Cloud Debugger」というラベルを付け、「URL」フィールドにコードスニペットを貼り付けます。
-4. Use the bookmark manager to place your new bookmarklet in the desired location.
+4. ブックマークマネージャーを使用して、新しいブックマークレットを目的の場所に配置します。
 
 #### Firefox
 
-1. 右上の3行をクリックし、ライブラリ/ブックマーク/すべてのブックマークを表示に移動します。 You can also press  +  +  (Windows) or  +  +  (Mac).`Ctrl``Shift``B``Cmd``Shift``B`
-2. Click Organize &gt; New Bookmark.
-3. In the Name field, label it "Adobe Experience Cloud Debugger", and paste the code snippet into the Location field. The Tags and Keyword fields are not required.
-4. Use the library window to place your new bookmarklet in the desired location.
+1. 右上の3行をクリックし、ライブラリ/ブックマーク/すべてのブックマークを表示に移動します。 また、+ `Ctrl` + `Shift` (Windows)または `B` + `Cmd` + `Shift` (Mac)を押すこともで `B` きます。
+2. 整理/新しいブックマークをクリックします。
+3. 「名前」フィールドで、「Adobe Experience Cloud Debugger」というラベルを付け、「場所」フィールドにコードスニペットを貼り付けます。 「タグ」フィールドと「キーワード」フィールドは必須ではありません。
+4. ライブラリウィンドウを使用して、新しいブックマークレットを目的の場所に配置します。
 
 #### Edge
 
-Edge does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+Edgeにはブックマークレットを手動で作成する機能はありませんが、ブックマークURLは編集できます。
 
-1. Click the star icon on the right side of the URL field to bookmark the current page.
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click the star icon with lines to open the Favorites bar.
-4. Right click the newly created bookmark, the select 'Edit URL'.
-5. Paste the code snippet in the text field, then hit Enter.
+1. 「URL」フィールドの右側にある星形のアイコンをクリックして、現在のページにブックマークを付けます。
+2. ブックマークに「Adobe Experience Cloud Debugger」という名前を付け、目的の場所に保存します。
+3. 線の付いた星形のアイコンをクリックして、お気に入りバーを開きます。
+4. 新しく作成したブックマークを右クリックし、「URLを編集」を選択します。
+5. テキストフィールドにコードスニペットを貼り付け、Enterキーを押します。
 
 #### Safari
 
-Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+Safariではブックマークレットを手動で作成することはできませんが、ブックマークURLは編集できます。
 
 1. 右上の共有アイコンをクリックすると、ブックマークモーダルウィンドウが開きます。
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
+2. ブックマークに「Adobe Experience Cloud Debugger」という名前を付け、目的の場所に保存します。
 3. ブックマーク/ブックマークの編集をクリックし、新しく作成したブックマークを見つけます。
-4. Right click &gt; Edit Address, then paste the code snippet into text field.
+4. 右クリックして、「アドレスを編集」を選択し、コードスニペットをテキストフィールドに貼り付けます。
 
 ## レガシーデバッガーの使用
 
