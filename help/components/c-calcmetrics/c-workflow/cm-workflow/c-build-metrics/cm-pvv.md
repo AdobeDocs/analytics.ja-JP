@@ -1,11 +1,9 @@
 ---
 description: シンプルな「訪問あたりのページビュー数」指標の作成方法を示します。
-seo-description: シンプルな「訪問あたりのページビュー数」指標の作成方法を示します。
-seo-title: シンプルな「訪問あたりのページビュー数」指標の作成
 title: シンプルな「訪問あたりのページビュー数」指標の作成
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
