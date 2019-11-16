@@ -1,13 +1,11 @@
 ---
 description: このレポートには、サイトのサーバー間のナビゲーションデータが表示されます。サイトからサーバー名を選択すると、1 回の訪問中または複数の訪問にわたって、このサイトの他の各サーバーからそのサーバーに移動した訪問者の数が表示されます。
-seo-description: このレポートには、サイトのサーバー間のナビゲーションデータが表示されます。サイトからサーバー名を選択すると、1 回の訪問中または複数の訪問にわたって、このサイトの他の各サーバーからそのサーバーに移動した訪問者の数が表示されます。
-seo-title: 前サーバーのフロー
 solution: Analytics
 title: 前サーバーのフロー
-topic: レポート
-uuid: 19521f5b-81fc-41d7-928d-9b6e5b5a77ED
+topic: Reports
+uuid: 19521f5b-81fc-41d7-928d-9b6e5b5a77ed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
