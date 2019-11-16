@@ -1,12 +1,10 @@
 ---
 description: 統合を通じて達成されるマーケティングの効率性について説明します。
-seo-description: 統合を通じて達成されるマーケティングの効率性について説明します。
-seo-title: Adobe Analytics用Lyris Data Connector
 solution: Analytics
 title: Adobe Analytics用Lyris Data Connector
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
