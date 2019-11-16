@@ -1,15 +1,13 @@
 ---
 description: JavaScript 変数で使用できない文字および文字列です。
-keywords: Analytics の実装
-seo-description: JavaScript 変数で使用できない文字および文字列です。
-seo-title: JavaScript での無効な文字
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 変数
+subtopic: Variables
 title: JavaScript での無効な文字
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 04e3b4b4-7ff5-4673-8060-34302b6ee545
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
