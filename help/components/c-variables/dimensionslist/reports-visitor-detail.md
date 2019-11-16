@@ -1,13 +1,11 @@
 ---
 description: 最近のサイト訪問者に関する情報を表示します。各訪問者は IP アドレスで定義されます。収集された各訪問者の情報は、各ページに 5 人分の詳細情報をまとめ、見やすい表で表示されます。
-seo-description: 最近のサイト訪問者に関する情報を表示します。各訪問者は IP アドレスで定義されます。収集された各訪問者の情報は、各ページに 5 人分の詳細情報をまとめ、見やすい表で表示されます。
-seo-title: 訪問者の詳細
 solution: Analytics
 title: 訪問者の詳細
-topic: レポート
-uuid: a599f855- d8fe-48a9- aa77-3ee89ba2953c
+topic: Reports
+uuid: a599f855-d8fe-48a9-aa77-3ee89ba2953c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
