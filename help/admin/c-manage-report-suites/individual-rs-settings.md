@@ -1,13 +1,11 @@
 ---
 description: 個々のレポートスイートの設定ツールを使用してレポートスイートのデフォルト設定を変更できます。これらのツールでは、不要または古くなったページのレコードの削除、デフォルト指標の設定、メディアの設定を行うことができます。
-seo-description: 個々のレポートスイートの設定ツールを使用してレポートスイートのデフォルト設定を変更できます。これらのツールでは、不要または古くなったページのレコードの削除、デフォルト指標の設定、メディアの設定を行うことができます。
-seo-title: 個々のレポートスイートの設定
 solution: Analytics
 title: 個々のレポートスイートの設定
-topic: 管理ツール
+topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
