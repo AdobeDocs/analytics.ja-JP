@@ -1,17 +1,15 @@
 ---
 title: Analyticsディメンションの互換性
-seo-title: 分析ワークスペース、Reports& Analytics、またはその両方と互換性のあるAnalyticsディメンションおよびレポート。
-description: Analyticsのディメンションおよびレポートのリファレンスです。
-seo-description: Analysis Workspaceのディメンション、Reports& Analyticsのディメンション、ディメンション、R& Aディメンション、ワークスペースディメンション
+description: Analyticsのディメンションおよびレポートに関するリファレンス。
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Analyticsディメンションの互換性
 
-このリファレンス記事では、Reports&amp; AnalyticsとAnalysis Workspaceの両方でサポートされているディメンション/レポート、Analysis Workspaceのみ、Reports&amp; Analyticsでのみサポートされています。
+この参照記事では、Reports &amp; AnalyticsとAnalysis Workspaceの両方でサポートされるディメンション/レポート、Analysis Workspaceのみ、Reports &amp; Analyticsのみでサポートされるディメンション/レポートを示します。
 
 次の点に注意してください。
 
@@ -46,7 +44,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 | 離脱リンク | exitlink |
 | ファーストタッチチャネル | firsttouchchannel |
 | ファーストタッチチャネルの詳細 | firsttouchchanneldetail |
-| Java有効 | javaenabled |
+| Javaが有効 | javaenabled |
 | 言語 | language |
 | ラストタッチチャネル | lasttouchchannel |
 | ラストタッチチャネルの詳細 | lasttouchchanneldetail |
@@ -71,7 +69,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 | オペレーティングシステム | operatingsystem |
 | オリジナルの参照ドメイン | referringdomainoriginal |
 | ページ | page |
-| エラーページ(404) | pagesnotfound |
+| エラーページ (404) | pagesnotfound |
 | 製品 | product |
 | リファラー | referrer |
 | リファラータイプ | referrertype |
@@ -353,7 +351,7 @@ Reports &amp; Analytics には、特定のディメンションにマッピン�
 | 入口ビーコンの Proximity | entrymobilebeaconproximity |
 | 出口ビーコンの Proximity | exitmobilebeaconproximity |
 
-### Adobe Advertising Cloud（AMO）
+### Adobe Advertising Cloud(AMO)
 
 | ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
 |--- |--- |
