@@ -1,13 +1,11 @@
 ---
 description: 最重要項目のみを示す概要レポートです。売上高、ページビュー数、注文件数の合計値が含まれます。レポートをセグメント化したり、指標を追加して、追加のデータを表示することもできます。
-seo-description: 最重要項目のみを示す概要レポートです。売上高、ページビュー数、注文件数の合計値が含まれます。レポートをセグメント化したり、指標を追加して、追加のデータを表示することもできます。
-seo-title: 合計
 solution: Analytics
 title: 合計
-topic: レポート
-uuid: 575c3dbc-6372-42cf-84ab-9cupdefa2e0a
+topic: Reports
+uuid: 575c3dba-6372-42cf-84ab-9cdadefa2e0a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
