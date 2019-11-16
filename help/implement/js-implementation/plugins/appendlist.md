@@ -1,15 +1,13 @@
 ---
 description: apl（または appendList）プラグインを使うと、任意のコンマ区切り形式のリストに値を付加できます。大文字と小文字の区別をするかしないかのオプションがあり、値がリストに存在しないことを確認するチェックもおこなえます。APL プラグインはいくつかの標準プラグインによって参照されますが、さまざまな状況で直接使うことができます。
-keywords: Analytics の実装
-seo-description: apl（または appendList）プラグインを使うと、任意のコンマ区切り形式のリストに値を付加できます。大文字と小文字の区別をするかしないかのオプションがあり、値がリストに存在しないことを確認するチェックもおこなえます。APL プラグインはいくつかの標準プラグインによって参照されますが、さまざまな状況で直接使うことができます。
-seo-title: appendList
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: プラグイン
+subtopic: Plug-ins
 title: appendList
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
