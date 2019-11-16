@@ -1,13 +1,11 @@
 ---
 description: 同じページ名が 2 回連続で読み込まれたときにカウントされます。これは、一般に、そのページが更新されたことを示します。
-seo-description: 同じページ名が 2 回連続で読み込まれたときにカウントされます。これは、一般に、そのページが更新されたことを示します。
-seo-title: リロード回数
 solution: Analytics
 title: リロード回数
-topic: 指標
+topic: Metrics
 uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
