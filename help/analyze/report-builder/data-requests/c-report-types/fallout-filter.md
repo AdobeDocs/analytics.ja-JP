@@ -1,13 +1,11 @@
 ---
 description: フィルターを適用してフォールアウトレポートを作成する手順について説明します。
-seo-description: フィルターを適用してフォールアウトレポートを作成する手順について説明します。
-seo-title: リクエストウィザードを使用したフォールアウトレポートのフィルタリング
 solution: Analytics
 title: リクエストウィザードを使用したフォールアウトレポートのフィルタリング
-topic: Report Builder
+topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
