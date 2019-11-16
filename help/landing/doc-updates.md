@@ -1,11 +1,9 @@
 ---
 title: Adobe Analytics ドキュメントのアップデート
 description: Adobe Analytics テクニカルドキュメントのアップデート
-seo-title: Adobe Analytics ドキュメントのアップデート
-seo-description: Adobe Analytics ドキュメントのアップデート
-short-title: Analytics ドキュメントのアップデート
+short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
