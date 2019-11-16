@@ -1,14 +1,12 @@
 ---
 description: '追加の情報を追跡する必要があるが、そのための十分な変数がない場合、追加のeVarおよび成功イベントにアクセスできるようになりました。 '
-keywords: Analytics の実装, evar, イベント, evar の数, evar 数, イベント数
-seo-description: '追加の情報を追跡する必要があるが、そのための十分な変数がない場合、追加のeVarおよび成功イベントにアクセスできるようになりました。 '
-seo-title: 追加された eVar およびイベント
+keywords: Analytics Implementation;evars;events;evars number;how many evars;how many events
 solution: Analytics
 title: 追加された eVar およびイベント
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
