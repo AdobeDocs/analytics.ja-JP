@@ -1,14 +1,12 @@
 ---
 description: Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 keywords: Analysis Workspace
-seo-description: Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
-seo-title: ビジュアライゼーションの概要
 solution: Analytics
 title: ビジュアライゼーションの概要
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
