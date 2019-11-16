@@ -1,14 +1,12 @@
 ---
 description: Experience Cloud では複数のタイプの変数を使用できます。最もよく使用される 2 つのタイプである prop と eVar は、標準装備のレポートで提供されないカスタムディメンションについてのレポートをサイトに提供することを可能にします。
-keywords: Analytics の実装, prop, evar, prop と evar, 命名規則, トラフィック変数, 永続性, 成功イベント, パス
-seo-description: Experience Cloud では複数のタイプの変数を使用できます。最もよく使用される 2 つのタイプである prop と eVar は、標準装備のレポートで提供されないカスタムディメンションについてのレポートをサイトに提供することを可能にします。
-seo-title: Prop と eVar の比較
+keywords: Analytics Implementation;prop;evar;props vs evars;naming convention;traffic variables;persistence;success event;pathing
 solution: Analytics
 title: Prop と eVar の比較
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
