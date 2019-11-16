@@ -1,13 +1,11 @@
 ---
-description: リクエスト管理を使用して、リクエストの表示、複製、優先順位の再設定を行えます。
-seo-description: リクエスト管理を使用して、リクエストの表示、複製、優先順位の再設定を行えます。
-seo-title: Data Warehouse リクエストの管理
+description: リクエストマネージャーを使用して、リクエストの表示、複製、優先順位の再設定をおこなうことができます。
 solution: Analytics
 title: Data Warehouse リクエストの管理
-topic: Data Warehouse
+topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
