@@ -1,14 +1,12 @@
 ---
 description: この統合の展開は、以下の操作を必要とする簡単なプロセスです。
-seo-description: この統合の展開は、以下の操作を必要とする簡単なプロセスです。
-seo-title: 統合のデプロイ
 solution: Analytics
 subtopic: Qualtrics
 title: 統合のデプロイ
-topic: Data Connectors
-uuid: 9bdc233d-63f6-456d-8c26-b5736dfef09
+topic: Data connectors
+uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
