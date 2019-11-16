@@ -1,14 +1,12 @@
 ---
 description: ユーザーグループの定義ページにあるエレメントの説明。
-seo-description: ユーザーグループの定義ページにあるエレメントの説明。
-seo-title: ユーザーグループ設定
 solution: Analytics
-subtopic: ユーザーとグループ
+subtopic: Users and groups
 title: ユーザーグループ設定
-topic: 管理ツール
+topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
