@@ -1,13 +1,11 @@
 ---
 description: オーバーレイを使用すると、複数の方法でデータの視覚化を設定できるので、ページ上のリンクの人気度を簡単に確認、理解できます。
-seo-description: オーバーレイを使用すると、複数の方法でデータの視覚化を設定できるので、ページ上のリンクの人気度を簡単に確認、理解できます。
-seo-title: カスタマイズ可能なオーバーレイ
 solution: Analytics
 title: カスタマイズ可能なオーバーレイ
-topic: Activity Map
+topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
