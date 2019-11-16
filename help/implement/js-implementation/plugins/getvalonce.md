@@ -1,15 +1,13 @@
 ---
 description: getValOnce プラグインは、特定の変数が以前に定義された値に設定されないようにします。これは、cookie を使用して変数の最後の表示値を判断します。現在の値が cookie の値と一致する場合、その変数はブランク文字列で上書きされた後でアドビの処理サーバーに送信されます。このプラグインは、ユーザーがページをリフレッシュした場合または「戻る」ボタンをクリックした場合に、コンバージョン変数のインスタンスが膨張するのを防ぐのに役立ちます。
-keywords: Analytics の実装
-seo-description: getValOnce プラグインは、特定の変数が以前に定義された値に設定されないようにします。これは、cookie を使用して変数の最後の表示値を判断します。現在の値が cookie の値と一致する場合、その変数はブランク文字列で上書きされた後でアドビの処理サーバーに送信されます。このプラグインは、ユーザーがページをリフレッシュした場合または「戻る」ボタンをクリックした場合に、コンバージョン変数のインスタンスが膨張するのを防ぐのに役立ちます。
-seo-title: getValOnce
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: プラグイン
+subtopic: Plug-ins
 title: getValOnce
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
