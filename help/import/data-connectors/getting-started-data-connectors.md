@@ -1,10 +1,8 @@
 ---
 description: サードパーティアプリケーションから Analytics に追跡データをインポートします。
-seo-description: Data Connectorsにサインインします。サードパーティアプリケーションからAnalyticsにトラッキングデータをインポートし、統合を追加し、Data Connectorsコンソールを使用します。
-seo-title: Analytics Data Connectors
 title: Analytics data connectors使用の手引き
 translation-type: tm+mt
-source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
