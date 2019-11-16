@@ -1,22 +1,20 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: サンプル実装コード
 solution: Analytics
-title: サンプル実装コード
-topic: Activity Map
+title: 実装コードのサンプル
+topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Sample implementation code{#sample-implementation-code}
+# 実装コードのサンプル{#sample-implementation-code}
 
-## Sample AppMeasurement.js file {#section_CD6E603EB41141E587B71E138FE99F52}
+## AppMeasurement.js ファイルのサンプル {#section_CD6E603EB41141E587B71E138FE99F52}
 
-AppMeasurement ライブラリと Activity Map モジュールが [!DNL AppMeasurement.js] ファイル内でどのように結合されているかを示す例は以下のとおりです。
+次に、[!DNL AppMeasurement.js] ファイルでの AppMeasurement ライブラリと Activity Map モジュールの結合方法の例を示します。
 
 この Activity Map 実装に関連するコードセクションは&#x200B;**太字**&#x200B;で示しています。
 
