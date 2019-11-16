@@ -1,14 +1,12 @@
 ---
 description: マーケティングチャネルレポートの実行方法。
-seo-description: マーケティングチャネルレポートの実行方法。
-seo-title: マーケティングチャネルレポートの実行
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: マーケティングチャネルレポートの実行
-topic: Reports and Analytics
-uuid: 95a7aa1e-570b-4d63- a493-91c2337bb715
+topic: Reports and analytics
+uuid: 95a7aa1e-570b-4d63-a493-91c2337bb715
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,6 +15,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 マーケティングチャネルレポートの実行方法。
 
-1. [!UICONTROL Reports&amp; Analyticsにログイン]します。
+1. [!UICONTROL Reports &amp; Analyticsにログインします]。
 1. 適切なレポートスイートを選択します。
-1. [!UICONTROL 「レポート]»で、??«マーケティングチャネル??****
+1. Under [!UICONTROL Reports], click **[!UICONTROL Marketing Channels]**.
