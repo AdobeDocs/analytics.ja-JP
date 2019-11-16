@@ -1,15 +1,13 @@
 ---
 description: API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。
-keywords: グループ；権限
-seo-description: API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。
-seo-title: レポートスイートツールの権限のカスタマイズ
+keywords: groups;permissions
 solution: Analytics
-subtopic: ユーザーとグループ
+subtopic: Users and groups
 title: レポートスイートツールの権限のカスタマイズ
-topic: 管理ツール
+topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
