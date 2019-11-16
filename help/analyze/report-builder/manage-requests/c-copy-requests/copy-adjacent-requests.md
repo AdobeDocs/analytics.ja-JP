@@ -1,13 +1,11 @@
 ---
 description: リクエストをコピーして貼り付ける場合と同じ方法で、ショートカットメニューから「リクエストを切り取る」を選択することにより、リクエストをスプレッドシートの別の場所に移動させることができます。
-seo-description: リクエストをコピーして貼り付ける場合と同じ方法で、ショートカットメニューから「リクエストを切り取る」を選択することにより、リクエストをスプレッドシートの別の場所に移動させることができます。
-seo-title: 隣接するリクエストのコピー
 solution: Analytics
 title: 隣接するリクエストのコピー
-topic: Report Builder
+topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
