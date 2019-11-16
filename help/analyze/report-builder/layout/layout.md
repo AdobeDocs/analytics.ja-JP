@@ -1,13 +1,11 @@
 ---
 description: リクエストウィザード：ステップ2ウィンドウでは、レポートのレイアウト、ヘッダーの形式設定および出力用のディメンションのフィルタリングを設定できます。 ピボットレイアウトを使用すると、Excel でピボットテーブルを作成するのと似た方法でリクエストを設定できます。
-seo-description: リクエストウィザード：ステップ2ウィンドウでは、レポートのレイアウト、ヘッダーの形式設定および出力用のディメンションのフィルタリングを設定できます。 ピボットレイアウトを使用すると、Excel でピボットテーブルを作成するのと似た方法でリクエストを設定できます。
-seo-title: レイアウト - リクエストウィザード：ステップ 2
 solution: Analytics
 title: レイアウト - リクエストウィザード：ステップ 2
-topic: Report Builder
+topic: Report builder
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
