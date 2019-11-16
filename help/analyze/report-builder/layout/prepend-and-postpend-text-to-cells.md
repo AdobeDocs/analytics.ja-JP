@@ -1,18 +1,16 @@
 ---
 description: ピボットレイアウトとカスタムレイアウトのリクエストでは、セルに挿入される数値や文字列の前後に文字列を追加することができます。
-seo-description: ピボットレイアウトとカスタムレイアウトのリクエストでは、セルに挿入される数値や文字列の前後に文字列を追加することができます。
-seo-title: セルへのテキストの前付けおよび後付け
 solution: Analytics
-title: セルへのテキストの前付けおよび後付け
-topic: Report Builder
-uuid: d31af8a7-67fb-435f-80d1- dee7acb3411e
+title: セルに対するテキストの前付けおよび後付け
+topic: Report builder
+uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# セルへのテキストの前付けおよび後付け
+# セルに対するテキストの前付けおよび後付け
 
 ピボットレイアウトとカスタムレイアウトのリクエストでは、セルに挿入される数値や文字列の前後に文字列を追加することができます。
 
