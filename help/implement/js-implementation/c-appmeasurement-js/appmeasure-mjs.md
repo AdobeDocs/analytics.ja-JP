@@ -1,15 +1,13 @@
 ---
 description: JavaScript 版 AppMeasurement は s_code.js と同じ機能を提供する新しいライブラリですが、モバイルサイトとデスクトップサイトのどちらで使用してもより軽量で高速です。
-keywords: appmeasurement, Analytics の実装, javascript, javascript 版 appmeasurement, 初期化, appmeasurement インスタンスの取得, 変数のクリア, clearvars, appmeasurement ユーティリティ, appmeasurement インスタンス, appmeasurement のメリット
-seo-description: JavaScript 版 AppMeasurement は s_code.js と同じ機能を提供する新しいライブラリですが、モバイルサイトとデスクトップサイトのどちらで使用してもより軽量で高速です。
-seo-title: JavaScript 版 AppMeasurement について
+keywords: appmeasurement;Analytics Implementation;javascript;appmeasurement for javascript;initialization;retrieve appmeasurement instance;clear vars;clearvars;appmeasurement utilities;appmeasurement instance;appmeasurement benefits
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: JavaScript 版 AppMeasurement について
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
