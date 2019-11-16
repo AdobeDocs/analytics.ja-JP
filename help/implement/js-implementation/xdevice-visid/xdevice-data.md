@@ -1,15 +1,13 @@
 ---
 description: デバイス間の訪問者の識別により、レポートに表示されるデータがどのように影響を受けるかについて概要を説明します。
-keywords: Analytics の実装
-seo-description: デバイス間の訪問者の識別により、レポートに表示されるデータがどのように影響を受けるかについて概要を説明します。
-seo-title: デバイス間の訪問者の識別によるデータの影響
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 訪問者
+subtopic: Visitors
 title: デバイス間の訪問者の識別によるデータの影響
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 1db4d149-cd50-4b41-a850-988901f25051
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。詳しくは、[Adobe Experience Cloud Device Co-op ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcdc/)を参照してください。
+>デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。詳しくは、 [Adobe Experience Cloud Device Co-opのドキュメントを参照してください](https://marketing.adobe.com/resources/help/en_US/mcdc/)。
 
 デバイス間の訪問者の識別により、レポートに表示されるデータがどのように影響を受けるかについて概要を説明します。
 
