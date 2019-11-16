@@ -1,14 +1,12 @@
 ---
 description: データの正確性の検証は、レポートのデータと、検証可能な既知のデータポイントとを比較するプロセスです。
-keywords: Analytics の実装
-seo-description: データの正確性の検証は、レポートのデータと、検証可能な既知のデータポイントとを比較するプロセスです。
-seo-title: データの正確性の検証
+keywords: Analytics Implementation
 solution: Analytics
 title: データの正確性の検証
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
