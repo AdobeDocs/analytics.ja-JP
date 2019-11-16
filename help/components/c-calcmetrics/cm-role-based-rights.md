@@ -1,11 +1,9 @@
 ---
 description: 計算指標の権限は、管理者レベルのユーザーと管理者以外のユーザーとで異なります。
-seo-description: 計算指標の権限は、管理者レベルのユーザーと管理者以外のユーザーとで異なります。
-seo-title: 計算指標の役割に基づく権限
 title: 計算指標の役割に基づく権限
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
