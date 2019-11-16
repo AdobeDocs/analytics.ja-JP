@@ -1,14 +1,12 @@
 ---
 description: インポートおよびエクスポートファイルには、それぞれの数値 2 分類に対して 6 つの列が含まれています。
-seo-description: インポートおよびエクスポートファイルには、それぞれの数値 2 分類に対して 6 つの列が含まれています。
-seo-title: 数値 2 分類のインポート
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 数値 2 分類のインポート
-topic: 管理ツール
+topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
