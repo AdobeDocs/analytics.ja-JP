@@ -1,14 +1,12 @@
 ---
 description: 'null'
-keywords: Analytics の導入
-seo-description: 'null'
-seo-title: マーチャンダイジング変数の概要
+keywords: Analytics Implementation
 solution: Analytics
 title: マーチャンダイジング変数の概要
-topic: 開発者と導入
-uuid: 2cf516a- a7ee-48ab-92aa-414228a4102f
+topic: Developer and implementation
+uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
