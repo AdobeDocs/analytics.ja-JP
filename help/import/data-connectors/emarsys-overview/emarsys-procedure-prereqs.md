@@ -1,11 +1,9 @@
 ---
 description: 「プラグアンドプレイ」ウィザードを使用すると、直感的なステップバイステップのプロセスで、システム同期のポイントと統合を初期化できます。
-seo-description: 「プラグアンドプレイ」ウィザードを使用すると、直感的なステップバイステップのプロセスで、システム同期のポイントと統合を初期化できます。
-seo-title: 統合手順と前提条件
 title: 統合手順と前提条件
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
