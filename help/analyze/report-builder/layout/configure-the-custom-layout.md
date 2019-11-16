@@ -1,13 +1,11 @@
 ---
 description: カスタムレイアウトでは、ピボットレイアウトの機能のほとんどが利用できます。ただし、スプレッドシート内のグリッドの各項目を配置する場所はユーザーが選択します。このレイアウトでは、従来のバージョンのように、分類やマイクロチャートの追加などを柔軟に行うことができます。
-seo-description: カスタムレイアウトでは、ピボットレイアウトの機能のほとんどが利用できます。ただし、スプレッドシート内のグリッドの各項目を配置する場所はユーザーが選択します。このレイアウトでは、従来のバージョンのように、分類やマイクロチャートの追加などを柔軟に行うことができます。
-seo-title: カスタムレイアウトの設定
 solution: Analytics
 title: カスタムレイアウトの設定
-topic: Report Builder
+topic: Report builder
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
