@@ -1,14 +1,12 @@
 ---
 description: 使用できる測定ライブラリを示します。
-keywords: Analytics の導入, 収集, データ, コレクション
-seo-description: 使用できる測定ライブラリを示します。
-seo-title: 追加のライブラリの概要
+keywords: Analytics Implementation;collect;data;collection
 solution: Analytics
 title: 追加のライブラリの概要
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
