@@ -1,14 +1,12 @@
 ---
 description: 複数の訪問者プロファイルが同じ訪問者 ID 変数と関連付けられた後に統合された場合、過去データのアトリビューション（配分方法）は変更されません。
-keywords: Analytics の実装
-seo-description: 複数の訪問者プロファイルが同じ訪問者 ID 変数と関連付けられた後に統合された場合、過去データのアトリビューション（配分方法）は変更されません。
-seo-title: アトリビューションと持続性
+keywords: Analytics Implementation
 solution: Analytics
 title: アトリビューションと持続性
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
