@@ -1,12 +1,10 @@
 ---
 description: Analytics レポート API の比較表です。サポートドキュメントへのリンクが設定されています。
-seo-description: Analytics レポート API の比較表です。サポートドキュメントへのリンクが設定されています。
-seo-title: Analytics レポート API の比較
 solution: Analytics
 title: Analytics レポート API の比較
-uuid: fa533a8e-33c0-42f4-a294-cabe0258c8f
+uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
