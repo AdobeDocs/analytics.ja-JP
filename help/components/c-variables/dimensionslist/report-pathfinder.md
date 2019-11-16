@@ -1,12 +1,10 @@
 ---
 description: パスファインダーレポートの目標は、フルパスをフラグメントに分解するのをサポートし、サイトの最適化に役立つ精密なパターンを作り出すことです。
-seo-description: パスファインダーレポートの目標は、フルパスをフラグメントに分解するのをサポートし、サイトの最適化に役立つ精密なパターンを作り出すことです。
-seo-title: パスファインダー
 solution: Analytics
 title: パスファインダー
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
