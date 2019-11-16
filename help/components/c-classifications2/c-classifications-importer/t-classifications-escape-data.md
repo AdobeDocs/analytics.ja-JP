@@ -1,14 +1,12 @@
 ---
 description: 分類ファイル内の分類データをエスケープする方法について手順を説明します。
-seo-description: 分類ファイル内の分類データをエスケープする方法について手順を説明します。
-seo-title: 分類データのエスケープ
 solution: Analytics
-subtopic: '分類      '
+subtopic: Classifications
 title: 分類データのエスケープ
-topic: 管理ツール
-uuid: 724edcc5-4990-4f24- afbb-9aef301791a7
+topic: Admin tools
+uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
