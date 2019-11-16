@@ -1,15 +1,13 @@
 ---
 description: 変数のオーバーライドを使用して、一度のみのトラッキングまたはリンクトラッキングのための変数値をセットできます。
-keywords: Analytics の実装
-seo-description: 変数のオーバーライドを使用して、一度のみのトラッキングまたはリンクトラッキングのための変数値をセットできます。
-seo-title: 変数のオーバーライド
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 変数
+subtopic: Variables
 title: 変数のオーバーライド
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
