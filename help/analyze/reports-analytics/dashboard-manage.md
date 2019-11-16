@@ -1,14 +1,12 @@
 ---
 description: ダッシュボードマネージャーを使用して、ダッシュボードのコピー、共有、アーカイブ、および配信スケジュールの設定を行います。
-seo-description: ダッシュボードマネージャーを使用して、ダッシュボードのコピー、共有、アーカイブ、および配信スケジュールの設定を行います。
-seo-title: ダッシュボードマネージャー
 solution: Analytics
-subtopic: ダッシュボード
+subtopic: Dashboards
 title: ダッシュボードマネージャー
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
