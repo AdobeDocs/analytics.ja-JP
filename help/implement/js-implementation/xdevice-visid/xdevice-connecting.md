@@ -1,15 +1,13 @@
 ---
 description: デバイス間の訪問者の識別では、デバイス間の訪問者を関連付けます。デバイス間の訪問者の識別では、訪問者 ID 変数の s.visitorID を使用して、デバイス間のユーザーを関連付けます。
-keywords: Analytics の実装
-seo-description: デバイス間の訪問者の識別では、デバイス間の訪問者を関連付けます。デバイス間の訪問者の識別では、訪問者 ID 変数の s.visitorID を使用して、デバイス間のユーザーを関連付けます。
-seo-title: デバイス間のユーザーの接続
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 訪問者
+subtopic: Visitors
 title: デバイス間のユーザーの接続
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
