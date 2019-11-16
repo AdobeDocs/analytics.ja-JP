@@ -1,13 +1,11 @@
 ---
 description: マーケティングレポートで使用される Web 解析の一般的な用語について説明します。
-seo-description: マーケティングレポートで使用される Web 解析の一般的な用語について説明します。
-seo-title: 一般用語
 solution: Analytics
 title: 一般用語
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
