@@ -1,11 +1,9 @@
 ---
 description: 計算指標ツールの使用を最適化する方法の概要を示す短いビデオ（8 分未満）が用意されています。
-seo-description: 計算指標ツールの使用を最適化する方法の概要を示す短いビデオ（8 分未満）が用意されています。
-seo-title: ハウツービデオ
 title: ハウツービデオ
-uuid: b6920b20-4c38-4017- bb10- cb187d39fd77
+uuid: b6920b20-4c38-4017-bb10-cb187d39fd77
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
