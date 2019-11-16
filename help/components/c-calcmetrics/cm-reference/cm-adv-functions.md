@@ -1,11 +1,9 @@
 ---
 description: これらの関数にアクセスするには、関数ドロップダウンリストの「アドバンスを表示」を選択します。
-seo-description: これらの関数にアクセスするには、関数ドロップダウンリストの「アドバンスを表示」を選択します。
-seo-title: 高度な関数の参照
 title: 高度な関数の参照
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
