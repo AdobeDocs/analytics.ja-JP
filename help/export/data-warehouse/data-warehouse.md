@@ -1,13 +1,11 @@
 ---
 description: Data warehouse は、保存用およびデータをフィルタリングして実行できるカスタムレポート用の、Analytics データのコピーを参照します。ユーザー独自の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできます。Data warehouse レポートは、電子メールまたは FTP 経由で送信できます。処理のために最大で 72 時間かかります。処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
-seo-description: Data warehouse は、保存用およびデータをフィルタリングして実行できるカスタムレポート用の、Analytics データのコピーを参照します。ユーザー独自の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできます。Data warehouse レポートは、電子メールまたは FTP 経由で送信できます。処理のために最大で 72 時間かかります。処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
-seo-title: Data Warehouse の概要
 solution: Analytics
 title: Data Warehouse の概要
-topic: Data Warehouse
+topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
