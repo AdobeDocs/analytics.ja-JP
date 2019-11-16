@@ -1,15 +1,13 @@
 ---
 description: ページの最上部に JavaScript ライブラリファイルの呼び出しを配置すると、ダウンロードされる最初の要素にイメージが必ず含まれるようになります。
-keywords: Analytics の実装
-seo-description: ページの最上部に JavaScript ライブラリファイルの呼び出しを配置すると、ダウンロードされる最初の要素にイメージが必ず含まれるようになります。
-seo-title: JavaScript ファイルの場所と並行処理
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: トラブルシューティング
+subtopic: Troubleshooting
 title: JavaScript ファイルの場所と並行処理
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
