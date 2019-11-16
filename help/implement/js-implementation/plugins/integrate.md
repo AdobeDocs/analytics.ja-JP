@@ -1,10 +1,8 @@
 ---
 title: モジュールの統合
-seo-title: Adobe Analytics 用統合モジュール
 description: 統合モジュールを使用すると、アドビのパートナーは自社のデータ収集作業を組織と統合できます。
-seo-description: 統合モジュールを使用すると、アドビのパートナーは自社のデータ収集作業を組織と統合できます。
-translation-type: ht
-source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
