@@ -1,15 +1,13 @@
 ---
 description: 次の情報は、Analyticsデータのレポートスイートの遅延の問題のトラブルシューティングに役立ちます。
-keywords: データの欠落、遅い
-seo-description: 次の情報は、Analyticsデータのレポートスイートの遅延の問題のトラブルシューティングに役立ちます。
-seo-title: データの可用性と遅延
+keywords: missing data;slow
 solution: Analytics
-subtopic: 現在のデータ
+subtopic: Current data
 title: データの可用性と遅延
-topic: レポート
+topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
