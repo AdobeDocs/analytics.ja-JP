@@ -1,13 +1,11 @@
 ---
 description: 再訪問者の訪問間隔および間隔カテゴリ別の訪問回数を示します。再訪問者がサイトを訪問しない期間の平均や、リピート客のトレンドを把握するのに使用します。
-seo-description: 再訪問者の訪問間隔および間隔カテゴリ別の訪問回数を示します。再訪問者がサイトを訪問しない期間の平均や、リピート客のトレンドを把握するのに使用します。
-seo-title: 再来訪頻度
 solution: Analytics
 title: 再来訪頻度
-topic: レポート
+topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
