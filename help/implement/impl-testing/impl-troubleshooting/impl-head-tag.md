@@ -1,14 +1,12 @@
 ---
 description: Analytics コードによりイメージオブジェクトが作成されます。これは、ページ上には表示されないイメージです。
-keywords: Analytics の実装
-seo-description: Analytics コードによりイメージオブジェクトが作成されます。これは、ページ上には表示されないイメージです。
-seo-title: head タグへの Analytics コードの配置
+keywords: Analytics Implementation
 solution: Analytics
 title: head タグへの Analytics コードの配置
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
