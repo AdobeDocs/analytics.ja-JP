@@ -1,14 +1,12 @@
 ---
-description: ユーザーグループをレポートスイートに割り当てる方法について手順を説明します。
-seo-description: ユーザーグループをレポートスイートに割り当てる方法を説明する手順。
-seo-title: レポートスイートに対するユーザーグループの割り当て
+description: ユーザーグループをレポートスイートに割り当てる方法を説明する手順。
 solution: Analytics
-subtopic: ユーザーとグループ
+subtopic: Users and groups
 title: レポートスイートに対するユーザーグループの割り当て
-topic: 管理ツール
+topic: Admin tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
