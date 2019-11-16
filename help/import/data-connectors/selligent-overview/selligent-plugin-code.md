@@ -1,12 +1,10 @@
 ---
 description: 以下のコードを操作する前に、必要なeVarをAdobe Analyticsの管理ツールで予約します。
-seo-description: 以下のコードを操作する前に、必要なeVarをAdobe Analyticsの管理ツールで予約します。
-seo-title: クエリ文字列パラメータープラグインコード
 solution: Analytics
 title: クエリ文字列パラメータープラグインコード
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
