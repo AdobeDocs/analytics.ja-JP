@@ -1,13 +1,11 @@
 ---
 description: 検索キーワードの分類を表示します。
-seo-description: 検索キーワードの分類を表示します。
-seo-title: 検索キーワード
 solution: Analytics
 title: 検索キーワード
-topic: レポート
-uuid: db9d477b- b711-4b93-9c25-3aem5f2ace6
+topic: Reports
+uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->有料検索と自然検索の場合、検索エンジンはリファラーの一部として検索キーワードを提供しなくなりました。その結果、Google（または Bing、Yahoo）ドメインは常に検索として分類されます。アドビでは、（キーワードがなくても）リファラーの形式と内容に基づいてそれが検索の結果であることを認識できるので、検索は「キーワードなし」としてカウントされます。[詳細情報...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>有料検索と自然検索の場合、検索エンジンはリファラーの一部として検索キーワードの提供を停止しました（ほとんどの場合）。 その結果、Google（または Bing、Yahoo）ドメインは常に検索として分類されます。アドビでは、（キーワードがなくても）リファラーの形式と内容に基づいてそれが検索の結果であることを認識できるので、検索は「キーワードなし」としてカウントされます。[詳細情報...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## 配分、有効期限および特別な値 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
