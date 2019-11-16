@@ -1,11 +1,9 @@
 ---
 description: Report Builder から発行されたアセットを Power BI Desktop に取り込む方法を説明します。
-seo-description: Report Builder から発行されたアセットを Power BI Desktop に取り込む方法を説明します。
-seo-title: Power BI Desktop への発行済みアセットの取り込み
 title: Power BI Desktop への発行済みアセットの取り込み
 uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
