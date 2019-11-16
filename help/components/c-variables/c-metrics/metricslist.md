@@ -1,13 +1,11 @@
 ---
 description: 指標はレポートの基礎で、データの相互関連を見て把握するのに役立ち、Web サイトに関する異なるデータセットを並べて比較することができます。指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。
-seo-description: 指標はレポートの基礎で、データの相互関連を見て把握するのに役立ち、Web サイトに関する異なるデータセットを並べて比較することができます。指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。
-seo-title: 指標の概要
 solution: Analytics
-title: 指標概要
-topic: Reports & Analytics
+title: 指標の概要
+topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
