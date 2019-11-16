@@ -1,14 +1,12 @@
 ---
 description: Dynamic Tag Management を使用して Adobe Analytics をデプロイするには、Adobe Analytics ツールを作成し、自動または手動でページコードを設定します。ほとんどの場合は、自動的な導入方法をお勧めします。
-keywords: Analytics の実装, 実装方法, dynamic tag management, dtm, analytics ツール, プロパティ, ツールタイプ, ツール名, 設定方法, analytics premium, evar, イベント
-seo-description: Dynamic Tag Management を使用して Adobe Analytics をデプロイするには、Adobe Analytics ツールを作成し、自動または手動でページコードを設定します。ほとんどの場合は、自動的な導入方法をお勧めします。
-seo-title: Adobe Analytics ツールの追加
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
 solution: Analytics
 title: Adobe Analytics ツールの追加
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -54,8 +52,8 @@ Dynamic Tag Management を使用して Adobe Analytics をデプロイするに�
   <tr> 
    <td colname="col2"> <p> <b>手動</b>：AppMeasurement コードを手作業で管理します。<span class="keyword">Analytics</span> の <span class="keyword">AppMeasurement</span> コードは、<span class="ignoretag"><span class="uicontrol">管理ツール</span>／<span class="uicontrol">コードマネージャー</span></span>からダウンロードできます。 </p> <p>「<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript（新規）</a>」をクリックして、コードをローカル環境にコピーし、「<a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md">ライブラリ管理</a>」の「<span class="wintitle">コードを編集</span>」フィールドに貼り付けます。 </p> <p>手動設定に特有のフィールドに設定を入力します。 </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
-     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>実稼動アカウント ID</b>：（必須）データ収集用の実稼動アカウント。Analytics の場合、これはレポートスイート ID です。Dynamic Tag Management は、実稼動およびステージング環境に適切なタグを自動的にインストールします。 </p> </li> 
-     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ステージングアカウント ID</b>：（必須）開発環境またはテスト環境で使用するアカウント。Analytics の場合、これはレポートスイート ID です。ステージングアカウントには、実稼動用データとは別個のテストデータが保持されます。 </p> </li> 
+     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>実稼動アカウント ID</b>：（必須）データ収集用の実稼動アカウント。Analyticsの場合はレポートスイート ID になります。Dynamic Tag Management は、実稼働およびステージング環境に適したアカウントを自動的にインストールします。 </p> </li> 
+     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ステージングアカウント ID</b>：（必須）開発環境またはテスト環境で使用するアカウント。Analyticsの場合はレポートスイート ID になります。ステージングアカウントには、実稼動用データとは別個のテストデータが保持されます。 </p> </li> 
      <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b> トラッキングサーバー</b>：使用する トラッキングサーバーの情報を指定します。 </p> <p>「<span class="wintitle">トラッキングサーバー</span>」および「<span class="wintitle">SSL トラッキングサーバー</span>」変数は、画像リクエストや Cookie の書き込み先ドメインを指定するファーストパーティ Cookie 実装のために使用されます。詳しくは、「<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html">trackingServer および trackingServerSecure 変数の適切な設定</a>」を参照してください。 </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL トラッキングサーバー</b>：使用する SSL トラッキングサーバーの情報を指定します。 </p> </li> 
     </ul> </td> 
