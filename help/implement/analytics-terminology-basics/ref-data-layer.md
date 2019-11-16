@@ -1,14 +1,12 @@
 ---
 description: 「データ層」とは、開発者がページに挿入する JavaScript オブジェクトのフレームワークのことを指します。
-keywords: Analytics の実装, データ層, digitalData
-seo-description: 「データ層」とは、開発者がページに挿入する JavaScript オブジェクトのフレームワークのことを指します。データ層は、トラッキングツール（Dynamic Tag Management といったタグ管理システムなど）でレポートへの情報入力に使用できます。
-seo-title: データ層
+keywords: Analytics Implementation;data layer;digitalData
 solution: Analytics
 title: データ層
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
