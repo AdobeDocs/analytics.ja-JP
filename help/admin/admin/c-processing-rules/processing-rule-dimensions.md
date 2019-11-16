@@ -1,14 +1,12 @@
 ---
 description: 処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
-seo-description: 処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
-seo-title: 処理ルールで使用可能なディメンション
 solution: Analytics
-subtopic: 処理ルール
+subtopic: Processing rules
 title: 処理ルールで使用可能なディメンション
-topic: 管理ツール
+topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
