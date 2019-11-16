@@ -1,11 +1,9 @@
 ---
 description: Data Connectors統合ウィザードを実行してData Connectors統合を実装する前に必要なタスクと情報です。
-seo-description: Data Connectors統合ウィザードを実行してData Connectors統合を実装する前に必要なタスクと情報です。
-seo-title: Data Connectors電子メール統合の準備
 title: Data Connectors電子メール統合の準備
 uuid: 3cedc6ec-1453-4b1f-879c-972b0238d124
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
