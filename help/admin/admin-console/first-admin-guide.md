@@ -1,10 +1,8 @@
 ---
 title: Adobe Analytics はじめての管理ガイド
-seo-title: Adobe Analytics はじめての管理ガイド
 description: Adobe Analyticsの使い始め、一般的な役割タイプ、UIへのログイン方法を説明します。
-seo-description: Adobe Analyticsの使い始め、一般的な役割タイプ、UIへのログイン方法を説明します。
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
