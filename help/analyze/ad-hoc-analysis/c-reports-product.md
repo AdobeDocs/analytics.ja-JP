@@ -1,13 +1,11 @@
 ---
 description: Web サイトで販売、流通、または表示している商品に関する情報が表示されます。製品、アプリケーション、コンテンツの注文数やダウンロード数を調べることができます。
-seo-description: Web サイトで販売、流通、または表示している商品に関する情報が表示されます。製品、アプリケーション、コンテンツの注文数やダウンロード数を調べることができます。
-seo-title: 製品レポート
 solution: Analytics
 title: 製品レポート
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
