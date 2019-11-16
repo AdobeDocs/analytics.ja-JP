@@ -1,13 +1,11 @@
 ---
 description: 顧客行動の包括的、正確、詳細な分析結果を提供します。キャンペーン管理、販売サイクル、顧客フォールアウト、顧客コンバージョンなどの指標を使用すると、電子商取引、販売元、宣伝効果、顧客忠誠度、その他様々な項目についての評価が可能になります。
-seo-description: 顧客行動の包括的、正確、詳細な分析結果を提供します。キャンペーン管理、販売サイクル、顧客フォールアウト、顧客コンバージョンなどの指標を使用すると、電子商取引、販売元、宣伝効果、顧客忠誠度、その他様々な項目についての評価が可能になります。
-seo-title: コンバージョン
 solution: Analytics
 title: コンバージョン
-topic: レポート
+topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
