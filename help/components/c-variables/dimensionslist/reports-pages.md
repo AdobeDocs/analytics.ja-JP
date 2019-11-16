@@ -1,13 +1,11 @@
 ---
 description: トラフィックの多い順にページを一覧表示します。ページの量的データに関するものであれば、必要な指標を追加することでこのレポートを使ってその情報を得ることができます。
-seo-description: トラフィックの多い順にページを一覧表示します。ページの量的データに関するものであれば、必要な指標を追加することでこのレポートを使ってその情報を得ることができます。
-seo-title: ページ
 solution: Analytics
 title: ページ
-topic: レポート
+topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
