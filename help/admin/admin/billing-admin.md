@@ -1,13 +1,11 @@
 ---
 description: 課金ページでは、各レポートスイートのトラフィックの詳細を含む課金情報にアクセスできます。承認された管理者のみがこのページにアクセスできます。
-seo-description: 課金ページでは、各レポートスイートのトラフィックの詳細を含む課金情報にアクセスできます。承認された管理者のみがこのページにアクセスできます。
-seo-title: 課金
 solution: Analytics
 title: 課金
-topic: 管理ツール
+topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
