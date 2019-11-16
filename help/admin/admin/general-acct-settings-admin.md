@@ -1,13 +1,11 @@
 ---
 description: 管理におけるレポートスイートの一般的なアカウント設定のフィールドの説明。
-seo-description: 管理におけるレポートスイートの一般的なアカウント設定のフィールドの説明。
-seo-title: 一般的なアカウント設定
 solution: Analytics
 title: 一般的なアカウント設定
-topic: 管理ツール
+topic: Admin tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
