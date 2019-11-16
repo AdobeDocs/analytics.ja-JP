@@ -1,13 +1,11 @@
 ---
 description: 単一のヒットを含む訪問の割合を示します。
-seo-description: 単一のヒットを含む訪問の割合を示します。
-seo-title: 直帰率
 solution: Analytics
 title: 直帰率
-topic: 指標
+topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
