@@ -1,12 +1,10 @@
 ---
 description: 顧客属性に関する Analytics の FAQ と顧客属性レポートの実行方法です。
-seo-description: 顧客属性に関する Analytics の FAQ と顧客属性レポートの実行方法です。
-seo-title: 顧客属性
 solution: Experience Cloud,Analytics
 title: 顧客属性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
