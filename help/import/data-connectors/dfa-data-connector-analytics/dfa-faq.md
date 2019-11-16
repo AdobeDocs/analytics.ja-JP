@@ -1,14 +1,12 @@
 ---
 description: 'null'
 keywords: DFA
-seo-description: 'null'
-seo-title: よくある質問
 solution: Analytics
 title: よくある質問
-topic: Data Connectors
+topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
