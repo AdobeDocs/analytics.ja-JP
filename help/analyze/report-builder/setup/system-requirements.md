@@ -1,13 +1,11 @@
 ---
 description: 推奨システム構成および前提条件です。
-seo-description: 推奨システム構成および前提条件です。
-seo-title: システム要件
 solution: Analytics
 title: システム要件
-topic: Report Builder
+topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
