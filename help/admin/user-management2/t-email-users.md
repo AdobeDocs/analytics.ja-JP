@@ -1,14 +1,12 @@
 ---
 description: 電子メールのメッセージを社内のすべてのユーザーに送信する方法について手順を説明します。
-seo-description: 電子メールのメッセージを社内のすべてのユーザーに送信する方法について手順を説明します。
-seo-title: 電子メールユーザー
 solution: Analytics
-subtopic: ユーザーとグループ
+subtopic: Users and groups
 title: 電子メールユーザー
-topic: 管理ツール
+topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
