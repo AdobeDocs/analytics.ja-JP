@@ -1,13 +1,11 @@
 ---
 description: 時刻やファイル形式を指定してレポートをスケジュール送信することができます。
-seo-description: 時刻やファイル形式を指定してレポートをスケジュール送信することができます。
-seo-title: データリクエストのスケジュール
 solution: Analytics
 title: データリクエストのスケジュール
-topic: Report Builder
+topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
