@@ -1,13 +1,11 @@
 ---
 description: Experience Cloud で使用されるレポートタイプについて説明します。
-seo-description: Experience Cloud で使用されるレポートタイプについて説明します。
-seo-title: レポートタイプ
 solution: Analytics
 title: レポートタイプ
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
