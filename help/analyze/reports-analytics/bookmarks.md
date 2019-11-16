@@ -1,14 +1,12 @@
 ---
 description: ブックマークを使用すると、よく使用するレポートにすばやくアクセスできます。作成したブックマークは、Experience Cloud に保存され、Data Connectors などの統合機能で使用できます。
-seo-description: ブックマークを使用すると、よく使用するレポートにすばやくアクセスできます。作成したブックマークは、Experience Cloud に保存され、Data Connectors などの統合機能で使用できます。
-seo-title: ブックマークマネージャー
 solution: Analytics
-subtopic: ブックマーク
+subtopic: Bookmarks
 title: ブックマークマネージャー
-topic: Reports and Analytics
-uuid: 7a1287da-8a39-4family-90b0- f311b5e83722
+topic: Reports and analytics
+uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,11 +27,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |名前| Aユーザーにわかりやすい名前を付けます。|
-       |---|---|
-       |Add to|Specifies the folder in which you want to place the bookmark.|
-       |Make Public| Makes this bookmark available for users with access to the report suite.|
-       |Display report upon login| Displays the report when you log in.|
+       |Name|このブックマークのわかりやすい名前。
+    |
+ |—|—|     |追加|ブックマークを追加するフォルダを指定します。
+|     |公開する|このブックマークを、レポートスイートへのアクセス権を持つユーザーが使用できるようにします。
+|     |ログイン後にレポートを表示|ログイン後にレポートを表示します。|
    
 ## ブックマークの管理 {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -45,7 +43,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL ブックマーク]**
+**[!UICONTROL Analytics]** /コンポ **[!UICONTROL ーネント]** /ブッ **[!UICONTROL クマ]**&#x200B;ーク。
 
 **マイブックマーク**
 
