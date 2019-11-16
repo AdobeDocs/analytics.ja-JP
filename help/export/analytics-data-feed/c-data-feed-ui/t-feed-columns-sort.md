@@ -1,13 +1,11 @@
 ---
 description: どの列が使用できるかを決定して、必要に応じて並べ替えることができます。
-keywords: データフィード；列；列の設定
-seo-description: どの列が使用できるかを決定して、必要に応じて並べ替えることができます。
-seo-title: 列の並べ替え
+keywords: Data Feed;columns;columns configuration
 solution: Analytics
 title: 列の並べ替え
 uuid: 97861aff-6395-48da-8eb4-aea67cd74005
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
