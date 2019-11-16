@@ -1,11 +1,9 @@
 ---
 description: Data Connectors統合ウィザードでは、Data Connectors統合プロセスの手順を実行します。
-seo-description: Data Connectors統合ウィザードでは、Data Connectors統合プロセスの手順を実行します。
-seo-title: Silverpop統合
 title: Silverpop統合
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
