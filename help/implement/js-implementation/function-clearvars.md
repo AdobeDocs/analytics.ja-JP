@@ -1,14 +1,12 @@
 ---
 description: インスタンスオブジェクトの以下の値をクリアします。この関数は要素を削除します（要素を「undefined」に設定します）。
-keywords: Analytics の実装
-seo-description: インスタンスオブジェクトの以下の値をクリアします。この関数は要素を削除します（要素を「undefined」に設定します）。
-seo-title: s.clearVars() 関数
+keywords: Analytics Implementation
 solution: Analytics
 title: s.clearVars() 関数
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
