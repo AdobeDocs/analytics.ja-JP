@@ -1,13 +1,11 @@
 ---
 description: サポートされる Java バージョン別にモバイルデバイスをグループ分けします。JavaScript のバージョンレポートでは、デバイスでサポートされている Java 仕様要求（JSR）により Java バージョンを識別します。
-seo-description: サポートされる Java バージョン別にモバイルデバイスをグループ分けします。JavaScript のバージョンレポートでは、デバイスでサポートされている Java 仕様要求（JSR）により Java バージョンを識別します。
-seo-title: JavaScript のバージョン
 solution: Analytics
 title: JavaScript のバージョン
-topic: レポート
+topic: Reports
 uuid: 797ec651-e259-42c3-8008-8a1ad43621a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
