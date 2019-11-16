@@ -1,13 +1,11 @@
 ---
 description: 異常値検出は、統計的なモデリングを使用して、データ内の予期しないトレンドを自動的に見つけます。このモデルは、指標を分析して、値の下限、上限および期待値を決定します。予期しないスパイクまたは下落が発生した場合にレポートします。
-seo-description: 異常値検出は、統計的なモデリングを使用して、データ内の予期しないトレンドを自動的に見つけます。このモデルは、指標を分析して、値の下限、上限および期待値を決定します。予期しないスパイクまたは下落が発生した場合にレポートします。
-seo-title: 異常値検出
 solution: Analytics
 title: 異常値検出
-topic: Report Builder
+topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
