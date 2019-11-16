@@ -1,14 +1,12 @@
 ---
 description: データソーステンプレートに関する情報です。データソーステンプレートは、特定の外部データのセットをデータソースに送信するのに適したデータの枠組みを提供します。
-seo-description: データソーステンプレートに関する情報です。データソーステンプレートは、特定の外部データのセットをデータソースに送信するのに適したデータの枠組みを提供します。
-seo-title: データソーステンプレートの概要
 solution: Analytics
-subtopic: データソース
+subtopic: Data sources
 title: データソーステンプレートの概要
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
