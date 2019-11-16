@@ -1,13 +1,11 @@
 ---
 description: 「スパイクのスケジュール」セクションでは、アドビに一時的なトラフィックのスパイクを通知できるので、それらを処理するための適切なリソースを割り当てることができます。
-seo-description: 「スパイクのスケジュール」セクションでは、アドビに一時的なトラフィックのスパイクを通知できるので、それらを処理するための適切なリソースを割り当てることができます。
-seo-title: トラフィックスパイクのスケジュール
 solution: Analytics
 title: トラフィックスパイクのスケジュール
-topic: 管理ツール
+topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
