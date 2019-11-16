@@ -1,13 +1,11 @@
 ---
 description: フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
-seo-description: フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
-seo-title: レポートデータのフィルタリング
 solution: Analytics
 title: レポートデータのフィルタリング
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
