@@ -1,13 +1,11 @@
 ---
 description: 顧客がサイトを初めて訪問してから最終的に購入するまでの日数を示します。
-seo-description: 顧客がサイトを初めて訪問してから最終的に購入するまでの日数を示します。
-seo-title: 初回購入までの日数
 solution: Analytics
 title: 初回購入までの日数
-topic: レポート
+topic: Reports
 uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
