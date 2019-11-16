@@ -1,13 +1,11 @@
 ---
 description: Reports & Analytics で使用可能な事前定義済みレポートの定義および Analysis Workspace などの他の Analytics ツールで使用可能なディメンションの定義です。
-seo-description: Reports & Analytics で使用可能な事前定義済みレポートの定義および Analysis Workspace などの他の Analytics ツールで使用可能なディメンションの定義です。
-seo-title: ディメンションの説明
 solution: Analytics
 title: ディメンションの説明
-topic: レポート
+topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
