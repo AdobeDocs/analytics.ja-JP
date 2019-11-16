@@ -1,13 +1,11 @@
 ---
 description: クライアントが使用するオペレーティングシステム別に Web トラフィックをグループ化します。
-seo-description: クライアントが使用するオペレーティングシステム別に Web トラフィックをグループ化します。
-seo-title: オペレーティングシステム
 solution: Analytics
 title: オペレーティングシステム
-topic: レポート
-uuid: 68307788-467a-4294- comc-921c105a0825
+topic: Reports
+uuid: 68307788-467a-4294-becc-921c105a0825
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
