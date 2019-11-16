@@ -1,13 +1,11 @@
 ---
-description: 訪問者が使用しているブラウザーのタイプを示します（Internet Explorer、Mozilla Firefox、Google Chrome など）。
-seo-description: 訪問者が使用しているブラウザーのタイプを示します（Internet Explorer、Mozilla Firefox、Google Chrome など）。
-seo-title: ブラウザータイプ
+description: 訪問者が使用しているブラウザーのタイプ（Internet Explorer、Mozilla Firefox、Google Chrome など）を示します。
 solution: Analytics
 title: ブラウザータイプ
-topic: レポート
-uuid: c755abce- ac24-42b6- b118- a971af7f6a59
+topic: Reports
+uuid: c755abce-ac24-42b6-b118-a971af7f6a59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
