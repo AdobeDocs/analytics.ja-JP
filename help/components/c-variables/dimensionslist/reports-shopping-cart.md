@@ -1,13 +1,11 @@
 ---
 description: 指定された期間内に開かれた買い物かごの数が表示されます。レポートを実行して買い物かご表示、追加、削除、チェックアウト数を分析できます。買い物かごは通常、顧客が購入する品目を選択したときに開きますが、品目なしでも開くことができます。
-seo-description: 指定された期間内に開かれた買い物かごの数が表示されます。レポートを実行して買い物かご表示、追加、削除、チェックアウト数を分析できます。買い物かごは通常、顧客が購入する品目を選択したときに開きますが、品目なしでも開くことができます。
-seo-title: 買い物かご
 solution: Analytics
 title: 買い物かご
-topic: レポート
+topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
