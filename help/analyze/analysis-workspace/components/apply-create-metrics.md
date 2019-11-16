@@ -1,11 +1,9 @@
 ---
 description: Analysis Workspace には、指標の使用方法が 2 つあります。
-seo-description: Analysis Workspace には、指標の使用方法が 2 つあります。
-seo-title: 指標
 title: 指標
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
