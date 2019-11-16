@@ -1,10 +1,8 @@
 ---
 title: ソリューションデザインドキュメントの作成
-seo-title: ソリューションデザインドキュメントの作成
 description: ソリューションデザインドキュメントとは何か、および組織でのソリューションデザインドキュメントの使用方法について説明します。
-seo-description: ソリューションデザインドキュメントとは何か、および組織でのソリューションデザインドキュメントの使用方法について説明します。
-translation-type: ht
-source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -46,11 +44,11 @@ source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
 
 > [!NOTE] Analytics コミュニティのメンバーは、次のリンクが役に立つと判断しましたが、これらのリンクはアドビが所有しているものではありません。コンテンツを表示する際は、この点に留意してください。
 
-* [7 Steps to Set Up Your Web Analytics Solution Design](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)（ObservePoint）
-* [A Framework for Digital Analytics Process](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/)（Analytics Demystified）
-* [The Solution Design Reference is actually your BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) （Numeric Analytics）
-* [How to make Adobe Analytics tagging map](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/)（Antti Koski）
-* [The Importance of the Solution Design Document](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)（Ebiquity）
+* [7 ObservePointによるWeb Analyticsソリューションデザインの設定手順](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) （英語のみ）
+* [Analyticsによるデジタル分析プロセスのフレームワーク](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) （不明）
+* [Solution Design Referenceは、実際にはNumeric AnalyticsによるBFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) (BFF)です。
+* [Antti Koski氏によるAdobe Analyticsのタグ付けマップの作成](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) （英語）
+* [The Importance of the Solution Design Document](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) by Ebiquity
 
 ## 次の手順
 
