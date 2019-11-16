@@ -1,13 +1,11 @@
 ---
-description: コンバージョン変数を追加または編集する方法について手順を説明します。
-seo-description: コンバージョン変数の追加または編集方法を説明する手順。
-seo-title: コンバージョン変数の編集
+description: コンバージョン変数の追加または編集方法を説明する手順。
 solution: Analytics
 title: コンバージョン変数の編集
-topic: 管理ツール
+topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
