@@ -1,11 +1,9 @@
 ---
 description: このAdobe® Data Connectors™電子メール統合は、Adobe Analytics®の行動情報と電子メールマーケティングを組み合わせて、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
-seo-description: このAdobe® Data Connectors™電子メール統合は、Adobe Analytics®の行動情報と電子メールマーケティングを組み合わせて、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
-seo-title: Adobe Analytics用Neolane Ozon Data Connector
 title: Adobe Analytics用Neolane Ozon Data Connector
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
