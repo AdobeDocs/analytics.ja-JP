@@ -1,16 +1,14 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: インテリジェントアラート-使用例
-title: インテリジェントアラート-使用例
-uuid: e848f004- c044-4c7e- a0ac-9f3ea2df9a05
+title: インテリジェントアラート - 使用例
+uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# インテリジェントアラート-使用例
+# インテリジェントアラート - 使用例
 
 ## 2 つのセグメントでフィルターしたシンプルなアラートの作成 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
