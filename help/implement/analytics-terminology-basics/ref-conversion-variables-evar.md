@@ -1,14 +1,12 @@
 ---
 description: カスタムインサイトコンバージョン変数（または eVar）は、サイト上の選択された Web ページの Adobe コードに配置されます。その主な目的は、カスタムマーケティングレポートでコンバージョン成功指標をセグメント化することです。
-keywords: Analytics の実装, eVar, コンバージョン変数, eVar 値, コンバージョン, 成功イベント
-seo-description: カスタムインサイトコンバージョン変数（または eVar）は、サイト上の選択された Web ページの Adobe コードに配置されます。その主な目的は、カスタムマーケティングレポートでコンバージョン成功指標をセグメント化することです。
-seo-title: コンバージョン変数（eVar）
+keywords: Analytics Implementation;eVar;conversion variable;eVar value;conversion;success event
 solution: Analytics
 title: コンバージョン変数（eVar）
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
