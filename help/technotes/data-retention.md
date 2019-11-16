@@ -1,11 +1,9 @@
 ---
-seo-description: Adobe Analyticsで収集されたデータは、一定の期間保持されます。 アドビがこのデータを保持する時間は契約によって異なり、組織のデータ保持ポリシーで概要が説明されます。
-seo-title: Adobe Analyticsのデータ保持ポリシー
 title: データ保持ポリシー
 description: データ保持ポリシーは、アドビがデータを保存する期間を決定します。
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
