@@ -1,13 +1,11 @@
 ---
 description: Analytics の導入時のリンクトラッキングのための Dynamic Tag Management のフィールドの説明です。
-keywords: Dynamic Tag Management, リンクトラッキング, clickmap を有効にする, ダウンロードリンクを追跡, ダウンロード拡張子, 離脱リンクを追跡, url パラメーターを保持
-seo-description: Analytics の導入時のリンクトラッキングのための Dynamic Tag Management のフィールドの説明です。
-seo-title: リンクトラッキング
-solution: Experience Cloud, Analytics, Dynamic Tag Management
+keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: リンクトラッキング
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
