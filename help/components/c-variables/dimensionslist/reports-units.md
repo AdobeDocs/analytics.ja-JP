@@ -1,18 +1,16 @@
 ---
 description: 選択された期間に注文された総数量が表示されます。1 回の注文で大量購入がなされることもあるので、数量は一般的な在庫の動きを明らかにする極めて重要な指標です。
-seo-description: 選択された期間に注文された総数量が表示されます。1 回の注文で大量購入がなされることもあるので、数量は一般的な在庫の動きを明らかにする極めて重要な指標です。
-seo-title: Units
 solution: Analytics
-title: Units
-topic: レポート
-uuid: 5f4312f5- d7c3-4827- bc15-4095a83e5c04
+title: 単位
+topic: Reports
+uuid: 5f4312f5-d7c3-4827-bc15-4095a83e5c04
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 数量
+# 単位
 
 選択された期間に注文された総数量が表示されます。1 回の注文で大量購入がなされることもあるので、数量は一般的な在庫の動きを明らかにする極めて重要な指標です。
 
