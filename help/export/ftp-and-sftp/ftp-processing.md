@@ -1,13 +1,11 @@
 ---
 description: 分類やデータソースの FTP ファイルの処理時間は、既に処理キューに登録されているファイルの数、およびアップロードしたファイルのサイズに応じて異なります。
 keywords: ftp;sftp
-seo-description: 分類やデータソースの FTP ファイルの処理時間は、既に処理キューに登録されているファイルの数、およびアップロードしたファイルのサイズに応じて異なります。
-seo-title: FTP 処理時間
 solution: Analytics
 title: FTP 処理時間
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
