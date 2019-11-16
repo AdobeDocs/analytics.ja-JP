@@ -1,16 +1,14 @@
 ---
 description: 計算指標ビルダー内でのセグメントの積み重ねと置き換えの方法を示します。
-seo-description: 計算指標ビルダー内でのセグメントの積み重ねと置き換えの方法を示します。
-seo-title: セグメントのスタックと置換
-title: セグメントのスタックと置換
-uuid: f6d4db9e- d982-4731- b342-7e49dee02035
+title: セグメントの積み重ねと置き換え
+uuid: f6d4db9e-d982-4731-b342-7e49dee02035
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# セグメントのスタックと置換
+# セグメントの積み重ねと置き換え
 
 計算指標ビルダー内でのセグメントの積み重ねと置き換えの方法を示します。
 
