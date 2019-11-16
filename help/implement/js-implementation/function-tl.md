@@ -1,24 +1,22 @@
 ---
 description: ファイルのダウンロード数と離脱リンクは、JavaScript 版 AppMeasurement ファイルで設定されたパラメーターに基づいて、自動的に追跡することができます。
-keywords: Analytics の実装
-seo-description: ファイルのダウンロード数と離脱リンクは、JavaScript 版 AppMeasurement ファイルで設定されたパラメーターに基づいて、自動的に追跡することができます。
-seo-title: s.tl() 関数 - リンクトラッキング
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: リンクトラッキング
+subtopic: Link tracking
 title: s.tl() 関数 - リンクトラッキング
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # s.tl() 関数 - リンクトラッキング
 
-組織で追跡するリンクとその動作をより詳細に制御する必要がある場合は、手動リンクトラッキングをお勧めします。 s.tl()関数を使用して、目的のコンテンツを含むリンクトラッキングイメージリクエストを手動で送信します。 基本的なリンクトラッキングが必要な場合は、「設定変数」の `s.trackDownloadLinks` とを参 `s.trackExternalLinks` 照し [てください](c-variables/configuration-variables.md)。 カスタムリンクは自動的に追跡できません。
+お客様の組織で、追跡するリンクとその動作をより詳細に制御する必要がある場合は、手動リンクトラッキングをお勧めします。s.tl() 関数を使用して、目的のコンテンツを含むリンクトラッキングイメージリクエストを手動で送信します。基本的なリンクトラッキングが必要な場合は、「[設定変数](c-variables/configuration-variables.md)」の `s.trackDownloadLinks` と `s.trackExternalLinks` を参照してください。カスタムリンクは自動追跡できません。
 
-> [!NOTE] リンクトラッキングコードは、多くの場合、サイトやレポートのニーズに非常に特化したコードです。 ビジネスニーズに基づいてこの機能の使用方法を理解するには、事前の導入経験または導入コンサルタントをお勧めします。
+> [!NOTE] リンクトラッキングコードは、多くの場合、サイトやレポートのニーズに特化したコードです。ビジネスニーズに基づいたこの機能の使用方法を理解できるよう、実装前のエクスペリエンスまたは実装の相談の利用をお勧めします。
 
 ## 構文と例
 
@@ -40,10 +38,10 @@ s.tl(this,'o','Example Link');
 
 ### this/true（必須）
 
-最初の引数は、ブラウザがページから移動する前に500 msまで待機するかどうかを指定します。 イメージリクエストが500 msよりも早く送信されると、ページは直ちにクリックされたリンクに移動します。
+最初の引数は、ブラウザーがページから移動するまでに最大 500 ミリ秒待機するかどうかを指定します。イメージリクエストが 500ミリ秒よりも前に送信されると、ページは直ちにクリックされたリンクに移動します。
 
-* `this`:AppMeasurementがイメージリクエストを送信するまで、最大500 ms待機します。 デフォルト値.
-* `true`:待つな。 リンクがページから離れた場合、イメージリクエストが送信されない可能性があります。
+* `this`：AppMeasurement がイメージリクエストを送信するまで、最大 500ミリ秒待機します。デフォルト値。
+* `true`：待機しない。リンクがページから離れた場合、イメージリクエストが送信されない可能性があります。
 
 遅延は、リンクがページを離れた場合にのみ必要です。
 
@@ -57,11 +55,11 @@ s.tl(true,'o','Example link');
 
 ### linkType（必須）
 
-2番目の引数には、取り込むリンクのタイプに応じて3つの有効な値があります。 これにより、イメージリクエストが入力するAdobe Analyticsのディメンションが決まります。
+2 番目の引数には、取り込むリンクのタイプに従って 3 つの有効な値があります。これにより、イメージリクエストで生成される Adobe Analytics のディメンションが決まります。
 
-* `d`: ファイルのダウンロード数
-* `e`: 離脱リンク
-* `o`:カスタムリンク
+* `d`：ファイルのダウンロード数
+* `e`：離脱リンク
+* `o`：カスタムリンク
 
 ```JavaScript
 // Populates the File Downloads dimension
@@ -76,7 +74,7 @@ s.tl(this,'o','Example link');
 
 ### linkName（必須）
 
-この引数には、100バイトまでの任意のカスタム値を指定できます。 レポートでディメンション値を決定します。
+この値には、100 文字までのカスタム値を使用できます。レポートでディメンション値を決定します。
 
 ```JavaScript
 // Populates the Custom Link dimension with "Referral click to example.com"
@@ -88,21 +86,21 @@ s.tl(this,'d','Last quarter performance PDF');
 
 ### variableOverrides（オプション）
 
-1回の呼び出しで変数の値を変更できます。 doneAction引数を使用し、変数のオーバーライドがない場合は、を使用しま `null`す。
+1 回の呼び出しに対する変数の値を変更できます。doneAction 引数を使用し、変数のオーバーライドがない場合は、`null` を使用します。
 
 ### doneAction（オプション）
 
-リンクトラッキングの完了後に実行するナビゲーションアクションを指定します。 とを使用する必要があ `s.useForcedLinkTracking` ります `s.forcedLinkTrackingTimeout`。 The doneAction variable can be the string `navigate`, which causes the method to set `document.location` to the href attribute of `linkObject`. また、doneAction 変数に関数を指定し、高度なカスタマイズをおこなうこともできます。
+リンクトラッキングの完了後に実行するナビゲーションアクションを指定します。`s.useForcedLinkTracking` と `s.forcedLinkTrackingTimeout` を使用する必要があります。doneAction 変数に `navigate` という文字列を指定すると、このメソッドによって `document.location` に `linkObject` の href 属性が設定されます。また、doneAction 変数に関数を指定し、高度なカスタマイズをおこなうこともできます。
 
-アンカーの イベントの `onClick``false`doneAction に値を指定する場合は、`s.tl` の呼び出し後に を返すようにし、デフォルトのブラウザーナビゲーションがおこなわれないようにする必要があります。To mirror the default behavior and follow the URL specified by the href attribute, provide a string of `navigate` as the doneAction. オプションとして、ナビゲーションイベントを処理するために独自の関数を指定するには、この関数を doneAction として渡すことができます。
+アンカーの `onClick` イベントの doneAction に値を指定する場合は、`s.tl` の呼び出し後に `false` を返すようにし、デフォルトのブラウザーナビゲーションがおこなわれないようにする必要があります。デフォルトの動作を反映し、href 属性で指定された URL に移動するには、doneAction に `navigate` の文字列を指定します。オプションとして、ナビゲーションイベントを処理するために独自の関数を指定するには、この関数を doneAction として渡すことができます。
 
 ```JavaScript
 s.tl(this,'e','Example link',null,'navigate');return false;
 ```
 
-## リンクトラッキングでのJavaScript関数の使用
+## リンクトラッキングとともに JavaScript 関数を使用します。
 
-リンクトラッキングコードは、ページ上またはリンクされたJavaScriptファイル内で定義された独立したJavaScript関数に統合できます。 その後、各リンクのonClick関数で呼び出しを行うことができます。
+ページやリンクされている JavaScript ファイルで定義されている、自己完結型の JavaScript 関数にリンクトラッキングコードを統合できます。次に、各リンクの onClick 関数で呼び出しをおこなうことができます。
 
 ```JavaScript
 // Set in AppMeasurement file or page code
@@ -121,7 +119,7 @@ function trackClickInteraction(name){
 
 ## リンクの二重カウントの防止 {#section_9C3F73DE758F4727943439DED110543C}
 
-リンクが自動ファイルダウンロードまたは離脱リンクトラッキングで取り込まれる状況では、リンクが2倍にカウントされる可能性があります。 For example, if you are tracking PDF downloads automatically, an `s.tl` call results in a duplicate download count:
+リンクが自動ファイルダウンロードまたは離脱リンクの自動トラッキングで取り込まれる状況下で、リンクが二重にカウントされる可能性があります。例えば、PDF ダウンロードを自動トラッキングしている場合、`s.tl` 呼び出しを使用すると、ダウンロードが二重にカウントされます。
 
 ```JavaScript
 function trackDownload(obj) {}
