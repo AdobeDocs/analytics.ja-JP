@@ -1,13 +1,11 @@
 ---
 description: Web サイト上の各ページの階層レイアウトを表示します。hierN 変数の設定に従って各ページを表示します。このレポートは、階層に含めたい各ページに対して設定した変数の結果を表示します。このレポートでは、階層の選択された指標（実訪問者数など）を見ることができます。
-seo-description: Web サイト上の各ページの階層レイアウトを表示します。hierN 変数の設定に従って各ページを表示します。このレポートは、階層に含めたい各ページに対して設定した変数の結果を表示します。このレポートでは、階層の選択された指標（実訪問者数など）を見ることができます。
-seo-title: 階層
 solution: Analytics
 title: 階層
-topic: レポート
+topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
