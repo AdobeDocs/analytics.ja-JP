@@ -1,13 +1,11 @@
 ---
 description: 特定の値が取り込まれた回数、および該当する値で持続したページビュー数。つまり、回数とはページビューとページイベントの合計です。回数は Analysis Workspace と Ad Hoc Analysis で使用可能です。
-seo-description: 特定の値が取り込まれた回数、および該当する値で持続したページビュー数。つまり、回数とはページビューとページイベントの合計です。回数は Analysis Workspace と Ad Hoc Analysis で使用可能です。
-seo-title: 発生件数
 solution: Analytics
 title: 発生件数
-topic: 指標
+topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
