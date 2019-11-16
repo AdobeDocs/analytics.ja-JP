@@ -1,11 +1,9 @@
 ---
 description: 計算指標マネージャでは、指標を様々な方法で管理できます。例えば、共有、フィルタリング、タグ付け、承認、コピー、削除およびお気に入りへの登録が可能です。
-seo-description: 計算指標マネージャでは、指標を様々な方法で管理できます。例えば、共有、フィルタリング、タグ付け、承認、コピー、削除およびお気に入りへの登録が可能です。
-seo-title: 計算指標マネージャ
 title: 計算指標マネージャ
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
