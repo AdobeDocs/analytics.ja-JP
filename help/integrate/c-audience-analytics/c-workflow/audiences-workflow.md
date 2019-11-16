@@ -1,12 +1,10 @@
 ---
 description: オーディエンスデータをプロビジョニング、共有および使用する方法を示します。
-seo-description: オーディエンスデータをプロビジョニング、共有および使用する方法を示します。
-seo-title: ワークフローの概要
 solution: Experience Cloud
 title: ワークフローの概要
 uuid: 211e079b-46ee-4238-856d-7cac40620717
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
