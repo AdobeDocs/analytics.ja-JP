@@ -1,14 +1,12 @@
 ---
 description: JavaScript を使用せずに Analytics を導入する場合、追加の要件と設定があります。
-keywords: Analytics の実装, 大文字と小文字の区別, クエリパラメーターのエンコード, 無効な文字, 安全なイメージリクエスト, 変数の最大長, 参照, url, キャッシュ, 名前空間
-seo-description: JavaScript を使用せずに Analytics を導入する場合、追加の要件と設定があります。
-seo-title: JavaScript を使用しない実装のガイドライン
+keywords: Analytics Implementation;case sensitive;encode query parameters;invalid characters;secure image requests;maximum variable length;referring;url;caching;namespace
 solution: Analytics
 title: JavaScript を使用しない実装のガイドライン
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
