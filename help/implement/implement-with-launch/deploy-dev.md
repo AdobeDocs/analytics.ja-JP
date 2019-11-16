@@ -1,10 +1,8 @@
 ---
 title: 開発環境への Adobe Analytics のデプロイ
-seo-title: 開発環境への Adobe Analytics のデプロイ
 description: Adobe Experience Platform Launch を使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
-seo-description: Adobe Experience Platform Launch を使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -71,8 +69,8 @@ Web サイトのコードを制御する場合は、サイトの各ページの�
 
 ## ドキュメントとその他のリソース
 
-- [はじめに](https://docs.adobelaunch.com/getting-started)：Launch の基本を学習します。
-- [Launch の管理](https://docs.adobelaunch.com/administration)：アダプアーと環境についての詳細。
+- [Launchの概要](https://docs.adobelaunch.com/getting-started):起動の基本的なワークフローについて説明します。
+- [起動管理](https://docs.adobelaunch.com/administration):アダプタと環境の詳細
 
 ## 次の手順
 
