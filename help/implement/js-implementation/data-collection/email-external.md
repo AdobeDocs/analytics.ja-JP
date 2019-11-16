@@ -1,14 +1,12 @@
 ---
 description: Analytics を使用して電子メールキャンペーンの成功を判定します。
-keywords: Analytics の実装
-seo-description: Analytics を使用して電子メールキャンペーンの成功を判定します。
-seo-title: 外部電子メールトラッキング
+keywords: Analytics Implementation
 solution: Analytics
 title: 外部電子メールトラッキング
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
