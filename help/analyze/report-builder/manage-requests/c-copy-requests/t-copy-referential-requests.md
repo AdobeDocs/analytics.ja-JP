@@ -1,13 +1,11 @@
 ---
 description: データフィルター、相関フィルターなどのパラメーターの入力としてセルの値を使用できます。
-seo-description: データフィルター、相関フィルターなどのパラメーターの入力としてセルの値を使用できます。
-seo-title: 参照リクエストのコピー
 solution: Analytics
 title: 参照リクエストのコピー
-topic: Report Builder
+topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
