@@ -1,11 +1,9 @@
 ---
 description: Analysis Workspace の異常値検出は、一連の高度な統計的手法を用いて、計測値を異常値と見なすべきかどうかを判定します。
-seo-description: Analysis Workspace の異常値検出は、一連の高度な統計的手法を用いて、計測値を異常値と見なすべきかどうかを判定します。
-seo-title: 異常値検出で使用される統計的手法
 title: 異常値検出で使用される統計的手法
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
