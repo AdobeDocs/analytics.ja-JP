@@ -1,13 +1,11 @@
 ---
 description: レポートを電子メールアドレスや FTP サーバーに自動的に送信するような配信スケジュールを設定できます。
 keywords: ftp;sftp
-seo-description: レポートを電子メールアドレスや FTP サーバーに自動的に送信するような配信スケジュールを設定できます。
-seo-title: Ad Hoc Analysis が配信するレポート
 solution: Analytics
 title: Ad Hoc Analysis が配信するレポート
 uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
