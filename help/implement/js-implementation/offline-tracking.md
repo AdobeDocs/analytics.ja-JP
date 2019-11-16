@@ -1,14 +1,12 @@
 ---
 description: 以下の変数と関数を使用して、アプリケーションがオフラインの間に実行された測定コールを格納できます。
-keywords: Analytics の実装
-seo-description: 以下の変数と関数を使用して、アプリケーションがオフラインの間に実行された測定コールを格納できます。
-seo-title: オフライン追跡
+keywords: Analytics Implementation
 solution: Analytics
 title: オフライン追跡
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
