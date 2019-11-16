@@ -1,14 +1,12 @@
 ---
 description: マーケティングチャネルレポート機能を使用すると、マーケティングチャネルがもたらす売上高を把握できます。これらのレポートには、ファーストタッチチャネルおよびラストタッチチャネルの配分の概要、および売上高、注文件数、コストなどの重要な標準指標が含まれます。
-seo-description: マーケティングチャネルレポート機能を使用すると、マーケティングチャネルがもたらす売上高を把握できます。これらのレポートには、ファーストタッチチャネルおよびラストタッチチャネルの配分の概要、および売上高、注文件数、コストなどの重要な標準指標が含まれます。
-seo-title: マーケティングチャネルレポートについて
 solution: Analytics
-subtopic: マーケティングチャネル
+subtopic: Marketing channels
 title: マーケティングチャネルレポートについて
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
 translation-type: tm+mt
-source-git-commit: 2b5e51e76b18980d169a024276fc0aa6b085c248
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
