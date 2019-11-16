@@ -1,11 +1,9 @@
 ---
-description: 指標の並べ替えとフィルターの2つの主な方法について説明します。
-seo-description: 指標の並べ替えとフィルターの2つの主な方法について説明します。
-seo-title: 指標の検索
+description: 指標の並べ替えとフィルタリングを行う2つの主な方法について説明します。
 title: 指標の検索
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
