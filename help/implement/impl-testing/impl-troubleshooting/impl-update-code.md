@@ -1,15 +1,13 @@
 ---
 description: 既存の Analytics コードを更新するためのベストプラクティスがいくつかあります。
-keywords: Analytics の実装
-seo-description: 既存の Analytics コードを更新するためのベストプラクティスがいくつかあります。
-seo-title: Analytics コードの置き換え
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: トラブルシューティング
+subtopic: Troubleshooting
 title: Analytics コードの置き換え
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: d3ea6585-199f-4dbe-9ee8-15b204689f2f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
