@@ -1,13 +1,11 @@
 ---
 description: AND/OR検索式を持つBooleanロジックを使用して設定するランキングフィルターと条件フィルター。
-seo-description: AND/OR検索式を持つBooleanロジックを使用して設定するランキングフィルターと条件フィルター。
-seo-title: 最頻使用フィルター
 solution: Analytics
 title: 最頻使用フィルター
-topic: Report Builder
+topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
