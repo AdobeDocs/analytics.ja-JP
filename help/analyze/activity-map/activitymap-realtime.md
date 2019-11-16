@@ -1,13 +1,11 @@
 ---
 description: リアルタイムページ分析（ライブモード）により、分単位の精度でリアルタイムに結果を取得できます。
-seo-description: リアルタイムページ分析（ライブモード）により、分単位の精度でリアルタイムに結果を取得できます。
-seo-title: リアルタイム（ライブ）ページ分析
 solution: Analytics
 title: リアルタイム（ライブ）ページ分析
-topic: Activity Map
+topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -37,4 +35,4 @@ Adobe Target で A4T 統合を有効にすると、Adobe Analytics で 5～10 �
 * ライブストリーム、リアルタイムのレポートと API リクエスト、トラフィック変数の現在のデータでは、追加のデータ ID が設定されたヒットのみが遅延します。
 * コンバージョン指標の現在のデータ、ファイナライズされたデータ、データフィードでは、すべてのヒットが追加で 5 ～ 7 分遅延します。
 
-この統合を完全に実装していなくても、[ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を導入すると追加の待ち時間が発生することに注意してください。
+この統合を完全に実装していなくても、[ID サービス](https://marketing.adobe.com/resources/help/en_US/mcvid/)を導入すると追加の待ち時間が発生することに注意してください。
