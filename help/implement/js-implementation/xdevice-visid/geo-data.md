@@ -1,14 +1,12 @@
 ---
 description: 地域特性データは、訪問者の初回ヒットに基づいて記録され、1 回の訪問に対しては使用されるデバイスにかかわらず変更されません。
-keywords: Analytics の実装
-seo-description: 地域特性データは、訪問者の初回ヒットに基づいて記録され、1 回の訪問に対しては使用されるデバイスにかかわらず変更されません。
-seo-title: 地域特性データ
+keywords: Analytics Implementation
 solution: Analytics
 title: 地域特性データ
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
