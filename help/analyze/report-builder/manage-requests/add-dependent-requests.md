@@ -1,13 +1,11 @@
 ---
 description: 依存リクエストは既存のリクエストに依存しているリクエストです。
-seo-description: 依存リクエストは既存のリクエストに依存しているリクエストです。
-seo-title: 依存リクエストの追加
 solution: Analytics
 title: 依存リクエストの追加
-topic: Report Builder
+topic: Report builder
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
