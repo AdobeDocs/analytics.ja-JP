@@ -1,13 +1,11 @@
 ---
 description: Dynamic Tag Management を使用して Adobe Analytics をデプロイする場合の変数に関するフィールドの説明と情報です。
-keywords: Dynamic Tag Management, グローバル変数, サーバー変数, evar, prop, 動的変数プレフィックス, 動的変数
-seo-description: Dynamic Tag Management を使用して Adobe Analytics をデプロイする場合の変数に関するフィールドの説明と情報です。
-seo-title: グローバル変数
-solution: Experience Cloud, Analytics, Dynamic Tag Management
+keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: グローバル変数
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 Dynamic Tag Management を使用して Adobe Analytics をデプロイする場合の変数に関するフィールドの説明と情報です。
 
-これらの変数は、ページ型ルールのすべてのビーコンによって起動します。同様のことを実現する別の方法として、[ページ型ルール](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md)セットをすべてのページで起動させることもできます。これらの変数は、[ダイレクト型ルール](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)と[イベント型](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md)ルールでは実行されない可能性があります 。
+これらの変数は、すべてのページ型ルールビーコンで実行されます。同じ効果を実現するには、[ページ型ルール](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md)を使用して、すべてのページで実行します。これらの変数は、[ダイレクト型ルール](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)と[イベント型](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md)ルールでは実行されない可能性があります 。
 
 ## グローバル変数 - フィールドの説明 {#section_2917F62FCC8D43F982B2612A702DEF81}
 
