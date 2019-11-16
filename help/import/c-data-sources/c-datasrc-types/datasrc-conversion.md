@@ -1,14 +1,12 @@
 ---
 description: データソースでは、コンバージョンとして処理されるデータタイプに対して、次のようなコンバージョンデータディメンションおよびコンバージョン指標をサポートしています。
-seo-description: データソースでは、コンバージョンとして処理されるデータタイプに対して、次のようなコンバージョンデータディメンションおよびコンバージョン指標をサポートしています。
-seo-title: コンバージョン
 solution: Analytics
-subtopic: データソース
+subtopic: Data sources
 title: コンバージョン
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
