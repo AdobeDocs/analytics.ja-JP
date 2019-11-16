@@ -1,15 +1,13 @@
 ---
 description: コンテキストデータ変数を使用すると、処理ルールで読み取れる各ページ上にカスタム変数を定義できます。
-keywords: Analytics の実装, contextdata, s.contextdata
-seo-description: コンテキストデータ変数を使用すると、処理ルールで読み取れる各ページ上にカスタム変数を定義できます。
-seo-title: コンテキストデータ変数
+keywords: Analytics Implementation;contextdata;s.contextdata
 solution: Analytics
-subtopic: 変数
+subtopic: Variables
 title: コンテキストデータ変数
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,11 +19,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 prop と eVar にコードで明示的に値を割り当てる代わりに、処理ルールを使用して、マッピングされるコンテキストデータ変数にデータを送信できます。処理ルールは、受信したデータに変更を加えるための強力なグラフィカルインターフェイスです。コンテキストデータで送信された値に基づいて、イベントを設定し、値を eVar および prop にコピーし、追加の条件文を実行できます。
 
 > [!NOTE]コンテキストデータ変数では大文字と小文字が区別されません。例えば、以下の 2 つの変数は実際には同一です。
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >と
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
