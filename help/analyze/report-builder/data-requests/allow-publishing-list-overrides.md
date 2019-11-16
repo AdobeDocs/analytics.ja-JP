@@ -1,13 +1,11 @@
 ---
 description: レポートをスケジュールする場合、その配信に使用する発行リストを選択できます。
-seo-description: レポートをスケジュールする場合、その配信に使用する発行リストを選択できます。
-seo-title: 発行リストの上書きの許可
 solution: Analytics
 title: 発行リストの上書きの許可
-topic: Report Builder
+topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
