@@ -1,13 +1,11 @@
 ---
 description: このセクションを使用して、フィードに含めるデータ列と、配信前のフィードデータの処理およびパッケージ方法を選択します。
-keywords: データフィード；データ；列；定義；列テンプレートの選択；クリックストリーム；使用可能な列；含まれる列；圧縮形式；パッケージ化の種類；データマニフェストを含む；エスケープ文字を削除；csvをダウンロード
-seo-description: このセクションを使用して、フィードに含めるデータ列と、配信前のフィードデータの処理およびパッケージ方法を選択します。
-seo-title: データ列の定義
+keywords: Data Feed;data;column;definitions;select column templates;clickstream;available columns;included columns;compression format;packaging type;include data manifest;remove escaped characters;download csv
 solution: Analytics
 title: データ列の定義
 uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
