@@ -1,15 +1,13 @@
 ---
 description: getTimeParting プラグインは、時間、曜日および週末と平日の値をカスタム変数に入力します。Analysis Workspace では、初期設定で時間分割のディメンションを利用できます。このプラグインは、他の Analytics ソリューション（Analysis Workspace 以外）で時間分割のディメンションが必要な場合に使用します。
-keywords: Analytics の実装
-seo-description: getTimeParting プラグインは、時間、曜日および週末と平日の値をカスタム変数に入力します。Analysis Workspace では、初期設定で時間分割のディメンションを利用できます。このプラグインは、他の Analytics ソリューション（Analysis Workspace 以外）で時間分割のディメンションが必要な場合に使用します。
-seo-title: getTimeParting
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: プラグイン
+subtopic: Plug-ins
 title: getTimeParting
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
