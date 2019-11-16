@@ -1,15 +1,13 @@
 ---
 description: getVisitNum プラグインは、ユーザーがサイトを訪問した回数を判断し、その回数を Analytics 変数に取り込みます。
-keywords: Analytics の実装
-seo-description: getVisitNum プラグインは、ユーザーがサイトを訪問した回数を判断し、その回数を Analytics 変数に取り込みます。
-seo-title: getVisitNum
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: プラグイン
+subtopic: Plug-ins
 title: getVisitNum
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
