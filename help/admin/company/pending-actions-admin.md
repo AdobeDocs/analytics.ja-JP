@@ -1,13 +1,11 @@
 ---
 description: 保留中のアクションの管理ページでは、Analytics 環境の保留中のアクションのリストを表示できます。保留中のアクションとは、導入前にアドビからの承認を必要とするシステム変更のことです。
-seo-description: 保留中のアクションの管理ページでは、Analytics 環境の保留中のアクションのリストを表示できます。保留中のアクションとは、導入前にアドビからの承認を必要とするシステム変更のことです。
-seo-title: 保留中のアクション
 solution: Analytics
 title: 保留中のアクション
-topic: 管理ツール
+topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
