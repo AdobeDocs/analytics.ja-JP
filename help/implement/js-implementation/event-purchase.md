@@ -1,14 +1,12 @@
 ---
 description: 購入イベントでは、Analytics 変数を使用して特定の購入情報を取り込みます。s.purchaseID 変数を使用して、イベントをシリアル化（重複排除）します。
-keywords: Analytics の実装
-seo-description: 購入イベントでは、Analytics 変数を使用して特定の購入情報を取り込みます。s.purchaseID 変数を使用して、イベントをシリアル化（重複排除）します。
-seo-title: 購入イベント
+keywords: Analytics Implementation
 solution: Analytics
 title: 購入イベント
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: fb8657100929f333e5e6933ff9d61d8598bf9e05
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
