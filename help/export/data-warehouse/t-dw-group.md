@@ -1,13 +1,11 @@
 ---
 description: 管理者がユーザーグループに対して Data Warehouse レポートのアクセスを有効にする方法について手順を説明します。
-seo-description: 管理者がユーザーグループに対して Data Warehouse レポートのアクセスを有効にする方法について手順を説明します。
-seo-title: Data Warehouse ユーザーグループの追加
 solution: Analytics
 title: Data Warehouse ユーザーグループの追加
-topic: Data Warehouse
+topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
