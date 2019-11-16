@@ -1,13 +1,11 @@
 ---
 description: 品目が買い物かごから削除された回数。この値は scRemove イベントから取得されます。
-seo-description: 品目が買い物かごから削除された回数。この値は scRemove イベントから取得されます。
-seo-title: 買い物かごからの削除
 solution: Analytics
 title: 買い物かごからの削除
-topic: 指標
-uuid: bddd5c63- e906-472a-8bold- a342f417ddfa
+topic: Metrics
+uuid: bddd5c63-e906-472a-8aec-a342f417ddfa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
