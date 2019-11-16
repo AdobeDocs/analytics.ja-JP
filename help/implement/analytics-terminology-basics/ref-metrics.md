@@ -1,14 +1,12 @@
 ---
 description: 指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。
-keywords: Analytics の実装, 指標, トラフィック指標, コンバージョン指標, ビデオ指標, ソーシャル指標, 計算指標, ページビュー, 訪問, 実訪問者
-seo-description: 指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。
-seo-title: 指標
+keywords: Analytics Implementation;metrics;traffic metric;conversion metric;video metric;social metric;calculated metric;page view;visit;unique visitor
 solution: Analytics
 title: 指標
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
