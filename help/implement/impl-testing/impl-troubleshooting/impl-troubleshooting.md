@@ -1,9 +1,8 @@
 ---
-seo-title: 実装の一般的なエラー
 title: 実装の一般的なエラー
 uuid: 382aca09-4789-4671-b76e-17f48a20f5c6
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
