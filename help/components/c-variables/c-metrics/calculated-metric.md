@@ -1,12 +1,10 @@
 ---
 description: 計算指標を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。
-seo-description: 計算指標を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。
-seo-title: 計算指標
 solution: Analytics
 title: 計算指標
 uuid: 039fbb1a-8fa9-479b-badb-ad609b225524
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
