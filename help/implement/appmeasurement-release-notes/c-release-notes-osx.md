@@ -1,14 +1,12 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Mac OS X
-solution: Analytics, Experience Cloud
-subtopic: リリースノート
+solution: Analytics,Experience Cloud
+subtopic: Release notes
 title: Mac OS X
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
