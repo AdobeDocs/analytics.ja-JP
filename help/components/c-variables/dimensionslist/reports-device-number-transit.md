@@ -1,13 +1,11 @@
 ---
 description: 機体番号送信をサポートしているかどうかでモバイルデバイスをグループ分けします。機体番号送信がサポートされているかどうかを判断できないデバイスは、「不明」グループに分類されます。
-seo-description: 機体番号送信をサポートしているかどうかでモバイルデバイスをグループ分けします。機体番号送信がサポートされているかどうかを判断できないデバイスは、「不明」グループに分類されます。
-seo-title: 機体番号送信（オン／オフ）
 solution: Analytics
 title: 機体番号送信（オン／オフ）
-topic: レポート
+topic: Reports
 uuid: 96742bf4-3b26-4cf7-8599-925aabee7e87
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
