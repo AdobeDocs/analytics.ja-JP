@@ -1,13 +1,11 @@
 ---
-description: 「サイト指標」、「サイトコンテンツ」、「ビデオ」など、データリクエストのベースとするレポートタイプを選択します。
-seo-description: 「サイト指標」、「サイトコンテンツ」、「ビデオ」など、データリクエストのベースとするレポートタイプを選択します。
-seo-title: レポートタイプの概要
+description: 「サイト指標」、「サイトコンテンツ」、「ビデオ」など、データリクエストのベースとするレポートタイプを選択できます。
 solution: Analytics
 title: レポートタイプの概要
-topic: Report Builder
-uuid: 63e656d0- f22e-4846-9e24-7ef3299DDE5a
+topic: Report builder
+uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
