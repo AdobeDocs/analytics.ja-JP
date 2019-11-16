@@ -1,14 +1,12 @@
 ---
 description: Facebook インスタント記事に Analytics を導入する方法です。
-keywords: Analytics の実装, 埋め込み, カスタム変数, カスタムイベント, 訪問者トラッキング, トラッキング, 制限
-seo-description: Facebook インスタント記事に Analytics を導入する方法です。
-seo-title: Facebook インスタント記事
+keywords: Analytics Implementation;embed;custom variable;custom event;visitor tracking;tracking;limitations
 solution: Analytics
 title: Facebook インスタント記事
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
