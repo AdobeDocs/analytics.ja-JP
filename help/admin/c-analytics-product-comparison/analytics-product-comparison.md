@@ -1,12 +1,10 @@
 ---
 description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data WarehouseおよびData Workbenchのシステム要件と比較
-seo-description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data WarehouseおよびData Workbenchのシステム要件と比較
-seo-title: Analytics 製品の比較と必要システム構成
 solution: Analytics
 title: Analytics 製品の比較と必要システム構成
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -52,7 +50,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> 最大 2 個のセグメント </td> 
    <td> 制限なし </td> 
    <td> 制限なし（データリクエストスタッキング） </td> 
-   <td colname="col06"> 1 個のセグメント の呼び出しの後におこなわれる場合です。複数のセグメント（スタック）をサポート </td> 
+   <td colname="col06"> 1 個のセグメント。複数のセグメント（スタック）をサポート </td> 
    <td colname="col6"> 制限なし </td> 
   </tr> 
   <tr> 
