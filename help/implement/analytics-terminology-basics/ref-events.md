@@ -1,14 +1,12 @@
 ---
 description: イベントでは、訪問者が特定の行動をとったタイミングを追跡します。
-keywords: Analytics の実装, イベント, 成功イベント, 通貨イベント, カスタムイベント
-seo-description: イベントでは、訪問者が特定の行動をとったタイミングを追跡します。
-seo-title: イベント
+keywords: Analytics Implementation;event;success event;currency event;custom event
 solution: Analytics
 title: イベント
-topic: 開発者と実装
+topic: Developer and implementation
 uuid: d2edd432-60bc-4426-9967-153b713147a1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
