@@ -1,11 +1,10 @@
 ---
-seo-title: Adobe Report Builder ヘルプ
 solution: Analytics
 title: Adobe Report Builder ヘルプ
-topic: Report Builder
+topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
