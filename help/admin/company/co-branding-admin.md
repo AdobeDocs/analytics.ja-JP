@@ -1,22 +1,20 @@
 ---
 description: コブランディング画像の管理ページを使用すると、ダウンロードしたレポートに会社のロゴを表示できます。
-seo-description: コブランディング画像の管理ページを使用すると、ダウンロードしたレポートに会社のロゴを表示できます。
-seo-title: コブランディング
 solution: Analytics
-title: コブランディング
-topic: 管理ツール
-uuid: 918db633-44bb-4502- bd04-98a6337a166c
+title: ブランド提携
+topic: Admin tools
+uuid: 918db633-44bb-4502-bd04-98a6337a166c
 translation-type: tm+mt
-source-git-commit: 7e07da8bbe3a3882ebd74d2218044024896bb64e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# コブランディング
+# ブランド提携
 
-コブランディング画像の管理ページでは、ダウンロードしたレポートおよびレガシーダッシュボードに会社のロゴを表示できます。コーブランドはAnalysis Workspaceでは使用されません。
+コブランド画像の管理ページを使用すると、Reports &amp; Analyticsでダウンロードしたレポートとレガシーダッシュボードに会社のロゴを表示できます。 コブランド化は、Analysis Workspaceでは使用されません。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL カンパニー設定]** / **[!UICONTROL Adobe Experience Cloudのコブランド化]**
+**[!UICONTROL Analytics]** /管 **[!UICONTROL 理者]** / **[!UICONTROL カンパニー設]** 定 **[!UICONTROL /Adobe Experience cloudのコブランド化]**
 
 最良の結果を得るには、次の画像のガイドラインを使用します。
 
