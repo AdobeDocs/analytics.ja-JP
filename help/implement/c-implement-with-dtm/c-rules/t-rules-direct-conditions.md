@@ -1,13 +1,11 @@
 ---
 description: ダイレクト型ルールの条件の作成。
-keywords: Dynamic Tag Management, ルール, ルールの作成, 新規ルール, ダイレクト型ルール
-seo-description: ダイレクト型ルールの条件の作成。
-seo-title: ダイレクト型ルールの条件の作成
-solution: Experience Cloud, Analytics, Target, Dynamic Tag Management
+keywords: Dynamic Tag Management;rule;create rule;new rule;direct call rule
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: ダイレクト型ルールの条件の作成
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
