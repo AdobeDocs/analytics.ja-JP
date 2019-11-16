@@ -1,13 +1,11 @@
 ---
 description: レポート期間内の全レポート行項目の値。現在フィルターが選択されている場合、合計はレポートスイートの合計ではなく、フィルター処理された合計を表している可能性があります。フィルターが選択されていない場合は、合計はレポートスイートの合計を表します。
-seo-description: レポート期間内の全レポート行項目の値。現在フィルターが選択されている場合、合計はレポートスイートの合計ではなく、フィルター処理された合計を表している可能性があります。フィルターが選択されていない場合は、合計はレポートスイートの合計を表します。
-seo-title: 合計
 solution: Analytics
 title: 合計
-topic: 指標
+topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
