@@ -1,14 +1,12 @@
 ---
 description: 仮想レポートスイートを初めて使用するユーザー向けのヒントとベストプラクティスです。
-keywords: 仮想レポートスイート
-seo-description: 仮想レポートスイートを初めて使用するユーザー向けのヒントとベストプラクティスです。
-seo-title: VRS FAQ
+keywords: Virtual Report Suite
 solution: Analytics
 title: VRS FAQ
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
