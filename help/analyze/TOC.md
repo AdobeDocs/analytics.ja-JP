@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics 分析ガイド
-user-guide-url: /content/help/ja-JP/analytics/analyze/home.html
+user-guide-title: Analytics Analyze Guide
+user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
@@ -120,6 +120,10 @@ source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
    + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/optimizing-performance.md)
    + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace の制限](analysis-workspace/aw-limitations.md)
+   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + [ジャーニーIQ](analysis-workspace/journey-iq.md)
+   + [セグメント IQ](analysis-workspace/segment-iq.md)
+   + [Virtual Analyst](analysis-workspace/journey-iq.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder ヘルプ](report-builder/home.md)
    + [Report Builder の新機能](report-builder/whats-new-arb.md)
@@ -244,7 +248,7 @@ source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
    + [顧客セグメント](activity-map/activitymap-multiple-segments.md)
    + [カスタマイズ可能なオーバーレイ](activity-map/activitymap-gainerslosers.md)
    + [オーバーレイの詳細](activity-map/activitymap-overlay-details.md)
-   + [CSV ファイルへのエクスポート](activity-map/activitymap-csv.md)
+   + [CSV ファイルへの書き出し](activity-map/activitymap-csv.md)
    + [サポートされているシステムおよび要件](activity-map/activitymap-sysreqs.md)
    + [Activity Map の FAQ](activity-map/activitymap-faq.md)
    + はじめに {#getting-started}
