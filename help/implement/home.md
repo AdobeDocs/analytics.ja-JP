@@ -2,7 +2,7 @@
 title: モバイルデバイス用のAnalyticsの実装
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 
 ---
 
@@ -10,25 +10,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # モバイルデバイス用のAnalyticsの実装
 
 ![バナー](../../assets/doc_banner_implement.png)
-
-モバイルデバイス用のAnalyticsを実装するには、SDKリポジトリとドキュメントの次のリストを参照してください。
-
-エクスペリエンスプラットフォームSDK
-
-
-エクスペリエンスプラットフォームSDK
-
-エクスペリエンスプラットフォームSDKドキュメント
-
-SDK 4.x:
-
-4.x SDKドキュメント
-
-3.x SDKドキュメント：モバイルデバイス用の3.x Analytics SDKはサポートされなくなりましたが、次のドキュメントにアクセスできます。
-
-
-
-
 
 
 * **Adobe Experience Platform Launch：** Adobe Analytics を実装するための標準化されたお勧めの方法です。各ページにローダータグを配置し、Launch のインターフェイスを使用して、各変数の定義方法を決定します。
