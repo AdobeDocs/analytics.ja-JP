@@ -7,14 +7,14 @@ title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: c32f7302fdc30860da6f5a29d98ada53a6a6da20
+source-git-commit: 3cb4a916a083e9397479d53294795136409e15d0
 
 ---
 
 
 # ページ変数
 
-ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。特定のページ変数に関するヘルプについては、次のリンクのいずれかをクリックしてください。
+ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。特定のページ変数に関するヘルプを表示するには、次のリストから変数の名前をクリックします。
 
 * [browserHeight](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 * [browserWidth](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
