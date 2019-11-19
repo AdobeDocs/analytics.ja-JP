@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: よくある質問
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
 
@@ -84,7 +84,7 @@ Audience Analytics を実装するときによくある質問への回答です�
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：これらのディメンションは Analytics のどこで使用できますか。</b> </p> </td> 
-   <td colname="col2"> <p>ほとんどどこでも使用できます。これらのディメンションは Analytics で収集されたほかのディメンションと同様に扱われます。現在は 2 つの例外があり、Data Workbench または Livestream ではデータを使用できません。 </p> </td> 
+   <td colname="col2"> <p>ほとんどどこでも使用できます。これらのディメンションは Analytics で収集されたほかのディメンションと同様に扱われます。例外が1つあります。現時点では、データはData Workbenchに表示されません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：Analyticsでデータが表示されないのはなぜですか。</b> </p> </td> 
