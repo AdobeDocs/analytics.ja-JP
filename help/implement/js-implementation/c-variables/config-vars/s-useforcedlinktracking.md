@@ -1,12 +1,13 @@
 ---
 description: 動的変数を使用すると、サイトのイメージリクエストで完全な値を複数回入力することなく、ある変数の値を別の変数にコピーできます。
-keywords: Analytics の実装
+keywords: Analytics Implementation
 solution: null
 title: 動的変数
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 ---
+
 
 
 # s.useForcedLinkTracking
@@ -22,9 +23,8 @@ JavaScript H.25.4（2013 年 2 月リリース）では、`useForcedLinkTracking
 * The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
-デフォルト値= true
+デフォルト値 = `true`
 
 ## 例
 
 `s.useForcedLinkTracking = false`
-
