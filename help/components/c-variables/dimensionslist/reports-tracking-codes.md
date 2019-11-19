@@ -5,7 +5,7 @@ title: トラッキングコード
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **一般的なプロパティ**
 
-* このレポートは、Web サイトで実装された [s.campaign](/help/implement/js-implementation/c-variables/page-variables.md) 変数からデータを直接参照します。
+* このレポートは、Web サイトで実装された [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) 変数からデータを直接参照します。
 * このレポートが基づいている変数は、[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)です。つまり、これはページビューの完了後も持続でき、指定した有効期限内で指標と関連付けることができます。
 * このレポートのデフォルト指標は売上高です。このデフォルト値は、[!UICONTROL 管理ツール]にある [!UICONTROL Report Suite Manager] で変更できます( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
 
