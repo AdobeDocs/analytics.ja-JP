@@ -6,7 +6,7 @@ title: カスタム訪問者 ID
 topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -21,7 +21,7 @@ s.visitorID 変数を設定して訪問者を識別するためのカスタム�
 
 | メソッド | 説明 |
 |---|---|
-| [s.visitorID](/help/implement/js-implementation/c-variables/page-variables.md) 変数 | ブラウザーで JavaScript が使用されている場合または他の AppMeasurement ライブラリを使用している場合は、訪問者 ID をデータ収集変数に設定できます。 |
+| [s.visitorID](/help/implement/js-implementation/page-variables/page-variables.md) 変数 | ブラウザーで JavaScript が使用されている場合または他の AppMeasurement ライブラリを使用している場合は、訪問者 ID をデータ収集変数に設定できます。 |
 | イメージリクエスト上のクエリ文字列パラメーター | これにより、ハードコードされたイメージリクエスト上の [!UICONTROL vid クエリ文字列]パラメーターを使用して、[!UICONTROL 訪問者 ID] をアドビに送信できます。 |
 | Data Insertion API | JavaScript を受け付けないワイヤレスプロトコルを使用するデバイスでは、お使いのサーバーからアドビの収集サーバーに、`<visitorid/>` XML 要素を含む XML ポストを送信できます。 |
 | URL の書き直しおよび VISTA | 一部の導入アーキテクチャでは、cookie を設定できない場合に URL の書き直しによってセッションの状態を維持する機能をサポートしています。このような場合、アドビのエンジニアリングサービスで [!DNL VISTA] ルールを導入できます。このルールでは、ページの URL 内のセッション値を検索し、整形して、[!UICONTROL visid] の各値に配置します。 |
