@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: すべて
-user-guide-title: Analytics ドキュメント
-user-guide-url: /content/help/ja-JP/analytics/landing/home.html
+audience: all
+user-guide-title: Analytics Documentation
+user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: e95673ff669b395ce942d6a0ccd644221c3d9381
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 * [統合ガイド](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
 * [メディア解析ガイド](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbenchガイド](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+* [カスタマージャーニー分析](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
 
 * [ドキュメントのアップデート](doc-updates.md)
 * [リリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
