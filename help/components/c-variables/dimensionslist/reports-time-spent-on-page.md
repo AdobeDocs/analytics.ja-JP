@@ -2,9 +2,9 @@
 description: 訪問者がページに滞在した時間を表示します。
 solution: Analytics
 title: ページでの滞在時間
-topic: レポート
+topic: Reports
 translation-type: tm+mt
-source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
+source-git-commit: df64b85f2567df68d2f710762596e4960214a4f6
 
 ---
 
@@ -40,4 +40,4 @@ Adobe Analyticsでは、Analyticsレポートでの滞在時間を決定する�
 
 このディメンションはヒットベースであり、分類として使用すると、より意味のあるデータを提供できます。 このディメンションを、訪 [問ベースのディメンション](reports-time-spent-per-visit.md)（訪問別滞在時間）と比較します。
 
-![滞在時間](assets/time-spent1.png)
+![滞在時間](/help/components/c-variables/c-metrics/assets/time-spent1.png)
