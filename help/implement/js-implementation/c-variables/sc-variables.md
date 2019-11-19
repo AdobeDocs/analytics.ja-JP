@@ -7,7 +7,7 @@ title: 変数の概要
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analytics には、Analytics データを収集するための変数が多数用意されています。例えば、pageName 変数の値は、レポートされる Web ページの名前になります。ここでは、AppMeasurement でサポートされる変数を示します。
 
-ページ変数について詳しくは、[こちら](/help/implement/js-implementation/c-variables/page-variables.md)を参照してください。
+ページ変数について詳しくは、[こちら](/help/implement/js-implementation/page-variables/page-variables.md)を参照してください。
 設定変数について詳しくは、[こちら](/help/implement/js-implementation/c-variables/configuration-variables.md)を参照してください。
 
-## 変数の設定方法 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
+## 変数の設定方法
 
 AppMeasurement では、トラック関数 *`t()`* に最初の呼び出しをおこなう前に、すべての設定変数を設定する必要があります。*`t()`* への呼び出しの後に設定変数が設定されている場合、予期しない結果が発生する可能性があります。
 
