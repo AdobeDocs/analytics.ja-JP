@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
+source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
 
 ---
 
@@ -84,7 +84,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [セグメント IQ の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [一時ページ](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [セグメント IQ の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + プロジェクトのキュレーションおよび共有 {#curate-share}
@@ -94,11 +93,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [プロジェクトファイルの共有およびスケジュール](analysis-workspace/curate-share/send-schedule-files.md)
       + [ファイルの送信 - プロジェクトの配信スケジュールの設定](analysis-workspace/curate-share/t-schedule-report.md)
       + [スケジュール済みプロジェクトマネージャー](analysis-workspace/curate-share/schedule-projects.md)
-   + Attribution IQ {#attribution-iq}
-      + [一時ページ](analysis-workspace/attribution-iq/attribution.md)
-      + [一時ページ](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [一時ページ](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [一時ページ](analysis-workspace/attribution-iq/attribution-faq.md)
    + Virtual Analyst {#virtual-analyst}
       + [Virtual Analyst](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + 異常値検出 {#anomaly-detection}
@@ -121,7 +115,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
    + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace の制限](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
-   + [ジャーニーIQ](analysis-workspace/journey-iq.md)
    + [セグメント IQ](analysis-workspace/segment-iq.md)
    + [Virtual Analyst](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
