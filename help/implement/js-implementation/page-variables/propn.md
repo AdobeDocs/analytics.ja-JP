@@ -7,14 +7,14 @@ title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
 
 # propN
 
-プロパティ（[!UICONTROL prop]）変数は、[!UICONTROL トラフィックモジュール]内でカスタムレポートを作成するために使用します。
+プロパティ（`prop`）変数は、トラフィックモジュール内でカスタムレポートを作成するために使用します。
 
 <!-- 
 
@@ -28,7 +28,7 @@ prop 変数は、パスレポートやクロス集計レポートで、（ペー
 |---|---|---|---|
 | 100 バイト | c1 ～ c75 | カスタムトラフィック | "" |
 
-**構文と可能な値** {#section_4D3013AF2979426B9589CA2BB9D254CD}
+**構文と可能な値**
 
 ```js
 s.propN="value"
@@ -36,7 +36,7 @@ s.propN="value"
 
 [!UICONTROL プロパティ]変数には、標準的な変数の制限以外の制限はありません。
 
-**例** {#section_FFBB916DA9F44B668D5FAB7C511F6182}
+**例**
 
 ```js
 s.prop2="editorial" 
@@ -46,6 +46,6 @@ s.prop2="editorial"
 s.prop15="toy category"
 ```
 
-**設定** {#section_25FDEB6ECA8242A2A44EE540C083078A}
+**設定**
 
-prop 変数用の[!UICONTROL 訪問]指標、[!UICONTROL 訪問者]指標および[!UICONTROL パス]指標の表示については、アドビ[!UICONTROL カスタマーケア]にお問い合わせください。
+ 変数用の訪問指標、訪問者指標およびパス指標の表示については、アドビ`prop`カスタマーケアにお問い合わせください。
