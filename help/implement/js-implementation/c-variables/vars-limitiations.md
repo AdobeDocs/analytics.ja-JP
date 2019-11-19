@@ -7,7 +7,7 @@ title: 変数と制限
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!NOTE]
 >
->最も一般的な Analytics 変数について詳しくは、「[設定変数](/help/implement/js-implementation/c-variables/configuration-variables.md)」および「[ページ変数](/help/implement/js-implementation/c-variables/page-variables.md)」を参照してください。
+>最も一般的な Analytics 変数について詳しくは、「[設定変数](/help/implement/js-implementation/c-variables/configuration-variables.md)」および「[ページ変数](/help/implement/js-implementation/page-variables/page-variables.md)」を参照してください。
 
 次の表に、[!DNL Analytics] 変数に関する概要情報を示します。
 
