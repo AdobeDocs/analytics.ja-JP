@@ -2,7 +2,7 @@
 title: Adobe Analyticsで使用される用語
 description: 一般的な用語を定義するAdobe Analyticsの用語集。
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 * **** バウンス：単一のヒットで構成される訪問。 コンポーネ [ントユーザ](/help/components/c-variables/c-metrics/metrics-bounces.md) ーガイドのバウンスを参照してください。 「直帰数」も参照してください。
 * **** 計算指標：レポートで使用する既存の指標、統計関数および数式を組み合わせることができます。 コンポーネ [ントユーザーガイドの](/help/components/c-calcmetrics/cm-overview.md) 「計算指標」を参照してください。
 * **** キャンペーン：参照先：
-   * キャンペーン変数。トラッキングコードディメンションを入力します。 『導入ユ [ーザガイド](/help/implement/js-implementation/c-variables/page-variables.md) 』の「ページ変数」を参照してください。
+   * キャンペーン変数。トラッキングコードディメンションを入力します。 『導入ユ [ーザガイド](/help/implement/js-implementation/page-variables/page-variables.md) 』の「ページ変数」を参照してください。
    * トラッキングコードディメンションのデフォルトの分類。すべてのレポートスイートに対して自動的に作成されます。
    * Adobe Campaignを参照してください。 詳しくは、 [Adobe.comを参照してください](https://www.adobe.com/marketing/campaign.html)。
 * **** チャネル：参照先：
-   * チャネル変数。サイトセクションディメンションを入力します。 『導入ユ [ーザガイド](/help/implement/js-implementation/c-variables/page-variables.md) 』の「ページ変数」を参照してください。
+   * チャネル変数。サイトセクションディメンションを入力します。 『導入ユ [ーザガイド](/help/implement/js-implementation/page-variables/page-variables.md) 』の「ページ変数」を参照してください。
    * マーケティングチャネルは、ユーザーがどのようにしてサイトに到達するかを理解するのに役立つコンポーネントです。 コンポーネ [ントユーザーガイドの](/help/components/c-marketing-channels/c-overview.md) 「マーケティングチャネル」を参照してください。
 * **** 分類：ディメンション値のグループ化を可能にする、Adobe Analyticsの機能。 コンポーネ [ント](/help/components/c-classifications2/c-classifications.md) ・ユーザー・ガイドの分類を参照してください。
 * **** Clickmap:使用されなくなりました。 サイト上で最もクリックされたエリアを示すレガシーブラウザープラグイン。 このツールは廃止され、Activity mapに使用されました。
@@ -65,8 +65,8 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 * **** KPI:主要業績評価指標の省略形です。 ビジネスが自社のサイトのパフォーマンスを把握するのに役立つ指標。 各組織は、ビジネスのさまざまな側面を測定する様々なKPIを持っています。 『導入ユ [ーザーガイド』の「ソリューションデザインドキュメントの](/help/implement/prepare/solution-design.md) 作成」を参照してください。
 * **** 待ち時間：データが収集されてから、レポートでデータが使用できるまでの遅延時間。 レポートスイートの一般的な遅延は30 ～ 90分です。 Technotesユー [ザーガイドの](/help/technotes/latency.md) 「Latency」を参照してください。
 * **** 起動：アドビの現在の実装ソリューションである、Adobe Experience Platform Launchの略です。 Adobe Experience [](https://docs.adobe.com/content/help/en/launch/using/overview.html) Platform Launchユーザーガイドの概要を参照してください。
-* **** リストprop:同じヒットで複数の値をサポートするように標準的なトラフィック変数を変換する設定。 設定が有効な場合、カスタムトラフィック変数はリストpropになる可能性があります。 『導入ユ [ーザガイド](/help/implement/js-implementation/c-variables/page-variables.md) 』の「ページ変数」を参照してください。
-* **** リスト変数：コンバージョン変数とは別の別の変数。 リスト変数は、同じヒットで複数の値をサポートし、コンバージョン変数と同様に、1回の訪問で変数値が保持されます。 1つの組織で使用できるリスト変数は3つだけです。 『導入ユ [ーザガイド](/help/implement/js-implementation/c-variables/page-variables.md) 』の「ページ変数」を参照してください。
+* **** リストprop:同じヒットで複数の値をサポートするように標準的なトラフィック変数を変換する設定。 設定が有効な場合、カスタムトラフィック変数はリストpropになる可能性があります。 『導入ユ [ーザガイド](/help/implement/js-implementation/page-variables/page-variables.md) 』の「ページ変数」を参照してください。
+* **** リスト変数：コンバージョン変数とは別の別の変数。 リスト変数は、同じヒットで複数の値をサポートし、コンバージョン変数と同様に、1回の訪問で変数値が保持されます。 1つの組織で使用できるリスト変数は3つだけです。 『導入ユ [ーザガイド](/help/implement/js-implementation/page-variables/page-variables.md) 』の「ページ変数」を参照してください。
 * **** ログイン会社名：組織で使用されるレポートスイートのコレクション。 組織によっては、組織の異なる部分に適用される複数のログイン会社を持つ場合があります。
 * **** マーケティングチャネル：Adobe Analyticsの機能の1つで、訪問者がサイトに到達した方法でヒットを分類します。 ヒットの分類に使用されるロジックは、マーケティングチャネルの処理ルールを使用してカスタマイズできます。 コンポーネ [ントユーザーガイドの「マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md) — はじめに」を参照してください。
 * **** 指標：定量データを含むコンポーネントタイプ。 指標の値には通常、ページビュー数、訪問回数、売上高などの数値が含まれます。 通常、ディメンションはディメンションに対応します。
