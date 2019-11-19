@@ -7,7 +7,7 @@ title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -25,17 +25,17 @@ list_props.xml
 
 **注意点**
 
-* リスト prop はトラフィック変数（[prop](/help/implement/js-implementation/c-variables/page-variables.md)）のオプションです。
+* リスト prop はトラフィック変数（[prop](/help/implement/js-implementation/page-variables/propn.md)）のオプションです。
 * パスおよびクロス集計は、リスト prop では有効にできません。
 * リスト prop レポートを含む、ほとんどすべてのレポートに訪問数および個別訪問者数を追加できます。
 * リスト prop では分類がサポートされています。
-* カスタムトラフィック変数はどれもリスト props として使用できます（例外：[pageName](/help/implement/js-implementation/c-variables/page-variables.md)、[channel](/help/implement/js-implementation/c-variables/page-variables.md)、および [server](/help/implement/js-implementation/c-variables/page-variables.md)）
+* カスタムトラフィック変数はどれもリスト props として使用できます（例外：[pageName](/help/implement/js-implementation/page-variables/pagename.md)、[channel](/help/implement/js-implementation/page-variables/channel.md)、および [server](/help/implement/js-implementation/page-variables/server.md)）
 
 * 同じイメージリクエストに重複した値が定義される場合、インスタンスの重複は除外されません。
 
 prop は、管理ツール／レポートスイート／トラフィック変数ページでリストのサポートを有効にして、区切り文字を選択することで、リスト prop に変更できます。一般的な区切り文字はコロン、セミコロン、コンマ、またはパイプです。技術的には、ASCII 文字の最初の 127 文字のいずれもでも可能です。
 
-**実装例** {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+**実装例**
 
 リスト prop の有効化をリクエストする場合、使用する区切りを指定します。希望する *`s.prop`* が有効にされると、次の例に示されるように、変数に複数の値を設定できます。
 
