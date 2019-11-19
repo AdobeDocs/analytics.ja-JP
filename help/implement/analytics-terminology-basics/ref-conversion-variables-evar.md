@@ -6,7 +6,7 @@ title: コンバージョン変数（eVar）
 topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -29,14 +29,14 @@ eVar は訪問ベースにすることができ、cookie と同じように機�
 
 1 つの eVar を 1 人の訪問者の値に設定すると、その値が期限切れになるまで自動的に記憶されます。eVar 値がアクティブなときに訪問者に対して発生したすべての成功イベントは、その eVar 値にカウントされます。
 
-> [!NOTE]イメージリクエストの 1 つの eVar には、単一の値のみを格納できます。1 つの eVar の値に複数の値を格納したい場合は、[](/help/implement/js-implementation/c-variables/page-variables.md)リスト変数（リスト var）を実装することをお勧めします。
+> [!NOTE]イメージリクエストの 1 つの eVar には、単一の値のみを格納できます。1 つの eVar の値に複数の値を格納したい場合は、[](/help/implement/js-implementation/page-variables/listvariable.md)リスト変数（リスト var）を実装することをお勧めします。
 
 変数について詳しくは、以下を参照してください。
 
 * このヘルプの「[Analytics の実装およびレポート用の変数](/help/implement/js-implementation/c-variables/sc-variables.md)」。
 * [変数 - レポートでの使用方法](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
-* [ページ変数](/help/implement/js-implementation/c-variables/page-variables.md)
-* [キャンペーン変数](/help/implement/js-implementation/c-variables/page-variables.md)
-* [products 変数](/help/implement/js-implementation/c-variables/page-variables.md)
+* [ページ変数](/help/implement/js-implementation/page-variables/page-variables.md)
+* [キャンペーン変数](/help/implement/js-implementation/page-variables/campaign.md)
+* [products 変数](/help/implement/js-implementation/page-variables/products.md)
 * [products 変数](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html)（モバイル SDK のドキュメント）
 
