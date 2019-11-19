@@ -6,7 +6,7 @@ title: データソースの仕組み
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -32,4 +32,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 アドビから提供されるデータソース API を利用すると、ご使用のアプリケーションをプログラムによってデータソースと連携させることができます。これにより、中間に FTP サーバーを置く必要がなくなり、HTTP、SOAP、REST 経由でデータを転送できます。
 
-[データソース API チュートリアル](https://marketing.adobe.com/developer/documentation/data-sources/c-data-sources-api)を参照してください。
+[データソース API チュートリアル](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api)を参照してください。
