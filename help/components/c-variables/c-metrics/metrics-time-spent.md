@@ -4,7 +4,7 @@ solution: Analytics
 title: 滞在時間
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e67926856111834bb9c783ec916a24d34981454c
+source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
 
 ---
 
@@ -46,13 +46,15 @@ The **numerator** in all time spent calculations is total seconds spent.
 
 The **denominator** is not available as a separate metric in Adobe Analytics. ヒットレベルの「滞在時間」指標の場合、分母はシーケンスです。 シーケンスは、連続したヒットのセットであり、特定の変数が同じ値を含みます（設定されるか、後続に展開するか、永続化によって）。「前方に拡散」とは、滞在時間を計算する目的で、ページビュー間（後続のリンクイベント間）のpropの持続性を指します。
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially 'Instances' or 'Page Views', but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
 
 * 「滞在時間」を把握できないので、バウンスヒットと離脱ヒットも分母から削除されます。
 
 ## よくある質問（FAQ）
 
-**Q1:すべての「滞在時間」指標を任意のディメンションに適用できますか。** A:任意のディメンションに適用できる「滞在時間」指標は次のとおりです。
+**Q1:すべての「滞在時間」指標を任意のディメンションに適用できますか。**
+
+A:任意のディメンションに適用できる「滞在時間」指標は次のとおりです。
 
 * [!UICONTROL 合計滞在時間（秒）]
 
@@ -62,15 +64,21 @@ The **denominator** is not available as a separate metric in Adobe Analytics. �
 
 * [!UICONTROL サイトでの平均滞在時間] （秒）
 
-**Q2:他のディメンションとの分類に最も適した滞在時間ディメンションはどれか。** A:ページ [!UICONTROL での滞在時間 — 詳細ディメンションは] 、ヒットレベルのディメンションです。 これを他のディメンションで分類すると、ヒットが存続して分類ディメンションも存在した秒数がわかります。次の例では、検索用語「classifieds」がヒット時間54秒、59秒などに関連付けられています。訪問者がその用語に返されたコンテンツを読み取るのに時間を費やしていることを示している可能性があります。
+**Q2:他のディメンションとの分類に最も適した滞在時間ディメンションはどれか。**
+
+A: The [!UICONTROL Time Spent on Page – granular] dimension is a hit-level dimension. これを他のディメンションで分類すると、ヒットが存続して分類ディメンションも存在した秒数がわかります。次の例では、検索用語「classifieds」がヒット時間54秒、59秒などに関連付けられています。訪問者がその用語に返されたコンテンツを読み取るのに時間を費やしていることを示している可能性があります。
 
 ![](assets/time-spent1.png)
 
-**Q3:ページでの滞在時間のディメンションに対して適[!UICONTROL 切な指標は何ですか]。** A:任意の指標。 ディメンションには、イベントが発生した正確なヒットに費やした時間が表示されます。 滞在時間が長くなると、訪問者がイベントが発生したページ（ヒット）により長く滞在したことを意味します。
+**Q3:ページでの滞在時間のディメンションに対して適[!UICONTROL 切な指標は何ですか]。**
+
+A:任意の指標。 ディメンションには、イベントが発生した正確なヒットに費やした時間が表示されます。 滞在時間が長くなると、訪問者がイベントが発生したページ（ヒット）により長く滞在したことを意味します。
 
 ![](assets/time-spent2.png)
 
-**第4四半期：サイトでの[!UICONTROL 平均滞在時間は]、訪問別[!UICONTROL 滞在時間とどのように異なりますか]。** A:差は指標の分母です。
+**第4四半期：サイトでの[!UICONTROL 平均滞在時間は]、訪問別[!UICONTROL 滞在時間とどのように異なりますか]。**
+
+A:差は指標の分母です。
 
 * [!UICONTROL サイト滞在時間の平均は] 、ディメンション項目を含むシーケンスを使用します。
 
