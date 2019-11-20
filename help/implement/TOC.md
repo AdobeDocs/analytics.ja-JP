@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
+source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
 
 ---
 
@@ -144,7 +144,7 @@ source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
          + [s.useForcedLinkTracking](js-implementation/c-variables/config-vars/s-useforcedlinktracking.md)
          + [s.linkType](js-implementation/c-variables/config-vars/s-linktype.md)
          + [s.linkName](js-implementation/c-variables/config-vars/s-linkname.md)
-         + [s.ForcedLinkTrackingTimeout](js-implementation/c-variables/config-vars/s-forcedlinktrackingtimeout.md)
+         + [s.forcedLinkTrackingTimeout](js-implementation/c-variables/config-vars/s-forcedlinktrackingtimeout.md)
          + [s.linkTrackEvents](js-implementation/c-variables/config-vars/s-linktrackevents.md)
          + [s.linkURL](js-implementation/c-variables/config-vars/s-linkurl.md)
          + [s.linkObject](js-implementation/c-variables/config-vars/s-linkobject.md)
