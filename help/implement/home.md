@@ -1,13 +1,13 @@
 ---
-title: モバイルデバイス用のAnalyticsの実装
+title: Adobe Analyticsの実装
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
+source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ---
 
 
-# モバイルデバイス用のAnalyticsの実装
+# Adobe Analyticsの実装
 
 ![バナー](../../assets/doc_banner_implement.png)
 
@@ -16,7 +16,7 @@ source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 * **Dynamic Tag Management：** Launch の前に使用されていた方法です。DTM は、似たようなインターフェイスを使用して Analytics を実装しますが、今後は更新されず、柔軟ではありません。アドビでは、Adobe Analytics の実装には Launch を使用することをお勧めします。
 * **従来の JavaScript：** Adobe Analytics を実装するために古くから使用される手動の方法。実装で使用される変数および設定の概要を説明します。カスタムコードを含むルールを使用する Launch 実装で役立ちます。
 
-## 主な Analytics インポート記事
+## 主な解析の実装の記事
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Experience Platform Launch でのプロパティの作成](implement-with-launch/create-analytics-property.md)
