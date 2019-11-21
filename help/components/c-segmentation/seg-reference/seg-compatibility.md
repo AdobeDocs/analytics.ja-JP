@@ -5,7 +5,7 @@ title: Data Warehouse セグメントの互換性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
 
 ---
 
@@ -36,7 +36,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <td colname="col1"> <b>AND と OR の無制限の結合</b> </td> 
    <td colname="col2"> サポート。 </td> 
-   <td colname="col3"> 一部制限。 </td> 
+   <td colname="col3"> 一部制限。。表の*note*を参照。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>コンテナのネスト</b> </td> 
@@ -94,3 +94,4 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  </tbody> 
 </table>
 
+*注意：Data Warehouseでは、を使用する場合に、またはコンテナを使用する場合に、すべてのケースをサ`exclusion`ポート`without`するわけではありませ`AND/OR`ん。 このような組み合わせを使用する場合、`A AND NOT B`，として書き直すことのできる&#x200B;**(またはこの特性を含みこの特性を除外する****)**セグメントのみがData Warehouseでサポートされます。*
