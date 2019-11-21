@@ -1,22 +1,22 @@
 ---
-title: セグメントIQの概要
-description: Adobe AnalyticsのセグメントIQとは何か、およびAdobe AnalyticsのセグメントIQが組織にとってどのように役立つかについて説明します。
-keywords: Analysis Workspace；セグメントIQ
-translation-type: tm+mt
+title: Segment IQ の概要
+description: Adobe Analytics の Segment IQ とは何か、および Adobe Analytics の Segment IQ が組織にとってどのように役立つかについて説明します。
+keywords: Analysis Workspace;Segment IQ
+translation-type: ht
 source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# セグメントIQの概要
+# Segment IQ の概要
 
-アナリストは、組織の指標やディメンション全体でセグメント間の関連する差異を検索するのに、長時間、または数日を費やすことができます。 この分析は退屈で時間のかかる作業だけでなく、ターゲットを絞ったマーケティング活動に大きな影響を与える可能性のあるセグメントの主な違いが見つからなかったかどうかを確かめることもできません。
+アナリストは、多くの時間または日数をかけて、セグメント間の関連性のある差異について、組織の指標およびディメンションを検索することがあります。この分析は退屈で時間のかかる作業であるうえに、ターゲットを絞ったマーケティング活動に大きな影響を与える可能性のある、セグメントの主な違いを見逃したかどうかを確かめることもできません。
 
-多くの組織は、セグメントIQによる機能を使用して成功を見つけています。 「組織に [有益なインサイトを提供した実際のシナリオでのセグメント比較の使用例](c-panels/c-segment-comparison/segment-compare-use-cases.md) 」を参照してください。
+多くの組織は、Segment IQ を活用した機能を使用して成功につなげています。組織に有益なインサイトを提供した実際のシナリオについては、[セグメント比較の使用例](c-panels/c-segment-comparison/segment-compare-use-cases.md)を参照してください。
 
 ## 機能
 
-セグメントIQは、次の機能で構成されます。
+Segment IQ は、次の機能で構成されます。
 
-* [](c-panels/c-segment-comparison/segment-comparison.md) セグメント比較パネル：セグメントIQのコア機能。 2つのセグメントをパネルにドラッグし、統計的に有意な違いと2つのオーディエンス間の重複を示す包括的なレポートを表示します。
-* [](visualizations/fallout/compare-segments-fallout.md) フォールアウトでのセグメントの比較：フォールアウトビジュアライゼーションのコンテキストで、異なるオーディエンスを相互に比較する方法を確認します。
+* [ セグメント比較パネル：](c-panels/c-segment-comparison/segment-comparison.md)Segment IQ のコア機能。2 つのセグメントをパネルにドラッグし、統計的に有意な違いと 2 つのオーディエンス間の重複を示す包括的なレポートを表示します。
+* [フォールアウトでのセグメントの比較：](visualizations/fallout/compare-segments-fallout.md)フォールアウトビジュアライゼーションのコンテキストで、異なるオーディエンスを相互に比較する方法を確認します。
