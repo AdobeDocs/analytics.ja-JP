@@ -1,7 +1,7 @@
 ---
-title: Attribution IQ の FAQ
+title: Attribution IQ に関する FAQ
 description: リダイレクトページ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
@@ -9,4 +9,4 @@ source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 # リダイレクト
 
-アトリビュ [ーションFAQを参照してくださ](../c-panels/attribution/attribution-faq.md)い。
+[アトリビューションに関する FAQ](../c-panels/attribution/attribution-faq.md) を参照してください。
