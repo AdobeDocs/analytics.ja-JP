@@ -7,7 +7,7 @@ title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ff9ca2a07b5e488d1cd4412fcea221c2e0c5d1c4
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -60,3 +60,4 @@ source-git-commit: ff9ca2a07b5e488d1cd4412fcea221c2e0c5d1c4
 * [visitorID](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/visitorid.html)
 * [visitorNamespace](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/visitornamespace.html)
 * [zip](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/zip.html)
+
