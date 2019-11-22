@@ -7,7 +7,7 @@ title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # maxDelay
 
 s.maxDelay 変数は Genesis DFA 統合で主に使用され、DFA ホストと通信する際のタイムアウト時間を指定します。変数に設定された指定の時間内にアドビが DFA のサーバーから応答を受信しない場合、接続が切断されますが、データは通常どおりに処理されます。各ページで DFA の応答時間を使用する場合は、この変数を導入してください。この値を試行し、最適なタイムアウト時間を判断することをお勧めします。
+
 
 <!-- 
 
