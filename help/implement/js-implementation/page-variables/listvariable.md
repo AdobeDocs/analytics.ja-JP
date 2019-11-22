@@ -7,7 +7,7 @@ title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
 # リスト変数
 
 リスト Var とも呼ばれます。リスト Prop の機能と同様、リスト Var は同じイメージリクエスト内で複数の値を同時にセットできます。eVar とも似ており、定義されたイメージリクエストの完了後も保持されます。これらの変数を使うと、単一のページにある複数のエレメントの原因と効果を確認できます。製品リスト、ウィッシュリスト、検索絞り込みのリスト、表示広告などの計測に便利です。
+
 
 <!-- 
 
