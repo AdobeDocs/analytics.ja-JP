@@ -7,7 +7,7 @@ title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # リスト prop
 
 リスト prop は、変数に渡され、レポートの個別行項目としてレポートされる値の区切りリストです。リスト prop は、一般的に、チェックボックスやラジオボタンのリスト項目などの、ユーザーが複数選択できる項目を計測するために導入されます。リスト prop は、複数のイメージリクエストを送信せずに 1 つの変数で複数の値を定義する場合に役立ちます。
+
 
 <!-- 
 
