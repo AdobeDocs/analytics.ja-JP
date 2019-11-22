@@ -7,7 +7,7 @@ title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # イベント
 
  変数は、一般的な買い物かご成功イベントやカスタム成功イベントを記録するために使用します。
+
 
 <!-- 
 
