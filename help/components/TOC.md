@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics コンポーネントガイド
-user-guide-url: /content/help/ja-JP/analytics/components/home.html
-translation-type: ht
-source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
+user-guide-title: Analytics Components Guide
+user-guide-url: /content/help/en/analytics/components/home.html
+translation-type: tm+mt
+source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
 
@@ -332,6 +332,7 @@ source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
    + [チャネルとルールについて](c-marketing-channels/c-channels-rules.md)
    + [自動セットアップ](c-marketing-channels/c-channel-autosetup.md)
    + [マーケティングチャネルの管理](c-marketing-channels/c-channels.md)
+   + [内部（セッション更新）チャネル](c-marketing-channels/session-refresh.md)
    + [マーケティングチャネルの処理ルール](c-marketing-channels/c-rules.md)
    + [マーケティングチャネルの処理ルールの作成](c-marketing-channels/t-rules.md)
    + [マーケティングチャネルの処理ルール - 定義](c-marketing-channels/r-channel-rule-definitions.md)
