@@ -6,7 +6,7 @@ title: Analytics の実装に関する FAQ
 topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c3bdd39808041b2e716d3e6bbdcfbf23c37b7a24
 
 ---
 
@@ -87,7 +87,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td> s_code ファイルの最新バージョン </td> 
-   <td> Web プラットフォームおよびモバイルプラットフォームの [!DNL AppMeasurement] ライブラリのリリース履歴について説明します。各ライブラリの最新バージョンは、Reports &amp; Analytics／管理ツール／コードマネージャーからダウンロードできます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [さらに詳しく...] </a> </td> 
+   <td> This section contains a release history for <code>AppMeasurement</code> libraries across web and mobile platforms. 各ライブラリの最新バージョンは、Reports &amp; Analytics／管理ツール／コードマネージャーからダウンロードできます。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [さらに詳しく...] </a> </td> 
   </tr> 
   <tr> 
    <td> s_code ファイルのデバッグ方法を教えてください </td> 
