@@ -5,7 +5,7 @@ title: セキュリティマネージャー
 topic: Admin tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 229ce50a24bd7b86e3859775bb4fbeba1c6a5668
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP ログイン制限の実施</span> </td> 
-   <td colname="col2"> <p>(この機能は、Experience cloudログインと組み合わせて使用することはできません。 この機能は、2020年1月以降は利用できなくなります。)レポート アクセスを特定の IP アドレスまたは IP アドレスの範囲に限定します。 </p> <p>IP アドレスフィルターリストには、最大 100 個のエントリを追加でき、各エントリには特定のアドレスまたはアドレスの範囲を指定できます。 </p> <p> <span class="wintitle">IP ログイン制限の実施</span>は、「IP アドレスフィルター」リストに少なくとも 1 つのエントリが存在する状態になるまで適用されません。 </p> <p> <span class="uicontrol"> 受け入れられるIPアドレス</span>:IPアドレス範囲を指定するには、範囲を角括弧で囲みます(例： <code>
+   <td colname="col2"> <p>(この機能は、Experience cloudログインと組み合わせて使用することはできません。 この機能は、2020年10月以降はご利用いただけません。)レポート アクセスを特定の IP アドレスまたは IP アドレスの範囲に限定します。 </p> <p>IP アドレスフィルターリストには、最大 100 個のエントリを追加でき、各エントリには特定のアドレスまたはアドレスの範囲を指定できます。 </p> <p> <span class="wintitle">IP ログイン制限の実施</span>は、「IP アドレスフィルター」リストに少なくとも 1 つのエントリが存在する状態になるまで適用されません。 </p> <p> <span class="uicontrol"> 受け入れられるIPアドレス</span>:IPアドレス範囲を指定するには、範囲を角括弧で囲みます(例： <code>
        192.168.10.[20-240]
      </code>)。 You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
@@ -65,3 +65,39 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
+## IPログイン制限の [!UICONTROL 使用終了]
+
+「 **[!UICONTROL IPログイン制限の強制]** 」機能は、近い将来のAnalyticsの機能です。この機能を使用すると、セキュリティで保護されていると見なされる特定のIPアドレスをホワイトリストに登録し、ログインに成功し、Adobe Analytics環境にアクセスできます。 多くの場合、この機能は、ユーザがログインできる唯一のセキュアIPアドレスとして会社のIPアドレスを設定するために使用されます。 したがって、Adobe Analyticsを使用するには、ユーザーが会社のオフィスにいるか、VPN経由でネットワークにログインする必要があります。
+
+### なぜ私たちはそれを使い終わることを考えているのか？
+
+この機能は、Experience cloudログイン移行またはExperience cloudログインによって、状況によって機能しなくなる場合があります。 顧客属性またはオーディエンスライブラリを使用する顧客 **[!UICONTROL に対して]** 、分類する **[!UICONTROL ことが知られています]**。
+
+また、複数のExperience cloudソリューションを所有している場合は、他のソリューションの1つを使用してExperience cloudにログインすることで、この要件を回避できます。この機能は、Analytics自体の外部では存在しないか、サポートされていません。 また、IPスプーフィングを使用してこの問題を回避することもできます。
+
+最後に、シングルサインオンとFederated IDを使用した、機能的で優れた代替ソリューションが提供されます。 この機能により、ユーザーのログインエクスペリエンスをより詳細に制御し、セキュリティを確保できます。
+
+### この機能を削除すると、どのように影響を受けますか。
+
+「IPログイン制限の強制 **** 」が設定されているお客様の場合、この機能は2020年10月に削除されます。 現時点では、IPログイン制限は適用されなくなります。 それでもIPアドレスでログインを制限する必要がある場合は、シングルサインオンとFederated IDの推奨ソリューション（詳細情報とリソースは以下を参照）を確認し、実装する必要があります。
+
+さらに、 **[!UICONTROL IPログイン制限の強制マネージャーは]** 、Analytics UIの管理者/カンパニー設定/セキュリティマネ **[!UICONTROLAージャー]** （以下を参照）から削除されます。
+
+![](assets/sec-manager2.png)
+
+### 他の選択肢は？
+
+上述のとおり、このAnalytics機能は提供終了となります。 SSOおよびFederated IDの実装に時間を割くため、EOLの日付を2020年10月に延期しました。
+
+SSO IDとFederated IDの両方が、現在導入されているIPログイン制限機能に対する優れたソリューションであり、より詳細な制御、セキュリティ、機能を提供します。
+
+SSO/Federated IDの設定方法について詳しくは、次のヘルプドキュメントを参照してください。 アドビでは、お客様のIT部門と協力して、導入を行うことをお勧めします。
+
+* [シングルサインオンとExperience Cloud](https://spark.adobe.com/page/JeSB8EPEQIvjD/)
+* [管理コンソール — ID設定ドキュメント](https://helpx.adobe.com/enterprise/using/set-up-identity.html)
+* [管理コンソール — ID設定チュートリアル（ビデオ）](https://helpx.adobe.com/enterprise/how-to/identity-directories-domains.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&ref=helpx.adobe.com)
+* [Federated IDの設定チュートリアル（ビデオ）（英語）](https://helpx.adobe.com/enterprise/how-to/identity-configure-ids.html?playlist=/ccx/v1/collection/product/enterprise/topics/enterprise-identity/collection.ccx.js&ref=helpx.adobe.com)
+* [シングルサインオン — よくある質問](https://helpx.adobe.com/enterprise/using/sso-faq.html)
+* [アドビがサポートするIDタイプ](https://helpx.adobe.com/enterprise/using/identity.html)
+
+IPログイン制限のサポートを引き続き表明し、Experience cloudによる提供をリクエストする場合は、フォーラムページでこの機能に対して投票を行うこと [ができます](https://forums.adobe.com/ideas/11648)。 SSO/Federated IDとEXCに関するその他の質問や情報については、Ryan Monger(monger@adobe.com)までお問い合わせください。
