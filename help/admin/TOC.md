@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics 管理ガイド
-user-guide-url: /content/help/ja-JP/analytics/admin/home.html
+user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -117,6 +117,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [ブランド提携](company/co-branding-admin.md)
    + [レポートスイートを非表示](company/c-hide-report-suites.md)
    + [セキュリティマネージャー](company/security-manager.md)
+   + [「IPログイン制限の強制」の提供終了](company/login-restrictions-eol.md)
 + レポートスイートの管理 {#manage-report-suites}
    + [レポートスイートマネージャー](c-manage-report-suites/report-suites-admin.md)
    + [ロールアップレポートスイートとグローバルレポートスイート](c-manage-report-suites/rollup-report-suite.md)
@@ -161,9 +162,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [電子メールユーザー](user-management2/t-email-users.md)
 + データガバナンス {#data-governance}
    + [Adobe Analytics と GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe AnalyticsとCCPA](c-data-governance/an-ccpa-overview.md)
+   + [Adobe Analytics と CCPA](c-data-governance/an-ccpa-overview.md)
    + [よくある質問](c-data-governance/gdpr-faq.md)
-   + [Adobe Analyticsデータプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics データプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
    + [レポートスイートのデータガバナンス設定の表示／管理](c-data-governance/gdpr-view-settings.md)
    + [レポートスイートのデータのラベル設定](c-data-governance/gdpr-setup-reportsuite.md)
    + [アクセス要求および削除要求の送信](c-data-governance/gdpr-submit-access-delete.md)
@@ -172,7 +173,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
    + [ラベル設定に関するベストプラクティス](c-data-governance/gdpr-analytics-ids.md)
    + [ラベル設定の例](c-data-governance/gdpr-labeling-example.md)
-   + [Data Privacy and Data Connectors(Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [データプライバシーと Data Connectors（Genesis）](c-data-governance/data-connectors-gdpr.md)
    + [データプライバシーの用語](c-data-governance/gdpr-terminology.md)
    + [プライバシーレポート変数](c-data-governance/consent-variables.md)
 + サーバーコールの使用状況 {#server-call-usage}
