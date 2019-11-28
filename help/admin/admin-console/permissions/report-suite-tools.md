@@ -1,61 +1,61 @@
 ---
 source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# 製品プロファイルの権限に一覧表示されているレポートスイートツール
+# 製品プロファイル権限にリストされたレポートスイートツール
 
-このページでは、レポートスイートツールの各権限項目について説明します。
+このページを使用して、レポートスイートツールの各権限項目について理解します。
 
-| レポートスイートツールの権限項目 | 説明 |
+| レポートスイートツールの権限の項目 | 説明 |
 |------|------|
-| Data Warehouse | 未使用。代わりに「カスタムデータウェアハウスレポート」を使用してください。 |
-| SiteCatalyst | 未使用。代わりに"Analysis Workspace Access"を使用してください。 |
+| Data Warehouse | 未使用。代わりに、「カスタム Data Warehouseレポート」を使用します。 |
+| SiteCatalyst | 未使用。代わりに、「Analysis Workspace アクセス」を使用します。 |
 | レポート スイート（読み取り） | 未使用。 |
 | レポート スイート（書き込み） | 未使用。 |
 | トラフィック管理 | 未使用。 |
-| レポート スイート管理 | Report Suite Managerへのアクセス権を付与しますが、変更は許可しません。 |
-| アカウントの概要 | Report Suite Managerの一般/一般的なアカウント設定にアクセスできます。 |
-| URL フィルター | Report Suite Managerの一般/内部URLフィルターにアクセスします。 |
-| カスタムカレンダー | Report Suite Managerで一般/カレンダーのカスタマイズにアクセス権を付与します。 |
-| 有料検索 | Report Suite Managerの一般/有料検索検知にアクセスできます。 |
-| メニューのカスタマイズ | Report Suite Managerの一般/メニューのカスタマイズに対するアクセス権を付与します。 |
-| リアルタイムレポート設定 | Report Suite Managerでリアルタイムへのアクセス権を付与します。権限項目「リアルレポート」を使用して、レポート自体へのアクセス権を付与します。 |
+| レポート スイート管理 | Report Suite Manager へのアクセスを許可しますが、変更は許可されません。 |
+| アカウントの概要 | Report Suite Manager の一般／一般的なアカウント設定へのアクセスを許可します。 |
+| URL フィルター | Report Suite Manager の一般／内部 URL フィルターへのアクセスを許可します。 |
+| カスタムカレンダー | Report Suite Manager の一般／カレンダーのカスタマイズへのアクセスを許可します。 |
+| 有料検索 | Report Suite Manager の一般／有料検索検知へのアクセスを許可します。 |
+| メニューのカスタマイズ | Report Suite Manager の一般／メニューのカスタマイズへのアクセスを許可します。 |
+| リアルタイムレポート設定 | Report Suite Manager の「リアルタイム」へのアクセスを許可します。権限項目「リアルタイムレポート」を使用して、レポート自体へのアクセスを許可します。 |
 | ビデオ設定 | 未使用。 |
-| トラフィック変数 | Report Suite Managerのトラフィック/トラフィック変数に対するアクセス権を付与します。 |
-| チャネル | マーケティングチャネルマネージャー、マーケティングチャネルの処理ルール、およびReport Suite Managerのマーケティングチャネルの有効期限を含むマーケティングチャネルへのアクセス権を付与します。 |
-| コスト | Report Suite Managerのマーケティングチャネル/マーケティングチャネルコストに対するアクセス権を付与します。 |
-| コンバージョン変数     | Report Suite Managerのコンバージョン/コンバージョン変数に対するアクセス権を付与します。 |
-| 検索方法 | Report Suite Managerのコンバージョン/検索方法に対するアクセス権を付与します。 |
-| 個別訪問者 | コンバージョン/個別訪問者変数へのアクセス権を付与します。通常、最新の実装では使用されません。 |
-| 成功イベント | Report Suite Managerのコンバージョン/成功イベントに対するアクセス権を付与します。 |
-| リスト変数 | Report Suite Managerのコンバージョン/リスト変数に対するアクセス権を付与します。 |
-| デフォルトの指標 | Report Suite Managerの個々のレポートスイート設定/デフォルト指標に対するアクセス権を付与します。 |
-| 処理ルール | Report Suite Managerの一般/処理ルールおよび一般/ボットルールへのアクセス権を付与します。 |
+| トラフィック変数 | Report Suite Manager で、トラフィック／トラフィック変数へのアクセスを許可します。 |
+| チャネル | Report Suite Manager で、マーケティングチャネルマネージャー、マーケティングチャネル処理ルール、マーケティングチャネルの有効期限などのマーケティングチャネルへのアクセスを許可します。 |
+| コスト | Report Suite Manager のマーケティングチャネル／マーケティングチャネルのコストへのアクセスを許可します。 |
+| コンバージョン変数 | Report Suite Manager のコンバージョン／コンバージョン変数へのアクセスを許可します。 |
+| 検索方法 | Report Suite Manager のコンバージョン／検索方法へのアクセスを許可します。 |
+| 個別訪問者 | コンバージョン／個別訪問者変数へのアクセスを許可します。現代の実装では一般的に使用されません。 |
+| 成功イベント | Report Suite Manager のコンバージョン／成功イベントへのアクセスを許可します。 |
+| リスト変数 | Report Suite Manager のコンバージョン／リスト変数へのアクセスを許可します。 |
+| デフォルトの指標 | Report Suite Manager で個々のレポートスイートの設定／デフォルト指標へのアクセスを許可します。 |
+| 処理ルール | Report Suite Manager の一般／処理ルールおよび一般／ボットルールへのアクセスを許可します。 |
 | Advertising Analytics 設定 | 未使用。 |
-| 異常値検出 | Analysis Workspaceの異常値検出に対するアクセス権を付与します。 |
-| 貢献度分析 | Analysis Workspaceで右クリックメニューの貢献度分析を実行する権限を付与します。 |
-| チャネルレポート | Reports&amp; Analyticsのマーケティングチャネル/チャネル概要レポートにアクセスできます。 |
-| リアルタイムレポート | Reports&amp; Analyticsでサイト指標/リアルタイムにアクセス権を付与します。権限項目「リアルタイムレポート設定」を使用して、このレポートを設定するためのアクセス権を付与します。 |
-| ボットページ | Reports&amp; Analyticsのサイト指標/ボット/ボットページレポートへのアクセス権を付与します。 |
-| ボット | Reports&amp; Analyticsのサイト指標/ボット/ボットレポートへのアクセス権を付与します。 |
-| データフィードマネージャー | Analytics上部ナビゲーションの管理者/データフィードにアクセス権を付与します。 |
-| カスタム Data Warehouse レポート | Analytics上のナビゲーションでツール/Data Warehouseにアクセス権を付与します。 |
-| 日別再来訪 | Reports&amp; Analyticsでの訪問者保持率/日別再来訪へのアクセス権を付与します。 |
-| データソースマネージャー | Analytics上のナビゲーションで管理者/データソースにアクセスします。権限項目「レポートスイート管理」が必要です。 |
-| IP アドレスで除外 | Analytics上のナビゲーションで管理者/除外IPアドレスによるアクセス権を付与します。 |
+| 異常値検出 | Analysis Workspace の異常値検出へのアクセスを許可します。 |
+| 貢献度分析 | Analysis Workspace の右クリックメニュー「貢献度分析を実行」へのアクセス権を付与します。 |
+| チャネルレポート | Reports &amp; Analytics のマーケティングチャネル／チャネル概要レポートへのアクセスを許可します。 |
+| リアルタイムレポート | Reports &amp; Analytics のサイト指標／リアルタイムへのアクセスを許可します。このレポートを設定するアクセス権を付与するには、権限項目「リアルタイムレポート設定」を使用します。 |
+| ボットページ | Reports &amp; Analytics のサイト指標／ボット／ボットページレポートへのアクセスを許可します。 |
+| ボット | Reports &amp; Analytics のサイト指標／ボット／ボットレポートへのアクセスを許可します。 |
+| データフィードマネージャー | Analytics のトップナビゲーションで管理者／データフィードへのアクセスを許可します。 |
+| カスタム Data Warehouse レポート | Analytics のトップナビゲーションでツール／Data Warehouse へのアクセスを許可します。 |
+| 日別再来訪 | Reports &amp; Analytics で、訪問者保持率／日別再来訪へのアクセスを許可します。 |
+| データソースマネージャー | Analytics のトップナビゲーションで管理者／データソースへのアクセスを許可します。権限項目「Report Suite Mgmt」が必要です。 |
+| IP アドレスで除外 | Analytics のトップナビゲーションで、管理者／IP アドレスごとに除外へのアクセスを許可します。 |
 | 最近の訪問者 | 未使用。 |
-| レガシー ClickMap | 未使用。代わりに、Analyticsツールの下にあるActivity Mapを使用します。 |
-| レガシーClickMapのインストール | 未使用。代わりに、Analyticsツールの下にあるActivity Mapを使用します。 |
-| 再来訪 | 訪問者保持率/Reports&amp; Analyticsでの再来訪へのアクセス権を付与します。 |
+| レガシー ClickMap | 未使用。代わりに、Analytics ツールの Activity Map を使用します。 |
+| レガシー ClickMap のインストール | 未使用。代わりに、Analytics ツールの Activity Map を使用します。 |
+| 再来訪 | Reports &amp; Analytics で、訪問者保持率／再来訪へのアクセスを許可します。 |
 | モバイル版アプリ概要レポート | 未使用。 |
-| 分類       | Report Suite Managerのすべての分類設定に対するアクセス権を付与します。This permission item includes: <br>Traffic &gt; Traffic Classifications<br>Conversion &gt; Conversion Classifications<br>Conversion &gt; Classification Hierarchies<br>Marketing Channels &gt; Marketing Channel Classifications<br>App Management &gt; App Classifications<br>Media Management &gt; Media Classifications<br>AEM &gt; AEM Assets Classifications<br>Adobe Campaign &gt; Adobe Classifications |
-| 推奨レポート | Reports&amp; Analyticsのサイト指標/推奨レポートへのアクセス権を付与します。 |
+| 分類 | Report Suite Manager のすべての分類設定へのアクセスを許可します。この権限項目には、次の項目が含まれます：<br>トラフィック／トラフィック分類<br>コンバージョン／コンバージョン分類<br>コンバージョン／分類階層<br>マーケティングチャネル／マーケティングチャネル分類<br>アプリ管理／アプリ分類<br>メディア管理／メディア分類<br>AEM／AEM Assets 分類<br>Adobe Campaign／アドビ分類 |
+| 推奨レポート | Reports &amp; Analytics のサイト指標／マイ推奨レポートへのアクセスを許可します。 |
 | 会社サマリレポートレット | 未使用。 |
 | 画像 | 未使用。 |
-| KPI/ゲージレポートレット | 未使用。 |
+| KPI／ゲージレポートレット | 未使用。 |
 | レポートスイートの合計数 | 未使用。 |
 | テキストレポートレット | 未使用。 |
 | 使用状況サマリレポートレット | 未使用。 |
 | Web リソース | 未使用。 |
-| ソーシャル | 未使用。 |
+| Social | 未使用。 |
