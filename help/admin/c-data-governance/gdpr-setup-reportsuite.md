@@ -2,7 +2,7 @@
 description: レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。事前にラベルとその意味について学んでおいてください。
 title: レポートスイートのデータのラベル設定
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -41,7 +41,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
    ![](assets/edit.png)
 
-1. **ID データ**&#x200B;ラベルダイアログが自動的に開きます。これらのラベルでは、単独または他のデータと組み合わせることで、個人を特定できるデータまたは個人への直接連絡が可能となるデータを分類します。これらのオプションについて詳しくは、「[ID データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)」を参照してください。
+1. **ID データ**&#x200B;ラベルダイアログが自動的に開きます。これらのラベルでは、単独または他のデータと組み合わせることで、個人を特定できるデータまたは個人への直接連絡が可能となるデータを分類します。これらのオプションについて詳しくは、[ID データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)を参照してください。
 
    >[!NOTE]
    >
@@ -49,17 +49,17 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
    ![](assets/identity_labels.png)
 
-1. 「**機密データ**」セクションを開いて、位置情報データに分類される機密データラベルを設定します。これらのオプションについて詳しくは、「[機密データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)」を参照してください。
+1. 「**機密データ**」セクションを開いて、位置情報データに分類される機密データラベルを設定します。これらのオプションについて詳しくは、[機密データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)を参照してください。
 
    ![](assets/sensitive_data.png)
 
-1. 「データプライバシーのデータ」セクションを開いて、**データガバナンス**&#x200B;ラベルを設定します。このセクションを使用して、データプライバシーアクセス要求および削除要求用の各変数の処理方法をアドビに知らせ、それらの要求用にデータ主体の ID を探すためにスキャンされる必要がある変数を定義します。これらのオプションについて詳しくは、「[データガバナンスラベル（データプライバシー）](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)」を参照してください。
+1. 「データプライバシーのデータ」セクションを開いて、**データガバナンス**&#x200B;ラベルを設定します。このセクションを使用して、データプライバシーアクセス要求および削除要求用の各変数の処理方法をアドビに知らせ、それらの要求用にデータ主体の ID を探すためにスキャンされる必要がある変数を定義します。これらのオプションについて詳しくは、[データガバナンスラベル（データプライバシー）](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)を参照してください。
 
    ![](assets/privacy_labels.png)
 
 1. すべてのラベル設定が完了したら、「**[!UICONTROL 適用]**」をクリックします。
 
-## レポートスイートへのラベルのコピー{#section_7C6FDAFF049F4126B84F6261F72668EE}
+## レポートスイートへのラベルのコピー {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 次に、複数のレポートスイートに同じ DULE／データプライバシー設定を割り当てる手順を示します。
 
