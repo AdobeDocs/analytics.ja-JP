@@ -2,7 +2,7 @@
 description: 'null'
 title: ラベル設定の例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
