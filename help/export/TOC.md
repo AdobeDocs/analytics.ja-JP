@@ -1,58 +1,33 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics 書き出しガイド
-user-guide-url: /content/help/ja-JP/analytics/export/home.html
-translation-type: ht
-source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
+user-guide-title: Analytics Export Guide
+user-guide-url: /content/help/en/analytics/export/home.html
+translation-type: tm+mt
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
 
 # Analytics 書き出しガイド {#export}
 
-+ [Analytics 書き出しヘルプ](home.md)
++ [Analyticsのエクスポートホーム](home.md)
 + Analytics データフィード {#analytics-data-feed}
-   + はじめに {#get-started}
-      + [Analytics データフィードの概要](analytics-data-feed/c-getstarted/data-feed-overview.md)
-      + [用語](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
-      + [ベストプラクティスおよび一般情報](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
-   + データフィードインターフェイス {#data-feed-ui}
-      + [データフィードインターフェイスを開く](analytics-data-feed/c-data-feed-ui/t-open-data-feed.md)
-      + [列の並べ替え](analytics-data-feed/c-data-feed-ui/t-feed-columns-sort.md)
-      + [検索とフィルター](analytics-data-feed/c-data-feed-ui/t-feed-search-and-filter.md)
-      + [データフィードのステータス](analytics-data-feed/c-data-feed-ui/r-datafeed-status.md)
-   + データフィードアクション {#data-feed-actions}
-      + [データフィードパネル](analytics-data-feed/c-data-feed-actions/data-feed-actions.md)
-      + [フィードの追加](analytics-data-feed/c-data-feed-actions/t-feed-add.md)
-      + [フィード情報](analytics-data-feed/c-data-feed-actions/r-feed-information.md)
-      + [フィード宛先](analytics-data-feed/c-data-feed-actions/r-feed-destination.md)
-      + [フィードのジョブ履歴の表示](analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)
-      + [フィードの削除](analytics-data-feed/c-data-feed-actions/t-feed-delete.md)
-      + [フィードの一時停止](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
-      + [フィードのアクティブ化](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
-      + [フィードの編集](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
-   + データフィードジョブ {#data-feed-jobs}
-      + [データフィードジョブ - 概要](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
-      + [ジョブリストのフィルター](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
-      + [ジョブ設定](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
-      + [ジョブステータス](analytics-data-feed/c-df-jobs/r-job-status.md)
-      + [ジョブの再実行](analytics-data-feed/c-df-jobs/t-job-rerun.md)
+   + [データフィードの概要](analytics-data-feed/data-feed-overview.md)
+   + [データフィードの作成または編集](analytics-data-feed/create-feed.md)
+   + [データフィードの管理](analytics-data-feed/df-manage-feeds.md)
+   + [データフィードジョブの管理](analytics-data-feed/df-manage-jobs.md)
    + データフィードの内容 {#data-feed-contents}
-      + [データフィードの内容 - 概要](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [データフィードの内容の概要](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [計算指標](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
-      + [訪問者の特定](analytics-data-feed/c-df-contents/datafeeds-visid.md)
-      + [データ列の定義](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
       + [データ列リファレンス](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [ページイベント参照](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [ヒットソース参照](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
-      + [Pre 列と Post 列](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
       + [特殊文字](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [到着が遅れたヒット](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-      + [ジョブの FAQ](analytics-data-feed/c-df-contents/jobs-faq.md)
+   + [データフィードFAQ](analytics-data-feed/df-faq.md)
+   + [データフィードのベストプラクティス](analytics-data-feed/data-feeds-best-practices.md)
    + [データフィードのトラブルシューティング](analytics-data-feed/feed-troubleshooting.md)
    + [ジョブのトラブルシューティング](analytics-data-feed/jobs-troubleshooting.md)
-   + [データフィードリリースノート](analytics-data-feed/datafeeds-history.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse の概要](data-warehouse/data-warehouse.md)
    + [Data Warehouse ユーザーグループの追加](data-warehouse/t-dw-group.md)
