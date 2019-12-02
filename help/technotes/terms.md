@@ -2,7 +2,7 @@
 title: Adobe Analyticsで使用される用語
 description: 一般的な用語を定義するAdobe Analyticsの用語集。
 translation-type: tm+mt
-source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 * **** アクティビティマップ：サイトのどの領域が最もクリックされたかを示すブラウザープラグイン。 Analyzeユーザ [ーガイドの](/help/analyze/activity-map/activity-map.md) Activity Mapを参照してください。
 * **** 管理コンソール：参照先：
    * 従来の管理ツール。Adobe Analyticsのレポートスイート設定が管理されます。 以前のバージョンのAdobe Analyticsでは、ユーザー権限もここで管理されていました。 管理者ユ [ーザーガイドの](/help/admin/admin/c-admin-tools.md) 「管理ツール」を参照してください。
-   * 製品へのアクセスがプロビジョニングされ、ユーザー権限が管理されるAdobe管理コンソール。 管理者ユ [ーザーガイドの](/help/admin/admin-console/home.md) 「管理コンソール」を参照してください。
+   * 製品へのアクセスがプロビジョニングされ、ユーザー権限が管理されるAdobe管理コンソール。 See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **** 配分：1回の訪問中にコンバージョン変数が複数の値を検出した場合、その変数の配分設定によって、保持される値が決まります。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **** 異常値：統計モデリングを使用して、データ内の予期しないトレンドを自動的に検出しました。 モデルによって指標を分析し、値の下限、上限、予想される範囲を決定します。Analyzeユー [ザーガイドの](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 「Anomaly Detection」を参照してください。
 * **** AppMeasurement:データの収集とアドビへの送信に使用するコードライブラリ。 『導入ユーザガ [イド](/help/implement/home.md) 』の「ホームページ」を参照してください。
@@ -43,7 +43,7 @@ source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 * **** カスタマーサポート委任：アドビカスタマーケアとの直接の対話を承認された指定ユーザー。 Experience cloudナレッジベ [ースの「カスタマーサポート](https://helpx.adobe.com/experience-cloud/supported-users.html) ・デリゲート」を参照してください。
 * **** データ収集サーバー：データを受信し処理するアドビ所有のサーバー。 イメージリクエストは、アドビのデータ収集サーバーに送信され、レポートで使用できます。
 * **** Data Connectors:サードパーティがAdobe Analyticsへのデータのアップロードを自動化できる、完全な開発ソリューションです。 そのサードパーティのお客様は、data connectorを使用して、Adobe Analyticsでデータを強化できます。 ほとんどのdata connectorsは、データソースで使用されるのと同じワークフローを使用します。 『読み込みユーザガイド』の「Data Connectors」を参照してください。
-* **** データフィード：すべてのヒットを行として、変数を別々の列としてリストする生のデータエクスポート。 Adobe Analyticsデータをサードパーティのデータベースにエクスポートするのに最も一般的に使用されます。 詳しくは、エ [クスポートユーザーガイドの](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) 「データフィード」を参照してください。
+* **** データフィード：すべてのヒットを行として、変数を別々の列としてリストする生のデータエクスポート。 Adobe Analyticsデータをサードパーティのデータベースにエクスポートするのに最も一般的に使用されます。 詳しくは、エ [クスポートユーザーガイドの](/help/export/analytics-data-feed/data-feed-overview.md) 「データフィード」を参照してください。
 * **** データソース：ユーザーがファイルからAdobe Analyticsにデータをアップロードできるようにします。 通常、ファイルはFTPサイトから取得されます。 詳しくは、 [読み込みユーザー](/help/import/c-data-sources/datasrc-home.md) ・ガイドの「Data Sources」を参照してください。
 * **** Data Warehouse:Adobe Analyticsの機能の1つで、より大きなレポートをリクエストできます。 詳しくは、 [エクスポート](/help/export/data-warehouse/data-warehouse.md) ・ユーザー・ガイドのData Warehouseを参照してください。
 * **** ディメンション：テキストなどの変数値を含むコンポーネントタイプ。 ページ名、トラッキングコード、参照ドメインなどがあります。 指標は通常、その指標に対応します。
