@@ -1,5 +1,5 @@
 ---
-description: Web サイトやモバイルアプリケーションから収集されたり、Web サービス API またはデータソースを使用してアップロードされたりしたデータの処理されてアドビの Data Warehouse でに格納されます。この生のクリックストリームデータは、Adobe Analytics で使用されるデータセットとして形成されています。
+description: Web サイトやモバイルアプリケーションから収集されたり、Web サービス API またはデータソースを使用してアップロードされたデータは処理されて、アドビの Data Warehouse に格納されます。この生のクリックストリームデータは、Adobe Analytics で使用されるデータセットとして形成されています。
 keywords: clickstream;data feed;datafeed;Data Feed
 solution: Analytics
 title: Analytics データフィードの概要
