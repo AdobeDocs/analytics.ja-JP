@@ -2,7 +2,7 @@
 title: Adobe Analytics テクニカルガイド
 description: Analytics のユーザーガイドとリソース
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -59,7 +59,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 *   [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
 *   [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)
-*   [Data Feeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)   
+*   [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md)   
 *   [Data Sources](/help/import/c-data-sources/datasrc-home.md)  
 *   [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)
 *   [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
