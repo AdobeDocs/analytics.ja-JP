@@ -6,7 +6,7 @@ title: ページイベント参照
 topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -15,47 +15,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 page_event の値に基づいてヒットタイプを判別する参照テーブル。
 
-<table id="table_33AF375E0B41474696D7A4A92C652A5F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ヒットタイプ </th> 
-   <th colname="col02" class="entry"> page_event の値 </th> 
-   <th colname="col2" class="entry"> post_page_event の値 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> ページビュー </td> 
-   <td colname="col02"> post と同じ </td> 
-   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 の場合、モバイル SDK からの <code> trackState </code> コール </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> リンクトラッキング </td> 
-   <td colname="col02"> <p>10 の場合、「その他のリンク」 </p> <p>10 の場合、モバイル SDK からの <code> trackAction </code> コールおよびライフサイクルコール </p> <p>11 の場合、「ダウンロードリンク」 </p> <p>12 の場合、「外部リンクまたは離脱リンク」 </p> </td> 
-   <td colname="col2"> <p>100 の場合、「その他のリンク」 </p> <p>100 の場合、モバイル SDK からの <code> trackAction </code> コールおよびライフサイクルコール </p> <p>101 の場合、「ダウンロードリンク」 </p> <p>102 の場合、「外部リンクまたは離脱リンク」 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> マイルストーンビデオ </td> 
-   <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – メディア開始イベント </p> <p>32 – メディアの更新のみのイベント（eVar その他の変数処理を実行しない） </p> <p>33 – メディアと他の変数の更新イベント（eVar その他の変数処理を含む） </p> </td> 
-   <td colname="col2"> 
-    <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76 – メディア開始イベント </p> <p>77 – メディアの更新のみのイベント（eVar その他の変数処理を実行しない） </p> <p>78 – メディアと他の変数の更新イベント（eVar その他の変数処理を含む） </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ハートビートビデオ </p> </td> 
-   <td colname="col02"> post と同じ </td> 
-   <td colname="col2"> <p> 50 = （Adobe Primetime 以外の）メディアストリーム開始 </p> <p> 51 = （Adobe Primetime 以外の）メディアストリーム終了（完了） </p> <p> 52 = （Adobe Primetime 以外の）メディアストリームスクラブ </p> <p> 53 = （Adobe Primetime 以外の）メディアストリームキープアライブ </p> <p> 54 = （Adobe Primetime 以外の）メディアストリーム広告開始 </p> <p> 55 = （Adobe Primetime 以外の）メディアストリーム広告終了（完了） </p> <p> 56 = （Adobe Primetime 以外の）メディアストリーム広告スクラブ </p> <p> 60 = Primetime のメディアストリーム開始 </p> <p> 61 = Primetime のメディアストリーム終了（完了） </p> <p> 62 = Primetime のメディアストリームスクラブ </p> <p> 63 = Primetime のメディアストリームキープアライブ </p> <p> 64 = Primetime のメディアストリーム広告開始 </p> <p> 65 = Primetime のメディアストリーム広告終了（完了） </p> <p> 66 = Primetime のメディアストリーム広告スクラブ </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 調査 </td> 
-   <td colname="col02"> 40 </td> 
-   <td colname="col2"> 80 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Target の分析 </td> 
-   <td colname="col02"> 70 - Target アクティビティデータを含むヒットを示します。Analytics 呼び出しに関連するヒットおよび関連しないヒットの 70 です。 </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| ヒットタイプ | `page_event` value | `post_page_event` value |
+| --- | --- | --- |
+| ページビュー | 0:モバイルSDKの `trackState` | 次と同じ値 `post_page_event` |
+| リンクトラッキング | 10:モバイルSDK' `trackAction` s<br>11のカスタムリンクと呼び出し：ダウンロード<br>リンク12:離脱リンク | 100:モバイルSDK' `trackAction` s<br>101のカスタムリンクと呼び出し：ダウンロード<br>リンク102:離脱リンク |
+| マイルストーンビデオ | 31:メディア<br>開始32:メディアの更新（他の変数処理なし）<br>33:メディアの更新（他の変数を使用） | 76:メディア<br>開始77:メディアの更新（他の変数処理なし）<br>78:メディアの更新（他の変数を使用） |
+| ハートビートビデオ | 50:メディアストリーム開始（Primetime以外）<br>51:メディアストリーム終了（Primetime以外）<br>52:メディアストリームスクラブ（Primetime以外）<br>53:メディアストリームキープアライブ（Primetime以外）<br>54:メディアストリーム広告開始（Primetime以外）<br>55:メディアストリーム広告終了（Primetime以外）<br>56:メディアストリーム広告スクラブ（Primetime以外）<br>60:Primetimeメディアストリーム<br>start61:Primetimeメディアストリーム<br>close62:Primetimeのメディアストリームスクラブ<br>63:Primetimeのメディアストリームkeep alive<br>64:Primetimeメディアストリーム広告<br>開始65:Primetimeメディアストリーム広告<br>close66:Primetimeのメディアストリーム広告スクラブ | 次と同じ値 `post_page_event` |
+| 調査 | 40:Surveyから生成された任意の呼び出し | 80:Surveyから生成された任意の呼び出し |
+| Analytics for Target | 70:ヒットにTargetアクティビティデータが含まれる | 次と同じ値 `post_page_event` |
