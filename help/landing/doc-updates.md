@@ -3,7 +3,7 @@ title: Adobe Analytics ドキュメントのアップデート
 description: Adobe Analytics テクニカルドキュメントのアップデート
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 811a5d8c8a79d6522173aa1ef77ea9a0af9f8c80
+source-git-commit: a785aa20800e189503b6bc0010cbd87cba7333e0
 
 ---
 
@@ -20,9 +20,11 @@ source-git-commit: 811a5d8c8a79d6522173aa1ef77ea9a0af9f8c80
 
 | 日付 | 説明 |
 |---|---|
-| 2019 年 21 月 11 日 | 顧客の遍歴分析用の新しいドキ [ュメントセット](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
+| 2019 年 25 月 12 日 | IPログイン制限 [の実施の提供終了に関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
+| 2019 年 25 月 12 日 | 内部（セッション更新） [マーケティングチャネルに関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
+| 2019 年 11 月 22 日 | 顧客の遍歴分析用の新しいドキ [ュメントセット](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
 | 2019 年 9 月 28 日 | JavaScript実装の設定変 [数に関する新しい記事](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
-| 2019 年 9 月 12 日 | Jargeny IQの新しいドキ [ュメント：デバイス間分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
+| 2019 年 9 月 13 日 | Jargeny IQの新しいドキ [ュメント：デバイス間分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
 | 2019 年 8 月 28 日 | Analytics向けプログレ [ッシブWebアプリ(PWA)に関する新記事](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
 | 2019 年 8 月 9 日 | [計算指標の合計](/help/components/c-calcmetrics/cm-totals.md)に関する新しい記事を追加しました。 |
 | 2019 年 8 月 9 日 | [タイムスタンプが有効なセッションデータ](/help/admin/admin/timestamp-optional.md)について明確化しました。 |
