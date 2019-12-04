@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
       + [プロジェクトの作成 - 概要](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Workspace プロジェクトの作成](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Workspaceの複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 列および行の設定 {#column-row-settings}
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [行設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -80,7 +81,7 @@ source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
       + アトリビューション {#attribution}
          + [アトリビューションの概要](analysis-workspace/c-panels/attribution/attribution.md)
          + [アトリビューションパネルの使用](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [アトリビューションFAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
+         + [アトリビューションに関する FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [セグメント IQ の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -115,7 +116,7 @@ source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
    + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace の制限](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
-   + [セグメント IQ](analysis-workspace/segment-iq.md)
+   + [Segment IQ](analysis-workspace/segment-iq.md)
    + [Virtual Analyst](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder ヘルプ](report-builder/home.md)
