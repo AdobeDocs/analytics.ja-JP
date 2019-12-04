@@ -1,8 +1,8 @@
 ---
 title: クロスデバイス分析
 description: クロスデバイス分析では、デバイスデータを結び付けることで、データをデバイス中心からユーザー中心に変えることができます。
-translation-type: ht
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+translation-type: tm+mt
+source-git-commit: c358df811f23a57441e6f9410c957e34954de712
 
 ---
 
@@ -38,8 +38,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * レポートスイートのヒット数は、1 日に 1 億ヒットを超えることはできません。このしきい値は今後数ヶ月で増加される予定です。
    * アドビでは、複数のデバイスタイプ（Web、アプリなど）のデータを含むクロスデバイスデータをレポートスイートに含めることをお勧めします。一部の組織では、この概念を「グローバル」レポートスイートと呼んでいますが、CDA は地理的な観点から厳密にグローバルである必要はありません。クロスデバイス分析は、複数のレポートスイートで機能しません。また、複数のレポートスイートのデータを組み合わせることもできません。
 * 実装が次の要件を満たしている必要があります。
-   * 最新バージョンの Experience Cloud ID サービスをデプロイする必要があります。Experience Cloud ID サービスユーザーガイドの「[ホームページ](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)」を参照してください。Adobe Experience Platform Launch を使用するほとんどの実装では、既に ECID がデプロイされている可能性があります。
-   * ユーザーがログインしたときや電子メールを開いたときなど、個人を識別できるタイミングでは常にこの `setCustomerIDs` 関数を呼び出します。この要件は、すべてのプラットフォーム（使用する場合はモバイルアプリを含む）に適用されます。Experience Cloud ID サー ビスユーザーガイドの [setCustomerIDs](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/methods/setcustomerids.html) を参照してください。
+   * 最新バージョンの Experience Cloud ID サービスをデプロイする必要があります。Experience Cloud ID サービスユーザーガイドの「[ホームページ](https://docs.adobe.com/content/help/en/id-service/using/home.html)」を参照してください。Adobe Experience Platform Launch を使用するほとんどの実装では、既に ECID がデプロイされている可能性があります。
+   * ユーザーがログインしたときや電子メールを開いたときなど、個人を識別できるタイミングでは常にこの `setCustomerIDs` 関数を呼び出します。この要件は、すべてのプラットフォーム（使用する場合はモバイルアプリを含む）に適用されます。Experience Cloud ID サー ビスユーザーガイドの [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) を参照してください。
 
 ## 制限事項
 
@@ -49,10 +49,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 上記の前提条件で説明したように、複数のレポートスイートをまたいで結び付けをおこなうことはできません。
 * Adobe Analytics レポートスイートを複数の IMS 組織にマッピングすることはできません。CDA は特定のレポートスイート内のデバイスを結び付けるので、CDA を使用して複数の IMS 組織間をまたいでデータを結び付けることはできません。
 * CDA は、現在、顧客属性との互換性がありません。顧客属性を使用して CDA 仮想レポートスイートを作成したり、デバイス間のセグメント内で作成したり、CDA 仮想レポートスイートに基づいて Analysis Workspace プロジェクト内でレポートを作成したりすることはできません。
-* CDA には Co-op グラフまたはプライベートグラフが必要です。サードパーティのデバイスグラフはサポートされていません。
+   > [!TIP] 顧客属性はCDAでは使用できませんが、両方の機能がこの関数に依存し `setCustomerIDs` ます。 これらの2つの機能は、別々の（仮想）レポートスイートに一致する場合があります。
+* CDAでは、Co-op GraphまたはPrivate Graphが必要です。 サードパーティのデバイスグラフはサポートされていません。
 * 従来の Analytics ID はサポートされていません。Experience Cloud ID を持つ訪問者のみを関連付けます。
 * カスタマーケアは、この機能をまだ完全にはサポートしていません。[クロスデバイス分析フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview)は、アドビの製品マネージャーの直接的かつ積極的な関与を含め、この機能のサポートに使用できます。
 * クロスデバイス分析では、仮想レポートスイートとレポートの時間処理を使用しますが、これには独自の制限があります。これらの制限について詳しくは、[仮想レポートスイート](../vrs/vrs-about.md)と[レポートの時間処理](../vrs/vrs-report-time-processing.md)を参照してください。
+* 1.4 APIはサポートされていません。 Power BIコネクタとReport Builderはどちらも1.4 APIに依存しているので、CDAとの互換性がありません。
 * サイトを訪問する新しいデバイスが Co-op グラフまたはプライベートグラフで処理されるまでに最大 2 週間かかる場合があります。CDA での直近の 2 週間の結び付けのレベルは、通常、2 週間よりも古い日付範囲の結び付けのレベルよりも低くなります。アドビでは、Adobe Experience Platform ID サービスを改善し、将来的に新しいデバイスをリアルタイムで結び付ける予定です。
 * 仮想レポートスイートの履歴データは、アドビによるデバイスの認識と組み合わせに基づいて変化します。ソースレポートスイート内のデータは変更されません。
 
