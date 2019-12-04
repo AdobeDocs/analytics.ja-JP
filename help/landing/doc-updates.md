@@ -3,12 +3,12 @@ title: Adobe Analytics ドキュメントのアップデート
 description: Adobe Analytics テクニカルドキュメントのアップデート
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a785aa20800e189503b6bc0010cbd87cba7333e0
+source-git-commit: c863d5f09d978fdac4be364ad71f3c0224becdca
 
 ---
 
 
-# Adobe Analytics テクニカルドキュメントのアップデート
+# Adobe Analyticsの技術ドキュメントの更新
 
 2019　年　1　月以降の　Adobe Analytics　ドキュメントセットのアップデートについて説明します。
 
@@ -20,6 +20,7 @@ source-git-commit: a785aa20800e189503b6bc0010cbd87cba7333e0
 
 | 日付 | 説明 |
 |---|---|
+| 2019 年 29 月 12 日 | データフィードのドキュメ [ントの概要説明](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 25 月 12 日 | IPログイン制限 [の実施の提供終了に関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 2019 年 25 月 12 日 | 内部（セッション更新） [マーケティングチャネルに関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
 | 2019 年 11 月 22 日 | 顧客の遍歴分析用の新しいドキ [ュメントセット](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
