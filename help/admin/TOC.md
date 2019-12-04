@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 + Analytics 管理者の概要 {#admin-overview}
    + [使用する Adobe Analytics ツールの検討](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics 製品の比較と必要システム構成](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [システム要件](c-system-requirements/sys-reqs.md)
++ [必要システム構成](c-system-requirements/sys-reqs.md)
 + 管理ツール {#admin-tools}
    + [管理ツール](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
@@ -46,7 +46,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
       + [有料検索検知の概要](admin/paid-search-detection/paid-search-detection.md)
       + [有料検索検知の設定](admin/paid-search-detection/t-paid-search-detection.md)
    + [発行リスト](admin/publishing-list.md)
-   + [発行ウィジェット](admin/publishing-widgets-admin.md)
+   + [公開ウィジェット](admin/publishing-widgets-admin.md)
    + [設定マネージャー](admin/preferences-manager.md)
    + [プライバシー設定](admin/privacy-settings.md)
    + [プライバシー設定](admin/privacy-reporting.md)
@@ -73,13 +73,14 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
          + [コンテキストデータ変数を使用したイベントの設定](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [ヒットからのイベントの削除](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [処理ルールのヒントとテクニック](admin/c-processing-rules/processing-rules-tips.md)
-   + リアルタイムレポート{#real-time-reports}
+   + リアルタイムレポート {#real-time-reports}
       + [リアルタイムレポートの概要](admin/realtime/realtime.md)
       + [リアルタイムレポートの設定](admin/realtime/t-realtime-admin.md)
       + [サポートされるリアルタイム指標とディメンション](admin/realtime/realtime-metrics.md)
    + [予定レポートキュー](admin/scheduled-reports-admin.md)
    + サーバー側転送 {#server-side-forwarding}
       + [サーバー側転送の概要](admin/c-server-side-forwarding/ssf.md)
+      + [GDPR／ePrivacy コンプライアンスおよびサーバー側転送](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [サーバー側転送の要件](admin/c-server-side-forwarding/ssf-requirements.md)
       + [サーバー側転送のデータとコードのリファレンス](admin/c-server-side-forwarding/ssf-reference.md)
       + [サーバー側転送の実装の確認方法](admin/c-server-side-forwarding/ssf-verify.md)
@@ -96,7 +97,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
       + [トラフィック変数レポートの有効化](admin/c-traffic-variables/t-traffic-variable.md)
       + [トラフィック分類](admin/c-traffic-variables/traffic-classifications.md)
    + 個別訪問者変数 {#unique-visitor-variable}
-      + [実訪問者変数の指定](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+      + [個別訪問者変数の指定](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用事例 - 訪問者 ID の抽出](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [ビデオ管理](admin/video-management.md)
 + Experience Cloud Admin Console {#admin-console}
@@ -108,7 +109,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [Adobe Analytics はじめての管理ガイド](admin-console/first-admin-guide.md)
    + [レポートスイートの作成](admin-console/create-report-suite.md)
 + カンパニー設定 {#company-settings}
-   + [会社の設定の概要](company/c-company-settings.md)
+   + [カンパニー設定の概要](company/c-company-settings.md)
    + [機能アクセスレベル](company/feature-access-levels.md)
    + [Web サービス](company/web-services-admin.md)
    + [Report Builder レポート](company/report-builder-reports-admin.md)
@@ -168,7 +169,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [レポートスイートのデータガバナンス設定の表示／管理](c-data-governance/gdpr-view-settings.md)
    + [レポートスイートのデータのラベル設定](c-data-governance/gdpr-setup-reportsuite.md)
    + [アクセス要求および削除要求の送信](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics変数のデータプライバシーラベル](c-data-governance/gdpr-labels.md)
+   + [Analytics 変数のデータプライバシーラベル](c-data-governance/gdpr-labels.md)
    + [名前空間](c-data-governance/gdpr-namespaces.md)
    + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
    + [ラベル設定に関するベストプラクティス](c-data-governance/gdpr-analytics-ids.md)
