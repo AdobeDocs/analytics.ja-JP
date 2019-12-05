@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
+source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
 
 ---
 
@@ -145,6 +145,7 @@ source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
    + [ユーザーと製品の管理](user-management2/user-management.md)
    + [レポートスイートに対するユーザーグループの割り当て](user-management2/t-group-access-report-suite.md)
    + ユーザー管理 {#user-management}
+      + [Experience cloud管理コンソールへのユーザーの移行](user-management2/user-migration/c-migration-tool/c-migration-tool.md)
       + [ユーザー管理の概要](user-management2/c-user-management/users.md)
       + [ユーザーアカウントの追加](user-management2/c-user-management/t-add-user-account.md)
       + [ユーザーおよびグループ権限の変更](user-management2/c-user-management/permissions-changes.md)
