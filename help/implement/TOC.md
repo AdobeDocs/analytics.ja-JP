@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
+source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
 
 ---
 
@@ -195,7 +195,7 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
          + [transactionID](js-implementation/page-variables/transactionid.md)
          + [visitorID](js-implementation/page-variables/visitorid.md)
          + [visitorNamespace](js-implementation/page-variables/visitornamespace.md)
-         + [zip](js-implementation/page-variables/zip.md)
+         + [郵便番号](js-implementation/page-variables/zip.md)
       + [追加された eVar およびイベント](js-implementation/c-variables/evars-events.md)
       + [変数と制限](js-implementation/c-variables/vars-limitiations.md)
       + [JavaScript での無効な文字](js-implementation/c-variables/vars-restrictions.md)
@@ -266,26 +266,13 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
    + [Experience Cloud コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + デバイス間の訪問者の識別 {#cross-device-visitor-id}
       + [デバイス間のユーザーの接続](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [デバイス間の訪問者の識別によるデータの影響](js-implementation/xdevice-visid/xdevice-data.md)
-      + [訪問の例](js-implementation/xdevice-visid/visit-example.md)
-      + [訪問者](js-implementation/xdevice-visid/visitors.md)
-      + [訪問回数](js-implementation/xdevice-visid/visits.md)
-      + [セグメントの作成](js-implementation/xdevice-visid/segments.md)
-      + [地域特性データ](js-implementation/xdevice-visid/geo-data.md)
+      + [デバイス間の例](js-implementation/xdevice-visid/visit-example.md)
       + [アトリビューションと持続性](js-implementation/xdevice-visid/variable-persistence.md)
+      + [デバイス間FAQ](js-implementation/xdevice-visid/xdevice-faq.md)
    + [訪問者の移行](js-implementation/visitor-migration.md)
    + [タイムスタンプオプションの使用](js-implementation/timestamps-overview.md)
    + [リダイレクトとエイリアス](js-implementation/redirects-overview.md)
 + テストと検証 {#testing-and-validation}
-   + テストと検証のプロセス {#testing-and-validation-process}
-      + [テストと検証の概要](impl-testing/impl-validation/impl-validation.md)
-      + [Debugger での s_account 変数の識別](impl-testing/impl-validation/impl-testing-account.md)
-      + [JavaScript JS ファイル](impl-testing/impl-validation/impl-js-file.md)
-      + [コードの変更](impl-testing/impl-validation/impl-code-updates.md)
-      + [変数と値](impl-testing/impl-validation/impl-var-values.md)
-      + [カスタム変数](impl-testing/impl-validation/impl-custom-vars.md)
-      + [実装の受け入れ](impl-testing/impl-validation/impl-acceptance.md)
-      + [データの正確性の検証](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud デバッガー](impl-testing/debugger.md)
    + [パケットアナライザー](impl-testing/packet-monitor.md)
    + 実装のトラブルシューティング {#implementation-troubleshooting}
