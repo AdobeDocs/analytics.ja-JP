@@ -1,12 +1,11 @@
 ---
 description: DFA と Adobe® コレクションサーバーが通信できるようになると、Reports & Analytics で DFA データを含むレポートを生成できます。
 keywords: DFA
-solution: Analytics
 title: DFA データを使用した Analytics レポート
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -35,7 +34,7 @@ DFA レポートを生成するには
 1. **[!UICONTROL Analytics]** / **[!UICONTROL Reports &amp; Analyticsに移動します]**。 インストールした DFA 統合のレポートスイートを選択していることを確認します。
 
 1. 左側のナビゲーションで、DFA クリックスルーデータをキャプチャするコンバージョン変数を選択してから、目的の DFA レポートを選択します。
-1. Click **[!UICONTROL Add Metrics]**. 指標セレクターダイアログボックスが開きます。
+1. 「**[!UICONTROL 指標の追加]**」をクリックします。指標セレクターダイアログボックスが開きます。
 1. Check the Impressions and Clicks metrics in the **[!UICONTROL Available Metrics]** list and click **[!UICONTROL Apply]**.
 
    結果のレポートに、インプレッション数、クリック数および売上高データが表示され、DFA サービスからどれくらいの純売上高を得られるかを確認できます。例えば、DFA 広告名レポートは、現在の DFA 広告キャンペーンの特定のバナー広告に直接起因するインプレッション数、クリック数および売上高データを表示します。
