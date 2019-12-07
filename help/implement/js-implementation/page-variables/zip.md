@@ -1,18 +1,17 @@
 ---
 description: ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# zip
+# 郵便番号
 
 state 変数と zip 変数はコンバージョン変数です。
 
@@ -27,7 +26,7 @@ zip.xml
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
-| 50 バイト | zip | コンバージョン／訪問者プロファイル／郵便番号 | "" |
+| 50 バイト | 郵便番号 | コンバージョン／訪問者プロファイル／郵便番号 | "" |
 
 Since the *`state`* and *`zip`* variables expire immediately, the only events associated with them are events fired on the same page that are populated. 例えば、郵便番号別のコンバージョン率を比較するために *`zip`* を使用している場合、チェックアウトプロセスの各ページに *`zip`* を挿入する必要があります。アドビでは、郵便番号のソースとして請求先住所を使用することを推奨します。代わりに、配送先住所を選択することもできます（注文の配送先住所が 1 つだけである場合）。メディアサイトでは、登録および広告クリックスルートラッキングのために、*`zip`* や *`state`* を使用することもできます。
 
