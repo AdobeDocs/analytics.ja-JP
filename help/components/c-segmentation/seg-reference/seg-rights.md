@@ -1,11 +1,10 @@
 ---
 description: セグメント機能は、管理者レベルユーザーと非管理者ユーザーの間で大きく異なっています。
-solution: Analytics
 title: セグメントに対する役割別の権限
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,14 +27,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   <tr> 
    <td colname="col1"> <b>管理者レベルユーザー</b> </td> 
    <td colname="col2"> 会社全体、ユーザーグループおよび個人ユーザーと共有できます。 </td> 
-   <td colname="col3"> <span class="keyword"> Analysis Workspace、Reports &amp; Analytics </span>:その他の 表示／編集／削除などが可能です。 <p> <span class="keyword">Ad Hoc Analysis</span> および <span class="keyword">Report Builder</span>：ユーザー自身の計算指標と他のユーザーと共有している計算指標の表示／編集／削除などが可能です。 </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace、Reports &amp; Analytics</span>：ユーザー自身および他のユーザーのセグメントの表示／編集／削除などが可能です。 <p> <span class="keyword">Ad Hoc Analysis</span> および <span class="keyword">Report Builder</span>：ユーザー自身のセグメントと他のユーザーと共有しているセグメントの表示／編集／削除などが可能です。 </p> </td> 
    <td colname="col4"> セグメントを正当なセグメントとして承認できます。 </td> 
    <td colname="col5"> 組織全体ですべてのセグメントを適用できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>非管理者レベルユーザー</b> </td> 
    <td colname="col2"> 個人ユーザーとのみ共有できます。 </td> 
-   <td colname="col3"> 自分独自のセグメントに限り、表示／編集／削除などが可能です。 </td> 
+   <td colname="col3"> ユーザー自身のセグメントに限り、表示／編集／削除などが可能です。 </td> 
    <td colname="col4"> 承認済みのセグメントのみを使用できます。承認としてマークすることはできません。 </td> 
    <td colname="col5"> 自分独自のセグメントと他のユーザーと共有しているセグメントを適用できます。 </td> 
   </tr> 
