@@ -1,11 +1,10 @@
 ---
 description: Microsoft excel用のAdobe Report Builderアドインを使用して、Web解析データからカスタマイズしたリクエストを作成し、Excelワークシートに挿入できます。
 keywords: ftp;sftp
-solution: Analytics
 title: Report Builder が配信するレポート
 uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
