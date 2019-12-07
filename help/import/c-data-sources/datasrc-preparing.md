@@ -1,12 +1,11 @@
 ---
 description: データソース使用の準備に利用できる手順です。
-solution: Analytics
 subtopic: Data sources
 title: データソースを使用するための準備
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 ## データディメンションの指定 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
-データソースからインポートした指標の分類に使用するデータ（レポート）を指定して収集します。このデータを&#x200B;*`data dimensions`*（名前をつけて保存）する必要があります。
+データソースからインポートした指標の分類に使用するデータ（レポート）を指定して収集します。このデータを&#x200B;*`data dimensions`*）。
 
 例えば、データソース指標で広告インプレッションを測定する場合は、キャンペーントラッキングコードをデータディメンションとすることが考えられます。オフラインの売上高を測定する場合、製品コード（SKU）をデータディメンションとして使用できます。
 
