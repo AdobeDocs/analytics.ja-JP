@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 keywords: Analysis Workspace
-solution: Analytics
 title: ビジュアライゼーションの概要
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,23 +14,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 
-[YouTube上のAnalysis Workspaceのビジュアライゼーションタイプ](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Analysis Workspace でのビジュアライゼーションタイプ（YouTube）](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（2:57）
 
-## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
+## ビジュアライゼーションパネル {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-ビジュアライゼーションパネルを表示するには、サイドパネルで「**[!UICONTROL ビジュアライゼーション]」をクリックします。**
+ビジュアライゼーションパネルを表示するには、サイドパネルで「**[!UICONTROL ビジュアライゼーション]**」をクリックします。
 
 ![手順の結果](assets/visualizations.png)
 
 Adobe Analytics を使用したことのあるユーザーにとって、大半のビジュアライゼーションタイプ（面グラフ、棒グラフ、ドーナツグラフ、折れ線グラフなど）は馴染みのあるものです。しかし、Analysis Workspace にはビジュアライゼーション設定があり、インタラクティブ機能を備えた新しいまたは独自のビジュアライゼーションタイプを数多く揃えています。
 
-## Visualization settings {#section_D3BB5042A92245D8BF6BCF072C66624B}
+## ビジュアライゼーション設定 {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
 「[!UICONTROL ビジュアライゼーション設定]」にアクセスするには、[!UICONTROL フリーフォームパネル]にビジュアライゼーションをドラッグした後、[!UICONTROL ビジュアライゼーション設定]ギアアイコンをクリックします。
 
 >[!IMPORTANT]
 >
->表示されるビジュアライゼーション設定は、ビジュアライゼーションによって異なります。 すべてのビジュアライゼーションにすべての設定が適用されるわけではありません。さらに一部の詳細設定は、特定のビジュアライゼーションの場合に&#x200B;**のみ**&#x200B;表示されます（例えば[ヒストグラム設定](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)）。
+>どのビジュアライゼーション設定が表示されるかは、ビジュアライゼーションの種類によって決まります。すべてのビジュアライゼーションにすべての設定が適用されるわけではありません。さらに一部の詳細設定は、特定のビジュアライゼーションの場合に&#x200B;**のみ**&#x200B;表示されます（例えば[ヒストグラム設定](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)）。
 
 ![](assets/visualization_settings.png)
 
@@ -65,11 +64,11 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
   </tr> 
   <tr> 
    <td colname="col1"> <p>正規化 </p> </td> 
-   <td colname="col2"> <p>指標を均等な比率にします。標準化を参 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > 照してください</a>。 </p> </td> 
+   <td colname="col2"> <p>指標を均等な比率にします。<a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  >正規化</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>二重軸を表示 </p> </td> 
-   <td colname="col2"> <p>2つの指標がある場合にのみ適用されます。1つの指標のY軸を左側に、もう1つの指標のY軸を右側に配置できます。 </p> </td> 
+   <td colname="col2"> <p>2 つの指標がある場合にのみ適用されます。（ある指標の）Y 軸を左側に、（他の指標の）Y 軸を右側に表示できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>異常値を表示 </p> </td> 
@@ -78,13 +77,13 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
  </tbody> 
 </table>
 
-## Create Visual icon {#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## ビジュアルを作成アイコン{#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-どのビジュアライゼーションが選択されているかわからない場合は、テーブルの行にある&#x200B;**[!UICONTROL ビジュアルを作成]アイコンをクリックします。**&#x200B;このアイコンは、テーブルの行の上にマウスポインターを置くと表示されます。クリックすると、データに最適なビジュアライゼーションを Analysis Workspace が学習に基づいて推測することの確認が表示されます。例えば、最大 3 セグメントを選択した場合、ベン図が作成されます。3 セグメントを超える場合、棒グラフが作成されいます。他のタイプのデータの場合、折れ線グラフなどが作成されます。
+どのビジュアライゼーションが選択されているかわからない場合は、テーブルの行にある&#x200B;**[!UICONTROL ビジュアルを作成]**&#x200B;アイコンをクリックします。このアイコンは、テーブルの行の上にマウスポインターを置くと表示されます。クリックすると、データに最適なビジュアライゼーションを Analysis Workspace が学習に基づいて推測することの確認が表示されます。例えば、最大 3 セグメントを選択した場合、ベン図が作成されます。3 セグメントを超える場合、棒グラフが作成されます。他のタイプのデータの場合、折れ線グラフなどが作成されます。
 
 ![](assets/create-visual.png)
 
-## Right-click visualization/panel menu {#section_05B7914D4C9E443F97E2BFFDEC70240C}
+## 右クリックビジュアライゼーション／パネルメニュー {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
 グラフのコンテキスト設定は、ビジュアライゼーションまたはパネルヘッダーの隣を右クリックするとアクセスできます。次の設定の一部またはすべてを利用できます。
 
@@ -104,7 +103,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 | ビジュアライゼーションリンクを取得 | 他のユーザーをこのビジュアライゼーションに直接移動させるこのリンクをコピーして共有できます。ユーザーはログインする必要があります。 |
 | やり直し | （フロー、ベン、ヒストグラムで動作）現在のビジュアライゼーションの設定を削除して、新しいパネルを開き、ビジュアライゼーションを再設定できます。 |
 
-## Edit legend labels {#section_94F1988CB4B9434BA1D9C6034062C3DE}
+## 凡例ラベルの編集{#section_94F1988CB4B9434BA1D9C6034062C3DE}
 
 使いやすくするために、ビジュアライゼーション凡例の系列名を変更できます（フォールアウト、面グラフ、積み重ね面グラフ、棒グラフ、積み重ね棒グラフ、ドーナツ、ヒストグラム、横棒グラフ、積み重ね横棒グラフ、折れ線グラフ、散布図、ベン図）。
 
@@ -113,11 +112,11 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 折れ線グラフの凡例ラベルを編集するには、例えば、次のようにします。
 
 1. 凡例ラベルの 1 つを右クリックします。
-1. Click **[!UICONTROL Edit Label]**.
+1. 「**[!UICONTROL ラベルを編集]**」をクリックします。
 
    ![](assets/edit-label.png)
 
 1. 新しいラベルテキストを入力します。
-1. **[!UICONTROL Enter]キーを押して保存します。**
+1. **[!UICONTROL Enter]** キーを押して保存します。
 
 このトピックに関する[ビデオへのリンクはこちら](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)です。
