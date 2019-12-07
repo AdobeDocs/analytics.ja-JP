@@ -1,12 +1,11 @@
 ---
 description: 仮想レポートスイートの実装を計画するために必要な手順の概要です。
 keywords: Virtual Report Suite
-solution: Analytics
 title: 仮想レポートスイートのワークフロー
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/step1_icon.png)仮想レポートスイートの戦略を策定します。
 
-Familiarize yourself with [Global/Multi-Suite Tagging considerations](/help/components/vrs/vrs-considerations.md) and the FAQs as you decide on your strategy.
+戦略を決定する際は、[グローバル／マルチスイートタギングの考慮事項](/help/components/vrs/vrs-considerations.md)とよくある質問を確認してください。
 
 ![](assets/step2_icon.png)[親レポートスイートに 1 つまたは複数のセグメントを適用して仮想レポートスイートを作成](/help/components/vrs/c-workflow-vrs/vrs-create.md)します。
 
@@ -36,7 +35,7 @@ Familiarize yourself with [Global/Multi-Suite Tagging considerations](/help/comp
 * 仮想レポートスイートマネージャーで仮想レポートスイートを編集します。
 * 管理者／ユーザー管理／グループに移動し、仮想レポートスイートに対して権限を持つグループを選択して、「編集」をクリックします。
 
-![](assets/step4_icon.png) プロジェクトまたはレポートを開き、仮想レポートスイートを選択して、データのセグメント化された表示を提供します。
+![](assets/step4_icon.png)データをセグメント表示できるよう、プロジェクトまたはレポートを開いて仮想レポートスイートを選択します。
 
 ![](assets/step5_icon.png)[仮想レポートスイートを管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)します。
 
