@@ -2,7 +2,7 @@
 title: モバイルアプリ
 description: Adobe Analyticsモバイルアプリの製品ドキュメントとセルフヘルプ
 translation-type: tm+mt
-source-git-commit: 3abe9a29137f85e0c6f8438435663bb7b78a05d0
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -15,6 +15,6 @@ Adobe Analyticsモバイルアプリは、Adobe Analyticsからいつでもど�
 
 Analyticsモバイルアプリについては、以下のベータ版ドキュメントをご利用いただけます。
 
-* エグゼクティブユーザークイックスタートガイド：このガイドは、エグゼクティブユーザーがAnalytics mobileアプリでスコアカードを読み、解釈するのに役立つように作成されています。 このアプリを使用すると、重要な概要データの幅広いレンダリングを、管理者ユーザーが各自のモバイルデバイスですばやく簡単に表示できます。
+* [学芸員ガイド](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html):このガイドは、データのキュレーターがAnalytics Mobileアプリでエグゼクティブユーザーにスコアカードを設定するのを支援することを目的としています。 キュレーターは、組織の管理者、またはアプリのスコアカードの設定を担当する他の役割を持つ人です。
 
-* キュレーターガイド：このガイドは、データのキュレーターがAnalytics Mobileアプリでエグゼクティブユーザーにスコアカードを設定するのを支援することを目的としています。 キュレーターは、組織の管理者、またはアプリのスコアカードの設定を担当する他の役割を持つ人です。
+* [エグゼクティブユーザークイックスタートガイド](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/executive.html):このガイドは、エグゼクティブユーザーがAnalytics mobileアプリでスコアカードを読み、解釈するのに役立つように作成されています。 このアプリを使用すると、重要な概要データの幅広いレンダリングを、管理者ユーザーが各自のモバイルデバイスですばやく簡単に表示できます。
