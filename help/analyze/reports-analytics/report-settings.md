@@ -1,11 +1,10 @@
 ---
 description: すべてのレポートの表示方法と、デフォルトのメニューオプションをシンプルメニューの場所に設定する情報を定義する設定です。
-solution: Analytics
 title: レポートの表示設定とナビゲーション
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -63,8 +62,8 @@ nav_menu.xml
 |  | サイト概要 | 指標／サイト概要 |
 |  | 主要指標 | 指標／主要指標 |
 |  | ページビュー数 | 指標／ページビュー数 |
-|  | 訪問回数 | 指標／訪問回数 |
-|  | 訪問者 | 指標／訪問者数 |
+|  | 訪問数 | 指標／訪問回数 |
+|  | 訪問者 | 指標 &gt; 訪問者 |
 |  | 訪問別滞在時間 | 指標／訪問別滞在時間 |
 |  | イベント前の時間 | コンバージョン／イベント前の時間 |
 |  | 購入 | 指標／購入 |
