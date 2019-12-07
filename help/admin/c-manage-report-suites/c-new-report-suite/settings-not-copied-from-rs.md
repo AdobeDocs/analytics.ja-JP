@@ -1,11 +1,10 @@
 ---
 description: 既存のレポートスイートから設定をコピーした場合、システムのメッセージで、新しいレポートスイートにコピーされない設定が特定されます。
-solution: Analytics
 title: ソースレポートスイートからコピーされない設定
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
