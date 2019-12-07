@@ -1,13 +1,12 @@
 ---
 description: ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -31,7 +30,7 @@ visitorNamespace.xml
 
 Analytics では、サイトへの訪問者を一意に識別するために cookie を使用します。*`visitorNamespace`* を使用しない場合、cookie は 2o7.net に関連付けられます。*`visitorNamespace`* を使用する場合、cookie は 2o7.net のサブドメインに関連付けられます。サイトへのすべての訪問者の cookie は同じドメインまたはサブドメインに関連付ける必要があります。
 
-この  *`visitorNamespace`* 変数を使用するのは、ブラウザーの cookie 制限を超過しないようにするためです。Internet Explorer には、ドメインにつき 20 個の cookie までという制限があります。この  *`visitorNamespace`* 変数を使用することによって、他社が使用している Analytics の cookie が貴社の訪問者の cookie と競合しなくなります。
+この  *`visitorNamespace`* 変数を使用するのは、ブラウザーの cookie 制限を超過しないようにするためです。Internet Explorer には、ドメインにつき 20 個の cookie までという制限があります。この *`visitorNamespace`* 変数を使用することによって、他社が使用している Analytics の cookie が貴社の訪問者の cookie と競合しなくなります。
 
 **構文と可能な値** {#section_EE247FE371784CA4B6058182181F3EA1}
 
