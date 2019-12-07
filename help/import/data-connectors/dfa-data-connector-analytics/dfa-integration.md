@@ -1,12 +1,11 @@
 ---
 description: 'DFA統合の設定には、次のタスクが含まれます '
 keywords: DFA
-solution: Analytics
 title: DFA 統合
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
