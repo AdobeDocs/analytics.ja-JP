@@ -1,11 +1,10 @@
 ---
 description: 訪問者のブラウザーの言語設定をキャプチャし、言語設定に関連した売上や固有の訪問者を確認できます。サイトの成功指標に言語設定が与える影響を知ることで、サイトを他の言語でどのように提供するかを決定できます。例えば、ドイツ語を使用する顧客が多数お客様のサイトで購入するようであれば、サイトをドイツ語に翻訳し、ドイツ語サイトへトラフィックを導くマーケティングキャンペーンを導入することなどが考えられます。
-solution: Analytics
 title: 言語
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 訪問者のブラウザーの言語設定をキャプチャし、言語設定に関連した売上や固有の訪問者を確認できます。サイトの成功指標に言語設定が与える影響を知ることで、サイトを他の言語でどのように提供するかを決定できます。例えば、ドイツ語を使用する顧客が多数お客様のサイトで購入するようであれば、サイトをドイツ語に翻訳し、ドイツ語サイトへトラフィックを導くマーケティングキャンペーンを導入することなどが考えられます。
 
-**[!UICONTROL 訪問者プロファイル]** / **[!UICONTROL 言語]**
+**[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL 言語]**
 
-このレポートは、http ヘッダーリクエストの accept-language の部分に基づいて生成されます。受け入れ言語のHTTPヘッダーは、各ブラウザーの言語設定の一部として設定されます。
+このレポートは、http ヘッダーリクエストの accept-language の部分に基づいて生成されます。language-accept HTTP  ヘッダーは、各ブラウザーの言語設定で設定されます。
 
 [https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 
@@ -24,5 +23,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 このレポートの一部の行項目には、地域が含まれています。これらは地域の下位タグです。
 
-> [!NOTE] 時間別の時間の精度はサポートされていません。
+> [!NOTE]時間別の時間の精度はサポートされていません。
 
