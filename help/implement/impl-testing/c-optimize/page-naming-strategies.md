@@ -1,12 +1,11 @@
 ---
 description: pageName 変数は読みやすい、直観的なページ識別子で入力する必要があります。
 keywords: Analytics Implementation
-solution: Analytics
 title: ページ命名の戦略
 topic: Developer and implementation
 uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
