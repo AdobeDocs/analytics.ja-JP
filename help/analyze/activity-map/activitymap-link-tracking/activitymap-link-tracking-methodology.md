@@ -1,11 +1,10 @@
 ---
 description: このセクションは Adobe Analytics 管理者を対象としています。新しいリンクトラッキングパラメーターについて説明し、それによって異なるブラウザー間、デバイス間でのリンクの一意性と一貫性を確保し、ページ上でのリンクの再配置の処理を向上する方法を示します。
-solution: Analytics
 title: リンクトラッキング手法
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ HTML に s_objectid が含まれている場合、プライマリ ID はデフ�
 
 * Innertext
 * Alttext
-* Title
+* タイトル
 * Src
 * Action
 
