@@ -1,11 +1,10 @@
 ---
 description: 個々のレポートスイートの設定ツールを使用してレポートスイートのデフォルト設定を変更できます。これらのツールでは、不要または古くなったページのレコードの削除、デフォルト指標の設定、メディアの設定を行うことができます。
-solution: Analytics
 title: 個々のレポートスイートの設定
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,8 +15,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 [!UICONTROL 個々のレポートスイートの設定]にアクセスするには：
 
-1. Click **[!UICONTROL Admin]**, then click **[!UICONTROL Report Suites]**.
+1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 
-1. レポートスイートの選択.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Suite Settings]** &gt; *`<selection>`*.
+1. レポートスイートを選択します。
+1. **[!UICONTROL 設定の編集]**／**[!UICONTROL 個々のレポートスイートの設定]**／*`<selection>`* の順にクリックします。
 
