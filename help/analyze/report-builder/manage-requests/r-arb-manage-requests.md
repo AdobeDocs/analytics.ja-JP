@@ -1,11 +1,10 @@
 ---
 description: Report Builder の「リクエストを管理」におけるフィールドの説明です。
-solution: Analytics
 title: リクエストの管理 - 定義
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -61,7 +60,7 @@ Report Builder の「リクエストを管理」におけるフィールドの�
    <td colname="col2"> <p>リクエストウィザードダイアログを表示します。詳しくは、<a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >データリクエストの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>編集 </p> </td> 
+   <td colname="col1"> <p>テンプレートを編集 </p> </td> 
    <td colname="col2"> <p> （または「複数を編集」）選択したリクエストを編集します。<span class="wintitle">リクエストウィザード</span>ダイアログを表示します。See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
