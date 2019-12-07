@@ -1,12 +1,11 @@
 ---
 description: インポートおよびエクスポートファイルには、それぞれの数値 2 分類に対して 6 つの列が含まれています。
-solution: Analytics
 subtopic: Classifications
 title: 数値 2 分類のインポート
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,15 +22,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **~MyCost：**&#x200B;行を説明する名前。
 
-**~～MyCost^~id**:既存の行を編集するためのID。 新しい行を追加した場合、この ID は空白です。分類マネージャーからエクスポートすると、ID が自動的に割り当てられます。
+**~MyCost^~id~：**&#x200B;既存の行を編集するための ID。新しい行を追加した場合、この ID は空白です。分類マネージャーからエクスポートすると、ID が自動的に割り当てられます。
 
-**~～MyCost^~value**:行の値。 レート（rate）列が固定値の場合、この値は期間全体で配分されるフラット値になります。レート（rate）列がイベントの場合、この値はイベントに対する乗数になります。このエントリにコンマを含めないでください。
+**~MyCost^~value~：**&#x200B;行の値。レート（rate）列が固定値の場合、この値は期間全体で配分されるフラット値になります。レート（rate）列がイベントの場合、この値はイベントに対する乗数になります。このエントリにコンマを含めないでください。
 
-**~～MyCost^~period**:この行が対応する期間。 開始日と終了日をダッシュで区切って含める必要があります。ダッシュの前後には空白を挿入する必要があります。定義は、次のようにフォーマットする必要があります。
+**~MyCost^~period~：**&#x200B;この行が適用される期間。開始日と終了日をダッシュで区切って含める必要があります。ダッシュの前後には空白を挿入する必要があります。定義は、次のようにフォーマットする必要があります。
 
 YYYY/MM/DD - YYYY/MM/DD
 
-**~～MyCost^~rate**:Value列を掛けるイベ [!UICONTROL ント] 。 有効値は次のとおりです。
+**~MyCost^~rate~：**「[!UICONTROL Value（値）]」列を使用して乗算をおこなうイベント。有効値は次のとおりです。
 
 * fixed - 期間中のフラット値であることを示すために使用します。
 * revenue
@@ -44,8 +43,8 @@ YYYY/MM/DD - YYYY/MM/DD
 * checkout
 * scadd
 * scremove
-* event1
-* event2
+* イベント 1
+* イベント 2
 * etc
 
-**~～MyCost^~hinge**:分類中に値を配分するために使用するイベントです。 This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none].
+**~MyCost^~hinge~：**&#x200B;分類時の値の配分に使用するイベント。この値は通常、[!UICONTROL ~MyCost^~rate~]を使用する場合以外は [!UICONTROL fixed] と同じです。この値の有効値は [!UICONTROL ~MyCost^~rate~] と同じ値と [!UICONTROL none] です。
