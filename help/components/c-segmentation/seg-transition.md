@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: segmentation;segments
-solution: Analytics
 title: よくある質問
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,10 +24,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * [レポートやプロジェクトに複数のセグメントを適用](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)できます。
 * セグメントが、レポートスイート全体で共通になりました。
-* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
-* [セグメントマネージャー](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)を設定できます。
+* [セグメントビルダー](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)は、セグメント作成を簡素化します。
+* [セグメントマネージャ](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)を設定できます。
 
-* フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)して、セグメントを整理したり検索したりできます。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)して、セグメントを整理したり検索したりできます。これまでは、（[!DNL Ad Hoc Analysis] の）フォルダーを使用してセグメントを整理していました。
 
 * Ad Hoc Analysis 以外でも[連続セグメント](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)を作成できます。
 * ページビューコンテナの名称が「ヒットコンテナ」に変わりました。これは、ページビューだけでなく、すべての種類のデータをセグメント化するコンテナであることを意味しています。例えば、リンクトラッキング呼び出しと、モバイル SDK からの trackAction 呼び出しは、ヒットコンテナの対象になります。このコンテナは名前が変更されただけで、機能に変更はありません。
@@ -41,9 +40,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 セグメントビルダーには、次のようにアクセスします。
 
-* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![ をクリックします。](assets/segment_icon.png)In the segment rail that displays, then click **[!UICONTROL Add]**, or
+* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。または
 
-* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
+* セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」をクリックします。![](assets/add_button.png)
 
     または
 
@@ -53,17 +52,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 セグメントマネージャには、次のようにアクセスします。
 
-* Going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or
+* 上部のナビゲーションから **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**&#x200B;に移動します。次に、「**[!UICONTROL セグメント]**」をクリックするか、または
 
-* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![ をクリックします。](assets/segment_icon.png)Then click **[!UICONTROL Manage]**, or
+* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。または
 
 * インターフェイス内の任意の場所でスラッシュキー「/」を押して、セグメントマネージャを検索します。
 
 **レガシーセグメントドロップダウンの移動先**
 
-Reports &amp; Analyticsのセグメントドロップダウンは、より多くの機能を備えた [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) （セグメントビルダー）インターフェイスに置き換えられ、レポートスイート全体およびAdobe Analyticsソリューション全体で使用できる「ユニバーサル」セグメントを作成できます。 既存のセグメントのリストを表示するには、セグメントアイコン ![](assets/segment_icon.png)
+Reports &amp; Analytics のセグメントドロップダウンは、より豊富な機能を備えた [セグメントビルダー](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) インターフェイスに置き換えられ、レポートスイート全体および Adobe Analytics ソリューション全体で使用できる「汎用」セグメントを作成できます。既存のセグメントのリストを表示するには、セグメントアイコン ![](assets/segment_icon.png) をクリックします。
 
-左側のナビゲーションとセグメントレールが表示されます。
+左側のナビゲーションとセグメントパネルが表示されます。
 
 **レガシーレポートスイートドロップダウンの移動先**
 
@@ -77,15 +76,15 @@ Reports &amp; Analyticsのセグメントドロップダウンは、より多く
 
 デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
-管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[さらに詳しく...](/help/components/c-segmentation/seg-reference/seg-rights.md)
+管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[詳細...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
 **社内のすべてのセグメントを表示できますか？**
 
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL Reports & Analytics] user interfaces.
+管理者は、[!DNL Analysis Workspace] および [!DNL Reports & Analytics] ユーザーインターフェイス内ですべてのセグメントを表示できます。
 
 Ad Hoc Analysis と Report Builder には、自分が所有するセグメントと自分が共有しているセグメントが表示されます。
 
-**セグメントマネージャですべての Analytics セグメントを管理できますか？**
+**セグメントマネージャーでは Analytics のセグメントをすべて管理できるのですか？**
 
 すべてのセグメントを、Analysis Workspace、Reports &amp; Analytics および Ad Hoc Analysis のセグメントマネージャで管理できます。セグメントマネージャには、所有者（セグメントを作成したユーザー）、共有先ユーザーおよび管理者ユーザーに表示されるセグメントが表示されます。セグメントの選択には、ユーザーによって所有および共有されるセグメントが表示されます。
 
@@ -99,7 +98,7 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 
 ## ベストプラクティス {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
-**同じ名前でありながら定義が異なるセグメントがある場合には、どうしたらよいでしょうか？**&#x200B;セグメントが複数のレポートスイートで動作するようになったことから、同じ名前のセグメントが複数存在する結果になることがあります。そのような場合には、以下のいずれかを推奨しています。
+**同じ名前でありながら定義が異なるセグメントがある場合には、どうしたら良いでしょうか？**&#x200B;セグメントが複数のレポートスイートで動作するようになったことから、同じ名前のセグメントが複数存在する結果になることがあります。そのような場合には、以下のいずれかを推奨しています。
 
 * 同じ名前でありながら定義が異なるセグメントの名前を変更します。
 * 不要なセグメントを削除します。
@@ -116,7 +115,7 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 
 **既存のセグメントへの影響**
 
-既存のセグメントは、引き続きこれまでと同様に機能します。既存のセグメントが適用されたレポートも、これまでと同様に適切に機能します。詳しくは、[こちら](/help/components/c-segmentation/seg-transition.md)を参照してください。
+既存のセグメントは、引き続きこれまでと同様に機能します。既存のセグメントが適用されたレポートも、これまでと同様に適切に機能します。[こちら](/help/components/c-segmentation/seg-transition.md)を参照してください。
 
 従来の事前定義されたスイートセグメントは、ほとんどがセグメントテンプレートとしてセグメントビルダーに移行されます。セグメントテンプレートは、一般的な閲覧者を含むカスタムセグメントをすばやく作成するために部品として利用できます。セグメントテンプレートは、レポートに直接適用できませんが、カスタムセグメントには容易に保存できます。
 
@@ -128,7 +127,7 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 
 セグメントマネージャでは、（Ad Hoc Analysis の）フォルダーの代わりに、タグの間に配置する導入方法が一般的でした。フォルダー名はタグに自動的に変換され、個々のセグメントに適用されています。
 
-**セグメントが適用された配信レポートへの影響**
+**セグメントが適用された予定レポートへの影響**
 
 配信レポートは、定義済みのセグメントと共に、これまでと同様に適切に実行されます。
 
@@ -138,11 +137,11 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 
 ![](assets/duplicate_seg_names.png)
 
-このとき、mainprod レポートスイートのセグメントを参照するブックマークがあるとします。次に、そのセグメントが重複しているので削除します。 その後も、このブックマークは引き続き、削除されたセグメントの定義を参照します。ここで maindev セグメントのセグメント定義に手を加え、カタリナ島とメキシコのティフアナを含めるように変更しても、このブックマークに適用されているセグメントは変更されません。このセグメントは古い定義を使用したままです。これを修正するには、新しい定義を参照するようにブックマークを更新します。ブックマーク、ダッシュボード、予定レポートで削除されたセグメントが使用されているかどうかが不明な場合は、残りのセグメントの名前を変更して、そのブックマークが残りのセグメントを使用しているかどうかをより明確にします。
+このとき、mainprod レポートスイートのセグメントを参照するブックマークがあるとします。このセグメントは重複しているので、セグメントを削除します。その後も、このブックマークは引き続き、削除されたセグメントの定義を参照します。ここで maindev セグメントのセグメント定義に手を加え、カタリナ島とメキシコのティフアナを含めるように変更しても、このブックマークに適用されているセグメントは変更されません。このセグメントは古い定義を使用したままです。これを修正するには、新しい定義を参照するようにブックマークを更新します。ブックマーク、ダッシュボードまたは配信レポートで削除されたセグメントを使用しているかどうかが不明な場合は、残りのセグメントの名前を変更できます。ブックマークが残りのセグメントを使用しているかどうかがより明確になります。
 
 **Data Warehouse セグメントへの影響**
 
-既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。ほとんどのData Warehouseセグメントは、Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analyticsなどの他のコンポーネントでも機能します。
+既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。また、ほとんどの Data Warehouse セグメントは、Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics などの他のコンポーネントでも機能します。
 
 新しい Data Warehouse セグメントは、セグメントビルダーとセグメントマネージャで作成または編集できます。セグメントビルダーの製品の互換性メカニズムは、セグメントが Data Warehouse と互換性があるかどうかを自動的に判定します。
 
@@ -182,7 +181,7 @@ Ad Hoc Analysis のこのセグメントは、Adobe Analytics の通常のセグ
 
 **管理**&#x200B;セグメントは、新しいセグメントインターフェイスに移行し、全員が共有するセグメントとして表示されます。
 
-これらのセグメントの所有者は、ログイン会社の管理者ユーザーリストにある最も古いアカウントを持つ管理者に設定されますが、すべての管理者は、これらのセグメントを削除、編集および共有できます。
+このセグメントの所有者は、ログイン企業の管理者ユーザー一覧に記載されているアカウントのうち、最も古くから存在する管理者に設定されます。ただし、管理者であれば誰でも、このセグメントの削除、編集および共有が可能です。
 
 管理者がグローバルセグメントの作成および管理に使用していた Admin Console のセグメント管理インターフェイスは、利用できなくなりました。現在、管理者は新しいセグメントビルダーを使用して、セグメントを作成し、適切なグループ、個人またはすべてのユーザーとセグメントを共有します。
 
@@ -198,13 +197,13 @@ seg_definition.xml
 
 次のヒントは、一般的なディメンションを移行するのに役立ちます。
 
-* 地域 — 市/地域/国 — 部分一致を使用する代わりに、特定の市区町村、地域または国を検索して選択します。
-* ブラウザー — ブラウザータイプディメンションを使用して、Google Chromeなどのタイプのすべてのブラウザーを取得します。
-* オペレーティングシステム — OSの種類ディメンションを使用して、Microsoft Windowsなど、すべてのオペレーティングシステムを特定の種類で取得します。
+* 地域 - 市／地域／国 - 部分一致を使用するのではなく、特定の市町村、地域または国を検索して選択します。
+* ブラウザー - ブラウザタイプディメンションを使用して、すべてのブラウザーを Google Chrome などのタイプによって取得します。
+* オペレーティングシステム - OS の種類ディメンションを使用して、すべてのオペレーティングシステムを Microsoft Windows などの種類によって取得します。
 
 * [新しいディメンションと名前が変更されたディメンション](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [次を含む項目の変更](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [次の値より小さいか大きいかの変更](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [「次を含む」の変更](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [「次の値より小さい」および「次の値より大きい」の変更](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 新しいディメンションと名前が変更されたディメンション {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -261,7 +260,7 @@ seg_definition.xml
   </tr> 
   <tr> 
    <td colname="col1"> オリジナルの入口ページ </td> 
-   <td colname="col2"> オリジナルエントリページ </td> 
+   <td colname="col2"> オリジナルの入口ページ </td> 
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
