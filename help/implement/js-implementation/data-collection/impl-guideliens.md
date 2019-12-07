@@ -1,12 +1,11 @@
 ---
 description: このガイドラインに従うと、同じ cookie ドメインを使用して、様々なタイプの導入で訪問を追跡できるようになります。
 keywords: Analytics Implementation
-solution: Analytics
 title: 実装のガイドライン
 topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
