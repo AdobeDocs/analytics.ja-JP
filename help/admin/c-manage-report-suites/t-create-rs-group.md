@@ -1,11 +1,10 @@
 ---
-description: レポートスイートグループを作成する方法を説明する手順。
-solution: Analytics
+description: レポートスイートグループを作成する方法について手順を説明します。
 title: レポートスイートグループの作成
 topic: Admin tools
 uuid: 4a5c9a8e-518e-43a0-8ed6-6275825009f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,9 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 [!UICONTROL Report Suite Manager] では、レポートスイートをカスタムグループにまとめて整理できます。グループにまとめることで、類似した設定を共有するレポートスイートや、よく一緒に編集する複数のレポートスイートに一括してすばやくアクセスできます。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. [!UICONTROL レポートスイートグループ]エリアでレポートスイートを選択します。
 1. レポートスイートグループの名前を入力します。
 1. [!UICONTROL レポートスイートリスト]から[!UICONTROL レポートスイートをここにドラッグ]エリアにレポートスイートをドラッグします。
 
-   Click `Ctrl+click` and `Shift+click` to select multiple report suites and drag them to the group.
+   複数のレポートスイートを選択する場合には、`Ctrl+click` キーまたは `Shift+click` キーを押しながらクリックしてグループにドラッグします。
