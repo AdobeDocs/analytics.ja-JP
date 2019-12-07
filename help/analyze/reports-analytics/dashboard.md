@@ -1,12 +1,11 @@
 ---
 description: ダッシュボードは、レポートレットと呼ばれるサムネイル表示されたレポートの集まりです。ダッシュボードは、検索方法や訪問者プロファイルのような、特定の切り口で分析するための関連レポートレットをいくつも掲載する場合に特に便利です。
-solution: Analytics
 subtopic: Dashboards
 title: ダッシュボードおよびレポートレット
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -50,7 +49,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 出口ページ
 * 最頻訪問ページ
 * 最頻訪問サイトセクション
-* KPI/ゲージレポートレット
+* KPI／ゲージレポートレット
 * テキストレポートレット
 * 会社サマリレポートレット
 
@@ -83,7 +82,7 @@ t_dashboard_add.xml
 1. 項目をレポートレットのキャンバスにドラッグして、使用できるコンテンツをダッシュボードに追加します。
 
    「レポート [レットの作成」および「ダッシュボード](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) 設定 [の編集」を参照してください](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
-1. Click **[!UICONTROL Save.]**
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
    ダッシュボードを保存すると、**[!UICONTROL ダッシュボード]メニューで使用できるようになります。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (「ダッシュボ [ードの管理](/help/analyze/reports-analytics/dashboard-manage.md)」を参照)。
 
@@ -167,7 +166,7 @@ t_dashboard_content.xml
 
    ダッシュボードに追加済みの項目が表示されます。
 
-1. Click **[!UICONTROL Save.]**
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## ダッシュボードとレポートレットのデータの編集 {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
@@ -184,7 +183,7 @@ t_dashboard_edit.xml
 1. Click **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]** &gt; *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
-| 目的 | 手順 |
+| 設定値 | 手順 |
 |--- |--- |
 | ダッシュボードレポートスイートに変更する | Experience Cloud ヘッダーのメニューをクリックし、レポートスイートを選択します。 |
 | レポートレットのレポートスイートを変更する | レポートレットで、レポートスイート名をクリックし、[!UICONTROL レポートスイート]メニューからレポートスイートを選択します。 |
@@ -209,7 +208,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** /管理 **[!UICONTROL 者]** /カンパニー **[!UICONTROL 設定]**。
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL カンパニー設定]**.
 1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1.  画像を参照してアップロードし、「**[!UICONTROL 保存]」をクリックします。**
