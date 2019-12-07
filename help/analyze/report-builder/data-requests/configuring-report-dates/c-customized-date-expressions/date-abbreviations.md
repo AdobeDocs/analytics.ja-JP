@@ -1,11 +1,10 @@
 ---
 description: 日付の略語では、日付の直接指定ではなく、期間の開始や終了を表す条件を指定します。日付の範囲は、2 つの略語（または条件）で開始日と終了日を指定することによって表現します。
-solution: Analytics
 title: 日付の略語
 topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
