@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics では、Analytics 機能、Adobe Experience Cloud、Adobe Target および統合された他の Adobe 製品を使用して、強力かつ重要な閲覧者セグメントを構築、管理、共有し、レポートに適用できます。
 keywords: segmentation;segments
-solution: Analytics
 title: Analytics のセグメント
 topic: Segments
 uuid: 845c1743-1264-4090-bccc-78830477f52e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,4 +22,4 @@ Analytics のセグメント機能には、セグメントを作成して事前�
 
 **はじめに**
 
-セグメント [ワークフローの設定またはセグメ](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) ントの作成を始めるか [、概要につ](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)いては [「セグメントについて](/help/components/c-segmentation/seg-overview.md) 」を参照してください。
+[セグメントワークフローの設定](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)または[セグメントの作成](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)を開始するか、「[セグメントについて](/help/components/c-segmentation/seg-overview.md)」で概要を確認してください。
