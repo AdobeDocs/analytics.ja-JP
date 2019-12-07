@@ -1,13 +1,12 @@
 ---
 description: JavaScript プラグインは通常 doPlugins 関数と呼ばれ、t() 関数が貼り付けるコードに呼び出される時に実行されます。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: doPlugins 関数を使用したプラグインの呼び出し
 topic: Developer and implementation
 uuid: 95dd01de-8136-4ec9-aac9-4a3d5371b839
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
