@@ -1,10 +1,9 @@
 ---
 description: 特定期間内の昨年の日別サーバーコール数平均に加え、今年のサーバーコールの予想増加量を取得できます。その後、この増倍率に基づいて、トラフィックスパイクをスケジュールできます。
-solution: Analytics
 title: 過去のサーバーコールの推定とトラフィックスパイクのスケジュール
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,20 +12,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 特定期間内の昨年の日別サーバーコール数平均に加え、今年のサーバーコールの予想増加量を取得できます。その後、この増倍率に基づいて、トラフィックスパイクをスケジュールできます。
 
-1. Log in to Analytics as an Admin and go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Traffic Management]**.
+1. Analytics に管理者としてログインし、**[!UICONTROL 管理者]**／**[!UICONTROL トラフィック管理]**&#x200B;に移動します。
 
-1. 「**[!UICONTROL 展開]**」をクリックしてレポートスイートのリストを展開し、「**レポートスイートを選択[!UICONTROL 」をクリックして複数のレポートスイートを選択します。]**
+1. 「**[!UICONTROL 展開]**」をクリックしてレポートスイートのリストを展開し、「**[!UICONTROL レポートスイートを選択]**」をクリックして複数のレポートスイートを選択します。
 
-1. Click **[!UICONTROL Schedule Spikes]**.
-1. Under **[!UICONTROL Past Server Calls]**, select a start and end date for the selected report suites.
+1. 「**[!UICONTROL スケジュールスパイク]**」をクリックします。
+1. 「**[!UICONTROL 過去のサーバーコール]**」で、選択したレポートスイートの開始日と終了日を選択します。
 
    「ピーク日」の値には、「ピーク日のサーバーコール」と「1 日当たりのサーバーコール平均」が生成されます。
 
-1. Input a value for the multiplication factor and click **[!UICONTROL Click to multiply and set]**.
+1. 乗算の係数の値を入力し、「**[!UICONTROL クリックして乗算と設定]**」をクリックします。
 
    各レポートスイートの各列の値が乗算されます。
 
-1. Under **[!UICONTROL Set Spike Parameters]**, submit the spike parameters for the selected report suites.
+1. 「**[!UICONTROL スパイクパラメータの設定]**」で、選択したレポートスイートのスパイクパラメーターを送信します。
 
    選択したレポートスイートそれぞれにスパイクがスケジュールされます。
 
