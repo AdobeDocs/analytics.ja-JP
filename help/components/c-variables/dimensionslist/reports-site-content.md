@@ -1,18 +1,17 @@
 ---
 description: サイトで最もアクティブなページや領域、および最もよく利用されているサーバーに関する情報が表示されます。
-solution: Analytics
 title: サイトコンテンツ
 topic: Reports
 uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # サイトコンテンツ
 
-サイトのどのページと領域が最もアクティブで、どのサーバーが最もよく利用されているかが表示されます。
+サイトで最もアクティブなページや領域、および最もよく利用されているサーバーに関する情報が表示されます。
 
 ## サイトコンテンツ {#topic_FD13C8F186514D16A52275BC68084F41}
 
