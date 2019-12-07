@@ -1,12 +1,11 @@
 ---
 description: 統合ウィザードを完了するには、トークンが必要です。 このIDを探すには、次の手順を実行します。
-solution: Analytics
 subtopic: Qualtrics
 title: Qualtrics Adobe Analyticsトークンの生成
 topic: Data connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
