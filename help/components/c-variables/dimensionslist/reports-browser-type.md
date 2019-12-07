@@ -1,11 +1,10 @@
 ---
 description: 訪問者が使用しているブラウザーのタイプ（Internet Explorer、Mozilla Firefox、Google Chrome など）を示します。
-solution: Analytics
 title: ブラウザータイプ
 topic: Reports
 uuid: c755abce-ac24-42b6-b118-a971af7f6a59
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
