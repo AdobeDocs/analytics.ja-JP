@@ -1,12 +1,11 @@
 ---
 description: FTP を使用してデータファイルをアップロードする方法について手順を説明します。
-solution: Analytics
 subtopic: Classifications
 title: FTP インポート
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 
-**[!UICONTROL 管理者]** /分 **[!UICONTROL 類インポーター]**。
+**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;に移動します。
 
 次の推奨限度に注意してください。
 
@@ -34,9 +33,9 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 その月のユニーク値が超過すると、その超過した値に対応する分類データはレポート上で表示されません。このような分類は、data warehouse または ad hoc analysis で表示できます。
 
-> [!NOTE] 分類データファイルの処理に要する時間は、ファイルのサイズと、アドビのサーバーで処理中のファイルの数によって異なります。 データファイルの処理にかかる時間は、通常 72 時間以内です。
+> [!NOTE]分類データファイルの処理にかかる時間は、ファイルサイズと、アドビのサーバーで処理中のファイルの数によって異なります。データファイルの処理にかかる時間は、通常 72 時間以内です。
 
-FTP を使用してデータをアップロードする前に、FTP アカウントを作成します。詳しくは、 [FTP アカウントの作成](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+FTP を使用してデータをアップロードする前に、FTP アカウントを作成します。For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## FTP を使用した分類のインポート {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -48,16 +47,16 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 FTP アカウントを使用して分類を Adobe Analytics にインポートする方法について手順を説明します。
 
-FTP アカウントの作成について詳しくは、 [FTP アカウントの作成](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+FTP アカウントの作成について詳しくは、[FTP アカウントの作成](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)を参照してください。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
-1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
+1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
+1. 「**[!UICONTROL ファイルのインポート]**」をクリックしてから「**[!UICONTROL FTP インポート]**」をクリックします。
+1. 使用する FTP アカウントの横の「**[!UICONTROL 表示]**」をクリックします。
 1. FTP アクセス情報（ホスト、ログイン、パスワード）を使用して、選択した FTP クライアントで FTP サーバーにアクセスします。
-1. Upload the data file ( [!DNL .tab] or [!DNL .txt]) to the FTP server.
+1. データファイル（[!DNL .tab] または [!DNL .txt]）を FTP サーバーにアップロードします。
 1. データファイルをアップロードしたら、ファイルの処理準備が完了したことを示す FIN ファイルをアップロードします。
 
-   The FIN file is an empty file that has the same name as your data file, with a [!DNL .fin] filename extension. For example, if your data file is [!DNL classdata1.tab], the FIN filename is [!DNL classdata1.fin].
+   この ファイルは、使用するデータファイルと同じ名前を持つ空のファイルで、ファイル名の拡張子は [!DNL .fin] です。例えば、使用するデータファイルが [!DNL classdata1.tab] の場合、 ファイルの名前は [!DNL classdata1.fin].fin です。
 
 関連する FIN ファイルを持つアップロードされたデータファイルは、定期的に、アドビによって取得されます。アドビは、FTP アカウント設定で指定されたレポートスイートとデータセットに、これらのファイルをインポートします。
 
@@ -73,9 +72,9 @@ t_create_an_ftp_account.xml
 
 Adobe FTP サーバーについて詳しくは、「[FTP と SFTP（FTP and SFTP）](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/)」を参照してください。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
-1. On the **[!UICONTROL Import File]** tab, click **[!UICONTROL Add New]**.
+1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
+1. 「**[!UICONTROL ファイルのインポート]**」をクリックしてから「**[!UICONTROL FTP インポート]**」をクリックします。
+1. 「**[!UICONTROL ファイルのインポート]**」タブで、「**[!UICONTROL 新規追加]**」をクリックします。
 1. FTP アカウントについて次の詳細を指定します。
 
    | 要素 | 説明 |
