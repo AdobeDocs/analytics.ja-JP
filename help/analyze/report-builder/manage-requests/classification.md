@@ -1,11 +1,10 @@
 ---
 description: 分類は、分析レポートデータの行項目を別の観点でまとめるために使用します。分類は様々な目的で使用できますが、最も一般的な使用目的はキャンペーンのトラッキングコード（内部および外部）や製品 ID の分類です。
-solution: Analytics
 title: 分類
 topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
