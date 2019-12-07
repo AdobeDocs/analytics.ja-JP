@@ -1,11 +1,10 @@
 ---
 description: 様々な国の顧客が成功指標に与えている影響を表示します。このディメンションは、送信元ドメインの拡張子に基づいて訪問者の居住地域を識別します。
-solution: Analytics
 title: トップレベルドメイン
 topic: Reports
 uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
