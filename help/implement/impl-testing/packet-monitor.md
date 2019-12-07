@@ -1,13 +1,12 @@
 ---
 description: パケットアナライザーを使用すると、導入によってアドビのデータ収集サーバーに送信されたデータを表示できます。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Debugger
 title: パケットアナライザー
 topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
