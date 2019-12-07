@@ -1,11 +1,10 @@
 ---
 description: SFTPは、データを転送するための安全なプロトコルであり、自分以外の誰もデータを見ることができないようにします。 Adobe Engineering Servicesでは、SFTPアカウントを設定して、データを安全に保持できます。
 keywords: ftp;sftp
-solution: Analytics
 title: セキュアファイル転送プロトコル - 概要
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
