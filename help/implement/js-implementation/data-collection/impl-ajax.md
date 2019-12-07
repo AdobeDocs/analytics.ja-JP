@@ -1,12 +1,11 @@
 ---
 description: AJAX による導入は、標準的な HTML ページ上にコードを導入することと非常によく似ています。
 keywords: Analytics Implementation
-solution: Analytics
 title: AJAX による実装
 topic: Developer and implementation
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
