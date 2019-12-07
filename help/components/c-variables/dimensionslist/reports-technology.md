@@ -1,11 +1,10 @@
 ---
 description: これらのレポートには訪問者が使用するブラウザー、オペレーティングシステム、画面の解像度などの情報が表示されます。
-solution: Analytics
 title: 技術
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,7 +43,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 画面の色 </td> 
-   <td colname="col2"> <p> 訪問者のコンピューターで設定されている、訪問者の最も人気の高い画面の色を表示します。 画面の色とは、画面に表示される色の数のことです。 </p> </td> 
+   <td colname="col2"> <p> 訪問者のコンピューターで設定されている、最も人気の高い画面の色を表示します。画面の色とは、画面に表示される色の数のことです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 画面の解像度 </td> 
@@ -60,7 +59,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript のバージョン </td> 
-   <td colname="col2"> <p> 訪問者がサイトを閲覧している間に、訪問者のブラウザが使用するJavaScriptのバージョンを表示します。 </p> </td> 
+   <td colname="col2"> <p> 訪問者がサイトを閲覧しているときの、訪問者のブラウザーが利用している JavaScript のバージョンを表示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookie </td> 
