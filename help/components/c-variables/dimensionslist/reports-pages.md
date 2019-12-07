@@ -1,18 +1,17 @@
 ---
 description: トラフィックの多い順にページを一覧表示します。ページの量的データに関するものであれば、必要な指標を追加することでこのレポートを使ってその情報を得ることができます。
-solution: Analytics
 title: ページ
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # ページ
 
-トラフィックの多い順にページを一覧表示します。必要情報がページの量的データに関するものであれば、必要な指標を追加することでこのレポートを使ってその情報を得ることができます。
+トラフィックの多い順にページを一覧表示します。ページの量的データに関するものであれば、必要な指標を追加することでこのレポートを使ってその情報を得ることができます。
 
 ## 配分、有効期限および特別な値 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -22,7 +21,7 @@ Reports &amp; Analytics の場合、ページレポートの指標では線形�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry">Reports &amp;  <p>Analytics </p> </th> 
+   <th colname="col2" class="entry">レポート &amp; <p>Analytics </p> </th> 
    <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
    <th colname="col5" class="entry"> Analysis Workspace </th> 
@@ -33,15 +32,15 @@ Reports &amp; Analytics の場合、ページレポートの指標では線形�
    <td colname="col1"> 指標配分 </td> 
    <td colname="col2"> 線形 </td> 
    <td colname="col3"> 配分は、ディメンションによって異なります。デフォルトでは、ラストタッチ配分が使用されますが、「pagename」ディメンションは例外です。カスタムイベントを「pagename」に適用すると、正確なヒット配分が使用されます。 </td> 
-   <td colname="col4"> <p>同じページ表示に設定された値 </p> </td> 
-   <td colname="col5"> <p>同じページ表示に設定された値 </p> </td> 
+   <td colname="col4"> <p>同じページビューに設定された値 </p> </td> 
+   <td colname="col5"> <p>同じページビューに設定された値 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 有効期限 </td> 
-   <td colname="col2"> ページ表示 </td> 
-   <td colname="col3"> ページ表示 </td> 
-   <td colname="col4"> ページ表示 </td> 
-   <td colname="col5"> ページ表示 </td> 
+   <td colname="col2"> ページビュー </td> 
+   <td colname="col3"> ページビュー </td> 
+   <td colname="col4"> ページビュー </td> 
+   <td colname="col5"> ページビュー </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 値の制限 </td> 
