@@ -1,12 +1,11 @@
 ---
 description: スケジュールされた Analysis Workspace プロジェクトを管理します。
 keywords: Analysis Workspace
-solution: Analytics
 title: スケジュール済みプロジェクトマネージャー
 topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,13 +14,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 スケジュールされた Analysis Workspace プロジェクトを管理します。
 
-**[!UICONTROL Analytics]** /コンポ **[!UICONTROL ーネント]** /スケジ **[!UICONTROL ュール済みプ]**&#x200B;ロジェクト。
+**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL スケジュールされたプロジェクト]**。
 
 ![](assets/components-scheduled-projects.png)
 
 スケジュール済みプロジェクトマネージャーでは、定期的なプロジェクト配信を編集および削除できます。レポートを電子メール経由で指定のアドレスに送信する配信スケジュールを設定できます。これらのスケジュールを設定して、ある期間中のみまたは無期限に、指定した間隔でレポートを自動送信したり、定期的なプロジェクトの配信を停止したりできます。
 
-スケジュール済みプロジェクトマネージャーには、特定のユーザーが作成した項目が表示されます。 ユーザーアカウントがアプリケーションで無効になっている場合、予定されたすべての配信が停止されます。
+スケジュールされたプロジェクトマネージャーには、特定のユーザーが作成したアイテムが表示されます。ユーザーアカウントがアプリケーションで無効になっている場合、予定されたすべての配信が停止されます。
 
 ![](assets/scheduled-projects.png)
 
