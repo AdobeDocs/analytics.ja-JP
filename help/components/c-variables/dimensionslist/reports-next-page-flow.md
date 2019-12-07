@@ -1,11 +1,10 @@
 ---
 description: パス表示（限定したパス内で、あるページが閲覧された回数や割合）を示します。例えば、プライバシーポリシーページの総ページビュー数が 10,000 でも、ホームページの直前にこのページが閲覧された回数はそのうち 500 回に過ぎないということがあります。この場合、500 回のパス表示回数を確認できます。このレポートは、訪問または訪問者のレベルで表示できます。ページごとの割合がページ名の横に表示されます。ページを結ぶ線の幅により、訪問回数の相対的な割合が示されます。
-solution: Analytics
 title: 次ページのフロー
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,14 +26,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_A68A0DC384A74DC4895C8B01F760E175"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 製品 </th> 
+   <th colname="col1" class="entry"> 製品      </th> 
    <th colname="col2" class="entry"> 説明 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> 訪問者が特定のページの後に閲覧した最頻訪問ページを 2 つのレベルで表示するには、「<span class="uicontrol">グラフィック</span>」をクリックします。また、このレポートは、訪問者がサイトから離れた日時をハイライトします。 </p> <p>リスト内の次のページを表示するには、「<b>表</b>」をクリックします。<a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  >次のページ レポート</a>と同じように使用できます。なお、それぞれの<i>次のページ</i>をドリルダウンして、2 つのページフローごとに次のページを表示することもできます。 </p> <p>Reports &amp; Analytics ではパス表示が使用されます。 </p> </td> 
+   <td colname="col2"> <p> 訪問者が特定のページの後に閲覧した最頻訪問ページを 2 つのレベルで表示するには、「<span class="uicontrol">グラフィック</span>」をクリックします。また、このレポートは、訪問者がサイトから離れた日時をハイライトします。 </p> <p>リスト内の次のページを表示するには、「<b>表</b>」をクリックします。<a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  >次のページレポート</a>と同じように使用できます。なお、それぞれの<i>次のページ</i>をドリルダウンして、2 つのページフローごとに次のページを表示することもできます。 </p> <p>Reports &amp; Analytics ではパス表示が使用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
