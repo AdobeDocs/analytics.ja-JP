@@ -1,11 +1,10 @@
 ---
 description: 詳細なサイトパス分析データを示し、訪問者がサイトの特定のページにアクセスした後に閲覧したページを特定します。例えば、サイト全体を選択してレポートするとき、レポートには最上位 10 のランディングページに続いて、各ランディングページの次に最頻訪問されるページが 5 つずつ表示されます。このデータは、どのコンテンツ、特集などが最もよく訪問者をひきつけてサイト内を移動させるかを把握するのに役立ちます。
-solution: Analytics
 title: 次のページ
 topic: Reports
 uuid: 4abecb9c-efc4-4844-9712-f352b2570936
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
