@@ -1,11 +1,10 @@
 ---
 description: ログファイルはテキストファイルです。ファイルが Web サイトから取得されるタイミングに関連するデータを保存するために、サーバーで使用されます。収集される情報には、日時、使用された URL、IP アドレス、要求の状態などがあります。
-solution: Analytics
 title: ログファイル
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
