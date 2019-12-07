@@ -1,12 +1,11 @@
 ---
 description: 分類ファイル内の分類データをエスケープする方法について手順を説明します。
-solution: Analytics
 subtopic: Classifications
 title: 分類データのエスケープ
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,11 +22,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >To specify a format of v2.1, enable **[!UICONTROL Quoted Output]** when exporting the file on the [!UICONTROL Classification Importer] page ( [!UICONTROL Browser Export] or [!UICONTROL FTP Export]).
+   >バージョン 2.1 の形式を指定するには、[!UICONTROL 分類インポーター]ページ（[!UICONTROL ブラウザーの書き出し]または [!UICONTROL FTP の書き出し]）でファイルを書き出すときに&#x200B;**[!UICONTROL 引用の出力]**&#x200B;を有効にします。
 
-1. Surround the field containing special characters in double quotes (`"`).
+1. 特殊文字を含むフィールドを二重引用符（`"`）で囲みます。
 
-A double quote character can appear in an escaped cell by replacing it with two double quote characters (`" "`). 次に例を示します。
+エスケープされたセル内では、2 つの二重引用符文字（`" "`）を使用することによって、二重引用符文字を指定できます。次に例を示します。
 
 ```
 My String "of data"
