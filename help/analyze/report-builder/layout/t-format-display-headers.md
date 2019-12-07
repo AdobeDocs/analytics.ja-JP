@@ -1,11 +1,10 @@
 ---
 description: レポートに名前を付けたり、行ヘッダーと列ヘッダーの表示方法を設定したりすることができます。ピボットレイアウトとカスタムレイアウトで、「フォーマットオプション」のリンクから指定できます。
-solution: Analytics
 title: 表示ヘッダーのフォーマット
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
