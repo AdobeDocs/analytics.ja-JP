@@ -1,11 +1,10 @@
 ---
 description: デバイスで JavaScript が有効、無効、不明のいずれであるかに基づいて指標を表示します。
-solution: Analytics
 title: JavaScript サポート
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 デバイスで JavaScript が有効、無効、不明のいずれであるかに基づいて指標を表示します。
 
-> [!NOTE] 2016年11月始めに、モバイルデバイス用にJavaScriptが常に表示されるという制限を撤廃する *`disabled / unidentified`* 予定です。
+> [!NOTE]2016 年 11 月始めには、モバイルデバイスで JavaScript が常に *`disabled / unidentified`* とリストされる制約を削除することを予定しています。
 
 JavaScript レポートは、生データの javascript 列に対応します。
 
