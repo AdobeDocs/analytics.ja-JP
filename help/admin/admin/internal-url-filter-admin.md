@@ -1,11 +1,10 @@
 ---
 description: 内部 URL フィルターは、サイト内部のリファラーを識別します。トラフィックソースレポートにデータを入力したり、内部トラフィックにフィルターをかけるのに役立ちます。
-solution: Analytics
 title: 内部 URL フィルター
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 内部 URL フィルターは、サイト内部のリファラーを識別します。トラフィックソースレポートにデータを入力したり、内部トラフィックにフィルターをかけるのに役立ちます。
 
-リファラー（参照元ページ）は、通常訪問者がサイトを訪問する前に表示したページです。データの歪曲を避けるために、自社の内部リファラーをフィルターして除外できます。レポートでは、 リファラ [ーレポート](/help/components/c-variables/dimensionslist/reports-referrers.md)、参照 [ドメインレポート](/help/components/c-variables/dimensionslist/reports-referring-domains.md)、その他の検索方法レポート。
+リファラー（参照元ページ）は、通常訪問者がサイトを訪問する前に表示したページです。データの歪曲を避けるために、自社の内部リファラーをフィルターして除外できます。レポートでは、[リファラーレポート](/help/components/c-variables/dimensionslist/reports-referrers.md)、[参照ドメインレポート](/help/components/c-variables/dimensionslist/reports-referring-domains.md)、その他の検索方法レポートから、フィルタリングされたリファラーを除外します。
 
 トラフィックソースレポートにデータが入力されない理由で最も多いのは、内部 URL フィルターリストが定義されていないというものです。どの内部 URL フィルターがレポートスイートで設定されているかをチェックするには、これらの手順に従います。この問題を回避するには、フィルターとしてピリオド（.）がリストされているルールを削除し、自分のサイトを追加します。
 
