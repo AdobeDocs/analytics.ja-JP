@@ -1,13 +1,12 @@
 ---
 description: apl（または appendList）プラグインを使うと、任意のコンマ区切り形式のリストに値を付加できます。大文字と小文字の区別をするかしないかのオプションがあり、値がリストに存在しないことを確認するチェックもおこなえます。APL プラグインはいくつかの標準プラグインによって参照されますが、さまざまな状況で直接使うことができます。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: appendList
 topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ apl（または appendList）プラグインを使うと、任意のコンマ区
  <tbody> 
   <tr> 
    <td colname="col1"> <p>シナリオ </p> </td> 
-   <td colname="col2"> <p>イベントが重複しないことを確認しながら<span class="term"> event1 </span> を現在のイベント変数に追加します。 </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Add <span class="term"> event1 </span> to the current events variable while ensuring the event isn't duplicated. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コード </p> </td> 
