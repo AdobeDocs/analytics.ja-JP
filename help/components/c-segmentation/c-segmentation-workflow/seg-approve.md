@@ -1,11 +1,10 @@
 ---
 description: セグメントマネージャでは、アプリケーションの各種レベル向け、特定の部門またはグループ向け、およびレポーティングポリシーに合致したセグメントを承認するワークフローを設定できます。
-solution: Analytics
 title: セグメントの承認
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,12 +16,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 次に、セグメントに承認フラグを設定する方法を示します。
 
 1. セグメントマネージャで、セグメントタイトルの左側にあるチェックボックスを選択します。
-1. セグメント管理タスクバーの「**[!UICONTROL 承認]」をクリックします。**
+1. セグメント管理タスクバーの「**[!UICONTROL 承認]**」をクリックします。
 1. 承認済みセグメントを組織で共有することを検討します。
 1. 「**[!UICONTROL OK]**」をクリックします。
 1. リスト内のセグメントの横に承認アイコンがあることに注意します。
 
    ![](assets/seg_approved.png)
 
-1. You can also unapprove an approved segment by clicking **[!UICONTROL Unapprove]**.
+1. また、「**[!UICONTROL 未承認]**」をクリックすると、承認済みセグメントを未承認にすることもできます。
 
