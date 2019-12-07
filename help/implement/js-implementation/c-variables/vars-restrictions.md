@@ -1,13 +1,12 @@
 ---
 description: JavaScript 変数で使用できない文字および文字列です。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: JavaScript での無効な文字
 topic: Developer and implementation
 uuid: 04e3b4b4-7ff5-4673-8060-34302b6ee545
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
