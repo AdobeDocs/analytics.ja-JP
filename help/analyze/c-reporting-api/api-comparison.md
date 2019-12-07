@@ -1,10 +1,9 @@
 ---
 description: Analytics レポート API の比較表です。サポートドキュメントへのリンクが設定されています。
-solution: Analytics
 title: Analytics レポート API の比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -77,10 +76,10 @@ Analytics レポート API の比較表です。サポートドキュメント�
   </tr> 
   <tr> 
    <td colname="col1"> <b>Analytics SKU</b> </td> 
-   <td colname="col2"> Standard+ </td> 
-   <td colname="col3"> Standard+ </td> 
+   <td colname="col2"> 標準+ </td> 
+   <td colname="col3"> 標準+ </td> 
    <td colname="col4"> Premium Complete または Predictive Intelligence </td> 
-   <td colname="col5"> Standard+ </td> 
+   <td colname="col5"> 標準+ </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ドキュメント</b> </td> 
