@@ -1,11 +1,10 @@
 ---
 description: パーティシペーション指標を追加する方法について手順を説明します。
-solution: Analytics
 title: パーティシペーション指標の追加
 topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,14 +13,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 パーティシペーション指標を追加する方法について手順を説明します。
 
-Participation has to be [enabled](/help/components/c-variables/c-metrics/metrics-participation.md) for events (1-100) in the Admin Tools before you can add them to a report.
+パーティシペーションをレポートに追加する前に、管理ツールでイベント（1-100) に対するパーティシペーションを[有効](/help/components/c-variables/c-metrics/metrics-participation.md)にしておく必要があります。
 
 パーティシペーション指標は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーで作成することもできます。
 
 1. ログインして、要求したパーティシペーション指標に関するコンバージョンレポートまたはトラフィックレポートに移動します。
-1. Click **[!UICONTROL Add Metrics]**.
-1. Under the **[!UICONTROL Metric Type]** menu, select **[!UICONTROL Participation]**.
-1. Drag the desired participation metrics to the columns canvas, then click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL 指標の追加]**」をクリックします。
+1. **[!UICONTROL 指標タイプ]**&#x200B;メニューで、「**[!UICONTROL パーティシペーション]**」を選択します。
+1. 必要なパーティシペーション指標を列キャンバスにドラッグして、「**[!UICONTROL OK]**」をクリックします。
 
    結果のレポートに、パーティシペーション指標と割合（%）および括弧で囲まれた数値が表示されます。
 
