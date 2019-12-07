@@ -1,11 +1,10 @@
 ---
 description: 現在、Adobe Report Builder には、Analytics 管理ツールの権限設定に似た権限設定があります。
-solution: Analytics
 title: ディメンションおよび指標のユーザーアクセス権限
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
