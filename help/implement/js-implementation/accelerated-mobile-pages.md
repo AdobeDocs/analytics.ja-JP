@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics に Accelerated Mobile Pages（AMP）プロジェクトを導入します。
 keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
-solution: Analytics
 title: Accelerated Mobile Pages
 topic: Developer and implementation
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -175,7 +174,7 @@ s.t();
 
 最後に、iframe は個別のページとして読み込み、そのページの JavaScript を完全に実行するので、AMP は、AMP 標準が意図したよりも重くなります。ただし、これはページ読み込み時間には影響しません（iframe はページの読み込み終了後に読み込まれます）が、CPU およびネットワークは、使用しない場合に比べてわずかに影響を受け、スクロールのスムーズさに影響します。実際のところ、大きな影響は確認していませんが、このアプローチのユーザーエクスペリエンスに与える影響を最小化するために、Google と提携しています。
 
-## 概要 {#section_4D8ED26084F249738A5C2BC66B933A07}
+## 概要{#section_4D8ED26084F249738A5C2BC66B933A07}
 
 クリックトラッキングが必要で、訪問者がサイトとは区別されたまったく新しい訪問者としてカウントされることを気にしない場合は、`"adobeanalytics"` トラッキングテンプレートを、データを *`separate report suite`* に配置することをお勧めします。[!DNL Experience Cloud] ID サービスが必要で、訪問者または訪問の水増しを望まず、ページ読み込み時にのみ Analytics を実行するので問題ない場合は、`"adobeanalytics_nativeConfig"` ソリューションの使用をお勧めします。
 
