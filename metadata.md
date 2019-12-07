@@ -1,6 +1,7 @@
 ---
 cloud: experience-cloud
 product: adobe analytics
+solution: Analytics
 solution-title: ラーニングとサポート
 solution-hub-url: https://helpx.adobe.com/jp/support/analytics.html
 solution-image: assets/analytics-icon-24.png
@@ -11,7 +12,7 @@ tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
 translation-type: tm+mt
-source-git-commit: e483f984cbd80ada0713c0e30a60f22280665d36
+source-git-commit: 2a304dd963273b43d23d5f39fbc9d4000d893f32
 
 ---
 
