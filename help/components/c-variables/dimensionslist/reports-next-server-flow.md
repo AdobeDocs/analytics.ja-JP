@@ -1,11 +1,10 @@
 ---
 description: サイトのサーバー間のナビゲーションデータを示します。サイトからサーバー名を選択すると、1 回の訪問中または複数の訪問にわたって、そのサーバーからこのサイトの他の各サーバーに移動した訪問者の数が次サーバーのフローに表示されます。
-solution: Analytics
 title: 次サーバーのフロー
 topic: Reports
 uuid: d2ead6a9-9b64-434b-963e-6c66b94ae662
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,4 +13,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 サイトのサーバー間のナビゲーションデータを示します。サイトからサーバー名を選択すると、1 回の訪問中または複数の訪問にわたって、そのサーバーからこのサイトの他の各サーバーに移動した訪問者の数が次サーバーのフローに表示されます。
 
-例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`.
+例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。例えば、`www.mysite.com` から `info.mysite.com` や `sales.mysite.com` に移動した訪問者の数などをレポートで確認できます。
