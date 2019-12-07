@@ -1,11 +1,10 @@
 ---
 description: 訪問者がサイトを見つけたときに使用した各有料検索キーワードの分類を表示します。リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
-solution: Analytics
 title: 有料検索キーワード
 topic: Reports
 uuid: e8a2c075-e6e4-41ce-8e1f-0b77d278e9aa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
