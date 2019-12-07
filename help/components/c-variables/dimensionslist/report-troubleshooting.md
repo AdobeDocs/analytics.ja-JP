@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics は、複雑な各種のレポートを生成できる柔軟なレポートインターフェイスを備えています。ほとんどのレポートは非常に短時間で生成できますが、一部のレポートでタイムアウトしたり、正常に生成できない場合があります。ここでは、レポート生成に失敗しないようにするため、レポートの生成速度に影響を与える数多くの要因について説明します。ここで説明されている情報を理解することで、レポートの構造を適切に設計して、レポートが正常に生成される確率を高めることができます。
 keywords: best practices;failure;timeout;troubleshooting;slow
-solution: Analytics
 title: レポート作成のベストプラクティスとトラブルシューティング
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,10 +14,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe Analytics は、複雑な各種のレポートを生成できる柔軟なレポートインターフェイスを備えています。ほとんどのレポートは非常に短時間で生成できますが、一部のレポートでタイムアウトしたり、正常に生成できない場合があります。ここでは、レポート生成に失敗しないようにするため、レポートの生成速度に影響を与える数多くの要因について説明します。ここで説明されている情報を理解することで、レポートの構造を適切に設計して、レポートが正常に生成される確率を高めることができます。
 
->[!N注]
->以下の推奨事項は、Reports &amp; Analytics、Ad Hoc AnalysisおよびReport Builderに適用されます。
->独自のベストプラクティスを持つAnalysis Workspaceには適用され [ません](/help/analyze/analysis-workspace/optimizing-performance.md)。 They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). 追加の
->[adobe Analytics Reporting APIのベストプラクティス](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) （英語のみ）を参照してください。
+>[!Note]
+>これらの推奨事項は、Reports &amp; Analytics、Ad Hoc Analysis および Report Builder に適用されます。
+>独自の[ベストプラクティス](/help/analyze/analysis-workspace/optimizing-performance.md)を持つ Analysis Workspace には適用され ません。また、これらは Data Warehouse の[ベストプラクティス](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)にも適用されません。追加の
+>[ベストプラクティス](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) は Adobe Analytics レポート API で利用できます。
 
 ## レポートのタイムアウトとリクエストキュー {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
