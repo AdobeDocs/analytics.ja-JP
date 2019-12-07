@@ -1,12 +1,11 @@
 ---
-description: ユーザーグループをレポートスイートに割り当てる方法を説明する手順。
-solution: Analytics
+description: ユーザーグループをレポートスイートに割り当てる方法について手順を説明します。
 subtopic: Users and groups
 title: レポートスイートに対するユーザーグループの割り当て
 topic: Admin tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,18 +14,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 ユーザーグループをレポートスイートに割り当てる方法について手順を説明します。
 
-[!UICONTROL レポートスイート]ページでは、会社のレポートスイートを表示し、設定できます。Analytics は、グループメンバーシップでレポートスイートのアクセスを管理します。初回のセットアップで、必要なグループを作成（各グループにレポートスイートを割り当てる）し、ユーザーアカウントを適切な     [グループ](/help/admin/user-management2/c-user-groups/groups.md)に割り当てます。
+[!UICONTROL レポートスイート]ページでは、会社のレポートスイートを表示し、設定できます。Analytics は、グループメンバーシップでレポートスイートのアクセスを管理します。初回のセットアップで、必要なグループを作成（各グループにレポートスイートを割り当てる）し、ユーザーアカウントを適切な[グループ](/help/admin/user-management2/c-user-groups/groups.md)に割り当てます。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Report Suites]**.
-1. レポートスイートの選択.
-1. Under **[!UICONTROL Report Suite Permissions Management]** page, select the groups to assign to the report suite:
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
+1. 「**[!UICONTROL レポートスイート]**」をクリックします。
+1. レポートスイートを選択します。
+1. **[!UICONTROL レポートスイート権限の管理]**&#x200B;ページで、レポートスイートに割り当てるグループを選択します。
 
-   **[!UICONTROL 利用可能なグループ：]**&#x200B;現在定義されているすべてのグループが表示されます。Select the desired groups, then click **[!UICONTROL Add]**. 割り当てられたグループは「次を含むグループ」フィールド（右側）に表示されます。
+   **[!UICONTROL 利用可能なグループ：]**&#x200B;現在定義されているすべてのグループが表示されます。目的のグループを選択し、「**[!UICONTROL 追加]**」をクリックします。割り当てられたグループは「次を含むグループ」フィールド（右側）に表示されます。
 
-   **[!UICONTROL 次を含むグループ：]**&#x200B;レポートスイートに現在割り当てられているすべてのグループが表示されます。To remove a group, select it, then click **[!UICONTROL Remove]**.
+   **[!UICONTROL 次を含むグループ：]**&#x200B;レポートスイートに現在割り当てられているすべてのグループが表示されます。グループを削除するには、グループを選択し、「**[!UICONTROL 削除]**」をクリックします。
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
