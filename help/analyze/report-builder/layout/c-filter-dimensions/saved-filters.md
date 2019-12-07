@@ -1,11 +1,10 @@
 ---
 description: Report Builder にフィルターのパラメーターを保存して、他のワークシートまたはワークブックで使用できます。これらのパラメーターは、他のコンピューターや他の Report Builder ユーザーが使用できるように Analytics サーバー上に保存されます。
-solution: Analytics
 title: 保存済みフィルター
 topic: Report builder
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
