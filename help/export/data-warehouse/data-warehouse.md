@@ -1,11 +1,10 @@
 ---
 description: Data warehouse は、保存用およびデータをフィルタリングして実行できるカスタムレポート用の、Analytics データのコピーを参照します。ユーザー独自の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできます。Data warehouse レポートは、電子メールまたは FTP 経由で送信できます。処理のために最大で 72 時間かかります。処理に要する時間は、クエリの複雑さとリクエストされたデータの量に応じて異なります。
-solution: Analytics
 title: Data Warehouse の概要
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -65,7 +64,7 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 指標の並べ替え</span> </td> 
-   <td colname="col2">Reports &amp; Analytics ユーザーインターフェイス、Data Workbench などに表示されるレポートのような、指標値を降順で並べ替えたランク分類レポートを提供します。<a href="/help/export/data-warehouse/sorting-by-metric.md"  > さらに詳しく...</a> </td> 
+   <td colname="col2">Reports &amp; Analytics ユーザーインターフェイス、Data Workbench などに表示されるレポートのような、指標値を降順で並べ替えたランク分類レポートを提供します。<a href="/help/export/data-warehouse/sorting-by-metric.md"  >詳細...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 配信の予定</span> </td> 
