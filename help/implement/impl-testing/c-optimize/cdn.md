@@ -1,13 +1,12 @@
 ---
 description: Akamai、Speedera などのコンテンツ配信サービスまたはコンテンツ配信ネットワーク（CDN）は、Web コンテンツをネットワークの末端近くにまでプッシュして、頻繁に要求されるドキュメントをアクセスされる場所の近くで保持します。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: コンテンツ配信サービスおよびコンテンツ配信ネットワーク
 topic: Developer and implementation
 uuid: 6cb57c59-d0f9-4ca5-9f15-0e74e585a4a1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
