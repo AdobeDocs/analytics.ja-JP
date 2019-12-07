@@ -1,11 +1,10 @@
 ---
 description: サイトにアクセスする際に経由している Web 上の場所についての情報が表示されます。どの検索エンジンまたはドメイン外の Web サイトから訪問者が送り込まれているかがわかります。
-solution: Analytics
 title: トラフィックソース
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -58,7 +57,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> すべての検索ページのランク </td> 
-   <td colname="col2"> <p> 有料検索ページと自然検索ページのランクデータを含む、訪問者の検索に関するすべてのリストから貴社サイトのランクを表示します。 </p> <p>例えば、検索エンジンから貴社サイトに来たユーザーは 100 ページの検索結果のうち 3 番目に貴社を見つけている場合があります。この機能によって、検索エンジンの作業を迅速に確認し最適化できます。このレポートのデータは「<span class="wintitle">時間別</span>」以外のすべての時間枠で表示できます。 </p> </td> 
+   <td colname="col2"> <p> 有料および自然検索ページのランクデータを含む、訪問者のすべての検索のリストにおけるサイトのランクを表示します。 </p> <p>例えば、検索エンジンから貴社サイトに来たユーザーは 100 ページの検索結果のうち 3 番目に貴社を見つけている場合があります。この機能によって、検索エンジンの作業を迅速に確認し最適化できます。このレポートのデータは「<span class="wintitle">時間別</span>」以外のすべての時間枠で表示できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 参照ドメイン </td> 
@@ -70,16 +69,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> リファラー </td> 
-   <td colname="col2"> <p> 訪問者がどのドメインや URL から Web サイトに来訪したか、訪問者が Web サイトをどのような方法で見つけたか、およびこれらの参照場所から Web サイトへの訪問回数が表示されます。 </p> <p>例えば、訪問者がサイト A からリンクをクリックしてサイトに来訪した場合、ドメインの一部として定義されていない限り、サイト A がリファラーとなります。導入時に、担当の導入コンサルタントが Web サイトの一部となるドメインや URL の定義を支援します（これは導入後におこなうこともできます）。このように定義されたドメインと URL の一部でないドメインや URL は、いずれもリファラーと見なされます。 </p> <p>例えば、Web ページ A と Web ページ B が内部 URL フィルターに追加されていて、Web ページ C が追加されていない場合、Web ページ C はリファラーと見なされます。 </p> <p>詳しくは、 <a href="/help/admin/admin/internal-url-filter-admin.md"> 内部 URL フィルター</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Outlook からの電子メールは「<span class="wintitle">手動入力 / ブックマーク</span>」行に表示されます。ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「<span class="wintitle">検索エンジン</span>」行に表示されます。 </p> </td> 
+   <td colname="col2"> <p> 訪問者がどのドメインや URL から Web サイトに来訪したか、訪問者が Web サイトをどのような方法で見つけたか、およびこれらの参照場所から Web サイトへの訪問回数が表示されます。 </p> <p>例えば、訪問者がサイト A からリンクをクリックしてサイトに来訪した場合、ドメインの一部として定義されていない限り、サイト A がリファラーとなります。導入時に、担当の導入コンサルタントが Web サイトの一部となるドメインや URL の定義を支援します（これは導入後におこなうこともできます）。このように定義されたドメインと URL の一部でないドメインや URL は、いずれもリファラーと見なされます。 </p> <p>例えば、Web ページ A と Web ページ B が内部 URL フィルターに追加されていて、Web ページ C が追加されていない場合、Web ページ C はリファラーと見なされます。 </p> <p>詳しくは、<a href="/help/admin/admin/internal-url-filter-admin.md"> 内部 URL フィルター</a></p>  <p>注意：Analytics は、訪問者が <code> imap://</code> または <span class="filepath">mail://</span> のプロトコルを含む電子メールメッセージリンクをクリックしてサイトに来訪した場合、参照ドメインを電子メールリファラーとして記録します。 </p> <p>例えば <code> https://mail.yahoo.com</code> からの訪問は、プロトコルが <span class="filepath">https://</span> なので、電子メールリファラーとしてカウントされません。Outlook からの電子メールは「<span class="wintitle">手動入力 / ブックマーク</span>」行に表示されます。ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「<span class="wintitle">検索エンジン</span>」行に表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> リファラータイプ </td> 
-   <td colname="col2"> <p> 各訪問に関する訪問者の参照サイトを追跡して記録することで、訪問者が各訪問でサイトを見つけた方法を知ることができます。 以下のリストに、各種のリファラーの定義を示します。 </p> 
+   <td colname="col2"> <p> 各訪問における訪問者の参照サイトを追跡して記録することで、各訪問で訪問者がどのようにしてサイトを見つけたかを知ることができます。以下のリストに、各種のリファラーの定義を示します。 </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> ハードドライブリファラーは、訪問者が自分のハードドライブにある HTML ドキュメント内のリンクをクリックした結果サイトに到着したときに記録されます。 </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> その他の Web サイトリファラーは、（サイトの一部として定義されていない）別の Web サイト上のページにあるリンクをクリックした結果、Web サイトに到達した場合に記録されます。 </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> 検索エンジンリファラーは、訪問者が検索エンジンを使ってサイトにアクセスした場合に記録されます。 </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> 手動入力/ブックマークされたリファラーは、訪問者がURLを直接自分のブラウザに入力したか、ブックマークを選択してサイトにアクセスした場合に記録されます。 </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> 手動入力/ブックマークされたリファラーは、訪問者が URL を直接自分のブラウザーに入力したか、ブックマークを選択したときに記録されます。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
