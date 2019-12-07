@@ -1,12 +1,11 @@
 ---
 description: イベントでは、訪問者が特定の行動をとったタイミングを追跡します。
 keywords: Analytics Implementation;event;success event;currency event;custom event
-solution: Analytics
 title: イベント
 topic: Developer and implementation
 uuid: d2edd432-60bc-4426-9967-153b713147a1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
