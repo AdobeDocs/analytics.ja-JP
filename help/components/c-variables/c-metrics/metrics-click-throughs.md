@@ -1,12 +1,11 @@
 ---
 description: クリックスルーは、a）キャンペーンインスタンス、および b）マーケティングチャネルインスタンスを表します。
 keywords: Campaign Views
-solution: Analytics
 title: クリックスルー
 topic: Metrics
 uuid: da605430-24aa-4713-a5c3-735fac0a3441
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 クリックスルーは、a）キャンペーンインスタンス、および b）マーケティングチャネルインスタンスを表します。
 
-a）キャンペーンインスタンスは、任意のキャンペーンのトラッキングコードがレポーティングに渡された回数を反映します。When a visitor clicks on an affiliate link that has been tagged with one of these tracking codes, the visitor is taken to your landing page and the tracking code is captured in *`s.campaign`*. このデータはレポーティングに送信され、クリックスルーが記録されます。
+a）キャンペーンインスタンスは、任意のキャンペーンのトラッキングコードがレポーティングに渡された回数を反映します。訪問者がこれらのトラッキングコードでタグ付けされたアフィリエイトリンクをクリックすると、ランディングページが開き、トラッキングコードが *`s.campaign`* に取り込まれます。このデータはレポーティングに送信され、クリックスルーが記録されます。
 
 b）マーケティングチャネルに関連して使用される場合、クリックスルーは、マーケティングチャネルでヒットが発生した回数を表します。
 
