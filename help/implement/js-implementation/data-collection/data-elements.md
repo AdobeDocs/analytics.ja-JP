@@ -1,12 +1,11 @@
 ---
 description: ラジオボタンやチェックボックス項目などのフォームエレメントの値をレポートに取り込むことができます。この機能により、オンラインフォームで最も人気の高い選択を分析できます。
 keywords: Analytics Implementation
-solution: Analytics
 title: フォームエレメントからのデータの収集
 topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
