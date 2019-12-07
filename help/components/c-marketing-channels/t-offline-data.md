@@ -1,12 +1,11 @@
 ---
 description: オフラインデータをマーケティングチャネルレポートに追加します。
-solution: Analytics
 subtopic: Marketing channels
 title: オフラインデータの追加
 topic: Reports and analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 オンラインチャネルは、検索エンジン、インターネット広告、参照ドメイン、電子メールキャンペーンなどのリンク元からアクセスした訪問者のデータの分類に使用できます。オフラインチャネルは、テレビの CM、新聞、雑誌の広告などでサイトの情報を見つけて来訪した訪問者の分類に使います。
 
-**データソースのマーケティングチャネルレポートへの統合**
+**マーケティングチャネルレポートへのデータソースの統合**
 
 [データソースのデータ](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html)をマーケティングチャネルレポートに統合する場合は、次の事項に注意してください。
 
@@ -33,11 +32,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **オフラインデータの追加**
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
-1. データソースページで、「**[!UICONTROL 作成]」をクリックします。**
-1. **[!UICONTROL 1未満 Select Category]**, select **[!UICONTROL Offline Channel Data]**.
-1. **[!UICONTROL 2. Select Type]**, select **[!UICONTROL Offline Channel Data]**.
-1. Click **[!UICONTROL Activate.]**
+1. **[!UICONTROL 管理者]**／**[!UICONTROL データソース]**&#x200B;をクリックします。
+1. データソースページで、「**[!UICONTROL 作成]**」をクリックします。
+1. 「**[!UICONTROL 1. カテゴリの選択]**」で、「**[!UICONTROL オフラインチャネルデータ]**」を選択します。
+1. 「**[!UICONTROL 2. タイプの選択]**」で、「**[!UICONTROL オフラインチャネルデータ]**」を選択します。
+1. 「**[!UICONTROL アクティブ化]**」をクリックします。
 1. データソース有効化ウィザードの指示に従って、オフライン指標をレポート指標にマッピングします。
 1. テンプレートファイルをダウンロードし、Excel などのエディターソフトウェアで編集します。
 
