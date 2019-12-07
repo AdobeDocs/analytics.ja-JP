@@ -1,13 +1,12 @@
 ---
 description: pageType 変数は、404（ページが見つかりません）エラーページを指定する目的でのみ使用します。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: pageType 変数の間違った設定
 topic: Developer and implementation
 uuid: eafaf58e-ba07-416f-89b9-694687cc4802
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
