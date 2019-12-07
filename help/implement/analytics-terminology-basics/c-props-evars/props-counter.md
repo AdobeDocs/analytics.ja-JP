@@ -1,12 +1,11 @@
 ---
 description: カウンターによって、特定のイベントまたはプロセスが発生した回数が保存（場合によっては表示）されます。
 keywords: Analytics Implementation;props;s.prop;custom traffic;counters
-solution: Analytics
 title: カウンターとしての prop の使用
 topic: Developer and implementation
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
