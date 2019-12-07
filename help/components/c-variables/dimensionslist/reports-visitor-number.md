@@ -1,11 +1,10 @@
 ---
 description: サイトに来訪する各訪問者の訪問回数を追跡して、訪問者の忠誠度を測定します。選択した期間中にサイトに来訪した訪問者について、初めての訪問の人と 20 回目の訪問の人のどちらが多いかがわかります。
-solution: Analytics
 title: 訪問回数
 topic: Reports
 uuid: f98dafab-9369-4055-a793-5ea0217b78b0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
