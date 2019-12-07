@@ -1,11 +1,10 @@
 ---
 description: コピー元ワークブックのスプレッドシート全体を 1 つ以上のコピー先ワークブックにコピーします。
-solution: Analytics
 title: ワークブック間でのリクエストおよびワークシートのコピー
 topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
