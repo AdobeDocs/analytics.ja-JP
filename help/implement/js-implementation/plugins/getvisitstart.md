@@ -1,12 +1,11 @@
 ---
 description: 新しい訪問が開始しているかを確認します。
 keywords: Analytics Implementation
-solution: Analytics
 title: getVisitStart
 topic: Developer and implementation
 uuid: 7dd3e51f-2f73-4452-a9fb-cac513cd28eb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
