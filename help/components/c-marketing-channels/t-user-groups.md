@@ -1,12 +1,11 @@
 ---
 description: マーケティングチャネルへのユーザーグループのアクセス権を設定します。
-solution: Analytics
 subtopic: Marketing channels
 title: ユーザーグループのアクセス権の設定
 topic: Reports and analytics
 uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 マーケティングチャネルへのユーザーグループのアクセス権を設定します。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Groups]** from the [!UICONTROL User Management] home page.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
+1. 「[!UICONTROL ユーザー管理]」ホームページで、「**[!UICONTROL グループ]**」をクリックします。
 
-   管理ヘルプの「[ユーザー管理](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html)」を参照してください。**
+   *管理ヘルプ*&#x200B;の「[ユーザー管理](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html)」を参照してください。
 
-1.  カスタムグループ名をクリックするか、「**新しいユーザーグループの追加**」をクリックして、ユーザーグループを作成します。
-1. Under Report Access, enable **[!UICONTROL All Access]** or **[!UICONTROL No Access]**.
+1.  カスタムグループ名をクリックするか、「**[!UICONTROL 新しいユーザーグループの追加]**」をクリックして、ユーザーグループを作成します。
+1. 「レポートアクセス」で、「**[!UICONTROL すべてのアクセス]**」または「**[!UICONTROL アクセスできません]**」を有効にします。
 
-現時点では、マーケティングチャネルに対して事前定義されているユーザーグループはありません。Instead, an Admin-level user must create a custom user group that has access to **[!UICONTROL Advanced Reporting]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Marketing Channel Reports]**.
+現時点では、マーケティングチャネルに対して事前定義されているユーザーグループはありません。その代わりに、管理者レベルのユーザーは、**[!UICONTROL 高度なレポート機能]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL マーケティングチャネルレポート]**&#x200B;にアクセスできるカスタムユーザーグループを作成する必要があります。
 
 | フィールド | 定義 |
 |--- |--- |
