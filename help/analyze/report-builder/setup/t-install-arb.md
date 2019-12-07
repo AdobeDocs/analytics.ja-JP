@@ -1,11 +1,10 @@
 ---
 description: Report Builder のインストール手順です。
-solution: Analytics
 title: Report Builder のインストール
 topic: Report builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
