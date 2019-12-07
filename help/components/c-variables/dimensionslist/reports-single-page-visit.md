@@ -1,11 +1,10 @@
 ---
 description: Ad Hoc Analysis の直帰数指標とは異なります。直帰数レポートは、Web サイトへの訪問者が入口として使用し、他のページを表示する手順をおこなわずにそのまま出口に使用したページを示します。
-solution: Analytics
 title: 直帰数
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,14 +21,14 @@ Ad Hoc Analysis の直帰数指標とは異なります。直帰数レポート�
 
 * 直帰数は、単一のイメージリクエストではなく 1 つのユニーク値を含む訪問とみなされます。
 
-   * のコンテキスト内[ページレポート](/help/components/c-variables/dimensionslist/reports-pages.md)のコンテキストでは、1 つだけの個別ページが訪問内で呼び出されます。
-   * サイトセクションレポートのコ [ンテキストでは](/help/components/c-variables/dimensionslist/reports-site-sections.md)、訪問内で単一の個別サイトセクションが呼び出されます。
-   * トラフィック変数のコンテキ [ストでは](/help/admin/admin/c-traffic-variables/traffic-var.md)、1つの一意の値が呼び出された場合に訪問によってこのレポートが設定されます。
+   * のコンテキスト内[ページレポート](/help/components/c-variables/dimensionslist/reports-pages.md)のコンテキストでは、1 つの個別ページのみが訪問内で実行します。
+   * [サイトセクションレポート](/help/components/c-variables/dimensionslist/reports-site-sections.md)のコンテキストでは、1 つの個別サイトセクションが訪問内で実行します。
+   * [トラフィック変数](/help/admin/admin/c-traffic-variables/traffic-var.md)のコンテキストでは、単一のユニーク値が呼び出された場合に訪問によってこのレポートが設定されます。
 
 * レポートのコンテキストにある変数には単一のユニーク値が含まれている限り、多数のイメージリクエストで直帰数が構成されることも可能です。2 番目のユニーク値が入力されると、その訪問は直帰数とはみなされなくなります。
 * これは一種のパスレポートとみなされます。デフォルトでは、[!UICONTROL ページ]変数ではパスが有効になっています。ただし、いずれのトラフィック変数にもこの機能があります。トラフィック変数でパスが有効かどうかは、契約によって異なります。詳しくは、アカウントマネージャーにお問い合わせください。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
-* This report can be viewed in both [trended](/help/components/c-variables/dimensionslist/reports-types.md) and [ranked](/help/components/c-variables/dimensionslist/reports-types.md) formats.
+* このレポートは、[トレンド](/help/components/c-variables/dimensionslist/reports-types.md)および[ランク](/help/components/c-variables/dimensionslist/reports-types.md)の両方のフォーマットで表示できます。
 
 * このレポートで分類は使用できません。
 * このレポート内で使用可能な唯一の指標は[!UICONTROL 訪問回数]です。
