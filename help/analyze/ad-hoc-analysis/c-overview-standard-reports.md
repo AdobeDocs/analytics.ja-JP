@@ -1,11 +1,10 @@
 ---
 description: 標準レポートには、Web サイトと訪問者のアクティビティに関するデータ、トラフィックパターン、リファラーデータ、広告キャンペーン、訪問者保持率、製品データなどが表示されます。レポートを実行し、ツールを使用してセグメント、指標およびレポート比較を設定できます。
-solution: Analytics
 title: レポートの概要
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
