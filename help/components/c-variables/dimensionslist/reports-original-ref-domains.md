@@ -1,11 +1,10 @@
 ---
 description: サイトに顧客を送り込んだオリジナルリファラーを表示します。顧客はサイトを複数回訪問することがあり、各訪問ごとに異なるリファラーを持つことがあるので、オリジナルの参照ドメインは、顧客がサイトに初めてたどり着いたときにどのような参照をおこなってきたかを示します。このディメンションは、リファラーをその基本ドメイン（aol.com、yahoo.com など）によってのみ参照します。
-solution: Analytics
 title: オリジナルの参照ドメイン
 topic: Reports
 uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
