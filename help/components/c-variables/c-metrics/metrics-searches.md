@@ -1,11 +1,10 @@
 ---
 description: 検索エンジンおよびキーワードで推奨されているデフォルト指標。この指標は、クリックスルーのインスタンスを表し、指定されたエンジンまたはキーワードに関連付けられているページを示します。検索指標データは、データセットの最初まで遡って報告できます。
-solution: Analytics
 title: 検索
 topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
