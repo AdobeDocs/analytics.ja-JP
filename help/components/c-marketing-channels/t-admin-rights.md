@@ -1,12 +1,11 @@
 ---
 description: 制限付き管理権限をマーケティングチャネルレポートのユーザーに許可するグループを作成し、ユーザーをそのグループに割り当てます。例えば、管理権限のないユーザーがコストまたは予算金額を入力できるようにするグループを作成できます。
-solution: Analytics
 subtopic: Marketing channels
 title: 制限付き管理権限の許可
 topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 制限付き管理権限をマーケティングチャネルレポートのユーザーに許可するグループを作成し、ユーザーをそのグループに割り当てます。例えば、管理権限のないユーザーがコストまたは予算金額を入力できるようにするグループを作成できます。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Groups.]**
+1. **[!UICONTROL 管理者]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
+1. 「**[!UICONTROL グループ]**」をクリックします。
 1.  カスタムグループ名をクリックするか、「**新しいユーザーグループの追加**」をクリックして、ユーザーグループを作成します。
 
-   管理ヘルプの「[ユーザー管理](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html)」を参照してください。**
+   管理ヘルプの「[ユーザー管理](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html)」を参照してください&#x200B;**。
 
-1. Under Report Access, locate Admin, then click **[!UICONTROL Customize.]**
-1.  「**チャネル**」と「**[!UICONTROL コスト」を有効にします。]**
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Save.]**
+1. 「レポートアクセス」で、「管理者」を見つけて「**[!UICONTROL カスタマイズ]**」をクリックします。
+1.  「**チャネル**」と「**[!UICONTROL コスト]**」を有効にします。
+1. 「**[!UICONTROL OK]**」をクリックしてから「**[!UICONTROL 保存]**」をクリックします。
 
 管理ツールの「ユーザーグループの定義」のフィールドの定義：
 
