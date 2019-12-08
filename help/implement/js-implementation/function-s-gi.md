@@ -1,12 +1,11 @@
 ---
 description: s_gi() 関数は、レポートスイート ID を使用して AppMeasurement のインスタンスを作成したり、検索したりする際に使用します。AppMeasurement は作成されるすべてのインスタンスを内部で追跡しており、s_gi() はレポートスイートに対応する既存のインスタンスがある場合にそれを返します。インスタンスが存在しなければ、新しいインスタンスが作成されて返されます。
 keywords: Analytics Implementation
-solution: Analytics
 title: s_gi() 関数
 topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
