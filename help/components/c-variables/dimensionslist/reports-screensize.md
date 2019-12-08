@@ -1,11 +1,10 @@
 ---
 description: モバイルデバイスからのサイト訪問回数を、デバイスの画面サイズ別にグループ分けします。各画面サイズ、各画面サイズを使用してサイトに来訪した訪問者数、合計ビュー数に対する各画面サイズ使用者の割合が表示されます。画面の高さには高さだけが、画面の幅には幅だけが表示されるのに対して、画面のサイズには画面サイズの高さと幅の両方が表示されます。
-solution: Analytics
 title: 画面のサイズ
 topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
