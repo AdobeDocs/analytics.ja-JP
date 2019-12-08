@@ -1,11 +1,10 @@
 ---
 description: マーケティングチャネル概要レポートは、顧客がサイトに到達する方法のうち最も効果的なのは何かを知るための高度な情報を提供するために設計されています。このレポートは、成功指標と売上高を様々なチャネルに割り振るのに使用します。また、各チャネル内で特に成功している特定のキャンペーンやキーワードを表示できます。ファーストタッチ指標とラストタッチ指標を同時に表示できる、独自の直感的なインターフェイスが含まれています。
-solution: Analytics
 title: マーケティングチャネル概要
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,11 +24,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * [分類](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html)を使用すると、行項目の名前変更や統合ができます。
 * このレポートでは以下の指標を使用できます（組織とレポートスイートの設定に応じて異なります）。
 
-   * **クリックスルー**:変数が定義さ *`s.campaign`* れた回数。
+   * **クリックスルー**：*`s.campaign`* 変数が定義された回数。
 
    * [新規エンゲージメント](https://marketing.adobe.com/resources/help/en_US/mchannel/t_visitor_engagement.html)：新規ファーストタッチチャネルを受け取った訪問者の数。
-   * e コマースのすべての標準的な指標：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、買い物かごからの削除数
-   * すべてのカスタムイベント：イベント 1 ～ 80（H22 コード以上では、さらにイベント 80 ～ 100）
+   * e コマースのすべての標準的な指標：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、買い物かごからの削除数。
+   * すべてのカスタムイベント：イベント 1 ～ 80（H22 コード以上では、さらにイベント 81 ～ 100）。
    * **訪問数**&#x200B;および&#x200B;**訪問者数**：コマース訪問数指標およびコマース訪問者数指標（組織とレポートスイートに依存します）が必要です。詳細については、アカウントマネージャーにお問い合わせください。
 
    * **予算**&#x200B;と&#x200B;**コスト**：マーケティングチャネルに特有の指標。[コストと予算](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html)を参照してください。
@@ -38,7 +37,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **バージョン 14 および 15**
 
-This report can be accessed by going to **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (provided the menu is not customized).
+このレポートにアクセスするには、**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL チャネル概要レポート]**（メニューがカスタマイズされていない場合）を開きます。
 
 このレポートではセグメント化は使用できません。代わりに[!UICONTROL ファーストタッチチャネルまたはラストタッチチャネル]または[!UICONTROL ファースト タッチの詳細またはラストタッチの詳細]レポートを使用してください。
 
