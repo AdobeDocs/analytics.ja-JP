@@ -1,19 +1,18 @@
 ---
-description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data WarehouseおよびData Workbenchのシステム要件と比較
-solution: Analytics
+description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbenchの 機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Analytics 製品の比較と必要システム構成
 
-Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder、Data WarehouseおよびData Workbenchのシステム要件と比較
+以下の表に、Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbenchの 機能の比較と必要システム構成を示します。
 
-For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
+どの Adobe Analytics 製品を使用するかについて詳しくは、[こちら](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)に移動します。
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
@@ -50,7 +49,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> 最大 2 個のセグメント </td> 
    <td> 制限なし </td> 
    <td> 制限なし（データリクエストスタッキング） </td> 
-   <td colname="col06"> 1 個のセグメント。複数のセグメント（スタック）をサポート </td> 
+   <td colname="col06"> 1 個のセグメントの呼び出しの後におこなわれる場合です。複数のセグメント（スタック）をサポート </td> 
    <td colname="col6"> 制限なし </td> 
   </tr> 
   <tr> 
