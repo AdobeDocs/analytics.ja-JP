@@ -1,13 +1,12 @@
 ---
 description: データフィードの各列について説明するテーブルデータです。
 keywords: Data Feed;columns
-solution: Analytics
 subtopic: data feeds
 title: データ列リファレンス
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
