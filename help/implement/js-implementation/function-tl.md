@@ -1,13 +1,12 @@
 ---
 description: ファイルのダウンロード数と離脱リンクは、JavaScript 版 AppMeasurement ファイルで設定されたパラメーターに基づいて、自動的に追跡することができます。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Link tracking
 title: s.tl() 関数 - リンクトラッキング
 topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
