@@ -1,12 +1,11 @@
 ---
 description: 処理ルールは履歴から復元できます。
-solution: Analytics
 subtopic: Processing rules
 title: 処理ルールの復元
 topic: Admin tools
 uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,9 +14,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 処理ルールは履歴から復元できます。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. レポートスイートの選択.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
-1. On the **[!UICONTROL Processing Rules]** page, click the **[!UICONTROL View History]** tab.
-1. Select the last known working rule set, and click **[!UICONTROL Copy to Current Ruleset]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
+1. レポートスイートを選択します。
+1. **[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 処理ルール]**&#x200B;の順にクリックします。
+1. **[!UICONTROL 処理ルール]**&#x200B;ページで、「**[!UICONTROL 履歴の表示]**」タブをクリックします。
+1. 最新の作業ルールセットを選択し、「**[!UICONTROL 現在のルールセットにコピー]**」をクリックします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
