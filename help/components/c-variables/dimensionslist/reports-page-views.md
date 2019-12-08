@@ -1,11 +1,10 @@
 ---
 description: 指定された期間（時間、日、週、月、四半期、年）に Web サイトのページが閲覧された回数を表示するトレンドレポートです。このレポートでは、サイトの各ページのページビュー数と、サイト全体のページビュー合計数を追跡できます。
-solution: Analytics
 title: ページビュー数
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,12 +13,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 指定された期間（時間、日、週、月、四半期、年）に Web サイトのページが閲覧された回数を表示するトレンドレポートです。このレポートでは、サイトの各ページのページビュー数と、サイト全体のページビュー合計数を追跡できます。
 
-A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a request for a full page document rather than an element of a page, such as an image or video. 例えば、1 名の訪問者が 1 回の訪問中に 15 ページ閲覧すると、15 ページビューとカウントされます。1 名の訪問者が 1 回の訪問中に同じページを 3 回閲覧すると、3 ページビューとカウントされます。
+[ページビュー](/help/components/c-variables/c-metrics/metrics-page-view.md)は画像やビデオなどのページの要素ではなく、ドキュメントの全ページに対する要求です。例えば、1 名の訪問者が 1 回の訪問中に 15 ページ閲覧すると、15 ページビューとカウントされます。1 名の訪問者が 1 回の訪問中に同じページを 3 回閲覧すると、3 ページビューとカウントされます。
 
 **レポートプロパティ**
 
 * このレポートは、[s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) 関数がサイトで呼び出された回数を参照します。
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* カスタムの[リンクトラッキング](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)コール（カスタムリンク、ファイルダウンロード、離脱リンクなど）は、[!DNL s.tl()] 関数を使用し、このレポートではカウントされません。
 
 * ユーザーがページを更新したり戻るボタンをクリックしたりするとイメージリクエストが送信されるため、これらのアクションもこのレポートに含まれます。
 * 時間別の分類はレポートスイートのタイムゾーンに基づいています。
