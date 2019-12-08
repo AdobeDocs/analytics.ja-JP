@@ -1,13 +1,12 @@
 ---
 description: API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: レポートスイートツールの権限のカスタマイズ
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,11 +15,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。
 
-**[!UICONTROL User Management]** /グループ/ **[!UICONTROL レポー]** トアクセス **[!UICONTROL /レポートツ]** ール ******[!UICONTROL /カスタマイズ]**
+**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL レポートスイートツール]**／**[!UICONTROL カスタマイズ]**
 
 [!UICONTROL レポートスイートツールのカスタマイズ]ページでは、グループのメンバーに次の項目へのアクセス権を付与します。
 
@@ -34,11 +33,11 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 |--- |--- |
 | **Web サービス** |  |
 | これらの設定を使用すると、ユーザーは Data Warehouse メソッドに対する呼び出しをおこなって、レポートスイート設定を引き出すことができます。 |  |
-| Data Warehouse | 管理者以外のユーザーがWebサービスAPIを介してData Warehouseメソッドを使用して呼び出しを行えるようにします。 See [Data Warehouse - Developer Documentation](/help/export/data-warehouse/data-warehouse.md) |
+| Data Warehouse | 管理者以外のユーザーが Web サービス API で Data Warehouse メソッドを使用して呼び出しをおこなうことができます。[Data Warehouse - 開発者向けドキュメント](/help/export/data-warehouse/data-warehouse.md)を参照してください。 |
 | レポート スイート（読み取り） | 管理者以外のユーザーが API のレポートスイートメソッドを使用できます。 |
 | レポート スイート（書き込み） | 管理者以外のユーザーが API のレポートスイートメソッドを使用できます。 |
 | **レポートスイートの管理** |  |
-| These settings grant access to the menu items in  Admin &gt;  Report Suites  &gt;  Edit Settings ([Report Suite Manager](/help/admin/c-manage-report-suites/report-suites-admin.md)). |  |
+| これらの設定は、管理者／レポートスイート／設定を編集のメニュー項目にアクセス権を付与します（[Report Suite Manager](/help/admin/c-manage-report-suites/report-suites-admin.md)） |  |
 | [トラフィック管理](/help/admin/c-traffic-management/traffic-management.md) | トラフィック管理に対する権限を付与します。 |
 | [レポートスイートの管理](/help/admin/c-manage-report-suites/report-suites-admin.md) | レポートスイートを管理する権限を付与します。 |
 | [アカウントの概要](/help/admin/admin/general-acct-settings-admin.md) | レポートスイートのアカウント設定を編集する権限を付与します。 |
@@ -66,8 +65,8 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | [異常値検出](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法である、異常値検出に対する権限を付与します。 |
 | [チャネルレポート](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | レポート／マーケティングチャネルレポートにあるマーケティングチャネルレポートに対する権限を付与します。 |
 | [リアルタイムレポート](/help/admin/admin/realtime/t-realtime-admin.md) | リアルタイムレポートへのアクセス権を付与します。 |
-| [ボットページ](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
-| [ボット](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
+| [ボットページ](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
+| [ボット](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
 | [カスタム Data Warehouse レポート](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse は、カスタムレポート用の処理されていない生のデータを取り出す機能です。カスタムレポートはこのデータをフィルタリングして実行します。ユーザー独自の質問に基づいて生のデータから詳細なデータの関連性を表示するように、レポートにリクエストできます。 |
 | [日別再来訪](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | （レガシー）ある特定の日に、Web サイトを 2 回以上訪ねた訪問者の数を表示するレポートです。1 日は直前の 24 時間として定義されます。 |
 | [データソースマネージャー](/help/admin/admin/data-sources.md) | データソース機能を使用すると、オフラインソースから Analytics にデータをインポートできます。 |
@@ -76,10 +75,10 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | レガシー ClickMap のインストール | レガシー ClickMap ツールにインストール権限を付与します。 |
 | [再来訪](/help/components/c-variables/dimensionslist/reports-return-visits.md) | 訪問回数が 2 以上である訪問の数を示すレポート。再来訪レポートには、cookie を使用していない訪問者が含まれます。 |
 | [分類インポーター](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) / エクスポーターおよび[ルールビルダー](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | 分類に統合されました（以下を参照してください）。 |
-| データフィードマネージャー | 権限を Analytics データフィード. |
-| 分類 | 次の権限を組み合わせます。「トラフィック分類」、「ビデオ分類」、「コンバージョンの分類」、「分類階層」、「分類マネージャー」および「分類インポーター/エクスポーター&amp;ルールビルダー」。  注意：この権限を持つユーザーは、選択したレポートスイートだけではなく、すべてのレポートスイートの分類を編集できます。 |
+| データフィードマネージャー | 権限をAnalytics データフィードに権限を付与します。 |
+| 分類 | 「トラフィック分類」、「ビデオ分類」、「コンバージョンの分類」、「分類階層」、「分類マネージャー」および「分類インポーター／エクスポーターおよびルールビルダー」の権限がまとめられています。注意：この権限を持つユーザーは、選択したレポートスイートだけではなく、すべてのレポートスイートの分類を編集できます。 |
 | [貢献度分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Analysis Workspace で貢献度分析を使用する権限を付与します。 |
 | **ダッシュボードの項目** |  |
-| ダッシュボード項目の設定を使用すると、Reports &amp; Analytics [、推奨レポート、会社サマリレポートレット、画像、KPI](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) /ゲージレポートレット、レポートスイートの合計、テキスト、レポートレット、使用状況サマリレポートレット、Webリソースのレポートレットにアクセスできます |  |
+| ダッシュボード項目の設定を使用すると、Reports &amp; Analytics の[レポートレット](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)（推奨レポート、会社サマリレポートレット、画像、KPI／ゲージレポートレット、レポートスイートの合計、テキスト、レポートレット、使用状況サマリレポートレット、Web リソースのレポートレット）にアクセスできます。 |  |
 | **その他** |  |
-| ソーシャル | Report Suite Manager のソーシャルの管理メニューへのアクセスを制御します。 |
+| Social | Report Suite Manager のソーシャルの管理メニューへのアクセスを制御します。 |
