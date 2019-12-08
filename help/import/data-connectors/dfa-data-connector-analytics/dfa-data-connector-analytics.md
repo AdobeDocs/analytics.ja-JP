@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: DFA
-solution: Analytics
 title: Adobe Analytics 用 DFA Data Connector
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
