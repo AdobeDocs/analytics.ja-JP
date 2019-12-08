@@ -1,12 +1,11 @@
 ---
 description: ブックマークを使用すると、よく使用するレポートにすばやくアクセスできます。作成したブックマークは、Experience Cloud に保存され、Data Connectors などの統合機能で使用できます。
-solution: Analytics
 subtopic: Bookmarks
 title: ブックマークマネージャー
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,11 +26,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-    |名|このブックマークのわかりやすい名前。|
-    |---|---|     
-    |追加|ブックマークを追加するフォルダを指定します。|
-    |公開する|このブックマークを、レポートスイートへのアクセス権を持つユーザーが使用できるようにします。|
-    |ログイン後にレポートを表示|ログイン後にレポートを表示します。|
+       |Name|このブックマークのわかりやすい名前。
+    |
+ |—|—|     |追加|ブックマークを追加するフォルダを指定します。
+|     |公開する|このブックマークを、レポートスイートへのアクセス権を持つユーザーが使用できるようにします。
+|     |ログイン後にレポートを表示|ログイン後にレポートを表示します。|
    
 ## ブックマークの管理 {#task_1EE793CB52EA467787817BBD98DEF150}
 
