@@ -1,16 +1,15 @@
 ---
 description: Target で設定したエクスペリエンス（レシピ）のリストを表示します。Analytics for Target 統合が有効になっている必要があります。
-solution: Analytics
-title: ターゲットエクスペリエンス
+title: Target エクスペリエンス
 topic: Reports
 uuid: 15728f3e-003c-47a0-a47b-12b52a88fb79
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# ターゲットエクスペリエンス
+# Target エクスペリエンス
 
 Target で設定したエクスペリエンス（レシピ）のリストを表示します。Analytics for Target 統合が有効になっている必要があります。
 
