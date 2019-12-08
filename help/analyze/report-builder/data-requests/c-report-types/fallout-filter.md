@@ -1,11 +1,10 @@
 ---
 description: フィルターを適用してフォールアウトレポートを作成する手順について説明します。
-solution: Analytics
 title: リクエストウィザードを使用したフォールアウトレポートのフィルタリング
 topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
