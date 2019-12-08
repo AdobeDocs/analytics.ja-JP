@@ -1,13 +1,12 @@
 ---
 description: ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -59,5 +58,5 @@ source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 * [transactionID](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/transactionid.html)
 * [visitorID](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/visitorid.html)
 * [visitorNamespace](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/visitornamespace.html)
-* [zip](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/zip.html)
+* [郵便番号](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/zip.html)
 
