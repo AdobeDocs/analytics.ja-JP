@@ -1,11 +1,10 @@
 ---
 description: セグメントを計画する際に従う手順とベストプラクティスの概要を説明します。
-solution: Analytics
 title: セグメントの計画
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,5 +25,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. セグメント定義に含める&#x200B;**要素**&#x200B;と値を決定します。その際、[変数の持続性](/help/components/c-segmentation/seg-overview.md)も決定します。
 
 1. **承認プロセス**&#x200B;の展開方法を検討します。セグメントの確認および承認を 1 人の担当者のみで行いますか。それとも委員会で判定しますか。
-1. **セグメントライブラリ**&#x200B;へのビューを使用してセグメントを定義します。セグメントライブラリを使用すると、部品としてのセグメントをモジュール形式で積み重ねおよび再利用できます。[](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)このライブラリを有益なものとするには、どのような「モジュール」を定義する必要がありますか。
+1. **セグメントライブラリ**&#x200B;へのビューを使用してセグメントを定義します。セグメントライブラリを使用すると、部品としてのセグメントをモジュール形式で[積み重ね](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)および再利用できます。このライブラリを有益なものとするには、どのような「モジュール」を定義する必要がありますか。
 
