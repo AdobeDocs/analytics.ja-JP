@@ -1,11 +1,10 @@
 ---
 description: 様々な広告トラッキングコードがサイトの様々なコンバージョンイベントにどのように影響を及ぼすかを測定します。このレポートを使用すると、様々な成功イベントでパフォーマンスが優れている特定のキャンペーンを測定したり、サイトのイニシアチブにとってプラスまたはマイナスになっているキャンペーン（例えば、最大の売上高を生成しているキャンペーン）を識別したりできます。
-solution: Analytics
 title: トラッキングコード
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 * このレポートは、Web サイトで実装された [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) 変数からデータを直接参照します。
 * このレポートが基づいている変数は、[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)です。つまり、これはページビューの完了後も持続でき、指定した有効期限内で指標と関連付けることができます。
-* このレポートのデフォルト指標は売上高です。このデフォルト値は、[!UICONTROL 管理ツール]にある [!UICONTROL Report Suite Manager] で変更できます( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
+* このレポートのデフォルト指標は売上高です。このデフォルト値は、[!UICONTROL 管理ツール]にある [!UICONTROL Report Suite Manager] で変更できます（**[!UICONTROL 設定の編集]**／**[!UICONTROL 個々のレポートスイートの設定]**／**[!UICONTROL デフォルトの指標]**。）
 
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
@@ -38,13 +37,13 @@ source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 * このレポートでは以下の指標を利用できます（組織とレポートスイートの設定に応じて異なります）。
 
    * クリックスルー：*`s.campaign`* 変数が定義される回数
-   * e コマースのすべての標準的な指標：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、買い物かごからの削除数
+   * e コマースのすべての標準的な指標：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、買い物かごからの削除数。
    * すべてのカスタムイベント：イベント 1 ～ 80（H22 コード以上では、さらにイベント 80 ～ 100）
    * 訪問回数および訪問者数：使用できるかどうかは、組織およびレポートスイートに依存します。詳細については、アカウントマネージャーにお問い合わせください。
 
 **Reports &amp; Analytics のプロパティ**
 
-* Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
+* このレポートを見つけるには、**[!UICONTROL コンバージョン]**／**[!UICONTROL キャンペーン]**／**[!UICONTROL トラッキングコード]**&#x200B;をクリックします（メニューがカスタマイズされていない場合）。
 
 * すべての[リスト変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)によって、このレポートを掘り下げることができます。
 * ページビュー数、訪問回数、および実訪問者数は指標として使用できます。
