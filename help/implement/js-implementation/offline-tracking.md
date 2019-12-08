@@ -1,12 +1,11 @@
 ---
 description: 以下の変数と関数を使用して、アプリケーションがオフラインの間に実行された測定コールを格納できます。
 keywords: Analytics Implementation
-solution: Analytics
 title: オフライン追跡
 topic: Developer and implementation
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -60,7 +59,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
      <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> <code> trackOffline </code> が true の場合：ヒットは測定がオンラインになるまで保存されます。 </li> 
      <li id="li_6A623377462548DB97C31654EADCFAF3"> <code> trackOffline </code> が false の場合：ヒットは破棄されます。 </li> 
-    </ul> <p> <b>例:</b> </p> 
+    </ul> <p> <b>例：</b> </p> 
     
 
 s.forceOnline();
