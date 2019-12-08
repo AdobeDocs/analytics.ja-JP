@@ -1,11 +1,10 @@
 ---
 description: サイト指標／サイト概要レポートはログイン時に表示され、関連データを直ちに表示して操作できます。レイアウトを編集してダッシュボードとして保存し、データをドリルダウンして深く分析できます。
-solution: Analytics
 title: サイト概要
 topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,6 +15,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/site_overview_report.png)
 
-ツールバーの「**[!UICONTROL レイアウト]」をクリックすると、このレポートをカスタマイズしてダッシュボードに保存できます。**
+ツールバーの「**[!UICONTROL レイアウト]**」をクリックすると、このレポートをカスタマイズしてダッシュボードに保存できます。
 
 ダッシュボードをランディングページとして表示するように指定した場合、このレポートが自動的に表示されることはありません。
