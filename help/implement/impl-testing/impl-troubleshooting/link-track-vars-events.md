@@ -1,12 +1,11 @@
 ---
 description: リンクトラッキングの導入を正しくおこなうために重要なことは、s.linkTrackVars 変数と s.linkTrackEvents 変数について理解することです。これらの変数を使用して、ユーザーのアクション実行時にカスタム変数の値を渡すことができます。
 keywords: Analytics Implementation
-solution: Analytics
 title: s.linkTrackVars と s.linkTrackEvents の使用
 topic: Developer and implementation
 uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
