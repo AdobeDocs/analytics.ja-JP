@@ -1,11 +1,10 @@
 ---
 description: マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネル処理ルールを作成してカスタマイズできます。
-solution: Analytics
 title: マーケティングチャネル
 topic: Admin tools
 uuid: 05a74391-b694-4ed3-9793-5538d6373db2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,6 +13,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネル処理ルールを作成してカスタマイズできます。
 
-**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポ]** ートスイ **[!UICONTROL ート]** /設定 **[!UICONTROL /マーケティング]******&#x200B;チャネルを編集
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**&#x200B;に移動します。
 
 詳しくは、[マーケティングチャネル](/help/components/c-marketing-channels/c-overview.md)を参照してください。
