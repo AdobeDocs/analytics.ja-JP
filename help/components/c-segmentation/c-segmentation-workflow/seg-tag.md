@@ -1,11 +1,10 @@
 ---
 description: セグメントマネージャでは、セグメントにタグを付けて管理できます。
-solution: Analytics
 title: セグメントのタグ設定
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,15 +24,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/segment_mgmt_toolbar.png)
 
-1. 「**[!UICONTROL タグ]」をクリックし、次のいずれかの操作を行います。**
+1. 「**[!UICONTROL タグ]**」をクリックし、次のいずれかの操作を行います。
 
-   * 既存のタグから選択します。
-   * add a new tag and press **[!UICONTROL Enter]**.
+   * 既存のタグから選択するか、
+   * 新しいタグを追加して、**[!UICONTROL Enter]** キーを押します。
 
       ![](assets/tagging_ui.png)
 
-1. 「**[!UICONTROL タグ]」を再度クリックしてセグメントにタグを付けます。**
+1. 「**[!UICONTROL タグ]**」を再度クリックしてセグメントにタグを付けます。
 
 これで、タグが「タグ」列に表示されます（右上のギアアイコンをクリックして列を管理します）。
 
-You can also filter on tags by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Tags]**.
+また、**[!UICONTROL フィルター]**／**[!UICONTROL タグ]**&#x200B;に移動すると、タグをフィルタリングできます。
