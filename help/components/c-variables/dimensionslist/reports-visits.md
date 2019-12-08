@@ -1,16 +1,15 @@
 ---
 description: 指定期間内の Web サイト全体への訪問件数を表示します。
-solution: Analytics
-title: 訪問回数
+title: 訪問数
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 訪問回数
+# 訪問数
 
 指定期間内の Web サイト全体への訪問件数を表示します。
 
@@ -22,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 訪問の先頭部分は、新規訪問者による最初のイメージリクエスト、または既存ユーザーの訪問の有効期限が切れた後の最初のイメージリクエストです。これは入口ページとして識別できます。
 * 訪問の末尾部分は、訪問の有効期限が切れる前の最後のイメージリクエストです。これは入口ページとして識別できます。
 
-   詳しくは、 [入口および出口レポート](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
+   詳しくは、[入口および出口レポート](/help/components/c-variables/dimensionslist/reports-entries-exits.md)を参照してください。
 * 時間別の分類はレポートスイートのタイムゾーンに基づいています。
 * このレポートには行項目は含まれていません。これはトレンドフォーマットでのみ表示されます。
 * 時間、日、週、月、四半期、および年の精度を適用できます。これらの精度設定はレポートの日付範囲に応じて使用できます。
@@ -34,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_3138CA443CAC4F55838216E8B8786EE2"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 製品 </th> 
+   <th colname="col1" class="entry"> 製品      </th> 
    <th colname="col2" class="entry"> ナビゲーション </th> 
   </tr> 
  </thead>
