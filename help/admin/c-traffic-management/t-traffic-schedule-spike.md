@@ -1,11 +1,10 @@
 ---
 description: 「スパイクのスケジュール」セクションでは、アドビに一時的なトラフィックのスパイクを通知できるので、それらを処理するための適切なリソースを割り当てることができます。
-solution: Analytics
 title: トラフィックスパイクのスケジュール
 topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,16 +15,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 トラフィックスパイクをスケジュールする前に、[トラフィック増加に対して必要なリードタイム](/help/admin/c-traffic-management/traffic-lead-time.md)に関する情報をお読みください。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. レポートスイートの選択.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic Management]** &gt; **[!UICONTROL Schedule Spike]**.
-1.  「**スパイクの開始日**」フィールドでトラフィックスパイクを開始する日付を指定します。
-1.  「**スパイク終了日**」フィールドでトラフィックスパイクを終了する日付を指定します。
-1. In the **[!UICONTROL Expected Daily Page Views During Spike]** field, specify the total expected daily page views during the traffic spike period, then click **[!UICONTROL Submit]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
+1. レポートスイートを選択します。
+1. **[!UICONTROL 設定の編集]**／**[!UICONTROL トラフィック管理]**／**[!UICONTROL スパイクのスケジュール]**&#x200B;の順にクリックします。
+1.  「**[!UICONTROL スパイクの開始日]**」フィールドでトラフィックスパイクを開始する日付を指定します。
+1.  「**[!UICONTROL スパイク終了日]**」フィールドでトラフィックスパイクを終了する日付を指定します。
+1. 「**[!UICONTROL スパイク中の予想日別ページ表示数]**」フィールドで、トラフィックスパイク期間中の合計予想日別ページ表示数を指定し、「**[!UICONTROL 送信]**」をクリックします。
 
    追加のページビューではなく、必ず予想ページビューの合計を指定するようにしてください。
 
    >[!NOTE]
    >
-   >トラフィックスパイクをスケジュールするには、アドビが必要に応じて連絡できるように、ユーザーの連絡先情報に電話番号を含めます。
+   >トラフィックスパイクをスケジュールする場合、必要に応じてアドビから連絡できるように、ユーザーの連絡先情報に電話番号を含めてください。
 
