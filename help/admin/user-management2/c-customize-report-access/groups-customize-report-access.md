@@ -1,13 +1,12 @@
 ---
 description: Analytics ツール、レポートスイートツール、指標およびディメンションに対するグループ権限をカスタマイズします。
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: レポートアクセスのカスタマイズ - 概要
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,11 +15,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 Analytics ツール、レポートスイートツール、指標およびディメンションに対するグループ権限をカスタマイズします。
 
-**[!UICONTROL 新しいグループの追加]** /レポ **[!UICONTROL ートアクセス]**
+**[!UICONTROL 新しいグループを追加]**／**[!UICONTROL レポートアクセス]**
 
 [!UICONTROL ユーザーグループの定義]ページの「[!UICONTROL レポートアクセス]」セクションは、詳細なレベルで権限をカスタマイズすることを可能にするアクセスカテゴリを提供します。
 
@@ -44,7 +43,7 @@ Analytics ツール、レポートスイートツール、指標およびディ�
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタムグループ </p> </td> 
-   <td colname="col2"> <p> カスタムグループが、定義済みのグループから置き換わりました。既存の定義済みグループは、同じグループ名を使用して、カスタムグループに移行されます。作成したカスタムグループは、その設定も含めて保持されます。ただし、設定の場所が移動されることに注意してください。例えば、（Admin Console のカスタマイズの）カンパニー設定は、現在は、<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Analytics ツールのカスタマイズ</a>にあります。 </p> <p> 「全レポートアク <span class="term"> セス」に属するユーザーは</span> 、次のアクセス権を持つカスタムグループに移行されました。 </p> 
+   <td colname="col2"> <p> カスタムグループが、定義済みのグループから置き換わりました。既存の定義済みグループは、同じグループ名を使用して、カスタムグループに移行されます。作成したカスタムグループは、その設定も含めて保持されます。ただし、設定の場所が移動されることに注意してください。例えば、（Admin Console のカスタマイズの）カンパニー設定は、現在は、<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Analytics ツールのカスタマイズ</a>にあります。 </p> <p> 「<span class="term">すべてのレポートアクセス</span>」に属するユーザーは、次のアクセス権を持つカスタムグループに移行されました。 </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">すべてのディメンション </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">すべての指標 </li> 
@@ -53,7 +52,7 @@ Analytics ツール、レポートスイートツール、指標およびディ�
      <li id="li_B35420302AAB42509BD6AF0FA6349BF8">異常値検出 </li> 
      <li id="li_3787E4696C454D3ABD1D75F6C282A9A2">リアルタイムレポート </li> 
      <li id="li_3797DF9C40D1426588819116362962F5">Analysis Workspace アクセス </li> 
-    </ul> <p>定義済みのグループで以前に使用可能だったすべての設定がユーザーグループの定義<span class="wintitle">の「</span>レポートアクセス</a>」設定でカスタマイズに利用できるので、管理者は、カスタムグループを削除して、独自のものを作成できます。 </p> </td> 
+    </ul> <p>定義済みのグループで以前に使用可能だったすべての設定がユーザーグループの定義の「<span class="wintitle">レポートアクセス</span>」設定</a>でカスタマイズに利用できるので、管理者は、カスタムグループを削除して、独自のものを作成できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ディメンションレベルの権限 </p> </td> 
@@ -61,11 +60,11 @@ Analytics ツール、レポートスイートツール、指標およびディ�
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。 </p> </li> 
      <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
+    </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">ディメンションの権限のカスタマイズ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>新規のお客様または <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud でプロビジョニングされた</a>会社を持つお客様の場合にのみお勧めします。既存の <span class="keyword">Analytics</span> のお客様の <span class="keyword">Experience Cloud</span> ID 管理システムへの移行は、予定されています。 </p> <p>詳しくは、 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> Analyticsユーザーの管理コンソールへの移行を参照してください</a>。 </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html">Adobe Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>新規のお客様または <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud でプロビジョニングされた</a>会社を持つお客様の場合にのみお勧めします。既存の <span class="keyword">Analytics</span> のお客様の <span class="keyword">Experience Cloud</span> ID 管理システムへの移行は、予定されています。 </p> <p>詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Admin Console への Analytics ユーザーの移行</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンテンツ対応 </p> </td> 
