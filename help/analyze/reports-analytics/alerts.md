@@ -1,12 +1,11 @@
 ---
 description: 'null'
-solution: Analytics
 subtopic: Alerts
 title: アラート
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,10 +14,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## アラート {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-すべてのAdobe Analyticsの新しいアラートシステムであるインテリジェントアラートを使用すると、アラートのプレビューとルール貢献度を備えたアラートを作成および管理できます。 次のことが可能です。
+すべてのAdobe Analyticsの新しいアラートシステムであるインテリジェントアラートを使用すると、アラートのプレビューとルール貢献度を備えたアラートを作成および管理できます。 データが誤用されていたり、アカウントの期限が切れている場合、
 
 * 異常値（90％、95％または 99％ のしきい値、変化率、超過／未満）に基づいたアラートの構築。
-* アラートがトリガーされる頻度のプレビュー。
+* アラートがトリガーされる頻度のプレビュー.
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信。
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成。
 
@@ -83,7 +82,7 @@ deprecated_alerts.xml
    <td colname="col3"> <p>新しいアラートマネージャーでは、こうした時間ベースの実訪問者数アラートは、サポートされなくなります。例えば、以前、日別訪問者数に関する毎週のアラートを設定していても、発行される実訪問者数指標に毎日、毎週などのアラートを設定できます（Analysis Workspace は、実訪問者数指標をサポートしますが、毎日／毎週／毎月などの実訪問者数指標はサポートしません）。 </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>検索 </p> </td> 
+   <td colname="col1"> <p>Search </p> </td> 
    <td colname="col2"> <p>検索が適用されたディメンションレポートに関するアラートを作成します。「合計（すべての項目）」または「上位 1000 項目」にのみ適用されます。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
