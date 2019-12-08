@@ -1,25 +1,24 @@
 ---
 description: インポーターを使用すると、分類データを Analytics レポートに一括してファイルでアップロードできます。データのアップロードを正常におこなうために、インポートでは指定のファイル形式を使用する必要があります。
-solution: Analytics
 subtopic: Classifications
 title: 分類データファイル
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 分類データファイル
 
-インポーターを使用すると、分類データを Analytics レポートに一括してファイルでアップロードできます。データのアップロードを正常に行うために、インポートでは指定のファイル形式を使用する必要があります。
+インポーターを使用すると、分類データを Analytics レポートに一括してファイルでアップロードできます。データのアップロードを正常におこなうために、インポートでは指定のファイル形式を使用する必要があります。
 
-有効なデータファイルを作成するために、テンプレートファイルをダウンロードして、このテンプレートのファイル構造に分類データを貼り付けることができます。詳しくは、 [分類テンプレートのダウンロード](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
+有効なデータファイルを作成するために、テンプレートファイルをダウンロードして、このテンプレートのファイル構造に分類データを貼り付けることができます。詳しくは、「分類テンプレートのダウン [ロード」を参照してくださ](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)い。
 
-See [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) for more information about character limits in classifications.
+分類での文字数制限について詳しくは、[一般的なファイル構造](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)を参照してください。
 
-See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
+数値 2 分類を使用したデータのアップロードについて詳しくは、[数値 2 分類](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md)を参照してください。
 
 ## 一般的なファイル構造
 
@@ -44,10 +43,10 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
    コンマは特殊文字に含まれません。
 
 * キャレット（^）は、下位分類を示すために使用されるので、分類にこの文字を含めることはできません。
-* ハイフンを使用する際は注意が必要です。例えば、Social のキーワードでハイフン（-）を使用すると、Social はハイフンを [!DNL Not] 演算子（マイナス記号）として認識します。For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*.
-* レポートデータの分類では、文字数の制限が適用されます。例えば、製品名が100文字（バイト）を超える製品( *`s.products`*)の分類テキストファイルをアップロードすると、製品はレポートに表示されません。 トラッキングコードおよびすべてのカスタムコンバージョン変数（eVar）では、255 バイトを使用できます。
+* ハイフンを使用する際は注意が必要です。例えば、Social のキーワードでハイフン（-）を使用すると、Social はハイフンを [!DNL Not] 演算子（マイナス記号）として認識します。例えば、読み込むキーワードとして *`fragrance-free`*」を指定すると、Social はこのキーワードを「fragance *`minus`* free」と認識し、「*`fragrance`*」に関する投稿のみを収集し、「*`free`*」に関する投稿は収集されません。
+* レポートデータの分類では、文字数の制限が適用されます。例えば、製品名が 100 文字（バイト）を超える製品の分類テキストファイル（*`s.products`*）をアップロードしても、製品はレポートに表示されません。トラッキングコードおよびすべてのカスタムコンバージョン変数（eVar）では、255 バイトを使用できます。
 * タブ区切りのデータファイルにします（スプレッドシートアプリケーションやテキストエディターを使用してテンプレートファイルを作成します）。
-* Either a [!DNL .tab] or [!DNL .txt] file extension.
+* ファイルの拡張子は、[!DNL .tab] または [!DNL .txt] にします。
 * シャープ記号（#）でコメントを記述できます。# で始まる行は無視されます。
 * 2 つのシャープ記号の後に SC が続く（## SC）場合は、レポーティングで使用される前処理ヘッダーコメントの行を示します。この行は削除しないでください。
 * 分類エクスポートでは、キーに改行文字が含まれているためにキーが重複することがあります。FTP またはブラウザーのエクスポートで、FTP アカウントに対して引用符の使用を有効にすることで、この問題を解決できます。引用符の使用を有効にすると、改行文字が含まれている各キーが引用符で囲まれます。
@@ -58,7 +57,7 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
    * ファイル内で v2.1 が指定されているが実際には v2.0 が必要な場合、つまり、Excel のフォーマットとしては不正な方法で引用符が使用されている場合は、問題が生じることがあります。例えば、"VP NO REPS" S/l Dress w/ Overlay という値があるとします。v2.1 では、これは正しくないフォーマットであり（値は開始引用符と終了引用符で囲み、実際の値の一部である引用符は引用符でエスケープする必要があります）、これ以降の行は分類処理がおこなわれません。
    * ファイルのヘッダー（セル C1）を変更してファイル形式を v2.0 に変更するか、ファイル全体で Excel の引用符を正しく使用してください。
 
-* データファイルの最初にある（コメントなしの）行には、列内の分類データを示す列見出しが含まれます。列見出しには、特定の形式を使用する必要があります。詳しくは、[列見出しの形式](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)を参照してください。
+* データファイルの最初にある（コメントなしの）行には、列内の分類データを示す列見出しが含まれます。列見出しには、特定の形式を使用する必要があります。詳しくは、「列見出しの形式」 [を参照してください](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 * データファイルのヘッダー行のすぐ後には、データ行が続きます。データの各行には、列見出しごとに 1 つのデータフィールドを含める必要があります。
 * データファイルでは、以下の制御コードがサポートされます。このコードは、ファイルを構造化し、分類データを正確にインポートするために使用されます。
 
@@ -76,11 +75,11 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>自動的にこのエレメントの一意の ID が生成されます。 </p> <p>キャンペーン用途の場合は、この制御値によってクリエイティブエレメントごとに ID が割り当てられます。詳しくは、 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > キー </a>. </p> </td> 
+   <td colname="col2"> <p>自動的にこのエレメントの一意の ID が生成されます。 </p> <p>キャンペーン用途の場合は、この制御値によってクリエイティブエレメントごとに ID が割り当てられます。詳しくは、<a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  >キー</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>該当する列は日付範囲を表す文字列であることをシステムに伝えます。詳しくは、 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > Date </a>. </p> </td> 
+   <td colname="col2"> <p>該当する列は日付範囲を表す文字列であることをシステムに伝えます。詳しくは、<a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  >日付</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>空のフィールド </p> </td> 
@@ -88,14 +87,14 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
   </tr> 
   <tr> 
    <td colname="col1"> <p>PER 修飾子 </p> </td> 
-   <td colname="col2"> <p>データ列が <span class="wintitle">PER 修飾子</span>のフィールドを示すことを指定します。See <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > PER Modifier Headings </a>. </p> </td> 
+   <td colname="col2"> <p>データ列が <span class="wintitle">PER 修飾子</span>のフィールドを示すことを指定します。<a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  >PER 修飾子の見出し</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [一般的なアップロードの問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
+>* [一般的な のアップロードの問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
 
 
 ## 列見出しの形式
@@ -106,17 +105,17 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
 
 ### キー
 
-各値はシステム全体で一意である必要があります。The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site's [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
+各値はシステム全体で一意である必要があります。このフィールドの値は、Web サイトの [!DNL JavaScript] ビーコンで [!DNL Analytics] の変数に割り当てられた値に対応しています。この列のデータには、~autogen~ や一意のトラッキングコードが含まれる場合があります。
 
 ### 分類列の見出し
 
 例えば、Reports &amp; Analytics では、[!UICONTROL キャンペーン]変数は「[!UICONTROL キャンペーン]」および「[!UICONTROL クリエイティブエレメント]」の 2 つに自動的に分類されます。データを「[!UICONTROL キャンペーン]」の分類に追加するために、分類データファイルの列見出しを「[!UICONTROL キャンペーン]」にします。
 
-> [!NOTE] 分類列見出しの値 [!UICONTROL は] 、分類の命名規則に完全に一致する必要があります。一致しない場合、インポートは失敗します。 例えば、管理者が[!UICONTROL キャンペーン設定マネージャー]で分類名を「[!UICONTROL キャンペーン]」から「[!UICONTROL 内部キャンペーン名]」に変更した場合は、ファイルの列見出しを同様に変更する必要があります。
+> [!NOTE][!UICONTROL 分類]列の見出しの値は、分類の名前に完全に合致する必要があります。合致していない場合、インポートに失敗します。例えば、管理者が[!UICONTROL キャンペーン設定マネージャー]で分類名を「[!UICONTROL キャンペーン]」から「[!UICONTROL 内部キャンペーン名]」に変更した場合は、ファイルの列見出しを同様に変更する必要があります。
 
 また、データファイルでは、以下に示す見出しの規則をサポートし、下位分類やその他の特殊なデータ列を識別します。
 
-### 副分類の見出し
+### 下位分類の見出し
 
 例えば、「[!UICONTROL Campaigns^Owner]」は[!UICONTROL キャンペーン所有者]の値を含む列の見出しです。同様に、「[!UICONTROL Creative Elements^Size]」は[!UICONTROL クリエイティブエレメント]分類の下位分類である[!UICONTROL サイズ]を含む列の見出しです。
 
@@ -124,9 +123,9 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
 
 例えば、「[!UICONTROL Campaigns^~Cost]」は[!UICONTROL キャンペーン]分類の[!UICONTROL コスト]指標を示します。
 
-### PER修飾子の見出し
+### PER 修飾子の見出し
 
-*`Per Modifier`* 見出しは、分類指標の見出し *`~per`* に追加して示します。 For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. アドビでは、次のキーワードをサポート *`PER Modifier`* しています。
+*`Per Modifier`* の見出しは、分類指標の見出しに *`~per`* を付加して示します。例えば、*`Metric`*&#x200B;の見出しが「*`Campaigns^~Cost`*」の場合、PER 修飾子の見出しは「*`Campaigns^~Cost~per`*」になります。アドビでは、次の *`PER Modifier`* キーワードをサポートしています。
 
 これらの文字は、データファイルで特別な意味を持ちます。可能な限り、これらの語句を属性名やデータ内で使用しないでください。
 
@@ -152,9 +151,9 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
 
 **EVENT：**&#x200B;値に、レポート内の行項目ごとに指定されたカスタムイベントが発生した回数を掛けます。
 
-**** 例：キャンペーンAのコストが$10,000の場合、「 [!UICONTROL Campaigns^～Cost] 」列の値は10000で、「 [!UICONTROL Campaigns^~~Costper] 」列の値は [!UICONTROL FIXEDです]。 レポートにキャンペーン A のコストを表示するとき、日付範囲に対応するキャンペーン A の固定コストとして $10,000 が表示されます。
+**例：**&#x200B;キャンペーン A のコストが $10,000 の場合、「[!UICONTROL Campaigns^~Cost]」列には値「10000」、「[!UICONTROL Campaigns^~Cost~per]」列には「[!UICONTROL FIXED]」が含まれます。レポートにキャンペーン A のコストを表示すると、日付範囲に対応するキャンペーン A の固定コストとして $10,000 が表示されます。
 
-**** 例：キャンペーンBのコストがクリックあたり約$2の場合、 [!UICONTROL Campaigns^～Cost] 列には2が、 **[!UICONTROL Campaigns^~~Costper列には]** CLICKが含まれます 。 When displaying the Cost for Campaign B in the reports, Adobe calculates (2 * [number of clicks]) on the fly for the date range of the report. これにより、キャンペーン B でのクリック数に基づいて合計コストを計算できます。
+**例：**&#x200B;キャンペーン B のコストがクリックあたりおよそ $2 である場合、「[!UICONTROL Campaigns^~Cost]」列には「2」、「**[!UICONTROL Campaigns^~Cost~per]**」列には「[!UICONTROL CLICK]」が含まれます。レポートにキャンペーン B のコストを表示するとき、レポートの日付範囲に対応する、その時点の「2 * [クリック数]」が計算されます。これにより、キャンペーン B でのクリック数に基づいて合計コストを計算できます。
 
 ### 日付
 
@@ -162,24 +161,24 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
 
 詳しくは、[コンバージョン分類](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications)を参照してください。
 
-> [!NOTE] 2018年5月10日のメンテナンスリリース [!DNL Analytics] で、アドビでは、日付が有効な分類と数値分類の機能を制限するようになりました。 これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類および数値の分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。
+> [!NOTE]2018 年 5 月 10 日[!DNL Analytics]の Analytics メンテナンスリリースにおいて、日付が有効な分類と数値の分類の機能制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類および数値の分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。
 
-## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
+## [!UICONTROL 分類 ] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL 分類は] 、キャンペーンや他のコンバージョン分類に日付範囲を割り当てるために [!UICONTROL 使用でき]、より正確なキャンペーン測定が可能です。 値の日付範囲を指定した場合は、値が一致しても、日付範囲外で発生するものは分類されません。これは、キャンペーン自体に一致するすべてのヒットを測定するのではなく、キャンペーンが実施されていた正確な日付を利用してキャンペーンを測定する場合に役立ちます。日付範囲を使用して値を分類するには、次の条件を満たす必要があります。
+[!UICONTROL 分類]を使用して、キャンペーンまたはその他のコンバージョン[!UICONTROL 分類]に日付範囲を割り当てることができます。日付範囲を割り当てると、より正確なキャンペーン測定が可能になります。値の日付範囲を指定した場合は、値が一致しても、日付範囲外で発生するものは分類されません。これは、キャンペーン自体に一致するすべてのヒットを測定するのではなく、キャンペーンが実施されていた正確な日付を利用してキャンペーンを測定する場合に役立ちます。日付範囲を使用して値を分類するには、次の条件を満たす必要があります。
 
-* The [!UICONTROL classification] must be based on a conversion variable.
-* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
+* [!UICONTROL 分類]は、コンバージョン変数に基づいたものであることが必要です。
+* 使用される[!UICONTROL 分類]は、「日付が有効」または「数値 2」として設定されている必要があります。
 * 指定する日付範囲には、開始日および（オプションで）終了日が含まれている必要があります。
 
 日付範囲に基づいてキャンペーンを分類するには：
 
-1. ログインし、管 [!DNL Analytics] 理者/分類に移動します。
-1. 「**[!UICONTROL ブラウザエクスポート]」タブをクリックし、日付が有効な分類の設定が正しいことを確認して、「ファイルのエクスポート」をクリックします。**
+1. [!DNL Analytics] にログインし、管理者／分類に移動します。
+1. 「**[!UICONTROL ブラウザエクスポート]**」タブをクリックし、日付が有効な分類の設定が正しいことを確認して、「ファイルのエクスポート」をクリックします。
 1. このファイルを Microsoft Excel、またはその他の使い慣れているスプレッドシートエディターで開きます。
-1. 列の1つが
+1. 列の 1 つが
 
-   日付~範~囲を入力する列である^期間。
+   ^~period~ で終わり、日付範囲を入力する列であることを示します。
 1. この列に、各値の日付範囲を
 
    `YYYY/MM/DD - YYYY/MM/DD`をインストールします。次の規則に従ってください。
@@ -189,9 +188,9 @@ See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/
    * 月や日付が 1 桁の場合は、前にゼロを付加します。
    * 日付範囲の開始日は必ず指定します。終了日はオプションです。
 
-1. ファイルを保存し、管理者に移動してア [!DNL Analytics] ップロードします|分類|ファイルのインポート。
+1. ファイルを保存し、管理者／分類／ファイルのインポートに移動して [!DNL Analytics] にアップロードします。
 
-> [!NOTE] 特定のキー値に複数の日付範囲を指定することはできません。
+> [!NOTE]キー値に対して、複数の日付範囲は指定できません。
 
 ## 分類のトラブルシューティング
 
