@@ -1,11 +1,10 @@
 ---
 description: Reports & Analytics で使用可能な事前定義済みレポートの定義および Analysis Workspace などの他の Analytics ツールで使用可能なディメンションの定義です。
-solution: Analytics
 title: ディメンションの説明
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Reports &amp; Analytics で使用可能な事前定義済みレポートの定義および Analysis Workspace などの他の Analytics ツールで使用可能なディメンションの定義です。
 
-ディメンションは、レポート内で表示、クロス集計や比較が行える行項目です。これらは数値以外の値や日付で、分類されたり、元のレポートタイプ指標の分類となります。
+ディメンションは、レポート内で表示、クロス集計や比較が行える行項目です。細分化できる数値でない値や日付、または元のレポートタイプ指標の分類です。
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
@@ -46,7 +45,7 @@ Reports &amp; Analytics で使用可能な事前定義済みレポートの定�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  > 拡張ディメンション</a> </td> 
+   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  >拡張ディメンション</a> </td> 
   </tr> 
  </tbody> 
 </table>
