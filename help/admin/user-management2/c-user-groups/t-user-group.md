@@ -1,12 +1,11 @@
 ---
 description: ユーザーグループを追加する方法について手順を説明します。
-solution: Analytics
 subtopic: Users and groups
 title: ユーザーグループの追加
 topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 ユーザーグループを追加する方法について手順を説明します。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Add New User Group]**, then complete the fields and options described in [Define User Groups](/help/admin/user-management2/c-user-groups/groups.md).
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
+1. 「**[!UICONTROL 新しいユーザーグループの追加]**」をクリックし、[ユーザーグループの定義](/help/admin/user-management2/c-user-groups/groups.md)で説明したフィールドとオプションを入力します。
 
    クイックリンク：
 
@@ -29,4 +28,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * [指標](/help/admin/user-management2/c-customize-report-access/groups-metrics.md)：トラフィック、コンバージョン、カスタムイベント、ソリューションイベントおよびコンテンツ対応などに関する権限を有効にします。
    * [ディメンション](/help/admin/user-management2/c-customize-report-access/groups-dimensions.md)：eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含め、詳細なレベルでユーザーアクセスをカスタマイズします。
 
-1. Click **[!UICONTROL Save Group]** to create the group and return to the [!UICONTROL Groups] page.
+1. 「**[!UICONTROL グループの保存]**」をクリックしてグループを作成し、「[!UICONTROL グループ]」ページに戻ります。
