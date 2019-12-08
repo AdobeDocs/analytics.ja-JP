@@ -1,12 +1,11 @@
 ---
 description: ブラウザーを使用して分類データをインポート（アップロード）できます。この方法では、分類データのアップロードが単一のレポートスイートに制限されます。
-solution: Analytics
 subtopic: Classifications
 title: ブラウザーインポート
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ブラウザーを使用して分類データをインポート（アップロード）できます。この方法では、分類データのアップロードが単一のレポートスイートに制限されます。
 
-**[!UICONTROL 管理者]** /分類イ **[!UICONTROL ンポーター]**
+**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;に移動します。
 
 ## 分類ブラウザーインポート - フィールドの説明 {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -62,11 +61,11 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**.
-1. 「ブラウザーインポ **[!UICONTROL ート]** 」フィールドを設定
-1. Click **[!UICONTROL Import File]**.
+1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
+1. 「**[!UICONTROL ファイルのインポート]**」をクリックします。
+1. 「**[!UICONTROL ブラウザーインポート]**」フィールドを設定します。
+1. 「**[!UICONTROL ファイルのインポート]**」をクリックします。
 1. ステータスウィンドウで、処理メッセージを確認します。
-1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
+1. （オプション）「**[!UICONTROL アップロードの完了後、自動的に分類ファイルをダウンロードする]**」を選択した場合は、処理完了時に結果ファイルを保存する場所を指定します。
 >インポートが正常に行われると、すぐにエクスポートで対応する変更が表示されます。ただし、Web ブラウザーでインポートした場合、レポートでのデータ変更には最大 4 時間かかります。FTP のインポートでは最大 24 時間かかります。
 
