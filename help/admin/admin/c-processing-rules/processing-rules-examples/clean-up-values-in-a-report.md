@@ -1,12 +1,11 @@
 ---
 description: 値が一般的な誤ったつづりと一致する場合、レポート内で正しく表示されるように更新することができます。
-solution: Analytics
 subtopic: Processing rules
 title: レポート内の値のクリーンアップ
 topic: Admin tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
