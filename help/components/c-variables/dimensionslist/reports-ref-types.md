@@ -1,18 +1,17 @@
 ---
-description: 訪問者の「各訪問の参照サイト」を追跡して記録することで、訪問者が各訪問でサイトを見つけた方法を知ることができます。
-solution: Analytics
+description: 各訪問における訪問者の参照サイトを追跡して記録することで、各訪問で訪問者がどのようにしてサイトを見つけたかを知ることができます。
 title: リファラータイプ
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # リファラータイプ
 
-訪問者の「各訪問の参照サイト」を追跡して記録することで、訪問者が各訪問でサイトを見つけた方法を知ることができます。
+各訪問における訪問者の参照サイトを追跡して記録することで、各訪問で訪問者がどのようにしてサイトを見つけたかを知ることができます。
 
 以下のリストに、様々なタイプのリファラーの定義を示します。
 
@@ -22,11 +21,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL ソーシャルネットワーク]**：参照値は、Adobe によりソーシャルネットワークと見なされる必要があります。[ソーシャルネットワークのリスト](https://helpx.adobe.com/analytics/kb/list-social-networks.html)を参照してください。
 
-**電子メール**:訪問者がプロトコルを含む電子メールメッセージリンクをクリックしてサイトに到着した場合、参照ドメインは電子メール参照 [!DNL imap://] ドメイン [!DNL mail://] と見なされます。 例えば [!DNL https://mail.yahoo.com] からの訪問は、プロトコルが [!DNL https://] :// なので、電子メールリファラーとしてカウントされません。Outlook からの電子メールは「手動入力 / ブックマーク」行に表示されますが、ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「検索エンジン」行に表示されます。
+**電子メール**：訪問者が [!DNL imap://] または [!DNL mail://] を含む電子メールメッセージリンクをクリックして目的のサイトにアクセスした場合、参照ドメインは電子メール参照ドメインと見なされます。例えば [!DNL https://mail.yahoo.com] からの訪問は、プロトコルが [!DNL https://] なので、電子メールリファラーとしてカウントされません。Outlook からの電子メールは「手動入力/ブックマーク」行に表示されますが、ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「検索エンジン」行に表示されます。
 
-**手動入力/ブックマーク**:リファラーは、訪問者がサイトのURLを直接自分のブラウザに入力した場合、またはブックマークを選択してサイトにアクセスした場合に記録されます。 モバイルデバイスは、訪問の最初のヒッ *`typed/bookmarked`* トにリファラーがない場合、リファラータイプをレポートします。
+**手動入力/ブックマーク**：リファラーは、訪問者が URL を直接自分のブラウザーに入力したか、ブックマークを選択したときに記録されます。モバイルデバイスは、訪問の最初のヒットにリファラーがない場合、リファラータイプ *`typed/bookmarked`* を報告します。
 
-**[!UICONTROL サイト内]**：これらの項目は、内部 URL フィルターによってタグ付けされた URL です。These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
+**[!UICONTROL サイト内]**：これらの項目は、内部 URL フィルターによってタグ付けされた URL です。これらの項目は「**`referrer instances`」としてはカウントされませんが、他の指標をレポートするときに表示されることがあります。
 
 ## インターフェイスごとのリファラータイプ {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -46,21 +45,21 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     <ul id="ul_EFC8E81EC6DF4CC2AC0E290244FD5859"> 
      <li id="li_686FCAEB04054B9F8A7D2434E8C49F04">その他の Web サイト </li> 
      <li id="li_C232868230AA4A54958B524F3D8FDA35"> 検索エンジン </li> 
-     <li id="li_A89BFD0468F74ED7822F64BE4A7332AE"> ソーシャル </li> 
+     <li id="li_A89BFD0468F74ED7822F64BE4A7332AE"> Social </li> 
      <li id="li_C824E6F7F6E748DD827A95B105ADBADD"> 手動入力/ブックマーク </li> 
     </ul> <p> このレポートには、インスタンスと実訪問者数の 2 つの定義済みの指標が表示されます。 </p> </td> 
    <td colname="col3"> 
     <ul id="ul_FD81EB3C1BD949A39C5A9E9688D25271"> 
      <li id="li_6099E7E03F3843D484808258A332BBE9">その他の Web サイト </li> 
      <li id="li_5AABC02DA7964D578BF8404DA819245D"> 検索エンジン </li> 
-     <li id="li_B18907AC7FA1429A893B57634EB7DC6F"> ソーシャル </li> 
+     <li id="li_B18907AC7FA1429A893B57634EB7DC6F"> Social </li> 
      <li id="li_7674B67897994E1FA99BCD9B604BCB6E"> 手動入力/ブックマーク </li> 
     </ul> </td> 
    <td colname="col4"> 
     <ul id="ul_C37ADBEC31D04295BF5CDEA25DB5191A"> 
      <li id="li_81A642C96C674669BA00B2DACA534B8A">その他の Web サイト </li> 
      <li id="li_29B9DA9F2AAD46A69886D34D5E6E43D4"> 検索エンジン </li> 
-     <li id="li_E381EEF111F248F99EE39600D616B7C2"> ソーシャル </li> 
+     <li id="li_E381EEF111F248F99EE39600D616B7C2"> Social </li> 
      <li id="li_596377F4D3C248BEA5191EE2985A2B13"> 手動入力/ブックマーク </li> 
      <li id="li_A7A72D3D6B9A4CCFB43EDA77ABFDEDBC"> サイト内 </li> 
     </ul> </td> 
