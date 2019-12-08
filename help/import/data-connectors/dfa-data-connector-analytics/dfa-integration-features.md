@@ -1,12 +1,11 @@
 ---
 description: 'アクティブ化すると、Data Connectors DFA統合はAdobe Analyticsレポートに対して次の指標を提供します '
 keywords: DFA
-solution: Analytics
 title: 統合の機能
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Data Connectors DFA 統合は、DFA によって返されたデータから DFA 
 
 これらの ID は、Genesis と DFA の共有キーとして機能し、正しい分類と指標を関連付けます。
 
-| サイトID | 広告がホストされたサードパーティサイト。サイト名分類は、このサイト ID の説明的な名前です。 |
+| サイト ID | 広告がホストされたサードパーティサイト。サイト名分類は、このサイト ID の説明的な名前です。 |
 |---|---|
 | 広告 ID | ユーザーに配信されるコマーシャルの ID。広告名分類には、DFA システムで組織によって定義された広告の名前が含まれています。For example: `Hybrid Coup Textlink - Build`. |
 | プレースメント ID | 広告スペースを購入した Web サイト、Web サイトの部分、または Web サイトのグループの DFA アカウントを示します。 |
