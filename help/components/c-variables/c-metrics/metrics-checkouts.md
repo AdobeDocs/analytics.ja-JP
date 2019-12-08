@@ -1,11 +1,10 @@
 ---
 description: 購入手続きで、顧客がチェックアウトの段階に到達したことを示します。チェックアウト段階は、通常、購入が確定される直前に発生し、顧客による個人情報（配達先情報および請求情報など）の入力がおこなわれます。サイト上のどのイベントをチェックアウトとするのかは自由に決められます。この値は scCheckout イベントから取得されます。
-solution: Analytics
 title: チェックアウト
 topic: Metrics
 uuid: 5379b814-7055-44d1-b080-bc8a27b967d6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
