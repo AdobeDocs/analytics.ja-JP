@@ -1,11 +1,10 @@
 ---
 description: 次セクションのフローは、次ページのフローに似ています。このレポートは、サイトセクション（関連 Web ページのグループ）についてのデータを示します。ページが複数のサイトセクションに含まれている場合は、これらすべてのサイトセクションのデータが表示されます。
-solution: Analytics
 title: 次セクションのフロー
 topic: Reports
 uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
