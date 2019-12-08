@@ -1,11 +1,10 @@
 ---
 description: report builderでのパスレポートとフォールアウトレポートのサポート方法、およびReports & Analyticsとの違いについて説明します。
-solution: Analytics
 title: Report Builder のパスレポートおよびパスフォールアウトレポート
 topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
