@@ -1,12 +1,11 @@
 ---
 description: abort フラグを doPlugins 内に設定すると、トラッキング呼び出しは送信されません。
 keywords: Analytics Implementation
-solution: Analytics
 title: s.abort フラグ
 topic: Developer and implementation
 uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
