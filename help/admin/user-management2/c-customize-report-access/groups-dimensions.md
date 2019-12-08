@@ -1,26 +1,25 @@
 ---
 description: eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: ディメンションの権限のカスタマイズ
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # ディメンションの権限のカスタマイズ
 
-> [!IMPORTANT] ユーザーと製品の管理が管理コンソールに移 [行します](https://helpx.adobe.com/enterprise/using/admin-console.html)。 ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT]ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。
 
-**[!UICONTROL User Management]** / **[!UICONTROL Report Access]** / **[!UICONTROL Dimensions]** / ******[!UICONTROL Customize]**
+**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL ディメンション]**／**[!UICONTROL カスタマイズ]**
 
-> [!IMPORTANT] 現時点では、一部のディメンションに対して権限を設定できません。 このようなディメンションとしては、モバイルのブックマークの長さ、モバイルデバイス番号、モバイル DRM、モバイル情報サービス、モバイル Java VM、モバイルデコレーションメール、モバイルインターネットプロトコル、モバイル OS、モバイルプッシュトゥトークがあります。
+> [!IMPORTANT]一部のディメンションについては、現時点では権限を指定できません。このようなディメンションとしては、モバイルのブックマークの長さ、モバイルデバイス番号、モバイル DRM、モバイル情報サービス、モバイル Java VM、モバイルデコレーションメール、モバイルインターネットプロトコル、モバイル OS、モバイルプッシュトゥトークがあります。
 >
 >これらのディメンションは、他の権限にかかわらず、すべてのユーザーが使用可能です。
 
@@ -32,7 +31,7 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
 
 * eVar 1 ～250 に対して個別に権限が与えられます。
 * すべてのトラフィックレポートはディメンションです。
-* ビデオおよびモバイルレポートは、ディメンションだけでなく、他のAnalyticsソリューションレポート（Experience Manager、Advertising Cloud、Socialなど）でもあります。
+* ビデオおよびモバイルレポートおよびその他の Analytics ソリューリョンレポート（Experience Manager、Advertising Cloud、Social など）はディメンションです。
 * パスレポートは、ユーザーが親ディメンションにアクセスできる場合に使用できます。
 * カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。
 * 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる[変数](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html)へのアクセスによって判断されます。
@@ -46,7 +45,7 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
 <table id="table_F37D74A1619A4560A5F5651E855DAF1C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> エレメント </th> 
+   <th colname="col1" class="entry"> 要素 </th> 
    <th colname="col2" class="entry"> 説明 </th> 
   </tr> 
  </thead>
@@ -69,7 +68,7 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Standard </p> </td> 
-   <td colname="col2"> <p>Analytics の標準 Analyticsの（標準搭載の）ディメンション。 </p> </td> 
+   <td colname="col2"> <p>Analytics の標準（標準搭載の）Analytics のディメンション。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
@@ -96,7 +95,7 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
    <td colname="col2"> <p>このパートナーとの統合は無効になりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> ソーシャル </p> </td> 
+   <td colname="col1"> <p> Social </p> </td> 
    <td colname="col2"> <p>未使用。 </p> </td> 
   </tr> 
  </tbody> 
