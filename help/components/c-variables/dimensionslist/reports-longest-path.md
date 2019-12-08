@@ -1,11 +1,10 @@
 ---
 description: 現在の時間枠でサイトの訪問者がたどった最も長いパスを表示します。最長パスについて、最初から最後までに訪問した各ページを含む完全パスを表示することができます。
-solution: Analytics
 title: 最も長いパス
 topic: Reports
 uuid: f2d80cf8-48f7-416f-9f8b-e2078400e596
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
