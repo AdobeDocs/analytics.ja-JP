@@ -1,11 +1,10 @@
 ---
 description: パーティシペーション指標は、成功イベントの全クレジットを、訪問中に渡された eVar のすべての値に割り当てます。サイトの成功に最も貢献しているページやキャンペーンなどのカスタム変数値を判断する場合に便利です。パーティシペーションは訪問ベースです。イベント発生時のヒット前（イベント発生時のヒットも含む）の訪問における eVar の値はすべて、有効期限の設定にかかわらず、パーティシペーションクレジットを受け取ります。
-solution: Analytics
 title: パーティシペーション
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,14 +13,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 パーティシペーション指標は、成功イベントの全クレジットを、訪問中に渡された eVar のすべての値に割り当てます。サイトの成功に最も貢献しているページやキャンペーンなどのカスタム変数値を判断する場合に便利です。パーティシペーションは訪問ベースです。イベント発生時のヒット前（イベント発生時のヒットも含む）の訪問における eVar の値はすべて、有効期限の設定にかかわらず、パーティシペーションクレジットを受け取ります。
 
-See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
+[訪問者パーティシペーション - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) を参照してください。
 
 パーティシペーション指標には、コンバージョンイベントごとに 2 つの設定があります。
 
 * **無効**：各コンバージョンイベントでのデフォルトの状態。このイベントではパーティシペーションデータは収集されません。
 * **有効**：このイベントではパーティシペーションデータが収集されます。
 
-> [!NOTE] パーティシペーションは、最大100個のカスタムイベントに対して有効にできます。 100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
+> [!NOTE]パーティシペーションは、最大 100 個のカスタムイベントに対して有効にすることができます。100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
 
 有効になったパーティシペーション指標は、すべてのコンバージョンレポートで自動的に利用できるようになります。ただし、リクエストに応じて特定のトラフィックレポートでパーティシペーション指標を表示することもできます。オプションで、パーティシペーション指標を特定のカスタムトラフィックレポートで使用することをリクエストします。
 
@@ -33,7 +32,7 @@ See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-met
 1. 次に、「テニスシューズ」を検索します。
 1. 商品ページのリンクをクリックし、商品をカートに入れて 120 ドルを支払います。
 
-内部検索用語レポートの売上高を表示すると、選択した配分に基づいて、次のように表示されます。
+内部検索キーワードレポートの売上高を表示すると、選択した配分に基づいて、次のように表示されます。
 
 * **1 日**：「シューズ」は 120 ドルのクレジットを受け取ります。「テニスシューズ」は 0 ドルのクレジットを受け取ります。
 * **最後（Last）**：「テニスシューズ」は 120 ドルのクレジットを受け取ります。「シューズ」は 0 ドルのクレジットを受け取ります。
