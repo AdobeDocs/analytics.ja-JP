@@ -1,11 +1,10 @@
 ---
 description: FTP および SFTP を使用してコンピューターおよびサーバーの間でファイルを転送する方法について学習します。
 keywords: ftp;sftp
-solution: Analytics
 title: Adobe Experience Cloud での FTP および SFTP の使用
 uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
