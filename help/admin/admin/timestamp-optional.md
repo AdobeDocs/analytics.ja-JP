@@ -1,11 +1,10 @@
 ---
 description: タイムスタンプのあるデータとないデータの両方を組み合わせて 1 つのレポートスイートにします。
-solution: Analytics
 title: タイムスタンプオプション
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,9 +23,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. これにより、データが破壊され、時間の計算（滞在時間値など）、属性（eVar の持続性）、訪問回数／訪問のカウントおよびパスレポートに悪影響を与える可能性があります。
+>タイムスタンプオプションを使用する場合は、既にタイムスタンプを設定しているデータに [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) を設定しないでください。これにより、データが破壊され、時間の計算（滞在時間値など）、属性（eVar の持続性）、訪問回数／訪問のカウントおよびパスレポートに悪影響を与える可能性があります。
 
-> [!NOTE]タイムスタンプが有効なセッションデータは、最大 92 日間保持されます。つまり、前回のヒット（ヒット時間）から30分以内でない追加のヒットが同じ訪問/セッションに含まれる間、訪問/セッションは92日間「開いたまま」となります。 受け取った「古い」ヒットが順番が正しくない場合は、多くの要因（セグメント化、配分、有効期限など）が原因で、「不明」な結果が生じます。これらのヒットがレポートに含まれるかどうかに影響を与えます。
+> [!NOTE]タイムスタンプが有効なセッションデータは、最大 92 日間保持されます。つまり、訪問／セッションは 92 日間「開いたまま」となり、前回のヒット（ヒット時間）から 30 分が経過していない追加のヒットは同じ訪問／セッションに含めることができます。「古い」ヒットを壊れた状態で受信すると、結果が「不明」になります。これは、これらのヒットがレポートに含まれるかどうかは、多くの要因（セグメント化、配分、有効期限など）の影響を受けるためです。
 
 ## 新しいレポートスイート {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -46,5 +45,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    これで、レポートスイートがタイムスタンプオプションに変更されます。
 
-> [!NOTE] レポートスイートがタイムスタンプオプションに設 **定されている場合**、他の設定に変更するには、Adobe clientCareにお問い合わせください。
+> [!NOTE]レポートスイートが&#x200B;**タイムスタンプオプション**&#x200B;に設定されている場合、これを他の設定に変更するには、Adobe Client Care に連絡してください。
 
