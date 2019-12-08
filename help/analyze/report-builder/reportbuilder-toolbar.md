@@ -1,11 +1,10 @@
 ---
 description: Report Builder ツールバーのボタンの機能についての説明です。
-solution: Analytics
 title: Report Builder ツールバー
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]*
 
 **ライブラリ：** Excel ワークブックをアップロードするための[!UICONTROL ワークブックライブラリ]を起動します。また、共有されているワークブックをダウンロードして編集することもできます。See [Use the Workbook Library](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**** オプション：リクエストを更新する際に基準日 **** （現在）の日付を求めるメッセージを表示するかどうかを指定できます。また、トラブルシューティングのためにログを有効にすることもできます。  [オプション](/help/analyze/report-builder/options.md)を参照してください。
+**** オプション：リクエストを更新する際に基準日 **** （現在）の日付を求めるメッセージを表示するかどうかを指定できます。また、トラブルシューティングのためにログを有効にすることもできます。   [オプション](/help/analyze/report-builder/options.md).
 
 **ロック／ロック解除：**&#x200B;ワークブックをロックすることで、リクエストの追加や編集を行えないようにすることができます。これにより、すべてのレポートリクエストを一時停止して、ワークブックのオフライン編集を可能にし、より効率的な編集を実現します。 詳しくは、「[ワークブックのロック／ロック解除](/help/analyze/report-builder/workbook-library/protect-wb.md)」を参照してください。
 
