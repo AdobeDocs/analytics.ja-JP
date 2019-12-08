@@ -1,12 +1,11 @@
 ---
 description: プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
 keywords: Analysis Workspace
-solution: Analytics
 title: Workspace プロジェクトの作成
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,23 +14,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
 
-この記事では、Analysis Workspace インターフェイス要素について説明し、プロジェクトの作成方法を示します。具体的な使用例については、 [Analysis Workspace の使用例](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+この記事では、Analysis Workspace インターフェイス要素について説明し、プロジェクトの作成方法を示します。具体的な使用例については、[Analysis Workspace の使用例](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)を参照してください。
 
 ## プロジェクトの作成
 
 1. プロジェクトを作成およびキュレーションするためのユーザー権限を指定します。
 
-   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に **[!UICONTROL Analysis Workspace のプロジェクトを作成 / キュレーション]**&#x200B;権限を有効にしたグループか、**全レポートアクセス]ユーザーグループに追加してもらう必要があります[!UICONTROL **( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に **[!UICONTROL Analysis Workspace のプロジェクトを作成／キュレーション]**&#x200B;権限を有効にしたグループか、**[!UICONTROL 全レポートアクセス]**&#x200B;ユーザーグループに追加してもらう必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／[グループ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)）。
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. [!DNL Experience Cloud] で、**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** をクリックします。
 
    ![](assets/analysis_workspace_menu.png)
 
-   Alternatively, enter a forward slash (/) to open the report search bar, then type *`workspace`*.
+   または、スラッシュ（/）を入力してレポート検索バーを開き、「*`workspace`*」と入力します。
 
    ![](assets/analysis-app-search.png)
 
-1. Click **[!UICONTROL Create New Project]**.
+1. 「**[!UICONTROL 新規プロジェクトを作成]**」をクリックします。
 
    以下からプロジェクトを作成するかどうかを選択できます。
 
@@ -41,17 +40,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. 空のプロジェクトからプロジェクトを作成するには、「**[!UICONTROL 空のプロジェクト]**」をクリックします。
 
-   * Then click **[!UICONTROL Create]**, or
-   * Simply click **[!UICONTROL Enter]**.
+   * 次に、「**[!UICONTROL 作成]**」をクリックするか、または
+   * 単に **[!UICONTROL Enter]** キーを押します。
    空のプロジェクトが表示され、フリーフォームパネルとデータテーブルビジュアライゼーションが表示されます。
 
    ![](assets/fa_project_new.png)
 
    >[!NOTE]
    >
-   >プロジェクトを読み込む（またはレポートスイートに切り替える）際に「互換性のないレポートスイート」というメッセージが表示され、プロジェクトに含まれていないコンポーネント（指標/ディメンション）がレポートスイートに含まれる場合があります。 互換性のないコンポーネントのリストを表示できるので、このメッセージが表示される理由を把握できます。
+   >プロジェクトに含まれているコンポーネント（指標またはディメンション）の一部がレポートスイートに含まれていないプロジェクトをロードする（またはレポートスイートに切り替える）と、「互換性のないレポートスイート」というメッセージが表示される場合があります。互換性のないコンポーネントのリストを表示できるので、このメッセージが表示される理由を把握できます。
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -76,7 +75,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-1. プロジェクトを保存します。Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
+1. プロジェクトを保存します。プロジェクトに名前を付け、説明を入力し（オプションですが便利です）、タグ付け（オプション）をおこない、「**[!UICONTROL プロジェクトを保存]**」をクリックします。
 
    ![](assets/save_project.png)
 
@@ -86,11 +85,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >コピー/名前を付けて保存した後、イントラリンクは、コピー元のプロジェクトではなく、そのプロジェクト内に存在するプロジェクトに対する相対リンクになります。
+   >コピーまたは名前を付けて保存した後でも、内部リンクは、コピー元のプロジェクトではなく、内部のプロジェクトに対して相対的になりました。
 
 ## コンポーネントとビジュアライゼーションの追加 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. プロジェクトを作成するには、プロジ *`components`* ェクトに *`visualizations`* ドラッグ&amp;ドラッグします。
+1. プロジェクトを作成するには、*`components`* および *`visualizations`* をプロジェクトにドラッグします。
 
    **コンポーネント**
 
@@ -106,15 +105,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> ディメンション（オレンジ） </td> 
-   <td colname="col2"> <p>プロジェクトレベルに適用します </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>Prop の番号、eVar の番号およびイベントの番号がディメンション名に追加され、これらの番号を検索できます。例：「内部キャンペーン」は、左側のレールに「内部キャンペーン (evar2)」と表示されます。 </p> <p> 表示文字数を短くするために、prop、eVar、イベントの番号はテーブルに表示されません。 </p> <p>一部の事前設定済みディメンションには、フリーフォームテーブルにドラッグする場合または左側のレールに表示される場合のデフォルトの並べ替え順があります。例えば、「時間帯」がテーブルにドロップされる場合または左側のレールに表示される場合、午前 12 時～午後 11 時の順に並べ替えられます。指標列で並べ替えるオプションは現在も使用できます。 </p> </td> 
+   <td colname="col2"> <p>プロジェクトレベルに適用します </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>Prop の番号、eVar の番号およびイベントの番号がディメンション名に追加され、これらの番号を検索できます。例：「内部キャンペーン」は、左側のパネルに「内部キャンペーン (evar2)」と表示されます。 </p> <p> 表示文字数を短くするために、prop、eVar、イベントの番号はテーブルに表示されません。 </p> <p>一部の事前設定済みディメンションには、フリーフォームテーブルにドラッグする場合または左側のパネルに表示される場合のデフォルトの並べ替え順があります。例えば、「時間帯」がテーブルにドロップされる場合または左側のパネルに表示される場合、午前 12 時～午後 11 時の順に並べ替えられます。指標列で並べ替えるオプションは現在も使用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 指標（緑） </td> 
-   <td colname="col2"> <p>プロジェクトレベルに適用します。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 回数は</span> 、データテーブルのデフォルト指標です。 </p> </td> 
+   <td colname="col2"> <p>プロジェクトレベルに適用します。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> 「<span class="term">回数</span>」は、データテーブルのデフォルト指標です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> セグメント（青） </td> 
-   <td colname="col2"> <p>パネルレベルにのみドラッグできますが、データテーブルにインラインセグメントを作成できます。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>詳しく <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > は、「Analysis Workspaceの使用例</a> 」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>パネルレベルにのみドラッグできますが、データテーブルにインラインセグメントを作成できます。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>詳しくは、<a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Analysis Workspace の使用例</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日付範囲および精度（紫） </td> 
