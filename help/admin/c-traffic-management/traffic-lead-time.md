@@ -1,11 +1,10 @@
 ---
 description: 新しいアカウントの設定、トラフィックスパイク、トラフィック増加について、アドビに事前に通知する必要があります。遅延やシステム全体への悪影響の可能性を最小限に抑えるため、ハードウェアを事前に割り当てる必要があるためです。
-solution: Analytics
 title: トラフィック増加に対して必要なリードタイム
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Reports &amp; Analytics ユーザーインターフェイスを通じてアラートを送信することによって、ハードウェアの割り当てが進められます。
 
-> [!IMPORTANT] アドビは、「プレースホルダー」のトラフィック変更リクエストに対応できません。 特に指示がない限り、アラートを早く送信しすぎないような限り、推奨リードタイムにできるだけ従ってください。 詳しくは、トラ [フィックスパイクのスケジュール](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) 、または恒常的 [なトラフィック増加の指定を参照してくださ](/help/admin/c-traffic-management/t-traffic-permanent.md)い。
+> [!IMPORTANT] アドビは、「プレースホルダー」のトラフィック変更リクエストに対応できません。特に指示のない限り、アラートを早く送信しすぎないことを含め、できる限り推奨リードタイムを守ってください。詳しくは、[トラフィックスパイクのスケジュール](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)、または[恒常的なトラフィック増加の指定](/help/admin/c-traffic-management/t-traffic-permanent.md)を参照してください。
 
 次のガイドラインを使用して、どの程度事前にトラフィックアラートを送信する必要があるかを決定します。
 
@@ -26,8 +25,8 @@ Reports &amp; Analytics ユーザーインターフェイスを通じてアラ�
  <thead>
   <tr>
    <th colname="col1" class="entry"> 日別トラフィック予測（ヒット数） </th>
-   <th colname="col2" class="entry"> <p>必要なリードタイム（1月～10月） </p> </th>
-   <th colname="col3" class="entry"> <p>必要なリードタイム（11月～12月） </p> </th>
+   <th colname="col2" class="entry"> <p>必要なリードタイム（1 ～ 10 月） </p> </th>
+   <th colname="col3" class="entry"> <p>必要なリードタイム（11 ～ 12 月） </p> </th>
   </tr>
  </thead>
  <tbody>
@@ -37,16 +36,16 @@ Reports &amp; Analytics ユーザーインターフェイスを通じてアラ�
    <td colname="col3"> リードタイム不要 </td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 - 5,000,000 </td>
+   <td colname="col1"> 1,000,000 ～ 5,000,000 </td>
    <td colname="col2"> 2 営業日 </td>
-   <td colname="col3" morerows="3"> 11月から12月を対象としたトラフィック増加は、すべて9月1日までに提出する必要があります。 休暇中のトラフィック調整に必要な場合に、キャパシティを購入する時間を見込んでいるためです。 </td>
+   <td colname="col3" morerows="3"> 11 ～ 12 月を対象とするすべてのトラフィック増加については、9 月 1 日までに提出する必要があります。休暇中のトラフィック調整に必要な場合に、キャパシティを購入する時間を見込んでいるためです。 </td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 - 10,000,000 </td>
+   <td colname="col1"> 5,000,000 ～ 10,000,000 </td>
    <td colname="col2"> 1 週間 </td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 - 25,000,000 </td>
+   <td colname="col1"> 10,000,000 ～ 25,000,000 </td>
    <td colname="col2"> 2 週間 </td>
   </tr>
   <tr>
@@ -69,4 +68,4 @@ Reports &amp; Analytics ユーザーインターフェイスを通じてアラ�
 
 ## トラフィックが実現しなかったことによるハードウェアの割り当て解除
 
-新しいアカウント、トラフィックスパイク、トラフィック増加のハードウェアは、「Go Live日」から4週間以内にクライアントアラートの予測トラフィックが実現しない場合、割り当て解除されます。 引き続きトラフィックが予想される場合、トラフィックが増加したら新しいクライアントアラートを生成する必要があります。
+クライアントアラートで予測されたトラフィックが「Go Live 日」から 4 週間以内に実現しない場合、新しいアカウント、トラフィックスパイク、トラフィック増加用のハードウェアの割り当ては解除されます。引き続きトラフィックが予想される場合、トラフィックが増加したら新しいクライアントアラートを生成する必要があります。
