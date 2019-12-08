@@ -1,10 +1,9 @@
 ---
 description: 指標値を降順で並べ替えた、Data Warehouse のランク分類レポートを提供します。
-solution: Analytics
 title: 指標で並べ替え
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
