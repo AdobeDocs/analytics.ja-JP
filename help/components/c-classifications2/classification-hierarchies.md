@@ -1,12 +1,11 @@
 ---
 description: 分類階層ページでは、階層レポートを作成するのに使用できる分類階層を同じ名前で定義できます。
-solution: Analytics
 subtopic: Classifications
 title: 分類階層
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Web ページ、キャンペーン、商品、またはその他のレポート�
 
 階層に追加する前に、分類を作成します。
 
-## Create a Classification Hierarchy {#task_3805EBCACC844261A7125D63D772CCDF}
+## 分類階層の作成 {#task_3805EBCACC844261A7125D63D772CCDF}
 
 <!-- 
 
@@ -35,13 +34,13 @@ t_classification_heirarchy.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. レポートスイートの選択.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
-1. 「**階層の構築対象**」フィールドで、分類階層の作成先の変数を選択します。
+1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
+1. レポートスイートを選択します。
+1. **[!UICONTROL 設定を編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL 分類階層]**&#x200B;の順にクリックします。
+1. 「**[!UICONTROL 階層の構築対象]**」フィールドで、分類階層の作成先の変数を選択します。
 
    選択した変数で使用できる分類が分類リストに自動的に表示されます。
-1.  「**ここに新しい階層のルートをドラッグしてください**」フィールドに分類をドラッグし、分類階層に含めます。
+1.  「**[!UICONTROL ここに新しい階層のルートをドラッグしてください]**」フィールドに分類をドラッグし、分類階層に含めます。
 
-   ‎分類は、階層に表示したい順序で階層へとドラッグします。最初の分類はルート階層、2 番目の分類は最初の副分類といった順に行います。
+   分類は、階層に表示したい順序で階層へとドラッグします。最初の分類はルート階層、2 番目の分類は最初の副分類といった順に行います。
 1. 「**[!UICONTROL 保存]**」をクリックします。
