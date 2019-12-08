@@ -1,11 +1,10 @@
 ---
 description: 前ページのフローレポートは、選択したページの前に訪問者が最もよく閲覧したページを複数のレベルで示します。また、訪問者がサイトに来訪した最初のページが強調表示されます。
-solution: Analytics
 title: 前ページのフロー
 topic: Reports
 uuid: 836ca86f-c7f0-4e91-94e3-a50232325abe
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
