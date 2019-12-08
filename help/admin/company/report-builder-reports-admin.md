@@ -1,11 +1,10 @@
 ---
 description: Report Builder ユーザーに割り当てられているライセンスを管理します。
-solution: Analytics
 title: Report Builder レポート
 topic: Admin tools
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Report Builder ユーザーに割り当てられているライセンスを管�
 
 ユーザーに Report Builder ライセンスが割り当てられるたびに、10 件の予定タスクが自動的に割り当てられます。このタスク数は調整して再度割り当てることができます。予定タスクは、各ユーザーの使用可能なタスク数を超えて使用できません。超過した予定タスクは実行されません。
 
-You can grant report builder access to any [!DNL Analytics] user by adding them to the report builder access group ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+[!DNL Analytics] ユーザーを Report Builder アクセスグループ（**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**）に追加することで、Report Builder へのアクセス権を付与できます。
 
 「[!UICONTROL 予定タスクの使用]」の表には、Report Builder のアクセス権限を持つすべてのユーザーが表示されます。
 
