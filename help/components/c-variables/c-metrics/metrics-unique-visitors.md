@@ -1,11 +1,10 @@
 ---
 description: バージョン 14 では、実訪問者は、特定の期間内で初めてサイトを訪れた訪問者を指します。例えば、実訪問者が 1 週間に 10 回サイトを訪問する場合がありますが、期間が週の場合、その週で 1 人の実訪問者が 1 回だけカウントされます。その週が過ぎると、その実訪問者は別の期間で再びカウントできます。
-solution: Analytics
 title: 実訪問者数
 topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## バージョン 14 とバージョン 15 の違い
 
-Version 14 does not remove duplicate [!UICONTROL Visits] and [!UICONTROL Unique Visitors] metrics from classifications-based reports. 例えば、2 つのビデオクリップが同じ分類に属する場合、両方のビデオクリップを見た単一の訪問者は分類に基づくレポートで 2 件の[!UICONTROL 訪問回数]および[!UICONTROL 実訪問者数]として表されます。
+バージョン 14 では、分類に基づくレポートから、重複している[!UICONTROL 訪問回数]指標と[!UICONTROL 実訪問者数]指標が削除されません。例えば、2 つのビデオクリップが同じ分類に属する場合、両方のビデオクリップを見た単一の訪問者は分類に基づくレポートで 2 件の[!UICONTROL 訪問回数]および[!UICONTROL 実訪問者数]として表されます。
 
 バージョン 15 では、分類に基づくレポートから重複する[!UICONTROL 訪問回数]および[!UICONTROL 実訪問者数]が削除されます。したがって、[!UICONTROL 訪問回数]および[!UICONTROL 訪問者数]がより正確に測定されますが、分類に基づくレポートでの[!UICONTROL 訪問回数]指標および[!UICONTROL 実訪問者数]指標は、通常アップグレード前に収集されたデータに比べて少なくなります。
 
@@ -26,7 +25,7 @@ Version 14 does not remove duplicate [!UICONTROL Visits] and [!UICONTROL Unique 
 | コンバージョン | 訪問者とは、Web サイトを訪れた人のことです。コンバージョン関連のイベントまたは活動が発生したときにカウントされます。 |
 | Ad Hoc Analysis | 訪問者とは、Web サイトを訪れた人のことです。持続的 cookie は必要としません。 |
 
-実訪問者 [数レポート — バージョン15およびAd Hoc Analysisを参照してください](/help/components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md)。
+[実訪問者数レポート - バージョン 15 および Ad Hoc Analysis](/help/components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md) を参照してください。
 
 >[!MORELIKETHIS]
 >
