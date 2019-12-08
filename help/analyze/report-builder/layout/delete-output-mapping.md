@@ -1,11 +1,10 @@
 ---
 description: ワークブック編集中に新しいリクエストの領域を確保したい場合、既存リクエストの削除が必要になることがあります。
-solution: Analytics
 title: 出力マッピングの削除
 topic: Report builder
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
