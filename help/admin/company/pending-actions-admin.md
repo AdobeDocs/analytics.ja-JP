@@ -1,11 +1,10 @@
 ---
 description: 保留中のアクションの管理ページでは、Analytics 環境の保留中のアクションのリストを表示できます。保留中のアクションとは、導入前にアドビからの承認を必要とするシステム変更のことです。
-solution: Analytics
 title: 保留中のアクション
 topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,6 +13,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 保留中のアクションの管理ページでは、Analytics 環境の保留中のアクションのリストを表示できます。保留中のアクションとは、導入前にアドビからの承認を必要とするシステム変更のことです。
 
-**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /カンパニー]** 設定 **[!UICONTROL /保留中]****[!UICONTROL のアクション]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL カンパニー設定]**／**[!UICONTROL 保留中のアクション]**
 
 保留中のアクションには、レポートスイートにすぐに適用されない要求が表示されます。これらの要求は通常、アドビからの追加のアクションを必要とします。例えば、20 項目の相関関係の要求やトラフィックの大幅な増加要求には、追加のハードウェアを必要とする場合があります。これらの要求に保留状態が割り当てられると、データ収集処理を中断することなく、アドビは要求された変更の準備を行うことができます。
