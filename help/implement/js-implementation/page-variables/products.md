@@ -1,13 +1,12 @@
 ---
 description: ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -73,7 +72,7 @@ Folio Builder *`products`* 変数は、必ず成功イベントと組み合わ�
 | イベント | 指定された製品に関連付けられる通貨イベント。詳しくは、[製品固有の通貨イベント](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)および[注文全体にわたる通貨イベント](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)を参照してください。 |
 | eVar | 特定の製品に関連付けられるマーチャンダイジング eVar 値[マーチャンダイジング変数](/help/components/c-variables/c-merch-variables/var-merchandising.md)を参照してください。 |
 
-Folio Builderに&#x200B;*`products`* 変数に含まれる値は、記録しているイベントの種類に基づきます。Category を省略するときは、プレースホルダーとしてカテゴリと製品の区切り文字（;）が必要です。含めるパラメーターを区別する必要がある場合に限り、他の区切り文字が必要です。
+変数に含まれる値は、 *`products`* 記録するイベントのタイプに基づきます。 Category を省略するときは、プレースホルダーとしてカテゴリと製品の区切り文字（;）が必要です。含めるパラメーターを区別する必要がある場合に限り、他の区切り文字が必要です。
 
 **購入以外のイベントによる products 変数の設定**
 
