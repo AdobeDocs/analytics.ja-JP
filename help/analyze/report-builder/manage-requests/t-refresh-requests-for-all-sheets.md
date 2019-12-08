@@ -1,11 +1,10 @@
 ---
 description: すべてのシート上のリクエストを一括で更新することができます。
-solution: Analytics
 title: すべてのシートのリクエストの更新
 topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
