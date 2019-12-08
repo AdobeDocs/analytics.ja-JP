@@ -1,12 +1,11 @@
 ---
 description: 仮想レポートスイートの作成を始める前に、以下に注意してください。
 keywords: Virtual Report Suite
-solution: Analytics
 title: 仮想レポートスイートの作成
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 仮想レポートスイートマネージャーは管理者ユーザー以外には表示されません。
 * 仮想レポートスイートは共有できません。「共有」するには、グループや権限を使用します。
-* 仮想レポートスイートマネージャーには、自分が所有する仮想レポートスイートのみが表示されます。他のユーザーの情報を表示するには、「すべて表示」をクリックする必要があります。
+* 仮想レポートスイートマネージャーには、自分が所有する仮想レポートスイートのみが表示されます。他のユーザーの仮想レポートスイートを表示するには、「すべて表示」をクリックする必要があります。
 
-1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
-1. Click **[!UICONTROL Add +]**.
+1. **[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**&#x200B;に移動します。
+1. 「**[!UICONTROL 追加]**」をクリックします。
 
    ![](assets/new_vrs.png)
 
@@ -47,7 +46,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>タグを追加してレポートスイートを整理できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> グループ </td> 
+   <td colname="col1"> グループ  </td> 
    <td colname="col2"> <p>この VRS へのアクセスを許可する権限グループを選択します（グループ権限は、<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span></span>からも管理できます）。 </p> </td> 
   </tr> 
   <tr> 
