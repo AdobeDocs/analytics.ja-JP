@@ -1,12 +1,11 @@
 ---
 description: チャネルにコストと予算額を割り当てる方法を説明します。
-solution: Analytics
 subtopic: Marketing channels
 title: コストと予算
 topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 投資利益率（ROI）を確認する方法の一つは、売上高からコストを引いた額を示す計算指標を作成することです。また、合計コストおよび新規のエンゲージメント当たりのコストの分類を示す計算指標を作成する方法もあります。例えば、新規のエンゲージメントを示す[!UICONTROL ファーストタッチチャネル]レポートを実行し、計算指標を作成して新規のエンゲージメント当たりのコストを示すファーストタッチコスト指標を追加することが可能です。
 
-詳しくは、 [マーケティングチャネルレポートで使用される計算指標](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
+詳しくは、[マーケティングチャネルレポートで使用される計算指標](/help/components/c-marketing-channels/c-channel-calc-metrics.md)。
 
 チャネルにはコストと予算額のみを割り当てることができます。すべてのコストに対して、レポート内で適用される期間が示されます。コストをチャネルに直接関連付けると、チャネル内のキャンペーンごとのコストの内訳を示すために配分指標が選択されます。
 
@@ -29,17 +28,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 コストと予算項目をマーケティングチャネルに追加します。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. [!UICONTROL Report Suite Manager] ページで、レポートスイートを選択します。
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Costs]**.
-1. On the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Add Cost Item]** or **[!UICONTROL Add Budget Item]**.
-1. Click **[!UICONTROL Save.]**
+1. **[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルのコスト設定]**&#x200B;をクリックします。
+1. [!UICONTROL マーケティングチャネルのコスト設定]ページで、「**[!UICONTROL コスト項目を追加]**」または「**[!UICONTROL 予算項目を追加]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   To continue adding cost items, click **[!UICONTROL Save and Add Another]**.
+   コスト項目の追加を続けるには、「**[!UICONTROL 保存してもう 1 つ追加]**」をクリックします。
 
-1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
+1. （オプション）CSV ファイルをエクスポートまたはインポートするには、[!UICONTROL マーケティングチャネルのコスト設定]ページにアクセスし、「**[!UICONTROL ファイルのエクスポート]**」または「**[!UICONTROL ファイルのインポート]**」をクリックして、表示されるプロンプトに従います。
 
-## Marketing Channel costs - definitions {#mktg-channel-costs}
+## マーケティングチャネルのコスト - 定義 {#mktg-channel-costs}
 
 「マーケティングチャネルのコスト（または予算）」のフィールドの定義です。
 
