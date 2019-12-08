@@ -1,11 +1,10 @@
 ---
 description: ファイルのダウンロード数は、サイトから訪問者がファイルをダウンロードする頻度を知るのに役立ちます。ファイルダウンロードの例としては、ワープロ文書、スプレッドシート、オーディオファイル、ムービーファイル、ユーザーマニュアルなどがあります。これには、ブラウザーから直接保存されて開かれるファイルと、ユーザーのコンピューターに保存されるファイルの両方が含まれます。このレポートは、ダウンロード中のファイル名を、ファイルへのアクセスに必要な完全 URL と共に表示します。
-solution: Analytics
 title: ファイルのダウンロード数
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **ナビゲーション**
 
-**[!UICONTROL レポート]** /サ **[!UICONTROL イトコンテンツ]** /リ **[!UICONTROL ンク]** /ファイルのダ **[!UICONTROL ウンロード数]**
+**[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL リンク]**／**[!UICONTROL ファイルのダウンロード数]**
 
 このレポートがデフォルトの場所で使用できない場合は、担当の管理者にお問い合わせください。固有のニーズをよりよく満たすために、管理者がデフォルトのメニュー構成を変更した可能性があります。
 
@@ -32,10 +31,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 マーケティングレポートは、JavaScript コードが含まれているサイトのページからダウンロードされたファイルの情報を取得します。ただし、ファイルのダウンロードに関する情報をレポートするには、特定の変数が存在し、正しく設定されている必要があります。このレポートにデータが表示されないか、期待した値が示されない場合は、以下の手順で実装を検証してください。
 
-1. サイト上で、グローバル JavaScript ファイルを探します。これは [!DNL s_code.js] という名前であることが多いですが、名前が変更されている場合もあります。名前が変更されている場合は、サイト上のJavaScriptファイルでJavaScriptコードの一 *`s.account`*&#x200B;部である値を検索できます。
+1. サイト上で、グローバル JavaScript ファイルを探します。これは [!DNL s_code.js] という名前であることが多いですが、名前が変更されている場合もあります。名前が変更されている場合は、サイト上の JavaScript ファイルで JavaScript コードの一部である値「*`s.account`*」を検索できます。
 
 1. ファイル内で、[s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) 変数を見つけます。これが *true* に設定されていることを確認してください。
 
-1. [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html) 変数を見つけます。必要なすべてのファイル拡張子がこのリストに含まれていることを確認してください。If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
+1. [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html) 変数を見つけます。必要なすべてのファイル拡張子がこのリストに含まれていることを確認してください。必要な場合は、存在しない [!DNL .pdf] や [!DNL .zip] などの拡張子を追加します。
 
 これらの変数が正しく設定されているように見えるが[!UICONTROL ファイルのダウンロード数レポート]にデータが表示されない場合は、サポート対象ユーザーがカスタマーケアに連絡してください。
