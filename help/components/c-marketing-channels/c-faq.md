@@ -1,12 +1,11 @@
 ---
 description: マーケティングチャネルに対して設定可能な様々なルールを入力するためのベストプラクティスと例をご確認ください。
-solution: Analytics
 subtopic: Marketing channels
 title: よくある質問と例
 topic: Reports and analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ Read about best practices and examples of how to populate various rules you can 
 * [Direct](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 -->
 
-See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+[マーケティングチャネルの処理ルールの作成](/help/components/c-marketing-channels/t-rules.md)で、[!UICONTROL マーケティングチャネルの処理ルール]ページに表示されるフィールドの定義に関する項目を参照してください。
 
 ## よくある質問 {#faq}
 
@@ -37,11 +36,11 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 **質問**：私のトラッキングコードはパターンに従っていません。また、アフィリエイトチャネル用に指定しなければならないコードが無数にあります。
 
 * 除外処理を使用します。電子メールチャネルとアフィリエイトチャネルに同一のクエリ文字列パラメーターを使用しているとき、電子メールのトラッキングコードが少数なら、電子メールを定義するルールセットで電子メールトラッキングコードを指定することができます。その後、残りすべてのトラッキングコードをアフィリエイトとして分類します。 *`affiliates.`*
-* In your email system, add a query string parameter to all landing page URLs, such as *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. 含まれない場合はアフ *`eml`*&#x200B;ィリエイトです。
+* 電子メールシステムで、ランディングページのすべての URL に *`&ch=eml`* などのクエリ文字列パラメーターを追加します。ch クエリパラメーターが *`eml`* と等しいかどうかを検出するルールセットを作成します。*`eml`* が含まれない場合はアフィリエイトです。
 
-**質問**:参照ドメインに予想以上のデータが含まれています。
+**質問**：参照ドメインに予想より多くのデータが含まれています。
 
-* 参照ドメインが処理ルールリストで上位すぎる可能性があります。処理順序が重要なので、下位の方 (または最下位) に配置してください。
+* 参照ドメインが処理ルールリストで上位すぎる可能性があります。処理順序が重要なので、下位の方（または最下位）に配置してください。
 
 **質問**：クエリ文字列パラメーターに一致するルールを作成しましたが、うまく機能しません。
 
@@ -51,7 +50,7 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
 **質問**：ラストタッチトラフィックの属性がすべて内部ドメインになっているのはどうしてですか。
 
-* 内部トラフィックに一致するルールがあります。これらのルールは訪問の最初のページだけでなく、サイト上のすべてのページビューで処理されることを忘れないでください。「*`Page URL exists`*&#x200B;ページの URL が存在する」などのルールが指定されていて、他の条件が指定されていない場合は、ページの URL が常に存在するので、サイト上の連続するヒットのそれぞれについてそのチャネルが照合されます。
+* 内部トラフィックに一致するルールがあります。これらのルールは訪問の最初のページだけでなく、サイト上のすべてのページビューで処理されることを忘れないでください。「*`Page URL exists`*」などのルールが指定されていて、他の条件が指定されていない場合は、ページの URL が常に存在するので、サイト上の連続するヒットのそれぞれについてそのチャネルが照合されます。
 
 **質問**：レポートに「チャネルが識別されませんでした」と表示されているトラフィックは、どのようにデバッグしたらよいですか。
 
@@ -59,33 +58,33 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
 1. リファラーなし（直接訪問）。
 
-2. 内部リファラー。
+2. 内部リファラー、訪問の最初のページ。
 
-3. ページの処理エラー。
+3. ページの処理異常。
 
 この 3 つの可能性用のチャネルを用意してください。例えば、次のようなルールを作成します。
 
-1. **[!UICONTROL 「リファラ]** ー」と「 **[!UICONTROL 存在しない」は]** 、「 **[!UICONTROL 訪問の最初のページ]**」。 (See [Direct.](/help/components/c-marketing-channels/c-faq.md))
+1. 「**[!UICONTROL リファラー]**」と「**[!UICONTROL 存在しない]**」と「**[!UICONTROL 訪問の最初のページ]**」。（[直接](/help/components/c-marketing-channels/c-faq.md)を参照）
 
-2. **[!UICONTROL 「リファラーが内部URLフィルタに一致する]** 」および **[!UICONTROL 「は訪問の最初のページ]**」。 （[内部](/help/components/c-marketing-channels/c-faq.md)を参照）。
+2. 「**[!UICONTROL リファラーが内部 URL フィルターに一致する]**」と「**[!UICONTROL 訪問の最初のページ]**」（[内部](/help/components/c-marketing-channels/c-faq.md)を参照）。
 
-3. **[!UICONTROL リファラー]** と存在 **[!UICONTROL する]** 、リフ **[!UICONTROL ァラーが内部URLフィルターに一致しない]**。
+3. 「**[!UICONTROL リファラー]**」と「**[!UICONTROL 存在する]**」と「**[!UICONTROL リファラーが内部 URL フィルターに一致しない]**」
 
 最後に、[チャネルが識別されませんでした](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)で説明されているように、残りのヒットを捕捉する「その他」**&#x200B;のチャネルを作成します。
 
 ## チャネルが識別されませんでした {#no-channel-identified}
 
-ルールがデータを捕捉しない場合、あるいはルールが正しく設定されていない場合、レポートの「[!UICONTROL チャネルが識別されませんでした]」列にデータが表示されます。例えば、内部トラフィックも識別する「その他」**&#x200B;というルールセットを処理順序の最後に作成することができます。
+ルールがデータを捕捉しない場合、あるいはルールが正しく設定されていない場合、レポートの「[!UICONTROL チャネルが識別されませんでした]」列にデータが表示されます。例えば、内部トラフィックも識別する「*その他*」というルールセットを処理順序の最後に作成することができます。
 
 ![](assets/example_other.png)
 
-This kind of rule serves as a catch-all to ensure that channel traffic always matches external traffic, and typically does not end up in **[!UICONTROL No Channel Identified]**. 内部トラフィックも識別してしまうルールを作成しないように注意してください。「その他」のルールを作成するには、チャネルの値を&#x200B;**[!UICONTROL 参照ドメイン]**&#x200B;または&#x200B;**ページ URL]にするのが最も一般的で有効な方法です。[!UICONTROL **
+この種類のルールは、チャネルトラフィックが常に外部トラフィックに一致し、通常は「**[!UICONTROL チャネルが識別されませんでした]**」にならないようにする包括的ルールとして機能します。内部トラフィックも識別してしまうルールを作成しないように注意してください。「その他」のルールを作成するには、チャネルの値を&#x200B;**[!UICONTROL 参照ドメイン]**&#x200B;または&#x200B;**[!UICONTROL ページ URL]** にするのが最も一般的で有効な方法です。
 
-> [!NOTE] [チャネルが識別されませんでした]カテゴリに該当するチャネルトラフィックがまだ存在する可能性があります。 例えば、訪問者がサイトを訪問してページをブックマークし、その訪問中にブックマークを使用してそのページに戻った場合がこれに該当します。このページは訪問者が最初に訪問したページではなく、参照ドメインが存在しないので、直接アクセスチャネルにもその他チャネルにも分類されません。
+> [!NOTE]一部のチャネルトラフィックは引き続き「チャネルが識別されませんでした」カテゴリーに分類される場合があります。例えば、訪問者がサイトを訪問してページをブックマークし、その訪問中にブックマークを使用してそのページに戻った場合がこれに該当します。このページは訪問者が最初に訪問したページではなく、参照ドメインが存在しないので、直接アクセスチャネルにもその他チャネルにも分類されません。
 
 ## 有料検索 {#paid-search}
 
-有料検索とは、単語または語句が検索エンジンの検索結果ページに配置されるように料金を支払うことです。マーケティングチャネルを有料検索検知ルールに一致させるには、[!UICONTROL 有料検索検知]ページでの設定内容をマーケティングチャネルに使用します( **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**). リンク先 URL はその検索エンジンの既存の有料検索検知ルールと一致します。
+有料検索とは、単語または語句が検索エンジンの検索結果ページに配置されるように料金を支払うことです。マーケティングチャネルを有料検索検知ルールに一致させるには、[!UICONTROL 有料検索検知]ページでの設定内容をマーケティングチャネルに使用します（**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 有料検索検知]**。）リンク先 URL はその検索エンジンの既存の有料検索検知ルールと一致します。
 
 マーケティングチャネルルールでは、[!UICONTROL 有料検索]の設定は次のようになります。
 
@@ -119,7 +118,7 @@ Analytics には自然検索の検出は用意されていません。有料検�
 
 ## 表示 {#display}
 
-このルールは、バナー広告から来た訪問者を識別します。これはリンク先 URL のクエリ文字列パラメーターによって識別されます（この場合 *`Ad_01`*（名前をつけて保存）する必要があります。
+このルールは、バナー広告から来た訪問者を識別します。これはリンク先 URL のクエリ文字列パラメーターによって識別されます（この場合  *`Ad_01`*）。
 
 ![](assets/example_display.png)
 
@@ -131,7 +130,7 @@ Analytics には自然検索の検出は用意されていません。有料検�
 
 ## 電子メール {#email}
 
-このルールを設定するには、電子メールキャンペーンのクエリ文字列パラメーターが必要です。この例では、パラメーターは *`eml`* に追加してパートナーのリンクをフィルタリングしまｍす。
+このルールを設定するには、電子メールキャンペーンのクエリ文字列パラメーターが必要です。この例では、パラメーターは  *`eml`* です。
 
 ![](assets/example_email.png)
 
