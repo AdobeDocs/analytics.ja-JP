@@ -1,11 +1,10 @@
 ---
 description: 'null'
-solution: Analytics
 title: Ad Hoc Analysis の概要
 topic: Ad hoc analysis
 uuid: 49836551-9162-4dc4-b1d4-5c3d0f549dcd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
