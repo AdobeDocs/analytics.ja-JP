@@ -1,11 +1,10 @@
 ---
 description: すべての製品が特定の期間に発生させた収益の量を測定します。
-solution: Analytics
 title: 売上高
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * このレポートが正しくデータを収集するために満たす必要のある要件があります。同じイメージリクエスト内で以下のことが起きる必要があります。
 
-   * [!UICONTROL 購入]イベントが       `s.events` 変数にも取り込まれます。
+   * [!UICONTROL 購入]イベントが        `s.events` 変数にも取り込まれます。
 
    * `products` 変数が価格フィールドで値と共に定義されている必要があります。
    * この例では $35.99 が売上高レポートに渡されます。
@@ -33,22 +32,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
        s.events="purchase"
       ```
 
-* [!UICONTROL s.products] 変数内に複数の製品がある場合、すべてが売上高レポートに含められます。For example, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] would pass $9 in revenue to reporting.
+* [!UICONTROL s.products] 変数内に複数の製品がある場合、すべてが売上高レポートに含められます。例えば、[!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] では $9 が収益としてレポートに渡されます。
 
    >[!NOTE]
    >
-   >1つの製品で数量が増加した場合、売上高は乗算されません。 For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >単一の製品で量が増加した場合、売上高は乗算されません。例えば、[!DNL s.products="Womens;Socks;5;4.50"] では $22.50 ではなく、$4.50 がレポートに渡されます。実装において、リストされている量に対する合計売上高を渡すようにしてください（[!DNL s.products="Womens;Socks;5;22.50"]）に対する合計売上高を渡すようにしてください。
 
 * [!UICONTROL 売上高]では、ある期間での合計金額が最も近い通貨値に丸められます。それぞれの個別製品やヒットが丸められることはありません。
 * Analytics では、それぞれの日が最も近い整数の通貨に丸められるので、それぞれの日の合計を月別合計と比較すると、非常に小さい金額のずれがあります。これは、月別合計が丸められたそれぞれの日の合計ではなく、合計を最も近い整数の通貨に丸めた値であるためです。
-* 売上高が最も近い通貨に丸められないレポートを作成するには、      [計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)を使用します。
+* 売上高が最も近い通貨に丸められないレポートを作成するには、       [計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)を使用します。
 * `purchaseID` 変数を使用しない限り、ユーザーがページを更新すると、このデータがアドビに複数回送信されるので、売上高が水増しされる場合があります。
 * 時間別の分類はレポートスイートのタイムゾーンに基づいています。
 * このレポートには行項目は含まれていません。トレンドフォーマットでのみ表示できます。
 * 時間、日、週、月、四半期、および年の精度を適用できます。これらの精度はレポートの日付範囲に応じて使用できます。
 * このレポートは、以下のレポートによって分類できます（組織とレポートスイートの設定によって異なります）。
 
-   * [!UICONTROL 訪問別滞在時間レポート.]
+   * [!UICONTROL 訪問別滞在時間]レポート。
    * [!UICONTROL ページとサイトセクション]レポート。
    * [!UICONTROL ビデオ]レポート。
    * [!UICONTROL ページの深さと入口ページ]レポート。
@@ -65,15 +64,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 製品固有のプロパティ {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* This report can be accessed by going to **[!UICONTROL Conversion]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* このレポートにアクセスするには、**[!UICONTROL コンバージョン]**／**[!UICONTROL 購入]**／**[!UICONTROL 売上高]**&#x200B;を開きます。
 
 * [!UICONTROL トラフィックソース]分類は、[!UICONTROL 検索方法]の下にあります。
 
-* This report can be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* このレポートにアクセスするには、**[!UICONTROL サイト指標]**／**[!UICONTROL 購入]**／**[!UICONTROL 売上高]**&#x200B;を開きます。
 
 * 上記のすべての分類に加え、[!UICONTROL ファーストタッチおよびラストタッチマーケティングチャネル]分類を使用できます。
 
-* This report can also be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* このレポートにアクセスするには、**[!UICONTROL サイト指標]**／**[!UICONTROL 購入]**／**[!UICONTROL 売上高]**&#x200B;を開きます。
 
 * 前述の分類に加え、[!UICONTROL リスト]変数と現在の[!UICONTROL ビデオ]変数を使用できます。
 
