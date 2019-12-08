@@ -1,11 +1,10 @@
 ---
 description: AND/OR検索式を持つBooleanロジックを使用して設定するランキングフィルターと条件フィルター。
-solution: Analytics
 title: 最頻使用フィルター
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
