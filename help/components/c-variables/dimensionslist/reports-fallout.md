@@ -1,11 +1,10 @@
 ---
 description: 事前に指定した一連のページ間で、訪問者が離脱した箇所（フォールアウト）や、次に進んだ箇所（フォールスルー）を表示します。各ステップ間のコンバージョン率とフォールアウト率を示します。例えば、購入プロセス中の訪問者のフォールアウトポイントを追跡できます。開始点と終了点を選択し、中間点を追加して、Web サイトのナビゲーションパスを作成します。
-solution: Analytics
 title: フォールアウト
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 詳しくは、[カスタマージャーニー - フォールアウト](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)を参照してください。
 
-**Reports and Analytics**
+**Reports &amp; Analytics**
 
 構成情報については、ヘルプの[フォールアウトレポートの実行](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html)を参照してください。
 
