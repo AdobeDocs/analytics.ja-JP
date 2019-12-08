@@ -1,12 +1,11 @@
 ---
 description: 'null'
-solution: Analytics
 subtopic: Release notes
 title: Windows Silverlight、NET、IIS、XBOX
 topic: Developer and implementation
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
