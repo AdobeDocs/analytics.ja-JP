@@ -1,11 +1,10 @@
 ---
 description: Activity Map は以下の Web ブラウザーでサポートされています。
-solution: Analytics
 title: サポートされているシステムおよび要件
 topic: Activity map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Activity Map は以下の Web ブラウザーでサポートされています�
 |--- |--- |
 | Internet Explorer | 最新バージョン |
 | Firefox | 最新バージョン |
-| Chrome | 最新バージョン。注意：Activity Map Chrome プラグインは、現時点では「開発者モード」のプラグインのみです。このプラグインを起動すると、開発者モードの拡張を無効にするよう推奨するメッセージが表示されます。このメッセージはプラグインを起動するたびに表示されます。 |
+| Chrome | 最新バージョン. 注意：Activity Map Chrome プラグインは、現時点では「開発者モード」のプラグインのみです。このプラグインを起動すると、開発者モードの拡張を無効にするよう推奨するメッセージが表示されます。このメッセージはプラグインを起動するたびに表示されます。 |
 
 > [!NOTE]リンク収集の観点から、Activity Map ではより幅広いブラウザーをサポートしています。
 
