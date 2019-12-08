@@ -1,11 +1,10 @@
 ---
 description: パスワードを使用しないでFTPアカウントに接続する方法は、SFTP接続と代替認証方法の両方を使用する場合にのみ可能です。 この方法では、公開鍵と秘密鍵の組み合わせと呼ばれる一対のファイルを使用します（1 つは FTP アカウントに、もう 1 つはユーザーのコンピューター上に配置します）。
 keywords: ftp;sftp
-solution: Analytics
 title: パスワードなしでの SFTP 経由でのアドビへの接続
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
