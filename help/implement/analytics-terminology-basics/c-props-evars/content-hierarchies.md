@@ -1,12 +1,11 @@
 ---
 description: コンテンツ階層の一般的な使用方法は、訪問者が特定のページ、レベルなどから辿った様々なパスを示すことです。
 keywords: Analytics Implementation;content hierachies;hier
-solution: Analytics
 title: コンテンツ階層のカウント
 topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
