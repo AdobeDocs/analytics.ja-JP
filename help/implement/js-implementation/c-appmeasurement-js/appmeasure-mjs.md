@@ -1,13 +1,12 @@
 ---
 description: JavaScript 版 AppMeasurement は s_code.js と同じ機能を提供する新しいライブラリですが、モバイルサイトとデスクトップサイトのどちらで使用してもより軽量で高速です。
 keywords: appmeasurement;Analytics Implementation;javascript;appmeasurement for javascript;initialization;retrieve appmeasurement instance;clear vars;clearvars;appmeasurement utilities;appmeasurement instance;appmeasurement benefits
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: JavaScript 版 AppMeasurement について
 topic: Developer and implementation
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -74,13 +73,13 @@ JavaScript [!DNL AppMeasurement] は、以下の組み込みのユーティリ�
 * `zip`
 * `campaign`
 
-以下に例を示します。
+次に例を示します。
 
 ```js
 s.clearVars()
 ```
 
-## 利点 {#section_091E5A28E89E438E8A54A95F55165743}
+## メリット {#section_091E5A28E89E438E8A54A95F55165743}
 
 * H.25 コードと比較して 3 倍 ～ 7 倍も高速。
 * わずか 21K の非圧縮コード、8K の gzip 圧縮コード（H.25 コードでは、33K もの非圧縮コード、13K の gzip 圧縮コード）。
