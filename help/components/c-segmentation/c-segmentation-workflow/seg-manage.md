@@ -1,11 +1,10 @@
 ---
 description: セグメントマネージャでは、セグメントを様々な方法で管理できます。例えば、共有、フィルターを適用、タグ付け、承認、コピー、削除およびお気に入りへの登録が可能です。
-solution: Analytics
 title: セグメントの管理
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,8 +15,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analytics セグメントマネージャには、自分が所有しているすべてのセグメントと、自分が共有しているセグメントが表示されます。管理者レベルのユーザーは、組織内のすべてのセグメントを表示できます。この概要では、セグメントマネージャのユーザーインターフェイスと機能について説明します。セグメントビルダーには、次のようにアクセスします
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Segments]** in the top navigation.
-* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![ をクリックします。](assets/segment_icon.png)Then click **[!UICONTROL Manage]**.
+* 上部のナビゲーションから **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL セグメント]**&#x200B;に移動します。
+* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。
 
 ## ハウツービデオ {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
@@ -40,17 +39,17 @@ Analytics セグメントマネージャには、自分が所有しているす�
 | 9 | 共有先 | 自分がセグメントを共有している個人、グループまたは全員が表示されます。グループまたは全員を表示できるのは管理者のみです。 |
 | 10 | 修正日 | セグメントが最後に修正された日付を表示します。 |
 | 11 | 列の選択 | セグメントマネージャ内で列を選択または選択を解除します。 |
-| 12 | 共有アイコン | 既にこのセグメントを自分が共有していることを示します。 |
-| 13 | 承認済みアイコン | このセグメントが管理者によって承認されていることを示します。 |
+| 12 | 共有アイコン   | 既にこのセグメントを自分が共有していることを示します。 |
+| 13 | 承認済みアイコン   | このセグメントが管理者によって承認されていることを示します。 |
 | 14 | フィルター | タグ、レポートスイート、所有者およびその他（すべてを表示、自分が所有、自分と共有、承認済み、お気に入り）のフィルターを確認および選択できます。 |
 
 ## Ad Hoc Analysis でのセグメントマネージャ {#section_CC8BDC968EBC4BC1919870869D8443A9}
 
 Ad Hoc Analysis のセグメントオーガナイザーには、自分が所有しているすべてのセグメントと自分が共有しているセグメントが表示されます。
 
-To access the Segment Organizer in [!DNL ad hoc analysis]:
+[!DNL ad hoc analysis] のセグメントオーガナイザーにアクセスするには：
 
-* 左のパネルにある「**[!UICONTROL セグメント]**」タブに移動し、レンチアイコン ![ をクリックして、メニューから「**セグメントを整理]」を選択します。](assets/wrench_icon.png)[!UICONTROL **
+* 左のパネルにある「**[!UICONTROL セグメント]**」タブに移動し、レンチアイコン ![](assets/wrench_icon.png) をクリックして、メニューから「**[!UICONTROL セグメントを整理]**」を選択します。
 
 ![](assets/ad_hoc_organize_segments.png)
 
