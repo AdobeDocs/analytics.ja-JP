@@ -1,11 +1,10 @@
 ---
 description: リアルタイムレポートでサポートされる指標とディメンションを一覧表示します。分類もサポートされます（分類を定義している場合）。
-solution: Analytics
 title: サポートされるリアルタイム指標とディメンション
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 ## サポートされる指標 {#section_514ED8B382494C47BFC0657894D1AF94}
 
 * 売上高
-* 購入回数
+* 注文件数
 * 単位
 * 買い物かご
 * 買い物かご表示
@@ -29,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## サポートされるディメンション {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
-* 「ページ」
+* ページ
 * 検索キーワード
 * 検索エンジン
 * 参照ドメイン
@@ -37,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 地理特性 - 地域
 * 地理特性 - 区市町村
 * 地理特性 - 米国 DMA
-* 製品
+* 製品     
 * サーバー
 * サイトセクション
 * トラッキングコード
