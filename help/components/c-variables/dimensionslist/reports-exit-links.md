@@ -1,11 +1,10 @@
 ---
 description: クリックしてサイトの外に移動するためのリンクの中で、最も多く使用されているリンクが示されます。これらのリンクは、通常、パートナーや関連会社のサイトです。ただし、外部リンクを組み込んだ任意の場所にすることができます。このレポートを使用して、最も人気のある関連会社のリンクを確認したり、お客様が提供しているとパートナーが主張する、パートナーサイトへのリンク数を検証したりできます。
-solution: Analytics
 title: 離脱リンク
 topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * すべてのカスタムリンクトラッキングヒットと同様、ページビュー数の水増しを避けるために、[s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) 変数はイメージリクエストから削除されます。
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
-* You can create [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
+* 管理ツールを使用して、他の変数との[内訳](/help/analyze/reports-analytics/reports-customize/breakdowns.md)を作成できます。
 * [インスタンス](/help/components/c-variables/c-metrics/metrics-instance.md)は、このレポート内でデフォルトで使用できる唯一の指標です。離脱リンクがクリックされた回数をカウントします。
 * このレポートで、日別、週別、月別、四半期別の訪問者を有効にすることができます。ただし、Adobe 担当者のみがこれらを有効にすることができ、追加の費用が必要です。すべてのカスタムリンクトラッキング変数に対して実訪問者を有効にすると、レポートスイートの待ち時間が大幅に増大します。
 
