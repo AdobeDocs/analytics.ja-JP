@@ -1,11 +1,10 @@
 ---
 description: Report Builder で Adobe Analytics のセグメントを追加、編集、適用およびフィルターする方法について説明します。
-solution: Analytics
 title: セグメントの管理
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -75,7 +74,7 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 | その他のフィルター／自分が所有 | 自分が所有しているセグメントをすべて表示します。 |
 | その他のフィルター／自分と共有 | 自分と共有されているすべてのセグメントが表示されます。 |
 | その他のフィルター／お気に入り | お気に入りとしてマークしたすべてのセグメントが表示されます。 |
-| その他のフィルター／承認済み | 正式に承認されたすべてのセグメントが表示されます。 |
+| その他のフィルター／承認済み | 正式に  承認されたセグメントをすべて表示します。 |
 
 ## ワークブックへのセグメントコントロールの追加 {#section_E3E5149A8464441FA5445A98DBD520AC}
 
