@@ -1,12 +1,11 @@
 ---
 description: レポートスイートでは、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。通常、レポートスイートは 1 つの Web サイトですが、複数サイトの数値を組み合わせて合計を示すグローバルセグメントとなる場合もあります。マーケティングレポート、Ad hoc analysis および Report builder にログインしたら、使用するレポートスイートを 1 つ選択します（レポートスイートを組み合わせたロールアップを使用する場合を除く）。
 keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
-solution: Analytics
 title: レポートおよびレポートスイート
 topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
