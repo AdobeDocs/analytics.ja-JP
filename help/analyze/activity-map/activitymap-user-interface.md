@@ -1,11 +1,10 @@
 ---
 description: 'Activity Map の UI は、次の 2 つの部分で構成されています。 '
-solution: Analytics
 title: Activity Map ユーザーインターフェイス
 topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
