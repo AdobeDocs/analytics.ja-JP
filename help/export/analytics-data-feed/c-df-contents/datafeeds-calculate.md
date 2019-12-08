@@ -1,12 +1,11 @@
 ---
 description: データフィードを使用して一般的な指標を計算する方法について説明します。
 keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
-solution: Analytics
 title: 計算指標
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
