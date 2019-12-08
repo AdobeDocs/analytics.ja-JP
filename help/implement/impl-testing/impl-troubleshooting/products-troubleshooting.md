@@ -1,13 +1,12 @@
 ---
 description: s.products 変数は、データ収集で使用される構文的に最も複雑な変数です。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: products 変数での一般的なエラー
 topic: Developer and implementation
 uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
