@@ -1,11 +1,10 @@
 ---
 description: カスタマイズされた式で日付範囲を使用する場合の例、注意事項および構文に関する注意点について説明します。
-solution: Analytics
 title: カスタマイズされた式を使用した日付範囲の例
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 例 | 期間 | 式のカスタマイズ | レポートの日付範囲 |
 |---|---|---|---|
-|  |  | **開始日** | **終了日** |  |
+|  |  | **送信元** | **設定値** |  |
 | 1 | 2 週間前の 1 週間 | cw-2w | cw-1w-1d | 10 月 26 日から 11 月 1 日 |
 | 2 | 昨年の 5 か月目の最初の 3 日間 | cy-1y+4m | cy-1y+4m+2d | 2010 年 5 月 1 日から 5 月 3 日 |
 | 3 | 4 週間前の 1 週間 | cw-4w | cw-3w-1d | 10 月 12 日から 10 月 18 日 |
