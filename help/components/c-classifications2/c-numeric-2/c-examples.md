@@ -1,12 +1,11 @@
 ---
 description: 以下の例で、数値 2 分類のインポートについて説明します。
-solution: Analytics
 subtopic: Classifications
 title: 例
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ c_example_1__rate.xml
 
 ここでは、[!UICONTROL 分類変換]マネージャーで分類を作成済みで、以下に示す 1 月の値をインポートするとします。
 
-| Key | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_jan_var` |  | `.2` |
 | Product2 | Text2 | `Cost2_jan_var` |  | `.3` |
@@ -33,7 +32,7 @@ c_example_1__rate.xml
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 
-In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~`) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, `~MyCost^~id~` is blank.
+1 月の Product1 のコストは売上高の 20％（`~MyCost^~value~` に表示）で、Product2 のコストは売上高の 30％でした。新しい行をインポートするので、`~MyCost^~id~` は空にします。
 
 ## 結果 {#section_E0569289C9B34C479C7D2CD9ECBF866E}
 
@@ -54,7 +53,7 @@ c_example_2__rate.xml
 
  -->
 
-| Key | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
 | Product2 | Text2 | `Cost2_jan_var` | 2 | .3 |
@@ -68,7 +67,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-2月には、Product1のユーザーのコストは売上高の15%に、Product2は売上高の25%に減少しました。
+2 月のユーザー側の Product1 のコストは売上高の 15％に減少し、Product2 は売上高の 25％に減少しました。
 
 ## 結果 {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -109,7 +108,7 @@ c_example_3__fixed.xml
 
 したがって、次のデータをインポートします。
 
-| Key | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
 | Product2 | Text2 | `Cost2_jan_fixed` |  | 2000.00 |
@@ -140,7 +139,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
 この例では、Product1 の 1 月のデータに $500 の配送料を追加し、2 月のデータに $600 の配送料を追加します。
 
-| Key | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
 | Product1 | Text1 | `Cost2_jan_fixed` |  | 500 |
@@ -168,7 +167,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
-> [!NOTE] この機能は、上級ユーザーが概算値を得るためのものです。 結果のデータは、正確な値として使用しないでください。
+> [!NOTE]この機能は、上級のユーザーが概算値の計算に使用するものです。結果のデータは、正確な値として使用しないでください。
 
 <!-- 
 
@@ -178,7 +177,7 @@ c_example_5__identical_rate_hinge.xml
 
 次に例を示します。
 
-| Key | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_var` |  | 1 |
 
@@ -194,7 +193,7 @@ c_example_5__identical_rate_hinge.xml
 
 レポート：製品（ページ別）
 
-| 製品（ページ別） | 購入回数 | MyCost |
+| 製品（ページ別） | 注文件数 | MyCost |
 |---|---|---|
 | Product1 | 1000 | $1000.00 |
 | ホームページ | 600 | $600 |
@@ -206,7 +205,7 @@ c_example_5__fixed_no_hinge.xml
 
  -->
 
-| Key | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
 | Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
@@ -224,7 +223,7 @@ c_example_5__fixed_no_hinge.xml
 
 レポート：製品（ページ別）
 
-| 製品（ページ別） | 購入回数 | MyCost |
+| 製品（ページ別） | 注文件数 | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | ホームページ | 600 | 0 |
@@ -238,7 +237,7 @@ c_example_7__fixed_hinge.xml
 
 ここでは、次のデータをインポートします。
 
-| Key | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
 | Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
@@ -256,7 +255,7 @@ c_example_7__fixed_hinge.xml
 
 レポート：製品（ページ別）
 
-| 製品（ページ別） | 購入回数 | MyCost |
+| 製品（ページ別） | 注文件数 | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | ホームページ | 600 | $1800.00 |
@@ -270,7 +269,7 @@ c_example_7_continued__different_rate_hinge.xml
 
 次のファイルデータをインポートします。
 
-| Key | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | Cost1_mar_fixed |  | 3 |
 
@@ -286,7 +285,7 @@ c_example_7_continued__different_rate_hinge.xml
 
 レポート：製品（ページ別）
 
-| 製品（ページ別） | 購入回数 | MyCost |
+| 製品（ページ別） | 注文件数 | MyCost |
 |---|---|---|
 | Product1 | 1000 | $3000.00 |
 | ホームページ | 600 | $1,000.00 |
