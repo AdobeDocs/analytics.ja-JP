@@ -1,12 +1,11 @@
 ---
 description: トラフィック分類では、トラフィック変数（prop）の分類がおこなえます。トラフィック分類ではテキスト分類しか使用できません。
-solution: Analytics
 subtopic: Classifications
 title: トラフィック分類
 topic: Admin tools
 uuid: fec2f725-7aa9-4985-b8a9-f21b0b3e995c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
