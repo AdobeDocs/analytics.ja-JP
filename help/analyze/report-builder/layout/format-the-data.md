@@ -1,11 +1,10 @@
 ---
 description: Excel の書式／セル（Ctrl + 1 キー）の機能で利用できる標準的なセル書式設定に加え、Report Builder を使用してセル範囲に対して簡易的な書式を適用できます。それらの書式設定に使用できるオプションは、選択した指標によって異なります。
-solution: Analytics
 title: 日付の書式
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensi
 | M | 月 | 3 |
 | MM | 月（10 未満の月の場合に 10 の位に 0 を付加） | 03 |
 | MMM | 月の略称 | Mar |
-| MMMM | 月の正式名称 | March |
+| MMMM | 月の正式名称 |  年 3 月 |
 | D | 日付の正式名称 | Wednesday, March 14, 2012 |
 | d | 日 | 14 |
 | dd | 日（10 未満の日の場合に 10 の位に 0 を付加） | 14 |
