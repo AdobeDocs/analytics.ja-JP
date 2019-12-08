@@ -1,11 +1,10 @@
 ---
 description: Adobe Target のトラフィックデータをレポートに表示してセグメント化します。
-solution: Analytics
 title: Target
 topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,10 +19,10 @@ Adobe Target のトラフィックデータをレポートに表示してセグ�
 
 次のような例があります。
 
-* Measuring the success of Adobe [!DNL Target] campaigns through your KPIs.
-* Breaking down [!DNL Target] campaign and recipe data with conversion variables.
-* Breaking down other reports with [!DNL Target] campaign and recipe traffic data.
+* KPI で Adobe [!DNL Target] キャンペーンの成功を測定する。
+* [!DNL Target] のキャンペーンおよびレシピデータをコンバージョン変数で分類する。
+* 他のレポートを [!DNL Target] のキャンペーンおよびレシピトラフィックデータで分類する。
 
-By leveraging data in Analytics reports, you can drill into your [!DNL Target] recipes using [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) and detect high performing segments that are ideal for future tests and potentially targeted campaigns. The report displays Analytics conversion data rather than conversion data from [!DNL Target].
+Analytics のデータを活用することにより、[!DNL Target]分類[を使用し、](/help/analyze/reports-analytics/reports-customize/breakdowns.md) のレシピを詳細に調べて、今後のテストやターゲットキャンペーンに最適な効果の高いセグメントを検出できます。このレポートには、[!DNL Target] からのコンバージョンデータではなく、Analytics のコンバージョンデータが表示されます。
 
 詳しくは、[Target](https://help.testandtarget.omniture.com/) のヘルプシステムを参照してください。
