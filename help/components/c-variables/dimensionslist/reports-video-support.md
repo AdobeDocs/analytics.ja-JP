@@ -1,11 +1,10 @@
 ---
 description: サポートするビデオ形式別にモバイルデバイスをグループ分けします。例えば、訪問者が .mp4 をサポートしているモバイルデバイスでサイトにアクセスすると、ビデオサポートレポートの値は少なくとも 1 増分されます。携帯電話が複数のビデオ形式（.mp4、.wmv など）をサポートしている場合、レポートの各グループの値が増分されます。このため、グループの合計は、レポートの一番下に表示される合計値より大きくなることがあります。
-solution: Analytics
 title: ビデオサポート
 topic: Reports
 uuid: a1dcf60a-a1e5-4a0c-9aec-3fadc71c22c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
