@@ -1,11 +1,10 @@
 ---
 description: ページイベントは、特殊なイメージリクエストからのイメージリクエストデータで構成されます。特殊なイメージリクエストのソースは、ダウンロードリンク、離脱リンクおよびカスタムリンクトラッキングです。
-solution: Analytics
 title: ページイベント
 topic: Metrics
 uuid: 8386ce4f-0935-4660-99d4-1d57b98ea964
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
