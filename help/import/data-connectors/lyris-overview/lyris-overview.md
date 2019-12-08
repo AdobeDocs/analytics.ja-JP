@@ -1,10 +1,9 @@
 ---
 description: 統合を通じて達成されるマーケティングの効率性について説明します。
-solution: Analytics
 title: Adobe Analytics用Lyris Data Connector
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -91,7 +90,7 @@ LyrisとAdobe Analyticsの統合により、次の主なメリットが得られ
   </tr> 
   <tr> 
    <td colname="col1"> eVar </td> 
-   <td colname="col2"> Email Recipient ID </td> 
+   <td colname="col2"> 電子メール受信者 ID </td> 
    <td colname="col3"> 電子メールキャンペーンをクリックした顧客の匿名IDを取り込むには </td> 
    <td colname="col4"> <p>ステータス：有効 </p> <p>配分：最新 </p> <p>有効期限：「ビジネス上の意思決定」 </p> </td> 
   </tr> 
