@@ -1,22 +1,21 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
 title: コホート分析とは
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # コホート分析とは
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. コホート分析は、例えば、コホートがブランドとどのように関わっているかを知る場合に役立ちます。 トレンドの変更を簡単に見分けて、それに応じて対応できます(Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+*`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。コホート分析は、例えば、コホートがブランドとどのように関わっているかを学ぶ場合に便利です。トレンドの変更を簡単に見分けて、それに応じて対応できます（コホート分析の説明は、[Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis) など、Web 上で参照できます）。
 
-コホートレポートを作成したら、コンポーネント（特定のディメンション、指標およびセグメント）をキュレーションして、任意のユーザーとコホートレポートを共有できます。詳しくは、 [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
+コホートレポートを作成したら、コンポーネント（特定のディメンション、指標およびセグメント）をキュレーションして、任意のユーザーとコホートレポートを共有できます。詳しくは、[キュレーションおよび共有](/help/analyze/analysis-workspace/curate-share/curate.md)を参照してください。
 
-コホート分析でできる操作の例を次に示します。
+コホート分析では、例えば次の操作をおこなえます。
 
 * 目的のアクションを促進するために設計したキャンペーンを開始する。
 * 顧客のライフサイクルのまさに適切なタイミングでマーケティング予算を移行する。
@@ -28,25 +27,25 @@ A *`cohort`* is a group of people sharing common characteristics over a specifie
 
 コホート分析は、Analysis Workspace へのアクセス権を持つすべての Analytics ユーザーが利用できます。
 
-[YouTubeでのコホート分析](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[コホート分析（YouTube）](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（4:36）
 
 >[!IMPORTANT]
 >
 >コホート分析は計算指標をサポートしていません。
 
-## コホート分析機能
+## コホート分析の機能
 
-2019年1月に、アドビは、大幅に強化された新しいバージョンのコホート分析をリリースしました。 新バージョンでは、作成するコホートに対してより詳細な制御が可能になります。主な機能強化は以下のとおりです。
+2019 年 1 月、アドビは、大幅に強化された新しいバージョンのコホート分析をリリースしました。新バージョンでは、作成するコホートに対してより詳細な制御が可能になります。主な機能強化は以下のとおりです。
 
 ### リテンションテーブル
 
-リテンションコホートレポートは、訪問者を返します。各データセルには、その期間にアクションを実行したコホート内の訪問者の生の数と割合が表示されます。 指標は最大 3 個、セグメントは最大 10 個含めることができます。
+リテンションコホートレポートが訪問者を返す：各データセルは、その期間にアクションをおこなったコホートの生の訪問者数と割合を表します。指標は最大 3 個、セグメントは最大 10 個含めることができます。
 
 ![](assets/retention-report.png)
 
 ### チャーンテーブル
 
-チャーンコホートはリテンションテーブルの逆で、コホートのフォールアウト条件に一度も合致しなかった訪問者を示します。 指標は最大 3 個、セグメントは最大 10 個含めることができます。
+チャーンコホートはリテンションテーブルの逆で、コホートにおいてフォールアウトした訪問者、または一定期間内にリターン条件を満たしていない訪問者が表示されます。指標は最大 3 個、セグメントは最大 10 個含めることができます。
 
 ![](assets/churn-report.png)
 
@@ -68,5 +67,5 @@ A *`cohort`* is a group of people sharing common characteristics over a specifie
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-コホートレポートの設定および実行方法について詳しくは、 [コホート分析レポートの設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+コホートレポートの設定および実行方法について詳しくは、[コホート分析レポートの設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)を参照してください。
 
