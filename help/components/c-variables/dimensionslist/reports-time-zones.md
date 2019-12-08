@@ -1,11 +1,10 @@
 ---
 description: 訪問者のタイムゾーンを表示します。グラフは世界地図を示します。特定のタイムゾーンから訪問者がアクセスしている場合、所定の期間内にサイトにアクセスした訪問者数を反映して、そのタイムゾーンに色の付いた列が表示されます。すべてのタイムゾーンは世界標準時となっているグリニッジ標準時（GMT）で表示されます。
-solution: Analytics
 title: タイムゾーン
 topic: Reports
 uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
