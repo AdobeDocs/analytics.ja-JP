@@ -1,11 +1,10 @@
 ---
 description: 主要指標レポートでは指標を比較し、同じ傾向があるかどうかを確認できます。例えば、ページビュー回数の増加につれて訪問者数も増加しているかどうかを確認できます。
-solution: Analytics
 title: 主要指標
 topic: Reports
 uuid: 33e57c24-66e6-40a5-a1b0-dc6a66a74a1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
