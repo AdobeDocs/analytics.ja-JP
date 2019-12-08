@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にできます。
 keywords: delete report suite
-solution: Analytics
 title: レポートスイートを非表示
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,14 +20,14 @@ Adobe Analytics ユーザーインターフェイスでレポートスイート�
 
 >[!IMPORTANT]
 >
->非表示のレポートスイートにサイトから送信されたデータは、引き続き収集、処理および請求が行われます。 つまり、レポートスイートは完全には削除されません。
+>レポートスイートが非表示になっていても、サイトからそのレポートスイートに送信されるデータは引き続き、収集、処理および課金の対象になります。つまり、レポートスイートは完全には削除されません。
 
-To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. レポートスイート名の左側にある「**[!UICONTROL 非表示]」チェックボックスをオンにします。**
+レポートスイートを非表示にするには、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL カンパニー設定]**／**[!UICONTROL レポートスイート]**&#x200B;を非表示に移動します。レポートスイート名の左側にある「**[!UICONTROL 非表示]**」チェックボックスをオンにします。
 
-レポートスイートの非表示を解除するには、「**[!UICONTROL 非表示]」チェックボックスをオフにします。**
+レポートスイートの非表示を解除するには、「**[!UICONTROL 非表示]**」チェックボックスをオフにします。
 
-To view only hidden report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Hidden Report Suites]**.
+非表示にされたレポートスイートのみを表示するには、**[!UICONTROL カンパニー設定]**&#x200B;で&#x200B;**[!UICONTROL 表示]**／**[!UICONTROL 非表示のレポートスイートのみ]**&#x200B;を選択します。
 
-To view only visible report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Visible Report Suites]**.
+表示可能にされたレポートスイートのみを表示するには、**[!UICONTROL カンパニー設定]**&#x200B;で&#x200B;**[!UICONTROL 表示]**／**[!UICONTROL 表示可能なレポートスイートのみ]**&#x200B;を選択します。
 
-The default is **[!UICONTROL View]** &gt; **[!UICONTROL All]**.
+デフォルトは、**[!UICONTROL 表示]**／**[!UICONTROL すべて]**&#x200B;です。
