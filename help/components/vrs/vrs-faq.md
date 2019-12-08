@@ -1,12 +1,11 @@
 ---
 description: 仮想レポートスイートを初めて使用するユーザー向けのヒントとベストプラクティスです。
 keywords: Virtual Report Suite
-solution: Analytics
 title: VRS FAQ
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -55,7 +54,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col1"> <b>Admin Console と管理 API では、仮想レポートスイートに対してどのような操作ができますか。ベースレポートスイートと同様、仮想レポートスイートにも機能を保存できますか。</b> </td> 
    <td colname="col2"> <p>できません。ほとんどの管理機能では、仮想レポートスイートは<b>サポートされていません</b>。上述のように、VRS はほとんどのサービスレベルと機能を親から継承します（eVar 設定、処理ルール、分類など）。VRS のこうした継承した設定を変更するには、親レポートスイートを編集する必要があります。 </p> <p>このため、仮想レポートスイートは<b>次の場所でのみ</b> UI に表示されます。 </p> 
     <ul id="ul_64CF126ACF39453A95BD9FC9D2CFA59B"> 
-     <li id="li_08EBF87ADF13400C9DD3FFC2695F5CF9">VRS を作成および編集するための仮想レポートスイートマネージャー <p>( <span class="ignoretag"> <span class="uicontrol"> Analytics</span>／<span class="uicontrol">コンポーネント</span>／<span class="uicontrol">仮想レポートスイート </span> </span>) </p> </li> 
+     <li id="li_08EBF87ADF13400C9DD3FFC2695F5CF9">VRS を作成および編集するための仮想レポートスイートマネージャー。 <p>( <span class="ignoretag"> <span class="uicontrol"> Analytics</span>／<span class="uicontrol">コンポーネント</span>／<span class="uicontrol">仮想レポートスイート </span> </span>) </p> </li> 
      <li id="li_E2B3F61A3013402697DCF6E0D32A62DC"> カスタム権限グループを編集するためのユーザー管理インターフェイス。VRS アカウントを権限グループに追加し、このアカウントを使用して仮想レポートスイートにのみアクセスできるグループを作成できます（管理者がユーザーによる親へのアクセスを拒否し、特定セグメントへのアクセスのみを許可したい場合）。 <p>（<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span></span>） </p> </li> 
     </ul> <p>注意：Web Services API を使用している場合、VRS に対して機能設定を保存しようとすると、例外が返されます。機能を設定できるのは、ベースレポートスイートに対してのみです。 </p> </td> 
   </tr> 
