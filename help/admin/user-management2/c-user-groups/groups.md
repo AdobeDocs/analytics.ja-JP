@@ -1,25 +1,24 @@
 ---
 description: ユーザーグループの定義ページにあるエレメントの説明。
-solution: Analytics
 subtopic: Users and groups
 title: ユーザーグループ設定
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# ユーザーグループ設定（レガシー）
+# ユーザーグループの設定（レガシー）
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 ユーザーグループの定義ページにあるエレメントの説明。
 
-**[!UICONTROL 管理者]** /ユ **[!UICONTROL ーザー管理]** /グル **[!UICONTROL ープ]** /新しいユ **[!UICONTROL ーザーグループの追加]**
+**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL 新しいユーザグループの追加]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -61,7 +60,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>トラフィックレポート</b>:ページビュー数、訪問回数、実訪問者数など、トラフィックに基づくすべてのレポートへのアクセスを許可します。 </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>トラフィックレポート</b>（ページビュー数、訪問回数、個別訪問者数など、トラフィックに基づくすべてのレポートに対するアクセス権を付与） </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>ツール</b>（除外 IP アドレス、分類、以前の ClickMap など、Reports &amp; Analytics で使用されているツールに対するアクセス権を付与） </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>ビデオおよびモバイルレポート</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>パスレポート</b>（次のページ、フォールアウト、ページでの滞在時間などのパスレポートに対するアクセス権を付与） </li> 
@@ -70,11 +69,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
        <li id="li_03CE1718D51049D596DB061932D97506"><b>SearchCenter</b> </li> 
        <li id="li_78AB0BCEDBA946718F90B6D7AB52CB80"><b>Web サービス</b>（レポートおよび管理の両方の API リソースに対するアクセス権を付与） </li> 
        <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>指標</b>（ページビュー数などのデフォルトの指標やカスタムイベントなどの他の指標を含む、Reports &amp; Analytics の指標に対するアクセス権を付与）</li> 
-       <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>管理コンソール</b>（ログやレポートスイートの設定など、管理者メニューの様々なコンポーネントに対するアクセス権を付与） </li> 
+       <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console</b>（ログやレポートスイートの設定など、管理者メニューの様々なコンポーネントに対するアクセス権を付与） </li> 
        <li id="li_CF3FA04D402A47618401633BA8583010"><b>レポートのダウンロード</b>（Analytics のユーザーインターフェイス内からレポートをダウンロードすることを許可） </li> 
        <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Survey</b>（廃止予定の Adobe Survey を使用している場合に、Survey のレポートに対するアクセス権を付与） </li> 
        <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>高度なレポート機能</b>（マーケティングチャネル、異常値検出、セグメント、計算指標などの高度なレポート機能に対するアクセス権を付与） </li> 
-       <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Social</b>（Adobe Social のデータから生成されるレポートへのアクセスを許可） </li> 
+       <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>ソーシャル</b>（Adobe Social のデータから生成されるレポートへのアクセスを許可） </li> 
        <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Data Connectors</b>（data connector の作成、更新、削除をユーザーに許可） </li> 
       </ul> </p> 
     </draft-comment> </td> 
@@ -107,7 +106,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>グループメンバーはレポートグループのレポートにアクセスできません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>全レポートスイート</b> </td> 
+   <td colname="col1"><b>すべてのレポートスイート</b> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
