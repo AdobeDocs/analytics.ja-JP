@@ -1,12 +1,11 @@
 ---
 description: コードマネージャーを使用すると、Web およびモバイルプラットフォーム用のデータ収集コードをダウンロードできます。
 keywords: Analytics Implementation;data collection;code manager
-solution: Analytics
 title: コードマネージャー
 topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
