@@ -1,11 +1,10 @@
 ---
 description: アドビの FTP サーバーのアップグレードでは、特定のサーバー設定に依存した自動スクリプト（多くの場合、データを定期的にダウンロードまたはアップロードするために使用されます）に影響を与える新しい設定が導入されることがあります。
 keywords: ftp;sftp
-solution: Analytics
 title: Adobe FTP サーバーのアップグレード
 uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
