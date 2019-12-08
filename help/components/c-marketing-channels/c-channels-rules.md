@@ -1,12 +1,11 @@
 ---
 description: レポートにチャネルとチャネルデータを表示できるようにするには、チャネルおよびそのデータを処理するための基本的なルールを作成してください。また、関連チャネルのコストと予算の金額を作成し、訪問者のエンゲージメント期間の長さも指定することができます。管理ツールでレポートの設定を行います。
-solution: Analytics
 subtopic: Marketing channels
 title: チャネルとルールについて
 topic: Reports and analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,30 +22,30 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!NOTE]
 >
->アドビでは、テスト用にテンプレートとして使用できるレポートスイートにレポートを設定することをお勧めします。 それをひな形として、1 つまたはそれ以上の本番用レポートスイートにまとめてチャネルとルールセットを適用することができます。
+>まずテスト用のレポートスイートにレポートを設定することを推奨します。それをひな形として、1 つまたはそれ以上の本番用レポートスイートにまとめてチャネルとルールセットを適用することができます。
 >
->詳しくは、 [複数のレポートスイートへのテンプレートレポートスイート設定の適用](/help/components/c-marketing-channels/t-template.md).
+>詳しくは、[複数のレポートスイートへのテンプレートレポートスイート設定の適用](/help/components/c-marketing-channels/t-template.md)。
 
 また、次のトピックを確認してください。
 
 * [前提条件](/help/components/c-marketing-channels/c-channels-rules.md#prereqs)
-* [処理に関する重要な注意事項](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
+* [処理に関する重要事項](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
 ## 前提条件 {#prereqs}
 
 必要な場合は、次の前提条件に関してカスタマーケアに問い合わせることができます。
 
-* In the Administration Console (General Account Settings), enable the **[!UICONTROL Conversion Level]** (e-commerce) option for the report suite.
+* 管理コンソール（一般的なアカウント設定）でレポートスイートの「**[!UICONTROL コンバージョンレベル]**」（e-コマース）オプションを有効にします。
 
-   See [General Account Settings](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) in Analytics help for more information.
+   詳しくは、Analytics ヘルプの「[一般的なアカウント設定](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html)」を参照してください。
 
-* Set up user group access to the **[!UICONTROL Marketing Channel Report]**.
+* **[!UICONTROL マーケティングチャネルレポート]**&#x200B;へのユーザーグループのアクセス権を設定します。
 
-   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
+   [ユーザーグループのアクセス権の設定](/help/components/c-marketing-channels/t-user-groups.md)を参照してください。
 
-* Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
+* アカウントマネージャーがレポートスイートです。**[!UICONTROL チャネルレポート]**&#x200B;を有効にしたことを確認します。
 
-## Important processing notes {#important-proc-rules}
+## 処理に関する重要事項 {#important-proc-rules}
 
 * システムは指定された順序でルールを処理し、ルールの 1 つが満たされると残りのルールの処理を中止します。
 * ルールは VISTA が設定した変数にはアクセスできますが、VISTA が削除したデータにはアクセスできません。
