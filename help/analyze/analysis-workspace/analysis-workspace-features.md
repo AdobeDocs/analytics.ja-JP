@@ -1,22 +1,21 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
-title: Analysis Workspaceの概要
+title: Analysis Workspace の概要
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Analysis Workspaceの概要
+# Analysis Workspace の概要
 
 Analysis Workspace では、単一の Analytics レポートの通常の制限事項がすべて取り除かれます。堅牢かつ柔軟なキャンバスでカスタム分析プロジェクトを作成できます。任意の数のデータテーブル、ビジュアライゼーション、コンポーネント（ディメンション、指標、セグメントおよび時間の精度）をプロジェクトにドラッグ＆ドロップします。分類およびセグメントの作成、分析用のコホートの作成、アラートの作成、セグメントの比較、フローおよびフォールアウト分析をすばやくおこなうほか、レポートのキュレーションとスケジュールをおこなって会社の任意のユーザーと共有します。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]**
 
-## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## 概要ビデオ {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
 >[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
 
@@ -24,9 +23,9 @@ YouTube のプレイリストは、[こちら](https://www.youtube.com/playlist?
 
 >[!NOTE]
 >
->機能に [関する更新については、「Analysis Workspaceの新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) 」を参照してください。
+>機能に関する更新については、[Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
 
-## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## プロジェクト要素およびコンポーネントのフルコントロール {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
 Analysis Workspace は、次のような自由と柔軟性を提供します。
 
@@ -36,9 +35,9 @@ Analysis Workspace は、次のような自由と柔軟性を提供します。
 
 ![](assets/fa_project_new.png)
 
-詳しくは、[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)を参照してください。
+[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)を参照してください。
 
-## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
+## プロジェクト内の複数のビジュアライゼーション {#section_B7670740C2D44130B21DAF0873280DA5}
 
 必要な数のビジュアライゼーションをプロジェクトにドラッグ＆ドロップします。
 
@@ -48,11 +47,11 @@ Analysis Workspace は、次のような自由と柔軟性を提供します。
 
 ![](assets/visualizations-multiple02.png)
 
-See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
+[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)を参照してください。
 
-## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
+## パネルとビジュアライゼーションへのイントラリンク {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」と呼ばれる新しい右クリックオプションが追加されました。 イントラリンクをプロジェクトに追加するには：
+Analysis Workspace の[リッチテキスト編集](/help/analyze/analysis-workspace/visualizations/text.md)機能と併せて、テキストボックスからプロジェクト内の特定のパネルとビジュアライゼーションにリンクする機能があります。これは例えば、プロジェクトの目次を作成するために使用できます。プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」という新しい右クリックオプションが追加されました。イントラリンクをプロジェクトに追加するには：
 
 1. テキストビジュアライゼーションをプロジェクト内にドラッグします。例えば、コンテキストが必要なビジュアライゼーションまたはテーブルの横に配置します。
 1. テキストボックスに目次などを入力して、パネルまたはビジュアライゼーションにリンクさせたい項目（この例では成功指標）をハイライト表示します。
@@ -60,7 +59,7 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
    ![](assets/intra-linking1.png)
 
 1. 目的のパネルまたはビジュアライゼーションまでスクロールして、そのヘッダーを右クリックします。
-1. Scroll down and select **[!UICONTROL Get Panel Link]** or **[!UICONTROL Get Visualization Link]**:
+1. 下にスクロールして「**[!UICONTROL パネルリンクを取得]**」または「**[!UICONTROL ビジュアライゼーションリンクを取得]**」を選択します。
 
    ![](assets/intra-linking2.png)
 
@@ -68,29 +67,29 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
 
 パネルまたはビジュアライゼーションがプロジェクト内で折りたたまれている場合は、リンクをクリックすると、パネル／ビジュアライゼーションが展開されて表示されます。
 
-> [!NOTE] この機能は、「説明を編集」( **[!UICONTROL Edit Description]** )右クリックオプション内でも使用できます。
+> [!NOTE]この機能は、「**[!UICONTROL 説明の編集]**」の右クリックオプションでも使用できます。
 
-## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## 他のプロジェクトへのリンク {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** &gt; **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+ユーザーが興味を持つ可能性がある他のプロジェクトへのリンクを追加できます。そのためには、**[!UICONTROL 共有]**／**[!UICONTROL プロジェクトリンクを取得]**&#x200B;に移動して、このリンクをプロジェクトの説明などに埋め込みます。
 
-## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## 選択したセルの動的ビジュアライゼーション {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
 個別のセルを選択して、ビジュアライゼーションの変更を動的に確認します。選択したセルでビジュアライゼーションを[同期およびロック](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C)します。
 
 ![](assets/visualize-selected-cells.png)
 
-## Lock selected items or positions {#section_9D66A001586F49CEB0C565581E44957C}
+## 選択した項目または位置のロック {#section_9D66A001586F49CEB0C565581E44957C}
 
 ビジュアライゼーションをロックすることで、ビジュアライゼーションに対応するフリーフォームデータテーブルのソースを制御できます。
 
 ![](assets/manage-data-source.png)
 
-See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+[データソースの管理](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)を参照してください。
 
-## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## 選択したセルからのトレンドのビジュアライゼーション {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-選択したセルからビジュアライゼーションを作成します(Right-click &gt; **[!UICONTROL Trend Selection]**.)
+選択したセルからビジュアライゼーションを作成します（右クリック／**[!UICONTROL トレンド選択]**）。
 
 ![](assets/trend-selection.png)
 
@@ -98,17 +97,17 @@ See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync
 
 ![](assets/trend-selection2.png)
 
-## Dimensions and dimension item breakdowns {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## ディメンションとディメンション項目の分類 {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
 
 小売業者の場合、キャンペーンをこれまでよりも深く分析して、顧客とのより良い関わり方を把握できます。特定のニーズに合わせて様々な方法でデータを分類し、関連する指標、ディメンション、セグメント、タイムライン、その他の分析分類値を使用するクエリを作成します。
 
 ![手順の結果](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+[ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)を参照してください。
 
-## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
+## テーブルの選択範囲からのセグメント {#section_73BC3688089B426D969B3D5B606DA970}
 
-フリーフォームデータテーブルのセルをを選択し、選択範囲からセグメントを作成します。
+フリーフォームデータテーブルのセルを選択し、選択範囲からセグメントを作成します。
 
 複数のセグメントを比較して、即座にセグメントを作成および適用します。複数のセグメントを適用して、行動や操作に基づいて特定の顧客に焦点を当て、比較および対比します。
 
@@ -118,20 +117,20 @@ See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-詳しくは、 [セグメント](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+詳しくは、[セグメント](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)を参照してください。
 
-## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
+## プロジェクトとコンポーネントのタグ付け {#section_F54D688132A541F2982326D5E022B90D}
 
 Analysis Workspace でプロジェクトおよびコンポーネントにタグを適用できます。
 
-* 情報パネル（![）でプロジェクトレベルのタグを適用または作成します。](assets/information_icon.png)
+* 情報パネルでプロジェクトレベルのタグを適用または作成します。（![](assets/information_icon.png)
 
 * コンポーネントを右クリックして、コンポーネントパネルからタグ付け（またはタグを作成）します。
 * 検索フィールドで # を使用して、タグを検索します。
 
-## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## コンポーネントのアクション {#section_CBF4D0A5F63E4B0883077B8D852B800B}
 
-コンポーネントの左側のレールの最上部にあるアクションメニューから、コンポーネントレベルのアクションを実行します。コンポーネントを選択し、「**[!UICONTROL アクション]」をクリックしてアクションを表示します。**
+コンポーネントの左側のパネルの最上部にあるアクションメニューから、コンポーネントレベルのアクションを実行します。コンポーネントを選択し、「**[!UICONTROL アクション]**」をクリックしてアクションを表示します。
 
 | コンポーネントのアクション | 説明 |
 |--- |--- |
@@ -141,9 +140,9 @@ Analysis Workspace でプロジェクトおよびコンポーネントにタグ�
 | 共有 | セグメントにのみ適用します。 |
 | 削除 | セグメントにのみ適用します。 |
 
-詳しくは、ビジ [ュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) (Visualizations)を参照してください。
+詳しくは、[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)を参照してください。
 
-## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## 追加機能の説明 {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
 **ドラッグおよびスタックできるもの**
 
@@ -164,7 +163,7 @@ Analysis Workspace でプロジェクトおよびコンポーネントにタグ�
 * 日付範囲プリセットを並べ替えます（カスタム日付範囲は含まれません）。
 * 列を Ctrl（または Command）+ クリック + ドラッグすると、その列がコピーされ、このコピーをドラッグして、テーブルの新しい位置に貼り付けます。
 
-See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for more information.
+詳しくは、[Analysis Workspace で使用できるホットキー](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)を参照してください。
 
 **選択と操作**
 
