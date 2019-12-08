@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace で使用できるキーボード操作、ショートカットキー、ポイント＆クリックの動作です。
 keywords: Analysis Workspace
-solution: Analytics
 title: Analysis Workspace で使用できるホットキー
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
