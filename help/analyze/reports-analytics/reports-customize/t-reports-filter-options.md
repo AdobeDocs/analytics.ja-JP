@@ -1,11 +1,10 @@
 ---
 description: フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
-solution: Analytics
 title: レポートデータのフィルタリング
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 このシンプルフィルターは大部分のレポートに表示され、特定の行項目をすばやく探し出すために役立ちます。Simple filters do not use any special characters, so `-, ", ', +` and other special characters match the literal value in the report. 複数の単語を含む行項目を検索するときは、単語間をスペースで区切ります。
 
-次に例を示します。
+例：
 
 ```
 help search
