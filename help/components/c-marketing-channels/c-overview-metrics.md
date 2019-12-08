@@ -1,12 +1,11 @@
 ---
 description: マーケティングチャネルレポートでの指標の使用方法を説明します。
-solution: Analytics
 subtopic: Marketing channels
 title: マーケティングチャネルレポートで使用される指標
 topic: Reports and analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,9 +24,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## ファーストタッチ指標とラストタッチ指標 {#first-and-last-touch}
 
-ファーストタッチとラストタッチは、チャネル内の訪問者のアクティビティから生じた新規のエンゲージメント（または、製品表示、売上高、注文件数などの指標データ）の数を確認できるチャネル属性です。
+ファーストタッチとラストタッチは、チャネルでの訪問者のアクティビティによって生まれた新規エンゲージメント（または製品表示、売上高、注文件数などの指標データ）がどれほどかを確認するためのチャネル属性です。
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). 訪問者が最初に使用したチャネルと、最新（最後）のチャネルが認識されます。その後、該当する各チャネルに成功イベントのクレジットが与えられます。
+成功イベントが発生したとき、Analytics では訪問者のすべてのアクティビティと履歴（[訪問者のエンゲージメント期限](/help/components/c-marketing-channels/visitor-engagement.md)まで遡る）を確認します。訪問者が最初に使用したチャネルと、最新（最後）のチャネルが認識されます。その後、該当する各チャネルに成功イベントのクレジットが与えられます。
 
 <!-- 
 
@@ -57,13 +56,13 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 すべての成功イベントのインスタンスに、ファーストタッチチャネルとラストタッチチャネルが必ず 1 つずつ含まれます。つまり、成功イベントに特定の指標の列を追加すると、この列は常に同じ期間の合計数と同一になります。また、この合計数は、該当する[!UICONTROL サイト指標]／[!UICONTROL カスタムイベント]レポートでのイベントの合計数と同一になります。同じ訪問で複数のチャネルが呼び出される場合があるので、成功イベント以外の指標（訪問数や訪問者数）は 1 対 1 で一致するわけではありません。
 
-> [!NOTE] このレポートでは、各指標のファーストタッチバージョンまたはラストタッチバージョンを使用します。 したがって、[!UICONTROL マーケティングチャネル]レポートに表示されるデータと他のレポートに表示されるデータとは一致しないことがあります。
+> [!NOTE]このレポートでは各指標のファーストタッチバージョンまたはラストタッチバージョンが使用されています。したがって、[!UICONTROL マーケティングチャネル]レポートに表示されるデータと他のレポートに表示されるデータとは一致しないことがあります。
 
-## Metric definitions {#metric-defs}
+## 指標の定義 {#metric-defs}
 
 | 指標 | 定義 |
 |--- |--- |
-| ファーストタッチチャネル | 訪問者の関心を向けさせるための最初のマーケティングチャネルです。技術的には、ファーストタッチチャネルは元の配分を持つeVarです。 |
+| ファーストタッチチャネル | 訪問者の関心を向けさせるための最初のマーケティングチャネルです。技術的には、ファーストタッチチャネルは配分が「最初」に設定された eVar です。 |
 | ファーストタッチの訪問者 | チャネルレポート機能におけるファーストタッチの訪問者は、チャネルから派生する日別訪問者です。訪問者のエンゲージメントはサイトに対するエンゲージメント期間中に保存されるので、多数の訪問が続く可能性があります。 |
 | ラストタッチチャネル | コンバージョンチャネル、つまり訪問者の関心を向けさせ、コンバージョンに結びつく最後のマーケティングチャネルです。ファーストタッチチャネルとして設定されるのは、1 つのチャネルのみです。ラストタッチチャネルは、サイトへの再来訪ごとに変化する場合があります。すべての訪問にはファーストタッチチャネルとラストタッチチャネルがありますが、ファーストタッチチャネルの値が以降の値によって変わることはありません。 |
 
@@ -96,5 +95,5 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
    ![手順の結果](assets/metric_create.png)
 
-1. To create calculated metrics, scroll to [!UICONTROL Calculated Metrics], then click **[!UICONTROL Create]**.
-1. Click **[!UICONTROL Save.]**
+1. 計算指標を作成するには、「[!UICONTROL 計算指標]」にスクロールしてから「**[!UICONTROL 作成]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
