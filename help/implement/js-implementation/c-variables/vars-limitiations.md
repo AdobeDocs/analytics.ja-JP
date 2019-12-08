@@ -1,13 +1,12 @@
 ---
 description: 変数とその制限に関する概要です。
 keywords: Analytics Implementation;variable;limitations;limits
-solution: Analytics
 subtopic: Variables
 title: 変数と制限
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -85,5 +84,5 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 | s_usePlugins | *`s_doPlugins`* 関数が利用可能になっていて、有効なコードが含まれている場合は、[!UICONTROL s_usePlugins] を「true」に設定する必要があります。[!UICONTROL usePlugins] が「true」の場合、イメージリクエストの前に *`s_doPlugins`* 関数が呼び出されます。 |
 | visitorID | 訪問者は、*`visitorID`* タグ、または IP アドレス／ユーザーエージェントで特定することもできます。*`visitorID`* は最大 100 文字の英数字で指定でき、ハイフンを含めることはできません。 |
 | visitorNamespace | *`visitorNamespace`* を JavaScript ファイルで設定している場合は、この変数を削除または変更しないでください。この変数は、cookie が設定されているドメインを識別するために使用されます。*`visitorNamespace`* を変更すると、 でレポートされるすべての訪問者が新規訪問者となる場合があります。[!DNL Analytics]したがって、アドビコンサルタントの許可がない場合は、この変数を変更しないでください。 |
-| zip | サイトへの訪問者の居住地の郵便番号をセットします。 |
+| 郵便番号 | サイトへの訪問者の居住地の郵便番号をセットします。 |
 
