@@ -1,11 +1,10 @@
 ---
 description: 'null'
-solution: Analytics
 title: 訪問別滞在時間
-topic: レポート
+topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: ht
-source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
