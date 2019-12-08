@@ -1,11 +1,10 @@
 ---
 description: セグメントビルダーによって作成され、セグメントマネージャによって管理されるセグメント用の推奨ワークフローについて説明します。
-solution: Analytics
 title: セグメントワークフローの概要
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ seg_workflow.xml
 ![](assets/seg_workflow.png)
 
 
-![](assets/step1_icon.png) 計画セ [ グメント](/help/components/c-segmentation/c-segmentation-workflow/seg-plan.md)
+![](assets/step1_icon.png) [セグメントの計画](/help/components/c-segmentation/c-segmentation-workflow/seg-plan.md)
 
 セグメントの作成、およびセグメント管理環境の設定を行う前に、必要な質問をすべて終えておきます。意図した目的と明確な用途に従ってセグメントを設計します。
 
@@ -37,29 +36,29 @@ seg_workflow.xml
 
 セグメントを作成し、すべての Analytics 機能で使用できるように編集します。
 
-THEN 演算子を使用したセグメントの作成方法については、 [Build Sequential Segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) for how to build segments with the THEN operator.
+THEN 演算子を使用したセグメントの作成方法については、[順次セグメントの作成](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)を参照してください。
 
-![](assets/step3_icon.png) セグメ [ ントのタグ付け](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
+![](assets/step3_icon.png) [セグメントのタグ設定](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
 
 整理および共有が容易に行えるようにセグメントにタグを付けます。Ad Hoc Analysis のフォルダー階層はタグ付けに置き換えられました。簡易および高度な検索と整理について詳しくは、タグの計画および割り当て方法に関する説明を参照してください。
 
-![](assets/step4_icon.png) セグメ [ ントの承認](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md)
+![](assets/step4_icon.png) [セグメントの承認](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md)
 
 セグメントを正当なセグメントとして承認します。
 
-![](assets/step5_icon.png) セグメ [ ントの適用](/help/components/c-segmentation/c-segmentation-workflow/t-seg-apply.md)
+![](assets/step5_icon.png) [セグメントの適用](/help/components/c-segmentation/c-segmentation-workflow/t-seg-apply.md)
 
 レポートのセグメントレール（「表示 セグメント」をクリックして表示）からセグメントを直接適用できます。
 
-![](assets/step6_icon.png) [ セグメントの共有](/help/components/c-segmentation/c-segmentation-workflow/t-seg-share.md)
+![](assets/step6_icon.png) [セグメントの共有](/help/components/c-segmentation/c-segmentation-workflow/t-seg-share.md)
 
 他の Analytics ツールの特定の閲覧者とセグメントを共有します。また、Adobe Target および Adobe Experience Cloud と共有することもできます。
 
-![](assets/step7_icon.png) セグメント [ のフィルタ](/help/components/c-segmentation/c-segmentation-workflow/t-seg-filter.md)
+![](assets/step7_icon.png) [セグメントのフィルタリング](/help/components/c-segmentation/c-segmentation-workflow/t-seg-filter.md)
 
 タグ、所有者およびその他のフィルター（すべてを表示、自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングします。
 
-![](assets/step8_icon.png) セグメ [ ントをお気に入りに登録](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
+![](assets/step8_icon.png) [セグメントのお気に入りへの登録](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
 
 セグメントを使いやすく整理するための 1 つの方法として、セグメントをお気に入りに登録することができます。
 
