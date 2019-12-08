@@ -1,11 +1,10 @@
 ---
 description: アドビエンジニアリングサービスグループは、SFTPを使用して外部FTPアカウントにデータをリダイレクトするカスタムプロジェクトを設定できます。
 keywords: ftp;sftp
-solution: Analytics
 title: SFTP を使用した外部 FTP アカウントへのアドビデータの送信
 uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
