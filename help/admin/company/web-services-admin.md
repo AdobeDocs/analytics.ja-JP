@@ -1,11 +1,10 @@
 ---
 description: Web Services API を使用すると、Analytics インターフェイスを通じて使用可能な機能を複製および補強するマーケティングレポートおよびその他のスイートサービスにプログラムレベルでアクセスできます。
-solution: Analytics
 title: Web サービス
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Web Services API を使用すると、Analytics インターフェイスを通じて使用可能な機能を複製および補強するマーケティングレポートおよびその他のスイートサービスにプログラムレベルでアクセスできます。
 
-**[!UICONTROL Analytics]** /管理 **[!UICONTROL 者]** /カンパニー **[!UICONTROL 設定]** / **[!UICONTROL Webサービス]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL カンパニー設定]**／**[!UICONTROL Web サービス]**
 
 ## Web サービスの管理
 
@@ -22,7 +21,7 @@ Web Services API を使用すると、Analytics インターフェイスを通�
 
 ## WSDL：Web サービス開発者向けの Web Services API WSDL をダウンロードします。
 
-Web Services APIに関連するドキュメント、サンプルコードおよびフォーラムを提供している [](https://www.adobe.io/apis/experiencecloud/analytics.html)Adobe I/Oにアクセスします。 詳しくは、「Web サービス API の概要」をクリックしてください。
+Web Services API に関連するドキュメント、サンプルコードおよびフォーラムを提供している [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html) にアクセスしてください。詳しくは、「Web サービス API の概要」をクリックしてください。
 
 ## フィルターオプション
 
