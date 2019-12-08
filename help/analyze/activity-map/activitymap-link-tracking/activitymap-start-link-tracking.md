@@ -1,11 +1,10 @@
 ---
 description: Activity Map またはレガシー ClickMap でリンクトラッキングを開始する手順です。
-solution: Analytics
 title: リンクトラッキングの開始
 topic: Activity map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
