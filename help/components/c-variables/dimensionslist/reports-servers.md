@@ -1,11 +1,10 @@
 ---
 description: 特定のサーバーがホストしているページをグループ化できます。Web サイトのすべてのサーバーが一覧表示され、最もアクセス数の多いサーバーがわかります。例えば、2 つの異なるサーバー上でホストされている Web サイトがある場合、いずれかのサーバーでホストされている Web サイトのインプレッション数が他方のサーバーより多いかどうかを確認できます。
-solution: Analytics
 title: サーバー
 topic: Reports
 uuid: af4391de-8dfa-48fe-88af-81ce4ec8cf03
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
