@@ -1,11 +1,10 @@
 ---
 description: 単一のページに関するページ特有の情報を収集してまとめ、1 つのレポートとして表示します。訪問者が特定のページにどのようにやってくるかや、訪問者がサイトの中をさらに進むか出ていくかを把握できます。
-solution: Analytics
 title: ページサマリ
 topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
