@@ -1,12 +1,11 @@
 ---
 description: データ抽出では、レポートの X 軸と Y 軸の両方に表示するパラメーターと、レポートをフィルターする項目を選択できます。
-solution: Analytics
 subtopic: Schedule
 title: データ抽出
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
