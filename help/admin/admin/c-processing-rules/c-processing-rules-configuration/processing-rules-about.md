@@ -1,12 +1,11 @@
 ---
 description: 処理ルールを使用して、定義した条件に基づいてデータを変更できます。属性や値が定義した条件に一致する場合、値を設定および削除でき、イベントを設定できます。
-solution: Analytics
 subtopic: Processing rules
 title: 処理ルールのしくみ
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 処理ルールを使用して、定義した条件に基づいてデータを変更できます。属性や値が定義した条件に一致する場合、値を設定および削除でき、イベントを設定できます。
 
-処理ルールはデータの収集時にデータに適用されます。また、ルールは、AppMeasurement ライブラリおよび Data Insertion API を介して取得されるすべてのデータに適用されます。処理ルールは、フルデータソースとログデータソースにも適用されます。これらのソースには、*`hit`*&#x200B;またはユーザーが実行するアクションが含まれています。処理ルールは他のデータソースには適用されません。
+処理ルールはデータの収集時にデータに適用されます。また、ルールは、AppMeasurement ライブラリおよび Data Insertion API を介して取得されるすべてのデータに適用されます。処理ルールは、フルデータソースとログデータソースにも適用されます。これらのソースには、*`hit`* またはユーザーが実行するアクションが含まれています。処理ルールは他のデータソースには適用されません。
 
 ## 重要な概念 {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -39,7 +38,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールは、保存後すぐにレポートスイートに適用されます。 </p> </td> 
-   <td colname="col2"> <p>処理ルールの変更は、保存後数分以内にレポートスイートに表示される必要があります。処理ルールをテストする際は、テストレポートスイートで <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>処理ルールの変更は、保存後数分以内にレポートスイートに表示される必要があります。処理ルールをテストする際は、テストレポートスイートで<a href="/help/admin/admin/realtime/t-realtime-admin.md">リアルタイムレポート</a>を設定して、処理ルールの結果をすばやく表示できるようにすることをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールは、コンテキストデータ変数にアクセスする唯一の方法です。 </p> </td> 
@@ -62,7 +61,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>モバイルデバイスの参照は、処理ルールの前におこなわれますが、処理ルールで属性は使用できません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>JavaScript AppMeasurement H.25.2 以前を実行している場合は、URL の最初の 255 文字を超えるクエリ文字列パラメーターを読み取ることはできません。JavaScript appMeasurement H.25.3以降では、処理ルールに対して、すべてのクエリ文字列パラメーターを含む完全なURLが提供されます。 </p> </td> 
+   <td colname="col1"> <p>JavaScript AppMeasurement H.25.2 以前を実行している場合は、URL の最初の 255 文字を超えるクエリ文字列パラメーターを読み取ることはできません。JavaScript AppMeasurement H.25.3 以降では、処理ルールに対してすべてのクエリ文字列パラメーターを含む完全修飾 URL が提供されます。 </p> </td> 
    <td colname="col2"> <p>H.25.3 以降へのアップグレードでは、長い URL のクライアントサイドからクエリ文字列パラメーターを読み取り、値を Context Data 変数に格納します。 </p> </td> 
   </tr> 
   <tr> 
@@ -79,11 +78,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>UI の値の比較では、大文字と小文字が区別されません。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> レポート内の値のクリーンアップ </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md">レポート内の値をクリーンアップします</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンテキストデータ変数名には、アルファベット文字、アンダースコア、ドットのみ含めることができます。それ以外の文字は削除されます。 </p> </td> 
-   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>サポートされていない文字を含むコンテキストデータ変数は、処理ルールインターフェイスに追加できません。 </p> </td> 
+   <td colname="col2"> <p>例えば、コンテキストデータ変数 <code> login_page-home</code> は自動的に <code> login_pagehome</code> になります。<code> login_page-home</code> 変数に送信されるすべてのデータは、<code> login_pagehome</code> に割り当てられます。 </p> <p>サポートされていない文字を含むコンテキストデータ変数は、処理ルールインターフェイスに追加できません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>キャレット（^）は処理ルールシステムの特殊文字です。 </p> </td> 
