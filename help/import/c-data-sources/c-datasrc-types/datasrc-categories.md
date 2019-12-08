@@ -1,12 +1,11 @@
 ---
 description: データソースのカテゴリは、提供する機能の類似性に基づいて様々なデータソースのタイプを識別します。
-solution: Analytics
 subtopic: Data sources
 title: データのタイプとカテゴリの概要
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -183,7 +182,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>製品の返却数 </p> </td> 
+   <td colname="col1"> <p>製品      戻り値 </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
    <td colname="col3"> <p>製品返却データをインポートして購入 ID に関連付けることによって、返品につながる可能性の高い検索エンジン、キーワード、キャンペーンなどの属性を特定することができます。 </p> </td> 
   </tr> 
