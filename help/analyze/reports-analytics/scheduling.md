@@ -1,12 +1,11 @@
 ---
 description: レポートのスケジュール、ダウンロードおよび配信に関する情報を示します。
-solution: Analytics
 subtopic: Schedule
 title: レポートのスケジュールと配信
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,8 +43,8 @@ Adobe Analytics アプリケーションでレポートの配信予定日時を�
 
    | オプション | 説明 |
    |--- |--- |
-   | 形式 | PDF または HTML を選択するを参照してください。 |
-   | 送信先 | レポートを受信する電子メールアドレスを指定するを参照してください。 |
+   | 形式 | PDF または HTML を選択する. |
+   | 送信先 | レポートを受信する電子メールアドレスを指定するです。 |
    | 件名 | 電子メールの件名。 |
    | スケジュール | レポートをすぐに送信するか、別の間隔で送信するかを選択する。 |
 
@@ -81,7 +80,7 @@ Adobe Analytics アプリケーションでレポートの配信予定日時を�
 特定のレポートに関する詳細な情報を PDF、CSV、Excel または生データのエクスポート形式でダウンロードします。
 
 1. **Analytics**／**[!UICONTROL レポート]**&#x200B;で、表示するレポートを選択します。
-1. Click **[!UICONTROL Download]**.
+1. 「**[!UICONTROL ダウンロード]**」をクリックします。
 
    ![](assets/download_basic.png)
 
@@ -140,4 +139,4 @@ Adobe Analytics アプリケーションでレポートの配信予定日時を�
 
 レポートを登録解除しても、定期レポートはキャンセルされません。
 
-定期レポートをキャンセルするには、予定レポートマネージャーに移動し、レポート名の横にある赤の X をクリックします。[さらに詳しく...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
+定期レポートをキャンセルするには、予定レポートマネージャーに移動し、レポート名の横にある赤の X をクリックします。[詳細...](/help/analyze/reports-analytics/scheduling.md#task_C17677C543454FF2B06D10EA5652DFBC)
