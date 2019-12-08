@@ -1,12 +1,11 @@
 ---
 description: 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「ポップミュージック用語」という分類に入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関してそのカテゴリの成功を報告します。
-solution: Analytics
 subtopic: Classifications
 title: コンバージョンの分類
 topic: Admin tools
 uuid: b088ea4b-8ab7-4ccf-96c6-8567d91fb8cf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
