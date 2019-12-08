@@ -1,12 +1,11 @@
 ---
 description: 'null'
-solution: Analytics
 subtopic: Release notes
 title: Java
 topic: Developer and implementation
 uuid: 14d13bc6-984e-4ef4-a1d5-51326e652868
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
