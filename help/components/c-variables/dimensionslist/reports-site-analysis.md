@@ -1,11 +1,10 @@
 ---
 description: Ad Hoc Analysis のレポートです。サイト分析レポートには、特定のページやイベント間の訪問者の移動が表示されます。例えば、ページ間のトラフィックフローや、製品とマーケティングチャネルの親和性、キャンペーンやチャネルから製品注文へのフローの状況を確認できます。ページ、ディメンション項目（およびリスト）、指標イベントをドラッグできます。各シリンダーは、1 つ以上のディメンション項目（ページ）または 1 つのイベントを表します。矢印は、シリンダー値の間のフローを表します。シリンダーの位置（X と Y）、シリンダーの幅、シリンダーの高さおよび色に指標が割り当てられます。この位置、サイズおよび色は、指標値によって変わります。
-solution: Analytics
 title: サイト分析
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -70,7 +69,7 @@ Ad Hoc Analysis のレポートです。サイト分析レポートには、特�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>編集 </p> </td> 
+   <td colname="col1"> <p>テンプレートを編集 </p> </td> 
    <td colname="col2"> <p>ページをシリンダーに追加したり、シリンダーから削除したりできます。 </p> </td> 
   </tr> 
   <tr> 
