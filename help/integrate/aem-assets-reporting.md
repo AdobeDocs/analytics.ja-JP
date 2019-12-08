@@ -1,11 +1,10 @@
 ---
 description: Analytics で AEM Assets レポートを有効にするための管理者の手順です。
-solution: Analytics
 title: AEM Assets レポート
 topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
