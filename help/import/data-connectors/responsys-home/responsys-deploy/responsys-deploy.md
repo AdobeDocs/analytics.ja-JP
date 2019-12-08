@@ -1,10 +1,9 @@
 ---
 description: 'null'
-solution: Analytics
 title: 統合のデプロイ
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Data Connectorsインターフェイスで統合ウィザードを完了する�
    | 項目 | 説明 |
    |---|---|
    | メッセージID | メッセージIDをリアルタイムで収集するeVarを選択します。 |
-   | Recipient ID | 受信者IDをリアルタイムで収集するeVarを選択します。 |
+   | 受信者 ID | 受信者IDをリアルタイムで収集するeVarを選択します。 |
    | 合計バウンス数 | Responsysから日別のバウンスを受け取る数値イベントを選択します。 |
    | 電子メール送信 | Responsysから毎日の送信を受信する数値イベントを選択します。 |
    | クリック済み | Responsysから日別合計クリック数を受け取る数値イベントを選択します。 |
