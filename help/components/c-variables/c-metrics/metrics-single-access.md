@@ -1,11 +1,10 @@
 ---
 description: 単一アクセスは、1 つの固有のページ名値を含むサイトへの訪問回数と定義されます。ユーザーがサイトを訪問し、追跡対象のリンクをクリックしてイベント（ビデオビューなど）を発生させたり、ページのリロードをおこなった場合も、単一アクセス訪問と見なされます。pageName 変数の値が変更されない限りは、何回リクエストが送信されても単一アクセスと見なされます。
-solution: Analytics
 title: 単一アクセス
 topic: Metrics
 uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
