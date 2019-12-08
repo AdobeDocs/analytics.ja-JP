@@ -1,12 +1,11 @@
 ---
 description: 汎用（トランザクション ID）カテゴリを選択して、トランザクション ID を統合することができます。
-solution: Analytics
 subtopic: Data sources
 title: トランザクション ID
 topic: Developer and implementation
 uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 汎用（トランザクション ID）カテゴリを選択して、トランザクション ID を統合することができます。
 
-「オフライ [ンデータの統合」を参照してくださ](/help/import/c-data-sources/datasrc-integrating-offline-data.md)い。
+See [Integrating Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
 
@@ -29,7 +28,7 @@ Data uploaded with *`transactionID`* automatically associates with the same mark
 | カテゴリ | カテゴリ名。カテゴリを指定する場合、製品も指定する必要があります。 |
 | チャネル | チャネル名。 |
 | eVarN | eVarN名。 Nの有効な値は1 ～ 250の整数です。 |
-| 製品 | 製品名。 |
+| 製品      | 製品名。 |
 | 都道府県 | 都道府県名。 |
 | 郵便番号 | 郵便番号。 |
 
@@ -48,6 +47,6 @@ Data uploaded with *`transactionID`* automatically associates with the same mark
 | EventN | eventNが発生した回数。 Nの有効な値は1 ～ 1000の整数です。  表示イベントを指定する場合、対応するデータディメンション（eVar）も指定する必要があります。例えば、eVar2 表示数を含める場合、eVar2 と値をリストに含める必要があります。 |
 | eVarNビュー数 | eVarNが表示された回数。 Nの有効な値は1 ～ 250の整数です。 |
 | 価格 | 製品の価格。 |
-| 購入回数 | 発注された回数。 |
+| 注文件数 | 発注された回数。 |
 | 商品ビュー | 製品の表示回数。 |
 | 数量 | 販売数。 |
