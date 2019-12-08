@@ -1,12 +1,11 @@
 ---
 description: adobe.com を例として使用します。ここで説明する導入では、同じ visid の cookie を参照します。
 keywords: Analytics Implementation
-solution: Analytics
 title: 実装例
 topic: Developer and implementation
 uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 adobe.com を例として使用します。ここで説明する導入では、同じ visid の cookie を参照します。
 
-**JavaScript:**
+**Javascript：**
 
 ```js
 var s_account="omniturecom" 
@@ -39,7 +38,7 @@ s.trackingServer="omniture.112.2o7.net";
 
 ファーストパーティ cookie を利用する場合：
 
-**JavaScript:**
+**Javascript：**
 
 ```js
 var s_account="omniturecom" 
