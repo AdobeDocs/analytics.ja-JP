@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: Analytics Implementation
-solution: Analytics
 title: マーチャンダイジング変数の概要
 topic: Developer and implementation
 uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 この購入が完了すると、配分が「最新」から変更されていない場合、「冬物コート」の検索にゴーグル購入のクレジットが付与されます。この場合、マーケティングに必要な正確なデータが得られなくなります。
 
-| 内部検索用語 | 売上高 |
+| 内部検索キーワード | 売上高 |
 |---|---|
 | 冬物コート | $157 |
 
@@ -35,7 +34,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 前の例で eVar のマーチャンダイジングを有効にした場合、「ゴーグル」は Fernie Snow ゴーグルに結び付けられ、「冬物コート」は El Gordo ダウンジャケットに結び付けられます。マーチャンダイジング変数では製品レベルで売上を割り当てるので、用語が結び付けられた製品の売上金額に相当するクレジットを各用語が受け取ります。
 
-| 内部検索用語 | 売上高 |
+| 内部検索キーワード | 売上高 |
 |---|---|
 | 冬物コート | $119 |
 | ゴーグル | $38 |
