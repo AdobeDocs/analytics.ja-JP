@@ -1,11 +1,10 @@
 ---
 description: '「式のカスタマイズ」を使用して日付範囲を設定する場合、2つの重要な考慮事項 '
-solution: Analytics
 title: 日付のカスタマイズに関する考慮事項
 topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
