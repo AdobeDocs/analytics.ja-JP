@@ -1,12 +1,11 @@
 ---
 description: マーケティングチャネルの処理ルールは、訪問者のヒットがチャネルに割り当てられた条件を満たすかどうかを判断するために使用します。このルールは、サイトでの訪問者によるすべてのヒットを処理します。チャネルの条件をルールが満たしていない場合やルールが正しく設定されていない場合、ヒットには「チャネルが識別されませんでした」が割り当てられます。
-solution: Analytics
 subtopic: Marketing channels
 title: マーケティングチャネルの処理ルール
 topic: Reports and analytics
 uuid: f6394f4b-a244-48e9-9892-7dfbfceb5fc9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,14 +19,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * ルールは処理する順序に並べること。
 * リストの最後に包括的ルール（「その他」など）を追加すること。このルールは、内部トラフィックではなく外部トラフィックを識別します。
 
-   See [No Channel Identified.](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)
+   [チャネルが識別されませんでした](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)を参照してください。
 
-> [!NOTE] これらのルールはマーケティングチャネル以外のレポートには影響しませんが、マーケティングチャネルのデータ収集には影響します。 これらのルールを使用して収集されたデータは完全に永久的なもので、データの収集後に変更されたルールを過去のデータにさかのぼって適用させることはできません。[!UICONTROL マーケティングチャネルの処理ルール]を保存する前に、すべての状況について確認と検討を行い、間違ったチャネルでデータが収集されないようにすることを強くお勧めします。
+> [!NOTE]これらのルールはマーケティングチャネル以外のレポートには影響しませんが、マーケティングチャネルのデータ収集には影響します。これらのルールを使用して収集されたデータは完全に永久的なもので、データの収集後に変更されたルールを過去のデータにさかのぼって適用させることはできません。[!UICONTROL マーケティングチャネルの処理ルール]を保存する前に、すべての状況について確認と検討を行い、間違ったチャネルでデータが収集されないようにすることを強くお勧めします。
 
 ## 前提条件
 
-* 「マーケティングチャネル — はじめに [」および「マーケティングチャネルレ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ポートについて [」の概](/help/components/c-marketing-channels/c-overview.md)念情報を確認してください。
+* 「[マーケティングチャネル - はじめに](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」および「[マーケティングチャネルレポートについて](/help/components/c-marketing-channels/c-overview.md)」で概念情報を確認してください。
 
 * ルールを割り当てるためにチャネルを 1 つ以上作成してください。
 
-   詳しくは、 [マーケティングチャネルの追加.](/help/components/c-marketing-channels/c-channels.md)
+   詳しくは、[マーケティングチャネルの追加.](/help/components/c-marketing-channels/c-channels.md)
