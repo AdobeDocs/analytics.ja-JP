@@ -1,28 +1,27 @@
 ---
 description: 以前の Target Classic と同じように、Adobe Analytics 上でキャンペーンの成功を評価できます。
-solution: Analytics
 title: Target の上昇率と信頼性
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Target の上昇率と信頼性
 
-Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
+以前の [!DNL Target Classic] と同じように、Adobe Analytics 上でキャンペーンの成功を評価できます。
 
-**[!UICONTROL Analytics]** /Reports **[!UICONTROL /]** View All Reports **[!UICONTROL /Adobe Target]** /Target Target Analytics Target Target Activities/Target Target Target ************ Target Activities
+**[!UICONTROL Analytics]**／**[!UICONTROL レポーオ]**／**[!UICONTROL すべてレポートを表示]**／**[!UICONTROL Adobe Target]**／**[!UICONTROL Target の分析]**／**[!UICONTROL Target アクティビティ]**&#x200B;に移動します。
 
 Adobe Target ドキュメントには、[上昇率](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html)と[信頼性](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html)についての詳細な情報が記載されています。
 
 上昇率と信頼性を計算するには：
 
-1. **[!UICONTROL ターゲットアクティビティ]レポートで、詳細を表示するアクティビティをクリックします。**
-1. Under Report Type, select **[!UICONTROL Lift and Confidence]**.
-1. 「**[!UICONTROL 指標を表示]」をクリックして、1 つの指標を追加します。**&#x200B;テストは 1 つの指標のみで評価するのがベストプラクティスなので、このタイプのレポートでは、2 つ以上の指標を追加できません。多くの指標を追加してもノイズが増えるだけで、テストの信号が減ってしまいます。
-1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. ほとんどの場合、これはデフォルトの訪問者数になります。
+1. **[!UICONTROL ターゲットアクティビティ]**&#x200B;レポートで、詳細を表示するアクティビティをクリックします。
+1. レポートタイプで、「**[!UICONTROL 上昇率および信頼性]**」を選択します。
+1. 「**[!UICONTROL 指標を表示]**」をクリックして、1 つの指標を追加します。テストは 1 つの指標のみで評価するのがベストプラクティスなので、このタイプのレポートでは、2 つ以上の指標を追加できません。多くの指標を追加してもノイズが増えるだけで、テストの信号が減ってしまいます。
+1. （オプション）「**[!UICONTROL 指標の標準化]**」で、訪問者数、訪問回数またはインプレッション数から 1 つ選択します。ほとんどの場合、これはデフォルトの訪問者数になります。
 
 1. レポートは、これらの指標（指標と標準化指標の比率を含む）を追加します。
 
@@ -80,7 +79,7 @@ Adobe Target ドキュメントには、[上昇率](https://marketing.adobe.com/
   </tr> 
   <tr> 
    <td colname="col1"> 現在のデータを含む </td> 
-   <td colname="col2"> <p>Reports &amp; Analytics の「現在のデータを含む」オプションを使用すると、ほとんどの場合、データが完全に処理されてファイナライズされる前に最新の Analytics データを表示できます。現在のデータには、ほとんどの指標が数分以内で表示され、迅速な意思決定を可能にする実用的なデータが提供されます。 </p> </td> 
+   <td colname="col2"> <p>Reports &amp; Analytics の「現在のデータを含む」オプションを使用すると、ほとんどの場合、データが完全に処理されてファイナライズされる前に最新の Analytics データを表示できます。「現在のデータ」には、ほとんどの指標が数分以内で表示され、迅速な意思決定を可能にする実用的なデータが提供されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
