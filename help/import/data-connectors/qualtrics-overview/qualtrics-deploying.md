@@ -1,12 +1,11 @@
 ---
 description: この統合の展開は、以下の操作を必要とする簡単なプロセスです。
-solution: Analytics
 subtopic: Qualtrics
 title: 統合のデプロイ
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    次の手順に従って、統合ウィザードを完了します。 1.ウィザ **ードの手順1**
 
-   | Email Address | 主連絡先の電子メールアドレス。 |
+   | 電子メールアドレス | 主連絡先の電子メールアドレス。 |
    |---|---|
    | 説明 | （オプション）この統合設定の説明。 |
    | Qualtrics組織ID | [Qualtrics組織IDの検索](../qualtrics-overview/qualtrics-org-id.md) |
