@@ -1,11 +1,10 @@
 ---
 description: 管理者レベルのユーザーは、組織全体の予定レポートを表示および管理できます。
-solution: Analytics
 title: 予定レポートキュー
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 管理者レベルのユーザーは、組織全体の予定レポートを表示および管理できます。
 
-**[!UICONTROL Analytics]** /コンポ **[!UICONTROL ーネント]** /予 **[!UICONTROL 定レポート]**
+**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 予定レポート]**
 
 予定レポートマネージャーの管理者レベルの機能には次のものがあります。
 
@@ -25,15 +24,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## すべての予定レポートを表示 {#section_3F167CAAEEC24140B476CF95B7402690}
 
-「**[!UICONTROL レポートリスト]**」タブでは、自身でスケジュールしたレポートに加えて、組織の&#x200B;**すべての予定レポートを表示[!UICONTROL できます。]**
+「**[!UICONTROL レポートリスト]**」タブでは、自身でスケジュールしたレポートに加えて、組織の&#x200B;**[!UICONTROL すべての予定レポートを表示]**&#x200B;できます。
 
-> [!NOTE] 「レポ **[!UICONTROL ート名]** 」列にはスケジュール中のレポート名が表示され、「ファイル名 **** 」列には「アドバンス配信オプション」で設定したカスタムファイル名が表示されます。 その結果、同じレポートタイプのレポートを複数スケジュールして、それぞれにカスタマイズした名前を指定すると、レポート名が同じでファイル名が異なる複数のエントリが予定レポートマネージャーに表示されます。これは、スケジュール中のバックエンドレポートが同じなので、すべてのレポートに対して「レポート名」列のレポート名は同じになりますが、ファイル名は（設定したとおりに）カスタマイズされるからです。
+> [!NOTE]「**[!UICONTROL レポート名]**」列にはスケジュールされているレポートの名前が表示され、「**[!UICONTROL ファイル名]**」列には「アドバンス配信」オプションで設定したカスタムファイル名が表示されます。その結果、同じレポートタイプのレポートを複数スケジュールして、それぞれにカスタマイズした名前を指定すると、レポート名が同じでファイル名が異なる複数のエントリが予定レポートマネージャーに表示されます。これは、スケジュール中のバックエンドレポートが同じなので、すべてのレポートに対して「レポート名」列のレポート名は同じになりますが、ファイル名は（設定したとおりに）カスタマイズされるからです。
 
 ![](assets/show_all_scheduled_reports.png)
 
 ## 高度なフィルター機能 {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-For example, if you wanted to filter on all reports that are scheduled hourly, you would specify **[!UICONTROL Frequency equals Hourly]** in the **[!UICONTROL Advanced]** filter and click **[!UICONTROL Apply]**:
+例えば、1 時間ごとにスケジュールされたすべてのレポートをフィルタリングする場合は、**[!UICONTROL アドバンス]**&#x200B;フィルターで&#x200B;**[!UICONTROL 「頻度」「完全に一致する」「1 時間ごと」]**&#x200B;を指定して、「**[!UICONTROL 適用]**」をクリックします。
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
@@ -43,10 +42,10 @@ For example, if you wanted to filter on all reports that are scheduled hourly, y
 
 ![](assets/scheduled_reports_2.png)
 
-レポートキューでは、「予定レポートを 1 回スキップ」することもできます。「**[!UICONTROL 管理]」列にある青色のアイコンをクリックします。**
+レポートキューでは、「予定レポートを 1 回スキップ」することもできます。「**[!UICONTROL 管理]**」列にある青色のアイコンをクリックします。
 
 ## スケジュール ID {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-レポートキューインターフェイスで公開された&#x200B;**[!UICONTROL スケジュール ID]は、予定レポートの問題を解決するために Adobe ClientCare に連絡する必要がある場合に役立ちます。**
+レポートキューインターフェイスで公開された&#x200B;**[!UICONTROL スケジュール ID]** は、予定レポートの問題を解決するために Adobe Client Care に連絡する必要がある場合に役立ちます。
 
 ![](assets/schedule_id.png)
