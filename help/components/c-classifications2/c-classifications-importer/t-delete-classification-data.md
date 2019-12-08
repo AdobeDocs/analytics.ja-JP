@@ -1,12 +1,11 @@
 ---
-description: 分類データを削除する方法を説明する手順。
-solution: Analytics
+description: 分類データを削除する方法について手順を説明します。
 subtopic: Classifications
 title: 分類データの削除
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,17 +18,17 @@ source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 分類データを削除するには、適切なセルにまたはを含む分類フ `~empty~` ァイルを `~deletekey~` アップロードする必要があります。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Browser Export]**.
+1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
+1. 「**[!UICONTROL ブラウザーエクスポート]**」をクリックします。
 1. 分類データを削除するレポートスイートおよびデータセットを選択します。
-1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
+1. 探している特定のデータに対してフィルター処理を実行ようにオプション設定を調節したうえで、「**[!UICONTROL ファイルのエクスポート]**」をクリックします。
 1. ファイルがダウンロードされたら、ファイルを開き、分類値をまたはに置き換え `~empty~` ます `~deletekey~`。
 1. ファイルをタブ区切りテキストファイルとして保存します。
 1. 「ファ **[!UICONTROL イルのインポート]**」をクリックし、保存した分類ファイルをAdobe Analyticsにアップロードし直します。
 
 ## 個々の分類値の削除
 
-複数の分類を同じ変数に属させることができます。 例えば、eVar1に2つの異なる分類を設定できます。 1つの分類済み値のみを削除する場合は、その分類値をに置き換えます `~empty~`。 次に例を示します。
+複数の分類を同じ変数に属させることができます。 例えば、eVar1に2つの異なる分類を設定できます。 1つの分類済み値のみを削除する場合は、その分類値をに置き換えます `~empty~`。 例：
 
 | 在庫SKU (eVar8) | 在庫名 | 在庫カテゴリ |
 | --- | --- | --- |
@@ -41,7 +40,7 @@ source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ## 分類行全体の削除
 
-任意の `~deletekey~` 列でを使用して、分類行全体を削除します。 次に例を示します。
+任意の `~deletekey~` 列でを使用して、分類行全体を削除します。 例：
 
 | 在庫SKU (eVar8) | 在庫名 | 在庫カテゴリ |
 | --- | --- | --- |
