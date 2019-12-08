@@ -1,21 +1,20 @@
 ---
-description: 1 回の着席での一連のページビュー。訪問指標は、一般的に、選択した時間内のユーザーセッション数を表示するレポートで使用されます。
+description: 1 回のランディングでの一連のページビュー。訪問指標は、一般的に、選択した時間内のユーザーセッション数を表示するレポートで使用されます。
 keywords: visit
-solution: Analytics
 title: 訪問
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 訪問
 
-1 回の着席での一連のページビュー。訪問指標は、一般的に、選択した時間内のユーザーセッション数を表示するレポートで使用されます。
+1 回のランディングでの一連のページビュー。訪問指標は、一般的に、選択した時間内のユーザーセッション数を表示するレポートで使用されます。
 
-> [!NOTE] 訪問回数とモバイルアプリの起動回数の計算方法について詳しくは、ナレッジベ [ースの訪問回数とモバイルアプリの起動回数の比較](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) （英語のみ）を参照してください。
+> [!NOTE]訪問回数とモバイルアプリの起動回数の計算方法について詳しくは、ナレッジベースの[訪問回数とモバイルアプリの起動回数の比較](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html)を参照してください。
 
 訪問指標は常に期間と関連付けられているので、サイトに同じ訪問者が戻った場合に新規の訪問としてカウントするかどうかを判断できます。セッションはユーザーが最初にサイトにアクセスした時点で始まり、次のシナリオのいずれかで終わります。
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * **2500 ヒット：**&#x200B;ユーザーが新しいセッションを開始することなく大量のヒットを生成した場合、2500 件のイメージリクエストの後、新規訪問としてカウントされます。
 * **100 秒で 100 ヒット**：訪問中に 100 秒以内に 100 件を超えるヒットが記録された場合、訪問は自動的に終了します。この動作は、通常、ボットのアクティビティを示しています。この制限は、処理負荷の高い訪問が発生することにより、待ち時間やレポート生成時間が長くなることを防止するために実施されます。
 
-> [!NOTE] 特別にリクエストされた場合、レポートスイートの訪問の定義を短縮できますが、長くすることはできません。 サポート対象ユーザーがカスタマーケアに連絡して、この変更をリクエストすることができます。
+> [!NOTE]特別にリクエストした場合、レポートスイートの訪問の定義を短縮できます。ただし、長くすることはできません。サポート対象ユーザーがカスタマーケアに連絡して、この変更をリクエストすることができます。
 
 次のシナリオでは新たな訪問は始まりません。
 
@@ -35,7 +34,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 訪問が終了すると、訪問有効期限を持つすべての変数は有効期限切れになり、永続しなくなります。訪問回数指標は、この訪問者の次回訪問時に増分されます。
 
-> [!NOTE] AnalyticsをAdobe targetのレポートソースとして使用する場合は、ドキュメントのA4Tでの水増しされた訪問と訪問者 [数の最小化](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) を参照してく [!DNL Target] ださい。
+> [!NOTE]Analytics を Adobe のレポートソースとして使用する場合は、[!DNL Target] ドキュメントの「[A4T での訪問および訪問者数の水増しの最小化](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)」を参照してください。
 
 詳しくは、Adobe Analytics の導入ガイドの[個別訪問者数の識別](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html)を参照してください。
 
