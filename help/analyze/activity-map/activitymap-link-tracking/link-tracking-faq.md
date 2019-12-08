@@ -1,11 +1,10 @@
 ---
 description: Activity Map でのリンクトラッキングに関するよくある質問（FAQ）です。
-solution: Analytics
 title: リンクトラッキングの FAQ
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
