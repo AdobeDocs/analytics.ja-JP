@@ -1,11 +1,10 @@
 ---
 description: 前のページレポートは、詳細なサイトパス分析データを示し、訪問者がサイトの特定のページにアクセスする前に閲覧した Web ページを特定します。
-solution: Analytics
 title: 前のページ
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 <table id="table_25A2182ACEC94E2190F21B82249577E8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 製品 </th> 
+   <th colname="col1" class="entry"> 製品      </th> 
    <th colname="col2" class="entry"> 説明 </th> 
   </tr> 
  </thead>
