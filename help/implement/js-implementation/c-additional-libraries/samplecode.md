@@ -1,12 +1,11 @@
 ---
 description: HTML サンプルページ内でのサーバー生成イメージタグの使用例を示します。
 keywords: Analytics Implementation;variables
-solution: Analytics
 title: サンプルコード
 topic: Developer and implementation
 uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ HTML サンプルページ内でのサーバー生成イメージタグの使用
 | purchaseID | 0123456 |
 | products | Books;Book Name;1;19.95 |
 | state | CA |
-| zip | 90210 |
+| 郵便番号 | 90210 |
 | 乱数 | 123456 |
 
 ## 例 1 {#section_91D91CE318AE43F0ADDF6005607E83C7}
