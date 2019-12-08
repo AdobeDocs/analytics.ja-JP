@@ -1,12 +1,11 @@
 ---
 description: キュレーションを使用すると、プロジェクトを共有する前にコンポーネントを制限できます。社内のマーケティング担当者およびその他のアナリストでないユーザーと、プロジェクトおよびそのコンポーネントを共有できます。プロジェクトに注釈を付けたりタグを適用したりします。
 keywords: Analysis Workspace
-solution: Analytics
 title: キュレーション／共有の概要
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,51 +14,51 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 キュレーションを使用すると、プロジェクトを共有する前にコンポーネントを制限できます。社内のマーケティング担当者およびその他のアナリストでないユーザーと、プロジェクトおよびそのコンポーネントを共有できます。プロジェクトに注釈を付けたりタグを適用したりします。
 
-**ビデオ概要**
+**ビデオの概要**
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Workspace]** /共有 **[!UICONTROL /プロジ]****[!UICONTROL ェクトデータのキュレーション]**
+**[!UICONTROL Workspace]**／**[!UICONTROL 共有]**／**[!UICONTROL プロジェクトデータをキュレート]**
 
-## プロジェクトデータのキュレーション
+## プロジェクトデータをキュレート
 
 1. プロジェクトを作成およびキュレーションするための権限を指定します。
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に **[!UICONTROL Analysis Workspace のアクセス]**&#x200B;権限を有効にした[グループ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)か、**[!UICONTROL 全レポートアクセス]**&#x200B;ユーザーグループに追加してもらう必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**）。
 
-1. [プロジェクトを作成し](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) 、保存して、共有 **[!UICONTROL /プロジェクトデータをキ]** ュレーションをクリックします ****。
-1. 共有したいコンポーネントを、左側にあるドラッグ可能なコンポーネントスタックから「**[!UICONTROL キュレートされたコンポーネント]」フィールドにドラッグします。**
+1. [プロジェクトを作成および保存](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)して、**[!UICONTROL 共有]**／**[!UICONTROL プロジェクトデータをキュレート]**&#x200B;をクリックします。
+1. 共有したいコンポーネントを、左側にあるドラッグ可能なコンポーネントスタックから「**[!UICONTROL キュレートされたコンポーネント]**」フィールドにドラッグします。
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >プロジェクトを共有する場合は、コンポーネントのキュレーションは必要ありません。 プロジェクトをすべての利用可能なデフォルトコンポーネント、または選択したコンポーネントと共有できます。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. プロジェクト内でコンポーネントをキュレーションすると、その他のコンポーネントをそのプロジェクトで使用できなくなります。
+   >プロジェクトを共有する場合、コンポーネントのキュレーションは必須ではありません。プロジェクトをすべての利用可能なデフォルトコンポーネント、または選択したコンポーネントと共有できます。プロジェクト内のすべてのデフォルトコンポーネントを保持するためのベストプラクティスは、コンポーネントをキュレーションする前に、（「**[!UICONTROL 名前を付けて保存]**」を使用して）自分でプロジェクトのコピーを作成することです。プロジェクト内でコンポーネントをキュレーションすると、その他のコンポーネントをそのプロジェクトで使用できなくなります。
 
-1. **[!UICONTROL 完了]** をクリックします。
+1. 「**[!UICONTROL 完了]**」をクリックします。
 
 生成されるプロジェクトは、Analysis Workspace の通常のプロジェクトのように動作しますが、選択できるのは指定したコンポーネントだけです。
 
 ## キュレーションされたプロジェクトの共有
 
-共有機能を使用すると、このプロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。他のユーザーがこのプロジェクトを使用する際には、すでに実行したキュレーションがすべて反映されています。
+共有機能を使用すると、このプロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。他のユーザーがこのプロジェクトを使用する際には、既に実行したキュレーションがすべて反映されています。
 
-1. After you curate the components of a report, click **[!UICONTROL Share]** &gt; **[!UICONTROL Share Project]**.
+1. レポートのコンポーネントをキュレーションしたら、**[!UICONTROL 共有]**／**[!UICONTROL プロジェクトを共有]**&#x200B;をクリックします。
 
    ![](assets/share_component.png)
 
 1. 受信者を追加します。
-1. （オプション）埋め込みプロジェクトコンポーネント（セグメント、計算指標、日付範囲）をすべての受信者と共有できます。共有後、これらのコンポーネントは受信者のワークスペースのコンポーネントドロップダウンに表示されます。
+1. （オプション）埋め込みプロジェクトコンポーネント（セグメント、計算指標、日付範囲）をすべての受信者と共有できます。共有すると、これらのコンポーネントは受信者のWorkspace のコンポーネントドロップダウンに表示されます。
 
    >[!IMPORTANT]
    >
-   >この設定は保持されません。共有時の単数の操作です。
+   >この設定は持続しません。共有時の一回限りのアクションです。
 
 1. オプションで、このページを受信者のランディングページとして設定できます。
 
    >[!IMPORTANT]
    >
-   >この設定は保持されません。共有時の単数の操作です。
+   >この設定は持続しません。共有時の一回限りのアクションです。
 
 1. 「**[!UICONTROL 共有]**」をクリックします。
 
