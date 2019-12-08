@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace でカスタム日付範囲を作成し、時間コンポーネントとして保存します。
 keywords: Analysis Workspace
-solution: Analytics
 title: Analysis Workspace でカスタム日付範囲を作成
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,13 +14,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace でカスタム日付範囲を作成し、時間コンポーネントとして保存します。
 
-**[!UICONTROL コンポーネント]** / **[!UICONTROL 新しい日付範囲]**
+**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しい日付範囲]**
 
-日付範囲は、パネルレベルに適用します。To add a date range to your project, click **Panels** &gt; *`<select panel>`*, and specify a new date range.
+日付範囲は、パネルレベルに適用します。プロジェクトに日付範囲を追加するには、**パネル**／*`<select panel>`* をクリックして、新しい日付範囲を指定します。
 
-## Date range for "two months ago" {#section_C4109C57CB444BB2A79CC8082BD67294}
+## 「2 ヶ月前」の日付範囲{#section_C4109C57CB444BB2A79CC8082BD67294}
 
-次のカスタム日付範囲は、方向の変化を示す変更概要ビジュアライゼーションで、「2 か月前」の日付範囲を示します。
+次のカスタム日付範囲は、方向の変化を示す変更概要ビジュアライゼーションで、「2 ヶ月前」の日付範囲を示します。
 
 ![](assets/date-range-two-months-ago.png)
 
@@ -33,7 +32,7 @@ Analysis Workspace でカスタム日付範囲を作成し、時間コンポー�
 
 ![](assets/date-range-two-months-table.png)
 
-## 7日周期の日付範囲の使用 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## 7 日周期の日付範囲の使用 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 日付範囲は、パネルレベルに適用します。プロジェクトに日付範囲を追加するには、**アクション**／**パネルを追加**&#x200B;をクリックして、新しい日付範囲を指定します。
 
@@ -43,10 +42,10 @@ Analysis Workspace でカスタム日付範囲を作成し、時間コンポー�
 
 ![](assets/create_date_range.png)
 
-使用する&#x200B;*`rolling daily`*（名前をつけて保存）する必要があります。
+使用する&#x200B;*`rolling daily`* を使用します。
 
-* The Start settings would be *`current day minus 14 days`*.
+* 「開始」設定は、*`current day minus 14 days`* になります。
 
-* The End settings would be *`current day minus 7 days`*.
+* 「終了」設定は、*`current day minus 7 days`* になります。
 
 この日付範囲は、コンポーネントとして任意のフリーフォームテーブルにドラッグできます。
