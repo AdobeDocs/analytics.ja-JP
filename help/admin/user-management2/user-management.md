@@ -1,12 +1,11 @@
 ---
 description: Admin Console で Analytics ユーザー、グループおよび製品を管理します。
-solution: Analytics
 subtopic: Users and groups
 title: ユーザーと製品の管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 ## Admin Console 管理者向けヘルプリソース {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -35,7 +34,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console を起動 </p> </td> 
-   <td colname="col2"> <p>ユーザーアカウントが移行されたら、すべてのソリューションのユーザーおよび製品を Admin Console で管理できます。 </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Admin Console での Experience Cloud ユーザーおよび製品管理への更新について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Experience Cloud ユーザーおよび製品の管理</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーアカウントが移行されたら、すべてのソリューションのユーザーおよび製品を Admin Console で管理できます。 </p> <p><a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a> に移動します。 </p> <p>Admin Console での Experience Cloud ユーザーおよび製品管理への更新について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Experience Cloud ユーザーおよび製品の管理</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,81 +46,81 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> エレメント </th> 
+   <th colname="col1" class="entry"> 要素 </th> 
    <th colname="col2" class="entry"> 説明 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 使用できるユーザーログイン数</span> </td> 
+   <td colname="col1"> <span class="wintitle">使用できるユーザーログイン数</span> </td> 
    <td colname="col2"> この会社用に作成できるユーザーアカウントの最大数。必要に応じて、アカウント担当者またはカスタマーケアに連絡して、この数を無料で増やすことができます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 使用中のユーザーログイン数</span> </td> 
+   <td colname="col1"> <span class="wintitle">使用中のユーザーログイン数</span> </td> 
    <td colname="col2"> この会社が現在使用しているユーザーアカウントの数。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 残りのユーザーログイン数</span> </td> 
+   <td colname="col1"> <span class="wintitle">残りのユーザーログイン数</span> </td> 
    <td colname="col2"> ユーザーアカウントの最大数と既存のユーザーアカウント数の差。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 新しいユーザーの追加</span> </td> 
-   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md"> ユーザー</a>. </p> </td> 
+   <td colname="col1"> <span class="wintitle">新しいユーザーの追加</span> </td> 
+   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>詳しくは、<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> レポートのダウンロード</span> </td> 
+   <td colname="col1"> <span class="wintitle">レポートのダウンロード</span> </td> 
    <td colname="col2">「<span class="wintitle">ユーザー</span>」テーブルの内容をタブ区切りファイルにエクスポートできます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> ログイン</span> </td> 
-   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md"> ユーザー</a>. </p> </td> 
+   <td colname="col1"> <span class="wintitle">ログイン</span> </td> 
+   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>詳しくは、<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 名</span> </td> 
+   <td colname="col1"> <span class="wintitle">名</span> </td> 
    <td colname="col2"> ユーザーの名。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 姓</span> </td> 
+   <td colname="col1"> <span class="wintitle">姓</span> </td> 
    <td colname="col2"> ユーザーの姓。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> タイトル</span> </td> 
+   <td colname="col1"> <span class="wintitle">タイトル</span> </td> 
    <td colname="col2"> ユーザーの肩書。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 管理者</span> </td> 
+   <td colname="col1"> <span class="wintitle">管理者</span> </td> 
    <td colname="col2"> ユーザーアカウントに管理者権限があるかどうかを指定します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 最後のログイン</span> </td> 
+   <td colname="col1"> <span class="wintitle">最後のログイン</span> </td> 
    <td colname="col2"> このユーザーアカウントの最後のログインのタイムスタンプが表示されます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle"> 作成時刻</span> </td> 
+   <td colname="col1"><span class="wintitle">作成時刻</span> </td> 
    <td colname="col2"> ログインアカウントが作成された日時を示します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 有効期限</span> </td> 
+   <td colname="col1"> <span class="wintitle">有効期限</span> </td> 
    <td colname="col2"> 該当する場合は、アカウントの有効期限が表示されます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 管理</span> </td> 
+   <td colname="col1"> <span class="wintitle">管理</span> </td> 
    <td colname="col2"> ユーザーアカウント管理へのリンクが表示されます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Edit</span> </td> 
-   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/users.md"> ユーザー</a>. </p> </td> 
+   <td colname="col1"> <span class="wintitle">編集</span> </td> 
+   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>詳しくは、<a href="/help/admin/user-management2/c-user-management/users.md"> ユーザー</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Delete</span> </td> 
+   <td colname="col1"> <span class="wintitle">削除</span> </td> 
    <td colname="col2"> ユーザーアカウントを削除します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 転送</span> </td> 
-   <td colname="col2">あるユーザーアカウントの権限（許可とリソースアクセス）を別のユーザーアカウントに割り当てます。 <p>詳しくは、 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> ユーザーアカウント権限の転送</a>. </p> </td> 
+   <td colname="col1"> <span class="wintitle">転送</span> </td> 
+   <td colname="col2">あるユーザーアカウントの権限（許可とリソースアクセス）を別のユーザーアカウントに割り当てます。 <p>詳しくは、<a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md">ユーザーアカウント権限の転送</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle"> このユーザとしてログイン</span> </td> 
+   <td colname="col1"><span class="wintitle">このユーザとしてログイン</span> </td> 
    <td colname="col2"> <p>管理者が非管理者アカウントとしてログインできます。管理者アカウントを装うことはできません。 </p> </td> 
   </tr> 
  </tbody> 
