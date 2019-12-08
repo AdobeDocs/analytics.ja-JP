@@ -1,12 +1,11 @@
 ---
 description: 分類ルールビルダーを下位分類と組み合わせることで、分類の管理をシンプル化し、必要なルール数を削減できます。トラッキングコードに、個別に分類したいコードが含まれているような場合に、この方法を使用できます。
-solution: Analytics
 subtopic: Classifications
 title: 下位分類とルールビルダー - 使用事例
 topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 分類ルールビルダーを下位分類と組み合わせることで、分類の管理をシンプル化し、必要なルール数を削減できます。トラッキングコードに、個別に分類したいコードが含まれているような場合に、この方法を使用できます。
 
-See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
+下位分類の概念情報については、[下位分類](/help/components/c-classifications2/c-sub-classifications.md)を参照してください。
 
 **例**
 
@@ -35,7 +34,7 @@ See [Sub-Classifications](/help/components/c-classifications2/c-sub-classificati
 
 以下のタスクで、この実現方法を説明します。
 
-## Set up Sub-Classifications using the Rule Builder{#task_2D9016D8B4E84DBDAF88555E5369546F}
+## ルールビルダーを使用した下位分類の設定 {#task_2D9016D8B4E84DBDAF88555E5369546F}
 
 <!-- 
 
@@ -47,7 +46,7 @@ t_rule_builder_subclass.xml
 
 >[!NOTE]
 >
->次の手順では、下位分類とルールビルダーで説明した使用例 [を達成する方法を説明します](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)。
+>次の手順では、「[下位分類とルールビルダー](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)」に記載された使用例を実現する方法を説明します。
 
 1. [分類マネージャー](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)で、分類と下位分類を作成します。
 
@@ -55,32 +54,32 @@ t_rule_builder_subclass.xml
 
    ![ステップ情報](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
+1. [分類ルールビルダー](/help/components/c-classifications2/crb/classification-rule-builder.md)で、元のトラッキングコードから下位分類キーを分類します。
 
    この操作には、正規表現を使用します。この例では、*`Broad Campaign code`* の設定ルールで次の正規表現を使用します。
 
-   | `#` | ルールタイプ | 一致 | 分類の設定 | 設定先 |
+   | `#` | ルールタイプ | 一致 | 分類を設定 | 設定値 |
    |---|---|---|---|---|
-   |  | 正規表現 | `[^\:]:([^\:]):([^\:]`) | Broad Campaign code | `$1` |
-   |  | Regular Expression | `[^\:]:([^\:]):([^\:]`) | Creative code | `$2` |
+   |  | 正規表現 | `[^\:]:([^\:]):([^\:]`) | 幅広いキャンペーンコード | `$1` |
+   |  | 正規表現 | `[^\:]:([^\:]):([^\:]`) | クリエイティブコード | `$2` |
 
    >[!NOTE]
    >
-   >At this point, you do not populate the sub-classifications *`Campaign Type`* and *`Campaign Director`*.
+   >この時点では、下位分類の *`Campaign Type`* および *`Campaign Director`* は入力しないでください。
 
 1. 指定した下位分類のみを含む分類ファイルをアップロードします。
 
-   「複数レ [ベルの分類」を参照してください](/help/components/c-classifications2/c-sub-classifications.md)。
+   「[複数レベルの分類](/help/components/c-classifications2/c-sub-classifications.md)」を参照してください。
 
    例：
 
-   | キー | チャネル | Broad Campaign code | Broad Campaign code &amp;Hat;Campaign type | Broad Campaign code &amp;Hat;Campaign Director | ... |
+   | キー | チャネル | 幅広いキャンペーンコード | 幅広いキャンペーンコード&amp;ハット;キャンペーンタイプ | 幅広いキャンペーンコード&amp;ハット;キャンペーンディレクター | ： |
    |---|---|---|---|---|---|
    | * |  | 111 | Brand | Suzanne |  |
    | * |  | 222 | Brand | Frank |  |
 
 1. 参照テーブルをメンテナンスするために、（この例のような）小さなファイルをアップロードします。
 
-   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. このファイルは、以前に分類した値に適用されます。同様に、新しい下位分類を作成する（例えば  の副分 *`Creative Theme`* 類として)、分類フ *`Creative code`*&#x200B;ァイル全体ではなく、副分類ファイルのみをアップロードします。
+   例えば、新しい *`Broad Campaign code`* が導入されたときにこのファイルをアップロードします。このファイルは、以前に分類した値に適用されます。同様に、新しい下位分類を作成する場合は（例えば  *`Creative Theme`* を *`Creative code`* の副分類として）、分類ファイル全体ではなく、副分類ファイルのみをアップロードします。
 
    レポーティングでは、これらの下位分類はトップレベル分類と同様に機能します。これにより、分類の利用に必要となる管理上の負荷が軽減されます。
