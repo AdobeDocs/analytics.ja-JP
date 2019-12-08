@@ -1,11 +1,10 @@
 ---
 description: 課金ページでは、各レポートスイートのトラフィックの詳細を含む課金情報にアクセスできます。承認された管理者のみがこのページにアクセスできます。
-solution: Analytics
 title: 課金
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 課金ページでは、各レポートスイートのトラフィックの詳細を含む課金情報にアクセスできます。承認された管理者のみがこのページにアクセスできます。
 
-> [!NOTE] 「請求」タブへのアクセスが会社で無効になっている場合は、担当のアカウントマネージャーにお問い合わせください。
+> [!NOTE]「課金」タブへのアクセスが無効な場合、アカウントマネージャーにご連絡ください。
 
 課金ページのトラフィック概要データでは、レポートに表示されるページビュー数のデータと請求書に表示される課金対象サーバーコールとの関係を示します。[!UICONTROL 課金]ページを使用すると、以下のことを実行できます。
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 [!UICONTROL 課金]ページで月別に情報をまとめます。
 
-To view monthly traffic overview data, locate the month where you want to view traffic data, then click **[!UICONTROL View]**.
+月別のトラフィック概要データを表示するには、トラフィックデータを表示したい月を指定して、「**[!UICONTROL 表示]**」をクリックします。
 
 表示される[!UICONTROL 月別の請求]レポートには次のような情報があります。
 
@@ -40,7 +39,7 @@ To view monthly traffic overview data, locate the month where you want to view t
 | カスタムリンク | 各レポートスイートのカスタムリンクの合計数です。サイトのコンテンツ／リンク／カスタムリンクでカスタムリンクの値を確認できます。 |
 | 離脱リンク | 各レポートスイートの離脱リンクの合計数です。サイトのコンテンツ／リンク／離脱リンクで離脱リンクの値を確認できます。 |
 
-> [!NOTE] 月別請求レポートの作業用コピー [!UICONTROL を取得するには] 、クリップボードにコピーし、Microsoft Excel*などのスプレッドシートプログラムに貼り付けます。
+> [!NOTE][!UICONTROL 月別の請求]レポートの作業用コピーを取得するには、クリップボードにコピーしてから Microsoft Excel* などのスプレッドシートプログラムに貼り付けます。
 
 ## レポート日と処理日 {#section_51A48C2F223F4904BE1407C13333C457}
 
