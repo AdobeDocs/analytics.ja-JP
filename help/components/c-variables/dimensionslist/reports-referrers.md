@@ -1,11 +1,10 @@
 ---
 description: 訪問者がどのドメインや URL から Web サイトに来訪したか、訪問者が Web サイトをどのような方法で見つけたか、およびこれらの参照場所から Web サイトへの訪問回数が表示されます。
-solution: Analytics
 title: リファラー
 topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
