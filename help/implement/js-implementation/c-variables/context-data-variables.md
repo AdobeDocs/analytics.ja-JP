@@ -1,13 +1,12 @@
 ---
 description: コンテキストデータ変数を使用すると、処理ルールで読み取れる各ページ上にカスタム変数を定義できます。
 keywords: Analytics Implementation;contextdata;s.contextdata
-solution: Analytics
 subtopic: Variables
 title: コンテキストデータ変数
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 prop と eVar にコードで明示的に値を割り当てる代わりに、処理ルールを使用して、マッピングされるコンテキストデータ変数にデータを送信できます。処理ルールは、受信したデータに変更を加えるための強力なグラフィカルインターフェイスです。コンテキストデータで送信された値に基づいて、イベントを設定し、値を eVar および prop にコピーし、追加の条件文を実行できます。
 
 > [!NOTE]コンテキストデータ変数では大文字と小文字が区別されません。例えば、以下の 2 つの変数は実際には同一です。
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >と
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
@@ -53,7 +54,7 @@ s.contextData['myco.rsid'] = 'value'
  <tbody> 
   <tr> 
    <td colname="col1"> <p>サポートされる名前と文字 </p> </td> 
-   <td colname="col2"> <p>コンテキストデータ変数の名前には、英数字、アンダースコアおよびドットのみを使用できます。その他の文字はすべて削除されます。コンテキストデータ変数は、数字ではなく名前で参照されます。 </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>コンテキストデータ変数の名前には、英数字、アンダースコアおよびドットのみを使用できます。その他の文字はすべて削除されます。コンテキストデータ変数は、数字ではなく名前で参照されます。 </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. <code> login_page-home </code> 変数に送信されるすべてのデータは、<code> login_pagehome </code> に割り当てられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>名前空間 </p> </td> 
