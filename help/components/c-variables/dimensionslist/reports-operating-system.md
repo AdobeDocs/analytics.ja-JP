@@ -1,11 +1,10 @@
 ---
 description: クライアントが使用するオペレーティングシステム別に Web トラフィックをグループ化します。
-solution: Analytics
 title: オペレーティングシステム
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,7 +43,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> 2014 年 4 月 17 日 </td> 
-   <td colname="col2">このレポートで、Macintosh が個別の OS バージョンに分割されました。これらの OS は、現在は、[major version].[minor version].[update] としてレポートされます（例：10.9.2）。 <p><b>4 月 17 日以前</b> </p> 
+   <td colname="col2">このレポートで、Macintosh が個別の OS バージョンに分割されました。これらの OS は、現在は、[major version]。[minor version]。[update] としてレポートされます（例：10.9.2）。 <p><b>4 月 17 日以前</b> </p> 
     <ul id="ul_57A2173601624E959562A1CE6414184D"> 
      <li id="li_46B45295792B48B2A2EAA54533BE7C7B">すべての Apple Macintosh コンピューターが Macintosh とレポートされました。 </li> 
     </ul> <p><b>4 月 17 日以降</b> </p> 
