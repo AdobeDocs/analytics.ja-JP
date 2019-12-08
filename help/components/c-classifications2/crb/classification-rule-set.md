@@ -1,12 +1,11 @@
 ---
 description: ルールセットは、特定の変数の分類ルールのグループです。変数をルールセットに適用します。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。
-solution: Analytics
 subtopic: Classifications
 title: 分類ルールセット
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 分類ルールビルダーページ {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL Analytics]** /管理 **[!UICONTROL 者]** /分 **[!UICONTROL 類ルールビルダー]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL 分類ルールビルダー]**
 
 [!UICONTROL 分類ルールビルダー]には、次のフィールドとオプションがあります。
 
@@ -56,7 +55,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Create a Classification Rule Set {#create-classification-rule-set}
+## 分類ルールセットの作成 {#create-classification-rule-set}
 
 <!-- 
 
@@ -66,27 +65,27 @@ t_classification_rule_set.xml
 
 分類ルールセットに名前を付け、変数を適用して、上書き設定を指定します。
 
-1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. （前提条件）**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;で、分類構造を定義します。
 
    （分類の追加については、管理ツールのヘルプの[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)を参照してください。）
 
    変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ[!UICONTROL 新しいルールセット]パネルに表示されます。
 
-   You can create classifications on a variable in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]** (or **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**). Then select the variable, then click **[!UICONTROL Add Classification]**.
+   変数の分類を作成するには、**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL トラフィック]**／**[!UICONTROL トラフィック分類]**（または&#x200B;**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョンの分類]**）を使用します。次に、変数を選択し、「**[!UICONTROL 分類の追加]**」をクリックします。
 
-1. To create the rule set, click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** &gt; **[!UICONTROL Add Rule Set]**.
+1. ルールセットを作成するには、**[!UICONTROL 管理者]**／**[!UICONTROL 分類ルールビルダー]**／**[!UICONTROL ルールセットを追加]**&#x200B;をクリックします。
 
    ![](assets/new_rule_set.png)
 
-1. Name the rule set, then click **[!UICONTROL Create Rule Set]**.
+1. ルールセットに名前を付けて、「**[!UICONTROL ルールセットを作成]**」をクリックします。
 1. 編集するルールセットを選択します。
 
    ![](assets/classification_rules_page.png)
 
-1. Click **[!UICONTROL Select Report Suites and Variables]**.
+1. 「**[!UICONTROL レポートスイートと変数を選択]**」をクリックします。
 
    レポートスイートと変数リストには、ログインしている会社のすべてのレポートスイートで利用できるすべての分類された変数が入力されます。レポートスイート内の 1 つの変数が所属することのできるルールセットは、1 つのみです。
 
    詳しくは、*`Variable`*（[分類ルールビルダー](/help/components/c-classifications2/crb/classification-rule-definitions.md)ページの定義）を参照してください。
-1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
+1. 使用するレポートスイートおよび変数を指定して、「**[!UICONTROL 保存]**」をクリックします。
+1. 引き続き、[分類ルールの追加](/help/components/c-classifications2/crb/classification-rule-set.md)をおこないます。
