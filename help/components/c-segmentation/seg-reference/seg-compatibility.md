@@ -1,18 +1,17 @@
 ---
-description: セグメントビルダーで作成するすべてのセグメントが Data Warehouse と互換性があるとは限りません。サポートされる機能を次の表に示します
-solution: Analytics
+description: セグメントビルダーで作成するすべてのセグメントが Data Warehouse と互換性があるとは限りません。サポートされる機能を次の表に示します。
 title: Data Warehouse セグメントの互換性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Data Warehouse セグメントの互換性
 
-Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. サポートされる機能を次の表に示します
+セグメントビルダーで作成するすべてのセグメントが [!DNL Data Warehouse] と互換性があるとは限りません。サポートされる機能を次の表に示します。
 
 <table id="table_BBB1DAFDF85041598FA4AF869172CF7F"> 
  <thead> 
@@ -36,7 +35,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <td colname="col1"> <b>AND と OR の無制限の結合</b> </td> 
    <td colname="col2"> サポート。 </td> 
-   <td colname="col3"> 一部制限。。表の*note*を参照。 </td> 
+   <td colname="col3"> 一部制限。の呼び出しの後におこなわれる場合です。表の*note*を参照。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>コンテナのネスト</b> </td> 
@@ -45,7 +44,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>ディメンション</b> </td> 
-   <td colname="col2">セグメントビルダーの<span class="uicontrol">定義</span>フィールドにディメンションをドラッグ＆ドロップして、プロトコルの互換性を調べます。例えば、次のディメンションは、Analysis Workspace、Reports &amp; AnalyticsおよびAd Hoc Analysisでのみサポートされます。 
+   <td colname="col2">セグメントビルダーの<span class="uicontrol">定義</span>フィールドにディメンションをドラッグ＆ドロップして、プロトコルの互換性を調べます。例えば、次のディメンションは、Analysis Workspace、Reports &amp; Analytics および Ad Hoc Analysis でのみサポートされます。 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">入口サーバー </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">入口カテゴリ </li> 
@@ -58,7 +57,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">ページ URL </li> 
      <li id="li_4C79AE900CF6458780C124143DC6FA5B">訪問者 ID </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">Experience Cloud 訪問者 ID </li> 
-    </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
+    </ul> <p>次のディメンションは、Data Warehouse セグメントでは使用<b>できません</b>。 </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
      <li id="li_E77F3CC45BA04674B857FE5AB19D56F1">すべての検索ページのランク </li> 
      <li id="li_95E1549C13F14BA0B32686401EE78E31">午前 / 午後 </li> 
@@ -73,7 +72,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li id="li_98BE56213E1A4FD28D4858D53C46D23E">ヒットタイプ </li> 
      <li id="li_52ECB31657DF4180BDB9C8D21CC74313">時刻 </li> 
      <li id="li_93716207F2614822ACB84100B35D27BC">年間通算月 </li> 
-     <li id="li_FFC8E1F7092C4876A7E9F2365CC234B9">エラーページ（404） </li> 
+     <li id="li_FFC8E1F7092C4876A7E9F2365CC234B9">エラーページ (404) </li> 
      <li id="li_7A070C8E0F664F5AB554555B17D0E4E6">有料検索 </li> 
      <li id="li_12228C18BF90463C8D8394FB810843D3">四半期 </li> 
      <li id="li_1833B6E2011C4757A60CAA2C98B35AFA">再来訪頻度 </li> 
