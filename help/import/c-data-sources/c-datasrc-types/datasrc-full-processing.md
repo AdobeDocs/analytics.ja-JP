@@ -1,12 +1,11 @@
 ---
 description: データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
-solution: Analytics
 subtopic: Data sources
 title: フル処理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -54,7 +53,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col2"> <p>日付 </p> </td> 
    <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +64,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
+   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>例： </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -141,8 +140,8 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>コンバージョンの州の文字列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>zip </p> </td> 
-   <td colname="col2"> <p>zip </p> </td> 
+   <td colname="col1"> <p>郵便番号 </p> </td> 
+   <td colname="col2"> <p>郵便番号 </p> </td> 
    <td colname="col3"> <p>コンバージョンの郵便番号。 </p> </td> 
   </tr> 
  </tbody> 
