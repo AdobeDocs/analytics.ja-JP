@@ -1,10 +1,9 @@
 ---
 description: メニュー、指標セレクター、計算指標ビルダーおよびセグメントビルダー内の標準（組み込み）指標、カスタムイベントおよび組み込みイベントを非表示にできます。
-solution: Analytics
 title: 指標の表示
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,15 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 メニュー、指標セレクター、計算指標ビルダーおよびセグメントビルダー内の標準（組み込み）指標、カスタムイベントおよび組み込みイベントを非表示にできます。
 
-1. **[!UICONTROL Analytics]** /管理者 **[!UICONTROL /レポートスイート]** /設定/ **[!UICONTROL コン]**************&#x200B;バージョン成功イベント/コンバージョン成功イベントに移動します。 [さらに詳しく...](/help/admin/admin/c-success-events/t-success-events.md)
-1. Set the Visibility column to either **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, or **[!UICONTROL Hidden Everywhere]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL 成功イベント]**&#x200B;に移動します。[さらに詳しく...](/help/admin/admin/c-success-events/t-success-events.md)
+1. 表示列を「**[!UICONTROL すべての場所で表示]**」、「**[!UICONTROL ビルダー]**」または「**[!UICONTROL すべての場所で非表示]**」のいずれかに設定します。
 
 この設定は、ユーザーインターフェイス内での表示にのみ影響し、指標のデータ収集には影響しません。以下の表に、それぞれの設定がユーザーインターフェイスでの指標の表示／非表示にどのように影響するかを示します。
 
 <table id="table_26814F83F39C47D08361365E2658D249"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 設定項目 </th> 
+   <th colname="col1" class="entry"> 設定 </th> 
    <th colname="col2" class="entry"> 表示 </th> 
    <th colname="col3" class="entry"> 非表示 </th> 
   </tr> 
