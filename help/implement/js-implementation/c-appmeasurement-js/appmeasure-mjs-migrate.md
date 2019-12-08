@@ -1,13 +1,12 @@
 ---
 description: 現在導入している環境を移行するために実行する必要のあるタスクの一覧について、表に示します。
 keywords: Analytics Implementation;appmeasurement;migrate;migrating;javascript
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: JavaScript 版 AppMeasurement への移行
 topic: Developer and implementation
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
