@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics データソースを使用すると、追加のオンラインまたはオフラインデータをレポート用に手動でインポートできます。
-solution: Analytics
 subtopic: Data sources
 title: データソースの概要
 topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
