@@ -1,11 +1,10 @@
 ---
 description: サーバーコールが送信されるたびに、ページビューがカウントされます。この指標は、ページビューのインスタンスの合計を表します。TrackLink の呼び出しはページビューとしてカウントされないので、ページビュー数指標は増分されません。
-solution: Analytics
 title: ページビュー
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 サーバーコールが送信されるたびに、ページビューがカウントされます。この指標は、ページビューのインスタンスの合計を表します。TrackLink の呼び出しはページビューとしてカウントされないので、ページビュー数指標は増分されません。
 
-A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Entry Pages]** report, sort by it, and see which entry pages drive the most page views.
+ページビュー指標の活用方法の 1 つは、**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL 入口ページ]**&#x200B;レポートを実行し、ページビュー指標で並べ替え、最もページビュー数の多い入口ページを確認することです。
 
 | 使用 | 説明 |
 |---|---|
@@ -22,4 +21,4 @@ A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt;
 | コンバージョン | 訪問者が Web サイトのページにアクセスしたときにページビューが 1 つ発生します。 |
 | Ad Hoc Analysis | 訪問者が Web サイトのページにアクセスしたときにページビューが 1 つ発生します。 |
 
-詳しくは、 [ページビュー数レポート](/help/components/c-variables/dimensionslist/reports-page-views.md).
+詳しくは、[ページビュー数レポート](/help/components/c-variables/dimensionslist/reports-page-views.md)を参照してください。
