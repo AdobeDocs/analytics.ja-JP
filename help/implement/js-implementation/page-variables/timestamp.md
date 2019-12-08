@@ -1,13 +1,12 @@
 ---
 description: ページ変数は、pageName、リスト Prop、リスト変数など、レポートに直接入力されます。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: ページ変数
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,7 +47,7 @@ s.timestamp="UNIX or ISO-8601 format timestamp"
 タイムスタンプには、UNIX（1970 年 1 月 1 日からの秒数）または ISO-8601 の形式を使用する必要があります。また、使用可能な ISO-8601 形式には次の制限があります。
 
 * 日付と時刻を「T」で区切り、両方を指定する必要があります。
-* 日付はすべて揃った暦日付（年、月および日）であることが必要です。。曜日と年間通算日はサポートされません。
+* 日付はすべて揃った暦日付（年、月および日）であることが必要です。の呼び出しの後におこなわれる場合です。曜日と年間通算日はサポートされません。
 * 日付は、標準形式または拡張形式（`YYYY-MM-DD` または `YYYYMMDD`）が可能ですが、どちらの形式でも時間と分は含める必要があります。秒はオプションです（`HH:MM`、`HH:MM:SS`、`HHMM`、または `HHMMSS`）。分と秒の小数点以下の部分は、渡すことはできますが無視されます。
 
 * タイムゾーンは省略可能で、標準形式または拡張形式で指定できます（`±HH`、`±HH:MM`、`±HH`、`±HHMM`、または Z）。
