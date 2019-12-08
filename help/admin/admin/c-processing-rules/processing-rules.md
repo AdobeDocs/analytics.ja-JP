@@ -1,12 +1,11 @@
 ---
 description: 処理ルールはデータ収集をシンプル化し、レポーティングに送信されるコンテンツを管理します。
-solution: Analytics
 subtopic: Processing rules
 title: 処理ルールの概要
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
 
-処理ルールを使用する理由について、処理ルールの概要と Adobe Summit のトレーニングを&#x200B;*ご覧ください。*
+*処理ルールを使用する理由について、処理ルールの概要と Adobe Summit のトレーニングをご覧ください。*
 
 ## 処理ルール使用の承認を得る {#section_8A4846688050453784DAE4D89355169A}
 
@@ -32,16 +31,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 現在は、管理者には処理ルールを使用する権限が&#x200B;**デフォルトで**&#x200B;与えられています。試験を受ける必要はなくなりました。また、管理者は、管理ツールインターフェイスを使用してこの権限を非管理者に付与できます。その方法を次に示します。
 
-1. まだ完了していなければ、処理ルールを使用する権限を持つべき非管理者のみで構成される   [グループを作成](/help/admin/user-management2/c-user-groups/groups.md)します。
+1. まだ完了していなければ、処理ルールを使用する権限を持つべき非管理者のみで構成される     [グループを作成](/help/admin/user-management2/c-user-groups/groups.md)します。
 1. [管理者以外のユーザーをそのグループに追加します](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
-1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.
+1. 次に、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL [グループ名]]**／**[!UICONTROL 編集]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL レポートスイートツール]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL レポートスイート管理]**&#x200B;を選択します。
+1. 「[!UICONTROL 処理ルール]」チェックボックスをオンにし、「**[!UICONTROL OK]**」をクリックします。
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->処理ルールはAnalyticsデータに永続的な影響を与えるので、処理ルール管理者はAdobe Analyticsで認定トレーニングを受け、レポートスイート（標準Webサイト、モバイルサイト、モバイルアプリ、Data Insertion APIなど）のすべてのデータソースに精通することを強くお勧めします。 様々なプラットフォームで入力されるコンテキストデータ変数と標準変数に関する知識は、データの予期しない削除や変更を防ぐのに役立ちます。
+>処理ルールは Analytics データに恒久的に影響を与えるので、処理ルール管理者は、Adobe Analytics の認定トレーニングを受け、レポートスイートのすべてのデータソース（標準的な Web サイト、モバイルサイト、モバイルアプリ、Data Insertion API など）の知識を深めることを強くお勧めします。様々なプラットフォームで入力されるコンテキストデータ変数と標準変数に関する知識は、データの予期しない削除や変更を防ぐのに役立ちます。
 
 ## コンテキストデータを使用したデータ収集の単純化 {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -59,4 +58,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 定義したコンテキストデータ変数をレポートで使用するには、eVar などの変数にコピーする必要があります。
 
-詳しくは、 こ [こ](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)[](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)。
+詳しくは、[こちら](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)と[こちら](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)をご覧ください。
