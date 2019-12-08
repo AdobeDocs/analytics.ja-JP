@@ -1,11 +1,10 @@
 ---
 description: 様々なレポートタイプの実行手順を説明します。
-solution: Analytics
 title: 異なるレポートタイプの実行
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -155,7 +154,7 @@ Analysis Workspace の新しい[異常値検出と貢献度分析](https://marke
 
 **[!UICONTROL レポート]** /サ **[!UICONTROL イト指標]** /異常 **[!UICONTROL 値検出]** 。
 
-> [!NOTE] また、Analysis Workspaceプロジェクト内から異常値検出を実行することもできます。 [さらに詳しく...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] また、Analysis Workspaceプロジェクト内から異常値検出を実行することもできます。 [詳細...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 異常値検出の設定については、[リファレンスガイド](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)を参照してください。
 
