@@ -1,12 +1,11 @@
 ---
 description: 分類は、元のレポートの細かいデータをグループ化（分類）することによって作成されます。
 keywords: Analytics Implementation;classification
-solution: Analytics
 title: 分類
 topic: Developer and implementation
 uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
