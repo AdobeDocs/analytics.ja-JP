@@ -1,11 +1,10 @@
 ---
 description: レポートやセグメント化をシンプルにするために、オペレーティングシステムレポートに表示されるオペレーティングシステムのうち、特定のバージョンを主要なオペレーティングシステムタイプにまとめて表示します。
-solution: Analytics
 title: オペレーティングシステムの種類
 topic: Reports
 uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
