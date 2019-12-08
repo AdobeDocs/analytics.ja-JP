@@ -1,11 +1,10 @@
 ---
 description: オンラインメディアアクセス統計情報が表示されます。ビデオおよびその他のメディアのアクセスデータが表示されます。
-solution: Analytics
 title: ビデオ
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,4 +44,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-See [Measuring audio and video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+[Adobe Analytics でのオーディオおよびビデオの測定](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)を参照してください。
