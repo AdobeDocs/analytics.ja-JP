@@ -1,11 +1,10 @@
 ---
 description: 特定の期間内にサイトを訪問したスパイダーとボットを表示します。ボットによって生成されたことが（セットアップしたボットルールに基づいて）識別されたトラフィックは、レポートスイートに送信されません。その代わりに個別に収集されます。レポートにはこれらのエージェントが訪問したページが表示されます。
-solution: Analytics
 title: ボット
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
