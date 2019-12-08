@@ -1,11 +1,10 @@
 ---
 description: サイトへのアクセスに使用されたブラウザーのバージョンを一覧表示します。このバージョンはユーザーエージェント文字列によって識別されます。
-solution: Analytics
 title: ブラウザー
 topic: Reports
 uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 サイトへのアクセスに使用されたブラウザーのバージョンを一覧表示します。このバージョンはユーザーエージェント文字列によって識別されます。
 
-次に例を示します。
+例：
 
 * Google Chrome 74
 * Mozilla Firefox 67
