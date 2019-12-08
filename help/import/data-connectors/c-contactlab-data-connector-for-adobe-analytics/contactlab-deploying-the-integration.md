@@ -1,10 +1,9 @@
 ---
 description: 'null'
-solution: Analytics
 title: 統合のデプロイ
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Data Connectorsインターフェイスで統合ウィザードを完了する�
    |---|---|
    | リンク ID | リンクIDをリアルタイムで収集するeVarを選択します。 |
    | メッセージID | メッセージIDをリアルタイムで収集するeVarを選択します。 |
-   | Recipient ID | 受信者IDをリアルタイムで収集するeVarを選択します。 |
+   | 受信者 ID | 受信者IDをリアルタイムで収集するeVarを選択します。 |
    | バウンス | ContactLabから日別のバウンスを受け取る数値イベントを選択します。 |
    | 送信済み | ContactLabから毎日の送信を受信する数値イベントを選択します。 |
    | クリック済み | ContactLabから日別合計クリック数を受け取る数値イベントを選択します。 |
