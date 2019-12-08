@@ -1,11 +1,10 @@
 ---
 description: ツールバー、カレンダー、詳細テーブルなど、レポートの機能について説明します。
-solution: Analytics
 title: レポートの各機能
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -56,7 +55,7 @@ See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/
 
 ## グラフの表示 {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-選択したグラフの種類によりますが、通常は詳細リストにある最初の数項目が表示されます。異なる期間を表示するトレンドグラフでは、全期間が表示されます。:
+選択したグラフの種類によりますが、通常は詳細リストにある最初の数項目が表示されます。異なる期間を表示するトレンドグラフでは、全期間が表示されます。：
 
 ![](assets/graph.png)
 
