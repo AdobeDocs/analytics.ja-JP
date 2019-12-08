@@ -1,11 +1,10 @@
 ---
 description: 多くの Adobe Engineering Services エンゲージメントではデータの交換を行いますが、その際に FTP が必要になります。
 keywords: ftp;sftp
-solution: Analytics
 title: FTP を使用した Engineering Services エンゲージメント
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
