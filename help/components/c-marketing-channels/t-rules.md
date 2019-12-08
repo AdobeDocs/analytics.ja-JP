@@ -1,12 +1,11 @@
 ---
 description: 訪問者のヒットがチャネルに割り当てられた条件を満たすかどうかを判断するためのマーケティングチャネルの処理ルールを作成します。
-solution: Analytics
 subtopic: Marketing channels
 title: マーケティングチャネルの処理ルールの作成
 topic: Reports and analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,18 +16,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 この手順では、例として電子メールルールを使用します。この例では、マーケティングチャネルマネージャーページのチャネルのリストに電子メールチャネルを追加済みであることを前提としています。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. レポートスイートの選択.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
+1. レポートスイートを選択します。
 
    レポートスイートでチャネルが定義されていない場合、[!UICONTROL マーケティングチャネル ：自動セットアップ]ページが表示されます。
 
    詳しくは、[自動セットアップの実行](/help/components/c-marketing-channels/c-channel-autosetup.md)を参照してください。
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Processing Rules]**.
+1. **[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルの処理ルール]**&#x200B;の順にクリックします。
 
    ![手順の結果](assets/marketing_channel_rules.png)
 
-1. From the **[!UICONTROL Add New Rule Set]** menu, select **[!UICONTROL Email]**.
+1. 「**[!UICONTROL 新しいルールセットの追加]**」メニューから「**[!UICONTROL 電子メール]**」を選択します。
 
    これにより、チャネルを選択するのではなく、必要なパラメーターを持つルールを挿入するテンプレートを選択することになります。
 
@@ -42,10 +41,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
 
-   In this example, *`<value>`* is the query string parameter that you use for your email campaign, such as *`eml`*.
-1. To continue creating rules, click **[!UICONTROL Add Rule]**.
+   この例では、*`<value>`* が電子メールキャンペーンに使用するクエリ文字列パラメーターです（例えば、*`eml`* など）。
+1. ルールの作成を続けるには、「**[!UICONTROL ルールの追加]**」をクリックします。
 1. ルールに優先順位を付けるには、目的の位置にルールをドラッグアンドドロップします。
-1. Click **[!UICONTROL Save.]**
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
