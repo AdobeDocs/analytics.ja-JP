@@ -1,11 +1,10 @@
 ---
 description: スケジュールされたタスクマネージャーのフィールドの説明です。
-solution: Analytics
 title: スケジュールされたタスクマネージャー
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
