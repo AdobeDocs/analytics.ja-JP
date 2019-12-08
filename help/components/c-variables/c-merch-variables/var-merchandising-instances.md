@@ -1,12 +1,11 @@
 ---
 description: マーチャンダイジング変数でインスタンスをカウントする方法を説明します。
 keywords: Analytics Implementation
-solution: Analytics
 title: マーチャンダイジング変数とインスタンス
 topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,5 +47,5 @@ s.products=";Fernie Snow Goggles"
 
 バインディングイベントが発生しないページで eVar の値を設定する場合、またはバインディングイベントがない products 文字列に eVar 値を設定する場合、「なし」への割り当てが発生します。
 
-> [!NOTE] マーチャンダイジング変数のインスタンス数の現在の機能は、見直しが進められ、今後のリリースで変更される予定です。
+> [!NOTE]マーチャンダイジング変数でのインスタンスのカウントに関する現在の機能は見直しが進められており、将来のリリースでの変更が予定されています。
 
