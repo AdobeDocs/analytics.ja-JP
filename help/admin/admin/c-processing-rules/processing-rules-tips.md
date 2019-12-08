@@ -1,12 +1,11 @@
 ---
 description: ここでは、処理ルールのテストに関するガイドラインと、回避する必要がある一般的な間違いについて説明します。
-solution: Analytics
 subtopic: Processing rules
 title: 処理ルールのヒントとテクニック
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,15 +20,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **検索用語を読み取るルールのテスト**
 
-prop1に「news」が含まれる場合など、検索に基づく条件については、prop1レポートに移動し、「news」を検索して、予期していなかった一致があるかどうかを確認します。
+prop1 に「news」が含まれる場合などの条件に基づく検索では、prop1 レポートを開き、「news」を検索して、予期していなかった一致があるかどうかを確認します。
 
 **変数を読み取るルールのテスト**
 
-Create a blank HTML page on your desktop, include the s_code from your site, and set the `s.account` variable to a dev report suite. ルールがリファラーや参照ドメインなどに基づいている場合、実際に使用しているリファラーレポートの URL をいくつかサンプルとして利用し、その値のいずれかを `s.referrer` 変数に設定して、ページを読み込みます。同様に、ルールがページ URL 値に基づいている場合、`s.pageURL` を設定できます。これと同じプロセスを、すべての変数に使用できます。
+デスクトップに空の HTML ページを作成し、サイトの s_code を含めて、`s.account` 変数を開発レポートスイートに設定します。ルールがリファラーや参照ドメインなどに基づいている場合、実際に使用しているリファラーレポートの URL をいくつかサンプルとして利用し、その値のいずれかを `s.referrer` 変数に設定して、ページを読み込みます。同様に、ルールがページ URL 値に基づいている場合、`s.pageURL` を設定できます。これと同じプロセスを、すべての変数に使用できます。
 
 **開発レポートスイートの使用**
 
-開発レポートスイートで処理ルールが正しく機能することを確認するように設定することをお勧めします。 可能であれば、幅広く導入する前に、ルールを小規模な実稼動用レポートスイートにコピーしてください。
+開発レポートスイートに処理ルールを設定して、これらのルールが正しく動作していることを確認することをお勧めします。可能であれば、幅広く導入する前に、ルールを小規模な実稼動用レポートスイートにコピーしてください。
 
 ## 空の値の確認 {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -37,7 +36,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-また、処理順を考慮することも重要です。次の例では、ページ名が存在しない場合、カスタムeVarの「前のページ名」がURLに設定されます。 ただし、処理ルールが適用された後でページ名に URL が設定されても、Page Name がページ上で設定されていなければ、Page Name は空になります。
+また、処理順を考慮することも重要です。次の例では、Page Name がない場合、カスタム eVar の Previous Pagename は URL に設定されます。ただし、処理ルールが適用された後でページ名に URL が設定されても、Page Name がページ上で設定されていなければ、Page Name は空になります。
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
