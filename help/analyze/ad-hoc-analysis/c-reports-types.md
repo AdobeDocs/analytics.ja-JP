@@ -1,11 +1,10 @@
 ---
 description: Experience Cloud で使用されるレポートタイプについて説明します。
-solution: Analytics
 title: レポートタイプ
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -119,7 +118,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、このレポートから、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`.
+例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、このレポートから、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。例えば、`https://www.mysite.com` から `https://info.mysite.com` や `https://sales.mysite.com` に移動した訪問者の数などをレポートで確認できます。
 
 ## 次セクションのフロー {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -170,7 +169,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、このレポートから、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`.
+例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、このレポートから、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。例えば、`www.mysite.com` から `info.mysite.com` や `sales.mysite.com` に移動した訪問者の数などをレポートで確認できます。
 
 ## コンバージョンファネルレポート {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
@@ -215,11 +214,11 @@ c_reports_site_analysis.xml
 | 列を画面に合わせる | グラフの元の表示に戻します。 |
 | 俯瞰表示 | グラフをトップダウン表示にします。 |
 | グリッドの切り替え | グリッドのオン／オフを切り替えます。 |
-| ディメンション | レポートの対象とする項目です。ディメンションから項目をドラッグします。を参照してください。 |
+| ディメンション | レポートの対象とする項目です。ディメンションから項目をドラッグします。です。 |
 
 | オプション | 説明 |
 |--- |--- |
-| 編集 | ページをシリンダーに追加したり、シリンダーから削除したりできます。 |
+| テンプレートを編集 | ページをシリンダーに追加したり、シリンダーから削除したりできます。 |
 | 削除 | シリンダーを削除できます。 |
 | レポート | シリンダーから別のレポートを開始できます。 |
 | グラフに名前を付けて保存 | グラフを .png または .jpg として保存できます。保存前にグラフのコントロール（グラフの角度、サイズ）を変更した場合、この変更は出力時に保持されます。 |
