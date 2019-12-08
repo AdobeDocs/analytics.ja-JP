@@ -1,11 +1,10 @@
 ---
 description: ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。
-solution: Analytics
 title: ログ
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。
 
-**[!UICONTROL Analytics]** /管理 **[!UICONTROL 者]** /ロ **[!UICONTROL グ]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ログ]**
 
 ## 管理ログ {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -22,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 使用状況およびアクセスログ {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
-[!UICONTROL 使用状況およびアクセスログ]では、ユーザーアカウントレベルでレポートの使用状況を評価できます。例えば、Analysis Workspace での開く、作成、更新、共有解除および削除の各操作を追跡します。これにより、誰がどれくらいの頻度でワークスペースを使用しているのかを調べられるようになりました。
+[!UICONTROL 使用状況およびアクセスログ]では、ユーザーアカウントレベルでレポートの使用状況を評価できます。例えば、Analysis Workspace での開く、作成、更新、共有解除および削除の各操作を追跡します。これにより、誰がどれくらいの頻度で Workspace を使用しているのかを調べられるようになりました。
 
 | 要素 | 説明 |
 |---|---|
