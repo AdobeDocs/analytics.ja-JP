@@ -1,12 +1,11 @@
 ---
 description: デプロイメントが完了したら、この統合で提供される追加の機能の使用を開始できます。
-solution: Analytics
 subtopic: Qualtrics
 title: 統合の使用
 topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
