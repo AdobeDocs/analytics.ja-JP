@@ -1,12 +1,11 @@
 ---
 description: 処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
-solution: Analytics
 subtopic: Processing rules
 title: 処理ルールで使用可能なディメンション
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,7 +38,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンテキストデータ変数 </p> </td> 
-   <td colname="col2"> <p>ヒットで送信される名前付き変数。 </p> <p>注意：コンテキストデータ変数に含まれるすべてのデータは、レポート内で表示するためにレポート変数にコピーする必要があります。コンテキストデータ変数は、クリックストリームデータフィードなどのレポートインターフェイスで表示できません。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> コンテキストデータ変数の eVar へのコピー </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> コンテキストデータ変数を使用したイベントの設定 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> コンテキストデータ変数</a> </p> </td> 
+   <td colname="col2"> <p>ヒットで送信される名前付き変数。 </p> <p>注意：コンテキストデータ変数に含まれるすべてのデータは、レポート内で表示するためにレポート変数にコピーする必要があります。コンテキストデータ変数は、クリックストリームデータフィードなどのレポートインターフェイスで表示できません。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">コンテキストデータ変数の eVar へのコピー </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">コンテキストデータ変数を使用したイベントの設定 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html">コンテキストデータ変数</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,11 +96,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>クエリ文字列パラメーター </p> </td> 
-   <td colname="col2"> <p>現在の URL で指定したクエリ文字列パラメーターの値。パラメーターが存在しない場合は null。For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>JavaScript s_code H.25.2 以前を実行している場合、ページ URL は 255 字で切り捨てられます。JavaScript s_code H.25.3（2013 年 1 月のリリース）以降では、処理ルールに完全修飾 URL が提供されます。 </p> </td> 
+   <td colname="col2"> <p>現在の URL で指定したクエリ文字列パラメーターの値。パラメーターが存在しない場合は null。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> の場合、クエリ文字列パラメーター <span class="syntax codeph">cid</span> の値は <b>ad1</b> であり、クエリ文字列パラメーター <span class="syntax codeph">node</span> の値は <b>4</b> です。 </p> <p>JavaScript s_code  AppMeasurement H.25.2 以前を実行している場合、ページ URL は 255 字で切り捨てられます。JavaScript s_code  AppMeasurement H.25.3（2013 年 1 月のリリース）以降では、処理ルールに完全修飾 URL が提供されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページパス </p> </td> 
-   <td colname="col2"> <p>ページ URL のパス。The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>ページ URL のパス。URL <b>https://www.example.com/news/a.html?cid=ad1</b> のパスは <span class="syntax codeph">news/a.html</span> です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページドメイン </p> </td> 
@@ -109,11 +108,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページルートドメイン </p> </td> 
-   <td colname="col2"> <p>ページのホスト名の最後の 2 つのセクション。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>ページのホスト名の最後の 2 つのセクション。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページクエリ文字列 </p> </td> 
-   <td colname="col2"> <p>URL の完全なクエリ文字列。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>URL の完全なクエリ文字列。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>リファラー*（読み取り専用） </p> </td> 
@@ -121,7 +120,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照クエリ文字列パラメーター（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>参照 URL で指定したクエリ文字列パラメーターの値。パラメーターが存在しない場合は null。For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>JavaScript s_code H.25.2 以前を実行している場合、ページ URL は 255 字で切り捨てられます。JavaScript s_code H.25.3（2013 年 1 月のリリース）以降では、処理ルールに完全修飾 URL が提供されます。 </p> </td> 
+   <td colname="col2"> <p>参照 URL で指定したクエリ文字列パラメーターの値。パラメーターが存在しない場合は null。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> の場合、クエリ文字列パラメーター <span class="syntax codeph">cid</span> の値は <b>ad1</b> であり、クエリ文字列パラメーター <span class="syntax codeph">node</span> の値は <b>4</b> です。 </p> <p>JavaScript s_code  AppMeasurement H.25.2 以前を実行している場合、ページ URL は 255 字で切り捨てられます。JavaScript s_code  AppMeasurement H.25.3（2013 年 1 月のリリース）以降では、処理ルールに完全修飾 URL が提供されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照ドメイン（読み取り専用） </p> </td> 
@@ -129,11 +128,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照ルートドメイン（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照クエリ文字列（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>参照 URL に含まれるクエリ文字列パラメーター。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>参照 URL に含まれるクエリ文字列パラメーター。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP アドレス（読み取り専用） </p> </td> 
