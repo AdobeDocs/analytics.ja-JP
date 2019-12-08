@@ -1,11 +1,10 @@
 ---
 description: レポート期間内の全レポート行項目の値。現在フィルターが選択されている場合、合計はレポートスイートの合計ではなく、フィルター処理された合計を表している可能性があります。フィルターが選択されていない場合は、合計はレポートスイートの合計を表します。
-solution: Analytics
 title: 合計
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
