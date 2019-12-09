@@ -2,14 +2,14 @@
 title: Adobe Analytics テクニカルガイド
 description: Analytics のユーザーガイドとリソース
 translation-type: tm+mt
-source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
+source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
 
 ---
 
 
 # Adobe Analytics ドキュメント
 
-Adobe Analytics製品および技術ドキュメントのホームページへようこそ。 ここでは、 [!UICONTROL Analysis Workspace、Report Buidler]、 [!UICONTROL Reporting API]、 [!UICONTROL Data Workbench、]Activity Map Workbenchなどのレポートツールのセルフヘルプおよびサポート情報を確認で きます。 また、製品とユーザーの管理、実装、およびAdobe Analyticsでサポートされるすべての機能に関するドキュメントにアクセスすることもできます。
+Adobe Analytics製品および技術ドキュメントのホームページへようこそ。 ここでは、 [!UICONTROL Analysis Workspace、Report Builder]、 [!UICONTROL Reporting API]、 [!UICONTROL Data Workbench]、Activity Map Workbenchなどのレポートツールのセルフヘルプおよびサポート情報を確認でき ます。 また、製品とユーザーの管理、実装、およびAdobe Analyticsでサポートされるすべての機能に関するドキュメントにアクセスすることもできます。
 
 [![ツール](assets/analyze_50px.png)](/help/analyze/home.md)-[Analyticsツールガイド](/help/analyze/home.md) - Analyticsのプレミア分析およびビジュアライゼーションツールである [](/help/analyze/analysis-workspace/home.md)Analysis Workspaceにアクセスできます。 また、Adobe Analyticsで使用できるすべての分析ツ[!UICONTROL ール(]Report Builder [!UICONTROL 、Reporting API]、 [!UICONTROL Data Workbench]、Activity Map)も機能します。
 
