@@ -2,7 +2,7 @@
 description: モバイルアプリのスコアカードを設定する手順です。
 title: Adobe Analytics Mobile App Curatorガイド
 translation-type: tm+mt
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
@@ -191,8 +191,6 @@ Analyticsで、ツールメニューをクリ **ックし** 、「モバイル�
    **Androidのエグゼクティブユーザーの場合：**
 
    1. ユーザーのデバイスで次の「再生ストア」リンクをタップします(ツール/モバイルアプリのAnalytics **でも** 使用 **できます**)。
-
-
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       リンクをタップした後、次の画面で「Become a Tester」リンクをタップします。
@@ -200,12 +198,10 @@ Analyticsで、ツールメニューをクリ **ックし** 、「モバイル�
       ![ストアを再生画面](assets/play.png)
 
    2. 次の画面で **「Google Playでダウンロード** 」リンクをタップします。
-
       ![ダウンロードリンク](assets/playnext.png)
 
    3. アプリをダウンロードしてインストールします。
-   ダウンロードしてインストールすると、エグゼクティブユーザーは既存のAdobe Analyticsの資格情報を使用してアプリにサインインできます。adobe IDとEnterprise IDの両方をサポートします。
-
+ダウンロードしてインストールすると、エグゼクティブユーザーは既存のAdobe Analyticsの資格情報を使用してアプリにサインインできます。adobe IDとEnterprise IDの両方をサポートします。
    ![アプリのスタートアップスクリーン](assets/welcome.png)
 
 2. スコアカードへのアクセスを支援します。 エグゼクティブユーザーがアプリにサインインすると、 **会社を選択** 画面が表示されます。 この画面には、エグゼクティブユーザーが所属するログイン会社が表示されます。 スコアカードにアクセスする手順は、次のとおりです。
