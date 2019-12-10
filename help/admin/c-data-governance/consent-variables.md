@@ -3,7 +3,7 @@ description: データプライバシーにおけるプライバシーレポー�
 title: プライバシーレポート変数
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 033f962f9ff686d8c5f36b06a27df0d49198341b
 
 ---
 
@@ -65,7 +65,7 @@ Analytics Admin Console で利用できる新しいプライバシー設定を�
 * コンテキストデータ：`contextData.['cm.ssf']`
 * 指定可能な値：
    * 1：値「1」を送信する場合は、サーバー側転送がオプトアウト状態であることを示します。この変数と対になる値「1」は、このヒットが Adobe Audience Manager と共有されるのをブロックします。[AAM ePrivacy のコンプライアンス](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)を参照してください。
-   * このパラメーターには、他の値は使用できません。
+   * 0 — オプション。 ターゲットマーケティングに同意した顧客に対しては、値「0」を使用します。 変数を設定しないと、同じ結果になります。
 
 ### DMP
 
