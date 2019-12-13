@@ -1,22 +1,16 @@
 ---
 description: これらの関数にアクセスするには、関数ドロップダウンリストの「アドバンスを表示」を選択します。
-title: 高度な関数の参照
+title: リファレンス：高度な関数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # リファレンス：高度な関数
 
-<!-- 
-
-cm_adv_functions.xml
-
- -->
-
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+これらの関数にアクセスするには、**[!UICONTROL 関数]**&#x200B;ドロップダウンリストの「[!UICONTROL **アドバンスを表示]**」を選択します。
 
 ## 表関数と行関数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -34,7 +28,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 引数の値を返します。値がある特定の値に等しくないことを示すには、NOT を使用します。
 
-> [!NOTE] 0（ゼロ）はFalseを意味し、その他の値はTrueを意味します。
+> [!NOTE]0（ゼロ）は False を表し、それ以外の値は True を表します。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -42,10 +36,10 @@ AND(logical_test1,[logical_test2],...)
 
 | 引数 | 説明 |
 |---|---|
-| *logical_test1* | 必須です。TRUE または FALSE で示される値または式です。 |
+| *logical_test1* | 必須. TRUE または FALSE で示される値または式です。 |
 | *logical_test2* | (オプション)TRUE または FALSE として求める追加の条件です。 |
 
-## 個別概算カウント（ディメンション）{#concept_000776E4FA66461EBA79910B7558D5D7}
+## 個別概算カウント（ディメンション） {#concept_000776E4FA66461EBA79910B7558D5D7}
 
 選択したディメンションに関する個別のディメンション項目を概算した数を返します。この関数では、個別カウントを概算する HyperLogLog（HLL）手法を使用しています。  この関数は、値が 95％の確率で実際の値から誤差 5％以内にあることを保証するように設定されています。
 
@@ -61,7 +55,7 @@ Approximate Count Distinct (dimension)
 
 個別概算カウント（顧客 ID eVar）は、この関数の一般的な使用例です。
 
-新しい「お客様に近似」計算指標の定義：
+新しい計算指標「概算顧客数」の定義は次のようになります。
 
 ![](assets/approx-count-distinct.png)
 
@@ -79,7 +73,7 @@ Approximate Count Distinct() は、Count() 関数および RowCount() 関数を�
 
 この関数は HLL 手法を使用しているので、Count() や RowCount() よりもわずかに精度が低くなります。一方、Count() と RowCount() の数は正確です。
 
-## アークコサイン（行）{#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
+## アークコサイン（行） {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
 
 指標のアークコサイン（逆コサイン）を返します。アークコサインは、そのコサインが数値である角度です。0（ゼロ）～ pi の範囲のラジアンで角度が返されます。結果をラジアンから度に変換する場合は、その結果に 180/PI( ) を掛けます。
 
@@ -91,7 +85,7 @@ ACOS(metric)
 |---|---|
 | *metric* | -1 ～ 1 で求める角度のコサインです。 |
 
-## アークサイン（行）{#concept_90F00DEC46BA47F8A21493647D9668CD}
+## アークサイン（行） {#concept_90F00DEC46BA47F8A21493647D9668CD}
 
 数のアークサイン（逆サイン）を返します。アークサインは、そのサインが数値である角度です。-pi/2 ～ pi/2 の範囲のラジアンで角度が返されます。アークサインを度で表すには、結果に 180/PI( ) を掛けます。
 
@@ -103,7 +97,7 @@ ASIN(metric)
 |---|---|
 | *metric* | -1 ～ 1 で求める角度のコサインです。 |
 
-## アークタンジェント（行）{#concept_3408520673774A10998E9BD8B909E90C}
+## アークタンジェント（行） {#concept_3408520673774A10998E9BD8B909E90C}
 
 数のアークタンジェント（逆タンジェント）を返します。アークタンジェントは、そのタンジェントが数値である角度です。-pi/2 ～ pi/2 の範囲のラジアンで角度が返されます。アークタンジェントを度で表すには、結果に 180/PI( ) を掛けます。
 
@@ -115,7 +109,7 @@ ATAN(metric)
 |---|---|
 | *metric* | -1 ～ 1 で求める角度のコサインです。 |
 
-## 指数回帰：予測 Y（行）{#concept_25615693312B4A7AB09A2921083502AD}
+## 指数回帰：予測 Y（行） {#concept_25615693312B4A7AB09A2921083502AD}
 
 「最小二乗」法を使用して、 ) を基に最良の当てはめ線を計算し、指定されている既知の x 値（metric_X）に対する予測 y 値（metric_Y）を算出します。
 
@@ -153,7 +147,7 @@ cdf_z( -3 ) ? 0.0013499
  
 ```
 
-## 上限（行）{#concept_A14CDB1E419B4AA18D335E5BA2548346}
+## 上限（行） {#concept_A14CDB1E419B4AA18D335E5BA2548346}
 
 指定された値以上の最小の整数を返します。例えば、製品価格が $569.34 であり、通貨の小数点以下を売上高としてレポートしない場合は、CEILING(*Revenue*) という数式を使用して、売上高を直近のドル値（$570）に切り上げます。
 
@@ -165,7 +159,7 @@ CEILING(metric)
 |---|---|
 | *metric* | 丸める指標です。 |
 
-## コサイン（行）{#concept_DD07AA1FB08145DC89B69D704545FD0A}
+## コサイン（行） {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
 指定された角度のコサインを返します。角度が度で表されている場合は、角度に PI( )/180 を掛けます。
 
@@ -210,7 +204,7 @@ N &lt;= 0 の場合、前のすべての行を使用します。この関数は�
 
 N &lt;= 0 の場合、前のすべての行を使用します。この関数はディメンションによって規定されているので、日付やパスの長さなど、自然順序を持つディメンションでのみ役立ちます。
 
-> [!NOTE] これは、売上高/訪問者などのレート指標では期待どおりに機能しません。これは、過去N件の売上高を合計し、過去N件の訪問者を合計して、それらを除算するのではなく、レートの平均を計算します。 代わりに、次の数式を使用してください。
+> [!NOTE]この関数は、割合の指標（例：売上高/訪問者数）を使用する場合は機能しません。このような指標では、最終 N にわたる売上高を合計し、最終 N にわたる訪問者数を合計して、それらを除算するのではなく、代わりに割合を平均化します。代わりに、次の数式を使用してください。
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -220,9 +214,9 @@ cumul(revenue)/cumul(visitor)
 
 数字または文字列の値に完全に一致する項目を返します。
 
-## 指数回帰：相関係数（表）{#concept_C18BBFA43C1A499293290DF49566D8D8}
+## 指数回帰：相関係数（表） {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Returns the correlation coefficient, *r*, between two metric columns ( *metric_A* and *metric_B*) for the regression equation .
+回帰式に対して、2 つの指標列（*metric_A* と *metric_B*）の間の相関係数 *r* を返します。
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -233,9 +227,9 @@ CORREL.EXP(metric_X, metric_Y)
 | *metric_X* | *metric_Y* とクロス集計する指標です。 |
 | *metric_Y* | *metric_X* とクロス集計する指標です。 |
 
-## 指数回帰：切片（表）{#concept_0047206C827841AD936A3BE58EEE1514}
+## 指数回帰：切片（表） {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+以下に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の切片 *b* を返します。
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -246,9 +240,9 @@ INTERCEPT.EXP(metric_X, metric_Y)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 指数回帰：傾き（表）{#concept_230991B0371E44308C52853EFA656F04}
+## 指数回帰：傾き（表） {#concept_230991B0371E44308C52853EFA656F04}
 
-Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+以下に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の傾き *a* を返します。
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -259,7 +253,7 @@ SLOPE.EXP(metric_X, metric_Y)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 下限（行）{#concept_D368150EC3684077B284EE471463FC31}
+## 下限（行） {#concept_D368150EC3684077B284EE471463FC31}
 
 指定された値以下の最大の整数を返します。例えば、製品価格が $569.34 であり、通貨の小数点以下を売上高としてレポートしない場合は、FLOOR(*Revenue*) という数式を使用して、売上高を直近のドル値（$569）に切り捨てます。
 
@@ -279,7 +273,7 @@ FLOOR(metric)
 
 入力された値よりも大きいか等しい数字を持つ項目を返します。
 
-## ハイパボリックコサイン（行）{#concept_79DD5681CE9640BDBA3C3F527343CA98}
+## ハイパボリックコサイン（行） {#concept_79DD5681CE9640BDBA3C3F527343CA98}
 
 数のハイパボリックコサインを返します。
 
@@ -291,7 +285,7 @@ COSH(metric)
 |---|---|
 | *metric* | ハイパボリックコサインを求めるラジアンによる角度です。 |
 
-## ハイパボリックサイン（行）{#concept_96230731600C45E3A4E823FE155ABA85}
+## ハイパボリックサイン（行） {#concept_96230731600C45E3A4E823FE155ABA85}
 
 数のハイパボリックサインを返します。
 
@@ -303,7 +297,7 @@ SINH(metric)
 |---|---|
 | *metric* | ハイパボリックサインを求めるラジアンによる角度です。 |
 
-## ハイパボリックタンジェント（行）{#concept_BD249013732F462B9863629D142BCA6A}
+## ハイパボリックタンジェント（行） {#concept_BD249013732F462B9863629D142BCA6A}
 
 数のハイパボリックタンジェントを返します。
 
@@ -315,7 +309,7 @@ TANH(metric)
 |---|---|
 | *metric* | ハイパボリックタンジェントを求めるラジアンによる角度です。 |
 
-## IF（行）{#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
+## IF（行） {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
 IF 関数は、指定した条件が TRUE の場合に 1 つの値を返し、その条件が FALSE の場合にもう 1 つの値を返します。
 
@@ -325,7 +319,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | 引数 | 説明 |
 |---|---|
-| *logical_test* | 必須です。TRUE または FALSE で示される値または式です。 |
+| *logical_test* | 必須. TRUE または FALSE で示される値または式です。 |
 | *[value_if_true]* | *logical_test* 引数の値が TRUE の場合に返す値です（含まれない場合、この引数のデフォルト値は 0 です）。 |
 | *[value_if_false]* | *logical_test* 引数の値が FALSE の場合に返す値です（含まれない場合、この引数のデフォルト値は 0 です）。 |
 
@@ -353,7 +347,7 @@ Y = a X + b。Y を返します。
 
 Y = a X + b。a を返します。
 
-## 10 を底とする対数（行）{#concept_4C65DF9659164261BE52AA5A95FD6BC1}
+## 10 を底とする対数（行） {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
 
 数の 10 を底とする対数を返します。
 
@@ -365,9 +359,9 @@ LOG10(metric)
 |---|---|
 | *metric* | 10 を底とする対数を求める正の実数です。 |
 
-## 対数回帰：相関係数（表）{#concept_F3EB35016B754E74BE41766E46FDC246}
+## 対数回帰：相関係数（表） {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. 計算には CORREL 式を使用します。
+回帰式 *に対して、2 つの指標列（* metric_X *と* metric_Y *）の間の相関係数* r[!DNL Y = a ln(X) + b] を返します。計算には CORREL 式を使用します。
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -378,7 +372,7 @@ CORREL.LOG(metric_X,metric_Y)
 | *metric_X* | *metric_Y* とクロス集計する指標です。 |
 | *metric_Y* | *metric_X* とクロス集計する指標です。 |
 
-## 対数回帰：切片（表）{#concept_75A3282EDF54417897063DC26D4FA363}
+## 対数回帰：切片（表） {#concept_75A3282EDF54417897063DC26D4FA363}
 
 回帰式 *に対して、2 つの指標列（* metric_X *と* metric_Y *）の間の最小二乗回帰として、切片* b[!DNL Y = a ln(X) + b] を返します。計算には INTERCEPT 式を使用します。
 
@@ -391,11 +385,11 @@ INTERCEPT.LOG(metric_X, metric_Y)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 対数回帰：予測 Y（行）{#concept_5F3A9263BBB84E6098160A4DFB9E3607}
+## 対数回帰：予測 Y（行） {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. 計算には ESTIMATE 式を使用します。
+最小二乗法で [!DNL Y = a ln(X) + b]**** に基づいて最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（metric_X）に対する予測 [!DNL y] 値（metric_Y）を算出します。計算には ESTIMATE 式を使用します。
 
-In regression analysis, this function calculates the predicted [!DNL y] values (*metric_Y*), given the known [!DNL x] values (*metric_X*) using the logarithm for calculating the line of best fit for the regression equation [!DNL Y = a ln(X) + b]. [!DNL a] 値は各 x 値に対応し、[!DNL b] は定数値です。
+回帰分析では、この関数は、回帰方程式 [!DNL Y = a ln(X) + b] = a ln() + b の最良の当てはめ線を計算する対数を使用して既知の [!DNL x]x 値（*metric_X*）に対する予測 [!DNL y] 値（*metric_Y*）を算出します。[!DNL a] 値は各 x 値に対応し、[!DNL b] は定数値です。
 
 ```
 ESTIMATE.LOG(metric_X, metric_Y)
@@ -406,9 +400,9 @@ ESTIMATE.LOG(metric_X, metric_Y)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 対数回帰：傾き（表）{#concept_B291EFBE121446A6B3B07B262BBD4EF2}
+## 対数回帰：傾き（表） {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. 計算には SLOPE 式を使用します。
+回帰式 *に対して、2 つの指標列（* metric_X *と* metric_Y *）の間の傾き* a[!DNL Y = a ln(X) + b] を返します。計算には SLOPE 式を使用します。
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -431,7 +425,7 @@ LN(metric)
 |---|---|
 | *metric* | 自然対数を求める正の実数です。 |
 
-## NOT{#concept_BD954C455A8148A3904A301EC4DC821E}
+## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
 数が 0 の場合は 1 を返します。別の数の場合は 0 を返します。
 
@@ -441,19 +435,19 @@ NOT(logical)
 
 | 引数 | 説明 |
 |---|---|
-| *logical* | 必須です。TRUE または FALSE で示される値または式です。 |
+| *logical* | 必須. TRUE または FALSE で示される値または式です。 |
 
-NOT を使用する場合は、式（&lt;、&gt;、=、&lt;&gt; など）が 0 と 1 のどちらの値を返すかを把握しておく必要があります。
+NOT を使用する場合は、式（&lt;、&gt;、=、&lt;&gt; など）が0 と 1 のどちらの値を返すかを把握しておく必要があります。
 
 ## 等しくない {#concept_EC010B7A9D2049099114A382D662FC16}
 
 入力された値の完全一致を含まない項目をすべて返します。
 
-## OR（行）{#concept_AF81A33A376C4849A4C14F3A380639D2}
+## OR（行） {#concept_AF81A33A376C4849A4C14F3A380639D2}
 
 いずれかの引数が TRUE の場合は TRUE を返します。すべての引数が FALSE の場合は FALSE を返します。
 
-> [!NOTE] 0（ゼロ）はFalseを意味し、その他の値はTrueを意味します。
+> [!NOTE]0（ゼロ）は False を表し、それ以外の値は True を表します。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -461,7 +455,7 @@ OR(logical_test1,[logical_test2],...)
 
 | 引数 | 説明 |
 |---|---|
-| *logical_test1* | 必須です。TRUE または FALSE で示される値または式です。 |
+| *logical_test1* | 必須. TRUE または FALSE で示される値または式です。 |
 | *logical_test2* | (オプション)TRUE または FALSE として求める追加の条件です。 |
 
 ## 円周率 {#concept_41258789660D4A33B5FB86228F12ED9C}
@@ -474,9 +468,9 @@ PI()
 
 [!DNL PI] 関数には引数がありません。
 
-## 累乗回帰：相関係数（表）{#concept_91EC2CFB5433494F9E0F4FDD66C63766}
+## 累乗回帰：相関係数（表） {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+[!DNL Y = b*X] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の相関係数 *r* を返します。
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -487,9 +481,9 @@ CORREL.POWER(metric_X, metric_Y)
 | *metric_X* | *metric_Y* とクロス集計する指標です。 |
 | *metric_Y* | *metric_X* とクロス集計する指標です。 |
 
-## 累乗回帰：切片（表）{#concept_7781C85597D64D578E19B212BDD1764F}
+## 累乗回帰：切片（表） {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+*に対して、2 つの指標列（* metric_X *と* metric_Y *）の間の切片* b[!DNL Y = b*X] を返します。
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -500,9 +494,9 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 累乗回帰：予測 Y（行）{#concept_CD652C0A921D4EFBA8F180CB8E486B18}
+## 累乗回帰：予測 Y（行） {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+「最小二乗」法を使用して、[!DNL Y = b*X] に対する最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（[!DNL metric_X]）に対する予測 [!DNL y] 値（[!DNL metric_Y]）を算出します。
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -513,9 +507,9 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 累乗回帰：傾き（表）{#concept_5B9E71B989234694BEB5EEF29148766C}
+## 累乗回帰：傾き（表） {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+[!DNL Y = b*X] に対して、2 つの指標（*metric_X* と *metric_Y*）の間の傾き *a* を返します。
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -526,9 +520,9 @@ SLOPE.POWER(metric_X, metric_Y)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 二次回帰：相関係数（表）{#concept_9C9101A456B541E69BA29FCEAC8CD917}
+## 二次回帰：相関係数（表） {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+[!DNL Y=(a*X+b)]**** に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の相関係数 *r* を返します。
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -539,9 +533,9 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 | *metric_X* | *metric_Y* とクロス集計する指標です。 |
 | *metric_Y* | *metric_X* とクロス集計する指標です。 |
 
-## 二次回帰：切片（表）{#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
+## 二次回帰：切片（表） {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+[!DNL Y=(a*X+b)] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の切片 *b* を返します。
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -552,9 +546,9 @@ INTERCEPT.POWER(metric_X, metric_Y)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 二次回帰：予測 Y（行）{#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
+## 二次回帰：予測 Y（行） {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+最小二乗法で [!DNL Y=(a*X+b)]**** を使用して最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（metric_X）に対する予測 [!DNL y] 値（metric_Y）を算出します。
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -565,9 +559,9 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 | *metric_A* | 依存データとして指定する指標です。 |
 | *metric_B* | 依存データとして指定する指標です。 |
 
-## 二次回帰：傾き（表）{#concept_0023321DA8E84E6D9BCB06883CA41645}
+## 二次回帰：傾き（表） {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+[!DNL Y=(a*X+b)] に対して、2 つの指標列（*metric_X* と metric_Y）の間の傾き *a* を返します。
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -578,9 +572,9 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 逆数回帰：相関係数（表）{#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
+## 逆数回帰：相関係数（表） {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
-*に対して、2 つの指標列（* metric_X *と* metric_Y *）の間の相関係数* r[!DNL Y = a/X+b] を返します。
+[!DNL Y = a/X+b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の相関係数 *r* を返します。
 
 ```
 CORREL.RECIPROCAL(metric_X, metric_Y)
@@ -591,9 +585,9 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 | *metric_X* | *metric_Y* とクロス集計する指標です。 |
 | *metric_Y* | *metric_X* とクロス集計する指標です。 |
 
-## 逆数回帰：切片（表）{#concept_2DA45B5C69F140EC987649D2C88F19B3}
+## 逆数回帰：切片（表） {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+[!DNL Y = a/X+b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の切片 *b* を返します。
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -604,9 +598,9 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 逆数回帰：予測 Y（行）{#concept_2CF4B8F417A84FE98050FE488E227DF8}
+## 逆数回帰：予測 Y（行） {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+最小二乗法で [!DNL Y = a/X+b] を使用して最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（metric_X）に対する予測 [!DNL y] 値（metric_Y）を算出します。
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -617,9 +611,9 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## 逆数回帰：傾き（表）{#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
+## 逆数回帰：傾き（表） {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+[!DNL Y = a/X+b] に対して、2 つの指標（*metric_X* と *metric_Y*）の間の傾き *a* を返します。
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -630,7 +624,7 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 | *metric_X* | 依存データとして指定する指標です。 |
 | *metric_Y* | 非依存データとして指定する指標です。 |
 
-## サイン（行）{#concept_21C8C3AA835947A28B53A4E756A7451E}
+## サイン（行） {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
 指定された角度のサインを返します。角度が度で表されている場合は、角度に PI( )/180 を掛けます。
 
@@ -650,7 +644,7 @@ z スコアのエイリアス。つまり、平均値を標準偏差で割って
 
 t スコア col および自由度 n の t 検定（m-tailed）を実行します。
 
-署名はです `t_test( x, n, m )`。 その下では、単に呼び出し `m*cdf_t(-abs(x),n)`ます (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+署名は `t_test( x, n, m )` です。その下では、単に `m*cdf_t(-abs(x),n)` を呼び出します。（これは z 検定関数と似ており、z 検定関数は `m*cdf_z(-abs(x))` を実行します）。
 
 ここで、`m` はテール数、`n` は自由度です。これらは数値でなければなりません（全体レポートの場合は、行ごとに変わらない定数でなければなりません）。
 
@@ -658,15 +652,15 @@ t スコア col および自由度 n の t 検定（m-tailed）を実行しま�
 
 返される値は、指定された自由度とテール数において検定統計量 x が見られる確率です。
 
-**例:**
+**例：**
 
-1. 外れ値を検索するには、次の手順に従います。
+1. 次の式を使用して外れ値を見つけます。
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
    ```
 
-1. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
+1. この式に `if` を組み合わせて、極度に高いまたは低いバウンス率を無視し、その他すべてへの訪問回数をカウントします。
 
    ```
    if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
@@ -684,7 +678,7 @@ TAN (metric)
 |---|---|
 | *metric* | タンジェントを求めるラジアンによる角度です。 |
 
-## z スコア（行）{#concept_96BEAC79476C49B899DB7E193A5E7ADD}
+## z スコア（行） {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
 正規分布に基づく z スコア（正規スコア）を返します。z スコアは、観測値が平均値から離れている標準偏差の数です。z スコア 0（ゼロ）は、スコアが平均値と同じであることを意味します。z スコアは正と負のどちらにもなり得ます。平均値を上回るか下回るかを標準偏差の数で示します。
 
@@ -694,9 +688,9 @@ z スコアの式は次のようになります。
 
 ここで、[!DNL x] は生のスコア、[!DNL μ] は母集団の平均値、[!DNL σ] は母集団の標準偏差です。
 
-> [!NOTE] [!DNL μ] (mu)と[!DNL σ] (sigma)は、指標から自動的に計算されます。
+> [!NOTE][!DNL μ]（ミュー）および [!DNL σ]（シグマ）は、指標から自動的に計算されます。
 
-zスコア（指標）
+Z スコア（指標）
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -719,5 +713,5 @@ z スコア A の Z 検定（n-tailed）を実行します。
 
 現在の行が列に偶然表示される可能性を返します。
 
-> [!NOTE] 値が通常分布されると仮定します。
+> [!NOTE]値が正規分布されると仮定します。
 
