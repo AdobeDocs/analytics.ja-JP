@@ -1,8 +1,8 @@
 ---
 title: Virtual Analyst
 description: Virtual Analyst に貢献する Adobe Analytics の機能について説明します。
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+translation-type: tm+mt
+source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 Adobe Analytics の一連の機能に属する Virtual Analyst は、予測アルゴリズムと機械学習を使用して、ビジネスに影響を与える異常値に関するインサイトを提供します。これにより、最も一般的で高コストなデータサイエンスのワークフローを自動化し、何がデータの中で異常な行動を引き起こしているかを特定できます。
 
-## 機能
+## 機能 {#features}
 
 Virtual Analyst は、次の要素で構成されます。
 
