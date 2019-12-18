@@ -2,8 +2,8 @@
 title: Segment IQ の概要
 description: Adobe Analytics の Segment IQ とは何か、および Adobe Analytics の Segment IQ が組織にとってどのように役立つかについて説明します。
 keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+translation-type: tm+mt
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 アナリストは、多くの時間または日数をかけて、セグメント間の関連性のある差異について、組織の指標およびディメンションを検索することがあります。この分析は退屈で時間のかかる作業であるうえに、ターゲットを絞ったマーケティング活動に大きな影響を与える可能性のある、セグメントの主な違いを見逃したかどうかを確かめることもできません。
 
-多くの組織は、Segment IQ を活用した機能を使用して成功につなげています。組織に有益なインサイトを提供した実際のシナリオについては、[セグメント比較の使用例](c-panels/c-segment-comparison/segment-compare-use-cases.md)を参照してください。
+多くの組織は、Segment IQ を活用した機能を使用して成功につなげています。See [Segment comparison use cases](c-panels/c-segment-comparison/segment-compare-use-cases.md) for real-world scenarios that provide organizations valuable insight.
 
 ## 機能
 
