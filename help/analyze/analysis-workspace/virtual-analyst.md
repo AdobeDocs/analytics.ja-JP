@@ -2,7 +2,7 @@
 title: Virtual Analyst
 description: Virtual Analyst に貢献する Adobe Analytics の機能について説明します。
 translation-type: tm+mt
-source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -13,7 +13,7 @@ Adobe Analytics の一連の機能に属する Virtual Analyst は、予測ア�
 
 ## 機能 {#features}
 
-Virtual Analyst は、次の要素で構成されます。
+仮想アナリストは、次の機能で構成されます。
 
 * [異常値検出：](virtual-analyst/c-anomaly-detection/anomaly-detection.md)以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。
 * [貢献度分析：](virtual-analyst/contribution-analysis/run-contribution-analysis.md)データの異常値に最も貢献している要因を特定するのに役立ちます。
