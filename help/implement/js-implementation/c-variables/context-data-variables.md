@@ -6,7 +6,7 @@ title: コンテキストデータ変数
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d69587886c87bc62ad744c51d56bb6cd9e53167
 
 ---
 
