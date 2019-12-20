@@ -188,6 +188,7 @@ Analyticsで、ツールメニューをクリ **ックし** 、「モバイル�
    3. Testflightアプリをインストールした後、以下に示すように、Testflight内からAdobe Analytics Mobileアプリを探してインストールします。
 
       ![テストフライト画面](assets/testflight2.png)
+
    **Androidのエグゼクティブユーザーの場合：**
 
    1. ユーザーのデバイスで次の「再生ストア」リンクをタップします(ツール/モバイルアプリのAnalytics **でも** 使用 **できます**)。
