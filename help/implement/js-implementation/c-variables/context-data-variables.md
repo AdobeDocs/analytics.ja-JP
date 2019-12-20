@@ -18,13 +18,11 @@ source-git-commit: 5d69587886c87bc62ad744c51d56bb6cd9e53167
 prop と eVar にコードで明示的に値を割り当てる代わりに、処理ルールを使用して、マッピングされるコンテキストデータ変数にデータを送信できます。処理ルールは、受信したデータに変更を加えるための強力なグラフィカルインターフェイスです。コンテキストデータで送信された値に基づいて、イベントを設定し、値を eVar および prop にコピーし、追加の条件文を実行できます。
 
 > [!NOTE]コンテキストデータ変数では大文字と小文字が区別されません。例えば、以下の 2 つの変数は実際には同一です。
->
-```
+>```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >と
->
-```
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
