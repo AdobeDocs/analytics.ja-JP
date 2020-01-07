@@ -2,7 +2,7 @@
 title: Analysis Workspace ヘルプ
 description: Analysis Workspace、Activity Map、Report Builder、Reporting API、Reports & Analytics（旧称Omniture Analytics製品）の製品ドキュメントとセルフヘルプです。
 translation-type: tm+mt
-source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
+source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 ## 主な Analytics ツール記事
 
 * [Analysis Workspace 使用の手引き](analysis-workspace/home.md)
+* [使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder はじめに](report-builder/home.md)
 * [Activity Map はじめに](activity-map/activity-map.md)
 
@@ -33,6 +34,6 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 ## 主な Analytics リソース
 
 * [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
+* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
