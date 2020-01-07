@@ -6,123 +6,118 @@ title: getTimeParting
 topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 73d20b23e38bc619c156c418c95096a94d2fdfce
 
 ---
 
 
 # getTimeParting
 
-getTimeParting プラグインは、時間、曜日および週末と平日の値をカスタム変数に入力します。[!UICONTROL Analysis Workspace] では、初期設定で時間分割のディメンションを利用できます。このプラグインは、他の Analytics ソリューション（[!UICONTROL Analysis Workspace] 以外）で時間分割のディメンションが必要な場合に使用します。
+getTimePartingプラグインは、測定可能なアクティビティがサイトで発生した時間の詳細を取り込むための完全な分析ソリューションを提供します。
 
-このプラグインは、ユーザーの Web ブラウザーから日付および時間の情報を読み込みます。この情報から、時間帯と曜日の情報を取得します。その後、選択したタイムゾーンにこのデータを変換します。夏時間にも対応しています。
+指定した日付範囲で、繰り返し可能な時間の除算で指標を分類する場合は、getTimePartingプラグインを使用します。  例えば、getTimePartingプラグインを使用すると、2つの異なる曜日（例：全日曜日と全木曜日）、2つの異なる期間（例：全朝と全朝）、または2つの後続の分（例：全午前10:00インスタンスと午前10:01）の間のコンバージョン率を比較できます。インスタンス)を使用します。
+
+[!DNL Analysis Workspace] には、このプラグインが提供するものと少し異なる方法でフォーマットされた、標準搭載のサイズと似たものが用意されて [います](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.html)（ここを参照）。  アドビのコンサルティング部門では、このヘルプの残りの部分を読んで、このプラグインがニーズに合った方法でデータを提供するかどうかを判断することをお勧めします。
+
+特定の日付範囲にわたって、繰り返し可能な時間の除算によって指標を分類する必要がない場合は、getTimePartingプラグインを使用する必要はありません。  また、時間分割ディメンシ [!DNL Analysis Workspace] ョンが十分にある場合は、このプラグインを実装する必要はありません。
+
+>[!CAUTION] getTimePartingプラグインのバージョン4.0以降が提供するソリューションは、プラグインの以前のバージョンとは大きく異なります。  4.0より前のバージョンからアップグレードする場合は、ソリューションを「最初から」実装する必要があります。  つまり、プラグインから提供されたデータを保持する新しいeVar（1つのeVar）を設定し、このドキュメントをよく読んでから、ソリューションを実装する必要があります。
+
+>[!CAUTION] また、このバージョンのプラグインは、Microsoft Internet Explorer *ブラウザー* との完全な互換性がありませんが、Microsoft edgeブラウザーとの完全な互換性があります。   Internet Explorerを使用する訪問者は、指定したタイムゾーンに変換するのではなく、ローカルのタ *イム* ゾーンでのみ時刻を提供できます。  Internet Explorerブラウザーのデータを含まず、その存在を説明するソリューションの例を以下に示します。
 
 > [!NOTE]後述の説明では、実際のサイトに合わせてデータ収集コードを変更する必要があります。変更は、サイトでのデータ収集に影響が及ぶ可能性があるので、[!DNL Analytics] の使用と導入の経験がある開発者のみがおこなうようにしてください。
 
-## プラグインコード {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
+> [!WARNING] 必ず、実稼働環境にデプロイする前にすべてのプラグイン実装をテストし、データ収集が期待どおりに動作することを確認してください。
 
-**Config セクション**
+## 前提条件
 
-次のコードを [!DNL s_code.js] ファイルにある [!UICONTROL CONFIG SECTION] という名称の領域に置き、下記の説明のとおりに更新をおこないます。
+なし
 
-`s._tpDST` - DST 値の配列。この配列は次のような構造を持ちます：`YYYY:'MM/DD,MM/DD'`
+## 導入方法
 
-```js
-//time parting configuration 
-//Australia 
-s._tpDST = { 
-2012:'4/1,10/7', 
-2013:'4/7,10/6', 
-2014:'4/6,10/5', 
-2015:'4/5,10/4', 
-2016:'4/3,10/2', 
-2017:'4/2,10/1', 
-2018:'4/1,10/7', 
-2019:'4/7,10/6',
-2020:'4/5,10/4',
-2021:'4/4,10/3'} 
-  
-//US 
-s._tpDST = { 
-2012:'3/11,11/4', 
-2013:'3/10,11/3', 
-2014:'3/9,11/2', 
-2015:'3/8,11/1', 
-2016:'3/13,11/6', 
-2017:'3/12,11/5', 
-2018:'3/11,11/4', 
-2019:'3/10,11/3',
-2020:'3/8,11/1',
-2021:'3/14,11/7'} 
-  
-//Europe 
-s._tpDST = { 
-2012:'3/25,10/28', 
-2013:'3/31,10/27', 
-2014:'3/30,10/26', 
-2015:'3/29,10/25', 
-2016:'3/27,10/30', 
-2017:'3/26,10/29', 
-2018:'3/25,10/28', 
-2019:'3/31,10/27',
-2020:'3/29,10/25',
-2021:'3/28,10/31'}
-```
+* 次のコードをAppMeasurementコードのプラグインセクション内の任意の場所にコピー&amp;ペーストします。
 
-北半球のクライアントに対する注意：この配列内の DST 値は DST 開始日と DST 終了日です。
+```function getTimeParting(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:a, minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])}```
 
-南半球のクライアントに対する注意：この配列内の DST 値は DST 終了日と DST 開始日です。
+> [!NOTE] また、Adobe Launchなどのタグマネージャーを使用して、プラグインコードをAppMeasurementや他の解析ソリューションに接続する必要なく導入することもできます
 
-**パラメーター**
+* 以下に説明するように、doPlugins関数内、または時間分割データを取り込む必要がある他の場所でgetTimeParting関数を実行します
 
-```js
-var tp = s.getTimeParting(h,z);
-```
+**渡す引数**
 
-* h =（必須）半球 - 時間を北半球または南半球のどちらに変換するかを指定します。この値は 'n' または 's' です。これは、渡された DST 配列の使用方法の決定に使用されます。'n' が渡されると、プラグインは DST がオンの場合に日付を使用します。's' が渡されると、プラグインは DST がオフの場合に日付を使用します。
-* z =（オプション）タイムゾーン - データを特定の期間に基づかせたい場合は、ここに GMT とは別のタイムゾーンを指定する必要があります。これは DST 期間を除く GMT でなければなりません。値が指定されていない場合は GMT がデフォルトで使用されます（つまり、米国東部時間は '-5'）。
+* t:(オ&#x200B;**プションですが推奨**、文字列)訪問者のローカル時間を変換するタイムゾーンの名前。  デフォルトは「Etc/GMT」、未設定の場合はUTC/GMT時間です。  入力す [る値の完全なリストは、https://en.wikipedia.org/wiki/List_of_tz_database_time_zones] にアクセスしてください。
 
-**戻り値**
+一般的な値は次のとおりです。
 
-次のように、時刻（分まで）と曜日を連結した値を返します。
+* 東部時間の場合は「America/New_York」
+* Central time用の「America/Chicago」
+* 山岳部時間の「America/Denver」
+* 太平洋標準時の「America/Los_Angeles」
 
-```
-8:03 AM|Monday
-```
+## 戻り値
 
-次に、[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)を使用して訪問を期間にグループ化します。例えば、分類ルールビルダーでルールを設定し、9:00 AM ～ 9:59 AM の間の訪問を "9:00 AM - 10:00 AM" にグループ化できます。また、分類の代替策として、JavaScript でクライアント側のロジックを追加して訪問をグループ化することもできます。
+getTimePartingプラグインは、次を含む文字列を返します。
 
-**呼び出し例**
+* 現在の年
+* 現在の月
+* 現在の日付（日）
+* 現在の日（曜日）
+* 現在の時刻（非軍事時刻）
 
-```js
-var tp = s.getTimeParting('n','-7'); 
-s.prop1 = tp;
-```
+上記の各項目はパイプ文字(&quot;|&quot;)で区切られます。
 
-**PLUGINS SECTION**
+## 呼び出しの例
 
+フランスのパリに住んでいて、eVar10(Adobe Analytics)を使用して時間分割データを取得する場合は、次のコードを使用します。
 
-次のコードを [!UICONTROL  ファイルの ]PLUGINS SECTION[!DNL s_code.js] に追加します。
+```s.eVar10 = getTimeParting("Europe/Paris")```
 
-```js
-/* 
- * Plugin: getTimeParting 3.4 
- */ 
-s.getTimeParting=new Function("h","z","" 
-+"var s=this,od;od=new Date('1/1/2000');if(od.getDay()!=6||od.getMont" 
-+"h()!=0){return'Data Not Available';}else{var H,M,D,U,ds,de,tm,da=['" 
-+"Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturda" 
-+"y'],d=new Date();z=z?z:0;z=parseFloat(z);if(s._tpDST){var dso=s._tp" 
-+"DST[d.getFullYear()].split(/,/);ds=new Date(dso[0]+'/'+d.getFullYea" 
-+"r());de=new Date(dso[1]+'/'+d.getFullYear());if(h=='n'&&d>ds&&d<de)" 
-+"{z=z+1;}else if(h=='s'&&(d>de||d<ds)){z=z+1;}}d=d.getTime()+(d.getT" 
-+"imezoneOffset()*60000);d=new Date(d+(3600000*z));H=d.getHours();M=d" 
-+".getMinutes();M=(M<10)?'0'+M:M;D=d.getDay();U=' AM';if(H>=12){U=' P" 
-+"M';H=H-12;}if(H==0){H=12;}D=da[D];tm=H+':'+M+U;return(tm+'|'+D);}");
-```
+カリフォルニア州サンノゼに居住している場合は、次のコードを使用します。
 
-**メモ**
+```s.eVar10 = getTimeParting("America/Los_Angeles")```
 
-* 必ず、プラグインでデータの収集が希望どおりに実行されることをテストし確認してから、実稼動環境に実装してください。
-* プラグインが正しく機能するには、設定変数を設定する必要があります。
+アフリカのガーナ国にいる場合は、次のコードを使用します。
 
+```s.eVar10 = getTimeParting();```
+
+ガーナはUTC/GMTタイムゾーン内です。  この例は、このような状況ではプラグイン引数が必要ないことを示しています。
+
+ニューヨークに住んでいて、Internet Explorer訪問者からのデータを含めない場合は、次のコードを使用します（IEブラウザーから返される値は訪問者のローカル時間にのみ指定できるため）。
+
+```if(!document.documentMode) s.eVar10 = getTimeParting("America/New_York");```
+```else s.eVar10 = "Internet Explorer Visitors";```
+
+**呼び出しの結果**
+
+コロラド州デンバーからの訪問者が2020年8月31日午前9時15分にサイトを訪問した場合、次のコードは…
+
+```s.eVar10 = getTimeParting("Europe/Athens");```
+
+...はs.eVar10を **year=2020に設定します| month=August| date=31| day=Monday| time=6:15 PM**
+
+次のコード…
+
+```s.eVar10 = getTimeParting("America/Nome");```
+
+代わりに、s.eVar10を **year=2020に設定します。| month=August| date=31| day=Monday| time=6:15 AM**
+
+次のコード…
+
+```s.eVar10 = getTimeParting("Asia/Calcutta");```
+
+代わりに、s.eVar10を **year=2020に設定します。| month=August| date=31| day=Monday| time=8:45 PM**
+
+次のコード…
+
+```s.eVar10 = getTimeParting("Australia/Sydney");```
+
+代わりに、s.eVar10を **year=2020に設定します。| month=9月| date=1| day=Tuesday| time=1:15 AM**
+
+## Adobe Analyticsの設定
+
+Adobe Analyticsで時間分割データを取り込む場合は、次の特性を持つ新しいeVarを設定してください。
+
+* 名前：時間分割
+* 配分：最新（最後）
+* 有効期限：訪問
+* その他のすべての属性は、指定されたデフォルト値を使用します
