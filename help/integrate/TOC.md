@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Integration Guide
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
+source-git-commit: bd741125b0c68c490c0f7d54d56ce5280c512a12
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
       + [サーバー側転送の要件 - 管理ガイド](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [サーバー側転送の実装の確認 - 管理ガイド](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [サーバー側転送 FAQ - 管理ガイド](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-      + [Analyticsの宛先の作成](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [解析の宛先の作成 — AAMガイド](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Analytics でのオーディエンスデータの使用](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics の使用例](c-audience-analytics/aam-audience-use-cases.md)
       + [よくある質問](c-audience-analytics/mc-audiences-faqs.md)
