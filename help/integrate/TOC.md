@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics 統合ガイド
-user-guide-url: /content/help/ja-JP/analytics/integration/home.html
-translation-type: ht
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+user-guide-title: Analytics Integration Guide
+user-guide-url: /content/help/en/analytics/integration/home.html
+translation-type: tm+mt
+source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [サーバー側転送の要件 - 管理ガイド](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [サーバー側転送の実装の確認 - 管理ガイド](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [サーバー側転送 FAQ - 管理ガイド](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-      + [Analytics の宛先の作成](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
+      + [Analyticsの宛先の作成](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Analytics でのオーディエンスデータの使用](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics の使用例](c-audience-analytics/aam-audience-use-cases.md)
       + [よくある質問](c-audience-analytics/mc-audiences-faqs.md)
@@ -39,7 +39,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [広告アカウントの管理](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics のトラブルシューティング](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [よくある質問](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/a4t.html)
++ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
 + [Adobe Campaign レポート](adobe-campaign.md)
 + [AEM Assets レポート](aem-assets-reporting.md)
 + [Activity Map レポート](activitmap-reporting.md)
