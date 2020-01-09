@@ -4,23 +4,26 @@ title: Activity Map の概要
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
 
 ---
 
 
 # Activity Map の概要
 
+>[!IMPORTANT]
+>2020年1月16日に、Adobe Analyticsは新しいドメイン(https://experience.adobe.com/analytics)に移行し始めます。 この変更により、特定の場合に、一部の顧客に対してActivity mapが機能しなくなる場合があります。 ご存じのように、Activity mapはiframeの顧客ページ（Activity mapツールバー用のiframeとActivity map下部パネル用のiframe）に挿入されます。 「.adobe.com」を含まない「frame-src」に対して、WebページにContent Security policyディレクティブが設定されている可能性があります。 その場合、「.adobe.com」ページにアクセスすると、Activity mapは動作を停止します。 この問題を修正するには、「.adobe.com」をコンテンツセキュリティポリシーディレクティブに追加する必要があります。
+
 Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。
 
 Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。
 
-**はじめに（管理者向け）**
+**管理者向け — はじめに**
 
 * [Activity Map の有効化](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [実装コードのサンプル](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**はじめに（ユーザー向け）**
+**はじめに（英語のみ）**
 
 * [Activity Map ブラウザープラグインのインストール](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Activity Map の起動](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
