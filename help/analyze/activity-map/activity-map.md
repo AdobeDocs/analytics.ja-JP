@@ -4,7 +4,7 @@ title: Activity Map の概要
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
+source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
 # Activity Map の概要
 
 >[!IMPORTANT]
->2020年1月16日に、Adobe Analyticsは新しいドメイン(https://experience.adobe.com/analytics)に移行し始めます。 この変更により、特定の場合に、一部の顧客に対してActivity mapが機能しなくなる場合があります。 ご存じのように、Activity mapはiframeの顧客ページ（Activity mapツールバー用のiframeとActivity map下部パネル用のiframe）に挿入されます。 「.adobe.com」を含まない「frame-src」に対して、WebページにContent Security policyディレクティブが設定されている可能性があります。 その場合、「.adobe.com」ページにアクセスすると、Activity mapは動作を停止します。 この問題を修正するには、「.adobe.com」をコンテンツセキュリティポリシーディレクティブに追加する必要があります。
+>2020年1月16日に、Adobe Analyticsは新しいドメイン(https://experience.adobe.com/analytics)に移行し始めます。 この変更により、特定の場合に、一部の顧客に対してActivity mapが機能しなくなる場合があります。 ご存じのように、Activity mapはiframeの顧客ページ（Activity mapツールバー用のiframeとActivity map下部パネル用のiframe）に挿入されます。 「.adobe.com」を含まない「frame-src」に対して、WebページにContent Security policyディレクティブが設定されている可能性があります。 この場合、Activity mapはこのようなWebページでの作業を停止します。
 
 Activity Map は Adobe Analytics のアプリケーションであり、視覚的なオーバーレイを使用してリンクアクティビティをランク付けし、Web ページに対するオーディエンスのエンゲージメントを監視するリアルタイム分析のダッシュボードを提供するよう設計されています。
 
