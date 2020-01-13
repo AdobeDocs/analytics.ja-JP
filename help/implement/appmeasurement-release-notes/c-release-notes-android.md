@@ -5,7 +5,7 @@ subtopic: Release notes
 title: Android
 topic: Developer and implementation
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ Android モバイルライブラリのこれまでのリリースノートです
 
 > [!NOTE]ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
-モバイルライブラリのダウンロードは、[GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) と [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1) で入手できます。
+モバイルライブラリは、[GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) と [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1) でダウンロードできます。
 
 ## バージョン 4.13.4 {#section_E4743079D8E64B9C890180A025C94B44}
 
@@ -86,12 +86,12 @@ Android モバイルライブラリのこれまでのリリースノートです
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> 訪問者 ID サービス </p> </td> 
+   <td colname="1"> <p> 訪問者 IDサービス </p> </td> 
    <td colname="2"> <p><code> adobe_mc</code> パラメーターにタイムスタンプと Experience Cloud 組織 ID が追加されました。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> ディープリンク </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p><code> trackAdobeDeepLink</code> を呼び出す際に「<code> adb</code>」および「<code> ctx</code>」のプレフィックスが付いた変数が適切に処理されるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,7 +118,7 @@ Android モバイルライブラリのこれまでのリリースノートです
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> 訪問者 ID サービスのパラメーターが、<span class="keyword">Target</span> リクエストで <code> mboxParams</code> を介して渡されるようになりました。 </td> 
+   <td colname="2"> 訪問者 ID サービスのパラメーターが、<span class="keyword"> Target</span> リクエストで <code> mboxParams</code> を介して渡されるようになりました。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,8 +166,8 @@ Android モバイルライブラリのこれまでのリリースノートです
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>訪問者 ID サービス </p> </td> 
-   <td colname="2"> <p> 特定の URL に訪問者 ID を追加して、Web ベースの実装に ID を転送する新しい方法が追加されました。 </p> </td> 
+   <td colname="1"> <p>訪問者 IDサービス </p> </td> 
+   <td colname="2"> <p> 特定の URL に訪問者 ID を追加して、Web ベースの実装に ID を転送する新しいメソッドが追加されました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,7 +405,7 @@ Android モバイルライブラリのこれまでのリリースノートです
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword">PhoneGap</span> でのビーコントラッキングサポート </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p><code> trackBeacon</code> 呼び出しと <code> clearCurrentBeacon</code> 呼び出しを <span class="keyword"> PhoneGap</span> で使用できるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -629,7 +629,7 @@ Experience Cloud ソリューション用の [!DNL Android] SDK 4.x を使用し
 
 リンクトラッキングのコールで pev1 ～ pev3 の値が二重に URL エンコードされる問題を修正しました。
 
-Light Server Call（trackLight）で使用できる変数にタイムスタンプを追加しました。
+Light Server Call（trackLight）で使用される変数にタイムスタンプを追加しました。
 
 ## バージョン 1.2.1 {#section_21845E8A7D0C48B38CB90F0D4C5696AF}
 
