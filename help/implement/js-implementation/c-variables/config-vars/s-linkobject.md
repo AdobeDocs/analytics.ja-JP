@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff9ca2a07b5e488d1cd4412fcea221c2e0c5d1c4
 
 ---
