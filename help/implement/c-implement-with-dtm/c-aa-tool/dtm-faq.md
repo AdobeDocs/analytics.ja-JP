@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;plugins;staging;effect on current settings;revi
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics ツールに関する FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
