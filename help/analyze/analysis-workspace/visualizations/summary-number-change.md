@@ -2,7 +2,7 @@
 description: 'null'
 title: 数の概要と変更の概要
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 数の概要と変更の概要
 
-## 数の概要ビジュアライゼーション
+## 数値の概要ビジュアライゼーション
 
 * セルが選択されていない場合、列の合計が選択されます。
 * 1 つのセルが選択されている場合、そのセルの概要が表示されます。
@@ -29,10 +29,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 列が選択されている場合、先頭の値がそれ自体と比較されます。その結果、変更は 0 と表示されます。
 * 変更概要の緑と赤の部分は、以下の方法で制御できます。
 
-   * [カスタムイベントの極性](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)。
-   * 計算指標の「[上昇傾向を次の形式で表示](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html)」オプション。
+   * [カスタムイベントの極性](https://marketing.adobe.com/resources/help/ja_JP/reference/success_event.html)。
+   * 計算指標の「[上昇傾向を次の形式で表示](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/cm_build_metrics.html)」オプション。
 
-## Summary Change settings {#section_2581AC0107634FB4990AB8347E5897AA}
+## 変更概要設定 {#section_2581AC0107634FB4990AB8347E5897AA}
 
 ビジュアライゼーションの横にあるギアアイコンをクリックすると、概要の設定をおこなえます。
 
@@ -40,6 +40,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |--- |--- |
 | 割合（％） | 生の番号ではなく割合を使用します。 |
 | 凡例を表示 | 使用した指標を表示します。 |
-| 数値の概要オプション：値を短縮 | 短縮された値の小数点以下桁数を 0 ～ 3 から選択できます。 |
+| 数値の概要オプション：値を短縮 | 短縮された値の小数点以下桁数を 0～3 から選択できます。 |
 | 変更概要オプション：変化の割合 | 2 つの数の間の変化を％で表示します。 |
 | 変更概要オプション：生の差異データ | 2 つの数の間の生の差異を表示します。 |
