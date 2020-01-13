@@ -5,7 +5,7 @@ subtopic: Release notes
 title: iOS
 topic: Developer and implementation
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,11 +17,11 @@ iOS のこれまでのリリースノートです。
 
 > [!NOTE]ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
-モバイルライブラリのダウンロードは、[GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) と [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) で入手できます。
+モバイルライブラリは、[GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) と [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) でダウンロードできます。
 
-[4.x のドキュメント](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
+[4.x のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/)
 
-[3.x のドキュメント](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
+[3.x のドキュメント](https://marketing.adobe.com/resources/help/ja_JP/sc/appmeasurement/ios/)
 
 ## バージョン 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
@@ -86,16 +86,16 @@ iOS のこれまでのリリースノートです。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> 訪問者 ID サービス </p> </td> 
+   <td colname="1"> <p> 訪問者 IDサービス </p> </td> 
    <td colname="2"> <p> <code> adobe_mc</code> パラメーターにタイムスタンプと Experience Cloud 組織 ID が追加されました。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 設定 </p> </td> 
-   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
+   <td colname="2"> <p> <code> setAdvertisingIdentifier:</code> を介して SDK に渡される無効な IDFA（00000000-0000-0000-0000-000000000000）は無視されます。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> ディープリンク </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p><code> trackAdobeDeepLink</code> を呼び出す際に「<code> adb</code>」および「<code> ctx</code>」のプレフィックスが付いた変数が適切に処理されるようになりました。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 獲得 </p> </td> 
@@ -122,7 +122,7 @@ iOS のこれまでのリリースノートです。
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> <p><span class="keyword"></span>訪問者 ID サービスのパラメーターが、<span class="keyword">Target</span> リクエストで <code> mboxParams</code> を介して渡されるようになりました。 </p> </td> 
+   <td colname="2"> <p><span class="keyword">訪問者 ID サービス</span>のパラメーターが、<span class="keyword">Target</span> リクエストで <code> mboxParams</code> を介して渡されるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -164,8 +164,8 @@ iOS のこれまでのリリースノートです。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>訪問者 ID サービス </p> </td> 
-   <td colname="2"> <p> 特定の URL に訪問者 ID を追加して、Web ベースの実装に ID を転送する新しい方法が追加されました。 </p> </td> 
+   <td colname="1"> <p>訪問者 IDサービス </p> </td> 
+   <td colname="2"> <p> 特定の URL に訪問者 ID を追加して、Web ベースの実装に ID を転送する新しいメソッドが追加されました。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>アプリ内メッセージ </p> </td> 
@@ -318,7 +318,7 @@ iOS のこれまでのリリースノートです。
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>メソッド <code> visitorSyncIdentifiers:identifiers</code> を <code> visitorSyncIdentifiers:</code> </p> </td> 
+    </ul> <p>メソッド <code> visitorSyncIdentifiers:identifiers</code> を <code> visitorSyncIdentifiers:</code> に変更しました。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> 新しい TVJS メソッド </td> 
@@ -452,7 +452,7 @@ iOS のこれまでのリリースノートです。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS 拡張機能</span> </p> </td> 
-   <td colname="2"> <p><span class="keyword">iOS</span> SDK バージョン 4.5 から、新しい <span class="keyword">iOS</span> 拡張機能によって Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの <span class="keyword">iOS</span> 拡張機能アプリから使用データを収集できるようになりました。 </p> <p>独自のラッパーではなく、<span class="keyword">iOS</span> SDK を使用することをお勧めします。 </p> <p>Apple は、Watch アプリと収容アプリとの通信を可能にする API のセット（収容アプリにリクエストを送信し、応答を受信する）を提供しています。 </p> <p>Watch アプリから収容アプリに辞書としてトラッキングデータを送信し、収容アプリに対してトラッキングメソッドを呼び出してデータを送信することは可能ですが、この方法には限界があります。 </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. 他のトラッキングメソッドはライフサイクルデータに干渉するので、Watch アプリからデータを送信する際には使用できません。 </p> <p><span class="keyword">iOS</span> SDK には、アプリ内メッセージ以外のすべての<span class="keyword">モバイル</span>機能が含まれています。そのため、上記の 3 つのトラッキングメソッドで必要なデータを収集できる場合であっても、Watch アプリ向けの iOS SDK を使用することが推奨されています。 </p> </td> 
+   <td colname="2"> <p><span class="keyword">iOS</span> SDK バージョン 4.5 から、新しい <span class="keyword">iOS</span> 拡張機能によって Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの <span class="keyword">iOS</span> 拡張機能アプリから使用データを収集できるようになりました。 </p> <p>独自のラッパーではなく、<span class="keyword">iOS</span> SDK を使用することをお勧めします。 </p> <p>Apple は、Watch アプリと収容アプリとの通信を可能にする API のセット（収容アプリにリクエストを送信し、応答を受信する）を提供しています。 </p> <p>Watch アプリから収容アプリに辞書としてトラッキングデータを送信し、収容アプリに対してトラッキングメソッドを呼び出してデータを送信することは可能ですが、この方法には限界があります。 </p> <p>ほとんどの場合、Watch アプリの使用時には収容アプリがバックグラウンドで実行されているため、安全に呼び出せるメソッドは <code> TrackLocation</code>、<code> TrackActionInBackground</code>、<code> TrackBeacon</code> の 3 つのみとなります。他のトラッキングメソッドはライフサイクルデータに干渉するので、Watch アプリからデータを送信する際には使用できません。 </p> <p><span class="keyword">iOS</span> SDK には、アプリ内メッセージ以外のすべての<span class="keyword">モバイル</span>機能が含まれています。そのため、上記の 3 つのトラッキングメソッドで必要なデータを収集できる場合であっても、Watch アプリ向けの iOS SDK を使用することが推奨されています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -473,7 +473,7 @@ iOS のこれまでのリリースノートです。
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword">PhoneGap</span> でのビーコントラッキングサポート </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p><code> trackBeacon</code> 呼び出しと <code> clearCurrentBeacon</code> 呼び出しを <span class="keyword"> PhoneGap</span> で使用できるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -665,7 +665,7 @@ Experience Cloud ソリューション用の [!DNL iOS] SDK 4.x を使用して�
 | pageName | appState |
 | contextData | persistentContextData |
 | state | geoState |
-| zip | geoZip |
+| 郵便番号 | geoZip |
 | server | appSection |
 | debugTracking | debugLogging |
 | trackOffline | offlineTrackingEnabled |
@@ -722,7 +722,7 @@ Experience Cloud ソリューション用の [!DNL iOS] SDK 4.x を使用して�
 リリース日：**2012 年 2 月**
 
 * トラッキングコールを複数のスレッドから同時に実行しようとすると、状況によっては EXC_BAD_ACCESS 例外が発生することがありましたが、この問題は修正されました。
-* Light Server Call（trackLight）で使用できる変数にタイムスタンプを追加しました。
+* Light Server Call（trackLight）で使用される変数にタイムスタンプを追加しました。
 
 ## バージョン 2.1.8 {#section_ACC6974CE3F741E58786CA8048F04521}
 
