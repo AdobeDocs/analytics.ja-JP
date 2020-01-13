@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,6 +13,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 変数は、[!DNL Analytics] の Cookie である `s_cc` および `s_sq` を設定するドメインを決定します。
 
-Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `window.location.hostname`. Instead of using `s.cookieDomainPeriods`, you can explicitly set `s.cookieDomain` to what you want to use in your implementation. 例えば以下を使用して、ページの完全修飾名で Cookie を設定できます。
+一般的に、`s.cookieDomainPeriods` は `window.location.hostname` から `s.cookieDomain` を生成するために使用されます。`s.cookieDomainPeriods` を使用する代わりに、`s.cookieDomain` を実装で使用するよう明示的に設定することもできます。例えば以下を使用して、ページの完全修飾名で Cookie を設定できます。
 
 `s.cookieDomain = window.location.hostname;`
