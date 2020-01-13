@@ -2,7 +2,7 @@
 description: Ad Hoc Analysis の用語およびタスクを Analysis Workspace と比較します。
 title: Analysis Workspace と Ad Hoc Analysis の比較
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,17 +14,17 @@ Ad Hoc Analysis の用語およびタスクを Analysis Workspace と比較し�
 
 Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザーワークフローに取り入れられています。両製品で同じままの用語と機能もありますが、Analysis Workspace ではいくつかの新しい用語と分析アプローチが導入されています。
 
-両製品の主要機能と必要システム構成の技術的な比較については、[こちら](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)を参照してください。
+両製品の主要機能と必要システム構成の技術的な比較については、[こちら](https://marketing.adobe.com/resources/help/ja_JP/reference/analytics-product-comparison.html)を参照してください。
 
 ## 主な用語の比較 {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
-| プロジェクト | ワークスペースまたはプロジェクト |
-| ワークスペース | パネル |
+| プロジェクト | Workspace またはプロジェクト |
+| Workspace | パネル |
 | レポート | フリーフォームテーブル |
 | チャート／グラフ | ビジュアライゼーション |
-| 階層：プロジェクト／ワークスペース／レポート | 階層：プロジェクト／パネル／テーブル |
+| 階層：プロジェクト／Workspace／レポート | 階層：プロジェクト／パネル／テーブル |
 | ランク、トレンド、合計レポートテンプレート | フリーフォームテーブルビジュアライゼーション |
 | フローテンプレート | フロービジュアライゼーション |
 | フォールアウト | フォールアウトビジュアライゼーション |
@@ -34,7 +34,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ad Hoc Analysis のタスク </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysisタスク </th> 
    <th colname="col2" class="entry"> Analysis Workspace のタスク </th> 
   </tr>
  </thead>
@@ -47,17 +47,17 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
    <td colname="col1"> <p>セグメントの適用 </p> </td> 
    <td colname="col2"> <p>セグメントは、セグメントコンポーネントメニューにあり、Analysis Workspace の次の 3 つの場所で適用できます。 </p> 
     <ol id="ol_800D81FE2C84459B94B085C51E140330"> 
-     <li id="li_F2E050902F9A4831BBA57F466E07DEAE"><b>パネルレベル</b>。パネル内の様々なビジュアライゼーションに適用されます。これは、Ad Hoc でセグメントをワークスペースに適用する場合に似ています。 </li> 
+     <li id="li_F2E050902F9A4831BBA57F466E07DEAE"><b>パネルレベル</b>。パネル内の様々なビジュアライゼーションに適用されます。これは、Ad Hoc でセグメントを Workspace に適用する場合に似ています。 </li> 
      <li id="li_2D88E43E0161485C95B08DC3C593EFD9"><b>テーブルの行</b>として。これは、Ad Hoc で表ビルダーの「行 / 分類」セクションにセグメントを追加する場合に似ています。 </li> 
      <li id="li_102E1A1DAA9247C08FC46C5AB3D78113"><b>テーブルの列</b>として。これは、Ad Hoc Analysis で表ビルダーの「列」セクションにセグメントを追加する場合、または Ad Hoc Analysis でセグメントをレポートレベルで適用する場合に似ています。 </li> 
-    </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > ビデオ：ワークスペースでのセグメントの使用</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > ビデオ：パネルへのセグメントの適用</a> </p> </td> 
+    </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > ビデオ：Workspace でのセグメントの使用</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > ビデオ：パネルへのセグメントの適用</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>日付範囲および精度の選択 </p> </td> 
    <td colname="col2"> <p>日付範囲および精度は、日時コンポーネントメニューにあり、次の 3 つの方法で使用できます。 </p> 
     <ol id="ol_8B57C8A840694A879B22B809C58E7482"> 
      <li id="li_58FAE6A87B494A5C9007CD35BB101608">日付範囲を列や行に適用して、選択されているパネルの日付範囲を上書きできます。これは、レポートレベルの日付範囲に似ています。 </li> 
-     <li id="li_85BB89EFF9C8466A992815BB7804EA37">「適用」では、パネル内のすべてのビジュアライゼーションに日付範囲が適用されます。これは、Ad Hoc Analysis でのワークスペースの日付範囲に似ています。 </li> 
+     <li id="li_85BB89EFF9C8466A992815BB7804EA37">「適用」では、パネル内のすべてのビジュアライゼーションに日付範囲が適用されます。これは、Ad Hoc Analysis での Workspace の日付範囲に似ています。 </li> 
      <li id="li_BC18564A8FBB48F4A522BCAC60838759">「すべてのパネルに適用」では、Workspace プロジェクト内のすべてのパネルに日付範囲が適用されます。これは、Ad Hoc Analysis でのプロジェクトの日付範囲に似ています。 </li> 
     </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > ビデオ：Analysis Workspace での日付の操作</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > ビデオ：カスタム日付範囲</a> </p> </td> 
   </tr> 
