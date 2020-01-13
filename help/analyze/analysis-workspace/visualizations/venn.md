@@ -2,7 +2,7 @@
 description: ベン図のビジュアライゼーションを使用すると、（コンポーネントから）最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できます。
 title: ベン
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/venn_hover.png)
 
-To turn the Venn diagram into a Freeform table, click the colored dot next to the **[!UICONTROL Venn]** header and select **[!UICONTROL Manage Data Sources]** &gt; **[!UICONTROL Available Data Sources]** &gt; **[!UICONTROL Freeform Table]**.
+ベン図をフリーフォームテーブルに変換するには、**[!UICONTROL ベン]**&#x200B;のヘッダーの隣にある色付きの点をクリックして、**[!UICONTROL データソースを管理]**／**[!UICONTROL 使用可能なデータソース]**／**[!UICONTROL フリーフォームテーブル]**&#x200B;を選択します。
 
-To normalize the Venn diagram (take the size out of it), go to its Visualization Settings icon and select **[!UICONTROL Normalization]**.
+ベン図を正規化する（サイズを測る）には、ビジュアライゼーション設定アイコンに移動し、「**[!UICONTROL 正規化]**」を選択します。
 
 ![](assets/normalization.png)
 
