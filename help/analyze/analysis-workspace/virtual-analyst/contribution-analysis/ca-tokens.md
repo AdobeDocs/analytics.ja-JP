@@ -2,7 +2,7 @@
 description: 'null'
 title: 貢献度分析のトークン - 概要
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,13 +12,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 貢献度分析は、選択した指標の統計的な異常値を自動で発見し、予期せぬ顧客の行動や範囲外の値、特定セグメントにおける特定指標の突然の上昇や下降など、相関する原因を特定することで、データ内の隠れたパターンを発見するための機能です。
 
-何かが起こった。 なぜですか？異常値検出レポートが、注文の指標で普通でないスパイクを示しています。普通とは異なる何が起こっているのでしょうか。誰がどのキャンペーンやリンクに反応したのでしょうか。何かが急速に広まったのでしょうか。この異常値に貢献した特定の要因は何でしょうか。そしておそらく最も重要なこととして、どうしたら顧客に関する重要な情報をつかむことができ、このパフォーマンスを繰り返すことができるのでしょうか（または、指標の下降や負の指標の上昇が発生した場合、将来それを回避するにはどうすればよいですか。）
+何かが発生しました。なぜですか？異常値検出レポートが、注文の指標で普通でないスパイクを示しています。普通とは異なる何が起こっているのでしょうか。誰がどのキャンペーンやリンクに反応したのでしょうか。何かが急速に広まったのでしょうか。この異常値に貢献した特定の要因は何でしょうか。そしておそらく最も重要なこととして、どうしたら顧客に関する重要な情報をつかむことができ、このパフォーマンスを繰り返すことができるのでしょうか（または、指標の急激な下降やネガティブな指標の急増が発生した場合、将来、どうすれば避けることができるでしょうか）。
 
-貢献度分析は、データを即座に評価して、異常値が発生した原因を知るのに役立ちます。これまで数週間かかっていた、異常値に対する貢献の分類を数秒で行い、オーディエンスセグメントのパターンを提供して、顧客インタラクションの成功パターンをプランすることを支援します。貢献度分析を戦略的に使用して、重要な相関を特定し、新しいオーディエンスセグメントを作成するか、戦術的に使用して、アラートをトリガーすべき範囲外または不正なアクティビティを識別します。
+貢献度分析は、データを即座に評価して、異常値が発生した原因を知るのに役立ちます。これまで数週間かかっていた、異常値に対する貢献の分類を数秒でおこない、オーディエンスセグメントのパターンを提供して、顧客インタラクションの成功パターンをプランすることを支援します。貢献度分析を戦略的に使用して、重要な相関を特定し、新しいオーディエンスセグメントを作成するか、戦術的に使用して、アラートをトリガーすべき範囲外または不正なアクティビティを識別します。
 
-[異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)は、選択した指標やオーディエンスセグメントの範囲で、データのスパイクや極端な統計的下降を特定します。トレーニング期間のデータを分析して予測範囲を算出し、指定したイベントそれぞれについて、極端な外れ値をハイライト表示します。注文指標の急激な上昇、バウンス指標の上昇、または両方で下降をレポートでき、統計的に優位な差を持つデータポイントを特定し、さらに貢献度分析で評価できます。統計的な異常値が識別された次のステップとして、貢献度分析を使い、選択したデータポイントとの相関が高いマーケティングやキャンペーン関連の変数を発見することができます。高度なアルゴリズムと機械学習プロセスを実行して、大幅なスパイクまたは下降に貢献した関連性を自動で評価します。この 計算はインタラクティブなビジュアライゼーションに表示され、何が起きたのか、何が起こったのかを答えるのに役立つ様々な視点を提供するように設計されています。
+[異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)は、選択した指標やオーディエンスセグメントの範囲で、データのスパイクや極端な統計的下降を特定します。トレーニング期間のデータを分析して予測範囲を算出し、指定したイベントそれぞれについて、極端な外れ値をハイライト表示します。注文指標の急激な上昇、バウンス指標の上昇、または両方で下降をレポートでき、統計的に優位な差を持つデータポイントを特定し、さらに貢献度分析で評価できます。統計的な異常値が識別された次のステップとして、貢献度分析を使い、選択したデータポイントとの相関が高いマーケティングやキャンペーン関連の変数を発見することができます。高度なアルゴリズムと機械学習プロセスを実行して、大幅なスパイクまたは下降に貢献した関連性を自動で評価します。この計算がインタラクティブなビジュアライゼーションで表示され、なぜ異常が起こったのかや、どう対処すべきかを知るのに役立ちます。
 
-貢献度分析は、異常値が発生した理由とそれへの対応方法を理解するのに役立ちます。重要な指標ごとに隠れたパターンを見つけることで、オーディエンスのインタラクションの全体的な理由や顧客の興味の傾向を把握します。異常値には、2,000 艘のカヤックといった注文ミスなど、簡単に確認や修正を行えるものがあります。特定の対象キャンペーンにのみ反応する、ある地域である期間に現れるトレンドなど、複雑な場合もあります。様々なディメンションやその関連性の指標の貢献項目を総合すると、オーディエンスインタラクションの全体的なアイデアと、異常なデータポイントのコンテキストを得ることができます。
+貢献度分析は、異常値が発生した理由とそれへの対応方法を理解するのに役立ちます。重要な指標ごとに隠れたパターンを見つけることで、オーディエンスのインタラクションの全体的な理由や顧客の興味の傾向を把握します。異常値には、2,000 艘のカヤックといった注文ミスなど、簡単に確認や修正をおこなえるものがあります。特定の対象キャンペーンにのみ反応する、ある地域である期間に現れるトレンドなど、複雑な場合もあります。様々なディメンションやその関連性の指標の貢献項目を総合すると、オーディエンスインタラクションの全体的なアイデアと、異常なデータポイントのコンテキストを得ることができます。
 
 アイデアの例を次に示します。
 
@@ -30,11 +30,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 異常値貢献度分析をスタートさせてしばらくすると、貢献度の高いトップアイテムが合計発生数と貢献度の値の項目の割合で並べられた貢献度の概要レポートが生成されます。正規化された貢献度スコアを使用すると、ディメンション間での比較、対象、関連度の調整ができます。
 
-## Contribution Analysis Tokens - overview {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
+## 貢献度分析のトークン - 概要 {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
 >[!IMPORTANT]
 >
->貢献度分析は、Reports &amp; Analyticsの機能セットから削除され、Analysis Workspaceでのみ使用できるようになりました。
+>貢献度分析は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。
 
 貢献度分析の権限を持つすべてのお客様は、Analysis Workspace 内で、毎月限られた回数だけ完全な貢献度分析を実行できます。ただし、特定の製品（SiteCatalyst 15）をご利用のお客様や、Analytics Foundation をご利用のお客様、Analytics Select をご利用のお客様は&#x200B;**除外**&#x200B;されます。これらに該当するお客様は、貢献度分析を実行できません。
 
@@ -52,11 +52,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>アドビがトークンを導入した理由</b> </p> </td> 
-   <td colname="col2"> <p>貢献度分析は、2015 年のリリース以降、Adobe Analytics の最も重要な機能の 1 つになりました。月ごとに少数の「フル」実行を提供する（一部のAnalytics製品では3つのディメンションのみではなく）ことで、無制限にフル貢献度分析が何をできるかをよりよく確認できます。 </p> </td> 
+   <td colname="col2"> <p>貢献度分析は、2015 年のリリース以降、Adobe Analytics の最も重要な機能の 1 つになりました。一部の Analytics 製品のようにディメンション数を 3 つに制限するのではなく、ごく限られた回数でも 1 ヶ月に何度か「完全な」機能を実行できるようにすることで、制限のない完全な貢献度分析のメリットを実感していただけるものと考えています。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>貢献度分析のトークンはどのように機能しますか。プロジェクトに既存の貢献度分析を実装するときもトークンが必要ですか。それとも、新しい貢献度分析を実行するときにのみ、トークンが必要ですか。</b> </p> </td> 
-   <td colname="col2"> <p>各ログイン会社（各ユーザーではなく）は1か月に特定の数のトークンを取得し、Analysis Workspaceで「完全な」貢献度分析を実行できます。 </p> <p>新しい貢献度分析を生成するたびにトークンが 1 つ必要です。事前実行された貢献度分析をプロジェクトに実装するときは、トークンは不要です。 </p> </td> 
+   <td colname="col2"> <p>各ログイン会社（各ユーザーではなく）は、1 ヶ月あたり定められた数のトークンを入手します。これらのトークンを使用して、Analysis Workspace 内で「完全な」貢献度分析を実行できます。 </p> <p>新しい貢献度分析を生成するたびにトークンが 1 つ必要です。事前実行された貢献度分析をプロジェクトに実装するときは、トークンは不要です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Reports &amp; Analytics での貢献度分析にトークンは適用されますか。</b> </p> </td> 
@@ -68,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>貢献度分析へのアクセスを制限するには、どのようにしますか。</b> </p> </td> 
-   <td colname="col2"> <p>デフォルトでは、管理者のみが貢献度分析を実行するアクセス権を持ちますが、管理者は管理コンソールで権限グループを作成することで、他のユーザーにアクセス権を付与する <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > ことができま </a>す。 貢献度分析を使用する正当な理由を持ち、アクセスを濫用しないと信頼されるユーザーにのみ、貢献度分析を使用する権限を与える必要があります。 </p> <p>この権限は、<span class="ignoretag"><span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span></span>では「貢献度分析」と呼ばれています。 </p> </td> 
+   <td colname="col2"> <p>デフォルトでは、管理者のみが貢献度分析を実行するアクセス権を持っていますが、管理者は <a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a> で権限グループを作成することにより、他のユーザーにアクセス権を付与することができます。貢献度分析を使用する正当な理由があり、かつアクセス権を悪用しない信用できるユーザーに対してのみ、貢献度分析の使用権限を付与する必要があります。 </p> <p>この権限は、<span class="ignoretag"><span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span></span>では「貢献度分析」と呼ばれています。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>1 ヶ月あたり使用可能なトークン数は、どうすればわかりますか。また、当月に使用したトークン数は、どうすればわかりますか。</b> </p> </td> 
@@ -78,13 +78,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 </table>
 
 
-## Anomaly Detection and Contribution Analysis entitlements {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
+## 異常値検出と貢献度分析の権限 {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
 Analysis Workspace における異常値検出と貢献度分析の詳細な権限のリストを以下に示します。
 
 >[!IMPORTANT]
 >
->異常値検出と貢献度分析は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。Adobe Analytics selectおよびAdobe Analytics Foundationのお客様は、Workspaceの「毎日の精度」の異常値検出にのみアクセスできます。
+>異常値検出と貢献度分析は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、Workspace で「毎日の精度」の異常値検出のみにアクセスできます。
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
@@ -101,17 +101,17 @@ Analysis Workspace における異常値検出と貢献度分析の詳細な権�
    <td colname="col3" colsep="1"> <p>トークンなし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  >Select</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  >Select</a> </p> </td> 
    <td colname="col2"> <p>毎日の精度のみ </p> </td> 
    <td colname="col3"> <p>トークンなし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>○ </p> </td> 
    <td colname="col3"> <p>1 ヶ月あたり 10 トークン </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>○ </p> </td> 
    <td colname="col3"> <p>1 ヶ月あたり 20 トークン </p> </td> 
   </tr> 
@@ -121,7 +121,7 @@ Analysis Workspace における異常値検出と貢献度分析の詳細な権�
    <td colname="col3"> <p>トークン数に制限なし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Standard </p> 
+   <td colname="col1"> <p>標準 </p> 
     <ul id="ul_73D52020793B44868C9CE0F90893075D"> 
      <li id="li_21EE0871C87E43C8B781219B2BA0FA74">Adobe Analytics Core </li> 
      <li id="li_AB3593200F33439BAEE8FEB13CAE57F4">Adobe Analytics OD </li> 
@@ -136,7 +136,7 @@ Analysis Workspace における異常値検出と貢献度分析の詳細な権�
    <td colname="col3"> <p>1 ヶ月あたり 2 トークン </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium（Complete、<a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html"  >Predictive Intelligence</a>） </p> </td> 
+   <td colname="col1"> <p>Premium（Complete、<a href="https://www.adobe.com/jp/data-analytics-cloud/analytics/predictive-intelligence.html"  >Predictive Intelligence</a>） </p> </td> 
    <td colname="col2"> <p>○ </p> </td> 
    <td colname="col3"> <p>トークン数に制限なし </p> </td> 
   </tr> 
