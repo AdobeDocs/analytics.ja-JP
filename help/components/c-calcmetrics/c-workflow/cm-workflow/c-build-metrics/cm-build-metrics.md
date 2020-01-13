@@ -2,7 +2,7 @@
 description: 計算指標ビルダーは、ディメンション、指標、セグメントおよび関数をドラッグ＆ドロップし、コンテナ階層ロジック、ルール、演算子に基づいてカスタム指標を作成するためのキャンバスです。この統合開発ツールでは、シンプルな計算指標または複雑で高度な計算指標を作成および保存できます。
 title: 指標の作成
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 計算指標ビルダーにアクセスする方法はいくつかあります。
 
-* In Analysis Workspace, open a project and click  **[!UICONTROL + New]** &gt; **[!UICONTROL Create Metric]** .
-* In [!DNL Analytics], go to **[!UICONTROL Components]** &gt; **[!UICONTROL Calculated Metrics]**.
+* Analysis Workspace で、プロジェクトを開いて、**[!UICONTROL + 新規作成]**／**[!UICONTROL 指標を作成]**&#x200B;をクリックします。
+* [!DNL Analytics] で、**[!UICONTROL コンポーネント]**／**[!UICONTROL 計算指標]**&#x200B;を選択します。
 
-* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or
+* [計算指標マネージャ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)の上部にある「**[!UICONTROL 追加]**」をクリックします。または、
 
-* **[!UICONTROL Analytics]** / **[!UICONTROL Reports]**（レポート）に移動し、任意のレポートを開き、指標アイコンをクリックして指標 ![](assets/metrics_icon.png) レールを表示し、「追加」をクリック **[!UICONTROL します]**。
+* **[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;を選択し、任意のレポートを開きます。次に、指標アイコン ![](assets/metrics_icon.png) をクリックして指標レールを表示し、「**[!UICONTROL 追加]**」をクリックします。
 
 ![](assets/cm_builder_ui.png)
 
@@ -34,19 +34,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> タイトル </span> </td> 
+   <td colname="col2"> <span class="uicontrol">タイトル</span> </td> 
    <td colname="col3"> <p>指標には必ず名前を付ける必要があります。名前を付けていない指標は保存できません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 説明 </span> </td> 
+   <td colname="col2"> <span class="uicontrol">説明</span> </td> 
    <td colname="col3"> <p>指標の用途を示し、類似した指標と区別するための、ユーザーにわかりやすい説明を入力します。 </p> <p>この説明はレポート内にも表示されます。説明には数式を記述しないことをお勧めします。その代わりに、この指標を使うべき状況と使ってはいけない状況について記述してください（数式は、指標の作成時に「概要」という見出しの下に生成されます。そのため、この説明に数式を追加する必要はありません）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 形式 </span> </td> 
+   <td colname="col2"> <span class="uicontrol">形式</span> </td> 
    <td colname="col3"> <p>小数、時間、割合、通貨から選択できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 小数点以下の桁数 </span> </td> 
+   <td colname="col2"> <span class="uicontrol">小数点以下の桁数</span> </td> 
    <td colname="col3"> <p>レポートに表示する小数点以下の桁数を示します。指定可能な小数点以下の桁数の最大値は 10 です。 </p> </td> 
   </tr> 
   <tr> 
@@ -64,11 +64,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 概要 </span> </td> 
+   <td colname="col2"> <span class="uicontrol">概要</span> </td> 
    <td colname="col3"> <p>「<span class="uicontrol">概要</span>」の数式は、指標の定義を変更すると更新されます。この数式は、左側の指標レールで、指標の上にカーソルを移動して <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> アイコンをクリックした場合にも表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 定義 </span> </td> 
+   <td colname="col2"> <span class="uicontrol">定義</span> </td> 
    <td colname="col3"> <p>ここで、指標／計算指標、セグメントまたは関数をドラッグして、計算指標を作成します。 </p> <p> 
      <ul id="ul_B13401A266354DC594C6176025DB61CB"> 
       <li id="li_01776C32C7C5440AA1F847096CBED92B">計算指標をドラッグすると、指標の定義が自動的に展開します。 </li> 
@@ -76,19 +76,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 演算子 </span> </td> 
+   <td colname="col2"> <span class="uicontrol">演算子</span> </td> 
    <td colname="col3"> <p>除算（<img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" />）はデフォルトの演算子です。他にも、+、- および x があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> プレビュー </span> </td> 
+   <td colname="col2"> <span class="uicontrol">プレビュー</span> </td> 
    <td colname="col3"> <p>可能性のあるエラーについて簡単に確認できます。プレビューには過去 90 日の情報が表示されます。これは、指標に適したコンポーネントを選択したかどうかを最初に判断するための手段です。予期しない結果が生じた場合は、指標の定義を見直す必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 製品の互換性 </span> </td> 
-   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > さらに詳しく... </a> </p> </p> </td> 
+   <td colname="col2"> <span class="uicontrol">製品の互換性</span> </td> 
+   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/data_latency.html"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  >さらに詳しく... </a> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> 追加 </span> </td> 
+   <td colname="col2"> <span class="uicontrol">追加</span> </td> 
    <td colname="col3"> <p>すべてのタイプの計算指標の場合、コンテナおよび静的な数値を定義に追加できます。高度な計算指標の場合、セグメントおよび関数も追加できます。 </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
       <li id="li_53462789B8AF4F1AA9B45565D37CF22B">コンテナは数式のように機能し、演算の順序を指定します。そのため、コンテナ内の項目は、次の演算の前に処理されます。 </li> 
@@ -98,11 +98,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> 歯車アイコン（<span class="uicontrol">指標タイプ</span>、<span class="uicontrol">アトリビューション</span>） </td> 
-   <td colname="col3"> <p>Selecting the gear icon next to a metric lets you specify the <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metric type and attribution models </a>. </p> </td> 
+   <td colname="col3"> <p>指標の横にある歯車アイコンをクリックすると、<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  >指標タイプとアトリビューションモデル</a>を指定できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> + 新規 </span> </td> 
-   <td colname="col3"> <p>新しいセグメントなど新しいコンポーネントを作成できます（新しいセグメントを作成する場合は、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >セグメントビルダー</a>が表示されます）。 </p> </td> 
+   <td colname="col2"> <span class="uicontrol">+ 新規</span> </td> 
+   <td colname="col3"> <p>新しいセグメントなど新しいコンポーネントを作成できます（新しいセグメントを作成する場合は、<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_build_ui.html"  >セグメントビルダー</a>が表示されます）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>コンポーネントを検索 </p> </td> 
@@ -110,29 +110,29 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <p>ディメンションリスト </p> </td> 
-   <td colname="col3"> <p>（セグメントビルダーで）単純なセグメントを作成するために計算指標ビルダーを終了する代わりに、「ページ=ホームページ」を参照してください。 </p> <p>これにより、セグメントを利用する計算指標の作成が容易になります。 </p> </td> 
+   <td colname="col3"> <p>（セグメントビルダーで）シンプルなセグメント（例：「Page = Homepage」）を作成するときに、計算指標ビルダーから離れずに、直接ディメンション（例：Page）をドラッグしてアイテム（例：Homepage）を選択できます。 </p> <p>これにより、セグメントを利用する計算指標の作成が容易になります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>指標リスト </p> </td> 
    <td colname="col3"> <p>指標は次の 3 つのカテゴリに分かれています。 </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
      <li id="li_90F2312927A6499CA1CE04F8FFC912CF">標準指標（<img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />） </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">計算指標 ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
-     <li id="li_8735E76637ED4C3F983731A66E04C93E">指標テンプレート（<img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />） - リストの一番下 </li> 
-    </ul> <p>指標の上にカーソルを移動すると、右側に情報アイコンが表示されます。<img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />このアイコンをクリックすると、次の情報が表示されます。 </p> 
+     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">計算指標（<img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />） </li> 
+     <li id="li_8735E76637ED4C3F983731A66E04C93E">指標テンプレート（<img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />） - リストの一番下。 </li> 
+    </ul> <p>指標の上にカーソルを移動すると、右側に情報アイコンが表示されます<img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />。このアイコンをクリックすると、次の情報が表示されます。 </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
-     <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">指標の計算を行うための数式 </li> 
+     <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">指標の計算を行うための数式。 </li> 
      <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">指標の傾向のプレビュー </li> 
      <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">右上の編集（鉛筆）アイコンをクリックすると、計算指標を編集するための計算指標ビルダーが表示されます。 </li> 
     </ul> <p><img placement="break" align="center"  src="assets/info2.png" width="200px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>セグメントリスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html"  > さらに詳しく... </a> </p> </td> 
+   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_rights.html"  >さらに詳しく... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>関数リスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）関数が 2 つのリストに分けて表示されます。 <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basic </a> (used most often) and <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Advanced </a>. </p> </td> 
+   <td colname="col3"> <p>（高度な計算指標のみ）関数が 2 つのリストに分けて表示されます。<a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >基本的な関数</a>（最も頻繁に使用される関数）と<a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >高度な関数</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>レポートスイートの選択 </p> </td> 
