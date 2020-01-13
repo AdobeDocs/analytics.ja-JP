@@ -2,7 +2,7 @@
 description: 'null'
 title: アラートビルダー
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
+>インテリジェントアラートは、Adobe [!DNL Analytics] Prime および Adobe [!DNL Analytics] Ultimate のお客様のみご利用いただけます。
 
 アラートビルダーには、以下の 4 つのうちいずれかの方法でアクセスします。
 
 * Analysis Workspace で以下のショートカットを使用する。
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* From within a [!UICONTROL Reports &amp; Analytics] report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* **[!UICONTROL Workspace]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しいアラート]**&#x200B;に移動する。
+* 1 つまたは複数のフリーフォームテーブル行項目を選択し、右クリックして、「**[!UICONTROL 選択からアラートを作成]**」を選択する。
+* [!UICONTROL Reports &amp; Analytics] レポートから、**[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動する。
 
-The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
+アラートビルダーインターフェイスは、[!DNL Analytics] でセグメントや計算指標を作成していたユーザーにとってなじみのあるものです。
 
 ![](assets/alert_builder.png)
 
@@ -35,15 +35,15 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 いつ指標がチェックされるかを、1 時間ごと、毎日、毎週または毎月から指定します。
 
-> [!NOTE] カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度はサポートされていません。
+> [!NOTE]カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度をサポートしません。
 
 **受信者**
 
-アラートの送信先を指定します。An alert can be sent to an [!DNL Analytics] user, an [!DNL Analytics] group, a raw email address, or to a phone number.
+アラートの送信先を指定します。アラートは、[!DNL Analytics] ユーザー、[!DNL Analytics] グループ、生の電子メールアドレスまたは電話番号に送信できます。
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>電話番号には、先頭に「+」と[国番号](https://countrycode.org/)を付ける必要があります。
 
 **有効期限**
 
@@ -55,7 +55,7 @@ The Alert Builder interface is familiar to those who have built segments or calc
 
 * トリガーを追加するキャンバスに指標をドラッグ＆ドロップします。
 
-   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   注意：現在選択されているレポートスイートと互換性がないコンポーネント（指標、ディメンション、セグメント）がアラートに含まれている場合は、「**互換性のないコンポーネント**」というメッセージが表示されます。
 
 * アラートが設定される前に指標が超過している必要があるしきい値を指定します。この値をしきい値に設定し、以下のいずれかの条件にすることができます。
 
