@@ -2,7 +2,7 @@
 description: 'null'
 title: 管理ツール
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 管理ツール
 
-**[!UICONTROL Analytics]** /管 **[!UICONTROL 理者]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**
 
->[!IMPORTANT] 同じブラウザーで複数の管理タブを開かないでください。 間違って正しくないレポートスイートに設定を保存してしまうおそれがあります。例えば、ルールセットを比較して新しいレポートスイートにコピーする必要がある場合は、新しいブラウザーを開くか、スクリーンショットを撮影して、ルールセットを比較することをお勧めします。
+>[!IMPORTANT]同じブラウザーで複数の「管理者」タブを開かないでください。間違って正しくないレポートスイートに設定を保存してしまうおそれがあります。例えば、ルールセットを比較して新しいレポートスイートにコピーする必要がある場合は、新しいブラウザーを開くか、スクリーンショットを撮影して、ルールセットを比較することをお勧めします。
 
 + [課金](billing-admin.md)
 + [ボットルールの概要](bot-removal/bot-rules.md)
@@ -35,7 +35,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 + [モバイル管理](mobile-management.md)
 + [有料検索検知の概要](paid-search-detection/paid-search-detection.md)
 + [発行リスト](publishing-list.md)
-+ [発行ウィジェット](publishing-widgets-admin.md)
++ [公開ウィジェット](publishing-widgets-admin.md)
 + [設定マネージャー](preferences-manager.md)
 + [プライバシー設定](privacy-settings.md)
 + [処理ルールの概要](c-processing-rules/processing-rules.md)
@@ -47,5 +47,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 + [成功イベントの概要](c-success-events/success-event.md)
 + [タイムスタンプオプション](timestamp-optional.md)
 + [トラフィック変数（prop）の概要](c-traffic-variables/traffic-var.md)
-+ [実訪問者変数の指定](unique-visitor-variable-admin/t-unique-visitor-variable.md)
++ [個別訪問者変数の指定](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [ビデオ管理](video-management.md)
