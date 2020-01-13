@@ -22,13 +22,13 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 |---|---|---|---|---|---|
 | **変数名**<br>**（名前空間）** | **MyProp1**<br>**（ユーザー）** | **訪問者 ID**<br>**（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**（xyz）** |
 | ヒットデータ | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
+|  | Mary | 88 | B | いいえ | Y |
 |  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
+|  | John | 88 | E | いいえ | U |
 |  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+|  | Alice | 66 | A | いいえ | Z |
 
 ## アクセス要求のサンプル
 
@@ -57,13 +57,13 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Mary | 42 | A | Privacy-7398 | Privacy-9152 |
-| Mary | 88 | B | N | Y |
+| Mary | 88 | B | いいえ | Y |
 | Mary | 99 | C | O | Z |
 | John | 42 | D | Privacy-1866 | Privacy-8216 |
-| John | 88 | E | N | U |
+| John | 88 | E | いいえ | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+| Alice | 66 | A | いいえ | W |
 
 > [!NOTE]AAID = 77 および DEL-DEVICE ラベルを含む行のセルのみが影響を受けます。
 
@@ -74,10 +74,10 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 | Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
 | Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
 | John | 77 | D | P | W |
-| John | 88 | E | N | U |
+| John | 88 | E | いいえ | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+| Alice | 66 | A | いいえ | W |
 
 > [!NOTE]user=Mary および DEL-PERSON ラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar で、その置き換える値は、数値を異なるランダムな数値で置き換えるのではなく、「GDPR-」で始まり、乱数（GUID）が続く文字列です。
 
@@ -91,7 +91,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 | John | 16 | E | Privacy-2911 | Privacy-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+| Alice | 66 | A | いいえ | W |
 
 以下のことに注意してください。
 
