@@ -2,7 +2,7 @@
 description: 'null'
 title: アラートビルダー
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,22 +12,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->インテリジェントアラートは、Adobe Analytics PrimeおよびAdobe Analytics Ultimateのお客様のみ利用できます。
+>インテリジェントアラートは、Adobe Analytics Prime および Adobe Analytics Ultimate のお客様のみご利用いただけます。
 
-## アクセスの警告ビルダー
+## アクセスのアラートビルダー
 
 アラートビルダーには、以下の 4 つのうちいずれかの方法でアクセスします。
 
 * Analysis Workspace で以下のショートカットを使用する。
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* **[!UICONTROL Workspace]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しいアラート]**&#x200B;に移動する。
+* 1 つまたは複数のフリーフォームテーブル行項目を選択し、右クリックして、「**[!UICONTROL 選択からアラートを作成]**」を選択する。
+* Reports &amp; Analytics レポートから、**[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動する。
 
 ## アラートの作成
 
-アラートビルダーインターフェイスは、Analytics でセグメントや計算指標を作成していたユーザーにとってなじみのあるものです。
+アラートビルダーインターフェイスは、Analytics でセグメントや計算指標を作成していたユーザーにとって馴染みのあるものです。
 
 ![](assets/alert_builder.png)
 
@@ -41,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 いつ指標がチェックされるかを、1 時間ごと、毎日、毎週または毎月から指定します。
 
-> [!NOTE] カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度はサポートされていません。
+> [!NOTE]カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度をサポートしません。
 
 **受信者**
 
@@ -49,7 +49,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>電話番号には、先頭に「+」と[国番号](https://countrycode.org/)を付ける必要があります。
 
 アラートがトリガーされた後にユーザーが受け取る電子メールは、次のようになります。
 
@@ -65,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * トリガーを追加するキャンバスに指標をドラッグ＆ドロップします。
 
-   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   現在選択されているレポートスイートと互換性がないコンポーネント（指標、ディメンション、セグメント）がアラートに含まれている場合は、「**互換性のないコンポーネント**」というメッセージが表示されます。
 * アラートが設定される前に指標が超過している必要があるしきい値を指定します。この値をしきい値に設定し、以下のいずれかの条件にすることができます。
 
    * 異常値が存在する
