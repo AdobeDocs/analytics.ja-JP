@@ -2,7 +2,7 @@
 description: 指標の横にある歯車アイコンをクリックすると、指標タイプとアトリビューションモデルを指定できます。
 title: 指標タイプとアトリビューション
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,25 +22,25 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 指標タイプ | 定義 |
 |---|---|
-| 標準 | These metrics are the same metrics used in standard [!DNL Analytics] reporting. 1 つの標準指標で構成される数式は、その標準指標に対応する計算指標以外の指標と同じデータを表示します。標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item. |
-| 合計 | 各行項目のレポート期間の合計を使用します。1 つの合計指標で構成される数式は、各行項目で同じ合計数を表示します。合計指標は、サイト合計データと比較する計算指標を作成する場合に役立ちます。For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item. |
+| 標準 | これらの指標は、標準の [!DNL Analytics] レポートで使用される指標と同じです。1 つの標準指標で構成される数式は、その標準指標に対応する計算指標以外の指標と同じデータを表示します。標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。例えば、[購入回数] / [訪問回数]の場合、特定の行項目の購入回数を特定の行項目の訪問回数で割ります。 |
+| 合計 | 各行項目のレポート期間の合計を使用します。1 つの合計指標で構成される数式は、各行項目で同じ合計数を表示します。合計指標は、サイト合計データと比較する計算指標を作成する場合に役立ちます。例えば、[購入回数] / [合計訪問回数]は、特定の行項目への訪問回数だけでなく、サイトへのすべての訪問回数に対する購入回数の割合を示します。 |
 
 ## 列のアトリビューションモデル {#section_F9690FD1943B403AB28E2FAC54EFE032}
 
 >[!IMPORTANT]
 >
->In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
+>2018 年 7 月に、計算指標における配分モデルの評価方法を変える [Attribution IQ](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/attribution.html) が [!DNL Analytics] に導入されました。この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
 >
->* デフォルト以外のアトリビューションモデルの完全なリストとサポートされるルックバックウィンドウについては、[Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) のドキュメントを参照してください。
->* 「マーケティングチャネルラストタッチ」および「マーケティングチャネルファーストタッチ」配分モデルは、それぞれ新しい「ラストタッチ」および「ファーストタッチ」アトリビューションモデルに移行されます(注意：「マーケティングチャネル」は廃止されません。計算指標に表示される2つの配分モデルのみが使用されます。
->* さらに、線形配分の計算方法が修正されます。「線形」配分モデルを使用する計算指標を使用している顧客の場合、新しい修正済みアトリビューションモデルを反映して、レポートが少し変わる可能性があります。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 詳しくは、[2018 年 7 月 19 日以降の線形配分の適用方法](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
+>* デフォルト以外のアトリビューションモデルの完全なリストとサポートされるルックバックウィンドウについては、[Attribution IQ](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/attribution.html) のドキュメントを参照してください。
+>* 「マーケティングチャネルラストタッチ」と「マーケティングチャネルファーストタッチ」配分モデルはそれぞれ、新しい「ラストタッチ」と「ファーストタッチ」アトリビューションモデルに移行されます（注意：「マーケティングチャネル」は廃止されません。計算指標で表示される 2 つの配分モデルのみが廃止されます）。
+>* さらに、線形配分の計算方法が修正されます。顧客が線形配分モデルで計算指標を使用する場合、修正された新しいアトリビューションモデルを反映してレポートが若干変わる可能性があります。この計算指標の変更は、Analysis Workspace[!UICONTROL 、Reports &amp; Analytics]、レポート API、Report Builder、および Ad Hoc Analysis に反映されます。詳しくは、[2018 年 7 月 19 日以降の線形配分の適用方法](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
 >
 
 
 
 ## 2018 年 7 月 19 日以降の線形配分の適用方法 {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-2018年7月に、計算指標に対する線形配分のレポート方法を変更しました。 This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. 主に影響が及ぶのは、eVar と永続性のあるその他のディメンションです。Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). 線形配分を使用する他のレポートについては、引き続き、既存の線形配分手法が利用されます。
+2018 年 7 月に、Adobe での計算指標に関する線形配分のレポート方法が変更されました。この変更は、Analysis Workspace、Ad Hoc Analysis、[!UICONTROL Reports &amp; Analytics]、Report Builder、Activity Map およびレポート API に影響します。主に影響が及ぶのは、eVar と永続性のあるその他のディメンションです。なお、これらの変更が適用されるのは計算指標のみで、線形配分を使用する他のレポート（[!UICONTROL Reports &amp; Analytics] のページレポートなど）には影響しません。線形配分を使用する他のレポートについては、引き続き、既存の線形配分手法が利用されます。
 
 次の例で、線形配分での計算指標のレポート時における変更内容について示します。
 
@@ -118,7 +118,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **2018 年 7 月 19 日以降の線形配分の適用方法の概要**
 
-7 月 19 日以降、計算指標でのこの動作は修正されました。Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). そうすることで、ディメンションの配分設定が線形配分の計算内容に影響しなくなります（つまり、prop と eVar が同じように扱われます）。また、ファーストタッチまたはラストタッチの持続的な値ではなく、当初に渡された値が結果に反映されます。したがって、3 つのケースすべてで次のようになります：A = 10 * (2/4) = $5、B = 10 * (1/4) = $2.50、C = 10 * (1/4) = $2.50
+7 月 19 日以降、計算指標でのこの動作は修正されました。ラストタッチまたはファーストタッチに基づいた持続的な値を使用する代わりに、[!DNL Analytics] では渡された値のみを使用します（上の表の最初の列）。そうすることで、ディメンションの配分設定が線形配分の計算内容に影響しなくなります（つまり、prop と eVar が同じように扱われます）。また、ファーストタッチまたはラストタッチの持続的な値ではなく、当初に渡された値が結果に反映されます。したがって、3 つのケースすべてで次のようになります：A = 10 * (2/4) = $5、B = 10 * (1/4) = $2.50、C = 10 * (1/4) = $2.50
 
 | 値 | 新しいラストタッチの eVar | 新しいファーストタッチの eVar | 新しい Prop |
 |---|---|---|---|
