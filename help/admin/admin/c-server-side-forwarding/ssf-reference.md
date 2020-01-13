@@ -2,7 +2,7 @@
 description: サーバー側転送コールでの設定変数、HTTP ヘッダー、データ信号の完全な一覧と説明です。
 title: サーバー側転送のデータとコードのリファレンス
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 設定変数 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS). [DCS API 呼び出しでサポートされる属性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)も参照してください。
+プレフィックス `d_*` が付いたパラメーターは、[データ収集サーバー](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/system-components/components-data-collection.translate.html)（DCS）によって使用される特殊なシステムレベルのキーと値のペアを示します。[DCS API 呼び出しでサポートされる属性](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)も参照してください。
 
 | パラメーター | 説明 |
 |--- |--- |
-| d_rs | （レガシー/トラッキングサーバーベースのサーバー側転送で設定）Analyticsにヒットと共に渡 <br>されるレポートスイートに設定します。 |
-| d_dst_filter | （レポートスイートベースのサーバー側転送で設定されます）Analyticsにヒッ <br>トと共に渡されるレポートスイートIDに設定します。 |
+| d_rs | （レガシー／トラッキングサーバーベースのサーバー側転送で設定）<br>Analytics にヒットと共に渡されるレポートスイートに設定します。 |
+| d_dst_filter | （レポートスイートベースのサーバー側転送で設定）<br>Analytics にヒットと共に渡されるレポートスイート ID に設定します。 |
 | d_dst | Analytics へのリクエストに対して宛先に関するコンテンツがクライアントに送り返されることを期待している場合は d_dst=1<br> を設定します。 |
 | d_mid | Analytics に渡される Experience Cloud ID。 |
 
@@ -31,41 +31,41 @@ Parameters prefixed with `d_*` identify special, system-level key-value pairs us
 
 | HTTP ヘッダー | 説明 |
 |--- |--- |
-| ホスト | これは、Analytics ホスト設定ファイルで指定したクライアントの特定のデータ収集ホスト名に設定されます。It appears as   `host name .demdex.net` .  Demdex ドメインの呼び出しについてを参照してください。 |
+| ホスト | これは、Analytics ホスト設定ファイルで指定したクライアントの特定のデータ収集ホスト名に設定されます。`host name .demdex.net` と表示されます。「Demdex ドメインの呼び出しについて」を参照してください。 |
 | User-Agent | Analytics に渡される User-Agent ヘッダーに設定します。 |
-| X-Original-User-Agent | Only set if an alternate user agent was specified by one of these headers: </br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
+| X-Original-User-Agent | 代替ユーザーエージェントが以下のいずれかのヘッダーで指定された場合にのみ設定します。</br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
 | X-Forwarded-For | 要求元クライアントの IP アドレスに設定します。Analytics は、既に受信 `X-Forwarded-For` ヘッダーを解析して、使用する正しい IP アドレスを特定している可能性があります。 |
 | Accept-Language | Analytics に渡される `Accept-Language` ヘッダーに設定します。 |
 | 参照元 | Analytics に渡されるページ URL か、Analytics に渡される Referer ヘッダーから収集されるページ URL に設定します。 |
 
 ## カスタム定義のシグナル {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters prefixed with `c_` identify customer-defined variables. [DCS API 呼び出しでサポートされる属性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)も参照してください。
+プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)も参照してください。
 
 | シグナル | 説明 |
 |--- |--- |
 | c_browserWidth および c_browserHeight | ブラウザーウィンドウの幅と高さ。 |
 | c_campaign | s.campaign によって設定されます。 |
 | c_channel | s.channel によって設定されます。 |
-| c_clientDateTime | タイムスタンプの形式はdd/mm/yyy hh:mm:ss W TZです。    TZ は分単位で表され、Date.getTimezoneOffset メソッドの戻り値と一致します。 |
+| c_clientDateTime | タイムスタンプの形式は dd/mm/yyy hh:mm:ss  W TZ です。TZ は分単位で表され、Date.getTimezoneOffset メソッドの戻り値と一致します。 |
 | c_colorDepth | 16 または 32 ビットカラーとして指定します。 |
 | c_connectionType | 接続のタイプを指定します。オプションは以下のとおりです。<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | 例:<ul><li>AppMeasurement:s.contextData</li><li>["category"] = "news";</li><li>シグナル：c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | Cookie を有効にできるかどうかを指定します。オプションは以下のとおりです。 はい、いいえ、不明 |
+| c_contextData。* | 例：<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>シグナル：c_contextData.category=news</li></ul> |
+| c_cookiesEnabled | Cookie を有効にできるかどうかを指定します。オプションは以下のとおりです。はい、いいえ、不明 |
 | c_currencyCode | トランザクションに使用する通貨のタイプ。 |
 | c_evar# | カスタム evar。 |
 | c_events | s.events によって設定されます。 |
 | c_hier# | カスタム階層変数。 |
-| c_javaEnabled | Java を有効にできるかどうかを指定します。オプションは以下のとおりです。 はい、いいえ、不明 |
+| c_javaEnabled | Java を有効にできるかどうかを指定します。オプションは以下のとおりです。はい、いいえ、不明 |
 | c_javaScriptVersion | ブラウザーでサポートされている JavaScript のバージョン。 |
 | c_latitude | 緯度（数値）。 |
-| c_linkClick | 次のオプションがあります。カスタム、ダウンロード終了 |
+| c_linkClick | オプション：カスタム、ダウンロード終了 |
 | c_linkCustomName | リンクに指定されたカスタムの名前（存在する場合）。 |
 | c_linkDownloadURL | ダウンロードリンクの URL。 |
 | c_linkExitURL | 出口リンクの URL。 |
 | c_list# | カスタムリスト変数。 |
 | c_longitude | 経度（数値）。 |
-| c_mediaPlayerType | メディアストリームトラッキングリクエスト用。オプションは以下のとおりです。  その他、Primetime |
+| c_mediaPlayerType | メディアストリームトラッキングリクエスト用。オプションは以下のとおりです。    その他、Primetime |
 | c_pageName | ページ名（設定されている場合）。 |
 | c_pageURL | ブラウザーのアドレスバー内のページのアドレス。 |
 | c_products | 製品文字列（s.products によって設定されます）。 |
