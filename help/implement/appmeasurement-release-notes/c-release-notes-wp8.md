@@ -5,7 +5,7 @@ subtopic: Release notes
 title: Windows Phone 8
 topic: Developer and implementation
 uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 > [!NOTE]ライブラリの現在のバージョンを検索するには、デバッグログを有効にしてください。
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+モバイルライブラリの[ダウンロード](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications)は[!DNL Developer Connection]で入手できます。
 
 > [!NOTE][!DNL Windows] Phone 8 SDK は、[Windows 8.1 ユニバーサルアプリストア](../appmeasurement-release-notes/c-release-notes-winu.md) SDK で置き換えられます。今後、この SDK の開発はおこなわれません。
 
