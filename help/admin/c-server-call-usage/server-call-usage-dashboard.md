@@ -2,7 +2,7 @@
 description: 'null'
 title: 現在のサーバーコールの使用状況の表示
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 現在のサーバーコールの使用状況の表示
 
-**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /サ]** ーバーコ **[!UICONTROL ールの使用]** /現 **[!UICONTROL 在の使用状況]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL サーバーコールの使用状況]**／**[!UICONTROL 現在の使用状況]**
 
-> [!IMPORTANT] 表示される使用状況と取り組みの数は、すべてのログイン会社とレポートスイートにわたって累積的に表示されます。
+> [!IMPORTANT]表示されるすべての使用数およびコミットメント数は、すべてのログイン会社とレポートスイートにわたって累積したものです。
 
 現在の使用状況ダッシュボードは、以下のように動作します。
 
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 現在の期間の使用状況と前年の使用状況（青の線）を比較します。言うまでもなく、青の線が表示されるのは、前年のサーバーコール使用状況データが会社にある場合だけです。
 
-   > [!NOTE] 前の期間の使用状況を表示する場合は、「レポートスイートの使用状況 [](/help/admin/c-server-call-usage/report-suite-usage.md) 」タブに移動し、前の期間の使用状況データをダウンロードする必要があります。
+   > [!NOTE]前の期間の使用状況を表示する場合は、「[レポートスイートの使用状況](/help/admin/c-server-call-usage/report-suite-usage.md)」タブに移動し、前の期間の使用状況データをダウンロードする必要があります。
 
 * 使用された呼び出しの数（全体に占める割合と生データ）と経過した使用期間（全体に占める割合と生データ）を一覧表示します。
 * デフォルトでは、5 日遅れで毎日更新されます。
