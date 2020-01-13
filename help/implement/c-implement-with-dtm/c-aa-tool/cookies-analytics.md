@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe Analytics に [!UICONTROL Dynamic Tag Management] をデプロイする際に使用される Cookie のグローバル設定に関するフィールドの説明です。
 
-*`Property`* /ツールを編集/Cookie
+*`Property`*／ツールを編集／Cookie
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -38,7 +38,7 @@ Adobe Analytics に [!UICONTROL Dynamic Tag Management] をデプロイする際
   </tr> 
   <tr> 
    <td colname="col1"> FP ドメインピリオド数 </td> 
-   <td colname="col2"> <p>Folio Builder <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>「<a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.fpCookieDomainPeriods</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="term"> fpCookieDomainPeriods</span> 変数は、実装でサードパーティ <span class="filepath">2o7.net</span> または <span class="filepath">omtrdc.net</span> ドメインが使用されている場合でも、JavaScript（<code> s_sq</code>、<code> s_cc</code>、プラグイン）によって設定された本質的にファーストパーティの Cookie 用に使用されます。 </p> <p>「<a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.fpCookieDomainPeriods</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> トランザクション ID </td> 
