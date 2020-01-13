@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,11 +19,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 例えば、*`cookieDomainPeriods`* が `www.mysite.co.jp` ドメインで「2」に設定され、`s_cc` および `s_sq` cookies はドメイン `co.jp` 上で作成されます。`co.jp` は無効なドメインであるので、ほぼすべてのブラウザーでこれらの cookie が拒否されます。その結果、訪問者クリックマップ用のデータが消失し、[!UICONTROL 訪問者プロファイル]／[!UICONTROL 技術]／[!UICONTROL cookie] レポートに、ほぼ 100 ％の訪問者から cookie が拒否されたと示されます。
 
-if *`cookieDomainPeriods`* が「3」で、ドメインにピリオドが 2 つだけ含まれている場合、JavaScript ファイルはサイトのサブドメインに対して cookie を設定します。例えば、*`cookieDomainPeriods`* が `www2.mysite.com` ドメインで「3」に設定され、`s_cc` および `s_sq` cookies はドメイン `www2.mysite.com` 上で作成されます。訪問者がサイトの別のサブドメイン（`www4.mysite.com` など）に移動した場合、`www2.mysite.com` によって設定されたすべての cookie を読み取ることができなくなります。
+*`cookieDomainPeriods`* が「3」で、ドメインにピリオドが 2 つだけ含まれている場合、JavaScript ファイルはサイトのサブドメインに対して cookie を設定します。例えば、*`cookieDomainPeriods`* が `www2.mysite.com` ドメインで「3」に設定され、`s_cc` および `s_sq` cookies はドメイン `www2.mysite.com` 上で作成されます。訪問者がサイトの別のサブドメイン（`www4.mysite.com` など）に移動した場合、`www2.mysite.com` によって設定されたすべての cookie を読み取ることができなくなります。
 
-> [!NOTE] の一部に追加のサブドメインを含めないでくださ *`cookieDomainPeriods`*&#x200B;い。 例えば、`store.toys.mysite.com` の場合、*`cookieDomainPeriods`* は引き続き「2」に設定されます。この変数定義によって、ルートドメイン [!DNL mysite.com] に対して cookie が正しく設定されます。*`cookieDomainPeriods`* を「3」に設定すると、[!DNL toys.mysite.com] ドメインに対して cookie が設定されるようになります。これは、前述の例と同様です。
+> [!NOTE]*`cookieDomainPeriods`* の一部に追加のサブドメインを含めないでください。例えば、`store.toys.mysite.com` の場合、*`cookieDomainPeriods`* は引き続き「2」に設定されます。この変数定義によって、ルートドメイン [!DNL mysite.com] に対して cookie が正しく設定されます。*`cookieDomainPeriods`* を「3」に設定すると、[!DNL toys.mysite.com] ドメインに対して cookie が設定されるようになります。これは、前述の例と同様です。
 
-「[s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)」も参照してください。
+「[s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)」も参照してください。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
@@ -65,4 +65,4 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
 * 訪問者クリックマップ用のデータがないことに気付いた場合、または[!UICONTROL トラフィック]／[!UICONTROL 技術]／[!UICONTROL cookie] レポートで、大部分の訪問者が cookie を拒否していることを示している場合は、*`cookieDomainPeriods`* の値が正しいことを確認します。
 
 * *`cookieDomainPeriods`* がドメインのセクション数より多い場合、cookie はフルドメインに設定されます。この設定により、訪問者がサブドメインを切り替えたときにデータが消失する可能性があります。
-* Folio Builder *`cookieDomainPeriods`* 変数は、*`trackingServer`* を訪問者 ID cookie に設定する前の、非推奨となった実装に使用されていました。この変数は古いコードにしか存在していませんが、この状況で.*`cookieDomainPeriods`* が正しく定義されていない場合、実装でデータを失うリスクが発生します。
+* *`cookieDomainPeriods`* 変数は、*`trackingServer`* を訪問者 ID cookie に設定する前の、非推奨となった実装に使用されていました。この変数は古いコードにしか存在していませんが、この状況で.*`cookieDomainPeriods`* が正しく定義されていない場合、実装でデータを失うリスクが発生します。
