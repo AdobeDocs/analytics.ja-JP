@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpubli
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Akamai ホスティング用の未発行のルールのテスト
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Akamai ホスティングを使用する場合は、コンソールから未発行のルールをテストします。
 
-多くの場合、Switcher プラグインを使用すると最も簡単にテストを実施できます。詳しくは、Dynamic Tag Management 製品ドキュメントで、「[Search Discovery プラグイン](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html)」を参照してください。
+多くの場合、Switcher プラグインを使用すると最も簡単にテストを実施できます。詳しくは、Dynamic Tag Management 製品ドキュメントで、「[Search Discovery プラグイン](https://marketing.adobe.com/resources/help/ja_JP/dtm/search_discovery_plugins.html)」を参照してください。
 
 Switcher プラグインを使用せずにテストする方法を次に示します。
 
