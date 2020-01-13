@@ -2,7 +2,7 @@
 description: 'null'
 title: ログイン
 uuid: 1e6a269d-8aa4-470b-9452-2d0ff1ff6f4a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,14 +12,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## アドビ [!DNL Experience Cloud] にログインします。{#section_03EA6DA657FA41C2ADE5FFC4F3AD1825}
 
-To learn how to log in to Adobe [!DNL Experience Cloud] to get access to Analytics, refer to [Sign in and manage your profile settings](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html) in the [!DNL Experience Cloud] help.
+アドビ [!DNL Experience Cloud] にログインして Analytics へのアクセス権を取得する方法については、[!DNL Experience Cloud] の「[ログインとプロファイル設定の管理](https://marketing.adobe.com/resources/help/ja_JP/mcloud/getting-started-experience-cloud.html)」を参照してください。
 
 >[!IMPORTANT]
 >
->Experience cloudログインに移行した後は、 [IPログイン制限を強制できなくなりました](/help/admin/company/security-manager.md)。 この機能はExperience cloudではサポートされていません。 詳しくは、管理コンソールへ [のAnalyticsユーザー移行を参照してください](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)。 Experience cloudログインに移行した後は、 [Federated IDをIPログインを制限するための潜在的な回避策として](https://spark.adobe.com/page/JeSB8EPEQIvjD/) 、使用できます。
+>Experience Cloud ログインに移行した後は、 [IP ログイン制限の実施](/help/admin/company/security-manager.md)をおこなえなくなりました。この機能は Experience Cloud ではサポートされていません。詳しくは、[Admin Console への Analytics ユーザーの移行](https://marketing.adobe.com/resources/help/ja_JP/experience-cloud/admin-console/analytics-migration/)を参照してください。Experience Cloud ログインに移行した後は、 [Federated ID](https://spark.adobe.com/page/JeSB8EPEQIvjD/) を IP ログインを制限するための潜在的な回避策として使用できます。
 
 ## Experience Cloud デバッガー {#section_4E57672E89E3419FA8D71C8224CEFB72}
 
 Adobe Debugger（旧称 DigitalPulse Debugger）はアドビが提供する無料のツールで、特定のページに関してユーザーのサイトから収集されたデータを表示することができます。
 
-詳しくは、 [Adobe Debuggerを参照してください](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。
+詳しくは、[Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) を参照してください。
