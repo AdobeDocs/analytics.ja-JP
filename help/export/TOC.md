@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -11,20 +11,20 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 # Analytics 書き出しガイド {#export}
 
-+ [Analyticsのエクスポートホーム](home.md)
++ [Analytics エクスポートホーム](home.md)
 + Analytics データフィード {#analytics-data-feed}
    + [データフィードの概要](analytics-data-feed/data-feed-overview.md)
    + [データフィードの作成または編集](analytics-data-feed/create-feed.md)
    + [データフィードの管理](analytics-data-feed/df-manage-feeds.md)
    + [データフィードジョブの管理](analytics-data-feed/df-manage-jobs.md)
    + データフィードの内容 {#data-feed-contents}
-      + [データフィードの内容の概要](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [データフィードの内容についての概要](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [計算指標](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [データ列リファレンス](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [ページイベント参照](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [特殊文字](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [到着が遅れたヒット](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-   + [データフィードFAQ](analytics-data-feed/df-faq.md)
+   + [データフィードに関するFAQ](analytics-data-feed/df-faq.md)
    + [データフィードのベストプラクティス](analytics-data-feed/data-feeds-best-practices.md)
    + [データフィードのトラブルシューティング](analytics-data-feed/feed-troubleshooting.md)
    + [ジョブのトラブルシューティング](analytics-data-feed/jobs-troubleshooting.md)
