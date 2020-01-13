@@ -2,7 +2,7 @@
 description: 「最終訪問からの日数」は、Analysis Workspace と共に標準で提供される Analytics ディメンションです。
 title: 最終訪問からの日数
 uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 最終訪問からの日数
 
-「最終訪問からの日数」は、Analysis Workspace と共に標準で提供される Analytics ディメンションです。
+最終訪問からの日数は、Analysis Workspace と共に標準で提供される Analytics ディメンションです。
 
 ユーザーが最後にサイトを訪問してからの日数を判断します。ヒットが新しい訪問を開始すると、最後のヒット（1 つある場合）のタイムスタンプを確認し、前回のヒットが発生した過去の日数に基づいて訪問をグループ分けします。
 
