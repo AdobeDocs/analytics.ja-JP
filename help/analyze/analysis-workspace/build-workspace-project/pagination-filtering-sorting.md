@@ -2,7 +2,7 @@
 description: 'null'
 title: テーブルのページネーション、フィルタリングおよび並べ替え
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 概要については、YouTube のこのビデオをご覧ください。
 
-[Analysis Workspaceのテーブルのページ編集、フィルタリングおよび並べ替え](https://www.youtube.com/watch?v=2zxpRPCGspg)
+[Analysis Workspace のテーブルのページネーション、フィルタリングおよび並べ替え](https://www.youtube.com/watch?v=2zxpRPCGspg)
 
-## Advanced filtering options {#section_36E92E31442B4EBCB052073590C1F025}
+## アドバンスフィルターオプション {#section_36E92E31442B4EBCB052073590C1F025}
 
 フリーフォームテーブルのディメンションの隣にあるフィルターアイコンをクリックし、「アドバンスを表示」をクリックすると、次の条件を使用してフィルタリングできます。
 
