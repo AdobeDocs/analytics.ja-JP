@@ -1,7 +1,7 @@
 ---
 title: Launch での Analytics プロパティの作成
 description: Adobe Experience Platform Launch を使用してスペースを作成し、データの収集方法をカスタマイズします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 プロパティは、タグの管理に使用する包括的なコンテナです。拡張機能を使用すれば、製品固有のタグをインストールして設定できます。
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
+1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. 「新規プロパティ」をクリックします。
 1. プロパティに We bサイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「保存」をクリックします。
 1. 新しく作成したプロパティをクリックして、設定を入力します。
@@ -32,7 +32,7 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 データ要素は、変数値を収集するための、サイトの特定の部分に対する参照です。
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
+1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
 2. サイトに実装する Launch プロパティをクリックします。
 3. 「データ要素」タブをクリックし、「新しいデータ要素の作成」をクリックします。
 4. データ要素に次の設定を指定します。
@@ -49,7 +49,7 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 ルールは、データ要素を Analytics 変数値にマッピングし、それらの値がアドビのサーバーに送信されるタイミングを決定します。
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
+1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. サイトに実装する Launch プロパティをクリックします。
 1. 「新しいルールを作成」をクリックし、`Global Rule` と名前を付けます。
 1. イベントの横にある「追加」をクリックし、次の設定を入力します。
@@ -57,26 +57,26 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
    * イベントタイプ：読み込まれたライブラリ（ページ上部）
    * 名前：Core — 読み込まれたライブラリ（ページ上部）
    * 注文：50
-1. 「変更を保存」をクリックします。
+1. 「変更を保持」をクリックします。
 1. 「アクション」で、「追加」をクリックし、次の設定を入力します。
    * 拡張機能：Adobe Analytics
    * アクションタイプ：変数の設定
    * ページ名：コンテナアイコンをクリックし、`Page Name`データ要素を選択します。
    * キャンペーン：値が `cid` のクエリパラメーター
-1. 「変更を保存」をクリックします。
+1. 「変更を保持」をクリックします。
 1. アクションの横のプラス記号をクリックして別のアクションを追加し、次の設定を入力します。
    * 拡張機能：Adobe Analytics
    * アクションタイプ：ビーコンの送信
    * 名前：Adobe Analytics — ビーコンの送信
    * トラッキング：s.t()
-1. 「変更を保存」をクリックします。
+1. 「変更を保持」をクリックします。
 1. イベントと 2 つのアクションが設定されていることを確認し、「保存」をクリックします。
 
 ## ドキュメントとその他のリソース
 
-* [Adobe Analytics拡張機能ドキュメント](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension):Adobe Experience Platform LaunchのAdobe Analytics拡張機能に固有の完全なドキュメントです。
+* [Adobe Analytics 拡張機能のドキュメント](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)： Adobe Experience Platform Launch のAdobe Analytics 拡張機能に固有の完全なドキュメントです。
 * [Launch 使用の手引き](https://docs.adobelaunch.com/getting-started)：より詳細なスタートガイドを含む、Launch の完全なドキュメントです。
-* [Adobe Experience Platform Launch youTubeチャネル](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd):ビデオを通して起動の使用方法を説明します。
+* [Adobe Experience Platform Launch YouTube チャンネル](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd)：ビデオを通して Launch の使用方法を学びます。
 
 ## 次の手順
 
