@@ -1,86 +1,86 @@
 ---
-title: Adobe Analyticsでのボットの削除
-description: Adobe Analyticsでボットを削除する3つの方法
-translation-type: tm+mt
+title: Adobe Analytics でのボットの削除
+description: Adobe Analytics でボットを削除する 3 つの方法
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Adobe Analyticsでのボットの削除
+# Adobe Analytics でのボットの削除
 
-Adobe Analyticsでは、レポートからボットトラフィックを削除する複数のオプションがあります。
+Adobe Analytics には、レポートからボットトラフィックを削除する複数のオプションがあります。
 
 ## ボットルールの使用
 
-標準フィルタリング方法とボットフィルタリング方法の両方が、 **[!UICONTROL Analytics]** / **[!UICONTROL Admin]** / **[!UICONTROL Report suites/]** Settings Settings Settings Settings/General Edit General Bot Rules **[!UICONTROL /Bot Filtering]**********:
+標準のボットフィルタリング方法とカスタムのボットフィルタリング方法の両方が **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般l]**／**[!UICONTROL ボットルール]**&#x200B;にあります。
 
 | ルールタイプ | 説明 |
 |--- |--- |
-| 標準IABボットルール | 「 **[!UICONTROL IABボットフィルタリングルール]** を有効にする [」を選択すると、](https://www.iab.com/) IAB（International Advertising Bureauの）International Spiders &amp; Bots listを使用してボットトラフィックが削除されます。 ほとんどのお客様は、少なくともこのオプションを選択します。 |
-| カスタムボットルール | ユーザーエージェント、IPアドレス、またはIP範囲に基づいて、カスタムボットルールを定義して追加できます。 |
+| 標準 IAB ボットルール | 「**[!UICONTROL IAB ボットフィルタリングルールを有効にする]**」を選択すると、[IAB](https://www.iab.com/)（International Advertising Bureau）の「International Spiders &amp; Bots Lists」を使用してボットトラフィックを削除します。ほとんどのお客様は、少なくともこのオプションを選択します。 |
+| カスタムボットルール | ユーザーエージェント、IP アドレス、または IP 範囲に基づいて、カスタムボットルールを定義して追加できます。 |
 
-詳しくは、ボットルールの概要を [参照してください](/help/admin/admin/bot-removal/bot-rules.md)。
+詳しくは、[ボットルールの概要](/help/admin/admin/bot-removal/bot-rules.md)を参照してください。
 
-## 実装プ `hitGovernor` ラグインの使用
+## `hitGovernor`実装プラグインの使用
 
-ボットのよ [うな行動をとる訪問者を削除する](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/plugins/hitgovernor.html)s.hitGovernor実装プラグインを使用します。つまり、訪問者は1分あたり数十件または数百件のヒットを送信します。
+1 分あたりに数十件や数百件のヒットを送信するなど、ボットのような行動をとる訪問者を削除する [s.hitGovernor 実装プラグイン](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/javascript-implementation/plugins/hitgovernor.html)を使用します。
 
-## Adobeツールの組み合わせの使用
+## アドビツールを組み合わせて使用
 
-さらに、ボットはすばやく変形するので、アドビは、適切に、定期的に組み合わせれば、データ品質のこれらの敵を排除するのに役立つ、強力な機能をいくつか提供しています。 以下の特徴があります。Experience Cloud IDサービス、セグメント化、Data Warehouse、顧客属性および仮想レポートスイートを参照してください。 以下に、これらのツールの活用方法の概要を示します。
+さらに、すばやく変形するボットに対応するために、アドビでは、適切かつ定期的に組み合わせることで、データ品質に悪影響を与えるボットを排除するのに役立つ、強力な機能をいくつか提供しています。提供されている機能：Experience Cloud ID サービス、セグメント化、Data Warehouse、顧客属性、および仮想レポートスイート。以下に、これらのツールの活用方法の概要を示します。
 
-### 手順1:訪問者のExperience Cloud IDを新しい宣言済みIDに渡す
+### 手順 1：訪問者の Experience Cloud ID を新しい宣言済み ID に渡す
 
-まず、 [Peopleコアサービスに新しい宣言済みIDを作成します](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)。 訪問者のExperience Cloud IDをこの新しい宣言済みIDに渡す必要があります。これは、 [Adobe Experience Platform Launchですばやく簡単に行うことができます](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)。 宣言済みIDに「ECID」という名前を使用します。
+まず、[People コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)で新しい宣言済み ID を作成します。訪問者の Experience Cloud ID をこの新しい宣言済み ID に渡す必要があります。[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/implement/solutions/idservice-save.html) を使用すると、この処理をすばやく簡単におこなうことができます。宣言済み ID に「ECID」という名前を使用するとします。
 
 ![](assets/bot-cust-attr-setup.png)
 
-このIDをデータ要素を使用して取得する方法を次に示します。 Experience cloud組織IDをデータ要素に正しく入力してください。
+この ID をデータ要素経由で取得する方法を次に示します。データ要素には、正しい Experience Cloud 組織 ID を入力するようにしてください。
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-このデータ要素を設定したら、次の手順に従 [って](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) 、「起動」のECIDツールに宣言済みIDを渡します。
+このデータ要素を設定したら、[次の手順](https://docs.adobe.com/content/help/ja-JP/launch/using/implement/solutions/idservice-save.html)に従って、Launch の ECID ツールに宣言済み ID を渡します。
 
-### 手順2:セグメント化を使用したボットの識別
+### 手順 2：セグメント化を使用したボットの識別
 
-訪問者のECIDを宣言済みIDに渡したので、Analysis Workspaceのセグメント化を使用して、ボットのよう [な行動を示す訪問者を識別できます](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) 。 ボットは、多くの場合、その動作によって定義されます。直帰数、通常と異なるユーザーエージェント、不明なデバイス/ブラウザー情報、リファラーなし、新規訪問者、通常と異なるランディングページなど Workspaceのドリルダウンとセグメント化の機能を使用して、IABフィルタリングを回避したボットとレポートスイートのボットルールを識別します。 例えば、次に使用できるセグメントのスクリーンショットを示します。
+訪問者の ECID を宣言済み ID に渡したので、[Analysis Workspace のセグメント化](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)を使用して、ボットのような行動をとる訪問者を識別できます。ボットは、多くの場合、直帰数、通常と異なるユーザーエージェント、不明なデバイス／ブラウザー情報、リファラーがない、新規訪問者、通常と異なるランディングページなどの動作によって定義されます。Workspace のドリルダウンとセグメント化の機能を使用して、IAB フィルタリングとレポートスイートのボットルールを回避したボットを識別します。例として、使用できるセグメントのスクリーンショットを次に示します。
 
 ![](assets/bot-filter-seg1.png)
 
-### 手順3:Data Warehouseを使用してセ [!DNL Experience Cloud IDs] グメントからすべてエクスポート
+### 手順 3：Data Warehouse を使用してセグメントからすべての [!DNL Experience Cloud IDs] を書き出す
 
-セグメントを使用してボットを識別したので、次の手順はData Warehouseを利用して、このセグメントに関連付けられたすべてのExperience Cloud IDを抽出することです。 次に、 [Data Warehouseリクエストの設定方法を示します](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) 。
+セグメントを使用してボットを識別したら、次に、Data Warehouse を利用してこのセグメントに関連付けられたすべての Experience Cloud ID を抽出します。次に、[Data Warehouse](https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.html) リクエストの設定方法を示します。
 
 ![](assets/bot-dwh-3.png)
 
-Experience cloud訪問者IDをディメンションとして使用し、ボットセグメントを適用することを忘れないでください。
+必ず Experience Cloud 訪問者 ID をディメンションとして使用し、ボットセグメントを適用してください。
 
-### 手順4:このリストを顧客属性としてアドビに渡す
+### 手順 4：このリストを顧客属性としてアドビに渡す
 
-Data Warehouseレポートが届くと、履歴データからフィルタする必要のあるECIDのリストが表示されます。 これらのECIDをコピーして、ECIDとボットフラグの2列の空白の.CSVファイルに貼り付けます。
+Data Warehouse レポートが届いたら、履歴データからフィルタリングする必要のある ECID のリストが表示されます。これらの ECID をコピーして、2 列のみ（ECID とボットフラグ）からなる空白の .CSV ファイルに貼り付けます。
 
-* **ECID**:この列ヘッダーが、上記の新しい宣言済みIDに与えた名前と一致することを確認してください。
-* **ボットフラグ**:これを顧客属性スキーマディメンションとして追加します。
+* **ECID**：この列ヘッダーが、上記の新しい宣言済み ID に付けた名前と一致することを確認してください。
+* **ボットフラグ**：これを顧客属性スキーマディメンションとして追加します。
 
-この.CSVファイルを顧客属性インポートファイルとして使用し、このブログ投稿の説明に従って顧客属性にレポートスイートを登録 [します](https://theblog.adobe.com/link-digital-behavior-customers)。
+この .CSV ファイルを顧客属性の読み込みファイルとして使用し、この[ブログ投稿](https://theblog.adobe.com/link-digital-behavior-customers)の説明に従って、顧客属性にレポートスイートを登録します。
 
 ![](assets/bot-csv-4.png)
 
-### 手順5:新しい顧客属性を利用したセグメントの作成
+### 手順 5：新しい顧客属性を利用したセグメントの作成
 
-データセットが処理され、Analysis Workspaceに統合されたら、新しい「ボットフラグ」顧客属性ディメンションと [!UICONTROL Exclude] Containerを利用する1つ以上のセグメントを作成します。
+データセットが処理され、Analysis Workspace に統合されたら、新しい「ボットフラグ」顧客属性ディメンションと [!UICONTROL Exclude] コンテナを利用するもう 1 つのセグメントを作成します。
 
 ![](assets/bot-filter-seg2.png)
 
-### 手順6:このセグメントを仮想レポートスイートフィルターとして使用する
+### 手順 6：このセグメントを仮想レポートスイートフィルターとして使用する
 
-最後に、このセグメントを利用し [て識別されたボットを除外する仮想レポートスイートを](/help/components/vrs/vrs-about.md) 、次のように作成する必要があります。
+最後に、次のように、このセグメントを利用して識別されたボットを除外する[仮想レポートスイート](/help/components/vrs/vrs-about.md)を作成する必要があります。
 
 ![](assets/bot-vrs.png)
 
-この新しくセグメント化された仮想レポートスイートは、識別されたボットが完全に削除され、データのセットが非常に洗練されるようになります。
+この新しくセグメント化された仮想レポートスイートでは、識別されたボットが完全に削除され、非常にクリーンなデータセットになります。
 
-### 手順7:手順2、3、4を定期的に繰り返します。
+### 手順 7：手順 2、3、4 を定期的に繰り返す
 
-少なくとも毎月のリマインダーを設定して、定期的にスケジュールされた分析の前に、新しいボットを識別し、フィルターします。
+リマインダーを毎月 1 回以上（定期的にスケジュールされた分析の前などに）設定し、新しいボットの識別とフィルタリングをおこないます。
