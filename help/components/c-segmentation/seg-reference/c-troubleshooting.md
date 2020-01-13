@@ -2,7 +2,7 @@
 description: 'null'
 title: セグメント化のトラブルシューティング
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # セグメント化のトラブルシューティング
 
-## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## エラー：「このセグメント内に互換性のない要素があります」 {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
 このエラーは、Data Warehouse と互換性のない要素が含まれているセグメントを Data Warehouse フォルダーに保存しようとしたときに発生します。このエラーを解決するには、次のいずれかを実行します。
 
