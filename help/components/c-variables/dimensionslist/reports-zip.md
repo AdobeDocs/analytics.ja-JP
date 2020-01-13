@@ -1,7 +1,7 @@
 ---
 title: 訪問者の郵便番号
 description: 成功指標に大きな影響を持つ顧客の郵便番号を示します。一般的に、このレポートの情報は、購入プロセスで購入元の郵便番号が提供されたときに取得されます。このレポートを使用して、特定の市や町における広告キャンペーンのローカライズの成功を判断できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,6 +14,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 このレポートへの入力は、次の 2 つの方法のどちらかでおこなわれます。
 
 * Analytics で `s.zip` 変数に入力します。
-* 地理特性データに基づく自動郵便番号入力を設定します。s.zip が設定されていない場合にのみ郵便場号を入力するように設定できます。有効にするには、サポート対象ユーザーがアドビカスタマーケアにお問い合わせください。
+* 地理特性データに基づく自動郵便番号入力を設定します。s.zip が設定されていない場合にのみ郵便場号を入力するように設定できます。有効にするには、サポート対象ユーザーからアドビカスタマーケアにお問い合わせください。
 
-See [GeoSegmentation Regions and Postal Code usage by Country](reports-geosegmentation-reference.md)
+[国別の地理特性の地域と郵便番号の使用](reports-geosegmentation-reference.md)を参照してください。
