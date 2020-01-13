@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
  変数は、データの保存とレポートをおこなうレポートスイートを決定します。
 
-複数のレポートスイート（複数スイートタギング）に送信している場合、`s.account` は値のカンマ区切りリストになることがあります。レポートスイート ID はアドビが決定します。
+複数のレポートスイート（複数スイートタギング）に送信している場合、`s.account` は値のコンマ区切りリストになることがあります。レポートスイート ID はアドビが決定します。
 
 ## パラメーター
 
@@ -30,7 +30,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 `s_account` 変数は、通常、JavaScript ファイル（s_code.js）内で宣言されます。`s_account`変数は HTML ページで宣言できます。これは、`s_account` の値がページごとに変わる場合の一般的な方法です。`s_account` 変数はグローバルスコープなので、アドビの JavaScript ファイルを含める直前に宣言する必要があります。`s_account` に値が含まれていない場合、データは [!DNL Analytics] に送信されません。
 
-アドビの [!DNL DigitalPulse Debugger]には、`s_account` の値が表示されます。この値は、「Image」という語句のすぐ下、/b/ss/ の直後に示されます。場合によっては、`s_account` の値もドメイン（112.2o7.net より前）に表示されることがあります。パスの値が、送信先レポートスイートを決定する唯一の値です。次のボールドテキストは、デバッガーに表示される、データの送信先であるレポートスイートを示しています。詳しくは、「[DigitalPulse Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)」を参照してください。
+アドビの [!DNL DigitalPulse Debugger]には、`s_account` の値が表示されます。この値は、「Image」という語句のすぐ下、/b/ss/ の直後に示されます。場合によっては、`s_account` の値もドメイン（112.2o7.net より前）に表示されることがあります。パスの値が、送信先レポートスイートを決定する唯一の値です。次のボールドテキストは、デバッガーに表示される、データの送信先であるレポートスイートを示しています。詳しくは、「[DigitalPulse Debugger](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/testing-and-validation/debugger.html)」を参照してください。
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
@@ -39,7 +39,7 @@ https://mycompany.112.207.net/b/ss/
 
 ## 構文と可能な値
 
-レポートスイート ID は、ASCII 文字の英数字文字列であり、40 バイト以下で指定する必要があります。使用できる英数字以外の文字はハイフンだけです。スペース、ピリオド、コンマ、その他の句読点は使用できません。Folio Builder`s_account` 変数には、複数のレポートスイートを含めることができ、すべてのレポートスイートがページからデータを受け取ります。
+レポートスイート ID は、ASCII 文字の英数字文字列であり、40 バイト以下で指定する必要があります。使用できる英数字以外の文字はハイフンだけです。スペース、ピリオド、コンマ、その他の句読点は使用できません。`s_account` 変数には、複数のレポートスイートを含めることができ、すべてのレポートスイートがページからデータを受け取ります。
 
 ```js
 var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
