@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 離脱リンクまたはダウンロードリンクがクリックされた
 * 訪問者クリックマップによって追跡されているページ要素がクリックされた
 
-Folio Builder *`doPlugins`* 関数は、データの収集や変更のためのカスタマイズされたルーチンを実行するために使用します。「s」以外のオブジェクト名を使用する場合は、*`s_doPlugins`* の名前が適切に変更されていることを確認してください。例えば、オブジェクト名がs_mcの場合、*`s_doPlugins`* 関数の名前は「s_mc_doPlugins」です。
+*`doPlugins`* 関数は、データの収集や変更のためのカスタマイズされたルーチンを実行するために使用します。「s」以外のオブジェクト名を使用する場合は、*`s_doPlugins`* の名前が適切に変更されていることを確認してください。例えば、オブジェクト名がs_mcの場合、*`s_doPlugins`* 関数の名前は「s_mc_doPlugins」です。
 
 ## 構文と可能な値
 
@@ -47,6 +47,6 @@ s_mc.doPlugins=s_mc_doPlugins;
 
 ## 注意事項、質問、ヒント
 
-* オブジェクト名を（s から s_mc などに）変更するのは、他の顧客とコンテンツを共有するか他の顧客のコンテンツを取り込む場合のみです。名前の変更&#x200B;*`s_doPlugins`* 関数の名前を [!UICONTROL s_mc_doPlugins] に変更することで、別のクライアントの JavaScript によって *`doPlugins`* 関数が上書きされるのを防ぎます。
+* オブジェクト名を（s から s_mc などに）変更するのは、他の顧客とコンテンツを共有するか他の顧客のコンテンツを取り込む場合のみです。*`s_doPlugins`* 関数の名前を [!UICONTROL s_mc_doPlugins] に変更することで、別のクライアントの JavaScript によって *`doPlugins`* 関数が上書きされるのを防ぎます。
 
 * 別のアドビの顧客から意図せずにコンテンツの取り込みを開始し、*`s_doPlugins`* 関数が上書きされる場合は、オブジェクト名を変更せずに、*`s_doPlugins`* 関数の名前を変更するだけで済みます。同じページ上の他の JavaScript ファイルとは異なるオブジェクト名を使用することが最善策ですが、これは必須ではありません。
