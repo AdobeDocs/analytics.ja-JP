@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -26,7 +26,7 @@ js
 s.trackInlineStats=true|false
 ```
 
-*`trackInlineStats`変数には、「true」または「false」を設定する必要があります。*
+*`trackInlineStats`* 変数には、「true」または「false」を設定する必要があります。
 
 ## 例
 
