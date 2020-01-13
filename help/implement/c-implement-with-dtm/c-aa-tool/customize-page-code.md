@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;customize page code;open editor;execute
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: ページコードのカスタマイズ
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ Analytics ツールと同時に確実にコードを実行させるには、プ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>エディターを開く </p> </td> 
-   <td colname="col2"> <p>You can insert any JavaScript call that must be triggered before the final <code> s.t()</code> call, which is contained in the <code> s_code</code>. </p> </td> 
+   <td colname="col2"> <p><code> s.t()</code> に含まれる、最後の <code> s_code</code> 呼び出しの前にトリガーされる必要のある任意の JavaScript 呼び出しを挿入できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>実行 </p> </td> 
