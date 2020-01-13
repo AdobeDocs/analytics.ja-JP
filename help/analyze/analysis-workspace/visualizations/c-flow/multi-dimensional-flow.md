@@ -2,7 +2,7 @@
 description: ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを検証できます。
 title: ディメンション間のフロー
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 アプリの使用例と Web の使用例の 2 つについて見ていきます。
 
-## 使用例1:app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## 使用例 1：アプリケーション {#section_3D31D37B9C9F4134AE46C96291E41294}
 
 返される上位の項目が [!UICONTROL ItemAdded] で、[!UICONTROL アクション名]ディメンションがフローに追加されました。
 
@@ -48,7 +48,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 これにより、深いインサイトが可能になり、分析するアプリに対する変更の可能性を考慮できます。
 
-## 使用例2:web {#section_8D55983FA0C84926995270052AE01CD8}
+## 使用例 2：Web {#section_8D55983FA0C84926995270052AE01CD8}
 
 この使用例は、最も多くのエントリを Web サイトに導くキャンペーンをどのようにして分析できるかを示します。
 
