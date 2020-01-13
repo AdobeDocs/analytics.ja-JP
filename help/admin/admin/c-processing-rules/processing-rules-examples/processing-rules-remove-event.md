@@ -2,7 +2,7 @@
 description: ページ上の変更を実装することなく処理ルールを使用してヒットからイベントを削除または破棄する方法を示します。
 title: ヒットからのイベントの削除
 uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
