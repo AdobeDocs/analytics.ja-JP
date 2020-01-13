@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;switcher plugin;libray download;ftp;rewrit
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: ライブラリのダウンロードまたは FTP のルールのテスト
 uuid: b6ac09c7-f590-4710-bcb0-eb2bab9e6296
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
