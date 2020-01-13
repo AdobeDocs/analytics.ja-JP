@@ -116,7 +116,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Foresee Respondent ID -&gt; variable name 1 </p> <p>... </p> <p>Foresee Respondent ID -&gt; variable name n </p> </td> 
+   <td colname="col2"> <p>Foresee Respondent ID -&gt; variable name 1 </p> <p>： </p> <p>Foresee Respondent ID -&gt; variable name n </p> </td> 
    <td colname="col4"> <p>分類 </p> </td> 
   </tr> 
   <tr> 
