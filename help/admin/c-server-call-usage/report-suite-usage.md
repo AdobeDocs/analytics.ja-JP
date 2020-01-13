@@ -1,8 +1,8 @@
 ---
-description: 「レポートスイートの使用状況」タブには、課金会社に関連付けられたすべてのログイン会社のレポートスイートごとに、現在の使用期間のサーバー使用状況データが表示されます。
+description: 「レポートスイートの使用状況」タブには、請求会社に関連付けられたすべてのログイン会社のレポートスイートごとに、現在の使用期間のサーバー使用状況データが表示されます。
 title: レポートスイートの使用状況の表示
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # レポートスイートの使用状況の表示
 
-「レポートスイートの使用状況」タブには、課金会社に関連付けられたすべてのログイン会社のレポートスイートごとに、現在の使用期間のサーバー使用状況データが表示されます。
+「レポートスイートの使用状況」タブには、請求会社に関連付けられたすべてのログイン会社のレポートスイートごとに、現在の使用期間のサーバー使用状況データが表示されます。
 
-**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /サ]** ーバーコールの使 **[!UICONTROL 用状況]** /レポートスイ **[!UICONTROL ートの使用状況]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL サーバーコールの使用状況]**／**[!UICONTROL レポートスイートの使用状況]**
 
 >[!IMPORTANT]
 >
->If a report suite is not [linked to an Experience Cloud Organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html), its usage data will not be reflected in this dashboard. また、課金 ID は複数の Experience Cloud 組織に関連付けることができ、組織と課金 ID の間には必ずしも 1 対 1 の関係はありません。
+>レポートスイートが [Experience Cloud 組織にリンクされて](https://marketing.adobe.com/resources/help/ja_JP/mcloud/report-suite-mapping.html)いない場合、その使用状況データはこのダッシュボードには反映されません。また、請求 ID は複数の Experience Cloud 組織に関連付けることができ、組織と請求 ID の間には必ずしも 1 対 1 の関係はありません。
 
 レポートスイートの使用状況ダッシュボードは、以下のように動作します。
 
@@ -24,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * サーバーコールカテゴリーごとに、使用量全体に占める割合（パーセント）を表示します。
 * 毎日更新されます。
 * ダウンロード可能です。
-* **[!UICONTROL アラート管理]UI にアクセスできます。**
+* **[!UICONTROL アラート管理]** UI にアクセスできます。
 
 ![](assets/report-suite-usage.png)
 
@@ -43,19 +43,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 このオプションでは、現在の使用状況データと現在の使用期間より前の期間（2015 年 1 月までさかのぼることが可能）のデータをダウンロードできます。レポートは .csv ファイルとしてダウンロードされます。
 
 1. 1 つ以上のレポートスイートを選択します。
-1. Click **[!UICONTROL Download Report]**.
+1. 「**[!UICONTROL レポートをダウンロード]**」をクリックします。
 
    ![](assets/download_report.png)
 
 | レポートの要素 | 説明 |
 |--- |--- |
-| ファイル名 | ハードコード名：使用状況レポート `day and time of report creation.csv` |
+| ファイル名 | ハードコード名：使用状況レポート`day and time of report creation.csv` |
 | 選択されたレポートスイート | サーバー使用状況のレポートページで選択したすべてのレポートスイートが、このリストに含まれています。 |
 | 選択された呼び出しタイプ | すべての呼び出し（デフォルト）、プライマリ、セカンダリ、モバイルプライマリ、モバイルセカンダリの任意の組み合わせを指定します。 |
-| 時間範囲 | 現在の使用期間を選択するか、カスタムの範囲を指定します。カスタムの範囲の場合は、範囲の開始と範囲の終了を指定します。<br>**** 注意：2015年1月より前の使用状況データはダウンロードできませ </br>ん。 |
+| 時間範囲 | 現在の使用期間を選択するか、カスタムの範囲を指定します。カスタムの範囲の場合は、範囲の開始と範囲の終了を指定します。<br>**注意：**&#x200B;なお、2015 年 1 月より前の使用状況データをダウンロードすることはできません。</br> |
 
-1. Click **[!UICONTROL Download]**.
+1. 「**[!UICONTROL ダウンロード]**」をクリックします。
 
-ダウンロードした.csvファイルのスクリーンショットを次に示します。 レポートスイートIDの列が含まれます。 レポートスイートIDは、英数字のみを含む一意のIDを指定します。 このIDは、レポートスイートの作成後は変更できません。
+ダウンロードした .csv ファイルのスクリーンショットを次に示します。レポートスイート ID の列が含まれます。レポートスイート ID は、英数字のみを含む一意の ID を指定します。レポートスイートの作成後は、この ID を変更できなくなります。
 
 ![](assets/download-usage.png)
