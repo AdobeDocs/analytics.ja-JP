@@ -2,7 +2,7 @@
 description: ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。
 title: ツリーマップ
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
