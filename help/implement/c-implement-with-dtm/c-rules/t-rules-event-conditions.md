@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;dela
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: イベント型ルールの条件の作成
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/condition-event-based.png)
 
-   詳しくは、Adobe Tag Management 製品ドキュメントの[イベントタイプ](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html)を参照してください。
+   詳しくは、Adobe Tag Management 製品ドキュメントの[イベントタイプ](https://marketing.adobe.com/resources/help/ja_JP/dtm/event_types.html)を参照してください。
 
 1. 必要に応じて、次のオプションを有効にします。
 
@@ -35,7 +35,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/condition-event-based2.png)
 
-   正しい要素タグの見つけ方については、Dynamic Tag Management 製品ドキュメントの [CSS セレクターの使用](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html)を参照してください。
+   正しい要素タグの見つけ方については、Dynamic Tag Management 製品ドキュメントの [CSS セレクターの使用](https://marketing.adobe.com/resources/help/ja_JP/dtm/css-selector.html)を参照してください。
 
 1. さらに条件を追加することもできます。
 
