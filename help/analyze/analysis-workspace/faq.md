@@ -2,7 +2,7 @@
 description: 'null'
 title: よくある質問
 uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace の管理およびアクセスの要件を教えてください。 </p> </td> 
-   <td colname="col2"> <p>詳しくは、<a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  >管理要件</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  >管理要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace プロジェクトには、レポートスイートはいくつ表示できますか。 </p> </td> 
@@ -44,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace と Ad Hoc Analysis の機能の違いを教えてください。 </p> </td> 
-   <td colname="col2"> <p>詳しくは、 <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace と Ad Hoc Analysis の比較</a>. </p> </td> 
+   <td colname="col2"> <p>詳しくは、<a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace と Ad Hoc Analysis の比較</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
