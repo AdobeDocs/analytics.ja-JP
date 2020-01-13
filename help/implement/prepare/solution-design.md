@@ -1,7 +1,7 @@
 ---
 title: ソリューションデザインドキュメントの作成
 description: ソリューションデザインドキュメントとは何か、および組織でのソリューションデザインドキュメントの使用方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * 実装ステータス：計画中、アクティブ、非アクティブ、タスクなど。これにより、変数が実装されている場合、またはデータ収集に問題がある場合に、ドキュメントの閲覧者にその変数のステータスが通知されます。
    * 変数名：「内部検索キーワード」など。この値は、Analytics 内で作業する際にアナリストに表示される値と同じです。
    * マッピング先の Analytics 変数：値の割り当て先として選択するデフォルト またははカスタムの Analytics 関数。ディメンションは通常 eVar に、指標はイベントに分類されます。
-   * 論理：変数の設定方法と、その値を決定する要素の説明。例：「内部検索ページにのみ設定。q クエリ文字列パラメータの値を取り込む。」
+   * 論理：変数の設定方法と、その値を決定する要素の説明。例：「内部検索ページにのみ設定。q クエリー文字列パラメータの値を取り込む。」
    * 変数に関連して含めたいその他の注記事項
 
 ## その他のリソース
@@ -44,11 +44,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 > [!NOTE] Analytics コミュニティのメンバーは、次のリンクが役に立つと判断しましたが、これらのリンクはアドビが所有しているものではありません。コンテンツを表示する際は、この点に留意してください。
 
-* [7 ObservePointによるWeb Analyticsソリューションデザインの設定手順](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) （英語のみ）
-* [Analyticsによるデジタル分析プロセスのフレームワーク](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) （不明）
-* [Solution Design Referenceは、実際にはNumeric AnalyticsによるBFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) (BFF)です。
-* [Antti Koski氏によるAdobe Analyticsのタグ付けマップの作成](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) （英語）
-* [The Importance of the Solution Design Document](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) by Ebiquity
+* [ Steps to Set Up Your Web Analytics Solution Design](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)/7-（ObservePoint）
+* [A Framework for Digital Analytics Process](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/)（Analytics Demystified）
+* [The Solution Design Reference is actually your BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/)（Numeric Analytics）
+* [How to make Adobe Analytics tagging map](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/)（Antti Koski）
+* [The Importance of the Solution Design Document](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)（Ebiquity）
 
 ## 次の手順
 
