@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
