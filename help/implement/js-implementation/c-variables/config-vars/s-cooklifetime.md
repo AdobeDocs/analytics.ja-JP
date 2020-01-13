@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |---|---|---|---|
 | 該当なし | cl | トラフィック／技術／cookie（訪問者関連のすべてのレポート） | "" |
 
-If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. *`cookieLifetime`* 変数には以下の 3 つの値のいずれかを設定できます。
+*`cookieLifetime`* が設定されている場合、JavaScript とデータ収集サーバーの両方について、その値が他のすべての cookie 有効期限よりも優先されますが、以下で説明するように 1 つだけ例外があります。*`cookieLifetime`* 変数には以下の 3 つの値のいずれかを設定できます。
 
 * [!DNL Analytics] Cookie
 * Cookie
