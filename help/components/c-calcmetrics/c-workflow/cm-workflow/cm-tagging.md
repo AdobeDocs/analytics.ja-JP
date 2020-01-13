@@ -2,7 +2,7 @@
 description: 計算指標マネージャでは、セグメントにタグを付けて管理できます。
 title: 計算指標のタグ付け
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,15 +20,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * **ワークフロー**&#x200B;タグ：承認済み、（特定のビジネスユニット向けの）キュレーション。
 
 1. 計算指標マネージャで、タグを付ける指標の横にあるチェックボックスを選択します。管理ツールバーが表示されます。
-1. 「**[!UICONTROL タグ]」をクリックし、次のいずれかの操作を行います。**
+1. 「**[!UICONTROL タグ]**」をクリックし、次のいずれかの操作を行います。
 
-   * 既存のタグから選択します。
-   * add a new tag name in the Add Tags/Search dialog box and press **[!UICONTROL Enter]**.
+   * 既存のタグから選択するか、
+   * 検索ダイアログボックスで新しいタグ名を追加して、**[!UICONTROL Enter]** キーを押します。
 
       ![](assets/cm_add_tags.png)
 
-1. 「**[!UICONTROL タグ]」を再度クリックして指標にタグを付けます。**
+1. 「**[!UICONTROL タグ]**」を再度クリックして指標にタグを付けます。
 
 これで、タグが「タグ」列に表示されます（右上のギアアイコンをクリックして列を管理します）。
 
-You can also filter on tags by going to **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Tags]**.
+また、**[!UICONTROL フィルターを表示する]**／**[!UICONTROL タグ]**&#x200B;に移動すると、タグをフィルタリングできます。
