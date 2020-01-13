@@ -2,7 +2,7 @@
 description: Analysis Workspace 内で、コンテキスト上のデータの異常値を表示および分析できます。
 title: 異常値検出の概要
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,17 +10,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 異常値検出の概要
 
-Analysis Workspace内でコンテキスト上のデータの異常を表示および分析できます。
+Analysis Workspace 内で、コンテキスト上のデータの異常値を表示および分析できます。
 
-[YouTubeでの異常値検出](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[異常値検出（YouTube）](https://www.youtube.com/watch?v=krXyQCjXoeU&amp;index=63&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（4:53）
 
-[YouTubeでの貢献度分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
+[貢献度分析（YouTube）](https://www.youtube.com/watch?v=MbpeJIADtGk&amp;index=64&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（3:20）
 
->[!IMPORTANT] 異常値検出は、Reports &amp; Analyticsの機能セットから削除され、Analysis Workspaceでのみ使用できるようになりました。 Adobe Analytics selectおよびAdobe Analytics Foundationのお客様は、Workspaceの「毎日の精度」の異常値検出にのみアクセスできます。 詳しくは、[異常値検出と貢献度分析の権限](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)を参照してください。
+>[!IMPORTANT]異常値検出は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、Workspace で「毎日の精度」の異常値検出のみにアクセスできます。詳しくは、[異常値検出と貢献度分析の権限](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)を参照してください。
 
 異常値検出は、以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。
 
-異常値検出により、「ノイズ」から「真のシグナル」を分離し、これらのシグナルまたは異常値の潜在的な要因を特定できます。つまり、変則性の検出を使用すると、重要な統計変動と重要でな統計変動を識別できます。さらに、信頼できる指標（KPI）の予測を取得できます。
+異常値検出により、「ノイズ」から「真のシグナル」を分離し、これらのシグナルまたは異常値の潜在的な要因を特定できます。つまり、変則性の検出を使用すると、重要な統計変動と重要でない統計変動を識別できます。さらに、信頼できる指標（KPI）の予測を取得できます。
 
 調査できる異常値の例を次に示します。
 
@@ -31,7 +31,7 @@ Analysis Workspace内でコンテキスト上のデータの異常を表示お�
 * ビデオバッファーイベントの急増
 * ビデオの低ビットレートの下落
 
-異常値検出と[貢献度分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)の双方が、Analysis Workspace の主要ワークフローです。毎日の異常値に対して貢献度分析を実行し、Analysis Workspace プロジェクトに結果を埋め込むことができます。
+異常値検出と[貢献度分析](https://marketing.adobe.com/resources/help/ja_JP/analytics/contribution/ca_main.html)の双方が、Analysis Workspace の主要ワークフローです。毎日の異常値に対して貢献度分析を実行し、Analysis Workspace プロジェクトに結果を埋め込むことができます。
 
 Analysis Workspace の異常値検出アルゴリズムには以下が含まれています。
 
