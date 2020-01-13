@@ -2,28 +2,28 @@
 description: Analytics ユーザーの従来のログインを無効化する方法を学習します。
 title: 従来のログインの無効化
 uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 従来のログインの無効化{#disable-legacy-logins}
+# 従来のログインの無効化 {#disable-legacy-logins}
 
 Analytics ユーザーの従来のログインを無効化する方法を学習します。
 
 ユーザーを従来の Analytics ユーザー管理システムから Adobe Admin Console に移行した後は、従来のログインを無効にすることができます。従来のログインを無効化した場合、従来の方法でログインしようとするユーザーは Experience Cloud ログインにリダイレクトされます。
 
-1. **[!UICONTROL Analytics]** /管理者/ユーザーIDの移行で **[!UICONTROL 移行ツ]** ールを開きます ****。
-1. In the [!DNL User Information] section, locate the domain containing the users you want to work with, then click **[!UICONTROL Select Users]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー ID の移行]**&#x200B;を選択して移行ツールを起動します。
+1. [!DNL User Information] セクションで、従来のログインを無効にするユーザーを含むドメインを探し、「**[!UICONTROL ユーザーを選択]**」をクリックします。
 1. 無効にする従来のログインを持つユーザーを選択します。
 
    ![](assets/user-info.png)
 
-   有効なユーザーのステータスは、「移行ステータス」列 *`Migrated`* の下に「」になります。 ユーザーが移行されるまで、従来のログインを無効にすることはできません。
-1. Click **[!UICONTROL Disable Legacy Login]**, then click **[!UICONTROL Done]**.
+   有効なユーザーのステータスは、「移行ステータス」列の下に「*`Migrated`*」と表示されます。ユーザーが移行されるまで、従来のログインを無効にすることはできません。
+1. 「**[!UICONTROL 従来のログインを無効化]**」をクリックしてから、「**[!UICONTROL 完了]**」をクリックします。
 
    「従来のログインを無効化」には、従来の [!DNL my.omniture.com] ユーザー名とパスワードを引き続き使用できるユーザーが表示されます。
 
-   まだ移行されていないユーザーの従来のログインを無効化することはできません。無効化されると、ユーザーは Experience Cloud ID を使用して Analytics　へログインおよびアクセスする必要があります。
+   まだ移行されていないユーザーの従来のログインを無効化することはできません。無効化されると、ユーザーは Experience Cloud ID を使用して Analytics へログインおよびアクセスする必要があります。
 
