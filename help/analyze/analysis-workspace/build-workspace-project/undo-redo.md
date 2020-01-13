@@ -1,8 +1,8 @@
 ---
-description: Analysis Workspace の「元に戻す」オプションに関する変更と機能強化。
+description: Analysis Workspace の「取り消し」オプションに関する変更と機能強化。
 title: 「元に戻す」および「やり直し」の設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,22 +10,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 「元に戻す」および「やり直し」の設定
 
-**[!UICONTROL ワークスペース]** /プ **[!UICONTROL ロジェクト]** /元 **[!UICONTROL に戻す/やり直し]**
+**[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／「**[!UICONTROL 元に戻す」または「やり直し]**」
 
-* 「**[!UICONTROL やり直し]**」オプション（元に戻した操作をやり直す）は&#x200B;**編集[!UICONTROL メニューにあります。]**
+* 「**[!UICONTROL やり直し]**」オプション（元に戻した操作をやり直す）は&#x200B;**[!UICONTROL 編集]**&#x200B;メニューにあります。
 
-* 「**[!UICONTROL 保存]**」をクリックしても「**元に戻す[!UICONTROL 」のスタックはクリアされません。]**
+* 「**[!UICONTROL 保存]**」をクリックしても「**[!UICONTROL 元に戻す]**」のスタックはクリアされません。
 
-* **[!UICONTROL 「新規プロジェクト]**」または「**[!UICONTROL 既存のプロジェクトを開く]**」を使用すると、「**元に戻す]」のスタックがクリアされます。[!UICONTROL **
+* **[!UICONTROL 「新規プロジェクト]**」または「**[!UICONTROL 既存のプロジェクトを開く]**」を使用すると、「**[!UICONTROL 元に戻す]**」のスタックがクリアされます。
 
 * レポートスイートの変更の取り消し／やり直しをおこなうことができます。
 * プロジェクト名の近くに取り消し／やり直しのメッセージが表示されます。このメッセージは、取り消しまたはやり直しが進行中であることを示します。
-* 次のホットキーを使用で [きます](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)。
+* 次の[ホットキー](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)を使用できます。
 
    * Ctrl（または Command）+ Z（「元に戻す」）
    * Ctrl（または Command）+ Shift + Z（「やり直し」）
 
-## What you can undo and redo {#section_1E94152CC206470D84FC11710311DA12}
+## 元に戻す／やり直すことができる操作 {#section_1E94152CC206470D84FC11710311DA12}
 
 * キュレーション
 * すべてクリア
@@ -58,7 +58,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 説明を編集
 * ビジュアライゼーションをコピー
 
-## What you cannot undo and redo {#section_65BB313E048F4744B692926362873230}
+## 元に戻す／やり直すことができない操作 {#section_65BB313E048F4744B692926362873230}
 
 * プロジェクト情報および設定の変更（「タグを追加」、説明の変更、「繰り返しインスタンスをカウント」設定）
 * ランディングページとして設定
