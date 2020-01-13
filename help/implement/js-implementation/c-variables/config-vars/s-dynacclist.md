@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # s.dynamicAccountList
 
-> [!NOTE] この変 `s.dynamicAccountList` 数は、現在のAppMeasurementライブラリではサ [ポートされていません](../../c-appmeasurement-js/appmeasure-mjs.md)。 Hコードなど、従来のAppMeasurementでのみ使用されます。
+> [!NOTE] `s.dynamicAccountList` 変 数は、[現在の AppMeasurement ライブラリ](../../c-appmeasurement-js/appmeasure-mjs.md)ではサポートされていません。H コードなど、従来の AppMeasurement でのみ使用されます。
 
-この変 `s.dynamicAccountList` 数は、データの送信先のレポートスイートを動的に決定するのに役立ちます。 変数および変数と組み合わせて使 `dynamicAccountSelection` 用され `dynamicAccountMatch` ます。 The rules in `dynamicAccountList` are applied if `dynamicAccountSelection` is set to `true`, and they apply to the section of the URL specified in `dynamicAccountMatch`.
+`s.dynamicAccountList` 変数は、データの送信先のレポートスイートを動的に決定するのに役立ちます。`dynamicAccountSelection` 変数および `dynamicAccountMatch` 変数と組み合わせて使用されます。`dynamicAccountList` のルールは `dynamicAccountSelection` が「`true`」に設定されている場合に適用され、`dynamicAccountMatch` で指定されている URL のセクションに適用されます。
 
 ## 構文と可能な値
 
@@ -21,17 +21,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 s.dynamicAccountList="rs1[,rs2]=domain1.com[,domain2.com/path][;...]";
 ```
 
-有効な入力は、name=valueのペア（ルール）をセミコロンで区切ったリストです。 各リストには、次の項目が含まれます。
+有効な入力は、name=value のペア（ルール）をセミコロンで区切ったリストです。各リストには、次の項目が含まれます。
 
-* 1つ以上のレポートスイートID（コンマ区切り）
+* 1 つ以上のレポートスイート ID（コンマ区切り）
 * 等号
-* 1つ以上のURLフィルター（コンマ区切り）
+* 1 つ以上の URL フィルター（コンマ区切り）
 
 文字列内では標準的な ASCII 文字のみを使用してください（空白は使用できません）。
 
 ## 例
 
-次の例では、ページURLを、変数を `https://example.com/path2/?prod_id=12345`に、変 `dynamicAccountSelection` 数を `true`に設 `s_account` 定してい `examplersid`ます。
+次の例では、ページ URL は`https://example.com/path2/?prod_id=12345`で、`dynamicAccountSelection` 変数は `true` に設定され、`s_account` 変数は `examplersid` に設定されています。
 
 ```js
 // In this example, the report suite that receives data is examplersid1.
@@ -49,8 +49,8 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 
 ## 注意事項、質問、ヒント
 
-* この変数で示されるルールは、左から右の順で適用されます。If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. その結果、より一般的なルールをリストの右側に配置します。
-* If no rules match, the default report suite in `s_account` is used.
-* ページが他のユーザーのハードドライブに保存されたり、Webベースの翻訳エンジン（Googleの翻訳済みページなど）を使用して翻訳された場合、動的アカウントの選択は動作しない可能性があります。
+* この変数で示されるルールは、左から右の順で適用されます。`dynamicAccountMatch` 変数が複数のルールと一致する場合、最も左にあるルールを使用してレポートスイートが決定されます。そのため、より一般的なルールをリストの右側に移動する必要があります。
+* 一致するルールがない場合、`s_account` のデフォルトレポートスイートが使用されます。
+* ページが他のユーザーのハードドライブに保存されているか、Web ベースの翻訳エンジンを介して翻訳されている場合（Google 翻訳後のページなど）は、動的アカウント選択はおそらく動作しません。
 * `dynamicAccountSelection` ルールは、`dynamicAccountMatch` で指定された URL のセクションにのみ適用されます。
-* Use the [!DNL Adobe Experience Cloud Debugger] to test the destination report suite.
+* 送信先レポートスイートをテストする場合は、[!DNL Adobe Experience Cloud Debugger] を使用してください。
