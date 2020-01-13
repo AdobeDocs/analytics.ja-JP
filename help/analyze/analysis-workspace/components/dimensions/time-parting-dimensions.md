@@ -2,7 +2,7 @@
 description: 時間分割は、収集したヒットのタイムスタンプを取得し、「時間帯」や「曜日」など、よりわかりやすいディメンションに分類します。
 title: 時間分割ディメンション
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,17 +19,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 平日の売上と比較すると、週末の売上はどうか。
 * 特定のマーケティングキャンペーンでコンバージョンが高いのは午前中か、それとも午後か。
 
-> [!NOTE] 時間分割ディメンションは、Analysis Workspaceでのみ使用できます。 時間分割ディメンションを別の Analytics ソリューションで使用するには、[getTimeParting プラグイン](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html)を実装します。
+> [!NOTE]時間分割ディメンションは、Analysis Workspace でのみ使用できます。時間分割ディメンションを別の Analytics ソリューションで使用するには、[getTimeParting プラグイン](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/getTimeParting.html)を実装します。
 
 Analysis Workspace の時間分割ディメンションに含まれるものを以下に示します。
 
 | ディメンション | 値の例 |
 |--- |--- |
-| 時間帯 | 0 ～ 23 |
+| 時刻 | 0～23 |
 | 午前 / 午後 | 午前、午後 |
 | 曜日 | 月曜日、火曜日、水曜日、木曜日、金曜日、土曜日、日曜日 |
 | 平日 / 週末 | 週末、平日 |
-| 日付 | 1 ～ 31 |
-| 月 | 1 月～ 12 月 |
-| 通日 | 1 ～ 366 |
+| 日付 | 1～31 |
+| 月 | 1 月～12 月 |
+| 年間通算日 | 1～366 |
 | 四半期 | 第 1 四半期、第 2 四半期、第 3 四半期、第 4 四半期 |
