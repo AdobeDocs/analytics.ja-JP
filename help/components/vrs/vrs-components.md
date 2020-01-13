@@ -2,7 +2,7 @@
 description: 仮想レポートスイートをキュレートして、Analysis Workspace で利用可能なコンポーネントを限定できます。
 title: 仮想レポートスイートコンポーネントのキュレーション
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,20 +12,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 仮想レポートスイートをキュレートして、Analysis Workspace で利用可能なコンポーネントを限定できます。
 
-> [!NOTE]キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイート（VRS）で、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. [更新されたキュレーション機能](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html)により、どのコンポーネントを表示できるかをより詳細に制御できます。
+> [!NOTE]キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイート（VRS）で、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。以前は、「**[!UICONTROL すべてのコンポーネントを表示]**」ボタンをクリックすることで、誰でもキュレーションされていないコンポーネントを表示できました。[更新されたキュレーション機能](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/curate-projects-vrs.html)により、どのコンポーネントを表示できるかをより詳細に制御できます。
 
 コンポーネントのキュレーションを有効にするには、次の手順に従います。
 
-1. **[!UICONTROL Analytics]** /コンポーネント **[!UICONTROL /仮想レポートスイート]** / ********&#x200B;新しい仮想レポートスイートを作成に移動します。
-1. **[!UICONTROL 設定]**&#x200B;を定義したら、「**コンポーネント[!UICONTROL 」タブをクリックします。]**
+1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**／**[!UICONTROL 新しい仮想レポートスイートを作成]**&#x200B;に移動します。
+1. **[!UICONTROL 設定]**&#x200B;を定義したら、「**[!UICONTROL コンポーネント]**」タブをクリックします。
 
-1. Select the checkbox **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. 「**[!UICONTROL 仮想レポートスイートのコンポーネントのカスタマイズを有効にする]**」チェックボックスをオンにします。
 
    ![](assets/vrs-enable.png)
 
    >[!NOTE]
    >
-   >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
+   >コンポーネントのカスタマイズが有効になっている場合、仮想レポートスイートは **Analysis Workspace からのみ**&#x200B;アクセスでき、次の場所からはアクセスできません。
 
    * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
@@ -40,9 +40,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * 日付範囲
    >[!NOTE]
    >
-   >There is no need to *share* curated components (segments, calculated metrics, date ranges). 共有されていなくても、仮想レポートスイート用にキュレートされている場合は、Analysis Workspace で常に表示されます。
+   >キュレートされたコンポーネント（セグメント、計算指標、日付範囲）を&#x200B;*共有*&#x200B;する必要はありません。共有されていなくても、仮想レポートスイート用にキュレートされている場合は、Analysis Workspace で常に表示されます。
 
-1. Additionally, you can filter or search the components and add the entire filtered selection to the included column by clicking **[!UICONTROL Add All]**.
+1. コンポーネントにフィルターを適用するかコンポーネントの検索を実行して「**[!UICONTROL すべてを追加]**」をクリックすると、選択されたすべてのコンポーネントが「含む」列に追加されます。
 
    ![](assets/vrs-add-all.png)
 
@@ -62,6 +62,6 @@ Analysis Workspace でコンポーネント名の横にある情報アイコン�
 
 ![](assets/vrs-comp-grp.png)
 
-## ワークスペースの動作 {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Workspace の動作 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Analysis Workspace のキュレーションについて詳しくは、[プロジェクトのキュレーションおよび共有](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html)を参照してください。
+Analysis Workspace のキュレーションについて詳しくは、[プロジェクトのキュレーションおよび共有](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/curate.html)を参照してください。
