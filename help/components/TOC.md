@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 + [Analytics コンポーネントヘルプ](home.md)
 + セグメント化 {#segmentation}
-   + [Analytics のセグメント](c-segmentation/seg-home.md)
+   + [Analytics のセグメント化](c-segmentation/seg-home.md)
    + [セグメントおよびコンテナについて](c-segmentation/seg-overview.md)
    + [Analysis Workspace のセグメント機能](c-segmentation/segmentation-in-analysis-workspace.md)
    + セグメントのワークフロー {#segmentation-workflow}
@@ -92,7 +92,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [コンバージョンの分類](c-classifications2/conversion-classifications.md)
    + [トラフィック分類](c-classifications2/traffic-classifications.md)
    + [分類階層](c-classifications2/classification-hierarchies.md)
-   + 分類インポーター（アップロード）{#classifications-importer}
+   + 分類インポーター（アップロード） {#classifications-importer}
       + [分類インポーター - 概要](c-classifications2/c-classifications-importer/c-working-with-saint.md)
       + [分類データファイル](c-classifications2/c-classifications-importer/c-saint-data-files.md)
       + [分類データの削除](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
@@ -162,7 +162,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [デジタル著作権管理（DRM）](c-variables/dimensionslist/reports-drm.md)
       + [ドメイン](c-variables/dimensionslist/reports-domains.md)
       + [入口と出口](c-variables/dimensionslist/reports-entries-exits.md)
-      + [離脱リンク](c-variables/dimensionslist/reports-exit-links.md)
+      + [出口リンク](c-variables/dimensionslist/reports-exit-links.md)
       + [フォールアウト](c-variables/dimensionslist/reports-fallout.md)
       + [ファイルのダウンロード数](c-variables/dimensionslist/reports-file-downloads.md)
       + [検索方法](c-variables/dimensionslist/reports-finding-methods.md)
@@ -242,8 +242,8 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [サイトセクションサマリ](c-variables/dimensionslist/reports-site-sections-summary.md)
       + [Target](c-variables/dimensionslist/reports-tnt.md)
       + [ターゲット](c-variables/dimensionslist/report-targets.md)
-      + [ターゲットアクティビティ](c-variables/dimensionslist/report-target-activities.md)
-      + [ターゲットエクスペリエンス](c-variables/dimensionslist/report-target-experiences.md)
+      + [Target アクティビティ](c-variables/dimensionslist/report-target-activities.md)
+      + [Target エクスペリエンス](c-variables/dimensionslist/report-target-experiences.md)
       + [Target の上昇率と信頼性](c-variables/dimensionslist/report-target-lift-confidence.md)
       + [技術](c-variables/dimensionslist/reports-technology.md)
       + [イベント前の時間](c-variables/dimensionslist/reports-time-prior-to-event.md)
@@ -257,13 +257,13 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [トラフィック](c-variables/dimensionslist/reports-traffic.md)
       + [トラフィックソース](c-variables/dimensionslist/reports-traffic-sources.md)
       + [ユニーク顧客数](c-variables/dimensionslist/reports-unique-customer.md)
-      + [実訪問者数](c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md)
+      + [個別訪問者数](c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md)
       + [単位](c-variables/dimensionslist/reports-units.md)
       + [米国の州名](c-variables/dimensionslist/reports-state.md)
       + [ビデオ](c-variables/dimensionslist/reports-video.md)
       + [ビデオサポート](c-variables/dimensionslist/reports-video-support.md)
       + [訪問回数](c-variables/dimensionslist/reports-visitor-number.md)
-      + [訪問](c-variables/dimensionslist/reports-visits.md)
+      + [訪問数](c-variables/dimensionslist/reports-visits.md)
       + [訪問者の詳細](c-variables/dimensionslist/reports-visitor-detail.md)
       + [訪問者プロファイル](c-variables/dimensionslist/reports-visitor-profile.md)
       + [訪問者保持率](c-variables/dimensionslist/reports-visitor-retention.md)
@@ -276,7 +276,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [平均ページの深さ](c-variables/c-metrics/metrics-av-page-depth.md)
       + [平均滞在時間](c-variables/c-metrics/metrics-av-time-spent.md)
       + [バウンス](c-variables/c-metrics/metrics-bounces.md)
-      + [直帰率](c-variables/c-metrics/metrics-bounce-rate.md)
+      + [バウンス率](c-variables/c-metrics/metrics-bounce-rate.md)
       + [計算指標](c-variables/c-metrics/calculated-metric.md)
       + [キャンペーン固有の指標](c-variables/c-metrics/campaign-specific-metrics.md)
       + [買い物かごへの追加](c-variables/c-metrics/metrics-cart-additions.md)
@@ -294,7 +294,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [月別訪問者数](c-variables/c-metrics/metrics-monthly-unique-visitors.md)
       + [新規エンゲージメント](c-variables/c-metrics/metrics-new-engagements.md)
       + [発生件数](c-variables/c-metrics/metrics-occurrences.md)
-      + [購入回数](c-variables/c-metrics/metrics-orders.md)
+      + [注文件数](c-variables/c-metrics/metrics-orders.md)
       + [ページの深さ](c-variables/c-metrics/metrics-page-depth.md)
       + [ページイベント](c-variables/c-metrics/metrics-page-event.md)
       + [ページビュー](c-variables/c-metrics/metrics-page-view.md)
@@ -310,7 +310,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [単一アクセス](c-variables/c-metrics/metrics-single-access.md)
       + [滞在時間](c-variables/c-metrics/metrics-time-spent.md)
       + [合計](c-variables/c-metrics/metrics-total.md)
-      + [実訪問者数](c-variables/c-metrics/metrics-unique-visitors.md)
+      + [個別訪問者数](c-variables/c-metrics/metrics-unique-visitors.md)
       + [単位](c-variables/c-metrics/metrics-units.md)
       + [訪問](c-variables/c-metrics/metrics-visit.md)
       + [訪問者](c-variables/c-metrics/visitors.md)
