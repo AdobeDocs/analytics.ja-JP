@@ -1,13 +1,13 @@
 ---
-title: Adobe Analyticsの実装
+title: Adobe Analytics の実装
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ---
 
 
-# Adobe Analyticsの実装
+# Adobe Analytics の実装
 
 ![バナー](../../assets/doc_banner_implement.png)
 
@@ -16,7 +16,7 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 * **Dynamic Tag Management：** Launch の前に使用されていた方法です。DTM は、似たようなインターフェイスを使用して Analytics を実装しますが、今後は更新されず、柔軟ではありません。アドビでは、Adobe Analytics の実装には Launch を使用することをお勧めします。
 * **従来の JavaScript：** Adobe Analytics を実装するために古くから使用される手動の方法。実装で使用される変数および設定の概要を説明します。カスタムコードを含むルールを使用する Launch 実装で役立ちます。
 
-## 主な解析の実装の記事
+## 主な Analytics 実装記事
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Experience Platform Launch でのプロパティの作成](implement-with-launch/create-analytics-property.md)
@@ -29,7 +29,7 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
