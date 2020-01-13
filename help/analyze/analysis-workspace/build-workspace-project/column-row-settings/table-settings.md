@@ -2,7 +2,7 @@
 description: 行設定は、テーブルにドラッグしたコンポーネントによって異なります。
 title: 行設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -40,11 +40,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>分類 </p> </td> 
-   <td colname="col2"> <p><b>位置で分類：</b> </p> <p>フリーフォームテーブル分類で固定位置に基づいて分類を実行できます。例えば、常に上位 7 行が分類されるように指定できます。 </p> <p>(以前は、分類の値のリストは「ロック」されていました。 This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. そのレポートを保存して 1 ヶ月後に実行した場合、上位 50 ページが変動している可能性があるものの、Analysis Workspace は現在の月を日付範囲としながらも、以前の分類の結果を使用して同じページを返していました。） </p> <p>固定位置に基づいて分類を実行するには、 </p> 
+   <td colname="col2"> <p><b>位置で分類:</b> </p> <p>フリーフォームテーブル分類で固定位置に基づいて分類を実行できます。例えば、常に上位 7 行が分類されるように指定できます。 </p> <p>（以前は、分類の値のリストはレポート作成の時点で「ロック」されていました。例えば、<span class="term">日付</span>を<span class="term">ページ</span>ごとに分類した場合、選択した日付範囲の上位 50 ページのリストが表示されていました。そのレポートを保存して 1 ヶ月後に実行した場合、上位 50 ページが変動している可能性があるものの、Analysis Workspace は現在の月を日付範囲としながらも、以前の分類の結果を使用して同じページを返していました。） </p> <p>固定位置に基づいて分類を実行するには、 </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">テーブルの一部の行を分類します。 </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">固定位置にするテーブル行の横にある設定（ギア）アイコンをクリックします。 </li> 
-     <li id="li_675E429DC3B94201978166F9408D30B1"><span class="uicontrol">位置で分類</span>の横にあるチェックボックスをオンにします。 </li> 
+     <li id="li_675E429DC3B94201978166F9408D30B1">「<span class="uicontrol">位置で分類</span>」の横にあるチェックボックスをオンにします。 </li> 
      <li id="li_E8A417D0D6D1438CAE825843BA0A7060">並べ替え順序または日付範囲を変更すると、分類はハードコードされた行ではなく行の位置に基づいておこなわれます。 </li> 
     </ol> <p>デフォルトでは無効です。 </p> </td> 
   </tr> 
