@@ -1,25 +1,25 @@
 ---
-title: Analyticsディメンションの互換性
-description: Analyticsのディメンションおよびレポートに関するリファレンス。
-translation-type: tm+mt
+title: Analytics のディメンションの互換性
+description: Analytics のディメンションおよびレポートに関するリファレンス。
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Analyticsディメンションの互換性
+# Analytics のディメンションの互換性
 
-この参照記事では、Reports &amp; AnalyticsとAnalysis Workspaceの両方でサポートされるディメンション/レポート、Analysis Workspaceのみ、Reports &amp; Analyticsのみでサポートされるディメンション/レポートを示します。
+この参照記事では、Reports &amp; Analytics と Analysis Workspace の両方、Analysis Workspace のみ、および Reports &amp; Analytics のみでサポートされているディメンションを一覧で紹介します。
 
 次の点に注意してください。
 
 * ここに提示するのは完全なリストではありません。各レポートスイートには、製品の変数が有効化された特定のセットが含まれることも、含まれないこともあります。また、特定のレポートスイートでは、任意の数のカスタム変数が有効化、無効化、または製品変数にマッピングされている場合があります。また、訪問者の属性と分類は、各レポートスイートに固有のため省略しています。
 
-* There are some cases of overlap, where Analytics tools use different terms for what is essentially the same thing, for example: `browserwidth` and `browserwidthbucketed`.
+* `browserwidth` と `browserwidthbucketed` など、Analytics ツールが本質的に同じものに対して異なる用語を使用している場合は、重複する場合があります。
 
 ## Reports &amp; Analytics と Analysis Workspace の両方でサポートされているディメンション
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |---|---|
 | Analytics for Target | targetraw |
 | オーディエンス ID | mcaudiences |
@@ -32,8 +32,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | cookie サポート | cookie |
 | 国 | geocountry |
 | 顧客の忠誠度 | customerloyalty |
-| カスタムコンバージョン VAR | evar1、evar2など |
-| カスタムインサイト VAR | prop1、prop2など |
+| カスタムコンバージョン VAR | evar1、evar2 など |
+| カスタムインサイト VAR | prop1、prop2 など |
 | カスタムリンク | customlink |
 | 初回購入までの日数 | daysbeforefirstpurchase |
 | 前回購入からの日数 | dayssincelastpurchase |
@@ -41,16 +41,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | ダウンロードリンク | downloadlink |
 | 入口ページ | entrypage |
 | オリジナルの入口ページ | entrypageoriginal |
-| 離脱リンク | exitlink |
+| 出口リンク | exitlink |
 | ファーストタッチチャネル | firsttouchchannel |
 | ファーストタッチチャネルの詳細 | firsttouchchanneldetail |
-| Javaが有効 | javaenabled |
+| Java 有効 | javaenabled |
 | 言語 | language |
 | ラストタッチチャネル | lasttouchchannel |
 | ラストタッチチャネルの詳細 | lasttouchchanneldetail |
 | リスト変数 | listvariables |
 | マーケティングチャネル | marketingchannel |
-| モバイルのオーディオ サポート | mobileaudiosupport |
+| モバイルのオーディオサポート | mobileaudiosupport |
 | 携帯電話会社 | mobilecarrier |
 | モバイルの画面の色 | mobilecolordepth |
 | モバイルの cookie サポート | mobilecookiesupport |
@@ -59,12 +59,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | モバイルの電子メール最大長 | mobileemaillength |
 | モバイルの画像サポート | mobileimagesupport |
 | モバイルの製造元 | mobilemanufacturer |
-| モバイルオペレーティングシステム (非推奨) | mobileos |
+| モバイルオペレーティングシステム（非推奨） | mobileos |
 | モバイルの画面の高さ | mobilescreenheight |
 | モバイルの画面のサイズ | mobilescreensize |
 | モバイルの画面の幅 | mobilescreenwidth |
 | モバイルのブラウザー URL 最大長 | mobileurllength |
-| モバイルのビデオ サポート | mobilevideosupport |
+| モバイルのビデオサポート | mobilevideosupport |
 | 画面の解像度 | monitorresolution |
 | オペレーティングシステム | operatingsystem |
 | オリジナルの参照ドメイン | referringdomainoriginal |
@@ -95,17 +95,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 訪問別滞在時間 - グループ | timespent |
 | 訪問の深さ | pathlength |
 | 訪問回数 | visitnumber |
-| 郵便番号 | zip |
+| 郵便番号 | 郵便番号 |
 
 ## Analysis Workspace のみでサポートされているディメンション
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | 午前 / 午後 | timepartampm |
 | ブラウザーの高さ - グループ | browserheightbucketed |
 | ブラウザーの幅 - グループ | browserwidthbucketed |
 | 日 | daterangeday |
-| 月間通算日 | timepartdayofmonth |
+| 日付 | timepartdayofmonth |
 | 曜日 | dayofweek |
 | 曜日 | timepartdayofweek |
 | 年間通算日 | timepartdayofyear |
@@ -126,15 +126,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | マーケティングチャネル詳細 | marketingchanneldetail |
 | 分 | daterangeminute |
 | モバイルのブックマーク最大長 | mobilebookmarklength |
-| Mobile Device Number | mobiledevicenumber |
+| モバイルデバイス番号 | mobiledevicenumber |
 | モバイル DRM | mobiledrm |
 | モバイル情報サービス | mobileinformationservices |
 | モバイル Java VM | mobilejavavm |
 | モバイルデコレーションメール | mobilemaildecoration |
-| モバイル インターネット プロトコル | mobilenetprotocols |
+| モバイルインターネットプロトコル | mobilenetprotocols |
 | モバイルプッシュトゥトーク | mobilepushtotalk |
 | 月 | daterangemonth |
-| 年間通算月 | timepartmonthofyear |
+| 月 | timepartmonthofyear |
 | オペレーティングシステムの種類 | operatingsystemgroup |
 | 有料検索 | paidsearch |
 | 永続的な cookie のサポート | persistentcookie |
@@ -142,7 +142,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 四半期 | timepartquarterofyear |
 | 調査 | surveybase |
 | ページでの滞在時間 - グループ | averagepagetime |
-| ページでの平均滞在時間 - 詳細 | pagetimeseconds |
+| ページでの滞在時間 - 詳細 | pagetimeseconds |
 | トラッキングオプトアウト理由 | optoutreason |
 | 平日 / 週末 | timepartweekdayweekend |
 | 週 | daterangeweek |
@@ -150,7 +150,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Analysis Workspace のみでサポートされているコンテンツに応じたディメンション
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | Activity Map XY | clickmapxy |
 | メディアセッション ID | videosessionid |
@@ -161,7 +161,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Reports &amp; Analytics のみでサポートされているディメンション
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | ブラウザーの高さ | browserheight |
 | ブラウザーの幅 | browserwidth |
@@ -191,7 +191,7 @@ Reports &amp; Analytics には、特定のディメンションにマッピン�
 * クロス販売
 * カスタムイベントファネル
 * デコメ対応
-* 機体番号送信 (オン/オフ)
+* 機体番号送信（オン/オフ）
 * ドメイン
 * DRM
 * 入口ページ
@@ -242,9 +242,9 @@ Reports &amp; Analytics には、特定のディメンションにマッピン�
 
 ## Reports &amp; Analytics と Analysis Workspace の両方でサポートされているコンテンツに応じたディメンション
 
-### ビデオ (メディア分析)
+### ビデオ（メディア分析）
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | コンテンツ | video |
 | コンテンツセグメント | videosegment |
@@ -294,7 +294,7 @@ Reports &amp; Analytics には、特定のディメンションにマッピン�
 
 ### Adobe Social
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | キーワード | socialterm |
 | Social プラットフォーム／プロパティ | socialcontentprovider |
@@ -316,27 +316,27 @@ Reports &amp; Analytics には、特定のディメンションにマッピン�
 
 ### モバイル SDK
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | 初回起動日 | mobileinstalldate |
 | アプリケーション ID | mobileappid |
 | 起動回数 | mobilelaunchnumber |
 | 初回使用からの日数 | mobiledayssincefirstuse |
 | 前回使用からの日数 | mobiledayssincelastuse |
-| 時間帯 (SDK) | mobilehourofday |
-| 曜日 (SDK) | mobiledayofweek |
-| オペレーティングシステム (SDK) | mobileosenvironment |
+| 時間帯（SDK） | mobilehourofday |
+| 曜日（SDK） | mobiledayofweek |
+| オペレーティングシステム（SDK） | mobileosenvironment |
 | 前回アップグレードからの日数 | mobiledayssincelastupgrade |
 | 前回アップグレードからの起動回数 | mobilelaunchessincelastupgrade |
-| 機種名 (SDK) | mobiledevice |
-| オペレーティングシステムのバージョン (SDK) | mobileosversion |
+| 機種名（SDK） | mobiledevice |
+| オペレーティングシステムのバージョン（SDK） | mobileosversion |
 | ビーコンの Major | mobilebeaconmajor |
 | ビーコンの Minor | mobilebeaconminor |
 | ビーコンの UUID | mobilebeaconuuid |
 | ビーコンの Proximity | mobilebeaconproximity |
-| ロケーション (半径 10 km 以内) | latlon1 |
-| ロケーション (半径 100 m 以内) | latlon23 |
-| ロケーション (半径 1 m 以内) | latlon45 |
+| ロケーション（半径 10 km 以内） | latlon1 |
+| ロケーション（半径 100 m 以内） | latlon23 |
+| ロケーション（半径 1 m 以内） | latlon45 |
 | 目標点名 | pointofinterest |
 | 目標地点の中心までの距離 | pointofinterestdistance |
 | ロケーション精度 | mobileplaceaccuracy |
@@ -351,16 +351,16 @@ Reports &amp; Analytics には、特定のディメンションにマッピン�
 | 入口ビーコンの Proximity | entrymobilebeaconproximity |
 | 出口ビーコンの Proximity | exitmobilebeaconproximity |
 
-### Adobe Advertising Cloud(AMO)
+### Adobe Advertising Cloud (AMO)
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | AMO EF ID | amo_ef_id |
 | AMO ID | amo_cid |
 
 ### Activity Map
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | Activity Map 地域別リンク | clickmaplinkbyregion |
 | Activity Map 地域 | clickmapregion |
@@ -369,9 +369,9 @@ Reports &amp; Analytics には、特定のディメンションにマッピン�
 
 ### Nielsen 統合
 
-この統合の実装方法の詳細については、[Nielsen パートナーシップ](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html)を参照してください。
+この統合の実装方法の詳細については、[Nielsen パートナーシップ](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)を参照してください。
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | Nielsen 広告モデル | nielsenadmodel |
 | Nielsen セグメント C | nielsensegmentc |
@@ -390,9 +390,9 @@ Reports &amp; Analytics には、特定のディメンションにマッピン�
 | 入口 Nielsen クライアント ID | entrynielsenclientid |
 | 出口 Nielsen クライアント ID | exitnielsenclientid |
 
-### Adobe Experience Manager  （AEM）
+### Adobe Experience Manager(AEM)
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | アセット ID | aemassetid |
 | アセットソース | aemassetsource |
@@ -402,6 +402,6 @@ Reports &amp; Analytics には、特定のディメンションにマッピン�
 
 ### Adobe Campaign
 
-| ディメンション名（Analytics UIに表示） | ディメンション ID (API リクエストで使用) |
+| ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
 | Adobe Campaign 実行された配信 ID | ac_delivery_internal_name |
