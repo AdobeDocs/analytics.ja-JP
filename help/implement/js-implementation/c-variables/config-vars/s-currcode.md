@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 複数の通貨で販売している場合は、JavaScript ファイルの代わりに HTML ページで *`currencyCode`* 変数を生成することをお勧めします。アドビが使用するコンバージョン率ではない、独自のコンバージョン率を使用したい場合は、*`currencyCode`* をレポートスイートの基本通貨と同じに設定します。その上で、すべての売上高を換算してから、[!DNL Analytics] に送信します。
 
-通貨換算は、売上高と通貨イベントの両方に適用されます。通貨イベントとは、税金や送料など、売上高に類似した値を合計するために使用するイベントです。売上高および通貨イベントは、製品文字列内で指定します。products について詳しくは、「[イベント](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html)」を参照してください。
+通貨換算は、売上高と通貨イベントの両方に適用されます。通貨イベントとは、税金や送料など、売上高に類似した値を合計するために使用するイベントです。売上高および通貨イベントは、製品文字列内で指定します。products について詳しくは、「[イベント](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/analytics-basics/ref-events.html)」を参照してください。
 
 ## 構文と可能な値
 
@@ -50,6 +50,6 @@ Adobe [!DNL Customer Care] が、レポートスイートのデフォルトの�
 * レポートの売上高が驚くほど多い場合は、レポートスイートの *`currencyCode`* 変数とベース通貨が正しく設定されていることを確認し、正しく設定してください。
 * *`currencyCode`* 変数は永続的ではありません。つまり、この変数は売上高やその他の通貨関連指標と同じイメージリクエスト内で渡す必要があります。
 * 通貨イベントは、通貨以外の目的では使用しないでください。通貨ではない任意の値または動的な値をカウントする必要がある場合は、[!UICONTROL 数値]イベントタイプを使用してください。
-* When *`currencyCode`* 変数が空の場合は、換算は適用されません。
+* *`currencyCode`* 変数が空の場合は、換算は適用されません。
 
-詳しくは、「通貨コード」を参 [照してください](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html)。
+詳しくは、[通貨コード](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/currency.html)を参照してください。
