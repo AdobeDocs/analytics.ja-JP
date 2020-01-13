@@ -2,7 +2,7 @@
 description: 'null'
 title: インテリジェントアラート - 使用例
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,9 +20,9 @@ Update screenshots for better readability.
 
 ![](assets/alerts_example1.png)
 
-## テーブルの選択範囲からアラートを作成します。{#section_AE6D42E1255D498D908A2FA60370A419}
+## テーブルの選択範囲からアラートを作成する {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL Create Alert from Selection]**.
+フリーフォームテーブルで、テーブル行を右クリックして「**[!UICONTROL 選択からアラートを作成]**」を選択することで、コンテキスト内アラートを作成できるようになりました。
 
 ![](assets/alert_selection.png)
 
