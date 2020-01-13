@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 seo-description: 動的変数を使用すると、サイトのイメージリクエストで完全な値を複数回入力することなく、ある変数の値を別の変数にコピーできます。
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1773e84809e04b3be25c77bf1fb8ad8317b7f8c0
 
 ---
@@ -12,10 +12,10 @@ source-git-commit: 1773e84809e04b3be25c77bf1fb8ad8317b7f8c0
 
 # s-linkURL
 
-The URL of the link, which acts as the name if a `linkName` does not exist. どの URL 文字列にも設定できます。これはイメージリクエストの `pev1` パラメーターです。
+リンクの URL。`linkName` がない場合には名前として使用されます。どの URL 文字列にも設定できます。これはイメージリクエストの `pev1` パラメーターです。
 
 
-If set with [`linkType`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html), an image request will be sent as a download, custom or exit link.
+[`linkType`](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) と共に設定される場合、イメージリクエストはダウンロードカスタムリンクまたは出口リンクとして送信されます。
 
 
 **例**
