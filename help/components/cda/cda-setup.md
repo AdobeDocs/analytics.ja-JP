@@ -23,7 +23,7 @@ source-git-commit: 8c5e8d18ce4e09049d3fea07b8dd75ded6894313
 
 仮想レポートスイートを作成するアクセス権を持つ管理者は、次の手順で CDA 仮想レポートスイートを作成できます。
 
-1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動し、AdobeIDの資格情報を使用してログインします。
+1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動し、Adobe IDの資格情報を使用してログインします。
 2. 上部の 9 グリッドアイコンをクリックし、「Analytics」をクリックします。
 3. 上部の「コンポーネント」の上にカーソルを置き、「仮想レポートスイート」をクリックします。
 4. 「追加」をクリックします。
