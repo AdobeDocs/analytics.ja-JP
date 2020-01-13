@@ -1,7 +1,7 @@
 ---
 title: Analytics 統合ヘルプ
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ![バナー](../../assets/doc_banner_integrate.png)
 
-このガイドでは、複数のExperience cloudソリューションの統合に焦点を当てています。 Analytics Data Connectorsを探している場合は、インポートユーザーガイドの [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) ページを参照してください。
+このガイドでは、複数の Experience Cloud ソリューションの統合に焦点を当てています。Analytics Data Connectors をお探しの場合は、インポートユーザーガイドの [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) ページを参照してください。
 
 Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。以下のようなものがあります。
 
@@ -32,7 +32,7 @@ Audience Manager、Advertising Cloud、Target など、他の Adobe Experience C
 
 ## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
