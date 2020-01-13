@@ -1,7 +1,7 @@
 ---
 title: 開発環境への Adobe Analytics のデプロイ
 description: Adobe Experience Platform Launch を使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ Launch でプロパティが作成および設定されると、サイト上で�
 
 Launch は、コードをデプロイする多くの組織的なワークフローに対応しています。Analytics の実装に最低限必要なコンポーネントを作成するには、次の手順に従います。Launch 管理者は組織内で協力して、アドビソリューションのデプロイに適したワークフローを確立できます。
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動し、プロンプトで要求された場合はログインします。
+1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
 2. サイトに実装する Launch プロパティをクリックします。
 3. 「アダプター」タブをクリックし、「アダプターの追加」をクリックします。
 4. 「Akamai」という名前を付け、タイプドロップダウンで「Akamai」を選択します。「保存」をクリックします。
@@ -32,7 +32,7 @@ Launch は、コードをデプロイする多くの組織的なワークフロ�
 
 ここまでにおこなったすべての変更や設定にもかかわらず、実際にはコードは公開されていません。ライブラリ（変更の集まりのようなもの）を作成すれば、サイトで使用するコードを公開できます。
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動し、プロンプトで要求された場合はログインします。
+1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
 2. サイトに実装する Launch プロパティをクリックします。
 3. 「公開」タブをクリックし、「新しいライブラリの追加」をクリックします。
 4. ライブラリに「初期変更」という名前を付け、開発環境を選択します。
@@ -69,8 +69,8 @@ Web サイトのコードを制御する場合は、サイトの各ページの�
 
 ## ドキュメントとその他のリソース
 
-- [Launchの概要](https://docs.adobelaunch.com/getting-started):起動の基本的なワークフローについて説明します。
-- [起動管理](https://docs.adobelaunch.com/administration):アダプタと環境の詳細
+- [はじめに](https://docs.adobelaunch.com/getting-started)：Launch の基本を学習します。
+- [Launch の管理](https://docs.adobelaunch.com/administration)：アダプアーと環境についての詳細。
 
 ## 次の手順
 
