@@ -2,7 +2,7 @@
 description: 検索可能にする各 ID には、名前空間が割り当てられます。名前空間とは、すべてのレポートスイートにわたって使用される任意の変数でその ID を識別するカスタム文字列のことです。
 title: 名前空間
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
@@ -108,4 +108,4 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 > [!CAUTION] 名前空間「visitorId」と「customVisitorId」は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
 
-詳しくは、「[変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](/help/admin/c-data-governance/gdpr-labels.md)」を参照してください。
+詳しくは、[変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供](/help/admin/c-data-governance/gdpr-labels.md)を参照してください。
