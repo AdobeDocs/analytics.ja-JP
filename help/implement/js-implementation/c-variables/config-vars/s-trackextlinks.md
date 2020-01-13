@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -11,17 +11,17 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 # s.trackExternalLinks
 
-「true」の場合、 および を使用して、クリックされたリンクが離脱リンクかどうかを判別します。
+「true」の場合、クリックされたリンクが出口リンクかどうかを判別します。
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
 | 該当なし | 該当なし | 該当なし | True |
 
-Folio Builder *`trackExternalLinks`*&#x200B;サイトに離脱リンクがない場合、または離脱リンクのクリック数を追跡する必要がない場合は、trackExternalLinks 変数を「false」に設定してください。出口リンクは、訪問者がサイトから出て行くすべてのリンクです。if *`trackExternalLinks`* が「true」の場合、離脱リンクをクリックすると、トラッキングデータが直ちに送信されます。離脱リンクで送信されるデータには、リンクの URL、リンク名、そのリンクの訪問者クリックマップ用のデータが含まれます。if *`trackExternalLinks`* が「false」の場合は、サイト上の離脱リンクの訪問者クリックマップ用のデータがレポートで少なくカウントされることがあります。
+*`trackExternalLinks`*&#x200B;サイトに出口リンクがない場合、または出口リンクのクリック数を追跡する必要がない場合は、trackExternalLinks 変数を「false」に設定してください。出口リンクは、訪問者がサイトから出て行くすべてのリンクです。*`trackExternalLinks`* が「true」の場合、出口リンクをクリックすると、トラッキングデータが直ちに送信されます。出口リンクで送信されるデータには、リンクの URL、リンク名、そのリンクの訪問者クリックマップ用のデータが含まれます。*`trackExternalLinks`* が「false」の場合は、サイト上の出口リンクの訪問者クリックマップ用のデータがレポートで少なくカウントされることがあります。
 
 ## 構文と可能な値
 
-*`trackExternalLinks`変数には、「true」または「false」を設定する必要があります。*
+*`trackExternalLinks`* 変数には、「true」または「false」を設定する必要があります。
 
 ```
 js
@@ -48,11 +48,11 @@ s.trackExternalLinks=false
 
 * *`trackExternalLinks`* が「false」の場合、訪問者がサイトから出て行くリンクは、訪問者クリップマップでのレポートで少なくカウントされることがあります。
 
-* *`trackExternalLinks`* が「true」の場合、訪問者が離脱リンクをクリックするたびに、（リンクターゲットが読み込まれる前に）データが送信されます。
+* *`trackExternalLinks`* が「true」の場合、訪問者が出口リンクをクリックするたびに、（リンクターゲットが読み込まれる前に）データが送信されます。
 
-## 離脱リンクとファイルのダウンロード数の自動トラッキング
+## 出口リンクとファイルのダウンロード数の自動トラッキング
 
-ファイルのダウンロードのファイルタイプおよび離脱リンクを定義するパラメーターに基づき、ファイルのダウンロード数と離脱リンクを自動的に追跡するよう JavaScript ファイルを設定できます。
+ファイルのダウンロードのファイルタイプおよび出口リンクを定義するパラメーターに基づき、ファイルのダウンロード数と出口リンクを自動的に追跡するよう JavaScript ファイルを設定できます。
 
 自動トラッキングを制御するパラメーターは、以下のとおりです。
 
@@ -64,19 +64,19 @@ s.linkInternalFilters="javascript:,mysite.com,[more filters here]"
 s.linkLeaveQueryString=false 
 ```
 
-パラメーター  `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. 有効にすると、の値のいずれかに一致するファイルタイプを持つリンクは、自動的にフ `linkDownloadFileTypes` ァイルのダウンロードとして追跡されます。 の値を含まないURLを含むリンクは、離脱リンクとし `linkInternalFilters` て自動的に追跡されます。
+パラメーター`trackDownloadLinks` および `trackExternalLinks` によって、ファイルのダウンロードと出口リンクの自動トラッキングが有効かどうかを指定します。有効にすると、`linkDownloadFileTypes` の値のいずれかに一致するファイルタイプを持つリンクは、自動的にファイルのダウンロードとして追跡されます。`linkInternalFilters` の値を含まない URL を使用するリンクは、出口リンクとして自動的に追跡されます。
 
-In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+JavaScript H.25.4（2013 年 2 月にリリース）での更新により、出口リンクの自動トラッキングで、`HREF` 属性が `#`、`about:`、または `javascript:` で始まるリンクが常に無視されるようになりました。
 
 ### 例 1
 
-ファイルタイプとは上 `.jpg` 記に含ま `.aspx` れていないので、フ `linkDownloadFileTypes` ァイルのクリック数は自動的にファイルのダウンロード数として追跡およびレポートされません。
+`.jpg` および `.aspx` ファイルタイプは上記の `linkDownloadFileTypes` に含まれていないので、ファイルのクリック数は自動的にファイルのダウンロード数として追跡およびレポートされません。
 
-The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. `linkLeaveQueryString`=falseの場合、離脱リンクは、リンクURLのドメイン、パス、ファイル部分のみを使用して決定されます。 When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
+パラメーター `linkLeaveQueryString` によって、出口リンクの判定に使用するロジックが変更されます。`linkLeaveQueryString` が false の場合、出口リンクはリンク URL のドメイン、パス、ファイル部分のみを使用して判定されます。`linkLeaveQueryString` が true の場合、リンク URL のクエリー文字列部分も出口リンクの判定に使用されます。
 
 ### 例 2
 
-次の設定の場合、以下の例は離脱リンクとしてカウントされます。
+次の設定の場合、以下の例は出口リンクとしてカウントされます。
 
 ```
 //JS file  
@@ -89,7 +89,7 @@ s.linkLeaveQueryString=false
 
 ### 例 3
 
-次の設定の場合、以下のリンクは離脱リンクとしてカウントされません。
+次の設定の場合、以下のリンクは出口リンクとしてカウントされません。
 
 ```
 //JS file  
@@ -100,4 +100,4 @@ s.linkLeaveQueryString=true
 <a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
 ```
 
-*注意：単一リンクはファイルのダウンロードまたは離脱リンクとしてのみ追跡できます（ファイルのダウンロードが優先されます）。リンクがパラメーターに基づいて離脱リンクとファイルのダウンロードの両方で、およびに基づいて`linkDownloadFileTypes``linkInternalFilters`いる場合、離脱リンクではなくファイルのダウンロードとして追跡およびレポートされます。*
+*注意：単一リンクはファイルのダウンロードまたは出口リンクとしてのみ追跡できます（ファイルのダウンロードが優先されます）。リンクが出口リンクであるだけでなく、`linkDownloadFileTypes`および`linkInternalFilters`パラメーターに基づいたファイルのダウンロードでもある場合、出口リンクではなくファイルのダウンロードとして追跡およびレポートされます。*
