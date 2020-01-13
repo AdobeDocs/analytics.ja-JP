@@ -2,7 +2,7 @@
 description: 'null'
 title: フロービジュアライゼーションの設定
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,12 +32,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 図のパスは比例します。アクティビティの多いパスは太く表示されます。
 
-図のノードをクリックすると、そのノードの詳細が表示されます。例えば、上部の図の右上にある「**[!UICONTROL Search Results]」（検索結果）をクリックすると、図が展開されて、検索結果ノードに関する詳細が表示されます。**&#x200B;折りたたむには、もう一度ノードをクリックします。
+図のノードをクリックすると、そのノードの詳細が表示されます。例えば、上部の図の右上にある「**[!UICONTROL Search Results]**」（検索結果）をクリックすると、図が展開されて、検索結果ノードに関する詳細が表示されます。折りたたむには、もう一度ノードをクリックします。
 
 ![](assets/flow3.jpg)
 
-デフォルトでは、図には上位 5 つのフローが表示されます。図の下部にある「**[!UICONTROL さらに x 件]」ノードをクリックすると、図が展開されて、5 位以下のフローが表示されます。**&#x200B;引き続き「**[!UICONTROL さらに x 件]」をクリックして、追加のフローが表示されなくなるまで展開します。**
+デフォルトでは、図には上位 5 つのフローが表示されます。図の下部にある「**[!UICONTROL さらに x 件]**」ノードをクリックすると、図が展開されて、5 位以下のフローが表示されます。引き続き「**[!UICONTROL さらに x 件]**」をクリックして、追加のフローが表示されなくなるまで展開します。
 
 フロー図内で表示できるフロー数に制限はありません。
 
-You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV]**.
+さらに、**[!UICONTROL プロジェクト]**／**[!UICONTROL CSV をダウンロード]**&#x200B;に移動して、プロジェクトの .CSV ファイルの一部としてフロー図を書き出し、分析することもできます。
