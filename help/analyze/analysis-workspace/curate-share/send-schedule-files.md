@@ -2,7 +2,7 @@
 description: プロジェクトの共有とキュレーションをおこなえるほか、今すぐまたはスケジュールに従って、プロジェクトファイルを（PDF または CSV 形式で）送信できます。
 title: プロジェクトファイルの共有およびスケジュール
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 プロジェクトの共有とキュレーションをおこなえるほか、今すぐまたはスケジュールに従って、プロジェクトファイルを（PDF または CSV 形式で）送信できます。
 
-**[!UICONTROL 職場]** /共 **[!UICONTROL 有]**
+**[!UICONTROL 勤務先]**／**[!UICONTROL 共有]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
