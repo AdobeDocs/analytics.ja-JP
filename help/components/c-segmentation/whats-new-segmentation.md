@@ -1,8 +1,8 @@
 ---
-description: Analytics のセグメントの新機能。
+description: Adobe Analytics のセグメントの新機能。
 title: Analytics のセグメントの新機能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Analytics のセグメントの新機能
 
-Analytics のセグメントの新機能。
+Adobe Analytics のセグメントの新機能。
 
 * [2016 年 11 月](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2016 年 10 月](/help/components/c-segmentation/whats-new-segmentation.md)
@@ -24,7 +24,7 @@ Analytics のセグメントの新機能。
 * [2014 年 9 月](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2014 年 8 月](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2014 年 7 月](/help/components/c-segmentation/whats-new-segmentation.md)
-* [2014年5月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014 年 5 月](/help/components/c-segmentation/whats-new-segmentation.md)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -51,7 +51,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>セグメント内の日付範囲 </p> </td> 
-   <td colname="col2"> <p>実施中のキャンペーンやイベントに関する質問に回答するため、日付範囲の周期を含むセグメントを構築できます。例えば、「過去60日間に購入したすべてのユーザー」を含むセグメントを簡単に作成できます。 </p> <p> <p>注意：この機能は、Ad Hoc Analysis では使用できません。 </p> </p> </td> 
+   <td colname="col2"> <p>実施中のキャンペーンやイベントに関する質問に回答するため、日付範囲の周期を含むセグメントを構築できます。例えば、「過去 60 日間に購入したすべてのユーザー」を含むセグメントを容易に構築できるようになりました。 </p> <p> <p>注意：この機能は、Ad Hoc Analysis では使用できません。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,10 +70,10 @@ Analytics のセグメントの新機能。
   </tr> 
   <tr> 
    <td colname="col1"> <p>順次セグメントでのディメンション制約 </p> </td> 
-   <td colname="col2"> <p>「within」句のTHENステートメントの間に、例えば「within 1 search keyword instance」や「within 1 eVar 47 instance」などを追加できます。 これにより、ディメンションの 1 個のインスタンス内にセグメントが制限されます。 </p> </td> 
+   <td colname="col2"> <p>「within」句の「THEN」ステートメントの間に、例えば「within 1 search keyword instance（1 個の検索キーワードのインスタンス内）」や「within 1 eVar 47 instance（1 個の eVar 47 インスタンス内）」というように追加できます。これにより、ディメンションの 1 個のインスタンス内にセグメントが制限されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  >フォールアウト分析でのセグメントの使用 </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace：<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/fallout_flow.html"  >フォールアウト分析でのセグメントの使用 </a> </p> </td> 
    <td colname="col2"> <p>タッチポイントからセグメントを作成したり、セグメントをタッチポイントとして追加したり、Analysis Workspace の様々なセグメントにわたって主なワークフローを比較したりできます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace／セグメント比較 </p> </td> 
-   <td colname="col2"> <p> Analysis Workspace の<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  >セグメント比較</a>（セグメント IQ）パネルを使用すると、Analytics の任意の 2 つのセグメントをすばやく比較して、すべてのデータポイントにわたって、最も大きな違いを見つけることができます。 </p> </td> 
+   <td colname="col2"> <p> Analysis Workspace の<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/segment-comparison.html"  >セグメント比較</a>（セグメント IQ）パネルを使用すると、Analytics の任意の 2 つのセグメントをすばやく比較して、すべてのデータポイントにわたって、最も大きな違いを見つけることができます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> セグメントを作成</span>権限 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >セグメントを作成権限</a>がないユーザーはセグメントビルダーにアクセスできなくなりました。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html"  >セグメントを作成権限</a>がないユーザーはセグメントビルダーにアクセスできなくなりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse：セグメントによる分類 </p> </td> 
-   <td colname="col2"> <p>次のサポートを追加しました。<span class="wintitle">セグメントによる分類</span>のサポートが追加されました。標準（項目）およびカスタム（インサイト）による分類に加えて、セグメント別にレポートを分類できるようになりました。「<span class="wintitle">セグメント</span>」タブを選択すると、<span class="wintitle">選択可能なセグメント</span>ドロップダウンリストで提供されたセグメントと同じセットのリストが入力されます。 </p> <p>行項目がセグメントのメンバーである場合、値は「1」で、項目はセグメントレポート「0」以外で報告されます。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">セグメントによる分類</span>のサポートが追加されました。標準（項目）およびカスタム（インサイト）による分類に加えて、セグメント別にレポートを分類できるようになりました。「<span class="wintitle">セグメント</span>」タブを選択すると、<span class="wintitle">選択可能なセグメント</span>ドロップダウンリストで提供されたセグメントと同じセットのリストが入力されます。 </p> <p>行項目がセグメントのメンバーである場合に「1」の値が、そうでない場合は「0」が入ります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,7 +148,7 @@ Analytics のセグメントの新機能。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Data Warehouse：セグメントのスタック </p> </td> 
+   <td colname="col1"> <p>Data Warehouse: セグメントの積み重ね </p> </td> 
    <td colname="col2"> <p>複数セグメント（セグメントのスタック）のサポートが Data Warehouse に追加されました。 </p> <p>複数のセグメントを選択すると、プレビュー領域に、セグメント名がコンマで区切って表示されるようになりました（例：セグメント 1, セグメント 2）。また、同様のリストが表示されるように、リクエストマネージャーページとリクエストの詳細ポップアップウィンドウも更新されました。 </p> </td> 
   </tr> 
   <tr> 
@@ -168,7 +168,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>セグメントビルダーの権限の変更 </p> </td> 
-   <td colname="col2"> <p>管理者ユーザーは、新しいセグメントを作成できるユーザーを制限できます。デフォルトでは、すべてのユーザーがセグメントを作成できます。<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > さらに詳しく...</a> </p> </td> 
+   <td colname="col2"> <p>管理者ユーザーは、新しいセグメントを作成できるユーザーを制限できます。デフォルトでは、すべてのユーザーがセグメントを作成できます。<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html"  >さらに詳しく...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -198,19 +198,19 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 一貫した名前の付いたセグメント演算子 </p> </td> 
-   <td colname="col2"> <p> Reports &amp; Analytics および Ad Hoc Analysis で、セグメントを作成する際に、一貫した演算子と演算子名が使用されるようになりました。 </p> <p><b>新しい演算子</b> </p> <p>列挙された文字列に基づいてセグメント化する際の、「存在する」<span class="wintitle"></span>および「存在しない」<span class="wintitle"></span>演算子が Reports &amp; Analytics に追加されました。 </p> <p>文字列値に基づいてセグメント化する際の、「次の語句のすべてを含まない」<span class="wintitle"></span>および「次の語句のいずれも含まない」<span class="wintitle"></span>演算子が Ad Hoc Analysis に追加されました。 </p> <p><b>名前が変更された演算子</b> </p> <p>Reports &amp; Analytics： </p> 
+   <td colname="col2"> <p> Reports &amp; Analytics および Ad Hoc Analysis で、セグメントを作成する際に、一貫した演算子と演算子名が使用されるようになりました。 </p> <p><b>新しい演算子</b> </p> <p>列挙された文字列に基づいてセグメント化する際の、「<span class="wintitle">存在する</span>」および「<span class="wintitle">存在しない</span>」演算子が Reports &amp; Analytics に追加されました。 </p> <p>文字列値に基づいてセグメント化する際の、「<span class="wintitle">次の語句のすべてを含まない</span>」および「<span class="wintitle">次の語句のいずれも含まない</span>」演算子が Ad Hoc Analysis に追加されました。 </p> <p><b>名前が変更された演算子</b> </p> <p>Reports &amp; Analytics： </p> 
     <ul id="ul_5CD24677CF5A456FBCC5D2C19067F979"> 
-     <li id="li_40203624AFE2402C8B95FADEAF186091"> <span class="wintitle"></span>「次のすべてを含まない」は<span class="wintitle"></span>「次の語句のすべてを含まない」に変更されました。 </li> 
-     <li id="li_1152DF6AA6064FC29498F37BDCC36B2A"><span class="wintitle"></span>「does not contains any of」 は <span class="wintitle"></span>「does not contain any of」（次の語句のいずれも含まない）に変更されました。 </li> 
+     <li id="li_40203624AFE2402C8B95FADEAF186091"> 「<span class="wintitle">次のすべてを含まない</span>」は「<span class="wintitle">次の語句のすべてを含まない</span>」に変更されました。 </li> 
+     <li id="li_1152DF6AA6064FC29498F37BDCC36B2A">「<span class="wintitle">次のいずれも含まない</span>」は「<span class="wintitle">次の語句のいずれも含まない</span>」に変更されました。 </li> 
     </ul> <p>Ad Hoc Analysis： </p> 
     <ul id="ul_FF23ECD55AFC4AF1A7A5B9D95A892DB1"> 
-     <li id="li_6186A838DB0341858A6EB00AE945F059"><span class="wintitle"></span>「次のいずれも含まない」は<span class="wintitle"></span>「次のいずれかを含む」に変更されました。 </li> 
-     <li id="li_A18936F850B44F4CBC364083E6161A8D">「<span class="wintitle">null でない</span>」は<span class="wintitle"></span>「が存在する」に変更されました。 </li> 
-     <li id="li_4D6C7AA88A934BA0BFCDCAE62F201117">「<span class="wintitle">値が null</span>」は<span class="wintitle"></span>「が存在しない」に変更されました。 </li> 
-     <li id="li_4AE0CCB967D94B66A4330A7C0C7A7C0C"><span class="wintitle"></span>「等しい（ワイルドカード付き）」は<span class="wintitle"></span>「次を含む」に変更されました。 </li> 
-     <li id="li_5DACF6A942EF4F0DA1D20A8F54840968"><span class="wintitle"></span>「等しくない（ワイルドカード付き）」は<span class="wintitle"></span>「次を含まない」に変更されました。 </li> 
-     <li id="li_F74E13357A58418CB285EB04E12C7B8A"><span class="wintitle"></span>「イベントが存在する」は<span class="wintitle"></span>「が存在する」に変更されました。 </li> 
-     <li id="li_2211576599484626BE53B203E300DC1D"><span class="wintitle"></span>「イベントが存在しない」は「が存在しない」<span class="wintitle"></span>に変更されました。 </li> 
+     <li id="li_6186A838DB0341858A6EB00AE945F059">「<span class="wintitle">次のいずれかを含む</span>」は「<span class="wintitle">次の語句のいずれかを含む</span>」に変更されました。 </li> 
+     <li id="li_A18936F850B44F4CBC364083E6161A8D">「<span class="wintitle">null でない</span>」は「<span class="wintitle">が存在する</span>」に変更されました。 </li> 
+     <li id="li_4D6C7AA88A934BA0BFCDCAE62F201117">「<span class="wintitle">値が null</span>」は「<span class="wintitle">が存在しない</span>」に変更されました。 </li> 
+     <li id="li_4AE0CCB967D94B66A4330A7C0C7A7C0C">「<span class="wintitle">等しい</span>（ワイルドカード使用）」は「<span class="wintitle">次を含む</span>」に変更されました。 </li> 
+     <li id="li_5DACF6A942EF4F0DA1D20A8F54840968">「<span class="wintitle">等しくない</span>（ワイルドカード使用）」は「<span class="wintitle">次を含まない</span>」に変更されました。 </li> 
+     <li id="li_F74E13357A58418CB285EB04E12C7B8A">「<span class="wintitle">イベントが存在する</span>」は「<span class="wintitle">が存在する</span>」に変更されました。 </li> 
+     <li id="li_2211576599484626BE53B203E300DC1D">「<span class="wintitle">イベントが存在しない</span>」は「<span class="wintitle">が存在しない</span>」に変更されました。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -226,7 +226,7 @@ Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Data Warehouse セグメントでの「一致」および「一致しない」のサポート </p> </td> 
-   <td colname="col2"> <p>Data Warehouseで、セグメント定義で「一致」および「一致しない」がサポートされるようになりました。 （Reports &amp; Analytics および Ad Hoc Analysis では、既にサポートされています）。 </p> <p>Data Warehouseが「一致」をサポートしていなかったため、以前はData Warehouseと互換性がなかったセグメントは、リリース後に互換性がなくなります（これがセグメントに互換性がなかった唯一の理由と仮定）。このリリース以降、Data Warehouse セグメントリストに追加のセグメントが表示される可能性があります。 </p> </td> 
+   <td colname="col2"> <p>Data Warehouse では、セグメント定義で「一致」および「一致しない」をサポートするようになりました（Reports &amp; Analytics および Ad Hoc Analysis では、既にサポートされています）。 </p> <p>Data Warehouse が「一致」および「一致しない」をサポートしていないことが原因でこれまで Data Warehouse と互換性のなかったセグメントは、このリリース以降、互換性を持つようになります（セグメントの互換性のない理由がこの点だけである場合）。このリリース以降、Data Warehouse セグメントリストに追加のセグメントが表示される可能性があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web サービス API の Segments.Save </p> </td> 
