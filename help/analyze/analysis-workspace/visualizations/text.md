@@ -1,8 +1,8 @@
 ---
-description: ユーザー定義のテキストをワークスペースに追加できます。
+description: ユーザー定義のテキストを Workspace に追加できます。
 title: テキスト
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,17 +10,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # テキスト
 
-ユーザー定義のテキストをワークスペースに追加できます。
+ユーザー定義のテキストを Workspace に追加できます。
 
 フォント設定を変更できます（太字、斜体など）。また、テキストボックスビジュアライゼーションおよびパネル／ビジュアライゼーションの説明内にハイパーリンクを追加できます。
 
-## Change font settings {#section_32727EE03FD04A8EB1D1B387DCAF6537}
+## フォント設定の変更 {#section_32727EE03FD04A8EB1D1B387DCAF6537}
 
 ![](assets/rich-text1.png)
 
 テキストビジュアライゼーションをパネルにドラッグしてテキストを追加した後、テキストを書式設定できます。見出しレベルの追加、テキストの太字／斜体／下線の変更、テキストの色の変更などをおこなえます。
 
-## Add hyperlinks {#section_D55B857188A74A06B49006DF3511DC7C}
+## ハイパーリンクの追加 {#section_D55B857188A74A06B49006DF3511DC7C}
 
 ![](assets/rich-text2.png)
 
