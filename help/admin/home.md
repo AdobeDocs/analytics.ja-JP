@@ -1,7 +1,7 @@
 ---
 title: Analytics 管理ヘルプ
-description: 管理コンソールでのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics管理者向けの管理ヘルプ。
-translation-type: tm+mt
+description: Admin Console でのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics 管理者向けの管理ヘルプです。
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -11,11 +11,11 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ![バナー](/assets/doc_banner_admin.png)
 
-このヘルプは、Adobe Analyticsの管理者を対象としています。 管理コンソールでのユーザーと製品の管理、レポートスイート、変数、分類、データ収集の設定に関するヘルプが含まれます。
+このヘルプは、Adobe Analytics の管理者を対象としています。Admin Console でのユーザーと製品の管理、レポートスイート、変数、分類、データ収集の設定に関するヘルプが含まれます。 
 
 Adobe Analytics には、現在、管理者向けの以下の 2 つの領域があります。
 
-* Adobe Admin Console：この領域を使用して Experience Cloud ツールをプロビジョニングし、ユーザー権限を管理します。It is located at [adminconsole.adobe.com](https://adminconsole.adobe.com).
+* Adobe Admin Console：この領域を使用して Experience Cloud ツールをプロビジョニングし、ユーザー権限を管理します。[adminconsole.adobe.com](https://adminconsole.adobe.com) にあります。
 * Analytics Admin Console：この領域を使用して、レポートスイートおよび変数を管理します。Adobe Analytics の上部のヘッダーにある管理者をクリックすることでアクセスできます。
 
 このガイドでは、以下について説明します。
@@ -23,7 +23,7 @@ Adobe Analytics には、現在、管理者向けの以下の 2 つの領域が�
 * Analytics Admin Console でおこなわれるすべてのタスク。この領域には、レポートスイート、変数、分類またはデータガバナンスの設定が含まれます。使用可能なレポートスイートおよびカンパニー設定のリストについては、[管理ツール](admin/c-admin-tools.md)を参照してください。
 * Adobe Admin Console でおこなわれるすべての Analytics 専用タスク。この領域には、製品プロビジョニングおよびユーザー権限管理が含まれます。Adobe Admin Console で可能なアクションのリストについては、[Adobe Admin Console の Adobe Analytics](admin-console/home.md) を参照してください。
 
-このガイドでは、Adobe Admin Console が提供する多くの汎用機能については説明しません。代わりに、『エンタープ [ライズユーザー](https://helpx.adobe.com/enterprise/using/admin-console.html) 』ガイドの「管理コンソール」を参照してください。
+このガイドでは、Adobe Admin Console が提供する多くの汎用機能については説明しません。代わりに、エンタープライズユーザーガイドの [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を参照してください。
 
 ## 主な記事
 
@@ -36,7 +36,7 @@ Adobe Analytics には、現在、管理者向けの以下の 2 つの領域が�
 
 ## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analyticsフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analyticsリソース](https://forums.adobe.com/message/10660755)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
