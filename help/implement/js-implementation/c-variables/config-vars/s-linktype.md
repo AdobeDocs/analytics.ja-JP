@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 自動的に決定されたリンクタイプがある場合はその値を含みます。次のいずれかに設定できます。
 
-    * `d` （ダウンロード）
-    * `e` （終了）
-    * `o` （カスタム/その他）
+    * `d`（ダウンロード）
+    * `e`（終了）
+    * `o`（カスタム/その他）
 
-これはイメージリクエストの `pe` パラメーターです。If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
+これはイメージリクエストの `pe` パラメーターです。[`linkURL`](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkurl.html) または [`linkName`](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html) と共に設定される場合、サーバーコールはダウンロードリンク、カスタムリンクまたは出口リンクとして送信されます。
 
-*注意：各リンクタ[`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)イプがページビューではなく、関連するページ名を持たないので、ファイルのダウンロード数、離脱リンクまたはカスタムリンクに対して変数を設定することはできません。*
+*メモ：[`pageName`](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)変数はファイルのダウンロード、出口リンク、カスタムリンクに対して設定することはできません。これは、それぞれのリンクタイプがページビューではないので、関連するページ名を持たないからです。*
 
 
 **例**
