@@ -2,7 +2,7 @@
 description: 個々の指標でセグメント化をおこなうと、同じレポート内の指標を比較できます。（派生指標のみ）
 title: セグメント化指標
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,11 +28,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >You can also do this in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
+   >この作業は[セグメントビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_build.html)でも実行できますが、計算指標ビルダーでディメンションを使用できるようにすることで、ワークフローが簡略化されます。
 
    >[!NOTE]
    >
-   >"Internal" means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the "i" icon next to it and clicking **[!UICONTROL Make public]**.
+   >「内部」とは、このセグメントが左レールの&#x200B;**[!UICONTROL セグメント]**&#x200B;リストに表示されないということを意味します。ただし、セグメントの横の「i」アイコンにマウスポインターを置き、「**[!UICONTROL 公開する]**」をクリックして、公開することができます。
 
 1. 同等のセグメントがない場合は、「海外の訪問者」という名前のセグメントを作成します。この場合、「国」を「Germany」に設定しません。
 1. 「ドイツの訪問者」という名前の指標を作成して保存します。そのためには、ドイツの訪問者セグメントを「定義」キャンバスにドラッグして、そのセグメント内に実訪問者数指標をドラッグします。
@@ -40,11 +40,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    ![](assets/german-visitors.png)
 
 1. 海外の訪問者セグメントと実訪問者数指標を使用して手順 3 を繰り返し、海外の訪問者指標を作成します。
-1. Analysis Workspace で、**[!UICONTROL Page]ディメンションを自由形式の表にドラッグし、2 つの新しい計算指標を一番上に並べてドラッグします。**
+1. Analysis Workspace で、**[!UICONTROL Page]** ディメンションを自由形式の表にドラッグし、2 つの新しい計算指標を一番上に並べてドラッグします。
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports &amp; Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. または、[!UICONTROL Reports &amp; Analytics] で[!UICONTROL ページ]レポートを開き、「**[!UICONTROL 指標を表示]**」をクリックして、新しい「米国の訪問者」セグメント化指標と「海外の訪問者」セグメント化指標を適用し、コンテンツの閲覧行動をどのように比較するかを確認します。
 
    ![](assets/pages-report.png)
 
@@ -61,11 +61,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/cm_percent_total.png)
 
-## Compare Differences in Percentages (using Containers) {#section_13D6353259B74C09B37BA6378A501938}
+## 割合の相違点の比較（コンテナの使用） {#section_13D6353259B74C09B37BA6378A501938}
 
 米国と海外の閲覧行動の最も大きな違いを簡単に確認する場合は、それぞれから割合を引くもう 1 つの指標を作成できます。そのためには、2 つの指標セットを囲む丸括弧として、コンテナ機能を使用できます。
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** &gt; **[!UICONTROL Container]**:
+1. 「[!UICONTROL 定義]」キャンバスで、**[!UICONTROL 追加]**／**[!UICONTROL コンテナ]**&#x200B;をクリックします。
 
    ![](assets/cm_add_container.png)
 
