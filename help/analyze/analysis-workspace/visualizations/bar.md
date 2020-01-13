@@ -2,7 +2,7 @@
 description: 'null'
 title: 棒グラフおよび積み重ね棒グラフ
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/bar.png)
 
-ビジュアライゼーション設定の精度のドロップダウンにより、トレンドのビジュアライゼーション（折れ線、棒など）を日別から週別、月別などに変更できます。
+ビジュアライゼーション設定の精度ドロップダウンにより、トレンドビジュアライゼーション（折れ線、棒など）を日別から週別、月別などに変更できます。
 
-## Bar stacked {#section_9EA83779AE964635907EE5031A785A49}
+## 積み重ね棒グラフ {#section_9EA83779AE964635907EE5031A785A49}
 
 このビジュアライゼーションは棒グラフに似ていますが、系列を表す棒は相互に積み重なっています。
 
