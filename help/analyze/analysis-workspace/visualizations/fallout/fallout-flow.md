@@ -2,7 +2,7 @@
 description: 'null'
 title: フォールアウトの概要
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,9 +30,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 一般的でより広範囲なトラフィックフロー。ホームページを閲覧した訪問者のうち、検索を実行した訪問者の人数、その後特定の品目を閲覧した訪問者の人数などを表示できます。
 * サイト上のイベント間の関連性。例えばプライバシーポリシーを閲覧した訪問者のうち製品の購入に到達した人の割合を示します。
 
-[YouTube上のフォールアウトビジュアライゼーション](https://www.youtube.com/watch?v=VcrfHSyIoj8&index=52&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
+[フォールアウトビジュアライゼーション（YouTube）](https://www.youtube.com/watch?v=VcrfHSyIoj8&amp;index=52&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（4:15）
 
-## Segmentation as a foundation for flow and fallout {#section_654F37A398C24DDDB1552A543EE29AA9}
+## フローとフォールアウトの基礎としてのセグメント化 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
 Workspace パネルに適用されたセグメントの動作は、Reports &amp; Analytics または Ad Hoc Analysis のフォールアウトレポートやフローレポートに適用されたセグメントとわずかに異なります。ほとんどの場合、これらは同じ結果になります。主な違いは、Reports &amp; Analytics と Ad Hoc Analysis ではセグメントがシーケンスの各ステップで適用されることです。これにより、結果がわずかに異なることになります。
 
@@ -52,7 +52,7 @@ Reports &amp; Analytics と Ad Hoc Analysis は、セグメントを各ステッ
 
 ただし、パネルに適用されたセグメントがフォールアウトのレベル（ヒットレベルなど）より小さい場合、レポートに組み合わされる方法によって、セグメントは異なる結果を示します。繰り返した場合、ほとんどの状況で Analysis Workspace の数は Reports &amp; Analytics や Ad Hoc Analysis の数と一致します。次の条件がすべて当てはまる場合にのみ一致&#x200B;**しません**。
 
-* セグメントがフォールアウトと同じレベルにありません。
+* セグメントがフォールアウトと同じレベルにない。
 * 訪問中または訪問者としてのアクセス時に訪問者／訪問が複数の値を取ることができる変数がセグメントにある。
 
 Analysis Workspace が Reports &amp; Analytics のようにセグメントをフォールアウト／フローに適用するようにする必要がある場合は、Workspace の各フォールアウトステップにセグメントをドロップすると、同じ数になります。
