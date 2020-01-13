@@ -2,7 +2,7 @@
 description: 'null'
 title: ディメンションのプレビュー
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # ディメンションのプレビュー
 
-## Dimension preview {#section_13D5A69AE6194715A721BC87D283F6F2}
+## ディメンションプレビュー {#section_13D5A69AE6194715A721BC87D283F6F2}
 
-ディメンションの隣の情報（i）アイコンにマウスポインターを置きます。時間以外のディメンションの上位 5 位（時間ディメンションの場合は 15 位）の値が表示されます。以前は、常に静的な値が表示されていました（選択された 5 つの値は変更されることはありませんでした）。
+ディメンションの隣の情報「i」アイコンにマウスポインターを置きます。時間以外のディメンションの上位 5 位（時間ディメンションの場合は 15 位）の値が表示されます。以前は、常に静的な値が表示されていました（選択された 5 つの値は変更されることはありませんでした）。
 
 ![](assets/dimension-preview.png)
 
@@ -24,8 +24,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/dimension_static.png)
 
-## Show dimension items {#section_A074B3A984634AC7B1362889088E0A42}
+## ディメンション項目の表示 {#section_A074B3A984634AC7B1362889088E0A42}
 
 ディメンションにマウスポインターを置き、その横にある灰色の右矢印をクリックすると、ディメンション項目のリストが表示されます。ディメンション項目のリストには通常、過去 30 日間の上位の項目が表示されます。
 
-If you scroll down to the bottom of the list, you will see a **[!UICONTROL Show Top Items From Last 6 Months]**. このオプションをクリックすると、過去 180 日の上位のディメンション項目が表示されます。
+下にスクロールしてリストの下部に移動すると、「**[!UICONTROL 過去 6 ヶ月の上位の項目を表示]**」が表示されます。このオプションをクリックすると、過去 180 日の上位のディメンション項目が表示されます。
