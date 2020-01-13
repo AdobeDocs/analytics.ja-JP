@@ -3,7 +3,7 @@ description: 動的変数を使用すると、サイトのイメージリクエ�
 keywords: Analytics Implementation
 solution: null
 title: 動的変数
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 最大サイズ | デバッガーパラメーター | 入力されるレポート | デフォルト値 |
 |---|---|---|---|
-| 該当なし | D= | すべて | D= |
+| 該当なし | D= | いずれか | D= |
 
 ## 構文と可能な値
 
