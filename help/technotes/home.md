@@ -1,7 +1,7 @@
 ---
 title: テクニカルノートホーム
-translation-type: ht
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+translation-type: tm+mt
+source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
 
@@ -13,14 +13,15 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 ## 主なテクニカルノート記事
 
 * [サードパーティの分析プラットフォームから Adobe Analytics への移行](ga-to-aa/home.md)
+* [地域データ収集](/help/technotes/rdc/regional-data-collection.md)
 
 ## その他の Analytics ユーザーガイド
 
 [Analytics ユーザーガイド](/help/landing/home.md)
 
-## 主な Analytics リソース
+## その他のAnalyticsリソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
