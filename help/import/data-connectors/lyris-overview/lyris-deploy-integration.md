@@ -3,7 +3,7 @@ description: 3段階の導入プロセスについて説明します。
 title: 統合のデプロイ
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/data_connectors.png)
 
-1. 「統 **[!UICONTROL 合を追加]**」で、LyrisプラグインをAdobe Experience cloudにドラッグ&amp;ドロップします。 Lyris Data Connectors統合が開きます。
+1. 「統合を **[!UICONTROL 追加]**」の「Lyris HQ」で、「アクティブ化」をクリッ**[!UICONTROL &#x200B;クします]**。
 
    ![](assets/add_integration.png)
 
@@ -37,7 +37,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/variable_mapping.png)
 
-1. 自動化された3つのパートナーセグメントの他に **** 、「自分のセグメント」で自分のセグメントを選択できます。
+1. 自動化された3つのパートナーセグメントの他に ****、「自分のセグメント」で自分のセグメントを選択できます。
 1. この統合では、Lyrisアカウントへのデータポイントのダウンロードが必要になる場合があります。 「アクセス要求」で、このアクセス権を付与するこ **[!UICONTROL とができます]**。
 1. 「デー **[!UICONTROL タ収集]**」では、自動化ソリューションまたは手動ソリューション（JavaScriptプラグイン）を選択して、ランディングページのURLからクエリ文字列パラメーターを収集できます。 自動ソリューションを選択する場合は、「メッセージID」と「受信者ID」にクエリ文字列パラメーターを入力します。 JavaScriptプラグインについては、アドビコンサルタントにお問い合わせください。
 
@@ -47,7 +47,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/dashboard_generation.png)
 
-1. 統合の概要を確認し、「アクティブ化」をクリ **[!UICONTROL ックしま]**&#x200B;す。
+1. 統合の概要を確認し、「アクティブ化」をクリ **[!UICONTROL ックしま]**す。
 
 ## Lyris emailLabs内の設定{#configuration-within-the-lyris-emaillabs}
 
@@ -74,15 +74,15 @@ Lyris/Adobe Analyticsの統合が成功したことを確認する手順です�
 
 > [!NOTE] データ交換が始まるまでに数日かかります。 統合をアクティブ化した後は、Lyrisにお問い合わせください。
 
-1. Data Connectors内のLyris統合に移動します。 「 **[!UICONTROL Support]** 」タブ/ **[!UICONTROL Integration Activity Logで、「]** Data imported successfully **[!UICONTROL /or Classification data imported]****** successfully」などのイベントが表示されます。
+1. Data Connectors内のLyris統合に移動します。 「 **[!UICONTROL Support]**」タブ/**[!UICONTROL  Integration Activity Logで、「]**Data imported successfully **[!UICONTROL /or Classification data imported]******successfully」などのイベントが表示されます。
 
    ![](assets/integration_info.png)
 
 1. Lyrisのメッセージレポートを適切な指標で表示します。 Adobe Experience cloudで、「 **[!UICONTROL Reports &amp; Analytics」を選択します]**。
 1. 適切なレポートスイートを選択します。
-1. 「カスタ **[!UICONTROL ムコンバージョン]**」で、「 **[!UICONTROL Message ID Reports]** 」を選択し、「 **[!UICONTROL Message ID/Message Name」を選択します]**。
+1. 「カスタ **[!UICONTROL ムコンバージョン]**」で、「**[!UICONTROL  Message ID Reports]** 」を選択し、「 **[!UICONTROL Message ID/Message Name」を選択します]**。
 
-## クエリ文字列パラメータープラグインコード{#query-string-param-plug-in-code}
+## クエリー文字列パラメータープラグインコード{#query-string-param-plug-in-code}
 
 Adobe Analyticsで使用するLyrisプラグインコードを表示します。
 
