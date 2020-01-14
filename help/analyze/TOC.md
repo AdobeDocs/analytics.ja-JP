@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Analyze Guide
+user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [テーブルのページネーション、フィルタリングおよび並べ替え](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [カラーパレット](analysis-workspace/build-workspace-project/color-palettes.md)
       + [表示密度](analysis-workspace/build-workspace-project/view-density.md)
-      + [ワークスペースの合計](analysis-workspace/build-workspace-project/workspace-totals.md)
+      + [Workspace の合計](analysis-workspace/build-workspace-project/workspace-totals.md)
    + コンポーネント {#components}
       + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
       + ディメンション {#dimensions}
@@ -78,14 +78,14 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
-      + アトリビューション {#attribution}
+      + 属性{#attribution}
          + [アトリビューションの概要](analysis-workspace/c-panels/attribution/attribution.md)
          + [アトリビューションパネルの使用](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [アトリビューションに関する FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison {#segment-comparison}
-         + [セグメント IQ の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [セグメント IQ の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+      + セグメント比較{#segment-comparison}
+         + [Segment IQ の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [Segment IQ の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + プロジェクトのキュレーションおよび共有 {#curate-share}
       + [キュレーション／共有の概要](analysis-workspace/curate-share/curate.md)
@@ -121,11 +121,11 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
    + [Adobe Report Builder ヘルプ](report-builder/home.md)
    + [Report Builder の新機能](report-builder/whats-new-arb.md)
    + Report Builder の設定 {#report-builder-setup}
-      + [システム要件](report-builder/setup/system-requirements.md)
+      + [必要システム構成](report-builder/setup/system-requirements.md)
       + [Report Builder のインストール](report-builder/setup/t-install-arb.md)
       + [Report Builder のアップグレード](report-builder/setup/upgrade-arb.md)
-      + [Report Builder へのサインイン](report-builder/setup/login.md)
-      + [Report Builder へのサインイン](report-builder/setup/t-loggin-in-to-reportbuilder.md)
+      + [Report Builder へのログイン](report-builder/setup/login.md)
+      + [Report Builder へのログイン](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Report Builder のアンインストール](report-builder/setup/t-uninstall-arb.md)
       + [Microsoft Excel の関数からの Report Builder 機能の呼び出し](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder ツールバー](report-builder/reportbuilder-toolbar.md)
@@ -232,7 +232,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
    + [Report Builder のトラブルシューティングとベストプラクティス](report-builder/troubleshoot.md)
 + Activity Map {#activity-map}
    + [Activity Map の概要](activity-map/activity-map.md)
-   + [強力なリンク追跡](activity-map/lnk-tracking-overview.md)
+   + [強力なリンクトラッキング](activity-map/lnk-tracking-overview.md)
    + [標準モードとライブモード](activity-map/activitymap-standard-live.md)
    + [リンクレポート](activity-map/activitymap-links-report.md)
    + [ページの詳細](activity-map/activitymap-page-flow.md)
@@ -254,7 +254,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
    + リンクトラッキング {#link-tracking}
       + [リンクトラッキング手法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
       + [リンクトラッキングの FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [同じリンク ID、領域を参照する複数のリンクの区別](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
+      + [同じリンク ID および領域を参照する複数のリンクの区別](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
       + [リンクトラッキングの開始](activity-map/activitymap-link-tracking/activitymap-start-link-tracking.md)
       + [リンクトラッキングの停止](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
       + [s.tl() 関数の使用](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
