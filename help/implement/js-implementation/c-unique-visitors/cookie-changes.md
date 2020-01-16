@@ -3,7 +3,7 @@ description: Analytics の cookie
 title: ブラウザーと分析のcookieに関するFAQ
 uuid: null
 translation-type: tm+mt
-source-git-commit: ec96e30becf1cb799c0597b0e2f441fa1d6df0e3
+source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
 
 ---
 
@@ -32,7 +32,9 @@ source-git-commit: ec96e30becf1cb799c0597b0e2f441fa1d6df0e3
 
 ### サードパーティcookie
 
-サードパーティcookieは、ユーザーが訪問するWebサイトによって作成されるものではありません。 現在、ブラウザーはすべてのサードパーティcookieを同じように処理し、それに従って保存しますが、サードパーティcookie自体は異なる重要な動作をする場合があります。 顧客のAnalyticsサードパーティcookieの実装により、クライアントはアドビに対してのみ呼び出しを行い、不明または疑わしいサードパーティドメインに対しては呼び出しを行いません。 これは、安全な(HTTPS)と、永続的な識別子を使用した信頼性の高い追跡を実現するAnalyticsの実装方法です。 このメソッドは、AppMeasurement.jsファイルを設定することで実装されます。 詳しくは、cookieとExperience Platform IDサ [ービスを参照してください](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
+サードパーティcookieは、ユーザーが訪問するWebサイトによって作成されるものではありません。 現在、ブラウザーはすべてのサードパーティcookieを同じように処理し、それに従って保存しますが、サードパーティcookie自体は異なる重要な動作をする場合があります。 お客様のAnalyticsサードパーティcookieの実装では、クライアントはアドビに対してのみ呼び出しを行い、不明または疑わしいサードパーティドメインには呼び出しを行いません。 これは、安全な(HTTPS)と、永続的な識別子を使用した信頼性の高い追跡を実現するAnalyticsの実装方法です。 このメソッドは、AppMeasurement.jsファイルを設定することで実装されます。 詳しくは、cookieとExperience Platform IDサ [ービスを参照してください](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
+
+![cookieの違い](assets/cookieimage.PNG)
 
 ## 現在、ブラウザーはAnalytics cookieをどのように保存および管理していますか。
 
@@ -69,7 +71,7 @@ Adobeエッジサーバーによるこのアップグレードは、cookieが使
 次の表に、Analyticsのcookieについてまとめます。
 
 
-[Analytics cookieテーブル]
+![Analytics cookieテーブル](assets/cookie_table.png)
 
 
 ## Chrome、Firefox、Edgeの変更に備えてサイトを準備する最善の方法は何ですか。
