@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -94,8 +94,15 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
       + [プロジェクトファイルの共有およびスケジュール](analysis-workspace/curate-share/send-schedule-files.md)
       + [ファイルの送信 - プロジェクトの配信スケジュールの設定](analysis-workspace/curate-share/t-schedule-report.md)
       + [スケジュール済みプロジェクトマネージャー](analysis-workspace/curate-share/schedule-projects.md)
+   + [よくある質問](analysis-workspace/faq.md)
+   + [管理要件](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
+   + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/optimizing-performance.md)
+   + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
+   + [Analysis Workspace の制限](analysis-workspace/aw-limitations.md)
+   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
-      + [仮想アナリストの概要](analysis-workspace/virtual-analyst.md)
+      + [仮想アナリストの概要](analysis-workspace/virtual-analyst/overview.md)
       + 異常値検出 {#anomaly-detection}
          + [異常値検出の概要](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Analysis Workspace での異常値の表示](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -110,13 +117,6 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
          + [アラートビルダー](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [アラートマネージャー](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [インテリジェントアラート - 使用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [よくある質問](analysis-workspace/faq.md)
-   + [管理要件](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/optimizing-performance.md)
-   + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Analysis Workspace の制限](analysis-workspace/aw-limitations.md)
-   + [Attribution IQ](analysis-workspace/attribution-iq.md)
-   + [Segment IQ](analysis-workspace/segment-iq.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder ヘルプ](report-builder/home.md)
    + [Report Builder の新機能](report-builder/whats-new-arb.md)
