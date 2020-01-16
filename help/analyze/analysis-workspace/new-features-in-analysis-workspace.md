@@ -5,7 +5,7 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -246,7 +246,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p>積み重ね面／積み重ね棒／積み重ね横棒グラフのビジュアライゼーションを 100％の積み重ねに変更する新しい設定が追加され、相対的な比率を確認できるようになりました。 </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  >異常値検出と貢献度分析</a>は、現在、Analysis Workspace からのみ使用できます。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >異常値検出と貢献度分析</a>は、現在、Analysis Workspace からのみ使用できます。 </p> </td> 
    <td colname="col2"> <p>異常値検出と貢献度分析は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。 </p> <p>Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、Workspace で「毎日の精度」の異常値検出のみにアクセスできます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -294,7 +294,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 2018 年 2 月
 
-2018 年 2 月 9 日にリリースされた新機能および機能強化.
+2018 年 2 月 9 日にリリースされた新機能および機能強化。
 
 <table id="table_824BBE4A554B4DB092ADA9044383D0FA"> 
  <thead> 
@@ -397,7 +397,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢献度分析：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  >トークン通知 </a> </p> </td> 
-   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。  </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
+   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。&amp;nbsp; </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>マルチバイト文字を含む CSV ファイル </p> </td> 
@@ -447,7 +447,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップのビジュアライゼーション </a> </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。  </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > トレンドビジュアライゼーションの精度セレクター </a> </p> </td> 
@@ -660,7 +660,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>フロー</b></a>機能の強化 </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>フロー</b> </a>機能の強化 </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">「<span class="wintitle">ラベルの切り捨てを無効化</span>」という新しいビジュアライゼーション設定が追加されました（デフォルト = オフ）。 </li> 
@@ -697,7 +697,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > アラートマネージャー</a></b>機能の強化 </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > アラートマネージャー</a> </b>機能の強化 </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">アラートを有効／無効にする機能が追加されました。 </li> 
@@ -847,8 +847,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col1"> <b><a href="/help/components/c-alerts/intellligent-alerts.md"  >インテリジェントアラート</a></b> </td> 
    <td colname="col2"> <p>Adobe Analytics 全体の新しいアラートシステムであるインテリジェントアラートでは、アラートプレビューとルール貢献度を備えた Analysis Workspace 内でアラートの作成と管理をおこなうことができます。次のことができます。 </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
-     <li id="li_01504AABBC514DF38354683843222541">異常値（90％、95％または 99％のしきい値、変化の率、超過／未満）に基づいたアラートの構築。 </li> 
-     <li id="li_9BFE2B4C429D441287F1A37A08E62A40">アラートがトリガーされる頻度のプレビュー. </li> 
+     <li id="li_01504AABBC514DF38354683843222541">異常値（90％、95％または 99％のしきい値、変化率、超過／未満）に基づいたアラートの構築。 </li> 
+     <li id="li_9BFE2B4C429D441287F1A37A08E62A40">アラートがトリガーされる頻度のプレビュー。 </li> 
      <li id="li_08D310196581483DB499C00358835B73">自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信。 </li> 
      <li id="li_2ADF9465EE474CDB839ED867662CCE6F">1 つのアラートで複数の指標を示す「積み重ね」アラートの作成。 </li> 
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
@@ -901,7 +901,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 2016 年 6 月 17 日にリリースされた新機能：
 
-* 管理者がユーザーの&#x200B;**[!UICONTROL Analytics]**／「**[!UICONTROL ワWorkspace]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)。2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
+* 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL &#x200B;ワークスペース]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)。2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
 * Folio Builder[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント
@@ -913,7 +913,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * マイナーアップデート：
 
    * パネル内のすべてのビジュアライゼーション、およびプロジェクト内のすべてのパネルを削除できるようになりました（以前は、少なくとも 1 つのビジュアライゼーションか 1 つのパネルを維持する必要がありました）。
-   * Changes to the [shortcut keys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (hotkeys) that can facilitate work with Analysis Workspace.
+   * Analysis Workspace での作業を簡潔化する[ショートカットキー](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（ホットキー）が変更されました。
    * スタイルの変更：ビジュアライゼーションのフォントが小さくなり、行のカラースウォッチが追加され、パネルの日付選択機能が下に移動されました。
 
 ## 2016 年 4 月
@@ -930,7 +930,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> ファイルを送信 </td> 
-   <td colname="col2"> <p>電子メールを使用して Analysis Workspace を送信したり、Analysis Workspace の配信をスケジュールしたりします。See <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Send File - Schedule a project for delivery </a>. </p> </td> 
+   <td colname="col2"> <p>電子メールを使用して Analysis Workspace を送信したり、Analysis Workspace の配信をスケジュールしたりします。<a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >ファイルの送信 - プロジェクトの配信スケジュールの設定</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> PDF をダウンロード </td> 
@@ -966,11 +966,11 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 また、Windows および Mac の標準の[キーボードショートカット](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（Ctrl または Command + Z）を元に戻すこともできます。
 
-*`Undo`*&#x200B;は、テーブルの分類操作を元に戻す場合に特に便利です。
+*`Undo`*は、テーブルの分類操作を元に戻す場合に特に便利です。
 
-取り消し可能でない&#x200B;*`not`*&#x200B;アクション：
+取り消し可能でない&#x200B;*`not`*アクション：
 
-* [!UICONTROL コホートテーブル]の設定の変更（指標のドラッグ、値の変更など）。ただし、「**[!UICONTROL 実行]**」をクリックした後で「**[!UICONTROL 元に戻す]**」をクリックすることはできます。
+* [!UICONTROL コホートテーブル]の設定の変更（指標のドラッグ、値の変更など）。ただし、「**[!UICONTROL 実行]**」をクリックした後で「**[!UICONTROL &#x200B;元に戻す]**」をクリックすることはできます。
 
 * パネルおよびサブパネルのサイズ変更または移動。
 
@@ -1023,7 +1023,7 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 新しいセグメントは、[!UICONTROL コンポーネント]パネルの「[!UICONTROL セグメント]」グループに表示されます。
 
-*`Save As`*&#x200B;は、[!UICONTROL 計算指標ビルダー]と[!UICONTROL 日付範囲ビルダー]でも使用できます。
+*`Save As`*は、[!UICONTROL 計算指標ビルダー]と[!UICONTROL 日付範囲ビルダー]でも使用できます。
 
 ## 「新しいセグメントを追加」ボタン{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
@@ -1075,13 +1075,13 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 ## 凡例を表示 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-[!UICONTROL ビジュアライゼーション設定]の&#x200B;**[!UICONTROL 凡例を表示]**&#x200B;オプションは、ビジュアライゼーションの凡例を表示または非表示にできます。
+[!UICONTROL ビジュアライゼーション設定]の&#x200B;**[!UICONTROL 凡例を表示]**オプションは、ビジュアライゼーションの凡例を表示または非表示にできます。
 
 ![](assets/legend-visible.png)
 
 ## Y 軸をゼロに固定 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。[!UICONTROL ビジュアライゼーション設定]の「**[!UICONTROL Y 軸をゼロに固定]**」を有効にすると、Y 軸が強制的にゼロになり、より正確なトレンドの表示が実現します。次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
+線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。**[!UICONTROL ビジュアライゼーション設定]**の「[!UICONTROL Y 軸をゼロに固定]」を有効にすると、Y 軸が強制的にゼロになり、より正確なトレンドの表示が実現します。次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
 
 **「Y 軸をゼロに固定」が無効な場合**
 
@@ -1099,4 +1099,4 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 管理者は、あるユーザーから別のユーザーに [!UICONTROL Analysis Workspace] プロジェクトを転送できます。
 
-プロジェクトを転送するには、**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL 転送]**&#x200B;を選択します。
+プロジェクトを転送するには、**[!UICONTROL 管理者]**／**[!UICONTROL &#x200B;ユーザー管理]**／**[!UICONTROL 転送]**を選択します。
