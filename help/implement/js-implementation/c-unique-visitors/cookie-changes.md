@@ -3,7 +3,7 @@ description: Analytics の cookie
 title: ブラウザーと分析のcookieに関するFAQ
 uuid: null
 translation-type: tm+mt
-source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
+source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
 
 ---
 
@@ -71,7 +71,7 @@ Adobeエッジサーバーによるこのアップグレードは、cookieが使
 次の表に、Analyticsのcookieについてまとめます。
 
 
-![Analytics cookieテーブル](assets/cookie_table.png)
+![Analytics cookieテーブル](assets/cookietable.png)
 
 
 ## Chrome、Firefox、Edgeの変更に備えてサイトを準備する最善の方法は何ですか。
