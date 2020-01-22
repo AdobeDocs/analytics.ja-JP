@@ -3,37 +3,38 @@ title: Adobe Analytics ドキュメントのアップデート
 description: Adobe Analytics テクニカルドキュメントのアップデート
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: c863d5f09d978fdac4be364ad71f3c0224becdca
+source-git-commit: 6d7b23fb88ff76fef2897671c9a80323bea32128
 
 ---
 
 
 # Adobe Analyticsの技術ドキュメントの更新
 
-2019　年　1　月以降の　Adobe Analytics　ドキュメントセットのアップデートについて説明します。
+2019 年 1 月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* 新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience cloudリリースノートを参照してください](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
+* 新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)を参照してください。
 * Analysis Workspace の新機能について詳しくは、[このトピック](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
-* オーディオとビデオのAdobe Analyticsについて詳しくは、Analyticsでのオーディオとビ [デオの測定を参照してください](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
+* オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)を参照してください。
 
 ## アップデートの詳細
 
 | 日付 | 説明 |
 |---|---|
+| 2020年1月22日 | 新しいフリーフォームテーブルビルダーを含む、フリーフォームテーブルの [ページを更新しました](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
 | 2019 年 29 月 12 日 | データフィードのドキュメ [ントの概要説明](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 2019 年 25 月 12 日 | IPログイン制限 [の実施の提供終了に関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| 2019 年 25 月 12 日 | 内部（セッション更新） [マーケティングチャネルに関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
-| 2019 年 11 月 22 日 | 顧客の遍歴分析用の新しいドキ [ュメントセット](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
-| 2019 年 9 月 28 日 | JavaScript実装の設定変 [数に関する新しい記事](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
-| 2019 年 9 月 13 日 | Jargeny IQの新しいドキ [ュメント：デバイス間分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
-| 2019 年 8 月 28 日 | Analytics向けプログレ [ッシブWebアプリ(PWA)に関する新記事](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html) |
+| 2019 年 11 月 26 日 | IPログイン制限 [の実施の提供終了に関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
+| 2019 年 11 月 26 日 | 内部（セッション更新） [マーケティングチャネルに関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
+| 2019 年 11 月 22 日 | [カスタマージャーニー分析](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)の新しいドキュメントセット |
+| 2019 年 9 月 29 日 | [JavaScript 実装の設定変数](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html)に関する新しい記事を追加しました。 |
+| 2019 年 9 月 13 日 | [Jargeny IQ：クロスデバイス分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html)に関する新しい記事を追加しました。 |
+| 2019 年 8 月 29 日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](https://docs.adobe.com/content/help/en/analytics/analyze/pwa/pwa.html)に関する新しい記事を追加しました。 |
 | 2019 年 8 月 9 日 | [計算指標の合計](/help/components/c-calcmetrics/cm-totals.md)に関する新しい記事を追加しました。 |
 | 2019 年 8 月 9 日 | [タイムスタンプが有効なセッションデータ](/help/admin/admin/timestamp-optional.md)について明確化しました。 |
 | 2019 年 8 月 6 日 | [キーコンセプト](/help/analyze/reports-analytics/key-concepts.md)を更新しました。 |
 | 2019 年 8 月 3 日 | [Analytics 用語集](/help/technotes/terms.md)を大幅に更新しました。 |
 | 2019 年 7 月 23 日 | [Analysis Workspace テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) ドキュメントに Magento：マーケティングとコマーステンプレートが追加されました。 |
 | 2019 年 7 月 19 日 | [コホートテーブル設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)が更新されました。 |
-| 2019 年 6 月 10 日 | 中国の地域 [データ収集(RDC)に関する新記事](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
+| 2019 年 6 月 11 日 | [中国の地域データ収集（RDC）](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html)に関する新しい記事を追加しました。 |
 | 2019 年 6 月 5 日 | 新しいガイド[サードパーティの分析プラットフォームから Adobe Analytics への移行](/help/technotes/ga-to-aa/home.md)が作成されました。 |
 | 2019 年 5 月 31 日 | [データフィード列リファレンス](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)が改定されました。 |
 | 2019 年 4 月 12 日 | [Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/optimizing-performance.md)が更新されました。 |
