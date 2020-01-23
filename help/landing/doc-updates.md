@@ -3,7 +3,7 @@ title: Adobe Analytics ドキュメントのアップデート
 description: Adobe Analytics テクニカルドキュメントのアップデート
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6d7b23fb88ff76fef2897671c9a80323bea32128
+source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 6d7b23fb88ff76fef2897671c9a80323bea32128
 
 | 日付 | 説明 |
 |---|---|
-| 2020年1月22日 | 新しいフリーフォームテーブルビルダーを含む、フリーフォームテーブルの [ページを更新しました](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
+| 2020年1月22日 | 新しいフリーフォームテーブルビルダーの情報を含む、フリーフォームテー [ブルページの更新](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
 | 2019 年 29 月 12 日 | データフィードのドキュメ [ントの概要説明](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 26 日 | IPログイン制限 [の実施の提供終了に関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 2019 年 11 月 26 日 | 内部（セッション更新） [マーケティングチャネルに関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
