@@ -2,7 +2,7 @@
 title: VRS およびプロジェクトのキュレーション
 description: VRS コンポーネントとプロジェクトのキュレーション方法
 translation-type: tm+mt
-source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
+source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
 
 プロジェクトや仮想レポートスイート（VRS）のキュレーションでは基本的に、コンポーネントを絞り込み、オーディエンスに使用させたいプロジェクト／VRS コンポーネント（ディメンション、指標、セグメント、日付範囲）のみを表示するようにします。
 
->[!Note]
+>[!NOTE]
 >
 >製品プロファイルは、ユーザーが表示できるコンポーネントを制御する主要なメカニズムです。 They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). キュレーションはセカンダリフィルターです。
 
