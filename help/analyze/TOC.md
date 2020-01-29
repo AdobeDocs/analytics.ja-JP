@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
 
 ---
 
@@ -232,7 +232,20 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [Report Builder のトラブルシューティングとベストプラクティス](report-builder/troubleshoot.md)
 + Activity Map {#activity-map}
    + [Activity Map の概要](activity-map/activity-map.md)
+   + はじめに {#getting-started}
+      + はじめに（管理者向け）{#get-started-admins}
+         + [Activity Map の有効化](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+         + [実装コードのサンプル](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+      + はじめに（ユーザー向け）{#get-started-users}
+         + [Activity Map ブラウザープラグインのインストール](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+         + [Activity Map の起動](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [強力なリンクトラッキング](activity-map/lnk-tracking-overview.md)
+   + リンクトラッキング {#link-tracking}
+      + [リンクトラッキング手法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
+      + [リンクトラッキングの FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+      + [同じリンク ID および領域を参照する複数のリンクの区別](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
+      + [リンクトラッキングの停止](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
+      + [s.tl() 関数の使用](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [標準モードとライブモード](activity-map/activitymap-standard-live.md)
    + [リンクレポート](activity-map/activitymap-links-report.md)
    + [ページの詳細](activity-map/activitymap-page-flow.md)
@@ -244,20 +257,6 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [CSV ファイルへの書き出し](activity-map/activitymap-csv.md)
    + [サポートされているシステムおよび要件](activity-map/activitymap-sysreqs.md)
    + [Activity Map の FAQ](activity-map/activitymap-faq.md)
-   + はじめに {#getting-started}
-      + はじめに（管理者向け）{#get-started-admins}
-         + [Activity Map の有効化](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [実装コードのサンプル](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + はじめに（ユーザー向け）{#get-started-users}
-         + [Activity Map ブラウザープラグインのインストール](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Activity Map の起動](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
-   + リンクトラッキング {#link-tracking}
-      + [リンクトラッキング手法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [リンクトラッキングの FAQ](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [同じリンク ID および領域を参照する複数のリンクの区別](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [リンクトラッキングの開始](activity-map/activitymap-link-tracking/activitymap-start-link-tracking.md)
-      + [リンクトラッキングの停止](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [s.tl() 関数の使用](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [Activity Map の設定](activity-map/activitymap-overlay-settings.md)
    + [Activity Map ユーザーインターフェイス](activity-map/activitymap-user-interface.md)
    + [Analytics の Activity Map レポート](activity-map/activitymap-reporting-analytics.md)
