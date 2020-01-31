@@ -2,7 +2,7 @@
 title: Workspaceの複数のレポートスイート
 description: 複数のレポートスイートを含むWorkspaceでプロジェクトを作成する方法と理由を説明します。
 translation-type: tm+mt
-source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
@@ -47,8 +47,8 @@ source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
 
    ![](assets/incompat-rs.png)
 
-   1. この非互換性に対処する3つのオプションがあります。
-   * 一部の見つからないコンポーネントに進みます。
+   この非互換性に対処する3つのオプションがあります。
+   * 一部の見つからないコンポーネントに進みます。 これにより、これらのコンポーネントのデータや空白のビジュアライゼーションが生成されません。
    * 元に戻す.
    * レポートスイートの変更.
 
@@ -58,6 +58,6 @@ source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
 
 1. （オプション）他のAnalyticsコンポーネントビルダーに移動して、これらのビルダーが、
 
-   * セグメントの作成場所（セグメントビルダー）。
-   * 計算指標が作成される場所（計算指標ビルダー）。
-   * アラートの作成場所（アラートビルダー）。
+   * セグメントの作成場所：セグメ [ントビルダ](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+   * 計算指標が作成される場所：計算 [指標ビルダー](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+   * アラートの作成場所：アラ [ートビルダー](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html)。
