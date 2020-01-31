@@ -4,14 +4,14 @@ title: 実装コードのサンプル
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
 
 # 実装コードのサンプル{#sample-implementation-code}
 
-## AppMeasurement.js ファイルのサンプル {#section_CD6E603EB41141E587B71E138FE99F52}
+## AppMeasurement.js ファイルのサンプル
 
 次に、[!DNL AppMeasurement.js] ファイルでの AppMeasurement ライブラリと Activity Map モジュールの結合方法の例を示します。
 
