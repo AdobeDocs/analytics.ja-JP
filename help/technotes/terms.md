@@ -2,7 +2,7 @@
 title: Adobe Analyticsで使用される用語
 description: 一般的な用語を定義するAdobe Analyticsの用語集。
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
 
@@ -23,22 +23,22 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** バウンス：単一のヒットで構成される訪問。 コンポーネ [ントユーザ](/help/components/c-variables/c-metrics/metrics-bounces.md) ーガイドのバウンスを参照してください。 「直帰数」も参照してください。
 * **** 計算指標：レポートで使用する既存の指標、統計関数および数式を組み合わせることができます。 コンポーネ [ントユーザーガイドの](/help/components/c-calcmetrics/cm-overview.md) 「計算指標」を参照してください。
 * **** キャンペーン：参照先：
-   * キャンペーン変数。トラッキングコードディメンションを入力します。 『導入ユ [ーザガイド](/help/implement/js-implementation/page-variables/page-variables.md) 』の「ページ変数」を参照してください。
+   * キャンペーン変数。トラッキングコードディメンションを入力します。 『導入ユ [ーザガイド](../implement/vars/page-vars/campaign.md) 』のcampaignを参照してください。
    * トラッキングコードディメンションのデフォルトの分類。すべてのレポートスイートに対して自動的に作成されます。
    * Adobe Campaignを参照してください。 詳しくは、 [Adobe.comを参照してください](https://www.adobe.com/marketing/campaign.html)。
 * **** チャネル：参照先：
-   * チャネル変数。サイトセクションディメンションを入力します。 『導入ユ [ーザガイド](/help/implement/js-implementation/page-variables/page-variables.md) 』の「ページ変数」を参照してください。
+   * チャネル変数。サイトセクションディメンションを入力します。 『導入ユ [ーザガイド](../implement/vars/page-vars/channel.md) 』のchannelを参照してください。
    * マーケティングチャネルは、ユーザーがどのようにしてサイトに到達するかを理解するのに役立つコンポーネントです。 コンポーネ [ントユーザーガイドの](/help/components/c-marketing-channels/c-overview.md) 「マーケティングチャネル」を参照してください。
 * **** 分類：ディメンション値のグループ化を可能にする、Adobe Analyticsの機能。 コンポーネ [ント](/help/components/c-classifications2/c-classifications.md) ・ユーザー・ガイドの分類を参照してください。
 * **** Clickmap:使用されなくなりました。 サイト上で最もクリックされたエリアを示すレガシーブラウザープラグイン。 このツールは廃止され、Activity mapに使用されました。
 * **** クリックストリームデータフィード：データフィードを参照してください。
 * **** コホート：一定期間に共通の特性を共有する人々のグループ。 See [What is Cohort Analysis?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 」を参照してください。
 * **** コレクションサーバー：データ収集サーバーを参照してください。
-* **** コンテキストデータ変数：処理ルールでのみ使用される一時変数。 処理ルールでコンバージョン変数やトラフィック変数にコピーしないと、コンテキストデータ変数の値は永久的に失われます。 『導入ユ [ーザガイド](/help/implement/js-implementation/c-variables/context-data-variables.md) 』の「コンテキストデータ変数」を参照してください。
+* **** コンテキストデータ変数：処理ルールでのみ使用される一時変数。 処理ルールでコンバージョン変数やトラフィック変数にコピーしないと、コンテキストデータ変数の値は永久的に失われます。 『導入ユ [ーザガイド](../implement/vars/page-vars/contextdata.md) 』の「コンテキストデータ変数」を参照してください。
 * **** コンバージョン変数：略してeVarと呼ばれます。 カスタム値を格納し、変数値が期限切れになるまで保持します。 See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** 相関：用語としては使用されなくなりました。ディメンション分類に置き換えられました。 以前のバージョンのAdobe Analyticsでは、クロス集計によってトラフィック変数を分類する機能が付与されていました。 詳しくは、 [Analyzeユーザーガイドの](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 「ディメンションの分類」を参照してください。
 * **** 現在のデータ：一部のレポートで、まだ完全に処理されていない最近収集したデータを含めることができるオプション。 Analyzeユー [ザーガイドの](/help/analyze/reports-analytics/current-data.md) 「Current data」を参照してください。
-* **** カスタムリンク：ページビュー以外のデータを含むヒットのタイプ。 『導入ユーザ [ーガイド](/help/implement/js-implementation/function-tl.md) 』のs.tl()関数を参照してください。 「ヒット」も参照してください。
+* **** カスタムリンク：ページビュー以外のデータを含むヒットのタイプ。 『導入ユーザ [ーガイド](../implement/vars/functions/tl.md) 』のs.tl()関数を参照してください。 「ヒット」も参照してください。
 * **** 顧客属性：属性データをアップロードできるExperience cloud機能。 コアサ [ービスユーザーガイドの](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) 「顧客属性」を参照してください。
 * **** カスタマーサポート委任：アドビカスタマーケアとの直接の対話を承認された指定ユーザー。 Experience cloudナレッジベ [ースの「カスタマーサポート](https://helpx.adobe.com/experience-cloud/supported-users.html) ・デリゲート」を参照してください。
 * **** データ収集サーバー：データを受信し処理するアドビ所有のサーバー。 イメージリクエストは、アドビのデータ収集サーバーに送信され、レポートで使用できます。
@@ -47,8 +47,8 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** データソース：ユーザーがファイルからAdobe Analyticsにデータをアップロードできるようにします。 通常、ファイルはFTPサイトから取得されます。 詳しくは、 [読み込みユーザー](/help/import/c-data-sources/datasrc-home.md) ・ガイドの「Data Sources」を参照してください。
 * **** Data Warehouse:Adobe Analyticsの機能の1つで、より大きなレポートをリクエストできます。 詳しくは、 [エクスポート](/help/export/data-warehouse/data-warehouse.md) ・ユーザー・ガイドのData Warehouseを参照してください。
 * **** ディメンション：テキストなどの変数値を含むコンポーネントタイプ。 ページ名、トラッキングコード、参照ドメインなどがあります。 指標は通常、その指標に対応します。
-* **** Dynamic Tag Management:アドビの以前のタグ管理ソリューション。 『導入ユ [ーザーガイド](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md) 』の「DTM実装の概要」を参照してください。 代わりに、Adobe Experience Platform Launchを使用することをお勧めします。
-* **** イベントのシリアル化：重複イベントの収集を防ぐための措置を実装するプロセス。 『導入ユ [ーザガイド](/help/implement/js-implementation/event-serialization.md) 』の「イベントシリアル化」を参照してください。
+* **** Dynamic Tag Management:アドビの以前のタグ管理ソリューション。 『導入ユ [ーザーガイド](/help/implement/other/dtm/dtm-implementation-overview.md) 』の「DTM実装の概要」を参照してください。 代わりに、Adobe Experience Platform Launchを使用することをお勧めします。
+* **** イベントのシリアル化：重複イベントの収集を防ぐための措置を実装するプロセス。 『導入ユ [ーザガイド](../implement/vars/page-vars/events/event-serialization.md) 』の「イベントシリアル化」を参照してください。
 * **** eVar:コンバージョン変数を参照してください。
 * **** イベント：成功イベントを参照してください。
 * **** ExcelClient:用語として使用されなくなりました。 Report Builderの前身の名前。
@@ -64,9 +64,9 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
    * カスタムインサイト。カスタムトラフィック変数の履歴名です。
 * **** KPI:主要業績評価指標の省略形です。 ビジネスが自社のサイトのパフォーマンスを把握するのに役立つ指標。 各組織は、ビジネスのさまざまな側面を測定する様々なKPIを持っています。 『導入ユ [ーザーガイド』の「ソリューションデザインドキュメントの](/help/implement/prepare/solution-design.md) 作成」を参照してください。
 * **** 待ち時間：データが収集されてから、レポートでデータが使用できるまでの遅延時間。 レポートスイートの一般的な遅延は30 ～ 90分です。 Technotesユー [ザーガイドの](/help/technotes/latency.md) 「Latency」を参照してください。
-* **** 起動：アドビの現在の実装ソリューションである、Adobe Experience Platform Launchの略です。 Adobe Experience [](https://docs.adobe.com/content/help/en/launch/using/overview.html) Platform Launchユーザーガイドの概要を参照してください。
-* **** リストprop:同じヒットで複数の値をサポートするように標準的なトラフィック変数を変換する設定。 設定が有効な場合、カスタムトラフィック変数はリストpropになる可能性があります。 『導入ユ [ーザガイド](/help/implement/js-implementation/page-variables/page-variables.md) 』の「ページ変数」を参照してください。
-* **** リスト変数：コンバージョン変数とは別の別の変数。 リスト変数は、同じヒットで複数の値をサポートし、コンバージョン変数と同様に、1回の訪問で変数値が保持されます。 1つの組織で使用できるリスト変数は3つだけです。 『導入ユ [ーザガイド](/help/implement/js-implementation/page-variables/page-variables.md) 』の「ページ変数」を参照してください。
+* **** 起動：アドビの現在の実装ソリューションである、Adobe Experience Platform Launchの略です。 See [Overview](https://docs.adobe.com/content/help/en/launch/using/overview.html) in the Adobe Experience Platform Launch user guide.
+* **** リストprop:同じヒットで複数の値をサポートするように標準的なトラフィック変数を変換する設定。 設定が有効な場合、カスタムトラフィック変数はリストpropになる可能性があります。 『導入ユ [ーザガイド](../implement/vars/page-vars/prop.md) 』のpropを参照してください。
+* **** リスト変数：コンバージョン変数とは別の別の変数。 リスト変数は、同じヒットで複数の値をサポートし、コンバージョン変数と同様に、1回の訪問で変数値が保持されます。 1つの組織で使用できるリスト変数は3つだけです。 『導入ユ [ーザガイド](../implement/vars/page-vars/list.md) 』のリストを参照してください。
 * **** ログイン会社名：組織で使用されるレポートスイートのコレクション。 組織によっては、組織の異なる部分に適用される複数のログイン会社を持つ場合があります。
 * **** マーケティングチャネル：Adobe Analyticsの機能の1つで、訪問者がサイトに到達した方法でヒットを分類します。 ヒットの分類に使用されるロジックは、マーケティングチャネルの処理ルールを使用してカスタマイズできます。 コンポーネ [ントユーザーガイドの「マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md) — はじめに」を参照してください。
 * **** 指標：定量データを含むコンポーネントタイプ。 指標の値には通常、ページビュー数、訪問回数、売上高などの数値が含まれます。 通常、ディメンションはディメンションに対応します。
@@ -87,8 +87,8 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 * **** レポートスイート：データの送信先となるオーバーチャーチコンテナです。 Adobe Analyticsのすべてのレポートは、1つのレポートスイートを参照します。
 * **** 周期的な日付範囲：時間が経過すると変化する相対的な日付範囲のタイプ。 例えば、過去7日間を示すレポートは、相対的な日付範囲と見なすことができます。 「静的日付範囲」も参照してください。
 * **** RSID:レポートスイートIDの省略形です。 レポートスイートには、わかりやすい名前とレポートスイートIDの両方があります。
-* **** s.t():ページビューイメージリクエストを送信するAppMeasurementライブラリ内の関数の名前。 代わりに、一部のAppMeasurementライブラリが使 `s.track()` 用されます。 『導 [入ユーザガイド』のs.t()](/help/implement/js-implementation/function-t.md) を参照してください。
-* **s<span>.</span>** tl():リンクトラッキングイメージリクエストを送信するAppMeasurementライブラリ内の関数の名前。 代わりに、一部のAppMeasurementライブラリが使 `s.trackLink()` 用されます。 『導 [入ユーザガイド』のs.tl()](/help/implement/js-implementation/function-tl.md) を参照してください。
+* **** s.t():ページビューイメージリクエストを送信するAppMeasurementライブラリ内の関数の名前。 代わりに、一部のAppMeasurementライブラリが使 `s.track()` 用されます。 『導入 [ユーザ](../implement/vars/functions/t.md) 』ガイドの「 」を参照してください。
+* **s<span>.</span>** tl():リンクトラッキングイメージリクエストを送信するAppMeasurementライブラリ内の関数の名前。 代わりに、一部のAppMeasurementライブラリが使 `s.trackLink()` 用されます。 『導入ユ [ーザガイド](../implement/vars/functions/tl.md) 』のtlを参照してください。
 * **** s_code.js:Adobe Analyticsの過去のバージョンで使用されたJavaScriptファイルの名前。 現在使用されているJavaScriptファイルの名前はAppMeasurement.jsです。
 * **** 衛星：用語として使用されなくなりました。 Dynamic Tag Managementの旧製品名。
 * **** セカンダリサーバーコール：イメージリクエストまたはヒットの代替名。主にマルチスイートタギングおよび請求のコンテキストで使用されます。 同じヒットが複数のレポートスイートに送信される場合、リストに表示される最初のレポートスイート以降のすべてのレポートスイートはセカンダリサーバーコールです。 「プライマリサーバーコール」も参照してください。
