@@ -1,8 +1,8 @@
 ---
 title: レポートスイートの作成
 description: Adobe Analytics でデータ収集用の基本コンテナを作成します。
-translation-type: ht
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -31,6 +31,8 @@ source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 このレポートスイートに同じ名前を付け、末尾に「- DEV」を追加します。このレポートスイートが受け取るのは内部トラフィックのみなので、最小限のサイズとなることが予測されます。
 1. 「次へ」をクリックして開発用レポートスイートの作成を終了します。
 
+このモーダルウィンドウの手順について詳しくは、実装ユーザーガイドの [実装モーダル](/help/implement/prepare/implementation-modal.md) (Implementation modal)を参照してください。
+
 ## トラブルシューティング
 
 **Experience Cloud にログインすると、Analytics アイコンが灰色に表示される。**
@@ -43,4 +45,4 @@ my.omniture.com ではなく、Experience Cloud を使用してログインし�
 
 ## 次の手順
 
-[Launch で Adobe Analytics のプロパティを作成および設定する](/help/implement/implement-with-launch/create-analytics-property.md)：Analytics 実装を管理する領域を作成します
+[Launch で Adobe Analytics のプロパティを作成および設定する](/help/implement/launch/create-analytics-property.md)：Analytics 実装を管理する領域を作成します
