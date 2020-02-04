@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: ht
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+translation-type: tm+mt
+source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
 
@@ -74,6 +74,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
       + [DFA データを使用した Analytics レポート](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
       + [指標の不一致の調整](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
       + [よくある質問](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
+      + [最大遅延](data-connectors/dfa-data-connector-analytics/maxdelay.md)
    + Adobe Analytics 用 DreamMail Data Connector {#dreammail}
       + [Adobe Analytics 用 DreamMail Data Connector](data-connectors/dreammail-overview/dreammail-overview.md)
       + [統合のアクティブ化](data-connectors/dreammail-overview/t-dreammail-activate.md)
