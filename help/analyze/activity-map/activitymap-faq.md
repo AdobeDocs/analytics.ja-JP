@@ -4,7 +4,7 @@ title: Activity Map の FAQ
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -66,7 +66,7 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 
 **質問：Activity Map を実行中にリンククリックデータが収集されないのはなぜですか。**
 
-回答：Activity Map を使用中は、Analytics タグでリンククリックデータデータは収集されません。この動作は、ClickMap プラグインの動作に従っています。
+回答：Activity Map を使用中は、Analytics タグでリンククリックデータデータは収集されません。この動作は、ClickMapプラグインの動作に従います。
 
 **質問：指標のドロップダウンに同じ指標が複数回表示されるのはなぜですか。**
 
@@ -76,7 +76,7 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 
 **質問：Activity Map のすべてのリンクレポートは、Reports &amp; Analytics の Activity Map レポートとどのように比較されますか。**
 
-回答：Activity Map ですべてのリンクレポートを引き出すには、`<list of link&regions present in the page at rendering time>` の Activity Map のリンクと地域を基準として Activity Map ページ = "visitedpage" を分類する分類リクエストを作成します。
+回答：Activity Map ですべてのリンクレポートを引き出すには、`<list of link&regions present in the page at rendering time>` の Activity Map のリンクと地域を基準として Activity Map ページ = &quot;visitedpage&quot; を分類する分類リクエストを作成します。
 
 Reports &amp; Analytics で同等のレポートを得るには、まず Activity Map のページレポートに移動する必要があります。次に、Activity Map で訪問されたページ名をフィルターします。訪問されたページ名が、Activity Map のページの詳細下部パネルの左列に表示されます。ページが見つかったら、そのページから分類して、Activity Map のリンクと地域をセカンダリディメンションとして選択できます。
 
@@ -120,7 +120,7 @@ Activity Map 設定／「その他」タブで、別のタグ付きレポート�
 
 *互換性のある Analytics タグ（AppMeasurement v1.6 以降）を含む Web ページ、ただし、管理ツールで Activity Map のレポートが有効になっていない場合*
 
-\[Activity Map のレポートの有効化\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md")を管理者に依頼する必要があることを示す警告メッセージが表示されます。
+\[Activity Map のレポートの有効化\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;)を管理者に依頼する必要があることを示す警告メッセージが表示されます。
 
 **質問：[Analytics データフィード](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)を使用して Activity Map データ（contextData）を書き出すことはできますか。**
 
