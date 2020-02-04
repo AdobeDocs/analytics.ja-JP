@@ -1,8 +1,8 @@
 ---
 title: ソリューションデザインドキュメントの作成
 description: ソリューションデザインドキュメントとは何か、および組織でのソリューションデザインドキュメントの使用方法について説明します。
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 前提条件
 
-[Analytics の実装を検証し、実稼働環境に公開する](../implement-with-launch/validate-publish-prod.md)：直接必要ありませんが、重要なデータを収集しながら、追加のビジネス要件を確立して実装するための基本的な実装をおこなうことをお勧めします。
+[Analytics の実装を検証し、実稼働環境に公開する](../launch/validate-publish-prod.md)：直接必要ありませんが、重要なデータを収集しながら、追加のビジネス要件を確立して実装するための基本的な実装をおこなうことをお勧めします。
 
 ## デザインドキュメントの所有権と場所
 
@@ -41,14 +41,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 ソリューションデザインドキュメントの定義は、初めて作成するという組織にとっては特に、非常に複雑なプロジェクトです。その他のサポートを必要とされる場合、アドビでは、Adobe Analytics をインストールおよび導入できるよう支援する専門的なコンサルティングを提供しています。アドビのプロフェッショナルサービスに申し込む場合は、担当のアカウントマネージャーにお問い合わせください。[実装入前の技術的なアンケート](assets/technical-pre-implementation-questionnaire.pdf)に記入して、組織のニーズに基づく支援方法をアドビが正確に把握できるようにします。
 
 また、ソリューションデザインドキュメントの作成と、サイトへの Adobe Analytics の実装を専門とするアドビのパートナーもいます。
-
-> [!NOTE] Analytics コミュニティのメンバーは、次のリンクが役に立つと判断しましたが、これらのリンクはアドビが所有しているものではありません。コンテンツを表示する際は、この点に留意してください。
-
-* [ Steps to Set Up Your Web Analytics Solution Design](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)/7-（ObservePoint）
-* [A Framework for Digital Analytics Process](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/)（Analytics Demystified）
-* [The Solution Design Reference is actually your BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/)（Numeric Analytics）
-* [How to make Adobe Analytics tagging map](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/)（Antti Koski）
-* [The Importance of the Solution Design Document](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)（Ebiquity）
 
 ## 次の手順
 
