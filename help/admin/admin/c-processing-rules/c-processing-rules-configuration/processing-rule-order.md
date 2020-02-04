@@ -5,7 +5,7 @@ title: 処理順序
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | ディメンション | 説明 |
 |--- |--- |
 | 動的変数参照 | 変数を動的に入力するには、HTTP ヘッダーや他の変数から情報を取得します。例えば、`s.eVar5="D=c1"` と指定すると、eVar5 に prop1 の値がセットされます。 |
-| AppMeasurement | AppMeasurement に使用される関数とプラグインは、ブラウザーまたはクライアントアプリケーションで実行されます。 |
+| AppMeasurement | AppMeasurementで使用される関数とプラグインは、ブラウザーまたはクライアントアプリケーションで実行されます。 |
 | Dynamic Tag Management | Dynamic Tag Management で定義したルールは、定義どおりに実行されます。 |
 | ボットルール | [ボットルール](/help/admin/admin/bot-removal/bot-rules.md)を使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。 |
 
