@@ -2,7 +2,7 @@
 title: getTimeParting
 description: 特定のアクションが実行される時間を測定します。
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 ---
 
@@ -25,10 +25,13 @@ Analysis Workspaceは、このプラグインとは少し異なる形式の、�
 1. 目的のプロパティをクリックします。
 1. 「拡張子」タブ [!UICONTROL に移動し] 、「カタログ」ボタンをクリッ [!UICONTROL クします] 。
 1. Common Analytics Plugins  Extensionのインストールと公開
-1. プラグインを使用する起動ルールに対して、次の設定を含むアクションを追加します。
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * 条件：なし
+   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. 次の設定を使用して、上記のルールにアクションを追加します。
    * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：addProductEvarの初期化
-1. ルールへの変更を保存して発行します
+   * アクションタイプ：getTimePartingの初期化
+1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターの起動を使用したプラグインのインストール
 
