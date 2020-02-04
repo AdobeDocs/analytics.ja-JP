@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics でのボットの削除
 description: Adobe Analytics でボットを削除する 3 つの方法
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
 
@@ -13,7 +13,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ## ボットルールの使用
 
-標準のボットフィルタリング方法とカスタムのボットフィルタリング方法の両方が **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般l]**／**[!UICONTROL ボットルール]**&#x200B;にあります。
+Both standard and custom bot filtering methods are supported in **[!UICONTROL Analytics]**>**[!UICONTROL  Admin]** > **[!UICONTROL Report Suites]**>**[!UICONTROL  Edit Settings]** > **[!UICONTROL General]**>**[!UICONTROL  Bot Rules]**:
 
 | ルールタイプ | 説明 |
 |--- |--- |
@@ -22,17 +22,13 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 詳しくは、[ボットルールの概要](/help/admin/admin/bot-removal/bot-rules.md)を参照してください。
 
-## `hitGovernor`実装プラグインの使用
-
-1 分あたりに数十件や数百件のヒットを送信するなど、ボットのような行動をとる訪問者を削除する [s.hitGovernor 実装プラグイン](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/javascript-implementation/plugins/hitgovernor.html)を使用します。
-
 ## アドビツールを組み合わせて使用
 
 さらに、すばやく変形するボットに対応するために、アドビでは、適切かつ定期的に組み合わせることで、データ品質に悪影響を与えるボットを排除するのに役立つ、強力な機能をいくつか提供しています。提供されている機能：Experience Cloud ID サービス、セグメント化、Data Warehouse、顧客属性、および仮想レポートスイート。以下に、これらのツールの活用方法の概要を示します。
 
 ### 手順 1：訪問者の Experience Cloud ID を新しい宣言済み ID に渡す
 
-まず、[People コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)で新しい宣言済み ID を作成します。訪問者の Experience Cloud ID をこの新しい宣言済み ID に渡す必要があります。[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/implement/solutions/idservice-save.html) を使用すると、この処理をすばやく簡単におこなうことができます。宣言済み ID に「ECID」という名前を使用するとします。
+まず、[People コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)で新しい宣言済み ID を作成します。訪問者の Experience Cloud ID をこの新しい宣言済み ID に渡す必要があります。[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) を使用すると、この処理をすばやく簡単におこなうことができます。宣言済み ID に「ECID」という名前を使用するとします。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -40,17 +36,17 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-このデータ要素を設定したら、[次の手順](https://docs.adobe.com/content/help/ja-JP/launch/using/implement/solutions/idservice-save.html)に従って、Launch の ECID ツールに宣言済み ID を渡します。
+このデータ要素を設定したら、[次の手順](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)に従って、Launch の ECID ツールに宣言済み ID を渡します。
 
 ### 手順 2：セグメント化を使用したボットの識別
 
-訪問者の ECID を宣言済み ID に渡したので、[Analysis Workspace のセグメント化](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)を使用して、ボットのような行動をとる訪問者を識別できます。ボットは、多くの場合、直帰数、通常と異なるユーザーエージェント、不明なデバイス／ブラウザー情報、リファラーがない、新規訪問者、通常と異なるランディングページなどの動作によって定義されます。Workspace のドリルダウンとセグメント化の機能を使用して、IAB フィルタリングとレポートスイートのボットルールを回避したボットを識別します。例として、使用できるセグメントのスクリーンショットを次に示します。
+訪問者の ECID を宣言済み ID に渡したので、[Analysis Workspace のセグメント化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)を使用して、ボットのような行動をとる訪問者を識別できます。ボットは、多くの場合、直帰数、通常と異なるユーザーエージェント、不明なデバイス／ブラウザー情報、リファラーがない、新規訪問者、通常と異なるランディングページなどの動作によって定義されます。Workspace のドリルダウンとセグメント化の機能を使用して、IAB フィルタリングとレポートスイートのボットルールを回避したボットを識別します。例として、使用できるセグメントのスクリーンショットを次に示します。
 
 ![](assets/bot-filter-seg1.png)
 
 ### 手順 3：Data Warehouse を使用してセグメントからすべての [!DNL Experience Cloud IDs] を書き出す
 
-セグメントを使用してボットを識別したら、次に、Data Warehouse を利用してこのセグメントに関連付けられたすべての Experience Cloud ID を抽出します。次に、[Data Warehouse](https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.html) リクエストの設定方法を示します。
+セグメントを使用してボットを識別したら、次に、Data Warehouse を利用してこのセグメントに関連付けられたすべての Experience Cloud ID を抽出します。次に、[Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) リクエストの設定方法を示します。
 
 ![](assets/bot-dwh-3.png)
 
