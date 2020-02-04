@@ -5,7 +5,7 @@ title: 入門ガイド
 topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -16,7 +16,7 @@ Analysis Workspace は、組織にとって実用的なデータベースの決�
 
 ## 前提条件
 
-[Adobe Experience Platform Launch を使用して Adobe Analytics にデータを送信する](/help/implement/implement-with-launch/validate-publish-prod.md)：Analysis Workspace を使用するには、動作する実装が必要です。ツールを使用する前に、組織がアドビにデータを送信していることを確認します。DTM やレガシーの手動による実装など、他の実装も同様に機能できます。
+[Adobe Experience Platform Launch を使用して Adobe Analytics にデータを送信する](/help/implement/launch/validate-publish-prod.md)：Analysis Workspace を使用するには、動作する実装が必要です。ツールを使用する前に、組織がアドビにデータを送信していることを確認します。DTM やレガシーの手動による実装など、他の実装も同様に機能できます。
 
 ## Workspace での基本ランクレポートの取り込み
 
@@ -30,7 +30,7 @@ Analysis Workspace を使用して基本ランクレポートを取り込みま�
 6. 左側に、ディメンション、指標、セグメントおよび日付範囲のリストが表示されます。ページディメンション（色付きのオレンジ色）を見つけ、「ここにディメンションをドロップ」と表示されたキャンバスにドラッグします。
 7. レポートスイートにデータが含まれている場合は、今月のトップページを示すレポートが表示されます。Analysis Workspace は、[回数](/help/components/c-variables/c-metrics/metrics-occurrences.md)指標を使用してレポートに自動的に入力します。
 8. 訪問回数指標（緑色）を見つけ、回数指標ヘッダーの&#x200B;**上**&#x200B;または&#x200B;**隣**&#x200B;にドラッグします（指標の上に配置しないでください）。訪問回数指標を「回数」の上にドラッグすると、レポート内のその指標が置き換えられます。「回数」の横に訪問回数指標をドラッグすると、両方の指標が並べて表示されます。
-9. プロジェクトを保存する場合は、左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 保存]*&#x200B;をクリックします。
+9. プロジェクトを保存する場合は、左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 保存]*をクリックします。
 
 ## Workspace での基本トレンドレポートの取り込み
 
@@ -46,13 +46,13 @@ Analysis Workspace を使用して基本トレンドレポートを取り込み�
 8. 左側の日付範囲コンポーネントのリストで、週の日付範囲（紫色）を探します。日付範囲のタイトルをクリックして、すべての日付範囲コンポーネントを展開して表示するか、検索バーを使用します。
 9. キャンバス上の日付範囲ヘッダーの上にある週の日付範囲をドラッグして置き換えます。
 10. トレンドレポートは、日ではなく週別に集計されるようになりました。
-11. プロジェクトを保存する場合は、左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 保存]*&#x200B;をクリックします。
+11. プロジェクトを保存する場合は、左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 保存]*をクリックします。
 
 ## ツールを使って実験する
 
 Analysis Workspace はレポート作成ツールなので、データ収集には影響しません。何が機能するかを確認するためにコンポーネントをプロジェクトに適当にドラッグしても、データに影響はありません。様々なディメンションと指標の組み合わせをワークスペースプロジェクトにドラッグして、利用可能な項目を確認してください。
 
-無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 新規]*&#x200B;をクリックして、新しいスレートから始めることもできます。
+無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 新規]*をクリックして、新しいスレートから始めることもできます。
 
 ## トラブルシューティング
 
@@ -73,7 +73,7 @@ Analysis Workspace はレポート作成ツールなので、データ収集に�
 
 * [Analysis Workspace リリースノート](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)：ツールに導入された最新の機能について説明します。
 * [Analysis Workspace（YouTube）](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)：この広範なプレイリストを使用して、Analysis Workspace のほとんどの機能を使用する方法を説明します。
-* 製品内ヒント：Analysis Workspace の右下隅には時折、その日のヒントと短いビデオが表示されることがあります。これらのヒントを閉じた場合は、*[!UICONTROL ヘルプ]／[!UICONTROL ヒント]*&#x200B;を選択することでいつでも表示できます。
+* 製品内ヒント：Analysis Workspace の右下隅には時折、その日のヒントと短いビデオが表示されることがあります。これらのヒントを閉じた場合は、*[!UICONTROL ヘルプ]／[!UICONTROL ヒント]*を選択することでいつでも表示できます。
 * [Analysis Workspace コミュニティ](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：他のユーザーと Analysis Workspace について話し合い、ツールに望む機能に投票します。
 * ブログ投稿：
    * [よりスマートな分析による組織の強化](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
