@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: adobe analytics
+product: analytics
 solution: Analytics
 solution-title: ラーニングとサポート
 solution-hub-url: https://helpx.adobe.com/jp/support/analytics.html
@@ -12,12 +12,12 @@ tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
 translation-type: tm+mt
-source-git-commit: 2a304dd963273b43d23d5f39fbc9d4000d893f32
+source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
 
 
-# syanai 用のメタデータ
+# 社内用のメタデータ
 
 metadata. md ファイルにはリポジトリ内のユーザーガイド TOC.md ファイルから渡される repo-level メタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更したい場合は、任意の TOC.md ファイル内でおこないます。
 
