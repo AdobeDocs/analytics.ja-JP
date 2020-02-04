@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics はじめての管理ガイド
 description: Adobe Analytics の使用開始、一般的な役割タイプ、UI へのログイン方法を説明します。
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -43,7 +43,7 @@ Experience Platform Launch の製品管理者アクセスは、Analytics の製�
 
 1. Adobe ID の資格情報を使用して Admin Console にログインします。
 1. 上部の「製品」タブをクリックします。組織が購入した製品はすべて左側に表示されます。「Experience Platform Launch by Adobe」をクリックし、「新しいプロファイル」ボタンをクリックします。
-1. このプロファイルに「'Experience Platform Launch の管理者フルアクセス」という名前を付け、「完了」をクリックします。
+1. このプロファイルに「&#39;Experience Platform Launch の管理者フルアクセス」という名前を付け、「完了」をクリックします。
 1. 製品プロファイルページに戻り、新しく作成したプロファイルをクリックして、「権限」タブをクリックします。
 1. 権限行項目の 1 つをクリックします。自動インクルードを使用できる場合は、有効にします。自動インクルードを使用できない場合は、「すべて追加」をクリックします。両方のオプションを選択すると、すべての権限項目が右側の列に移動します。
 1. 「保存」をクリックします。すべての権限カテゴリに対して、上記の手順を繰り返します。
@@ -56,4 +56,4 @@ Experience Platform Launch の製品管理者アクセスは、Analytics の製�
 
 [レポートスイートの作成](create-report-suite.md)：Analytics 管理者をログインさせ、データ収集用のレポートスイートを作成してもらいます。
 
-[Experience Platform Launch でのプロパティの作成](/help/implement/implement-with-launch/create-analytics-property.md)：Experience Platform Launch の管理者にツールにログインしてプロパティを作成し、サイトに実装します。
+[Experience Platform Launch でのプロパティの作成](/help/implement/launch/create-analytics-property.md)：Experience Platform Launch の管理者にツールにログインしてプロパティを作成し、サイトに実装します。
