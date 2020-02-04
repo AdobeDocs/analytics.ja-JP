@@ -3,7 +3,7 @@ description: この統合の導入は、簡単な3ステップのプロセスで
 title: 統合のデプロイ
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/selligent-variables.png)
 
-1. **データ設定**:自動化された3つのパートナーセグメントとは別に、 **[!UICONTROL 「自分のセグメント]** 」で自分のセグメントを選択 **[!UICONTROL できます]** 。
+1. **データ設定**:自動化された3つのパートナーセグメントとは別に、 **[!UICONTROL 「自分のセグメント]**」で自分のセグメントを選択**[!UICONTROL &#x200B;できます]** 。
 
 1. この統合では、Selligentアカウントへのデータポイントのダウンロードが必要になる場合があります。 「アクセス要求」で同じアクセス権を与えること **[!UICONTROL もできます]**。
 1. 「デー **[!UICONTROL タ収集]**」で、自動または手動のソリューション（JavaScriptプラグイン）を選択し、ランディングページのURLからクエリ文字列パラメーターを収集します。 自動化ソリューションを選択する場合は、メッセージIDと受信者IDのクエリ文字列パラメータをそれぞれMIDとRIDに入力します。 JavaScriptプラグインの場合は、アドビコンサルタントにお問い合わせください。
@@ -44,7 +44,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/selligent-report_settings.png)
 
-1. 統合の概要を確認し、「アクティブ化」をクリ **[!UICONTROL ックしま]**&#x200B;す。
+1. 統合の概要を確認し、「アクティブ化」をクリ **[!UICONTROL ックしま]**す。
 
 ## Selligent内の設定{#configuration-within-selligent}
 
@@ -64,7 +64,7 @@ URL内のAdobe Analyticsのトラッキングパラメーターを最前面に�
 
 ### 統合アクティビティログ {#section-927e270495db479fba9578915d9ae9c9}
 
-Data Connectors内のSelligent統合に移動します。 「サポート」 **[!UICONTROL タブに]** 、「指標データのインポート」や「分類データのインポートに成功した」などのイベントが表示されます。
+Data Connectors内のSelligent統合に移動します。 「サポート」 **[!UICONTROL タブに]**、「指標データのインポート」や「分類データのインポートに成功した」などのイベントが表示されます。
 
 ![](assets/selligent-verifying.png)
 
@@ -74,4 +74,4 @@ Data Connectors内のSelligent統合に移動します。 「サポート」 **[
 
 1. Adobe Experience cloudのReport &amp; Analyticsに移動します。
 1. 適切なレポートスイートを選択します。
-1. 「カスタ **[!UICONTROL ムコンバージョン]**」で、「メ **[!UICONTROL ッセージIDレポート]** 」を選択し、「メッセージ **[!UICONTROL ID/メッセージ名」を選択します]**。
+1. 「カスタ **[!UICONTROL ムコンバージョン]**」で、「メ**[!UICONTROL &#x200B;ッセージIDレポート]** 」を選択し、「メッセージ **[!UICONTROL ID/メッセージ名」を選択します]**。
