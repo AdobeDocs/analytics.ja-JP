@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
@@ -27,6 +27,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [コンバージョン変数（eVar）](admin/conversion-var-admin/conversion-var-admin.md)
       + [コンバージョン変数の編集](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [コンバージョンの分類](admin/conversion-var-admin/conversion-classifications.md)
+      + [リスト変数](admin/conversion-var-admin/list-var-admin.md)
    + [通貨コード](admin/currency.md)
    + [カスタムレポートの説明](admin/custom-desc-admin.md)
    + [カレンダーのカスタマイズ](admin/custom-calendar.md)
@@ -63,12 +64,12 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [処理ルールで使用可能なディメンション](admin/c-processing-rules/processing-rule-dimensions.md)
       + 処理ルールの例 {#processing-rules-examples}
          + [処理ルールの例](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [クエリ文字列パラメーターからのキャンペーン ID の入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+         + [クエリー文字列パラメーターからのキャンペーン ID の入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
          + [製品の概要ページからの「製品表示」イベントの設定](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
          + [カテゴリとページ名の連結によるサブカテゴリの追加](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
          + [eVar 値を prop にコピーしてパスを指定](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
          + [レポート内の値のクリーンアップ](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [クエリ文字列パラメーターを使用して内部検索用語を入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+         + [クエリー文字列パラメーターを使用して内部検索用語を入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
          + [コンテキストデータ変数の eVar へのコピー](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
          + [コンテキストデータ変数を使用したイベントの設定](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [ヒットからのイベントの削除](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
@@ -118,7 +119,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + [ブランド提携](company/co-branding-admin.md)
    + [レポートスイートを非表示](company/c-hide-report-suites.md)
    + [セキュリティマネージャー](company/security-manager.md)
-   + [「IPログイン制限の強制」の提供終了](company/login-restrictions-eol.md)
+   + [「IP ログイン制限の実施」の提供終了](company/login-restrictions-eol.md)
 + レポートスイートの管理 {#manage-report-suites}
    + [レポートスイートマネージャー](c-manage-report-suites/report-suites-admin.md)
    + [ロールアップレポートスイートとグローバルレポートスイート](c-manage-report-suites/rollup-report-suite.md)
