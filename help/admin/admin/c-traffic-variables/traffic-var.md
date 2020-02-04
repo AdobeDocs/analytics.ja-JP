@@ -4,7 +4,7 @@ title: トラフィック変数（prop）の概要
 topic: Admin tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 ---
 
@@ -15,4 +15,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [!UICONTROL トラフィック変数]ページを使用して、トラフィック変数レポートを無効または有効にしたり、名前を変更したりできます。トラフィック変数のレポートを無効にした場合、レポートはユーザーインターフェイスに表示されなくなります。
 
-詳しくは、[トラフィック prop とコンバージョン eVar](/help/implement/analytics-terminology-basics/c-props-evars/props-evars.md)も参照してください。
+詳しくは、 「 [prop](../../../implement/vars/page-vars/prop.md) 」（『導入ユーザガイド』）も参照してください。
