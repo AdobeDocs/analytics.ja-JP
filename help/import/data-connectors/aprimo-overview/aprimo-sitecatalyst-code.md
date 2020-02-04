@@ -1,14 +1,14 @@
 ---
 description: JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーし、ページ上のAdobe Analyticsコードに追加します。
-title: Adobe Analyticsプラグインコード
+title: Adobe Analytics プラグインコード
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Adobe Analyticsプラグインコード {#adobe-analytics-plug-in-code}
+# Adobe Analytics プラグインコード {#adobe-analytics-plug-in-code}
 
 JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーし、ページ上のAdobe Analyticsコードに追加します。
 
