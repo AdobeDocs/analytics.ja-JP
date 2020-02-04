@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: f8c8253b59d6297e4028e812bd05ee7528ef00ff
+source-git-commit: b0db12744bba2765b0e4816b57daec044f7e4ef2
 
 ---
 
@@ -26,6 +26,7 @@ source-git-commit: f8c8253b59d6297e4028e812bd05ee7528ef00ff
       + [コンバージョン数](ga-to-aa/reports/conversions-reports.md)
    + [よくある質問](ga-to-aa/faq.md)
    + [プラットフォーム間の処理の違い](ga-to-aa/processing-differences.md)
++ [ブラウザーのCookie](cookies.md)
 + [リスニングデータの保持期間](data-retention.md)
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)
