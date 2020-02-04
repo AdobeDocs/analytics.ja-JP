@@ -3,8 +3,8 @@ product: analytics
 audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
+translation-type: tm+mt
+source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
 
@@ -26,15 +26,19 @@ source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
       + [コンバージョン数](ga-to-aa/reports/conversions-reports.md)
    + [よくある質問](ga-to-aa/faq.md)
    + [プラットフォーム間の処理の違い](ga-to-aa/processing-differences.md)
-+ [データ保持](data-retention.md)
++ [リスニングデータの保持期間](data-retention.md)
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)
 + [プライバシーの概要](privacy-overview.md)
++ [リダイレクトとエイリアス](redirects.md)
 + 地域データ収集 {rdc}
    + [地域データ収集ヘルプ](rdc/regional-data-collection.md)
    + [環境の特性](rdc/rdc-environment-characteristics.md)
    + [SSL 証明書ライセンス](rdc/ssl-cert-licensing.md)
 + [使用される用語（用語集）](terms.md)
++ [タイムスタンプオプション](timestamps-optional.md)
 + [ログインのトラブルシューティング](troubleshoot-login.md)
 + [ログアウトのトラブルシューティング](troubleshoot-sessions.md)
-+ [未指定、その他および不明](unspecified.md)
++ [未指定、その他、不明](unspecified.md)
++ [訪問者の識別](visitor-identification.md)
++ [訪問者の移行](visitor-migration.md)
