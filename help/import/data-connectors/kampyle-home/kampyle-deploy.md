@@ -3,7 +3,7 @@ description: 'null'
 title: 統合のデプロイ
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -17,22 +17,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 統合をアクティブ化するには、Data Connectorsインターフェイス内の設定ウィザードを完了する必要があります。
 
 1. Adobe Experience cloudにログインします。
-1. Data Connectors **** （旧称Genesis）に移動します。
+1. Data Connectors ****（旧称Genesis）に移動します。
 1. Kampyle統合ウィザードを起動します。
 1. 目的のレポートスイートを選択し、統合の名前を指定します。
 1. 次の項目を設定します。
-   1. **[!UICONTROL 電子メールアドレス]** — 主連絡先の電子メールアドレス。
-   1. **[!UICONTROL 説明]** — （オプション）この統合設定の説明。
-   1. **[!UICONTROL Kampyle Key]** — このキーは、Kampyleアプリケーションの「 **[!UICONTROL Feedback Form]** / **[!UICONTROL Feedback Form Customization]**」で確認できます。
-   1. **[!UICONTROL トラッキングサーバー]** - Adobe Analyticsデータの追跡に使用するトラッキングサーバー（ドメイン）設定。
-   1. **[!UICONTROL トラッキングサーバーのセキュリティ]** — セキュリティで保護された/httpsトラフィックに対してトラッキングサーバーが異なる場合は、ここでその設定を指定します。
-1. 次の「 **[!UICONTROL Variable Mappings]** 」項目を設定します。
-   1. **[!UICONTROL KampyleフィードバックID]** — レポートスイートから使用可能なeVar変数を選択します。
-   1. **[!UICONTROL フィードバックのグレード]** — レポートスイートから利用可能な成功イベント（「カウンター」と入力）を選択します。
-   1. **[!UICONTROL フィードバック項目]** — レポートスイートから利用可能な成功イベント（「カウンター」と入力）を選択します。
-   1. **[!UICONTROL グレード付きのフィードバック]** — レポートスイートから利用可能な成功イベント（「カウンター」と入力）を選択します。
+   1. **[!UICONTROL 電子メールアドレス]**— 主連絡先の電子メールアドレス。
+   1. **[!UICONTROL 説明]**— （オプション）この統合設定の説明。
+   1. **[!UICONTROL Kampyle Key]**— このキーは、Kampyleアプリケーションの「**[!UICONTROL  Feedback Form]** / **[!UICONTROL Feedback Form Customization]**」で確認できます。
+   1. **[!UICONTROL トラッキングサーバー]**- Adobe Analyticsデータの追跡に使用するトラッキングサーバー（ドメイン）設定。
+   1. **[!UICONTROL トラッキングサーバーのセキュリティ]**— セキュリティで保護された/httpsトラフィックに対してトラッキングサーバーが異なる場合は、ここでその設定を指定します。
+1. 次の「 **[!UICONTROL Variable Mappings]**」項目を設定します。
+   1. **[!UICONTROL KampyleフィードバックID]**— レポートスイートから使用可能なeVar変数を選択します。
+   1. **[!UICONTROL フィードバックのグレード]**— レポートスイートから利用可能な成功イベント（「カウンター」と入力）を選択します。
+   1. **[!UICONTROL フィードバック項目]**— レポートスイートから利用可能な成功イベント（「カウンター」と入力）を選択します。
+   1. **[!UICONTROL グレード付きのフィードバック]**— レポートスイートから利用可能な成功イベント（「カウンター」と入力）を選択します。
 1. Kampyle統合ダッシュボードを自動的に作成する場合は、このチェックボックスをオンにします（推奨）。
-1. すべての設定項目を確認し、「今すぐアクティブ化」 **[!UICONTROL をクリックしま]**&#x200B;す。
+1. すべての設定項目を確認し、「今すぐアクティブ化」 **[!UICONTROL をクリックしま]**す。
 
 ## 統合設定オブジェクトのデプロイ{#deploy-the-integration-configuration-object}
 
@@ -42,8 +42,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] Adobe tagManagerまたはDynamic Tag Managementを使用してAdobe Analyticsを導入する場合は、このツールを使用して統合設定オブジェクトを簡単に追加できます。
 
-1. 統合の **[!UICONTROL Resources]** / **[!UICONTROL Support]** （サポート）タブに移動します。
-1. Kampyle統合コード(JS) **[!UICONTROL リソースをダウンロードして保存し]** ます。 コードは次のようになります。
+1. 統合の **[!UICONTROL Resources]**/**[!UICONTROL  Support]** （サポート）タブに移動します。
+1. Kampyle統合コード(JS) **[!UICONTROL リソースをダウンロードして保存し]**ます。 コードは次のようになります。
 
    ```
    /* Kampyle:  Integration configuration settings */
@@ -51,7 +51,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    ```
 
 1. 次のいずれかの方法を使用してコードをデプロイします。
-| **Adobe tagManagerまたはDynamic Tag Managementを使用します。** | tag managementインターフェイスを使用してコードを追加します。 ||—|—||そ **の他の場合** | Adobe Analytics導入コードの更新を担当する組織リソースにコードを配信します。  |
+| **Adobe tagManagerまたはDynamic Tag Managementを使用します。** | tag managementインターフェイスを使用してコードを追加します。  ||—|—||そ **の他の場合** | Adobe Analytics導入コードの更新を担当する組織リソースにコードを配信します。  |
 
 ## 統合の検証{#verify-the-integration}
 
@@ -59,7 +59,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ### 統合アクティビティログ {#section-0472df9180db4f218db5f6040cab07af}
 
-Adobe Experience cloud内でKampyle統合の設定を表示するには、サポート/統合アクティビティ **[!UICONTROL ログ]** に **[!UICONTROL 移動します]**。 「データの **[!UICONTROL 場所]** 」タブに、分類データが正常にインポートされたことを示すエントリが表示されます。
+Adobe Experience cloud内でKampyle統合の設定を表示するには、サポート/統合アクティビティ **[!UICONTROL ログ]**に**[!UICONTROL &#x200B;移動します]**。 「データの **[!UICONTROL 場所]**」タブに、分類データが正常にインポートされたことを示すエントリが表示されます。
 
 > [!NOTE] ログエントリは、展開が正常に完了してから24時間以内に表示されます。
 
