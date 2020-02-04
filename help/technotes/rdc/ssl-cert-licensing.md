@@ -1,22 +1,24 @@
 ---
 title: SSL 証明書のライセンス
-description: null
+description: 顧客管理証明書の証明書手続き
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
 
 
-# SSL 証明書のライセンス
+# SSL/TLS証明書のライセンス
 
-ファーストパーティ Cookie を使用し、セキュリティで保護されたトラフィックを扱う場合は、RDC 実装をサポートするために十分な内容の SSL 証明書ライセンスを用意する必要があります。
+アドビでは、 [Adobe Managed Certificate Programを使用して、追加費用なしで証明書を管理することをお勧めします](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)。  Adobe Managed Certificateプログラムは完全に自動化され、証明書が期限切れになったために影響を及ぼさないように、適時に更新されるようにします。
 
-最大 10 基までのサーバーにインストールできる SSL 証明書ライセンスを使用してください。証明書は世界各地のロードバランサーにインストールされます。今後、アドビが新しいデータ収集センターの運用を開始するときには SSL 証明書の更新が必要となります。このことが証明書ライセンスのニーズにどのような影響を及ぼすかは、使用する証明書ライセンスの種類によって異なります。
+Adobe Managed Certificate Programを使用しないように選択した場合 [](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) 、ファーストパーティcookieに使用するSSL/TLS証明書を提供する必要があります。
 
-* サーバーベースのライセンス：RDC デプロイメントのライセンス要件は、次第に増大します。
-* ボリュームベースのライセンス：インフラストラクチャの変化はライセンス要件に影響しませんが、扱うトラフィックの量が変化した場合はライセンス要件に影響します。
-* 無制限ライセンス：時系列的な変化がライセンス要件に及ぼす影響は比較的小さいと考えられます。
+お客様が独自の証明書を用意する場合は、購入やメンテナンスを独自に継続していただく必要があります。SSL/TLS証明書に無制限のサーバーライセンスが含まれている必要があります。
 
-お客様が独自の証明書を用意する場合は、購入やメンテナンスを独自に継続していただく必要があります。SSL 証明書を複数のデータセンターにインストールできることを、証明書のプロバイダーの契約でご確認ください。
+証明書セキュリティを確保するには、アドビから証明書署名要求 [CSR] を取得し、必要な認証局に証明書の署名を依頼します。  実装用の署名済み証明書をアドビに提供します。  このプロセスに従うと、証明書のキーのセキュリティが維持されます。  アドビカスタマーケアがこのプロセスを支援します。
 
-[Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) をご利用の場合は、アドビが追加コストなしで証明書の管理をお引き受けします。
+証明書のメンテナンスの一環として、証明書の有効期限が切れる1か月以上前に、必要な認証局と手配し、更新された証明書を取得してアドビに提供します。  この証明書は、以前に使用したのと同じCSRを使用する必要があります。  CSRのコピーが必要な場合や、新しいキーを使用して新しいCSRを生成したい場合は、アドビにお問い合わせください。
+
+カスタマーケアにお問い合わせは、customercare@adobe.comまたは1-800-497-0335にお問い合わせください。
+
+一般的に使用される認証機関には、DigiCert、Comodo、GeoTrustがあります。
