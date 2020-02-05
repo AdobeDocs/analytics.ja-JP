@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Adobe [!DNL Analytics] に [!UICONTROL Dynamic Tag Management ]をデプロイする際の、リファラーおよびキャンペーンオプション用の [!UICONTROL Dynamic Tag Management] フィールドの説明です。
 
-**[!UICONTROL /歯車&#x200B;*`Property`*]**アイコ![ン](assets/settings_gear.png)(ツ**[!UICONTROL ールを編集]**)**[!UICONTROL /リファラーとキャンペーン]**
+**[!UICONTROL /歯車&#x200B;*`Property`*]**&#x200B;アイコ![ン](assets/settings_gear.png)(ツ&#x200B;**[!UICONTROL ールを編集]**)**[!UICONTROL /リファラーとキャンペーン]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
