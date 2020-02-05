@@ -2,7 +2,7 @@
 title: Workspaceの複数のレポートスイート
 description: 複数のレポートスイートを含むWorkspaceでプロジェクトを作成する方法と理由を説明します。
 translation-type: tm+mt
-source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
+source-git-commit: 195681c622b19fc0d701b1758097e7579ebb72f7
 
 ---
 
@@ -10,7 +10,7 @@ source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 # Workspaceの複数のレポートスイート
 
 >[!IMPORTANT]
->この機能は現在ベータ版テスト中で、2020年の初めにリリースされる予定です。
+>Workspaceの複数のレポートスイートのリリースは現在制限されています。 この機能は2020年2月20日から、数週間の間にすべてのお客様に提供されます。
 
 複数のレポートスイートのデータを使用して、Analysis Workspaceでプロジェクトを作成できるようになりました。 レポートスイートがパネルレベルで選択され、同じWorkspaceプロジェクト内の各パネルに対して異なるレポートスイートを選択できるようになりました。
 
