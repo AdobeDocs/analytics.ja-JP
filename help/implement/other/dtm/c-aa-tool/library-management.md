@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Dynamic Tag Management の「ライブラリ管理」設定のフィールドおよびオプションの説明です。
 
-**[!UICONTROL /ツ&#x200B;*`Property`*]**ールを![](assets/settings_gear.png)編集**[!UICONTROL /ラ]****[!UICONTROL イブラリ管理]**
+**[!UICONTROL /ツ&#x200B;*`Property`*]**&#x200B;ールを![](assets/settings_gear.png)編集&#x200B;**[!UICONTROL /ラ]**&#x200B;**[!UICONTROL イブラリ管理]**
 
 > [!NOTE]1 つの Web プロパティで複数の Adobe Analytics ツールを使用する場合は、ツールごとに異なる名前のトラッカー変数を使用する必要があります。1 つの Web プロパティ内で使用する Adobe Analytics ツール間にオブジェクト変数名の重複があると、競合が発生します。
 
