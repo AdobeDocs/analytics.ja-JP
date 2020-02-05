@@ -18,7 +18,7 @@ Dynamic Tag Management を使用して Adobe Analytics をデプロイする場�
 
 ## グローバル変数 - フィールドの説明 {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL /ツ&#x200B;*`Property`*]**ール![](assets/settings_gear.png)を編集**[!UICONTROL /グロ]****[!UICONTROL ーバル変数]**
+**[!UICONTROL /ツ&#x200B;*`Property`*]**&#x200B;ール![](assets/settings_gear.png)を編集&#x200B;**[!UICONTROL /グロ]**&#x200B;**[!UICONTROL ーバル変数]**
 
 | 要素 | 説明 |
 |--- |--- |
