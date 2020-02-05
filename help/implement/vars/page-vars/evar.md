@@ -2,7 +2,7 @@
 title: eVar
 description: 実装で使用できるカスタム変数。
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -54,6 +54,8 @@ s.eVar1 = "+12.49";
 
 eVar カウンターで小数点以下が 3 桁以上ある場合は、2 桁に四捨五入されます。eVarカウンターに負の数を含めることはできません。
 
+> [!IMPORTANT] カウンターeVarを使用する前に、管理コンソールでeVarを「カウンター」に設定する必要があります。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+
 ## propまたはeVarに対する排他的な利点
 
 現在のバージョンのAdobe Analyticsでは、propとeVarは共通の機能を持つカスタム変数です。 ただし、主な違いはいくつかあります。
@@ -61,4 +63,4 @@ eVar カウンターで小数点以下が 3 桁以上ある場合は、2 桁に�
 * propのデータは、数分以内にレポートで使用できます。 eVarがレポートに表示されるまでに30分以上かかる場合があります。
 * レポートでは、propに100バイトの制限があります。 eVarには255バイトの制限があります。
 * propはリストpropになる機能があり、同じヒットで複数の値を受け入れます。 リスト変数は別の変数で、使用できるリスト変数は3つだけです。
-* デフォルトでは、propは設定されたヒットの後は保持されません。 eVarにはカスタムの有効期限があり、eVarがその後のイベントのクレジットを受け取らなくなった時期を判断できます。 レポートの時 [間処理を使用する場合](../../../components/vrs/vrs-report-time-processing.md)、propとeVarの両方で任意のアトリビューションモデルを使用できます。
+* デフォルトでは、propは設定されたヒットの後は保持されません。 eVarにはカスタムの有効期限があり、eVarがその後のイベントのクレジットを受け取らなくなった時期を判断できます。 ただし、レポートの時間処理 [を使用する場合](../../../components/vrs/vrs-report-time-processing.md)、propとeVarの両方でカスタムアトリビューションモデルを使用できます。
