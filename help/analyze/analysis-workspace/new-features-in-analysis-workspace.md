@@ -5,7 +5,7 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -26,9 +26,9 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 | 機能強化 | 説明 |
 |--- |--- |
-| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、**[!UICONTROL テーブルの合計]** と、&#x200B;**[!UICONTROL 総計]**&#x200B;の 2 つの合計が表示されるようになりました。テーブルの合計行は、適用された[レポートフィ ルター](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL &#x200B;合計行を表示]** 」および「**[!UICONTROL 総計を表示]** 」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた&#x200B;**[!UICONTROL &#x200B;概要番号]** ビジュアライゼーションなど）も更新されます。 |
+| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、**[!UICONTROL テーブルの合計]**&#x200B;と、**[!UICONTROL 総計]**&#x200B;の 2 つの合計が表示されるようになりました。テーブルの合計行は、適用された[レポートフィ ルター](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
 | 「未指定」または「なし」を削除するオプション | レポートフィルターのオプションに、「未指定（なし）」を簡単に削除する機能が追加されました。 |
-| 紫の精度のコンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL &#x200B;日付範囲]**」に変更されました。 |
+| 紫の精度のコンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL 日付範囲]**」に変更されました。 |
 
 ## 2019 年 8 月
 
@@ -584,7 +584,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
    <td colname="col2"> <p>以下の Workspace 領域において、各要素を手動で削除する代わりにすべての要素をクリアできるようになりました。 </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
      <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 貢献度分析の除外されたコンポーネント </a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md"> セグメント比較の除外されたコンポーネント </a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> セグメント比較の除外されたコンポーネント </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -945,7 +945,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 2016 年 6 月 17 日にリリースされた新機能：
 
-* 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL &#x200B;ワークスペース]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)。2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
+* 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL ワークスペース]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)。2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
 * Folio Builder[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント
@@ -1010,11 +1010,11 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 また、Windows および Mac の標準の[キーボードショートカット](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)（Ctrl または Command + Z）を元に戻すこともできます。
 
-*`Undo`*は、テーブルの分類操作を元に戻す場合に特に便利です。
+*`Undo`*&#x200B;は、テーブルの分類操作を元に戻す場合に特に便利です。
 
-取り消し可能でない&#x200B;*`not`*アクション：
+取り消し可能でない&#x200B;*`not`*&#x200B;アクション：
 
-* [!UICONTROL コホートテーブル]の設定の変更（指標のドラッグ、値の変更など）。ただし、「**[!UICONTROL 実行]**」をクリックした後で「**[!UICONTROL &#x200B;元に戻す]**」をクリックすることはできます。
+* [!UICONTROL コホートテーブル]の設定の変更（指標のドラッグ、値の変更など）。ただし、「**[!UICONTROL 実行]**」をクリックした後で「**[!UICONTROL 元に戻す]**」をクリックすることはできます。
 
 * パネルおよびサブパネルのサイズ変更または移動。
 
@@ -1067,7 +1067,7 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 新しいセグメントは、[!UICONTROL コンポーネント]パネルの「[!UICONTROL セグメント]」グループに表示されます。
 
-*`Save As`*は、[!UICONTROL 計算指標ビルダー]と[!UICONTROL 日付範囲ビルダー]でも使用できます。
+*`Save As`*&#x200B;は、[!UICONTROL 計算指標ビルダー]と[!UICONTROL 日付範囲ビルダー]でも使用できます。
 
 ## 「新しいセグメントを追加」ボタン{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
@@ -1119,13 +1119,13 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 ## 凡例を表示 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-[!UICONTROL ビジュアライゼーション設定]の&#x200B;**[!UICONTROL 凡例を表示]**オプションは、ビジュアライゼーションの凡例を表示または非表示にできます。
+[!UICONTROL ビジュアライゼーション設定]の&#x200B;**[!UICONTROL 凡例を表示]**&#x200B;オプションは、ビジュアライゼーションの凡例を表示または非表示にできます。
 
 ![](assets/legend-visible.png)
 
 ## Y 軸をゼロに固定 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。**[!UICONTROL ビジュアライゼーション設定]**の「[!UICONTROL Y 軸をゼロに固定]」を有効にすると、Y 軸が強制的にゼロになり、より正確なトレンドの表示が実現します。次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
+線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。**[!UICONTROL ビジュアライゼーション設定]**&#x200B;の「[!UICONTROL Y 軸をゼロに固定]」を有効にすると、Y 軸が強制的にゼロになり、より正確なトレンドの表示が実現します。次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
 
 **「Y 軸をゼロに固定」が無効な場合**
 
@@ -1143,4 +1143,4 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 管理者は、あるユーザーから別のユーザーに [!UICONTROL Analysis Workspace] プロジェクトを転送できます。
 
-プロジェクトを転送するには、**[!UICONTROL 管理者]**／**[!UICONTROL &#x200B;ユーザー管理]**／**[!UICONTROL 転送]**を選択します。
+プロジェクトを転送するには、**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL 転送]**&#x200B;を選択します。
