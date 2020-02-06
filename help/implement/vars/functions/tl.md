@@ -2,7 +2,7 @@
 title: tl
 description: リンクトラッキングコールをアドビに送信します。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,11 +18,11 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 「起動」には、専用の場所でリンクトラッキングコールを設定します。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 目的のプロパティをクリックします。
-3. 「ルール」タブ [!UICONTROL に移動し] 、目的のルールをクリックします（またはルールを作成します）。
-4. 「アク [!UICONTROL ション]」で「+」アイコンをクリックします
-5. 「拡張」ド [!UICONTROL ロップダウンを] 「Adobe Analytics」に設定し、「アクションタイプ [!UICONTROL 」を「送信ビーコン] 」に設定します。
-6. Click the `s.tl()` radio button.
+1. 目的のプロパティをクリックします。
+1. 「ルール」タブ [!UICONTROL に移動し] 、目的のルールをクリックします（またはルールを作成します）。
+1. 「アク [!UICONTROL ション]」で「+」アイコンをクリックします
+1. 「拡張」ド [!UICONTROL ロップダウンを] 「Adobe Analytics」に設定し、「アクションタイプ [!UICONTROL 」を「送信ビーコン] 」に設定します。
+1. Click the `s.tl()` radio button.
 
 「起動」では、オプションの引数を設定できません。
 
