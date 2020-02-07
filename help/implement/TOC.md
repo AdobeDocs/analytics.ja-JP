@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 51d86278089c36c5bab4ed93aa3efb555eedc92d
+source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
 
 ---
 
@@ -76,15 +76,15 @@ source-git-commit: 51d86278089c36c5bab4ed93aa3efb555eedc92d
    + 関数とメソッド {#functions}
       + [関数の概要](vars/functions/overview.md)
       + [s_gi](vars/functions/s-gi.md)
-      + [t](vars/functions/t.md)
-      + [tl](vars/functions/tl.md)
+      + [t](vars/functions/t-method.md)
+      + [tl](vars/functions/tl-method.md)
       + [clearVars](vars/functions/clearvars.md)
       + [doPlugins](vars/functions/doplugins.md)
       + [forceOffline](vars/functions/forceoffline.md)
       + [forceOnline](vars/functions/forceonline.md)
       + [registerPreTrackCallback](vars/functions/registerpretrackcallback.md)
       + [registerPostTrackCallback](vars/functions/registerposttrackcallback.md)
-      + [sa](vars/functions/sa.md)
+      + [sa](vars/functions/sa-method.md)
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
