@@ -2,7 +2,7 @@
 title: Adobe Analyticsで使用される用語
 description: 一般的な用語を定義するAdobe Analyticsの用語集。
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 * **** コンバージョン変数：略してeVarと呼ばれます。 カスタム値を格納し、変数値が期限切れになるまで保持します。 See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** 相関：用語としては使用されなくなりました。ディメンション分類に置き換えられました。 以前のバージョンのAdobe Analyticsでは、クロス集計によってトラフィック変数を分類する機能が付与されていました。 詳しくは、 [Analyzeユーザーガイドの](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 「ディメンションの分類」を参照してください。
 * **** 現在のデータ：一部のレポートで、まだ完全に処理されていない最近収集したデータを含めることができるオプション。 Analyzeユー [ザーガイドの](/help/analyze/reports-analytics/current-data.md) 「Current data」を参照してください。
-* **** カスタムリンク：ページビュー以外のデータを含むヒットのタイプ。 『導入ユーザ [ーガイド](../implement/vars/functions/tl.md) 』のs.tl()関数を参照してください。 「ヒット」も参照してください。
+* **** カスタムリンク：ページビュー以外のデータを含むヒットのタイプ。 『導入ユーザ [ーガイド](../implement/vars/functions/tl-method.md) 』のs.tl()関数を参照してください。 「ヒット」も参照してください。
 * **** 顧客属性：属性データをアップロードできるExperience cloud機能。 コアサ [ービスユーザーガイドの](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) 「顧客属性」を参照してください。
 * **** カスタマーサポート委任：アドビカスタマーケアとの直接の対話を承認された指定ユーザー。 Experience cloudナレッジベ [ースの「カスタマーサポート](https://helpx.adobe.com/experience-cloud/supported-users.html) ・デリゲート」を参照してください。
 * **** データ収集サーバー：データを受信し処理するアドビ所有のサーバー。 イメージリクエストは、アドビのデータ収集サーバーに送信され、レポートで使用できます。
@@ -87,8 +87,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 * **** レポートスイート：データの送信先となるオーバーチャーチコンテナです。 Adobe Analyticsのすべてのレポートは、1つのレポートスイートを参照します。
 * **** 周期的な日付範囲：時間が経過すると変化する相対的な日付範囲のタイプ。 例えば、過去7日間を示すレポートは、相対的な日付範囲と見なすことができます。 「静的日付範囲」も参照してください。
 * **** RSID:レポートスイートIDの省略形です。 レポートスイートには、わかりやすい名前とレポートスイートIDの両方があります。
-* **** s.t():ページビューイメージリクエストを送信するAppMeasurementライブラリ内の関数の名前。 代わりに、一部のAppMeasurementライブラリが使 `s.track()` 用されます。 『導入 [ユーザ](../implement/vars/functions/t.md) 』ガイドの「 」を参照してください。
-* **s<span>.</span>** tl():リンクトラッキングイメージリクエストを送信するAppMeasurementライブラリ内の関数の名前。 代わりに、一部のAppMeasurementライブラリが使 `s.trackLink()` 用されます。 『導入ユ [ーザガイド](../implement/vars/functions/tl.md) 』のtlを参照してください。
+* **** s.t():ページビューイメージリクエストを送信するAppMeasurementライブラリ内の関数の名前。 代わりに、一部のAppMeasurementライブラリが使 `s.track()` 用されます。 『導入 [ユーザ](../implement/vars/functions/t-method.md) 』ガイドの「 」を参照してください。
+* **s<span>.</span>** tl():リンクトラッキングイメージリクエストを送信するAppMeasurementライブラリ内の関数の名前。 代わりに、一部のAppMeasurementライブラリが使 `s.trackLink()` 用されます。 『導入ユ [ーザガイド](../implement/vars/functions/tl-method.md) 』のtlを参照してください。
 * **** s_code.js:Adobe Analyticsの過去のバージョンで使用されたJavaScriptファイルの名前。 現在使用されているJavaScriptファイルの名前はAppMeasurement.jsです。
 * **** 衛星：用語として使用されなくなりました。 Dynamic Tag Managementの旧製品名。
 * **** セカンダリサーバーコール：イメージリクエストまたはヒットの代替名。主にマルチスイートタギングおよび請求のコンテキストで使用されます。 同じヒットが複数のレポートスイートに送信される場合、リストに表示される最初のレポートスイート以降のすべてのレポートスイートはセカンダリサーバーコールです。 「プライマリサーバーコール」も参照してください。
