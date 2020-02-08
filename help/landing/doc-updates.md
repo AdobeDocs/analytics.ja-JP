@@ -3,7 +3,7 @@ title: Adobe Analytics ドキュメントのアップデート
 description: Adobe Analytics テクニカルドキュメントのアップデート
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
+source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
 
 ---
 
@@ -13,16 +13,17 @@ source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
 2019 年 1 月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
 * 新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)を参照してください。
-* Analysis Workspace の新機能について詳しくは、[このトピック](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
+* 新機能について詳しくは、Analyzeユーザーガ [イドのAnalysis Workspaceの新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) （英語のみ）を参照してください。
 * オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)を参照してください。
 
 ## アップデートの詳細
 
 | 日付 | 説明 |
 |---|---|
+| 2020 年 2 月 8 日 | デバイス間 [の分析の設定の更新](../components/cda/cda-setup.md) &amp; [FAQ](../components/cda/cda-faq.md) |
 | 2020年2月4日 | 『 [Implement』ユーザーガイドの書き直しを完了します](../implement/home.md)。 |
-| 2020年1月22日 | 新しいフリーフォームテーブルビルダーの情報を含む、フリーフォームテ [ーブルページを更新しまし](/help/analyze/analysis-workspace/visualizations/freeform-table.md)た。 |
-| 2020年1月13日 | [Adobe Analyticsとブラウザーのcookieを追加しました](../technotes/cookies.md)。 |
+| 2020 年 1 月 22 日 | 新しいフリーフォームテーブルビルダーの情報を含む、フリーフォームテ [ーブルページを更新しまし](/help/analyze/analysis-workspace/visualizations/freeform-table.md)た。 |
+| 2020 年 1 月 13 日 | [Adobe Analyticsとブラウザーのcookieを追加しました](../technotes/cookies.md)。 |
 | 2019 年 29 月 12 日 | データフィードのドキュメ [ントの概要説明](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 26 日 | IPログイン制限 [の実施の提供終了に関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 2019 年 11 月 26 日 | 内部（セッション更新） [マーケティングチャネルに関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
