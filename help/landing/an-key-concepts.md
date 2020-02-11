@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 製品 | 説明 | ドキュメントリンク |
 |--- |--- |--- |
-| Analysis Workspace | 強力なカスタム分析プロジェクトを構築しインサイトをデモクラタイズ（民主化）するブラウザーソリューションReports &amp; Analytics よりも柔軟性の高いレポートを提供します | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html) |
+| Analysis Workspace | 強力なカスタム分析プロジェクトを構築しインサイトをデモクラタイズ（民主化）するブラウザーソリューションReports &amp; Analytics よりも柔軟性の高いレポートを提供します。 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html) |
 | Reports &amp; Analytics（旧称 SiteCatalyst） | レポートおよび分析のためのブラウザーソリューションAnalytics パッケージのスターターツールです。 | [Reports &amp; Analytics ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.translate.html) |
 | Report Builder | Adobe Analytics のデータからカスタムリクエストを構築し、視覚的なレポートを作成する Microsoft Excel のアドインです。 | [Report Builder ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析を実行する Java ベースのツールです。 | [Ad Hoc Analysis ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
@@ -32,8 +32,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 用語 | 説明 | ドキュメントリンク |
 |--- |--- |--- |
-| prop（カスタムトラフィック） | ページ別のサイトトラフィックアクティビティのトラッキングに使用されるディメンションです。prop はページをまたいで保持されません。トラフィック変数の主要な用途を次に示します。 <ul><li>特定の値の「一番人気」を見つける単純なカウント</li><li>ユーザーがサイト内をどのように遷移したかの可視性 </li></ul><br>トラフィック変数の例として、ページ名、サイトセクション、ブラウザーがあります</br> | [prop](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
-| eVar（カスタムコンバージョン） | カスタマイズされた一定期間持続するディメンションです。有効期限オプションには、イベントの有効期限、訪問の有効期限、または X-day 有効期限が含まれ、該当の変数で実行される分析のタイプによって決定します。<br>eVar と prop の主な違い：</br><ul><li>props では永続性が削除されるので、パス分析によく使用されます。</li><li>eVar は、多くの場合、コンバージョン分析に使用されます。</li></ul><br>コンバージョン変数の例には、内部検索用語、内部プロモーション、外部キャンペーン（s.campaign）があります</br> | [eVar](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| prop（カスタムトラフィック） | ページ別のサイトトラフィックアクティビティのトラッキングに使用されるディメンションです。prop はページをまたいで保持されません。トラフィック変数の主要な用途を次に示します。 <ul><li>特定の値の「一番人気」を見つける単純なカウント</li><li>ユーザーがサイト内をどのように遷移したかの可視性 </li></ul><br>トラフィック変数の例として、ページ名、サイトセクション、ブラウザーがあります。</br> | [prop](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| eVar（カスタムコンバージョン） | カスタマイズされた一定期間持続するディメンションです。有効期限オプションには、イベントの有効期限、訪問の有効期限、または X-day 有効期限が含まれ、該当の変数で実行される分析のタイプによって決定します。<br>eVar と prop の主な違い：</br><ul><li>props では永続性が削除されるので、パス分析によく使用されます。</li><li>eVar は、多くの場合、コンバージョン分析に使用されます。</li></ul><br>コンバージョン変数の例には、内部検索用語、内部プロモーション、外部キャンペーン（s.campaign）があります。</br> | [eVar](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
 | イベント／指標（s.events） | 指標サイト上で訪問者におこなって欲しい主要なアクションを測定する指標です。イベントには、カウンター、数値、通貨の 3 タイプがあります。イベントは、コンバージョン変数（eVar）レポートに追加すると便利です。eVar は発生した内容に関する定性的情報を提供し、イベントは発生した内容に関する定量的情報を提供します。<br>eVar とイベントの主な違い：</br><ul><li>eVar は、誰が、何が、またはどれがコンバージョンに影響したかを示します</li><li>イベントは、発生したコンバージョンの数を測定します</li></ul><br>コンバージョンイベントの例には、購入回数、アプリケーション開始、リード、売上高があります。</br> | [イベント](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/success-events/success-event.html) |
 | コンポーネント | ディメンション、指標、セグメントおよび時間の精度（日付範囲）をプロジェクトにドラッグ＆ドロップできます。 | [コンポーネント](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
 | ディメンション | eVar、prop、分類およびアドビの標準収集値のコレクションです。 | [ディメンション](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
@@ -92,7 +92,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | オプション | 説明 | ドキュメントリンク |
 |---|---|---|
-| UI のダウンロードとスケジュール | Analysis Workspace からデータを CSV または PDF としてエクスポート | [PDF ファイルまたは CSV ファイルのダウンロード](/help/analyze/analysis-workspace/curate-share/download-send.md) |
+| UI のダウンロードとスケジュール | Analysis Workspace からデータを CSV または PDF としてエクスポート。 | [PDF ファイルまたは CSV ファイルのダウンロード](/help/analyze/analysis-workspace/curate-share/download-send.md) |
 | Report Builder | Analytics ツールを参照してください。 |
 | Analytics API | Analytics データの自分用のカスタマイズクエリを作成します。 | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
 | Data Warehouse | Analytics ツールを参照してください。 |  |
@@ -107,7 +107,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | AppMeasurement（s_code） | グローバル変数管理 | [AppMeasurement](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
 | App SDK | アプリの設定ファイルの事前収集バージョンを含むカスタマイズされたパッケージ。 | <ul><li>[iOS](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | DTM および Adobe Launch | Analytics ツールを参照してください。 |  |
-| VISTA | サーバー側のロジックを適用して、データの収集時にデータを変更またはセグメント化できます。 | [VISTA ルール](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) |
+| VISTA | サーバー側のロジックを適用して、データの収集時にデータを変更またはセグメント化できます。 | [VISTA ルール](https://marketing.adobe.com/resources/help/ja_JP/reference/VISTA.html) |
 | 処理ルール | Analytics UI で変数を設定、変更およびコピーして、収集されたデータを変更できます。 | [処理ルール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
 | デバッガーオプション | Adobe Experience Cloud デバッガーなど、実装の検証に役立つ様々なデバッガーやパケットスニファーを利用できます。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ja) |
 | Data Insertion API | Data Insertion API は、サーバー側のデータ収集と Experience Cloud サーバーへの送信のメカニズムを提供します。サーバー側のデータ収集では、各 Web ページで JavaScript ビーコンを使用して訪問者データを Experience Cloud サーバーに送信する代わりに、Web ブラウザーのリクエストと Web サーバーの応答に基づいてデータを収集します。 | [POST を使用して Adobe Analytics データ挿入 API を実装する手順](https://helpx.adobe.com/jp/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
