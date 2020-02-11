@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: アドビにヒットを送信した後に、コールバック関数を作成します。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 この変数を呼び出すたびに、 `registerPostTrackCallback` その関数をフックして、イメージリクエストが正常に送信された直後に実行します。 同じページの読み込みで同じ関数を複数回登録しないでください。
 
-> [!NOTE] との間に呼び出される関数のタイミングと順序 `registerPostTrackCallback` は保証 `registerPostTrackCallback` されません。 この2つの関数間の依存関係を避けます。
+> [!NOTE] との間に呼び出される関数のタイミングと順序 `registerPreTrackCallback` は保証 `registerPostTrackCallback` されません。 この2つの関数間の依存関係を避けます。
 
 ## Adobe Experience Platform LaunchでのPost trackコールバックの登録
 
