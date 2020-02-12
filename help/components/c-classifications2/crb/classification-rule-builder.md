@@ -5,7 +5,7 @@ title: 分類ルールビルダーのワークフロー
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: f6b528f8a1b89a008a736fa62d58d6e83f13e4e4
 
 ---
 
@@ -18,24 +18,25 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 分類ルールを使用する前に、次の点に注意してください。
 
+* 下位分類は、分類ルールビルダー(CRB)ではサポートされていません。
 * 現在の分類システムでは、一度に 1,000 万行まで書き出すことができます。
-* 分類ルールビルダー（CRB）が書き出しを要求すると、分類された値と未分類の値の両方を（未分類の値は書き出しの最後に）取り込みます。つまり、時間の経過と共に、1,000 万個の分類済みの値が埋め尽くされ、未分類の値に到達しないことがあります。
+* CRBは、エクスポートを要求すると、AND未分類の両方の値を取り込み、未分類の値はエクスポートの最後に取り込みます。 つまり、時間の経過と共に、1,000 万個の分類済みの値が埋め尽くされ、未分類の値に到達しないことがあります。
 * アーキテクチャは「n」台のサーバから CRB を取り込むように設定されているので、どのサーバがどの順序で取得されるかに関して不整合が生じる可能性があります。そのため、未分類の値を取得するのは非常に困難です。
 
 ディメンションの分類値が 1,000 万件を超える場合の&#x200B;**回避策**&#x200B;を次に示します。未分類の値は FTP 経由で 1,000 万個のバッチに書き出し、手動で分類する必要があります。
 
 ## 分類ルールの概要 {#section_3FF666EF9D5B4E37A23B3FB400CDA2E6}
 
-**[!UICONTROL 管理者]**／**[!UICONTROL 分類ルールビルダー]**
+**[!UICONTROL Admin]**／**[!UICONTROL Classification Rule Builder]**
 
 分類ルールを実装するためのおおまかな手順を次に示します。
 
 | 手順 | 作業する場所 | 説明 |
 |--- |--- |--- |
-| 手順 1（必須）：[分類スキーマを設定します](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html)。 | [!UICONTROL 管理者]／[!UICONTROL レポートスイート]／[!UICONTROL 設定を編集]／&lt;トラフィック分類またはコンバージョン分類&gt; | 変数を選択し、その変数で使用する分類を定義します。<br>変数をルールで使用するには、事前に 1 つ以上の分類列を作成しておく必要があります。<br>分類が有効になると、インポーターおよびルールビルダーを使用して特定の値を分類できます。 |
-| 手順 2：[ルールセットを作成する](/help/components/c-classifications2/crb/classification-rule-set.md)。 | [!UICONTROL 管理者]／[!UICONTROL 分類ルールビルダー]／[!UICONTROL ルールセットを追加] | ルールセットは、特定の変数の分類ルールのグループです。 |
-| 手順 3：レポートスイートと変数を設定します。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット&gt; | レポートスイートおよび変数にルールセットを適用します。 |
-| 手順 4：[分類ルールをセットに追加する](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット&gt; | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「[ルールの処理方法](/help/components/c-classifications2/crb/classification-quickstart-rules.md)」の情報を確認します。 |
+| 手順 1（必須）：[分類スキーマを設定します](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html)。 | [!UICONTROL Admin] > [!UICONTROL Report Suites] > [!UICONTROL Edit Settings] > &lt;トラフィック分類またはコンバージョンの分類> | 変数を選択し、その変数で使用する分類を定義します。<br>変数をルールで使用するには、事前に 1 つ以上の分類列を作成しておく必要があります。<br>分類が有効になると、インポーターおよびルールビルダーを使用して特定の値を分類できます。 |
+| 手順 2：[ルールセットを作成する](/help/components/c-classifications2/crb/classification-rule-set.md)。 | [!UICONTROL Admin] >  [!UICONTROL Classification Rule Builder] > [!UICONTROL Add Rule Set] | ルールセットは、特定の変数の分類ルールのグループです。 |
+| 手順 3：レポートスイートと変数を設定します。 | [!UICONTROL Classification Rule Builder] >  &lt;ルールセット> | レポートスイートおよび変数にルールセットを適用します。 |
+| 手順 4：[分類ルールをセットに追加する](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。 | [!UICONTROL Classification Rule Builder] >  &lt;ルールセット> | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「[ルールの処理方法](/help/components/c-classifications2/crb/classification-quickstart-rules.md)」の情報を確認します。 |
 | 手順 5：[分類ルールセットのテスト](/help/components/c-classifications2/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | ルールをドラフトモードで編集してその有効性をテストします。ドラフトモードでは、ルールを実行できません。<br>この手順は、[正規表現](/help/components/c-classifications2/crb/classification-quickstart-rules.md)を使用する場合に重要です。 |
 | 手順 6：[有効なルールをアクティブ化する](/help/components/c-classifications2/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。詳しくは、[ルールの処理方法](/help/components/c-classifications2/crb/classification-quickstart-rules.md)を参照してください。 |
 | 手順 7（オプション）：[不要なルールを削除する](/help/components/c-classifications2/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。分類データを削除する必要がある場合は、[分類データの削除](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md)を参照してください。 |
@@ -48,4 +49,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **ブログ**：この機能について詳しくは、Digital Marketing Blog の[Rule-based Classifications（ルールベースの分類）](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29)を参照してください。
 
-**ビデオ**：[YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) にアクセスし、[!UICONTROL 分類の概要]のビデオを確認してください。
+**ビデオ**:YouTubeにアク [セスし](https://www.youtube.com/watch?v=6laI5SBXY-I) 、ビデオを表示 [!UICONTROL Classifications Overview] します。
