@@ -2,7 +2,7 @@
 title: Adobe Analyticsの獲得レポート
 description: Analysis Workspaceを使用して獲得ベースのレポートを作成する方法を説明します。
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Analyticsでは、これらのレポートはマーケティングチャ�
 
 > [!IMPORTANT]
 >
-> これらのレポートを使用するようにマーケティングチャネルの処理ルールを設定します。 貴社でマ [ーケティングチャネルを最適に設定する方法については](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 、「マーケティングチャネル — はじめに」を参照してください。
+> これらのレポートを使用するようにマーケティングチャネルの処理ルールを設定します。 貴社でマ [ーケティングチャネルを最適に設定する方法については](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) 、「マーケティングチャネル — はじめに」を参照してください。
 
 このページでは、ユーザーがAnalysis Workspaceの使用に関する基本的な知識を持っていることを前提としています。 Adobe Analytics [のツールに詳しくない場合は、Analysis WorkspaceでのGoogle Analyticsユーザー用の基本レポートの作成](create-report.md) （英語のみ）を参照してください。
 
