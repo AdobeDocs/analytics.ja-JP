@@ -2,7 +2,7 @@
 title: クロスデバイス分析の設定
 description: 前提条件を満たした後で、クロスデバイス分析を設定する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
 
 ---
 
@@ -56,6 +56,8 @@ source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 1. プロンプトが表示されたら、CDAをサポートするレポートスイートに変更します。
 
 複数のパネルを含むAnalysis Workspaceプロジェクトが作成されます。 上部に目次と紹介が表示され、レポートのコンテキストや個々のレポートへのナビゲーションが可能です。 目次内のリンクをクリックするか、パネルのアコーディオンを展開して、これらのレポートを表示します。
+
+<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
 * **Co-op Graphのメンバーに関する特別な注意**:協力グラフがサポートされている地域およびサポートされていない地域の訪問者を含むレポートスイートの部分を表示します。
 * **ユーザーのID**:デバイス間分析に基づくメソッドを使用して、サイトへの訪問者が識別される頻度を示します。
