@@ -3,7 +3,7 @@ title: JavaScript版AppMeasurementリリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
@@ -18,7 +18,7 @@ JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートで�
 
 ## バージョン 2.18.0
 
-リリース日：**2020 年 2 月 21 日**
+Release Date: **February 13, 2020**
 
 * AppMeasurementで、「true」に設定することで、cookieにセキュリティで保護されたタグを `writeSecureCookies` 強制的に含めることができるようになりました。 この設定で必要なのは、クライアントWebサイト全体が安全に(https)提供されることです。 （AN-204604）
 
