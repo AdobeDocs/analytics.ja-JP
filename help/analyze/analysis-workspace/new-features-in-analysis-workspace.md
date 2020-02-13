@@ -5,7 +5,7 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
+source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
 | デバイス間分析を使用する組織向けの新しいWorkspaceテンプレート | このテンプレートは、CDAが訪問をつなぎ合わせ、CDA専用のディメンションと指標に関する教育をどの程度効果的に行うかを示します。 CDAを使用するレポートスイートが必要です。 詳しく [は、デバイス間分析の設定を参照してください](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) 。 |
 | Workspaceの新しいホットキー | <ul><li>すべてのパネルを折りたたむ/展開する： `alt + m`</li><li>アクティブパネルを折りたたみ/展開： `alt + ctrl + m`</li><li>左側のレールを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | その他のWorkspaceの機能強化 | <ul><li>パネルまたはビジュアライゼーションをWorkspaceにドロップすると、左側のレールがコンポーネントに自動的に切り替わり、よりシームレスなワークフローが実現するようになりました。</li><li>テンプレートコンポーネントをアクションできるようになりました（例：タグ付け、お気に入りに追加、承認済み）。</li><li>フィルター適用済みの指標およびセグメントリストでは、必要な項目が見つからない場合に新しいコンポーネントを追加する「+」ボタンが表示されます。</li></ul> |
+| Workspaceデバッガー | Workspaceデバッガーがヘルプメニューに追加され、Workspaceリクエストのデバッグに対してよりシームレスに有効にできるようになりました。 [詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 1 月 2020 日
 
