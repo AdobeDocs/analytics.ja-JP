@@ -5,12 +5,23 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
+source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
 
 ---
 
 
 # Analysis Workspace の新機能
+
+## 2020 年 2 月
+
+2020年2月21日にリリースされた新機能です。
+
+| 機能 | 説明 |
+|--- |--- |
+| Workspaceでの複数のレポートスイートのサポート | 複数のレポートスイートのデータを単一のプロジェクトに取り込んで並べて表示できるようになりました。 この機能は2020年2月20日から、数週間の間にすべてのお客様に提供されます。 [詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| デバイス間分析を使用する組織向けの新しいWorkspaceテンプレート | このテンプレートは、CDAが訪問をつなぎ合わせ、CDA専用のディメンションと指標に関する教育をどの程度効果的に行うかを示します。 CDAを使用するレポートスイートが必要です。 詳しく [は、デバイス間分析の設定を参照してください](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) 。 |
+| Workspaceの新しいホットキー | <ul><li>すべてのパネルを折りたたむ/展開する： `alt + m`</li><li>アクティブパネルを折りたたみ/展開： `alt + ctrl + m`</li><li>左側のレールを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| その他のWorkspaceの機能強化 | <ul><li>パネルまたはビジュアライゼーションをWorkspaceにドロップすると、左側のレールがコンポーネントに自動的に切り替わり、よりシームレスなワークフローが実現するようになりました。</li><li>テンプレートコンポーネントをアクションできるようになりました（例：タグ付け、お気に入りに追加、承認済み）。</li><li>フィルター適用済みの指標およびセグメントリストでは、必要な項目が見つからない場合に新しいコンポーネントを追加する「+」ボタンが表示されます。</li></ul> |
 
 ## 1 月 2020 日
 
@@ -18,7 +29,7 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 | 機能 | 説明 |
 |--- |--- |
-| [フリーフォームテーブルビルダー](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新がおこなわれ、どのテーブルを作成したいかがわかると時間を節約することができます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、Workspace で適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
+| [フリーフォームテーブルビルダー](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、Workspace で適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
 
 ## 2019 年 10 月
 
@@ -26,9 +37,9 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 | 機能強化 | 説明 |
 |--- |--- |
-| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、**[!UICONTROL テーブルの合計]**&#x200B;と、**[!UICONTROL 総計]**&#x200B;の 2 つの合計が表示されるようになりました。テーブルの合計行は、適用された[レポートフィ ルター](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
+| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、aとaの2つの合計が含まれるよう **[!UICONTROL Table total]** になりまし **[!UICONTROL Grand total]**&#x200B;た。 テーブルの合計行は、適用された[レポートフィ ルター](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>情報さらに、 **[!UICONTROL Show Totals]** およびオ **[!UICONTROL Show Grand Total]** プションがに追加されまし **[!UICONTROL Column Settings]**&#x200B;た。<br/>このフリーフォームの合計の変更により、依存するビジュアライゼーション(リンクされたビジュアライゼーションなど **[!UICONTROL Summary Number]** )が更新され、CSVおよびPDFデータがエクスポートされます。 |
 | 「未指定」または「なし」を削除するオプション | レポートフィルターのオプションに、「未指定（なし）」を簡単に削除する機能が追加されました。 |
-| 紫の精度のコンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL 日付範囲]**」に変更されました。 |
+| 紫の精度のコンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫のセクシ **[!UICONTROL Time]** ョンもに名前が変更されまし **[!UICONTROL Date Ranges]**&#x200B;た。 |
 
 ## 2019 年 8 月
 
@@ -945,7 +956,7 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 2016 年 6 月 17 日にリリースされた新機能：
 
-* 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL ワークスペース]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)。2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
+* [管理者がユーザーの](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) /タブへのアクセスを許可または拒否できる新しいグ **[!UICONTROL Analytics]** ループ権 **[!UICONTROL Workspace]** 限が追加されました。 2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
 * Folio Builder[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント
@@ -1004,7 +1015,7 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 Analysis Workspace でおこなったほとんどの操作を元に戻すことができるようになりました。
 
-元に戻すには、アクションメニューから「**[!UICONTROL 元に戻す]**」をクリックします。
+To undo, click **[!UICONTROL Undo]** from the action menu.
 
 ![](assets/undo.png)
 
@@ -1014,7 +1025,7 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 取り消し可能でない&#x200B;*`not`*&#x200B;アクション：
 
-* [!UICONTROL コホートテーブル]の設定の変更（指標のドラッグ、値の変更など）。ただし、「**[!UICONTROL 実行]**」をクリックした後で「**[!UICONTROL 元に戻す]**」をクリックすることはできます。
+* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). ただし、をクリックした後でをク **[!UICONTROL Undo]** リックできま **[!UICONTROL Run]**&#x200B;す。
 
 * パネルおよびサブパネルのサイズ変更または移動。
 
@@ -1025,7 +1036,7 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 ## このプロジェクトへのリンク {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-プロジェクトで、アクションメニューから「**[!UICONTROL このプロジェクトへのリンク]**」をクリックすると、保存したプロジェクトの URL が他のユーザーに電子メールで送信されます。このメールを受信したユーザーに管理者権限があれば、この方法で共有されたプロジェクトを編集して、保存できます。それ以外の場合は、このようなプロジェクトは読み取り専用になります。
+In a project, click **[!UICONTROL Link to This Project]** from the Actions menu to email a saved project&#39;s URL to other users. このメールを受信したユーザーに管理者権限があれば、この方法で共有されたプロジェクトを編集して、保存できます。それ以外の場合は、このようなプロジェクトは読み取り専用になります。
 
 ![](assets/link-to-this-project.png)
 
@@ -1041,7 +1052,7 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 ![](assets/bullet-image.png)
 
-ブレットグラフでは、単一の主要測定値（例えば、過去 1 年間の売上）を使用して、1 個以上の他の測定値と比較し、これに意味を加えることができます（売上目標との比較など）。また、高、中、低などのパフォーマンスの質的範囲のコンテキストに合わせて、これを表示します。「[!UICONTROL ビジュアライゼーション設定]」で目標範囲を指定できます。
+ブレットグラフでは、単一の主要測定値（例えば、過去 1 年間の売上）を使用して、1 個以上の他の測定値と比較し、これに意味を加えることができます（売上目標との比較など）。また、高、中、低などのパフォーマンスの質的範囲のコンテキストに合わせて、これを表示します。You can specify goal ranges in [!UICONTROL Visualization Settings].
 
 **散布図**
 
@@ -1061,21 +1072,21 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 ## セグメント、指標、日付に名前を付けて保存 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-Analysis Workspace セグメントビルダーで既存の（保存した）セグメントを編集する際に、「**[!UICONTROL 名前を付けて保存]**」をクリックすると、コピーが作成されます。
+When editing an existing (saved) segment the Analysis Workspace Segment Builder, click **[!UICONTROL Save As]** to make a copy.
 
 ![](assets/segment-save-as.png)
 
-新しいセグメントは、[!UICONTROL コンポーネント]パネルの「[!UICONTROL セグメント]」グループに表示されます。
+The new segment displays in the [!UICONTROL Segments] group in the [!UICONTROL Components] panel.
 
-*`Save As`*&#x200B;は、[!UICONTROL 計算指標ビルダー]と[!UICONTROL 日付範囲ビルダー]でも使用できます。
+*`Save As`* とも使用でき [!UICONTROL Calculated Metric Builder] ます [!UICONTROL Date Range Builder]。
 
 ## 「新しいセグメントを追加」ボタン{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-プロジェクト上のセグメントをドラッグ＆ドロップした場所に、「**[!UICONTROL 新しいセグメントを追加]**」ボタンが追加されるようになりました。
+The **[!UICONTROL Add New Segment]** button has been added to the location where you drag-and-drop segments onto a project.
 
 ![](assets/add-new-segment.png)
 
-この強化は、[!UICONTROL セグメント]パネルを使用してセグメントを作成するよりも、プロジェクトでの作業中に直接セグメントを作成したい場合に便利です。
+This enhancement is helpful if you prefer to directly create segments when working in a project, rather than using the [!UICONTROL Segment] panel to create segments.
 
 ## 条件付き書式 {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
@@ -1113,19 +1124,19 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 ## ディメンションプレビュー {#section_F519EBF889B244E8B25BB6BA2833325A}
 
-[!UICONTROL ディメンション]コンポーネントパネルで、ディメンションの隣の情報アイコンの上にマウスポインターを置くと、上位 5 つのプレビューが表示されます。
+In the [!UICONTROL Dimensions] component panel, you can hover over the information icon next to a dimension and see a top-five preview.
 
 ![](assets/dimension-preview.png)
 
 ## 凡例を表示 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-[!UICONTROL ビジュアライゼーション設定]の&#x200B;**[!UICONTROL 凡例を表示]**&#x200B;オプションは、ビジュアライゼーションの凡例を表示または非表示にできます。
+このオ [!UICONTROL Visualization Settings] プション **[!UICONTROL Legend Visible]** では、ビジュアライゼーションの凡例の表示/非表示を切り替えます。
 
 ![](assets/legend-visible.png)
 
 ## Y 軸をゼロに固定 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。**[!UICONTROL ビジュアライゼーション設定]**&#x200B;の「[!UICONTROL Y 軸をゼロに固定]」を有効にすると、Y 軸が強制的にゼロになり、より正確なトレンドの表示が実現します。次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
+線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。を有 **[!UICONTROL Anchor Y Axis at Zero]** 効にす [!UICONTROL Visualization Settings] ると、Y軸が強制的にゼロになり、より正確なトレンドの表示が可能になります。 次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
 
 **「Y 軸をゼロに固定」が無効な場合**
 
@@ -1143,4 +1154,4 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 管理者は、あるユーザーから別のユーザーに [!UICONTROL Analysis Workspace] プロジェクトを転送できます。
 
-プロジェクトを転送するには、**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL 転送]**&#x200B;を選択します。
+//に移動し **[!UICONTROL Admin]** て、プ **[!UICONTROL User Management]** ロジェク **[!UICONTROL Transfer]** トを転送します。
