@@ -3,30 +3,31 @@ title: Adobe Analytics ドキュメントのアップデート
 description: Adobe Analytics テクニカルドキュメントのアップデート
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
 
-# Adobe Analyticsの技術ドキュメントの更新
+# Adobe Analytics テクニカルドキュメントのアップデート
 
 2019 年 1 月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* 新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)を参照してください。
-* 新機能について詳しくは、Analyzeユーザーガ [イドのAnalysis Workspaceの新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) （英語のみ）を参照してください。
+* 新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)を参照してください。
+* 新機能について詳しくは、ツールユーザーガ [イドのAnalysis Workspaceの新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) （英語のみ）を参照してください。
 * オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)を参照してください。
 
 ## アップデートの詳細
 
 | 日付 | 説明 |
 |---|---|
+| 2020 年 2 月 13 日 | マーケティングチャネルドキュメントの更新と再編成。 |
 | 2020 年 2 月 8 日 | デバイス間 [の分析の設定の更新](../components/cda/cda-setup.md) &amp; [FAQ](../components/cda/cda-faq.md) |
-| 2020年2月4日 | 『 [Implement』ユーザーガイドの書き直しを完了します](../implement/home.md)。 |
-| 2020 年 1 月 22 日 | 新しいフリーフォームテーブルビルダーの情報を含む、フリーフォームテ [ーブルページを更新しまし](/help/analyze/analysis-workspace/visualizations/freeform-table.md)た。 |
+| 2020年2月4日 | 『 [Implementation』ユーザガイドの書き直しを完了します](../implement/home.md)。 |
+| 2020 年 1 月 23 日 | 新しい[フリーフォームテーブルビルダー](/help/analyze/analysis-workspace/visualizations/freeform-table.md)の情報を含む、フリーフォームテーブルページを更新しましたです。 |
 | 2020 年 1 月 13 日 | [Adobe Analyticsとブラウザーのcookieを追加しました](../technotes/cookies.md)。 |
-| 2019 年 29 月 12 日 | データフィードのドキュメ [ントの概要説明](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 2019 年 11 月 26 日 | IPログイン制限 [の実施の提供終了に関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| 2019 年 11 月 26 日 | 内部（セッション更新） [マーケティングチャネルに関する新しいトピック](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
+| 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
+| 2019 年 11 月 26 日 | [IP ログイン制限実施の提供終了](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)に関する新しいトピック |
+| 2019 年 11 月 26 日 | [内部（セッション更新）マーケティングチャネル](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)に関する新しいトピック |
 | 2019 年 11 月 22 日 | [カスタマージャーニー分析](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)の新しいドキュメントセット |
 | 2019 年 9 月 29 日 | [JavaScript 実装の設定変数](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html)に関する新しい記事を追加しました。 |
 | 2019 年 9 月 13 日 | [Jargeny IQ：クロスデバイス分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html)に関する新しい記事を追加しました。 |
