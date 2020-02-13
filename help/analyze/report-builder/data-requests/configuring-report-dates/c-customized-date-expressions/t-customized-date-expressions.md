@@ -4,7 +4,7 @@ title: カスタマイズされた日付式 - 概要
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -17,6 +17,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **カスタム式を有効にするには**
 
-1. On the [!UICONTROL Request Wizard: Step 1], select **[!UICONTROL Rolling Dates]**.
-1. Enable **[!UICONTROL Custom Expression]**.
-1. 以下に示す略語、構文ルールおよび例に従って、「**開始日**」フィールドと「**[!UICONTROL 終了日]」フィールドに専用の式を入力します。**
+1. で、を選 [!UICONTROL Request Wizard: Step 1]択します **[!UICONTROL Rolling Dates]**。
+
+   ![](assets/rolldates1.png)
+
+1. 
+1. 有効にする **[!UICONTROL Customize Expression]**.
+1. Type a special expression in the **[!UICONTROL From]** and **[!UICONTROL To]** fields, following the abbreviations, syntax rules, and examples given below.
