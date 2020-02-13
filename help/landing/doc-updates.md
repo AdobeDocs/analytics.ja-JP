@@ -3,7 +3,7 @@ title: Adobe Analytics ドキュメントのアップデート
 description: Adobe Analytics テクニカルドキュメントのアップデート
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 | 日付 | 説明 |
 |---|---|
-| 2020 年 2 月 13 日 | マーケティングチャネルドキュメントの更新と再編成。 |
+| 2020 年 2 月 13 日 | マーケティングチャネルドキュメントの更 [新と再編成](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
 | 2020 年 2 月 8 日 | デバイス間 [の分析の設定の更新](../components/cda/cda-setup.md) &amp; [FAQ](../components/cda/cda-faq.md) |
 | 2020年2月4日 | 『 [Implementation』ユーザガイドの書き直しを完了します](../implement/home.md)。 |
 | 2020 年 1 月 23 日 | 新しい[フリーフォームテーブルビルダー](/help/analyze/analysis-workspace/visualizations/freeform-table.md)の情報を含む、フリーフォームテーブルページを更新しましたです。 |
