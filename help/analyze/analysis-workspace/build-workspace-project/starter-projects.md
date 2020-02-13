@@ -2,8 +2,8 @@
 description: 'null'
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
 
 ---
 
@@ -14,21 +14,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 以下からプロジェクトを作成するかどうかを選択できます。
 
-* 空白のプロジェクト（デフォルト）。手順については、[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)を参照してください。
-* 標準テンプレート。これらのテンプレートは、アドビによって作成され、標準で提供されます。
-* カスタムテンプレート。これらのテンプレートは、「テンプレートとして保存」権限が与えられている場合に、管理者権限を持つユーザーまたは管理者以外のユーザーが作成できます（詳しくは、Admin Console ドキュメントの[製品権限の管理](https://helpx.adobe.com/jp/enterprise/using/manage-permissions-and-roles.html)を参照してください）。
+* **空のプロジェクト（デフォルト）**:手順については、Analysis Workspaceプ [ロジェクトの作成を参照してください](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
+* **標準テンプレート**:これらのテンプレートはアドビが作成し、製品と共に出荷します。
+* **Custom template**:これらのテンプレートは、管理者権限を持つユーザーまたは管理者以外のユーザーが管理コンソールで権限を付与されている場合に、作成、共有または削 [!UICONTROL Analysis Workspace: Save as Template] 除することができます。 [詳細情報...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
-
-* [カスタムテンプレートの作成](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
-* [標準テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
 ## カスタムテンプレートの作成 {#create-custom-template}
 
 管理者権限を持つユーザーは、作成した任意のプロジェクトをカスタムテンプレートに変換できます。その方法を次に示します。
 
 1. そのプロジェクトを開きます。
-1. **[!UICONTROL プロジェクト]**／**[!UICONTROL テンプレートとして保存]**&#x200B;に移動します。
+1. Go to **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
@@ -36,50 +33,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >デフォルトでは、プロジェクトテンプレートは、組織の全員に表示されます。タグを適用することで、これを整理できます（タグおよび説明を編集するには、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;に移動します）。
+   >デフォルトでは、プロジェクトテンプレートは、組織の全員に表示されます。タグを適用することで、これを整理できます(タグと説明 **[!UICONTROL Project]** を編集 **[!UICONTROL Project Info & Settings]** するには、/に移動します)。
 
 ### カスタムテンプレートで実行できるアクション
 
 ![](assets/custom_templates.png)
 
-<table id="table_D7C7B0CA1EE64E108484C03426800EBC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> アクション </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>テンプレートを編集 </p> </td> 
-   <td colname="col2"> <p>管理者は、そのデータソースを変更したり、コンポーネント、ビジュアライゼーション、日付範囲などを変更したりすることで、テンプレートを編集できます。 </p> <p>カスタムテンプレートを編集するには、次のいずれかを実行します。 </p> 
-    <ul id="ul_2B3A371F83334E14806385753A360903"> 
-     <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">Analysis Workspace でカスタムテンプレートのリストを表示し、カスタムテンプレートを選択して、「<span class="uicontrol">テンプレートを編集</span>」をクリックする。 </li> 
-     <li id="li_4934DAAA46204990A295E22A97F81EDA">Analytics で、<span class="ignoretag"><span class="uicontrol">コンポーネント</span>／<span class="uicontrol">プロジェクト</span></span>に移動し、<span class="uicontrol">テンプレート</span>をフィルターして、編集するテンプレートの名前をクリックする。 </li> 
-    </ul> <p> </p> <p>注意：テンプレートを編集した後、状況に応じて、「<span class="uicontrol">保存</span>」と「<span class="uicontrol">名前を付けて保存</span>」の 2 つのオプションがあります。その違いを次に示します。 
-     <ul id="ul_87E2842C8AA442399585B1C6189F5E16"> 
-      <li id="li_AB7B189729E14E40A0141ECE2A24C113"><b>保存</b>：すべてのユーザーのカスタムテンプレートを更新します。他のユーザーがこのカスタムテンプレートからプロジェクトを作成すると、加えた変更が表示されます。 </li> 
-      <li id="li_C85B0B9873A3404D8B443BBD30B37CEB"><b>名前を付けて保存</b>：変更を加えたカスタムテンプレートのコピーを作成します。 </li> 
-     </ul> </p> <p>（<span class="uicontrol">共有</span>／<span class="uicontrol">プロジェクトを共有</span>メニュー項目が無効になっている場合は、編集モードです。） </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>テンプレートを検索 </p> </td> 
-   <td colname="col2"> <p>カスタムテンプレートダイアログで、「<span class="uicontrol">テンプレートを検索</span>」をクリックします。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>テンプレートを並べ替え </p> </td> 
-   <td colname="col2"> <p>テンプレートをアルファベット順、関連性順および作成日順で並べ替えることができます。 </p> <p>カスタムテンプレートダイアログで、「<span class="uicontrol">並べ替え</span>」をクリックします。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>テンプレートにタグを適用 </p> </td> 
-   <td colname="col2"> <p>テンプレートを開いて、<span class="ignoretag"><span class="uicontrol">プロジェクト</span>／<span class="uicontrol">プロジェクト情報および設定</span></span>に移動します。「<span class="uicontrol">タグを追加</span>」をクリックします。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>テンプレートの説明を変更 </p> </td> 
-   <td colname="col2"> <p>テンプレートを開いて、<span class="ignoretag"><span class="uicontrol">プロジェクト</span>／<span class="uicontrol">プロジェクト情報および設定</span></span>に移動します。説明をダブルクリックして編集します。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| アクション | 説明 |
+|--- |--- |
+| テンプレートを編集 | 管理者は、そのデータソースを変更したり、コンポーネント、ビジュアライゼーション、日付範囲などを変更したりすることで、テンプレートを編集できます。カスタムテンプレートを編集するには、次のいずれかを実行します。<ul><li>Analysis Workspace でカスタムテンプレートのリストを表示し、カスタムテンプレートを選択して、「テンプレートを編集」をクリックする。</li><li>Analytics で、コンポーネント／プロジェクトに移動し、テンプレートをフィルターして、編集するテンプレートの名前をクリックする。</li></ul>**注意：**&#x200B;テンプレートを編集した後、状況に応じて、「保存」と「名前を付けて保存」の 2 つのオプションがあります。その違いを次に示します。<ul><li>**** 保存：すべてのユーザーのカスタムテンプレートを更新します。 他のユーザーがこのカスタムテンプレートからプロジェクトを作成すると、加えた変更が表示されます。</li><li>**** 名前を付けて保存：カスタムテンプレートのコピーを作成し、変更を加えます。 （共有／プロジェクトを共有メニュー項目が無効になっている場合は、編集モードです。）</li></ul> |
+| テンプレートを検索 | カスタムテンプレートダイアログで、「テンプレートを検索」をクリックします。 |
+| テンプレートを並べ替え | テンプレートをアルファベット順、関連性順および作成日順で並べ替えることができます。カスタムテンプレートダイアログで、「並べ替え」をクリックします。 |
+| テンプレートにタグを適用 | テンプレートを開いて、プロジェクト／プロジェクト情報および設定に移動します。「タグを追加」をクリックします。 |
+| テンプレートの説明を変更 | テンプレートを開いて、プロジェクト／プロジェクト情報および設定に移動します。説明をダブルクリックして編集します。 |
+
 
 ## 標準テンプレート{#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
@@ -87,7 +54,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 これらの事前設定されたテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。
 
-[Analysis Workspace での標準テンプレート（YouTube）](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6)（2:46）
+[Analysis Workspace での標準テンプレート（YouTube）](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6)（2:46）
 
 以下に、利用可能なテンプレートと各テンプレートに関する質問について説明します。
 
@@ -137,7 +104,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ### People
 
-> [!NOTE]人物テンプレートとそれに関連する人物指標は、[Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-people.html) の一部としてのみ使用可能です。
+> [!NOTE]人物テンプレートとそれに関連する人物指標は、[Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html) の一部としてのみ使用可能です。
 
 このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。このテンプレートでは次の操作が可能です。
 
@@ -149,3 +116,21 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 人物指標でセグメントのスタックを使用する方法を発見する。
 * 環境での Experience Cloud ID の使用が、人物指標の効果をどのように高めているかを調べる。
 
+### ジャーニーIQ:デバイス間分析テンプレート
+
+<!-->This content is mirrored in the CDA doc.<-->
+
+このテンプレートを使用すると、デバイス間の重要なパフォーマンスデータを確認できます。 この機能は、 [Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA)へのアクセス権を持つお客様のみが使用できます。
+
+* **Co-op Graphのメンバーに関する特別な注意**:協力グラフがサポートされている地域およびサポートされていない地域の訪問者を含むレポートスイートの部分を表示します。
+* **ユーザーのID**:デバイス間分析に基づくメソッドを使用して、サイトへの訪問者が識別される頻度を示します。
+* **オーディエンスのサイズの測定**:「個別デバイス」と「ユーザー」の比較を表示します。 この2つの数値の割合を「デバイス間圧縮」と呼びます。このパネルに表示される計算指標です。 この圧縮指標は、次の様々な要因に依存します。
+   * **Co-opグラフまたはプライベートグラフの使用**:一般に、Device Co-opを使用する組織は、プライベートグラフを使用する組織よりも高い圧縮率を確認する傾向があります。
+   * **ログイン率**:サイトにログインするユーザーが増えるほど、デバイス間で訪問者を識別し、繋ぎ合わせることができます。 サイトのログイン率が低い場合は、圧縮率も低くなります。
+   * **Experience Cloud IDの範囲**:ECIDを持つ訪問者のみを繋ぎ合わせることができます。 ECID を使用してサイトに来訪した訪問者の割合が低くなると、圧縮率も低くなります。
+   * **複数のデバイスの使用**:サイトの訪問者が複数のデバイスを使用していない場合は、圧縮率が低くなります。
+   * **レポート精度**:通常、日別の圧縮は、月別または年別の圧縮よりも小さくなります。 1 人のユーザーが 1 日で複数のデバイスを使用する機会は、1 ヶ月のうち 1 日だけ使用する場合よりも少なくなります。セグメント化、フィルタリングまたは分類ディメンションを使用した場合も、圧縮率が低くなります。
+* **人ベースのセグメント**:デバイス固有のデータを表示できるセグメントドロップダウンが含まれます。 このパネルでは、セグメントを使用して、デバイスタイプを含めるか除外するとレポートにどのような影響があるかを確認することを推奨します。
+* **デバイス間の移動の分析**:デバイスタイプに基づいたフローレポートとフォールアウトレポートを提供します。
+* **デバイス間アトリビューション**:ジャーニーIQとアトリビューションIQの機能を組み合わせます。
+* **その他のヒント**:CDAに関する役立つトピックで、CDAをより多く使用できるようにします。
