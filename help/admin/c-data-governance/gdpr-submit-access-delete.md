@@ -2,8 +2,8 @@
 description: 'null'
 title: アクセス要求および削除要求の送信
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+translation-type: tm+mt
+source-git-commit: 604f9b896b843f68b23949fe77502a6d22a06509
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## 消費者の同意の管理 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-データ管理者には、データ主体に関するデータ（場合によっては Adobe Analytics データを含む）を収集する前に、データ主体から明示的な同意を得る責任があります。また、Web サイトに[オプトアウトメカニズムを実装](https://marketing.adobe.com/resources/help/ja_JP/dtm/opt-in.html)する責任があります。これにより、データ主体は、以降の Adobe Experience Cloud によるデータ収集をオプトアウトできます。
+データ管理者には、データ主体に関するデータ（場合によっては Adobe Analytics データを含む）を収集する前に、データ主体から明示的な同意を得る責任があります。また、Web サイトに[オプトアウトメカニズムを実装](https://marketing.adobe.com/resources/help/en_US/dtm/opt-in.html)する責任があります。これにより、データ主体は、以降の Adobe Experience Cloud によるデータ収集をオプトアウトできます。
 
 ## ユーザーおよびユーザーデータの検証 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -35,7 +35,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 > [!NOTE]データプライバシー API は、単一の要求の複数のユーザーに対する一括送信をサポートしています。現在サポートされている制限は、単一の要求 JSON ファイルで 1,000 人の個別のユーザー（ユーザーごとに複数の ID を持つ可能性がある）です。
 
-## JSON 要求のサンプル{#sample-json-request}
+## JSON 要求のサンプル {#sample-json-request}
 
 以下に、データプライバシー API または UI を使用して送信される、3 人のユーザーにデータプライバシー処理を要求する JSON を示します。
 
@@ -82,13 +82,13 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
                     "namespace": "CRM-ID", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar17 in some report suites", 
-                    "value": "ACME-12345678", 
+                    "value": "ACME-12345678"
                 }, 
                 { 
                     "namespace": "email address", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar23 in some report suites", 
-                    "value": "john@mail.com", 
+                    "value": "john@mail.com" 
                 } 
             ] 
         } 
