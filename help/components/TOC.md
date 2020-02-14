@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: a4ef07d2cdc45c1d79d99f3a09c479686784891e
+source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
 
 ---
 
@@ -327,25 +327,11 @@ source-git-commit: a4ef07d2cdc45c1d79d99f3a09c479686784891e
    + [リアルタイムレポートの設定](c-real-time-reporting/t-realtime-admin.md)
    + [サポートされるリアルタイム指標とディメンション](c-real-time-reporting/realtime-metrics.md)
 + マーケティングチャネル {#marketing-channels}
-   + Get Started with Marketing Channels {#mc-get-started}
-      + [はじめに](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
-      + [自動セットアップ](c-marketing-channels/getting-started/c-channel-autosetup.md)
-      + [複数のレポートスイートへのテンプレートレポートスイート設定の適用](c-marketing-channels/getting-started/t-template.md)
-   + マーケティングチャネルマネージャ {#mc-manager}
-      + [マーケティングチャネルの管理](c-marketing-channels/mark-channel-mgr/c-channels.md)
-      + [チャネルとルールについて](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
-   + マーケティングチャネルの処理ルール {#mc-proc-rules}
-      + [マーケティングチャネルの処理ルール](c-marketing-channels/mc-proc-rules/c-rules.md)
-      + [マーケティングチャネルの処理ルールの作成](c-marketing-channels/mc-proc-rules/t-rules.md)
-      + [マーケティングチャネルのルール条件](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
-      + [内部（セッション更新）チャネル](c-marketing-channels/mc-proc-rules/session-refresh.md)
-   + マーケティングチャネルの分類 {#mc-classifications}
-      + [マーケティングチャネルでの分類](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
-   + マーケティングチャネルの有効期限 {#mc-expire}
-      + [訪問者のエンゲージメント期間](c-marketing-channels/mc-expiration/visitor-engagement.md)
-   + マーケティングチャネルの分析 {#mc-analyze}
-      + [マーケティングチャネルの分析](c-marketing-channels/mc-analyze/analyze-mc.md)
-   + マーケティングチャネルへのアクセス {#mc-access}
-      + [マーケティングチャネルの権限](c-marketing-channels/mc-access/c-channel-report-access.md)
-   + マーケティングチャネルFAQ {#mc-faq}
-      + [マーケティングチャネルに関するFAQと例](c-marketing-channels/mc-faq/c-faq.md)
+   + [マーケティングチャネル — はじめに](c-marketing-channels/c-getting-started-mchannel.md)
+   + [マーケティングチャネルの管理](c-marketing-channels/c-channels.md)
+   + [マーケティングチャネルの処理ルール](c-marketing-channels/c-rules.md)
+   + [マーケティングチャネルでの分類](c-marketing-channels/classifictions-mchannel.md)
+   + [訪問者のエンゲージメント期間](c-marketing-channels/visitor-engagement.md)
+   + [マーケティングチャネルの分析](c-marketing-channels/analyze-mc.md)
+   + [マーケティングチャネルの権限](c-marketing-channels/c-channel-report-access.md)
+   + [マーケティングチャネルに関するFAQと例](c-marketing-channels/c-faq.md)
