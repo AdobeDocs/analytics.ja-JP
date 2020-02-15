@@ -3,7 +3,7 @@ description: データプライバシーにおけるプライバシーレポー�
 title: プライバシーレポート変数
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: faade4c02c48ad20e26a94fa39e14ed1d894ae00
+source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 ---
 
@@ -35,12 +35,12 @@ source-git-commit: faade4c02c48ad20e26a94fa39e14ed1d894ae00
 Analytics Admin Console で利用できる新しいプライバシー設定を使用して、プライバシーレポート変数を有効にできます。
 
 各レポートスイートは、次のように設定できます。
-1. Reports &amp; Analytics で、**[!UICONTROL 管理者／レポートスイート]**&#x200B;をクリックします。
-1. メディアデータを収集するレポートスイートを選択して、**[!UICONTROL 設定を編集／プライバシー管理]**&#x200B;をクリックします。
+1. Reports &amp; Analyticsで、をクリックしま **[!UICONTROL Admin > Report Suites]**&#x200B;す。
+1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings > Privacy Management]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. 「**[!UICONTROL データプライバシー レポートを有効にする]**」ボタンをクリックします。
+1. Click the **[!UICONTROL Enable Data Privacy Reports]** button.
 
    > [!NOTE]有効化した後で、これらの変数をオフにすることはできません。
 
@@ -50,9 +50,9 @@ Analytics Admin Console で利用できる新しいプライバシー設定を�
 
    ![](assets/rsm-privacy-config.png)
 
-1. 予約変数がレポートで使用できるようになりました。「同意管理のオプトアウト」および「同意管理のオプトイン」を参照してください。
+1. 予約変数がReports &amp; AnalyticsおよびWorkspaceでの分析に使用できるようになりました。 「同意管理のオプトアウト」および「同意管理のオプトイン」を参照してください。
 
-   ![](assets/rsm-privacy-reports.png)
+   ![](assets/consent-management.png)
 
 ## 実装
 
@@ -65,13 +65,13 @@ Analytics Admin Console で利用できる新しいプライバシー設定を�
 * コンテキストデータ：`contextData.['cm.ssf']`
 * 指定可能な値：
    * 1：値「1」を送信する場合は、サーバー側転送がオプトアウト状態であることを示します。この変数と対になる値「1」は、このヒットが Adobe Audience Manager と共有されるのをブロックします。[AAM ePrivacy のコンプライアンス](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)を参照してください。
-   * 0 — オプション。 ターゲットマーケティングに同意した顧客に対しては、値「0」を使用します。 変数を設定しないと、同じ結果になります。
+   * 0 - オプション。ターゲットマーケティングに同意した顧客には、値「0」を使用します。変数を設定しない場合は、同じ結果になります。
 
 ### DMP
 
 * コンテキストデータ：`contextData.['opt.dmp']`
 * 指定可能な値：
-   * N：値「N」を送信すると、データ管理プラットフォームへの共有をコンシューマーがオプトアウトしていることを示します。**注**：現在、この変数を「N」に設定しても AAM への共有はブロックされませんが、2020 年初めに AAM 機能の呼び出しをブロックする機能が追加される予定です。現時点では、AAM にヒットが送信されるのを防ぐよう、`c.cm.ssf=1` と `c.opt.dmp=N` の両方を設定することをお勧めします。
+   * N：値「N」を送信すると、データ管理プラットフォームへの共有をコンシューマーがオプトアウトしていることを示します。**注意**:2020年1月15日以降、この変数を「N」に設定すると、AAMに対するこのヒットのサーバー側での共有がブロックされます。
    * Y：値「Y」を送信すると、データ管理プラットフォームへの共有をコンシューマーがオプトインしていることを示します。
 
 ### SELL
