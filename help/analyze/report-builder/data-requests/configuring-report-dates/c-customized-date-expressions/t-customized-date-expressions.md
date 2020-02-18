@@ -4,7 +4,7 @@ title: カスタマイズされた日付式 - 概要
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
 
 ---
 
@@ -17,10 +17,22 @@ source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 **カスタム式を有効にするには**
 
-1. で、を選 [!UICONTROL Request Wizard: Step 1]択します **[!UICONTROL Rolling Dates]**。
+1. で、「事 [!UICONTROL Request Wizard: Step 1]前設定日」を使用する代わりにを選択しま **[!UICONTROL Rolling Dates]**&#x200B;す。 次のオプションが変更されます。
 
    ![](assets/rolldates1.png)
 
-1. 
-1. 有効にする **[!UICONTROL Customize Expression]**.
-1. Type a special expression in the **[!UICONTROL From]** and **[!UICONTROL To]** fields, following the abbreviations, syntax rules, and examples given below.
+1. 周期的な週単位、月単位、四半期単位、年単位に切り替えます。
+1. その他のカスタマイズオプションを表示するには、をクリックし **[!UICONTROL Show Advanced Options]**&#x200B;ます。 上部のセクションでオプションを選択すると、カスタム日付式の構文を簡単に確認できます。
+
+   ![](assets/rolldates2.png)
+
+1. 有効にする **[!UICONTROL Customize Expression]**. のオプションを選択す **[!UICONTROL Rolling Dates]**&#x200B;ると、カスタム日付式の構文を簡単に確認できます。
+
+   ![](assets/rolldates5.png)
+
+   「アドバンスオプション」を使用して、カスタムの日付式を組み合わせることができます。 例えば、年の初めから最後の月の終わりまでのデータを表示する場合、次のように記述できます。開始日：cy To:cm-1d このウィザードでは、これらの日付が2020年1月1日 — 1/31/2020であることを確認できます。
+
+   例えば、上記の日付を3か月前の最初の日から今月の初日まで月周期に変更すると、「前」オプション部分の日付が次のように更新されます。
+
+   ![](assets/rolldates5.png)
+
