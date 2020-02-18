@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
+source-git-commit: 56d51e65e6b44673a0e2e3934ebbc20c14673562
 
 ---
 
@@ -48,6 +48,7 @@ source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
       + [usePlugins](vars/config-vars/useplugins.md)
       + [visitorID](vars/config-vars/visitorid.md)
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
+      + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + ページ変数{page-vars}
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
