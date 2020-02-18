@@ -2,7 +2,7 @@
 title: useBeacon
 description: useBeacon を使用すると、AppMeasurement で強制的にブラウザーの sendBeacon API を使用できます
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 58513f012bdbd1143601221985a399ed46916664
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 > [!TIP] AppMeasurementは、離脱リンクイメージ `useBeacon` リクエストを自動的に有効にします。
 
-訪問者 `useBeacon` がサポートしないブラウザーを使用する場合、この変数は無視されま `navigator.sendBeacon()`す。
+訪問者 `useBeacon` がサポートしないブラウザーを使用する場合、この変数は無視されま `navigator.sendBeacon()`す。 この変数を使用するには、AppMeasurement 2.16.0以降が必要です。
 
 ## Adobe Experience Platform Launchでのビーコンの使用
 
