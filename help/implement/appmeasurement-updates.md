@@ -3,7 +3,7 @@ title: JavaScript版AppMeasurementリリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
 
 ---
 
@@ -14,13 +14,13 @@ JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートで�
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-最新バージョンのAppMeasurementは、コードマネージャー [](/help/admin/admin/code-manager-admin.md)からダウンロードできます。
+AppMeasurementの最新バージョンは、コードマネージャーでダウンロ [ードできます](/help/admin/admin/code-manager-admin.md)。
 
 ## バージョン 2.18.0
 
 Release Date: **February 13, 2020**
 
-* AppMeasurementで、「true」に設定することで、cookieにセキュリティで保護されたタグを `writeSecureCookies` 強制的に含めることができるようになりました。 この設定で必要なのは、クライアントWebサイト全体が安全に(https)提供されることです。 （AN-204604）
+* AppMeasurementで、変数を設定してcookieにセキュリティ保護属性を強制的に含めることができるようになり [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) ました。 この変数の要件は、クライアントWebサイト全体が安全に(HTTPS)提供されることです。 （AN-204604）
 
 ## バージョン 2.17.0
 
