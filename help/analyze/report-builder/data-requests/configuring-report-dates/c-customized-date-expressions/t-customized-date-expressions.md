@@ -4,7 +4,7 @@ title: カスタマイズされた日付式 - 概要
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
+source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 ---
 
@@ -34,5 +34,5 @@ source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
 
    例えば、上記の日付を3か月前の最初の日から今月の初日まで月周期に変更すると、「前」オプション部分の日付が次のように更新されます。
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 
