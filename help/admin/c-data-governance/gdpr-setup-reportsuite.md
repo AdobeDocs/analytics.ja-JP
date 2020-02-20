@@ -18,7 +18,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **例**：データ管理者が、データプライバシー要求を処理するためにデータ主体から電子メールアドレスと Cookie ID を収集する予定だとします。この Cookie ID は Adobe Analytics のレポートスイートに保管されます。電子メールアドレスと Cookie ID のラベルを作成するには、Analytics で Adobe Cloud Platform の Data Usage Labeling &amp; Enforcement（DULE）フレームワークを使用する必要があります。
 
-1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**／**[!UICONTROL （レポートスイートを選択）]**&#x200B;の順に選択します。![](assets/privacy_rs_settings.png)
+1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**／**[!UICONTROL （レポートスイートを選択）]**![](assets/privacy_rs_settings.png)の順にクリックします。
 
 1. ラベルを設定する変数のグループを選択します。
 
