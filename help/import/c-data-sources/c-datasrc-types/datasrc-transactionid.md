@@ -2,7 +2,7 @@
 title: トランザクションIDデータソース
 description: トランザクションIDデータソースの一般的な使用ワークフローについて説明します。
 translation-type: tm+mt
-source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
+source-git-commit: c54704bef49a2c3076caac6fe7dd3ec8d40596ef
 
 ---
 
@@ -21,3 +21,29 @@ source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
 1. データフィードの設定ウィザードに従って、データをアップロードするFTPの場所を取得し、データソーステンプレートファイルをダウンロードします。
 1. 変数を含めるように実装を更新 `transactionID` します。
 1. データソースファイルをファイルと共にFTPサイトにアップロード `.fin` します。
+
+## アップロードファイルと導入コードの例
+
+次のデータソースファイルをアップロードし、サイトに次のコードを実装した場合、レポートにデータがリンクされていることがわかります。 データソースファイルではeVar1とevent1を使用し、オンライン実装ではeVar2とevent2を使用します。 トランザクションIDが一致するので、eVar1のevent2データとeVar2のevent1データを確認できます。
+
+### サンプルファイル
+
+テンプレートをダウンロードし、値を更新して、データソースのFTPの場所にアップロードします。
+
+| `# Generic Data Source (Transaction ID) template file (user: 0 ds_id: 1)` |  |  |  |
+|---|---|---|---|
+| `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
+| `Date` | `Evar 1` | `Event 1` | `transactionID` |
+| `01/01/2020/12/00/00` | `Example eVar1 value` | `1` | `1234` |
+
+### 実装コードの例
+
+トランザクションIDの詳細については、『導入ユーザガイド』 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) の「 」を参照してください。
+
+```js
+var s = s_gi("examplersid");
+s.eVar2 = "Example eVar2 value";
+s.events = "event2";
+s.transactionID = "1234";
+s.t();
+```
