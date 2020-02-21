@@ -3,7 +3,7 @@ description: s_objectID 変数を使用したリンク ID のカスタマイズ�
 title: 同じリンク ID および領域を参照する複数のリンクの区別
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 s_objectID 変数を使用したリンク ID のカスタマイズ、領域のカスタマイズ、AppMeasurement Activity Map モジュールファイルのカスタマイズによってリンクを区別できます。
 
-例として、リンク ID と領域が同じで、Activity Map によって識別される "Buy" リンクが複数あるとします。
+例として、リンク ID と領域が同じで、Activity Map によって識別される &quot;Buy&quot; リンクが複数あるとします。
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -48,7 +48,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 
 ## s_objectID を使用したリンク ID のカスタマイズ {#section_01B0D463397B4837B2D46F087A6E5937}
 
-リンクまたはページのリンクの場所に対して固有のオブジェクト ID を作成することにより、Activity Map のトラッキングを向上したり、Activity Map を使用して、リンク URL ではなく、リンクタイプやリンクの場所について報告します。s_objectID 変数について詳しくは、[ここ](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)をクリックしてください。
+リンクまたはページのリンクの場所に対して固有のオブジェクト ID を作成することにより、Activity Map のトラッキングを向上したり、Activity Map を使用して、リンク URL ではなく、リンクタイプやリンクの場所について報告します。s_objectID 変数について詳しくは、[ここ](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/s_objectID.html)をクリックしてください。
 
 >[!IMPORTANT]
 >
@@ -77,7 +77,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product2 </p> <p> </p> <p> </p> <p>Product3 </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation パネル </p> <p> </p> <p> </p> <p>recommendation パネル </p> <p> </p> <p> </p> <p>recommendation パネル </p> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -85,9 +85,9 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 
 ## 領域のカスタマイズ {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-"Buy" リンクごとに独自の領域を定義することにより、領域をカスタマイズできます。これを行うには、"Buy" アンカータグごとに、親の 1 つに "id" パラメーターを追加します。
+&quot;Buy&quot; リンクごとに独自の領域を定義することにより、領域をカスタマイズできます。これを行うには、&quot;Buy&quot; アンカータグごとに、親の 1 つに &quot;id&quot; パラメーターを追加します。
 
-> [!NOTE]領域 ID は、"id" パラメーターに厳密に制限されているわけではありません。JavaScript の変数 "s.ActivityMap.regionIDAttribute" を使用して独自の ID を設定することもできます。
+> [!NOTE]領域 ID は、&quot;id&quot; パラメーターに厳密に制限されているわけではありません。JavaScript の変数 &quot;s.ActivityMap.regionIDAttribute&quot; を使用して独自の ID を設定することもできます。
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
