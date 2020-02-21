@@ -3,7 +3,7 @@ description: オーバーレイの詳細は、リンクオーバーレイにカ�
 title: オーバーレイの詳細
 topic: Activity map
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * ランク
 * 割合の値
 * リンク ID
-* 地域
+* 領域
 * ページにリンクを表示レポート
 
 ![](assets/overlay_details.png)
