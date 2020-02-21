@@ -2,7 +2,7 @@
 title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. 「拡張子」タブ [!UICONTROL に移動し] 、「カタログ」ボタンをクリッ [!UICONTROL クします] 。
-1. Common Analytics Plugins  Extensionのインストールと公開
+1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す
+1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
 1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
    * 条件：なし
    * イベント：コア — ライブラリ読み込み済み（ページの上部）
@@ -35,8 +35,8 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. 「拡張」タブ [!UICONTROL に移動し] 、Adobe Analytics拡張機能の [!UICONTROL 下にある「設定] 」ボタンをクリックします。
-1. 「カスタムコー [!UICONTROL ドを使用してトラッキングを設定] 」アコーディオンを展開すると、「エディターを開く  」ボタンが表示されます。
+1. タブに移動し、Adobe Analytics [!UICONTROL Extensions] 拡張機能の下にある [!UICONTROL Configure] ボタンをクリックします。
+1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics拡張機能に公開します。
 
@@ -61,9 +61,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 このメソ `addProductEvent` ッドでは、次の引数を使用します。
 
-* **`en`**（必須、文字列）:変数の最後のエントリに追加するイベ`products`ント。 変数が空`products`の場合、イベント（およびその値）が添付された「空白」の製品エントリが作成されます。
-* **`ev`**（必須、文字列）:引数内の数値イベントまたは通貨イベントに割り当てられ`en`る値。  未設定の場`1`合はデフォルトです。
-* **`ap`**（オプション、ブール値）:現在、products変数に複数の製品エントリが含まれている場合、値が（または）の`true`場合、すべての製`1`品エントリにイベントが追加されます。  未設定の場`false`合はデフォルトです。
+* **`en`** （必須、文字列）:変数の最後のエントリに追加するイベ `products` ント。 変数が空 `products` の場合、イベント（およびその値）が添付された「空白」の製品エントリが作成されます。
+* **`ev`** （必須、文字列）:引数内の数値イベントまたは通貨イベントに割り当てられ `en` る値。  未設定の場 `1` 合はデフォルトです。
+* **`ap`** （オプション、ブール値）:現在、products変数に複数の製品エントリが含まれている場合、値が（または）の `true` 場合、すべての製 `1`品エントリにイベントが追加されます。  未設定の場 `false` 合はデフォルトです。
 
 は何も `addProductEvent` 返しません。 代わりに、イベントとその値が変数に追加され `products` ます。 また、このプラグインは変数にも必要なので、 `events` イベントを自動的に追加します。
 
@@ -75,126 +75,66 @@ addProductEventプラグインは、cookieを作成したり使用したりし�
 
 ### 例1
 
-...
+次のコードは、変数をに設 `s.products` 定しま `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`す。
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase"
-```
-
-...次のコードが実行されます。
-
-```js
+s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-...s.productsの最終的な価値は次のとおりです。
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
-```
-
-...s.eventsの最後の値は次のようになります。
-
-```js
-s.events="purchase,event35"
-```
+上記のコードでは、変数 `s.events` に `"purchase,event35"`
 
 ### 例2
 
-...
+次のコードでは、変数 `s.products` を `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-```
-
-...次のコードが実行されます。
-
-```js
+s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-...s.productsの最終的な価値は次のとおりです。
-
-```js
-s.products=";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"
-```
-
-3番目の引数がtrue（または1）の場合、各製品エントリの値に呼び出しで指定されたイベントが追加されます
+呼び出しの3番目の引数が `addProductEvent` (また `true` は `1`)の場合、各製品エントリの値に、呼び出しで指定されたイベントが追加されます。
 
 ### 例3
 
-...
+次のコードでは、変数 `s.products` を `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
-s.events="purchase,event2"
-```
-
-...次のコードが実行されます。
-
-```js
+s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
+s.events="purchase,event2";
 s.addProductEvent("event33", "12");
 s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-...s.productsの最終価値は…となる。
-
-```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
-```
-
-...とs.eventsは次のように設定されます。
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+上記のコードでは、変数 `s.events` に `"purchase,event2,event33,event34,event35"`
 
 ### 例4
 
-...
+次のコードでは、変数 `s.products` を `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-```
-
-...次のコードが実行されます。
-
-```js
 s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1); //The second argument can be an integer or a string representing an integer/number
+s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-...s.productsの最終価値は…となる。
+上記のコードでは、変数もに設 `s.events` 定していま `"purchase,event2,event33,event34,event35"`す。
 
-```js
-s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"
-```
-
-...とs.eventsは次のように設定されます。
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+> [!NOTE] 呼び出しの2番目の引数は、整数または **整数** /数値を表す文字列です
 
 ### 例5
 
-s.productsが設定されていない場合、次のコードが実行されます。
+が設 `s.products` 定されていない場合、次のコードは `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-...s.productsの最終的な価値は次のとおりです。
-
-```js
-s.products=";;;;event35=25"
-```
-
-この場合、event35もs.eventsの末尾に追加されます。
+上記のコードも `"event35"` の末尾に付加さ `s.events` れ **ま**&#x200B;す `s.events` 。 `s.events` まだ設定されていない場合は、上記のコードセットは `"event35"`
 
 ## バージョン履歴
 
