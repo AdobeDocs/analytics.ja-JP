@@ -3,7 +3,7 @@ description: 標準モードで、Analytics データを Activity Map からコ�
 title: CSV ファイルへの書き出し
 topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
