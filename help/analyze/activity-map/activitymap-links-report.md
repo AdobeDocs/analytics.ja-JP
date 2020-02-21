@@ -3,7 +3,7 @@ description: リンクレポートは、現在のページで見つかったリ�
 title: リンクレポート
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -44,7 +44,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> 指定したリンクの生のクリック数と、ページ上の総クリック数に対する割合。ツールバーで別の指標を選択している場合は、その指標に関する報告はリンクレポートが行います。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 地域 </td> 
+   <td colname="col1"> 領域 </td> 
    <td colname="col2"> ページ内のリンクの場所を表します。 </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> 全収集期間の折れ線グラフ。現在選択されている期間は緑のマーカーで示されます。現在カーソルを合わせている期間は赤のマーカーで示されます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 地域 </td> 
+   <td colname="col1"> 領域 </td> 
    <td colname="col2"> ページ内のリンクの場所を表します。 </td> 
   </tr> 
   <tr> 
