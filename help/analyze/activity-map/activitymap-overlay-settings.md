@@ -1,9 +1,9 @@
 ---
-description: Activity Map Settings パネルを使用すると、すべてのタイプのオーバーレイ視覚化の設定およびプロパティを変更できます。
+description: Activity Map 設定パネルを使用すると、すべてのタイプのオーバーレイビジュアライゼーションの設定およびプロパティを変更できます。
 title: Activity Map の設定
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Activity Map の設定
 
-Activity Map Settings パネルを使用すると、すべてのタイプのオーバーレイ視覚化の設定およびプロパティを変更できます。
+Activity Map 設定パネルを使用すると、すべてのタイプのオーバーレイビジュアライゼーションの設定およびプロパティを変更できます。
 
 Activity Map Settings パネルにアクセスするには、Activity Map ツールバーの歯車アイコンをクリックします。
 
@@ -58,7 +58,7 @@ Activity Map Settings パネルにアクセスするには、Activity Map ツー
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> グラデーションの色／バブルの色</span> </td> 
-   <td colname="col3"><span class="uicontrol">グラデーション</span>または<span class="uicontrol">バブル</span>のオーバーレイ視覚化に関して、オーバーレイリンクランクを表示する色を選択します。 </td> 
+   <td colname="col3"><span class="uicontrol">グラデーション</span>または<span class="uicontrol">バブル</span>のオーバーレイビジュアライゼーションに関して、オーバーレイリンクランクを表示する色を選択します。 </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> カラーグラデーションの基準</span> </td> 
