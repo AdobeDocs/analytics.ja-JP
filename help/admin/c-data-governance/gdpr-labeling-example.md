@@ -20,7 +20,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 | ラベル | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **変数名&#x200B;**<br>**（名前空間）** | **MyProp1 **<br>**（ユーザー）** | **訪問者 ID**<br>**（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**（xyz）** |
+| **変数名**<br>**（名前空間）** | **MyProp1**<br>**（ユーザー）** | **訪問者 ID**<br>**（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**（xyz）** |
 | ヒットデータ | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | いいえ | Y |
 |  | Mary | 99 | C | O | Z |
