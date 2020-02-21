@@ -3,8 +3,8 @@ description: このセクションは Adobe Analytics 管理者を対象とし�
 title: リンクトラッキング手法
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: abf808e956ca78c9e7ceaa5240d4e1ea20f90aec
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->テキスト（href 以外）に PII（Personally Identifiable Information：個人を特定できる情報）が含まれている可能性のあるリンクは、[s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) を使用して明示的に実装するか、[s.ActivityMap.linkExclusions または s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) で ActivityMap リンクコレクションを除外して実装する必要があります。Activity Map によって PII データがどのように収集される可能性があるかについて詳しくは、[こちら](/help/analyze/activity-map/lnk-tracking-overview.md)を参照してください。
+>テキスト（href 以外）に PII（Personally Identifiable Information：個人を特定できる情報）が含まれている可能性のあるリンクは、[s_objectID](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/s_objectID.html) を使用して明示的に実装するか、[s.ActivityMap.linkExclusions または s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) で ActivityMap リンクコレクションを除外して実装する必要があります。Activity Map によって PII データがどのように収集される可能性があるかについて詳しくは、[こちら](/help/analyze/activity-map/lnk-tracking-overview.md)を参照してください。
 
 Activity Map では、次の 2 つの ID に基づいてリンクトラッキングをおこないます。
 
@@ -63,9 +63,9 @@ HTML に s_objectid が含まれている場合、プライマリ ID はデフ�
 
 **カスタマイズされた領域トラッキング**
 
-リンクの領域パラメーターをカスタマイズできます（デフォルトはリンク ID）。「ID」に設定されているタグは、領域としての "id" パラメーターを持つすべての HTML 要素を使用します。したがって、領域タグを "id" に設定すると、多くの場合、多数の異なる領域が返されます（ページ上の「ID」の数に応じて）。また、よりカスタマイズされた実装が必要な場合は、領域タグを "region_id" など、より具体的なものに設定できます。
+リンクの領域パラメーターをカスタマイズできます（デフォルトはリンク ID）。「ID」に設定されているタグは、領域としての &quot;id&quot; パラメーターを持つすべての HTML 要素を使用します。したがって、領域タグを &quot;id&quot; に設定すると、多くの場合、多数の異なる領域が返されます（ページ上の「ID」の数に応じて）。また、よりカスタマイズされた実装が必要な場合は、領域タグを &quot;region_id&quot; など、より具体的なものに設定できます。
 
-以下に、デフォルトの領域 ID 属性 "id" を使用したサンプルの HTML を示します。
+以下に、デフォルトの領域 ID 属性 &quot;id&quot; を使用したサンプルの HTML を示します。
 
 ```
 <div id="content"> 
@@ -77,10 +77,12 @@ HTML に s_objectid が含まれている場合、プライマリ ID はデフ�
    </div> 
 ```
 
-必要に応じて、任意の文字列 ID（この場合は "lpos"）を使用して要素にタグを付け、"lpos" という名前で属性を追加することもできます。
+必要に応じて、任意の文字列 ID（この場合は &quot;lpos&quot;）を使用して要素にタグを付け、&quot;lpos&quot; という名前で属性を追加することもできます。
 
 ```
-s.ActivityMap.regionIDAttribute="lpos"; 
+<script language="JavaScript" type="text/javascript">
+s.ActivityMap.regionIDAttribute="lpos";
+</script> 
    
 <div id="nav" lpos="navbar"> 
   <ul> 
