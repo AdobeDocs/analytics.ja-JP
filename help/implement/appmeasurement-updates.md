@@ -3,7 +3,7 @@ title: JavaScript版AppMeasurementリリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
+source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
 
 ---
 
@@ -15,6 +15,12 @@ JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートで�
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 AppMeasurementの最新バージョンは、コードマネージャーでダウンロ [ードできます](/help/admin/admin/code-manager-admin.md)。
+
+## バージョン 2.19.0
+
+リリース日：**2020 年 2 月 22 日**
+
+* Audience Management モジュールを DIL 9.4 に更新しました。（AN-209341）
 
 ## バージョン 2.18.0
 
