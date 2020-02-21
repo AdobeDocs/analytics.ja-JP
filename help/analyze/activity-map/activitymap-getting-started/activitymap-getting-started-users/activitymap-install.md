@@ -3,13 +3,13 @@ description: インストールプロセスは、使用しているブラウザ�
 title: Activity Map ブラウザープラグインのインストール
 topic: Activity map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Activity Map ブラウザープラグインのインストール{#install-activity-map-browser-plug-ins}
+# Activity Map ブラウザープラグインのインストール {#install-activity-map-browser-plug-ins}
 
 インストールプロセスは、使用しているブラウザーによって異なります。
 
@@ -30,10 +30,10 @@ Activity Map ブラウザープラグインには次の特徴があります。
 1. 「**[!UICONTROL Activity Map プラグインをインストール]**」をクリックします。
 1. Activity Map ブラウザープラグインをダウンロードするかどうか確認するセキュリティ警告が表示されたら、「**[!UICONTROL はい]**」をクリックします。
 1. ダウンロードが完了したら、.zip ファイルの場所を見つけて、内容を解凍します。
-1. Chrome のアドレスバーに戻って、"`chrome://extensions`" と入力します。
+1. Chrome のアドレスバーに戻って、&quot;`chrome://extensions`&quot; と入力します。
 1. 「デベロッパーモード」ボックスをチェックします。
 1. 「パッケージ化されていない拡張機能を読み込む」をクリックして、解凍したフォルダーをポップアップから選択します。
-1. Adobe Analytics アイコン ![](assets/an_icon.png){width="70px"} がツールバーに追加されていれば、ダウンロードは成功しています。これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
+1. Adobe Analytics アイコン ![](assets/an_icon.png){width=&quot;70px&quot;} がツールバーに追加されていれば、ダウンロードは成功しています。これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
 
 ## Firefox での Activity Map プラグインのインストール {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -44,7 +44,7 @@ Activity Map ブラウザープラグインには次の特徴があります。
 1. 以下のメッセージが表示されたら、「**[!UICONTROL 許可]**」をクリックします。![](assets/firefox_install2.png)
 
 1. 「**[!UICONTROL 今すぐインストール]**」をクリックします。
-1. 右上の「**[!UICONTROL メニューを開きます]**」アイコンをクリックして「**[!UICONTROL アドオン]**」を選択します。![](assets/firefox_install3.png){width="250px"}
+1. 右上の「**[!UICONTROL メニューを開きます]**」アイコンをクリックして「**[!UICONTROL アドオン]**」を選択します。![](assets/firefox_install3.png){width=&quot;250px&quot;}
 
 1. Firefox アドオンの 1 つとして Activity Map が表示されます。
 1. Adobe Analytics アイコン ![](assets/an_icon.png) がツールバーに追加されていれば、ダウンロードは成功しています。これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
