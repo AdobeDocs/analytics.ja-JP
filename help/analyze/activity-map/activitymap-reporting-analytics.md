@@ -3,7 +3,7 @@ description: Analytics で権限を設定する方法と、Analytics で使用�
 title: Analytics の Activity Map レポート
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ Analytics で権限を設定する方法と、Analytics で使用可能なディ
 
 ## Analytics Activity Map ディメンション {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-[ディメンションに対するユーザーのアクセス権のカスタマイズ](https://marketing.adobe.com/resources/help/en_US/reference/groups-dimensions.html)は、詳細なレベルでおこなえます。Analytics で使用可能な Activity Map ディメンションは次のとおりです。
+[ディメンションに対するユーザーのアクセス権のカスタマイズ](https://marketing.adobe.com/resources/help/ja_JP/reference/groups-dimensions.html)は、詳細なレベルでおこなえます。Analytics で使用可能な Activity Map ディメンションは次のとおりです。
 
 | ディメンション | 説明 |
 |---|---|
@@ -33,7 +33,7 @@ Analytics で権限を設定する方法と、Analytics で使用可能なディ
 | Activity Map リンクと地域 | Web サイト全体で収集されたすべてのリンクのリストを、その領域と共に表示します。 |
 | Activity Map XY | 未使用 |
 
-* Analytics の実装で [Activity Map が有効](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)になっている場合、これらのディメンションは、Analysis Workspace、Reports &amp; Analytics、Report Builder で使用できます。
+* Analytics の実装で[Activity Map が有効](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)になっている場合、これらのディメンションは、Analysis Workspace、Reports &amp; Analytics、Report Builder で使用できます。
 * Reports &amp; Analytics で、**[!UICONTROL すべてのレポートを表示]**／**[!UICONTROL Activity Map]** を選択します。
 
 * 特定のページのリンクおよび領域を見るには、目的の Activity Map ページから Activity Map リンクおよび地域への分類を作成します。
