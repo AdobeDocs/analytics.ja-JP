@@ -4,7 +4,7 @@ title: カスタマイズされた日付式 - 概要
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
+source-git-commit: 4f879bc347656bc442108a5174be26efa171d7e3
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 1. 有効にする **[!UICONTROL Customize Expression]**. のオプションを選択す **[!UICONTROL Rolling Dates]**&#x200B;ると、カスタム日付式の構文を簡単に確認できます。
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldatesfor5.png)
 
    「アドバンスオプション」を使用して、カスタムの日付式を組み合わせることができます。 例えば、年の初めから最後の月の終わりまでのデータを表示する場合、次のように記述できます。開始日：cy To:cm-1d このウィザードでは、これらの日付が2020年1月1日 — 1/31/2020であることを確認できます。
 
    例えば、上記の日付を3か月前の最初の日から今月の初日まで月周期に変更すると、「前」オプション部分の日付が次のように更新されます。
 
-   ![](assets/rolldates3.png)
+   ![](assets/rolldatesfor3.png)
 
