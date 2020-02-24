@@ -3,8 +3,8 @@ description: Activity Map は Adobe Analytics のアプリケーションであ�
 title: Activity Map の概要
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: ht
-source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
+translation-type: tm+mt
+source-git-commit: 59e1bc7644a02c6cafbb7d7833d1cc9bd157b9d1
 
 ---
 
@@ -48,3 +48,4 @@ Activity Map を使用すると、様々なビューを設定することによ�
 * [Analytics の Activity Map レポート](activitymap-reporting-analytics.md)
 * [ブラウザー拡張のトラブルシューティング](troubleshooting-browser-extensions.md)
 * [情報リソース](activitymap-info-resources.md)
+
