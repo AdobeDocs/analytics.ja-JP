@@ -27,8 +27,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 実装方法 | 手順 |
 |--- |--- |
 | Adobe Experience Platform Launch | Adobe Analytics 拡張機能がインストールされている場合は、ルールのアクション設定内のカスタムコードエディターに次のコンテキストデータ変数定義を追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットのマーケティングに同意した顧客については、`contextdata` 変数を *0* に設定します。 |
-| DTM | コンテキストデータ変数定義をカスタムページコードエディターに追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>Los demás integrantes del equipo deben ponerse en contacto con los administradores de sus productos y solicitar acceso.す。ターゲットのマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
-| AppMeasurement | コンテキストデータ変数定義を AppMeasurement.js ファイルに追加します。        <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>Los demás integrantes del equipo deben ponerse en contacto con los administradores de sus productos y solicitar acceso.す。ターゲットのマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
+| DTM | コンテキストデータ変数定義をカスタムページコードエディターに追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットのマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
+| AppMeasurement | コンテキストデータ変数定義を AppMeasurement.js ファイルに追加します。          <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットのマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
 
 ## レポート（オプション） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
