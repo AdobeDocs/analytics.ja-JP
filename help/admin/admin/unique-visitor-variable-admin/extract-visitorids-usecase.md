@@ -3,7 +3,7 @@ description: Data Warehouse には、訪問者 ID のリストを抽出できる
 title: 使用事例 - 訪問者 ID の抽出
 topic: Admin tools
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Data Warehouse には、訪問者 ID のリストを抽出できる機能があります。これらの ID は、cookie ID ではなく、コンバージョン変数のいずれかで取得する ID です。この情報を得るための方法はいくつかありますが、次の例は Data Warehouse リクエストを生成するためのショートカットを示しています。
 
-仮に、貴社が顧客および見込み顧客にマーケティング用の電子メールを送信しているとします。社内の電子メールシステムには、それぞれの電子メール受信者の固有の ID が保存されています。（例えば、*`EMAIL Contact ID`*）。電子メールの設定では、連絡先が電子メールを受け取り、その中にあるリンクをクリックすると、キャンペーン ID と固有の EMAIL Contact ID を使って貴社の Web サイトを訪問するようになっています。例えば、電子メールに次のようなリンクがあるとします。
+仮に、貴社が顧客および見込み顧客にマーケティング用の電子メールを送信しているとします。社内の電子メールシステムには、それぞれの電子メール受信者の固有の ID が保存されています。（例えば、*`EMAIL Contact ID`*).電子メールの設定では、連絡先が電子メールを受け取り、その中にあるリンクをクリックすると、キャンペーン ID と固有の EMAIL Contact ID を使って貴社の Web サイトを訪問するようになっています。例えば、電子メールに次のようなリンクがあるとします。
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158
