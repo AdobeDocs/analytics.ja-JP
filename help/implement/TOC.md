@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 56d51e65e6b44673a0e2e3934ebbc20c14673562
+source-git-commit: ddea67f331aec8cf82bf5bdfdebddf88c1646ad4
 
 ---
 
@@ -45,6 +45,7 @@ source-git-commit: 56d51e65e6b44673a0e2e3934ebbc20c14673562
       + [trackInlineStats](vars/config-vars/trackinlinestats.md)
       + [trackOffline](vars/config-vars/trackoffline.md)
       + [useBeacon](vars/config-vars/usebeacon.md)
+      + [useLinkTrackSessionStorage](vars/config-vars/uselinktracksessionstorage.md)
       + [usePlugins](vars/config-vars/useplugins.md)
       + [visitorID](vars/config-vars/visitorid.md)
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
