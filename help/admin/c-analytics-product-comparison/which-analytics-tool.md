@@ -2,7 +2,7 @@
 description: このヘルプページでは、各 Adobe Analytics ツールの推奨される使用例が紹介されています。ここにリストされている順にツールを検討するとよいでしょう。あるツールがニーズを満たさない場合は、次のツールの使用を検討します。
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
@@ -30,7 +30,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 同時ビューア、ビデオ視聴時間帯、ビューアドロップオフの独自のビデオビジュアライゼーションにアクセスする。
 * 予定レポートで発行リストを活用する。
 
-**[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**は以下の場合に使用します。
+**[Mobile Services UI](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html)**は以下の場合に使用します。
 
 * モバイルアプリデータのサイロ型表示が求められる場合。
 * モバイルアプリ SDK の実装を管理する。
@@ -54,7 +54,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 待ち時間分析（イベント前後の時間）。
 * Adobe Experience Cloud 全体での複雑なセグメントの識別およびエクスポート。
 
-## Adobe Analytics へのデータのインポート {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Adobe Analytics へのデータのインポート{#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 **[分類](/help/components/c-classifications2/c-classifications.md)**は以下の場合に使用します。
 
@@ -73,7 +73,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
    * トランザクション ID：オンラインエンドポイントをオフラインデータに接続し、インポートしたデータを、オンラインでキャプチャした訪問者スナップショットに完全に関連付けるデータアップロード（例えば、注文がオンラインで完了し、オフラインで返されるなど）。
    * フル処理：タイムスタンプ付きのデータソース。Adobe サーバーで収集されたヒットのように処理されます。つまり、データが訪問者のジャーニーに直接挿入されます。
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)（以前の Genesis）**&#x200B;は以下の場合に使用します。
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)（以前の Genesis）**は以下の場合に使用します。
 
 * Adobe Analytics とのサポートされる接続を構築したサードパーティプロバイダーとやり取りする場合。Data Connectors は、通常、サマリレベルのデータを、定期的、恒久的かつ自動的に Adobe Analytics に取り込みます。
 
@@ -91,12 +91,12 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 人口統計情報（例：性別や所得水準）、サイコグラフィック情報（例：興味や趣味）、CRM データ、広告インプレッションデータなどの Adobe Audience Manager（AAM）のオーディエンスデータを任意の Analytics ワークフローに組み込む場合。
 * この統合によって新しい情報が Analytics にヒットごとに送信されるので、アップロードされた CRM データを時間ベースにする場合。
 
-## Adobe Analytics からのデータのエクスポート {#section_901C06ABF2014E92B2952906723DF235}
+## Adobe Analytics からのデータのエクスポート{#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)**は以下の場合に使用します。
 
 * Workspace のカスタマイズされたレイアウトオプションが制限的である場合（Report Builder では Excel の範囲内であればどのようなレイアウトも可能）。
-* ユーザー入力またはオフラインデータソース（インプレッション数、コスト）の Adobe データへの緩やかな統合。データを統合するためのより恒久的なソリューションはデータソースです（「Adobe Analytics へのデータのインポート」を参照）を参照してください。
+* ユーザー入力またはオフラインデータソース（インプレッション数、コスト）を Adobe データに緩やかに統合する場合。データを統合するためのより恒久的なソリューションはデータソースです（「Adobe Analytics へのデータのインポート」を参照）を参照してください。
 * 様々なディメンションのレポートから得られるデータの結合（例えば、プロモーションのインプレッションレポートとプロモーションのクリックトゥコンバージョンレポートの結合など）。
 * クロスレポートスイート表示。
 * スケジュール設定による自動化が求められる場合（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
