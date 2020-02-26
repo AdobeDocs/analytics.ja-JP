@@ -9,7 +9,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 # [!UICONTROL IP ログイン制限の実施]の提供終了
 
-Adobe Analytics の **[IP ログイン制限の実施](/help/admin/company/security-manager.md)**&#x200B;機能を使用すると、（セキュリティで保護されていると見なされる）特定の IP アドレスをホワイトリストに登録して、Adobe Analytics 環境への正常なログインとアクセスを許可できます。多くの場合、この機能は、ユーザーがログインできる唯一のセキュア IP アドレスとして会社の IP アドレスを設定するために使用されます。したがって、Adobe Analytics を使用するには、ユーザーが社内にいるか、VPN 経由でネットワークにログインする必要があります。
+Adobe Analytics の **[IP ログイン制限の実施](/help/admin/company/security-manager.md)**機能を使用すると、（セキュリティで保護されていると見なされる）特定の IP アドレスをホワイトリストに登録して、Adobe Analytics 環境への正常なログインとアクセスを許可できます。多くの場合、この機能は、ユーザーがログインできる唯一のセキュア IP アドレスとして会社の IP アドレスを設定するために使用されます。したがって、Adobe Analytics を使用するには、ユーザーが社内にいるか、VPN 経由でネットワークにログインする必要があります。
 
 この機能は 2020 年 10 月に提供終了となる予定です。
 
