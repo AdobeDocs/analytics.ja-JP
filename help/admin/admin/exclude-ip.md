@@ -3,7 +3,7 @@ description: レポートから、社内の Web サイト活動、サイトの�
 title: IP アドレスで除外
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL IP アドレスで除外]**
 
-> [!NOTE]IP アドレスによって除外されたヒットは、[サーバーコール](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)として請求されます。
+> [!NOTE]IP アドレスによって除外されたヒットは、[サーバーコール](https://marketing.adobe.com/resources/help/ja_JP/reference/primary_server_calls.html)として請求されます。
 
 ## Cookie ごとに除外 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -25,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 | 要素 | 説明 |
 |--- |--- |
-| [!UICONTROL CNAME を追加] | ドメインを除外するために使用できるオプトアウトリンクを生成します。アシストが必要な場合には、貴社のサポート対象ユーザーにお問い合わせください。<br>会社のオプトアウトページに移動してブラウザーを測定の対象から除外することを選択することで、トラフィックをレポートスイートのレポートから除外することができます。<br>実装にサードパーティの cookie を使用している場合、オプトアウトページは[こちら](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true)です。 |
+| [!UICONTROL CNAME を追加] | ドメインを除外するために使用できるオプトアウトリンクを生成します。アシストが必要な場合には、貴社のサポート対象ユーザーにお問い合わせください。<br>会社のオプトアウトページに移動してブラウザーを測定の対象から除外することを選択することで、トラフィックをレポートスイートのレポートから除外することができます。<br>実装にサードパーティの cookie を使用している場合、オプトアウトページは[こちら](https://democorp.112.2o7.net/optout.html?locale=ja_JP&amp;popup=true)です。 |
 
 > [!NOTE]コンピューターによる除外は、次の場合にのみ機能します。
 >
@@ -34,7 +34,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 > * cookie が削除されていないとき。cookie が削除されている場合は、自分自身も再度除外する必要があります。
 
 
-## IP アドレスで除外 {#section_609FB6461529409D840111A32FEF5C3D}
+## IP アドレスで除外{#section_609FB6461529409D840111A32FEF5C3D}
 
 IP アドレスとは、インターネットアドレスのことです。すべてのインターネットユーザーには、通常インターネットサービスプロバイダーを介して、電子的識別子として有効に機能する数字の IP アドレスが割り当てられます。
 
@@ -46,9 +46,9 @@ IP アドレスとは、インターネットアドレスのことです。す�
 
 ファイアウォールを介して、特定の IP アドレスからのデータ収集をブロックすることもできます。
 
-[Experience Cloud で使用されている IP アドレス](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses)の記事を参照してください。
+[Experience Cloud で使用されている IP アドレス](https://marketing.adobe.com/resources/help/ja_JP/home/index.html#kb-adobe-ip-addresses)の記事を参照してください。
 
-## IP の不明化の影響 {#section_51B7529FFF16449CA016FDC51D87E2CA}
+## IP の不明化の影響{#section_51B7529FFF16449CA016FDC51D87E2CA}
 
 IP の不明化を有効にすると、IP アドレスが不明化される前に IP の除外がおこなわれるので、IP の不明化を有効にする際に、お客様は何も変更する必要はありません。
 
