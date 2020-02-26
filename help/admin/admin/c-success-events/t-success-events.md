@@ -3,7 +3,7 @@ description: 成功イベントを設定する方法について手順を説明�
 title: 成功イベントの設定
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!NOTE]
    >
-   >パーティシペーションは、最大 100 個のカスタムイベントに対して有効にすることができます。100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
+   >パーティシペーションは、最大 100 個のカスタムイベントに対して有効にすることができます。100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
