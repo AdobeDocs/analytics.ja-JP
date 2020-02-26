@@ -3,7 +3,7 @@ description: ロールアップレポートスイートを作成する方法に�
 title: ロールアップレポートスイートの作成
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
