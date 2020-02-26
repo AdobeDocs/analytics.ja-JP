@@ -3,7 +3,7 @@ description: 新しいレポートスイートを作成するには、事前定�
 title: 新しいレポートスイート - 設定
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,15 +30,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p>英数字文字のみ含めることができる一意な ID を指定します。この ID は作成後は変更できません。アドビによって設定される必須の ID プレフィックスも変更できません。 </p> <p>複数のレポートスイートを作成する場合は、レポートスイート ID が一意になる命名方法を使用してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> サイトのタイトル</span> </td> 
+   <td colname="col1"> <span class="wintitle">サイトのタイトル</span> </td> 
    <td colname="col2"><span class="wintitle">管理ツール</span>のレポートスイートを識別します。このタイトルは、スイートのヘッダーにある<span class="wintitle">レポートスイート</span>ドロップダウンリストでも使用されます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> タイムゾーン</span> </td> 
+   <td colname="col1"> <span class="wintitle">タイムゾーン</span> </td> 
    <td colname="col2"> イベントおよびタイムスタンプのデータをスケジュールします。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> ベース URL</span> </td> 
+   <td colname="col1"> <span class="wintitle">ベース URL</span> </td> 
    <td colname="col2"> （オプション）レポートスイートのベースドメインを定義します。レポートスイートの内部 URL フィルターを明示的に定義していない場合、この URL が内部 URL フィルターとして機能します。 </td> 
   </tr> 
   <tr> 
