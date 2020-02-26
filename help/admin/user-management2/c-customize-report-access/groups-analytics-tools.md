@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: Analytics ツールの権限のカスタマイズ
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移動しました。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics**[!UICONTROL ／]**管理者**[!UICONTROL ／]**ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。
 
-**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL Analytics ツール]**／**[!UICONTROL カスタマイズ]**
+**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL すべてのレポートアクセス]**／**[!UICONTROL Analytics ツール]**／**[!UICONTROL カスタマイズ]**
 
 > [!NOTE]2016 年秋のリリース（10 月 21 日）で、グループ管理に変更が加えられました。変更の概要については、[管理上の変更 - 2016 年秋](/help/admin/user-management2/c-user-management/permissions-changes.md)を参照してください。
 
@@ -48,19 +48,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | [セキュリティ](/help/admin/company/security-manager.md) | レポートデータへのアクセスを制御するセキュリティマネージャーページに対する権限を付与します。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。 |
 | サポート情報 | カンパニー設定のサポート情報に対する権限を付与します。 |
 | [Web サービス](/help/admin/company/web-services-admin.md) | 管理ツールインターフェイスの Web サービスページにアクセスできるようにします（[!UICONTROL カンパニー設定]／[!UICONTROL Web サービス]）。<br>Web Services API を使用すると、ユーザーインターフェイスを通じて使用可能な機能を複製および補強する Adobe Analytics サービスにプログラムレベルでアクセスできます。 |
-| シングルサインオン（レガシー） | 管理ツールのシングルサインオンページへのアクセス権を付与します。<br>**注意：** Adobe Experience Cloud のシングルサインオンは、Experience Cloud とソリューションの間の[アカウントのリンク](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)を使用して実装されます。 |
+| シングルサインオン（レガシー） | 管理ツールのシングルサインオンページへのアクセス権を付与します。<br>**注意：**Adobe Experience Cloud のシングルサインオンは、Experience Cloud とソリューションの間の[アカウントのリンク](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を使用して実装されます。 |
 | [保留中のアクション](/help/admin/company/pending-actions-admin.md) | [!UICONTROL カンパニー設定]の保留中のアクションを管理する権限を付与します。 |
 | [ブランド提携](/help/admin/company/co-branding-admin.md) | Analytics のコブランド化の権限を付与します。 |
 | [環境設定](/help/admin/admin/preferences-manager.md) | [!UICONTROL Preference Manager] に対する権限を付与します。 |
 | [レポートスイートを非表示](/help/admin/company/c-hide-report-suites.md) | Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にする権限を付与します。 |
 | **ツール** | これらの設定は、Analytics ツール（インターフェイスおよびアプリケーション）およびセグメンテーションや計算指標などの高度な機能へのアクセス権を付与します。 |
-| [現在のデータ](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | レポートの「現在のデータ」機能を使用する権限を付与します。 |
-| [Ad Hoc Analysis ライセンスユーザー](https://marketing.adobe.com/resources/help/en_US/dsc/) | [!UICONTROL Ad Hoc Analysis] へのアクセス権を付与します。 |
+| [現在のデータ](https://marketing.adobe.com/resources/help/ja_JP/reference/data_latency.html) | レポートの「現在のデータ」機能を使用する権限を付与します。 |
+| [Ad Hoc Analysis ライセンスユーザー](https://marketing.adobe.com/resources/help/ja_JP/dsc/) | [!UICONTROL Ad Hoc Analysis] へのアクセス権を付与します。 |
 | Web サービスへのアクセス | 管理者以外のユーザーの Web サービスへのアクセスを有効にします。Web サービス資格情報を生成します。 |
-| [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/setup.html) | このグループのメンバーに [!UICONTROL Report Builder] ライセンスへのアクセス権を付与します。 |
-| [Analysis Workspace アクセス](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) | [!DNL Adobe Analytics] の推奨レポートインターフェイスである、Analysis Workspace へのアクセス権をユーザーに付与します。 |
-| [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/) | Reports &amp; Analytics へのアクセス権をユーザーに付与します。 |
-| [計算指標の作成](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) | 計算指標を作成する権限をユーザーに付与します。 |
-| [セグメントの作成](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) | セグメントを作成する権限をユーザーに付与します。 |
+| [Report Builder](https://marketing.adobe.com/resources/help/ja_JP/arb/setup.html) | このグループのメンバーに [!UICONTROL Report Builder] ライセンスへのアクセス権を付与します。 |
+| [Analysis Workspace アクセス](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/) | [!DNL Adobe Analytics] の推奨レポートインターフェイスである、Analysis Workspace へのアクセス権をユーザーに付与します。 |
+| [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/ja_JP/sc/user/) | Reports &amp; Analytics へのアクセス権をユーザーに付与します。 |
+| [計算指標の作成](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/) | 計算指標を作成する権限をユーザーに付与します。 |
+| [セグメントの作成](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/) | セグメントを作成する権限をユーザーに付与します。 |
 | **Data Connectors** |  |
 | 統合（作成、更新または削除） | Data Connector 統合を作成、更新および削除する権限を付与します。 |
