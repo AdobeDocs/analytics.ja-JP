@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: ユーザーアカウント項目の転送
 topic: Admin tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 あるユーザーアカウントから別のユーザーのアカウントにユーザーアカウント項目（ダッシュボード、計算指標、カレンダーイベント、アラート、ブックマーク、セグメント、Analysis Workspace プロジェクトおよびスケジュールされたプロジェクト）を割り当てる方法について手順を説明します。
 
