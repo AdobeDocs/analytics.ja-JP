@@ -3,7 +3,7 @@ description: レポートスイートでは、選択した Web サイト、Web �
 title: レポートスイートマネージャー
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,14 +31,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> レポートスイートの選択</span> </td> 
-   <td colname="col2"> <p><span class="wintitle">Report Suite Manager</span> では、選択したレポートスイートが強調表示されます。複数のレポート スイートを選択するには、<span class="uicontrol">Ctrl</span> キーまたは <span class="uicontrol">Shift</span> キーを押しながらクリックします。 </p> <p>選択したレポートスイートは、別のレポートスイートを選択するまで選択されています。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">Report Suite Manager</span> では、選択したレポートスイートが強調表示されます。複数のレポートスイートを選択するには、<span class="uicontrol">Ctrl</span> キーまたは <span class="uicontrol">Shift</span> キーを押しながらクリックします。 </p> <p>選択したレポートスイートは、別のレポートスイートを選択するまで選択されています。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ダウンロード</span> </td> 
    <td colname="col2"> 現在選択されているレポートスイートに関するすべての設定が含まれる Excel スプレッドシートを生成します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Search</span> </td> 
+   <td colname="col1"> <span class="wintitle">検索</span> </td> 
    <td colname="col2"> レポートスイートリスト内にある特定のレポートスイートを見付けることができます。検索ツールには、基本的な名前ベースの検索と、より詳細な検索を行うためのアドバンス検索ページがあります。 </td> 
   </tr> 
   <tr> 
