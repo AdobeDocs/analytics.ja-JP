@@ -3,7 +3,7 @@ description: 内部 URL フィルターは、サイト内部のリファラー�
 title: 内部 URL フィルター
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
