@@ -3,7 +3,7 @@ description: サーバー側転送は、Analytics のデータを他の Experien
 solution: Audience Manager
 title: サーバー側転送の概要
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
@@ -28,30 +28,30 @@ source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 サーバー側転送の実装状況を確認するには、以下の検証ステップを実行してください。
 
-## ![step1_icon.png image ECIDサービスの実装を確認する](assets/step1_icon.png)
+## ![step1_icon.png image](assets/step1_icon.png) ECID サービス実装の確認
 
-Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting the [Analytics tracking request](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
+[Analytics トラッキングリクエスト](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-test-verify.html)を調べて、Experience Cloud ID（ECID）サービスが実装されているかどうかを確認します。
 
-「Request」タブで、ECID値が設定されていることを確認します。 これで、サーバー側転送の前提条件である ID サービスが適切に実装されていることがわかります。
+「リクエスト」タブで、ECID 値が設定されていることを確認します。これで、サーバー側転送の前提条件である ID サービスが適切に実装されていることがわかります。
 
-* ECID値が表示された場合は、手順2に進みます。
-* If you do not see an ECID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
+* ECID 値が表示されている場合は、手順 2 に進みます。
+* ECID 値が表示されていない場合は、手順 2 に進む前に [ID サービスを実装](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-implementation-guides.html)します。
 
 ## ![step2_icon.png image](assets/step2_icon.png) サーバー側転送の実装バージョンの確認
 
 [Analytics トラッキングリクエスト](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)を調べて、サーバー側転送のバージョンが既に実装されているかどうかを確認します。
 
-「応答」タブで、応答に Audience Manager データが含まれているかどうかを確認します。表示される場合：
+「応答」タブで、応答に Audience Manager データが含まれているかどうかを確認します。応答に従って手順を進めます。
 
 * **Audience Manager からの JSON 応答に「postbacks」や「dcs_region」などの項目が含まれている場合**：何らかの形のサーバー側転送が既に有効になっています。手順 3 に進みます。
-* **"status":"SUCCESS"**：Audience Management モジュールが実装されていますが、サーバー側転送が適切に設定されていません。手順 3 に進みます。
+* **&quot;status&quot;:&quot;SUCCESS&quot;**：Audience Management モジュールが実装されていますが、サーバー側転送が適切に設定されていません。手順 3 に進みます。
 * **2 x 2 の画像**：サーバー側転送および Audience Management モジュールは実装されていません。修正手順を以下に示します。
 
    * **DIL を使用している AAM のお客様**：以下の 2 つの項目を緊密に連携および調整します。
 
-      1. DIL コードを削除し、[Audience Management モジュール](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html)ページのコードをインストールします。
+      1. DIL コードを削除し、[Audience Management モジュール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)ページのコードをインストールします。
       1. 手順 3 の説明に従って、Analytics 管理 UI でサーバー側転送を有効にします。DIL コードを削除する前にこの設定を有効にすると、データが複製され、Audience Manager に対する追加の請求対象サーバーコールが作成されます。
-   * **AAM の新しいお客様** - Audience [Management モジュール](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html)ページのコードをインストールし、手順 3 に進みます。手順 3 でサーバー側転送を有効にするまでは、データは Audience Manager に送信されません。
+   * **AAM の新しいお客様** - Audience [Management モジュール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)ページのコードをインストールし、手順 3 に進みます。手順 3 でサーバー側転送を有効にするまでは、データは Audience Manager に送信されません。
 
 
 ## ![step3_icon.png image](assets/step3_icon.png) レポートスイートのサーバー側転送の実装の確認
@@ -62,9 +62,9 @@ Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting 
 
 **Analytics**／**管理者**／**レポートスイート**／（**レポートスイート**&#x200B;を選択）／**設定を編集**／**一般**／**サーバー側転送**&#x200B;に移動します。このチェックボックスが
 
-* **非アクティブ** （選択できないか、メニューが存在しません）:選択したレポートスイートがIMS組織にマップされていません。レポートスイートマッピングUIを使用して、該当するレポートスイートが適切なExperience cloud組織にマッピングされ [ていることを確認します](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)。
-* **オフ**&#x200B;の場合：新しいサーバー側転送は有効になっていません。ページのコンテンツを読んで、機能を有効にしてください。
-* **オン**&#x200B;の場合：新しいサーバー側転送用にプロビジョニングされています。この Audience Analytics 統合をセットアップすることもできます。
+* **非アクティブ**&#x200B;の場合（項目を選択できないか、メニューが存在しない場合）：選択されているレポートスイートは Experience Cloud Organization にマップされていません。[レポートスイートマッピング UI](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html) を使用して、該当するレポートスイートを適切な IMS Org にマップしてください。
+* **無効**：新しいサーバー側転送を有効にしていません。ページのコンテンツを読んで、機能を有効にしてください。
+* **有効**：新しいサーバー側転送がプロビジョニングされています。この Audience Analytics 統合をセットアップすることもできます。
 
-> [!NOTE]3 つの手順をすべて実行するまでは、データは他の Experience Cloud ソリューション（[Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) や [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) など）に表示されません。有効にした後、これらの設定が反映されるまでに数時間かかります。
+> [!NOTE]3 つの手順をすべて実行するまでは、データは他の Experience Cloud ソリューション（[Audience Manager](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/aam-home.translate.html) や [Audiences](https://marketing.adobe.com/resources/help/ja_JP/mcloud/audience_library.html) など）に表示されません。有効にした後、これらの設定が反映されるまでに数時間かかります。
 
