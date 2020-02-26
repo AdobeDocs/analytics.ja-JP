@@ -3,7 +3,7 @@ description: モバイル管理を有効にすると、モバイルアプリケ�
 title: モバイル管理
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ Adobe Analytics と Mobile Services のこの統合により、
 *  Adobe Mobile ディメンションが追加されます。
 * 15 分ごとにデータが Analytics に同期されます
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL モバイル管理]**／**[!UICONTROL モバイルアプリケーションレポート]**&#x200B;に移動します。
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL モバイル管理]**／**[!UICONTROL モバイルアプリケーションレポート]**。
 
 ## 手順 1.アプリレポートを有効にする {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -54,11 +54,11 @@ Adobe Analytics と Mobile Services のこの統合により、
 | 分類 | 定義 |
 |--- |--- |
 | 初回起動日 | インストール後または再インストール後の初回起動日。MM/DD/YYYY |
-| アプリケーション ID | アプリケーションの名前とバージョンを次の形式で格納します。      `[AppName] [BundleVersion]`例：`myapp 1.1.`。 |
+| アプリケーション ID | アプリケーションの名前とバージョンを次の形式で格納します。               `[AppName] [BundleVersion]`例：`myapp 1.1.`。 |
 | 起動回数 | アプリが起動したか、またはバックグラウンドから復帰した回数。 |
 | 初回使用からの日数 | 初回起動時からの日数。 |
 | 前回使用からの日数 | 前回使用時からの日数。 |
-| 時間帯 | アプリが起動された時間帯を測定します。24 時間形式が使用されます。利用のピーク時間を判定するために使用します。 |
+| 時刻 | アプリが起動された時間帯を測定します。24 時間形式が使用されます。利用のピーク時間を判定するために使用します。 |
 | 曜日 | アプリが起動された曜日を表す数値。 |
 | デバイス名 | デバイス名が格納されます。デバイスを識別するコンマ区切りの 2 桁の文字列。最初の番号は通常、デバイスの世代を表します。次の番号は通常、デバイスファミリー内の個々のメンバーのバージョン番号です。 |
 | オペレーティングシステムのバージョン | OS のバージョン。 |
@@ -71,7 +71,7 @@ Adobe Analytics と Mobile Services のこの統合により、
 | 獲得名 |  |
 | ロケーション（半径 10 km 以内） | trackLocation メソッドによって設定されます。 |
 | ロケーション（半径 100 m 以内） | trackLocation メソッドによって設定されます。 |
-| ロケーション (半径 1 m 以内) | trackLocation メソッドによって設定されます。 |
+| ロケーション（半径 1 m 以内） | trackLocation メソッドによって設定されます。 |
 | 目標点名 | デバイスが定義された目標地点内に入ると、trackLocation メソッドによって設定されます。 |
 | 目標地点の中心までの距離 | デバイスが定義された目標地点内に入ると、trackLocation メソッドによって設定されます。 |
 | アプリ内メッセージ ID |  |
