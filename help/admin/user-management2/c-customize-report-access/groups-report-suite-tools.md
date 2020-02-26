@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: レポートスイートツールの権限のカスタマイズ
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。
 
@@ -43,27 +43,27 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | [アカウントの概要](/help/admin/admin/general-acct-settings-admin.md) | レポートスイートのアカウント設定を編集する権限を付与します。 |
 | [URL フィルター](/help/admin/admin/internal-url-filter-admin.md) | レポートスイートの内部 URL フィルターに対する権限を付与します。内部 URL フィルターは、サイト内部のリファラー（参照ページ）を識別するために使用されます。 |
 | [カスタムカレンダー](/help/admin/admin/custom-calendar.md) | カスタムカレンダーを編集する権限を付与します。 |
-| [有料検索](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) | 有料検索探知は、検索エンジンと検索キーワードレポート内の自然検索と有料検索を区別します。 |
+| [有料検索](https://marketing.adobe.com/resources/help/ja_JP/reference/paid_search_detection.html) | 有料検索探知は、検索エンジンと検索キーワードレポート内の自然検索と有料検索を区別します。 |
 | [メニューのカスタマイズ](/help/admin/admin/customize-menus.md) | Reports &amp; Analytics でユーザーに表示されるレポートメニューをカスタマイズします。 |
 | [リアルタイムレポート設定](/help/admin/admin/realtime/t-realtime-admin.md) | Analytics でリアルタイムレポートを設定する権限です。 |
 | [ビデオ設定](/help/admin/admin/video-management.md) | ビデオのトラッキングとレポートに使用されるカスタムコンバージョン変数（eVar）とカスタムイベントのセットを指定する権限です。 |
-| [ビデオ分類](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_config.html) | ビデオのトラッキングとレポートに使用されるカスタムコンバージョン変数（eVar）とカスタムイベントのセットを指定する権限です。 |
+| [ビデオ分類](https://marketing.adobe.com/resources/help/ja_JP/sc/appmeasurement/video/video_config.html) | ビデオのトラッキングとレポートに使用されるカスタムコンバージョン変数（eVar）とカスタムイベントのセットを指定する権限です。 |
 | [トラフィック変数](/help/admin/admin/c-traffic-variables/traffic-var.md) | カスタムデータを特定のトラフィック関連イベントに相互に関連付ける権限です。 |
 | [トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md) | （ツールとレポートの）分類に統合されました。 |
-| [チャネル](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | Report Suite Manager／設定を編集／マーケティングチャネルのマーケティングチャネル設定に対する権限を付与します。 |
-| [コスト](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html) | Report Suite Manager のマーケティングチャネル／マーケティングチャネルのコスト設定に対する設定を有効にします。 |
+| [チャネル](https://marketing.adobe.com/resources/help/ja_JP/mchannel/index.html) | Report Suite Manager／設定を編集／マーケティングチャネルのマーケティングチャネル設定に対する権限を付与します。 |
+| [コスト](https://marketing.adobe.com/resources/help/ja_JP/mchannel/c_overview_budget.html) | Report Suite Manager のマーケティングチャネル／マーケティングチャネルのコスト設定に対する設定を有効にします。 |
 | [コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | カスタムインサイトコンバージョン変数（または eVar）は、サイト上の選択された Web ページの Adobe コードに配置されます。その主な目的は、カスタムマーケティングレポートでコンバージョン成功指標をセグメント化することです。 |
 | [検索方法](/help/admin/admin/finding-methods.md) | 各種の検索方法レポートがサイト上のコンバージョンの成功イベントのクレジットを受け取る方法を特定できます。 |
 | [コンバージョンの分類](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | （ツールとレポートの）分類に統合されました。 |
-| [個別訪問者](https://marketing.adobe.com/resources/help/en_US/reference/t_unique_visitor_variable.html) | 個別訪問者変数を指定する権限を付与します。 |
-| [成功イベント](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) | 製品表示、チェックアウト、購入など、トラッキングできるアクション。 |
+| [個別訪問者](https://marketing.adobe.com/resources/help/ja_JP/reference/t_unique_visitor_variable.html) | 個別訪問者変数を指定する権限を付与します。 |
+| [成功イベント](https://marketing.adobe.com/resources/help/ja_JP/reference/success_event.html) | 製品表示、チェックアウト、購入など、トラッキングできるアクション。 |
 | [分類階層](/help/components/c-classifications2/classification-hierarchies.md) | （ツールとレポートの）分類に統合されました。 |
-| [リスト変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) | リスト Var とも呼ばれます。リスト Prop の機能と同様、リスト Var は同じイメージリクエスト内で複数の値を許可します。 |
+| [リスト変数](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/listN.html) | リスト Var とも呼ばれます。リスト Prop の機能と同様、リスト Var は同じイメージリクエスト内で複数の値を同時にセットできます。 |
 | [デフォルトの指標](/help/admin/admin/default-metrics.md) | ユーザーがカスタム指標のセットを選択しない限り、Reports &amp; Analytics ではすべてのコンバージョンレポートでデフォルトの指標セットが表示されます。選択した指標は、関連付けられたレポートスイートのすべてのユーザーに表示されます。 |
-| [処理ルール](https://marketing.adobe.com/resources/help/en_US/sc/implement/ref-processing-rules.html) | データ収集をシンプル化し、レポートに送信されるコンテンツを管理する処理ルールへのアクセス権を付与します。 |
+| [処理ルール](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/ref-processing-rules.html) | データ収集をシンプル化し、レポートに送信されるコンテンツを管理する処理ルールへのアクセス権を付与します。 |
 | **ツールとレポート** |  |
-| [異常値検出](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法である、異常値検出に対する権限を付与します。 |
-| [チャネルレポート](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | レポート／マーケティングチャネルレポートにあるマーケティングチャネルレポートに対する権限を付与します。 |
+| [異常値検出](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/anomaly_detection.html) | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法である、異常値検出に対する権限を付与します。 |
+| [チャネルレポート](https://marketing.adobe.com/resources/help/ja_JP/mchannel/index.html) | レポート／マーケティングチャネルレポートにあるマーケティングチャネルレポートに対する権限を付与します。 |
 | [リアルタイムレポート](/help/admin/admin/realtime/t-realtime-admin.md) | リアルタイムレポートへのアクセス権を付与します。 |
 | [ボットページ](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
 | [ボット](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
@@ -74,11 +74,11 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | レガシー ClickMap | レガシー ClickMap オーバーレイツールへのアクセス権を付与します。 |
 | レガシー ClickMap のインストール | レガシー ClickMap ツールにインストール権限を付与します。 |
 | [再来訪](/help/components/c-variables/dimensionslist/reports-return-visits.md) | 訪問回数が 2 以上である訪問の数を示すレポート。再来訪レポートには、cookie を使用していない訪問者が含まれます。 |
-| [分類インポーター](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) / エクスポーターおよび[ルールビルダー](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | 分類に統合されました（以下を参照してください）。 |
-| データフィードマネージャー | 権限をAnalytics データフィードに権限を付与します。 |
+| [分類インポーター](https://marketing.adobe.com/resources/help/ja_JP/reference/c_working_with_saint.html) / エクスポーターおよび[ルールビルダー](https://marketing.adobe.com/resources/help/ja_JP/reference/classification_rule_builder.html) | 分類に統合されました（以下を参照してください）。 |
+| データフィードマネージャー | Analytics データフィードに権限を付与します。 |
 | 分類 | 「トラフィック分類」、「ビデオ分類」、「コンバージョンの分類」、「分類階層」、「分類マネージャー」および「分類インポーター／エクスポーターおよびルールビルダー」の権限がまとめられています。注意：この権限を持つユーザーは、選択したレポートスイートだけではなく、すべてのレポートスイートの分類を編集できます。 |
-| [貢献度分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Analysis Workspace で貢献度分析を使用する権限を付与します。 |
+| [貢献度分析](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/contribution-analysis.html) | Analysis Workspace で貢献度分析を使用する権限を付与します。 |
 | **ダッシュボードの項目** |  |
-| ダッシュボード項目の設定を使用すると、Reports &amp; Analytics の[レポートレット](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)（推奨レポート、会社サマリレポートレット、画像、KPI／ゲージレポートレット、レポートスイートの合計、テキスト、レポートレット、使用状況サマリレポートレット、Web リソースのレポートレット）にアクセスできます。 |  |
+| ダッシュボード項目の設定を使用すると、Reports &amp; Analytics の[レポートレット](https://marketing.adobe.com/resources/help/ja_JP/sc/user/dashboard.html)（推奨レポート、会社サマリレポートレット、画像、KPI／ゲージレポートレット、レポートスイートの合計、テキスト、レポートレット、使用状況サマリレポートレット、Web リソースのレポートレット）にアクセスできます。 |  |
 | **その他** |  |
 | Social | Report Suite Manager のソーシャルの管理メニューへのアクセスを制御します。 |
