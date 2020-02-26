@@ -3,7 +3,7 @@ description: Experience Cloud で使用される通貨コードです。
 title: 通貨コード
 topic: Admin tools
 uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
