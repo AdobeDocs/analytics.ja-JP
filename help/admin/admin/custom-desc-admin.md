@@ -3,7 +3,7 @@ description: eVar、prop、分類およびイベントに対して、カスタ�
 title: カスタムレポートの説明
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 eVar、prop、分類およびイベントに対して、カスタムレポートの説明を入力できます。説明は、すべてのエンドユーザーに表示されます。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL *変数*]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL *変数&#x200B;*]**
 
 > [!NOTE]従来のほとんどの分類に対して説明を追加できますが、現時点でモバイルの分類には説明を追加できません。
 
