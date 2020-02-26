@@ -3,7 +3,7 @@ description: 管理者レベルのユーザーは、組織全体の予定レポ�
 title: 予定レポートキュー
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * レポートサーバーで実行するためにキューに登録されているすべてのレポートを一覧表示する新しい「[レポートキュー](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B)」タブ
 * レポートキューインターフェイスでの[スケジュール ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) の公開
 
-## すべての予定レポートを表示 {#section_3F167CAAEEC24140B476CF95B7402690}
+## すべての予定レポートを表示{#section_3F167CAAEEC24140B476CF95B7402690}
 
 「**[!UICONTROL レポートリスト]**」タブでは、自身でスケジュールしたレポートに加えて、組織の&#x200B;**[!UICONTROL すべての予定レポートを表示]**&#x200B;できます。
 
@@ -30,7 +30,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/show_all_scheduled_reports.png)
 
-## 高度なフィルター機能 {#section_206A52A85DE84947AAB3AD082FBF6275}
+## 高度なフィルター機能{#section_206A52A85DE84947AAB3AD082FBF6275}
 
 例えば、1 時間ごとにスケジュールされたすべてのレポートをフィルタリングする場合は、**[!UICONTROL アドバンス]**&#x200B;フィルターで&#x200B;**[!UICONTROL 「頻度」「完全に一致する」「1 時間ごと」]**&#x200B;を指定して、「**[!UICONTROL 適用]**」をクリックします。
 
