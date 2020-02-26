@@ -2,7 +2,7 @@
 description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbenchの 機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td> <b>製品名とヘルプリンク</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html"> Reports &amp; Analytics </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/"> Ad Hoc Analysis </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html"> Report Builder </a> </td> 
-   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"> Data Warehouse </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/sc/user/index.html"> Reports &amp; Analytics </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/dsc/"> Ad Hoc Analysis </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/arb/index.html"> Report Builder </a> </td> 
+   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/ja_JP/reference/data_warehouse.html"> Data Warehouse </a> </td> 
    <td colname="col6"> <a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
@@ -72,9 +72,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <b>ファネル／パス</b> </td> 
-   <td> ○ <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"> フォールアウト </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html"> フロー </a> </p> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html">○</a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html">○</a> </td> 
+   <td> ○ <p> </p> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/fallout_flow.html"> フォールアウト </a> <p> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/flow.html"> フロー </a> </p> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/sc/user/reports.html">○</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/dsc/c_reports_paths.html">○</a> </td> 
    <td> ○ </td> 
    <td colname="col06"> × </td> 
    <td colname="col6"> ○ </td> 
@@ -90,7 +90,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <b>コホート分析</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html">○</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/cohort_analysis.html">○</a> </td> 
    <td> × </td> 
    <td> × </td> 
    <td> × </td> 
@@ -108,7 +108,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <b>ビジュアライゼーションの拡張オプション</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html">○</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/analysis-workspace-features.html">○</a> </td> 
    <td> × </td> 
    <td> ○ </td> 
    <td> ○ </td> 
@@ -117,16 +117,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <b>レイアウトのカスタマイズ</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html">○</a> </td> 
-   <td> ○ - <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html">ダッシュボード</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/analysis-workspace-features.html">○</a> </td> 
+   <td> ○ - <a href="https://marketing.adobe.com/resources/help/ja_JP/sc/user/dashboard.html">ダッシュボード</a> </td> 
    <td> × </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/configure_the_custom_layout.html">○</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/arb/configure_the_custom_layout.html">○</a> </td> 
    <td colname="col06"> <p> 分類または指標による結果の並べ替え </p> </td> 
    <td colname="col6"> ○ </td> 
   </tr> 
   <tr> 
    <td> <b>プロジェクトのキュレーション（非アナリストを対象とする簡潔なレポート）</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html">○</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/curate.html">○</a> </td> 
    <td> × </td> 
    <td> × </td> 
    <td> ○ </td> 
@@ -135,8 +135,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <b>プロジェクトの共有</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html">○</a>（すべて／任意のユーザー） </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html">○</a>（すべて／任意のユーザー） </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/curate.html">○</a>（すべて／任意のユーザー） </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/sc/user/scheduling.html">○</a>（すべて／任意のユーザー） </td> 
    <td> Ad Hoc Analysis ユーザーのみ </td> 
    <td> ○（すべて／任意のユーザー） </td> 
    <td colname="col06"> × </td> 
@@ -144,21 +144,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <b>レポート配信のスケジュール設定</b> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/schedule-projects.html">○</a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html">○</a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_schedule.html">○</a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/schedule_report_requests.html">○</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/schedule-projects.html">○</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/sc/user/scheduling.html">○</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/dsc/c_schedule.html">○</a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/ja_JP/arb/schedule_report_requests.html">○</a> </td> 
    <td colname="col06"> ○ </td> 
    <td colname="col6"> ○ </td> 
   </tr> 
   <tr> 
    <td> <b>必要システム構成</b> </td> 
-   <td> <p>ブラウザー </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> さらに詳しく... </a> </p> </td> 
-   <td> <p>ブラウザー </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> さらに詳しく... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> さらに詳しく... </a> </p> </td> 
-   <td> <p>Windows、MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> さらに詳しく... </a> </p> </td> 
+   <td> <p>ブラウザー </p> <p> <a href="https://marketing.adobe.com/resources/help/ja_JP/sc/user/requirements.html"> さらに詳しく... </a> </p> </td> 
+   <td> <p>ブラウザー </p> <p> <a href="https://marketing.adobe.com/resources/help/ja_JP/sc/user/requirements.html"> さらに詳しく... </a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/ja_JP/dsc/c_sys_reqs.html"> さらに詳しく... </a> </p> </td> 
+   <td> <p>Windows、MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/ja_JP/arb/system_requirements.html"> さらに詳しく... </a> </p> </td> 
    <td colname="col06"> ブラウザー、<span class="filepath">.csv</span> ファイルを開くことのできるプログラム（MS Excel など）。Tableau 形式のファイルを生成可能 </td> 
-   <td colname="col6"> Windows 64 ビット版、OpenGL 3.2 対応のグラフィックアダプター（<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">詳細情報...</a></u>） </td> 
+   <td colname="col6"> Windows 64 ビット版、OpenGL 3.2 対応のグラフィックアダプター（<u><a href="https://marketing.adobe.com/resources/help/ja_JP/insight/install/c_Data_Workbench_Client_install.html">詳細情報...</a></u>） </td> 
   </tr> 
  </tbody> 
 </table>
