@@ -3,7 +3,7 @@ description: リアルタイムレポートでサポートされる指標とデ�
 title: サポートされるリアルタイム指標とディメンション
 topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -42,6 +42,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * トラッキングコード
 * カスタムリンク
 * ファイルのダウンロード
-* 離脱リンク
+* 出口リンク
 * カスタムインサイト変数（prop）1 ～ 75（レポートスイートで有効な場合）
 
