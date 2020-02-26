@@ -3,7 +3,7 @@ description: グループとは、共通のアクセス権や権限のセット�
 title: グループ管理
 topic: Admin tools
 uuid: e5596397-f07b-4887-bd8c-6a6dea44a07c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
