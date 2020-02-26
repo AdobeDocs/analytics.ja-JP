@@ -3,7 +3,7 @@ description: 設定マネージャーページを使用すると、Excel およ�
 title: 設定マネージャー
 topic: Admin tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
