@@ -3,7 +3,7 @@ description: 製品サポートに関する記事とビデオを提供する Web
 title: サポートメディア
 topic: Admin tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 標準コマースイベント | タイプ | `s_code` 変数 |
 |---|---|---|
 | 売上高 | カウンター | `purchase` |
-| 購入回数 | カウンター | `purchase` |
+| 注文件数 | カウンター | `purchase` |
 | 単位 | カウンター | `purchase` |
 | 買い物かご | カウンター | `scOpen` |
 | 買い物かご表示 | カウンター | `scView` |
@@ -39,7 +39,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | チェックアウト | カウンター | `scCheckout` |
 | 買い物かごへの追加 | カウンター | `scAdd` |
 | 買い物かごからの削除 | カウンター | `scRemove` |
-| 訪問回数 | カウンター（下位関係なし） | 該当なし |
+| 訪問数 | カウンター（下位関係なし） | 該当なし |
 | ページビュー数 | カウンター（下位関係なし） | 該当なし |
 | 日別訪問者数 | カウンター（下位関係なし） | 該当なし |
 | 個別訪問者数 | カウンター（下位関係なし） | 該当なし |
