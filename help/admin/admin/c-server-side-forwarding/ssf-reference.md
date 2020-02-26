@@ -33,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |--- |--- |
 | ホスト | これは、Analytics ホスト設定ファイルで指定したクライアントの特定のデータ収集ホスト名に設定されます。`host name .demdex.net` と表示されます。「Demdex ドメインの呼び出しについて」を参照してください。 |
 | User-Agent | Analytics に渡される User-Agent ヘッダーに設定します。 |
-| X-Original-User-Agent | 代替ユーザーエージェントが以下のいずれかのヘッダーで指定された場合にのみ設定します。</br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
+| X-Original-User-Agent | 代替ユーザーエージェントが以下のいずれかのヘッダーで指定された場合にのみ設定します。</br>`X-Device-User-Agent\ `</br>`X-Original-User-Agent\`  </br>`X-OperaMini-Phone-UA\`</br>`X-Skyfire-Phone\`   </br>`X-Bolt-Phone-UA\`        |
 | X-Forwarded-For | 要求元クライアントの IP アドレスに設定します。Analytics は、既に受信 `X-Forwarded-For` ヘッダーを解析して、使用する正しい IP アドレスを特定している可能性があります。 |
 | Accept-Language | Analytics に渡される `Accept-Language` ヘッダーに設定します。 |
 | 参照元 | Analytics に渡されるページ URL か、Analytics に渡される Referer ヘッダーから収集されるページ URL に設定します。 |
@@ -50,7 +50,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | c_clientDateTime | タイムスタンプの形式は dd/mm/yyy hh:mm:ss  W TZ です。TZ は分単位で表され、Date.getTimezoneOffset メソッドの戻り値と一致します。 |
 | c_colorDepth | 16 または 32 ビットカラーとして指定します。 |
 | c_connectionType | 接続のタイプを指定します。オプションは以下のとおりです。<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData。* | 例：<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>シグナル：c_contextData.category=news</li></ul> |
+| c_contextData。* | 例：<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>シグナル：c_contextData.category=news</li></ul> |
 | c_cookiesEnabled | Cookie を有効にできるかどうかを指定します。オプションは以下のとおりです。はい、いいえ、不明 |
 | c_currencyCode | トランザクションに使用する通貨のタイプ。 |
 | c_evar# | カスタム evar。 |
@@ -65,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | c_linkExitURL | 出口リンクの URL。 |
 | c_list# | カスタムリスト変数。 |
 | c_longitude | 経度（数値）。 |
-| c_mediaPlayerType | メディアストリームトラッキングリクエスト用。オプションは以下のとおりです。    その他、Primetime |
+| c_mediaPlayerType | メディアストリームトラッキングリクエスト用。オプションは以下のとおりです。      その他、Primetime |
 | c_pageName | ページ名（設定されている場合）。 |
 | c_pageURL | ブラウザーのアドレスバー内のページのアドレス。 |
 | c_products | 製品文字列（s.products によって設定されます）。 |
