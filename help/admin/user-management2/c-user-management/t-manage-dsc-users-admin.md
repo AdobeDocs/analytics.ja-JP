@@ -1,10 +1,10 @@
 ---
-description: ad hoc analysis ユーザーを追加、編集または削除する方法について手順を説明します。
+description: Ad Hoc Analysis ユーザーを追加、編集または削除する方法について手順を説明します。
 subtopic: Users and groups
 title: Ad Hoc Analysis ユーザーの管理
 topic: Admin tools
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
