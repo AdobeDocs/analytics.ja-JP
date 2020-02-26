@@ -3,7 +3,7 @@ description: 既存のレポートスイートから設定をコピーした場�
 title: ソースレポートスイートからコピーされない設定
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分類データ（分類構造はコピーされます） </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html"> 分類インポーター（アップロード）</a>を参照 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/reference/c_working_with_saint.html"> 分類インポーター（アップロード）ドキュメント</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>トランザクション ID の記録の有効化 </p> </td> 
@@ -68,7 +68,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ClickMap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> Activity Map の有効化</a>を参照 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/activitymap/activitymap-enable.html"> Activity Map の有効化</a>を参照 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA ルール </p> </td> 
