@@ -3,7 +3,7 @@ description: 個々のレポートスイートの設定ツールを使用して�
 title: 個々のレポートスイートの設定
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
