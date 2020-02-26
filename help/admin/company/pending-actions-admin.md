@@ -3,7 +3,7 @@ description: 保留中のアクションの管理ページでは、Analytics 環
 title: 保留中のアクション
 topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
