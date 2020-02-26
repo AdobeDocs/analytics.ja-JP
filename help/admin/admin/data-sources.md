@@ -3,7 +3,7 @@ description: データソース機能を使用すると、オフラインソー�
 title: データソース
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,4 +21,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 データソースがレポートスイートで有効になると、FTP ロケーションが提供され、レポーティングに統合するファイルをアップロードできるようになります。ファイルをアップロードすると、アドビのサーバーはデータを自動的に処理し、レポートスイートに統合します。
 
-詳しくは、[データソースヘルプ](https://marketing.adobe.com/resources/help/en_US/sc/datasources/) を参照してください。
+詳しくは、[データソースヘルプ](https://marketing.adobe.com/resources/help/ja_JP/sc/datasources/) を参照してください。
