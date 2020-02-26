@@ -4,7 +4,7 @@ subtopic: Classifications
 title: コンバージョンの分類
 topic: Admin tools
 uuid: b088ea4b-8ab7-4ccf-96c6-8567d91fb8cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,5 +23,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 要素 | 説明 |
 |---|---|
 | [!UICONTROL 名前] | 分類の名前。 |
-| [!UICONTROL オプション（テキストのみ）] | その分類に使用できる分類値のリストを作成します。[!UICONTROL オプション]は campaign 変数で使用され、[!UICONTROL キャンペーンマネージャー]の分類でサポートされている値のリストをユーザーに提供します。 |
+| [!UICONTROL オプション（テキストのみ）] | その分類に使用できる分類値のリストを作成します。[!UICONTROL オプション]はキャンペーン変数で使用され、[!UICONTROL キャンペーンマネージャー]の分類でサポートされている値のリストをユーザーに提供します。 |
 
