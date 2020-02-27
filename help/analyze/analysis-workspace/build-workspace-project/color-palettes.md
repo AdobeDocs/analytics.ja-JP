@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## カラーパレットの変更：
 
-1. **[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;に移動します。
+1. **[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;へナビゲートします。
 1. 「**[!UICONTROL プロジェクトカラーパレット]**」ドロップダウンで、5 色のプリセットカラー設定の中から 1 つを選ぶことができます。
 
    ![](assets/custom_palette.png)
