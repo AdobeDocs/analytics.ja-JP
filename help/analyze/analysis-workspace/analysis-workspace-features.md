@@ -1,9 +1,9 @@
 ---
 keywords: Analysis Workspace
-title: Analysis Workspace の概要
+title: Analysis Workspace概要
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -123,7 +123,7 @@ Analysis Workspace の[リッチテキスト編集](/help/analyze/analysis-works
 
 Analysis Workspace でプロジェクトおよびコンポーネントにタグを適用できます。
 
-* 情報パネルでプロジェクトレベルのタグを適用または作成します。（![](assets/information_icon.png)
+* 情報パネルでプロジェクトレベルのタグを適用または作成します ![](assets/information_icon.png)。
 
 * コンポーネントを右クリックして、コンポーネントパネルからタグ付け（またはタグを作成）します。
 * 検索フィールドで # を使用して、タグを検索します。
@@ -187,4 +187,4 @@ Analysis Workspace に特有のデフォルトのセグメントです。*`All V
 
 標準指標を使用するのと同じ方法で計算を使用します。
 
-[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)を参照してください。
+[計算指標](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/)を参照してください。
