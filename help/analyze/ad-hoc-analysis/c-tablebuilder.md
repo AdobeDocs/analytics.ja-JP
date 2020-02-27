@@ -2,7 +2,7 @@
 description: 表ビルダーを使用すると、指標、ディメンション、セグメントなどを柔軟に指定したレポートを作成できます。例えば、表ビルダーに複数の指標を追加してから、それらすべての指標に対して、セグメントを一度に適用することができます。ツールパネルから項目を行および分類として適用したり、列として適用したりできます。また、別のビュー用に表を簡単にピボットすることができます。表の作成後、結果として表示されたデータテーブルを直接操作して、分析することができます。表ビルダーからデータテーブルを作成する場合、クエリが実行され、新しいデータテーブルが作成されることに注意してください。
 title: 表ビルダー
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -41,8 +41,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p><img placement="inline"  src="assets/Settings_Illustrative.png" id="image_C46860621CF94E88AF592B8660F28E57"> </img> </p> <p>項目を追加する順序に基づいてラインアイテムやその分類項目のデフォルト表示数を指定できます。ページごとに表示する合計の行数や、そのうち分類表示する行数を指定できます。 </p> <p><span class="wintitle">表ビルダー</span>での設定が、この「<span class="wintitle">分類プロパティ</span>」のデフォルト設定よりも優先されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> アイテムを選択</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>ディメンション項目のリストを選択して、分類の固定リストを作成します。このリストに項目を追加すると、その項目は保存されたレポート内で常に表示される項目となります。これらの項目は、保存されたレポートや予定レポートを開いたときに、折りたたまれた状態になりません。 </p> <p>詳しくは、 <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > 表データの分類</a>. </p> </td> 
+   <td colname="col1"> <span class="wintitle">項目を編集</span> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>ディメンション項目のリストを選択して、分類の固定リストを作成します。このリストに項目を追加すると、その項目は保存されたレポート内で常に表示される項目となります。これらの項目は、保存されたレポートや予定レポートを開いたときに、折りたたまれた状態になりません。 </p> <p>詳しくは、<a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  >表データの分類</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 列</span> </td> 
@@ -73,10 +73,10 @@ t_table_builder.xml
 
  -->
 
-1. To access the [!UICONTROL Table Builder], run a supported report, then click **[!UICONTROL Table Builder]**.
+1. [!UICONTROL 表ビルダー]にアクセスするには、サポートされているレポートを実行し、「**[!UICONTROL 表ビルダー]**」をクリックします。
 1. ツールパネルから[!UICONTROL 表ビルダー]に項目（ディメンション、指標、セグメント）をドラッグします。
 1. 各項目を行、分類および列として設定します。
-1. Click **[!UICONTROL Replace Table]** to generate the report.
+1. 「**[!UICONTROL 表を置換]**」をクリックしてレポートを生成します。
 
-   「**[!UICONTROL 表を置換]」をクリックすると、新しいクエリが実行され、新しいデータテーブルが作成されます。**&#x200B;詳細テーブルへの手動による編集は表ビルダーに反映されません。
+   「**[!UICONTROL 表を置換]**」をクリックすると、新しいクエリが実行され、新しいデータテーブルが作成されます。詳細テーブルへの手動による編集は表ビルダーに反映されません。
 
