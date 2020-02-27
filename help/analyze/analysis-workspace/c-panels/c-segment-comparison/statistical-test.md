@@ -4,7 +4,7 @@ keywords: Analysis Workspace;Segment IQ
 title: セグメント比較で使用される統計テスト
 topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
