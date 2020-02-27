@@ -2,7 +2,7 @@
 description: グローバルな動作設定を行います。例えば、自動保存の設定、グラフと表の設定、フォントとロケールの指定などを行うことができます。
 title: 設定
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,9 +16,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 グローバルな動作設定を行います。例えば、自動保存の設定、グラフと表の設定、フォントとロケールの指定などを行うことができます。
 
-Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Settings]** to access [!UICONTROL Global Settings].
+**[!UICONTROL ツール]**／**[!UICONTROL 設定]**&#x200B;をクリックして、設定画面を表示します。
 
-## 「一般的な設定」タブの定義{#reference_EADAF83466994F89BCC6B0F49A9A53DB}
+## 「一般的な設定」タブの定義 {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
 データソース、プロジェクト保存、グラフ、表に関する動作設定を行います。
 
@@ -38,7 +38,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> データ設定 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">繰り返しインスタンスをカウント</span>：インスタンスがレポート内でカウントされるかどうかを指定します。つまり、同じ変数に対して複数の連続する値が存在する場合、それらの値を変数の 1 つのインスタンスか複数のインスタンスのどちらかとしてカウントできます。 </p> <p>例えば、ページリロードの繰り返し（1 回の訪問で Web サイト上のページがリロードまたは更新される回数）を確認できます。このオプションでは、同じページでの複数のヒットを 1 回としてカウントするか、複数のページ表示回数としてカウントするかを指定できます。 </p> <p> <span class="uicontrol"><span class="keyword">Ad Hoc</span></span>：<span class="keyword">ad hoc</span> をレポートの唯一のデータソースとして指定します。このデータは、Web ページによって生成されたイメージ要求が基になります。 </p> <p> <span class="uicontrol"><span class="keyword">データソース</span></span>：他のアドビのソースまたはカスタムのデータソースからアップロードされたデータを使用するかどうかを指定します。このデータは、<span class="keyword">Experience Cloud</span> の製品で使用可能になります。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html"  >Data Sources</a> を参照してください。 </p> <p> <span class="uicontrol">両方</span>：（デフォルト）<span class="keyword">ad hoc analysis</span> および他のデータソースからのデータを使用します。 </p> <p>注意：これらのオプションを変更すると、<span class="keyword">ad hoc analysis</span> と <span class="keyword">Reports and Analytics</span> の間でレポートの相違が起こる可能性があります。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol">繰り返しインスタンスをカウント</span>：インスタンスがレポート内でカウントされるかどうかを指定します。つまり、同じ変数に対して複数の連続する値が存在する場合、それらの値を変数の 1 つのインスタンスか複数のインスタンスのどちらかとしてカウントできます。 </p> <p>例えば、ページリロードの繰り返し（1 回の訪問で Web サイト上のページがリロードまたは更新される回数）を確認できます。このオプションでは、同じページでの複数のヒットを 1 回としてカウントするか、複数のページ表示回数としてカウントするかを指定できます。 </p> <p> <span class="uicontrol"><span class="keyword">Ad Hoc</span></span>：<span class="keyword">Ad hoc</span> をレポートの唯一のデータソースとして指定します。このデータは、Web ページによって生成されたイメージ要求が基になります。 </p> <p> <span class="uicontrol"><span class="keyword">データソース</span></span>：他のアドビのソースまたはカスタムのデータソースからアップロードされたデータを使用するかどうかを指定します。このデータは、<span class="keyword">Experience Cloud</span> の製品で使用可能になります。詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/sc/datasources/index.html"  >Data Sources</a> を参照してください。 </p> <p> <span class="uicontrol">両方</span>：（デフォルト）<span class="keyword">ad hoc analysis</span> および他のデータソースからのデータを使用します。 </p> <p>注意：これらのオプションを変更すると、<span class="keyword">ad hoc analysis</span> と <span class="keyword">Reports and Analytics</span> の間でレポートの相違が起こる可能性があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 自動保存設定 </p> </td> 
@@ -55,7 +55,7 @@ r_dsc_general_settings.xml
  </tbody> 
 </table>
 
-## 「ランク」タブの定義{#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF}
+## 「ランク」タブの定義 {#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF}
 
 列でのデータの表示方法や、トラフィックレポートとコンバージョンレポートのデフォルトの指標を設定します。
 
@@ -70,7 +70,7 @@ r_dsc_ranked_tab.xml
 | コラム設定 | 表でのセルデータやグラフでの棒グラフの表示方法を設定します。 |
 | デフォルト指標を選択 | すべてのレポートで使用できる指標のほかに、トラフィックレポートおよびコンバージョンレポートで使用するデフォルト指標を選択します。レポート固有のデフォルトを含める：表示のカスタマイズ時にデフォルト指標を含めるかどうかを指定します。 |
 
-## 「サイト分析」タブの定義{#reference_9DD37C8EF718409E990E149596282FF8}
+## 「サイト分析」タブの定義 {#reference_9DD37C8EF718409E990E149596282FF8}
 
 サイト分析レポートの指標やその他のグラフ設定を行います。
 
@@ -82,10 +82,10 @@ r_dsc_site_analysis_tab.xml
 
 | フィールド | 定義 |
 |--- |--- |
-| 指標 | シリンダーの幅およびシリンダーの高さで表す指標を選択します。色で表示する指標を指定し、その指標で低い値および高い値を示す色を指定します。X軸とY軸の指標を設定し、レポートのポップアップテキストに表示する他の指標を追加できます。 また、選択した指標の表示を逆にすることもできます。 |
+| 指標 | シリンダーの幅およびシリンダーの高さで表す指標を選択します。色で表示する指標を指定し、その指標で低い値および高い値を示す色を指定します。X 軸と Y 軸の指標を指定したり、レポートのポップアップテキストに表示させるその他の指標を追加したりできます。また、選択した指標の表示を逆にすることもできます。 |
 | 一般およびアラート | レポートの一部のグラフ要素を有効または無効にします。シリンダーで表されたページに関連する指標が特定の値を超えると、レポートにアラートが表示されるように設定できます。 |
 
-## 「フォントとロケール」タブの定義{#reference_5F2129B67CC44E5BA9EA7E30A35BFB49}
+## 「フォントとロケール」タブの定義 {#reference_5F2129B67CC44E5BA9EA7E30A35BFB49}
 
 言語の地域設定とデフォルトフォントを指定します。フォントとロケールの変更を有効にするには、再起動する必要があります。
 
