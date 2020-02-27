@@ -4,7 +4,7 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: データソースの管理
 topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,10 +38,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 概要のビジュアライゼーションを作成し、作成元となったテーブルのセルにそれをロックすることができます。「データソースを表示」をオンにすると、その情報がテーブルのどこから取得されたかが正確に表示されます。ソースデータの表示が灰色になります。
 
-   ![](assets/data-source2.png)&gt;
+   ![](assets/data-source2.png)>
 * 次に示すように、同一のテーブルに含まれた異なるセルをソースにして、多数のビジュアライゼーションを追加できます。テーブルは上の例と同じですが、ソースとなるセル（および指標）は異なります。
 
-   ![](assets/data-source3.png)&gt;
+   ![](assets/data-source3.png)>
 * フリーフォームテーブルまたはコホートテーブルに接続されたビジュアライゼーションがあるかどうかを、左上の点（データソース設定）をクリックすることで確認できます。カーソルを合わせるとリンク済みのビジュアライゼーションが強調表示され、クリックで移動できます。
 
-   ![](assets/linked-visualizations.png)&gt;
+   ![](assets/linked-visualizations.png)>
