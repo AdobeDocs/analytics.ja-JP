@@ -39,7 +39,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 指標グループのサイズ | 各グループのサイズを設定できます。例えば、グループサイズを 1 ページビューから 2 ページビューに変更できます。 |
 | カウント方法 | [訪問者](https://marketing.adobe.com/resources/help/ja_JP/reference/visitors.html)、[訪問](https://marketing.adobe.com/resources/help/ja_JP/reference/metrics_visit.html)または[ヒット](https://marketing.adobe.com/resources/help/ja_JP/reference/hit.html)から選択できます。例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルの y 軸指標として、「回数」が使用されます。 |
 
-**例：**
+**例**：
 
 * 開始グループ：1、指標グループ：5、指標グループのサイズ：2 は、1～2、3～4、5～6、7～8、9～10 というヒストグラムになります。
 * 開始グループ：0、指標グループ：3、指標グループのサイズ：5 は、0～4、5～9、10～14 というヒストグラムになります。
