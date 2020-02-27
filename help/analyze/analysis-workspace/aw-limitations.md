@@ -1,7 +1,7 @@
 ---
-description: Adobe Analysis Workspaceとその関連コンポーネントの既知の制限のリスト
+description: Adobe Analysis Workspace とその関連コンポーネントに関する既知の制限のリスト
 title: Analysis Workspace の既知の制限
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
