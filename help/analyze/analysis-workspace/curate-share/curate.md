@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: キュレーション／共有の概要
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **ビデオの概要**
 
->[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+>[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
 **[!UICONTROL Workspace]**／**[!UICONTROL 共有]**／**[!UICONTROL プロジェクトデータをキュレート]**
 
@@ -24,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. プロジェクトを作成およびキュレーションするための権限を指定します。
 
-   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に **[!UICONTROL Analysis Workspace のアクセス]**&#x200B;権限を有効にした[グループ](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)か、**[!UICONTROL 全レポートアクセス]**&#x200B;ユーザーグループに追加してもらう必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**）。
+   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に [Analysis Workspace のアクセス](https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html)権限を有効にした&#x200B;**[!UICONTROL グループ]**&#x200B;か、**[!UICONTROL 全レポートアクセス]**&#x200B;ユーザーグループに追加してもらう必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**。）
 
 1. [プロジェクトを作成および保存](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)して、**[!UICONTROL 共有]**／**[!UICONTROL プロジェクトデータをキュレート]**&#x200B;をクリックします。
 1. 共有したいコンポーネントを、左側にあるドラッグ可能なコンポーネントスタックから「**[!UICONTROL キュレートされたコンポーネント]**」フィールドにドラッグします。
