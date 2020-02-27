@@ -2,7 +2,7 @@
 title: セグメント比較パネルの概要
 description: Analysis Workspace の Segment IQ の一部である、セグメント比較パネルの使用方法を説明します。
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
