@@ -19,6 +19,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 表示密度を設定するには、以下のようにします。
 
-1. Workspace で、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;に移動します。
+1. Workspaceで、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;に移動します。
 
 1. 上記の 3 つのオプションのいずれかを選択して、「**[!UICONTROL 保存]**」をクリックします。
