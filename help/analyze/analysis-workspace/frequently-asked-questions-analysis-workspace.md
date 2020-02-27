@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 管理要件
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ Analysis Workspace の必要システム構成です。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 製品     SKU </td> 
+   <td colname="col1"> 製品        SKU </td> 
    <td colname="col2"> <p> <span class="keyword">Adobe Analytics Standard</span> または <span class="keyword">Adobe Analytics</span> Premium が必要です。スタンドアロン製品としての Reports &amp; Analytics のアクセス権のみを持っている場合は、アカウントチームに問い合わせて、<span class="keyword">Adobe Analytics</span> ソリューションを購入してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -34,7 +34,7 @@ Analysis Workspace の必要システム構成です。
   </tr> 
   <tr> 
    <td colname="col1"> ユーザー </td> 
-   <td colname="col2"> <p>Analytics の「ワークスペース」タブへのアクセスを有効にするには、管理者は、<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >グループ</a>で、<span class="uicontrol">Analysis Workspace アクセス</span>グループにユーザーを追加する必要があります。 </p> </td> 
+   <td colname="col2"> <p>Analytics の「Workspace」タブへのアクセスを有効にするには、管理者は、<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html"  >グループ</a>で、<span class="uicontrol">Analysis Workspace アクセス</span>グループにユーザーを追加する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> プロジェクトの転送 </td> 
