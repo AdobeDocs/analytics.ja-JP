@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 「元に戻す」および「やり直し」の設定
 
-**[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／「**[!UICONTROL 元に戻す」または「やり直し]**」
+**[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL 元に戻す／やり直し]**
 
 * 「**[!UICONTROL やり直し]**」オプション（元に戻した操作をやり直す）は&#x200B;**[!UICONTROL 編集]**&#x200B;メニューにあります。
 
