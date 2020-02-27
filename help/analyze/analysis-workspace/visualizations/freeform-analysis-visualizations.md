@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: ビジュアライゼーションの概要
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 
-[Analysis Workspace でのビジュアライゼーションタイプ（YouTube）](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（2:57）
+[Analysis Workspace でのビジュアライゼーションタイプ（YouTube）](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（2:57）
 
 ## ビジュアライゼーションパネル {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -64,7 +64,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
   </tr> 
   <tr> 
    <td colname="col1"> <p>正規化 </p> </td> 
-   <td colname="col2"> <p>指標を均等な比率にします。<a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  >正規化</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>指標を均等な比率にします。<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/normalization.html"  >正規化</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>二重軸を表示 </p> </td> 
@@ -77,7 +77,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
  </tbody> 
 </table>
 
-## ビジュアルを作成アイコン{#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## ビジュアルを作成アイコン {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
 どのビジュアライゼーションが選択されているかわからない場合は、テーブルの行にある&#x200B;**[!UICONTROL ビジュアルを作成]**&#x200B;アイコンをクリックします。このアイコンは、テーブルの行の上にマウスポインターを置くと表示されます。クリックすると、データに最適なビジュアライゼーションを Analysis Workspace が学習に基づいて推測することの確認が表示されます。例えば、最大 3 セグメントを選択した場合、ベン図が作成されます。3 セグメントを超える場合、棒グラフが作成されます。他のタイプのデータの場合、折れ線グラフなどが作成されます。
 
@@ -103,7 +103,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 | ビジュアライゼーションリンクを取得 | 他のユーザーをこのビジュアライゼーションに直接移動させるこのリンクをコピーして共有できます。ユーザーはログインする必要があります。 |
 | やり直し | （フロー、ベン、ヒストグラムで動作）現在のビジュアライゼーションの設定を削除して、新しいパネルを開き、ビジュアライゼーションを再設定できます。 |
 
-## 凡例ラベルの編集{#section_94F1988CB4B9434BA1D9C6034062C3DE}
+## 凡例ラベルの編集 {#section_94F1988CB4B9434BA1D9C6034062C3DE}
 
 使いやすくするために、ビジュアライゼーション凡例の系列名を変更できます（フォールアウト、面グラフ、積み重ね面グラフ、棒グラフ、積み重ね棒グラフ、ドーナツ、ヒストグラム、横棒グラフ、積み重ね横棒グラフ、折れ線グラフ、散布図、ベン図）。
 
@@ -119,4 +119,4 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 1. 新しいラベルテキストを入力します。
 1. **[!UICONTROL Enter]** キーを押して保存します。
 
-このトピックに関する[ビデオへのリンクはこちら](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)です。
+このトピックに関する[ビデオへのリンクはこちら](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)です。
