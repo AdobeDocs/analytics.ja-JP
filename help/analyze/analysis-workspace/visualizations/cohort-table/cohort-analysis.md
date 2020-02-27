@@ -3,7 +3,7 @@ keywords: Analysis Workspace
 title: コホート分析とは
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 コホート分析は、Analysis Workspace へのアクセス権を持つすべての Analytics ユーザーが利用できます。
 
-[コホート分析（YouTube）](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（4:36）
+[コホート分析（YouTube）](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（4:36）
 
 >[!IMPORTANT]
 >
