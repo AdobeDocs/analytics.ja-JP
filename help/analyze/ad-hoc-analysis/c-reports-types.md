@@ -3,7 +3,7 @@ description: Experience Cloud で使用されるレポートタイプについ�
 title: レポートタイプ
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -54,13 +54,13 @@ t_trend_row.xml
 **セルからトレンドを表示するには**
 
 1. ランクレポートを開きます。
-1. In the table, locate the cell and click **[!UICONTROL Trend]**.
+1. 表内で、セルを指定して「**[!UICONTROL トレンド]**」をクリックします。
 
    ![](assets/TrendInspector_Buttcon.png)
 
-1. To view a full report from the cell, click **[!UICONTROL Launch Trend Report]**.
+1. セルから完全なレポートを表示するには、「**[!UICONTROL トレンドレポートの開始]**」をクリックします。
 
-   Alternatively, right-click the cell, then click **[!UICONTROL Trend Cell]**. 複数のセルを選択してからこのタスクを実行することもできます。
+   または、セルを右クリックして「**[!UICONTROL セルのトレンド表示]**」をクリックします。複数のセルを選択してからこのタスクを実行することもできます。
 
 ## 合計レポート {#concept_48E23FB3BCCD43DFB486A048960800A8}
 
@@ -218,7 +218,7 @@ c_reports_site_analysis.xml
 
 | オプション | 説明 |
 |--- |--- |
-| テンプレートを編集 | ページをシリンダーに追加したり、シリンダーから削除したりできます。 |
+| 編集 | ページをシリンダーに追加したり、シリンダーから削除したりできます。 |
 | 削除 | シリンダーを削除できます。 |
 | レポート | シリンダーから別のレポートを開始できます。 |
 | グラフに名前を付けて保存 | グラフを .png または .jpg として保存できます。保存前にグラフのコントロール（グラフの角度、サイズ）を変更した場合、この変更は出力時に保持されます。 |
