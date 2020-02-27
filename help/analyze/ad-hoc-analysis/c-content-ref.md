@@ -1,9 +1,9 @@
 ---
-description: Ad Hoc Analysisは、Analyticsのセグメント化環境と統合されており、アドビ製品全体で訪問者セグメントを作成、共有、管理および適用できます。 Ad Hoc Analysisは、他のAnalyticsツールで使用されるWebベースのツールと同じ、Javaベースのユーザーインターフェイスをセグメントビルダーおよびセグメントマネージャーに提供し、サーバー呼び出しを照合し、Javaベースのコンソールと同じ機能を提供します。
+description: Ad Hoc Analysis は、Analytics セグメント化環境に統合されており、これによって、アドビ製品間で訪問者セグメントを作成、共有、管理および適用できます。Ad Hoc Analysis は、セグメントビルダーおよびセグメントマネージャーの Java ベースのユーザーインターフェイスです。これは、他の Analytics ツールで使用する Web ベースのツールと同じであり、サーバーコールのマッチングを実行するほか、Java ベースのコンソールと同じ機能を提供します。
 title: セグメントの構築
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,50 +11,50 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # セグメントの構築
 
-Ad Hoc Analysisは、Analyticsのセグメント化環境と統合されており、アドビ製品全体で訪問者セグメントを作成、共有、管理および適用できます。 Ad Hoc Analysisは、他のAnalyticsツールで使用されるWebベースのツールと同じ、Javaベースのユーザーインターフェイスをセグメントビルダーおよびセグメントマネージャーに提供し、サーバー呼び出しを照合し、Javaベースのコンソールと同じ機能を提供します。
+Ad Hoc Analysis は、Analytics セグメント化環境に統合されており、これによって、アドビ製品間で訪問者セグメントを作成、共有、管理および適用できます。Ad Hoc Analysis は、セグメントビルダーおよびセグメントマネージャーの Java ベースのユーザーインターフェイスです。これは、他の Analytics ツールで使用する Web ベースのツールと同じであり、サーバーコールのマッチングを実行するほか、Java ベースのコンソールと同じ機能を提供します。
 
-Ad Hoc Analysis には、従来のようなセグメント作成機能のほかに、セグメントの管理[ワークフロー](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html)の設定に使用する[セグメントマネージャー](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html)などの新機能が加わっています。As always, you can build and save segments in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html) or [generate segments from a Fallout report](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_fallout.html) from the ad hoc analysis console, and then save the new or extended segments to the audience library for general access and application. ![](assets/seg__overview_ad_hoc.png)
+Ad Hoc Analysis には、従来のようなセグメント作成機能のほかに、セグメントの管理[ワークフロー](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_workflow.html)の設定に使用する[セグメントマネージャー](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_manage.html)などの新機能が加わっています。[セグメントビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_build.html)で普段どおりにセグメントの作成と保存が可能であるだけでなく、Ad Hoc Analysis コンソールでは[フォールアウトレポートからセグメントを生成](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/t_seg_fallout.html)し、一般アクセスおよびアプリケーション用のオーディエンスライブラリに新しいセグメントや拡張したセグメントを保存することができます。![](assets/seg__overview_ad_hoc.png)
 
 ## Ad Hoc Analysis の統合セグメント化機能 {#section_5FA03A06DE054448AD519CE30C39E294}
 
-統合セグメント化環境でのセグメントの作成および管理に関する詳細については、[統合セグメント化](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html)に関するドキュメントを参照してください。
+統合セグメント化環境でのセグメントの作成および管理に関する詳細については、[統合セグメント化](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/index.html)に関するドキュメントを参照してください。
 
 * [新機能](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
-* [セグメントの定義の変更](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [既存のセグメントへの影響 ](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [セグメントの定義の変更](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_definition.html)
+* [既存のセグメントへの影響](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
 * [既存のセグメントフォルダーへの影響](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
 * [セグメントマネージャーでは Analytics のセグメントをすべて管理できるのですか？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
 * [ヒットコンテナとは何ですか？ページビューコンテナとは違うものですか？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
 * [セグメントの使用、作成および管理に必要な権限と許可](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [次の項目を含む重複したセグメントの処理方法](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [同じ名前でありながら定義が異なるセグメントがある場合には、どうしたら良いでしょうか？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
 * [Adobe が推奨するセグメントのクリーンアップ方法](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
 * [このセグメントを削除できないのはなぜですか？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
 * [その他、既存のセグメントに発生する事項](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## 機能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* [セグメント](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_overview.html)が、レポートスイート全体で共通になりました。セグメントはこれまで、各レポートスイートに固有のものでした。
-* [セグメントマネージャ](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html)を設定できます。
+* [セグメント](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_overview.html)が、レポートスイート全体で共通になりました。セグメントはこれまで、各レポートスイートに固有のものでした。
+* [セグメントマネージャ](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_manage.html)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_workflow.html)を設定できます。
 
-* [セグメントビルダー](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html)が更新され、セグメントの作成が簡素化しました。
-* フォルダーを使用する代わりに[セグメントにタグを設定](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html)して、セグメントを整理したり検索したりできます。これまでは、（[!DNL ad hoc analysis] の）フォルダーを使用してセグメントを整理していました。
+* [セグメントビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_build_ui.html)が更新され、セグメントの作成が簡素化しました。
+* フォルダーを使用する代わりに[セグメントにタグを設定](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_tag.html)して、セグメントを整理したり検索したりできます。これまでは、（[!DNL ad hoc analysis] の）フォルダーを使用してセグメントを整理していました。
 
-* Ad Hoc Analysis 以外でも[連続セグメント](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html)を作成できます。
+* Ad Hoc Analysis 以外でも[連続セグメント](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_sequential.html)を作成できます。
 * 
 
 >[!NOTE]
 >
->Ad Hoc Analysisでは、セグメントに日付範囲を追加できません。 この機能は、Analysis Workspace で使用できます。また、Ad Hoc Analysis で「シーケンスの前のみ」／「シーケンスの後のみ」も使用できません。
+>Ad Hoc Analysis では、日付範囲をセグメントに追加できません。この機能は、Analysis Workspace で使用できます。また、Ad Hoc Analysis で「シーケンスの前のみ」／「シーケンスの後のみ」も使用できません。
 
 ## 既存のセグメントへの影響 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 既存のセグメントは、引き続き、Analytics セグメントの導入前と同じように動作します。既存のセグメントが適用されたレポートも、これまでと同様に適切に機能します。
 
-従来の定義済みセグメントおよびスイートセグメントは、ほとんどが[セグメントテンプレート](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html)としてセグメントビルダーに移行します。セグメントテンプレートを使用すると、共通のオーディエンスのカスタムセグメントをすばやく作成できます。セグメントテンプレートは、レポートに直接適用できませんが、カスタムセグメントには容易に保存できます。
+従来の定義済みセグメントおよびスイートセグメントは、ほとんどが[セグメントテンプレート](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_templates.html)としてセグメントビルダーに移行します。セグメントテンプレートを使用すると、共通のオーディエンスのカスタムセグメントをすばやく作成できます。セグメントテンプレートは、レポートに直接適用できませんが、カスタムセグメントには容易に保存できます。
 
 ## 既存のセグメントフォルダーへの影響 {#section_FB04DCF775694E69B761DCA53F301C30}
 
-セグメントマネージャーでは、（Ad Hoc Analysis）フォルダーの代わりに、[タグ](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html)を使用します。フォルダー名はタグに自動的に変換され、個々のセグメントに適用されています。
+セグメントマネージャーでは、（Ad Hoc Analysis）フォルダーの代わりに、[タグ](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_tag.html)を使用します。フォルダー名はタグに自動的に変換され、個々のセグメントに適用されています。
 
 ## セグメントマネージャーでは Analytics のセグメントをすべて管理できるのですか？{#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
@@ -70,7 +70,7 @@ Ad Hoc Analysis のセグメントマネージャーでは、自身の所有と�
 
 どのユーザーも個人用セグメントを作成したり、編集したりできます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
-管理者であれば、あらゆるセグメントを編集できるほか、グループと[セグメントを共有](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_share.html)したり、組織のセグメントにアクセスするための[権利を設定](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html)したりできます。
+管理者であれば、あらゆるセグメントを編集できるほか、グループと[セグメントを共有](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/t_seg_share.html)したり、組織のセグメントにアクセスするための[権利を設定](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_rights.html)したりできます。
 
 ## 同じ名前でありながら定義が異なるセグメントがある場合には、どうしたら良いでしょうか？ {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -79,7 +79,7 @@ Ad Hoc Analysis のセグメントマネージャーでは、自身の所有と�
 * 同じ名前でありながら定義が異なるセグメントの名前を変更します。
 * 不要なセグメントを削除します。
 
-## セグメントのクリーンアップ方法として Adobe が推奨するものはありますか？ {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## Adobe が推奨するセグメントのクリーンアップ方法 {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * すべてのセグメントに「移行前」などのタグを付けます。
 * 自分が所有しているセグメントを確認します。
@@ -89,7 +89,7 @@ Ad Hoc Analysis のセグメントマネージャーでは、自身の所有と�
 
 ## このセグメントを削除できないのはなぜですか？{#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
-セグメントが [Experience Cloud に公開されている](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)場合には、そのセグメントを削除したり、編集したりすることはできません。ただし、コピーしたうえでそのコピーしたものを編集することは可能です。
+セグメントが [Experience Cloud に公開されている](https://marketing.adobe.com/resources/help/ja_JP/mcloud/t_publish_audience_segment.html)場合には、そのセグメントを削除したり、編集したりすることはできません。ただし、コピーしたうえでそのコピーしたものを編集することは可能です。
 
 ## その他、既存のセグメントに発生する事項 {#section_83ACAB256F394DCD8B424D8920BDD853}
 
@@ -112,9 +112,9 @@ Ad Hoc Analysis のセグメントマネージャーでは、自身の所有と�
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">モバイルデバイスからの訪問 </li> 
      <li id="li_4A715F49AA374463B501D731261A3A4C">自然検索からの訪問 </li> 
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">有料検索からの訪問 </li> 
-     <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">訪問者 ID cookie の訪問 </li> 
+     <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">訪問者 ID Cookie の訪問 </li> 
     </ul> </td> 
-   <td colname="col2"> <p>ここに挙げたセグメントはいずれも、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >セグメントテンプレート</a>としてセグメントビルダーに移行します。 </p> <p>既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。 </p> </td> 
+   <td colname="col2"> <p>ここに挙げたセグメントはいずれも、<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_templates.html"  >セグメントテンプレート</a>としてセグメントビルダーに移行します。 </p> <p>既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud（スイート）セグメント 
@@ -127,7 +127,7 @@ Ad Hoc Analysis のセグメントマネージャーでは、自身の所有と�
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">以前に 5 回以上の訪問履歴がある訪問* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Facebook からの訪問件数* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> ここに挙げた（アスタリスク * が付いたものを除く）セグメントのほとんどは、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >セグメントテンプレート</a>としてセグメントビルダーに移行します。このほかに、新しいセグメントテンプレートがいくつか追加されています。 </p> <p>既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。 </p> </td> 
+   <td colname="col2"> <p> ここに挙げた（アスタリスク * が付いたものを除く）セグメントのほとんどは、<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_templates.html"  >セグメントテンプレート</a>としてセグメントビルダーに移行します。このほかに、新しいセグメントテンプレートがいくつか追加されています。 </p> <p>既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">管理セグメント <p>（別名「グローバル」セグメント） </p> </td> 
