@@ -1,16 +1,16 @@
 ---
-description: Ad Hoc Analysisの概要を説明します。
+description: Ad Hoc Analysis の概要を説明します。
 title: はじめに
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Ad Hoc Analysisの概要{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Ad Hoc Analysis の概要 {#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!I重要な]
+>[!I重要]
 >2018 年 8 月 7 日、アドビは Ad Hoc Analysis のサポート終了の意向を表明しました。サポート終了日については確定次第お知らせします。サポート終了の予定や詳細については [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace) を参照してください。
 
 Web サイト上でのアクティビティを迅速かつインタラクティブに分析できます。複数のレポートを同時に表示して、複数のディメンションにセグメントを適用することもできます。データをミクロとマクロの両方の観点から分析し、重要なビジネス指標にどのように影響しているかを確認することも容易です。
@@ -20,34 +20,34 @@ Web サイト上でのアクティビティを迅速かつインタラクティ�
 <table id="table_C9C0444687FC418580F996E1D2ADB61A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 使用開始時のタスク </th> 
+   <th colname="col1" class="entry"> 使用開始までの流れ </th> 
    <th colname="col2" class="entry"> 説明 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Adobe <span class="keyword">Analytics</span> にログインする。 </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com"  >marketing.adobe.com</a> にアクセスして、Adobe Analytics の資格情報を使用してログインします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Ad Hoc Analysis を起動する。 </p> </td> 
-   <td colname="col2"><span class="uicontrol">Adobe Analytics</span>／<span class="uicontrol">ツール</span>／<span class="uicontrol">Ad Hoc Analysis</span> をクリックして、「<span class="uicontrol">Ad Hoc Analysis を起動</span>」ボタンをクリックします。 <p> <p>注意：このページに「<b>Ad Hoc Analysis を起動</b>」ボタンが表示されない場合は、管理者が管理ツールの「Ad Hoc Analysis ライセンスユーザー<i></i>」グループにユーザーを追加していることを確認してください。 </p> </p> </td> 
+   <td colname="col2"><span class="uicontrol">Adobe Analytics</span>／<span class="uicontrol">ツール</span>／<span class="uicontrol">Ad Hoc Analysis</span> をクリックして、「<span class="uicontrol">Ad Hoc Analysis を起動</span>」ボタンをクリックします。 <p> <p>注意：このページに「<b>Ad Hoc Analysis を起動</b>」ボタンが表示されない場合は、管理者が管理ツールの「<i>Ad Hoc Analysis ライセンスユーザー</i>」グループにユーザーを追加していることを確認してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. プロジェクトを作成する。 </p> </td> 
-   <td colname="col2"> <p>スタートアップページで、レポートスイートを選択して「<span class="uicontrol">プロジェクトの作成</span>」をクリックします。 </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p>スタートアップページで、レポートスイートを選択して「<span class="uicontrol">プロジェクトの作成</span>」をクリックします。 </p> <p><a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >プロジェクトと Workspaces</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. レポートを開く。 </p> </td> 
-   <td colname="col2"> <p>Marketing Cloud の標準のレポートメニューを使用して、レポートを検索できます。テンプレートを選択することもできます。 </p> <p>詳しくは、 <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > レポートテンプレート</a>. </p> </td> 
+   <td colname="col2"> <p>Marketing Cloud の標準のレポートメニューを使用して、レポートを検索できます。テンプレートを選択することもできます。 </p> <p>詳しくは、<a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >レポートテンプレート</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. レポートを設定する。 </p> </td> 
    <td colname="col2"> <p>次のようなタスクを実行し、レポートを設定します。 </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> セグメントを作成してデータを詳細に分析する </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 指標、ディメンションおよびセグメントを <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > 表ビルダー</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">日付範囲 <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > の設定</a> </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 指標、ディメンションおよびセグメントを<a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > 表ビルダー</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278"><a href="/help/analyze/ad-hoc-analysis/c-dates.md"   >日付範囲</a>の設定 </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > レポート配信のスケジュール</a>を設定する </li> 
     </ul> <p>このヘルプシステムで検索して、必要なヘルプを参照してください。 </p> </td> 
   </tr> 
@@ -64,7 +64,7 @@ c_sys_reqs.xml
 
  -->
 
-> [!NOTE]2018 年 7 月から、Ad Hoc Analysis では Java 8 以降のみがサポートされます。2018年7月のメンテナンスリリース後にJava 7上でAd Hoc Analysisを実行する場合、アドビはお使いのAd Hoc Analysis実装をサポートしなくなります。
+> [!NOTE]2018 年 7 月から、Ad Hoc Analysis では Java 8 以降のみがサポートされます。お客様が 2018 年 7 月のメンテナンスリリース以降に Java 7 で Ad Hoc Analysis を実行することを選択した場合、アドビはお客様の Ad Hoc Analysis 実装をサポートしません。
 
 * OpenGL 2.0 をサポートするビデオカード
 * cookie：必要
@@ -77,9 +77,9 @@ c_sys_reqs.xml
 
    Java の正しいバージョンがインストールされていない場合は、インストールされます。互換性のないバージョンの Java がインストールされている場合、Ad Hoc Analysis はアップデートをダウンロードし、このアップデートのインストールを指示するプロンプトを表示します。
 
-## Java のアップグレード手順 {#section_E4C0C6492FF24636A0FF71A59331111D}
+## Java のアップグレード手順{#section_E4C0C6492FF24636A0FF71A59331111D}
 
-2018 年 7 月から、Ad Hoc Analysis では Java 8 以降のみがサポートされます。2018年7月のメンテナンスリリース後にJava 7上でAd Hoc Analysisを実行する場合、アドビはお使いのAd Hoc Analysis実装をサポートしなくなります。
+2018 年 7 月から、Ad Hoc Analysis では Java 8 以降のみがサポートされます。お客様が 2018 年 7 月のメンテナンスリリース以降に Java 7 で Ad Hoc Analysis を実行することを選択した場合、アドビはお客様の Ad Hoc Analysis 実装をサポートしません。
 
 アドビの .jar ファイルは安全な 256 ビット暗号化を使用して署名されていますが、この機能は 1.7.0_76 以前の Java バージョンではサポートされていません。この 256 ビット証明書を使用することで、セキュリティが強化されています。
 
@@ -87,9 +87,9 @@ c_sys_reqs.xml
 
 * 自分のマシンにプログラムをインストールすることが許可されている場合
 
-   1. https://www.java.comに移動します。
-   1. Click **[!UICONTROL Free Java Download]**.
-   1. Click **[!UICONTROL Agree and Start Free Download]**.
+   1. https://www.java.com に移動します。
+   1. 「**[!UICONTROL 無料 Java のダウンロード]**」をクリックします。
+   1. 「**[!UICONTROL 同意して無料ダウンロードを開始]**」をクリックします。
    1. お使いのオペレーティングシステム専用の最新の Java バージョンをインストールします。
 
 * 自分のマシンにプログラムをインストールすることが&#x200B;**許可されていない**&#x200B;場合
@@ -116,13 +116,13 @@ t_login_suite.xml
 
  -->
 
-1. In a browser, navigate to [!DNL marketing.adobe.com].
-1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
-1. Click **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Ad Hoc Analysis]**.
+1. ブラウザーで、[!DNL marketing.adobe.com] に移動します。
+1. 会社名、ユーザー名およびパスワードを入力してから、「**[!UICONTROL サインイン]**」をクリックします。
+1. **[!UICONTROL Adobe Analytics]**／**[!UICONTROL ツール]**／**[!UICONTROL Ad Hoc Analysis]** をクリックします。
 
-   このページに「**Ad Hoc Analysis を起動**」ボタンが表示されない場合は、管理者が管理ツールの「Ad Hoc Analysis ライセンスユーザー&#x200B;**」グループにユーザーを追加していることを確認してください。
-1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. ファイルをローカル [!DNL discover.jnlp] に保存します。
+   このページに「**Ad Hoc Analysis を起動**」ボタンが表示されない場合は、管理者が管理ツールの「*Ad Hoc Analysis ライセンスユーザー*」グループにユーザーを追加していることを確認してください。
+1. 「**[!UICONTROL Ad Hoc Analysis を起動]**」をクリックします。
+1. [!DNL discover.jnlp] ファイルをローカルに保存します。
 
    この保存したファイルは、Ad Hoc Analysis を起動する際にいつでも実行できます。
 
@@ -155,7 +155,7 @@ t_project_start.xml
  -->
 
 1. ログインします。
-1. Open a saved project or click **[!UICONTROL Create Project]**.
+1. 保存されているプロジェクトを開くか、「**[!UICONTROL プロジェクトの作成]**」をクリックします。
 1. レポートを検索して選択するか、テンプレートを選択します。
 
 ## 最近保存したワークスペースを開く {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,7 +168,7 @@ t_recent_workspace.xml
 
  -->
 
-1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Recent Workspace]**.
+1. **[!UICONTROL ファイル]**／**[!UICONTROL 最近使ったワークスペース]**&#x200B;をクリックします。
 
    最近使用したワークスペースは 5 つまで開くことができます。セッションを終了すると、最近使用したワークスペースはクリアされます。
 
@@ -182,20 +182,20 @@ t_share_projects.xml
 
  -->
 
-1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. **[!UICONTROL 保存先から]**&#x200B;共有プロジェ&#x200B;****&#x200B;クトを選択します。ドロップダウンリスト。
+1. **[!UICONTROL ファイル]**／**[!UICONTROL 名前を付けて保存]**&#x200B;に移動します。
+1. **[!UICONTROL 次に保存]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL 共有プロジェクト]**&#x200B;を選択します。
 
    ![](assets/shared_projects.png)
 
-1. Click **[!UICONTROL Save]** to save the project.
+1. 「**[!UICONTROL 保存]**」をクリックして、プロジェクトを保存します。
 
-   Shared projects can be opened via **[!UICONTROL File]** &gt; **[!UICONTROL Open]** &gt; **[!UICONTROL Shared Projects]**.
+   共有プロジェクトは、**[!UICONTROL ファイル]**／**[!UICONTROL 開く]**／**[!UICONTROL 共有プロジェクト]**&#x200B;で開くことができます。
 
    >[!NOTE]
    >
-   >1つ以上のプロジェクトを選択して、プロジェクトを共有するのと同じダイアログボックスで、独自の共有プロジェクトを削除できます。
+   >1 つまたは複数のプロジェクトを選択することで、プロジェクトを共有するのと同じダイアログボックスで自分の共有プロジェクトを削除できます。
 
-## Rename a Workspace {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
+## ワークスペース名の変更 {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
 ワークスペース名を変更する手順を説明します。
 
@@ -206,8 +206,8 @@ t_rename_workspace.xml
  -->
 
 1. ワークスペース名を右クリックします。
-1. Choose **[!UICONTROL Rename Workspace]**.
-1. Type a name, then click **[!UICONTROL OK]**.
+1. 「**[!UICONTROL ワークスペース名を変更]**」を選択します。
+1. 名前を入力し、「**[!UICONTROL OK]**」をクリックします。
 
 ## ローカルプロジェクトを開く {#task_1B3EF63A80C74776B24B99D80EAC74AC}
 
@@ -219,8 +219,8 @@ t_open_local_project.xml
 
  -->
 
-1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Open Local Copy]**.
-1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
+1. **[!UICONTROL ファイル]**／**[!UICONTROL ローカルコピーを開く]**&#x200B;をクリックします。
+1. ローカルの [!DNL .dproj] ファイルを指定して、「**[!UICONTROL 開く]**」をクリックします。
 
 ## レポートテンプレート {#concept_370F674C5B4C45368731AA801C5A45F8}
 
@@ -232,7 +232,7 @@ c_templates.xml
 
  -->
 
-You can access templates when creating a project ( **[!UICONTROL File]** &gt; **[!UICONTROL New Project]**), or by adding a workspace or report.
+プロジェクトの作成時（**[!UICONTROL ファイル]**／**[!UICONTROL 新規プロジェクト]**）に、またはワークスペースやレポートを追加する時に、テンプレートにアクセスできます。
 
 | テンプレート | 説明 |
 |--- |--- |
@@ -258,5 +258,5 @@ t_reports_opening.xml
 いくつかの方法で、レポートを開くことができます。
 
 * [!UICONTROL 新しいレポート]ページで、レポートやレポートテンプレートを選択します。
-* メニューから「**[!UICONTROL レポート]」をクリックして、レポートまたはレポートテンプレートを選択します。**
-* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** &gt; **`report name`**.
+* メニューから「**[!UICONTROL レポート]**」をクリックして、レポートまたはレポートテンプレートを選択します。
+* ディメンションからレポートを起動します。ディメンション名を右クリックして、&lt;レポート名> **[!UICONTROL レポートを実行]****`report name`** を選択します。
