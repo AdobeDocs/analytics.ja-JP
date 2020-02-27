@@ -16,7 +16,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
 
 両製品の主要機能と必要システム構成の技術的な比較については、[こちら](https://marketing.adobe.com/resources/help/ja_JP/reference/analytics-product-comparison.html)を参照してください。
 
-## 主な用語の比較 {#section_6109406B83B043A18E46D38F130B1D2E}
+## 主な用語の比較{#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -29,7 +29,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
 | フローテンプレート | フロービジュアライゼーション |
 | フォールアウト | フォールアウトビジュアライゼーション |
 
-## 主なタスクの比較 {#section_F31446F1DFA742D794A30D713E223440}
+## 主なタスクの比較{#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
