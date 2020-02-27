@@ -1,8 +1,8 @@
 ---
-description: ユーザーの管理方法と、データサンプリングについて説明します。
+description: ユーザーを設定し、データサンプリングを行う方法について説明します。
 title: 管理
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ユーザーを設定し、データサンプリングを行う方法について説明します。
 
-For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
+[!DNL Admin Console] については、「[解析リファレンス](https://marketing.adobe.com/resources/help/ja_JP/reference/index.html)」を参照してください。
 
 ## ユーザーライセンス {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -36,15 +36,15 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Edit Groups]**.
+1. [!DNL Experience Cloud] にログインします。
+1. **[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;をクリックします。
+1. 「**[!UICONTROL グループの編集]**」をクリックします。
 
    貴社がユーザーライセンスを購入している場合、「[!UICONTROL グループ名]」列に「[!UICONTROL Ad Hoc Analysis ライセンスユーザー]」グループが表示されます。ユーザーログインに使用できるライセンスの数も表示されます。
 
-1. Click **[!UICONTROL Edit]**.
-1. 「[!UICONTROL ユーザーログインの割り当て]**」で、グループに追加するユーザーを選択して、「[!UICONTROL 追加]」をクリックします。**
-1. Click **[!UICONTROL Save Group]**.
+1. 「**[!UICONTROL 編集]**」をクリックします。
+1. 「[!UICONTROL ユーザーログインの割り当て]」で、グループに追加するユーザーを選択して、「**[!UICONTROL 追加]**」をクリックします。
+1. 「**[!UICONTROL グループの保存]**」をクリックします。
 
    ライセンスシステムには、グループに追加できるユーザーの数に制限はありません。同時にアクセスできるユーザーの数は、購入したユーザーライセンスの数に制限されます。
 
@@ -58,8 +58,8 @@ t_managing_users.xml
 
  -->
 
-1. Adobe Analytics **[!UICONTROL /管理者]** /ユーザー管 **[!UICONTROL 理をク]** リックし、ユーザー管理をク **[!UICONTROL リ]******&#x200B;ックします。
-1. ユーザーを探し、「**[!UICONTROL 終了]」をクリックします。**
+1. **[!UICONTROL Adobe Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL ユーザーを管理]**&#x200B;をクリックします。
+1. ユーザーを探し、「**[!UICONTROL 終了]**」をクリックします。
 
    [!UICONTROL アクティブな Ad Hoc Analysis セッション]ページで、最もアイドル時間の長いユーザーがリストの先頭に表示されます。
 
@@ -83,11 +83,11 @@ t_permissions.xml
 
  -->
 
-1. **[!UICONTROL Experience cloudにログインします]**。
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
-1. Click **[!UICONTROL All Report Access]**.
-1. 「[!UICONTROL 利用可能なユーザー]**」で、ユーザーを選択し、「[!UICONTROL 追加]」をクリックします。**
-1. Click **[!UICONTROL Save Group]**.
+1. **[!UICONTROL Experience Cloud]** にログインします。
+1. **[!UICONTROL Adobe Analytics／管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループの編集]**&#x200B;をクリックします。
+1. 「**[!UICONTROL 全レポートアクセス]**」をクリックします。
+1. 「[!UICONTROL 利用可能なユーザー]」で、ユーザーを選択し、「**[!UICONTROL 追加]**」をクリックします。
+1. 「**[!UICONTROL グループの保存]**」をクリックします。
 
 ## 権限グループの作成 {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -99,8 +99,8 @@ t_permission_groups.xml
 
  -->
 
-1. **[!UICONTROL Experience cloudにログインします]**。
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
+1. **[!UICONTROL Experience Cloud]** にログインします。
+1. **[!UICONTROL Adobe Analytics／管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループの編集]**&#x200B;をクリックします。
 1. 管理者以外のユーザー向けの権限グループを作成し、ユーザーからのアクセスを許可する、Ad Hoc Analysis が有効なレポートスイートを含めます。
 
    ユーザーが使用できるレポートスイートは、新しいプロジェクトを作成するときに[!UICONTROL レポート Cloud] メニューに表示されます。
@@ -117,10 +117,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis では、サーバーとの通信に HTTP を使用します。他の HTTP トラフィックと同じプロキシポリシーが適用されます。
 
-1. で、 [!DNL Windows Control Panel]Java Control panelを起動します 。
-1. On the **[!UICONTROL General]** tab, click **[!UICONTROL Network Settings]**.
-1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
+1. [!DNL Windows Control Panel] で、[!UICONTROL Java コントロールパネル]を起動します。
+1. 「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL ネットワーク設定]**」をクリックします。
+1. 「**[!UICONTROL ブラウザーの設定を使用]**」を選択するか、手動でプロキシ設定を行います。
+1. 「**[!UICONTROL OK]**」をクリックしてから、**[!UICONTROL Java コントロールパネル]**&#x200B;で「[!UICONTROL OK]」をクリックします。
 
 ## データサンプリングの仕組み {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
