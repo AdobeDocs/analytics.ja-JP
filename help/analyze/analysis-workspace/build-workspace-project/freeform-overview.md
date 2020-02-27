@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: プロジェクトの作成 - 概要
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ Analysis Workspace では、新たな方法でデータの比較および詳細�
 
 クエリは、直接レポーティングエンジンに渡されます。分析を作成するために他のレポートを表示することなく、インラインで変更できます。結果は即座に返され、ブラウザーを更新する必要もありません。
 
-## Workspace のプロジェクト一覧ページ {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## Workspace のプロジェクト一覧ページ{#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-最初に **[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** に移動すると、自分が所有するプロジェクトまたはアクセスを許可されたプロジェクトがすべて一覧表示されます。「**[!UICONTROL ランディングページとして設定]**」をクリックすると、このページを Adobe Analytics のランディングページに設定できます（下のスクリーンショットのように、このオプションが表示されない場合、既にランディングページに設定されています）。
+最初に **[!UICONTROL Analytics]**／**[!UICONTROL Workspace]**&#x200B;に移動すると、自分が所有するプロジェクトまたはアクセスを許可されたプロジェクトがすべて一覧表示されます。「**[!UICONTROL ランディングページとして設定]**」をクリックすると、このページを Adobe Analytics のランディングページに設定できます（下のスクリーンショットのように、このオプションが表示されない場合、既にランディングページに設定されています）。
 
 ![](assets/sample-project.png)
 
@@ -32,11 +32,11 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 |---|---|
 | プロジェクト[テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | これらの事前設定されたプロジェクトテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。 |
 | [新規プロジェクトを作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | このリンクをクリックすると、新しいプロジェクトを最初から作成できます。 |
-| プロジェクトの管理 | このリンクをクリックすると、プロジェクトコンポーネントマネージャー（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL プロジェクト]**）に移動します。ここでは、すべてのプロジェクトが一覧表示され、プロジェクトのタグ付け、共有、削除、名前の変更、承認、コピー、CSV への書き出しをおこなえます。 |
+| プロジェクトの管理 | このリンクをクリックすると、プロジェクトコンポーネントマネージャーに移動します（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL プロジェクト]**）。ここでは、すべてのプロジェクトが一覧表示され、プロジェクトのタグ付け、共有、削除、名前の変更、承認、コピー、CSV への書き出しをおこなえます。 |
 | チュートリアルを表示 | [YouTube の Analysis Workspace 関連ビデオ](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)に移動します。 |
 | 名前 | Workspace プロジェクトの名前。 |
 | 作成者 | このプロジェクトを作成したユーザー（ユーザー自身、またはユーザー自身とそのプロジェクトを共有した他のユーザー）。 |
-| タグ | プロジェクトに適用されたタグ。プロジェクトコンポーネントマネージャー、または **[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;で適用されます。 |
+| タグ | プロジェクトに適用されたタグ。プロジェクトコンポーネントマネージャー、または&#x200B;**[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;で適用されます。 |
 | 最終変更日 | プロジェクトが最後に変更された日付。 |
 
 ## プロジェクト情報および設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
@@ -68,7 +68,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 > [!NOTE]アスタリスク（*）が付いているオプションは、**保存済みプロジェクト**&#x200B;でのみ表示されます。
 
-| プロジェクト | テンプレートを編集 | 挿入 | コンポーネント | 共有 | ヘルプ |
+| プロジェクト | 編集 | 挿入 | コンポーネント | 共有 | ヘルプ |
 |---|---|---|---|---|---|
 | 新規 | 元に戻す | 新しいパネル | 新しいセグメント | プロジェクトを共有 | ビデオ |
 | 開く | クリア | 新しいフリーフォームパネル | 新しい指標 | プロジェクトリンクを取得* | ホットキー |
@@ -80,7 +80,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 | PDF をダウンロード* |  |  |  |  |  |
 | プロジェクト情報および設定 |  |  |  |  |  |
 
-## 左側のパネル {#section_271295C26EC840ABB2A8E7EC0498B60E}
+## 左側のパネル{#section_271295C26EC840ABB2A8E7EC0498B60E}
 
 左側のパネルに、パネル、[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)および[コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)（ディメンション、指標、セグメント、データ範囲）に 1 クリックでアクセスできる 3 つのアイコンがあります。
 
