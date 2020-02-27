@@ -2,7 +2,7 @@
 description: グラフや分類の設定、データの抽出など、レポートで実行できる様々なアクションについて説明します。
 title: 既存のレポートの設定
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ c_report_actions.xml
 
  -->
 
-レポート内で、**[!UICONTROL レポートのアクション]** ![ ドロップダウンをクリックします。](assets/tools_icon.png)
+レポート内で、**[!UICONTROL レポートのアクション]** ![](assets/tools_icon.png) ドロップダウンをクリックします。
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
@@ -50,7 +50,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>配信オプション </p> </td> 
-   <td colname="col2"> <p> 「配信オプ <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > ション」を参照してくださ</a>い。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   >配信オプション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 印刷 </p> </td> 
@@ -62,7 +62,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>データソース </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   >「一般的な設定」タブの定義</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>表示 </p> </td> 
@@ -93,7 +93,7 @@ c_chart_options.xml
    <td colname="col1"> <p>グラフの種類 </p> </td> 
    <td colname="col2"> <p> グラフの種類を折れ線グラフ、棒グラフ、積み重ね面グラフ、バブルチャートなどに変更できます。 </p> 
     <ul id="ul_98A8DBBCADA042359C5D096EA0B1104B"> 
-     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>バブル</b>：バブルチャートは、どのランクレポートでも利用できます。バブルチャートでは、5 つのディメンションまでの指標分析ができます。点の直径に指標を一切適用しない場合は、このグラフを散布グラフとして使用できます。バブルチャートは、レポートデータの変化を反映して動的に変化します。を参照してください。 </li> 
+     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>バブル</b>：バブルチャートは、どのランクレポートでも利用できます。バブルチャートでは、5 つのディメンションまでの指標分析ができます。点の直径に指標を一切適用しない場合は、このグラフを散布グラフとして使用できます。バブルチャートは、レポートデータの変化を反映して動的に変化します。です。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>線形回帰の表示 </p> </td> 
-   <td colname="col2"> <p>For<a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  >バブルチャート</a>用です。データの統計的な近似曲線（線形）を表示します。 </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  >バブルチャート</a>用です。データの統計的な近似曲線（線形）を表示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,11 +156,11 @@ t_reports_breakdown_table.xml
 **表データを分類するには**
 
 1. レポートを実行します。
-1. 行項目を右クリックして、**分類**／*item* をクリックします。
+1. 行項目を右クリックして、**[!UICONTROL 分類]**／*項目*&#x200B;をクリックします。
 
    >[!NOTE]
    >
-   >柔軟性を高めるために、表ビルダー [を使用して](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 、分類を含むレポートを設定します。 分類を含む保存されたレポートや予定レポートを開いた場合、「**[!UICONTROL 表を置換]」をクリックして動的なレポートデータの分類を更新する必要があることがあります。**&#x200B;例えば、日付範囲や訪問者のアクティビティに基づいて変化する可能性がある行項目の分類が予定レポートに含まれている場合は、予定レポートを更新する必要があります。
+   >柔軟性を高めるために、[表ビルダー](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)を使用して、分類を含むレポートを設定します。分類を含む保存されたレポートや予定レポートを開いた場合、「**[!UICONTROL 表を置換]**」をクリックして動的なレポートデータの分類を更新する必要があることがあります。例えば、日付範囲や訪問者のアクティビティに基づいて変化する可能性がある行項目の分類が予定レポートに含まれている場合は、予定レポートを更新する必要があります。
 
 >[!MORELIKETHIS]
 >
@@ -180,7 +180,7 @@ t_reports_changing_types.xml
 **表内でレポートタイプを変更するには**
 
 1. ランクレポートを開き、設定します。
-1. 表内のレポート名の列見出しを右クリックし、「**レポートの選択**」をクリックして、レポートに移動します。
+1. 表内のレポート名の列見出しを右クリックし、「**[!UICONTROL レポートを選択]**」をクリックして、レポートに移動します。
 
 ## データをクリップボードにコピーする {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
@@ -190,11 +190,11 @@ t_reports_clipboard.xml
 
  -->
 
-1. Microsoft excelを開きます。
+1. Microsoft Excel を開きます。
 
    Excel を起動するとメモリバッファーがクリアされるので、データをコピーする前に Excel を開くことをお勧めします。
 
-1. At the report level, click **[!UICONTROL Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL Copy Report Data]**.
+1. レポートレベルで、「**[!UICONTROL 設定]**」![](assets/settings_icon.png) をクリックし、「**[!UICONTROL レポートデータのコピー]**」をクリックします。
 1. Excel でセルを選択して、データを貼り付けます。
 
 ## 訪問者 ID の抽出 {#task_7223BE8E0389460282825E61BEDC0574}
@@ -205,16 +205,16 @@ t_reports_extract_ID.xml
 
  -->
 
-Reports &amp; Analyticsでは、ユーザーIDデータを含むフィールドを設定できます。 このオプションを設定した場合に、「[!UICONTROL 訪問者 ID の抽出]」オプションが使用可能になります。このオプションを有効にせず、後になって有効にすることにした場合、以前にさかのぼって過去の訪問者 ID を抽出することはできません。
+Reports &amp; Analytics では、ユーザー ID データを含むようフィールドを設定できます。このオプションを設定した場合に、「[!UICONTROL 訪問者 ID の抽出]」オプションが使用可能になります。このオプションを有効にせず、後になって有効にすることにした場合、以前にさかのぼって過去の訪問者 ID を抽出することはできません。
 
 **訪問者 ID を抽出するには**
 
 1. Data Warehouse セグメントをレポートに追加します。
-1. Right-click the segment and select **[!UICONTROL Extract Visitor IDs]**.
+1. このセグメントを右クリックして「**[!UICONTROL 訪問者 ID の抽出]**」を選択します。
 
    Data Warehouse アプリケーションが起動します。
 1. 「[!UICONTROL Data Warehouse リクエスト]」タブで、フィルター名を入力します。
-1. Click **[!UICONTROL Request this Report]**.
+1. 「**[!UICONTROL このレポートのリクエスト]**」をクリックします。
 
 ## 行のトレンド表示 {#task_83C003EDCA7140C3AE9804629DD7A235}
 
@@ -228,12 +228,12 @@ t_reports_trending_row.xml
 
 **行のトレンドを表示するには**
 
-1. ランクレポートの実行.
-1. 指標のセルにカーソルを重ねて[!UICONTROL トレンド]アイコン ![ をクリックします。](assets/TrendInspector_Buttcon.png)
+1. ランクレポートを実行します。
+1. 指標のセルにカーソルを重ねて[!UICONTROL トレンド]アイコン ![](assets/TrendInspector_Buttcon.png) をクリックします。
 
    複数のセルを選択して、1 つのトレンドレポートに適用させることができます。
 
-1. To launch a report, click **[!UICONTROL Launch Trend Report]**.
+1. レポートを開始するには、「**[!UICONTROL トレンドレポートの開始]**」をクリックします。
 
 ## 列幅の設定 {#task_0FCF395B4A8C40508B38B44586FB5969}
 
@@ -243,9 +243,9 @@ t_column_width.xml
 
  -->
 
-1. In the table, right-click the column header, then click **[!UICONTROL Column Width]**.
+1. 表の列見出しを右クリックし、「**[!UICONTROL 列の幅]**」をクリックします。
 
-   「[!UICONTROL 列を画面に合わせる]」が選択されている場合、このオプションは無効です。1. Specify a width in pixels, then click **[!UICONTROL OK]**.
+   「[!UICONTROL 列を画面に合わせる]」が選択されている場合、このオプションは無効です。1. 幅をピクセル単位で指定し、「**[!UICONTROL OK]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
