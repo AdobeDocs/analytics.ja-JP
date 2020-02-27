@@ -3,7 +3,7 @@ description: レポートの配信スケジュールをカスタマイズでき�
 title: 予定レポートマネージャー
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 レポートの配信スケジュールをカスタマイズできます。特定の時間に配信を中止したり、レポートの送信回数を指定したりできます。スケジュールされたレポートでは、レポートで定義されている日付範囲が使用されます。例えば、最近 90 日間のレポートを作成し、このレポートを毎日実行するように設定した場合、最近 90 日間のレポートを毎日受信することになります。カレンダーで静的に日付範囲を指定してレポートを作成すると、送信されるたびに同じレポートが表示されます。
 
-> [!NOTE] ユーザーアカウントが無効になっている場合、そのユーザーが作成した予定レポートの配信は中止されます。
+> [!NOTE]ユーザーアカウントが無効になった場合、このユーザーによって作成された予定レポートの配信は中止されます。
 
-保存されたレポートや予定レポートで内訳の行項目が確実に保持されるようにするには、表ビルダーの「項目の編集 **[!UICONTROL 」機能を使用して]**[](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) 、分類の固定ディメンションリストを作成します。
+保存されたレポートや予定レポートで分類の行項目が確実に保持されるようにするには、[表ビルダー](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)の「**[!UICONTROL 項目を編集]**」機能を使用して、分類に固定ディメンションリストを作成します。
 
 >[!IMPORTANT]
 >
->Ad Hoc Analysisを使用すると、タイムリーな特定のレポートニーズに合わせて、すばやくレポートを定義し、スケジュールを設定できます。 データ抽出機能を使用し、行、列、指標の評価結果または詳細な分類に関する情報が大量に含まれるデータをすべてエクスポートするような処理には、対応する設計になっていません。
+>Ad Hoc Analysis では、状況に応じてタイミング良く特定のレポートを作成するニーズに対応することを目的として、すばやくレポートを定義してスケジュールを設定できるようになっています。データ抽出機能を使用し、行、列、指標の評価結果または詳細な分類に関する情報が大量に含まれるデータをすべてエクスポートするような処理には、対応する設計になっていません。
 >
 >「レポートの作成が 10 分以内に（Ad Hoc Analysis のタイムアウトまでに）終わらないようなら、レポートが複雑すぎる可能性が高い」という原則が、Ad Hoc Analysis のスケジュールを使用したレポート作成機能の現実的な制約になります。
 >
@@ -41,8 +41,8 @@ t_schedule_delivery.xml
 
  -->
 
-1. Click **[!UICONTROL Tools]**, then click **[!UICONTROL Schedule Manager]**.
-1. 「[!UICONTROL 予定レポートマネージャー]**」で、「[!UICONTROL 新規]」をクリックします。**
+1. 「**[!UICONTROL ツール]**」をクリックして、「**[!UICONTROL 予定レポートマネージャー]**」をクリックします。
+1. 「[!UICONTROL 予定レポートマネージャー]」で、「**[!UICONTROL 新規]**」をクリックします。
 
 ## 配信オプション - 定義 {#reference_CA49AC560258471AAE959BCA243F170C}
 
@@ -85,7 +85,7 @@ r_delivery_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> アドバンス </p> </td> 
-   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> 詳しくは、<a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   >アドバンスフォーマット設定</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイルの保存先 </p> </td> 
