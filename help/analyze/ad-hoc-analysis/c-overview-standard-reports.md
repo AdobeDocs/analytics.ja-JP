@@ -3,7 +3,7 @@ description: 標準レポートには、Web サイトと訪問者のアクティ
 title: レポートの概要
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -41,7 +41,7 @@ Reports and Analytics をご使用のお客様にはなじみのあるレポー�
 
 **トラフィックレポート**
 
-トラフィックレポートでは、訪問者の Web サイトでの行動を詳しく把握できます。
+トラフィックレポートは、訪問者の Web サイトとの関わり方に関する深い洞察を提供します。
 
 * 訪問者の行動について重要な側面を分析する。
 * トラフィックパターンを監視して把握する。
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-これらのレポートは通常カスタマイズされるので、分析ごとに異なります。詳しくは、 ヘルプの「[キャンペーンマネージャー](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html)」を参照してください。[!DNL Admin Console]
+これらのレポートは通常カスタマイズされるので、分析ごとに異なります。詳しくは、 ヘルプの「[キャンペーンマネージャー](https://marketing.adobe.com/resources/help/ja_JP/reference/campaign_manager_admin.html)」を参照してください。[!DNL Admin Console]
 
 ## 統計指標 {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,12 +74,12 @@ c_Statistical_Calculation_ad_hoc.xml
 
 **ランクレポートの統計指標を開くには：**
 
-1. Select **[!UICONTROL Tools]** &gt; **[!UICONTROL Ranked]** from the menu.
+1. メニューで&#x200B;**[!UICONTROL ツール]**／**[!UICONTROL ランク]**&#x200B;を選択します。
 
-1. Select **[!UICONTROL Settings]**.
-1. Select **[!UICONTROL Default Statistics]**.
+1. **[!UICONTROL 設定]**&#x200B;を選択します。
+1. **[!UICONTROL デフォルトの統計]**&#x200B;を選択します。
 
-**[!UICONTROL 統計計算でゼロを無視]**。 このオプションをオンにすると、ゼロが無視され、別の指標を追加しても、既に計算が終わっている代表値が変わらなくなります。この設定は、統計指標すべてに影響します（合計は除く）。
+「**[!UICONTROL 統計的計算でゼロを無視]**」：このオプションをオンにすると、ゼロが無視され、別の指標を追加しても、既に計算が終わっている代表値が変わらなくなります。この設定は、統計指標すべてに影響します（合計は除く）。
 
 | 指標 | 説明 |
 |--- |--- |
@@ -102,7 +102,7 @@ Mean 関数では、Microsoft Excel でデータが列になっている場合�
    <th colname="col1" align="center" class="entry"> 日付 </th> 
    <th colname="col2" align="center" class="entry"> 単一訪問 </th> 
    <th colname="col3" align="center" class="entry"> 入口 </th> 
-   <th colname="col4" align="center" class="entry"> 直帰率 </th> 
+   <th colname="col4" align="center" class="entry"> バウンス率 </th> 
    <th colname="col5" align="center" class="entry"> </th> 
   </tr>
  </thead>
@@ -141,15 +141,15 @@ c_overlay_calculations.xml
 
  -->
 
-ある期間のデータを示したレポートで「**[!UICONTROL 統計]」ボタンを押すと、レポートの時系列にオーバーレイ表示する指標を選択できます。**
+ある期間のデータを示したレポートで「**[!UICONTROL 統計]**」ボタンを押すと、レポートの時系列にオーバーレイ表示する指標を選択できます。
 
 ![](assets/overlay_calculations.png)
 
-In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
+標準的な[統計指標](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585)のほかには、標準偏差、その 2 倍の値および 3 倍の値をオーバーレイ表示するように選択できます。
 
 ## グループマネージャー {#concept_E1433974A61144858E87334C006982B2}
 
-Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. メインメニューから、またはレポート内からグループを編集できます。Reports and Analytics で作成したカテゴリも、「[!UICONTROL チェックポイントの選択]」リストに表示されます。
+単独のページだけでなく、複数のページをグループ化してカテゴリとして使用し、[!UICONTROL フォールアウト]レポートと[!UICONTROL サイト分析]レポートの開始点、中間点、または終了点にすることができます。メインメニューから、またはレポート内からグループを編集できます。Reports and Analytics で作成したカテゴリも、「[!UICONTROL チェックポイントの選択]」リストに表示されます。
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Group Manager]**.
+**[!UICONTROL ツール]**／**[!UICONTROL グループマネージャー]**&#x200B;をクリックします。
