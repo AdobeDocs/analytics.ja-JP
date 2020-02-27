@@ -3,7 +3,7 @@ description: Web サイトで販売、流通、または表示している商品
 title: 製品レポート
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
