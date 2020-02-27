@@ -1,6 +1,6 @@
 ---
 description: 'null'
-title: 貢献度分析のトークン - 概要
+title: 貢献度分析のトークンの概要
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
@@ -8,7 +8,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 ---
 
 
-# 貢献度分析のトークン - 概要
+# 貢献度分析のトークンの概要
 
 貢献度分析は、選択した指標の統計的な異常値を自動で発見し、予期せぬ顧客の行動や範囲外の値、特定セグメントにおける特定指標の突然の上昇や下降など、相関する原因を特定することで、データ内の隠れたパターンを発見するための機能です。
 
@@ -121,7 +121,7 @@ Analysis Workspace における異常値検出と貢献度分析の詳細な権�
    <td colname="col3"> <p>トークン数に制限なし </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>標準 </p> 
+   <td colname="col1"> <p>Standard </p> 
     <ul id="ul_73D52020793B44868C9CE0F90893075D"> 
      <li id="li_21EE0871C87E43C8B781219B2BA0FA74">Adobe Analytics Core </li> 
      <li id="li_AB3593200F33439BAEE8FEB13CAE57F4">Adobe Analytics OD </li> 
