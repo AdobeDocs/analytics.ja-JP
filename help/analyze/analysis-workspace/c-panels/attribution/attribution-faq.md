@@ -1,8 +1,8 @@
 ---
 title: アトリビューションに関する FAQ
 description: アトリビューションに関する FAQ に対する回答です。
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **アトリビューションモデルを使用すると、レポートウィンドウ外の日付が表示されることがあるのはなぜですか。**
 
-これらの追加の日付は、訪問者がルックバックウィンドウをレポートすることによるものです。詳しくは、Analytics ナレッジベースの[データがレポートウィンドウ外に表示される](https://helpx.adobe.com/jp/analytics/kb/data-appearing-outside-reporting-window.html)を参照してください。Adobe Analytics の次期リリースでは、これらの余分な行は除外されます。
+これらの追加の日付は、訪問者がルックバックウィンドウをレポートすることによるものです。詳しくは、Analytics ナレッジベースの[データがレポートウィンドウ外に表示される](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html)を参照してください。Adobe Analytics の次期リリースでは、これらの余分な行は除外されます。
 
 **独自のアトリビューションモデルでカスタムルックバックウィンドウを使用することはできますか。**
 
@@ -56,13 +56,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 直帰数
 * 単一アクセス
 
-**Analysis Workspace のアトリビューションと Data Workbench のアトリビューションの違いを教えてください。**
+**独自のアトリビューションモデルでカスタムルックバックウィンドウを使用することはできますか。**
 
-Data Workbench では以下の機能を増分的に提供しています。
-
-* 広告インプレッション数や POS など、より多くの訪問者レベルデータソースを対象にしたアトリビューション分析。
-* アルゴリズムモデリング。Analysis Workspace のアトリビューションには、ルールベースのモデルのみが含まれています。Data Workbench ユーザーガイドの[最適なモデリング](https://marketing.adobe.com/resources/help/ja_JP/insight/client/c_attrib_algorithmic.html)を参照してください。
-* 追加のビジュアライゼーション（待ち時間テーブルなど）。Data Workbench ユーザーガイドの[待ち時間テーブル](https://marketing.adobe.com/resources/help/ja_JP/insight/client/c_lat_tbls.html)を参照してください。
+はい。カスタムのルックバックウィンドウオプションを使用して、ルックバックウィンドウを、レポートウィンドウの90日前までの任意の日付範囲に設定できます。 詳しくは、[レポートの時間処理](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)を参照してください。
 
 **アトリビューションは分類と連携しますか。**
 
