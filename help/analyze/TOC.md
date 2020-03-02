@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
+source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
       + [プロジェクトの作成 - 概要](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Workspace プロジェクトの作成](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [Workspaceの複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [Workspace の複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 列および行の設定 {#column-row-settings}
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [行設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -82,6 +82,7 @@ source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
          + [アトリビューションの概要](analysis-workspace/c-panels/attribution/attribution.md)
          + [アトリビューションパネルの使用](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [アトリビューションに関する FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
+         + [アルゴリズムアトリビューション](analysis-workspace/c-panels/attribution/algorithmic.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
       + セグメント比較{#segment-comparison}
          + [Segment IQ の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
