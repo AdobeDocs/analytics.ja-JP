@@ -3,7 +3,7 @@ description: アドビの FTP ポリシーにより、90 日間連続で使用�
 keywords: ftp;sftp
 title: FTP データおよび FTP アカウントの削除
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
