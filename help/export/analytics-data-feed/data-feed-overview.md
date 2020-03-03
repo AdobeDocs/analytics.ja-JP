@@ -1,9 +1,9 @@
 ---
-description: Web サイトやモバイルアプリケーションから収集されたり、Web サービス API またはデータソースを使用してアップロードされたりしたデータの処理されてアドビの Data Warehouse でに格納されます。この生のクリックストリームデータは、Adobe Analytics で使用されるデータセットとして形成されています。
+description: Web サイトやモバイルアプリケーションから収集されたり、Web サービス API またはデータソースを使用してアップロードされたデータは処理されて、アドビの Data Warehouse に格納されます。この生のクリックストリームデータは、Adobe Analytics で使用されるデータセットとして形成されています。
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics データフィードの概要
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
@@ -56,10 +56,10 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 データフィードを取得する基本的なワークフローを理解したら、組織内のチームと協力して、生データをデータベースに保存または取り込むことができます。
 
-* [データフィードの作成](create-feed.md):データフィード作成の技術的な詳細、個々のフィールドの詳細
-* [データフィードの管理](df-manage-feeds.md):データフィードインターフェイスの操作に関する詳細情報
-* [データフィードの内容](c-df-contents/datafeeds-contents.md):圧縮ファイル内の内容の把握
-* [データ列の定義](c-df-contents/datafeeds-reference.md):使用可能なすべての列の包括的なリスト
+* [データフィードの作成](create-feed.md)：個々のフィールドについて詳しく説明する、データフィード作成の技術的な詳細
+* [データフィードの管理](df-manage-feeds.md)：データフィードインターフェイスの操作についての詳細
+* [データフィードの内容](c-df-contents/datafeeds-contents.md)：圧縮ファイルの内容について
+* [データ列の定義](c-df-contents/datafeeds-reference.md)：使用可能なすべての列の包括的なリスト
 
 ## その他のリソース
 
