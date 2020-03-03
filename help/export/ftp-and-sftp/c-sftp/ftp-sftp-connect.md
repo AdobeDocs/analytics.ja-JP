@@ -3,7 +3,7 @@ description: アドビの FTP サーバーとの安全な転送を設定する�
 keywords: ftp;sftp
 title: SFTP を使用したアドビの FTP アカウントへの接続
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,14 +22,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    Windows 環境では、puttyGen を使用して鍵を作成します。
 
-1. Create a file named [!DNL authorized_keys] (no extension).
-1. Copy the contents of the Public key into [!DNL authorized_keys].
-1. Upload [!DNL authorized_keys] to an FTP account:
+1. [!DNL authorized_keys]（拡張子なし）という名前のファイルを作成します。
+1. 公開鍵の内容を [!DNL authorized_keys] にコピーします。
+1. [!DNL authorized_keys] を FTP アカウントにアップロードします。
 
    * アドビの FTP アカウントに接続します。
-   * Create a [!DNL .ssh] directory (if it does not already exist).
-   * Upload the [!DNL authorized_keys] file to the [!DNL .ssh] directory.
+   * [!DNL .ssh] ディレクトリを作成します（存在しない場合）。
+   * [!DNL authorized_keys] ファイルを [!DNL .ssh] ディレクトリにアップロードします。
 
-1. SFTPを使用してFTPアカウントにログインし、接続をテストします。
+1. SFTP を使用して FTP アカウントにログインし、接続をテストします。
 
-[詳しくは、「パスワードな ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)しでSFTP経由でアドビに接続する方法」を参照してください。.
+詳しくは、[パスワードなしでの SFTP 経由でのアドビへの接続](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)を参照してください。
