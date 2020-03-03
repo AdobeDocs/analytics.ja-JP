@@ -1,9 +1,9 @@
 ---
-description: Analytics を使用して、FTP ベースのデータソースを作成および管理できます。このデータソースは、FTP ファイル転送を利用して、オフラインデータまたは履歴データを Experience Cloud にインポートします。
+description: Analytics を使用して、FTP ベースのデータソースを作成および管理できます。このデータソースは、FTP ファイル転送を利用して、オフラインデータまたは履歴データを Experience Cloud に読み込みます。
 keywords: ftp;sftp
 title: データソース
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # データソース
 
-Analytics を使用して、FTP ベースのデータソースを作成および管理できます。このデータソースは、FTP ファイル転送を利用して、オフラインデータまたは履歴データを Experience Cloud にインポートします。
+Analytics を使用して、FTP ベースのデータソースを作成および管理できます。このデータソースは、FTP ファイル転送を利用して、オフラインデータまたは履歴データを Experience Cloud に読み込みます。
 
 データソースインスタンス作成後、データソースファイルのアップロードに使用できる FTP ロケーションが提供されます。アップロードされたデータはデータソースで自動的に検出され、処理されます。ファイルの処理後、データを Analytics レポートに使用できるようになります。
 
@@ -23,10 +23,10 @@ FTP の制限およびデータ保持期間については、[FTP の制限と�
 
 ## 分類およびデータソースのアップロードの .fin ファイルについて {#section_1484719F8A134EAE91212DBD8F15174F}
 
-When you upload a classifications or [!UICONTROL Data Source] file ( [!DNL .tab] or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. このファイルは、データファイルが FTP アカウントに完全にアップロードされたことをシステムに通知します。The [!DNL .fin] file lets Adobe recognize that you are done with your import. このファイルが送信された後、アドビでは両方のファイルを FTP から削除し、インポートの処理を開始します。ファイルのインポート: [!DNL Classifications.tab]
+分類または[!UICONTROL データソース]ファイル（[!DNL .tab] または [!DNL .txt]）をアップロードする際には、読み込むデータファイルと全く同じ名称で拡張子が [!DNL .fin] の空のファイルもアップロードする必要があります。この [!DNL .fin] ファイルは、完了通知ファイルです。このファイルは、データファイルが FTP アカウントに完全にアップロードされたことをシステムに通知します。[!DNL .fin] ファイルがアップロードされることで、お客様が読み込みデータのアップロードを完了したことをアドビで認識できます。このファイルが送信された後、アドビでは両方のファイルを FTP から削除し、読み込みの処理を開始します。ファイルの読み込み：[!DNL Classifications.tab]
 
-ファイルの終了： [!DNL Classifications.fin]
+ファイルの終了：[!DNL Classifications.fin]
 
-If you upload your Data Sources or SAINT file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. レポートの [!UICONTROL FTP アカウントを作成]ウィンドウで、「[!UICONTROL 通知受信者]」として電子メールアドレスを入力している場合にのみ、これについての通知が送信されます。このフィールドに電子メールアドレスを入力していない場合、通知は送信されません。
+データソースまたは SAINT ファイルをアップロードしても、[!DNL .fin] ファイルをアップロードしないと、処理のためのキューに追加されません。ファイルは FTP に残ったままになり、[!UICONTROL Experience Cloud] のデータに適用されません。レポートの [!UICONTROL FTP アカウントを作成]ウィンドウで、「[!UICONTROL 通知受信者]」として電子メールアドレスを入力している場合にのみ、これについての通知が送信されます。このフィールドに電子メールアドレスを入力していない場合、通知は送信されません。
 
-If you do upload your file with a [!DNL .fin] file, but there is an error in the file, it is submitted for processing, but the error causes the processing to cease and the file to be sent to an error folder. この場合、[!UICONTROL FTP アカウントを作成]ウィンドウで「[!UICONTROL 通知受信者]」フィールドに指定された電子メールアドレスに通知が送信されます。電子メールアドレスを入力していない場合、通知は送信されません。
+ファイルをアップロードし、[!DNL .fin] ファイルをアップロードしたが、ファイルにエラーがある場合、ファイルは処理のために送信されますが、エラーによって処理が中止され、ファイルはエラーフォルダーに送信されます。この場合、[!UICONTROL FTP アカウントを作成]ウィンドウで「[!UICONTROL 通知受信者]」フィールドに指定された電子メールアドレスに通知が送信されます。電子メールアドレスを入力していない場合、通知は送信されません。
