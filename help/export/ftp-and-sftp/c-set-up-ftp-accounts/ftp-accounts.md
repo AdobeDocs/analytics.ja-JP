@@ -3,7 +3,7 @@ description: アドビがホストする FTP アカウントを設定して使�
 keywords: ftp;sftp
 title: FTP アカウントの設定 - 概要
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,6 +21,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * ユーザーは、アドビが FTP アカウントに配信したデータを、自身のシステムに正常に転送したのちに削除する必要があります。
 * FTP アカウントが不要になりましたら、アカウントを非アクティブにしますので、アドビにお知らせください。
 
-The Adobe FTP host name is [!DNL ftp.omniture.com] or [!DNL ftp2.omniture.com].
+アドビの FTP ホスト名は、[!DNL ftp.omniture.com] または [!DNL ftp2.omniture.com] です。
 
-This information, along with a username and password, should be provided either within the [!UICONTROL Experience Cloud] (for classifications and Data Sources), or by the Adobe representative responsible for setting up the account at your request. 使用する FTP のアドレスがわからない場合は、アドビのアカウントマネージャーにご連絡ください。正しいアドレスをお知らせします。分類およびデータソースのアカウントの場合、FTP ファイルの処理は 1 日のうちの決まった時間帯に行われるわけではありません。アドビでは、新しい処理対象のファイルがないか FTP アカウントを常にポーリングするスクリプトを使用しています。これらのアカウントにアップロードされたファイルは、可能な限り早く処理されます。
+この情報は、ユーザー名やパスワードとともに、[!UICONTROL Experience Cloud] 内で提供されるか（分類とデータソースの場合）、またはお客様の依頼に応じてアカウントを設定するアドビの担当者が提供します。使用する FTP のアドレスがわからない場合は、アドビのアカウントマネージャーにご連絡ください。正しいアドレスをお知らせします。分類およびデータソースのアカウントの場合、FTP ファイルの処理は 1 日のうちの決まった時間帯に行われるわけではありません。アドビでは、新しい処理対象のファイルがないか FTP アカウントを常にポーリングするスクリプトを使用しています。これらのアカウントにアップロードされたファイルは、可能な限り早く処理されます。
