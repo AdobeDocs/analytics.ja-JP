@@ -1,9 +1,9 @@
 ---
-description: SFTPは、データを転送するための安全なプロトコルであり、自分以外の誰もデータを見ることができないようにします。 Adobe Engineering Servicesでは、SFTPアカウントを設定して、データを安全に保持できます。
+description: SFTP は、データ転送を安全に行うためのプロトコルであり、当事者以外がデータを盗み見ることはできません。Adobe Engineering Services では、データを安全に保持するために SFTP アカウントを設定できます。
 keywords: ftp;sftp
 title: セキュアファイル転送プロトコル - 概要
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,15 +11,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # セキュアファイル転送プロトコル - 概要
 
-SFTPは、データを転送するための安全なプロトコルであり、自分以外の誰もデータを見ることができないようにします。 Adobe Engineering Servicesでは、SFTPアカウントを設定して、データを安全に保持できます。
+SFTP は、データ転送を安全に行うためのプロトコルであり、当事者以外がデータを盗み見ることはできません。Adobe Engineering Services では、データを安全に保持するために SFTP アカウントを設定できます。
 
 ## プッシュ配信 {#section_A47831BB1DCA490BB57F0940617AA506}
 
 これは、アドビのサーバーがファイルをユーザーのサーバーに「プッシュ」することを意味しています。基本的に、ファイルはエンドポイントに配信されます。
 
-[Data Warehouseと](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) Analyticsのデータフィードは [](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) 、SFTP経由でデータをプッシュできます。
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) と [Analytics のデータフィード](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)は、SFTP 経由でデータをプッシュできます。
 
-The following Analytics tools **cannot** push data via SFTP:
+以下の Analytics ツールでは、SFTP 経由でデータをプッシュ&#x200B;**できません**。
 
 * Reports &amp; Analytics
 * Ad Hoc Analysis
@@ -27,9 +27,9 @@ The following Analytics tools **cannot** push data via SFTP:
 
 ## プル配信 {#section_FA29FAEF02FE40B8B32452146A036F48}
 
-これは、通常の FTP を使用して、アドビのいずれかのサーバーにファイルが送信されることを意味しています。ファイルをサーバー上に置く場合は、お使いのサーバーからアドビのFTPサーバーにSFTPを使用して、ファイルをアドビのサーバーから取り出す必要があります。 これは、以下の 3 つの方法のうちいずれかを使用して行うことができます。
+これは、通常の FTP を使用して、アドビのいずれかのサーバーにファイルが送信されることを意味しています。ユーザーが各自のサーバーにファイルを取得したい場合は、各自のサーバーからアドビの FTP サーバーへの SFTP 接続を使用して、アドビのサーバーからファイルを取得する必要があります。これは、以下の 3 つの方法のうちいずれかを使用して行うことができます。
 
-* [パスワードなしでの SFTP 経由でのアドビへの接続.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-* [SFTPを使用してアドビのFTPアカウントに接続します。](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
-* データフィード、Reports &amp; Analytics、Ad Hoc Analysis などの任意のレポートをアドビの FTP にプッシュしたり、アドビの FTP から取得したりできます。アドビは、これらのレポートを設定済みのSFTPサーバーに配信できません。
+* [パスワードなしでの SFTP 経由でのアドビへの接続。](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
+* [SFTP を使用したアドビの FTP アカウントへの接続](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
+* データフィード、Reports &amp; Analytics、Ad Hoc Analysis などの任意のレポートをアドビの FTP にプッシュしたり、アドビの FTP から取得したりできます。アドビは、これらのレポートをユーザーが設定した SFTP サーバーに配信することはできません。
 
