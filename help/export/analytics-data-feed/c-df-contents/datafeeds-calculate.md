@@ -4,7 +4,7 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: 計算指標
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,56 +14,56 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 データフィードを使用して一般的な指標を計算する方法について説明します。
 
-> [!IMPORTANT] 通常、Adobe Analyticsから除外されるヒットは、データフィードに含まれます。 生データ `exclude_hit > 0` に関するクエリーから除外されたヒットを削除する場合に使用します。 データソースのデータもデータフィードに含まれます。 データソースを除外する場合は、を使用してすべての行を除外しま `hit_source = 5,7,8,9`す。
+> [!IMPORTANT]通常、Adobe Analytics から除外されたヒットは、データフィードに含まれます。除外されたヒットを、生データに関するクエリから削除する場合には、`exclude_hit > 0` を使用します。データフィードには、データソースのデータも含まれます。データソースを除外する場合は、`hit_source = 5,7,8,9` を使用してすべての行を除外します。
 
 ## ページビュー
 
-1. またはに含まれる値の行数をカウントし `post_pagename` ます `post_page_url`。
+1. 値が `post_pagename` または `post_page_url` に含まれる行の数をカウントします。
 
 ## 訪問数
 
-1. 連結 `post_visid_high`、、 `post_visid_low`、お `visit_num`よび `visit_start_time_gmt`。
+1. `post_visid_high`、`post_visid_low`、`visit_num`、および `visit_start_time_gmt` を連結します。
 1. 一意の値の数をカウントします。
 
-> [!NOTE] インターネットの不整合、システムの不整合、またはカスタム訪問者IDの使用で、訪問ごとに同じ値を使用する `visit_num` ことはほとんどありません。 訪問をカ `visit_start_time_gmt` ウントする場合に使用して、これらの訪問が確実にカウントされるようにします。
+> [!NOTE]インターネットの不規則性やシステムの不規則性、またはカスタム訪問者 ID の使用によって、別の訪問時に同じ `visit_num` 値を使用することはほとんどありません。訪問をカウントする際には `visit_start_time_gmt` を使用して、これらの訪問が確実にカウントされるようにします。
 
 ## 訪問者
 
-個別訪問者（カスタム訪問者ID、Experience Cloud IDサービスなど）を識別するためにアドビが使用するすべての方法の値は、すべて最終的にとの値として計算さ `post_visid_high` れま `post_visid_low`す。 これらの2つの列を連結して、個別訪問者がどのようにして個別訪問者として識別されたかに関係なく、個別訪問者を識別する標準として使用できます。 アドビが個別訪問者を識別するために使用した方法を理解したい場合は、この列を使用しま `post_visid_type`す。
+個別訪問者（カスタム訪問者 ID、Experience Cloud ID サービスなど）を識別するためにアドビが使用するすべての方法はすべて最終的に、`post_visid_high` と `post_visid_low` の値として計算されます。これらの 2 つの列を連結することで、どのようにして個別訪問者として識別されたかに関係なく、個別訪問者を識別する際の標準として使用できます。アドビが個別訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
 
-1. とを連 `post_visid_high` 結しま `post_visid_low`す。
+1. `post_visid_high` と `post_visid_low` を連結します。
 2. 一意の値の数をカウントします。
 
-## カスタムリンク、ダウンロードリンクまたは離脱リンク
+## カスタムリンク、ダウンロードリンクまたは出口リンク
 
-1. 行数をカウントします。
-   * `post_page_event = 100` カスタムリンク
-   * `post_page_event = 101` ダウンロードリンク用
-   * `post_page_event = 102` 離脱リンク用
+1. 次の行数をカウントします。
+   * `post_page_event = 100`（カスタムリンクの場合）
+   * `post_page_event = 101`（ダウンロードリンクの場合）
+   * `post_page_event = 102`（出口リンクの場合）
 
 ## カスタムイベント
 
-すべての指標は、コンマ区切りの整 `post_event_list` 数として列にカウントされます。 数値を `event.tsv` 目的のイベントと照合する場合に使用します。 例えば、ヒットに購 `post_event_list = 1,200` 入イベントとカスタムイベント1が含まれていることを示します。
+すべての指標は、`post_event_list` でコンマ区切りの整数としてカウントされます。`event.tsv` を使用して、数値を目的のイベントと照合します。例えば、`post_event_list = 1,200` は、ヒットに購入イベントとカスタムイベント 1 が含まれていることを示します。
 
-1. Count the number of times the event lookup value appears in `post_event_list`.
+1. `post_event_list` 内にイベント参照の値が出現する回数をカウントします。
 
 ## 滞在時間
 
-ヒットは、最初に訪問別にグループ化し、次に訪問内のヒット数に従って並べ替える必要があります。
+ヒットは、最初に訪問ごとにグループ化してから、訪問内でのヒット数に従って並べ替える必要があります。
 
-1. 連結 `post_visid_high`、、 `post_visid_low`、お `visit_num`よび `visit_start_time_gmt`。
-2. この連結された値で並べ替え、2番目の並べ替え基準を適用しま `visit_page_num`す。
-3. ヒットが1回の訪問で最後のヒットでない場合は、後続のヒッ `post_cust_hit_time` トの値から値を引きま `post_cust_hit_time` す。
-4. この数は、ヒットに費やした時間（秒）です。 フィルターを適用して、ディメンションの値やイベントに焦点を当てることができます。
+1. `post_visid_high`、`post_visid_low`、`visit_num`、および `visit_start_time_gmt` を連結します。
+2. この連結された値で並べ替えてから、2 番目の並べ替え条件 `visit_page_num` を適用します。
+3. ヒットが 1 回の訪問で最後のヒットでない場合は、後続の `post_cust_hit_time` の値から `post_cust_hit_time` の値を引きます。
+4. この数は、ヒットに費やした時間（秒）です。フィルターを適用して、ディメンションの値やイベントに焦点を当てることができます。
 
 ## 注文件数、数量、売上高
 
-ヒットの値がレポートス `currency` イートの通貨と一致しない場合、その日のコンバージョン率を使用して換算されます。 列では換算さ `post_product_list` れた通貨値が使用されるので、すべてのヒットでこの列の通貨が同じになります。
+`currency` の値がレポートスイートの通貨と一致しない場合は、その日のコンバージョン率を使用して換算されます。`post_product_list`列では換算後の通貨値が使用されるので、この列の通貨はすべてのヒットで同じになります。
 
-1. Exclude all rows where `duplicate_purchase = 1`.
-2. 購入イベントを含む行 `event_list` のみを含めます。
-3. 列を解析し `post_product_list` てすべての価格データを抽出します。 列の形 `post_product_list` 式は変数と同じになり `s.products` ます。
+1. `duplicate_purchase = 1` の行をすべて排除します。
+2. `event_list` に購入イベントが含まれる行のみを含めます。
+3. `post_product_list` 列を解析してすべての価格データを抽出します。`post_product_list` 列の形式は `s.products` 変数と同じになります。
 4. 目的の指標を計算します。
-   * 注文を計算する行数を数えます
-   * 製品文字列の数 `quantity` を合計して単位を計算します
-   * 製品文字列内の `price` 数を合計して売上高を計算
+   * 行数をカウントして注文数を計算する
+   * 製品文字列の `quantity` の数を合計して数量を計算する
+   * 製品文字列の `price` の数を合計して売上高を計算する
