@@ -1,6 +1,6 @@
 ---
 title: Analysis Workspace の Attribution の使用
-description: アトリビューションを使用できるAdobe Analyticsの場所について説明します。
+description: アトリビューションを使用できるAdobe Analyticsの場所を説明します。
 translation-type: tm+mt
 source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
@@ -19,7 +19,7 @@ Analysis Workspace のフリーフォームテーブルでは、ほぼあらゆ�
 
    ![](assets/Column_Settings.png)
 
-1. の下で、 **[!UICONTROL Data Settings]**&#x200B;チェックしま **[!UICONTROL Use non-default attribution model]**&#x200B;す。 様々なアトリビューションモデルの詳細については、[Attribution IQ の概要](attribution.md)を参照してください。
+1. 下でチ **[!UICONTROL Data Settings]**&#x200B;ェックしま **[!UICONTROL Use non-default attribution model]**&#x200B;す。 様々なアトリビューションモデルの詳細については、[Attribution IQ の概要](attribution.md)を参照してください。
 
    ![](assets/Attribution_Model_Selection.png)
 
