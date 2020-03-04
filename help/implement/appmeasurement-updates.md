@@ -3,7 +3,7 @@ title: JavaScript版AppMeasurementリリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
+source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
 
 ---
 
@@ -16,6 +16,12 @@ JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートで�
 
 AppMeasurementの最新バージョンは、コードマネージャーでダウンロ [ードできます](/help/admin/admin/code-manager-admin.md)。
 
+## バージョン 2.20.0
+
+Release Date: **March 5, 2020**
+
+* セキュリティ関連の問題を修正しました。
+
 ## バージョン 2.19.0
 
 リリース日：**2020 年 2 月 22 日**
@@ -26,7 +32,7 @@ AppMeasurementの最新バージョンは、コードマネージャーでダウ
 
 Release Date: **February 13, 2020**
 
-* AppMeasurementで、変数を設定してcookieにセキュリティ保護属性を強制的に含めることができるようになり [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) ました。 この変数の要件は、クライアントWebサイト全体が安全に(HTTPS)提供されることです。 （AN-204604）
+* AppMeasurementで、変数を設定することで、cookieにセキュリティで保護された属性を含めるように指定できるようにな [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) りました。 この変数の要件は、クライアントWebサイト全体が安全に(HTTPS)提供されることです。 （AN-204604）
 
 ## バージョン 2.17.0
 
@@ -39,9 +45,9 @@ Release Date: **February 13, 2020**
 
 リリース日：**2019 年 8 月 16 日**
 
-* `sendBeacon` による出口リンク計測において、ブラウザーの [!UICONTROL AppMeasurement] 機能が活用されるようになりました。ヒットが使用され、ペー `sendBeacon` ジがアンロードされた場合、リクエストは完了したままです。 ヒットがデータ収集サーバーに到達する可能性が高いので、離脱リンクにとって非常に役立ちます。 （AN-175142）
+* `sendBeacon` による出口リンク計測において、ブラウザーの [!UICONTROL AppMeasurement] 機能が活用されるようになりました。ヒットが使用され、ペ `sendBeacon` ージがアンロードされた場合、リクエストは完了したままです。 ヒットがデータ収集サーバーに到達する可能性が高いので、離脱リンクで非常に役立ちます。 （AN-175142）
 * ECID/fid の値は、オプトイン設定が変更された場合でも、最初のヒット時にキャッシュされるようになりました。（AN-175142）
-* Audience ManagementモジュールがDIL 9.3に更新されました。 （AN-182704）
+* Audience ManagementモジュールをDIL 9.3に更新しました。 （AN-182704）
 * Exposed switch in `s.ActivityMap.trackScrollReach` to turn scroll reach tracking on or off. （AN-182754）
 * 訪問者 ID サービス 4.4.0 を使用するようになりました。（AN-182912）
 
@@ -282,12 +288,12 @@ Updated: **August 4, 2016**
 
 リリース日：**2015 年 5 月 22 日**
 
-* iOS SDKバージョン4.5以降、新しいiOS拡張機能を使用して、Apple watchアプリ、Todayウィジェット、写真編集ウィジェット、その他すべてのiOS拡張機能アプリから使用状況データを収集できます。 Mobile Servicesユー [ザーガイドの](https://docs.adobe.com/content/help/en/mobile-services/ios/ios-ext/ios-ext.html) iOS Extension Implementationを参照してください。
-* Android SDKバージョン4.5以降、新しいAndroid拡張機能により、Androidウェアラブルアプリからデータを収集できます。 詳しくは、 [Mobile Servicesユーザーガイドの](https://docs.adobe.com/content/help/en/mobile-services/android/wearables-android/android-wearable.html) Androidウェアラブルを参照してください。
+* iOS SDKバージョン4.5以降、新しいiOS拡張機能を使用して、Apple Watchアプリ、Todayウィジェット、写真編集ウィジェット、その他すべてのiOS拡張機能アプリから使用状況データを収集できます。 Mobile [Servicesユーザーガイドの](https://docs.adobe.com/content/help/en/mobile-services/ios/ios-ext/ios-ext.html) iOS拡張の実装を参照してください。
+* Android SDKバージョン4.5以降、新しいAndroid拡張機能を使用して、Androidウェアラブルアプリからデータを収集できます。 Mobile Servicesユー [ザーガイドの](https://docs.adobe.com/content/help/en/mobile-services/android/wearables-android/android-wearable.html) Androidウェアラブルを参照してください。
 * Visitor API 1.4 を同梱しました。
 * AudienceManagement モジュールが更新され、DIL バージョン 6.0 を使用できるようになりました。
 
-> [!NOTE] 既 **知の問題**:訪問者API/モジュールの統 [!DNL AppMeasurement] 合では、IE6-9で行われ [!DNL Audience Manager] た2つのターゲットパブリッシングiFrameリクエストがあります。 `//fast.<subdomain>.demdex.net/dest5.html` と `//fast.<subdomain>.demdex.net/dest4.html`。 正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html` のみを読み込むことです。
+> [!NOTE] 既知 **の問題**:訪問者API/モジュールの統 [!DNL AppMeasurement][!DNL Audience Manager] 合では、IE6-9で行われる2つのターゲットパブリッシングiFrameリクエストがあります。 `//fast.<subdomain>.demdex.net/dest5.html` と `//fast.<subdomain>.demdex.net/dest4.html`正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html` のみを読み込むことです。
 
 ## バージョン 1.4.4
 
@@ -333,7 +339,7 @@ Updated: **August 4, 2016**
 * s.t がリンク onclick 関数から呼び出されて、訪問者 API が必要な値をまだ持っていない場合、ページビューカウントが倍になる問題を修正しました。
 * HTTP POST をサポートします。
 
-   > [!IMPORTANT] のGETメ [!DNL Analytics] ソッドの代わりにPOSTメソッドを使用する呼び出し [!DNL AppMeasurement] (IEでの短縮URLの解決方法 [](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html))には、Experience cloudの最新の訪問者IDサービス実装を使用する必要があります。
+   > [!IMPORTANT] のGETメ [!DNL Analytics] ソッドの代わりにPOSTメソッドを使用する呼び出し [!DNL AppMeasurement] (IEでの切り捨てられた [URLの解決方法](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html))には、Experience Cloudの最新の訪問者IDサービス実装を使用する必要があります。
 
 ## バージョン 1.4
 
