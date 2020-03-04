@@ -79,7 +79,7 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
 **バージョン 14.x のレガシーダッシュボードを移行するには**
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. 列の下 [!UICONTROL Manage] のをクリック [!UICONTROL Legacy Dashboards]します **[!UICONTROL Copy to New Dashboard]**。
+1. 列の下 [!UICONTROL Manage] のをクリッ [!UICONTROL Legacy Dashboards]クします **[!UICONTROL Copy to New Dashboard]**。
 
    コピーされたダッシュボードがダッシュボードレイアウトエディターで開かれます。
 
@@ -89,7 +89,7 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
 
 管理者がダッシュボードを複数のユーザーと共有（またはプッシュ）する手順を説明します。When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
 
-1. で、ダッシ [!UICONTROL Dashboard Manager]ュボードを見つけて有効にしま **[!UICONTROL Shared]**&#x200B;す。
+1. で、ダッシ [!UICONTROL Dashboard Manager]ュボードを見つけ、有効にしま **[!UICONTROL Shared]**&#x200B;す。
 1. クリック **[!UICONTROL Push To Users]**.  ![](assets/push.png)
 
 1. ページで、タ [!UICONTROL Push Dashboard] ーゲットユーザーを選択するか、をクリックしま **[!UICONTROL Check All]**&#x200B;す。
@@ -114,7 +114,7 @@ In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is schedu
 
 1. ダッシュボードを開きます。
 1. クリック **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. グループ内で、 [!UICONTROL Email Report] を有効にしま **[!UICONTROL Archive]**&#x200B;す。
+1. グループ内 [!UICONTROL Email Report] で、を有効にしま **[!UICONTROL Archive]**&#x200B;す。
 1. Specify delivery options, then click **[!UICONTROL Send]**.
 
-   ダッシュボードマネージャーでアーカイブされたダッシュボードを表示できます。または、ダッシュボードを開いて、/をクリ **[!UICONTROL More]** ックしま **[!UICONTROL View Archive]**&#x200B;す。
+   ダッシュボードマネージャーでアーカイブされたダッシュボードを表示できます。または、ダッシュボードを開き、/をクリ **[!UICONTROL More]** ックしま **[!UICONTROL View Archive]**&#x200B;す。
