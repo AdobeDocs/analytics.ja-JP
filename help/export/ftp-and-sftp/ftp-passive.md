@@ -3,7 +3,7 @@ description: アクティブモードとパッシブモードの FTP では、�
 keywords: ftp;sftp
 title: FTP Passive モードを使用
 uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
