@@ -58,7 +58,7 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 **独自のアトリビューションモデルでカスタムルックバックウィンドウを使用することはできますか。**
 
-はい。カスタムのルックバックウィンドウオプションを使用して、ルックバックウィンドウを、レポートウィンドウの90日前までの任意の日付範囲に設定できます。 詳しくは、[レポートの時間処理](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)を参照してください。
+はい。カスタムのルックバックウィンドウオプションを使用して、ルックバックウィンドウをレポートウィンドウの90日前までの任意の日付範囲に設定できます。 詳しくは、[レポートの時間処理](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)を参照してください。
 
 **アトリビューションは分類と連携しますか。**
 
