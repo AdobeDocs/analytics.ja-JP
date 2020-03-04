@@ -2,8 +2,8 @@
 description: Ad Hoc Analysis の用語およびタスクを Analysis Workspace と比較します。
 title: Analysis Workspace と Ad Hoc Analysis の比較
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -14,9 +14,9 @@ Ad Hoc Analysis の用語およびタスクを Analysis Workspace と比較し�
 
 Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザーワークフローに取り入れられています。両製品で同じままの用語と機能もありますが、Analysis Workspace ではいくつかの新しい用語と分析アプローチが導入されています。
 
-両製品の主要機能と必要システム構成の技術的な比較については、[こちら](https://marketing.adobe.com/resources/help/ja_JP/reference/analytics-product-comparison.html)を参照してください。
+両製品の主要機能と必要システム構成の技術的な比較については、[こちら](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)を参照してください。
 
-## 主な用語の比較{#section_6109406B83B043A18E46D38F130B1D2E}
+## 主な用語の比較 {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -29,7 +29,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
 | フローテンプレート | フロービジュアライゼーション |
 | フォールアウト | フォールアウトビジュアライゼーション |
 
-## 主なタスクの比較{#section_F31446F1DFA742D794A30D713E223440}
+## 主なタスクの比較 {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
@@ -100,7 +100,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution-iq.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>なし </p> </td> 
