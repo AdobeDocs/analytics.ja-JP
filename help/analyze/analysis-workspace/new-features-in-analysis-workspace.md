@@ -5,7 +5,7 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -14,19 +14,19 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ## 2020 年 2 月
 
-2020年2月21日にリリースされた新機能です。
+2020年2月21日にリリースされた新機能。
 
 | 機能 | 説明 |
 |--- |--- |
-| Workspaceでの複数のレポートスイートのサポート | 複数のレポートスイートのデータを単一のプロジェクトに取り込んで並べて表示できるようになりました。 この機能は2020年2月20日から、数週間の間にすべてのお客様に提供されます。 [詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| デバイス間分析を使用する組織向けの新しいWorkspaceテンプレート | このテンプレートは、CDAが訪問をつなぎ合わせ、CDA専用のディメンションと指標に関する教育をどの程度効果的に行うかを示します。 CDAを使用するレポートスイートが必要です。 詳しく [は、デバイス間分析の設定を参照してください](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) 。 |
-| Workspaceの新しいホットキー | <ul><li>すべてのパネルを折りたたむ/展開する： `alt + m`</li><li>アクティブパネルを折りたたみ/展開： `alt + ctrl + m`</li><li>左側のレールを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| その他のWorkspaceの機能強化 | <ul><li>パネルまたはビジュアライゼーションをWorkspaceにドロップすると、左側のレールがコンポーネントに自動的に切り替わり、よりシームレスなワークフローが実現するようになりました。</li><li>テンプレートコンポーネントをアクションできるようになりました（例：タグ付け、お気に入りに追加、承認済み）。</li><li>フィルター適用済みの指標およびセグメントリストでは、必要な項目が見つからない場合に新しいコンポーネントを追加する「+」ボタンが表示されます。</li></ul> |
-| Workspaceデバッガー | Workspaceデバッガーがヘルプメニューに追加され、Workspaceリクエストのデバッグに対してよりシームレスに有効にできるようになりました。 [詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| Workspaceでの複数のレポートスイートのサポート | 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。 この機能は2020年2月20日から、数週間の間にすべてのお客様に提供されます。 [詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| デバイス間分析を使用する組織向けの新しいWorkspaceテンプレート | このテンプレートは、CDAが訪問をつなぎ合わせ、CDA専用のディメンションと指標に関する教育をどの程度効果的に行うかを示します。 CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html)を参照してください。 |
+| Workspaceの新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開：`alt + ctrl + m`</li><li>左パネルを検索：`ctrl + /`</li><li>次のパネルに移動：`alt + Right Key`</li><li>前のパネルに移動：`alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| その他のWorkspaceの機能強化 | <ul><li>パネルまたはビジュアライゼーションがWorkspaceにドロップされると、左側のレールがコンポーネントに自動的に切り替わり、よりシームレスなワークフローが実現するようになりました。</li><li>テンプレートコンポーネントに対してアクションを設定できるようになりました（タグ付け、お気に入りに追加、承認など）。</li><li>フィルター適用済みの指標とセグメントリストでは、必要な項目が見つからない場合に、「+」ボタンを使用して新しいコンポーネントを追加できます。</li></ul> |
+| Workspaceデバッガー | Workspace デバッガーがヘルプメニューに追加され、よりシームレスに有効化して Workspace リクエストをデバッグできるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
-## 1 月 2020 日
+## 2020 年 1 月
 
-2020年1月17日にリリースされた新機能です。
+2020 年 1 月 17 日にリリースされた新機能。
 
 | 機能 | 説明 |
 |--- |--- |
@@ -34,35 +34,35 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ## 2019 年 10 月
 
-2019年10月11日にリリースされた機能強化です。
+2019 年 10 月 11 日にリリースされた機能強化です。
 
 | 機能強化 | 説明 |
 |--- |--- |
-| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、aとaの2つの合計が含まれるよう **[!UICONTROL Table total]** になりまし **[!UICONTROL Grand total]**&#x200B;た。 テーブルの合計行は、適用された[レポートフィ ルター](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>情報さらに、 **[!UICONTROL Show Totals]** およびオ **[!UICONTROL Show Grand Total]** プションがに追加されまし **[!UICONTROL Column Settings]**&#x200B;た。<br/>このフリーフォームの合計の変更により、依存するビジュアライゼーション(リンクされたビジュアライゼーションなど **[!UICONTROL Summary Number]** )が更新され、CSVおよびPDFデータがエクスポートされます。 |
+| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、との2つの合計が含まれるよ **[!UICONTROL Table total]** うになりまし **[!UICONTROL Grand total]**&#x200B;た。 テーブルの合計行は、適用された[レポートフィ ルター](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細情](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>報さらに、お **[!UICONTROL Show Totals]** よびオ **[!UICONTROL Show Grand Total]** プションがに追加されまし **[!UICONTROL Column Settings]**&#x200B;た。<br/>このフリーフォームの合計の変更により、依存ビジュアライゼーション（リンクされたビジュアライゼーションなど）、 **[!UICONTROL Summary Number]** CSVおよびPDFデータの書き出しと共に更新されます。 |
 | 「未指定」または「なし」を削除するオプション | レポートフィルターのオプションに、「未指定（なし）」を簡単に削除する機能が追加されました。 |
-| 紫の精度のコンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫のセクシ **[!UICONTROL Time]** ョンもに名前が変更されまし **[!UICONTROL Date Ranges]**&#x200B;た。 |
+| 紫色の精度コンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫のセクション **[!UICONTROL Time]** もに名前が変更されまし **[!UICONTROL Date Ranges]**&#x200B;た。 |
 
 ## 2019 年 8 月
 
-機能強化は2019年8月8日にリリースされました。
+機能強化は 2019 年 8 月 9 日にリリースされました。
 
 | 機能強化 | 説明 |
 |--- |--- |
-| ドロップダウンフィルタの項目制限を50から200に増やします。 | ドロップダウンフィルターに配置できる項目の最大数を 50 から 200 に増加しました。この強化は、すべての国（195）やすべての都道府県（52）をフィルターに追加するなどの状況への対応を可能にします。 |
+| ドロップダウンの項目の上限が 50 から 200 に増加 | ドロップダウンフィルターに配置できる項目の最大数を 50 から 200 に増加しました。この強化は、すべての国（195）やすべての都道府県（52）をフィルターに追加するなどの状況への対応を可能にします。 |
 
 ## 2019 年 7 月
 
-2019年7月19日にリリースされた機能強化です。
+2019 年 7 月 19 日にリリースされた機能強化です。
 
 | 機能強化 | 説明 |
 |--- |--- |
-| コホート分析の強化 | 新しい[コホート分析設定](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html)が追加されました。 <ul><li>割合のみを表示</li><li>割合を整数に四捨五入</li><li>割合の平均行を表示</li></ul> |
-| 過去18か月の項目を表示 | 左側のレールに、_過去 18 ヶ月の項目を表示_&#x200B;するためのオプションが追加されました。以前は、ルックバック期間は最大 6 ヶ月でした。これにより、昨年のページやキャンペーンとの比較が簡単になります（最大 18 ヶ月前）。 |
+| コホート分析の機能強化 | 新しい[コホート分析設定](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html)が追加されました。 <ul><li>割合のみを表示</li><li>割合を整数に四捨五入</li><li>割合の平均行を表示</li></ul> |
+| 過去 18 ヶ月の項目を表示 | 左側のレールに、_過去 18 ヶ月の項目を表示_&#x200B;するためのオプションが追加されました。以前は、ルックバック期間は最大 6 ヶ月でした。これにより、昨年のページやキャンペーンとの比較が簡単になります（最大 18 ヶ月前）。 |
 | 新しい Analysis Workspace テンプレート | Analysis Workspace に[「Magento：マーケティングとコマース」](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)という新しいテンプレートが追加されました。Magento e コマースのお客様向けに特別に設計されたものですが、小売業者のお客様は独自のインサイトを業務に役立てることができます。 |
 
 ## 2019 年 6 月
 
-機能強化は2019年6月13日にリリースされました。
+機能強化は 2019 年 6 月 14 日にリリースされました。
 
 | 機能強化 | 説明 |
 |--- |--- |
@@ -92,7 +92,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 |--- |--- |
 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます（計算指標はサポートされません）。</li></ul> |
 | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | この新しい設定を使用すると、左側のパネル、フリーフォームテーブルおよびコホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。プロジェクト／プロジェクト情報および設定から利用できます。 |
-| [Attribution IQ における複数値の変数のサポート](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace では、このような変数にヒットレベルで Attribution IQ を適用できます。 |
+| [Attribution IQ における複数値の変数のサポート](attribution-iq.md) | Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace では、このような変数にヒットレベルで Attribution IQ を適用できます。 |
 | パフォーマンスの向上 | 分類の可視化スピードの向上 - 多くの分類を含むプロジェクトの読み込み速度が向上します。 |
 
 ## 2018 年 11 月
@@ -149,7 +149,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>カラーパレット</b> </p> </td> 
-   <td colname="col2"> <p>異なるカラーパレットを選択するか、独自のパレットを指定することで、Workspace で使用されるカラースキームを変更できるようになりました。これは、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。変更概要、フリーフォームテーブルの条件付き書式およびマップビジュアライゼーションには影響<b>しません</b>。 </p> <p>注記:カラーパレットのサポートは、Internet Explorer 11 に対して有効ではありません。 </p> </td> 
+   <td colname="col2"> <p>異なるカラーパレットを選択するか、独自のパレットを指定することで、Workspace で使用されるカラースキームを変更できるようになりました。これは、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。変更概要、フリーフォームテーブルの条件付き書式およびマップビジュアライゼーションには影響<b>しません</b>。 </p> <p>注記：カラーパレットのサポートは、Internet Explorer 11 に対して有効ではありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>新規テンプレート: Audio Consumption</b> </p> </td> 
@@ -193,7 +193,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > Attribution IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Attribution IQ は、マーケティングパフォーマンスについて、さらに高度でインテリジェントな分析を実現します。新しいアトリビューションモデルは、Analysis Workspace（任意のテーブルまたは分類）の指標および計算指標で使用できます。新しい属性パネルでは、ビジュアライゼーションと比較機能が強化されました。 </p> </td> 
   </tr> 
   <tr> 
@@ -231,7 +231,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > 動的ディメンション列 </a> </b> </p> </td> 
-   <td colname="col2"> <p>以前は、ディメンションが列にドロップされると、時間以外のディメンションの上位 5 件（および時間ディメンションの上位 15 件）が表示され、これらの値は静的なままでした（つまり、選択された 5 件は変更されませんでした）。 </p> <p>今後は、デフォルトでは静的な値ではなく動的な値が表示されると共に、静的な値に変更するオプションも用意されます。その他の注意事項を次に示します。 </p> 
+   <td colname="col2"> <p>以前は、ディメンションが列にドロップされると、時間以外のディメンションの上位 5 件（および時間ディメンションの上位 15 件）が表示され、これらの値は静的なままでした（つまり、選択された 5 件は変更されませんでした）。 </p> <p>今後は、デフォルトでは静的な値ではなく動的な値が表示されるとともに、静的な値に変更するオプションも用意されます。その他の注意事項を次に示します。 </p> 
     <ul id="ul_C802BC32CB084E30B4E58E9E90B9A63D"> 
      <li id="li_452466AB416F4737B532849C604BD4CC">動的ディメンションの（i）をクリックすると、ランキング（上位 1～5）およびディメンションタイプが表示されます。 </li> 
      <li id="li_588F6199E38D47869AC855A4C2A4D1B7">データが更新されると、動的ディメンションも上位の 5 個または 15 個の項目で置き換えられます。 </li> 
@@ -342,7 +342,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
    <td colname="col2"> <p>カスタムテンプレートの最新リリースで、次のアップデートをおこないました。 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">テンプレートの編集モードとプロジェクトの開始時点でのテンプレートの使用を区別しやすくするため、プロジェクトの上部（タイトル付近）にテンプレートアイコンを追加しました。 </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Analysis Workspace でプロジェクトを作成／キュレーション権限が与えられている場合に、管理権限なしでワークスペースプロジェクトテンプレートの作成（別名保存）と編集をおこなえるようになりました（<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスを編集</span>／<span class="uicontrol">Analytics ツールをカスタマイズ</span>／<span class="uicontrol">Analysis Workspace でプロジェクトを作成／キュレーション</span></span>）。 </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Analysis Workspace でプロジェクトを作成／キュレーション権限が与えられている場合に、管理権限なしでWorkspaceプロジェクトテンプレートの作成（別名保存）と編集をおこなえるようになりました（<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスを編集</span>／<span class="uicontrol">Analytics ツールをカスタマイズ</span>／<span class="uicontrol">Analysis Workspace でプロジェクトを作成／キュレーション</span></span>）。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -453,7 +453,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢献度分析：<a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  >トークン通知 </a> </p> </td> 
-   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。&amp;nbsp; </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
+   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。  </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>マルチバイト文字を含む CSV ファイル </p> </td> 
@@ -503,7 +503,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップのビジュアライゼーション </a> </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。&amp;nbsp; </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > トレンドビジュアライゼーションの精度セレクター </a> </p> </td> 
@@ -957,7 +957,7 @@ source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 2016 年 6 月 17 日にリリースされた新機能：
 
-* [管理者がユーザーの](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) /タブへのアクセスを許可または拒否できる新しいグ **[!UICONTROL Analytics]** ループ権 **[!UICONTROL Workspace]** 限が追加されました。 2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
+* [管理者がユーザーの](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) 「/」タブへのアクセスを許可または拒否できる新しいグ **[!UICONTROL Analytics]** ループ権 **[!UICONTROL Workspace]** 限が追加されました。 2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
 * Folio Builder[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント
@@ -1131,13 +1131,13 @@ In the [!UICONTROL Dimensions] component panel, you can hover over the informati
 
 ## 凡例を表示 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-このオ [!UICONTROL Visualization Settings] プション **[!UICONTROL Legend Visible]** では、ビジュアライゼーションの凡例の表示/非表示を切り替えます。
+このオ [!UICONTROL Visualization Settings] プション **[!UICONTROL Legend Visible]** で、ビジュアライゼーションの凡例の表示/非表示を切り替えます。
 
 ![](assets/legend-visible.png)
 
 ## Y 軸をゼロに固定 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。を有 **[!UICONTROL Anchor Y Axis at Zero]** 効にす [!UICONTROL Visualization Settings] ると、Y軸が強制的にゼロになり、より正確なトレンドの表示が可能になります。 次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
+線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。でを有 **[!UICONTROL Anchor Y Axis at Zero]** 効にす [!UICONTROL Visualization Settings] ると、Y軸が強制的にゼロになり、より正確なトレンドが表示されます。 次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
 
 **「Y 軸をゼロに固定」が無効な場合**
 
