@@ -1,14 +1,13 @@
 ---
-description: 'null'
-title: Analysis Workspace の Attribution IQ の使用
-uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: Analysis Workspace の Attribution の使用
+description: アトリビューションを使用できるAdobe Analyticsの場所について説明します。
+translation-type: tm+mt
+source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 ---
 
 
-# Analysis Workspace の Attribution IQ の使用
+# Analysis Workspace の Attribution の使用
 
 Analysis Workspace の Attribution IQ を使用すると、サポートされているあらゆるアトリビューションモデルの相互比較、コンバージョンにつながる主要なマーケティングシーケンスの高度なフォールアウトおよびフロービジュアライゼーションによる視覚化、あらゆるマーケティングチャネルまたはキャンペーンのトレンド追跡によるパフォーマンスの時間的変化の簡便な確認、チャネルまたはキャンペーンパフォーマンスの統計的異常の検出によるパフォーマンス低下時または上昇時の警告通知などが可能になります。
 
@@ -20,7 +19,7 @@ Analysis Workspace のフリーフォームテーブルでは、ほぼあらゆ�
 
    ![](assets/Column_Settings.png)
 
-1. **[!UICONTROL データ設定]**&#x200B;で「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」チェックボックスをオンにします。様々なアトリビューションモデルの詳細については、[Attribution IQ の概要](attribution.md)を参照してください。
+1. の下で、 **[!UICONTROL Data Settings]**&#x200B;チェックしま **[!UICONTROL Use non-default attribution model]**&#x200B;す。 様々なアトリビューションモデルの詳細については、[Attribution IQ の概要](attribution.md)を参照してください。
 
    ![](assets/Attribution_Model_Selection.png)
 
@@ -32,7 +31,7 @@ Analysis Workspace のフリーフォームテーブルでは、ほぼあらゆ�
 
 ## アトリビューションモデルの相互比較 {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-アトリビューションモデル同士を手軽に比較したい場合は、指標を右クリックし、「**[!UICONTROL アトリビューションモデルを比較]**」を選択します。
+If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
