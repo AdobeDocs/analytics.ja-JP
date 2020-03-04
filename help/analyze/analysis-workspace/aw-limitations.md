@@ -1,8 +1,8 @@
 ---
 description: Adobe Analysis Workspace とその関連コンポーネントに関する既知の制限のリスト
 title: Analysis Workspace の既知の制限
-translation-type: ht
-source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -17,32 +17,32 @@ source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 * セグメントをテーブルの行として使用すると、「選択から指標を作成」が無効になります。また、「選択から指標を作成」は、日付順の列には適用しないでください。
 * 分類行の条件付き書式では、カスタム範囲を使用することはできません。
 * 行の値を合計して合計を計算する設定が適用されている場合は、テーブルの合計行をトレンド表示できません（通常は静的な行項目で使用されます）。
-* [!UICONTROL 貢献度分析]は、[!UICONTROL 毎日]の精度でのみ&#x200B;_実行_&#x200B;できます。[!UICONTROL 時間別]、[!UICONTROL 週別]などのデータに対して実行することはできません。
+* [!UICONTROL Contribution Analysis] は、精度でのみ実行で [!UICONTROL daily] き _ます_。 It cannot be run against [!UICONTROL hourly], [!UICONTROL weekly], etc., data.
 
 ## ビジュアライゼーション
 
-* セグメント化（[!UICONTROL フォールアウト]、[!UICONTROL フロー]、[!UICONTROL コホート]、[!UICONTROL ヒストグラム]など）を利用するビジュアライゼーションでは、計算指標を入力として使用することはできません。
-* [!UICONTROL フロー]：入口／出口ディメンション（例：[!UICONTROL 入口ページ]）は、フローでは使用できません。
-* [!UICONTROL コホート]：整数以外の値をコホート条件として使用することはできません。
+* Visualizations that leverage segmentation, such as [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort], and [!UICONTROL Histogram], cannot accept calculated metrics as inputs.
+* [!UICONTROL Flow]:入口/出口ディメンション(例：フロ [!UICONTROL Entry page]ーでは使用できません。
+* [!UICONTROL Cohort]:整数以外の値は、コホート条件として使用できません。
 
 ## パネル
 
-* セグメント比較：最初のドロップゾーンでセグメントテンプレートが使用されている場合、[!UICONTROL 他の全員]セグメントは作成されません。
+* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.
 
 ## コンポーネント／セグメント
 
-* 指標やディメンションには、セグメント化できないものがあります（[!UICONTROL 回数]、[!UICONTROL 個別訪問者数]など）。
-* セグメントが Workspace から作成される場合（[!UICONTROL コンポーネント／セグメント]から作成される場合とは異なり）、使用できないコンポーネントや演算子があります。例：IP アドレス。
+* Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
+* Certain components and operators are unavailable if a segment is created from Workspace (as opposed to being created from [!UICONTROL Components > Segments]). 例：IP アドレス。
 
 ## コンポーネント／計算指標
 
 * 計算指標は、一部のビジュアライゼーションでは使用できません。上記の「ビジュアライゼーション」を参照してください。
-* 計算指標自体に別々のアトリビューションモデルを含めることができるので、[!UICONTROL アトリビューションパネル]で計算指標を使用することはできません。
-* 計算指標が Workspace から作成される場合（[!UICONTROL コンポーネント／セグメント]から作成される場合とは異なり）、使用できないコンポーネントや演算子があります。例：[!UICONTROL IP アドレス]。
+* Calculated metrics cannot be used in the [!UICONTROL Attribution] panel, since calculated metrics themselves can include separate attribution models.
+* Certain components and operators are unavailable if a calculated metric is created from Workspace (as opposed to being created from [!UICONTROL Components > Segments]). 例：[!UICONTROL IP Address]。
 
 ## コンポーネント／日付範囲
 
-* カスタム日付範囲では、[!UICONTROL 昨年の今日]、[!UICONTROL 先月の今日]などはサポートされません。
+* カスタムの日付範囲は、サポ [!UICONTROL This day last year]ートさ [!UICONTROL This day last month]れません。
 
 ## コンポーネント／仮想レポートスイート
 
@@ -50,8 +50,8 @@ source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ## コンポーネント／レポート設定
 
-* 「[!UICONTROL レポート設定]」ページの一部の設定は適用されません。Analysis Workspace では、一番下の「[!UICONTROL 言語 / 通貨 / エンコード]」設定（[!UICONTROL 千単位区切り文字]、[!UICONTROL 予定レポートのエンコード]、[!UICONTROL CSV 区切り文字]）のみが使用されます。
+* Some of the settings on the [!UICONTROL Report Settings] page do not apply. Analysis Workspaceは、下部の設定の [!UICONTROL Language/Currency/Encoding] みを使用します。 [!UICONTROL Thousands separator]、、 [!UICONTROL Scheduled Report Encoding]および [!UICONTROL CSV Separator Character]。
 
 ## Attribution IQ
 
-* 指標のサブセットは、[!UICONTROL Attribution IQ] ではサポートされません。完全なリストについては、[Attribution IQ に関する FAQ](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md) を参照してください。
+* A subset of metrics is not supported in [!UICONTROL Attribution IQ]. 完全なリストについては、[Attribution IQ に関する FAQ](c-panels/attribution/attribution-faq.md) を参照してください。
