@@ -3,7 +3,7 @@ description: Adobe Audience Manager（AAM）は、ファーストパーティ、
 solution: Experience Cloud
 title: Audience Analytics の概要
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,12 +30,12 @@ Audience Analytics 統合には次の主要なメリットがあります。
 ![](assets/mc-aud-dataflow.png)
 
 1. デジタルプロパティに訪問者が訪問するたびに、ヒットが収集されて Analytics に送信されます。
-1. With[サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)では、Analytics が受け取った各ヒットが AAM にリアルタイムで自動的に送信されます。
-1. Audience Analyticsの統合により、ヒットごとに訪問者のオーディエンスメンバーシップがAAMで検索され、セグメントIDのリストがAnalyticsに返され、リアルタイムで処理されます。
+1. [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)では、Analytics が受け取った各ヒットが AAM にリアルタイムで自動的に送信されます。
+1. Audience Analytics 統合を通じて、各ヒットについて訪問者のオーディエンスメンバーシップが AAM で検索され、リアルタイムで処理するためにセグメント ID のリストが Analytics に返されます。
 
 AAM セグメントは同じヒットごとに挿入されるので、AAM で使用可能な訪問者に関するどのデータも欠落することなく、ヒットに対して最新の状態が保たれます。AppMeasurement プラグインでは、これらのセグメントを次のヒットでのみ使用できます（現在のヒットでは使用できません）。Analytics データ収集は、この点で AppMeasurement プラグインより優れています。
 
-また、AAMセグメントIDは、Analyticsレポートで英数字のIDを確認する必要がないように、わかりやすい名前に自動的に分類されます。
+また、AAM セグメント ID はわかりやすい名前に自動的に分類されるので、Analytics レポートで英数字の ID を参照する必要はありません。
 
 ## 前提条件 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
@@ -43,8 +43,8 @@ AAM セグメントは同じヒットごとに挿入されるので、AAM で使
 
 * Audience Manager と Adobe Analytics の両方のユーザーである。
 * Audience Manager 管理者である。
-* Identity Service v1.5以降を使用している。
-* AAM および Adobe Analytics レポートスイートが、[同じ Experience Cloud 組織にマッピングされている](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)。
-* You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
+* ID サービス v1.5 以降を使用している。
+* AAM および Adobe Analytics レポートスイートが、[同じ Experience Cloud 組織にマッピングされている](https://marketing.adobe.com/resources/help/ja_JP/mcloud/report-suite-mapping.html)。
+* [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)を使用していて、[Audience Management モジュール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)（DIL コードなし） - AppMeasurement 1.5 以降を実装している。
 
-これらの前提条件は、 [Audience Analyticsワークフローで説明します](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)。
+これらの前提条件は、[Audience Analytics ワークフロー](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)に記載されています。
