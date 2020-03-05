@@ -2,7 +2,7 @@
 description: 'null'
 title: 広告アカウントの管理
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 広告アカウントの管理
 
-You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+管理 UI にアクセスするには、**[!UICONTROL 管理者]**／**[!UICONTROL Advertising アカウント]**&#x200B;に移動します。
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,7 +24,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>アクション</b> </p> </td> 
-   <td colname="col2"> <p><b>注意：アクションは、少なくとも1つの広告アカウントを選択した場合にのみ表示されます。 </b> </p> </td> 
+   <td colname="col2"> <p><b>注意：アクションは、少なくとも 1 つの Advertising アカウントを選択している場合にのみ表示されます。</b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 追加 </p> </td> 
@@ -60,7 +60,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>アカウント </p> </td> 
-   <td colname="col2"> <p>次の2つのサポートされているアカウントタイプのいずれかを示します。Google AdwordsまたはBing Adsを参照してください。 </p> </td> 
+   <td colname="col2"> <p>サポートされる 2 つのアカウント タイプ（Google AdWords または Bing Ads）のうちいずれかをリストします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ステータス </p> </td> 
