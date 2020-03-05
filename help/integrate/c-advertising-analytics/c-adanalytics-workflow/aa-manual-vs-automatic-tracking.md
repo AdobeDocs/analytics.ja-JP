@@ -1,8 +1,8 @@
 ---
 description: トラッキングにより、Adobe Analytics の実装による検索エンジンデータの追跡方法が決まります。これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。
-title: 手動モードと自動モードの追跡
+title: トラッキング：手動モードと自動モード
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 そのため、アカウント設定を保存するには自動モードの選択時に承認のチェックボックスをチェックする必要があります。
 
 
-「自動モード」で検索エンジンのアカウントを設定する場合は、次の操作を行う必要があります。
+「自動モード」で検索エンジンのアカウントを設定するには、以下の作業を行う責任があります。
 
 * 「s_kwcid」のパラメーターおよび値がアカウントのトラッキングテンプレート、または追加されるアカウント内のランディングページ URL に追加されます。これは、URL の最後に挿入されます。ウェブサーバーに特定の key=value ペアが URL の最後に必要な場合や、URLの で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業を行う必要がある場合があります。**ユーザーの責任のもとに、追加された URL パラメーターが最終的なランディングページまで適切に保持されるようにする必要があります。**
 * 加えて、キーワードを「s_kwcid」値の一部としてランディング URL に追加できます。特殊文字や記号が含まれる場合は、ウェブサーバーでそれらの文字がサポートされていることを確認してください。例：一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます。
@@ -36,7 +36,7 @@ Google アカウントに追加する必要がある文字列を以下に示し�
 
 >[!IMPORTANT]
 >
->The `<Advertising Analytics ID>` value (in **bold** below) is generic and **must be replaced with your specific account ID string**. 使用する固有のアカウント ID 文字列は、「トラッキング」セクションのアカウント設定画面から取得できます。
+>`<Advertising Analytics ID>` の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。使用する固有のアカウント ID 文字列は、「トラッキング」セクションのアカウント設定画面から取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -55,21 +55,21 @@ s_kwcid=AL!
 {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**`{lpurl}`追加のURLパラメーターを使用**
+**`{lpurl}`と追加の URL パラメーター&#x200B;**
 
 ```
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**サードパーティ(DoubleClick)`{unescapedlpurl}`**
+**サードパーティ（ダブルクリック）`{unescapedlpurl}`**
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-**サードパーティ(DoubleClick)`{lpurl}`**
+**サードパーティ（ダブルクリック）`{lpurl}`**
 
-URLがリダイレクトを経て、「unescapedlpurl」値を使用しない場合は、最終的なランディングページURLへのリダイレクトを通じてURLが持続するように、十分な時間をかけて文字列をエンコードする必要があります。
+URL がリダイレクトを経由し、値「unescapedlpurl」を使用しない場合は、文字列がリダイレクトを通じて最終的なランディングページ URL まで保持されるように十分な時間エンコードする必要があります。
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -77,11 +77,11 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 ### Bing アカウントへの手動トラッキングの追加 {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-Bing アカウントに追加する必要がある文字列を以下に示します。アカウント全体で使用される最後のURLサフィックスすべてに文字列を追加する必要があります。
+Bing アカウントに追加する必要がある文字列を以下に示します。アカウント全体で使用されるすべての最終 URL サフィックスに文字列を追加する必要があります。
 
 >[!IMPORTANT]
 >
->The `<Advertising Analytics ID>` value (in **bold** below) is generic and **must be replaced with your specific account ID string**. 使用する固有のアカウント ID 文字列は、「トラッキング」セクションのアカウント設定画面から取得できます。
+>`<Advertising Analytics ID>` の値（下記の&#x200B;**太字**&#x200B;部分）は総称であり、**固有のアカウント ID 文字列に置き換える必要があります**。使用する固有のアカウント ID 文字列は、「トラッキング」セクションのアカウント設定画面から取得できます。
 
 **キャンペーンのトラッキング文字列：**
 
@@ -91,7 +91,7 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 
 ![](assets/Bing.png)
 
-様々な最終URLサフィックス形式のトラッキングコードの例を次に示します。
+様々な最終 URL 形式によるトラッキングコードの例：
 
 **{lpurl}**
 
@@ -99,22 +99,22 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 {lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`
 ```
 
-**`{lpurl}`追加のURLパラメーターを使用**
+**`{lpurl}`と追加の URL パラメーター&#x200B;**
 
 ```
 {lpurl}?campaign=PPC&
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**サードパーティ(DoubleClick) `{unescapedlpurl}**
+**サードパーティー（ダブルクリック）{unescapedlpurl}**
 
 ```https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 
 ```
 
-**サードパーティ(DoubleClick)`{lpurl}`**
+**サードパーティ（ダブルクリック）`{lpurl}`**
 
-URLがリダイレクトを経て、「unescapedlpurl」値を使用しない場合は、最終的なランディングページURLへのリダイレクトを通じてURLが持続するように、十分な時間をかけて文字列をエンコードする必要があります。
+URL がリダイレクトを経由し、値「unescapedlpurl」を使用しない場合は、文字列がリダイレクトを通じて最終的なランディングページ URL まで保持されるように十分な時間エンコードする必要があります。
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}
