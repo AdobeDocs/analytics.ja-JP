@@ -2,7 +2,7 @@
 description: 'null'
 title: よくある質問
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,12 +21,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer</b> to access this functionality? </p> </td> 
+   <td colname="col1"> <p>質問：この機能にアクセスするには、<b>Adobe Advertising Cloud または Adobe Advertising Cloud（AMO）の顧客</b>である必要がありますか？ </p> </td> 
    <td colname="col2"> <p>回答：いいえ。この機能は、Advertising Cloud 以外、および AMO 以外のお客様が利用できます。 </p> <p>AMO のお客様は、既存の Analytics-AMO 統合を利用できますが、Ad Analytics は使用できません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics の使用権限を得られるのはどの<b>Adobe Analytics SKU</b> ですか？ </p> </td> 
-   <td colname="col2"> <p>回答：Advertising Analytics は、Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> SKU で利用できます。 </p> </td> 
+   <td colname="col2"> <p>回答：Advertising Analytics は、Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a>、<a href="https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> SKU で利用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics を使用するには、<b>追加料金</b>が必要ですか？ </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Advertising Analytics の使用 {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Advertising Analytics の使用{#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -89,15 +89,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：<b>Advertising Analytics アカウントを特定のレポートスイートにマッピングしようとしていますが</b>、レポートスイートモーダルで利用できません。なぜですか？ </p> </td> 
-   <td colname="col2"> <p>回答：レポートスイートを Advertising Analytics アカウントに割り当てるには、目的のレポートスイートを<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Advertising Analytics レポート用にプロビジョニングする</a>必要があります。 </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>回答：レポートスイートを Advertising Analytics アカウントに割り当てるには、目的のレポートスイートを<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  > Advertising Analytics レポート用にプロビジョニングする</a>必要があります。 </p> <p>これは別の管理者ページでおこないます。このページには、<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">[Experience Cloud 対応レポートスイートを選択]</span>／<span class="uicontrol">設定を編集</span>／<span class="uicontrol">Advertising Analytics 設定</span></span>からアクセスできます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics アカウントに<b>仮想レポートスイート</b>（VRS）を割り当てることはできますか？ </p> </td> 
-   <td colname="col2"> <p>回答：仮想レポートスイート（VRS）はデータを収集しないので、VRS に Advertising Analytics アカウントを直接マッピングすることはできません。 </p> <p>ただし、データを表示したい VRS の親レポートスイートに Advertising Analytics をマッピングできます。 </p> <p>AMO ID（またはその分類）に基づくセグメントロジックに「or」条件を含めない限り、検索エンジン指標（クリック/コスト/インプレッション）がVRSに表示されない場合があります。 例：「AMO IDが存在するすべてのヒット」を追加すると、セグメントに検索エンジン指標が含まれます。 </p> </td> 
+   <td colname="col2"> <p>回答：仮想レポートスイート（VRS）はデータを収集しないので、VRS に Advertising Analytics アカウントを直接マッピングすることはできません。 </p> <p>ただし、データを表示したい VRS の親レポートスイートに Advertising Analytics をマッピングできます。 </p> <p>検索エンジンの指標（クリック、コスト、インプレッション）は、AMO ID（またはその分類）に基づいたセグメントのロジックに「or」条件を含めない限り、VRS に表示されない場合があります。例：「AMO ID が存在するすべてのヒット」を追加すると、セグメント内の検索エンジンの指標が含まれます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics 指標は<b>マーケティングチャネル</b>レポートでレポート可能ですか？ </p> </td> 
-   <td colname="col2"> <p>A:いいえ。マーケティングチャネルレポートには含まれません。 </p> </td> 
+   <td colname="col2"> <p>回答：いいえ。それらの指標はマーケティングチャネルレポートに含まれません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：検索データは Analytics に<b>いつ</b>取り込まれますか？ </p> </td> 
@@ -113,7 +113,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：キャプチャするのは google.com のみですか、それとも<b>各国語版</b>（google.co.uk、google.it、google.fr、google.de など）も含まれますか？ </p> </td> 
-   <td colname="col2"> <p>A:広告プラットフォーム分類は、次の値を取得します。「Google Adwords」および「Bing Ads」を参照してください。 </p> <p>一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。次に、フィルターまたはセグメント化を行います(例えば、すべてのキャンペーンが国コードで始まる場合、キャンペーン(AMO ID)が「UK_」で始まるセグメントを作成すると、英国のデータのみが提供されます)。 </p> </td> 
+   <td colname="col2"> <p>回答：広告プラットフォーム分類は、値「Google Adwords」および「Bing Ads」を取得します。 </p> <p>一般的なベストプラクティスとして、キャンペーンの名前の一部に国コードを含めます。これにより、フィルタリングしたりセグメント化したりできます（例：すべてのキャンペーンがcountrycode_ で始まる場合、「UK_」で始まるキャンペーン（AMO ID）のセグメントを作成すると、UK のデータのみが提供されます）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：指標「AMO コスト」は、検索エンジンでレポートされたキーワード／広告ごとに支払われたコストですが、これは、純コストと総コストのどちらですか？ </p> </td> 
@@ -126,7 +126,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## 自動トラッキングと手動トラッキング {#section_7437C4698A6D482EB7ED94A948390119}
+## 自動トラッキングと手動トラッキング{#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
