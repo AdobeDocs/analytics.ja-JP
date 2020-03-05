@@ -2,7 +2,7 @@
 description: Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指標がありますが、様々な理由で 100％同じではありません。
 title: 訪問者数の相違
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,11 +23,11 @@ Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM：Total Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：Total Segment Population</a> </p> </td> 
    <td colname="col3"> <p>ルックバック期間にセグメントのメンバーであったデバイス（Experience Cloud ID）の数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM：Real-Time Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：Real-Time Segment Population</a> </p> </td> 
    <td colname="col3"> <p>ルックバック期間にセグメントのメンバーであり、プロパティにアクセスしたデバイス（Experience Cloud ID）の数。 </p> </td> 
   </tr> 
   <tr> 
@@ -59,15 +59,15 @@ Audience Analytics レポート内で使用される AAM の「Real-time Segment
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタムフィルター </p> </td> 
-   <td colname="col2"> <p>なし </p> </td> 
-   <td colname="col3"> <p>あり（IP フィルター、ボットフィルターなど） </p> </td> 
+   <td colname="col2"> <p>× </p> </td> 
+   <td colname="col3"> <p>○、（IP フィルター、ボットフィルターなど） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>150 セグメントの制限 </p> </td> 
-   <td colname="col2"> <p>なし </p> </td> 
-   <td colname="col3"> <p>あり - Analytics のカウントは、150 セグメントの統合制限によって最大 5％影響を受けることがあります。切り捨てが発生すると、「オーディエンスの上限に達しました」がオーディエンス名ディメンションに表示されます。 </p> </td> 
+   <td colname="col2"> <p>× </p> </td> 
+   <td colname="col3"> <p>○- Analytics のカウントは、150 セグメントの統合制限によって最大 5％影響を受けることがあります。切り捨てが発生した場合、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-See [Understanding Segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
+Analytics および Audience Manager のデータとセグメントのニュアンスについて詳しくは、[Analytics と Audience Manager のセグメントについて](/help/integrate/c-audience-analytics/aam-analytics-segments.md)を参照してください。
