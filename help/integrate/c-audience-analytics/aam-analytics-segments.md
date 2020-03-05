@@ -2,7 +2,7 @@
 description: Analytics と Audience Manager ではセグメントが使用されます。ただし、Analytics セグメントは Audience Manager セグメントとまったく同じではありません。これらの相違は、Analytics レポートと Audience Manager レポートの相違に一部関係しています。このため、これらのソリューションでセグメントの操作を開始するときには、そうした相違を理解することが重要であり、役に立ちます。
 title: Analytics と Audience Manager のセグメントについて
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -25,21 +25,21 @@ Audience Manager セグメントのメンバーシップは流動的です。ユ
 
 Audience Manager セグメントは、Analytics ではオーディエンスとして示されます。
 
-詳しくは、[セグメントビルダーの特性とセグメント母集団データ](https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html)および[シグナル、特性およびセグメント](https://marketing.adobe.com/resources/help/en_US/aam/c_signal_trait_segment.html)を参照してください。
+詳しくは、[セグメントビルダーの特性とセグメント母集団データ](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html)および[シグナル、特性およびセグメント](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/signal-trait-segment.html)を参照してください。
 
 ## Analytics セグメント {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
-Analytics セグメントは、レポートのデータのフィルタリングメカニズムです。フィルターは、Audience Managerと同様に、訪問者レベルで厳密に行われるのではなく、訪問者レベル、訪問レベルまたはヒットレベルで行われる可能性があります。 Analytics セグメントと Audience Manager セグメントを比較するときに考慮する必要があるいくつかの重要な要因があります。
+Analytics セグメントは、レポートのデータのフィルタリングメカニズムです。フィルタリングは、Audience Manager のように訪問者レベルのみではなく、訪問者、訪問またはヒットのレベルでおこなうことができます。Analytics セグメントと Audience Manager セグメントを比較するときに考慮する必要があるいくつかの重要な要因があります。
 
 * Analytics セグメントは、Audience Manager セグメントとは異なる一連のデータに作用します。データ収集中に、Analytics は Audience Manager ではおこなわれない様々な後処理をデータに適用します。後処理には、eVar の持続性、処理ルール、参照（位置情報、モバイルデバイス）、VISTA などがあります。Audience Manager は、前処理されたデータをサーバー側転送（または DIL）から受け取ります。
 
    一般的に、データの相違は、期限切れになることがない Analytics のディメンションと Audience Manager の同じディメンションに基づいてセグメントを比較したときに発生します。例えば、期限切れになることがない listVars またはマーチャンダイジング eVar です。
 
-   例えば、eVar = blueで、Analyticsで有効期限が切れないように設定されている場合、Analytics内の条件「eVar = blue」を持つセグメントには常にこの訪問者が含まれます。 それに対して、Audience Manager では、設定された期間の後に、同様に定義されたセグメントからその訪問者が除外される場合があります。
+   例えば、eVar = blue で、期限切れになることがないと Analytics で設定されている場合、条件「eVar = blue」を持つ Analytics のセグメントには常にこの訪問者が含まれます。それに対して、Audience Manager では、設定された期間の後に、同様に定義されたセグメントからその訪問者が除外される場合があります。
 
 * Analytics セグメントには AAM セグメントより多くの機能があります。Audience Manager セグメントは、常に訪問者レベルで評価されます。Analytics セグメントは、訪問者、訪問またはヒットのレベル（またはこれらのレベルの組み合わせ）で定義できます。また、Analytics では、Audience Manager ではサポートされない連続セグメントなどの拡張セグメント機能がサポートされます。
 * 前述のように、Audience Manager の訪問者は、現時点でセグメントの条件を満たしているかどうかに応じてセグメントに含められたり、除外されたりします。
 
-   逆に、Analytics では、訪問者はレポートの日付範囲に基づいてセグメントに含められたり、除外されたりします。例えば、1 人の訪問者が先月購入をおこなったとします。AAMでは、日付範囲に関係なく、その訪問者は「購入者」セグメントに含まれます。 Analytics の今月に基づくレポートでは、この訪問者は「購入者」セグメントに含められません。しかし、今月と先月に基づくレポートではこの訪問者が「購入者」セグメントに含められます。
+   逆に、Analytics では、訪問者はレポートの日付範囲に基づいてセグメントに含められたり、除外されたりします。例えば、1 人の訪問者が先月購入をおこなったとします。AAM では、その訪問者は日付範囲に関係なく「購入者」セグメントに含められます。Analytics の今月に基づくレポートでは、この訪問者は「購入者」セグメントに含められません。しかし、今月と先月に基づくレポートではこの訪問者が「購入者」セグメントに含められます。
 
-詳しくは、[Analytics セグメントガイド](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)を参照してください。
+詳しくは、[Analytics セグメントガイド](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/)を参照してください。
