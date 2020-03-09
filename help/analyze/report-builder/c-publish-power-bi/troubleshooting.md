@@ -2,7 +2,7 @@
 description: ここでは、Report Builder を Power BI と共に使用しているときによく発生する問題をいくつか紹介します。
 title: Power BI 統合のトラブルシューティング
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ここでは、Report Builder を Power BI と共に使用しているときによく発生する問題をいくつか紹介します。
 
-## 手順 1. Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
+## 手順 1.Power BI への発行の失敗 {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
 
 スケジュールされたワークブックの Power BI 発行が成功するには、Power BI サービスが起動して動作している必要があります。発行の失敗には主に次の 2 つの理由があります。
 
@@ -25,7 +25,7 @@ Report Builder でスケジュールされた各タスクは、スケジュー�
 * 2 回目の試行が失敗に終わると、メッセージは表示されません。
 * 3 回目の試行が失敗に終わると、「このワークブックを Power BI に発行できませんでした」というメッセージが表示されます。
 
-## 手順 2. Broken visualizations in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
+## 手順 2.Power BI のビジュアライゼーションの破損 {#section_FFFE200D06F843B2AF093710FD678166}
 
 Report Builder リクエストを Power BI に発行した後にビジュアライゼーションが壊れる主な理由を以下に示します。
 
