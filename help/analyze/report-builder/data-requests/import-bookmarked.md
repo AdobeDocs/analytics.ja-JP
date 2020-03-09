@@ -3,7 +3,7 @@ description: ブックマークされたレポートおよびダッシュボー�
 title: ブックマークされたレポートおよびダッシュボードレポートのインポート
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,11 +19,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/import_dashboard_reportlet.png)
 
-When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrieve your Bookmarks]**, your existing dashboard and/or bookmark data is retrieved and pasted in the worksheet.
+「**[!UICONTROL ダッシュボードを取得]**」または「**[!UICONTROL ブックマークを取得]**」をクリックすると、既存のダッシュボードまたはブックマークの設定情報が取得され、リクエストウィザードの設定に反映されます。
 
-> [!NOTE] Report Builderでは、使用可能なダッシュボードとブックマークのリストは、ユーザーだけでなく、ウィザードの手順1で選択したレポートスイートに適用されるものに制限されます。 一方、Reports &amp; Analytics では、ユーザーがアクセス可能なブックマークとダッシュボードであれば、これらのダッシュボードとブックマークでどのレポートスイートが使用されるかに関係なく、すべてにアクセスできます。
+> [!NOTE]Report Builder では、利用できるダッシュボードとブックマークのリストはユーザーによって制限され、さらに、ウィザードのステップ 1 で選択したレポートスイートに該当するものだけに制限されます。一方、Reports &amp; Analytics では、ユーザーがアクセス可能なブックマークとダッシュボードであれば、これらのダッシュボードとブックマークでどのレポートスイートが使用されるかに関係なく、すべてにアクセスできます。
 
-> [!NOTE] データのみがインポートされるので、ブックマークにグラフが含まれている場合や、ダッシュボードレポートレットにグラフのみが含まれている場合は、グラフの入力に使用されるデータのみがインポートされます。
+> [!NOTE]データのみがインポートされるので、ブックマークにチャートが含まれている場合や、ダッシュボードレポートレットがチャートのみで構成されている場合は、チャートの作成に使用されているデータのみがインポートされます。
 
 ダッシュボードレポートレット（またはブックマーク）をインポートしてリクエストを作成すると、そのリクエストはレポートレット（またはブックマーク）のプライマリディメンションに関連付けられます。その結果、リクエストを編集する場合、ツリービューではダッシュボードレポートレットのツリービューノード（またはブックマークノード）は選択されず、代わりにプライマリディメンションが選択された状態になります。
 
@@ -31,5 +31,5 @@ When you click **[!UICONTROL Retrieve your Dashboards]** or **[!UICONTROL Retrie
 
 >[!IMPORTANT]
 >
->日付範囲は同じ日付範囲に設定されますが、静的な日付範囲として設定されます（Reports &amp; Analyticsのブックマークでこの日付範囲が相対的な日付範囲であった場合も含む）。
+>日付範囲は同じ日付範囲に設定されますが、Reports &amp; Analytics のブックマークでこの日付範囲が相対的な日付範囲であった場合でも、静的な日付範囲として設定されます。
 
