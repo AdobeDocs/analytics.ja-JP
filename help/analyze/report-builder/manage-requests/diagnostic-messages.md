@@ -3,7 +3,7 @@ description: 診断メッセージによって、更新したリクエストの�
 title: 診断メッセージ
 topic: Report builder
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
