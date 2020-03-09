@@ -1,9 +1,9 @@
 ---
-description: AND/OR検索式を持つBooleanロジックを使用して設定するランキングフィルターと条件フィルター。
+description: Boolean ロジックと AND／OR 検索式を使用して設定する、ランキングおよび条件フィルター。
 title: 最頻使用フィルター
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 最頻使用フィルター
 
-AND/OR検索式を持つBooleanロジックを使用して設定するランキングフィルターと条件フィルター。
+Boolean ロジックと AND／OR 検索式を使用して設定する、ランキングおよび条件フィルター。
 
-Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. You can [save](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) these expressions for other request in this workbook, or in other workbooks.
+最頻使用フィルターは、Boolean ロジックと AND／OR 条件を使用して設定する式フィルターです。「[!UICONTROL  を含まないページ&#x200B;]*`<product name>`*」、「[!UICONTROL すべてを含む]」、「[!UICONTROL いずれかを含む]」、「[!UICONTROL すべてを除外]」などの条件を設定できます。現在のワークブックや他のワークブックで使用する他のリクエスト用に、これらの式を[保存](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md)することができます。
 
 **最頻使用フィルターを作成するには**
 
@@ -21,8 +21,8 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![ステップ情報](assets/dimension_filter.png)
 
-1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
-1.  「[!UICONTROL ページを選択]**」フォームで、「[!UICONTROL ランクから選択]**」を有効にして、次のオプションを設定します。
+1.  [!UICONTROL リクエストウィザード：ステップ 2] で、グリッド内のディメンションの隣にあるリンクをクリックし、「**[!UICONTROL フィルター]**」を選択します。
+1.  「[!UICONTROL ページを選択]」フォームで、「**[!UICONTROL ランクから選択]**」を有効にして、次のオプションを設定します。
 
    **開始ランク：**&#x200B;ディメンションの表示開始位置です。デフォルトのランクである「1」は、レポートされるデータのリストの最上位項目を示します。例えば、「[!UICONTROL ページ]」ディメンションで開始マーク「1」を指定した場合、サイトで「最も」リクエストの多いページを示します。開始ランクセルには 10 などの他の値を指定することもできます。これにより、「10」位以降の項目が表示されます。指標は降順に並べられます。このため、最大のアクティビティがある行項目が、リストの最初に表示されます。最大行数である 50,000 を超える項目を取得したい場合は、リクエストをコピーして開始ランクを変更することで、50,000 の単位で大量のデータを取得することができます。
 
@@ -32,9 +32,9 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >既存のリクエストにフィルターを適用すると、表示されるデータが変更されます。 セル $A$1 から $A$10 にかけて、上位 10 [!UICONTROL ページ]をマッピングし、「[!UICONTROL 開始ランク]」に 1、「[!UICONTROL エントリ数]」に 10 を入力しているとします。「[!UICONTROL 開始ランク]」に 1、「[!UICONTROL エントリ数]」に 3 のみを表示するように値を変更した場合、セル $A$4 から $A$10 に表示されていたデータは表示されなくなります。
+   >既存のリクエストにフィルターを適用すると、表示されているデータが変更されます。セル $A$1 から $A$10 にかけて、上位 10 [!UICONTROL ページ]をマッピングし、「[!UICONTROL 開始ランク]」に 1、「[!UICONTROL エントリ数]」に 10 を入力しているとします。「[!UICONTROL 開始ランク]」に 1、「[!UICONTROL エントリ数]」に 3 のみを表示するように値を変更した場合、セル $A$4 から $A$10 に表示されていたデータは表示されなくなります。
 
-1. To create a search expression, click **[!UICONTROL Add]**.
+1. 検索式を作成するには、「**[!UICONTROL 追加]**」をクリックします。
 
    ![ステップ情報](assets/expressions_define_filter.png)
 
@@ -48,5 +48,5 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![ステップ情報](assets/choose_page_02.png)
 
-1. 「[!UICONTROL ページを選択]**」で「[!UICONTROL 保存]**」をクリックし、式を保存します。
+1. 「[!UICONTROL ページを選択]」で「**[!UICONTROL 保存]**」をクリックし、式を保存します。
 1. 「**[!UICONTROL OK]**」をクリックします。
