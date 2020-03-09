@@ -3,7 +3,7 @@ description: 共有されているワークブックをダウンロードして�
 title: ワークブックのダウンロード
 topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,8 +13,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 共有されているワークブックをダウンロードして編集します。
 
-1. In Excel, click **[!UICONTROL Share]**.
-1. Under **[!UICONTROL Uploaded Workbooks]**, select the workbook and click **[!UICONTROL Download]**.
+1. Excel で、「**[!UICONTROL 共有]**」をクリックします。
+1. 「**[!UICONTROL アップロードしたワークブック]**」で、ワークブックを選択して、「**[!UICONTROL ダウンロード]**」をクリックします。
 1. ファイルを保存します。
 >次のオプションは、ワークブックの所有者のみが使用できます。
 >
