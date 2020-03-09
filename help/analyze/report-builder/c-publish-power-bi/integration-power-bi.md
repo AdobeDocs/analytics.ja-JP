@@ -2,7 +2,7 @@
 description: Adobe Analytics コンテンツパックには、事前作成された Power BI ダッシュボードと一連の Power BI レポートが用意されており、サイトトラフィックおよびユーザーディメンションに関するインサイトが得られます。ダッシュボードとレポートは、そのまま使用したり、カスタマイズして注目している情報をハイライト表示したりできます。データは毎日 1 回自動的に更新されます。
 title: Power BI 用 Adobe Analytics コンテンツパック
 uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
