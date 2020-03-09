@@ -3,7 +3,7 @@ description: マクロが設定された .xlsm 形式のワークブックをス
 title: マクロが有効なワークブックのスケジュール
 topic: Report builder
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,6 +17,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->Report Builderでは、マクロを含むワークブックをスケジュールできますが、スケジュールされた各実行時にこれらのマクロは実行されません。 マクロは、受信後に PC 上でワークブックを開いたときに実行されます。
+>Report Builder では、マクロ付きのワークブックをスケジュールできますが、これらのマクロは配信前の更新時には実行されません。マクロは、受信後に PC 上でワークブックを開いたときに実行されます。
 
 スケジュールされたマクロ付きのワークブックは、マクロが有効な形式（.xlsm）でのみ配信できます。その他のサポートされている形式（xls、xlsx、PDF、Word、csv または txt）ではワークブックからマクロが削除されます。
