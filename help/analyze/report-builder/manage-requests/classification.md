@@ -3,7 +3,7 @@ description: 分類は、分析レポートデータの行項目を別の観点�
 title: 分類
 topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,4 +17,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 分類した結果、独立したレポートが生成されるため、通常のレポートと同じ方法でアクセスできるようになります。また、ディメンションはグループ内で最上位のレポートとして表示されます。レポートが分類されている場合、メニュー中のリンクがフォルダーに変わり、その下に子分類のレポートへのリンクが追加されます。分類前の元のレポートへのリンクは、フォルダーの中の一番下に表示されます。
 
-分類を参 [照してください](/help/components/c-classifications2/c-classifications.md)。
+[分類](/help/components/c-classifications2/c-classifications.md)を参照してください。
