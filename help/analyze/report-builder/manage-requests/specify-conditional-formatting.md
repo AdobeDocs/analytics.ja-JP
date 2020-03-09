@@ -3,7 +3,7 @@ description: リクエストが埋め込まれたレポートを作成すると�
 title: 条件付き書式の指定
 topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 リクエストが埋め込まれたレポートを作成すると、ワークブックのセルに条件付き書式を適用できます。
 
-On the report builder Toolbar, click **[!UICONTROL Format]**.
+Report Builder ツールバーで、「**[!UICONTROL 書式]**」をクリックします。
 
 条件付き書式を使用すると、監視する結果または値を含むセルを識別できます。例えば、売上高が予測を下回る場合は特定のセルに赤色の網かけ（または強調表示）を適用し、売上高が予測を上回る場合は青色の網かけを適用することができます。リクエストの日付範囲の変更によりセルの値が条件を満たさないと、その条件を強調表示する書式が一時的に無効になります。一致する条件がないため、指定する条件付き書式でセルの書式の表示が変更されない場合でも、削除されるまで条件付き書式は引き続きセルに適用されます。
 
 セキュリティ上の理由から、Excel の Visual Basic for Applications（VBA）言語を使用してワークブック用に作成したマクロは無効になります。
 
-> [!NOTE] 条件付き書式はExcelの機能です。 書式ルール作成については、Excel のマニュアルを参照してください。
+> [!NOTE]条件付き書式は Excel の機能です。書式ルール作成については、Excel のマニュアルを参照してください。
 
