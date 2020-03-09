@@ -1,9 +1,9 @@
 ---
-description: リクエストウィザードの手順2に指標とディメンションを追加して、リクエスト内のデータのAnalyticsレイアウトを定義できます。 Report Builderの指標とディメンションのリストは、Reports & Analyticsに表示されるメニューレイアウトに従います。
+description: リクエストウィザード：ステップ 2 で指標とディメンションを追加し、リクエスト内でデータの Analytics レイアウトを定義できます。Report Builder の指標とディメンションのリストは、Reports and Analytics 内に表示されるメニューレイアウトと同じです。
 title: 指標およびディメンションの概要
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 指標およびディメンションの概要
 
-指標とディメンションは、リクエストウィザードに追加できます。手順2で、リクエスト内のデータのAnalyticsレイアウトを定義します。 Report Builderの指標とディメンションのリストは、Reports &amp; Analyticsに表示されるメニューレイアウトに従います。
+リクエストウィザード：ステップ 2 で指標とディメンションを追加し、リクエスト内でデータの Analytics レイアウトを定義できます。Report Builder の指標とディメンションのリストは、Reports and Analytics 内に表示されるメニューレイアウトと同じです。
 
-指標は数値で表されます。指標は、[!UICONTROL ページビュー数]、[!UICONTROL クリックスルー数]、[!UICONTROL リロード回数]、[!UICONTROL 平均滞在時間]、[!UICONTROL 数量]など、Web サイト上のアクティビティに関する定量情報から構成されます。Analyticsの次の標準的なグループに従い、Report Builderは指標を複数のグループに分類しています。
+指標は数値で表されます。指標は、[!UICONTROL ページビュー数]、[!UICONTROL 訪問者プロファイル]、[!UICONTROL クリックスルー数]、[!UICONTROL リロード回数]、[!UICONTROL 平均滞在時間]、[!UICONTROL 数量]など、Web サイト上のアクティビティに関する定量情報から構成されます。Analytics の次の標準的なグループに従い、Report Builder は指標を複数のグループに分類しています。
 
 * 標準 - トラフィック：指定した行項目を基準とした指標が表示されます。例えば、ページレポートの訪問回数指標には、その特定のページへの訪問数が表示されます。
 * 標準 - コンバージョン：売上高、注文件数、チェックアウト件数などの指標です。
