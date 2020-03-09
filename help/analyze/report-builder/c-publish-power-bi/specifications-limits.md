@@ -2,7 +2,7 @@
 description: 'null'
 title: 制限および仕様
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,17 +10,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 制限および仕様
 
-## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
+## Power BI 発行の制限 {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
-> [!NOTE] これらの制限は、「Report BuilderリクエストをPower BIデータセットテーブルとして発行」オプションにのみ適用されます。
+> [!NOTE]以下の制限は、「すべての Report Builder リクエストを Power BI データセットテーブルとして発行」オプションのみに当てはまります。
 
 * Power BI にエクスポートできる Report Builder リクエストの上限は、ワークブックあたり 100 個です。
 * リクエストのエクスポートは、スケジュールの処理でリクエストの数が 101 になったときに停止されます。
 * 各 Report Builder リクエストで Power BI に送信される Analytics データは最初の 10,000 行のみです。残りの行は無視されます。
 
-## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
+## Power BI に発行した後の Report Builder リクエストの編集 {#section_6989E74F68DD43F08D37C36B6777DB50}
 
-> [!NOTE] この仕様は、「Power BIデータセットテーブルとしてすべてのReport Builderリクエストを発行」および「Power BIデータセットテーブルとしてワークブック内のすべての書式化されたテーブルを発行」オプションに適用されます。
+> [!NOTE]この仕様は、「すべての Report Builder リクエストを Power BI データセットテーブルとして発行」および「すべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行」オプションに当てはまります。
 
 Power BI に発行した後に Report Builder リクエストを編集すると、問題が発生する場合があります。
 
@@ -54,7 +54,7 @@ Power BI に発行した後に Report Builder リクエストを編集すると�
 
 * **ケース 2**：ワークブックのセクションを Power BI のダッシュボードにピン留めして、後でそのピン留めしたセクション（グラフやテーブルなど）をワークブックから削除します。そうすると、ビジュアライゼーションが壊れます。
 
-## Change the name of a Power BI report {#section_2E7893A78B914EBFACB2B08CBD9E472E}
+## Power BI レポートの名前の変更 {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
 デフォルトでは、Power BI レポートの名前には（.xlsx 拡張子を除いた）ワークブックのファイル名が付けられます。ただし、スペースはアンダースコア文字に置換されます。
 
@@ -62,5 +62,5 @@ Power BI に発行した後に Report Builder リクエストを編集すると�
 
 * ラベルは、行および列のアドレスと間違えられる可能性がある文字と数字の組み合わせにすることはできません。例えば、A100 をラベルにすることはできません。これは、ワークシート内のセルのアドレスだからです。
 * 「#」、「@」、「!」、「$」、「^」、「&amp;」、「*」、「`」、「~」、「 」の各文字は、ラベルの文字として無効です。これらの文字はアンダースコア文字に置換されます。
-* 無効な名前を入力すると、警告メッセージが表示され、自動生成された名前の候補が提示されます。If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* 無効な名前を入力すると、警告メッセージが表示され、自動生成された名前の候補が提示されます。「**[!UICONTROL はい]**」をクリックすると、その名前が使用されます。「**[!UICONTROL いいえ]**」をクリックすると、詳細ウィザード UI で新しい名前を入力できます。
 
