@@ -3,7 +3,7 @@ description: レポートに名前を付けたり、行ヘッダーと列ヘッ�
 title: 表示ヘッダーのフォーマット
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,17 +14,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 レポートに名前を付けたり、行ヘッダーと列ヘッダーの表示方法を設定したりすることができます。ピボットレイアウトとカスタムレイアウトで、「フォーマットオプション」のリンクから指定できます。
 
 1. [!UICONTROL リクエストウィザード：ステップ 1] でリクエストを作成します。
-1. 「**[!UICONTROL Next]**」をクリックします。
+1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. [!UICONTROL リクエストウィザード：ステップ 2] のフォームで、必要に応じて、リクエストにディメンションおよび指標データを追加します。
-1. Click **[!UICONTROL Format Options]**.
+1. 「**[!UICONTROL フォーマットオプション]**」をクリックします。
 1. [!UICONTROL 表示]オプションを設定します。
 
    | 要素 | 説明 |
    |--- |--- |
-   | レポート名 | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
+   | レポート名 | リクエストウィザード：ステップ 1 内のツリーから選択したレポートタイプ名（例：[!DNL Traffic Report]）か、「[!DNL Name this Request]」フィールドに入力した名前のいずれかが表示されます。 |
    | フィルターパラメーター | 検索フィルターなどのディメンションフィルターを表示します。 |
-   | Segment | セグメントパラメーターを表示します。 |
-   | データ最新性 | 直近いつまでのデータが含まれているかを表示します。例：   データ最新性：ページビュー数（1.5時間前）、出口数（30分前）現在のデータ処理について詳しくは、 [オプション](/help/analyze/report-builder/options.md) (Options)を参照してください。 |
+   | セグメント | セグメントパラメーターを表示します。 |
+   | データ最新性 | 直近いつまでのデータが含まれているかを表示します。例：データ最新性：ページビュー数（1.5時間前）、出口数（30分前）。現在のデータ処理について詳しくは、[オプション](/help/analyze/report-builder/options.md)を参照してください。 |
 
    表示順については、ステップ 2 の[!UICONTROL 行ラベル]グリッドに項目が含まれる場合は、リクエストの最初の項目が表示されます。項目がない場合は、[!UICONTROL 列ラベル]グリッドの最初の項目が使用されます。行にも列にも項目がない場合は、[!UICONTROL 指標]グリッドにある最初の項目が表示されます。
 
@@ -36,10 +36,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!NOTE]
    >
-   >Excelでは、ワークシートごとに1つの自動フィルターのみサポートされます。 自動フィルターが既に設定されているワークシートで新しい自動フィルターを作成した場合、Excel では警告が表示されずに既存の自動フィルターが置き換えられます。
+   >Excel がサポートするのは、1 ワークシートあたり 1 つの自動フィルターのみです。自動フィルターが既に設定されているワークシートで新しい自動フィルターを作成した場合、Excel では警告が表示されずに既存の自動フィルターが置き換えられます。
 
    **自動アウトラインを実行：** Report Builder から返される日付をリストビューからツリービューに変換します。
 
-   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。この名前は、[!UICONTROL リクエストマネージャー]で[!UICONTROL レポート]名として表示されます。詳しくは、 [リクエストの名前の設定](/help/analyze/report-builder/layout/name-a-request.md).
+   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。この名前は、[!UICONTROL リクエストマネージャー]で[!UICONTROL レポート]名として表示されます。詳しくは、[リクエストの名前の設定](/help/analyze/report-builder/layout/name-a-request.md)を参照してください。
 
 1. 「**[!UICONTROL OK]**」をクリックします。
