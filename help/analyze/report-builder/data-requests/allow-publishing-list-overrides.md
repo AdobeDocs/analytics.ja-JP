@@ -3,7 +3,7 @@ description: レポートをスケジュールする場合、その配信に使�
 title: 発行リストの上書きの許可
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 発行リストは Analytics 管理ツールで設定しておく必要があります。
 
-Analytics リファレンスの[発行リスト](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html)を参照してください。
+Analytics リファレンスの[発行リスト](https://marketing.adobe.com/resources/help/ja_JP/reference/publishing_list.html)を参照してください。
 
 この機能を有効にするには、[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウを開きます。
 
