@@ -3,7 +3,7 @@ description: スプレッドシートへの項目のマッピングを開始す�
 title: 指標およびディメンションのセルへのマッピング
 topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,15 +19,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 詳細は以下の節に説明されています。
 
-* [セル範囲の選択](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [セル選択のテクニック](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
-* [マッピングの問題](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
+* [セルの範囲の選択 ](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [セル選択のテクニック ](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [マッピングの問題 ](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
-## Select a Range of Cells {#section_1E37FB46DA194FB7A1050B8833A48AC6}
+## セルの範囲の選択 {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
 [!UICONTROL リクエストウィザード：ステップ 2] で、トレンドリクエストに対して「[!UICONTROL カスタムレイアウト]」を有効にすると、セルの一定の範囲にリクエストをマッピングすることができます。
 
-範囲セレク **[!UICONTROL ター]**![select_cell_icon.pngをクリックします。](assets/select_cell_icon.png)
+マッピングする項目の隣にある&#x200B;**[!UICONTROL 範囲セレクター]** ![select_cell_icon.png](assets/select_cell_icon.png)
 
 をクリックします。
 
@@ -36,9 +36,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * **範囲の方向：**&#x200B;列または行としてセル範囲の方向を指定します。
 * **範囲の先頭のセルを選択：**&#x200B;セル参照を表示します。
 
-## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
+## セル選択のテクニック {#section_760421C3D7F84D67A639174710C93B22}
 
-You select the data by clicking the **[!UICONTROL Range Selection]** icon  ![select_cell_icon.png](assets/select_cell_icon.png)
+**[!UICONTROL 範囲選択]**&#x200B;アイコン ![select_cell_icon.png](assets/select_cell_icon.png) をクリックして日付を設定できます。
 
  をクリックし、スプレッドシートで選択したいセル範囲をマウスでクリック＆ドラッグして、データを選択します。連続した選択領域が、黒の枠線で囲まれます。
 
@@ -52,13 +52,13 @@ You select the data by clicking the **[!UICONTROL Range Selection]** icon  ![sel
 
 ![](assets/map4.png)
 
-セルの選択後、**[!UICONTROL 範囲の選択]フォームの**[!UICONTROL 範囲選択アイコン]を再度クリックして、[!UICONTROL リクエストウィザード：ステップ 2] に戻ります。
+セルの選択後、[!UICONTROL 範囲の選択]フォームの&#x200B;**[!UICONTROL 範囲選択アイコン]**&#x200B;を再度クリックして、[!UICONTROL リクエストウィザード：ステップ 2] に戻ります。
 
-## Issues when mapping {#section_CC1BCF841291447EB3A994EB08F3A099}
+## マッピングの問題 {#section_CC1BCF841291447EB3A994EB08F3A099}
 
 有効なマッピングが既に存在するセルに対して誤ってマッピングした場合は、範囲選択アイコンの隣にあるテキストボックスにセル参照が表示されません。「[!UICONTROL OK]」をクリックすると、Report Builder に「選択した範囲は別のリクエストの範囲と交差します。選択を変更してください。」というエラーが表示されます。
 
-* If you still need to use the cell, right-click on the desired cell or cells, and select **[!UICONTROL Delete Request]**.
+* このセルを使用する必要がある場合は、セル（複数の場合もあります）を右クリックして、「**[!UICONTROL リクエストを削除]**」を選択します。
 
 このメッセージが表示されないようにするには、次の 2 つの方法があります。
 
