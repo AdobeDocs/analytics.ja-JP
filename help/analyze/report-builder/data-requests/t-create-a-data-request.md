@@ -1,27 +1,27 @@
 ---
-description: 基本的なReport Builderデータリクエストを作成する手順です。
+description: 基本的な Report Builder データリクエストを作成する手順です。
 title: データリクエストの作成
 topic: Report builder
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Report Builderデータリクエストの作成
+# Report Builder データリクエストの作成
 
 基本的なデータリクエストを作成する手順です。
 
-1. In Excel, click **[!UICONTROL Create]**.
-1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. Excel で、「**[!UICONTROL 作成]**」をクリックします。
+1. [!UICONTROL リクエストウィザード：ステップ 1] ウィンドウで、[レポートスイート](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)を選択します。
 1. （オプション）リクエストに適用するセグメントを選択します。1 つまたは複数のセグメントを選択したら、リストのトップに移動します。
 
-   Report Builder では、Adobe Analytics と同様の方法でセグメントを使用します。[Analytics セグメントガイド](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)を参照してください。1. （オプション）配布に使用す [る発行リスト](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) を選択します。
-1. Select a [report type](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
-1. 日付範囲とレ [ポート精度](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) を指定 [します](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)。
-1. 「**[!UICONTROL Next]**」をクリックします。
-1. In the [Layout - Request Wizard Step 2](/help/analyze/report-builder/layout/layout.md) window, specify a layout:
+   Report Builder では、Adobe Analytics と同様の方法でセグメントを使用します。[Analytics セグメントガイド](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/)を参照してください。1.（オプション）配布に使用する[発行リスト](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)を選択します。
+1. 「[レポートタイプ](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)」を選択します。
+1. 「[日付範囲](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)」を指定してレポートの「[精度](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)」をクリックします。
+1. 「**[!UICONTROL 次へ]**」をクリックします。
+1. [レイアウト - リクエストウィザード：ステップ 2](/help/analyze/report-builder/layout/layout.md) ウィンドウで、レイアウトを選択します。
 
    | 要素 | 説明 |
    |---|---|
@@ -31,6 +31,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 「[!UICONTROL 指標]」タブで、ツリーの指標をダブルクリックまたはドラッグして、「[!UICONTROL 指標]」グリッドに追加します。
 1. 「[!UICONTROL ディメンション]」タブで、ディメンションをダブルクリック（またはドラッグ）して、「[!UICONTROL 行ラベル]」グリッドに追加します。
 
-   ステップ 2 で使用可能な[ディメンション](https://marketing.adobe.com/resources/help/en_US/reference/dimensions.html)は、ステップ 1 で選択したベースレポート、およびレポートスイートの設定によって異なります。相関関係（コリレーション）または下位関係（サブリレーション）が有効化された項目、または[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウで選択したオリジナルレポートのタイプが分類されている場合は分類された項目が使用可能です。ディメンションをクロス集計するには、ステップ 2 で複数のディメンションを追加します。
+   ステップ 2 で使用可能な[ディメンション](https://marketing.adobe.com/resources/help/ja_JP/reference/dimensions.html)は、ステップ 1 で選択したベースレポート、およびレポートスイートの設定によって異なります。相関関係（コリレーション）または下位関係（サブリレーション）が有効化された項目、または[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウで選択したオリジナルレポートのタイプが分類されている場合は分類された項目が使用可能です。ディメンションをクロス集計するには、ステップ 2 で複数のディメンションを追加します。
 
-   詳しくは、[指標およびディメンションの追加](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)を参照してください。
+   [指標およびディメンションの追加](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)を参照してください。
