@@ -3,7 +3,7 @@ description: 現在、Adobe Report Builder には、Analytics 管理ツールの
 title: ディメンションおよび指標のユーザーアクセス権限
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,8 +23,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. ワークブックを開きます。
 1. すべてのリクエストを更新します。
-1. ユーザーアクセス権限エラーが発生したら、「**[!UICONTROL CSV ファイルを開く]」をクリックして、制限付き権限エラーの一覧を表示します。**
-1. 「AllRestrictedPermissionErrors.xlsx」ファイルを作成し、制限付き権限エラーのリストをCSVファイルからこのファイルにコピー&amp;ペーストします。
+1. ユーザーアクセス権限エラーが発生したら、「**[!UICONTROL CSV ファイルを開く]**」をクリックして、制限付き権限エラーの一覧を表示します。
+1. ファイル「AllRestrictedPermissionErrors.xlsx」を作成し、制限付き権限エラーの一覧を CSV ファイルからコピーして、このファイルに貼り付けます。
 1. Report Builder ワークブックを閉じます。
 
-すべてのワークブックを処理した後、「AllRestrictedPermissionErrors.xlsx」に制限付き権限エラーの包括的なリストが表示されます。 この一覧を Adobe Analytics のユーザーアクセス管理者に送信して、該当する指標およびディメンションへのアクセス権を付与するように依頼します。
+すべてのワークブックを処理したら、「AllRestrictedPermissionErrors.xlsx」に制限付き権限エラーのすべての一覧が完成します。この一覧を Adobe Analytics のユーザーアクセス管理者に送信して、該当する指標およびディメンションへのアクセス権を付与するように依頼します。
