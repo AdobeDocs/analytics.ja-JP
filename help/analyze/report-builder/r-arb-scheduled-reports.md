@@ -3,7 +3,7 @@ description: スケジュールされたタスクマネージャーのフィー�
 title: スケジュールされたタスクマネージャー
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>発行オプション </p> </td> 
-   <td colname="col2"> <p>いずれかの <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  >Power BI 発行オプション</a>が選択されている場合、この列に Power BI が表示されます。 </p> </td> 
+   <td colname="col2"> <p>いずれかの  <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  >Power BI 発行オプション</a>が選択されている場合、この列に Power BI が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>スケジュール </p> </td> 
