@@ -3,7 +3,7 @@ description: リクエストに指標およびディメンションを追加す�
 title: 指標およびディメンションの追加
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 リクエストに指標およびディメンションを追加する手順です。
 
-1. [リクエストウィザードで](/help/analyze/report-builder/data-requests/data-requests.md) 、データリクエ [!UICONTROL ストを作成します。手順1]:「次へ」をクリッ **[!UICONTROL クします]**。
+1. [!UICONTROL リクエストウィザード：ステップ 1] で[データリクエストを作成](/help/analyze/report-builder/data-requests/data-requests.md)し、「**[!UICONTROL 次へ]**」をクリックします。
 1. [!UICONTROL リクエストウィザード：ステップ 2] で、指標をダブルクリックするか、目的の位置までドラッグします。
 
    ![ステップ情報](assets/adding_metrics.png)
@@ -52,16 +52,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 「[!UICONTROL ディメンション]」タブには、分類されたディメンション、またはステップ 1 で選択するベースレポートの分類、レポートスイートの設定に関するディメンションが表示されます。ディメンションをレイアウトグリッドにドロップすると、そのディメンションはツリービューから削除され、使用可能な残りのディメンションのリストが再計算されます。
 
-「[!UICONTROL 日付]」ディメンションは自動的に追加されます。使用可能な日付ディメンションは、[!UICONTROL リクエストウィザード：ステップ 1] で選択された精度によって異なります(有効な値は次のとおりです。
+「[!UICONTROL 日付]」ディメンションは自動的に追加されます。使用可能な日付ディメンションは、[!UICONTROL リクエストウィザード：ステップ 1] で選択された精度によって異なります（有効値は次のとおりです。
 
     *時間
     *日
     *週
-    *月*年
-    
+    *月
+    *年
     *日付範囲（精度が指定されていない場合）
 
-1. 形式のオプションとフィルターを設定して、指標 [とディメンション](/help/analyze/report-builder/layout/t-format-display-headers.md) を変更します。
-1. **[!UICONTROL Finish]**&#x200B;をクリックします。次の例では、[!UICONTROL ページ]指標に関連するディメンションが表示されています。ここでは、[!UICONTROL 参照ドメイン]ディメンションによって、[!UICONTROL ページ]と[!UICONTROL 参照ドメイン]の分類レポートが作成されています。分類レポートに追加できるディメンションのみが表示されるように、「[!UICONTROL ディメンション]」タブが更新されます。
+1. [フォーマットオプション](/help/analyze/report-builder/layout/t-format-display-headers.md)とフィルターを設定して、指標とディメンションを変更します。
+1. 「**[!UICONTROL 完了]**」をクリックします。次の例では、[!UICONTROL ページ]指標に関連するディメンションが表示されています。ここでは、[!UICONTROL 参照ドメイン]ディメンションによって、[!UICONTROL ページ]と[!UICONTROL 参照ドメイン]の分類レポートが作成されています。分類レポートに追加できるディメンションのみが表示されるように、「[!UICONTROL ディメンション]」タブが更新されます。
 
 ![](assets/page_pageview_02.png)
