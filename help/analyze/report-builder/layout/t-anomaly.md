@@ -1,9 +1,9 @@
 ---
-description: report builder で異常値検出リクエストを作成する手順です。
+description: Report Builder で異常値検出関連データを抽出する手順です。
 title: 異常値検出リクエストの設定
 topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,26 +13,26 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Report Builder で異常値検出関連データを抽出する手順です。
 
-1. **サイト指標**／**[!UICONTROL トラフィック]**&#x200B;レポートなどで、トレンドレポートを選択します。
-1. In the [!UICONTROL Apply Granularity] menu, select **[!UICONTROL Day]**.
+1. **[!UICONTROL サイト指標]**／**[!UICONTROL トラフィック]**&#x200B;レポートなどで、トレンドレポートを選択します。
+1. [!UICONTROL 精度の適用]メニューで、「**[!UICONTROL 日]**」を選択します。
 
    >[!NOTE]
    >
-   >The [!UICONTROL Anomaly Detection] menu is available only when you select Day granularity. 選択した期間を問わず、過去 30 日間のデータが統計データのトレーニング期間として使用されます。
+   >[!UICONTROL 異常値検出]メニューは、「日」の精度を選択した場合にのみ利用できます。選択した期間を問わず、過去 30 日間のデータが統計データのトレーニング期間として使用されます。
 
-1. After configuring date ranges, click **[!UICONTROL Next]**.
+1. 日付範囲の設定後、「**[!UICONTROL 次へ]**」をクリックします。
 
-   手順の結果 1On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
+   手順の結果 1リクエストウィザード：ステップ 2 / 2 で、**[!UICONTROL 訪問回数]**&#x200B;などの指標を追加します。
 
-   手順の結果 1For the added metric, click the **[!UICONTROL None]** link.
+   手順の結果 1追加した指標の「**[!UICONTROL なし]**」リンクをクリックします。
 
    ![手順の結果](assets/anomaly_select.png)
 
-1. Select **[!UICONTROL Anomaly Detection]** &gt; **[!UICONTROL `<selection>`]**.
+1. **[!UICONTROL 異常の検出]**／**[!UICONTROL `<selection>`]** を選択します。
 
    ![ステップ情報](assets/anomaly_visit.png)
 
    いずれかのオプションを選択すると、元の指標から異常値検出用のコピーが作成されます。例えば、訪問指標の場合、[!UICONTROL 指標]グループに下限訪問指標が追加されます。
-1. Click **[!UICONTROL Finish]** and select the cell for output to Excel.
+1. 「**[!UICONTROL 完了]**」をクリックし、Excel に出力するセルを選択します。
 
-   See [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) for definitions.
+   [異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)を参照してください。
