@@ -2,7 +2,7 @@
 title: Adobe Report Builder ヘルプ
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Adobe Report Builder ヘルプ {#adobe-report-builder-help}
 
-[!DNL Adobe] Report Builder は Microsoft Excel のアドインです。Report Builder を使用すると、Reports &amp; Analytics により計測されたデータを指定した形式で Excel ワークシートに直接挿入できます。レポートスイート ID や日付、セグメントなど、一部の抽出条件はセルから動的に参照でき、さらにデータの更新（最新化）や表示形式のカスタマイズが可能です。
+[!DNL Adobe] Report Builder は Microsoft Excel のアドインです。Report Builder を使用すると、Reports &amp; Analytics により計測されたデータを指定した形式で Excel ワークシートに直接挿入できます。リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 
 <!-- >>[!IMPORTANT]
 >
@@ -37,18 +37,18 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * [データリクエストの作成方法](data-requests/t-create-a-data-request.md)
 * [Report Builder のトラブルシューティングとベストプラクティス](troubleshoot.md)
 
-## Experience cloudのリソース
+## Experience Cloud リソース
 
-* [Adobe Analytics コミュニティ](https://helpx.adobe.com/marketing-cloud/analytics.html)
-* [Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
-* [製品ドキュメントのホーム](https://marketing.adobe.com/resources/help/en_US/home/index.html)
-* [開発者](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer)
+* [Adobe Analytics コミュニティ](https://helpx.adobe.com/jp/marketing-cloud/analytics.html)
+* [Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/index.html#Current%20Release%20Notes)
+* [製品ドキュメントのホーム](https://marketing.adobe.com/resources/help/ja_JP/home/index.html)
+* [開発者](https://marketing.adobe.com/resources/help/ja_JP/home/index.html#Developer)
 * [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
-* [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)
 * [主なソリューションセンター](https://www.omniture.com/en/products/online_business_optimization)
 
-## Reports &amp; Analyticsヘルプ
+## Reports &amp; Analytics ヘルプ
 
-* [Analysis Workspace ヘルプ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Reports &amp; Analytics ヘルプ](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [管理ツール](https://marketing.adobe.com/resources/help/en_US/reference/index.html) 、レポートおよび指標に関するAnalyticsリファレンスヘルプ。
+* [Analysis Workspace ヘルプ](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/)
+* [Reports &amp; Analytics ヘルプ](https://marketing.adobe.com/resources/help/ja_JP/sc/user/index.html)
+* [Analytics 参照元](https://marketing.adobe.com/resources/help/ja_JP/reference/index.html)管理ツール、レポートおよび指標に関するヘルプです。
