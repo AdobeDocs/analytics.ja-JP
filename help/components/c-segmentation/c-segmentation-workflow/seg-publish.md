@@ -4,7 +4,7 @@ title: Experience Cloud へのセグメントの公開
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
 
 ---
 
@@ -118,6 +118,7 @@ AAMでは、Analytics が Experience Cloud とセグメントを共有するの�
 ![](assets/aam-traits.png)
 
 * 1 つの特性セグメントが作成されます。セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
+* 特性の有効期限が16日に設定されました（以前は2日でした）。
 
 ## セグメントを [!DNL Adobe Target] で表示する
 
