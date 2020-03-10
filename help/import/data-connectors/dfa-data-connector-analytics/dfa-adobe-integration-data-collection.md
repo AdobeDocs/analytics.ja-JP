@@ -28,7 +28,7 @@ Adobe 統合では、データ収集は、訪問者がランディングペー�
 
 Integrate モジュールは、Adobe イメージビーコンを遅らせて、一定時間（ *`s.maxDelay`*). *`s.maxDelay`* は、イメージタグが訪問者のブラウザーで実行されるまで、Integrate モジュールが DFA Floodlight サーバーからのデータを待機する時間を定義します。この動作は、DFA Floodlight サーバーがダウンしたり負荷が高い場合でも基本的な訪問者データが収集されるので、重要です。Floodlight データが *`s.maxDelay`* の有効期限前に到達する場合、Adobe トラッキングデータは即座に実行され、追加の DFA データが含められます。
 
-タイムアウトが発生した場合、ページコードは、タイムアウトイベントとして使用される Adobe Reports &amp; Analytics イベントを指定できます。このイベントは、統合で診断の問題が発生した場合、または *`s.maxDelay`* と呼ばれる iFrame を読み込みます。In cases where there are excessive timeouts, increase *`s.maxDelay`*. *`s.maxDelay`* は設定できますが、訪問者が *`s.maxDelay`* 期限切れになる前にサイトを離れる可能性がある可能性があります。For more discussion on this topic, see [Tuning s.maxDelay](../dfa-data-connector-analytics/dfa-integration/dfa-tuning-s-maxlelay.md#concept-6deb28eee18e414db220d6009d449f0d).
+タイムアウトが発生した場合、ページコードは、タイムアウトイベントとして使用される Adobe Reports &amp; Analytics イベントを指定できます。このイベントは、統合で診断の問題が発生した場合、または *`s.maxDelay`* と呼ばれる iFrame を読み込みます。In cases where there are excessive timeouts, increase *`s.maxDelay`*. *`s.maxDelay`* は設定できますが、訪問者が *`s.maxDelay`* 期限切れになる前にサイトを離れる可能性がある可能性があります。For more discussion on this topic, see Tuning s.maxDelay.
 
 Floodlight サーバーは、訪問者に関するエラーを返すことがあります。これは、通常、訪問者が広告を見ていないか、DFA 訪問者 cookie を持っていないために、Floodlight サーバーが訪問者に関する情報を持たない場合に発生します。ページコードは、これらのエラーを収集し、実装の問題のトラブルシューティングを支援したり、Google トランザクションの問題を指摘できる、カスタムコンバージョン変数（eVar）を指定できます。最も一般的なエラーは、次の表に示す、履歴なし、Cookie なし、クエリエラーおよびオプトアウトです。
 
