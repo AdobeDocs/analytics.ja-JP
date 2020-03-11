@@ -3,7 +3,7 @@ title: JavaScript版AppMeasurementリリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
+source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 ---
 
@@ -20,7 +20,7 @@ AppMeasurementの最新バージョンは、コードマネージャーでダウ
 
 Release Date: **March 5, 2020**
 
-* セキュリティ関連の問題を修正しました。
+* Internet Explorerの検出を更新してJSLintの警告を表示しないようにすることで、セキュリティに関する問題を修正しました。
 
 ## バージョン 2.19.0
 
