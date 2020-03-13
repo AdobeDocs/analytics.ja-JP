@@ -3,7 +3,7 @@ description: Data Warehouse は、カスタムレポート用の処理されて�
 title: Data Warehouse リクエスト
 topic: Reports and analytics
 uuid: 586d3c8c-244f-4d47-8f93-230f166afaf9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,4 +15,4 @@ Data Warehouse は、カスタムレポート用の処理されていない生�
 
 <!-- I edited this link so it doesn't point to marketing.adobe.com. Please check -Bob -->
 
-詳しく [は、Data Warehouse](/help/export/data-warehouse/data-warehouse.md) を参照してください。
+詳しくは、「[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)」を参照してください。
