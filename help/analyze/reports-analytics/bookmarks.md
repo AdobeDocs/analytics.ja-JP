@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: ブックマークマネージャー
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,13 +24,13 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Run a report, then click **[!UICONTROL Bookmark.]**.
+1. レポートを実行し、「**[!UICONTROL ブックマーク]**」をクリックします。
 
- |Name|このブックマークのわかりやすい名前。|
- |---|---|       
- |追加|ブックマークを追加するフォルダを指定します。|     
- |公開する|このブックマークを、レポートスイートへのアクセス権を持つユーザーが使用できるようにします。|     
- |ログイン後にレポートを表示|ログイン後にレポートを表示します。|
+       |名前|このブックマークのわかりやすい名前。|
+       |---|---|
+       |次に追加|ブックマークを追加するフォルダーを指定します。|
+       |公開する|レポートスイートへのアクセス権を持つユーザーがこのブックマークを使用できるようにします。|
+       |ログイン後にレポートを表示|ログイン後にレポートを表示します。|
    
 ## ブックマークの管理 {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -42,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** /コンポ **[!UICONTROL ーネント]** /ブッ **[!UICONTROL クマ]**&#x200B;ーク。
+**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ブックマーク]**
 
 **マイブックマーク**
 
