@@ -3,7 +3,7 @@ description: レポートの実行後は、レポートをカスタマイズし�
 title: レポートのカスタマイズの概要
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,14 +28,14 @@ t_reports_custom.xml
 **カスタムレポートを作成するには**
 
 1.  レポートを実行し、必要に応じて設定します。
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Create Custom Report]**.
-1. Name the report, then click **[!UICONTROL Save.]**
+1. **[!UICONTROL その他]**／**[!UICONTROL カスタムレポートの作成]**&#x200B;をクリックします。
+1. レポートに名前を付け、「**[!UICONTROL 保存]**」をクリックします。
 
    既存のレポート名と重複していないことを確認します。
 
 >[!MORELIKETHIS]
 >
->* [メニューのカスタマイズ](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
+>* [メニューのカスタマイズ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/customize-menus.translate.html)
 
 
 ## 日付または日付範囲の選択 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -56,18 +56,18 @@ t_reports_select_date.xml
 
 1. レポートを実行します。
 1. 右上のカレンダーアイコンをクリックします。
-1.  日付を選択します。
+1. 日付を選択します。
 
-   以下の操作を行うことができます。
+   次のことができます。
 
    * 日、月、年を表示します（3 つまで）。
    * 日付上でカーソルをドラッグして範囲を選択します。
    * 日付を手動で入力します。
    * 月をクリックして月を選択します。
-   * 「**[!UICONTROL プリセットの選択]」をクリックして、プリセット日付を選択します。**
+   * 「**[!UICONTROL プリセットの選択]**」をクリックして、プリセット日付を選択します。
    * 日付を比較します
 
-1. Click **[!UICONTROL Run Report]**.
+1. 「**[!UICONTROL レポートを実行]**」をクリックします。
 
 ## 比較日 {#task_95155C3700774B709F5FB81AE96B0824}
 
@@ -81,15 +81,15 @@ t_reports_comparing_dates.xml
 
 トレンドレポート間の日付の比較はできません。
 
-> [!NOTE] ダッシュボードの主要指標に対して日付比較を実行する場合は、2つの異なるリクエストを使用して [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) にデータを取り込みます。 その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
+> [!NOTE]ダッシュボード内で主要指標について日付比較を行いたい場合は、2 つの異なるリクエストを使用してデータを [Report Builder](https://marketing.adobe.com/resources/help/ja_JP/arb/) に取り込みます。その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
 
 Reports &amp; Analytics のランクレポート間で日付を比較するには、以下のようにします。
 
 1. レポートを実行します。
 1. 右上のカレンダーをクリックします。
-1. Click **[!UICONTROL Compare Dates]**.
+1. 「**[!UICONTROL 比較]**」をクリックします。
 1. 使用する日付を選択します。
-1. Click **[!UICONTROL Run Report]**.
+1. 「**[!UICONTROL レポートを実行]**」をクリックします。
 
 ## 割合のグラフとしての表示 {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -104,7 +104,7 @@ t_reports_graph_percent.xml
 グラフによる視覚化は、ダッシュボードのレポートレットでも利用できます。
 
 1.  [!UICONTROL ページレポート]のように、パーセンテージをサポートするレポートを実行します。
-1. Click **[!UICONTROL Percent Shown As: Graph]**.
+1.  「割合の表示方法」で「**[!UICONTROL グラフ]**」をクリックします。 
 
 ## レポートデータの標準化 {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
@@ -121,9 +121,9 @@ t_reports_normalize.xml
 **レポートデータを正規化するには**
 
 1.  日付の比較をサポートするレポートを実行します。
-1. Click **[!UICONTROL Compare Dates]**, then specify your date comparison.
-1. Click **[!UICONTROL Run Report]**.
-1. Click **[!UICONTROL Normalize Data: Yes]**.
+1. 「**[!UICONTROL 比較]**」をクリックしてから日付比較を指定します。
+1. 「**[!UICONTROL レポートを実行]**」をクリックします。
+1. データの標準化で、「**[!UICONTROL はい]**」をクリックします。
 
 ## レポート対象のページの選択 {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
@@ -135,11 +135,11 @@ t_reports_select_page.xml
 
  -->
 
-1. Generate a report, such as a [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Page Views]**).
-1. 「**選択されたアイテム (ページ)**」リンクをクリックします。
+1. [!UICONTROL ページビュー数レポート]などのレポートを生成します（**[!UICONTROL レポート]**／**[!UICONTROL サイト指標]**／**[!UICONTROL ページビュー数]**）。
+1. 「**[!UICONTROL 選択されたページ]**」リンクをクリックします。
 1. 必要に応じて、[!UICONTROL ページの選択]ページで、表示するページを選択します。
 1.  必要に応じて、ページを検索します。
-1. Click **[!UICONTROL OK.]**
+1. 「**[!UICONTROL OK]**」をクリックします。
 
 ## レポートスイートの比較 {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -162,15 +162,15 @@ t_reports_compare_suites.xml
 * 訪問者プロファイル
 * カスタムコンバージョン
 * カスタムトラフィック
-* Target
+* ターゲット
 * Survey
 
 **レポート スイートを比較するには**
 
 1. 比較できるレポートを生成します。
-1. 「**サイトと比較**」リンクをクリックします。
+1. 「**[!UICONTROL サイトと比較]**」リンクをクリックします。
 1.  レポートスイートを選択します。
-1. Click **[!UICONTROL OK.]**
+1. 「**[!UICONTROL OK]**」をクリックします。
 
 ## レポート精度の指定 {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
@@ -182,12 +182,12 @@ t_reports_granularity.xml
 
  -->
 
-レポートの期間によって、使用できる精度オプションが決まります。例えば、1～2 日の時間枠を選択した場合は、**[!UICONTROL 時間単位]しか選択できません。** 1 年を超える場合は、**[!UICONTROL 年単位]しか表示されません。**
+レポートの期間によって、使用できる精度オプションが決まります。例えば、1～2 日の時間枠を選択した場合は、**[!UICONTROL 時間単位]**&#x200B;しか選択できません。1 年を超える場合は、**[!UICONTROL 年単位]**&#x200B;しか表示されません。
 
 **レポート精度を指定するには**
 
-1. Generate a trended report, such as **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages.]**
-1.  「**閲覧者**」リンクをクリックし、精度をクリックします。
+1.  **[!UICONTROL サイトコンテンツ]**／ページレポート／**[!UICONTROL ページ]**&#x200B;のようなトレンドレポートを生成します。
+1.  「**[!UICONTROL 閲覧者]**」リンクをクリックし、精度をクリックします。
 
 ## 曜日レポートの実行 {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
@@ -202,11 +202,11 @@ t_reports_day_of_week.xml
 この機能は、週または日の日付範囲でフィルターされたトレンドレポートでのみ使用できます。
 
 1. 指定した日付範囲でトレンドレポートを実行します。
-1. 「**曜日**」リンクをクリックし、 曜日をクリックします。
+1. 「**[!UICONTROL 曜日]**」リンクをクリックし、曜日をクリックします。
 
-## 「ワークスペースで試す」ボタン{#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## 「ワークスペースで試す」ボタン {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-レポートの上部にある「**[!UICONTROL ワークスペースで試す]」ボタンをクリックすると、同じレポートが Analysis Workspace に読み込まれます。**
+レポートの上部にある「**[!UICONTROL ワークスペースで試す]**」ボタンをクリックすると、同じレポートが Analysis Workspace に読み込まれます。
 
 <!-- 
 
@@ -218,4 +218,4 @@ Reports &amp; Analytics のほとんどのレポートには現在、「ワー�
 
 現在、このボタンが使用できるのは、ユーザーに Analysis Workspace の完全な権限が付与されている場合のみです。
 
-レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) ガイドを参照してください。
+レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/) ガイドを参照してください。
