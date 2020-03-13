@@ -2,13 +2,13 @@
 description: Reports & Analytics のレポートメニューの概要を示します。
 title: レポートメニュー
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# レポートメニュー{#reports-menu}
+# レポートメニュー {#reports-menu}
 
 Reports &amp; Analytics のレポートメニューの概要を示します。
 
@@ -23,21 +23,21 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 「お気に入り」、「頻繁に表示」、「レポート履歴」は、すべてレポートスイートに固有のものです。レポートスイートを変更すると、3 つのすべてのリストが更新されます。
 
-レポート間を移動するには、階層的なメニューを使用します。Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. 現在のレポートを変更せずにメニューを閉じるには、Esc キーを押します。選択したレポートを読み込むには、Enter キーを押します。
+レポート間を移動するには、階層的なメニューを使用します。「**[!UICONTROL すべてのレポートを表示]**」をクリックするか、矢印キーを使用してメニューをすばやく表示して移動するには、/（フォワードスラッシュ）キーを押してから下向き矢印（↓）を押します。現在のレポートを変更せずにメニューを閉じるには、Esc キーを押します。選択したレポートを読み込むには、Enter キーを押します。
 
-![](assets/reports-landing.png){width="672px"}
+![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-個々のレポートについて詳しくは、[レポートの説明](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)を参照してください。
+個々のレポートについて詳しくは、[レポートの説明](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_descriptions.html)を参照してください。
 
 ## レポートの検索 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-レポートメニューの検索対象は以前よりも拡張されました。Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. レポート検索は拡張されて、Analytics の左側のナビゲーション（管理者、コンポーネントなど）にあるすべてを対象として検索されるようになりました。
+レポートメニューの検索対象は以前よりも拡張されました。「**[!UICONTROL すべてのレポートを表示]**」をクリックするか、レポートをすばやく検索するには、/（フォワードススラッシュ）キーを押してから入力を開始します。レポート検索は拡張されて、Analytics の左側のナビゲーション（管理者、コンポーネントなど）にあるすべてを対象として検索されるようになりました。
 
 ![](assets/menu-search.png)
 
 Tab キーまたは下向き矢印（↓）を押してレポートのリストを移動できます。現在のレポートを変更せずに検索を閉じるには、Esc キーを押します。選択したレポートを読み込むには、Enter キーを押します。
 
-> [!NOTE] また、レポートリストをprop、eVar、イベント番号で検索することもできます。 検索バーに prop、eVar またはイベント番号を入力してください。
+> [!NOTE]レポートリストを prop、eVar、イベント番号でも検索できるようになりました。検索バーに prop、eVar またはイベント番号を入力してください。
 
 ## ナビゲーション概要 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -51,7 +51,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
  <tbody> 
   <tr> 
    <td colname="col1">Experience Cloud ソリューションメニュー<img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> このアイコンをクリックすると、Experience cloudメニューが展開し、他のMarketing Couldソリューションにアクセスできます。 </td> 
+   <td colname="col2"> このアイコンをクリックすると、Experience Cloud メニューが展開し、他の Marketing Cloud ソリューションにアクセスできます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">レポートメニューを切り替え <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -59,7 +59,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">セグメント <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">セグメントを追加または管理できるセグメントパネルを表示します。このパネルから、<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >セグメントビルダー</a>および<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  >セグメントマネージャー</a>のインターフェイスにもアクセスできます。 </td> 
+   <td colname="col2">セグメントを追加または管理できるセグメントパネルを表示します。このパネルから、<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_build_ui.html"  >セグメントビルダー</a>および<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_manage.html"  >セグメントマネージャー</a>のインターフェイスにもアクセスできます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">指標 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -71,7 +71,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1">「<span class="uicontrol">すべてのレポートを表示</span>」内の検索バー </td> 
-   <td colname="col2"> <p> 必要なリソースを検索できます。いわゆる「ファジー」検索を使用しているので、目的の単語をすべて入力する必要はありません。検索結果は一列のリストで表示され、上向き、下向き、左右の矢印を使用して移動できます。検索結果上で <span class="uicontrol">Enter</span> キーを押すと、そのレポートを直接表示できます。 </p> </td> 
+   <td colname="col2"> <p> 必要なリソースを検索できます。いわゆる「ファジー」検索を使用しているので、目的の単語をすべて入力する必要はありません。検索結果は一列のリストで表示され、上向き、下向き、左右の矢印を使用して移動できます。検索結果上で <span class="uicontrol">Enter</span> を押すと、そのレポートを直接表示できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">お気に入り</span> </td> 
@@ -87,7 +87,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> ダウンロード</span> </td> 
-   <td colname="col2">レポートを PDF、CSV、Excel および Word 形式でダウンロードできます </td> 
+   <td colname="col2">レポートを PDF、CSV、Excel および Word 形式でダウンロードできます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 送信</span> </td> 
@@ -95,19 +95,19 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> ブックマーク...</span> </td> 
-   <td colname="col2">レポートにブックマ <a href="/help/analyze/reports-analytics/bookmarks.md"  > ーク</a> を設定できます。 </td> 
+   <td colname="col2">レポートに<a href="/help/analyze/reports-analytics/bookmarks.md"  >ブックマーク</a>を設定できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> ダッシュボード</span>... </td> 
-   <td colname="col2">Lets you add the report to a <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
+   <td colname="col2">レポートを<a href="/help/analyze/reports-analytics/dashboard.md"  >ダッシュボード</a>に追加できます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> さらに詳しく...</span> </td> 
+   <td colname="col1"><span class="uicontrol">さらに詳しく...</span> </td> 
    <td colname="col2"> 次の一部またはすべてのアクションを実行できます：印刷、データの抽出、アラートの追加、カスタムレポートの作成、グラフのコピー、このレポートへのリンクの設定、新規ウィンドウのオープン </td> 
   </tr> 
   <tr> 
    <td colname="col1">レポートスイートセレクター <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  >基本レポートスイート</a>または<a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  >仮想レポートスイート</a>を選択できます。 </td> 
+   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/ja_JP/reference/report_suites_admin.html"  >基本レポートスイート</a>または<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/virtual-report-suites.html"  >仮想レポートスイート</a>を選択できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">カレンダー <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
 
 ## すべてのレポートメニューのカスタマイズ {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)」を参照してください。
+管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/customize-menus.translate.html)」を参照してください。
