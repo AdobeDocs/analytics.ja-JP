@@ -4,7 +4,7 @@ subtopic: Schedule
 title: データ抽出
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,5 +32,5 @@ t_data_extract.xml
 
 レポートからデータを抽出し、メールで送信する手順を説明します。
 
-1. Run a report, then click **[!UICONTROL More]** &gt; **[!UICONTROL Extract Data]**.
+1. レポートを実行し、**[!UICONTROL その他]**／**[!UICONTROL データの抽出]**&#x200B;をクリックします。
 1. データ抽出ウィザードの手順に従って操作します。
