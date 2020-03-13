@@ -2,7 +2,7 @@
 title: ソリューションデザインドキュメントの作成
 description: ソリューションデザインドキュメントとは何か、および組織でのソリューションデザインドキュメントの使用方法について説明します。
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -46,5 +46,4 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 変数をソリューションデザインドキュメントに実装します。
 
-* eVar の概要：eVar とは何か、eVa rの仕組み、実装での eVar の使用方法について説明します。
-* イベントの概要：成功するイベントとは何か、およびその仕組み、実装での使用方法について説明します。
+[データレイヤーの作成](data-layer.md):デザインドキュメント内の変数をサイト上のJavaScript変数に変換します。
