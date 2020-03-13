@@ -4,7 +4,7 @@ subtopic: Get started
 title: データ収集について
 topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,4 +26,4 @@ Adobe Analytics 用にデータを収集する方法を説明します。
 
 データの収集は非常に短時間で行われるので、ページロード時間に影響しません。ブラウザーの「**更新**」または「**戻る**」ボタンのクリックによるページビューも収集されます。ページがブラウザーキャッシュから取得された場合でも、JavaScript コードが実行されます。
 
-See [Data Collection in Analytics.](/help/import/home.md)
+デフォルトのホストグループを変更する方法については [Analytics でのデータ収集](/help/import/home.md)を参照してください。
