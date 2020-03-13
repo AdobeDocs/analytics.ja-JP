@@ -4,7 +4,7 @@ subtopic: Alerts
 title: アラート
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,16 +14,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## アラート {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-すべてのAdobe Analyticsの新しいアラートシステムであるインテリジェントアラートを使用すると、アラートのプレビューとルール貢献度を備えたアラートを作成および管理できます。 データが誤用されていたり、アカウントの期限が切れている場合、
+Adobe Analytics 全体の新しいアラートシステムであるインテリジェントアラートでは、アラートプレビューとルール貢献度を備えたアラートの作成と管理をおこなうことができます。次のことが可能です。
 
-* 異常値（90％、95％または 99％ のしきい値、変化率、超過／未満）に基づいたアラートの構築。
-* アラートがトリガーされる頻度のプレビュー.
+* 異常値（90％、95％または 99％のしきい値、変化率、超過／未満）に基づいたアラートの構築。
+* アラートがトリガーされる頻度のプレビュー。
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信。
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成。
 
 この新しいアラートシステムには、Reports &amp; Analytics の任意のレポートの&#x200B;**[!UICONTROL その他]**／**[!UICONTROL アラート]**&#x200B;からアクセスできます。
 
-詳しくは、Analysis Workspace ドキュメントの[インテリジェントアラート](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)を参照してください。
+詳しくは、Analysis Workspace ドキュメントの[インテリジェントアラート](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/intellligent_alerts.html)を参照してください。
 
 ## アラートの追加 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-**[!UICONTROL Analytics/コンポーネントメニューで新しいアラートビル]** ダーに移 **[!UICONTROL 動します]** 。 ただし、Reports &amp; Analytics のレポート内からもアクセスできます。
+**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**&#x200B;メニューで新しいアラートビルダーに移動します。ただし、Reports &amp; Analytics のレポート内からもアクセスできます。
 
 1. Reports &amp; Analytics で、アラートを設定するレポートを開きます。
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
-1. これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html)が表示されます。
+1. **[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;をクリックします。
+1. これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/alert-builder.html)が表示されます。
 
 ## 既存のアラートを表示または編集するには {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 タスクコンテキスト
 
-1. **[!UICONTROL Analytics]** /コンポーネント **[!UICONTROL /アラ]** ートに移 **[!UICONTROL 動します]**。 これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html)が表示されます。
+1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]**&#x200B;に移動します。これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/alert-manager.html)が表示されます。
 
 ## レガシーアラートの移行 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -77,12 +77,12 @@ deprecated_alerts.xml
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>時間ベースの実訪問者数アラート（毎日、毎週、毎月などの実訪問者数) </p> <p> </p> </td> 
+   <td colname="col1"> <p>時間ベースの実訪問者数アラート（毎日、毎週、毎月などの個別訪問者数) </p> <p> </p> </td> 
    <td colname="col2"> <p>1 時間ごと、毎日、毎週、毎月の実訪問者数レポートに関するアラートを作成します。 </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは、こうした時間ベースの実訪問者数アラートは、サポートされなくなります。例えば、以前、日別訪問者数に関する毎週のアラートを設定していても、発行される実訪問者数指標に毎日、毎週などのアラートを設定できます（Analysis Workspace は、実訪問者数指標をサポートしますが、毎日／毎週／毎月などの実訪問者数指標はサポートしません）。 </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Search </p> </td> 
+   <td colname="col1"> <p>検索 </p> </td> 
    <td colname="col2"> <p>検索が適用されたディメンションレポートに関するアラートを作成します。「合計（すべての項目）」または「上位 1000 項目」にのみ適用されます。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
@@ -100,17 +100,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>ASI スロットをレポートスイートとして使用するアラート </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >ASI スロットを作成または編集</a>できなくなっており、Analysis Workspace で使用できません。従って、新しいアラートでサポートされません。 </p> <p> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/reference/ASI_slots_admin.html"  >ASI スロットを作成または編集</a>できなくなっており、Analysis Workspace で使用できません。従って、新しいアラートでサポートされません。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>パーティシペーション指標を使用したアラート </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  >パーティシペーション指標</a>は、Reports &amp; Analytics で使用できますが、Analysis Workspace の新しいアラートシステムでは、現在、使用できません。 </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/ja_JP/reference/metrics_participation.html"  >パーティシペーション指標</a>は、Reports &amp; Analytics で使用できますが、Analysis Workspace の新しいアラートシステムでは、現在、使用できません。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタムカレンダーレポートスイート用の毎月のアラート </p> </td> 
-   <td colname="col2"> <p>これは、<a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >カスタムの月の開始日</a>（全米小売業協会／NRF およびカスタムカレンダータイプ）を含むレポートスイートに関するアラートを設定しているお客様にのみ影響します。 </p> <p>グレゴリオ暦または修正グレゴリオ暦カレンダーのレポートスイートに関するアラートには影響しません。以前は、これらのアラートは、グレゴリオ暦の月の最初の日（例：1 月 1 日、2 月 1 日など）に送信されていました。これは、異常値を検出する際に以前の月のデータを考慮する、アラートの新しい異常値検出機能では動作しません。将来は、カスタムカレンダーのスケジュールシステムのサポートを追加し、アラートおよびスケジュールされたプロジェクトの両方で、グレゴリオ暦の月の最初の日でなく、カスタムカレンダーの月の最初の日に送信するようにスケジュールできるようになります。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>これは、<a href="https://marketing.adobe.com/resources/help/ja_JP/arb/custom_calendar.html"  >カスタムの月の開始日</a>（全米小売業協会／NRF およびカスタムカレンダータイプ）を含むレポートスイートに関するアラートを設定しているお客様にのみ影響します。 </p> <p>グレゴリオ暦または修正グレゴリオ暦カレンダーのレポートスイートに関するアラートには影響しません。以前は、これらのアラートは、グレゴリオ暦の月の最初の日（例：1 月 1 日、2 月 1 日など）に送信されていました。これは、異常値を検出する際に以前の月のデータを考慮する、アラートの新しい異常値検出機能では動作しません。将来は、カスタムカレンダーのスケジュールシステムのサポートを追加し、アラートおよびスケジュールされたプロジェクトの両方で、グレゴリオ暦の月の最初の日でなく、カスタムカレンダーの月の最初の日に送信するようにスケジュールできるようになります。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは、まだ使用できません。 </p> </td> 
   </tr> 
   <tr> 
