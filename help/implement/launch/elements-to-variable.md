@@ -1,7 +1,6 @@
 ---
-description: 'null'
-title: データ要素のAnalytics変数へのマッピング
-uuid: null
+title: 起動データ要素のAnalytics変数へのマッピング
+description: Analytics変数にデータ要素を割り当てて、Analysis Workspaceでディメンションとして使用できるようにします。
 translation-type: tm+mt
 source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
 
@@ -10,29 +9,44 @@ source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
 
 # 起動データ要素のAnalytics変数へのマッピング
 
+Adobe Experience Platform Launchでデータ要素のリポジトリを取得したら、それらをAnalyticsディメンションに割り当てることができます。
 
-データ [レイヤーオブジェクトをLaunchデータ要素にマッピングした後](https://docs.adobe.com/content/help/en/analytics/implementation/layer-to-elements.md)、データ要素を [Analytics変数にマッピングできます](https://docs.adobe.com/content/help/en/analytics/implementation/vars/overview.html)。
+## 前提条件
 
-起動データ要素をAnalytics変数にマップするには：
+[データレイヤーオブジェクトのデータ要素へのマップ](layer-to-elements.md):「起動」のデータ要素と、操作する必要のある要素がいくつかあることを確認します。
 
-1. 該当する場合は、データ要素をグローバル変数に割り当てます。 ページ名などの一部のデータ要 *素は* 、プロパティのすべてのページに適用されます。 このような場合は、次の手順を実行して、変数をグローバルに設定できます。
+[ソリューションデザインドキュメントの作成](../prepare/solution-design.md):ソリューションデザインドキュメントは、整理を維持するために不可欠です。 ソリューションデザインドキュメントに従うと、Analytics変数へのデータ要素の割り当てが簡単になります。
 
-2. 「起動」で、下にスクロールし、「拡張機能カタログ」 **をクリックしま**&#x200B;す。
+## Analytics変数へのデータ要素の割り当て
 
-   ![拡張機能カタログ](assets/extensions.png)
+次の手順に従った後、起動でライブラリを公開すると、Analysis Workspaceでカスタムディメンションを使用できます。 Analytics変数は、グローバルに、または個々のルール内に設定できます。
 
-3. 「解析」の **下の** 「設定」をクリックします。
+### グローバル変数の設定
 
-   ![Analytics 拡張機能](assets/configure.png)
+グローバル変数は、データ要素が存在するすべてのページで変数値を設定する場合に最適です。
 
+1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
+1. 目的の「起動」プロパティをクリックします。
+1. をクリック [!UICONTROL Extensions tab]し、Adobe Analytics拡張 [!UICONTROL Configure] 機能の下のをクリックします。
+1. アコーディオンをク [!UICONTROL Global variables] リックすると、グローバル変数を割り当てるためのインターフェイスが表示されます。
 
-4. 「グロ **ーバル変数****のeVar**」で、変数に関連付けるように設定した [](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) eVarを選択します。 「 **Set as**」を選択し、右端のフィールドで樽型アイコンをクリックして、データ要素を指定します。
+### ルール内の変数の設定
 
-   ![eVarの指定](assets/evars.png)
+ルールに設定された変数は、すべてのページで変数を設定したくない場合に最適です。 ルールで条件を定義します。 See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
-5. 「データ **要素の選択** 」ポップアップウィンドウで、変数に適用するデータ要素を選択します。
+1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
+1. 目的の「起動」プロパティをクリックします。
+1. タブをクリ [!UICONTROL Rules] ックし、目的のルールをクリックします（または作成します）。
+1. の下のボタンをク [!UICONTROL Add] リックしま [!UICONTROL Actions]す。
+1. ドロップダ [!UICONTROL Extension] ウンをAdobe Analyticsに、変数を設定 [!UICONTROL Action Type] に設定します。
+1. 目的のAnalytics変 [!D数の右に](assets/data-element.png) 、データ要素アイコンをクリックします。 組織のソリューションデザ [インドキュメントは](../prepare/solution-design.md) 、使用するAnalytics変数を指示します。
+1. モーダルウィンドウで目的のデータ要素を選択します。 クリック [!UICONTROL Select].
+1. データ要素名は、記号で囲まれたテキストフィールドに追加さ `%` れます。 例えば、データ要素に「Page name」という名前を付けた場合、変数にデータ要素を割り当てる `%Page name%` ときに文字列が表示されます。
 
-6. 「**保存**」をクリックします。
+> [!TIP] 同じ変数内のデータ要素を連結できます。 例えば、「Hostname」データ要素と「Pathname」データ要素がある場合は、を使用して、両方を単一の変数に組み合わせることができま `%Hostname%%Pathname%`す。
 
+## 次の手順
 
-また、データ要素がグローバル変数に関連付けられていない場合は、データ要素をprop [やeVarに割り当てる](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) 、ルールを作成するだけで済みます。
+[ページ変数](../vars/page-vars/page-variables.md):Analysis Workspaceでディメンションをより多く活用するために、実装で使用できるページレベルの変数について説明します。
+
+[設定変数](../vars/config-vars/configuration-variables.md):Adobe Analyticsの他の機能のロックを解除するために、実装で使用できる設定変数について説明します。
