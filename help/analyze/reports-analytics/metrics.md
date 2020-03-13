@@ -3,7 +3,7 @@ description: 指標はレポートの基礎で、データの相互関連を見�
 title: 指標
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [計算指標](/help/components/c-calcmetrics/cm-overview.md)は指標を組み合わせて作成します。
 
-For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
+定義については、[指標の概要](/help/components/c-variables/c-metrics/metricslist.md)を参照してください
 
 ## デフォルトのレポート指標の選択
 
@@ -35,7 +35,7 @@ t_metrics_set_default.xml
 
 1. レポートを実行します。
 1.  デフォルトの指標として保存する指標を追加します。
-1. Click the **[!UICONTROL Add Metrics]** drop-down list, then select **[!UICONTROL Set as Default]**.
+1. **[!UICONTROL 指標の追加]**&#x200B;ドロップダウンリストをクリックし、「**[!UICONTROL デフォルトとして設定]**」を選択します。
 
    選択された指標がこのレポートのデフォルトとして保存されます。次の情報はデフォルトの指標に適用されます。
 
