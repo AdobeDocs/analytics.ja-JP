@@ -3,7 +3,7 @@ description: 対象者にとって最も有用になるようにグラフをカ�
 title: レポートのグラフの変更
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 **レポートグラフを変更するには**
 
 1. レポートを実行します。
-1. Click **[!UICONTROL Configure Graph]**.
+1.  「**[!UICONTROL グラフの設定]**」をクリックします。
 1.  グラフタイプを選択します。
 
    **[!UICONTROL トレンドライン]**：トレンドラインは、レポート指標の毎日のトレンドを示し、それぞれ 1 つの指標を示す各ラインを追うことでその指標の経時的なトレンドを見ることができます。
