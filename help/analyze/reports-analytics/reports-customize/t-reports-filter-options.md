@@ -3,23 +3,23 @@ description: フィルターを使用すると、フィルターに一致する�
 title: レポートデータのフィルタリング
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# レポートデータのフィルタ {#concept_09DC5B986A644738B12204DAC76A90E1}
+# レポートデータをフィルター {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 
-## シンプルフィルター {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## シンプルフィルター{#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
-このシンプルフィルターは大部分のレポートに表示され、特定の行項目をすばやく探し出すために役立ちます。Simple filters do not use any special characters, so `-, ", ', +` and other special characters match the literal value in the report. 複数の単語を含む行項目を検索するときは、単語間をスペースで区切ります。
+このシンプルフィルターは大部分のレポートに表示され、特定の行項目をすばやく探し出すために役立ちます。シンプルフィルターでは、特殊文字を使用できません。そのため、`-, ", ', +` およびその他の特殊文字はレポート内のリテラル値に一致します。複数の単語を含む行項目を検索するときは、単語間をスペースで区切ります。
 
-例：
+次に例を示します。
 
 ```
 help search
@@ -45,18 +45,18 @@ help:Internal Search Term
 
 行項目のどこかに指定の単語が含まれる場合に一致します。これはシンプルフィルターと同じ機能になります。
 
-> [!NOTE] 検索ではスペースは区切り文字なので、フィルターではスペースを使用できません
+> [!NOTE]フィルターではスペースを使用できません。スペースは検索時に区切り文字と見なされます。
 
 **次を含まない**
 
-指定の単語が行項目のどこにも含まれない場合に一致します。You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain".
+指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://marketing.adobe.com/resources/help/ja_JP/reference/none-unspecified-unknown-other.html)をレポートから除外できます。
 
-次を含まない: `none`
+次を含まない。`none`
 
 より正確なフィルタリングを行うには、アドバンス（特殊文字）フィルターを使用できます。
 
-* アドバンス（特殊文字）: `-^none$`
-* Advanced (Special Character): `-"keyword unavailable"`
+* アドバンス（特殊文字）：`-^none$`
+* アドバンス（特殊文字）。`-"keyword unavailable"`
 
 例えば次の行項目は、前述の「次を含まない」の条件では除外されますが、前述の「アドバンス（特殊文字）」の条件では除外されません。
 
@@ -68,7 +68,7 @@ help:Rename the None classification key
 
 スペースで区切られたいずれかの単語が行項目に含まれている場合に一致します。次のフィルターでは、「mens」または「sale」を含むすべてのページが表示されます。
 
-次のいずれかを含む: `mens sale`
+次のいずれかを含む：`mens sale`
 
 この条件は、次のページに一致します。
 
@@ -83,15 +83,15 @@ Sale & Values
 
 行項目全体（スペースとその他の文字を含む）が指定のフレーズと等しい場合に一致します。
 
-次に等しい: `mens:desk & travel`
+次に等しい：`mens:desk & travel`
 
 `Mens:Desk & Travel`
 
-**次で始まる**
+**次の語句で始まる**
 
 行項目（スペースとその他の文字を含む）が指定のフレーズで始まる場合に一致します。
 
-次で始まる: `mens`
+次の語句で始まる。`mens`
 
 この条件は、次のページに一致します。
 
@@ -103,11 +103,11 @@ Mens Perfume Spray
 Mens Hemp/Bamboo Flip Flops
 ```
 
-**次で終わる**
+**次の語句で終わる**
 
 行項目（スペースとその他の文字を含む）が指定のフレーズで終わる場合に一致します。
 
-次で終わる: `jean`
+次の語句で終わる。`jean`
 
 この条件は、次のページに一致します。
 
@@ -119,18 +119,18 @@ Bling Belt High Waist Jean
 Ocean Blue Jean
 ```
 
-## Advanced (Special Character) {#section_83DA3B6C23EB4C119DB6D74062DB501D}
+## アドバンス（特殊文字）{#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
 アドバンスフィルターでは、ワイルドカード検索やその他の複雑な検索を実行できます。
 
 | アドバンス（特殊文字） | 説明 |
 |--- |--- |
 | `" "` | 指定したフレーズと正確に等しい場合に一致します。 |
-| `*` | ワイルドカード、最長一致の検索ができます。<br>例えば、「Registration Signup」 `r*p` と一致します。 |
-| `^` | 次の語句で始まる. <br>この特殊文字と検索フレーズの間にスペースを入れてはなりません。 |
-| `$` | 次の語句で終わる. <br>この特殊文字と検索フレーズの間にスペースを入れてはなりません。 |
-| `-` | NOT. <br>この特殊文字と検索フレーズの間にスペースを入れてはなりません。 |
-| `|` | <br>OrNote: パイプ文字の両側にスペースを含める必要があります `" | "`。 |
+| `*` | ワイルドカード、最長一致の検索ができます。<br>例えば、`r*p` は「Registration Signup」に一致します。 |
+| `^` | 次の語句で始まる。<br>この特殊文字と検索フレーズの間にスペースを入れてはなりません。 |
+| `$` | 次の語句で終わる。<br>この特殊文字と検索フレーズの間にスペースを入れてはなりません。 |
+| `-` | NOT。<br>この特殊文字と検索フレーズの間にスペースを入れてはなりません。 |
+| `|` | <br>注意：この特殊文字の両脇には必ずスペースを指定し、`" | "` のようにします。 |
 
 ## レポート固有のフィルターの作成 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -142,16 +142,16 @@ t_reports_filter_specific.xml
 
  -->
 
-レポートによっては、そのレポートに固有のフィルターを持つものがあります。例えば、購入コンバージョンファネルレポートでは Web ページでデータをフィルターできます。[!UICONTROL 地理特性レポート]では、地域によってデータをフィルターできます。各レポートに固有なその他のフィルターを持つレポートもあります。
+レポートによっては、そのレポートに固有のフィルターを持つものがあります。例えば、[!UICONTROL 購入コンバージョンファネルレポート]では Web ページでデータをフィルターできます。[!UICONTROL 地理特性レポート]では、地域によってデータをフィルターできます。各レポートに固有なその他のフィルターを持つレポートもあります。
 
 これらのフィルターにアクセスすると、そのリストに指定された項目のレポート指標が表示されます。
 
 **レポート固有フィルターを作成するには**
 
-1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
-1.  レポートのヘッダーで、**フィルター**&#x200B;リンクをクリックします。
-1. [!UICONTROL フィルターセレクター]**で「[!UICONTROL フィルターの適用]**」をクリックし、フィルタータイプを指定します。
-1.  項目を検索するには、**検索**&#x200B;フィールドに文字列を入力します。
+1. [!UICONTROL 購入レポート]などのレポートを生成します（**[!UICONTROL サイト指標]**／**[!UICONTROL 購入]**／**[!UICONTROL 購入コンバージョンファネル]**）。
+1.  レポートのヘッダーで、**[!UICONTROL フィルター]**&#x200B;リンクをクリックします。
+1. [!UICONTROL フィルターセレクター]で「**[!UICONTROL フィルターの適用]**」をクリックし、フィルタータイプを指定します。
+1.  項目を検索するには、**[!UICONTROL 検索]**&#x200B;フィールドに文字列を入力します。
 1. 「**[!UICONTROL OK]**」をクリックします。
 
 ## クロス集計フィルターの追加 {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -170,7 +170,7 @@ t_reports_correlation_filter.xml
 
 **クロス集計フィルターを追加するには**
 
-1. クロス集計をサポートするレポートを実行します(See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1.  レポートのヘッダーで、**クロス集計フィルター**&#x200B;リンクをクリックします。
+1. クロス集計をサポートするレポートを実行します([内訳レポートの実行](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)を参考。)
+1. レポートのヘッダーで、**[!UICONTROL クロス集計フィルター]**&#x200B;リンクをクリックします。
 1. 「[!UICONTROL フィルター規則クリエイター]」で、アイテムのクロス集計カテゴリを選択します。
-1. Click **[!UICONTROL OK.]**
+1. 「**[!UICONTROL OK]**」をクリックします。
