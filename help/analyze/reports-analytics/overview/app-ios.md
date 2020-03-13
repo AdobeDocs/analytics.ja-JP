@@ -3,7 +3,7 @@ description: iPad アプリケーションを紹介します。
 title: iOS 版 Adobe Analytics
 topic: Reports and analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
