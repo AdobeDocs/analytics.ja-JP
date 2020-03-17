@@ -5,12 +5,21 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
 
 # Analysis Workspace の新機能
+
+## 2020 年 3 月
+
+2020年3月12日にリリースされた新機能。
+
+| 機能 | 説明 |
+|--- |--- |
+| Workspaceでの複数のレポートスイートのサポート | 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。 [詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| トレーニングチュートリアルテンプレート | この新しい標準テンプレートでは、Workspaceで最初の分析を作成するための一般的な用語と手順を順を追って説明します。 これは、「新規プロジェクト」モーダルの標準テンプレートとして使用でき、リストに他のプロジェクトがない新規ユーザー向けにある、サンプルプロジェクトを置き換えます。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
 
@@ -18,7 +27,6 @@ source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 | 機能 | 説明 |
 |--- |--- |
-| Workspaceでの複数のレポートスイートのサポート | 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。 この機能は2020年2月20日から、数週間の間にすべてのお客様に提供されます。 [詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | デバイス間分析を使用する組織向けの新しいWorkspaceテンプレート | このテンプレートは、CDAが訪問をつなぎ合わせ、CDA専用のディメンションと指標に関する教育をどの程度効果的に行うかを示します。 CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html)を参照してください。 |
 | Workspaceの新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開：`alt + ctrl + m`</li><li>左パネルを検索：`ctrl + /`</li><li>次のパネルに移動：`alt + Right Key`</li><li>前のパネルに移動：`alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | その他のWorkspaceの機能強化 | <ul><li>パネルまたはビジュアライゼーションがWorkspaceにドロップされると、左側のレールがコンポーネントに自動的に切り替わり、よりシームレスなワークフローが実現するようになりました。</li><li>テンプレートコンポーネントに対してアクションを設定できるようになりました（タグ付け、お気に入りに追加、承認など）。</li><li>フィルター適用済みの指標とセグメントリストでは、必要な項目が見つからない場合に、「+」ボタンを使用して新しいコンポーネントを追加できます。</li></ul> |
