@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
 
 + [Analytics 実装ヘルプ](home.md)
 + [AppMeasurementリリースノート](appmeasurement-updates.md)
-+ Analytics変数、関数およびメソッド {#vars}
++ Analyticsの変数、関数およびメソッド {#vars}
    + [概要](vars/overview.md)
    + 設定変数 {#config-vars}
       + [設定変数の概要](vars/config-vars/configuration-variables.md)
@@ -116,7 +116,7 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [ナンバーズスイート](vars/plugins/numberssuite.md)
+      + [ナンバースイート](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt.md)
       + [removeFromList](vars/plugins/removefromlist.md)
@@ -149,7 +149,9 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
    + [Launch の概要](launch/overview.md)
    + [Analyticsプロパティの作成](launch/create-analytics-property.md)
    + [開発環境へのデプロイ](launch/deploy-dev.md)
-   + [検証して実稼働環境にパブリッシュ](launch/validate-publish-prod.md)
+   + [検証と実稼働環境へのパブリッシュ](launch/validate-publish-prod.md)
+   + [データレイヤーオブジェクトのデータ要素へのマッピング](launch/layer-to-elements.md)
+   + [起動データ要素のAnalytics変数へのマッピング](launch/elements-to-variable.md)
 + 他のプラットフォームへのAnalyticsの実装 {#other}
    + [ハードコードされたイメージリクエストを使用したAnalyticsの実装](other/hardcoded.md)
    + Implement Analytics using DTM {#dtm}
@@ -181,16 +183,16 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
          + [トリガー条件のアクションの設定](other/dtm/c-rules/t-rules-actions.md)
          + [Akamai ホスティング用の未発行のルールのテスト](other/dtm/c-rules/t-test-rules-akamai.md)
          + [ライブラリのダウンロードまたは FTP のルールのテスト](other/dtm/c-rules/t-test-rules-ftp.md)
-   + [AnalyticsのAjaxへの実装](other/ajax.md)
+   + [AjaxへのAnalyticsの実装](other/ajax.md)
    + [AMPへのAnalyticsの実装](other/amp.md)
    + [Analyticsのデジタルアシスタントへの実装](other/digital-assistants.md)
-   + [AnalyticsのFacebookインスタント記事への実装](other/fb-instant-articles.md)
+   + [Facebookインスタント記事へのAnalyticsの実装](other/fb-instant-articles.md)
 + [モバイルデバイスへのAnalyticsの実装](mobile-device-sdk.md)
 + 導入の使用例 {#use-cases}
    + [異なる実装タイプでのトラッキング](use-cases/cross-type-implementation.md)
    + [外部電子メールトラッキング](use-cases/email-external.md)
 + Validate your implementation {#validate}
-   + [レガシーAdobe Experience cloudデバッガー](validate/debugger.md)
+   + [レガシーのAdobe Experience Cloudデバッガー](validate/debugger.md)
    + [データ収集クエリパラメーター](validate/query-parameters.md)
    + [パケット監視](validate/packet-monitor.md)
    + [ハッシュの競合](validate/hash-collisions.md)
