@@ -1,6 +1,6 @@
 ---
 title: テクニカルノートホーム
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
@@ -19,9 +19,9 @@ source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 [Analytics ユーザーガイド](/help/landing/home.md)
 
-## その他のAnalyticsリソース
+## その他の Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
 * [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
