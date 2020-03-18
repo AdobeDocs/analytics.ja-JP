@@ -3,7 +3,7 @@ description: Adobe Analytics が収集するデータの概要とプライバシ
 keywords: privacy
 title: プライバシーの概要
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 アドビの製品またはサービスによって閲覧情報が収集されることをオプトアウトする機能に関する情報を、Web サイトの訪問者が簡単に見つけ、簡単に理解できるように提示することをお勧めします。
 
-訪問者は、アドビが収集した情報の一般的な使用方法について、アドビプライバシーセンターで詳 [しく説明します](https://www.adobe.com/privacy.html)。 組織がアドビのサービスの実装方法を制御するので、アドビの製品とサービスの使用方法は組織によって開示されます。 アドビとのサービス契約に準拠するとともに、適用されるすべての法律に準拠するように、独自のプライバシーポリシーを責任を持って作成してください。
+訪問者は[アドビプライバシーセンター](https://www.adobe.com/jp/privacy.html)にアクセスして、アドビが収集した情報の一般的な使用方法に関する詳細情報を入手できます。アドビのサービスの実装方法は貴社によってのみ管理されるので、アドビの製品とサービスの使用方法を開示するかどうかは、貴社に委ねられています。アドビとのサービス契約に準拠するとともに、適用されるすべての法律に準拠するように、独自のプライバシーポリシーを責任を持って作成してください。
 
 ## 収集されるデータの詳細 {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -47,9 +47,9 @@ Adobe Analytics は次のデータを収集します。
 | 広告キャンペーンの成功率 | ○ |
 | 製品情報（カラー、価格、スタイル、写真など） | ○ |
 
-* アドビの顧客が IP の削除を選択していない場合に限ります。
+*アドビの顧客が IP の削除を選択していない場合に限ります。
 
-## プライバシーに関する他の考慮事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## プライバシーに関する他の考慮事項{#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -73,7 +73,7 @@ Adobe Analytics は次のデータを収集します。
   </tr> 
   <tr> 
    <td colname="col1"> グローバル </td> 
-   <td colname="col2"> ファーストパーティ分析は、オンライン行動広告に関する自主規制プログラム(「AdChoices」)の対象外です。 </td> 
+   <td colname="col2"> ファーストパーティ分析は、オンライン行動ターゲティング広告に関する自主的行動規範（「AdChoices」）の対象範囲外です。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> グローバル </td> 
@@ -89,24 +89,24 @@ Adobe Analytics は次のデータを収集します。
   </tr> 
   <tr> 
    <td colname="col1"> ヨーロッパ </td> 
-   <td colname="col2"> アドビは、EMEA でレポートスイートを設定しているすべての顧客に対して、デフォルトで「IP の不明化（IP Obfuscation）」を「有効 - IP 削除（x.x.x.x）」に設定しています。この設定を使用すると、IP アドレスは、地域ルックアップ後の値（x.x.x.x）に完全に置き換えられ、以後、データポイントとして使用できません。 <p>この基本的な置き換え方法は、一意の特定の IP アドレスにリバースエンジニアリングできません。IP アドレスは不可逆的に不明化されており、顧客もアドビもアクセスできません。IP の不明化の他の設定について詳しくは、 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/ja_JP/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> アドビは、EMEA でレポートスイートを設定しているすべての顧客に対して、デフォルトで「IP の不明化（IP Obfuscation）」を「有効 - IP 削除（x.x.x.x）」に設定しています。この設定を使用すると、IP アドレスは、地域ルックアップ後の値（x.x.x.x）に完全に置き換えられ、以後、データポイントとして使用できません。 <p>この基本的な置き換え方法は、一意の特定の IP アドレスにリバースエンジニアリングできません。IP アドレスは不可逆的に不明化されており、顧客もアドビもアクセスできません。IP の不明化の他の設定について詳しくは、 </p> <p> <a href="https://marketing.adobe.com/resources/help/ja_JP/reference/index.html#General_Account_Settings"  >https://marketing.adobe.com/resources/help/ja_JP/reference/index.html#General_Account_Settings</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> グローバル </td> 
-   <td colname="col2"> 顧客は、JavaScript測定コードのcookieの有効期間変数を「なし」、「セッション」または秒単位の別の指定値に設定できます。 </td> 
+   <td colname="col2"> 顧客は、cookie の全期間変数を JavaScript 測定コードで「none」、「session」または他の測定値（秒単位）に設定できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ヨーロッパ </td> 
-   <td colname="col2"> アドビは、Adobe clientCare for Adobe Analytics（旧称SiteCatalyst）リリースバージョン14.9および15.4で有効にできる新しい「プライバシーバイデザイン」設定を開発しました。この新しい設定を有効にすると、IPアドレスがアドビによって収集されると、IPアドレスの最後のオクテット（最後の部分）が即座に値0に置き換えられます。 この不明化は、IP アドレスの地域ルックアップ（オプション）や ISP ルックアップなど、IP アドレスに対する一切の処理が行われる前に行われます。 </td> 
+   <td colname="col2"> アドビは、「設計によるプライバシー」という新しい設定を開発しており、現在 Adobe ClientCare for Adobe Analytics（旧称 SiteCatalyst）リリースバージョン 14.9 および 15.4 で有効にできます。この新しい設定を有効にすると、IP アドレスがアドビに収集された直後に最後のオクテット（最後の位置）が値 0 に置き換えられます。この不明化は、IP アドレスの地域ルックアップ（オプション）や ISP ルックアップなど、IP アドレスに対する一切の処理が行われる前に行われます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ドイツ </td> 
-   <td colname="col2"> <p>Adobe Analytics に関するデータ処理協定（DPA）をアドビとまだ交わしていない顧客は、Adobe アカウントマネージャーまたはカスタマーサクセスマネージャーに連絡してください。これらのマネージャーがアドビ法務部門と DPA を交わします。 </p> <p>アドビは、Bavarian Data Protection Authority(Bayerisches Landesamt Fuer Datenschutzaufht - bayLDA)によって確認および承認された、Analytics用のデータ処理契約(Vertrag fuer Auftargstadatenverarbeitung - ADV)を準備しました。 ADV はドイツ語と英語で使用できます。 </p> </td> 
+   <td colname="col2"> <p>Adobe Analytics に関するデータ処理協定（DPA）をアドビとまだ交わしていない顧客は、Adobe アカウントマネージャーまたはカスタマーサクセスマネージャーに連絡してください。これらのマネージャーがアドビ法務部門と DPA を交わします。 </p> <p>アドビは、Adobe Analytics に関するデータ処理協定（Vertrag über Auftragsdatenverarbeitung – ADV）を用意しており、その内容はバイエルンデータ保護機関（Bayerisches Landesamt für Datenschutzaufsicht – BayLDA）によって確認および認定済みです。ADV はドイツ語と英語で使用できます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## EMEA データセンターの所在地 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA データセンターの所在地{#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 現在、Adobe Analytics データは、次の EMEA データセンターでホストされています。
 
