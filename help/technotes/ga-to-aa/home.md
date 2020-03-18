@@ -1,7 +1,7 @@
 ---
 title: サードパーティの分析プラットフォームから Adobe Analytics への移行
-description: Google Analyticsなど、他のプラットフォームに詳しいユーザーを対象にした、レポートを取得するための主要概念について説明します。
-translation-type: tm+mt
+description: Google Analytics などの他のプラットフォームに詳しいユーザー向けに、レポートの取得に関する概要について説明します。
+translation-type: ht
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
@@ -9,29 +9,29 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 # サードパーティの分析プラットフォームから Adobe Analytics への移行
 
-このガイドでは、Adobe Analyticsの主要な概念とワークフローを学ぶのに役立つ、アドビと他の一般的なツールとの主な類似点と違いに焦点を当てた一般的なレポートタイプを示します。 このガイドは、デジタル解析の基本概念に詳しいが、Adobe Analyticsを初めて使用するアナリストを対象としています。 組織に、アドビのデータ収集サーバーにデータを送信する実装が正常に行われていることを前提としています。 組織でAdobe Analyticsの実装をまだ設定していない場合は、まず『 [Adobe Analytics First Admin Guide』を参照してください](/help/admin/admin-console/first-admin-guide.md)。
+このガイドでは一般的なレポートタイプを紹介し、アドビとその他の一般的なツールとの主な類似点と相違点に焦点を当てながら、Adobe Analytics の概要と主なワークフローについて説明します。このガイドは、デジタル分析の基本知識があり、Adobe Analytics を初めて使用するアナリストを対象としています。組織において、アドビのデータ収集サーバーにデータを送信する実装が正常におこなわれていることを前提としています。Adobe Analytics を実装していない場合は、まず「[Adobe Analytics はじめての管理ガイド](/help/admin/admin-console/first-admin-guide.md)」を参照してください。
 
-Google AnalyticsとAdobe Analyticsは、Webサイトのパフォーマンスに対する価値あるインサイトを得るための強力なプラットフォームです。 それぞれに独自の処理アーキテクチャとユーザーインターフェイスがあり、プラットフォームごとに異なる利点があります。 このガイドは、Google Analyticsでの経験を持つユーザーをAdobe Analyticsに適合させるのに役立つように設計されています。
+Google Analytics と Adobe Analytics は、Web サイトのパフォーマンスに対する価値あるインサイトを得るための強力なプラットフォームです。それぞれ独自の処理アーキテクチャとユーザーインターフェイスを備えており、異なる利点があります。このガイドは、Google Analytics を使用したことがあるユーザーを対象に、Adobe Analytics の使用方法を説明することを目的としています。
 
-Adobe Analyticsでは、Adobe Experience cloudにログインした後に基本レポートを取り込む方法は2つあります。
+Adobe Analytics では、Adobe Experience Cloud にログインしたあとに基本レポートを取り込む方法が 2 つあります。
 
-* **Reports &amp; Analyticsは** 、基本的なレポートを取り込む過去の方法です。 左側のメニューには、プレハブレポートのリストが表示され、ユーザは必要なレポートに移動してデータを取得できます。 セグメントと指標は、追加のカスタマイズを提供できます。 Google Analyticsのレポートに慣れているユーザーは、このレイアウトを使い慣れていると思われます。
-* **ほとんどのレポートを取り込むには** 、Analysis Workspaceが推奨される方法です。 左側のメニューを使用すると、ユーザーはコンポーネントをドラッグ&amp;ドロップして独自のレポートを作成できます。 これにより、正確なレポートのニーズを満たすための自由度が大幅に向上します。 Google Analyticsのダッシュボードとカスタムレポートの作成経験がある方は、このレイアウトを使い慣れていると思います。
+* **Reports &amp; Analytics** は、基本レポートを取り込む従来の方法です。左側のメニューには既製レポートのリストが表示され、適切なレポートに移動してデータを取得できます。セグメントと指標をカスタマイズできます。このレイアウトは、Google Analytics のレポートと類似しています。
+* **Analysis Workspace** の使用は、現在最も推奨されるレポート取得方法です。左側のメニューでは、コンポーネントをドラッグ＆ドロップして独自のレポートを作成できます。柔軟性が非常に高く、あらゆるレポートニーズに的確に対応します。このレイアウトは、Google Analytics のダッシュボードとカスタムレポートに類似しています。
 
-ほとんどのレポートは、Reports &amp; AnalyticsとAnalysis Workspaceの両方で作成できます。 ただし、一部のレポートは、一方のプラットフォームを使用してのみ取り込むことができます。 特定の機能がReports &amp; Analyticsでのみ使用できる場合を除き、ほとんどの場合、Analysis Workspaceの使用をお勧めします。
+ほとんどのレポートは、Reports &amp; Analytics と Analysis Workspace の両方で作成できます。ただし、どちらかのプラットフォームでのみ取り込むことができるレポートもあります。特定の機能が Reports &amp; Analytics でのみ使用できる場合を除き、基本的には Analysis Workspace の使用をお勧めします。
 
 ## 推奨学習パス
 
-レポートデータの取得に関する基本事項から始めることをお勧めします。
+アドビでは、レポートデータの取得に関する基本事項の学習から始めることを推奨しています。
 
-* [Analysis Workspace for GA での基本レポートの作成](reports/create-report.md)
+* [Google Analytics ユーザー向け：Analysis Workspace での基本レポートの作成方法](reports/create-report.md)
 
-Analysis Workspaceのコンポーネントについて理解したら、適切なコンポーネントを使用してほとんどのレポートを再作成する方法を学ぶことができます。
+Analysis Workspace のコンポーネントについて理解できたら、適切なコンポーネントを使用して様々なレポートを再作成する方法を学習しましょう。
 
-* [Adobe Analyticsでリアルタイムレポートを作成する](reports/realtime-reports.md)
-* [Adobe Analyticsでのオーディエンスレポートの作成](reports/audience-reports.md)
-* [Adobe Analyticsでの獲得レポートの作成](reports/acquisition-reports.md)
-* [Adobe Analyticsでの行動レポートの作成](reports/behavior-reports.md)
-* [Adobe Analyticsでのコンバージョンレポートの作成](reports/conversions-reports.md)
+* [Adobe Analytics でのリアルタイムレポートの作成](reports/realtime-reports.md)
+* [Adobe Analytics でのオーディエンスレポートの作成](reports/audience-reports.md)
+* [Adobe Analytics での獲得レポートの作成](reports/acquisition-reports.md)
+* [Adobe Analytics での行動レポートの作成](reports/behavior-reports.md)
+* [Adobe Analytics でのコンバージョンレポートの作成](reports/conversions-reports.md)
 
-レポートの取り込みを学習した後、処理とア [ーキテクチャの違いを理解する](processing-differences.md) と、プラットフォーム間で取得される異なる数値を調整できます。 FAQも [あり](faq.md) 、
+レポートの取り込み方法を学習し、[処理方法とアーキテクチャの違い](processing-differences.md)を理解できれば、プラットフォーム間で取得される異なる数値を調整できるようになります。[FAQ](faq.md) も参照してください。
