@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 title: タイムスタンプオプションの使用
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 > [!NOTE]タイムスタンプオプションは、今後テンプレートから作成されるすべての新しいレポートスイートのデフォルト設定になります。既存のレポートスイートからコピーした新しいレポートスイートは、元のものから設定を継承します。
 
-その他の設定情報について詳しくは、[タイムスタンプオプション](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html)を参照してください。
+その他の設定情報について詳しくは、[タイムスタンプオプション](https://marketing.adobe.com/resources/help/ja_JP/reference/timestamp-optional.html)を参照してください。
 
 ## タイムスタンプオプション：タイムスタンプのあるデータとないデータの統合 {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -38,7 +38,7 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 * タイムスタンプが必要（訪問者 ID の設定はサポートされていない）
 * タイムスタンプオプション（訪問者 ID の設定はサポートされてるが、タイムスタンプ付きのヒットではサポートされない）
 
-## タイムスタンプオプション機能について {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## タイムスタンプオプション機能について{#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 タイムスタンプオプションを使用すると、クライアント側のタイムスタンプが含まれていてもいなくても、複数のレポートスイートにわたって統合およびレポートできます。タイムスタンプオプションがあれば、以前のアプリからのタイムスタンプのないデータを使用しながら、タイムスタンプを使用するようにアプリをアップデートできます。
 
@@ -62,7 +62,7 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
    順番が正しくないデータには、オフラインデータ収集からの到着が遅れたデータおよび到着が遅れたヒット、またはオフラインモバイルデバイスの同期していないクロックが含まれている可能性があります。順番が正しくないデータは、時間の計算（滞在時間値など）、属性（eVar の持続性）、訪問回数／訪問のカウントおよびパスレポートに悪影響を与える可能性があります。
 
-* [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) が設定されている場合のタイムスタンプの使用は、推奨されません。データの順番がばらばらになる可能性があります。
+* [s.visitorID](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/visid_custom.html) が設定されている場合のタイムスタンプの使用は、推奨されません。データの順番がばらばらになる可能性があります。
 
 * アプリ（タイムスタンプ対応、オフラインデータ）から成るハイブリッドアプリで Web ブラウザー（タイムスタンプ非対応、ライブデータ）を開く場合、タイムスタンプを使用しないでください。セッションのレポーティングが不正確になります。
 
