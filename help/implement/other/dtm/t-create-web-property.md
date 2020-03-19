@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Web プロパティの作成
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 Web プロパティは、1 つ以上のドメインおよびサブドメインの集合と複数のルールで構成され、1 つの埋め込みコードに組み込まれます。
 
-> [!NOTE]プロパティを作成できるのは管理者権限を持つユーザーのみです。ロールについて詳しくは、Dynamic Tag Management 製品ドキュメントの[DTMでのグループの作成と管理](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html)を参照してください。
+> [!NOTE]プロパティを作成できるのは管理者権限を持つユーザーのみです。ロールについて詳しくは、『Dynamic Tag Management 製品ドキュメント』の [DTM のグループの作成と管理](https://marketing.adobe.com/resources/help/ja_JP/dtm/groups.html)を参照してください。
 
 それらのアセットを DTM で管理および追跡できます。例えば、1 つのテンプレートに基づく複数の Web サイトがあり、それらすべての Web サイトに関する共通のアセットを追跡する場合などに役立ちます。1 つの Web プロパティを複数のドメインに適用することもできます。
 
-Web プロパティの概要とベストプラクティスについては、Dynamic Tag Management 製品ドキュメントの[Web プロパティ](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html)を参照してください。
+Web プロパティの概要とベストプラクティスについては、Dynamic Tag Management 製品ドキュメントの [Web プロパティ](https://marketing.adobe.com/resources/help/ja_JP/dtm/web_property.html)を参照してください。
 
 1. 会社ページに移動して、「**[!UICONTROL プロパティの追加]**」をクリックします。
 
@@ -68,7 +68,7 @@ Web プロパティの概要とベストプラクティスについては、Dyna
     <td colname="col2"> <p>発行する承認済みのルールをユーザーが選択できるようにするかどうかを指定します。これがデフォルトのオプションです。 </p> </td> 
     </tr> 
     <tr> 
-    <td colname="col1"> <span class="uicontrol"> DTM 用 Cookie 名</span> </td> 
+    <td colname="col1"> <span class="uicontrol">Cookie 名のトラッキング</span> </td> 
     <td colname="col2"> <p>デフォルトのトラッキング Cookie 名より優先されます。Dynamic Tag Management が別の Cookie の受信のオプトアウトステータスをトラッキングするために使用する名前をカスタマイズできます。 </p> </td> 
     </tr> 
     <tr> 
