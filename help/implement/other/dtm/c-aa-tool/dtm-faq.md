@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;rev
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics ツールに関する FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -23,8 +23,8 @@ Adobe Analytics 導入の自動設定に関する FAQ です。自動設定の�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> DTMを使用してAdobe Analyticsを実装する場合、プラグインを配置する場所を教えてください。 </p> </td> 
-   <td colname="col2"> <p> If using DTM to manually host the <code> s_code</code>, plug-ins can be added in the same editor as the hosted <code> s_code</code>, just as it would be in a typical Adobe Analytics implementation. </p> <p>However, it is also an option to place the plug-ins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. どちらの実装方法も効果は同じです。 </p> </td> 
+   <td colname="col1"> <p> DTM を介して Adobe Analytics を実装する場合、どこにプラグインを置いたらよいですか。 </p> </td> 
+   <td colname="col2"> <p> DTM を使用して手動で <code> s_code</code> をホストしている場合、通常の Adobe Analytics の実装と同じように、プラグインはホストされている <code> s_code</code> と同じエディターに追加できます。 </p> <p>ただし、ツール設定の「<span class="term">ページコードをカスタマイズ</span>」セクション内のエディターにプラグインを配置するオプションも 1 つあります。どちらの実装方法も効果は同じです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>新しいバージョンのツールの設定を変更した場合、実稼動環境に発行する前にステージングでテストできますか。 </p> </td> 
@@ -45,7 +45,7 @@ Adobe Analytics 導入の自動設定に関する FAQ です。自動設定の�
  </tbody> 
 </table>
 
-「[Adobe Analytics ツールの追加](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md)」を参照してください。
+設定情報については、[Adobe Analytics ツールの追加](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md)を参照してください。
 
 ## 潜在的な問題 {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
