@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;data element;create new data element;name;type;
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: データ要素の作成
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 Dynamic Tag Management でデータ要素を作成します。
 
 1. [Web プロパティを作成します](/help/implement/other/dtm/t-create-web-property.md)（まだ作成していない場合）。
-1. Web プロパティで、**[!UICONTROL ルール]**／**[!UICONTROL &#x200B;データ要素]**をクリックします。
+1. Web プロパティで、**[!UICONTROL ルール]**／**[!UICONTROL データ要素]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 新規データ要素を作成]**」をクリックします。
 1. 次のフィールドおよびオプションに情報を入力します。
 
@@ -32,7 +32,7 @@ Dynamic Tag Management でデータ要素を作成します。
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>タイプ</strong></td> 
-      <td class="chdesc stentry"> <p> JS オブジェクト、CSS セレクター、Cookie、URL パラメーター、カスタムスクリプトなど、データ取得元のタイプを指定します。 </p> <p>選択したタイプに応じて、異なるオプションが表示されます。詳細と例については、Dynamic Tag Management 製品ドキュメントの<a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html">データ要素のタイプ</a>を参照してください。 </p> </td> 
+      <td class="chdesc stentry"> <p> JS オブジェクト、CSS セレクター、Cookie、URL パラメーター、カスタムスクリプトなど、データ取得元のタイプを指定します。 </p> <p>選択したタイプに応じて、異なるオプションが表示されます。詳細と例については、Dynamic Tag Management 製品ドキュメントの<a href="https://marketing.adobe.com/resources/help/ja_JP/dtm/data_elements.html">データ要素のタイプ</a>を参照してください。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>デフォルト値</strong></td> 
@@ -47,11 +47,11 @@ Dynamic Tag Management でデータ要素を作成します。
       <td class="chdesc stentry"> <p>Dynamic Tag Management にこの値を記憶させておく期間。 </p> <p> 有効な設定値は以下のとおりです。 </p> 
       <ul id="ul_52F6CD8FC22942208F3F45492E914104"> 
         <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>セッション：セッションベースのタイミングは、実装によって変わる可能性があります。セッションデータ要素は、セッション Cookie に設定されます。ただし、この設定は Web サーバーやブラウザーの機能に基づくものです。Reports &amp; Analytics で使用されるマーケティング的な意味のセッション（訪問）とは関係ありません。 </p> </li> 
-        <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>ページビュー </p> </li> 
-        <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>訪問者 </p> </li> 
+        <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>ページビュー。 </p> </li> 
+        <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>訪問者。 </p> </li> 
       </ul> </td> 
     </tr> 
    </table>
 
-   データ要素の使用方法について詳しくは、Adobe Tag Management 製品ドキュメントの[データ要素](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html)を参照してください。
-1. **[!UICONTROL データ要素を保存]**をクリックします。
+   データ要素の使用方法について詳しくは、Adobe Tag Management 製品ドキュメントの[データ要素](https://marketing.adobe.com/resources/help/ja_JP/dtm/data_elements.html)を参照してください。
+1. **[!UICONTROL データ要素を保存]**&#x200B;をクリックします。
