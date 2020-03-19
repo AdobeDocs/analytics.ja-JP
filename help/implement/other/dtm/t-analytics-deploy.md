@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics の手動実装（レガシー）
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,13 +14,13 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 [!UICONTROL Dynamic Tag Management ]を使用した導入のために Adobe Analytics ツールを作成します。ここでは、手動（レガシー）導入について説明します。
 
-自動導入の管理については、「[Adobe Analytics ツールの追加](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md)」を参照してください。
+自動導入の管理については、[Adobe Analytics ツールの追加](/help/implement/other/dtm/c-aa-tool/analytics-dtm.md)を参照してください。
 
 手動設定を自動設定に変更する場合は、ツールを編集し、「**[!UICONTROL 自動設定を有効にする]**」をクリックします。
 
 1. Analytics 測定コードをダウンロードします：
-   1. In Analytics, click **[!UICONTROL Admin]**>**[!UICONTROL  Code Manager]**.
-   1. 「**[!UICONTROL JavaScript (新規)]**」をクリックして、コードをローカルにダウンロードします。
+   1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL Code Manager]** をクリックします。
+   1. 「**[!UICONTROL JavaScript（新規）]**」をクリックして、コードをローカルにダウンロードします。
 1. [!UICONTROL Dynamic Tag Management] で、[web プロパティを作成](/help/implement/other/dtm/t-create-web-property.md)します。
 
    ![](assets/dtm-property.png)
@@ -29,8 +29,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 1. プロパティに Analytics ツールを追加します：
    1. 「**[!UICONTROL Web プロパティ]**」タブで、対象プロパティをクリックします。
-   1. 「**[!UICONTROL 概要]**」タブで、「**[!UICONTROL &#x200B;ツールを追加]**」をクリックします。
-   1. **[!UICONTROL ツールタイプ]**メニューで、「**[!UICONTROL  Adobe Analytics]**」を選択します。
+   1. 「**[!UICONTROL 概要]**」タブで、「**[!UICONTROL ツールを追加]**」をクリックします。
+   1. **[!UICONTROL ツールタイプ]**&#x200B;メニューで、「**[!UICONTROL Adobe Analytics]**」を選択します。
 
       ![](assets/dtm-add-analytics-tool.png)
 
@@ -40,7 +40,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
       |---|---|
       | ツールタイプ | Analytics、Target、Social などの Experience Cloud ソリューション。 |
       | ツール名 | このツールの名前。この名前は、[!UICONTROL インストールされているツール]の「[!UICONTROL 概要]」タブに表示されます。 |
-      | 実稼動アカウント ID | 実稼動サイトのデータを計測するアカウントの RSID。Dynamic Tag Management は、実稼働およびステージング環境に適したアカウントを自動的にインストールします。 |
+      | 実稼動アカウント ID | 実稼動サイトのデータを計測するアカウントの数。Dynamic Tag Management は、実稼動およびステージング環境に適したアカウントを自動的にインストールします。 |
       | ステージングアカウント ID | 開発またはテスト環境で使用されます。ステージングアカウントには、実稼動用データとは別個のテストデータが保持されます。 |
 
 1. 「**[!UICONTROL ツールを作成]**」をクリックします。
