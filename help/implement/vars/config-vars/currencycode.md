@@ -2,33 +2,33 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # currencyCode
 
-コマースを使用するサイトでは、売上高と通貨がAnalyticsの重要な部分です。 多くのサイト、特に複数の国にまたがるサイトでは、異なる通貨が使用されます。 この変数を使 `currencyCode` 用して、売上高属性が正しい通貨になっていることを確認します。
+コマースを使用するサイトでは、売上高と通貨がAnalyticsの重要な部分です。 多くのサイト、特に複数の国にまたがるサイトでは、異なる通貨を使用します。 この変数を使 `currencyCode` 用して、売上高属性が正しい通貨であることを確認します。
 
-を定 `currencyCode` 義していない場合、変数と通貨イベント `products` を定義した金額値は、レポートスイートの通貨と同じ通貨であるかのように扱われます。 レポー [トスイートの通貨については](/help/admin/admin/general-acct-settings-admin.md) 、『管理者ユーザーガイド』の「一般的なアカウント設定」を参照してください。
+を定義 `currencyCode` していない場合、変数と通貨イベン [`products`](../page-vars/products.md) トを定義した金額値は、レポートスイートの通貨と同じ通貨であるかのように扱われます。 レポートス [イートの通貨を確認するには](/help/admin/admin/general-acct-settings-admin.md) 、『管理者ユーザガイド』の「一般的なアカウント設定」を参照してください。
 
 が定義さ `currencyCode` れ、レポートスイートの通貨と一致する場合、通貨換算は適用されません。
 
-が定 `currencyCode` 義され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。 アドビは [XEと提携し](https://xe.com) 、毎日通貨を換算します。 データ収集サーバーに保存される値は、最終的にはレポートスイートの通貨で保存されます。
+が定義 `currencyCode` され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。 アドビは [XEと提携し](https://xe.com) 、毎日通貨を換算します。 データ収集サーバーに保存される値は、最終的にはレポートスイートの通貨で保存されます。
 
-> [!IMPORTANT] 無効な `currencyCode` 値が含まれる場合、ヒット全体が破棄され、データが失われます。 実装でこの変数を使用する場合は、この変数が正しく定義されていることを確認します。
+> [!IMPORTANT] 無効な `currencyCode` 値が含まれている場合、ヒット全体が破棄され、データが失われます。 実装でこの変数を使用する場合は、この変数が正しく定義されていることを確認します。
 
-この変数は、ヒット間で保持されません。 この変数は、売上高または通貨イベントを含むすべてのページで定義されていることを確認します。
+この変数は、ヒット間で保持されません。 この変数は、売上高または通貨イベントを含むすべてのページで定義してください。
 
 ## Adobe Experience Platform Launchの通貨コード
 
-「通貨コード」は、Adobe Analytics拡張機能を設定す [!UICONTROL る際に] 、一般アコーディオンの下にあるフィールドです。
+通貨コードは、Adobe Analyticsの拡張機能を設定す [!UICONTROL General] る際に、アコーディオンの下にあるフィールドです。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 目的のプロパティをクリックします。
-3. 「拡張」タブに移 [!UICONTROL 動し] 、「Adobe Analytics」の下にある「設 [!UICONTROL 定] 」ボタンをクリックします。
-4. 「一般」アコー [!UICONTROL ディオンを展開すると] 、「通貨コード」フィー [!UICONTROL ルドが表示されます] 。
+3. タブに移動し、 [!UICONTROL Extensions] Adobe Analyticsの下のボタ [!UICONTROL Configure] ンをクリックします。
+4. アコーディオ [!UICONTROL General] ンを展開すると、フィールドが表示 [!UICONTROL Currency Code] されます。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。 カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
