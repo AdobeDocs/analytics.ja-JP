@@ -2,20 +2,20 @@
 title: registerPreTrackCallback
 description: アドビにヒットを送信する前に、コールバック関数を作成します。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # registerPreTrackCallback
 
-この変 `registerPreTrackCallback` 数を使用すると、イメージリクエストURLがコンパイルされた後、送信される前に、JavaScript関数をフックできます。 この変数を使用して、AppMeasurementによって収集されたデータをパートナーまたは社内インフラストラクチャに送信できます。
+この変 `registerPreTrackCallback` 数を使用すると、組織は、イメージリクエストURLのコンパイル後、送信前にJavaScript関数をフックできます。 この変数を使用して、AppMeasurementによって収集されたデータをパートナーまたは社内インフラストラクチャに送信できます。
 
-> [!IMPORTANT] 変数内などのトラッキング関数は呼び出 `t` さな `tl` いでく `registerPostTrackCallback` ださい。 この変数で関数をトラッキングすると、イメージリクエストが無限ループになります。
+> [!IMPORTANT] 変数内などのトラッキングコールを呼び出 [`t()`](t-method.md) さない [`tl()`](tl-method.md) でくだ [`registerPostTrackCallback`](registerposttrackcallback.md) さい。 この変数で関数をトラッキングすると、イメージリクエストが無限ループします。
 
-変数を呼び出すたびに、 `registerPreTrackCallback` その関数をフックして、イメージリクエストURLがコンパイルされるたびに実行します。 同じページの読み込みで同じ関数を複数回登録しないでください。
+変数を呼び出すたびに、 `registerPreTrackCallback` その関数をフックして、イメージリクエストURLがコンパイルされるたびに実行されます。 同じページの読み込みで同じ関数を複数回登録しないでください。
 
-> [!NOTE] との間に呼び出される関数のタイミングと順序 `registerPreTrackCallback` は保証 `registerPostTrackCallback` されません。 この2つの関数間の依存関係を避けます。
+> [!NOTE] との間に呼び出される関数のタイミングと順 `registerPreTrackCallback` 序は保 `registerPostTrackCallback` 証されません。 この2つの関数間の依存関係を避けます。
 
 ## Adobe Experience Platform LaunchでのPre Trackコールバックの登録
 
@@ -29,7 +29,7 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 s.registerPreTrackCallback(function(){/* Desired code */});
 ```
 
-コードでイメージリクエストURLを使用する場合は、ネストされた関数内で `requestUrl` 文字列引数を参照します。 この変数は、目的の `requestUrl` 用途に合わせて解析できます。この変数を調整しても、データ収集には影響しません。
+コード内でイメージリクエストURLを使用する場合は、ネストされた関数内で `requestUrl` 文字列引数を参照します。 この変数は、目的の `requestUrl` 用途に合わせて解析できます。この変数を調整しても、データ収集には影響しません。
 
 ```js
 s.registerPreTrackCallback(function(requestUrl){
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-この関数には、次のような追加の引数を `s.registerPreTrackCallback` 含めることができます。この引数は、ネストされた関数で使用できます。
+関数には、ネストされた関数で使 `s.registerPreTrackCallback` 用できる追加の引数を含めることができます。
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-> [!NOTE] ページ変数の設定やこの関数内の文字 `requestUrl` 列の変更は、この関数呼び出し *の直後* に送信されるイメージリクエストには影響しません。
+> [!NOTE] ページ変数の設定やこの関数内の文 `requestUrl` 字列の変更は、この関 **数の呼び出しの直後に** 送信されるイメージリクエストには影響しません。 代わりに、変数を [`doPlugins()`](doplugins.md) 使用します。
