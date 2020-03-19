@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;global variables;server variable;evar;props;dyn
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: グローバル変数
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
 
 ---
@@ -18,11 +18,11 @@ Dynamic Tag Management を使用して Adobe Analytics をデプロイする場�
 
 ## グローバル変数 - フィールドの説明 {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL /ツ&#x200B;*`Property`*]**&#x200B;ール![](assets/settings_gear.png)を編集&#x200B;**[!UICONTROL /グロ]**&#x200B;**[!UICONTROL ーバル変数]**
+**[!UICONTROL *`Property`*]**／![](assets/settings_gear.png)**[!UICONTROL &#x200B;ツールを編集&#x200B;]**／**[!UICONTROL &#x200B;グローバル変数&#x200B;]**
 
 | 要素 | 説明 |
 |--- |--- |
-| サーバー | 事前に定義済みの変数により、Adobe Analytics のサーバーディメンションが設定されます。See [Server](../../../vars/page-vars/server.md). |
+| サーバー | 事前に定義済みの変数により、Adobe Analytics のサーバーディメンションが設定されます。[サーバー](../../../vars/page-vars/server.md)を参照してください。 |
 | eVar | [eVar 変数](../../../vars/page-vars/evar.md)は、カスタムコンバージョンレポートを作成するために使用します。 |
 | prop | [Prop 変数](../../../vars/page-vars/prop.md)は、カスタムトラフィックレポートを作成するために使用します。 |
-| 動的変数プレフィックス | 値の先頭に付ける特別なプレフィックスです。デフォルトのプレフィックスは「D=」です。「[動的変数]」を参照してください。(../../../vars/page-vars/dynamic-variables.md) |
+| 動的変数プレフィックス | 値の先頭に付ける特別なプレフィックスです。デフォルトのプレフィックスは「D=」です。[動的変数]を参照してください。(../../../vars/page-vars/dynamic-variables.md) |
