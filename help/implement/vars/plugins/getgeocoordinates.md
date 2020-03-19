@@ -2,31 +2,31 @@
 title: getGeoCoordinates
 description: 訪問者のgeoLocationを追跡します。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Adobeプラグイン：getGeoCoordinates
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すのに役立つ、アドビコンサルティングによって提供されます。 アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを設定できます。
+> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
 
-このプ `getGeoCoordinates` ラグインを使用すると、訪問者のデバイスの緯度と経度を取り込むことができます。 Analytics変数で地域データを取り込む場合は、このプラグインを使用することをお勧めします。
+このプ `getGeoCoordinates` ラグインを使用すると、訪問者のデバイスの緯度と経度を取り込むことができます。 Analytics変数で地域データを取り込む場合は、このプラグインの使用をお勧めします。
 
 ## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
 
-アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. 「拡張子」タブ [!UICONTROL に移動し] 、「カタログ」ボタンをクリッ [!UICONTROL クします] 。
-1. Common Analytics Plugins  Extensionのインストールと公開
-1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
+1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
+1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
    * 条件：なし
    * イベント：コア — ライブラリ読み込み済み（ページの上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：getGeoCoordinatesを初期化
+   * アクションタイプ：getGeoCoordinatesの初期化
 1. ルールに対する変更を保存して発行します。
 
 ## カスタムコードエディターの起動を使用したプラグインのインストール
@@ -35,14 +35,14 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. 「拡張」タブ [!UICONTROL に移動し] 、Adobe Analytics拡張機能の [!UICONTROL 下にある「設定] 」ボタンをクリックします。
-1. 「カスタムコー [!UICONTROL ドを使用してトラッキングを設定] 」アコーディオンを展開すると、「エディターを開く  」ボタンが表示されます。
+1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics拡張機能に公開します。
 
 ## AppMeasurementを使用したプラグインのインストール
 
-Analyticsトラッキングオブジェクトをインスタンス化した後（を使用して）、AppMeasurementファイルの任意の場所に次のコードをコピーして貼り付 `s_gi`けます。 コードのコメントとバージョン番号を実装に保持しておくと、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,13 +53,13 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 
 ## プラグインの使用
 
-このメ `getGeoCoordinates` ソッドでは引数を使用しません。 次のいずれかの値を返します。
+メソッド `getGeoCoordinates` は引数を使用しません。 次のいずれかの値を返します。
 
-* `"geo coordinates not available"`:プラグインの実行時に利用できる地域データのないデバイスの場合。 この値は、訪問の最初のヒットで一般的です。特に、訪問者が場所を追跡する際に、最初に同意する必要がある場合に使用されます。
-* `"error retrieving geo coordinates"`:プラグインがデバイスの場所を取得しようとしたときにエラーが発生した場合
+* `"geo coordinates not available"`:プラグインが実行された時点で利用可能な地域データのないデバイスの場合。 この値は、訪問の最初のヒット時に共通です。特に、訪問者が場所を追跡する際に、最初に同意を示す必要がある場合に発生します。
+* `"error retrieving geo coordinates"`:デバイスの場所を取得しようとすると、プラグインでエラーが発生した場合
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`:ここ [で、]LATITUDE[/] LONGITUDEは、それぞれ緯度と経度です。
 
-> [!NOTE] 座標値は、最も近い4番目の小数点に丸められます。 例えば、の値は丸め `"40.438635333"` られ、取 `"40.4386"` 得される一意の値の数が制限されます。 この値は、デバイスの正確な位置を20フィート以内で正確に示すのに十分近くにあります。
+> [!NOTE] 座標値は、最も近い4番目の小数点に丸められます。 例えば、の値は、取り込む `"40.438635333"` 一意の値の `"40.4386"` 数を制限するように丸められます。 この値は、デバイスの正確な位置を20フィート前後で正確に示すのに十分近い値です。
 
 このプラグインは、必要に応じて、ヒット間の座標を保存す `"s_ggc"` るために名前付きのcookieを使用します。
 
@@ -73,11 +73,11 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 s.eVar1 = s.getGeoCoordinates();
 ```
 
-...eVar1を、訪問者のデバイスステータスに応じて上記の戻り値のいずれかに設定します
+...eVar1を、訪問者のデバイスステータスに応じて上記の戻り値の1つに設定します。
 
 ### 例2
 
-次のコードは、他のコード/アプリケーションで使用するために、緯度と経度を独自の変数finalLatitudeとfinalLongitudeに抽出します
+次のコードは、他のコード/アプリケーションで使用するために、緯度と経度をfinalLatitudeとfinalLongitudeという独自の変数に抽出します
 
 ```js
 var coordinates = s.getGeoCoordinates();
