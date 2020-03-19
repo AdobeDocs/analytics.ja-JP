@@ -2,16 +2,16 @@
 title: linkName
 description: カスタムリンクヒットの名前を設定します。
 translation-type: tm+mt
-source-git-commit: e500332fe16887fa004858b07b59644837e183aa
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkName
 
-この変数を使 `linkName` 用して、次の関数を実行する際のカスタムリンク、ダウンロードリンクまたは離脱リンクのディメンション値を決定 `tl()` します。
+この変数を使 `linkName` 用して、次のメソッドを実行する際に、カスタムリンク、ダウンロードリンクまたは離脱リンクのディメンション値を決定 [`tl()`](../functions/tl-method.md) します。
 
-この変数が空白の場合、AppMeasurementは変数に戻り `linkURL` ます。
+この変数が空白の場合、AppMeasurementは変数に戻り [`linkURL`](linkurl.md) ます。
 
 ## Adobe Experience Platform Launchのリンク名
 
@@ -19,24 +19,24 @@ source-git-commit: e500332fe16887fa004858b07b59644837e183aa
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 目的のプロパティをクリックします。
-3. 「ルール」タブ [!UICONTROL に移動し] 、目的のルールをクリックします（またはルールを作成します）。
-4. 「アク [!UICONTROL ション]」で「+」アイコンをクリックします
-5. 「拡張」ド [!UICONTROL ロップダウンを] 「Adobe Analytics」に設定し、「アクションタイプ [!UICONTROL 」を「送信ビーコン] 」に設定します。
-6. ラジオボタンをク `s.tl()` リックすると、「リンク名」フィ [!UICONTROL ールドが表示され] ます。
+3. タブに移動し、 [!UICONTROL Rules] 目的のルールをクリックします（またはルールを作成します）。
+4. 下の「 [!UICONTROL Actions]+」アイコンをクリックします。
+5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、「ビーコンの送 [!UICONTROL Action Type] 信」に設定します。
+6. ラジオボタンをク `s.tl()` リックすると、フィールドが表示 [!UICONTROL Link Name] されます。
 
 ## AppMeasurementのs.linkNameとカスタムコードエディターの起動
 
-変数 `s.linkName` は、カスタムリンク、ダウンロードリンクまたは離脱リンク（内容に応じて）のディメンション値を決定する `s.linkType` 文字列です。 最大100バイトまで保持できます。
+変数は `s.linkName` 、カスタムリンク、ダウンロードリンクまたは離脱リンクのディメンション値を決定する文字列(内容に応じ [`s.linkType`](linktype.md) て異なります)。 最大100バイトまで保持できます。
 
-> [!TIP] この変数は関数の3番目のパラメー `tl()` ターで、通常、スタンドアロン変数として設定する必要はありません。 ただし、関数の引数と `linkName` して値を設定しない場合は、この変数を使用でき `tl()` ます。
+> [!TIP] この変数はメソッドの3番目のパラメー `tl()` ターで、通常、スタンドアロン変数として設定する必要はありません。 ただし、メソッドの引数 `linkName` として値を設定しない場合は、変数を使用でき `tl()` ます。
 
 ```js
 s.linkName = "Example custom link";
 ```
 
-## 例
+## 例   
 
-次の2つのリンクトラッキングコールの例は、機能的に同じです。 同じリンクトラッキングヒットを達成するには、異なる方法があります。
+次の2つのリンクトラッキングコールの例は、機能的に同じです。 同じリンクトラッキングヒットを達成する方法は異なります。
 
 ```js
 // Set link tracking arguments as individual variables
