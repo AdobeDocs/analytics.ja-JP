@@ -2,18 +2,18 @@
 title: forceOnline
 description: AppMeasurementのオンライン状態を手動で設定します。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # forceOnline
 
-このメソ `forceOnline` ッドを使用すると、自動的に検出されたAppMeasurementの状態を上書きできます。
+このメソ `forceOnline()` ッドを使用すると、自動的に検出されたAppMeasurementの状態を上書きできます。
 
-> [!IMPORTANT] この関数は、が有効な場合にのみ `trackOffline` 使用します。 この関数をオフライン追跡以外で使用すると、データが失われる可能性があります。
+> [!IMPORTANT] このメソッドは、が有効な場合にの [`trackOffline`](../config-vars/trackoffline.md) み使用します。 この関数をオフライン追跡の外部で使用すると、データが失われる可能性があります。
 
-AppMeasurementは、デバイスのオンライン状態を自動的に検出します。 この方法を使用すると、AppMeasurement `forceOnline` に対して、デバイスがオンラインの場合と同様にヒットが処理されるように強制できます。 このメソッドは引数を取らず、値を返しません。 AppMeasurementでオンライン状態を上書きするのが目的です。
+AppMeasurementは、デバイスのオンライン状態を自動的に検出します。 この方法を使用すると、AppMeasurement `forceOnline()` で、デバイスがオンラインであるかのようにヒットを処理するように強制できます。 このメソッドは引数を取らず、値を返しません。 AppMeasurementでオンライン状態を上書きする目的のみです。
 
 ## Adobe Experience Platform LaunchでForce Online
 
@@ -21,7 +21,7 @@ AppMeasurementは、デバイスのオンライン状態を自動的に検出し
 
 ## AppMeasurementのs.forceOnline()およびカスタムコードエディターの起動
 
-Analyticsオブジェクトをインスタ `s.forceOnline()` ンス化した後、実装の任意の場所でこのメソッドを呼び出すことができます。
+このメソッドは、Analyticsオブジ `s.forceOnline()` ェクトをインスタンス化した後、実装の任意の場所で呼び出すことができます。
 
 ```js
 s.forceOnline();
