@@ -1,7 +1,7 @@
 ---
 title: JavaScript 版 AppMeasurement への移行
-description: Hコードから実装を移行するために必要な事項を決定します。
-translation-type: tm+mt
+description: H コードから実装を移行するために必要な事項を決定します。
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -9,29 +9,29 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 # JavaScript 版 AppMeasurement への移行
 
-導入で引き続きHコードを使用する場合は、AppMeasurementの最新バージョンに移行することを強くお勧めします。 Adobe Experience Platform Launchを使用したAnalytics [の導入をお勧めします](../launch/overview.md) 。ただし、更新されたJavaScriptの実装を使用することもできます。
+実装で引き続き H コードを使用する場合は、AppMeasurement の最新バージョンに移行することを強くお勧めします。[Adobe Experience Platform Launch](../launch/overview.md) を使用した Analytics の実装をお勧めします。ただし、更新された JavaScript の実装を使用することもできます。
 
-Hコードと比較した場合、AppMeasurementには次の点に注目すべき変更が含まれています。
+H コードと比較した場合、AppMeasurement には次の注目すべき変更が含まれています。
 
-* Hコードと比べて3倍～ 7倍高速
-* Hコードより軽い — 21 KB非圧縮コードとHコード（非圧縮時は33 KB）。
+* H. コードと比較して 3 倍～7 倍も高速。
+* H コードより軽い - 21kb 非圧縮コード（H コードは 33kb）。
 * ライブラリとページコードを、`<head>` タグ内に配置できるようになりました。
-* 既存のページレベルのHコードは、AppMeasurementと互換性があります。
-* このライブラリは、クエリパラメーターの取得、cookie の読み取り／書き込み、高度なリンクトラッキングの実行のためのネイティブユーティリティを含みます。
-* このライブラリは、動的アカウント設定変数（、およびを含む） `dynamicAccountSelection`をサポ `dynamicAccountMatch`ートしてい `dynamicAccountList`ません。
-* Surveyモジュールはサポートされません。
+* 既存のページレベルの H コードは、AppMeasurement と互換性があります。
+* このライブラリは、クエリーパラメーターの取得、Cookie の読み取り／書き込み、高度なリンクトラッキングの実行のためのネイティブユーティリティを含みます。
+* このライブラリでは、動的アカウント設定変数（`dynamicAccountSelection`、`dynamicAccountMatch`、`dynamicAccountList` など）はサポートされません。
+* Survey モジュールはサポートされません。
 
 次の手順は、一般的な移行ワークフローを示しています。
 
-1. **新しいAppMeasurementファイルのダウンロード**:Adobe Analyticsにログインし、管理者/コードマネージャーに移動して、新しいファイルにアクセスします。 ダウンロードした圧縮ファイルには、縮小ファイルと `AppMeasurement.js` 、メディアモジュールおよび統合モジュールが含まれています。
-1. **カスタマイズのコ`s_code.js``AppMeasurement.js`**ピー先：セクションの前にあるすべてのコ`DO NOT ALTER ANYTHING BELOW THIS LINE`ードをの先`s_code.js`頭に移動します`AppMeasurement.js`。
-1. **すべてのプラグインを更新**:ファイルに一覧表示されている各プラグインの最新バージョンを使用していることを確認し `s_code.js` ます。 これにはメディアモジュールと統合モジュールが含まれます。
-1. **AppMeasurement.jsファイルをデプロイします**。ファイルをWebサ `AppMeasurement.js` ーバーにアップロードします。
-1. **参照先のスクリプトを更新しま`AppMeasurement.js`**す：すべてのページが、ではなく参照されてい`AppMeasurement.js`ることを確認しま`s_code.js`す。
+1. **新しい AppMeasurement ファイルをダウンロードします**：Adobe Analytics にログインし、管理者／Code Manager の順に移動して、新しいファイルにアクセスします。ダウンロードした圧縮ファイルには、`AppMeasurement.js` 縮小ファイルと、メディアモジュールおよび統合モジュールが含まれています。
+1. **`s_code.js`のカスタマイズを`AppMeasurement.js`**にコピーします：`s_code.js`で`DO NOT ALTER ANYTHING BELOW THIS LINE`セクションの前にあるすべてのコードを`AppMeasurement.js`の先頭に移動します。
+1. **すべてのプラグインを更新します**：`s_code.js` ファイルに一覧表示されているプラグインのそれぞれが最新バージョンを使用していることを確認します。これにはメディアモジュールと統合モジュールが含まれます。
+1. **AppMeasurement.js ファイルをデプロイします**：`AppMeasurement.js` ファイルを Web サーバーにアップロードします。
+1. **スクリプトの参照先を`AppMeasurement.js`**に更新します：すべてのページで、`s_code.js`ではなく`AppMeasurement.js`が参照されていることを確認します。
 
-## Appmeasurementコードの例
+## Appmeasurement コードの例
 
-一般的なファ `AppMeasurement.js` イル。 設定変数が関数の上に設定されていることを確認し `doPlugins` ます。
+一般的な `AppMeasurement.js` ファイル。設定変数が `doPlugins` 関数より前に設定されていることを確認します。
 
 ```js
 // Initialize AppMeasurement
@@ -86,4 +86,4 @@ s.t();
 </script>
 ```
 
-各ページに `AppMeasurement.js` と `VisitorAPI.js` への参照が含まれていることも必ず確認してください。詳しくは [、「JavaScriptの実装](/help/implement/js/overview.md) 」を参照してください。
+各ページに `AppMeasurement.js` と `VisitorAPI.js` への参照が含まれていることも必ず確認してください。詳しくは、[JavaScript の実装](/help/implement/js/overview.md)を参照してください。
