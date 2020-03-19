@@ -1,30 +1,30 @@
 ---
-title: Facebookインスタント記事を使用した実装
-description: Facebookインスタント記事ページへのAdobe Analyticsの実装を参照してください。
-translation-type: tm+mt
+title: Facebook インスタント記事での実装
+description: Facebook インスタント記事ページに Adobe Analytics を実装します。
+translation-type: ht
 source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
 
 ---
 
 
-# Facebookインスタント記事を使用した実装
+# Facebook インスタント記事での実装
 
-Facebookインスタント記事を使用すると、発行者はFacebook上で高速でインタラクティブな記事を作成できます。 インスタント記事は、モバイル Web よりも最大 10 倍高速にコンテンツを読み込めます。
+Facebook インスタント記事を使用すると、Facebook 上で高速でインタラクティブな記事を作成できます。インスタント記事は、モバイル Web よりも最大 10 倍高速にコンテンツを読み込めます。
 
-Adobe AnalyticsをFacebookインスタント記事に埋め込んで、訪問者の行動を追跡できます。 投稿者のコンテンツはFacebookアプリ内にあり、投稿者のWebサイトにはないので、タグ付けの方法は、標準的なAnalytics実装とは少し異なります。
+Adobe Analytics を Facebook インスタント記事に埋め込んで、訪問者の行動を追跡できます。発行者のコンテンツは Facebook アプリ内にあり、発行者の Web サイトにはないので、タグ付け方法は、標準的な Analytics 実装とは少し異なります。
 
 ## ワークフロー
 
-Adobe Analyticsを実装するための包括的なワークフローは次のとおりです。
+Adobe Analytics を実装するための包括的なワークフローは次のとおりです。
 
-1. ページを作成 `stats.html` します。 URLからクエリ文字列パラメーターを取り込み、各パラメーターをAnalytics変数に割り当てるには、このページをコード化します
-1. Webサーバー上 `stats.html` でページをホストする
-1. iframe内のファイルを参照してFacebookインスタント記事にAnalytics `stats.html` を実装する
-1. iframe属性にクエリ文字列パラメーターを含 `src` める
+1. `stats.html` ページを作成します。URL からクエリー文字列パラメーターを取り込み、各パラメーターを Analytics 変数に割り当てるには、このページをコード化します
+1. Web サーバー上で `stats.html` ページをホストします
+1. Iframe 内で `stats.html` ファイルを参照して Facebook インスタント記事に Analytics を実装します
+1. Iframe の `src` 属性にクエリー文字列パラメーターを含めます
 
-### 手順1:ページの `stats.html` 作成
+### 手順 1：`stats.html` ページを作成する
 
-次のサンプル HTML は、インスタント記事から統計値を取得するのに使用できます。このファイルは、通常、会社の Web サーバーのうちの 1 つでホストされます。インスタント記事が読み込まれるたびに、iframeにファイルが読み込まれ、アドビへのデータの送信がトリガーされます。
+次のサンプル HTML は、インスタント記事から統計値を取得するのに使用できます。このファイルは、通常、会社の Web サーバーのうちの 1 つでホストされます。インスタント記事が読み込まれるたびに、iframe にファイルが読み込まれ、アドビへのデータの送信がトリガーされます。
 
 ```html
 <html>
@@ -58,33 +58,33 @@ Adobe Analyticsを実装するための包括的なワークフローは次の�
 </html>
 ```
 
-### 手順2:Webサーバー上 `stats.html` でページをホストする
+### 手順 2：Web サーバー上で `stats.html` ページをホストする
 
-最新バージョンのおよびと `stats.html` 一緒にページをホストすることをお勧め `AppMeasurement.js` しま `VisitorAPI.js`す。 組織内の適切なエンジニアリングチームと協力して、このファイルを正しい場所にホストします。
+`stats.html` ページを最新バージョンの `AppMeasurement.js` および `VisitorAPI.js` と一緒にホストすることをお勧めします。組織内の適切なエンジニアリングチームと協力して、このファイルを正しい場所にホストします。
 
-### 手順3:各Facebookイン `stats.html` スタント記事ページのリファレンス
+### 手順 3：各 Facebook インスタント記事ページで `stats.html` を参照する
 
-Facebookインスタント記事コンテンツを作成する場合は、iframe内に解析HTMLコンテンツを埋め込みます。 次に例を示します。
+Facebook インスタント記事コンテンツを作成する際に、Analytics HTML コンテンツを iFrame 内に埋め込むことができます。次に例を示します。
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
 ```
 
-### 手順4:カスタム変数とイベントトラッキングの設定
+### 手順 4：カスタム変数およびイベントトラッキングを設定する
 
-カスタム変数とイベントは、次の2つの異なる方法でAnalytics HTML内で追跡できます。
+カスタム変数およびイベントは、Analytics HTML 内で 2 つの異なる方法でトラッキングできます。
 
-* 変数の値とイベントを直接ページに含め `stats.html` ます。 ここで定義する変数は、すべてのFacebookインスタント記事で通常同じ値に最適です。
-* iframeを参照するクエリ文字列の一部として変数値を含めます。 この方法を使用すると、Facebookインスタント記事からAnalyticsコードをホストするiframeに変数値を送信できます。
+* 変数の値とイベントを直接 `stats.html` ページに含めます。ここで定義する変数は、すべての Facebook インスタント記事で通常同じ値に最適です。
+* Iframe を参照するクエリー文字列の一部として変数値を含めます。この方法を使用すると、Facebook インスタント記事から Analytics コードをホストする iframe に変数値を送信できます。
 
-次の例は、クエリ文字列に含まれる複数のカスタム変数を示しています。 次に、内部のJavaScript `stats.html` が、を使用してクエリ文字列をチェックしま `s.Util.getQueryParam()`す。
+次の例は、クエリー文字列に含まれる複数のカスタム変数を示しています。次に、`stats.html` の JavaScript が `s.Util.getQueryParam()` を使用してクエリー文字列を確認します。
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
-> [!NOTE] リファラーディメンションは、iframeの性質上、自動的には追跡されません。 追跡する場合は、クエリ文字列の一部にこのディメンションを含めてください。
+> iframe の性質上、[!NOTE] リファラーディメンションは自動的には追跡されません。追跡する場合は、クエリー文字列の一部にこのディメンションを含めてください。
 
-## Facebookインスタント記事とプライバシー
+## Facebook インスタント記事とプライバシー
 
-Analytics HTMLページがWebサーバーでホストされている限り、アドビは、すべてのFacebookインスタント記事に対して既存のプライバシーポリシーをサポートします。 プライマリサイトでの追跡をオプトアウトしたユーザーは、すべてのFacebookインスタント記事の追跡をオプトアウトします。 ユーティリティページでは、Adobe Experience Cloud IDサービスもサポートされているので、Facebookインスタント記事のデータを他のExperience cloudと統合できます。
+Analytics HTML ページがお使いの Web サーバーでホストされている限り、アドビは、既存のプライバシーポリシーをすべての Facebook インスタント記事にわたってサポートできます。プライマリサイトでの追跡をオプトアウトしたユーザーは、すべての Facebook インスタント記事の追跡をオプトアウトします。ユーティリティページでは、Adobe Experience Cloud ID サービスもサポートされているので、Facebook インスタント記事のデータを他の Experience Cloud と統合できます。
