@@ -1,34 +1,34 @@
 ---
-title: campaign
+title: キャンペーン
 description: 「トラッキングコード」ディメンションを設定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
 
 ---
 
 
-# campaign
+# キャンペーン
 
-この変 `campaign` 数は、サイトでのトラッキングコードの収集専用です。 以前のバージョンのAdobe Analyticsでは、ほとんどのディメンションの分類として使用できる特別な処理が行われていました。 現在のバージョンのAdobe Analyticsでは、eVarと同じ動作をします。
+`campaign` 変数は、サイトでのトラッキングコードの収集専用です。以前のバージョンの Adobe Analytics では、ほとんどのディメンションの分類として使用できる特別な処理がおこなわれていました。現在のバージョンの Adobe Analytics では、eVar と同じ動作をします。
 
 この変数は、「トラッキングコード」ディメンションを設定します。
 
-## Adobe Experience Platform Launch の Campaign
+## Adobe Experience Platform Launch でのキャンペーン
 
-キャンペーンは、Analytics拡張機能（グローバル変数）の設定中にも、ルール下でも設定できます。
+キャンペーンは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. 「ルール」タブ [!UICONTROL に移動し] 、目的のルールをクリックします（またはルールを作成します）。
-4. 「アク [!UICONTROL ション]」で、既存の [!UICONTROL Adobe Analytics — 変数の設定アクションをクリックするか] 、「+」アイコンをクリックします。
-5. 「拡張」ド [!UICONTROL ロップダウンを] 「Adobe Analytics」に設定し、「アクシ [!UICONTROL ョンタイプ] 」を「変数 [!UICONTROL を設定」に設定します]。
-6. 「キャンペーン」セク [!UICONTROL ションを見つけます] 。
+3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
+4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
+5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
+6. [!UICONTROL キャンペーン]セクションを見つけます。
 
-campaignは、値またはクエリ文字列パラメーターに設定できます。
+キャンペーンは、値またはクエリー文字列パラメーターに設定できます。
 
-## AppMeasurementのs.campaignとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.campaign
 
-この変 `s.campaign` 数は、通常、マーケティング活動で使用されるトラッキングコードを含む文字列です。 最大長は255バイトです。100バイトを超える値は、アドビに送信する際に自動的に切り捨てられます。
+`s.campaign` 変数は、通常、マーケティング活動で使用されるトラッキングコードを含む文字列です。最大長は 255 バイトです。100 バイトを超える値は、アドビに送信する際に自動的に切り捨てられます。
 
 ```js
 // Set the campaign variable to a static value
