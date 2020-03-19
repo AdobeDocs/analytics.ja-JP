@@ -1,17 +1,17 @@
 ---
 title: JavaScript 版 AppMeasurement
-description: tag managementシステムを使用せずにJavaScriptを使用してAdobe Analyticsを実装する方法を説明します。
+description: タグ管理システムを使用せずに、JavaScriptを使用してAdobe Analyticsを実装する方法を説明します。
 translation-type: tm+mt
-source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # JavaScript 版 AppMeasurement
 
-JavaScript版AppMeasurementは、これまでAdobe Analyticsを実装する一般的な方法でした。 ただし、Tag Management Systemの人気が高まるにつれ、 [Adobe Experience Platform Launchの使用をお勧めします](../launch/overview.md) 。
+JavaScript版AppMeasurementは、これまで、Adobe Analyticsを実装する一般的な方法でした。 ただし、Tag Management Systemsの人気が高まるにつれ、 [Adobe Experience Platform Launchの使用をお勧めします](../launch/overview.md) 。
 
-## JavaScriptを使用したアドビへのデータ送信のワークフロー全体
+## JavaScriptを使用してアドビにデータを送信するワークフロー全体
 
 1. ファイルを読み込 `AppMeasurement.js` みます。 このファイルには、アドビへのデータの送信に必要なライブラリが含まれています。
 
@@ -19,7 +19,7 @@ JavaScript版AppMeasurementは、これまでAdobe Analyticsを実装する一�
    <script src="AppMeasurement.js"></script>
    ```
 
-2. で設定変数を定義しま `AppMeasurement.js`す。 Analyticsオブジェクトがインスタンス化されるとき、これらの変数はデータ収集の設定が正しいことを確認します。 定義で [きる変数の完全なリストは](../vars/config-vars/configuration-variables.md) 、設定変数を参照してください。
+2. 内で設定変数を定義しま `AppMeasurement.js`す。 Analyticsオブジェクトがインスタンス化されるとき、これらの変数はデータ収集の設定が正しいことを確認します。 定義で [きる変数の完全なリストは](../vars/config-vars/configuration-variables.md) 、設定変数を参照してください。
 
    ```js
    // Instantiate the Analytics tracking object with report suite ID
@@ -37,7 +37,7 @@ JavaScript版AppMeasurementは、これまでAdobe Analyticsを実装する一�
    s.events = "event1";
    ```
 
-4. すべてのページレベル変数が定義されたら、この関数を使用してデータをアドビに送信し `t` ます。 詳しく [は](../vars/functions/t-method.md) 、tを参照してください。
+4. すべてのページレベル変数が定義されたら、このメソッドを使用してデータをアドビに送信 `t()` します。 詳しく [は](../vars/functions/t-method.md) 、tを参照してください。
 
    ```js
    s.t();
