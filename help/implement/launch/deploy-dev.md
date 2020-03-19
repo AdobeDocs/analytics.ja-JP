@@ -1,7 +1,7 @@
 ---
 title: 開発環境への Adobe Analytics のデプロイ
 description: Adobe Experience Platform Launch を使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
@@ -15,7 +15,7 @@ Launch でプロパティが作成および設定されると、サイト上で�
 
 [Launch で Adobe Analytics 用にプロパティを作成および設定する](create-analytics-property.md)：ツールにアクセスして、Analytics 実装用のスペースを作成します。
 
-## アダプタと環境の作成
+## アダプターと環境の作成
 
 Launch は、コードをデプロイする多くの組織的なワークフローに対応しています。Analytics の実装に最低限必要なコンポーネントを作成するには、次の手順に従います。Launch 管理者は組織内で協力して、アドビソリューションのデプロイに適したワークフローを確立できます。
 
@@ -26,7 +26,7 @@ Launch は、コードをデプロイする多くの組織的なワークフロ�
 5. 「環境」タブに移動し、「新しい環境の作成」をクリックします。
 6. 「開発」を選択し、「開発環境」という名前を付け、ドロップダウンから Akamai アダプターを選択します。「作成」をクリックし、「閉じる」をクリックします。
 7. 「環境を追加」をクリックして「ステージング」を選択し、「ステージング環境」という名前を付け、Akamai アダプターを選択します。「作成」をクリックし、「閉じる」をクリックします。
-8. もう一度「環境を追加」をクリックして「実稼働」を選択し、「実稼働環境」という名前を付け、Akamai アダプターを選択します。「作成」をクリックし、「閉じる」をクリックします。
+8. もう一度「環境を追加」をクリックして「実稼動」を選択し、「実稼動環境」という名前を付け、Akamai アダプターを選択します。「作成」をクリックし、「閉じる」をクリックします。
 
 ## 開発用ライブラリの構築
 
@@ -65,13 +65,13 @@ Web サイトのコードを制御する場合は、サイトの各ページの�
 
 **ビルドに失敗しました。**
 
-一般的な理由として、ステージングまたは実稼働環境にプッシュされた他のライブラリに要素が既に存在しているというものがあります。ライブラリを最初に作成する場合は、変更後のリソースのみがライブラリに追加されていることを確認します。
+一般的な理由として、ステージングまたは実稼動環境にプッシュされた他のライブラリに要素が既に存在しているというものがあります。ライブラリを最初に作成する場合は、変更後のリソースのみがライブラリに追加されていることを確認します。
 
 ## ドキュメントとその他のリソース
 
-- [はじめに](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)：Launch の基本を学習します。
-- [投稿を開始](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html):公開と環境の詳細
+- [はじめに](https://docs.adobe.com/content/help/ja-JP/launch/using/intro/get-started/quick-start.html)：Launch の基本を学習します。
+- [Launch の公開](https://docs.adobe.com/content/help/ja-JP/launch/using/reference/publish/overview.html)：公開と環境についての詳細。
 
 ## 次の手順
 
-[Analytics の実装を検証し、実稼働環境に公開する](validate-publish-prod.md)：Adobe Analytics の価値の活用を開始します。
+[Analytics の実装を検証し、実稼動環境に公開する](validate-publish-prod.md)：Adobe Analytics の価値の活用を開始します。
