@@ -4,7 +4,7 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: ライブラリ管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Dynamic Tag Management の「ライブラリ管理」設定のフィールドおよびオプションの説明です。
 
-**[!UICONTROL /ツ&#x200B;*`Property`*]**&#x200B;ールを![](assets/settings_gear.png)編集&#x200B;**[!UICONTROL /ラ]**&#x200B;**[!UICONTROL イブラリ管理]**
+**[!UICONTROL *`Property`*]**／![](assets/settings_gear.png)**[!UICONTROL &#x200B;ツールを編集&#x200B;]**／**[!UICONTROL &#x200B;ライブラリ管理&#x200B;]**
 
 > [!NOTE]1 つの Web プロパティで複数の Adobe Analytics ツールを使用する場合は、ツールごとに異なる名前のトラッカー変数を使用する必要があります。1 つの Web プロパティ内で使用する Adobe Analytics ツール間にオブジェクト変数名の重複があると、競合が発生します。
 
@@ -40,11 +40,11 @@ Dynamic Tag Management の「ライブラリ管理」設定のフィールドお
   </tr> 
   <tr> 
    <td colname="col1"> <p> カスタム </p> </td> 
-   <td colname="col2"> <p>ライブラリコードを設定できます。 </p> <p>このオプションを選択すると、次のオプションを使用できるようになります。 </p> <p> <b>次のカスタムコードを使用してレポートスイートを設定：</b>このチェックボックスをオンにすると、Dynamic Tag Management によって、カスタムコードに含まれる    <span class="varname"> s_account</span> 変数を探します。この変数には、データの送信先となるレポートスイートのリストを、コンマ区切りで設定する必要があります。 </p> <p> <b>ホストするコード：</b><span class="filepath">s_code</span> をホストする方法を選択します。 </p> 
+   <td colname="col2"> <p>ライブラリコードを設定できます。 </p> <p>このオプションを選択すると、次のオプションを使用できるようになります。 </p> <p> <b>次のカスタムコードを使用してレポートスイートを設定：</b>このチェックボックスをオンにすると、Dynamic Tag Management によって、カスタムコードに含まれる      <span class="varname"> s_account</span> 変数を探します。この変数には、データの送信先となるレポートスイートのリストを、コンマ区切りで設定する必要があります。 </p> <p> <b>ホストするコード：</b><span class="filepath">s_code</span> をホストする方法を選択します。 </p> 
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
-     <li id="li_36D733C533CE40F1868309130551D4DE"> <b>DTM</b>：Dynamic Tag Management 内で <span class="filepath">s_code</span> をホストできます。「<span class="uicontrol">コードを編集</span>」をクリックして、s_code（AppMeasurement）の内容を直接エディターに貼り付けます。 </li> 
+     <li id="li_36D733C533CE40F1868309130551D4DE"> <b>DTM</b>：Dynamic Tag Management 内で <span class="filepath">s_code</span> をホストできます。「<span class="uicontrol">コードを編集</span>」をクリックして、ファイルを直接エディターに貼り付けます。 </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL 指定</b>：適切な <span class="filepath">s_code</span> ファイルが既に存在し、それを更新するプロセスに満足している場合、ここでそのファイルの URL を指定できます。Dynamic Tag Management は、<span class="filepath">Adobe Analytics</span> による計測のためにこの <span class="keyword">s_code</span> ファイルをロードします。 </li> 
-    </ul> <p> <b>エディターを開く：</b><a href="/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md"  >コア AppMeasurement コードを挿入</a>できます。「<a href="/help/implement/other/dtm/c-aa-tool/analytics-dtm.md"  >Adobe Analytics 設定い</a>」で説明した自動設定メソッドを使用すると、このコードは自動生成されます。 </p> <p> <b>トラッカー変数名：</b>2 つの <span class="keyword">Adobe Analytics</span> インスタンスを並行して（1 つは Dynamic Tag Management で、もう 1 つはネイティブで）実行する場合に、メインの <span class="term">s</span> オブジェクトの名前を変更できます。オブジェクト名を変更すると名前の競合を避けることができます。 </p> </td> 
+    </ul> <p> <b>エディターを開く：</b><a href="/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md"  >コア AppMeasurement コードを挿入</a>できます。「<a href="/help/implement/other/dtm/c-aa-tool/analytics-dtm.md"  >Adobe Analytics 設定</a>」で説明した自動設定メソッドを使用すると、このコードは自動生成されます。 </p> <p> <b>トラッカー変数名：</b>2 つの <span class="keyword">Adobe Analytics</span> インスタンスを並行して（1 つは Dynamic Tag Management で、もう 1 つはネイティブで）実行する場合に、メインの <span class="term">s</span> オブジェクトの名前を変更できます。オブジェクト名を変更すると名前の競合を避けることができます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
