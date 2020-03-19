@@ -2,26 +2,26 @@
 title: getTimeSinceLastVisit
 description: 2回の訪問の間の経過時間を測定します。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Adobeプラグイン：getTimeSinceLastVisit
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すのに役立つ、アドビコンサルティングによって提供されます。 アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを設定できます。
+> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
 
 このプ `getTimeSinceLastVisit` ラグインを使用すると、訪問者が最後の訪問後にサイトに戻ってきた時間を追跡できます。
 
 ## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
 
-アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. 「拡張子」タブ [!UICONTROL に移動し] 、「カタログ」ボタンをクリッ [!UICONTROL クします] 。
-1. Common Analytics Plugins  Extensionのインストールと公開
-1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
+1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
+1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
    * 条件：なし
    * イベント：コア — ライブラリ読み込み済み（ページの上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
@@ -35,14 +35,14 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. 「拡張」タブ [!UICONTROL に移動し] 、Adobe Analytics拡張機能の [!UICONTROL 下にある「設定] 」ボタンをクリックします。
-1. 「カスタムコー [!UICONTROL ドを使用してトラッキングを設定] 」アコーディオンを展開すると、「エディターを開く  」ボタンが表示されます。
+1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics拡張機能に公開します。
 
 ## AppMeasurementを使用したプラグインのインストール
 
-Analyticsトラッキングオブジェクトをインスタンス化した後（を使用して）、AppMeasurementファイルの任意の場所に次のコードをコピーして貼り付 `s_gi`けます。 コードのコメントとバージョン番号を実装に保持しておくと、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,22 +59,22 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 ## プラグインの使用
 
-このメ `getTimeSinceLastVisit` ソッドでは引数を使用しません。 訪問者が最後にサイトに来てから経過した時間を次の形式でグループ化して返します。
+メソッド `getTimeSinceLastVisit` は引数を使用しません。 訪問者が最後にサイトに来てから経過した時間を次の形式でグループで返します。
 
-* 最後の訪問から30分から1時間までの時間は、最も近い30分のベンチマークに設定されます。 For example, `"30.5 minutes"`, `"53 minutes"`
-* 1時間と1日の間の時間は、直近の四半期のベンチマークに丸められます。 For example, `"2.25 hours"`, `"7.5 hours"`
+* 最後の訪問から30分から1時間の間の時間は、最も近い30分のベンチマークに設定されます。 For example, `"30.5 minutes"`, `"53 minutes"`
+* 1時間と1日の間の時間は、最も近い四半期のベンチマークに丸められます。 For example, `"2.25 hours"`, `"7.5 hours"`
 * 1日を超える時間は、最も近い日のベンチマークに丸められます。 For example, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
 * 訪問者が訪問しなかった場合、または経過時間が2年を超える場合、値はに設定されます `"New Visitor"`。
 
 > [!NOTE] このプラグインは、訪問の最初のヒット時にのみ値を返します。
 
-このプラグインは、Unixの現在の時刻のタイムスタンプに設定される `"s_tslv"` 、ファーストパーティcookieを作成します。 cookieは、無操作状態が2年間続くと有効期限が切れます。
+このプラグインは、現在の時刻のUnixタイムスタンプに設定され `"s_tslv"` た、ファーストパーティCookieを作成します。 cookieは、無操作状態が2年間続いた後に有効期限が切れます。
 
 ## 呼び出しの例
 
 ### 例1
 
-新規訪問者がサイトを訪問し、次のコードが訪問の最初のページで実行される場合…
+新規訪問者がサイトを訪問し、次のコードが訪問の最初のページで実行された場合…
 
 ```javascript
 s.prop1 = s.getTimeSinceLastVisit();
@@ -85,12 +85,12 @@ s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be i
 
 同じコードが35分間操作が行われなかった後に同じドメインで実行される場合、s.prop1の値は「35分」に設定されます。
 
-同じコードが4日間無操作状態が続いた後に同じドメインで実行される場合、s.prop1の値は「4日間」に設定されます。
+同じコードが4日間無操作状態が続いた後に同じドメインで実行された場合、s.prop1の値は「4日」に設定されます。
 
 ## バージョン履歴
 
 ### 1.0（2018年4月17日）
 
-* ポイントリリース（再コンパイルされたコードと小さいサイズ）。
+* ポイントリリース（コードを再コンパイルし、サイズを小さく）。
 * プラグインから派生し `getDaysSinceLastVisit` たコード（現在は廃止され、名前が変更されています）。
 * 戻り値に `formatTime` とプ `inList` ラグインを使用するようになりました。
