@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountMatch
-description: dynamicAccountMatch変数は、動的アカウントで表示する値を決定します。
-translation-type: tm+mt
+description: dynamicAccountMatch 変数は、動的アカウントで表示する値を決定します。
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -9,11 +9,11 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 # dynamicAccountMatch
 
-> [!IMPORTANT] 動的アカウントは、レガシーJavaScript実装（Hコード）を使用した場合にのみサポートされます。 これらの変数は、現在のAppMeasurementライブラリまたはAdobe Experience Platform Launchではサポートされていません。
+> [!IMPORTANT] 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在の AppMeasurement ライブラリや Adobe Experience Platform Launch ではサポートされていません。
 
-変 `dynamicAccountMatch` 数は、値を調べ `dynamicAccountList` て比較する値です。 をに設 `dynamicAccountSelection` 定しない場合、こ `true`の変数は無視されます。
+`dynamicAccountMatch` 変数は、`dynamicAccountList` が値を調べて比較する値です。`dynamicAccountSelection` を `true` に設定しない場合、この変数は無視されます。
 
-この変数を定義しない場合、デフォルト値はです `window.location.host`。
+この変数を定義しない場合、デフォルト値は `window.location.host` です。
 
 ## 構文
 
@@ -39,5 +39,5 @@ s.dynamicAccountMatch =  location.hostname + location.pathname + location.search
 
 ## 追加情報
 
-* ハードドライブに保存されたページには、複数の変数が定義 `location` されていません(例えば、空白 `location.host` の場合)。 デフォルトのレポ `s_account` ートスイートが含まれていることを確認します。
-* ページがGoogleなどのWebベースの翻訳エンジンを介して翻訳される場合、動的アカウント選択は設計のとおりに機能しません。 For more precise tracking, populate the `s_account` variable server-side.
+* ハードドライブに保存されたページには、複数の `location` 変数が定義されていません（例えば、`location.host` は空白）。`s_account` にデフォルトのレポートスイートが含まれていることを確認します。
+* ページが Google などの Web ベースの翻訳エンジンによって翻訳されている場合、動的アカウント選択は設計どおりに動作しません。より精度の高いトラッキングをおこなうには、`s_account` 変数をサーバーサイドで設定してください。
