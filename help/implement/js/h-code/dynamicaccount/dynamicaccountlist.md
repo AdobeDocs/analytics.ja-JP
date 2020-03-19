@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountList
-description: 導入によるレポートスイートの決定方法に関するロジックを確立します。
-translation-type: tm+mt
+description: 実装によるレポートスイートの決定方法に関するロジックを確立します。
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -9,25 +9,25 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 # s.dynamicAccountList
 
-> [!IMPORTANT] 動的アカウントは、レガシーJavaScript実装（Hコード）を使用した場合にのみサポートされます。 これらの変数は、現在のAppMeasurementライブラリまたはAdobe Experience Platform Launchではサポートされていません。
+> [!IMPORTANT] 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在の AppMeasurement ライブラリや Adobe Experience Platform Launch ではサポートされていません。
 
-変数 `s.dynamicAccountList` は、の値を動的に決定します `s_account`。 をに設 `dynamicAccountSelection` 定すると、変 `true`数が `dynamicAccountMatch` と比較されます `dynamicAccountList`。 一致が見つかった場合は、一致するレポートスイートIDが使用されます。
+`s.dynamicAccountList` 変数は、`s_account` の値を動的に決定します。`dynamicAccountSelection` を `true` に設定すると、`dynamicAccountMatch` 変数が `dynamicAccountList` と比較されます 。一致が見つかった場合は、一致するレポートスイート ID が使用されます。
 
 ## 構文
 
-この変数は、JavaScriptファイルによって自動的に解析される文字列です。
+この変数は、JavaScript ファイルによって自動的に解析される文字列です。
 
 ```JavaScript
 s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 ```
 
-有効な入力は、rsidと値のペアをセミコロンで区切ったリストです。 各リストには、次の項目が含まれます。
+有効な入力は、rsid と値のペアをセミコロンで区切ったリストです。各リストには、次の項目が含まれます。
 
 * 1 つ以上のレポートスイート ID（コンマ区切り）
 * 等号
-* 一致させる1つ以上の文字列（コンマ区切り）
+* 一致させる 1 つ以上の文字列（コンマ区切り）
 
-文字列には、標準のASCII文字のみを使用する必要があります。 スペースは含めないでください。
+文字列内では標準的な ASCII 文字のみを使用してください。スペースは含めないでください。
 
 ## 例
 
