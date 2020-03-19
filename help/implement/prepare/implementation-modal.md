@@ -1,7 +1,7 @@
 ---
 title: 実装モーダル
-description: Adobe Analytics 実装を初めて実装する場合について説明します。
-translation-type: tm+mt
+description: Adobe Analytics を初めて実装する場合について説明します。
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -11,49 +11,49 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 -->
 
-「Adobe Analyticsへようこそ」モーダルウィンドウでは、レポートスイートを作成するためのワークフローがシンプルになります。 組織でさらに多くのレポートスイートが必要な場合は、このワークフローを使用することをお勧めします。
+「Adobe Analytics へようこそ」モーダルウィンドウでのレポートスイートを作成するためのワークフローはシンプルです。組織でさらに多くのレポートスイートが必要な場合は、このワークフローを使用することをお勧めします。
 
 ![モーダルスクリーンショット](assets/implementation-modal.png)
 
 ## 前提条件
 
-Adobe IDは、Adobe AnalyticsとAdobe Experience Platform Launchの両方にアクセスできる必要があります。 「起動」へのアクセス権がない場合は、認証ループに配置し、資格情報を無期限に検証するように求めることができます。 組織のシステム管理者に問い合わせて、「起動」へのアクセス権を取得します。
+Adobe ID は、Adobe Analytics と Adobe Experience Platform Launch の両方にアクセスできる必要があります。Launch へのアクセス権がないと、資格情報確認するように繰り返し要求される場合があります。組織のシステム管理者に問い合わせて、Launch へのアクセス権を取得してください。
 
-## モーダルにアクセス
+## モーダルへのアクセス
 
 次の手順を使用して、モーダルにアクセスし、レポートスイートを作成します。
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
-2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
-3. まだレポートスイートを作成していない場合は、モーダルが自動的に表示されます。 このログイン会社用のレポートスイートが存在する場合は、右上のヘルプアイコンをクリックし、「Adobe Analyticsへよう [!UICONTROL こそ」をクリックします]。
+2. 上部の 9 グリッドアイコンをクリックし、「[!UICONTROL Adobe Analytics]」をクリックします。
+3. まだレポートスイートを作成していない場合は、モーダルが自動的に表示されます。このログイン会社用のレポートスイートが存在する場合は、右上のヘルプアイコンをクリックし、「[!UICONTROL Adobe Analytics へようこそ]」をクリックします。
 
-> [!NOTE] 「Adobe Analytics [!UICONTROL へようこそ] 」オプションは、Adobe Experience cloud経由でログインした場合にのみ表示されます。 既存のドメインを使用してログインした場合、モーダルは使用できません。
+> [!NOTE] 「[!UICONTROL Adobe Analytics へようこそ]」オプションは、Adobe Experience Cloud 経由でログインした場合にのみ表示されます。既存のドメインを使用してログインした場合、モーダルは使用できません。
 
 ## レポートスイートの作成
 
-[セットアップの [!UICONTROL 開始] ]ボタンをクリックして、レポートスイート作成ワークフローを開始します。
+「[!UICONTROL セットアップの開始]」ボタンをクリックして、レポートスイート作成ワークフローを開始します。
 
-![RSウィザード](assets/analytics-implementation-rs-wizard.png)
+![RS ウィザード](assets/analytics-implementation-rs-wizard.png)
 
 ### プロパティタイプ
 
-プロパティタイプは、Analyticsを実装する予定の場所に基づいて、アドビが一部のバックエンド設定を判断するのに役立ちます。
+プロパティタイプは、Analytics を実装する予定の場所に基づいて、アドビが一部のバックエンド設定を判断するのに役立ちます。
 
-* **Webサイト**:Adobe AnalyticsをWebサイト用に実装する場合。
-* **ネイティブモバイルアプリ**:モバイルアプリ用にのみAdobe Analyticsを実装する場合。
-* **両方**:このレポートスイートにWebサイトとモバイルアプリの両方のデータが含まれる場合。
+* **Web サイト**：Adobe Analytics を Web サイト用のみに実装する場合。
+* **ネイティブモバイルアプリケーション**：Adobe Analytics をモバイルアプリケーション用のみに実装する場合。
+* **両方**：このレポートスイートに Web サイトとモバイルアプリケーションの両方のデータが含まれる場合。
 
 ### 業種
 
-主なビジネスモデルを指定します。 この設定は、主なビジネスモデルに基づいて、一部の変数の名前と設定を事前設定する際に役立ちます。
+主なビジネスモデルを指定します。この設定は、主なビジネスモデルに基づいて、一部の変数の名前と設定を事前設定する際に役立ちます。
 
 ### データレイヤー
 
-デー [タレイヤーは](data-layer.md) 、実装で使用されるすべての変数を1つの役に立つ場所にまとめたJavaScriptオブジェクトです。 See [Data layers](data-layer.md) for more information.
+[データレイヤー](data-layer.md)は、実装で使用されるすべての変数を 1 つの役立つ場所にまとめた JavaScript オブジェクトです。詳しくは、[データレイヤー](data-layer.md)を参照してください。
 
-### データリポジトリ
+### データリポジトリー
 
-レポートスイートにわかりやすい名前を付けます。 レポートスイートID(RSID)は、わかりやすい名前とログイン会社名に基づいて自動的に生成されます。
+レポートスイートにわかりやすい名前を付けます。レポートスイート ID（RSID）は、わかりやすい名前とログイン会社名に基づいて自動的に生成されます。
 
 ### タイムゾーン
 
@@ -61,17 +61,17 @@ Adobe IDは、Adobe AnalyticsとAdobe Experience Platform Launchの両方にア�
 
 ### 予想日別ページビュー数
 
-Webサイトやアプリが1日に受けるトラフィック量を予測します。 この情報により、アドビは適切な量の処理リソースをレポートスイートに割り当てることができます。
+Web サイトやアプリケーションが 1 日に受けるトラフィック量を予測します。この情報により、アドビは適切な量の処理リソースをレポートスイートに割り当てることができます。
 
-### ベース通貨
+### 基準通貨
 
 レポートスイートが金額を保存する通貨を決定します。
 
-> [!IMPORTANT] 特に売上高に関するレポート要件がある場合は、正しい通貨を入力してください。 データ収集の開始後にベース通貨を変更するのは困難です。
+> [!IMPORTANT] 特に売上高に関するレポート要件がある場合は、正しい通貨を入力してください。データ収集の開始後に基準通貨を変更するのは困難です。
 
 ## 実装リソース
 
-レポートスイートの作成後、実装を続行するには、次の2つのオプションのいずれかを選択します。
+レポートスイートの作成後、実装を続行するには、次の 2 つのオプションのいずれかを選択します。
 
-* **Adobe Experience Platform Launchに移動**:実装を設定し、デプ [ロイコードをダウンロードするため](https://launch.adobe.com) 、launch.adobe.comにリンクします。 [Launch による実装](../launch/overview.md)を参照してください。ほとんどの場合、「起動」の使用をお勧めします。
-* **導入コードのダウンロード**:手動でJavaScriptを実装する場合に、JavaScriptファイルをダウンロードするための直接リンクを提供します。 [JavaScript 版 AppMeasurement](../js/overview.md) を参照してください。
+* **Adobe Experience Platform Launch に移動**：実装を設定し、デプロイコードをダウンロードするために、[launch.adobe.com](https://launch.adobe.com) にリンクします。[Launch による実装](../launch/overview.md)を参照してください。ほとんどの場合、Launch を使用することをお勧めします。
+* **実装コードのダウンロード**：手動で JavaScript を実装する場合に、JavaScript ファイルをダウンロードするための直接リンクを提供します。[JavaScript 版 AppMeasurement](../js/overview.md) を参照してください。
