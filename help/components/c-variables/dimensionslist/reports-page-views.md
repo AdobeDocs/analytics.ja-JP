@@ -4,7 +4,7 @@ title: ページビュー数
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ---
 
@@ -15,17 +15,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 [ページビュー](/help/components/c-variables/c-metrics/metrics-page-view.md)は画像やビデオなどのページの要素ではなく、ドキュメントの全ページに対する要求です。例えば、1 名の訪問者が 1 回の訪問中に 15 ページ閲覧すると、15 ページビューとカウントされます。1 名の訪問者が 1 回の訪問中に同じページを 3 回閲覧すると、3 ページビューとカウントされます。
 
-**レポートプロパティ**
+## レポートのプロパティ
 
-* このレポートは、[s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) 関数がサイトで呼び出された回数を参照します。
-* カスタムの[リンクトラッキング](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)コール（カスタムリンク、ファイルダウンロード、離脱リンクなど）は、[!DNL s.tl()] 関数を使用し、このレポートではカウントされません。
-
+* This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
+* このメソッドを使用するリンクトラッキ [`tl()`](/help/implement/vars/functions/tl-method.md) ング呼び出しは、このレポートではカウントされません。
 * ユーザーがページを更新したり戻るボタンをクリックしたりするとイメージリクエストが送信されるため、これらのアクションもこのレポートに含まれます。
 * 時間別の分類はレポートスイートのタイムゾーンに基づいています。
 * このレポートには行項目は含まれていません。そのため、このレポートはトレンドフォーマットでのみ表示できます。
 * 時間、日、週、月、四半期、および年の精度を適用できます。使用可能な精度はレポート日付の範囲に応じて異なります。
 
-**製品固有の情報**
+## 製品固有の情報
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
