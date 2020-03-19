@@ -1,23 +1,23 @@
 ---
 title: contextData
-description: コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。
+description: コンテキストデータ変数を使用すると、処理ルールで読み取り可能な各ページでカスタム変数を定義できます。
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # contextData
 
-コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。 コード内のAnalytics変数に値を明示的に割り当てる代わりに、コンテキストデータ変数でデータを送信できます。 次に、処理ルールは、コンテキストデータ変数の値を取得し、それぞれのAnalytics変数に渡します。 See [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.
+コンテキストデータ変数を使用すると、処理ルールで読み取り可能な各ページでカスタム変数を定義できます。 コード内のAnalytics変数に値を明示的に割り当てる代わりに、コンテキストデータ変数でデータを送信できます。 次に、処理ルールは、コンテキストデータ変数の値を取得し、それぞれのAnalytics変数に渡します。 管理ユーザーガイドの「[処理ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)」を参照してください。
 
-コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。 例えば、開発チームにページの作成者の割り当てを要求する代わりに、その `eVar10`作成者にページの割り当てを要求することがで `s.contextData["author"]` きます。 その後、組織のAnalytics管理者は、コンテキストデータ変数をレポート用のAnalytics変数にマップする処理ルールを作成できます。 開発チームは、最終的に、アドビが提供する多くのページ変数ではなく、コンテキストデータ変数についてのみ懸念することになります。
+コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集するのに役立ちます。 例えば、開発チームにページの作成者の割り当てを依頼する代わりに、その作成者にペ `eVar10`ージの作成者の割り当てを依頼することがで `s.contextData["author"]` きます。 その後、組織のAnalytics管理者が処理ルールを作成し、コンテキストデータ変数をレポート用のAnalytics変数にマップできます。 開発チームは、最終的に、アドビが提供する多くのページ変数ではなく、コンテキストデータ変数についてのみ考慮する必要があります。
 
 ## Adobe Experience Platform Launchのコンテキストデータ変数
 
 起動には、コンテキストデータ変数を設定するための専用の場所がありません。 AppMeasurement構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementのs.contextDataおよびカスタムコードエディターの起動
+## AppMeasurementのs.contextDataとカスタムコードエディターの起動
 
 変数 `s.contextData` は値を直接取りません。 代わりに、この変数のプロパティを文字列に設定します。
 
@@ -26,8 +26,8 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 s.contextData["example_variable"] = "Example value";
 ```
 
-* 有効なコンテキストデータ変数には、英数字、アンダースコアおよびピリオドのみ含まれます。 ハイフンなどの他の文字を含める場合、処理ルールでのデータ収集は保証されません。
-* でコンテキストデータ変数を開始しないでくださ `"a."`い。 このプレフィックスはアドビが予約して使用します。 例えば、を使用しないでくださ `s.contextData["a.InstallEvent"]`い。
+* 有効なコンテキストデータ変数には、英数字、アンダースコアおよびピリオドのみが含まれます。 ハイフンなどの他の文字を含める場合、処理ルールでのデータ収集は保証されません。
+* でコンテキストデータ変数を開始しないでくださ `"a."`い。 このプレフィックスはアドビが予約し、使用します。 例えば、を使用しないでくださ `s.contextData["a.InstallEvent"]`い。
 * コンテキストデータ変数では、大文字と小文字が区別されません。 変数と変数 `s.contextData["example"]` は同 `s.contextData["EXAMPLE"]` じです。
 
 ## 処理ルールを使用したAnalytics変数の入力
@@ -44,7 +44,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## リンクトラッキングコールでのコンテキストデータの送信
 
-コンテキストデータ変数をのプロパティとして含 `contextData` めま `s.linkTrackVars`す。
+コンテキストデータ変数をのプロパティとして含め `contextData` ます。 [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";
