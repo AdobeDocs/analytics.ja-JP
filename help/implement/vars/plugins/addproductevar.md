@@ -1,29 +1,29 @@
 ---
 title: addProductEvar
-description: マーチャンダイジングeVarをproducts変数に追加します。
+description: 商品変数にマーチャンダイジングeVarを追加します。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Adobeプラグイン：addProductEvar
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すのに役立つ、アドビコンサルティングによって提供されます。 アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを設定できます。
+> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
 
-このプ `addProductEvar` ラグインを使用すると、既に存在する製品変数の内容が変更、移動、削除されるかどうかを気にすることなく、製品構文を使用するAdobe AnalyticsマーチャンダイジングeVarを製品変数に簡単に追加できます。 製品構文マーチャンダイジングeVarを簡単に変数に追加する場合は、このプラグインを使用することをお勧め `products` します。 製品構文でマーチャンダイジングeVarを使 `addProductEvar` 用しない場合は、プラグインを使用する必要はありません。
+このプ `addProductEvar` ラグインを使用すると、既に存在する製品変数の内容が変更/移動/削除されるかどうかを気にすることなく、製品構文を使用するAdobe AnalyticsマーチャンダイジングeVarを製品変数に簡単に追加できます。 製品構文のマーチャンダイジングeVarを簡単に変数に追加する場合は、このプラグインの使用をお勧め [`products`](../page-vars/products.md) します。 製品の構文でマーチャンダイジングeVarを使 `addProductEvar` 用しない場合は、プラグインを使用する必要はありません。
 
 > [!NOTE] このプラグインは、製品エントリに既に存在するeVarを置き換えません。 このプラグインを使用して設定した値のみが追加されます。 その製品に既に存在するeVarを追加する場合は注意が必要です。
 
 ## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
 
-アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. 「拡張子」タブ [!UICONTROL に移動し] 、「カタログ」ボタンをクリッ [!UICONTROL クします] 。
-1. Common Analytics Plugins  Extensionのインストールと公開
-1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
+1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
+1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
    * 条件：なし
    * イベント：コア — ライブラリ読み込み済み（ページの上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
@@ -37,14 +37,14 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. 「拡張」タブ [!UICONTROL に移動し] 、Adobe Analytics拡張機能の [!UICONTROL 下にある「設定] 」ボタンをクリックします。
-1. 「カスタムコー [!UICONTROL ドを使用してトラッキングを設定] 」アコーディオンを展開すると、「エディターを開く  」ボタンが表示されます。
+1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics拡張機能に公開します。
 
 ## AppMeasurementを使用したプラグインのインストール
 
-Analyticsトラッキングオブジェクトをインスタンス化した後（を使用して）、AppMeasurementファイルの任意の場所に次のコードをコピーして貼り付 `s_gi`けます。 コードのコメントとバージョン番号を実装に保持しておくと、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,11 +57,11 @@ s.addProductEvar=function(en,ev,ap){if("string"===typeof en&&"string"===typeof e
 
 プラグ `addProductEvar` インは次の引数を使用します。
 
-* **`en`**（必須、文字列）:現在products変数に含まれている最後のエントリに追加するeVar。 products変数が空白の場合、プラグインは「空白の」製品エントリを作成し、そのエントリの末尾にeVar値を付加します。
-* **`ev`**（必須、文字列）:eVarに割り当てられた値。
-* **`ap`**（オプション、ブール値）:現在、products変数に複数の製品エントリが含まれている場合、値がtrue（または1）の場合、すべての製品エントリにeVar**&#x200B;が&#x200B;**追加されます。  デフォルトはfalse（または0）で、eVarがproducts変数に含まれる最後の**&#x200B;エントリ&#x200B;**のみに追加されます。
+* **`en`** （必須、文字列）:現在products変数に含まれている最後のエントリに追加するeVar。 products変数が空白の場合、プラグインは「空白の」製品エントリを作成し、そのエントリの末尾にeVar値を付加します。
+* **`ev`** （必須、文字列）:eVarに割り当てられた値。
+* **`ap`** （オプション、ブール値）:現在、products変数に複数の製品エントリが含まれている場合、値がtrue（または1）の場合、すべての製品エントリにeVar **が** 追加されます。  デフォルトはfalse（または0）で、eVarはproducts変数に含まれる最後の **エントリ** のみに追加されます。
 
-プラグ `addProductEvar` インは何も返しません。 代わりに、と引数で指定されたeVar（およびeVar値）を変 `en` 数に `ev` 追加し `products` ます。
+プラグイン `addProductEvar` は何も返しません。 代わりに、引数とで指定したeVar（およびeVar値）が変 `en` 数に `ev` 追加され `products` ます。
 
 ## 例
 
