@@ -1,7 +1,7 @@
 ---
 title: 外部電子メールトラッキング
-description: Adobe Analyticsを使用して電子メールコンテンツを追跡します。
-translation-type: tm+mt
+description: Adobe Analytics を使用して電子メールコンテンツを追跡します。
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -56,7 +56,7 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
 
    1. [!DNL s_code.js]getQueryParam[!UICONTROL  を呼び出して、] をカスタマイズします。
 
-      [!DNL s_code.js] ファイルは、Web サーバー上の、各 Web ページからアクセス可能な場所に配置する必要があります。*`doPlugins`*関数を変更し、電子メールリンク上のクエリー文字列パラメーターを取り込めるようにする必要があります。次に例を示します。
+      [!DNL s_code.js] ファイルは、Web サーバー上の、各 Web ページからアクセス可能な場所に配置する必要があります。*`doPlugins`* 関数を変更し、電子メールリンク上のクエリー文字列パラメーターを取り込めるようにする必要があります。次に例を示します。
 
       ```js
       /* Plugin Config */ 
@@ -69,7 +69,7 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
       s.doPlugins=s_doPlugins 
       ```
 
-      変数内にコピーする必要のあるクエリー文字列パラメーターのそれぞれで、[!UICONTROL getQueryParam] を 1 回呼び出す必要があります。この例では、クエリー文字列パラメーター [!UICONTROL sc_cid] が *`campaign`*.
+      変数内にコピーする必要のあるクエリー文字列パラメーターのそれぞれで、[!UICONTROL getQueryParam] を 1 回呼び出す必要があります。この例では、クエリー文字列パラメーター [!UICONTROL sc_cid] が&#x200B;*`campaign`* にコピーされます。
 
       クリックスルーを取り込むには、[!UICONTROL getQueryParam] の最初の呼び出しのみが必要です。Adobe [!DNL Customer Care] にこの関数を導入するように依頼し、お使いのバージョンの JavaScript ファイルに [!UICONTROL getQueryParam] プラグインが含まれていることを確認してください。
 
@@ -78,7 +78,7 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
       この JavaScript ライブラリを更新するときには、以下のポイントを意識することが重要です。以下にそのポイントを示します。
 
       * クエリー文字列パラメーター [!UICONTROL sc_cid] は、最終ランディングページ上の URL 内に表示されている必要があります。表示されていない場合、クリックスルーコンバージョンは記録されません。
-      * [!UICONTROL sc_cid] パラメーターはクエリー文字列パラメーターの一例です。[!UICONTROL getQueryParam] プラグインを使用して、任意のクエリー文字列パラメーターを使用したり取り込んだりすることができます。それらのクエリー文字列パラメーターがキャンペーントラッキングにのみ使用されていることを確認してください。パラメーターがクエリー文字列内に出現するたびに、その値が *`campaign`*.
+      * [!UICONTROL sc_cid] パラメーターはクエリー文字列パラメーターの一例です。[!UICONTROL getQueryParam] プラグインを使用して、任意のクエリー文字列パラメーターを使用したり取り込んだりすることができます。それらのクエリー文字列パラメーターがキャンペーントラッキングにのみ使用されていることを確認してください。パラメーターがクエリー文字列内に出現するたびに、その値が&#x200B;*`campaign`* にコピーされます。
 
 1. [!UICONTROL SAINT] を使用して、キャンペーントラッキングコードを分類します。
 
