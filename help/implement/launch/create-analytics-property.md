@@ -1,7 +1,7 @@
 ---
 title: Launch での Analytics プロパティの作成
 description: Adobe Experience Platform Launch を使用してスペースを作成し、データの収集方法をカスタマイズします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -21,7 +21,7 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. 「新規プロパティ」をクリックします。
-1. プロパティに We bサイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「保存」をクリックします。
+1. プロパティに Web サイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「保存」をクリックします。
 1. 新しく作成したプロパティをクリックして、設定を入力します。
 1. 「拡張機能」タブをクリックし、「カタログ」をクリックします。
 1. 「ID サービス」を探し、「インストール」をクリックします。
@@ -55,28 +55,28 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 1. イベントの横にある「追加」をクリックし、次の設定を入力します。
    * 拡張機能：Core
    * イベントタイプ：読み込まれたライブラリ（ページ上部）
-   * 名前：Core — 読み込まれたライブラリ（ページ上部）
+   * 名前：Core - 読み込まれたライブラリ（ページ上部）
    * 注文：50
 1. 「変更を保持」をクリックします。
 1. 「アクション」で、「追加」をクリックし、次の設定を入力します。
    * 拡張機能：Adobe Analytics
-   * アクションタイプ：変数の設定
-   * ページ名：コンテナアイコンをクリックし、`Page Name`データ要素を選択します。
-   * キャンペーン：値が `cid` のクエリパラメーター
+   * アクションタイプ：変数を設定
+   * ページ名：コンテナアイコンをクリックし、`Page Name`データ要素を選択します
+   * キャンペーン：値が `cid` のクエリーパラメーター
 1. 「変更を保持」をクリックします。
 1. アクションの横のプラス記号をクリックして別のアクションを追加し、次の設定を入力します。
    * 拡張機能：Adobe Analytics
-   * アクションタイプ：ビーコンの送信
-   * 名前：Adobe Analytics — ビーコンの送信
+   * アクションタイプ：ビーコンを送信
+   * 名前：Adobe Analytics - ビーコンを送信
    * トラッキング：s.t()
 1. 「変更を保持」をクリックします。
 1. イベントと 2 つのアクションが設定されていることを確認し、「保存」をクリックします。
 
 ## ドキュメントとその他のリソース
 
-* [Adobe Analytics 拡張機能のドキュメント](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)： Adobe Experience Platform Launch のAdobe Analytics 拡張機能に固有の完全なドキュメントです。
+* [Adobe Analytics 拡張機能のドキュメント](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)： Adobe Experience Platform Launch の Adobe Analytics 拡張機能に固有の完全なドキュメントです。
 * [Launch 使用の手引き](https://docs.adobelaunch.com/getting-started)：より詳細なスタートガイドを含む、Launch の完全なドキュメントです。
-* [Adobe Experience Platform Launch YouTube チャンネル](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd)：ビデオを通して Launch の使用方法を学びます。
+* [Adobe Experience Platform Launch YouTube チャンネル](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd)：ビデオを通して Launch の使用方法を学びます。
 
 ## 次の手順
 
