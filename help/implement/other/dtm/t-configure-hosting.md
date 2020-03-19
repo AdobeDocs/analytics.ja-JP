@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: ホスティングオプションの設定
 topic: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 [!UICONTROL Dynamic Tag Management ]は、利用可能なホスティングオプションを 1 つ以上利用して実装できます。
 
-[!UICONTROL Dynamic Tag Management には、タグ管理に最低限必要な JavaScript ファイルをホストするための多くの配信オプションが用意されています。]
+[!UICONTROL Dynamic Tag Management には、タグ管理に最低限必要な JavaScript ファイルをホストするための多くの配信オプションが用意されています]。
 
-ホスティングについて詳しくは、[!UICONTROL  Dynamic Tag Management ] 製品ドキュメントの[埋め込みコードとホスティングオプション](https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html)を参照してください。
+ホスティングについて詳しくは、[!UICONTROL  Dynamic Tag Management] 製品ドキュメントの[埋め込みコードとホスティングオプション](https://marketing.adobe.com/resources/help/ja_JP/dtm/deployment.html)を参照してください。
 
 「埋め込み」タブで、ホスティングオプションを選択します。
 
@@ -31,7 +31,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Akamai </p> </td> 
-   <td colname="col2"> <p> 実装が最もシンプルなホスティングオプションです。 </p> <p>グローバルな分散配信ネットワークです。 </p> <p>サードパーティインフラストラクチャに対する依存関係（DNS ルックアップ、Akamai の可用性）が発生します。 </p> <p>詳しくは、Dynamic Tag Management 製品ドキュメントの <a href="https://marketing.adobe.com/resources/help/en_US/dtm/akamai.html">Akamai</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 実装が最もシンプルなホスティングオプションです。 </p> <p>グローバルな分散配信ネットワークです。 </p> <p>サードパーティインフラストラクチャに対する依存関係（DNS ルックアップ、Akamai の可用性）が発生します。 </p> <p>詳しくは、Dynamic Tag Management 製品ドキュメントの <a href="https://marketing.adobe.com/resources/help/ja_JP/dtm/akamai.html">Akamai</a> を参照してください。 </p> </td> 
    <td colname="col3"> 
     <ol id="ol_EF148EF091A645B3962B084963B3C0B0"> 
      <li id="li_7ECE0C331EEE4907A563D581DF1DFEFE">Dynamic Tag Management が自動で、カスタム JavaScript ライブラリを生成します。 </li> 
@@ -41,7 +41,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
   </tr> 
   <tr> 
    <td colname="col1"> 自己ホスト型：FTP 配信 </td> 
-   <td colname="col2"> <p><span class="term">プッシュ</span>アプローチです。Dynamic Tag Management が、FTP プロトコルを使用して Web コンテンツサーバーホストに直接カスタム JavaScript ライブラリをエクスポートします。 </p> <p>このソリューションでは、カスタム Dynamic Tag Management ライブラリに対して変更を発行するために、Web コンテンツサーバー上の FTP サーバーおよび資格情報を使用する必要があります。 </p> <p>詳しくは、Dynamic Tag Management 製品ドキュメントの <a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_ftp.html">FTP</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="term">プッシュ</span>アプローチです。Dynamic Tag Management が、FTP プロトコルを使用して Web コンテンツサーバーホストに直接カスタム JavaScript ライブラリをエクスポートします。 </p> <p>このソリューションでは、カスタム Dynamic Tag Management ライブラリに対して変更を発行するために、Web コンテンツサーバー上の FTP サーバーおよび資格情報を使用する必要があります。 </p> <p>詳しくは、Dynamic Tag Management 製品ドキュメントの <a href="https://marketing.adobe.com/resources/help/ja_JP/dtm/deployment_ftp.html">FTP</a> を参照してください。 </p> </td> 
    <td colname="col3"> 
     <ol id="ol_60348F9C991D4F2B9457006B0F98C834"> 
      <li id="li_24A141C3C7074BF9897C022A22CAE78C">Dynamic Tag Management が自動で、カスタム JavaScript ライブラリを生成します。 </li> 
@@ -51,7 +51,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
   </tr> 
   <tr> 
    <td colname="col1"> 自己ホスト型：ライブラリのダウンロード </td> 
-   <td colname="col2"> <p><span class="term">プル</span>アプローチです。アプリケーションがカスタム JavaScript ライブラリをエクスポートします。<!-- to Amazon S3-->ライブラリは、ホストされたサーバーサイドのプロセスからアクセスできます。 </p> <p>さらに、ライブラリは、Dynamic Tag Management インターフェイスから直接 Web ダウンロードして使用できます。 </p> <p>このソリューションでは、Dynamic Tag Management ライブラリを手動で取得して発行するか、Akamai から Web コンテンツサーバーにライブラリを自動的に転送するプログラムを開発する必要があります。 </p> <p>このアプローチは、セットアップに最も多くの時間がかかりますが、最も安全で柔軟なオプションでもあります。 </p> <p>最新バージョンのライブラリファイルが参照されているかどうかを確認するには、コマンドを使用します。 </p> <p>詳しくは、Dynamic Tag Management 製品ドキュメントの<a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment_download.html">ライブラリのダウンロード</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="term">プル</span>アプローチです。アプリケーションがカスタム JavaScript ライブラリをエクスポートします。<!-- to Amazon S3-->ライブラリは、ホストされたサーバーサイドのプロセスからアクセスできます。 </p> <p>さらに、ライブラリは、Dynamic Tag Management インターフェイスから直接 Web ダウンロードして使用できます。 </p> <p>このソリューションでは、Dynamic Tag Management ライブラリを手動で取得して発行するか、Akamai から Web コンテンツサーバーにライブラリを自動的に転送するプログラムを開発する必要があります。 </p> <p>このアプローチは、セットアップに最も多くの時間がかかりますが、最も安全で柔軟なオプションでもあります。 </p> <p>最新バージョンのライブラリファイルが参照されているかどうかを確認するには、コマンドを使用します。 </p> <p>詳しくは、Dynamic Tag Management 製品ドキュメントの<a href="https://marketing.adobe.com/resources/help/ja_JP/dtm/deployment_download.html">ライブラリのダウンロード</a>を参照してください。 </p> </td> 
    <td colname="col3"> 
     <ol id="ol_F40B721306FE473496BD657262DFD585"> 
      <li id="li_4EA4D6B555CE4E9CA476C7550C18C061">Dynamic Tag Management が自動で、カスタム JavaScript ライブラリを生成します。 </li> 
