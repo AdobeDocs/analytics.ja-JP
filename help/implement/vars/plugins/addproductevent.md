@@ -2,26 +2,26 @@
 title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
 translation-type: tm+mt
-source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Adobeプラグイン：addProductEvent
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すのに役立つ、アドビコンサルティングによって提供されます。 アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートを行いません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを設定できます。
+> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
 
-このプ `addProductEvent` ラグインは、数値イベントまたは通貨イベントを変数に追加 `products` します。 製品文字列の形式を気にせずに数値イベントや通貨イベントを変数に追加する場合は、このプ `products` ラグインを使用することをお勧めします。 このプラグインは、変数で数値イベントや通貨イベントを使用しない場合は不要 `products` です。
+このプ `addProductEvent` ラグインは、数値イベントまたは通貨イベントを変数に追加 [`products`](../page-vars/products.md) します。 製品文字列の形式を気にせずに数値イベントや通貨イベントを変数に追加する場合は、この `products` プラグインを使用することをお勧めします。 このプラグインは、変数で数値イベントや通貨イベントを使用しない場合は不要 `products` です。
 
 ## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
 
-アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す
+1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
 1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
    * 条件：なし
    * イベント：コア — ライブラリ読み込み済み（ページの上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
@@ -35,14 +35,14 @@ source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 目的のプロパティをクリックします。
-1. タブに移動し、Adobe Analytics [!UICONTROL Extensions] 拡張機能の下にある [!UICONTROL Configure] ボタンをクリックします。
+1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
 1. 変更を保存し、Analytics拡張機能に公開します。
 
 ## AppMeasurementを使用したプラグインのインストール
 
-Analyticsトラッキングオブジェクトをインスタンス化した後（を使用して）、AppMeasurementファイルの任意の場所に次のコードをコピーして貼り付 `s_gi`けます。 コードのコメントとバージョン番号を実装に保持しておくと、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -62,10 +62,10 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 このメソ `addProductEvent` ッドでは、次の引数を使用します。
 
 * **`en`** （必須、文字列）:変数の最後のエントリに追加するイベ `products` ント。 変数が空 `products` の場合、イベント（およびその値）が添付された「空白」の製品エントリが作成されます。
-* **`ev`** （必須、文字列）:引数内の数値イベントまたは通貨イベントに割り当てられ `en` る値。  未設定の場 `1` 合はデフォルトです。
-* **`ap`** （オプション、ブール値）:現在、products変数に複数の製品エントリが含まれている場合、値が（または）の `true` 場合、すべての製 `1`品エントリにイベントが追加されます。  未設定の場 `false` 合はデフォルトです。
+* **`ev`** （必須、文字列）:引数の数値イベントまたは通貨イベントに割り当てられ `en` る値。  未設定の場合 `1` の初期設定です。
+* **`ap`** （オプション、ブール値）:現在、products変数に複数の製品エントリが含まれている場合、値が（または） `true` の場合、す `1`べての製品エントリにイベントが追加されます。  未設定の場合 `false` の初期設定です。
 
-は何も `addProductEvent` 返しません。 代わりに、イベントとその値が変数に追加され `products` ます。 また、このプラグインは変数にも必要なので、 `events` イベントを自動的に追加します。
+何も返 `addProductEvent` されません。 代わりに、イベントとその値が変数に追加され `products` ます。 また、このプラグインは変数にも必要なので、 [`events`](../page-vars/events/events-overview.md) イベントを自動的に追加します。
 
 ## Cookie
 
@@ -83,7 +83,7 @@ s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-上記のコードでは、変数 `s.events` に `"purchase,event35"`
+上記のコードでは、変数 `s.events` を `"purchase,event35"`
 
 ### 例2
 
@@ -94,7 +94,7 @@ s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-呼び出しの3番目の引数が `addProductEvent` (また `true` は `1`)の場合、各製品エントリの値に、呼び出しで指定されたイベントが追加されます。
+呼び出しの3番目の引数が `addProductEvent` (また `true` は `1`)の場合、各製品エントリの値には、呼び出しで指定されたイベントが追加されます。
 
 ### 例3
 
@@ -108,7 +108,7 @@ s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-上記のコードでは、変数 `s.events` に `"purchase,event2,event33,event34,event35"`
+上記のコードでは、変数 `s.events` を `"purchase,event2,event33,event34,event35"`
 
 ### 例4
 
@@ -122,9 +122,9 @@ s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-上記のコードでは、変数もに設 `s.events` 定していま `"purchase,event2,event33,event34,event35"`す。
+上記のコードでは、変数もに設 `s.events` 定されま `"purchase,event2,event33,event34,event35"`す。
 
-> [!NOTE] 呼び出しの2番目の引数は、整数または **整数** /数値を表す文字列です
+> [!NOTE] 呼び出しの2番目の引数は、整数または **** 、整数/数値を表す文字列です
 
 ### 例5
 
@@ -134,7 +134,7 @@ s.addProductEvent("event35", "15", 1);
 s.addProductEvent("event35", "25");
 ```
 
-上記のコードも `"event35"` の末尾に付加さ `s.events` れ **ま**&#x200B;す `s.events` 。 `s.events` まだ設定されていない場合は、上記のコードセットは `"event35"`
+上記のコードも `"event35"` また、の末尾に付加 `s.events` さ **れ**`s.events` ます `s.events` 。まだ設定されていない場合は、上記のコードセットは、 `"event35"`
 
 ## バージョン履歴
 
