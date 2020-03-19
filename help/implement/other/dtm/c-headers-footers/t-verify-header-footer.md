@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: ヘッダーおよびフッターコードの検証
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -15,10 +15,10 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 Dynamic Tag Management ライブラリがサイトに適切に読み込まれることを検証します。
 
 1. ブラウザー（Firefox）でサイトを開きます。
-1. 右クリックして、[!UICONTROL 要素を調査]／**[!UICONTROL Console]**を選択することで、**[!UICONTROL  Web コンソール]** を開きます。
-1. **[!UICONTROL Enter]**を押します。
+1. 右クリックして、[!UICONTROL 要素を調査]／**[!UICONTROL コンソール]**&#x200B;を選択することで、**[!UICONTROL Web コンソール]**&#x200B;を開きます。
+1. **[!UICONTROL Enter]** を押します。
 
-   コードが正しくインストールされている場合は、コンソールに *`true`*が表示されます。
+   コードが正しくインストールされている場合は、コンソールに *`true`* が表示されます。
 
    コードが適切にインストールされなかった場合、参照エラーが表示されます。
 
