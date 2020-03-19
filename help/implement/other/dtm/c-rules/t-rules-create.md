@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 新規ルールの作成
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
