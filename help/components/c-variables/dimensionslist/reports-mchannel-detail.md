@@ -1,43 +1,35 @@
 ---
-description: これらのレポートにより、サイトに対して最も大きな影響を与えた特定のキャンペーンまたはキーワードについてインサイトを得ることができます。このレポートを使用すると、チャネル全体に関係なく、成功指標と売上高を様々なチャネルの詳細に配分できます。例えば、特定の有料検索キーワードと特定の電子メールキャンペーンとの比較を確認できます。マーケティングチャネル概要レポートとは異なり、このレポートは標準のマーケティングレポートと似ています。
-title: マーケティングチャネルの詳細 - ファーストタッチとラストタッチ
-topic: Reports
-uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
+title: マーケティングチャネルの詳細 — ファーストタッチとラストタッチ
+description: 成功指標と売上高を様々なチャネルの詳細に割り当て、チャネル全体に関係なく配分します。
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
 
 ---
 
 
-# マーケティングチャネルの詳細 - ファーストタッチとラストタッチ
+# マーケティングチャネルの詳細 — ファーストタッチとラストタッチ
 
-これらのレポートにより、サイトに対して最も大きな影響を与えた特定のキャンペーンまたはキーワードについてインサイトを得ることができます。このレポートを使用すると、チャネル全体に関係なく、成功指標と売上高を様々なチャネルの詳細に配分できます。例えば、特定の有料検索キーワードと特定の電子メールキャンペーンとの比較を確認できます。マーケティングチャネル概要レポートとは異なり、このレポートは標準のマーケティングレポートと似ています。
+これらのレポートにより、サイトに対して最も大きな影響を与えた特定のキャンペーンまたはキーワードについてインサイトを得ることができます。このレポートを使用すると、チャネル全体に関係なく、成功指標と売上高を様々なチャネルの詳細に配分できます。例えば、特定の有料検索キーワードと電子メールキャンペーンとの比較を確認できます。 マーケティングチャネル概要レポートとは異なり、このレポートは標準レポートと似ています。
 
-**レポートプロパティ**
+## レポートのプロパティ
 
-* このレポートは、マーケティングチャネルで定義されたルールで実行されます。[チャネルとルール](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html)を参照してください。
+* このレポートは、マーケティングチャネルで定義されたルールで実行されます。[チャネルとルール](/help/components/c-marketing-channels/c-channels.md)を参照してください。
 
-   特に、このレポートは各ルールの&#x200B;**[!UICONTROL チャネルの値を次に設定する]**&#x200B;部分を使用します。これらのルールまたはチャネルの値をどのように設定するかを変更すると、このレポート内のデータを計算する方法が変わります。詳しくは、マーケティングチャネルの処理ルールの [FAQ](https://marketing.adobe.com/resources/help/en_US/mchannel/c_faq.html) を参照してください。
+   特に、レポートでは各ルールの一 **[!UICONTROL Set the channel's value to]** 部が使用されます。 これらのルールまたはチャネルの値をどのように設定するかを変更すると、このレポート内のデータを計算する方法が変わります。詳しくは、マーケティングチャネルの処理ルールの [FAQ](/help/components/c-marketing-channels/c-faq.md) を参照してください。
 
-* ファーストタッチとラストタッチの違いについては、[マーケティングチャネルレポートの概要](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview.html)を参照してください。****。
+* Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
 * 処理ルールの順序は、マーケティングチャネルの機能にとって重要です。それぞれのヒットでは最初に最上部の処理ルールの条件がチェックされ、そこから下に絞り込まれます。
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
-* 標準の方法で収集された様々なチャネルに加えて、[オフラインデータソース](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_online_offline.html)も使用できます。
-* このレポートで[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)を使用すると、行項目の名前変更や統合ができます。マーケティングチャネルについて詳しくは、[ここ](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html)を参照してください。
+* 標準の方法で収集された様々なチャネルに加えて、[オフラインデータソース](/help/components/c-marketing-channels/c-getting-started-mchannel.md)も使用できます。
+* このレポートで[分類](/help/components/c-classifications2/c-classifications.md)を使用すると、行項目の名前変更や統合ができます。マーケティングチャネルについて詳しくは、[ここ](/help/components/c-marketing-channels/classifictions-mchannel.md)を参照してください。
 
 * 他のすべてのマーケティングチャネルレポートにより、このレポートを掘り下げることができます。
-* カスタムサブリレーションを使用して、このレポートの追加の詳細を有効にすることができます。追加の情報については、組織のサポート対象のユーザーから担当のカスタマーケアに連絡して、特定の変数の有効化を要求してください。
 * このレポートでは以下の指標を使用できます（組織とレポートスイートの設定に応じて異なります）。
-* 
-
    * クリックスルー：*`s.campaign`* 変数が定義された回数。
    * 新規エンゲージメント：新規ファーストタッチチャネルを受け取った訪問者の数。
    * e コマースのすべての標準的な指標：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、買い物かごからの削除数。
    * すべてのカスタムイベント：イベント 1 ～ 80（H22 コード以上では、さらにイベント 81 ～ 100）。
    * 訪問回数および訪問者数：使用できるかどうかは、組織およびレポートスイートに依存します。詳細については、アカウントマネージャーにお問い合わせください。
-   [!UICONTROL マーケティング チャネル]ヘルプの[指標](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html)を参照してください。
-
-> [!NOTE][!UICONTROL マーケティングチャネル]レポートは、バージョン 13.5 では使用できません。
-
+   See [Metrics](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) in [!UICONTROL Marketing Channel] Help.
