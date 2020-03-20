@@ -2,8 +2,8 @@
 description: カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。
 title: カレンダーと日付範囲の概要
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -12,16 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。
 
-カレンダーの選択は、パネルレベルで適用されますが、すべてのパネルに適用することもできます。デフォルトでは、Workspace カレンダーには今月と先月が表示されます。
+カレンダーの選択は、パネルレベルで適用されますが、すべてのパネルに適用することもできます。Workspaceで日付範囲をクリックすると、現在のカレンダー月と前のカレンダー月がインターフェイスに表示されます。 これらの2つのカレンダーを調整するには、それぞれの上隅にある右向き矢印と左向き矢印をクリックします。
 
-最初のクリックでは、日付範囲の選択を開始します。前または後の日付範囲をハイライト表示し、2 回目のクリックで日付範囲の終了を選択します。最初の日付をクリックしたまま  `Shift` キーを押す（または右クリックを使用する）と、その日付が範囲に追加されます。
+![カレンダー](assets/aw_calendar.png)
+
+カレンダーを最初にクリックすると、日付範囲の選択が開始されます。 2回目のクリックで日付範囲の選択が完了し、ハイライト表示されます。 キーが押さ `Shift` れた状態（または右クリックを使用）の場合、現在選択されている範囲に追加されます。
 
 日付（および時間ディメンション）を Workspace プロジェクトにドラッグすることもできます。特定の日、週、月、年または周期的な日付を選択できます。
 
-![](assets/aw_calendar.png)
-
-[Analysis Workspace での日付範囲およびカレンダーの使用（YouTube）](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28)（4:07）
-
+[Analysis Workspace での日付範囲およびカレンダーの使用（YouTube）](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28)（4:07）
 
 | 設定 | 説明 |
 |--- |--- |
