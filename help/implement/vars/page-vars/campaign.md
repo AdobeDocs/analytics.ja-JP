@@ -1,8 +1,8 @@
 ---
 title: キャンペーン
 description: 「トラッキングコード」ディメンションを設定します。
-translation-type: ht
-source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -19,16 +19,16 @@ source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
-6. [!UICONTROL キャンペーン]セクションを見つけます。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. で、既 [!UICONTROL Actions]存のアクションをク [!UICONTROL Adobe Analytics - Set Variables] リックするか、「+」アイコンをクリックします。
+5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、を「に」に設 [!UICONTROL Action Type] 定しま [!UICONTROL Set Variables]す。
+6. Locate the [!UICONTROL Campaign] section.
 
 キャンペーンは、値またはクエリー文字列パラメーターに設定できます。
 
 ## AppMeasurement および Launch カスタムコードエディターの s.campaign
 
-`s.campaign` 変数は、通常、マーケティング活動で使用されるトラッキングコードを含む文字列です。最大長は 255 バイトです。100 バイトを超える値は、アドビに送信する際に自動的に切り捨てられます。
+`s.campaign` 変数は、通常、マーケティング活動で使用されるトラッキングコードを含む文字列です。最大長は 255 バイトです。255 バイトを超える値は、アドビに送信する際に自動的に切り捨てられます。
 
 ```js
 // Set the campaign variable to a static value
