@@ -4,7 +4,7 @@ title: Activity Map の FAQ
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 Activity Map での設定や機能の使用に関するよくある質問（FAQ）です。
 
-## 実装と AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
+## 実装と AppMeasurement
 
 **質問：新規の Activity Map を有効にするための実装手順をおしえてください。**
 
@@ -39,7 +39,21 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 
 回答：いいえ。Activity Map の機能は、訪問者 API には依存しません。
 
-## Activity Map アプリケーション {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Activity Map アプリケーション
+
+**質問：Activity Mapでシングルページアプリ(SPA)をサポートする方法を教えてください。**
+
+回答：
+
+* 数秒ごとに、Activity MapはWebページをスキャンし、ページに対する変更を探します。 ActivityMapは、新しいページの読み込みを必要とせずに、ページ上で新しいコンテンツを検索しますが、この新しいコンテンツは、ページの読み込み時に見つかった最初のpageNameに常に関連付けられます。
+
+* Activity Mapは、その情報に基づくリンクの表示が変更されたかどうかを確認します。 表示の変更が見つかった場合、そのリンクの [「ページ上のリンク](/help/analyze/activity-map/activitymap-links-report.md) 」テーブルの「現在」列が、またはで更新さ **[!UICONTROL Displayed]** れま **[!UICONTROL Hidden]**&#x200B;す。
+
+* ユーザー操作によって新しいコンテンツが作成されると、AppMeasurementでリンクとして見つかった新しい要素がテーブルに追加さ **[!UICONTROL Links On Page]** れます。 Activity Mapは、これらの新しいリンクを含む新しいデータリクエストを送信します。 データリクエストがUIで処理され **[!UICONTROL Links On Page]** ると、新しいリンクが表に表示されます。
+
+**質問：Activity Mapは「ビュー」に関するデータを提供しますか。**
+
+A:いいえ。各ページの読み込み時に表示されるすべてのリンクを追跡するには、より多くのデータを収集する必要があります。 無料のアドオンとして、Activity Mapはこの機能を提供しません。
 
 **質問：以前に Web サイトで訪問者 ClickMap を使用していなかった場合でも、Activity Map を使用できますか。**
 
@@ -47,7 +61,7 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 
 **質問：Activity Map ではどんなブラウザーおよびバージョンがサポートされていますか。**
 
-回答：4 つの主要ブラウザー（Chrome、Firefox、Safari および IE）の最新バージョンのみをサポートしています。
+A:4つのメインブラウザー(Chrome、Firefox、Safari、IE)の最新バージョンをサポートしています。
 
 **質問：デフォルトのオーバーレイ設定は何ですか。**
 
@@ -68,12 +82,6 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 
 回答：Activity Map を使用中は、Analytics タグでリンククリックデータデータは収集されません。この動作は、ClickMapプラグインの動作に従います。
 
-**質問：指標のドロップダウンに同じ指標が複数回表示されるのはなぜですか。**
-
-回答：Activity Map では、すべてのレポートスイートの指標のリストを表示します。その結果、[指標の統合処理](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html)をおこなっていない場合は、重複が発生する可能性があります。
-
-指標ドロップダウンを使用すると、訪問したページのレポートスイートに割り当てられたものに計算指標のリストを制限できます。
-
 **質問：Activity Map のすべてのリンクレポートは、Reports &amp; Analytics の Activity Map レポートとどのように比較されますか。**
 
 回答：Activity Map ですべてのリンクレポートを引き出すには、`<list of link&regions present in the page at rendering time>` の Activity Map のリンクと地域を基準として Activity Map ページ = &quot;visitedpage&quot; を分類する分類リクエストを作成します。
@@ -84,9 +92,7 @@ Reports &amp; Analytics で同等のレポートを得るには、まず Activit
 
 **質問：複数のレポートスイートを表示する複数のタグを含むページと Activity Map はどのように連携しますか。**
 
-回答：デフォルトで、Activity Map は、ページから最初に送信されたタグと関連付けられているレポートスイートを使用します。
-
-Activity Map 設定／「その他」タブで、別のタグ付きレポートスイートを選択できます。
+回答：デフォルトで、Activity Map は、ページから最初に送信されたタグと関連付けられているレポートスイートを使用します。Activity Map 設定／「その他」タブで、別のタグ付きレポートスイートを選択できます。
 
 **質問：Activity Map では、Analytics タグをスキャンするのにどのくらい時間がかかりますか。**
 
@@ -116,27 +122,27 @@ Activity Map 設定／「その他」タブで、別のタグ付きレポート�
 
 *互換性のない Analytics タグ（AppMeasurement v1.5 以前）を含む Web ページ*
 
-ページコードを v1.6 にアップグレード (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) する必要があることを示す警告メッセージが表示されます。
+ページコードをv1.6以上にアップグレードする必要があることを示す警告メッセージが表示されます。
 
 *互換性のある Analytics タグ（AppMeasurement v1.6 以降）を含む Web ページ、ただし、管理ツールで Activity Map のレポートが有効になっていない場合*
 
 \[Activity Map のレポートの有効化\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;)を管理者に依頼する必要があることを示す警告メッセージが表示されます。
 
-**質問：[Analytics データフィード](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)を使用して Activity Map データ（contextData）を書き出すことはできますか。**
+**質問：[Analytics データフィード](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html)を使用して Activity Map データ（contextData）を書き出すことはできますか。**
 
 回答：いいえ。
 
-## Activity Map でのセグメント化 {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
+## Activity Map でのセグメント化
 
-**質問：セグメントは個々のユーザーセグメントに関連付けられていますか。それとも、共有の管理者レベルのセグメントが Activity Map で利用可能ですか。**
+**質問：セグメントは個々のユーザーセグメントに関連付けられていますか。Are shared segments available in Activity Map?**
 
-回答：Activity Map は、管理者レベルのセグメント（レポートセグメント）を Analytics から継承します。
+A:Activity Mapは、Analyticsからレポートセグメントを継承します。
 
 **質問：セグメントはライブモードで動作しますか。**
 
 回答：いいえ。セグメントはライブモードでは動作しません。機能は、Reports &amp; Analytics のリアルタイムレポートと同等です。
 
-## 仮想レポートスイート{#section_BDB0CA9E732F478EAC349A79753A78DB}
+## 仮想レポートスイート
 
 **質問：Activity Map は、仮想レポートスイートと互換性がありますか。**
 
