@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [分類ルールセット](c-classifications2/crb/classification-rule-set.md)
       + [分類ルール](c-classifications2/crb/classification-quickstart-rules.md)
       + [分類ルール - 定義](c-classifications2/crb/classification-rule-definitions.md)
-      + [下位分類とルールビルダー - 使用事例](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [下位分類とルールビルダー](c-classifications2/crb/sub-classification-rule-builder.md)
    + 数値 2 分類 {#numeric2-classification}
       + [数値 2 分類の概要 ](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [数値 2 分類の作成](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
@@ -327,7 +327,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
    + [リアルタイムレポートの設定](c-real-time-reporting/t-realtime-admin.md)
    + [サポートされるリアルタイム指標とディメンション](c-real-time-reporting/realtime-metrics.md)
 + マーケティングチャネル {#marketing-channels}
-   + [マーケティングチャネル — はじめに](c-marketing-channels/c-getting-started-mchannel.md)
+   + [マーケティングチャネルの概要](c-marketing-channels/c-getting-started-mchannel.md)
    + [マーケティングチャネルの管理](c-marketing-channels/c-channels.md)
    + [マーケティングチャネルの処理ルール](c-marketing-channels/c-rules.md)
    + [マーケティングチャネルでの分類](c-marketing-channels/classifictions-mchannel.md)
