@@ -2,7 +2,7 @@
 title: Workspace の複数のレポートスイート
 description: 複数のレポートスイートを含む Workspace でプロジェクトを作成する方法と理由を説明する
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -16,6 +16,12 @@ source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
 * 2 つの異なる地域のデータや、2 つの異なるレポートスイート内のデータを比較する。テーブルとビジュアライゼーションを作成し、データを並べて比較できます。
 
 * 指標とビジュアライゼーションのダッシュボードを作成して、他の組織に報告する。様々なレポートスイートから同じプロジェクト内にデータを取り込めるようになりました。
+
+## すべてのパネルへのレポートスイートの適用
+
+パネルのヘッダーを右クリックし、を選択して、レポートスイートをすべてのパネルに一度に適用できま **[!UICONTROL Apply Report Suite to All Panels]**&#x200B;す。
+
+![](assets/apply-rs-all-panels.png)
 
 ## アクティブなパネル
 
