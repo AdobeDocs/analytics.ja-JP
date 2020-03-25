@@ -1,80 +1,83 @@
 ---
-description: この統合の展開は、以下の操作を必要とする簡単なプロセスです。
+description: この統合のデプロイは、以下の操作を必要とする簡単なプロセスです。
 subtopic: Qualtrics
 title: 統合のデプロイ
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 統合のデプロイ{#deploying-the-integration}
+# 統合のデプロイ {#deploying-the-integration}
 
-この統合の展開は、以下の操作を必要とする簡単なプロセスです。
+この統合のデプロイは、以下の操作を必要とする簡単なプロセスです。
 
-## Adobe統合ウィザードの完了{#completing-the-adobe-integration-wizard}
+## アドビ統合ウィザードの完了 {#completing-the-adobe-integration-wizard}
 
-統合をアクティブ化するには、Data Connectorsインターフェイス内でQualtrics統合ウィザードを完了する必要があります
+統合をアクティブ化するには、Data Connectors インターフェイス内で Qualtrics 統合ウィザードを完了する必要があります。
 
-1. data connectorsに移動し、Qualtrics統合ウィザードを起動します。
+1. Data Connectors に移動し、Qualtrics 統合ウィザードを起動します。
 1. この統合に使用するレポートスイートを選択し、名前を指定します。
 
-   次の手順に従って、統合ウィザードを完了します。 1.ウィザ **ードの手順1**
+   次の手順に従って情報を入力し、統合ウィザードを完了します。1. **ウィザード：手順 1**
 
-   | 電子メールアドレス | 主連絡先の電子メールアドレス。 |
+   | 電子メールアドレス | 主要連絡先の電子メールアドレス。 |
    |---|---|
    | 説明 | （オプション）この統合設定の説明。 |
-   | Qualtrics組織ID | [Qualtrics組織IDの検索](../qualtrics-overview/qualtrics-org-id.md) |
-   | Adobe siteCatalystトークン | [Qualtrics Adobe Analyticsトークンの生成](../qualtrics-overview/qualtrics-token.md) |
+   | Qualtrics 組織 ID | [Qualtrics 組織 ID の検索](../qualtrics-overview/qualtrics-org-id.md) |
+   | Adobe SiteCatalyst トークン | [Qualtrics Adobe Analytics トークンの生成](../qualtrics-overview/qualtrics-token.md) |
 
-1. **ウィザードの手順2 — 変数のマッピング**| Qualtrics応答リスト|使用可能なリスト変数をレポートスイートから選択します。 （場合によっては、Report Suite Manager内で新しいlistVarを有効にする必要があります）。||—|—|| Qualtrics応答ID|使用可能なeVarまたはpropをレポートスイートから選択します。 （場合によっては、Report Suite Manager内で新しいlistVarを有効にする必要があります）。||トラッキングサーバー|Adobe Analyticsデータの追跡に使用するトラッキングサーバー（ドメイン）設定を指定します。 標準のトラッキ `trackingServerSecure` ングサーバー設定と異なる場合は、トラッキングサーバーを使用します。  || Qualtrics調査の提出|レポートスイートから利用可能なイベントを選択します（Report Suite Manager内で新しいイベントを有効にする必要がある場合があります）。  |
+1. **ウィザードの手順 2 - 変数のマッピング**| Qualtrics 応答リスト | 使用可能なリスト変数をレポートスイートから選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
+|---|---|
+| Qualtrics 応答 ID | レポートスイート尾から使用可能な eVar または prop を選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
+| トラッキングサーバー | Adobe Analytics データの追跡に使用するトラッキングサーバー（ドメイン）設定。標準のトラッキングサーバー設定と異なる場合は、`trackingServerSecure` トラッキングサーバーを使用します。|| Qualtrics 調査の提出 | レポートスイートから利用可能なイベントを選択します（Report Suite Manager 内で新しいイベントの有効化が必要になる場合があります）。|
 
-1. **ウィザード：手順3**:必要ない、情報のみ。
+1. **ウィザード：手順 3**：何もする必要はありません。情報のみ。
 
-   手順の結果 1 **ウィザードの手順4 — 設定のエクスポート**
+   手順の結果 1 **ウィザードの手順 4 - 設定の書き出し**
 
-   | eVar | Qualtricsに書き出すeVarを5つまで選択します。 |
+   | eVar | Qualtrics に書き出す eVar を 5 つまで選択します。 |
    |---|---|
-   | イベント | Qualtricsに書き出すために公開するカスタムイベントを5つまで選択します |
-   | prop | Qualtricsに書き出すために公開するpropを5つまで選択します |
-   | Access Requests | Qualtricsにエクスポートする標準指標および標準ディメンションのチェックボックスをオンにします。 は、エ `visitor_id` クスポートが正しく機能するようにするために必要です。 |
+   | イベント | Qualtrics に書き出すカスタムイベントを 5 つまで選択します。 |
+   | Props | Qualtrics に書き出す Props を 5 つまで選択します。 |
+   | アクセス要求 | Qualtrics に書き出す標準指標および標準ディメンションのチェックボックスをオンにします。書き出しが正しく機能するには、`visitor_id` が必要です。 |
 
-1. **ウィザード：手順5**:設定を確認し、「今すぐアクティブ化」を **[!UICONTROL クリックしま]**&#x200B;す。
+1. **ウィザード：手順 5**：設定を確認し、「**[!UICONTROL 今すぐアクティブ化]**」をクリックします。
 
-## Qualtrics Research Suiteでの統合の有効化{#enabling-the-integration-in-qualtrics-research-suite}
+## Qualtrics Research Suite での統合の有効化 {#enabling-the-integration-in-qualtrics-research-suite}
 
-統合ウィザードを完了したら、接続する各Qualtrics調査の統合をアクティブ化する必要があります。
+統合ウィザードを完了したら、結び付けをおこなう各 Qualtrics 調査の統合をアクティブ化する必要があります。
 
-1. Qualtrics Research suiteにログインします。
-1. 「マイ **[!UICONTROL 調査]** 」タブで、統合する **[!UICONTROL 調査の「編集]** 」ボタンをクリックします。
-1. アドバンスオ **[!UICONTROL プション]** メニューをクリックし **[!UICONTROL 、「Adobe Analytics]**」を選択します。 （このオプションが表示されない場合は、必要な権限の取得について管理者に問い合わせてください）。
+1. Qualtrics Research Suite にログインします。
+1. 「**[!UICONTROL マイ調査]**」タブで、統合する調査の「**[!UICONTROL 編集]**」ボタンをクリックします。
+1. **[!UICONTROL アドバンスオプション]**&#x200B;メニューをクリックし、「**[!UICONTROL Adobe Analytics]**」を選択します。（このオプションが表示されない場合は、必要な権限の取得について管理者に問い合わせてください）
 
    ![](assets/advanced_options.png)
 
-1. 「Adobe Analytics設定」を選択し、「保存」をクリッ **[!UICONTROL クします]**。 使用できる設定がない場合は、Adobe Integration wizardを完了していない可能性があります。
-   1. 「部分 **[!UICONTROL 的な回答を含む]** 」チェックボックスを使用して、各部分的な調査画面が完了した後にAdobe Analyticsにデータを取り込むことを示すことができます。 選択しない場合、完全に完了した調査のデータのみが転送されます。
-   1. 「Send Timestamp With Beacon **** 」チェックボックスは、タイムスタンプ付きのデータ（共通ではない）を受け取るように設定されたレポートスイートとの統合時にのみ使用します。
+1. 「Adobe Analytics 設定」を選択し、「**[!UICONTROL 保存]**」をクリックします。使用できる設定がない場合は、アドビ統合ウィザードを完了していない可能性があります。
+   1. 「**[!UICONTROL 部分的な回答を含む]**」チェックボックスを使用すると、部分的な調査の各画面が完了した後で Adobe Analytics にデータを取り込むことを示すことができます。選択しない場合、完全に完了した調査のデータのみが転送されます。
+   1. 「**[!UICONTROL ビーコンとともにタイムスタンプを送信]**」チェックボックスは、タイムスタンプ付きのデータ（共通ではない）を受け取るように設定されたレポートスイートとの統合時にのみ使用してください。
    ![](assets/integration_config.png)
 
-## 統合の確認{#verifying-the-integration}
+## 統合の確認 {#verifying-the-integration}
 
-すべての導入手順が完了したら、統合が正常にデータを転送していることを検証できます。
+すべての実装手順が完了したら、統合が正常にデータを転送していることを検証できます。
 
-1. **統合アクティビティログ**:Data Connectors UIで、Qualtrics統合の「 **[!UICONTROL Support]** 」タブを表示します。 「統合アクティビティログ **** 」の見出しの下に、分類データのインポートが成功したことを示すエントリが表示されます。
+1. **統合アクティビティログ**：Data Connectors UI で、Qualtrics 統合の「**[!UICONTROL サポート]**」タブを表示します。「**[!UICONTROL 統合アクティビティログ]**」の見出しの下に、分類データの読み込みが成功したことを示すエントリが表示されます。
 
    >[!NOTE]
    >
-   >これらのエントリは、展開が成功してから1時間以内に表示されます。
+   >これらのエントリは、デプロイメントが成功してから 1 時間以内に表示されます。
 
    ![](assets/verify-1.png)
 
-1. **レポートデータ**:Qualtrics調査レポートをReports &amp; Analytics UIで表示するには、Qualtrics調査レポート(「リスト変数」の下 ****)に移動します。
+1. **レポートデータ**：Qualtrics 調査レポートを Marketing Reports and Analytics UI で表示するには、Qualtrics 調査レポート（「**[!UICONTROL リスト変数]**」の下）に移動します。
 
    >[!NOTE]
    >
-   >このデータは、統合調査が積極的に回答を受け取っていると仮定して、導入が成功してから24 ～ 48時間以内に表示されます。
+   >このデータは、統合調査が積極的に回答を受け取っていると想定して、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
 
    ![](assets/verify-2.png) ![](assets/verify-3.png)
 
