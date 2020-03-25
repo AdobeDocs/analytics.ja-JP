@@ -1,62 +1,62 @@
 ---
-description: 3段階の導入プロセスについて説明します。
+description: 3 段階のデプロイメントプロセスについて説明します。
 title: 統合のデプロイ
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
 ---
 
 
-# 統合のデプロイ{#deploying-the-integration}
+# 統合のデプロイ {#deploying-the-integration}
 
-3段階の導入プロセスについて説明します。
+3 段階のデプロイメントプロセスについて説明します。
 
-この統合の展開は、以下の操作を必要とする簡単なプロセスです。
+この統合のデプロイは、以下の操作を必要とする簡単なプロセスです。
 
-## 統合ウィザードの完了{#completing-the-integration-wizard}
+## 統合ウィザードの完了 {#completing-the-integration-wizard}
 
 統合ウィザードを使用する手順です。
 
-統合をアクティブ化するには、Data Connectorsインターフェイス内でLyris統合ウィザードを完了する必要があります。
+統合をアクティブ化するには、Data Connectors インターフェイス内で Lyris 統合ウィザードを完了する必要があります。
 
-1. Adobe Experience cloud内のData Connectors（旧称Genesis）領域に移動します。
+1. Adobe Experience Cloud 内の Data Connectors（旧称 Genesis）領域に移動します。
 
    ![](assets/data_connectors.png)
 
-1. 「統合を **[!UICONTROL 追加]**」の「Lyris HQ」で、「アクティブ化」をクリッ**[!UICONTROL &#x200B;クします]**。
+1. 「**[!UICONTROL 統合を追加]**」の「Lyris HQ」で、「**[!UICONTROL アクティブ化]**」をクリックします。
 
    ![](assets/add_integration.png)
 
-1. 「一般 **[!UICONTROL 設定]**」で、必要なレポートスイートを選択し、統合の名前を指定します。
-1. 「カスタム値」で、Lyrisアカウント関連の情報をすべて **[!UICONTROL 入力します]**。
+1. 「**[!UICONTROL 一般設定]**」で目的のレポートスイートを選択し、統合の名前を指定します。
+1. 「**[!UICONTROL カスタム値]**」で、Lyris アカウント関連の情報をすべて入力します。
 
    ![](assets/general_settings.png)
 
-1. ドロップダウンメニューから適切な予約済みeVarおよびイベントを選択します。
+1. ドロップダウンメニューから適切な予約済み eVar およびイベントを選択します。
 
    ![](assets/variable_mapping.png)
 
-1. 自動化された3つのパートナーセグメントの他に ****、「自分のセグメント」で自分のセグメントを選択できます。
-1. この統合では、Lyrisアカウントへのデータポイントのダウンロードが必要になる場合があります。 「アクセス要求」で、このアクセス権を付与するこ **[!UICONTROL とができます]**。
-1. 「デー **[!UICONTROL タ収集]**」では、自動化ソリューションまたは手動ソリューション（JavaScriptプラグイン）を選択して、ランディングページのURLからクエリ文字列パラメーターを収集できます。 自動ソリューションを選択する場合は、「メッセージID」と「受信者ID」にクエリ文字列パラメーターを入力します。 JavaScriptプラグインについては、アドビコンサルタントにお問い合わせください。
+1. 自動化された 3 つの Partner セグメントの他に「**[!UICONTROL セグメント]**」で自分のセグメントを選択することもできます。
+1. この統合では、いくつかのデータポイントを Lyris アカウントにダウンロードする必要が出る場合があります。「**[!UICONTROL アクセス要求]**」で、このアクセス権を付与することもできます。
+1. 「**[!UICONTROL データ収集]**」で、自動または手動のソリューション（JavaScript プラグイン）を選択し、ランディングページの URL からクエリー文字列パラメーターを収集します。自動ソリューションを選択する場合は、「メッセージ ID」と「受信者 ID」にクエリー文字列パラメーターを入力します。JavaScript プラグインについては、アドビコンサルタントにお問い合わせください。
 
    ![](assets/data_collection.png)
 
-1. Lyris Dashboardとブックマークを自動的に生成するように選択できます。
+1. Lyris ダッシュボードとブックマークを自動的に生成することもできます。
 
    ![](assets/dashboard_generation.png)
 
-1. 統合の概要を確認し、「アクティブ化」をクリ **[!UICONTROL ックしま]**す。
+1. 統合の概要を確認し、「**[!UICONTROL アクティブ化]**」をクリックします。
 
-## Lyris emailLabs内の設定{#configuration-within-the-lyris-emaillabs}
+## Lyris EmailLabs 内の設定 {#configuration-within-the-lyris-emaillabs}
 
-ウィザードの完了後にLyris内で設定する内容を説明する手順。
+ウィザードの完了後に Lyris 内で設定する内容を説明する手順。
 
-1. 統合ウィザードを完了したら、Lyris Professionalチームと協力して、Lyris HQアカウントとの統合を完了し、テストを容易に行う必要があります。
-1. URLクエリ文字列パラメーターの追加：URL付加文字列がユーザーインターフェイスの「組織設定」領域に正しく入力されていることを確認します。 キャンペーンレベルID(hq_m)と受信者レベルID(hq_v)を含める必要があります。
+1. 統合ウィザードを完了したら、Lyris Professional チームと協力して Lyris HQ アカウントとの統合を完了し、テストを容易に行う必要があります。
+1. URL クエリー文字列パラメーターの追加：ユーザーインターフェイスの「組織設定」領域に、URL 付加文字列が正しく入力されていることを確認します。キャンペーンレベル ID（hq_m）と受信者レベル ID（hq_v）を含める必要があります。
 
-   文字列IDの例を次に示します。
+   文字列 ID の例：
 
    ```
    hq_lid=149&hq_m=96843&hq_l=23&hq_v=7703a51905
@@ -64,29 +64,29 @@ source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
    >[!NOTE]
    >
-   >Lyrisのネイティブ解析ツールを適用する場合は、「 *Tracks* 」をクリックして、追加する必要なすべての変数をタグ付けします。
+   >Lyris のネイティブ分析ツールを適用する場合は、「*トラックをクリック*」をクリックして、追加する必要な変数すべてにタグ付けします。
 
-## 統合の確認{#verifying-the-integration}
+## 統合の確認 {#verifying-the-integration}
 
-Lyris/Adobe Analyticsの統合が成功したことを確認する手順です。
+Lyris／Adobe Analytics の統合が成功したことを確認する手順です。
 
-すべての導入手順が完了したら、統合が正常にデータを転送していることを検証できます。
+すべてのデプロイメント手順が完了したら、統合によってデータが正常に転送されていることを検証できます。
 
-> [!NOTE] データ交換が始まるまでに数日かかります。 統合をアクティブ化した後は、Lyrisにお問い合わせください。
+> [!NOTE]データ交換が始まるまでに数日かかります。統合をアクティブ化した後で、Lyris に連絡するようにしてください。
 
-1. Data Connectors内のLyris統合に移動します。 「 **[!UICONTROL Support]**」タブ/**[!UICONTROL  Integration Activity Logで、「]**Data imported successfully **[!UICONTROL /or Classification data imported]******successfully」などのイベントが表示されます。
+1. Data Connectors 内で Lyris 統合に移動します。「**[!UICONTROL サポート]**」タブ／**[!UICONTROL 統合アクティビティログ]**&#x200B;に、「**[!UICONTROL 指標データは正常にインポートされました]**」や「**[!UICONTROL 分類データは正常にインポートされました]**」などのイベントが表示されます。
 
    ![](assets/integration_info.png)
 
-1. Lyrisのメッセージレポートを適切な指標で表示します。 Adobe Experience cloudで、「 **[!UICONTROL Reports &amp; Analytics」を選択します]**。
+1. 適切な指標を使用して、Lyris メッセージレポートを表示します。Adobe Experience Cloud で、「**[!UICONTROL Reports &amp; Analytics]**」を選択します。
 1. 適切なレポートスイートを選択します。
-1. 「カスタ **[!UICONTROL ムコンバージョン]**」で、「**[!UICONTROL  Message ID Reports]** 」を選択し、「 **[!UICONTROL Message ID/Message Name」を選択します]**。
+1. 「**[!UICONTROL カスタムコンバージョン]**」で、「**[!UICONTROL メッセージ ID レポート]**」、「**[!UICONTROL メッセージ ID / メッセージ名]**」の順に選択します。
 
-## クエリー文字列パラメータープラグインコード{#query-string-param-plug-in-code}
+## クエリー文字列パラメータープラグインコード {#query-string-param-plug-in-code}
 
-Adobe Analyticsで使用するLyrisプラグインコードを表示します。
+Adobe Analytics で使用する Lyris プラグインコードを表示します。
 
-> [!NOTE] 以下のコードを使用する前に、必要なeVarをAdobe Analyticsの管理ツールで予約していることを確認してください。 予約したeVarを特定したら、eVarNを関連するeVarに置き換えます。 例：eVar10
+> [!NOTE]以下のコードを操作する前に、必要な eVar を Adobe Analytics の管理ツールで予約するようにしてください。予約した eVar を特定したら、eVarN を関連する eVar に置き換えます。例：eVar10
 
 ```
 /* 
