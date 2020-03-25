@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -35,7 +35,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
    + [トランザクションの統合と顧客の統合](c-data-sources/datasrc-integrating-offline-data.md)
    + [トランザクション ID と訪問者プロファイル](c-data-sources/datasrc-tid-visitor-profile.md)
    + [データソースに関する FAQ](c-data-sources/datasrc-faq.md)
-+ [Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)
++ [データ挿入 API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Analytics Data Connectors 使用の手引き](data-connectors/getting-started-data-connectors.md)
    + Adobe Analytics 用 appFigures Data Connector {#appfigures}
@@ -79,8 +79,8 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
       + [Adobe Analytics 用 DreamMail Data Connector](data-connectors/dreammail-overview/dreammail-overview.md)
       + [統合のアクティブ化](data-connectors/dreammail-overview/t-dreammail-activate.md)
       + [Analytics プラグインコード](data-connectors/dreammail-overview/dreammail-analytics-code.md)
-   + Adobe Analytics 用 Dynamic Signal voiceStorm Data Connector {#dynamicsignal}
-      + [Adobe Analytics 用 Dynamic Signal voiceStorm Data Connector](data-connectors/dynamic-signal-for-analytics/dynamic-signal-for-analytics.md)
+   + Adobe Analytics 用 Dynamic Signal VoiceStorm Data Connector {#dynamicsignal}
+      + [Adobe Analytics 用 Dynamic Signal VoiceStorm Data Connector](data-connectors/dynamic-signal-for-analytics/dynamic-signal-for-analytics.md)
       + [統合のデプロイ](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration.md)
       + [統合の使用](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration.md)
    + Adobe Analytics 用 Emarsys Data Connector {#emarsys}
