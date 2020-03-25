@@ -1,42 +1,42 @@
 ---
 description: 'null'
-title: Adobe Analytics用Kampyle Data Connector
+title: Adobe Analytics 用 Kampyle Data Connector
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Kampyle Data Connector for Adobe Analytics{#kampyle-data-connector-for-adobe-analytics}
+# Adobe Analytics 用 Kampyle Data Connector {#kampyle-data-connector-for-adobe-analytics}
 
-Kampyle Data Connector for Adobe Analyticsは、Kampyleの統合フィードバックシステムとAdobe Analytics®の行動レポートを組み合わせて、組織にとって強力な分析と最適化の機会を作り出します。
+Adobe Analytics 用 Kampyle Data Connector は、Kampyle の統合フィードバックシステムと Adobe Analytics® の行動レポートを組み合わせ、組織のための強力な分析と最適化の機会を作り出します。
 
-オンラインマーケターは、ブランド構築とビジネス成果の促進における顧客のフィードバックの関連性をますます認識し始めています。 Kampyle Data Connector for Adobe Analytics®は、訪問者のフィードバック指標およびディメンションをAdobe Analyticsに追加します。 これにより、訪問者の態度や意見に関する訪問者の行動を分析できます。 これにより、フィードバックに基づいて最適化し、コンバージョン率を向上させることができます。
+オンラインマーケティングの担当者は、ブランド構築とビジネス成果の促進における顧客のフィードバックの関連性に対する認識を深めつつあります。Adobe Analytics 用 Kampyle Data Connector では、訪問者のフィードバック指標とディメンションを Adobe Analytics に追加します。これによって、訪問者の行動と、訪問者の姿勢や意見の関係の関係を分析でき、フィードバックに基づいた最適化や、コンバージョン率の向上に役立てることができます。
 
-## 統合の前提条件{#integration-prerequisites}
+## 統合の前提条件 {#integration-prerequisites}
 
-Data Connectorをアクティブ化する前に考慮する必要がある前提条件です。
+Data Connector をアクティブ化する前に考慮する必要がある前提条件です。
 
 ### アドビのお客様向けの前提条件： {#section-d9c2e266931249e596de5f4406b5b6f0}
 
-* Adobe Analyticsの現在のお客様である必要があります。
-* 管理者ユーザーである必要があります。
-* レポートスイート内でeVar変数を1つ使用し、有効にする必要があります。
-* レポートスイート内に3つのカスタムイベントが使用可能で有効になっている必要があります(タイプ：カウンター)。
+* Adobe Analytics を現在ご利用中のお客様である。
+* 管理者ユーザーである。
+* レポートスイート内で 1 つの eVar 変数が使用可能かつ有効である。
+* レポートスイート内で 3 つのカスタムイベントが使用可能かつ有効である（タイプ：カウンター）。
 
-### Kampyle顧客の前提条件： {#section-4bbbca50e74d4f218414ae0cc535b8e9}
+### Kampyle 顧客の前提条件： {#section-4bbbca50e74d4f218414ae0cc535b8e9}
 
-* Kampyle for webサイトの現在の顧客である必要があります。
-* Data Connectorsを有効にする権限を持つAdobe Experience cloud管理者ユーザーである必要があります。
-* Kampyle Feedback form管理UIからKampyle秘密鍵を取得できる必要があります。
+* Web サイトで Kampyle を現在ご利用中のお客様である。
+* Data Connectors を有効にする権限を持つ Adobe Experience Cloud 管理者ユーザーである。
+* Kampyle フィードバックフォーム管理 UI から Kampyle 秘密鍵を取得できる。
 
-## Kampyle秘密鍵の取得{#retrieve-the-kampyle-private-key}
+## Kampyle 秘密鍵の取得 {#retrieve-the-kampyle-private-key}
 
-Kampyleインターフェイス内でキーを取得する手順です。
+Kampyle インターフェイス内でキーを取得する手順です。
 
-1. https://www.kampyle.com/loginでKampyleアカウントにログインし [ます](https://www.kampyle.com/login)。
-1. 左側のナビゲーションで、Feedback Form **[!UICONTROL /]** Feedback Form Customizationに移動します ****。
+1. [https://www.kampyle.com/login](https://www.kampyle.com/login) で Kampyle アカウントにログインします。
+1. 左側のナビゲーションで、**[!UICONTROL フィードバックフォーム]**／**[!UICONTROL フィードバックフォームのカスタマイズ]**&#x200B;に移動します。
 
    ![](assets/retrieve_key1.png)
 
