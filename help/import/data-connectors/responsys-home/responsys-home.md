@@ -1,39 +1,39 @@
 ---
 description: 'null'
-title: Adobe Analytics用Responsys Data Connector
+title: Adobe Analytics 用 Responsys Data Connector
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Responsys Data Connector for Adobe Analytics{#responsys-data-connector-for-adobe-analytics}
+# Adobe Analytics 用 Responsys Data Connector {#responsys-data-connector-for-adobe-analytics}
 
-Adobe Analyticsは、Responsys Interactを使用する電子メールマーケターに対して、様々な新しいターゲティング機会を提供します。 Adobe Analytics（旧称SiteCatalyst）が特定した動的マーケティングセグメントにタイムリーに関連する電子メールメッセージを配信することで、見込み客と現在の顧客の両方からのコンバージョンと売上高を増やすことができます。
+Adobe Analytics は、Responsys Interact を使用する電子メールマーケティング担当者に対して、新しいターゲティングの機会を多数提供します。Adobe Analytics（旧称 SiteCatalyst）が特定した動的マーケティングセグメントに対して、関連性の高い電子メールメッセージをタイムリーに配信すれば、見込み客と現在の顧客の両方でコンバージョンと売上高を増やすことができます。
 
-例えば、特定の製品を表示した訪問者や買い物かごを放棄した訪問者に電子メールでインセンティブを送信し、サイトに戻って購入を完了するよう促すことができます。 Reports &amp; AnalyticsとResponsys Interactの緊密な統合により、これらのリマーケティングキャンペーンの自動化、正確なターゲティング、クローズドループレポートが可能になり、Eメールマーケティングの効率が向上し、Webサイトのコンバージョン率が向上し、全体的なROIが計測可能になります。
+例えば、特定の製品を表示した訪問者や買い物かごを放棄した訪問者に電子メールでインセンティブを送信し、サイトに戻って購入を完了するよう促すことができます。Reports &amp; Analytics と Responsys Interact を緊密に統合することで、これらのリマーケティングキャンペーンの自動化、正確なターゲティング、クローズドループレポートが可能になります。これにより、E メールマーケティングの効率と Web サイトのコンバージョン率が向上し、全体的な ROI を計測できるようになります。
 
-## 主要なメリット{#key-benefits}
+## 主なメリット {#key-benefits}
 
-Adobe AnalyticsとResponsys Interactの統合の主な利点を示します。
+Adobe Analytics と Responsys の統合の主なメリットを示します。
 
-* 電子メールマーケティングおよび分析データを1つのレポートインターフェイスに統合します。
-* コンバージョンや売上高、サイトの成功への貢献度によって電子メールキャンペーンを最適化する。
-* 買い物かごの放棄、製品購入、製品表示、現在および過去のデータに基づいて、主要訪問者やマーケティングセグメントに再マーケティングします（有効化の90日前まで）。
+* 電子メールマーケティングデータと分析データを 1 つのレポートインターフェイスに統合します。
+* 売上高やサイトの成功へのコンバージョンや貢献度によって電子メールキャンペーンを最適化します。
+* 買い物かごの放棄、製品購入、製品表示、現在および過去のデータ（アクティブ化の最大 90 日前まで）に基づいて、主要訪問者やマーケティングセグメントへのリマーケティングをおこないます。
 
-## 統合の前提条件{#integration-prerequisites}
+## 統合の前提条件 {#integration-prerequisites}
 
-Adobe AnalyticsおよびResponsysのお客様の前提条件を示します。
+Adobe Analytics および Responsys のお客様の前提条件を示します。
 
-### アドビのお客様向けの前提条件 {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
+### アドビのお客様の前提条件 {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
 
-* Adobe Analyticsの現在のお客様である必要があります。
+* Adobe Analytics を現在ご利用中のお客様である。
 * 管理者権限が必要です。
-* レポートスイート内で2つのeVarが使用可能で有効である必要があります。
-* レポートスイート内で6つの使用可能な数値イベントが有効になっている必要があります。
+* レポートスイート内で 2 つの eVar が使用可能かつ有効である。
+* レポートスイート内で使用可能な数値イベント 6 つを有効にする。
 
-### Responsys顧客の前提条件 {#section-b04fa24f2b3a48178d914306f17917a0}
+### Responsys 顧客の前提条件 {#section-b04fa24f2b3a48178d914306f17917a0}
 
-* Responsysの現在の顧客である必要があります。
-* Interact Connect for Adobe Analyticsを購入済みである必要があります。
+* Responsys を現在ご利用中のお客様である。
+* Interact Connect for Adobe Analytics を購入済みである。
