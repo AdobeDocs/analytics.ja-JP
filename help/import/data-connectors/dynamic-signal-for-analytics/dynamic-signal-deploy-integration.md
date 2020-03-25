@@ -2,55 +2,55 @@
 description: 'null'
 title: 統合のデプロイ
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 統合のデプロイ{#deploying-the-integration}
+# 統合のデプロイ {#deploying-the-integration}
 
-この統合の展開は、Adobe統合ウィザードの完了と統合の検証から成る簡単なプロセスです。
+この統合のデプロイは、アドビの統合ウィザードの完了と統合の検証から成る簡単なプロセスです。
 
-## Adobe統合ウィザードの完了{#completing-the-adobe-integration-wizard}
+## アドビ統合ウィザードの完了 {#completing-the-adobe-integration-wizard}
 
-Data Connectorsインターフェイスで統合ウィザードを完了する手順です。
+Data Connectors インターフェイスで統合ウィザードを完了する手順です。
 
-1. Adobe Experience cloud内のData Connectors（旧称Genesis）領域に移動します。
-1. ダイナミックシグナル統合ウィザードを起動します。
+1. Adobe Experience Cloud 内の Data Connectors（旧称 Genesis）領域に移動します。
+1. Dynamic Signal 統合ウィザードを起動します。
 1. 目的のレポートスイートを選択し、統合の名前を指定します。
-1. 次の項目を設定します。
+1. 次のフィールドを設定します。
 
    | 項目 | 説明 |
    |---|---|
-   | 電子メールアドレス | 主連絡先の電子メールアドレス。 |
+   | 電子メール住所 | 主要連絡先の電子メールアドレス。 |
    | 説明 | （オプション）この統合設定の説明。 |
-   | コミュニティID | このIDは、動的シグナルの担当者から取得できます。 |
+   | コミュニティ ID | この ID は、Dynamic Signal の担当者から取得できます。 |
 
-1. 次の「 **[!UICONTROL Variable Mappings]** 」項目を設定します。
+1. 次の「**[!UICONTROL 変数マッピング]**」項目を設定します。
 
    | 項目 | 説明 |
    |---|---|
-   | トラッキングコード | 使用可能なeVar変数をレポートスイートから選択します。 |
+   | トラッキングコード | レポートスイートから使用可能な eVar 変数を選択します。 |
 
 1. この統合用に作成される分類を確認します。
-1. ダイナミックシグナル統合ダッシュボードを作成する場合は、このチェックボックスをオンにします（オプションですが、強くお勧めします）。
-1. すべての設定項目を確認し、「今すぐアクティブ化」 **[!UICONTROL をクリックしま]**&#x200B;す。
-1. **重要**:ウィザードが完了したら、ダイナミックシグナルの担当者に、VoiceStormプラットフォームで統合をアクティブにできるように通知する必要があります。
+1. Dynamic Signal 統合ダッシュボードを作成する場合は、このチェックボックスをオンにします（オプションですが、強く推奨します）。
+1. すべての設定項目を確認し、「**[!UICONTROL 今すぐアクティブ化]**」をクリックします。
+1. **重要**：ウィザードを完了したら、Dynamic Signal の担当者に通知し、VoiceStorm プラットフォームで統合をアクティブ化できるようにする必要があります。
 
-## 統合の確認{#verifying-the-integration}
+## 統合の確認 {#verifying-the-integration}
 
-Adobe Experience cloud内でDynamic Signal voiceStorm統合の設定を表示する手順
+Adobe Experience Cloud 内で Dynamic Signal VoiceStorm 統合の設定を表示する手順
 
-1. 統合アクティビティログで動的シグナル統合の設定を確認します。
-   1. Adobe Experience cloudで、サポート/統合アクティビティ **[!UICONTROL ログ]** に **[!UICONTROL 移動します]** 。
+1. 統合アクティビティログで Dynamic Signal 統合の設定を確認します。
+   1. Adobe Experience Cloud で、**[!UICONTROL サポート]**／**[!UICONTROL 統合アクティビティログ]**&#x200B;に移動します。
 
       ![](assets/integration_activity_log.png)
 
-   1. 「分類データが正常にインポ **[!UICONTROL ートされた」などのエントリを探します]**。 これらのエントリは、展開が成功してから24時間以内に表示されます。
-1. Adobe Analytics内で、Adobe Integrationウィザードを使用して自動的に作成されたダッシュボードを使用して動的シグナルレポートを確認します（手順7）。 または、Adobe Analyticsメニュー構造内の動的シグナルレポートに移動して、以下のスクリーンショットを参照します。
+   1. 「**[!UICONTROL 分類データは正常にインポートされました]**」などのエントリを探します。これらのエントリは、デプロイメントが成功してから 24 時間以内に表示されます。
+1. アドビ統合ウィザード（手順 7）で自動的に作成されたダッシュボードを使用して、Adobe Analytics 内で Dynamic Signal レポートを確認します。また、Adobe Analytics メニュー構造から Dynamic Signal レポートに移動することもできます。次のスクリーンショットを参照してください。
 
-   **注意**:このデータは、導入が成功してから24 ～ 48時間以内に表示されます。
+   **注意**：このデータは、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
 
    ![](assets/reporting.png)
 
