@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 訪問者 ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 汎用（トランザクション ID）カテゴリを選択して、訪問者 ID を統合することができます。
 
-See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
+[オフラインデータの統合](/help/import/c-data-sources/datasrc-integrating-offline-data.md)を参照してください。
 
 <p class="head"> <b>訪問者 ID のディメンション</b> </p>
 
@@ -25,8 +25,8 @@ See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-off
 | トラッキングコード | トラッキングコード名。 |
 | カテゴリ | カテゴリ名。カテゴリを指定する場合、製品も指定する必要があります。 |
 | チャネル | チャネル名。 |
-| eVarn | eVarn名。 n には 1～75 の整数を指定できます。 |
-| 製品      | 製品名。 |
+| eVarn | eVarn 名。n には 1～75 の整数を指定できます。 |
+| 製品 | 製品名。 |
 | 都道府県 | 都道府県名。 |
 | 郵便番号 | 郵便番号。 |
 
@@ -41,8 +41,8 @@ See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-off
 | 買い物かご表示 | 買い物かごの表示回数。 |
 | チェックアウト | チェックアウトの回数。 |
 | イベント n | イベント n が発生した回数。n には 1～100 の整数を指定できます。表示イベントを指定する場合、対応するデータディメンション（eVar）も指定する必要があります。例えば、eVar2 表示数を含める場合、eVar2 と値をリストに含める必要があります。 |
-| eVarnビュー | eVar n が表示された回数。n には 1～75 の整数を指定できます。 |
+| eVarn 表示 | eVar n が表示された回数。n には 1～75 の整数を指定できます。 |
 | 価格 | 製品の価格。 |
 | 注文件数 | 発注された回数。 |
-| 商品ビュー | 製品の表示回数。 |
+| 製品表示 | 製品の表示回数。 |
 | 数量 | 販売数。 |
