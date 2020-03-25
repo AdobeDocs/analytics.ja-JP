@@ -4,7 +4,7 @@ subtopic: Data sources
 title: データのタイプとカテゴリの概要
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 データソースのカテゴリは、提供する機能の類似性に基づいて様々なデータソースのタイプを識別します。
 
-カテゴリを使用すると、ユーザーの観点からデータソースをグループ化できます。 データソース UI からデータソースを作成する場合、まずデータソースのカテゴリを選択してから、データソースのタイプを指定します。各カテゴリに含まれるデータソースのタイプは、類似したタイプのデータをサポートしています。データソースには、次のようなデータソースのカテゴリがあります。
+カテゴリによって、ユーザーの視点でデータソースをグループ分けすることができます。データソース UI からデータソースを作成する場合、まずデータソースのカテゴリを選択してから、データソースのタイプを指定します。各カテゴリに含まれるデータソースのタイプは、類似したタイプのデータをサポートしています。データソースには、次のようなデータソースのカテゴリがあります。
 
 ## Web サイトの使用状況 {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -29,22 +29,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Web サーバーログファイル </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md"   > Web ログ </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md"   >Web ログ </a> </p> </td> 
    <td colname="col3"> <p>大部分の Web サーバーは、提供したすべてのページを記録するログファイルを生成しています。このデータソースを使用すると、大部分の Web サーバーデータからのログファイルを処理してレポートに追加することができます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Advertising cloudのバルクアップロード </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
-   <td colname="col3"> <p>Advertising cloudで手動およびExcelによるバルクアップロードを提供します。 </p> </td> 
+   <td colname="col1"> <p>Advertising Cloud のバルクアップロード </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
+   <td colname="col3"> <p>手動の、または Excel で自動化したバルクアップロードを Advertising Cloud で実行できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>サイトレベルのトラフィックデータソース </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md"   > トラフィック </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md"   >トラフィック</a> </p> </td> 
    <td colname="col3"> <p>Web サイト全体のトラフィックデータをインポートします。例えば、ページビュー数です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>分類トラフィックデータソース </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md"   > トラフィック </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md"   >トラフィック</a> </p> </td> 
    <td colname="col3"> <p>別の Web サイト変数で分類されたトラフィックデータをインポートします。例えば、製品別ページビュー数です。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,17 +63,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>汎用広告サーバー </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>広告サーバーの広告アクティビティのインプレッションおよびその他のトップライン指標をマーケティングレポート内に組み込むことができます。これは汎用の広告サーバーデータソースであり、特定の広告サーバーがサポートされていない場合に使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>汎用電子メールキャンペーンサーバー </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>電子メールキャンペーンサーバーにある指標をマーケティングレポート内に統合できます。 </p> <p>一般的に統合される指標は、送信されたメッセージ数、配信されたメッセージ数、読まれたメッセージ数などです。これは汎用の電子メールキャンペーンデータソースであり、特定の電子メールキャンペーンサーバーがサポートされていない場合に使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>汎用ペイパークリックサービス </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p> インプレッション、クリック数、コストなど、ペイパークリックの実績に関するデータをインポートできます。 </p> <p>これは汎用のペイパークリックデータソースであり、特定のペイパークリックサービスがサポートされていない場合に使用します。 </p> </td> 
   </tr> 
  </tbody> 
@@ -92,12 +92,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>汎用コールセンター </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>コールセンターに関する情報をマーケティングレポート内に組み込むことができます。比較的よくインポートされる指標として、通話回数、電話使用時間、エージェント名、合計販売額などがあります。 </p> <p>これは汎用のコールセンターデータソースであり、特定のコールセンターソフトウェアがサポートされていない場合に使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>汎用顧客サポート </p> <p>アプリケーション </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>カスタマーサポートソフトウェアに関する情報をマーケティングレポート内に組み込むことができます。新規サポート件数、解決したサポート件数、およびサポート解決の所要時間などの指標が含まれます。 </p> <p>これは汎用の顧客サポートデータソースであり、特定の顧客サービスアプリケーションがサポートされていない場合に使用します。 </p> </td> 
   </tr> 
  </tbody> 
@@ -116,7 +116,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>汎用調査データ </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>サードパーティのツールから得た調査結果をマーケティングレポート内に組み込むことができます。これにより、サイトでの顧客のインタラクションを基に顧客の全体的な満足度がわかります。 </p> <p>これは汎用の調査データソースであり、特定の調査データサービスがサポートされていない場合に使用します。 </p> </td> 
   </tr> 
  </tbody> 
@@ -135,7 +135,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>汎用サイトダウンロード速度 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>ダウンロードの速度を追跡するアプリケーションまたはサービスから得たデータを、利用しているデータに統合できます。 </p> <p>これは汎用のダウンロード速度データソースであり、特定のダウンロード速度測定ソフトウェアまたはサービスがサポートされていない場合に使用します。 </p> </td> 
   </tr> 
  </tbody> 
@@ -154,7 +154,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> <p>一般的なデータソース（サマリデータのみ） </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>このデータソースは、マーケティングレポートおよび Analytics にインポートするデータに近いタイプがない場合に使用します。 </p> </td> 
   </tr> 
   <tr> 
@@ -182,18 +182,18 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>製品      戻り値 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col1"> <p>製品戻り値 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>製品返却データをインポートして購入 ID に関連付けることによって、返品につながる可能性の高い検索エンジン、キーワード、キャンペーンなどの属性を特定することができます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>製品コスト </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>Web サイトから購入および発送された製品の実際のコストが得られます。コストまたは利益を各製品に関連付けることで、Web サイトで最も利益を上げたキャンペーン、キーワード、社内プロモーションに関して正確なレポートが得られるようになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>注文ステータス </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>指標を使用して、発注されたすべての注文のステータス（キャンセルされた注文、発送済みの注文、完了した注文、不正と見なされる注文など）を特定します。 </p> <p>注文ステータスレポートでは、注文完了率が最も高い獲得方法を特定できます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -212,17 +212,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>リードジェネレーション </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>Web サイトで発生したすべてのリードについて、実際に発生した売上高を含む、リード数の結果に関する情報をアップロードできます。 </p> <p>売上高をリード ID に正確に関連付けることで、最も利益を上げたキャンペーンとプロモーションを特定できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>オンラインの見積もり </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>Web サイトで発生したすべてのリードについて、実際に発生した売上高を含む、リード数の結果に関する情報をアップロードできます。 </p> <p>売上高をリード ID に正確に関連付けることで、最も利益を上げたキャンペーンとプロモーションを特定できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コールセンターデータ </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > コンバージョン </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
    <td colname="col3"> <p>コールセンタートランザクションをアップロードして、顧客の電話に結びついた方策（キャンペーンやプロモーションなど）を特定できます。 </p> </td> 
   </tr> 
  </tbody> 
