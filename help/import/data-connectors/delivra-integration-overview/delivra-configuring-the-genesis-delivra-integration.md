@@ -1,24 +1,24 @@
 ---
-description: Data Connectors統合ウィザードを実行してData Connectors統合を実装する前に必要なタスクと情報です。
-title: Data Connectors電子メール統合の準備
+description: Data Connectors 統合ウィザードを実行して Data Connectors の統合を実装する前に必要なタスクと情報です。
+title: Data Connectors 電子メール統合の準備
 uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Data Connectors電子メール統合の準備{#preparing-for-the-data-connectors-email-integration}
+# Data Connectors 電子メール統合の準備 {#preparing-for-the-data-connectors-email-integration}
 
-Data Connectors統合ウィザードを実行してData Connectors統合を実装する前に必要なタスクと情報です。
+Data Connectors 統合ウィザードを実行して Data Connectors の統合を実装する前に必要なタスクと情報です。
 
-Adobe Analytics®は、組織のオンライン戦略やマーケティングイニシアチブに関する実用的なリアルタイムの情報を提供します。 Analyticsは、Delivraと組み合わせて、行動ターゲティングに基づくリマーケティングを提供します。 DelivaとAnalyticsのWeb分析データをシームレスに統合し、Targetのマーケティングを改善し、キャンペーンの効果を把握します。
+Adobe Analytics® は、企業のオンライン戦略やマーケティング戦略に関する実用的なリアルタイムの情報を提供します。Analytics と Delivra を組み合わせることで、行動ターゲティングに基づいてマーケティングを提供します。Delivra と Adobe Analytics の Web 分析データをシームレスに統合し、ターゲットマーケティングを改善してキャンペーンの効果を把握します。
 
-電子メールアカウントに統合を設定する前に、次の設定を行う必要があります。
+電子メールアカウントで統合を設定する前に、以下をおこなう必要があります。
 
-* 統合操作に関する通知の受信に使用する電子メールアドレスを把握する。
-* アカウントID（Delivraによって組織に割り当てられた一意の識別子）を確認します。
-* 受信者ID/訪問者IDの取得に使用するカスタム変数を識別または作成します。
-* メッセージIDの取得に使用するカスタム変数（多くの場合はキャンペーン変数）を識別または作成します。
-* 追加の電子メールキャンペーンデータの収集に使用するカスタムイベントを特定し、有効にします。 この統合では、送信、配信済み、開封済み、クリック済み、未登録、合計バウンス、共有など、Delivraからのデータを保存するために複数のカスタムイベントを使用します。
+* 統合操作に関する通知の受信に使用する電子メールアドレスを確認する。
+* アカウント ID（Delivra によって組織に割り当てられた一意の識別子）を確認する。
+* 受信者 ID／訪問者 ID の取得に使用するカスタム変数を特定または作成する。
+* メッセージ IDの取得に使用するカスタム変数（多くの場合はキャンペーン変数）を特定または作成する。
+* 追加の電子メールキャンペーンデータの収集に使用するカスタムイベントを特定して有効にする。この統合では、複数のカスタムイベント（送信済み、配信済み、開封済み、クリック済み、登録解除、合計バウンス数、共有数）を使用して Delivra からデータを保存します。
 
