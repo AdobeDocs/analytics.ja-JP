@@ -1,16 +1,16 @@
 ---
-description: 'JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上のAnalyticsコードに追加します '
+description: 'JavaScript プラグインのデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上の Analytics コードに追加します '
 title: Analytics プラグインコード
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Analytics プラグインコード{#analytics-plug-in-code}
+# Analytics プラグインコード {#analytics-plug-in-code}
 
-JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上のAnalyticsコードに追加します。
+JavaScript プラグインのデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上の Analytics コードに追加します。
 
 `/*`
 
@@ -22,4 +22,4 @@ JavaScriptプラグインのデータ収集方法を選択した場合は、次�
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
-> [!NOTE] 上記のプラグインは、特定のカスタムコマース変数(eVar)が使用可能であることを前提としています。 上記のプラグインで指定した変数がAnalytics導入内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
+> [!NOTE]上記のプラグインは、特定のカスタムコマース変数（eVar）が使用可能であることを前提としています。上記のプラグインで指定した変数が Analytics 実装内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
