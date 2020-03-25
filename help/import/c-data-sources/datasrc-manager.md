@@ -4,7 +4,7 @@ subtopic: Data sources
 title: データソースマネージャー
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,15 +14,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 データソースの作成および管理を行い、レポートスイートでのデータソースの使用状況を表示します。
 
-**[!UICONTROL Analytics]** /管理 **[!UICONTROL 者]** /デ **[!UICONTROL ータソ]**&#x200B;ース。
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL データソース]**。
 
-## 「作成」タブ{#section_74603FDA3D8842E49F1A51624A06DE20}
+## 「作成」タブ {#section_74603FDA3D8842E49F1A51624A06DE20}
 
 [!UICONTROL 「作成」]タブでは、現在選択されているレポートスイートに対して新しいデータソースを設定できます。データソースをアクティブにすると、[!UICONTROL データソースウィザード]によってデータソーステンプレートを作成する処理が進められ、データをアップロードするための FTP の場所が作成されます。
 
-「作成」タブでの選択内容により、作成されるテンプレートの初期設定のフィールドが決まります。詳しくは、 [インポートファイルテンプレートの作成](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
+「作成」タブでの選択内容により、作成されるテンプレートの初期設定のフィールドが決まります。詳しくは、[インポートファイルテンプレートの作成](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)を参照してください。
 
-## 「管理」タブ{#section_DD559A6701CA45F1A85E56F840F48DBE}
+## 「管理」タブ {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
 <table id="table_F74696EC855441328CFE0BF49C20D9B0"> 
  <thead> 
@@ -34,11 +34,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>処理の再開 </p> </td> 
-   <td colname="col2"> <p>エラーや警告が原因で停止していたデータソースの処理を再開します。次のエラーが発生するまで処理は続行されます。データソースは、<span class="uicontrol">「エラー時に処理を中断する」</span>が選択された場合にのみ、データソースファイルの処理を停止します。 </p> </td> 
+   <td colname="col2"> <p>エラーや警告が原因で停止していたデータソースの処理を再開します。次のエラーが発生するまで処理は続行されます。データソースは、「<span class="uicontrol">エラー時に処理を中断する</span>」が選択された場合にのみ、データソースファイルの処理を停止します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理の完了 </p> </td> 
-   <td colname="col2"> <p>データソースファイル内で開いている訪問をすべて閉じるよう指示し、データソースファイルの処理が完了したかのように処理を終了します。複数のデータソースファイルにまたがる訪問がある場合に便利です。これは <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > フル処理</a>. </p> </td> 
+   <td colname="col2"> <p>データソースファイル内で開いている訪問をすべて閉じるよう指示し、データソースファイルの処理が完了したかのように処理を終了します。複数のデータソースファイルにまたがる訪問がある場合に便利です。これは<a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   >フル処理</a>にのみ適用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>非アクティブ化 </p> </td> 
@@ -46,7 +46,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>エラー時に処理を中断する／警告時に処理を中断する </p> </td> 
-   <td colname="col2"> <p> エラーの発生時に処理を停止するよう、データソース処理エンジンに指示します。「処理の再開」を選択するまで、データソースの処理は再開しません。警告時に処理を中断するオプションは、 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > フル処理</a>. </p> <p>ファイルエラーが検出されると、データソースによってエラーが通知されます。エラーのあるデータソースファイルは、FTP サーバー上の <span class="filepath">files_with_errors</span> というフォルダーに移動されます。問題を解決した後、処理を実行するためにデータソースファイルを再送信してください。 </p> </td> 
+   <td colname="col2"> <p> エラーの発生時に処理を停止するよう、データソース処理エンジンに指示します。「処理の再開」を選択するまで、データソースの処理は再開しません。警告時に処理を中断するオプションは、<a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   >フル処理</a>にのみ適用されます。 </p> <p>ファイルエラーが検出されると、データソースによってエラーが通知されます。エラーのあるデータソースファイルは、FTP サーバー上の <span class="filepath">files_with_errors</span> というフォルダーに移動されます。問題を解決した後、処理を実行するためにデータソースファイルを再送信してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>設定 </p> </td> 
@@ -64,7 +64,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col1"> <p>ステータス </p> </td> 
    <td colname="col2"> <p> ファイルの現在のステータス。可能なステータス値は次のとおりです。 </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">待機中（手順 1／3）：ファイルは存在しますが、処理が開始されていません。If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">待機中（手順 1／3）：ファイルは存在しますが、処理が開始されていません。ファイルが 30 分以内に表示されない場合は、関連する <span class="filepath">.fin</span> ファイルが存在することを確認してください。 </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">準備（手順 2／3）：ファイルはエラーや警告の確認中です。 </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">処理（手順 3／3）：ファイルは処理中です。 </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">失敗：エラーにより、ファイルは処理されませんでした。 </li> 
