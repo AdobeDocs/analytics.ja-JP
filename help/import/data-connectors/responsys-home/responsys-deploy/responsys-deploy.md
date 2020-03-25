@@ -2,55 +2,55 @@
 description: 'null'
 title: 統合のデプロイ
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 統合のデプロイ{#deploying-the-integration}
+# 統合のデプロイ {#deploying-the-integration}
 
-この統合の展開は、以下の操作を必要とする簡単なプロセスです。
+この統合のデプロイは、以下の操作を必要とする簡単なプロセスです。
 
-## Adobe統合ウィザードの完了{#completing-the-adobe-integration-wizard}
+## アドビ統合ウィザードの完了 {#completing-the-adobe-integration-wizard}
 
-Data Connectorsインターフェイスで統合ウィザードを完了する手順です。
+Data Connectors インターフェイスで統合ウィザードを完了する手順です。
 
-1. Adobe Experience cloud内のData Connectors（旧称Genesis）領域に移動します。
-1. Responsys統合ウィザードを起動します。
+1. Adobe Experience Cloud 内の Data Connectors（旧称 Genesis）領域に移動します。
+1. Responsys 統合ウィザードを起動します。
 1. 目的のレポートスイートを選択し、統合の名前を指定します。
-1. 次の項目を設定します。
+1. 次のフィールドを設定します。
 
    | 項目 | 説明 |
    |---|---|
-   | 電子メールアドレス | 主連絡先の電子メールアドレス |
+   | 電子メール住所 | 主要連絡先の電子メールアドレス |
    | 説明 | （オプション）この統合設定の説明 |
-   | アカウントID | support@responsys.comからResponsysサポートチームに連絡して入手 |
+   | アカウント ID | support@responsys.com から Responsys サポートチームに連絡して入手します |
 
-1. 次の「 **[!UICONTROL Variable Mappings]** 」項目を設定します。
+1. 次の「**[!UICONTROL 変数マッピング]**」項目を設定します。
 
    | 項目 | 説明 |
    |---|---|
-   | メッセージID | メッセージIDをリアルタイムで収集するeVarを選択します。 |
-   | 受信者 ID | 受信者IDをリアルタイムで収集するeVarを選択します。 |
-   | 合計バウンス数 | Responsysから日別のバウンスを受け取る数値イベントを選択します。 |
-   | 電子メール送信 | Responsysから毎日の送信を受信する数値イベントを選択します。 |
-   | クリック済み | Responsysから日別合計クリック数を受け取る数値イベントを選択します。 |
-   | 開封済み | Responsysから日別合計開封数を受け取る数値イベントを選択します。 |
-   | 登録解除 | Responsysから毎日購読解除を受け取る数値イベントを選択します。 |
-   | 配信済み | Responsysから日別配信を受け取る数値イベントを選択します。 |
+   | メッセージ ID | リアルタイムでメッセージ ID を収集する eVar を選択します。 |
+   | 受信者 ID | リアルタイムで受信者 ID を収集する eVar を選択します。 |
+   | バウンス数合計 | Responsys からの日別のバウンスを受け取る数値イベントを選択します。 |
+   | 送信済み電子メール | Responsys からの日別の送信数を受け取る数値イベントを選択します。 |
+   | クリック済み | Responsys からの日別の合計クリック数を受け取る数値イベントを選択します。 |
+   | 開封済み | Responsys からの日別の合計開封数を受け取る数値イベントを選択します。 |
+   | 登録解除 | Responsys からの日別の登録解除数を受け取る数値イベントを選択します。 |
+   | 配信済み | Responsys からの日別の配信数を受け取る数値イベントを選択します。 |
 
 1. データアクセスを有効にし、データ収集を設定します。
    1. 必要に応じて分類の名前を変更します。
-   1. **[!UICONTROL パートナーセグメント]** は、統合に含まれる標準のリマーケティングセグメントです。
-   1. 「アクセ **[!UICONTROL スリクエスト]**」で、製品情報をResponsysに毎日のリマーケティングセグメントでエクスポートできるようにするチェックボックスをオンにします。
-   1. IDを収集するかどうかは、Analyticsコレクションコードを手動で更新するか、自動化ソリューションを使用して設定します。 「 **[!UICONTROL Automated Solution]**」を選択した場合は、IDを渡すために電子メールリンクで使用するパラメーターを含める必要があります。
-1. すべての設定項目を確認し、「今すぐアクティブ化」 **[!UICONTROL をクリックしま]**&#x200B;す。
+   1. **[!UICONTROL Partner セグメント]**&#x200B;は、統合に含まれる標準のリマーケティングセグメントです。
+   1. 「**[!UICONTROL アクセス要求]**」から、日別のリマーケティングセグメントで製品情報を Responsys に書き出しできるようにするチェックボックスをオンにします。
+   1. ID を収集するかどうかは、Analytics コレクションコードを手動で更新するか、自動ソリューションを使用して設定します。「**[!UICONTROL 自動ソリューション]**」を選択した場合は、電子メールリンクで ID を渡すために使用するパラメーターを含める必要があります。
+1. すべての設定項目を確認し、「**[!UICONTROL 今すぐアクティブ化]**」をクリックします。
 
-## 応答システム内での設定{#configuring-within-the-responsys-system}
+## Responsys システム内での設定 {#configuring-within-the-responsys-system}
 
-統合のアクティブ化には、Responsysサポートに問い合わせる必要があります。
+統合をアクティブ化するには、Responsys サポートへの連絡が必要になります。
 
-統合ウィザードを完了したら、Responsys内で統合をアクティブ化する必要があります。
+統合ウィザードを完了したら、Responsys 内で統合をアクティブ化する必要があります。
 
-その場合は、support@responsys.comでResponsysサポートチームにお問い合わせください。
+その場合は、support@responsys.com で Responsys サポートチームにお問い合わせください。
