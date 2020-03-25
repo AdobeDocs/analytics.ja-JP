@@ -1,18 +1,18 @@
 ---
-description: 以下のコードを操作する前に、必要なeVarをAdobe Analyticsの管理ツールで予約します。
-title: クエリ文字列パラメータープラグインコード
+description: 以下のコードを操作する前に、必要な eVar を Adobe Analytics の管理ツールで予約します。
+title: クエリー文字列パラメータープラグインコード
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# クエリ文字列パラメータープラグインコード{#query-string-param-plug-in-code}
+# クエリー文字列パラメータープラグインコード {#query-string-param-plug-in-code}
 
-以下のコードを操作する前に、必要なeVarをAdobe Analyticsの管理ツールで予約します。
+以下のコードを操作する前に、必要な eVar を Adobe Analytics の管理ツールで予約します。
 
-予約したeVarがわかったら、eVarNをeVar10などの関連するeVarに置き換えます。
+予約した eVar を特定したら、eVarN を関連する eVar（eVar10 など）に置き換えます。
 
 ```
 /* 
