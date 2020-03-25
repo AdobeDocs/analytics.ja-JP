@@ -2,34 +2,34 @@
 description: 'null'
 title: 統合の使用
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 統合の使用{#using-the-integration}
+# 統合の使用 {#using-the-integration}
 
-導入後は、この統合で提供される追加機能の使用を開始できます。 以下は、Adobe Analytics内からこの統合から価値を得るために実行するアクションです。
+デプロイ後は、この統合で提供されている追加機能を使用できるようになります。以下は、Adobe Analytics 内でこの統合を活用するために実行するアクションです。
 
-> [!NOTE] Adobe Analyticsレポート内でKampyle応答データが表示され始めるまでに24 ～ 48時間かかる場合があります。
+> [!NOTE]Adobe Analytics レポート内で Kampyle 応答データが表示され始めるまでに 24 ～ 48 時間かかる場合があります。
 
-## フィードバックとオンサイトの行動データの混在{#mix-feedback-and-onsite-behavior-data}
+## フィードバックとオンサイトの行動データの混在 {#mix-feedback-and-onsite-behavior-data}
 
-Reports &amp; Analyticsレポートをフィードバックディメンションで分類できます。
+Reports &amp; Analytics レポートをフィードバックディメンション別に分類できます。
 
-Adobe Reports &amp; Analyticsを使用すると、レポートで使用できる多数のフィードバックディメンションを掘り下げて調べることができます。 以下のレポートは、特定のフィードバックカテゴリにドリルし、フィードバックの説明で分類した例です。 Reports &amp; Analytics（訪問回数および顧客サービスの問い合わせ）とKampyle（平均フィードバックグレード）の両方の指標が並べて表示され、分析が容易になります。
+Adobe Reports &amp; Analytics を使用し、レポートで使用できる多数のフィードバックディメンションを掘り下げて調べることができます。以下のレポートは、特定のフィードバックカテゴリ別に掘り下げ、フィードバックの説明で分類した例です。Reports &amp; Analytics（訪問回数および顧客サービスの問い合わせ）と Kampyle（平均フィードバックグレード）の両方の指標が並べて表示され、分析が容易になります。
 
 ![](assets/feedback_category_report.png)
 
-## フィードバックディメンション別のセグメント{#segment-by-feedback-dimension}
+## フィードバックディメンション別のセグメント {#segment-by-feedback-dimension}
 
 フィードバックのディメンションに基づいてセグメントを作成できます。
 
-この統合の主な機能は、Kampyleフィードバックディメンションに基づいてAdobe Analyticsセグメントを作成できることです。 例えば、1または2のグレードが与えられた訪問のみを含むセグメントを作成できます。 これを「フィードバックグレード — 低」と呼ぶこともできます。 このセグメント定義は次のようになります。
+この統合の主な特長は、Kampyle フィードバックディメンションに基づいて Adobe Analytics セグメントを作成できる機能です。例えば、グレード 1 または 2 が与えられた訪問のみを含むセグメントを作成できます。これに「フィードバックグレード - 低」という名前を付けることができます。このセグメントの定義は次のようになります。
 
 ![](assets/segment_feedback.png)
 
-このセグメントは、実際にはどのレポートにも適用できます。例えば、ここに示す訪問別滞在時間レポートなどです。
+このセグメントは、ほぼすべてのレポートに適用できます。例として、ここに示す訪問別滞在時間レポートなどがあります。
 
 ![](assets/time_spent_per_visit.png)
