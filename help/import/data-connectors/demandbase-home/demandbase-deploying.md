@@ -1,25 +1,25 @@
 ---
-description: この統合の展開は、以下の操作を必要とする簡単なプロセスです。
+description: この統合のデプロイは、以下の操作を必要とする簡単なプロセスです。
 title: 統合のデプロイ
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 統合のデプロイ{#deploying-the-integration}
+# 統合のデプロイ {#deploying-the-integration}
 
-この統合の展開は、以下の操作を必要とする簡単なプロセスです。
+この統合のデプロイは、以下の操作を必要とする簡単なプロセスです。
 
-## Adobe統合ウィザードの完了{#completing-the-adobe-integration-wizard}
+## アドビ統合ウィザードの完了 {#completing-the-adobe-integration-wizard}
 
-統合をアクティブ化するには、Data Connectorsインターフェイス内の設定ウィザードを完了する必要があります。
+統合をアクティブ化するには、Data Connectors インターフェイス内で設定ウィザードを完了する必要があります。
 
-1. Adobe Experience cloud内のData Connectors（旧称Genesis）領域に移動します。
-1. Demandbase 2.0統合ウィザードを起動します。
+1. Adobe Experience Cloud 内の Data Connectors（旧称 Genesis）領域に移動します。
+1. Demandbase 2.0 統合ウィザードを起動します。
 1. 目的のレポートスイートを選択し、統合の名前を指定します。
-1. 次の項目を設定します。
+1. 次のフィールドを設定します。
 
 <table id="table_8D60DC7C48C144DC9934749E7F9F65FF"> 
  <thead> 
@@ -30,24 +30,24 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 電子メールアドレス </td> 
-   <td colname="col2"> 主連絡先の電子メールアドレス。 </td> 
+   <td colname="col1"> 電子メール住所 </td> 
+   <td colname="col2"> 主要連絡先の電子メールアドレス。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 説明 </td> 
    <td colname="col2"> （オプション）この統合設定の説明。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Demandbase APIキー </td> 
-   <td colname="col2"> これは、Demandbaseの担当者から入手できます。 </td> 
+   <td colname="col1"> Demandbase API キー </td> 
+   <td colname="col2"> Demandbase の担当者から入手できます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> カスタムDemandbaseディメンション#N </td> 
-   <td colname="col2"> これらは、8つのオプションディメンションのIDです。 詳細は、「Demandbaseカスタムディメンション」を参照してください。 </td> 
+   <td colname="col1"> カスタム Demandbase ディメンション #N </td> 
+   <td colname="col2"> 8 つのオプションディメンション用の ID があります。詳細は、「Demandbase カスタムディメンション」を参照してください。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Adobe targetに送信 </td> 
-   <td colname="col2">「true」の場合、Demandbaseディメンションは、非表示のmboxを使用してAdobe targetにも送信されます。 <p>注意： ディメンションを収集するには、設定済みのmbox.jsファイルをWebページに実装する必要があります。 </p> </td> 
+   <td colname="col1"> Adobe Target に送信 </td> 
+   <td colname="col2">「true」の場合、Demandbase ディメンションは、非表示の mbox を使用して Adobe Target にも送信されます。 <p>注意：ディメンションを収集するには、設定済みの mbox.js ファイルを Web ページに実装する必要があります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,41 +56,41 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    | 項目 | 説明 |
    |---|---|
-   | Demandbaseディメンション | 使用可能なeVar変数をレポートスイートから選択します。 |
-   | Demandbaseカスタムディメンション（オプション） | 使用可能なeVar変数をレポートスイートから選択します。 |
+   | Demandbase ディメンション | 使用可能な eVar 変数をレポートスイートから選択します。 |
+   | Demandbase カスタムディメンション（オプション） | 使用可能な eVar 変数をレポートスイートから選択します。 |
 
 1. カスタムディメンションの名前を設定します（該当する場合）。
 
-   1. 手順4でカスタムディメンションを含め、手順5でオプションのeVarをマッピングした場合は、これらのディメンションにわかりやすい名前を付ける必要があります。 例えば、「stock_ticker」をカスタムディメンション1として入力する場合は、「ディメンション1」を含むボックスを「Stock Ticker」に変更する必要があります。
-   1. 標 **準** 8のディメンションの名前（Demandbase SID、会社名、業種など）は変更しないでください。
+   1. 手順 4 でカスタムディメンションを含め、手順 5 でオプションの eVar をマッピングした場合は、これらのディメンションにわかりやすい名前を付ける必要があります。例えば、カスタムディメンション 1 に「stock_ticker」と入力する場合は、「ディメンション1」を含むボックスを「株式情報」に変更する必要があります。
+   1. 8 つの標準ディメンションの名前（Demandbase SID、会社名、業種など）は変更&#x200B;**しないでください**。
 
-1. Demandbase統合ダッシュボードを自動的に作成する場合は、このチェックボックスをオンにします（推奨）。
-1. すべての設定項目を確認し、「今すぐアクティブ化」 **[!UICONTROL をクリックしま]**&#x200B;す。
+1. Demandbase 統合ダッシュボードを自動的に作成する場合は、このチェックボックスをオンにします（推奨）。
+1. すべての設定項目を確認し、「**[!UICONTROL 今すぐアクティブ化]**」をクリックします。
 
-## 統合コードのデプロイ{#deploying-the-integration-code}
+## 統合コードのデプロイ {#deploying-the-integration-code}
 
-統合ウィザードを完了したら、統合コードをAdobe Analytics導入コード(s_code)に導入する必要があります。
+統合ウィザードを完了したら、統合コードを Adobe Analytics デプロイメントコード（s_code）にデプロイする必要があります。
 
-> [!NOTE] Adobe tagManagerまたはDynamic Tag Managementを使用してAdobe Analyticsを導入した場合は、これらのツールのいずれかを使用して統合コードを簡単に追加できます。
+> [!NOTE]Adobe TagManager または Dynamic Tag Management を使用して Adobe Analytics を実装する場合は、これらのツールのいずれかを使用して統合コードを簡単に追加できます。
 
-1. 「サポート」タブ **[!UICONTROL に移動し]** 、統合の「リソース」 `integration code v2_0_1` 領域からリソースをダウンロードして保存します。
+1. 「**[!UICONTROL サポート]**」タブに移動し、統合のリソース領域から `integration code v2_0_1` リソースをダウンロードして保存します。
 
-1. 必要に応じて、コードに必要な変更を加えます。 詳しくは、「統合コードの変更」（このページ）を参照してください。
-1. 統合モジュールがAdobe Analytics導入コードにまだ存在しない場合は、このモジュールを含めます。
+1. 必要に応じて、コードに必要な変更を加えます。詳しくは、「統合コードの変更」（このページ）を参照してください。
+1. Adobe Analytics デプロイメントコードにまだ統合モジュールが存在しない場合は、この統合モジュールを含めます。
 1. 次のいずれかの方法を使用してコードをデプロイします。
 
-   * Adobe tagManagerまたはDynamic Tag Managementを使用してコードを追加します。
-   * または、Adobe Analytics導入コードの更新を担当する組織のリソースにコードを配信します。
+   * Adobe TagManager または Dynamic Tag Management を使用してコードを追加します。
+   * または、Adobe Analytics デプロイメントコードの更新を担当する組織のリソースにコードを配信します。
 
 >[!IMPORTANT]
 >
->この統合を実稼働環境にデプロイする前に、開発/ステージング環境でこの統合のデプロイメントをテストしてください。
+>この統合のデプロイメントを本番環境にデプロイする前に、開発／ステージング環境でテストしてください。
 
-## 統合コードの変更{#modifying-the-integration-code}
+## 統合コードの変更 {#modifying-the-integration-code}
 
-ほとんどの場合、Data Connectorウィザードで生成される統合コードを変更する必要はありません。
+ほとんどの場合、Data Connector ウィザードで生成される統合コードを変更する必要はありません。
 
-ただし、調整が必要な場合は、以下にコード設定の一部を示します。
+ただし、調整が必要な場合は、以下に示すコード設定を利用できます。
 
 <table id="table_5405A73CEFD44466B3C39559F4A037C9"> 
  <thead> 
@@ -102,103 +102,103 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> s.maxDelay </td> 
-   <td colname="col2">Adobe Analyticsイメージリクエストが、Analytics収集サーバーに対して実行される前にDemandbaseデータを待機する時間（ミリ秒）の最大値です。 <p>注意： この設定は、統合モジュールを使用して実行されているすべての統合に適用されます。 </p> </td> 
+   <td colname="col2">Adobe Analytics イメージリクエストが、Analytics コレクションサーバーに対して実行する前に Demandbase データを待機する時間（ミリ秒）の最大値です。 <p>注意：この設定は、Integrate モジュールを通じて実行する可能性がある、すべての統合に適用されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_key </td> 
-   <td colname="col2"> Demandbase APIキー。 </td> 
+   <td colname="col1"> _db._key </td> 
+   <td colname="col2"> Demandbase API キー。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_apiURL </td> 
-   <td colname="col2"> Demandbase APIのURLテンプレート。 </td> 
+   <td colname="col1"> _db._apiURL </td> 
+   <td colname="col2"> Demandbase API の URL テンプレート。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_delim </td> 
-   <td colname="col2"> Adobe Analyticsに送信されるDemandbaseディメンション値を区切るために使用される区切り文字です。 この設定を変更すると、デフォルトの分類ルールが正しく機能しない場合があります。 </td> 
+   <td colname="col1"> _db._delim </td> 
+   <td colname="col2"> Adobe Analytics に送信する際に Demandbaseディメンション値に使用する区切り文字です。この設定を変更すると、デフォルトの分類ルールが正しく機能しない場合があります。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_setTnt </td> 
-   <td colname="col2">trueの場合、統合コードは、非表示のmboxを使用して、DemandbaseディメンションをプロファイルパラメーターとしてAdobe targetに送信しようとします。 <p>注意： これには、mbox.jsコードがページに存在する必要があります。 </p> </td> 
+   <td colname="col1"> _db._setTnt </td> 
+   <td colname="col2">true の場合、統合コードは、非表示の mbox を使用して、Demandbase ディメンションをプロファイルパラメーターとして Adobe Target に送信しようとします。 <p>注意：これには、mbox.js コードがページ上に存在する必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_tntVarPrefix </td> 
-   <td colname="col2"> この文字列は、Adobe targetに送信する前に、各Demandbaseディメンション名の前に付加されます。 例えば、この設定の値が「db_」の場合、ディメンション「industry」は「db_industry」としてAdobe targetに送信されます。 </td> 
+   <td colname="col1"> _db._tntVarPrefix </td> 
+   <td colname="col2"> この文字列は、Adobe Target に送信する前に、各 Demandbase ディメンション名の前に追加されます。例えば、この設定の値が「db_」の場合、ディメンション「industry」は「db_industry」として Adobe Target に送信されます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_dimensionsArray </td> 
-   <td colname="col2"> Adobe Analyticsに送信される標準のDemandbaseディメンションです。 この設定は変更しないことをお勧めします。 「max_size」プロパティは、切り捨てが発生する前にディメンションで許可される文字の数です。 </td> 
+   <td colname="col1"> _db._dimensionsArray </td> 
+   <td colname="col2"> Adobe Analytics に送信される標準の Demandbase ディメンションです。この設定は変更しないことをお勧めします。「max_size」プロパティは、切り捨てが発生する前にディメンションで使用できる文字の数です。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_dimensionsArrayCustom </td> 
-   <td colname="col2"> Adobe Analyticsに送信されるカスタムDemandbaseディメンション。 「max_size」プロパティは、切り捨てが発生する前にディメンションで許可される文字の数です。 </td> 
+   <td colname="col1"> _db._dimensionsArrayCustom </td> 
+   <td colname="col2"> Adobe Analytics に送信されるカスタムの Demandbase ディメンションです。「max_size」プロパティは、切り捨てが発生する前にディメンションで使用できる文字の数です。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_cName </td> 
-   <td colname="col2"> Demandbase API通信の状態を維持するために使用するセッションcookieの名前。 </td> 
+   <td colname="col1"> _db._cName </td> 
+   <td colname="col2"> Demandbase API 通信の状態を維持するために使用するセッション cookie の名前。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_contextName </td> 
-   <td colname="col2"> 標準ディメンションをAdobe Analyticsに送信するために使用されるcontextData変数の名前。 この設定は変更しないことをお勧めします。 </td> 
+   <td colname="col1"> _db._contextName </td> 
+   <td colname="col2"> 標準ディメンションを Adobe Analytics に送信するために使用される contextData 変数の名前。この設定は変更しないことをお勧めします。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db_contextNameCustom </td> 
-   <td colname="col2"> Adobe Analyticsにカスタムディメンションを送信するために使用されるcontextData変数の名前。 この設定は変更しないことをお勧めします。 </td> 
+   <td colname="col1"> _db._contextNameCustom </td> 
+   <td colname="col2"> カスタムディメンションを Adobe Analytics に送信するために使用される contextData 変数の名前。この設定は変更しないことをお勧めします。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 統合モジュールの追加{#including-the-integrate-module}
+## Integrate モジュールの追加 {#including-the-integrate-module}
 
-統合コードを使用するには、Adobe Analytics導入内に統合モジュールが存在する必要があります。
+統合コードを使用するには、Adobe Analytics デプロイメント内に Integrae モジュールが存在する必要があります。
 
-導入の一部として統合モジュールをまだお持ちでない場合は、導入のタイプに応じて、次の手順を実行してください。
+デプロイメントの一部として Integrate モジュールをまだお持ちでない場合は、実装のタイプに応じて、次の手順を実行してください。
 
-### AppMeasurement v1.0以降の場合 {#section-f28d090bf2404cabaae34cd9c66fc575}
+### AppMeasurement v1.0 以降の場合 {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. **[!UICONTROL Analytics]** /管理者/CodeManagerからダウンロードしたAppMeasurementのzipファイル **[!UICONTROL を解凍し]** ます ****。
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL CodeManager]** からダウンロードできる AppMeasurement zip ファイルを展開します。
 
-1. という名前のファイルを開きま [!DNL AppMeasurement_Module_Integrate.js]す。
-1. このファイルの内容をコピーして、プライマリファイルに貼り付 [!DNL AppMeasurement.js] けます。
+1. [!DNL AppMeasurement_Module_Integrate.js] という名前のファイルを開きます。
+1. このファイルの内容をコピーして、プライマリ [!DNL AppMeasurement.js] ファイルに貼り付けます。
 
    >[!NOTE]
    >
-   >ファイル内のDO NOT ALTER ANYTHING BELOW THIS LINEコメントの直前に貼り付けます。
+   >ファイル内の「DO NOT ALTER ANYTHING BELOW THIS LINE」というコメントの直前に貼り付けます。
 
-### レガシーコード（Hコード）の場合 {#section-bba8ad8c715e4f97883e7de3269f681a}
+### レガシーコード（H コード）の場合 {#section-bba8ad8c715e4f97883e7de3269f681a}
 
-1. Data Connectors UIの「リソース」領域（「サポート」タブの下）からIntegrateモジュールをダウンロードします。
+1. Data Connectors UI の「リソース」領域（「サポート」タブの下）から Integrate モジュールをダウンロードします。
 
    ![](assets/h_code.png)
 
-1. そのファイルの内容をコピーして、ファイルに貼り付 [!DNL s_code] けます。
+1. そのファイルの内容をコピーして、[!DNL s_code] ファイルに貼り付けます。
 
    >[!NOTE]
    >
-   >ファイル内のDO NOT ALTER ANYTHING BELOW THIS LINEコメントの直前に貼り付けます。
+   >ファイル内の「DO NOT ALTER ANYTHING BELOW THIS LINE」というコメントの直前に貼り付けます。
 
-## 統合の確認{#verifying-the-integration}
+## 統合の確認 {#verifying-the-integration}
 
-ライブトラッキングとレポートをチェックして、統合がデータを正常に取得していることを検証します。
+ライブトラッキングとレポートをチェックし、統合によってデータが正常に取得されたことを確認します。
 
 ### ライブトラッキング {#section-9c20e8ff6b404ae09387ee07d675c9e2}
 
-DigitalPulse Debuggerツールを使用して、DemandbaseディメンションデータがAdobe Analytics経由で送信されることを確認します。 Cookieを削除した後、統合コードが導入されているWebサイトのページをリロードします。 現在のIPがDemandbaseで認識される組織にマップされている場合、次のような結果が表示されます。
+DigitalPulse デバッガーツールを使用して、Demandbase ディメンションデータが Adobe Analytics 経由で送信されることを確認します。Cookie を削除した後、統合コードが導入されている Web サイトのページをリロードします。現在の IP が Demandbase によって認識される組織にマッピングされている場合、次のような結果が表示されます。
 
-**Reports &amp; Analytics（旧称SiteCatalyst）には、次の2つのDemandbaseコンテキストデータ変数が含まれています。**
+**Reports &amp; Analytics（旧称 SiteCatalyst）には、次の 2 つの Demandbase コンテキストデータ変数が含まれています。**
 
 ![](assets/debugger1.png)
 
-**** Target mboxには、次のDemandbaseプロファイルパラメーターが含まれます。これは、ページにTargetを実装し、この統合をAdobe target用に設定している場合にのみ表示されます。Adobe統合ウィザードの手順4を参照してください。
+**Target Mbox には、Demandbase プロファイルパラメーターを含める：**&#x200B;ページに Target を実装し、この統合を Adobe Target 用に設定している場合にのみ表示されます。アドビ統合ウィザードの手順 4 を参照してください。
 
 ![](assets/debugger2.png)
 
 ### レポート {#section-1792fe75dc3249d0ad063dfd87a89162}
 
-Adobe統合ウィザード（手順7）を使用して自動的に作成されたダッシュボードを使用して、Adobe Analytics内でDemandbaseレポートを確認します。
+アドビ統合ウィザード（手順 7）で自動的に作成されたダッシュボードを使用して、Adobe Analytics 内で Demandbase レポートを確認します。
 
-または、Adobe Analyticsのメニュー構造内でDemandbaseレポートに移動し、以下のスクリーンショットを参照します。
+または、Adobe Analytics のメニュー構造内で Demandbase レポートに移動できます（以下のスクリーンショットを参照）。
 
-> [!NOTE] このデータは、導入が成功してから24 ～ 48時間以内に表示されます。
+> [!NOTE]このデータは、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
 
 ![](assets/reporting1.png)
 
@@ -206,18 +206,18 @@ Adobe統合ウィザード（手順7）を使用して自動的に作成され�
 
 ### よくある質問 {#section-d926b160a2ef4f07b43ea1bc67ac2a0a}
 
-**「該当な[し]」とは**
+**「[該当なし]」とは何ですか。**
 
-Demandbaseデータコネクタは、このデフォルト値を設定することで、属性が「使用不可」であることを示します。 デフォルトが設定される一般的なシナリオは2つあります。
+Demandbase Data Connectors は、このデフォルト値を設定することで属性が「使用不可」となったタイミングを示します。デフォルトが設定される一般的なシナリオは 2 つあります。
 
-* Demandbaseは、訪問者が会社に属していないIPアドレスから来ていることを検出します。
-* アカウント監視属性（「watch_list」で始まる）が使用されますが、会社がアカウント監視リストに含まれていません。
+* Demandbase が、会社に所属していない IP ドレスからの訪問者を検出する。
+* アカウント監視属性（「watch_list」で始まる）が使用されているが、その会社がアカウント監視リストに含まれていない。
 
-**特定の属性に対して「`[n/a]`」がより頻繁に表示されるのはなぜですか。**
+**特定の属性に対し、「`[n/a]`」が他よりも頻繁に表示されるのはなぜですか。**
 
-Demandbaseは、すべてのIPアドレスを分類し、訪問者が会社のIPアドレスから来ていない場合でもaudienceおよびaudience_segment属性を提供します。 オーディエンスが「Residential」、「Wireless」、「Pospitary」などの値を返した場合、残りの属性は使用できない可能性があります。
+Demandbase は、すべての IP アドレスを分類し、訪問者が会社の IP アドレスから来ていない場合でも audience および audience_segment 属性を提供します。オーディエンスが「Residential」、「Wireless」、「Pospitary」などの値を返した場合、残りの属性は使用できない可能性があります。
 
-訪問者のオーディエンスが「SMB」になる場合がありますが、他の属性では「`[n/a]`」と表示されます。 つまり、Demandbaseでは訪問者をスモールビジネスとして分類できますが、会社のプロファイル全体は使用できません。 これは通常、複数の小規模企業が同じサービスプロバイダーまたはIPアドレスのブロックを使用している場合に、小規模な企業で発生します。
+訪問者のオーディエンスが「SMB」となっていても、他の属性では「`[n/a]`」と表示される場合があります。つまり、Demandbase では訪問者を中小企業に分類できますが、会社のプロファイル全体は使用できません。これは通常、複数の中小企業が同じサービスプロバイダーまたは IP アドレスのブロックを使用している場合に、小規模な企業で発生します。
 
 ### 開発者向けの考慮事項 {#section-d33fff55bc4b4db99f82dee418ef1bc2}
 
