@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 要件とアップロードに関する制限
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,9 +32,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 現在または過去の日付があるデータのみをインポートできます。データソースのデータには未来の日付を使用しないでください。
 * レポートのグラフ機能を有効にするために、すべての行に日付を指定する必要があります。日付を含まない行がある場合、データソースでエラーが発生しファイルが拒否されます。日付および時刻のフォーマットは、データソースのタイプによって次のように異なります。
 
-   * **フル処理データソース**:ISO 8601の日付形式(例： `YYYY-MM-DDThh:mm:ss±UTC_offset``2013-09-01T12:00:00-07:00`)またはUnixの時間形式（1970年1月1日から経過した秒数）を使用します。
+   * **フル処理データソース**&#x200B;では、`YYYY-MM-DDThh:mm:ss±UTC_offset` という ISO 8601 の日付フォーマット（例：`2013-09-01T12:00:00-07:00`）、または Unix の時刻フォーマット（1970 年 1 月 1 日から経過した秒数）を使用します。
 
-   * **標準および統合データソース**:次の日付形式を使用します。 `MM/DD/YYYY/HH/mm/SS` (例 `01/01/2013/06/00/00`:
+   * **標準および統合データソース**&#x200B;では、`MM/DD/YYYY/HH/mm/SS` の日付フォーマットを使用します（例：`01/01/2013/06/00/00`）。
 
 ## 一般 {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
@@ -57,15 +57,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>対応。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  >新しいレポートスイート</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>サポート対象。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/new_report_suite.html"  >新しいレポートスイート</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> バイトオーダーマーク付きの UTF-8（EF BB BF） </td> 
-   <td colname="col2"> <p>対応。このフォーマットは標準ではありませんが、多くの Windows アプリケーションでの保存時にこのフォーマットが使用されます。 </p> <p>例えば、ワードパッドで「UTF-8」を選択すると、このフォーマットで保存されます。 </p> </td> 
+   <td colname="col2"> <p>サポート対象。このフォーマットは標準ではありませんが、多くの Windows アプリケーションでの保存時にこのフォーマットが使用されます。 </p> <p>例えば、ワードパッドで「UTF-8」を選択すると、このフォーマットで保存されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ISO-8859-1（Latin-1 または Windows-1252） </td> 
-   <td colname="col2"> 対応。Microsoft Excel で「タブ区切り」のエクスポートを選択すると、このフォーマットで保存されます。レポートスイートでは ISO-8859-1 のロケールを使用する必要があります。 </td> 
+   <td colname="col2"> サポート対象。Microsoft Excel で「タブ区切り」のエクスポートを選択すると、このフォーマットで保存されます。レポートスイートでは ISO-8859-1 のロケールを使用する必要があります。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> バイトオーダーマーク付きの UTF-16 リトルエンディアン（FF FE） </td> 
@@ -77,7 +77,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> バイトオーダーマークなしの UTF-16 </td> 
-   <td colname="col2"> 非対応。 </td> 
+   <td colname="col2"> サポート対象外。 </td> 
   </tr> 
  </tbody> 
 </table>
