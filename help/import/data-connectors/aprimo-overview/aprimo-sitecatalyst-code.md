@@ -1,8 +1,8 @@
 ---
-description: JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーし、ページ上のAdobe Analyticsコードに追加します。
+description: JavaScript プラグインのデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上の Adobe Analytics コードに追加します
 title: Adobe Analytics プラグインコード
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 # Adobe Analytics プラグインコード {#adobe-analytics-plug-in-code}
 
-JavaScriptプラグインのデータ収集方法を選択した場合は、次のコード行をコピーし、ページ上のAdobe Analyticsコードに追加します。
+JavaScript プラグインのデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上の Adobe Analytics コードに追加します
 
 `/*`
 
@@ -26,5 +26,5 @@ JavaScriptプラグインのデータ収集方法を選択した場合は、次�
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
-> [!NOTE] 上記のプラグインは、特定のカスタムコマース変数(eVar)が使用可能であることを前提としています。 上記のプラグインで指定した変数がAdobe Analyticsのデプロイメント内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
+> [!NOTE]上記のプラグインは、特定のカスタムコマース変数（eVar）が使用可能であることを前提としています。上記のプラグインで指定した変数が Adobe Analytics 実装内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
 
