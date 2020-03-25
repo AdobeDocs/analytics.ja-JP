@@ -4,7 +4,7 @@ subtopic: Data sources
 title: トランザクションの統合と顧客の統合
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # トランザクションの統合と顧客の統合
 
-データソースには、オフラインで発生するイベントをオンラインデータに統合する方法がさらに2つ用意されています。
+データソースには、オフラインで発生するイベントをオンラインデータに統合する方法がさらに 2 つ用意されています。
 
 * [トランザクション ID の記録の有効化](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [トランザクションの統合](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -24,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 トランザクション ID は、ClientCare にお問い合わせいただかなくても、UI で次の手順を実行して有効／無効にできます。
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL [[レポートスイートを選択]]]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 一般的なアカウント設定]**&#x200B;に移動します。
 
 <!-- 
 
@@ -36,7 +36,7 @@ Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONT
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+トランザクション ID の記録が有効かどうかを確認するには、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL データソース]**&#x200B;に移動します。
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -49,7 +49,7 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 * 顧客 ID が&#x200B;*`visitorID`* 変数にも取り込まれます。
 * 顧客のアクティビティがオフラインに移行する（リードの送信、購入など）明確な時点が存在しない。
 
-このタイプのデータソースを設定するには、次を参照してください。 [訪問者 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+このタイプのデータソースを設定するには、次を参照してください。[訪問者 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## トランザクションの統合 {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
@@ -65,4 +65,4 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 これは、トランザクション ID データが訪問とは関連付けられておらず（通常、オフラインイベントはオンラインイベントに含まれないため）、訪問者と関連付けられているからです。
 
-参照： [トランザクション ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+参照：[トランザクション ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
