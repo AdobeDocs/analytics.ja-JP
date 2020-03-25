@@ -1,70 +1,70 @@
 ---
-description: 次の指標は、appFigures統合の一部として同期されます。
+description: 次の指標は、appFigures 統合の一環として同期されます。
 title: 指標およびディメンション
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 指標およびディメンション{#metrics-and-dimensions}
+# 指標およびディメンション {#metrics-and-dimensions}
 
-次の指標は、appFigures統合の一部として同期されます。
+次の指標は、appFigures 統合の一環として同期されます。
 
 | 指標 | 説明 |
 |---|---|
-| App Store でのダウンロード数 | モバイルアプリケーションダウンロード数。 |
-| App Storeでの購入（アプリ内） | アプリ内課金の数。 |
-| App Store ランク | 平均appFigures計算指標を定義するために使用します。 直接使用されません。 |
-| App Store Rank Divisor | 平均appFigures計算指標を定義するために使用します。 直接使用されません。 |
-| App Store 評価 | 平均appFigures計算指標を定義するために使用します。 直接使用されません。 |
-| App Store 評価の基準値 | 平均appFigures計算指標を定義するために使用します。 直接使用されません。 |
-| App storeの売上高（アプリ内） | アプリ内での売上金額。 |
-| App storeの売上高（1回限り） | アプリの購入に関連付けられた売上金額。 |
-| App Storeのロイヤルティ（アプリ内） | 非推奨です。 |
-| App Storeのロイヤルティ（1回限り） | 非推奨です。 |
+| アプリストアでのダウンロード数 | モバイルアプリケーションダウンロード数。 |
+| アプリストアでの購入（アプリ内） | アプリ内での購入数。 |
+| アプリストアランク | 平均 appFigures 計算指標の定義に使用します。直接は使用しません。 |
+| アプリストアランクの約数 | 平均 appFigures 計算指標の定義に使用します。直接は使用しません。 |
+| アプリストアの評価 | 平均 appFigures 計算指標の定義に使用します。直接は使用しません。 |
+| アプリストアの評価の約数 | 平均 appFigures 計算指標の定義に使用します。直接は使用しません。 |
+| アプリストアの売上高（アプリ内） | アプリ内での売上金額。 |
+| アプリストアの売上高（1 回限り） | アプリの購入に関連付けられた売上金額。 |
+| アプリストアのロイヤルティ（アプリ内） | 非推奨です。 |
+| アプリストアのロイヤルティ（1 回限り） | 非推奨です。 |
 
-Data ConnectorsウィザードでAppFiguresオブジェクトIDの予約済みeVarに対して、次の予約済みの分類ディメンションが作成されます。
+Data Connectors ウィザードで AppFigures オブジェクト ID の予約済み eVar に対して、次の予約済みの分類ディメンションが作成されます。
 
 | 分類ディメンション | 説明 |
 |---|---|
-| 国名 | アプリストア活動に関連する国の名前。 |
+| 国名 | アプリストアアクティビティに関連する国の名前。 |
 | デバイス名 | アプリストアアクティビティに関連するモバイルデバイスの名前。 |
-| Appstore名 | アクティビティをレポートしたアプリストアの名前。 |
+| アプリストア名 | アクティビティをレポートしたアプリストアの名前。 |
 | アプリ名 | モバイルアプリケーションの名前。 |
-| アプリ内名 | 申込書内で購入された品目。 |
+| アプリ内の名前 | アプリケーション内で購入した項目。 |
 | カテゴリ名 | アプリストア内のアプリのプライマリカテゴリ。 |
 | レビュータイトル | レビューのタイトル。 |
 | レビューコメント | レビューのコメント |
-| Application Version | レビューの生成に使用されたアプリケーションのバージョン。 |
-| App Store ユーザー | レビューの作成者（ユーザー名）。 |
+| アプリケーションのバージョン | レビューの生成に使用されたアプリケーションのバージョン。 |
+| アプリストアのユーザー | レビューの作成者（ユーザー名）。 |
 
-次の計算指標は、Data Connectorsウィザードで作成されます。
+次の計算指標は、Data Connectors ウィザードで作成されます。
 
 | 計算指標 | 説明 |
 |--- |--- |
-| App storeの平均ランク（数値） | アプリの平均ランク。 この計算指標は、次の数式を使用して定義します。  `[App Store Rank]` / `[App Store Rank Divisor]`<br> 注： 各カテゴリと国でランク付けされた申し込み件数は、アプリストアによって異なります。 アプリがこのしきい値より低いランクに設定されている場合、アプリのランクは使用できません。 |
-| アプリストア評価平均 | アプリの評価の平均。 This calculated metric is defined using the following formula:  `[App Store Rating]` / `[App Store Rating Divisor]` |
+| アプリストアの平均ランク（数値） | アプリケーションの平均ランク。この計算指標は、数式 `[App Store Rank]` / `[App Store Rank Divisor]` を使用して定義されます。<br>注：各カテゴリと国でランク付けされるアプリケーションの件数は、アプリストアによって異なります。アップリケーションのランクがこのしきい値より低い場合、アプリケーションのランクは使用できません。 |
+| アプリストアの評価平均 | アプリケーションの評価の平均。この計算指標は、式 `[App Store Rating]` / `[App Store Rating Divisor]` を使用して計算されます。 |
 
-## 各AppFigures指標の関連ディメンション {#section-cd356d3dce04412893beed345305c247}
+## 各 AppFigures 指標の関連ディメンション {#section-cd356d3dce04412893beed345305c247}
 
-次の表に、どの指標に関連するレポートディメンションを示します。
+次の表は、どのレポートディメンションがどの指標と関連しているかを示しています。
 
 <table id="table_B9CF57EABE22449FBF1963E3F105E702"> 
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> App Storeのダウンロード </td> 
-   <td> App Storeでの購入（アプリ内） </td> 
-   <td> App Store ランク </td> 
-   <td> App Store Rank Divisor </td> 
-   <td> App Store 評価 </td> 
-   <td> App Store 評価の基準値 </td> 
-   <td> App storeの売上高（アプリ内） </td> 
-   <td> App storeの売上高（1回限り） </td> 
-   <td> App Store 平均ランク </td> 
-   <td> App Store 平均評価 </td> 
+   <td> アプリストアでのダウンロード数 </td> 
+   <td> アプリストアでの購入（アプリ内） </td> 
+   <td> アプリストアランク </td> 
+   <td> アプリストアランクの約数 </td> 
+   <td> アプリストアの評価 </td> 
+   <td> アプリストアの評価の約数 </td> 
+   <td> アプリストアの売上高（アプリ内） </td> 
+   <td> アプリストアの売上高（1 回限り） </td> 
+   <td> アプリストア平均ランク </td> 
+   <td> アプリストア平均評価 </td> 
   </tr> 
   <tr> 
    <td> 国名 </td> 
@@ -93,7 +93,7 @@ Data ConnectorsウィザードでAppFiguresオブジェクトIDの予約済みeV
    <td> <p> <img id="image_6E5B220C71CD47CEBB9CE65FB42CC692" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Appstore名 </td> 
+   <td> アプリストア名 </td> 
    <td> <p> <img id="image_B0382AE2E0A44D8BBB373E95061C96B7" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_653EE4DADF644E329EB948051AF511CC" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_16E4236EAAC64FC4872603974E61417B" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
@@ -119,7 +119,7 @@ Data ConnectorsウィザードでAppFiguresオブジェクトIDの予約済みeV
    <td> <p> <img id="image_A3ABC80FB852406D9593F89DE7C3DBFD" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> アプリ内名 </td> 
+   <td> アプリ内の名前 </td> 
    <td> <p> <img id="image_4BC8937C23A24BDCB760841BF8C02E29" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_68B43745C8284A44BA589825CAC9DABE" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_A107ECAE1D154976A2FF9A8AB5746377" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
@@ -197,7 +197,7 @@ Data ConnectorsウィザードでAppFiguresオブジェクトIDの予約済みeV
    <td> <p> <img id="image_58044643FFD44CD1A31370F1D41DEEE3" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> App Store ユーザー </td> 
+   <td> アプリストアのユーザー </td> 
    <td> <p> <img id="image_9B14F4DC100644AFB2BA201C1BD09BD7" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_EDF0CCE6E744429EB5E2C7A0DC8893EC" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_2CCE0C5058BE4919A8FC5989D83D9121" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
