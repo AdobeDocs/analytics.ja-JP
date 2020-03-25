@@ -4,7 +4,7 @@ subtopic: Data sources
 title: フル処理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 フル処理データソースのデータは個別の訪問者プロファイルを使用して処理されるので、たとえアップロードされたデータ内の訪問者 ID が JavaScript やその他の AppMeasurement ライブラリを使用して収集されたデータと一致しても、eVar の割り当てに関しては訪問者プロファイルが関連付けられることはありません。
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. 後で同じ訪問者 ID を使用してトランザクションをアップロードした場合、"Spring Sale" キャンペーンは、フル処理データソースを使用してアップロードされたどのような売上イベントや成功イベントに対するクレジットも受け取ることはありません。
+例えば、「`"user@example.com"`」という訪問者 ID を持つユーザーが、キャンペーン変数に格納されている、「Spring Sale」（スプリングセール）と名付けられたマーケティングキャンペーンを通してサイトを訪問したとします。後で同じ訪問者 ID を使用してトランザクションをアップロードした場合、「Spring Sale」キャンペーンは、フル処理データソースを使用してアップロードされたどのような売上イベントや成功イベントに対するクレジットも受け取ることはありません。
 
 ## 列リファレンス {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -53,18 +53,18 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>日付 </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col3"> <p><code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> という ISO 8601 の日付フォーマット（例：<code> 2013-09-01T12:00:00-07:00 </code>）、または Unix の時刻フォーマット（1970 年 1 月 1 日からの経過秒数）を使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>（例：&lt;eVar2&gt;…&lt;/eVar2&gt;） </p> </td> 
-   <td colname="col3"> <p>コンバージョン eVar 名。最大 75 個の eVar（ <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>eVar 名（eVar12 など）や、わかりやすい名前（Ad Campaign 3 など）を指定できます。 </p> </td> 
+   <td colname="col3"> <p>コンバージョン eVar 名。最大 75 個の eVar（<span class="varname"> eVar1 </span> ～ <span class="varname"> eVar75 </span>）。 </p> <p>eVar 名（eVar12 など）や、わかりやすい名前（Ad Campaign 3 など）を指定できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>例： </p> 
+   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -72,7 +72,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>（例：&lt;hier2&gt;…&lt;/hier2&gt;） </p> </td> 
-   <td colname="col3"> <p>階層名。最大 5 つの階層を使用できます（ <span class="varname"> hier1</span> ～ <span class="varname">hier5 </span>). </p> <p>デフォルトの階層名（「<span class="varname">hier2</span>」）や、わかりやすい名前（「<span class="term">Yankees</span>」）を指定できます。 </p> </td> 
+   <td colname="col3"> <p>階層名。最大 5 つの階層を使用できます（<span class="varname"> hier1</span> ～ <span class="varname">hier5 </span>)。 </p> <p>デフォルトの階層名（「<span class="varname">hier2</span>」）や、わかりやすい名前（「<span class="term">Yankees</span>」）を指定できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -107,17 +107,17 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>ページURL(例： <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>ページ URL（例：<code>https://www.mysite.com/index.html)</code>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>製品リスト（例：<code> "Sports;Ball;1;5.95") </code>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 ～ prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>（例：&lt;prop2&gt;…&lt;/prop2&gt;） </p> </td> 
-   <td colname="col3"> <p>プロパティ番号の文字列（例： <span class="term"> スポーツセクション </span>). </p> </td> 
+   <td colname="col3"> <p>プロパティ番号の文字列（例：<span class="term">スポーツセクション </span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -199,7 +199,7 @@ JavaScript ライブラリを使用したときに自動的に入力されるト
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>訪問者の接続タイプ（<span class="term"> lan </span>または<span class="term"> modem </span>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
