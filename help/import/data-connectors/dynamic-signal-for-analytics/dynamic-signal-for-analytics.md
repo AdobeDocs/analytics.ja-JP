@@ -1,38 +1,38 @@
 ---
 description: 'null'
-title: Adobe Analytics用Dynamic Signal voiceStorm Data Connector
+title: Adobe Analytics 用 Dynamic Signal VoiceStorm Data Connector
 uuid: 270b33f5-ea9f-4ab3-ba3e-de41a9e6ff7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Adobe Analytics用Dynamic Signal voiceStorm Data Connector{#dynamic-signal-voicestorm-data-connector-for-adobe-analytics}
+# Adobe Analytics 用 Dynamic Signal VoiceStorm Data Connector {#dynamic-signal-voicestorm-data-connector-for-adobe-analytics}
 
-このAdobe® Data Connectors統合は、Dynamic Signal voiceStormプラットフォームの人力によるマーケティング機能と、Adobe Analyticsのデジタルエクスペリエンスのインサイトを組み合わせたものです。 その結果、新しい強力な分析と最適化のオポチュニティが生まれます。
+この Adobe® Data Connectors 統合では、Dynamic Signal VoiceStorm プラットフォームの人力によるマーケティング機能と、Adobe Analytics によるデジタルエクスペリエンスのインサイトを組み合わせます。その結果、強力な新しい分析の機会と最適化の機会が生まれます。
 
-従業員や顧客がVoiceStormを通じてブランドを宣伝すると、所有するWebエクスペリエンスに結果がもたらされます。 Adobe Analyticsの統合された追跡とレポートソリューションを使用して、これらのアクティビティの向上を測定できるようになりました。
+貴社の従業員や顧客が VoiceStorm を通じてブランドを宣伝すれば、Web エクスペリエンスでの結果につながります。Adobe Analytics では、追跡とレポートを統合したソリューションを通じて、これらのアクティビティの向上を測定できるようになりました。
 
-## 主なメリットと機能{#key-benefits-and-features}
+## 主なメリットと機能 {#key-benefits-and-features}
 
-Dynamic Signal voiceStormのメリットの上位3つの概要を説明します。
+Dynamic Signal VoiceStorm のメリットの上位 3 つの概要を示します。
 
-* VoiceStormを通じて共有されるコンテンツの自動トラッキングコード生成によるワークフローの簡素化。
-* Adobe Analyticsとの間でVoiceStormコンテンツのディメンションを毎日自動的に同期します。
-* どのコンテンツ、発言者、共有者が貴社のブランドを積極的に宣伝しているかに直接関連付けられた新しいトラフィックおよびコンバージョンレポート。
+* VoiceStorm で共有されるコンテンツのトラッキングコードを自動生成することで、ワークフローを簡素化しました。
+* Adobe Analytics との間で VoiceStorm コンテンツのディメンションを毎日自動的に同期します。
+* 新しいトラフィックレポートとコンバージョンレポートで、貴社のブランドを積極的に宣伝しているコンテンツ、作成者、共有者の直接的な関連性を示します。
 
-## 統合の前提条件{#integration-prerequisites}
+## 統合の前提条件 {#integration-prerequisites}
 
-アドビおよびDynamic Signalのお客様の前提条件を示します。
+アドビおよび Dynamic Signal のお客様の前提条件を示します。
 
-### アドビのお客様向けの前提条件 {#section-b8a0b4f9b41649a68513f80397fb10e0}
+### アドビのお客様の前提条件 {#section-b8a0b4f9b41649a68513f80397fb10e0}
 
-* Adobe Analyticsの現在のお客様である必要があります。
-* Data Connectorsを有効にする権限を持つAdobe Experience cloud管理者ユーザーである必要があります。
-* レポートスイート内でeVar変数を少なくとも1つ使用し、有効にする必要があります。
+* Adobe Analytics を現在ご利用中のお客様である。
+* Data Connectors を有効にする権限を持つ Adobe Experience Cloud 管理者ユーザーである。
+* レポートスイート内で 1 つ以上の eVar 変数が使用可能かつ有効になっている。
 
-### 動的シグナル顧客の前提条件 {#section-468ccc1d532e4e738c9e610650ad3fff}
+### Dynamic Signal のお客様の前提条件 {#section-468ccc1d532e4e738c9e610650ad3fff}
 
-* 現在のVoiceStorm顧客である必要があります。
-* 有効なVoiceStormコミュニティIDが必要です。
+* VoiceStorm を現在ご利用中のお客様である。
+* 有効な VoiceStorm コミュニティ ID を持っている。
