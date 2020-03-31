@@ -1,8 +1,8 @@
 ---
 title: 起動データ要素のAnalytics変数へのマッピング
-description: Analytics変数にデータ要素を割り当てて、Analysis Workspaceでディメンションとして使用できるようにします。
+description: データ要素をAnalytics変数に割り当て、Analytics Workspaceでディメンションとして使用できるようにします。
 translation-type: tm+mt
-source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
+source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ---
 
@@ -15,11 +15,11 @@ Adobe Experience Platform Launchでデータ要素のリポジトリを取得し
 
 [データレイヤーオブジェクトのデータ要素へのマップ](layer-to-elements.md):「起動」のデータ要素と、操作する必要のある要素がいくつかあることを確認します。
 
-[ソリューションデザインドキュメントの作成](../prepare/solution-design.md):ソリューションデザインドキュメントは、整理を維持するために不可欠です。 ソリューションデザインドキュメントに従うと、Analytics変数へのデータ要素の割り当てが簡単になります。
+[ソリューションデザインドキュメント](../prepare/solution-design.md):ソリューション設計ドキュメントは、整理を維持するために不可欠です。 ソリューションデザインドキュメントに従うと、Analytics変数へのデータ要素の割り当てが簡単になります。
 
 ## Analytics変数へのデータ要素の割り当て
 
-次の手順に従った後、起動でライブラリを公開すると、Analysis Workspaceでカスタムディメンションを使用できます。 Analytics変数は、グローバルに、または個々のルール内に設定できます。
+次の手順に従った後で起動でライブラリを公開すると、Launch Workspaceでカスタムディメンションを分析できます。 Analytics変数は、グローバルに、または個々のルール内に設定できます。
 
 ### グローバル変数の設定
 
@@ -38,8 +38,8 @@ Adobe Experience Platform Launchでデータ要素のリポジトリを取得し
 1. 目的の「起動」プロパティをクリックします。
 1. タブをクリ [!UICONTROL Rules] ックし、目的のルールをクリックします（または作成します）。
 1. の下のボタンをク [!UICONTROL Add] リックしま [!UICONTROL Actions]す。
-1. ドロップダ [!UICONTROL Extension] ウンをAdobe Analyticsに、変数を設定 [!UICONTROL Action Type] に設定します。
-1. 目的のAnalytics変 [!D数の右に](assets/data-element.png) 、データ要素アイコンをクリックします。 組織のソリューションデザ [インドキュメントは](../prepare/solution-design.md) 、使用するAnalytics変数を指示します。
+1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. 目的のAnalytics変 ![数の右に](assets/data-element.png) 、データ要素アイコンをクリックします。 組織のソリューションデザ [インドキュメント](../prepare/solution-design.md) （Analytics変数）は、どの変数を使用するかを指定します。
 1. モーダルウィンドウで目的のデータ要素を選択します。 クリック [!UICONTROL Select].
 1. データ要素名は、記号で囲まれたテキストフィールドに追加さ `%` れます。 例えば、データ要素に「Page name」という名前を付けた場合、変数にデータ要素を割り当てる `%Page name%` ときに文字列が表示されます。
 
@@ -47,6 +47,6 @@ Adobe Experience Platform Launchでデータ要素のリポジトリを取得し
 
 ## 次の手順
 
-[ページ変数](../vars/page-vars/page-variables.md):Analysis Workspaceでディメンションをより多く活用するために、実装で使用できるページレベルの変数について説明します。
+[ページ変数](../vars/page-vars/page-variables.md):実装で使用できるページレベルの変数を説明し、Workspaceのディメンションをさらに活用します。分析
 
 [設定変数](../vars/config-vars/configuration-variables.md):Adobe Analyticsの他の機能のロックを解除するために、実装で使用できる設定変数について説明します。
