@@ -1,8 +1,8 @@
 ---
 title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
-translation-type: ht
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+translation-type: tm+mt
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
@@ -15,12 +15,12 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 ## Adobe Experience Platform Launch の「トラッキングサーバー」
 
-「トラッキングサーバー」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
+Tracking Server is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
-4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL トラッキングサーバー]」フィールドが表示されます。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. アコーディオ [!UICONTROL General] ンを展開すると、フィールドが表示 [!UICONTROL Tracking Server] されます。
 
 このフィールドを空白のままにすると、デフォルトでは `[rsid].112.2o7.net` になります。
 
@@ -36,7 +36,7 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 ### ファーストパーティ Cookie
 
-ファーストパーティ Cookie の実装を使用する場合、組織内の任意のユーザーが既にファーストパーティ Cookie のプロセスを完了している可能性があります。ファーストパーティ Cookie のプロセスについて詳しくは、『コアサービスユーザーガイド』の [Experience Cloud でのファーストパーティ Cookie](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html) を参照してください。
+ファーストパーティ Cookie の実装を使用する場合、組織内の任意のユーザーが既にファーストパーティ Cookie のプロセスを完了している可能性があります。ファーストパーティ Cookie のプロセスについて詳しくは、『コアサービスユーザーガイド』の [Experience Cloud でのファーストパーティ Cookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) を参照してください。
 
 実装でファーストパーティ Cookie を初期設定するユーザーも、使用するドメインとサブドメインを定義します。次に例を示します。
 
@@ -57,3 +57,5 @@ s.trackingServer = "example.sc.omtrdc.net";
 ```
 
 Adobe Analytics を使用する別の組織では採用されないような、組織に固有のサブドメインを選択します。組織内のすべての実装で同じトラッキングサーバーを使用していることを確認します。[ソリューション設計ドキュメント](../../prepare/solution-design.md)でこの情報を維持すると役立つ場合があります。
+
+> [!NOTE] より深いサブドメインは使用しないでくださ `example.sc.omtrdc.net`い。 例えば、は有効 `custom.example.sc.omtrdc.net` なトラッキングサーバーではありません。
