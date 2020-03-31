@@ -2,39 +2,41 @@
 title: eVar
 description: 実装で使用できるカスタム変数。
 translation-type: tm+mt
-source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
 # eVar
 
-eVarは、好きなだけ使用できるカスタム変数です。
+*このヘルプページでは、eVarの実装方法を説明します。 eVarがディメンションとしてどのように機能するかについて詳しくは、コンポーネ[ントユーザ](../../../components/c-variables/dimensionslist/reports-conversion.md)ーガイドのeVarを参照してください。*
 
-> [!TIP] ほとんどの場合、propよりもeVarを使用することをお勧めします。 以前のバージョンのAdobe Analyticsでは、propとeVarは互いに利点と欠点がありました。 ただし、アドビではeVarを改善し、propのほとんどすべての使用例を満たすようにしました。
+eVar は、好きなだけ使用できるカスタム変数です。
 
-各eVarとそのロジックの使用方法を必ずソリューションデザインドキュメントに記 [録してください](../../prepare/solution-design.md)。
+> [!TIP] ほとんどの場合、prop よりも eVar を使用することをお勧めします。以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、アドビでは eVar を改善し、prop のほとんどすべての使用例を満たすようにしました。
 
-## レポートスイート設定でのeVarの設定
+各 eVar とそのロジックの使用方法を必ず[ソリューションデザインドキュメント](../../prepare/solution-design.md)に記録してください。
 
-実装でeVarを使用する前に、各eVarをレポートスイートの設定で設定してください。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+## レポートスイート設定での eVar の設定
 
-## Adobe Experience Platform LaunchのeVar
+実装で eVar を使用する前に、各 eVar をレポートスイートの設定で設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
-eVarは、Analytics拡張の設定時（グローバル変数）またはルールの下で設定できます。
+## Adobe Experience Platform Launch の eVar
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+eVar は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
+
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. 「ルール」タブ [!UICONTROL に移動し] 、目的のルールをクリックします（またはルールを作成します）。
-4. 「アク [!UICONTROL ション]」で、既存の [!UICONTROL Adobe Analytics — 変数の設定アクションをクリックするか] 、「+」アイコンをクリックします。
-5. 「拡張」ド [!UICONTROL ロップダウンを] 「Adobe Analytics」に設定し、「アクシ [!UICONTROL ョンタイプ] 」を「変数 [!UICONTROL を設定」に設定します]。
-6. eVarsセクション [!UICONTROL を見つけます] 。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. で、既 [!UICONTROL Actions]存のアクションをク [!UICONTROL Adobe Analytics - Set Variables] リックするか、「+」アイコンをクリックします。
+5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、を「に」に設 [!UICONTROL Action Type] 定しま [!UICONTROL Set Variables]す。
+6. Locate the [!UICONTROL eVars] section.
 
-eVarを選択して、値またはデータ要素を設定できます。 別のAnalytics変数から値をコピーすることもできます。
+eVar を選択して、値またはデータ要素を設定できます。別の Analytics 変数から値をコピーすることもできます。
 
-## AppMeasurementおよび起動のカスタムコードエディターでのs.eVar1 ～ s.eVar250
+## AppMeasurement および Launch カスタムコードエディターの s.eVar1～s.eVar250
 
-各eVarは、組織に固有のカスタム値を含む文字列です。 最大長は255バイトです。255バイトを超える値は、アドビに送信する際に自動的に切り捨てられます。
+各 eVar は、組織に固有のカスタム値を含む文字列です。最大長は 255 バイトです。255 バイトを超える値は、アドビに送信する際に自動的に切り捨てられます。
 
 ```js
 s.eVar1 = "Example custom value";
@@ -42,7 +44,7 @@ s.eVar1 = "Example custom value";
 
 ## カウンター eVar
 
-eVar値には通常、文字列値が含まれます。 ただし、eVarにカウンターを代わりに含めるように設定することはできます。 例えば、購入前に行われた内部検索の数をカウントするとします。 テキスト値を設定する代わりに、次の構文を使用します。
+eVar 値には通常、文字列値が含まれます。ただし、eVar にカウンターを代わりに含めるように設定することはできます。例えば、購入前におこなわれた内部検索の数をカウントするとします。テキスト値を設定する代わりに、次の構文を使用します。
 
 ```js
 // Increment a counter eVar by 1
@@ -52,15 +54,15 @@ s.eVar1 = "+1";
 s.eVar1 = "+12.49";
 ```
 
-eVar カウンターで小数点以下が 3 桁以上ある場合は、2 桁に四捨五入されます。eVarカウンターに負の数を含めることはできません。
+eVar カウンターで小数点以下が 3 桁以上ある場合は、2 桁に四捨五入されます。eVar カウンターには負の値は設定できません。
 
-> [!IMPORTANT] カウンターeVarを使用する前に、管理コンソールでeVarを「カウンター」に設定する必要があります。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+> [!IMPORTANT] カウンターeVarを使用する前に、管理コンソールでeVarを「カウンター」に設定する必要があります。 詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
-## propまたはeVarに対する排他的な利点
+## prop または eVar 固有の利点
 
-現在のバージョンのAdobe Analyticsでは、propとeVarは共通の機能を持つカスタム変数です。 ただし、主な違いはいくつかあります。
+現在のバージョンの Adobe Analytics では、prop と eVar は共通の機能を持つカスタム変数です。ただし、主な違いはいくつかあります。
 
-* propのデータは、数分以内にレポートで使用できます。 eVarがレポートに表示されるまでに30分以上かかる場合があります。
-* レポートでは、propに100バイトの制限があります。 eVarには255バイトの制限があります。
-* propはリストpropになる機能があり、同じヒットで複数の値を受け入れます。 リスト変数は別の変数で、使用できるリスト変数は3つだけです。
-* デフォルトでは、propは設定されたヒットの後は保持されません。 eVarにはカスタムの有効期限があり、eVarがその後のイベントのクレジットを受け取らなくなった時期を判断できます。 ただし、レポートの時間処理 [を使用する場合](../../../components/vrs/vrs-report-time-processing.md)、propとeVarの両方でカスタムアトリビューションモデルを使用できます。
+* prop のデータは、数分以内にレポートで使用できます。eVar はレポートスイートデータに表示されるまでに 30 分以上かる場合があります。
+* レポートでは、prop に 100 バイトの上限があります。eVar の上限は 255 バイトです。
+* prop はリスト prop になる機能があり、同じヒットで複数の値を受け入れます。リスト変数は別の変数で、使用できるリスト変数は 3 つだけです。
+* デフォルトでは、prop は設定されたヒットの後は保持されません。eVar にはカスタムの有効期限があり、eVar がその後のイベントのクレジットを受け取らなくなった時期を判断できます。ただし、レポートの時間処理 [を使用する場合](../../../components/vrs/vrs-report-time-processing.md)、propとeVarの両方でカスタムアトリビューションモデルを使用できます。
