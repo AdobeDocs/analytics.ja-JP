@@ -2,10 +2,8 @@
 description: Adobe Analytics の使用開始方法を説明します。
 keywords: Analysis Workspace
 title: 入門ガイド
-topic: Reports and analytics
-uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -30,7 +28,7 @@ Analysis Workspace を使用して基本ランクレポートを取り込みま�
 6. 左側に、ディメンション、指標、セグメントおよび日付範囲のリストが表示されます。ページディメンション（色付きのオレンジ色）を見つけ、「ここにディメンションをドロップ」と表示されたキャンバスにドラッグします。
 7. レポートスイートにデータが含まれている場合は、今月のトップページを示すレポートが表示されます。Analysis Workspace は、[回数](/help/components/c-variables/c-metrics/metrics-occurrences.md)指標を使用してレポートに自動的に入力します。
 8. 訪問回数指標（緑色）を見つけ、回数指標ヘッダーの&#x200B;**上**&#x200B;または&#x200B;**隣**&#x200B;にドラッグします（指標の上に配置しないでください）。訪問回数指標を「回数」の上にドラッグすると、レポート内のその指標が置き換えられます。「回数」の横に訪問回数指標をドラッグすると、両方の指標が並べて表示されます。
-9. プロジェクトを保存する場合は、左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 保存]*をクリックします。
+9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
 
 ## Workspace での基本トレンドレポートの取り込み
 
@@ -46,13 +44,13 @@ Analysis Workspace を使用して基本トレンドレポートを取り込み�
 8. 左側の日付範囲コンポーネントのリストで、週の日付範囲（紫色）を探します。日付範囲のタイトルをクリックして、すべての日付範囲コンポーネントを展開して表示するか、検索バーを使用します。
 9. キャンバス上の日付範囲ヘッダーの上にある週の日付範囲をドラッグして置き換えます。
 10. トレンドレポートは、日ではなく週別に集計されるようになりました。
-11. プロジェクトを保存する場合は、左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 保存]*をクリックします。
+11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
 
 ## ツールを使って実験する
 
 Analysis Workspace はレポート作成ツールなので、データ収集には影響しません。何が機能するかを確認するためにコンポーネントをプロジェクトに適当にドラッグしても、データに影響はありません。様々なディメンションと指標の組み合わせをワークスペースプロジェクトにドラッグして、利用可能な項目を確認してください。
 
-無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 新規]*をクリックして、新しいスレートから始めることもできます。
+無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
 
 ## トラブルシューティング
 
@@ -73,7 +71,7 @@ Analysis Workspace はレポート作成ツールなので、データ収集に�
 
 * [Analysis Workspace リリースノート](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)：ツールに導入された最新の機能について説明します。
 * [Analysis Workspace（YouTube）](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)：この広範なプレイリストを使用して、Analysis Workspace のほとんどの機能を使用する方法を説明します。
-* 製品内ヒント：Analysis Workspace の右下隅には時折、その日のヒントと短いビデオが表示されることがあります。これらのヒントを閉じた場合は、*[!UICONTROL ヘルプ]／[!UICONTROL ヒント]*を選択することでいつでも表示できます。
+* 製品内ヒント：Analysis Workspace の右下隅には時折、その日のヒントと短いビデオが表示されることがあります。If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
 * [Analysis Workspace コミュニティ](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：他のユーザーと Analysis Workspace について話し合い、ツールに望む機能に投票します。
 * ブログ投稿：
    * [よりスマートな分析による組織の強化](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
@@ -89,17 +87,16 @@ Analysis Workspace の理解を深めるためには、様々なアプローチ�
 ### Analysis Workspace の使用方法に関する知識を広げたいエンドユーザー向け
 
 * [Workspace UI の詳細](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)：基本レポートを作成したら、残りのインターフェイスに慣れてください。
-* [Workspace のビジュアライゼーション](visualizations/freeform-analysis-visualizations.md)：フリーフォームテーブルは、Analysis Workspace のビジュアライゼーションのタイプの 1 つにすぎません。折れ線グラフ、棒グラフ、地域マップなど、他のビジュアライゼーションの使用方法を説明します。
+* [Workspace のビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：フリーフォームテーブルは、Analysis Workspace のビジュアライゼーションのタイプの 1 つにすぎません。折れ線グラフ、棒グラフ、地域マップなど、他のビジュアライゼーションの使用方法を説明します。
 * [Workspace のディメンション](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)：ディメンションの概要と、単なるランクレポート以外でのディメンションの使用方法について詳しく説明します。
 * [Workspace の指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)：指標の概要と、フリーフォームテーブルの他の部分での指標の使用方法について説明します。
 * [セグメントの概要](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)：セグメントとは何かを説明し、セグメントを使用して基本レポートを作成します。
 * [Workspace の日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)：相対日付と日周期について説明し、Workspace プロジェクトで使用します。
 * Workspace でのプロジェクトの共有：自分が作成した Workspace プロジェクトを同僚に表示します。
-* [Workspace のパネル](c-panels/panels.md)：アトリビューションやセグメント比較など、Workspace の高度な機能を使用します。
+* [Workspace のパネル](/help/analyze/analysis-workspace/c-panels/panels.md)：アトリビューションやセグメント比較など、Workspace の高度な機能を使用します。
 
-### 組織におけるワークスペースの質の向上を検討しているアナリストおよび管理者向け
+### 組織のWorkspaceの質の向上を求めているアナリストおよび管理者向け
 
 * [Analysis Workspace 権限](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)：Adobe Admin Console を使用して、Workspace にユーザー権限を割り当てます。
-* [ソリューションデザインドキュメントの作成](/help/implement/prepare/solution-design.md)：組織がサイト固有の追加のディメンションや指標を収集する方法の計画を開始します。
 * [Workspace のテンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)：テンプレートを作成し、同僚のニーズに合わせて調整されたプロジェクトスペースでの作業を同僚が開始できるようにします。
-* [Workspace のキュレーション](curate-share/curate.md)：使用可能なコンポーネントを制限するプロジェクトを作成し、ツールに慣れていないユーザーがワークスペースにアクセスしやすいようにします。
+* [Workspace のキュレーション](/help/analyze/analysis-workspace/curate-share/curate.md)：使用可能なコンポーネントを制限するプロジェクトを作成し、ツールに慣れていないユーザーがワークスペースにアクセスしやすいようにします。
