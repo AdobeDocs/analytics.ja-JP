@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -13,8 +13,8 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 + [Analytics ツールガイド](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Analysis Workspace ヘルプ](analysis-workspace/home.md)
    + [Analysis Workspace の機能](analysis-workspace/analysis-workspace-features.md)
+   + [Analysis Workspace ヘルプ](analysis-workspace/home.md)
    + [Analysis Workspace の使用例](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace の新機能](analysis-workspace/new-features-in-analysis-workspace.md)
    + Workspace プロジェクトの構築 {#build-workspace-project}
@@ -95,11 +95,6 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
       + [プロジェクトファイルの共有およびスケジュール](analysis-workspace/curate-share/send-schedule-files.md)
       + [ファイルの送信 - プロジェクトの配信スケジュールの設定](analysis-workspace/curate-share/t-schedule-report.md)
       + [スケジュール済みプロジェクトマネージャー](analysis-workspace/curate-share/schedule-projects.md)
-   + [よくある質問](analysis-workspace/faq.md)
-   + [管理要件](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/optimizing-performance.md)
-   + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Analysis Workspace の制限](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
@@ -118,6 +113,12 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
          + [アラートビルダー](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [アラートマネージャー](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [インテリジェントアラート - 使用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + Workspace FAQ {#workspace-faq}
+      + [よくある質問](analysis-workspace/workspace-faqs/faq.md)
+      + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faqs/optimizing-performance.md)
+      + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
+      + [Analysis Workspace の制限](analysis-workspace/workspace-faqs/aw-limitations.md)
+      + [管理要件](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder ヘルプ](report-builder/home.md)
    + [Report Builder の新機能](report-builder/whats-new-arb.md)
@@ -329,7 +330,7 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 + モバイルアプリ {#mobapp}
    + [モバイルアプリの概要](mobile-app/home.md)
    + [キュレータガイド](mobile-app/curator.md)
-   + [エグゼクティブユーザークイックスタートガイド](mobile-app/executive.md)
+   + [エグゼクティブユーザークイック開始ガイド](mobile-app/executive.md)
 + プログレッシブWebアプリ {#pwa}
    + [プログレッシブWebアプリ](pwa/pwa.md)
 + Analytics レポート API {#analytics-reporting-api}
