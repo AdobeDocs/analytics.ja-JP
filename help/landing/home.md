@@ -1,39 +1,39 @@
 ---
 title: Adobe Analytics テクニカルドキュメントガイド
 description: Analytics のユーザーガイドとリソース
-translation-type: ht
-source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
+translation-type: tm+mt
+source-git-commit: 52585c146d9213aa87368cec43ccc5571ecbb344
 
 ---
 
 
 # Adobe Analytics ドキュメント
 
-このたびは、Adobe Analytics 製品および技術ドキュメントのホームページをご利用いただき、誠にありがとうございます。ここでは、[!UICONTROL Analysis Workspace]、[!UICONTROL Report Buider]、レポート API、[!UICONTROL Data Workbench]、[!UICONTROL Activity Map] などのレポートツールのセルフヘルプおよびサポート情報を確認できます。また、製品とユーザーの管理、実装、および Adobe Analytics でサポートされるすべての機能に関するドキュメントにアクセスすることもできます。
+このたびは、Adobe Analytics 製品および技術ドキュメントのホームページをご利用いただき、誠にありがとうございます。Here you can find self-help and support information for reporting tools like [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], Reporting API, [!UICONTROL Data Workbench], and [!UICONTROL Activity Map]. また、製品とユーザーの管理、実装、および Adobe Analytics でサポートされるすべての機能に関するドキュメントにアクセスすることもできます。
 
-[![ツール](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics ツールガイド](/help/analyze/home.md) - Analytics のプレミア分析およびビジュアライゼーションツールである [Analysis Workspace](/help/analyze/analysis-workspace/home.md) にアクセスできます。また、Adobe Analyticsで使用できるすべての分析ツール（[!UICONTROL Report Builder]、Reporting API、[!UICONTROL Data Workbench]、[!UICONTROL Activity Map]）も備わっています。
+[![ツール](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics ツールガイド](/help/analyze/home.md) - Analytics のプレミア分析およびビジュアライゼーションツールである [Analysis Workspace](/help/analyze/analysis-workspace/home.md) にアクセスできます。Also features all the analysis tools ([!UICONTROL Report Buidler], Reporting API, [!UICONTROL Data Workbench], and [!UICONTROL Activity Map]) that you can use in Adobe Analytics.
 
 [![管理者](assets/admin_50px.png)](/help/admin/home.md) [管理者ガイド](/help/admin/home.md) - Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定、会社の設定、データガバナンス、サーバーコールの使用、トラフィック管理などについて説明します。
 
-[![実装](assets/implement_50px.png)](/help/implement/home.md) [実装ガイド](/help/implement/home.md) – データ収集をカスタマイズすることで、Adobe Analytics を最大限活用する方法について説明します。[!UICONTROL Adobe Experience Platform Launch] と JavaScript の実装についても解説します。
+[![実装](assets/implement_50px.png)](/help/implement/home.md) [実装ガイド](/help/implement/home.md) – データ収集をカスタマイズすることで、Adobe Analytics を最大限活用する方法について説明します。Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
 
 [![コンポーネント](assets/components_50px.png)](/help/components/home.md) [コンポーネントガイド](/help/components/home.md) - データの整理に役立つ機能をご紹介します。コンポーネントには、セグメント、計算指標、仮想レポートスイート、アラートなどがあります。このガイドには、利用可能なすべてのディメンションと指標を説明する変数リファレンスも含まれています。
 
-[![書き出し](assets/export_50px.png)](/help/export/home.md) [書き出しガイド](/help/export/home.md) - Adobe Analytics のデータを活用：[!UICONTROL データフィード]を使用して、生データの時間別または日別の書き出しを受け取ります。[!UICONTROL Data Warehouse] を使用して、データのスプレッドシート出力を取得します。
+[![Export](assets/export_50px.png)](/help/export/home.md)Export Guide[](/help/export/home.md) - Get data out of Adobe Analytics:生データ [!UICONTROL Data Feeds] の時間別または日別のエクスポートを受け取る場合に使用します。 Retrieve a spreadsheet output of data using [!UICONTROL Data Warehouse].
 
-[![インポート](assets/import_50px.png)](/help/import/home.md) [インポートガイド](/help/import/home.md) – 外部ソースから Analytics へデータを一括またはリアルタイムでインポートする方法について説明します。これには、[!UICONTROL データソース]、[!UICONTROL データ挿入 API]、[!UICONTROL Data Connectors] が含まれます。
+[![インポート](assets/import_50px.png)](/help/import/home.md) [インポートガイド](/help/import/home.md) – 外部ソースから Analytics へデータを一括またはリアルタイムでインポートする方法について説明します。、およ [!UICONTROL Data Sources]びを含 [!UICONTROL Data Insertion API]みます [!UICONTROL Data Connectors]。
 
 [![統合](assets/integrate_50px.png)](/help/integrate/home.md) [統合ガイド](/help/integrate/home.md) - Audience Manager、Advertising Cloud、Target といった他の Adobe Experience Cloud ソリューションとの統合を設定します。
 
-[![メディア分析](assets/media_50px.png)](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) [メディア分析ガイド](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) — オーディオまたはビデオソースに Analytics を実装します。これには、メディア SDK とメディアコレクション API が含まれます。
+[![メディア分析](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)[ メディア分析ガイド](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) — オーディオまたはビデオソースに Analytics を実装します。これには、メディア SDK とメディアコレクション API が含まれます。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) [Data Workbench ガイド](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - [!UICONTROL Data Workbench] の非常に柔軟で強力なマルチチャネル機能について説明します。[!UICONTROL Data Workbench クライアント]、インストール、[!UICONTROL データセット設定]ガイドなどが含まれます。
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)[  ガイド](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - [!UICONTROL Data Workbench]Data Workbench の非常に柔軟で強力なマルチチャネル機能について説明します。、イン [!UICONTROL Data Workbench Client]ストール、ガ [!UICONTROL Dataset Configuration] イドなどが含まれます。
 
 [![テクニカルノート](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics テクニカルノート](/help/technotes/home.md) -特定の分析ツールやコンポーネントに特化していない、一般的な役立つ記事を含むナレッジベースです。
 
 | 新しいトピックおよび注目すべきトピック | 主な Analytics リソース |
 | --- | --- |
-| <ul><li>[地域データ収集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 製品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>参照：[2019 年ドキュメントのアップデート](doc-updates.md) | <ul><li> [リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/)</li><li> [Adobe Analytics YouTube チャンネル](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics のチュートリアルとビデオ](https://helpx.adobe.com/jp/analytics/kt/index/analytics-videos.html)</li><li>[Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[トレーニング（教室内および仮想教室）](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/support/analytics.html)</li></ul> |
+| <ul><li>[地域データ収集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)</li><li>[Analytics 製品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>参照：[2019 年ドキュメントのアップデート](doc-updates.md) | <ul><li> [リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics YouTube チャンネル](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics のチュートリアルとビデオ](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[トレーニング（教室内および仮想教室）](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[カスタマーケアにお問い合わせください](https://helpx.adobe.com/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
