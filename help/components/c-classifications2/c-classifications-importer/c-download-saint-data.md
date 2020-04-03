@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類テンプレート
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 （オプション）分類をマーケティングレポートにインポートする前に、分類データファイルの作成に役立つテンプレートをダウンロードできます。データファイルでは、必要な分類を列見出しとして使用し、レポートデータセットを適切な分類見出しの下に整理します。
 
-**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;に移動します。
+**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**
 
 | 要素 | 説明 |
 |---|---|
