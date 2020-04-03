@@ -2,7 +2,7 @@
 description: 計算指標を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。
 title: 計算指標
 uuid: 039fbb1a-8fa9-479b-badb-ad609b225524
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,4 +12,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 計算指標を使用すると、指標を組み合わせて新しい指標に使用する数値演算を作成できます。これらの指標は、指標を追加するレポートのために作成できます。管理者は、レポートスイートのすべてのユーザーのために計算指標を作成できます。
 
-For more information on changes to the way calculated metrics are created and managed across Adobe Analytics, refer to the [Calculated Metrics documentation](/help/components/c-calcmetrics/cm-overview.md).
+Adobe Analytics での計算指標の作成方法および管理方法について詳しくは、[計算指標ドキュメント](/help/components/c-calcmetrics/cm-overview.md)を参照してください。
