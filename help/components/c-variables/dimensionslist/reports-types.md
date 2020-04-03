@@ -3,7 +3,7 @@ description: Experience Cloud で使用されるレポートカテゴリにつ�
 title: レポートのカテゴリ
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Experience Cloud で使用されるレポートカテゴリについて説明し
 
 トレンドレポートの一例として、製品レポートがあります。選択した期間中にある 1 つの製品が生み出した売上高を表示できます。レポート期間が 1 週間の場合、その期間の各日に製品が生み出した売上高を表示したり、特定の製品についてその日のトレンドグラフを表示したり、選択した項目に関して別のトレンドレポートを開いたりできます。合計レポートは、最重要項目のみを示すエグゼクティブレベルのレポートです。売上高、ページビュー数、注文件数の合計値が含まれます。レポートをセグメント化したり、指標を追加して、追加のデータを表示することもできます。ページ、サイトセクションおよびサーバー間で最もよく使用されるパスを表示します。
 
-Analysis Workspace でのフローの働きについては、[カスタマージャーニー - フロー](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)を参照してください。
+Analysis Workspace でのフローの働きについては、[カスタマージャーニー - フロー](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/flow.html)を参照してください。
 
 **次のフロー**
 
@@ -29,4 +29,4 @@ Analysis Workspace でのフローの働きについては、[カスタマージ
 
 **前のフロー**
 
-前のフローレポートは次のフローレポートに似ていますが、訪問者が指定のページを退出した後の場所ではなく、指定のページを訪問する前に滞在していた場所を示します。このレポートを使用するときのコントロールは、次のフローレポートのコントロールと同じです。フォールアウトビジュアライゼーションには、フォールアウトレポートを作成するためのより多くのオプションがあります。フォールアウトレポートは、事前に指定した一連のページ間で、訪問者が離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。詳しくは、Analysis Workspace の[フォールアウト](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)を参照してください。
+前のフローレポートは次のフローレポートに似ていますが、訪問者が指定のページを退出した後の場所ではなく、指定のページを訪問する前に滞在していた場所を示します。このレポートを使用するときのコントロールは、次のフローレポートのコントロールと同じです。フォールアウトビジュアライゼーションには、フォールアウトレポートを作成するためのより多くのオプションがあります。フォールアウトレポートは、事前に指定した一連のページ間で、訪問者が離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。詳しくは、Analysis Workspace の[フォールアウト](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/fallout_flow.html)を参照してください。
