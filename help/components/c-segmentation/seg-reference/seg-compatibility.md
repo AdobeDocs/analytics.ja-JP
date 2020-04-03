@@ -3,7 +3,7 @@ description: セグメントビルダーで作成するすべてのセグメン�
 title: Data Warehouse セグメントの互換性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,22 +24,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <b>除外</b> </td> 
-   <td colname="col2"> あらゆるレベルでサポート。 </td> 
-   <td colname="col3"> トップレベルの特殊なケースでのみサポート。 </td> 
+   <td colname="col2"> あらゆるレベルでサポート </td> 
+   <td colname="col3"> トップレベルの特殊なケースでのみサポート </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>順次セグメント</b> </td> 
-   <td colname="col2"> サポート。 </td> 
-   <td colname="col3"> サポートなし。 </td> 
+   <td colname="col2"> サポート </td> 
+   <td colname="col3"> サポートなし </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>AND と OR の無制限の結合</b> </td> 
-   <td colname="col2"> サポート。 </td> 
-   <td colname="col3"> 一部制限。の呼び出しの後におこなわれる場合です。表の*note*を参照。 </td> 
+   <td colname="col2"> サポート </td> 
+   <td colname="col3"> 一部制限あり。テーブルの下の「注意」を参照。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>コンテナのネスト</b> </td> 
-   <td colname="col2"> サポート。 </td> 
+   <td colname="col2"> サポート </td> 
    <td colname="col3"> 一部制限（スコープを狭くする必要があります。例えば、訪問者はヒットを含めることができるが、その逆はできません）。 </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
      <li id="li_E77F3CC45BA04674B857FE5AB19D56F1">すべての検索ページのランク </li> 
      <li id="li_95E1549C13F14BA0B32686401EE78E31">午前 / 午後 </li> 
-     <li id="li_6F1C8FC2E7674A0CA14B70B65784D896">月間通算日 </li> 
+     <li id="li_6F1C8FC2E7674A0CA14B70B65784D896">日付 </li> 
      <li id="li_79D1A91D741D4CCC937D07906D71F964">曜日 </li> 
      <li id="li_4008565353084611BD782B98D50C0611">年間通算日 </li> 
      <li id="li_F87D78F125874087BFF74FAAE2BA46F5">入口ビジネスユニット </li> 
@@ -71,7 +71,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
      <li id="li_DF0BCC63ED274ABEA1C5A28274936310">ヒットの深さ </li> 
      <li id="li_98BE56213E1A4FD28D4858D53C46D23E">ヒットタイプ </li> 
      <li id="li_52ECB31657DF4180BDB9C8D21CC74313">時刻 </li> 
-     <li id="li_93716207F2614822ACB84100B35D27BC">年間通算月 </li> 
+     <li id="li_93716207F2614822ACB84100B35D27BC">月 </li> 
      <li id="li_FFC8E1F7092C4876A7E9F2365CC234B9">エラーページ (404) </li> 
      <li id="li_7A070C8E0F664F5AB554555B17D0E4E6">有料検索 </li> 
      <li id="li_12228C18BF90463C8D8394FB810843D3">四半期 </li> 
@@ -87,10 +87,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <b>セグメントの積み重ね</b> </td> 
-   <td colname="col2"> サポート。 </td> 
-   <td colname="col3"> サポートなし。 </td> 
+   <td colname="col2"> サポート </td> 
+   <td colname="col3"> サポートなし </td> 
   </tr> 
  </tbody> 
 </table>
 
-*注意：Data Warehouseでは、を使用する場合に、またはコンテナを使用する場合に、すべてのケースをサ`exclusion`ポート`without`するわけではありませ`AND/OR`ん。 このような組み合わせを使用する場合、`A AND NOT B`，として書き直すことのできる&#x200B;**(またはこの特性を含みこの特性を除外する****)**セグメントのみがData Warehouseでサポートされます。*
+*注意：Data Warehouse では、`AND/OR`を使用する場合に、`exclusion`または`without`コンテナを使用するすべてのケースをサポートするわけではありません。このような組み合わせを使用する場合、`A AND NOT B`として書き直すことのできるセグメントのみが（または&#x200B;**この特性を含み****この特性を除外する**）Data Warehouse でサポートされます。*
