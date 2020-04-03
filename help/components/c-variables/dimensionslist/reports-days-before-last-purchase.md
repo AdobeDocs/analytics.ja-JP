@@ -3,7 +3,7 @@ description: 顧客のリピート購入間隔として最も一般的な日数�
 title: 前回購入からの日数
 topic: Reports
 uuid: 7abd7f10-f16c-454b-99d3-7dd08db7892e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
