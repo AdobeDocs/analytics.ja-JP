@@ -3,7 +3,7 @@ description: サイトに顧客を送り込んだオリジナルリファラー�
 title: オリジナルの参照ドメイン
 topic: Reports
 uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
