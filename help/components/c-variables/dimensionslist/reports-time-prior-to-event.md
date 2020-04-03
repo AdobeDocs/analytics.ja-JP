@@ -3,7 +3,7 @@ description: 選択したコンバージョンイベントが訪問時に発生�
 title: イベント前の時間
 topic: Reports
 uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,6 +13,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 選択したコンバージョンイベントが訪問時に発生するまでの経過時間を表示します。訪問を開始したイメージリクエストから特定のコンバージョンイベントが発生したイメージリクエストまでの時間を確認できます。このレポートは、訪問者がサイトに到着してから、フォームの送信や注文などの成功イベントに到達するまでにかかる時間を把握するのに役立ちます。
 
-Ad Hoc Analysis では、このレポートは&#x200B;**[!UICONTROL パス]**／**[!UICONTROL 一般]**／**[!UICONTROL イベント前の時間]**&#x200B;にあります。
+ad hoc analysis では、このレポートは&#x200B;**[!UICONTROL パス]**／**[!UICONTROL 一般]**／**[!UICONTROL イベント前の時間]**&#x200B;にあります。
 
 マーケティングレポートでは、このレポートは&#x200B;**[!UICONTROL サイト指標]**／**[!UICONTROL イベント前の時間]**&#x200B;にあります。
