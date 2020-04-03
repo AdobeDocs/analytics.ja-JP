@@ -32,16 +32,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Analysis Workspace で以下のショートカットを使用する。
 
    `ctrl (or cmd) + shift + a`
-* **[!UICONTROL ワークスペース]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しいアラート]**&#x200B;でアラートビルダーに直接アクセスする。
+* **[!UICONTROL Workspace]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しいアラート]**&#x200B;でアラートビルダーに直接アクセスする。
 * 1 つまたは複数のフリーフォームテーブル行項目を選択し、右クリックして、「**[!UICONTROL 選択からアラートを作成]**」を選択する。これにより、アラートビルダーが開き、テーブルから適用された適切な指標およびフィルターでビルダーを事前設定します。これで、必要に応じて、アラートを編集できます。
 
    ![](assets/create-alert-from-selection.png)
 
-* Reports &amp; Analytics レポートから、**[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動する。これにより、新しいアラートビルダーが開き、レポートから適用された適切な指標およびフィルターでビルダーを事前設定します。これで、必要に応じて、アラートを編集できます。
+* [!UICONTROL Reports &amp; Analytics] レポートから、**[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動する。これにより、新しいアラートビルダーが開き、レポートから適用された適切な指標およびフィルターでビルダーを事前設定します。これで、必要に応じて、アラートを編集できます。
 
    ![](assets/add-alert.png)
 
-## FAQ：アラートが計算およびトリガーされる仕組み {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+## FAQ：アラートが計算およびトリガーされる仕組み{#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
 % しきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。低いしきい値（90％など）を設定すると、高いしきい値（99％など）を設定した場合よりも多くの異常値が取得されます。99.75％と 99.99％のしきい値は、時間単位の精度用に、多数の異常値がトリガーされないようにするために導入されました。
 
@@ -73,7 +73,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：「予期された値」のテーブル（点線またはそれらの値の意味の出力で構成される）を入手できますか。</b> </p> </td> 
-   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。30 日間の固定のトレーニング期間と固定の 95% 間隔が使用され、<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/anomaly.html"  ><span class="uicontrol">Reports &amp; Analytics </span>の異常値検出</a>に似ています。 </p> </td> 
+   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。30 日間の固定のトレーニング期間と固定の 95% 間隔が使用され、<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/anomaly.html"  > <span class="uicontrol">Reports &amp; Analytics </span>の異常値検出</a>に似ています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
