@@ -3,7 +3,7 @@ description: サイト指標レポートには、Web サイトの定量情報が
 title: サイト指標
 topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
