@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 例
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,8 +24,8 @@ c_example_1__rate.xml
 
 | キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | `Cost1_jan_var` |  | `.2` |
-| Product2 | Text2 | `Cost2_jan_var` |  | `.3` |
+| Product 1 | Text1 | `Cost1_jan_var` |  | `.2` |
+| Product 2 | Text2 | `Cost2_jan_var` |  | `.3` |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -44,8 +44,8 @@ c_example_1__rate.xml
 
 | 製品 | 売上高 | MyCost |
 |---|---|---|
-| Product1 | $10,000.23 | $2000.05 |
-| Product2 | $9,000.04 | $2700.01 |
+| Product 1 | $10,000.23 | $2000.05 |
+| Product 2 | $9,000.04 | $2700.01 |
 
 <!-- 
 
@@ -55,10 +55,10 @@ c_example_2__rate.xml
 
 | キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
-| Product2 | Text2 | `Cost2_jan_var` | 2 | .3 |
-| Product1 | Text1 | `Cost1_feb_var` |  | .15 |
-| Product2 | Text2 | `Cost2_feb_var` |  | .25 |
+| Product 1 | Text1 | `Cost1_jan_var` | 1 | .2 |
+| Product 2 | Text2 | `Cost2_jan_var` | 2 | .3 |
+| Product 1 | Text1 | `Cost1_feb_var` |  | .15 |
+| Product 2 | Text2 | `Cost2_feb_var` |  | .25 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -79,8 +79,8 @@ c_example_2__rate.xml
 
 | 製品 | 売上高 | MyCost |
 |---|---|---|
-| Product1 | $10,000.23 | $2000.05 |
-| Product2 | $9,000.04 | $2700.01 |
+| Product 1 | $10,000.23 | $2000.05 |
+| Product 2 | $9,000.04 | $2700.01 |
 
 期間：2010 年 2 月
 
@@ -88,8 +88,8 @@ c_example_2__rate.xml
 
 | 製品 | 売上高 | MyCost |
 |---|---|---|
-| Product1 | $15,500.75 | $2325.11 |
-| Product2 | $12,300.52 | $3075.13 |
+| Product 1 | $15,500.75 | $2325.11 |
+| Product 2 | $12,300.52 | $3075.13 |
 
 期間：2010 年 1 月 1 日～2010 年 2 月 28 日
 
@@ -97,8 +97,8 @@ c_example_2__rate.xml
 
 | 製品 | 売上高 | MyCost |
 |---|---|---|
-| Product1 | $25,500.98 | $4325.16 |
-| Product2 | $21,300.56 | $5,775.14 |
+| Product 1 | $25,500.98 | $4325.16 |
+| Product 2 | $21,300.56 | $5,775.14 |
 
 <!-- 
 
@@ -110,8 +110,8 @@ c_example_3__fixed.xml
 
 | キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
-| Product2 | Text2 | `Cost2_jan_fixed` |  | 2000.00 |
+| Product 1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
+| Product 2 | Text2 | `Cost2_jan_fixed` |  | 2000.00 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -128,8 +128,8 @@ c_example_3__fixed.xml
 
 | 製品 | 売上高 | MyCost |
 |---|---|---|
-| Product1 | $11,023.75 | $3000.00 |
-| Product2 | $8,000.12 | $2000.00 |
+| Product 1 | $11,023.75 | $3000.00 |
+| Product 2 | $8,000.12 | $2000.00 |
 
 <!-- 
 
@@ -141,10 +141,10 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
 | キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
-| Product1 | Text1 | `Cost2_jan_fixed` |  | 500 |
-| Product1 | Text1 | `Cost1_feb_var` | 2 | .15 |
-| Product1 | Text1 | `Cost2_feb_fixed` |  | 600 |
+| Product 1 | Text1 | `Cost1_jan_var` | 1 | .2 |
+| Product 1 | Text1 | `Cost2_jan_fixed` |  | 500 |
+| Product 1 | Text1 | `Cost1_feb_var` | 2 | .15 |
+| Product 1 | Text1 | `Cost2_feb_fixed` |  | 600 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -165,7 +165,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
 | 製品 | 売上高 | MyCost |
 |---|---|---|
-| Product1 | $10,000.23 | $2500.05 |
+| Product 1 | $10,000.23 | $2500.05 |
 
 > [!NOTE]この機能は、上級のユーザーが概算値の計算に使用するものです。結果のデータは、正確な値として使用しないでください。
 
@@ -179,7 +179,7 @@ c_example_5__identical_rate_hinge.xml
 
 | キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | `Cost1_mar_var` |  | 1 |
+| Product 1 | Text1 | `Cost1_mar_var` |  | 1 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -195,7 +195,7 @@ c_example_5__identical_rate_hinge.xml
 
 | 製品（ページ別） | 注文件数 | MyCost |
 |---|---|---|
-| Product1 | 1000 | $1000.00 |
+| Product 1 | 1000 | $1000.00 |
 | ホームページ | 600 | $600 |
 | 買い物かご | 400 | $400 |
 
@@ -207,8 +207,8 @@ c_example_5__fixed_no_hinge.xml
 
 | キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
-| Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
+| Product 1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
+| Product 2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -225,7 +225,7 @@ c_example_5__fixed_no_hinge.xml
 
 | 製品（ページ別） | 注文件数 | MyCost |
 |---|---|---|
-| Product1 | 1000 | $3000.00 |
+| Product 1 | 1000 | $3000.00 |
 | ホームページ | 600 | 0 |
 | 買い物かご | 400 | 0 |
 
@@ -239,8 +239,8 @@ c_example_7__fixed_hinge.xml
 
 | キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
-| Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
+| Product 1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
+| Product 2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -257,7 +257,7 @@ c_example_7__fixed_hinge.xml
 
 | 製品（ページ別） | 注文件数 | MyCost |
 |---|---|---|
-| Product1 | 1000 | $3000.00 |
+| Product 1 | 1000 | $3000.00 |
 | ホームページ | 600 | $1800.00 |
 | 買い物かご | 400 | $1200.00 |
 
@@ -271,7 +271,7 @@ c_example_7_continued__different_rate_hinge.xml
 
 | キー | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
-| Product1 | Text1 | Cost1_mar_fixed |  | 3 |
+| Product 1 | Text1 | Cost1_mar_fixed |  | 3 |
 
 | `~MyCost^~period~` | `~MyCost^~rate~` | `~MyCost^~hinge~` |
 |---|---|---|
@@ -287,7 +287,7 @@ c_example_7_continued__different_rate_hinge.xml
 
 | 製品（ページ別） | 注文件数 | MyCost |
 |---|---|---|
-| Product1 | 1000 | $3000.00 |
+| Product 1 | 1000 | $3000.00 |
 | ホームページ | 600 | $1,000.00 |
 | 買い物かご | 400 | $2,000.00 |
 
