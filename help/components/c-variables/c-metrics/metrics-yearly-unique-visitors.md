@@ -3,7 +3,7 @@ description: 'null'
 title: 年別訪問者数
 topic: Metrics
 uuid: 80015631-b100-4e47-a493-e9c10563f99d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
