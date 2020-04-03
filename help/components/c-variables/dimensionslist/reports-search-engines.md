@@ -3,7 +3,7 @@ description: すべての検索、有料検索、自然検索について、訪�
 title: 検索エンジン
 topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
