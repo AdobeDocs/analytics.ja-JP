@@ -24,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。マーケティング担当者、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。各 [!DNL Analytics] パッケージで利用可能なカスタム指標を次に示します。
 
 * Adobe [!DNL Analytics] Foundation：計算指標
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html)：計算指標    + 高度な計算指標
+* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html)：計算指標     + 高度な計算指標
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html)：計算指標 + 高度な計算指標
 * [Adobe Analytics Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html)：計算指標 + 高度な計算指標
 
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | [基本的な関数（カウント、絶対値、平均など）](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | × | ○ |
 | [高度な関数（回帰、if/then、t スコアなど）](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | × | ○ |
 
-## 機能 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## 機能{#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 データが誤用されていたり、アカウントの期限が切れている場合、
 
