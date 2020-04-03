@@ -3,7 +3,7 @@ description: パス表示（限定したパス内で、あるページが閲覧�
 title: 次ページのフロー
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 <table id="table_A68A0DC384A74DC4895C8B01F760E175"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 製品      </th> 
+   <th colname="col1" class="entry"> 製品 </th> 
    <th colname="col2" class="entry"> 説明 </th> 
   </tr> 
  </thead>
