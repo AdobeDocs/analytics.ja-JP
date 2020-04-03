@@ -3,7 +3,7 @@ description: 様々な広告トラッキングコードがサイトの様々な�
 title: トラッキングコード
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
@@ -15,9 +15,9 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 **一般的なプロパティ**
 
-* このレポートは、 [s.campaignからデータを直接参照します](/help/implement/vars/page-vars/campaign.md)
-* The variable this report is based on is a [conversion variable](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). つまり、これはページビューの完了後も持続でき、指定した有効期限内で指標と関連付けることができます。
-* このレポートのデフォルト指標は売上高です。このデフォルト値は、[!UICONTROL 管理ツール]にある [!UICONTROL Report Suite Manager] で変更できます（**[!UICONTROL 設定の編集]**／**[!UICONTROL &#x200B;個々のレポートスイートの設定]**／**[!UICONTROL デフォルトの指標]**）。
+* このレポートは、[s.campaign](/help/implement/vars/page-vars/campaign.md) からデータを直接参照しており、
+* [コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)に基づいています。つまり、これはページビューの完了後も持続でき、指定した有効期限内で指標と関連付けることができます。
+* このレポートのデフォルト指標は売上高です。このデフォルト値は、[!UICONTROL 管理ツール]にある [!UICONTROL Report Suite Manager] で変更できます（**[!UICONTROL 設定の編集]**／**[!UICONTROL 個々のレポートスイートの設定]**／**[!UICONTROL デフォルトの指標]**）。
 
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
@@ -36,14 +36,14 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 * このレポートでは以下の指標を利用できます（組織とレポートスイートの設定に応じて異なります）。
 
-   * クリックスルー：*`s.campaign`*変数が定義される回数
+   * クリックスルー：*`s.campaign`* 変数が定義される回数
    * e コマースのすべての標準的な指標：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、買い物かごからの削除数。
    * すべてのカスタムイベント：イベント 1 ～ 80（H22 コード以上では、さらにイベント 81 ～ 100）
    * 訪問回数および訪問者数：使用できるかどうかは、組織およびレポートスイートに依存します。詳細については、アカウントマネージャーにお問い合わせください。
 
 **Reports &amp; Analytics のプロパティ**
 
-* このレポートを見つけるには、**[!UICONTROL コンバージョン]**／**[!UICONTROL &#x200B;キャンペーン]**／**[!UICONTROL トラッキングコード]**をクリックします（メニューがカスタマイズされていない場合）。
+* このレポートを見つけるには、**[!UICONTROL コンバージョン]**／**[!UICONTROL キャンペーン]**／**[!UICONTROL トラッキングコード]**&#x200B;をクリックします（メニューがカスタマイズされていない場合）。
 
 * すべての[リスト変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)によって、このレポートを掘り下げることができます。
 * ページビュー数、訪問回数、および実訪問者数は指標として使用できます。
