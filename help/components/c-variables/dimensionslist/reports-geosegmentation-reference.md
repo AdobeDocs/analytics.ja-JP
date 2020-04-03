@@ -3,7 +3,7 @@ description: 以下の表に、国の地域または郵便番号の有無を示�
 title: 国別の地理特性の地域と郵便番号の使用
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
