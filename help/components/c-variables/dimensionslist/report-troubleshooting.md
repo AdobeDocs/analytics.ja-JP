@@ -5,7 +5,7 @@ title: レポート作成のベストプラクティスとトラブルシュー�
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: dca5bac72a2cf5f5ded5072e1867676392a7850e
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analyticsは、様々な複雑なレポートを生成できる柔軟な�
 
 >[!Note]
 >これらの推奨事項は、Reports &amp; Analytics、Ad Hoc Analysis および Report Builder に適用されます。
->独自の[ベストプラクティス](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)を持つ Analysis Workspace には適用され ません。また、これらは Data Warehouse の[ベストプラクティス](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)にも適用されません。追加の
+>独自の[ベストプラクティス](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)を持つ Analysis Workspace には適用され ません。また、これらは Data Warehouse の[ベストプラクティス](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)にも適用されません。追加の
 >[ベストプラクティス](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) は Adobe Analytics レポート API で利用できます。
 
 ## レポートのタイムアウトとリクエストキュー {#section_A42AD7E487C749B7B879BAFA814FFEF9}
