@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 未分類のキー
 topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ t_rename_classification_none.xml
 分類が設定されておらず、レポートで「*`none`*」と表示されるキーの名前の変更手順を説明します。
 
 1. インポーターを使用して、ローカルファイルに分類をエクスポートします。
-1. ファイルに行を追加し、キー列に「[!DNL ~~]」と入力します。
+1. ファイルに行を追加し、キー列に「[!DNL ~なし~]」と入力します。
 1. 追加した行の分類列に、内容の説明になる名前を入力します。
 
    この文書の例であれば、[!UICONTROL モバイルキャンペーン名]という名前の列に「モバイルキャンペーン対象外」と入力することが考えられます。
