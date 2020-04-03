@@ -3,7 +3,7 @@ description: Ad Hoc Analysis の直帰数指標とは異なります。直帰数
 title: 直帰数
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,13 +15,13 @@ Ad Hoc Analysis の直帰数指標とは異なります。直帰数レポート�
 
 このレポートが最も一般的に使用されるのは[!UICONTROL ページ]レポートのコンテキストですが、[!UICONTROL パス]が有効になっているすべてのトラフィック変数でも表示できます。このレポートを使用すると、訪問者に対してサイトの他のページヘの誘導率が最も低い入口ページを識別したり、単一のページから成る訪問の数を判断できます。この情報により、コンテンツを最適化して該当ページでの離脱を減らすことができます。
 
-## レポートのプロパティ {#section_2D30F939FE0648EF983DD7C1BAB1181B}
+## レポートのプロパティ{#section_2D30F939FE0648EF983DD7C1BAB1181B}
 
 * [!UICONTROL ページ]レポートで[!UICONTROL 単一アクセス]を指標として使用することにより、同一のレポートを取得できます。
 
 * 直帰数は、単一のイメージリクエストではなく 1 つのユニーク値を含む訪問とみなされます。
 
-   * のコンテキスト内[ページレポート](/help/components/c-variables/dimensionslist/reports-pages.md)のコンテキストでは、1 つの個別ページのみが訪問内で実行します。
+   * [ページレポート](/help/components/c-variables/dimensionslist/reports-pages.md)のコンテキストでは、1 つの個別ページのみが訪問内で実行します。
    * [サイトセクションレポート](/help/components/c-variables/dimensionslist/reports-site-sections.md)のコンテキストでは、1 つの個別サイトセクションが訪問内で実行します。
    * [トラフィック変数](/help/admin/admin/c-traffic-variables/traffic-var.md)のコンテキストでは、単一のユニーク値が呼び出された場合に訪問によってこのレポートが設定されます。
 
