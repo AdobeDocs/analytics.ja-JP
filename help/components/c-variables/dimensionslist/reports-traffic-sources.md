@@ -3,7 +3,7 @@ description: サイトにアクセスする際に経由している Web 上の�
 title: トラフィックソース
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
