@@ -3,7 +3,7 @@ description: 前のページの入口点と次のページの出口点や、イ�
 title: サイトセクションサマリ
 topic: Reports
 uuid: 5bee04ea-5414-4538-b0d1-120700982762
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
