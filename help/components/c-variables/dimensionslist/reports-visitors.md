@@ -3,7 +3,7 @@ description: 選択した時間、日、週、月、四半期、年における�
 title: 訪問者
 topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
