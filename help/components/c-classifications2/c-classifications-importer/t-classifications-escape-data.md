@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類データのエスケープ
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!NOTE]
    >
-   >バージョン 2.1 の形式を指定するには、[!UICONTROL 分類インポーター]ページ（[!UICONTROL ブラウザーの書き出し]または [!UICONTROL FTP の書き出し]）でファイルを書き出すときに&#x200B;**[!UICONTROL 引用の出力]**&#x200B;を有効にします。
+   >バージョン 2.1 の形式を指定するには、**[!UICONTROL 分類インポーター]**&#x200B;ページ（[!UICONTROL ブラウザーの書き出し]または [!UICONTROL FTP の書き出し]）でファイルを書き出すときに[!UICONTROL 引用の出力]を有効にします。
 
 1. 特殊文字を含むフィールドを二重引用符（`"`）で囲みます。
 
