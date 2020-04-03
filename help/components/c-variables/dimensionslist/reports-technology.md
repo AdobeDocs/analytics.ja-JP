@@ -3,7 +3,7 @@ description: これらのレポートには訪問者が使用するブラウザ�
 title: 技術
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
