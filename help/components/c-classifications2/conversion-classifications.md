@@ -4,7 +4,7 @@ subtopic: Classifications
 title: コンバージョンの分類
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -63,7 +63,7 @@ t_classification_conversion.xml
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. レポートスイートを選択します。
-1. **[!UICONTROL 設定の編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョン分類]**&#x200B;の順にクリックします。
+1. **[!UICONTROL 設定の編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョンの分類]**&#x200B;の順にクリックします。
 1. **[!UICONTROL 分類タイプの選択]**&#x200B;ドロップダウンリストで分類の追加先の変数を選択します。
 
    ![ステップ情報](assets/sub_class_create.png)
@@ -93,7 +93,7 @@ t_classification_delete_conversion.xml
 
 1. スイートのヘッダーで&#x200B;**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックして、Report Suite Manager を開きます。
 1. レポートスイートを選択します。
-1. **[!UICONTROL 設定の編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョン分類]**&#x200B;の順にクリックします。
+1. **[!UICONTROL 設定の編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョンの分類]**&#x200B;の順にクリックします。
 1. **[!UICONTROL 分類タイプの選択]**&#x200B;ドロップダウンリストで分類を削除する変数を選択します。
 1. 「**[!UICONTROL 分類の編集]**」アイコンにマウスを移動して、「**[!UICONTROL 分類の削除]**」を選択します。
 1. 分類の削除ダイアログボックスで「**[!UICONTROL 削除]**」をクリックします。
