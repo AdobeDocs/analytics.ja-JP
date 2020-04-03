@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: よくある質問
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,8 +18,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * Analysis Workspace のセグメント：
 
-   * [セグメントを比較](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)できます。
-   * 比較の[ディメンションとしてセグメント](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html)を使用できます。
+   * [セグメントを比較](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/segment-comparison.html)できます。
+   * 比較の[ディメンションとしてセグメント](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/segments_as_dimensions.html)を使用できます。
    * [フォールアウト分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html)でセグメントを使用できます。
 
 * [レポートやプロジェクトに複数のセグメントを適用](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)できます。
@@ -42,7 +42,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。または
 
-* セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」をクリックします。![](assets/add_button.png)
+* セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」 をクリックします。![](assets/add_button.png)
 
     または
 
@@ -74,9 +74,9 @@ Reports &amp; Analytics のセグメントドロップダウンは、より豊�
 
 **セグメントの使用、作成および管理に必要な権限と許可**
 
-デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
+デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
-管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[詳細...](/help/components/c-segmentation/seg-reference/seg-rights.md)
+管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[さらに詳しく...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
 **社内のすべてのセグメントを表示できますか？**
 
@@ -109,13 +109,13 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 * 自分が所有しているセグメントを確認します。
 * セグメントを適切なセグメントライブラリに追加します。
 * 正規のセグメントを承認します。
-* セグメントのタグ付け[ベストプラクティス](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
+* [ベストプラクティス](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
 
 ## レガシーセグメントの管理 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 **既存のセグメントへの影響**
 
-既存のセグメントは、引き続きこれまでと同様に機能します。既存のセグメントが適用されたレポートも、これまでと同様に適切に機能します。[こちら](/help/components/c-segmentation/seg-transition.md)を参照してください。
+既存のセグメントは、引き続きこれまでと同様に機能します。既存のセグメントが適用されたレポートも、これまでと同様に適切に機能します。[さらに詳しく...](/help/components/c-segmentation/seg-transition.md)
 
 従来の事前定義されたスイートセグメントは、ほとんどがセグメントテンプレートとしてセグメントビルダーに移行されます。セグメントテンプレートは、一般的な閲覧者を含むカスタムセグメントをすばやく作成するために部品として利用できます。セグメントテンプレートは、レポートに直接適用できませんが、カスタムセグメントには容易に保存できます。
 
@@ -326,7 +326,7 @@ seg_definition.xml
  </tbody> 
 </table>
 
-## 既知の値を持つ文字列ベースのディメンションの変更 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## 既知の値を持つ文字列ベースのディメンションの変更{#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 既知の値のセットを持つ文字列ベースのディメンションは列挙型に変更されました。これらのディメンションを使用してセグメントを作成すると、リストにすべての既知の値が事前に設定されます。演算子は等号のみがサポートされます。したがって、必要な値をすばやく正確にセグメント化でき、制限の緩いマッチングによって意図しない値が選択されることはありません。
 
@@ -348,7 +348,7 @@ seg_definition.xml
 | モバイルのブックマークの長さ | Java 有効 | 有料検索 |
 | モバイルの URL の長さ | 言語 |  |
 
-## 既知の値を持つ整数値ベースのディメンションの変更 {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 既知の値を持つ整数値ベースのディメンションの変更{#section_84A8AAD0344148AD9F9211D3EB271903}
 
 既知の値のセットを持つ整数値ベースのディメンションは列挙型の範囲に分割されたので、特定の範囲に対してセグメントをすばやく定義できます。これらの列挙型リストには、ディメンション名の後に「- グループ」が付きます。次のスクリーンショットに、以前および新しいセグメントビルダーインターフェイスを使用して、これらのディメンションをセグメント化する方法を示します。
 
