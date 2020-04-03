@@ -3,7 +3,7 @@ description: 顧客が最初の品目を追加して、買い物かごを開い�
 title: 買い物かごを開く
 topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
