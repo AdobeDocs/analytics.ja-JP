@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -114,11 +114,11 @@ source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
          + [アラートマネージャー](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [インテリジェントアラート - 使用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + Workspace FAQ {#workspace-faq}
-      + [よくある質問](analysis-workspace/workspace-faqs/faq.md)
-      + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faqs/optimizing-performance.md)
-      + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
-      + [Analysis Workspace の制限](analysis-workspace/workspace-faqs/aw-limitations.md)
-      + [管理要件](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
+      + [よくある質問](analysis-workspace/workspace-faq/faq.md)
+      + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
+      + [Analysis Workspace の制限](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [管理要件](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder ヘルプ](report-builder/home.md)
    + [Report Builder の新機能](report-builder/whats-new-arb.md)
