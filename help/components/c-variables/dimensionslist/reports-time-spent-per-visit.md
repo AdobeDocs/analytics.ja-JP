@@ -3,7 +3,7 @@ description: 'null'
 title: 訪問別滞在時間
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -37,6 +37,6 @@ Adobe Analytics では、Analytics レポートでの滞在時間を判断する
    * 10 ～ 15 時間
    * 15 時間以上
 
-> [!NOTE] [訪問](../c-metrics/metrics-visit.md)は通常、12 時間のアクティビティの後に終了します。ただし、タイムスタンプ付きのヒットまたはデータソースを使用すると、訪問回数が 12 時間を超える可能性があります。
+> [!NOTE] [ 訪問](../c-metrics/metrics-visit.md)は通常、12 時間のアクティビティの後に終了します。ただし、タイムスタンプ付きのヒットまたはデータソースを使用すると、訪問回数が 12 時間を超える可能性があります。
 
 このディメンションは訪問ベースです。このディメンションを、[ページでの滞在時間](reports-time-spent-on-page.md)（ヒットベースのディメンション）と比較します。
