@@ -2,7 +2,7 @@
 description: パスファインダーレポートの目標は、フルパスをフラグメントに分解するのをサポートし、サイトの最適化に役立つ精密なパターンを作り出すことです。
 title: パスファインダー
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
