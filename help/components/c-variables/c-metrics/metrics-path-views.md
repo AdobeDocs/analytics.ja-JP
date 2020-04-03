@@ -1,9 +1,9 @@
 ---
-description: パス表示指標はパスデータに基づきますが、持続的 cookie を許容するすべての訪問者のパスデータが追跡されます。
+description: パス表示指標はパスデータに基づきますが、永続的な Cookie を許容するすべての訪問者のパスデータが追跡されます。
 title: パス表示
 topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
