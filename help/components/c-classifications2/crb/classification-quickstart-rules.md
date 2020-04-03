@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類ルール
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
-| 次で始まる | em: | チャネル | 電子メール |
-| 次で終わる | Sale | タイプ | Sale |
+| 次の語句で始まる | em: | チャネル | 電子メール |
+| 次の語句で終わる | Sale | タイプ | Sale |
 | 次を含む | 2013 | 年 | 2013 |
 
 ## ルールの処理方法 {#how-rules-are-processed}
@@ -55,7 +55,7 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-*    [管理ツール](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)で、分類の[!UICONTROL グループ権限]を指定します。
+*    [管理ツール](https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html)で、分類の[!UICONTROL グループ権限]を指定します。
 
 * **正規表現**:[分類ルールの正規表現](/help/components/c-classifications2/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -78,7 +78,7 @@ about_classification_rules.xml
 
 * キーが既に分類済みで、「[分類を上書き](/help/components/c-classifications2/crb/classification-rule-definitions.md)」を選択していない。
 
-   分類の上書きは、[](/help/components/c-classifications2/crb/classification-quickstart-rules.md)ルールを追加およびアクティブ化するときと、データコネクタの統合をアクティブ化するときに行うことができます（データコネクタの場合、ルールは開発センターでパートナーによって作成され、[!UICONTROL 分類ルールビルダー]に表示されます）。
+   分類の上書きは、[ルールを追加およびアクティブ化する](/help/components/c-classifications2/crb/classification-quickstart-rules.md)ときと、データコネクタの統合をアクティブ化するときに行うことができます（データコネクタの場合、ルールは開発センターでパートナーによって作成され、[!UICONTROL 分類ルールビルダー]に表示されます）。
 
 * 「[分類を上書き](/help/components/c-classifications2/crb/classification-rule-definitions.md)」を有効にした後であっても、キーを上書きするときに指定された時間枠が経過した後、分類されたキーがデータに表示されていない。
 * キーが分類されず、約 1 ヶ月前から始まる時間枠が経過した後もキーが [!DNL Adobe Analytics] に渡されない。
@@ -103,7 +103,7 @@ regex_classification_rules.xml
 * [正規表現 - 特定の文字の分類](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
 * [正規表現 - 様々な長さのトラッキングコードの一致](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
 * [正規表現 - 「含まない」の例](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
-* [正規表現 - 参照表](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
+* [正規表現 - 参照テーブル](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
 > [!NOTE]ベストプラクティスとして、正規表現は、区切り文字を使用するトラッキングコードに最も適しています。
 
@@ -146,11 +146,11 @@ regex_classification_rules.xml
 | 正規表現 | 文字列または一致結果 | 対応する一致グループ |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
-| 構文の構築 | `^`= 行の先頭 () = 文字をグループ化し、括弧内の一致する文字を抽出します。`(.+)` = 1 ( . ) 文字と ( + ) 任意の  \ = 文字列の先頭。`$` = 前の文字（または文字グループ）が行の末尾であることを示しています。 |
+| 構文の構築 | `^`= 行の先頭 () = 文字をグループ化し、括弧内の一致する文字を抽出します。`(.+)` = 1 ( .) 文字と ( + ) 任意の  \ = 文字列の先頭。`$` = 前の文字（または文字グループ）が行の末尾であることを示しています。 |
 
 正規表現の文字が何を意味しているかについては、[正規表現 - 参照表](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)を参照してください。
 
-## 正規表現 - 特定の文字の分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
+## 正規表現 - 特定の文字の分類{#section_5D300C03FA484BADACBFCA983E738ACF}
 
 正規表現を使用する 1 つの方法は、文字を含む文字列内の特定の文字を分類することです。例えば、次のトラッキングコードに 2 つの重要な文字が含まれているとします。
 
@@ -226,7 +226,7 @@ c:d:yoyo
 
 この例では、`a:b:1313` は一致を示していません。
 
-## 正規表現 - 参照表 {#section_0211DCB1760042099CCD3ED7A665D716}
+## 正規表現 - 参照テーブル {#section_0211DCB1760042099CCD3ED7A665D716}
 
 | 式 | 説明 |
 |---|---|
@@ -288,7 +288,7 @@ rule_priority.xml
 | 1 | 次を含む | カウボーイズ | 市区町村 | Dallas |
 | 2 | 次を含む | ブロンコス | 市区町村 | Denver |
 
-ユーザーが「*`Cowboys vs. Broncos`* と呼ばれる iFrame を読み込みます。ルールビルダーによってルールの一致に競合が発見され、この検索では 2 番目のルールの分類（Denver）が適用されます。
+ユーザーが&#x200B;*`Cowboys vs. Broncos`* を検索すると、ルールビルダーによってルールの一致に競合が発見され、この検索では 2 番目のルールの分類（Denver）が適用されます。
 
 ## ルールセットに対する分類ルールの追加 {#add-classification-to-rule-set}
 
@@ -319,7 +319,7 @@ t_classification_rule.xml
    レポートスイートは、次の条件を満たした場合 *`only`* このページに表示されます。
 
    * レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
-   この前提条件の説明については、*分類ルールセット`Variable`の*[](/help/components/c-classifications2/crb/classification-rule-set.md) を参照してください。）
+   この前提条件の説明については、[分類ルールセット](/help/components/c-classifications2/crb/classification-rule-set.md)の *`Variable`* を参照してください。）
 
    * **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/c-classifications2/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
 
@@ -393,7 +393,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. （オプション）分類を上書きするには、「**** *`<selection>`* の分類を上書き」を有効にします。
+1. （オプション）分類を上書きするには、「**[!UICONTROL  ]** の分類を上書き&#x200B;*`<selection>`* 」を有効にします。
 
    このオプションを使用すると、影響を受けるキーの既存の分類を上書きできます。
 
