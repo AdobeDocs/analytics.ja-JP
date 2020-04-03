@@ -3,7 +3,7 @@ description: パーティシペーション指標は、成功イベントの全�
 title: パーティシペーション
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,11 +20,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * **無効**：各コンバージョンイベントでのデフォルトの状態。このイベントではパーティシペーションデータは収集されません。
 * **有効**：このイベントではパーティシペーションデータが収集されます。
 
-> [!NOTE]パーティシペーションは、最大 100 個のカスタムイベントに対して有効にすることができます。100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
+> [!NOTE]パーティシペーションは、最大 100 個のカスタムイベントに対して有効にすることができます。100 を超える場合は、[計算指標](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/participation_metric.html)ビルダーでパーティシペーション指標を作成できます。
 
 有効になったパーティシペーション指標は、すべてのコンバージョンレポートで自動的に利用できるようになります。ただし、リクエストに応じて特定のトラフィックレポートでパーティシペーション指標を表示することもできます。オプションで、パーティシペーション指標を特定のカスタムトラフィックレポートで使用することをリクエストします。
 
-## 売上高パーティシペーションの例 {#section_DAB6C348201B454BB4ED01313AA777AF}
+## 売上高パーティシペーションの例{#section_DAB6C348201B454BB4ED01313AA777AF}
 
 次のように想定します。
 
