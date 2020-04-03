@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: 仮想レポートスイートのワークフロー
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 戦略を決定する際は、[グローバル／マルチスイートタギングの考慮事項](/help/components/vrs/vrs-considerations.md)とよくある質問を確認してください。
 
-![](assets/step2_icon.png)[親レポートスイートに 1 つまたは複数のセグメントを適用して仮想レポートスイートを作成](/help/components/vrs/c-workflow-vrs/vrs-create.md)します。
+![](assets/step2_icon.png)親レポートスイートに 1 つまたは複数のセグメントを適用して[仮想レポートスイートを作成](/help/components/vrs/c-workflow-vrs/vrs-create.md)します。
 
 仮想レポートスイートは、仮想レポートスイートマネージャー（コンポーネント／仮想レポートスイート）で作成します。
 
@@ -37,6 +37,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/step4_icon.png)データをセグメント表示できるよう、プロジェクトまたはレポートを開いて仮想レポートスイートを選択します。
 
-![](assets/step5_icon.png)[仮想レポートスイートを管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)します。
+![](assets/step5_icon.png) [ 仮想レポートスイートを管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)します。
 
 仮想レポートスイートマネージャーでは、仮想レポートスイートの編集、追加、タグ付け、削除、名前の変更、承認、コピー、エクスポートおよびフィルターを実行できます。仮想レポートスイートマネージャーは管理者以外には表示されません。
