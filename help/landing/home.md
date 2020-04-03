@@ -2,7 +2,7 @@
 title: Adobe Analytics テクニカルドキュメントガイド
 description: Analytics のユーザーガイドとリソース
 translation-type: tm+mt
-source-git-commit: 52585c146d9213aa87368cec43ccc5571ecbb344
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 52585c146d9213aa87368cec43ccc5571ecbb344
 
 | 新しいトピックおよび注目すべきトピック | 主な Analytics リソース |
 | --- | --- |
-| <ul><li>[地域データ収集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)</li><li>[Analytics 製品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>参照：[2019 年ドキュメントのアップデート](doc-updates.md) | <ul><li> [リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics YouTube チャンネル](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics のチュートリアルとビデオ](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[トレーニング（教室内および仮想教室）](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[カスタマーケアにお問い合わせください](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[地域データ収集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 製品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>参照：[2019 年ドキュメントのアップデート](doc-updates.md) | <ul><li> [リリースノート](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics YouTube チャンネル](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics のチュートリアルとビデオ](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[トレーニング（教室内および仮想教室）](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[カスタマーケアにお問い合わせください](https://helpx.adobe.com/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
