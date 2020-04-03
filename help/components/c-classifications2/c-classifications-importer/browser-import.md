@@ -4,7 +4,7 @@ subtopic: Classifications
 title: ブラウザーインポート
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ブラウザーを使用して分類データをインポート（アップロード）できます。この方法では、分類データのアップロードが単一のレポートスイートに制限されます。
 
-**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;に移動します。
+**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**
 
 ## 分類ブラウザーインポート - フィールドの説明 {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
