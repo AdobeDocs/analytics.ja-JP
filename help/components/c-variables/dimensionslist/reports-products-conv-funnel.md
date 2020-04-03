@@ -3,7 +3,7 @@ description: 商品ビュー、買い物かごへの追加、注文件数、売�
 title: 製品コンバージョンファネル
 topic: Reports
 uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
