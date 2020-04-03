@@ -3,7 +3,7 @@ description: 機体番号送信をサポートしているかどうかでモバ�
 title: 機体番号送信（オン／オフ）
 topic: Reports
 uuid: 96742bf4-3b26-4cf7-8599-925aabee7e87
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
