@@ -3,7 +3,7 @@ description: クライアントが使用するオペレーティングシステ�
 title: オペレーティングシステム
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 このレポートでは、新しいデバイスがリリースされて認識されると、持続的に更新される動的デバイスデータを使用します。例えば、今月中にリリースされる新しいタブレットは、デバイスデータベースにまだ存在していないので、誤認される可能性があります。新しいデバイスでデバイスデータベースが更新された結果、変更がすべてのレポート日付に適用されます。そのため、時間が経過すると、このレポートでは過去の日付にわずかなばらつきが見られることがあります。原則として、最新のレポートには、すべてのレポート期間に関して最も正確なデータが表示されます。
 
-## 変更点 {#section_B028CE3DDDC4401FA0609F908885A5DD}
+## 変更点{#section_B028CE3DDDC4401FA0609F908885A5DD}
 
 <table id="table_82084301B1044103BB3B293595BC86BD"> 
  <thead> 
@@ -42,20 +42,20 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 2014 年 4 月 17 日 </td> 
+   <td colname="col1"> 2014 年 4 月 18 日 </td> 
    <td colname="col2">このレポートで、Macintosh が個別の OS バージョンに分割されました。これらの OS は、現在は、[major version]。[minor version]。[update] としてレポートされます（例：10.9.2）。 <p><b>4 月 17 日以前</b> </p> 
     <ul id="ul_57A2173601624E959562A1CE6414184D"> 
      <li id="li_46B45295792B48B2A2EAA54533BE7C7B">すべての Apple Macintosh コンピューターが Macintosh とレポートされました。 </li> 
-    </ul> <p><b>4 月 17 日以降</b> </p> 
+    </ul> <p><b>4 月 18 日以降</b> </p> 
     <ul id="ul_E3C8E90AE6F84D509DE4288ECFF18D8C"> 
      <li id="li_9F5217DA906E49298551D153628D6AB1">OS X 10 = バージョン OS X 10.0 ～ 10.7 </li> 
      <li id="li_BCDAE2E90CC14B77A5C17EFA60678382">OS X 10.8 </li> 
      <li id="li_8765C05D409B4AABB9860AE419EE4369">OS X 10.9 </li> 
-     <li id="li_09050B76DD9C4F639F83A97E85B16211">4 月 17 日以降、レポートには Macintosh と表示されなくなりました。 </li> 
+     <li id="li_09050B76DD9C4F639F83A97E85B16211">4 月 18 日以降、レポートには Macintosh と表示されなくなりました。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 2013 年 11 月 18 日 </td> 
+   <td colname="col1"> 2013 年 11 月 19 日 </td> 
    <td colname="col2"> オペレーティングシステムレポートにモバイルオペレーティングシステムが追加されました。これまで、モバイルオペレーティングシステムは「指定なし」とレポートされていました。今後、「指定なし」はモバイルオペレーティングシステムの特定のバージョンに置き換えられます。 </td> 
   </tr> 
  </tbody> 
