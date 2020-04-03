@@ -3,7 +3,7 @@ description: 米国を各販売地域に分けます。各販売地域のイン�
 title: 指定販売地域（DMA）
 topic: Reports
 uuid: c1fea458-9a90-4440-b62f-d8d85090e9f8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
