@@ -3,7 +3,7 @@ description: 「新規エンゲージメント」は、ファーストタッチ�
 title: 新規エンゲージメント
 topic: Metrics
 uuid: 2d1dc194-10f3-4bfd-ba60-2a57fc2ad2a8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,4 +13,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 「新規エンゲージメント」は、ファーストタッチチャネルが訪問者に新しく設定されたことを示すマーケティングチャネルレポート指標です。これがおこなわれる可能性があるのは、サイトに訪問者が初めてアクセスしたときか、それまでのファーストタッチチャネルの有効期限が切れた後で訪問者がサイトに戻ったときです（管理ツールで「訪問者のエンゲージメント期間」を調整することにより、必要に応じてレポートスイートでマーケティングチャネルの有効期限を設定することができます。レポートスイートに設定されていない場合、有効期限はデフォルトで、訪問者の最後の訪問または訪問者のヒットから 30 日間に設定されます）。
 
-[マーケティングチャネルヘルプ](https://marketing.adobe.com/resources/help/en_US/mchannel/)
+[マーケティングチャネルヘルプ](https://marketing.adobe.com/resources/help/ja_JP/mchannel/)
