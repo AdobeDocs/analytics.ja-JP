@@ -3,7 +3,7 @@ description: サポートされるデジタル著作権管理（DRM）のタイ�
 title: デジタル著作権管理（DRM）
 topic: Reports
 uuid: 8064b942-8f5c-433a-a793-1e16496ab59c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
