@@ -3,7 +3,7 @@ description: すべての製品が特定の期間に発生させた収益の量�
 title: 売上高
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * このレポートが正しくデータを収集するために満たす必要のある要件があります。同じイメージリクエスト内で以下のことが起きる必要があります。
 
-   * [!UICONTROL 購入]イベントが        `s.events` 変数にも取り込まれます。
+   * [!UICONTROL 購入]イベントが           `s.events` 変数にも取り込まれます。
 
    * `products` 変数が価格フィールドで値と共に定義されている必要があります。
    * この例では $35.99 が売上高レポートに渡されます。
@@ -40,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * [!UICONTROL 売上高]では、ある期間での合計金額が最も近い通貨値に丸められます。それぞれの個別製品やヒットが丸められることはありません。
 * Analytics では、それぞれの日が最も近い整数の通貨に丸められるので、それぞれの日の合計を月別合計と比較すると、非常に小さい金額のずれがあります。これは、月別合計が丸められたそれぞれの日の合計ではなく、合計を最も近い整数の通貨に丸めた値であるためです。
-* 売上高が最も近い通貨に丸められないレポートを作成するには、       [計算指標](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)を使用します。
+* 売上高が最も近い通貨に丸められないレポートを作成するには、          [計算指標](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/)を使用します。
 * `purchaseID` 変数を使用しない限り、ユーザーがページを更新すると、このデータがアドビに複数回送信されるので、売上高が水増しされる場合があります。
 * 時間別の分類はレポートスイートのタイムゾーンに基づいています。
 * このレポートには行項目は含まれていません。トレンドフォーマットでのみ表示できます。
@@ -62,7 +62,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 時間別の分類は使用できません。
 
-## 製品固有のプロパティ {#section_ED87FFD020634453AABE86B0248BE69B}
+## 製品固有のプロパティ{#section_ED87FFD020634453AABE86B0248BE69B}
 
 * このレポートにアクセスするには、**[!UICONTROL コンバージョン]**／**[!UICONTROL 購入]**／**[!UICONTROL 売上高]**&#x200B;を開きます。
 
