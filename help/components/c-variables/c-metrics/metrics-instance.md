@@ -4,7 +4,7 @@ keywords: instances
 title: インスタンス
 topic: Metrics
 uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 変数に対して特定の値が設定された回数。
 
-インスタンス は、すべてのヒットタイプに対してカウントされますが、持続性のために後続のヒットで変数に対して値が記録された場合はカウントされません。
+インスタンスは、すべてのヒットタイプに対してカウントされますが、持続性のために後続のヒットで変数に対して値が記録された場合はカウントされません。
 
 例えば、ユーザーが [!DNL example.com] を経由して訪問した場合、サイトでの最初のイメージリクエストには [!DNL example.com] のリファラーが含まれます。この値が設定されている場合、該当する訪問で表示されたすべてのページでこのリファラーが記録されますが、[!DNL example.com] に対してインスタンスが 1 とカウントされます。
 
