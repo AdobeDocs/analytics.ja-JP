@@ -3,7 +3,7 @@ description: 訪問者のブラウザーの言語設定をキャプチャし、�
 title: 言語
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL 言語]**
 
-このレポートは、http ヘッダーリクエストの accept-language の部分に基づいて生成されます。language-accept HTTP  ヘッダーは、各ブラウザーの言語設定で設定されます。
+このレポートは、http ヘッダーリクエストの accept-language の部分に基づいて生成されます。language-accept HTTP ヘッダーは、各ブラウザーの言語設定で設定されます。
 
 [https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 
