@@ -3,7 +3,7 @@ description: 訪問の最後の値として特定の値が取得された回数�
 title: 出口
 topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
