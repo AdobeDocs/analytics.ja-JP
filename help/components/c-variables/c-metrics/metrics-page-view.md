@@ -3,7 +3,7 @@ description: サーバーコールが送信されるたびに、ページビュ�
 title: ページビュー
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
