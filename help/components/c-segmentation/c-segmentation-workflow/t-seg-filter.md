@@ -3,7 +3,7 @@ description: タグ、所有者およびその他のフィルター（すべて�
 title: セグメントのフィルタリング
 topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    | その他のフィルター／すべてを表示 | **（管理者のみ）**&#x200B;セグメント、所有者および最終修正日をすべて表示します。 |
    | その他のフィルター／自分が所有 | 自分が所有しているセグメントをすべて表示します。 |
    | その他のフィルター／自分と共有 | 他のユーザーが自分と[共有](/help/components/c-segmentation/c-segmentation-workflow/t-seg-share.md)しているセグメントをすべて表示します。 |
-   | その他のフィルター／お気に入り | マークしたすべてのセグメントを表示[お気に入り](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md)に登録しているセグメントをすべて表示します。 |
-   | その他のフィルター／承認済み | 正式に  [承認された](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md)セグメントをすべて表示します。 |
+   | その他のフィルター／お気に入り | [お気に入り](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md)に登録しているセグメントをすべて表示します。 |
+   | その他のフィルター／承認済み | 正式に     [承認された](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md)セグメントをすべて表示します。 |
    | セグメントを検索 | セグメントを名前で検索できます。 |
 
