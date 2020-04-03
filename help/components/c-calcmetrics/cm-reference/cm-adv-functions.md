@@ -1,8 +1,8 @@
 ---
-description: これらの関数にアクセスするには、関数ドロップダウンリストの「アドバンスを表示」を選択します。
+description: これらの関数にアクセスするには、関数ドロップダウンリストの「詳細を表示」を選択します。
 title: リファレンス：高度な関数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 # リファレンス：高度な関数
 
-これらの関数にアクセスするには、**[!UICONTROL 関数]**&#x200B;ドロップダウンリストの「[!UICONTROL **アドバンスを表示]**」を選択します。
+これらの関数にアクセスするには、**[!UICONTROL 関数]**&#x200B;ドロップダウンリストの「**[!UICONTROL 詳細を表示]**」を選択します。
 
 ## 表関数と行関数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
 表関数とは、表のどの行についても出力が同じになる関数です。行関数とは、表の各行で出力が異なる関数です。
 
-## ゼロを含むパラメーターとは {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## ゼロを含むパラメーターとは{#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 このパラメーターは、計算にゼロを含むかどうかを示します。ゼロは「何もない」ことを意味する場合もあれば、重要な意味を持つ場合もあります。
 
@@ -36,7 +36,7 @@ AND(logical_test1,[logical_test2],...)
 
 | 引数 | 説明 |
 |---|---|
-| *logical_test1* | 必須. TRUE または FALSE で示される値または式です。 |
+| *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
 | *logical_test2* | (オプション)TRUE または FALSE として求める追加の条件です。 |
 
 ## 個別概算カウント（ディメンション） {#concept_000776E4FA66461EBA79910B7558D5D7}
@@ -51,7 +51,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | 個別の項目数を概算するディメンションです。 |
 
-## 使用例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
+## 使用例{#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 個別概算カウント（顧客 ID eVar）は、この関数の一般的な使用例です。
 
@@ -63,11 +63,11 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-customers.png)
 
-## 超過したユニーク数 {#section_9C583858A9F94FF7BA054D1043194BAA}
+## 超過したユニーク数{#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
+Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://marketing.adobe.com/resources/help/ja_JP/reference/metrics_uniques_high_numbers.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
 
-## カウント関数の比較 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+## カウント関数の比較{#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() は、Count() 関数および RowCount() 関数を改良したものです。作成した指標を任意のディメンションレポートで使用し、個別のディメンションに関して概算した項目数をレンダリングできます。例としては、モバイルデバイスタイプレポートで使用される顧客 ID 数があります。
 
@@ -83,7 +83,7 @@ ACOS(metric)
 
 | 引数 |  |
 |---|---|
-| *metric* | -1 ～ 1 で求める角度のコサインです。 |
+| *metric*  | -1 ～ 1 で求める角度のコサインです。 |
 
 ## アークサイン（行） {#concept_90F00DEC46BA47F8A21493647D9668CD}
 
@@ -95,7 +95,7 @@ ASIN(metric)
 
 | 引数 |  |
 |---|---|
-| *metric* | -1 ～ 1 で求める角度のコサインです。 |
+| *metric*  | -1 ～ 1 で求める角度のコサインです。 |
 
 ## アークタンジェント（行） {#concept_3408520673774A10998E9BD8B909E90C}
 
@@ -107,11 +107,11 @@ ATAN(metric)
 
 | 引数 |  |
 |---|---|
-| *metric* | -1 ～ 1 で求める角度のコサインです。 |
+| *metric*  | -1 ～ 1 で求める角度のコサインです。 |
 
 ## 指数回帰：予測 Y（行） {#concept_25615693312B4A7AB09A2921083502AD}
 
-「最小二乗」法を使用して、 ) を基に最良の当てはめ線を計算し、指定されている既知の x 値（metric_X）に対する予測 y 値（metric_Y）を算出します。
+「最小二乗」法を使用して最良の当てはめ線を計算し、指定されている既知の x 値（metric_X）に対する予測 y 値（metric_Y）を算出します。
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
@@ -157,7 +157,7 @@ CEILING(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 丸める指標です。 |
+| *metric*  | 丸める指標です。 |
 
 ## コサイン（行） {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
@@ -169,7 +169,7 @@ COS(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | コサインを求めるラジアンによる角度です。 |
+| *metric*  | コサインを求めるラジアンによる角度です。 |
 
 ## 立方根 {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
@@ -181,7 +181,7 @@ CBRT(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 立方根を求める指標です。 |
+| *metric*  | 立方根を求める指標です。 |
 
 ## 累積 {#concept_3D3347797B6344CE88B394C3E39318ED}
 
@@ -263,7 +263,7 @@ FLOOR(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 丸める指標です。 |
+| *metric*  | 丸める指標です。 |
 
 ## 以下の値を超える {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
@@ -283,7 +283,7 @@ COSH(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | ハイパボリックコサインを求めるラジアンによる角度です。 |
+| *metric*  | ハイパボリックコサインを求めるラジアンによる角度です。 |
 
 ## ハイパボリックサイン（行） {#concept_96230731600C45E3A4E823FE155ABA85}
 
@@ -295,7 +295,7 @@ SINH(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | ハイパボリックサインを求めるラジアンによる角度です。 |
+| *metric*  | ハイパボリックサインを求めるラジアンによる角度です。 |
 
 ## ハイパボリックタンジェント（行） {#concept_BD249013732F462B9863629D142BCA6A}
 
@@ -307,7 +307,7 @@ TANH(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | ハイパボリックタンジェントを求めるラジアンによる角度です。 |
+| *metric*  | ハイパボリックタンジェントを求めるラジアンによる角度です。 |
 
 ## IF（行） {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -319,7 +319,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | 引数 | 説明 |
 |---|---|
-| *logical_test* | 必須. TRUE または FALSE で示される値または式です。 |
+| *logical_test* | 必須。TRUE または FALSE で示される値または式です。 |
 | *[value_if_true]* | *logical_test* 引数の値が TRUE の場合に返す値です（含まれない場合、この引数のデフォルト値は 0 です）。 |
 | *[value_if_false]* | *logical_test* 引数の値が FALSE の場合に返す値です（含まれない場合、この引数のデフォルト値は 0 です）。 |
 
@@ -357,7 +357,7 @@ LOG10(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 10 を底とする対数を求める正の実数です。 |
+| *metric*  | 10 を底とする対数を求める正の実数です。 |
 
 ## 対数回帰：相関係数（表） {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -423,7 +423,7 @@ LN(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 自然対数を求める正の実数です。 |
+| *metric*  | 自然対数を求める正の実数です。 |
 
 ## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
@@ -435,9 +435,9 @@ NOT(logical)
 
 | 引数 | 説明 |
 |---|---|
-| *logical* | 必須. TRUE または FALSE で示される値または式です。 |
+| *logical* | 必須。TRUE または FALSE で示される値または式です。 |
 
-NOT を使用する場合は、式（&lt;、&gt;、=、&lt;&gt; など）が0 と 1 のどちらの値を返すかを把握しておく必要があります。
+NOT を使用する場合は、式（&lt;、>、=、&lt;> など）が0 と 1 のどちらの値を返すかを把握しておく必要があります。
 
 ## 等しくない {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -455,7 +455,7 @@ OR(logical_test1,[logical_test2],...)
 
 | 引数 | 説明 |
 |---|---|
-| *logical_test1* | 必須. TRUE または FALSE で示される値または式です。 |
+| *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
 | *logical_test2* | (オプション)TRUE または FALSE として求める追加の条件です。 |
 
 ## 円周率 {#concept_41258789660D4A33B5FB86228F12ED9C}
@@ -634,7 +634,7 @@ SIN(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | サインを求めるラジアンによる角度です。 |
+| *metric*  | サインを求めるラジアンによる角度です。 |
 
 ## t スコア {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
@@ -676,7 +676,7 @@ TAN (metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | タンジェントを求めるラジアンによる角度です。 |
+| *metric*  | タンジェントを求めるラジアンによる角度です。 |
 
 ## z スコア（行） {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
@@ -688,7 +688,7 @@ z スコアの式は次のようになります。
 
 ここで、[!DNL x] は生のスコア、[!DNL μ] は母集団の平均値、[!DNL σ] は母集団の標準偏差です。
 
-> [!NOTE][!DNL μ]（ミュー）および [!DNL σ]（シグマ）は、指標から自動的に計算されます。
+> [!NOTE] [!DNL μ] （ミュー）および [!DNL σ]（シグマ）は、指標から自動的に計算されます。
 
 Z スコア（指標）
 
@@ -701,7 +701,7 @@ Z スコア（指標）
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col1"> <i> metric</i>  </td> 
    <td colname="col2"> <p> 最初のゼロ以外の引数の値を返します。 </p> </td> 
   </tr> 
  </tbody> 
