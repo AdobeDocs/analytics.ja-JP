@@ -4,7 +4,7 @@ subtopic: Classifications
 title: トラフィック分類
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,14 +35,14 @@ t_classification_add_traffic.xml
 1. スイートのヘッダーで&#x200B;**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. レポートスイートを選択します。
 1. 「**[!UICONTROL 分類タイプの選択]**」フィールドで分類の追加先の変数を選択します。
-1. **[!UICONTROL 設定を編集]**／**[!UICONTROL トラフィック]**／**[!UICONTROL トラフィック分類]**&#x200B;の順にクリックします。
+1. **[!UICONTROL 設定の編集]**／**[!UICONTROL トラフィック]**／**[!UICONTROL トラフィック分類]**&#x200B;の順にクリックします。
 
    ![ステップ情報](assets/traffic-classification.png)
 
 1. 「**[!UICONTROL 分類の編集]**」アイコンにマウスを移動して、「**[!UICONTROL 分類の追加]**」または「**[!UICONTROL 分類の編集]**」を選択します。
 1. **[!UICONTROL テキスト分類]**&#x200B;ダイアログボックスで、必要に応じて分類を設定します。
 
-   **[!UICONTROL 名前：]**&#x200B;分類に名前を付けます。
+   **[!UICONTROL 名前]**：分類に名前を付けます。
 
    **[!UICONTROL 説明]**：詳細な説明を入力します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
