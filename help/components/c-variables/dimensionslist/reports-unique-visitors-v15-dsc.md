@@ -1,17 +1,17 @@
 ---
-description: サイトにアクセスした実訪問者の数を示します。各訪問者は、Web サイトの訪問回数に関係なく 1 回だけカウントされます。
-title: 実訪問者数
+description: サイトにアクセスした個別訪問者の数を示します。各訪問者は、Web サイトの訪問回数に関係なく 1 回だけカウントされます。
+title: 個別訪問者数
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 実訪問者数
+# 個別訪問者数
 
-サイトにアクセスした実訪問者の数を示します。各訪問者は、Web サイトの訪問回数に関係なく 1 回だけカウントされます。
+サイトにアクセスした個別訪問者の数を示します。各訪問者は、Web サイトの訪問回数に関係なく 1 回だけカウントされます。
 
 **サンプルデータ**
 
@@ -54,15 +54,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 実訪問者数レポート - トレンド指標 {#section_372C08A881D34BBF811C1DE0A1460617}
+## 個別訪問者数レポート - トレンド指標{#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL 実訪問者数]レポートの動作は、Ad Hoc Analysis と同様です。ヒットで訪問が発生するたびに、訪問者がそのヒットでカウントされます。各ページは、そのページで訪問者が発生したというクレジットを受け取ります。
+[!UICONTROL 個別訪問者数]レポートの動作は、Ad Hoc Analysis と同様です。ヒットで訪問が発生するたびに、訪問者がそのヒットでカウントされます。各ページは、そのページで訪問者が発生したというクレジットを受け取ります。
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> ページ </th> 
-   <th colname="col2" class="entry"> 実訪問者数 </th> 
+   <th colname="col2" class="entry"> 個別訪問者数 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -99,24 +99,24 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 日付 </th> 
-   <th colname="col2" class="entry"> 実訪問者数 </th> 
+   <th colname="col2" class="entry"> 個別訪問者数 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 1 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 2 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 3 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 4 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -126,32 +126,32 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-**[!UICONTROL 個別訪問者数レポート]を&#x200B;*`Page`*で分類したもの。**
+**[!UICONTROL 個別訪問者数レポート]を *`Page`*.**
 
-[!UICONTROL 実訪問者数レポート]用のページを選択できます。次のレポートでは、訪問者が以下の日付にページ A を訪問します。
+[!UICONTROL 個別訪問者数レポート]用のページを選択できます。次のレポートでは、訪問者が以下の日付にページ A を訪問します。
 
 <table id="table_2ABA17B19E0D4F92AAB003BE784DA9E0"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 日付 </th> 
-   <th colname="col2" class="entry"> 実訪問者数 </th> 
+   <th colname="col2" class="entry"> 個別訪問者数 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 1 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 2 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 3 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 4 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -161,11 +161,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 期間ベースの実訪問者数（トレンド） {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
+## 期間ベースの個別訪問者数（トレンド）{#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
 
 時間別、日別、週別、月別、四半期別、および年別[!UICONTROL 訪問者数レポート]（トレンド）を実行できます。
 
-期間ベースの実訪問者は、指定された期間内の最初の訪問でのみカウントされます。例えば、時間別訪問者は、指定された時間内の最初の訪問でのみカウントされます。日別訪問者数は指定された日の最初の訪問でのみカウントされます。
+期間ベースの個別訪問者は、指定された期間内の最初の訪問でのみカウントされます。例えば、時間別訪問者は、指定された時間内の最初の訪問でのみカウントされます。日別訪問者数は指定された日の最初の訪問でのみカウントされます。
 
 <table id="table_FF14F05CDFDA4F2E92A62D9D751A1CAA"> 
  <thead> 
@@ -176,19 +176,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 1 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 2 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 3 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 4 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -209,19 +209,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 1 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 2 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 3 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 4 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -231,7 +231,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-指標合計は、レポートの日付範囲に基づいて変化する可能性があります。マーケティングレポートは、時間ベースの実訪問者数を日付範囲の最初から数え始めます。例えば、日付範囲が 1 月 2 日～ 1 月 3 日である場合、週別訪問者数について以下の結果が表示されます。
+指標合計は、レポートの日付範囲に基づいて変化する可能性があります。マーケティングレポートは、時間ベースの個別訪問者数を日付範囲の最初から数え始めます。例えば、日付範囲が 1 月 2 日～ 1 月 3 日である場合、週別訪問者数について以下の結果が表示されます。
 
 <table id="table_B695708BB22949E7BA293FE492D2EEA0"> 
  <thead> 
@@ -242,11 +242,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>2 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 2 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 3 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -260,11 +260,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 前の日付の代わりに後の日付を含めるように日付範囲を変更するには、セグメント化を使用します。例えば、日付範囲が引き続き（前の表のように）1 月 2 日～ 1 月 3 日であるとします。ページ = C であるセグメントを適用すると、1 月 2 日ではセグメントが渡されず、週別訪問者の最初のヒットは 1 月 3 日になります。代わりにページ = D であるセグメントを適用すると、1 月 2 日と 1 月 3 日の両方が除外されます。週別訪問者数の結果は表示されず、合計からも除外されます。
 
-**期間ベースの実訪問者数レポート**
+**期間ベースの個別訪問者数レポート**
 
 これらのレポートでは特定のページ、prop、および属性（例えばページ = A）が使用されます。
 
-期間ベースの実訪問者数指標を使用して[!UICONTROL ページレポート]のトレンドを表示するとします。期間ベースの実訪問者数レポート用に選択された分類や変数がある場合、マーケティングレポートは、訪問者と属性のペアの個別インスタンスをすべてカウントします。訪問者の最初のヒットにおいて、この処理が前の例と違う部分はありません。ページが異なる場合、後続のヒットでは、これらのレポートに上記のレポートに含まれないヒットが含まれます。
+期間ベースの個別訪問者数指標を使用して[!UICONTROL ページレポート]のトレンドを表示するとします。期間ベースの個別訪問者数レポート用に選択された分類や変数がある場合、マーケティングレポートは、訪問者と属性のペアの個別インスタンスをすべてカウントします。訪問者の最初のヒットにおいて、この処理が前の例と違う部分はありません。ページが異なる場合、後続のヒットでは、これらのレポートに上記のレポートに含まれないヒットが含まれます。
 
 ページ = A である週別訪問者数の場合、マーケティングレポートは 1 月 2 日を合計から除外します。この除外は、マーケティングレポートが既に週別訪問者を 1 月 1 日に数えているために発生します。以下に示すのは、ページ = A である週別訪問者数レポートです。
 
@@ -277,19 +277,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 1 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 2 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 3 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 4 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -310,19 +310,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 1 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 2 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 3 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 年 1 月 </p> </td> 
+   <td colname="col1"> <p>1 月 4 日 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -332,42 +332,42 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 非トレンドレポートにおける期間ベースの実訪問者指標 {#section_90B784F4E49F4930B3F0923B95958BA2}
+## 非トレンドレポートにおける期間ベースの個別訪問者指標{#section_90B784F4E49F4930B3F0923B95958BA2}
 
-非トレンドレポートには、[!UICONTROL ページレポート]上の週別訪問者数指標などの期間ベースの実訪問者指標を追加できます。
+非トレンドレポートには、[!UICONTROL ページレポート]上の週別訪問者数指標などの期間ベースの個別訪問者指標を追加できます。
 
 <table id="table_8651A42696B0404CAEAE0FC5522CC1C9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> ページ </th> 
-   <th colname="col02" class="entry"> 訪問の日付  </th> 
+   <th colname="col02" class="entry"> 訪問の日付 </th> 
    <th colname="col2" class="entry"> 訪問回数 - 週別訪問者数 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1 年 1 月 </p> </td> 
+   <td colname="col02"> <p>1 月 1 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>2 年 1 月 </p> </td> 
+   <td colname="col02"> <p>1 月 2 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>3 年 1 月 </p> </td> 
+   <td colname="col02"> <p>1 月 3 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>4 年 1 月 </p> </td> 
+   <td colname="col02"> <p>1 月 4 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>E </p> </td> 
-   <td colname="col02"> <p>5 年 1 月 </p> </td> 
+   <td colname="col02"> <p>1 月 5 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -384,29 +384,29 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> ページ </th> 
-   <th colname="col02" class="entry"> 訪問の日付  </th> 
+   <th colname="col02" class="entry"> 訪問の日付 </th> 
    <th colname="col2" class="entry"> 訪問数 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1 年 1 月 </p> </td> 
+   <td colname="col02"> <p>1 月 1 日 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>2 年 1 月 </p> </td> 
+   <td colname="col02"> <p>1 月 2 日 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>3 年 1 月 </p> </td> 
+   <td colname="col02"> <p>1 月 3 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>4 年 1 月 </p> </td> 
+   <td colname="col02"> <p>1 月 4 日 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -417,7 +417,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-ある属性を別の属性で分類する（例えば、*`page`* を&#x200B;*`eVar`* で分類する）ために、Analytics は、期間とページ（または相関性のある属性）の個別インスタンスごとに、期間ベースの実訪問者を割り当てます。
+ある属性を別の属性で分類する（例えば、*`page`* を&#x200B;*`eVar`* で分類する）ために、Analytics は、期間とページ（または相関性のある属性）の個別インスタンスごとに、期間ベースの個別訪問者を割り当てます。
 
 ページ A は 1 月 1 日に表示されているので、ページ A を eVar T、U で分類すると、1 月 2 日が除外されます。週別訪問者数については次の結果が表示されます。
 
@@ -444,7 +444,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 永続的な cookie {#section_81E139F08AEB4E30A06472856975EA1E}
+## 永続的な cookie{#section_81E139F08AEB4E30A06472856975EA1E}
 
 永続的な cookie は、以降の訪問で訪問者を識別できるよう、訪問と訪問の間も訪問者のコンピューター上に残ります。永続的な cookie を受け入れているユーザーと受け入れていないユーザーの割合を表示するには、**[!UICONTROL フィルター]**／**[!UICONTROL 永続的な cookie]** を選択します。
 
