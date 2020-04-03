@@ -3,7 +3,7 @@ description: 実際に表示されているブラウザーウィンドウのみ�
 title: ブラウザーの幅／高さ
 topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
