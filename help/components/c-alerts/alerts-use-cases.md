@@ -30,7 +30,7 @@ Update screenshots for better readability.
 
 ![](assets/prepopulated_alert.png)
 
-## 複数のアラートを作成する代わりに（スタック）アラートを統合する {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 複数のアラートを作成する代わりに（スタック）アラートを統合する{#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 アラートのスタックは、アラートを組み合わせて、多数の異なるアラートを受け取ることがないようにします。
 
