@@ -3,7 +3,7 @@ description: ある特定の日に、Web サイトを 2 回以上訪ねた訪問
 title: 日別再来訪
 topic: Reports
 uuid: 8a881347-392e-4b8a-9745-825b103d7104
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
