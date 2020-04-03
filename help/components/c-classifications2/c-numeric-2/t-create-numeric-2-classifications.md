@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 数値 2 分類の作成
 topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
