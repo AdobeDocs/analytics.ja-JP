@@ -3,7 +3,7 @@ description: 1 日の間に Web サイトにアクセスした、重複しない
 title: 日別訪問者数
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,4 +19,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | コンバージョン | [!UICONTROL 日別訪問者数]のみをサポートします。コンバージョン関連のイベントがあるときにのみカウントされる以外は、トラフィックと同じ定義です。 |
 | Ad Hoc Analysis | 1 日にサイトにアクセスした実訪問者。1 日のうちの複数回の訪問は 1 人の[!UICONTROL 日別訪問者]としてカウントされます。 |
 
-「[個別訪問者](/help/components/c-variables/c-metrics/metrics-unique-visitors.md)」を参照してください。
+[個別訪問者](/help/components/c-variables/c-metrics/metrics-unique-visitors.md)を参照してください。
