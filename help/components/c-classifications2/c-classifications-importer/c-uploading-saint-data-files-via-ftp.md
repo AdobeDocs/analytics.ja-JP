@@ -4,7 +4,7 @@ subtopic: Classifications
 title: FTP インポート
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 
-**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;に移動します。
+**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**
 
 次の推奨限度に注意してください。
 
@@ -35,7 +35,7 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 > [!NOTE]分類データファイルの処理にかかる時間は、ファイルサイズと、アドビのサーバーで処理中のファイルの数によって異なります。データファイルの処理にかかる時間は、通常 72 時間以内です。
 
-FTP を使用してデータをアップロードする前に、FTP アカウントを作成します。For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+FTP を使用してデータをアップロードする前に、FTP アカウントを作成します。詳しくは、[FTP アカウントの作成](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)を参照してください。
 
 ## FTP を使用した分類のインポート {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -62,7 +62,7 @@ FTP アカウントの作成について詳しくは、[FTP アカウントの�
 
 ## FTP アカウントの作成 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
-FTP を使用してデータをアップロードする前に、FTP アカウントを作成します。&gt;
+FTP を使用してデータをアップロードする前に、FTP アカウントを作成します。>
 
 <!-- 
 
@@ -70,7 +70,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-Adobe FTP サーバーについて詳しくは、「[FTP と SFTP（FTP and SFTP）](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/)」を参照してください。
+Adobe FTP サーバーについて詳しくは、「[FTP と SFTP（FTP and SFTP）](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/ftp/)」を参照してください。
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
 1. 「**[!UICONTROL ファイルのインポート]**」をクリックしてから「**[!UICONTROL FTP インポート]**」をクリックします。
@@ -81,7 +81,7 @@ Adobe FTP サーバーについて詳しくは、「[FTP と SFTP（FTP and SFTP
    |---|---|
    | 名前 | FTP アカウント名です。 |
    | 分類するデータセット | ドロップダウンリストから、分類するデータセット（マーケティングレポート変数）を選択します。 |
-   | レポートスイートを選択 | 選択したデータセットを分類するレポートスイートを選択します。複数のレポートスイートを選択するには、選択したすべてのレポートスイートで同じ分類が使用されている必要があります。 |
+   | レポートスイートの選択 | 選択したデータセットを分類するレポートスイートを選択します。複数のレポートスイートを選択するには、選択したすべてのレポートスイートで同じ分類が使用されている必要があります。 |
    | 競合を無視してデータを上書きする | 重複したデータを上書きする場合には、このオプションを選択します。このオプションは、既存の分類を更新する場合に役に立ちます。別の分類を追加する場合は、このオプションは推奨されません。 |
    | インポートの完了後 | インポートの完了後にこの FTP アカウントに関する通知を受信する電子メールアドレスを指定して、更新されたデータセットを同じ FTP アカウントに自動でエクスポートするには、このオプションを選択します。 |
    | 通知受信者 | この FTP アカウントに関する通知を受信する電子メールアドレスを指定します。 |
