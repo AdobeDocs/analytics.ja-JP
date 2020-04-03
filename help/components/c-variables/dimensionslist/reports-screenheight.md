@@ -3,7 +3,7 @@ description: 各種のモバイルデバイスの画面の高さ、および画�
 title: 画面の高さ
 topic: Reports
 uuid: d7e50b3a-073b-42af-81b5-1512f169a505
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
