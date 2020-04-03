@@ -3,7 +3,7 @@ description: 管理者は、特定の指標と特定の日付範囲でレポー�
 title: カスタム
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,4 +21,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 また、重要なレポートを保存することもできます。これらのレポートはブックマークと呼ばれます。いくつかのレポートを 1 つのキャンバス上に置いて、最も重要なレポートに目を通すこともできます。これらはダッシュボードと呼ばれ、ユーザーごとに異なります。インターフェイスには、グラフのリストの上側にバーが表示され、ブックマークとダッシュボードが表示されます。
 
-詳しくは、[ブックマーク](https://marketing.adobe.com/resources/help/en_US/sc/user/c_bookmarks.html)および[ダッシュボードおよびレポートレット](https://marketing.adobe.com/resources/help/en_US/sc/user/c_dashboard.html)を参照してください。
+詳しくは、[ブックマーク](https://marketing.adobe.com/resources/help/ja_JP/sc/user/c_bookmarks.html)および[ダッシュボードおよびレポートレット](https://marketing.adobe.com/resources/help/ja_JP/sc/user/c_dashboard.html)を参照してください。
