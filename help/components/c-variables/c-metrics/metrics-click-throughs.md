@@ -4,7 +4,7 @@ keywords: Campaign Views
 title: クリックスルー
 topic: Metrics
 uuid: da605430-24aa-4713-a5c3-735fac0a3441
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
