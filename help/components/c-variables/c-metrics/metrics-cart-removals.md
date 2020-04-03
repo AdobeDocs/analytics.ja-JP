@@ -3,7 +3,7 @@ description: 品目が買い物かごから削除された回数。この値は 
 title: 買い物かごからの削除
 topic: Metrics
 uuid: bddd5c63-e906-472a-8aec-a342f417ddfa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
