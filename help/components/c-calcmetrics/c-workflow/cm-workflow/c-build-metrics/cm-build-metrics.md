@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Analysis Workspace で、プロジェクトを開いて、**[!UICONTROL + 新規作成]**／**[!UICONTROL 指標を作成]**&#x200B;をクリックします。
 * [!DNL Analytics] で、**[!UICONTROL コンポーネント]**／**[!UICONTROL 計算指標]**&#x200B;を選択します。
 
-* [計算指標マネージャ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)の上部にある「**[!UICONTROL 追加]**」をクリックします。または、
+* **[!UICONTROL 計算指標マネージャ]**&#x200B;の上部にある「[追加](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)」をクリックします。または、
 
 * **[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;を選択し、任意のレポートを開きます。次に、指標アイコン ![](assets/metrics_icon.png) をクリックして指標レールを表示し、「**[!UICONTROL 追加]**」をクリックします。
 
