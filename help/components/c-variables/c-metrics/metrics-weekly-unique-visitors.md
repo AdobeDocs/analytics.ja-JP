@@ -3,7 +3,7 @@ description: 実訪問者は、特定期間内に初めてサイトを訪問し�
 title: 週別訪問者数
 topic: Metrics
 uuid: b732abf9-cad2-4518-9669-30b85b3e1e28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
