@@ -3,7 +3,7 @@ description: マーチャンダイジング変数を有効にして実装する�
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: マーチャンダイジング変数の実装
 topic: Developer and implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 設定 | 説明 |
 |--- |--- |
 | 有効期限 | マーチャンダイジング値が有効である期間を指定します。 |
-| マーチャンダイジング | **製品の構文**：`s.products` 内で設定されている値。<br>**コンバージョン変数の構文：**&#x200B;指定されたマーチャンダイジング eVar で設定された値。 |
+| マーチャンダイジング | **製品の構文**：`s.products` 内で設定されている値。<br>**コンバージョン変数の構文：**指定されたマーチャンダイジング eVar で設定された値。 |
 | マーチャンダイジングバインディングイベント（コンバージョン変数の構文のみ） | 製品を現在のマーチャンダイジングカテゴリーに結び付けるときのイベントを示します。Ctrl キーを押しながらリストの複数の項目をクリックすることで、複数のイベントを選択できます。イベントを選択できるのは、「コンバージョン変数の構文」が選択されている場合のみです。 |
 
 ## 製品の構文を使用した導入
