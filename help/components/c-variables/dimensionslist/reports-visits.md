@@ -3,7 +3,7 @@ description: 指定期間内の Web サイト全体への訪問件数を表示�
 title: 訪問数
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 <table id="table_3138CA443CAC4F55838216E8B8786EE2"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 製品      </th> 
+   <th colname="col1" class="entry"> 製品 </th> 
    <th colname="col2" class="entry"> ナビゲーション </th> 
   </tr> 
  </thead>
