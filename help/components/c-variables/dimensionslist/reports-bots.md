@@ -3,7 +3,7 @@ description: 特定の期間内にサイトを訪問したスパイダーとボ�
 title: ボット
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
