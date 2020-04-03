@@ -3,7 +3,7 @@ description: オンラインメディアアクセス統計情報が表示され�
 title: ビデオ
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -44,4 +44,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-[Adobe Analytics でのオーディオおよびビデオの測定](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)を参照してください。
+[Adobe Analytics でのオーディオおよびビデオの測定](https://marketing.adobe.com/resources/help/ja_JP/sc/appmeasurement/hbvideo/)を参照してください。
