@@ -3,7 +3,7 @@ description: キャンペーン固有の指標とは、あるキャンペーン�
 title: キャンペーン固有の指標
 topic: Metrics
 uuid: 7dacebc7-2ab5-4338-8970-2a804ad8df72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
