@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 指標を検索するための 2 つの主な方法（並べ替えおよびフィルタリング）について説明します。
 
-## 並べ替え {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## 並べ替え{#section_89F9C4D515084F5796F2A54D468BF6C8}
 
 レポートを開き、レポートの左側の指標アイコン ![](assets/metrics_icon.png) をクリックして指標レールを表示させると、指標セレクターの「**[!UICONTROL 並べ替え順]**」ドロップダウンリストに次の 4 つの並べ替えオプションが表示されます。
 
@@ -25,7 +25,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 頻繁に使用 | レポートでよく使用される指標を初心者ユーザーが確認する必要がある場合に役立ちます。 |
 | 最近使用 | 特定のプロジェクトで同じ指標のセットを繰り返し使用する場合に役立ちます。 |
 
-## フィルタリング - 詳細選択 {#section_33818CC048C04F098703AC229693F8CA}
+## フィルタリング - 詳細選択{#section_33818CC048C04F098703AC229693F8CA}
 
 レポートを開き、指標アイコンをクリックして、「**[!UICONTROL 管理]**」をクリックします。フィルターアイコンをクリックします。様々な方法でフィルタリングできます。
 
@@ -41,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> このレポートスイートのすべての指標を表示する。 </td> 
-   <td colname="col2"><span class="ignoretag"><span class="uicontrol">その他のフィルター</span>／<span class="uicontrol">すべてを表示</span></span> </td> 
+   <td colname="col2"><span class="ignoretag"> <span class="uicontrol">その他のフィルター</span>／<span class="uicontrol">すべてを表示</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 自分の指標だけを表示する </td> 
