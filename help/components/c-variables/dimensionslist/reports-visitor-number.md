@@ -3,7 +3,7 @@ description: サイトに来訪する各訪問者の訪問回数を追跡して�
 title: 訪問回数
 topic: Reports
 uuid: f98dafab-9369-4055-a793-5ea0217b78b0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
