@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 1. 計算指標ビルダーで新しい指標を作成します。
 1. 成功イベント「注文」を「定義」キャンバスにドラッグします。
-1. **[!UICONTROL 設定]**&#x200B;ギアアイコンの下にある、そのイベントの[アトリビューションモデル](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)を&#x200B;**[!UICONTROL パーティシペーション]**&#x200B;に変更します。「**[!UICONTROL 訪問]**」のルックバックを選択します。定義は次のようになるはずです。
+1. [設定](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)ギアアイコンの下にある、そのイベントの&#x200B;**[!UICONTROL アトリビューションモデル]**&#x200B;を&#x200B;**[!UICONTROL パーティシペーション]**&#x200B;に変更します。「**[!UICONTROL 訪問]**」のルックバックを選択します。定義は次のようになるはずです。
 
    ![](assets/participation.png)
 
