@@ -3,7 +3,7 @@ description: リアルタイムレポートを設定するための管理者の�
 title: リアルタイムレポートの設定
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. **[!UICONTROL 設定]**（歯車アイコン）をクリックして、Report Suite Manager を実行します。
+1. **[!UICONTROL 設定]**（歯車アイコン）をクリックして、[!UICONTROL Report Suite Manager] を実行します。
 
    （**[!UICONTROL Analytics]**／**[!UICONTROL 管理者／レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL リアルタイム]**&#x200B;から Report Suite Manager にアクセスすることもできます）
 
@@ -54,6 +54,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 「**[!UICONTROL 保存]**」または「**[!UICONTROL レポートを保存して表示]**」をクリックします。
 
-   この最初のレポート設定の後、データのストリーミングが開始されるまでに最大 20 分間かかることがあります。それ以降はデータをすぐに使用できます。リアルタイムレポートの表示については、[リアルタイムレポートの実行](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html)を参照してください。
+   この最初のレポート設定の後、データのストリーミングが開始されるまでに最大 20 分間かかることがあります。それ以降はデータをすぐに使用できます。リアルタイムレポートの表示については、[リアルタイムレポートの実行](https://marketing.adobe.com/resources/help/ja_JP/sc/user/reports_realtime.html)を参照してください。
 
 1. デフォルトでは、すべてのユーザーがリアルタイムレポートにアクセスします。
