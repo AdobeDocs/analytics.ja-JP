@@ -2,7 +2,7 @@
 description: Adobe Analytics には、様々な滞在時間指標およびディメンションが用意されています。ここでは、その内容および計算方法について説明します。
 title: 滞在時間
 topic: Metrics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,12 +17,12 @@ Adobe Analytics 製品全体では、様々な「[!UICONTROL 滞在時間]」指
 | 指標 | 定義 | 使用対象 |
 |---|---|---|
 | [!UICONTROL 合計滞在時間（秒）] | 訪問者が特定のディメンション項目に関与した合計時間を表します。すべての後続のヒットにわたる値と永続性のインスタンスを含みます。prop の場合、滞在時間には後続のリンクイベントもカウントされます。 | Analysis Workspace、Reports &amp; Analytics、Report Builder（「合計滞在時間」と呼ばれる）、Data Warehouse、Ad Hoc Analysis |
-| [!UICONTROL 訪問別滞在時間]（秒） | *合計滞在時間（秒）/（訪問バウンス）*<br>&#x200B;各訪問で訪問者が特定のディメンション項目に関与した平均時間を表します。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
-| [!UICONTROL 訪問者別滞在時間]（秒） | *合計滞在時間（秒）／（ユニーク訪問者）*<br>&#x200B;訪問者のライフタイム（cookie の期間）にわたって訪問者が特定のディメンション項目に関与した平均時間を表します。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
-| [!UICONTROL サイトでの平均滞在時間]（秒） | ディメンション項目のシーケンスごとに、訪問者が特定のディメンション項目に関与した合計時間を表します。名前が示すような「サイト」の平均に限定されません。シーケンスについて詳しくは、「滞在時間の計算方法」の節を参照してください。<br>**注意&#x200B;**：この指標は、計算での分母の違いにより、ディメンション項目レベルで「訪問別滞在時間」と異なる可能性が非常に高くなります。 | Analysis Workspace、Reports &amp; Analytics（分単位で表示）、Report Builder（分単位で表示）、Ad Hoc Analysis |
+| [!UICONTROL 訪問別滞在時間]（秒） | *合計滞在時間（秒）/（訪問バウンス）*<br>各訪問で訪問者が特定のディメンション項目に関与した平均時間を表します。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
+| [!UICONTROL 訪問者別滞在時間]（秒） | *合計滞在時間（秒）／（ユニーク訪問者）*<br> 訪問者のライフタイム（cookie の期間）にわたって訪問者が特定のディメンション項目に関与した平均時間を表します。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
+| [!UICONTROL サイトでの平均滞在時間]（秒） | ディメンション項目のシーケンスごとに、訪問者が特定のディメンション項目に関与した合計時間を表します。名前が示すような「サイト」の平均に限定されません。シーケンスについて詳しくは、「滞在時間の計算方法」の節を参照してください。<br>**注意&#x200B;**： この指標は、計算での分母の違いにより、ディメンション項目レベルで「訪問別滞在時間」と異なる可能性が非常に高くなります。 | Analysis Workspace、Reports &amp; Analytics（分単位で表示）、Report Builder（分単位で表示）、Ad Hoc Analysis |
 | [!UICONTROL ページでの平均滞在時間] | 廃止された指標です。<br>ディメンション項目の平均時間が必要な場合は、かわりに「サイトでの平均滞在時間」を使用することをお勧めします。 | Report Builder（リクエストにディメンションがある場合） |
 | [!UICONTROL セッションの合計長]（別名：[!UICONTROL 以前のセッションの長さ]） | Mobile アプリ SDK のみ。<br>アプリが次回起動されたときに、以前のセッションの長さが決まります。この指標は、秒単位で計算され、アプリがバックグラウンドにある場合はカウントされず、使用中の場合のみカウントされます。これは、セッションレベルの指標です。<br>例：アプリ ABC をインストールして起動し、2 分間使用してからアプリを閉じます。このセッション時間に関するデータは送信されません。次回起動すると、[!UICONTROL 以前のセッションの長さ]（値は 120）が送信されます。 | Analysis Workspace、Reports &amp; Analytics、Report Builder、Mobile Services UI |
-| [!UICONTROL 平均セッション時間]（モバイル） | *合計セッション長／（起動階数 — 初回起動）*<br> Mobile App SDKのみ。これは、セッションレベルの指標です。 | Report Builder、Mobile Services UI、Ad Hoc Analysis |
+| [!UICONTROL 平均セッション時間]（モバイル） | *合計セッション長／（起動階数 — 初回起動）*<br>Mobile App SDKのみ。これは、セッションレベルの指標です。 | Report Builder、Mobile Services UI、Ad Hoc Analysis |
 
 ## 「滞在時間」ディメンション
 
