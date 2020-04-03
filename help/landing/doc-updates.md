@@ -3,7 +3,7 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analyticsドキュメントリポジトリに対する注目すべき更新です。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
 | 2019 年 6 月 11 日 | [中国の地域データ収集（RDC）](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html)に関する新しい記事を追加しました。 |
 | 2019 年 6 月 5 日 | 新しいガイド[サードパーティの分析プラットフォームから Adobe Analytics への移行](/help/technotes/ga-to-aa/home.md)が作成されました。 |
 | 2019 年 5 月 31 日 | [データフィード列リファレンス](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)が改定されました。 |
-| 2019 年 4 月 12 日 | [Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)が更新されました。 |
+| 2019 年 4 月 12 日 | [Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)が更新されました。 |
 | 2019 年 3 月 15 日 | [地域データ収集](/help/technotes/rdc/regional-data-collection.md)が大幅に更新されました。 |
 | 2019 年 2 月 8 日 | [一般アカウント設定](/help/admin/admin/general-acct-settings-admin.md)の「IP アドレスの最後のオクテットを 0 に置き換える」と「IP アドレスの難読化」設定が若干更新されました。 |
 | 2019年2月1日 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 実装プラグインが大幅に更新されました。 |
