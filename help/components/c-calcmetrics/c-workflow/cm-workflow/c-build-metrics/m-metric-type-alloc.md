@@ -38,7 +38,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 
 
-## 2018 年 7 月 19 日以降の線形配分の適用方法 {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
+## 2018 年 7 月 19 日以降の線形配分の適用方法{#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
 2018 年 7 月に、Adobe での計算指標に関する線形配分のレポート方法が変更されました。この変更は、Analysis Workspace、Ad Hoc Analysis、[!UICONTROL Reports &amp; Analytics]、Report Builder、Activity Map およびレポート API に影響します。主に影響が及ぶのは、eVar と永続性のあるその他のディメンションです。なお、これらの変更が適用されるのは計算指標のみで、線形配分を使用する他のレポート（[!UICONTROL Reports &amp; Analytics] のページレポートなど）には影響しません。線形配分を使用する他のレポートについては、引き続き、既存の線形配分手法が利用されます。
 
