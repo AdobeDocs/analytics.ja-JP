@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類について
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 レポーティングと解析には、トラッキングコード変数の分類が事前定義されており、クリエイティブエレメントやキャンペーンと呼ばれる分類ベースのレポートを作成できます。その他すべてのコンバージョン変数およびトラフィック変数については、分類を手動で設定する必要があります。
 
-[トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)および[コンバージョン分類](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)を参照してください。
+[トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)および[コンバージョン分類](https://marketing.adobe.com/resources/help/ja_JP/reference/conversion_classifications.html)を参照してください。
 
 次の表では、使用できる様々なタイプの分類およびこれらの分類をサポートする変数のタイプについて説明します。データファイルをアップロードする前に、[一般的なファイル構造](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)の情報を確認します。
 
@@ -59,7 +59,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> 日付が有効なテキスト</span> </p> <p>2018 年 5 月 10 日の Analytics メンテナンスリリースにおいて、日付が有効な分類の機能制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。日付が有効な分類を新しく追加することはできません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。 </p> </td> 
    <td colname="col2"> <p>コンバージョン変数 </p> </td> 
-   <td colname="col3"> <p>日付が有効なテキストの分類によって、日付範囲をテキストの分類に割り当てることができます。この分類は通常、キャンペーン分類で使用します。これにより、<span class="wintitle">キャンペーン</span>レポートでガントチャート表示を利用できるようになります。 </p> <p>分類データを入力するデータファイルに、実際のキャンペーン日を含めることができます。 </p> <p>Report &amp; Analytics では、キャンペーンの終了日が過ぎていてもキャンペーントラッキングコードを収集しますが、キャンペーンの終了日以降に収集されたキャンペーンデータは、キャンペーンに関連付けられません。 </p> </td> 
+   <td colname="col3"> <p>日付が有効なテキストの分類によって、日付範囲をテキストの分類に割り当てることができます。この分類は通常、キャンペーン分類で使用します。これにより、<span class="wintitle">キャンペーン</span>レポートでガントチャート表示を利用できるようになります。 </p> <p>分類データを入力するデータファイルに、実際のキャンペーン日を含めることができます。 </p> <p>Reports &amp; Analytics では、キャンペーンの終了日が過ぎていてもキャンペーントラッキングコードを収集しますが、キャンペーンの終了日以降に収集されたキャンペーンデータは、キャンペーンに関連付けられません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> 数値</span> <p>2018 年 5 月 10 日の Analytics メンテナンスリリースにおいて、数値の分類の機能制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。数値の分類を新しく追加することはできません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。 </p> </p> </td> 
