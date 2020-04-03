@@ -3,7 +3,7 @@ description: 再訪問者の訪問間隔および間隔カテゴリ別の訪問�
 title: 再来訪頻度
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 この情報を使用して、一定の期間サイトを訪問していない訪問者に効果的に売り込むことができます。
 
-以下の操作をおこなうことができます。
+次のことができます。
 
 * 再訪問者数と、再訪問の頻度を特定する。
 * 訪問者に対する Web サイトのアピール度と関連性を経時的に評価する。
