@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 title: マーチャンダイジング変数の概要
 topic: Developer and implementation
 uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
