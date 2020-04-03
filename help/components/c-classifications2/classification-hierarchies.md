@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類階層
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
