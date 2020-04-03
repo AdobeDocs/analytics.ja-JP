@@ -3,7 +3,7 @@ description: サイトの成功指標に最も貢献した顧客を誘導した�
 title: 参照ドメイン
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
