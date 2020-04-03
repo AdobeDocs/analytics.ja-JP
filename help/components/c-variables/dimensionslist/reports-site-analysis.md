@@ -3,7 +3,7 @@ description: Ad Hoc Analysis のレポートです。サイト分析レポート
 title: サイト分析
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -69,7 +69,7 @@ Ad Hoc Analysis のレポートです。サイト分析レポートには、特�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>テンプレートを編集 </p> </td> 
+   <td colname="col1"> <p>編集 </p> </td> 
    <td colname="col2"> <p>ページをシリンダーに追加したり、シリンダーから削除したりできます。 </p> </td> 
   </tr> 
   <tr> 
