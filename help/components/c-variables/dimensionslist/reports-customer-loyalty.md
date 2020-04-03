@@ -3,7 +3,7 @@ description: 顧客の忠誠度は顧客の購入パターンを示します。
 title: 顧客の忠誠度
 topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
