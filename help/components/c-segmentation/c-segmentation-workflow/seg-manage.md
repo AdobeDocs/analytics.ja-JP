@@ -3,7 +3,7 @@ description: セグメントマネージャでは、セグメントを様々な�
 title: セグメントの管理
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ Analytics セグメントマネージャには、自分が所有しているす�
 
 ## ハウツービデオ {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-この [Adobe Analytics の YouTube ビデオ](https://www.youtube.com/watch?v=CdfOq98PTrg&index=6&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd)では、セグメントマネージャの使用方法の概要を説明しています。
+この [Adobe Analytics の YouTube ビデオ](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd)では、セグメントマネージャの使用方法の概要を説明しています。
 
-## セグメントマネージャのユーザーインターフェイス {#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## セグメントマネージャのユーザーインターフェイス{#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
@@ -39,8 +39,8 @@ Analytics セグメントマネージャには、自分が所有しているす�
 | 9 | 共有先 | 自分がセグメントを共有している個人、グループまたは全員が表示されます。グループまたは全員を表示できるのは管理者のみです。 |
 | 10 | 修正日 | セグメントが最後に修正された日付を表示します。 |
 | 11 | 列の選択 | セグメントマネージャ内で列を選択または選択を解除します。 |
-| 12 | 共有アイコン   | 既にこのセグメントを自分が共有していることを示します。 |
-| 13 | 承認済みアイコン   | このセグメントが管理者によって承認されていることを示します。 |
+| 12 | 共有アイコン | 既にこのセグメントを自分が共有していることを示します。 |
+| 13 | 承認済みアイコン | このセグメントが管理者によって承認されていることを示します。 |
 | 14 | フィルター | タグ、レポートスイート、所有者およびその他（すべてを表示、自分が所有、自分と共有、承認済み、お気に入り）のフィルターを確認および選択できます。 |
 
 ## Ad Hoc Analysis でのセグメントマネージャ {#section_CC8BDC968EBC4BC1919870869D8443A9}
