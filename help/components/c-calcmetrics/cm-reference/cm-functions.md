@@ -2,7 +2,7 @@
 description: 計算指標ビルダーを使用すると、統計関数と数学関数を適用して、高度な計算指標を作成できます。
 title: リファレンス：基本的な関数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -30,7 +30,7 @@ ABS(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 絶対値を求める指標です。 |
+| *metric*  | 絶対値を求める指標です。 |
 
 ## 列の最大値 {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
@@ -42,7 +42,7 @@ MAXV(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 評価する指標です。 |
+| *metric*  | 評価する指標です。 |
 
 ## 列の最小値 {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -54,7 +54,7 @@ MINV(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 評価する指標です。 |
+| *metric*  | 評価する指標です。 |
 
 ## 列の合計値 {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -66,7 +66,7 @@ SUM(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 合計値を求める指標です。 |
+| *metric*  | 合計値を求める指標です。 |
 
 ## カウント（表） {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -78,7 +78,7 @@ COUNT(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | カウントする指標です。 |
+| *metric*  | カウントする指標です。 |
 
 ## 指数（行） {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -90,7 +90,7 @@ EXP(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 底 *e* に適用される指数です。 |
+| *metric*  | 底 *e* に適用される指数です。 |
 
 ## 累乗法 {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -110,7 +110,7 @@ MEAN(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 平均を求める指標です。 |
+| *metric*  | 平均を求める指標です。 |
 
 ## 中央値（表） {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -122,7 +122,7 @@ MEDIAN(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 中央値を求める指標です。 |
+| *metric*  | 中央値を求める指標です。 |
 
 ## 剰余 {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -165,7 +165,7 @@ PERCENTILE(metric,k)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col1"> <i> metric</i>  </td> 
    <td colname="col2"> 相対的な値を定義する指標列です。 </td> 
   </tr> 
   <tr> 
@@ -192,7 +192,7 @@ QUARTILE(metric,quart)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col1"> <i> metric</i>  </td> 
    <td colname="col2"> 四分位数を求める指標です。 </td> 
   </tr> 
   <tr> 
@@ -274,7 +274,7 @@ STDEV(metric)
    <td> <b> 説明</b> </td> 
   </tr> 
   <tr> 
-   <td> <b><i>metric</i></b> </td> 
+   <td> <b> <i>metric</i> </b> </td> 
    <td> <p> 標準偏差に必要な指標です。 </p> </td> 
   </tr> 
  </tbody> 
@@ -296,7 +296,7 @@ VARIANCE(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *metric* | 平方偏差を求める指標です。 |
+| *metric*  | 平方偏差を求める指標です。 |
 
 平方偏差を計算するには、数字の列全体を見ます。まず、すべての数字の平均を求めます。平均を求めたら、各数字に対して次の計算をおこないます。
 
