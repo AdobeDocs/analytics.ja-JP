@@ -1,8 +1,8 @@
 ---
 title: pageType
 description: 現在のページが 404 エラーであるかどうかを調べます。
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 `pageType` 変数は、404 エラーなど、サイト上のエラーページを指定するために使用されるフラグです。この変数に `errorPage` 文字列が含まれている場合は、「Pages Not Found」ディメンションが設定されます。
 
-> [!IMPORTANT] この変数は、エラーのないページに設定しないでください。
+>[!IMPORTANT] この変数は、エラーのないページに設定しないでください。
 
 ## Adobe Experience Platform Launch のページタイプ
 
@@ -25,4 +25,4 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 s.pageType = "errorPage";
 ```
 
-> [!TIP] eVar を使用してエラーコードを収集し、訪問者がサイトで発生した特定のエラーに関する詳細を取得できます。
+>[!TIP] eVar を使用してエラーコードを収集し、訪問者がサイトで発生した特定のエラーに関する詳細を取得できます。
