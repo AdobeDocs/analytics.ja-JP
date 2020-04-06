@@ -1,42 +1,42 @@
 ---
 title: linkInternalFilters
-description: 離脱リンクの自動追跡に役立つように、linkInternalFilters変数を使用します。
+description: linkInternalFilters 変数の使用は出口リンクの自動トラッキングに役立ちます。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkInternalFilters
 
-AppMeasurementは、サイト外を指すリンクを自動的に追跡する機能を提供します。 を有効 [`trackExternalLinks`](trackexternallinks.md) にすると、訪問者がリンクをクリックしてサイトを離れると、イメージリクエストがアドビに直接送信されます。 変数と変 [`linkExternalFilters`](linkexternalfilters.md) 数は、 `linkInternalFilters` どのリンクが内部/外部と見なされるかを決定します。
+AppMeasurement は、サイト外を指すリンクを自動的に追跡する機能を提供します。If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. [`linkExternalFilters`](linkexternalfilters.md) 変数と `linkInternalFilters` 変数は、リンクが外部と見なされるか内部と見なされるかを決定します。
 
-この変数に値が含まれる場合、離脱リンクの自動追跡はブラックリストのような動作をします。 リンクのクリックがどの値とも一致しな `linkInternalFilters` い場合、離脱リンクと見なされます。 URL全体がこの変数に対して調べられます。 が有効 [`linkLeaveQueryString`](linkleavequerystring.md) な場合、クエリ文字列も調べられます。
+この変数に値が含まれる場合、出口リンクの自動トラッキングはブラックリストのように動作します。リンククリックがどの `linkInternalFilters` 値とも一致しない場合は、そのリンクは出口リンクと見なされます。この変数に対して URL 全体が調べられます。If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
-両方を同時に使用する場合 `linkInternalFilters` 、クリックさ `linkExternalFilters` れたリンクは一致する必要があり `linkExternalFilters` 、一致しないリンクは離脱リ ****`linkInternalFilters` ンクと見なされる必要があります。 クリックされたリンクが離脱リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクのタイプが優先されます。
+`linkInternalFilters` と `linkExternalFilters` の両方を同時に使用する場合は、クリックされたリンクが出口リンクと見なされるには、`linkExternalFilters` に一致すると&#x200B;**ともに** `linkInternalFilters` に一致しない必要があります。クリックされたリンクが出口リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
-> [!NOTE] 内部 `linkInternalFilters` URLフィルタ [ーと内部URLフィルターは](/help/admin/admin/internal-url-filter-admin.md) 、別々の目的を満たす個別の機能です。 この変数 `linkInternalFilters` は、離脱リンクの追跡に特別に機能します。 内部URLフィルターは、参照ドメインなどのトラフィックソースディメンションを扱うのに役立つ管理者設定です。
+>[!NOTE] および `linkInternalFilters`[](/help/admin/admin/internal-url-filter-admin.md) 内部 URL フィルターは、別々の目的を満たす個別の機能です。`linkInternalFilters` 変数は、出口リンクの追跡に特別に機能します。内部 URL フィルターは、参照ドメインなどのトラフィックソースディメンションの操作に役立つ管理者設定です。
 
-## アウトバウンドリンク — Adobe Experience Platformの起動で追跡しない
+## Adobe Experience Platform Launch の「アウトバウンドリンク - 追跡しない」
 
-「追跡しない」フィールドは、Adobe Analyticsの拡張機能を設定する際に、アコーディオンの下にあるフィルター( [!UICONTROL Link Tracking] 通常はドメイン)のコンマ区切りリストです。
+The Never Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し、 [!UICONTROL Extensions] Adobe Analyticsの下のボタ [!UICONTROL Configure] ンをクリックします。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. アコーディオ [!UICONTROL Link Tracking] ンを展開すると、フィールドが表示 [!UICONTROL Outbound Links - Never Track] されます。
 
-離脱リンクとして追跡しないフィルターをこのフィールドに配置します。 複数のドメインは、コンマで区切ります。スペースは使用しません。
+出口リンクとして追跡しないフィルターをこのフィールドに配置します。複数のドメインは、スペースなしのコンマで区切ります。
 
-## AppMeasurementのs.linkInternalFiltersとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.linkInternalFilters
 
-この変 `s.linkInternalFilters` 数は、サイト内部のフィルター（ドメインなど）を含む文字列です。 複数のフィルターを指定する場合は、コンマでスペースを使用せずに区切ります。
+`s.linkInternalFilters` 変数は、サイト内部と見なすフィルター（ドメインなど）を含む文字列です。複数のフィルターは、スペースなしのコンマで区切ります。
 
 ```js
 s.linkInternalFilters = "example.com,example.net,example.org";
 ```
 
-次の実装例を、オンの場合と同様に考えてみま `adobe.com`す。
+次の実装例を `adobe.com` にあるとして考えます。
 
 ```html
 <script>
