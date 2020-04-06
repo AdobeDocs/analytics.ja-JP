@@ -1,46 +1,46 @@
 ---
 title: getQueryParam
-description: URLのクエリ文字列パラメータの値を抽出します。
+description: URL のクエリー文字列パラメーターの値を抽出します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobeプラグイン：getQueryParam
+# アドビプラグイン：getQueryParam
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
+>[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-このプ `getQueryParam` ラグインを使用すると、URLに含まれるクエリ文字列パラメータの値を抽出できます。 ランディングページのURLから、内部と外部の両方のキャンペーンコードを抽出する場合に役立ちます。 また、検索用語や他のクエリ文字列パラメータを抽出する場合にも役立ちます。
+`getQueryParam` プラグインを使用すると、URL に含まれるクエリー文字列パラメーターの値を抽出できます。これは、ランディングページの URL から内部および外部の両方のキャンペーンコードを抽出する場合に役立ちます。また、検索用語や他のクエリー文字列パラメーターを抽出する場合にも役立ちます。
 
-このプラグインは、複数のクエリ文字列パラメーターを含むハッシュやURLを含む、複雑なURLを解析する際の堅牢な機能を提供します。 単純なクエリ文字列パラメーターのみが必要な場合は、LaunchのURLパラメーター機能またはAppMeasurementに含まれるメソッドの使用 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) をお勧めします。
+このプラグインは、複数のクエリー文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。単純なクエリー文字列パラメーターのみが必要な場合は、Launch の URL パラメーター機能または AppMeasurement に含まれる [`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドの使用をお勧めします。
 
-## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
+## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
-アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
-1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
-   * 条件：なし
-   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：getQueryParamの初期化
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize getQueryParam
 1. ルールに対する変更を保存して発行します。
 
-## カスタムコードエディターの起動を使用したプラグインのインストール
+## Launch カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
-1. 変更を保存し、Analytics拡張機能に公開します。
+1. 変更を保存し、Analytics 拡張機能に公開します。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -54,169 +54,169 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 ## プラグインの使用
 
-このメソ `getQueryParam` ッドでは、次の引数を使用します。
+`getQueryParam` メソッドでは、次の引数を使用します。
 
-* **`qsp`** （必須）:URL内で検索するクエリ文字列パラメーターのコンマ区切りリストです。 大文字と小文字は区別されません。
-* **`de`** （オプション）:複数のクエリ文字列パラメーターが一致する場合に使用する区切り文字です。 デフォルトは空の文字列です。
-* **`url`** （オプション）:クエリ文字列パラメータ値を抽出するカスタムURL、文字列、または変数。 初期設定はで `window.location`す。
+* **`qsp`**（必須）：URL 内で検索するクエリー文字列パラメーターのコンマ区切りリストです。大文字と小文字は区別されません。
+* **`de`**（オプション）：複数のクエリー文字列パラメーターが一致する場合に使用する区切り文字です。デフォルトでは空の文字列です。
+* **`url`**（オプション）：クエリー文字列パラメーターの値を抽出するカスタム URL、文字列、または変数です。デフォルト値は `window.location` です。
 
-このメソッドを呼び出すと、上記の引数とURLに応じた値が返されます。
+このメソッドを呼び出すと、上記の引数と URL に応じた値が返されます。
 
-* 一致するクエリ文字列パラメーターが見つからない場合は、空の文字列を返します。
-* 一致するクエリ文字列パラメーターが見つかった場合、このメソッドはクエリ文字列パラメーター値を返します。
-* 一致するクエリ文字列パラメーターが見つかったが、値が空の場合、このメソッドはを返しま `true`す。
-* 一致するクエリ文字列パラメータが複数見つかった場合、このメソッドは、各パラメータ値を引数内の文字列で区切った文字列を返 `de` します。
+* 一致するクエリー文字列パラメーターが見つからない場合は、空の文字列を返します。
+* 一致するクエリー文字列パラメーターが見つかった場合、このメソッドはクエリー文字列パラメーター値を返します。
+* 一致するクエリー文字列パラメーターが見つかったが値が空の場合、このメソッドは `true` を返します。
+* 一致するクエリー文字列パラメーターが複数見つかった場合、このメソッドは `de` 引数内の文字列で区切られた各パラメーター値を持つ文字列を返します。
 
 ## 呼び出しの例
 
-### 例1
+### 例 1
 
-現在のURLが次の場合：
+現在の URL が次の場合：
 
 ```js
 http://www.abc123.com/?cid=trackingcode1
 ```
 
-次のコードは、s.campaignを「trackingcode1」に設定します。
+次のコードは、s.campaign を「trackingcode1」に設定します。
 
 ```js
 s.campaign=s.getQueryParam('cid');
 ```
 
-### 例2
+### 例 2
 
-現在のURLが次の場合：
+現在の URL が次の場合：
 
 ```js
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
 
-次のコードは、s.campaignを「trackingcode1:123456」に設定します。
+次のコードは、s.campaign を「trackingcode1:123456」に設定します。
 
 ```js
 s.campaign=s.getQueryParam('cid,ecid',':');
 ```
 
-### 例3
+### 例 3
 
-現在のURLが次の場合：
+現在の URL が次の場合：
 
 ```js
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
 
-次のコードは、s.campaignを「trackingcode1123456」に設定します。
+次のコードは、s.campaign を「trackingcode1123456」に設定します。
 
 ```js
 s.campaign=s.getQueryParam('cid,ecid');
 ```
 
-### 例4
+### 例 4
 
-現在のURLが次の場合：
+現在の URL が次の場合：
 
 ```js
 http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
 ```
 
-次のコードでは、s.campaignが「123456」に設定されます。
+次のコードでは、s.campaign を「123456」に設定します。
 
 ```js
 s.campaign=s.getQueryParam('ecid');
 ```
 
-### 例5
+### 例 5
 
-現在のURLが次の場合：
+現在の URL が次の場合：
 
 ```js
 http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
 ```
 
-次のコードでは、s.campaignが「123456」に設定されます。
+次のコードでは、s.campaign を「123456」に設定します。
 
 ```js
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**注意：** プラグインは、Checkのハッシュ文字のURLを、疑問符が存在しない場合は疑問符に置き換えます。  URLにハッシュ文字の前に疑問符が含まれている場合、プラグインは、Checkのハッシュ文字のURLをアンパサンド(&amp;)に置き換えます。
+**注意：**&#x200B;疑問符が存在しない場合、プラグインは、Check のハッシュ文字の URL を疑問符に置き換えます。URL にハッシュ文字の前に疑問符が含まれている場合、プラグインは Check のハッシュ文字の URL をアンパサンドに置き換えます。
 
-### 例6
+### 例 6
 
-現在のURLが次の場合…
+現在の URL が次で、
 
 ```js
 http://www.abc123.com/
 ```
 
-...変数s.testURLが次のように設定されている場合、
+変数 s.testURL が次のように設定されている場合、
 
 ```js
 s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
 ```
 
-次のコードでは、s.campaignがまったく設定されません。
+次のコードは、s.campaign をまったく設定しません。
 
 ```js
 s.campaign=s.getQueryParam('cid');
 ```
 
-ただし、次のコードでは、s.campaignを「trackingcode1」に設定します。
+ただし、次のコードでは、s.campaign を「trackingcode1」に設定します。
 
 ```js
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**注意：** 3つ目のパラメーターは、コードが
+**注意：** 3 つ目のパラメーターは、コードでクエリー文字列パラメーターを検索するために使用する任意の文字列／変数を指定できます。
 
-次のコードは、s.eVar2を&quot;123456|trackingcode1|true|300&quot;に設定します。
+次のコードは、s.eVar2 を「123456|trackingcode1|true|300」に設定します。
 
 ```js
 s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 ```
 
-* 123456の値は、s.testURL変数のecidパラメーターから取得されます。
-* trackingcode1の値は、s.testURL変数のcidパラメーターから取得されます
-* trueの値は、s.testURL変数内のハッシュ文字の後の場所パラメーターの存在（値以外）から取得されます
+* 123456 の値は、s.testURL 変数の ecid パラメーターから取得されます。
+* trackingcode1 の値は、s.testURL 変数の cid パラメーターから取得されます。
+* true の値は、s.testURL 変数内のハッシュ文字の後の場所パラメーターの存在（値以外）から取得されます。
 
-300という値は、s.testURL変数のposパラメーターの値から取得されます。
+300 の値は、s.testURL 変数の pos パラメーターの値から取得されます。
 
 ## バージョン履歴
 
-### 3.3（2019年9月24日）
+### 3.3（2019 年 9 月 25 日）
 
-* 不要なロジックをバイパスしてコードサイズを縮小
+* 不要なロジックを迂回してコードサイズを縮小しました。
 
-### 3.2（2018年5月16日）
+### 3.2（2018 年 5 月 16 日）
 
-* 関数内 `findParameterValue` に移動 `getParameterValue` および関数を移 `getQueryParam` 動
+* `findParameterValue` 関数および `getParameterValue` 関数を `getQueryParam` 関数内に移動しました。
 
-### 3.1（2018年5月10日）
+### 3.1（2018 年 5 月 11 日）
 
-* 値のないクエリ文字列パラメーターの取り込みに関する問題を修正しました。
+* 値のないクエリー文字列パラメーターの取得に関する問題を修正しました。
 
-### 3.0（2018年4月17日）
+### 3.0（2018 年 4 月 17 日）
 
-* ポイントリリース（再コンパイルされ、コードサイズが小さくなりました）。
-* ヘルパー関数の名前を読みやす `findParameterValue` くするた `getParameterValue` めに、およびに変更しました。
-* URLハッシュに含まれるパラメーターを検索するための引数を追加する必要がなくなりました。
+* ポイントリリース（再コンパイル、コードサイズの縮小）。
+* ヘルパー関数の名前を読みやすくするために、`findParameterValue` および `getParameterValue` に変更しました。
+* URL ハッシュに含まれるパラメーターを見つけるための引数を追加する必要がなくなりました。
 
-### 2.5（2016年1月9日）
+### 2.5（2016 年 1 月 9 日）
 
-* HコードとAppMeasurementの両方と互換性があります(AppMeasurement `s.pt` との連携が必要)。
+* H コードと AppMeasurement の両方と互換性があります（AppMeasurement と `s.pt` が必要です）。
 
 ### 2.4
 
-* ハッシュ( `h``#`)文字の後にあるクエリ文字列パラメータをコードで検索できるように、パラメータを追加しました。
+* `h` パラメーターを追加し、ハッシュ文字（`#`）の後に見つかったクエリー文字列パラメーターをコードで検索できるようになりました。
 
 ### 2.3
 
-* トラッキングコードの後にハッシュが存在する場合にのみプラグインが機能する問題を修正しました。
+* トラッキングコードの後にハッシュが存在する場合にのみプラグインが機能するという回帰問題を修正しました。
 
 ### 2.2
 
-* 戻り値からハッシュ文字（およびその後のすべて）を削除します。
+* 戻り値からハッシュ文字（およびその後のすべて）を削除するようになりました。
 
 ### 2.1
 
-* H.10コードとの互換性
+* H.10 コードと互換
