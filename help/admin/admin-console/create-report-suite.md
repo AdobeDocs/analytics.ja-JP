@@ -2,7 +2,7 @@
 title: レポートスイートの作成
 description: Adobe Analytics でデータ収集用の基本コンテナを作成します。
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ## レポートスイートの作成
 
-> [!NOTE]Adobe Analytics で従来の管理者を使用してレポートスイートを作成する方法もあります。アドビでは、ここで説明するレポートスイートセットアップウィザードを使用することをお勧めします。
+>[!NOTE]Adobe Analytics で従来の管理者を使用してレポートスイートを作成する方法もあります。アドビでは、ここで説明するレポートスイートセットアップウィザードを使用することをお勧めします。
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 1. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
@@ -31,7 +31,7 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 このレポートスイートに同じ名前を付け、末尾に「- DEV」を追加します。このレポートスイートが受け取るのは内部トラフィックのみなので、最小限のサイズとなることが予測されます。
 1. 「次へ」をクリックして開発用レポートスイートの作成を終了します。
 
-このモーダルウィンドウの手順について詳しくは、実装ユーザーガイドの [実装モーダル](/help/implement/prepare/implementation-modal.md) (Implementation modal)を参照してください。
+このモーダルウィンドウの手順について詳しくは、実装ユーザーガイドの [実装モーダル](/help/implement/prepare/implementation-modal.md) を参照してください。
 
 ## トラブルシューティング
 
