@@ -2,8 +2,8 @@
 description: この統合のデプロイは、以下の操作を必要とする簡単なプロセスです。
 title: 統合のデプロイ
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 電子メール住所 </td> 
+   <td colname="col1"> 電子メール アドレス </td> 
    <td colname="col2"> 主要連絡先の電子メールアドレス。 </td> 
   </tr> 
   <tr> 
@@ -65,15 +65,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    1. 8 つの標準ディメンションの名前（Demandbase SID、会社名、業種など）は変更&#x200B;**しないでください**。
 
 1. Demandbase 統合ダッシュボードを自動的に作成する場合は、このチェックボックスをオンにします（推奨）。
-1. すべての設定項目を確認し、「**[!UICONTROL 今すぐアクティブ化]**」をクリックします。
+1. Review all configuration items and click **[!UICONTROL Activate Now]**.
 
 ## 統合コードのデプロイ {#deploying-the-integration-code}
 
 統合ウィザードを完了したら、統合コードを Adobe Analytics デプロイメントコード（s_code）にデプロイする必要があります。
 
-> [!NOTE]Adobe TagManager または Dynamic Tag Management を使用して Adobe Analytics を実装する場合は、これらのツールのいずれかを使用して統合コードを簡単に追加できます。
+>[!NOTE]Adobe TagManager または Dynamic Tag Management を使用して Adobe Analytics を実装する場合は、これらのツールのいずれかを使用して統合コードを簡単に追加できます。
 
-1. 「**[!UICONTROL サポート]**」タブに移動し、統合のリソース領域から `integration code v2_0_1` リソースをダウンロードして保存します。
+1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration.
 
 1. 必要に応じて、コードに必要な変更を加えます。詳しくは、「統合コードの変更」（このページ）を参照してください。
 1. Adobe Analytics デプロイメントコードにまだ統合モジュールが存在しない場合は、この統合モジュールを含めます。
@@ -155,7 +155,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ### AppMeasurement v1.0 以降の場合 {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL CodeManager]** からダウンロードできる AppMeasurement zip ファイルを展開します。
+1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
 
 1. [!DNL AppMeasurement_Module_Integrate.js] という名前のファイルを開きます。
 1. このファイルの内容をコピーして、プライマリ [!DNL AppMeasurement.js] ファイルに貼り付けます。
@@ -198,7 +198,7 @@ DigitalPulse デバッガーツールを使用して、Demandbase ディメン�
 
 または、Adobe Analytics のメニュー構造内で Demandbase レポートに移動できます（以下のスクリーンショットを参照）。
 
-> [!NOTE]このデータは、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
+>[!NOTE]このデータは、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
 
 ![](assets/reporting1.png)
 
