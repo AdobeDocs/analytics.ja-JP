@@ -1,52 +1,52 @@
 ---
-title: ナンバースイート
-description: 他のJavaScript変数で使用する数値を生成および操作します。
+title: Numbers Suite
+description: 他の JavaScript 変数で使用する数値を生成および操作します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobeプラグイン：ナンバースイート
+# アドビプラグイン：Numbers Suite
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
+>[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-数値スイートは一連のJavaScript関数です。 次のプラグインが含まれます。
+Numbers Suite は一連の JavaScript 関数です。これには、次のプラグインが含まれます。
 
-* **`zeroPad`**:数の先頭に特定の数のゼロを追加します。 このプラグインは、変数が特定の桁数を必要とする場合に便利です。例えば、JavaScriptの日付オブジェクトを使用し、日付の月と日を1桁ではなく2桁の数値でフォーマットする場合などです。 例えば、の代わ `01/09/2020` りにを使用しま `1/9/2020`す。
-* **`randomNumber`**:特定の桁数の乱数を生成します。 このプラグインは、サードパーティタグをデプロイし、キャッシュバスティングの乱数を使用する場合に役立ちます。
-* **`twoDecimals`**:数値をクローゼットの100番目に丸めます。 このプラグインは、数値を有効な通貨値に丸めるのに便利です。
+* **`zeroPad`**：数値の先頭に特定の数のゼロを追加します。このプラグインは、JavaScript の日付オブジェクトを使用し、日付の月と日を 1 桁ではなく 2 桁でフォーマットする場合など、変数に特定の桁数が必要な場合に役立ちます。例えば、`01/09/2020` の代わりに `1/9/2020` となります。
+* **`randomNumber`**：特定の桁数で乱数を生成します。このプラグインは、サードパーティタグを導入し、キャッシュバスティングの乱数が必要な場合に役立ちます。
+* **`twoDecimals`**：数字を小数点以下 2 桁に丸めます。このプラグインは通貨の目的で役立ち、数値を有効な通貨値に丸めることができます。
 
-## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
+## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
-アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
-1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
-   * 条件：なし
-   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：Numbers Suiteの初期化
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize Numbers Suite
 1. ルールに対する変更を保存して発行します。
 
-## カスタムコードエディターの起動を使用したプラグインのインストール
+## Launch カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
-1. 変更を保存し、Analytics拡張機能に公開します。
+1. 変更を保存し、Analytics 拡張機能に公開します。
 
-## AppMeasurementを使用したプラグインのインストール
+## AppMeasurement を使用したプラグインのインストール
 
-次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングをおこなう際に役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,28 +63,28 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## プラグインの使用
 
-このメソ `zeroPad` ッドでは、次の引数を使用します。
+`zeroPad` メソッドでは、次の引数を使用します。
 
-* **num** （必須、整数）:埋め込む数値です。 この引数に小数が含まれる場合は、その値を切り捨てます。
-* **nod** （必須、整数）:最後の戻り値の桁数。 padの桁数がpadの桁数より小さい場合は、引数の先頭に0を追加しま `num` す。
+* **num**（必須、整数）：埋め込む数値です。このメソッドは、この引数に小数が含まれる場合、その値を切り捨てます。
+* **nod**（必須、整数）：最終戻り値の桁数です。pad の桁数がパッド対象の桁数より小さい場合、プラグインは `num` 引数の先頭に 0 を追加します。
 
-このメソ `randomNumber` ッドでは、次の引数を使用します。
+`randomNumber` メソッドでは、次の引数を使用します。
 
-* **nod** （オプション、整数）:生成する乱数の桁数。 最大値は17桁です。 デフォルト値は10桁です。
+* **nod**（オプション、整数）：生成する乱数の桁数です。最大値は 17 桁です。デフォルト値は 10 桁です。
 
-このメソ `twoDecimals` ッドでは、次の引数を使用します。
+`twoDecimals` メソッドでは、次の引数を使用します。
 
-* **val** （必須、数値）:最も近い100分の1に丸める数値（文字列またはnumberオブジェクトで表されます）。
+* **val**（必須、数値）：最も近い小数点以下 2 桁に丸める数値（文字列オブジェクトまたは数値オブジェクトで表されます）です。
 
 ## 戻り値
 
-* 0Pad **メソッドは**`num` 、引数と同じ文字列を返しますが、値の先頭には特定の数の0が追加され、戻り値の桁数が正しいことを確認します。
-* randomNumber **メソッドは** 、任意の桁数の乱数と等しい文字列を返します。
-* twoDecimalsメソッ **ドは** 、最も近い100分の1に丸められた数値オブジェクトを返します。
+* **zeroPad** メソッドは、`num` 引数と同じ、値の先頭に特定の数のゼロを追加した文字列を返します。これにより、戻り値の桁数が正しくなります。
+* **randomNumber** メソッドは、任意の桁数の乱数と等しい文字列を返します。
+* **twoDecimals** メソッドは、最も近い小数点以下 2 桁に丸めた数値オブジェクトを返します。
 
 ## 呼び出しの例
 
-### zeroPadの例
+### zeroPad の例
 
 ```js
 s.eVar25 = zeroPad(25.5562, 5) //sets eVar25 equal to "00025"
@@ -94,7 +94,7 @@ s.prop1 = zeroPad(25, 1) //sets prop1 equal to "25"
 s.prop1 = zeroPad(232425235,23) //sets prop1 equal to "00000000000000232425235"
 ```
 
-### randomNumberの例
+### randomNumber の例
 
 ```js
 s.eVar65 = randomNumber(15) //sets eVar65 equal to "721759731750342" or some other random 15-digit number
@@ -104,7 +104,7 @@ randomNumber() //returns a random 10-digit number but is useless since this isn'
 var j = randomNumber(35) //sets a variable named j equal to "15476068651810060" or another random 17-digit number
 ```
 
-### twoDecimalsの例
+### twoDecimals の例
 
 ```js
 s.events = "event10=" + twoDecimals("85.4827128694") //sets s.events="event10=85.48"
@@ -116,6 +116,6 @@ s.eVar65 = twoDecimals("672132.9699736457") //sets s.eVar65 equal to 672132.97
 
 ## バージョン履歴
 
-### 1.0（2019年5月25日）
+### 1.0（2019 年 5 月 26 日）
 
 * 初回リリース。
