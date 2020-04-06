@@ -1,32 +1,32 @@
 ---
 title: cookieDomain
-description: cookieDomain変数は、cookieを設定するドメインを判断するのに役立ちます。
+description: cookieDomain 変数は、Cookie を設定するドメインを決定するのに役立ちます。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # cookieDomain
 
-> [!IMPORTANT] この変数は廃止されます。 代わりに、を [`trackingServer`](trackingserver.md) 使用します。
+>[!IMPORTANT] この変数は廃止されています。代わりに、[`trackingServer`](trackingserver.md) を使用してください。
 
-この変 `cookieDomain` 数は、AppMeasurementがcookieを設定するドメインを決定します。 この変数を使用すると、変数を使用する代わりに、cookieドメインを明示的に設定で [`cookieDomainPeriods`](cookiedomainperiods.md) きます。
+`cookieDomain` 変数は、AppMeasurement が Cookie を設定するドメインを決定します。[`cookieDomainPeriods`](cookiedomainperiods.md) 変数を使用すると、変数を使用する代わりに Cookie ドメインを明示的に設定できます。
 
-この変数は、次の両方の条件が満たさ **れた場** 合にのみ使用する必要があります。
+この変数は、次の&#x200B;**両方**&#x200B;の条件が満たされた場合にのみ使用する必要があります。
 
-* 導入でファーストパーティcookieを使用する場合。 この変数は、を含む値を使用した実装では必 [`trackingServer`](trackingserver.md) 須ではありませ `sc.omtrdc.net`ん。
-* ドメインのサフィックスにピリオドが含まれている場合。 例えば、この変数 `example.co.uk` を使用して、cookie `cookieDomain` ドメインがではなく、であることを明示的に示すこ `example.co.uk` とができま `co.uk`す。
+* 実装でファーストパーティ Cookie を使用する場合。この変数は、`sc.omtrdc.net` を含む [`trackingServer`](trackingserver.md) 値を使用した実装では必須ではありません。
+* ドメインのサフィックスにピリオドが含まれている場合。例えば、`example.co.uk` は、`cookieDomain` 変数を使用して、Cookie ドメインが `example.co.uk` であって `co.uk` でないことを明示的に示すことができます。
 
-変数を使用する実装はごく少数で、そ `cookieDomain` の場合でも、のような代替変数を代わ [`cookieDomainPeriods`](cookiedomainperiods.md) りに使用できます。
+`cookieDomain` 変数を使用する実装はごく少数で、その代わりに、[`cookieDomainPeriods`](cookiedomainperiods.md) のような代替変数を使用できます。
 
-## Adobe Experience Platform LaunchのCookieドメイン
+## Adobe Experience Platform Launch の Cookie ドメイン
 
-この変数を使用する専用のフィールドが「起動」にありません。 AppMeasurement構文に従って、カスタムコードエディターを使用します。
+Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementのs.cookieDomainとカスタムコードエディターの起動
+## AppMeasurement の s.cookieDomain と Launch カスタムコードエディター
 
-変数 `cookieDomain` は文字列で、cookieを保存するドメインに設定されます。
+`cookieDomain` 変数は文字列で、Cookie を保存するドメインに設定されます。
 
 ```js
 s.cookieDomain = "stats.example.com";
