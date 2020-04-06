@@ -1,19 +1,19 @@
 ---
 title: マーケティングチャネルでの分類
-description: 分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
+description: 分類を使用して、値を関連するグループに分類し、グループレベルでレポートします。 例えば、すべての有料検索キャンペーンをビデオカードなどのカテゴリに分類できます。 次に、インスタンス（またはクリックスルー）などの指標に関するカテゴリの成功をレポートできます。
 translation-type: tm+mt
-source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # マーケティングチャネルでの分類
 
-分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
+分類を使用して、値を関連するグループに分類し、グループレベルでレポートします。 例えば、すべての有料検索キャンペーンをビデオカードなどのカテゴリに分類できます。 次に、インスタンス（またはクリックスルー）などの指標に関するカテゴリの成功をレポートできます。
 
 この手順で追加した分類は、としてレポートに表 [!UICONTROL Marketing Channel Overview] 示されま [!UICONTROL Channel Values]す。 チャネル値は、チャネルの詳細では未分類の値です。
 
-> [!NOTE] 分類の作成について詳しくは、分類を参照してく [ださい](/help/components/c-classifications2/c-classifications.md)。
+>[!NOTE] 分類の作成に関する知識があることを確認し [ます](/help/components/c-classifications2/c-classifications.md)。
 
 >[!IMPORTANT]
 >
@@ -23,9 +23,9 @@ source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
 
 | 用語 | 定義 |
 |--- |--- |
-| テキストの分類 | レポート作成のために各種データをグループ分けする分類カテゴリのタイプを指定します。 |
-| 名前 | 分類の名前。追加した分類は、「マーケティングチャネルマネージャー」の「チャネルの分類」オプションに表示されます。 |
-| オプション | 分類の名前。追加した分類は、「マーケティングチャネルマネージャー」の「チャネルの分類」オプションに表示されます。 |
+| テキストの分類 | 変数データを分類用にカテゴリ化するための分類のタイプを指定します。レポート用に。 |
+| 名前 | 分類の名前。 追加した分類は、「マーケティングチャネルマネージャー」の「チャネルの分類」オプションに表示されます。 |
+| オプション | 分類の名前。 追加した分類は、「マーケティングチャネルマネージャー」の「チャネルの分類」オプションに表示されます。 |
 
 ## Create Marketing Channels classifications {#create-mktg-channel-classifications}
 
@@ -33,4 +33,4 @@ source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Classification]**.
-1. の下で、 [!UICONTROL Classifications]をクリック **[!UICONTROL Add Classification]** します（または既存のを編集します）。
+1. で、をク [!UICONTROL Classifications]リックし **[!UICONTROL Add Classification]** ます（または既存のを編集します）。
