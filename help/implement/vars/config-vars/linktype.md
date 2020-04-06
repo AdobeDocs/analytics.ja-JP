@@ -1,52 +1,52 @@
 ---
 title: linkType
-description: linkType変数を使用して、ヒットが属するリンクトラッキングディメンションを特定します。
+description: linkType 変数は、ヒットが属するリンクトラッキングディメンションを特定するのに使用します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkType
 
-リンクトラッキングのヒットには、次の3つのディメンションのいずれかが含まれます。
+リンクトラッキングのヒットには、次の 3 つのディメンションのいずれかを設定できます。
 
 * カスタムリンク
-* 離脱リンク
+* 出口リンク
 * ダウンロードリンク
 
-変数を使 `linkType` 用して、次の関数の実行時に入力するディメンションを決定し [`tl()`](../functions/tl-method.md) ます。
+`linkType` 変数を使用して、次の [`tl()`](../functions/tl-method.md) 関数の実行時に入力するディメンションを決定します。
 
-## Adobe Experience Platform Launchのリンクタイプ
+## Adobe Experience Platform Launch の「リンクタイプ」
 
 ビーコンを送信するルールを設定する場合は、リンクタイプを設定します。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し、 [!UICONTROL Rules] 目的のルールをクリックします（またはルールを作成します）。
-4. 下の「 [!UICONTROL Actions]+」アイコンをクリックします。
-5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、「ビーコンの送 [!UICONTROL Action Type] 信」に設定します。
-6. ラジオボタンをク `s.tl()` リックすると、ドロップダウンが表示 [!UICONTROL Link Type] されます。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Type] dropdown.
 
 このドロップダウンは、、、また [!UICONTROL Custom Link]はのいず [!UICONTROL Download Link]れかに設定できま [!UICONTROL Exit Link]す。
 
-## AppMeasurementのs.linkTypeとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.linkType
 
-変数 `s.linkType` は、次の3つの1文字の値のいずれかを受け取る文字列です。 `o`、ま `d`たは `e`。 リンクタイプを `tl()` 指定しないでメソッドを呼び出した場合、デフォルトでは「カスタムリンク」に設定されます。
+`s.linkType` 変数は、`o`、`d`、`e` の 3 つの 1 文字の値のいずれかを受け取る文字列です。If a `tl()` method is called without a link type, it defaults to Custom link.
 
-* `o`  — カスタムリンク
-* `d`  — ダウンロードリンク
-* `e`  — 離脱リンク
+* `o` - カスタムリンク
+* `d` - ダウンロードリンク
+* `e` - 出口リンク
 
-> [!TIP] この変数はメソッドの2番目のパラメー `tl()` ターで、通常、スタンドアロン変数として設定する必要はありません。 ただし、メソッドの引数 `linkType` として値を設定しない場合は、変数を使用でき `tl()` ます。
+>[!TIP] この変数はメソッドの2番目のパラメー `tl()` ターで、通常、スタンドアロン変数として設定する必要はありません。 However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkType = "e";
 ```
 
-## 例   
+## 例
 
-次の2つのリンクトラッキングコールの例は、機能的に同じです。 同じリンクトラッキングヒットを達成する方法は異なります。
+次の 2 つのリンクトラッキングコールの例は、機能的に同じです。同じリンクトラッキングヒットを達成するには、異なる方法があります。
 
 ```js
 // Set link tracking arguments as individual variables
