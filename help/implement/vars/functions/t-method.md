@@ -2,16 +2,16 @@
 title: t
 description: ページビュートラッキングコールをアドビに送信します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # t()
 
-この方 `t()` 法は、Adobe Analyticsの重要なコアコンポーネントです。 ページで定義されたすべてのAnalytics変数を取得し、それらをイメージリクエストにコンパイルし、そのデータをAdobeデータ収集サーバーに送信します。
+`t()` メソッドは、Adobe Analytics の重要なコアコンポーネントです。ページで定義されているすべての Analytics 変数を取得し、それらをイメージリクエストにコンパイルして、そのデータをアドビのデータ収集サーバーに送信します。
 
-例えば、次のJavaScriptコードを考えてみましょう。
+例えば、次の JavaScript コードを考えてみましょう。
 
 ```js
 // Instantiate the tracking object
@@ -25,34 +25,34 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-このメソッドを実 `t()` 行すると、定義されたすべてのAnalytics変数が使用され、これらの変数に基づいてURLが作成されます。 一部のAnalytics変数は画像のURLを決定し、他の変数はクエリ文字列パラメーターの値を決定します。
+`t()` メソッドを実行すると、定義されたすべての Analytics 変数が使用され、これらの変数に基づいて URL が作成されます。一部の Analytics 変数は画像の URL を決定し、他の変数はクエリー文字列パラメーター値を決定します。
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 ```
 
-アドビはイメージリクエストを受け取り、リクエストヘッダー、URLおよびクエリ文字列パラメーターを解析します。 次に、データ収集サーバーは、サイトに表示されない透過的な1 x 1ピクセルの画像を返します。
+アドビはイメージリクエストを受け取り、リクエストヘッダー、URL およびクエリー文字列パラメーターを解析します。次に、データ収集サーバーは、サイトに不可視的に表示された、1 x 1 ピクセルの透明イメージを返します。
 
-## Adobe Experience Platform Launchのページビュートラッキングコール
+## Adobe Experience Platform Launch でのページビュートラッキングコール
 
-「起動」には、ページビュートラッキングコールを設定する専用の場所があります。
+Launch には、ページビュートラッキングコールを設定する専用の場所があります。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し、 [!UICONTROL Rules] 目的のルールをクリックします（またはルールを作成します）。
-4. 下の「 [!UICONTROL Actions]+」アイコンをクリックします。
-5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、「ビーコンの送 [!UICONTROL Action Type] 信」に設定します。
-6. Click the `s.t()` radio button.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. 「`s.t()`」ラジオボタンをクリックします。
 
-## s.t()メソッド（AppMeasurementおよびカスタムコードエディターの起動）
+## AppMeasurement および Launch カスタムコードエディターの s.t() メソッド
 
-アドビにトラ `s.t()` ッキングコールを送信する場合は、このメソッドを呼び出します。
+アドビにトラッキングコールを送信する場合は、`s.t()` メソッドを呼び出します。
 
 ```js
 s.t();
 ```
 
-オプションで、変数の値を上書きする引数としてオブジェクトを使用できます。 詳しくは [、変数の上書き](../../js/overrides.md) を参照してください。
+オプションで、オブジェクトを引数として使用して変数値を上書きできます。詳しくは、[変数のオーバーライド](../../js/overrides.md)を参照してください。
 
 ```js
 var y = new Object();
@@ -60,4 +60,4 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
-> [!NOTE] 以前のバージョンのAppMeasurementでは、この関数を呼び出すために複数行のコードを使用していました。 この追加コードは、異なるブラウザーの回避策を従来どおり取り入れていました。 最新のブラウザーでの標準化とベストプラクティスでは、このコードブロックは不要になりました。 メソッド呼び出しのみが `s.t()` 必要になりました。
+>[!NOTE] 以前のバージョンの AppMeasurement では、この関数を呼び出すために複数行のコードを使用していました。この追加コードは、従来、異なるブラウザーに対する対処方法を用意していました。最新のブラウザーの標準化とベストプラクティスでは、このコードブロックは不要になりました。現在必要なのは `s.t()` メソッドの呼び出しのみです。
