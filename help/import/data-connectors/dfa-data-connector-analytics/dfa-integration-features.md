@@ -4,8 +4,8 @@ keywords: DFA
 title: 統合の機能
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,46 +14,46 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 アクティブ化すると、Data Connectors DFA 統合によって、Adobe Analytics レポート用の次の指標が提供されます。
 
-* ビュースルー数
-* DFA クリック数
-* インプレッション数
-* （オプション）DFA コストデータ
-* （オプション）DFA クエリエラー、タイムアウト
+* 表示スルー
+* DFAクリック数
+* インプレッション
+* （オプション）DFAコストデータ
+* （オプション）DFAクエリエラー、タイムアウト
 
-> [!NOTE]この統合では、クリックトラッカー（以前のクリックコマンド）はサポートされません。クリックトラッカーは、テキストリンク、電子メールメッセージのリンク、または Web サイト上でハードコードされた他の要素のクリック数を記録するために使用されます。
+>[!NOTE]この統合では、クリックトラッカー（以前のクリックコマンド）はサポートされません。クリックトラッカーは、テキストリンク、電子メールメッセージ内のリンク、またはWebサイト上でハードコードされた他の要素のクリック数を記録するために使用されます。
 
-Data Connectors DFA 統合は、DFA によって返されたデータから DFA トラッキングコードを自動的に構成します。これらのトラッキングコードは、広告とそれに関連付けられたプレースメントおよびクリエイティブを個別に識別するために構成されます。統合の各バージョンのトラッキングコードの概要を次に示します。バージョン 1.5 では、次のようになります。
+Data Connectors DFA統合は、DFAから返されたデータからDFAトラッキングコードを自動的に構築します。 これらのトラッキングコードは、広告とその関連するプレースメントおよびクリエイティブを一意に識別するために構築されます。 統合のバージョンに応じたトラッキングコードの構造の概要を次に示します。 バージョン1.5は次のようになります。
 
 ![](assets/DFA_id_struct1_5.png)
 
-バージョン 2.0 では、次のようになります。
+バージョン2.0は次のようになります。
 
 ![](assets/DFA_id_struct2.png)
 
-これらの ID は、Genesis と DFA の共有キーとして機能し、正しい分類と指標を関連付けます。
+これらのIDは、正しい分類と指標を関連付けるために、GenesisとDFAの間の共有キーとして機能します。
 
-| サイト ID | 広告がホストされたサードパーティサイト。サイト名分類は、このサイト ID の説明的な名前です。 |
+| サイト ID | 広告がホストされたサードパーティサイト。 サイト名の分類は、このサイトIDを説明する名前を提供します。 |
 |---|---|
-| 広告 ID | ユーザーに配信されるコマーシャルの ID。広告名分類には、DFA システムで組織によって定義された広告の名前が含まれています。例：`Hybrid Coup Textlink - Build`。 |
-| プレースメント ID | 広告スペースを購入した Web サイト、Web サイトの部分、または Web サイトのグループの DFA アカウントを示します。 |
-| クリエイティブ ID | 訪問者に表示することを意図した画像、Flash SWF またはその他のリソース。クリエイティブ名分類には、DFA インターフェイスでこのクリエイティブに指定した名前が含まれます。 |
+| 広告 ID | ユーザーに配信されるコマーシャルのID。 広告名の分類には、DFAシステムで組織が定義した広告の名前が含まれます。 例：`Hybrid Coup Textlink - Build`。 |
+| プレースメント ID | 広告スペースを購入したWebサイト、Webサイトの一部、またはWebサイトのグループのDFAアカウント内の表現。 |
+| クリエイティブ ID | 画像、Flash SWFまたは訪問者に表示する他のリソース。 クリエイティブ名の分類には、DFAインターフェイスでこのクリエイティブに指定した名前が含まれます。 |
 
-他の 2 つの分類、配信ツール（DoubleClick for Advertisers）とチャネル（バナー広告）は、DFA キャンペーンに関する同じ値を持つので、DFA インポート済みデータを区別するのに役立ちます。
+他の2つの分類(配信ツール(DoubleClick for Advertisers)とチャネル（バナー広告）は、DFAキャンペーンに対して同じ値を持ち、DFAインポートされたデータを区別するのに役立ちます。
 
-## SearchCenter の重複除外 {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
+## SearchCenterの重複除外 {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
-DFA 統合は、Adobe SearchCenter に対応しています。Data Connectors ウィザードで SearchCenter 重複除外を有効にすると、検索による訪問者は DFA の Floodlight サーバーからデータを取得しなくなります。DFA によって *`s.campaign`* が入力されないので、SearchCenter によってデータを生成できるようになります。また、DFA および SearchCenter は、各製品の変数に重複除外の値を設定します。
+DFA 統合は、Adobe SearchCenter に対応しています。Data Connectors ウィザードで SearchCenter 重複除外を有効にすると、検索による訪問者は DFA の Floodlight サーバーからデータを取得しなくなります。DFA によって *`s.campaign`* が入力されないので、SearchCenter によってデータを生成できるようになります。また、DFAとSearchCenterでは、各製品の変数に重複除外の値が設定されるようになりました。
 
-次に、SearchCenter の重複除外が有効な場合に有効になるロジックの概要を説明します。
+次のリストでは、SearchCenterの重複除外が有効な場合に有効になるロジックの概要を説明します。
 
-ウィザードで **[!UICONTROL DFA]**／**[!UICONTROL SearchCenter 重複除外]**&#x200B;が選択されている場合：
+ウィザード **[!UICONTROL DFA]** で「>」 **[!UICONTROL SearchCenter deduplication]** が選択されている場合：
 
 * DFA クリックスルーの場合、統合は、設定した SCM eVar に文字列「DFA Clickthrough」を設定します。
 * DFA ビュースルーの場合、統合は、SCM eVar に文字列「DFA Viewthrough」を設定します。
 
-ウィザードで **[!UICONTROL SearchCenter]**／**[!UICONTROL DFA 重複除外]**&#x200B;が選択されている場合：
+ウィザード **[!UICONTROL SearchCenter]** で「>」 **[!UICONTROL DFA deduplication]** が選択されている場合：
 
 * DFA ビュースルーの場合、統合は、SCM eVar に文字列「DFA Viewthrough」を設定します。
 
-> [!NOTE]SearchCenter／DFA 重複除外が有効になっており、SearchCenter クエリー文字列パラメーターが設定されている場合、DFA 処理では訪問は考慮されません。つまり、SearchCenter クエリー文字列パラメーターは、DFA クリックスルーパラメーターとは異なる必要があり、表示広告に SearchCenter クエリー文字列パラメーターが設定されないようにする必要があります。
+>[!NOTE]SearchCenter／DFA 重複除外が有効になっており、SearchCenter クエリー文字列パラメーターが設定されている場合、DFA 処理では訪問は考慮されません。つまり、SearchCenter クエリー文字列パラメーターは、DFA クリックスルーパラメーターとは異なる必要があり、表示広告に SearchCenter クエリー文字列パラメーターが設定されないようにする必要があります。
 
