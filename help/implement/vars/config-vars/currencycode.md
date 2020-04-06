@@ -2,39 +2,39 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # currencyCode
 
-コマースを使用するサイトでは、売上高と通貨がAnalyticsの重要な部分です。 多くのサイト、特に複数の国にまたがるサイトでは、異なる通貨を使用します。 この変数を使 `currencyCode` 用して、売上高属性が正しい通貨であることを確認します。
+コマースを使用するサイトでは、売上高と通貨が Analytics の重要な部分です。多くのサイト、特に複数の国にまたがるサイトでは、異なる通貨が使用されます。`currencyCode` 変数を使用して、売上高属性が正しい通貨になっていることを確認します。
 
-を定義 `currencyCode` していない場合、変数と通貨イベン [`products`](../page-vars/products.md) トを定義した金額値は、レポートスイートの通貨と同じ通貨であるかのように扱われます。 レポートス [イートの通貨を確認するには](/help/admin/admin/general-acct-settings-admin.md) 、『管理者ユーザガイド』の「一般的なアカウント設定」を参照してください。
+`currencyCode` を定義していない場合、[`products`](../page-vars/products.md) 変数で定義した金額値と通貨イベントは、レポートスイートの通貨と同じ通貨であるかのように扱われます。レポートスイートの通貨については、『管理者ユーザーガイド』の[一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md)を参照してください。
 
-が定義さ `currencyCode` れ、レポートスイートの通貨と一致する場合、通貨換算は適用されません。
+`currencyCode` が定義され、レポートスイートの通貨と一致する場合、通貨換算は適用されません。
 
-が定義 `currencyCode` され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。 アドビは [XEと提携し](https://xe.com) 、毎日通貨を換算します。 データ収集サーバーに保存される値は、最終的にはレポートスイートの通貨で保存されます。
+`currencyCode` が定義され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。アドビは [XE](https://xe.com) と提携し、毎日通貨を換算します。データ収集サーバーに保存される値は、最終的にはレポートスイートの通貨で保存されます。
 
-> [!IMPORTANT] 無効な `currencyCode` 値が含まれている場合、ヒット全体が破棄され、データが失われます。 実装でこの変数を使用する場合は、この変数が正しく定義されていることを確認します。
+>[!IMPORTANT] `currencyCode` に無効な値が含まれる場合、ヒット全体が破棄され、データが失われます。実装でこの変数を使用する場合は、この変数が正しく定義されていることを確認します。
 
-この変数は、ヒット間で保持されません。 この変数は、売上高または通貨イベントを含むすべてのページで定義してください。
+この変数は、ヒット間で保持されません。この変数が売上高または通貨イベントを含むすべてのページで定義されていることを確認してください。
 
-## Adobe Experience Platform Launchの通貨コード
+## Adobe Experience Platform Launch の「通貨コード」
 
-通貨コードは、Adobe Analyticsの拡張機能を設定す [!UICONTROL General] る際に、アコーディオンの下にあるフィールドです。
+Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し、 [!UICONTROL Extensions] Adobe Analyticsの下のボタ [!UICONTROL Configure] ンをクリックします。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. アコーディオ [!UICONTROL General] ンを展開すると、フィールドが表示 [!UICONTROL Currency Code] されます。
 
-プリセットの通貨コードまたはカスタムの通貨コードを使用できます。 カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
+プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
-## AppMeasurementのs.currencyCodeとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.currencyCode 
 
-変数 `s.currencyCode` は、ページ上の通貨を表す3文字の大文字コードを含む文字列です。
+`s.currencyCode` 変数は、ページ上の通貨を表す 3 文字の大文字コードを含む文字列です。
 
 ```js
 s.currencyCode = "USD";
@@ -48,7 +48,7 @@ s.currencyCode = "USD";
 | `AFA` | アフガニスタン アフガニ |
 | `ALL` | アルバニア レク |
 | `AMD` | アルメニア ドラム |
-| `ANG` | オランダアティルギルダー |
+| `ANG` | オランダ アティルギルダー |
 | `AOA` | アンゴラ クワンザ |
 | `ARS` | アルゼンチン ペソ |
 | `AUD` | オーストラリア ドル |
@@ -70,7 +70,7 @@ s.currencyCode = "USD";
 | `BYR` | ベラルーシ ルーブル |
 | `BZD` | ベリーズ ドル |
 | `CAD` | カナダ ドル |
-| `CDF` | コンゴ/キンシャサ フラン |
+| `CDF` | コンゴ／キンシャサ フラン |
 | `CHF` | スイス フラン |
 | `CLP` | チリ ペソ |
 | `CNY` | 中国元（人民幣） |
@@ -151,7 +151,7 @@ s.currencyCode = "USD";
 | `MZM` | モザンビーク メティカル |
 | `NAD` | ナミビア ドル |
 | `NGN` | ナイジェリア ナイラ |
-| `NIO` | ニカラグアコルドバ |
+| `NIO` | ニカラグア コルドバ |
 | `NOK` | ノルウェークローナ |
 | `NPR` | ネパール ルピー |
 | `NZD` | ニュージーランド ドル |
@@ -181,7 +181,7 @@ s.currencyCode = "USD";
 | `SPL` | セボルガ公国ルイジーニ |
 | `SRD` | スリナム ドル |
 | `SRG` | スリナム ギルダー |
-| `STD` | サントメプリンシペドブラ |
+| `STD` | サントメプリンシペ ドブラ |
 | `SVC` | エルサルバドル コロン |
 | `SYP` | シリア ポンド |
 | `SZL` | スワジランド エマランゲーニ |
@@ -193,7 +193,7 @@ s.currencyCode = "USD";
 | `TRL` | トルコ リラ |
 | `TTD` | トリニダード・トバゴ ドル |
 | `TVD` | ツバル ドル |
-| `TWD` | 台湾 NT ドル |
+| `TWD` | 台湾ドル |
 | `TZS` | タンザニア シリング |
 | `UAH` | ウクライナ フリヴニャ |
 | `UGX` | ウガンダ シリング |
@@ -204,16 +204,16 @@ s.currencyCode = "USD";
 | `VND` | ベトナム ドン |
 | `VUV` | バヌアツ バツ |
 | `WST` | サモア タラ |
-| `XAF` | Communauté Financière Africaine Francs B |
+| `XAF` | アフリカ金融共同体フラン B |
 | `XAG` | 銀オンス |
 | `XAU` | 金オンス |
 | `XCD` | 東カリブ EC ドル |
-| `XDR` | 国際通貨基金特別引き出し |
-| `XOF` | Communauté Financière Africaine Francs B |
+| `XDR` | 国際通貨基金特別引出権 |
+| `XOF` | アフリカ金融共同体フラン B |
 | `XPD` | パラジウム オンス |
 | `XPF` | CFP フラン |
 | `XPT` | プラチナ オンス |
 | `YER` | イエメン リアル |
 | `ZAR` | 南アフリカ ランド |
 | `ZMK` | ザンビア クワチャ |
-| `ZWD` | ジンバブエドル |
+| `ZWD` | ジンバブエ ドル |
