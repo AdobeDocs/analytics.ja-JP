@@ -2,47 +2,47 @@
 title: pt
 description: 変数のリストで関数を実行します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobeプラグイン：pt
+# アドビプラグイン：pt
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
+>[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-プラグイン `pt` は、Analytics変数のリストで関数またはメソッドを実行します。 例えば、メソッドを毎回手動で呼び出すこ [`clearVars`](../functions/clearvars.md) となく、複数の変数に対して選択的にメソッドを実行できます。 その他のプラグインの一部は、このコードに依存して正しく実行されます。 一度に複数のAnalytics変数で特定の関数を実行する必要がない場合や、依存するプラグインを使用していない場合は、このプラグインは不要です。
+`pt` プラグインは、Analytics 変数のリストで関数またはメソッドを実行します。例えば、[`clearVars`](../functions/clearvars.md) メソッドを毎回手動で呼び出すことなく、複数の変数に対して選択的に実行できます。その他のプラグインの一部は、正しく実行するために、このコードに依存しています。一度に複数の Analytics 変数に対して特定の関数を実行する必要がない場合や、依存するプラグインを使用しない場合は、このプラグインは必要ありません。
 
-## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
+## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
-アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
-1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
-   * 条件：なし
-   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：初期化pt
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize pt
 1. ルールに対する変更を保存して発行します。
 
-## カスタムコードエディターの起動を使用したプラグインのインストール
+## Launch カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
-1. 変更を保存し、Analytics拡張機能に公開します。
+1. 変更を保存し、Analytics 拡張機能に公開します。
 
-## AppMeasurementを使用したプラグインのインストール
+## AppMeasurement を使用したプラグインのインストール
 
-次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングをおこなう際に役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,20 +53,20 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ## プラグインの使用
 
-このメソ `pt` ッドでは、次の引数を使用します。
+`pt` メソッドでは、次の引数を使用します。
 
-* **`l`** （必須、文字列）:引数に含まれる関数が実行できる変数 `cf` のリストです。
-* **`de`** （オプション、文字列）:引数内の変数のリストを区切る区切り `l` 文字。 デフォルトはコンマ(`,`)です。
-* **`cf`** （必須、文字列）:引数に含まれる各変数に対して呼び出される、AppMeasurementオブジェクトに含まれるコールバック関数の名 `l` 前。
-* **`fa`** （オプション、文字列）:引数の関数が実行時に `cf` 追加の引数を呼び出す場合は、ここに含めます。 初期設定はで `undefined`す。
+* **`l`**（必須、文字列）：`cf` 引数に含まれる関数が実行できる変数のリストです。
+* **`de`**（オプション、文字列）：`l` 引数内の変数のリストを区切る区切り文字です。デフォルトはコンマ（`,`）です。
+* **`cf`**（必須、文字列）：`l` 引数に含まれる各変数に対して呼び出される AppMeasurement オブジェクトに含まれるコールバック関数の名前です。
+* **`fa`**（オプション、文字列）：`cf` 引数内の関数が実行時に追加の引数を呼び出す場合は、ここに含めます。デフォルト値は `undefined` です。
 
-このメソッドを呼び出すと、（引数内の）コールバック関数が値を返 `cf` す場合に値が返されます。
+このメソッドを呼び出すと、（`cf` 引数内の）コールバック関数が値を返す場合に値が返されます。
 
 ## 呼び出しの例
 
-### 例1
+### 例 1
 
-次のコードは、getQueryParamプラグインの一部です。  URLのクエリ文字列(fullQueryString)に含まれる各キーと値のペアに対して、getParameterValueヘルパー関数を実行します。  また、各キーと値のペアを抽出するには、fullQueryStringをアンパサンド(&amp;)で区切って、分割する必要があります。 parameterKeyは、プラグインがクエリ文字列から抽出しようとしているクエリ文字列パラメーターを参照します
+次のコードは getQueryParam プラグインの一部です。URL のクエリー文字列（fullQueryString）に含まれる各キーと値のペアに対して、getParameterValue ヘルパー関数を実行します。また、各キーと値のペアを抽出するには、fullQueryString をアンパサンド「&amp;」で区切る必要があります。parameterKey は、プラグインがクエリー文字列から抽出しようとしているクエリー文字列パラメーターを参照します。
 
 ```javascript
 returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
@@ -87,15 +87,15 @@ for(var i = 0; i < parametersLength; i++)
 
 ## バージョン履歴
 
-### 2.01（2019年9月24日）
+### 2.01（2019 年 9 月 25 日）
 
-* 全体的なサイズを小さくするためにコードを少し変更
+* 全体的なサイズを小さくするためにコードを少し変更しました。
 
-### 2.0（2018年4月18日）
+### 2.0（2018 年 4 月 18 日）
 
-* ポイントリリース（再コンパイルされ、コードサイズが小さくなりました）。
-* HコードとAppMeasurementの両方のサポートを追加しました。
+* ポイントリリース（再コンパイル、コードサイズの縮小）。
+* H コードと AppMeasurement の両方のサポートを追加しました。
 
-### 1.0（2013年9月24日）
+### 1.0（2013 年 9 月 24 日）
 
 * 初回リリース。
