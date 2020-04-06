@@ -2,7 +2,7 @@
 title: 起動データ要素のAnalytics変数へのマッピング
 description: データ要素をAnalytics変数に割り当て、Analytics Workspaceでディメンションとして使用できるようにします。
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Platform Launchでデータ要素のリポジトリを取得し
 
 ### ルール内の変数の設定
 
-ルールに設定された変数は、すべてのページで変数を設定したくない場合に最適です。 ルールで条件を定義します。 See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+ルールに設定された変数は、すべてのページで変数を設定したくない場合に最適です。 ルールで条件を定義します。 See [Rules](https://docs.adobe.com/content/help/ja-JP/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. 目的の「起動」プロパティをクリックします。
@@ -43,7 +43,7 @@ Adobe Experience Platform Launchでデータ要素のリポジトリを取得し
 1. モーダルウィンドウで目的のデータ要素を選択します。 クリック [!UICONTROL Select].
 1. データ要素名は、記号で囲まれたテキストフィールドに追加さ `%` れます。 例えば、データ要素に「Page name」という名前を付けた場合、変数にデータ要素を割り当てる `%Page name%` ときに文字列が表示されます。
 
-> [!TIP] 同じ変数内のデータ要素を連結できます。 例えば、「Hostname」データ要素と「Pathname」データ要素がある場合は、を使用して、両方を単一の変数に組み合わせることができま `%Hostname%%Pathname%`す。
+>[!TIP] 同じ変数内のデータ要素を連結できます。 例えば、「Hostname」データ要素と「Pathname」データ要素がある場合は、を使用して、両方を単一の変数に組み合わせることができま `%Hostname%%Pathname%`す。
 
 ## 次の手順
 
