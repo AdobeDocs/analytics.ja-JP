@@ -1,42 +1,42 @@
 ---
 title: linkExternalFilters
-description: 離脱リンクの自動追跡に役立つように、linkExternalFilters変数を使用します。
+description: linkExternalFilters 変数の使用は出口リンクの自動トラッキングに役立ちます。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkExternalFilters
 
-AppMeasurementは、サイト外を指すリンクを自動的に追跡する機能を提供します。 を有効 [`trackExternalLinks`](trackexternallinks.md) にすると、訪問者がリンクをクリックしてサイトを離れると、イメージリクエストがアドビに直接送信されます。 変数と変 `linkExternalFilters` 数は、 [`linkInternalFilters`](linkinternalfilters.md) どのリンクが内部/外部と見なされるかを決定します。
+AppMeasurement は、サイト外を指すリンクを自動的に追跡する機能を提供します。If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. `linkExternalFilters` 変数と [`linkInternalFilters`](linkinternalfilters.md) 変数は、リンクが外部と見なされるか内部と見なされるかを決定します。
 
-この変数に値が含まれる場合、離脱リンクの自動追跡はホワイトリストのような動作をします。 リンクのクリックがどの値とも一致しな `linkExternalFilters` い場合、離脱リンクとは見なされません。 URL全体がこの変数に対して調べられます。 が有効 [`linkLeaveQueryString`](linkleavequerystring.md) な場合、クエリ文字列も調べられます。
+この変数に値が含まれる場合、出口リンクの自動トラッキングはホワイトリストのように動作します。リンククリックがどの `linkExternalFilters` 値とも一致しない場合、そのリンクは出口リンクと見なされません。この変数に対して URL 全体が調べられます。If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
-> [!TIP] この変数は、離脱リンクと見なすドメインが正確にわかっている場合にのみ使用します。 多くの組織では、を使用するだけで `linkInternalFilters` 離脱リンクトラッキングのニーズを満たすことができ、を使用しないと考えていま `linkExternalFilters`す。
+>[!TIP] この変数は、出口リンクと見なすドメインが正確にわかっている場合にのみ使用します。多くの組織では、出口リンクのトラッキングのニーズを満たすには `linkInternalFilters` を使用すれば十分であると考え、`linkExternalFilters`を使用しません。
 
-両方を同時に使用する場合 `linkInternalFilters` 、クリックさ `linkExternalFilters` れたリンクは一致する必要があり `linkExternalFilters` 、一致しないリンクは離脱リ ****`linkInternalFilters` ンクと見なされる必要があります。 クリックされたリンクが離脱リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクのタイプが優先されます。
+`linkInternalFilters` と `linkExternalFilters` の両方を同時に使用する場合は、クリックされたリンクが出口リンクと見なされるには、`linkExternalFilters` に一致すると&#x200B;**ともに** `linkInternalFilters` に一致しない必要があります。クリックされたリンクが出口リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
-## アウトバウンドリンク — Adobe Experience Platform Launchで追跡
+## Adobe Experience Platform Launch の「アウトバウンドリンク - 追跡」
 
-「追跡」フィールドは、Adobe Analyticsの拡張機能を設定する際に、アコーディオンの下に表示されるフ [!UICONTROL Link Tracking] ィルター（通常はドメイン）のコンマ区切りリストです。
+The Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し、 [!UICONTROL Extensions] Adobe Analyticsの下のボタ [!UICONTROL Configure] ンをクリックします。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. アコーディオ [!UICONTROL Link Tracking] ンを展開すると、フィールドが表示 [!UICONTROL Outbound Links - Track] されます。
 
-常に外部と見なすフィルターをこのフィールドに配置します。 複数のドメインは、コンマで区切ります。スペースは使用しません。
+常に外部と見なすフィルターをこのフィールドに配置します。複数のドメインは、スペースなしのコンマで区切ります。
 
-## AppMeasurementのs.linkExternalFiltersとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.linkExternalFilters
 
-この変 `s.linkExternalFilters` 数は、離脱リンクと見なすフィルター（ドメインなど）を含む文字列です。 複数のドメインは、コンマで区切ります。スペースは使用しません。
+`s.linkExternalFilters` 変数は、出口リンクと見なすフィルター（ドメインなど）を含む文字列です。複数のドメインは、スペースなしのコンマで区切ります。
 
 ```js
 s.linkExternalFilters = "example.com,example.net,example.org";
 ```
 
-次の実装例を、オンの場合と同様に考えてみま `adobe.com`す。
+次の実装例を `adobe.com` にあるとして考えます。
 
 ```html
 <script>
