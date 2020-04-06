@@ -2,8 +2,8 @@
 description: 従来の Analytics ユーザー管理システムから Admin Console へユーザーを移行します。
 title: 'Adobe ID 用に Analytics ユーザーアカウントを移行する '
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: ht
-source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 従来の Analytics ユーザー管理システムから Admin Console へユーザーを移行します。
 
-> [!NOTE]Experience Cloud でログインしていない管理者がユーザー ID 移行ツールにアクセスしようとすると、Experience Cloud のログインページにリダイレクトされます。
+>[!NOTE]Experience Cloud でログインしていない管理者がユーザー ID 移行ツールにアクセスしようとすると、Experience Cloud のログインページにリダイレクトされます。
 
 **Analytics ユーザーを移行するには**
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー ID の移行]**&#x200B;に移動します。
+1. //に移 **[!UICONTROL Analytics]** 動し **[!UICONTROL Admin]** ます **[!UICONTROL User ID Migration]**。
 
    ![](assets/migration-progress.png)
 
@@ -41,15 +41,15 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
       <td colname="col2"> <p>ユーザーが招待を受け入れました。 </p> </td> 
    </tr> 
    <tr> 
-      <td colname="col1"> <p>従来のログインの無効化 </p> </td> 
-      <td colname="col2"> <p>会社 ID を使用している従来のログインが無効化されます。ユーザーは、Adobe ID または Enterprise ID を使用して、Experience Cloud にアクセスするようになります。すべてのユーザーがこのフェーズに達すると、移行が完了します。 </p> <p>移行時には、従来のログインは無効になります。ユーザーは <span class="filepath"> experiencecloud.adobe.com</span> にリダイレクトされ、Adobe IDまたは Enterprise ID を使用してログインする必要があります。 </p> </td> 
+      <td colname="col1"> <p>従来のログインが無効 </p> </td> 
+      <td colname="col2"> <p>従来のログインでは会社IDを使用できません。 ユーザーは、Adobe IDまたはEnterprise IDを使用してExperience Cloudにアクセスできるようになりました。 すべてのユーザーがこの段階に達したら、移行を完了します。 </p> <p>移行時には、従来のログインは無効になります。ユーザーは <span class="filepath"> experiencecloud.adobe.com</span> にリダイレクトされ、Adobe IDまたは Enterprise ID を使用してログインする必要があります。 </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
    **ユーザー情報**
 
-   ユーザー情報は、組織内のユーザーの概要を、ドメイン名で区切って表示します。
+   「ユーザー情報」は、組織内のユーザーの概要をドメイン名で区切って示します。
 
    <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
    <thead> 
@@ -61,7 +61,7 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
    <tbody> 
    <tr> 
       <td colname="col1"> <p>ドメイン </p> </td> 
-      <td colname="col2"> <p>ドメインは、現在の Analytics ユーザーベースの電子メール ID に固有のものとなります。1 つのドメインを複数の組織がクレームすることはできません。また、ドメインをクレームできるのはシステム管理者のみです。詳しくは、<a href="https://helpx.adobe.com/jp/enterprise/help/request-access-to-claimed-domain.html">クレームされたドメインへのアクセスを要求する</a>を参照してください。 </p> </td> 
+      <td colname="col2"> <p>ドメインは、現在のAnalyticsユーザーベースの電子メールIDに固有です。 1 つのドメインを複数の組織がクレームすることはできません。また、ドメインをクレームできるのはシステム管理者のみです。詳しくは、<a href="https://helpx.adobe.com/jp/enterprise/help/request-access-to-claimed-domain.html">クレームされたドメインへのアクセスを要求する</a>を参照してください。 </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>申請されたドメイン </p> </td> 
@@ -70,10 +70,10 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
    </tbody> 
    </table>
 
-1. 移行するユーザー ID を含むドメインを探し、「**[!UICONTROL 移行が必要]**」の下で「**[!UICONTROL ユーザーを選択]**」をクリックします。
-1. [!DNL Users] ページで、移行するユーザーを選択し、「**[!UICONTROL 移行]**」をクリックします。
+1. Locate the domain containing the user IDs you want to migrate, then, under **[!UICONTROL Requiring Migration]**, click **[!UICONTROL Select Users]**.
+1. On the [!DNL Users] page, select the users you want to migrate, then click **[!UICONTROL Migrate]**.
 
-   「**[!UICONTROL 移行]**」をクリックすると、ユーザーに招待が送信されます（移行開始）。ユーザーは招待を受け入れる必要があります。このアクションにより、ユーザー ID が「移行完了」に変わります。その後、`[!DNL my.omniture.com].` への従来のアクセスをオフにすることができます。
+   When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. このアクションにより、ユーザー ID が「移行完了」に変わります。その後、`[!DNL my.omniture.com].` への従来のアクセスをオフにすることができます。
 
    ![](assets/user-info.png)
 
