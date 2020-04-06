@@ -1,15 +1,15 @@
 ---
 title: dynamicAccountMatch
 description: dynamicAccountMatch 変数は、動的アカウントで表示する値を決定します。
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dynamicAccountMatch
 
-> [!IMPORTANT] 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在の AppMeasurement ライブラリや Adobe Experience Platform Launch ではサポートされていません。
+>[!IMPORTANT] 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在の AppMeasurement ライブラリや Adobe Experience Platform Launch ではサポートされていません。
 
 `dynamicAccountMatch` 変数は、`dynamicAccountList` が値を調べて比較する値です。`dynamicAccountSelection` を `true` に設定しない場合、この変数は無視されます。
 
