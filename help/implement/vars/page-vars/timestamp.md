@@ -1,8 +1,8 @@
 ---
 title: timestamp
 description: ヒットのタイムスタンプを手動で設定します。
-translation-type: ht
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 `timestamp` 変数は、タイムスタンプが有効なレポートスイートのヒットのタイムスタンプを手動で設定します。
 
-> [!WARNING] レポートスイートでタイムスタンプ付きのヒットを受け入れるように明示的に設定されていない場合は、この変数を使用しないでください。AppMeasurement は、タイムスタンプ付きのヒットをサポートしないレポートスイートのヒットの時間を自動的に設定します。この変数を含むヒットを、タイムスタンプをサポートしないレポートスイートに送信すると、そのデータは永久的に失われます。
+>[!WARNING] レポートスイートでタイムスタンプ付きのヒットを受け入れるように明示的に設定されていない場合は、この変数を使用しないでください。AppMeasurement は、タイムスタンプ付きのヒットをサポートしないレポートスイートのヒットの時間を自動的に設定します。この変数を含むヒットを、タイムスタンプをサポートしないレポートスイートに送信すると、そのデータは永久的に失われます。
 
 ## Adobe Experience Platform Launch の timestamp
 
