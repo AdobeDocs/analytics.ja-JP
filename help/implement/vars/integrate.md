@@ -1,8 +1,8 @@
 ---
 title: モジュールの統合
 description: 統合モジュールを使用すると、アドビのパートナーは自社のデータ収集作業を組織と統合できます。
-translation-type: ht
-source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 統合モジュールを使用すると、アドビのパートナーは自社のデータ収集作業を組織と統合できます。この統合により、双方向のデータ接続の機会が得られます。通常、統合モジュールの使用はアドビのパートナーが主導します。
 
-> [!NOTE]実装でパートナーデータをリクエストすると、ページ読み込みとアドビのデータ収集サーバーに送信されるデータの間に遅延が生じる可能性があります。データの送信前に訪問者が新しいページを読み込んだ場合、そのページは記録されません。
+>[!NOTE]実装でパートナーデータをリクエストすると、ページ読み込みとアドビのデータ収集サーバーに送信されるデータの間に遅延が生じる可能性があります。データの送信前に訪問者が新しいページを読み込んだ場合、そのページは記録されません。
 
 ## 統合モジュールのワークフロー
 
@@ -30,7 +30,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 1. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
-1. 上部のナビゲーションで、[!UICONTROL 管理]／[!UICONTROL コードマネージャー]をクリックします。
+1. In the top navigation, click [!UICONTROL Admin] > [!UICONTROL Code Manager].
 1. 最新の JavaScript appMeasurement ライブラリをダウンロードします。
 1. ダウンロードが完了したら、ファイルを展開して `AppMeasurement_Module_Integrate.js` を見つけます。
 
