@@ -5,7 +5,7 @@ title: コンバージョン変数（eVar）
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 76613290f4496a400ba9c16171cef7e161a29cf3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ eVarは、次のような原因と効果の測定に最適です。
 
 トラフィック測定またはパスが必要な場合は、トラフィック変数の使用をお勧めします。
 
-> [!NOTE]イメージリクエストの 1 つの eVar には、単一の値のみを格納できます。1 つの eVar の値に複数の値を格納したい場合は、[リスト変数（リスト var）](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/listN.html)を実装することをお勧めします。
+>[!NOTE]イメージリクエストの 1 つの eVar には、単一の値のみを格納できます。1 つの eVar の値に複数の値を格納したい場合は、[リスト変数（リスト var）](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/listN.html)を実装することをお勧めします。
 
 ## コンバージョン変数 - 説明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
