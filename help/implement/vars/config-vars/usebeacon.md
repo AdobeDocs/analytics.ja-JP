@@ -2,31 +2,31 @@
 title: useBeacon
 description: useBeacon を使用すると、AppMeasurement で強制的にブラウザーの sendBeacon API を使用できます
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # useBeacon
 
-最新のブラウザーのほとんどには、ネイティブのメソッドが含まれてい `navigator.sendBeacon()`ます。 HTTP経由でWebサーバーに対して非同期に少量のデータを送信します。 変数が有効な場合、AppMeasurement `navigator.sendBeacon()` はこのメソッド `useBeacon` を使用できます。 ページがアンロードされる前に情報を送信する離脱リンクなどの状況で役立ちます。
+最新のブラウザーのほとんどに `navigator.sendBeacon()` ネイティブメソッドが含まれています。HTTP 経由で Web サーバーに少量のデータを非同期に送信します。`useBeacon` 変数が有効な場合、AppMeasurement は `navigator.sendBeacon()` メソッドを使用できます。これは、ページがアンロードされる前に情報を送信する出口リンクなどの状況で役立ちます。
 
-を有効 `useBeacon` にすると、アドビに送信される次のヒットで、標準のイメージリクエストではな `navigator.sendBeacon()` く、ブラウザーの方法が使用 `GET` されます。 この変数は、[`s.t()`](../functions/t-method.md) と [`s.tl()`](../functions/tl-method.md) の両方のイメージリクエストに適用されます。AppMeasurement 2.17.0以降が必要です。
+`useBeacon` が有効である場合、アドビに送信される次のヒットでは、標準の `GET` イメージリクエストの代わりに、ブラウザーの `navigator.sendBeacon()` メソッドが使用されます。この変数は、[`s.t()`](../functions/t-method.md) と [`s.tl()`](../functions/tl-method.md) の両方のイメージリクエストに適用されます。AppMeasurement 2.17.0 以降が必要です。
 
-> [!TIP] AppMeasurementは、離脱リンクイメージ `useBeacon` リクエストを自動的に有効にします。
+>[!TIP] AppMeasurement は、出口リンクイメージリクエストで `useBeacon` を自動的に有効にします。
 
-訪問者 `useBeacon` がサポートしていないブラウザーを使用する場合、この変数は無視されま `navigator.sendBeacon()`す。 この変数を使用するには、AppMeasurement 2.16.0以降が必要です。
+訪問者が `useBeacon` をサポートしていないブラウザーを使用している場合、`navigator.sendBeacon()` 変数は無視されます。この変数を使用するには、AppMeasurement 2.16.0以降が必要です。
 
-## Adobe Experience Platform Launchでのビーコンの使用
+## Adobe Experience Platform Launch でのビーコンの使用
 
-この変数を使用する専用のフィールドが「起動」にありません。 AppMeasurement構文に従って、カスタムコードエディターを使用します。
+Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementのs.useBeaconとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.useBeacon
 
-この変 `s.useBeacon` 数は、AppMeasurementがブラウザーのメソッドを使用するかどうかを決定するブール値 `navigator.sendBeacon()` です。 Its default value is `false`. の非同期性を使用する `true` 場合は、トラッキング関数を呼び出す前にこの変数をに設定しま `navigator.sendBeacon()`す。
+`s.useBeacon` 変数は、AppMeasurement がブラウザーの `navigator.sendBeacon()` メソッドを使用するかどうかを決定するブール値です。デフォルト値は `false` です。`navigator.sendBeacon()` の非同期性を使用する場合は、トラッキング関数を呼び出す前にこの変数を `true` に設定します。
 
 ```js
 s.useBeacon = true;
 ```
 
-> [!NOTE] トラッキングコールの実行後、この変数はにリセットされま `false`す。 実装が同じページ読み込みで複数のイメージリクエストを送信する場合（単一ページのアプリケーションなど）、各トラッキングコールの前にこの変 `true` 数をに設定する必要があります。
+>[!NOTE] トラッキングコールの実行後、この変数は `false` にリセットされます。実装が同じページ読み込みで複数のイメージリクエストを送信する場合（単一ページのアプリケーションなど）、各トラッキングコールの前にこの変数を `true` に設定します。
