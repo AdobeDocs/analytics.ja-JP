@@ -1,19 +1,19 @@
 ---
 title: H コード JavaScript 実装の概要
 description: サイトで H コードを実装するためのワークフローについて説明します。
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # H コード JavaScript 実装の概要
 
-> [!IMPORTANT] このバージョンのデータ収集はサポートされなくなりました。[Adobe Experience Platform Launch](../../launch/overview.md) または [JavaScript 版 AppMeasurement](../overview.md) にアップグレードします。
+>[!IMPORTANT] このバージョンのデータ収集はサポートされなくなりました。[Adobe Experience Platform Launch](../../launch/overview.md) または [JavaScript 版 AppMeasurement](../overview.md) にアップグレードします。
 
 データを収集するコードを含むページを正しく実装するには、ホストサーバーにアクセスできる必要があります。以下の手順で、Analytics の基本的な H コード実装方法を説明します。
 
-> [!NOTE] これらの手順に従うには、`s_code.js` のコピーが既存する必要があります。アドビでは、Code Manager で H コードをダウンロードするオプションを提供しなくなりました。
+>[!NOTE] これらの手順に従うには、`s_code.js` のコピーが既存する必要があります。アドビでは、Code Manager で H コードをダウンロードするオプションを提供しなくなりました。
 
 1. **コア JS ファイル変数の更新**：`s_code.js` ファイルを編集し、次の変数が更新されていることを確認します。
    * `s_account` には、データの送信先のレポートスイート ID が含まれます。詳しくは、
@@ -26,7 +26,7 @@ source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
 
 ## キャッシュ
 
-JavaScript ファイルは訪問者のブラウザーでの初回の読み込み後にキャッシュされます。通常、JavaScript ファイルは 1 回のセッションで 2 回以上ダウンロードされることはありません。このファイルがサイトの各ページで使用されている場合でも、ページごとにダウンロードされることはありません。ほとんどの Web サイトでは、ユーザーは通常 1 回のセッションで複数のページを表示するので、何度も使用される JavaScript コードをこのファイルに記述しておくと、全体でダウンロードされるデータ量を削減できます。
+JavaScript ファイルは訪問者のブラウザーでの初回の読み込み後にキャッシュされます。通常、JavaScript ファイルは 1 回のセッションで 2 回以上ダウンロードされることはありません。ファイルは、サイトのすべてのページで使用されている場合でも、各ページにダウンロードされるわけではありません。 ほとんどのWebサイトでは、ユーザーは通常1回のセッションで複数のページ表示を行うので、複数回使用されるJavaScriptをこのファイルに転送すると、全体でダウンロードされるデータ量が少なくなります。
 
 ## H コード圧縮
 
