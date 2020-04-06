@@ -1,48 +1,48 @@
 ---
 title: getTimeSinceLastVisit
-description: 2回の訪問の間の経過時間を測定します。
+description: 2 回の訪問の間の経過時間を測定します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobeプラグイン：getTimeSinceLastVisit
+# アドビプラグイン：getTimeSinceLastVisit
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
+>[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-このプ `getTimeSinceLastVisit` ラグインを使用すると、訪問者が最後の訪問後にサイトに戻ってきた時間を追跡できます。
+`getTimeSinceLastVisit` プラグインを使用すると、訪問者が最後の訪問後にサイトに戻ってきた時間を追跡できます。
 
-## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
+## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
-アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
-1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
-   * 条件：なし
-   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：getTimeSinceLastVisitの初期化
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize getTimeSinceLastVisit
 1. ルールに対する変更を保存して発行します。
 
-## カスタムコードエディターの起動を使用したプラグインのインストール
+## Launch カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
-1. 変更を保存し、Analytics拡張機能に公開します。
+1. 変更を保存し、Analytics 拡張機能に公開します。
 
-## AppMeasurementを使用したプラグインのインストール
+## AppMeasurement を使用したプラグインのインストール
 
-次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングをおこなう際に役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,38 +59,38 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 ## プラグインの使用
 
-メソッド `getTimeSinceLastVisit` は引数を使用しません。 訪問者が最後にサイトに来てから経過した時間を次の形式でグループで返します。
+`getTimeSinceLastVisit` メソッドでは引数を使用しません。訪問者が最後にサイトに来てから経過した時間を次の形式でグループ化して返します。
 
-* 最後の訪問から30分から1時間の間の時間は、最も近い30分のベンチマークに設定されます。 For example, `"30.5 minutes"`, `"53 minutes"`
-* 1時間と1日の間の時間は、最も近い四半期のベンチマークに丸められます。 For example, `"2.25 hours"`, `"7.5 hours"`
-* 1日を超える時間は、最も近い日のベンチマークに丸められます。 For example, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
-* 訪問者が訪問しなかった場合、または経過時間が2年を超える場合、値はに設定されます `"New Visitor"`。
+* 最後の訪問から 30 分～1 時間の時間は、最も近い 0.5 分のベンチマークに設定されます。例：`"30.5 minutes"`、`"53 minutes"`。
+* 1 時間～1 日の時間は、最も近い 0.25 時間刻みのベンチマーク値に丸められます。例：`"2.25 hours"`、`"7.5 hours"`。
+* 1 日を超える時間は、最も近い 1 日刻みのベンチマーク値に丸められます。例：`"1 day"`、`"3 days"`、`"9 days"`、`"372 days"`。
+* 訪問者が訪問しなかった場合、または経過時間が 2 年を超える場合、値は `"New Visitor"` に設定されます。
 
-> [!NOTE] このプラグインは、訪問の最初のヒット時にのみ値を返します。
+>[!NOTE] このプラグインは、訪問の最初のヒット時にのみ値を返します。
 
-このプラグインは、現在の時刻のUnixタイムスタンプに設定され `"s_tslv"` た、ファーストパーティCookieを作成します。 cookieは、無操作状態が2年間続いた後に有効期限が切れます。
+このプラグインは、Unix の現在の時刻のタイムスタンプに設定される、ファーストパーティ Cookie「`"s_tslv"`」を作成します。この Cookie は、無操作状態が 2 年間続くと有効期限が切れます。
 
 ## 呼び出しの例
 
-### 例1
+### 例 1
 
-新規訪問者がサイトを訪問し、次のコードが訪問の最初のページで実行された場合…
+新規訪問者がサイトを訪問し、次のコードが訪問の最初のページで実行される場合、
 
 ```javascript
 s.prop1 = s.getTimeSinceLastVisit();
 s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
 ```
 
-...s.prop1の値は「新しい訪問者」に設定されます。
+s.prop1 の値は「新規訪問者」に設定されます。
 
-同じコードが35分間操作が行われなかった後に同じドメインで実行される場合、s.prop1の値は「35分」に設定されます。
+無操作状態が 35 分間続いた後に同じコードが同じドメインで実行された場合、s.prop1 の値は「35 分」に設定されます。
 
-同じコードが4日間無操作状態が続いた後に同じドメインで実行された場合、s.prop1の値は「4日」に設定されます。
+無操作状態が 4 日間続いた後に同じコードが同じドメインで実行された場合、s.prop1 の値は「4 日間」に設定されます。
 
 ## バージョン履歴
 
-### 1.0（2018年4月17日）
+### 1.0（2018 年 4 月 17 日）
 
-* ポイントリリース（コードを再コンパイルし、サイズを小さく）。
-* プラグインから派生し `getDaysSinceLastVisit` たコード（現在は廃止され、名前が変更されています）。
-* 戻り値に `formatTime` とプ `inList` ラグインを使用するようになりました。
+* ポイントリリース（コードの再コンパイルとコード縮小）。
+* `getDaysSinceLastVisit` プラグインから派生したコード（現在は廃止され、名前が変更されています）。
+* 戻り値に `formatTime` と `inList` プラグインを使用するようになりました。
