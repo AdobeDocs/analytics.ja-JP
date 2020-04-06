@@ -1,8 +1,8 @@
 ---
 title: purchaseID
 description: 一意の購入識別子に基づいてヒットの重複を除外します。
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -29,4 +29,4 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 s.purchaseID = "ABC123";
 ```
 
-> [!NOTE] 購入 ID の生成にランダム化関数を使用しないでください。アドビでは、特定の購入 ID を保存するために[データレイヤー](../../prepare/data-layer.md)を使用することをお勧めします。
+>[!NOTE] 購入 ID の生成にランダム化関数を使用しないでください。アドビでは、特定の購入 ID を保存するために[データレイヤー](../../prepare/data-layer.md)を使用することをお勧めします。
