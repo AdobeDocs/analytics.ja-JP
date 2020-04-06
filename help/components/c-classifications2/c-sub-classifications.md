@@ -5,7 +5,7 @@ title: 下位分類について
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Adobe Analyticsは、単一レベルの分類モデルと複数レベルの分類モデルの両方をサポートしています。 分類階層を使用すると、分類に対して分類を適用できます。
 
-> [!NOTE]下位分類は、分類をさらに分類する機能です。However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 分類階層の詳細については、「[分類階層](classification-hierarchies.md)」を参照してください。
+>[!NOTE]下位分類は、分類をさらに分類する機能です。However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 分類階層の詳細については、「[分類階層](classification-hierarchies.md)」を参照してください。
 
 次に例を示します。
 
 ![](assets/single-level-popup-C.png)
 
-このモデルの各分類は独立しており、選択したレポート変数の新しいサブレポートに対応しています。 さらに、各分類がデータファイル内の1つのデータ列を構成し、列見出しに分類名が付きます。 次に例を示します。
+このモデルの各分類は独立しており、選択した分類変数の新しいサブレポートに対応しています。レポートは さらに、各分類がデータファイル内の1つのデータ列を構成し、列見出しに分類名が付きます。 次に例を示します。
 
 | キー | プロパティ1 | プロパティ2 |
 |---|---|---|
@@ -35,7 +35,7 @@ For more information about the data file, see [Classification Data Files](/help/
 
 **親の分類：**&#x200B;子の分類が関連付けられている分類は、すべて親の分類となります。分類は、親と子の両方の分類にすることができます。 最上位レベルの親分類は、単一レベルの分類に対応します(「単一レ [ベルの分類](/help/components/c-classifications2/c-sub-classifications.md)」を参照)。
 
-**子の分類：**&#x200B;変数ではなく別の分類を親として持つ分類は、すべて子の分類になります。子の分類は、親の分類に関する追加情報を提供します。 例えば、分類に「キャンペ [!UICONTROL Campaigns] ーン所有者」の子分類が含まれているとします。 [!UICONTROL Numeric] 分類は、分類レポートで指標としても機能します。
+**子の分類：**&#x200B;変数ではなく別の分類を親として持つ分類は、すべて子の分類になります。子の分類は、親の分類に関する追加情報を提供します。 例えば、分類に「所有者」 [!UICONTROL Campaigns] 子分類が含まれているキャンペーンが考えられます。 [!UICONTROL Numeric] 分類は、分類レポートで指標としても機能します。
 
 各分類は、親または子のいずれかで、データファイル内の1つのデータ列を構成します。 次の命名形式を使用した子分類の列見出し。
 
@@ -52,9 +52,9 @@ For more information about the data file, see [Classification Data Files](/help/
 
 複数レベルの分類のファイルテンプレートはより複雑ですが、複数レベルの分類の利点は、個別のレベルを個別のファイルとしてアップロードできることです。 この方法を使用すると、時間の経過と共に変化する分類レベルにデータをグループ化し、定期的に（日別、週別など）アップロードする必要のあるデータの量を最小限に抑えることができます。
 
-> [!NOTE] データファ [!UICONTROL Key] イルの列が空白の場合は、データ行ごとに一意のキーが自動的に生成されます。 第2レベル以上の分類データを使用してデータファイルをアップロードする場合に、ファイルの破損を防ぐには、列の各行にアスタリスク(*)を [!UICONTROL Key] 入力します。
+>[!NOTE] データファ [!UICONTROL Key] イルの列が空白の場合は、データ行ごとに一意のキーが自動的に生成されます。 第2レベル以上の分類データを使用してデータファイルをアップロードする場合に、ファイルの破損を防ぐには、列の各行にアスタリスク(*)を [!UICONTROL Key] 入力します。
 
-トラブルシューティングヘルプについては、[一般的な分類のアップロードの問題](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues)を参照してください。
+トラブルシューティングヘルプについては、[一般的な分類のアップロードの問題](https://marketing.adobe.com/resources/help/ja_JP/home/index.html#kb-common-saint-upload-issues)を参照してください。
 
 ## 例
 
