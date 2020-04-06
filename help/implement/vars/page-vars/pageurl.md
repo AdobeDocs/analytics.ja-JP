@@ -1,8 +1,8 @@
 ---
 title: pageURL
 description: 自動的に収集されたページの URL をサイトで上書きします。
-translation-type: ht
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 AppMeasurement は、各ヒットでページ URL を自動的に収集します。AppMeasurement によって自動的に収集されたページ URL を上書きする場合は、この変数を使用できます。ほとんどの場合、この変数を設定する必要はありません。
 
-> [!NOTE] この変数は、Analysis Workspace では使用できないディメンションで、Data Warehouse およびデータフィードでのみ使用できます。ページ URL を Analysis Workspace のディメンションとして使用する場合は、ヒットのたびに eVar に `pageURL` 変数を渡すことを検討してください。
+>[!NOTE] この変数は、Analysis Workspace では使用できないディメンションで、Data Warehouse およびデータフィードでのみ使用できます。ページ URL を Analysis Workspace のディメンションとして使用する場合は、ヒットのたびに eVar に `pageURL` 変数を渡すことを検討してください。
 
 URL が 255 バイトを超える場合があります。AppMeasurement は、イメージリクエストの URL の最初の 255 バイトに対して `g` クエリー文字列パラメーターを使用します。URL が 255 バイトを超える場合、残りの URL は `-g` クエリー文字列パラメーターに保存されます。URL 内のプロトコルとクエリー文字列がこの変数に含まれます。
 
@@ -21,10 +21,10 @@ Launch はページ URL を自動的に設定します。ただし、Analytics �
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
-6. [!UICONTROL ページ URL] セクションを見つけます。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. で、既 [!UICONTROL Actions]存のアクションをク [!UICONTROL Adobe Analytics - Set Variables] リックするか、「+」アイコンをクリックします。
+5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、を「に」に設 [!UICONTROL Action Type] 定しま [!UICONTROL Set Variables]す。
+6. Locate the [!UICONTROL Page URL] section.
 
 ページ URL は任意の文字列値に設定できます。
 
