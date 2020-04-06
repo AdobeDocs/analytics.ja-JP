@@ -1,48 +1,48 @@
 ---
-title: pfo（Page Firstのみ）(_F)
-description: 特定のルーチンが1ページにつき1回だけ実行されるようにします。
+title: p_fo（Page First Only）
+description: 特定のルーチンが 1 ページにつき 1 回だけ実行されるようにします。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobeプラグイン：pfo（Page Firstのみ）(_F)
+# アドビプラグイン：p_fo（Page First Only）
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
+>[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-このプ `p_fo` ラグインは、特定のJavaScriptオブジェクトが存在するかどうかを確認するユーティリティです。 オブジェクトが存在しない場合は、プラグインがオブジェクトを作成して返しま `true`す。 JavaScriptオブジェクトが既にページに存在する場合は、を返します `false`。 このプラグインは、ページ上でコードを1回だけ実行する場合に便利です。 その他のプラグインの中には、このコードを使用して機能するものもあります。 ページ上でのコードの実行回数を心配しない場合や、依存プラグインを使用しない場合は、このプラグインは不要です。
+`p_fo` プラグインは、特定の JavaScript オブジェクトが存在するかどうかを確認するユーティリティです。オブジェクトが存在しない場合は、オブジェクトを作成して `true` を返します。JavaScript オブジェクトが既にページ上に存在する場合は、`false` を返します。このプラグインは、ページ上でコードを 1 回だけ実行する場合に便利です。その他のプラグインの一部は、このコードを使用して動作します。ページ上でのコードの実行回数を気にしない場合や、依存プラグインを使用しない場合は、このプラグインは不要です。
 
-## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
+## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
-アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
-1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
-   * 条件：なし
-   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：pfoの初期化(_F)
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize p_fo
 1. ルールに対する変更を保存して発行します。
 
-## カスタムコードエディターの起動を使用したプラグインのインストール
+## Launch カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
-1. 変更を保存し、Analytics拡張機能に公開します。
+1. 変更を保存し、Analytics 拡張機能に公開します。
 
-## AppMeasurementを使用したプラグインのインストール
+## AppMeasurement を使用したプラグインのインストール
 
-次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングをおこなう際に役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,19 +53,19 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## プラグインの使用
 
-このメソ `p_fo` ッドでは、次の引数を使用します。
+`p_fo` メソッドでは、次の引数を使用します。
 
-* **on** （必須、文字列）:プラグインが作成するJavaScriptオブジェクトの名前（オブジェクトがページに存在しない場合）。
+* **On**（必須、文字列）：プラグインが作成する JavaScript オブジェクトの名前です（オブジェクトがまだページに存在しない場合）。
 
-オブジェクトが存在しない場合、このメソッドはオブジェクトを返 `true` し、作成します。 オブジェクトが既に存在する場合、このメソッドはを返しま `false`す。
+オブジェクトが存在しない場合、このメソッドは `true` を返してオブジェクトを作成します。オブジェクトが既に存在する場合、このメソッドは `false` を返します。
 
 ## 呼び出しの例
 
-### 例1
+### 例 1
 
-次のコードは、ページ内に「myobject」オブジェクトが存在するかどうかを確認します。  「myobject」オブジェクトが存在しない場合、コードは「myobject」オブジェクトを作成し、trueの値を返します。  その結果、条件ステートメント内のコード(Console.log(&#39;hello&#39;)；など)が実行されます。
+次のコードは、ページ内に「myobject」オブジェクトが存在するかどうかを確認します。「Myobject」オブジェクトが存在しない場合、コードは「myobject」オブジェクトを作成し、true の値を返します。その結果、条件文内のコード（Console.log(&#39;hello&#39;)；）が実行されます。
 
-一方、p_fo呼び出しが行われたときに「myobject」オブジェクトが既に存在する場合、p_fo関数はfalseの値を返し、条件文はfalseと見なされます。  この場合、条件ステートメント内のコードは実行されません。
+一方、p_fo が呼び出された際に「myobject」オブジェクトが既に存在する場合、p_fo 関数は false の値を返し、条件文は false と見なされます。この場合、条件分内のコードは実行されません。
 
 ```javascript
 if(s.p_fo("myobject"))
@@ -74,13 +74,13 @@ if(s.p_fo("myobject"))
 }
 ```
 
-**注意：** 新しいページオブジェクト/DOMが読み込まれる（または現在のページがリロードされる）たびに、引数onで指定されたオブジェクトは存在しなくなり、ページの読み込みが完了した後で最初に実行されたときに、p_foプラグインは再びtrueを返します。
+**注意：**&#x200B;新しいページオブジェクト／DOM が読み込まれる（または現在のページがリロードされる）たびに、on 引数で指定されたオブジェクトは存在しなくなり、ページの読み込みが完了した後初めて実行されたときに、p_fo プラグインは再び true を返します。
 
 ## バージョン履歴
 
 ### 2.0
 
-* ポイントリリース（再コンパイルされ、コードサイズが小さくなりました）。
+* ポイントリリース（再コンパイル、コードサイズの縮小）。
 * 戻り値の型を整数からブール値に変更しました。
 
 ### 1.0
