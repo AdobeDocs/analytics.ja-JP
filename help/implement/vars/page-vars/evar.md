@@ -2,7 +2,7 @@
 title: eVar
 description: 実装で使用できるカスタム変数。
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 eVar は、好きなだけ使用できるカスタム変数です。
 
-> [!TIP] ほとんどの場合、prop よりも eVar を使用することをお勧めします。以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、アドビでは eVar を改善し、prop のほとんどすべての使用例を満たすようにしました。
+>[!TIP] ほとんどの場合、prop よりも eVar を使用することをお勧めします。以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、アドビでは eVar を改善し、prop のほとんどすべての使用例を満たすようにしました。
 
 各 eVar とそのロジックの使用方法を必ず[ソリューションデザインドキュメント](../../prepare/solution-design.md)に記録してください。
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 eVar カウンターで小数点以下が 3 桁以上ある場合は、2 桁に四捨五入されます。eVar カウンターには負の値は設定できません。
 
-> [!IMPORTANT] カウンターeVarを使用する前に、管理コンソールでeVarを「カウンター」に設定する必要があります。 詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
+>[!IMPORTANT] カウンターeVarを使用する前に、管理コンソールでeVarを「カウンター」に設定する必要があります。 詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
 ## prop または eVar 固有の利点
 
