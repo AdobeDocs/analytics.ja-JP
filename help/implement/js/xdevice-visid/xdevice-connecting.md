@@ -5,15 +5,15 @@ subtopic: Visitors
 title: デバイス間のユーザーの接続
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # デバイス間のユーザーの接続
 
-> [!IMPORTANT]デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。『コンポーネントユーザーガイド』の[クロスデバイス分析](/help/components/cda/cda-home.md)を参照してください。
+>[!IMPORTANT]デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。『コンポーネントユーザーガイド』の[クロスデバイス分析](/help/components/cda/cda-home.md)を参照してください。
 
 デバイス間の訪問者の識別では、デバイス間の訪問者を関連付けます。クロスデバイス訪問者特定では、`visitorID` 変数を使用してデバイスをまたいでユーザーを関連付けます。`visitorID` 変数は、個別訪問者を識別する際に最も高い優先順位を持ちます。
 
