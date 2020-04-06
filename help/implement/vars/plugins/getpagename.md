@@ -1,48 +1,48 @@
 ---
 title: getPageName
-description: 現在のWebサイトのパスから読みやすいpageNameを作成します。
+description: 現在の Web サイトのパスから読みやすい pageName を作成します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobeプラグイン：getPageName
+# アドビプラグイン：getPageName
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
+>[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-このプ `getPageName` ラグインは、読みやすく、わかりやすい形式の現在のURLを作成します。 レポートで設定しやすく理解しやすい値が必要な場合は、 [`pageName`](../page-vars/pagename.md) このプラグインの使用をお勧めします。 このプラグインは、データレイヤーを介してなど、変数の命名構造が既に `pageName` ある場合は不要です。 この変数は、変数を設定する別のソリューションがない場合に最適で `pageName` す。
+`getPageName` プラグインは、読みやすく、わかりやすい形式の現在の URL を作成します。レポートで設定しやすく理解しやすい [`pageName`](../page-vars/pagename.md) 値が必要な場合は、このプラグインを使用することをお勧めします。このプラグインは、データレイヤーを介してなど、`pageName` 変数の命名構造が既にある場合は不要です。この変数は、`pageName` 変数を設定する別のソリューションがない場合に最適です。
 
-## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
+## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
-アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
-1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
-   * 条件：なし
-   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：getPageNameの初期化
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize getPageName
 1. ルールに対する変更を保存して発行します。
 
-## カスタムコードエディターの起動を使用したプラグインのインストール
+## Launch カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
-1. 変更を保存し、Analytics拡張機能に公開します。
+1. 変更を保存し、Analytics 拡張機能に公開します。
 
-## AppMeasurementを使用したプラグインのインストール
+## AppMeasurement を使用したプラグインのインストール
 
-次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングをおこなう際に役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,126 +53,126 @@ var getPageName=function(si,qv,hv,de){var c=location.hostname,f=location.pathnam
 
 ## プラグインの使用
 
-このメソ `getPageName` ッドでは、次の引数を使用します。
+`getPageName` メソッドでは、次の引数を使用します。
 
-* **`si`** （オプション、文字列）:サイトのIDを表す文字列の先頭に挿入されるID。 この値は、数値IDまたはわかりやすい名前にすることができます。 設定しない場合、デフォルトでは現在のドメインが使用されます。
-* **`qv`** （オプション、文字列）:URL内にある場合、文字列に追加されるクエリ文字列パラメーターのコンマ区切りリスト
-* **`hv`** （オプション、文字列）:URLハッシュ内のパラメーターのコンマ区切りリスト。URL内のパラメーターが見つかった場合は、文字列に追加されます。
-* **`de`** （オプション、文字列）:文字列の個々の部分を分割する区切り文字。 既定はパイプ(`|`)です。
+* **`si`**（オプション、文字列）：サイトの ID を表す文字列の先頭に挿入される ID。この値は、数値 ID またはわかりやすい名前にすることができます。設定しない場合は、デフォルトで現在のドメインが使用されます。
+* **`qv`**（オプション、文字列）：URL 内にある場合に文字列に追加されるクエリー文字列パラメーターのコンマ区切りリストです。
+* **`hv`**（オプション、文字列）：URL ハッシュに含まれるパラメーターのコンマ区切りリストです。URL 内に含まれる場合は文字列に追加されます。
+* **`de`**（オプション、文字列）：文字列の個々の部分を分割する区切り文字です。デフォルトはパイプ（`|`）です。
 
-このメソッドは、わかりやすい形式のURLを含む文字列を返します。 この文字列は通常変数に割り当てら `pageName` れますが、他の変数でも使用できます。
+このメソッドは、わかりやすい形式の URL を含む文字列を返します。この文字列は通常 `pageName` 変数に割り当てられますが、他の変数でも使用できます。
 
 ## 呼び出しの例
 
-### 例1
+### 例 1
 
-現在のURLが
+現在の URL が以下の場合、
 
 ```js
 https://mail.google.com/mail/u/0/#inbox
 ```
 
-...次のコードが実行されます。
+次のコードが実行された場合、
 
 ```js
 s.pageName = getPageName()
 ```
 
-...s.pageNameの最終的な値は、次のようになります。
+s.pageName の最終値は次のようになります。
 
 ```js
 s.pageName = "mail.google.com|mail|u|0";
 ```
 
-### 例2
+### 例 2
 
-現在のURLが
+現在の URL が以下の場合、
 
 ```js
 https://mail.google.com/mail/u/0/#inbox
 ```
 
-...次のコードが実行されます。
+次のコードが実行された場合、
 
 ```js
 s.pageName = getPageName("gmail")
 ```
 
-...s.pageNameの最終的な値は、次のようになります。
+s.pageName の最終値は次のようになります。
 
 ```js
 s.pageName = "gmail|mail|u|0";
 ```
 
-### 例3
+### 例 3
 
-現在のURLが
+現在の URL が以下の場合、
 
 ```js
 https://www.google.com/
 ```
 
-...次のコードが実行されます。
+次のコードが実行された場合、
 
 ```js
 s.pageName = getPageName()
 ```
 
-...s.pageNameの最終的な値は、次のようになります。
+s.pageName の最終値は次のようになります。
 
 ```js
 s.pageName = "www.google.com|home"
 ```
 
-**注意**:パスを含まないURLでコードを実行する場合、常に戻り値の末尾に「home」という値が追加されます
+**注意**：パスを含まない URL でコードを実行する場合、常に戻り値の末尾に「home」の値が追加されます
 
-### 例4
+### 例 4
 
-現在のURLが
+現在の URL が以下の場合、
 
 ```js
 https://www.google.com/
 ```
 
-...次のコードが実行されます。
+次のコードが実行された場合、
 
 ```js
 s.pageName = getPageName("google","","","|")
 ```
 
-...s.pageNameの最終的な値は、次のようになります。
+s.pageName の最終値は次のようになります。
 
 ```js
 s.pageName = "google|home"
 ```
 
-### 例5
+### 例 5
 
-現在のURLが
+現在の URL が以下の場合、
 
 ```js
 https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
 ```
 
-...次のコードが実行されます。
+次のコードが実行された場合、
 
 ```js
 s.pageName = getPageName()
 ```
 
-...s.pageNameの最終的な値は、次のようになります。
+s.pageName の最終値は次のようになります。
 
 ```js
 s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
 ```
 
-ただし、次のコードが代わりに実行される場合は、
+ただし、代わりに次のコードを実行する場合は、
 
 ```js
 s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
 ```
 
-...s.pageNameの最終的な値は、次のようになります。
+s.pageName の最終値は次のようになります。
 
 ```js
 s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
@@ -180,14 +180,14 @@ s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-
 
 ## 以前のバージョンからのアップグレード
 
-getPageNameプラグインのバージョン4.0以降は、実行するAdobe AnalyticsのAppMeasurementオブジェクト（「s」オブジェクト）の存在に依存しません。  このバージョンにアップグレードする場合は、「s」オブジェクトのインスタンスを呼び出しから削除して、プラグインを呼び出すコードを必ず変更してください。
-例えば、次のように変更します。
+getPageName プラグインのバージョン 4.0 以降は、実行する Adobe Analytics の AppMeasurement オブジェクト（「s」オブジェクト）の存在に依存しません。このバージョンにアップグレードする場合は、「s」オブジェクトのインスタンスをプラグインを呼び出すコードから必ず削除してください。
+例えば、次のコードは
 
 ```js
 s.pageName = s.getPageName();
 ```
 
-...を次に示します。
+次のように変更します。
 
 ```js
 s.pageName = getPageName();
@@ -195,10 +195,10 @@ s.pageName = getPageName();
 
 ## バージョン履歴
 
-### 4.1（2019年9月18日）
+### 4.1（2019 年 9 月 18 日）
 
 * デフォルトの区切り文字の値を（コロン+スペースから）パイプ文字に変更しました。
 
-### 4.0（2018年5月23日）
+### 4.0（2018 年 5 月 23 日）
 
-* プラグインの再分析/書き換えの完了
+* プラグインの完全な再分析と書き換え
