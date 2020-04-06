@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics でのセッションのトラブルシューティング
 description: Adobe Analytics からログアウトする際の問題を解決する方法について説明します。
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 この問題を解決するには、貴社の IT 部門に依頼して、貴社のプロキシを通じて認証ヘッダーを許可することをお勧めします。
 
-> [!NOTE] Analytics コミュニティのメンバーは、次のリンクが役に立つと判断しましたが、これらのリンクはアドビが所有しているものではありません。コンテンツを表示する際は、この点に留意してください。
+>[!NOTE] Analytics コミュニティのメンバーは、次のリンクが役に立つと判断しましたが、これらのリンクはアドビが所有しているものではありません。コンテンツを表示する際は、この点に留意してください。
 
 Symantec のプロキシと認証ヘッダーに関する情報は、次を参照してください。
 
