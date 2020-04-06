@@ -2,8 +2,8 @@
 description: この統合をアクティブ化する前に、Adobe Analytics® のデプロイメントとお使いの電子メールソフトウェアに対して、次の項目を確認します。
 title: この統合をアクティブ化する前に
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -56,9 +56,9 @@ appFigures 用 Data Connectors 統合は、Analytics 変数を使用してさま
 
 ### 必須変数 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
-> [!NOTE]この統合では、アプリストアデータに専用の変数を使用するので、カスタムコマース変数やイベントを割り当てる必要はありません。
+>[!NOTE]この統合では、アプリストアデータに専用の変数を使用するので、カスタムコマース変数やイベントを割り当てる必要はありません。
 
-| 変数の種類 | 名前 | セット方法 | 説明 |
+| 変数の種類 | 名前 | 母集団メソッド | 説明 |
 |---|---|---|---|
 | eVar | アプリストアオブジェクト ID | appFigures から読み込まれます。 | 訪問の有効期限、最新の配分、基本的な下位関係を使用して、この eVar を設定します。 |
 | イベント（数値） | アプリストアでのダウンロード数 | appFigures から読み込まれます。 | モバイルアプリケーションダウンロード数。 |
