@@ -1,8 +1,8 @@
 ---
 title: 動的変数
 description: イメージリクエストの長さを増やさずに変数をコピーします。
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 動的変数のプレフィックスが認識されると、レポートスイートのクエリー文字列または HTTP ヘッダー値が自動的にコピーされます。このアクションは、処理ルールや VISTA ルールなど、他の処理の前に発生します。
 
-> [!TIP] 変数をコピーする際は、文字制限の最大値に注意してください。例えば、`eVar1` を `prop1` にコピーする場合、100 バイトの上限（`eVar1` の上限は 255 バイト）があるので、`prop1` に切り捨てられた値が含まれる可能性があります。
+>[!TIP] 変数をコピーする際は、文字制限の最大値に注意してください。例えば、`eVar1` を `prop1` にコピーする場合、100 バイトの上限（`eVar1` の上限は 255 バイト）があるので、`prop1` に切り捨てられた値が含まれる可能性があります。
 
 ## Adobe Experience Platform Launch の動的変数
 
@@ -25,9 +25,9 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. で、既 [!UICONTROL Actions]存のアクションをク [!UICONTROL Adobe Analytics - Set Variables] リックするか、「+」アイコンをクリックします。
+5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、を「に」に設 [!UICONTROL Action Type] 定しま [!UICONTROL Set Variables]す。
 6. 目的のディメンション値を見つけます。
 
 テキストフィールドに動的変数のプレフィックスを配置し、参照するクエリー文字列パラメーターまたは HTTP ヘッダーを指定します。デフォルトでは、動的変数のプレフィックスは `D=` です。
@@ -48,4 +48,4 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
-> [!NOTE] 動的変数は、実装のデバッグ時に文字列として表示されます。値は、アドビのデータ収集サーバーによってサーバー側でコピーされます。
+>[!NOTE] 動的変数は、実装のデバッグ時に文字列として表示されます。値は、アドビのデータ収集サーバーによってサーバー側でコピーされます。
