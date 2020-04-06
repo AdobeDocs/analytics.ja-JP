@@ -1,32 +1,32 @@
 ---
 title: s_gi()
-description: AppMeasurementのインスタンスを作成し、追跡します。
+description: AppMeasurement のインスタンスを作成し、追跡します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s_gi
 
-この関数 `s_gi()` は、レポートスイートIDでAppMeasurementのインスタンスをインスタンス化するか、検索します。 AppMeasurement keeps track of every instance created, and `s_gi()` returns the existing instance for a report suite if one exists. インスタンスが存在しない場合は、新しいインスタンスが作成されます。
+`s_gi()` 関数は、レポートスイート ID で AppMeasurement のインスタンスをインスタンス化するか、検索します。AppMeasurement は作成されるすべてのインスタンスを追跡して、`s_gi()` はレポートスイートに対応する既存のインスタンスがある場合にそれを返します。インスタンスが存在しなければ、新しいインスタンスが作成されます。
 
-## s_gi()(Adobe Experience Platform Launch)
+## Adobe Experience Platform Launch の s_gi()
 
-Analytics拡張機能は、追跡オブジェクトをインスタンス化し、管理します。 ただし、Adobe Analyticsの拡張機能を設定する際に、アコーディオンにグローバルトラッ [!UICONTROL Library Management] キングオブジェクトを設定することもできます。
+Analytics 拡張機能により、追跡オブジェクトがインスタンス化され、管理されます。However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し、 [!UICONTROL Extensions] Adobe Analyticsの下のボタ [!UICONTROL Configure] ンをクリックします。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. アコーディオ [!UICONTROL Library Management] ンを展開し、以外のラジオボタンを選択しま [!UICONTROL Manage the library for me]す。
 
-グローバル変数のテキストフィールドを使用すると、カスタムのトラッキングオブジェクトを設定できます。 Its default value is `s`.
+グローバル変数テキストフィールドでは、カスタムトラッキングオブジェクトを設定できます。デフォルト値は `s` です。
 
-## s_gi()（AppMeasurementとカスタムコードエディターの起動）
+## AppMeasurement および Launch カスタムコードエディターの s_gi()
 
-この関数を呼び出し `s_gi()` て、追跡オブジェクトをインスタンス化します。 その唯一の引数には、レポートスイートIDのコンマ区切りの文字列が含まれます。 レポートスイートID引数は必須です。
+`s_gi()` 関数を呼び出して、トラッキングオブジェクトをインスタンス化します。その唯一の引数には、レポートスイート ID のコンマ区切り文字列が含まれます。レポートスイート ID 引数は必須です。
 
-> [!TIP] この変数は、トラッキングオブジ `s` ェクトとして使用することをお勧めします。 アドビでは、ド `s` キュメント、導入例およびプラグインを使用しています。 ただし、サイト全体で一貫性がある限り、任意の変数を使用できます。
+>[!TIP] `s` 変数は、トラッキングオブジェクトとして使用することをお勧めします。ドキュメント、実装例およびプラグインでは `s` を使用していますが、サイト全体で一貫性がある限り、任意の変数を使用できます。
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,11 +36,11 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!CAUTION] 次の節と例では、複雑な実装のトピックを示します。 導入を十分にテストし、組織のソリューションデザインドキュメント内の重要なカスタマ [イズを追跡しま](../../prepare/solution-design.md)す。
+>[!CAUTION] 以下の節と例では、複雑な実装に関するトピックを紹介します。実装を十分にテストし、組織の[ソリューションデザインドキュメント](../../prepare/solution-design.md)に重要なカスタマイズを追跡します。
 
 ## 異なるトラッキングオブジェクトを使用した複数の実装の管理
 
-複数のトラッキングオブジェクトをインスタンス化する場合は、異なるデータを異なるレポートスイートに送信できます。 これら2つのトラッキングオブジェクトは、互いに独立して動作します。
+複数のトラッキングオブジェクトをインスタンス化する場合は、様々なデータを様々なレポートスイートに送信できます。これらの 2 つのトラッキングオブジェクトは、互いに独立して動作します。
 
 ```js
 // Instantiate two separate tracking objects to two different report suites
@@ -58,9 +58,9 @@ s.t();
 z.t();
 ```
 
-## sオブジェクトを上書きした後にAppMeasurement変数を復元する
+## s オブジェクトを上書きした後の AppMeasurement 変数の復元
 
-サードパーティのツールの中には、JavaScriptオブジェクトを使用するものもあ `s` ります。 誤ってサイト上のオブジェクト `s` を上書きした場合は、同じRSID文字列引数を `s_gi` 使用してを呼び出し、上書きされたすべての変数とメソッドを復元できます。
+一部のサードパーティツールでは、JavaScript `s` オブジェクトを使用します。誤ってサイト上の `s` オブジェクトを上書きした場合は、同じ RSID 文字列引数を使用して `s_gi` を呼び出し、上書きされたすべての変数とメソッドを復元できます。
 
 ```js
 // Step 1: Instantiate the tracking object
@@ -81,7 +81,7 @@ s.t();
 
 ## 複数の変数を使用した同じトラッキングオブジェクトの参照
 
-2つの変数が同じレポートスイー `s_gi()` トで同じ関数を参照している場合は、両方の変数を同じ方法で使用できます。
+同じレポートスイートで同じ `s_gi()` 関数を参照している 2 つの変数は、両方とも同じ意味で使用できます。
 
 ```js
 // If the RSID is the same, any variables set in the 's' tracking object also get set in 'z' tracking object
