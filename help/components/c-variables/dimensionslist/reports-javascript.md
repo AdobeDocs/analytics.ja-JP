@@ -3,8 +3,8 @@ description: デバイスで JavaScript が有効、無効、不明のいずれ�
 title: JavaScript サポート
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,13 +13,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 デバイスで JavaScript が有効、無効、不明のいずれであるかに基づいて指標を表示します。
 
-> [!NOTE]2016 年 11 月始めには、モバイルデバイスで JavaScript が常に *`disabled / unidentified`* とリストされる制約を削除することを予定しています。
+>[!NOTE]2016 年 11 月始めには、モバイルデバイスで JavaScript が常に *`disabled / unidentified`* とリストされる制約を削除することを予定しています。
 
-JavaScript レポートは、生データの javascript 列に対応します。
+JavaScriptレポートは、生データのjavascript列に対応します。
 
-javascript は訪問レベルのフィールドであるため、訪問の最初のヒットの値をその後も保持します。javascript 列の値は、j_jscript 列の最初の値に基づきます（visit_referrer が訪問の最初のリファラーの値のみを保持するのと同様です）。
+javascriptは訪問レベルのフィールドなので、訪問の最初のヒットの値を保持します。 javascript列は、j_jscript列の最初の値に基づきます(visit_転送者が訪問の最初の転送者のみを保持するのと同様)。
 
-j_jscript の値は、Adobe Analytics イメージリクエストのパラメーター j から取得されます。
+j_jscriptは、Adobe Analyticsイメージリクエストのパラメーターjから入力されます。
 
 次に例を示します。
 
@@ -29,4 +29,4 @@ j_jscript の値は、Adobe Analytics イメージリクエストのパラメー
 | 2 | 1.6 | 0 |
 | 3 | 1.6 | 0 |
 
-上記のように、最初のヒットに j_jscript の値が含まれていない場合、JavaScript は無効と表示されます。訪問のその後のヒットで JavaScript のバージョンが特定されても、無効という表示は変更されません。
+その結果、訪問中のある時点でJavaScriptバージョンが指定されていても問題ありません。最初のヒットにj_jscriptの値が含まれていないので、常にJavaScriptではないと表示されます。
