@@ -4,8 +4,8 @@ subtopic: Qualtrics
 title: 統合の使用
 topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 デプロイメントが完了すると、この統合で提供されている追加機能を使用できるようになります。
 
-> [!NOTE]Adobe Analytics レポート内で Qualtrics 応答データが表示され始めるまでに 24 ～ 48 時間かかる場合があります。
+>[!NOTE]Adobe Analytics レポート内で Qualtrics 応答データが表示され始めるまでに 24 ～ 48 時間かかる場合があります。
 
 以下は、Adobe Analytics 内でこの統合を活用するために実行するアクションです。
 
