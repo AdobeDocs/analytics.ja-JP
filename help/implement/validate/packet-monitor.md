@@ -1,8 +1,8 @@
 ---
 title: パケットアナライザー
 description: パケットアナライザーを使用すると、実装によってアドビのデータ収集サーバーに送信されたデータを表示できます。
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -18,28 +18,28 @@ Adobe Experience Cloud デバッガーと同様、パケット監視ではどの
 
 Analytics の要求を表示するには、「b/ss」を使用して送信要求をフィルターします。
 
-極めてまれなケースですが、デバッガーは、アドビの [!DNL Analytics] 処理サーバーに対して実際には要求がおこなわれないにもかかわらずイメージリクエストをレポートすることがあります。パケット監視の使用は、特定のイメージリクエストが正常に実行されていることを確認する上でとても高い効果があります。
+極めてまれなケースですが、デバッガーは、アドビの [!DNL Analytics] 処理サーバーに対して実際には要求がおこなわれないにもかかわらずイメージリクエストをレポートすることがあります。パケット監視の使用は、特定のイメージ要求が正常に実行されることを100%確認する優れた方法です。
 
-アドビでは公式のパケット監視を提供していませんが、インターネットには様々なパケット監視があります。便利と評価されているパケット監視のいくつかを以下に示します。
+アドビは公式のパケット監視を提供していませんが、インターネット上には様々なパケット監視が存在します。 次に、他のパケット監視が役に立つと判断した場合の例を示します。
 
-> [!NOTE]以下のリストは、詳細な情報を示したものではありませんが、頻繁に使用される監視プログラムの概要を示しています。パケット監視を既にお持ちで、正しく使用しており、その便利さを実感されている場合は、このウィンドウの右にある「[!UICONTROL フィードバック]」ボタンを使用して、ご意見をお寄せください。
+>[!NOTE]以下のリストは、詳細な情報を示したものではありませんが、頻繁に使用される監視プログラムの概要を示しています。パケット監視をお持ちの方は、正常に使用し、役に立つ情報をお探しの場合は、このウィンドウの右側にあるボタンを使用して、フ [!UICONTROL Feedback] ィードバックをお寄せください。
 
 | Firefox | Internet Explorer | Chrome | スタンドアロンプログラム |
 |---|---|---|---|
-| [Observe Point](https://www.observepoint.com/product#plugin)（タグビューア） | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin)（タグビューア） | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [Observe Point](https://www.observepoint.com/product#plugin) （タグビューア） | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) （タグビューア） | [Charles](https://www.charlesproxy.com/) |
+| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [フィドラー](https://www.fiddler2.com/fiddler2/) |
+| [改ざんデータ](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
-> [!NOTE]アドビでは、これらのパケット監視プログラムで発生した問題について、サポートやトラブルシューティングをおこなっておりません。サポートが必要な場合は、パケット監視の作成元のサイトを参照してください。
+>[!NOTE]アドビでは、これらのパケット監視プログラムで発生した問題について、サポートやトラブルシューティングをおこなっておりません。サポートが必要な場合は、パケット監視の作成元のサイトを参照してください。
 
 ## 応答コード内の NS_BINDING_ABORTED
 
-このエラーが発生する理由は、リンクトラッキングイメージリクエストが、アドビのデータ収集サーバーからの応答を待機する前にブラウザーに次のページへの移動を許可するように設計されていることです。
+このエラーは、リンクトラッキングイメージリクエストが、アドビのデータ収集サーバーからの応答を待つ前にブラウザーで次のページに進むように設計されているために発生します。
 
-イメージリクエストに対するアドビの応答は、ブランクの 1 x 1 透過イメージのみであり、ページの内容とは関係ありません。アドビのパケット監視に、「**[!UICONTROL 200 OK]**」の応答または「**[!UICONTROL NS_BINDING_ABORTED]**」の応答を含む行項目がある場合、データは Adobe サーバーに到達しています。ページがそれ以上待機する必要はありません。
+イメージリクエストに対するアドビの応答は、空白の1 x 1透過イメージであり、ページのコンテンツには関係ありません。 アドビのパケット監視に、「**[!UICONTROL 200 OK]**」の応答または「**[!UICONTROL NS_BINDING_ABORTED]**」の応答を含む行項目がある場合、データは Adobe サーバーに到達しています。ページをこれ以上待つ必要はありません。
 
-プラグインとして統合されたパケットモニターでは、完全応答が表示されることがほとんどありません。完全応答が受信されなかったことが原因で中止されたものとして、リクエストが表示される傾向があります。これらのモニターでは、中止されたのがリクエストと応答のどちらだったかが区別されることはほとんどありません。通常、スタンドアロンのパケットモニターはより詳細なメッセージを保持しており、ステータスがより正確にレポートされます。例えば、ユーザーが *Charles* 内で「Client closed connection before receiving entire response（クライアントは応答全体を受信する前に接続を閉じました）」というメッセージを取得したとします。これは、データが Adobe サーバーに到達したが、1 x 1 ピクセルを受信する前にブラウザーが次のページに移動したことを意味します。
+プラグインとして統合されたパケット監視では、完全な応答が表示されることはほとんどありません。 完全な応答が受信されなかったために中止されたとして、リクエストが表示される傾向があります。 また、中止されたのがリクエストか応答かを区別することもほとんどありません。 通常、スタンドアロンのパケット監視は、より詳細なメッセージを持ち、ステータスをより正確に報告します。 例えば、ユーザーが *Charlesで「Client closed connection before receiving entire response* 」というメッセージを受け取る場合があります。 つまり、データがアドビのサーバーに到達し、1x1ピクセルを受信する前にブラウザーが次のページに移動しただけです。
 
-外部パケットスニファーが応答でなくデータ収集リクエストの中止をレポートしている場合、問題の可能性があります。Adobe [!DNL Customer Care] からトラブルシューティングのサポートを受けることができます。
+外部パケットスニファーが、応答ではなくデータ収集リクエストの中止をレポートした場合、これが問題の原因となります。 Adobe [!DNL Customer Care] からトラブルシューティングのサポートを受けることができます。
