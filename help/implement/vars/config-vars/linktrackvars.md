@@ -2,44 +2,44 @@
 title: linkTrackVars
 description: リンクトラッキングイメージリクエストに含める変数を指定します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkTrackVars
 
-一部の実装では、すべてのリンクトラッキングイメージリクエストにすべての変数を含めたくない場合があります。 変数と変数を使 `linkTrackVars` 用して、 [`linkTrackEvents`](linktrackevents.md) 呼び出しにディメンションと指標を選択的に含め [`tl()`](../functions/tl-method.md) ます。
+一部の実装では、すべての変数をすべてのリンクトラッキングイメージリクエストに含めたくない場合があります。`linkTrackVars` 変数と [`linkTrackEvents`](linktrackevents.md) 変数を使用して、[`tl()`](../functions/tl-method.md) の呼び出しにディメンションと指標を選択的に含めます。
 
-この変数は、ページビュー呼び出し（メソッド）には使`t()` 用されません。
+This variable is not used for page view calls (`t()` method).
 
-## Adobe Experience Platform Launchを使用したリンクトラッキングコールの変数
+## Adobe Experience Platform Launch を使用したリンクトラッキングコールの変数
 
-Launchは、インターフェイスで設定された変数に基づいて、バックエンドでこの変数を自動的に設定するので、常にLaunchを使用する実装で設定されます。
+この変数は Launch ではインターフェイスで設定された変数に基づいて、バックエンドで自動的に設定するので、Launch を使用した実装では常に設定されます。
 
-> [!IMPORTANT] カスタムコードエディターを使用して起動で変数を設定する場合は、カスタムコードの使用に変数を含め `linkTrackVars` る必要があります。
+>[!IMPORTANT] カスタムコードエディターを使用して Launch で変数を設定する場合は、カスタムコードを使用して `linkTrackVars` にも変数を含める必要があります。
 
-## AppMeasurementと起動のカスタムコードエディターのs.linkTrackVars
+## AppMeasurement および Launch カスタムコードエディターの s.linkTrackVars
 
-変数 `s.linkTrackVars` は、リンクトラッキングイメージリクエスト（メソッド）に含める変数のコンマ区切りリストを含む文字列`tl()` です。 リンクトラッキングのヒットにディメンションを含めるには、次の両方の条件を満たす必要があります。
+The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). リンクトラッキングヒットにディメンションを含めるには、次の両方の条件を満たす必要があります。
 
-* 目的の変数値を設定します。 例：`s.eVar1 = "Example value";`。
-* 変数に目的の変数を設定し `linkTrackVars` ます。 例：`s.linkTrackEvents = "eVar1";`。
+* 目的の変数値を設定します。例：`s.eVar1 = "Example value";`。
+* 目的の変数を `linkTrackVars` 変数に設定します。例：`s.linkTrackEvents = "eVar1";`。
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 ```
 
-この変数のデフォルト値は空の文字列です。 ただし、この変数がに設定されているコードマネージャーにAppMeasurementコードがアドビから提供されまし `"None"`た。 有効な値は、ディメンションを入力するページレベルの変数です。
+この変数のデフォルト値は空の文字列です。ただし、Code Manager では、この変数が `"None"` に設定されている AppMeasurement コードを提供しています。有効な値は、ディメンションを入力するページレベルの変数です。
 
-* この変数が定義されていない場合、または空の文字列に設定されている場合 *、すべての* 変数がリンクトラッキングイメージリクエストに含まれます。
-* この変数をに設定した場合、リ `"None"`ンクト *ラッキング* イメージリクエストに変数は含まれません。
+* この変数を定義しない場合、または空の文字列に設定した場合、*すべての*&#x200B;変数がリンクトラッキングイメージリクエストに含まれます。
+* この変数を `"None"` に設定した場合、リンクトラッキングイメージリクエストには変数が含まれ&#x200B;*ません*。
 
-> [!TIP] この変数で変数を指定する場合は、Analytics`s.`オブジェクト識別子()の使用を避けます。 例えば、は正し `s.linkTrackVars = "eVar1";` いが、は正し `s.linkTrackVars = "s.eVar1";` くないとします。
+>[!TIP] この変数で変数を指定する場合は、Analytics オブジェクト識別子（`s.`）を使用しないでください。例えば、`s.linkTrackVars = "eVar1";` は正しいですが、`s.linkTrackVars = "s.eVar1";` は正しくありません。
 
-## 例   
+## 例
 
-次のリンクトラッキング機能は、アドビに送 `eVar1` 信されるイメ `eVar2`ージリクエストに（非）のみを含みます。
+次のリンクトラッキング関数は、アドビに送信されるイメージリクエストに `eVar1` のみを含みます（`eVar2` は含みません）。
 
 ```js
 s.eVar1 = "Example value 1";
