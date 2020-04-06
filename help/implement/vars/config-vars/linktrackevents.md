@@ -2,42 +2,42 @@
 title: linkTrackEvents
 description: リンクトラッキングイメージリクエストに含めるイベントを決定します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkTrackEvents
 
-一部の実装では、すべてのリンクトラッキングイメージリクエストにすべての変数を含めたくない場合があります。 変数と変数を使 [`linkTrackVars`](linktrackvars.md) 用して、 `linkTrackEvents` 呼び出しにディメンションと指標を選択的に含め [`tl()`](../functions/tl-method.md) ます。
+一部の実装では、すべての変数をすべてのリンクトラッキングイメージリクエストに含めたくない場合があります。[`linkTrackVars`](linktrackvars.md) 変数と `linkTrackEvents` 変数を使用して、[`tl()`](../functions/tl-method.md) の呼び出しにディメンションと指標を選択的に含めます。
 
-この変数は、ページビュー呼び出し（メソッド）には使[`t()`](../functions/t-method.md) 用されません。
+This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
 
-## Adobe Experience Platform Launchを使用したリンクトラッキングコールのイベント
+## Adobe Experience Platform Launch を使用したリンクトラッキングコールのイベント
 
-「起動」は、インターフェイスで定義されたイベントを自動的に検出し、リンクトラッキングのヒットに含めます。
+Launch は、インターフェイスで定義されたイベントを自動的に検出し、リンクトラッキングのヒットに含めます。
 
-> [!IMPORTANT] カスタムコードエディターを使用して起動でイベントを設定する場合は、カスタムコードの使用にもイベントを含め `linkTrackEvents` る必要があります。
+>[!IMPORTANT] カスタムコードエディターを使用して Launch でイベントを設定する場合は、カスタムコードを使用して `linkTrackEvents` でもイベントを含める必要があります。
 
-## AppMeasurementのs.linkTrackEventsとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.linkTrackEvents
 
-変数 `s.linkTrackEvents` は、リンクトラッキングイメージリクエスト（メソッド）に含めるイベントのコンマ区切りリストを含む`tl()` 文字列です。 リンクトラッキングヒットに指標を含めるには、次の3つの条件を満たす必要があります。
+The `s.linkTrackEvents` variable is a string containing a comma-delimited list of events that you want to include in link tracking image requests (`tl()` method). リンクトラッキングヒットに指標を含めるには、次の 3 つの条件を満たす必要があります。
 
-* 目的のイベントを変数に設定し [`events`](../page-vars/events/events-overview.md) ます。 例：`s.events = "event1";`。
-* Set the `events` variable in `linkTrackVars`. 例：`s.linkTrackVars = "events";`。
-* 目的のイベントを変数に設定し `linkTrackEvents` ます。 例：`s.linkTrackEvents = "event1";`。
+* 目的のイベントを [`events`](../page-vars/events/events-overview.md) 変数に設定します。例：`s.events = "event1";`。
+* `events` 変数を `linkTrackVars` に設定します。例：`s.linkTrackVars = "events";`。
+* 目的のイベントを `linkTrackEvents` 変数に設定します。例：`s.linkTrackEvents = "event1";`。
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
 ```
 
-この変数のデフォルト値は空の文字列です。 この変数を定義しない場合、すべてのイベントがリンクトラッキングイメージリクエストに含まれます。 Launchは、インターフェイスで設定されたイベントに基づいてこの変数を自動的に設定するので、常にLaunchを使用する実装で設定されます。
+この変数のデフォルト値は空の文字列です。この変数を定義しない場合、すべてのイベントがリンクトラッキングイメージリクエストに含まれます。この変数は Launch ではインターフェイスで設定されたイベントに基づいて自動的に設定されるので、Launch を使用した実装では常に設定されます。
 
-> [!TIP] この変数でイベントを指定する場合は、Analytics`s.`オブジェクト識別子()の使用を避けます。 例えば、は正し `s.linkTrackEvents = "event1";` いが、は正し `s.linkTrackEvents = "s.event1";` くないとします。
+>[!TIP] この変数でイベントを指定する場合は、Analytics オブジェクト識別子（`s.`）を使用しないでください。例えば、`s.linkTrackEvents = "event1";` は正しいですが、`s.linkTrackEvents = "s.event1";` は正しくありません。
 
-## 例   
+## 例
 
-次のリンクトラッキング機能は、アドビに送 `event1` 信されるイメ `event2`ージリクエストに（非）のみを含みます。
+次のリンクトラッキング関数は、アドビに送信されるイメージリクエストに `event1` のみを含みます（`event2` は含みません）。
 
 ```js
 s.events = "event1,event2";
