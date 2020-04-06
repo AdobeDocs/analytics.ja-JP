@@ -1,48 +1,48 @@
 ---
 title: getNewRepeat
-description: 新規訪問者とリピート訪問者のアクティビティを追跡します。
+description: 新規訪問者とリピーターのアクティビティを追跡します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobeプラグイン：getNewRepeat
+# アドビプラグイン：getNewRepeat
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
+>[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-このプ `getNewRepeat` ラグインを使用すると、サイトの訪問者が新しい訪問者か、希望の日数内の再訪問者かを判断できます。 カスタム日数を使用して訪問者を「新規」として識別する場合は、このプラグインの使用をお勧めします。 Analysis Workspaceの新規/再訪問者ディメンションが組織のニーズを満たす場合、このプラグインは不要です。
+`getNewRepeat` プラグインを使用すると、サイトへの訪問者が新しい訪問者か、再訪問者かを希望の日数以内に判断できます。カスタム日数を使用して訪問者を「新規」として識別する場合は、このプラグインを使用することをお勧めします。Analysis Workspace の新規訪問者ディメンションと再訪問者ディメンションが組織のニーズを満たしている場合、このプラグインは不要です。
 
-## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
+## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
-アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
-1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
-   * 条件：なし
-   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：getNewRepeatの初期化
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize getNewRepeat
 1. ルールに対する変更を保存して発行します。
 
-## カスタムコードエディターの起動を使用したプラグインのインストール
+## Launch カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
-1. 変更を保存し、Analytics拡張機能に公開します。
+1. 変更を保存し、Analytics 拡張機能に公開します。
 
-## AppMeasurementを使用したプラグインのインストール
+## AppMeasurement を使用したプラグインのインストール
 
-次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングをおこなう際に役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,51 +53,51 @@ s.getNewRepeat=function(d){d=d?d:30;var s=this,p="s_nr"+d,b=new Date,e=s.c_r(p),
 
 ## プラグインの使用
 
-このメソ `getNewRepeat` ッドでは、次の引数を使用します。
+`getNewRepeat` メソッドでは、次の引数を使用します。
 
-* **`d`** （整数、オプション）:訪問者を再びリセットする訪問間隔の最小日数 `"New"`。 この引数を設定しない場合、デフォルトで30日に設定されます。
+* **`d`**（整数、オプション）：訪問者を再び `"New"` にリセットする間隔の最小日数です。この引数を設定しない場合、デフォルトで 30 日に設定されます。
 
-このメソッドは、プラグイ `"New"` ンによって設定されたcookieが存在しないか、有効期限が切れている場合の値を返します。 プラグインによって設定さ `"Repeat"` れたcookieが存在するかどうか、および現在のヒットからの経過時間とcookieに設定された時間が30分を超える場合の値を返します。 このメソッドは、訪問全体で同じ値を返します。
+このメソッドは、プラグインによって設定された Cookie が存在しないか、有効期限が切れている場合の `"New"` 値を返します。プラグインによって設定された Cookie が存在する場合、および現在のヒットからの経過時間と Cookie に設定された時間が 30 分を超える場合、`"Repeat"` の値を返します。このメソッドは、訪問全体に対して同じ値を返します。
 
-このプラグインは、引数と等しいとい `"s_nr[LENGTH]"` う名 `[LENGTH]` 前のcookieを使用し `d` ます。 Cookieには、現在時刻と訪問者の現在のステータス（または）を表すUnixタイムスタンプが含ま`"New"` れて `"Repeat"`います。
+このプラグインは、`[LENGTH]` が `d` 引数と等しい、「`"s_nr[LENGTH]"`」という名前の Cookie を使用します。Cookie には、現在時刻と訪問者の現在のステータス（`"New"` または `"Repeat"`）を表す Unix タイムスタンプが含まれます。
 
 ## 呼び出しの例
 
-### 例1
+### 例 1
 
-次のコードでは、s.eVar1を新規訪問者の「新規」の値に設定し、s.eVar1を（新規呼び出しのたびに）そのサイトへの訪問の残りの部分の「新規」の値に設定し続けます。
-
-```js
-s.eVar1=s.getNewRepeat();
-```
-
-### 例2
-
-訪問者が最後にs.getNewRepeat()が呼び出されてから31分から30日の間にサイトに戻ってきた場合、次のコードはs.eVar1を「Repeat」の値に設定し、s.eVar1を訪問者の残りの訪問全体で「Repeat」の値（新しい呼び出しごと）に設定します。
+次のコードでは、s.eVar1 を新規訪問者の「New」の値に設定し、s.eVar1 を（新規呼び出しのたびに）そのサイトへの訪問の残りの部分にわたって、「New」の値に設定します。
 
 ```js
 s.eVar1=s.getNewRepeat();
 ```
 
-### 例3
+### 例 2
 
-訪問者が最後にs.getNewRepeat()が呼び出されてから30日以上サイトを訪問していない場合、次のコードはs.eVar1を「New」の値に設定し、s.eVar1を（新しい呼び出しのたびに）その訪問者の残りの訪問全体で「New」の値に設定し続けます。
+訪問者が最後に s.getNewRepeat() が呼び出されてから 31 分から 30 日の間にサイトに戻ってきた場合、次のコードは s.eVar1 を「Repeat」の値に設定し、訪問者の残りの訪問全体で s.eVar1 を「Repeat」の値（新しい呼び出しごと）に設定します。
 
 ```js
 s.eVar1=s.getNewRepeat();
 ```
 
-### 例4
+### 例 3
 
-訪問者が最後にs.getNewRepeat()が呼び出されてから31分から365日（1年）たつたびにサイトに戻ってきた場合、次のコードはs.eVar1を「Repeat」の値に設定し、残りの期間中、s.eVar1を「Repeat」の値（新しい呼び出しごとに）に設定します訪問者のサイトへの訪問。
+訪問者が最後に s.getNewRepeat() が呼び出されてから 30 日以上サイトを訪問していない場合、次のコードは s.eVar1 を「New」の値に設定し、訪問者の残りの訪問全体で s.eVar1 を「New」の値に設定します。
+
+```js
+s.eVar1=s.getNewRepeat();
+```
+
+### 例 4
+
+訪問者が最後に s.getNewRepeat() が呼び出されてから 31 分から 365 日（1 年）の間にサイトに戻ってきた場合、次のコードは s.eVar1 を「Repeat」の値に設定し、サイトへの訪問者の残りの訪問を通して、s.eVar1 を（新しい呼び出しごとに）「Repeat」の値に等しく設定します。
 
 ```js
 s.eVar1=s.getNewRepeat(365);
 ```
 
-### 例5
+### 例 5
 
-訪問者が最後にs.getNewRepeat()が呼び出されてから365日（1年）以上サイトを訪問していない場合、次のコードはs.eVar1を「New」の値に設定し、s.eVar1を残りの訪問者全体で「New」の値に設定し続けますサイトへの訪問。
+訪問者が最後に s.getNewRepeat() が呼び出されてから 365 日（1 年）以上サイトを訪問していない場合、次のコードは s.eVar1 を「New」の値に設定し、サイトへの訪問者の残りの訪問を通して、s.eVar1 を（新しい呼び出しごとに）「New」の値に等しく設定します。
 
 ```js
 s.eVar1=s.getNewRepeat(365);
@@ -105,11 +105,11 @@ s.eVar1=s.getNewRepeat(365);
 
 ## バージョン履歴
 
-### 2.1（2019年9月31日）
+### 2.1（2019 年 10 月 1 日）
 
-* JavaScriptロジックを再配置してプラグインサイズを削減
+* JavaScript ロジックを再配置し、プラグインサイズを削減しました。
 
-### 2.0（2018年4月17日）
+### 2.0（2018 年 4 月 17 日）
 
-* より小さいコードサイズで再コンパイル
-* 訪問情報を保存するcookieの名前付け機能を削除しました。 プラグインは、引数に渡された値に基づいて、Cookieに動的に名前を付けるようになり `d` ました。
+* より小さいコードサイズで再コンパイルしました。
+* 訪問情報を保存する Cookie に名前を付ける機能を削除しました。プラグインは、`d` 引数に渡された値に基づいて、Cookie に動的に名前を付けるようになりました。
