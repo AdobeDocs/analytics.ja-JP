@@ -1,8 +1,8 @@
 ---
 title: s_objectID
 description: Activity Map で、サイト上の一意のリンクを識別します。
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,7 +27,7 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 <a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
-> [!NOTE] JavaScript ステートメントを終了するセミコロンは必ず含めてください。Activity Map が機能するには、セミコロンが必要です。
+>[!NOTE] JavaScript ステートメントを終了するセミコロンは必ず含めてください。Activity Map が機能するには、セミコロンが必要です。
 
 ## 使用例
 
