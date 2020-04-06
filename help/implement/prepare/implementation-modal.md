@@ -1,8 +1,8 @@
 ---
 title: 実装モーダル
 description: Adobe Analytics を初めて実装する場合について説明します。
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,13 +25,13 @@ Adobe ID は、Adobe Analytics と Adobe Experience Platform Launch の両方に
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 2. 上部の 9 グリッドアイコンをクリックし、「[!UICONTROL Adobe Analytics]」をクリックします。
-3. まだレポートスイートを作成していない場合は、モーダルが自動的に表示されます。このログイン会社用のレポートスイートが存在する場合は、右上のヘルプアイコンをクリックし、「[!UICONTROL Adobe Analytics へようこそ]」をクリックします。
+3. まだレポートスイートを作成していない場合は、モーダルが自動的に表示されます。If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] 「[!UICONTROL Adobe Analytics へようこそ]」オプションは、Adobe Experience Cloud 経由でログインした場合にのみ表示されます。既存のドメインを使用してログインした場合、モーダルは使用できません。
+>[!NOTE] このオ [!UICONTROL Welcome to Adobe Analytics] プションは、Adobe Experience Cloud経由でログインした場合にのみ表示されます。 既存のドメインを使用してログインした場合、モーダルは使用できません。
 
 ## レポートスイートの作成
 
-「[!UICONTROL セットアップの開始]」ボタンをクリックして、レポートスイート作成ワークフローを開始します。
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
 ![RS ウィザード](assets/analytics-implementation-rs-wizard.png)
 
@@ -67,7 +67,7 @@ Web サイトやアプリケーションが 1 日に受けるトラフィック�
 
 レポートスイートが金額を保存する通貨を決定します。
 
-> [!IMPORTANT] 特に売上高に関するレポート要件がある場合は、正しい通貨を入力してください。データ収集の開始後に基準通貨を変更するのは困難です。
+>[!IMPORTANT] 特に売上高に関するレポート要件がある場合は、正しい通貨を入力してください。データ収集の開始後に基準通貨を変更するのは困難です。
 
 ## 実装リソース
 
