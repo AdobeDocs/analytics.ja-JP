@@ -2,47 +2,47 @@
 title: getPageLoadTime
 description: ページの読み込みにかかる時間を追跡します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobeプラグイン：getPageLoadTime
+# アドビプラグイン：getPageLoadTime
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
+>[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-このプ `getPageLoadTime` ラグインは、JavaScriptパフォーマンスオブジェクトを使用して、ページの読み込みが完了するまでの時間を測定できます。 ページの読み込みに要する時間を測定する場合は、このプラグインを使用することをお勧めします。
+`getPageLoadTime` プラグインは、JavaScript パフォーマンスオブジェクトを使用して、ページの読み込みが完了するまでの時間を測定できます。ページの読み込みに要する時間を測定する場合は、このプラグインを使用することをお勧めします。
 
-## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
+## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
-アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
-1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
-   * 条件：なし
-   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：getPageLoadTimeの初期化
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize getPageLoadTime
 1. ルールに対する変更を保存して発行します。
 
-## カスタムコードエディターの起動を使用したプラグインのインストール
+## Launch カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
-1. 変更を保存し、Analytics拡張機能に公開します。
+1. 変更を保存し、Analytics 拡張機能に公開します。
 
-## AppMeasurementを使用したプラグインのインストール
+## AppMeasurement を使用したプラグインのインストール
 
-次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングをおこなう際に役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,21 +59,21 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## プラグインの使用
 
-メソッド `getPageLoadTime` は引数を使用しません。 このメソッドを呼び出すと、何も返されません。 代わりに、次の変数が設定されます。
+`getPageLoadTime` メソッドでは引数を使用しません。このメソッドは呼び出されても、何も返されません。代わりに、次の変数を設定します。
 
-* `s._pltPreviousPage`:読み込み時間を前のページに関連付けるための前のページ
-* `s._pltLoadTime`:前のページの読み込みに要した時間（秒）
+* `s._pltPreviousPage`：前のページ（読み込み時間を関連付けできます）。
+* `s._pltLoadTime`：前のページの読み込みに要した時間（秒）。
 
-getPageLoadTimeプラグインは、2つのファーストパーティcookieを作成します。
+getPageLoadTime プラグインは、2 つのファーストパーティ Cookie を作成します。
 
-* `s_plt`:前のページの読み込みにかかった時間（秒）。 ブラウザーセッションの終了時に期限切れになります。
-* `s_pltp` 以前のAdobe Analyticsイメ `s.pageName` ージリクエストで記録された変数の値。 ブラウザーセッションの終了時に期限切れになります。
+* `s_plt`：前のページの読み込みにかかった時間（秒）。ブラウザーセッションの終了時に有効期限が切れます。
+* `s_pltp` 以前の Adobe Analytics イメージリクエストで記録された `s.pageName` 変数の値。ブラウザーセッションの終了時に有効期限が切れます。
 
 ## 呼び出しの例
 
-### 例1
+### 例 1
 
-次のコードを実行しています…
+次のコードを実行すると...
 
 ```js
 if(s.pageName) s.getPageLoadTime();
@@ -86,15 +86,15 @@ if(s._pltPreviousPage)
 }
 ```
 
-...は、次の処理を行います。
+以下が起こります。
 
-* s.pageNameが設定されている場合は、getPageLoadTimeプラグインを実行します。
-* s.prop10を前のページの読み込み時間と同じに設定します。
-* s.prop11とs.eVar10を前のページの名前（s.pageNameで記録されている）と同じに設定します。
-* カスタムの数値イベントであるevent100を、前のページの読み込み時間と同じに設定します。   この場合、カスタムイベントを使用すると、前のページのすべてのページ読み込みの合計時間を（すべての訪問者/訪問から）取得でき、計算指標を使用して各ページの平均ページ読み込み時間を取得できます
+* s.pageName が設定されている場合は、getPageLoadTime プラグインを実行します。
+* s.prop10 を前のページの読み込み時間に設定します。
+* s.prop11 と s.eVar10 を、前のページの名前（s.pageName に記録されているとおり）に設定します。
+* カスタムの数値イベントになる event100 を、前のページの読み込み時間と同じに設定します。この場合、カスタムイベントを使用すると、前のページのすべてのページ読み込みに関する合計時間を（すべての訪問者／訪問から）取得でき、計算指標を使用して各ページの平均ページ読み込み時間を取得できます。
 
 ## バージョン履歴
 
-### 1.0（2018年5月23日）
+### 1.0（2018 年 5 月 23 日）
 
 * 初回リリース。
