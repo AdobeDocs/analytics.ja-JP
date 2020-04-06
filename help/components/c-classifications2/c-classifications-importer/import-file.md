@@ -4,8 +4,8 @@ subtopic: Classifications
 title: ブラウザーおよび FTP インポート
 topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 適切なデータを分類テンプレートファイルにコピーした後、アドビのデータ収集サーバーにインポート（アップロード）できます。
 
-> [!NOTE]新しいデータをアップロードする前に、（エクスポート機能を使用して）既存の分類をダウンロードする必要はありません。新しいデータ行のみのファイルをアップロードすると、パフォーマンスが向上します。
+>[!NOTE]新しいデータをアップロードする前に、（エクスポート機能を使用して）既存の分類をダウンロードする必要はありません。新しいデータ行を含む新しいファイルのみをアップロードする必要があります。 この方法を使用すると、パフォーマンスが向上します。
 
 [一般的なファイル構造](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)を参照してください。
 
