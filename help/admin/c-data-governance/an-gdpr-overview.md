@@ -1,20 +1,20 @@
 ---
-description: このドキュメントでは、GDPR におけるデータ主体のアクセス権および削除権に対応するために、Adobe Analytics でどのような作業が必要かを説明します。
+description: このドキュメントでは、データサブジェクトのGDPRアクセスおよび削除権限をサポートするためにAdobe Analyticsで行う必要があることを説明します。
 title: Adobe Analytics と GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe Analytics と GDPR
 
-このドキュメントでは、GDPR におけるデータ主体のアクセス権および削除権に対応するために、Adobe Analytics でどのような作業が必要かを説明します。
+このドキュメントでは、データサブジェクトのGDPRアクセスおよび削除権限をサポートするためにAdobe Analyticsで行う必要があることを説明します。
 
 ## アドビの概要 {#section_E582A1D77583410EBB790BB646854A2C}
 
-> [!IMPORTANT]このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。GDPR に関する助言については、お客様の企業の法務部門にご相談ください。
+>[!IMPORTANT]このドキュメントの内容は法的な助言ではなく、その代用になるものでもありません。GDPR に関する助言については、お客様の企業の法務部門にご相談ください。
 
 2018 年 5 月 25 日に、欧州連合の General Data Protection Regulation（GDPR）が施行されました。アドビの対応と、アドビの製品をご利用のお客様への影響について詳しくは、[GDPR とお客様への影響](https://www.adobe.com/jp/privacy/general-data-protection-regulation.html)を参照してください。
 
@@ -26,7 +26,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## アドビによる GDPR データの処理方法 {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-Adobe Cloud Platform（ACP）には統合型ソリューションが用意されており、お客様のデータガバナンスインフラストラクチャと、顧客エクスペリエンスを作成および管理するためのアドビのツールを連携させることができます。Adobe Cloud Platform のこのデータガバナンス機能によって、データガバナンスポリシーとデータ利用を直接リンクさせることができます。
+Adobe Cloud Platform(ACP)は、ブランドのデータガバナンスインフラストラクチャと、消費者エクスペリエンスの作成と管理に使用するアドビのツールを結び付ける統合ソリューションを提供します。 Adobe Cloud Platformのデータガバナンス機能を使用すると、データガバナンスポリシーとデータの使用とを直接連携させることができます。
 
 「[Adobe Analytics による GDPR の処理方法](https://www.adobe.com/jp/data-analytics-cloud/analytics/general-data-protection-regulation.html)」を確認してください。ここでは、GDPR 対応の手順と、Adobe Experience Cloud GDPR API との統合方法について説明しています。
 
@@ -34,9 +34,9 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 
 アドビは、お客様自身がレポートスイートのカスタムデータのことを最も熟知していると考えているので、お客様がデータガバナンスの各種設定を指定できるようにしています。
 
-そのため Adobe Analytics にはデータガバナンス用ユーザーインターフェイスが用意されており、データ管理者であるお客様は、Analytics のレポートスイートと、レポートスイート内のすべてのディメンションと指標に[プライバシー用ラベル](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)を設定できます。お客様は、個人を直接的または間接的に特定できるデータを含むデータセット内の列を識別し、それらのデータに対するアクセス要求または削除要求を送信できます。各要求では、Analytics のデータガバナンス用ユーザーインターフェイスで設定されたラベルが、対象の要求に対応する固有識別子として扱われます。
+そのため Adobe Analytics にはデータガバナンス用ユーザーインターフェイスが用意されており、データ管理者であるお客様は、Analytics のレポートスイートと、レポートスイート内のすべてのディメンションと指標に[プライバシー用ラベル](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)を設定できます。データセット内の、直接識別可能なデータまたは間接的に識別可能なデータを含む列を識別して、アクセスを送信し、そのデータに対応するリクエストを削除できます。 リクエストごとに、Analyticsデータガバナンスユーザーインターフェイスで定義されたラベルが、そのリクエストに対応する特定の識別子に適用されます。
 
-ラベルの設定方法について詳しくは、[レポートスイートのデータのラベル設定](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)を参照してください。
+See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) for more information on how to set the labels.
 
 ## 前提条件 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -45,6 +45,6 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 * データガバナンスの設定をおこなう Adobe Analytics のレポートスイートを、[Experience Cloud 組織](https://marketing.adobe.com/resources/help/ja_JP/mcloud/report-suite-mapping.html)にマッピングします。
 * GDPR の削除要求およびアクセス要求に対応できるよう、各レポートスイートのデータ保持ポリシーを設定します。
 
-   > [!NOTE]データ保持期間が設定されていないと、Adobe Analytics は、GDPR API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、カスタマーサクセスマネージャーまでお問い合わせください。
+   > [!NOTE]データ保持期間が設定されていないと、Adobe Analytics は、GDPR API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間を設定するには、カスタマーサクセスマネージャーにお問い合わせください。
 
-* 権限の確認：Adobe Analytics でデータガバナンス管理インターフェイスを使用するには、Adobe Analytics の管理者である必要があります。
+* 権限の確認：adobe Analyticsでデータガバナンス管理インターフェイスを使用するには、Adobe Analytics管理者である必要があります。
