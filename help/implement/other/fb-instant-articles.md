@@ -1,8 +1,8 @@
 ---
 title: Facebook インスタント記事での実装
 description: Facebook インスタント記事ページに Adobe Analytics を実装します。
-translation-type: ht
-source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics を実装するための包括的なワークフローは次の�
 
 ### 手順 1：`stats.html` ページを作成する
 
-次のサンプル HTML は、インスタント記事から統計値を取得するのに使用できます。このファイルは、通常、会社の Web サーバーのうちの 1 つでホストされます。インスタント記事が読み込まれるたびに、iframe にファイルが読み込まれ、アドビへのデータの送信がトリガーされます。
+以下のサンプルHTMLは、インスタント記事から統計を取り込むために使用できます。 このファイルは、通常、お使いの会社のWebサーバーの1つでホストされます。 インスタント記事が読み込まれるたびに、iframe にファイルが読み込まれ、アドビへのデータの送信がトリガーされます。
 
 ```html
 <html>
@@ -83,7 +83,7 @@ Facebook インスタント記事コンテンツを作成する際に、Analytic
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
-> iframe の性質上、[!NOTE] リファラーディメンションは自動的には追跡されません。追跡する場合は、クエリー文字列の一部にこのディメンションを含めてください。
+>iframe の性質上、[!NOTE] リファラーディメンションは自動的には追跡されません。追跡する場合は、クエリー文字列の一部にこのディメンションを含めてください。
 
 ## Facebook インスタント記事とプライバシー
 
