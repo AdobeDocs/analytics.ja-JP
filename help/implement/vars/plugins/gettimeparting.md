@@ -2,51 +2,51 @@
 title: getTimeParting
 description: 特定のアクションが実行される時間を測定します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobeプラグイン：getTimeParting
+# アドビプラグイン：getTimeParting
 
-> [!IMPORTANT] このプラグインは、Adobe Analyticsからより多くの価値を引き出すために、アドビコンサルティングから提供されています。 アドビカスタマーケアは、インストールやトラブルシューティングを含む、このプラグインのサポートを提供しません。 このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせください。 担当コンサルタントとのミーティングを手配できます。
+>[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-このプ `getTimeParting` ラグインを使用すると、サイトで測定可能なアクティビティが発生した時間の詳細を取り込むことができます。 このプラグインは、指定した日付範囲で、繰り返し可能な時間の除算で指標を分類する場合に役立ちます。 例えば、すべての日曜日とすべての木曜日など、2つの異なる曜日間のコンバージョン率を比較できます。 また、すべての朝とすべての晩など、1日の期間を比較することもできます。
+`getTimeParting` プラグインを使用すると、サイトで測定可能なアクティビティが発生した時間の詳細を取り込むことができます。このプラグインは、指定した日付範囲で繰り返し可能な時間の除算で指標を分類する場合に役立ちます。例えば、すべての日曜日とすべての木曜日など、2 つの異なる曜日間のコンバージョン率を比較できます。また、すべての朝とすべての晩など、1 日の時間を比較することもできます。
 
-Analysis Workspaceは、このプラグインとは少し異なる形式の、標準搭載の同じディメンションを提供します。 詳細につ [いては、Analyzeユーザガイドの](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) 「時間分割ディメンション」を参照してください。 組織によっては、Analysis Workspaceの標準のディメンションで十分であると見なされます。
+Analysis Workspace は、このプラグインとは少し異なる形式の、標準搭載された同様のディメンションを提供します。詳細については、『Analyze ユーザーガイド』の[時間分割ディメンション](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)を参照してください。組織によっては、Analysis Workspace の標準のディメンションで十分であると見なされる場合があります。
 
-> [重要] ：このプラグインのバージョン4.0以降は、以前のバージョンとは大きく異なります。 アドビでは、このプラグインを「一から」実装することを強くお勧めします。 バージョン4.0より前のプラグインを参照するコードは、このプラグインの現在のバージョンと互換性がありません。
+>[重要] このプラグインのバージョン 4.0 以降は、以前のバージョンとは大きく異なります。アドビでは、このプラグインを「最初から」実装することを強くお勧めします。バージョン 4.0 より前のプラグインを参照するコードは、このプラグインの現在のバージョンと互換性がありません。
 
-## Adobe Experience Platform Launch Extensionを使用してプラグインをインストールする
+## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
-アドビでは、最もよく使用されるプラグインを使用できる拡張機能を提供しています。
+アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、ボタンをクリックしま [!UICONTROL Catalog] す。
-1. 拡張機能のインストールと公 [!UICONTROL Common Analytics Plugins] 開
-1. まだ設定していない場合は、「Initialize Plug-ins」というラベルの付いたルールを次の設定で作成します。
-   * 条件：なし
-   * イベント：コア — ライブラリ読み込み済み（ページの上部）
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
+   * Condition：なし
+   * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * 拡張子：共通のAnalyticsプラグイン
-   * アクションタイプ：getTimePartingの初期化
+   * Extension：Common Analytics Plugins
+   * Action Type：Initialize getTimeParting
 1. ルールに対する変更を保存して発行します。
 
-## カスタムコードエディターの起動を使用したプラグインのインストール
+## Launch カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. タブに移動し [!UICONTROL Extensions] 、Adobe Analytics拡張機能の下 [!UICONTROL Configure] にあるボタンをクリックします。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. アコーディオ [!UICONTROL Configure tracking using custom code] ンを展開し、ボタンを表示 [!UICONTROL Open Editor] します。
 1. カスタムコードエディターを開き、下に示すプラグインコードを編集ウィンドウに貼り付けます。
-1. 変更を保存し、Analytics拡張機能に公開します。
+1. 変更を保存し、Analytics 拡張機能に公開します。
 
-## AppMeasurementを使用したプラグインのインストール
+## AppMeasurement を使用したプラグインのインストール
 
-次のコードを、Analyticsトラッキングオブジェクトのインスタンス化（を使用）後に、AppMeasurementファイルの任意の場所にコピーして貼り付 [`s_gi`](../functions/s-gi.md)けます。 導入時にコードのコメントとバージョン番号を保持すると、アドビは潜在的な問題のトラブルシューティングに役立ちます。
+Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`](../functions/s-gi.md) を使用）した後、AppMeasurement ファイルの任意の場所に次のコードをコピーして貼り付けます。実装時のコードのコメントとバージョン番号を記録しておくと、アドビが潜在的な問題のトラブルシューティングをおこなう際に役立ちます。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,24 +57,24 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 
 ## プラグインの使用
 
-このメソ `getTimeParting` ッドでは、次の引数を使用します。
+`getTimeParting` メソッドでは、次の引数を使用します。
 
-**`t`** （オプション、推奨、文字列）:訪問者のローカル時間を変換するタイムゾーンの名前。  デフォルトはUTC/GMT時刻です。 有効な [値の完全なリストについては、WikipediaのTZデータベースのタイムゾーンのリスト](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) （英語のみ）を参照してください。
+**`t`**（オプション、推奨、文字列）：訪問者のローカル時間を変換するタイムゾーンの名前。デフォルトは UTC／GMT 時間です。有効な値の完全なリストについては、Wikipedia の [List of TZ database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)（英語）を参照してください。
 
-一般的な有効な値は次のとおりです。
+一般的な有効値は次のとおりです。
 
-* `"America/New_York"` 東部時代
-* `"America/Chicago"` （中央時間）
-* `"America/Denver"` 山の時間
-* `"America/Los_Angeles"` 太平洋標準時
+* `"America/New_York"`（東部時間）
+* `"America/Chicago"`（中央時間）
+* `"America/Denver"`（山岳地帯）
+* `"America/Los_Angeles"`（太平洋標準時間）
 
-このメソッドを呼び出すと、次のようにパイプで区切られた文字列が返さ`|`れます。
+このメソッドを呼び出すと、次のように区切られたパイプ（`|`）を含む文字列が返されます。
 
 * 現在の年
 * 現在の月
 * 日
 * 曜日
-* 現在の時刻(AM/PM)
+* 現在の時刻（AM/PM）
 
 ## 呼び出しの例
 
@@ -92,17 +92,17 @@ s.eVarX = getTimeParting("Europe/Paris");
 s.eVarX = getTimeParting("America/Los_Angeles");
 ```
 
-依頼人がアフリカのガーナの国にいる場合：
+クライアントがアフリカのガーナにいる場合：
 
 ```js
 s.eVarX = getTimeParting();
 ```
 
-ガーナはUTC/GMTのタイムゾーンの範囲内です。  この例は、このような状況ではプラグイン引数が必要ないことを示しています。
+ガーナは UTC／GMT タイムゾーン内です。この例は、このような状況ではプラグイン引数が必要ないことを示しています。
 
-### Internet Explorerブラウザーのアカウント
+### Internet Explorer ブラウザーのアカウンティング
 
-Internet Explorer訪問者から時間分割データを除外する場合は、次の例を使用します（IEブラウザから返される値は訪問者のローカル時間にのみ含まれるので）。
+Internet Explorer 訪問者から時間分割データを除外する場合は、次の例を使用します（IE ブラウザーから返される値は訪問者のローカル時間にのみ含まれる可能性があるため）。
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -111,60 +111,60 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### 呼び出しの結果
 
-コロラド州デンバーからの訪問者が2020年8月31日午前9時15分にサイトを訪問した場合、
+コロラド州デンバーからの訪問者が 2020 年 8 月 31 日午前 9 時 15 分にサイトを訪問した場合、
 
-次のコードを実行しています…
+次のコードを実行すると...
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
 ```
 
-...s.eVar10を「year=2020」に設定します。| month=8月| date=31| day=金曜日| time=6:15 PM&quot;
+s.eVar10 を「year=2020 | month=August | date=31 | day=Friday | time=6:15 PM」に設定します。
 
-次のコードを実行中…
+次のコードは
 
 ```js
 s.eVar10 = getTimeParting("America/Nome");
 ```
 
-...s.eVar10を「year=2020」に設定します。| month=8月| date=31| day=金曜日| time=6:15 AM&quot;
+s.eVar10 を「year=2020 | month=August | date=31 | day=Friday | time=6:15 AM」に設定します。
 
-次のコード…
+次のコードは...
 
 ```js
 s.eVar10 = getTimeParting("Asia/Calcutta");
 ```
 
-...s.eVar10を「year=2020」に設定します。| month=8月| date=31| day=金曜日| time=8:45 PM&quot;
+s.eVar10 を「year=2020 | month=August | date=31 | day=Friday | time=8:45 PM」に設定します。
 
-次のコードは…
+次のコードは
 
 ```js
 s.eVar10 = getTimeParting("Australia/Sydney");
 ```
 
-...s.eVar10を「year=2020」に設定します。| month=9月| date=1| day=Saturday| time=1:15 AM&quot;
+s.eVar10 を「year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM」に設定します。
 
 ## バージョン履歴
 
-### 6.2（2019年11月6日）
+### 6.2（2019 年 11 月 6 日）
 
-* 小さなバグ修正
-* 全体的なコードサイズの削減
+* 小規模なバグ修正
+* 全体的なコードサイズの縮小
 
-### 6.1（2018年11月26日）
+### 6.1（2018 年 11 月 27 日）
 
-* Internet Explorerブラウザーの修正。 訪問者のローカル時間でのみ、時間を返すことができます。
+* Internet Explorer ブラウザーでの問題を修正しました。訪問者のローカル時間内でのみ時間を返すことができます。
 
-### 6.0（2018年8月14日）
+### 6.0（2018 年 8 月 15 日）
 
-* 国際基準に合わせた完全な書き直し。 夏時間とすべてのタイムゾーンが適切に変換されるようになりました。
+* 国際標準に合わせて完全に書き直しました。夏時間とすべてのタイムゾーンが適切に変換されるようになりました。
 
-### 5.0（2018年4月18日）
+### 5.0（2018 年 4 月 18 日）
 
-* ポイントリリース（再コンパイル、コードサイズが小さい）
-* 夏時間の開始日/終了日が自 `tpDST` 動的に検出されるようになったため、パラメータの必要性をなくしました。
+* ポイントリリース（再コンパイル、コードサイズ縮小）
+* 夏時間の開始日と終了日を自動的に検出するようにして `tpDST` パラメーターの必要性をなくしました。
 
-### 4.0（2016年8月23日）
+### 4.0（2016 年 8 月 23 日）
 
-* 新しいソリューションを提供し、年、月、日付の情報を含めます。
+* 新しいソリューションを提供し、年、月、日付の情報を含むようになりました。
