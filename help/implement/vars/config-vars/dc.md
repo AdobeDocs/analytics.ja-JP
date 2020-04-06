@@ -1,16 +1,16 @@
 ---
 title: dc
-description: 使用するデータセンターを決定できる廃止された変数。
+description: 使用するデータセンターを決定できる古い変数。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dc
 
-> [!IMPORTANT] この変数は廃止されます。 代わりに、を [`trackingServer`](trackingserver.md) 使用します。
+>[!IMPORTANT] この変数は廃止されています。代わりに、[`trackingServer`](trackingserver.md) を使用してください。
 
-以前のバージョンのAdobe Analyticsでは、データの送信先のデータセンターを指定する必要がありました。 ヒットを誤ったデータセンターに送信すると、データが失われていました。
+以前のバージョンの Adobe Analytics では、データの送信先のデータセンターを指定する必要がありました。ヒットを誤ったデータセンターに送信すると、データが失われていました。
 
-アドビでは、任意の実装でのヒットの送信先となるので、このエクスペリエンスを改善しま `sc.omtrdc.net`した。 データセンターの指定は不要になりました。
+アドビは、任意の実装で `sc.omtrdc.net` へのヒットの送信を許可することで、このエクスペリエンスを向上させました。データセンターの指定は不要になりました。
