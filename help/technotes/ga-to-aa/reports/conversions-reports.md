@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics のコンバージョンレポート
 description: Adobe Analytics でコンバージョンレポートを使用する方法について説明します。
-translation-type: ht
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Google Analytics の e コマースレポートと Adobe Analytics の製品レ�
 
 マルチチャネルファネルレポートでは、獲得レポートのデータだけでなく、追加のマーケティングチャネルデータも確認できます。これらのレポートは、訪問者がサイトに到達した経路ではなく、訪問者がどのようにコンバージョンするかに焦点を当てます。
 
-> [!NOTE]
+>[!NOTE]
 >
 > Adobe Analytics でマルチチャネルレポートを使用するには、製品変数と購入イベントに対応するために、マーケティングチャネルの設定とカスタム実装が必要です。お使いのレポートスイートに対してこれらの機能がまだ設定されていない場合は、導入コンサルタントに相談することをお勧めします。
 
