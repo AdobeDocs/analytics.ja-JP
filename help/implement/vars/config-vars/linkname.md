@@ -2,41 +2,41 @@
 title: linkName
 description: カスタムリンクヒットの名前を設定します。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkName
 
-この変数を使 `linkName` 用して、次のメソッドを実行する際に、カスタムリンク、ダウンロードリンクまたは離脱リンクのディメンション値を決定 [`tl()`](../functions/tl-method.md) します。
+Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
-この変数が空白の場合、AppMeasurementは変数に戻り [`linkURL`](linkurl.md) ます。
+この変数が空白の場合、AppMeasurement は [`linkURL`](linkurl.md) 変数に戻ります。
 
-## Adobe Experience Platform Launchのリンク名
+## Adobe Experience Platform Launch の「リンク名」
 
 ビーコンを送信するルールを設定する際に、リンク名フィールドを設定できます。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し、 [!UICONTROL Rules] 目的のルールをクリックします（またはルールを作成します）。
-4. 下の「 [!UICONTROL Actions]+」アイコンをクリックします。
-5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、「ビーコンの送 [!UICONTROL Action Type] 信」に設定します。
-6. ラジオボタンをク `s.tl()` リックすると、フィールドが表示 [!UICONTROL Link Name] されます。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Name] field.
 
-## AppMeasurementのs.linkNameとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.linkName
 
-変数は `s.linkName` 、カスタムリンク、ダウンロードリンクまたは離脱リンクのディメンション値を決定する文字列(内容に応じ [`s.linkType`](linktype.md) て異なります)。 最大100バイトまで保持できます。
+`s.linkName` 変数は、カスタムリンク、ダウンロードリンクまたは出口リンク（[`s.linkType`](linktype.md) に応じて）のディメンション値を決定する文字列です。最大 100 バイトまで保持できます。
 
-> [!TIP] この変数はメソッドの3番目のパラメー `tl()` ターで、通常、スタンドアロン変数として設定する必要はありません。 ただし、メソッドの引数 `linkName` として値を設定しない場合は、変数を使用でき `tl()` ます。
+>[!TIP] この変数はメソッドの3番目のパラメー `tl()` ターで、通常、スタンドアロン変数として設定する必要はありません。 However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkName = "Example custom link";
 ```
 
-## 例   
+## 例
 
-次の2つのリンクトラッキングコールの例は、機能的に同じです。 同じリンクトラッキングヒットを達成する方法は異なります。
+次の 2 つのリンクトラッキングコールの例は、機能的に同じです。同じリンクトラッキングヒットを達成するには、異なる方法があります。
 
 ```js
 // Set link tracking arguments as individual variables
