@@ -1,8 +1,8 @@
 ---
 title: H コード実装のトラブルシューティング
 description: レガシー JavaScript の実装に関する一般的な問題をいくつか説明します。
-translation-type: ht
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ H コードの実装に固有のトラブルシューティング手順を以下
 
 ## head タグへの Analytics コードの配置
 
-> [!NOTE]H コードの実装では `<body>` タグ内でコードを参照する必要がありますが、他の実装（Adobe Experience Platform Launch の使用など）では `<head>` タグ内でコードを参照する必要があります。
+>[!NOTE]H コードの実装では `<body>` タグ内でコードを参照する必要がありますが、他の実装（Adobe Experience Platform Launch の使用など）では `<head>` タグ内でコードを参照する必要があります。
 
 Analytics コードは、非表示の 1 x 1 ピクセル画像を作成します。以前は、`s_code.js` の参照を `<head>` タグに配置するのが一般的な実装方法でした。ここにコードを配置すると、画像がページレイアウトに影響を与えなくなります。また、コードは早い段階で実行され、部分的なページ読み込みのページビューをより効果的にカウントできます。
 
@@ -21,4 +21,4 @@ Analytics コードは、非表示の 1 x 1 ピクセル画像を作成します
 
 Analytics コードは、HTML ページの `<body>` タグ内の任意の場所に配置できます。Analytics コードは、可能な限り `<body>` タグの先頭に近い位置に配置することをお勧めします。ページ変数が `s_code.js` ファイルの読み込み後に設定されていることを確認してください。
 
-> [!TIP] Adobe Analytics を Adobe Target と統合する場合は、JavaScript インクルードファイルをページの末尾に配置する必要があります。
+>[!TIP] Adobe Analytics を Adobe Target と統合する場合は、JavaScript インクルードファイルをページの末尾に配置する必要があります。
