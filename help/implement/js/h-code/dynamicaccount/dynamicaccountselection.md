@@ -1,15 +1,15 @@
 ---
 title: 'dynamicAccountSelection '
 description: dynamicAccountSelection 変数は、動的アカウント選択を有効化または無効化します。
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dynamicAccountSelection 
 
-> [!IMPORTANT] 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在の AppMeasurement ライブラリや Adobe Experience Platform Launch ではサポートされていません。
+>[!IMPORTANT] 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在の AppMeasurement ライブラリや Adobe Experience Platform Launch ではサポートされていません。
 
 `dynamicAccountSelection` 変数は、動的アカウント選択を使用するかどうかを決定するブール値です。
 
