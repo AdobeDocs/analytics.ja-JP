@@ -2,8 +2,8 @@
 description: JavaScript プラグインのデータ収集方法を選択した場合は、次のコード行をコピーして、ページ上の Adobe Analytics コードに追加します
 title: Adobe Analytics プラグインコード
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
-translation-type: ht
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -50,5 +50,5 @@ s.eVar11="Post Click Product ID"; // e.g. "shoes"
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
-> [!NOTE]上記のプラグインは、特定のカスタムコマース変数（eVar）が使用可能であることを前提としています。上記のプラグインで指定した変数が Adobe Analytics 実装内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
+>[!NOTE]上記のプラグインは、特定のカスタムコマース変数（eVar）が使用可能であることを前提としています。上記のプラグインで指定した変数が Adobe Analytics 実装内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
 
