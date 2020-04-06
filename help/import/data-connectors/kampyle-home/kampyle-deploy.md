@@ -3,7 +3,7 @@ description: 'null'
 title: 統合のデプロイ
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
 
 統合ウィザードの完了後、統合設定オブジェクトをWebプロパティにデプロイします。 多くの場合、統合設定オブジェクトをデプロイする最も簡単な方法は、それらのオブジェクトを Adobe Analytics デプロイメントコードに含めることです。
 
-> [!NOTE] Adobe Experience Platform Launchを使用する場合は、このツールを使用して統合設定オブジェクトを簡単に追加できます。
+>[!NOTE] Adobe Experience Platform Launchを使用する場合は、このツールを使用して統合設定オブジェクトを簡単に追加できます。
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. リソースをダウンロードして保 **[!UICONTROL Kampyle Integration Code (JS)]** 存します。 コードは次のようになります。
@@ -61,7 +61,7 @@ source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
-> [!NOTE] ログエントリは、通常、展開が成功した24時間以内に表示されます。
+>[!NOTE] ログエントリは、通常、展開が成功した24時間以内に表示されます。
 
 ![統合アクティビティログ](assets/integration_activity_log.png)
 
@@ -69,6 +69,6 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 Kampyle フィードバックレポートを Adobe Analytics で表示するには、適切なメニュー構造内で Kampyle レポートに移動します。
 
-> [!NOTE]統合フィードバックフォームが積極的に送信を受け取っていると想定して、レポートデータは、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
+>[!NOTE]統合フィードバックフォームが積極的に送信を受け取っていると想定して、レポートデータは、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
 
 ![アドビのレポートデータ](assets/adobe_reporting_data.png)
