@@ -3,8 +3,8 @@ description: Activity Map 内で複数セグメントフィルターを適用で
 title: 顧客セグメント
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,16 +13,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Activity Map 内で複数セグメントフィルターを適用できます。
 
-> [!NOTE]Adobe Analytics プラットフォームではリアルタイムデータのセグメント化をサポートしていないので、セグメントコントロールは標準モードでのみ使用できます。
+>[!NOTE]Adobe Analytics プラットフォームではリアルタイムデータのセグメント化をサポートしていないので、セグメントコントロールは標準モードでのみ使用できます。
 
-次に示す&#x200B;**[!UICONTROL セグメント]**&#x200B;ドロップダウンメニューから、1 つまたは複数のセグメントを選択できます。リストに表示されるセグメントは、所有しているセグメント、または選択したレポートスイートに関して Reports &amp; Analytics 経由で共有されているセグメントと同じです。
+You can select one or several of the segments from the **[!UICONTROL Segments]** drop-down menu shown below. 表示されるセグメントは、選択したレポートスイートの所有セグメントまたはReports &amp; Analyticsを使用して共有されたセグメントと同じです。
 
 ![](assets/segments.png)
 
-セグメントの選択が変更されると、セグメントセレクターを閉じた後に、アプリケーションに表示されているすべての指標に関して、Analytics データ取得プロセスが新規に開始されます。選択されたセグメントは、ページからページへ移動しても保存されます。
+セグメントの選択が変更され、セグメントセレクターを閉じた後に、アプリに表示されるすべての指標に関する新しいAnalyticsデータ取得プロセスが開始されます。 選択したセグメントは、ページからページに移動したときに記憶されます。
 
-複数のセグメントを選択した場合、セグメント選択ラベル（折りたたまれた状態）に「複数」と表示されます。コントロールをクリックすると、選択したセグメントの完全なリストが表示されます。
+複数のセグメントを選択すると、（折りたたまれた状態で）セグメント選択ラベルに「複数」と表示されます。 選択したセグメントのリスト全体が、コントロールをクリックすると表示されます。
 
 ![](assets/two_segments.png)
 
-選択したセグメントは、Activity Map で提示されているすべての Analytics レポート（つまり、オーバーレイ、**[!UICONTROL ページ上のリンク]**&#x200B;レポート、**[!UICONTROL ページの詳細]**&#x200B;レポート）に適用されます。
+The selected segments will be applied to all Analytics reports presented in Activity Map, i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
