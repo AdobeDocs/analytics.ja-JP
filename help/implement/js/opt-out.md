@@ -1,21 +1,21 @@
 ---
 title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # オプトアウトリンクの実装
 
-> [!IMPORTANT] 特に GDPR 規制への懸念がある組織では、オプトインサービスの使用をお勧めします。『Experience Cloud ID サービスユーザーガイド』の[オプトインサービスの概要](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/optin-overview.html)を参照してください。
+>[!IMPORTANT] 特に GDPR 規制への懸念がある組織では、オプトインサービスの使用をお勧めします。『Experience Cloud ID サービスユーザーガイド』の[オプトインサービスの概要](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/optin-overview.html)を参照してください。
 
 Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。アドビでは、Web サイトの訪問者が自分の情報が収集されないようにする機能を用意しています。この機能はすべての実装タイプに対応しています。組織は、自らのプライバシーポリシーに責任を持ち、署名済みの利用条件に従う責任を負うものとします。
 
 訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーが追跡を選択せず、オプトアウト Cookie が設定されている場合、JavaScript ファイルは引き続きアドビのサーバーにデータを送信します。ただし、そのデータは処理されず、レポートに含まれません。
 
-> [!TIP] また、アドビでは、レポートスイートごとにプライバシー設定を提供しています。詳しくは、『管理者ユーザーガイド』の[プライバシー設定](../../admin/admin/privacy-settings.md)を参照してください。
+>[!TIP] また、アドビでは、レポートスイートごとにプライバシー設定を提供しています。詳しくは、『管理者ユーザーガイド』の[プライバシー設定](../../admin/admin/privacy-settings.md)を参照してください。
 
 ## オプトアウト URL
 
@@ -23,8 +23,8 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 * Adobe Experience Platform Launch：
    1. [Launch.adobe.com](https://launch.adobe.com) にログインし、目的のプロパティをクリックします。
-   2. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics で「[!UICONTROL 設定]」をクリックします。
-   3. 「[!UICONTROL 一般]」アコーディオンをクリックし、「[!UICONTROL トラッキングサーバー]」の値をメモします。
+   2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
+   3. アコーディオ [!UICONTROL General] ンをクリックし、値をメモ [!UICONTROL Tracking Server] します。
 
 * JavaScript 実装の場合：
    1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
@@ -32,8 +32,8 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 * [Adobe Experience Cloud デバッガー](https://docs.adobe.com/content/help/ja-JP/debugger/using/experience-cloud-debugger.html)を使用して、以下を実行します。
    1. Chrome ブラウザーを使用してサイトに移動します。
-   2. Experience Cloud デバッガーを開き、「[!UICONTROL ネットワーク]」タブに移動します。
-   3. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
+   2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
+   3. Note the [!UICONTROL Request URL - Hostname] value.
 
 実装の `trackingServer` ドメインが見つかったら、最後にパス `/optout.html` を追加します。次に例を示します。
 
@@ -73,7 +73,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 例えば、`https://example.sc.omtrdc.net/optout.html?locale=ko_KR` は、オプトアウトページを韓国語で読み込みます。
 
-> [!TIP] ページはデフォルトで英語で読み込まれるので、`en_US` クエリー文字列値は必須ではありません。
+>[!TIP] ページはデフォルトで英語で読み込まれるので、`en_US` クエリー文字列値は必須ではありません。
 
 ### ポップアップ
 
@@ -81,7 +81,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 例えば、`https://example.sc.omtrdc.net/optout.html?popup=1` は、「ウィンドウを閉じる」ボタンを含むオプトアウトページを読み込みます。
 
-> [!NOTE] 歴史的に、このクエリー文字列パラメーターによって、ポップアップウィンドウが強制的に表示されました。ただし、ほとんどの最新のブラウザーは、エンドユーザーに対してポップアップの制御を提供します。
+>[!NOTE] 歴史的に、このクエリー文字列パラメーターによって、ポップアップウィンドウが強制的に表示されました。ただし、ほとんどの最新のブラウザーは、エンドユーザーに対してポップアップの制御を提供します。
 
 ### シングルクリックのオプトアウト
 
