@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics Implementation Guide
+user-guide-title: Analytics 実装ガイド
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
+source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
 
 ---
 
@@ -12,12 +12,12 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 # Analytics 実装ガイド {#implementation}
 
 + [Analytics 実装ヘルプ](home.md)
-+ [AppMeasurementリリースノート](appmeasurement-updates.md)
-+ Analyticsの変数、関数およびメソッド {#vars}
++ [AppMeasurement リリースノート](appmeasurement-updates.md)
++ Analytics 変数、関数およびメソッド {#vars}
    + [概要](vars/overview.md)
    + 設定変数 {#config-vars}
       + [設定変数の概要](vars/config-vars/configuration-variables.md)
-      + [中止](vars/config-vars/abort.md)
+      + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
@@ -50,7 +50,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [visitorID](vars/config-vars/visitorid.md)
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-   + ページ変数{page-vars}
+   + ページ変数 {page-vars}
       + [ページ変数の概要](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
@@ -116,45 +116,45 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [ナンバースイート](vars/plugins/numberssuite.md)
+      + [Numbers Suite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
-      + [pt](vars/plugins/pt.md)
+      + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-   + [統合モジュール](vars/integrate.md)
-+ Prepare to implement Adobe Analytics {#prepare}
+   + [モジュールの統合](vars/integrate.md)
++ Adobe Analytics の実装準備 {#prepare}
    + [データレイヤーの作成](prepare/data-layer.md)
    + [グローバルレポートスイートの考慮事項](prepare/global-rs.md)
    + [実装モーダル](prepare/implementation-modal.md)
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
 + JavaScript を使用した Analytics の実装 {#js}
-   + [JavaScriptの概要](js/overview.md)
+   + [JavaScript の概要](js/overview.md)
    + [オプトアウトリンクの実装](js/opt-out.md)
    + [変数のオーバーライド](js/overrides.md)
-   + [Hコードからの移行](js/migrate-from-hcode.md)
+   + [H コードからの移行](js/migrate-from-hcode.md)
    + H コード {#h-code}
-      + [Hコードの概要](js/h-code/overview.md)
+      + [H コードの概要](js/h-code/overview.md)
       + 動的アカウント {#dynamicaccount}
          + [動的アカウントの概要](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
-      + [Hコードのトラブルシューティング](js/h-code/troubleshooting.md)
-   + レガシーのデバイス間の識別 {#xdevice-visid}
-      + [デバイス間のユーザー接続の概要](js/xdevice-visid/xdevice-connecting.md)
+      + [H コードのトラブルシューティング](js/h-code/troubleshooting.md)
+   + レガシーのクロスデバイス特定 {#xdevice-visid}
+      + [デバイス間のユーザーの接続](js/xdevice-visid/xdevice-connecting.md)
       + [変数の持続性](js/xdevice-visid/variable-persistence.md)
       + [訪問の例](js/xdevice-visid/visit-example.md)
-      + [レガシークロスデバイスFAQ](js/xdevice-visid/xdevice-faq.md)
-   + [AppMeasurementのトラブルシューティング](js/troubleshooting.md)
-+ Implement Analytics using Adobe Experience Platform Launch {#launch}
+      + [レガシークロスデバイス FAQ](js/xdevice-visid/xdevice-faq.md)
+   + [AppMeasurement のトラブルシューティング](js/troubleshooting.md)
++ Adobe Experience Platform Launch による Analytics の実装 {#launch}
    + [Launch の概要](launch/overview.md)
-   + [Analyticsプロパティの作成](launch/create-analytics-property.md)
+   + [Analytics プロパティの作成](launch/create-analytics-property.md)
    + [開発環境へのデプロイ](launch/deploy-dev.md)
-   + [検証と実稼働環境へのパブリッシュ](launch/validate-publish-prod.md)
+   + [検証して実稼動環境に公開](launch/validate-publish-prod.md)
    + [データレイヤーオブジェクトのデータ要素へのマッピング](launch/layer-to-elements.md)
    + [起動データ要素のAnalytics変数へのマッピング](launch/elements-to-variable.md)
-+ 他のプラットフォームへのAnalyticsの実装 {#other}
-   + [ハードコードされたイメージリクエストを使用したAnalyticsの実装](other/hardcoded.md)
-   + Implement Analytics using DTM {#dtm}
++ 他のプラットフォームへの Analytics の実装 {#other}
+   + [ハードコードされたイメージリクエストを使用した Analytics の実装](other/hardcoded.md)
+   + DTM を使用した Analytics の実装 {#dtm}
       + [Dynamic Tag Management 実装の概要](other/dtm/dtm-implementation-overview.md)
       + [Web プロパティの作成](other/dtm/t-create-web-property.md)
       + [ホスティングオプションの設定](other/dtm/t-configure-hosting.md)
@@ -183,17 +183,17 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [トリガー条件のアクションの設定](other/dtm/c-rules/t-rules-actions.md)
          + [Akamai ホスティング用の未発行のルールのテスト](other/dtm/c-rules/t-test-rules-akamai.md)
          + [ライブラリのダウンロードまたは FTP のルールのテスト](other/dtm/c-rules/t-test-rules-ftp.md)
-   + [AjaxへのAnalyticsの実装](other/ajax.md)
-   + [AMPへのAnalyticsの実装](other/amp.md)
-   + [Analyticsのデジタルアシスタントへの実装](other/digital-assistants.md)
-   + [Facebookインスタント記事へのAnalyticsの実装](other/fb-instant-articles.md)
-+ [モバイルデバイスへのAnalyticsの実装](mobile-device-sdk.md)
-+ 導入の使用例 {#use-cases}
+   + [Ajax への Analytics の実装](other/ajax.md)
+   + [AMP への Analytics の実装](other/amp.md)
+   + [Analytics のデジタルアシスタントへの実装](other/digital-assistants.md)
+   + [Analytics の Facebook インスタント記事への実装](other/fb-instant-articles.md)
++ [Analytics のモバイルデバイスへの実装](mobile-device-sdk.md)
++ 実装の使用例 {#use-cases}
    + [異なる実装タイプでのトラッキング](use-cases/cross-type-implementation.md)
    + [外部電子メールトラッキング](use-cases/email-external.md)
-+ Validate your implementation {#validate}
-   + [レガシーのAdobe Experience Cloudデバッガー](validate/debugger.md)
-   + [データ収集クエリパラメーター](validate/query-parameters.md)
++ 実装の検証 {#validate}
+   + [レガシー Adobe Experience Cloud デバッガー](validate/debugger.md)
+   + [データ収集クエリーパラメーター](validate/query-parameters.md)
    + [パケット監視](validate/packet-monitor.md)
    + [ハッシュの競合](validate/hash-collisions.md)
 + [よくある質問](faq.md)
