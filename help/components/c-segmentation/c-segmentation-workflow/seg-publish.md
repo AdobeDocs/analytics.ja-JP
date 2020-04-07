@@ -4,7 +4,7 @@ title: Experience Cloud へのセグメントの公開
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a2b76a0e2fbe2ec598fffea64def771a2ddc0121
 
 ---
 
@@ -41,6 +41,9 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 | メンバーシップを持つ使用可能なセグメント | 公開後 8 時間以内 | [!DNL Audience Manager] の訪問者プロファイルビューア |
 | 特性とメンバーシップの母集団 | 24 ～ 48 時間以内 | [!DNL Audience Manager] |
 
+>[!NOTE]
+>週に1度、すべてのデータは完全に同期され、前の週に収集された差分や不一致が考慮されます。
+
 ## セグメントの公開先 [!UICONTROL Segment Builder]
 
 1. > **[!UICONTROL Analytics > Workspace > Components > Segments]+に移動&#x200B;**
@@ -51,7 +54,6 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
->
 >Adobe Analytics の数値と Audience Manager の数値を比較する際には、Analytics でセグメントプレビューを確認する際に、「個別訪問者数」の合計ではなく、「Experience Cloud ID を持つ訪問者」を使用してください。
 >
 >![](assets/seg-vis-ecid.png)
