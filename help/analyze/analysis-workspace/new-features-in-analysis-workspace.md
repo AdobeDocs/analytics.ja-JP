@@ -5,7 +5,7 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
 
 ---
 
@@ -307,8 +307,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >「100％の積み重ね」ビジュアライゼーション設定</a> </p> </td> 
-   <td colname="col2"> <p>積み重ね面／積み重ね棒／積み重ね横棒グラフのビジュアライゼーションを 100％の積み重ねに変更する新しい設定が追加され、相対的な比率を確認できるようになりました。 </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>積み重ね面／積み重ね棒／積み重ね横棒グラフのビジュアライゼーションを 100％の積み重ねに変更する新しい設定が追加され、相対的な比率を確認できるようになりました。 </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >異常値検出と貢献度分析</a>は、現在、Analysis Workspace からのみ使用できます。 </p> </td> 
    <td colname="col2"> <p>異常値検出と貢献度分析は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。 </p> <p>Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、Workspace で「毎日の精度」の異常値検出のみにアクセスできます。 </p> </td> 
