@@ -80,14 +80,14 @@ Adobe Analytics は、Data Warehouse を経由し、これらを毎日の個別�
 >[!NOTE]製品がイベントを関連付けずに定義されている場合、prodView イベントが自動的に発生します。
 上記の要件が満たされない場合、対応するリマーケティングセグメントは適切にレポートされません。
 
-[!UICONTROL Cart Abandonment]:ユーザーが買い物かごに製品を追加した後に発生します。
+[!UICONTROL 買い物かごの放棄]：ユーザーが商品を買い物かごに追加した後に発生します。
 
 ```
 s.products=";cat";
 s.events="scAdd";
 ```
 
-[!UICONTROL Purchases]:購入確認ページで発生します。
+[!UICONTROL 購入]：購入確認ページで発生します。
 
 ```
 s.products=";
