@@ -1,8 +1,8 @@
 ---
 title: ラボユーザーガイド
 description: Adobe Analytics のプロトタイププロジェクトのプレビュー
-translation-type: ht
-source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
+translation-type: tm+mt
+source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
 
 1. 別のプロトタイプを試す場合、またはプロトタイプ環境を終了する場合は、画面の右上にある&#x200B;**プロトタイプを終了**&#x200B;ボタンをクリックして、プロトタイプについての短いアンケートを完了します。プロトタイププロジェクトに対して行った変更は、プロトタイプ環境を終了すると失われます。
 
-   ![新しいフィードバックボックス](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![新しいフィードバックボックス](assets/short-survey.png)
 
 1. **送信**&#x200B;をクリックして、メインのプレビューポータルに戻ります。
 
