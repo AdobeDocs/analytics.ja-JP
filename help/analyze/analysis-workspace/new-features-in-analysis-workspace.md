@@ -5,12 +5,20 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
+source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 ---
 
 
 # Analysis Workspace の新機能
+
+## 2020年4月
+
+2020年4月17日にリリースされた新機能。
+
+| 機能 | 説明 |
+|--- |--- |
+| 空白の状態か [!UICONTROL Freeform Tables] ら自動的に構築 | 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできませんでした。最初にフリーフォームテーブルを追加する必要がありました。 空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになり、フリーフォームテーブルが自動的に推奨の形式で構築されます。 さらに、混在するコンポーネントタイプ（ディメンションや指標など）を空白のままにした場合の処理方法も改善されま [!UICONTROL Freeform Table] した。 |
 
 ## 2020 年 3 月
 
@@ -427,7 +435,7 @@ source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
      <li id="li_861825154EDC49EBA57514FD0A2AE462">このフレーズを含まない </li> 
      <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">次に等しい </li> 
      <li id="li_1EBF3119B6364842A35D39BAD645F4AF">等しくない </li> 
-     <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">次で始まる </li> 
+     <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">次の語句で始まる </li> 
      <li id="li_A73F54DFBAAB44D4A4134342A3124E47">次で終わる </li> 
     </ul> </td> 
   </tr> 
