@@ -1,10 +1,10 @@
 ---
 keywords: Analysis Workspace
-title: Analysis Workspace概要
+title: Analysis Workspace の概要
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5161ccaf333908525c261b73419899918554b91c
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-## 概要ビデオ {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## 概要ビデオ
 
->[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
 YouTube のプレイリストは、[こちら](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)から参照できます。
 
@@ -25,7 +25,7 @@ YouTube のプレイリストは、[こちら](https://www.youtube.com/playlist?
 >
 >機能に関する更新については、[Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
 
-## プロジェクト要素およびコンポーネントのフルコントロール {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## プロジェクト要素およびコンポーネントのフルコントロール
 
 分析ワークスペースは、次のような自由と柔軟性を提供します。
 
@@ -37,7 +37,7 @@ YouTube のプレイリストは、[こちら](https://www.youtube.com/playlist?
 
 [Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)を参照してください。
 
-## プロジェクト内の複数のビジュアライゼーション {#section_B7670740C2D44130B21DAF0873280DA5}
+## プロジェクト内の複数のビジュアライゼーション
 
 必要な数のビジュアライゼーションをプロジェクトにドラッグ＆ドロップします。
 
@@ -49,7 +49,7 @@ YouTube のプレイリストは、[こちら](https://www.youtube.com/playlist?
 
 [Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)を参照してください。
 
-## パネルとビジュアライゼーションへのイントラリンク {#section_253EA04E067F4A29A8B54CE2B7631086}
+## パネルとビジュアライゼーションへのイントラリンク
 
 Analysis Workspace の[リッチテキスト編集](/help/analyze/analysis-workspace/visualizations/text.md)機能と併せて、テキストボックスからプロジェクト内の特定のパネルとビジュアライゼーションにリンクする機能があります。これは例えば、プロジェクトの目次を作成するために使用できます。プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」という新しい右クリックオプションが追加されました。プロジェクトにイントラリンクを追加するには：
 
@@ -69,17 +69,17 @@ Analysis Workspace の[リッチテキスト編集](/help/analyze/analysis-works
 
 >[!NOTE] この機能は、右クリックオプション内で使 **[!UICONTROL Edit Description]** 用することもできます。
 
-## 他のプロジェクトへのリンク {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## 他のプロジェクトへのリンク
 
 You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
 
-## 選択したセルの動的ビジュアライゼーション {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## 選択したセルの動的ビジュアライゼーション
 
 個々のセルを選択し、ビジュアライゼーションの変化を動的に確認します。 [ビジュアライゼーションを](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) 、選択したセルと同期およびロックします。
 
 ![](assets/visualize-selected-cells.png)
 
-## 選択した項目または位置のロック {#section_9D66A001586F49CEB0C565581E44957C}
+## 選択した項目または位置のロック
 
 ビジュアライゼーションをロックすることで、ビジュアライゼーションに対応するフリーフォームデータテーブルのソースを制御できます。
 
@@ -87,7 +87,7 @@ You can link users to other projects that may be of interest to them by going to
 
 [データソースの管理](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)を参照してください。
 
-## 選択したセルからのトレンドのビジュアライゼーション {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## 選択したセルからのトレンドのビジュアライゼーション
 
 選択したセルからビジュアライゼーションを作成します(右クリック/を選択し **[!UICONTROL Trend Selection]**&#x200B;ます)。
 
@@ -97,7 +97,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ![](assets/trend-selection2.png)
 
-## ディメンションとディメンション項目の分類 {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## ディメンションとディメンション項目の分類
 
 小売業者として、顧客とのより良い関わり方を理解するために、キャンペーンをこれまで以上に深く掘り下げることができます。 特定のニーズに合わせて、データを無制限に分類します。関連する指標、ディメンション、セグメント、タイムラインおよびその他のクエリ分類値を使用して分析を作成します。
 
@@ -105,7 +105,7 @@ You can link users to other projects that may be of interest to them by going to
 
 [ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)を参照してください。
 
-## テーブルの選択範囲からのセグメント {#section_73BC3688089B426D969B3D5B606DA970}
+## テーブルの選択範囲からのセグメント
 
 フリーフォームデータテーブルのセルを選択し、選択範囲からセグメントを作成します。
 
@@ -119,7 +119,7 @@ You can link users to other projects that may be of interest to them by going to
 
 セグメント [を参照](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)。
 
-## プロジェクトとコンポーネントのタグ付け {#section_F54D688132A541F2982326D5E022B90D}
+## プロジェクトとコンポーネントのタグ付け
 
 Analysis Workspace でプロジェクトおよびコンポーネントにタグを適用できます。
 
@@ -128,7 +128,7 @@ Analysis Workspace でプロジェクトおよびコンポーネントにタグ�
 * コンポーネントを右クリックし、コンポーネントパネルからタグ付け（またはタグの作成）します。
 * 検索フィールドで#を使用して、タグを検索します。
 
-## コンポーネントのアクション {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## コンポーネントのアクション
 
 コンポーネントの左側のパネルの最上部にあるアクションメニューから、コンポーネントレベルのアクションを実行します。Select a component and click **[!UICONTROL Actions]** to view the actions.
 
@@ -142,7 +142,7 @@ Analysis Workspace でプロジェクトおよびコンポーネントにタグ�
 
 詳しくは、[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)を参照してください。
 
-## 追加機能の説明 {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## 追加機能の説明
 
 **ドラッグおよびスタックできるもの**
 
@@ -187,4 +187,4 @@ Analysis Workspace に特有のデフォルトのセグメントです。*`All V
 
 標準指標と同じ方法で計算を使用します。
 
-「計算指 [標」を参照](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/)。
+「計算指 [標」を参照](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html)。
