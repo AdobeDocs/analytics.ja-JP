@@ -1,20 +1,22 @@
 ---
-title: モバイルアプリ
-description: Adobe Analytics モバイルアプリの製品ドキュメントとセルフヘルプ
-translation-type: ht
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+title: ダッシュボードの概要
+description: Adobe Analytics製品の製品ドキュメントとセルフヘルプダッシュボード
+translation-type: tm+mt
+source-git-commit: 246093efc32e20f114a81f7ff8bb17131b3aafb2
 
 ---
 
 
-# モバイルアプリの概要
+# ダッシュボードの概要
 
-**注意：Analytics モバイルアプリはリリースされておらず、招待されたお客様がベータテストでのみ利用できます。このドキュメントはベータ版ユーザーのみを対象としており、機能の完全な機能を示すものではありません。この機能のベータ版ユーザーになりたい場合は、アドビ[カスタマーケア](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)にお問い合わせください。**
+>[!IMPORTANT]
+>
+>Adobe Analyticsダッシュボードはリリースされておらず、招待ユーザー間でのベータテストのみ利用できます。 このドキュメントはベータ版ユーザーのみを対象としており、機能の完全な機能を表していません。 If you are interested in becoming a beta user for this >feature, please contact Adobe [Customer Care](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html).
 
-The Adobe Analytics モバイルアプリは、Adobe Analytics からの洞察をいつでもどこでも提供します。このアプリでは、モバイルで直感的なスコアカードにアクセスできます。スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
+Adobe Analyticsダッシュボードは、Adobe Analyticsからいつでも、どこでも洞察を提供します。 このアプリでは、モバイルで直感的なスコアカードにアクセスできます。スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
 
-Analytics モバイルアプリについては、以下のベータ版ドキュメントをご利用いただけます。
+以下のベータ版ドキュメントをダッシュボードに提供：
 
-* [キュレーターガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/curator.html)：このガイドは、データのキュレーターが Analytics モバイルアプリでエグゼクティブユーザーのスコアカードを設定するのに役立つように作成されています。キュレーターは、組織の管理者、またはアプリのスコアカードの設定を担当する他の役割を持つ人です。
+* [保佐官ガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/curator.html):このガイドは、データのキュレータが、エグゼクティブ・ユーザに対してデータを使用する際にスコアカードを構成するのを支援するダッシュボードを目的としています。 キュレータは、組織の管理者またはスコアカードの設定を担当する他の役割を持つ人である場合があります。
 
-* [エグゼクティブユーザークイックスタートガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/executive.html)：このガイドは、エグゼクティブユーザーが Analytics モバイルアプリでスコアカードを読み、解釈するのに役立つように作成されています。エグゼクティブユーザーは、自分のモバイルデバイスで、重要な概要データの幅広いレンダリングをすばやく簡単に表示できます。
+* [エグゼクティブユーザークイック開始ガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/executive.html):このガイドは、エグゼクティブユーザーがスコアカードを読み、解釈するのに役立ちます。ダッシュボード エグゼクティブユーザーは、自分のモバイルデバイスで、重要な概要データの幅広いレンダリングをすばやく簡単に表示できます。
