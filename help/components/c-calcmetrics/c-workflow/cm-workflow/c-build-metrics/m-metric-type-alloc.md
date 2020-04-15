@@ -1,9 +1,9 @@
 ---
-description: 指標の横にある歯車アイコンを選択すると、指標タイプとアトリビューションモデルを指定できます。
+description: '詳細 '
 title: 指標タイプとアトリビューション
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 * [列のアトリビューションモデル](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [線形配分の仕組み（2018年7月19日現在）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## 指標タイプ {#section_34A86FB402F94E988724232283BF18B7}
+## 指標タイプ
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 | 標準 | これらの指標は、標準の [!DNL Analytics] レポートで使用される指標と同じです。1つの標準指標で構成される数式は、対応する計算指標以外の指標と同じデータを表示します。 標準指標は、個々の行項目に固有の計算指標を作成する場合に役立ちます。 例えば、[購入回数] / [訪問回数]の場合、特定の行項目の購入回数を特定の行項目の訪問回数で割ります。 |
 | 合計 | 各行項目のレポート期間の合計を使用します。 1つの合計指標で構成される数式は、各行項目の同じ合計数を表示します。 トータル指標は、サイトの合計データと比較する計算指標を作成する場合に役立ちます。 例えば、[購入回数] / [合計訪問回数]は、特定の行項目への訪問回数だけでなく、サイトへのすべての訪問回数に対する購入回数の割合を示します。 |
 
-## 列のアトリビューションモデル {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## 列のアトリビューションモデル
 
 >[!IMPORTANT]
 >
@@ -40,68 +40,25 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 
 ## 線形配分の仕組み（2018年7月19日現在）
 
-2018 年 7 月に、Adobe での計算指標に関する線形配分のレポート方法が変更されました。この変更は、Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map およびレポート API に影響します。主に影響が及ぶのは、eVar と永続性のあるその他のディメンションです。なお、これらの変更が適用されるのは計算指標のみで、線形配分を使用する他のレポート（Reports &amp; Analytics のページレポートなど）には影響しません。線形配分を使用する他のレポートでは、既存の線形配分方法が引き続き使用されます。
+2018 年 7 月に、Adobe での計算指標に関する線形配分のレポート方法が変更されました。この変更は、Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map およびレポート API に影響します。この変更は、主に永続性を持つeVarや他のディメンションに影響します。 これらの変更は計算指標にのみ適用され、線形配分を使用する他のレポート（Reports &amp; Analyticsのページレポートなど）には影響しません。 線形配分を使用する他のレポートでは、既存の線形配分方法が引き続き使用されます。
 
 次の例は、線形配分を使用する計算指標のレポートの変化を示しています。
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> ヒット1 </th> 
-   <th colname="col3" class="entry"> ヒット2 </th> 
-   <th colname="col4" class="entry"> ヒット3 </th> 
-   <th colname="col5" class="entry"> ヒット4 </th> 
-   <th colname="col6" class="entry"> ヒット5 </th> 
-   <th colname="col7" class="entry"> ヒット6 </th> 
-   <th colname="col8" class="entry"> ヒット7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>送信されたデータ </p> </td> 
-   <td colname="col2"> プロモーションA </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> プロモーションA </td> 
-   <td colname="col5"> プロモB </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ラストタッチeVar </p> </td> 
-   <td colname="col2"> プロモーションA </td> 
-   <td colname="col3"> プロモーションA </td> 
-   <td colname="col4"> プロモーションA </td> 
-   <td colname="col5"> プロモB </td> 
-   <td colname="col6"> プロモB </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ファーストタッチeVar </p> </td> 
-   <td colname="col2"> プロモーションA </td> 
-   <td colname="col3"> プロモーションA </td> 
-   <td colname="col4"> プロモーションA </td> 
-   <td colname="col5"> プロモーションA </td> 
-   <td colname="col6"> プロモーションA </td> 
-   <td colname="col7"> プロモーションA </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>propの例 </p> </td> 
-   <td colname="col2"> プロモーションA </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> プロモーションA </td> 
-   <td colname="col5"> プロモB </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | ヒット1 | ヒット2 | ヒット3 | ヒット4 | ヒット5 | ヒット6 | ヒット7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| 送信されたデータ | プロモーションA | - | プロモーションA | プロモB | - | PROMO C | $10 |
+| ラストタッチeVar | プロモーションA | プロモーションA | プロモーションA | プロモB | プロモB | PROMO C | $10 |
+| ファーストタッチeVar | プロモーションA | プロモーションA | プロモーションA | プロモーションA | プロモーションA | プロモーションA | $10 |
+| propの例 | プロモーションA | - | プロモーションA | プロモB | - | PROMO C | $10 |
 
 この例では、ヒット7で$10の購入が行われる前に、ヒット1、3、4および6で値A、BおよびCが変数に送信されていました。 2行目では、これらの値は最後のタッチ訪問ごとにヒット間で保持されます。 3行目は、ファーストタッチ訪問の持続性を示しています。 最後の行は、永続性を持たないpropのデータがどのように記録されるかを示しています。
+
+## Reports &amp; AnalyticsとWorkspaceの線形配分の違い
+
+これらの2つのツール間で線形アトリビューションがどのように機能するかには、いくつかの違いがあります。
+
+* Reports &amp; Analyticsでは、（処理された）線形アトリビューションは常に訪問ベースですが、Workspaceでは訪問ベースまたは訪問者ベースです。
+* Reports &amp; Analyticsでは、訪問の最初のヒット時に値が渡されなかった場合、（初期値）は以前の訪問から保持されます。 これは、Workspace（アトリビューションIQ）では該当しません。 訪問の最初のヒット時に値が渡されない場合、「なし」が初期値になります。
 
 ## 2018年7月より前の線形配分の仕組み
 
