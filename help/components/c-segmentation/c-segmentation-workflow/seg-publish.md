@@ -4,16 +4,16 @@ title: Experience Cloud へのセグメントの公開
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a2b76a0e2fbe2ec598fffea64def771a2ddc0121
+source-git-commit: f516be8395f7e7c0398f1ebb1d1e019e905d67ee
 
 ---
 
 
 # Experience Cloud へのセグメントの公開
 
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. 最近の更新で、公開ワークフローが大幅に最適化されました。以前は、使用可能なセグメントの公開には約 48 時間かかっていました。
+Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. 最近の更新で、公開ワークフローが大幅に最適化されました。Analyticsセグメントを8時間以内にExperience Cloudに公開できるようになりました。 これらのセグメントを使用して、すべてのダウンストリームオーディエンスに対してオーディエンスマネージャーの宛先をアクティブにします。
 
-現在は最大 8 時間で処理できますが、他のトラフィックやセグメントサイズによっては、処理がさらに高速になる場合があります。（ただし、現在、セグメントが利用可能になった時点で通知する方法はないので、手動で確認する必要があります。）また、公開可能なセグメントの最大数を 20 から 75 に増やしました。公開済みのセグメントは、コンポーネント／セグメントで表示できます。
+また、公開可能なAdobe Analyticsセグメントの最大数を20から75に増やしました。 で公開したセグメントを表示できま [!UICONTROL Analytics > Components > Segments]す。
 
 >[!NOTE] Adobe Campaign（Classic と Standard）の動作は、8 時間の遅延に加えて 24 時間の遅延が発生する点が異なります。
 
@@ -29,7 +29,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 ## 注意点
 
 * **レポートスイートの制限**：レポートスイートごとに最大 75 個のセグメントを公開できます。この制限は適用されます。既に 75 個のセグメントが公開されている場合、公開を取り消してセグメント数が 75 個のセグメントしきい値を下回るまで、追加のセグメントを公開することはできません。
-* **メンバーシップの制限**：Analytics から [!DNL Experience Cloud] に共有するオーディエンスの個別メンバーの数が 2,000 万を超えてはなりません。
+* **メンバーシップの制限**:Adobe Analyticsからに共有さ [!DNL Experience Cloud] れるオーディエンスは、2,000万人を超える一意のメンバーは使用できません。
 * **データプライバシー**：オーディエンスは、訪問者の認証状態に基づいてフィルタリングされません。訪問者が未認証状態および認証状態でサイトを閲覧できる場合、訪問者が未認証のときに生じるアクションによって、訪問者がオーディエンスに含められる可能性があります。オーディエンス共有がプライバシーに与える影響をすべて理解するには、[Adobe Experience Cloud](https://www.adobe.com/jp/privacy/experience-cloud.html) のプライバシーを確認します。
 * **[!DNL Adobe Analytics] と [!DNL Audience Manager]** のセグメント間の違いについては、[こちら](https://docs.adobe.com/content/help/ja-JP/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)を参照してください。
 
