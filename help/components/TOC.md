@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Components Guide
+user-guide-title: Analytics コンポーネントガイド
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
 
 ---
 
@@ -35,6 +35,8 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
       + [Data Warehouse セグメントの互換性](c-segmentation/seg-reference/seg-compatibility.md)
       + [セグメントに対する役割別の権限](c-segmentation/seg-reference/seg-rights.md)
       + [トラブルシューティング](c-segmentation/seg-reference/c-troubleshooting.md)
+   + 使用例 {#use-cases}
+      + [特定の日付の除外](c-segmentation/use-cases/exclude-date-range.md)
    + [よくある質問](c-segmentation/seg-transition.md)
    + [Analytics のセグメントの新機能](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis の移行ガイド](c-segmentation/seg-transition-ad-hoc.md)
@@ -327,11 +329,11 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
    + [リアルタイムレポートの設定](c-real-time-reporting/t-realtime-admin.md)
    + [サポートされるリアルタイム指標とディメンション](c-real-time-reporting/realtime-metrics.md)
 + マーケティングチャネル {#marketing-channels}
-   + [マーケティングチャネルの概要](c-marketing-channels/c-getting-started-mchannel.md)
+   + [マーケティングチャネル](c-marketing-channels/c-getting-started-mchannel.md)
    + [マーケティングチャネルの管理](c-marketing-channels/c-channels.md)
    + [マーケティングチャネルの処理ルール](c-marketing-channels/c-rules.md)
    + [マーケティングチャネルでの分類](c-marketing-channels/classifictions-mchannel.md)
    + [訪問者のエンゲージメント期間](c-marketing-channels/visitor-engagement.md)
-   + [マーケティングチャネルの分析](c-marketing-channels/analyze-mc.md)
+   + [マーケティングチャネル](c-marketing-channels/analyze-mc.md)
    + [マーケティングチャネルの権限](c-marketing-channels/c-channel-report-access.md)
    + [マーケティングチャネルに関するFAQと例](c-marketing-channels/c-faq.md)
