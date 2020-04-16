@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Tools Guide
+user-guide-title: Analytics ツールガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
 
 ---
 
@@ -327,8 +327,8 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
    + [時間](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs の概要](tech-previews/overview.md)
-+ モバイルアプリ {#mobapp}
-   + [モバイルアプリの概要](mobile-app/home.md)
++ dashboards {#mobapp}
+   + [ダッシュボードの概要](mobile-app/home.md)
    + [キュレータガイド](mobile-app/curator.md)
    + [エグゼクティブユーザークイック開始ガイド](mobile-app/executive.md)
 + プログレッシブWebアプリ {#pwa}
