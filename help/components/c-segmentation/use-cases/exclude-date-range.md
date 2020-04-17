@@ -2,16 +2,14 @@
 title: 「特定の日付を除外」分析
 description: レポートに含めない場合の日付や日付範囲の除外に関するヒントです。
 translation-type: tm+mt
-source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
+source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 ---
 
 
 # 「特定の日付を除外」分析
 
-日付範囲に、分析しないデータが含まれる場合があります。 例えば、ボットは誤った売上高を含む外れ値のヒットを送信し、指標を大幅に水増しします。 サイトで導入時に問題が発生したり、データにギャップが発生した場合は、部分的なデータに関する決定を行わないように、レポートから除外することもできます。
-
-セグメントを使用して、レポートに含めない日付範囲を除外できます。
+イベントの影響を受 [けたデータがある場合](/help/technotes/event-impacted.md)、セグメントを使用して、レポートに含めない日付範囲を除外できます。 イベントの影響を受けた日付をセグメント化すると、組織が部分的なデータに関する決定を行うのを防ぐのに役立ちます。
 
 ## 影響を受ける日を分離
 
@@ -67,15 +65,3 @@ source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
 5. 右上の **[!UICONTROL Continue]** をクリックし、をクリックしま **[!UICONTROL Save]**&#x200B;す。
 
 ![VRSに適用されたセグメント](../assets/exclude_segment_vrs.png)
-
-## 他のツールの代替オプション
-
-Reports &amp; Analyticsを使用する場合、カレンダーイベントを使用して [](../../t-calendar-event.md) 、任意のトレンドレポートで影響を受ける日を強調表示できます。
-
->[!NOTE] このメソッドは、Workspaceには適用されません。分析ワークスペース
-
-1. /に移動 **[!UICONTROL Components]** します **[!UICONTROL Calendar events]**。
-2. 目的のタイトル、日付範囲、メモのテキストを入力します。
-3. クリック **[!UICONTROL Save]**.
-
-![カレンダーイベント](../assets/exclude_calendar_event.jpg)
