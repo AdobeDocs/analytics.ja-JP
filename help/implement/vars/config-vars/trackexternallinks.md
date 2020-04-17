@@ -1,33 +1,33 @@
 ---
 title: trackExternalLinks
-description: 離脱リンクの自動リンクトラッキングを有効または無効にします。
+description: 出口リンクの自動リンクトラッキングを有効または無効にします。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 ---
 
 
 # trackExternalLinks
 
-アドビでは、離脱リンクごとに手動で方法を設定しなくても、離脱リンクを [`tl()`](../functions/tl-method.md) 追跡する機能を提供しています。 離脱リンクの自動リンクトラッキングを使用する場合は、この変数を有効にします。
+Adobe offers the ability to track outbound links without manually setting the [`tl()`](../functions/tl-method.md) method for each exit link. 出口リンクに自動リンクトラッキングを使用する場合は、この変数を有効にします。
 
-有効にすると、AppMeasurementは、クリックされたリンクURLをとの値と比較 [`linkInternalFilters`](linkinternalfilters.md) しま [`linkExternalFilters`](linkexternalfilters.md)す。 一致が見つかった場合、離脱リンクトラッキングコールが自動的に実行されます。
+有効な場合、AppMeasurement はクリックされたリンク URL を [`linkInternalFilters`](linkinternalfilters.md) および [`linkExternalFilters`](linkexternalfilters.md) の値と比較します。一致が見つかった場合、出口リンクトラッキングコールが自動的に実行されます。
 
-## Adobe Experience Platform Launchでのアウトバウンドリンクの追跡
+## Adobe Experience Platform Launch の「アウトバウンドリンクトラッキング」
 
-アウトバウンドリンクを追跡は、Adobe Analyticsの拡張機能を設定する際に、ア [!UICONTROL Link Tracking] コーディオンの下にあるチェックボックスです。
+Track outbound links is a checkbox under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し、 [!UICONTROL Extensions] Adobe Analyticsの下のボタ [!UICONTROL Configure] ンをクリックします。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. アコーディオンを展 [!UICONTROL Link Tracking] 開し、チェックボックスを表 [!UICONTROL Track outbound links] 示します。
 
-離脱リンクの自動追跡を有効にするには、このチェックボックスをクリックします。
+自動出口リンクトラッキングを有効にするには、このチェックボックスをクリックします。
 
-## AppMeasurementのs.trackExternalLinksとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.trackExternalLinks
 
-は、離脱 `s.trackExternalLinks` リンクの自動追跡を有効または無効にするブール値です。 離脱リンクを追跡しない場合、または離脱リンクを追跡するメソッドを手動で呼び出す `tl()` 場合は、この変数をに設定しま `false`す。
+`s.trackExternalLinks` は、出口リンクの自動トラッキングを有効または無効にするブール値です。If you do not want to track outbound links, or would prefer to manually call the `tl()` method to track exit links, set this variable to `false`.
 
 ```js
-s.trackDownloadLinks = true;
+s.trackExternalLinks = true;
 ```
