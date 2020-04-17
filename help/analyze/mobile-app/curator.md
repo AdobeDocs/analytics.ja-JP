@@ -188,6 +188,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 次の画面�
    3. Testflightアプリをインストールした後、次に示すように、Testflight内からAdobe Analyticsダッシュボードを探してインストールします。
 
       ![Testflight 画面](assets/testflight2.png)
+   
    **Android**：
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -203,6 +204,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 次の画面�
 
    3. アプリをダウンロードしてインストールします。
 ダウンロードしてインストールすると、エグゼクティブユーザーは既存の Adobe Analytics 資格情報を使用してアプリにサインインできます。Adobe ID または Enterprise／Federated ID を使用できます。
+   
    ![アプリのスタートアップスクリーン](assets/welcome.png)
 
 2. スコアカードへのアクセスを支援します。エグゼクティブユーザーがアプリにサインインすると、**会社を選択**&#x200B;画面が表示されます。この画面には、エグゼクティブユーザーが所属するログイン会社が表示されます。スコアカードにアクセスする手順は、次のとおりです。
