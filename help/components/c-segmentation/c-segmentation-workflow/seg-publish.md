@@ -4,14 +4,14 @@ title: Experience Cloud へのセグメントの公開
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: f516be8395f7e7c0398f1ebb1d1e019e905d67ee
+source-git-commit: 3b7e79cf26c8dccd9c8090df48a556419995ebd7
 
 ---
 
 
 # Experience Cloud へのセグメントの公開
 
-Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. 最近の更新で、公開ワークフローが大幅に最適化されました。Analyticsセグメントを8時間以内にExperience Cloudに公開できるようになりました。 これらのセグメントを使用して、すべてのダウンストリームオーディエンスに対してオーディエンスマネージャーの宛先をアクティブにします。
+Adobe AnalyticsセグメントをExperience Cloudに公開すると、そのセグメントを、およびアドビのなどの他のアクティベーション [!DNL Audience Manager] チャネルでマーケティングアクティビティに使 [!DNL Advertising Cloud]用でき [!DNL Target] ます [!DNL Campaign]。 最近の更新で、公開ワークフローが大幅に最適化されました。Analyticsセグメントを8時間以内にExperience Cloudに公開できるようになりました。 これらのセグメントを使用して、すべてのダウンストリームオーディエンスに対してオーディエンスマネージャーの宛先をアクティブにします。
 
 また、公開可能なAdobe Analyticsセグメントの最大数を20から75に増やしました。 で公開したセグメントを表示できま [!UICONTROL Analytics > Components > Segments]す。
 
