@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics tech notes
+user-guide-title: Analytics テクニカルノート
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
    + [アカウントとレポートスイート](ga-to-aa/accounts.md)
    + [レポート表示のカスタマイズ](ga-to-aa/customization.md)
    + Google Analytics レポート {#reports}
-      + [Analysis Workspace for GA での基本レポートの作成](ga-to-aa/reports/create-report.md)
+      + [Google Analytics ユーザー向け：Analysis Workspace での基本レポートの作成方法](ga-to-aa/reports/create-report.md)
       + [他の Analytics プラットフォームで使用される一般的な指標](ga-to-aa/reports/common-metrics.md)
       + [リアルタイム](ga-to-aa/reports/realtime-reports.md)
       + [オーディエンス](ga-to-aa/reports/audience-reports.md)
@@ -26,7 +26,8 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
       + [コンバージョン数](ga-to-aa/reports/conversions-reports.md)
    + [よくある質問](ga-to-aa/faq.md)
    + [プラットフォーム間の処理の違い](ga-to-aa/processing-differences.md)
-+ [ブラウザーのCookie](cookies.md)
++ [データの分析 —イベント](event-impacted.md)
++ [ブラウザーの cookie](cookies.md)
 + [リスニングデータの保持期間](data-retention.md)
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)
@@ -41,6 +42,6 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
 + [タイムスタンプオプション](timestamps-optional.md)
 + [ログインのトラブルシューティング](troubleshoot-login.md)
 + [ログアウトのトラブルシューティング](troubleshoot-sessions.md)
-+ [未指定、その他、不明](unspecified.md)
++ [未指定、その他および不明](unspecified.md)
 + [訪問者の識別](visitor-identification.md)
 + [訪問者の移行](visitor-migration.md)
