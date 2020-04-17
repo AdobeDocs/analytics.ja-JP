@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -38,12 +38,10 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
    + 使用例 {#use-cases}
       + [特定の日付の除外](c-segmentation/use-cases/exclude-date-range.md)
    + [よくある質問](c-segmentation/seg-transition.md)
-   + [Analytics のセグメントの新機能](c-segmentation/whats-new-segmentation.md)
+   + [Analyticsセグメントの新機能](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis の移行ガイド](c-segmentation/seg-transition-ad-hoc.md)
 + 計算指標 {#calculated-metrics}
-   + [計算指標および高度な計算（派生）指標](c-calcmetrics/cm-overview.md)
-   + [よくある質問](c-calcmetrics/cm-transition.md)
-   + [ハウツービデオ](c-calcmetrics/cm-videos.md)
+   + [計算指標と高度な計算指標（派生指標）](c-calcmetrics/cm-overview.md)
    + 計算指標のワークフロー {#calcmetric-workflow}
       + [計算指標のワークフロー](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [指標の検索](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -66,6 +64,9 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
       + [指標の互換性](c-calcmetrics/cm-compatibility.md)
       + [計算指標：役割ベースの権限](c-calcmetrics/cm-role-based-rights.md)
       + [計算指標の合計](c-calcmetrics/cm-totals.md)
+   + [データの影響を受けるイベント](c-calcmetrics/cm-events.md)
+   + [よくある質問](c-calcmetrics/cm-transition.md)
+   + [ハウツービデオ](c-calcmetrics/cm-videos.md)
 + 仮想レポートスイート {#virtual-report-suites}
    + [仮想レポートスイートの概要](vrs/vrs-about.md)
    + [仮想レポートスイートコンポーネントのキュレーション](vrs/vrs-components.md)
