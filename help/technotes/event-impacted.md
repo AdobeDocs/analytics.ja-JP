@@ -2,7 +2,7 @@
 title: データの分析 —イベント
 description: データが全体的なデータ品質に与える影響をイベントがどのように受けるかを把握します。
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 
 ---
 
@@ -25,16 +25,10 @@ Adobe Analyticsオファーは、セグメント化を使用してデータに�
 
 イベントが経時的にデータに与える影響を詳しく知りたい場合は、分析ワークスペースで日付比較を使用できます。 この機能を使用すると、日別、週別、または月別のデータを比較し、前の範囲との比較結果を確認できます。 その後、この比較を使用して、トレンドに対するイベントの影響を判断できます。 詳しくは、 [分析ユーザーガイドの「イベントの影響を受けた日付と前の範囲との比較](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) 」を参照してください。
 
-## 計算指標を使用したトレンドデータの修正
+## 計算指標を使用してデータを取得する
 
 セグメントを作成し、日付比較を使用したら、これらの両方の概念を組み合わせて、計算指標を使用してトレンドデータを修正できます。 計算指標にセグメントを含め、影響を受ける日に、日付の比較時に見つかったオフセットを掛けます。 詳しくは、コ [ンポーネントユーザーガイドの](/help/components/c-calcmetrics/cm-events.md) 「イベントの影響を受けたデータの抽出」を参照してください。
 
-## Reports &amp; Analyticsでのカレンダーイベントの使用
+## 組織内のユーザーに影響を伝える
 
-Reports &amp; Analyticsを使用する場合、カレンダーイベントを使用して [](/help/components/t-calendar-event.md) 、任意のトレンドレポートで影響を受ける日を強調表示できます。 このメソッドは、Workspaceには適用されません。分析ワークスペース
-
-1. /に移動 **[!UICONTROL Components]** します **[!UICONTROL Calendar events]**。
-2. 目的のタイトル、日付範囲、メモのテキストを入力します。
-3. クリック **[!UICONTROL Save]**.
-
-![カレンダーイベント](assets/exclude_calendar_event.jpg)
+イベントの処理方法の準備が整ったら、組織内のユ [ーザーに連絡できます](event/event-communicate.md)。 アドビのオファーは、Analytics内のいくつかの場所で、何が起きたか、どのコンポーネントを使用できるかをユーザーに伝えるためのテキストを配置できます。
