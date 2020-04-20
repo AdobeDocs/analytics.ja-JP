@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: ea1927827c0615b085a440bc86116b438594e448
 
 ---
 
@@ -27,6 +27,8 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
    + [よくある質問](ga-to-aa/faq.md)
    + [プラットフォーム間の処理の違い](ga-to-aa/processing-differences.md)
 + [データの分析 —イベント](event-impacted.md)
++ データの分析 —イベント {#event}
+   + [ユーザーへの影響の伝達](event/event-communicate.md)
 + [ブラウザーの cookie](cookies.md)
 + [リスニングデータの保持期間](data-retention.md)
 + [遅延](latency.md)
@@ -34,7 +36,7 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 + [プライバシーの概要](privacy-overview.md)
 + [リダイレクトとエイリアス](redirects.md)
 + [複数通貨のサポート](multicurrency.md)
-+ 地域データ収集 {rdc}
++ 地域データ収集 {#rdc}
    + [地域データ収集ヘルプ](rdc/regional-data-collection.md)
    + [SSL 証明書ライセンス](rdc/ssl-cert-licensing.md)
 + [セキュリティリソース](security.md)
