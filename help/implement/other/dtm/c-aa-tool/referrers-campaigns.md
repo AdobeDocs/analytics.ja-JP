@@ -4,17 +4,17 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: リファラーとキャンペーン
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
 
 
 # リファラーとキャンペーン
 
-Adobe [!DNL Analytics] に [!UICONTROL Dynamic Tag Management ]をデプロイする際の、リファラーおよびキャンペーンオプション用の [!UICONTROL Dynamic Tag Management] フィールドの説明です。
+Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
 
-**[!UICONTROL *`Property`*]**／![歯車アイコン](assets/settings_gear.png)**[!UICONTROL &#x200B;ツールを編集&#x200B;]**／**[!UICONTROL &#x200B;リファラーとキャンペーン&#x200B;]**
+**[!UICONTROL  *`Property`*]** /歯車 ![アイコン](assets/settings_gear.png)**[!UICONTROL Edit Tool]** > **[!UICONTROL Referrers & Campaigns]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
@@ -25,12 +25,12 @@ Adobe [!DNL Analytics] に [!UICONTROL Dynamic Tag Management ]をデプロイ�
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> リファラーの上書き </td>
-   <td colname="col2"> <p>ブラウザーに設定されたリファラーではなく、<span class="varname"> s.referrer</span> 変数にセットされた値をリファラーとして使用します。 </p> <p>[referrer]（../../../vars/page-vars/referrer.md）を参照してください。 </p> </td>
+   <td colname="col1"> 転送者の上書き </td>
+   <td colname="col2"> <p>s. <span class="varname"> 転送者変数に設定された値を上書きします</span> 。この値は、通常、ブラウザーに設定された転送者によって設定されます。 </p> <p>詳しくは、 <a href="../../../vars/page-vars/referrer.md">転送者</a>。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> キャンペーン </td>
-   <td colname="col2"> <p>訪問者をサイトに誘導するために使用されるマーケティングキャンペーンを識別する変数です。通常、キャンペーンの値は、クエリー文字列パラメーターから取得します。 </p> <p>[campaign]（../../../vars/page-vars/campaign.md）を参照してください。 </p> </td>
+   <td colname="col2"> <p>サイトに訪問者を導くために使用されるマーケティングキャンペーンを識別する変数。 通常、キャンペーンの値は、クエリー文字列パラメーターから取得します。 </p> <p>詳しくは、 <a href="../../../vars/page-vars/campaign.md">キャンペーン</a>。 </p> </td>
   </tr>
  </tbody>
 </table>
