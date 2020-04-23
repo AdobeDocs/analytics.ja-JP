@@ -2,14 +2,14 @@
 title: データの影響を受けるイベント
 description: 計算指標を使用して、計算の影響を受けたトレンドデータを修正します。イベント
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
 
 ---
 
 
 # データの影響を受けるイベント
 
-イベントの影響を受け [たデータがある場合](/help/technotes/event-impacted.md)、計算指標を使用して、イベントの期間中のトレンド値を抽出できます。 例えば、イベントでデータが25%減少した場合、計算指標の乗数として使用できます。
+イベントの影響を受け [たデータがある場合](/help/technotes/event-impacted.md)、計算指標を使用して、イベントの期間中のトレンド値を抽出できます。 例えば、イベントでデータが25%減少した場合、計算指標の乗数として使用できます。 この方法は、データソースまたはデータ挿入APIを使用してAdobe Analyticsにデータを挿入する時間やリ [ソースがな](/help/import/c-data-sources/datasrc-home.md) い場合 [に役立ちます](/help/import/c-data-insertion-api/c-data-insertion-api.md)。
 
 >[!NOTE] これらの手順は、セグメント化と日付比較の両方の観点から、イベントの影響を理解する場合に最も効果的です。 イベントの影響を受けた [日付を前の範囲と比較し、このページをフォローする前に](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)[分析の特定の日付を除外します](../c-segmentation/use-cases/exclude-date-range.md) 。
 
