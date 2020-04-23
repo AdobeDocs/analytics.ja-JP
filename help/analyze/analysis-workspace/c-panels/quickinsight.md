@@ -2,7 +2,7 @@
 description: 'null'
 title: クイックインサイトビルダー
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ---
 
@@ -59,7 +59,6 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
 
    * ディメンション（ここでは米国の州）が垂直で、指標（ここでは訪問回数）が上に水平に表示されたフリーフォームテーブル。 次の表を見て下さい。
    ![](assets/qibuilder3.png)
-
 
    * 付属のビジュアライゼーション(この場合は棒グ [ラフ](/help/analyze/analysis-workspace/visualizations/bar.md))。 生成されるビジュアライゼーションは、テーブルに追加したデータのタイプに基づいています。 ビジュアライゼーションのタイプを変更するには、の横にあるドロップダウン矢印をクリックしま **[!UICONTROL Bar]**&#x200B;す。
 
