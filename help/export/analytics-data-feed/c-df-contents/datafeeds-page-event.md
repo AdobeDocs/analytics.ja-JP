@@ -4,7 +4,7 @@ keywords: Data Feed;page;event;page_event;post_page_event
 title: ページイベント参照
 topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
