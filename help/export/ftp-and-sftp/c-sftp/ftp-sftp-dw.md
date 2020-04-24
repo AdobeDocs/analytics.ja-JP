@@ -3,7 +3,7 @@ description: アドビでは、Data Warehouse リクエストの SFTP サーバ�
 keywords: ftp;sftp
 title: SFTP サーバーへの Data Warehouse リクエストの送信
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ SFTP 経由で [!DNL Data Warehouse] リクエストを正常に送信するに�
 1. このファイルを入手したら、[!DNL Data Warehouse] リクエストで使用されているものと同じ資格情報で FTP サイトにログインします。
 1. ルートディレクトリの下の [!DNL .ssh] という名前のフォルダーに移動し（存在しない場合はこのディレクトリを作成します）、[!DNL authorized_keys] ファイルをそこに配置します。
 
-1. [!DNL Data Warehouse] リクエストマネージャーに移動します。必要に応じてリクエストを設定し、「**[!UICONTROL アドバンス配信オプション]**」をクリックします。
+1. [!DNL Data Warehouse] リクエストマネージャーに移動します。必要に応じてリクエストを設定し、をクリックしま **[!UICONTROL Advanced Delivery Options]**&#x200B;す。
 
 1. ポップアップウィンドウで「**[!UICONTROL FTP]**」をクリックし、FTP サイト（[!DNL sftp://] プロトコルを含む。例：[!DNL sftp://ftp.omniture.com]）とポート 22 を指定します。
 
@@ -41,7 +41,7 @@ SFTP 経由で [!DNL Data Warehouse] リクエストを正常に送信するに�
 
 1. 「フォルダー」フィールドに、ファイルを配置するフォルダーの名前を入力します。フォルダーは必須です。
 1. 手順 2 と同じユーザー名とパスワードを入力します。
-1. 「**[!UICONTROL 送信]**」をクリックします。
+1. クリック **[!UICONTROL Send]**.
 
 SFTP の PUT コマンドを使用すると、指定したディレクトリに、.part という拡張子の一時ファイルが配置されます。アップロードが完了すると、ファイルの拡張子が最終的な拡張子に変更され、その時点でファイルが使用できるようになります。
 
