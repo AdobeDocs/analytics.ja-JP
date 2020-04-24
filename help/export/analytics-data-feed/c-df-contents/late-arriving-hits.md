@@ -1,7 +1,7 @@
 ---
 title: 到着が遅れたヒット
 description: データフィードでの、到着が遅れたヒットの処理方法について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
