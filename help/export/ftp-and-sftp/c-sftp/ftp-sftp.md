@@ -3,7 +3,7 @@ description: SFTP は、データ転送を安全に行うためのプロトコ�
 keywords: ftp;sftp
 title: セキュアファイル転送プロトコル - 概要
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
