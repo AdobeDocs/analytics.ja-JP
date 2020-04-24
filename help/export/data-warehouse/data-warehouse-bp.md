@@ -4,7 +4,7 @@ keywords: best practices;failure;timeout;troubleshooting
 title: Data Warehouse のベストプラクティス
 topic: Data warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
