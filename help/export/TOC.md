@@ -1,9 +1,9 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Export Guide
+user-guide-title: Analytics 書き出しガイド
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
