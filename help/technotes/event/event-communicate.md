@@ -2,7 +2,7 @@
 title: ユーザーへの影響の伝達
 description: 組織内でのイベントの影響を効果的に伝える方法。
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -31,4 +31,4 @@ Reports &amp; Analyticsを使用する場合、カレンダーイベントを使
 2. 目的のタイトル、日付範囲、メモのテキストを入力します。
 3. クリック **[!UICONTROL Save]**.
 
-![カレンダーイベント](../assets/exclude_calendar_event.jpg)
+![カレンダーイベント](../assets/exclude_calendar_event.png)
