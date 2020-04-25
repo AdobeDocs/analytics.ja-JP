@@ -9,7 +9,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 # リファラー
 
-「転送者」ディメンションは、訪問者がサイトに到達する前に来たURLを示します。 例えば、訪問者がリンクをクリックし `example.com/example-page.html` てサイトに来訪した場合、ドメ `example.com/example-page.html` インの一部として定義されていない場合は、が転送者になります。
+「転送者」ディメンションは、訪問者がサイトに到達する前に来たURLを示します。 For example, if a visitor clicks a link from `example.com/example-page.html` and arrives on your site, `example.com/example-page.html` is the referrer if it is not defined as part of your domain.
 
 このディメンションでは、レポートスイートの内部URLフィルターを設定する [必要がありま](/help/admin/admin/internal-url-filter-admin.md)す。 内部URLドメインを設定しない場合、Adobe Analyticsでは、すべてのフィルターがサイトの内部ドメインと見なされます。
 
