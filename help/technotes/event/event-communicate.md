@@ -13,7 +13,7 @@ source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ## パネルまたはビジュアライゼーションの説明を通じて通信する
 
-Workspaceプロジェクトを組織内のユーザー間で共有している場合、パネルやビジュアライゼーションの説明を通じてイベントの影響を伝えることができます。 パネルまたはビジュアライゼーションヘッダーを右クリックし、を選択しま **[!UICONTROL Edit description]**&#x200B;す。
+Workspaceプロジェクトを組織内のユーザー間で共有している場合、パネルやビジュアライゼーションの説明を通じてイベントの影響を伝えることができます。 パネルまたはビジュアライゼーションヘッダーを右クリックし、「説明を編 **[!UICONTROL 集」を選択しま]**&#x200B;す。
 
 ![パネルの説明](../assets/panel_description.png)
 
@@ -27,8 +27,8 @@ Workspaceプロジェクトを組織内のユーザー間で共有している�
 
 Reports &amp; Analyticsを使用する場合、カレンダーイベントを使用して [](/help/components/t-calendar-event.md) 、任意のトレンドレポートで影響を受ける日を強調表示できます。 このメソッドは、Workspaceには適用されません。分析ワークスペース
 
-1. /に移動 **[!UICONTROL Components]** します **[!UICONTROL Calendar events]**。
+1. コンポーネント/ **[!UICONTROL カレンダー]** イベントに **[!UICONTROL 移動しま]**&#x200B;す。
 2. 目的のタイトル、日付範囲、メモのテキストを入力します。
-3. クリック **[!UICONTROL Save]**.
+3. 「**[!UICONTROL 保存]**」をクリックします。
 
 ![カレンダーイベント](../assets/exclude_calendar_event.png)
