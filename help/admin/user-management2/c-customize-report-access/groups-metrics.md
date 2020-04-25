@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: 指標の権限のカスタマイズ
 topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
