@@ -2,7 +2,7 @@
 description: 'null'
 title: 機能アクセスレベル
 uuid: bd8e457e-ac81-4ae6-b4b1-ae582a025024
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
