@@ -4,7 +4,7 @@ subtopic: Data sources
 title: データソースに関する FAQ
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
