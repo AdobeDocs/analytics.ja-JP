@@ -4,7 +4,7 @@ subtopic: Data sources
 title: トランザクションの統合と顧客の統合
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
