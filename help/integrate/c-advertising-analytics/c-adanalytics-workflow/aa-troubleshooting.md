@@ -2,7 +2,7 @@
 description: 'null'
 title: Advertising Analytics のトラブルシューティング
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 理由 </th> 
-   <th colname="col2" class="entry"> 解決策 </th> 
+   <th colname="col2" class="entry"> ソリューション </th> 
   </tr>
  </thead>
  <tbody> 
@@ -42,7 +42,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 理由 </th> 
-   <th colname="col2" class="entry"> 解決策 </th> 
+   <th colname="col2" class="entry"> ソリューション </th> 
   </tr>
  </thead>
  <tbody> 
