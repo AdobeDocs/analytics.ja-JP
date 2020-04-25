@@ -3,7 +3,7 @@ description: Data Warehouse には、訪問者 ID のリストを抽出できる
 title: 使用事例 - 訪問者 ID の抽出
 topic: Admin tools
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
