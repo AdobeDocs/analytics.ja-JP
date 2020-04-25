@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Analysis Workspace でカスタム日付範囲を作成
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace でカスタム日付範囲を作成し、時間コンポーネントとして保存します。
 
-**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しい日付範囲]**
+**[!UICONTROL Components]**／**[!UICONTROL New Date Range]**
 
 日付範囲は、パネルレベルで適用します。プロジェクトに日付範囲を追加するには、**パネル**／*`<select panel>`* をクリックして、新しい日付範囲を指定します。
 
@@ -24,7 +24,7 @@ Analysis Workspace でカスタム日付範囲を作成し、時間コンポー�
 
 ![](assets/date-range-two-months-ago.png)
 
-カスタム日付範囲は、プロジェクトの[!UICONTROL 日付範囲]コンポーネントパネルの最上部に表示されます。
+The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
@@ -42,7 +42,7 @@ Analysis Workspace でカスタム日付範囲を作成し、時間コンポー�
 
 ![](assets/create_date_range.png)
 
-*`rolling daily`*.
+*`rolling daily`*.を使用します。
 
 * 「開始」設定は、*`current day minus 14 days`* になります。
 
