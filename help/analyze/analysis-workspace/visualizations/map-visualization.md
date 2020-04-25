@@ -2,7 +2,7 @@
 description: 'null'
 title: マップ
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ Analysis Workspace のマップのビジュアライゼーションの特徴を�
 
 ## マップのビジュアライゼーションの作成 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. ビジュアライゼーションのリストからフリーフォームパネルに&#x200B;**[!UICONTROL マップ]**&#x200B;をドラッグします。
+1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +42,7 @@ Analysis Workspace のマップのビジュアライゼーションの特徴を�
  </tbody> 
 </table>
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
+1. クリック **[!UICONTROL Build]**.
 
    最初に表示されるのは、次のような、バブルマップ付きの世界地図です。
 
@@ -57,7 +57,7 @@ Analysis Workspace のマップのビジュアライゼーションの特徴を�
       * 例えば、前年比指標のグラフを表示するときに、ニューヨークの上に -33% と表示することができます。
       * 「割合」タイプの指標の場合、クラスタリングで割合がまとめて平均化されます。
       * 緑／赤の色スキーム：ポジティブ／ネガティブ
-   * [!UICONTROL Ctrl] キーを押しながらマップを動かし、2D または 3D のマップを&#x200B;**回転**&#x200B;します。
+   * **キーを押しながらマップを動かし、2D または 3D のマップを**&#x200B;回転[!UICONTROL Ctrl]します。
 
    * 後述の[設定](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)を使用して、ヒートマップなど、別の表示に&#x200B;**切り替え**&#x200B;ます。バブル表示がデフォルト設定です。
 
