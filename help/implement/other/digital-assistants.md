@@ -1,6 +1,6 @@
 ---
 title: デジタルアシスタント向け Analytics
-description: Amazon AlexaやGoogle homeなど、デジタルアシスタントにAdobe Analyticsを実装します。
+description: Amazon Alexa や Google Home などのデジタルアシスタントに Adobe Analytics を実装します。
 translation-type: tm+mt
 source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
 
@@ -25,13 +25,13 @@ Ticket: https://jira.corp.adobe.com/browse/AN-157750
 
 ## デジタルエクスペリエンスのアーキテクチャの概要
 
-![Digital Assistantのワークフロー](assets/Digital-Assitants.png)
+![Digital Assistant のワークフロー](assets/Digital-Assitants.png)
 
 現代のデジタルアシスタントのほとんどでは、大まかなアーキテクチャは同様です。
 
-1. **デバイス**:マイク付きのデバイス（Amazon Echoや電話など）があり、ユーザーが質問できます。
-1. **デジタルアシスタント**:そのデバイスは、デジタルアシスタントを起動するサービスとやり取りします。 音声が機械で認識できる目的に変換され、要求の詳細が解析されます。ユーザーの目的が認識されたら、デジタルアシスタントがその目的と要求の詳細をアプリに渡し、アプリがその要求を処理します。
-1. **&quot;App&quot;**:アプリは、スマートフォン上のアプリまたは音声アプリのいずれかです。 このアプリが要求に対処し、デジタルアシスタントに返答してから、デジタルアシスタントがユーザーに答えを伝えます。
+1. **デバイス：**&#x200B;マイク搭載のデバイス（Amazon Echo や携帯電話）によって、ユーザーが質問を投げかけることができます。
+1. **デジタルアシスタント**：そのデバイスが、デジタルアシスタントの基盤のサービスと通信します。音声が機械で認識できる目的に変換され、要求の詳細が解析されます。ユーザーの目的が認識されたら、デジタルアシスタントがその目的と要求の詳細をアプリに渡し、アプリがその要求を処理します。
+1. 「**アプリ」：**&#x200B;携帯電話のアプリまたは音声アプリです。このアプリが要求に対処し、デジタルアシスタントに返答してから、デジタルアシスタントがユーザーに答えを伝えます。
 
 ## Analytics を導入する場所
 
@@ -77,7 +77,7 @@ Cache-Control: no-cache
 
 ## ユーザー／訪問者の識別
 
-Adobe Analytics は、[Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) を使用して、同じ人物と時間の経過に応じてインタラクションを結び付けます。ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。ほとんどの場合、この値を一意の識別子として渡すことができます。一部のプラットフォームでは、100 文字を超える識別子を返すことができます。このような場合、固有の識別子を固定長値にハッシュするには、標準のハッシュアルゴリズム（MD5 や Sha1 など）を使用することをお勧めします。
+Adobe Analytics は、[Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) を使用して、同じ人物と時間の経過に応じてインタラクションを結び付けます。ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。ほとんどの場合、この値を一意の識別子として渡すことができます。一部のプラットフォームでは、100 文字を超える識別子を返すことができます。このような場合、固有の識別子を固定長値にハッシュするには、標準のハッシュアルゴリズム（MD5 や Sha1 など）を使用することをお勧めします。
 
 様々なデバイス（例えば、Web アシスタントとデジタルアシスタント）で ECID をマッピングする場合、ID サービスを使用すると最も大きな価値が得られます。モバイルアプリの場合は、Experience Platform SDK をそのまま使用し、`setCustomerID` メソッドを使用してユーザー ID を送信します。ただし、アプリがサービスの場合、ECID としてサービスで提供されるユーザー ID を使用し、`setCustomerID` で設定します。
 
@@ -87,7 +87,7 @@ Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
 
-## セッション数
+## Sessions
 
 デジタルアシスタントは会話型なので、多くの場合はセッションの概念が採り入れられています。次に例を示します。
 
@@ -97,12 +97,12 @@ Cache-Control: no-cache
 
 **消費者：** 「午後 8 時半」
 
-**** Google:「いいね、ドライバーは午後8時半に来るよ」
+**Google**：「了解しました。午後 8 時半までに運転手が到着します」
 
 セッションは、状況を把握し、デジタルアシスタントをより自然にするために、より詳細な情報を収集するのに役立ちます。会話に Analytics を導入する場合は、新規セッションを開始する際にやることが 2 つあります。
 
-1. **Audience Managerにリーチ**:ユーザーが含まれる関連セグメントを取得し、応答をカスタマイズできます。 （このユーザーは現在、マルチチャネルの割り引きの利用条件を満たしているなど）。
-2. **新しいセッションまたは起動イベントで送信**:最初の応答をAnalyticsに送信する場合は、起動イベントを含めます。 一般的には、`a.LaunchEvent=1` のコンテキストデータを設定することで、このイベントを送信できます。
+1. **Audience Manager にアクセスする**：返答をカスタマイズするために、ユーザーが属する適切なセグメントを取得します（このユーザーは現在、マルチチャネルの割り引きの利用条件を満たしているなど）。
+2. **新規セッションまたは開始イベントを送信する**：最初の応答を Analytics に送信する際に、開始イベントを含めます。一般的には、`a.LaunchEvent=1` のコンテキストデータを設定することで、このイベントを送信できます。
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
@@ -168,8 +168,8 @@ Cache-Control: no-cache
 
 セグメントを作成する際に、先頭と末尾のコロンが役立ちます。例えば、`:Audio:` 機能を持つすべてのヒットを表示します。
 
-* Amazon Alexa を使用する[Amazon 機能](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
-* Googleでのアクションを使用する[ Google 機能](https://developers.google.com/actions/assistant/surface-capabilities)
+* Amazon Alexa を使用する [Amazon 機能](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
+* Google でのアクションを使用する[ Google 機能](https://developers.google.com/actions/assistant/surface-capabilities)
 
 ## 例
 
@@ -178,7 +178,7 @@ Cache-Control: no-cache
 | Spoofify をインストールして | レスポンスがない | Install | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | Spoofify を起動して | 「了解、Spoofify を起動します」 | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | 楽曲を変更して | 「了解、どの楽曲にしますか？」 | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| 「ベイビーシャーク」を再生して | 「了解、PinkFongの「ベイビーシャーク」を再生しています」 | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| 「ベイビーシャーク」を再生して | 「了解、PinkFong の『ベイビーシャーク』を再生しています」 | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | 再生リストを変更して | 「了解、どの再生リストにしますか？」 | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | お気に入りの曲の再生リストを再生して | 「了解、お気に入りの曲のプレイリストを再生中です」 | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
 | 音楽を切って | 応答なし、音楽がオフ | Off | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
