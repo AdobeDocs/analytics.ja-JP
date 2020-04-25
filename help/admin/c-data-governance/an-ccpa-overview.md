@@ -2,7 +2,7 @@
 description: このドキュメントでは、CCPA におけるデータ主体のアクセス権および削除権に対応するために、Adobe Analytics でどのような作業が必要かを説明します。
 title: Adobe Analytics と CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
