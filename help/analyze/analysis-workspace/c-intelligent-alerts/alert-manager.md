@@ -2,7 +2,7 @@
 description: 'null'
 title: アラートマネージャー
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-アラートマネージャー（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]**）は、[セグメントマネージャー](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_manage.html)および[計算指標マネージャー](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/cm_manager.html)と非常によく似た構造で、次の操作をおこなえます。
+The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_manage.html) and the [Calculated Metric Manager](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/cm_manager.html) and allows you to
 
 ![](assets/alert-manager-tasks.png)
 
-* 「**[!UICONTROL + 追加]**」をクリックすると、アラートビルダーにアクセスします。
+* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
 * アラートのタグ付け。これにより、アラートを使いやすく整理できます。
 * アラートの削除。
 * アラートの名前の変更。
