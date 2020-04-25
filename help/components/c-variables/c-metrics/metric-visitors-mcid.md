@@ -2,7 +2,7 @@
 description: Analysis Workspace とセグメントビルダーで使用可能です。
 title: Experience Cloud ID を持つ訪問者
 uuid: 47ebd3d6-a921-4e51-ac7a-b8d5fb9565e0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
