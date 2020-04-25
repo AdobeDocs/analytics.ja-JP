@@ -3,7 +3,7 @@ description: サイトにアクセスした個別訪問者の数を示します�
 title: 個別訪問者数
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -54,7 +54,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 個別訪問者数レポート - トレンド指標{#section_372C08A881D34BBF811C1DE0A1460617}
+## 個別訪問者数レポート - トレンド指標 {#section_372C08A881D34BBF811C1DE0A1460617}
 
 [!UICONTROL 個別訪問者数]レポートの動作は、Ad Hoc Analysis と同様です。ヒットで訪問が発生するたびに、訪問者がそのヒットでカウントされます。各ページは、そのページで訪問者が発生したというクレジットを受け取ります。
 
@@ -161,7 +161,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 期間ベースの個別訪問者数（トレンド）{#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
+## 期間ベースの個別訪問者数（トレンド） {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
 
 時間別、日別、週別、月別、四半期別、および年別[!UICONTROL 訪問者数レポート]（トレンド）を実行できます。
 
@@ -332,7 +332,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 非トレンドレポートにおける期間ベースの個別訪問者指標{#section_90B784F4E49F4930B3F0923B95958BA2}
+## 非トレンドレポートにおける期間ベースの個別訪問者指標 {#section_90B784F4E49F4930B3F0923B95958BA2}
 
 非トレンドレポートには、[!UICONTROL ページレポート]上の週別訪問者数指標などの期間ベースの個別訪問者指標を追加できます。
 
@@ -444,7 +444,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 永続的な cookie{#section_81E139F08AEB4E30A06472856975EA1E}
+## 永続的な cookie {#section_81E139F08AEB4E30A06472856975EA1E}
 
 永続的な cookie は、以降の訪問で訪問者を識別できるよう、訪問と訪問の間も訪問者のコンピューター上に残ります。永続的な cookie を受け入れているユーザーと受け入れていないユーザーの割合を表示するには、**[!UICONTROL フィルター]**／**[!UICONTROL 永続的な cookie]** を選択します。
 
