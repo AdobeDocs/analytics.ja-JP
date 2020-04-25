@@ -4,7 +4,7 @@ subtopic: Qualtrics
 title: Qualtrics 組織 ID の検索
 topic: Data connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
