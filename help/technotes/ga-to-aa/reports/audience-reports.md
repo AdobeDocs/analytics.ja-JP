@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics のオーディエンスレポート
 description: Analysis Workspace を使用してオーディエンスベースのレポートを作成する方法について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
