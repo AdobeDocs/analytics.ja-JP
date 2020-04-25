@@ -2,7 +2,7 @@
 description: ヒットタイプディメンションは、ヒットの収集時にアプリがフォアグラウンドとバックグラウンドのどちらにあったかを示します。
 title: ヒットタイプ
 uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
