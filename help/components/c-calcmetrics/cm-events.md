@@ -14,14 +14,14 @@ source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
 >[!NOTE] これらの手順は、セグメント化と日付比較の両方の観点から、イベントの影響を理解する場合に最も効果的です。 イベントの影響を受けた [日付を前の範囲と比較し、このページをフォローする前に](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)[分析の特定の日付を除外します](../c-segmentation/use-cases/exclude-date-range.md) 。
 
 1. 「影響を受ける日」と「影響を受ける日を除外する」の2つのセグメントを作成します(「分析内の特定の日 [付を除外する」を参照)](../c-segmentation/use-cases/exclude-date-range.md)。
-2. /に移動 **[!UICONTROL Components]** します **[!UICONTROL Calculated metrics]**。
-3. クリック **[!UICONTROL Add]**.
+2. コンポーネント/ **[!UICONTROL 計算指標]** に **[!UICONTROL 移動します]**。
+3. 「**[!UICONTROL 追加]**」をクリックします。
 4. 上記の両方のセグメントを定義キャンバスにドラッグします。 演算子の間の演算子をに変更して、合計 `+` を求めます。
 5. 両方追加のセグメント内の目的の指標。 例えば、「訪問回数」指標を使用できます。
 
    ![セグメントビルダー](assets/event_segment_builder.png)
 
-6. 「影 **[!UICONTROL Add]** 響を受ける日」コンテナの右上をクリックし、をクリックしま **[!UICONTROL Static number]**&#x200B;す。 「イベントの影響を受けた日付を前の範囲と比較する」で説明しているように、静的な数値を、データをオフセ [ットする割合に設定します](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)。 この例では、オフセットは25%(1.25)です。
+6. 「影 **[!UICONTROL 追加響を受ける日」コンテナの右上のをクリックし、「静的な数」をクリ]** ックします ****。 「イベントの影響を受けた日付を前の範囲と比較する」で説明しているように、静的な数値を、データをオフセ [ットする割合に設定します](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)。 この例では、オフセットは25%(1.25)です。
 
    ![静的数](assets/event_static_number.png)
 
