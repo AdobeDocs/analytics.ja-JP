@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics でのレポートのカスタマイズ
 description: Adobe Analytics でレポートをカスタマイズする方法について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
