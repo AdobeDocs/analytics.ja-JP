@@ -2,7 +2,7 @@
 description: Data Connectors 統合ウィザードでは、Data Connectors 統合プロセスを順に進めることができます。
 title: Data Connectors 統合ウィザードの実行
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
