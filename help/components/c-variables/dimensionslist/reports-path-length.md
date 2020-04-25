@@ -3,7 +3,7 @@ description: サイトへの各訪問の深さを、割合および合計数で�
 title: パスの長さ
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
