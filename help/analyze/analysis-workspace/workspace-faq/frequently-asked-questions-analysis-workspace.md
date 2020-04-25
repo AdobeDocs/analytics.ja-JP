@@ -30,11 +30,11 @@ Analysis Workspace の必要システム構成です。
   </tr> 
   <tr> 
    <td colname="col1"> 管理者 </td> 
-   <td colname="col2"> <p>分析ワークスペース </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace へのフルアクセス権を持ちます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ユーザー </td> 
-   <td colname="col2"> <p>Analytics の「Workspace」タブへのアクセスを有効にするには、管理者は、<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >グループ</a>で、<span class="uicontrol">Analysis Workspace アクセス</span>グループにユーザーを追加する必要があります。 </p> </td> 
+   <td colname="col2"> <p>Analytics の「Workspace」タブへのアクセスを有効にするには、管理者は、<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html"  >グループ</a>で、<span class="uicontrol">Analysis Workspace アクセス</span>グループにユーザーを追加する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> プロジェクトの転送 </td> 
@@ -44,11 +44,11 @@ Analysis Workspace の必要システム構成です。
    <td colname="col1"> ブラウザー </td> 
    <td colname="col2"> <p> ブラウザ。 </p> 
     <ul id="ul_B10D000F38DC44F68E2909B483E58FE0"> 
-     <li id="li_5A905B0F5342443B96433FDBB1015CA9">推奨：Firefox、Chrome、SafariまたはEdgeの最新バージョン。 </li> 
-     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> Microsoft Internet Explorer 11の最新バージョン。 <p> 注意：アドビは Adobe Analytics での Internet Explorer 11 のサポートを 2018 年 11 月 13 日に終了しました。できるだけ早く、Microsoft Edgeまたはサポートされている別のブラウザに切り替えてください。</p> </li> 
+     <li id="li_5A905B0F5342443B96433FDBB1015CA9">推奨：最新バージョンの Firefox、Chrome、Safari または Edge。 </li> 
+     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> 最新バージョンの Microsoft Internet Explorer 11。 <p> 注意：アドビは Adobe Analytics での Internet Explorer 11 のサポートを 2018 年 11 月 13 日に終了しました。Microsoft Edge またはその他のサポート対象ブラウザーにお早めにお切り替えください。</p> </li> 
     </ul> 
     <ul id="ul_74DD135CDAEF40A28DCCE927212B4163"> 
-     <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> CookieとJavaScriptを有効にする必要があります。 </li> 
+     <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> cookie と JavaScript を有効にする必要があります。 </li> 
      <li id="li_AE8D64267EC74C5290CB5793FB0C04D1">画面の解像度 1024 x 768、画面の色 16 ビット以上。 </li> 
     </ul> </td> 
   </tr> 
