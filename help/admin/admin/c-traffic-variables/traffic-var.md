@@ -15,4 +15,4 @@ source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 [!UICONTROL トラフィック変数]ページを使用して、トラフィック変数レポートを無効または有効にしたり、名前を変更したりできます。トラフィック変数のレポートを無効にした場合、レポートはユーザーインターフェイスに表示されなくなります。
 
-詳しくは、 「 [prop](../../../implement/vars/page-vars/prop.md) 」（『導入ユーザガイド』）も参照してください。
+詳しくは、 also [prop](../../../implement/vars/page-vars/prop.md) in the Implement user guide.
