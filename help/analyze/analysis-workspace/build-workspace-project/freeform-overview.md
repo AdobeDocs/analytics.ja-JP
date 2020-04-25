@@ -12,32 +12,32 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # プロジェクトの作成 - 概要
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]**
 
-ビジュアライゼーション、レポートコンポーネントおよびデータテーブルの任意の組み合わせに基づいて、堅牢なAnalyticsプロジェクトを作成できます。 Ad Hoc分析の多くの表ビルダー機能をAnalyticsに導入します。
+ビジュアライゼーション、レポートコンポーネントおよびデータテーブルを任意に組み合わせて、堅牢な Analytics プロジェクトを作成できます。Analytics で Ad Hoc Analysis の数多くのテーブル作成機能を使用できます。
 
-分析ワークスペースでは、以前は不可能だった方法でデータを比較および分析できます。 例えば、ランクレポートを設定して、すぐにデータクエリを繰り返し変更した後、レポート作成レベルで値にアクセスして操作することができます。
+Analysis Workspace では、新たな方法でデータの比較および詳細分析を実行できます。例えば、ランクレポートを設定して、すぐにデータクエリを繰り返し変更した後、レポート作成レベルで値にアクセスして操作することができます。
 
-クエリはレポートエンジンに直接移動します。他のレポートを表示せずにインラインで変更を行い、分析を作成できます。 結果は即座に返され、ブラウザーの更新は行われません。
+クエリは、直接レポーティングエンジンに渡されます。分析を作成するために他のレポートを表示することなく、インラインで変更できます。結果は即座に返され、ブラウザーを更新する必要もありません。
 
-## Workspaceプロジェクトリストページ {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## Workspace のプロジェクト一覧ページ {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. (下のスクリーンショットのように、このオプションが表示されない場合は、既にランディングページです)。
+When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. （下のスクリーンショットのように、このオプションが表示されない場合、既にランディングページに設定されています）。
 
 ![](assets/sample-project.png)
 
-Workspaceプロジェクトのリストページには、次の情報が含まれます。
+Workspace のプロジェクト一覧ページには、次の情報が表示されます。
 
 | 要素 | 説明 |
 |---|---|
-| プロジェクトテン [プレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | これらの事前入力されたプロジェクトテンプレートは、そのまま使用したり、ニーズに合わせて（例えば、指標やビジュアライゼーションを追加または置き換えて）使用したり、新しい名前で保存したりできます。 |
-| [新規プロジェクトを作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 新しいプロジェクトを新規開始するには、このリンクをクリックします。 |
-| プロジェクト管理 | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
-| 表示チュートリアル | YouTubeビデオの [分析ワークスペースに移動します](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。 |
-| 名前 | Workspaceプロジェクトの名前。 |
-| 作成者 | このプロジェクトを作成した人（自分または自分とプロジェクトを共有した人）。 |
+| プロジェクト[テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | これらの事前設定されたプロジェクトテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。 |
+| [新規プロジェクトを作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | このリンクをクリックすると、新しいプロジェクトを最初から作成できます。 |
+| プロジェクトの管理 | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
+| チュートリアルを表示 | [YouTube の Analysis Workspace 関連ビデオ](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)に移動します。 |
+| 名前 | Workspace プロジェクトの名前。 |
+| 作成者 | このプロジェクトを作成したユーザー（ユーザー自身、またはユーザー自身とそのプロジェクトを共有した他のユーザー）。 |
 | タグ | Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
-| 最終変更日 | プロジェクトが最後に変更された日時。 |
+| 最終変更日 | プロジェクトが最後に変更された日付。 |
 
 ## プロジェクト情報および設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
@@ -49,18 +49,18 @@ Workspaceプロジェクトのリストページには、次の情報が含ま�
 
 | 設定 | 説明 |
 |---|---|
-| プロジェクト名 | プロジェクトに与えられた名前。 名前を重複クリックして編集できます。 |
-| 作成者 | プロジェクト所有者名 |
+| プロジェクト名 | プロジェクトに設定された名前。名前をダブルクリックすると編集できます。 |
+| 作成者 | プロジェクト所有者名。 |
 | 最終変更日 | プロジェクトの最終変更日。 |
-| タグ | リスト化を容易にするために、プロジェクトに適用された任意のタグ。 保存時にプロジェクトにタグを付けることもできます。 表示列のWorkspaceランディングページ上のプロジェクトのタグ [!UICONTROL Tags] 。 |
-| 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。 説明を重複クリックして編集できます。 |
-| プロジェクト内の繰り返しインスタンスをカウント | 繰り返しインスタンスをレポートでカウントするかどうかを指定します。同じ変数に対して複数の連続する値がある場合は、それらを1つの変数として、または複数の変数のインスタンスとしてカウントできます。 |
-| ビジュアライゼーションのカラースキーム | 異なるカラーパレットを選択するか、独自のパレットを指定することにより、Workspace で使用されるカラースキーマを変更できるようになりました。この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
+| タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。プロジェクトは保存する際にもタグ付けできます。View a project&#39;s tags on the Workspace Landing Page in the [!UICONTROL Tags] column. |
+| 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。説明をダブルクリックすると編集できます。 |
+| プロジェクトで繰り返しのインスタンスをカウントします | レポート内でレポートインスタンスがカウントされるかどうかを指定します。同じ変数に対して複数の連続する値が存在する場合に、それらの値を変数の 1 つのインスタンスとしてカウントすることも、複数のインスタンスとしてカウントすることもできます。 |
+| ビジュアライゼーションのカラースキーマ | 異なるカラーパレットを選択するか、独自のパレットを指定することにより、Workspace で使用されるカラースキーマを変更できるようになりました。この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
 | 表示密度 | 左側のパネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。 |
 
 ## プロジェクトメニュー {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
 
-トップのプロジェクトメニューは次のようになります。
+トッププロジェクトメニューは、次のように表示されます。
 
 ![](assets/new-project-menus.png)
 
@@ -70,14 +70,14 @@ Workspaceプロジェクトのリストページには、次の情報が含ま�
 
 | プロジェクト | 編集 | 挿入 | コンポーネント | 共有 | ヘルプ |
 |---|---|---|---|---|---|
-| 新規 | 元に戻す | 新しいパネル | 新規セグメント | プロジェクトを共有 | ビデオ |
-| Open | クリア | 新しいフリーフォームパネル | 新しい指標 | プロジェクトリンクの取得* | ホットキー |
+| 新規 | 元に戻す | 新しいパネル | 新しいセグメント | プロジェクトを共有 | ビデオ |
+| Open | クリア | 新しいフリーフォームパネル | 新しい指標 | プロジェクトリンクを取得* | ホットキー |
 | 保存 | すべてクリア | 新しいセグメント比較パネル | 新しい日付範囲 | ファイルを今すぐ送信* | ヘルプフォーラム |
 | 名前を付けて保存* |  | 新しいフリーフォームテーブル | 新しいアラート | ファイルをスケジュールに従って送信* |  |
-| ランディングページとして設定* |  | 改行 | コンポーネントの更新 | プロジェクトデータをキュレート |  |
-| プロジェクトの更新 |  | 新しいバー |  |  |  |
-| CSVのダウンロード |  |  |  |  |  |
-| PDF のダウンロード* |  |  |  |  |  |
+| ランディングページとして設定* |  | 改行 | コンポーネントを更新 | プロジェクトデータをキュレート |  |
+| プロジェクトを更新 |  | 新しいバー |  |  |  |
+| CSV をダウンロード |  |  |  |  |  |
+| PDF をダウンロード* |  |  |  |  |  |
 | プロジェクト情報および設定 |  |  |  |  |  |
 
 ## 左側のパネル {#section_271295C26EC840ABB2A8E7EC0498B60E}
