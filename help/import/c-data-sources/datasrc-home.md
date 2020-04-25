@@ -4,7 +4,7 @@ subtopic: Data sources
 title: データソースの概要
 topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Adobe Analytics データソースを使用すると、追加のオンライン�
 
 * 製品コスト
 * コールセンター情報
-* 製品の返却数
+* 製品戻り値
 * リード数
 * Web ログ
 
