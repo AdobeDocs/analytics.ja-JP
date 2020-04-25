@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: レポートアクセスのカスタマイズ - 概要
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
