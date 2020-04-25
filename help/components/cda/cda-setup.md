@@ -51,8 +51,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動し、Adobe IDの資格情報を使用してログインします。
 1. 上部の 9 グリッドアイコンをクリックし、「Analytics」をクリックします。
-1. 上部の [!UICONTROL Workspace] をクリックし、をクリックしま [!UICONTROL Create New Project]す。
-1. 「Gurney IQ:デバイス間分析」のテンプレートをクリックし、をクリックしま [!UICONTROL Create]す。
+1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
+1. 「Gurney IQ:「デバイス間の分析」のテンプレートを選択し、「作成」をクリ [!UICONTROL ックしま]す。
 1. プロンプトが表示されたら、CDAをサポートするレポートスイートに変更します。
 
 複数のパネルを含む分析ワークスペースプロジェクトが作成されます。 上部に目次と概要が表示され、レポートにコンテキストを表示したり、個々のレポートに移動したりできます。 目次内のリンクをクリックするか、パネルのアコーディオンを展開して、これらのレポートの表示を表示します。
