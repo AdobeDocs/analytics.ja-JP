@@ -2,7 +2,7 @@
 description: 'null'
 title: テーブルのページネーション、フィルタリングおよび並べ替え
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 フリーフォームテーブルのディメンションの隣にあるフィルターアイコンをクリックし、「アドバンスを表示」をクリックすると、次の条件を使用してフィルタリングできます。
 
-* 次を含む
+* Contains
 * 次を含まない
 * すべての語句を含む
 * いずれかの語句を含む
