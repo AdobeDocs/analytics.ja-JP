@@ -25,13 +25,13 @@ Adobe ID は、Adobe Analytics と Adobe Experience Platform Launch の両方に
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 2. 上部の 9 グリッドアイコンをクリックし、「[!UICONTROL Adobe Analytics]」をクリックします。
-3. まだレポートスイートを作成していない場合は、モーダルが自動的に表示されます。If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
+3. まだレポートスイートを作成していない場合は、モーダルが自動的に表示されます。このログイン会社用のレポートスイートが存在する場合は、右上のヘルプアイコンをクリックし、「[!UICONTROL Adobe Analytics へようこそ]」をクリックします。
 
->[!NOTE] このオ [!UICONTROL Welcome to Adobe Analytics] プションは、Adobe Experience Cloud経由でログインした場合にのみ表示されます。 既存のドメインを使用してログインした場合、モーダルは使用できません。
+>[!NOTE] 「[!UICONTROL Adobe Analytics へようこそ]」オプションは、Adobe Experience Cloud 経由でログインした場合にのみ表示されます。既存のドメインを使用してログインした場合、モーダルは使用できません。
 
 ## レポートスイートの作成
 
-Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
+「[!UICONTROL セットアップの開始]」ボタンをクリックして、レポートスイート作成ワークフローを開始します。
 
 ![RS ウィザード](assets/analytics-implementation-rs-wizard.png)
 
