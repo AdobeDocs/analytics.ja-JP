@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 処理ルールで使用可能なディメンション
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
 
-## カスタム値とコンテキストデータ{#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## カスタム値とコンテキストデータ {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
