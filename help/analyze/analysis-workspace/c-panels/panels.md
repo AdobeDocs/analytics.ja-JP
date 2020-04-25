@@ -2,7 +2,7 @@
 description: 'null'
 title: パネルの概要
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 デフォルトの開始パネルはフリーフォームパネルですが、[空のパネル](/help/analyze/analysis-workspace/c-panels/blank-panel.md)をデフォルトにすることも可能です。
 
-## パネルのドロップダウンフィルター{#section_D2828EEDD52944528E87F470EAB581CF}
+## パネルのドロップダウンフィルター {#section_D2828EEDD52944528E87F470EAB581CF}
 
 パネルのドロップゾーンには、ドロップダウンフィルター性能があります。これらのフィルターは、奥深い分析、プロジェクトの簡略化、他との見識の共有の全部またはいずれかができるよう、制御された方法でプロジェクトのデータとやりとりをさせてくれます。
 
@@ -43,7 +43,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/dropdown.png)
 
-1. ドロップダウンからオプションの 1 つを選択して、下のパネルのデータを変更します（「**[!UICONTROL フィルターなし]**」を選択することで、どのパネルデータをフィルターしないことも選べます）。
+1. ドロップダウンからオプションの 1 つを選択して、下のパネルのデータを変更します(You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
 1. 例えば、マーケティングチャネルによってデータのスライスもしたい場合、「マーケティングチャネル」と呼ばれる別のドロップダウンを追加することができます。
 
    ![](assets/mc_dropdown.png)
