@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 訪問者 ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 日付 | MM/DD/YYYY/hh/mm/ss の日付フォーマットを使用します（例：07/14/2017/06/00/00）。 |
 | トラッキングコード | トラッキングコード名。 |
 | カテゴリ | カテゴリ名。カテゴリを指定する場合、製品も指定する必要があります。 |
-| チャネル | チャネル名。 |
+| Channel | チャネル名。 |
 | eVarn | eVarn 名。n には 1～75 の整数を指定できます。 |
 | 製品 | 製品名。 |
 | 都道府県 | 都道府県名。 |
