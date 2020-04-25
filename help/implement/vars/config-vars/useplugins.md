@@ -1,6 +1,6 @@
 ---
 title: usePlugins
-description: doPlugins()関数を有効または無効にします。
+description: doPlugins() 関数を有効または無効にします。
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
@@ -9,15 +9,15 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # usePlugins
 
-を有効 `usePlugins` にすると、AppMeasurement [`doPlugins()`](../functions/doplugins.md) がコンパイルされ、ヒットがアドビに送信される直前に関数が実行されます。 関数を使用する場合は、この変数を有効に `doPlugins()` します。
+`usePlugins` を有効にすると、AppMeasurement がコンパイルして、ヒットがアドビに送信される直前に [`doPlugins()`](../functions/doplugins.md) 関数が実行されます。`doPlugins()` 関数を使用する場合は、この変数を有効にします。
 
-## Adobe Experience Platform Launchでのプラグインの使用
+## Adobe Experience Platform Launch でのプラグインの使用
 
-この変数を使用する専用のフィールドが「起動」にありません。 AppMeasurement構文に従って、カスタムコードエディターを使用します。
+Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementのs.usePluginsとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.usePlugins
 
-この変 `s.usePlugins` 数は、AppMeasurementが関数を呼び出すかどうかを決定するブール値 `doPlugins()` です。 Its default value is `false`. 実装で関数を使 `true` 用する場合は、 `doPlugins()` この変数をに設定します。
+`s.usePlugins` 変数は、AppMeasurement が `doPlugins()` 関数を呼び出すかどうかを決定するブール値です。デフォルト値は `false` です。実装で `doPlugins()` 関数を使用する場合は、この変数を `true` に設定します。
 
 ```js
 s.usePlugins = true;
