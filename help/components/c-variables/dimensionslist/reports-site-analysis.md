@@ -3,7 +3,7 @@ description: Ad Hoc Analysis のレポートです。サイト分析レポート
 title: サイト分析
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
