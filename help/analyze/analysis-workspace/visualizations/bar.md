@@ -2,7 +2,7 @@
 description: 'null'
 title: 棒グラフおよび積み重ね棒グラフ
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
