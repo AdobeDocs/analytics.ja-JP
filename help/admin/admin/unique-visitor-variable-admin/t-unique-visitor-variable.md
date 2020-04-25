@@ -3,7 +3,7 @@ description: 訪問者の識別子を含んでいる eVar を指定する方法�
 title: 個別訪問者変数の指定
 topic: Admin tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
