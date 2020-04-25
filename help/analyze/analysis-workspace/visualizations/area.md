@@ -2,7 +2,7 @@
 description: 'null'
 title: 面グラフおよび積み重ね面グラフ
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
