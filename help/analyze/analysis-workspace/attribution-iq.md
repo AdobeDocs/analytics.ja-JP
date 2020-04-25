@@ -1,7 +1,7 @@
 ---
 title: Attribution IQ
 description: 'Attribution IQ は、マーケティング活動がコンバージョンにどのように貢献しているかに関する詳細なインサイトを提供する、Adobe Analytics の機能セットです。 '
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
