@@ -9,13 +9,13 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # clearVars
 
-シングルページアプリケーションなどの実装では、同じページ読み込みで複数のヒットを送信する必要があります。 このメソッド `clearVars()` を使用して、後続のヒットに持続しないように変数値をクリアします。
+シングルページアプリケーションなどの実装では、同じページの読み込み時に複数のヒットを送信する必要があります。`clearVars()` メソッドを使用して、後続のヒットに持続しないように変数値をクリアします。
 
-このメソッドは引数を取らず、値を返しません。 その目的は、インスタンスオブジェクトから変数の値をクリアすることだけです。 このメソッドは、次の要素をに設定しま `undefined`す。
+このメソッドは引数を取らず、値を返しません。その唯一の目的は、インスタンスオブジェクトから変数の値をクリアすることです。このメソッドは、次の要素を `undefined` に設定します。
 
-* `prop1` - `prop75`
-* `eVar` - `eVar250`
-* `hier1` - `hier5`
+* `prop1`～`prop75`
+* `eVar`～`eVar250`
+* `hier1`～`hier5`
 * `list1` - `list3`
 * `events`
 * `products`
@@ -26,19 +26,19 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 * `zip`
 * `campaign`
 
-## Adobe Experience Platform Launchでの変数の消去
+## Adobe Experience Platform Launch の「変数をクリア」
 
 ルールを設定する際に、「変数をクリア」アクションを設定します。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し、 [!UICONTROL Rules] 目的のルールをクリックします（またはルールを作成します）。
-4. 下の「 [!UICONTROL Actions]+」アイコンをクリックします。
-5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、を「に」に設 [!UICONTROL Action Type] 定しま [!UICONTROL Clear Variables]す。
+3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
+4. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
+5. 「[!UICONTROL 拡張]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数をクリア]」に設定します。
 
-## AppMeasurementのs.clearVars()およびカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.clearVars()
 
-このメソッドは、Analyticsオブジ `s.clearVars()` ェクトインスタンスをインスタンス化した後、実装の任意の場所で呼び出すことができます。
+Analytics オブジェクトインスタンスをインスタンス化した後、実装の任意の場所で `s.clearVars()` メソッドを呼び出すことができます。
 
 ```js
 s.clearVars();
