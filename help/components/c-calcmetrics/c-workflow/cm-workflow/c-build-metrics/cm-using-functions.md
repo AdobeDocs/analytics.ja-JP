@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 関数を使用すると、データをフィルタリングしたり並べ替えたりできます。また、統計分析を行うこともできます。
 
-すべての関数のリストについては、基本関数と [高度な関数](/help/components/c-calcmetrics/cm-reference/cm-functions.md) を参照 [してください](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)。
+すべての関数の一覧については、「[基本関数](/help/components/c-calcmetrics/cm-reference/cm-functions.md)」および「[高度な関数](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)」を参照してください。
 
 >[!NOTE]計算指標の数式に関数を追加する場合は、指標またはセグメントをドラッグする前に、必ず関数を適用してください。
 
