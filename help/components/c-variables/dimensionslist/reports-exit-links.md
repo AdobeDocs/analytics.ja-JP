@@ -18,7 +18,7 @@ source-git-commit: be4c3ec95b9e93dda7603c0bdb178c0a54d800a0
    * The link the user clicked on must not match any values within the [linkInternalFilters](/help/implement/vars/config-vars/linkinternalfilters.md) variable.
    * If the [linkExternalFilters](/help/implement/vars/config-vars/linkexternalfilters.md) variable exists, the external link must match at least one of the values set in this variable.
 * 上記の要件のいずれかを満たさない場合、ヒットはこのレポートに入力されません。
-* すべてのカスタムリンクトラッキングヒットと同様に、 [pageName](/help/implement/vars/page-vars/pagename.md) 変数はイメージリクエストから削除され、ページビュー指標が膨張するのを防ぎます。
+* すべてのカスタムリンクトラッキングヒットと同様に、 [pageName](/help/implement/vars/page-vars/pagename.md) 変数はイメージリクエストから削除され、ページ表示指標に水増しされないようになります。
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
 * 他の変数を使用し [て分類](/help/analyze/reports-analytics/reports-customize/breakdowns.md) を作成できます。
