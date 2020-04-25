@@ -2,7 +2,7 @@
 description: 「製品の互換性」の 3 つのオプションについて説明します。
 title: 指標の互換性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
