@@ -4,7 +4,7 @@ keywords: DFA
 title: Adobe Analytics 用 DFA Data Connector
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -119,7 +119,7 @@ DFA 統合の最新バージョンでは、Floodlight 設定全体のデータ�
 
 タイムアウトは、2.0 統合で 302 リダイレクトが排除されたので、減少することが予想されます。これらのホップを排除すると、タイムアウトは減少し、統合できる DFA データの量は増加します。
 
-Floodlight 設定が DFA の共有設定の場合、バージョン 1. 5 から 2.0 へのアップグレードにより、Floodlight 設定において共有されているすべての広告主のコンバージョンデータがレポートスイートに含まれるようになります。
+Floodlight 設定が DFA の共有設定の場合、バージョン 1. 5 から 2.0 へのアップグレードにより、Floodlight 設定内のすべての共有広告主のコンバージョンデータがレポートスイートに含まれるようになります。
 
 ### バージョン 2.0 へのアップグレード {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
