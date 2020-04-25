@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Analysis Workspace には、指標の使用方法が 2 つあります。
 
-標準指標、計算指標または計算指標テンプレートをメニューからテーブルにド [!UICONTROL Components] ラッグすることができます。
+You can either drag a standard metric, calculated metric, or calculated metric template from the [!UICONTROL Components] menu to the table:
 
 ![](assets/metrics_icons.png)
 
