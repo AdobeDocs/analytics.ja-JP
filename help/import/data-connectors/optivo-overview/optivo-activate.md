@@ -2,7 +2,7 @@
 description: 統合を設定するには、Adobe Data Connectors 設定ウィザードを使用します。
 title: 統合のアクティブ化
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
