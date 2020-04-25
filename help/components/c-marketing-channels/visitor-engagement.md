@@ -28,10 +28,10 @@ source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
 
 訪問者のエンゲージメント期間を指定します。
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
+1. [!UICONTROL Report Suite Manager] で、**[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルの有効期限]**&#x200B;の順にクリックします。
 
    ![](assets/mchannel_expiration.png)
 
 1. 訪問者のエンゲージメント期間のフィールドを設定します。
-1. ズーム後に **[!UICONTROL Save.]**
+1. 「**[!UICONTROL 保存]**」をクリックします。
