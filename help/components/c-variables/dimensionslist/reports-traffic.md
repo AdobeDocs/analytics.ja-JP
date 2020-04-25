@@ -3,7 +3,7 @@ description: トラフィックレポートは、訪問者の Web サイトと�
 title: トラフィック
 topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
