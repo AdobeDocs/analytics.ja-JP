@@ -18,13 +18,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 >
 >Google AdWords では、MCC（My Client Center）アカウントと Standard アカウントの 2 つのアカウントを使用します。この Adobe Analytics との統合では、**MCC アカウントログインではなく Standard アカウントログインを使用する必要があります**。これは、MCC アカウントはシングルログインで複数の AdWords アカウントにアクセスできる「umbrella」アカウントとして機能するのに対し、Standard アカウントログインではログインごとに 1 つの AdWords アカウントのみにアクセスできるためです。
 
-右上のアカウントアイコンをクリックして、AdWordsアカウント番号(表示ID)を選択します。
+AdWords アカウント番号（顧客 ID）を表示するには、右上のアカウントアイコンをクリックします。
 
 ![](assets/google_account.png)
 
 ## Bing {#section_F1B9C7E997444746936599732CD62665}
 
-アカウントIDと顧客IDの両方が必要です。 「アカウント」タブに表示されます。
+アカウント ID と顧客 ID の両方が必要です。これらは「アカウント」タブに表示されます。
 
 >[!NOTE]アカウント番号はアカウント ID は異なります。
 
