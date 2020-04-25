@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: VRS FAQ
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
