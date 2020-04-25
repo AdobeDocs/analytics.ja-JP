@@ -3,7 +3,7 @@ description: Activity Map またはレガシー ClickMap でリンクトラッ�
 title: リンクトラッキングの停止
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,6 +24,7 @@ Activity Map またはレガシー ClickMap でリンクトラッキングを停
   <tr> 
    <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Appmeasurement.js ファイルから次のコンテンツを削除します。 
+     
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
