@@ -3,7 +3,7 @@ description: Audience Analytics を実装するときによくある質問への
 solution: Experience Cloud
 title: よくある質問
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
@@ -39,7 +39,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  </tbody> 
 </table>
 
-## AAM 固有のよくある質問（FAQ）{#section_6BDF746BA6464359A6A89A64EB025D12}
+## AAM 固有のよくある質問（FAQ） {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
@@ -74,7 +74,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  </tbody> 
 </table>
 
-## Analytics 固有のよくある質問（FAQ）{#section_67BFB1B1E48D4113A38B075C020931BA}
+## Analytics 固有のよくある質問（FAQ） {#section_67BFB1B1E48D4113A38B075C020931BA}
 
 <table id="table_19AEAE0A3575423CB4F5F164DB5626D5"> 
  <tbody> 
@@ -113,7 +113,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  </tbody> 
 </table>
 
-## サーバー側転送（SSF）のよくある質問（FAQ）{#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## サーバー側転送（SSF）のよくある質問（FAQ） {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
