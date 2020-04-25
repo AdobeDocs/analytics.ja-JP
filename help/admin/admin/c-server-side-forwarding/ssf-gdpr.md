@@ -2,7 +2,7 @@
 description: 'null'
 title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
