@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: ユーザーと製品の管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
 
 ---
@@ -65,7 +65,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">新しいユーザーの追加</span> </td> 
-   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>詳しくは、<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>「ユーザ <a href="/help/admin/user-management2/c-user-management/users.md"> ー</a>」を参照。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">レポートのダウンロード</span> </td> 
@@ -73,7 +73,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">ログイン</span> </td> 
-   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>詳しくは、<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>「ユーザ <a href="/help/admin/user-management2/c-user-management/users.md"> ー</a>」を参照。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">名</span> </td> 
@@ -109,7 +109,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">編集</span> </td> 
-   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>詳しくは、<a href="/help/admin/user-management2/c-user-management/users.md"> ユーザー</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>「ユーザ <a href="/help/admin/user-management2/c-user-management/users.md"> ー</a>」を参照。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">削除</span> </td> 
