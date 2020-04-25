@@ -2,7 +2,7 @@
 description: 「プラグアンドプレイ」のウィザードを使用すると、直感的なステップバイステップのプロセスで、システム同期のポイントについて説明し、統合を初期化できます。
 title: 統合手順と前提条件
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
