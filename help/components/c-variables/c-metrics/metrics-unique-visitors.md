@@ -3,7 +3,7 @@ description: バージョン 14 では、個別訪問者は、特定の期間内
 title: 個別訪問者数
 topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
