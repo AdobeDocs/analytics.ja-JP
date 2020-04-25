@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 電子メールユーザー
 topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
