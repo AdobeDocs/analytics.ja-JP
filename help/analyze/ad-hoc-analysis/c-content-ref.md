@@ -3,7 +3,7 @@ description: Ad Hoc Analysis は、Analytics セグメント化環境に統合�
 title: セグメントの構築
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -121,7 +121,7 @@ Ad Hoc Analysis のセグメントマネージャーでは、自身の所有と�
     <ul id="ul_6968AFF6DEDA4BC8A7885B07CC1F57DF"> 
      <li id="li_073D9496F0C64AEB855855D01E65C1BA">非購入者 </li> 
      <li id="li_8958FD4272A14E16A9AA08216E8BC573">購入者 </li> 
-     <li id="li_1436D7C9651D4AC38E10662DEDDD2B95">初回訪問件数 </li> 
+     <li id="li_1436D7C9651D4AC38E10662DEDDD2B95">初回訪問回数 </li> 
      <li id="li_69F42B4F6107407792B0014804A8AF7B">ソーシャルサイトからの訪問件数 </li> 
      <li id="li_29CA111186BE475C943E9F8450BDE8C8">10 分を超える訪問* </li> 
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">以前に 5 回以上の訪問履歴がある訪問* </li> 
