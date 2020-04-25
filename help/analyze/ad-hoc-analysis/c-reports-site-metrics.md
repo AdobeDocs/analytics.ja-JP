@@ -3,7 +3,7 @@ description: 訪問者が特定のページを閲覧した回数、特定ペー�
 title: サイト指標レポート
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
