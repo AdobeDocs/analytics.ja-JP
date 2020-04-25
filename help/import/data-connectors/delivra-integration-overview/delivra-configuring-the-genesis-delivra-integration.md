@@ -2,7 +2,7 @@
 description: Data Connectors 統合ウィザードを実行して Data Connectors の統合を実装する前に必要なタスクと情報です。
 title: Data Connectors 電子メール統合の準備
 uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
