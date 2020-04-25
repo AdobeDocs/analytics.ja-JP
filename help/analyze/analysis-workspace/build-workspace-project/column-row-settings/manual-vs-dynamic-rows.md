@@ -2,7 +2,7 @@
 description: テーブルで静的な行を操作する方法の説明です。
 title: 静的な行と動的な行の比較
 uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
