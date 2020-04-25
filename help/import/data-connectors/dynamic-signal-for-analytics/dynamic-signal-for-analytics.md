@@ -2,7 +2,7 @@
 description: 'null'
 title: Adobe Analytics 用 Dynamic Signal VoiceStorm Data Connector
 uuid: 270b33f5-ea9f-4ab3-ba3e-de41a9e6ff7a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
