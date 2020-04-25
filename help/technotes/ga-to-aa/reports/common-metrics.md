@@ -1,7 +1,7 @@
 ---
 title: 他のプラットフォームでよく使用される指標の互換性ガイド
 description: Google Analytics に詳しいユーザー向けに、一般的なレポートの指標データを取り込む方法をわかりやすく説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
