@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類ルール - 定義
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -92,7 +92,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
      <li id="li_5C702D4F460841D38A59621A5161A3BC">次の語句で始まる </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">次の語句で終わる </li> 
-     <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">次を含む </li> 
+     <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">Contains </li> 
      <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  >正規表現</a> </li> 
     </ul> </td> 
   </tr> 
