@@ -15,12 +15,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch の「トラッキングサーバー」
 
-Tracking Server is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
+「トラッキングサーバー」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. アコーディオ [!UICONTROL General] ンを展開すると、フィールドが表示 [!UICONTROL Tracking Server] されます。
+3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
+4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL トラッキングサーバー]」フィールドが表示されます。
 
 このフィールドを空白のままにすると、デフォルトでは `[rsid].112.2o7.net` になります。
 
