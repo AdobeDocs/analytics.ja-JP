@@ -2,7 +2,7 @@
 description: サイトで最もアクティブなページや領域、および最もよく利用されているサーバーに関する情報が表示されます。
 title: サイトコンテンツレポート
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
