@@ -3,7 +3,7 @@ description: 1 ヶ月の間に Web サイトにアクセスした、重複しな
 title: 月別訪問者数
 topic: Metrics
 uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
