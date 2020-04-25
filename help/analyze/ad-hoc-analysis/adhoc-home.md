@@ -17,5 +17,5 @@ Ad Hoc Analysis を使用すると、無制限のリアルタイム訪問者情�
 ## 新しいトピックとよく参照されるトピック
 
 * Ad Hoc Analysis プロジェクトを Analysis Workspace プロジェクトへとシームレスに変換できるようになりました。[Ad Hoc Analysis Project Converter の概要](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)に移動して、方法をご確認ください。
-* アドホックワークスペースと [分析分析の節を確認](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md):分析ワークスペースは、アドホック分析機能の多くをブラウザーワークフローに導入します。 一部の用語と機能は製品間で同じままですが、Propert Workspaceで導入された新しい用語や分析の方法がいくつかあります。
+* [Ad Hoc Analysis と Analysis Workspace の比較](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)の節を確認します。Analysis Workspace は、Ad Hoc Analysis の多くの機能をブラウザーワークフローにもたらします。両製品で同じままの用語と機能もありますが、Analysis Workspace ではいくつかの新しい用語と分析アプローチが導入されています。
 * [管理](/help/analyze/ad-hoc-analysis/c-administration.md)：ユーザーとサンプルデータの設定方法について説明します。
