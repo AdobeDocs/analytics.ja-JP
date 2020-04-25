@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Integration Guide
+user-guide-title: Analytics 統合ガイド
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
 source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
@@ -16,7 +16,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
    + [Audience Analytics の概要](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics のワークフロー {#audience-analytics-workflow}
       + [ワークフローの概要](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [解析の宛先の作成 — AAMガイド](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [Analytics の宛先の作成 - AAM ガイド](https://docs.adobe.com/help/ja-JP/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Analytics でのオーディエンスデータの使用](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics の使用例](c-audience-analytics/aam-audience-use-cases.md)
       + [よくある質問](c-audience-analytics/mc-audiences-faqs.md)
@@ -28,13 +28,13 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
       + [ワークフローの概要](c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md)
       + [Advertising Analytics 用のレポートスイートの有効化](c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
       + [広告アカウントの設定](c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
-      + [アカウント ID を見つける方法](c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)
+      + [アカウント ID の見つけ方](c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)
       + [トラッキング：手動モードと自動モード](c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)
       + [Analytics での広告データのレポート](c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)
       + [広告アカウントの管理](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics のトラブルシューティング](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [よくある質問](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
++ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/a4t.html)
 + [Adobe Campaign レポート](adobe-campaign.md)
 + [AEM Assets レポート](aem-assets-reporting.md)
 + [Activity Map レポート](activitmap-reporting.md)
