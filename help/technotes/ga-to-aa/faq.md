@@ -1,7 +1,7 @@
 ---
 title: よくある質問
 description: サードパーティプラットフォームからアドビ製品への移行について、よく寄せられる質問にお答えします。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
