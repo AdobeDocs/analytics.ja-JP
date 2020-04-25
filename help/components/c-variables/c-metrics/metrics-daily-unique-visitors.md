@@ -3,7 +3,7 @@ description: 1 日の間に Web サイトにアクセスした、重複しない
 title: 日別訪問者数
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
