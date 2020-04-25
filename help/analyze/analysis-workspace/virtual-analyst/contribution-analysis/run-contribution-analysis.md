@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 貢献度分析の実行
 
-貢献度分析は、Adobe Analyticsで異常値が観察された結果の貢献者を明らかにするために設計された、集中的な機械学習プロセスです。 この目的は、ユーザーが、他の可能な範囲よりもはるかに迅速に、焦点を当てる領域や追加の分析の機会を見つけるのを支援することです。
+貢献度分析は、Adobe Analytics で異常値と見なされた結果に貢献した要因を発見するために設計された、集中的な機械学習プロセスです。目的は、ユーザーが、別の方法よりもずっと迅速に、焦点を当てるべき領域や追加の分析のオポチュニティを見つけるのを支援することです。
 
 ## 貢献度分析の実行 {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
@@ -30,18 +30,18 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
-1. 貢献度分析の読み込み中。 レポートスイートのサイズとディメンション数によっては、この処理にかなりの時間がかかる場合があります。 貢献度分析は、ディメンションあたり上位50,000項目の分析を実行します。
-1. 次に、このプロジェクト内に新しい貢献度分析パネルが読み込まれます。 以前にReports &amp; Analyticsの貢献度分析を使用したことがある場合は、多くのパネルが見慣れています。
+1. 貢献度分析が読み込まれるまでしばらく待ちます。レポートスイートのサイズおよびディメンションの数によって、これには、かなりの時間がかかる可能性があります。貢献度分析は、ディメンションあたり上位 50,000 項目の分析を実行します。
+1. 次に、このプロジェクト内に直接新しい貢献度分析パネルが読み込まれます。以前 Reports &amp; Analytics の貢献度分析を使用したことがあるユーザーは、多くのパネルを既に目にしたことがあるでしょう。
 
-   * その日の訪問数を示すビジュア **ライゼーショ** ンです。
-   * コンテキスト **の月別訪問トレンド** ライン。
+   * その日の&#x200B;**訪問**&#x200B;数を表示するビジュアライゼーション。
+   * コンテキストに関する毎月の&#x200B;**訪問トレンドライン**。
    * [貢献度スコア](https://marketing.adobe.com/resources/help/ja_JP/analytics/contribution/ca_contribution_score.html)で並べ替えられた、この異常値に貢献した&#x200B;**トップアイテム**。加えて、問題の指標と、サイズの観点から指標を文脈の中で捉えるための実訪問者数指標。
 
-   * 生成さ [れたセグメント](https://marketing.adobe.com/resources/help/ja_JP/analytics/contribution/ca_workflow_premium.html) （上位の項目クラスター）テーブルは、貢献度スコア、異常値の発生数、異常な指標に貢献する全体的な割合に基づいて、上位の項目の関連付けを識別します。 次に、これをオーディエンスセグメント（貢献度セグメント1、貢献度セグメント2など）としてキャプチャします。 「i」（情報）ボタンをクリックすると、各自動セグメントの定義が表示され、その定義の構成要素は次のとおりです。
+   * [生成されたセグメント](https://marketing.adobe.com/resources/help/ja_JP/analytics/contribution/ca_workflow_premium.html)（トップアイテムクラスター）テーブルは、貢献度スコア、異常値の発生数、異常な指標に貢献する全体的な割合に基づいて、トップアイテムの関連性を識別します。これは、その後、オーディエンスセグメントとしてキャプチャされます（貢献度セグメント 1、貢献度セグメント 2 など）。「i」（情報）ボタンをクリックすると、構成する上位の項目を含む、各自動セグメントの定義が表示されます。
 
       ![](assets/auto_segment.png)
 
-1. 貢献度分析は、分析ワークスペースの一部になったので、テーブルの右クリックメニューにある多くの機能を利用して、分析をさらに意味のあるものにすることができます。例：
+1. 貢献度分析は、Analysis Workspace の一部なので、テーブルの右クリックメニューから数多くの機能を活用して、分析を一層意味のあるものにすることができます。例えば、次のような機能があります。
 
    * [各ディメンション項目を別のディメンションで分類する](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [1 つまたは複数の行のトレンドを示す](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
@@ -53,7 +53,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## ディメンションの貢献度分析からの除外 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
-貢献度ディメンションから一部のディメンションを除外する場合があります。分析 例えば、ブラウザやハードウェアに関連するディメンションは一切気にしない場合があり、削除することで分析を高速化できます。
+貢献度分析から一部のディメンションを除外したい場合があります。例えば、ブラウザーまたはハードウェア関連のディメンションは関係がなく、これらを削除することで分析を高速化したい場合です。
 
 1. （折れ線グラフで） **[!UICONTROL Run Contribution Analysis]** をク **[!UICONTROL Analyze]** リックすると、パネルが表示 **[!UICONTROL Excluded Dimensions]** されます。
 
