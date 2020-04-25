@@ -3,7 +3,7 @@ description: 顧客属性に関する Analytics の FAQ と顧客属性レポー
 solution: Experience Cloud,Analytics
 title: 顧客属性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 顧客属性データのアップロードについて詳しくは、Experience Cloud ヘルプの[顧客属性](https://marketing.adobe.com/resources/help/ja_JP/mcloud/attributes.html)を参照してください。
 
-## Analytics の顧客属性とレポート指標{#section_EF343662146B460A882D3DF772ADD86D}
+## Analytics の顧客属性とレポート指標 {#section_EF343662146B460A882D3DF772ADD86D}
 
 顧客属性をアップロードし、（Experience Cloud で）スキーマを検証すると、属性文字列と整数にマッピングしたわかりやすい名前（*`age`* や *`gender`* など）に基づいて指標が作成されます。これらの指標は、**[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL 顧客属性]**&#x200B;レポートに表示されます。
 
