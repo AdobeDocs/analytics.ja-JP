@@ -3,7 +3,7 @@ description: Web サイトのページがアクセスされた順序が表示さ
 title: パスレポート
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
