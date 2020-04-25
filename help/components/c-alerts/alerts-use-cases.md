@@ -2,7 +2,7 @@
 description: 'null'
 title: インテリジェントアラート - 使用例
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ Update screenshots for better readability.
 
 ![](assets/prepopulated_alert.png)
 
-## 複数のアラートを作成する代わりに（スタック）アラートを統合する{#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 複数のアラートを作成する代わりに（スタック）アラートを統合する {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 アラートのスタックは、アラートを組み合わせて、多数の異なるアラートを受け取ることがないようにします。
 
