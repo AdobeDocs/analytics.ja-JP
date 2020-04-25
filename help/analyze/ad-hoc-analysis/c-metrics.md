@@ -2,7 +2,7 @@
 description: 指標は、ページビュー数、クリックスルー数、リロード回数、平均滞在時間、購入点数、注文件数、売上高など、訪問者のアクティビティに関する量的な情報です。指標と関連データは、レポートの列に表示されます。
 title: 指標
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
