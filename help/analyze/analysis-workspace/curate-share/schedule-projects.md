@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: スケジュール済みプロジェクトマネージャー
 topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 スケジュールされた Analysis Workspace プロジェクトを管理します。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL スケジュールされたプロジェクト]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Projects]**.
 
 ![](assets/components-scheduled-projects.png)
 
