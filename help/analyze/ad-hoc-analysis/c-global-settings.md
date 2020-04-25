@@ -2,7 +2,7 @@
 description: グローバルな動作設定を行います。例えば、自動保存の設定、グラフと表の設定、フォントとロケールの指定などを行うことができます。
 title: 設定
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
