@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Analytics 管理ガイド
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
@@ -151,7 +151,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
       + [ユーザーおよびグループ権限の変更](user-management2/c-user-management/permissions-changes.md)
       + [ユーザーアカウント項目の転送](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [グループにユーザーを追加する](user-management2/c-user-management/t-add-user-to-group.md)
-      + Adobe Admin Consoleへのユーザーの移行 {#migrate-users}
+      + Adobe Admin Console へのユーザーの移行 {#migrate-users}
          + [Admin Console への Analytics ユーザーの移行](user-management2/user-migration/c-migration-tool.md)
          + [Adobe ID 用に Analytics ユーザーアカウントを移行する](user-management2/user-migration/t-migrate-users.md)
          + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行](user-management2/user-migration/migrate-enterprise.md)
