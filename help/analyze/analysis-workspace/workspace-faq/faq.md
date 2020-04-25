@@ -18,32 +18,32 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>分析Workspaceの管理およびアクセス要件 </p> </td> 
-   <td colname="col2"> <p>管理要件を <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  > 参照してください</a>。 </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace の管理およびアクセスの要件を教えてください。 </p> </td> 
+   <td colname="col2"> <p>詳しくは、<a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  >管理要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1つのレポートスイートワークスペースプロジェクトに表示できる分析スイートの数は？ </p> </td> 
-   <td colname="col2"> <p>現在、1つのプロジェクトに表示できるレポートスイートは1つだけです。 </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace プロジェクトには、レポートスイートはいくつ表示できますか。 </p> </td> 
+   <td colname="col2"> <p>現在、プロジェクトあたり 1 つのレポートスイートのみ表示できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Workspaceの実装方法を教えてください。 </p> </td> 
-   <td colname="col2"> <p>特別な実装は不要です。 分析ワークスペースは、Analytics StandardまたはPremiumのすべての会社が使用できます。 ただし、コンテンツ（レポートスイートやプロジェクトコンポーネントなど）に対する標準の権限は、プロジェクトのキュレーションや共有に適用されます。 詳しくは、<a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  >管理およびアクセス要件</a>を参照してください。 </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace はどのようにして実装しますか。 </p> </td> 
+   <td colname="col2"> <p>特別な実装は必要ありません。Analysis Workspace は、Analytics Standard または Premium を使用しているすべての企業で利用できます。ただし、コンテンツ（レポートスイートやプロジェクトコンポーネントなど）のほか、プロジェクトのキュレーションおよび共有には標準アクセス権限が適用されます。詳しくは、<a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  >管理およびアクセス要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>分析ワークスペースは、Adobe Analyticsで事前設定されたレポートを変更しますか。 </p> </td> 
-   <td colname="col2"> <p>いいえ。これは別の環境なので、Adobe Analyticsの既存のレポートや事前設定済みのレポートは変更されません。 Reports &amp; Analyticsの標準レポートとReport Builderのレポートは、引き続き分析Workspaceを使用できます。 </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace は Adobe Analytics の事前設定済みレポートを変更しますか。 </p> </td> 
+   <td colname="col2"> <p>いいえ。環境が異なるので、Adobe Analytics の既存のレポートや事前設定されたレポートは変更されません。Analysis Workspace を使用する際も、標準の Reports &amp; Analytics および Report Builder のレポートを使用できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Data Warehouseで分析ワークスペースを使用できますか。 </p> </td> 
-   <td colname="col2"> <p>分析ワークスペースは、一括データエクスポートにはお勧めしません。 これは、ダッシュボードのようなワークスペースプロジェクトを作成するビジュアライゼーション分析です。 </p> </td> 
+   <td colname="col1"> <p>Data Warehouse で Analysis Workspace を使用できますか。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace は、一括データエクスポートにはお勧めしません。これは、ダッシュボードのような分析プロジェクトを作成するビジュアライゼーションワークスペースです。 </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>Analysis Workspace のパフォーマンスを最適化するにはどうすればよいですか。 </p> </td> 
    <td colname="col2"> <p>詳しくは、<a href="/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md"  >パフォーマンスの最適化</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>分析ワークスペース機能とアドホック分析は？ </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace compared to Ad Hoc Analysis</a>. </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace と Ad Hoc Analysis の機能の違いを教えてください。 </p> </td> 
+   <td colname="col2"> <p>詳しくは、<a href="/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace と Ad Hoc Analysis の比較</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
