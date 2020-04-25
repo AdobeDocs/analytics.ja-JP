@@ -1,7 +1,7 @@
 ---
 title: 分析プラットフォーム間の処理方法とアーキテクチャの違い
 description: Adobe Analytics や Google Analytics などの複数のプラットフォーム間で、一部のデータの収集方法と表示方法が異なる場合について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
