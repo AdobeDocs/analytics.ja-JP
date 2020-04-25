@@ -3,7 +3,7 @@ description: すべての製品が特定の期間に発生させた収益の量�
 title: 売上高
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -62,7 +62,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 時間別の分類は使用できません。
 
-## 製品固有のプロパティ{#section_ED87FFD020634453AABE86B0248BE69B}
+## 製品固有のプロパティ {#section_ED87FFD020634453AABE86B0248BE69B}
 
 * このレポートにアクセスするには、**[!UICONTROL コンバージョン]**／**[!UICONTROL 購入]**／**[!UICONTROL 売上高]**&#x200B;を開きます。
 
