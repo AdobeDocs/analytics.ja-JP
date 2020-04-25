@@ -17,7 +17,7 @@ source-git-commit: b580a8cb149babd9f64ec1ac532fdff7e7c18df7
 
 ## 例
 
-次のレポートは、訪問回数指標とページビュー数指標の [接続タ](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) イプを [比較します](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html)。
+次のレポートは、訪問回数指標とページ表示 [指標の](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/metrics/metrics-visit.html) 接続タイプ [を比較します](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html)。
 
 ![レポート](assets/contype_compare.png)
 
