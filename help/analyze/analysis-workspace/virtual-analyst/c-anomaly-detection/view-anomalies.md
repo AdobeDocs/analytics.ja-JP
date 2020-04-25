@@ -2,7 +2,7 @@
 description: 異常値をテーブルまたは線グラフで表示できます。
 title: Analysis Workspace での異常値の表示
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 異常値検出の信頼区間では、ビジュアライゼーションの Y 軸を自動的に調整しないので、わかりやすくなります。
 
-信頼区間でチャートを調整できるオプションがあります。設定（歯車）アイコンをクリックして、「**[!UICONTROL 異常値検出で Y 軸のスケールの設定を可能にする]**」をオンにします。
+信頼区間でチャートを調整できるオプションがあります。設定（歯車）アイコンをクリックし、チェックを入れま **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**&#x200B;す。
 
 ![](assets/scale-y-axis.png)
 
