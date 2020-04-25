@@ -2,7 +2,7 @@
 description: 'null'
 title: データ挿入 API
 uuid: 9c66c7a5-4d16-4e02-8e34-6031504b34d0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
