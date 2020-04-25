@@ -13,4 +13,4 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ブラウザーの cookie のプライバシー設定を有効にできます。
 
-コアサ [ービスユーザーガイドの「ブラウザーcookieのプライバシー設定を有効にする](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/browser-cookie-settings.html) 」を参照してください。
+コアサー [ビスユーザーガイドのブラウザーcookieのプライバシー設定の](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/browser-cookie-settings.html) 「有効にする」を参照してください。
