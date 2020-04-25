@@ -3,7 +3,7 @@ description: セグメントビルダーで作成するすべてのセグメン�
 title: Data Warehouse セグメントの互換性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
