@@ -3,7 +3,7 @@ description: Adobe Analytics が収集するデータの概要とプライバシ
 keywords: privacy
 title: プライバシーの概要
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -47,9 +47,9 @@ Adobe Analytics は次のデータを収集します。
 | 広告キャンペーンの成功率 | ○ |
 | 製品情報（カラー、価格、スタイル、写真など） | ○ |
 
-*アドビの顧客が IP の削除を選択していない場合に限ります。
+* アドビの顧客が IP の削除を選択していない場合に限ります。
 
-## プライバシーに関する他の考慮事項{#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## プライバシーに関する他の考慮事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -106,7 +106,7 @@ Adobe Analytics は次のデータを収集します。
  </tbody> 
 </table>
 
-## EMEA データセンターの所在地{#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA データセンターの所在地 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 現在、Adobe Analytics データは、次の EMEA データセンターでホストされています。
 
@@ -124,7 +124,7 @@ Adobe Analytics は次のデータを収集します。
   <tr> 
    <td colname="col1"> AMS1 </td> 
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>The Netherlands </p> </td> 
-   <td colname="col3"> <p>コロケーション施設 </p> <p>（Equinix） </p> </td> 
+   <td colname="col3"> <p>コロケーション施設 </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>マルチチャネル分析 </p> <p>デジタル分析 </p> </td> 
    <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
