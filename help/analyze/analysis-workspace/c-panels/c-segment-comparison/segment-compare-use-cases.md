@@ -2,7 +2,7 @@
 title: セグメント比較の使用例
 description: セグメント比較パネルを使用してマーケティング戦略のインサイトを得る方法に関する実際の使用例を説明します。
 keywords: Segment IQ
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
