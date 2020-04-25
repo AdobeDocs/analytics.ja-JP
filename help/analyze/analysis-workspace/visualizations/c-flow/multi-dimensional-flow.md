@@ -2,7 +2,7 @@
 description: ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを検証できます。
 title: ディメンション間のフロー
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 使用例 1：アプリケーション {#section_3D31D37B9C9F4134AE46C96291E41294}
 
-返される上位の項目が [!UICONTROL ItemAdded] で、[!UICONTROL アクション名]ディメンションがフローに追加されました。
+The [!UICONTROL Action Name] dimension was added to the flow, with the top returned item being [!UICONTROL ItemAdded]:
 
 ![](assets/multi-dimensional-flow.png)
 
