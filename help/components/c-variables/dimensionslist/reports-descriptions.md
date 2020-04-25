@@ -3,7 +3,7 @@ description: Reports & Analytics で使用可能な事前定義済みレポー�
 title: ディメンションの説明
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
