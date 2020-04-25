@@ -4,7 +4,7 @@ keywords: DFA
 title: Analytics 変数とイベント
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
