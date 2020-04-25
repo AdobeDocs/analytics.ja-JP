@@ -3,7 +3,7 @@ description: 入口ページレポートは、新規訪問で、サイトで最�
 title: 入口と出口
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
