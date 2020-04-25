@@ -3,7 +3,7 @@ description: 指標はレポートの基礎で、データの相互関連を見�
 title: 指標の概要
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
