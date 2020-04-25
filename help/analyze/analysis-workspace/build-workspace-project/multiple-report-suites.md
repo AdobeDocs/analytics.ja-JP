@@ -61,6 +61,6 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 1. （オプション）他の Analytics コンポーネントビルダーに移動して、これらのビルダーが、以下を示すレポートスイートラベルが表示されることを確認します。
 
-   * セグメントの作成場所：[セグメントビルダー](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
-   * 計算指標が作成される場所：[計算指標ビルダー](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
-   * アラートの作成場所：[アラートビルダー](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html)。
+   * セグメントの作成場所：[セグメントビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+   * 計算指標が作成される場所：[計算指標ビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+   * アラートの作成場所：[アラートビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/components/alerts/alert-builder.html)。
