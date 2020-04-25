@@ -3,7 +3,7 @@ description: Experience Cloud で使用されるレポートタイプについ�
 title: レポートタイプ
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
