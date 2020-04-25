@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Activity Map は以下の Web ブラウザーでサポートされています。
 
-| サポートされるブラウザ | バージョン |
+| サポートされているブラウザー | バージョン |
 |--- |--- |
 | Internet Explorer | 最新バージョン |
 | Firefox | 最新バージョン |
