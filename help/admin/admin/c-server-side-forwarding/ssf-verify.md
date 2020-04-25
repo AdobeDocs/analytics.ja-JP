@@ -3,7 +3,7 @@ description: サーバー側転送が適切に有効になっていることを�
 solution: Audience Manager
 title: サーバー側転送の実装の確認方法
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
