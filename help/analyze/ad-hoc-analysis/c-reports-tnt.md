@@ -3,7 +3,7 @@ description: Adobe Target のトラフィックデータを Analytics レポー�
 title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Adobe Target のトラフィックデータを Analytics レポートに表示�
 
 Adobe Target のトラフィックデータを Analytics レポートに表示してセグメント化します。
 
-次のような例があります。
+以下に例を示します。
 
 * Analytics KPI で Adobe Target キャンペーンの成功を測定する。
 * Target キャンペーンとレシピデータを Analytics コンバージョン変数で分類する。
