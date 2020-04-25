@@ -2,7 +2,7 @@
 description: 計算指標マネージャ内では、様々なレベルのアプリケーションや特定の部門またはグループに対応した指標の承認を含むワークフローを設定できます。
 title: 計算指標の承認
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
