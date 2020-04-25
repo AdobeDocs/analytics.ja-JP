@@ -1,7 +1,7 @@
 ---
 title: '[!UICONTROL IP ログイン制限の実施]の提供終了'
 description: '[!UICONTROL IP ログイン制限の実施]の提供終了タイミングと影響について説明します。'
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
