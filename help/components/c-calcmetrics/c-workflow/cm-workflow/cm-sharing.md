@@ -2,7 +2,7 @@
 description: 権限に応じて、指標を組織全体、グループまたは個々のユーザーと共有できます。
 title: 計算指標の共有
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
