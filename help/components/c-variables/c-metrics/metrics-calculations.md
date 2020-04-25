@@ -3,7 +3,7 @@ description: 指標の計算には、標準、パーティシペーション、�
 title: 指標の計算
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
