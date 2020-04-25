@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: 仮想レポートスイートの作成
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
