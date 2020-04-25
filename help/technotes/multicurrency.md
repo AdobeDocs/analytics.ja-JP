@@ -3,7 +3,7 @@ description: 複数通貨のサポートを有効にするためにターゲッ�
 title: 複数通貨のサポート
 topic: null
 uuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
 
 ---
