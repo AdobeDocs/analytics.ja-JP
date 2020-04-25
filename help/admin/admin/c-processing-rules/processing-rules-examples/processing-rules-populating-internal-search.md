@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: クエリー文字列パラメーターを使用して内部検索用語を入力
 topic: Admin tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
