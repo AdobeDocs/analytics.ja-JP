@@ -2,7 +2,7 @@
 description: Adobe Analytics のセグメントの新機能。
 title: Analytics のセグメントの新機能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -103,7 +103,7 @@ Adobe Analytics のセグメントの新機能。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace／セグメント比較 </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace &gt; セグメント比較 </p> </td> 
    <td colname="col2"> <p> Analysis Workspace の<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/segment-comparison.html"  >セグメント比較</a>（セグメント IQ）パネルを使用すると、Analytics の任意の 2 つのセグメントをすばやく比較して、すべてのデータポイントにわたって、最も大きな違いを見つけることができます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -134,7 +134,7 @@ Adobe Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse：セグメントによる分類 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">セグメントによる分類</span>のサポートが追加されました。標準（項目）およびカスタム（インサイト）による分類に加えて、セグメント別にレポートを分類できるようになりました。「<span class="wintitle">セグメント</span>」タブを選択すると、<span class="wintitle">選択可能なセグメント</span>ドロップダウンリストで提供されたセグメントと同じセットのリストが入力されます。 </p> <p>行項目がセグメントのメンバーである場合に「1」の値が、そうでない場合は「0」が入ります。 </p> </td> 
+   <td colname="col2"> <p>次のサポートを追加しました。<span class="wintitle">セグメントによる分類</span>のサポートが追加されました。標準（項目）およびカスタム（インサイト）による分類に加えて、セグメント別にレポートを分類できるようになりました。「<span class="wintitle">セグメント</span>」タブを選択すると、<span class="wintitle">選択可能なセグメント</span>ドロップダウンリストで提供されたセグメントと同じセットのリストが入力されます。 </p> <p>行項目がセグメントのメンバーである場合に「1」の値が、そうでない場合は「0」が入ります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
