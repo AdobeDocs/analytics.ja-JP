@@ -14,9 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 次の操作が可能です。
 
-* Webサイトやアプリケーションを通して顧客の遍歴を視覚化する
+* Web サイトやアプリケーションでのカスタマージャーニーをビジュアライズする
 * 入口、特定のディメンション、出口など、指定したチェックポイントの前後で顧客がどこに移動するかを分析する
-* 選択したパスの特定の点を指定してセグメントを作成する
+* 選択したパスの特定のポイントを指定することで、セグメントを作成する
 
 >[!NOTE]Analysis Workspace と Reports &amp; Analytics/Ad Hoc Analysis でのフローへのセグメントの適用結果の違いについて詳しくは、[フローとフォールアウトの基礎としてのセグメント化](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)を参照してください。
 
@@ -24,10 +24,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## ディメンション間のフロー {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-[ディメンション間のフロー](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)を表示できます。例えば、ページと部門を1つの図に組み合わせることができます。 この場合、フローはホームページから男性ページ、次に靴部門に移動します。
+[ディメンション間のフロー](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)を表示できます。例えば、ページと部門を 1 つの図に組み合わせることができます。この場合、フローは、ホームページからメンズページを経て、靴部門に移動することが考えられます。
 
-各列に異なるディメンションが表示される場合があります。 ディメンションをドラッグし、ドロップゾーンにドロップして、そのディメンションを図に追加します。
+各列は、異なるディメンションを表示することがあります。ディメンションをドラッグしてドロップゾーンにドロップし、そのディメンションを図に追加します。
 
-## フロー図をプロジェクトの.CSVファイルの一部としてエクスポート {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## フロー図が含まれたプロジェクト .CSV ファイルの書き出し {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Flow diagrams are part of a project&#39;s .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. これにより、フロー結果を Microsoft Excel（テーブルとして表示）やその他のツールで分析することができます。
