@@ -3,7 +3,7 @@ description: 'AAM オーディエンスディメンションは Analytics の任
 solution: Experience Cloud
 title: Analytics でのオーディエンスデータの使用
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Analytics でのオーディエンスデータの使用
 
-AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例としては、次のものがあります。
+AAM オーディエンスディメンションは Analytics の任意の場所で使用できます。統合されるセグメントはオーディエンス ID およびオーディエンス名と呼ばれる新しい Analytics ディメンションであり、Analytics によって収集される他のディメンションと同様に使用できます。データフィードでは、オーディエンス ID は「mc_audiences」列に保存されます。現在、これらのディメンションは Data Workbench または Livestream では使用できません。オーディエンスディメンションの活用方法の例としては、次のものがあります。：
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
@@ -53,7 +53,7 @@ AAM セグメントのデータはヒットごとに Analytics に渡され、�
 
 オーディエンスは[フォールアウトのビジュアライゼーション](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/fallout_flow.html)で使用することもできます。
 
-## Analysis Workspace でのベン図のビジュアライゼーション{#section_E78AB764FB5047148B51DC1526B0DF89}
+## Analysis Workspace でのベン図のビジュアライゼーション {#section_E78AB764FB5047148B51DC1526B0DF89}
 
 [ベン図のビジュアライゼーション](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/venn.html)には、最大 3 つのセグメントの重複が表示されます。
 
