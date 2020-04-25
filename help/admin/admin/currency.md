@@ -3,7 +3,7 @@ description: Experience Cloud で使用される通貨コードです。
 title: 通貨コード
 topic: Admin tools
 uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -41,7 +41,7 @@ Experience Cloud で使用される通貨コードです。
 | BYR | ベラルーシ ルーブル |
 | BZD | ベリーズ ドル |
 | CAD | カナダ ドル |
-| CDF | コンゴ/キンシャサ フラン |
+| CDF | コンゴ／キンシャサ フラン |
 | CHF | スイス フラン |
 | CLP | チリ ペソ |
 | CNY | 中国元（人民幣） |
@@ -163,7 +163,7 @@ Experience Cloud で使用される通貨コードです。
 | TRL | トルコ リラ |
 | TTD | トリニダード・トバゴ ドル |
 | TVD | ツバル ドル |
-| TWD | 台湾 NT ドル |
+| TWD | 台湾ドル |
 | TZS | タンザニア シリング |
 | UAH | ウクライナ フリヴニャ |
 | UGX | ウガンダ シリング |
