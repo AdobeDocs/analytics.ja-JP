@@ -11,8 +11,8 @@ source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 
 # Activity Map の概要
 
->[!Note]
->FAQページでActivity Mapがシングルページアプリ(SPA)をサポートする方法を説明 [します](/help/analyze/activity-map/activitymap-faq.md) 。
+>[!N注意]
+>アクティビティマップがシングルページアプリ(SPA)をサポートする方法について、 [FAQページで説明します](/help/analyze/activity-map/activitymap-faq.md) 。
 
 >[!IMPORTANT]
 >2020年1月16日、Adobe Analyticsは新しいドメイン(https://experience.adobe.com/analytics)への移行を開始しました。 この変更により、ある特定のケースにおいて、一部の顧客に対して Activity Map が機能しなくなる場合があります。ご存じのように、Activity Map は iframe の顧客ページ（Activity Map ツールバー用の iframe と Activity Map 下部パネル用の iframe）に挿入されます。「.adobe.com」を含まない「frame-src」に対して、Web ページでコンテンツセキュリティポリシーディレクティブが設定されている可能性があります。この場合、Activity Map はこれらの Web ページで動作しなくなります。
