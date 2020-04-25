@@ -14,21 +14,21 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 アドビがどのようにしてデータソースへのアクセスを実現しているかに関する情報です。
 
->[!NOTE]データソースからデータが送信されると、インポートされたデータは、他のメソッド（JavaScript ビーコン、ActionSource、Data Insertion API など）で収集されたレポートデータと区別がつかなくなります。データをインポートした後に削除することはできません。
+>[!NOTE]データソースからデータが送信されると、インポートされたデータは、他のメソッド（JavaScript ビーコン、ActionSource、Data Insertion API など）で収集されたレポートデータと区別がつかなくなります。インポートされたデータは、削除できません。
 
 ![](assets/data_sources_overview.png)
 
-データの送信には、次の2つの方法があります。
+データの送信には、次の 2 つの方法が使えます。
 
 * [FTP](/help/import/c-data-sources/datasrc-how-data-sources-works.md#section_0E70022648F94061AF5B4AD6C7145243)
 * [API](/help/import/c-data-sources/datasrc-how-data-sources-works.md#section_65DACC9CE00C437BBFDD02D19C25A4BD)
 
 ## FTP {#section_0E70022648F94061AF5B4AD6C7145243}
 
-マーケティングレポートを通じてFTPベースのデータソースを作成および管理できます。このレポートでは、FTPファイル転送を使用してデータファイルをデータソースにインポートします。 データソースを作成すると、アドビからFTPの場所が提供され、この場所を使用してデータソースファイルをアップロードできます。 アップロードが完了すると、データソースは自動的に検索し、処理します。 処理が完了すると、データをマーケティングレポートで使用できるようになります。
+マーケティングレポートを介して FTP ベースのデータソースの作成および管理ができます。この場合、FTP ファイル転送を利用してデータファイルをデータソースにインポートします。データソースを作成すると、アドビから FTP の場所が提供されます。この場所を使用して、データソースファイルをアップロードできます。アップロードされたデータはデータソースで自動的に検出され、処理されます。処理されたデータは、マーケティングレポートで利用できます。
 
 ## API {#section_65DACC9CE00C437BBFDD02D19C25A4BD}
 
-アドビのオファーは、アプリケーションをデータソースにプログラム的にリンクすることを可能にするデータソースAPIです。 これにより、中間のFTPサーバーを必要とせず、HTTP、SOAP、REST経由でデータを転送できます。
+アドビから提供されるデータソース API を利用すると、ご使用のアプリケーションをプログラムによってデータソースと連携させることができます。これにより、中間に FTP サーバーを置く必要がなくなり、HTTP、SOAP、REST 経由でデータを転送できます。
 
-データソ [ースAPIドキュメントを参照](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api)。
+[データソース API チュートリアル](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api)を参照してください。
