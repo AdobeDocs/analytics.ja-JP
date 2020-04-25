@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: レポートスイートツールの権限のカスタマイズ
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -67,7 +67,7 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | [リアルタイムレポート](/help/admin/admin/realtime/t-realtime-admin.md) | リアルタイムレポートへのアクセス権を付与します。 |
 | [ボットページ](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
 | [ボット](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
-| [カスタム Data Warehouse レポート](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse は、カスタムレポート用の処理されていない生のデータを取り出す機能です。カスタムレポートはこのデータをフィルタリングして実行します。ユーザー独自の質問に基づいて生のデータから詳細なデータの関連性を表示するように、レポートにリクエストできます。 |
+| [カスタム Data Warehouse レポート](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse は、カスタムレポート用の処理されていない生のデータを取り出す機能です。カスタムレポートはこのデータをフィルタリングして実行します。ユーザー独自の質問に基づいて、生データから詳細なデータの関連性を表示するようレポートにリクエストできます。 |
 | [日別再来訪](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | （レガシー）ある特定の日に、Web サイトを 2 回以上訪ねた訪問者の数を表示するレポートです。1 日は直前の 24 時間として定義されます。 |
 | [データソースマネージャー](/help/admin/admin/data-sources.md) | データソース機能を使用すると、オフラインソースから Analytics にデータをインポートできます。 |
 | [IP アドレスで除外](/help/admin/admin/exclude-ip.md) | レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。 |
@@ -75,7 +75,7 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | レガシー ClickMap のインストール | レガシー ClickMap ツールにインストール権限を付与します。 |
 | [再来訪](/help/components/c-variables/dimensionslist/reports-return-visits.md) | 訪問回数が 2 以上である訪問の数を示すレポート。再来訪レポートには、cookie を使用していない訪問者が含まれます。 |
 | [分類インポーター](https://marketing.adobe.com/resources/help/ja_JP/reference/c_working_with_saint.html) / エクスポーターおよび[ルールビルダー](https://marketing.adobe.com/resources/help/ja_JP/reference/classification_rule_builder.html) | 分類に統合されました（以下を参照してください）。 |
-| データフィードマネージャー | Analytics データフィードに権限を付与します。 |
+| データフィードマネージャー | 権限をAnalytics データフィードに権限を付与します。 |
 | 分類 | 「トラフィック分類」、「ビデオ分類」、「コンバージョンの分類」、「分類階層」、「分類マネージャー」および「分類インポーター／エクスポーターおよびルールビルダー」の権限がまとめられています。注意：この権限を持つユーザーは、選択したレポートスイートだけではなく、すべてのレポートスイートの分類を編集できます。 |
 | [貢献度分析](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/contribution-analysis.html) | Analysis Workspace で貢献度分析を使用する権限を付与します。 |
 | **ダッシュボードの項目** |  |
