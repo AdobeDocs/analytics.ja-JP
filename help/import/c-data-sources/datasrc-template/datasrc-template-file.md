@@ -4,7 +4,7 @@ subtopic: Data sources
 title: データソーステンプレートの概要
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,4 +31,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 データソーステンプレートは [!DNL .txt] ファイルで、任意のテキストエディターで開くことができます。ただし、このテンプレートを編集するときは、Microsoft Excel などのスプレッドシートアプリケーションを使用した方が簡単です。テンプレートの内容は、[!UICONTROL データソース有効化ウィザード]での選択内容によって異なります。
 
-詳しくは、[インポートファイルの参照](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md)を参照してください。
+詳しくは、「[インポートファイルの参照](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md)を参照してください。
