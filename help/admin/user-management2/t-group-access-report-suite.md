@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: レポートスイートに対するユーザーグループの割り当て
 topic: Admin tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
