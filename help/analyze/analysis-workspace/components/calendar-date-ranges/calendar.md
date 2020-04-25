@@ -16,11 +16,11 @@ source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ![カレンダー](assets/aw_calendar.png)
 
-カレンダーを最初にクリックすると、日付範囲の選択が開始されます。 2回目のクリックで日付範囲の選択が完了し、ハイライト表示されます。 キーが押さ `Shift` れた状態（または右クリックを使用）の場合、現在選択されている範囲に追加されます。
+カレンダーを最初にクリックすると、開始した日付範囲が選択されます。 2回目のクリックで日付範囲の選択が完了し、ハイライト表示されます。 キーが押さ `Shift` れた状態（または右クリックを使用）の場合、現在選択されている範囲に追加されます。
 
 日付（および時間ディメンション）を Workspace プロジェクトにドラッグすることもできます。特定の日、週、月、年または周期的な日付を選択できます。
 
-[Analysis Workspace での日付範囲およびカレンダーの使用（YouTube）](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28)（4:07）
+[Analysis Workspace での日付範囲およびカレンダーの使用（YouTube）](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28)（4:07）
 
 | 設定 | 説明 |
 |--- |--- |
