@@ -1,7 +1,7 @@
 ---
 title: SSL 証明書のライセンス
 description: 顧客管理証明書の手続き
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
