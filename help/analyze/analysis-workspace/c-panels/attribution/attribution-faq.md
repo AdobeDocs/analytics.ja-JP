@@ -15,7 +15,7 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 **アトリビューションモデルを使用すると、レポートウィンドウ外の日付が表示されることがあるのはなぜですか。**
 
-これらの追加の日付は、訪問者がルックバックウィンドウをレポートすることによるものです。詳しくは、Analytics ナレッジベースの[データがレポートウィンドウ外に表示される](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html)を参照してください。Adobe Analytics の次期リリースでは、これらの余分な行は除外されます。
+これらの追加の日付は、訪問者がルックバックウィンドウをレポートすることによるものです。詳しくは、Analytics ナレッジベースの[データがレポートウィンドウ外に表示される](https://helpx.adobe.com/jp/analytics/kb/data-appearing-outside-reporting-window.html)を参照してください。Adobe Analytics の次期リリースでは、これらの余分な行は除外されます。
 
 **独自のアトリビューションモデルでカスタムルックバックウィンドウを使用することはできますか。**
 
@@ -45,7 +45,7 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 * 訪問数
 * 発生件数
 * ページビュー数
-* A4T指標
+* A4T（Analytics と Target の統合）関連指標
 * 滞在時間指標
 * バウンス
 * バウンス率
