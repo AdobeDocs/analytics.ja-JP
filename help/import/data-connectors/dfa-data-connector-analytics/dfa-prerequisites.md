@@ -4,7 +4,7 @@ keywords: DFA
 title: 前提条件
 topic: Data connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
