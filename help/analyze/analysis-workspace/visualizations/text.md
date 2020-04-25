@@ -2,7 +2,7 @@
 description: ユーザー定義のテキストを Workspace に追加できます。
 title: テキスト
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
