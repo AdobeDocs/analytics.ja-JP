@@ -1,7 +1,7 @@
 ---
 title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -71,7 +71,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | ページ | page |
 | エラーページ (404) | pagesnotfound |
 | 製品 | product |
-| リファラー | referrer |
+| Referrer | referrer |
 | リファラータイプ | referrertype |
 | 参照ドメイン | referringdomain |
 | 地域 | georegion |
