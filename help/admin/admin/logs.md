@@ -3,7 +3,7 @@ description: ユーザーがログインした時間、ユーザーの使用量�
 title: ログ
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 管理ログは、管理ツールで管理者が実行した変更をすべて報告します。ログページは、3 つのログのいずれからでもユーザー定義のレポートにアクセスできるゲートウェイです。指定した日付範囲で、選択した条件に一致するイベントを検索できます。
 
-## 使用状況およびアクセスログ{#section_6FBAF92D9EA244809C45A78A2F0A7232}
+## 使用状況およびアクセスログ {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
 [!UICONTROL 使用状況およびアクセスログ]では、ユーザーアカウントレベルでレポートの使用状況を評価できます。例えば、Analysis Workspace での開く、作成、更新、共有解除および削除の各操作を追跡します。これにより、誰がどれくらいの頻度で Workspace を使用しているのかを調べられるようになりました。
 
