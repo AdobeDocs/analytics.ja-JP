@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類データのエスケープ
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
