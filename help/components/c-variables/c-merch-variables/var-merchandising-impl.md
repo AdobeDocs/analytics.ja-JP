@@ -3,7 +3,7 @@ description: マーチャンダイジング変数を有効にして実装する�
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: マーチャンダイジング変数の実装
 topic: Developer and implementation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
