@@ -2,7 +2,7 @@
 description: 以前の Target Classic と同じように、Adobe Analytics 上でキャンペーンの成功を評価できます。
 title: Target の上昇率と信頼性
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ Adobe Target ドキュメントには、[上昇率](https://marketing.adobe.com/
 
 1. レポートは、これらの指標（指標と標準化指標の比率を含む）を追加します。
 
-## レポート設定{#section_3508439E09CA4E38B2EA309BA477C01D}
+## レポート設定 {#section_3508439E09CA4E38B2EA309BA477C01D}
 
 ![](assets/lift_confidence_ui.png)
 
