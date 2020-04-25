@@ -10,17 +10,17 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
 
 # Advertising Analytics 用のレポートスイートの有効化
 
-Advertising Analytics検索データをAnalyticsで表示するには、Advertising Analyticsレポート用にExperience cloudにマッピングされた各レポートスイートを設定する必要があります。
+Advertising Analytics の検索データを Analytics で表示するには、Experience Cloud をマッピングした各レポートスイートを Advertising Analytics レポート用に設定する必要があります。
 
-1. [レポートスイートを組織にマッピング](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)します。
-1. /に移動 **[!UICONTROL Admin]** します **[!UICONTROL Report Suites]**。
+1. [レポートスイートを組織にマッピング](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)します。
+1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;に移動します。
 
-1. Experience cloud組織にマップされるレポートスイートを選択します。
-1. クリック **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
+1. Experience Cloud の組織にマッピングされているレポートスイートを選択します。
+1. **[!UICONTROL 設定の編集]**／**[!UICONTROL Advertising Analytics 設定]**&#x200B;をクリックします。
 
    ![レポート](assets/aa_reporting.png)
 
-   > [!IMPORTANT] AMO IDは、検索データの挿入先となるAdobe Advertising cloud変数を指します。
+   > [!IMPORTANT]AMO ID は、検索データの挿入先となる Adobe Advertising Cloud 変数を参照します。
 
 1. 変数の配分と AMO ID 変数で使用する有効期限を設定します。コンバージョン変数（eVar）を使用することで、Adobe Analytics は成功イベントを具体的な変数値と紐づけることができます。成功イベントが発生するまでに変数が変化することがあります。その場合、どの変数値にイベントのクレジットが付与されるかは、配分の設定によって決まります。
 
@@ -30,5 +30,5 @@ Advertising Analytics検索データをAnalyticsで表示するには、Advertis
    | 最新（最後） | 最後の値に成功イベントのクレジットのすべての配分が付与されます。その前にどのような変数が発生したかは関係ありません。 |
    | 有効期限 | eVar 値の有効期限が切れる（成功イベントのクレジットを受け取らなくなる）までの期間またはイベントを指定できます。eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。 |
 
-1. (初 **[!UICONTROL Enable Advertising Analytics Reporting]** 回)または（後続の） **[!UICONTROL Update Advertising Analytics Reporting]** をクリックします。 これで、レポートスイートが Advertising Analytics 検索データを受け取ることができます。[アカウントを作成できる](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)状態ではありません。
+1. 「**[!UICONTROL Advertising Analytics レポートを有効にする]**」（初回時）、または「**[!UICONTROL Advertising Analytics レポートを更新]**」（2 回目以降）をクリックします。これで、レポートスイートが Advertising Analytics 検索データを受け取ることができます。[アカウントを作成できる](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)状態ではありません。
 
