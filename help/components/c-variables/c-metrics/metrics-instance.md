@@ -4,7 +4,7 @@ keywords: instances
 title: インスタンス
 topic: Metrics
 uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
