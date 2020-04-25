@@ -2,7 +2,7 @@
 description: 'null'
 title: Adobe Analytics 用 ContactLab Data Connector
 uuid: 9e6ed7cd-dce1-4c00-9090-d4306202e3ea
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
