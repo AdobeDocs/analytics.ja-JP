@@ -9,20 +9,20 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # マーケティングチャネルに関するFAQと例
 
-See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+[マーケティングチャネルの処理ルールの作成](/help/components/c-marketing-channels/c-rules.md)で、[!UICONTROL マーケティングチャネルの処理ルール]ページに表示されるフィールドの定義に関する項目を参照してください。
 
 ## よくある質問 {#faq}
 
-マーケティングチャネルの処理ルールの実装は、トラッキングコードによって異なる場合があります。 求める結果を与えるルールを設定するには、問題を解決するための創造的な思考が必要になる場合があります。
+マーケティングチャネルの処理ルールの実装は、トラッキングコードによって異なります。求める結果をもたらすようなルールを設定するには、問題を解決するための工夫が求められる場合があります。
 
-**質問**:トラッキングコードがパターンに従っておらず、アフィリエイトのチャネル用に指定する必要があるコードが何千もあります。
+**質問**：私のトラッキングコードはパターンに従っていません。また、アフィリエイトチャネル用に指定しなければならないコードが無数にあります。
 
-* 削除のプロセスを使用します。 電子メールチャネルとアフィリエイトチャネルに同一のクエリー文字列パラメーターを使用しているとき、電子メールのトラッキングコードが少数なら、電子メールを定義するルールセットで電子メールトラッキングコードを指定することができます。次に、他のすべてのトラッキングコードを *`affiliates.`*
+* 除外処理を使用します。電子メールチャネルとアフィリエイトチャネルに同一のクエリ文字列パラメーターを使用しているとき、電子メールのトラッキングコードが少数なら、電子メールを定義するルールセットで電子メールトラッキングコードを指定することができます。その後、残りすべてのトラッキングコードをアフィリエイトとして分類します。 *`affiliates.`*
 * 電子メールシステムで、ランディングページのすべての URL に *`&ch=eml`* などのクエリー文字列パラメーターを追加します。ch クエリパラメーターが *`eml`* と等しいかどうかを検出するルールセットを作成します。*`eml`* が含まれない場合はアフィリエイトです。
 
 **質問**：参照ドメインに予想より多くのデータが含まれています。
 
-* 参照ドメインが処理ルールのドメインの値を超過する可能性があります。リスト 処理順序が重要なので、下位の方（または最下位）に配置してください。
+* 参照ドメインが処理ルールリストで上位すぎる可能性があります。処理順序が重要なので、下位の方（または最下位）に配置してください。
 
 **質問**：クエリー文字列パラメーターに一致するルールを作成しましたが、うまく機能しません。
 
@@ -30,13 +30,13 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
    ![](assets/example_email.png)
 
-**質問**:ラストタッチトラフィックの属性がすべて内部ドメインになっているのはなぜですか。
+**質問**：ラストタッチトラフィックの属性がすべて内部ドメインになっているのはどうしてですか。
 
-* 内部トラフィックに一致するルールがある。 これらのルールは、最初の訪問だけでなく、訪問者がサイトで行うすべてのヒットに対して処理されることに注意してください。 If you have a rule like *`Page URL exists`* without other criteria, that channel is matched on each successive hit on your site, because a page URL always exists.
+* 内部トラフィックに一致するルールがあります。これらのルールは訪問の最初のページだけでなく、サイト上のすべてのページビューで処理されることを忘れないでください。「*`Page URL exists`*」などのルールが指定されていて、他の条件が指定されていない場合は、ページの URL が常に存在するので、サイト上の連続するヒットのそれぞれについてそのチャネルが照合されます。
 
-**質問**:レポートに「識別されませんでした」と表示されるチャネルをデバッグする方法を教えてください。
+**質問**：レポートに「チャネルが識別されませんでした」と表示されているトラフィックは、どのようにデバッグしたらよいですか。
 
-* ルールは順番に処理されます。 一致する特定の条件がない場合、ヒットは次の3つのカテゴリのいずれかに分類されます。
+* ルールは順番に処理されます。以下のような場合は、どの条件にも一致しないことがあります。
 
 1. リファラーなし（直接訪問）。
 
@@ -44,57 +44,57 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
 3. ページの処理異常。
 
-この3つの可能性に対するチャネルがあることを確認します。 例えば、次のようなルールを作成します。
+この 3 つの可能性用のチャネルを用意してください。例えば、次のようなルールを作成します。
 
-1. **[!UICONTROL Referrer]** そして **[!UICONTROL Does Not Exist]** と **[!UICONTROL Is First Page of Visit]**&#x200B;を （[直接](/help/components/c-marketing-channels/c-faq.md)を参照）
+1. 「**[!UICONTROL リファラー]**」と「**[!UICONTROL 存在しない]**」と「**[!UICONTROL 訪問の最初のページ]**」。（[直接](/help/components/c-marketing-channels/c-faq.md)を参照）
 
-2. **[!UICONTROL Referrer Matches Internal URL Filters]** と **[!UICONTROL Is First page of Visit]**.（[内部](/help/components/c-marketing-channels/c-faq.md)を参照）。
+2. 「**[!UICONTROL リファラーが内部 URL フィルターに一致する]**」と「**[!UICONTROL 訪問の最初のページ]**」（[内部](/help/components/c-marketing-channels/c-faq.md)を参照）。
 
-3. **[!UICONTROL Referrer]** そして **[!UICONTROL Exists]** と **[!UICONTROL Referrer Does Not Match Internal URL Filters]**&#x200B;を
+3. 「**[!UICONTROL リファラー]**」と「**[!UICONTROL 存在する]**」と「**[!UICONTROL リファラーが内部 URL フィルターに一致しない]**」
 
-最後に、「[チャネルが識別されませんでした](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)」で説明されているように、残りのヒットを捕捉する「*その他*」のチャネルを作成します。
+最後に、[チャネルが識別されませんでした](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)で説明されているように、残りのヒットを捕捉する「その他」**&#x200B;のチャネルを作成します。
 
-## No Channel Identified {#no-channel-identified}
+## チャネルが識別されませんでした {#no-channel-identified}
 
-ルールでデータが取り込まれない場合や、ルールが正しく設定されていない場合は、レポートの行にデータが [!UICONTROL No Channel Identified] 表示されます。 例えば、内部トラフィックも識別する「*その他*」というルールセットを処理順序の最後に作成することができます。
+ルールがデータを捕捉しない場合、あるいはルールが正しく設定されていない場合、レポートの「[!UICONTROL チャネルが識別されませんでした]」列にデータが表示されます。例えば、内部トラフィックも識別する「*その他*」というルールセットを処理順序の最後に作成することができます。
 
 ![](assets/example_other.png)
 
-This kind of rule serves as a catch-all to ensure that channel traffic always matches external traffic, and typically does not end up in **[!UICONTROL No Channel Identified]**. 内部トラフィックも識別してしまうルールを作成しないように注意してください。Setting the channel&#39;s value to **[!UICONTROL Referring Domain]** or to **[!UICONTROL Page URL]** are the most common, useful ways to create an effective Other rule.
+この種類のルールは、チャネルトラフィックが常に外部トラフィックに一致し、通常は「**[!UICONTROL チャネルが識別されませんでした]**」にならないようにする包括的ルールとして機能します。内部トラフィックも識別してしまうルールを作成しないように注意してください。「その他」のルールを作成するには、チャネルの値を&#x200B;**[!UICONTROL 参照ドメイン]**&#x200B;または&#x200B;**[!UICONTROL ページ URL]** にするのが最も一般的で有効な方法です。
 
->[!NOTE]一部のチャネルトラフィックは引き続き「チャネルが識別されませんでした」カテゴリーに分類される場合があります。例：訪問者がサイトに来訪し、ページをブックマークし、同じ訪問でそのブックマークを介してページに戻ります。 これは訪問の最初のページではないので、参照チャネルがないので、直接ドメインでも他のチャネルでも表示されません。
+>[!NOTE]一部のチャネルトラフィックは引き続き「チャネルが識別されませんでした」カテゴリーに分類される場合があります。例えば、訪問者がサイトを訪問してページをブックマークし、その訪問中にブックマークを使用してそのページに戻った場合がこれに該当します。このページは訪問者が最初に訪問したページではなく、参照ドメインが存在しないので、直接アクセスチャネルにもその他チャネルにも分類されません。
 
 ## 有料検索 {#paid-search}
 
-有料検索とは、検索エンジンに対して検索結果の配置に支払う単語またはフレーズのことです。 有料検索の検出ルールと一致させるため、マーケティングチャネルはページで設定された設定を使用 [!UICONTROL Paid Search Detection] します。 ( **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Paid Search Detection]**). リンク先URLは、その検索エンジンの既存の有料検索検知ルールと一致します。
+有料検索とは、単語または語句が検索エンジンの検索結果ページに配置されるように料金を支払うことです。マーケティングチャネルを有料検索検知ルールに一致させるには、[!UICONTROL 有料検索検知]ページでの設定内容をマーケティングチャネルに使用します（**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 有料検索検知]**）。リンク先 URL はその検索エンジンの既存の有料検索検知ルールと一致します。
 
-マーケティングチャネルルールの [!UICONTROL Paid Search] 設定は次のとおりです。
+マーケティングチャネルルールでは、[!UICONTROL 有料検索]の設定は次のようになります。
 
 ![](assets/example_paid_search.png)
 
-詳しくは [、管理ヘルプの「有料検索検知](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) 」を参照してください。
+詳しくは、管理ヘルプの「[有料検索検知](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)」を参照してください。
 
 ## 自然検索 {#natural-search}
 
-自然検索は、訪問者がウェブ検索で貴社のウェブサイトを見つけたときに発生します。ウェブ検索では、貴社が掲載順位に対して料金を支払わないで検索エンジンにランク付けされています。 検索エンジンがサイトにリンクする際に使用するリンク先URLを制御できます。 このURLを使用すると、Analyticsで自然検索かどうかを識別できます。
+自然検索は、Web 検索リストでの掲載順位に対して料金を支払わない場合に検索エンジンで決定される掲載位置から貴社の Web サイトを訪問者が見つけた場合に発生します。検索エンジンから貴社のサイトにリンクするときに使用されるリンク先 URL を制御できます。この URL によって、Analytics が自然検索かどうかを識別できます。
 
-Analyticsには自然検索の検出はありません。 有料検索検知を設定すると、検索転送者が有料検索転送者でない場合は、自然検索転送者である必要があることが分かります。 自然検索の場合、リンク先URLがその検索エンジンの既存の有料検索検知ルールと一致しません。
+Analytics には自然検索の検出は用意されていません。有料検索検知を設定すると、検索リファラーが有料検索リファラーでなかった場合は、リファラーを自然検索リファラーにする必要があるとシステムで判断されます。自然検索の場合、リンク先 URL はその検索エンジンの既存の有料検索検知ルールに一致しません。
 
-マーケティングチャネルルールの自然検索の設定は次のとおりです。
+マーケティングチャネルルールでは、自然検索の設定は次のようになります。
 
 ![](assets/example_natural_search.png)
 
-詳しく [は、管理ヘルプの](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) 「有料検索検知」を参照してください。
+詳しくは、管理ヘルプの「[有料検索検知](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)」を参照してください。
 
 ## アフィリエイト {#afilliates}
 
-アフィリエイトルールは、指定した参照訪問者のセットから派生するドメインを識別します。 ルールでは、次のように、追跡するアフィリエイトのリストを選択します。
+アフィリエイトのルールは、指定された一連の参照ドメインからの訪問者を識別します。このルールでは、追跡するアフィリエイトのドメインを次のように一覧表示します。
 
 ![](assets/example_affiliates.png)
 
 ## SNS {#social-networks}
 
-このルールは、Facebook*などのソーシャル訪問者から派生するネットワークを識別します。 設定は次のとおりです。
+このルールは、Facebook* などのソーシャルネットワークからの訪問者を識別します。以下のように設定できます。
 
 ![](assets/example_social.png)
 
@@ -116,13 +116,13 @@ Analyticsには自然検索の検出はありません。 有料検索検知を�
 
 ![](assets/example_email.png)
 
-ルールにトラッキングコードが含まれる場合は、次に示すように、1行に1つの値を入力します。
+ルールにトラッキングコードが含まれている場合は、下図に示すように、それぞれの行に値を 1 つずつ入力します。
 
 ![](assets/tracking_code.png)
 
-## 直接 {#direct}
+## 直接アクセス {#direct}
 
-このルールは、参照訪問者を持たないドメインを識別します。 このルールには、お気に入りリンクから直接サイトにアクセスした訪問者や、ブラウザにリンクを貼り付けた訪問者が含まれます。
+このルールは参照ドメインのない訪問者を識別します。このルールには、お気に入りリンクをクリックしたり、ブラウザーにリンクを貼り付けたりしてサイトに直接アクセスした訪問者が含まれます。
 
 ![](assets/example_direct.png)
 
