@@ -3,7 +3,7 @@ description: マーケティングチャネル概要レポートは、顧客が�
 title: マーケティングチャネル概要
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    * **予算**&#x200B;と&#x200B;**コスト**：マーケティングチャネルに特有の指標。[コストと予算](https://marketing.adobe.com/resources/help/ja_JP/mchannel/c_overview_budget.html)を参照してください。
 
-## 製品固有のプロパティ{#section_0C78D294D00942FD9A26D37CB5D645AE}
+## 製品固有のプロパティ {#section_0C78D294D00942FD9A26D37CB5D645AE}
 
 **バージョン 14 および 15**
 
