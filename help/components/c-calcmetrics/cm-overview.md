@@ -3,7 +3,7 @@ description: 計算指標および高度な計算（または派生）指標は�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 計算指標および高度な計算（派生）指標
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | [基本的な関数（カウント、絶対値、平均など）](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | × | ○ |
 | [高度な関数（回帰、if/then、t スコアなど）](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | × | ○ |
 
-## 機能{#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## 機能 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 データが誤用されていたり、アカウントの期限が切れている場合、
 
