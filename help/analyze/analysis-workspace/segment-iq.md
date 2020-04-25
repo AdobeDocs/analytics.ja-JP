@@ -2,7 +2,7 @@
 title: Segment IQ の概要
 description: Adobe Analytics の Segment IQ とは何か、および Adobe Analytics の Segment IQ が組織にとってどのように役立つかについて説明します。
 keywords: Analysis Workspace;Segment IQ
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
