@@ -3,7 +3,7 @@ description: 成功イベントを設定する方法について手順を説明�
 title: 成功イベントの設定
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
