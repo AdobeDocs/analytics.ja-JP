@@ -2,7 +2,7 @@
 description: 'null'
 title: アラートマネージャー
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
