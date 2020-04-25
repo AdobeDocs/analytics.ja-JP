@@ -4,7 +4,7 @@ subtopic: Data sources
 title: コンバージョン
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 データソースでは、コンバージョンとして処理されるデータタイプに対して、次のようなコンバージョンデータディメンションおよびコンバージョン指標をサポートしています。
 
-## コンバージョンディメンションとコンバージョン指標 {#section_FA1731B232B246DABEDF5A5D84159084}
+## コンバージョン ディメンションと指標 {#section_FA1731B232B246DABEDF5A5D84159084}
 
 表示イベントを指定する場合、対応するデータディメンション（eVar）も指定する必要があります。例えば、eVar2 表示数を含める場合、eVar2 と値をリストに含める必要があります。レポートスイートでサポートされるカスタムイベント数および eVar 表示数は、お客様のご契約内容によって異なります。
 
@@ -25,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | トラッキングコード | トラッキングコード名。 |
 | 日付 | MM/DD/YYYY/HH/mm/SS の日付フォーマットを使用します（例：01/01/2015/06/00/00）。 |
 | カテゴリ | カテゴリ名。カテゴリを指定する場合、製品も指定する必要があります。 |
-| チャネル | チャネル名。 |
+| Channel | チャネル名。 |
 | eVarn | eVarn 名。n には 1～75 の整数を指定できます。 |
 | 製品 | 製品名。 |
 | 都道府県 | 都道府県名。 |
