@@ -3,7 +3,7 @@ description: 事前に指定した一連のページ間で、訪問者が離脱�
 title: フォールアウト
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
