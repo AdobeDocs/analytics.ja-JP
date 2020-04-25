@@ -2,7 +2,7 @@
 description: 注文の促進を支援するマーケティングチャネルを示す指標の作成方法について説明します。これは、任意のディメンションや興味の成功イベントに適応させることができます。
 title: 注文支援指標
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
