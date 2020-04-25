@@ -4,7 +4,7 @@ subtopic: Data sources
 title: データソースファイルのアップロード
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
