@@ -2,7 +2,7 @@
 description: 'null'
 title: プロジェクトコンバーターに関する FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
