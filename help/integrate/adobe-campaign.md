@@ -2,7 +2,7 @@
 description: 'null'
 title: Adobe Campaign レポート
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -62,7 +62,7 @@ Adobe Campaign に対してレポートスイートを有効にすると、次�
 * キャンペーンラベル（Adobe Campaign のキャンペーン）
 * 実行された配信ラベル（個々の実行された配信のリスト）
 
-## Adobe Analytics で使用できる Adobe Campaign のディメンションおよび指標{#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics で使用できる Adobe Campaign のディメンションおよび指標 {#section_F33385C9660644AF84172EC39601469B}
 
 Adobe Analytics レポートスイートで、次の Campaign の&#x200B;**指標**&#x200B;を使用できます。
 
