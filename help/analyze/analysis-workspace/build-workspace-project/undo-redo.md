@@ -2,7 +2,7 @@
 description: Analysis Workspace の「取り消し」オプションに関する変更と機能強化。
 title: 「元に戻す」および「やり直し」の設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 「元に戻す」および「やり直し」の設定
 
-**[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL 元に戻す／やり直し]**
+**[!UICONTROL Workspace]**／**[!UICONTROL Project]**／**[!UICONTROL Undo/Redo]**
 
-* 「**[!UICONTROL やり直し]**」オプション（元に戻した操作をやり直す）は&#x200B;**[!UICONTROL 編集]**&#x200B;メニューにあります。
+* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
 
-* 「**[!UICONTROL 保存]**」をクリックしても「**[!UICONTROL 元に戻す]**」のスタックはクリアされません。
+* をクリック **[!UICONTROL Save]** しても、スタックはクリアさ **[!UICONTROL Undo]** れません。
 
-* **[!UICONTROL 「新規プロジェクト]**」または「**[!UICONTROL 既存のプロジェクトを開く]**」を使用すると、「**[!UICONTROL 元に戻す]**」のスタックがクリアされます。
+* **[!UICONTROL New Project]** またはスタ **[!UICONTROL Open Existing Project]** ックをクリア **[!UICONTROL Undo]** する
 
 * レポートスイートの変更の取り消し／やり直しをおこなうことができます。
 * プロジェクト名の近くに取り消し／やり直しのメッセージが表示されます。このメッセージは、取り消しまたはやり直しが進行中であることを示します。
