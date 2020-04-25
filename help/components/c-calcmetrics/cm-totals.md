@@ -1,7 +1,7 @@
 ---
 title: 計算指標の合計
 description: Analytics ツールにおいて計算指標の合計がどのように異なるかを説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
