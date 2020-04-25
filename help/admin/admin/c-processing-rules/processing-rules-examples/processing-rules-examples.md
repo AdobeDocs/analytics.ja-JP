@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 処理ルールの例
 topic: Admin tools
 uuid: 804190bd-30f0-4001-9569-6352e20bb00b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
