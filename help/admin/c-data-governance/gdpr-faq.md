@@ -2,7 +2,7 @@
 description: 'null'
 title: よくある質問
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
