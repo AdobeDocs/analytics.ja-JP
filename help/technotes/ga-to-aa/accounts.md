@@ -1,6 +1,6 @@
 ---
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
-translation-type: ht
+translation-type: tm+mt
 
 ---
 # アカウントとレポートスイート
