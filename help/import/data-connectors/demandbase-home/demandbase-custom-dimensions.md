@@ -2,7 +2,7 @@
 description: アドビ統合ウィザードの手順 4 で指定できる、オプションのディメンション識別子を示します。
 title: Demandbase カスタムディメンション
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
