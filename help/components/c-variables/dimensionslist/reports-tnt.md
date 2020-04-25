@@ -3,7 +3,7 @@ description: Adobe Target のトラフィックデータをレポートに表示
 title: Target
 topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Adobe Target のトラフィックデータをレポートに表示してセグ�
 
 Adobe Target のトラフィックデータをレポートに表示してセグメント化します。
 
-次のような例があります。
+以下に例を示します。
 
 * KPI で Adobe [!DNL Target] キャンペーンの成功を測定する。
 * [!DNL Target] のキャンペーンおよびレシピデータをコンバージョン変数で分類する。
