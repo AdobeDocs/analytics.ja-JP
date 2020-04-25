@@ -4,7 +4,7 @@ subtopic: Data sources
 title: データのタイプとカテゴリの概要
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -79,7 +79,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 顧客関係管理（CRM） {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
+## 顧客関係管理（CRM）{#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
 
 <table id="table_5895659CAB2C415AB2AA59A2E6C75AD1"> 
  <thead> 
