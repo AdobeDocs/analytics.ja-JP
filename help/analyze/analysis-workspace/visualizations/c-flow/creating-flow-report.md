@@ -2,7 +2,7 @@
 description: 'null'
 title: フロービジュアライゼーションの設定
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -36,8 +36,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/flow3.jpg)
 
-デフォルトでは、図には上位 5 つのフローが表示されます。図の下部にある「**[!UICONTROL さらに x 件]**」ノードをクリックすると、図が展開されて、5 位以下のフローが表示されます。引き続き「**[!UICONTROL さらに x 件]**」をクリックして、追加のフローが表示されなくなるまで展開します。
+デフォルトでは、図には上位 5 つのフローが表示されます。If you click on the **[!UICONTROL More]** node at the bottom of the diagram, the diagram expands down to show five more flows. Continue clicking **[!UICONTROL More]** to expand until there are no additional flows to show.
 
 フロー図内で表示できるフロー数に制限はありません。
 
-さらに、**[!UICONTROL プロジェクト]**／**[!UICONTROL CSV をダウンロード]**&#x200B;に移動して、プロジェクトの .CSV ファイルの一部としてフロー図を書き出し、分析することもできます。
+You can also export and further analyze your Flow diagram as part of a project&#39;s .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
