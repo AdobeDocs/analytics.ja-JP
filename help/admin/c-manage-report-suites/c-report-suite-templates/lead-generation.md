@@ -3,7 +3,7 @@ description: サービスおよび製品の情報を提供する Web サイト�
 title: リードジェネレーション
 topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
