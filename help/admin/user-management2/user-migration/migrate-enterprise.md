@@ -2,7 +2,7 @@
 description: Enterprise または Federated ID として Analytics ユーザーアカウントを Admin Console に移行する方法。
 title: 'Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 '
 uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
@@ -119,7 +119,7 @@ Admin Console でユーザーを管理するための前提条件。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ドメイン </p> </td> 
-   <td colname="col2"> <p>「<span class="term">ドメイン</span>」列と「<span class="term">電子メール</span>」列は、前提条件</a>で確立されたドメインと一致します。 </p> </td> 
+   <td colname="col2"> <p>ドメインの「<span class="term">ドメイン</span>」列と「<span class="term">電子メール</span>」列は、前提条件</a>で確立されたドメインと一致します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国コード </p> </td> 
