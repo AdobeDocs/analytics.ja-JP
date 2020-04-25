@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類のトラブルシューティング
 topic: Admin tools
 uuid: e8273635-28b7-4264-aca5-c5307f313e81
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
