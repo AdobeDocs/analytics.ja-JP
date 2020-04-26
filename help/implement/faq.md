@@ -2,7 +2,7 @@
 title: Analytics の実装に関する FAQ
 description: 実装に関するよくある質問と、詳細情報へのリンクです。
 keywords: Analytics Implementation;faq;frequently asked questions;evar expiration;custom event visibility;timestamp;visitor id grace period;visitor id;Experience Cloud visitor id;analytics visitor id;dtm;heartbeat;cookies;tracking server;performance;javascript;data collection;s_code version;s_code debug;track link types;track video;track mobile app;first party cookie;ssl certificate;certification expiration;certificate expiration;plugins;data insertion api;500 error;500;Manage user;manage group;users;groups
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
