@@ -1,7 +1,7 @@
 ---
 title: charSet
 description: charSet 変数は、画像要求の解析にアドビが使用するエンコーディングを決定します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 ---
