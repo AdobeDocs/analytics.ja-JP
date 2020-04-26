@@ -1,7 +1,7 @@
 ---
 title: JavaScript 実装のトラブルシューティング
 description: JavaScript 実装の一般的な問題とトラブルシューティングに関するベストプラクティスについて説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
 
 ---
