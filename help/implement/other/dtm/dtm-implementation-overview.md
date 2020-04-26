@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: DTM 実装の概要
 topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
