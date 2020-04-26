@@ -24,12 +24,12 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 
 |  | **「adobeanalytics」テンプレート** | **「adobeanalytics_nativeConfig」テンプレート** |
 |---|---|---|
-| 既存のレポートスイートの訪問者数／訪問数 | 高インフレ | 最小の膨張 |
+| 既存のレポートスイートの訪問者数／訪問数 | 高い水増し | 最小の水増し |
 | 別のレポートスイートの使用 | 推奨 | 不要 |
-| 新しい訪問者とリターン | サポートなし | サポート |
-| 訪問者IDサービス | サポートなし | サポート |
+| 新規訪問者とリターン訪問者の比較 | サポートなし | サポート |
+| 訪問者 ID サービス | サポートなし | サポート |
 | ビデオとリンクのトラッキング | 部分的なサポート | 未サポート |
-| 実施の困難さ | やや難しい | 比較的簡単 |
+| 導入の困難さ | やや困難 | 比較的簡単 |
 | Adobe Experience Cloud 統合 | サポートなし | 部分的なサポート |
 
 組織内で長所と短所を考慮して、使用する方法を決定します。サンプルコードについては、アドビ GitHub リポジトリーの[ AMP サンプル](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web)を参照してください。
@@ -161,7 +161,7 @@ Web サーバーでホストする HTML ページも必要です。
 
 **AMP 訪問者をデータ内の他の訪問者と区別する方法を教えてください。**
 
-For all AMP pages, the [!UICONTROL JavaScript Version] dimension collects a value similar to `AMP vX.X`. また、カスタムディメンションを「AMP」に設定して、これらの訪問者をセグメント化することもできます。
+すべての AMP ページに対して、[!UICONTROL JavaScript バージョン]ディメンションは、`AMP vX.X` に類似した値を収集します。また、カスタムディメンションを「AMP」に設定して、これらの訪問者をセグメント化することもできます。
 
 **この実装方法は Facebook インスタント記事と比較してどうですか。**
 
