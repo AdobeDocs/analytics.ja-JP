@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: ヘッダーおよびフッターコードの検証
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
