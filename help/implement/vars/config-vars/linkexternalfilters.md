@@ -19,12 +19,12 @@ AppMeasurement は、サイト外を指すリンクを自動的に追跡する�
 
 ## Adobe Experience Platform Launch の「アウトバウンドリンク - 追跡」
 
-The Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+「追跡」フィールドは、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるフィルター（通常はドメイン）のコンマ区切りリストです。
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. アコーディオ [!UICONTROL Link Tracking] ンを展開すると、フィールドが表示 [!UICONTROL Outbound Links - Track] されます。
+3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
+4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL アウトバウンドリンク - 追跡]」フィールドが表示されます。
 
 常に外部と見なすフィルターをこのフィールドに配置します。複数のドメインは、スペースなしのコンマで区切ります。
 
