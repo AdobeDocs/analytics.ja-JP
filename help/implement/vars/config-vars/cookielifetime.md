@@ -19,15 +19,15 @@ Cookie の有効期間は、Adobe Analytics 拡張機能を設定する際の「
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. アコーディオ [!UICONTROL Cookies] ンを展開し、ドロップダウンを表 [!UICONTROL Cookie Lifetime] 示します。
+3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
+4. 「[!UICONTROL Cookies]」アコーディオンを展開すると、「[!UICONTROL Cookie の有効期間]」ドロップダウンが表示されます。
 
 このドロップダウンには、次の値が含まれます。
 
 * **デフォルト**：Cookie は 2 年後に期限切れになります。
 * **なし**：AppMeasurement は Cookie を設定しません。
 * **セッション**：Cookie は、訪問者のセッションの終了時に期限切れになります。
-* **秒**：Cookie は、指定された秒数が経過すると有効期限が切れます。For example, setting this dropdown to [!UICONTROL Seconds] and placing `86400` into the custom field forces cookies to expire after exactly 24 hours.
+* **秒**：Cookie は、指定された秒数が経過すると有効期限が切れます。例えば、このドロップダウンを「[!UICONTROL 秒]」に設定して、`86400` カスタムフィールドに配置すると、Cookie の有効期限が 24 時間で切れます。
 
 ## AppMeasurement の s.cookieLifetime と Launch カスタムコードエディター
 
