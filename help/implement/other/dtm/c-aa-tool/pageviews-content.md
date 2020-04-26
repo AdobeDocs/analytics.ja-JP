@@ -14,7 +14,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Analytics の導入時のページビューおよびコンテンツの設定のための Dynamic Tag Management のフィールドの説明です。
 
-**[!UICONTROL  *`Property`*]** /歯車 ![アイコン](assets/settings_gear.png)**[!UICONTROL Edit Tool]** > **[!UICONTROL Page Views & Content]**
+**[!UICONTROL *`Property`*]**／![歯車アイコン](assets/settings_gear.png)**[!UICONTROL &#x200B;編集ツール&#x200B;]**／**[!UICONTROL &#x200B;ページビュー数とコンテンツ&#x200B;]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
@@ -26,15 +26,15 @@ Analytics の導入時のページビューおよびコンテンツの設定の�
  <tbody>
   <tr>
    <td colname="col1"> ページ名 </td>
-   <td colname="col2"> <p>サイトの各ページの名前。 </p> <p>pageNameを参 <a href="../../../vars/page-vars/pagename.md">照</a>。 </p> </td>
+   <td colname="col2"> <p>サイトの各ページの名前。 </p> <p><a href="../../../vars/page-vars/pagename.md">pageName</a> を参照してください。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> ページURLの上書き </td>
-   <td colname="col2"> <p> ページの実際のURLを上書きします。 </p> <p>pageURLを参 <a href="../../../vars/page-vars/pageurl.md">照してください</a>。 </p> </td>
+   <td colname="col1"> ページ URL の上書き </td>
+   <td colname="col2"> <p> ページの実際の URL より優先されます。 </p> <p><a href="../../../vars/page-vars/pageurl.md">pageURL</a> を参照してください。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> チャネル（サイトセクション） </td>
-   <td colname="col2"> <p>サイトのセクションを特定します。 </p> <p>詳しくは、 <a href="../../../vars/page-vars/channel.md">チャネル</a>。 </p> </td>
+   <td colname="col2"> <p>サイトのセクションを識別します。 </p> <p>詳しくは、 <a href="../../../vars/page-vars/channel.md">チャネル</a>。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> 階層 </td>
