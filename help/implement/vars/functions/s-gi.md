@@ -13,12 +13,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch の s_gi()
 
-Analytics 拡張機能により、追跡オブジェクトがインスタンス化され、管理されます。However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
+Analytics 拡張機能により、追跡オブジェクトがインスタンス化され、管理されます。ただし、Adobe Analytics の拡張機能を設定する際に、「[!UICONTROL ライブラリ管理]」アコーディオンでグローバルトラッキングオブジェクトを設定することもできます。
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. アコーディオ [!UICONTROL Library Management] ンを展開し、以外のラジオボタンを選択しま [!UICONTROL Manage the library for me]す。
+3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
+4. 「[!UICONTROL ライブラリ管理]」アコーディオンを展開し、「[!UICONTROL 私に代わってライブラリを管理する]」以外のラジオボタンを選択します。
 
 グローバル変数テキストフィールドでは、カスタムトラッキングオブジェクトを設定できます。デフォルト値は `s` です。
 
