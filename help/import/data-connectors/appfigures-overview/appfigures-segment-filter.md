@@ -2,7 +2,7 @@
 description: appFigures 統合は、多くの場合、複数のアプリストアをまたいだ複数のアプリケーション用データを収集するために使用されます。セグメントを作成して、特定のアプリケーションまたはアプリストアのレポートデータを分離できます。
 title: アプリデータのセグメント化
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
