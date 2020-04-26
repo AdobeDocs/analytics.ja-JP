@@ -9,23 +9,23 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # Util.cookieRead
 
-cookieは、同じドメインの複数のページにわたって情報を保存および取得できます。 このメソッド `Util.cookieRead()` を使用して、cookieから値を取得します。
+Cookie は、同じドメインの複数のページにわたって情報を保存および取得できます。`Util.cookieRead()` メソッドを使用して Cookie から値を取得します。
 
-## Adobe Experience Platform Launchでcookieを読み取る
+## Adobe Experience Platform Launch での Cookie の読み取り
 
-Cookieを読み取るには、データ要素の値を設定します。
+Cookie を読み取るには、データ要素の値を設定します。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. タブに移動し [!UICONTROL Data Elements] 、目的のデータ要素をクリックします（またはデータ要素を作成します）。
-4. ドロップダウ [!UICONTROL Extension] ンをに、 [!UICONTROL Core]をにに設定し [!UICONTROL Data Element Type] ます [!UICONTROL Cookie]。
-5. テキストフィールドにCookie名を入力します。
+3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
+4. 「[!UICONTROL 拡張機能]」ドロップダウンを「[!UICONTROL コア]」に設定し、「[!UICONTROL データ要素タイプ]」を「[!UICONTROL Cookie]」に設定します。
+5. テキストフィールドに Cookie 名を入力します。
 
-cookieの値は、データ要素に格納されます。 その後、ルール内のデータ要素を参照して、Analytics変数を割り当てることができます。
+Cookie の値は、データ要素に格納されます。その後、ルール内のデータ要素を参照して、Analytics 変数を割り当てることができます。
 
-## AppMeasurementのs.Util.cookieRead()とカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.Util.cookieRead()
 
-このメソッドを `s.Util.cookieRead()` 呼び出して、目的のcookie値を読み取ります。 唯一の引数は文字列で、必須です。 このメソッドは、cookie値を含む文字列を返します。 cookieが存在しない場合は、空の文字列が返されます。
+`s.Util.cookieRead()` メソッドを呼び出して、目的の Cookie 値を読み取ります。唯一の引数は文字列で、必須です。このメソッドは、Cookie 値を含む文字列を返します。Cookie が存在しない場合は、空の文字列が返されます。
 
 ```js
 // Reads the value set in the cookie named 'example' and assigns the value to eVar1
