@@ -23,8 +23,8 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 * Adobe Experience Platform Launch：
    1. [Launch.adobe.com](https://launch.adobe.com) にログインし、目的のプロパティをクリックします。
-   2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
-   3. アコーディオ [!UICONTROL General] ンをクリックし、値をメモ [!UICONTROL Tracking Server] します。
+   2. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics で「[!UICONTROL 設定]」をクリックします。
+   3. 「[!UICONTROL 一般]」アコーディオンをクリックし、「[!UICONTROL トラッキングサーバー]」の値をメモします。
 
 * JavaScript 実装の場合：
    1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
@@ -32,8 +32,8 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 * [Adobe Experience Cloud デバッガー](https://docs.adobe.com/content/help/ja-JP/debugger/using/experience-cloud-debugger.html)を使用して、以下を実行します。
    1. Chrome ブラウザーを使用してサイトに移動します。
-   2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
-   3. Note the [!UICONTROL Request URL - Hostname] value.
+   2. Experience Cloud デバッガーを開き、「[!UICONTROL ネットワーク]」タブに移動します。
+   3. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
 
 実装の `trackingServer` ドメインが見つかったら、最後にパス `/optout.html` を追加します。次に例を示します。
 
