@@ -19,9 +19,9 @@ Launch には、リンクトラッキングコールを設定する専用の場�
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 1. 目的のプロパティをクリックします。
-1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-1. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
+1. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
+1. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「ビーコンを送信」に設定します。
 1. 「`s.tl()`」ラジオボタンをクリックします。
 
 Launch では、オプションの引数を設定できません。
