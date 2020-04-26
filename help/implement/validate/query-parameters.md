@@ -1,7 +1,7 @@
 ---
 title: データ収集クエリーパラメーター
 description: イメージリクエストで使用されるすべてのクエリー文字列パラメーターをリストします。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
