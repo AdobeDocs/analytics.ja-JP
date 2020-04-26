@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 一般
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -39,7 +39,7 @@ Adobe Analytics の実装のための DTM の「一般」設定のフィール�
      </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>文字セット </p> </td> 
+   <td colname="col1"> <p>Character Set </p> </td> 
    <td colname="col2"> <p>利用できる文字エンコーディングセットを表示します。 </p> </td> 
   </tr> 
   <tr> 
@@ -47,11 +47,11 @@ Adobe Analytics の実装のための DTM の「一般」設定のフィール�
    <td colname="col2"> <p>サポートされている通貨コードを選択のために表示します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>トラッキングサーバー </p> </td> 
+   <td colname="col1"> <p>Tracking Server </p> </td> 
    <td colname="col2"> <p>イメージリクエストおよび Cookie が記述されたドメイン。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SSL トラッキングサーバー </p> </td> 
+   <td colname="col1"> <p>SSL Tracking Server </p> </td> 
    <td colname="col2"> <p>イメージリクエストおよび Cookie が記述されたドメイン。セキュリティ保護されているページで使用されます。  定義されていない場合、SSL データは<span class="term"> trackingServer </span> に送られます。 </p> </td> 
   </tr> 
   <tr> 
