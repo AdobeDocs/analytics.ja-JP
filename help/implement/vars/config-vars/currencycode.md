@@ -23,12 +23,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch の「通貨コード」
 
-Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
+「通貨コード」は、Adobe Analytics 拡張機能を設定する際に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. アコーディオ [!UICONTROL General] ンを展開すると、フィールドが表示 [!UICONTROL Currency Code] されます。
+3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
+4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 通貨コード]」フィールドが表示されます。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
