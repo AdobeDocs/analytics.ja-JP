@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;dela
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: イベント型ルールの条件の作成
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
