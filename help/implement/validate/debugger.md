@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT]このデバッグツールはメンテナンスされなくなりました。代わりに、[Adobe Experience Cloud デバッガー Chrome 拡張機能](https://docs.adobe.com/content/help/ja-JP/debugger/using/experience-cloud-debugger.html)を使用することをお勧めします。
 
-The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. デバッガーを使用すると、サイトの任意のページでアドビに送信されるデータを確認できます。この情報を使用して、組織の導入のトラブルシューティングや検証をおこなうことができます。
+[!UICONTROL レガシーデバッガー]は、ほとんどの Adobe Experience Cloud サービスに対してタグを調べます。デバッガーを使用すると、サイトの任意のページでアドビに送信されるデータを確認できます。この情報を使用して、組織の導入のトラブルシューティングや検証をおこなうことができます。
 
 ## レガシーデバッガーのインストール
 
