@@ -1,7 +1,7 @@
 ---
 title: ハッシュの競合
 description: ハッシュの競合とは何かと、どのようにレポートで示されるかについて説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
