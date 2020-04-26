@@ -17,12 +17,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch の「訪問者名前空間」
 
-[!UICONTROL Visitor Namespace] は、Adobe Analytics拡張を設定する際に、ア [!UICONTROL Cookies] コーディオンの下にあるフィールドです。
+「[!UICONTROL 訪問者名前空間]」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL Cookies]」アコーディオンの下にあるフィールドです。
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. アコーディオ [!UICONTROL Cookies] ンを展開すると、フィールドが表示 [!UICONTROL Visitor Namespace] されます。
+3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
+4. 「[!UICONTROL Cookies]」アコーディオンを展開すると、「[!UICONTROL 訪問者名前空間]」フィールドが表示されます。
 
 このフィールドの使用はお勧めしません。代わりに、`trackingServer` および `trackingServerSecure` を使用してください。
 
