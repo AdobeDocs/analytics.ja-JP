@@ -15,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## イベントシリアル化の設定
 
-最初に、レポートスイートの設定でイベント [!UICONTROL Unique Event Recording] のをに設 [!UICONTROL Use Event ID] 定する必要があります。 詳しくは、『管理者ユーザーガイド』の[成功イベント](/help/admin/admin/c-success-events/success-event.md)を参照してください。
+まず、レポートスイートの設定で、イベントの[!UICONTROL 個別イベントの記録]を[!UICONTROL イベント ID を使用]に設定する必要があります。詳しくは、『管理者ユーザーガイド』の[成功イベント](/help/admin/admin/c-success-events/success-event.md)を参照してください。
 
 イベント ID を使用する場合、重複除外は次のレベルで発生します。
 
@@ -31,10 +31,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. で、既 [!UICONTROL Actions]存のアクションをク [!UICONTROL Adobe Analytics - Set Variables] リックするか、「+」アイコンをクリックします。
-5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、を「に」に設 [!UICONTROL Action Type] 定しま [!UICONTROL Set Variables]す。
-6. Locate the [!UICONTROL Events] section, where each event contains an [!UICONTROL Event ID] field.
+3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
+4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
+5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
+6. [!UICONTROL イベント]セクションを探します。各イベントには「[!UICONTROL Event ID]」フィールドが含まれます。
 
 有効な値は、20 バイトまでの英数字です。
 
