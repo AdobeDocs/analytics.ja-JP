@@ -19,6 +19,6 @@ Adobe Experience Platform Launch を使用した実装では、通常、設定�
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 編集するプロパティをクリックします。
-3. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
+3. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics で「[!UICONTROL 設定]」をクリックします。
 
 >[!IMPORTANT] トラッキングメソッド（または）を呼び出す前に、すべての設定変数が設定されている[`t()`](../functions/t-method.md) ことを確認 [`tl()`](../functions/tl-method.md)します。 [`doPlugins()`](../functions/doplugins.md) 関数内で設定変数を設定しないでください。
