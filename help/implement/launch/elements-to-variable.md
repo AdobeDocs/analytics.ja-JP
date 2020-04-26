@@ -27,8 +27,8 @@ Adobe Experience Platform Launchでデータ要素のリポジトリを取得し
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. 目的の「起動」プロパティをクリックします。
-1. をクリック [!UICONTROL Extensions tab]し、Adobe Analytics拡張 [!UICONTROL Configure] 機能の下のをクリックします。
-1. アコーディオンをク [!UICONTROL Global variables] リックすると、グローバル変数を割り当てるためのインターフェイスが表示されます。
+1. Click the [!UICONTROL Extensions tab], then click [!UICONTROL Configure] under the Adobe Analytics extension.
+1. 「グローバル変数  」アコーディオンをクリックすると、グローバル変数を割り当てるためのインターフェイスが表示されます。
 
 ### ルール内の変数の設定
 
@@ -36,11 +36,11 @@ Adobe Experience Platform Launchでデータ要素のリポジトリを取得し
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. 目的の「起動」プロパティをクリックします。
-1. タブをクリ [!UICONTROL Rules] ックし、目的のルールをクリックします（または作成します）。
-1. の下のボタンをク [!UICONTROL Add] リックしま [!UICONTROL Actions]す。
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. 「ルール」タ [!UICONTROL ブをクリックし] 、目的のルールをクリックします（または作成します）。
+1. 「アクション」の下 [!UICONTROL 追加にあるボタンをク] リックしま す。
+1. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「変数を設定」に設定します。
 1. 目的のAnalytics変 ![数の右に](assets/data-element.png) 、データ要素アイコンをクリックします。 組織のソリューションデザ [インドキュメント](../prepare/solution-design.md) （Analytics変数）は、どの変数を使用するかを指定します。
-1. モーダルウィンドウで目的のデータ要素を選択します。 クリック [!UICONTROL Select].
+1. モーダルウィンドウで目的のデータ要素を選択します。 「選択」をク [!UICONTROL リックしま]す。
 1. データ要素名は、記号で囲まれたテキストフィールドに追加さ `%` れます。 例えば、データ要素に「Page name」という名前を付けた場合、変数にデータ要素を割り当てる `%Page name%` ときに文字列が表示されます。
 
 >[!TIP] 同じ変数内のデータ要素を連結できます。 例えば、「Hostname」データ要素と「Pathname」データ要素がある場合は、を使用して、両方を単一の変数に組み合わせることができま `%Hostname%%Pathname%`す。
