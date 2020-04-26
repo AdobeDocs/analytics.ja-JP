@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `transactionID` 変数はトランザクションを一意に識別し、ヒットがデータソースを介してアップロードされたデータに結び付けられるようにします。この変数は、他のチャネルのデータを使用し、AppMeasurement で収集したデータにリンクする場合に役立ちます。
 
->[!NOTE] この変数を使用する前 [!UICONTROL Transaction ID Storage] に、がレポートスイートで有効になっていることを確認してください。 詳しくは、『管理者ユーザーガイド』の[一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md)を参照してください。
+>[!NOTE] この変数を使用する前に、レポートスイートで[!UICONTROL トランザクション ID ストレージ]が有効になっていることを確認してください。詳しくは、『管理者ユーザーガイド』の[一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md)を参照してください。
 
 `transactionID` でヒットを設定すると、その時点で設定または持続するすべての Analytics 変数の「スナップショット」が作成されます。一致するトランザクション ID を持つデータソースを通じてアップロードされたデータは、これらの変数値に永続的に結び付けられます。
 
@@ -23,10 +23,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. で、既 [!UICONTROL Actions]存のアクションをク [!UICONTROL Adobe Analytics - Set Variables] リックするか、「+」アイコンをクリックします。
-5. ドロップダウ [!UICONTROL Extension] ンを「Adobe Analytics」に、を「に」に設 [!UICONTROL Action Type] 定しま [!UICONTROL Set Variables]す。
-6. Locate the [!UICONTROL Transaction ID] section.
+3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
+4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
+5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
+6. 「[!UICONTROL トランザクション ID]」セクションを探します。
 
 トランザクション ID は、データ要素を含む任意の文字列値に設定できます。
 
