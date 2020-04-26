@@ -17,8 +17,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
-4. ドロップダウ [!UICONTROL Extension] ンをに、 [!UICONTROL Core]をにに設定し [!UICONTROL Data Element Type] ます [!UICONTROL Query String Parameter]。
+3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
+4. 「[!UICONTROL 拡張機能]」ドロップダウンを「[!UICONTROL コア]」に設定し、「[!UICONTROL データ要素タイプ]」を「[!UICONTROL クエリー文字列パラメーター]」に設定します。
 5. テキストフィールドにクエリー文字列パラメーターを入力します。
 
 クエリー文字列パラメーター値は、データ要素に格納されます。その後、ルール内のデータ要素を参照して、Analytics 変数を割り当てることができます。
