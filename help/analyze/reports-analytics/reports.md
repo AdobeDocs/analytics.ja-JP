@@ -3,7 +3,7 @@ description: トラフィック、コンバージョン、パスなどの基本�
 title: レポートタイプ
 topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
