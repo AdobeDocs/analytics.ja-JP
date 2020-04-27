@@ -3,7 +3,7 @@ description: Analytics に関して最もよくある質問に対する回答と
 keywords: Troubleshooting Analytics
 title: よくある質問
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
