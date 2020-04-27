@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 共有する Report Builder の Excel ワークブックをアップロードします。
 
-The [!UICONTROL Workbook Library] lets you upload a Report Builder Excel workbook that you want to share. また、共有されているワークブックをダウンロードして編集することもできます。ExcelClientからReport Builderに移行する場合は、ExcelClientリポジトリからワークブックをダウンロードし、Report Builderリポジトリにアップロードすることをお勧めします。
+The [!UICONTROL Workbook Library] lets you upload a Report Builder Excel workbook that you want to share. また、共有されているワークブックをダウンロードして編集することもできます。ExcelClient から Report Builder に移行する際には、ExcelClient リポジトリからワークブックをダウンロードして、その後 Report Builder リポジトリにアップロードすることをお勧めします。
 
->[!NOTE]Report Builder リクエストを含むワークブックのみをアップロードできます。また、Report Builderレポートは、Report Builderを使用しないユーザーにも配信できます。 （ユーザーはデータを確認するためにログインする必要はありません）。
+>[!NOTE]Report Builder リクエストを含むワークブックのみをアップロードできます。また、Report Builder レポートは、Report Builder レポートを使用しないユーザーにも配信できます（ユーザーはデータを確認するためにログインする必要はありません）。
 
 1. リクエストを作成し、実行します。
 1. After you have saved the report, click **[!UICONTROL Share]**.
