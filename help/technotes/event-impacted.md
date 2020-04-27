@@ -2,7 +2,7 @@
 title: データの分析 —イベント
 description: データが全体的なデータ品質に与える影響をイベントがどのように受けるかを把握します。
 translation-type: tm+mt
-source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
+source-git-commit: 65f5fad547558cc9dc481f0eca72873815c9d13a
 
 ---
 
@@ -38,3 +38,8 @@ Adobe Analyticsオファーは、セグメント化を使用してデータに�
 このビデオでは、上記の各手順について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**:セグメントを使用してデータを除外する
+* **2:55**:前の範囲とイベントを比較する
+* **8:42**:計算指標を使用してデータを取得する
+* **11:46**:ユーザーへの影響の伝達
