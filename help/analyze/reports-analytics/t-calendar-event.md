@@ -15,12 +15,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE]最適なレポートパフォーマンスを実現するために、直近の 20 件のカレンダーイベントがトレンドグラフおよびオーバータイムグラフに表示されます。
 
-経時的なトレンドレポートでは、イベントをグラフで表示し、キャンペーンや他のイベントがサイトのトラフィック、売上高、その他の指標に影響を与えたかどうかを確認できます。 カレンダーイベントの設定方法は、イベントに名前を付け、イベント日を設定し、メモを追加してアイコンを設定するだけです. 例えば、Socialを使用する場合、サイトトラフィックの増加と、有名人がTwitterで製品に言及したこととの間に相関関係があることを示すカレンダーイベントを作成できます。
+経時的にトレンドされたレポートでは、イベントをビジュアルに表示し、キャンペーンなどのイベントがサイトへのトラフィック、売上高などの指標に影響を与えているかどうかを確認できます。カレンダーイベントの設定方法は、イベントに名前を付け、イベント日を設定し、メモを追加してアイコンを設定するだけです. 例えば、Social を使用する場合、サイトトラフィックの増加と、有名人による Twitter での製品についてのメンションとの間に相関関係があることを示すカレンダーイベントを作成できます。
 
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. クリック **[!UICONTROL Add New]**.
    1. Under **[!UICONTROL Title]**, name the calendar event.
-   1. を指定しま **[!UICONTROL Event Date]**&#x200B;す。
+   1. アクティビティの **[!UICONTROL Event Date]**.
    1. Choose the **[!UICONTROL Report Suite]** to which this event applies.
    1. （オプション）こ追加のイベント **[!UICONTROL Note Text]** の任意。
    1. 表示アイコンと色を選択します。
@@ -30,7 +30,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    1. クリック **[!UICONTROL Push To Users]**.
    1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. クリック **[!UICONTROL Save]**.
-   これにより、カレンダーイベントの使い勝手が向上します。 アナリストは、オーバーレイをユーザーのレポートに強制的に適用して、より多くのコンテキストを表示できるようになりました。
+   これにより、カレンダーイベントがより一層使いやすくなります。ユーザーのレポート上にオーバーレイを強制して、より多くのコンテキストを表示することができるようになりました。
 1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. 「共有されたカレンダーイベント」で、次のいずれかのオプションを指定します。
 
