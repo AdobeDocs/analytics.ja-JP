@@ -2,7 +2,7 @@
 title: Adobe Report Builder ヘルプ
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -43,7 +43,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * [Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/index.html#Current%20Release%20Notes)
 * [製品ドキュメントのホーム](https://marketing.adobe.com/resources/help/ja_JP/home/index.html)
 * [開発者](https://marketing.adobe.com/resources/help/ja_JP/home/index.html#Developer)
-* [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
+* [アイデア交換](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)
 * [主なソリューションセンター](https://www.omniture.com/en/products/online_business_optimization)
 
