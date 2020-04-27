@@ -2,7 +2,7 @@
 description: ここでは、Report Builder を Power BI と共に使用しているときによく発生する問題をいくつか紹介します。
 title: Power BI 統合のトラブルシューティング
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
