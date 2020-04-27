@@ -20,8 +20,8 @@ Report Builder のインストール手順です。
 1. Open/Restart MS Excel to get the [!UICONTROL Add-Ins] menu to show up.
 1. Go to **[!UICONTROL Add-Ins]** > **[!UICONTROL Sign In]**.
 
-   「 [Report Builderへのサインイン」の手順に従います](/help/analyze/report-builder/setup/login.md)。
+   「[Report Builder へのログイン](/help/analyze/report-builder/setup/login.md)」の手順に従います。
 
 ## 権限
 
-のメニュー項目として表 **[!UICONTROL Report Builder]** 示されない場合は、Adobe Analytics **[!UICONTROL Tools]**&#x200B;管理者に、次の権限を持つ製品プロファイルに属していることを確認するように依頼してください。「Report Builder」を参照してください。 製品プロファイル [と解析の権限につ](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html) いて詳しく説明します [](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)。
+のメニュー項目が表示さ **[!UICONTROL Report Builder]** れない場合は、Adobe Analytics **[!UICONTROL Tools]**&#x200B;管理者に、次の権限を持つ製品プロファイルの一部であることを確認するよう依頼してください。「Report Builder」を参照してください。 製品の権限と [Analyticsのプロファイル](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)[につい](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)て説明します。
