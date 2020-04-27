@@ -10,15 +10,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Power BI への発行 - 概要
 
-Microsoft Power BIは、データを分析し、インサイトを共有するビジネス分析ダッシュボードのスイートです。 Adobe AnalyticsとPower BIの統合により、Report Builder AnalyticsのデータをMicrosoft Power BI内で視覚化し、組織全体で簡単に共有できます。
+Microsoft Power BI は、データを分析してインサイトを共有するビジネス分析ダッシュボードのスイートです。Adobe Analytics と Power BI を統合すると、Microsoft Power BI 内で Report Builder Analytics データを視覚化し、組織全体で簡単に共有できます。
 
-以前は、アナリストとして、電子メール（またはftp）を使用してReport Builderのワークブックを配布するようにスケジュールしていました。 ビジネスユーザーの利害関係者に、（Power BIアカウント内から）プラットフォームやデバイス間でアクセス可能な、Webベースの環境内の正確で最新のデータにアクセスできるようになりました。
+これまで、アナリストは Report Builder ワークブックを電子メール（または ftp）で配信するようスケジュールを設定していました。それが、関係するビジネスユーザーが様々なプラットフォームやデバイスからアクセス可能な Web ベース環境で正確かつ最新のデータに（Power BI アカウント内から）アクセスできるようになりました。
 
-Report Builderのレポート生成機能とPower BIのビジュアライゼーション機能を組み合わせると、組織の全員が情報にアクセスしやすくなります。 Power BIを使用すると、Adobe Analyticsを他のデータソース（販売時点、CRMなど）と統合して、一意の顧客インサイト、関連性およびオポチュニティを見つけることもできます。
+Report Builder のレポート生成機能を Power BI の視覚化機能と組み合わせることで、組織の全員が情報にアクセスできるようになります。Power BI を使用すると、Adobe Analytics を他のデータソース（POS、CRM など）と統合して、独自の顧客インサイト、関連事項および機会を発見することもできます。
 
 ![](assets/aaplusbi.png)
 
-Adobe Report Builderとの統合により、
+Adobe Report Builder との統合により、以下のことができるようになります。
 
 * [スケジュールされた Report Builder ワークブックを Power BI に発行する](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 * [ワークブック内のすべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行する](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
@@ -35,23 +35,23 @@ Adobe Report Builderとの統合により、
 
 **Report Builder でのワークブックの発行**
 
-1. Report Builderで、ワークブックを生成し、保存します。
+1. Report Builder で、ワークブックを生成して保存します。
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. 基本スケジュールウィザードで、の横のチェックボックスをオンにしま **[!UICONTROL Publish Workbook to Microsoft Power BI]**&#x200B;す。
 
    ![](assets/simple-schedule-wizard.png)
 
-1. 電子メールを指定して即座に送信するか、スケジュールの頻度（時間別、日別など）を指定します。
-1. をクリッ **[!UICONTROL OK]** クして投稿します。
-1. これで、Microsoftアカウントにログインするように求められます。 資格情報を入力します。
-1. Report Builderワークブックがスケジュールされ、Power BIに発行されます。
+1. 電子メールを指定してすぐに送信するか、スケジュールの頻度（毎時、毎日など）を指定します。
+1. Click **[!UICONTROL OK]** to publish.
+1. Microsoft アカウントにログインするよう求められます。資格情報を入力します。
+1. Report Builder ワークブックがスケジュールされて Power BI に発行されます。
 
-   各スケジュール済みインスタンスで、Report Builderのスケジュールプロセスで更新されたAnalyticsデータを使用してワークブックを更新した後、ワークブックはMicrosoft Power BIに発行されます。
+   スケジュールされた各インスタンスでは、Report Builder のスケジュールプロセスによってワークブックが更新済みの Analytics データで更新された後、Microsoft Power BI に発行されます。
 
 **Power BI での Report Builder のワークブックデータの表示**
 
-1. Power BIで、重複メニューの下のワークブックをクリック [!UICONTROL Workbooks] します。
+1. In Power BI, double click the workbook under the [!UICONTROL Workbooks] menu.
 
    ![](assets/workbooks-power-bi.png)
 
@@ -63,9 +63,9 @@ Adobe Report Builderとの統合により、
 
 >[!NOTE] ワークブックにマクロが含まれている場合、「すべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行」は無効になります。
 
-ブック全体をインポートする代わりに、ブック内の形式設定されたすべてのテーブルの内容のみをインポートできます。
+ワークブック全体をインポートする代わりに、ワークブック内のすべてのフォーマット済みテーブルの内容のみをインポートすることができます。
 
-**使用例**:複数のReport Builderリクエストからデータを取り込み、多数の数式を含む概要表を作成するExcelワークブックがある。 概要テーブルのみをPower BIに読み込んで、そのビジュアライゼーションを作成できます。
+**使用例：**&#x200B;複数の Report Builder リクエストからデータを取り込み、多数の数式を含むサマリテーブルを作成する Excel ワークブックがあるとします。サマリテーブルのみを Power BI にインポートして、そのビジュアライゼーションを作成できます。
 
 **Report Builder でのフォーマット済みテーブルの発行**
 
@@ -79,27 +79,27 @@ Adobe Report Builderとの統合により、
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. （オプション）Power BIで公開済みアセットの名前をカスタマイズできます。 これは、バージョン管理をワークブック名の一部（myworkbook_v1.1.xlsxなど）として使用し、発行されたPower BIアセットの名前にバージョン番号を表示しない場合に便利です。 バージョン番号が変更されても、発行済みのアセットは変更されないという利点があります。 (表示 [の仕様は](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) 、ここを参照)。
+1. （オプション）発行されたアセットの名前を Power BI でカスタマイズできます。これは、ワークブック名の一部としてバージョン番号を使用しており（myworkbook_v1.1.xlsx など）、発行された Power BI アセットの名前にバージョン番号を表示したくない場合に便利です。バージョン番号が変更されても、発行されたアセットは変更されないという利点もあります（こちらの[仕様](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md)を参照してください）。
 
 **Power BI でのテーブルデータの表示**
 
-1. Power BIで、/メニューに移 **[!UICONTROL Workspaces]** 動し **[!UICONTROL Datasets]** ます。
+1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
 
    ![](assets/datasets-menu.png)
 
-1. 公開したデータセットを選択し、横のアイコ [!UICONTROL Create report] ンをクリックします。 テーブルがフィールドとして表示されます。
+1. Select the dataset that you published and click the [!UICONTROL Create report] icon next to it. テーブルはフィールドとして表示されることに注意してください。
 
    ![](assets/formatted-tables.png)
 
-1. テーブルと関連する列を選択します。
+1. テーブルとその関連列を選択します。
 
    ![](assets/view-table-dataset.png)
 
-1. Power BIのテ [!UICONTROL Visualizations] ーブルの視覚化方法をメニューから選択できます。 例えば、データを折れ線グラフとして表示するように選択できます。
+1. From the [!UICONTROL Visualizations] menu, you can select how to visualize a table in Power BI. 例えば、データを折れ線グラフとして表示することができます。
 
    ![](assets/bi-line-graph.png)
 
-1. ここから、このデータセットテーブルからビジュアライゼーションを作成できます。
+1. ここから、このデータセットテーブルのビジュアライゼーションを作成できます。
 
 ## すべての Report Builder リクエストを Power BI データセットテーブルとして発行する {#section_0C26057C7DBB4068A643FDD688F6E463}
 
@@ -107,9 +107,9 @@ Adobe Report Builderとの統合により、
 
 >[!IMPORTANT]
 >
->ワークブックに 100 を超えるリクエストが含まれている場合、Power BI に発行されるのは最初の 100 件のリクエストのみです。さらに、Power BIに発行される各リクエストに対して、最初の10,000行のデータのみが発行されます。 したがって、これらの要求はスケジュールを通じて正常に配信されますが、Power BIへの投稿の範囲は限られます。
+>ワークブックに 100 を超えるリクエストが含まれている場合、Power BI に発行されるのは最初の 100 件のリクエストのみです。さらに、Power BI に発行された各リクエストでは、最初の 10,000 行のデータのみが発行されます。そのため、こうしたリクエストはスケジュールによって正常に配信されますが、Power BI への発行範囲は制限されます。
 
-1. Report Builderで、Report Builderリクエストを含むワークブックを開くか、作成します。
+1. Report Builder で、Report Builder リクエストを含むワークブックを開くか作成します。
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. 基本スケジュールウィザードで、をクリックしま **[!UICONTROL Advanced Scheduling Options]**&#x200B;す。
@@ -119,13 +119,13 @@ Adobe Report Builderとの統合により、
 
 **Power BI でのリクエストデータの表示**
 
-各予定されたReport Builderリクエストは、データセット内の表として発行されます。 各リクエストテーブルには、リクエスト内のプライマリディメンションにちなんで名前が付けられ、1つの列 [!UICONTROL Report Suite] と1つが含ま [!UICONTROL Segments] れます。
+スケジュールされた各 Report Builder リクエストは、データセット内のテーブルとして発行されます。Each request table is named after the primary dimension in the request and it has a [!UICONTROL Report Suite] and a [!UICONTROL Segments] column.
 
-1. Power BIで、/メニューに移 **[!UICONTROL Workspaces]** 動し **[!UICONTROL Datasets]** ます。
+1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
 
-1. 公開したリクエストを選択し、横のアイコン [!UICONTROL Create report] をクリックします。
+1. Select the request that you published and click the [!UICONTROL Create report] icon next to it.
 
-   リクエストがテーブルとしてメニューに表示され [!UICONTROL Fields] ます。
+   Notice that the requests appear as tables in the [!UICONTROL Fields] menu.
 
    ![](assets/published-requests.png)
 
@@ -133,7 +133,7 @@ Adobe Report Builderとの統合により、
    >
    >ワークシートで Report Builder リクエストのレイアウトをどのように設定しても（ピボットレイアウト、カスタムレイアウト、一部の列を非表示）、リクエストは同じ 2 次元の単一ヘッダー行形式（日付、ディメンション、指標、レポートスイート、セグメント）で常に発行されます。
 
-1. また、という別の表があります **[!UICONTROL Legend]**。 Report Builderのコンテキストからリクエストを取り出すと、各リクエストの意味を覚えにくくなる場合があります。 凡例テーブルの目的は、例えば、テーブルIDの下に各リクエストの名前を表示することです。 その他の凡例列を追加して、リクエストの完全な表示を取得することもできます。
+1. Also notice that there is an additional table called **[!UICONTROL Legend]**. Report Builder 以外でリクエストを利用する場合に、各リクエストが何を表しているのかわからなくなることがあります。凡例テーブルの目的は、例えば、テーブル ID の下に各リクエストの名前を表示することです。他の凡例列を追加して、リクエストの全体像を把握することもできます。
 
    ![](assets/legend-table.png)
 
