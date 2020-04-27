@@ -3,7 +3,7 @@ description: ツールバー、カレンダー、詳細テーブルなど、レ�
 title: レポートの機能
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ツールバー、カレンダー、詳細テーブルなど、レポートの機能について説明します。
 
-この例では、[!UICONTROL ページレポート]を示しています。設定オプションは実行するレポートによって異なることがあります。例えば、[!UICONTROL サイトコンテンツ]レポートで、「トレンド」や「ランク」を選択するのではなく、[!UICONTROL サイト指標]レポートの精度やページ名を指定する場合があります。
+This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
 
 ## ページレポートの例 {#section_288CC85536684C2DB184141358481EF0}
 
-ページレポートの例を示します（**[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページレポート]**／**[!UICONTROL ページ]**）。
+ページレポートの例( > > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**)。
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -55,7 +55,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## グラフの表示 {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-選択したグラフの種類によりますが、通常は詳細リストにある最初の数項目が表示されます。異なる期間を表示するトレンドグラフでは、全期間が表示されます：
+選択したグラフの種類によりますが、通常は詳細リストにある最初の数項目が表示されます。異なる期間を表示するトレンドグラフでは、全期間が表示されます:
 
 ![](assets/graph.png)
 
@@ -67,7 +67,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/metrics.png)
 
-詳しくは、[指標](/help/analyze/reports-analytics/metrics.md)。
+「指標」を参 [照してください。](/help/analyze/reports-analytics/metrics.md)
 
 ## 詳細テーブル {#section_449A5DC848744F65A10DA12E189B835D}
 
