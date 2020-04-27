@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 依存リクエストは既存のリクエストに依存しているリクエストです。
 
-クロス集計が有効になっているレポートのセル内で右クリックし、/をクリックすると、項目を詳しく見ることがで **[!UICONTROL Add Dependent Request]** きます **[!UICONTROL Breakdown]**。
+For reports with correlation breakdowns enabled within the report table, you can take a closer look at an item by right-clicking in the cell and clicking **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
 
 >[!NOTE]また、オリジナルのリクエストを作成するときに分類リクエストを追加することもできます。[データリクエストの作成](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)を参照してください。
 
