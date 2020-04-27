@@ -3,7 +3,7 @@ description: 同時に複数のリクエストを編集し、レポートスイ�
 title: 複数のリクエストの編集
 topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,25 +17,25 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **複数のリクエストを編集するには**
 
-1. Excel で、「**[!UICONTROL 管理]**」をクリックします。
+1. In Excel, click **[!UICONTROL Manage]**.
 
    >[!NOTE]
    >
-   >現在表示されているワークシート上のリクエストのみを編集するには、[!UICONTROL リクエストマネージャー]上部の「[!UICONTROL すべてのシート]」チェックボックスを解除します。デフォルトでは、複数のワークシート上にリクエストがある場合にこのオプションがチェックされます。
+   >To edit requests contained in cells of individual worksheets, clear the [!UICONTROL All Sheets] option on the [!UICONTROL Request Manager]. デフォルトでは、複数のワークシート上にリクエストがある場合にこのオプションがチェックされます。
 
-1. [!UICONTROL リクエストマネージャー]フォームで、2 つ以上のリクエストを選択し、「**[!UICONTROL 複数を編集]**」をクリックします。
+1. フォーム [!UICONTROL Request Manager] で複数のリクエストを選択し、をクリックしま **[!UICONTROL Edit Multiple]**&#x200B;す。
 
-   [!UICONTROL 複数のリクエストを編集]フォームが開き、「[!UICONTROL レポートスイート]」、「[!UICONTROL セグメント別]」、「[!UICONTROL 指標別]」、「[!UICONTROL 日付範囲と精度]」、「[!UICONTROL グループ]」の各列の情報が表示されます。
+   フォーム [!UICONTROL Edit Multiple Requests] には、次の情報の列が表示されます。 [!UICONTROL By Report Suite]、、、 [!UICONTROL By Segment]、、 [!UICONTROL By Metric]お [!UICONTROL By Date Range and Granularity]よび [!UICONTROL By Group]。
 1. リクエストの表示をグループ化するには、次のいずれかのオプションをクリックします。
 
    * **レポートスイート：**&#x200B;レポートスイート別にリクエストの表示をグループ化します。
    * **セグメント別**：セグメント名に基づいてリクエストをグループ化します。
 
-      * **セグメントを選択**：リクエストにセグメントが存在しない場合に表示されます。セグメントを追加するには、「**[!UICONTROL グループの編集]**」をクリックして、[!UICONTROL グループの編集]パネルからセグメントを選択します。
+      * **セグメントを選択**：リクエストにセグメントが存在しない場合に表示されます。セグメントを追加するには、をク **[!UICONTROL Edit Group]** リックし、パネルからセグメントを選択 [!UICONTROL Edit Group] します。
    * **指標別：**「[複数のリクエストにわたる指標の編集](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)」を参照してください。
 
    * **日付範囲と精度：**&#x200B;日付範囲および時間精度別にリクエストの表示をグループ化します。
    * **グループ：**&#x200B;グループ化されたリクエストのセット別にリクエストの表示をグループ化します。
 
 
-1. [!UICONTROL 複数のリクエストを編集]フォームで、「**[!UICONTROL OK]**」をクリックします。
+1. フォーム上で、 [!UICONTROL Edit Multiple Requests] をクリックしま **[!UICONTROL OK]**&#x200B;す。
