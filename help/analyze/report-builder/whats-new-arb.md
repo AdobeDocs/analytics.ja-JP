@@ -2,7 +2,7 @@
 description: 現在および以前のリリースとその機能を列挙します。
 title: Report Builder の新機能
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,7 +32,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 ## Report Builder 5.4 {#rb-5-4-section}
 
-* **複数のリクエストにわたるセグメントの管理と編集が改善されました。**「[!UICONTROL 複数のリクエストを編集]」の新しいオプションにより、複数のターゲットリクエストでセグメントの追加、削除、置換、全置換をおこなうことができます。[詳細情報...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **複数のリクエストにわたるセグメントの管理と編集が改善されました。** の新しいオプシ [!UICONTROL Edit Multiple Requests] ョンを使用すると、複数のターゲットリクエスト内のすべてのセグメントを追加、削除、置換および置換できます。 [詳細情報...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **Adobe Report Builder コミュニティへの新しいリンク**&#x200B;ヘルプの下の新しい Adobe コミュニティリンクにより、検索で Report Builder の問題に絞り込まれた Adobe コミュニティフォーラムにアクセスできます。Adobe コミュニティは、他の Report Builder ユーザーにアプリケーションに関する質問をしたり、ベストプラクティスを共有したりするための優れた手段です。
 
