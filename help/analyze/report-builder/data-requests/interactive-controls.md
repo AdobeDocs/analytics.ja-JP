@@ -3,7 +3,7 @@ description: インタラクティブコントロールを使用すると、リ�
 title: インタラクティブコントロール
 topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## インタラクティブな日付範囲コントロールの実装 {#section_39B228F2D2C44985863D31424C953280}
 
-1. リクエストウィザードの手順 1 で、例えば&#x200B;**[!UICONTROL ページ]**&#x200B;レポートを選択します。
-1. 「**[!UICONTROL 一般的に使用される日付]**」ドロップダウンの横にある「**[!UICONTROL コントロール設定]**」アイコンをクリックします。
+1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
+1. ドロップダウンの横 **[!UICONTROL Commonly Used Dates]** にあるアイコンをクリック **[!UICONTROL Control Settings]** します。
 
    ![](assets/date_range_control.png)
 
@@ -47,16 +47,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    * このオプションを有効にすると、このコントロールを使用するすべてのリクエストが自動で更新されます。
    * このオプションを有効にしないと、リクエストの設定は更新されますが、リクエストのデータは更新されません。
 
-1. 「**[!UICONTROL OK]**」をクリックします。指定したセルの場所にコントロールが表示されます。
+1. クリック **[!UICONTROL OK]**. 指定したセルの場所にコントロールが表示されます。
 
    ![](assets/date_range_control_interactive.png)
 
 1. これで、日付範囲を変更できるようになります。変更した日付範囲に応じて、リクエストが更新されます。
 1. リクエストをコピーし、右クリックして、「リクエストを貼り付け」の 2 つのオプションのうちどちらかを使用できます。
 
-   * **[!UICONTROL リクエストを貼り付け]**／**[!UICONTROL 絶対入力セルを使用]**。コピーされたリクエストは、元のリクエストと同じインタラクティブ日付範囲コントロールを参照します。
+   * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. コピーされたリクエストは、元のリクエストと同じインタラクティブ日付範囲コントロールを参照します。
 
-   * **[!UICONTROL リクエストを貼り付け]**／**[!UICONTROL 相対入力セルを使用]**。コピーされたリクエストは、独自のコントロールを参照します。
+   * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. コピーされたリクエストは、独自のコントロールを参照します。
 
       >[!NOTE]
       >
@@ -66,7 +66,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 インタラクティブなセグメントコントロールの実装方法は、日付範囲コントロールの実装と同様です。
 
-1. リクエストウィザードの手順 1 で、「**[!UICONTROL セグメント]**」ドロップダウンリストの横にある「セグメントコントロール設定」アイコンをクリックします。
+1. In Step 1 of the Request Wizard, next to the **[!UICONTROL Segment]** drop-down list, select the Segment Control Settings icon:
 
    ![](assets/segment_interactive_1.png)
 
