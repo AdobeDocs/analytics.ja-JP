@@ -17,7 +17,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/filter.png)
 
-このシンプルフィルターは大部分のレポートに表示され、特定の行項目をすばやく探し出すために役立ちます。シンプルフィルターでは、特殊文字を使用できません。そのため、`-, ", ', +` およびその他の特殊文字はレポート内のリテラル値に一致します。複数の語句を含む行項目を検索するには、スペースを使用します。
+このシンプルフィルターは大部分のレポートに表示され、特定の行項目をすばやく探し出すために役立ちます。シンプルフィルターでは、特殊文字を使用できません。そのため、`-, ", ', +` およびその他の特殊文字はレポート内のリテラル値に一致します。複数の単語を含む行項目を検索するときは、単語間をスペースで区切ります。
 
 次に例を示します。
 
@@ -37,28 +37,28 @@ help:Internal Search Term
 
 ## アドバンスフィルター {#section_E016626C084640E8A066B2FDA5B932BF}
 
-詳細フィルターを使用すると、一連の検索を使用して検索範囲を制御できます。フィルター すべてのオプションまたは任意のフィルターに一致するようにフィルターできます。
+アドバンスフィルターでは、複数のフィルターを使用して検索範囲を制御できます。すべてのフィルターに一致することを条件とするか、いずれかのフィルターに一致することを条件とするかは選択できます。
 
 ![](assets/advanced_filter.png)
 
 **Contains**
 
-行項目の任意の場所に検索語が含まれる場合に一致します。 これは単純なフィルターと同じ働きをします。
+行項目のどこかに指定の単語が含まれる場合に一致します。これはシンプルフィルターと同じ機能になります。
 
 >[!NOTE]フィルターではスペースを使用できません。スペースは検索時に区切り文字と見なされます。
 
 **次を含まない**
 
-行項目のどこにも検索語句が見つからない場合に一致します。 「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://marketing.adobe.com/resources/help/ja_JP/reference/none-unspecified-unknown-other.html)をレポートから除外できます。
+指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://marketing.adobe.com/resources/help/ja_JP/reference/none-unspecified-unknown-other.html)をレポートから除外できます。
 
 次を含まない。`none`
 
-より正確なフィルターを使用するには、アドバンス（特殊文字）フィルターを使用します。
+より正確なフィルタリングを行うには、アドバンス（特殊文字）フィルターを使用できます。
 
 * アドバンス（特殊文字）。`-^none$`
 * アドバンス（特殊文字）。`-"keyword unavailable"`
 
-例えば、次の行項目は「次を含まない」の条件でフィルタされますが、「アドバンス（特殊文字）」の条件ではフィルタされません。
+例えば次の行項目は、前述の「次を含まない」の条件では除外されますが、前述の「アドバンス（特殊文字）」の条件では除外されません。
 
 ```
 help:Rename the None classification key
@@ -66,9 +66,9 @@ help:Rename the None classification key
 
 **次のいずれかを含む**
 
-行項目内にスペースで区切られた語句がある場合に一致します。 次のフィルターは、「mens」または「sale」を含むすべてのページを表示します。
+スペースで区切られたいずれかの単語が行項目に含まれている場合に一致します。次のフィルターでは、「mens」または「sale」を含むすべてのページが表示されます。
 
-次のいずれかを含む: `mens sale`
+次のいずれかを含む：`mens sale`
 
 この条件は、次のページに一致します。
 
@@ -81,15 +81,15 @@ Sale & Values
 
 **次に等しい**
 
-行項目全体（スペースや他の文字を含む）が指定したフレーズと一致する場合に一致します。
+行項目全体（スペースとその他の文字を含む）が指定のフレーズと等しい場合に一致します。
 
-次に等しい: `mens:desk & travel`
+次に等しい：`mens:desk & travel`
 
 `Mens:Desk & Travel`
 
 **次の語句で始まる**
 
-行項目（スペースやその他の文字を含む）が指定したフレーズを持つ開始である場合に一致します。
+行項目（スペースとその他の文字を含む）が指定のフレーズで始まる場合に一致します。
 
 次の語句で始まる。`mens`
 
@@ -105,7 +105,7 @@ Mens Hemp/Bamboo Flip Flops
 
 **次の語句で終わる**
 
-行項目（スペースやその他の文字を含む）が指定したフレーズで終わる場合に一致します。
+行項目（スペースとその他の文字を含む）が指定のフレーズで終わる場合に一致します。
 
 次の語句で終わる。`jean`
 
@@ -121,7 +121,7 @@ Ocean Blue Jean
 
 ## アドバンス（特殊文字）{#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
-[詳細]では、ワイルドカード検索やその他の複雑な検索を実行できます。
+アドバンスフィルターでは、ワイルドカード検索やその他の複雑な検索を実行できます。
 
 | アドバンス（特殊文字） | 説明 |
 |--- |--- |
@@ -134,7 +134,7 @@ Ocean Blue Jean
 
 ## レポート固有のフィルターの作成 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-レポートのフィルターを作成する手順。
+各種レポート用のフィルターを作成する手順を説明します。
 
 <!-- 
 
@@ -142,11 +142,11 @@ t_reports_filter_specific.xml
 
  -->
 
-特定のレポートには、そのレポートに固有のフィルターが含まれています。 例えば、を使用してWebペ [!UICONTROL Purchase Conversion Funnel Report] ージでフィルターできます。 「」では、 [!UICONTROL Geosegmentation Report] 地域別にフィルターできます。 その他のレポートには、その他のフィルターが表示されます。
+レポートによっては、そのレポートに固有のフィルターを持つものがあります。例えば、を使用してWebペ [!UICONTROL Purchase Conversion Funnel Report] ージでフィルターできます。 A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. 各レポートに固有なその他のフィルターを持つレポートもあります。
 
-これらの項目にアクセスすると、フィルターで指定された項目のレポート指標をリストできます。
+これらのフィルターにアクセスすると、そのリストに指定された項目のレポート指標が表示されます。
 
-**レポート固有のフィルター**
+**レポート固有フィルターを作成するには**
 
 1. (> > [!UICONTROL Purchase Report] )などのレ **[!UICONTROL Site Metrics]** ポート **[!UICONTROL Purchases]** を生成 **[!UICONTROL Purchase Conversion Funnel]**&#x200B;する。
 1. In the report header, click the **[!UICONTROL Filter]** link.
@@ -164,11 +164,11 @@ t_reports_correlation_filter.xml
 
  -->
 
-特定のレポートでは、カスタムのクロス集計フィルターを追加できます。 例えば、サイトセクションと女性のページとの相関関係があるレポートスイートのを表示している場合、フィルタールールを作成して、サイトセクション=女性の場合に最も人気の高いページを示すレポートを生成できます。 [!UICONTROL Pages Report]
+一部のレポートでは、カスタムのクロス集計フィルターを追加できます。For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women&#39;s page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
 
-使用可能な任意のクロス集計を使用して、クロス集計レポートに表示されるデータをフィルタリングできます。 ここに示す例は、検索エンジンのクロス集計フィルタを追加する方法を示しています。
+使用可能な任意のクロス集計を使って、クロス集計レポートに表示するデータをフィルターできます。ここの例では、検索エンジンのクロス集計フィルターを追加します。
 
-**クロス集計フィルタを追加するには**
+**クロス集計フィルターを追加するには**
 
 1. クロス集計をサポートするレポートを実行します([内訳レポートの実行](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)を参考。)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
