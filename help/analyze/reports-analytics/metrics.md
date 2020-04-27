@@ -3,7 +3,7 @@ description: 指標はレポートの基礎で、データの相互関連を見�
 title: 指標
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,12 +35,12 @@ t_metrics_set_default.xml
 
 1. レポートを実行します。
 1.  デフォルトの指標として保存する指標を追加します。
-1. **[!UICONTROL 指標の追加]**&#x200B;ドロップダウンリストをクリックし、「**[!UICONTROL デフォルトとして設定]**」を選択します。
+1. ドロップダウ **[!UICONTROL Add Metrics]** ンリストをクリックし、を選択しま **[!UICONTROL Set as Default]**&#x200B;す。
 
    選択された指標がこのレポートのデフォルトとして保存されます。次の情報はデフォルトの指標に適用されます。
 
 * デフォルトの指標は、同一レポート内または同一レポートスイート内では、すべてのユーザーアカウントに対して適用されます。例えば、同じレポートスイート内の特定のレポートを閲覧しているすべてのユーザーには、前の手順を使用して設定された指標が表示されます。
-* レポート間を移動する場合、最近閲覧したレポート内で表示されていた指標が移動後に引き続き表示されます。新しいレポート内にデフォルトの指標を表示するには、[!UICONTROL 指標の追加]ドロップダウンリストをクリックし、「[!UICONTROL デフォルトを表示]」を選択します。
+* レポート間を移動する場合、最近閲覧したレポート内で表示されていた指標が移動後に引き続き表示されます。To display default metrics in that new report, click the [!UICONTROL Add Metrics] drop-down list, then click [!UICONTROL Show Defaults].
 
-* 「[!UICONTROL デフォルトをクリア]」をクリックしてデフォルトの指標をレポートから削除すると、そのレポートの本来のデフォルトの指標が表示されます（prop の場合は[!UICONTROL ページビュー数]、または eVar の管理ツールで設定した任意の指標）。
+* Clicking [!UICONTROL Clear Defaults] removes the default metrics for that report and reverts them to the original default metrics for that report ( [!UICONTROL Page Views] for props, and whatever you have set in Admin Tools for eVars).
 
