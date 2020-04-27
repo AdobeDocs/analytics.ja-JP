@@ -1,31 +1,31 @@
 ---
-title: AnalyticsのPWA
-description: Adobe Analytics用のプログレッシブWebアプリ
+title: Analytics 用 PWA
+description: Adobe Analytics 用プログレッシブウェブアプリ
 translation-type: tm+mt
 source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ---
 
 
-# AnalyticsのPWA
+# Analytics 用 PWA
 
 このページでは、Adobe AnalyticsをプログレッシブWebアプリ(PWA)と共に使用する方法について説明します。
 
 ## はじめに
 
-PWAは、Webサイトに対してネイティブのアプリエクスペリエンスとオフライン機能を提供できます。 通常、PWAにはサービスワーカー、キャッシュのプロビジョニング、マニフェストファイルが含まれ、これらのファイルはすべて読み込み時間の短縮、ナビゲーションの容易化、レスポンシブな動作に役立ちます。
+PWA は、Web サイトにネイティブアプリケーションエクスペリエンスやオフライン機能を提供できます。通常、PWA には、service worker、キャッシングプロビジョニング、およびマニフェストファイルが含まれます。これらはすべて、読み込み時間の短縮、ナビゲーションの簡素化、レスポンシブな動作に役立ちます。
 
-Adobe Analyticsは、従来のWebサイトと同様にPWAとシームレスに連携します。 PWAには、プログレッシブに動作するための要件がいくつかありますが、従来のWebサイトとは異なる方法でAnalyticsがデータを収集し、レポートする方法に関する障害や制限は生じません。 実際、Analyticsには既にオフライン追跡機能が含まれているので、PWAは、従来のWebサイトよりも簡単にこの組み込み機能を利用できます。
+Adobe Analytics は、従来の Web サイトと同様、PWA とシームレスに連携します。PWA には、それ自体で漸進的に動作するための追加要件がいくつかありますが、Analytics がデータを収集してレポートする方法に対して科す障壁や制限は、従来の Web サイトと同じものです。実際、Analyticsには既にオフライン追跡機能が含まれているので、PWAは、従来のWebサイトよりも簡単にこの組み込み機能を利用できます。
 
 ## PWA解析データの取得
 
-AnalyticsでPWAデータを収集して分析する場合は、設定を変更する必要はありません。 Analyticsは、従来のWebサイトと同じ機能と機能をすべて自動的に提供します。
+Analytics を使用して PWA データを収集および分析するために構成を変更する必要はありません。Analytics は、従来の Web サイトに対してと同じ機能や特徴をすべて自動的に提供します。
 
-## PWAの効果を高めるためのオフライン追跡の追加
+## オフライントラッキングの追加による PWA 有効性の向上
 
-Analyticsのオフライン追跡機能を使用すると、PWAの効果 [を高めることが](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) できます。 デフォルトでは、この機能はオフになっていますが、次のプロパティをAppMeasurement.jsファイルに追加してオンにすることができます。 `s.trackOffline=true;`.
+Analytics の[オフライントラッキング機能](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/functions/forceoffline.translate.html)を使用して、PWA の効果を高めることができます。デフォルトでは、この機能はオフになっていますが、AppMeasurement.js ファイルにプロパティ「`s.trackOffline=true;`」を追加してオンにすることができます。 
 
-例えば、次のAppMeasurement.jsファイルでは、プロパティが `CONFIG SECTION`
+例えば、次の AppMeasurement.js ファイルでは、プロパティが `CONFIG SECTION` の最後に追加されています。
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -43,8 +43,8 @@ s.trackOffline=true
 *** 
 ```
 
-AppMeasurement.js ファイルの編集について詳しくは、「[AppMeasurement.js ファイルへのコードの挿入](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)」を参照してください。
+AppMeasurement.js ファイルの編集について詳しくは、「[AppMeasurement.js ファイルへのコードの挿入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.translate.html)」を参照してください。
 
-AppMeasurement.jsファイルの設定例については、AppMeasurement.jsファ [イルの設定を参照してください](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)。
+AppMeasurement.js ファイルの構成例については、「[AppMeasurement.js ファイルの構成](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/overview.translate.html#section_042412C29CC249E298F19B2BC2F43CE7)」を参照してください。
 
-AppMeasurement.jsファイルの特性について詳しくは、 [Javascript実装の概要を参照してください](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
+AppMeasurement.js ファイルの特性について詳しくは、「[Javascript 実装の概要](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/migrate-from-hcode.translate.html)」を参照してください。
