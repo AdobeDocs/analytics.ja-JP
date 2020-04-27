@@ -4,7 +4,7 @@ subtopic: Alerts
 title: アラート
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics 全体の新しいアラートシステムであるインテリ�
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信。
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成。
 
-この新しいアラートシステムには、Reports &amp; Analytics の任意のレポートの&#x200B;**[!UICONTROL その他]**／**[!UICONTROL アラート]**&#x200B;からアクセスできます。
+You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
 詳しくは、Analysis Workspace ドキュメントの[インテリジェントアラート](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/intellligent_alerts.html)を参照してください。
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**&#x200B;メニューで新しいアラートビルダーに移動します。ただし、Reports &amp; Analytics のレポート内からもアクセスできます。
+Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. ただし、Reports &amp; Analytics のレポート内からもアクセスできます。
 
 1. Reports &amp; Analytics で、アラートを設定するレポートを開きます。
-1. **[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;をクリックします。
+1. クリック **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 1. これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/alert-builder.html)が表示されます。
 
 ## 既存のアラートを表示または編集するには {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 タスクコンテキスト
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]**&#x200B;に移動します。これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/alert-manager.html)が表示されます。
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/alert-manager.html)が表示されます。
 
 ## レガシーアラートの移行 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
