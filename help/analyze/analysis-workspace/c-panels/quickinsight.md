@@ -2,7 +2,7 @@
 description: クイックインサイトビルダーは、新しいWorkspaceユーザーがデータテーブルやビジュアライゼーションを作成する際に役立つツールです
 title: クイックインサイトビルダー
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
 
 ---
 
@@ -36,24 +36,24 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 | [!UICONTROL Dimension item] | ディメンション項目は、ディメンションの個々の値です。 例えば、ブラウザーディメンションのディメンション項目は、「Chrome」、「Firefox」、「Edge」などです。 |
 | [!UICONTROL Metric] | 指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。 |
 | [!UICONTROL Visualization] | Workspaceオファーに [は](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) 、棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布グラフなど、データを視覚的に表現するための様々なビジュアライゼーションが含まれています。 |
-| [!UICONTROL Breakdown] | 内訳は、ディメンションを他のディメンションで逐語的に分類する方法です。 この例では、米国の州をモバイルデバイス別に分類して、モバイルデバイスの訪問回数を都道府県別、モバイルデバイスのタイプ別、地域別、内部キャンペーン別などに取得できます。 |
+| [!UICONTROL Breakdown] | 内訳は、ディメンションを他のディメンションで逐語的に分類する方法です。 この例では、米国の州をモバイルデバイス別に分類して、モバイルデバイスの訪問回数を都道府県別に取得したり、モバイルデバイスのタイプ別、地域別、内部キャンペーン別などに分類したりできます。 |
 | [!UICONTROL Segment] | セグメントを使用すると、特性やWebサイトのインタラクションに基づいて訪問者のサブセットを識別できます。 例えば、次の属性に基づいてセグメ [!UICONTROL Visitor] ントを作成できます。ブラウザーのタイプ、デバイス、訪問数、国、性別、またはインタラクションに基づく：キャンペーン、キーワード検索、検索エンジン、または出口と入口に基づく検索エンジン：Facebookの訪問者、定義済みのランディングページ、参照ドメインまたはカスタム変数に基づくドメイン：フォームフィールド、定義済みカテゴリ、顧客ID。 |
 
 ## クイックインサイトの概要
 
 1. 指定した資格情報を使用してAdobe Analyticsにログインします。
-1. に移動し、を [!UICONTROL Workspace] クリックし **[!UICONTROL Create New Project]** て、をクリックしま **[!UICONTROL Quick Insights Builder]**&#x200B;す。
+1. に移動し、を [!UICONTROL Workspace] クリックし **[!UICONTROL Create New Project]** て、をクリックしま **[!UICONTROL Quick Insights]**&#x200B;す。
 
    ![](assets/qibuilder.png)
 
-1. 初めて開始を行うときは、基本のいくつかを学ぶ短いチュートリアルに従ってく [!UICONTROL Quick Insights Builder] ださい。 または、をクリックして **[!UICONTROL Skip Tutorial]**。
+1. 初めて開始を行うときは、基本のいくつかを学ぶ短いチュートリアルに従ってく [!UICONTROL Quick Insights panel] ださい。 または、をクリックして **[!UICONTROL Skip Tutorial]**。
 1. 構築ブロック（コンポーネントとも呼ばれる）を選択します。ディメンション（オレンジ色）、指標（緑色）、セグメント（青色）または日付範囲（紫色）。自動的に作成されるテーブルに対して、少なくとも1つのディメンションと1つの指標を選択する必要があります。
 
    ![](assets/qibuilder2.png)
 
    構成要素を選択する方法は3つあります。
    * 左のレールからドラッグ&amp;ドロップします。
-   * 探しているものがわかっている場合：開始が名前を入力す [!UICONTROL Quick Insights Builder] ると、空白が入力されます。
+   * 探しているものがわかっている場合：開始が入力し [!UICONTROL Quick Insights] 、空欄を埋めます。
    * ドロップダウンをクリックし、リストを検索
 
 1. 少なくとも1つのディメンションと1つの指標を追加すると、次が作成されます。
@@ -72,13 +72,9 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 他の便利なヒントがに表示されます。最後のアク [!UICONTROL Quick Insights Builder]ションに応じてヒントの一部が表示されます。
 
-* **ドラッグ&amp;ドロップを試す**:例えば、ドロップダウンを使用して文書パーツを選択した場合、次のように表示されます。
+* 最初に、次のチュートリアルを完 **[!UICONTROL More tips]** 了します。ヘルプ(?)からアクセスするアイコンをクリック [!UICONTROL Quick Insights Panel] します。
 
    ![](assets/qibuilder4.png)
-
-* **ビジュアライゼーションの変更**:本当に輝くデータが見つかるまで、様々な視覚的表現を試してみることを推奨します。 折れ線グラフの例を次に示します。
-
-   ![](assets/qibuilder8.png)
 
 * **分類基準**:ディメンションで最大3レベルの分類を使用して、本当に必要なデータを掘り下げることができます。
 
@@ -94,7 +90,13 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ## 既知の制限
 
-テーブル内で直接編集しようとすると、 [!UICONTROL Quick Insights Builder] （空欄埋めツール）が同期しなくなります。 クイックインサイトを前のクイックインサイト設定に戻すには、に移動します。また、クイックインサイ **[!UICONTROL Help > Tutorials]**&#x200B;トパネルの右上にあるをクリックし **[!UICONTROL Resync Builder]** て、テーブルをクリアすることもできます。
+テーブル内で直接編集しようとすると、パネル（空欄埋めツール） [!UICONTROL Quick Insights] の同期がとれなくなります。 パネルの右上にあるをクリッ [!UICONTROL Quick Insights] クして、以前 **[!UICONTROL Resync Builder]** の設定に戻すことができます。
+
+![](assets/qibuilder9.png)
+
+テーブルに直接何かを追加する前に、次の警告が表示されます。
+
+![](assets/qibuilder8.png)
 
 そうしないと、テーブルを直接作成すると、新しいユーザーに役立つ機能を使用せずに、従来のフリーフォームテーブルとして動作するようになります。
 
