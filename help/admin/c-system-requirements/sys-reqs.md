@@ -3,7 +3,7 @@ description: このトピックでは、各 Adobe Analytics ユーザーイン�
 title: 必要システム構成
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -23,10 +23,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **ソリューションと製品の要件**
 
-* [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/ja_JP/sc/user/requirements.html)（Adobe Social を含む）
-* [Report Builder](https://marketing.adobe.com/resources/help/ja_JP/arb/system_requirements.html)
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/ja_JP/dsc/c_sys_reqs.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/ja_JP/insight/install/c_Data_Workbench_Client_install.html)
-* [Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/ov/r_supported_browsers.html)
-* [Adobe Audience Manager](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/supported-browsers.html)
-
+* [Reports &amp; Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf-requirements.html)（Adobe Social を含む）
+* [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Ad Hoc Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-getting-started.html)
+* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html)
+* [Adobe Target](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/supported-browsers.html)
