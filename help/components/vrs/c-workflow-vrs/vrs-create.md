@@ -5,7 +5,7 @@ title: 仮想レポートスイートの作成
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,8 +18,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 仮想レポートスイートは共有できません。「共有」するには、グループや権限を使用します。
 * 仮想レポートスイートマネージャーには、自分が所有する仮想レポートスイートのみが表示されます。他のユーザーの仮想レポートスイートを表示するには、「すべて表示」をクリックする必要があります。
 
-1. **[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**&#x200B;に移動します。
-1. 「**[!UICONTROL 追加 +]**」をクリックします。
+1. /に移動 **[!UICONTROL Components]** します **[!UICONTROL Virtual Report Suites]**。
+1. クリック **[!UICONTROL Add +]**.
 
    ![](assets/new_vrs.png)
 
@@ -59,7 +59,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> セグメント </td> 
-   <td colname="col2"> <p>セグメントは、1 つだけ追加することも、<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_stack.html"  >積み重ねることもできます</a>。 </p> <p> <p>注意：2 つのセグメントを積み重ねると、それらのセグメントが AND ステートメントで結合されます。これを OR ステートメントに変更することはできません。 </p> </p> <p>仮想レポートスイートで現在使用中のセグメントを削除または編集しようとすると、警告が表示されます。 </p> </td> 
+   <td colname="col2"> <p>セグメントは、1 つだけ追加することも、<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-build.html"  >積み重ねることもできます</a>。 </p> <p> <p>注意：2 つのセグメントを積み重ねると、それらのセグメントが AND ステートメントで結合されます。これを OR ステートメントに変更することはできません。 </p> </p> <p>仮想レポートスイートで現在使用中のセグメントを削除または編集しようとすると、警告が表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
