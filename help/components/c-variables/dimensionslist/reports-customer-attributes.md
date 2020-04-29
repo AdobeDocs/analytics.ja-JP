@@ -4,7 +4,7 @@ solution: Experience Cloud,Analytics
 title: 顧客属性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,22 +13,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 顧客属性に関する Analytics の FAQ と顧客属性レポートの実行方法です。
 
-**[!UICONTROL レポート]**／**[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL 顧客属性]**
+**[!UICONTROL Reports]** **[!UICONTROL > Visitor Profile]** > **[!UICONTROL Customer Attributes]**
 
 エンタープライズ顧客データを顧客関係管理（CRM）データベースに取り込んでいる場合は、そのデータを Experience Cloud の顧客属性データソースにアップロードできます。データがアップロードされると、Reports &amp; Analytics の顧客属性レポートを実行できます。
 
 * [Analytics の顧客属性とレポート指標](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [FAQ - Analytics の顧客属性](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-顧客属性データのアップロードについて詳しくは、Experience Cloud ヘルプの[顧客属性](https://marketing.adobe.com/resources/help/ja_JP/mcloud/attributes.html)を参照してください。
+顧客属性データのアップロードについて詳しくは、Experience Cloud ヘルプの[顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)を参照してください。
 
 ## Analytics の顧客属性とレポート指標 {#section_EF343662146B460A882D3DF772ADD86D}
 
-顧客属性をアップロードし、（Experience Cloud で）スキーマを検証すると、属性文字列と整数にマッピングしたわかりやすい名前（*`age`* や *`gender`* など）に基づいて指標が作成されます。これらの指標は、**[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL 顧客属性]**&#x200B;レポートに表示されます。
+顧客属性をアップロードし、（Experience Cloud で）スキーマを検証すると、属性文字列と整数にマッピングしたわかりやすい名前（*`age`* や *`gender`* など）に基づいて指標が作成されます。これらの指標は、/レポート **[!UICONTROL Visitor Profile]** に表示さ **[!UICONTROL Customer Attributes]** れます。
 
 次に例を示します。
 
-**[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL 顧客属性]**／**[!UICONTROL 年齢]**
+**[!UICONTROL Visitor Profile]**／**[!UICONTROL Customer Attributes]**／**[!UICONTROL Age]**
 
 ![](assets/report_age.png)
 
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 年齢指標：個別訪問者数レポートなどのレポートに追加できる指標です。
 * 年齢の数指標：例えば、訪問者がフォームで&#x200B;*`age`*&#x200B;の値を指定しているかどうかを把握できます。
 
-指標は、レポート表の概要なので、平均年齢を示す          [計算指標を作成する](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/)必要があります。この指標の数式は、`Age / Count of Age` となります。
+指標は、レポート表の概要なので、平均年齢を示す          [計算指標を作成する](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html)必要があります。この指標の数式は、`Age / Count of Age` となります。
 
 ## FAQ - Analytics の顧客属性 {#section_E29641D1F3D649C1AC9EA5231921F038}
 
