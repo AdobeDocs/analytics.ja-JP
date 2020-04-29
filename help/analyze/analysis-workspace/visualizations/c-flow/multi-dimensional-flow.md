@@ -3,7 +3,7 @@ description: ディメンション間のフローを使用すると、様々な�
 title: ディメンション間のフロー
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ---
 
@@ -59,5 +59,3 @@ The [!UICONTROL Action Name] dimension was added to the flow, with the top retur
 ここで、それらのキャンペーンがトラフィックを推進しているのはどのページかを確認したいので、ページディメンションをフロー結果の右側にドラッグして、ビジュアライゼーションに追加します。
 
 ![](assets/multi-dimensional-flow9.png)
-
-次に、この結果を他のディメンションまたは指標（売上、訪問など）で分類します。
