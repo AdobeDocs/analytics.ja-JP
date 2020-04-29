@@ -5,7 +5,7 @@ title: ユーザーグループ設定
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 ユーザーグループの定義ページにあるエレメントの説明。
 
-**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL 新しいユーザグループの追加]**
+**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Add New User Group]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -114,7 +114,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager（すべてのアクセス、カスタマイズ、アクセス不可） </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>アクティブな <span class="keyword">TagManager</span> コンテナを持つお客様について、権限がサポートされます。新規ユーザーは使用できません。 </p> <p>アドビでは、<a href="https://marketing.adobe.com/resources/help/ja_JP/dtm/atm_migration.html">Dynamic Tag Management</a> をデプロイすることをお勧めします。 </p> </td> 
+   <td colname="col2"> <p>アクティブな <span class="keyword">TagManager</span> コンテナを持つお客様について、権限がサポートされます。新規ユーザーは使用できません。 </p> <p>アドビでは、<a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> をデプロイすることをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>ユーザーログインの割り当て</b> </td> 
