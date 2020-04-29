@@ -3,7 +3,7 @@ description: 'null'
 title: Ad Hoc Analysis プロジェクトコンバーターの概要
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,8 +21,8 @@ Ad Hoc Analysis プロジェクトコンバーターを使用すれば、Ad Hoc 
 
 プロジェクトの変換には、以下のように様々な利点があります。
 
-* Adobe Analytics の最先端のレポートツールである [Analysis Workspace](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/) 向けにプロジェクトが変換されます。このツールは継続的に機能強化されており、新しいビジュアライゼーションや他の非常に要望の高かった機能が追加されます。
-* Analysis Workspace に搭載されたすべての先端機能を活用できます。[使用する Adobe Analytics ツールの検討](https://marketing.adobe.com/resources/help/ja_JP/reference/which_analytics_tool.html)を参照してください。
+* Adobe Analytics の最先端のレポートツールである [Analysis Workspace](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html) 向けにプロジェクトが変換されます。このツールは継続的に機能強化されており、新しいビジュアライゼーションや他の非常に要望の高かった機能が追加されます。
+* Analysis Workspace に搭載されたすべての先端機能を活用できます。[使用する Adobe Analytics ツールの検討](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html)を参照してください。
 * プロジェクトを一括で変換でき、Analysis Workspace で手動で構築し直す必要はありません。
 * Ad Hoc Analysis は長い間非常に有用なツールでしたが、メンテナンスモードに入ったので、新機能が追加されることはありません。
 
