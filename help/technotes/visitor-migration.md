@@ -5,7 +5,7 @@ title: 訪問者の移行
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 訪問者を移行することで、データ収集ドメインを変更する際に訪問者 ID cookie を保持することができます。データ収集ドメインは、以下の場合に変更される場合があります。
 
-* `2o7.net` から `omtrdc.net` に移行するとき（[Regional Data Collection](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/rdc/)）。
+* `2o7.net` から `omtrdc.net` に移行するとき（[Regional Data Collection](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)）。
 
-* [Experience Cloud の訪問者 ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を導入しようとしており、CNAME／ファーストパーティデータ収集ドメインを `2o7.net` または `omtrdc.net` に移行するとき（[Regional Data Collection](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/rdc/)）。
+* [Experience Cloud の訪問者 ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を導入しようとしており、CNAME／ファーストパーティデータ収集ドメインを `2o7.net` または `omtrdc.net` に移行するとき（[Regional Data Collection](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)）。
 
-* `2o7.net` または `omtrdc.net` から CNAME ／ファーストパーティデータ収集に移行するとき（[ファーストパーティ cookie](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.translate.html)）。
+* `2o7.net` または `omtrdc.net` から CNAME ／ファーストパーティデータ収集に移行するとき（[ファーストパーティ cookie](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html)）。
 
 * 別の CNAME に移行するとき（ドメインの変更）。
 
