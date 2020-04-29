@@ -3,14 +3,14 @@ description: 'null'
 title: データソース処理時間
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # データソース処理時間
 
->[!N注意]
+>[!NOTE]
 >データ処理の期間は、おおよそのものと見なされ、SLA（サービスレベル契約）には含まれません。
 
 データ処理時間は、次のガイドラインに示すように、場合によって異なります。
