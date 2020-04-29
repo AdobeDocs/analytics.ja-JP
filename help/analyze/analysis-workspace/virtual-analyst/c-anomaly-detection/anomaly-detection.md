@@ -3,7 +3,7 @@ description: Analysis Workspace 内で、コンテキスト上のデータの異
 title: 異常値検出の概要
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -31,7 +31,7 @@ Analysis Workspace 内で、コンテキスト上のデータの異常値を表�
 * ビデオバッファーイベントの急増
 * ビデオの低ビットレートの下落
 
-異常値検出と[貢献度分析](https://marketing.adobe.com/resources/help/ja_JP/analytics/contribution/ca_main.html)の双方が、Analysis Workspace の主要ワークフローです。毎日の異常値に対して貢献度分析を実行し、Analysis Workspace プロジェクトに結果を埋め込むことができます。
+異常値検出と[貢献度分析](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)の双方が、Analysis Workspace の主要ワークフローです。毎日の異常値に対して貢献度分析を実行し、Analysis Workspace プロジェクトに結果を埋め込むことができます。
 
 Analysis Workspace の異常値検出アルゴリズムには以下が含まれています。
 
