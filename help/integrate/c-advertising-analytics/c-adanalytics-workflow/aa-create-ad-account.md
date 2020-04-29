@@ -2,7 +2,7 @@
 title: 広告アカウントの設定
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,14 +15,14 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 
 ![](assets/aa_accounts.png)
 
-1. Adobe Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL Advertising アカウント]**&#x200B;に移動します。
+1. Adobe Analyticsで、/に移動し **[!UICONTROL Admin]** ます **[!UICONTROL Advertising Accounts]**。
 1. （初回の使用時のみ）エンドユーザー使用許諾契約書に同意します。
-1. 「**[!UICONTROL 追加]**」をクリックします。
-1. [!UICONTROL 新規検索エンジンアカウント]ダイアログが表示されます。
+1. クリック **[!UICONTROL + Add]**.
+1. ダイアログ [!UICONTROL New Search Engine Account] が表示されます。
 
    ![](assets/aa_new_se_account.png)
 
-1. 以下のガイドラインに従って「**[!UICONTROL 検索エンジンの設定]**」に入力します。
+1. 次のガイドラインに **[!UICONTROL Search Engine Settings]** 従ってください。
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,7 +54,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     </tbody> 
     </table>
 
-1. 「**[!UICONTROL トラッキング]**」セクションで、Adobe Analytics の実装による検索エンジンデータの追跡方法に関する情報を入力します。これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。以下のガイドラインに従って「**[!UICONTROL トラッキングの設定]**」に入力します。
+1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。次のガイドラインに **[!UICONTROL Tracking Settings]** 従ってください。
 
    <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
     <thead> 
@@ -79,13 +79,13 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     </tbody> 
     </table>
 
-1. 「**[!UICONTROL マッピング]**」セクションで、この検索エンジンアカウントにリンクするレポートスイートを選択します。少なくとも 1 つのレポートスイートを指定しないと、Advertising アカウントを保存できません。複数のレポートスイートに複数のアカウントをマッピングできます（1 対 1、1 対多、多対多）。AMO で検索エンジンから取り込んだデータは、マッピングしたどのレポートスイートにもデータ分割がないようにコピーされます。
+1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. 少なくとも 1 つのレポートスイートを指定しないと、Advertising アカウントを保存できません。複数のレポートスイートに複数のアカウントをマッピングできます（1 対 1、1 対多、多対多）。AMO で検索エンジンから取り込んだデータは、マッピングしたどのレポートスイートにもデータ分割がないようにコピーされます。
 
    >[!IMPORTANT]
    >
-   >[Experience Cloud 組織にマッピング](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html)されたレポートスイートのみが選択できます。使用するレポートスイートが表示されない場合は、[Advertising Analytics のトラブルシューティング](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)を参照してください。
+   >[Experience Cloud 組織にマッピング](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)されたレポートスイートのみが選択できます。使用するレポートスイートが表示されない場合は、[Advertising Analytics のトラブルシューティング](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)を参照してください。
 
-   「**[!UICONTROL マッピングの設定]**」では、以下のガイドラインに従います。
+   次のガイドラ **[!UICONTROL Mapping Settings]** インを参照してください。
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -97,12 +97,12 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>レポートスイートマッピング </p> </td> 
-      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
+      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. クリック **[!UICONTROL Save]**.
 1. 保存すると、免責事項に注意事項の一覧が表示されます。この注意事項を読み、理解したことを確認してください。チェックボックスを選択して、「**[!UICONTROL OK]**」をクリックします。
 
    Advertising Accounts [管理 UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) に移動し、新規に作成したアカウントが表示されます。
