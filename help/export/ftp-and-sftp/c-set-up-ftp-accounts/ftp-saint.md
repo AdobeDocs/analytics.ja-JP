@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: 分類
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 分類 FTP オプションは、複数のレポートスイートへのデータアップロード機能や、50,000 行を超えるデータセットのアップロード機能など、大規模な分類データセットを柔軟にアップロードできる機能を備えています。
 
-FTP 経由で分類データをダウンロードしたり、データファイルをアップロードしたりする手順（FTP アカウントを作成する手順を含む）については、[分類](https://marketing.adobe.com/resources/help/ja_JP/reference/c_working_with_saint.html)を参照してください。
+FTP 経由で分類データをダウンロードしたり、データファイルをアップロードしたりする手順（FTP アカウントを作成する手順を含む）については、[分類](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html)を参照してください。
 
 システムでこれらのファイルを読み込むのに必要な時間は、多くの要素に応じて異なります。アップロードしたファイルが 6 時間経過しても FTP サーバー上に残っている場合は、組織のサポート対象ユーザーがアドビカスタマーケアに連絡してください。
 
