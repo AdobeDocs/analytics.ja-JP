@@ -3,7 +3,7 @@ description: このドキュメントでは、CCPA におけるデータ主体�
 title: Adobe Analytics と CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -37,8 +37,8 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 ## 前提条件
 
 * [GDPR 関連の用語](/help/admin/c-data-governance/gdpr-terminology.md)について学びます。
-* ログイン会社名と Experience Cloud 組織をリンクさせます（まだリンクさせていない場合）。アドビカスタマーケアに問い合わせ、[組織とアカウントのリンク設定](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)についてお尋ねください。
-* データガバナンスの設定をおこなう Adobe Analytics のレポートスイートを、[Experience Cloud 組織](https://marketing.adobe.com/resources/help/ja_JP/mcloud/report-suite-mapping.html)にマッピングします。
+* ログイン会社名と Experience Cloud 組織をリンクさせます（まだリンクさせていない場合）。アドビカスタマーケアに問い合わせ、[組織とアカウントのリンク設定](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)についてお尋ねください。
+* データガバナンスの設定をおこなう Adobe Analytics のレポートスイートを、[Experience Cloud 組織](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)にマッピングします。
 * CCPA の削除要求およびアクセス要求に対応できるよう、各レポートスイートのデータ保持ポリシーを設定します。
 
    データ保持期間が設定されていないと、Adobe Analytics は、プライバシーサービス API への要求の処理（お客様のエンドユーザーからのアクセス要求または削除要求の処理）をサポートすることはできません。データ保持期間の設定については、カスタマーサクセスマネージャーまでお問い合わせください。
