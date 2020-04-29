@@ -4,7 +4,7 @@ title: レポートの表示設定とナビゲーション
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,8 +16,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 ## レポートの表示設定とナビゲーション {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
 **[!UICONTROL Analytics]**／**[!UICONTROL Components]**／**[!UICONTROL Report Settings]**
-
-<!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
 | 要素 | 説明 |
 |--- |--- |
