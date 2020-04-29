@@ -4,7 +4,7 @@ title: パス
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 パス分析に基づくレポートのグループ。技術的には、パスとは、あるページ名から別のページ名（ある値から別の値）に移動することです。
 
-より柔軟なパスオプションについては、[Analysis Workspace のフロー](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/flow.html)を使用します。
+より柔軟なパスオプションについては、[Analysis Workspace のフロー](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)を使用します。
 
->[!NOTE]パスを有効にするには、**[!UICONTROL 管理者／レポートスイート／設定を編集／トラフィック／トラフィック変数]**&#x200B;に移動します。サイトセクションおよびサーバーレポートでパスを有効にするには、カスタマーケアにお問い合わせください。
+>[!NOTE] パスを有効にするには、に進みま **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**&#x200B;す。 サイトセクションおよびサーバーレポートでパスを有効にするには、カスタマーケアにお問い合わせください。
 
 値が収集される順序がわかっている場合は、それらの値を収集する変数のパスを有効にする必要があります。ページのパスはデフォルトで有効になっています。prop のパスは、特定の場合にのみ当てはまるので、デフォルトで無効になっています。prop のパスを有効にする場合は、カスタマーケアにお問い合わせください。
 
@@ -27,7 +27,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/path_sections.png)
 
-パスは、[!UICONTROL 次のサイトセクションのフロー] などの様々なパスレポートで利用できます。このレポートには、訪問者がサイトのページグループやセクションをどのように移動しているかが表示されます。
+Pathing is then available in various paths reports, such as [!UICONTROL Next Site Section Flow], which displays how visitors move through page groups, or sections of your site.
 
 ![](assets/paths_report.png)
 
