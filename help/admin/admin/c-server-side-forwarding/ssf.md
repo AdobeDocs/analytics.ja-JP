@@ -4,7 +4,7 @@ solution: Audience Manager
 title: サーバー側転送の概要
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -30,12 +30,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## ![step1_icon.png image](assets/step1_icon.png) ECID サービス実装の確認
 
-[Analytics トラッキングリクエスト](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-test-verify.html)を調べて、Experience Cloud ID（ECID）サービスが実装されているかどうかを確認します。
+[Analytics トラッキングリクエスト](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html)を調べて、Experience Cloud ID（ECID）サービスが実装されているかどうかを確認します。
 
 「リクエスト」タブで、ECID 値が設定されていることを確認します。これで、サーバー側転送の前提条件である ID サービスが適切に実装されていることがわかります。
 
 * ECID 値が表示されている場合は、手順 2 に進みます。
-* ECID 値が表示されていない場合は、手順 2 に進む前に [ID サービスを実装](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-implementation-guides.html)します。
+* ECID 値が表示されていない場合は、手順 2 に進む前に [ID サービスを実装](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html)します。
 
 ## ![step2_icon.png image](assets/step2_icon.png) サーバー側転送の実装バージョンの確認
 
@@ -49,9 +49,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    * **DIL を使用している AAM のお客様**：以下の 2 つの項目を緊密に連携および調整します。
 
-      1. DIL コードを削除し、[Audience Management モジュール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)ページのコードをインストールします。
+      1. DIL コードを削除し、[Audience Management モジュール](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)ページのコードをインストールします。
       1. 手順 3 の説明に従って、Analytics 管理 UI でサーバー側転送を有効にします。DIL コードを削除する前にこの設定を有効にすると、データが複製され、Audience Manager に対する追加の請求対象サーバーコールが作成されます。
-   * **AAM の新しいお客様** - Audience [Management モジュール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)ページのコードをインストールし、手順 3 に進みます。手順 3 でサーバー側転送を有効にするまでは、データは Audience Manager に送信されません。
+   * **AAM の新しいお客様** - Audience [Management モジュール](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)ページのコードをインストールし、手順 3 に進みます。手順 3 でサーバー側転送を有効にするまでは、データは Audience Manager に送信されません。
 
 
 ## ![step3_icon.png image](assets/step3_icon.png) レポートスイートのサーバー側転送の実装の確認
@@ -66,5 +66,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * **無効**：新しいサーバー側転送を有効にしていません。ページのコンテンツを読んで、機能を有効にしてください。
 * **有効**：新しいサーバー側転送がプロビジョニングされています。この Audience Analytics 統合をセットアップすることもできます。
 
->[!NOTE]3 つの手順をすべて実行するまでは、データは他の Experience Cloud ソリューション（[Audience Manager](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/aam-home.translate.html) や [Audiences](https://marketing.adobe.com/resources/help/ja_JP/mcloud/audience_library.html) など）に表示されません。有効にした後、これらの設定が反映されるまでに数時間かかります。
+>[!NOTE]3 つの手順をすべて実行するまでは、データは他の Experience Cloud ソリューション（[Audience Manager](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/aam-home.html) や [Audiences](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html) など）に表示されません。有効にした後、これらの設定が反映されるまでに数時間かかります。
 
