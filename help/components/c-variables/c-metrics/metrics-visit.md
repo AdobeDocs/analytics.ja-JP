@@ -5,7 +5,7 @@ title: 訪問
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 訪問が終了すると、訪問有効期限を持つすべての変数は有効期限切れになり、永続しなくなります。訪問回数指標は、この訪問者の次回訪問時に増分されます。
 
->[!NOTE]Analytics を Adobe Target のレポートソースとして使用する場合は、[!DNL Target] ドキュメントの「[A4T での訪問および訪問者数の水増しの最小化](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)」を参照してください。
+>[!NOTE]Analytics を Adobe Target のレポートソースとして使用する場合は、[!DNL Target] ドキュメントの「[A4T での訪問および訪問者数の水増しの最小化](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)」を参照してください。
 
-詳しくは、Adobe Analytics の導入ガイドの[個別訪問者数の識別](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/visid_overview.html)を参照してください。
+詳しくは、Adobe Analytics の導入ガイドの[個別訪問者数の識別](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/visitor-identification.html)を参照してください。
 
 **期間**
 
