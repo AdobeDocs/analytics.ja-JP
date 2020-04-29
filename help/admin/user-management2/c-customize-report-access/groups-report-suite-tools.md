@@ -6,7 +6,7 @@ title: レポートスイートツールの権限のカスタマイズ
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -15,19 +15,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。
 
-**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL レポートスイートツール]**／**[!UICONTROL カスタマイズ]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
 
-[!UICONTROL レポートスイートツールのカスタマイズ]ページでは、グループのメンバーに次の項目へのアクセス権を付与します。
+このペ [!UICONTROL Customize Report Suite Tools] ージでは、グループのメンバーに次のアイテムへのアクセスを許可します。
 
 ![](assets/report-suite-tools.png)
 
 ## フィールドの説明
 
-このページの設定は、[!UICONTROL ユーザーグループの定義]ページで選択されたレポートスイートに関係します。
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | 要素 | 説明 |
 |--- |--- |
@@ -65,8 +65,8 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | [異常値検出](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/anomaly_detection.html) | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法である、異常値検出に対する権限を付与します。 |
 | [チャネルレポート](https://marketing.adobe.com/resources/help/ja_JP/mchannel/index.html) | レポート／マーケティングチャネルレポートにあるマーケティングチャネルレポートに対する権限を付与します。 |
 | [リアルタイムレポート](/help/admin/admin/realtime/t-realtime-admin.md) | リアルタイムレポートへのアクセス権を付与します。 |
-| [ボットページ](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
-| [ボット](/help/admin/admin/bot-removal/bot-rules.md) | ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
+| [ボットページ](/help/admin/admin/bot-removal/bot-rules.md) | **注意：ボットページは、ボットルールの管理ではなく、特定のReports &amp; Analyticsレポート用です。 現在、ボットルールの編集を許可する権限はありません。**&#x200B;ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
+| [ボット](/help/admin/admin/bot-removal/bot-rules.md) | **注意：ボットは、ボットルールの管理ではなく、特定のReports &amp; Analyticsレポート用です。 現在、ボットルールの編集を許可する権限はありません。** ボットを使用すると、既知のスパイダーやボットによって生成されたトラフィックをレポートスイートから削除できます。 ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
 | [カスタム Data Warehouse レポート](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse は、カスタムレポート用の処理されていない生のデータを取り出す機能です。カスタムレポートはこのデータをフィルタリングして実行します。ユーザー独自の質問に基づいて、生データから詳細なデータの関連性を表示するようレポートにリクエストできます。 |
 | [日別再来訪](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | （レガシー）ある特定の日に、Web サイトを 2 回以上訪ねた訪問者の数を表示するレポートです。1 日は直前の 24 時間として定義されます。 |
 | [データソースマネージャー](/help/admin/admin/data-sources.md) | データソース機能を使用すると、オフラインソースから Analytics にデータをインポートできます。 |
