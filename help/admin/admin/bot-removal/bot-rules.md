@@ -5,7 +5,7 @@ title: ボットルールの概要
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ボットルールを定義すると、すべてのトラフィックが定義済みのルールと比較されます。ボットルールのいずれかと一致するトラフィックは、レポートスイートでは収集されず、レポート対象から除外されます。
 
-ボットルールを更新またはアップロードするには、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;に移動します。適切なレポートスイートを選択し、**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL ボットルール]**&#x200B;に移動します。
+ボットルールを更新またはアップロードするには、// **[!UICONTROL Analytics]** に移 **[!UICONTROL Admin]** 動しま **[!UICONTROL Report Suites]**&#x200B;す。 適切なレポートスイートを選択し、/に移 **[!UICONTROL Edit Settings]** 動し **[!UICONTROL General]** ます **[!UICONTROL Bot Rules]**。
 
 通常、ボットトラフィックを削除すると、トラフィックの量が減り、コンバージョン指標が下がります。多くの場合は、ボットトラフィックを削除することで、コンバージョン率が上がり、他のユーザビリティ指標が増加することを確認できます。ボットトラフィックを削除する前に、関係者に連絡して、この削除を行った場合に、主要業績評価指標に必要な調整を加えることができるかどうかを確認します。調整が可能な場合は、最初に小規模なレポートスイートからボットトラフィックを削除して、発生する可能性がある影響を予測することをお勧めします。
 
@@ -24,12 +24,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 | ルールタイプ | 説明 |
 |--- |--- |
-| 標準 IAB ボットルール | 「[!UICONTROL IAB ボットフィルタリングルールを有効にする]」を選択すると、[IAB](https://www.iab.com)（International Advertising Bureau）の「International Spiders &amp; Bots Lists」を使用してボットトラフィックを削除します。ほとんどのお客様は、少なくともこのオプションを選択します。 |
+| 標準 IAB ボットルール | Selecting [!UICONTROL Enable IAB Bot Filtering Rules] uses the [IAB&#39;s](https://www.iab.com) (International Advertising Bureau&#39;s) International Spiders &amp; Bots List to remove bot traffic. ほとんどのお客様は、少なくともこのオプションを選択します。 |
 | カスタムボットルール | ユーザーエージェント、IP アドレス、または IP 範囲に基づいて、カスタムボットルールを定義して追加できます。 |
 
 ## 標準 IAB ボットルール
 
-標準 IAB ボットルールは、「[!UICONTROL IAB ボットフィルタールールを有効にする]」チェックボックスをオンにすることで有効にできます。この選択により、ボットトラフィックを削除するために、IAB（International Advertising Bureau）の「International Spiders &amp; Bots List」のボットが削除されます。IAB はこのリストを毎月更新します。
+標準のIABボットルールは、チェックボックスをオンにすることで有効にすることが [!UICONTROL Enable IAB Bot Filtering Rules] できます。 この選択により、ボットトラフィックを削除するために、IAB（International Advertising Bureau）の「International Spiders &amp; Bots List」のボットが削除されます。IAB はこのリストを毎月更新します。
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -37,7 +37,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## カスタムボットルール
 
->[!Note]：ユーザーインターフェイスでは 500 個のルールを手動で定義することが可能です。この制限を超える場合は、「ファイルのインポート」および「ボットルールをエクスポート」オプションを使用して、ルールを一括処理する必要があります。
+>[!NOTE]：ユーザーインターフェイスでは 500 個のルールを手動で定義することが可能です。この制限を超える場合は、「ファイルのインポート」および「ボットルールをエクスポート」オプションを使用して、ルールを一括処理する必要があります。
 
 カスタムボットルールを使用すると、定義した条件に基づいてトラフィックをフィルターできます。
 
@@ -51,11 +51,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ### ユーザーエージェント
 
-ユーザーエージェントの条件では、そのユーザーエージェントの値を調べて、指定した文字で&#x200B;**[!UICONTROL 始まる]**&#x200B;か、その文字を&#x200B;**[!UICONTROL 含む]**&#x200B;かを判断します。「**[!UICONTROL 次を含む]**」を選択した場合、ユーザーエージェントの任意の場所に指定した文字が含まれていれば、一致と見なされます。
+A User Agent condition checks the user agent value to see if it **[!UICONTROL starts with]** or **[!UICONTROL contains]** the specified string. If **[!UICONTROL contains]** is selected, the substring is matched if it occurs anywhere in the user agent.
 
-オプションの値を「**[!UICONTROL 次を含まない]**」リストに含めることで、照合を正常におこなうためにユーザーエージェントに含めない値を定義できます。複数の値を指定するには、1 行に 1 つの値を設定します。ユーザーエージェントが照合文字列で指定した条件に一致するとき、「次を含まない」リスト内の文字列も含んでいる場合は、一致と見なされません。
+Optional values can be included in the **[!UICONTROL does not contain]** list to define values that the user agent must not contain for a successful match. 複数の値を指定するには、1 行に 1 つの値を設定します。ユーザーエージェントが照合文字列で指定した条件に一致するとき、「次を含まない」リスト内の文字列も含んでいる場合は、一致と見なされません。
 
-「**[!UICONTROL 次を含む]**」フィールドに入力できるのは 100 文字までです。「次を含まない」リストに入力できる文字数は、255 文字から、各改行の区切り文字の数を引いた文字数です（区切り文字の数は文字列の数 から 1 を引いた数になります。例えば、4 つの「*次を含まない*」文字列を指定する場合、3 つの区切り文字が必要です）。すべての文字列照合では、大文字と小文字が区別されません。
+The **[!UICONTROL contains]** field is limited to 100 characters. 「次を含まない」リストに入力できる文字数は、255 文字から、各改行の区切り文字の数を引いた文字数です（区切り文字の数は文字列の数 から 1 を引いた数になります。例えば、4 つの「*次を含まない*」文字列を指定する場合、3 つの区切り文字が必要です）。すべての文字列照合では、大文字と小文字が区別されません。
 
 ### IP アドレス（ワイルドカードの照合を含む）
 
@@ -72,9 +72,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ### カスタムボットルールを定義する
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**&#x200B;に移動し、1 つまたは複数のレポートスイートを選択して、**[!UICONTROL 一般]**／**[!UICONTROL ボットルール]**&#x200B;をクリックします。
-1. 「**[!UICONTROL ルールの追加]**」をクリックし、1 つまたは複数の照合条件を定義します。
-1. 「**[!UICONTROL 保存]**」をクリックします。変更が反映されるまで、最大 30 分かかります。
+1. /に移動し **[!UICONTROL Analytics]** 、1つ **[!UICONTROL Admin]**&#x200B;または複数のレポートスイートを選択し、/をクリック **[!UICONTROL General]** しま **[!UICONTROL Bot Rules]**&#x200B;す。
+1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
+1. クリック **[!UICONTROL Save]**. 変更が反映されるまで、最大 30 分かかります。
 
 ## ボットルールのアップロード
 
@@ -106,11 +106,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ### すべてのルールをアップロードファイルで上書き
 
-すべての既存のルールを削除し、アップロードファイルに定義されているルールで置き換えるには、「**[!UICONTROL Overwrite existing rules（既存のルールを上書き）]**」チェックボックスをオンにします。
+すべての既存のルールを削除し、アップロードファイルに定義されているルールで置き換えるには、「**[!UICONTROL Overwrite existing rules]**（既存のルールを上書き）」チェックボックスをオンにします。
 
 ### ルールの書き出し
 
-「**[!UICONTROL Export Uploaded Bot File（更新されたボットファイルを書き出し）]**」ボタンをクリックすとる、UI に定義されているすべてのルールが CSV 形式でエクスポートされます。
+The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
 
 
 ## データ収集に対するボットルールの影響 {#section_F01A3130E7A04A9993371CF26F6586F2}
