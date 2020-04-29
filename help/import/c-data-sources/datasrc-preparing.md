@@ -5,7 +5,7 @@ title: データソースを使用するための準備
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 データソースのデータに対して指標とイベントとの適切なマッピングを決定した後は、イベント名を、関連するデータソース指標に対応するわかりやすい名前に変更します。
 
-管理ツールのヘルプの「[成功イベント](https://marketing.adobe.com/resources/help/ja_JP/reference/success_event.html)」を参照してください。
+管理ツールのヘルプの「[成功イベント](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/success-events/success-event.html)」を参照してください。
 
 >[!NOTE]アドビではデータソースのデータに新しい空のイベントを使用することを強くお勧めしますが、既存のイベントの使用が適する場合も稀にあります。
 
@@ -44,7 +44,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 eVar を使用する場合は、既存の eVar と新規の eVar のどちらでもデータディメンションとして使用できます。データソースからデータディメンションを受け取る eVar を選択したら、必ずこれらの eVar に適切な名前を付けてください。
 
-Analytics のヘルプの「[成功イベント](https://marketing.adobe.com/resources/help/ja_JP/reference/success_event.html)」を参照してください。
+Analytics のヘルプの「[成功イベント](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/success-events/success-event.html)」を参照してください。
 
 ## キャンペーントラッキングコード {#section_468222796FF449ABAA90D88EB3264CB1}
 
