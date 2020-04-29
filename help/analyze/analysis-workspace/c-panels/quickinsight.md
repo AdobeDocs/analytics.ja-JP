@@ -2,7 +2,7 @@
 description: クイックインサイトビルダーは、新しいWorkspaceユーザーがデータテーブルやビジュアライゼーションを作成する際に役立つツールです
 title: クイックインサイトビルダー
 translation-type: tm+mt
-source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** は現在ベータテスト中で、Adobe Analyticsのすべてのお客様はまだご利用いただけません。
+>**[!UICONTROL Quick Insights]** は現在、限定的なテストを行っており、Adobe Analyticsのすべてのお客様がまだ利用できるわけではありません。
 
 [!UICONTROL Quick Insights] ビジネスの質問に迅速かつ容易に答える方法を学ぶための、アナリストでな [!UICONTROL Analysis Workspace] いユーザーおよび新しいユーザー向けのガイダンスを提供します。 また、テーブルを自分で作成しなくても簡単な質問にすばやく答えたいと考える上級ユーザーにとっても優れたツールです。
 
