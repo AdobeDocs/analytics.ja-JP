@@ -3,7 +3,7 @@ description: サーバー側転送コールでの設定変数、HTTP ヘッダ�
 title: サーバー側転送のデータとコードのリファレンス
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 設定変数 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-プレフィックス `d_*` が付いたパラメーターは、[データ収集サーバー](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/system-components/components-data-collection.translate.html)（DCS）によって使用される特殊なシステムレベルのキーと値のペアを示します。[DCS API 呼び出しでサポートされる属性](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)も参照してください。
+プレフィックス `d_*` が付いたパラメーターは、[データ収集サーバー](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html)（DCS）によって使用される特殊なシステムレベルのキーと値のペアを示します。[DCS API 呼び出しでサポートされる属性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)も参照してください。
 
 | パラメーター | 説明 |
 |--- |--- |
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## カスタム定義のシグナル {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)も参照してください。
+プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)も参照してください。
 
 | シグナル | 説明 |
 |--- |--- |
