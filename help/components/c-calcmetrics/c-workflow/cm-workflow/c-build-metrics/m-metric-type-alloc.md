@@ -3,7 +3,7 @@ description: '詳細 '
 title: 指標タイプとアトリビューション
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 >[!IMPORTANT]
 >
->2018 年 7 月に、計算指標における配分モデルの評価方法を変える [Attribution IQ](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/attribution.html) が [!DNL Analytics] に導入されました。この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
+>2018 年 7 月に、計算指標における配分モデルの評価方法を変える [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) が [!DNL Analytics] に導入されました。この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
 >
->* デフォルト以外のアトリビューションモデルの完全なリストとサポートされるルックバックウィンドウについては、[Attribution IQ](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/attribution.html) のドキュメントを参照してください。
+>* デフォルト以外のアトリビューションモデルの完全なリストとサポートされるルックバックウィンドウについては、[Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) のドキュメントを参照してください。
 >* 「マーケティングチャネルラストタッチ」と「マーケティングチャネルファーストタッチ」配分モデルはそれぞれ、新しい「ラストタッチ」と「ファーストタッチ」アトリビューションモデルに移行されます（注意：「マーケティングチャネル」は廃止されません。計算指標で表示される 2 つの配分モデルのみが廃止されます）。
 >* さらに、線形配分の計算方法が修正されます。顧客が線形配分モデルで計算指標を使用する場合、修正された新しいアトリビューションモデルを反映してレポートが若干変わる可能性があります。この計算指標の変更は、Analysis Workspace、Reports &amp; Analytics、レポート API、Report Builder、および Ad Hoc Analysis に反映されます。For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
 >
