@@ -4,7 +4,7 @@ title: ディメンションの説明
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -45,7 +45,7 @@ Reports &amp; Analytics で使用可能な事前定義済みレポートの定�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/ja_JP/insight/dataset/c_ex_dim.html"  >拡張ディメンション</a> </td> 
+   <td colname="col2"><a href="https://docs.adobe.com/content/help/en/data-workbench/using/dataset/extended-dimensions/c-abt-ex-dim.html"  >拡張ディメンション</a> </td> 
   </tr> 
  </tbody> 
 </table>
