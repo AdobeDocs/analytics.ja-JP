@@ -3,7 +3,7 @@ description: 'null'
 title: 移行の影響を受ける API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -44,5 +44,5 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 * [一般ユーザー管理情報](https://helpx.adobe.com/jp/enterprise/help/users.html)
 * [adobe.io 経由でのユーザー管理 API](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [ユーザー管理 API フォーラム](https://forums.adobe.com/community/umapi/overview)
-* [Analytics ユーザーアクセスおよび管理の Experience Cloud への移行](https://marketing.adobe.com/resources/help/ja_JP/experience-cloud/admin-console/analytics-migration/)
+* [Analytics ユーザーアクセスおよび管理の Experience Cloud への移行](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
