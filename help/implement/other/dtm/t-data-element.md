@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: データ要素の作成
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,8 +15,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 Dynamic Tag Management でデータ要素を作成します。
 
 1. [Web プロパティを作成します](/help/implement/other/dtm/t-create-web-property.md)（まだ作成していない場合）。
-1. Web プロパティで、**[!UICONTROL ルール]**／**[!UICONTROL データ要素]**&#x200B;をクリックします。
-1. 「**[!UICONTROL 新規データ要素を作成]**」をクリックします。
+1. Webプロパティで、/をクリッ **[!UICONTROL Rules]** クしま **[!UICONTROL Data Elements]**&#x200B;す。
+1. クリック **[!UICONTROL Create New Data Element]**.
 1. 次のフィールドおよびオプションに情報を入力します。
 
    <table id="choicetable_681F7D5B86534FF0B6DB67E117B8E381"> 
@@ -32,7 +32,7 @@ Dynamic Tag Management でデータ要素を作成します。
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>タイプ</strong></td> 
-      <td class="chdesc stentry"> <p> JS オブジェクト、CSS セレクター、Cookie、URL パラメーター、カスタムスクリプトなど、データ取得元のタイプを指定します。 </p> <p>選択したタイプに応じて、異なるオプションが表示されます。詳細と例については、Dynamic Tag Management 製品ドキュメントの<a href="https://marketing.adobe.com/resources/help/ja_JP/dtm/data_elements.html">データ要素のタイプ</a>を参照してください。 </p> </td> 
+      <td class="chdesc stentry"> <p> JS オブジェクト、CSS セレクター、Cookie、URL パラメーター、カスタムスクリプトなど、データ取得元のタイプを指定します。 </p> <p>選択したタイプに応じて、異なるオプションが表示されます。詳細と例については、Dynamic Tag Management 製品ドキュメントの<a href="https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html">データ要素のタイプ</a>を参照してください。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>デフォルト値</strong></td> 
@@ -53,5 +53,5 @@ Dynamic Tag Management でデータ要素を作成します。
     </tr> 
    </table>
 
-   データ要素の使用方法について詳しくは、Adobe Tag Management 製品ドキュメントの[データ要素](https://marketing.adobe.com/resources/help/ja_JP/dtm/data_elements.html)を参照してください。
-1. **[!UICONTROL データ要素を保存]**&#x200B;をクリックします。
+   データ要素の使用方法について詳しくは、Adobe Tag Management 製品ドキュメントの[データ要素](https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html)を参照してください。
+1. クリック **[!UICONTROL Save Data Element]**.
