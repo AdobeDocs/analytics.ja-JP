@@ -4,7 +4,7 @@ title: トラッキングコード
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 * このレポートは、[s.campaign](/help/implement/vars/page-vars/campaign.md) からデータを直接参照しており、
 * [コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)に基づいています。つまり、これはページビューの完了後も持続でき、指定した有効期限内で指標と関連付けることができます。
-* このレポートのデフォルト指標は売上高です。このデフォルト値は、[!UICONTROL 管理ツール]にある [!UICONTROL Report Suite Manager] で変更できます（**[!UICONTROL 設定の編集]**／**[!UICONTROL 個々のレポートスイートの設定]**／**[!UICONTROL デフォルトの指標]**）。
+* このレポートのデフォルト指標は売上高です。このデフォルト値は、ので変更でき [!UICONTROL Report Suite Manager] ます [!UICONTROL Admin Tools]。( **[!UICONTROL Edit Settings]** > **[!UICONTROL Individual Report Settings]** > **[!UICONTROL Default Metrics]**)。
 
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
-* [!UICONTROL キャンペーン]および[!UICONTROL クリエイティブエレメント]レポートはこのレポートに基づく分類であり、各レポートスイートによって自動的に作成されます。
+* The [!UICONTROL Campaigns] and [!UICONTROL Creative Elements] reports are classifications based on this report, and are automatically created with each report suite.
 
 * SAINT 分類をこのレポートで使用すると、行項目の名前変更や統合ができます。
 * このレポートは、以下のレポートによって分類できます（組織とレポートスイートの設定によって異なります）。
@@ -43,9 +43,9 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 **Reports &amp; Analytics のプロパティ**
 
-* このレポートを見つけるには、**[!UICONTROL コンバージョン]**／**[!UICONTROL キャンペーン]**／**[!UICONTROL トラッキングコード]**&#x200B;をクリックします（メニューがカスタマイズされていない場合）。
+* メニュー **[!UICONTROL Conversion]** がカスタマ **[!UICONTROL Campaigns]** イズされていな **[!UICONTROL Tracking Code]** い限り、/をクリックしてこのレポートを見つけます。
 
-* すべての[リスト変数](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)によって、このレポートを掘り下げることができます。
+* すべての[リスト変数](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/list-var-admin.html)によって、このレポートを掘り下げることができます。
 * ページビュー数、訪問回数、および実訪問者数は指標として使用できます。
 * このレポートではセグメントを使用できます。
 
