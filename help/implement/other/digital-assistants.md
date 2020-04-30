@@ -2,18 +2,12 @@
 title: デジタルアシスタント向け Analytics
 description: Amazon Alexa や Google Home などのデジタルアシスタントに Adobe Analytics を実装します。
 translation-type: tm+mt
-source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # デジタルアシスタント向け Analytics
-
-<!-- 
-https://wiki.corp.adobe.com/display/mobileanalytics/Analytics+for+Digital+Assistants+Whitepaper
-https://marketing.adobe.com/resources/help/en_US/sc/implement/digital-assistants-white-paper.html
-Ticket: https://jira.corp.adobe.com/browse/AN-157750
--->
 
 最近のクラウドコンピューティング、機械学習、自然言語処理の進化に伴い、デジタルアシスタントは日常生活の一部となっています。消費者は自分のデバイスと会話し始め、デバイスが人間のような方法で理解し、対応することを期待しています。こうしたプラットフォームが普及したことで、ブランドは、これと同様の生身の人間のような応対でサービスを消費者に提示できるようになりました。例えば消費者は、次のような質問を投げかけることができます。
 
