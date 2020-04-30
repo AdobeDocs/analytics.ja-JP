@@ -4,7 +4,7 @@ title: バウンス率
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE]Analytics のデフォルトの指標と異なる計算指標が既存の実装に含まれていることがあります。計算指標の定義を調べて、違いがないことを確認してください。
 
-詳しくは、こちらの[ナレッジベースの記事](https://marketing.adobe.com/resources/help/ja_JP/home/index.html#kb-analytics-comparing-bounces-and-single-access)を参照してください。
+詳しくは、こちらの[ナレッジベースの記事](https://helpx.adobe.com/analytics/kb/comparing-bounces-and-single-access.html)を参照してください。
