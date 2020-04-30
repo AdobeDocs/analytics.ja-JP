@@ -4,7 +4,7 @@ title: リアルタイムレポートの設定
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 リアルタイムレポートを設定するための管理者の手順です。
 
-[!UICONTROL Reports &amp; Analytics] 内でリアルタイムレポートを設定する手順は、レポートスイートを選択する操作と、そのレポートスイートに対して最大 3 つのレポートを設定する操作で構成されます。
+[!UICONTROL Reports & Analytics] 内でリアルタイムレポートを設定する手順は、レポートスイートを選択する操作と、そのレポートスイートに対して最大 3 つのレポートを設定する操作で構成されます。
 
 1. リアルタイムレポートを有効にするレポートスイートを選択します。
 
-   **[!UICONTROL Analytics]**／**[!UICONTROL レポート]**／**[!UICONTROL すべてのレポートを表示／サイト指標]**／**[!UICONTROL リアルタイム]**&#x200B;に移動し、上部のドロップダウンからレポートスイートを選択します。
+   Navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** and select the report suite from the drop-down at the top:
 
    ![](assets/report_suite_selector.png)
 
@@ -25,11 +25,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. **[!UICONTROL 設定]**（歯車アイコン）をクリックして、[!UICONTROL Report Suite Manager] を実行します。
+1. (歯車ア **[!UICONTROL Configure]** イコン)をクリックして、を実行しま [!UICONTROL Report Suite Manager]す。
 
-   （**[!UICONTROL Analytics]**／**[!UICONTROL 管理者／レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL リアルタイム]**&#x200B;から Report Suite Manager にアクセスすることもできます）
+   (> > >から **[!UICONTROL Analytics]** も使 **[!UICONTROL Admin > Report Suites]** 用で **[!UICONTROL Edit Settings]** き **[!UICONTROL Real-Time]**&#x200B;ます)。
 
-1. 「**[!UICONTROL リアルタイムの処理を有効にする]**」設定をオンにします。
+1. 設定をオンにし **[!UICONTROL Enable Real-Time]** ます。
 1. 最大 3 つのレポートに対してリアルタイムデータ収集を設定し、レポートあたり 1 つの指標と 3 つのディメンションまたは分類を使用できます。
 
    ![](assets/real_time_admin.png)
@@ -52,8 +52,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/warning_dimensions.png)
 
-1. 「**[!UICONTROL 保存]**」または「**[!UICONTROL レポートを保存して表示]**」をクリックします。
+1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
 
-   この最初のレポート設定の後、データのストリーミングが開始されるまでに最大 20 分間かかることがあります。それ以降はデータをすぐに使用できます。リアルタイムレポートの表示については、[リアルタイムレポートの実行](https://marketing.adobe.com/resources/help/ja_JP/sc/user/reports_realtime.html)を参照してください。
+   この最初のレポート設定の後、データのストリーミングが開始されるまでに最大 20 分間かかることがあります。それ以降はデータをすぐに使用できます。リアルタイムレポートの表示については、[リアルタイムレポートの実行](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html)を参照してください。
 
 1. デフォルトでは、すべてのユーザーがリアルタイムレポートにアクセスします。
