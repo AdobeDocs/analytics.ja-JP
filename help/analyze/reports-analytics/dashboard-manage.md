@@ -5,7 +5,7 @@ title: ダッシュボードマネージャー
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -70,7 +70,7 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
 
 既存のレガシーダッシュボードを引き続き実行し、編集、ダウンロードおよびスケジュールを行うこともできますが、レガシーダッシュボードを新規作成することはできません。必要なユーザーアクション：既存のレガシーダッシュボードを新しいダッシュボードフォーマットにアップグレードすることを強くお勧めします。
 
->[!NOTE]今後は、[Analysis Workspace プロジェクト](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/)とダウンロードおよびスケジュール機能の使用を検討してください。
+>[!NOTE]今後は、[Analysis Workspace プロジェクト](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html)とダウンロードおよびスケジュール機能の使用を検討してください。
 
 レガシーダッシュボードをコピーすると、編集用のレガシーダッシュボードが表示され、レガシーコンテンツまたは新しいコンテンツを追加できます。レガシーダッシュボードをコピーしても、元のレガシーダッシュボードはレガシーダッシュボードのリストに保持されます。
 
