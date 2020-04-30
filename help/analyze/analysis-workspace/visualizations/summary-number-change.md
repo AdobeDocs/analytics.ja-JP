@@ -3,7 +3,7 @@ description: 'null'
 title: 数の概要と変更の概要
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 * 一定範囲のセルが選択されている場合、選択された範囲内の最初と最後のセルが比較されます。
 * 列が選択されている場合、先頭の値がそれ自体と比較されます。その結果、変更は 0 と表示されます。
 * 変更概要の緑と赤の部分は、以下の方法で制御できます。
-   * [カスタムイベントの極性](https://marketing.adobe.com/resources/help/ja_JP/reference/success_event.html)。
-   * 計算指標の「[上昇傾向を次の形式で表示](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/cm_build_metrics.html)」オプション。
+   * [カスタムイベントの極性](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/success-events/success-event.html)。
+   * 計算指標の「[上昇傾向を次の形式で表示](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)」オプション。
 
 ## 変更概要設定 {#section_2581AC0107634FB4990AB8347E5897AA}
 
