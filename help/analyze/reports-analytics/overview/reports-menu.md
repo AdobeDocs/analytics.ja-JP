@@ -3,7 +3,7 @@ description: Reports & Analytics のレポートメニューの概要を示し�
 title: レポートメニュー
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -27,7 +27,7 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-個々のレポートについて詳しくは、[レポートの説明](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_descriptions.html)を参照してください。
+個々のレポートについて詳しくは、[レポートの説明](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)を参照してください。
 
 ## レポートの検索 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -59,7 +59,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">セグメント <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">セグメントを追加または管理できるセグメントパネルを表示します。このパネルから、<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_build_ui.html"  >セグメントビルダー</a>および<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_manage.html"  >セグメントマネージャー</a>のインターフェイスにもアクセスできます。 </td> 
+   <td colname="col2">セグメントを追加または管理できるセグメントパネルを表示します。このパネルから、<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >セグメントビルダー</a>および<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >セグメントマネージャー</a>のインターフェイスにもアクセスできます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">指標 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -107,7 +107,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1">レポートスイートセレクター <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/ja_JP/reference/report_suites_admin.html"  >基本レポートスイート</a>または<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/virtual-report-suites.html"  >仮想レポートスイート</a>を選択できます。 </td> 
+   <td colname="col2"><a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/report-suites-admin.html"  >基本レポートスイート</a>または<a href="https://docs.adobe.com/help/ja-JP/analytics/components/virtual-report-suites/vrs-about.html"  >仮想レポートスイート</a>を選択できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">カレンダー <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
 
 ## すべてのレポートメニューのカスタマイズ {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/customize-menus.translate.html)」を参照してください。
+管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)」を参照してください。
