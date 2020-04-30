@@ -4,7 +4,7 @@ title: IP アドレスで除外
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。IP アドレスデータを除外することにより、レポートの精度が向上します。さらに、データを歪曲するサービス妨害（DoS）や悪意のあるイベントからデータを除外することもできます。除外は、ファイアウォールを使用して設定することもできます。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL IP アドレスで除外]**
+**[!UICONTROL Analytics]**／**[!UICONTROL Admin]**／**[!UICONTROL Exclude by IP]**
 
->[!NOTE]IP アドレスによって除外されたヒットは、[サーバーコール](https://marketing.adobe.com/resources/help/ja_JP/reference/primary_server_calls.html)として請求されます。
+>[!NOTE]IP アドレスによって除外されたヒットは、[サーバーコール](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/terms.html)として請求されます。
 
 ## Cookie ごとに除外 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -25,7 +25,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 | 要素 | 説明 |
 |--- |--- |
-| [!UICONTROL CNAME を追加] | ドメインを除外するために使用できるオプトアウトリンクを生成します。アシストが必要な場合には、貴社のサポート対象ユーザーにお問い合わせください。<br>会社のオプトアウトページに移動してブラウザーを測定の対象から除外することを選択することで、トラフィックをレポートスイートのレポートから除外することができます。<br>実装にサードパーティの cookie を使用している場合、オプトアウトページは[こちら](https://democorp.112.2o7.net/optout.html?locale=ja_JP&amp;popup=true)です。 |
+| [!UICONTROL Add CNAME] | ドメインを除外するために使用できるオプトアウトリンクを生成します。アシストが必要な場合には、貴社のサポート対象ユーザーにお問い合わせください。<br>会社のオプトアウトページに移動してブラウザーを測定の対象から除外することを選択することで、トラフィックをレポートスイートのレポートから除外することができます。<br>実装にサードパーティの cookie を使用している場合、オプトアウトページは[こちら](https://democorp.112.2o7.net/optout.html?locale=ja_JP&amp;popup=true)です。 |
 
 >[!NOTE]コンピューターによる除外は、次の場合にのみ機能します。
 >
@@ -46,7 +46,7 @@ IP アドレスとは、インターネットアドレスのことです。す�
 
 ファイアウォールを介して、特定の IP アドレスからのデータ収集をブロックすることもできます。
 
-[Experience Cloud で使用されている IP アドレス](https://marketing.adobe.com/resources/help/ja_JP/home/index.html#kb-adobe-ip-addresses)の記事を参照してください。
+[Experience Cloud で使用されている IP アドレス](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html)の記事を参照してください。
 
 ## IP の不明化の影響 {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
