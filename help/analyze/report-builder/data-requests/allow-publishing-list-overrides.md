@@ -4,7 +4,7 @@ title: 発行リストの上書きの許可
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 発行リストは Analytics 管理ツールで設定しておく必要があります。
 
-Analytics リファレンスの[発行リスト](https://marketing.adobe.com/resources/help/ja_JP/reference/publishing_list.html)を参照してください。
+Analytics リファレンスの[発行リスト](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html)を参照してください。
 
 この機能を有効にするには、ウィンドウに移動 [!UICONTROL Request Wizard: Step 1] します。
 
