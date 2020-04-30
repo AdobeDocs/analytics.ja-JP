@@ -5,7 +5,7 @@ title: 要件とアップロードに関する制限
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>サポート対象。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/new_report_suite.html"  >新しいレポートスイート</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>サポート対象。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新しいレポートスイート</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> バイトオーダーマーク付きの UTF-8（EF BB BF） </td> 
