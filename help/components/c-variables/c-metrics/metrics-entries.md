@@ -4,7 +4,7 @@ title: 入口
 topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,4 +15,4 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 
 2020 年 3 月の時点で、Analysis Workspace における「なし」の値と入口／出口との相互作用を変更しました。分析ワークスペースで「なし」のオン/オフを切り替えられるようになったので、入口または出口の後に「なし」を適用します。以前は（eVarの場合）「なし」を適用していました。  例えば、訪問の最初のヒットにeVar21の値がなく、2番目のヒットに値がないとします。 Reports &amp; Analytics では、そのエントリに対して「未指定」と表示されますが、Analysis Workspace では 2 回目のヒットの値が表示されます。
 
-入口ページは、訪問を分類する基準となります。つまり、訪問のすべてのヒットに対して持続性を持ちます。詳しくは、[分類とセグメント化コンテナ](https://marketing.adobe.com/resources/help/en_US/sc/user/c_Breakdown_and_segmentation_containers.html)を参照してください。
+入口ページは、訪問を分類する基準となります。つまり、訪問のすべてのヒットに対して持続性を持ちます。詳しくは、[分類とセグメント化コンテナ](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-overview.html)を参照してください。
