@@ -4,7 +4,7 @@ title: ファイルのダウンロード数
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **ナビゲーション**
 
-**[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL リンク]**／**[!UICONTROL ファイルのダウンロード数]**
+**[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Links]** > **[!UICONTROL File Downloads]**
 
 このレポートがデフォルトの場所で使用できない場合は、担当の管理者にお問い合わせください。固有のニーズをよりよく満たすために、管理者がデフォルトのメニュー構成を変更した可能性があります。
 
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. サイト上で、グローバル JavaScript ファイルを探します。これは [!DNL s_code.js] という名前であることが多いですが、名前が変更されている場合もあります。名前が変更されている場合は、サイト上の JavaScript ファイルで JavaScript コードの一部である値「*`s.account`*」を検索できます。
 
-1. ファイル内で、[s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) 変数を見つけます。これが *true* に設定されていることを確認してください。
+1. ファイル内で、[s.trackDownloadLinks](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/config-vars/trackdownloadlinks.html) 変数を見つけます。これが *true* に設定されていることを確認してください。
 
-1. [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html) 変数を見つけます。必要なすべてのファイル拡張子がこのリストに含まれていることを確認してください。必要な場合は、存在しない [!DNL .pdf] や [!DNL .zip] などの拡張子を追加します。
+1. [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html) 変数を見つけます。必要なすべてのファイル拡張子がこのリストに含まれていることを確認してください。必要な場合は、存在しない [!DNL .pdf] や [!DNL .zip] などの拡張子を追加します。
 
-これらの変数が正しく設定されているように見えるが[!UICONTROL ファイルのダウンロード数レポート]にデータが表示されない場合は、サポート対象ユーザーがカスタマーケアに連絡してください。
+If these variables appear to be configured correctly, but the [!UICONTROL File Downloads Report] still is not receiving data, your organization&#39;s supported users should contact Customer Care.
