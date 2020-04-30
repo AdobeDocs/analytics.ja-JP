@@ -4,7 +4,7 @@ title: レポートデータのフィルタリング
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -49,7 +49,7 @@ help:Internal Search Term
 
 **次を含まない**
 
-指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://marketing.adobe.com/resources/help/ja_JP/reference/none-unspecified-unknown-other.html)をレポートから除外できます。
+指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html)をレポートから除外できます。
 
 次を含まない。`none`
 
