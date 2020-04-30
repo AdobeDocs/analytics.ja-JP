@@ -5,7 +5,7 @@ title: コホート分析レポートの実行
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -46,7 +46,7 @@ Analysis Workspace でコホートを作成し、コホート分析レポート�
 
    セル（連続または非連続）を選択し、右クリックして、/を選択しま **[!UICONTROL Create Segment From Selection]**&#x200B;す。
 
-1. In the [Segment Builder](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/seg_build.html), further edit the segment, then click **[!UICONTROL Save]**.
+1. In the [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), further edit the segment, then click **[!UICONTROL Save]**.
 
    The saved segment is available for use in the [!UICONTROL Segment] panel in Analysis Workspace.
 1. コホートプロジェクトに名前を付けて保存します。
