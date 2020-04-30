@@ -5,7 +5,7 @@ title: 管理要件
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -34,7 +34,7 @@ Analysis Workspace の必要システム構成です。
   </tr> 
   <tr> 
    <td colname="col1"> ユーザー </td> 
-   <td colname="col2"> <p>Analytics の「Workspace」タブへのアクセスを有効にするには、管理者は、<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html"  >グループ</a>で、<span class="uicontrol">Analysis Workspace アクセス</span>グループにユーザーを追加する必要があります。 </p> </td> 
+   <td colname="col2"> <p>Analytics の「Workspace」タブへのアクセスを有効にするには、管理者は、<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html"  >グループ</a>で、<span class="uicontrol">Analysis Workspace アクセス</span>グループにユーザーを追加する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> プロジェクトの転送 </td> 
