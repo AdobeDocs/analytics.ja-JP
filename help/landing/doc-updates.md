@@ -3,7 +3,7 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analyticsドキュメントリポジトリに対する注目すべき更新です。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 | 日付 | 説明 |
 |---|---|
+| 2020年2月27日 | [Adobe Analytics Labsのドキュメントを追加しました](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/tech-previews/overview.html)。 |
 | 2020 年 2 月 26 日 | 変数を追加 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) しました。 |
 | 2020 年 2 月 19 日 | 変数を追加 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) しました。 |
 | 2020 年 2 月 13 日 | マーケティングチャネルドキュメントの更新 [と再編成](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
