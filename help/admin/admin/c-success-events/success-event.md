@@ -5,7 +5,7 @@ title: 成功イベントの概要
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
-3. Navigate to [!UICONTROL Admin] > [!UICONTROL Report Suites]
-4. 目的のレポートスイートを選択し、設定の編集 [!UICONTROL /コンバージョン/] 成功イベント [!UICONTROL に移動します]。
-5. 目的のイベントを見つけ、「個別イベントの記録 [!UICONTROL 」ドロップダウンを「訪問ご] とに1回記録 [!UICONTROL 」または「イベントIDを使用」に変] 更します 。
+3. 移動先/ [!UICONTROL Admin][!UICONTROL Report Suites]
+4. 目的のレポートスイートを選択し、//に移 [!UICONTROL Edit Settings] 動し [!UICONTROL Conversion] ます [!UICONTROL Success Events]。
+5. 目的のイベントを見つけ、またはに対するド [!UICONTROL Unique Event Recording] ロップダウンを [!UICONTROL Record Once Per Visit] 変更しま [!UICONTROL Use Event ID]す。
 
 Web サイトのタイプに応じて、様々な種類の成功イベントがあります。次にいくつか例を示します。
 
@@ -32,11 +32,11 @@ Web サイトのタイプに応じて、様々な種類の成功イベントが�
 * **ハイテク**：ホワイトペーパーのダウンロード、RFP、フォーム入力、サポート要求
 * **自動車**：リードの送信、見積の要求、パンフレットのダウンロード
 
-[s.events](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/events.html) 変数は、成功イベントを定義するためのものです。
+[s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) 変数は、成功イベントを定義するためのものです。
 
 ## 成功イベントページ - 説明 {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定の編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL 成功イベント]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
 
 成功イベントページではサイトで使用するイベント変数を設定します。成功イベントは 1,000 件まで追加できます。イベント 81 - 1,000 は、H22 コード以上でのみ動作します。
 
