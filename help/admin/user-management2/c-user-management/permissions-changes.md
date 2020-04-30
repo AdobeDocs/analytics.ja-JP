@@ -6,7 +6,7 @@ title: ユーザーおよびグループ権限の変更
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 ## 変更内容 {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**
+**[!UICONTROL Admin]**／**[!UICONTROL User Management]**／**[!UICONTROL Groups]**
 
 >[!NOTE]使用可能な権限の組み合わせが多いので、権限の組み合わせごとに使用できる API メソッドをすべて説明するドキュメントを用意することはできません。一般に、Web サービスへのアクセス権を付与された非管理者は、API メソッドへの読み取りアクセスのみ可能です。API メソッドへの書き込みアクセスはできません。
 
@@ -61,12 +61,12 @@ API とインターフェイスでは同じ権限付与システムを使用し�
    <td colname="col2"> <p>権限をカスタマイズして、（指標に加えて）ディメンションへのアクセス権を含めたり、除外したりできます。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/c_classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
     </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">ディメンションの権限のカスタマイズ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>新規のお客様または <a href="https://marketing.adobe.com/resources/help/ja_JP/mcloud/core_services.html">Experience Cloud でプロビジョニングされた</a>会社を持つお客様の場合にのみお勧めします。既存の <span class="keyword">Analytics</span> のお客様の <span class="keyword">Experience Cloud</span> ID 管理システムへの移行は、予定されています。 </p> <p>詳しくは、<a href="https://helpx.adobe.com/jp/enterprise/using/manage-permissions-and-roles.html">Admin Console での製品権限の管理</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>新規のお客様または <a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/core-services.html">Experience Cloud でプロビジョニングされた</a>会社を持つお客様の場合にのみお勧めします。既存の <span class="keyword">Analytics</span> のお客様の <span class="keyword">Experience Cloud</span> ID 管理システムへの移行は、予定されています。 </p> <p>詳しくは、<a href="https://helpx.adobe.com/jp/enterprise/using/manage-permissions-and-roles.html">Admin Console での製品権限の管理</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +137,7 @@ API とインターフェイスでは同じ権限付与システムを使用し�
  <tbody> 
   <tr> 
    <td colname="col1"> ユーザーの作成 </td> 
-   <td colname="col2"> <p>Admin Console（ユーザーの作成および Analytics <a href="https://marketing.adobe.com/resources/help/ja_JP/mcloud/admin_getting_started.html">製品設定</a>への追加でも Analytics にユーザーアカウントが作成されます）。 </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md">管理ツール</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console（ユーザーの作成および Analytics <a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html">製品設定</a>への追加でも Analytics にユーザーアカウントが作成されます）。 </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md">管理ツール</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/">Admin Console</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/">Admin Console</a> </p> </td> 
   </tr> 
@@ -162,8 +162,8 @@ API とインターフェイスでは同じ権限付与システムを使用し�
   <tr> 
    <td colname="col1"> グループの作成 </td> 
    <td colname="col2"> <p>Admin Console - Admin Console でグループが作成されると、Analytics でマッピングされたグループは管理ツールに表示されますが、このマッピングされたグループは、管理ツールから名前を変更したり削除したりすることはできません。 </p> <p>管理ツール。 </p> </td> 
-   <td colname="col3"> <p>Admin Console（<a href="https://marketing.adobe.com/resources/help/ja_JP/mcloud/admin_getting_started.html">製品設定の作成</a>） </p> </td> 
-   <td colname="col4"> <p>Admin Console（<a href="https://marketing.adobe.com/resources/help/ja_JP/mcloud/admin_getting_started.html">製品設定の作成</a>） </p> </td> 
+   <td colname="col3"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html">製品設定の作成</a>） </p> </td> 
+   <td colname="col4"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html">製品設定の作成</a>） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> グループのユーザーの編集 </td> 
