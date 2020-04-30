@@ -4,7 +4,7 @@ title: デバイスタイプ
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,5 +21,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 このレポートのデータは、訪問者のユーザーエージェント文字列を使用して入力されます。
 
->[!Note]
+>[!NOTE]
 >既存のモバイル ID に対する変更のみを遡ることができます。デバイスが新品で、モバイル ID がまだ無い場合は、このデバイスに結び付けられるデータのみが、デバイスのデータベースに ID が追加された日に開始します。
