@@ -2,7 +2,7 @@
 description: このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
 title: Adobe Analytics - 主要概念
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | Reports &amp; Analytics（旧称 SiteCatalyst） | レポートおよび分析のためのブラウザーソリューションAnalytics パッケージのスターターツールです。 | [Reports &amp; Analytics ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.translate.html) |
 | Report Builder | Adobe Analytics のデータからカスタムリクエストを構築し、視覚的なレポートを作成する Microsoft Excel のアドインです。 | [Report Builder ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析を実行する Java ベースのツールです。 | [Ad Hoc Analysis ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
-| Data Workbench（旧称 Insight） | 複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 | [Data Workbench クライアント](https://marketing.adobe.com/resources/help/ja_JP/insight/client/) |
+| Data Workbench（旧称 Insight） | 複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 | [Data Workbench クライアント](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [Data Warehouse ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 | [Mobile Services ホーム](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors（旧称 Genesis） | サードパーティのアプリケーションから Analytics にトラッキングデータをインポートします。これにより、パフォーマンスに関する一元的なエンドツーエンドの可視性が実現します。 | [Data Connectors ホーム](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
@@ -48,7 +48,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | レポート | 説明 | ドキュメントリンク |
 |--- |--- |--- |
-| 全ディメンション／レポートのリスト | Adobe Analytics で使用できる全ディメンション／レポートの定義。 | [ディメンション](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_descriptions.html) |
+| 全ディメンション／レポートのリスト | Adobe Analytics で使用できる全ディメンション／レポートの定義。 | [ディメンション](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) |
 | Advertising Analytics | Adobe Analytics 内で、Google および Bing のすべての有料検索データを並べて分析します。統合を通じて作成されるディメンションには、広告プラットフォーム、キーワード、一致タイプなどがあります。作成される指標は、AMO インプレッション数、AMO クリック数、AMO コスト、平均掲載順位、および平均品質スコアです。 | [Advertising Analytics](https://docs.adobe.com/help/ja-JP/analytics/integration/advertising-analytics/overview.html) |
 | Audience Analytics | AAM でユーザーの オーディエンスメンバーシップによって Analytics の受信ヒットを強化します。人口統計情報（例：性別や所得水準）、サイコグラフィック情報（例：興味や趣味）、CRM データ、広告インプレッションデータなどの AAM のオーディエンスデータを任意の Analytics ワークフローに組み込むことができます。この統合によって作成されるディメンションは、オーディエンス ID とオーディエンス名です。 | [Audience Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/integration/audience-analytics/mc-audiences-aam.html) |
 | Attribution IQ | カスタマージャーニー全体を通して意味のあるエンゲージメントがどのようにおこなわれるかを理解して、顧客を目標とする成果に導く転機をインテリジェントに識別し、マーケティング戦略を効果的に最適化できます。モデルには、最初、最後、線形、参加、J 字形、逆 J 形、U 字形、同じタッチ、カスタム、時間減衰が含まれます。 | [Attribution IQ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/panels/attribution.html) |
@@ -81,8 +81,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | オプション | 説明 | ドキュメントリンク |
 |---|---|---|
-| 分類インポーター | ブラウザーまたは FTP アップロードを介して、メタデータを取得したディメンションに対してインポートします。ルールビルダーとは異なり、手動で操作します。 | [分類インポーター](https://marketing.adobe.com/resources/help/ja_JP/reference/c_working_with_saint.html) |
-| ルールビルダー | ユーザー定義のルールに基づき、メタデータ分類を自動的に作成します。 | [分類ルールビルダー](https://marketing.adobe.com/resources/help/ja_JP/reference/classification_rule_builder.html) |
+| 分類インポーター | ブラウザーまたは FTP アップロードを介して、メタデータを取得したディメンションに対してインポートします。ルールビルダーとは異なり、手動で操作します。 | [分類インポーター](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) |
+| ルールビルダー | ユーザー定義のルールに基づき、メタデータ分類を自動的に作成します。 | [分類ルールビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) |
 | 顧客属性 | Adobe Analytics および Adobe Target で使用するために Experience Cloud にアップロードされた CRM データです。 | [顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html) |
 | データソース | オフライン指標をディメンションに対して、または単に日別に Analytics にインポートします。 | [データソース](https://docs.adobe.com/content/help/ja-JP/analytics/import/data-sources/datasrc-home.html) |
 | Adobe Exchange Data Connectors | [Analytics ツール](/help/landing/an-key-concepts.md)を参照してください。 |  |
@@ -107,7 +107,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | AppMeasurement（s_code） | グローバル変数管理 | [AppMeasurement](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
 | App SDK | アプリの設定ファイルの事前収集バージョンを含むカスタマイズされたパッケージ。 | <ul><li>[iOS](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | DTM および Adobe Launch | Analytics ツールを参照してください。 |  |
-| VISTA | サーバー側のロジックを適用して、データの収集時にデータを変更またはセグメント化できます。 | [VISTA ルール](https://marketing.adobe.com/resources/help/ja_JP/reference/VISTA.html) |
+| VISTA | サーバー側のロジックを適用して、データの収集時にデータを変更またはセグメント化できます。 | [VISTA ルール](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html) |
 | 処理ルール | Analytics UI で変数を設定、変更およびコピーして、収集されたデータを変更できます。 | [処理ルール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
 | デバッガーオプション | Adobe Experience Cloud デバッガーなど、実装の検証に役立つ様々なデバッガーやパケットスニファーを利用できます。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ja) |
 | Data Insertion API | Data Insertion API は、サーバー側のデータ収集と Experience Cloud サーバーへの送信のメカニズムを提供します。サーバー側のデータ収集では、各 Web ページで JavaScript ビーコンを使用して訪問者データを Experience Cloud サーバーに送信する代わりに、Web ブラウザーのリクエストと Web サーバーの応答に基づいてデータを収集します。 | [POST を使用して Adobe Analytics データ挿入 API を実装する手順](https://helpx.adobe.com/jp/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
