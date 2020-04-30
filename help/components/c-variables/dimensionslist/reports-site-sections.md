@@ -4,7 +4,7 @@ title: サイトセクション
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,21 +13,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 サイトの訪問者が最もアクセスしたサイトの領域を表示します。サイトセクションには、ユーザー定義可能な、カテゴリに類似した製品グループを含めることができます。例えば、カメラのページグループ、コンピューターのページグループなどが考えられます。コンバージョンサイトセクションレポートのデータは、トラフィックグループのサイトセクションレポートからインポートされ、トラッキングコードの channel 変数から情報を取得します。このレポートを使用すると、サイトの統計に最も大きな影響を与えるサイトセクションの項目を特定できます。
 
-* このレポートは、Web サイトで実装された [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) 変数からデータを直接参照します。
+* このレポートは、Web サイトで実装された [s.channel](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/channel.html) 変数からデータを直接参照します。
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * このレポートでは、検索フィルターを使用して特定の行項目を見つけることができます。
 * 分類をこのレポートで使用すると、行項目の名前変更や統合ができます。
 * 相関関係は、管理ツールで他のトラフィック変数を使用して作成できます。
 * このレポートでは以下の指標を利用できます。
 
-   * **ページビュー数**：[pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) 変数または URL が（デフォルト指標として）定義された回数
+   * **ページビュー数**：[pageName](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagename.html) 変数または URL が（デフォルト指標として）定義された回数
 
    * **すべてのパス指標**：訪問回数、平均ページ深度、ページでの平均滞在時間、リロード回数、および単一アクセス数
    * 組織とレポートスイートの設定に応じて、日別、週別、月別、および四半期別訪問者数をこのレポートで有効化できます。
    * **e コマースのすべての標準的な指標**：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、および買い物かごからの削除数
    * **すべてのカスタムイベント**：イベント 1 ～ 80（H22 コード以上では、さらにイベント 81 ～ 100）。
 
-[!UICONTROL サイトセクションレポート]では、すべてのコンバージョンイベントで最後の配分が使用されます。コンバージョンは、実装内で成功イベントを含まないページ間で分割されて表示されます。これは、線形配分を使用する[ページレポート](/help/components/c-variables/dimensionslist/reports-pages.md)とは異なります。
+最後の配分を使用するイベント内のす [!UICONTROL Site Sections Report] べてのコンバージョン。 コンバージョンは、実装内で成功イベントを含まないページ間で分割されて表示されます。これは、線形配分を使用する[ページレポート](/help/components/c-variables/dimensionslist/reports-pages.md)とは異なります。
 
 **製品固有の情報**
 
