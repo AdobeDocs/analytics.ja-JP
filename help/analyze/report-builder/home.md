@@ -3,7 +3,7 @@ title: Adobe Report Builder ヘルプ
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 >
 >Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
->See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
+>See [Analytics User Migration to the Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) for migration information.
 
 >[!IMPORTANT]
 >
@@ -40,15 +40,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 ## Experience Cloud リソース
 
 * [Adobe Analytics コミュニティ](https://helpx.adobe.com/jp/marketing-cloud/analytics.html)
-* [Experience Cloud リリースノート](https://marketing.adobe.com/resources/help/ja_JP/whatsnew/index.html#Current%20Release%20Notes)
-* [製品ドキュメントのホーム](https://marketing.adobe.com/resources/help/ja_JP/home/index.html)
-* [開発者](https://marketing.adobe.com/resources/help/ja_JP/home/index.html#Developer)
+* [Experience Cloud リリースノート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)
+* [製品ドキュメントのホーム](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.html)
+* [開発者](https://www.adobe.io/apis/experiencecloud.html)
 * [アイデア交換](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [アドビトレーニングおよびチュートリアル](https://helpx.adobe.com/jp/learning.html?promoid=KAUDK)
 * [主なソリューションセンター](https://www.omniture.com/en/products/online_business_optimization)
 
+<!--Meike Russ Replace the omniture links above?-->
+
 ## Reports &amp; Analytics ヘルプ
 
-* [Analysis Workspace ヘルプ](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/)
-* [Reports &amp; Analytics ヘルプ](https://marketing.adobe.com/resources/help/ja_JP/sc/user/index.html)
-* [Analytics 参照元](https://marketing.adobe.com/resources/help/ja_JP/reference/index.html)管理ツール、レポートおよび指標に関するヘルプです。
+* [Analysis Workspace ヘルプ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html)
+* [Reports &amp; Analytics ヘルプ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.translate.html)
+* [Analytics 参照元](https://docs.adobe.com/content/help/ja-JP/analytics/landing/home.html)管理ツール、レポートおよび指標に関するヘルプです。
