@@ -5,7 +5,7 @@ title: Adobe Analytics ツールの追加
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Dynamic Tag Management を使用して Adobe Analytics をデプロイするには、Adobe Analytics ツールを作成し、自動または手動でページコードを設定します。ほとんどの場合は、自動的な導入方法をお勧めします。
 
->[!NOTE] 訪問者のトラッキング機能を強化するには、[ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を有効にすることを強くお勧めします。
+>[!NOTE] 訪問者のトラッキング機能を強化するには、[ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を有効にすることを強くお勧めします。
 
 ## Adobe Analytics ツールの追加 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. **[!UICONTROL *`Web Property Name`*]**／**[!UICONTROL &#x200B;概要&#x200B;]**／**[!UICONTROL &#x200B;ツールの追加&#x200B;]**／**[!UICONTROL  Adobe Analytics ]** をクリックします。
+1. Click  **[!UICONTROL  *`Web Property Name`*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -49,7 +49,7 @@ Dynamic Tag Management を使用して Adobe Analytics をデプロイするに�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>手動</b>：AppMeasurement コードを手作業で管理します。<span class="keyword">Analytics</span> の <span class="keyword">AppMeasurement</span> コードは、<span class="ignoretag"><span class="uicontrol">管理ツール</span>／<span class="uicontrol">コードマネージャー</span></span>からダウンロードできます。 </p> <p>「<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript（新規）</a>」をクリックして、コードをローカル環境にコピーし、「<a href="/help/implement/other/dtm/c-aa-tool/library-management.md">ライブラリ管理</a>」の「<span class="wintitle">コードを編集</span>」フィールドに貼り付けます。 </p> <p>手動設定に特有のフィールドに設定を入力します。 </p> 
+   <td colname="col2"> <p> <b>手動</b>：AppMeasurement コードを手作業で管理します。<span class="keyword">Analytics</span> の <span class="keyword">AppMeasurement</span> コードは、<span class="ignoretag"><span class="uicontrol">管理ツール</span>／<span class="uicontrol">コードマネージャー</span></span>からダウンロードできます。 </p> <p>「<a href="https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html">JavaScript（新規）</a>」をクリックして、コードをローカル環境にコピーし、「<a href="/help/implement/other/dtm/c-aa-tool/library-management.md">ライブラリ管理</a>」の「<span class="wintitle">コードを編集</span>」フィールドに貼り付けます。 </p> <p>手動設定に特有のフィールドに設定を入力します。 </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>実稼動アカウント ID</b>：（必須）データ収集用の実稼動アカウント。Analytics の場合はレポートスイート ID になります。Dynamic Tag Management は、実稼動およびステージング環境に適したアカウントを自動的にインストールします。 </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ステージングアカウント ID</b>：（必須）開発環境またはテスト環境で使用するアカウント。Analytics の場合はレポートスイート ID になります。ステージングアカウントには、実稼動用データとは別個のテストデータが保持されます。 </p> </li> 
@@ -60,11 +60,11 @@ Dynamic Tag Management を使用して Adobe Analytics をデプロイするに�
  </tbody> 
 </table>
 
-1. 「**[!UICONTROL ツールを作成]**」をクリックしてツールを作成し、編集用に表示します。
+1. Click **[!UICONTROL Create Tool]** to create the tool and display it for editing.
 
-   ツールは、「[!UICONTROL インストールされているツール]」の「[!UICONTROL 概要]」タブに表示されます。
+   ツールは、の下のタブに [!UICONTROL Overview] 表示されます [!UICONTROL Installed Tools]。
 
-1. （場合によって手順が異なる）下のリンク先に記載された手順に従って、必要に応じたツール設定作業を進めます（[!UICONTROL 一般]、[!UICONTROL ライブラリ管理]、[!UICONTROL グローバル変数]、[!UICONTROL ページビューおよびコンテンツ]、[!UICONTROL リンクトラッキング]、[!UICONTROL リファラーおよびキャンペーン]、[!UICONTROL Cookie]、[!UICONTROL ページコードをカスタマイズ]）。
+1. （条件付き）以下のリンク（、、、、、、、、および）の指示に従って、必要に応じてツ [!UICONTROL General]ールをさらに設 [!UICONTROL Library Management]定し [!UICONTROL Global Variables]てくださ [!UICONTROL Pageviews & Content][!UICONTROL Link Tracking][!UICONTROL Referrers & Campaigns][!UICONTROL Cookies][!UICONTROL Customize Page Code]い。
 
 [Adobe Analytics ツールに関するよくある質問](/help/implement/faq.md)を参照してください。
 
@@ -72,7 +72,7 @@ Dynamic Tag Management を使用して Adobe Analytics をデプロイするに�
 
 既存の Adobe Analytics ツールは、編集することで設定を変更できます。
 
-1. 「 [!UICONTROL 概要]」タブで、インストールされているツールの横にある ![](assets/settings_gear.png) アイコンをクリックします。
+1. Click the  ![](assets/settings_gear.png) icon next to an installed tool from the [!UICONTROL Overview] tab.
 1. 必要に応じてフィールドを編集します。
 
    上で説明した Analytics ツール作成時に使用できる要素との差分のみを次の表に示します。両方の表に記載したとおり、ページ内の要素はすべて変更を加えることができます。
@@ -96,5 +96,5 @@ Dynamic Tag Management を使用して Adobe Analytics をデプロイするに�
  </tbody> 
 </table>
 
-1. （場合によって手順が異なる）下のリンク先に記載された手順に従って、必要に応じたツール設定作業を進めます（[!UICONTROL 一般]、[!UICONTROL ライブラリ管理]、[!UICONTROL グローバル変数]、[!UICONTROL ページビューおよびコンテンツ]、[!UICONTROL リンクトラッキング]、[!UICONTROL リファラーおよびキャンペーン]、[!UICONTROL Cookie]、[!UICONTROL ページコードをカスタマイズ]）。
-1. 「**[!UICONTROL 変更を保存]**」をクリックします。
+1. （条件付き）以下のリンク（、、、、、、、、および）の指示に従って、必要に応じてツ [!UICONTROL General]ールをさらに設 [!UICONTROL Library Management]定し [!UICONTROL Global Variables]てくださ [!UICONTROL Pageviews & Content][!UICONTROL Link Tracking][!UICONTROL Referrers & Campaigns][!UICONTROL Cookies][!UICONTROL Customize Page Code]い。
+1. クリック **[!UICONTROL Save Changes]**.
