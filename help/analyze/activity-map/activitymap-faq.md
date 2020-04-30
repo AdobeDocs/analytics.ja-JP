@@ -4,7 +4,7 @@ title: Activity Map の FAQ
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 
 **質問：新しい AppMeasurement コードは、Dynamic Tag Management（DTM）を使用して設定できますか。**
 
-回答：はい。新しい AppMeasurement コードは[手動で実装](https://marketing.adobe.com/resources/help/ja_JP/dtm/analytics_dtm.html)できます。
+回答：はい。新しい AppMeasurement コードは[手動で実装](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)できます。
 
 **質問：AppMeasurement v1.6 ライブラリの大きな変更点は何ですか。**
 
