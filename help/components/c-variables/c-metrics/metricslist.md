@@ -4,7 +4,7 @@ title: 指標の概要
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 以下に、[標準的な Analytics 指標](/help/components/c-variables/c-metrics/metrics-overview.md)の概要を示します。
 
-[計算指標](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics/)は指標を組み合わせて作成します。
+[計算指標](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html)は指標を組み合わせて作成します。
