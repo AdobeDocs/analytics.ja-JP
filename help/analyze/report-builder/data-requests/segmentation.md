@@ -4,7 +4,7 @@ title: セグメントの管理
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 >[!NOTE]Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは[https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/) を参照してください。
+1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、 [Analyticsのセグメント化を参照してください](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)。
 1. セグメントを定義して保存したら、リクエストウィザードに戻ります。
 1. 更新アイコンをクリックして、セグメント一覧を更新します
 
@@ -39,7 +39,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 
    ![](assets/seg_in_context.png)
 
-   コンテナについて詳しくは、[セグメント化ガイド](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/)を参照してください。
+   コンテナについて詳しくは、[セグメント化ガイド](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)を参照してください。
 
 1. セグメントビルダーの UI が Internet Explorer で起動します。セグメントビルダーの UI に指定したコンテナおよびフィルターが反映されます。
 1. セグメントに名前と説明を追加し、保存します。
