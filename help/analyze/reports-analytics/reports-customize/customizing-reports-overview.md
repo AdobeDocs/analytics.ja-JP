@@ -4,7 +4,7 @@ title: レポートのカスタマイズの概要
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,7 +35,7 @@ t_reports_custom.xml
 
 >[!MORELIKETHIS]
 >
->* [メニューのカスタマイズ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/customize-menus.translate.html)
+>* [メニューのカスタマイズ](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## 日付または日付範囲の選択 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -81,7 +81,7 @@ t_reports_comparing_dates.xml
 
 トレンドレポート間の日付の比較はできません。
 
->[!NOTE]ダッシュボード内で主要指標について日付比較を行いたい場合は、2 つの異なるリクエストを使用してデータを [Report Builder](https://marketing.adobe.com/resources/help/ja_JP/arb/) に取り込みます。その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
+>[!NOTE]ダッシュボード内で主要指標について日付比較を行いたい場合は、2 つの異なるリクエストを使用してデータを [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html) に取り込みます。その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
 
 Reports &amp; Analytics のランクレポート間で日付を比較するには、以下のようにします。
 
@@ -218,4 +218,4 @@ Reports &amp; Analytics のほとんどのレポートには現在、「ワー�
 
 現在、このボタンが使用できるのは、ユーザーに Analysis Workspace の完全な権限が付与されている場合のみです。
 
-レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/) ガイドを参照してください。
+レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html) ガイドを参照してください。
