@@ -3,7 +3,7 @@ description: 'null'
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -110,7 +110,7 @@ source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ### People
 
->[!NOTE]人物テンプレートとそれに関連する人物指標は、[Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-people.html) の一部としてのみ使用可能です。
+>[!NOTE]人物テンプレートとそれに関連する人物指標は、[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html) の一部としてのみ使用可能です。
 
 このテンプレートは、重複を排除した実訪問者数指標である人物指標に基づいています。 人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。このテンプレートでは次の操作が可能です。
 
