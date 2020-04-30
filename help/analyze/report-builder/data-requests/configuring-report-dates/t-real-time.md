@@ -4,7 +4,7 @@ title: リアルタイムリクエストの設定
 topic: Report builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 リアルタイムリクエストの日付の設定手順です。
 
-1. Reports &amp; Analytics の[管理ツール](https://marketing.adobe.com/resources/help/en_US/reference/real_time_admin.html)でリアルタイムレポートが有効であることを確認します。
+1. Reports &amp; Analytics の[管理ツール](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)でリアルタイムレポートが有効であることを確認します。
 1. で、「/」 [!UICONTROL Request Wizard: Step 1]をクリックし **[!UICONTROL Real-Time Report]** ます **[!UICONTROL `<report type>`]**
 
    例えば、「トラフィックレポート」を選択します。When you select a real-time report type, the [!UICONTROL Select Time Range] options display.
