@@ -5,7 +5,7 @@ title: 処理ルールの概要
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. まだ完了していなければ、処理ルールを使用する権限を持つべき非管理者のみで構成される        [グループを作成](/help/admin/user-management2/c-user-groups/groups.md)します。
 1. [管理者以外のユーザーをそのグループに追加します](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL [グループ名]]**／**[!UICONTROL 編集]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL レポートスイートツール]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL レポートスイート管理]**&#x200B;を選択します。
-1. 「[!UICONTROL 処理ルール]」チェックボックスをオンにし、「**[!UICONTROL OK]**」をクリックします。
+1. 次に、>>>>>>> **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** さら **[!UICONTROL Edit]****[!UICONTROL Report Access]****[!UICONTROL Report Suite Tools]****[!UICONTROL Customize]****[!UICONTROL Report Suite Management]**&#x200B;に行く。
+1. の横のチェックボックスをオンにし、を [!UICONTROL Processing Rules] クリックしま **[!UICONTROL OK]**&#x200B;す。
 
 ![](assets/processing-rules.png)
 
@@ -48,7 +48,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/evar-context-map.png)
 
-実装のヘルプの[コンテキストデータ変数](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/context_data_variables.html)を参照してください。
+実装のヘルプの[コンテキストデータ変数](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html)を参照してください。
 
 ## 処理ルールを使用したヒットデータの変換とイベントのトリガー {#section_8284E72E999244E091CD7FB1A22342B6}
 
