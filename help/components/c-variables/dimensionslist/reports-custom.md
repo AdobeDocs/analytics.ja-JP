@@ -4,7 +4,7 @@ title: カスタム
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 また、重要なレポートを保存することもできます。これらのレポートはブックマークと呼ばれます。いくつかのレポートを 1 つのキャンバス上に置いて、最も重要なレポートに目を通すこともできます。これらはダッシュボードと呼ばれ、ユーザーごとに異なります。インターフェイスには、グラフのリストの上側にバーが表示され、ブックマークとダッシュボードが表示されます。
 
-詳しくは、[ブックマーク](https://marketing.adobe.com/resources/help/ja_JP/sc/user/c_bookmarks.html)および[ダッシュボードおよびレポートレット](https://marketing.adobe.com/resources/help/ja_JP/sc/user/c_dashboard.html)を参照してください。
+See [Bookmarks Manager](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html) and [Dashboards and Reportlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) for more information.
