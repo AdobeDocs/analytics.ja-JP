@@ -3,7 +3,7 @@ description: Ad Hoc Analysis の概要を説明します。
 title: はじめに
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -27,7 +27,7 @@ Web サイト上でのアクティビティを迅速かつインタラクティ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Adobe <span class="keyword">Analytics</span> にログインする。 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com"  >marketing.adobe.com</a> にアクセスして、Adobe Analytics の資格情報を使用してログインします。 </p> </td> 
+   <td colname="col2"> <p><a href="https://experiencecloud.adobe.com"  >marketing.adobe.com</a> にアクセスして、Adobe Analytics の資格情報を使用してログインします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Ad Hoc Analysis を起動する。 </p> </td> 
@@ -88,8 +88,8 @@ c_sys_reqs.xml
 * 自分のマシンにプログラムをインストールすることが許可されている場合
 
    1. https://www.java.com に移動します。
-   1. 「**[!UICONTROL 無料 Java のダウンロード]**」をクリックします。
-   1. 「**[!UICONTROL 同意して無料ダウンロードを開始]**」をクリックします。
+   1. クリック **[!UICONTROL Free Java Download]**.
+   1. クリック **[!UICONTROL Agree and Start Free Download]**.
    1. お使いのオペレーティングシステム専用の最新の Java バージョンをインストールします。
 
 * 自分のマシンにプログラムをインストールすることが&#x200B;**許可されていない**&#x200B;場合
@@ -117,11 +117,11 @@ t_login_suite.xml
  -->
 
 1. ブラウザーで、[!DNL marketing.adobe.com] に移動します。
-1. 会社名、ユーザー名およびパスワードを入力してから、「**[!UICONTROL サインイン]**」をクリックします。
-1. **[!UICONTROL Adobe Analytics]**／**[!UICONTROL ツール]**／**[!UICONTROL Ad Hoc Analysis]** をクリックします。
+1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
+1. Click **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
 
    このページに「**Ad Hoc Analysis を起動**」ボタンが表示されない場合は、管理者が管理ツールの「*Ad Hoc Analysis ライセンスユーザー*」グループにユーザーを追加していることを確認してください。
-1. 「**[!UICONTROL Ad Hoc Analysis を起動]**」をクリックします。
+1. クリック **[!UICONTROL Launch Ad Hoc Analysis]**.
 1. [!DNL discover.jnlp] ファイルをローカルに保存します。
 
    この保存したファイルは、Ad Hoc Analysis を起動する際にいつでも実行できます。
@@ -142,7 +142,7 @@ c_projects.xml
 
 一度に 1 つのプロジェクトのみ開くことができます。ただし、プロジェクト内で複数のワークスペースを開くことができます。各ワークスペースで、複数のレポートを開くことができます。
 
-新しいプロジェクトのデフォルトの日付範囲は、「[!UICONTROL 最近の90 日間]」です。
+The default date range for a new project is [!UICONTROL Last 90 Days].
 
 ## プロジェクトの開始 {#task_918A4539134E4E62B00486DCB8D3D403}
 
@@ -155,7 +155,7 @@ t_project_start.xml
  -->
 
 1. ログインします。
-1. 保存されているプロジェクトを開くか、「**[!UICONTROL プロジェクトの作成]**」をクリックします。
+1. Open a saved project or click **[!UICONTROL Create Project]**.
 1. レポートを検索して選択するか、テンプレートを選択します。
 
 ## 最近保存したワークスペースを開く {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,7 +168,7 @@ t_recent_workspace.xml
 
  -->
 
-1. **[!UICONTROL ファイル]**／**[!UICONTROL 最近使ったワークスペース]**&#x200B;をクリックします。
+1. クリック **[!UICONTROL File]** > **[!UICONTROL Recent Workspace]**.
 
    最近使用したワークスペースは 5 つまで開くことができます。セッションを終了すると、最近使用したワークスペースはクリアされます。
 
@@ -182,14 +182,14 @@ t_share_projects.xml
 
  -->
 
-1. **[!UICONTROL ファイル]**／**[!UICONTROL 名前を付けて保存]**&#x200B;に移動します。
-1. **[!UICONTROL 次に保存]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL 共有プロジェクト]**&#x200B;を選択します。
+1. Go to **[!UICONTROL File]** > **[!UICONTROL Save As]**.
+1. ドロッ **[!UICONTROL Shared Projects]** プダウンか **[!UICONTROL Save in:]** らを選択します。
 
    ![](assets/shared_projects.png)
 
-1. 「**[!UICONTROL 保存]**」をクリックして、プロジェクトを保存します。
+1. Click **[!UICONTROL Save]** to save the project.
 
-   共有プロジェクトは、**[!UICONTROL ファイル]**／**[!UICONTROL 開く]**／**[!UICONTROL 共有プロジェクト]**&#x200B;で開くことができます。
+   共有プロジェクトは、//で **[!UICONTROL File]** 開くこ **[!UICONTROL Open]** とができま **[!UICONTROL Shared Projects]**&#x200B;す。
 
    >[!NOTE]
    >
@@ -206,7 +206,7 @@ t_rename_workspace.xml
  -->
 
 1. ワークスペース名を右クリックします。
-1. 「**[!UICONTROL ワークスペース名を変更]**」を選択します。
+1. Choose **[!UICONTROL Rename Workspace]**.
 1. 名前を入力し、「**[!UICONTROL OK]**」をクリックします。
 
 ## ローカルプロジェクトを開く {#task_1B3EF63A80C74776B24B99D80EAC74AC}
@@ -219,8 +219,8 @@ t_open_local_project.xml
 
  -->
 
-1. **[!UICONTROL ファイル]**／**[!UICONTROL ローカルコピーを開く]**&#x200B;をクリックします。
-1. ローカルの [!DNL .dproj] ファイルを指定して、「**[!UICONTROL 開く]**」をクリックします。
+1. クリック **[!UICONTROL File]** > **[!UICONTROL Open Local Copy]**.
+1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
 
 ## レポートテンプレート {#concept_370F674C5B4C45368731AA801C5A45F8}
 
@@ -232,7 +232,7 @@ c_templates.xml
 
  -->
 
-プロジェクトの作成時（**[!UICONTROL ファイル]**／**[!UICONTROL 新規プロジェクト]**）に、またはワークスペースやレポートを追加する時に、テンプレートにアクセスできます。
+You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report.
 
 | テンプレート | 説明 |
 |--- |--- |
@@ -257,6 +257,6 @@ t_reports_opening.xml
 
 いくつかの方法で、レポートを開くことができます。
 
-* [!UICONTROL 新しいレポート]ページで、レポートやレポートテンプレートを選択します。
-* メニューから「**[!UICONTROL レポート]**」をクリックして、レポートまたはレポートテンプレートを選択します。
-* ディメンションからレポートを起動します。ディメンション名を右クリックして、&lt;レポート名> **[!UICONTROL レポートを実行]****`report name`** を選択します。
+* On the [!UICONTROL New Report] page, search for a report or choose a template.
+* Click **[!UICONTROL Reports]** from the menu, then select a report or report template.
+* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > **`report name`**.
