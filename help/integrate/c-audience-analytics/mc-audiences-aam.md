@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics の概要
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -44,7 +44,7 @@ AAM セグメントは同じヒットごとに挿入されるので、AAM で使
 * Audience Manager と Adobe Analytics の両方のユーザーである。
 * Audience Manager 管理者である。
 * ID サービス v1.5 以降を使用している。
-* AAM および Adobe Analytics レポートスイートが、[同じ Experience Cloud 組織にマッピングされている](https://marketing.adobe.com/resources/help/ja_JP/mcloud/report-suite-mapping.html)。
-* [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)を使用していて、[Audience Management モジュール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)（DIL コードなし） - AppMeasurement 1.5 以降を実装している。
+* AAM および Adobe Analytics レポートスイートが、[同じ Experience Cloud 組織にマッピングされている](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)。
+* [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)を使用していて、[Audience Management モジュール](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)（DIL コードなし） - AppMeasurement 1.5 以降を実装している。
 
 これらの前提条件は、[Audience Analytics ワークフロー](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)に記載されています。
