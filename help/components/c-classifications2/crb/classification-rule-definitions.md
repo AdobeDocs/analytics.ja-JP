@@ -5,7 +5,7 @@ title: 分類ルール - 定義
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>レポートスイートと変数の選択 </p> </td> 
-   <td colname="col2"> <p><b>レポートスイート</b> </p> <p>ルールセットを適用するレポートスイート。 </p> <p><b>変数</b> </p> <p>分類ルールセットを作成するときは、変数を 1 つだけ適用できます。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。 </p> <p>注意：レポートスイートでは、アクセス権のある変数のみを使用できます。変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ<span class="wintitle">新しいルールセット</span>パネルに表示されます。 </p> <p>例えば、<span class="term">ページ</span>をルールセットの変数として使用できるようにするには、レポートスイートに<span class="term">ページ用</span>の<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/traffic_classifications.html"  >トラフィック分類</a>が実装されていることを確認します。 </p> <p> 変数の分類を作成するには、<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">トラフィック</span>／<span class="uicontrol">トラフィック分類</span>（または<span class="uicontrol">コンバージョン</span>／<span class="uicontrol">コンバージョンの分類</span>）を使用します。次に、変数を選択し、「<span class="uicontrol">分類の追加</span>」をクリックします。 </p> <p>管理ヘルプの<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/traffic_classification_admin.html"  >トラフィック分類</a>および<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/conversion_classifications.html"  >コンバージョンの分類</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><b>レポートスイート</b> </p> <p>ルールセットを適用するレポートスイート。 </p> <p><b>変数</b> </p> <p>分類ルールセットを作成するときは、変数を 1 つだけ適用できます。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。 </p> <p>注意：レポートスイートでは、アクセス権のある変数のみを使用できます。変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ<span class="wintitle">新しいルールセット</span>パネルに表示されます。 </p> <p>例えば、<span class="term">ページ</span>をルールセットの変数として使用できるようにするには、レポートスイートに<span class="term">ページ用</span>の<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >トラフィック分類</a>が実装されていることを確認します。 </p> <p> 変数の分類を作成するには、<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">トラフィック</span>／<span class="uicontrol">トラフィック分類</span>（または<span class="uicontrol">コンバージョン</span>／<span class="uicontrol">コンバージョンの分類</span>）を使用します。次に、変数を選択し、「<span class="uicontrol">分類の追加</span>」をクリックします。 </p> <p>管理ヘルプの<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >トラフィック分類</a>および<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >コンバージョンの分類</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> アクティブ化</span> </p> </td> 
@@ -117,7 +117,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 正規表現ページ {#section_C932A5469E774841B2229965A154163C}
 
-[!UICONTROL 正規表現]ページでは、正規表現を編集できます。
+You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 
 ![](assets/regex_tracking_code.png)
 
@@ -140,5 +140,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 要素 | 説明 |
 |---|---|
 | テストを実行 | ルールセットをテストするときは、レポートのキーを使用して、ルールセットによる影響を確認します。 |
-| フィルター | 「[!UICONTROL 結果]」パネルの値をフィルターします。 |
+| フィルター | Filters the values in the [!UICONTROL Results] panel. |
 
