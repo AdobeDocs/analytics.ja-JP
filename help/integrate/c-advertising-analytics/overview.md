@@ -3,7 +3,7 @@ description: 'null'
 title: Advertising Analytics の概要
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -29,8 +29,8 @@ Advertising Analytics では、すべての Google および Bing 有料検索�
 
 * この機能は、Advertising Cloud 以外、および AMO 以外のお客様が利用できます。
 * Advertising Analytics へのアクセス権限を保有するには、Adobe Analytics 管理者である必要があります。これにより、管理者以外のユーザーに[アクセス権限を付与できます](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
-* Google／Bing の検索データを表示する Analytics レポートスイートは、[Experience Cloud 組織にマッピングされている](https://marketing.adobe.com/resources/help/ja_JP/mcloud/report-suite-mapping.html)必要があります。
-* Google／Bingの検索データを表示するレポートスイートの場合、[Advertising Analytics 用にそれらのレポートスイートを有効にする](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL Advertising Analytics 設定]**）。
+* Google／Bing の検索データを表示する Analytics レポートスイートは、[Experience Cloud 組織にマッピングされている](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)必要があります。
+* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * Adobe Analytics と統合するアカウントを検索するには、編集権限を持つユーザーのログイン資格情報（Google アカウント ID とパスワードなど）が必要です。
 * Bing 広告の場合、Bing 顧客 ID も必要になります。
