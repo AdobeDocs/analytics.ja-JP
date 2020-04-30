@@ -4,7 +4,7 @@ title: エラーページ (404)
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **プロパティ**
 
-* このレポートは、Web サイトで実装された [pageType](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagetype.html) 変数からデータを直接参照します。
+* このレポートは、Web サイトで実装された [pageType](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagetype.html) 変数からデータを直接参照します。
 * このレポートは、トレンドおよびランクの両方のフォーマットで表示できます。
 * 虫眼鏡アイコンをクリックすると、そのページのトップリファラーが表示されます。
 
