@@ -3,7 +3,7 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 * Adobe Analytics とのサポートされる接続を構築したサードパーティプロバイダーとやり取りする場合。Data Connectors は、通常、サマリレベルのデータを、定期的、恒久的かつ自動的に Adobe Analytics に取り込みます。
 
-**[Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**は以下の場合に使用します。
+**[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**は以下の場合に使用します。
 
 * データを Adobe Analytics にアップロードする必要があるときに Adobe AppMeasurement またはモバイル SDK コードを使用できない場合。
 
@@ -114,11 +114,11 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 顧客がアドビのデータを（送信可能な最も詳細なレベルで）顧客側のデータベースに格納したい場合。
 * 顧客がビジネスインテリジェンス（BI）ツールの開発を希望する場合や、ヒットレベルのアドビのデータをサードパーティ製ツールに入力しようと考えている場合。
 
-**[レポート API](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**は、その他の可視化オプションがニーズを満たさない場合に使用します。次の 3 つの API オプションがあります。
+**[レポート API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**は、その他の可視化オプションがニーズを満たさない場合に使用します。次の 3 つの API オプションがあります。
 
 * **処理済み**：機能豊富なデータ（訪問、訪問者、セグメントなど）が必要な場合。これは典型的な Analytics UI の要約データで、30 分から 90 分で提供されます。Report Builder を通じて使用できます。
 * **リアルタイム**：いくつかの指標とディメンションを数秒の待ち時間で表示させる場合。これは、限定的な、部分的に処理され要約されたデータで、30 秒以内で提供されます。最頻使用、勝者、敗者の固有アルゴリズムが含まれます。Report Builder を通じて使用できます。
-* **[!UICONTROL ライブストリーム]**：部分的に処理されたヒットレベルの Analytics データのストリームを数秒以内で収集したい場合。これは部分的に処理されたデータで、30 秒以内で提供されます。Analytics Premium でのみ使用可能です。データを可視化する何らかの方法が必要になります。通常は、エンジニアリングサービスを使用しておこないます。
+* **[!UICONTROL Live Stream]**:部分的に処理されたヒットレベルのAnalyticsデータを数秒以内に収集する場合。 これは部分的に処理されたデータで、30 秒以内で提供されます。Analytics Premium でのみ使用可能です。データを可視化する何らかの方法が必要になります。通常は、エンジニアリングサービスを使用しておこないます。
 
 ## カスタムソリューション {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +131,4 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 複数のデータソースがある。
 * 複雑なデータの ETL（抽出-変換-読み込み）に関する要件がある。
 * カスタムブランディングが必要。
-* [!UICONTROL Analytics ライブストリーム]の可視化が必要。
+* You want to visualize [!UICONTROL Analytics Live Stream].
