@@ -3,7 +3,7 @@ description: 'null'
 title: アクセス要求および削除要求の送信
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 消費者の同意の管理 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-データ管理者には、データ主体に関するデータ（場合によっては Adobe Analytics データを含む）を収集する前に、データ主体から明示的な同意を得る責任があります。また、Web サイトに[オプトアウトメカニズムを実装](https://marketing.adobe.com/resources/help/ja_JP/dtm/opt-in.html)する責任があります。これにより、データ主体は、以降の Adobe Experience Cloud によるデータ収集をオプトアウトできます。
+データ管理者には、データ主体に関するデータ（場合によっては Adobe Analytics データを含む）を収集する前に、データ主体から明示的な同意を得る責任があります。また、Web サイトに[オプトアウトメカニズムを実装](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html)する責任があります。これにより、データ主体は、以降の Adobe Experience Cloud によるデータ収集をオプトアウトできます。
 
 ## ユーザーおよびユーザーデータの検証 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
