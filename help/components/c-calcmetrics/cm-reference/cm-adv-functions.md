@@ -3,14 +3,14 @@ description: これらの関数にアクセスするには、関数ドロップ�
 title: リファレンス：高度な関数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # リファレンス：高度な関数
 
-これらの関数にアクセスするには、**[!UICONTROL 関数]**&#x200B;ドロップダウンリストの「**[!UICONTROL 詳細を表示]**」を選択します。
+Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
 
 ## 表関数と行関数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -65,7 +65,7 @@ Approximate Count Distinct (dimension)
 
 ## 超過したユニーク数 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://marketing.adobe.com/resources/help/ja_JP/reference/metrics_uniques_high_numbers.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
+Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
 
 ## カウント関数の比較 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
