@@ -3,7 +3,7 @@ description: リアルタイムページ分析（ライブモード）により�
 title: リアルタイム（ライブ）ページ分析
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 ライブモードでどの要素が最も多くクリックされているかを確認する場合：
 
-1. 分析するツールバーのライブモード **[!UICONTROL のトレンド]** ラインで期間を選択します。
+1. 分析するツールバーのトレンドラ **[!UICONTROL Live Mode]** インで期間を選択します。
 1. ツールバーの「目」アイコンをクリックして、リンクレポートの表にアクセスします。
 1. リンクを使用して表を並べ替えます。
 
@@ -39,6 +39,6 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 * ライブストリーム、リアルタイムのレポートと API リクエスト、トラフィック変数の現在のデータでは、追加のデータ ID が設定されたヒットのみが遅延します。
 * コンバージョン指標の現在のデータ、ファイナライズされたデータ、データフィードでは、すべてのヒットが追加で 5 ～ 7 分遅延します。
 
-この統合を完全に実装していなくても、[ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を導入すると追加の待ち時間が発生することに注意してください。
+この統合を完全に実装していなくても、[ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を導入すると追加の待ち時間が発生することに注意してください。
 
 詳細はこち [ら](/help/analyze/activity-map/activitymap-standard-live.md)。
