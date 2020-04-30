@@ -4,7 +4,7 @@ title: リンクトラッキングの停止
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -32,7 +32,7 @@ Activity Map またはレガシー ClickMap でリンクトラッキングを停
      &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
      &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
      &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
-     &nbsp;https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
+     &nbsp;https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html
      */
      function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
@@ -41,7 +41,7 @@ Activity Map またはレガシー ClickMap でリンクトラッキングを停
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称 Visitor ClickMap） </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 変数を false（デフォルト）に設定します。構文は次のようになります。
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 変数を false（デフォルト）に設定します。構文は次のようになります。
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
