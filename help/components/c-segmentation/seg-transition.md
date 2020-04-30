@@ -5,7 +5,7 @@ title: よくある質問
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * Analysis Workspace のセグメント：
 
-   * [セグメントを比較](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/segment-comparison.html)できます。
-   * 比較の[ディメンションとしてセグメント](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/segments_as_dimensions.html)を使用できます。
-   * [フォールアウト分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html)でセグメントを使用できます。
+   * [セグメントを比較](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)できます。
+   * 比較の[ディメンションとしてセグメント](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)を使用できます。
+   * [フォールアウト分析](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)でセグメントを使用できます。
 
 * [レポートやプロジェクトに複数のセグメントを適用](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)できます。
 * セグメントが、レポートスイート全体で共通になりました。
@@ -40,9 +40,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 セグメントビルダーには、次のようにアクセスします。
 
-* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。または
+* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。In the segment rail that displays, then click **[!UICONTROL Add]**, or
 
-* セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」 をクリックします。![](assets/add_button.png)
+* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
 
     または
 
@@ -52,9 +52,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 セグメントマネージャには、次のようにアクセスします。
 
-* 上部のナビゲーションから **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**&#x200B;に移動します。次に、「**[!UICONTROL セグメント]**」をクリックするか、または
+* Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. 次に、またはをク **[!UICONTROL Segments]**&#x200B;リックします。
 
-* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。または
+* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。次に、またはをク **[!UICONTROL Manage]**&#x200B;リックします。
 
 * インターフェイス内の任意の場所でスラッシュキー「/」を押して、セグメントマネージャを検索します。
 
@@ -74,7 +74,7 @@ Reports &amp; Analytics のセグメントドロップダウンは、より豊�
 
 **セグメントの使用、作成および管理に必要な権限と許可**
 
-デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
+デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
 管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[さらに詳しく...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
