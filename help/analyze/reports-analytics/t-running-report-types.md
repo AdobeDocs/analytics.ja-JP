@@ -4,7 +4,7 @@ title: 異なるレポートタイプの実行
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -59,7 +59,7 @@ t_reports_conversion_funnel.xml
 
 このレポートを実行するには、ページレポートなどのレポートを選 **[!UICONTROL Reports]** 択しま **[!UICONTROL Campaigns]** す(// **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**)。
 
-詳しくは、[コンバージョンレポート](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_conversion.html)を参照してください。
+詳しくは、[コンバージョンレポート](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)を参照してください。
 
 ## フォールアウトレポートの実行 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -71,7 +71,7 @@ t_reports_fallout.xml
 
  -->
 
-Analysis Workspace の新しい[フォールアウト分析](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/fallout_flow.html)パネルを調べます。
+Analysis Workspace の新しい[フォールアウト分析](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)パネルを調べます。
 
 1. で、// [!UICONTROL Adobe Analytics]/をク **[!UICONTROL Reports]** リック **[!UICONTROL Paths]** しま **[!UICONTROL Pages]** す **[!UICONTROL Fallout]**。
 1. ページ上で、 [!UICONTROL Fallout Report] をクリックしま **[!UICONTROL Launch the Fallout Report Builder]**&#x200B;す。
@@ -85,16 +85,16 @@ Analysis Workspace の新しい[フォールアウト分析](https://marketing.a
 
 >[!MORELIKETHIS]
 >
->* [フォールアウトレポートの説明](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-fallout.translate.html)
+>* [フォールアウトレポートの説明](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## ページフローレポートの実行 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 ページフローレポートには、訪問者がページにアクセスした順序と使用したナビゲーション方法が表示されます。このレポートは問題を解決するのに役立ちます。
 
-Analysis Workspace の新しい[フロービジュアライゼーション](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/flow.html)を調べます。
+Analysis Workspace の新しい[フロービジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)を調べます。
 
-[パス](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_paths.html)レポートを実行します。
+[パス](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-paths.html)レポートを実行します。
 
 例えば、/// **[!UICONTROL Reports]** をク **[!UICONTROL Paths]** リック **[!UICONTROL Pages]** します **[!UICONTROL Next Page Flow]**。
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://marketing.adobe.com/resources/help/ja_JP/reference/reports_conversion_funnel.html).
+1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
 
 ## マーケティングチャネルレポートの実行 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -132,7 +132,7 @@ t_reports_marketing_channel.xml
 
  -->
 
-詳細については、[マーケティングチャネル](https://marketing.adobe.com/resources/help/ja_JP/mchannel/index.html)のヘルプシステムを参照してください。
+詳細については、[マーケティングチャネル](/help/components/c-marketing-channels/analyze-mc.md)のヘルプシステムを参照してください。
 
 ## 異常値検出レポートの実行 {#task_4808C96327354D789C075823F5C3A049}
 
@@ -144,13 +144,13 @@ t_anomaly_view.xml
 
  -->
 
-Analysis Workspace の新しい[異常値検出と貢献度分析](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/anomaly_detection.html)機能を調べます。
+Analysis Workspace の新しい[異常値検出と貢献度分析](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)機能を調べます。
 
 **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
 
->[!NOTE]Analysis Workspace プロジェクト内からも異常値検出を実行できます。[さらに詳しく...](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/anomaly_detection.html)
+>[!NOTE]Analysis Workspace プロジェクト内からも異常値検出を実行できます。[さらに詳しく...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-異常値検出の設定については、[リファレンスガイド](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)を参照してください。
+異常値検出の設定については、[リファレンスガイド](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)を参照してください。
 
 異常値検出では、2 種類のグラフが表示されます（概要グラフと個別の指標グラフ）。個別の指標グラフは、その指標に関して 1 つ以上の異常値が検出された場合にのみ表示されます。
 
@@ -177,7 +177,7 @@ Analysis Workspace の新しい[異常値検出と貢献度分析](https://marke
         <li id="li_4090357A0D214BC7B1C3DE0615875554">下限値と期待値が等しい場合は、偏差率は –100% になります。 </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">それ以外の場合は、偏差率は「((下限値 – 実際の値) / (期待値 – 下限値)) * -100」で計算されます。  </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">「<span class="uicontrol">表示セグメント</span>」をクリックすると、異常値検出レポートにセグメントを適用するためのセグメントパネルが表示されます。セグメントについての<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/"  >詳細</a>を参照してください。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">「<span class="uicontrol">表示セグメント</span>」をクリックすると、異常値検出レポートにセグメントを適用するためのセグメントパネルが表示されます。セグメントについての<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html"  >詳細</a>を参照してください。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">「<span class="uicontrol">指標を編集</span>」をクリックすると、異常値を検出する指標の選択および選択解除が行えます。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -230,7 +230,7 @@ t_anomaly_config.xml
 
    ![](assets/ad_top_menu.png)
 
-   セグメントの作成と管理について詳しくは、[Analytics セグメント化ガイド](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/)を参照してください。1.（オプション）レポートをお気に入りにするか、ブックマークします。
+   セグメントの作成と管理について詳しくは、[Analytics セグメント化ガイド](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)を参照してください。1.（オプション）レポートをお気に入りにするか、ブックマークします。
 1. （オプション）表示期間の終了日を変更します。デフォルトは昨日です。
 1. これで、レポートを表示できるようになります。[異常値検出グラフの表示](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
 
@@ -248,7 +248,7 @@ reports_realtime.xml
 
 リアルタイムレポートには、概要レポートと詳細レポートという 2 つのメインレポートがあります。それぞれは複数のレポートレットから構成されています。
 
-リアルタイムレポートの設定については、[Analytics リファレンスガイド](https://marketing.adobe.com/resources/help/ja_JP/reference/index.html#RealTime_Reports_Configuration)を参照してください。
+リアルタイムレポートの設定については、[Analytics リファレンスガイド](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration)を参照してください。
 
 1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
 
@@ -259,7 +259,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>レポートスイートの選択</strong></td> 
-   <td class="chdesc stentry"> このリアルタイムレポートに表示するレポートスイートを選択します。レポートスイートを変更する方法については、<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/t_realtime_admin.html"  >リアルタイムレポートの設定</a>を参照してください。 </td> 
+   <td class="chdesc stentry"> このリアルタイムレポートに表示するレポートスイートを選択します。レポートスイートを変更する方法については、<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >リアルタイムレポートの設定</a>を参照してください。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>レポートの切り替え</strong></td> 
