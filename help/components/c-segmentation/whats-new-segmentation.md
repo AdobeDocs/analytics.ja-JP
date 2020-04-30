@@ -3,7 +3,7 @@ description: Adobe Analytics のセグメントの新機能。
 title: Analytics のセグメントの新機能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Analytics のセグメントの新機能。
    <td colname="col2"> <p>「within」句の「THEN」ステートメントの間に、例えば「within 1 search keyword instance（1 個の検索キーワードのインスタンス内）」や「within 1 eVar 47 instance（1 個の eVar 47 インスタンス内）」というように追加できます。これにより、ディメンションの 1 個のインスタンス内にセグメントが制限されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace：<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/fallout_flow.html"  >フォールアウト分析でのセグメントの使用 </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  >フォールアウト分析でのセグメントの使用 </a> </p> </td> 
    <td colname="col2"> <p>タッチポイントからセグメントを作成したり、セグメントをタッチポイントとして追加したり、Analysis Workspace の様々なセグメントにわたって主なワークフローを比較したりできます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Adobe Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; セグメント比較 </p> </td> 
-   <td colname="col2"> <p> Analysis Workspace の<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/segment-comparison.html"  >セグメント比較</a>（セグメント IQ）パネルを使用すると、Analytics の任意の 2 つのセグメントをすばやく比較して、すべてのデータポイントにわたって、最も大きな違いを見つけることができます。 </p> </td> 
+   <td colname="col2"> <p> Analysis Workspace の<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  >セグメント比較</a>（セグメント IQ）パネルを使用すると、Analytics の任意の 2 つのセグメントをすばやく比較して、すべてのデータポイントにわたって、最も大きな違いを見つけることができます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Adobe Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> セグメントを作成</span>権限 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html"  >セグメントを作成権限</a>がないユーザーはセグメントビルダーにアクセスできなくなりました。 </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html"  >セグメントを作成権限</a>がないユーザーはセグメントビルダーにアクセスできなくなりました。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Adobe Analytics のセグメントの新機能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>セグメントビルダーの権限の変更 </p> </td> 
-   <td colname="col2"> <p>管理者ユーザーは、新しいセグメントを作成できるユーザーを制限できます。デフォルトでは、すべてのユーザーがセグメントを作成できます。<a href="https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html"  >さらに詳しく...</a> </p> </td> 
+   <td colname="col2"> <p>管理者ユーザーは、新しいセグメントを作成できるユーザーを制限できます。デフォルトでは、すべてのユーザーがセグメントを作成できます。<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html"  >さらに詳しく...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
