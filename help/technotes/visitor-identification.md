@@ -6,7 +6,7 @@ title: 個別訪問者数の識別
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,12 +37,12 @@ s.visitorID 変数を設定して訪問者を識別するためのカスタム�
 
 カスタム訪問者 ID は、訪問者を固有の方法で識別するサイトで使用できます。例えば、ユーザーがユーザー名とパスワードを使用して Web サイトにログインする際に生成される ID は、カスタム訪問者 ID です。
 
-ユーザーの[!UICONTROL 訪問者 ID] を取得および管理できる場合は、次の方法を使用して ID を設定できます。
+Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of your users, you can use the following methods to set the ID:
 
 | メソッド | 説明 |
 |---|---|
 | [s.visitorID](../implement/vars/config-vars/visitorid.md) 変数 | ブラウザーで JavaScript が使用されている場合または他の AppMeasurement ライブラリを使用している場合は、訪問者 ID をデータ収集変数に設定できます。 |
-| イメージリクエスト上のクエリ文字列パラメーター | これにより、ハードコードされたイメージリクエスト上の [!UICONTROL vid クエリ文字列]パラメーターを使用して、[!UICONTROL 訪問者 ID] をアドビに送信できます。 |
+| イメージリクエスト上のクエリ文字列パラメーター | This lets you pass the [!UICONTROL visitor ID] to Adobe via the [!UICONTROL vid query string] parameter on a hard-coded image request. |
 | Data Insertion API | JavaScript を受け付けないワイヤレスプロトコルを使用するデバイスでは、お使いのサーバーからアドビの収集サーバーに、`<visitorid/>` XML 要素を含む XML ポストを送信できます。 |
 | URL の書き直しおよび VISTA | 一部の導入アーキテクチャでは、cookie を設定できない場合に URL の書き直しによってセッションの状態を維持する機能をサポートしています。このような場合、アドビのエンジニアリングサービスで [!DNL VISTA] ルールを導入できます。このルールでは、ページの URL 内のセッション値を検索し、整形して、[!UICONTROL visid] の各値に配置します。 |
 >[!CAUTION]
@@ -58,7 +58,7 @@ s.visitorID 変数を設定して訪問者を識別するためのカスタム�
 
 Apple Safari などのブラウザーによっては、現在の Web サイトのドメインと一致しないドメインから HTTP ヘッダーに設定される cookie については保存しないものもあります。例えば、`mysite.com` を表示しているとき、データ収集サーバーが `mysite.omtrdc.net` である場合は、`mysite.omtrdc.net` からの HTTP ヘッダーで返された Cookie はブラウザーによって拒否される可能性があります。
 
-この問題を回避するために、多くのお客様は[ファーストパーティ cookie を導入する](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.translate.html)中で、データ収集サーバーの CNAME レコードを導入しています。お客様のドメインのホスト名をデータ収集サーバーにマッピングするように CNAME レコードを設定すると（例えば、`metrics.mysite.com` を `mysite.omtrdc.net` にマッピングする）、データ収集ドメインは Web サイトのドメインと一致するので、訪問者 ID cookie が保存されます。これによって訪問者 ID cookie が保存される可能性が高まりますが、CNAME レコードを設定し、データ収集サーバーの SSL 証明書を保持する必要があるので、ある程度のオーバーヘッドが生じます。
+この問題を回避するために、多くのお客様は[ファーストパーティ cookie を導入する](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html)中で、データ収集サーバーの CNAME レコードを導入しています。お客様のドメインのホスト名をデータ収集サーバーにマッピングするように CNAME レコードを設定すると（例えば、`metrics.mysite.com` を `mysite.omtrdc.net` にマッピングする）、データ収集ドメインは Web サイトのドメインと一致するので、訪問者 ID cookie が保存されます。これによって訪問者 ID cookie が保存される可能性が高まりますが、CNAME レコードを設定し、データ収集サーバーの SSL 証明書を保持する必要があるので、ある程度のオーバーヘッドが生じます。
 
 ### モバイルデバイスの cookie {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -66,9 +66,9 @@ cookie を使用してモバイルデバイスをトラッキングする場合�
 
 ## ID サービス
 
-ID サービスは、従来の Analytics 訪問者 ID メカニズムに代わるものであり、[!UICONTROL ハートビート]ビデオ指標、Target と Analytics の統合および今後の Experience Cloud コアサービスと統合で必須となる機能です。
+The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
 
-このサービスに関する製品ドキュメントについては「[ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)」を参照してください。
+このサービスに関する製品ドキュメントについては「[ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)」を参照してください。
 
 ## モバイルデバイスの識別
 
@@ -76,7 +76,7 @@ ID サービスは、従来の Analytics 訪問者 ID メカニズムに代わ�
 
 アドビでは、ほとんどのモバイルデバイスを一意に識別する様々な HTTP 加入者 ID ヘッダーを識別しています。これらのヘッダーには、デバイスの電話番号（または電話番号をハッシュ化したもの）やその他の識別子が含まれます。現在のほとんどのデバイスには、デバイスを一意に識別する 1 つ以上のヘッダーがあり、アドビのすべてのデータ収集サーバーでは、訪問者 ID の代わりにこれらのヘッダーが自動的に使用されます。
 
-一般的なイメージリクエストでは、パス（`/b/ss/rsid/1`/）内の「1」は、アドビサーバーに対して、gif イメージを返し、持続的な[!UICONTROL 訪問者 ID] cookie（`AMCV_` または `s_vi`）の設定を試行するように命令します。ただし、デバイスが HTTP ヘッダーに基づいてモバイルデバイスとして認識される場合は、「1」の代わりに「5」が渡されます。これは、wbmp 形式のイメージを返す必要があることと、認識済みのワイヤレスヘッダーのリスト（cookie ではない）を使用してデバイスを識別する必要があることを示します。
+In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). ただし、デバイスが HTTP ヘッダーに基づいてモバイルデバイスとして認識される場合は、「1」の代わりに「5」が渡されます。これは、wbmp 形式のイメージを返す必要があることと、認識済みのワイヤレスヘッダーのリスト（cookie ではない）を使用してデバイスを識別する必要があることを示します。
 
 次の表に、パス内の返されるイメージタイプ値（「1」または「5」）に基づいて使用される ID メソッドの順序を示します。
 
