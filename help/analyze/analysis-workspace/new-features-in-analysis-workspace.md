@@ -5,7 +5,7 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -169,7 +169,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>新規テンプレート: Audio Consumption</b> </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Audio Analytics</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  >Audio Analytics</a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -468,7 +468,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
    <td colname="col2"> <p>以前は、プロジェクトをコピーした場合や「名前を付けて保存」をおこなった場合、プロジェクト内に保存されている内部リンクはすべて、コピーされたプロジェクトではなく、元のプロジェクトを指していました。 </p> <p>コピー／名前を付けて保存の後でも、内部リンクは内部のプロジェクトに対して相対的になりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>貢献度分析：<a href="https://marketing.adobe.com/resources/help/ja_JP/analytics/contribution/ca_main.html"  >トークン通知 </a> </p> </td> 
+   <td colname="col1"> <p>貢献度分析：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >トークン通知 </a> </p> </td> 
    <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。  </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
   </tr> 
   <tr> 
@@ -803,7 +803,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 人物テンプレート </a> </p> </td> 
-   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人物指標は、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-people.html"  >Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
+   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人物指標は、<a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>「元に戻す」／「やり直し」オプションの強化 </p> </td> 
@@ -973,7 +973,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 2016 年 6 月 17 日にリリースされた新機能：
 
-* [管理者がユーザーの](https://marketing.adobe.com/resources/help/ja_JP/reference/groups.html) 「/」タブへのアクセスを許可または拒否できる新しいグ **[!UICONTROL Analytics]** ループ権 **[!UICONTROL Workspace]** 限が追加されました。 2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
+* [管理者がユーザーの](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html) 「/」タブへのアクセスを許可または拒否できる新しいグ **[!UICONTROL Analytics]** ループ権 **[!UICONTROL Workspace]** 限が追加されました。 2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
 * Folio Builder[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント
