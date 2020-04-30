@@ -3,7 +3,7 @@ description: Report Builder 5.2 では、Adobe Analytics Unified Calculated Metr
 title: 計算指標
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポ
 
 >[!NOTE]既存のワークブックでは、従来の指標 ID の付いたリクエストを参照している場合があります。Report Builder 5.2 を使用すると、既存のワークブックでは従来の指標 ID が新しいグローバル ID に変換されます。Report Builder 5.2 を使用して変換されたワークブックを Report Builder の 5.1 以前のバージョンで開くと、計算指標は表示されません。
 
-新しい計算指標ビルダーおよび計算指標マネージャでの計算指標の作成と管理方法について詳しくは、[計算指標](https://marketing.adobe.com/resources/help/ja_JP/analytics/calcmetrics)ガイドを参照してください。
+新しい計算指標ビルダーおよび計算指標マネージャでの計算指標の作成と管理方法について詳しくは、[計算指標](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html)ガイドを参照してください。
 
 リクエストウィザードのステップ 2 では、計算指標へのフィルター設定と計算指標の適用ができます。
 
