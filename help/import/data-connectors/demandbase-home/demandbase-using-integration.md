@@ -3,7 +3,7 @@ description: 統合がデプロイされると、提供されている追加機�
 title: 統合の使用
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,6 +32,6 @@ Adobe Analytics 内でこの統合を活用するために実行するアクシ�
 
 オーディエンス = SMB とする。
 
-セグメントの作成方法について詳しくは、[Analytics セグメント化ガイド](https://marketing.adobe.com/resources/help/ja_JP/analytics/segment/)を参照してください。
+セグメントの作成方法について詳しくは、[Analytics セグメント化ガイド](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)を参照してください。
 
 このセグメントは、ほぼすべてのレポートに適用できます。例として、ここに示す訪問別滞在時間レポートなどがあります。![](assets/segment_applied_report.png)
