@@ -3,7 +3,7 @@ description: Adobe Analytics の使用開始方法を説明します。
 keywords: Analysis Workspace
 title: 入門ガイド
 translation-type: tm+mt
-source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -97,6 +97,6 @@ Analysis Workspace の理解を深めるためには、様々なアプローチ�
 
 ### 組織のWorkspaceの質の向上を求めているアナリストおよび管理者向け
 
-* [Analysis Workspace 権限](https://marketing.adobe.com/resources/help/ja_JP/mcloud/admin_getting_started.html)：Adobe Admin Console を使用して、Workspace にユーザー権限を割り当てます。
+* [Analysis Workspace 権限](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html)：Adobe Admin Console を使用して、Workspace にユーザー権限を割り当てます。
 * [Workspace のテンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)：テンプレートを作成し、同僚のニーズに合わせて調整されたプロジェクトスペースでの作業を同僚が開始できるようにします。
 * [Workspace のキュレーション](/help/analyze/analysis-workspace/curate-share/curate.md)：使用可能なコンポーネントを制限するプロジェクトを作成し、ツールに慣れていないユーザーがワークスペースにアクセスしやすいようにします。
