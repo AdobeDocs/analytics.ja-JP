@@ -3,7 +3,7 @@ description: 'null'
 title: ワークフローの概要
 uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/step1_icon.png) Google／Bing の検索データを表示する Analytics レポートスイートを、Experience Cloud 組織にマッピングします。
 
-[組織へのレポートスイートのマッピング](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html)を参照してください。
+[組織へのレポートスイートのマッピング](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)を参照してください。
 
 ![](assets/step2_icon.png) [レポートスイートごとの Advertising Analytics レポートの有効化](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
