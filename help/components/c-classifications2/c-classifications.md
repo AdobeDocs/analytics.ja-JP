@@ -5,7 +5,7 @@ title: 分類について
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 [Analytics 分類](https://video.tv.adobe.com/v/16853/?captions=jpn)のビデオ概要。
 
-**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／*`<Traffic or Conversion>`*
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > *`<Traffic or Conversion>`*
 
 分類を行う場合は、変数とその変数に関連するメタデータとの間に関係を確立します。分類は、キャンペーンに最もよく使用されます。変数（eVar、prop、event）情報を使用して収集されたデータは、変数内の収集された値にメタデータを適用することでロールアップできます。
 
 ![ステップ情報](assets/sub_class_create.png)
 
-分類後は、キー変数を使用して生成できるすべてのレポートが、関連付けられた属性を使用して生成することもできるようになります。例えば、[!UICONTROL 製品 ID] を、追加した製品属性（製品名、色、サイズ、説明、SKU など）によって分類できます。レポーティングと解析データに属性を追加し拡張することで、さらに詳しく複雑なレポートを作成できます。
+分類後は、キー変数を使用して生成できるすべてのレポートが、関連付けられた属性を使用して生成することもできるようになります。For example, you can classify [!UICONTROL Product IDs] with additional product attributes, such as product name, color, size, description, and SKU. レポーティングと解析データに属性を追加し拡張することで、さらに詳しく複雑なレポートを作成できます。
 
 >[!IMPORTANT]
 >
@@ -38,7 +38,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 レポーティングと解析には、トラッキングコード変数の分類が事前定義されており、クリエイティブエレメントやキャンペーンと呼ばれる分類ベースのレポートを作成できます。その他すべてのコンバージョン変数およびトラフィック変数については、分類を手動で設定する必要があります。
 
-[トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)および[コンバージョン分類](https://marketing.adobe.com/resources/help/ja_JP/reference/conversion_classifications.html)を参照してください。
+[トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)および[コンバージョン分類](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)を参照してください。
 
 次の表では、使用できる様々なタイプの分類およびこれらの分類をサポートする変数のタイプについて説明します。データファイルをアップロードする前に、[一般的なファイル構造](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)の情報を確認します。
 
