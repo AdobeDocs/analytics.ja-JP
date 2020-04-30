@@ -5,7 +5,7 @@ title: FTP インポート
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,7 +18,7 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 
-**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 次の推奨限度に注意してください。
 
@@ -49,9 +49,9 @@ FTP アカウントを使用して分類を Adobe Analytics にインポート�
 
 FTP アカウントの作成について詳しくは、[FTP アカウントの作成](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)を参照してください。
 
-1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
-1. 「**[!UICONTROL ファイルのインポート]**」をクリックしてから「**[!UICONTROL FTP インポート]**」をクリックします。
-1. 使用する FTP アカウントの横の「**[!UICONTROL 表示]**」をクリックします。
+1. クリック **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
 1. FTP アクセス情報（ホスト、ログイン、パスワード）を使用して、選択した FTP クライアントで FTP サーバーにアクセスします。
 1. データファイル（[!DNL .tab] または [!DNL .txt]）を FTP サーバーにアップロードします。
 1. データファイルをアップロードしたら、ファイルの処理準備が完了したことを示す FIN ファイルをアップロードします。
@@ -70,11 +70,11 @@ t_create_an_ftp_account.xml
 
  -->
 
-Adobe FTP サーバーについて詳しくは、「[FTP と SFTP（FTP and SFTP）](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/ftp/)」を参照してください。
+Adobe FTP サーバーについて詳しくは、「[FTP と SFTP（FTP and SFTP）](https://docs.adobe.com/content/help/en/analytics/export/ftp-and-sftp/ftp-overview.html)」を参照してください。
 
-1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
-1. 「**[!UICONTROL ファイルのインポート]**」をクリックしてから「**[!UICONTROL FTP インポート]**」をクリックします。
-1. 「**[!UICONTROL ファイルのインポート]**」タブで、「**[!UICONTROL 新規追加]**」をクリックします。
+1. クリック **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. タブで、をク **[!UICONTROL Import File]** リックしま **[!UICONTROL Add New]**&#x200B;す。
 1. FTP アカウントについて次の詳細を指定します。
 
    | 要素 | 説明 |
@@ -87,6 +87,6 @@ Adobe FTP サーバーについて詳しくは、「[FTP と SFTP（FTP and SFTP
    | 通知受信者 | この FTP アカウントに関する通知を受信する電子メールアドレスを指定します。 |
    | 許可する | （必須）アドビに対して、新しい FTP アカウントに送信されたすべてのデータファイルを自動的にインポートすることを許可します。 |
 
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. クリック **[!UICONTROL Save]**.
 
 アカウントを作成したら、FTP アカウントの横にある該当するリンクをクリックして、FTP アカウントを編集または削除できます。
