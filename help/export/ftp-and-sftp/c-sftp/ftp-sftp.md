@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: セキュアファイル転送プロトコル - 概要
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,7 +17,7 @@ SFTP は、データ転送を安全に行うためのプロトコルであり、
 
 これは、アドビのサーバーがファイルをユーザーのサーバーに「プッシュ」することを意味しています。基本的に、ファイルはエンドポイントに配信されます。
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) と [Analytics のデータフィード](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)は、SFTP 経由でデータをプッシュできます。
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) と [Analytics のデータフィード](https://docs.adobe.com/content/help/ja-JP/analytics/export/analytics-data-feed/data-feed-overview.html)は、SFTP 経由でデータをプッシュできます。
 
 以下の Analytics ツールでは、SFTP 経由でデータをプッシュ&#x200B;**できません**。
 
