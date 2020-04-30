@@ -3,7 +3,7 @@ description: 'null'
 title: フォールアウトビジュアライゼーションの設定
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
 
 追加できる手順の数または使用するディメンションの数に制限はありません。
 
-マーチャンダイジング eVar および [listVar](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/listN.html)（product、listVar、マーチャンダイジング eVar および listProp など複数の値を 1 回のヒットに含めることができる変数）を含む、eVar へのパスを設定できます。例えば、誰かが靴とシャツを 1 つのページで探していて、次のページでシャツとソックスを探しているとします。靴の次の製品フローレポートは、シャツではなく、シャツおよびソックスです。
+マーチャンダイジング eVar および [listVar](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html)（product、listVar、マーチャンダイジング eVar および listProp など複数の値を 1 回のヒットに含めることができる変数）を含む、eVar へのパスを設定できます。例えば、誰かが靴とシャツを 1 つのページで探していて、次のページでシャツとソックスを探しているとします。靴の次の製品フローレポートは、シャツではなく、シャツおよびソックスです。
 
 1. ビジュアライゼー [!UICONTROL Fallout][!UICONTROL Freeform Table]ションドロップダウンからビジュアライゼーションを
 
