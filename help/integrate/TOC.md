@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 統合ガイド
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
       + [広告アカウントの管理](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics のトラブルシューティング](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [よくある質問](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/a4t.html)
++ [Analytics for Target - A4T](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
 + [Adobe Campaign レポート](adobe-campaign.md)
 + [AEM Assets レポート](aem-assets-reporting.md)
 + [Activity Map レポート](activitmap-reporting.md)
