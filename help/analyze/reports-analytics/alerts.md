@@ -5,7 +5,7 @@ title: アラート
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics 全体の新しいアラートシステムであるインテリ�
 
 You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
-詳しくは、Analysis Workspace ドキュメントの[インテリジェントアラート](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/intellligent_alerts.html)を参照してください。
+詳しくは、Analysis Workspace ドキュメントの[インテリジェントアラート](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)を参照してください。
 
 ## アラートの追加 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -39,13 +39,13 @@ Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONT
 
 1. Reports &amp; Analytics で、アラートを設定するレポートを開きます。
 1. クリック **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/alert-builder.html)が表示されます。
+1. これによって、[新しいアラートビルダー](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html)が表示されます。
 
 ## 既存のアラートを表示または編集するには {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 タスクコンテキスト
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. これによって、[新しいアラートビルダー](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/alert-manager.html)が表示されます。
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. これによって、[新しいアラートビルダー](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)が表示されます。
 
 ## レガシーアラートの移行 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -100,17 +100,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>ASI スロットをレポートスイートとして使用するアラート </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/reference/ASI_slots_admin.html"  >ASI スロットを作成または編集</a>できなくなっており、Analysis Workspace で使用できません。従って、新しいアラートでサポートされません。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>ASI スロットを作成または編集できなくなっており、Analysis Workspace で使用できません。従って、新しいアラートでサポートされません。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>パーティシペーション指標を使用したアラート </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/ja_JP/reference/metrics_participation.html"  >パーティシペーション指標</a>は、Reports &amp; Analytics で使用できますが、Analysis Workspace の新しいアラートシステムでは、現在、使用できません。 </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  >パーティシペーション指標</a>は、Reports &amp; Analytics で使用できますが、Analysis Workspace の新しいアラートシステムでは、現在、使用できません。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタムカレンダーレポートスイート用の毎月のアラート </p> </td> 
-   <td colname="col2"> <p>これは、<a href="https://marketing.adobe.com/resources/help/ja_JP/arb/custom_calendar.html"  >カスタムの月の開始日</a>（全米小売業協会／NRF およびカスタムカレンダータイプ）を含むレポートスイートに関するアラートを設定しているお客様にのみ影響します。 </p> <p>グレゴリオ暦または修正グレゴリオ暦カレンダーのレポートスイートに関するアラートには影響しません。以前は、これらのアラートは、グレゴリオ暦の月の最初の日（例：1 月 1 日、2 月 1 日など）に送信されていました。これは、異常値を検出する際に以前の月のデータを考慮する、アラートの新しい異常値検出機能では動作しません。将来は、カスタムカレンダーのスケジュールシステムのサポートを追加し、アラートおよびスケジュールされたプロジェクトの両方で、グレゴリオ暦の月の最初の日でなく、カスタムカレンダーの月の最初の日に送信するようにスケジュールできるようになります。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>これは、<a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  >カスタムの月の開始日</a>（全米小売業協会／NRF およびカスタムカレンダータイプ）を含むレポートスイートに関するアラートを設定しているお客様にのみ影響します。 </p> <p>グレゴリオ暦または修正グレゴリオ暦カレンダーのレポートスイートに関するアラートには影響しません。以前は、これらのアラートは、グレゴリオ暦の月の最初の日（例：1 月 1 日、2 月 1 日など）に送信されていました。これは、異常値を検出する際に以前の月のデータを考慮する、アラートの新しい異常値検出機能では動作しません。将来は、カスタムカレンダーのスケジュールシステムのサポートを追加し、アラートおよびスケジュールされたプロジェクトの両方で、グレゴリオ暦の月の最初の日でなく、カスタムカレンダーの月の最初の日に送信するようにスケジュールできるようになります。 </p> <p> </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは、まだ使用できません。 </p> </td> 
   </tr> 
   <tr> 
