@@ -4,7 +4,7 @@ title: フォールアウト
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,14 +21,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **Analysis Workspace**
 
-詳しくは、[カスタマージャーニー - フォールアウト](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/fallout_flow.html)を参照してください。
+詳しくは、[カスタマージャーニー - フォールアウト](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)を参照してください。
 
 **Reports and Analytics**
 
-構成情報については、ヘルプの[フォールアウトレポートの実行](https://marketing.adobe.com/resources/help/ja_JP/sc/user/t_reports_fallout.html)を参照してください。
+構成情報については、ヘルプの[フォールアウトレポートの実行](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html)を参照してください。
 
 **Ad Hoc Analysis**
 
 訪問または訪問者のレベルでフォールアウトデータを解析します。また、指定した期間におけるフォールアウトのグラフを表示するトレンドパスも表示できます。単一のページまたは複数のページのグループをレポートのチェックポイントとして設定したり、あらゆる組み合わせや順番でディメンションや指標を追加することができます。また、マーケティングレポートで設定したカテゴリをこのレポートのチェックポイントとして使用することもできます。
 
-構成情報については、ヘルプの[フォールアウトレポート](https://marketing.adobe.com/resources/help/ja_JP/dsc/c_reports_fallout.html)を参照してください。
+構成情報については、ヘルプの[フォールアウトレポート](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html)を参照してください。
