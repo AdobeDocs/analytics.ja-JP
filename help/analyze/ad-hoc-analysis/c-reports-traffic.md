@@ -4,7 +4,7 @@ title: トラフィックソースレポート
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **共通の持続性**
 
-[!UICONTROL トラフィックソース]では、すべてのレポート値は、値が上書きされるか訪問が終了するまで保持され、クレジットを受け取ります。以前は、保持されたのはキーワードと参照ドメインのみでした。例えば、訪問者が     「DVD」で Google 検索を行い、その結果サイトでの $100 の購入につながった場合、レポートでは $100 のクレジットが「DVD」というキーワードにも Google 検索エンジンにも割り当てられます。この機能は、[!DNL Admin Console] の設定内容に関わらず、変更できません。
+In [!UICONTROL Traffic Sources], all report values persist and receive credit until they are overwritten or until the visit ends, whichever comes first. 以前は、保持されたのはキーワードと参照ドメインのみでした。例えば、訪問者が     「DVD」で Google 検索を行い、その結果サイトでの $100 の購入につながった場合、レポートでは $100 のクレジットが「DVD」というキーワードにも Google 検索エンジンにも割り当てられます。この機能は、[!DNL Admin Console] の設定内容に関わらず、変更できません。
 
 ## 検索キーワード {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -38,11 +38,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL 検索キーワード - すべて]**：訪問者がサイトを見つけた時に使用した検索キーワードの詳細を示します。リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
+**[!UICONTROL Search Keywords - All]**:訪問者がサイトを見つけた時に使用した検索キーワードの内訳を表示します。 リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
 
-**[!UICONTROL 検索キーワード - 有料]**：訪問者がサイトを見つけたときに使用した各有料検索キーワードの分類を表示します。リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
+**[!UICONTROL Search Keywords - Paid]**:サイトの検索に使用された各有料検索キーワードの内訳を表示します。 リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
 
-**[!UICONTROL 検索キーワード - 自然]**：訪問者がサイトを見つけたときに使用した各自然検索キーワードの分類を表示します。リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
+**[!UICONTROL Search Keywords - Natural]**:サイトの検索に使用された各自然検索キーワードの内訳を表示します。 リスト上部にある列見出しをクリックすると、ページビュー数または検索キーワード順にリストを並べ替えることができます。検索キーワードの隣にある虫眼鏡をクリックすると、サイトの検索結果を見ることができます。
 
 ## 検索エンジン {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -54,11 +54,11 @@ c_reports_search_engines.xml
 
  -->
 
-**[!UICONTROL 検索エンジン - すべて]**：訪問者がどの検索エンジンを使って Web サイトを見つけたかが表示されます。訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
+**[!UICONTROL Search Engines - All]**:訪問者がどの検索エンジンを使用してWebページを見つけたかが表示されます。 訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
 
-**[!UICONTROL 検索エンジン - 有料]**：訪問者がどの有料検索エンジンを使って Web サイトを見つけたかが表示されます。訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
+**[!UICONTROL Search Engines - Paid]**:訪問者がどの有料検索エンジンを使用してWebページを見つけたかが表示されます。 訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
 
-**[!UICONTROL 検索エンジン - 自然]**：訪問者がどの自然検索エンジンを使って Web サイトを見つけたかが表示されます。訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
+**[!UICONTROL Search Engines - Natural]**:訪問者がどの自然検索エンジンを使用してWebページを見つけたかが表示されます。 訪問者がサイトを見つけるのに使用した各検索エンジンの割合がグラフで表示されます。
 
 ## 参照ドメイン {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -94,7 +94,7 @@ c_reports_referrers.xml
 
 こうした定義されたドメインおよび URL を含まないドメインや URL は、リファラーと見なされます。例えば、Web ページ A と Web ページ B が内部 URL フィルターに含まれていて、Web ページ C は含まれていないとします。この場合、Web ページ C がリファラーと見なされます。
 
-詳しくは、[ ヘルプの「](https://marketing.adobe.com/resources/help/ja_JP/reference/internal_URL_filter_admin.html)内部 URL フィルター[!DNL Admin Console]」を参照してください。
+詳しくは、[ ヘルプの「](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html)内部 URL フィルター[!DNL Admin Console]」を参照してください。
 
 >[!NOTE]Reports and Analytics は、訪問者が [!DNL imap://] または [!DNL mail://] のプロトコルを含む電子メールメッセージリンクをクリックしてサイトに来訪した場合、参照ドメインを電子メールリファラーとして記録します。例えば [!DNL https://mail.yahoo.com] からの訪問は、プロトコルが [!DNL https://] なので、電子メールリファラーとしてカウントされません。Outlook からの電子メールは「手動入力/ブックマーク」行に表示されますが、ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「検索エンジン」行に表示されます。
 
@@ -129,5 +129,5 @@ c_reports_ref_types.xml
 
 **USENET（ニュースグループ）**：これは、リファラーの URL が `news://` :// で始まっていたことを意味します。つまり、リファラーリンクは Web ページではなく USENET ニュースグループで投稿されました。
 
->[!NOTE]リファラータイプロジックは他のトラフィックソースレポート（[!UICONTROL リファラー]や[!UICONTROL 参照ドメイン]など）と一致します。この変更によって、[!UICONTROL リファラータイプ]レポートの「サイト内」と「JavaScript が有効になっていません」という行項目の発生が減少するか、発生されなくなります。
+>[!NOTE] 転送者タイプのロジックは、他のトラフィックソースレポート(およびな [!UICONTROL Referrers] ど)と一致 [!UICONTROL Referring Domains]します。 This should reduce or eliminate the occurrences of the Inside Your Site and No JavaScript line items in the [!UICONTROL Referrer Type] report.
 
