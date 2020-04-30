@@ -3,7 +3,7 @@ description: ヒストグラムは、Analysis Workspace の新しいビジュア
 title: ヒストグラム
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -37,7 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 開始グループ | どのグループからヒストグラムが始まるかを決定します。1 がデフォルトです。開始の数を 0 から無限大まで（負の数はなし）設定できます。 |
 | 指標グループ | データ範囲（グループ）の数を増減できます。グループの最大数は 50 です。 |
 | 指標グループのサイズ | 各グループのサイズを設定できます。例えば、グループサイズを 1 ページビューから 2 ページビューに変更できます。 |
-| カウント方法 | [訪問者](https://marketing.adobe.com/resources/help/ja_JP/reference/visitors.html)、[訪問](https://marketing.adobe.com/resources/help/ja_JP/reference/metrics_visit.html)または[ヒット](https://marketing.adobe.com/resources/help/ja_JP/reference/hit.html)から選択できます。例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルの y 軸指標として、「回数」が使用されます。 |
+| カウント方法 | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). 例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルの y 軸指標として、「回数」が使用されます。 |
+
+<!--Russ or Meike - Check Hit Type link above. -->
 
 **例**：
 
@@ -54,4 +56,4 @@ To view or change the data source for the histogram chart, click the dot next to
 
 ![](assets/prebuilt_segments.png)
 
-データを分類するなど、フリーフォームデータテーブルおよびその他のビジュアライゼーションを管理するその他の方法を確認するには、[こちら](https://marketing.adobe.com/resources/help/ja_JP/analytics/analysis-workspace/freeform-analysis-visualizations.html)を参照してください。
+データを分類するなど、フリーフォームデータテーブルおよびその他のビジュアライゼーションを管理するその他の方法を確認するには、[こちら](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)を参照してください。
