@@ -4,14 +4,14 @@ title: Activity Map の概要
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Activity Map の概要
 
->[!N注意]
+>[!NOTE]
 >アクティビティマップがシングルページアプリ(SPA)をサポートする方法について、 [FAQページで説明します](/help/analyze/activity-map/activitymap-faq.md) 。
 
 >[!IMPORTANT]
