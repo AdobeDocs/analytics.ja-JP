@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
+source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
 
@@ -35,13 +35,11 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [Data Warehouse セグメントの互換性](c-segmentation/seg-reference/seg-compatibility.md)
       + [セグメントに対する役割別の権限](c-segmentation/seg-reference/seg-rights.md)
       + [トラブルシューティング](c-segmentation/seg-reference/c-troubleshooting.md)
-   + 使用例 {#use-cases}
-      + [特定の日付の除外](c-segmentation/use-cases/exclude-date-range.md)
    + [よくある質問](c-segmentation/seg-transition.md)
    + [Analyticsセグメントの新機能](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis の移行ガイド](c-segmentation/seg-transition-ad-hoc.md)
 + 計算指標 {#calculated-metrics}
-   + [計算指標と高度な計算指標（派生指標）](c-calcmetrics/cm-overview.md)
+   + [計算指標および高度な計算指標（派生指標）](c-calcmetrics/cm-overview.md)
    + 計算指標のワークフロー {#calcmetric-workflow}
       + [計算指標のワークフロー](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [指標の検索](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -64,7 +62,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [指標の互換性](c-calcmetrics/cm-compatibility.md)
       + [計算指標：役割ベースの権限](c-calcmetrics/cm-role-based-rights.md)
       + [計算指標の合計](c-calcmetrics/cm-totals.md)
-   + [データの影響を受けるイベント](c-calcmetrics/cm-events.md)
    + [よくある質問](c-calcmetrics/cm-transition.md)
    + [ハウツービデオ](c-calcmetrics/cm-videos.md)
 + 仮想レポートスイート {#virtual-report-suites}
@@ -331,11 +328,11 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
    + [リアルタイムレポートの設定](c-real-time-reporting/t-realtime-admin.md)
    + [サポートされるリアルタイム指標とディメンション](c-real-time-reporting/realtime-metrics.md)
 + マーケティングチャネル {#marketing-channels}
-   + [マーケティングチャネル](c-marketing-channels/c-getting-started-mchannel.md)
+   + [マーケティングチャネルの使い始めに](c-marketing-channels/c-getting-started-mchannel.md)
    + [マーケティングチャネルの管理](c-marketing-channels/c-channels.md)
    + [マーケティングチャネルの処理ルール](c-marketing-channels/c-rules.md)
    + [マーケティングチャネルでの分類](c-marketing-channels/classifictions-mchannel.md)
    + [訪問者のエンゲージメント期間](c-marketing-channels/visitor-engagement.md)
-   + [マーケティングチャネル](c-marketing-channels/analyze-mc.md)
+   + [マーケティングチャネルの分析](c-marketing-channels/analyze-mc.md)
    + [マーケティングチャネルの権限](c-marketing-channels/c-channel-report-access.md)
    + [マーケティングチャネルに関するFAQと例](c-marketing-channels/c-faq.md)
