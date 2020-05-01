@@ -3,7 +3,7 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analyticsドキュメントリポジトリに対する注目すべき更新です。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
+source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 ---
 
@@ -12,22 +12,26 @@ source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 2019 年 1 月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* 新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)を参照してください。
-* 新機能について詳しくは、ツールユーザーガ [イドの「分析ワークスペースの新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) 」を参照してください。
+* 詳しくは [!UICONTROL Customer Journey Analytics]、 [こちらを参照してください](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)。
+* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html).
+* 新機能について詳しくは、ツールユーザーガイドの「分析ワークスペースの [新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) 」を参照してください。
 * オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)を参照してください。
 
 ## アップデートの詳細
 
 | 日付 | 説明 |
 |---|---|
-| 2020年2月27日 | [Adobe Analytics Labsのドキュメントを追加しました](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/tech-previews/overview.html)。 |
+| 2020年4月28日 | コン [テンツ速度](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) 指標に関するドキュメントを追加しました。 |
+| 2020 年 12 月 4 日 | Experience Cloudへの [公開セグメントの更新を追加しました](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。 |
+| 2020 年 12 月 4 日 | CDAのステッチ待ち時間の更新。 |
+| 2020年2月27日 | 「 [Adobe Analytics Labs](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/tech-previews/overview.html)」に関するドキュメントを追加しました。 |
 | 2020 年 2 月 26 日 | 変数を追加 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) しました。 |
 | 2020 年 2 月 19 日 | 変数を追加 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) しました。 |
-| 2020 年 2 月 13 日 | マーケティングチャネルドキュメントの更新 [と再編成](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
-| 2020 年 2 月 8 日 | デバイス間 [の分析の設定の更新と](../components/cda/cda-setup.md) FAQ [](../components/cda/cda-faq.md) |
-| 2020 年 2 月 5 日 | 導入ユーザーガイドの [書き直しを完了](../implement/home.md)。 |
-| 2020 年 1 月 23 日 | 新しい[フリーフォームテーブルビルダー](/help/analyze/analysis-workspace/visualizations/freeform-table.md)の情報を含む、フリーフォームテーブルページを更新しましたです。 |
-| 2020 年 1 月 13 日 | [Adobe Analyticsとブラウザーのcookieを追加しました](../technotes/cookies.md)。 |
+| 2020 年 2 月 13 日 | マー [ケティングチャネルドキュメントの更新と再編成](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
+| 2020 年 2 月 8 日 | デバイス間の分析の [設定](../components/cda/cda-setup.md) と [FAQの更新](../components/cda/cda-faq.md) |
+| 2020 年 2 月 5 日 | 『 [導入ユーザガイド』を完全に書き直し](../implement/home.md)ます。 |
+| 2020 年 1 月 23 日 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 2020 年 1 月 13 日 | [Adobe AnalyticsとブラウザーのCookieを追加しました](../technotes/cookies.md)。 |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019 年 11 月 26 日 | [IP ログイン制限実施の提供終了](https://docs.adobe.com/content/help/ja-JP/analytics/admin/company-settings/login-restrictions-eol.html)に関する新しいトピック |
 | 2019 年 11 月 26 日 | [内部（セッション更新）マーケティングチャネル](https://docs.adobe.com/content/help/ja-JP/analytics/components/marketing-channels/session-refresh.html)に関する新しいトピック |
