@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
 
@@ -44,7 +44,6 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
          + [カレンダーと日付範囲の概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Analysis Workspace でカスタム日付範囲を作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日付の比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-         + [イベント](analysis-workspace/components/calendar-date-ranges/compare-event.md)
    + ビジュアライゼーション {#visualizations}
       + [ビジュアライゼーションの概要](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [データソースの管理](analysis-workspace/visualizations/t-sync-visualization.md)
