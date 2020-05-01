@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ea1927827c0615b085a440bc86116b438594e448
+source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ---
 
@@ -26,9 +26,12 @@ source-git-commit: ea1927827c0615b085a440bc86116b438594e448
       + [コンバージョン数](ga-to-aa/reports/conversions-reports.md)
    + [よくある質問](ga-to-aa/faq.md)
    + [プラットフォーム間の処理の違い](ga-to-aa/processing-differences.md)
-+ [データの分析 —イベント](event-impacted.md)
-+ データの分析 —イベント {#event}
-   + [ユーザーへの影響の伝達](event/event-communicate.md)
++ イベントの影響を受けるデータの分析 {#event}
+   + [イベントの概要の影響を受けるデータの分析](event/overview.md)
+   + [分析内の特定の日付の除外](event/segments.md)
+   + [前の範囲と日付を比較する](event/compare-dates.md)
+   + [イベントの影響を受けたデータを抽出](event/calcmetrics.md)
+   + [イベントのユーザーへの伝達](event/communicate.md)
 + [ブラウザーの cookie](cookies.md)
 + [リスニングデータの保持期間](data-retention.md)
 + [遅延](latency.md)
