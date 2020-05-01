@@ -2,7 +2,7 @@
 title: 分析内の特定の日付の除外
 description: レポートに含めたくない場合の日付や日付範囲の除外に関するヒントです。
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 テーブルまたはビジュアライゼーションにゼロを表示しない（下降の原因となる）場合は、列設定の **[!UICONTROL Interpret zero as no value]** 下のを有効にします。
 
-![ゼロを解釈](../assets/interpret_zero.png)
+![ゼロを解釈](assets/interpret_zero.png)
 
 ### 除外セグメントのプロジェクトへの適用
 
