@@ -2,7 +2,7 @@
 description: このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
 title: Adobe Analytics - 主要概念
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 製品 | 説明 | ドキュメントリンク |
 |--- |--- |--- |
-| Analysis Workspace | 強力なカスタム分析プロジェクトを構築しインサイトをデモクラタイズ（民主化）するブラウザーソリューションReports &amp; Analytics よりも柔軟性の高いレポートを提供します。 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html) |
+| Analysis Workspace | 強力なカスタム分析プロジェクトを構築しインサイトをデモクラタイズ（民主化）するブラウザーソリューションReports &amp; Analytics よりも柔軟性の高いレポートを提供します。 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) |
 | Reports &amp; Analytics（旧称 SiteCatalyst） | レポートおよび分析のためのブラウザーソリューションAnalytics パッケージのスターターツールです。 | [Reports &amp; Analytics ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.translate.html) |
 | Report Builder | Adobe Analytics のデータからカスタムリクエストを構築し、視覚的なレポートを作成する Microsoft Excel のアドインです。 | [Report Builder ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析を実行する Java ベースのツールです。 | [Ad Hoc Analysis ホーム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
