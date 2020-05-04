@@ -5,7 +5,7 @@ title: Workspace プロジェクトの作成
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -42,8 +42,8 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
 
-   * 次に、またはをク **[!UICONTROL Create]**&#x200B;リックします。
-   * をクリックしま **[!UICONTROL Enter]**&#x200B;す。
+   * 次に、 **[!UICONTROL Create]**&#x200B;または
+   * をクリックし **[!UICONTROL Enter]**&#x200B;ます。
    空のプロジェクトが表示され、フリーフォームパネルとデータテーブルビジュアライゼーションが表示されます。
 
    ![](assets/fa_project_new.png)
@@ -185,7 +185,7 @@ The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > トレンド選択</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/home.md"  > トレンド選択</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
