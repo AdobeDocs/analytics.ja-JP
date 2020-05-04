@@ -3,7 +3,7 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 ## Adobe Analytics レポートユーザーインターフェイス {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)**は、レポートおよび分析のあらゆるニーズに応える中心的なユーザーインターフェイスです。アドビでは、この製品への投資を続け、毎月、製品のアップデートをリリースしています。Analysis Workspace で実行できないタスクがある場合は、以下に示す他のインターフェイスを検討してください。**
+**[Analysis Workspace](/help/analyze/analysis-workspace/home.md)**は、レポートおよび分析のあらゆるニーズに応える中心的なユーザーインターフェイスです。アドビでは、この製品への投資を続け、毎月、製品のアップデートをリリースしています。Analysis Workspace で実行できないタスクがある場合は、以下に示す他のインターフェイスを検討してください。**
 
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**は以下の場合に使用します。
 
@@ -118,7 +118,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 * **処理済み**：機能豊富なデータ（訪問、訪問者、セグメントなど）が必要な場合。これは典型的な Analytics UI の要約データで、30 分から 90 分で提供されます。Report Builder を通じて使用できます。
 * **リアルタイム**：いくつかの指標とディメンションを数秒の待ち時間で表示させる場合。これは、限定的な、部分的に処理され要約されたデータで、30 秒以内で提供されます。最頻使用、勝者、敗者の固有アルゴリズムが含まれます。Report Builder を通じて使用できます。
-* **[!UICONTROL Live Stream]**:部分的に処理されたヒットレベルのAnalyticsデータを数秒以内に収集する場合。 これは部分的に処理されたデータで、30 秒以内で提供されます。Analytics Premium でのみ使用可能です。データを可視化する何らかの方法が必要になります。通常は、エンジニアリングサービスを使用しておこないます。
+* **[!UICONTROL Live Stream]**: 部分的に処理されたヒットレベルのAnalyticsデータを数秒以内に収集したい場合。 これは部分的に処理されたデータで、30 秒以内で提供されます。Analytics Premium でのみ使用可能です。データを可視化する何らかの方法が必要になります。通常は、エンジニアリングサービスを使用しておこないます。
 
 ## カスタムソリューション {#section_4A212F26A15947599DFB0399A0440CB6}
 
