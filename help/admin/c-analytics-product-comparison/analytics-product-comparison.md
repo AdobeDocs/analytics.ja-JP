@@ -3,7 +3,7 @@ description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc
 title: Analytics 製品の比較と必要システム構成
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
  <tbody> 
   <tr> 
    <td> <b>製品名とヘルプリンク</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html"> Analysis Workspace </a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Analysis Workspace </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.translate.html"> Reports &amp; Analytics </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/ad-hoc-analysis/adhoc-home.html"> Ad Hoc Analysis </a> </td> 
    <td> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html"> Report Builder </a> </td> 
@@ -108,7 +108,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
   </tr> 
   <tr> 
    <td> <b>ビジュアライゼーションの拡張オプション</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html">○</a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html">○</a> </td> 
    <td> × </td> 
    <td> ○ </td> 
    <td> ○ </td> 
@@ -117,7 +117,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
   </tr> 
   <tr> 
    <td> <b>レイアウトのカスタマイズ</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html">○</a> </td> 
+   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html">○</a> </td> 
    <td> ○ - <a href="https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html">ダッシュボード</a> </td> 
    <td> × </td> 
    <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/configure-the-custom-layout.html">○</a> </td> 
