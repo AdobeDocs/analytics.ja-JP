@@ -1,102 +1,190 @@
 ---
-description: Adobe Analytics の使用開始方法を説明します。
 keywords: Analysis Workspace
-title: 入門ガイド
+title: Analysis Workspace の概要
+topic: Reports and analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: efbbf94882a406e95791e38e80f86691285986a6
 
 ---
 
 
-# Analysis Workspace
+# Analysis Workspace の概要
 
-Analysis Workspace は、組織にとって実用的なデータベースの決定をおこなう、アドビの主要ツールの 1 つです。最も一般的なビジュアライゼーションであるフリーフォームテーブルを使用すれば、ディメンション、指標、セグメントおよび日付範囲を使用し、カスタマイズしたレポートを簡単に作成できます。
+Analysis Workspace では、単一の Analytics レポートの通常の制限事項がすべて取り除かれます。堅牢かつ柔軟なキャンバスでカスタム分析プロジェクトを作成できます。任意の数のデータテーブル、ビジュアライゼーション、コンポーネント（ディメンション、指標、セグメントおよび時間の精度）をプロジェクトにドラッグ＆ドロップします。分類およびセグメントの作成、分析用のコホートの作成、アラートの作成、セグメントの比較、フローおよびフォールアウト分析をすばやくおこなうほか、レポートのキュレーションとスケジュールをおこなって会社の任意のユーザーと共有します。
 
-## 前提条件
+**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]**
 
-[Adobe Experience Platform Launch を使用して Adobe Analytics にデータを送信する](/help/implement/launch/validate-publish-prod.md)：Analysis Workspace を使用するには、動作する実装が必要です。ツールを使用する前に、組織がアドビにデータを送信していることを確認します。DTM やレガシーの手動による実装など、他の実装も同様に機能できます。
+## 概要ビデオ
 
-## Workspace での基本ランクレポートの取り込み
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-Analysis Workspace を使用して基本ランクレポートを取り込みます。ランクレポートには、各ディメンション値の集計された合計ビューが表示され、最も大きい値が最初に表示されます。これらのタイプのレポートは、最もトラフィックが多いページや最も売れている製品など、サイトのどのコンポーネントが最も効果的かを知るのに役立ちます。
+YouTube のプレイリストは、[こちら](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)から参照できます。
 
-1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
-2. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
-3. 上部ナビゲーションバーで、「Workspace」をクリックします。
-4. 「新規プロジェクトを作成」ボタンをクリックします。
-5. モーダルポップアップで「空白のプロジェクト」が選択されていることを確認し、「作成」をクリックします。
-6. 左側に、ディメンション、指標、セグメントおよび日付範囲のリストが表示されます。ページディメンション（色付きのオレンジ色）を見つけ、「ここにディメンションをドロップ」と表示されたキャンバスにドラッグします。
-7. レポートスイートにデータが含まれている場合は、今月のトップページを示すレポートが表示されます。Analysis Workspace は、[回数](/help/components/c-variables/c-metrics/metrics-occurrences.md)指標を使用してレポートに自動的に入力します。
-8. 訪問回数指標（緑色）を見つけ、回数指標ヘッダーの&#x200B;**上**&#x200B;または&#x200B;**隣**&#x200B;にドラッグします（指標の上に配置しないでください）。訪問回数指標を「回数」の上にドラッグすると、レポート内のその指標が置き換えられます。「回数」の横に訪問回数指標をドラッグすると、両方の指標が並べて表示されます。
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+>[!NOTE]
+>
+>機能に関する更新については、[Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
 
-## Workspace での基本トレンドレポートの取り込み
+## プロジェクト要素およびコンポーネントのフルコントロール
 
-Analysis Workspace を使用して基本トレンドレポートを取り込みます。トレンドレポートは、選択した日付範囲を使用して、指標の時系列表示を示します。これらのタイプのレポートは、経時的なトレンドの特定に役立ち、ビジネス上の意思決定の成功または失敗を測定するために使用できます。例えば、経時的にトレンド表示されたページビュー数レポートを見て、サイトを作り直したことがトラフィックの増減に役立ったかどうかを確認できます。
+Analysis Workspace は、次のような自由と柔軟性を提供します。
 
-1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
-2. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
-3. 上部ナビゲーションバーで、「Workspace」をクリックします。
-4. 「新規プロジェクトを作成」ボタンをクリックします。
-5. モーダルポップアップで「空白のプロジェクト」が選択されていることを確認し、「作成」をクリックします。
-6. 左側に、ディメンション、指標、セグメントおよび日付範囲のリストが表示されます。ページビュー数ディメンションを見つけ、「ここに指標をドロップ」というラベルが付いたキャンバス上の小さなスペースにドラッグします。ディメンション用に予約されたスペースにドロップしないでください（少なくともこの演習では）。
-7. レポートスイートにデータが含まれている場合は、今月の基本ページビュー数レポートが表示されます。Analysis Workspace は自動的に「日」の日付範囲を取り込むので、現在の月のページビューのトレンドを確認できます。
-8. 左側の日付範囲コンポーネントのリストで、週の日付範囲（紫色）を探します。日付範囲のタイトルをクリックして、すべての日付範囲コンポーネントを展開して表示するか、検索バーを使用します。
-9. キャンバス上の日付範囲ヘッダーの上にある週の日付範囲をドラッグして置き換えます。
-10. トレンドレポートは、日ではなく週別に集計されるようになりました。
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+* コンポーネント（ディメンション、指標、セグメントおよび時間の精度）をドラッグ＆ドロップする
+* 複数のビジュアライゼーションをプロジェクトにドラッグ＆ドロップする
+* プロジェクト内で場所を問わずビジュアライゼーションを移動、リサイズおよびスタックする
 
-## ツールを使って実験する
+![](assets/fa_project_new.png)
 
-Analysis Workspace はレポート作成ツールなので、データ収集には影響しません。何が機能するかを確認するためにコンポーネントをプロジェクトに適当にドラッグしても、データに影響はありません。様々なディメンションと指標の組み合わせをワークスペースプロジェクトにドラッグして、利用可能な項目を確認してください。
+[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)を参照してください。
 
-無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+## プロジェクト内の複数のビジュアライゼーション
 
-## トラブルシューティング
+必要な数のビジュアライゼーションをプロジェクトにドラッグ＆ドロップします。
 
-**指標をドラッグすると、「無効なデータ」と表示される。**
+![](assets/visualizations-multiple.png)
 
-無効なデータとは、レポートで使用されるディメンションと指標の組み合わせを使用してデータを返せないことを意味します。例えば、2 つの指標を重ね合わせて表示する方法がない場合、その方法ではデータとして返すことはできません。代わりに、指標を横に並べて配置します。
+フリーフォームデータテーブルのセルに対応する複数のビジュアライゼーションで、変化の割合を示すプロジェクトを作成します。
 
-**指標をドラッグすると、実際のデータは表示されず、ゼロのみが表示される。**
+![](assets/visualizations-multiple02.png)
 
-ワークスペースレポートを正常に作成したのにデータがないという場合は、次の点を確認してください。
+[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)を参照してください。
 
-* レポートスイートを再度チェックし、データが入力されていることを確認します。
-* レポートでセグメントを使用している場合、そのセグメント条件がどのデータとも一致しない可能性があります。セグメントを削除するか、セグメント定義を調整してみてください。
-* 右上の日付範囲をチェックし、期待する値に設定されていることを確認します。
-* Web サイトに移動し、デバッガーを使用してデータが収集されていることを検証します。
+## パネルとビジュアライゼーションへのイントラリンク
 
-## その他のリソース
+Analysis Workspace の[リッチテキスト編集](/help/analyze/analysis-workspace/visualizations/text.md)機能と併せて、テキストボックスからプロジェクト内の特定のパネルとビジュアライゼーションにリンクする機能があります。これは例えば、プロジェクトの目次を作成するために使用できます。プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」という新しい右クリックオプションが追加されました。イントラリンクをプロジェクトに追加するには：
 
-* [Analysis Workspace リリースノート](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)：ツールに導入された最新の機能について説明します。
-* [Analysis Workspace（YouTube）](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)：この広範なプレイリストを使用して、Analysis Workspace のほとんどの機能を使用する方法を説明します。
-* 製品内ヒント：Analysis Workspace の右下隅には時折、その日のヒントと短いビデオが表示されることがあります。If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
-* [Analysis Workspace コミュニティ](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：他のユーザーと Analysis Workspace について話し合い、ツールに望む機能に投票します。
-* ブログ投稿：
-   * [よりスマートな分析による組織の強化](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [強力なインサイトがより一層得られる新しい Adobe Analytics の機能](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-   * [Analysis Workspace で生産性を最大化するための 5 つのヒント](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-   * [Analysis Workspace でインサイトを簡単に](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-   * [Analysis Workspace を使用する理由](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+1. テキストビジュアライゼーションをプロジェクト内にドラッグします。例えば、コンテキストが必要なビジュアライゼーションまたはテーブルの横に配置します。
+1. テキストボックスに目次などを入力して、パネルまたはビジュアライゼーションにリンクさせたい項目（この例では成功指標）をハイライト表示します。
 
-## 次の手順
+   ![](assets/intra-linking1.png)
 
-Analysis Workspace の理解を深めるためには、様々なアプローチがあります。アドビが推奨する基本事項を以下に示します。
+1. 目的のパネルまたはビジュアライゼーションまでスクロールして、そのヘッダーを右クリックします。
+1. 下にスクロールして、次のいずれかを選択し **[!UICONTROL Get Panel Link]** ま **[!UICONTROL Get Visualization Link]**&#x200B;す。
 
-### Analysis Workspace の使用方法に関する知識を広げたいエンドユーザー向け
+   ![](assets/intra-linking2.png)
 
-* [Workspace UI の詳細](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)：基本レポートを作成したら、残りのインターフェイスに慣れてください。
-* [Workspace のビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：フリーフォームテーブルは、Analysis Workspace のビジュアライゼーションのタイプの 1 つにすぎません。折れ線グラフ、棒グラフ、地域マップなど、他のビジュアライゼーションの使用方法を説明します。
-* [Workspace のディメンション](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)：ディメンションの概要と、単なるランクレポート以外でのディメンションの使用方法について詳しく説明します。
-* [Workspace の指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)：指標の概要と、フリーフォームテーブルの他の部分での指標の使用方法について説明します。
-* [セグメントの概要](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)：セグメントとは何かを説明し、セグメントを使用して基本レポートを作成します。
-* [Workspace の日付範囲](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)：相対日付と日周期について説明し、Workspace プロジェクトで使用します。
-* Workspace でのプロジェクトの共有：自分が作成した Workspace プロジェクトを同僚に表示します。
-* [Workspace のパネル](/help/analyze/analysis-workspace/c-panels/panels.md)：アトリビューションやセグメント比較など、Workspace の高度な機能を使用します。
+1. そのリンクをコピーして、テキストビジュアライゼーション内の成功指標ハイパーリンクに追加します。チェックマークをクリックしてテキストを保存します。
 
-### 組織のWorkspaceの質の向上を求めているアナリストおよび管理者向け
+パネルまたはビジュアライゼーションがプロジェクト内で折りたたまれている場合は、リンクをクリックすると、パネル／ビジュアライゼーションが展開されて表示されます。
 
-* [Analysis Workspace 権限](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html)：Adobe Admin Console を使用して、Workspace にユーザー権限を割り当てます。
-* [Workspace のテンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)：テンプレートを作成し、同僚のニーズに合わせて調整されたプロジェクトスペースでの作業を同僚が開始できるようにします。
-* [Workspace のキュレーション](/help/analyze/analysis-workspace/curate-share/curate.md)：使用可能なコンポーネントを制限するプロジェクトを作成し、ツールに慣れていないユーザーがワークスペースにアクセスしやすいようにします。
+>[!NOTE] この機能は、 **[!UICONTROL Edit Description]** 右クリックオプション内でも使用できます。
+
+## 他のプロジェクトへのリンク
+
+You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+
+## 選択したセルの動的ビジュアライゼーション
+
+個別のセルを選択して、ビジュアライゼーションの変更を動的に確認します。選択したセルでビジュアライゼーションを同期およびロックします。
+
+![](assets/visualize-selected-cells.png)
+
+## 選択した項目または位置のロック
+
+ビジュアライゼーションをロックすることで、ビジュアライゼーションに対応するフリーフォームデータテーブルのソースを制御できます。
+
+![](assets/manage-data-source.png)
+
+[データソースの管理](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)を参照してください。
+
+## 選択したセルからのトレンドのビジュアライゼーション
+
+選択したセルからビジュアライゼーションを作成します(Right-click > **[!UICONTROL Trend Selection]**.)
+
+![](assets/trend-selection.png)
+
+トレンド選択は、下のテーブルに&#x200B;**リンク**&#x200B;され、テーブルで別の行を選択すると、トレンドグラフにその行が反映されるようになりました。
+
+![](assets/trend-selection2.png)
+
+## ディメンションとディメンション項目の分類
+
+小売業者の場合、キャンペーンをこれまでよりも深く分析して、顧客とのより良い関わり方を把握できます。特定のニーズに合わせて様々な方法でデータを分類し、関連する指標、ディメンション、セグメント、タイムライン、その他の分析分類値を使用するクエリを作成します。
+
+![手順の結果](assets/fa_data_table_actions.png)
+
+[ディメンションの分類](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)を参照してください。
+
+## テーブルの選択範囲からのセグメント
+
+フリーフォームデータテーブルのセルを選択し、選択範囲からセグメントを作成します。
+
+複数のセグメントを比較して、即座にセグメントを作成および適用します。複数のセグメントを適用して、行動や操作に基づいて特定の顧客に焦点を当て、比較および対比します。
+
+![](assets/segment_inline.png)
+
+プロジェクトレベルのフリーフォームパネルにセグメントをドロップすると、セグメントがプロジェクト全体に適用されます。
+
+![](assets/segment-panel.png)
+
+「 [セグメント](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)」を参照してください。
+
+## プロジェクトとコンポーネントのタグ付け
+
+Analysis Workspace でプロジェクトおよびコンポーネントにタグを適用できます。
+
+* 情報パネルでプロジェクトレベルのタグを適用または作成します ![](assets/information_icon.png)。
+
+* コンポーネントを右クリックして、コンポーネントパネルからタグ付け（またはタグを作成）します。
+* 検索フィールドで # を使用して、タグを検索します。
+
+## コンポーネントのアクション
+
+コンポーネントの左側のパネルの最上部にあるアクションメニューから、コンポーネントレベルのアクションを実行します。Select a component and click **[!UICONTROL Actions]** to view the actions.
+
+| コンポーネントのアクション | 説明 |
+|--- |--- |
+| タグ | コンポーネントにタグを適用して整理したり管理したりします。このアクションは各コンポーネントマネージャーに表示されます（Analytics／コンポーネント／セグメントや Analytics／コンポーネント／プロジェクトなど）。 |
+| お気に入り | コンポーネントをお気に入りのリストに追加します。このアクションは各コンポーネントマネージャーに表示されます（Analytics／コンポーネント／セグメントや Analytics／コンポーネント／プロジェクトなど）。 |
+| 承認 | コンポーネントを正規のものとして承認します。このアクションは各コンポーネントマネージャーに表示されます（Analytics／コンポーネント／セグメントや Analytics／コンポーネント／プロジェクトなど）。 |
+| 共有 | セグメントにのみ適用します。 |
+| 削除 | セグメントにのみ適用します。 |
+
+詳しくは、[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)を参照してください。
+
+## 追加機能の説明
+
+**ドラッグおよびスタックできるもの**
+
+コンポーネント
+
+* ディメンション
+* セグメント
+* 指標
+* 日付範囲
+* 時間の精度（時間、日、週など）
+
+**複数のフリーフォームテーブルおよび複数のビジュアライゼーション**
+
+パネルに追加できるフリーフォームテーブルおよびビジュアライゼーションの数に技術的な制限はありません。また、各フリーフォームテーブルまたはテーブルの選択した行で新しいビジュアライゼーションを実行（または CSV に書き出し）できます。
+
+**列の整列、並べ替えおよびコピー**
+
+* 日付範囲プリセットを並べ替えます（カスタム日付範囲は含まれません）。
+* 列を Ctrl（または Command）+ クリック + ドラッグすると、その列がコピーされ、このコピーをドラッグして、テーブルの新しい位置に貼り付けます。
+
+詳しくは、[Analysis Workspace で使用できるホットキー](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)を参照してください。
+
+**選択と操作**
+
+Excel で選択するのと同じように、行および列を選択できます。さらに、選択範囲に対して次の操作を実行できます。次に例を示します。
+
+* 選択範囲からビジュアライゼーションを作成
+* クリップボードにコピー（Ctrl または Command + C）
+* 複数選択した行の分類。行を選択し、次にディメンションを選択範囲にドラッグします。または、選択範囲を右クリックして、分類メニューを使用します。
+
+**自動保存と未保存の変更**
+
+ブラウザーを閉じようとすると（または戻るボタンを使用すると）、プロジェクトが保存されていない場合、変更の保存を促すメッセージが表示されます。システムがクラッシュした場合、アラートを受け取り、前回プロジェクトを読み込んだ際のプロジェクトの状態に復元できます。
+
+既に存在する（新規でない）プロジェクトは、ブラウザーがクラッシュしたとき、または保存する機会がない何らかの状態のときにのみ、自動保存されます。
+
+**すべての訪問**
+
+Analysis Workspace に特有のデフォルトのセグメントです。*`All Visits`*&#x200B;は、テーブルに追加したコンポーネントの合計を表示します。
+
+**計算指標**
+
+標準指標を使用するのと同じ方法で計算を使用します。
+
+[計算指標](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html)を参照してください。
