@@ -5,7 +5,7 @@ title: Analysis Workspace の新機能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 機能 | 説明 |
 |--- |--- |
-| 空白の状態か [!UICONTROL Freeform Tables] ら自動的に構築 | 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできず、最初にフリーフォームテーブルを追加する必要がありました。空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになりました。フリーフォームテーブルは推奨される形式で自動的に作成されます。Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| 空白の状態 [!UICONTROL Freeform Tables] から自動的に構築 | 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできず、最初にフリーフォームテーブルを追加する必要がありました。空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになりました。フリーフォームテーブルは推奨される形式で自動的に作成されます。Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
 
 ## 2020 年 3 月
 
@@ -27,7 +27,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 | 機能 | 説明 |
 |--- |--- |
 | Workspaceでの複数のレポートスイートのサポート | 複数のレポートスイートのデータを1つのプロジェクトに並べて表示に取り込めるようになりました。 [詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| トレーニングチュートリアルテンプレート | この新しい標準テンプレートでは、Workspaceで初めてテンプレートを作成する際に使用する一般的な用語と手順について分析します。 これは、「新規プロジェクト」モーダルの標準テンプレートとして使用でき、リストに他のプロジェクトがない新規ユーザー向けにある、サンプルプロジェクトを置き換えます。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| トレーニングチュートリアルテンプレート | この新しい標準テンプレートでは、Workspaceで最初の分析を作成するための一般的な用語と手順について説明します。 これは、「新規プロジェクト」モーダルの標準テンプレートとして使用でき、リストに他のプロジェクトがない新規ユーザー向けにある、サンプルプロジェクトを置き換えます。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
 
@@ -35,9 +35,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 機能 | 説明 |
 |--- |--- |
-| デバイス間分析を使用する組織向けの新しいWorkspaceテンプレート | このテンプレートは、CDAが訪問をつなぎ合わせ、CDA専用のディメンションと指標に関する教育をどの程度効果的に行うかを示します。 CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-setup.html)を参照してください。 |
+| デバイス間分析を使用する組織向けの新しいWorkspaceテンプレート | このテンプレートは、CDAが訪問を相互に関連付け、CDA専用のディメンションと指標に関する教育をどの程度効果的に行うかを示します。 CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-setup.html)を参照してください。 |
 | Workspaceの新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開：`alt + ctrl + m`</li><li>左パネルを検索：`ctrl + /`</li><li>次のパネルに移動：`alt + Right Key`</li><li>前のパネルに移動：`alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| その他のWorkspaceの機能強化 | <ul><li>パネルまたはビジュアライゼーションがWorkspaceにドロップされると、左側のレールがコンポーネントに自動的に切り替わり、よりシームレスなワークフローが実現するようになりました。</li><li>テンプレートコンポーネントに対してアクションを設定できるようになりました（タグ付け、お気に入りに追加、承認など）。</li><li>フィルターを適用した指標およびセグメントリストオファーで「+」ボタンをクリックし、必要なコンポーネントが見つからない場合は、新しいコンポーネントを追加します。</li></ul> |
+| その他のWorkspaceの機能強化 | <ul><li>パネルまたはビジュアライゼーションをWorkspaceにドロップした場合、左側のレールでコンポーネントに自動的に切り替え、よりシームレスなワークフローを実現できるようになりました。</li><li>テンプレートコンポーネントをアクションできるようになりました（タグ付け、お気に入りに追加、承認など）。</li><li>フィルター適用済み指標およびセグメントリストオファーの「+」ボタンをクリックして、必要なものが見つからない場合に新しいコンポーネントを追加します。</li></ul> |
 | Workspaceデバッガー | Workspace デバッガーがヘルプメニューに追加され、よりシームレスに有効化して Workspace リクエストをデバッグできるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
@@ -54,9 +54,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 機能強化 | 説明 |
 |--- |--- |
-| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、との2つの合計が含まれるよ **[!UICONTROL Table total]** うになりまし **[!UICONTROL Grand total]**&#x200B;た。 テーブルの合計行は、適用された[レポートフィ ルター](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細情](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>報さらに、お **[!UICONTROL Show Totals]** よびオ **[!UICONTROL Show Grand Total]** プションがに追加されまし **[!UICONTROL Column Settings]**&#x200B;た。<br/>このフリーフォームの合計の変更により、依存ビジュアライゼーション（リンクされたビジュアライゼーションなど）、 **[!UICONTROL Summary Number]** CSVおよびPDFデータの書き出しと共に更新されます。 |
+| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、aとaの2つの合計が含ま **[!UICONTROL Table total]** れるようになり **[!UICONTROL Grand total]**&#x200B;ました。 テーブルの合計行は、適用された[レポートフィ ルター](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>を表示します。また、に **[!UICONTROL Show Totals]** オプションが追加され **[!UICONTROL Show Grand Total]****[!UICONTROL Column Settings]**&#x200B;ました。<br/>このフリーフォームの合計の変更により、依存するビジュアライゼーション（リンクされたビジュアライゼーションなど）およびエクスポートされたCSVおよびPDFデータ **[!UICONTROL Summary Number]** が更新されます。 |
 | 「未指定」または「なし」を削除するオプション | レポートフィルターのオプションに、「未指定（なし）」を簡単に削除する機能が追加されました。 |
-| 紫色の精度コンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫のセクション **[!UICONTROL Time]** もに名前が変更されまし **[!UICONTROL Date Ranges]**&#x200B;た。 |
+| 紫色の精度コンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫の **[!UICONTROL Time]** セクションもに名前が変更され **[!UICONTROL Date Ranges]**&#x200B;ました。 |
 
 ## 2019 年 8 月
 
@@ -682,7 +682,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>テキストボックスビジュアライゼーションおよびパネル／ビジュアライゼーションの説明内でフォント設定（太字、斜体など）およびハイパーリンクを設定できるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  >イントラリンク（クイックビジュアライゼーションリンク）</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  >イントラリンク（クイックビジュアライゼーションリンク）</a></b> </p> </td> 
    <td colname="col2"> <p><b>イントラリンク</b>を使用すると、例えばプロジェクトの目次を作成するために、テキストボックスからプロジェクト内の特定のパネルおよびビジュアライゼーションにリンクできます。プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」という新しい右クリックオプションが追加されました。 </p> </td> 
   </tr> 
   <tr> 
@@ -973,12 +973,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 2016 年 6 月 17 日にリリースされた新機能：
 
-* [管理者がユーザーの](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html) 「/」タブへのアクセスを許可または拒否できる新しいグ **[!UICONTROL Analytics]** ループ権 **[!UICONTROL Workspace]** 限が追加されました。 2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
+* [管理者がユーザーの「](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html) /」 **[!UICONTROL Analytics]****[!UICONTROL Workspace]** タブへのアクセスを許可または拒否できる新しいグループ権限。 2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
 * Folio Builder[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント
 * 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[ベン図のビジュアライゼーションタイプ](/help/analyze/analysis-workspace/visualizations/venn.md)。
-* ランク付けされたテーブルの[トレンド選択](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折れ線グラフ）がリンクされました。
+* ランク付けされたテーブルの[トレンド選択](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折れ線グラフ）がリンクされました。
 * [ビジュアルを作成アイコン](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：このアイコンをクリックすると、次の操作がインテリジェントに推測されます（棒グラフ、ベン図など）。
 * 拡張された[手動の行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)機能
 * [セグメントを追加](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)ドロップゾーン
@@ -1042,7 +1042,7 @@ To undo, click **[!UICONTROL Undo]** from the action menu.
 
 取り消し可能でない&#x200B;*`not`*&#x200B;アクション：
 
-* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). ただし、をクリックした後でをク **[!UICONTROL Undo]** リックできま **[!UICONTROL Run]**&#x200B;す。
+* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). ただし、をクリックし **[!UICONTROL Undo]** た後でをクリックすることもでき **[!UICONTROL Run]**&#x200B;ます。
 
 * パネルおよびサブパネルのサイズ変更または移動。
 
@@ -1095,7 +1095,7 @@ When editing an existing (saved) segment the Analysis Workspace Segment Builder,
 
 The new segment displays in the [!UICONTROL Segments] group in the [!UICONTROL Components] panel.
 
-*`Save As`* とも使用でき [!UICONTROL Calculated Metric Builder] ます [!UICONTROL Date Range Builder]。
+*`Save As`* は、 [!UICONTROL Calculated Metric Builder] およびでも使用でき [!UICONTROL Date Range Builder]ます。
 
 ## 「新しいセグメントを追加」ボタン{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
@@ -1147,13 +1147,13 @@ In the [!UICONTROL Dimensions] component panel, you can hover over the informati
 
 ## 凡例を表示 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-このオ [!UICONTROL Visualization Settings] プション **[!UICONTROL Legend Visible]** で、ビジュアライゼーションの凡例の表示/非表示を切り替えます。
+の [!UICONTROL Visualization Settings]**[!UICONTROL Legend Visible]** オプションでは、ビジュアライゼーションの凡例の表示/非表示を切り替えます。
 
 ![](assets/legend-visible.png)
 
 ## Y 軸をゼロに固定 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。でを有 **[!UICONTROL Anchor Y Axis at Zero]** 効に [!UICONTROL Visualization Settings] すると、Y軸が強制的にゼロになり、より正確なトレンドの表示が得られます。 次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
+線グラフおよび面グラフの数値によっては、Y 軸の一番下がゼロでないことがあります。[ **[!UICONTROL Anchor Y Axis at Zero]** イン]を有効にす [!UICONTROL Visualization Settings] ると、Y軸が強制的にゼロになり、より正確なトレンドの表示が可能になります。 次の例では、売上グラフでこの設定が有効な場合と無効な場合を比較しています。
 
 **「Y 軸をゼロに固定」が無効な場合**
 
@@ -1171,4 +1171,4 @@ In the [!UICONTROL Dimensions] component panel, you can hover over the informati
 
 管理者は、あるユーザーから別のユーザーに [!UICONTROL Analysis Workspace] プロジェクトを転送できます。
 
-//に移動し **[!UICONTROL Admin]** て、プ **[!UICONTROL User Management]** ロジェク **[!UICONTROL Transfer]** トを転送します。
+プロジェクトを転送するには、 **[!UICONTROL Admin]** / **[!UICONTROL User Management]** / **[!UICONTROL Transfer]** に移動します。
