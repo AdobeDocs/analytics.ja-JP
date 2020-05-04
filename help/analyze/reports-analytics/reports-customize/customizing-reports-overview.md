@@ -4,7 +4,7 @@ title: レポートのカスタマイズの概要
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -64,7 +64,7 @@ t_reports_select_date.xml
    * 日付上でカーソルをドラッグして範囲を選択します。
    * 日付を手動で入力します。
    * 月をクリックして月を選択します。
-   * をクリック **[!UICONTROL Select Preset]** して、プリセット日を選択します。
+   * 事前設定日 **[!UICONTROL Select Preset]** をクリックして選択します。
    * 日付を比較します
 
 1. クリック **[!UICONTROL Run Report]**.
@@ -121,7 +121,7 @@ t_reports_normalize.xml
 **レポートデータを正規化するには**
 
 1.  日付の比較をサポートするレポートを実行します。
-1. をクリ **[!UICONTROL Compare Dates]**&#x200B;ックし、日付比較を指定します。
+1. をクリック **[!UICONTROL Compare Dates]**&#x200B;して、日付比較を指定します。
 1. クリック **[!UICONTROL Run Report]**.
 1. クリック **[!UICONTROL Normalize Data: Yes]**.
 
@@ -135,7 +135,7 @@ t_reports_select_page.xml
 
  -->
 
-1. (> > [!UICONTROL Page Views Report] )などのレ **[!UICONTROL Reports]** ポート **[!UICONTROL Site Metrics]** を生成 **[!UICONTROL Page Views]**&#x200B;する。
+1. レポートを生成します(例： [!UICONTROL Page Views Report]**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**)。
 1. Click the **[!UICONTROL Selected Page]** link.
 1. On [!UICONTROL Choose Page], select the pages you want to display.
 1.  必要に応じて、ページを検索します。
@@ -186,7 +186,7 @@ t_reports_granularity.xml
 
 **レポート精度を指定するには**
 
-1. トレンドレポートの生成( **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
+1. トレンドレポートを生成します( **[!UICONTROL Site Content]** /など)。 **[!UICONTROL Pages.]**
 1. Click the **[!UICONTROL View by]** link, then click a granularity.
 
 ## 曜日レポートの実行 {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
@@ -202,7 +202,7 @@ t_reports_day_of_week.xml
 この機能は、週または日の日付範囲でフィルターされたトレンドレポートでのみ使用できます。
 
 1. 指定した日付範囲でトレンドレポートを実行します。
-1. リンクをク **[!UICONTROL Day of Week]** リックし、日をクリックします。
+1. リンクをクリックし **[!UICONTROL Day of Week]** てから、日付をクリックします。
 
 ## 「ワークスペースで試す」ボタン {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
@@ -218,4 +218,4 @@ Reports &amp; Analytics のほとんどのレポートには現在、「ワー�
 
 現在、このボタンが使用できるのは、ユーザーに Analysis Workspace の完全な権限が付与されている場合のみです。
 
-レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html) ガイドを参照してください。
+レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) ガイドを参照してください。
