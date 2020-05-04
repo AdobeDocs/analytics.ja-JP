@@ -3,7 +3,7 @@ description: 'null'
 title: 貢献度分析の実行
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 1. 貢献度分析は、Analysis Workspace の一部なので、テーブルの右クリックメニューから数多くの機能を活用して、分析を一層意味のあるものにすることができます。例えば、次のような機能があります。
 
    * [各ディメンション項目を別のディメンションで分類する](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [1 つまたは複数の行のトレンドを示す](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [1 つまたは複数の行のトレンドを示す](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [新しいビジュアライゼーションを追加する](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [アラートを作成する](/help/components/c-alerts/intellligent-alerts.md)
    * [セグメントを作成したり比較したりする](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -55,9 +55,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 貢献度分析から一部のディメンションを除外したい場合があります。例えば、ブラウザーまたはハードウェア関連のディメンションは関係がなく、これらを削除することで分析を高速化したい場合です。
 
-1. （折れ線グラフで） **[!UICONTROL Run Contribution Analysis]** をク **[!UICONTROL Analyze]** リックすると、パネルが表示 **[!UICONTROL Excluded Dimensions]** されます。
+1. (または折れ線グラフ **[!UICONTROL Run Contribution Analysis]** 内で)をクリックすると、 **[!UICONTROL Analyze]****[!UICONTROL Excluded Dimensions]** パネルが表示されます。
 
-1. 不要なディメンションをパネルにドラッ **[!UICONTROL Excluded Dimensions]** グし、をクリックしてリストを保存しま **[!UICONTROL Set as Default]**&#x200B;す。 Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
+1. 不要なサイズを **[!UICONTROL Excluded Dimensions]** パネルにドラッグし、をクリックしてリストを保存するだけで **[!UICONTROL Set as Default]**&#x200B;す。 Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
 
    ![](assets/exclude_dimensions.png)
 
