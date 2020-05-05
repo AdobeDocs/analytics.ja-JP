@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 ---
 
@@ -328,7 +328,7 @@ source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 + Labs {#tech-previews}
    + [Labs の概要](tech-previews/overview.md)
 + Adobe Analyticsダッシュボード {#mobapp}
-   + [Adobe Analyticsダッシュボードの概要](mobile-app/home.md)
+   + [Adobe Analyticsダッシュボード — 概要](mobile-app/home.md)
    + [キュレータガイド](mobile-app/curator.md)
    + [エグゼクティブユーザークイック開始ガイド](mobile-app/executive.md)
 + プログレッシブWebアプリ {#pwa}
