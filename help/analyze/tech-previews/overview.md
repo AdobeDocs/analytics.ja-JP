@@ -2,39 +2,39 @@
 title: ラボユーザーガイド
 description: Adobe Analytics のプロトタイププロジェクトのプレビュー
 translation-type: tm+mt
-source-git-commit: 5209751a8b771b92f82bab9b170ac76a077e4b87
+source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 
 ---
 
 
 
-# ラボユーザーガイド
+# [!UICONTROL Labs] ユーザーガイド
 
-ラボを使用すると、初期段階のアイデアのプロトタイピングを高速化できます。お客様の注力により、透過的に開発を促進するツールとプロセスを組み合わせたものです。新しいテクノロジーとの連携、価値ある洞察の発見、将来の機能の開発と優先事項への影響を可能にします。ラボを使用すると、Analytics の革新的な機能に早期にアクセスし、自社のビジネス事例やデータの中で将来の機能を評価できます。
+[!UICONTROL Labs] 初期のアイデアのプロトタイプ作成を高速化できます。 お客様の注力により、透過的に開発を促進するツールとプロセスを組み合わせたものです。新しいテクノロジーとの連携、価値ある洞察の発見、将来の機能の開発と優先事項への影響を可能にします。ラボを使用すると、Adobe Analyticsの革新的な機能に早期にアクセスし、自社のビジネス使用事例やデータの中で今後の機能を評価することができます。
 
 ## 要件
 
-ラボは、すべての管理者に対して自動的に有効になります。他のチームメンバーは、製品管理者に問い合わせてアクセス権を要求する必要があります。
+[!UICONTROL Labs] は、すべての管理者に対して自動的に有効になります。 他のチームメンバーは、製品管理者に問い合わせてアクセス権を要求する必要があります。
 
 まだ開示していない場合は、該当する守秘義務契約および利用条件のフォームを読んで署名します。
 
-## ラボポータルにアクセス
+## Access the [!UICONTROL Labs] Portal
 
-ラボにアクセスするには：
+アクセスするに [!UICONTROL Labs]は：
 
-1. ワークスペースおよびラボへのアクセス権をまだ持っていない場合は、管理者に権限を問い合わせてください。
+1. If you do not already have access to [!UICONTROL Workspace] and [!UICONTROL Labs], ask your administrator for permissions.
 
-1. 「**ラボ**」タブをクリックします。
+1. Click the **[!UICONTROL Labs]** tab.
 
 ## プロトタイプの評価
 
 プロトタイプを起動して評価するには：
 
-1. 「ラボ」画面で、表示するプロトタイプの&#x200B;**起動**&#x200B;ボタンをクリックします。プロトタイプを起動すると、プロトタイプ環境の左上にその名前が表示されます。
+1. 画面で、表示するプロトタイプ [!UICONTROL Labs]**[!UICONTROL Launch]** のをクリックします。 プロトタイプを起動すると、プロトタイプ環境の左上にその名前が表示されます。
 
    ![プロトタイプ名](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. 画面の右上にある&#x200B;**ビデオを視聴**&#x200B;をクリックして、プロトタイプをハイライトしたビデオを見ます。ビデオが完了したら、**閉じる**&#x200B;ボタンをクリックします。
+1. Watch a video that highlights the prototype by clicking **[!UICONTROL Watch Video]** in the upper right of the screen. ビデオ **[!UICONTROL Close]** が完了したら、をクリックします。
 
    ![プレビューオプション](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
@@ -42,7 +42,7 @@ source-git-commit: 5209751a8b771b92f82bab9b170ac76a077e4b87
 
 * プロトタイプ環境で作成されたプロジェクトは保存または共有できません。
 
-* プロトタイプでは、ワークスペース内でアクセスできる任意のディメンション、指標、セグメントおよびビジュアライゼーションを使用して、データを評価できます。
+* プロトタイプでは、Workspace内で他のユーザーがアクセスできる任意のディメンション、指標、セグメントおよびビジュアライゼーションを使用して、データを評価できます。
 
 * プロトタイプ内で行った変更は、データの収集や処理には影響しません。
 
@@ -50,19 +50,19 @@ source-git-commit: 5209751a8b771b92f82bab9b170ac76a077e4b87
 
 ## フィードバックを残す
 
-1. **フィードバックを与える**&#x200B;ボタンをクリックすると、プロトタイプの操作中はいつでも、メッセージボックスにフィードバックを入力できます。
+1. Click **[!UICONTROL Give Feedback]** to provide feedback in the message box at any point when working with the prototype.
 
    ![feedback_box](assets/give_feedback.png)
 
-1. **送信**&#x200B;をクリックして、フィードバックを送信します。
+1. Click **[!UICONTROL Submit]** to send your feedback.
 
-1. 別のプロトタイプを試す場合、またはプロトタイプ環境を終了する場合は、画面の右上にある&#x200B;**プロトタイプを終了**&#x200B;ボタンをクリックして、プロトタイプについての短いアンケートを完了します。プロトタイププロジェクトに対して行った変更は、プロトタイプ環境を終了すると失われます。
+1. To try a different prototype, or to exit the prototype environment, click **[!UICONTROL Leave Prototype]** in the upper right of the screen and complete the short survey for the prototype. プロトタイププロジェクトに対して行った変更は、プロトタイプ環境を終了すると失われます。
 
    ![新しいフィードバックボックス](assets/short-survey.png)
 
-1. **送信**&#x200B;をクリックして、メインのプレビューポータルに戻ります。
+1. Click **[!UICONTROL Submit]** to return to the main Previews portal.
 
 ## 追加情報
 
-* Analytics 機能になるのはラボ内の一部のプロトタイプだけです。お客様のフィードバックはアドべの意思決定を促すものです。プロトタイプをレビューして、ご意見・ご感想をアドビにお知らせください。
+* Some prototypes within [!UICONTROL Labs] become Adobe Analytics features, others may not. お客様のフィードバックはアドべの意思決定を促すものです。プロトタイプをレビューして、ご意見・ご感想をアドビにお知らせください。
 * ラボは、すべての SKU エンタイトルメントで利用できます。
