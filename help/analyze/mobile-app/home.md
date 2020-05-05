@@ -1,13 +1,13 @@
 ---
-title: ダッシュボードの概要
+title: Adobe Analyticsダッシュボード — 概要
 description: Adobe Analyticsダッシュボード向けの製品ドキュメントとセルフヘルプ
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 7c1f35d92bfaccaf4d2bb7e16e93314d739545d3
 
 ---
 
 
-# Adobe Analyticsダッシュボードの概要
+# Adobe Analyticsダッシュボード — 概要
 
 >[!IMPORTANT]
 >
