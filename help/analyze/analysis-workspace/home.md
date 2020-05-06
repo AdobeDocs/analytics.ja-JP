@@ -4,14 +4,17 @@ title: Analysis Workspace の概要
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 225bc7022af656db5ad61bac2daf454c89ba1867
+source-git-commit: 20e5273ba5a2c3416f13fd91e18621e5dd0eeac7
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 97%
 
 ---
 
 
 # Analysis Workspace の概要
 
-Analysis Workspace では、単一の Analytics レポートの通常の制限事項がすべて取り除かれます。堅牢かつ柔軟なキャンバスでカスタム分析プロジェクトを作成できます。任意の数のデータテーブル、ビジュアライゼーション、コンポーネント（ディメンション、指標、セグメントおよび時間の精度）をプロジェクトにドラッグ＆ドロップします。分類およびセグメントの作成、分析用のコホートの作成、アラートの作成、セグメントの比較、フローおよびフォールアウト分析をすばやくおこなうほか、レポートのキュレーションとスケジュールをおこなって会社の任意のユーザーと共有します。
+Analysis Workspace では、単一の Analytics レポートの通常の制限事項がすべて取り除かれます。堅牢かつ柔軟なキャンバスでカスタム分析プロジェクトを作成できます。任意の数のデータテーブル、ビジュアライゼーション、コンポーネント（ディメンション、指標、セグメントおよび時間の精度）をプロジェクトにドラッグ＆ドロップします。分類およびセグメントの作成、分析用のコホートの作成、アラートの作成、セグメントの比較、フローおよびフォールアウト分析をすばやくおこなうほか、レポートのキュレーションとスケジュールをおこなって会社の任意のユーザーと共有します。高度な機能にはアトリビューションIQ、
 
 **[!UICONTROL Analytics]**／**[!UICONTROL Workspace]**
 
@@ -59,7 +62,7 @@ Analysis Workspace の[リッチテキスト編集](/help/analyze/analysis-works
    ![](assets/intra-linking1.png)
 
 1. 目的のパネルまたはビジュアライゼーションまでスクロールして、そのヘッダーを右クリックします。
-1. 下にスクロールして、次のいずれかを選択し **[!UICONTROL Get Panel Link]** ま **[!UICONTROL Get Visualization Link]**&#x200B;す。
+1. 下にスクロールして「**[!UICONTROL パネルリンクを取得]**」または「**[!UICONTROL ビジュアライゼーションリンクを取得]**」を選択します。
 
    ![](assets/intra-linking2.png)
 
@@ -67,11 +70,11 @@ Analysis Workspace の[リッチテキスト編集](/help/analyze/analysis-works
 
 パネルまたはビジュアライゼーションがプロジェクト内で折りたたまれている場合は、リンクをクリックすると、パネル／ビジュアライゼーションが展開されて表示されます。
 
->[!NOTE] この機能は、 **[!UICONTROL Edit Description]** 右クリックオプション内でも使用できます。
+>[!NOTE]この機能は、「**[!UICONTROL 説明の編集]**」の右クリックオプションでも使用できます。
 
 ## 他のプロジェクトへのリンク
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+ユーザーが興味を持つ可能性がある他のプロジェクトへのリンクを追加できます。そのためには、**[!UICONTROL 共有]**／**[!UICONTROL プロジェクトリンクを取得]**&#x200B;に移動して、このリンクをプロジェクトの説明などに埋め込みます。
 
 ## 選択したセルの動的ビジュアライゼーション
 
@@ -89,7 +92,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## 選択したセルからのトレンドのビジュアライゼーション
 
-選択したセルからビジュアライゼーションを作成します(Right-click > **[!UICONTROL Trend Selection]**.)
+選択したセルからビジュアライゼーションを作成します（右クリック／**[!UICONTROL トレンド選択]**）。
 
 ![](assets/trend-selection.png)
 
@@ -130,7 +133,7 @@ Analysis Workspace でプロジェクトおよびコンポーネントにタグ�
 
 ## コンポーネントのアクション
 
-コンポーネントの左側のパネルの最上部にあるアクションメニューから、コンポーネントレベルのアクションを実行します。Select a component and click **[!UICONTROL Actions]** to view the actions.
+コンポーネントの左側のパネルの最上部にあるアクションメニューから、コンポーネントレベルのアクションを実行します。コンポーネントを選択し、「**[!UICONTROL アクション]**」をクリックしてアクションを表示します。
 
 | コンポーネントのアクション | 説明 |
 |--- |--- |
