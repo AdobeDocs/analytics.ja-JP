@@ -2,28 +2,31 @@
 title: Analytics 用 PWA
 description: Adobe Analytics 用プログレッシブウェブアプリ
 translation-type: tm+mt
-source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 75%
 
 ---
 
 
-# Analytics 用 PWA
+# Adobe AnalyticsのPWA
 
-このページでは、Adobe AnalyticsをプログレッシブWebアプリ(PWA)と共に使用する方法について説明します。
+このページでは、Adobe AnalyticsをプログレッシブWeb Apps(PWA)と共に使用する方法について説明します。
 
 ## はじめに
 
 PWA は、Web サイトにネイティブアプリケーションエクスペリエンスやオフライン機能を提供できます。通常、PWA には、service worker、キャッシングプロビジョニング、およびマニフェストファイルが含まれます。これらはすべて、読み込み時間の短縮、ナビゲーションの簡素化、レスポンシブな動作に役立ちます。
 
-Adobe Analytics は、従来の Web サイトと同様、PWA とシームレスに連携します。PWA には、それ自体で漸進的に動作するための追加要件がいくつかありますが、Analytics がデータを収集してレポートする方法に対して科す障壁や制限は、従来の Web サイトと同じものです。実際、Analyticsには既にオフライン追跡機能が含まれているので、PWAは、従来のWebサイトよりも簡単にこの組み込み機能を利用できます。
+Adobe Analytics は、従来の Web サイトと同様、PWA とシームレスに連携します。PWA には、それ自体で漸進的に動作するための追加要件がいくつかありますが、Analytics がデータを収集してレポートする方法に対して科す障壁や制限は、従来の Web サイトと同じものです。実際、Analyticsには既にオフライン追跡機能が含まれているので、PWAを使用すると、従来のWebサイトよりも簡単にこの組み込み機能を利用できます。
 
-## PWA解析データの取得
+## PWA分析データの取得
 
-Analytics を使用して PWA データを収集および分析するために構成を変更する必要はありません。Analytics は、従来の Web サイトに対してと同じ機能や特徴をすべて自動的に提供します。
+[!UICONTROL AnalyticsでPWAデータを収集して分析するには]、設定を変更する必要はありません。 [!UICONTROL Analytics は、従来の Web サイトに対してと同じ機能や特徴をすべて自動的に提供します。]
 
 ## オフライントラッキングの追加による PWA 有効性の向上
 
-Analytics の[オフライントラッキング機能](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/functions/forceoffline.translate.html)を使用して、PWA の効果を高めることができます。デフォルトでは、この機能はオフになっていますが、AppMeasurement.js ファイルにプロパティ「`s.trackOffline=true;`」を追加してオンにすることができます。 
+You can increase the effectiveness of your PWA by using Adobe Analytics [offline tracking capabilities](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/functions/forceoffline.translate.html) with it. デフォルトでは、この機能はオフになっていますが、AppMeasurement.js ファイルにプロパティ「`s.trackOffline=true;`」を追加してオンにすることができます。 
 
 例えば、次の AppMeasurement.js ファイルでは、プロパティが `CONFIG SECTION` の最後に追加されています。
 
