@@ -2,76 +2,81 @@
 title: 実装モーダル
 description: Adobe Analytics を初めて実装する場合について説明します。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 50%
 
 ---
 
 
 # 実装モーダル
 
-<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
+詳しくは、レポートスイートの [作成を参照してください](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)。
 
-「Adobe Analytics へようこそ」モーダルウィンドウでのレポートスイートを作成するためのワークフローはシンプルです。組織でさらに多くのレポートスイートが必要な場合は、このワークフローを使用することをお勧めします。
+<!-- https://activation.adobedtm.com/index.php?redirected=1 
 
-![モーダルスクリーンショット](assets/implementation-modal.png)
+The 'Welcome to Adobe Analytics' modal window provides a simplified workflow to create a report suite. Adobe recommends using this workflow whenever more report suites are needed in your organization.
 
-## 前提条件
+![Modal screenshot](assets/implementation-modal.png)
 
-Adobe ID は、Adobe Analytics と Adobe Experience Platform Launch の両方にアクセスできる必要があります。Launch へのアクセス権がないと、資格情報確認するように繰り返し要求される場合があります。組織のシステム管理者に問い合わせて、Launch へのアクセス権を取得してください。
+## Prerequisites
 
-## モーダルへのアクセス
+Your Adobe ID must have access to both Adobe Analytics and Adobe Experience Platform Launch. If you do not have access to Launch, you can be placed into an authentication loop where it asks to verify your credentials indefinitely. Talk to a system admin in your organization to obtain access to Launch.
 
-次の手順を使用して、モーダルにアクセスし、レポートスイートを作成します。
+## Access the modal
 
-1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
-2. 上部の 9 グリッドアイコンをクリックし、「[!UICONTROL Adobe Analytics]」をクリックします。
-3. まだレポートスイートを作成していない場合は、モーダルが自動的に表示されます。このログイン会社用のレポートスイートが存在する場合は、右上のヘルプアイコンをクリックし、「[!UICONTROL Adobe Analytics へようこそ]」をクリックします。
+Access the modal to create a report suite using the following steps.
 
->[!NOTE] 「[!UICONTROL Adobe Analytics へようこそ]」オプションは、Adobe Experience Cloud 経由でログインした場合にのみ表示されます。既存のドメインを使用してログインした場合、モーダルは使用できません。
+1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
+2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
+3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-## レポートスイートの作成
+>[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
-「[!UICONTROL セットアップの開始]」ボタンをクリックして、レポートスイート作成ワークフローを開始します。
+## Create a report suite
 
-![RS ウィザード](assets/analytics-implementation-rs-wizard.png)
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
-### プロパティタイプ
+![RS wizard](assets/analytics-implementation-rs-wizard.png)
 
-プロパティタイプは、Analytics を実装する予定の場所に基づいて、アドビが一部のバックエンド設定を判断するのに役立ちます。
+### Property type
 
-* **Web サイト**：Adobe Analytics を Web サイト用のみに実装する場合。
-* **ネイティブモバイルアプリケーション**：Adobe Analytics をモバイルアプリケーション用のみに実装する場合。
-* **両方**：このレポートスイートに Web サイトとモバイルアプリケーションの両方のデータが含まれる場合。
+Property type helps Adobe determine some backend settings based on where you intend to implement Analytics.
 
-### 業種
+* **Website**: If you intend to implement Adobe Analytics just for a website.
+* **Native Mobile App**: If you intend to implement Adobe Analytics just for a mobile app.
+* **Both**: If this report suite contains data for both a website and a mobile app.
 
-主なビジネスモデルを指定します。この設定は、主なビジネスモデルに基づいて、一部の変数の名前と設定を事前設定する際に役立ちます。
+### Industries
 
-### データレイヤー
+Specify your primary business model. This setting helps Adobe pre-configure some variable names and settings based on your primary business model.
 
-[データレイヤー](data-layer.md)は、実装で使用されるすべての変数を 1 つの役立つ場所にまとめた JavaScript オブジェクトです。詳しくは、[データレイヤー](data-layer.md)を参照してください。
+### Data layer
 
-### データリポジトリー
+A [Data layer](data-layer.md) is a JavaScript object that organizes all variables used in your implementation into a single helpful location. See [Data layers](data-layer.md) for more information.
 
-レポートスイートにわかりやすい名前を付けます。レポートスイート ID（RSID）は、わかりやすい名前とログイン会社名に基づいて自動的に生成されます。
+### Data repository
 
-### タイムゾーン
+Give your report suite a friendly name. Your report suite ID (RSID) automatically generates based on the friendly name and login company.
 
-アドビがレポートスイートの正しいタイムゾーンを検出したことを確認します。
+### Time zone
 
-### 予想日別ページビュー数
+Verify that Adobe detected the correct time zone for the report suite.
 
-Web サイトやアプリケーションが 1 日に受けるトラフィック量を予測します。この情報により、アドビは適切な量の処理リソースをレポートスイートに割り当てることができます。
+### Estimated page views per day
 
-### 基準通貨
+Estimate how much traffic your website or app gets per day. This information allows Adobe to allocate the correct amount of processing resources to your report suite.
 
-レポートスイートが金額を保存する通貨を決定します。
+### Base currency
 
->[!IMPORTANT] 特に売上高に関するレポート要件がある場合は、正しい通貨を入力してください。データ収集の開始後に基準通貨を変更するのは困難です。
+Determine what currency the report suite stores monetary values in.
 
-## 実装リソース
+>[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
-レポートスイートの作成後、実装を続行するには、次の 2 つのオプションのいずれかを選択します。
+## Implementation resources
 
-* **Adobe Experience Platform Launch に移動**：実装を設定し、デプロイコードをダウンロードするために、[launch.adobe.com](https://launch.adobe.com) にリンクします。[Launch による実装](../launch/overview.md)を参照してください。ほとんどの場合、Launch を使用することをお勧めします。
-* **実装コードのダウンロード**：手動で JavaScript を実装する場合に、JavaScript ファイルをダウンロードするための直接リンクを提供します。[JavaScript 版 AppMeasurement](../js/overview.md) を参照してください。
+After the report suite is created, you have one of two options to proceed with your implementation:
+
+* **Go to Adobe Experience Platform Launch**: Links you to [launch.adobe.com](https://launch.adobe.com) to configure your implementation and download deploy code. See [Implement with Launch](../launch/overview.md). Adobe recommends using Launch in most cases.
+* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md). -->
