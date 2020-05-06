@@ -4,7 +4,10 @@ title: コホート分析とは
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
 
 >[!IMPORTANT]
 >
->コホート分析は計算指標をサポートしていません。
+>コホート分析は、計算指標、整数以外の指標、 [!UICONTROL 回数など、セグメント化不可能な指標をサポートしていません]。 セグメントで使用できる指標のみがコホート分析で使用でき、一度に1ずつ増加することができます。
 
 ## コホート分析の機能
 
