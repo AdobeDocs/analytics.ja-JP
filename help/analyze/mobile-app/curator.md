@@ -191,6 +191,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 次の画面�
    3. Testflightアプリをインストールした後、以下に示すように、Testflight内からAdobe Analyticsダッシュボードを探してインストールします。
 
       ![Testflight 画面](assets/testflight2.png)
+
    **Android**：
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -213,6 +214,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 次の画面�
    * 共有したスコアカードに適用されるログイン会社または Experience Cloud 組織の名前をタップします。次に、スコアカードリストに、そのログイン会社のエグゼクティブと共有されているすべてのスコアカードが表示されます。
    * 該当する場合は、**最近変更された項目**&#x200B;で、このリストを並べ替えます。
    * スコアカードの名前をタップして表示します。
+
    ![会社を選択](assets/accesscard.png)
 
    注意：エグゼクティブユーザーがログインし、何も共有されていないというメッセージが表示された場合、以下の可能性があります。
@@ -221,6 +223,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 次の画面�
    * スコアカードがエグゼクティブユーザーと共有されていない
 
       ![何も共有されていない](assets/nothing.png)
+
    エグゼクティブユーザーが適切な Analytics インスタンスにログインでき、スコアカードが共有されていることを確認します。
 
 3. 共有するスコアカードにタイルが表示される方法をエグゼクティブユーザーに説明します。
@@ -256,6 +259,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 次の画面�
    1. アプリ画面の右上にあるユーザーアイコンをタップします。
    2. **アカウント**&#x200B;画面で、「**フィードバック**」オプションをタップします。
    3. タップして、フィードバックを残すためのオプションを表示します。
+
    ![フィードバックを残す](assets/feedback.png)
    ![フィードバックオプション](assets/feedback_option.png)
 
