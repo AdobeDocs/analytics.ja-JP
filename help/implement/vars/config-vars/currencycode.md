@@ -2,7 +2,10 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +32,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 通貨コード]」フィールドが表示されます。
+
+プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
+
+## Adobe Experience Platform Mobile SDKの通貨コード
+
+通貨コードは、Adobe Analytics Extensionのコンテキストデータ変数を通じてAdobe Experience Platform Mobile SDKに渡されます。
+
+1. またはのいずれかの時点で、コンテキストデータ変数に通貨コードを設定 `trackState` し `trackAction`ます。
+2. Adobe Analytics管理コンソールで、レポートスイート用の処理ルールを作成します。 通貨コード変数を上書きするルールを設定します。
+3. またはの呼び出しで、通貨コードを `products` 変数に渡し `trackState` ま `trackAction`す。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
