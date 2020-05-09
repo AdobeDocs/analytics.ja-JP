@@ -5,7 +5,10 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: リンクトラッキング
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 95%
 
 ---
 
@@ -14,9 +17,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Analytics の導入時のリンクトラッキングのための Dynamic Tag Management のフィールドの説明です。
 
-**[!UICONTROL *`Property`*]**／**[!UICONTROL![](assets/settings_gear.png)
-
-ツールを編集]**／**[!UICONTROL リンクトラッキング]**
+**[!UICONTROL プロパティ]** / ![歯車アイコン](assets/settings_gear.png) 「ツールを編集 **[!UICONTROL 」]** /「 **[!UICONTROL リンクトラッキング」]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
