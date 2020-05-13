@@ -2,7 +2,10 @@
 title: アトリビューションに関する FAQ
 description: アトリビューションに関する FAQ に対する回答です。
 translation-type: tm+mt
-source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 88%
 
 ---
 
@@ -11,15 +14,11 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 **アトリビューションを使用する際の「なし」行項目とは**
 
-「なし」の行項目は、ルックバックウィンドウ内でタッチポイントなしで発生したすべての変換を表す包括的な項目です。 レポートウィンドウに長い時間範囲を含めてみてください。
+「なし」の行項目は、ルックバックウィンドウ内のタッチポイントなしで発生したすべての変換を表す包括的な項目です。 レポートウィンドウに長い時間範囲を含めてみてください。
 
 **アトリビューションモデルを使用すると、レポートウィンドウ外の日付が表示されることがあるのはなぜですか。**
 
 これらの追加の日付は、訪問者がルックバックウィンドウをレポートすることによるものです。詳しくは、Analytics ナレッジベースの[データがレポートウィンドウ外に表示される](https://helpx.adobe.com/jp/analytics/kb/data-appearing-outside-reporting-window.html)を参照してください。Adobe Analytics の次期リリースでは、これらの余分な行は除外されます。
-
-**独自のアトリビューションモデルでカスタムルックバックウィンドウを使用することはできますか。**
-
-アトリビューションモデルは現在、訪問者または訪問のルックバックウィンドウに依存しています。これらのルックバックウィンドウは、レポートの日付範囲（訪問者のルックバック用）を変更するか、カスタム訪問の定義を仮想レポートスイートの一部として使用することで調整できます。詳しくは、[レポートの時間処理](../../../../components/vrs/vrs-report-time-processing.md)を参照してください。
 
 **訪問と訪問者のアトリビューションのルックバックを使用する必要があるのはいつですか。**
 
@@ -58,7 +57,7 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 **独自のアトリビューションモデルでカスタムルックバックウィンドウを使用することはできますか。**
 
-はい。カスタムのルックバックウィンドウオプションを使用して、レポートウィンドウの90日前までの任意の日付範囲にルックバックウィンドウを設定できます。 詳しくは、[レポートの時間処理](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)を参照してください。
+はい。カスタムのルックバックウィンドウオプションを使用して、レポートーウィンドウの90日前までの任意の日付範囲にルックバックウィンドウを設定できます。 詳しくは、[レポートの時間処理](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)を参照してください。
 
 **アトリビューションは分類と連携しますか。**
 
