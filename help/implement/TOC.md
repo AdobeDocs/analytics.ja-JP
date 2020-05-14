@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: b46b7968d94975be3335d5c2749b9468dcc91543
+source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 92%
@@ -202,4 +202,4 @@ ht-degree: 92%
 + [よくある質問](faq.md)
 + AnalyticsでのXDMデータの使用 {#aep-edge}
    + [AEP Web SDKを使用する](aep-edge/xdmoverview.md)
-   + [XDMデータのAnalyticsへの手動マッピング](aep-edge/xdmoverview.md)
+   + [XDMデータのAnalyticsへの手動マッピング](aep-edge/xdm-manual.md)
