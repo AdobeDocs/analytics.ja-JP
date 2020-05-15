@@ -3,7 +3,10 @@ description: ターゲットレポートでは、Web サイトのパフォーマ
 title: ターゲット
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 >
 >これらのレポートは、Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) レポートと混同しないでください。
 
-To access your Targets reports, go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Targets]** > **[!UICONTROL[your target name]]**
+ターゲットレポートにアクセスするには、**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**／**[!UICONTROL ターゲット]**／**[!UICONTROL [「ターゲット名を指定」]]**&#x200B;を選択します。
 
-[ターゲットを作成](hhttps://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/targets.html)する場合は、測定する属性指標や eVar を選択するか、選択した指標を使用してサイト全体を測定します。
+[ターゲットを作成](/help/analyze/reports-analytics/targets.md)する場合は、測定する属性指標や eVar を選択するか、選択した指標を使用してサイト全体を測定します。
 
 このレポートは、指定した指標の累積総計のほか、その総計とレポートの設定時に設定した目標との差を示します。
 
-> >でターゲットを管理で **[!UICONTROL Analytics]** きます **[!UICONTROL Components]****[!UICONTROL Targets]**。
+**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ターゲット]**&#x200B;で、ターゲットを管理することもできます。
