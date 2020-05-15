@@ -3,7 +3,10 @@ description: 'null'
 title: 貢献度分析の実行
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 プロジェクトで貢献度分析を呼び出すには、2 つの方法があります。
 
-* In a freeform table with daily granularity, right-click any row and select **[!UICONTROL Run Contribution Analysis]**. 異常値が表示されていない行でも実行できます。
+* 毎日の精度のフリーフォームテーブルで、任意の行を右クリックして、「**[!UICONTROL 貢献度分析を実行]**」を選択します。異常値が表示されていない行でも実行できます。
 
    >[!NOTE]
    >
@@ -24,11 +27,11 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
    ![](assets/run_ca.png)
 
-* 折れ線グラフでは、折れ線グラフの異常値データポイントの上にマウスポインターを置きます。Click the **[!UICONTROL Analyze]** link that appears.
+* 折れ線グラフでは、折れ線グラフの異常値データポイントの上にマウスポインターを置きます。表示される&#x200B;**[!UICONTROL 分析]**&#x200B;リンクをクリックします。
 
    ![](assets/contribution-analysis.png)
 
-1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. （オプション）折れ線グラフまたはテーブルで「**[!UICONTROL 貢献度分析を実行]**」をクリックしたら、[ディメンションを除外](#section_F6932F4BF74544B5872164E7B1E0C6FC)することで、分析の範囲を狭める（その結果、スピードアップする）ことができます。
 
 1. 貢献度分析が読み込まれるまでしばらく待ちます。レポートスイートのサイズおよびディメンションの数によって、これには、かなりの時間がかかる可能性があります。貢献度分析は、ディメンションあたり上位 50,000 項目の分析を実行します。
 1. 次に、このプロジェクト内に直接新しい貢献度分析パネルが読み込まれます。以前 Reports &amp; Analytics の貢献度分析を使用したことがあるユーザーは、多くのパネルを既に目にしたことがあるでしょう。
@@ -55,16 +58,16 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 貢献度分析から一部のディメンションを除外したい場合があります。例えば、ブラウザーまたはハードウェア関連のディメンションは関係がなく、これらを削除することで分析を高速化したい場合です。
 
-1. (または折れ線グラフ **[!UICONTROL Run Contribution Analysis]** 内で)をクリックすると、 **[!UICONTROL Analyze]****[!UICONTROL Excluded Dimensions]** パネルが表示されます。
+1. 「**[!UICONTROL 貢献度分析を実行]**」（または折れ線グラフの「**[!UICONTROL 分析]**」）をクリックすると、**[!UICONTROL 除外されたディメンション]**&#x200B;パネルが表示されます。
 
-1. 不要なサイズを **[!UICONTROL Excluded Dimensions]** パネルにドラッグし、をクリックしてリストを保存するだけで **[!UICONTROL Set as Default]**&#x200B;す。 Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
+1. 不要なディメンションを&#x200B;**[!UICONTROL 除外されたディメンション]**&#x200B;パネルにドラッグして、「**[!UICONTROL デフォルトとして設定]**」をクリックしてリストを保存します。または、「**[!UICONTROL すべてクリア]**」をクリックして、除外するディメンションを選択することからやり直します。
 
    ![](assets/exclude_dimensions.png)
 
-1. After you have added dimensions to exclude (or chosen not to), click **[!UICONTROL Run Contribution Analysis]** again.
+1. 除外するディメンションを追加したら（または除外しないものを選択したら）、もう一度「**[!UICONTROL 貢献度分析を実行]**」をクリックします。
 1. 除外されたディメンションのリストを変更する必要がある場合はいつでも、ディメンションをダブルクリックすると、除外されたディメンションのリストが表示されます。
 
    ![](assets/excluded-dimensions.png)
 
-1. Just delete any unwanted dimensions by clicking the x next to them, then save the list by clicking **[!UICONTROL Set as Default]**.
+1. 不要なディメンションの隣にある x をクリックして削除し、「**[!UICONTROL デフォルトとして設定]**」をクリックしてリストを保存します。
 
