@@ -4,7 +4,10 @@ title: リアルタイムレポート
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
@@ -24,5 +27,4 @@ Web ページトラフィックをリアルタイムで表示し、ページビ�
 
 リアルタイム機能には、ユーザーおよびグループの権限が適用されます。例えば、売上高の表示権限を持たないユーザーは、売上高データを含むリアルタイムレポートを表示できません。eVar（コンバージョン指標）はサポートされていません。リアルタイム機能の権限を有効にするには、[管理ツール](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)を使用します。
 
->[!NOTE] は、以 [!UICONTROL Real-Time Reports] 前にリリースした [「現在のデータを含む](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) （データ最新性）」機能とは異なり、標準レポートの遅延が減少します。この機能は、データが確定される前にデータを表示することによって行われます。
-
+>[!NOTE][!UICONTROL リアルタイムレポート]は、以前にリリースされた「[現在のデータを含む](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html)」（データ最新性）機能とは異なります。「現在のデータを含む」機能は、標準レポートの確定前のデータを表示することで、待ち時間を短縮するものです。
