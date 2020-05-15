@@ -3,7 +3,10 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analyticsドキュメントリポジトリに対する注目すべき更新です。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
+source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 72%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 2019 年 1 月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* 詳しくは [!UICONTROL Customer Journey Analytics]、 [こちらを参照してください](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)。
+* Analyticsの [!UICONTROL カスタマージャーニーについて詳しくは]、 [こちらを参照してください](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)。
 * For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html).
 * 新機能について詳しくは、ツールユーザーガイドの「分析ワークスペースの [新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) 」を参照してください。
 * オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)を参照してください。
@@ -21,13 +24,13 @@ source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 | 日付 | 説明 |
 |---|---|
-| 2020年4月28日 | コン [テンツ速度](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) 指標に関するドキュメントを追加しました。 |
-| 2020 年 12 月 4 日 | Experience Cloudへの [公開セグメントの更新を追加しました](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。 |
+| 2020年4月28日 | コン [テンツ速度](/help/components/c-variables/c-metrics/metrics-content-velocity.md) 指標に関するドキュメントを追加しました。 |
+| 2020 年 12 月 4 日 | Experience Cloudへの [公開セグメントの更新を追加しました](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md)。 |
 | 2020 年 12 月 4 日 | CDAのステッチ待ち時間の更新。 |
 | 2020年2月27日 | 「 [Adobe Analytics Labs](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/tech-previews/overview.html)」に関するドキュメントを追加しました。 |
 | 2020 年 2 月 26 日 | 変数を追加 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) しました。 |
 | 2020 年 2 月 19 日 | 変数を追加 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) しました。 |
-| 2020 年 2 月 13 日 | マー [ケティングチャネルドキュメントの更新と再編成](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
+| 2020 年 2 月 13 日 | マー [ケティングチャネルドキュメントの更新と再編成](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 。 |
 | 2020 年 2 月 8 日 | デバイス間の分析の [設定](../components/cda/cda-setup.md) と [FAQの更新](../components/cda/cda-faq.md) |
 | 2020 年 2 月 5 日 | 『 [導入ユーザガイド』を完全に書き直し](../implement/home.md)ます。 |
 | 2020 年 1 月 23 日 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
