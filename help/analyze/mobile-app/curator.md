@@ -2,9 +2,9 @@
 description: ダッシュボードのスコアカードを設定する手順
 title: Adobe Analytics ダッシュボードキュレーターガイド
 translation-type: tm+mt
-source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
+source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2328'
 ht-degree: 82%
 
 ---
@@ -113,6 +113,8 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
 
 4. 個々のタイルにセグメントを適用するには、左パネルからセグメントをドラッグし、タイルの上に直接ドロップします。スコアカード内のすべてのタイルにセグメントを適用する場合は、スコアカードの上にタイルをドロップします。または、日付範囲の下にあるフィルターメニューでセグメントを選択して、セグメントを適用することもできます。 スコアカードのフィルターは、Adobe Analytics Workspaceと同じように [構成し](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 、適用します。
 
+   ![フィルター用のセグメントの作成](assets/segment_ui.png)
+
 5. 同様に、スコアカード全体に適用されるコンポーネントを削除するには、タイルの外側のスコアカード上の任意の場所をクリックし、コンポーネントにカーソルを合わせたときに表示される「**x**」をクリックして削除します。**モバイル顧客**&#x200B;セグメントについては以下に示します。
 
    ![Remove_components](assets/new_remove.png)
@@ -174,14 +176,14 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    **iOS**：
 
-   1. 次のリンク( **ツール** / **ダッシュボードのAnalyticsでも利用できます**)をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
+   * 次のリンク( **ツール** / **ダッシュボードのAnalyticsでも利用できます**)をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
 
       [iOSリンク](https://apple.co/2zXq0aN)
    **Android**：
 
-   1. 次のリンク( **ツール** / **ダッシュボードのAnalyticsでも利用できます**)をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
+   * 次のリンク( **ツール** / **ダッシュボードのAnalyticsでも利用できます**)をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
 
-      [Android](https://bit.ly/2LM38Oo)
+      [Androidリンク](https://bit.ly/2LM38Oo)
    ダウンロードしてインストールすると、エグゼクティブユーザーは既存の Adobe Analytics 資格情報を使用してアプリケーションにサインインできます。Adobe ID または Enterprise／Federated ID を使用できます。
 
    ![アプリケーションのスタートアップスクリーン](assets/welcome.png)
