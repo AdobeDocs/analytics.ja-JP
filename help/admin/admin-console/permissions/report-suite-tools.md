@@ -1,6 +1,9 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '650'
+ht-degree: 98%
 
 ---
 # 製品プロファイル権限にリストされたレポートスイートツール
@@ -59,3 +62,4 @@ translation-type: tm+mt
 | 使用状況サマリレポートレット | 未使用。 |
 | Web リソース | 未使用。 |
 | Social | 未使用。 |
+| データ修復 API | データ修復API（今後のリリース）へのアクセスを許可 |
