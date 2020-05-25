@@ -3,7 +3,7 @@ description: フィルターを使用すると、フィルターに一致する�
 title: レポートデータのフィルタリング
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 
-## シンプルフィルター {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## シンプルフィルター{#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
@@ -41,7 +41,7 @@ help:Internal Search Term
 
 ![](assets/advanced_filter.png)
 
-**Contains**
+**次を含む**
 
 行項目のどこかに指定の単語が含まれる場合に一致します。これはシンプルフィルターと同じ機能になります。
 
@@ -49,7 +49,7 @@ help:Internal Search Term
 
 **次を含まない**
 
-指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html)をレポートから除外できます。
+指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/unspecified.html)をレポートから除外できます。
 
 次を含まない。`none`
 
@@ -119,7 +119,7 @@ Bling Belt High Waist Jean
 Ocean Blue Jean
 ```
 
-## アドバンス（特殊文字）{#section_83DA3B6C23EB4C119DB6D74062DB501D}
+## アドバンス（特殊文字） {#section_83DA3B6C23EB4C119DB6D74062DB501D}
 
 アドバンスフィルターでは、ワイルドカード検索やその他の複雑な検索を実行できます。
 
@@ -142,17 +142,17 @@ t_reports_filter_specific.xml
 
  -->
 
-レポートによっては、そのレポートに固有のフィルターを持つものがあります。例えば、を使用してWebペ [!UICONTROL Purchase Conversion Funnel Report] ージでフィルターできます。 A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. 各レポートに固有なその他のフィルターを持つレポートもあります。
+レポートによっては、そのレポートに固有のフィルターを持つものがあります。例えば、[!UICONTROL 購入コンバージョンファネルレポート]では Web ページでデータをフィルターできます。[!UICONTROL 地理特性レポート]では、地域によってデータをフィルターできます。各レポートに固有なその他のフィルターを持つレポートもあります。
 
 これらのフィルターにアクセスすると、そのリストに指定された項目のレポート指標が表示されます。
 
 **レポート固有フィルターを作成するには**
 
-1. (> > [!UICONTROL Purchase Report] )などのレ **[!UICONTROL Site Metrics]** ポート **[!UICONTROL Purchases]** を生成 **[!UICONTROL Purchase Conversion Funnel]**&#x200B;する。
-1. In the report header, click the **[!UICONTROL Filter]** link.
-1. ページで、 [!UICONTROL Filter Selector] をクリックし **[!UICONTROL Apply a Filter]**&#x200B;て、フィルターの種類を選択します。
-1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
-1. クリック **[!UICONTROL OK]**.
+1. [!UICONTROL 購入レポート]などのレポートを生成します（**[!UICONTROL サイト指標]**／**[!UICONTROL 購入]**／**[!UICONTROL 購入コンバージョンファネル]**）。
+1.  レポートのヘッダーで、**[!UICONTROL フィルター]**&#x200B;リンクをクリックします。
+1. [!UICONTROL フィルターセレクター]で「**[!UICONTROL フィルターの適用]**」をクリックし、フィルタータイプを指定します。
+1.  項目を検索するには、**[!UICONTROL 検索]**&#x200B;フィールドに文字列を入力します。
+1. 「**[!UICONTROL OK]**」をクリックします。
 
 ## クロス集計フィルターの追加 {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
@@ -164,13 +164,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-一部のレポートでは、カスタムのクロス集計フィルターを追加できます。For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women&#39;s page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
+一部のレポートでは、カスタムのクロス集計フィルターを追加できます。例えば、女性用ページと相関関係があるサイトセクションを持つレポートスイートの[!UICONTROL ページレポート]を表示している場合、サイトセクションが女性用ページである場合に最も好評なページを表示するレポートを生成するフィルターを作成することができます。
 
 使用可能な任意のクロス集計を使って、クロス集計レポートに表示するデータをフィルターできます。ここの例では、検索エンジンのクロス集計フィルターを追加します。
 
 **クロス集計フィルターを追加するには**
 
 1. クロス集計をサポートするレポートを実行します([内訳レポートの実行](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69)を参考。)
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
-1. の下で、 [!UICONTROL Filter Rule Creator]項目とクロス集計するカテゴリを選択します。
-1. ズーム後に **[!UICONTROL OK.]**
+1. レポートのヘッダーで、**[!UICONTROL クロス集計フィルター]**&#x200B;リンクをクリックします。
+1. 「[!UICONTROL フィルター規則クリエイター]」で、アイテムのクロス集計カテゴリを選択します。
+1. 「**[!UICONTROL OK]**」をクリックします。
