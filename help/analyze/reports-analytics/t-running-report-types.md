@@ -3,7 +3,7 @@ description: 異なるレポートタイプの実行手順を説明します。
 title: 異なるレポートタイプの実行
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,8 +24,8 @@ t_reports_ranked.xml
 
  -->
 
-1. (> > [!UICONTROL Pages Report] )などのレ **[!UICONTROL Reports]** ポート **[!UICONTROL Site Content]** を生成 **[!UICONTROL Pages]**&#x200B;する。
-1. In the report header, click **[!UICONTROL Ranked.]**
+1. [!UICONTROL ページレポート]などのレポートを生成します（**[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページ]**）。
+1. レポートタイプで「**[!UICONTROL ランク]**」をクリックします。
 1.  レポートのランクを設定するには、テーブルの列ヘッダーをクリックします。
 
    ランクレポートには、表に 200 個までの行項目（製品、カテゴリ、Web ページなど）と 10 個までの指標（売上高、注文件数、表示回数など）を含めることができます。
@@ -40,12 +40,12 @@ t_reports_trended.xml
 
  -->
 
-ほとんどのコンバージョンとトラフィックレポートではトレンドを表示できます。Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. トレンドレポートは、最大 5 つまでの項目（製品、カテゴリ、Web ページなど）に対して 1 つの指標（売上高、注文、表示回数など）のトレンドを表示できます。
+ほとんどのコンバージョンとトラフィックレポートではトレンドを表示できます。[!UICONTROL カレンダー]を使用すると、月内の日、年内の週、四半期内の週、月など、どの期間ごとのパフォーマンスの改善も見ることができます。トレンドレポートは、最大 5 つまでの項目（製品、カテゴリ、Web ページなど）に対して 1 つの指標（売上高、注文、表示回数など）のトレンドを表示できます。
 
 **トレンドレポートを実行するには**
 
-1. > >などのコンバージョンまたはトラフィックレポ **[!UICONTROL Reports]** ートを **[!UICONTROL Site Content]** 実行しま **[!UICONTROL Pages]**&#x200B;す。
-1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+1. **[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページ]**&#x200B;などの変換またはトラフィックレポートを実行します。
+1. 「**[!UICONTROL レポートタイプ]**」の「**[!UICONTROL トレンド]**」をクリックします。
 
 ## コンバージョンファネルレポートの実行 {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,13 +57,13 @@ t_reports_conversion_funnel.xml
 
  -->
 
-このレポートを実行するには、ページレポートなどのレポートを選 **[!UICONTROL Reports]** 択しま **[!UICONTROL Campaigns]** す(// **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**)。
+このレポートを実行するには、ページレポートなどのレポートを選択します（**[!UICONTROL レポート]**／**[!UICONTROL キャンペーン]**／**[!UICONTROL トラッキングコード]**／**[!UICONTROL キャンペーンコンバージョンファネル]**）。
 
-詳しくは、[コンバージョンレポート](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)を参照してください。
+詳しくは、[コンバージョンレポート](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-conversion.html)を参照してください。
 
 ## フォールアウトレポートの実行 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
-The [!UICONTROL Fallout Report] shows the number of visitors who visited a pre-specified sequence of pages. ステップ間のコンバージョン率とフォールアウト率も示します。
+[!UICONTROL フォールアウトレポート]には、事前に指定されたページ順に訪問した訪問者の数が表示されます。ステップ間のコンバージョン率とフォールアウト率も示します。
 
 <!-- 
 
@@ -73,19 +73,19 @@ t_reports_fallout.xml
 
 Analysis Workspace の新しい[フォールアウト分析](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)パネルを調べます。
 
-1. で、// [!UICONTROL Adobe Analytics]/をク **[!UICONTROL Reports]** リック **[!UICONTROL Paths]** しま **[!UICONTROL Pages]** す **[!UICONTROL Fallout]**。
-1. ページ上で、 [!UICONTROL Fallout Report] をクリックしま **[!UICONTROL Launch the Fallout Report Builder]**&#x200B;す。
+1. [!UICONTROL Adobe Analytics] で、**[!UICONTROL レポート]**／**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL フォールアウト]**&#x200B;をクリックします。
+1. [!UICONTROL フォールアウトレポート]ページで、「**[!UICONTROL フォールアウト Report Builder の起動]**」をクリックします。
 
    ![手順の結果](assets/fallout_add_items.png)
 
-1. On the [!UICONTROL Define Checkpoints] page, specify the checkpoints that you want to use for the report.
-1. クリック **[!UICONTROL Run Report]**.
+1. [!UICONTROL チェックポイントの定義ページで]、レポートに使用するチェックポイントを指定します。
+1. 「**[!UICONTROL レポートを実行]**」をクリックします。
 
    ![手順の結果](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
->* [フォールアウトレポートの説明](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [フォールアウトレポートの説明](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## ページフローレポートの実行 {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -96,7 +96,7 @@ Analysis Workspace の新しい[フロービジュアライゼーション](http
 
 [パス](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-paths.html)レポートを実行します。
 
-例えば、/// **[!UICONTROL Reports]** をク **[!UICONTROL Paths]** リック **[!UICONTROL Pages]** します **[!UICONTROL Next Page Flow]**。
+例えば、**[!UICONTROL レポート]**／**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL 次ページのフロー]**&#x200B;をクリックします。
 
 ![](assets/page_flow.png)
 
@@ -104,7 +104,7 @@ Analysis Workspace の新しい[フロービジュアライゼーション](http
 
 続く各ページが閲覧された割合が、そのページ名の横に表示されます。次の各ページとを結ぶラインの幅により、そのパスのトラフィックの相対的な量が示されます。
 
-**[!UICONTROL Path Views]**:表示されたパスに従って、あるページが表示された回数を示します。
+**[!UICONTROL パスビュー数]**：表示されたパスをたどって、あるページが閲覧された回数を示します。
 
 例えば、プライバシーポリシーページの総ページビュー数は 10,000 であっても、ホームページを見た直後にこのページを閲覧したのはそのうち 500 のみだったとすると、この場合のパスビュー数は 500 になります。パスビューという用語はこのように使用されます。
 
@@ -112,7 +112,7 @@ Analysis Workspace の新しい[フロービジュアライゼーション](http
 
 ## ファネルレポートの実行 {#task_2BBF6FACD48F479E8B2EE458919941CB}
 
-成功オプションをイベントし、レポートまたはレ [!UICONTROL Purchase Conversion Funnel] ポートに追加することがで [!UICONTROL Product Conversion Funnel] きます。
+成功イベントを選択し、[!UICONTROL 購入コンバージョンファネル]レポートまたは[!UICONTROL 製品コンバージョンファネル]レポートに追加できます。
 
 <!-- 
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. **[!UICONTROL レポート]**／**[!UICONTROL 製品]**／[製品コンバージョンファネル](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)をクリックします。
 
 ## マーケティングチャネルレポートの実行 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -146,11 +146,11 @@ t_anomaly_view.xml
 
 Analysis Workspace の新しい[異常値検出と貢献度分析](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)機能を調べます。
 
-**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
+**[!UICONTROL レポート]**／**[!UICONTROL サイト指標]**／**[!UICONTROL 異常値検出]**
 
 >[!NOTE]Analysis Workspace プロジェクト内からも異常値検出を実行できます。[さらに詳しく...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-異常値検出の設定については、[リファレンスガイド](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)を参照してください。
+異常値検出の設定については、[リファレンスガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)を参照してください。
 
 異常値検出では、2 種類のグラフが表示されます（概要グラフと個別の指標グラフ）。個別の指標グラフは、その指標に関して 1 つ以上の異常値が検出された場合にのみ表示されます。
 
@@ -211,11 +211,11 @@ t_anomaly_config.xml
 
 異常値検出は、レポートスイートごとに個別に設定します。
 
-1. に移動しま **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** す。
+1. **[!UICONTROL Analytics／レポート／サイト指標／異常値検出]**&#x200B;に移動します。
 1. 異常値検出を毎日追跡したいレポートスイートを選択します。レポートスイートのリストを表示するには、レポートスイートセレクターのドロップダウンメニューをクリックします。
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
+1. 指標を選択するか、フィルター適用済み指標を定義するには、画面右上にある&#x200B;**[!UICONTROL 指標を編集]**&#x200B;アイコンをクリックします。![](assets/metrics_icon.png)
 
-   全指標のリスト（計算指標を含む）または追跡指標のリストから、必要な指標を選択できます。特定の条件に基づいてフィルターし、リストを絞り込むこともできます。1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. （トレーニング期間は、このアルゴリズムの「学習期間」と考えてください）。
+   全指標のリスト（計算指標を含む）または追跡指標のリストから、必要な指標を選択できます。特定の条件に基づいてフィルターし、リストを絞り込むこともできます。1. レポートが生成されたら、異常値検出の「**[!UICONTROL トレーニング期間]**」と「**[!UICONTROL 期間を表示]**」を変更できます。（トレーニング期間は、このアルゴリズムの「学習期間」と考えてください）。
 
    ![](assets/view_training_periods.png)
 
@@ -226,7 +226,7 @@ t_anomaly_config.xml
 * トレーニング期間を延長するとデータのコンテキストが大きくなり、異常値のサイズが減少することがあります。
 
    異常値検出レポートは、これらのパラメーターを変更するたびに更新されます。
-1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
+1. （オプション）「**[!UICONTROL セグメントを表示]**」をクリックし、既存のセグメントを 1 つ以上選択するか、新しいセグメントを作成して適用することによって、セグメントをレポートに適用します。
 
    ![](assets/ad_top_menu.png)
 
@@ -244,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Reports > Site Metrics > Real-Time]**&#x200B;を参照してください。
+**[!UICONTROL レポート／サイト指標／リアルタイム]**。
 
 リアルタイムレポートには、概要レポートと詳細レポートという 2 つのメインレポートがあります。それぞれは複数のレポートレットから構成されています。
 
-リアルタイムレポートの設定については、[Analytics リファレンスガイド](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration)を参照してください。
+リアルタイムレポートの設定については、[Analytics リファレンスガイド](https://docs.adobe.com/content/help/ja-JP/analytics/landing/home.html#RealTime_Reports_Configuration)を参照してください。
 
-1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
+1. **[!UICONTROL 概要]**&#x200B;レポートとそのコンポーネントをひととおり確認します。![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -259,7 +259,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>レポートスイートの選択</strong></td> 
-   <td class="chdesc stentry"> このリアルタイムレポートに表示するレポートスイートを選択します。レポートスイートを変更する方法については、<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >リアルタイムレポートの設定</a>を参照してください。 </td> 
+   <td class="chdesc stentry"> このリアルタイムレポートに表示するレポートスイートを選択します。レポートスイートを変更する方法については、<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >リアルタイムレポートの設定</a>を参照してください。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>レポートの切り替え</strong></td> 
@@ -314,7 +314,7 @@ reports_realtime.xml
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
+1. プライマリレポートレットのリスト項目をクリックすると、リスト項目の&#x200B;**[!UICONTROL 詳細]**&#x200B;ビューが表示されます。![](assets/rtr_detail_report.png)
 
    | **アイテムトレンドレポートレット** | 概要レポートで選択した項目の、過去 N 分間のトレンドラインを表示します。N の数値は時間範囲セレクターで設定できます。 |
    |---|---|
