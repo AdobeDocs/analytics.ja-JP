@@ -3,7 +3,7 @@ description: Activity Map またはレガシー ClickMap でリンクトラッ�
 title: リンクトラッキングの停止
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,7 +24,6 @@ Activity Map またはレガシー ClickMap でリンクトラッキングを停
   <tr> 
    <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Appmeasurement.js ファイルから次のコンテンツを削除します。 
-     
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
@@ -41,7 +40,7 @@ Activity Map またはレガシー ClickMap でリンクトラッキングを停
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称 Visitor ClickMap） </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 変数を false（デフォルト）に設定します。構文は次のようになります。
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/config-vars/configuration-variables.translate.html"  >trackInlineStats</a> 変数を false（デフォルト）に設定します。構文は次のようになります。
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
