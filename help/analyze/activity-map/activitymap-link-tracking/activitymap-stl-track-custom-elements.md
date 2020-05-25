@@ -1,29 +1,29 @@
 ---
-description: s.tl()メソッドを使用して、カスタム要素を追跡し、動的コンテンツのオーバーレイレンダリングを設定できます。
-title: s.tl()メソッドの使用
+description: s.tl() メソッドを使用してカスタム要素を追跡し、動的コンテンツのオーバーレイレンダリングを設定できます。
+title: s.tl() メソッドの使用
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# メソッドの `tl()` 使用
+# `tl()` メソッドの使用
 
-You can use the `tl()` method to track custom elements and to configure overlay rendering for dynamic content.
+`tl()` メソッドを使用してカスタム要素を追跡し、動的コンテンツのオーバーレイレンダリングを設定できます。
 
 ## カスタム要素の追跡 {#section_5D6688DFFFC241718249A9A0C632E465}
 
-Using the [`tl()` method](/help/implement/vars/functions/tl-method.md) as part of the Activity Map AppMeasurement module lets you track any object that is clicked on, even objects that are not anchor tags or image elements. s.tl を使用すると、ページ読み込みにつながらないカスタム要素を追跡できます。
+[`tl()` メソッド](/help/implement/vars/functions/tl-method.md)を Activity Map AppMeasurement モジュールの一部として使用すると、アンカータグや画像要素以外のオブジェクトも含めて、クリックされたすべてのオブジェクトを追跡できます。s.tl を使用すると、ページ読み込みにつながらないカスタム要素を追跡できます。
 
-In the `tl()` method, the `linkName` parameter that is currently used to identify the exit links, custom links, etc. を使用して、Activity Map 変数のリンク ID を識別できるようになりました。
+`tl()` メソッドでは、現在離脱リンクやカスタムリンクなどを識別するために使用されている `linkName` パラメーターを使用して、Activity Map 変数のリンク ID を識別できるようになりました。
 
 ```js
 s.tl(this,linkType,linkName,variableOverrides)
 ```
 
-In other words, if you use `s.tl()` to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the `s.tl()` method. Activity Map の[デフォルトの追跡](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)に使用される標準のリンクトラッキングアルゴリズムから引き出されるのではありません。
+つまり、`s.tl()` を使用してカスタム要素を追跡した場合、リンク ID は、`s.tl()` メソッドの 3 番目のパラメーター（linkName）として渡された値から引き出されます。Activity Map の[デフォルトの追跡](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)に使用される標準のリンクトラッキングアルゴリズムから引き出されるのではありません。
 
 ## 動的コンテンツのオーバーレイレンダリング {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
@@ -33,9 +33,9 @@ s.tl() 関数が HTML 要素のオンクリックイベントから直接呼び�
 <div onclick="s.tl(this,'o','Example custom link')">Example link text</a>
 ```
 
-Whenever any web page content is added to the page after the initial page load, the `tl()` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. その後、Activity Map から新しいリンク収集プロセスがトリガーされます。
+最初のページ読み込み後に何らかの Web ページコンテンツが追加されるたびに、`tl()` メソッドは間接的に呼び出されるので、明示的に有効化またはクリックしない限りは、新しいコンテンツのオーバーレイは表示できません。その後、Activity Map から新しいリンク収集プロセスがトリガーされます。
 
-When the `tl()` method is not called directly from the HTML element&#39;s on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl()` method is called indirectly:
+`tl()` メソッドが HTML 要素のオンクリックイベントから直接呼び出されていない場合、Activity Map では、ユーザーが要素をクリックした場合にのみオーバーレイを表示できます。`tl()` 関数が間接的に呼び出される場合の例を以下に示します。
 
 ```html
 <div onclick="someFn(event)"></div>
@@ -46,7 +46,7 @@ When the `tl()` method is not called directly from the HTML element&#39;s on-cli
 </script>
 ```
 
-The best way for Activity Map to overlay dynamic content links is to have a customized ActivityMap.link function set up to call the same function whose return value is passed to `s.tl`. 次に例を示します。
+Activity Map で動的コンテンツリンクをオーバーレイする最善の方法は、カスタマイズした ActivityMap.link 関数を設定して、戻り値が `s.tl` に渡される同じ関数を呼び出すことです。次に例を示します。
 
 ```js
 var originalLinkFunction = s.ActivityMap.link;
