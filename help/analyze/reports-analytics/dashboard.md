@@ -4,7 +4,7 @@ subtopic: Dashboards
 title: ダッシュボードおよびレポートレット
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ダッシュボードは、*`reportlets`* と呼ばれるサムネイル表示されたレポートです。ダッシュボードは、検索方法や訪問者プロファイルのような、特定の切り口で分析するための関連レポートレットをいくつも掲載する場合に特に便利です。
 
-、、などのグラフの多いレポートを含め、ほとんどのマーケティングレポートをダッシュボード [!UICONTROL Fallout Report]に追加す [!UICONTROL Conversion Funnel Report]ることができま [!UICONTROL Pathfinder Report]す。
+ダッシュボードには、[!UICONTROL フォールアウトレポート]、[!UICONTROL コンバージョンファネルレポート]、[!UICONTROL パスファインダーレポート]などグラフの多いレポートを含めて、ほとんどのレポートを追加できます。
 
-ダッシュボードをランディングページとして設定したり、他のユーザーとダッシュボードを共有したり、配信スケジュールを設定することもできます。If you do not set a dashboard (or a bookmark) as a landing page, the [!UICONTROL My Recommended Reports] dashboard displays. **[!UICONTROL My Recommended Reports]** に、レポート **[!UICONTROL Key Metrics]** と、最も頻繁に表示された5つのレポートを示します。 実際に最も多く表示しているレポートに基づいて、動的に表示されます。
+ダッシュボードをランディングページとして設定したり、他のユーザーとダッシュボードを共有したり、配信スケジュールを設定することもできます。ダッシュボード（またはブックマーク）をランディングページとして設定しない場合は、「[!UICONTROL 推奨レポート]」ダッシュボードが表示されます。**[!UICONTROL 推奨レポート]**&#x200B;には、**[!UICONTROL 主要指標]**&#x200B;レポートに加えて、最もよく表示される上位 5 つのレポートが表示されます。実際に最も多く表示しているレポートに基づいて、動的に表示されます。
 
 よく表示されているレポートでも、ダッシュボードに対応していないため表示されないものがあることに注意してください。これには、以下が含まれます。
 
@@ -31,18 +31,18 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * リアルタイムレポート
 * その他のダッシュボード
 
->[!NOTE] この **[!UICONTROL Site Overview]** ダッシュボードは、Reports &amp; Analyticsに表示されなくなりました。 ただし、次のような状況においては、「サイト概要」の一部またはすべてのレポートレットが引き続き表示されます。
+>[!NOTE]「**[!UICONTROL サイト概要]**」ダッシュボードは Reports &amp; Analytics に表示されなくなりました。ただし、次のような状況においては、「サイト概要」の一部またはすべてのレポートレットが引き続き表示されます。
 
-* If you have, say, only three frequently viewed reports, Reports &amp; Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard.
-* 新規のレポートスイートには、最初は「サイト概要」のレポートレットが表示されますが、使用するうちに、よく表示されるレポートに置き換えられます。それでも今はダッシュボードが呼ばれる **[!UICONTROL My Recommended Reports]**。
+* 例えば、よく表示しているレポートが 3 つだけの場合は、「**[!UICONTROL 推奨レポート]**」ダッシュボードの空き領域を埋めるために、「サイト概要」ダッシュボードの 2 つのレポートが表示されます。
+* 新規のレポートスイートには、最初は「サイト概要」のレポートレットが表示されますが、使用するうちに、よく表示されるレポートに置き換えられます。その場合でも、ダッシュボードには「**[!UICONTROL 推奨レポート]**」と表示されます。
 
 各ユーザーには、自分で作成するダッシュボード以外に、以下のプリパッケージダッシュボードが用意されています。
 
-**[!UICONTROL Components]>[!UICONTROL Dashboards]>[!UICONTROL Shared Dashboards]>[!UICONTROL Local Sites]**
+**[!UICONTROL コンポーネント]／[!UICONTROL ダッシュボード]／[!UICONTROL 共有ダッシュボード]／[!UICONTROL ローカルサイト]**
 
 このカスタマイズ可能なダッシュボードでは、提供されるテンプレート内にレポートレットをドロップできます。
 
-**[!UICONTROL Components]>[!UICONTROL Dashboards]>[!UICONTROL Shared Dashboards]>[!UICONTROL Site Operations Dashboard]**
+**[!UICONTROL コンポーネント]／[!UICONTROL ダッシュボード]／[!UICONTROL 共有ダッシュボード]／[!UICONTROL サイト操作ダッシュボード]**
 
 このダッシュボードは、Web サイトの運用に関連する主要指標の概要を提供します。このダッシュボードには、以下のレポートが表示されます。
 
@@ -53,9 +53,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * テキストレポートレット
 * 会社概要レポートレット
 
-Use the [!UICONTROL Dashboard Manager] to edit and manage dashboards, and enable them for DirectAccess.
+[!UICONTROL ダッシュボードマネージャー]を使用して、ダッシュボードの編集と管理を行い、DirectAccess でのダッシュボードの使用を有効にします。
 
-See [Managing Dashboards](/help/analyze/reports-analytics/dashboard-manage.md).
+[ダッシュボードの管理](/help/analyze/reports-analytics/dashboard-manage.md)を参照してください。
 
 ## ダッシュボードの作成 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -69,24 +69,24 @@ t_dashboard_add.xml
 
 レポートを（レポートレットとして）ダッシュボードに追加する前に、ダッシュボードのレイアウトを指定します。
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. クリック **[!UICONTROL Add Dashboard]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ダッシュボードの管理]**&#x200B;に移動します。
+1. 「**[!UICONTROL ダッシュボードに追加]**」をクリックします。
 1. ダッシュボード名を入力します。
 1.  「**[!UICONTROL 3 x 2]**」または「**[!UICONTROL 2 x 2]**」をクリックして、ダッシュボードページに表示するレポートレットの数を指定します。
 1. ダッシュボードのページレイアウトを設定します。 
 
-   * **[!UICONTROL Add Page]**:空白のページをダッシュボードに追加し、コンテンツをドラッグしてレポートレットを作成できます。
-   * **[!UICONTROL Paper]**:用紙サイズ（横置き、縦置き、A4など）を指定できます。
-   * **[!UICONTROL Find Content]**:とメニューでコンテンツを検索で [!UICONTROL Add Content] きま [!UICONTROL Dashboard Contents] す。
+   * **[!UICONTROL ページを追加]**：ダッシュボードに空白ページを追加し、その上にコンテンツをドラッグしてレポートレットを作成することができます。
+   * **[!UICONTROL 紙]**：用紙サイズを指定できます（横方向、縦方向、A4 など）。
+   * **[!UICONTROL コンテンツの検索]**：[!UICONTROL コンテンツを追加]メニューおよび[!UICONTROL ダッシュボードコンテンツ]メニューでコンテンツを検索できます。
 
 1. 項目をレポートレットのキャンバスにドラッグして、使用できるコンテンツをダッシュボードに追加します。
 
    「[レポートレットの作成](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3)」および「[ダッシュボード設定の編集](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)」を参照してください。
-1. ズーム後に **[!UICONTROL Save.]**
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   Saving a dashboard makes it available in the **[!UICONTROL Dashboard]** menu. The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** > **[!UICONTROL Dashboards]** > **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. （「[ダッシュボードの管理](/help/analyze/reports-analytics/dashboard-manage.md)」を参照）。
+   ダッシュボードを保存すると、**[!UICONTROL ダッシュボード]**&#x200B;メニューで使用できるようになります。新しいダッシュボードは[!UICONTROL ダッシュボードマネージャー]（**[!UICONTROL お気に入り]**／**[!UICONTROL ダッシュボード]**／**[!UICONTROL マネージャー]**）でも使用できます。ここで、ダッシュボードの編集、整理、共有、スケジュール設定、アーカイブなどを行えます（「[ダッシュボードの管理](/help/analyze/reports-analytics/dashboard-manage.md)」を参照）。
 
-1. （オプション）ダッシュボードをランディングページとして設定するには、/をクリ **[!UICONTROL More Options]** ックしま **[!UICONTROL Set as Landing Page]**&#x200B;す。
+1. （オプション）ダッシュボードをランディングページとして設定するには、**[!UICONTROL その他のアクション]**／**[!UICONTROL ランディングページとして設定]**&#x200B;をクリックします。
 
 ## レポートレットの作成 {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
@@ -99,20 +99,20 @@ t_dashboard_add_report.xml
  -->
 
 1. レポートを実行します。
-1. ズーム後に **[!UICONTROL Dashboard.]**
-1. ページで、 [!UICONTROL Add Reportlet] レポートに名前を付け、次に、レポートのダッシュボードを選択しま **[!UICONTROL Place in Dashboard]**&#x200B;す。
+1. 「**[!UICONTROL ダッシュボード]**」をクリックします。
+1.  [!UICONTROL レポートレットの追加]ページで、レポートに名前を付け、「**[!UICONTROL ダッシュボードに配置]**」からダッシュボードを選択します。
 1. （オプション）日付の範囲を設定します。 
 
-   * **[!UICONTROL Rolling]**:時間が経過するにつれて、期間（日別、月別など）に従って日付を変更します。 例えば、今日が 1 月 17 日で、日付を 1 月 15 ～ 16 日に設定するとします。Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
-   * **[!UICONTROL Fixed]**:時間が経つにつれて日付が進むのを防ぎます。
+   * **[!UICONTROL 周期的]**：期間（日単位、月単位など）に従って、時間が経過すると日付が変わります。例えば、今日が 1 月 17 日で、日付を 1 月 15 ～ 16 日に設定するとします。次に、「**[!UICONTROL 経時変化]**」を選択すると、1 月 27 日のレポートレットに 1 月 25 ～ 26 日のデータが表示されます。
+   * **[!UICONTROL 特定日]**：時間が経過しても日付が変わらないようにします。
 
 1. （オプション）発行配信リストを上書きします。
 
-   **[!UICONTROL Publishing List Override]**:このオプションを有効にすると、このレポートレットで参照されているレポートスイートが発行リストに配信されます。 このオプションを無効にすると、発行リストのレポートスイートがこのレポートレットを置き換えます。
+   **[!UICONTROL 発行リストの上書き：]**&#x200B;このオプションを有効にすると、このレポートレットで参照されたレポートスイートが発行リストの配信時に常に使用されます。このオプションを無効にすると、発行リストのレポートスイートがこのレポートレットを置き換えます。
 
-1. クリック **[!UICONTROL Create New]**.
+1. 「**[!UICONTROL 新規作成]**」をクリックします。
 
-   The reportlet is added to the **[!UICONTROL Dashboard Contents]** menu in the dashboard editor.
+   レポートレットがダッシュボードエディターの&#x200B;**[!UICONTROL ダッシュボードコンテンツ]**&#x200B;メニューに追加されます。
 
 ## ダッシュボードへのコンテンツの追加 {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
@@ -124,10 +124,10 @@ t_dashboard_content.xml
 
  -->
 
-1. Open a dashboard, then click **[!UICONTROL Layout]**.
-1. Click **[!UICONTROL Add Content]**, then drag items to the dashboard.
+1. ダッシュボードを開き、「**[!UICONTROL レイアウト]**」をクリックします。
+1. 「**[!UICONTROL コンテンツを追加]**」をクリックし、項目をダッシュボードにドラッグします。
 
-   The [!UICONTROL Add Content] menu displays reportlet content from other dashboards, legacy dashboards, and shared dashboards.
+   [!UICONTROL コンテンツを追加]メニューに、他のダッシュボード、レガシーダッシュボード、共有ダッシュボードのレポートレットの内容が表示されます。
 
    >[!NOTE]
    >
@@ -166,7 +166,7 @@ t_dashboard_content.xml
 
    ダッシュボードに追加済みの項目が表示されます。
 
-1. ズーム後に **[!UICONTROL Save.]**
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## ダッシュボードとレポートレットのデータの編集 {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
@@ -180,22 +180,22 @@ t_dashboard_edit.xml
 
 **ダッシュボードとレポートレットのデータを編集するには**
 
-1. Click **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
-1. クリック **[!UICONTROL Layout]**.
+1. **[!UICONTROL コンポーネント]**／**[!UICONTROL ダッシュボード]**／*ダッシュボード名*&#x200B;をクリックしてダッシュボードを開きます。
+1. 「**[!UICONTROL レイアウト]**」をクリックします。
 
 | 設定値 | 手順 |
 |--- |--- |
 | ダッシュボードレポートスイートに変更する | Experience Cloud ヘッダーのメニューをクリックし、レポートスイートを選択します。 |
-| レポートレットのレポートスイートを変更する | In the reportlet, click the report suite name, then select a report suite from the [!UICONTROL Report Suite] menu. |
-| セグメントをダッシュボードに適用する | In the Experience Cloud header, click [!UICONTROL Show Segments], then select a segment. |
+| レポートレットのレポートスイートを変更する | レポートレットで、レポートスイート名をクリックし、[!UICONTROL レポートスイート]メニューからレポートスイートを選択します。 |
+| セグメントをダッシュボードに適用する | Experience Cloud ヘッダーで「[!UICONTROL 表示セグメント]」をクリックし、セグメントを選択します。 |
 | セグメントをレポートレットに適用する | ダッシュボードで「レイアウト」をクリックし、ダッシュボードを編集します。レポートレットで、レポートスイート名をクリックし、セグメントフィールドから値を選択して「更新」をクリックします。 |
-| レポートスイートをロックする（レポートレット内のレポートスイートが変更されるのを防ぎます） | In the reportlet, click the report suite name, then enable [!UICONTROL Lock Report Suite]. 「更新」をクリックします。 |
+| レポートスイートをロックする（レポートレット内のレポートスイートが変更されるのを防ぎます） | レポートレット内でレポートスイート名をクリックし、「[!UICONTROL レポート スイートをロックする]」を有効にします。「更新」をクリックします。 |
 | レポートの日付を変更する | ダッシュボードの場合、カレンダーをクリックします。（ダッシュボード内のすべてのレポートレットに変更が反映されます。）<br>レポートレットの日付のリンクをクリックし、カレンダーを設定します。 |
-| ダッシュボードに名前を付ける | Open a dashboard, then click  [!UICONTROL More] >  [!UICONTROL Rename]. |
-| ダッシュボードアーカイブを表示する | クリック  [!UICONTROL More] >  [!UICONTROL View Archive]. |
-| ダッシュボードをランディングページとして設定する | In a dashboard, click  [!UICONTROL More] > [!UICONTROL Set As Landing Page]. |
-| ダッシュボードをダウンロードする | In a dashboard, click  [!UICONTROL More] >  Download. |
-| ダッシュボードを印刷する | In a dashboard, click  [!UICONTROL More] >  Print. |
+| ダッシュボードに名前を付ける | ダッシュボードを開き、[!UICONTROL その他]／[!UICONTROL 名前変更]をクリックします。 |
+| ダッシュボードアーカイブを表示する | [!UICONTROL その他]／[!UICONTROL 保存レポートを閲覧]をクリックします。 |
+| ダッシュボードをランディングページとして設定する | ダッシュボードで、[!UICONTROL その他]／[!UICONTROL ランディングページとして設定]をクリックします。 |
+| ダッシュボードをダウンロードする | ダッシュボードで[!UICONTROL その他]／ダウンロードをクリックします。 |
+| ダッシュボードを印刷する | ダッシュボードで[!UICONTROL その他]／印刷をクリックします。 |
 | ダッシュボードを保存する | ダッシュボードで、「名前を付けて保存」をクリックし、名前を指定します。 |
 
 ## ダッシュボードのコブランディング {#task_603BDE7700B945699AF5514C2DEB81F7}
@@ -208,10 +208,10 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]**.
-1. ページ上で、 [!UICONTROL Company Settings] をクリックしま **[!UICONTROL Co-Brand the Adobe Experience Cloud]**&#x200B;す。
-1. クリック **[!UICONTROL Enable Co-Branding]**.
-1. Browse to upload the image, then click **[!UICONTROL Save.]**
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL カンパニー設定]**。
+1. [!UICONTROL カンパニー設定]ページで、「**[!UICONTROL Adobe Experience Cloud のコブランド化]**」をクリックします。
+1. 「**[!UICONTROL コブランディングを有効にする]**」をクリックします。
+1. 画像を参照してアップロードし、「**[!UICONTROL 保存]**」をクリックします。
 
    ブラウザーで画像を表示する場合に最良の結果を得るには、100px X 30px の画像をアップロードしてください。PDF 出力の場合は、417px X 125px（300 dpi）の画像をアップロードすると最適に表示されます。画像が大きすぎる場合は、アスペクト比を維持しながら縮小されます。
 
@@ -227,5 +227,5 @@ segments_dashboards.xml
 
 セグメントは、ダッシュボード全体または特定のレポートレットの 2 つのレベルで適用できます。
 
-* **レポートレットレベル**:をクリ **[!UICONTROL Layout]**&#x200B;ックし、セグメント化するレポートレットのレポートスイートをクリックします。 モーダルウィンドウが表示され、レポートレットで使用されるセグメントを追加したり変更したりできます。
+* **レポートレットレベル**：「**[!UICONTROL レイアウト]**」をクリックし、セグメントを使用するレポートレットのレポートスイートをクリックします。モーダルウィンドウが表示され、レポートレットで使用されるセグメントを追加したり変更したりできます。
 * **ダッシュボードレベル**：左側のナビゲーションにあるセグメントアイコンをクリックし、使用するセグメントをオンにしてから「適用」をクリックします。レポートレットレベルのセグメントは、ここで選択したセグメントによって上書きおよび置換されます。
