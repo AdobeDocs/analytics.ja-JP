@@ -1,10 +1,10 @@
 ---
-description: Reports & Analytics を使用する前に、Reports & Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
+description: Reports and Analytics を使用する前に、Reports and Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 subtopic: Get started
 title: Reports and Analytics の概要
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基�
 
 ## Reports &amp; Analytics の概要
 
-Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
+Reports and Analytics を使用する前に、Reports and Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 
 レポートは、従来型の Web ベースのチャネルと、モバイルやビデオ、ソーシャルネットワークのような発展を続けるチャネルの両方に洞察を提供します。マーケティングレポートの例を以下に示します。
 
@@ -46,7 +46,7 @@ Reports &amp; Analytics インターフェイスにログインするための�
 * cookie と JavaScript を有効にする必要があります。
 * 画面の解像度 1024 x 768、画面の色 16 ビット以上。
 
-## Reports &amp; Analytics へのログイン
+## Reports and Analytics へのログイン
 
 インターフェイスにアクセスする前に、アカウントマネージャーまたはアドビカスタマーケアと協力して会社のアカウントを設定してください。
 
@@ -56,14 +56,14 @@ Experience Cloud を介してログインする手順を説明します。
 
 1. インターネットに接続されているコンピューターで、ブラウザーを起動します。
 1. [!DNL https://login.experiencecloud.adobe.com/] にアクセスします。
-1. ページ上で、 [!UICONTROL Sign In] をクリックしま **[!UICONTROL Single Sign-On]**&#x200B;す。
-1. Complete the following information, then click **[!UICONTROL Sign In]**.
+1.  [!UICONTROL サインイン]ページで「**[!UICONTROL シングルサインオン]**」をクリックします。
+1.  次の情報を入力し、「**[!UICONTROL サインイン]**」をクリックします。
 
-   **[!UICONTROL Company]**:会社IDを指定
+   **[!UICONTROL 会社の設定]**：会社 ID（発行された半角英数字のカンパニー名）を入力します。
 
-   **[!UICONTROL Username]**:アカウントIDを指定します。
+   **[!UICONTROL ユーザー名]**： アカウント ID を入力します。
 
-   **[!UICONTROL Password]**:アカウントのパスワードを指定します。
+   **[!UICONTROL パスワード]**： アカウントのパスワードを入力します。
 1. Experience Cloud のホームページで、**Analytics／レポート**&#x200B;に移動します。
 
    無操作状態が 30 分間続くと自動的にログアウトされます。
@@ -72,11 +72,11 @@ Experience Cloud を介してログインする手順を説明します。
 
 レポートを生成する手順を説明します。
 
-1. Log in to [!UICONTROL Reports & Analytics].
+1. [!UICONTROL Reports &amp; Analytics] にログインします。
 
    レポートメニューが表示されます。設定済みの場合は、[ダッシュボード](/help/analyze/reports-analytics/dashboard.md)が表示されます。
 
-1. /をク **[!UICONTROL Site Content]** リック **[!UICONTROL Pages]** します（例）。
+1.  **[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページ]**（例）をクリックします。
 
    ![](assets/pages_report.png)
 
@@ -88,9 +88,9 @@ Experience Cloud を介してログインする手順を説明します。
 
 連絡先情報を表示および編集したり、パスワードを指定したり、Web サービス情報を表示したり、データ収集からこのコンピューターを除外したりすることができます。
 
-Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+右上のアカウント名アイコン ![](assets/account.png) をクリックし、ログイン名の横にある「**[!UICONTROL アカウントの設定]**」（車輪）をクリックします。
 
-All users have access to the [!UICONTROL Account Information] page. 次の情報を表示したり、編集したりできます。
+すべてのユーザーは、「[!UICONTROL アカウント情報]」ページにアクセスできます。次の情報を表示したり、編集したりできます。
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -128,9 +128,9 @@ All users have access to the [!UICONTROL Account Information] page. 次の情報
 
 ## インターフェイス言語の変更
 
-インターフェイスの言語を変更する手順を説明します。選択した言語で Reports &amp; Analytics のインターフェイスを表示できます。
+インターフェイスの言語を変更する手順を説明します。選択した言語で Reports and Analytics のインターフェイスを表示できます。
 
-1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
-1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
+1. Analytics にログインし、「**[!UICONTROL レポート]**」タブを選択します。
+1. ページフッターで、**[!UICONTROL 言語]**&#x200B;メニューのアクティブな言語をクリックし、目的の言語を選択します。
 
-You can access the documentation and the Home Page from the Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+ドキュメントおよびホームページには Adobe Experience Cloud からアクセスできます。（**[!UICONTROL ヘルプ]**／**[!UICONTROL ヘルプホーム]**&#x200B;を選択します。）
