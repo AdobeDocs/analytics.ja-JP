@@ -4,7 +4,7 @@ subtopic: Schedule
 title: レポートのスケジュールと配信
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -38,7 +38,7 @@ Adobe Analytics アプリケーションでレポートの配信予定日時を�
 
 様々な形式でレポートをダウンロードし、メールで送信する手順と、レポートを配信するスケジュールを設定する手順について説明します。
 
-1. Run a report, then click **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. レポートを実行し、**[!UICONTROL その他]**／**[!UICONTROL 送信]**&#x200B;をクリックします。
 1.  配信オプションを指定します。 
 
    | オプション | 説明 |
@@ -48,17 +48,17 @@ Adobe Analytics アプリケーションでレポートの配信予定日時を�
    | 件名 | 電子メールの件名。 |
    | スケジュール | レポートをすぐに送信するか、別の間隔で送信するかを選択する。 |
 
-1. をクリック **[!UICONTROL Advanced Delivery Options]** して、配信スケジュールを指定します。
+1.  「**[!UICONTROL アドバンス配信オプション]**」をクリックして、配信スケジュールを指定します。 
 
 | オプション | 説明 |
 |--- |--- |
-| レポートファイル名 | レポートの名前を指定します。デフォルト形式は `<report name> for <suite> - <report date range>` です。To specify a custom name, select [!UICONTROL Custom]. |
+| レポートファイル名 | レポートの名前を指定します。デフォルト形式は `<report name> for <suite> - <report date range>` です。カスタム名を指定するには、「[!UICONTROL カスタム]」を選択します。 |
 | レポートの形式 | 配信に、PDF、CSV、Excel、HTML、Word、またはモバイル形式を指定できます。CSV を選択した場合、CSV のエンコーディングも指定できます。<ul><li>Shift-JIS：日本語文字エンコーディング。</li><li>EUC-JP：拡張 UNIX コード、主に日本語、韓国語、簡体字中国語用。</li></ul> |
 | レポート内容 | <ul><li>表の行数：送信するレポートの表に表示させる行数を指定します。</li><li>ヘッダーとフッターの言語：ヘッダーとフッターの言語を指定します。</li><li>コメント：レポートの先頭に表示するテキストを指定します。</li></ul> |
-| 電子署名ファイルの送信 | ブックマーク付きレポートや Data Warehouse の要求など、レポートを要求する場合は、データ署名を要求できます。アドビのデジタル署名はデータにアクセスできるユーザーを制限しませんが、デジタル署名ファイル（.sig）の目的は配信されたレポートファイルの有効性を検証することです。デジタル署名を使用すると、レポートの受取人はファイルがアドビから送信されたものであり、変更されていないことを検証できます。 |
+| 電子署名ファイルの送信 | ブックマーク付きレポートや Data Warehouse の要求など、レポートを要求する場合は、データ署名を要求できます。アドビの電子署名はデータにアクセスできるユーザーを制限しませんが、電子署名ファイル（.sig）の目的は配信されたレポートファイルの有効性を検証することです。電子署名を使用すると、レポートの受取人はファイルがアドビから送信されたものであり、変更されていないことを検証できます。 |
 | レポートの送信先 | <ul><li>電子メール：電子メールアドレス、件名、メモを設定できます。</li><li>FTP：ホスト、ポート、ディレクトリ、ユーザー名、パスワードなど FTP の設定を指定できます。</li></ul> |
 
-1. クリック **[!UICONTROL Scheduling Options]**.
+1. 「**[!UICONTROL スケジュールオプション]**」をクリックします。
 
 | オプション | 説明 |
 |--- |--- |
@@ -73,14 +73,14 @@ Adobe Analytics アプリケーションでレポートの配信予定日時を�
 レポートを印刷する手順を説明します。
 
 1. レポートを実行します。
-1. Click **[!UICONTROL More]** > **[!UICONTROL Print]**.  ![](assets/print.png)
+1.  **[!UICONTROL その他]**／**[!UICONTROL 印刷]**&#x200B;をクリックします。![](assets/print.png)
 
 ## 基本オプションを使用したレポートのダウンロード {#task_43660107A1C9485D92981CD75B562577}
 
 特定のレポートに関する詳細な情報を PDF、CSV、Excel または生データのエクスポート形式でダウンロードします。
 
-1. In  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** , select a report to view.
-1. クリック **[!UICONTROL Download]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;で、表示するレポートを選択します。
+1. 「**[!UICONTROL ダウンロード]**」をクリックします。
 
    ![](assets/download_basic.png)
 
@@ -98,11 +98,11 @@ Adobe Analytics アプリケーションでレポートの配信予定日時を�
 
 スケジュールされたレポートの管理についての情報を示します。
 
-In the [!UICONTROL Schedule Reports Manager], you can edit and delete recurring report deliveries. レポートを電子メールで指定のアドレスに送信したり、FTP 経由で送信する配信予定日時を設定できます。配信予定日時は、ある期間中のみまたは永久的に、レポートを指定の間隔で自動送信する場合や反復レポートの配信を停止する場合に設定します。
+[!UICONTROL スケジュールレポートマネージャー]を使用すると、定期的なレポート配信を編集および削除できます。レポートを電子メールで指定のアドレスに送信したり、FTP 経由で送信する配信予定日時を設定できます。配信予定日時は、ある期間中のみまたは永久的に、レポートを指定の間隔で自動送信する場合や反復レポートの配信を停止する場合に設定します。
 
-The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. ユーザーアカウントがアプリケーションで無効になっている場合、予定されたすべての配信が停止されます。
+[!UICONTROL 予定レポートマネージャ]には、特定のユーザーが作成したアイテムが表示されます。ユーザーアカウントがアプリケーションで無効になっている場合、予定されたすべての配信が停止されます。
 
-1. マネージャにアクセスするには、// **[!UICONTROL Analytics]** をクリ **[!UICONTROL Components]** ックしま **[!UICONTROL Scheduled Reports]**&#x200B;す。
+1. 予定レポートマネージャにアクセスするには、**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL スケジュール済みレポート]**&#x200B;をクリックします。
 
 ## レポートリンクの共有 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
@@ -113,7 +113,7 @@ The [!UICONTROL Schedule Report Manager] shows the items that a specific user ha
 **レポートリンクを共有するには**
 
 1. レポートを実行します。
-1. クリック **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
+1. **[!UICONTROL その他]**／**[!UICONTROL このレポートへのリンク]**&#x200B;をクリックします。
 
 ## 定期レポートを登録解除 {#concept_6B48360F935740B6851BA85D32DEF637}
 
@@ -129,7 +129,7 @@ The [!UICONTROL Schedule Report Manager] shows the items that a specific user ha
 
    ![](assets/unsubscribe-email.png)
 
-1. の横にあるリ **[!UICONTROL click here]** ンクをクリックしま **[!UICONTROL To cancel automatic delivery of this report]**&#x200B;す。
+1. 「**[!UICONTROL このレポートの自動配信のキャンセル]**」の横にある「**[!UICONTROL こちら]**」リンクをクリックします。
 
 1. レポート配信のキャンセルを確定します。
 
