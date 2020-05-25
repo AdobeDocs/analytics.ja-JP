@@ -3,7 +3,7 @@ description: Activity Map での設定や機能の使用に関するよくある
 title: Activity Map の FAQ
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 
 **質問：新しい AppMeasurement コードは、Dynamic Tag Management（DTM）を使用して設定できますか。**
 
-回答：はい。新しい AppMeasurement コードは[手動で実装](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)できます。
+回答：はい。新しい AppMeasurement コードは[手動で実装](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/analytics-dtm.translate.html)できます。
 
 **質問：AppMeasurement v1.6 ライブラリの大きな変更点は何ですか。**
 
@@ -51,9 +51,9 @@ A:
 
 * When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
-**質問：アクティビティマップは「表示」のデータを提供しますか。**
+**質問：Activity Map は「閲覧」に関するデータを提供しますか。**
 
-A:いいえ。表示されたリンクは追跡されません。
+回答：いいえ。Adobe では、表示されたリンクは追跡しません。
 
 **質問：以前に Web サイトで訪問者 ClickMap を使用していなかった場合でも、Activity Map を使用できますか。**
 
@@ -61,7 +61,7 @@ A:いいえ。表示されたリンクは追跡されません。
 
 **質問：Activity Map ではどんなブラウザーおよびバージョンがサポートされていますか。**
 
-A:4つのメインブラウザー(Chrome、Firefox、Safari、IE)の最新バージョンをサポートしています。
+回答：4 つの主要ブラウザー（Chrome、Firefox、Safari および IE）の最新バージョンをサポートしています。
 
 **質問：デフォルトのオーバーレイ設定は何ですか。**
 
@@ -80,7 +80,7 @@ A:4つのメインブラウザー(Chrome、Firefox、Safari、IE)の最新バー
 
 **質問：Activity Map を実行中にリンククリックデータが収集されないのはなぜですか。**
 
-回答：Activity Map を使用中は、Analytics タグでリンククリックデータデータは収集されません。この動作は、ClickMapプラグインの動作に従います。
+回答：Activity Map を使用中は、Analytics タグでリンククリックデータデータは収集されません。この動作は、ClickMap プラグインの動作に従っています。
 
 **質問：Activity Map のすべてのリンクレポートは、Reports &amp; Analytics の Activity Map レポートとどのように比較されますか。**
 
@@ -122,21 +122,21 @@ Reports &amp; Analytics で同等のレポートを得るには、まず Activit
 
 *互換性のない Analytics タグ（AppMeasurement v1.5 以前）を含む Web ページ*
 
-ページコードをv1.6以上にアップグレードする必要があることを示す警告メッセージが表示されます。
+ページコードを v1.6 以降にアップグレードする必要があることを示す警告メッセージが表示されます。
 
 *互換性のある Analytics タグ（AppMeasurement v1.6 以降）を含む Web ページ、ただし、管理ツールで Activity Map のレポートが有効になっていない場合*
 
 \[Activity Map のレポートの有効化\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;)を管理者に依頼する必要があることを示す警告メッセージが表示されます。
 
-**質問：[Analytics データフィード](https://docs.adobe.com/content/help/ja-JP/analytics/export/analytics-data-feed/data-feed-overview.html)を使用して Activity Map データ（contextData）を書き出すことはできますか。**
+**質問：[Analytics データフィード](https://docs.adobe.com/content/help/ja-JP/analytics/export/analytics-data-feed/data-feed-overview.translate.html)を使用して Activity Map データ（contextData）を書き出すことはできますか。**
 
 回答：いいえ。
 
 ## Activity Map でのセグメント化
 
-**質問：セグメントは個々のユーザーセグメントに関連付けられていますか。Are shared segments available in Activity Map?**
+**質問：セグメントは個々のユーザーセグメントに関連付けられていますか。Activity Map では共有セグメントを利用できますか。**
 
-A:アクティビティマップは、Analyticsからレポートセグメントを継承します。
+回答：Activity Map は、Analytics からレポートセグメントを継承します。
 
 **質問：セグメントはライブモードで動作しますか。**
 
