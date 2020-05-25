@@ -3,7 +3,7 @@ description: 'null'
 title: 実装コードのサンプル
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
