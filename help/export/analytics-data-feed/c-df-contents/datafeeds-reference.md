@@ -5,7 +5,7 @@ subtopic: data feeds
 title: データ列リファレンス
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -68,7 +68,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `first_hit_page_url` | 訪問者の本当に最初の URL。 | varchar(255) |
 | `first_hit_pagename` | 「オリジナルの入口ページ」ディメンションで使用される変数。訪問者のオリジナルの入口ページ名。 | varchar(100) |
 | `first_hit_ref_domain` | 「オリジナルの参照ドメイン」ディメンションで使用される変数。first_hit_referrer に基づいています。訪問者の本当に最初の参照ドメイン。 | varchar(100) |
-| `first_hit_ref_type` | 訪問者の本当に最初のリファラーのリファラータイプを表す数値 ID。referrer_type.tsv 参照テーブルを使用します。 | tinyint unsigned |
+| `first_hit_ref_type` | 訪問者の本当に最初のリファラーのリファラータイプを表す数値 ID。referrer_type.tsv 参照を使用します。 | tinyint unsigned |
 | `first_hit_referrer` | 訪問者の本当に最初の参照 URL。 | varchar(255) |
 | `first_hit_time_gmt` | 訪問者の本当に最初のヒットのタイムスタンプ（UNIX 時間）。 | int |
 | `geo_city` | ヒットの発生元となった市区町村の名前（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと市区町村を対応させることができます。 | char(32) |
@@ -167,12 +167,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `quarterly_visitor` | ヒットが新しい四半期別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | `ref_domain` | referrer 列に基づきます。ヒットの参照ドメイン。 | varchar(100) |
 | `ref_type` | ヒットのリファラルのタイプを表す数値 ID。<br>1：サイト内<br>2：その他の Web サイト<br>3：検索エンジン<br>4：ハードドライブ<br>5：USENET<br>6：手動入力／ブックマーク（リファラーなし）<br>7：電子メール<br>8：JavaScript なし<br>9：ソーシャルネットワーク | tinyint unsigned |
-| `referrer` | 前のページのページ URL。データ型 `referrer` はvarchar(255)ですが、データ型 `post_referrer` はvarchar(244)です。 | varchar(255) |
+| `referrer` | 前のページのページ URL。`referrer` のデータ型は varchar(255)、`post_referrer` のデータ型は varchar(244) です。 | varchar(255) |
 | `resolution` | モニターの解像度を表す数値 ID。「画面の解像度」ディメンションの値を設定します。resolution.tsv 参照テーブルを使用します。 | smallint unsigned |
 | `s_kwcid` | Adobe Advertising Cloud 統合で使用されるキーワード ID。 | varchar(255) |
 | `s_resolution` | 画面解像度の生の値。JavaScript 関数 screen.width および screen.height を使用して収集されます。 | char(20) |
 | `sampled_hit` | 廃止。以前 Ad Hoc Analysis でサンプリングに使用されていました。 | char(1) |
-| `search_engine` | サイトに訪問者を誘導した検索エンジンを表す数値 ID。search_engines.tsv 参照テーブルを使用します。 | smallint unsigned |
+| `search_engine` | サイトに訪問者を誘導した検索エンジンを表す数値 ID。search_engines.tsv 参照を使用します。 | smallint unsigned |
 | `search_page_num` | 「すべての検索ページのランク」ディメンションで使用されます。ユーザーがサイトにクリックスルーする前にサイトが表示された検索結果ページを示します。 | smallint unsigned |
 | `secondary_hit` | 二次的なヒットを追跡するフラグ。通常、ヒットをコピーするマルチスイートタギングおよび VISTA ルールで生じます。 | tinyint unsigned |
 | `service` | 未使用。代わりに page_event を使用してください。 | char(2) |
