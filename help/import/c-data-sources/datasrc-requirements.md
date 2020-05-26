@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 要件とアップロードに関する制限
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
