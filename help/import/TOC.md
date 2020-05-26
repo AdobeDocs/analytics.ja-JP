@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics インポートガイド
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
