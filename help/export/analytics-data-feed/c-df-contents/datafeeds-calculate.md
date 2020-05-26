@@ -4,7 +4,7 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: 計算指標
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
