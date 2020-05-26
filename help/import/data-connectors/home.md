@@ -1,7 +1,7 @@
 ---
 title: Analytics Data Connectors ヘルプ
 description: Data Connectors ヘルプ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Analytics Data Connectors ガイド
 
-このガイドでは、
+このガイドでは方法について説明します
 
-の方法について説明します。これには、次が含まれます。
+以下のようなものがあります。
 
 
 ## 主な Analytics インポート記事
