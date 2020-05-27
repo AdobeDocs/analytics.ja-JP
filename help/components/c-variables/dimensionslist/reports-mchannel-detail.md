@@ -1,21 +1,24 @@
 ---
 title: マーケティングチャネルの詳細 — ファーストタッチとラストタッチ
-description: 成功指標と売上高を様々なチャネルの詳細に割り当てます。全体的なチャネルは関係ありません。
+description: 成功指標と売上高を様々なチャネルの詳細に割り当てます。成功指標と売上高は、成功指標の全体的なチャネルに関係ありません。
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 78%
 
 ---
 
 
 # マーケティングチャネルの詳細 — ファーストタッチとラストタッチ
 
-これらのレポートにより、サイトに対して最も大きな影響を与えた特定のキャンペーンまたはキーワードについてインサイトを得ることができます。このレポートを使用すると、チャネル全体に関係なく、成功指標と売上高を様々なチャネルの詳細に配分できます。例えば、特定の有料検索キーワードと電子メールキーワードとの比較を確認できます。キャンペーン マーケティングチャネルの概要レポートとは異なり、このレポートは標準レポートと似ています。
+これらのレポートにより、サイトに対して最も大きな影響を与えた特定のキャンペーンまたはキーワードについてインサイトを得ることができます。このレポートを使用すると、チャネル全体に関係なく、成功指標と売上高を様々なチャネルの詳細に配分できます。例えば、特定の有料検索キーワードが電子メールキャンペーンとどのように比較されるかを確認できます。 マーケティングチャネルの概要レポートとは異なり、このレポートは標準レポートと似ています。
 
 ## レポートのプロパティ
 
 * このレポートは、マーケティングチャネルで定義されたルールで実行されます。[チャネルとルール](/help/components/c-marketing-channels/c-channels.md)を参照してください。
 
-   特に、レポートでは各ルールの一 **[!UICONTROL Set the channel's value to]** 部が使用されます。 これらのルールまたはチャネルの値をどのように設定するかを変更すると、このレポート内のデータを計算する方法が変わります。詳しくは、マーケティングチャネルの処理ルールの [FAQ](/help/components/c-marketing-channels/c-faq.md) を参照してください。
+   特に、このレポートは各ルールの&#x200B;**[!UICONTROL チャネルの値を次に設定する]**&#x200B;部分を使用します。これらのルールまたはチャネルの値をどのように設定するかを変更すると、このレポート内のデータを計算する方法が変わります。詳しくは、マーケティングチャネルの処理ルールの [FAQ](/help/components/c-marketing-channels/c-faq.md) を参照してください。
 
 * Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
@@ -32,4 +35,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    * e コマースのすべての標準的な指標：売上高、注文件数、数量、買い物かご数、買い物かごの表示回数、チェックアウト数、買い物かごへの追加数、買い物かごからの削除数。
    * すべてのカスタムイベント：イベント 1 ～ 80（H22 コード以上では、さらにイベント 81 ～ 100）。
    * 訪問回数および訪問者数：使用できるかどうかは、組織およびレポートスイートに依存します。詳細については、アカウントマネージャーにお問い合わせください。
-   See [Metrics](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
+   [!UICONTROL マーケティング チャネル]ヘルプの[指標](/help/components/c-marketing-channels/c-rules.md)を参照してください。
