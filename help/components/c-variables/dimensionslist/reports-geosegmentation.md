@@ -4,7 +4,10 @@ title: 地理特性
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 訪問者の所在地に関するデータを表示します。地理特性レポートには、国、地域、市区町村、米国の州および米国 DMA（デジタル販売地域）が含まれます。地理特性レポートは、すべてのお客様に対して有効になっています。
 
-Reports &amp; Analytics で利用できる指標は、コンバージョン指標、訪問ベースの指標、計算指標を含めてすべて、自動的に国、地域、市区町村、米国の州、米国 DMA レポートに含まれます。詳しくは、こちらのアドビの[ブログ](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/)投稿を参照してください。
+Reports &amp; Analytics で利用できる指標は、コンバージョン指標、訪問ベースの指標、計算指標を含めてすべて、自動的に国、地域、市区町村、米国の州、米国 DMA レポートに含まれます。詳しくは、こちらのアドビの[ブログ](https://theblog.adobe.com/introducing-new-metrics-in-geosegmentation-and-more/)投稿を参照してください。
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
