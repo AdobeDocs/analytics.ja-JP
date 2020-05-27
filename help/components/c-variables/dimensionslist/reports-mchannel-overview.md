@@ -4,7 +4,10 @@ title: マーケティングチャネル概要
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 96%
 
 ---
 
@@ -15,13 +18,13 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 一般的なプロパティ {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* このレポートは、マーケティングチャネルの[処理ルール](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html)にのみ依存しています。これらのルールを変更すると、このレポート内のデータの計算方法が変更されます。
+* このレポートは、マーケティングチャネルの[処理ルール](/help/components/c-marketing-channels/c-rules.md)にのみ依存しています。これらのルールを変更すると、このレポート内のデータの計算方法が変更されます。
 * 処理ルールの順序は、マーケティングチャネルの機能にとって重要です。それぞれのヒットでは最初に最上部の処理ルールの条件がチェックされ、そこから下に絞り込まれます。
 * このレポートは 2 つの分類（チャネル自体とチャネル詳細）で構成されています。各チャネル横の「+」 ボタンをクリックすると、その詳細が表示されます。
 * 各列に追加できる指標は 4 つだけです。ただし、使用できる列数に制限はありません。
 * 最後の列の末尾には小さいトレンドラインが表示されることがあります。このトレンドラインはアクティブな指標の間で循環できます。
 * 標準の方式で収集される多様なチャネルに加え、オフラインデータソースを使用できます。
-* [分類](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)を使用すると、行項目の名前変更や統合ができます。
+* [分類](/help/components/c-classifications2/c-classifications.md)を使用すると、行項目の名前変更や統合ができます。
 * このレポートでは以下の指標を使用できます（組織とレポートスイートの設定に応じて異なります）。
 
    * **クリックスルー**：*`s.campaign`* 変数が定義された回数。
@@ -35,12 +38,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **バージョン 14 および 15**
 
-このレポートにアクセスするには、/に移動しま **[!UICONTROL Marketing Channels]** す(メ **[!UICONTROL Channel Overview Report]** ニューがカスタマイズされていない場合)。
+このレポートにアクセスするには、**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL チャネル概要レポート]**（ メニューがカスタマイズされていない場合）を開きます。
 
-このレポートではセグメント化は使用できません。代わりに、またはのレ [!UICONTROL First- or Last-Touch Channel] ポートを [!UICONTROL First- or Last-Touch Details] 使用してください。
+このレポートではセグメント化は使用できません。代わりに[!UICONTROL ファーストタッチチャネルまたはラストタッチチャネル]または[!UICONTROL ファースト タッチの詳細またはラストタッチの詳細]レポートを使用してください。
 
 **Ad Hoc Analysis**
 
-Though the [!UICONTROL Marketing Channel Overview Report] is not available, Marketing Channel reports can be accessed with metrics using different allocation. これにより、非常によく似たレポートを効果的に再作成できます。
+[!UICONTROL マーケティングチャネル概要レポート]は使用できませんが、マーケティングチャネルレポートには異なる配分を使用する指標によってアクセスできます。これにより、非常によく似たレポートを効果的に再作成できます。
 
 このレポートでは複数のアドバンスセグメントを利用できます。
