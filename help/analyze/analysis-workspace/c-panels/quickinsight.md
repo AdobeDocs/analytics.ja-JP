@@ -1,16 +1,16 @@
 ---
-description: クイックインサイトビルダーは、新しいWorkspaceユーザーのためのツールで、データテーブルやビジュアライゼーションの作成を誘導します
-title: クイックインサイトビルダー
+description: クイックインサイトは、新しいWorkspaceユーザーを導くツールで、データテーブルやビジュアライゼーションの作成に使用します
+title: クイックインサイトパネル
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
 
 
-# クイックインサイトビルダー
+# クイックインサイトパネル
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 ## 既知の制限
 
-テーブル内で直接編集しようとすると、 [!UICONTROL クイックインサイト] パネル（空白の埋め込みツール）が同期しなくなります。 パネルの右上にある「 [!UICONTROL クイックインサイト]**** 」をクリックして、以前の設定に戻すことができます。
+テーブル内で直接編集しようとすると、 [!UICONTROL クイックインサイト] パネルが同期されなくなります。 パネルの右上にある「 [!UICONTROL クイックインサイト]**** 」をクリックして、以前の設定に戻すことができます。
 
 ![](assets/qibuilder9.png)
 
