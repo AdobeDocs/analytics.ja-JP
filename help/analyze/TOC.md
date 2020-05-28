@@ -4,7 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 97%
 
 ---
 
@@ -76,15 +79,16 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [ツリーマップ](analysis-workspace/visualizations/treemap.md)
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
-      + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
-      + [クイックインサイトビルダー](analysis-workspace/c-panels/quickinsight.md)
-      + 属性{#attribution}
+      + [ターゲット用のAnalytics(A4T)パネル](analysis-workspace/c-panels/a4t-panel.md)
+      + Attribution panel {#attribution}
          + [アトリビューションの概要](analysis-workspace/c-panels/attribution/attribution.md)
          + [アトリビューションパネルの使用](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [アトリビューションに関する FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
          + [アルゴリズムアトリビューション](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
-      + セグメント比較{#segment-comparison}
+      + [クイックインサイトパネル](analysis-workspace/c-panels/quickinsight.md)
+      + Segment comparison panel {#segment-comparison}
          + [セグメント比較の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [セグメント比較の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -108,12 +112,12 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
          + [貢献度分析のトークン - 概要](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
          + [貢献度分析の実行](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
          + [貢献度分析で使用される統計的手法](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
-      + インテリジェントアラート{#intelligent-alerts}
+      + インテリジェントアラート {#intelligent-alerts}
          + [インテリジェントアラートの概要](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [アラートビルダー](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [アラートマネージャー](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [インテリジェントアラート - 使用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + Workspace FAQ {#workspace-faq}
+   + Workspace の FAQ {#workspace-faq}
       + [よくある質問](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
@@ -235,10 +239,10 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
 + Activity Map {#activity-map}
    + [Activity Map の概要](activity-map/activity-map.md)
    + はじめに {#getting-started}
-      + はじめに（管理者向け）{#get-started-admins}
+      + はじめに（管理者向け） {#get-started-admins}
          + [Activity Map の有効化](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
          + [実装コードのサンプル](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + はじめに（ユーザー向け）{#get-started-users}
+      + はじめに（ユーザー向け） {#get-started-users}
          + [Activity Map ブラウザープラグインのインストール](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Activity Map の起動](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [強力なリンクトラッキング](activity-map/lnk-tracking-overview.md)
@@ -329,10 +333,10 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [Labs の概要](tech-previews/overview.md)
 + Adobe Analyticsダッシュボード {#mobapp}
    + [Adobe Analyticsダッシュボード — 概要](mobile-app/home.md)
-   + [キュレータガイド](mobile-app/curator.md)
-   + [エグゼクティブユーザークイック開始ガイド](mobile-app/executive.md)
-+ プログレッシブWebアプリ {#pwa}
-   + [プログレッシブWebアプリ](pwa/pwa.md)
+   + [キュレーター向けガイド](mobile-app/curator.md)
+   + [エグゼクティブユーザー向けクイックスタートガイド](mobile-app/executive.md)
++ プログレッシブ Web アプリケーション {#pwa}
+   + [プログレッシブ Web アプリケーション](pwa/pwa.md)
 + Analytics レポート API {#analytics-reporting-api}
    + [Analytics レポート API の概要](c-reporting-api/c-reporting-api.md)
    + [Analytics レポート API の比較](c-reporting-api/api-comparison.md)
