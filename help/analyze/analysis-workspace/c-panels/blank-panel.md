@@ -1,9 +1,11 @@
 ---
 description: 'null'
 title: 空のパネル
-uuid: 3d25b221-59f5-4574-b06e-48f036f525aa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 100%
 
 ---
 
