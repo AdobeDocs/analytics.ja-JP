@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
    * トラッキングコードディメンションのデフォルトの分類。すべてのレポートスイートに対して自動的に作成されます。
    * Adobe Campaign は、Adobe Experience Cloud を構成するソリューションの 1 つです。詳しくは、[Adobe.com](https://www.adobe.com/jp/marketing/campaign.html) を参照してください。
 * **チャネル：**&#x200B;次を参照してください。
-   * チャネル変数。サイトセクションディメンションを入力します。See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
+   * チャネル変数。サイトセクションディメンションを入力します。実装ユーザーガイドの「[ページ変数](/help/implement/vars/page-vars/page-variables.md)」を参照してください。
    * マーケティングチャネルは、ユーザーがどのようにしてサイトに到達するかを理解するのに役立つコンポーネントです。コンポーネントユーザーガイドの「[マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
 * **分類：** Adobe Analytics の機能の 1 つで、ディメンション値のグループ化を可能にします。コンポーネントユーザーガイドの「[分類](/help/components/c-classifications2/c-classifications.md)」を参照してください。
 * **クリックマップ：**&#x200B;現在は使用されていません。サイト内でクリック数の最も多いリンクを示す従来のブラウザープラグイン。このツールは廃止され、Activity Map に変更されました。
