@@ -3,7 +3,7 @@ description: レポートに大量のユニーク値がある場合、発生頻�
 title: Adobe Analytics の低トラフィック値
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
