@@ -2,7 +2,7 @@
 description: 'null'
 title: Power BI への発行 - 概要
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -36,14 +36,14 @@ Adobe Report Builder との統合により、以下のことができるよう�
 **Report Builder でのワークブックの発行**
 
 1. Report Builder で、ワークブックを生成して保存します。
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Report Builder ツールバーで、**[!UICONTROL スケジュール]**／**[!UICONTROL 新規作成]**&#x200B;をクリックします。
 
-1. 基本スケジュールウィザードで、の横のチェックボックスをオンにしま **[!UICONTROL Publish Workbook to Microsoft Power BI]**&#x200B;す。
+1. 基本のスケジュールウィザードで、「**[!UICONTROL ワークブックを Microsoft Power BI に発行]**」の横にあるチェックボックスをオンにします。
 
    ![](assets/simple-schedule-wizard.png)
 
 1. 電子メールを指定してすぐに送信するか、スケジュールの頻度（毎時、毎日など）を指定します。
-1. Click **[!UICONTROL OK]** to publish.
+1. 「**[!UICONTROL OK]**」をクリックして発行します。
 1. Microsoft アカウントにログインするよう求められます。資格情報を入力します。
 1. Report Builder ワークブックがスケジュールされて Power BI に発行されます。
 
@@ -51,7 +51,7 @@ Adobe Report Builder との統合により、以下のことができるよう�
 
 **Power BI での Report Builder のワークブックデータの表示**
 
-1. In Power BI, double click the workbook under the [!UICONTROL Workbooks] menu.
+1. Power BI で、[!UICONTROL ワークブック]メニューの下に表示されるワークブックをダブルクリックします。
 
    ![](assets/workbooks-power-bi.png)
 
@@ -70,12 +70,12 @@ Adobe Report Builder との統合により、以下のことができるよう�
 **Report Builder でのフォーマット済みテーブルの発行**
 
 1. Report Builder で、ヘッダー行とそれに続くデータ行を含むデータテーブルを生成します。
-1. テーブルを選択し、メニュー **[!UICONTROL Format as Table]** からを選択 [!UICONTROL Home] します。 The table gets named by default (Table 1, Table 2, etc.), but you can change the name on the [!UICONTROL Design]menu.
+1. テーブルを選択し、[!UICONTROL ホーム]メニューから&#x200B;**[!UICONTROL テーブルとしてフォーマット]**&#x200B;を選択します。テーブルにはデフォルトで名前（テーブル 1、テーブル 2 など）が付けられますが、[!UICONTROL デザイン]メニューで名前を変更できます。
 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Report Builder ツールバーで、**[!UICONTROL スケジュール]**／**[!UICONTROL 新規作成]**&#x200B;をクリックします。
 
-1. 基本スケジュールウィザードで、をクリックしま **[!UICONTROL Advanced Scheduling Options]**&#x200B;す。
-1. のタブ [!UICONTROL Scheduling Wizard - Advanced]で、の横のボッ **[!UICONTROL Publishing Options]** クスをオンにします **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**。
+1. 基本のスケジュールウィザードで、**[!UICONTROL アドバンススケジュールオプション]**&#x200B;をクリックします。
+1. [!UICONTROL スケジュールウィザード - アドバンス]の「**[!UICONTROL 発行オプション]**」タブで「**[!UICONTROL すべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行]**」の横にあるチェックボックスをオンにします。
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -83,11 +83,11 @@ Adobe Report Builder との統合により、以下のことができるよう�
 
 **Power BI でのテーブルデータの表示**
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. Power BI で、**[!UICONTROL ワークスペース]**／**[!UICONTROL データセット]**&#x200B;メニューに移動します。
 
    ![](assets/datasets-menu.png)
 
-1. Select the dataset that you published and click the [!UICONTROL Create report] icon next to it. テーブルはフィールドとして表示されることに注意してください。
+1. 発行したデータセットを選択し、その横にある[!UICONTROL レポートの作成]アイコンをクリックします。テーブルはフィールドとして表示されることに注意してください。
 
    ![](assets/formatted-tables.png)
 
@@ -95,7 +95,7 @@ Adobe Report Builder との統合により、以下のことができるよう�
 
    ![](assets/view-table-dataset.png)
 
-1. From the [!UICONTROL Visualizations] menu, you can select how to visualize a table in Power BI. 例えば、データを折れ線グラフとして表示することができます。
+1. [!UICONTROL 視覚化]メニューから、Power BI でテーブルを視覚化する方法を選択できます。例えば、データを折れ線グラフとして表示することができます。
 
    ![](assets/bi-line-graph.png)
 
@@ -110,22 +110,22 @@ Adobe Report Builder との統合により、以下のことができるよう�
 >ワークブックに 100 を超えるリクエストが含まれている場合、Power BI に発行されるのは最初の 100 件のリクエストのみです。さらに、Power BI に発行された各リクエストでは、最初の 10,000 行のデータのみが発行されます。そのため、こうしたリクエストはスケジュールによって正常に配信されますが、Power BI への発行範囲は制限されます。
 
 1. Report Builder で、Report Builder リクエストを含むワークブックを開くか作成します。
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Report Builder ツールバーで、**[!UICONTROL スケジュール]**／**[!UICONTROL 新規作成]**&#x200B;をクリックします。
 
-1. 基本スケジュールウィザードで、をクリックしま **[!UICONTROL Advanced Scheduling Options]**&#x200B;す。
-1. のタブ [!UICONTROL Scheduling Wizard - Advanced]で、の横のボ **[!UICONTROL Publishing Options]** ックスをオンにします **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]**![](assets/advanced-schedule-wizard2.png)
+1. 基本のスケジュールウィザードで、**[!UICONTROL アドバンススケジュールオプション]**&#x200B;をクリックします。
+1. [!UICONTROL スケジュールウィザード - アドバンス]の「**[!UICONTROL 発行オプション]**」タブで「**[!UICONTROL すべての Report Builder リクエストを Power BI データセットテーブルとして発行]**」の横にあるチェックボックスをオンにします。![](assets/advanced-schedule-wizard2.png)
 
-1. クリック **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
 **Power BI でのリクエストデータの表示**
 
-スケジュールされた各 Report Builder リクエストは、データセット内のテーブルとして発行されます。Each request table is named after the primary dimension in the request and it has a [!UICONTROL Report Suite] and a [!UICONTROL Segments] column.
+スケジュールされた各 Report Builder リクエストは、データセット内のテーブルとして発行されます。各リクエストテーブルには、リクエストのプライマリディメンションに基づいた名前が付けられ、[!UICONTROL レポートスイート]列と[!UICONTROL セグメント]列があります。
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. Power BI で、**[!UICONTROL ワークスペース]**／**[!UICONTROL データセット]**&#x200B;メニューに移動します。
 
-1. Select the request that you published and click the [!UICONTROL Create report] icon next to it.
+1. 発行したリクエストを選択し、その横にある[!UICONTROL レポートの作成]アイコンをクリックします。
 
-   Notice that the requests appear as tables in the [!UICONTROL Fields] menu.
+   リクエストは、[!UICONTROL フィールド]メニューにテーブルとして表示されることに注意してください。
 
    ![](assets/published-requests.png)
 
@@ -133,7 +133,7 @@ Adobe Report Builder との統合により、以下のことができるよう�
    >
    >ワークシートで Report Builder リクエストのレイアウトをどのように設定しても（ピボットレイアウト、カスタムレイアウト、一部の列を非表示）、リクエストは同じ 2 次元の単一ヘッダー行形式（日付、ディメンション、指標、レポートスイート、セグメント）で常に発行されます。
 
-1. Also notice that there is an additional table called **[!UICONTROL Legend]**. Report Builder 以外でリクエストを利用する場合に、各リクエストが何を表しているのかわからなくなることがあります。凡例テーブルの目的は、例えば、テーブル ID の下に各リクエストの名前を表示することです。他の凡例列を追加して、リクエストの全体像を把握することもできます。
+1. **[!UICONTROL 凡例]**&#x200B;という追加のテーブルがあることにも注意してください。Report Builder 以外でリクエストを利用する場合に、各リクエストが何を表しているのかわからなくなることがあります。凡例テーブルの目的は、例えば、テーブル ID の下に各リクエストの名前を表示することです。他の凡例列を追加して、リクエストの全体像を把握することもできます。
 
    ![](assets/legend-table.png)
 
