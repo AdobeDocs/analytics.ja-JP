@@ -3,7 +3,10 @@ description: '詳細 '
 title: 指標タイプとアトリビューション
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 80%
 
 ---
 
@@ -11,10 +14,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 # 指標タイプとアトリビューション
 
 指標の横にある歯車アイコンをクリックすると、指標タイプとアトリビューションモデルを指定できます。
-
-* [指標タイプ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [列のアトリビューションモデル](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [2018 年 7 月 19 日以降の線形配分の適用方法](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## 指標タイプ
 
@@ -40,7 +39,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ## 線形配分の仕組み（2018年7月19日現在）
 
-2018 年 7 月に、Adobe での計算指標に関する線形配分のレポート方法が変更されました。この変更は、Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map およびレポート API に影響します。この変更は、主に永続性を持つeVarや他のディメンションに影響します。 これらの変更は計算指標にのみ適用され、線形配分を使用する他のレポート（Reports &amp; Analyticsのページレポートなど）には影響しません。 線形配分を使用する他のレポートについては、引き続き、既存の線形配分手法が利用されます。
+2018 年 7 月に、Adobe での計算指標に関する線形配分のレポート方法が変更されました。この変更は、Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map およびレポート API に影響します。この変更は、主に持続性を持つeVarや他のディメンションに影響します。 これらの変更は計算指標にのみ適用され、線形配分を使用する他のレポート（Reports &amp; Analyticsのページレポートなど）には影響しません。 線形配分を使用する他のレポートについては、引き続き、既存の線形配分手法が利用されます。
 
 次の例で、線形配分での計算指標のレポート時における変更内容について示します。
 
@@ -53,14 +52,14 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 この例では、ヒット 7 で $10 の購入が行われる前に、値 A、B、C がヒット 1、3、4、6 の変数に送信されました。2 番目の行では、ラストタッチでの訪問がベースとなり、ヒット全体に値が持続されています。3 番目の行では、ファーストタッチでの訪問が持続されていることがわかります。最後の行には、持続性のない prop に記録されるデータの内容が示されています。
 
-## Reports &amp; AnalyticsとWorkspaceの線形配分の違い
+## Reports &amp; AnalyticsとWorkspaceでの線形配分の動作の違い
 
-これらの2つのツール間で線形アトリビューションがどのように機能するかには、いくつかの違いがあります。
+この2つのツール間での線形アトリビューションの動作には、いくつかの違いがあります。
 
-* Reports &amp; Analyticsでは、（処理された）線形アトリビューションは常に訪問ベースですが、Workspaceでは訪問ベースまたは訪問者ベースです。
-* Reports &amp; Analyticsでは、訪問の最初のヒット時に値が渡されなかった場合、（初期値）は以前の訪問から保持されます。 これは、Workspace（アトリビューションIQ）では該当しません。 訪問の最初のヒット時に値が渡されない場合、「なし」が初期値になります。
+* Reports &amp; Analyticsでは、（処理された）線形アトリビューションは常に訪問ベースですが、Workspaceでは訪問ベースと訪問者ベースのどちらでもかまいません。
+* Reports &amp; Analyticsでは、訪問の最初のヒットで値が渡されなかった場合、（初期）値は以前の訪問から保持されます。 Workspace（アトリビューションIQ）では、このような状況にはなりません。 訪問の最初のヒットで値が渡されない場合、「なし」が初期値になります。
 
-## 2018年7月より前の線形配分の仕組み
+## 2018年7月より前の線形配分の動作方法
 
 2018 年 7 月 19 日以前は、線形アトリビューションは、ファーストタッチまたはラストタッチの持続性が生じた後に計算されました。つまり、上のラストタッチの eVar の場合、$10 は、A = 10 *（3/6） = $5、B = 10 *（2/6） = $3.33、C = 10 *（1/6） = $1.67 のように配分されていました。
 
