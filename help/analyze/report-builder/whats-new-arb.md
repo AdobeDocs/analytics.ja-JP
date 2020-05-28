@@ -2,7 +2,7 @@
 description: 現在および以前のリリースとその機能を列挙します。
 title: Report Builder の新機能
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -32,7 +32,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 ## Report Builder 5.4 {#rb-5-4-section}
 
-* **複数のリクエストにわたるセグメントの管理と編集が改善されました。** の新しいオプシ [!UICONTROL Edit Multiple Requests] ョンを使用すると、複数のターゲットリクエスト内のすべてのセグメントを追加、削除、置換および置換できます。 [詳細情報...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **複数のリクエストにわたるセグメントの管理と編集が改善されました。**「[!UICONTROL Edit Multiple Requests]」の新しいオプションにより、複数のターゲットリクエストでセグメントの追加、削除、置換、全置換をおこなうことができます。[詳細情報...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **Adobe Report Builder コミュニティへの新しいリンク**&#x200B;ヘルプの下の新しい Adobe コミュニティリンクにより、検索で Report Builder の問題に絞り込まれた Adobe コミュニティフォーラムにアクセスできます。Adobe コミュニティは、他の Report Builder ユーザーにアプリケーションに関する質問をしたり、ベストプラクティスを共有したりするための優れた手段です。
 
@@ -46,13 +46,13 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 * [仮想レポートスイート](https://docs.adobe.com/help/ja-JP/analytics/components/virtual-report-suites/vrs-about.html)
 * [Analytics の Experience Cloud オーディエンス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
-* [AEM Assets レポート](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
+* [AEM Assets レポート](https://docs.adobe.com/content/help/ja-JP/analytics/integration/aem-assets-reporting.html)
 
 ## Report Builder 5.2 {#rb-5-2-section}
 
 * **計算指標** Report Builder 5.2 では、Adobe Analytics [Unified Calculated Metrics](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md) がサポートされています。これにより、すべての計算指標にグローバル ID が付けられ、複数のレポートスイートで使用することができるようになりました。
 
-* **強化されたレポートと指標の検索** Adobe Analytics の [eVar およびイベント](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html)が追加されたのに伴い、Adobe Report Builder で提供されるレポートと指標の数が大幅に増えています。検索を容易にするために、リクエストウィザードに新しい検索バーが 2 つ追加されました。1 つは[レポートの検索](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)で、もう 1 つが[指標](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)です。
+* **強化されたレポートと指標の検索** Adobe Analytics の [eVar およびイベント](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/events/event-serialization.html)が追加されたのに伴い、Adobe Report Builder で提供されるレポートと指標の数が大幅に増えています。検索を容易にするために、リクエストウィザードに新しい検索バーが 2 つ追加されました。1 つは[レポートの検索](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)で、もう 1 つが[指標](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)です。
 
 * **顧客属性**&#x200B;顧客属性は、VisAttr という名前の新たなタイプの要素に保存されます。これはディメンションまたは指標として選択できます。顧客属性をアップロードする方法について詳しくは、「[Experience Cloud ヘルプ](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)」を参照してください。
 
