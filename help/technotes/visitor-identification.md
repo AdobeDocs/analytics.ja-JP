@@ -5,7 +5,7 @@ subtopic: Visitors
 title: 個別訪問者数の識別
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -37,16 +37,16 @@ s.visitorID 変数を設定して訪問者を識別するためのカスタム�
 
 カスタム訪問者 ID は、訪問者を固有の方法で識別するサイトで使用できます。例えば、ユーザーがユーザー名とパスワードを使用して Web サイトにログインする際に生成される ID は、カスタム訪問者 ID です。
 
-Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of your users, you can use the following methods to set the ID:
+ユーザーの[!UICONTROL 訪問者 ID] を取得および管理できる場合は、次の方法を使用して ID を設定できます。
 
 | メソッド | 説明 |
 |---|---|
 | [s.visitorID](../implement/vars/config-vars/visitorid.md) 変数 | ブラウザーで JavaScript が使用されている場合または他の AppMeasurement ライブラリを使用している場合は、訪問者 ID をデータ収集変数に設定できます。 |
-| イメージリクエスト上のクエリ文字列パラメーター | This lets you pass the [!UICONTROL visitor ID] to Adobe via the [!UICONTROL vid query string] parameter on a hard-coded image request. |
+| イメージリクエスト上のクエリ文字列パラメーター | これにより、ハードコードされたイメージリクエスト上の [!UICONTROL vid クエリ文字列]パラメーターを使用して、[!UICONTROL 訪問者 ID] をアドビに送信できます。 |
 | Data Insertion API | JavaScript を受け付けないワイヤレスプロトコルを使用するデバイスでは、お使いのサーバーからアドビの収集サーバーに、`<visitorid/>` XML 要素を含む XML ポストを送信できます。 |
 | URL の書き直しおよび VISTA | 一部の導入アーキテクチャでは、cookie を設定できない場合に URL の書き直しによってセッションの状態を維持する機能をサポートしています。このような場合、アドビのエンジニアリングサービスで [!DNL VISTA] ルールを導入できます。このルールでは、ページの URL 内のセッション値を検索し、整形して、[!UICONTROL visid] の各値に配置します。 |
 >[!CAUTION]
->**カスタム訪問者 ID には十分な粒度と一意性が必要&#x200B;**： カスタム訪問者 ID の実装が無効だと、データが不正確になったり、レポートのパフォーマンスが低下する可能性があります。カスタム訪問者 ID が十分な一意性と粒度を備えていない、または共通のデフォルト値（文字列「NULL」や「0」など）に誤って設定されている場合、Adobe Analytics では、多くの異なる訪問者からのヒットが 1 人の訪問者として表示されます。この状況は、データが不正確になる、訪問者のカウントが少なすぎる、その訪問者に対してセグメントが正しく機能しないなどの結果につながります。また、粒度が不十分なカスタム訪問者 ID を使用すると、Analytics レポートクラスターのノード間でデータが分散されなくなります。この場合、1 つのノードが過負荷になり、レポート要求をタイムリーに処理できなくなります。最終的には、そのレポートスイートに関するすべてのレポートが失敗します。<br>Analytics は数ヶ月分の不均衡なデータを処理できることが多いので、カスタム訪問者 ID が適切に実装されていなくても、レポートのパフォーマンスには直ちに影響しない可能性があります。ただし、時間の経過と共に、適切に実装されていないカスタム訪問者 ID の値が問題となり、影響を受けるレポートスイートの処理を Analytics で無効にする必要が生じる可能性があります。</br><br>実装者は、単一のカスタム訪問者 ID 値を、レポートスイートのトラフィックの 1％以上に対して与えないというガイドラインに従う必要があります。ほとんどのレポートスイートでは 1％のガイドラインで十分ですが、非常に大きなレポートスイートでは、レポートのパフォーマンスに影響を与える可能性がある実際の制限が 1％未満となる場合があります。</br>
+>**カスタム訪問者 ID には十分な粒度と一意性が必要：** カスタム訪問者 ID の実装が無効だと、データが不正確になったり、レポートのパフォーマンスが低下する可能性があります。カスタム訪問者 ID が十分な一意性と粒度を備えていない、または共通のデフォルト値（文字列「NULL」や「0」など）に誤って設定されている場合、Adobe Analytics では、多くの異なる訪問者からのヒットが 1 人の訪問者として表示されます。この状況は、データが不正確になる、訪問者のカウントが少なすぎる、その訪問者に対してセグメントが正しく機能しないなどの結果につながります。また、粒度が不十分なカスタム訪問者 ID を使用すると、Analytics レポートクラスターのノード間でデータが分散されなくなります。この場合、1 つのノードが過負荷になり、レポート要求をタイムリーに処理できなくなります。最終的には、そのレポートスイートに関するすべてのレポートが失敗します。<br>Analytics は数ヶ月分の不均衡なデータを処理できることが多いので、カスタム訪問者 ID が適切に実装されていなくても、レポートのパフォーマンスには直ちに影響しない可能性があります。ただし、時間の経過と共に、適切に実装されていないカスタム訪問者 ID の値が問題となり、影響を受けるレポートスイートの処理を Analytics で無効にする必要が生じる可能性があります。</br><br>実装者は、単一のカスタム訪問者 ID 値を、レポートスイートのトラフィックの 1％以上に対して与えないというガイドラインに従う必要があります。ほとんどのレポートスイートでは 1％のガイドラインで十分ですが、非常に大きなレポートスイートでは、レポートのパフォーマンスに影響を与える可能性がある実際の制限が 1％未満となる場合があります。</br>
 
 ## Analytics 訪問者 ID
 
@@ -54,19 +54,19 @@ Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of
 
 リクエストがアドビのデータ収集サーバーに送信されると、ヘッダーで訪問者 ID cookie（`s_vi`）の有無がチェックされます。この Cookie がリクエストに含まれている場合、この Cookie を使用して訪問者が識別されます。この cookie がリクエストに含まれていない場合、サーバーは一意の訪問者 ID を生成し、それを HTTP 応答ヘッダー内に cookie として設定した後、リクエストとともに返送します。この cookie はブラウザーに保存され、以後にサイトを訪問したときにデータ収集サーバーに渡されます。これにより、以後の訪問時にその訪問者を識別できるようになります。
 
-### サードパーティ cookie と CNAME レコード {#section_61BA46E131004BB2B75929C1E1C93139}
+### サードパーティ cookie と CNAME レコード{#section_61BA46E131004BB2B75929C1E1C93139}
 
 Apple Safari などのブラウザーによっては、現在の Web サイトのドメインと一致しないドメインから HTTP ヘッダーに設定される cookie については保存しないものもあります。例えば、`mysite.com` を表示しているとき、データ収集サーバーが `mysite.omtrdc.net` である場合は、`mysite.omtrdc.net` からの HTTP ヘッダーで返された Cookie はブラウザーによって拒否される可能性があります。
 
 この問題を回避するために、多くのお客様は[ファーストパーティ cookie を導入する](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html)中で、データ収集サーバーの CNAME レコードを導入しています。お客様のドメインのホスト名をデータ収集サーバーにマッピングするように CNAME レコードを設定すると（例えば、`metrics.mysite.com` を `mysite.omtrdc.net` にマッピングする）、データ収集ドメインは Web サイトのドメインと一致するので、訪問者 ID cookie が保存されます。これによって訪問者 ID cookie が保存される可能性が高まりますが、CNAME レコードを設定し、データ収集サーバーの SSL 証明書を保持する必要があるので、ある程度のオーバーヘッドが生じます。
 
-### モバイルデバイスの cookie {#section_7D05AE259E024F73A95C48BD1E419851}
+### モバイルデバイスの cookie{#section_7D05AE259E024F73A95C48BD1E419851}
 
 cookie を使用してモバイルデバイスをトラッキングする場合、測定の実施方法を変更するために使用できる設定がいくつかあります。cookie の有効期間はデフォルトで 5 年ですが、CL クエリパラメーター変数（`s.cookieLifetime`）を使用してデフォルト設定を変更できます。CNAME 実装での cookie の場所を設定するには、CDP クエリ文字列 `s.cookieDomainPeriods` を使用します。値を指定しない場合のデフォルト値は 2 です。デフォルトの場所は domain.com です。CNAME を使用しない実装では、訪問者 ID cookie の場所は 207.net ドメインになります。
 
 ## ID サービス
 
-The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
+ID サービスは、従来の Analytics 訪問者 ID メカニズムに代わるものであり、[!UICONTROL ハートビート]ビデオ指標、Target と Analytics の統合および今後の Experience Cloud コアサービスと統合で必須となる機能です。
 
 このサービスに関する製品ドキュメントについては「[ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)」を参照してください。
 
@@ -76,7 +76,7 @@ The Identity Service replaces the legacy Analytics visitor ID mechanism, and is 
 
 アドビでは、ほとんどのモバイルデバイスを一意に識別する様々な HTTP 加入者 ID ヘッダーを識別しています。これらのヘッダーには、デバイスの電話番号（または電話番号をハッシュ化したもの）やその他の識別子が含まれます。現在のほとんどのデバイスには、デバイスを一意に識別する 1 つ以上のヘッダーがあり、アドビのすべてのデータ収集サーバーでは、訪問者 ID の代わりにこれらのヘッダーが自動的に使用されます。
 
-In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). ただし、デバイスが HTTP ヘッダーに基づいてモバイルデバイスとして認識される場合は、「1」の代わりに「5」が渡されます。これは、wbmp 形式のイメージを返す必要があることと、認識済みのワイヤレスヘッダーのリスト（cookie ではない）を使用してデバイスを識別する必要があることを示します。
+一般的なイメージリクエストでは、パス（`/b/ss/rsid/1`/）内の「1」は、アドビサーバーに対して、gif イメージを返し、持続的な[!UICONTROL 訪問者 ID] cookie（`AMCV_` または `s_vi`）の設定を試行するように命令します。ただし、デバイスが HTTP ヘッダーに基づいてモバイルデバイスとして認識される場合は、「1」の代わりに「5」が渡されます。これは、wbmp 形式のイメージを返す必要があることと、認識済みのワイヤレスヘッダーのリスト（cookie ではない）を使用してデバイスを識別する必要があることを示します。
 
 次の表に、パス内の返されるイメージタイプ値（「1」または「5」）に基づいて使用される ID メソッドの順序を示します。
 
@@ -113,7 +113,7 @@ In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes A
 
 また、「1」または「5」はイメージリクエストに手動で渡すこともできますが、これらのコードは相互に排他的なので、常に「5」を渡すと、cookie がサポートされていても利用されません。デバイスが cookie をサポートしているかを判定できる独自のメカニズムを組み込んで、cookie をサポートしている場合にイメージ内で「5」ではなく「1」を渡すことができます。この状況で改善される精度は、cookie をサポートするモバイルデバイスの数に限られます。
 
-### 加入者 ID ヘッダー {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
+### 加入者 ID ヘッダー{#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
 cookie には cookie の削除、cookie の承認、ゲートウェイ cookie 管理などに関する問題があるので、一般的に訪問者 ID は cookie よりも信頼性の高いユーザー識別方法です。
 
@@ -145,13 +145,13 @@ cookie には cookie の削除、cookie の承認、ゲートウェイ cookie �
 
 例えば、「callinglineid」は、「X-Up-Calling-Line-ID」および「nokia-callinglineid」に一致します。ヘッダータイプは、ヘッダーの内容を示します。ヘッダーの優先順位はこの表の並びのとおりです（「callinglineid」ヘッダーが存在する場合、そのヘッダーが「subno」の代わりに使用されます）。
 
-次を使用できます。[動的変数](../implement/vars/page-vars/dynamic-variables.md)を使用すると、ヘッダーから特定の値を抽出できます。
+[動的変数](../implement/vars/page-vars/dynamic-variables.md)を使用すると、ヘッダーから特定の値を抽出できます。
 
 ## フォールバック ID による方法
 
 訪問者 ID による他の方法が失敗した場合、アドビでは、フォールバック cookie を設定するか、IP アドレスとユーザーエージェントの組み合わせを使用して訪問者を識別します。
 
-### フォールバック訪問者の識別方法 {#section_2BA15E4FA6034C3EBF43859406343EB6}
+### フォールバック訪問者の識別方法{#section_2BA15E4FA6034C3EBF43859406343EB6}
 
 JavaScript 1.x 版 AppMeasurement と JavaScript H.25.3（2013 年 1 月リリース）以降のバージョンは、アドビのデータ収集サーバーによって設定される cookie（`s_vi`）をブロックするブラウザーを使用している訪問者を対象とした、新しいフォールバック訪問者の識別方法を備えています。以前は、cookie を設定できない場合、データ収集時に IP アドレスとユーザーエージェント文字列の組み合わせを使用して訪問者を識別していました。
 
@@ -161,4 +161,4 @@ JavaScript 1.x 版 AppMeasurement と JavaScript H.25.3（2013 年 1 月リリ�
 
 ### IP アドレス、ユーザーエージェント、ゲートウェイ IP アドレス {#section_104819D74C594ECE879144FCC5DEF4BF}
 
- の呼び出しの後におこなわれる場合です。`AMCV_` または `s_vi`、`s_fid` のいずれの cookie も設定できない場合、訪問者は IP アドレスとユーザーエージェントの組み合わせによって識別されます。
+ `AMCV_` または `s_vi`、`s_fid` のいずれの cookie も設定できない場合、訪問者は IP アドレスとユーザーエージェントの組み合わせによって識別されます。
