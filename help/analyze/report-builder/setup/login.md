@@ -3,7 +3,7 @@ description: Report Builder への 3 種類のログイン方法に関する情�
 title: Report Builder へのログイン
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Report Builder への 3 種類のログイン方法に関する情報です。
 
-Currently, the following login options are available when you click **[!UICONTROL Sign In]** to Report Builder.
+現在、Report Builder の「**[!UICONTROL ログイン]**」をクリックしたときに使用できるログインオプションは次のとおりです。
 
 ![](assets/login_screen.png)
 
@@ -32,7 +32,7 @@ Adobe Analytics の資格情報を使用して Report Builder にログインす
 | 会社名 | Adobe Analytics でログイン資格情報として使用する会社名。 |
 | ユーザー名 | Adobe Analytics でログインに使用するユーザー名。ユーザー名には、スケジュールされたタスクが関連付けられています。同じログイン情報で Report Builder にログインすると、スケジュールされたタスクがどのコンピューター上でも表示されます。 |
 | パスワード | Analytics のパスワード。 |
-| このアカウントを記憶する | ログイン情報が暗号化され、Report Builder がインストールされたコンピューター上のユーザープロファイル用のファイルに保存されます。ログイン情報が保存されるので、レポートの作成者と同じ PC を使用してレポートを含むスプレッドシートを開く場合は誰でもデータの更新と編集ができます。他のユーザーとコンピューターを共有している場合に、スプレッドシートのデータが他のユーザーによって更新されるのを防ぐには、このオプションを無効にしておいてください。自動ログイン設定を無効にするには、ツールバーの **[!UICONTROL Log in With Different Credentials]** をクリックし、無効にしま **[!UICONTROL Remember Me]**&#x200B;す。 |
+| このアカウントを記憶する | ログイン情報が暗号化され、Report Builder がインストールされたコンピューター上のユーザープロファイル用のファイルに保存されます。ログイン情報が保存されるので、レポートの作成者と同じ PC を使用してレポートを含むスプレッドシートを開く場合は誰でもデータの更新と編集ができます。他のユーザーとコンピューターを共有している場合に、スプレッドシートのデータが他のユーザーによって更新されるのを防ぐには、このオプションを無効にしておいてください。自動ログイン設定を無効にするには、ツールバーの「**[!UICONTROL 別の資格情報を使用してログインする]**」をクリックし、「**[!UICONTROL このアカウントを記憶する]**」を無効にします。 |
 | プロキシサーバーを使用 | プロキシサーバーを経由してインターネットにアクセスしていて、プロキシ用のユーザー名とパスワードが必要な場合に、有効にします。 |
 
 ## シングルサインオン {#section_6970A5F926774976B85FFE576610E85F}
@@ -43,7 +43,7 @@ Adobe Analytics の資格情報を使用して Report Builder にログインす
 
 ## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-Experience Cloud ログインを使用すると、Enterprise ID（電子メールとパスワード）を使用して Adobe Experience Cloud にログインできます。>をクリッ **[!UICONTROL Sign In]** クし **[!UICONTROL Sign in with an Enterprise ID]** て、会社のシングルサインオンページにリダイレクトされます。 Enterprise ID について詳しくは、[ここ](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html#whatis)をクリックしてください。
+Experience Cloud ログインを使用すると、Enterprise ID（電子メールとパスワード）を使用して Adobe Experience Cloud にログインできます。**[!UICONTROL ログイン]**／**[!UICONTROL Enterprise ID を使用してログイン]**&#x200B;をクリックして、会社のシングルサインオンページに移動します。Enterprise ID について詳しくは、[ここ](https://helpx.adobe.com/jp/enterprise/kb/enterprise-id-faq.html#whatis)をクリックしてください。
 
 ![](assets/adobe_id_login.png)
 
