@@ -3,7 +3,7 @@ description: Report Builder の配信を最適化する方法や、時々発生�
 title: Report Builder のトラブルシューティングとベストプラクティス
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -96,9 +96,9 @@ Excel のシート名にアポストロフィまたは一重引用符がある�
 
 いずれの予定レポートも、4 時間後にタイムアウトになります。システムでその後 3 回スケジュールが試行されると、エラーが発生する可能性があります（通常、データセットが大きいほど実行時間が長くなります）。予定レポートは [!DNL Analytics] レポートおよび Report Builder の次の場所で表示できます。
 
-* [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
+* [!DNL Analytics]：**[!UICONTROL Favorites]**／**[!UICONTROL Scheduled Reports]**
 
-* Report Builder: Click **[!UICONTROL Management]** in the [!UICONTROL Add-ins] tab in Excel.
+* Report Builder：Excel の「[!UICONTROL Add-ins]」タブで「**[!UICONTROL Management]**」をクリックします。
 
 ## エラーメッセージの説明 {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -110,15 +110,15 @@ Report Builder の使用中に表示されることのあるエラーメッセ�
 
 Excel でワークブック（スプレッドシート文書）が開かれていない状態で、Report Builder ツールバーのアイコンのいずれかをクリックすると、このメッセージが表示されます。また、スプレッドシートを開くまではツールバーは無効になります。ただし、オンラインヘルプアイコンはクリックできます。その場合はこのエラーが発生せずに、ツールバーは有効な状態のままになります。
 
-**をアクティブ化する前に、を終了[!UICONTROL Request Wizard]する必要がありま[!UICONTROL Request Manager]す。**
+**[!UICONTROL Request Manager] をアクティブ化する前に、[!UICONTROL Request Wizard] を終了する必要があります。**
 
-とは機能的に [!UICONTROL Request Manager] リンクさ [!UICONTROL Request Wizard] れていますが、で行われた操作を完了またはキャンセルする前に、での作業を [!UICONTROL Request Manager] 開始することはできません [!UICONTROL Request Wizard]。
+[!UICONTROL Request Manager] と [!UICONTROL Request Wizard] は機能的にリンクされていますが、[!UICONTROL Request Wizard] での操作を完了またはキャンセルする前に、[!UICONTROL Request Manager] での操作を開始することはできません 。
 
 **この範囲に関連付けられているリクエストはありません。**
 
-This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
+スプレッドシートのセルにリクエストが含まれていないときに [!UICONTROL Request Manager] の「[!UICONTROL From Sheet]」ボタンをクリックすると、このエラーメッセージが表示されます。
 
-To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. リクエストがセルと関連付けられている場合、そのセルが強調表示されます。
+スプレッドシート内でリクエストが含まれるセルを特定するには、[!UICONTROL Request Manager] 内のテーブルに表示される個々のリクエストをクリックします。リクエストがセルと関連付けられている場合、そのセルが強調表示されます。
 
 **選択されている範囲が無効です。**&#x200B;別の範囲を選択してください。
 
@@ -128,12 +128,12 @@ To identify which cells in the spreadsheet contain requests, click individual re
 
 **この機能を使用する前に Excel のセルの編集を終了してください。**
 
-Excel のセルが&#x200B;*編集モード*&#x200B;の場合に Report Builder のいずれかのアイコンをクリックすると、このエラーメッセージが表示されます。Excel のセルの編集モードとは、セルが選択され、カーソルがセル内部に表示されている状態です。You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
+Excel のセルが&#x200B;*編集モード*&#x200B;の場合に Report Builder のいずれかのアイコンをクリックすると、このエラーメッセージが表示されます。Excel のセルの編集モードとは、セルが選択され、カーソルがセル内部に表示されている状態です。また、Excel の上部の [!UICONTROL Formula] バーや [!UICONTROL Name Box] に直接入力しているときにも、Excel のセルの編集モードの状態になっています。
 
 **選択した範囲は別のリクエストの範囲と交差します。**&#x200B;選択を変更してください。
 
 セルをリクエストに既にマッピングしている場合に、このエラーが表示されます。
 
-One way to determine which cells are mapped before adding new requests is to close the [!UICONTROL Request Wizard] and open the [!UICONTROL Request Manager]. その後、表に表示されたリクエストを 1 つずつクリックすると、スプレッドシート内のリクエストのマッピングと対応するセルが強調表示されます。
+新しいリクエストを追加する前に、マッピングされているセルを把握する方法として、[!UICONTROL Request Wizard] を閉じて [!UICONTROL Request Manager] を開きます。その後、表に表示されたリクエストを 1 つずつクリックすると、スプレッドシート内のリクエストのマッピングと対応するセルが強調表示されます。
 
 複数のセルを複数の領域にマッピングする際には、事前に強調表示、行や列への情報の付加または書式スタイルの設定によって、セルにマークを付けておくことをお勧めします。
