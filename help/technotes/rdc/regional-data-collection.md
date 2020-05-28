@@ -1,7 +1,7 @@
 ---
 title: 地域データ収集
 description: 地域データ収集に関する情報
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 
 ---
