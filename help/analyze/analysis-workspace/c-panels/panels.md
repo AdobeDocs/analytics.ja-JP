@@ -1,18 +1,20 @@
 ---
 description: 'null'
 title: パネルの概要
-uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 87%
 
 ---
 
 
 # パネルの概要
 
-パネルは、テーブルとビジュアライゼーションのコレクションです。Workspace の左上にあるアイコンからパネルへアクセスできます。期間、ビジネス単位、地理などによってプロジェクトを組み立てたい場合、パネルが役立ちます。Analysis Workspace では、空のパネル、アトリビューション、フリーフォームパネル、セグメント比較の 4 種類のパネルが利用できます。
+パネルは、テーブルとビジュアライゼーションのコレクションです。Workspace の左上にあるアイコンからパネルへアクセスできます。期間、ビジネス単位、地理などによってプロジェクトを組み立てたい場合、パネルが役立ちます。以下の6種類のパネルを分析ワークスペースで使用できます。 [空のパネル](/help/analyze/analysis-workspace/c-panels/blank-panel.md)、クイックパネル [（近日公開）、](/help/analyze/analysis-workspace/c-panels/quickinsight.md) Analyticsターゲットパネル [（近日公開）、](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) Analytics属性パネル [（近日公開）、Insights Attributionパネル](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)Insights Freeform、Insights Freeform、Segment Comparision Panel [](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)[](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)。
 
-空のパネルとフリーフォームパネルは、分析を開始する場所で、他方 Attribution IQ とセグメント比較は、より高度な分析に役立ちます。「+」パネルボタンを追加したので、空のパネルをいつでも追加できます。
+クイックインサイト、空白、フリーフォームパネルは、分析を開始するのに最適な場所です。一方、Analytics forターゲット、アトリビューションIQ、セグメント比較は、より高度な分析に適しています。 「+」パネルボタンを追加したので、空のパネルをいつでも追加できます。
 
 デフォルトの開始パネルはフリーフォームパネルですが、[空のパネル](/help/analyze/analysis-workspace/c-panels/blank-panel.md)をデフォルトにすることも可能です。
 
@@ -43,7 +45,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/dropdown.png)
 
-1. ドロップダウンからオプションの 1 つを選択して、下のパネルのデータを変更します(You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
+1. ドロップダウンからオプションの 1 つを選択して、下のパネルのデータを変更します（「**[!UICONTROL フィルターなし]**」を選択することで、どのパネルデータをフィルターしないことも選べます）。
 1. 例えば、マーケティングチャネルによってデータのスライスもしたい場合、「マーケティングチャネル」と呼ばれる別のドロップダウンを追加することができます。
 
    ![](assets/mc_dropdown.png)
