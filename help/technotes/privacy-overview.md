@@ -3,7 +3,7 @@ description: Adobe Analytics が収集するデータの概要とプライバシ
 keywords: privacy
 title: プライバシーの概要
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -49,7 +49,7 @@ Adobe Analytics は次のデータを収集します。
 
 * アドビの顧客が IP の削除を選択していない場合に限ります。
 
-## プライバシーに関する他の考慮事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## プライバシーに関する他の考慮事項{#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -89,7 +89,7 @@ Adobe Analytics は次のデータを収集します。
   </tr> 
   <tr> 
    <td colname="col1"> ヨーロッパ </td> 
-   <td colname="col2"> アドビは、EMEA でレポートスイートを設定しているすべての顧客に対して、デフォルトで「IP の不明化（IP Obfuscation）」を「有効 - IP 削除（x.x.x.x）」に設定しています。この設定を使用すると、IP アドレスは、地域ルックアップ後の値（x.x.x.x）に完全に置き換えられ、以後、データポイントとして使用できません。 <p>この基本的な置き換え方法は、一意の特定の IP アドレスにリバースエンジニアリングできません。IP アドレスは不可逆的に不明化されており、顧客もアドビもアクセスできません。IP の不明化の他の設定について詳しくは、 </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> アドビは、EMEA でレポートスイートを設定しているすべての顧客に対して、デフォルトで「IP の不明化（IP Obfuscation）」を「有効 - IP 削除（x.x.x.x）」に設定しています。この設定を使用すると、IP アドレスは、地域ルックアップ後の値（x.x.x.x）に完全に置き換えられ、以後、データポイントとして使用できません。 <p>この基本的な置き換え方法は、一意の特定の IP アドレスにリバースエンジニアリングできません。IP アドレスは不可逆的に不明化されており、顧客もアドビもアクセスできません。IP の不明化の他の設定について詳しくは、 </p> <p> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/landing/home.html#General_Account_Settings"  >https://docs.adobe.com/content/help/ja-JP/analytics/landing/home.html#General_Account_Settings</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> グローバル </td> 
@@ -106,7 +106,7 @@ Adobe Analytics は次のデータを収集します。
  </tbody> 
 </table>
 
-## EMEA データセンターの所在地 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA データセンターの所在地{#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 現在、Adobe Analytics データは、次の EMEA データセンターでホストされています。
 
@@ -126,7 +126,7 @@ Adobe Analytics は次のデータを収集します。
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>The Netherlands </p> </td> 
    <td colname="col3"> <p>コロケーション施設 </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>マルチチャネル分析 </p> <p>デジタル分析 </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.co.jp/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
