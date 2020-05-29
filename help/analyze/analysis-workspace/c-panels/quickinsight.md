@@ -2,7 +2,7 @@
 description: クイックインサイトは、新しいWorkspaceユーザーを導くツールで、データテーブルやビジュアライゼーションの作成に使用します
 title: クイックインサイトパネル
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: 04a91d3ba2778336a8f32c99604b32d440e41674
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL クイックインサイト]** は現在制限付きのテスト中です。 [詳細情報...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL クイックインサイト]** は現在制限付きのテスト中です。 [詳細情報](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL クイックインサイト] (Quick Insights [!UICONTROL )では、] 分析ワークスペースのアナリストでないユーザーおよび新しいユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。 また、テーブルを自分で作ることなく、簡単な質問にすばやく答えたいと考える上級ユーザーにとっても優れたツールです。
 
@@ -91,7 +91,7 @@ ht-degree: 2%
 
    ![](assets/qibuilder6.png)
 
-* **その他の追加セグメント**: ANDまたはOR演算子を使用してテーブルに追加することで、最大2つのセグメントを追加できます。 モバイル訪問者または常連ユーザーを追加した場合の表の動作を確認します。 指標の上で、お互いに隣り合っています。 モバイル訪問者と常連ユーザーを追加すると、両方のセグメントの結果が一緒に表示され、表内で各セグメントが重ねて表示されます。
+* **その他の追加セグメント**: ANDまたはOR演算子を使用してテーブルに追加することで、最大2つのセグメントを追加できます。 モバイル訪問者または常連ユーザーを追加すると、表がどうなるかを見てみましょう。 指標の上で、お互いに隣り合っています。 モバイル訪問者と常連ユーザーを追加すると、両方のセグメントの結果が一緒に表示され、表内で各セグメントが重ねて表示されます。
 
    ![](assets/qibuilder7.png)
 
