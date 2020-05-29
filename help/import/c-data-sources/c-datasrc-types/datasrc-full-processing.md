@@ -5,12 +5,17 @@ title: フル処理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 93%
 
 ---
 
 
 # フル処理
+
+>[!NOTE] フル処理のデータソースではなく、 [Bulk Data Insertion API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) を使用することをお勧めします。 フル処理データソースは、今後非推奨となります。
 
 データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 
@@ -64,7 +69,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
+   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
