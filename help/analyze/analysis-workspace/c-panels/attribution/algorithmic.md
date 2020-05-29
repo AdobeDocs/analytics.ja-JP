@@ -2,17 +2,19 @@
 title: アルゴリズムアトリビューション
 description: Adobe Analyticsのアルゴリズムアトリビューションモデルについて詳しく説明します。
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: 5c5e442face936ccf1ff2a3d1580e362d42e0acb
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
 
 # アルゴリズムアトリビューション
 
->[!NOTE] アルゴリズムアトリビューションは、現在、テストに制限があります。
+>[!IMPORTANT]
+>
+>**[!UICONTROL アルゴリズムのアトリビューション]** は、現在、制限付きのテスト中です。 [詳細情報](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 分析ワークスペースのアルゴリズム [アトリビューションモデル](attribution.md) は、統計的な手法を使用して、レポートまたはフリーフォームテーブルのディメンション値にクレジットを割り当てるという点で、他のモデルとは異なります。 分析ワークスペースの他のアトリビューションモデルと同様に、任意のディメンションまたは指標で使用でき、無制限のセグメント化と分類をサポートし、コンバージョンの100%をテーブルのディメンション（「分数」アトリビューションとも呼ばれます）に分配します。
 
