@@ -2,9 +2,9 @@
 description: 分析ワークスペースのアクセシビリティサポート機能
 title: 分析ワークスペースでのアクセシビリティ
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '521'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ Adobe Analyticsの主要な分析ツールである [!UICONTROL 分析ワーク�
 
 アクセシビリティとは、視覚、聴覚、モーターなどの障害を持つユーザーに対して、製品を使用できるようにすることです。 ソフトウェア製品のアクセシビリティ機能の例としては、スクリーンリーダーのサポート、グラフィックの代替テキスト、キーボードショートカット、表示色のコントラストの大きさの変更などがあります。
 
-[!UICONTROL 分析ワークスペース] には、使用しやすいツールや、アクセシブルなコンテンツを作成するのに役立つツールが用意されています。
+[!UICONTROL 分析ワークスペース] には、次のような、使用しやすいツールが用意されています。
 
 ## キーボードを使用した [!UICONTROL Workspaceの操作]
 
@@ -60,7 +60,7 @@ Adobe Analyticsの主要な分析ツールである [!UICONTROL 分析ワーク�
 | Ctrl + Shift + D | 新しい日付範囲 |
 | Ctrl + Shift + E | 新しいセグメント |
 | Ctrl + Z | 元に戻す |
-| shiftキーを押したまま（パネルセグメントドロップゾーン内） | ドロッ [プダウンフィルターを作成します](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。 |
+| shiftキーを押したまま（パネルセグメントドロップゾーン内） | ドロッ [プダウンフィルタの作成](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### 民主化
 
