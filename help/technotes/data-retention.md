@@ -1,9 +1,11 @@
 ---
 title: データ保持ポリシー
 description: データ保持ポリシーは、アドビがデータを保存する期間を規定しています。
-uuid: 9988ef5c-d657-4521-8601-e508756d7d07
-translation-type: ht
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+translation-type: tm+mt
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 100%
 
 ---
 
