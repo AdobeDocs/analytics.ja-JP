@@ -2,10 +2,10 @@
 description: 分析ワークスペースのアクセシビリティサポート機能
 title: 分析ワークスペースでのアクセシビリティ
 translation-type: tm+mt
-source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 5%
+source-wordcount: '553'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analyticsの主要な分析ツールである [!UICONTROL 分析ワーク�
 * キーを個々の要素間で `Tab` 移動します。
 * 視覚的なキーボードユーザーが現在フォーカスを持っているUI要素を明確に示すように、フォーカスインジケーターを適用します。 インジケーターは、選択した要素の周りの青い境界線です。
 
-   ![](assets/focus-indicator.png)
+   ![フォーカスインジケーター](assets/focus-indicator.png)
 
 ### ドラッグ&amp;ドロップ操作のキーボードナビゲーション
 
@@ -79,7 +79,7 @@ Adobe Analyticsの主要な分析ツールである [!UICONTROL 分析ワーク�
 
 ## カラーパレットとコントラスト
 
-[!UICONTROL WCAG AAのカラーコントラスト準拠に向けて、分析ワークスペース] （英語）を取り組んでいます。
+[!UICONTROL WCAG 2.1 AA準拠のための分析ワークスペース] （カラーコントラストの要件を含む）
 
 また、プロジェクトに対しては、 **[!UICONTROL プロジェクト]** / **[!UICONTROL プロジェクト設定]** /プロジェクトのカラーパレットで、ユーザーが希望するカラーパレットを設定できます [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)。
 
@@ -89,8 +89,8 @@ Adobe Analyticsの主要な分析ツールである [!UICONTROL 分析ワーク�
 
 コンポーネントの検証が完了すると、を押すとビルダーが閉じ `Save` ます。
 
-![](assets/error-validation.png)
+![エラーの検証](assets/error-validation.png)
 
 ## オペレーティングシステムのアクセシビリティ機能のサポート
 
-分析ワークスペースは、高コントラストモードやスクリーンリーダーなどの組み込みのMS WindowsとmacOSのアクセシビリティ機能をサポートしています(ナレーター（MS Windowsの場合）。VoiceOver（macOSの場合）
+分析ワークスペースは、高コントラストモード、共通キー、遅いキー/フィルターキーなど、組み込みのMS WindowsとmacOSのアクセシビリティ機能をサポートしています。 また、Windows上のVoiceOver for macOSやNVDAなどの支援テクノロジーとの対話を可能にするためのユーザーインターフェイスに関する情報も提供します。
