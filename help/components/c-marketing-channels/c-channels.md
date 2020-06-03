@@ -5,7 +5,10 @@ title: マーケティングチャネルの管理
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 83%
 
 ---
 
@@ -14,12 +17,28 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 マーケティングチャネルマネージャーでマーケティングチャネルを追加または有効化します。レポートスイートにマーケティングチャネルがない場合は、自動セットアップによって複数のチャネルと各チャネルのルールを作成することができます。ニーズに合わせて事前定義のチャネルを編集したり、独自に作成したりすることができます（合計 25 個まで）。
 
+[!UICONTROL マーケティングチャネル]ページへのチャネルの追加は、[マーケティングチャネルの処理ルール](/help/components/c-marketing-channels/c-rules.md)ページのルールの作成から独立して行うことができます。ルールを作成するときに、そのルールをチャネルに関連付けます。
+
 チャネル作成時のガイドラインは次のとおりです。
 
 * すべての訪問者が適切なチャネルに分類されるように、すべてのチャネルの一覧を作成し、事前に計画を立ててください。
-* 常に[内部](/help/components/c-marketing-channels/c-faq.md)ヒットのカテゴリ用のチャネルと、[直接](/help/components/c-marketing-channels/c-faq.md)ヒットのカテゴリ用のチャネルを含めてください。
+* [内部](/help/components/c-marketing-channels/c-rules.md) ヒットと [](/help/components/c-marketing-channels/c-rules.md) 直接ヒットのカテゴリに対するチャネルを含めます。
+* 包括的な「その他のキャンペーン」チャネルを含め、有料チャネルの後、および有機チャネルの前に配置します。
 
-[!UICONTROL マーケティングチャネル]ページへのチャネルの追加は、[マーケティングチャネルの処理ルール](/help/components/c-marketing-channels/c-rules.md)ページのルールの作成から独立して行うことができます。ルールを作成するときに、そのルールをチャネルに関連付けます。
+
+## 前提条件 {#prereqs}
+
+必要な場合は、次の前提条件に関してカスタマーケアに問い合わせることができます。
+
+* 管理コンソール（一般的なアカウント設定）でレポートスイートの「**[!UICONTROL コンバージョンレベル]**」（e-コマース）オプションを有効にします。
+
+   詳しくは、Analytics ヘルプの「[一般的なアカウント設定](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/general-acct-settings-admin.html)」を参照してください。
+
+* マーケティングチャネルディメンションへのアクセスを設定します。
+
+   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
+
+* アカウントマネージャーがレポートスイートです。**[!UICONTROL チャネルレポート]**&#x200B;を有効にしたことを確認します。
 
 ## マーケティングチャネルの追加 {#add-mktg-channels}
 
@@ -47,9 +66,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    [マーケティングチャネルの処理ルールの作成](/help/components/c-marketing-channels/c-rules.md)を参照してください。
 
-## マーケティングチャネルマネージャー - インターフェイスの定義 {#mktg-channel-mgr}
+## チャネル設定の適用 {#mktg-channel-mgr}
 
-[!UICONTROL マーケティングチャネルマネージャー]ページのフィールドの定義です。
+マー [!UICONTROL ケティングチャネルマネージャー] ページの各チャネルに適用できる設定は様々です。
 
 | フィールド | 定義 |
 |--- |--- |
@@ -58,43 +77,23 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | ラストタッチチャネルの上書き | ラストタッチチャネルを上書きするかどうかをチャネルごとに指定できます。このチェックボックスを選択すると、すべてのチャネル（「直接」と「内部」を含む）が既存のラストタッチチャネルを上書きします。設定を変更すると、誤ったチャネル（「直接」や「内部」）にコンバージョンが関連付けられるリスクがあるので、注意が必要です。たとえば、「自然検索」チャネルを通してユーザーが以前に獲得されている場合、「直接アクセス」での訪問が発生しても、「自然検索」のチャネルがコンバージョンのクレジットを引き続き受け取るようにしたい場合は、「直接アクセス」チャネルの「ラストタッチチャネルの上書き」オプションを外しておきます（デフォルト設定のまま変更しない）。 |
 | チャネルの分類 |  この値によって、チャネルを分類できます。You can add possible channel breakdowns (subchannels) when creating [marketing channel classifications](/help/components/c-marketing-channels/classifictions-mchannel.md). |
 | タイプ | サイトへのユーザーの訪問手段を指定します。「オンライン」または「オフライン」を選択できます。検索エンジンまたは電子メールキャンペーンから来訪した訪問者に対しては「オンライン」チャネルを使用します。「オフライン」チャネルは、新聞のクーポンや雑誌の広告でサイトの情報を見つけた訪問者に使用します。オフラインチャネルには通常、データソースからインポートされたデータが含まれます。[データソース](https://docs.adobe.com/content/help/ja-JP/analytics/import/data-sources/datasrc-home.html)を参照してください。[オフラインデータの追加](/help/components/c-marketing-channels/c-getting-started-mchannel.md)を参照してください。 |
-| 色 |  このマーケティングチャネルに関連付けられている色。この色は、マーケティングチャネルレポートで、このチャネルを表します。 |
+| Color | Reports &amp; Analyticsのみ： このマーケティングチャネルに関連付けられている色。 この色は、マーケティングチャネルレポートで、このチャネルを表します。 |
 
-## 定義チャネル
+### ベストプラクティスの上書き
 
-レポートにチャネルとチャネルデータを表示できるようにするには、チャネルおよびそのデータを処理するための基本的なルールを作成してください。また、関連チャネルのコストと予算の金額を作成し、訪問者のエンゲージメント期間の長さも指定することができます。管理ツールでレポートの設定を行います。
+「ダイレクト」チャネルと「内部」チャネルのラストタッチの上書きオプションは、他の永続的なラストタッチチャネル（または相互）からクレジットを受け取れないように、オフにすることをお勧めします。
 
-チャネルを訪問件数のコンテナとすると、訪問件数を適切なコンテナに割り当てるのがルールです。
+![](assets/int-channel2.png)
 
-![](assets/buckets_2.png)
+## チャネルルールの定義
 
-アドビでは、複数の事前定義のチャネルを[自動セットアップ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)を利用すると、事前定義された複数のチャネルが設定されます。このチャネルはニーズに合わせて編集できます。
+レポートにチャネルとチャネルデータを表示できるようにするには、チャネルおよびそのデータを処理するための基本的なルールを作成してください。また、 [訪問者エンゲージメント期間の長さも指定できます](/help/components/c-marketing-channels/visitor-engagement.md) 。
+
+アドビでは、 [自動セットアップ中に定義済みのチャネルをいくつか提供します](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 。これらはニーズに合わせて編集できます。 また、この設定を変更し、 [マーケティングチャネルの処理ルール内でカスタムルールを定義することもでき](/help/components/c-marketing-channels/c-rules.md)ます。
 
 >[!NOTE]
 >
 >まずテスト用のレポートスイートにレポートを設定することを推奨します。それをひな形として、1 つまたはそれ以上の本番用レポートスイートにまとめてチャネルとルールセットを適用することができます。
 >
 >詳しくは、[複数のレポートスイートへのテンプレートレポートスイート設定の適用](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-
-### 前提条件 {#prereqs}
-
-必要な場合は、次の前提条件に関してカスタマーケアに問い合わせることができます。
-
-* 管理コンソール（一般的なアカウント設定）でレポートスイートの「**[!UICONTROL コンバージョンレベル]**」（e-コマース）オプションを有効にします。
-
-   詳しくは、Analytics ヘルプの「[一般的なアカウント設定](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/general-acct-settings-admin.html)」を参照してください。
-
-* マーケティングチャネルディメンションへのアクセスを設定
-
-   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
-
-* アカウントマネージャーがレポートスイートです。**[!UICONTROL チャネルレポート]**&#x200B;を有効にしたことを確認します。
-
-### 処理に関する重要事項 {#important-proc-rules}
-
-* システムは指定された順序でルールを処理し、ルールの 1 つが満たされると残りのルールの処理を中止します。
-* ルールは VISTA が設定した変数にはアクセスできますが、VISTA が削除したデータにはアクセスできません。
-* チャネルはコンバージョン指標のみを保存します。トラフィック指標は利用できません。
-* 2 つのマーケティングチャネルが同じイベント（購入やクリックなど）からクレジットを受けることはありません。この点でマーケティングチャネルは eVar と異なります（同一イベントから 2 つの eVar がクレジットを受ける場合がある）。
-* レポートは一度に 25 のチャネルまで処理できます。
 
