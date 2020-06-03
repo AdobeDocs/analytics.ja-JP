@@ -1,9 +1,11 @@
 ---
 description: ここでは Google や Bing のアカウント ID を簡単に見つけるための手順を説明しています。
 title: アカウント ID の見つけ方
-uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: fae9d036f33029b7b8553cb71441997fc4e83354
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 65%
 
 ---
 
@@ -16,13 +18,17 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT]
 >
->Google AdWords では、MCC（My Client Center）アカウントと Standard アカウントの 2 つのアカウントを使用します。この Adobe Analytics との統合では、**MCC アカウントログインではなく Standard アカウントログインを使用する必要があります**。これは、MCC アカウントはシングルログインで複数の AdWords アカウントにアクセスできる「umbrella」アカウントとして機能するのに対し、Standard アカウントログインではログインごとに 1 つの AdWords アカウントのみにアクセスできるためです。
+>Google AdWords では、MCC（My Client Center）アカウントと Standard アカウントの 2 つのアカウントを使用します。この Adobe Analytics との統合では、**MCC アカウントログインではなく Standard アカウントログインを使用する必要があります**。これは、MCC アカウントはシングルログインで複数の AdWords アカウントにアクセスできる「umbrella」アカウントとして機能するのに対し、Standard アカウントログインではログインごとに 1 つの AdWords アカウントのみにアクセスできるためです。Googleは1つの電子メールのリンクによる5つのアカウントの管理をサポートしていますが、Advertising Analyticsはまだこの機能をサポートしていません。 1つの電子メールを1つのAdwordsアカウントにのみリンクできます。
 
 AdWords アカウント番号（顧客 ID）を表示するには、右上のアカウントアイコンをクリックします。
 
 ![](assets/google_account.png)
 
 ## Bing {#section_F1B9C7E997444746936599732CD62665}
+
+>[!NOTE]
+>
+>BingアカウントでGoogleのインポート機能を使用している場合は、正しいトラッキング文字列を更新してください。 追跡文字列は、Googleバージョンから適切なBing追跡文字列に自動的に更新されず、結果としてデータが不特定になる場合があります。 この機能の詳細については、こちらを参照して [ください](https://help.ads.microsoft.com/apex/index/3/en/50851/)。
 
 アカウント ID と顧客 ID の両方が必要です。これらは「アカウント」タブに表示されます。
 
