@@ -1,9 +1,11 @@
 ---
 description: トラッキングにより、Adobe Analytics の実装による検索エンジンデータの追跡方法が決まります。これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。
 title: トラッキング：手動モードと自動モード
-uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +22,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 そのため、アカウント設定を保存するには自動モードの選択時に承認のチェックボックスをチェックする必要があります。
 
-
 「自動モード」で検索エンジンのアカウントを設定するには、以下の作業を行う責任があります。
 
-* 「s_kwcid」のパラメーターおよび値がアカウントのトラッキングテンプレート、または追加されるアカウント内のランディングページ URL に追加されます。これは、URL の最後に挿入されます。ウェブサーバーに特定の key=value ペアが URL の最後に必要な場合や、URLの で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業を行う必要がある場合があります。**ユーザーの責任のもとに、追加された URL パラメーターが最終的なランディングページまで適切に保持されるようにする必要があります。**
-* 加えて、キーワードを「s_kwcid」値の一部としてランディング URL に追加できます。特殊文字や記号が含まれる場合は、ウェブサーバーでそれらの文字がサポートされていることを確認してください。例：一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます。
+* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. これは、URL の最後に挿入されます。ウェブサーバーに特定の key=value ペアが URL の最後に必要な場合や、URLの で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業を行う必要がある場合があります。**ユーザーの責任のもとに、追加された URL パラメーターが最終的なランディングページまで適切に保持されるようにする必要があります。**
+* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. 特殊文字や記号が含まれる場合は、ウェブサーバーでそれらの文字がサポートされていることを確認してください。例：一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます。
+
+>[!IMPORTANT]
+>
+>コン `s_kwcid` テンツセキュリティポリシーにパラメーターを追加する必要があるかどうかを確認する [](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)。
 
 ## 手動モードのトラッキング {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
