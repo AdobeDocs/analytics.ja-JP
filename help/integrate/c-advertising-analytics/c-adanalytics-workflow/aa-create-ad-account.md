@@ -2,7 +2,10 @@
 title: 広告アカウントの設定
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 81%
 
 ---
 
@@ -15,14 +18,14 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 
 ![](assets/aa_accounts.png)
 
-1. Adobe Analyticsで、/に移動し **[!UICONTROL Admin]** ます **[!UICONTROL Advertising Accounts]**。
+1. Adobe Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL Advertising アカウント]**&#x200B;に移動します。
 1. （初回の使用時のみ）エンドユーザー使用許諾契約書に同意します。
-1. クリック **[!UICONTROL + Add]**.
-1. ダイアログ [!UICONTROL New Search Engine Account] が表示されます。
+1. 「**[!UICONTROL 追加]**」をクリックします。
+1. [!UICONTROL 新規検索エンジンアカウント]ダイアログが表示されます。
 
    ![](assets/aa_new_se_account.png)
 
-1. 次のガイドラインに **[!UICONTROL Search Engine Settings]** 従ってください。
+1. 以下のガイドラインに従って「**[!UICONTROL 検索エンジンの設定]**」に入力します。
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,38 +57,19 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     </tbody> 
     </table>
 
-1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。次のガイドラインに **[!UICONTROL Tracking Settings]** 従ってください。
+1. 「**[!UICONTROL トラッキング]**」セクションで、Adobe Analytics の実装による検索エンジンデータの追跡方法に関する情報を入力します。これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。以下のガイドラインに従って「**[!UICONTROL トラッキングの設定]**」に入力します。
 
-   <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> 設定 </th> 
-      <th colname="col2" class="entry"> 説明 </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>タイプ </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol">自動</span>：Advertising Cloud Engine によって、トラッキングパラメーターを検索エンジンのトラッキングテンプレート／リンク先 URL に追加する方法が決定されます。これはもっともシンプルな方法ですが、統合されたデータセットの品質が最良ではなくなる可能性があります。 <p>重要：「自動モード」で検索エンジンのアカウントを設定するには、以下の作業を行う責任があります。 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">「s_kwcid」のパラメーターおよび値がアカウントのトラッキングテンプレート、または追加されるアカウント内のランディングページ URL に追加されます。これは、URL の最後に挿入されます。結果として、ウェブサーバーに特定の key=value ペアが URL の最後に必要な場合や、URLの で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業を行う必要がある場合があります。 </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">加えて、キーワードを「s_kwcid」値の一部としてランディング URL に追加できるため、特殊文字や記号が含まれている場合、ウェブサーバーでそれらの文字がサポートされていることを確認してください（一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます）。 </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol">手動</span>：トラッキングパラメーターを検索エンジンのトラッキングテンプレート／リンク先 URL に追加する方法を管理できます。<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  >各検索エンジンについては手動トラッキングの例を参照してください</a>。 </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | 設定 | 説明 |
+   |--- |--- |
+   | タイプ | <ul><li>**自動：** Advertising Cloudエンジンで、トラッキングパラメーターを検索エンジンのトラッキングテンプレート/リンク先URLに追加する方法を決定できます。 これはもっともシンプルな方法ですが、統合されたデータセットの品質が最良ではなくなる可能性があります。<br>**重要：**「自動モード」で検索エンジンのアカウントを設定するには、次の操作を行う必要があります。<br>- 「s_kwcid」パラメータと値が、追加するアカウント内のアカウント追跡テンプレートまたはランディングページURLに追加されます。 これは、URL の最後に挿入されます。結果として、ウェブサーバーに特定の key=value ペアが URL の最後に必要な場合や、URLの で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業を行う必要がある場合があります。**&#x200B;注意：**このパラメーターを[コンテンツセキュリティポリシーに追加する必要があるかどうかを確認します](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)。<br>— また、キーワードは「s_kwcid」値の一部としてランディングURLに挿入できるので、特殊文字や記号を含むWebサーバーでこれらの文字がサポートされることを確認してください（一般的な特殊文字の例は「+」で、「部分一致が変更されました」キーワードで使用されます）。</li><li>**手動：** 検索エンジンのトラッキングテンプレート/リンク先URLにトラッキングパラメータを追加する方法を管理できます。 [各検索エンジンについては手動トラッキングの例を参照してください](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
-1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. 少なくとも 1 つのレポートスイートを指定しないと、Advertising アカウントを保存できません。複数のレポートスイートに複数のアカウントをマッピングできます（1 対 1、1 対多、多対多）。AMO で検索エンジンから取り込んだデータは、マッピングしたどのレポートスイートにもデータ分割がないようにコピーされます。
+1. 「**[!UICONTROL マッピング]**」セクションで、この検索エンジンアカウントにリンクするレポートスイートを選択します。少なくとも 1 つのレポートスイートを指定しないと、Advertising アカウントを保存できません。複数のレポートスイートに複数のアカウントをマッピングできます（1 対 1、1 対多、多対多）。AMO で検索エンジンから取り込んだデータは、マッピングしたどのレポートスイートにもデータ分割がないようにコピーされます。
 
    >[!IMPORTANT]
    >
    >[Experience Cloud 組織にマッピング](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)されたレポートスイートのみが選択できます。使用するレポートスイートが表示されない場合は、[Advertising Analytics のトラブルシューティング](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)を参照してください。
 
-   次のガイドラ **[!UICONTROL Mapping Settings]** インを参照してください。
+   「**[!UICONTROL マッピングの設定]**」では、以下のガイドラインに従います。
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -102,7 +86,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     </tbody> 
     </table>
 
-1. クリック **[!UICONTROL Save]**.
+1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 保存すると、免責事項に注意事項の一覧が表示されます。この注意事項を読み、理解したことを確認してください。チェックボックスを選択して、「**[!UICONTROL OK]**」をクリックします。
 
    Advertising Accounts [管理 UI](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) に移動し、新規に作成したアカウントが表示されます。
