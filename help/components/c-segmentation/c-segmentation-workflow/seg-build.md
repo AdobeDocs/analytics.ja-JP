@@ -4,14 +4,17 @@ title: セグメントの構築
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: f50f33b456656200b4492e6fec2a441d4c29dfa3
+workflow-type: tm+mt
+source-wordcount: '2436'
+ht-degree: 99%
 
 ---
 
 
 # セグメントビルダー
 
-The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. この統合開発ツールを使用すると、訪問やページヒットを対象として訪問者の属性やアクションを識別する、簡単な、または複雑なセグメントを作成し、保存できます。
+[!UICONTROL セグメントビルダー]のキャンバスに指標、ディメンション、セグメントおよびイベントをドラッグ＆ドロップすると、コンテナ階層の論理、ルールおよび演算子に基づいて訪問者をセグメント化できます。この統合開発ツールを使用すると、訪問やページヒットを対象として訪問者の属性やアクションを識別する、簡単な、または複雑なセグメントを作成し、保存できます。
 
 >[!IMPORTANT]
 >
@@ -19,67 +22,67 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 セグメントビルダーにアクセスする方法はいくつかあります。
 
-* **Analyticsのトップナビゲーション**://をク **[!UICONTROL Analytics]** リック **[!UICONTROL Components]** しま **[!UICONTROL Segments]**&#x200B;す。
-* **[!UICONTROL Analysis Workspace]**:/をク **[!UICONTROL Analytics]** リッ **[!UICONTROL Workspace]**&#x200B;クし、プロジェクトを開いて、/をクリ **[!UICONTROL + New]** ックしま **[!UICONTROL Create Segment]**&#x200B;す。
-* **[!UICONTROL Reports & Analytics]**:/をク **[!UICONTROL Analytics]** リック **[!UICONTROL Reports]**&#x200B;し、既存のレポートを開き、左側のナビゲーションでセグメント ![](assets/segment_icon.png) アイコンをクリックして、をクリックしま **[!UICONTROL Add]**&#x200B;す。
-* **[!UICONTROL Ad Hoc Analysis]**: [Ad Hoc Analysis でのセグメントの構築](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
-* **[!UICONTROL Report Builder]**: [追加Report Builderでセグメントを編集します](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html)。
+* **Analytics 上部ナビゲーション**：**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL セグメント]**&#x200B;をクリックします。
+* **[!UICONTROL Analysis Workspace]**：**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** に移動し、プロジェクトを開いて **[!UICONTROL + 新規]**／**[!UICONTROL セグメントを作成]**&#x200B;をクリックします。
+* **[!UICONTROL Reports &amp; Analytics]**：**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;で、既存のレポートを開いて、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックしてから、「**[!UICONTROL 追加]**」をクリックします。
+* **[!UICONTROL Ad Hoc Analysis]**：[Ad Hoc Analysis でセグメントを作成します](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments)。
+* **[!UICONTROL Report Builder]**：[レポートビルダーでセグメントを追加または編集します。](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html)
 
 ## セグメントビルダーのユーザーインターフェイス {#concept_643F2DF74C544796B58F4656ABC5F726}
 
-The [!UICONTROL Segment Builder] lets you build simple or complex segments that identify visitor attributes and actions across visits and page hits. セグメントビルダーのキャンバスに、指標ディメンション、イベントまたはその他のセグメントをドラッグ＆ドロップすることで、階層ロジック、ルールおよび演算子に基づいて訪問者をセグメント化できます。
+[!UICONTROL セグメントビルダー]を使用すると、訪問やページヒットを対象として訪問者の属性やアクションを識別する、セグメントを作成できます。セグメントビルダーのキャンバスに、指標ディメンション、イベントまたはその他のセグメントをドラッグ＆ドロップすることで、階層ロジック、ルールおよび演算子に基づいて訪問者をセグメント化できます。
 
 ## Web UI 機能 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-The [!UICONTROL Segment Builder] lets you build and edit segments in the web UI (or in a [Java UI in Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)). セグメントにルール定義やコンテナを追加して、セグメントの改良、積み重ね、ネストをすることができます。また、現在のセグメント定義から、結果に含まれるページビュー数、訪問回数および個別訪問者数を検証することもできます。その後、今後必要になる場合に備えてセグメントを保存します。
+[!UICONTROL セグメントビルダー]では、Web UI（または [Ad Hoc Analysis の Java UI](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)）でセグメントを構築および編集できます。セグメントにルール定義やコンテナを追加して、セグメントの改良、積み重ね、ネストをすることができます。また、現在のセグメント定義から、結果に含まれるページビュー数、訪問回数および個別訪問者数を検証することもできます。その後、今後必要になる場合に備えてセグメントを保存します。
 
 セグメントビルダーにアクセスするには、次の方法があります:
 
-* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。In the segment rail that displays, click **[!UICONTROL Add]**.
+* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。
 
-* From within the Segment Manager, clicking **[!UICONTROL + Add]**.
+* セグメントマネージャ内で、「**[!UICONTROL + 追加]**」をクリックします。
 * セグメントマネージャ内で既存のセグメントタイトルをクリックし、そのセグメントをセグメントビルダーで編集します。
 
 ![](assets/segment_builder_ui.png)
 
-1. **[!UICONTROL Title]**:セグメントに名前を付けたり、名前を変更したりできます。
-1. **[!UICONTROL Description]**:セグメントの説明を入力します。 セグメントを共有したい場合は、説明を入力する必要があります。
-1. **[!UICONTROL Tags]**:作成して [いるセグメントに](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) 、既存のタグのリストから選択するか、新しいタグを作成してタグを付けます。
-1. **[!UICONTROL Definitions]**:セグメントの作成と設定、 [ルールの追加](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)、ネストとシーケンスコンテナ。 コンテナを選択し、ディメンション、セグメントまたは指標を定義にドラッグ＆ドロップすることで、新しいセグメントの説明を提供できます。
-1. **[!UICONTROL Show]**: (トップのコンテナの選択.) Lets you select the top-level [container](/help/components/c-segmentation/seg-overview.md) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). デフォルトのトップレベルのコンテナは、ヒットコンテナです。
-1. **[!UICONTROL Options]**:（ギア）アイコン
+1. **[!UICONTROL タイトル]**：セグメントに名前を付けたり、名前を変更したりできます。
+1. **[!UICONTROL 説明]**：セグメントの説明を入力します。セグメントを共有したい場合は、説明を入力する必要があります。
+1. **[!UICONTROL タグ]**：既存のタグのリストから選択、または新しいタグを作成して、作成するセグメントに[タグを付ける](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)ことができます。
+1. **[!UICONTROL 定義]**：[セグメントを作成および設定](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)して、ルールを追加し、コンテナをネストして順に並べるための作業領域です。コンテナを選択し、ディメンション、セグメントまたは指標を定義にドラッグ＆ドロップすることで、新しいセグメントの説明を提供できます。
+1. **[!UICONTROL 表示]**:（上部のコンテナセレクター）。トップレベルの[コンテナ（](/help/components/c-segmentation/seg-overview.md)[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL ヒット]）を選択できます。デフォルトのトップレベルのコンテナは、ヒットコンテナです。
+1. **[!UICONTROL オプション]**：（ギア）アイコン
 
-   * **[!UICONTROL + Add container]**:セグメント定義に新しいコンテナ(最上位コンテナの下)を追加できます。
-   * **[!UICONTROL + Add container from selection]**:[定義]フィールドで選択したコンテナ（複数）から新しい要素を作成できます。
-   * **[!UICONTROL Exclude]**:1つ以上のディメンション、セグメントまたは指標を除外して、セグメントを定義できます。
+   * **[!UICONTROL + コンテナを追加]**：セグメント定義（トップレベルのコンテナの下）に新しいコンテナを追加できます。
+   * **[!UICONTROL + 選択項目からコンテナを追加]**：定義フィールドで選択した要素から新しいコンテナを作成できます。
+   * **[!UICONTROL 次を除外する]**：1 つ以上のディメンション、セグメントまたは指標を除外することで、セグメントを定義できます。
 
-1. **[!UICONTROL Attribution Models]**:ディメンションセグメント用。 ディメンションモデルは、フロービジュアライゼーションをサポートするディメンションなど、順次セグメント化で特に便利です。
+1. **[!UICONTROL アトリビューションモデル]**：ディメンションセグメント用。ディメンションモデルは、フロービジュアライゼーションをサポートするディメンションなど、順次セグメント化で特に便利です。
 
-   * **[!UICONTROL Repeating]** (（デフォルト）:ディメンションのインスタンスと永続化された値が含まれます。
-   * **[!UICONTROL Instance]**: ディメンションのインスタンスが含まれます.
-   * **[!UICONTROL Non-repeating instance]**: ディメンションの一意のインスタンス (繰り返さない) が含まれます.
+   * **[!UICONTROL 繰り返し]**（デフォルト）：ディメンションに直接的にセットされる値に加えて、以前のヒットから引き継がれた値も対象になります。
+   * **[!UICONTROL インスタンス]**：ディメンションに直接的にセットされるインスタンスのみが対象になります。
+   * **[!UICONTROL 繰り返さないインスタンス]**：後続のヒットで同じ値が連続的に繰り返されるヒットを除いたインスタンスのみが対象になります。
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL Dimensions]**:ディメンションがディメンションリスト（オレンジ色のサイドバー）からドラッグ&amp;ドロップされます。
-1. **[!UICONTROL Comparison]**:選択した演算子を使用して、値を比較および制限できます。
-1. **[!UICONTROL Value]**:ディメンション、セグメント、指標に対して入力または選択した値。
-1. **[!UICONTROL And/Or/Then]**:演算子を [!UICONTROL AND/OR/THEN] コンテナまたはルール間で割り当て THEN 演算子は、[順次セグメントを定義](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)します。
-1. **[!UICONTROL Metric]**:（緑のサイドバー）指標リストからドラッグ&amp;ドロップした指標。
-1. **[!UICONTROL Comparison]** 演算子：選択した演算子を使用して、値を比較および制限できます。
-1. **[!UICONTROL Value]**:ディメンション、セグメント、指標に対して入力または選択した値。
+1. **[!UICONTROL 比較]**：選択した演算子を使用して値を比較および制限できます。
+1. **[!UICONTROL ディメンション]**：ディメンションがディメンションリスト（オレンジ色のサイドバー）からドラッグ&amp;ドロップされます。
+1. **[!UICONTROL 値]**：ディメンション、セグメントまたは指標のために入力または選択した値。
+1. **[!UICONTROL And／Or／Then]**：コンテナまたはルールの間に [!UICONTROL AND／OR／THEN] 演算子を割り当てます。THEN 演算子は、[順次セグメントを定義](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)します。
+1. **[!UICONTROL 指標]**：（緑色のサイドバー）指標リストからドラッグ＆ドロップした指標。
+1. **[!UICONTROL 比較]**&#x200B;演算子：選択した演算子を使用して値を比較および制限できます。
+1. **[!UICONTROL 値]**：ディメンション、セグメントまたは指標のために入力または選択した値。
 1. **[!UICONTROL X]**：（削除）セグメント定義のこの部分を削除できます。
-1. **[!UICONTROL Save]** または **[!UICONTROL Cancel]**:セグメントを保存またはキャンセルします。 After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
-1. **[!UICONTROL Search]**:ディメンション、セグメントまたは指標のリストを検索します。
-1. **[!UICONTROL Dimensions]**:(リスト)ヘッダーをクリックして展開します。
-1. **[!UICONTROL Metrics]**:ヘッダーをクリックして展開します。
-1. **[!UICONTROL Segments]**:ヘッダーをクリックして展開します。
-1. **[!UICONTROL Report suite selector]**:このセグメントを保存するレポートスイートを選択できます。 セグメントは、すべてのレポートスイートで利用できます。
-1. **[!UICONTROL Segment Preview]**:主要指標をプレビューして、有効なセグメントがあるかどうか、およびセグメントの範囲を確認できます。 このセグメントを適用した場合に期待するデータセットの分類を表します。Shows 3 concentric circles and a list to show the number and percentage of matches for [!UICONTROL Hits], [!UICONTROL Visits], and [!UICONTROL Visitors] for a segment run against a data set. このグラフは、セグメント定義を作成または変更するとすぐに更新されます。
-1. **[!UICONTROL Product Compatibility]**:作成したセグメントと互換性があるAdobe Analytics製品(分析ワークスペース、 [!UICONTROL Reports & Analytics]Ad Hoc分析、Data Warehouse)のリストを提供します。 ほとんどのセグメントは、すべての製品と互換性があります。ただし、演算子とディメンションは、すべての Analytics 製品と互換性があるとは限りません。特に、[Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md) とは互換性がない場合があります。このグラフは、セグメント定義を変更するとすぐに更新されます。
+1. **[!UICONTROL 保存]**&#x200B;または&#x200B;**[!UICONTROL キャンセル]**：セグメントを保存またはキャンセルします。「**[!UICONTROL 保存]**」をクリックした後、セグメントを管理できるセグメントマネージャが表示されます。
+1. **[!UICONTROL 検索]**：ディメンション、セグメントまたは指標のリストを検索します。
+1. **[!UICONTROL ディメンション]**:（リスト）ヘッダーをクリックして展開します。
+1. **[!UICONTROL 指標]**：ヘッダーをクリックして展開します。
+1. **[!UICONTROL セグメント]**：ヘッダーをクリックして展開します。
+1. **[!UICONTROL レポートスイートセレクタ]**：このセグメントを保存するレポートスイートを選択します。セグメントは、すべてのレポートスイートで利用できます。
+1. **[!UICONTROL セグメントのプレビュー]**：主要な指標をプレビューして、有効なセグメントであるかどうかおよびセグメントの範囲を確認します。このセグメントを適用した場合に期待するデータセットの分類を表します。データセットに対してセグメントを実行した結果の[!UICONTROL ヒット数]、[!UICONTROL 訪問]および[!UICONTROL 訪問者]の件数と割合が 3 つの同心円とリストで表示されます。このグラフは、セグメント定義を作成または変更するとすぐに更新されます。
+1. **[!UICONTROL 製品機能]**：作成したセグメントと互換性がある Adobe Analytics 製品（Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse）のリストが表示されます。ほとんどのセグメントは、すべての製品と互換性があります。ただし、演算子とディメンションは、すべての Analytics 製品と互換性があるとは限りません。特に、[Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md) とは互換性がない場合があります。このグラフは、セグメント定義を変更するとすぐに更新されます。
 
-日付範囲が埋め込まれているセグメントの動作は、今後も Analysis Workspace と [!UICONTROL Reports & Analytics] では異なります。ワークスペースでは、日付範囲が埋め込まれているセグメントがパネルの日付範囲より優先されます。これに対して、[!UICONTROL Reports & Analytics] では、レポートの日付範囲とセグメントの埋め込みの日付範囲が重なる期間のみが対象期間になります。
+日付範囲が埋め込まれているセグメントの動作は、今後も Analysis Workspace と [!UICONTROL Reports &amp; Analytics] では異なります。ワークスペースでは、日付範囲が埋め込まれているセグメントがパネルの日付範囲より優先されます。これに対して、[!UICONTROL Reports &amp; Analytics] では、レポートの日付範囲とセグメントの埋め込みの日付範囲が重なる期間のみが対象期間になります。
 
-**[!UICONTROL Publish to Experience Cloud (for `<report suite name>`)]**:（画面に表示されません）このオプションは、このセグメントの保存先のレポートスイートがExperience Cloudに対して有効になっ [ている場合にのみ表示されます](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。 By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. 公開するためには、セグメントタイトルと説明が必須です。
+**[!UICONTROL Experience Cloud に公開（`<report suite name>`用）]**:（画面に表示されません）このオプションは、このセグメントの保存先のレポートスイートが [Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) に対して有効になっている場合にのみ表示されます。Experience Cloud にセグメントを公開すると、そのセグメントを[!UICONTROL オーディエンスライブラリ]、[!DNL Target] および [!DNL Audience Manager] のマーケティングアクティビティで使用できます。公開するためには、セグメントタイトルと説明が必須です。
 
 >[!NOTE]Analytics では、公開されたセグメントを編集または削除できます。セグメントが使用中の場合は、セグメントを編集すると、警告メッセージが表示されます。Adobe [!DNL Target] によって使用されている公開したセグメントは削除できません。
 
@@ -95,18 +98,18 @@ The [!UICONTROL Segment Builder] lets you build and edit segments in the web UI 
 
 ## セグメントの構築 {#build-segments}
 
-1. Simply drag a Dimension, Segment, or Metric Event from the left pane to the [!UICONTROL Definitions] field.
+1. 左のパネルから、ディメンション、セグメントまたは指標イベントを[!UICONTROL 定義]フィールドにドラッグします。
 
    ![](assets/drag_n_drop_dimension.png)
 
-   The default top-level [!UICONTROL Hit] container is shown after dragging an element to [!UICONTROL Definitions]. You can change the container type to Visit or Visitor from the **[!UICONTROL Show]** drop-down menu.
+   要素を[!UICONTROL 定義]にドラッグすると、デフォルトのトップレベルコンテナである[!UICONTROL ヒット]が表示されます。**[!UICONTROL 表示]**&#x200B;ドロップダウンメニューから、コンテナタイプを訪問または訪問者に変更できます。
 
 1. ドロップダウンメニューから[演算子](/help/components/c-segmentation/seg-reference/seg-operators.md)を設定します。
 1. 選択した項目に対して値を入力または選択します。
-1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules.
+1. **[!UICONTROL AND]**、**[!UICONTROL OR]** または **[!UICONTROL THEN]** ルールを使用して、必要に応じて他のコンテナを追加します。
 1. コンテナを配置してルールを設定したら、右上の検証グラフにセグメントの結果を表示します。バリデーターは、作成されたセグメントと一致するページビュー、訪問回数および個別訪問者数の割合と絶対値を示します。
-1. Under **[!UICONTROL Tags]**, [tag](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md) the container by selecting an existing tag or creating a new one.
-1. Click **[!UICONTROL Save]** to save the segment.
+1. 「**[!UICONTROL タグ]**」で、既存のタグを選択するか、新しいタグを作成して、コンテナに[タグ](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)を付けます。
+1. 「**[!UICONTROL 保存]**」をクリックしてセグメントを保存します。
 
 [セグメントマネージャ](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md)に移動し、複数の方法でセグメントにタグ付け、共有、管理できます。
 
@@ -114,21 +117,21 @@ The [!UICONTROL Segment Builder] lets you build and edit segments in the web UI 
 
 [コンテナのフレームワークを作成](/help/components/c-segmentation/seg-overview.md)し、論理ルールと演算子を配置できます。
 
-1. クリック **[!UICONTROL Options > Add Container]**.
+1. **[!UICONTROL オプション／コンテナを追加]**&#x200B;をクリックします。
 
    ![](assets/add_container.png)
 
-   A new [!UICONTROL Hit] container opens without a [!UICONTROL Hit] (Page View) identified.
+   新しい[!UICONTROL ヒット]コンテナが、[!UICONTROL ヒット]（ページビュー）を識別していない状態で開きます。
 
    ![](assets/new_container.png)
 
 1. 必要に応じて、コンテナタイプを変更します。
 1. 左のパネルから、ディメンション、セグメントまたはイベントをコンテナにドラッグします。
-1. Continue to add new containers from the top-level **[!UICONTROL Options]** > **[!UICONTROL Add container]** button at the top of the definition, or add containers from within a container to nest logic.
+1. 定義の最上部にあるトップレベルの&#x200B;**[!UICONTROL オプション]**／**[!UICONTROL コンテナを追加]**&#x200B;を使用して、新しいコンテナの追加を続行するか、コンテナ内でコンテナを追加してロジックをネストします。
 
    **OR**
 
-   1つ以上のルールを選択し、/をクリッ **[!UICONTROL Options]** クしま **[!UICONTROL Add container from selection]**&#x200B;す。 選択が別個のコンテナに変換されます。
+   1 つ以上のルールを選択し、**[!UICONTROL オプション]**／**[!UICONTROL 選択項目からコンテナを追加]**&#x200B;をクリックします。選択が別個のコンテナに変換されます。
 
 ## セグメントでの日付範囲の使用 {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
@@ -136,7 +139,7 @@ The [!UICONTROL Segment Builder] lets you build and edit segments in the web UI 
 
 例えば、「過去 60 日間に購入したすべてのユーザー」を含むセグメントを容易に構築できます。
 
-訪問コンテナを作成し、その中に、AND演算子を [!UICONTROL Last 60 days] 使用して、時間範囲と指 [!UICONTROL Orders is greater than or equal to 1]標を追加します。
+訪問コンテナーを作成し、そこに、AND 演算子を使用して、「[!UICONTROL 最近の 60 日間]」という期間と「[!UICONTROL 購入回数が 1 よりも大きいか等しい]」という指標を追加します。
 
 ![](assets/date-ranges.png)
 
@@ -162,7 +165,7 @@ The [!UICONTROL Segment Builder] lets you build and edit segments in the web UI 
 1. セグメントビルダーに移動します。
 1. セグメントのタイトルと説明を指定します。
 
-   手順の結果 1Click **[!UICONTROL Show Segments]** to bring up the list of segments in the left navigation.
+   手順の結果 1「**[!UICONTROL セグメントを表示]**」をクリックして、左のナビゲーションにセグメントのリストを表示します。
 
    手順の結果 1積み重ねるセグメントをセグメント定義キャンバスにドラッグ＆ドロップします。次に、既存のセグメント Visits from Tablets と US Geo を積み重ねたセグメントの例を示します。
 
@@ -176,7 +179,7 @@ The [!UICONTROL Segment Builder] lets you build and edit segments in the web UI 
 
 テンプレートは、事前設定済みの古いスイートセグメントを表します。
 
-In the Segment Manager, click **[!UICONTROL Add]**, which takes you to the Segment Builder. セグメントアイコン ![](assets/segment_icon.png) をクリックして、
+セグメントマネージャで「**[!UICONTROL 追加]**」をクリックすると、セグメントビルダーに移動します。セグメントアイコン ![](assets/segment_icon.png) をクリックして、
 
 セグメントパネルを表示します。セグメントのリストの下部にセグメントテンプレートが表示されます。セグメントテンプレートは、テンプレート名の左側にあるフォルダーアイコンで区別できます。
 
