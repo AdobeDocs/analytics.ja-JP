@@ -2,9 +2,9 @@
 description: クイックインサイトは、新しいWorkspaceユーザーを導くツールで、データテーブルやビジュアライゼーションの作成に使用します
 title: クイックインサイトパネル
 translation-type: tm+mt
-source-git-commit: 04a91d3ba2778336a8f32c99604b32d440e41674
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL クイックインサイト]** は現在制限付きのテスト中です。 [詳細情報](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL クイックインサイト]** パネルは現在制限付きのテスト中です。 [詳細情報](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL クイックインサイト] (Quick Insights [!UICONTROL )では、] 分析ワークスペースのアナリストでないユーザーおよび新しいユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。 また、テーブルを自分で作ることなく、簡単な質問にすばやく答えたいと考える上級ユーザーにとっても優れたツールです。
 
@@ -64,6 +64,7 @@ ht-degree: 2%
 1. 少なくとも1つのディメンションと1つの指標を追加すると、次の情報が作成されます。
 
    * ディメンション（ここでは米国の州）が垂直方向に、指標（ここでは訪問回数）が上部に水平方向に表示されたフリーフォームテーブル。 次の表を見て下さい。
+
    ![](assets/qibuilder3.png)
 
    * 付属のビジュアライゼーション(この場合は [棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md))。 生成されるビジュアライゼーションは、テーブルに追加したデータのタイプに基づいています。 時間ベースのデータ(日別/月別 [!UICONTROL 訪問回数など] )は、デフォルトで  折れ線グラフになります。 時間ベースでないデータ( [!UICONTROL 訪問回数] / [!UICONTROL デバイス])は、デフォルトで  棒グラフになります。 ビジュアライゼーションのタイプを変更するには、ビジュアライゼーションのタイプの横にあるドロップダウン矢印をクリックします。
