@@ -3,7 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+workflow-type: tm+mt
+source-wordcount: '1093'
+ht-degree: 98%
 
 ---
 
@@ -21,22 +24,12 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**は以下の場合に使用します。
 
 * ナビゲーションが容易な作成済みのレポートにアクセスする必要がある初心者ユーザーの場合。
-* Target アクティビティ（Analytics for Target／A4T）の上昇率と信頼性を把握する。
 * UI でリアルタイムデータにアクセスする。
 * カレンダーイベントをセットアップする。
 * ターゲットをセットアップする。
 * ボットレポートを表示する。
 * 同時ビューア、ビデオ視聴時間帯、ビューアドロップオフの独自のビデオビジュアライゼーションにアクセスする。
 * 予定レポートで発行リストを活用する。
-
-**[Mobile Services UI](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html)**は以下の場合に使用します。
-
-* モバイルアプリデータのサイロ型表示が求められる場合。
-* モバイルアプリ SDK の実装を管理する。
-* アプリ内メッセージ、プッシュメッセージ、場所のターゲット設定などのモバイル広告を設定する。
-* アプリデータのよりインタラクティブな可視化が求められる場合（サンバースト）。
-* マップ上に目標地点を視覚化する。
-* 全期間値の指標。
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**は以下の場合に使用します。
 
@@ -118,7 +111,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 * **処理済み**：機能豊富なデータ（訪問、訪問者、セグメントなど）が必要な場合。これは典型的な Analytics UI の要約データで、30 分から 90 分で提供されます。Report Builder を通じて使用できます。
 * **リアルタイム**：いくつかの指標とディメンションを数秒の待ち時間で表示させる場合。これは、限定的な、部分的に処理され要約されたデータで、30 秒以内で提供されます。最頻使用、勝者、敗者の固有アルゴリズムが含まれます。Report Builder を通じて使用できます。
-* **[!UICONTROL Live Stream]**: 部分的に処理されたヒットレベルのAnalyticsデータを数秒以内に収集したい場合。 これは部分的に処理されたデータで、30 秒以内で提供されます。Analytics Premium でのみ使用可能です。データを可視化する何らかの方法が必要になります。通常は、エンジニアリングサービスを使用しておこないます。
+* **[!UICONTROL ライブストリーム]**：部分的に処理されたヒットレベルの Analytics データのストリームを数秒以内で収集したい場合。これは部分的に処理されたデータで、30 秒以内で提供されます。Analytics Premium でのみ使用可能です。データを可視化する何らかの方法が必要になります。通常は、エンジニアリングサービスを使用しておこないます。
 
 ## カスタムソリューション {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +124,4 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 複数のデータソースがある。
 * 複雑なデータの ETL（抽出-変換-読み込み）に関する要件がある。
 * カスタムブランディングが必要。
-* You want to visualize [!UICONTROL Analytics Live Stream].
+* [!UICONTROL Analytics ライブストリーム]の可視化が必要。
