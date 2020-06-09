@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: 個別訪問者数の識別
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +21,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Adobe Analytics は、訪問者を識別するための様々な手段を提供しています。次の表に、Analytics で訪問者が識別される方法を優先順で示します。
 
-| 使用順序 | クエリパラメーター（収集方法） | 次の場合に存在 |
+| 使用順序 | クエリパラメーター（収集方法） | 以下の場合に表示される |
 |---|---|---|
 | 1 | vid（s.visitorID） | s.visitorID が設定されている場合 |
 | 2 | aid（s_vi Cookie） | 訪問者 ID サービスを展開する前に訪問者が既に s_vi cookie を持っていた、または訪問者 ID 猶予期間が設定済みである。 |
@@ -54,13 +56,13 @@ s.visitorID 変数を設定して訪問者を識別するためのカスタム�
 
 リクエストがアドビのデータ収集サーバーに送信されると、ヘッダーで訪問者 ID cookie（`s_vi`）の有無がチェックされます。この Cookie がリクエストに含まれている場合、この Cookie を使用して訪問者が識別されます。この cookie がリクエストに含まれていない場合、サーバーは一意の訪問者 ID を生成し、それを HTTP 応答ヘッダー内に cookie として設定した後、リクエストとともに返送します。この cookie はブラウザーに保存され、以後にサイトを訪問したときにデータ収集サーバーに渡されます。これにより、以後の訪問時にその訪問者を識別できるようになります。
 
-### サードパーティ cookie と CNAME レコード{#section_61BA46E131004BB2B75929C1E1C93139}
+### サードパーティ cookie と CNAME レコード {#section_61BA46E131004BB2B75929C1E1C93139}
 
 Apple Safari などのブラウザーによっては、現在の Web サイトのドメインと一致しないドメインから HTTP ヘッダーに設定される cookie については保存しないものもあります。例えば、`mysite.com` を表示しているとき、データ収集サーバーが `mysite.omtrdc.net` である場合は、`mysite.omtrdc.net` からの HTTP ヘッダーで返された Cookie はブラウザーによって拒否される可能性があります。
 
 この問題を回避するために、多くのお客様は[ファーストパーティ cookie を導入する](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html)中で、データ収集サーバーの CNAME レコードを導入しています。お客様のドメインのホスト名をデータ収集サーバーにマッピングするように CNAME レコードを設定すると（例えば、`metrics.mysite.com` を `mysite.omtrdc.net` にマッピングする）、データ収集ドメインは Web サイトのドメインと一致するので、訪問者 ID cookie が保存されます。これによって訪問者 ID cookie が保存される可能性が高まりますが、CNAME レコードを設定し、データ収集サーバーの SSL 証明書を保持する必要があるので、ある程度のオーバーヘッドが生じます。
 
-### モバイルデバイスの cookie{#section_7D05AE259E024F73A95C48BD1E419851}
+### モバイルデバイスの cookie {#section_7D05AE259E024F73A95C48BD1E419851}
 
 cookie を使用してモバイルデバイスをトラッキングする場合、測定の実施方法を変更するために使用できる設定がいくつかあります。cookie の有効期間はデフォルトで 5 年ですが、CL クエリパラメーター変数（`s.cookieLifetime`）を使用してデフォルト設定を変更できます。CNAME 実装での cookie の場所を設定するには、CDP クエリ文字列 `s.cookieDomainPeriods` を使用します。値を指定しない場合のデフォルト値は 2 です。デフォルトの場所は domain.com です。CNAME を使用しない実装では、訪問者 ID cookie の場所は 207.net ドメインになります。
 
@@ -90,7 +92,7 @@ ID サービスは、従来の Analytics 訪問者 ID メカニズムに代わ�
  <tbody> 
   <tr> 
    <td colname="col1"> <code> /1/</code> </td> 
-   <td colname="col2"> <p>デフォルト： </p> 
+   <td colname="col2"> <p>デフォルト: </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">カスタム訪問者 ID </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
@@ -113,11 +115,11 @@ ID サービスは、従来の Analytics 訪問者 ID メカニズムに代わ�
 
 また、「1」または「5」はイメージリクエストに手動で渡すこともできますが、これらのコードは相互に排他的なので、常に「5」を渡すと、cookie がサポートされていても利用されません。デバイスが cookie をサポートしているかを判定できる独自のメカニズムを組み込んで、cookie をサポートしている場合にイメージ内で「5」ではなく「1」を渡すことができます。この状況で改善される精度は、cookie をサポートするモバイルデバイスの数に限られます。
 
-### 加入者 ID ヘッダー{#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
+### 加入者 ID ヘッダー {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
 cookie には cookie の削除、cookie の承認、ゲートウェイ cookie 管理などに関する問題があるので、一般的に訪問者 ID は cookie よりも信頼性の高いユーザー識別方法です。
 
-モバイル訪問者が使用している携帯電話会社のホワイトリストに追加されると、訪問者識別の変更を改善できます。携帯電話会社の訪問者 ID を利用するには、携帯電話会社に連絡して、ドメインをホワイトリストに追加するように依頼してください。さらに、携帯電話会社のホワイトリストに追加されると、それまでアクセスできなかった加入者 ID ヘッダーにアクセスできるようになります。
+モバイル訪問者が使用する通信事業者の「許可」リストに追加されると、訪問者の識別に関する変更を改善できます。 通信業者の訪問者IDにアクセスするには、通信業者に連絡して、使用可能なリストにドメインを追加してください。 通信事業者の許可リストを使用している場合は、他の方法ではアクセスできないサブスクライバIDヘッダにもアクセスできます。
 
 以下のヘッダー一覧は、ワイヤレスデバイスを識別するために使用します。ヘッダー処理アルゴリズムは、次の処理をおこないます。
 
@@ -145,13 +147,13 @@ cookie には cookie の削除、cookie の承認、ゲートウェイ cookie �
 
 例えば、「callinglineid」は、「X-Up-Calling-Line-ID」および「nokia-callinglineid」に一致します。ヘッダータイプは、ヘッダーの内容を示します。ヘッダーの優先順位はこの表の並びのとおりです（「callinglineid」ヘッダーが存在する場合、そのヘッダーが「subno」の代わりに使用されます）。
 
-[動的変数](../implement/vars/page-vars/dynamic-variables.md)を使用すると、ヘッダーから特定の値を抽出できます。
+次を使用できます。[動的変数](../implement/vars/page-vars/dynamic-variables.md)を使用すると、ヘッダーから特定の値を抽出できます。
 
 ## フォールバック ID による方法
 
 訪問者 ID による他の方法が失敗した場合、アドビでは、フォールバック cookie を設定するか、IP アドレスとユーザーエージェントの組み合わせを使用して訪問者を識別します。
 
-### フォールバック訪問者の識別方法{#section_2BA15E4FA6034C3EBF43859406343EB6}
+### フォールバック訪問者の識別方法 {#section_2BA15E4FA6034C3EBF43859406343EB6}
 
 JavaScript 1.x 版 AppMeasurement と JavaScript H.25.3（2013 年 1 月リリース）以降のバージョンは、アドビのデータ収集サーバーによって設定される cookie（`s_vi`）をブロックするブラウザーを使用している訪問者を対象とした、新しいフォールバック訪問者の識別方法を備えています。以前は、cookie を設定できない場合、データ収集時に IP アドレスとユーザーエージェント文字列の組み合わせを使用して訪問者を識別していました。
 
