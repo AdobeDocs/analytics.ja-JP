@@ -3,7 +3,10 @@ description: モバイルデバイスからの Web サイトへのアクセス�
 title: モバイルレポート
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1379'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 モバイルデバイスからの Web サイトへのアクセスに関する情報が表示されます。モバイルレポートは、サイトの閲覧に使用されたモバイルデバイスについてのデータを収集することで訪問者の識別を改善します。モバイルレポートからは、デバイスの製造元、および画面サイズ、ビデオ、オーディオ、cookie のサポートなどの機能を識別できます。モバイルレポートはすべてのレポートスイートで使用できます。
 
-モバイルデバイスによる訪問者をさらに認識しやすくするには、ドメインへの加入者 ID を送信する通信業者のリスト（ホワイトリスト）に登録されていることが必要です（通信業者は、**[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL ドメイン]**&#x200B;で閲覧できます）。
+モバイルデバイスの訪問者識別を改善するには、ドメインに加入者IDを送信する通信業者のリスト(「許可」リスト)に登録する必要があります。 （通信業者は、**[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL ドメイン]**&#x200B;で閲覧できます）。
 
 >[!NOTE] モバイルデバイスでレポートを表示するには、[Experience Cloud](https://login.experiencecloud.adobe.com) にログインします。
 
