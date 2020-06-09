@@ -5,6 +5,9 @@ topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 100%
 
 ---
 
@@ -30,6 +33,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    1. 「**[!UICONTROL 閲覧ユーザーを選択]**」をクリックします。
    1. 「**[!UICONTROL すべてをオンにする]**」をクリックするか、ユーザー名の隣にあるボックスをオンにします。
    1. 「**[!UICONTROL 保存]**」をクリックします。
+
    これにより、カレンダーイベントがより一層使いやすくなります。ユーザーのレポート上にオーバーレイを強制して、より多くのコンテキストを表示することができるようになりました。
 1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL カレンダーイベント]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 共有されたカレンダーイベント]**」で、次のいずれかのオプションを指定します。
