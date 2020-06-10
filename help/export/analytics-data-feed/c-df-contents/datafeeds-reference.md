@@ -5,8 +5,11 @@ subtopic: data feeds
 title: データ列リファレンス
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 99%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `click_context_type` | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0：ページ URL<br>1：ページ名 | tinyint unsigned |
 | `click_sourceid` | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。レガシー ClickMap ツールの一部。 | int unsigned |
 | `click_tag` | 廃止。クリックされた HTML 要素のタイプ。 | char(10) |
-| `clickmaplink` | Activity Maplink | varchar(255) |
+| `clickmaplink` | アクティビティマップリンク | varchar(255) |
 | `clickmaplinkbyregion` | Activity Map 地域別リンク | varchar(255) |
 | `clickmappage` | Activity Map ページ | varchar(255) |
 | `clickmapregion` | Activity Map 地域 | varchar(255) |
@@ -256,8 +259,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `videoshow` | ビデオショー | varchar(255) |
 | `videoshowtype` | ビデオショーのタイプ | varchar(255) |
 | `videostreamtype` | ビデオストリームのタイプ | varchar(255) |
-| `visid_high` | visid_low と組み合わせて使用し、訪問を一意に識別します。 | bigint unsigned |
-| `visid_low` | visid_high と組み合わせて使用し、訪問を一意に識別します。 | bigint unsigned |
+| `visid_high` | visid_lowと組み合わせて訪問者を一意に識別するために使用します。 | bigint unsigned |
+| `visid_low` | visid_highと組み合わせて訪問者を一意に識別するために使用します。 | bigint unsigned |
 | `visid_new` | 新しく生成された訪問者 ID がヒットに含まれているかどうかを識別するフラグ。 | char(1) |
 | `visid_timestamp` | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX 時間）を示します。 | int |
 | `visid_type` | 訪問者の識別に使用された方法を表す数値 ID。<br>0：カスタム 訪問者 ID<br>1：IP およびユーザーエージェントのフォールバック<br>2：HTTP モバイル加入者ヘッダー<br>3：従来のcookie値（s_vi）<br>4：フォールバックcookieの値（s_fid）<br>5：ID サービス | tinyint unsigned |
