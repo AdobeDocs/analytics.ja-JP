@@ -2,10 +2,10 @@
 description: ターゲット用のAnalytics(A4T)パネルを使用すると、Adobe WorkspaceでAdobeターゲットのアクティビティとエクスペリエンスを分析できます。
 title: ターゲット用のAnalytics(A4T)パネル
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: f688748e21b2b494845c682b380b12d3d346bfd3
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 14%
+source-wordcount: '717'
+ht-degree: 13%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL ターゲット用のAnalytics(A4T)]** パネルは、現在制限付きのテスト中です。 [詳細情報](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL ターゲット用のAnalytics(A4T)]** パネルは、現在制限付きのテスト中です。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/landing/an-releases.html)
 
 Analytics forターゲット(A4T)パネルを使用すると、Adobe WorkspaceでのAdobeターゲットのアクティビティとエクスペリエンスを分析できます。 また、最大3つの成功指標に対する上昇率と信頼性を確認することもできます。 A4Tパネルにアクセスするには、A4Tコンポーネントが有効なレポートスイートに移動します。 次に、左端のパネルアイコンをクリックし、Analytics forターゲットパネルを分析ワークスペースプロジェクトにドラッグします。
 
-## パネルビルダ
+## A4Tパネルビルダー
 
 A4Tパネルは、次の設定を使用して設定できます。
 
@@ -27,12 +27,12 @@ A4Tパネルは、次の設定を使用して設定できます。
 | ターゲットアクティビティ | ターゲットアクティビティのリストから選択するか、左のレールからアクティビティをドラッグ&amp;ドロップします。<br>**注意：**リストには、少なくとも1回のヒットを持つ過去6か月のアクティビティが入力されます。 リストにアクティビティが表示されない場合は、6か月を超えている可能性があります。 この機能は、最大18か月のルックバック期間を持つ左側のレールから追加できます。 |
 | コントロールエクスペリエンス | コントロールのエクスペリエンスを選択します。 必要に応じて、ドロップダウンで変更できます。 |
 | 指標の標準化 | 個別訪問者数、訪問回数、アクティビティインプレッション数から選択します。 ほとんどの分析の使用例では、実訪問者を使用することをお勧めします。 |
-| 成功指標 | ドロップダウンから最大3つの標準成功イベントを選択するか、左側のパネルから指標をドラッグ&amp;ドロップします。 各指標は、レンダリングされたパネルに専用のテーブルとビジュアライゼーションを持ちます。 |
+| 成功指標 | ドロップダウンから最大3つの標準（計算されていない）成功イベントを選択するか、左のパネルから指標をドラッグ&amp;ドロップします。 各指標は、レンダリングされたパネルに専用のテーブルとビジュアライゼーションを持ちます。 |
 | カレンダーの日付範囲 | これにより、Adobeターゲットのアクティビティ日付範囲に基づいて自動入力されます。 必要に応じて変更できます。 |
 
 ![](assets/a4t-panel-builder.png)
 
-## パネル出力
+## A4Tパネルの出力
 
 ターゲット版Analyticsパネルには、豊富なデータおよびビジュアライゼーションのセットが返され、Adobeターゲットのアクティビティとエクスペリエンスのパフォーマンスをより深く理解できます。 パネルの上部に、選択したパネル設定を示す概要行が表示されます。 右上の編集鉛筆をクリックすると、いつでもパネルを編集できます。
 
@@ -55,4 +55,12 @@ A4Tパネルは、次の設定を使用して設定できます。
 
 分析ワークスペースのパネルと同様に、Adobeターゲットアクティビティの分析に役立つテーブルや [ビジュアライゼーションを追加して、分析を続行できます](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) 。
 
-ターゲットレポートのためのAnalyticsに関するその他のオプションについては、 [A4Tレポートにアクセスしてください](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
+## A4TパネルのFAQ
+
+| 質問 | 回答 |
+|---|---|
+| A4Tでサポートされるアクティビティのタイプは何ですか？ | [サポートされるアクティビティの種類について詳しく説明します](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) 。 |
+| 計算指標はA4Tレポートでサポートされていますか？ | いいえ。[計算指標がサポートされない理由の詳細](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 。 |
+| 個別訪問者数がターゲットとAnalyticsで異なるのはなぜですか。 | [製品間の個別訪問者の相違についての詳細](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) 。 |
+
+ターゲットレポートのためのAnalyticsについて詳しくは、 [A4Tのレポートを参照してください](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
