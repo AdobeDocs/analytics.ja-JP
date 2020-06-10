@@ -5,7 +5,10 @@ title: 仮想レポートスイートとグローバル／複数のスイート�
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '1735'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +55,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 個別のディメンションと指標の数が単一のグローバルレポートスイートに収まることを確認します。一意のディメンションまたは指標が多すぎる場合は、各実装内の各ディメンションを確認します。ビジネスの成功にとって重要でない重複やディメンションが存在する可能性があります。[分類](/help/components/c-classifications2/c-classifications.md)の使用も検討します。例えば、eVar5 で「商品名」を取得する代わりに、「商品」のディメンションに基づいた「商品名」の分類を作成します。ソースレポートスイートの分類は、依存する仮想レポートスイートで自動的に使用できます。
 
->[!TIP][キュレーション](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md)を導入すると、VRS ごとに特定のディメンションや指標の名前を変更できるようになります。
+>[!TIP][キュレーション](/help/analyze/analysis-workspace/curate-share/curate.md)を導入すると、VRS ごとに特定のディメンションや指標の名前を変更できるようになります。
 
 ### セグメントのニュアンス
 
