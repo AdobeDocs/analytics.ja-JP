@@ -4,7 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [マーケティングチャネル](admin/marketing-channels-admin.md)
    + [メニューのカスタマイズ](admin/customize-menus.md)
    + [指標の表示](admin/metric-visibility.md)
-   + [モバイル管理](admin/mobile-management.md)
+   + [アプリ管理](admin/mobile-management.md)
    + 有料検索検知 {#paid-search-detection}
       + [有料検索検知の概要](admin/paid-search-detection/paid-search-detection.md)
       + [有料検索検知の設定](admin/paid-search-detection/t-paid-search-detection.md)
