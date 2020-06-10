@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f29a9eef7dcdb0568a947521ca32f7aa0c2ce5b7
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 97%
+source-wordcount: '1099'
+ht-degree: 96%
 
 ---
 
@@ -93,8 +93,9 @@ ht-degree: 97%
          + [セグメント比較の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + プロジェクトのキュレーションおよび共有 {#curate-share}
-      + [キュレーション／共有の概要](analysis-workspace/curate-share/curate.md)
-      + [VRS およびプロジェクトのキュレーション](analysis-workspace/curate-share/curate-projects-vrs.md)
+      + [Workspaceプロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
+      + [Workspaceプロジェクトを共有](analysis-workspace/curate-share/share-projects.md)
+      + [表示のみのWorkspaceプロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
       + [プロジェクトファイルの共有およびスケジュール](analysis-workspace/curate-share/send-schedule-files.md)
       + [ファイルの送信 - プロジェクトの配信スケジュールの設定](analysis-workspace/curate-share/t-schedule-report.md)
