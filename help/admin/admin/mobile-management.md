@@ -1,19 +1,21 @@
 ---
-description: モバイル管理を有効にすると、モバイルアプリケーションからライフサイクルと他の指標をキャプチャするモバイルソリューション変数がアクティブ化されます。
-title: モバイル管理
+description: アプリ管理を有効にすると、モバイルアプリケーションからライフサイクルや他の指標をキャプチャするモバイルソリューション変数がアクティブになります。
+title: アプリ管理
 topic: Admin tools
-uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 89%
 
 ---
 
 
-# モバイル管理
+# アプリ管理
 
-モバイル管理を有効にすると、モバイルアプリケーションからライフサイクルと他の指標をキャプチャするモバイルソリューション変数がアクティブ化されます。
+アプリ管理を有効にすると、モバイルアプリケーションからライフサイクルや他の指標をキャプチャするモバイルソリューション変数がアクティブになります。
 
-Adobe Analytics と Mobile Services のこの統合により、
+Adobe AnalyticsとMobile Servicesの統合：
 
 * Mobile Services の KPI（主要なパフォーマンスインジケーター）データを Adobe Analytics と共有できます。
 * ロケーションの追跡を有効にできます。
@@ -23,7 +25,7 @@ Adobe Analytics と Mobile Services のこの統合により、
 *  Adobe Mobile ディメンションが追加されます。
 * 15 分ごとにデータが Analytics に同期されます
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL モバイル管理]**／**[!UICONTROL モバイルアプリケーションレポート]**。
+**[!UICONTROL Analytics]** /管理者 **[!UICONTROL /]** レポートスイート **[!UICONTROL /設定の編集]** /設定の編集/ **[!UICONTROL アプリ管理アプリレポートアプリ管理アプリ管理アプリを]**********&#x200B;します。
 
 ## 手順 1.アプリレポートを有効にする {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -47,7 +49,7 @@ Adobe Analytics と Mobile Services のこの統合により、
 
 有効なバックグラウンドヒット（アプリがバックグラウンドにあるときに生成されたヒット）とは、ヒットが通常のフォアグラウンドヒットとして扱われることを意味します。有効なバックグラウンドヒットは、通常のレポートに表示され、属性にも影響します。通常、この設定は、レガシー実装との一貫性を保つ目的でのみ使用することをお勧めします。
 
-代わりに、[仮想レポートオスイート](/help/components/vrs/vrs-about.md)に「バックグラウンドヒットを含める」ことをお勧めします。こうすることで、ヒットは表示されますが、訪問および訪問者カウントには影響しなくなります。**[!UICONTROL モバイル管理]**／**[!UICONTROL モバイルアプリケーションレポート]**&#x200B;を有効にすると、モバイル分類が有効になります。
+代わりに、[仮想レポートオスイート](/help/components/vrs/vrs-about.md)に「バックグラウンドヒットを含める」ことをお勧めします。こうすることで、ヒットは表示されますが、訪問および訪問者カウントには影響しなくなります。Mobile classifications are enabled after you enable **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
 
 分類は数値データをグループにカテゴリ化してグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「ポップミュージック用語」というカテゴリに入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に対してそのカテゴリの成功をレポートします。
 
