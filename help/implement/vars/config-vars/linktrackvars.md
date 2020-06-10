@@ -2,7 +2,10 @@
 title: linkTrackVars
 description: リンクトラッキングイメージリクエストに含める変数を指定します。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 88%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 一部の実装では、すべての変数をすべてのリンクトラッキングイメージリクエストに含めたくない場合があります。`linkTrackVars` 変数と [`linkTrackEvents`](linktrackevents.md) 変数を使用して、[`tl()`](../functions/tl-method.md) の呼び出しにディメンションと指標を選択的に含めます。
 
-This variable is not used for page view calls (`t()` method).
+This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
 
 ## Adobe Experience Platform Launch を使用したリンクトラッキングコールの変数
 
@@ -24,7 +27,7 @@ This variable is not used for page view calls (`t()` method).
 The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). リンクトラッキングヒットにディメンションを含めるには、次の両方の条件を満たす必要があります。
 
 * 目的の変数値を設定します。例：`s.eVar1 = "Example value";`。
-* 目的の変数を `linkTrackVars` 変数に設定します。例：`s.linkTrackEvents = "eVar1";`。
+* 目的の変数を `linkTrackVars` 変数に設定します。例：`s.linkTrackVars = "eVar1";`。
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
