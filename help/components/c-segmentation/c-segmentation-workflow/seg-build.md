@@ -4,10 +4,10 @@ title: セグメントの構築
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
+source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 92%
+source-wordcount: '2037'
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,6 @@ ht-degree: 92%
    * **[!UICONTROL 繰り返し]** （デフォルト）: ディメンションのインスタンスと永続化された値が含まれます。
    * **[!UICONTROL インスタンス]**：ディメンションに直接的にセットされるインスタンスのみが対象になります。
    * **[!UICONTROL 繰り返さないインスタンス]**：後続のヒットで同じ値が連続的に繰り返されるヒットを除いたインスタンスのみが対象になります。これは、繰り返しインスタンスが除外される場合にフローに適用されるモデルです。
-
    ![](assets/attribution-models.jpg)
 
    **例： eVar1 = Aであるヒットセグメント**
@@ -75,19 +74,7 @@ ht-degree: 92%
 
 日付範囲が埋め込まれているセグメントの動作は、今後も Analysis Workspace と [!UICONTROL Reports &amp; Analytics] では異なります。ワークスペースでは、日付範囲が埋め込まれているセグメントがパネルの日付範囲より優先されます。これに対して、[!UICONTROL Reports &amp; Analytics] では、レポートの日付範囲とセグメントの埋め込みの日付範囲が重なる期間のみが対象期間になります。
 
-**[!UICONTROL Experience Cloud に公開（`<report suite name>`用）]**:（画面に表示されません）このオプションは、このセグメントの保存先のレポートスイートが [Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) に対して有効になっている場合にのみ表示されます。Experience Cloud にセグメントを公開すると、そのセグメントを[!UICONTROL オーディエンスライブラリ]、[!DNL Target] および [!DNL Audience Manager] のマーケティングアクティビティで使用できます。公開するためには、セグメントタイトルと説明が必須です。
-
->[!NOTE]Analytics では、公開されたセグメントを編集または削除できます。セグメントが使用中の場合は、セグメントを編集すると、警告メッセージが表示されます。Adobe [!DNL Target] によって使用されている公開したセグメントは削除できません。
-
-![](assets/segment_publish_to_mac_copy.png)
-
->[!IMPORTANT]
->
->処理で追加の遅れが生じないように、Analytics から共有されるオーディエンスの数は、20 までに制限する必要があります。Analytics から Experience Cloud に共有するオーディエンスの個別メンバーの数が 2,000 万を超えてはなりません。キャッシュの影響で、Analytics で削除したレポートスイートが Experience Cloud に反映されるまで 12 時間かかります。
-
->[!IMPORTANT]
->
->訪問者が Analytics から共有されるオーディエンスの資格を得てから、その情報が [!DNL Advertising Cloud]、[!DNL Target] および [!DNL Campaign] で対応可能になるまでに、24～48 時間の遅延があります。
+**[!UICONTROL Experience Cloudの公開]**: （画面に表示されません）このオプションは、このセグメントの保存先のレポートスイートがExperience Cloud [に対して有効になっている場合にのみ表示されます](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。 Experience Cloud にセグメントを公開すると、そのセグメントを[!UICONTROL オーディエンスライブラリ]、[!DNL Target] および [!DNL Audience Manager] のマーケティングアクティビティで使用できます。[エクスペリエンスクルードの公開について詳しくは](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 、
 
 ## セグメントの構築 {#build-segments}
 
