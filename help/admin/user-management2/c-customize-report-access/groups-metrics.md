@@ -6,7 +6,10 @@ title: 指標の権限のカスタマイズ
 topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
 
@@ -15,25 +18,25 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 トラフィック指標、コンバージョン指標、カスタムイベント、ソリューションイベントおよびコンテンツ対応に関する権限を有効にします。
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Metrics]** > **[!UICONTROL Customize]**
+**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL 指標]**／**[!UICONTROL カスタマイズ]**
 
-The settings on the Customize Metrics page apply to the report suites selected on the [!UICONTROL Define User Groups] page.
+カスタム指標ページの設定は、[!UICONTROL ユーザーグループの定義]ページで選択されたレポートスイートに適用されます。
 
 ![](assets/customize-metrics.png)
 
 ## ソリューションイベント
 
-[カスタムイベント](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html)に加えて、このカテゴリには、Experience Manager（AEM）、Advertising Cloud（AMO）、モバイル、ビデオおよびソーシャルを含む、Analytics ソリューションイベントが含まれます。指標を含むすべてのカスタムグループには、新しい指標として追加されたすべての Analytics ソリューションイベントがあります。
+[カスタムイベント](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/events/event-serialization.html)に加えて、このカテゴリには、Experience Manager（AEM）、Advertising Cloud（AMO）、モバイル、ビデオおよびソーシャルを含む、Analytics ソリューションイベントが含まれます。指標を含むすべてのカスタムグループには、新しい指標として追加されたすべての Analytics ソリューションイベントがあります。
 
 カスタムイベントおよび Analytics ソリューションイベント（AEM、AMO、Mobile、Video、Social）に権限を設定できます。
 
 指標を含むすべてのカスタムグループには、新しい指標として追加されたすべての Analytics ソリューションイベントがあります。
 
-Analytics で使用される指標について詳しくは、[指標の概要](/help/components/c-variables/c-metrics/metricslist.md)を参照してください。
+Analytics で使用される指標について詳しくは、[指標の概要](/help/components/metrics/overview.md)を参照してください。
 
 ## コンテンツ対応
 
