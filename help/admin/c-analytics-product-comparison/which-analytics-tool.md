@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 98%
+source-wordcount: '1102'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 * データを Adobe Analytics にアップロードする必要があるときに Adobe AppMeasurement またはモバイル SDK コードを使用できない場合。
 
-**[顧客属性](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**は以下の場合に使用します。
+**[顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)**は以下の場合に使用します。
 
 * 顧客関係管理（CRM）データベースに取り込んだエンタープライズ顧客データを Experience Cloud にアップロードする場合。
 * CRM データを Analytics でより詳しく分析する場合または Adobe Target のターゲティング条件として使用する場合。
