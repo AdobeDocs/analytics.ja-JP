@@ -4,7 +4,7 @@ title: Analysis Workspace の概要
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 32%
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 Analysis Workspace では、単一の Analytics レポートの通常の制限事項がすべて取り除かれます。堅牢かつ柔軟なキャンバスでカスタム分析プロジェクトを作成できます。任意の数のデータテーブル、ビジュアライゼーション、コンポーネント（ディメンション、指標、セグメントおよび時間の精度）をプロジェクトにドラッグ＆ドロップします。分類およびセグメントの作成、分析用のコホートの作成、アラートの作成、セグメントの比較、フローおよびフォールアウト分析をすばやくおこなうほか、レポートのキュレーションとスケジュールをおこなって会社の任意のユーザーと共有します。
 
-このページでは、作業を開始するための基本的な手順について説明します。 基本を習得したら、Workspaceの高度な機能に進むことができます。 例えば、アトリビューションIQ [、](/help/analyze/analysis-workspace/attribution-iq.md)異常値検出 [、](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)貢献度分析 [、](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)Iqセグメント、 [Iqセグメント、インテリジェントアラート、インテリジェントアラートな](/help/analyze/analysis-workspace/segment-iq.md)[](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)どです。
+このページでは、作業を開始するための基本的な手順について説明します。 基本を習得したら、Workspaceの高度な機能に進むことができます。 例えば、アトリビューションIQ [、](/help/analyze/analysis-workspace/attribution/overview.md)異常値検出 [、](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)貢献度分析 [、](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)Iqセグメント、 [Iqセグメント、インテリジェントアラート、インテリジェントアラートな](/help/analyze/analysis-workspace/segment-iq.md)[](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)どです。
 
 Workspaceの概要ビデオを次に示します。
 
@@ -33,7 +33,7 @@ Workspaceの概要ビデオを次に示します。
 プロジェクトには、データテーブルと任意の数のビジュアライゼーションを含め、詳細に調べることができます
 
 
-## テーブルを作成する2つの方法
+## テーブルの2つの作成方法
 
 ## 分析に対する一般的なアプローチ
 
