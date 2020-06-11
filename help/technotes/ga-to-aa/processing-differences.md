@@ -2,7 +2,7 @@
 title: 分析プラットフォーム間の処理方法とアーキテクチャの違い
 description: Adobe Analytics や Google Analytics などの複数のプラットフォーム間で、一部のデータの収集方法と表示方法が異なる場合について説明します。
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 66%
@@ -25,7 +25,7 @@ Adobe Analytics と Google Analytics はどちらも分析ツールですが、�
 
 To achieve better parity between reporting tools, use the [!UICONTROL Single Page Visits] metric in Adobe Analytics instead of [!UICONTROL Bounces] as part of a calculated metric. The [!UICONTROL Single Page Visits] metric includes the total number of visits that only included one-page view, or visits that enter the website but do not include a click to another page.
 
-詳しくは、コンポーネントユーザーガイドの「[バウンス率](/help/components/c-variables/c-metrics/metrics-bounce-rate.md)」を参照してください。
+詳しくは、コンポーネントユーザーガイドの「[バウンス率](/help/components/metrics/bounce-rate.md)」を参照してください。
 
 ## [!UICONTROL 訪問回数とセッション数]
 
@@ -36,4 +36,4 @@ To achieve better parity between reporting tools, use the [!UICONTROL Single Pag
 * **手動によるセッションの上書き：** Google Analytics では、`sessionControl` を使用してセッションを手動で開始または終了すると、新しいセッションが開始されます。[!UICONTROL Adobe Analytics では、訪問を手動で終了することはできません。]
 * **Adobe Analyticsでの外れ値の訪問検出：** Adobe Analyticsの新しい [!UICONTROL 訪問] ：連続アクティビティが12時間続いた場合、2,500ヒットまたは100ヒットに達した場合、100秒以内に開始が自動的に発生します。 これらの各検出条件は通常、ボットアクティビティによってトリガーされます。
 
-詳しくは、コンポーネントユーザーガイドの「[訪問回数指標](/help/components/c-variables/c-metrics/metrics-visit.md)」を参照してください。
+詳しくは、コンポーネントユーザーガイドの「[訪問回数指標](/help/components/metrics/visits.md)」を参照してください。
