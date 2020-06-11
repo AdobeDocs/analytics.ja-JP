@@ -3,7 +3,10 @@ description: ヒストグラムは、Analysis Workspace の新しいビジュア
 title: ヒストグラム
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 97%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ヒストグラムを作成するには
 
-1. Click **[!UICONTROL Visualizations]** in the left rail.
-1. Drag **[!UICONTROL Histogram]** to the panel.
-1. Choose a Metric to drag to the Histogram visualization and click **[!UICONTROL Build]**.
+1. 左側のパネルで、**[!UICONTROL ビジュアライゼーション]**&#x200B;をクリックします。
+1. **[!UICONTROL ヒストグラム]**&#x200B;をパネルにドラッグします。
+1. 指標を選択してヒストグラムビジュアライゼーションにドラッグし、「**[!UICONTROL ビルド]**」をクリックします。
 
 ![](assets/histogram.png)
 
@@ -37,7 +40,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 | 開始グループ | どのグループからヒストグラムが始まるかを決定します。1 がデフォルトです。開始の数を 0 から無限大まで（負の数はなし）設定できます。 |
 | 指標グループ | データ範囲（グループ）の数を増減できます。グループの最大数は 50 です。 |
 | 指標グループのサイズ | 各グループのサイズを設定できます。例えば、グループサイズを 1 ページビューから 2 ページビューに変更できます。 |
-| カウント方法 | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). 例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルの y 軸指標として、「回数」が使用されます。 |
+| カウント方法 | Lets you choose among [Visitor](/help/components/metrics/unique-visitors.md), [Visit](/help/components/metrics/visits.md), or [Hit Type](/help/components/dimensions/hit-type.md). 例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルの y 軸指標として、「回数」が使用されます。 |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -48,11 +51,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## ヒストグラムデータの表示と編集 {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-To view or change the data source for the histogram chart, click the dot next to the Histogram header to go to **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
+ヒストグラムのデータソースを表示または変更するには、ヒストグラムヘッダーの隣の点をクリックして、**[!UICONTROL データソース設定]**／**[!UICONTROL データソースを表示]**&#x200B;に移動します。
 
 ![](assets/manage-data-source.png)
 
-テーブルに表示される事前に作成されたセグメントは、内部セグメントで、セグメントセレクターには表示されません。Click the &quot;i&quot; icon next to the segment name, then click **[!UICONTROL Make public]** to make the segment public.
+テーブルに表示される事前に作成されたセグメントは、内部セグメントで、セグメントセレクターには表示されません。セグメント名の横にある「i」アイコンをクリックし、「**[!UICONTROL 公開する]**」をクリックしてセグメントを公開します。
 
 ![](assets/prebuilt_segments.png)
 
