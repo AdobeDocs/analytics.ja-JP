@@ -2,7 +2,10 @@
 title: Adobe Analytics での獲得レポート
 description: Analysis Workspace を使用して獲得ベースのレポートを作成する方法について説明します。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -53,9 +56,9 @@ Adobe Analytics では、獲得レポートは&#x200B;**マーケティングチ
 
 各ディメンションについて詳しくは、コンポーネントユーザーガイドの以下のページを参照してください。
 
-* [参照ドメイン](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [リファラータイプ](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [検索キーワード](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [参照ドメイン](/help/components/dimensions/referring-domain.md)
+* [リファラータイプ](/help/components/dimensions/referrer-type.md)
+* [検索キーワード](/help/components/dimensions/search-keyword.md)
 
 ## すべてのトラフィック - リファラル
 
@@ -65,7 +68,7 @@ Adobe Analytics では、獲得レポートは&#x200B;**マーケティングチ
 1. コンポーネントメニューで&#x200B;**参照ドメイン**&#x200B;ディメンションまたは&#x200B;**入口ページ**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-詳しくは、コンポーネントユーザーガイドの「[参照ドメイン](/help/components/c-variables/dimensionslist/reports-referring-domains.md)」を参照してください。
+詳しくは、コンポーネントユーザーガイドの「[参照ドメイン](/help/components/dimensions/referring-domain.md)」を参照してください。
 
 ## Google 広告レポートと検索コンソールレポート
 
