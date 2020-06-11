@@ -1,18 +1,21 @@
 ---
 description: プロジェクトの共有とキュレーションをおこなえるほか、今すぐまたはスケジュールに従って、プロジェクトファイルを（PDF または CSV 形式で）送信できます。
-title: プロジェクトファイルの共有およびスケジュール
+title: 共有メニュー
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 96%
 
 ---
 
 
-# プロジェクトファイルの共有およびスケジュール
+# 共有メニュー
 
 プロジェクトの共有とキュレーションをおこなえるほか、今すぐまたはスケジュールに従って、プロジェクトファイルを（PDF または CSV 形式で）送信できます。
 
-**[!UICONTROL Workplace]**／**[!UICONTROL Share]**
+**[!UICONTROL 勤務先]**／**[!UICONTROL 共有]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
@@ -24,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> プロジェクトを共有 </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > 詳細情報</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > 詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> プロジェクトリンクを取得 </td> 
