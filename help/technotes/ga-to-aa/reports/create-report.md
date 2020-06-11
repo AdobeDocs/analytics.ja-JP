@@ -2,7 +2,10 @@
 title: Analysis Workspace での基本レポートの作成
 description: Google Analytics などのサードパーティツールに詳しいユーザー向けに、Analysis Workspace で基本レポートを作成する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +39,7 @@ Analysis Workspace は既製レポートではなくキャンバスのような�
 1. 「新規プロジェクトを作成」ボタンをクリックします。
 1. モーダルポップアップで「空白のプロジェクト」が選択されていることを確認し、「作成」をクリックします。
 1. 左側に、ディメンション、指標、セグメントおよび日付範囲のリストが表示されます。ページディメンション（オレンジ色）を見つけ、「ここにディメンションをドロップ」というラベルが付いたキャンバスにドラッグします。
-1. 今月の上位ページを示すレポートが表示されます。Analysis Workspace は、[回数](/help/components/c-variables/c-metrics/metrics-occurrences.md)指標を使用してレポートに自動的に入力します。
+1. 今月の上位ページを示すレポートが表示されます。Analysis Workspace は、[回数](/help/components/metrics/occurrences.md)指標を使用してレポートに自動的に入力します。
 1. 通常、Google Analytics のテーブルには 7 ～ 8 個の指標が含まれています。バウンス率指標（緑色）を選択し、回数指標ヘッダーの横にドラッグします。「回数」の横にバウンス率指標をドラッグすると、両方の指標が並べて表示されます。
 1. 既存の指標ヘッダーの横にある指標をドラッグすると、多くの指標を並べて配置できます。Google Analytics で一般的に使用される指標の取得方法について詳しくは、「[一般的に使用される指標](common-metrics.md)」を参照してください。
 
