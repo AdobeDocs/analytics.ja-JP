@@ -2,7 +2,10 @@
 title: 他のプラットフォームでよく使用される指標の互換性ガイド
 description: Google Analytics に詳しいユーザー向けに、一般的なレポートの指標データを取り込む方法をわかりやすく説明します。
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ Google Analytics などの他のプラットフォームでは、多くのレポ
 
 ## 獲得指標
 
-**ユーザー数**&#x200B;は、Workspace の&#x200B;**個別訪問者数**&#x200B;とほぼ同じ役割を果たします。詳しくは、コンポーネントユーザーガイドの「[個別訪問者数](/help/components/c-variables/c-metrics/metrics-unique-visitors.md)指標」を参照してください。
+**ユーザー数**&#x200B;は、Workspace の&#x200B;**個別訪問者数**&#x200B;とほぼ同じ役割を果たします。詳しくは、コンポーネントユーザーガイドの「[個別訪問者数](/help/components/metrics/unique-visitors.md)指標」を参照してください。
 
 **新規ユーザー数**&#x200B;は、次の方法で取得できます。
 
@@ -26,13 +29,13 @@ Google Analytics などの他のプラットフォームでは、多くのレポ
 
    ![初回訪問回数](../assets/first_time_visits.png)
 
-**セッション数**&#x200B;は、Analysis Workspace の&#x200B;**訪問回数**&#x200B;とほぼ同じ役割を果たします。詳しくは、コンポーネントユーザーガイドの「[訪問回数](/help/components/c-variables/c-metrics/metrics-visit.md)指標」を参照してください。
+**セッション数**&#x200B;は、Analysis Workspace の&#x200B;**訪問回数**&#x200B;とほぼ同じ役割を果たします。詳しくは、コンポーネントユーザーガイドの「[訪問回数](/help/components/metrics/visits.md)指標」を参照してください。
 
 ![獲得指標](../assets/acquisition_metrics.png)
 
 ## 行動指標
 
-**バウンス率**&#x200B;は、Analysis Workspace では指標としてすぐに使用できます。詳しくは、コンポーネントユーザーガイドの「[バウンス率](/help/components/c-variables/c-metrics/metrics-bounce-rate.md)指標」を参照してください。
+**バウンス率**&#x200B;は、Analysis Workspace では指標としてすぐに使用できます。詳しくは、コンポーネントユーザーガイドの「[バウンス率](/help/components/metrics/bounce-rate.md)指標」を参照してください。
 
 **ページ／セッション**&#x200B;は計算指標です。この指標は、次の方法で取得できます。
 
@@ -48,9 +51,9 @@ Google Analytics などの他のプラットフォームでは、多くのレポ
 7. 「保存」をクリックして、ワークスペースに戻ります。
 8. 新しく定義した計算指標をワークスペースにドラッグします。
 
-   [計算指標](/help/components/c-variables/c-metrics/calculated-metric.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
+   [計算指標](/help/components/c-calcmetrics/cm-overview.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
 
-**平均セッション時間**&#x200B;は、**訪問別滞在時間（秒）**&#x200B;とほぼ同じ役割を果たします。[滞在時間](/help/components/c-variables/c-metrics/metrics-time-spent.md)指標について詳しくは、コンポーネントユーザーガイドを参照してください。
+**平均セッション時間**&#x200B;は、**訪問別滞在時間（秒）**&#x200B;とほぼ同じ役割を果たします。Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
 
 ## コンバージョン指標
 
