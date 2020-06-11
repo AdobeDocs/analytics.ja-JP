@@ -2,7 +2,10 @@
 title: visitorID
 description: カスタム訪問者 ID を使用します。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 71%
 
 ---
 
@@ -33,3 +36,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 ```js
 s.visitorID = "abc123";
 ```
+
+>[!CAUTION] カスタム訪問者IDを無効に実装すると、データが正しくなくなり、レポートのパフォーマンスが低下する可能性があります。 この変数にデフォルト値( `"0"` やなど `"NULL"`)が含まれている場合、これらのヒットは同じ訪問者であるかのように扱われます。 この状況では、誤ったデータが返され、訪問者数と訪問者レベルのセグメントが期待どおりに機能しなくなります。 また、カスタム訪問者IDが誤って実装されると、処理サーバーに負荷がかかり、 [待ち時間が増加し](/help/technotes/latency.md) 、レポートのパフォーマンスが低下します。
