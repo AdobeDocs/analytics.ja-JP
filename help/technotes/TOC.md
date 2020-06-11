@@ -3,8 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics テクニカルノート
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+translation-type: tm+mt
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 100%
 
 ---
 
@@ -48,5 +51,4 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 + [ログインのトラブルシューティング](troubleshoot-login.md)
 + [ログアウトのトラブルシューティング](troubleshoot-sessions.md)
 + [未指定、その他および不明](unspecified.md)
-+ [訪問者の識別](visitor-identification.md)
 + [訪問者の移行](visitor-migration.md)
