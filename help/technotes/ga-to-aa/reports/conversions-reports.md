@@ -2,7 +2,10 @@
 title: Adobe Analytics のコンバージョンレポート
 description: Adobe Analytics でコンバージョンレポートを使用する方法について説明します。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ Analysis Workspace では、これらのデータはフォールアウトビジ�
 
 e コマースレポートは通常、製品やサービスを販売するサイトにおける品目の注文数と売上高を測定するために使用されます。Adobe Analytics では、製品レポートと呼ばれています。
 
-Google Analytics の e コマースレポートと Adobe Analytics の製品レポートでは、実装をカスタマイズする必要があります。詳しくは、コンポーネントユーザーガイドの「[製品](/help/components/c-variables/dimensionslist/reports-products.md)ディメンション」を参照してください。
+Google Analytics の e コマースレポートと Adobe Analytics の製品レポートでは、実装をカスタマイズする必要があります。詳しくは、コンポーネントユーザーガイドの「[製品](/help/components/dimensions/product.md)ディメンション」を参照してください。
 
 ## マルチチャネルファネルレポート
 
