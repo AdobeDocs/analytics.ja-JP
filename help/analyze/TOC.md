@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1098'
 ht-degree: 96%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [セグメント比較の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + プロジェクトのキュレーションおよび共有 {#curate-share}
-      + [Workspaceプロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
+      + [Workspaceプロジェクトをキュレーション](analysis-workspace/curate-share/curate.md)
       + [Workspaceプロジェクトを共有](analysis-workspace/curate-share/share-projects.md)
       + [表示のみのWorkspaceプロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
