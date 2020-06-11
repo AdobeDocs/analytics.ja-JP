@@ -2,7 +2,7 @@
 title: Adobe Analytics でのレポートのカスタマイズ
 description: Adobe Analytics でレポートをカスタマイズする方法について説明します。
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 75%
@@ -68,7 +68,7 @@ Google Analytics でカスタムレポートを作成するときに必要なフ
 4. 計算指標に適切な数式を追加したら、「保存」をクリックしてワークスペースに戻ります。
 5. 新しく定義した計算指標をワークスペースにドラッグします。
 
-   [計算指標](/help/components/c-variables/c-metrics/calculated-metric.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
+   [計算指標](/help/components/c-calcmetrics/cm-overview.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
 
 ## カスタムアラート
 
