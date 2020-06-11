@@ -3,9 +3,9 @@ description: Workspaceの表示のみのプロジェクト
 keywords: View-only projects
 title: 表示のみのWorkspaceプロジェクト
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -23,12 +23,13 @@ ht-degree: 2%
 
 * 左側のレールを隠す
 * レポートスイート
-* パネルカレンダーの日付範囲注意： 受信者にカレンダー制御を付与する場合は、日付範囲を含む [ドロップダウンフィルターを追加し](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)ます。
+* パネルカレンダーの日付範囲。 注意： 受信者にカレンダー制御を付与する場合は、日付範囲を含む [ドロップダウンフィルターを追加し](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)ます。
 * フリーフォームフィルター
 * 表示可能な行のフリーフォーム数
 * フリーフォーム行、列またはビジュアライゼーションの設定
 * パネルセグメント
 * 編集、挿入、コンポーネントメニュー
+* ワークスペースのヒント
 
 ## 有効な操作
 
