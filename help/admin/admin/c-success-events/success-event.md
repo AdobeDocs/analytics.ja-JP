@@ -5,7 +5,10 @@ title: 成功イベントの概要
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 78%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
-3. 移動先/ [!UICONTROL Admin][!UICONTROL Report Suites]
-4. 目的のレポートスイートを選択し、//に移 [!UICONTROL Edit Settings] 動し [!UICONTROL Conversion] ます [!UICONTROL Success Events]。
-5. 目的のイベントを見つけ、またはに対するド [!UICONTROL Unique Event Recording] ロップダウンを [!UICONTROL Record Once Per Visit] 変更しま [!UICONTROL Use Event ID]す。
+3. Navigate to [!UICONTROL Admin] > [!UICONTROL Report Suites]
+4. 目的のレポートスイートを選択し、設定を [!UICONTROL 編集] / [!UICONTROL コンバージョン] / [!UICONTROL 成功イベント]に移動します。
+5. 目的のイベントを見つけ、「 [!UICONTROL 個別イベントの記録] 」ドロップダウンを変更して、「訪問ごとに1回 [!UICONTROL 記録する] 」または「イベントIDを [!UICONTROL 使用する]」に変更します。
 
 Web サイトのタイプに応じて、様々な種類の成功イベントがあります。次にいくつか例を示します。
 
@@ -32,11 +35,11 @@ Web サイトのタイプに応じて、様々な種類の成功イベントが�
 * **ハイテク**：ホワイトペーパーのダウンロード、RFP、フォーム入力、サポート要求
 * **自動車**：リードの送信、見積の要求、パンフレットのダウンロード
 
-[s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) 変数は、成功イベントを定義するためのものです。
+[s.events](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/events/event-serialization.html) 変数は、成功イベントを定義するためのものです。
 
 ## 成功イベントページ - 説明 {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定の編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL 成功イベント]**
 
 成功イベントページではサイトで使用するイベント変数を設定します。成功イベントは 1,000 件まで追加できます。イベント 81 - 1,000 は、H22 コード以上でのみ動作します。
 
@@ -47,7 +50,7 @@ Web サイトのタイプに応じて、様々な種類の成功イベントが�
 | タイプ | 選択されたタイプは、イベントがカウンター（標準）、数値または通貨イベントのいずれであるかを決定します。数値イベントおよび通貨イベントでは、1 つ以上の指標を増分できます。カウンターイベントは経時的にイベントを記録し、通貨イベントは税金や送料など小数点のある数字を記録します。通貨イベントに渡された値は、受け取った段階でそのページの通貨からレポートスイートのベース通貨に変換されます。通貨イベントの詳細については、アドビの担当者にお問い合わせください。数値イベントは、ある購入で使用されるクーポンの数など、通貨以外の数値を報告するために使用します。通貨イベントは、税金と送料の追跡に使用します。データソースの標準タイプで使用されるイベントは、数値イベントまたは通貨イベントでなければなりません。 |
 | 極性 | 指標の極性によって、特定のカスタムイベント（指標）が上昇する場合、Adobe Analytics でそれを良いと見なすか悪いと見なすかを指定することができます。Adobe Analytics で、様々な指標に方向指示器（矢印）を表示して、コンテキスト（例えば、前週との比較）を理解できるようになります。例：前週比で「不具合の報告」が上昇する場合、Adobe Analytics はそれを良いと見なすべきでしょうか、それとも悪いと見なすべきでしょうか。電子メール登録の増加は、おそらく良いでしょう。しかし、フォーム送信エラーの増加は、おそらく悪いでしょう。Analysis Workspace では、フリーフォームテーブル条件付き書式、概要変更の視覚化、およびマップ視覚化の正／負のカラースキームに極性が適用されます。 |
 | 説明 | イベントの目的と使用状況に関する簡単な説明です。 |
-| 個別イベントの記録 | **Record Once Per Visit**:指定したイベントを訪問者のセッションに結び付けます。 同じ訪問での特定のイベントに対する以降のカウントは無視されます。 この種のイベントシリアル化では、実装の変更は必要ありません。<br>**イベントID **:指定したイベントをカスタムIDに結び付けます。 同じイベントIDを持つ特定のイベントに対する以降のカウントは無視されます。 このタイプのイベントシリアル化では、値の重複を排除するために、ヒットのカスタムIDが必要です。 See[Event ID serialization](../../../implement/vars/page-vars/events/event-serialization.md)in the Implement user guide. |
-| パーティシペーション | [指標パーティシペーション](/help/components/c-variables/c-metrics/metrics-participation.md)を参照してください。 |
+| 個別イベントの記録 | **Record Once Per Visit**: 渡されたイベントを訪問者のセッションに結び付けます。 同じ訪問で、特定のイベントに対する以降のカウントは無視されます。 この種のイベントシリアル化では、実装の変更は必要ありません。<br>**イベントIDを使用&#x200B;**: 渡されたイベントをカスタムIDに結び付けます。 同じイベントIDを持つ特定のイベントに対する以降のカウントは無視されます。 このタイプのイベントシリアル化では、値の重複を除外するために、ヒットのカスタムIDが必要です。 See[Event ID serialization](../../../implement/vars/page-vars/events/event-serialization.md)in the Implement user guide. |
+| パーティシペーション | 訪問のすべてのディメンション値にフルアトリビューションクレジットを与えます。 |
 | 警告（通貨イベント） | イベントタイプを通貨イベントに変更したり、通貨イベントから変更したりするときには、履歴データがレポートで利用できなくなることを示すメッセージが表示されます。イベントタイプが異なれば使用するデータテーブルも異なるので、異なるイベントタイプを同時に使用することはできません。履歴データによっては、イベントタイプを元に戻したときに復元できることがあります。ただし、最初に変更してから収集されたデータは利用できません。イベントタイプを変更するときには、注意が必要です。 |
 
