@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
+source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1101'
 ht-degree: 96%
 
 ---
@@ -80,11 +80,7 @@ ht-degree: 96%
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
       + [ターゲット用のAnalytics(A4T)パネル](analysis-workspace/c-panels/a4t-panel.md)
-      + Attribution panel {#attribution}
-         + [アトリビューションの概要](analysis-workspace/c-panels/attribution/attribution.md)
-         + [アトリビューションパネルの使用](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [アトリビューションに関する FAQ](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [アルゴリズムアトリビューション](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [アトリビューションパネル](analysis-workspace/c-panels/attribution.md)
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
       + [クイックインサイトパネル](analysis-workspace/c-panels/quickinsight.md)
@@ -100,7 +96,11 @@ ht-degree: 96%
       + [プロジェクトファイルの共有およびスケジュール](analysis-workspace/curate-share/send-schedule-files.md)
       + [ファイルの送信 - プロジェクトの配信スケジュールの設定](analysis-workspace/curate-share/t-schedule-report.md)
       + [スケジュール済みプロジェクトマネージャー](analysis-workspace/curate-share/schedule-projects.md)
-   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + Attribution IQ {#attribution}
+      + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
+      + [アトリビューションモデルとルックバックウィンドウ](analysis-workspace/attribution/models.md)
+      + [アルゴリズムアトリビューション](analysis-workspace/attribution/algorithmic.md)
+      + [FAQ](analysis-workspace/attribution/faq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Virtual Analyst {#virtual-analyst}
       + [仮想アナリストの概要](analysis-workspace/virtual-analyst/overview.md)
@@ -295,12 +295,14 @@ ht-degree: 96%
    + [ダッシュボードおよびレポートレット](reports-analytics/dashboard.md)
    + [ダッシュボードマネージャー](reports-analytics/dashboard-manage.md)
    + [データ抽出](reports-analytics/data-extract.md)
+   + [ファネルレポート](reports-analytics/funnels.md)
    + [指標](reports-analytics/metrics.md)
    + [ターゲット](reports-analytics/targets.md)
    + [アラート](reports-analytics/alerts.md)
    + [カレンダーイベント](reports-analytics/t-calendar-event.md)
    + [Data Warehouse リクエスト](reports-analytics/data-warehouse.md)
    + [よくある質問](reports-analytics/frequently-asked-questions.md)
+   + [トラブルシューティング](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
    + Ad Hoc Analysis プロジェクトコンバーター {#aha-project-converter}
       + [Ad Hoc Analysis プロジェクトコンバーターの概要](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
