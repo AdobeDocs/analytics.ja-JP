@@ -3,7 +3,10 @@ description: Ad Hoc Analysis の用語およびタスクを Analysis Workspace �
 title: Analysis Workspace と Ad Hoc Analysis の比較
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ Ad Hoc Analysis の用語およびタスクを Analysis Workspace と比較し�
 
 Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザーワークフローに取り入れられています。両製品で同じままの用語と機能もありますが、Analysis Workspace ではいくつかの新しい用語と分析アプローチが導入されています。
 
-両製品の主要機能と必要システム構成の技術的な比較については、[こちら](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)を参照してください。
+両製品の主要機能と必要システム構成の技術的な比較については、[こちら](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-overview/analytics-product-comparison.html)を参照してください。
 
 ## 主な用語の比較 {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -100,7 +103,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution-iq.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>なし </p> </td> 
