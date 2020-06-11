@@ -3,7 +3,10 @@ description: Adobe Analytics の使用開始方法を説明します。
 keywords: Analysis Workspace
 title: 入門ガイド
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 98%
 
 ---
 
@@ -26,9 +29,9 @@ Analysis Workspace を使用して基本ランクレポートを取り込みま�
 4. 「新規プロジェクトを作成」ボタンをクリックします。
 5. モーダルポップアップで「空白のプロジェクト」が選択されていることを確認し、「作成」をクリックします。
 6. 左側に、ディメンション、指標、セグメントおよび日付範囲のリストが表示されます。ページディメンション（色付きのオレンジ色）を見つけ、「ここにディメンションをドロップ」と表示されたキャンバスにドラッグします。
-7. レポートスイートにデータが含まれている場合は、今月のトップページを示すレポートが表示されます。Analysis Workspace は、[回数](/help/components/c-variables/c-metrics/metrics-occurrences.md)指標を使用してレポートに自動的に入力します。
+7. レポートスイートにデータが含まれている場合は、今月のトップページを示すレポートが表示されます。Analysis Workspace は、[回数](/help/components/metrics/occurrences.md)指標を使用してレポートに自動的に入力します。
 8. 訪問回数指標（緑色）を見つけ、回数指標ヘッダーの&#x200B;**上**&#x200B;または&#x200B;**隣**&#x200B;にドラッグします（指標の上に配置しないでください）。訪問回数指標を「回数」の上にドラッグすると、レポート内のその指標が置き換えられます。「回数」の横に訪問回数指標をドラッグすると、両方の指標が並べて表示されます。
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+9. プロジェクトを保存する場合は、左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 保存]*&#x200B;をクリックします。
 
 ## Workspace での基本トレンドレポートの取り込み
 
@@ -44,13 +47,13 @@ Analysis Workspace を使用して基本トレンドレポートを取り込み�
 8. 左側の日付範囲コンポーネントのリストで、週の日付範囲（紫色）を探します。日付範囲のタイトルをクリックして、すべての日付範囲コンポーネントを展開して表示するか、検索バーを使用します。
 9. キャンバス上の日付範囲ヘッダーの上にある週の日付範囲をドラッグして置き換えます。
 10. トレンドレポートは、日ではなく週別に集計されるようになりました。
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+11. プロジェクトを保存する場合は、左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 保存]*&#x200B;をクリックします。
 
 ## ツールを使って実験する
 
 Analysis Workspace はレポート作成ツールなので、データ収集には影響しません。何が機能するかを確認するためにコンポーネントをプロジェクトに適当にドラッグしても、データに影響はありません。様々なディメンションと指標の組み合わせをワークスペースプロジェクトにドラッグして、利用可能な項目を確認してください。
 
-無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 新規]*&#x200B;をクリックして、新しいスレートから始めることもできます。
 
 ## トラブルシューティング
 
@@ -71,7 +74,7 @@ Analysis Workspace はレポート作成ツールなので、データ収集に�
 
 * [Analysis Workspace リリースノート](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)：ツールに導入された最新の機能について説明します。
 * [Analysis Workspace（YouTube）](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)：この広範なプレイリストを使用して、Analysis Workspace のほとんどの機能を使用する方法を説明します。
-* 製品内ヒント：Analysis Workspace の右下隅には時折、その日のヒントと短いビデオが表示されることがあります。If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
+* 製品内ヒント：Analysis Workspace の右下隅には時折、その日のヒントと短いビデオが表示されることがあります。これらのヒントを閉じた場合は、*[!UICONTROL ヘルプ]／[!UICONTROL ヒント]*&#x200B;を選択することでいつでも表示できます。
 * [Analysis Workspace コミュニティ](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：他のユーザーと Analysis Workspace について話し合い、ツールに望む機能に投票します。
 * ブログ投稿：
    * [よりスマートな分析による組織の強化](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
