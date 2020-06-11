@@ -3,7 +3,7 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 44112013e049e6e76554530ba438c71fee902841
 workflow-type: tm+mt
 source-wordcount: '7261'
 ht-degree: 97%
@@ -109,7 +109,7 @@ ht-degree: 97%
 |--- |--- |
 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます（計算指標はサポートされません）。</li></ul> |
 | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | この新しい設定を使用すると、左側のパネル、フリーフォームテーブルおよびコホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。プロジェクト／プロジェクト情報および設定から利用できます。 |
-| [Attribution IQ における複数値の変数のサポート](attribution-iq.md) | Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace において、このような変数にヒットレベルで Attribution IQ を適用できるようになりました。 |
+| [Attribution IQ における複数値の変数のサポート](attribution/overview.md) | Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace において、このような変数にヒットレベルで Attribution IQ を適用できるようになりました。 |
 | パフォーマンスの向上 | 分類の可視化スピードの向上 - 多くの分類を含むプロジェクトの読み込み速度が向上します。 |
 
 ## 2018 年 11 月
@@ -210,7 +210,7 @@ ht-degree: 97%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > Attribution IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Attribution IQ は、マーケティングパフォーマンスについて、さらに高度でインテリジェントな分析を実現します。新しいアトリビューションモデルは、Analysis Workspace（任意のテーブルまたは分類）の指標および計算指標で使用できます。新しい属性パネルでは、ビジュアライゼーションと比較機能が強化されました。 </p> </td> 
   </tr> 
   <tr> 
