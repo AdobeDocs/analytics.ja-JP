@@ -3,7 +3,10 @@ description: 'null'
 title: Analysis Workspace のパフォーマンスの最適化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 100%
 
 ---
 
@@ -103,5 +106,5 @@ Analysis Workspace の操作中にエラーが発生する場合があります�
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | アドビで問題が発生しています。この問題は解決する必要があります。カスタマーケアのリクエストを通じてエラーコードを送信することをお勧めします。 |
 | `The request is too complex.` | レポート要求が大きすぎるので、実行できません。このエラーの原因は、リクエストのサイズ、セグメントまたは検索フィルターで一致した項目が多すぎる、含まれる指標が多すぎる、互換性のないディメンションと指標の組み合わせなどが原因でタイムアウトになります。リクエストを簡略化することをお勧めします。 |
 | `One of the segments or the search in this visualization contains a text search that returned too many results.` | 検索テキストの条件を絞り込んで、もう一度リクエストを試すことをお勧めします。 |
-| `This dimension does not currently support non-default attribution models.` | テーブル内のディメンションを、[Attribution IQ](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md) と互換性のあるディメンションに置き換えることをお勧めします。 |
+| `This dimension does not currently support non-default attribution models.` | テーブル内のディメンションを、[Attribution IQ](../attribution/overview.md) と互換性のあるディメンションに置き換えることをお勧めします。 |
 | `Your request failed as a result of too many columns or pre-configured rows.` | 列や行の一部を削除するか、別々のビジュアライゼーションに分割することをお勧めします。 |
