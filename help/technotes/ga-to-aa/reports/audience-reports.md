@@ -2,7 +2,10 @@
 title: Adobe Analytics のオーディエンスレポート
 description: Analysis Workspace を使用してオーディエンスベースのレポートを作成する方法について説明します。
 translation-type: tm+mt
-source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1715'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 2. 左側のコンポーネントアイコンをクリックし、「ここに指標をドロップ」というラベルが付いた小さなスペースに&#x200B;**個別訪問者数**&#x200B;指標をドラッグします。
 3. 異なる精度が必要な場合は、適切な日付範囲（**日**、**週**、**月**&#x200B;など）を既存の日付ディメンションヘッダーの上にドラッグします。
 
-アドビが個別訪問者を計算する方法について詳しくは、コンポーネントユーザーガイドの「[個別訪問者数](/help/components/c-variables/c-metrics/metrics-unique-visitors.md)」を参照してください。
+アドビが個別訪問者を計算する方法について詳しくは、コンポーネントユーザーガイドの「[個別訪問者数](/help/components/metrics/unique-visitors.md)」を参照してください。
 
 ## ライフタイム値
 
@@ -69,7 +72,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 1. コンポーネントメニューで&#x200B;**言語**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-詳しくは、コンポーネントユーザーガイドの「[言語](/help/components/c-variables/dimensionslist/reports-languages.md)ディメンション」を参照してください。
+詳しくは、コンポーネントユーザーガイドの「[言語](/help/components/dimensions/language.md)ディメンション」を参照してください。
 
 ## 地域 - 場所
 
@@ -86,7 +89,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 1. コンポーネントメニューで&#x200B;**国**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-詳しくは、コンポーネントユーザーガイドの「[地理特性](/help/components/c-variables/dimensionslist/reports-geosegmentation.md)ディメンション」を参照してください。
+See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
 
 ## 行動 - 新規訪問回数と再訪問回数
 
@@ -111,7 +114,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 1. コンポーネントメニューで&#x200B;**訪問回数**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-詳しくは、コンポーネントユーザーガイドの「[訪問回数](/help/components/c-variables/dimensionslist/reports-visitor-number.md)ディメンション」を参照してください。
+詳しくは、コンポーネントユーザーガイドの「[訪問回数](/help/components/dimensions/visit-number.md)ディメンション」を参照してください。
 
 ## 行動 - エンゲージメント
 
@@ -120,7 +123,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 1. コンポーネントメニューで&#x200B;**訪問別滞在時間 - グループ**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-詳しくは、コンポーネントユーザーガイドの「[訪問別滞在時間](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md)ディメンション」を参照してください。
+詳しくは、コンポーネントユーザーガイドの「[訪問別滞在時間](/help/components/dimensions/time-spent-per-visit.md)ディメンション」を参照してください。
 
 ## 技術 - ブラウザーと OS
 
@@ -137,10 +140,10 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 
 各ディメンションについて詳しくは、コンポーネントユーザーガイドの以下のページを参照してください。
 
-* [ブラウザー](/help/components/c-variables/dimensionslist/reports-browsers.md)
-* [オペレーティングシステム](/help/components/c-variables/dimensionslist/reports-operating-system.md)
-* [画面の解像度](/help/components/c-variables/dimensionslist/reports-technology.md)
-* [画面の色](/help/components/c-variables/dimensionslist/reports-color-depth.md)
+* [ブラウザー](/help/components/dimensions/browser.md)
+* [オペレーティングシステム](/help/components/dimensions/operating-systems.md)
+* [画面の解像度](/help/components/dimensions/monitor-resolution.md)
+* [画面の色](/help/components/dimensions/color-depth.md)
 
 ## 技術 - ネットワーク
 
@@ -149,7 +152,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 1. コンポーネントメニューで&#x200B;**ドメイン**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-詳しくは、コンポーネントユーザーガイドの「[ドメイン](/help/components/c-variables/dimensionslist/reports-domains.md)ディメンション」を参照してください。
+詳しくは、コンポーネントユーザーガイドの「[ドメイン](/help/components/dimensions/domain.md)ディメンション」を参照してください。
 
 ## モバイル - 概要
 
@@ -158,7 +161,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 1. コンポーネントメニューで&#x200B;**モバイルデバイスタイプ**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-詳しくは、コンポーネントユーザーガイドの「[モバイルデバイスタイプ](/help/components/c-variables/dimensionslist/reports-device-types.md)ディメンション」を参照してください。
+See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## モバイル - デバイス
 
@@ -167,7 +170,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 1. コンポーネントメニューで&#x200B;**モバイルデバイス**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-詳しくは、コンポーネントユーザーガイドの「[モバイルデバイス](/help/components/c-variables/dimensionslist/reports-devices.md)ディメンション」を参照してください。
+See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## カスタム
 
