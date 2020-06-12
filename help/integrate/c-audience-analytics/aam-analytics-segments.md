@@ -2,7 +2,7 @@
 description: Analytics と Audience Manager ではセグメントが使用されます。ただし、Analytics セグメントは Audience Manager セグメントとまったく同じではありません。これらの相違は、Analytics レポートと Audience Manager レポートの相違に一部関係しています。このため、これらのソリューションでセグメントの操作を開始するときには、そうした相違を理解することが重要であり、役に立ちます。
 title: Analytics と Audience Manager のセグメントについて
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ Audience Manager セグメントのメンバーシップは流動的です。ユ
 
 Audience Manager セグメントは、Analytics ではオーディエンスとして示されます。
 
-詳しくは、[セグメントビルダーの特性とセグメント母集団データ](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html)および[シグナル、特性およびセグメント](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html)を参照してください。
+詳しくは、[セグメントビルダーの特性とセグメント母集団データ](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html)および[シグナル、特性およびセグメント](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/signal-trait-segment.html)を参照してください。
 
 ## Analytics セグメント {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
