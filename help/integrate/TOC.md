@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 統合ガイド
 user-guide-url: /content/help/en/analytics/integration/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
       + [広告アカウントの設定](c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
       + [アカウント ID の見つけ方](c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)
       + [トラッキング：手動モードと自動モード](c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)
-      + [Analytics での広告データのレポート](c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)
+      + [Adobe Analytics での広告データのレポート](c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)
       + [広告アカウントの管理](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics のトラブルシューティング](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [よくある質問](c-advertising-analytics/aa-faq.md)
