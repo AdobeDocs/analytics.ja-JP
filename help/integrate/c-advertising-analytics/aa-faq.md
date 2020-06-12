@@ -2,7 +2,7 @@
 description: 'null'
 title: よくある質問
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics の使用権限を得られるのはどの<b>Adobe Analytics SKU</b> ですか？ </p> </td> 
-   <td colname="col2"> <p>回答：Advertising Analytics は、Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a>、<a href="https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> SKU で利用できます。 </p> </td> 
+   <td colname="col2"> <p>回答：Advertising Analytics は、Adobe Analytics <a href="https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html"  >Prime</a>、<a href="https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> SKU で利用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics を使用するには、<b>追加料金</b>が必要ですか？ </p> </td> 
@@ -108,7 +108,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>回答：AMO ID は、インプレッション数、コスト、クリック数、平均順位および平均品質スコアといった検索エンジン指標をキャプチャします。クリックがなく、インプレッションがある場合は、インプレッション／順位／品質スコアデータが Analytics に送信されます。通常、クリックがない場合は、コストもありません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>質問：このデータがキャプチャされるのはどのレベルですか？<b>Visitor? それともヒットですか？</b> </p> </td> 
+   <td colname="col1"> <p>質問：このデータがキャプチャされるのはどのレベルですか？<b>訪問者ですか？ それともヒットですか？</b> </p> </td> 
    <td colname="col2"> <p>回答：検索エンジン指標は、ヒットレベルでキャプチャされ、AMO ID（およびその分類）に接続されます。概要レベルデータであり、訪問／訪問者には接続されません。そのため、検索エンジン指標は、ヒットレベルの範囲の、AMO ID（またはその分類）に基づくセグメントにのみ使用できます。 </p> <p>また、AMO ID もランディングページ（訪問／訪問者に接続）のヒットでキャプチャされ、（期限が切れるか新しい AMO ID で上書きされるまで）他の Analytics 指標のクレジットを受け取るためにダウンストリームを保持します。他の任意の eVar のように、データセットに完全に組み込まれます。 </p> </td> 
   </tr> 
   <tr> 
