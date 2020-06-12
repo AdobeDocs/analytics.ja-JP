@@ -2,7 +2,7 @@
 description: 'null'
 title: Audience Analytics の使用例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,8 +24,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 見込み客分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-B2B 小売業者は、[連続セグメント](https://docs.adobe.com/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)を使用して、見込み客オーディエンスの購入直前の行動を深く分析できるようになり、どのアクションがコンバージョンにつながるかを理解できます。
+B2B 小売業者は、[連続セグメント](https://docs.adobe.com/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)を使用して、見込み客オーディエンスの購入直前の行動を深く分析できるようになり、どのアクションがコンバージョンにつながるかを理解できます。
 
 ## デモグラフィックターゲティング {#section_F034DB721A06419283DBD29D4A1B444B}
 
-デスティネーションリゾートは、[Analysis Workspace のヒストグラム](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/histogram.html)を使用して、年齢別の購入の分布を表示できます。これにより、各リゾート施設で適切なオーディエンスをターゲティングできます。
+デスティネーションリゾートは、[Analysis Workspace のヒストグラム](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/histogram.html)を使用して、年齢別の購入の分布を表示できます。これにより、各リゾート施設で適切なオーディエンスをターゲティングできます。
