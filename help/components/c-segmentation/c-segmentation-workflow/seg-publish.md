@@ -14,9 +14,9 @@ ht-degree: 90%
 
 # Experience Cloud へのセグメントの公開
 
-Adobe AnalyticsセグメントをExperience Cloudに公開すると、そのセグメントを、およびアドビなどの他のアクティベーションチャネルで、マーケティングアクティビティ [!DNL Audience Manager] 用に使用でき [!DNL Advertising Cloud][!DNL Target] ま [!DNL Campaign]す。 最近の更新で、公開ワークフローが大幅に最適化されました。8時間以内にAnalyticsのセグメントをExperience Cloudに公開できるようになりました。 これらのセグメントを使用して、Audience Managerのすべてのダウンストリームリンク先に対してオーディエンスをアクティブ化します。
+Adobe AnalyticsセグメントをExperience Cloudに公開すると、Audience Managerや、AdobeのAdvertising Cloud、Target、Campaignなどの他のアクティベーションチャネルでのマーケティングアクティビティでセグメントを使用できます。 最近の更新で、公開ワークフローが大幅に最適化されました。8時間以内にAnalyticsのセグメントをExperience Cloudに公開できるようになりました。 これらのセグメントを使用して、Audience Managerのすべてのダウンストリームリンク先に対してオーディエンスをアクティブ化します。
 
-また、公開可能なAdobe Analyticsセグメントの最大数を20から75に増やしました。 You can view published segments in [!UICONTROL Analytics > Components > Segments].
+また、公開可能なAdobe Analyticsセグメントの最大数を20から75に増やしました。 公開したセグメントは、[!UICONTROL Analytics > コンポーネント > セグメント]で表示できます。
 
 >[!NOTE] Adobe Campaign（Classic と Standard）の動作は、8 時間の遅延に加えて 24 時間の遅延が発生する点が異なります。
 
