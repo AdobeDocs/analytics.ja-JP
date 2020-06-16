@@ -3,7 +3,7 @@ description: カスタムインサイトトラフィック変数（または pro
 title: トラフィック変数（prop）の概要
 topic: Admin tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 ---
@@ -15,4 +15,4 @@ source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 [!UICONTROL トラフィック変数]ページを使用して、トラフィック変数レポートを無効または有効にしたり、名前を変更したりできます。トラフィック変数のレポートを無効にした場合、レポートはユーザーインターフェイスに表示されなくなります。
 
-詳しくは、 also [prop](../../../implement/vars/page-vars/prop.md) in the Implement user guide.
+詳しくは、実装ユーザーガイドの「[prop](../../../implement/vars/page-vars/prop.md)」を参照してください。
