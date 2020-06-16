@@ -2,7 +2,7 @@
 description: このドキュメントでは、GDPR におけるデータ主体のアクセス権および削除権に対応するために、Adobe Analytics でどのような作業が必要かを説明します。
 title: Adobe Analytics と GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 Adobe Cloud Platform（ACP）には統合型ソリューションが用意されており、お客様のデータガバナンスインフラストラクチャと、顧客エクスペリエンスを作成および管理するためのアドビのツールを連携させることができます。Adobe Cloud Platform のこのデータガバナンス機能によって、データガバナンスポリシーとデータ利用を直接リンクさせることができます。
 
-「[Adobe Analytics による GDPR の処理方法](https://www.adobe.com/jp/data-analytics-cloud/analytics/general-data-protection-regulation.html)」を確認してください。ここでは、GDPR 対応の手順と、Adobe Experience Cloud GDPR API との統合方法について説明しています。
+「[Adobe Analytics による GDPR の処理方法](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html)」を確認してください。ここでは、GDPR 対応の手順と、Adobe Experience Cloud GDPR API との統合方法について説明しています。
 
 ## GDPR 対応の準備とお客様の Adobe Analytics データ {#section_9A47CDCD614C42238F6E05CFF0180195}
 
