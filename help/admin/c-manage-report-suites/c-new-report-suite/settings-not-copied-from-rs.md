@@ -3,7 +3,7 @@ description: 既存のレポートスイートから設定をコピーした場�
 title: ソースレポートスイートからコピーされない設定
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分類データ（分類構造はコピーされます） </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分類インポーター（アップロード）ドキュメント</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分類インポーター（アップロード）ドキュメント</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>トランザクション ID の記録の有効化 </p> </td> 
@@ -68,7 +68,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ClickMap Manager </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Activity Map の有効化</a>を参照 </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Activity Map の有効化</a>を参照 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA ルール </p> </td> 
