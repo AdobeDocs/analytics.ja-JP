@@ -2,7 +2,7 @@
 description: 'null'
 title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |--- |--- |
 | Adobe Experience Platform Launch | Adobe Analytics 拡張機能がインストールされている場合は、ルールのアクション設定内のカスタムコードエディターに次のコンテキストデータ変数定義を追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットのマーケティングに同意した顧客については、`contextdata` 変数を *0* に設定します。 |
 | DTM | コンテキストデータ変数定義をカスタムページコードエディターに追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットのマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
-| AppMeasurement | コンテキストデータ変数定義を AppMeasurement.js ファイルに追加します。          <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットのマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
+| AppMeasurement | コンテキストデータ変数定義を AppMeasurement.js ファイルに追加します。            <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットのマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
 
 ## レポート（オプション） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
