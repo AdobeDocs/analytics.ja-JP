@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: ユーザーと製品の管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -16,7 +16,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 ## Admin Console 管理者向けヘルプリソース {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -41,7 +41,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
 
 ## ユーザー管理の説明 {#section_7C19842A3D4249109A9399D4DF18DE75}
 
-次の表に、のタブの要素を示 [!UICONTROL Users] します [!UICONTROL User Management]。
+次の表で、「[!UICONTROL ユーザー管理]」の「[!UICONTROL ユーザー]」タブにあるエレメントについて説明します。
 
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 
@@ -65,7 +65,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">新しいユーザーの追加</span> </td> 
-   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>「ユーザ <a href="/help/admin/user-management2/c-user-management/users.md"> ー</a>」を参照。 </p> </td> 
+   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>「<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">レポートのダウンロード</span> </td> 
@@ -73,7 +73,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">ログイン</span> </td> 
-   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>「ユーザ <a href="/help/admin/user-management2/c-user-management/users.md"> ー</a>」を参照。 </p> </td> 
+   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>「<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">名</span> </td> 
@@ -109,7 +109,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">編集</span> </td> 
-   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>「ユーザ <a href="/help/admin/user-management2/c-user-management/users.md"> ー</a>」を参照。 </p> </td> 
+   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>「<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">削除</span> </td> 
