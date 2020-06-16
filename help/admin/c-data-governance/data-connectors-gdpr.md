@@ -2,7 +2,7 @@
 description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
 title: データプライバシーと Data Connectors（Genesis）
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -121,7 +121,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Foresee Feedback</b> </p> </td> 
-   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey -&gt; Question -&gt; Response </p> </td> 
    <td colname="col4"> <p>分類 </p> </td> 
   </tr> 
   <tr> 
@@ -160,7 +160,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>受信者 ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
+   <td colname="col2"> <p>受信者 ID-&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>分類 </p> </td> 
   </tr> 
   <tr> 
