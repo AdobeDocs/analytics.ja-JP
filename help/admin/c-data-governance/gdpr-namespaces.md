@@ -2,7 +2,7 @@
 description: 検索可能にする各 ID には、名前空間が割り当てられます。名前空間とは、すべてのレポートスイートにわたって使用される任意の変数でその ID を識別するカスタム文字列のことです。
 title: 名前空間
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 「type」フィールド。Adobe Analytics のほとんどの要求で、値は「analytics」になります。
 * 「value」フィールド。値は、各レポートスイートの関連付けられた名前空間の変数に含まれている、Analytics による検索対象となる ID です。
 
-詳しくは、[Experience Cloud データプライバシー API のドキュメント](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)を参照してください。
+詳しくは、[Experience Cloud データプライバシー API のドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)を参照してください。
 
 ## Cookie ID
 
