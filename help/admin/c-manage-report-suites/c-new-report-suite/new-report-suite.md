@@ -3,7 +3,7 @@ description: 新しいレポートスイートを作成するには、事前定�
 title: 新しいレポートスイート - 設定
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
