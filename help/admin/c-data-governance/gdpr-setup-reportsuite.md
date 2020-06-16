@@ -2,7 +2,7 @@
 description: レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。事前にラベルとその意味について学んでおいてください。
 title: レポートスイートのデータのラベル設定
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **例**：データ管理者が、データプライバシー要求を処理するためにデータ主体から電子メールアドレスと Cookie ID を収集する予定だとします。この Cookie ID は Adobe Analytics のレポートスイートに保管されます。電子メールアドレスと Cookie ID のラベルを作成するには、Analytics で Adobe Cloud Platform の Data Usage Labeling &amp; Enforcement（DULE）フレームワークを使用する必要があります。
 
-1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**／**[!UICONTROL （レポートスイートを選択）]**![](assets/privacy_rs_settings.png)の順にクリックします。
+1. Analyticsで、**[!UICONTROL Admin]**／**[!UICONTROL Data Governance]**／**[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png) に移動します。
 
 1. ラベルを設定する変数のグループを選択します。
 
@@ -37,7 +37,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/info.png)
 
-1. チェックボックスをオンにして 1 つ以上の変数を選択してから、右側の&#x200B;**[!UICONTROL 編集]**&#x200B;アイコンをクリックして変数を編集します。
+1. チェックボックスをオンにして 1 つ以上の変数を選択してから、右側の **[!UICONTROL Edit]** アイコンをクリックして変数を編集します。
 
    ![](assets/edit.png)
 
@@ -57,7 +57,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/privacy_labels.png)
 
-1. すべてのラベル設定が完了したら、「**[!UICONTROL 適用]**」をクリックします。
+1. すべてのラベル設定が完了したら、「**[!UICONTROL Apply]**」をクリックします。
 
 ## レポートスイートへのラベルのコピー {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -65,11 +65,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. コピーする変数を含んでいる変数グループ（標準ディメンション、コンバージョンディメンションなど）を選択します。一度にコピーできるラベルは変数の 1 グループのみであることに注意してください。
 1. このグループの一部、またはすべての変数を選択します。
-1. データガバナンスダイアログの右上にある「**[!UICONTROL レポートスイートにコピー]**」をクリックします。
+1. 「データガバナンス」ダイアログの右上にある「**[!UICONTROL Copy Labels to Report Suite(s)]**」をクリックします。
 
    ![](assets/apply_as_template.png)
 
-1. 「**[!UICONTROL すべて選択]**」をチェックして、選択した変数のラベルをすべてのレポートスイートにコピーするか、ラベルをコピーするレポートスイートを個別に選択します。
+1. 「**[!UICONTROL Select All]**」をチェックして、選択した変数のラベルをすべてのレポートスイートにコピーするか、ラベルをコピーするレポートスイートを個別に選択します。
 
    >[!IMPORTANT]
    >
@@ -87,5 +87,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    >
    >常にコピー先レポートスイートをチェックして、ラベルが適切にコピーされていることを確認する必要があります。これは、ID または DEL ラベルを持つ変数で特に重要です。
 
-1. 「**[!UICONTROL 適用]**」をクリックします。
+1. 「**[!UICONTROL Apply]**」をクリックします。
 
