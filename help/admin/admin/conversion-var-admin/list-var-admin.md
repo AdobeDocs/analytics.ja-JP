@@ -1,7 +1,7 @@
 ---
 title: リスト変数
-description: リスト変数を作成し、設定します。
-translation-type: tm+mt
+description: レポートで使用するリスト変数を作成および設定します。
+translation-type: ht
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 # リスト変数
 
-リスト変数を作成し、設定します。 区切り文字、有効期限、配分および最大値をここに設定します。
+レポートで使用するリスト変数を作成および設定します。ここで、区切り文字、有効期限、配分および最大値を設定します。
 
-設定には、管理コンソールからアクセスできます。
+設定には、Admin Console からアクセスできます。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;に移動します。
 2. レポートスイートを選択します。
