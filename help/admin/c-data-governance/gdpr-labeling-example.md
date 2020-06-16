@@ -2,7 +2,7 @@
 description: 'null'
 title: ラベル設定の例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -79,7 +79,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 | John | 55 | G | R | X |
 | Alice | 66 | A | いいえ | W |
 
->[!NOTE]user=Mary および DEL-PERSON ラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar で、その置き換える値は、数値を異なるランダムな数値で置き換えるのではなく、「GDPR-」で始まり、乱数（GUID）が続く文字列です。
+>[!NOTE]user=Mary および DEL-PERSON ラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar で、その置き換える値は、数値を異なるランダムな数値で置き換えるのではなく、「Privacy-」で始まり、乱数（GUID）が続く文字列です。
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
