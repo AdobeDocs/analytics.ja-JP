@@ -3,7 +3,7 @@ description: ロールアップレポートスイートは、複数の子レポ�
 title: ロールアップレポートスイートとグローバルレポートスイート
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
