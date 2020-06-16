@@ -1,7 +1,7 @@
 ---
 title: Analytics 管理ヘルプ
 description: Admin Console でのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics 管理者向けの管理ヘルプです。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
