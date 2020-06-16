@@ -2,7 +2,7 @@
 description: データプライバシーにおけるプライバシーレポート用変数。
 title: プライバシーレポート変数
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 ---
@@ -35,12 +35,12 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 Analytics Admin Console で利用できる新しいプライバシー設定を使用して、プライバシーレポート変数を有効にできます。
 
 各レポートスイートは、次のように設定できます。
-1. Reports &amp; Analytics で、**[!UICONTROL 管理者／レポートスイートをクリックします]**。
-1. メディアデータを収集するレポートスイートを選択して、**[!UICONTROL 設定を編集／プライバシー管理]**&#x200B;をクリックします。
+1. Reports &amp; Analyticsで、「**[!UICONTROL Admin > Report Suites]**」をクリックします。
+1. メディアデータを収集するレポートスイートを選択して、「**[!UICONTROL Edit Settings > Privacy Management]**」をクリックします。
 
    ![](assets/rsm-privacy-select.png)
 
-1. 「**[!UICONTROL データプライバシー レポートを有効にする]**」ボタンをクリックします。
+1. 「**[!UICONTROL Enable Data Privacy Reports]**」ボタンをクリックします。
 
    > [!NOTE]有効化した後で、これらの変数をオフにすることはできません。
 
@@ -50,7 +50,7 @@ Analytics Admin Console で利用できる新しいプライバシー設定を�
 
    ![](assets/rsm-privacy-config.png)
 
-1. 予約変数がReports &amp; AnalyticsおよびWorkspaceで分析できるようになりました。 「同意管理のオプトアウト」および「同意管理のオプトイン」を参照してください。
+1. Reports &amp; Analytics および Workspace で予約変数を分析に使用できるようになりました。「同意管理のオプトアウト」および「同意管理のオプトイン」を参照してください。
 
    ![](assets/consent-management.png)
 
@@ -58,20 +58,20 @@ Analytics Admin Console で利用できる新しいプライバシー設定を�
 
 3 つのコンテキストデータ変数が、プライバシーレポート管理予約変数と連携するように事前に定義されています。これらの変数の設定の管理方法と保持の方法は、各実装エンジニアが決定します。
 
-コンテキスト データ変数の実装に関する一般的なガイダンスについては、[コンテキストデータ変数](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)を参照してください。
+コンテキスト データ変数の実装に関する一般的なガイダンスについては、[コンテキストデータ変数](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)を参照してください。
 
 ### SSF
 
 * コンテキストデータ：`contextData.['cm.ssf']`
 * 指定可能な値：
-   * 1：値「1」を送信する場合は、サーバー側転送がオプトアウト状態であることを示します。この変数と対になる値「1」は、このヒットが Adobe Audience Manager と共有されるのをブロックします。[AAM ePrivacy のコンプライアンス](https://docs.adobe.com/content/help/ja-JP/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)を参照してください。
+   * 1：値「1」を送信する場合は、サーバー側転送がオプトアウト状態であることを示します。この変数と対になる値「1」は、このヒットが Adobe Audience Manager と共有されるのをブロックします。[AAM ePrivacy のコンプライアンス](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)を参照してください。
    * 0 - オプション。ターゲットマーケティングに同意した顧客には、値「0」を使用します。変数を設定しない場合は、同じ結果になります。
 
 ### DMP
 
 * コンテキストデータ：`contextData.['opt.dmp']`
 * 指定可能な値：
-   * N：値「N」を送信すると、データ管理プラットフォームへの共有をコンシューマーがオプトアウトしていることを示します。**注意**:2020年1月15日以降、この変数を「N」に設定すると、AAMに対するこのヒットのサーバー側での共有がブロックされます。
+   * N：値「N」を送信すると、データ管理プラットフォームへの共有をコンシューマーがオプトアウトしていることを示します。**注意**：2020 年 1 月 15 日現在、この変数を「N」に設定すると、AAM に対するサーバー側のヒットの共有がブロックされます。
    * Y：値「Y」を送信すると、データ管理プラットフォームへの共有をコンシューマーがオプトインしていることを示します。
 
 ### SELL
