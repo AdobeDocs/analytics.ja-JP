@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics でのボットの削除
 description: Adobe Analytics でボットを削除する 3 つの方法
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
@@ -13,7 +13,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ## ボットルールの使用
 
-標準のボットフィルタリング方法とカスタムのボットフィルタリング方法の両方が **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集**[!UICONTROL ／]**一般]**／**[!UICONTROL ボットルール]**&#x200B;にあります。
+標準のボットフィルタリング方法とカスタムのボットフィルタリング方法の両方が **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL ボットルール]**&#x200B;にあります。
 
 | ルールタイプ | 説明 |
 |--- |--- |
@@ -28,7 +28,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ### 手順 1：訪問者の Experience Cloud ID を新しい宣言済み ID に渡す
 
-まず、[People コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)で新しい宣言済み ID を作成します。訪問者の Experience Cloud ID をこの新しい宣言済み ID に渡す必要があります。[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/implement/solutions/idservice-save.html) を使用すると、この処理をすばやく簡単におこなうことができます。宣言済み ID に「ECID」という名前を使用するとします。
+まず、[People コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)で新しい宣言済み ID を作成します。訪問者の Experience Cloud ID をこの新しい宣言済み ID に渡す必要があります。[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) を使用すると、この処理をすばやく簡単におこなうことができます。宣言済み ID に「ECID」という名前を使用するとします。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -36,7 +36,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-このデータ要素を設定したら、[次の手順](https://docs.adobe.com/content/help/ja-JP/launch/using/implement/solutions/idservice-save.html)に従って、Launch の ECID ツールに宣言済み ID を渡します。
+このデータ要素を設定したら、[次の手順](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)に従って、Launch の ECID ツールに宣言済み ID を渡します。
 
 ### 手順 2：セグメント化を使用したボットの識別
 
