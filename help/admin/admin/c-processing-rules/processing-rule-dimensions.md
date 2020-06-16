@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 処理ルールで使用可能なディメンション
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
