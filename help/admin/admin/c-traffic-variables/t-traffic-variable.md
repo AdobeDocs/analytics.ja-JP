@@ -3,7 +3,7 @@ description: トラフィック変数レポートを追加および有効化す�
 title: トラフィック変数レポートの有効化
 topic: Admin tools
 uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
