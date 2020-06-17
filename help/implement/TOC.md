@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '443'
 ht-degree: 92%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 92%
       + [contextData](vars/page-vars/contextdata.md)
       + [動的変数](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
+      + [eVar（マーチャンダイジング）](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [イベントの概要](vars/page-vars/events/events-overview.md)
          + [購入イベント](vars/page-vars/events/event-purchase.md)
@@ -200,6 +201,6 @@ ht-degree: 92%
    + [パケット監視](validate/packet-monitor.md)
    + [ハッシュの競合](validate/hash-collisions.md)
 + [よくある質問](faq.md)
-+ AnalyticsでのXDMデータの使用 {#aep-edge}
++ XDMデータをAnalyticsで使用する {#aep-edge}
    + [AEP Web SDKを使用する](aep-edge/xdmoverview.md)
-   + [XDMデータのAnalyticsへの手動マッピング](aep-edge/xdm-manual.md)
+   + [XDMデータを手動でAnalyticsにマップ](aep-edge/xdm-manual.md)
