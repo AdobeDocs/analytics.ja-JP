@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 72%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 72%
    + [ファーストタッチチャネル](dimensions/first-touch-channel.md)
    + [ファーストタッチチャネルの詳細](dimensions/first-touch-detail.md)
    + [ヒットの深さ](dimensions/hit-depth.md)
+   + [ヒットタイプ](dimensions/hit-type.md)
    + [時間帯](dimensions/hour-of-day.md)
    + [Hour](dimensions/hour.md)
    + [Java 有効](dimensions/java-enabled.md)
@@ -70,12 +71,12 @@ ht-degree: 72%
    + [エラーページ](dimensions/pages-not-found.md)
    + [有料検索](dimensions/paid-search.md)
    + [持続的cookieのサポート](dimensions/persistent-cookie-support.md)
-   + [製品](dimensions/product.md)
+   + [製品         ](dimensions/product.md)
    + [Prop](dimensions/prop.md)
    + [四半期](dimensions/quarter-of-year.md)
    + [四半期](dimensions/quarter.md)
    + [転送者型](dimensions/referrer-type.md)
-   + [Referrer](dimensions/referrer.md)
+   + [リファラー](dimensions/referrer.md)
    + [参照元ドメイン](dimensions/referring-domain.md)
    + [地域](dimensions/regions.md)
    + [再訪頻度](dimensions/return-frequency.md)
