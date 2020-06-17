@@ -1,44 +1,45 @@
 ---
-description: ターゲット用のAnalytics(A4T)パネルを使用すると、Adobe WorkspaceでAdobeターゲットのアクティビティとエクスペリエンスを分析できます。
-title: ターゲット用のAnalytics(A4T)パネル
+description: Target用Analytics(A4T)パネルを使用すると、Analysis Workspace内のAdobe Targetのアクティビティとエクスペリエンスを分析できます。
+title: Target用Analytics(A4T)パネル
 translation-type: tm+mt
-source-git-commit: f688748e21b2b494845c682b380b12d3d346bfd3
+source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 13%
+source-wordcount: '799'
+ht-degree: 16%
 
 ---
 
 
-# ターゲット用のAnalytics(A4T)パネル
+# Target用Analytics(A4T)パネル
 
 >[!IMPORTANT]
 >
->**[!UICONTROL ターゲット用のAnalytics(A4T)]** パネルは、現在制限付きのテスト中です。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/landing/an-releases.html)
+>**[!UICONTROL Target用Analytics(A4T)]** パネルは、現在制限付きテスト中です。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/landing/an-releases.html)
 
-Analytics forターゲット(A4T)パネルを使用すると、Adobe WorkspaceでのAdobeターゲットのアクティビティとエクスペリエンスを分析できます。 また、最大3つの成功指標に対する上昇率と信頼性を確認することもできます。 A4Tパネルにアクセスするには、A4Tコンポーネントが有効なレポートスイートに移動します。 次に、左端のパネルアイコンをクリックし、Analytics forターゲットパネルを分析ワークスペースプロジェクトにドラッグします。
+Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で Adobe Target のアクティビティとエクスペリエンスを分析できます。また、最大3つの成功指標に対する上昇率と信頼性を確認することもできます。 A4Tパネルにアクセスするには、A4Tコンポーネントが有効なレポートスイートに移動します。 次に、左端のパネルアイコンをクリックし、Target用AnalyticsパネルをAnalysis Workspaceプロジェクトにドラッグします。
 
-## A4Tパネルビルダー
+## パネル入力 {#Input}
 
-A4Tパネルは、次の設定を使用して設定できます。
+次の入力設定を使用して、A4Tパネルを設定できます。
 
 | 設定 | 説明 |
 |---|---|
-| ターゲットアクティビティ | ターゲットアクティビティのリストから選択するか、左のレールからアクティビティをドラッグ&amp;ドロップします。<br>**注意：**リストには、少なくとも1回のヒットを持つ過去6か月のアクティビティが入力されます。 リストにアクティビティが表示されない場合は、6か月を超えている可能性があります。 この機能は、最大18か月のルックバック期間を持つ左側のレールから追加できます。 |
+| ターゲットアクティビティ | Targetアクティビティのリストから選択するか、左のレールからアクティビティをドラッグ&amp;ドロップします。<br>**注意：**リストには、少なくとも1回のヒットを持つ過去6か月のアクティビティが入力されます。 リストにアクティビティが表示されない場合は、6か月を超えている可能性があります。 この機能は、最大18か月のルックバック期間を持つ左側のレールから追加できます。 |
 | コントロールエクスペリエンス | コントロールのエクスペリエンスを選択します。 必要に応じて、ドロップダウンで変更できます。 |
-| 指標の標準化 | 個別訪問者数、訪問回数、アクティビティインプレッション数から選択します。 ほとんどの分析の使用例では、実訪問者を使用することをお勧めします。 |
+| 指標の標準化 | 個別訪問者数、訪問回数、アクティビティインプレッション数から選択します。 ほとんどの分析の使用例では、実訪問者を使用することをお勧めします。 この指標（カウント手法とも呼ばれます）は、上昇率計算の分母になります。 また、信頼性計算が適用される前のデータの集計方法に影響します。 |
 | 成功指標 | ドロップダウンから最大3つの標準（計算されていない）成功イベントを選択するか、左のパネルから指標をドラッグ&amp;ドロップします。 各指標は、レンダリングされたパネルに専用のテーブルとビジュアライゼーションを持ちます。 |
-| カレンダーの日付範囲 | これにより、Adobeターゲットのアクティビティ日付範囲に基づいて自動入力されます。 必要に応じて変更できます。 |
+| カレンダーの日付範囲 | これは、Adobe Targetのアクティビティ日付範囲に基づいて自動入力されます。 必要に応じて変更できます。 |
 
-![](assets/a4t-panel-builder.png)
+![パネルビルダー](assets/a4t-panel-builder.png)
 
-## A4Tパネルの出力
+## パネル出力 {#Output}
 
-ターゲット版Analyticsパネルには、豊富なデータおよびビジュアライゼーションのセットが返され、Adobeターゲットのアクティビティとエクスペリエンスのパフォーマンスをより深く理解できます。 パネルの上部に、選択したパネル設定を示す概要行が表示されます。 右上の編集鉛筆をクリックすると、いつでもパネルを編集できます。
+TargetパネルのAnalyticsは、豊富なデータとビジュアライゼーションのセットを返し、Adobe Targetのアクティビティとエクスペリエンスのパフォーマンスをより深く理解できるようにします。 パネルの上部に、選択したパネル設定を示す概要行が表示されます。 右上の編集鉛筆をクリックすると、いつでもパネルを編集できます。
 
 選択した各成功指標に対して、1つのフリーフォームテーブルと1つのコンバージョン率トレンドが表示されます。
 
-![](assets/a4t-rendered.png)
+![レンダリング](assets/a4t-rendered.png)
+
 
 各フリーフォームテーブルには、次の指標列が表示されます。
 
@@ -47,20 +48,21 @@ A4Tパネルは、次の設定を使用して設定できます。
 | 指標の標準化 | 個別訪問者数、訪問回数またはアクティビティインプレッション数。 |
 | 成功指標 | ビルダーで選択された指標 |
 | コンバージョン率 | 成功指標/標準化指標 |
-| 上昇率 | 各エクスペリエンスのコンバージョン率とコントロールエクスペリエンスを比較します。<br>**注意：**上昇率は、ターゲットエクスペリエンスに対して「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。 |
+| 上昇率 | 各エクスペリエンスのコンバージョン率とコントロールエクスペリエンスを比較します。<br>**注意：**上昇率は、Targetエクスペリエンスに対して「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。 |
 | 上昇率 (下限) | コントロールのバリアントエクスペリエンスで使用できる最低の上昇率を表します。 |
-| 上昇率 (中間) | 95% の信頼区間において、コントロールのバリアントエクスペリエンスで使用できる上昇率の中央値を表します。Reports &amp; Analyticsの「上昇率」です。 |
+| 上昇率 (中間) | 95% の信頼区間において、コントロールのバリアントエクスペリエンスで使用できる上昇率の中央値を表します。これは、Reports &amp; Serverの「リフト」です。 |
 | 上昇率 (上限) | コントロールのバリアントエクスペリエンスで使用できる最高の上昇率を表します。 |
-| 信頼性 | t検定を受ける生徒は信頼水準を計算します。これは、再度テストを実施した場合に同じ結果になる可能性を示します。 75%/85%/95%という固定の条件付き書式が指標に適用されました。 この形式設定は、必要に応じて列設定の下でカスタマイズできます。 <br>**注意：**信頼性は、Adobeターゲットエクスペリエンスに対する「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。 |
+| 信頼性 | t検定を受ける生徒は信頼水準を計算します。これは、再度テストを実施した場合に同じ結果になる可能性を示します。 75%/85%/95%という固定の条件付き書式が指標に適用されました。 この形式設定は、必要に応じて列設定の下でカスタマイズできます。 <br>**注意：**信頼性は、Targetエクスペリエンスに対する「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。 |
 
-分析ワークスペースのパネルと同様に、Adobeターゲットアクティビティの分析に役立つテーブルや [ビジュアライゼーションを追加して、分析を続行できます](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) 。
+Analysis Workspaceのパネルと同様に、Adobe Targetアクティビティの分析に役立つテーブルと [ビジュアライゼーションを追加して分析を続行できます](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) 。
 
-## A4TパネルのFAQ
+## よくある質問（FAQ） {#FAQ}
 
 | 質問 | 回答 |
 |---|---|
 | A4Tでサポートされるアクティビティのタイプは何ですか？ | [サポートされるアクティビティの種類について詳しく説明します](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) 。 |
 | 計算指標はA4Tレポートでサポートされていますか？ | いいえ。[計算指標がサポートされない理由の詳細](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 。 |
-| 個別訪問者数がターゲットとAnalyticsで異なるのはなぜですか。 | [製品間の個別訪問者の相違についての詳細](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) 。 |
+| なぜ、TargetとAnalyticsではユニークな訪問者が異なるのでしょうか。 | [製品間の個別訪問者の相違についての詳細](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) 。 |
+| 分析内の特定のTargetアクティビティに対してヒットセグメントを適用すると、無関係なエクスペリエンスが返されるのはなぜですか。 | A4Tディメンションはリスト変数です。つまり、多数のアクティビティ（およびエクスペリエンス）を一度に含めることができます。 [詳細情報](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 
-ターゲットレポートのためのAnalyticsについて詳しくは、 [A4Tのレポートを参照してください](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
+TargetレポートのためのAnalyticsについて詳しくは、 [A4Tレポートを参照してください](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
