@@ -2,7 +2,7 @@
 description: 新しいインテリジェントアラートシステムでは、アラートをより詳細に制御でき、異常値検出とアラートシステムが統合されます。
 title: インテリジェントアラートの概要
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -25,17 +25,17 @@ Analysis Workspace の新しいアラートビルダーおよびアラートマ�
 
 アラートビルダーにアクセスするには、次の 4 つの方法があります。
 
-* アラートビルダーに直接移動する場合： **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
+* アラートビルダーに直接移動する場合：**[!UICONTROL Components]**／**[!UICONTROL Alerts]**
 * Workspace でのキーボードショートカットの使用：`Ctrl + Shift + A`（Windows）または`Cmd + Shift + A`（Mac OS）
-* Selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. これにより、アラートビルダーが開き、テーブルから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。
+* 1 つまたは複数のフリーフォームテーブル行項目を選択し、右クリックして、「**[!UICONTROL Create Alert from Selection]**」を選択する。これにより、アラートビルダーが開き、テーブルから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。
 
    ![選択からアラートを作成](assets/create-alert-from-selection.png)
 
-* Reports &amp; Analyticsレポート内で、/に移動し **[!UICONTROL More]** ます **[!UICONTROL Add Alert]** 。 これにより、アラートビルダーが開き、レポートから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。
+* Reports &amp; Analytics レポートから、**[!UICONTROL More]**／**[!UICONTROL Add Alert]**&#x200B;に移動します。これにより、アラートビルダーが開き、レポートから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。
 
    ![アラートの追加](assets/add-alert.png)
 
-パーセントしきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。しきい値を低く（90％など）設定すると、しきい値を高く（99.75％など）設定した場合よりも多くの異常値が取得されます。
+パーセントしきい値は標準偏差です。例えば、95％ = 2 標準偏差、99％ = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。しきい値を低く（90％など）設定すると、しきい値を高く（99.75％など）設定した場合よりも多くの異常値が取得されます。
 
 >[!IMPORTANT]タイムスタンプ付きデータを使用してアラートを作成すると、アラートが誤って起動される可能性があります。インテリジェントアラートには、タイムスタンプのないデータの使用をお勧めします。
 
