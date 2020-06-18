@@ -2,7 +2,7 @@
 description: 'null'
 title: セグメント
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 次の手順に従うことで、これらのセグメントを公開（グローバル）できます。
 
 1. ドロップゾーンのセグメントの上にマウスポインターを置いて、「i」アイコンをクリックします。
-1. In the information panel that displays, click **[!UICONTROL Make public]**.
+1. 表示される情報パネルで、「**[!UICONTROL Make public]**」をクリックします。
 
    ![](assets/segment-info.png)
 
