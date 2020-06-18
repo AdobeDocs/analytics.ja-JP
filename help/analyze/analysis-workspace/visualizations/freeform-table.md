@@ -1,7 +1,7 @@
 ---
 title: フリーフォームテーブル
 description: フリーフォームテーブルとフリーフォームテーブルビルダーについて説明します
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 ---
@@ -25,14 +25,14 @@ Analysis Workspace では、フリーフォームテーブルは、単なるデ�
 
 ## フリーフォームテーブルビルダー
 
-最初に複数のコンポーネントをテーブルに追加し、次にデータをレンダリングすると、フリーフォームテーブルビルダーを有効にできます。ビルダーを有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑な質問に回答するテーブルを作成できます。Data will not update on-the-fly, it will update once you click **[!UICONTROL Build]**.
+最初に複数のコンポーネントをテーブルに追加し、次にデータをレンダリングすると、フリーフォームテーブルビルダーを有効にできます。ビルダーを有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑な質問に回答するテーブルを作成できます。データはその場では更新されず、「**[!UICONTROL Build]**」をクリックすると更新されます。
 
 データに関する複雑な質問があり、質問に答えるために表を作成したいときに、テーブルビルダーを使用すると時間を節約できます。テーブルビルダーのその他の利点は、次のとおりです。
 
 * 各アクションがレンダリングされるのを待たずに、必要な形式でテーブルを配置できる。
 * 最大 4 レベルの分類をすばやく実行できる。
 * テーブルの行とディメンションの列ごとに、行と分類の設定を定義できる。
-* **[!UICONTROL Breakdown by Position]** デフォルトでは、すべてのレベルのテーブル(従来のフリーフォームテーブルでは、デフォルトは **[!UICONTROL Breakdown by Item]**&#x200B;です)。
+* デフォルトでは、テーブルのすべてのレベルに対して&#x200B;**[!UICONTROL Breakdown by Position]**（従来のフリーフォームテーブルでは、デフォルトは **[!UICONTROL Breakdown by Item]**）に設定されています。
 * テーブル内の静的な行の順序を手動で指定できる。例：指標行を特定の順序で表示する場合など。
 * 実際のデータをレンダリングする前に、テーブルの形式をプレビューします。
 
@@ -42,6 +42,6 @@ Analysis Workspace では、フリーフォームテーブルは、単なるデ�
 
 フリーフォームテーブルのデータは、次の方法で Analysis Workspace からコピーできます。
 
-* テーブルのヘッダーを右クリックし、を選択しま **[!UICONTROL Copy to Clipboard]**&#x200B;す。 これにより、（表示可能な）テーブル全体を書き出します。
-* Highlight specific cells in the table, right-click and select **[!UICONTROL Copy to Clipboard]**, or use the Ctrl + C hotkey.
-* **[!UICONTROL Project > Download CSV]**&#x200B;をインストールします。これにより、プロジェクト内の表示可能なすべてのテーブルが CSV 形式で書き出されます。
+* テーブルヘッダーを右クリックし、「**[!UICONTROL Copy to Clipboard]**」を選択します。これにより、（表示可能な）テーブル全体を書き出します。
+* テーブル内の特定のセルをハイライト表示し、右クリックして「**[!UICONTROL Copy to Clipboard]**」を選択するか、Ctrl + C ホットキーを使用します。
+* **[!UICONTROL Project > Download CSV]**&#x200B;に移動します。これにより、プロジェクト内の表示可能なすべてのテーブルが CSV 形式で書き出されます。
