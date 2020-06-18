@@ -2,7 +2,7 @@
 description: Analysis Workspace 内で、コンテキスト上のデータの異常値を表示および分析できます。
 title: 異常値検出の概要
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
