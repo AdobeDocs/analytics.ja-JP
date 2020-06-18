@@ -3,7 +3,7 @@ description: タッチポイントからセグメントを作成したり、セ�
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: フォールアウト分析でのセグメントの適用
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## タッチポイントからのセグメントの作成 {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. 特に関心があり、他のレポートに適用するのに便利そうな特定のタッチポイントからセグメントを作成します。これを行うには、タッチポイントを右クリックし、を選択しま **[!UICONTROL Create segment from touchpoint]**&#x200B;す。
+1. 特に関心があり、他のレポートに適用するのに便利そうな特定のタッチポイントからセグメントを作成します。それには、タッチポイントを右クリックし、「**[!UICONTROL Create segment from touchpoint]**」をクリックします。
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -45,7 +45,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 フォールアウトビジュアライゼーションでは、無数のセグメントを比較できます。
 
-1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. この例では、US Users と Non-US Users の 2 つのセグメントを選択しています。
+1. 左側の[!UICONTROL Segments]パネルから比較したいセグメントを選択します。この例では、US Users と Non-US Users の 2 つのセグメントを選択しています。
 1. それらを上部のセグメントドロップゾーンにドラッグします。
 
    ![](assets/segment-drop.png)
