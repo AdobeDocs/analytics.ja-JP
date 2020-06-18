@@ -2,7 +2,7 @@
 description: Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 keywords: Analysis Workspace
 title: ビジュアライゼーションの概要
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
@@ -10,34 +10,34 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 # ビジュアライゼーションの概要
 
-Workspaceオファーには、棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布グラフなど、データを視覚的に表現する様々なビジュアライゼーションが含まれています。 各ビジュアライゼーションには、独自の設定があり、管理できます。 ビジュアライゼーションの名前をクリックすると、詳細情報が表示されます。
+Workspace オファーには、棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図など、データを視覚的に表現する様々なビジュアライゼーションがあります。各ビジュアライゼーションには、管理可能な独自の設定があります。ビジュアライゼーションの名前をクリックすると、詳細情報が表示されます。
 
-YouTubeビデオ：分析 [ワークスペースのビジュアライゼーション](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) のタイプ(2:57)
+YouTube ビデオ：[Analysis Workspace のビジュアライゼーションのタイプ](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（2:57）
 
 | ビジュアライゼーション名 | 説明 |
 |---|---|
-| [面グラフ](/help/analyze/analysis-workspace/visualizations/area.md) | 折れ線グラフのように見えますが、線の下に色付きの領域があります。 指標が複数あり、2 個以上の指標の交差により表現される領域を視覚化する場合は、面グラフを使用します。 |
-| [棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md) | 1つ以上の指標の様々な値を表す縦棒グラフを表示します。 |
-| [ブレットグラフ](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | 目的の値が他のパフォーマンス範囲（目標）と比較または測定される方法を示します。 |
+| [面グラフ](/help/analyze/analysis-workspace/visualizations/area.md) | 折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の交差により表現される領域を視覚化する場合は、面グラフを使用します。 |
+| [棒グラフ](/help/analyze/analysis-workspace/visualizations/bar.md) | 1 つ以上の指標の様々な値を表す縦棒グラフが表示されます。 |
+| [ブレットグラフ](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | 目的の値が、他のパフォーマンス範囲（目標）と照らし合わせて、どのように比較または測定されるかを示します。 |
 | [コホートテーブル](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | *`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。コホート分析は、例えば、コホートがブランドとどのように関わっているかを学ぶ場合に便利です。トレンドの変更を簡単に見分けて、それに応じて対応できます |
 | [ドーナツ](/help/analyze/analysis-workspace/visualizations/donut.md) | このビジュアライゼーションは、円グラフと同様に、データを全体の一部または断片として表示します。 |
 | [フォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | フォールアウトレポートは、事前に指定した一連のページ間で、訪問者が離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。 |
-| [フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Webサイトやアプリを通る顧客パスを表示します。 |
+| [フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Web サイトおよびアプリの顧客パスを表示します。 |
 | [フリーフォームテーブル](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | フリーフォームテーブルは、単なるデータテーブルではなく、インタラクティブなビジュアライゼーションです。 |
 | [ヒストグラム](/help/analyze/analysis-workspace/visualizations/histogram.md) | ヒストグラムは、棒グラフに似ていますが、数を範囲（グループ）でグループ化します。 |
-| [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 1つ以上の指標の様々な値を表す横棒グラフを表示します。 |
-| [行](/help/analyze/analysis-workspace/visualizations/line.md) | 一定期間の値の変化を示す線を使用して指標を表します。 折れ線グラフは、時間がディメンションとして使用される場合にのみ使用できます。 |
+| [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
+| [行](/help/analyze/analysis-workspace/visualizations/line.md) | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、時間がディメンションとして使用される場合にのみ使用できます。 |
 | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 任意の指標（計算指標を含む）のビジュアルマップを作成できます。 |
-| [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ディメンション値と最大3つの指標の関係を表示します。 |
+| [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ディメンション値と最大 3 つの指標の関係を表示します。 |
 | [概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | このビジュアライゼーションは、選択したセルに応じて、合計と概要を表示します。 |
-| [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | このビジュアライゼーションでは、選択されているセルに応じて、セルが相互に比較されます。 |
+| [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | このビジュアライゼーションでは、選択されているセルに応じて、セルを互いに比較します。 |
 | [テキスト](/help/analyze/analysis-workspace/visualizations/text.md) | ユーザー定義のテキストを Workspace に追加できます。 |
 | [ツリーマップ](/help/analyze/analysis-workspace/visualizations/treemap.md) | ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。 |
-| [ベン](/help/analyze/analysis-workspace/visualizations/venn.md) | 最大3つのセグメント（コンポーネントから）と1つの指標をドラッグして、ベン図を作成できます。 |
+| [ベン](/help/analyze/analysis-workspace/visualizations/venn.md) | （コンポーネントから）最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できます。 |
 
 ## ビジュアライゼーションパネル {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-To display the Visualizations panel, click **[!UICONTROL Visualizations]** in the side panel.
+ビジュアライゼーションパネルを表示するには、サイドパネルで「**[!UICONTROL Visualizations]**」をクリックします。
 
 ![手順の結果](assets/visualizations.png)
 
@@ -45,7 +45,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 
 ## ビジュアライゼーション設定 {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-アクセスする [!UICONTROL Visualization Settings]には、ビジュアライゼーションをにド [!UICONTROL Freeform Panel]ラッグし、歯車アイコンをク [!UICONTROL Visualization Settings] リックします。
+[!UICONTROL Visualization Settings] にアクセスするに は、ビジュアライゼーションを[!UICONTROL Freeform Panel]にドラッグして、[!UICONTROL Visualization Settings]歯車アイコンをクリックします。
 
 >[!IMPORTANT]
 >
@@ -66,7 +66,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 
 ## ビジュアルを作成アイコン {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row. このアイコンは、テーブルの行の上にマウスポインターを置くと表示されます。クリックすると、データに最適なビジュアライゼーションを Analysis Workspace が学習に基づいて推測することの確認が表示されます。例えば、最大 3 セグメントを選択した場合、ベン図が作成されます。3 セグメントを超える場合、棒グラフが作成されます。他のタイプのデータの場合、折れ線グラフなどが作成されます。
+どのビジュアライゼーションが選択されているかわからない場合は、テーブルの行にある&#x200B;**[!UICONTROL Create Visual]**&#x200B;アイコンをクリックします。このアイコンは、テーブルの行の上にマウスポインターを置くと表示されます。クリックすると、データに最適なビジュアライゼーションを Analysis Workspace が学習に基づいて推測することの確認が表示されます。例えば、最大 3 セグメントを選択した場合、ベン図が作成されます。3 セグメントを超える場合、棒グラフが作成されます。他のタイプのデータの場合、折れ線グラフなどが作成されます。
 
 ![](assets/create-visual.png)
 
@@ -99,11 +99,11 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 折れ線グラフの凡例ラベルを編集するには、例えば、次のようにします。
 
 1. 凡例ラベルの 1 つを右クリックします。
-1. クリック **[!UICONTROL Edit Label]**.
+1. 「**[!UICONTROL Edit Label]**」をクリックします。
 
    ![](assets/edit-label.png)
 
 1. 新しいラベルテキストを入力します。
-1. Press **[!UICONTROL Enter]** to save.
+1. **[!UICONTROL Enter]** キーを押して保存します。
 
 このトピックに関する[ビデオへのリンクはこちら](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)です。
