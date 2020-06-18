@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: プロジェクトの作成 - 概要
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -22,7 +22,7 @@ Analysis Workspace では、新たな方法でデータの比較および詳細�
 
 ## Workspace のプロジェクト一覧ページ {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. （下のスクリーンショットのように、このオプションが表示されない場合、既にランディングページに設定されています）。
+最初に **[!UICONTROL Analytics]**／**[!UICONTROL Workspace]**&#x200B;に移動すると、自分が所有するプロジェクトまたはアクセスを許可されたプロジェクトがすべて一覧表示されます。「**[!UICONTROL Set as Landing Page]**」をクリックすると、このページを Adobe Analytics のランディングページに設定できます（下のスクリーンショットのように、このオプションが表示されない場合、既にランディングページに設定されています）。
 
 ![](assets/sample-project.png)
 
@@ -32,11 +32,11 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 |---|---|
 | プロジェクト[テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | これらの事前設定されたプロジェクトテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。 |
 | [新規プロジェクトを作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | このリンクをクリックすると、新しいプロジェクトを最初から作成できます。 |
-| プロジェクトの管理 | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
+| プロジェクトの管理 | このリンクをクリックすると、プロジェクトコンポーネントマネージャーに移動します（**[!UICONTROL Analytics]**／**[!UICONTROL Components]**／**[!UICONTROL Projects]**）。ここでは、すべてのプロジェクトが一覧表示され、プロジェクトのタグ付け、共有、削除、名前の変更、承認、コピー、CSV への書き出しをおこなえます。 |
 | チュートリアルを表示 | [YouTube の Analysis Workspace 関連ビデオ](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)に移動します。 |
 | 名前 | Workspace プロジェクトの名前。 |
 | 作成者 | このプロジェクトを作成したユーザー（ユーザー自身、またはユーザー自身とそのプロジェクトを共有した他のユーザー）。 |
-| タグ | Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
+| タグ | プロジェクトに適用されたタグ。プロジェクトコンポーネントマネージャー、または&#x200B;**[!UICONTROL Workspace]**／**[!UICONTROL Project]**／**[!UICONTROL Project Info & Settings]**&#x200B;で適用されます。 |
 | 最終変更日 | プロジェクトが最後に変更された日付。 |
 
 ## プロジェクト情報および設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
@@ -45,14 +45,14 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 ![](assets/projectinfo.png)
 
-**[!UICONTROL Project Info & Settings]** 現在アクティブなプロジェクトに関するプロジェクトレベルの情報を提供します。
+**[!UICONTROL Project Info & Settings]**&#x200B;は、現在アクティブなプロジェクトに関するプロジェクトレベルの情報を提供します。
 
 | 設定 | 説明 |
 |---|---|
 | プロジェクト名 | プロジェクトに設定された名前。名前をダブルクリックすると編集できます。 |
 | 作成者 | プロジェクト所有者名。 |
 | 最終変更日 | プロジェクトの最終変更日。 |
-| タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。プロジェクトは保存する際にもタグ付けできます。View a project&#39;s tags on the Workspace Landing Page in the [!UICONTROL Tags] column. |
+| タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。プロジェクトは保存する際にもタグ付けできます。Workspace ランディングページの[!UICONTROL Tags]列にプロジェクトのタグが表示されます。 |
 | 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。説明をダブルクリックすると編集できます。 |
 | プロジェクトで繰り返しのインスタンスをカウントします | レポート内でレポートインスタンスがカウントされるかどうかを指定します。同じ変数に対して複数の連続する値が存在する場合に、それらの値を変数の 1 つのインスタンスとしてカウントすることも、複数のインスタンスとしてカウントすることもできます。 |
 | ビジュアライゼーションのカラースキーマ | 異なるカラーパレットを選択するか、独自のパレットを指定することにより、Workspace で使用されるカラースキーマを変更できるようになりました。この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
@@ -86,4 +86,4 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-A **[!UICONTROL Blank Panel]** was added to the list of panels accessible from the left rail. **新しいコホートパネル**&#x200B;を作成するには、空のパネルにドラッグし、コホートテーブルのビジュアライゼーションにドラッグします。
+左側のパネルからパネルのリストにアクセスできる&#x200B;**[!UICONTROL Blank Panel]**&#x200B;が追加されました。**新しいコホートパネル**&#x200B;を作成するには、空のパネルにドラッグし、コホートテーブルのビジュアライゼーションにドラッグします。
