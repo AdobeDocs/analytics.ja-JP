@@ -2,7 +2,7 @@
 title: セグメント比較パネルの概要
 description: Analysis Workspace の Segment IQ の一部である、セグメント比較パネルの使用方法を説明します。
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -27,11 +27,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![オーディエンスの比較](assets/compare-audiences.png)
 
-   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. これは比較パネルで頻繁に使用されるセグメントですが、このセグメントを削除し、別のセグメントを選択して比較することもできます。
+   セグメントをパネルにドラッグすると、選択したセグメントに含まれないすべての人を含む「[!UICONTROL 'Everyone Else']」セグメントが Analytics によって自動的に作成されます。これは比較パネルで頻繁に使用されるセグメントですが、このセグメントを削除し、別のセグメントを選択して比較することもできます。
 
    ![他の全員](assets/everyone-else.png)
 
-1. Once you have determined which two segments to compare, click [!UICONTROL Build].
+1. 比較する 2 つのセグメントを決定したら、「[!UICONTROL Build]」をクリックします。
 
    このアクションは、選択した 2 つのセグメントと、すべてのディメンション、指標、その他のセグメントとの間の統計的な違いを探すバックエンドプロセスを開始します。パネルの上部にある進行状況バーは、各指標とディメンションが分析されるまでの残り時間を示します。最も頻繁に使用される指標、ディメンションおよびセグメントは、最初に実行されるように優先順位付けされ、最も関連性の高い結果がタイムリーに返されます。
 
@@ -39,12 +39,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 一部のディメンション、指標またはセグメントをセグメント比較から除外する必要が生じる場合があります。例えば、「米国のモバイルユーザー」と「ドイツのモバイルユーザー」のセグメントを比較するとします。これらのセグメントは既に地域的な違いを意味しているので、地域関連のディメンションを含めても意味がありません。
 
-1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
-1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
+1. 目的の 2 つのセグメントをパネルに表示したら、「[!UICONTROL 'Show Advanced Options']」をクリックします。
+1. 除外したいコンポーネントを[!UICONTROL Excluded Components]パネルにドラッグ＆ドロップします。
 
    ![除外されたコンポーネント](assets/excluded-components.png)
 
-Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. 除外されたコンポーネントを編集する場合は、コンポーネントのタイプをクリックし、コンポーネントの横の「X」をクリックして、分析に再度含めます。セグメント比較にすべてのコンポーネントを再度含めるには、「すべてクリア」をクリックします。
+「[!UICONTROL 'Set as default']」をクリックすると、今後のすべてのセグメント比較で現在のコンポーネントが自動的に除外されます。除外されたコンポーネントを編集する場合は、コンポーネントのタイプをクリックし、コンポーネントの横の「X」をクリックして、分析に再度含めます。セグメント比較にすべてのコンポーネントを再度含めるには、「すべてクリア」をクリックします。
 
 ![除外されたディメンション](assets/excluded-dimensions.png)
 
