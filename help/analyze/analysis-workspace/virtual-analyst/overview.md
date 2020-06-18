@@ -1,7 +1,7 @@
 ---
 title: Virtual Analyst
 description: Virtual Analyst に貢献する Adobe Analytics の機能について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
