@@ -2,7 +2,7 @@
 description: Analysis Workspace のコンポーネントは、指標、ディメンション、セグメントおよび時間の精度で構成されており、これらはプロジェクトにドラッグ＆ドロップできます。カスタム日付範囲などの、作成したカスタムコンポーネントがこれらのパネルに追加されます。
 title: コンポーネントの概要
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Analysis Workspace のコンポーネントは、指標、ディメンション、セグメントおよび時間の精度で構成されており、これらはプロジェクトにドラッグ＆ドロップできます。カスタム日付範囲などの、作成したカスタムコンポーネントがこれらのパネルに追加されます。
 
-To access the Components panel, click the **[!UICONTROL Components]** icon in the left rail. 左側のパネルのアイコンを使用するか、[ホットキー](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)を使用して、パネル（空白パネル、[フリーフォームパネル](/help/analyze/analysis-workspace/visualizations/freeform-table.md)、または[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)）、[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)、コンポーネントを切り替えることができます。
+コンポーネントパネルにアクセスするには、左側のパネルで **[!UICONTROL Components]** アイコンをクリックします。左側のパネルのアイコンを使用するか、[ホットキー](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)を使用して、パネル（空白パネル、[フリーフォームパネル](/help/analyze/analysis-workspace/visualizations/freeform-table.md)、または[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)）、[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)、コンポーネントを切り替えることができます。
 
 ![](assets/components.png)
 
@@ -20,7 +20,7 @@ To access the Components panel, click the **[!UICONTROL Components]** icon in th
 
 ## コンポーネントのアクション {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
-コンポーネントは、様々な方法で（個別に、または複数選択して同時に）管理できます。Right-click a component or click **[!UICONTROL Actions]** at the top of the component list.
+コンポーネントは、様々な方法で（個別に、または複数選択して同時に）管理できます。コンポーネントを右クリックするか、コンポーネントリストの上部にある「**[!UICONTROL Actions]**」をクリックします。
 
 >[!NOTE]これらのアクションは、時間コンポーネントには適用されません。
 
