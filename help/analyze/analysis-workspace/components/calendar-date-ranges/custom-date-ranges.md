@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Analysis Workspace でカスタム日付範囲を作成
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,13 +18,13 @@ Analysis Workspace でカスタム日付範囲を作成し、時間コンポー�
 
 日付範囲は、パネルレベルで適用します。プロジェクトに日付範囲を追加するには、**パネル**／*`<select panel>`* をクリックして、新しい日付範囲を指定します。
 
-## 「2 ヶ月前」の日付範囲{#section_C4109C57CB444BB2A79CC8082BD67294}
+## 「2 ヶ月前」の日付範囲 {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 次のカスタム日付範囲は、方向の変化を示す変更概要ビジュアライゼーションで、「2 ヶ月前」の日付範囲を示します。
 
 ![](assets/date-range-two-months-ago.png)
 
-The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
+カスタム日付範囲は、プロジェクトの [!UICONTROL Date Range] コンポーネントパネルの最上部に表示されます。
 
 ![](assets/date-range-panel-two-months-ago.png)
 
