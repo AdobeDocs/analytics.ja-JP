@@ -2,10 +2,10 @@
 description: Target用Analytics(A4T)パネルを使用すると、Analysis Workspace内のAdobe Targetのアクティビティとエクスペリエンスを分析できます。
 title: Target用Analytics(A4T)パネル
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 16%
+source-wordcount: '855'
+ht-degree: 15%
 
 ---
 
@@ -61,8 +61,9 @@ Analysis Workspaceのパネルと同様に、Adobe Targetアクティビティ�
 | 質問 | 回答 |
 |---|---|
 | A4Tでサポートされるアクティビティのタイプは何ですか？ | [サポートされるアクティビティの種類について詳しく説明します](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) 。 |
-| 計算指標はA4Tレポートでサポートされていますか？ | いいえ。[計算指標がサポートされない理由の詳細](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 。 |
+| 計算指標は上昇率と信頼性の計算でサポートされているか。 | いいえ。[上昇率と信頼性で計算指標がサポートされない理由について詳しく説明します](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 。 ただし、計算指標は、これらの指標の外部でA4Tレポートで使用できます。 |
 | なぜ、TargetとAnalyticsではユニークな訪問者が異なるのでしょうか。 | [製品間の個別訪問者の相違についての詳細](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) 。 |
 | 分析内の特定のTargetアクティビティに対してヒットセグメントを適用すると、無関係なエクスペリエンスが返されるのはなぜですか。 | A4Tディメンションはリスト変数です。つまり、多数のアクティビティ（およびエクスペリエンス）を一度に含めることができます。 [詳細情報](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 信頼性指標は、極端な注文を考慮するか、複数のオファーに対してBonferroni補正を適用するか。 | いいえ。[Analyticsが信頼性を計算する方法について詳しく説明します](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 。 |
 
 TargetレポートのためのAnalyticsについて詳しくは、 [A4Tレポートを参照してください](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
