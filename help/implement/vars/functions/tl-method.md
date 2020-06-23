@@ -1,7 +1,7 @@
 ---
 title: tl
 description: リンクトラッキングコールをアドビに送信します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -99,13 +99,13 @@ HTML リンク内で基本的なリンクトラッキングコールを直接送
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-JavaScriptを使用して、メソッド引数を使用して基本的なリンクトラッキングコールを作成します。
+JavaScript で、メソッド引数を使用した基本的なリンクトラッキングコールを作成します。
 
 ```JavaScript
 s.tl(true,"o","Example link");
 ```
 
-JavaScriptを使用して、別々の変数を使用して同じ基本的なリンクトラッキング呼び出しを作成します。
+JavaScript で、異なる変数を使用した同じ基本的なリンクトラッキングコールを作成します。
 
 ```js
 s.linkType = "o";
