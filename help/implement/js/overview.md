@@ -1,7 +1,7 @@
 ---
 title: JavaScript 版 AppMeasurement
 description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -37,7 +37,7 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
    s.events = "event1";
    ```
 
-4. When all page-level variables are defined, send the data to Adobe using the `t()` method. 詳しくは、[t](../vars/functions/t-method.md) を参照してください。
+4. すべてのページレベル変数が定義されたら、`t()` メソッドを使用してデータをアドビに送信します。詳しくは、[t](../vars/functions/t-method.md) を参照してください。
 
    ```js
    s.t();
