@@ -1,7 +1,7 @@
 ---
 title: dynamicVariablePrefix
 description: 動的変数を識別する文字列をカスタマイズできます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03a4c0d5e080219a7fd96dff33ce122669351ac3
 
 ---
