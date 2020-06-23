@@ -3,10 +3,10 @@ description: これらの関数にアクセスするには、関数ドロップ�
 title: リファレンス：高度な関数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
 workflow-type: tm+mt
 source-wordcount: '2911'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ AND(logical_test1,[logical_test2],...)
 | 引数 | 説明 |
 |---|---|
 | *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
-| *logical_test2* | (オプション)TRUE または FALSE として求める追加の条件です。 |
+| *logical_test2* | （オプション）TRUE または FALSE として求める追加の条件です。 |
 
 ## 個別概算カウント（ディメンション） {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-選択したディメンションに関する個別のディメンション項目を概算した数を返します。この関数では、個別カウントを概算する HyperLogLog（HLL）手法を使用しています。  この関数は、値が 95％の確率で実際の値から誤差 5％以内にあることを保証するように設定されています。
+選択したディメンションに関する個別のディメンション項目を概算した数を返します。この関数では、個別カウントを概算する HyperLogLog（HLL）手法を使用しています。 この関数は、値が 95％の確率で実際の値から誤差 5％以内にあることを保証するように設定されています。
 
 ```
 Approximate Count Distinct (dimension)
@@ -54,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *ディメンション* | 個別の項目数を概算するディメンションです。 |
 
-## 使用例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### 使用例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 個別概算カウント（顧客 ID eVar）は、この関数の一般的な使用例です。
 
@@ -66,11 +66,11 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-customers.png)
 
-## 超過したユニーク数 {#section_9C583858A9F94FF7BA054D1043194BAA}
+### 超過したユニーク数 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
+Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/low-traffic.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
 
-## カウント関数の比較 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### カウント関数の比較 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() は、Count() 関数および RowCount() 関数を改良したものです。作成した指標を任意のディメンションレポートで使用し、個別のディメンションに関して概算した項目数をレンダリングできます。例としては、モバイルデバイスタイプレポートで使用される顧客 ID 数があります。
 
@@ -364,7 +364,7 @@ LOG10(metric)
 
 ## 対数回帰：相関係数（表） {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-回帰式 *に対して、2 つの指標列（* metric_X *と* metric_Y *）の間の相関係数* r[!DNL Y = a ln(X) + b] を返します。計算には CORREL 式を使用します。
+回帰式 [!DNL Y = a ln(X) + b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の相関係数 *r* を返します。計算には CORREL 式を使用します。
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -377,7 +377,7 @@ CORREL.LOG(metric_X,metric_Y)
 
 ## 対数回帰：切片（表） {#concept_75A3282EDF54417897063DC26D4FA363}
 
-回帰式 *に対して、2 つの指標列（* metric_X *と* metric_Y *）の間の最小二乗回帰として、切片* b[!DNL Y = a ln(X) + b] を返します。計算には INTERCEPT 式を使用します。
+回帰式 [!DNL Y = a ln(X) + b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の最小二乗回帰として、切片 *b* を返します。計算には INTERCEPT 式を使用します。
 
 ```
 INTERCEPT.LOG(metric_X, metric_Y)
@@ -390,7 +390,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## 対数回帰：予測 Y（行） {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-最小二乗法で [!DNL Y = a ln(X) + b]**** に基づいて最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（metric_X）に対する予測 [!DNL y] 値（metric_Y）を算出します。計算には ESTIMATE 式を使用します。
+最小二乗法で [!DNL Y = a ln(X) + b] に基づいて最良の当てはめ線を計算し、指定されている既知の [!DNL x] 値（metric_X）に対する予測 [!DNL y] 値（metric_Y）を算出します。計算には ESTIMATE 式を使用します。
 
 回帰分析では、この関数は、回帰方程式 [!DNL Y = a ln(X) + b] = a ln() + b の最良の当てはめ線を計算する対数を使用して既知の [!DNL x]x 値（*metric_X*）に対する予測 [!DNL y] 値（*metric_Y*）を算出します。[!DNL a] 値は各 x 値に対応し、[!DNL b] は定数値です。
 
@@ -405,7 +405,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## 対数回帰：傾き（表） {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-回帰式 *に対して、2 つの指標列（* metric_X *と* metric_Y *）の間の傾き* a[!DNL Y = a ln(X) + b] を返します。計算には SLOPE 式を使用します。
+回帰式 [!DNL Y = a ln(X) + b] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の傾き *a* を返します。計算には SLOPE 式を使用します。
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -459,7 +459,7 @@ OR(logical_test1,[logical_test2],...)
 | 引数 | 説明 |
 |---|---|
 | *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
-| *logical_test2* | (オプション)TRUE または FALSE として求める追加の条件です。 |
+| *logical_test2* | （オプション）TRUE または FALSE として求める追加の条件です。 |
 
 ## 円周率 {#concept_41258789660D4A33B5FB86228F12ED9C}
 
@@ -486,7 +486,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## 累乗回帰：切片（表） {#concept_7781C85597D64D578E19B212BDD1764F}
 
-*に対して、2 つの指標列（* metric_X *と* metric_Y *）の間の切片* b[!DNL Y = b*X] を返します。
+[!DNL Y = b*X] に対して、2 つの指標列（*metric_X* と *metric_Y*）の間の切片 *b* を返します。
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -691,7 +691,7 @@ z スコアの式は次のようになります。
 
 ここで、[!DNL x] は生のスコア、[!DNL μ] は母集団の平均値、[!DNL σ] は母集団の標準偏差です。
 
->[!NOTE] [!DNL μ] （ミュー）および [!DNL σ]（シグマ）は、指標から自動的に計算されます。
+>[!NOTE] [!DNL μ]（ミュー）および [!DNL σ]（シグマ）は、指標から自動的に計算されます。
 
 Z スコア（指標）
 
