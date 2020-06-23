@@ -1,7 +1,7 @@
 ---
 title: linkType
 description: linkType 変数は、ヒットが属するリンクトラッキングディメンションを特定するのに使用します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -32,13 +32,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## AppMeasurement および Launch カスタムコードエディターの s.linkType
 
-`s.linkType` 変数は、`o`、`d`、`e` の 3 つの 1 文字の値のいずれかを受け取る文字列です。If a `tl()` method is called without a link type, it defaults to Custom link.
+`s.linkType` 変数は、`o`、`d`、`e` の 3 つの 1 文字の値のいずれかを受け取る文字列です。リンクタイプを指定せずに `tl()` メソッドを呼び出した場合、デフォルトでは「カスタムリンク」に設定されます。
 
 * `o` - カスタムリンク
 * `d` - ダウンロードリンク
 * `e` - 出口リンク
 
->[!TIP] この変数はメソッドの2番目のパラメー `tl()` ターで、通常、スタンドアロン変数として設定する必要はありません。 However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP] この変数は `tl()` メソッドの 2 番目のパラメーターで、通常、スタンドアロン変数として設定する必要はありません。ただし、`linkType` メソッドの引数として値を設定しない場合は、`tl()` 変数を使用できます。
 
 ```js
 s.linkType = "e";
