@@ -1,7 +1,7 @@
 ---
 title: pageURL
 description: 自動的に収集されたページの URL をサイトで上書きします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
