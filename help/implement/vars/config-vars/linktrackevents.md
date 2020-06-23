@@ -1,7 +1,7 @@
 ---
 title: linkTrackEvents
 description: リンクトラッキングイメージリクエストに含めるイベントを決定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 一部の実装では、すべての変数をすべてのリンクトラッキングイメージリクエストに含めたくない場合があります。[`linkTrackVars`](linktrackvars.md) 変数と `linkTrackEvents` 変数を使用して、[`tl()`](../functions/tl-method.md) の呼び出しにディメンションと指標を選択的に含めます。
 
-This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
+この変数は、ページビュー呼び出し（[`t()`](../functions/t-method.md) メソッド）には使用されません。
 
 ## Adobe Experience Platform Launch を使用したリンクトラッキングコールのイベント
 
@@ -21,7 +21,7 @@ Launch は、インターフェイスで定義されたイベントを自動的�
 
 ## AppMeasurement および Launch カスタムコードエディターの s.linkTrackEvents
 
-The `s.linkTrackEvents` variable is a string containing a comma-delimited list of events that you want to include in link tracking image requests (`tl()` method). リンクトラッキングヒットに指標を含めるには、次の 3 つの条件を満たす必要があります。
+`s.linkTrackEvents` 変数は、リンクトラッキングイメージリクエスト（`tl()` メソッド）に含めるイベントのコンマ区切りリストを含む文字列です。リンクトラッキングヒットに指標を含めるには、次の 3 つの条件を満たす必要があります。
 
 * 目的のイベントを [`events`](../page-vars/events/events-overview.md) 変数に設定します。例：`s.events = "event1";`。
 * `events` 変数を `linkTrackVars` に設定します。例：`s.linkTrackVars = "events";`。
