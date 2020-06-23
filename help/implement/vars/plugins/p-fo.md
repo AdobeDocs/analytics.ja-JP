@@ -1,7 +1,7 @@
 ---
 title: p_fo（Page First Only）
 description: 特定のルーチンが 1 ページにつき 1 回だけ実行されるようにします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
