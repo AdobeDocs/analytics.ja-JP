@@ -1,7 +1,7 @@
 ---
 title: H コード JavaScript 実装の概要
 description: サイトで H コードを実装するためのワークフローについて説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
