@@ -1,7 +1,7 @@
 ---
 title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -75,7 +75,7 @@ addProductEvent プラグインは、Cookie を作成したり使用したりし
 
 ### 例 1
 
-次のコードは、変数をに設 `s.products` 定しま `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`す。
+次のコードは、 `s.products` 変数を `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"` に設定します。
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
@@ -83,22 +83,22 @@ s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-上記のコードでは、変数 `s.events` を `"purchase,event35"`
+また、上記のコードでは、`s.events` 変数を `"purchase,event35"` に設定します。
 
 ### 例 2
 
-次のコードでは、変数 `s.products` を `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
+次のコードでは、`s.products` 変数を `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"` に設定します。
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-呼び出しの3番目の引数が `addProductEvent` (ま `true` たは `1`)の場合、各製品エントリの値には、呼び出しで指定されたイベントが追加されます。
+`addProductEvent` 呼び出しの 3 番目の引数が `true`（または `1`）の場合、呼び出しで指定されたイベントが各製品エントリの値に追加されます。
 
 ### 例 3
 
-次のコードでは、変数 `s.products` を `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
+次のコードでは、`s.products` 変数を `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"` に設定します。
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
@@ -108,11 +108,11 @@ s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-上記のコードでは、変数 `s.events` を `"purchase,event2,event33,event34,event35"`
+また、上記のコードでは、`s.events` 変数を `"purchase,event2,event33,event34,event35"` に設定します。
 
 ### 例 4
 
-次のコードでは、変数 `s.products` を `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
+次のコードでは、`s.products` 変数を `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"` に設定します。
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
@@ -122,19 +122,19 @@ s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-上記のコードでは、変数もに設 `s.events` 定されま `"purchase,event2,event33,event34,event35"`す。
+また、上記のコードでは、`s.events` 変数を `"purchase,event2,event33,event34,event35"` に設定します。
 
->[!NOTE] 呼び出しの2番目の引数は、整数または **** 、整数/数値を表す文字列です
+>[!NOTE] 呼び出しの 2 番目の引数は、整数&#x200B;**または**&#x200B;整数／数値を表す文字列です
 
 ### 例 5
 
-が設 `s.products` 定されていない場合、次のコードは `";;;;event35=25"`
+`s.products` がまだ設定されていない場合、次のコードによって `";;;;event35=25"` に設定されます。
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-上記のコードも `"event35"` また、の末尾に付加 `s.events` さ **れ**`s.events` ます `s.events` 。まだ設定されていない場合は、上記のコードセットは、 `"event35"`
+上記のコードでは、 `s.events` のの末尾に `"event35"` を追加します。**または** `s.events` がまだ設定されていない場合、上記のコードセットは `s.events` を `"event35"` に設定します。
 
 ## バージョン履歴
 
