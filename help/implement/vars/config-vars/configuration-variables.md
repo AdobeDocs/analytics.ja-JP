@@ -1,7 +1,7 @@
 ---
 title: 設定変数
 description: 設定変数を使用して、データの収集方法を決定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -21,4 +21,4 @@ Adobe Experience Platform Launch を使用した実装では、通常、設定�
 2. 編集するプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics で「[!UICONTROL 設定]」をクリックします。
 
->[!IMPORTANT] トラッキングメソッド（または）を呼び出す前に、すべての設定変数が設定されている[`t()`](../functions/t-method.md) ことを確認 [`tl()`](../functions/tl-method.md)します。 [`doPlugins()`](../functions/doplugins.md) 関数内で設定変数を設定しないでください。
+>[!IMPORTANT]トラッキングメソッド（[`t()`](../functions/t-method.md) または [`tl()`](../functions/tl-method.md)）を呼び出す前に、すべての設定変数が設定されていることを確認します。[`doPlugins()`](../functions/doplugins.md) 関数内で設定変数を設定しないでください。
