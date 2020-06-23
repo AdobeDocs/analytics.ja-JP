@@ -1,7 +1,7 @@
 ---
 title: doPlugins
 description: ヒットがコンパイルされてアドビに送信される直前にロジックを設定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # doPlugins
 
-`doPlugins` 変数は、実装に値を設定する「最後の呼び出し」として機能します。If [`usePlugins`](../config-vars/useplugins.md) is enabled, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
+`doPlugins` 変数は、実装に値を設定する「最後の呼び出し」として機能します。[`usePlugins`](../config-vars/useplugins.md) が有効になっている場合は、次のようなイメージリクエストがコンパイルされてアドビに送信される直前に自動的に実行されます。
 
 * すべてのページビュー（[`t()`](t-method.md)）コール
 * 自動ダウンロードリンクと出口リンクを含む、すべてのリンクトラッキング（[`tl()`](tl-method.md)）コール
