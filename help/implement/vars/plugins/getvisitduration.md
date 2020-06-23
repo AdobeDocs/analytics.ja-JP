@@ -1,7 +1,7 @@
 ---
 title: getVisitDuration
 description: 訪問者がサイトに来訪した時間を追跡します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
