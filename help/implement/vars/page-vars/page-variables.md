@@ -1,7 +1,7 @@
 ---
 title: ページ変数
 description: 個々のページに値を設定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -9,11 +9,11 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # ページ変数
 
-ページ変数は、ディメンションと指標の値を決定します(レポート)。
+ページ変数は、レポート内のディメンションおよび指標の値を決定します。
 
-次のリストは、実装で頻繁に使用される変数です。
+以下のリストは、実装でよく使用される変数を示しています。
 
-* [`pageName`](pagename.md):ページの名前。
-* [`campaign`](campaign.md):この変数を、クエリ追跡用のパラメーター文字列キャンペーンに設定します。
-* [`events`](events/events-overview.md):指標を入力して、レポートで使用
-* [`products`](products.md):eコマースサイトをお持ちの場合は、製品の購入や表示の際にこの変数を訪問者します。
+* [`pageName`](pagename.md)：ページの名前。
+* [`campaign`](campaign.md)：この変数をキャンペーン追跡用のクエリ文字列パラメーターに設定します。
+* [`events`](events/events-overview.md)：レポートで使用する指標を入力します。
+* [`products`](products.md)：e コマースサイトを持っている場合は、訪問者が製品を閲覧または購入した際にこの変数を設定します。
