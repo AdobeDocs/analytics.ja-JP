@@ -1,7 +1,7 @@
 ---
 title: apl（appendToList）
 description: 複数の値をサポートする変数に値を追加します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-The `apl` plug-in allows you to safely add new values to list-delimited variables, such as [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md), and others.
+`apl` プラグインを使用すると、リスト区切りの変数（例：[`events`](../page-vars/events/events-overview.md)、[`linkTrackVars`](../config-vars/linktrackvars.md)、[`list`](../page-vars/list.md)）に新しい値を安全に追加できます。
 
 * 追加する値が変数に存在しない場合は、コードによって文字列の末尾に値が追加されます。
 * 追加する値が変数に既に存在する場合、このプラグインは値を変更しません。この機能により、実装で値の重複を回避できます。
@@ -294,7 +294,7 @@ s.list2 の最終値は次のとおりです。
 s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 ```
 
-2 つの区切り文字引数が異なるので、渡される値は最初の区切り文字引数（|）で区切られ、2 番目の区切り文字引数（-）で結合されます
+2 つの区切り文字引数が異なるので、渡される値は最初の区切り文字引数（ ）で区切られ、2 番目の区切り文字引数（-）で結合されます。
 
 ## バージョン履歴
 
