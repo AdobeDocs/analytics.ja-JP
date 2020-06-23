@@ -1,7 +1,7 @@
 ---
 title: cookieDomainPeriods
 description: ドメインのサフィックスにピリオドが含まれていると、AppMeasurement が Cookie を保存するドメインをよりよく理解できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -29,7 +29,7 @@ AppMeasurement は、ドメインとドメインサフィックスを調べて C
 
 サフィックスにピリオドを含むドメインでのみ、このフィールドを `3` に設定します。それ以外の場合は、このフィールドを空白のままにすることができます。
 
-## AppMeasurement の s.cookieDomainPeriods と Launch カスタムコードエディター
+## AppMeasurement および Launch カスタムコードエディターの s.cookieDomainPeriods
 
 `cookieDomainPeriods` 変数は、通常、サフィックスにピリオドを含むドメインでのみで `"3"` に設定される文字列です。デフォルト値は `"2"` で、ほとんどのドメインに対応します。
 
