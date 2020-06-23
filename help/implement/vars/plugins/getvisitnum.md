@@ -1,7 +1,7 @@
 ---
 title: getVisitNum
 description: 訪問者の現在の訪問回数を追跡します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -165,5 +165,5 @@ s.prop3=s.getVisitNum("y");
 
 ### 3.0（2016 年 6 月 6 日）
 
-* 完全なオーバーホール
+* 完全なオーバーホール。
 * `getVisitNum` プラグインの様々なバージョンで使用可能な以前のすべてのソリューションを組み合わせました。
