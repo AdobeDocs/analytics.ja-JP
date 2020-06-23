@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountMatch
 description: dynamicAccountMatch 変数は、動的アカウントで表示する値を決定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
