@@ -1,7 +1,7 @@
 ---
 title: clearVars
 description: インスタンスオブジェクトの以下の値をクリアします。この関数は要素を削除します（要素を「undefined」に設定します）。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 このメソッドは引数を取らず、値を返しません。その唯一の目的は、インスタンスオブジェクトから変数の値をクリアすることです。このメソッドは、次の要素を `undefined` に設定します。
 
-* `prop1`～`prop75`
-* `eVar`～`eVar250`
-* `hier1`～`hier5`
+* `prop1` - `prop75`
+* `eVar` - `eVar250`
+* `hier1` - `hier5`
 * `list1` - `list3`
 * `events`
 * `products`
