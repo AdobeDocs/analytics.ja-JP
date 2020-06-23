@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類ルール - 定義
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p>レポートスイートと変数の選択 </p> </td> 
-   <td colname="col2"> <p><b>レポートスイート</b> </p> <p>ルールセットを適用するレポートスイート。 </p> <p><b>変数</b> </p> <p>分類ルールセットを作成するときは、変数を 1 つだけ適用できます。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。 </p> <p>注意：レポートスイートでは、アクセス権のある変数のみを使用できます。変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ<span class="wintitle">新しいルールセット</span>パネルに表示されます。 </p> <p>例えば、<span class="term">ページ</span>をルールセットの変数として使用できるようにするには、レポートスイートに<span class="term">ページ用</span>の<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >トラフィック分類</a>が実装されていることを確認します。 </p> <p> 変数の分類を作成するには、<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">トラフィック</span>／<span class="uicontrol">トラフィック分類</span>（または<span class="uicontrol">コンバージョン</span>／<span class="uicontrol">コンバージョンの分類</span>）を使用します。次に、変数を選択し、「<span class="uicontrol">分類の追加</span>」をクリックします。 </p> <p>管理ヘルプの<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >トラフィック分類</a>および<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >コンバージョンの分類</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><b>レポートスイート</b> </p> <p>ルールセットを適用するレポートスイート。 </p> <p><b>変数</b> </p> <p>分類ルールセットを作成するときは、変数を 1 つだけ適用できます。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。 </p> <p>注意：レポートスイートでは、アクセス権のある変数のみを使用できます。変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ<span class="wintitle">新しいルールセット</span>パネルに表示されます。 </p> <p>例えば、<span class="term">ページ</span>をルールセットの変数として使用できるようにするには、レポートスイートに<span class="term">ページ用</span>の<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/traffic-classifications.html"  >トラフィック分類</a>が実装されていることを確認します。 </p> <p> 変数の分類を作成するには、<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">トラフィック</span>／<span class="uicontrol">トラフィック分類</span>（または<span class="uicontrol">コンバージョン</span>／<span class="uicontrol">コンバージョンの分類</span>）を使用します。次に、変数を選択し、「<span class="uicontrol">分類の追加</span>」をクリックします。 </p> <p>管理ヘルプの<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/traffic-classifications.html"  >トラフィック分類</a>および<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >コンバージョンの分類</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> アクティブ化</span> </p> </td> 
@@ -44,7 +44,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポートスイートと変数を設定 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">利用可能なレポートスイート</span>が表示されます。このページでは、利用可能なレポートスイートから、すべてのルールセットで使用する 1 つ以上のレポートスイートを選択できます（このページは、<span class="wintitle">分類ルールビルダー</span>を最初に実行したときにも表示されます）。 </p> <p>この機能は、非常に多くの利用可能なレポートスイートが存在する場合に、レポートスイートのロード時間を短縮するのに役立ちます。 </p> <p>ここで選択したレポートスイートは、ルールの作成時に「<span class="uicontrol">スイートを追加</span>」をクリックすると、ルールレベルで利用できるようになります。 </p> <p>レポートスイートは、<span class="wintitle">管理ツール</span>で、変数に対して定義された分類がレポートスイートに 1 つ以上ある場合に<span class="term">のみ</span>使用可能になります。 <p>(この前提条件については、<a href="/help/components/c-classifications2/crb/classification-rule-set.md"  >分類ルールセット</a>の<span class="term">変数</span>を参照してください。) </p> </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">利用可能なレポートスイート</span>が表示されます。このページでは、利用可能なレポートスイートから、すべてのルールセットで使用する 1 つ以上のレポートスイートを選択できます（このページは、<span class="wintitle">分類ルールビルダー</span>を最初に実行したときにも表示されます）。 </p> <p>この機能は、非常に多くの利用可能なレポートスイートが存在する場合に、レポートスイートのロード時間を短縮するのに役立ちます。 </p> <p>ここで選択したレポートスイートは、ルールの作成時に「<span class="uicontrol">スイートを追加</span>」をクリックすると、ルールレベルで利用できるようになります。 </p> <p>レポートスイートは、<span class="wintitle">管理ツール</span>で、変数に対して定義された分類がレポートスイートに 1 つ以上ある場合に<span class="term">のみ</span>使用可能になります。 <p>（この前提条件については、<a href="/help/components/c-classifications2/crb/classification-rule-set.md"  >分類ルールセット</a>の<span class="term">変数</span>を参照してください。） </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ルールによって既存の値は上書きされます </p> </td> 
@@ -92,7 +92,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
      <li id="li_5C702D4F460841D38A59621A5161A3BC">次の語句で始まる </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">次の語句で終わる </li> 
-     <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">Contains </li> 
+     <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">次を含む </li> 
      <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  >正規表現</a> </li> 
     </ul> </td> 
   </tr> 
@@ -117,7 +117,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 正規表現ページ {#section_C932A5469E774841B2229965A154163C}
 
-You can edit regular expressions on the [!UICONTROL Regular Expression] page.
+[!UICONTROL 正規表現]ページでは、正規表現を編集できます。
 
 ![](assets/regex_tracking_code.png)
 
@@ -140,5 +140,5 @@ You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 | 要素 | 説明 |
 |---|---|
 | テストを実行 | ルールセットをテストするときは、レポートのキーを使用して、ルールセットによる影響を確認します。 |
-| フィルター | Filters the values in the [!UICONTROL Results] panel. |
+| フィルター | 「[!UICONTROL 結果]」パネルの値をフィルターします。 |
 
