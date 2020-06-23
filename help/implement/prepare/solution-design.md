@@ -1,7 +1,7 @@
 ---
 title: ソリューションデザインドキュメントの作成
 description: ソリューションデザインドキュメントとは何か、および組織でのソリューションデザインドキュメントの使用方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -46,4 +46,4 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 変数をソリューションデザインドキュメントに実装します。
 
-[データレイヤーの作成](data-layer.md):デザインドキュメントの変数をサイトのJavaScript変数に変換します。
+[データレイヤーの作成](data-layer.md)：デザインドキュメントの変数をサイト上の JavaScript 変数に変換します。
