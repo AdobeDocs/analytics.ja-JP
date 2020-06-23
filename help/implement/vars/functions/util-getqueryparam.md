@@ -1,7 +1,7 @@
 ---
 title: Util.getQueryParam
 description: クエリー文字列パラメーターの値を返します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -50,4 +50,4 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
->[!TIP] 同様のプラグイン名を使用で [`s.getQueryParam`](../plugins/getqueryparam.md) きます。 このプラグインには、より高度な機能が含まれていますが、より複雑な機能で、デフォルトではAppMeasurementに含まれていません。
+>[!TIP] [`s.getQueryParam`](../plugins/getqueryparam.md) という名前の同様のプラグイン名を利用できます。このプラグインには、より高度な機能が含まれていますが、より複雑で、デフォルトでは AppMeasurement に含まれていません。
