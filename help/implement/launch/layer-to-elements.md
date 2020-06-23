@@ -1,36 +1,36 @@
 ---
-title: データレイヤーオブジェクトのデータ要素へのマッピング
-description: データレイヤーから読み取るように「起動」を設定します。
-translation-type: tm+mt
+title: データレイヤーオブジェクトをデータ要素にマッピングする
+description: データレイヤーから読み取るよう Launch を設定します。
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
 
-# データレイヤーオブジェクトのデータ要素へのマッピング
+# データレイヤーオブジェクトをデータ要素にマッピングする
 
-組織がサイトにデータレイヤーを確立し、実装したら、「起動」内のデータ要素にデータレイヤーオブジェクトをマップできます。
+組織がデータレイヤーを確立し、サイトに実装したら、Launch 内のデータ要素にデータレイヤーオブジェクトをマッピングできます。
 
 ## 前提条件
 
-[データレイヤーの作成](../prepare/data-layer.md):データレイヤーがサイト上に存在することを確認します。 技術的には任意のJavaScriptオブジェクトをマップしたり、CSS要素をページから直接削除したりできますが、アドビではこの方法を最後の手段としてお勧めします。 サイトのレイアウトが変更されると、「起動」で使用されるCSSセレクターが機能しなくなり、データが失われます。
+[データレイヤーを作成する](../prepare/data-layer.md)：サイトにデータレイヤーが存在することを確認します。技術的には、任意の JavaScript オブジェクトをマッピングしたり、CSS 要素をページから直接削除したりできますが、アドビではこの方法を最後の手段として使用することをお勧めします。サイトのレイアウトが変更されると、Launch で使用される CSS セレクターの動作が停止し、データが失われます。
 
-## Adobe Experience Platform Launchを使用したデータ要素の作成
+## Adobe Experience Platform Launch を使用してデータ要素を作成する
 
-[データ要素は](https://docs.adobe.com/content/help/ja-JP/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) 、ツール全体で使用できる起動のコンポーネントです。 データ要素を使用して、Adobe Analytics拡張機能で変数値を割り当てることができます。
+[データ要素](https://docs.adobe.com/content/help/ja-JP/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)は、ツール全体で使用できる Launch のコンポーネントです。データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
-1. 目的の「起動」プロパティをクリックします。
-1. Click the [!UICONTROL Data Elements] tab, then click [!UICONTROL Add Data Element].
+1. 目的の Launch プロパティをクリックします。
+1. 「[!UICONTROL データ要素]」タブをクリックしてから、「[!UICONTROL データ要素の追加]」をクリックします。
 
-   ![データ要素を作成する](assets/createelement.png)
+   ![データ要素の作成](assets/createelement.png)
 
-1. データ要素の名前を入力します。 追跡するデータレイヤー内のJavaScript変数に対応する単純なラベルを指定できます。
-1. 「拡張」ドロ [!UICONTROL ップダウン] で、「コア」を選 [!UICONTROL 択します]。
-1. Under the [!UICONTROL Data Element Type] dropdown, select [!UICONTROL JavaScript Variable]. 右側にテキストフィールドが表示され、このテキストフィールドを使用してJavaScript変数を入力し、このデータ要素にマッピングできます。
-1. 目的のJavaScript変数を入力します（通常はデータレイヤー内）。 例えば、組織のデータレイヤーがアドビの推奨プラクティスと密接に一致する場合、値は次のようになりま `digitalData.page.pageInfo.pageName`す。 ブラウザーのコンソールを使用して、JavaScript変数の構文と値を検証できます。
+1. データ要素の名前を入力します。追跡するデータレイヤーの JavaScript 変数に対応する単純なラベルを指定できます。
+1. [!UICONTROL 拡張機能]ドロップダウンで、「[!UICONTROL コア]」を選択します。
+1. [!UICONTROL データ要素の種類]で、「[!UICONTROL JavaScript 変数]」を選択します。右側にテキストフィールドが表示され、このデータ要素にマッピングする JavaScript 変数を入力できます。
+1. （通常はデータレイヤー内で）目的の JavaScript 変数を入力します。例えば、組織のデータレイヤーがアドビの推奨プラクティスと密接に一致する場合、値は `digitalData.page.pageInfo.pageName` になります。ブラウザーのコンソールを使用して、JavaScript 変数の構文と値を検証できます。
 1. 「[!UICONTROL 保存]」をクリックします。
 
 ## 次の手順
 
-[データ要素のAnalytics変数へのマッピング](elements-to-variable.md):データ要素をAnalytics変数に割り当て、Analytics Workspaceでディメンションとして使用できるようにします。
+[Launch データ要素を Analytics 変数にマッピングする](elements-to-variable.md)：Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
