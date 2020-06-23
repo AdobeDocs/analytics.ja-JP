@@ -1,7 +1,7 @@
 ---
 title: linkDownloadFileTypes
 description: ダウンロードリンクとして自動的に追跡されるファイル拡張子を決定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkDownloadFileTypes
 
-When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clicks on a link, AppMeasurement checks the URL of the link for filetype extensions. リンク URL に `linkDownloadFileTypes` で見つかったファイルタイプが含まれている場合、ダウンロードリンクイメージリクエストが自動的に送信されます。
+[`trackDownloadLinks`](trackdownloadlinks.md) を有効にし、訪問者がリンクをクリックすると、AppMeasurement はリンクの URL でファイルタイプ拡張子を確認します。リンク URL に `linkDownloadFileTypes` で見つかったファイルタイプが含まれている場合、ダウンロードリンクイメージリクエストが自動的に送信されます。
 
 `linkDownloadFileTypes` を使用して、ダウンロードリンクとしてカウントするファイル拡張子をカスタマイズします。
 
@@ -21,7 +21,7 @@ When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clic
 > * JavaScript を使用するリンク（`javascript:openLink()` など）
 >
 > 
-For these download types, you can manually call the [`tl()`](../functions/tl-method.md) method.
+これらのダウンロードタイプでは、手動で [`tl()`](../functions/tl-method.md) メソッドを呼び出すことができます。
 
 クリックされたリンクが出口リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
@@ -34,7 +34,7 @@ For these download types, you can manually call the [`tl()`](../functions/tl-met
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL ダウンロード拡張子]」フィールドが表示されます。
 
-フィールドにテキストを入力し、「[!UICONTROL 追加]」をクリックして、リストにファイル拡張子を追加します。「X」アイコンをクリックして、リストからファイル拡張子を削除します。
+フィールドにテキストを入力し、「[!UICONTROL 追加]」をクリックして、リストにファイル拡張子を追加します。リストからファイル拡張子を削除するには、該当する「X」アイコンをクリックします。
 
 ## AppMeasurement および Launch カスタムコードエディターの s.linkDownloadFileTypes 
 
