@@ -1,7 +1,7 @@
 ---
 title: trackExternalLinks
 description: 出口リンクの自動リンクトラッキングを有効または無効にします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 # trackExternalLinks
 
-Adobe offers the ability to track outbound links without manually setting the [`tl()`](../functions/tl-method.md) method for each exit link. 出口リンクに自動リンクトラッキングを使用する場合は、この変数を有効にします。
+アドビでは、各出口リンクに対して [`tl()`](../functions/tl-method.md) メソッドを手動で設定せずに出口リンクを追跡するための機能を提供しています。出口リンクに自動リンクトラッキングを使用する場合は、この変数を有効にします。
 
 有効な場合、AppMeasurement はクリックされたリンク URL を [`linkInternalFilters`](linkinternalfilters.md) および [`linkExternalFilters`](linkexternalfilters.md) の値と比較します。一致が見つかった場合、出口リンクトラッキングコールが自動的に実行されます。
 
@@ -26,7 +26,7 @@ Adobe offers the ability to track outbound links without manually setting the [`
 
 ## AppMeasurement および Launch カスタムコードエディターの s.trackExternalLinks
 
-`s.trackExternalLinks` は、出口リンクの自動トラッキングを有効または無効にするブール値です。If you do not want to track outbound links, or would prefer to manually call the `tl()` method to track exit links, set this variable to `false`.
+`s.trackExternalLinks` は、出口リンクの自動トラッキングを有効または無効にするブール値です。アウトバンドリンクを追跡しない場合や、`tl()` メソッドを手動で呼び出して出口リンクを追跡する場合は、この変数を `false` に設定します。
 
 ```js
 s.trackExternalLinks = true;
