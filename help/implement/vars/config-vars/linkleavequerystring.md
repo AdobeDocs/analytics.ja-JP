@@ -1,7 +1,7 @@
 ---
 title: linkLeaveQueryString
 description: リンクトラッキングディメンションでクエリー文字列を保持できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkLeaveQueryString
 
-AppMeasurement は、デフォルトで、リンクトラッキング URL からクエリー文字列を削除します。Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
+AppMeasurement は、デフォルトで、リンクトラッキング URL からクエリー文字列を削除します。`linkLeaveQueryString` 変数は、リンクトラッキングディメンションでクエリー文字列を保持するために使用します。
 
 ただし、一部の出口リンクおよびダウンロードリンクでは、URL の重要な部分は、クエリー文字列内にあることがあります。例えば、`https://example.com/download.asp?filename=myfile.exe` のようなダウンロードリンクの場合、クエリー文字列に重要なリンク情報が含まれます。
 
