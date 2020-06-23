@@ -1,7 +1,7 @@
 ---
 title: useLinkTrackSessionStorage
-description: リンクトラッキングデータは、cookieではなくセッションストレージに格納します。
-translation-type: tm+mt
+description: リンクトラッキングデータを、cookie ではなくセッションストレージに格納します。
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,24 +9,24 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # useLinkTrackSessionStorage
 
-組織でリンクトラッキングを使用している場合、AppMeasurementはcookieを使用し `s_sq` てヒット間で情報を渡します。 一部のWebサイト設定は、このCookieと競合します。 リンクトラッキングにブラウザーセッションストレージを使用し、cookieの代わりにアクティビティマップデータを使用する場合は、この変数を有効にします。
+組織がリンクトラッキングを使用している場合、AppMeasurement は `s_sq` cookie を使用してヒット間で情報を渡します。一部の Web サイト設定は、この Cookie と競合します。リンクトラッキングと Activity Map のデータに cookie ではなくブラウザーセッションストレージを使用する場合は、この変数を有効にします。
 
-リンクトラッキングにブラウザーのセッションストレージを使用する場合、いくつかの制限があります。
+ブラウザーのセッションストレージをリンクトラッキングに使用する場合、いくつかの制限があります。
 
-* セッションストレージはプロトコル間では機能しません。 例えば、1つのページがHTTP経由で提供され、次のページがHTTPS経由で提供されるとします。 プロトコルの違いが原因で、AppMeasurementはセッションストレージのリンクトラッキングデータにアクセスできません。
-* セッションストレージは、サブドメイン間では機能しません。 例えば、訪問者が移動し、 `store.example.com`次に移動したとしま `toys.example.com`す。 サブドメインが異なるため、AppMeasurementはセッションストレージのリンクトラッキングデータにアクセスできません。
+* プロトコル間ではセッションストレージは機能しません。例えば、あるページが HTTP 経由で提供され、次のページが HTTPS 経由で提供されるとします。プロトコルが異なるため、AppMeasurement はセッションストレージのリンクトラッキングデータにアクセスできません。
+* セッションストレージは、サブドメイン間では機能しません。例えば、訪問者が `store.example.com` に移動してから、`toys.example.com` に移動したとします。サブドメインが異なるため、AppMeasurement はセッションストレージのリンクトラッキングデータにアクセスできません。
 
->[!TIP] リンクトラッキングにセッションストレージを使用した最も信頼性の高い実装は、1つのサブドメインでHTTPS経由ですべてのコンテンツを提供します。
+>[!TIP] リンクトラッキングにセッションストレージを使用した、最も信頼性の高い実装では、1 つのサブドメインで HTTPS を介してすべてのコンテンツを提供します。
 
-AppMeasurementは、ヒットをアドビに送信した後に、ストレージセッションのリンクトラッキングデータを削除します。 また、ブラウザーのタブが閉じると、自動的に期限切れになります。
+AppMeasurement は、ヒットをアドビに送信した後で、セッションストレージのリンクトラッキングデータを削除します。また、ブラウザータブを閉じると自動的に期限切れになります。
 
-## Adobe Experience Platform Launchでリンク追跡セッションストレージを使用する
+## Adobe Experience Platform Launch でリンクトラッキングセッションストレージを使用する
 
-Launch には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムのコードエディターを使用します。
+Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurementのs.useLinkTrackSessionStorageとカスタムコードエディターの起動
+## AppMeasurement および Launch カスタムコードエディターの s.useLinkTrackSessionStorage
 
-この変数 `s.useLinkTrackSessionStorage` は、AppMeasurementがcookieの代わりにセッションストレージを使用してリンクトラッキングデータを使用するかどうかを決定するブール値 `s_sq` です。 デフォルト値は `false` です。AppMeasurementでリンクトラッキ `true` ングとアクティビティマップにcookieの代わりにセッションストレージを使用する場合は、 `s_sq` この変数をに設定します。
+この `s.useLinkTrackSessionStorage` 変数は、AppMeasurement が、セッションストレージを `s_sq` cookie ではなく、リンクトラッキングデータに使用するかどうかを決定するブール値です。デフォルト値は `false` です。AppMeasurement でリンクトラッキングと Activity Map に、`s_sq` cookie の代わりにセッションストレージを使用する場合は、この変数を `true` に設定します。
 
 ```js
 s.useLinkTrackSessionStorage = true;
