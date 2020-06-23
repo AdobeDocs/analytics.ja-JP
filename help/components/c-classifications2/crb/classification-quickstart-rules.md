@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類ルール
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL Admin]**／**[!UICONTROL Classification Rule Builder]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL 分類ルールビルダー]**
 
 ルールビルダーを使用すると、*`classification rule set`*（*`classification rules`* のリスト）を作成できます。ルールは、指定された条件との照合を行い、アクションを実行します。
 
@@ -33,9 +33,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
-| 次の語句で始まる | em: | Channel | 電子メール |
+| 次の語句で始まる | em: | チャネル | 電子メール |
 | 次の語句で終わる | Sale | タイプ | Sale |
-| Contains | 2013 | 年 | 2013 |
+| 次を含む | 2013 | 年 | 2013 |
 
 ## ルールの処理方法 {#how-rules-are-processed}
 
@@ -51,19 +51,19 @@ about_classification_rules.xml
 * [ルールによるキーの分類が行われない状況](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [ルールの優先度について](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] は数値2 [!UICONTROL Rule Builder] 分類をサポートしていません。
+>[!NOTE][!UICONTROL ルールビルダー]は数値 2 分類をサポートしていません。
 
 ## ルールに関する重要な情報
 
-*     の分類 [のグループ権限](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)[!UICONTROL Admin Tools]。
+*  [管理ツール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)で、分類の[!UICONTROL グループ権限]を指定します。
 
-* **正規表現**:[分類ルールの正規表現](/help/components/c-classifications2/crb/classification-quickstart-rules.md)でヘルプを利用できます。
+* **正規表現**：[分類ルールの正規表現](/help/components/c-classifications2/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
 * **レポートスイート**：分類を選択するには、1 つ以上のレポートスイートが選択されている必要があります。レポートスイートは、ルールセットが作成され変数が割り当てられていないと、適用できません。
 
    ルールセットをテストするときは、レポートのキー（分類する変数）を使用して、ルールセットによる影響を確認します（[キー](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)は、分類する変数、または分類アップロードテーブルの最初の列です）。
 
-* **ルールの優先**:キーが（列内で）同じ分類を設定する複数のルールに一致する場合は、そ [!UICONTROL Set Classification] の分類に一致する最後のルールが使用されます。 See [About Rule Priority](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **ルールの優先度**：キーが複数のルールに一致し、そのすべてのルールで（[!UICONTROL 分類を設定]列内に）同じ分類列が設定される場合は、分類に一致する最後のルールが使用されます。詳しくは、[ルールの優先度について](/help/components/c-classifications2/crb/classification-quickstart-rules.md)を参照してください。
 
 * **ルールの数に関する制限**：作成できるルールの数に制限はありません。ただし、大量にルールを作成すると、ブラウザーのパフォーマンスに影響が及ぶことがあります。
 * **処理**：ルールは、分類に関連するトラフィックのボリュームに応じた頻度で処理されます。
@@ -78,7 +78,7 @@ about_classification_rules.xml
 
 * キーが既に分類済みで、「[分類を上書き](/help/components/c-classifications2/crb/classification-rule-definitions.md)」を選択していない。
 
-   分類の上書きは、[ルールを追加およびアクティブ化する](/help/components/c-classifications2/crb/classification-quickstart-rules.md)ときと、データコネクタの統合をアクティブ化するときに行うことができます(For data connectors, rules are created by partners in the Dev Center and displayed in the [!UICONTROL Classification Rule Builder].)
+   分類の上書きは、[ルールを追加およびアクティブ化する](/help/components/c-classifications2/crb/classification-quickstart-rules.md)ときと、データコネクタの統合をアクティブ化するときに行うことができます（データコネクタの場合、ルールは開発センターでパートナーによって作成され、[!UICONTROL 分類ルールビルダー]に表示されます）。
 
 * 「[分類を上書き](/help/components/c-classifications2/crb/classification-rule-definitions.md)」を有効にした後であっても、キーを上書きするときに指定された時間枠が経過した後、分類されたキーがデータに表示されていない。
 * キーが分類されず、約 1 ヶ月前から始まる時間枠が経過した後もキーが [!DNL Adobe Analytics] に渡されない。
@@ -127,15 +127,15 @@ regex_classification_rules.xml
 
 ![](assets/regex.png)
 
-[!UICONTROL Match Groups]:正規式がキャンペーンID文字にどのように対応し、キャンペーンID内の位置を分類できるかを示します。
+[!UICONTROL 一致グループ]：キャンペーン ID 内の位置を分類できるように、正規表現とキャンペーン ID 文字の相関関係を示します。
 
 ![](assets/regex_tracking_code.png)
 
 この例が示しているルールでは、キャンペーンの日付 `20140601` は `$3` で識別された 3 番目のグループ `(.+)` にあります。
 
-**[!UICONTROL Rule Builder]**
+**[!UICONTROL ルールビルダー]**
 
-In the [!UICONTROL Rule Builder], configure the rule as follows:
+[!UICONTROL ルールビルダー]で、次のようにルールを設定します。
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
@@ -150,7 +150,7 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 正規表現の文字が何を意味しているかについては、[正規表現 - 参照表](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)を参照してください。
 
-## 正規表現 - 特定の文字の分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
+## 正規表現 - 特定の文字の分類{#section_5D300C03FA484BADACBFCA983E738ACF}
 
 正規表現を使用する 1 つの方法は、文字を含む文字列内の特定の文字を分類することです。例えば、次のトラッキングコードに 2 つの重要な文字が含まれているとします。
 
@@ -161,9 +161,9 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 ![](assets/regex_char_position.png)
 
-**[!UICONTROL Rule Builder]**
+**[!UICONTROL ルールビルダー]**
 
-In the [!UICONTROL Rule Builder], configure the rule as follows:
+[!UICONTROL ルールビルダー]で、次のようにルールを設定します。
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |--- |--- |--- |--- |
@@ -174,7 +174,7 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 この例では、様々な長さのトラッキングコードがある場合に、コロン区切りの間の特定の文字を識別する方法を示しています。Adobe では、各トラッキングコードに 1 つの正規表現を使用することをお勧めします。
 
-サンプルキー:
+サンプルキー：
 
 * `a:b`
 * `a:b:c`
@@ -186,9 +186,9 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 ![](assets/regex_varying_length.png)
 
-**[!UICONTROL Rule Builder]**
+**[!UICONTROL ルールビルダー]**
 
-In the [!UICONTROL Rule Builder], configure the rule as follows:
+[!UICONTROL ルールビルダー]で、次のようにルールを設定します。
 
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |--- |--- |--- |--- |
@@ -261,7 +261,7 @@ c:d:yoyo
 
 ## ルールの優先度について
 
-If a key is matched to multiple rules, and it sets the same classification column shown in the [!UICONTROL Set Classification] column, the last rule is used. したがって、ルールセット内の最後のルールが最も重要になります。
+キーが複数のルールに対して照合され、[!UICONTROL 分類を設定]列に表示されているのと同じ分類列が設定される場合は、最後のルールが使用されます。したがって、ルールセット内の最後のルールが最も重要になります。
 
 <!-- 
 
@@ -275,9 +275,9 @@ rule_priority.xml
 
 | ルール番号 | ルールタイプ | 一致 | 分類を設定 | 設定値 |
 |---|---|---|---|---|
-| 1 | Contains | カウボーイズ | 検索タイプ | チーム |
-| 2 | Contains | ファンタジー | 検索タイプ | ファンタジー |
-| 3 | Contains | Romo | 検索タイプ | プレーヤー |
+| 1 | 次を含む | カウボーイズ | 検索タイプ | チーム |
+| 2 | 次を含む | ファンタジー | 検索タイプ | ファンタジー |
+| 3 | 次を含む | Romo | 検索タイプ | プレーヤー |
 
 ユーザーが「*`Cowboys fantasy Tony Romo`*」を検索すると、「分類を設定」列に表示する「最後に指定した分類」と一致するため、*`Player`*」が分類されます。
 
@@ -285,8 +285,8 @@ rule_priority.xml
 
 | ルール番号 | ルールタイプ | 一致 | 分類を設定 | 設定値 |
 |---|---|---|---|---|
-| 1 | Contains | カウボーイズ | 市区町村 | Dallas |
-| 2 | Contains | ブロンコス | 市区町村 | Denver |
+| 1 | 次を含む | カウボーイズ | 市区町村 | Dallas |
+| 2 | 次を含む | ブロンコス | 市区町村 | Denver |
 
 ユーザーが&#x200B;*`Cowboys vs. Broncos`* を検索すると、ルールビルダーによってルールの一致に競合が発見され、この検索では 2 番目のルールの分類（Denver）が適用されます。
 
@@ -307,21 +307,21 @@ t_classification_rule.xml
 >この手順では、ルールを 1 つ以上のレポートスイートに適用する必要があります。ルールセットあたりのルール数に制限はありませんが、500 ～ 1000 件にすることをお勧めします。ルールが 100 以上ある場合には、[下位分類](/help/components/c-classifications2/c-sub-classifications.md)を使ってルールセットを簡素化する方法の検討が必要です。
 
 1. [分類ルールセットを作成します](/help/components/c-classifications2/crb/classification-rule-set.md)。
-1. On the rule set page, click **[!UICONTROL Add Rule]**.
+1. ルールセットページで、「**[!UICONTROL ルールを追加]**」をクリックします。
 
    ![](assets/add_rule.png)
 
-1. Next to **[!UICONTROL Report Suites]**, click **[!UICONTROL Add Suites]** to specify one or more report suites to assign to this rule set.
+1. **[!UICONTROL レポートスイート]**&#x200B;の隣の&#x200B;**[!UICONTROL スイートの追加]**&#x200B;をクリックし、このルールセットに割り当てるレポートスイートを指定します。
 
-   ページが **[!UICONTROL Select Report Suites]** 表示されます。
+   **[!UICONTROL レポートスイートを選択]**&#x200B;ページが表示されます。
 
    >[!NOTE]
    レポートスイートは、次の条件を満たした場合 *`only`* このページに表示されます。
 
-   * The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools].
-   (See *`Variable`* in [Classification Rule Sets](/help/components/c-classifications2/crb/classification-rule-set.md) for an explanation about this prerequisite.)
+   * レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
+   この前提条件の説明については、*`Variable`*&#x200B;分類ルールセット[の ](/help/components/c-classifications2/crb/classification-rule-set.md) を参照してください。）
 
-   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
+   * **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/c-classifications2/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
 
 
 1. 既存の値を上書きするかどうかを指定します。
@@ -341,7 +341,7 @@ t_classification_rule.xml
    >（分類を設定列で）同じ分類が設定されているルールが複数あり、それにキーが合致した場合には、分類に合致した最後のルールが使用されます。ルールの並べ替えの詳細については、**ルールの優先度について**&#x200B;を参照してください。
 
 1. [ルールセットをテストします](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
-1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
+1. テストが完了したら、**[!UICONTROL アクティブ]**&#x200B;をクリックしてルールを検証およびアクティブ化します。
 
    ルールをアクティブ化すると、自動的にファイルが構築され、アップロードされます。
 
@@ -358,23 +358,23 @@ t_classifications_test_rule.xml
 分類ルールまたはルールセットをテストする方法について手順を説明します。テストを実行すると、セット内のすべてのルールがチェックされます。
 
 1. [分類ルールセットを作成します](/help/components/c-classifications2/crb/classification-rule-set.md)。
-1. で、ルー [!UICONTROL Classification Rule Builder]ルセット名をクリックします。
+1. [!UICONTROL 分類ルールビルダー]で、ルールセット名をクリックします。
 1. ルールセットがレポートスイートに関連付けられていることを確認します。
-1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
+1. ルールエディターで「**[!UICONTROL テスト用ルールセット]**」をクリックします。
 
    ![手順の結果](assets/classification_test_rule_set.png)
 
-1. Type or paste test keys in the [!UICONTROL Sample Keys] field.
+1. 「[!UICONTROL サンプルキー]」フィールドにテストキーを入力するか、貼り付けます。
 
    サンプルキーには以下が含まれています。
 
    * トラッキングコード
    * 検索キーワードまたは語句
    詳しくは、[分類ルールの正規表現](/help/components/c-classifications2/crb/classification-quickstart-rules.md)を参照してください。
-1. クリック **[!UICONTROL Run Test]**.
+1. 「**[!UICONTROL テストを実行]**」をクリックします。
 
-   Rules that match are displayed in the [!UICONTROL Results] table.
-1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
+   「[!UICONTROL 結果]」テーブルに一致するルールが表示されます。
+1. （オプション）ルールをアクティブにする場合、また既存の分類を上書きする場合は、「**[!UICONTROL アクティブ化]**」をクリックします。
 
    ルールを使用して既存の分類を上書きする方法の詳細を参照してください。
 
@@ -389,11 +389,11 @@ t_validate_rules.xml
 分類ルールを検証およびアクティブ化する方法について手順を説明します。
 
 1. [分類ルールセットを作成](/help/components/c-classifications2/crb/classification-rule-set.md)してから、セットに[分類ルールを追加](/help/components/c-classifications2/crb/classification-quickstart-rules.md)します。
-1. On the rule editor, click **[!UICONTROL Activate]**.
+1. ルールエディターで「**[!UICONTROL アクティブ化]**」をクリックします。
 
    ![](assets/overwrite_keys.png)
 
-1. （オプション）分類を上書きするには、を有効にしま **[!UICONTROL Overwrite classifications for]***`<selection>`*&#x200B;す。
+1. （オプション）分類を上書きするには、「**[!UICONTROL  の分類を上書き]** *`<selection>`* 」を有効にします。
 
    このオプションを使用すると、影響を受けるキーの既存の分類を上書きできます。
 
