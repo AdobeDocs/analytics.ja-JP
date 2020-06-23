@@ -3,7 +3,7 @@ description: セグメントレールからレポートに 1 つ以上のセグ�
 title: セグメントの選択と適用
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >
    >セグメント名の横にある情報アイコン（i）をクリックすると、主要な指標をプレビューして、有効なセグメントであるかどうかおよびセグメントの範囲を確認できます。
 
-1. 「**[!UICONTROL のみ`<report suite name>`]**」チェックボックスを選択して、レポートスイートでフィルタリングできます。この方法を使用すると、該当するレポートスイートに最後に保存されたセグメントのみが表示されます。
+1. 「**[!UICONTROL (専用)`<report suite name>`]**」チェックボックスを選択して、レポートスイートでフィルタリングできます。この方法を使用すると、該当するレポートスイートに最後に保存されたセグメントのみが表示されます。
 1. 「**[!UICONTROL セグメントを適用]**」をクリックします。レポートが更新されます。適用されるセグメントがレポートの上部に表示されます。
 
    ![](assets/applied_segments.png)
