@@ -2,7 +2,7 @@
 description: 計算指標ビルダーは、ディメンション、指標、セグメントおよび関数をドラッグ＆ドロップし、コンテナ階層ロジック、ルール、演算子に基づいてカスタム指標を作成するためのキャンバスです。この統合開発ツールでは、シンプルな計算指標または複雑で高度な計算指標を作成および保存できます。
 title: 指標の作成
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -14,12 +14,12 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 計算指標ビルダーにアクセスする方法はいくつかあります。
 
-* 分析ワークスペースで、プロジェクトを開き、/をクリ **[!UICONTROL + New]** ックしま **[!UICONTROL Create Metric]** す。
-* で、 [!DNL Analytics]>に移動 **[!UICONTROL Components]** します **[!UICONTROL Calculated Metrics]**。
+* Analysis Workspace で、プロジェクトを開いて、**[!UICONTROL + 新規作成]**／**[!UICONTROL 指標を作成]**&#x200B;をクリックします。
+* [!DNL Analytics] で、**[!UICONTROL コンポーネント]**／**[!UICONTROL 計算指標]**&#x200B;を選択します。
 
-* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or
+* **[!UICONTROL 計算指標マネージャ]**&#x200B;の上部にある「[追加](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)」をクリックします。または、
 
-* Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](assets/metrics_icon.png) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
+* **[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;を選択し、任意のレポートを開きます。次に、指標アイコン ![](assets/metrics_icon.png) をクリックして指標レールを表示し、「**[!UICONTROL 追加]**」をクリックします。
 
 ![](assets/cm_builder_ui.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">製品の互換性</span> </td> 
-   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  >さらに詳しく... </a> </p> </p> </td> 
+   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/current-data.html"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  >さらに詳しく... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">追加</span> </td> 
@@ -128,7 +128,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col2"> <p>セグメントリスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  >さらに詳しく... </a> </p> </td> 
+   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segment-reference/seg-rights.html"  >さらに詳しく... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>関数リスト </p> </td> 
