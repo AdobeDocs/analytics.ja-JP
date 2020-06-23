@@ -1,7 +1,7 @@
 ---
 title: マーケティングチャネルでの分類
 description: 分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 この手順で追加する分類は、[!UICONTROL マーケティングチャネル概要]レポートに「[!UICONTROL チャネル値]」として表示されます。チャネル値は、チャネルの詳細では未分類の値です。
 
->[!NOTE] 分類の作成に関する知識があることを確認し [ます](/help/components/c-classifications2/c-classifications.md)。
+>[!NOTE][分類](/help/components/c-classifications2/c-classifications.md)で、分類の作成についての詳細を必ず理解しておいてください。
 
 >[!IMPORTANT]
 >
@@ -27,9 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 名前 | 分類の名前。追加した分類は、「マーケティングチャネルマネージャー」の「チャネルの分類」オプションに表示されます。 |
 | オプション | 分類の名前。追加した分類は、「マーケティングチャネルマネージャー」の「チャネルの分類」オプションに表示されます。 |
 
-## Create Marketing Channels classifications {#create-mktg-channel-classifications}
+## マーケティングチャネルの分類の作成 {#create-mktg-channel-classifications}
 
-マーケティングチャネルの [!UICONTROL 分類の作成]。
+[!UICONTROL マーケティングチャネルの分類]を作成します。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. [!UICONTROL Report Suite Manager] で、**[!UICONTROL 設定を編集]**／**[!UICONTROL マーケティングチャネル]**／**[!UICONTROL マーケティングチャネルの分類]**&#x200B;の順にクリックします。
