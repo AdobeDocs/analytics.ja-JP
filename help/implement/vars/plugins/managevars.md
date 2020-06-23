@@ -1,7 +1,7 @@
 ---
 title: manageVars
 description: 一度に複数の Analytics 変数の値を変更します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
