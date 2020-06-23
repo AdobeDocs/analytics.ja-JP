@@ -1,7 +1,7 @@
 ---
 title: formatTime
 description: 秒数を分単位、時間単位などで同等の値に変換します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
