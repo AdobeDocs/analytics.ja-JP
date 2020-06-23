@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 下位分類について
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # 下位分類について
 
-Adobe Analyticsは、単一レベルの分類モデルと複数レベルの分類モデルの両方をサポートしています。 分類階層を使用すると、分類に対して分類を適用できます。
+Adobe Analytics では、単一レベルの分類モデルと複数レベルの分類レベルの両方をサポートしています。分類階層を使用すると、分類に対して分類を適用できます。
 
->[!NOTE]下位分類は、分類をさらに分類する機能です。However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 分類階層の詳細については、「[分類階層](classification-hierarchies.md)」を参照してください。
+>[!NOTE]下位分類は、分類をさらに分類する機能です。ただし、[!UICONTROL 階層レポート]の作成に使用する[!UICONTROL 分類階層]と同じものではありません。分類階層の詳細については、「[分類階層](classification-hierarchies.md)」を参照してください。
 
 次に例を示します。
 
@@ -35,7 +35,7 @@ Adobe Analyticsは、単一レベルの分類モデルと複数レベルの分�
 
 **親の分類：**&#x200B;子の分類が関連付けられている分類は、すべて親の分類となります。分類は、親の分類にも子の分類にも指定できます。最上位レベルの親の分類は、単一レベルの分類に相当します（[単一レベルの分類](/help/components/c-classifications2/c-sub-classifications.md)を参照）。
 
-**子の分類：**&#x200B;変数ではなく別の分類を親として持つ分類は、すべて子の分類になります。子の分類は、親の分類についての追加情報を示します。For example, a [!UICONTROL Campaigns] classification might have a Campaign Owner child classification. [!UICONTROL Numeric] 分類は、分類レポートで指標としても機能します。
+**子の分類：**&#x200B;変数ではなく別の分類を親として持つ分類は、すべて子の分類になります。子の分類は、親の分類についての追加情報を示します。例えば、[!UICONTROL キャンペーン]分類はキャンペーン所有者という子の分類を持つ場合があります。[!UICONTROL 数値]の分類は、分類レポートで指標としても機能します。
 
 各分類は、親の場合も子の場合も、データファイルで 1 つのデータ列を構成します。子の分類の列見出しには、次の名前形式が使用されます。
 
@@ -52,7 +52,7 @@ Adobe Analyticsは、単一レベルの分類モデルと複数レベルの分�
 
 複数レベルの分類用のファイルテンプレートはより複雑ですが、複数レベルの分類には、異なるレベルをそれぞれ別のファイルとしてアップロードできるという強力な利点があります。この方法を使用すると、データを時間の経過につれて変化するものと、変化しないものという分類レベルにグループ分けすることにより、定期的に（毎日、毎週など）アップロードする必要のあるデータの量を最小限に抑えることができます。
 
->[!NOTE] データファ [!UICONTROL Key] イルの列が空白の場合は、データ行ごとに一意のキーが自動的に生成されます。 To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (*).
+>[!NOTE]データファイルの[!UICONTROL キー]列が空白の場合、データ行ごとに一意のキーが自動生成されます。第 2 レベル以上の分類データを使用してデータファイルをアップロードする場合のファイルの破損を防ぐために、[!UICONTROL キー]列の各行にアスタリスク（*）を入力してください。
 
 トラブルシューティングヘルプについては、[一般的な分類のアップロードの問題](https://helpx.adobe.com/jp/analytics/kb/common-saint-upload-issues.html)を参照してください。
 
@@ -72,7 +72,7 @@ Adobe Analyticsは、単一レベルの分類モデルと複数レベルの分�
 | 410390014 | Polo-SS | メンズポロシャツ、半袖（L、03） | M | L | 03 | アクアマリン |
 | 410390015 | Polo-LS | レディースポロシャツ、長袖（S、23） | F | S | 23 | 水色 |
 
-### 製品の分類 - 複数ファイル（ファイル 1） {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### 製品の分類 - 複数ファイル（ファイル 1）{#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | キー | 製品名 | 製品の詳細 | 性別 | サイズ | コード |
 |---|---|---|---|---|---|
@@ -80,7 +80,7 @@ Adobe Analyticsは、単一レベルの分類モデルと複数レベルの分�
 | 410390014 | Polo-SS | メンズポロシャツ、半袖（L、03） | M | L | 03 |
 | 410390015 | Polo-LS | レディースポロシャツ、長袖（S、23） | F | S | 23 |
 
-### 製品の分類 - 複数ファイル（ファイル 2） {#section_19ED95C33B174A9687E81714568D56A3}
+### 製品の分類 - 複数ファイル（ファイル 2）{#section_19ED95C33B174A9687E81714568D56A3}
 
 | キー | コード | コード&amp;Hat;色 |
 |---|---|---|
