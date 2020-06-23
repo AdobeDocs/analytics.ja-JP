@@ -1,7 +1,7 @@
 ---
 title: cookieLifetime
 description: AppMeasurement で作成される Cookie の有効期限を上書きします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -29,7 +29,7 @@ Cookie の有効期間は、Adobe Analytics 拡張機能を設定する際の「
 * **セッション**：Cookie は、訪問者のセッションの終了時に期限切れになります。
 * **秒**：Cookie は、指定された秒数が経過すると有効期限が切れます。例えば、このドロップダウンを「[!UICONTROL 秒]」に設定して、`86400` カスタムフィールドに配置すると、Cookie の有効期限が 24 時間で切れます。
 
-## AppMeasurement の s.cookieLifetime と Launch カスタムコードエディター
+## AppMeasurement および Launch カスタムコードエディターの s.cookieLifetime
 
 `s.cookieLifetime` 変数は、AppMeasurement によって設定される Cookie の有効期限を決定する文字列です。
 
