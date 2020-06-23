@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: DTM 実装の概要
 topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Dynamic Tag Management を使用すると、タグを管理し、デジタルマーケティングシステム全体でデータを収集および配布できます。Dynamic Tag Management では、単一のデータ層で複数のソースのデータをプッシュできます。それぞれの顧客に適したコンテンツを提供することもできます。
 
-この節では、Dynamic Tag Management を利用して Adobe Analytics を導入する方法について説明します。Dynamic Tag Management について詳しくは、[Dynamic Tag Management 製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html)を参照してください。DTM へのアクセス方法と、DTM の利用を開始する際の一般的なタスクについては、Dynamic Tag Management 製品ドキュメントの[はじめに](https://docs.adobe.com/content/help/en/dtm/using/getting-started/get-started.html)を参照してください。
+この節では、Dynamic Tag Management を利用して Adobe Analytics を導入する方法について説明します。Dynamic Tag Management について詳しくは、[Dynamic Tag Management 製品ドキュメント](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html)を参照してください。DTM へのアクセス方法と、DTM の利用を開始する際の一般的なタスクについては、Dynamic Tag Management 製品ドキュメントの[はじめに](https://docs.adobe.com/content/help/ja-JP/dtm/using/getting-started/get-started.html)を参照してください。
 
-Dynamic Tag Management による導入手順について詳しくは、Adobe Analytics 使用の手引きの [Dynamic Tag Management を使用した Adobe Analytics の導入](https://docs.adobe.com/content/help/en/analytics/implementation/other/dtm/dtm-implementation-overview.html)を参照してください。
+Dynamic Tag Management による導入手順について詳しくは、Adobe Analytics 使用の手引きの [Dynamic Tag Management を使用した Adobe Analytics の導入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/other/dtm/dtm-implementation-overview.html)を参照してください。
 
 ## 導入手順の概要 {#section_D0BBB82486F44699AC7FF5E76E27434C}
 
