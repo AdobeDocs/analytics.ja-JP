@@ -1,7 +1,7 @@
 ---
 title: inList
 description: 値が別の文字区切り値に含まれているかどうかを確認します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
