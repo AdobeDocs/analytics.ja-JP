@@ -1,7 +1,7 @@
 ---
 title: offlineHitLimit
 description: オフライントラッキング用にキューに入れる最大ヒット数を決定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 オフライントラッキングは、Adobe Analytics でデータを収集するオプションの方法です。訪問者がインターネットから切断したが引き続きサイトを閲覧した場合、デバイスがインターネットに再接続されるまで、ヒットはオフラインキューに保存されます。オフライントラッキングは、ほとんどの場合モバイルアプリケーションで使用されます。
 
-`offlineHitLimit` 変数は、デバイスがローカルに保存するヒット数に上限を設定します。This variable only works if [`trackOffline`](trackoffline.md) is enabled.
+`offlineHitLimit` 変数は、デバイスがローカルに保存するヒット数に上限を設定します。この変数は、[`trackOffline`](trackoffline.md) が有効な場合にのみ機能します。
 
 ## Adobe Experience Platform Launch でのオフラインヒット数の上限
 
