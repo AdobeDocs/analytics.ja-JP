@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appm
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: コアの AppMeasurement コードの挿入
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
