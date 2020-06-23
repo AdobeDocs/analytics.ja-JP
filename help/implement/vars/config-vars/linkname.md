@@ -1,7 +1,7 @@
 ---
 title: linkName
 description: カスタムリンクヒットの名前を設定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkName
 
-Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
+`linkName` 変数を使用して、次の [`tl()`](../functions/tl-method.md) メソッドを実行する際のカスタムリンク、ダウンロードリンクまたは出口リンクのディメンション値を決定します。
 
 この変数が空白の場合、AppMeasurement は [`linkURL`](linkurl.md) 変数に戻ります。
 
@@ -28,7 +28,7 @@ Use the `linkName` variable to determine the dimension value of custom links, do
 
 `s.linkName` 変数は、カスタムリンク、ダウンロードリンクまたは出口リンク（[`s.linkType`](linktype.md) に応じて）のディメンション値を決定する文字列です。最大 100 バイトまで保持できます。
 
->[!TIP] この変数はメソッドの3番目のパラメー `tl()` ターで、通常、スタンドアロン変数として設定する必要はありません。 However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP] この変数は `tl()` メソッドの 3 番目のパラメーターで、通常、スタンドアロン変数として設定する必要はありません。ただし、`linkName` メソッドの引数として値を設定しない場合は、`tl()` 変数を使用できます。
 
 ```js
 s.linkName = "Example custom link";
