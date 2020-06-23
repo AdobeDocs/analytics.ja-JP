@@ -1,7 +1,7 @@
 ---
 title: イベントのシリアル化
 description: サイト上の指標の重複を除外するのに役立ちます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
