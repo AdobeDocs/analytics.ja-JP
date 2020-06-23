@@ -1,7 +1,7 @@
 ---
 title: cookieDomain
 description: cookieDomain 変数は、Cookie を設定するドメインを決定するのに役立ちます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement の s.cookieDomain と Launch カスタムコードエディター
+## AppMeasurement および Launch カスタムコードエディターの s.cookieDomain
 
 `cookieDomain` 変数は文字列で、Cookie を保存するドメインに設定されます。
 
