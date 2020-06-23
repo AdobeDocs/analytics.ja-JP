@@ -1,7 +1,7 @@
 ---
 title: データレイヤーの作成
 description: Analytics の実装におけるデータレイヤーと、それらを Adobe Analytics で変数のマッピングに使用する方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -170,4 +170,4 @@ digitalData = {
 
 ## 次の手順
 
-[データレイヤーオブジェクトのデータ要素へのマップ](../launch/layer-to-elements.md):Adobe Experience Platform Launchでサイトのデータレイヤーを使用します。
+[データ要素へのデータレイヤーオブジェクトのマッピング](../launch/layer-to-elements.md)：Adobe Experience Platform Launch で、サイトのデータレイヤーを使用します。
