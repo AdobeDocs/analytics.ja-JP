@@ -1,7 +1,7 @@
 ---
 title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -58,4 +58,4 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 Adobe Analytics を使用する別の組織では採用されないような、組織に固有のサブドメインを選択します。組織内のすべての実装で同じトラッキングサーバーを使用していることを確認します。[ソリューション設計ドキュメント](../../prepare/solution-design.md)でこの情報を維持すると役立つ場合があります。
 
->[!NOTE] より深いサブドメインは使用しないでくださ `example.sc.omtrdc.net`い。 例えば、は有効 `custom.example.sc.omtrdc.net` なトラッキングサーバーではありません。
+>[!NOTE] `example.sc.omtrdc.net` より深いサブドメインは使用しないでください。例えば、`custom.example.sc.omtrdc.net` が有効なトラッキングサーバーではありません。
