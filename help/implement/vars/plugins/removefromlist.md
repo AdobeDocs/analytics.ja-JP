@@ -1,7 +1,7 @@
 ---
 title: rfl
 description: 区切り文字で区切られた文字列から特定の値を削除します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-The `rfl` plug-in allows you to &quot;safely&quot; remove values from delimited strings, such as [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md), and others. このプラグインは、区切り文字を気にせずに、区切り文字列から特定の値を削除する場合に便利です。その他のプラグインの一部は、正しく実行するために、このコードに依存しています。一度に複数の Analytics 変数に対して特定の関数を実行する必要がない場合や、依存するプラグインを使用しない場合は、このプラグインは必要ありません。
+`rfl` プラグインを使用すると、区切られた文字列（例：[`events`](../page-vars/events/events-overview.md)、[`products`](../page-vars/products.md)、[`list`](../page-vars/list.md) など）から値を「安全に」削除することができます。このプラグインは、区切り文字を気にせずに、区切り文字列から特定の値を削除する場合に便利です。その他のプラグインの一部は、正しく実行するために、このコードに依存しています。一度に複数の Analytics 変数に対して特定の関数を実行する必要がない場合や、依存するプラグインを使用しない場合は、このプラグインは必要ありません。
 
 プラグインでは次のロジックを使用します。
 
@@ -401,7 +401,7 @@ s.events = "event22,event23,event24";
 
 ### 2.01（2019 年 9 月 18 日）
 
-* デフォルトの区切り文字値に関するマイナーなバグ修正
+* デフォルトの区切り文字値に関するマイナーなバグ修正。
 
 ### 2.0（2018 年 4 月 17 日）
 
