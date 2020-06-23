@@ -1,7 +1,7 @@
 ---
 title: registerPreTrackCallback
 description: アドビにヒットを送信する前に実行するコールバック関数を作成します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `registerPreTrackCallback` 変数を使用すると、イメージリクエスト URL がコンパイルされたがまだ送信されていないときに実行する JavaScript 関数をフックできます。この変数を使用して、AppMeasurement によって収集されたデータをパートナーまたは社内インフラストラクチャに送信できます。
 
->[!IMPORTANT] 変数内などのトラッキングコールを呼び出 [`t()`](t-method.md) さない [`tl()`](tl-method.md) でくだ [`registerPostTrackCallback`](registerposttrackcallback.md) さい。 この変数で関数をトラッキングすると、イメージリクエストが無限ループになります。
+>[!IMPORTANT] [`t()`](t-method.md) や [`tl()`](tl-method.md) などのトラッキングコールは [`registerPostTrackCallback`](registerposttrackcallback.md) 変数内で呼び出さないでください。この変数で関数をトラッキングすると、イメージリクエストが無限ループになります。
 
 `registerPreTrackCallback` 変数を呼び出すたびに、その関数をフックして、イメージリクエスト URL がコンパイルされるたびに実行します。同じページの読み込みで同じ関数を複数回登録しないでください。
 
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-関数には、ネストされた関数で使 `s.registerPreTrackCallback` 用できる追加の引数を含めることができます。
+`s.registerPreTrackCallback` 関数には、ネストされた関数で使用できる、追加の引数を含めることができます。
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
->[!NOTE] ページ変数の設定やこの関数内の `requestUrl` 文字列の変更は、この関数呼び出しの直後に送信されるイメージリクエストには影響&#x200B;**しません**。代わりに、変数を [`doPlugins()`](doplugins.md) 使用します。
+>[!NOTE] ページ変数の設定やこの関数内の `requestUrl` 文字列の変更は、この関数呼び出しの直後に送信されるイメージリクエストには影響&#x200B;**しません**。代わりに、[`doPlugins()`](doplugins.md) 変数を使用します。
