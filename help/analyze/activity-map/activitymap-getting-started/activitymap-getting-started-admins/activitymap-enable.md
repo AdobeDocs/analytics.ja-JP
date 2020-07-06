@@ -3,8 +3,11 @@ description: Activity Map のリンクコレクションおよびユーザーダ
 title: Activity Map の有効化
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
@@ -55,4 +58,6 @@ Activity Map のデータは、このバージョン以上の AppMeasurement に
 
 1. これで、管理者ユーザーは、**[!UICONTROL Adobe Analytics]**／**[!UICONTROL ツール]**／**[!UICONTROL Activity Map]** から Activity Map をダウンロードできます。
 
->[!NOTE] 管理者以外のユーザーが Activity Map をダウンロードしたい場合、新規ユーザーグループを作成し、「ツール」および「レガシー ClickMap のインストール」の権限を付与します。Activity Map アクセスと組み合わせたこのレベルの権限は、ツールをダウンロードおよび使用する権限を付与します。
+>[!NOTE]
+>
+> 管理者以外のユーザーが Activity Map をダウンロードしたい場合、新規ユーザーグループを作成し、「ツール」および「レガシー ClickMap のインストール」の権限を付与します。Activity Map アクセスと組み合わせたこのレベルの権限は、ツールをダウンロードおよび使用する権限を付与します。
