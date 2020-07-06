@@ -1,8 +1,11 @@
 ---
 title: zip
 description: レポートスイートの設定で許可されている場合は、「郵便番号」ディメンションを手動で入力します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `zip` 変数を使用すると、レポートスイート設定の「[!UICONTROL 郵便番号オプション]」で許可されている場合に、「郵便番号」ディメンションを手動で入力できます。以前のバージョンの Adobe Analytics では、この変数は手動でのみ設定できました。通常、小売サイトの配送先情報を入力する場合です。Adobe Analytics が強化され、地域データを使用してこの変数を自動的に設定できるようになりました。この変数は、設定されたヒットの後では保持されません。
 
->[!IMPORTANT] レポートスイート設定の「[!UICONTROL 郵便番号オプション]」が目的の値に設定されていることを確認します。[!UICONTROL geozip] を常に使用する場合は、この変数を使用できません。詳しくは、『管理者ユーザーガイド』の[一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md)を参照してください。
+>[!IMPORTANT]
+>
+> レポートスイート設定の「[!UICONTROL 郵便番号オプション]」が目的の値に設定されていることを確認します。[!UICONTROL geozip] を常に使用する場合は、この変数を使用できません。詳しくは、『管理者ユーザーガイド』の[一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md)を参照してください。
 
 ## Adobe Experience Platform Launch での zip
 
