@@ -1,8 +1,11 @@
 ---
 title: linkName
 description: カスタムリンクヒットの名前を設定します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `s.linkName` 変数は、カスタムリンク、ダウンロードリンクまたは出口リンク（[`s.linkType`](linktype.md) に応じて）のディメンション値を決定する文字列です。最大 100 バイトまで保持できます。
 
->[!TIP] この変数は `tl()` メソッドの 3 番目のパラメーターで、通常、スタンドアロン変数として設定する必要はありません。ただし、`linkName` メソッドの引数として値を設定しない場合は、`tl()` 変数を使用できます。
+>[!TIP]
+>
+> この変数は `tl()` メソッドの 3 番目のパラメーターで、通常、スタンドアロン変数として設定する必要はありません。ただし、`linkName` メソッドの引数として値を設定しない場合は、`tl()` 変数を使用できます。
 
 ```js
 s.linkName = "Example custom link";
