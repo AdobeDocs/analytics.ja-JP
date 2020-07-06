@@ -3,7 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +23,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 Release Date: **March 5, 2020**
 
-* Internet Explorerの検出を更新してJSLintの警告を表示しないようにすることで、セキュリティに関する問題を修正しました。
+* Internet Explorerの検出を更新してJSLintの警告を表示しないことにより、セキュリティに関する問題を修正しました。
 
 ## バージョン 2.19.0
 
@@ -32,7 +35,7 @@ Release Date: **March 5, 2020**
 
 Release Date: **February 13, 2020**
 
-* AppMeasurementで、変数を設定することで、cookieにセキュリティで保護された属性を含めるように指定できるようにな [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) りました。 この変数の要件は、クライアントWebサイト全体が安全に(HTTPS)提供されることです。 （AN-204604）
+* AppMeasurementで、変数を設定することで、cookieにセキュア属性を強制的に含めることができるようになり [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) ました。 この変数の要件は、クライアントWebサイト全体が安全に(HTTPS)提供されることです。 （AN-204604）
 
 ## バージョン 2.17.0
 
@@ -102,7 +105,9 @@ Release Date: **February 13, 2020**
 
 リリース日：**2018 年 5 月 25 日**
 
->[!NOTE][!DNL Experience Cloud] ID サービスを使用している場合、訪問者 API 3.0 以降が必要です。関連付けられたコードライブラリ（[!DNL at.js]、[!DNL AppMeasurement.js] など）が更新された場合は常に、訪問者 API を最新バージョンにアップグレードすることをお勧めします。
+>[!NOTE]
+>
+>[!DNL Experience Cloud] ID サービスを使用している場合、訪問者 API 3.0 以降が必要です。関連付けられたコードライブラリ（[!DNL at.js] など）が更新された場合は常に、訪問者 API を最新バージョンにアップグレードすることをお勧めします。[!DNL AppMeasurement.js]
 
 * [!DNL AppMeasurement] を更新し、ID のリクエストに更新された Visitor インターフェイスを使用します。（AN-151483）
 * リンクトラッキングがオフになるとリンクトラッキング Cookie が書き込みを継続していた問題を修正しました。（AN-156332）
@@ -216,7 +221,9 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 * [!DNL AppMeasurement] が更新され、AMCV cookie を読み書きするようになりました。（AN-127098）
 * Visitor API 1.7.0 を同梱しました。
 
->[!NOTE][!DNL JavaScript] バージョン 1.6.3 について次のリリースノートも参照してください。Experience Cloud ID サービスの更新された要件が記載されています。
+>[!NOTE]
+>
+>[!DNL JavaScript] バージョン 1.6.3 について次のリリースノートも参照してください。Experience Cloud ID サービスの更新された要件が記載されています。
 
 ## バージョン 1.6.3
 
@@ -224,7 +231,9 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 * リクエストの接続が [!DNL AppMeasurement] によって途中で切断される問題を修正しました。（AN-126448）
 
->[!IMPORTANT][!DNL Experience Cloud] ID サービスのバージョン 1.6.0 には、[!DNL JavaScript] のバージョン 1.6.3 以降用の [!DNL AppMeasurement] が&#x200B;*必要*&#x200B;です。Experience Cloud ID サービスのバージョン 1.6.0 にアップグレードする場合は、バージョン 1.6.3 以降の [!DNL AppMeasurement] コードを使用してください。
+>[!IMPORTANT]
+>
+>Version 1.6.0 of the [!DNL Experience Cloud] ID サービスのバージョン 1.6.0 には、[!DNL JavaScript] 版 [!DNL AppMeasurement] のバージョン 1.6.3 以降が&#x200B;*必要です*。Experience Cloud ID サービスのバージョン 1.6.0 にアップグレードする場合は、バージョン 1.6.3 以降の [!DNL AppMeasurement] コードを使用してください。
 
 ## バージョン 1.6.2
 
@@ -293,7 +302,9 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 * Visitor API 1.4 を同梱しました。
 * AudienceManagement モジュールが更新され、DIL バージョン 6.0 を使用できるようになりました。
 
->[!NOTE]**既知の問題**：「訪問者 API／[!DNL AppMeasurement] [!DNL Audience Manager]モジュールの統合」では、IE6-9 で `//fast.<subdomain>.demdex.net/dest5.html` と `//fast.<subdomain>.demdex.net/dest4.html` の 2 つの宛先パブリッシング iFrame リクエストがおこなわれます。正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html` のみを読み込むことです。
+>[!NOTE]
+>
+>**既知の問題**：「訪問者 API／[!DNL AppMeasurement] [!DNL Audience Manager]モジュールの統合」では、IE6-9 で `//fast.<subdomain>.demdex.net/dest5.html` と `//fast.<subdomain>.demdex.net/dest4.html` の 2 つの宛先パブリッシング iFrame リクエストがおこなわれます。正しい動作は、他のブラウザーのように `//fast.<subdomain>.demdex.net/dest5.html` のみを読み込むことです。
 
 ## バージョン 1.4.4
 
@@ -349,7 +360,9 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 * ダウンロード用 zip に **[!UICONTROL AudienceManagement]** モジュールが追加されました。
 * 追加された eVar（76～250）およびイベント（101～1000）のサポートが追加されました。
 
->[!NOTE] H コードは、追加の eVar およびイベントをサポートしていません。
+>[!NOTE]
+>
+>H コード は、追加の eVar およびイベントをサポートしていません。
 
 ## バージョン 1.3.2
 
