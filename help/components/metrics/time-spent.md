@@ -2,7 +2,7 @@
 title: 滞在時間
 description: 滞在時間ディメンションおよび指標の集計ページ。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 93%
@@ -39,7 +39,9 @@ Adobe Analytics 製品全体では、様々な「[!UICONTROL 滞在時間]」指
 
 Adobe Analytics は、明示的な値（リンクイベントおよびビデオ視聴を含む）を使用して、[!UICONTROL 滞在時間]を計算します。
 
->[!NOTE][!UICONTROL ビデオ視聴]や[!UICONTROL 離脱リンク]などのリンクイベントが発生しない場合、訪問の最後のヒットでの滞在時間は確認できません。また、同様の理由で、[!UICONTROL バウンス訪問]（つまり、単一のヒットを含む訪問）には、関連付けられた「滞在時間」がありません。
+>[!NOTE]
+>
+>[!UICONTROL ビデオ視聴]や[!UICONTROL 離脱リンク]などのリンクイベントが発生しない場合、訪問の最後のヒットでの滞在時間は確認できません。また、同様の理由で、[!UICONTROL バウンス訪問]（つまり、単一のヒットを含む訪問）には、関連付けられた「滞在時間」がありません。
 
 すべての滞在時間の計算での&#x200B;**分子**&#x200B;は、「合計滞在時間（秒）」です。
 
