@@ -2,7 +2,10 @@
 title: Data Warehouse でのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ Data Warehouse 固有の処理アーキテクチャを使用すると、通常�
 
 一部のディメンションおよび指標は、Data Warehouse でサポートされていません。
 
->[!NOTE]Data Warehouse でディメンションまたは指標がサポートされていない場合、これらのコンポーネントを使用するセグメントもサポートされません。セグメントを作成または編集する際は、必ず製品の互換性を確認してください。
+>[!NOTE]
+>
+>Data Warehouse でディメンションまたは指標がサポートされていない場合、これらのコンポーネントを使用するセグメントもサポートされません。セグメントを作成または編集する際は、必ず製品の互換性を確認してください。
 
 ### サポートされていないディメンション
 
