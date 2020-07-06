@@ -3,7 +3,10 @@ description: 'null'
 title: 統合の使用
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 デプロイ後は、この統合で提供されている追加機能を使用できるようになります。以下は、Adobe Analytics 内でこの統合を活用するために実行するアクションです。
 
->[!NOTE]Adobe Analytics レポート内で Kampyle 応答データが表示され始めるまでに 24 ～ 48 時間かかる場合があります。
+>[!NOTE]
+>
+>Adobe Analytics レポート内で Kampyle 応答データが表示され始めるまでに 24 ～ 48 時間かかる場合があります。
 
 ## フィードバックとオンサイトの行動データの混在 {#mix-feedback-and-onsite-behavior-data}
 
