@@ -3,8 +3,11 @@ description: フィルターを使用すると、フィルターに一致する�
 title: レポートデータのフィルタリング
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 
-## シンプルフィルター{#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## シンプルフィルター {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
@@ -45,7 +48,9 @@ help:Internal Search Term
 
 行項目のどこかに指定の単語が含まれる場合に一致します。これはシンプルフィルターと同じ機能になります。
 
->[!NOTE]フィルターではスペースを使用できません。スペースは検索時に区切り文字と見なされます。
+>[!NOTE]
+>
+>フィルターではスペースを使用できません。スペースは検索時に区切り文字と見なされます。
 
 **次を含まない**
 
