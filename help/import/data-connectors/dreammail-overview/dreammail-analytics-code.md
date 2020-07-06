@@ -3,7 +3,10 @@ description: JavaScript プラグインのデータ収集方法を選択した�
 title: Analytics プラグインコード
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 100%
 
 ---
 
@@ -26,4 +29,6 @@ JavaScript プラグインのデータ収集方法を選択した場合は、次
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
->[!NOTE]上記のプラグインは、特定のカスタムコマース変数（eVar）が使用可能であることを前提としています。上記のプラグインで指定した変数が Analytics 実装内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
+>[!NOTE]
+>
+>上記のプラグインは、特定のカスタムコマース変数（eVar）が使用可能であることを前提としています。上記のプラグインで指定した変数が Analytics 実装内で使用できない場合は、それらの変数を使用可能な変数に置き換えます。
