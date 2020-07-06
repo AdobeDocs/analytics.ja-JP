@@ -2,21 +2,23 @@
 title: linkExternalFilters
 description: linkExternalFilters 変数の使用は出口リンクの自動トラッキングに役立ちます。
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
 
 # linkExternalFilters
 
-AppMeasurement は、サイト外を指すリンクを自動的に追跡する機能を提供します。If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. `linkExternalFilters` 変数と [`linkInternalFilters`](linkinternalfilters.md) 変数は、リンクが外部と見なされるか内部と見なされるかを決定します。
+AppMeasurement は、サイト外を指すリンクを自動的に追跡する機能を提供します。[`trackExternalLinks`](trackexternallinks.md) が有効になっている場合、訪問者がリンクをクリックしてサイトを離れると、イメージリクエストがアドビに直接送信されます。`linkExternalFilters` 変数と [`linkInternalFilters`](linkinternalfilters.md) 変数は、リンクが外部と見なされるか内部と見なされるかを決定します。
 
-この変数に値が含まれる場合、離脱リンクの自動トラッキングは、許可リストのように動作します。 リンククリックがどの `linkExternalFilters` 値とも一致しない場合、そのリンクは出口リンクと見なされません。この変数に対して URL 全体が調べられます。If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
+この変数に値が含まれる場合、離脱リンクの自動追跡は許可リストのように動作します。 リンククリックがどの `linkExternalFilters` 値とも一致しない場合、そのリンクは出口リンクと見なされません。この変数に対して URL 全体が調べられます。[`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリー文字列も調べられます。
 
->[!TIP] この変数は、出口リンクと見なすドメインが正確にわかっている場合にのみ使用します。多くの組織では、出口リンクのトラッキングのニーズを満たすには `linkInternalFilters` を使用すれば十分であると考え、`linkExternalFilters`を使用しません。
+>[!TIP]
+>
+> この変数は、出口リンクと見なすドメインが正確にわかっている場合にのみ使用します。多くの組織では、出口リンクのトラッキングのニーズを満たすには `linkInternalFilters` を使用すれば十分であると考え、`linkExternalFilters`を使用しません。
 
 `linkInternalFilters` と `linkExternalFilters` の両方を同時に使用する場合は、クリックされたリンクが出口リンクと見なされるには、`linkExternalFilters` に一致すると&#x200B;**ともに** `linkInternalFilters` に一致しない必要があります。クリックされたリンクが出口リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
