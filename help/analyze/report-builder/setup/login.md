@@ -3,8 +3,11 @@ description: Report Builder への 3 種類のログイン方法に関する情�
 title: Report Builder へのログイン
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -47,5 +50,7 @@ Experience Cloud ログインを使用すると、Enterprise ID（電子メー�
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]Experience Cloud ログインはセッションベースであり、トークンは 30 日後に期限切れになります。
+>[!NOTE]
+>
+>Experience Cloud ログインはセッションベースであり、トークンは 30 日後に期限切れになります。
 
