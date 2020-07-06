@@ -2,8 +2,11 @@
 description: 'null'
 title: アクセス要求および削除要求の送信
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 [データプライバシー UI](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ポータルや[データプライバシー API](https://www.adobe.io/apis/experienceplatform/gdpr.html) から、データプライバシーのアクセス要求や削除要求を送信することができます。
 
->[!NOTE]データプライバシー API は、単一の要求の複数のユーザーに対する一括送信をサポートしています。現在サポートされている制限は、単一の要求 JSON ファイルで 1,000 人の個別のユーザー（ユーザーごとに複数の ID を持つ可能性がある）です。
+>[!NOTE]
+>
+>データプライバシー API は、単一の要求の複数のユーザーに対する一括送信をサポートしています。現在サポートされている制限は、単一の要求 JSON ファイルで 1,000 人の個別のユーザー（ユーザーごとに複数の ID を持つ可能性がある）です。
 
 ## JSON 要求のサンプル {#sample-json-request}
 
