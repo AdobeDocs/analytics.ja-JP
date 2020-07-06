@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Adobe Analytics ツールの追加
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Dynamic Tag Management を使用して Adobe Analytics をデプロイするには、Adobe Analytics ツールを作成し、自動または手動でページコードを設定します。ほとんどの場合は、自動的な導入方法をお勧めします。
 
->[!NOTE] 訪問者のトラッキング機能を強化するには、[ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を有効にすることを強くお勧めします。
+>[!NOTE]
+>
+> 訪問者のトラッキング機能を強化するには、[ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を有効にすることを強くお勧めします。
 
 ## Adobe Analytics ツールの追加 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
