@@ -1,19 +1,26 @@
 ---
 title: visitorNameSpace
 description: Cookie ドメインを決定した古い変数。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 100%
 
 ---
 
 
 # visitorNamespace
 
->[!IMPORTANT] この変数は廃止されています。代わりに、[`trackingServer`](trackingserver.md) を使用してください。
+>[!IMPORTANT]
+>
+> この変数は廃止されています。代わりに、[`trackingServer`](trackingserver.md) を使用してください。
 
 以前のバージョンの Adobe Analytics では、AppMeasurement は `visitorNameSpace` 変数を使用して訪問者の Cookie が保存される `2o7.net` のサブドメインを判断していました。最新のブラウザーではプライバシー保護が強化されており、サードパーティ Cookie の信頼性が低下しています。`trackingServer` 変数と [`trackingServerSecure`](trackingserversecure.md) 変数の導入に伴い、`visitorNameSpace` は不要になりました。
 
->[!TIP] サイトでファーストパーティ Cookie を使用することをお勧めします。この変数はファーストパーティ Cookie では使用されません。
+>[!TIP]
+>
+> サイトでファーストパーティ Cookie を使用することをお勧めします。この変数はファーストパーティ Cookie では使用されません。
 
 ## Adobe Experience Platform Launch の「訪問者名前空間」
 
