@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 99%
@@ -18,7 +18,7 @@ ht-degree: 99%
 + Analytics 管理者の概要 {#admin-overview}
    + [使用する Adobe Analytics ツールの検討](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics 製品の比較と必要システム構成](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [必要システム構成](c-system-requirements/sys-reqs.md)
++ [必要システム構成](sys-reqs.md)
 + 管理ツール {#admin-tools}
    + [管理ツール](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
@@ -145,7 +145,7 @@ ht-degree: 99%
       + [新しいレポートスイート - 設定](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [ソースレポートスイートからコピーされない設定](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [レポートスイートグループの作成](c-manage-report-suites/t-create-rs-group.md)
-+ ユーザーと製品の管理（レガシー） {#user-product-management}
++ ユーザーと製品の管理（レガシー）{#user-product-management}
    + [ユーザーと製品の管理](user-management2/user-management.md)
    + [レポートスイートに対するユーザーグループの割り当て](user-management2/t-group-access-report-suite.md)
    + ユーザー管理 {#user-management}
