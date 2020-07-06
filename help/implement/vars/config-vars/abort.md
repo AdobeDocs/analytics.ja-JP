@@ -1,8 +1,11 @@
 ---
 title: abort
 description: abort 変数は、ヒットがアドビのデータ収集サーバーに送信されないようにするブール値です。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 s.abort = true;
 ```
 
->[!NOTE] `abort` 変数は、トラッキングコールのたびに `false` にリセットされます。同じページで後続のトラッキングコールを中止する必要がある場合は、`abort` を再度 `true` に設定します。
+>[!NOTE]
+>
+> `abort` 変数は、トラッキングコールのたびに `false` にリセットされます。同じページで後続のトラッキングコールを中止する必要がある場合は、`abort` を再度 `true` に設定します。
 
 ## 例
 
