@@ -3,7 +3,10 @@ description: カレンダーで、日付や日付範囲を指定したり、プ�
 title: 日付と日付範囲
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/daterange.jpeg)
 
->[!NOTE]レガシーレポートの実行についてのご質問などは、アカウントマネージャーにお問い合わせください。
+>[!NOTE]
+>
+>レガシーレポートの実行についてのご質問などは、アカウントマネージャーにお問い合わせください。
 
 ## レガシー日付スライス {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [プロジェクトを作成するか、開きます。](/help/analyze/ad-hoc-analysis/c-getting-started.md)
 1. [カレンダー](/help/analyze/ad-hoc-analysis/c-dates.md)を開き、「**[!UICONTROL 四半期]**」または「**[!UICONTROL 年」]**&#x200B;を選択します。
 
->[!NOTE]履歴日付スライスは、四半期または年の制限を受けます。データの日付範囲がレガシースライスから新しい処理プラットフォームに及んでいる場合は、そのデータを表示することはできません。両方にまたがる日付範囲は、エラーになります。また、日付範囲はグレゴリオ暦カレンダーにのみ適用され、カスタムカレンダーには適用されません。
+>[!NOTE]
+>
+>履歴日付スライスは、四半期または年の制限を受けます。データの日付範囲がレガシースライスから新しい処理プラットフォームに及んでいる場合は、そのデータを表示することはできません。両方にまたがる日付範囲は、エラーになります。また、日付範囲はグレゴリオ暦カレンダーにのみ適用され、カスタムカレンダーには適用されません。
 
