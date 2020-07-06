@@ -3,8 +3,11 @@ description: ロールアップレポートスイートは、複数の子レポ�
 title: ロールアップレポートスイートとグローバルレポートスイート
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **セカンダリサーバーコール**：ロールアップでは、単一のレポートスイートで収集される以外の追加のサーバーコールは発生しません。組織で複数のスイートタグ付けを使用している場合、イメージリクエストに含まれる追加の各レポートスイートに対してセカンダリサーバーコールが実行されます。
 
->[!TIP] グローバルレポートスイートを[仮想レポートスイート](../../components/vrs/vrs-considerations.md)でのみ使用する場合、セカンダリサーバーコールは必要ありません。
+>[!TIP]
+>
+> グローバルレポートスイートを[仮想レポートスイート](../../components/vrs/vrs-considerations.md)でのみ使用する場合、セカンダリサーバーコールは必要ありません。
 
 **実装の変更**：ロールアップでは実装の変更は必要ありませんが、グローバルレポートスイートでは実装にグローバルレポートスイート ID を含める必要があります。
 
