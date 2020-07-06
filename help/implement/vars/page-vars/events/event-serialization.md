@@ -1,8 +1,11 @@
 ---
 title: イベントのシリアル化
 description: サイト上の指標の重複を除外するのに役立ちます。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 イベントのシリアル化とは、Analytics レポートに重複したイベントが追加されないようにすることです。訪問者がページを更新して指標を水増ししたくない場合、イベントの重複を排除することが重要です。
 
->[!NOTE]データソースはイベントのシリアル化または重複排除をサポートしていません。
+>[!NOTE]
+>
+>データソースはイベントのシリアル化または重複排除をサポートしていません。
 
 ## イベントシリアル化の設定
 
@@ -23,7 +28,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 重複除外は、すべての訪問者に対してグローバルに実行されます。訪問者 A が `event1:ABC` を送信し、訪問者 B も `event1:ABC` を送信した場合、2 番目の訪問者 B のインスタンスは無視されます。
 * 重複除外には期限がありません。訪問者が `event1:ABC` を送信して、2 年後に再度訪問し、再度 `event1:ABC` を送信した場合、2 番目のインスタンスは無視されます。
 
->[!TIP] [`purchase`](event-purchase.md) イベントの重複を排除する場合は、代わりに [`purchaseID`](../purchaseid.md) 変数を使用します。
+>[!TIP]
+>
+> [`purchase`](event-purchase.md) イベントの重複を排除する場合は、代わりに [`purchaseID`](../purchaseid.md) 変数を使用します。
 
 ## Adobe Experience Platform Launch でのイベント ID の使用
 
