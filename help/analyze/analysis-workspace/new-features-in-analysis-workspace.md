@@ -3,10 +3,10 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: 44112013e049e6e76554530ba438c71fee902841
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '7261'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 ## 2020 年 4 月
 
-2020年4月17日にリリースされた新機能。
+2020 年 4 月 17 日にリリースされた新機能。
 
 | 機能 | 説明 |
 |--- |--- |
@@ -23,23 +23,23 @@ ht-degree: 97%
 
 ## 2020 年 3 月
 
-2020年3月12日にリリースされた新機能。
+2020 年 3 月 13 日にリリースされた新機能。
 
 | 機能 | 説明 |
 |--- |--- |
-| Workspaceでの複数のレポートスイートのサポート | 複数のレポートスイートのデータを1つのプロジェクトに並べて表示に取り込めるようになりました。 [詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| トレーニングチュートリアルテンプレート | この新しい標準テンプレートでは、Workspaceで最初の分析を作成するための一般的な用語と手順について説明します。 これは、「新規プロジェクト」モーダルの標準テンプレートとして使用でき、リストに他のプロジェクトがない新規ユーザー向けにある、サンプルプロジェクトを置き換えます。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| Workspace での複数のレポートスイートのサポート | 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| トレーニングチュートリアルテンプレート | この新しい標準テンプレートでは、Workspace で最初の分析を作成するための一般的な用語と手順を順に説明します。これは、「新規プロジェクト」モーダルの標準テンプレートとして使用でき、リストに他のプロジェクトがない新規ユーザー向けにある、サンプルプロジェクトを置き換えます。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
-## 2020年2月
+## 2020 年 2 月
 
-2020年2月21日にリリースされた新機能。
+2020 年 2 月 21 日にリリースされた新機能。
 
 | 機能 | 説明 |
 |--- |--- |
-| デバイス間分析を使用する組織向けの新しいWorkspaceテンプレート | このテンプレートは、CDAが訪問を相互に関連付け、CDA専用のディメンションと指標に関する教育をどの程度効果的に行うかを示します。 CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-setup.html)を参照してください。 |
-| Workspaceの新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開：`alt + ctrl + m`</li><li>左パネルを検索：`ctrl + /`</li><li>次のパネルに移動：`alt + Right Key`</li><li>前のパネルに移動：`alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| その他のWorkspaceの機能強化 | <ul><li>パネルまたはビジュアライゼーションをWorkspaceにドロップした場合、左側のレールでコンポーネントに自動的に切り替え、よりシームレスなワークフローを実現できるようになりました。</li><li>テンプレートコンポーネントをアクションできるようになりました（タグ付け、お気に入りに追加、承認など）。</li><li>フィルター適用済み指標およびセグメントリストオファーの「+」ボタンをクリックして、必要なものが見つからない場合に新しいコンポーネントを追加します。</li></ul> |
-| Workspaceデバッガー | Workspace デバッガーがヘルプメニューに追加され、よりシームレスに有効化して Workspace リクエストをデバッグできるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| クロスデバイス間分析を使用する組織向けの新しい Workspace テンプレート | このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-setup.html)を参照してください。 |
+| Workspace の新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開：`alt + ctrl + m`</li><li>左パネルを検索：`ctrl + /`</li><li>次のパネルに移動：`alt + Right Key`</li><li>前のパネルに移動：`alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Workspace のその他の機能拡張 | <ul><li>パネルまたはビジュアライゼーションを Workspace にドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加する ボタンが表示されます。</li></ul> |
+| Workspace デバッガー | Workspace デバッガーがヘルプメニューに追加され、よりシームレスに有効化して Workspace リクエストをデバッグできるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
 
@@ -170,7 +170,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>新規テンプレート: Audio Consumption</b> </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  >Audio Analytics</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-reports/media-workspace-templates.html"  >Audio Analytics</a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -236,7 +236,7 @@ ht-degree: 97%
 
 ## 2018 年 6 月
 
-2018 年 1 月 15 日にリリースされた新機能および機能強化。
+2018 年 6 月 15 日にリリースされた新機能および機能強化。
 
 <table id="table_57035A06D99447A6BE6ED825A648ED3F"> 
  <thead> 
@@ -725,11 +725,11 @@ ht-degree: 97%
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > フォールアウト</a></b>機能の強化 </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
-     <li id="li_C8093834980B43A094FA9E2A7906E135">無制限のセグメント比較 </li> 
-     <li id="li_45D709C9B04F4E6A9BD94FD03E0C80FA">タッチポイントグループの名前を設定する機能と、タッチポイントグループの管理（追加、削除、移動など）を簡単におこなえる機能 </li> 
+     <li id="li_C8093834980B43A094FA9E2A7906E135">無制限のセグメント比較。 </li> 
+     <li id="li_45D709C9B04F4E6A9BD94FD03E0C80FA">タッチポイントグループの名前を設定する機能と、タッチポイントグループの管理（追加、削除、移動など）を簡単におこなえる機能。 </li> 
      <li id="li_BC609CDFD9AA4EB081987922DB318040">右クリックして「<span class="uicontrol">トレンドタッチポイント（%）</span>」を選択：合計フォールアウト数の割合のトレンドを追跡します。 </li> 
      <li id="li_C72BB725368644DDA3FCE479A918CDB3">右クリックして「<span class="uicontrol">すべてのタッチポイント（%）のトレンドを追跡</span>」を選択：同じチャート上のフォールアウト（「<span class="wintitle">すべての訪問</span>」が含まれている場合はこれを除く）で、すべてのタッチポイントの割合のトレンドを追跡します。 </li> 
-     <li id="li_40D0A8B481B04F21BEC0A4E421C77865">パス内の次のヒットまで（最後までではなく）個別のタッチポイントを抑制する機能 </li> 
+     <li id="li_40D0A8B481B04F21BEC0A4E421C77865">パス内の次のヒットまで（最後までではなく）個別のタッチポイントを抑制する機能。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -751,8 +751,8 @@ ht-degree: 97%
    <td colname="col1"> <p><b>ディメンション項目の検索の強化</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_E955585818FF4553A869003B94DDB697"> 
-     <li id="li_A37D2DB6290842578FE752DD8E712B73">速度の向上 </li> 
-     <li id="li_BADFD0FF3D574F1C8F19EFB37F95969C">必要に応じてより多くのデータを取り込める「<span class="uicontrol">過去 6 ヶ月の上位の項目を表示</span>」オプション </li> 
+     <li id="li_A37D2DB6290842578FE752DD8E712B73">速度の向上。 </li> 
+     <li id="li_BADFD0FF3D574F1C8F19EFB37F95969C">必要に応じてより多くのデータを取り込める「<span class="uicontrol">過去 6 ヶ月の上位の項目を表示</span>」オプション。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -779,12 +779,12 @@ ht-degree: 97%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>New <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Hotkeys </a></b> </p> </td> 
+   <td colname="col1"> <p><b>新しい<a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  >ホットキー</a></b> </p> </td> 
    <td colname="col2"> <p>以下のホットキーが追加されました。 </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">Alt + Shift + 1 = パネルウィンドウに移動 </li> 
      <li id="li_1B7E7C1115A84DB8A1BC07EA1C3AB15F">Alt + Shift + 2 = ビジュアライゼーションウィンドウに移動 </li> 
-     <li id="li_1BDB09DDEEDC4E7DB0D1C08A4E02A613">Alt + Shift + 3 = コンポーネントウィンドウに移動 </li> 
+     <li id="li_1BDB09DDEEDC4E7DB0D1C08A4E02A613">Alt + Shift + 3 = コンポーネントウィンドウに移動。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -804,7 +804,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 人物テンプレート </a> </p> </td> 
-   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人物指標は、<a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
+   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人物指標は、<a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>「元に戻す」／「やり直し」オプションの強化 </p> </td> 
@@ -902,18 +902,18 @@ ht-degree: 97%
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > フォールアウト分析 </a></b> </td> 
    <td colname="col2"> <p>新しいフォールアウト機能は、Analysis Workspace にマーケティングファネル機能をもたらします。ファネルを使用すると、顧客がマーケティングキャンペーンを放棄した地点や、Web サイトまたはクロスチャネルキャンペーンとの対話中に、定義済みのコンバージョンパスからそれた地点を特定できます。フォールアウト分析は、主要成功指標のコンバージョンを識別するために Analysis Workspace が提供する新しいビジュアライゼーションと特有の柔軟性を備えた堅牢なファネルを構築できます。フォールアウト分析を使用すると、次のことができます。 </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
-     <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">ファネルステップ（タッチポイント）のドラッグ、ドロップ、整列 </li> 
-     <li id="li_CC85524BC64546CD84794CC02C24CF21">複数のディメンションのフォールアウトを分析する（異なるディメンションおよび指標からの値を組み合わせる） </li> 
-     <li id="li_FA59CEE0211E4894B9109FF6A2FA3F80">フォールアウト直後に顧客がどこに移動したかを把握するための次のステップの識別 </li> 
+     <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">ファネルステップ（タッチポイント）のドラッグ、ドロップ、整列。 </li> 
+     <li id="li_CC85524BC64546CD84794CC02C24CF21">複数のディメンションのフォールアウトを分析する（異なるディメンションおよび指標からの値を組み合わせる）。 </li> 
+     <li id="li_FA59CEE0211E4894B9109FF6A2FA3F80">フォールアウト直後に顧客がどこに移動したかを把握するための次のステップの識別。 </li> 
     </ul> <p><img placement="break"  src="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > フロービジュアライゼーション </a></b> </td> 
    <td colname="col2"> <p>新しいフロー機能を使用すると、顧客がサイト／アプリをどのように移動および処理しているかを発見するための、Analysis Workspace の新しい、更新された柔軟性のあるビジュアライゼーションにより、サイト／アプリの顧客フロー／カスタマージャーニーを表示できます。フローを使用すると、次のことができます。 </p> <p> </p> 
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC"> 
-     <li id="li_0F7AF953EAB746DC95032FF9A533E560">アセット全体のカスタマージャーニーをビジュアライズする </li> 
-     <li id="li_697A47BE06CF4284ACA3DBE4CA4012BF">カスタマージャーニーの入口、出口または特定のディメンション項目から直近の次の手順を分析する </li> 
-     <li id="li_D13AD928AC434D599D43836FB334B14D">選択したパスの特定のポイントを指定することで、ユーザーのセグメントを動的に作成する </li> 
+     <li id="li_0F7AF953EAB746DC95032FF9A533E560">アセット全体のカスタマージャーニーをビジュアライズする。 </li> 
+     <li id="li_697A47BE06CF4284ACA3DBE4CA4012BF">カスタマージャーニーの入口、出口または特定のディメンション項目から直近の次の手順を分析する。 </li> 
+     <li id="li_D13AD928AC434D599D43836FB334B14D">選択したパスの特定のポイントを指定することで、ユーザーのセグメントを動的に作成する。 </li> 
     </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
@@ -938,8 +938,8 @@ ht-degree: 97%
    <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > スタータープロジェクト </a></b> </td> 
    <td colname="col2"> ユーザーが Analysis Workspace を開始しやすくするために、次のような一般的なビジネス上の問題のための事前作成されたプロジェクトテンプレートを作成しました。 <p> </p> 
     <ul id="ul_603F5ACC16F74D53AEB9F762FAC91656"> 
-     <li id="li_6B3F2E5D4B044EC19D45E5501E33DB91">ユーザーの定着 </li> 
-     <li id="li_7240EE8852FC4642B3AD4837C990A775">モバイルアプリの獲得 </li> 
+     <li id="li_6B3F2E5D4B044EC19D45E5501E33DB91">ユーザーの定着。 </li> 
+     <li id="li_7240EE8852FC4642B3AD4837C990A775">モバイルアプリの獲得。 </li> 
     </ul> <p><img placement="break"  src="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
@@ -977,12 +977,12 @@ ht-degree: 97%
 * 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL Workspace]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)。2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
 * Folio Builder[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
-* [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント
+* [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント。
 * 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[ベン図のビジュアライゼーションタイプ](/help/analyze/analysis-workspace/visualizations/venn.md)。
 * ランク付けされたテーブルの[トレンド選択](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折れ線グラフ）がリンクされました。
 * [ビジュアルを作成アイコン](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：このアイコンをクリックすると、次の操作がインテリジェントに推測されます（棒グラフ、ベン図など）。
-* 拡張された[手動の行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)機能
-* [セグメントを追加](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)ドロップゾーン
+* 拡張された[手動の行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)機能。
+* [セグメントを追加](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)ドロップゾーン。
 * マイナーアップデート：
 
    * パネル内のすべてのビジュアライゼーション、およびプロジェクト内のすべてのパネルを削除できるようになりました（以前は、少なくとも 1 つのビジュアライゼーションか 1 つのパネルを維持する必要がありました）。
@@ -1058,7 +1058,9 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 ![](assets/link-to-this-project.png)
 
->[!NOTE]シングルサインオン（従来のシングルサインオンと、Experience Cloud を介したログイン）を使用している企業では、レポートリンクの共有機能を利用できません。
+>[!NOTE]
+>
+>シングルサインオン（従来のシングルサインオンと、Experience Cloud を介したログイン）を使用している企業では、レポートリンクの共有機能を利用できません。
 
 ## ブレットグラフ、散布図、ツリーマップビジュアライゼーション {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1078,7 +1080,9 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 インプレッションや、これらのインプレッションを表示した個別ユーザー数を表示します。各データポイントのサイズによって、閲覧者が広告を表示した平均回数を視覚的に推測できます。サイズとデータは、選択したディメンション、日付範囲、フィルターによって異なります。
 
->[!NOTE]散布図に関連付けられたテーブルには、少なくとも 2 つの列が必要です。最初の列では X 軸を定義し、2 番目の列では Y 軸を定義します。3 番目の列がある場合は、散布図ではこれを使用して、点の半径を決定します。つまり、列 *1*、*2*、*3* は、*X 軸*、*Y 軸*、*点の半径*&#x200B;に対応します。
+>[!NOTE]
+>
+>散布図に関連付けられたテーブルには、少なくとも 2 つの列が必要です。最初の列では X 軸を定義し、2 番目の列では Y 軸を定義します。3 番目の列がある場合は、散布図ではこれを使用して、点の半径を決定します。つまり、列 *1*、*2*、*3* は、*X 軸*、*Y 軸*、*点の半径*&#x200B;に対応します。
 
 **ツリーマップ**
 
