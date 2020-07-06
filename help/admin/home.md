@@ -1,8 +1,11 @@
 ---
 title: Analytics 管理ヘルプ
 description: Admin Console でのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics 管理者向けの管理ヘルプです。
-translation-type: ht
-source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
+translation-type: tm+mt
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 Adobe Analytics には、現在、管理者向けの以下の 2 つの領域があります。
 
 * Adobe Admin Console：この領域を使用して Experience Cloud ツールをプロビジョニングし、ユーザー権限を管理します。[adminconsole.adobe.com](https://adminconsole.adobe.com) にあります。
-* Analytics Admin Console：この領域を使用して、レポートスイートおよび変数を管理します。Adobe Analytics の上部のヘッダーにある管理者をクリックすることでアクセスできます。
+* Analytics Admin Console：この領域を使用して、レポートスイートおよび変数を管理します。It can be accessed by clicking [!UICONTROL Admin] in the top header of Adobe Analytics.
 
 このガイドでは、以下について説明します。
 
