@@ -2,7 +2,7 @@
 title: 国
 description: ヒットの元の国。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 このディメンションは、Adobe内部の参照ルールを参照します。 ルックアップ値は、ヒットと共に送信されるIPアドレスに基づきます。 アドビは [Digital Element](https://www.digitalelement.com/) （デジタル要素）と提携しており、IPアドレスと国間の参照を維持しています。 このディメンションは、すべての実装で初期設定の状態で動作します。
 
-> [!TIP] IPアドレスを [不明化するだけでは不十分な、プライバシーに関する厳しい規制に従う場合](/help/admin/admin/general-acct-settings-admin.md) 、位置情報データを完全に無効にするように要求できます。 レポートスイートIDをカスタマーケアに連絡し、レポートスイートの「地域」をオフにするようにリクエストします。
+>[!TIP]
+>
+>IPアドレスを [不明化するだけでは不十分な、プライバシーに関する厳しい規制に従う場合](/help/admin/admin/general-acct-settings-admin.md) 、位置情報データを完全に無効にするように要求できます。 レポートスイートIDをカスタマーケアに連絡し、レポートスイートの「地域」をオフにするようにリクエストします。
 
 ## 分析コード値
 
