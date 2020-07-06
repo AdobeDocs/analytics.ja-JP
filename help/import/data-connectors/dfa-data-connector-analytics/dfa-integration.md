@@ -5,7 +5,10 @@ title: DFA 統合
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2598'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,9 @@ DFA 広告キャンペーン用に DFA データからビュースルーおよ�
 
 DFA 用の Genesis 統合は、DFA Floodlight 設定 ID（dfa_SPOTID）を利用します。これにより、DFA と Adobe データ収集システム間のレポートの一貫性が向上します。
 
->[!NOTE]注意：Google DFA の最近のリリースで 「Spotlight」という用語は、「Floodlight」に変更されました。JavaScript パラメーター `dfa_SPOTID` は、Spotlight の用語に基づいて命名されましたが、両方のバージョンで使用されます。
+>[!NOTE]
+>
+>注意：Google DFA の最近のリリースで 「Spotlight」という用語は、「Floodlight」に変更されました。JavaScript パラメーター `dfa_SPOTID` は、Spotlight の用語に基づいて命名されましたが、両方のバージョンで使用されます。
 
 Web サイトで DFA 統合を有効にするには、次を追加して JavaScript データコレクションコードを更新する必要があります。
 
