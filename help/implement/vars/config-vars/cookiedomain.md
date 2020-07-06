@@ -1,15 +1,20 @@
 ---
 title: cookieDomain
 description: cookieDomain 変数は、Cookie を設定するドメインを決定するのに役立ちます。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
 
 # cookieDomain
 
->[!IMPORTANT] この変数は廃止されています。代わりに、[`trackingServer`](trackingserver.md) を使用してください。
+>[!IMPORTANT]
+>
+> この変数は廃止されています。代わりに、[`trackingServer`](trackingserver.md) を使用してください。
 
 `cookieDomain` 変数は、AppMeasurement が Cookie を設定するドメインを決定します。[`cookieDomainPeriods`](cookiedomainperiods.md) 変数を使用すると、変数を使用する代わりに Cookie ドメインを明示的に設定できます。
 
