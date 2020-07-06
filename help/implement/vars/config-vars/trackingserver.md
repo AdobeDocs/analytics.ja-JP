@@ -1,8 +1,11 @@
 ---
 title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 アドビは、訪問者が生成したイメージリクエストを受け取ることで、サイト上のデータを収集します。`trackingServer` 変数は、イメージリクエストが送信される場所を決定します。この変数が正しく定義されていないと、実装でデータが失われる可能性があります。
 
->[!IMPORTANT] この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートで個別訪問者数が一時的に急増する可能性があります。
+>[!IMPORTANT]
+>
+> この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートで個別訪問者数が一時的に急増する可能性があります。
 
 ## Adobe Experience Platform Launch の「トラッキングサーバー」
 
@@ -28,7 +33,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `s.trackingServer` 変数は、データを送信する場所を含む文字列です。
 
->[!TIP] 一部の実装では、データが `2o7.net` を指し示します。これは有効なデータ収集ドメインですが、地域データ収集は使用されません。`2o7.net` を使用して実装すると、イメージリクエストの応答時間が若干長くなります。
+>[!TIP]
+>
+> 一部の実装では、データが `2o7.net` を指し示します。これは有効なデータ収集ドメインですが、地域データ収集は使用されません。`2o7.net` を使用して実装すると、イメージリクエストの応答時間が若干長くなります。
 
 ## trackingServer の値の決定
 
@@ -48,7 +55,9 @@ s.trackingServer = "data.example.com";
 
 ### サードパーティ Cookie
 
->[!TIP] 最新のブラウザーではプライバシー保護が強化されており、サードパーティ Cookie の信頼性が低下しています。ファーストパーティ Cookie のワークフローに従うことをお勧めします。
+>[!TIP]
+>
+>最新のブラウザーではプライバシー保護が強化されており、サードパーティ Cookie の信頼性が低下しています。ファーストパーティ Cookie のワークフローに従うことをお勧めします。
 
 サードパーティ Cookie の実装を使用する場合、`trackingServer` の値は `sc.omtrdc.net` のサブドメインになります。次に例を示します。
 
@@ -58,4 +67,6 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 Adobe Analytics を使用する別の組織では採用されないような、組織に固有のサブドメインを選択します。組織内のすべての実装で同じトラッキングサーバーを使用していることを確認します。[ソリューション設計ドキュメント](../../prepare/solution-design.md)でこの情報を維持すると役立つ場合があります。
 
->[!NOTE] `example.sc.omtrdc.net` より深いサブドメインは使用しないでください。例えば、`custom.example.sc.omtrdc.net` が有効なトラッキングサーバーではありません。
+>[!NOTE]
+>
+> `example.sc.omtrdc.net` より深いサブドメインは使用しないでください。例えば、`custom.example.sc.omtrdc.net` が有効なトラッキングサーバーではありません。
