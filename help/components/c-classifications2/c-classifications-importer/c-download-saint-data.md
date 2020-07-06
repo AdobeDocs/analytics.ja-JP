@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 分類テンプレート
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 このテンプレートには、特定のデータセットについて現在定義されている分類（列見出し）が含まれています。各分類に関連付けられたデータは含まれていません。
 
->[!NOTE]テンプレートの方法を使用する場合、分類データのダウンロード先は 1 つのレポートスイートに制限されます。
+>[!NOTE]
+>
+>テンプレートの方法を使用する場合、分類データのダウンロード先は 1 つのレポートスイートに制限されます。
 
 データファイルの構造について詳しくは、[分類データファイルについて](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)を参照してください。
 
@@ -38,7 +43,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 このテンプレートは、分類に関して従う必要があるファイル形式を提供します。
 
->[!NOTE]テンプレートの方法を使用する場合、データのダウンロード先は 1 つのレポートスイートに制限されます。
+>[!NOTE]
+>
+>テンプレートの方法を使用する場合、データのダウンロード先は 1 つのレポートスイートに制限されます。
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
 1. 「**[!UICONTROL テンプレートのダウンロード]**」タブで、[データテンプレートの設定](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)を指定します。
