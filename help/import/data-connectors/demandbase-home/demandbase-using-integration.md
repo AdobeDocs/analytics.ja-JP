@@ -3,7 +3,10 @@ description: 統合がデプロイされると、提供されている追加機�
 title: 統合の使用
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 統合がデプロイされると、提供されている追加機能を使用できるようになります。
 
->[!NOTE]Adobe Analytics レポート内で Demandbase データの一部が表示され始めるまでに 24 ～ 48 時間かかる場合があります。
+>[!NOTE]
+>
+>Adobe Analytics レポート内で Demandbase データの一部が表示され始めるまでに 24 ～ 48 時間かかる場合があります。
 
 Adobe Analytics 内でこの統合を活用するために実行するアクションを紹介します。
 
