@@ -2,7 +2,10 @@
 title: データフィードの作成または編集
 description: データフィードを作成または編集する方法について説明します。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -59,7 +62,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * eu-west-1
 * sa-east-1
 
->[!NOTE]Cn-north-1 地域はサポートされていません。
+>[!NOTE]
+>
+>Cn-north-1 地域はサポートされていません。
 
 ### Azure BLOB
 
@@ -67,7 +72,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![Azure 情報](assets/azure.png)
 
->[!NOTE]フィード宛先のディスク領域を管理するには、独自のプロセスを実装する必要があります。アドビはサーバーからデータを削除しません。
+>[!NOTE]
+>
+>フィード宛先のディスク領域を管理するには、独自のプロセスを実装する必要があります。アドビはサーバーからデータを削除しません。
 
 ## データ列の定義
 
@@ -77,6 +84,6 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * **圧縮形式**：使用する圧縮のタイプ。Gzipはファイルを `.tar.gz` 形式で出力します。Zipはファイルを `.zip` 形式で出力します。
 * **パッケージの種類**：単一ファイルは、潜在的に大規模な 1 つのファイルとして `hit_data.tsv` を出力します。複数のファイルを使用すると、データが 2GB のチャンク（非圧縮）にページ分割されます。複数のファイルを選択し、レポートウィンドウの非圧縮データが 2GB 未満の場合は、1 つのファイルが送信されます。ほとんどのデータフィードでは、複数のファイルを使用することをお勧めします。
 * **列テンプレート**：多数のデータフィードを作成する場合は、列テンプレートを作成することをお勧めします。列テンプレートを選択すると、指定した列が自動的にテンプレートに含まれます。また、アドビでは、デフォルトで複数のテンプレートを提供しています。
-* **使用可能な列**：Adobe Analytics で使用可能なすべてのデータ列。Click [!UICONTROL Add all] to include all columns in a data feed.
-* **含まれる列**：データフィードに含める列。Click [!UICONTROL Remove all] to remove all columns from a data feed.
+* **使用可能な列**：Adobe Analytics で使用可能なすべてのデータ列。「[!UICONTROL すべて追加]」をクリックして、データフィードにすべての列を含めます。
+* **含まれる列**：データフィードに含める列。データフィードからすべての列を削除するには、[!UICONTROL すべて削除]をクリックします。
 * **CSV のダウンロード**：含まれるすべての列を含む CSV ファイルをダウンロードします。
