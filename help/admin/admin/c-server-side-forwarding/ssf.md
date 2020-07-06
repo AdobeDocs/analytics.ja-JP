@@ -3,8 +3,11 @@ description: サーバー側転送は、Analytics のデータを他の Experien
 solution: Audience Manager
 title: サーバー側転送の概要
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '850'
+ht-degree: 100%
 
 ---
 
@@ -66,5 +69,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 * **無効**：新しいサーバー側転送を有効にしていません。ページのコンテンツを読んで、機能を有効にしてください。
 * **有効**：新しいサーバー側転送がプロビジョニングされています。この Audience Analytics 統合をセットアップすることもできます。
 
->[!NOTE]3 つの手順をすべて実行するまでは、データは他の Experience Cloud ソリューション（[Audience Manager](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/aam-home.html) や [Audiences](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html) など）に表示されません。有効にした後、これらの設定が反映されるまでに数時間かかります。
+>[!NOTE]
+>
+>3 つの手順をすべて実行するまでは、データは他の Experience Cloud ソリューション（[Audience Manager](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/aam-home.html) や [Audiences](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html) など）に表示されません。有効にした後、これらの設定が反映されるまでに数時間かかります。
 
