@@ -4,9 +4,9 @@ title: Data Warehouse セグメントの互換性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 96%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 96%
   <tr> 
    <td> <b>セグメントの積み重ね</b> </td> 
    <td> サポート </td> 
-   <td> サポートなし </td> 
+   <td> サポート </td> 
   </tr>
   <tr>
     <td><b>「次のいずれかと等しい」および「次のいずれかと等しくない」演算子</b></td>
