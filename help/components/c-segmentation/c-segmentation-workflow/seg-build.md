@@ -4,7 +4,7 @@ title: セグメントの構築
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '2037'
 ht-degree: 90%
@@ -22,7 +22,7 @@ ht-degree: 90%
 * **[!UICONTROL Analysis Workspace]**：**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** に移動し、プロジェクトを開いて **[!UICONTROL + 新規]**／**[!UICONTROL セグメントを作成]**&#x200B;をクリックします。
 * **[!UICONTROL Reports &amp; Analytics]**：**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;で、既存のレポートを開いて、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックしてから、「**[!UICONTROL 追加]**」をクリックします。
 * **[!UICONTROL Ad Hoc Analysis]**：[Ad Hoc Analysis でセグメントを作成します](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments)。
-* **[!UICONTROL Report Builder]**：[レポートビルダーでセグメントを追加または編集します。](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html)
+* **[!UICONTROL Report Builder]**：[レポートビルダーでセグメントを追加または編集します。](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/data-requests/segmentation.html)
 
 ## ビルダ条件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -34,7 +34,7 @@ ht-degree: 90%
 1. **[!UICONTROL 説明]**：セグメントの説明を入力します。
 1. **[!UICONTROL タグ]**：既存のタグのリストから選択、または新しいタグを作成して、作成するセグメントに[タグを付ける](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)ことができます。
 1. **[!UICONTROL 定義]**：[セグメントを作成および設定](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)して、ルールを追加し、コンテナをネストして順に並べるための作業領域です。
-1. **[!UICONTROL 表示]**:（上部のコンテナセレクター）。トップレベルの[コンテナ（](/help/components/c-segmentation/seg-overview.md)[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL ヒット]）を選択できます。デフォルトのトップレベルのコンテナは、ヒットコンテナです。
+1. **[!UICONTROL 表示]**：（上部のコンテナセレクター）トップレベルの[コンテナ](/help/components/c-segmentation/seg-overview.md)（[!UICONTROL 訪問者]、[!UICONTROL 訪問]、[!UICONTROL ヒット]）を選択できます。デフォルトのトップレベルのコンテナは、ヒットコンテナです。
 1. **[!UICONTROL オプション]**：（ギア）アイコン
 
    * **[!UICONTROL + コンテナを追加]**：セグメント定義（トップレベルのコンテナの下）に新しいコンテナを追加できます。
@@ -45,6 +45,7 @@ ht-degree: 90%
    * **[!UICONTROL 繰り返し]** （デフォルト）: ディメンションのインスタンスと永続化された値が含まれます。
    * **[!UICONTROL インスタンス]**：ディメンションに直接的にセットされるインスタンスのみが対象になります。
    * **[!UICONTROL 繰り返さないインスタンス]**：後続のヒットで同じ値が連続的に繰り返されるヒットを除いたインスタンスのみが対象になります。これは、繰り返しインスタンスが除外される場合にフローに適用されるモデルです。
+
    ![](assets/attribution-models.jpg)
 
    **例： eVar1 = Aであるヒットセグメント**
@@ -65,7 +66,7 @@ ht-degree: 90%
 1. **[!UICONTROL X]**：（削除）セグメント定義のこの部分を削除できます。
 1. **[!UICONTROL 保存]**&#x200B;または&#x200B;**[!UICONTROL キャンセル]**：セグメントを保存またはキャンセルします。「**[!UICONTROL 保存]**」をクリックした後、セグメントを管理できるセグメントマネージャが表示されます。
 1. **[!UICONTROL 検索]**：ディメンション、セグメントまたは指標のリストを検索します。
-1. **[!UICONTROL ディメンション]**:（リスト）ヘッダーをクリックして展開します。
+1. **[!UICONTROL ディメンション]**：（リスト）ヘッダーをクリックして展開します。
 1. **[!UICONTROL 指標]**：ヘッダーをクリックして展開します。
 1. **[!UICONTROL セグメント]**：ヘッダーをクリックして展開します。
 1. **[!UICONTROL レポートスイートセレクタ]**：このセグメントを保存するレポートスイートを選択します。セグメントは、すべてのレポートスイートで利用できます。
@@ -74,7 +75,7 @@ ht-degree: 90%
 
 日付範囲が埋め込まれているセグメントの動作は、今後も Analysis Workspace と [!UICONTROL Reports &amp; Analytics] では異なります。ワークスペースでは、日付範囲が埋め込まれているセグメントがパネルの日付範囲より優先されます。これに対して、[!UICONTROL Reports &amp; Analytics] では、レポートの日付範囲とセグメントの埋め込みの日付範囲が重なる期間のみが対象期間になります。
 
-**[!UICONTROL Experience Cloudの公開]**: （画面に表示されません）このオプションは、このセグメントの保存先のレポートスイートがExperience Cloud [に対して有効になっている場合にのみ表示されます](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。 Experience Cloud にセグメントを公開すると、そのセグメントを[!UICONTROL オーディエンスライブラリ]、[!DNL Target] および [!DNL Audience Manager] のマーケティングアクティビティで使用できます。[エクスペリエンスクルードの公開について詳しくは](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 、
+**[!UICONTROL 印刷Experience Cloud]**: （画面に表示されません）このオプションは、このセグメントの保存先のレポートスイートがExperience Cloudに対して [有効になっている場合にのみ表示されます](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。 Experience Cloud にセグメントを公開すると、そのセグメントを[!UICONTROL オーディエンスライブラリ]、[!DNL Target] および [!DNL Audience Manager] のマーケティングアクティビティで使用できます。[Experience Cloudの投稿について詳しく](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 。
 
 ## セグメントの構築 {#build-segments}
 
@@ -140,7 +141,9 @@ ht-degree: 90%
 * タブレットユーザー用の 1 つのセグメント
 * 各国用の 20 個のセグメント
 
->[!NOTE]2 つのセグメントを積み重ねると、デフォルトで、それらのセグメントが AND ステートメントで結合されます。これを OR ステートメントに変更することはできません。
+>[!NOTE]
+>
+>2 つのセグメントを積み重ねると、デフォルトで、それらのセグメントが AND ステートメントで結合されます。これを OR ステートメントに変更することはできません。
 
 1. セグメントビルダーに移動します。
 1. セグメントのタイトルと説明を指定します。
