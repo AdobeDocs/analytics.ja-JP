@@ -4,8 +4,11 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: トリガー条件のアクションの設定
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 各ルールは、スクリプトや HTML 挿入をいくつでもトリガーできます。
 
->[!NOTE]ページ内にカスタムコードを挿入できる DTM の機能によってクロスサイトスクリプティング（XSS）脆弱性が入り込まないよう、十分注意してください（詳しくは、[OWASP のガイド資料](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))を参照してください）。特に、スクリプトの中でデータ要素を使用する場合は警戒が必要です。データ要素には、信頼できない提供元から得られた値が含まれている可能性が常にあることを意識してください。
+>[!NOTE]
+>
+>ページ内にカスタムコードを挿入できる DTM の機能によってクロスサイトスクリプティング（XSS）脆弱性が入り込まないよう、十分注意してください（詳しくは、[OWASP のガイド資料](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))を参照してください）。特に、スクリプトの中でデータ要素を使用する場合は警戒が必要です。データ要素には、信頼できない提供元から得られた値が含まれている可能性が常にあることを意識してください。
 
 **トリガー条件のアクションを設定するには**
 
