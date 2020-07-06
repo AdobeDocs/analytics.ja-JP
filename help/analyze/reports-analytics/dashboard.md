@@ -4,8 +4,11 @@ subtopic: Dashboards
 title: ダッシュボードおよびレポートレット
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * リアルタイムレポート
 * その他のダッシュボード
 
->[!NOTE]「**[!UICONTROL サイト概要]**」ダッシュボードは Reports &amp; Analytics に表示されなくなりました。ただし、次のような状況においては、「サイト概要」の一部またはすべてのレポートレットが引き続き表示されます。
+>[!NOTE]
+>
+>「**[!UICONTROL サイト概要]**」ダッシュボードは Reports &amp; Analytics に表示されなくなりました。ただし、次のような状況においては、「サイト概要」の一部またはすべてのレポートレットが引き続き表示されます。
 
 * 例えば、よく表示しているレポートが 3 つだけの場合は、「**[!UICONTROL 推奨レポート]**」ダッシュボードの空き領域を埋めるために、「サイト概要」ダッシュボードの 2 つのレポートが表示されます。
 * 新規のレポートスイートには、最初は「サイト概要」のレポートレットが表示されますが、使用するうちに、よく表示されるレポートに置き換えられます。その場合でも、ダッシュボードには「**[!UICONTROL 推奨レポート]**」と表示されます。
