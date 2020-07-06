@@ -3,7 +3,7 @@ description: 'null'
 title: 貢献度分析の実行
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
@@ -52,7 +52,9 @@ ht-degree: 100%
    * [アラートを作成する](/help/components/c-alerts/intellligent-alerts.md)
    * [セグメントを作成したり比較したりする](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
->[!NOTE]貢献度分析およびそれにリンクされたインテリジェントアラートプロジェクトで、分析された異常値が青い点でハイライト表示されます。これにより、分析された異常値がより明確に示されます。
+>[!NOTE]
+>
+>貢献度分析およびそれにリンクされたインテリジェントアラートプロジェクトで、分析された異常値が青い点でハイライト表示されます。これにより、分析された異常値がより明確に示されます。
 
 ## ディメンションの貢献度分析からの除外 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
