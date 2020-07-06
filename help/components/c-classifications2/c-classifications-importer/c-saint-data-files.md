@@ -5,7 +5,10 @@ title: 分類データファイル
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1782'
+ht-degree: 99%
 
 ---
 
@@ -75,11 +78,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>自動的にこのエレメントの一意の ID が生成されます。 </p> <p>キャンペーン用途の場合は、この制御値によってクリエイティブエレメントごとに ID が割り当てられます。Keyを参照し <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > てくだ </a>さい。 </p> </td> 
+   <td colname="col2"> <p>自動的にこのエレメントの一意の ID が生成されます。 </p> <p>キャンペーン用途の場合は、この制御値によってクリエイティブエレメントごとに ID が割り当てられます。Keyを参照して <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > くだ </a>さい。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>該当する列は日付範囲を表す文字列であることをシステムに伝えます。日付を参 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > 照してくだ </a>さい。 </p> </td> 
+   <td colname="col2"> <p>該当する列は日付範囲を表す文字列であることをシステムに伝えます。「 <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > 日付」を参照してくだ </a>さい。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>空のフィールド </p> </td> 
@@ -99,7 +102,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 列見出しの形式
 
->[!NOTE]インポートおよびエクスポートする列の数を 30 以内にすることをお勧めします。
+>[!NOTE]
+>
+>インポートおよびエクスポートする列の数を 30 以内にすることをお勧めします。
 
 分類ファイルは次の列見出しをサポートしています。
 
@@ -109,19 +114,21 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ### 分類列の見出し
 
-例えば、Reports &amp; Analyticsでは、変数に対して次の2つの分類が自動的に含ま [!UICONTROL Campaign] れます。 [!UICONTROL Campaigns] と [!UICONTROL Creative Elements]To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
+例えば、Reports &amp; Analytics では、[!UICONTROL キャンペーン]変数は「[!UICONTROL キャンペーン]」および「[!UICONTROL クリエイティブエレメント]」の 2 つに自動的に分類されます。データを「[!UICONTROL キャンペーン]」の分類に追加するために、分類データファイルの列見出しを「[!UICONTROL キャンペーン]」にします。
 
->[!NOTE] 列見出しの値は、分 [!UICONTROL Classifications] 類の命名規則と完全に一致する必要があります。一致しない場合、インポートは失敗します。 例えば、管理者がに変更した場 [!UICONTROL Campaigns] 合は、フ [!UICONTROL Internal Campaign Names] ァイ [!UICONTROL Campaign Set-up Manager]ルの列見出しが一致するように変更する必要があります。
+>[!NOTE]
+>
+>[!UICONTROL 分類]列の見出しの値は、分類の名前に完全に合致する必要があります。合致していない場合、インポートに失敗します。例えば、管理者が[!UICONTROL キャンペーン設定マネージャー]で分類名を「[!UICONTROL キャンペーン]」から「[!UICONTROL 内部キャンペーン名]」に変更した場合は、ファイルの列見出しを同様に変更する必要があります。
 
 また、データファイルでは、以下に示す見出しの規則をサポートし、下位分類やその他の特殊なデータ列を識別します。
 
 ### 下位分類の見出し
 
-For example, [!UICONTROL Campaigns^Owner] is a column heading for the column containing [!UICONTROL Campaign Owner] values. Similarly, [!UICONTROL Creative Elements^Size] is a column heading for the column containing the [!UICONTROL Size] sub-classification of the [!UICONTROL Creative Elements] classification.
+例えば、「[!UICONTROL Campaigns^Owner]」は[!UICONTROL キャンペーン所有者]の値を含む列の見出しです。同様に、「[!UICONTROL Creative Elements^Size]」は[!UICONTROL クリエイティブエレメント]分類の下位分類である[!UICONTROL サイズ]を含む列の見出しです。
 
 ### 分類指標の見出し
 
-For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric in the [!UICONTROL Campaigns] classification.
+例えば、「[!UICONTROL Campaigns^~Cost]」は[!UICONTROL キャンペーン]分類の[!UICONTROL コスト]指標を示します。
 
 ### PER 修飾子の見出し
 
@@ -141,9 +148,9 @@ For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric
 
 **REVENUE：**&#x200B;値に、レポート内の行項目の売上高を掛けます。
 
-**SCADD:** 値に、レポート内の行項目ごとに [!UICONTROL Shopping Cart Add] イベントが呼び出された回数を掛けます。
+**SCADD：**&#x200B;値に、レポート内の行項目ごとに[!UICONTROL 買い物かごの追加]イベントが呼び出された回数を掛けます。
 
-**SCREMOVE:** 値に、レポート内の行項目ごとに [!UICONTROL Shopping Cart Remove] イベントが呼び出された回数を掛けます。
+**SCREMOVE：**&#x200B;値に、レポート内の行項目ごとに[!UICONTROL 買い物かごの削除]イベントが呼び出された回数を掛けます。
 
 **INSTANCE：**&#x200B;値に、レポート内の行項目のインスタンス数を掛けます。
 
@@ -151,30 +158,32 @@ For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric
 
 **EVENT：**&#x200B;値に、レポート内の行項目ごとに指定されたカスタムイベントが発生した回数を掛けます。
 
-**例：** キャンペーンAのコストが$10,000の場合、 [!UICONTROL Campaigns^~Cost] 列の値は10,000で、コスパー列の値 [!UICONTROL Campaigns^~~は] 10,000です [!UICONTROL FIXED]。 レポートにキャンペーン A のコストを表示すると、日付範囲に対応するキャンペーン A の固定コストとして $10,000 が表示されます。
+**例：**&#x200B;キャンペーン A のコストが $10,000 の場合、「[!UICONTROL Campaigns^~Cost]」列には値「10000」、「[!UICONTROL Campaigns^~Cost~per]」列には「[!UICONTROL FIXED]」が含まれます。レポートにキャンペーン A のコストを表示すると、日付範囲に対応するキャンペーン A の固定コストとして $10,000 が表示されます。
 
-**例：** キャンペーンBのコストがクリックあたり約2ドルの場合、列には2が含 [!UICONTROL Campaigns^~Cost] まれ、コストパー列には **[!UICONTROL Campaigns^~~が含ま]** れま [!UICONTROL CLICK]す。 レポートにキャンペーン B のコストを表示するとき、レポートの日付範囲に対応する、その時点の「2 * [クリック数]」が計算されます。これにより、キャンペーン B でのクリック数に基づいて合計コストを計算できます。
+**例：**&#x200B;キャンペーン B のコストがクリックあたりおよそ $2 である場合、「[!UICONTROL Campaigns^~Cost]」列には「2」、「**[!UICONTROL Campaigns^~Cost~per]**」列には「[!UICONTROL CLICK]」が含まれます。レポートにキャンペーン B のコストを表示するとき、レポートの日付範囲に対応する、その時点の「2 * [クリック数]」が計算されます。これにより、キャンペーン B でのクリック数に基づいて合計コストを計算できます。
 
 ### 日付
 
 通常、キャンペーンの日付は個別のキャンペーンに関連付けられた範囲（開始日と終了日）になります。日付は YYYY/MM/DD の形式で示す必要があります。例えば、「2013/06/15-2013/06/30」とします。
 
-詳しくは、[コンバージョン分類](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)を参照してください。
+詳しくは、[コンバージョン分類](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)を参照してください。
 
->[!NOTE]2018 年 5 月 10 日[!DNL Analytics]の Analytics メンテナンスリリースにおいて、日付が有効な分類と数値の分類の機能制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類および数値の分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。
+>[!NOTE]
+>
+>2018 年 5 月 10 日[!DNL Analytics]の Analytics メンテナンスリリースにおいて、日付が有効な分類と数値の分類の機能制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類および数値の分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。
 
-## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
+## [!UICONTROL 分類] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL Classifications] を使用して、日付範囲をキャンペーンや他のコンバージョンに割り当てることができ、より正確 [!UICONTROL classifications]なキャンペーン測定が可能です。 値の日付範囲を指定した場合は、値が一致しても、日付範囲外で発生するものは分類されません。これは、キャンペーン自体に一致するすべてのヒットを測定するのではなく、キャンペーンが実施されていた正確な日付を利用してキャンペーンを測定する場合に役立ちます。日付範囲を使用して値を分類するには、次の条件を満たす必要があります。
+[!UICONTROL 分類]を使用して、キャンペーンまたはその他のコンバージョン[!UICONTROL 分類]に日付範囲を割り当てることができます。日付範囲を割り当てると、より正確なキャンペーン測定が可能になります。値の日付範囲を指定した場合は、値が一致しても、日付範囲外で発生するものは分類されません。これは、キャンペーン自体に一致するすべてのヒットを測定するのではなく、キャンペーンが実施されていた正確な日付を利用してキャンペーンを測定する場合に役立ちます。日付範囲を使用して値を分類するには、次の条件を満たす必要があります。
 
-* The [!UICONTROL classification] must be based on a conversion variable.
-* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
+* [!UICONTROL 分類]は、コンバージョン変数に基づいたものであることが必要です。
+* 使用される[!UICONTROL 分類]は、「日付が有効」または「数値 2」として設定されている必要があります。
 * 指定する日付範囲には、開始日および（オプションで）終了日が含まれている必要があります。
 
 日付範囲に基づいてキャンペーンを分類するには：
 
 1. [!DNL Analytics] にログインし、管理者／分類に移動します。
-1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
+1. 「**[!UICONTROL ブラウザエクスポート]**」タブをクリックし、日付が有効な分類の設定が正しいことを確認して、「ファイルのエクスポート」をクリックします。
 1. このファイルを Microsoft Excel、またはその他の使い慣れているスプレッドシートエディターで開きます。
 1. 列の 1 つが
 
@@ -190,7 +199,9 @@ For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric
 
 1. ファイルを保存し、管理者／分類／ファイルのインポートに移動して [!DNL Analytics] にアップロードします。
 
->[!NOTE]キー値に対して、複数の日付範囲は指定できません。
+>[!NOTE]
+>
+>キー値に対して、複数の日付範囲は指定できません。
 
 ## 分類のトラブルシューティング
 
