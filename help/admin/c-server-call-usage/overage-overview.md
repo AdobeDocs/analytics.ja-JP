@@ -2,8 +2,11 @@
 description: 'null'
 title: サーバーコールの使用状況の概要
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1038'
+ht-degree: 100%
 
 ---
 
@@ -82,7 +85,9 @@ Adobe Analytics のサーバーコール使用状況の機能は、ブラウザ�
 
 サーバーコールの使用状況に関する権限は Analytics 管理者に自動的に付与されます。これにより、管理者はダッシュボードの表示やサーバーコールアラートの作成をおこなえます。管理者は、この権限を管理者以外のユーザーに付与することもできます。
 
->[!NOTE]会社は、サーバーコールの使用状況にアクセスできるログイン会社を選ぶことができます。
+>[!NOTE]
+>
+>会社は、サーバーコールの使用状況にアクセスできるログイン会社を選ぶことができます。
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
