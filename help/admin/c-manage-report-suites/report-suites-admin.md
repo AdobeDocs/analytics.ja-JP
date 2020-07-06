@@ -3,8 +3,11 @@ description: レポートスイートでは、選択した Web サイト、Web �
 title: レポートスイートマネージャー
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '539'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**
 
->[!NOTE]仮想レポートスイートは、**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**&#x200B;で管理されます。[仮想レポートスイートのドキュメント](/help/components/vrs/vrs-about.md)を参照してください。
+>[!NOTE]
+>
+>仮想レポートスイートは、**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**&#x200B;で管理されます。[仮想レポートスイートのドキュメント](/help/components/vrs/vrs-about.md)を参照してください。
 
 ## Report Suite Manager の説明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
