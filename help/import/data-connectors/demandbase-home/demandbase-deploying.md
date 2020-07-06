@@ -3,7 +3,10 @@ description: この統合のデプロイは、以下の操作を必要とする�
 title: 統合のデプロイ
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1310'
+ht-degree: 100%
 
 ---
 
@@ -71,7 +74,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 統合ウィザードを完了したら、統合コードを Adobe Analytics デプロイメントコード（s_code）にデプロイする必要があります。
 
->[!NOTE]Adobe TagManager または Dynamic Tag Management を使用して Adobe Analytics を実装する場合は、これらのツールのいずれかを使用して統合コードを簡単に追加できます。
+>[!NOTE]
+>
+>Adobe TagManager または Dynamic Tag Management を使用して Adobe Analytics を実装する場合は、これらのツールのいずれかを使用して統合コードを簡単に追加できます。
 
 1. 「**[!UICONTROL サポート]**」タブに移動し、統合のリソース領域から `integration code v2_0_1` リソースをダウンロードして保存します。
 
@@ -198,7 +203,9 @@ DigitalPulse デバッガーツールを使用して、Demandbase ディメン�
 
 または、Adobe Analytics のメニュー構造内で Demandbase レポートに移動できます（以下のスクリーンショットを参照）。
 
->[!NOTE]このデータは、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
+>[!NOTE]
+>
+>このデータは、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
 
 ![](assets/reporting1.png)
 
