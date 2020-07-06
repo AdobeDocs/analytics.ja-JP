@@ -3,7 +3,10 @@ description: Analysis Workspace テンプレート、および Reports & Analyti
 title: Analytics での広告データのレポート
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Analysis Workspace テンプレート、および Reports &amp; Analytics と Report Builder でのレポートについて説明します。
 
->[!NOTE] 検索エンジンのデータが Analytics レポートに入力され始めるまでに 24 時間以上かかることを想定する必要があります。また、AMO データは時間単位の精度をサポートしていないので、Analytics レポートが時間単位の精度でデータを返さないことに注意してください。
+>[!NOTE]
+>
+> 検索エンジンのデータが Analytics レポートに入力され始めるまでに 24 時間以上かかることを想定する必要があります。また、AMO データは時間単位の精度をサポートしていないので、Analytics レポートが時間単位の精度でデータを返さないことに注意してください。
 
 ## Analysis Workspace：検索エンジン {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
