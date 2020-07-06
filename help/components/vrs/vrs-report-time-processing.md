@@ -3,7 +3,10 @@ description: レポート時間処理は、非破壊的かつ遡及的な方法�
 title: レポート時間処理
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1426'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 レポート時間処理は、非破壊的かつ遡及的な方法で過去データを再処理できる仮想レポートスイートの設定です。
 
->[!NOTE]レポート時間処理は、Analysis Workspace でのみ使用できます。
+>[!NOTE]
+>
+>レポート時間処理は、Analysis Workspace でのみ使用できます。
 
 レポート時間処理は、仮想レポートスイートのデータのみに影響し、ベースレポートスイートのデータやデータ収集には影響しません。次の図は、レポート時間処理と Analytics の従来の処理がどのように違うかを表しています。
 
