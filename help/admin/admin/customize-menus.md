@@ -4,7 +4,10 @@ title: メニューのカスタマイズ
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 メニューの変更はそのレポートスイートにアクセスするすべてのユーザーに適用されます。ただし、ユーザーはレポートスイートの使用中にメニューをデフォルト設定に戻すことができます。
 
->[!NOTE]メニュー構造の変更は、Report Builder および Ad Hoc Analysis には影響しません。ただし、レポート名の変更は、両方のツールに反映されます。
+>[!NOTE]
+>
+>メニュー構造の変更は、Report Builder および Ad Hoc Analysis には影響しません。ただし、レポート名の変更は、両方のツールに反映されます。
 
 ## メニューのカスタマイズの説明 {#section_B0D224DACB914A378902A4E0E1234889}
 
