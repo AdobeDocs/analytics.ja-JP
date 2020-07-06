@@ -2,7 +2,10 @@
 title: maxDelay
 description: AppMeasurement がイメージリクエストを送信するまで　DFA からの応答を待機する最大の時間を指定します。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
@@ -31,4 +34,6 @@ s.maxDelay = 750;
 * 待機時間を減らすと Analytics のヒットデータを失うリスクは低くなりますが、ヒットデータと一緒に送信される DFA データの量も少なくなります。
 * DFA統合データの損失は、`s.maxDelay` 期間が DFA ホストの応答に十分でない場合に発生します。
 
->[!NOTE]アドビは DFA の応答時間を制御していません。最大遅延期間を妥当な時間枠に増やした後でも整合性の問題が見られる場合は、貴社の DFA アカウント管理者にお問い合わせください。
+>[!NOTE]
+>
+>アドビは DFA の応答時間を制御していません。最大遅延期間を妥当な時間枠に増やした後でも整合性の問題が見られる場合は、貴社の DFA アカウント管理者にお問い合わせください。
