@@ -1,8 +1,11 @@
 ---
 title: マーケティングチャネルでの分類
 description: 分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 この手順で追加する分類は、[!UICONTROL マーケティングチャネル概要]レポートに「[!UICONTROL チャネル値]」として表示されます。チャネル値は、チャネルの詳細では未分類の値です。
 
->[!NOTE][分類](/help/components/c-classifications2/c-classifications.md)で、分類の作成についての詳細を必ず理解しておいてください。
+>[!NOTE]
+>
+>[分類](/help/components/c-classifications2/c-classifications.md)で、分類の作成についての詳細を必ず理解しておいてください。
 
 >[!IMPORTANT]
 >
