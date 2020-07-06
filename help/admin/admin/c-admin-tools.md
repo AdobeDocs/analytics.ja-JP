@@ -2,8 +2,11 @@
 description: 'null'
 title: 管理ツール
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**
 
->[!IMPORTANT]同じブラウザーで複数の「管理者」タブを開かないでください。間違って正しくないレポートスイートに設定を保存してしまうおそれがあります。例えば、ルールセットを比較して新しいレポートスイートにコピーする必要がある場合は、新しいブラウザーを開くか、スクリーンショットを撮影して、ルールセットを比較することをお勧めします。
+>[!IMPORTANT]
+>
+>同じブラウザーで複数の「管理者」タブを開かないでください。間違って正しくないレポートスイートに設定を保存してしまうおそれがあります。例えば、ルールセットを比較して新しいレポートスイートにコピーする必要がある場合は、新しいブラウザーを開くか、スクリーンショットを撮影して、ルールセットを比較することをお勧めします。
 
 + [課金](billing-admin.md)
 + [ボットルールの概要](bot-removal/bot-rules.md)
