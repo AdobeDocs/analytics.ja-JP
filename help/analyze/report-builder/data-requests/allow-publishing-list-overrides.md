@@ -4,7 +4,10 @@ title: 発行リストの上書きの許可
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 94%
 
 ---
 
@@ -17,11 +20,13 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Analytics リファレンスの[発行リスト](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html)を参照してください。
 
-この機能を有効にするには、ウィンドウに移動 [!UICONTROL Request Wizard: Step 1] します。
+この機能を有効にするには、[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウを開きます。
 
-If you enable [!UICONTROL Allow Publishing List Override], the report suite assigned to each recipient in the publishing list replaces the report suite for this request. ワークブックに複数のレポートスイートが含まれている場合でも、この発行リストに関連付けられた 1 つのレポートスイート ID が使用される点にご注意ください。
+「[!UICONTROL 発行リストの上書きを許可]」を有効にすると、発行リスト内で各受信者に割り当てられたレポートスイートが、このリクエスト用に指定されたレポートスイートの代わりに使用されます。ワークブックに複数のレポートスイートが含まれている場合でも、この発行リストに関連付けられた 1 つのレポートスイート ID が使用される点にご注意ください。
 
 このレポートスイート変更機能は、セルから選択したレポートスイート ID に対しては適用されません。
 
->[!NOTE]予定レポートを複数の発行リストに対して送信する場合、各リストに対してレポートが一度実行されます。対象レポートスイートは、発行リストに割り当てられたレポートスイートに置き換えられます。
+>[!NOTE]
+>
+>予定レポートを複数の発行リストに対して送信する場合、各リストに対してレポートが一度実行されます。対象レポートスイートは、発行リストに割り当てられたレポートスイートに置き換えられます。
 
