@@ -2,7 +2,7 @@
 title: 購入イベント
 description: 購入イベントを使用して、「注文件数」、「数量」および「売上高」指標のデータを収集します。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 92%
@@ -20,7 +20,10 @@ ht-degree: 92%
 * 「数量」指標は、`products` 変数内の製品数だけ増分されます
 * 「売上高」指標は、`products` 変数内の価格パラメーターの合計で増加します
 
->[!NOTE] 売上高に数量フィールドを掛けることはありません。 For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. 例：`s.products="Womens;Socks;5;22.50"`。
+>[!NOTE]
+>
+>売上高に数量フィールドを掛けることはありません。 For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. 例： 
+        `s.products="Womens;Socks;5;22.50"`。
 
 ## Adobe Experience Platform Launch での購入イベントの設定
 
