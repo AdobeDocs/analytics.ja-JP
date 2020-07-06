@@ -2,7 +2,7 @@
 title: 郵便番号
 description: 訪問者の郵便番号。
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -23,7 +23,9 @@ ht-degree: 0%
 
 「 [!UICONTROL 一般的なアカウント設定] 」の「 [](/help/admin/admin/general-acct-settings-admin.md) Zip」オプションは、このディメンションに入力する方法を制御します。
 
->[!IMPORTANT] このディメンションの入力方法を完全に制御する場合は、レポートスイートの設定が重要です。
+>[!IMPORTANT]
+>
+>このディメンションの入力方法を完全に制御する場合は、レポートスイートの設定が重要です。
 
 ## 分析コード値
 
