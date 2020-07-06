@@ -1,8 +1,11 @@
 ---
 description: Java 11 で Ad Hoc Analysis を実行する方法について説明します。
 title: Java 11 で Ad Hoc Analysis を実行する
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,9 @@ IT チームと協力して、以下を確認してください。
 1. **選択したファイルを実行します**。PCの場合：.bat ファイルをダブルクリックします。Mac の場合、.sh ファイルを右クリックしてから、「**[!UICONTROL このアプリケーションで開く／その他... ／ユーティリティ／（すべてのアプリケーションを有効にする）／ターミナルを選択／開く]**」を選択します。
 1. Ad Hoc Analysis にログインします。
 
->[!NOTE]Federated ID および Enterprise ID 認証方式は、Java 11 バージョンの Ad Hoc Analysis とは互換性がありません。
+>[!NOTE]
+>
+>Federated ID および Enterprise ID 認証方式は、Java 11 バージョンの Ad Hoc Analysis とは互換性がありません。
 
 ## Ad Hoc Analysis （Java 11）でサポートされていない機能
 
