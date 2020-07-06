@@ -4,7 +4,10 @@ title: データリクエストのスケジュール設定
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例えば、ワークブックがすぐに配信されるようにスケジュールしたり、繰り返し配信されるようにスケジュールしたりできます。また、「[!DNL Advanced Delivery Options]」ではファイル形式を指定できます。ワークブックをアップロードする場合のファイルサイズの上限は 5 MB です。
 
-Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. （Reports &amp; Analytics ヘルプの[レポートのスケジュールと配信](/help/analyze/reports-analytics/scheduling.md)を参照してください）。
+さらに、Report Builder でワークブックのスケジュールを作成した後、**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;でスケジュールを表示して編集することができます（Reports &amp; Analytics ヘルプの[レポートのスケジュールと配信](/help/analyze/reports-analytics/scheduling.md)を参照してください）。
 
->[!NOTE] ワークブックをスケジュールするには、Excel 2007 または互換パックがインストール済みである必要があります。Report Builder の 1 ライセンスあたり、最大で 10 件のワークブックをスケジュールできます。ただし、他のライセンスの最大件数を減らすことにより、最大件数を増やすことができます。これを行うには、//に移 **[!UICONTROL Admin]** 動し **[!UICONTROL Company Settings]** ます **[!UICONTROL Report Builder Reports]**。 スケジュールされた（またはワークブックライブラリにアップロードされた）ワークブックのうち、28 か月以上操作されていない（更新や置き換えをしていない）ワークブックは削除されます。
+>[!NOTE]
+>
+> ワークブックをスケジュールするには、Excel 2007 または互換パックがインストール済みである必要があります。Report Builder の 1 ライセンスあたり、最大で 10 件のワークブックをスケジュールできます。ただし、他のライセンスの最大件数を減らすことにより、最大件数を増やすことができます。これをおこなうには、**[!UICONTROL 管理者]**／**[!UICONTROL カンパニー設定]**／**[!UICONTROL Report Builder レポート]**&#x200B;に移動します。スケジュールされた（またはワークブックライブラリにアップロードされた）ワークブックのうち、28 か月以上操作されていない（更新や置き換えをしていない）ワークブックは削除されます。
 
->[!NOTE]ユーザーが入力した「配信時間」/「時刻」は、実際にワークブックを配信する時刻ではなく、ワークブックの処理を開始する時刻を指定します。ワークブックの実際の配信時間は主に、処理に要する時間に基づきます（複雑で大きなワークブックの場合は、単純なワークブックよりも処理に時間がかかります）。例えば、ワークブックの処理に　15分　かかる場合、実際の配信時間は、最初に指定した「配信時間」または「時刻」よりも　15　分以上後になります。
+>[!NOTE]
+>
+>ユーザーが入力した「配信時間」/「時刻」は、実際にワークブックを配信する時刻ではなく、ワークブックの処理を開始する時刻を指定します。ワークブックの実際の配信時間は主に、処理に要する時間に基づきます（複雑で大きなワークブックの場合は、単純なワークブックよりも処理に時間がかかります）。例えば、ワークブックの処理に　15分　かかる場合、実際の配信時間は、最初に指定した「配信時間」または「時刻」よりも　15　分以上後になります。
 >さらに、ワークブックが実際に配信される前に遅延がさらに長くなる要因がいくつかあります。
 >
 > * **同じタイプの異なる複数のスケジュールを同時に実行する**&#x200B;と、システムが過負荷になる場合があります。スケジュールシステムでは、あらゆるタイプのワークブックを数個（5 ～ 10 個）同時に実行できます。そのため、5 ～ 10 個を超えるワークブックを同時にスケジュール設定する場合、処理を開始する前に他のワークブックが完了するのを待つ必要があります。この問題は、同時ではなく、1 日を通じて時間をずらして会社のワークブックのスケジュールを設定することで軽減できます。
@@ -31,15 +38,15 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 ## ワークブックのスケジュール設定
 
 1. ワークブックを作成して保存します。
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
+1. Report Builder ツールバーで、「**[!UICONTROL スケジュール]**」をクリックします。
 
-   The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks.
-1. タブで、をク **[!UICONTROL Scheduled Reports]** リックしま **[!UICONTROL New]**&#x200B;す。
+   「[!UICONTROL 予定レポート]」タブでは、作成したすべてのタスクと残りのタスク数などの概要が表示されます。
+1. 「**[!UICONTROL 予定レポート]**」タブで、「**[!UICONTROL 新規作成]**」をクリックします。
 1. 基本のスケジュールウィザードに、次のように表示されます。
 
    ![](assets/simple-schedule-wizard.png)
 
-1. で、次のオ [!UICONTROL Basic Scheduling Wizard]プションを設定します。
+1. [!UICONTROL 基本のスケジュールウィザード]で、次のオプションを設定します。
 
 | フィールド | 説明 |
 |--- |--- |
@@ -55,7 +62,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 ## アドバンス配信オプション
 
-1. をクリック **[!UICONTROL Advanced Delivery Options]** して、ファイルおよび公開オプションを設定します。
+1. 「**[!UICONTROL アドバンス配信オプション]**」をクリックして、ファイルと発行のオプションを設定します。
 
 | フィールド | 説明 |
 |--- |--- |
@@ -72,7 +79,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Power BI への発行 | <ul><li>ワークブックを Power BI に発行する</li><li>すべての Report Builder リクエストを Power BI データセットテーブルとして発行</li><li>すべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行</li></ul> |
 | この Power BI レポートを次のようにラベル付けします。 | ラベルの詳細 |
 
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
+1. 「**[!UICONTROL OK]**」をクリックしてから、「**[!UICONTROL 終了]**」をクリックします。
 
    [スケジュールされたタスクマネージャー](/help/analyze/report-builder/r-arb-scheduled-reports.md)に予定ワークブックが表示されます。
 
