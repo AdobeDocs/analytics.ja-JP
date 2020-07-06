@@ -2,8 +2,11 @@
 description: 'null'
 title: ラベル設定の例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 | ラベル | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **変数名**<br>**（名前空間）** | **MyProp1**<br>**（ユーザー）** | **訪問者 ID**<br>**（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**（xyz）** |
+| **変数名&#x200B;**<br>**（名前空間）** | **MyProp1 **<br>**（ユーザー）** | **訪問者 ID **<br>**（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**（xyz）** |
 | ヒットデータ | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | いいえ | Y |
 |  | Mary | 99 | C | O | Z |
@@ -65,7 +68,9 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 | John | 55 | G | R | X |
 | Alice | 66 | A | いいえ | W |
 
->[!NOTE]AAID = 77 および DEL-DEVICE ラベルを含む行のセルのみが影響を受けます。
+>[!NOTE]
+>
+>AAID = 77 および DEL-DEVICE ラベルを含む行のセルのみが影響を受けます。
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -79,7 +84,9 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 | John | 55 | G | R | X |
 | Alice | 66 | A | いいえ | W |
 
->[!NOTE]user=Mary および DEL-PERSON ラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar で、その置き換える値は、数値を異なるランダムな数値で置き換えるのではなく、「Privacy-」で始まり、乱数（GUID）が続く文字列です。
+>[!NOTE]
+>
+>user=Mary および DEL-PERSON ラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar で、その置き換える値は、数値を異なるランダムな数値で置き換えるのではなく、「Privacy-」で始まり、乱数（GUID）が続く文字列です。
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
