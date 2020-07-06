@@ -4,7 +4,10 @@ title: 異常値検出
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * ビデオのバッファーイベントの下落
 * ビデオの低ビットレートの下落
 
->[!NOTE]異常値検出は、「日」の精度を選択した場合にのみ利用できます。
+>[!NOTE]
+>
+>異常値検出は、「日」の精度を選択した場合にのみ利用できます。
 
 <p class="head"> <b>異常値検出の指標</b> </p>
 
