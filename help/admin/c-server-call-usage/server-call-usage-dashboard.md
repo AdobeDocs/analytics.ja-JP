@@ -3,7 +3,10 @@ description: 'null'
 title: 現在のサーバーコールの使用状況の表示
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL サーバーコールの使用状況]**／**[!UICONTROL 現在の使用状況]**
 
->[!IMPORTANT]表示されるすべての使用数およびコミットメント数は、すべてのログイン会社とレポートスイートにわたって累積したものです。
+>[!IMPORTANT]
+>
+>表示されるすべての使用数およびコミットメント数は、すべてのログイン会社とレポートスイートにわたって累積したものです。
 
 現在の使用状況ダッシュボードは、以下のように動作します。
 
