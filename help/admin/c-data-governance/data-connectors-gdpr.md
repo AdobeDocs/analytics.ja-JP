@@ -2,8 +2,11 @@
 description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
 title: データプライバシーと Data Connectors（Genesis）
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 次のいずれかのコネクタの統合を使用している場合、統合のどのパートナー変数／分類が潜在的に個人を直接的または間接的に特定できるデータを含んでいる可能性があるかを簡単にチェックできます。
 
->[!NOTE]この情報は、[ラベル設定](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)が必要な変数を特定するのに役立ちますが、データコントローラーは、適切なラベルを適用したり、[データプライバシー対応状況](/help/admin/c-data-governance/an-gdpr-overview.md)（分類の更新など）に関するその他のアクションを実行したりする必要があります。
+>[!NOTE]
+>
+>この情報は、[ラベル設定](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)が必要な変数を特定するのに役立ちますが、データコントローラーは、適切なラベルを適用したり、[データプライバシー対応状況](/help/admin/c-data-governance/an-gdpr-overview.md)（分類の更新など）に関するその他のアクションを実行したりする必要があります。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
