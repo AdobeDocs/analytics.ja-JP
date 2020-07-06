@@ -3,7 +3,10 @@ description: Reports & Analytics のレポートメニューの概要を示し�
 title: レポートメニュー
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
@@ -23,21 +26,23 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 「お気に入り」、「頻繁に表示」、「レポート履歴」は、すべてレポートスイートに固有のものです。レポートスイートを変更すると、3 つのすべてのリストが更新されます。
 
-レポート間を移動するには、階層的なメニューを使用します。をク **[!UICONTROL View All Reports]**&#x200B;リックするか、スラッシュ(/)キーを押し、下向き矢印(?)キーを押します矢印キーを使用してメニューをすばやく表示および移動する場合。 現在のレポートを変更せずにメニューを閉じるには、Esc キーを押します。選択したレポートを読み込むには、Enter キーを押します。
+レポート間を移動するには、階層的なメニューを使用します。「**[!UICONTROL すべてのレポートを表示]**」をクリックするか、矢印キーを使用してメニューをすばやく表示して移動するには、/（フォワードスラッシュ）キーを押してから下向き矢印（↓）を押します。現在のレポートを変更せずにメニューを閉じるには、Esc キーを押します。選択したレポートを読み込むには、Enter キーを押します。
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-個々のレポートについて詳しくは、[レポートの説明](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)を参照してください。
+個々のレポートについて詳しくは、[レポートの説明](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/c-variables.html)を参照してください。
 
 ## レポートの検索 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-レポートメニューの検索対象は以前よりも拡張されました。Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. レポート検索は拡張されて、Analytics の左側のナビゲーション（管理者、コンポーネントなど）にあるすべてを対象として検索されるようになりました。
+レポートメニューの検索対象は以前よりも拡張されました。「**[!UICONTROL すべてのレポートを表示]**」をクリックするか、レポートをすばやく検索するには、/（フォワードススラッシュ）キーを押してから入力を開始します。レポート検索は拡張されて、Analytics の左側のナビゲーション（管理者、コンポーネントなど）にあるすべてを対象として検索されるようになりました。
 
 ![](assets/menu-search.png)
 
 Tab キーまたは下向き矢印（↓）を押してレポートのリストを移動できます。現在のレポートを変更せずに検索を閉じるには、Esc キーを押します。選択したレポートを読み込むには、Enter キーを押します。
 
->[!NOTE]レポートリストを prop、eVar、イベント番号でも検索できるようになりました。検索バーに prop、eVar またはイベント番号を入力してください。
+>[!NOTE]
+>
+>レポートリストを prop、eVar、イベント番号でも検索できるようになりました。検索バーに prop、eVar またはイベント番号を入力してください。
 
 ## ナビゲーション概要 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -118,4 +123,4 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
 
 ## すべてのレポートメニューのカスタマイズ {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)」を参照してください。
+管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/customize-menus.html)」を参照してください。
