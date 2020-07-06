@@ -1,21 +1,28 @@
 ---
 title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
 
 # オプトアウトリンクの実装
 
->[!IMPORTANT] 特に GDPR 規制への懸念がある組織では、オプトインサービスの使用をお勧めします。『Experience Cloud ID サービスユーザーガイド』の[オプトインサービスの概要](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/optin-overview.html)を参照してください。
+>[!IMPORTANT]
+>
+> 特に GDPR 規制への懸念がある組織では、オプトインサービスの使用をお勧めします。『Experience Cloud ID サービスユーザーガイド』の[オプトインサービスの概要](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/optin-overview.html)を参照してください。
 
 Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。アドビでは、Web サイトの訪問者が自分の情報が収集されないようにする機能を用意しています。この機能はすべての実装タイプに対応しています。組織は、自らのプライバシーポリシーに責任を持ち、署名済みの利用条件に従う責任を負うものとします。
 
 訪問者がオプトアウト URL にアクセスすると、オプトアウト Cookie のインストールを促すメッセージが表示されます。ユーザーが追跡を選択せず、オプトアウト Cookie が設定されている場合、JavaScript ファイルは引き続きアドビのサーバーにデータを送信します。ただし、そのデータは処理されず、レポートに含まれません。
 
->[!TIP] また、アドビでは、レポートスイートごとにプライバシー設定を提供しています。詳しくは、『管理者ユーザーガイド』の[プライバシー設定](../../admin/admin/privacy-settings.md)を参照してください。
+>[!TIP]
+>
+> また、アドビでは、レポートスイートごとにプライバシー設定を提供しています。詳しくは、『管理者ユーザーガイド』の[プライバシー設定](../../admin/admin/privacy-settings.md)を参照してください。
 
 ## オプトアウト URL
 
@@ -73,7 +80,9 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 例えば、`https://example.sc.omtrdc.net/optout.html?locale=ko_KR` は、オプトアウトページを韓国語で読み込みます。
 
->[!TIP] ページはデフォルトで英語で読み込まれるので、`en_US` クエリー文字列値は必須ではありません。
+>[!TIP]
+>
+> ページはデフォルトで英語で読み込まれるので、`en_US` クエリー文字列値は必須ではありません。
 
 ### ポップアップ
 
@@ -81,7 +90,9 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 例えば、`https://example.sc.omtrdc.net/optout.html?popup=1` は、「ウィンドウを閉じる」ボタンを含むオプトアウトページを読み込みます。
 
->[!NOTE] 歴史的に、このクエリー文字列パラメーターによって、ポップアップウィンドウが強制的に表示されました。ただし、ほとんどの最新のブラウザーは、エンドユーザーに対してポップアップの制御を提供します。
+>[!NOTE]
+>
+> 歴史的に、このクエリー文字列パラメーターによって、ポップアップウィンドウが強制的に表示されました。ただし、ほとんどの最新のブラウザーは、エンドユーザーに対してポップアップの制御を提供します。
 
 ### シングルクリックのオプトアウト
 
