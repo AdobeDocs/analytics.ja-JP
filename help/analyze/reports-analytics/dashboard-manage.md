@@ -5,7 +5,10 @@ title: ダッシュボードマネージャー
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 100%
 
 ---
 
@@ -22,13 +25,13 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ダッシュボードマネージャーを使用して、ダッシュボードのコピー、共有、アーカイブ、および配信スケジュールの設定を行います。
 
-Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+**[!UICONTROL 分析]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ダッシュボード]**&#x200B;をクリックします。
 
 | 要素 | 説明 |
 |--- |--- |
 | 共有 | ダッシュボードが共有されているかどうかを示します。 |
 | スケジュール済み | ダッシュボードの配信スケジュールを設定できます。 |
-| 保存レポートを閲覧 | この機能は使用できなくなりました。 |
+| 保存レポートを閲覧 | この機能はご利用になれません。 |
 | 閲覧ユーザーを選択 | ダッシュボードを共有できます。 |
 | 管理 | ダッシュボードを編集、コピー、削除できます。 |
 
@@ -36,8 +39,8 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
 
 共有ダッシュボードの管理オプションの使い方を説明します。
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
-1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
+1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ダッシュボード]**&#x200B;に移動します。
+1. 「[!UICONTROL 共有ダッシュボード]」で、管理する共有ダッシュボード（またはレガシーダッシュボード）を探し、次のオプションを 1 つ以上選択します。
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
@@ -46,7 +49,7 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
  </thead> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>保存レポートを閲覧</strong></td> 
-  <td class="chdesc stentry"> この機能は使用できなくなりました。 </td> 
+  <td class="chdesc stentry"> この機能はご利用になれません。 </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>ダッシュボードプレイヤー</strong></td> 
@@ -70,16 +73,20 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
 
 既存のレガシーダッシュボードを引き続き実行し、編集、ダウンロードおよびスケジュールを行うこともできますが、レガシーダッシュボードを新規作成することはできません。必要なユーザーアクション：既存のレガシーダッシュボードを新しいダッシュボードフォーマットにアップグレードすることを強くお勧めします。
 
->[!NOTE]今後は、[Analysis Workspace プロジェクト](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)とダウンロードおよびスケジュール機能の使用を検討してください。
+>[!NOTE]
+>
+>今後は、[Analysis Workspace プロジェクト](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html)とダウンロードおよびスケジュール機能の使用を検討してください。
 
 レガシーダッシュボードをコピーすると、編集用のレガシーダッシュボードが表示され、レガシーコンテンツまたは新しいコンテンツを追加できます。レガシーダッシュボードをコピーしても、元のレガシーダッシュボードはレガシーダッシュボードのリストに保持されます。
 
->[!NOTE]レガシーコンテンツをダッシュボードに追加すると、最新のダッシュボードの機能に基づいてダッシュボードが作成されます。ただし、レガシーレポートレットには以前のデータプラットフォームに基づくデータが含まれている可能性があります。
+>[!NOTE]
+>
+>レガシーコンテンツをダッシュボードに追加すると、最新のダッシュボードの機能に基づいてダッシュボードが作成されます。ただし、レガシーレポートレットには以前のデータプラットフォームに基づくデータが含まれている可能性があります。
 
 **バージョン 14.x のレガシーダッシュボードを移行するには**
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. 列の [!UICONTROL Manage] 下のをクリック [!UICONTROL Legacy Dashboards]し **[!UICONTROL Copy to New Dashboard]**&#x200B;ます。
+1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ダッシュボードの管理]**&#x200B;をクリックします。
+1. 「[!UICONTROL 管理]」列で、「[!UICONTROL レガシーダッシュボード]」の「**[!UICONTROL 新しいダッシュボードにコピー]**」をクリックします。
 
    コピーされたダッシュボードがダッシュボードレイアウトエディターで開かれます。
 
@@ -87,34 +94,36 @@ Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL D
 
 ## ダッシュボードの共有
 
-管理者がダッシュボードを複数のユーザーと共有（またはプッシュ）する手順を説明します。When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
+管理者がダッシュボードを複数のユーザーと共有（またはプッシュ）する手順を説明します。ダッシュボードの閲覧ユーザーを選択すると、ダッシュボードはそのユーザーの[!UICONTROL 共有ダッシュボード]メニューで使用可能になります。
 
-1. で、ダッシュボード [!UICONTROL Dashboard Manager]を探して有効にし **[!UICONTROL Shared]**&#x200B;ます。
-1. クリック **[!UICONTROL Push To Users]**.  ![](assets/push.png)
+1. [!UICONTROL ダッシュボードマネージャー]で、ダッシュボードを検索して「**[!UICONTROL 共有]**」を有効にします。
+1. 「**[!UICONTROL 閲覧ユーザーを選択]**」![](assets/push.png)をクリックします。
 
-1. ページで、ターゲット [!UICONTROL Push Dashboard] ユーザーを選択するか、をクリックし **[!UICONTROL Check All]**&#x200B;ます。
-1. クリック **[!UICONTROL Save]**.
+1. [!UICONTROL ダッシュボードを表示]ページで、対象ユーザーを選択するか「**[!UICONTROL 全てにチェックを記入する]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. 選択している場合、そのユーザーには更新／変更が表示されません。To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager.
+ダッシュボードへの変更がそのダッシュボードを共有されているユーザーに表示されない場合は、そのユーザーが「**[!UICONTROL コピー]**」オプションを選択しているかどうかをダッシュボードマネージャーで確認してください。選択している場合、そのユーザーには更新／変更が表示されません。すべての変更／更新を表示するには、ダッシュボードマネージャーの「**[!UICONTROL メニュー]**」オプションを選択する必要があります。
 
 ## ダッシュボードの配信スケジュールの設定
 
-In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. ダッシュボードの配信オプションは、レポート配信オプションと同じです。
+[!UICONTROL ダッシュボードマネージャー]で、ダッシュボードの配信スケジュールが設定されているかどうかを確認したり、スケジュールを編集したりできます。ダッシュボードの配信オプションは、レポート配信オプションと同じです。
 
 1. ダッシュボードを開きます。
-1. クリック **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. **[!UICONTROL その他]**／**[!UICONTROL 送信]**&#x200B;をクリックします。
 
    詳細については、「[スケジュールと配信](/help/analyze/reports-analytics/scheduling.md)」を参照してください。
 
 ## ダッシュボードのアーカイブ
 
->[!NOTE] この機能は、2020 年 1 月にはご利用いただけなくなります。
+>[!NOTE]
+>
+>この機能は、2020 年 1 月にはご利用いただけなくなります。
 
 送信したダッシュボードを PDF ファイルとしてアーカイブする手順を説明します。アーカイブされたファイルは 2 年間または最大 4 GB に達するまで（いずれか短い期間）保存されます。
 
 1. ダッシュボードを開きます。
-1. クリック **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. グループ内で、 [!UICONTROL Email Report] を有効にし **[!UICONTROL Archive]**&#x200B;ます。
-1. Specify delivery options, then click **[!UICONTROL Send]**.
+1. **[!UICONTROL その他]**／**[!UICONTROL 送信]**&#x200B;をクリックします。
+1. 「[!UICONTROL 電子メールレポート]」グループの「**[!UICONTROL アーカイブ]**」を有効にします。
+1.  配信オプションを指定して、「**[!UICONTROL 送信]**」をクリックします。
 
-   ダッシュボードマネージャーでアーカイブされたダッシュボードを表示できます。または、ダッシュボードを開いて **[!UICONTROL More]** >をクリックし **[!UICONTROL View Archive]**&#x200B;ます。
+   ダッシュボードマネージャーでアーカイブされたダッシュボードを表示できます。または、ダッシュボードを開いて&#x200B;**[!UICONTROL その他]**／**[!UICONTROL 保存レポートを閲覧]**&#x200B;をクリックします。
