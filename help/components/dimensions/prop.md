@@ -2,7 +2,7 @@
 title: prop
 description: レポートで使用できるカスタムディメンション。
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 26%
@@ -12,11 +12,13 @@ ht-degree: 26%
 
 # prop
 
-*このヘルプページでは、propがディメンションとして機能する方法を説明します。 propの実装方法について詳しくは、『実装ユーザーガイド[](/help/implement/vars/page-vars/prop.md)』のpropsを参照してください。*
+*このヘルプページでは、propがディメンションとして機能する方法を説明します。 For information on how to implement props, see[props](/help/implement/vars/page-vars/prop.md)in the Implement user guide.*
 
 Prop は、好きなだけ使用できるカスタム変数です。設定されたヒットを超えては持続しません。
 
-> [!TIP][ ほとんどの場合、eVar の使用をお勧めします。](evar.md)以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、アドビでは eVar を改善し、prop のほとんどすべての使用例を満たすようにしました。
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. 以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、アドビでは eVar を改善し、prop のほとんどすべての使用例を満たすようにしました。
 
 ソリューションデザイン [ドキュメントがある場合](/help/implement/prepare/solution-design.md)、これらのカスタムディメンションを組織に固有の値に割り当てることができます。 使用可能なpropの数は、アドビとの契約によって異なります。 アドビとの契約でサポートされている場合は、最大75個のpropを使用できます。
 
