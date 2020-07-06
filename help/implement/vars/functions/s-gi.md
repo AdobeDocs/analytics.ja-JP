@@ -1,8 +1,11 @@
 ---
 title: s_gi()
 description: AppMeasurement のインスタンスを作成し、追跡します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ Analytics 拡張機能により、追跡オブジェクトがインスタンス�
 
 `s_gi()` 関数を呼び出して、トラッキングオブジェクトをインスタンス化します。その唯一の引数には、レポートスイート ID のコンマ区切り文字列が含まれます。レポートスイート ID 引数は必須です。
 
->[!TIP] `s` 変数は、トラッキングオブジェクトとして使用することをお勧めします。ドキュメント、実装例およびプラグインでは `s` を使用していますが、サイト全体で一貫性がある限り、任意の変数を使用できます。
+>[!TIP]
+>
+> `s` 変数は、トラッキングオブジェクトとして使用することをお勧めします。ドキュメント、実装例およびプラグインでは `s` を使用していますが、サイト全体で一貫性がある限り、任意の変数を使用できます。
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +41,9 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
->[!CAUTION] 以下の節と例では、複雑な実装に関するトピックを紹介します。実装を十分にテストし、組織の[ソリューションデザインドキュメント](../../prepare/solution-design.md)に重要なカスタマイズを追跡します。
+>[!CAUTION]
+>
+> 以下の節と例では、複雑な実装に関するトピックを紹介します。実装を十分にテストし、組織の[ソリューションデザインドキュメント](../../prepare/solution-design.md)に重要なカスタマイズを追跡します。
 
 ## 異なるトラッキングオブジェクトを使用した複数の実装の管理
 
