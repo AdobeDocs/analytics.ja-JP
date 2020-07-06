@@ -2,7 +2,7 @@
 title: バウンス
 description: ヒットが1つだけある訪問の数。
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -18,4 +18,6 @@ ht-degree: 1%
 
 1回の訪問が1回のヒットで構成される場合、そのヒットはバウンスと見なされます。
 
->[!NOTE] 訪問者がページ表示とリンクトラッキングコールの両方を実行した場合、その訪問はバウンスと見なされません。 代わりに、 [直帰数を使用することを検討](single-page-visits.md) 。
+>[!NOTE]
+>
+>訪問者がページ表示とリンクトラッキングコールの両方を実行した場合、その訪問はバウンスと見なされません。 代わりに、 [直帰数を使用することを検討](single-page-visits.md) 。
