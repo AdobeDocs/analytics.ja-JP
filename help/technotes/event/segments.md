@@ -1,13 +1,16 @@
 ---
-title: 分析内の特定の日付の除外
+title: 分析内の特定の日付を除外する
 description: レポートに含めたくない場合の日付や日付範囲の除外に関するヒントです。
 translation-type: tm+mt
-source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 2%
 
 ---
 
 
-# 分析内の特定の日付の除外
+# 分析内の特定の日付を除外する
 
 イベントの [影響を受けるデータがある場合](overview.md)、セグメントを使用して、レポートに含めたくない日付範囲を除外できます。 イベントの影響を受ける日付をセグメント化すると、部分的なデータに関する意思決定を行うのを防ぐのに役立ちます。
 
@@ -15,7 +18,7 @@ source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 影響を受ける日付または日付範囲を分離するセグメントを作成します。 このセグメントは、問題のある日のみに焦点を当てて、影響に関する詳細を確認する場合に役立ちます。
 
-1. セグメントビルダーを開きます。開くには、/に移動し **[!UICONTROL Components]** て、 **[!UICONTROL Segments]**&#x200B;をクリックし **[!UICONTROL Add]**&#x200B;ます。
+1. セグメントビルダーを開くには、 **[!UICONTROL コンポーネント]** / **[!UICONTROL セグメント]**&#x200B;に移動し、 ****&#x200B;追加をクリックします。
 2. 「日」ディメンションを定義キャンバスにドラッグし、分離したい日と同じに設定します。
 3. レポート内で分離したい日について、上記の手順を繰り返します。
 
@@ -29,8 +32,8 @@ source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 影響を受ける日付または日付範囲を除外するセグメントを作成します。 このセグメントは、問題が発生した日を除外して、全体的なレポートへの影響を最小限に抑えたい場合に役立ちます。
 
-1. セグメントビルダーを開きます。開くには、/に移動し **[!UICONTROL Components]** て、 **[!UICONTROL Segments]**&#x200B;をクリックし **[!UICONTROL Add]**&#x200B;ます。
-2. セグメント定義キャンバスの右上で、 **[!UICONTROL Options]** /をクリックし **[!UICONTROL Exclude]**&#x200B;ます。
+1. セグメントビルダーを開くには、 **[!UICONTROL コンポーネント]** / **[!UICONTROL セグメント]**&#x200B;に移動し、 ****&#x200B;追加をクリックします。
+2. セグメント定義キャンバスの右上で、 **[!UICONTROL オプション]** / **[!UICONTROL 除外をクリックします]**。
 3. 「日」ディメンションを定義キャンバスにドラッグし、削除する日と同じに設定します。
 4. レポートから削除する日ごとに、上記の手順を繰り返します。
 
@@ -46,11 +49,11 @@ source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 ![両方のセグメント](assets/affected_and_exclude.png)
 
-テーブルまたはビジュアライゼーションにゼロを表示しない（下降の原因となる）場合は、列設定の **[!UICONTROL Interpret zero as no value]** 下のを有効にします。
+テーブルまたはビジュアライゼーションにゼロを表示しない（dipsを引き起こす）場合は、列設定の下の「0を値なしとして **[!UICONTROL 解釈]** 」を有効にします。
 
 ![ゼロを解釈](assets/interpret_zero.png)
 
-テーブルまたはビジュアライゼーションにゼロを表示しない（下降の原因となる）場合は、列設定の **[!UICONTROL Interpret zero as no value]** 下のを有効にします。
+テーブルまたはビジュアライゼーションにゼロを表示しない（dipsを引き起こす）場合は、列設定の下の「0を値なしとして **[!UICONTROL 解釈]** 」を有効にします。
 
 ![ゼロを解釈](assets/interpret_zero.png)
 
@@ -58,7 +61,9 @@ source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 「影響を受ける日数を除外」セグメントをWorkspaceプロジェクトに適用できます。 除外セグメントを[ここにセグメントを *ドロップする*]というラベルの付いた[ワークスペース]キャンバスセクションにドラッグします。
 
->[!TIP] 除外されたデータに関するメモをパネルの説明に含めると、レポートを表示しやすくなります。 パネルのタイトルを右クリックし、をクリックし **[!UICONTROL Edit description]**&#x200B;ます。
+>[!TIP]
+>
+>除外されたデータに関するメモをパネルの説明に含めると、レポートを表示しやすくなります。 パネルのタイトルを右クリックし、「説明を **[!UICONTROL 編集]**」をクリックします。
 
 ![セグメントをパネルに適用](assets/exclude_segment_panel.jpg)
 
@@ -66,10 +71,10 @@ source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 このセグメントを [仮想レポートスイートで使用すると](/help/components/vrs/vrs-about.md) 、データをより便利に除外できます。 このオプションは、影響を受ける日付範囲を含む各レポートに対してセグメントを適用する必要がない点に最適です。 既に仮想レポートスイートを主要なデータソースとして使用している場合は、既存のVRSにセグメントを追加できます。
 
-1. /に移動し **[!UICONTROL Components]** ま **[!UICONTROL Virtual report suites]**&#x200B;す。
-2. クリック **[!UICONTROL Add]**.
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
+2. 「**[!UICONTROL 追加]**」をクリックします。
 3. 目的の仮想レポートスイートの名前と説明を入力します。
-4. 除外セグメントをラベル付きの領域にドラッグし **[!UICONTROL Add segment]**&#x200B;ます。
-5. 右上 **[!UICONTROL Continue]** のをクリックし、をクリックし **[!UICONTROL Save]**&#x200B;ます。
+4. 除外セグメントをセグメントとラベル付けされた領域 ****&#x200B;追加にドラッグします。
+5. 右上の **[!UICONTROL 「]** 続行 **[!UICONTROL 」をクリックし、「]**&#x200B;保存」をクリックします。
 
 ![VRSに適用したセグメント](assets/exclude_segment_vrs.png)
