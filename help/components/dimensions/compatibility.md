@@ -2,7 +2,7 @@
 title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -14,15 +14,19 @@ ht-degree: 92%
 
 このページリストのディメンションは、それぞれのAnalytics機能でサポートされています。
 
->[!NOTE] カスタム変数名、分類、訪問者属性は、このリストには含まれません。 これらのディメンション値は、個々のレポートスイートに固有の値です。
+>[!NOTE]
+>
+>カスタム変数名、分類、訪問者属性は、このリストには含まれません。 これらのディメンション値は、個々のレポートスイートに固有の値です。
 
->[!NOTE] Analyticsツールで類似のディメンションに異なる用語が使用される場合は、一部の重複があります。 例えば、Reports &amp; Analyticsではを使用し、 `browserwidth` 分析ワークスペースではを使用 `browserwidthbucketed`します。
+>[!NOTE]
+>
+>Analyticsのツールで、類似した寸法に異なる用語が使用されている場合は、重なりがあります。 例えば、Reports &amp; Serverはを使用し、Analysis Workspaceは `browserwidth` を使用 `browserwidthbucketed`します。
 
 ## Reports &amp; Analytics と Analysis Workspace の両方でサポートされているディメンション
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |---|---|
-| Target 用 Analytics | `targetraw` |
+| Analytics for Target | `targetraw` |
 | オーディエンス ID | `mcaudiences` |
 | ブラウザー | `browser` |
 | ブラウザーのタイプ | `browsertype` |
@@ -71,8 +75,8 @@ ht-degree: 92%
 | オリジナルの参照ドメイン | `referringdomainoriginal` |
 | ページ | `page` |
 | エラーページ (404) | `pagesnotfound` |
-| 製品 | `product` |
-| Referrer | `referrer` |
+| 製品          | `product` |
+| リファラー | `referrer` |
 | リファラータイプ | `referrertype` |
 | 参照ドメイン | `referringdomain` |
 | 地域 | `georegion` |
