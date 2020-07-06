@@ -2,7 +2,7 @@
 title: eVar（マーチャンダイジング）
 description: 個々の製品に関連付けられるカスタム変数。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 29%
@@ -12,13 +12,15 @@ ht-degree: 29%
 
 # eVar（マーチャンダイジング）
 
-*このヘルプページでは、マーチャンダイジングeVarを実装する方法について説明します。 マーチャンダイジングeVarがディメンションとして機能する方法について詳しくは、コンポーネントユーザーガイドのeVar（マーチャンダイジング）[](/help/components/dimensions/evar-merchandising.md)を参照してください。*
+*このヘルプページでは、マーチャンダイジングeVarを実装する方法について説明します。 For information on how merchandising eVars work as a dimension, see[eVars (Merchandising)](/help/components/dimensions/evar-merchandising.md)in the Components user guide.*
 
 ## レポートスイート設定での eVar の設定
 
 実装でeVarを使用する前に、レポートスイートの設定でeVarを目的の構文に設定してください。 詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
->[!IMPORTANT] マーチャンダイジングeVarを正しく設定しないと、変数の予期しない値やデータ損失が発生します。 お使いの実装に合わせて正しく設定されていることを確認します。
+>[!IMPORTANT]
+>
+>マーチャンダイジングeVarを正しく設定しないと、変数の予期しない値やデータ損失が発生します。 お使いの実装に合わせて正しく設定されていることを確認します。
 
 ## 製品の構文を使用した実装
 
@@ -52,7 +54,7 @@ s.events = "prodView";
 s.products = "Birds;Canary";
 ```
 
-の値 `"Aviary"` が製品に割り当 `eVar1` てられ `"Canary"`ます。 この商品に関連する以降の成功イベントはすべて、にクレジットが付与され `"Canary"`ます。 さらに、以下のどちらかの条件が満たされるまで、マーチャンダイジング変数の現在の値が以後のすべての製品に結び付けられます。
+の値 `"Aviary"` が製品に割り当 `eVar1` てられ `"Canary"`ます。 この商品に関連する以降の成功イベントのクレジットはすべてに付与され `"Canary"`ます。 さらに、以下のどちらかの条件が満たされるまで、マーチャンダイジング変数の現在の値が以後のすべての製品に結び付けられます。
 
 * eVarの有効期限が切れる（「有効期限」の設定に基づきます）。
 * マーチャンダイジング eVar が新しい値で上書きされる。
