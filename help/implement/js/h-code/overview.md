@@ -1,25 +1,33 @@
 ---
 title: H コード JavaScript 実装の概要
 description: サイトで H コードを実装するためのワークフローについて説明します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
 
 # H コード JavaScript 実装の概要
 
->[!IMPORTANT] このバージョンのデータ収集はサポートされなくなりました。[Adobe Experience Platform Launch](../../launch/overview.md) または [JavaScript 版 AppMeasurement](../overview.md) にアップグレードします。
+>[!IMPORTANT]
+>
+> このバージョンのデータ収集はサポートされなくなりました。[Adobe Experience Platform Launch](../../launch/overview.md) または [JavaScript 版 AppMeasurement](../overview.md) にアップグレードします。
 
 データを収集するコードを含むページを正しく実装するには、ホストサーバーにアクセスできる必要があります。以下の手順で、Analytics の基本的な H コード実装方法を説明します。
 
->[!NOTE] これらの手順に従うには、`s_code.js` のコピーが既存する必要があります。アドビでは、Code Manager で H コードをダウンロードするオプションを提供しなくなりました。
+>[!NOTE]
+>
+> これらの手順に従うには、`s_code.js` のコピーが既存する必要があります。アドビでは、Code Manager で H コードをダウンロードするオプションを提供しなくなりました。
 
 1. **コア JS ファイル変数の更新**：`s_code.js` ファイルを編集し、次の変数が更新されていることを確認します。
    * `s_account` には、データの送信先のレポートスイート ID が含まれます。詳しくは、
    * `s.trackingServer` には、Cookie が保存されている場所が含まれます。[trackingServer](../../vars/config-vars/trackingserver.md) を参照してください。
 2. **サイトで`s_code.js`ファイルをホストします**：このファイルは、通常、Web サーバー上で他のスクリプトと共に存在します。
 3. **すべてのページで`s_code.js`を参照します**：すべての個々のページでコア JavaScript ファイルが呼び出されていることを確認します。呼び出しは、HTML `<body>` タグ内（`<head>` タグではなく）で実行します。
+
    > [!TIP] H コードでは、`s_code.js` スクリプトを `<body>` タグ内で呼び出す必要があります。他のほとんどの実装方法ではスクリプト参照は `<head>` タグ内に必要となりますが、この実装方法は異なります。
 4. **各ページでページ固有の変数を定義します**：各ページには、ページ名や eVar など、個々の変数を定義する必要があります。個々の変数は、通常、各ページのインライン `<script>` タグで定義されます。
 5. **デバッガーを使用して、データ収集を検証します**：[Experience Cloud デバッガー](../../validate/debugger.md)をダウンロードしてインストールし、データがアドビに送信され、ページ変数が正しく定義されていることを確認します。
