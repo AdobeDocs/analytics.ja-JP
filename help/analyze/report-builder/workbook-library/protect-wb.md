@@ -4,7 +4,10 @@ title: ワークブックのロック／ロック解除
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 アナリストは、ワークブックをロックすることによって、組織内の他のユーザーがワークブックリクエストを変更できないように保護できます。ただし、他のユーザーはワークブックのデータを更新することは可能です。
 
-To protect a workbook against editing, click **[!UICONTROL Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)
+ワークブックが編集されないように保護するには、Report Builder ツールバーの「**[!UICONTROL ロック済み]**」（![](assets/locked_icon.png)
 
 ）をクリックします。
 
-To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+ワークブックの保護を解除するには、「**[!UICONTROL ロック解除]**」（![](assets/unlocked_icon.png)
 
 ）をクリックします。
 
@@ -28,7 +31,9 @@ To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_i
 * 管理者である場合。
 * ワークブックを最初にロックしたユーザーである場合。この場合は、管理者である必要はありません。
 
->[!NOTE]ワークブックのロックを解除する権限を持っていない場合は、保護されたワークブックにリクエストを追加できません。
+>[!NOTE]
+>
+>ワークブックのロックを解除する権限を持っていない場合は、保護されたワークブックにリクエストを追加できません。
 
 ワークブックがロックされてリクエストの編集ができない場合、ユーザーの操作が次のように制限されます。
 
@@ -39,7 +44,7 @@ To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_i
 * ユーザーは、リクエストを個別に更新したり、グループの一部として更新したりできます。
 * リクエストで、セルの入力値（日付範囲、セグメント、フィルター）が使用されている場合、ユーザーは、セル内でこれらの値を変更でき、これらを更新することでリクエストを間接的に編集できます。
 
-If you try to edit a protected workbook (through the context menu, or **[!UICONTROL Request Manager]**, or **[!UICONTROL Edit Multiple Requests]**), you may or may not be allowed to do so:
+保護されているワークブックの編集を（コンテキストメニュー、**[!UICONTROL リクエストマネージャー]**、**[!UICONTROL 複数のリクエストを編集]**&#x200B;を使用して）試みた場合、編集できるかどうかは権限に応じて次のように決定されます。
 
 * リクエストのロックを解除する権限を持っていない場合は、次のプロンプトダイアログが表示されます。
 
