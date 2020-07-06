@@ -3,7 +3,10 @@ description: 'null'
 title: アラートビルダー
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 いつ指標がチェックされるかを、1 時間ごと、毎日、毎週または毎月から指定します。
 
->[!NOTE]カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度をサポートしません。
+>[!NOTE]
+>
+>カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度をサポートしません。
 
 **受信者**
 
