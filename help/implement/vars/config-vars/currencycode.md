@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 90%
@@ -20,7 +20,9 @@ ht-degree: 90%
 
 `currencyCode` が定義され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。アドビは [XE](https://xe.com) と提携し、毎日通貨を換算します。データ収集サーバーに保存される値は、最終的にはレポートスイートの通貨で保存されます。
 
->[!IMPORTANT] `currencyCode` に無効な値が含まれる場合、ヒット全体が破棄され、データが失われます。実装でこの変数を使用する場合は、この変数が正しく定義されていることを確認します。
+>[!IMPORTANT]
+>
+> `currencyCode` に無効な値が含まれる場合、ヒット全体が破棄され、データが失われます。実装でこの変数を使用する場合は、この変数が正しく定義されていることを確認します。
 
 この変数は、ヒット間で保持されません。この変数が売上高または通貨イベントを含むすべてのページで定義されていることを確認してください。
 
@@ -35,12 +37,12 @@ ht-degree: 90%
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
-## Adobe Experience Platform Mobile SDKの通貨コード
+## Adobe Experience PlatformモバイルSDKの通貨コード
 
-通貨コードは、Adobe Analytics Extensionのコンテキストデータ変数を通じてAdobe Experience Platform Mobile SDKに渡されます。
+Adobe Experience Platformコードは、AdobeAnalytics拡張機能のコンテキストデータ変数を通じて通貨モバイルSDKに渡されます。
 
 1. またはのいずれかの時点で、コンテキストデータ変数に通貨コードを設定 `trackState` し `trackAction`ます。
-2. Adobe Analytics管理コンソールで、レポートスイート用の処理ルールを作成します。 通貨コード変数を上書きするルールを設定します。
+2. アドビのAnalytics管理コンソールで、レポートスイート用の処理ルールを作成します。 通貨コード変数を上書きするルールを設定します。
 3. またはの呼び出しで、通貨コードを `products` 変数に渡し `trackState` ま `trackAction`す。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
