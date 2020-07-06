@@ -4,8 +4,11 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: 計算指標
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 データフィードを使用して一般的な指標を計算する方法について説明します。
 
->[!IMPORTANT]通常、Adobe Analytics から除外されたヒットは、データフィードに含まれます。除外されたヒットを、生データに関するクエリから削除する場合には、`exclude_hit > 0` を使用します。データフィードには、データソースのデータも含まれます。データソースを除外する場合は、`hit_source = 5,7,8,9` を使用してすべての行を除外します。
+>[!IMPORTANT]
+>
+>通常、Adobe Analytics から除外されたヒットは、データフィードに含まれます。除外されたヒットを、生データに関するクエリから削除する場合には、`exclude_hit > 0` を使用します。データフィードには、データソースのデータも含まれます。データソースを除外する場合は、`hit_source = 5,7,8,9` を使用してすべての行を除外します。
 
 ## ページビュー
 
@@ -25,7 +30,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. `post_visid_high`、`post_visid_low`、`visit_num`、および `visit_start_time_gmt` を連結します。
 1. 一意の値の数をカウントします。
 
->[!NOTE]インターネットの不規則性やシステムの不規則性、またはカスタム訪問者 ID の使用によって、別の訪問時に同じ `visit_num` 値を使用することはほとんどありません。訪問をカウントする際には `visit_start_time_gmt` を使用して、これらの訪問が確実にカウントされるようにします。
+>[!NOTE]
+>
+>インターネットの不規則性やシステムの不規則性、またはカスタム訪問者 ID の使用によって、別の訪問時に同じ `visit_num` 値を使用することはほとんどありません。訪問をカウントする際には `visit_start_time_gmt` を使用して、これらの訪問が確実にカウントされるようにします。
 
 ## 訪問者
 
