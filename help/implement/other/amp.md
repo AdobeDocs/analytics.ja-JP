@@ -2,7 +2,10 @@
 title: AMP を使用した実装
 description: AMP ページへの Adobe Analytics の実装
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 
 組織内で長所と短所を考慮して、使用する方法を決定します。サンプルコードについては、アドビ GitHub リポジトリーの[ AMP サンプル](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web)を参照してください。
 
->[!WARNING] AMP を使用している同じページで、`"adobeanalytics"` テンプレートと `"adobeanalytics_nativeConfig"` テンプレートの両方を使用しないでください。両方を使用すると、ブラウザーコンソールでエラーが発生し、訪問者が二重にカウントされる可能性があります。
+>[!WARNING]
+>
+> AMP を使用している同じページで、`"adobeanalytics"` テンプレートと `"adobeanalytics_nativeConfig"` テンプレートの両方を使用しないでください。両方を使用すると、ブラウザーコンソールでエラーが発生し、訪問者が二重にカウントされる可能性があります。
 
 ## メソッド 1：amp-analytics タグと「adobeanalytics」テンプレートの使用
 
@@ -77,11 +82,15 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 
 さらに、`amp-analytics` は、認識しているデータ値を AMP が提供できるように、多くの変数の置換をサポートします。詳しくは、GitHub の [amp-analytics でサポートされる変数](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md)を参照してください。
 
->[!NOTE] この方法を使用してアドビに送信されるイメージリクエストには、多くのデフォルトレポート（例えば、ブラウザー、画面サイズ、リファラー）のデータは含まれません。この情報をヒットに含める場合は、これらの情報がイメージリクエストクエリー文字列の一部として含まれていることを確認します。詳しくは、[データ収集クエリーのパラメーター](../validate/query-parameters.md)を参照してください。
+>[!NOTE]
+>
+> この方法を使用してアドビに送信されるイメージリクエストには、多くのデフォルトレポート（例えば、ブラウザー、画面サイズ、リファラー）のデータは含まれません。この情報をヒットに含める場合は、これらの情報がイメージリクエストクエリー文字列の一部として含まれていることを確認します。詳しくは、[データ収集クエリーのパラメーター](../validate/query-parameters.md)を参照してください。
 
 アドビは、組み込みの AMP 関数を使用して訪問者を識別し、`adobe_amp_id` Cookie を設定します。この訪問者 ID は、Adobe Analytics によって設定された他の ID（例えば、「`s_vi`」Cookie）と一意です。Adobe Experience Cloud ID サービスは、この実装方法ではサポートされていません。
 
->[!NOTE] AMP は、CDN を使用してコンテンツを配信します。訪問者がコンテンツを取得する CDN ごとに異なる個別訪問者をカウントするように構造化されているので、個別訪問者数が水増しされる可能性があります。
+>[!NOTE]
+>
+> AMP は、CDN を使用してコンテンツを配信します。訪問者がコンテンツを取得する CDN ごとに異なる個別訪問者をカウントするように構造化されているので、個別訪問者数が水増しされる可能性があります。
 
 AMP が個別訪問者を識別する方法を考慮して、AMP ページに対して別のレポートスイートを使用することをお勧めします。
 
@@ -147,7 +156,9 @@ Web サーバーでホストする HTML ページも必要です。
 
 また、`"adobeanalytics_nativeConfig"` テンプレートも、amp-analytics タグの `extraUrlParams` セクションにリストされた変数に基づいて、クエリー文字列パラメーターを追加します。上記の例では、`pageName` パラメーターと `v1` パラメーターが含まれます。
 
->[!IMPORTANT] `stats.html` ページは、AMP 自体がホストされるドメインとは別のサブドメインでホストされる必要があります。AMP フレームワークは、AMP ページ自体が存在するのと同じサブドメインからの iframes を許可しません。例えば、AMP が `amp.example.com` でホストされている場合は、`stats.html` ページを `ampmetrics.example.com` などの別のサブドメインでホストします。
+>[!IMPORTANT]
+>
+> `stats.html` ページは、AMP 自体がホストされるドメインとは別のサブドメインでホストされる必要があります。AMP フレームワークは、AMP ページ自体が存在するのと同じサブドメインからの iframes を許可しません。例えば、AMP が `amp.example.com` でホストされている場合は、`stats.html` ページを `ampmetrics.example.com` などの別のサブドメインでホストします。
 
 この方法を使用すると、ユーザーがプライマリサイトのトラッキングをオプトアウトした場合、すべての AMP のトラッキングもオプトアウトされます。また、このユーティリティページを使用すると、AMP は Adobe Experience Cloud ID サービスをサポートできます。別のレポートスイートは必要ありません。
 
