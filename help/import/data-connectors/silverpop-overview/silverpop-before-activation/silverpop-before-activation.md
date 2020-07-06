@@ -3,7 +3,10 @@ description: この統合をアクティブ化する前に、Adobe Analytics® �
 title: この統合をアクティブ化する前に
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * **有効な Silverpop アカウント：** Data Connectors 電子メール統合を使用するには、電子メールが有効となっているアクティブな Silverpop アカウントと、アクティブなユーザー資格情報をクライアントが持っている必要があります。
 * **Silverpop の担当者にお問い合わせください**。この統合は、Silverpop では自動的には有効になりません。Analytics からデータの読み込みや書き出しをおこなう前に、Silverpop の担当者に連絡して Silverpop の設定を開始する必要があります。
 
->[!NOTE]この統合は、Engage 管理組織（Transact ではない）でのみ機能します。
+>[!NOTE]
+>
+>この統合は、Engage 管理組織（Transact ではない）でのみ機能します。
 
 ## 価格 {#pricing}
 
