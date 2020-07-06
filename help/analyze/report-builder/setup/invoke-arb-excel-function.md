@@ -4,7 +4,10 @@ title: Microsoft Excel の関数からの Report Builder 機能の呼び出し
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +18,9 @@ Report Builder のユーザーインターフェイスにアクセスするこ�
 
 例えば、Excel 内で他のソースから取得されたデータに基づいて入力フィルターを適用する Report Builder リクエストを自動的に更新することができます。このような処理を、string RefreshRequestsInCellsRange(..)関数を使用して実行できます。すべての呼び出しは非同期で実行されます。関数は、呼び出しの処理が完全に実行されるまで待機せず、すぐに制御が戻ります。
 
->[!NOTE]この機能が動作するには、Report Builder 5.0（以降）がインストールされている必要があります。
+>[!NOTE]
+>
+>この機能が動作するには、Report Builder 5.0（以降）がインストールされている必要があります。
 
 利用可能な関数は以下の通りです。
 
@@ -29,7 +34,7 @@ Report Builder のユーザーインターフェイスにアクセスするこ�
 | string AsyncRefreshWorksheetAltTextParam(); | MS フォームコントロールの代替テキストから渡される、特定のワークシート名にあるすべての Report Builder リクエストを更新します。 |
 | string GetLastRunStatus() | 最後に実行した関数のステータスを示す文字列を返します。 |
 
-report builder内でこれらの機能にアクセスするには、/に移動 [!UICONTROL Formulas] しま [!UICONTROL Insert Function]す。 分類のリスト下部にある Adobe.ReportBuilder.Bridge を選択します。
+Excel でこれらの関数にアクセスするには、[!UICONTROL 数式]／[!UICONTROL 関数の挿入]を実行し、分類のリスト下部にある Adobe.ReportBuilder.Bridge を選択します。
 
 ![](assets/arb_functions.png)
 
@@ -48,7 +53,7 @@ report builder内でこれらの機能にアクセスするには、/に移動 [
 作成したコントロールにマクロを割り当てて、Report Builder のリクエストを更新することもできます。例えば、関数 AsyncRefreshActiveWorksheet は、ワークシートのすべてのリクエストを更新します。しかし、すべてのリクエストではなく、特定のリクエストのみを更新することが必要な場合もあります。
 
 1. コントロールを配置します。
-1. コントロールを右クリックし、を選択しま **[!UICONTROL Assign Macro]**&#x200B;す。
+1. コントロールを右クリックして、**[!UICONTROL マクロの割り当て]**&#x200B;を選択します。
 1. Report Builder 関数名を入力します（パラメーターや括弧は入力しないでください）。
 
 ![](assets/assign_macro.png)
@@ -60,16 +65,17 @@ report builder内でこれらの機能にアクセスするには、/に移動 [
 * AsyncRefreshRange(string rangeAddressInA1Format)
 * AsyncRefreshWorksheet(string worksheetName)
 
-1. コントロールを右クリックし、を選択しま **[!UICONTROL Format Control]**&#x200B;す。
+1. コントロールを右クリックして、**[!UICONTROL コントロールの書式設定]**&#x200B;を選択します。
 
    ![](assets/format_control.png)
 
-1. Click the [!UICONTROL Alt Text] tab.
+1. 「[!UICONTROL 代替テキスト]」タブをクリックします。
 
    ![](assets/alt_text.png)
 
-1. Under [!UICONTROL Alternative text], enter the cell range that you want refreshed.
-1. report builderリストーのパラメーターを>> [!UICONTROL Formulas] で開 [!UICONTROL Insert Function]きます [!UICONTROL Adobe.ReportBuilder.Bridge]。
+1. 「[!UICONTROL 代替テキスト]」に、更新するセルの範囲を入力します。
+1. [!UICONTROL 数式]／ [!UICONTROL 関数の挿入]／[!UICONTROL Adobe.ReportBuilder.Bridge]で、Report Builder パラメーターの一覧を開きます。
+
 
 1. AltTextParam で終わる上記 2 つの関数のいずれかの関数名を入力して、「**[!UICONTROL OK]**」をクリックします。
 
