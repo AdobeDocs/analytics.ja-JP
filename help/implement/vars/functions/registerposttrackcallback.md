@@ -1,8 +1,11 @@
 ---
 title: registerPostTrackCallback
 description: アドビにヒットを送信した後に、コールバック関数を作成します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 
 ## AppMeasurement および Launch カスタムコードエディターの s.registerPostTrackCallback
 
-`s.registerPostTrackCallback` は、関数を唯一の引数として受け取る関数です。ネストされた関数は、イメージリクエストの送信直前に実行されます。
+`s.registerPostTrackCallback` は、関数を唯一の引数として受け取る関数です。ネストされた関数は、イメージリクエストが正常に送信された直後に実行されます。
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
