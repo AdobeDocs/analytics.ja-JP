@@ -2,8 +2,11 @@
 description: 'null'
 title: Power BI への発行 - 概要
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -55,13 +58,15 @@ Adobe Report Builder との統合により、以下のことができるよう�
 
    ![](assets/workbooks-power-bi.png)
 
-1. これで、ワークブックのダッシュボードデータを表示できるようになります。    ![](assets/view-data-pbi.png)
+1. これで、ワークブックのダッシュボードデータを表示できるようになります。      ![](assets/view-data-pbi.png)
 
 1. このワークブックの領域をピン留めして任意の Power BI ダッシュボードに追加することができます。
 
 ## ワークブック内のすべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行する {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE] ワークブックにマクロが含まれている場合、「すべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行」は無効になります。
+>[!NOTE]
+>
+> ワークブックにマクロが含まれている場合、「すべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行」は無効になります。
 
 ワークブック全体をインポートする代わりに、ワークブック内のすべてのフォーマット済みテーブルの内容のみをインポートすることができます。
 
