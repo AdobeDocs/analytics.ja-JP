@@ -1,8 +1,8 @@
 ---
 title: レポート
-description: Reports & Analyticsが各レポートに使用するディメンションと指標。
+description: 各レポートでReports &Analyticsが使用するディメンションと指標。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -12,9 +12,11 @@ ht-degree: 1%
 
 # レポート
 
-Reports &amp; Analyticsの各レポートは、専用のディメンションとデフォルトの指標を使用します。 必要に応じて、各レポートの指標を変更し、分類を追加できます。 次のリストは、各レポートで使用されるディメンションを示します。
+Reports &amp;Analyticsの各レポートは、専用のディメンションとデフォルトの指標を使用します。 必要に応じて、各レポートの指標を変更し、分類を追加できます。 次のリストは、各レポートで使用されるディメンションを示します。
 
-> [!NOTE] 組織の管理者が行ったカスタマイズに応じて、レポートメニューの外観が変わります。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>組織の管理者が行ったカスタマイズに応じて、レポートメニューの外観が変わります。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
 ## サイト指標
 
@@ -28,14 +30,14 @@ Reports &amp; Analyticsの各レポートは、専用のディメンションと
    * 個別訪問者数： 選択した日付範囲全体で訪問者を1回だけカウントします。
    * 時間別訪問者数： 選択した日付範囲の異なる時間に訪問者が訪問した場合に複数回カウントします。
    * 日別訪問者数： 選択した日付範囲の異なる日に訪問した訪問者を複数回カウントします。
-   * 週別訪問者数： 選択した日付範囲の異なる週に訪問した訪問者を複数回カウントします。
+   * 週別訪問者数： 選択した日付範囲の別の週に訪問した訪問者を複数回カウントします。
    * 月別訪問者数： 選択した日付範囲の異なる月に訪問者が訪問した場合に複数回カウントします。
    * 四半期別訪問者数： 選択した日付範囲の異なる四半期に訪問した訪問者を複数回カウントします。 四半期は、1月から3月、4月から6月、7月から9月、10月から12月です。
    * 年別訪問者数： 選択した日付範囲の異なるカレンダー年間に訪問者が訪問した場合に複数回カウントします。
 * 訪問別滞在時間： 訪問別滞在 [時間 — グループディメンションを使用し](/help/components/dimensions/time-spent-per-visit.md) ます。
 * イベント前の時間： 「 [イベント前の](/help/components/dimensions/time-prior-to-event.md) 時間」ディメンションを使用します。
 * 購入： 購入ベースの指標に関するレポートが含まれます。
-   * 購入コンバージョンファネル： 訪問 [件数](/help/components/metrics/visits.md)、買い物かご件数 [、](/help/components/metrics/carts.md)注文件数 [、](/help/components/metrics/orders.md)売上高、 [](/help/components/metrics/revenue.md)[](/help/components/metrics/units.md) 売上高、ファネルレポート内の購入点数に関するレポートを作成します。 同様のビジュアライゼーションは、分析ワークスペースで [フォールアウトビジュアライゼーションを使用して実現し](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
+   * 購入コンバージョンファネル： 訪問 [件数](/help/components/metrics/visits.md)、買い物かご件数 [、](/help/components/metrics/carts.md)注文件数 [、](/help/components/metrics/orders.md)売上高、 [](/help/components/metrics/revenue.md)[](/help/components/metrics/units.md) 売上高、ファネルレポート内の購入点数に関するレポートを作成します。 フォールアウトビジュアライゼーションを使用したAnalysis Workspaceでも、同様のビジュアライ [ゼーションを実現でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
    * 売上高： 指標の [売上高の経時的な傾向](/help/components/metrics/revenue.md) 。
    * 注文件数： 指標の [注文の経時的なトレンド](/help/components/metrics/orders.md) 。
    * 数量： 指標の [単位数](/help/components/metrics/units.md) （単位数）の経時的なトレンドを示します。
@@ -86,13 +88,13 @@ Reports &amp; Analyticsの各レポートは、専用のディメンションと
 
 訪問者のパスデータを表示できるレポートが含まれます。
 
-* 次ページのフロー： トップページのディメンション値に関するフローレポートを使用します。 パス表示ーは [インスタンスに似ています](/help/components/metrics/instances.md)。 レポートされたディメンション値は変更できます。 分析ワークスペースの同様のレポートは、 [フロービジュアライゼーションを使用して使用でき](../analysis-workspace/visualizations/c-flow/flow.md)ます。
+* 次ページのフロー： トップページのディメンション値に関するフローレポートを使用します。 パス表示ーは [インスタンスに似ています](/help/components/metrics/instances.md)。 レポートされたディメンション値は変更できます。 フ [ローのビジュアライゼーションを使用して、同様のAnalysis Workspaceのレポートを利用できます](../analysis-workspace/visualizations/c-flow/flow.md)。
 * 次のページ： 最上位のページディメンションの値を取り、訪問者が次に閲覧したページを示します。
-* 前ページのフロー： トップページのディメンション値に関するフローレポートを使用します。分析ワークスペースの同様のレポートは、 [フロービジュアライゼーションを使用して使用できます](../analysis-workspace/visualizations/c-flow/flow.md)。
+* 前ページのフロー： トップページのディメンション値に関するフローレポートを使用します。 [フロービジュアライゼーションを使用して、Analysis Workspaceの類似したレポートを利用できます](../analysis-workspace/visualizations/c-flow/flow.md)。
 * 前のページ： 最上位のページディメンション値を取得し、前のページ訪問者の元を示します。
-* フォールアウト： ページディメンションの値をステップ単位で選択でき、そのパスをたどった訪問者とたどらなかった訪問者の割合が表示されます。 分析ワークスペースの同様のレポートは、 [フォールアウトビジュアライゼーションを使用して利用でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
-* フルパス： 個々のパスをディメンション値として表示します。 分析ワークスペースで廃止。 代わりに、 [フロービジュアライゼーションを使用し](../analysis-workspace/visualizations/c-flow/flow.md) ます。
-* パスファインダ： パスを分析できる(分析ワークスペースで廃止された)複数のタイプのレポートを提供します。
+* フォールアウト： ページディメンションの値をステップ単位で選択でき、そのパスをたどった訪問者とたどらなかった訪問者の割合が表示されます。 フォールアウトビジュアライゼーションを使用しても、同様のAnalysis Workspaceの [レポートを利用でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
+* フルパス： 個々のパスをディメンション値として表示します。 Analysis Workspaceに引退。 代わりに、 [フロービジュアライゼーションを使用し](../analysis-workspace/visualizations/c-flow/flow.md) ます。
+* パスファインダ： パスを分析(Analysis Workspaceで廃止)できる複数のタイプのレポートを提供します。
 * パスの長さ： 訪問の深さ [ディメンションを使用し](/help/components/dimensions/visit-depth.md) ます。
 * ページ分析
    * ページサマリ： 上位のページディメンション値を使用し、トレンド表示を表示します。 また、そのトップページのディメンション値の入口ポイント、前のページ、出口ポイントおよび次のページも表示します。
@@ -105,7 +107,9 @@ Reports &amp; Analyticsの各レポートは、専用のディメンションと
    * 直帰数： アドビが提供する「 [ページ訪問回数」セグメントを適用したPage](/help/components/dimensions/page.md) （ページ）ディメンションを使用します。
    * 出口ページ： 出 [口ページ](/help/components/dimensions/exit-dimensions.md) ディメンションを使用します。
 
-> [!NOTE] このフォルダーには、他のレポートも表示できます。 これらはpropなどの他のディメンションで、レポートスイートの設定で [パスを有効にしている](../../admin/admin/c-traffic-variables/traffic-var.md) 。
+>[!NOTE]
+>
+>このフォルダーには、他のレポートも表示できます。 これらはpropなどの他のディメンションで、レポートスイートの設定で [パスを有効にしている](../../admin/admin/c-traffic-variables/traffic-var.md) 。
 
 ## トラフィックソース
 
@@ -127,16 +131,16 @@ Reports &amp; Analyticsの各レポートは、専用のディメンションと
 
 主に [追跡コード](/help/components/dimensions/tracking-code.md) ディメンションに関するレポートが含まれます。
 
-* キャンペーンコンバージョンファネル： ファネルレポートのクリックスルー数、 [チェックアウト](/help/components/metrics/checkouts.md)、 [注文](/help/components/metrics/orders.md)、 [売上高](/help/components/metrics/revenue.md) をレポートします。 クリックスルー指標は、トラッ [キングコード](/help/components/metrics/instances.md) ディメンションに関連するインスタンス [](/help/components/dimensions/tracking-code.md) 指標に似ています。 同様のビジュアライゼーションは、分析ワークスペースで [フォールアウトビジュアライゼーションを使用して実現し](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
+* キャンペーンコンバージョンファネル： ファネルレポートのクリックスルー数、 [チェックアウト](/help/components/metrics/checkouts.md)、 [注文](/help/components/metrics/orders.md)、 [売上高](/help/components/metrics/revenue.md) をレポートします。 クリックスルー指標は、トラッ [キングコード](/help/components/metrics/instances.md) ディメンションに関連するインスタンス [](/help/components/dimensions/tracking-code.md) 指標に似ています。 フォールアウトビジュアライゼーションを使用したAnalysis Workspaceでも、同様のビジュアライ [ゼーションを実現でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
 * トラッキングコード： ト [ラッキングコード](/help/components/dimensions/tracking-code.md) ディメンションを使用します。
 
 ## 製品
 
 主に [Product](/help/components/dimensions/product.md) ディメンションに関するレポートが含まれます。
 
-* 製品コンバージョンファネル： レポート [表示](/help/components/metrics/product-views.md)、買い物かご [、](/help/components/metrics/cart-additions.md)追加数 [、チェックアウト数、チェックアウト数](/help/components/metrics/checkouts.md)[](/help/components/metrics/orders.md)[](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) 、商品注文数、商品注文数、商品注文数、商品注文数、商品注文数レポート内の売上高を表示します。 同様のビジュアライゼーションは、分析ワークスペースで [フォールアウトビジュアライゼーションを使用して実現し](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
+* 製品コンバージョンファネル： レポート [表示](/help/components/metrics/product-views.md)、買い物かご [、](/help/components/metrics/cart-additions.md)追加数 [、チェックアウト数、チェックアウト数](/help/components/metrics/checkouts.md)[](/help/components/metrics/orders.md)[](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) 、商品注文数、商品注文数、商品注文数、商品注文数、商品注文数レポート内の売上高を表示します。 フォールアウトビジュアライゼーションを使用したAnalysis Workspaceでも、同様のビジュアライ [ゼーションを実現でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
 * 製品： [Products](/help/components/dimensions/product.md) （製品）ディメンションを使用します。
-* クロス販売： 共に販売される(分析ワークスペースで廃止される)商品を表示します。
+* クロス販売： 共に販売される(Analysis Workspaceで廃止される)商品を表示します。
 * カテゴリ: [カテゴリ](/help/components/dimensions/category.md) ディメンションを使用します。
 
 ## 訪問者保持率
@@ -167,9 +171,9 @@ Reports &amp; Analyticsの各レポートは、専用のディメンションと
    * 米国の州： 「 [US states](/help/components/dimensions/us-states.md) 」ディメンションを使用します。
    * 米国DMA: [US DMA](/help/components/dimensions/us-dma.md) （米国）ディメンションを使用します。
 * 言語： Language [](/help/components/dimensions/language.md) （言語）ディメンションを使用します。
-* タイムゾーン： タイムゾーンディメンションを使用します(分析ワークスペースでは使用できなくなりました)。 ディメンション値は、ヒットのGMTオフセットです。
+* タイムゾーン： タイムゾーンディメンションを使用します(Analysis Workspaceで削除)。 ディメンション値は、ヒットのGMTオフセットです。
 * ドメイン： [Domain](/help/components/dimensions/domain.md) ディメンションを使用します。
-* トップレベルドメイン： トップレベルのドメインディメンションを使用します(分析ワークスペースでは使用できなくなりました)。 このレポートは、 [domains](/help/components/dimensions/domain.md) dimensionを上位レベルのカテゴリ（通常、ドメインの国別）にグループ化します。
+* トップレベルドメイン： トップレベルのドメインディメンションを使用します(Analysis Workspaceから削除)。 このレポートは、 [domains](/help/components/dimensions/domain.md) dimensionを上位レベルのカテゴリ（通常、ドメインの国別）にグループ化します。
 * 技術： 訪問者がサイトにアクセスする際に使用したレポートを含むフォルダ。
    * ブラウザー： Browsers [ディメンションを使用し](/help/components/dimensions/browser.md) ます。
    * ブラウザーのタイプ： ブ [ラウザータイプ](/help/components/dimensions/browser-type.md) (Browser type)ディメンションを使用します。
@@ -180,12 +184,12 @@ Reports &amp; Analyticsの各レポートは、専用のディメンションと
    * 画面の色： 色深度( [Color depth](/help/components/dimensions/color-depth.md) )ディメンションを使用します。
    * 画面の解像度： [Monitor resolution](/help/components/dimensions/monitor-resolution.md) （画面の解像度）ディメンションを使用します。
    * Java: [Java対応ディメンションを使用します](/help/components/dimensions/java-enabled.md) 。
-   * JavaScript: JavaScriptが有効なディメンションを使用します(分析ワークスペースには使用できません)。 ブラウザーでJavaScriptが有効になっているかどうかに応じて、ディメンション値は「有効」、「無効」または「不明」です。
-   * JavaScriptのバージョン： はJavaScriptバージョンディメンションを使用します(分析ワークスペースでは使用できなくなりました)。 ディメンション値は、ブラウザーが使用するJavaScriptのバージョンを示します。
+   * JavaScript: JavaScriptが有効なディメンションを使用します(Analysis Workspaceには使用されません)。 ブラウザーでJavaScriptが有効になっているかどうかに応じて、ディメンション値は「有効」、「無効」または「不明」です。
+   * JavaScriptのバージョン： は、JavaScriptバージョンディメンションを使用します(Analysis Workspaceでは廃止されました)。 ディメンション値は、ブラウザーが使用するJavaScriptのバージョンを示します。
    * Cookie: Cookieサポート [ディメンションを使用します](/help/components/dimensions/cookie-support.md) 。
    * 接続の種類： 「 [接続タイプ](/help/components/dimensions/connection-type.md) 」ディメンションを使用します。
    * 携帯電話会社： 携帯電話会社 [ディメンションを使用し](/help/components/dimensions/mobile-dimensions.md) ます。
-* 訪問者の状態： Stateディメンションを使用します(分析ワークスペースでは使用できなくなりました)。 ディメンション値は変数から始まり [`state`](../../implement/vars/page-vars/state.md) ます。
+* 訪問者の状態： Stateディメンションを使用します(Analysis Workspaceには使用できません)。 ディメンション値は変数から始まり [`state`](../../implement/vars/page-vars/state.md) ます。
 * 訪問者の郵便番号： 郵便番号 [ディメンションを使用し](/help/components/dimensions/zip-code.md) ます。
 
 ## カスタムコンバージョン
@@ -200,7 +204,7 @@ Reports &amp; Analyticsの各レポートは、専用のディメンションと
 
 マー [ケティングチャネルに関するレポートが含まれます](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 
-* チャネルの概要レポート： Reports &amp; Analytics固有のカスタムレポート。 ファーストタッチまたはラストタッチのアトリビューションを使用する指標と共に、ディメンション値としてマーケティングチャネルを使用します。
+* チャネルの概要レポート： レポートおよびAnalyticsに固有のカスタムレポート。 ファーストタッチまたはラストタッチのアトリビューションを使用する指標と共に、ディメンション値としてマーケティングチャネルを使用します。
 * ファーストタッチチャネル: ファーストタッチ [チャネル](/help/components/dimensions/first-touch-channel.md) ディメンションを使用します。
 * ファーストタッチチャネルの詳細： ファーストタッチ [チャネルの詳細](/help/components/dimensions/first-touch-detail.md) ディメンションを使用します。
 * ラストタッチチャネル: ラストタッチ [チャネル](/help/components/dimensions/last-touch-channel.md) (Last touch)ディメンションを使用します。
@@ -208,14 +212,16 @@ Reports &amp; Analyticsの各レポートは、専用のディメンションと
 
 ## ブックマーク
 
-ブックマークを付けたレポートが含まれます。 詳しくは、「 [ブックマーク](bookmarks.md) 」を参照してください。
+ブックマークを付けたレポートが含まれます。 See [Bookmarks](bookmarks.md) for more information.
 
 ## ダッシュボード
 
-作成したダッシュボードが含まれます。 詳しくは、 [ダッシュボード](dashboard.md) （英語）を参照してください。
+作成したダッシュボードが含まれます。 See [Dashboards](dashboard.md) for more information.
 
 ## ターゲット
 
-作成したターゲットが含まれます。 詳しくは、 [ターゲット](targets.md) （英語）を参照してください。
+作成したターゲットが含まれます。 See [Targets](targets.md) for more information.
 
-> [!NOTE] このヘルプページでレポートが見つからない場合は、管理者がフォルダの名前を変更したり、調整したりした可能性があります。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>このヘルプページでレポートが見つからない場合は、管理者がフォルダの名前を変更したり、調整したりした可能性があります。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
