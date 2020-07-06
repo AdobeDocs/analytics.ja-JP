@@ -4,7 +4,10 @@ title: トラフィック増加に対して必要なリードタイム
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Reports &amp; Analytics ユーザーインターフェイスを通じてアラートを送信することによって、ハードウェアの割り当てが進められます。
 
->[!IMPORTANT] アドビは、「プレースホルダー」のトラフィック変更リクエストに対応できません。特に指示のない限り、アラートを早く送信しすぎないことを含め、できる限り推奨リードタイムを守ってください。詳しくは、[トラフィックスパイクのスケジュール](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)、または[恒常的なトラフィック増加の指定](/help/admin/c-traffic-management/t-traffic-permanent.md)を参照してください。
+>[!IMPORTANT]
+>
+> アドビは、「プレースホルダー」のトラフィック変更リクエストに対応できません。特に指示のない限り、アラートを早く送信しすぎないことを含め、できる限り推奨リードタイムを守ってください。詳しくは、[トラフィックスパイクのスケジュール](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)、または[恒常的なトラフィック増加の指定](/help/admin/c-traffic-management/t-traffic-permanent.md)を参照してください。
 
 次のガイドラインを使用して、どの程度事前にトラフィックアラートを送信する必要があるかを決定します。
 
