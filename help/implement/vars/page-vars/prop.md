@@ -2,21 +2,23 @@
 title: prop
 description: 実装で使用できるカスタム変数。
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 73%
+ht-degree: 80%
 
 ---
 
 
 # prop
 
-*このヘルプページでは、propの実装方法を説明します。 propがディメンションとして機能する方法について詳しくは、コンポーネントユーザーガイドの[prop](/help/components/dimensions/prop.md)を参照してください。*
+*このヘルプページでは、propの実装方法を説明します。 For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
 
 Prop は、好きなだけ使用できるカスタム変数です。設定されたヒットを超えては持続しません。
 
-> [!TIP][ ほとんどの場合、eVar の使用をお勧めします。](evar.md)以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、アドビでは eVar を改善し、prop のほとんどすべての使用例を満たすようにしました。
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. 以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、アドビでは eVar を改善し、prop のほとんどすべての使用例を満たすようにしました。
 
 ソリューションデザイン [ドキュメントがある場合](/help/implement/prepare/solution-design.md)、これらのカスタムディメンションを組織に固有の値に割り当てることができます。 使用可能なpropの数は、アドビとの契約によって異なります。 アドビとの契約でサポートされている場合は、最大75個のpropを使用できます。
 
@@ -49,7 +51,9 @@ s.prop1 = "Example custom value";
 
 レポートスイート設定でリスト prop を有効にします。詳しくは、『管理者ユーザーガイド』の[トラフィック変数](/help/admin/admin/c-traffic-variables/traffic-var.md)を参照してください。目的の区切り文字が正しく設定されていることを確認します。デフォルトの区切り文字は提供されません。
 
-> [!TIP] 実装で使用される一般的な区切り文字は、コンマ（`,`）、コロン（`:`）、セミコロン（`;`）、パイプ（`|`）です。実装に最適な任意の区切り文字を使用できます。
+>[!TIP]
+>
+> 実装で使用される一般的な区切り文字は、コンマ（`,`）、コロン（`:`）、セミコロン（`;`）、パイプ（`|`）です。実装に最適な任意の区切り文字を使用できます。
 
 ### リスト prop の設定
 
@@ -60,6 +64,8 @@ s.prop1 = "Example custom value";
 s.prop1 = "value1,value2,value3";
 ```
 
-> [!IMPORTANT] リスト prop は、100 バイトの最大長に依存します。リスト prop は複数の値を含む可能性があるので、この制限に達しやすく切り捨てられます。この 100 バイトの制限に達した場合は、省略形や短縮値の使用を検討してください。
+>[!IMPORTANT]
+>
+> リスト prop は、100 バイトの最大長に依存します。リスト prop は複数の値を含む可能性があるので、この制限に達しやすく切り捨てられます。この 100 バイトの制限に達した場合は、省略形や短縮値の使用を検討してください。
 
-リストpropで同じ値を複数回設定した場合、レポートでは重複が排除されます。 分析ワークスペースは、値が表示されたヒットの数をカウントし、値がデータに存在する回数はカウントしません。
+リスト prop で同じ値を複数回設定した場合、レポートでは重複が排除されます。Analysis Workspace は、値が表示されたヒットの数をカウントし、値がデータに存在する回数はカウントしません。
