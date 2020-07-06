@@ -1,8 +1,11 @@
 ---
 title: 動的変数
 description: イメージリクエストの長さを増やさずに変数をコピーします。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 動的変数のプレフィックスが認識されると、レポートスイートのクエリー文字列または HTTP ヘッダー値が自動的にコピーされます。このアクションは、処理ルールや VISTA ルールなど、他の処理の前に発生します。
 
->[!TIP] 変数をコピーする際は、文字制限の最大値に注意してください。例えば、`eVar1` を `prop1` にコピーする場合、100 バイトの上限（`eVar1` の上限は 255 バイト）があるので、`prop1` に切り捨てられた値が含まれる可能性があります。
+>[!TIP]
+>
+> 変数をコピーする際は、文字制限の最大値に注意してください。例えば、`eVar1` を `prop1` にコピーする場合、100 バイトの上限（`eVar1` の上限は 255 バイト）があるので、`prop1` に切り捨てられた値が含まれる可能性があります。
 
 ## Adobe Experience Platform Launch の動的変数
 
@@ -48,4 +53,6 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
->[!NOTE] 動的変数は、実装のデバッグ時に文字列として表示されます。値は、アドビのデータ収集サーバーによってサーバー側でコピーされます。
+>[!NOTE]
+>
+> 動的変数は、実装のデバッグ時に文字列として表示されます。値は、アドビのデータ収集サーバーによってサーバー側でコピーされます。
