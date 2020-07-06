@@ -1,8 +1,11 @@
 ---
 title: doPlugins
 description: ヒットがコンパイルされてアドビに送信される直前にロジックを設定します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 s.doPlugins = function() {/* Desired code */};
 ```
 
->[!NOTE] 実装で 1 回だけ、関数を `doPlugins` 変数に設定します。`doPlugins` 変数を複数回設定した場合は、最新のコードのみが使用されます。
+>[!NOTE]
+>
+> 実装で 1 回だけ、関数を `doPlugins` 変数に設定します。`doPlugins` 変数を複数回設定した場合は、最新のコードのみが使用されます。
 
 ## 例
 
@@ -44,4 +49,6 @@ s.doPlugins = function() {
 }
 ```
 
->[!NOTE] 以前のバージョンの AppMeasurement では、`doPlugins()` のコードが少し異なっていました。アドビでは、上記の形式をベストプラクティスとして使用することをお勧めします。
+>[!NOTE]
+>
+> 以前のバージョンの AppMeasurement では、`doPlugins()` のコードが少し異なっていました。アドビでは、上記の形式をベストプラクティスとして使用することをお勧めします。
