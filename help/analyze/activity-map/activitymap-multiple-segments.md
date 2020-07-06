@@ -4,7 +4,10 @@ title: 顧客セグメント
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Activity Map 内で複数セグメントフィルターを適用できます。
 
->[!NOTE]Adobe Analytics プラットフォームではリアルタイムデータのセグメント化をサポートしていないので、セグメントコントロールは標準モードでのみ使用できます。
+>[!NOTE]
+>
+>Adobe Analytics プラットフォームではリアルタイムデータのセグメント化をサポートしていないので、セグメントコントロールは標準モードでのみ使用できます。
 
 次に示す&#x200B;**[!UICONTROL セグメント]**&#x200B;ドロップダウンメニューから、1 つまたは複数のセグメントを選択できます。リストに表示されるセグメントは、所有しているセグメント、または選択したレポートスイートに関して Reports &amp; Analytics 経由で共有されているセグメントと同じです。
 
