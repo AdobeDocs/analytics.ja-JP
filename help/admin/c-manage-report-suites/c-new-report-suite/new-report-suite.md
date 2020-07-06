@@ -3,8 +3,11 @@ description: 新しいレポートスイートを作成するには、事前定�
 title: 新しいレポートスイート - 設定
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 エレメントの説明（[レポートスイートの作成時](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)で使用されます）。
 
->[!NOTE]仮想レポートスイートの作成方法について詳しくは、[仮想レポートスイートのドキュメント](/help/components/vrs/c-workflow-vrs/vrs-create.md)を参照してください。
+>[!NOTE]
+>
+>仮想レポートスイートの作成方法について詳しくは、[仮想レポートスイートのドキュメント](/help/components/vrs/c-workflow-vrs/vrs-create.md)を参照してください。
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
