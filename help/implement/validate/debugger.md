@@ -2,14 +2,19 @@
 title: レガシー Adobe Experience Cloud デバッガー
 description: レガシー Adobe Experience Cloud デバッガーをインストールします。このデバッガーは、Analytics、Target、Advertising Cloud、ID サービス、DTM および Launch のタグを調べます。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
 
 # レガシー Adobe Experience Cloud デバッガー
 
->[!IMPORTANT]このデバッグツールはメンテナンスされなくなりました。代わりに、[Adobe Experience Cloud デバッガー Chrome 拡張機能](https://docs.adobe.com/content/help/ja-JP/debugger/using/experience-cloud-debugger.html)を使用することをお勧めします。
+>[!IMPORTANT]
+>
+>このデバッグツールはメンテナンスされなくなりました。代わりに、[Adobe Experience Cloud デバッガー Chrome 拡張機能](https://docs.adobe.com/content/help/ja-JP/debugger/using/experience-cloud-debugger.html)を使用することをお勧めします。
 
 [!UICONTROL レガシーデバッガー]は、ほとんどの Adobe Experience Cloud サービスに対してタグを調べます。デバッガーを使用すると、サイトの任意のページでアドビに送信されるデータを確認できます。この情報を使用して、組織の導入のトラブルシューティングや検証をおこなうことができます。
 
@@ -68,7 +73,9 @@ Safari ではブックマークレットを手動で作成することはでき�
 
 サイト上の目的のページに移動し、ブックマークレットをクリックします。アドビに送信されたデータを示すポップアップウィンドウが表示されます。
 
->[!NOTE] 特定の広告ブロッキングプラグインやポップアップブロッカーが、デバッガーウィンドウの読み込みを妨げる可能性があります。ブラウザーでブロックされたポップアップを確認し、デバッガーが正しく動作するようにポップアップを許可します。
+>[!NOTE]
+>
+> 特定の広告ブロッキングプラグインやポップアップブロッカーが、デバッガーウィンドウの読み込みを妨げる可能性があります。ブラウザーでブロックされたポップアップを確認し、デバッガーが正しく動作するようにポップアップを許可します。
 
 デバッガーには複数のオプションが用意されており、そのすべてでデータの表示方法をカスタマイズできます。これらのオプションはデータ収集に影響を与えません。
 
