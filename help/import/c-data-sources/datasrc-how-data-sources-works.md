@@ -4,8 +4,11 @@ subtopic: Data sources
 title: データソースの仕組み
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 アドビがどのようにしてデータソースへのアクセスを実現しているかに関する情報です。
 
->[!NOTE]データソースからデータが送信されると、インポートされたデータは、他のメソッド（JavaScript ビーコン、ActionSource、Data Insertion API など）で収集されたレポートデータと区別がつかなくなります。インポートされたデータは、削除できません。
+>[!NOTE]
+>
+>データソースからデータが送信されると、インポートされたデータは、他のメソッド（JavaScript ビーコン、ActionSource、Data Insertion API など）で収集されたレポートデータと区別がつかなくなります。インポートされたデータは、削除できません。
 
 ![](assets/data_sources_overview.png)
 
