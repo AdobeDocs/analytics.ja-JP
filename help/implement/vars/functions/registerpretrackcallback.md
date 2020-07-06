@@ -1,8 +1,11 @@
 ---
 title: registerPreTrackCallback
 description: アドビにヒットを送信する前に実行するコールバック関数を作成します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
@@ -11,11 +14,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `registerPreTrackCallback` 変数を使用すると、イメージリクエスト URL がコンパイルされたがまだ送信されていないときに実行する JavaScript 関数をフックできます。この変数を使用して、AppMeasurement によって収集されたデータをパートナーまたは社内インフラストラクチャに送信できます。
 
->[!IMPORTANT] [`t()`](t-method.md) や [`tl()`](tl-method.md) などのトラッキングコールは [`registerPostTrackCallback`](registerposttrackcallback.md) 変数内で呼び出さないでください。この変数で関数をトラッキングすると、イメージリクエストが無限ループになります。
+>[!IMPORTANT]
+>
+> [`t()`](t-method.md) や [`tl()`](tl-method.md) などのトラッキングコールは [`registerPostTrackCallback`](registerposttrackcallback.md) 変数内で呼び出さないでください。この変数で関数をトラッキングすると、イメージリクエストが無限ループになります。
 
 `registerPreTrackCallback` 変数を呼び出すたびに、その関数をフックして、イメージリクエスト URL がコンパイルされるたびに実行します。同じページの読み込みで同じ関数を複数回登録しないでください。
 
->[!NOTE] `registerPreTrackCallback` と `registerPostTrackCallback` の間に呼び出される関数のタイミングと順序は保証されません。この 2 つの関数間の依存関係を避けます。
+>[!NOTE]
+>
+> `registerPreTrackCallback` と `registerPostTrackCallback` の間に呼び出される関数のタイミングと順序は保証されません。この 2 つの関数間の依存関係を避けます。
 
 ## Adobe Experience Platform Launch でのトラック前コールバックの登録
 
@@ -48,4 +55,6 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
->[!NOTE] ページ変数の設定やこの関数内の `requestUrl` 文字列の変更は、この関数呼び出しの直後に送信されるイメージリクエストには影響&#x200B;**しません**。代わりに、[`doPlugins()`](doplugins.md) 変数を使用します。
+>[!NOTE]
+>
+> ページ変数の設定やこの関数内の `requestUrl` 文字列の変更は、この関数呼び出しの直後に送信されるイメージリクエストには影響&#x200B;**しません**。代わりに、[`doPlugins()`](doplugins.md) 変数を使用します。
