@@ -3,8 +3,11 @@ description: 順次セグメントは、AND や OR ではなく、THEN 演算子
 title: 順次セグメントの構築
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3842'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 一致する | A  -> B<br>A -> （別の訪問で）B<br>A -> D -> B |
 | 一致しない | B -> A |
 
-## シーケンスの前のみおよびシーケンスの後のみ{#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## シーケンスの前のみおよびシーケンスの後のみ {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 「**[!UICONTROL シーケンスの前のみ]**」および「**[!UICONTROL シーケンスの後のみ]**」オプションは、セグメントを特定のシーケンスの前または後のデータのサブセットにフィルタリングします。
 
@@ -244,7 +247,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 「論理グループ」コンテナは、条件を単一の順次セグメントチェックポイントにグループ化する場合に必要です。特別な「論理グループ」コンテナは、順次セグメント化でのみ使用でき、前の順次チェックポイントの後、および後続の順次チェックポイントの前に、条件が満たされるようにします。論理グループチェックポイント内の条件は、どの順序でも満たすことができます。これに対し、非順次コンテナ（ヒット、訪問、訪問者）は、シーケンス全体で条件を満たす必要がないので、THEN 演算子と組み合わせて使用した場合に得られる結果は直観的ではありません。
 「[!UICONTROL 論理グループ]」コンテナは、*複数のチェックポイントをグループとして*&#x200B;扱うように設計されていますが、グループ化されたチェックポイントの&#x200B;*順序*&#x200B;は指定していません。つまり、そのグループ内のチェックポイントの順序は決まっていません。例えば、[!UICONTROL 訪問者]コンテナを別の[!UICONTROL 訪問者]コンテナ内にネストすることはできません。しかし、代わりに、[!UICONTROL 論理グループ]コンテナを[!UICONTROL 訪問者]コンテナ内にネストし、特定の[!UICONTROL 訪問]レベルおよび[!UICONTROL ヒット]レベルのチェックポイントをそこに含めることができます。
 
->[!NOTE][!UICONTROL 論理グループ]を定義できるのは、順次セグメントのみです。つまり、式の内部で、[!UICONTROL THEN] 演算子が使用されます。
+>[!NOTE]
+>
+>[!UICONTROL 論理グループ]を定義できるのは、順次セグメントのみです。つまり、式の内部で、[!UICONTROL THEN] 演算子が使用されます。
 
 | コンテナの階層 | イラスト | 定義 |
 |---|---|---|
@@ -351,7 +356,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 [!UICONTROL Within] および [!UICONTROL After] コンテナを使用し、精度とカウントを指定することで、一致の範囲を指定した期間に制限できます。[!UICONTROL Within] 演算子は、2 つのチェックポイントの間隔の最大値を指定するために使用します。[!UICONTROL After] 演算子は、2 つのチェックポイントの間隔の最小値を指定するために使用します。
 
-### AFTER および WITHIN 演算子{#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### AFTER および WITHIN 演算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 期間は、精度を表す 1 つの大文字の後に、その精度の繰り返し回数を表す数値を記述して指定します。
 
