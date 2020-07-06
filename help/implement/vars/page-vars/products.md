@@ -2,10 +2,10 @@
 title: products
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 89%
 
 `products` 変数は、それらに関連付けられた製品とプロパティを追跡します。この変数は、通常、個々の製品ページ、買い物かごページ、および購入確認ページに設定されます。これは複数値の変数で、同じヒットで複数の製品を送信し、アドビがその値を別々のディメンション値に解析します。
 
-> [!NOTE] この変数が、買い物かごイベントのないヒットで [`events`](events/events-overview.md) 変数に設定された場合、 [](/help/components/metrics/product-views.md) 商品表示指標の値は1増分されます。 各ヒットに対して、 `products` 変数を使用して適切な買い物かごのイベントを設定していることを確認します。
+>[!NOTE]
+>
+>If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. 各ヒットに対して、 `products` 変数を使用して適切な買い物かごのイベントを設定していることを確認します。
 
 ## Adobe Experience Platform Launch の製品
 
@@ -50,7 +52,9 @@ s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eV
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] 製品名、カテゴリ、およびマーチャンダイジングeVarの値から、セミコロン、コンマ、およびパイプをすべて取り除きます。 製品名にコンマが含まれる場合、AppMeasurement は、それを新しい製品の開始として解析します。この誤った解析は、製品文字列の残りの部分をスローし、ディメンションやレポートに誤ったデータが含まれる原因となります。
+>[!IMPORTANT]
+>
+> 製品名、カテゴリ、マーチャンダイジング eVar の値から、セミコロン、コンマ、およびパイプをすべて取り除きます。製品名にコンマが含まれる場合、AppMeasurement は、それを新しい製品の開始として解析します。この誤った解析は、製品文字列の残りの部分をスローし、ディメンションやレポートに誤ったデータが含まれる原因となります。
 
 ## 例
 
