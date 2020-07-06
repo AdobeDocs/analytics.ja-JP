@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 分類ルール
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2018'
+ht-degree: 100%
 
 ---
 
@@ -51,11 +54,13 @@ about_classification_rules.xml
 * [ルールによるキーの分類が行われない状況](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [ルールの優先度について](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE][!UICONTROL ルールビルダー]は数値 2 分類をサポートしていません。
+>[!NOTE]
+>
+>[!UICONTROL ルールビルダー]は数値 2 分類をサポートしていません。
 
 ## ルールに関する重要な情報
 
-*  [管理ツール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)で、分類の[!UICONTROL グループ権限]を指定します。
+*    [管理ツール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)で、分類の[!UICONTROL グループ権限]を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/c-classifications2/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [正規表現 - 「含まない」の例](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [正規表現 - 参照テーブル](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE]ベストプラクティスとして、正規表現は、区切り文字を使用するトラッキングコードに最も適しています。
+>[!NOTE]
+>
+>ベストプラクティスとして、正規表現は、区切り文字を使用するトラッキングコードに最も適しています。
 
 ## 正規表現 - トラッキングコードの例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE]トラッキングコードが URL エンコードされている場合は、ルールビルダーで分類&#x200B;**されません**。
+>[!NOTE]
+>
+>トラッキングコードが URL エンコードされている場合は、ルールビルダーで分類&#x200B;**されません**。
 
 この例では、次のキャンペーン ID を分類することを前提とします。
 
@@ -150,7 +159,7 @@ regex_classification_rules.xml
 
 正規表現の文字が何を意味しているかについては、[正規表現 - 参照表](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)を参照してください。
 
-## 正規表現 - 特定の文字の分類{#section_5D300C03FA484BADACBFCA983E738ACF}
+## 正規表現 - 特定の文字の分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 正規表現を使用する 1 つの方法は、文字を含む文字列内の特定の文字を分類することです。例えば、次のトラッキングコードに 2 つの重要な文字が含まれているとします。
 
