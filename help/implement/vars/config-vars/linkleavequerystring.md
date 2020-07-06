@@ -1,8 +1,11 @@
 ---
 title: linkLeaveQueryString
 description: リンクトラッキングディメンションでクエリー文字列を保持できます。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ AppMeasurement は、デフォルトで、リンクトラッキング URL から
 
 `linkLeaveQueryString` を有効にすると、すべてのリンクトラッキングディメンション（カスタムリンク、出口リンク、ダウンロードリンクを含む）が有効になります。
 
->[!TIP] この変数は、リンクトラッキング以外のディメンションには影響しません。カスタムリンク、出口リンク、ダウンロードリンクのみが影響されます。
+>[!TIP]
+>
+> この変数は、リンクトラッキング以外のディメンションには影響しません。カスタムリンク、出口リンク、ダウンロードリンクのみが影響されます。
 
 ## Adobe Experience Platform Launch の「URL パラメーターの保持」
 
