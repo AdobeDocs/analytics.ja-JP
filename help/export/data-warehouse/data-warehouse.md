@@ -3,8 +3,11 @@ description: Data Warehouse は、データをフィルタリングして、保�
 title: Data Warehouse の概要
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,9 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
 
 スケジュールに従ってダウンロードされる個々のレポートに対する 1 回のリクエストで、Data Warehouse の処理できる行数に制限はありません。
 
->[!NOTE]Data Warehouse では、レポート期間中に最初に発生した値がレポートされます。
+>[!NOTE]
+>
+>Data Warehouse では、レポート期間中に最初に発生した値がレポートされます。
 
 >[!IMPORTANT]
 >
