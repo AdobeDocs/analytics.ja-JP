@@ -2,7 +2,7 @@
 title: 個別訪問者数
 description: 個別の個人（またはデバイス）の数。
 translation-type: tm+mt
-source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -34,7 +34,9 @@ Analysis Workspaceは、レポートの精度に基づいて個別訪問者を�
 | 4 | `fid` | 訪問者に既存の [`s_fid`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookieがある、または何らかの理由で設定 `aid` できなか `mid` った場合。 |
 | 5 | IP アドレス、ユーザーエージェント、ゲートウェイ IP アドレス | 最後の手段は、訪問者のブラウザーがcookieを受け入れない場合に一意の訪問者を識別することです。 |
 
->[!NOTE] 各Analytics訪問者IDは、アドビのサーバー上のプロファイルに関連付けられます。 これらの訪問者プロファイルは、訪問者ID cookieの有効期限に関係なく、無操作状態が13か月以上続いた後に削除されます。
+>[!NOTE]
+>
+>各Analytics訪問者IDは、アドビのサーバー上のプロファイルに関連付けられます。 これらの訪問者プロファイルは、訪問者ID cookieの有効期限に関係なく、無操作状態が13か月以上続いた後に削除されます。
 
 ## 個別訪問者数に影響する動作
 
