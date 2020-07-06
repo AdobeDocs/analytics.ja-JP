@@ -4,7 +4,10 @@ title: シンプル化されたレポートメニュー
 topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Reports and Analytics にシンプル化されたレポートメニューを実�
 
 ![](assets/simplified-menu.png)
 
->[!NOTE]シンプル化されたメニューを適用すると、デフォルトのメニュー構造に対して行ったカスタマイズがすべて削除されます。また、組織内のすべての Marketing Reports and Analytics ユーザー用にシンプル化されたメニュー構造が実装されます。この新しいメニューを実装する前に、それによってどのような影響が及ぶか（既存のメニュー構造に従って開発されたトレーニングがある場合など）を慎重に検討してください。一度実装した後で、既存のメニュー構造のカスタマイズを元に戻すことはできません。
+>[!NOTE]
+>
+>シンプル化されたメニューを適用すると、デフォルトのメニュー構造に対して行ったカスタマイズがすべて削除されます。また、組織内のすべての Marketing Reports and Analytics ユーザー用にシンプル化されたメニュー構造が実装されます。この新しいメニューを実装する前に、それによってどのような影響が及ぶか（既存のメニュー構造に従って開発されたトレーニングがある場合など）を慎重に検討してください。一度実装した後で、既存のメニュー構造のカスタマイズを元に戻すことはできません。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;に移動して、Report Suite Manager を開きます。
 1. シンプル化されたメニュー構造を実装するレポートスイートを選択します。
