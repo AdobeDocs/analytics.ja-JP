@@ -2,8 +2,11 @@
 description: 'null'
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 * **空白のプロジェクト（デフォルト）**：手順については、「[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)」を参照してください。
 * **標準テンプレート**：アドビが作成し、製品に付属しているテンプレートです。
-* **カスタムテンプレート**&#x200B;管理者権限を持つユーザー、または Admin Console で [!UICONTROL Analysis Workspace: Save as Template] 権限を付与された管理者以外のユーザーが作成、共有または削除できるテンプレートです。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-console/permissions/product-profile.html)
+* **Custom template**: これらのテンプレートは、管理者権限を持つユーザーまたは管理者以外のユーザーが作成、共有または削除できます( [!UICONTROL Analysis Workspaceが付与されている場合)。 Admin Console内の「Save as Template] 」権限。 [詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -23,7 +26,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 管理者権限を持つユーザーは、作成した任意のプロジェクトをカスタムテンプレートに変換できます。その方法を次に示します。
 
 1. そのプロジェクトを開きます。
-1. **[!UICONTROL Project]**／**[!UICONTROL Save As Template]**&#x200B;に移動します。
+1. **[!UICONTROL プロジェクト]**／**[!UICONTROL テンプレートとして保存]**&#x200B;に移動します。
 
    ![](assets/save_project_template.png)
 
@@ -31,7 +34,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    >[!NOTE]
    >
-   >デフォルトでは、プロジェクトテンプレートは、組織の全員に表示されます。タグを適用することで、これを整理できます（タグと説明を編集するには、**[!UICONTROL Project]**／**[!UICONTROL Project Info & Settings]** に移動します）。
+   >デフォルトでは、プロジェクトテンプレートは、組織の全員に表示されます。タグを適用することで、これを整理できます（タグおよび説明を編集するには、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;に移動します）。
 
 ### カスタムテンプレートで実行できるアクション
 
@@ -110,7 +113,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ### People
 
->[!NOTE]人物テンプレートとそれに関連する人物指標は、[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html) の一部としてのみ使用可能です。
+>[!NOTE]
+>
+>人物テンプレートとそれに関連する人物指標は、[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html) の一部としてのみ使用可能です。
 
 このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。このテンプレートでは次の操作が可能です。
 
@@ -129,14 +134,14 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 このテンプレートを使用すれば、重要なクロスデバイスのパフォーマンスデータを確認できます。このサービスは、[Cross-Device Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-home.html)（CDA）へのアクセス権を持つユーザーのみが利用できます。
 
 * **Co-op グラフのメンバーに関する特別な注意事項**：Co-op グラフがサポートされる地域とサポートされない地域の訪問者が、レポートスイートのどの部分に含まれているかを表示します。
-* **ユーザーの識別**：クロスデバイス分析に基づくメソッドを使用して、サイトへの訪問者を識別する頻度を示します。
-* **オーディエンスサイズの測定**：「個別デバイス」と「人」の比較を表示します。この 2 つの数値の割合は「クロスデバイス圧縮」と呼ばれ、このパネルに表示される計算指標です。この圧縮指標は、次の様々な要因によって異なります。
+* **ユーザーの ID**：クロスデバイス分析に基づくメソッドを使用して、サイトへの訪問者を識別する頻度を示します。
+* **オーディエンスサイズの測定**：「個別デバイス数」と「人」の比較を表示します。この 2 つの数値の比率は「クロスデバイス圧縮」と呼ばれ、このパネルに表示される計算指標です。この圧縮指標は、次の様々な要因によって異なります。
    * **Co-op グラフまたはプライベートグラフの使用**：一般に、Device Co-op を使用する組織は、プライベートグラフを使用する組織よりも圧縮率が高くなる傾向があります。
    * **ログイン率**：サイトにログインするユーザーが増えるほど、アドビはデバイスをまたいで訪問者を識別し、関連付けられるようになります。サイトのログイン率が低い場合は、圧縮率も低くなります。
    * **Experience Cloud ID の有効範囲**：ECID を持つ訪問者のみを結び付けることができます。ECID を使用してサイトに来訪した訪問者の割合が低くなると、圧縮率も低くなります。
    * **複数のデバイスの使用**：サイトの訪問者が複数のデバイスを使用していない場合は、圧縮率が低くなります。
    * **レポート精度**：通常、日別の圧縮は、月別または年別の圧縮よりも小さくなります。1 人のユーザーが 1 日で複数のデバイスを使用する機会は、1 ヶ月のうち 1 日だけ使用する場合よりも少なくなります。セグメント化、フィルタリングまたは分類ディメンションを使用した場合も、圧縮率が低くなります。
-* **人ベースのセグメント**：デバイス固有のデータを表示できるセグメントドロップダウンが含まれます。このパネルでは、セグメントを使用してデバイスタイプを含める、または除外すると、レポートにどのような影響が生じるかを確認することを推奨します。
+* **人ベースのセグメント**：デバイス固有のデータを確認できるセグメントドロップダウンが含まれます。このパネルでは、セグメントを使用し、デバイスタイプを含める場合と除外する場合とで、レポートにどのように影響するかを確認することを推奨します。
 * **クロスデバイスジャーニーの分析**：デバイスタイプに基づいたフローレポートとフォールアウトレポートを提供します。
-* **クロスデバイスアトリビューション**：Journey IQ と Attribution IQ の機能を組み合わせます。
-* **その他のヒント**：CDA をさらに活用するのに役立つ、CDA に関する役立つトピックです。
+* **クロスデバイスのアトリビューション**：Journey IQ と Attribution IQ の機能を組み合わせます。
+* **その他のヒント**：CDA をさらに活用できる、CDA に関する便利なトピック。
