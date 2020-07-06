@@ -1,8 +1,11 @@
 ---
 description: サードパーティアプリケーションから Analytics に追跡データをインポートします。
 title: Analytics Data Connectors 使用の手引き
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,9 @@ Adobe Analytics は、Data Warehouse を経由し、これらを毎日の個別�
    * 購入：`purchase` イベント
    * 製品表示：`prodView` イベント
 
->[!NOTE]製品がイベントを関連付けずに定義されている場合、prodView イベントが自動的に発生します。
+>[!NOTE]
+>
+>製品がイベントを関連付けずに定義されている場合、prodView イベントが自動的に発生します。
 上記の要件が満たされない場合、対応するリマーケティングセグメントは適切にレポートされません。
 
 [!UICONTROL 買い物かごの放棄]：ユーザーが商品を買い物かごに追加した後に発生します。
@@ -104,4 +109,6 @@ s.events="purchase";
 | リマーケティングセグメントファイルを受け取っていません。 | ファイルを受け取っていない場合、組織のサポートされたユーザーが ClientCare に問い合わせて、レポートが正しく受け取れない原因を調査します。 |
 
 
->[!IMPORTANT]コンサルタントが、標準的な Data Connectors 統合のリマーケティングセグメントファイルに加えて、Data Warehouse リクエストを毎日スケジュールされたレポートとして設定するのは、一般的です。この Data Warehouse リクエストは、Data Connectors 変数および非 Data Connectors 変数を含むことがあり、このリクエストは、組織の特定のリクエストにのみ基づいてスケジュールできます。トラブルシューティング時に混乱を避けるために、問題になっているファイルが実際のリマーケティングセグメントファイルか、または非 Genesis 変数を含む Data Warehouse リクエストかを指定します。
+>[!IMPORTANT]
+>
+>コンサルタントが、標準的な Data Connectors 統合のリマーケティングセグメントファイルに加えて、Data Warehouse リクエストを毎日スケジュールされたレポートとして設定するのは、一般的です。この Data Warehouse リクエストは、Data Connectors 変数および非 Data Connectors 変数を含むことがあり、このリクエストは、組織の特定のリクエストにのみ基づいてスケジュールできます。トラブルシューティング時に混乱を避けるために、問題になっているファイルが実際のリマーケティングセグメントファイルか、または非 Genesis 変数を含む Data Warehouse リクエストかを指定します。
