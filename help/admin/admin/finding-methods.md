@@ -4,7 +4,10 @@ title: 検索方法
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 100%
 
 ---
 
@@ -52,5 +55,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
  </tbody> 
 </table>
 
->[!NOTE]すべての検索方法はその訪問が終了すると有効期限が切れます。「有効期限」を別のイベント（チェックアウトなど）に設定した場合、検索方法は訪問中にチェックアウトが発生した時点で有効期限が切れます。訪問中にチェックアウトが発生しなかった場合、検索方法はその訪問が終了すると有効期限が切れます。
+>[!NOTE]
+>
+>すべての検索方法はその訪問が終了すると有効期限が切れます。「有効期限」を別のイベント（チェックアウトなど）に設定した場合、検索方法は訪問中にチェックアウトが発生した時点で有効期限が切れます。訪問中にチェックアウトが発生しなかった場合、検索方法はその訪問が終了すると有効期限が切れます。
 
