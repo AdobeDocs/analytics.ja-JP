@@ -2,19 +2,19 @@
 title: eVar
 description: 実装で使用できるカスタム変数。
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 68%
+ht-degree: 86%
 
 ---
 
 
 # eVar
 
-*このヘルプページでは、eVarの実装方法を説明します。 eVarがディメンションとして機能する方法について詳しくは、コンポーネントユーザーガイドのeVar[](/help/components/dimensions/evar.md)を参照してください。*
+*このヘルプページでは、eVar の実装方法について説明します。eVar がディメンションとして機能する方法について詳しくは、コンポーネントユーザーガイドの [eVar](/help/components/dimensions/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。ソリューションデザインの [ドキュメントがある場合](/help/implement/prepare/solution-design.md)、組織に固有のほとんどのディメンションはeVarになります。 デフォルトでは、eVarは設定されたヒットの後も保持されます。 レポートスイート設定の「 [コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 」で、その有効期限と配分をカスタマイズできます。
+eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
 使用可能なeVarの数は、アドビとの契約によって異なります。 アドビとの契約でサポートされている場合は、最大250個のeVarを利用できます。
 
@@ -45,7 +45,7 @@ s.eVar1 = "Example custom value";
 
 ## カウンター eVar
 
-eVar 値には通常、文字列値が含まれます。ただし、eVar にカウンターを代わりに含めるように設定することはできます。例えば、購入前におこなわれた内部検索の数をカウントするとします。テキスト値を設定する代わりに、次の構文を使用します。
+eVar 値には通常、文字列値が含まれます。ただし、eVar にカウンターを代わりに含めるように設定できます。例えば、購入前におこなわれた内部検索の数をカウントするとします。テキスト値を設定する代わりに、次の構文を使用します。
 
 ```js
 // Increment a counter eVar by 1
@@ -57,4 +57,6 @@ s.eVar1 = "+12.49";
 
 eVar カウンターで小数点以下が 3 桁以上ある場合は、2 桁に四捨五入されます。eVar カウンターには負の値は設定できません。
 
-> [!IMPORTANT] カウンターeVarを使用する前に、管理コンソールでeVarを「カウンター」に設定する必要があります。 詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
+>[!IMPORTANT]
+>
+>カウンター eVar を使用する前に、Admin Console で eVar を「カウンター」に設定する必要があります。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
