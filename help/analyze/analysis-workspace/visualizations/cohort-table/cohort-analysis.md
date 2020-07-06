@@ -1,11 +1,11 @@
 ---
 title: コホート分析とは
-description: 分析ワークスペースでのコホート分析について説明します
+description: Analysis Workspaceでのコホートの分析について説明します。
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -24,13 +24,15 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 * 価格やアップグレードパスなどの領域で、A/B テストの着想を得る。
 * View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-[!UICONTROL コホート分析] は、Adobe Analyticsのすべてのお客様が、 [!UICONTROL 分析ワークスペースへのアクセス権を持っている場合に利用できます]。
+[!UICONTROL コホート分析] は、 [!UICONTROL Analysis Workspaceへのアクセス権を持つアドビのAnalyticsのすべてのお客様が利用できます]。
 
 [コホート分析（YouTube）](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（4:36）
 
 >[!IMPORTANT]
 >
->[!UICONTROL コホート分析] は、セグメント化不可能な指標（計算指標を含む）、整数以外の指標（売上高など）、および回数をサポートしていません。 セグメントで使用できる指標のみが
+>[!UICONTROL コホート分析]
+>
+>は、セグメント化不可能な指標（計算指標を含む）、整数以外の指標（売上高など）、回数をサポートしていません。 セグメントで使用できる指標のみが
 >[!UICONTROL コホート分析]。一度に1つ増やすことしかできません。
 
 ## コホート分析の機能
