@@ -1,8 +1,11 @@
 ---
 title: useBeacon
 description: useBeacon を使用すると、AppMeasurement で強制的にブラウザーの sendBeacon API を使用できます
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `useBeacon` が有効である場合、アドビに送信される次のヒットでは、標準の `GET` イメージリクエストの代わりに、ブラウザーの `navigator.sendBeacon()` メソッドが使用されます。この変数は、[`s.t()`](../functions/t-method.md) と [`s.tl()`](../functions/tl-method.md) の両方のイメージリクエストに適用されます。AppMeasurement 2.17.0 以降が必要です。
 
->[!TIP] AppMeasurement は、出口リンクイメージリクエストで `useBeacon` を自動的に有効にします。
+>[!TIP]
+>
+> AppMeasurement は、出口リンクイメージリクエストで `useBeacon` を自動的に有効にします。
 
 訪問者が `useBeacon` をサポートしていないブラウザーを使用している場合、`navigator.sendBeacon()` 変数は無視されます。この変数を使用するには、AppMeasurement 2.16.0 以降が必要です。
 
@@ -29,4 +34,6 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 s.useBeacon = true;
 ```
 
->[!NOTE] トラッキングコールの実行後、この変数は `false` にリセットされます。実装が同じページ読み込みで複数のイメージリクエストを送信する場合（単一ページのアプリケーションなど）、各トラッキングコールの前にこの変数を `true` に設定します。
+>[!NOTE]
+>
+> トラッキングコールの実行後、この変数は `false` にリセットされます。実装が同じページ読み込みで複数のイメージリクエストを送信する場合（単一ページのアプリケーションなど）、各トラッキングコールの前にこの変数を `true` に設定します。
