@@ -1,8 +1,11 @@
 ---
 title: linkType
 description: linkType 変数は、ヒットが属するリンクトラッキングディメンションを特定するのに使用します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * `d` - ダウンロードリンク
 * `e` - 出口リンク
 
->[!TIP] この変数は `tl()` メソッドの 2 番目のパラメーターで、通常、スタンドアロン変数として設定する必要はありません。ただし、`linkType` メソッドの引数として値を設定しない場合は、`tl()` 変数を使用できます。
+>[!TIP]
+>
+> この変数は `tl()` メソッドの 2 番目のパラメーターで、通常、スタンドアロン変数として設定する必要はありません。ただし、`linkType` メソッドの引数として値を設定しない場合は、`tl()` 変数を使用できます。
 
 ```js
 s.linkType = "e";
