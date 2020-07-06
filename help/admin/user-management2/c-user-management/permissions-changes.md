@@ -6,7 +6,10 @@ title: ユーザーおよびグループ権限の変更
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1562'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +18,15 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 ## 変更内容 {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL Admin]**／**[!UICONTROL User Management]**／**[!UICONTROL Groups]**
+**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**
 
->[!NOTE]使用可能な権限の組み合わせが多いので、権限の組み合わせごとに使用できる API メソッドをすべて説明するドキュメントを用意することはできません。一般に、Web サービスへのアクセス権を付与された非管理者は、API メソッドへの読み取りアクセスのみ可能です。API メソッドへの書き込みアクセスはできません。
+>[!NOTE]
+>
+>使用可能な権限の組み合わせが多いので、権限の組み合わせごとに使用できる API メソッドをすべて説明するドキュメントを用意することはできません。一般に、Web サービスへのアクセス権を付与された非管理者は、API メソッドへの読み取りアクセスのみ可能です。API メソッドへの書き込みアクセスはできません。
 
 API とインターフェイスでは同じ権限付与システムを使用しているので、管理者以外の個々のユーザーがインターフェイス（Adobe Admin Console）で管理者からどのような権限を付与されようと、API に対するそのユーザーの権限と同じものになります。
 
@@ -61,7 +66,7 @@ API とインターフェイスでは同じ権限付与システムを使用し�
    <td colname="col2"> <p>権限をカスタマイズして、（指標に加えて）ディメンションへのアクセス権を含めたり、除外したりできます。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/c-classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
     </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">ディメンションの権限のカスタマイズ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +128,9 @@ API とインターフェイスでは同じ権限付与システムを使用し�
 
 次の表に、会社のステータスに応じたタスクとその実行場所を示します。
 
->[!NOTE]*`migrated user`* および *`Experience Cloud user`* は、Experience Cloud に参加するための電子メールの招待状を承認したユーザーを指します。電子メールの招待状が承認されなかった場合、ユーザーは、依然として Analytics ユーザーで、Admin Console で管理できません。（例外は、移行が [Enterprise ID または Federated ID](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) を使用する場合です。この場合、ユーザーは、管理者がユーザーごとにユーザーを移行する際に移行されます。）
+>[!NOTE]
+>
+>*`migrated user`* および *`Experience Cloud user`* は、Experience Cloud に参加するための電子メールの招待状を承認したユーザーを指します。電子メールの招待状が承認されなかった場合、ユーザーは、依然として Analytics ユーザーで、Admin Console で管理できません。（例外は、移行が [Enterprise ID または Federated ID](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html) を使用する場合です。この場合、ユーザーは、管理者がユーザーごとにユーザーを移行する際に移行されます。）
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
