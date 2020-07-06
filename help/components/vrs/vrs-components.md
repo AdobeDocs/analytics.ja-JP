@@ -3,7 +3,7 @@ description: 仮想レポートスイートをキュレートして、Analysis W
 title: 仮想レポートスイートコンポーネントのキュレーション
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 仮想レポートスイートをキュレートして、Analysis Workspace で利用可能なコンポーネントを限定できます。
 
->[!NOTE]キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイート（VRS）で、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。以前は、「**[!UICONTROL すべてのコンポーネントを表示]**」ボタンをクリックすることで、誰でもキュレーションされていないコンポーネントを表示できました。[更新されたキュレーション機能](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)により、どのコンポーネントを表示できるかをより詳細に制御できます。
+>[!NOTE]
+>
+>キュレーションされた Workspace プロジェクトおよびキュレーションされた仮想レポートスイート（VRS）で、管理者および非管理者が表示できるコンポーネントに対して変更が加えられました。以前は、「**[!UICONTROL すべてのコンポーネントを表示]**」ボタンをクリックすることで、誰でもキュレーションされていないコンポーネントを表示できました。[更新されたキュレーション機能](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)により、どのコンポーネントを表示できるかをより詳細に制御できます。
 
 コンポーネントのキュレーションを有効にするには、次の手順に従います。
 
