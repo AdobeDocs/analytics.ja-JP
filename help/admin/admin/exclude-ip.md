@@ -3,8 +3,11 @@ description: レポートから、社内の Web サイト活動、サイトの�
 title: IP アドレスで除外
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL IP アドレスで除外]**
 
->[!NOTE]IP アドレスによって除外されたヒットは、[サーバーコール](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/terms.html)として請求されます。
+>[!NOTE]
+>
+>IP アドレスによって除外されたヒットは、[サーバーコール](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/terms.html)として請求されます。
 
 ## Cookie ごとに除外 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -27,7 +32,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 |--- |--- |
 | [!UICONTROL CNAME を追加] | ドメインを除外するために使用できるオプトアウトリンクを生成します。アシストが必要な場合には、貴社のサポート対象ユーザーにお問い合わせください。<br>会社のオプトアウトページに移動してブラウザーを測定の対象から除外することを選択することで、トラフィックをレポートスイートのレポートから除外することができます。<br>実装にサードパーティの cookie を使用している場合、オプトアウトページは[こちら](https://democorp.112.2o7.net/optout.html?locale=ja_JP&amp;popup=true)です。 |
 
->[!NOTE]コンピューターによる除外は、次の場合にのみ機能します。
+>[!NOTE]
+>
+>コンピューターによる除外は、次の場合にのみ機能します。
 >
 > * 同じワークステーションからウェブサイトにアクセスしているとき。
 > * 使用中のブラウザーで cookie が有効になっているとき。
