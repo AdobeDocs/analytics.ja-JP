@@ -2,8 +2,11 @@
 description: 'null'
 title: セグメント
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
 
@@ -32,12 +35,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE]この方法で作成されたセグメントは、プロジェクト内部にあります。
+>[!NOTE]
+>
+>この方法で作成されたセグメントは、プロジェクト内部にあります。
 
 次の手順に従うことで、これらのセグメントを公開（グローバル）できます。
 
 1. ドロップゾーンのセグメントの上にマウスポインターを置いて、「i」アイコンをクリックします。
-1. 表示される情報パネルで、「**[!UICONTROL Make public]**」をクリックします。
+1. 表示される情報パネルで、「**[!UICONTROL 公開する]**」をクリックします。
 
    ![](assets/segment-info.png)
 
