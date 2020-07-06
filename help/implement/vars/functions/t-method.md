@@ -1,8 +1,11 @@
 ---
 title: t
 description: ページビュートラッキングコールをアドビに送信します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 100%
 
 ---
 
@@ -60,4 +63,6 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
->[!NOTE] 以前のバージョンの AppMeasurement では、この関数を呼び出すために複数行のコードを使用していました。この追加コードは、従来、異なるブラウザーに対する対処方法を用意していました。最新のブラウザーの標準化とベストプラクティスでは、このコードブロックは不要になりました。現在必要なのは `s.t()` メソッドの呼び出しのみです。
+>[!NOTE]
+>
+> 以前のバージョンの AppMeasurement では、この関数を呼び出すために複数行のコードを使用していました。この追加コードは、従来、異なるブラウザーに対する対処方法を用意していました。最新のブラウザーの標準化とベストプラクティスでは、このコードブロックは不要になりました。現在必要なのは `s.t()` メソッドの呼び出しのみです。
