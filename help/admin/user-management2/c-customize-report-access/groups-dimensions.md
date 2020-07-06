@@ -6,24 +6,31 @@ title: ディメンションの権限のカスタマイズ
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 98%
 
 ---
 
 
 # ディメンションの権限のカスタマイズ
 
->[!IMPORTANT]ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>[!IMPORTANT]
+>
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**
+**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL ディメンション]**／**[!UICONTROL カスタマイズ]**
 
->[!IMPORTANT]一部のディメンションについては、現時点では権限を指定できません。このようなディメンションとしては、モバイルのブックマークの長さ、モバイルデバイス番号、モバイル DRM、モバイル情報サービス、モバイル Java VM、モバイルデコレーションメール、モバイルインターネットプロトコル、モバイル OS、モバイルプッシュトゥトークがあります。
+>[!IMPORTANT]
+>
+>一部のディメンションについては、現時点では権限を指定できません。このようなディメンションとしては、モバイルのブックマークの長さ、モバイルデバイス番号、モバイル DRM、モバイル情報サービス、モバイル Java VM、モバイルデコレーションメール、モバイルインターネットプロトコル、モバイル OS、モバイルプッシュトゥトークがあります。
 >
 >これらのディメンションは、他の権限にかかわらず、すべてのユーザーが使用可能です。
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+このページの設定は、[!UICONTROL ユーザーグループの定義]ページで選択されたレポートスイートに関係します。
 
 ![](assets/permissions-dimensions.png)
 
@@ -34,9 +41,9 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 * ビデオおよびモバイルレポートおよびその他の Analytics ソリューリョンレポート（Experience Manager、Advertising Cloud、Social など）はディメンションです。
 * パスレポートは、ユーザーが親ディメンションにアクセスできる場合に使用できます。
 * カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。
-* 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる[変数](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)へのアクセスによって判断されます。
+* 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる[変数](https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/c-classifications.html)へのアクセスによって判断されます。
 
-詳しくは、「ユーザーとグループの権 [限の変更」を参照してくださ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/permissions-changes.html)い。
+詳しくは、「 [ユーザーとグループの権限の変更](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/permissions-changes.html)」を参照してください。
 
 **ディメンションのカスタマイズ**
 
