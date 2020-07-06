@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 分類インポーター - 概要
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 インポートツールを使用してインポートするデータは、特定の形式にフォーマットされている必要があります。すべての適切なヘッダー詳細を含むデータテンプレートをタブ区切り形式のデータファイルとしてダウンロードできるようになっています。新しいデータをこのテンプレートに追加した後、FTP を使用してブラウザーでデータファイルをインポートできます。
 
->[!NOTE]インポートおよびエクスポートする列の数を 30 以内にすることをお勧めします。
+>[!NOTE]
+>
+>インポートおよびエクスポートする列の数を 30 以内にすることをお勧めします。
 
 数値 2 分類を使用したデータのアップロードについて詳しくは、[数値 2 分類](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md)を参照してください。
 
