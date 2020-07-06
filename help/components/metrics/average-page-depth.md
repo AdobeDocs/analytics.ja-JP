@@ -2,7 +2,7 @@
 title: 平均ページ深度
 description: ディメンションの平均存在するページ数。
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -38,7 +38,9 @@ If 'Count repeat instances' is disabled:
 (1 + 4) / 2 = 2.5, rounded up to 3
 ```
 
->[!TIP] 平均的なページ深度を小数点以下で表示する場合は、この指標を数式内の唯一の要素として使用して計算指標を作成します。 計算指標の小数点以下の桁数を目的の小数点以下に増やします。
+>[!TIP]
+>
+>平均的なページ深度を小数点以下で表示する場合は、この指標を数式内の唯一の要素として使用して計算指標を作成します。 計算指標の小数点以下の桁数を目的の小数点以下に増やします。
 
 ## 100%を超える割合
 
