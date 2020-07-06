@@ -2,7 +2,7 @@
 title: 実装モーダル
 description: Adobe Analytics を初めて実装する場合について説明します。
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '30'
 ht-degree: 50%
@@ -32,7 +32,9 @@ Access the modal to create a report suite using the following steps.
 2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
 3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
->[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
+>[!NOTE]
+>
+>The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
 ## Create a report suite
 
@@ -72,7 +74,9 @@ Estimate how much traffic your website or app gets per day. This information all
 
 Determine what currency the report suite stores monetary values in.
 
->[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
+>[!IMPORTANT]
+>
+>Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
 ## Implementation resources
 
