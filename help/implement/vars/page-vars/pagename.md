@@ -1,8 +1,11 @@
 ---
 title: pageName
 description: サイトのページの名前。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `pageName` 変数は通常、特定のページの名前を保存します。最も人気のある個々のページを判断すると役立ちます。この変数は、「ページ名」ディメンションを設定します。
 
->[!NOTE] このディメンションは、常にリンクトラッキングコールから削除されます。リンクが追跡されたページ名を確認する場合は、この変数を eVar にコピーすることを検討してください。
+>[!NOTE]
+>
+> このディメンションは、常にリンクトラッキングコールから削除されます。リンクが追跡されたページ名を確認する場合は、この変数を eVar にコピーすることを検討してください。
 
 この変数が特定のページトラッキングコールで定義されていない場合は、代わりに [`pageURL`](pageurl.md) 変数が使用されます。
 
