@@ -4,8 +4,11 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: ライブラリ管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Dynamic Tag Management の「ライブラリ管理」設定のフィールドお
 
 **[!UICONTROL *`Property`*]**／![](assets/settings_gear.png)**[!UICONTROL &#x200B;ツールを編集&#x200B;]**／**[!UICONTROL &#x200B;ライブラリ管理&#x200B;]**
 
->[!NOTE]1 つの Web プロパティで複数の Adobe Analytics ツールを使用する場合は、ツールごとに異なる名前のトラッカー変数を使用する必要があります。1 つの Web プロパティ内で使用する Adobe Analytics ツール間にオブジェクト変数名の重複があると、競合が発生します。
+>[!NOTE]
+>
+>1 つの Web プロパティで複数の Adobe Analytics ツールを使用する場合は、ツールごとに異なる名前のトラッカー変数を使用する必要があります。1 つの Web プロパティ内で使用する Adobe Analytics ツール間にオブジェクト変数名の重複があると、競合が発生します。
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
