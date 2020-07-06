@@ -6,7 +6,7 @@ title: データ列リファレンス
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '3650'
 ht-degree: 99%
@@ -18,11 +18,15 @@ ht-degree: 99%
 
 このページを使用して、各列に含まれるデータを確認します。ほとんどの実装ではすべての列を使用していないので、データフィードの書き出しに含める列を決定する際には、このページを参考にすることができます。
 
->[!IMPORTANT]指定された列（例えば、255 文字として定義された列）では、文字列内の値をエスケープする文字の追加により、データフィードは追加の文字を送信する可能性があります。実装によって文字制限を超える値を定期的に送信する場合は、これらの追加の文字の可能性に注意してください。
+>[!IMPORTANT]
+>
+>指定された列（例えば、255 文字として定義された列）では、文字列内の値をエスケープする文字の追加により、データフィードは追加の文字を送信する可能性があります。実装によって文字制限を超える値を定期的に送信する場合は、これらの追加の文字の可能性に注意してください。
 
 ## 列、説明、データタイプ
 
->[!NOTE]ほとんどの列には、`post_` というプレフィックスが付く類似の列が含まれています。post 列には、サーバー側ロジック、処理ルール、VISTA ルールの適用後の値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。詳しくは、[データフィードに関する FAQ](../df-faq.md) を参照してください。
+>[!NOTE]
+>
+>ほとんどの列には、`post_` というプレフィックスが付く類似の列が含まれています。post 列には、サーバー側ロジック、処理ルール、VISTA ルールの適用後の値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。詳しくは、[データフィードに関する FAQ](../df-faq.md) を参照してください。
 
 | 列名 | 列の説明 | データタイプ |
 | --- | --- | --- |
@@ -43,7 +47,7 @@ ht-degree: 99%
 | `click_context_type` | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0：ページ URL<br>1：ページ名 | tinyint unsigned |
 | `click_sourceid` | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。レガシー ClickMap ツールの一部。 | int unsigned |
 | `click_tag` | 廃止。クリックされた HTML 要素のタイプ。 | char(10) |
-| `clickmaplink` | アクティビティマップリンク | varchar(255) |
+| `clickmaplink` | Activity Maplink | varchar(255) |
 | `clickmaplinkbyregion` | Activity Map 地域別リンク | varchar(255) |
 | `clickmappage` | Activity Map ページ | varchar(255) |
 | `clickmapregion` | Activity Map 地域 | varchar(255) |
