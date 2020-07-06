@@ -3,7 +3,10 @@ description: この統合をアクティブ化する前に、Adobe Analytics® �
 title: この統合をアクティブ化する前に
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ appFigures 用 Data Connectors 統合は、Analytics 変数を使用してさま
 
 ### 必須変数 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE]この統合では、アプリストアデータに専用の変数を使用するので、カスタムコマース変数やイベントを割り当てる必要はありません。
+>[!NOTE]
+>
+>この統合では、アプリストアデータに専用の変数を使用するので、カスタムコマース変数やイベントを割り当てる必要はありません。
 
 | 変数の種類 | 名前 | セット方法 | 説明 |
 |---|---|---|---|
