@@ -2,8 +2,11 @@
 description: 計算指標ビルダーを使用すると、統計関数と数学関数を適用して、高度な計算指標を作成できます。
 title: リファレンス：基本的な関数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ここでは、関数とその定義をアルファベット順に示します。
 
->[!NOTE][!DNL metric] が関数の引数として特定されている場合は、指標の他の式も許可されます。例えば、[!DNL MAXV(metrics)] を [!DNL MAXV(PageViews + Visits).] としてもかまいません。
+>[!NOTE]
+>
+>[!DNL metric] が関数の引数として特定されている場合は、指標の他の式も許可されます。例えば、[!DNL MAXV(metrics)] を [!DNL MAXV(PageViews + Visits).] としてもかまいません。
 
 ## 表関数と行関数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -214,7 +219,7 @@ ROUND(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *number* | 丸める指標です。 |
+| *数値* | 丸める指標です。 |
 
 桁数パラメーターのない丸めは、桁数パラメーターが 0 の丸めと同じで、直近の整数に丸めます。桁数パラメーターがある場合、小数の右側が指定された桁数の値が返されます。桁数が負数の場合、小数の左側の指定された桁数が 0 として返されます。
 
@@ -251,7 +256,7 @@ SQRT(metric)
 
 | 引数 | 説明 |
 |---|---|
-| *number* | 平方根を求める指標です。 |
+| *数値* | 平方根を求める指標です。 |
 
 ## 標準偏差（表） {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
