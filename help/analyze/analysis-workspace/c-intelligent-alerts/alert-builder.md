@@ -3,7 +3,10 @@ description: 'null'
 title: アラートビルダー
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * Analysis Workspace で以下のショートカットを使用する。
 
    `ctrl (or cmd) + shift + a`
-* > >に移 **[!UICONTROL Workspace]** 動し **[!UICONTROL Components]** ます **[!UICONTROL New Alert]**。
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* Reports &amp; Analyticsレポート内から、/に移動し **[!UICONTROL More]** ます **[!UICONTROL Add Alert]**。
+* **[!UICONTROL Workspace]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しいアラート]**&#x200B;に移動する。
+* 1 つまたは複数のフリーフォームテーブル行項目を選択し、右クリックして、「**[!UICONTROL 選択からアラートを作成]**」を選択する。
+* Reports &amp; Analytics レポートから、**[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動する。
 
 ## アラートの作成
 
@@ -41,7 +44,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 いつ指標がチェックされるかを、1 時間ごと、毎日、毎週または毎月から指定します。
 
->[!NOTE]カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度をサポートしません。
+>[!NOTE]
+>
+>カスタムカレンダーを含むレポートスイートの場合、アラートビルダーの月単位の精度をサポートしません。
 
 **受信者**
 
@@ -75,6 +80,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    * 以下
    * 変更（％）
    * 90％、95％、99％、99.75％、99.9％ のしきい値を設定できます。
+
    計算指標も使用できることに注意してください。
 
 *... これらすべてのフィルターを使用*
