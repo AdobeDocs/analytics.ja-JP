@@ -3,7 +3,7 @@ description: ヒストグラムは、Analysis Workspace の新しいビジュア
 title: ヒストグラム
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 97%
@@ -25,7 +25,9 @@ ht-degree: 97%
 
 ![](assets/histogram.png)
 
->[!NOTE]ヒストグラムは、計算指標ではなく、標準指標のみをサポートします。
+>[!NOTE]
+>
+>ヒストグラムは、計算指標ではなく、標準指標のみをサポートします。
 
 ここでは、実訪問者数ごとにページビュー数指標を使用しました。最初の（左の）グループは、実訪問者数ごとの 1 ページビューに対応し、2 番目のグループは 2 ページビューに対応します（以下同様）。
 
