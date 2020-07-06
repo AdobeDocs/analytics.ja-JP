@@ -4,8 +4,11 @@ subtopic: Data sources
 title: データソースを使用するための準備
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 管理ツールのヘルプの「[成功イベント](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/success-events/success-event.html)」を参照してください。
 
->[!NOTE]アドビではデータソースのデータに新しい空のイベントを使用することを強くお勧めしますが、既存のイベントの使用が適する場合も稀にあります。
+>[!NOTE]
+>
+>アドビではデータソースのデータに新しい空のイベントを使用することを強くお勧めしますが、既存のイベントの使用が適する場合も稀にあります。
 
 ## データディメンションの指定 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,7 +43,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 指標に複数のデータディメンションを定義できますが、各指標が、関連付けられた各データディメンションに対して、関連する値または値の組み合わせを提供する必要があります。例えば、オフラインの売上高指標を読み込み、これを&#x200B;*`Product`* および&#x200B;*`Partner`* の各データディメンションに関連付ける場合、オフラインの売上高指標は製品とパートナーの各組み合わせ（合計売上高など）に関連している必要があります。
 
->[!NOTE]どのデータディメンションでも分類できないトータル指標を読み込むこともできます。
+>[!NOTE]
+>
+>どのデータディメンションでも分類できないトータル指標を読み込むこともできます。
 
 データソースで使用するデータディメンションを定義した後は、変数へのマッピングによってディメンションデータをマーケティングレポート内に組み込みます。標準のレポート（製品、トラッキングコード、検索キーワードなど）またはコンバージョントラフィック変数（eVar）のどちらかを使用します。
 
