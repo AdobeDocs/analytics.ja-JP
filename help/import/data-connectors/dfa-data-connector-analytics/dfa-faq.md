@@ -5,7 +5,10 @@ title: よくある質問
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例えば、レポートスイート A の統合に CSID を割り当てられた広告主 ID Z があるとします。後で別の統合が広告主 Z のレポートスイート B にセットアップされる場合、この新しい統合には CSID が再割り当てされません。この場合、Google チケットが必要になります。一方、レポートスイート A、広告主 ID Z の例では、後にレポートスイート A の別の統合は、広告主 Z がセットアップされ、最初の統合のみが統合のデータを受け取りますが、この場合、最初の統合を非アクティブ化すれば、2 番目の統合にデータを流すことができます。
 
->[!NOTE]CSID は、統合のバージョン 2.0 では使用されず、そのため CSID ネゴシエーションプロセスは適用されません。
+>[!NOTE]
+>
+>CSID は、統合のバージョン 2.0 では使用されず、そのため CSID ネゴシエーションプロセスは適用されません。
 
 ## 統合の 2.0 を使用していますが、DFA 広告のコスト指標が表示されません。なぜですか。 {#section-805748111bbe4bbf918d6dbbb2641fff}
 
