@@ -1,8 +1,11 @@
 ---
 title: useLinkTrackSessionStorage
 description: リンクトラッキングデータを、cookie ではなくセッションストレージに格納します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * プロトコル間ではセッションストレージは機能しません。例えば、あるページが HTTP 経由で提供され、次のページが HTTPS 経由で提供されるとします。プロトコルが異なるため、AppMeasurement はセッションストレージのリンクトラッキングデータにアクセスできません。
 * セッションストレージは、サブドメイン間では機能しません。例えば、訪問者が `store.example.com` に移動してから、`toys.example.com` に移動したとします。サブドメインが異なるため、AppMeasurement はセッションストレージのリンクトラッキングデータにアクセスできません。
 
->[!TIP] リンクトラッキングにセッションストレージを使用した、最も信頼性の高い実装では、1 つのサブドメインで HTTPS を介してすべてのコンテンツを提供します。
+>[!TIP]
+>
+> リンクトラッキングにセッションストレージを使用した、最も信頼性の高い実装では、1 つのサブドメインで HTTPS を介してすべてのコンテンツを提供します。
 
 AppMeasurement は、ヒットをアドビに送信した後で、セッションストレージのリンクトラッキングデータを削除します。また、ブラウザータブを閉じると自動的に期限切れになります。
 
