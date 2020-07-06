@@ -2,7 +2,7 @@
 title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 92%
@@ -45,7 +45,9 @@ ht-degree: 92%
 * `scView`: 「買い物かご表示 [」指標を増分します](/help/components/metrics/cart-views.md) 。
 * `scCheckout`: チェックアウト [数指標を増分し](/help/components/metrics/checkouts.md) ます。
 
->[!NOTE] この変数では大文字と小文字が区別されます。正確なデータ収集を確実におこなうために、イベント値の誤った大文字化を避けます。
+>[!NOTE]
+>
+> この変数では大文字と小文字が区別されます。正確なデータ収集を確実におこなうために、イベント値の誤った大文字化を避けます。
 
 ```js
 // Set the events variable to a single value
@@ -67,7 +69,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
->[!NOTE] カウンターイベントは、通貨や小数値をサポートしません。通貨イベントは通貨に、数値イベントは小数値に使用します。
+>[!NOTE]
+>
+> カウンターイベントは、通貨や小数値をサポートしません。通貨イベントは通貨に、数値イベントは小数値に使用します。
 
 ### 通貨イベントの使用
 
@@ -84,7 +88,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
->[!NOTE] `events` 変数と `products` 変数の両方に通貨値を設定した場合、`events` での通貨値が使用されます。`events` 変数と `products` 変数の両方で通貨値を設定しないでください。
+>[!NOTE]
+>
+> `events` 変数と `products` 変数の両方に通貨値を設定した場合、`events` での通貨値が使用されます。`events` 変数と `products` 変数の両方で通貨値を設定しないでください。
 
 ### 数値イベントの使用
 
@@ -99,4 +105,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
->[!NOTE] `events` 変数と `products` 変数の両方に数値を設定した場合は、`events` の数値が使用されます。`events` 変数と `products` 変数の両方に数値を設定しないでください。
+>[!NOTE]
+>
+> `events` 変数と `products` 変数の両方に数値を設定した場合は、`events` の数値が使用されます。`events` 変数と `products` 変数の両方に数値を設定しないでください。
