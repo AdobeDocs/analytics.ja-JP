@@ -5,7 +5,7 @@ title: フル処理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 93%
@@ -15,7 +15,9 @@ ht-degree: 93%
 
 # フル処理
 
->[!NOTE] フル処理のデータソースではなく、 [Bulk Data Insertion API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) を使用することをお勧めします。 フル処理データソースは、今後非推奨となります。
+>[!NOTE]
+>
+>フル処理のデータソースではなく、 [Bulk Data Insertion API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) を使用することをお勧めします。 フル処理データソースは、今後非推奨となります。
 
 データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 
