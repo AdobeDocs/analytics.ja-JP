@@ -4,8 +4,11 @@ subtopic: Classifications
 title: FTP インポート
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 その月のユニーク値が超過すると、その超過した値に対応する分類データはレポート上で表示されません。このような分類は、data warehouse または ad hoc analysis で表示できます。
 
->[!NOTE]分類データファイルの処理にかかる時間は、ファイルサイズと、アドビのサーバーで処理中のファイルの数によって異なります。データファイルの処理にかかる時間は、通常 72 時間以内です。
+>[!NOTE]
+>
+>分類データファイルの処理にかかる時間は、ファイルサイズと、アドビのサーバーで処理中のファイルの数によって異なります。データファイルの処理にかかる時間は、通常 72 時間以内です。
 
 FTP を使用してデータをアップロードする前に、FTP アカウントを作成します。詳しくは、[FTP アカウントの作成](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)を参照してください。
 
