@@ -1,8 +1,11 @@
 ---
 title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 各リスト変数とそのロジックの使用方法を、[ソリューションデザインドキュメント](../../prepare/solution-design.md)に記録してください。
 
->[!NOTE] リスト変数には、訪問者ごとの最新の 250 個の値が格納されます。特定の訪問者に対して 250 を超えるユニーク値が存在する場合、最も古い値は指標に関連付けられません。
+>[!NOTE]
+>
+> リスト変数には、訪問者ごとの最新の 250 個の値が格納されます。特定の訪問者に対して 250 を超えるユニーク値が存在する場合、最も古い値は指標に関連付けられません。
 
 ## レポートスイート設定でのリスト変数の設定
 
@@ -32,7 +37,9 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 s.list1 = "Example value 1,Example value 2,Example value 3";
 ```
 
->[!TIP] 同じヒットに重複する値を設定した場合、アドビはそれらの値のすべてのインスタンスの重複を排除します。例えば、`s.list1 = "Example,Example";` を設定した場合、1 つのインスタンスがレポートでカウントされます。
+>[!TIP]
+>
+> 同じヒットに重複する値を設定した場合、アドビはそれらの値のすべてのインスタンスの重複を排除します。例えば、`s.list1 = "Example,Example";` を設定した場合、1 つのインスタンスがレポートでカウントされます。
 
 ## リスト prop と変数のリストを比較
 
