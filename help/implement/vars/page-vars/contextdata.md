@@ -1,8 +1,11 @@
 ---
 title: contextData
 description: コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,9 @@ s.contextData["example_variable"] = "Example value";
 
 ## 処理ルールを使用した Analytics 変数の入力
 
->[!IMPORTANT] コンテキストデータ変数は、処理ルールの実行後に破棄されます。変数に値を配置する処理ルールがアクティブでない場合、そのデータは永久的に失われます。
+>[!IMPORTANT]
+>
+> コンテキストデータ変数は、処理ルールの実行後に破棄されます。変数に値を配置する処理ルールがアクティブでない場合、そのデータは永久的に失われます。
 
 1. コンテキストデータ変数の名前と値を設定するには、実装を更新します。
 2. Adobe Analytics にログインし、管理者／レポートスイートに移動します。
