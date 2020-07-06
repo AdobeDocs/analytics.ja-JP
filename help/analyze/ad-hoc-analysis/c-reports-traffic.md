@@ -3,8 +3,11 @@ description: トラフィックソースレポートでは、訪問者の Web �
 title: トラフィックソースレポート
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ c_reports_ref_domains.xml
 
 サイトの成功指標に最も貢献した顧客を誘導したドメインを示します。リファラーは大きく「ドメイン」と「URL」というカテゴリに分けられます。ドメインは、ドメイン名のことであり、検索文字列や添付のサブディレクトリのない基本ドメインとして表示します。URL には基本ドメイン名と、クエリ文字列またはサブディレクトリが含まれます。
 
-## オリジナルの参照ドメイン{#concept_EB18251DF70343169B46BB59543A579A}
+## オリジナルの参照ドメイン {#concept_EB18251DF70343169B46BB59543A579A}
 
 <!-- 
 
@@ -96,7 +99,9 @@ c_reports_referrers.xml
 
 詳しくは、[ ヘルプの「](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/internal-url-filter-admin.html)内部 URL フィルター[!DNL Admin Console]」を参照してください。
 
->[!NOTE] Reports and Analytics は、訪問者が [!DNL imap://] または [!DNL mail://] のプロトコルを含む電子メールメッセージリンクをクリックしてサイトに来訪した場合、参照ドメインを電子メールリファラーとして記録します。例えば [!DNL https://mail.yahoo.com] からの訪問は、プロトコルが [!DNL https://] なので、電子メールリファラーとしてカウントされません。Outlook からの電子メールは「手動入力/ブックマーク」行に表示されますが、ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「検索エンジン」行に表示されます。
+>[!NOTE]
+>
+> Reports and Analytics は、訪問者が [!DNL imap://] または [!DNL mail://] のプロトコルを含む電子メールメッセージリンクをクリックしてサイトに来訪した場合、参照ドメインを電子メールリファラーとして記録します。例えば [!DNL https://mail.yahoo.com] からの訪問は、プロトコルが [!DNL https://] なので、電子メールリファラーとしてカウントされません。Outlook からの電子メールは「手動入力/ブックマーク」行に表示されますが、ドメインが既知の検索エンジンである HTTP プロトコルを含むリファラーはすべて「検索エンジン」行に表示されます。
 
 ## リファラータイプ {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -129,5 +134,7 @@ c_reports_ref_types.xml
 
 **USENET（ニュースグループ）**：リファラーの URL が `news://` で始まることを意味します。つまり、リファラーリンクは Web ページではなく USENET ニュースグループで投稿されました。
 
->[!NOTE]リファラータイプロジックは他のトラフィックソースレポート（[!UICONTROL リファラー]や[!UICONTROL 参照ドメイン]など）と一致します。この変更によって、[!UICONTROL リファラータイプ]レポートの「サイト内」と「JavaScript が有効になっていません」という行項目の発生が減少するか、発生されなくなります。
+>[!NOTE]
+>
+>リファラータイプロジックは他のトラフィックソースレポート（[!UICONTROL リファラー]や[!UICONTROL 参照ドメイン]など）と一致します。この変更によって、[!UICONTROL リファラータイプ]レポートの「サイト内」と「JavaScript が有効になっていません」という行項目の発生が減少するか、発生されなくなります。
 
