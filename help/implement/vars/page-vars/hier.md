@@ -1,8 +1,11 @@
 ---
 title: hier
 description: Adobe Analytics に階層変数を実装します。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 階層変数は、サイトの構造を確認できるカスタム変数です。
 
->[!TIP] この変数は、以前のバージョンの Adobe Analytics ではより一般的に使用されていました。アドビでは、[eVar](evar.md) と分類の使用をお勧めします。
+>[!TIP]
+>
+> この変数は、以前のバージョンの Adobe Analytics ではより一般的に使用されていました。アドビでは、[eVar](evar.md) と分類の使用をお勧めします。
 
 この変数は、サイト構造に 3 つ以上のレベルを持つサイトの場合に有効です。例えば、メディアサイトにスポーツセクションへの 4 つのレベル（`Sports`、`Local Sports`、`Baseball` および `Team name`）があるとします。誰かが野球ページを訪問すると、スポーツ、ローカルスポーツおよび野球のすべてのレベルにその訪問が反映されます。
 
