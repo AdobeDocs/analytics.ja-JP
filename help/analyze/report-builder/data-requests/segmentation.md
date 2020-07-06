@@ -4,7 +4,10 @@ title: セグメントの管理
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '919'
+ht-degree: 98%
 
 ---
 
@@ -19,10 +22,12 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 
 ## セグメントの追加または編集 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE]Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
+>[!NOTE]
+>
+>Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
 
-1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、 [Analyticsのセグメント化を参照してください](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)。
+1. リクエストウィザードの手順 1 のセグメントパネルで、「**[!UICONTROL 追加]**」をクリックします。
+1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、 [Analyticsセグメント化を参照してください](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)。
 1. セグメントを定義して保存したら、リクエストウィザードに戻ります。
 1. 更新アイコンをクリックして、セグメント一覧を更新します
 
@@ -35,7 +40,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 レポート閲覧中に、表示されているディメンションを使ってセグメントを作成したい場合があります。Report Builder インターフェイスからこのようなセグメントを作成できます。例えば、ページリクエスト出力からいくつかのページを選択し、それらの値に基づいてセグメントを作成できます。
 
 1. セグメントに含めるレポート出力項目を選択します。
-1. Right-click to select **[!UICONTROL Create In-Context Segment in]** and specify the right container (Hits Container, Visits Container, Visitor Container).
+1. 右クリックして&#x200B;**[!UICONTROL 次の中にコンテキスト内セグメントを作成]**&#x200B;を選択し、適切なコンテナ（ヒット数コンテナ、訪問コンテナ、訪問者コンテナ）を指定します。
 
    ![](assets/seg_in_context.png)
 
@@ -52,13 +57,15 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 
 リクエストに 1 つ以上のセグメントを適用できます。これには順次セグメントも含まれます。
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]** box to display all the segments.
+1. 「**[!UICONTROL セグメント]**」ドロップダウンリストに移動し、「**[!UICONTROL セグメントを選択]**」ボックス右側の小さい下矢印をクリックして、すべてのセグメントを表示します。
 
    ![](assets/seg_list.png)
 
 1. 適用するセグメントのチェックボックスをオンにします。
 
->[!NOTE]管理者であるかどうかにかかわらず、Report Builder では、自分が所有しているセグメント、および自分へ共有されているセグメントのみが表示されます（Reports &amp; Analytics のユーザーインターフェイスでは、管理者は組織内のすべてのセグメントが表示されます）。
+>[!NOTE]
+>
+>管理者であるかどうかにかかわらず、Report Builder では、自分が所有しているセグメント、および自分へ共有されているセグメントのみが表示されます（Reports &amp; Analytics のユーザーインターフェイスでは、管理者は組織内のすべてのセグメントが表示されます）。
 
 ## セグメントのフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -73,7 +80,7 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 | その他のフィルター／「*レポートスイート名*」のみ | [!DNL marketing reports & analytics] のセグメントビルダーで「*レポートスイート名*」のみのフィルターを適用し、[!DNL report builder] のアドバンスフィルターを表示すると、アドバンスフィルターには選択されたレポートスイートのセグメントのみが表示されます。 |
 | その他のフィルター／自分が所有 | 自分が所有しているセグメントをすべて表示します。 |
 | その他のフィルター／自分と共有 | 自分と共有されているすべてのセグメントが表示されます。 |
-| その他のフィルター／お気に入り | お気に入りとしてマークしたすべてのセグメントが表示されます。 |
+| その他のフィルター／お気に入り |   お気に入り. |
 | その他のフィルター／承認済み | 正式に     承認されたセグメントをすべて表示します。 |
 
 ## ワークブックへのセグメントコントロールの追加 {#section_E3E5149A8464441FA5445A98DBD520AC}
@@ -84,8 +91,8 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 
    ![](assets/seg_control.png)
 
-1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
-1. オプションに注意してくだ **[!UICONTROL Automatically refresh linked requests upon item selection]**&#x200B;さい。
+1. セグメントコントロールに表示したいセグメントのチェックボックスをオンにするか、または「**[!UICONTROL すべて選択]**」チェックボックスをオンにします。
+1. 「**[!UICONTROL リンクされたリクエストをアイテム選択に基づいて自動的にリフレッシュ]**」オプションも指定します。
 
    * このオプションを有効にすると、このコントロールを使用するすべてのリクエストが自動で更新されます。
    * このオプションを有効にしないと、リクエストの設定は更新されますが、リクエストのデータは更新されません。
@@ -106,7 +113,7 @@ v5.4 より前の Report Builder を使用すると、ユーザーは複数の�
 Report Builder 5.4 を使用すると、複数のリクエストでセグメントの追加、削除、置換、全置換をおこなうことができます。
 
 1. ワークブックで複数のリクエストを選択します。
-1. 右クリックし、/を選 **[!UICONTROL Edit Requests]** 択します **[!UICONTROL By Segment]**。
+1. 右クリックして、**[!UICONTROL リクエストを編集]**／**[!UICONTROL セグメント別]**&#x200B;を選択します。
 
    ![](assets/edit_by_segment.png)
 
