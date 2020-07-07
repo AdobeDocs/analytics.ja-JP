@@ -2,19 +2,15 @@
 description: Target用Analytics(A4T)パネルを使用すると、Analysis Workspace内のAdobe Targetのアクティビティとエクスペリエンスを分析できます。
 title: Target用Analytics(A4T)パネル
 translation-type: tm+mt
-source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
+source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 15%
+source-wordcount: '834'
+ht-degree: 14%
 
 ---
 
 
 # Target用Analytics(A4T)パネル
-
->[!IMPORTANT]
->
->**[!UICONTROL Target用Analytics(A4T)]** パネルは、現在制限付きテスト中です。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/landing/an-releases.html)
 
 Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で Adobe Target のアクティビティとエクスペリエンスを分析できます。また、最大3つの成功指標に対する上昇率と信頼性を確認することもできます。 A4Tパネルにアクセスするには、A4Tコンポーネントが有効なレポートスイートに移動します。 次に、左端のパネルアイコンをクリックし、Target用AnalyticsパネルをAnalysis Workspaceプロジェクトにドラッグします。
 
