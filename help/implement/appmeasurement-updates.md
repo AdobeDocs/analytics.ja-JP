@@ -3,10 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 97%
+source-wordcount: '2123'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,12 @@ JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートで�
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/code-manager-admin.md)でダウンロードできます。
+
+## バージョン 2.21.0
+
+リリース日：**2020 年 6 月 24 日**
+
+* Activity MaplinkExclusionsフィルターがFirefoxに適用されない場合がある問題を修正しました。
 
 ## バージョン 2.20.0
 
