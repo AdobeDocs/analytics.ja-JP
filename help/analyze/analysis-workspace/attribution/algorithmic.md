@@ -2,19 +2,15 @@
 title: アルゴリズムアトリビューション
 description: アルゴリズムアトリビューションモデルの詳細です。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 54063d26875aee57ced7825f3427c6051c4f8686
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
 
 
 # アルゴリズムアトリビューション
-
->[!NOTE]
->
->**[!UICONTROL アルゴリズムのアトリビューション]** は、現在、制限付きのテスト中です。 詳しくは、 [アドビAnalytics機能リリース](/help/landing/an-releases.md) （英語）を参照してください。
 
 Analysis Workspaceのアルゴリズム [アトリビューションモデルは](models.md) 、統計的な手法を使用して、レポートまたはフリーフォームテーブルのディメンション値にクレジットを割り当てるという点で、他のモデルとは異なります。 Analysis Workspace内の他のすべてのアトリビューションモデルと同様に、任意のディメンションまたは指標で使用でき、無制限のセグメント化と分類をサポートし、コンバージョンの100%をテーブル内のディメンション（「分数」アトリビューションとも呼ばれます）に分配します。
 
