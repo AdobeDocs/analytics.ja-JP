@@ -6,10 +6,10 @@ title: データ列リファレンス
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 98%
 
 ---
 
@@ -267,7 +267,7 @@ ht-degree: 99%
 | `visid_low` | visid_highと組み合わせて訪問者を一意に識別するために使用します。 | bigint unsigned |
 | `visid_new` | 新しく生成された訪問者 ID がヒットに含まれているかどうかを識別するフラグ。 | char(1) |
 | `visid_timestamp` | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX 時間）を示します。 | int |
-| `visid_type` | 訪問者の識別に使用された方法を表す数値 ID。<br>0：カスタム 訪問者 ID<br>1：IP およびユーザーエージェントのフォールバック<br>2：HTTP モバイル加入者ヘッダー<br>3：従来のcookie値（s_vi）<br>4：フォールバックcookieの値（s_fid）<br>5：ID サービス | tinyint unsigned |
+| `visid_type` | 外部使用の場合は除く。 処理の最適化のためにアドビが内部的に使用します。 訪問者の識別に使用されるメソッドを表す数値ID。<br>0: Custom visitorID or Unknown/not applicable<br>1: IPおよびユーザーエージェントのフォールバック <br>2: HTTPモバイル加入者ヘッダー <br>3: 従来のcookie値(s_vi) <br>4: フォールバックcookieの値(s_fid) <br>5: IDサービス | tinyint unsigned |
 | `visit_keywords` | 「検索キーワード」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限が使用されます。 | varchar(244) |
 | `visit_num` | 「通算訪問回数」ディメンションで使用される変数。1 から始まり、訪問者ごとに新しい訪問が開始されるたびに増分されます。 | int unsigned |
 | `visit_page_num` | 「ヒットの深さ」ディメンションで使用される変数。ユーザーがヒットを生成するたびに 1 ずつ増えます。訪問ごとにリセットされます。 | int unsigned |
