@@ -2,7 +2,7 @@
 description: Target用Analytics(A4T)パネルを使用すると、Analysis Workspace内のAdobe Targetのアクティビティとエクスペリエンスを分析できます。
 title: Target用Analytics(A4T)パネル
 translation-type: tm+mt
-source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
+source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 14%
@@ -26,7 +26,7 @@ Analytics for Target（A4T）パネルを使用すると、Analysis Workspace �
 | 成功指標 | ドロップダウンから最大3つの標準（計算されていない）成功イベントを選択するか、左のパネルから指標をドラッグ&amp;ドロップします。 各指標は、レンダリングされたパネルに専用のテーブルとビジュアライゼーションを持ちます。 |
 | カレンダーの日付範囲 | これは、Adobe Targetのアクティビティ日付範囲に基づいて自動入力されます。 必要に応じて変更できます。 |
 
-![パネルビルダー](assets/a4t-panel-builder.png)
+![パネルビルダー](assets/a4t-panel-builder2.png)
 
 ## パネル出力 {#Output}
 
