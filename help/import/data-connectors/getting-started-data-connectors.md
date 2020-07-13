@@ -2,10 +2,10 @@
 description: サードパーティアプリケーションから Analytics に追跡データをインポートします。
 title: Analytics Data Connectors 使用の手引き
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '977'
+ht-degree: 98%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 アドビは、企業のデジタル戦略やマーケティング戦略に関する実用的なリアルタイムの情報を提供します。data connectors によって、サードパーティのアプリケーションからの追跡データを Analytics にインポートできるので、データを 1 か所で収集して使用することができます。パートナー製品のいずれかを使用する場合、アプリケーションのデータをマーケティングレポートにインポートし、統合することができます。統合が完了すると、アプリケーションのデータを含むレポートを生成できます。
 
 例えば、電子メールの統合の場合には、電子メールパートナーを使用して電子メールキャンペーンを配布します。これにより、訪問者が Web サイトを訪問したときに、電子メールキャンペーンを通じてきた訪問者かどうかを確認できます。data connectors では、電子メールパートナーからのデータをマーケティングレポートに統合するので、この情報を使用して電子メールキャンペーンの効果を評価できます。
+
+>[!IMPORTANT]
+>
+>2021年中旬から後半にかけて、Adobe Data Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 **必要システム構成**
 
