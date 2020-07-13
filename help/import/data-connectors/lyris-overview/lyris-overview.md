@@ -3,14 +3,19 @@ description: 統合を通じて実現されるマーケティングの効率性�
 title: Adobe Analytics 用 Lyris Data Connector
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
 
 # Adobe Analytics 用 Lyris Data Connector {#lyris-data-connector-for-adobe-analytics}
 
-統合を通じて実現されるマーケティングの効率性について説明します。
+>[!IMPORTANT]
+>
+>2021年中旬から後半にかけて、Adobe Data Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 Adobe® Data Connectors™ 電子メール統合は、Adobe Analytics の行動情報と Lyris の電子メールマーケティングを組み合わせて成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供します。
 
