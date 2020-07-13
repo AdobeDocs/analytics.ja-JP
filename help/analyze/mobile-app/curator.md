@@ -2,9 +2,9 @@
 description: ダッシュボードのスコアカードを設定する手順
 title: Adobe Analytics ダッシュボードキュレーターガイド
 translation-type: tm+mt
-source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
+source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2301'
 ht-degree: 78%
 
 ---
@@ -149,7 +149,7 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
 
 受信者は、共有したスコアカードに Analytics ダッシュボードでアクセスできます。その後、スコアカードビルダーでスコアカードに変更を加えると、共有されたスコアカードが自動的に更新されます。エグゼクティブユーザーがアプリケーションのスコアカードを更新すると、変更が表示されます。
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
 ## アプリケーションでのエグゼクティブユーザーの設定
 
@@ -163,7 +163,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 * ユーザーに Adobe Analytics への有効なログインがある
 * モバイル・スコアカードを正しく作成し、それらのスコアカードを共有している
 * ユーザーが Analysis Workspace およびスコアカードが基づくレポートスイートにアクセスできる
-* ユーザーがスコアカードに含まれるコンポーネントにアクセスできるNote that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* ユーザーがスコアカードに含まれるコンポーネントにアクセスできるNote that you can select an option when sharing your Scorecards to **Share embedded components**.
 
 ### アプリの管理者ユーザーへの支援
 
