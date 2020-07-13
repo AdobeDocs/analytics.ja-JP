@@ -5,12 +5,19 @@ title: Adobe Analytics 用 DFA Data Connector
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1731'
+ht-degree: 99%
 
 ---
 
 
 # Adobe Analytics 用 DFA Data Connector {#dfa-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>2021年中旬から後半にかけて、Adobe Data Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 ますます複雑になり、競争の激しくなる今日のオンライン市場において、広告主や代理店は、オンラインマーケティング環境の理解と広告費用対効果を向上させ続ける必要があります。広告主、代理店、パブリッシャーのそれぞれが、目標達成に役立つツールを個別に所有していますが、異なるデータシステムやプロセスからのデータを手動で集計するようでは、オンラインマーケティングキャンペーンの有効性が大幅に阻害され、最適なキャンペーンの効果を得られなかったり、データの相違や混乱を招く原因となります。
 
