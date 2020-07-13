@@ -3,12 +3,19 @@ description: この Adobe® Data Connectors™ 電子メール統合は、Analyt
 title: Adobe Analytics 用 Delivra Data Connector
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 98%
 
 ---
 
 
 # Adobe Analytics 用 Delivra Data Connector {#delivra-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>2021年中旬から後半にかけて、Adobe Data Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 この Adobe® Data Connectors™ 電子メール統合は、Analytics® の行動情報と Delivra の電子メールマーケティングを組み合わせ、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
 
