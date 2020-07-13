@@ -3,12 +3,19 @@ description: この統合では、電子メールマーケティングソフト�
 title: Adobe Analytics 用 Optivo® BroadMail Data Connector
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 98%
 
 ---
 
 
 # Adobe Analytics 用 Optivo® BroadMail Data Connector {#optivo-broadmail-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>2021年中旬から後半にかけて、Adobe Data Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 この統合では、電子メールマーケティングソフトウェア統合フィードバックシステムの力と Adobe Analytics の行動レポートを組み合わせ、組織のための強力な分析と最適化の機会を作り出します。
 
