@@ -2,10 +2,10 @@
 description: AnalyticsのData Connectorsが提供終了する時期と理由について説明します。
 title: Analyticsのdata connectorsに関する発表の終了
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 7a6337efdbf08d31f2e2c632b57c781d0b566828
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 28%
+source-wordcount: '267'
+ht-degree: 26%
 
 ---
 
@@ -24,6 +24,6 @@ data connectors によって、サードパーティのアプリケーション�
 
 ## この機能を削除すると、どのように影響を受けますか。
 
-アドビパートナーの方は、統合を移行するか、廃止するかをお知らせいたします。
+アドビパートナーの方は、統合を移行するか、廃止するかをお知らせいたします。 統合を新しいAdobe Exchangeプログラムに移行する方法について詳しくは、 [こちらを参照してください](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) 。
 
 Data Connectorのお客様で、使用する統合の移行をリクエストする場合は、すべてのリクエストを統合パートナーに直接ルーティングする必要があります。 カスタマーケア経由でアドビにリクエストを送信しても、同じ効果は得られません。
