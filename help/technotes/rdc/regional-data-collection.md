@@ -2,10 +2,10 @@
 title: 地域データ収集
 description: 地域データ収集に関する情報
 translation-type: tm+mt
-source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 94%
+source-wordcount: '471'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud は地域データ収集（RDC）を使用するので、
 
 >[!IMPORTANT]
 >
->中国RDC(China Performance Optimization)追加オンパッケージは、アドビAnalyticsに対して有料で追加されます。 詳しくは、アドビのセールス担当者にお問い合わせください。
+>中国RDC(China Performance Optimization)追加オンパッケージは、アドビAnalyticsに対して有料で追加されます。 中国本土でのAdobe Performance Optimizationを使用すると、中国のお客様は、世界中の他の場所ではなく、中国のエッジノードにデータを直接送信できます。 これにより、中国以外のノードにデータを送信する場合と比較して、ページ読み込み時間とデータの精度が向上します。 詳しくは、アドビのセールス担当者にお問い合わせください。
 
 RDC には現在以下の場所が含まれます（変更される場合があります）：
 
