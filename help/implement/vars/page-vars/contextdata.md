@@ -2,10 +2,10 @@
 title: contextData
 description: コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 44ee19e468b9455c8c510421e507dd3f091fbc88
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 88%
 
 ---
 
@@ -35,9 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## 処理ルールを使用した Analytics 変数の入力
 
->[!IMPORTANT]
->
-> コンテキストデータ変数は、処理ルールの実行後に破棄されます。変数に値を配置する処理ルールがアクティブでない場合、そのデータは永久的に失われます。
+>[!IMPORTANT] コンテキストデータ変数は、処理ルールの実行後に破棄されます。変数に値を配置する処理ルールがアクティブでない場合、そのデータは永久的に失われます。
 
 1. コンテキストデータ変数の名前と値を設定するには、実装を更新します。
 2. Adobe Analytics にログインし、管理者／レポートスイートに移動します。
@@ -55,4 +53,19 @@ s.contextData["example_variable"] = "Example value";
 s.contextData["example_variable"] = "Example value";
 s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
+```
+
+## コンテキストデータ変数を使用してイベントを増分
+
+処理ルールを作成する際に、コンテキストデータ変数をイベントに割り当てることができます。
+
+* コンテキストデータ変数に任意の種類のテキストが含まれている場合、イベント値は1ずつ増分されます。
+* コンテキストデータ変数に整数が含まれる場合、イベントはその整数だけ増加します。
+
+```js
+// Assigning this context data variable to an event increments it by one
+s.contextData["example_text"] = "Text value";
+
+// Assigning this context data variable to an event increments it by four
+s.contextData["example_number"] = "4";
 ```
