@@ -1,15 +1,20 @@
 ---
 title: charSet
 description: charSet 変数は、画像要求の解析にアドビが使用するエンコーディングを決定します。
-translation-type: ht
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+translation-type: tm+mt
+source-git-commit: 70410af433f540764b71bd29a81ff9d8210cb95c
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 60%
 
 ---
 
 
 # charSet
 
-charSet 変数は、Analytics での保存とレポート用に、受信データを UTF-8 に変換するためにアドビが使用します。サイトで UTF-8 以外の charSet を使用している場合、この変数を使用すると、データをアドビが適切にエンコードできます。この変数は、サイトで異なるページで異なるエンコーディングを使用する場合に、ページごとに設定できます。
+charSet 変数は、Analytics での保存とレポート用に、受信データを UTF-8 に変換するためにアドビが使用します。ほとんどのサイトでは、この変数を設定する必要はありません。
+
+この変数は、レポートに文字化けした値([mojibake](https://en.wikipedia.org/wiki/Mojibake))が表示される場合にのみ設定します。 サイトで異なるページで異なるエンコーディングを使用している場合は、この変数をページごとに設定できます。
 
 ## Adobe Experience Platform Launch の文字セット
 
@@ -20,11 +25,11 @@ charSet 変数は、Analytics での保存とレポート用に、受信デー�
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 文字セット]」フィールドが表示されます。
 
-プリセット文字セットまたはカスタム文字セットを指定できます。この値は、サイトの文字エンコーディングと一致する必要があります。ほとんどのサイトでは `UTF-8` を使用します。
+プリセット文字セットまたはカスタム文字セットを指定できます。レポートに文字化けした値が表示されない `UTF-8` 限り、値をから変更しないでください。
 
 ## AppMeasurement および Launch カスタムコードエディターの s.charSet
 
-`charSet` 変数は文字列です。この変数は、サイトの `<meta charset="">` HTML タグと同じ値に設定します。
+`charSet` 変数は文字列です。AdobeAnalyticsで値が文字化けしている場合、この変数をサイトの `<meta charset="">` HTMLタグと同じ値に設定します。
 
 ```js
 s.charSet = "UTF-8";
