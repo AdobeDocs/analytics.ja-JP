@@ -1,8 +1,11 @@
 ---
 title: 地域データ収集
 description: 地域データ収集に関する情報
-translation-type: ht
-source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
+translation-type: tm+mt
+source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
@@ -10,6 +13,10 @@ source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 # 地域データ収集
 
 Adobe Experience Cloud は地域データ収集（RDC）を使用するので、できるだけエンドユーザーに近い場所でエンドユーザーと Adobe Experience Cloud 間のやり取りを実行できます。サイトやアプリのパフォーマンスの向上と迅速なデータ収集により、エンドユーザーのエクスペリエンスを最適化することができるようになります。サイトやアプリからのデータがデータ収集センター（DCC）で局所的に収集されると、セキュア接続を経由してデータ処理センター（DPC）に転送され、そこで処理されて Adobe Experience Cloud の製品で利用できるようになります。
+
+>[!IMPORTANT]
+>
+>中国RDC(China Performance Optimization)追加オンパッケージは、アドビAnalyticsに対して有料で追加されます。 詳しくは、アドビのセールス担当者にお問い合わせください。
 
 RDC には現在以下の場所が含まれます（変更される場合があります）：
 
