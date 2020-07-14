@@ -3,8 +3,11 @@ description: 既存のレポートスイートから設定をコピーした場�
 title: ソースレポートスイートからコピーされない設定
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -55,15 +58,6 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
      <li id="li_E352211ABD3245EC8C06313221BA4B36"><span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>の順にクリックし、レポートスイートを選択します。 </li> 
      <li id="li_B19C4112D57D4D329A0774EBB345473B"><span class="uicontrol">設定を編集</span>／<span class="uicontrol">トラフィック</span>／<span class="uicontrol">トラフィック変数</span>の順にクリックします。 </li> 
      <li id="li_B1CED2EC85FE4A8EB7D95076040B35E1">ボックスにチェックを入れ、「<span class="uicontrol">パスレポート</span>」で設定を選択します。 </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>個別イベントマネージャー </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_4A303E54A155471DA2B91A9504A3EB75"> 
-     <li id="li_A09C8947BD2B4F40ABA039DA9BBA629A"><span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>の順にクリックし、レポートスイートを選択します。 </li> 
-     <li id="li_052D8FF2347141F0A50FBCFDC37DB957"><span class="uicontrol">設定を編集</span>／<span class="uicontrol">コンバージョン</span>／<span class="uicontrol">成功イベント</span>の順にクリックします。 </li> 
-     <li id="li_F224713229D74D9BB5BEEE30BF2C7343">ボックスにチェックを入れ、「<span class="uicontrol">個別イベントの記録</span>」で設定を選択します。 </li> 
     </ol> </td> 
   </tr> 
   <tr> 
