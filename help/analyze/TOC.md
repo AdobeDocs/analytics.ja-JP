@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 96%
+source-wordcount: '1098'
+ht-degree: 98%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 96%
       + [ツリーマップ](analysis-workspace/visualizations/treemap.md)
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
-      + [ターゲット用のAnalytics(A4T)パネル](analysis-workspace/c-panels/a4t-panel.md)
+      + [Target用Analytics(A4T)パネル](analysis-workspace/c-panels/a4t-panel.md)
       + [アトリビューションパネル](analysis-workspace/c-panels/attribution.md)
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
@@ -89,9 +89,9 @@ ht-degree: 96%
          + [セグメント比較の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + プロジェクトのキュレーションおよび共有 {#curate-share}
-      + [Workspaceプロジェクトをキュレーション](analysis-workspace/curate-share/curate.md)
-      + [Workspaceプロジェクトを共有](analysis-workspace/curate-share/share-projects.md)
-      + [表示のみのWorkspaceプロジェクト](analysis-workspace/curate-share/view-only-projects.md)
+      + [Workspace プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
+      + [Workspace プロジェクトの共有](analysis-workspace/curate-share/share-projects.md)
+      + [表示のみの Workspace プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
       + [プロジェクトファイルの共有およびスケジュール](analysis-workspace/curate-share/send-schedule-files.md)
       + [ファイルの送信 - プロジェクトの配信スケジュールの設定](analysis-workspace/curate-share/t-schedule-report.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Analysis Workspace の制限](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理要件](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [分析ワークスペースでのアクセシビリティ](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Analysis Workspace のアクセシビリティ](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder ヘルプ](report-builder/home.md)
    + [Report Builder の新機能](report-builder/whats-new-arb.md)
@@ -300,7 +300,6 @@ ht-degree: 96%
    + [ターゲット](reports-analytics/targets.md)
    + [アラート](reports-analytics/alerts.md)
    + [カレンダーイベント](reports-analytics/t-calendar-event.md)
-   + [Data Warehouse リクエスト](reports-analytics/data-warehouse.md)
    + [よくある質問](reports-analytics/frequently-asked-questions.md)
    + [トラブルシューティング](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
@@ -336,7 +335,7 @@ ht-degree: 96%
 + Labs {#tech-previews}
    + [Labs の概要](tech-previews/overview.md)
 + Adobe Analytics ダッシュボード {#mobapp}
-   + [Adobe Analyticsダッシュボード — 概要](mobile-app/home.md)
+   + [アドビAnalyticsダッシュボード — 概要](mobile-app/home.md)
    + [キュレーター向けガイド](mobile-app/curator.md)
    + [エグゼクティブユーザー向けクイックスタートガイド](mobile-app/executive.md)
 + プログレッシブ Web アプリケーション {#pwa}
