@@ -3,15 +3,48 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
 workflow-type: tm+mt
-source-wordcount: '7261'
-ht-degree: 99%
+source-wordcount: '7820'
+ht-degree: 98%
 
 ---
 
 
 # Analysis Workspace の新機能
+
+## 2020 年 7 月
+
+2020年7月17日にリリースされた新機能。
+
+| 機能 | 説明 |
+|--- |--- |
+| 新しい日付範囲プリセット | 次の4つの新しい日付範囲が追加されました。 ([!UICONTROL 今週/月/四半期/年（今日を除く）]。 これにより、今日の日付の一部を含まない日付範囲から選択できます。 |
+
+## 2020 年 6 月
+
+2020年6月19日にリリースされた新機能。
+
+| 機能 | 説明 |
+|--- |--- |
+| Attribution IQ：アルゴリズムアトリビューション | Analysis Workspace の アルゴリズムアトリビューションモデルでは、統計的手法を使用して、選択した指標に対するクレジットの最適な配分を動的に決定します。Adobe Analytics Ultimate のお客様が利用できます。[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ：カスタムルックバックウィンドウ | Attribution IQ で任意のアトリビューションモデルを設定して、レポート期間の最大 90 日前のタッチポイントを含められるようになりました。これにより、通常、前月（または過去数か月）に発生したインタラクションを考慮することで、レポートの初期に発生するイベントのアトリビューション精度を高めます。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete、および Ultimate のお客様が利用できます。[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 共有 Workspace プロジェクトのプロジェクトロール | Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 表示のみの Workspace プロジェクト | Workspace プロジェクトは、「表示可能」としてのみユーザーに共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Workspace プロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 更新された空のパネル | 空のパネルにパネルとビジュアライゼーションが追加され、最適な分析ワークフローをよりシームレスに選択できるようになりました。 |
+| クイックインサイトパネル（2020年6月26日） | クイックインサイトは、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。[詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| WorkspaceのTargetパネル用Analytics（2020年6月25日） | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で上昇率と信頼性を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Workspace についてページ | Workspace についてページには、Analysis Workspace 環境や Adobe Analytics 管理者（サポートが必要な場合）に関する情報、および製品内でフィードバックを提供する方法が記載されています。Workspace／ヘルプ／Workspace についてで確認できます。 |
+
+## 2020 年 5 月
+
+2020年5月22日にリリースされた新機能。
+
+| 機能 | 説明 |
+|--- |--- |
+| 空白の状態からフリーフォームテーブルを自動的に作成する | 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできず、最初にフリーフォームテーブルを追加する必要がありました。現在は、空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになりました。フリーフォームテーブルは推奨される形式で自動的に作成されます。また、空のフリーフォームテーブルにドロップした場合の混合コンポーネントタイプ（ディメンションや指標など）の処理方法も強化されました。 |
+| アクセシビリティの強化 | Adobe Analytics チームでは、キーボードナビゲーション、カラーコントラスト、スクリーンリーダーのサポートの強化など、Analysis Workspace に関していくつかのアクセシビリティの改善をおこないました。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## 2020 年 4 月
 
