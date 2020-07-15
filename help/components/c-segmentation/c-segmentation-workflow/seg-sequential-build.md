@@ -4,10 +4,10 @@ title: 順次セグメントの構築
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 100%
+source-wordcount: '3857'
+ht-degree: 98%
 
 ---
 
@@ -262,9 +262,9 @@ ht-degree: 100%
 順次チェックポイントをグループ化する場合、「コンテナ」は「論理グループ」になります。ただし、これらの順次チェックポイントが 1 回のヒットまたは訪問の範囲内で発生する必要がある場合は、「ヒット」または「訪問」コンテナが必要です。（もちろん、1 回のヒットが複数のチェックポイントにクレジットを提供しない場合、「ヒット」は順次チェックポイントのグループに対しては意味を持ちません。）
 
 **論理グループは順次セグメントの作成を簡略化しますか。**
-はい、できます。次の質問に回答すると想定します。**訪問者には、ページ B、ページ C、またはページ A の後にページ D が表示されましたか？**
+はい、できます。次のような訪問者のセグメントを特定しようとするとします。 **訪問者がページAを閲覧し、次にB、C、Dの各ページを閲覧した**
 
-このセグメントは、論理グループコンテナを使用せずに構築できますが、この作業は複雑で面倒です。
+このセグメントは、論理グループのコンテナなしで作成できますが、複雑で扱いにくくなります。 訪問者が表示できるページのシーケンスをすべて指定する必要があります。
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
