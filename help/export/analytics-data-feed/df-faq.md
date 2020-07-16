@@ -3,7 +3,10 @@ description: データフィードに関するよくある質問（FAQ）
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: データフィードに関する FAQ
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 86%
 
 ---
 
@@ -23,3 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Adobe Analytics では、ほとんどの変数は、レポートの目的で、大文字と小文字が区別されません。例えば、「snow」、「Snow」、「SNOW」、「sNow」はすべて同じ値と見なされます。大文字と小文字の区別は、データフィードで保持されます。
 
 非 post 列と post 列の間で同じ値の大文字と小文字の違いが見られる場合（例えば、pre 列に「snow」、post 列に「Snow」）、サイト全体で大文字と小文字の両方の値が使用されます。post 列内のバージョンは、以前に渡されて仮想 cookie に保存されている値か、同時期にそのレポートスイート用に処理された値です。
+
+## ボットは管理コンソールのボットルールによってフィルタリングされ、データフィードに含まれますか。
+
+データフィードには、 [管理コンソールボットルールでフィルタリングされたボットは含まれません](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)。
