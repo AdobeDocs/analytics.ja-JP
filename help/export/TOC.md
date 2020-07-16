@@ -3,8 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 書き出しガイド
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: ht
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+translation-type: tm+mt
+source-git-commit: 769206cfc41c09b9e32fd2d1f317a8a6904fed00
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 94%
 
 ---
 
@@ -63,3 +66,6 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP サーバーへの Data Warehouse リクエストの送信](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [パスワードなしでの SFTP 経由でのアドビへの接続](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
++ [Analysis Workspaceのダウンロード](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Adobe Analytics API ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
++ [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html)
