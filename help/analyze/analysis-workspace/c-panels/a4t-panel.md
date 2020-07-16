@@ -2,10 +2,10 @@
 description: Target用Analytics(A4T)パネルを使用すると、Analysis Workspace内のAdobe Targetのアクティビティとエクスペリエンスを分析できます。
 title: Target用Analytics(A4T)パネル
 translation-type: tm+mt
-source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
+source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 14%
+source-wordcount: '912'
+ht-degree: 13%
 
 ---
 
@@ -44,7 +44,7 @@ TargetパネルのAnalyticsは、豊富なデータとビジュアライゼー�
 | 指標の標準化 | 個別訪問者数、訪問回数またはアクティビティインプレッション数。 |
 | 成功指標 | ビルダーで選択された指標 |
 | コンバージョン率 | 成功指標/標準化指標 |
-| 上昇率 | 各エクスペリエンスのコンバージョン率とコントロールエクスペリエンスを比較します。<br>**注意：**上昇率は、Targetエクスペリエンスに対して「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。 |
+| 上昇率 | 各エクスペリエンスのコンバージョン率とコントロールエクスペリエンスを比較します。<br>**注意：**上昇率は、Targetエクスペリエンスに対する「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。 |
 | 上昇率 (下限) | コントロールのバリアントエクスペリエンスで使用できる最低の上昇率を表します。 |
 | 上昇率 (中間) | 95% の信頼区間において、コントロールのバリアントエクスペリエンスで使用できる上昇率の中央値を表します。これは、Reports &amp; Serverの「リフト」です。 |
 | 上昇率 (上限) | コントロールのバリアントエクスペリエンスで使用できる最高の上昇率を表します。 |
@@ -61,5 +61,7 @@ Analysis Workspaceのパネルと同様に、Adobe Targetアクティビティ�
 | なぜ、TargetとAnalyticsではユニークな訪問者が異なるのでしょうか。 | [製品間の個別訪問者の相違についての詳細](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) 。 |
 | 分析内の特定のTargetアクティビティに対してヒットセグメントを適用すると、無関係なエクスペリエンスが返されるのはなぜですか。 | A4Tディメンションはリスト変数です。つまり、多数のアクティビティ（およびエクスペリエンス）を一度に含めることができます。 [詳細情報](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | 信頼性指標は、極端な注文を考慮するか、複数のオファーに対してBonferroni補正を適用するか。 | いいえ。[Analyticsが信頼性を計算する方法について詳しく説明します](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 。 |
+| 上昇率指標と信頼性指標を他のディメンションや分類と共に使用できますか。 | 上昇率と信頼性は、Targetエクスペリエンスディメンションに対して「ロックされた指標」です。これは、エクスペリエンスディメンション全体で計算するには、コントロールとバリアントが必要だからです。 したがって、分類したり、他のディメンションで使用したりすることはできません。 |
+| 上昇率と信頼性はいつ再計算されますか？ | 上昇率と信頼性は、パネルが実行（または再実行）されるたびに（または再実行）、パネルの日付範囲が変更されたとき、またはセグメントがパネルやテーブルに適用されたときに再計算されます。 |
 
 TargetレポートのためのAnalyticsについて詳しくは、 [A4Tレポートを参照してください](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
