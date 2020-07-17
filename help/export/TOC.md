@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 769206cfc41c09b9e32fd2d1f317a8a6904fed00
+source-git-commit: 50ed50f951b6c7309359a19538323b1e12322a80
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '257'
 ht-degree: 94%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 94%
       + [データフィードの内容についての概要](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [計算指標](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [データ列リファレンス](analytics-data-feed/c-df-contents/datafeeds-reference.md)
+      + [ヘッダーリソース](analytics-data-feed/c-df-contents/headers.md)
       + [ページイベント参照](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [特殊文字](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [到着が遅れたヒット](analytics-data-feed/c-df-contents/late-arriving-hits.md)
