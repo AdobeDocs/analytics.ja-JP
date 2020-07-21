@@ -3,9 +3,9 @@ description: この Adobe® Data Connectors™ 電子メール統合は、Analyt
 title: Adobe Analytics 用 Silverpop Data Connector
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '490'
 ht-degree: 97%
 
 ---
