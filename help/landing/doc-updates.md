@@ -3,10 +3,10 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントリポジトリの大幅なアップデート。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: de7783174d55c03ac73140e8ab05005284788459
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 98%
+source-wordcount: '480'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 2019 年 1 月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* Analyticsの [!UICONTROL カスタマージャーニーについて詳しくは]、 [こちらを参照してください](https://docs.adobe.com/content/help/ja-JP/analytics-platform/using/cja-landing.html)。
+* [!UICONTROL Customer Journey Analyticsの詳細については]、 [こちらを参照してください](https://docs.adobe.com/content/help/ja-JP/analytics-platform/using/cja-landing.html)。
 * Adobe Analytics の新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)を参照してください。
 * 新機能について詳しくは、ツールユーザーガイドの [Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
 * オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)を参照してください。
@@ -24,6 +24,7 @@ ht-degree: 98%
 
 | 日付 | 説明 |
 |---|---|
+| 2020 年 7 月 21 日 | デバイス間の [Analyticsに対する主な更新と改訂](/help/components/cda/overview.md)。 フィー [ルドベースのステッチを追加しました](/help/components/cda/field-based-stitching.md)。 |
 | 2020 年 4 月 29 日 | [コンテンツ速度](/help/components/metrics/content-velocity.md)指標に関するドキュメントを追加しました。 |
 | 2020 年 3 月 13 日 | [Experience Cloud へのセグメントの公開](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md)にアップデートを追加しました。 |
 | 2020 年 3 月 13 日 | CDA のステッチ待機時間のアップデート。 |
@@ -31,7 +32,7 @@ ht-degree: 98%
 | 2020 年 2 月 26 日 | [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 変数を追加しました。 |
 | 2020 年 2 月 19 日 | [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 変数を追加しました。 |
 | 2020 年 2 月 13 日 | [マーケティングチャネルドキュメント](/help/components/c-marketing-channels/c-getting-started-mchannel.md)のアップデートと再編成。 |
-| 2020 年 2 月 8 日 | [クロスデバイス分析のセットアップ](../components/cda/cda-setup.md)と [FAQ](../components/cda/cda-faq.md) のアップデート。 |
+| 2020 年 2 月 8 日 | [クロスデバイス分析のセットアップ](../components/cda/setup.md)と [FAQ](../components/cda/faq.md) のアップデート。 |
 | 2020 年 2 月 5 日 | [実装ユーザーガイド](../implement/home.md)を完全に書き直しました。 |
 | 2020 年 1 月 23 日 | フリーフォームテーブルページを更新し、新しい[フリーフォームテーブルビルダー](/help/analyze/analysis-workspace/visualizations/freeform-table.md)の情報を含めました。 |
 | 2020 年 1 月 13 日 | [Adobe Analytics とブラウザーの cookie](../technotes/cookies.md) を追加しました。 |
