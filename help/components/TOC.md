@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 72%
+source-wordcount: '632'
+ht-degree: 74%
 
 ---
 
@@ -205,9 +205,13 @@ ht-degree: 72%
       + [仮想レポートスイートの管理](vrs/c-workflow-vrs/vrs-manage.md)
       + [仮想レポートスイートの情報の表示](vrs/c-workflow-vrs/vrs-view.md)
 + クロスデバイス分析 {#cda}
-   + [クロスデバイス分析の概要](cda/cda-home.md)
-   + [クロスデバイス分析の設定](cda/cda-setup.md)
-   + [クロスデバイス分析に関する FAQ](cda/cda-faq.md)
+   + [クロスデバイス分析の概要](cda/overview.md)
+   + [フィールドベースのステッチ](cda/field-based-stitching.md)
+   + [デバイスグラフ](cda/device-graph.md)
+   + [クロスデバイスAnalyticsの設定](cda/setup.md)
+   + [再生の仕組み](cda/replay.md)
+   + [CDA Workspace テンプレート](cda/workspace-template.md)
+   + [クロスデバイス分析に関する FAQ](cda/faq.md)
 + アラート {#alerts}
    + [インテリジェントアラート](c-alerts/intellligent-alerts.md)
    + [アラートビルダー](c-alerts/alert-builder.md)
@@ -247,11 +251,11 @@ ht-degree: 72%
    + [リアルタイムレポートの設定](c-real-time-reporting/t-realtime-admin.md)
    + [サポートされるリアルタイム指標とディメンション](c-real-time-reporting/realtime-metrics.md)
 + マーケティングチャネル {#marketing-channels}
-   + [マーケティングチャネルの使い始めに](c-marketing-channels/c-getting-started-mchannel.md)
+   + [マーケティングチャネル使用の手引き](c-marketing-channels/c-getting-started-mchannel.md)
    + [マーケティングチャネルの管理](c-marketing-channels/c-channels.md)
    + [マーケティングチャネルの処理ルール](c-marketing-channels/c-rules.md)
    + [マーケティングチャネルでの分類](c-marketing-channels/classifictions-mchannel.md)
    + [訪問者のエンゲージメント期間](c-marketing-channels/visitor-engagement.md)
    + [マーケティングチャネルの分析](c-marketing-channels/analyze-mc.md)
    + [マーケティングチャネルの権限](c-marketing-channels/c-channel-report-access.md)
-   + [マーケティングチャネルに関するFAQと例](c-marketing-channels/c-faq.md)
+   + [マーケティングチャネルに関する FAQ と例](c-marketing-channels/c-faq.md)
