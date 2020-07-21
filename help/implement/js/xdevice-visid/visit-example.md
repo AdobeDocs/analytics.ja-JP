@@ -6,7 +6,7 @@ title: クロスデバイス訪問者特定の例
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。『コンポーネントユーザーガイド』の[クロスデバイス分析](/help/components/cda/cda-home.md)を参照してください。
+>デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。『コンポーネントユーザーガイド』の[クロスデバイス分析](/help/components/cda/overview.md)を参照してください。
 
 次の例は、一般的な顧客インタラクションで送信されるサーバーコールのサンプルを使用して、クロスデバイス訪問者特定がどのように機能するかを示しています。
 
