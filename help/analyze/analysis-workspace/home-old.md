@@ -3,7 +3,7 @@ description: Adobe Analytics の使用開始方法を説明します。
 keywords: Analysis Workspace
 title: 入門ガイド
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 98%
@@ -21,7 +21,7 @@ Analysis Workspace は、組織にとって実用的なデータベースの決�
 
 ## Workspace での基本ランクレポートの取り込み
 
-Analysis Workspace を使用して基本ランクレポートを取り込みます。ランクレポートには、各ディメンション値の集計された合計ビューが表示され、最も大きい値が最初に表示されます。これらのタイプのレポートは、最もトラフィックが多いページや最も売れている製品など、サイトのどのコンポーネントが最も効果的かを知るのに役立ちます。
+Analysis Workspace を使用して基本ランクレポートを取り込みます。ランクレポートには、各ディメンション項目の合計表示が集計されて表示され、最も大きい値が最初に表示されます。 これらのタイプのレポートは、最もトラフィックが多いページや最も売れている製品など、サイトのどのコンポーネントが最も効果的かを知るのに役立ちます。
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 2. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
@@ -77,11 +77,11 @@ Analysis Workspace はレポート作成ツールなので、データ収集に�
 * 製品内ヒント：Analysis Workspace の右下隅には時折、その日のヒントと短いビデオが表示されることがあります。これらのヒントを閉じた場合は、*[!UICONTROL ヘルプ]／[!UICONTROL ヒント]*&#x200B;を選択することでいつでも表示できます。
 * [Analysis Workspace コミュニティ](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：他のユーザーと Analysis Workspace について話し合い、ツールに望む機能に投票します。
 * ブログ投稿：
-   * [よりスマートな分析による組織の強化](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [強力なインサイトがより一層得られる新しい Adobe Analytics の機能](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-   * [Analysis Workspace で生産性を最大化するための 5 つのヒント](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-   * [Analysis Workspace でインサイトを簡単に](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-   * [Analysis Workspace を使用する理由](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+   * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)（よりスマートな分析による組織の強化）
+   * [New Adobe Analytics Capabilities Make Powerful Insights More Accessible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)（強力なインサイトがより一層得られる新しい Adobe Analytics の機能）
+   * [5 Tips to Maximize Your Productivity with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)（Analysis Workspace で生産性を最大化するための 5 つのヒント）
+   * [Faster Insights with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)（Analysis Workspace でインサイトを簡単に）
+   * [Why You Should Be Using Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)（Analysis Workspace を使用する理由）
 
 ## 次の手順
 
@@ -98,7 +98,7 @@ Analysis Workspace の理解を深めるためには、様々なアプローチ�
 * Workspace でのプロジェクトの共有：自分が作成した Workspace プロジェクトを同僚に表示します。
 * [Workspace のパネル](/help/analyze/analysis-workspace/c-panels/panels.md)：アトリビューションやセグメント比較など、Workspace の高度な機能を使用します。
 
-### 組織のWorkspaceの質の向上を検討しているアナリストおよび管理者向け
+### 組織における Workspace の質の向上を検討しているアナリストおよび管理者向け
 
 * [Analysis Workspace 権限](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html)：Adobe Admin Console を使用して、Workspace にユーザー権限を割り当てます。
 * [Workspace のテンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)：テンプレートを作成し、同僚のニーズに合わせて調整されたプロジェクトスペースでの作業を同僚が開始できるようにします。
