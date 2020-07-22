@@ -2,7 +2,7 @@
 title: 地域
 description: 訪問者の地域。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 7%
@@ -22,9 +22,9 @@ ht-degree: 7%
 >
 >IPアドレスを [不明化するだけでは不十分な、プライバシーに関する厳しい規制に従う場合](/help/admin/admin/general-acct-settings-admin.md) 、位置情報データを完全に無効にするように要求できます。 レポートスイートIDをカスタマーケアに連絡し、レポートスイートの「地域」をオフにするようにリクエストします。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、地域とその地域の国が含まれます。 例えば、 `"California (United States)"`、、 `"Tokyo (Japan)"`またはの値があります `"Sao Paulo (Brazil)"`。
+ディメンション項目には、地域と、その地域が属する国が含まれます。 例えば、 `"California (United States)"`、、 `"Tokyo (Japan)"`またはの値があります `"Sao Paulo (Brazil)"`。
 
 ## レポート場所と実際の場所の違い
 
