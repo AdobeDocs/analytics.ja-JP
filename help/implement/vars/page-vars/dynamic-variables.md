@@ -2,10 +2,10 @@
 title: 動的変数
 description: イメージリクエストの長さを増やさずに変数をコピーします。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Launch の動的変数
 
-動的変数は、文字列を受け取る任意のディメンションフィールドで使用できます。ディメンション値は、通常、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定されます。
+動的変数は、文字列を受け取る任意のディメンションフィールドで使用できます。ディメンション項目は、通常、Analytics拡張（グローバル変数）の設定時またはルールで設定されます。
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
 5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
-6. 目的のディメンション値を見つけます。
+6. 目的のディメンション項目を見つけます。
 
 テキストフィールドに動的変数のプレフィックスを配置し、参照するクエリー文字列パラメーターまたは HTTP ヘッダーを指定します。デフォルトでは、動的変数のプレフィックスは `D=` です。
 
