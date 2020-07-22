@@ -2,7 +2,7 @@
 title: ドメイン
 description: 訪問者がインターネットにアクセスするために使用する組織またはISP。
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
@@ -18,6 +18,6 @@ ht-degree: 1%
 
 このディメンションは、イメージリクエストがアドビのデータ収集サーバーに到達するまでにたどったパスに関する情報を使用します。 設定は不要で、入力する変数もありません。 すべてのAppMeasurement実装でデフォルトで動作します。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンションの値の例には、 `comcast.net`、、 `rr.com`、 `sbcglobal.net`およびがあり `amazonaws.com`ます。 これらは、ISPがトラフィックを送信するために使用するドメインであり、ISP組織を表すドメインとは限りません。
+ディメンション項目の例 `comcast.net`としては、、、、、、、、などがあり `rr.com``sbcglobal.net``amazonaws.com`ます。 これらは、ISPがトラフィックを送信するために使用するドメインであり、ISP組織を表すドメインとは限りません。
