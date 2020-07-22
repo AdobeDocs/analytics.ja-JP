@@ -2,7 +2,10 @@
 title: イベントの影響を受けた日付と前の範囲を比較
 description: 導入の問題や機能停止など、イベントが及ぼす影響を、以前の傾向と比較して説明します。
 translation-type: tm+mt
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +18,9 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 イベントを含む日付範囲を作成して、そのイベントの影響を調べます。
 
-1. /に移動し **[!UICONTROL Components]** ま **[!UICONTROL Date ranges]**&#x200B;す。
-2. クリック **[!UICONTROL Add]**.
-3. イベントが発生した日付範囲を選択します。 クリック **[!UICONTROL Save]**.
+1. 「 **[!UICONTROL コンポーネント]** / **[!UICONTROL 日付範囲」に移動します]**。
+2. 「**[!UICONTROL 追加]**」をクリックします。
+3. イベントが発生した日付範囲を選択します。 「**[!UICONTROL 保存]**」をクリックします。
 
    ![日付範囲ビルダー](assets/date_range_builder.png)
 
@@ -29,7 +32,7 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
    ![日付範囲指標](assets/date_range_metric.png)
 
-2. 日付範囲を右クリックし、 **[!UICONTROL Add time period column]** /をクリックし **[!UICONTROL Custom date range to this date range]**&#x200B;ます。
+2. 日付範囲を右クリックし、 **[!UICONTROL 追加期間列]** / **[!UICONTROL カスタム日付範囲をクリックして、この日付範囲を指定します]**。
    * 前週比を使用する場合は、イベントから7日間を引いた値を選択します。 イベントとこの日付範囲の間の曜日が揃っていることを確認します。
    * 前月比の場合は、先月のイベントの範囲を選択します。 また、曜日を揃える場合は、イベントから28日を引いた値を選択することもできます。
    * 前年比の場合は、昨年のイベントの範囲を選択します。
@@ -39,13 +42,13 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ## イベントと類似の前の範囲との差異率を計算
 
-フリーフォームテーブルのビジュアライゼーションを使用して、イベントの日付範囲と類似の前の日付範囲の間でディメンション値を比較します。 次の手順で、1週間を超える週の例を示します。
+フリーフォームテーブルのビジュアライゼーションを使用して、イベントの日付範囲と類似の前の日付範囲のディメンション項目を比較します。 次の手順で、1週間を超える週の例を示します。
 
 1. Workspaceプロジェクトを開き、フリーフォームテーブルに **非時間ディメンション** を追加します。 例えば、「モバイルデバイスタイプ」ディメンションを使用できます。 「回数」など、最近作成した日付範囲を指標に適用します。
 
    ![影響を受ける日付範囲によるモバイルデバイスタイプ](assets/mobile_device_type.png)
 
-2. 日付範囲を右クリックし、 **[!UICONTROL Compare time periods]** /をクリックし **[!UICONTROL Custom date range to this date range]**&#x200B;ます。 イベントから7日を引いた値を選択します。 イベントとこの日付範囲の間の曜日が揃っていることを確認します。
+2. 日付範囲を右クリックし、期間を **[!UICONTROL 比較]** / **[!UICONTROL カスタム日付範囲をこの日付範囲にクリックします]**。 イベントから7日を引いた値を選択します。 イベントとこの日付範囲の間の曜日が揃っていることを確認します。
 
    ![期間メニューの比較](assets/compare_time_custom.png)
 
@@ -68,6 +71,6 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
    ![表ビルダーセグメント](assets/table_builder_segments.png)
 
-4. クリック **[!UICONTROL Build]**. 結果の表から、対象となる週、月、年の範囲に対して、目的のセグメント全体で表示できます。
+4. 「**[!UICONTROL 作成]**」をクリックします。結果の表から、対象となる週、月、年の範囲に対して、目的のセグメント全体で表示できます。
 
    ![完成したテーブル](assets/table_builder_finished.png)
