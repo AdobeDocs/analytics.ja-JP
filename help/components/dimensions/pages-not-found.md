@@ -2,7 +2,7 @@
 title: エラーページ（404）
 description: サイトでエラーを返したURL。
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -23,6 +23,6 @@ ht-degree: 2%
 
 このディメンションは、イメージリクエストの文字列 [`pageType` と `g` クエリ文字列](/help/implement/validate/query-parameters.md) からデータを取得します。 `pageType` クエリ文字列が等しい場合 `errorPage`、 `g` クエリ文字列（ページURL）が記録されます。 AppMeasurementは、この [`pageType`](/help/implement/vars/page-vars/pagetype.md) 変数を使用してこのデータを収集します。 変数を定義しない場合、または `pageType` 変数を以外の値に設定した場合、このディメンションのデータは収集されません `errorPage`。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、エラーが発生したサイト上のページのURLが含まれます。
+ディメンション項目には、エラーが発生したサイト上のページのURLが含まれます。
