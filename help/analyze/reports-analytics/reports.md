@@ -2,7 +2,7 @@
 title: レポート
 description: 各レポートでReports &Analyticsが使用するディメンションと指標。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Reports &amp;Analyticsの各レポートは、専用のディメンションと�
 * 買い物かご： 買い物かご指標に関するレポートが含まれます。
    * 買い物かごコンバージョンファネル： レポート [・](/help/components/metrics/instances.md)インスタンス [、](/help/components/metrics/carts.md)買い物かご [、チェックアウト注文件数、](/help/components/metrics/checkouts.md)注文件数、および売上高ファネル・レポート内の売上高 [](/help/components/metrics/orders.md)[](/help/components/metrics/revenue.md) の各レポート
    * 買い物かご： 指標の [買い物かごの経時的なトレンド](/help/components/metrics/carts.md) 。
-   * 買い物かご表示: 指標 [買い物かご表示の経時的なトレンド](/help/components/metrics/cart-views.md) 。
+   * 買い物かご表示: 指標 [買い物かご表示の経時的なトレンドを示します](/help/components/metrics/cart-views.md) 。
    * 買い物かごへの追加： 経時的に指標 [買い物かごへの追加のトレンドを示します](/help/components/metrics/cart-additions.md) 。
    * 買い物かごからの削除： 指標 [買い物かごからの削除の傾向を経時的に示します](/help/components/metrics/cart-removals.md) 。
    * チェックアウト： 指標の [チェックアウトの経時的な傾向](/help/components/metrics/checkouts.md) 。
@@ -88,19 +88,19 @@ Reports &amp;Analyticsの各レポートは、専用のディメンションと�
 
 訪問者のパスデータを表示できるレポートが含まれます。
 
-* 次ページのフロー： トップページのディメンション値に関するフローレポートを使用します。 パス表示ーは [インスタンスに似ています](/help/components/metrics/instances.md)。 レポートされたディメンション値は変更できます。 フ [ローのビジュアライゼーションを使用して、同様のAnalysis Workspaceのレポートを利用できます](../analysis-workspace/visualizations/c-flow/flow.md)。
-* 次のページ： 最上位のページディメンションの値を取り、訪問者が次に閲覧したページを示します。
-* 前ページのフロー： トップページのディメンション値に関するフローレポートを使用します。 [フロービジュアライゼーションを使用して、Analysis Workspaceの類似したレポートを利用できます](../analysis-workspace/visualizations/c-flow/flow.md)。
-* 前のページ： 最上位のページディメンション値を取得し、前のページ訪問者の元を示します。
-* フォールアウト： ページディメンションの値をステップ単位で選択でき、そのパスをたどった訪問者とたどらなかった訪問者の割合が表示されます。 フォールアウトビジュアライゼーションを使用しても、同様のAnalysis Workspaceの [レポートを利用でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
-* フルパス： 個々のパスをディメンション値として表示します。 Analysis Workspaceに引退。 代わりに、 [フロービジュアライゼーションを使用し](../analysis-workspace/visualizations/c-flow/flow.md) ます。
+* 次ページのフロー： トップページのディメンション項目のフローレポートを使用します。 パス表示ーは [インスタンスに似ています](/help/components/metrics/instances.md)。 レポートされたディメンション項目は変更できます。 フ [ローのビジュアライゼーションを使用して、同様のAnalysis Workspaceのレポートを利用できます](../analysis-workspace/visualizations/c-flow/flow.md)。
+* 次のページ： トップのページディメンション項目を使用し、訪問者が次に移動したページを表示します。
+* 前ページのフロー： トップページのディメンション項目に関するフローレポートを使用します。 [フロービジュアライゼーションを使用して、Analysis Workspaceの類似したレポートを利用できます](../analysis-workspace/visualizations/c-flow/flow.md)。
+* 前のページ： トップのページディメンション項目を取得し、前のページ訪問者の元を示します。
+* フォールアウト： ページディメンション項目を手順で選択でき、そのパスに従った訪問者と従わなかった訪問者の割合が表示されます。 フォールアウトビジュアライゼーションを使用しても、同様のAnalysis Workspaceの [レポートを利用でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
+* フルパス： 個々のパスをディメンション項目として表示します。 Analysis Workspaceに引退。 代わりに、 [フロービジュアライゼーションを使用し](../analysis-workspace/visualizations/c-flow/flow.md) ます。
 * パスファインダ： パスを分析(Analysis Workspaceで廃止)できる複数のタイプのレポートを提供します。
 * パスの長さ： 訪問の深さ [ディメンションを使用し](/help/components/dimensions/visit-depth.md) ます。
 * ページ分析
-   * ページサマリ： 上位のページディメンション値を使用し、トレンド表示を表示します。 また、そのトップページのディメンション値の入口ポイント、前のページ、出口ポイントおよび次のページも表示します。
+   * ページサマリ： トップのページディメンション項目を使用し、トレンド表示を表示します。 また、そのトップページのディメンション項目の入口ポイント、前のページ、出口ポイントおよび次のページも表示します。
    * リロード回数： [Page](/help/components/dimensions/page.md) ( [ページ](/help/components/metrics/reloads.md) )ディメンションをリロード回数指標と共に使用します。
    * ページでの滞在時間： ページでの滞在 [時間 — グループディメンションを使用し](/help/components/dimensions/time-spent-on-page.md) ます。
-   * ページへのクリック数： トップのページディメンション値を使用し、特定の訪問でそのページに到達するのに費やしたクリック数を示します。
+   * ページへのクリック数： トップのページディメンション項目を使用し、特定の訪問でそのページに到達するのに費やしたクリック数を表示します。
 * 入口と出口
    * 入口ページ： 入 [口ページ](/help/components/dimensions/entry-dimensions.md) ディメンションを使用します。
    * オリジナルの入口ページ： 入口ページの元の [ディメンションを使用し](/help/components/dimensions/entry-dimensions.md) ます。
@@ -171,7 +171,7 @@ Reports &amp;Analyticsの各レポートは、専用のディメンションと�
    * 米国の州： 「 [US states](/help/components/dimensions/us-states.md) 」ディメンションを使用します。
    * 米国DMA: [US DMA](/help/components/dimensions/us-dma.md) （米国）ディメンションを使用します。
 * 言語： Language [](/help/components/dimensions/language.md) （言語）ディメンションを使用します。
-* タイムゾーン： タイムゾーンディメンションを使用します(Analysis Workspaceで削除)。 ディメンション値は、ヒットのGMTオフセットです。
+* タイムゾーン： タイムゾーンディメンションを使用します(Analysis Workspaceで削除)。 ディメンション項目は、ヒットのGMTオフセットです。
 * ドメイン： [Domain](/help/components/dimensions/domain.md) ディメンションを使用します。
 * トップレベルドメイン： トップレベルのドメインディメンションを使用します(Analysis Workspaceから削除)。 このレポートは、 [domains](/help/components/dimensions/domain.md) dimensionを上位レベルのカテゴリ（通常、ドメインの国別）にグループ化します。
 * 技術： 訪問者がサイトにアクセスする際に使用したレポートを含むフォルダ。
@@ -184,12 +184,12 @@ Reports &amp;Analyticsの各レポートは、専用のディメンションと�
    * 画面の色： 色深度( [Color depth](/help/components/dimensions/color-depth.md) )ディメンションを使用します。
    * 画面の解像度： [Monitor resolution](/help/components/dimensions/monitor-resolution.md) （画面の解像度）ディメンションを使用します。
    * Java: [Java対応ディメンションを使用します](/help/components/dimensions/java-enabled.md) 。
-   * JavaScript: JavaScriptが有効なディメンションを使用します(Analysis Workspaceには使用されません)。 ブラウザーでJavaScriptが有効になっているかどうかに応じて、ディメンション値は「有効」、「無効」または「不明」です。
-   * JavaScriptのバージョン： は、JavaScriptバージョンディメンションを使用します(Analysis Workspaceでは廃止されました)。 ディメンション値は、ブラウザーが使用するJavaScriptのバージョンを示します。
+   * JavaScript: JavaScriptが有効なディメンションを使用します(Analysis Workspaceには使用されません)。 ブラウザーでJavaScriptが有効になっているかどうかに応じて、ディメンション項目は「有効」、「無効」または「不明」になります。
+   * JavaScriptのバージョン： は、JavaScriptバージョンディメンションを使用します(Analysis Workspaceでは廃止されました)。 ディメンション項目は、ブラウザーが使用するJavaScriptのバージョンを示します。
    * Cookie: Cookieサポート [ディメンションを使用します](/help/components/dimensions/cookie-support.md) 。
    * 接続の種類： 「 [接続タイプ](/help/components/dimensions/connection-type.md) 」ディメンションを使用します。
    * 携帯電話会社： 携帯電話会社 [ディメンションを使用し](/help/components/dimensions/mobile-dimensions.md) ます。
-* 訪問者の状態： Stateディメンションを使用します(Analysis Workspaceには使用できません)。 ディメンション値は変数から始まり [`state`](../../implement/vars/page-vars/state.md) ます。
+* 訪問者の状態： Stateディメンションを使用します(Analysis Workspaceには使用できません)。 ディメンション項目は、 [`state`](../../implement/vars/page-vars/state.md) 変数から派生します。
 * 訪問者の郵便番号： 郵便番号 [ディメンションを使用し](/help/components/dimensions/zip-code.md) ます。
 
 ## カスタムコンバージョン
@@ -204,7 +204,7 @@ Reports &amp;Analyticsの各レポートは、専用のディメンションと�
 
 マー [ケティングチャネルに関するレポートが含まれます](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 
-* チャネルの概要レポート： レポートおよびAnalyticsに固有のカスタムレポート。 ファーストタッチまたはラストタッチのアトリビューションを使用する指標と共に、ディメンション値としてマーケティングチャネルを使用します。
+* チャネルの概要レポート： レポートおよびAnalyticsに固有のカスタムレポート。 ファーストタッチアトリビューションまたはラストタッチアトリビューションを使用する指標を含む、ディメンション項目としてマーケティングチャネルを使用します。
 * ファーストタッチチャネル: ファーストタッチ [チャネル](/help/components/dimensions/first-touch-channel.md) ディメンションを使用します。
 * ファーストタッチチャネルの詳細： ファーストタッチ [チャネルの詳細](/help/components/dimensions/first-touch-detail.md) ディメンションを使用します。
 * ラストタッチチャネル: ラストタッチ [チャネル](/help/components/dimensions/last-touch-channel.md) (Last touch)ディメンションを使用します。
