@@ -5,10 +5,10 @@ title: 計算指標
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 1. `post_visid_high`、`post_visid_low`、`visit_num`、および `visit_start_time_gmt` を連結します。
 2. この連結された値で並べ替えてから、2 番目の並べ替え条件 `visit_page_num` を適用します。
 3. ヒットが 1 回の訪問で最後のヒットでない場合は、後続の `post_cust_hit_time` の値から `post_cust_hit_time` の値を引きます。
-4. この数は、ヒットに費やした時間（秒）です。フィルターを適用して、ディメンションの値やイベントに焦点を当てることができます。
+4. この数は、ヒットに費やした時間（秒）です。フィルターは、ディメンション項目やイベントに焦点を当てるために適用できます。
 
 ## 注文件数、数量、売上高
 
