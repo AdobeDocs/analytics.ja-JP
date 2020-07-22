@@ -2,7 +2,7 @@
 title: カスタムリンク
 description: カスタムリンクの名前。
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -24,6 +24,6 @@ AppMeasurementを使用してこのディメンションにデータを送信す
 * Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"o"`.
 * イメージリクエストを送信 [`tl()`](/help/implement/vars/functions/tl-method.md) します。
 
-## 分析コード値
+## ディメンション項目
 
-この変数は、実装内のカスタム文字列に基づくので、組織でディメンション値が何かを決定します。 アドビでは、レポートのニーズに基づいて、リンクを意味のあるカテゴリにグループ化することをお勧めします。
+この変数は、実装内のカスタム文字列に基づくので、組織でディメンション項目が何であるかが決定されます。 アドビでは、レポートのニーズに基づいて、リンクを意味のあるカテゴリにグループ化することをお勧めします。
