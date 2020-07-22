@@ -3,10 +3,10 @@ description: この統合のデプロイは、以下の操作を必要とする�
 title: 統合のデプロイ
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Adobe Analytics に送信する際に Demandbaseディメンション値に使用する区切り文字です。この設定を変更すると、デフォルトの分類ルールが正しく機能しない場合があります。 </td> 
+   <td colname="col2"> Demandbaseディメンション項目がAdobeAnalyticsに送信される際に、その項目を区切るために使用される区切り文字です。 この設定を変更すると、デフォルトの分類ルールが正しく機能しない場合があります。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
