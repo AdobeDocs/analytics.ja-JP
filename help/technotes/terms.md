@@ -2,10 +2,10 @@
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 * **チャネル：**&#x200B;次を参照してください。
    * チャネル変数。サイトセクションディメンションを入力します。実装ユーザーガイドの「[ページ変数](/help/implement/vars/page-vars/page-variables.md)」を参照してください。
    * マーケティングチャネルは、ユーザーがどのようにしてサイトに到達するかを理解するのに役立つコンポーネントです。コンポーネントユーザーガイドの「[マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
-* **分類：** Adobe Analytics の機能の 1 つで、ディメンション値のグループ化を可能にします。コンポーネントユーザーガイドの「[分類](/help/components/c-classifications2/c-classifications.md)」を参照してください。
+* **分類：** ディメンション項目をグループ化できるAdobeAnalyticsの機能。 コンポーネントユーザーガイドの「[分類](/help/components/c-classifications2/c-classifications.md)」を参照してください。
 * **クリックマップ：**&#x200B;現在は使用されていません。サイト内でクリック数の最も多いリンクを示す従来のブラウザープラグイン。このツールは廃止され、Activity Map に変更されました。
 * **クリックストリームデータフィード：**「データフィード」を参照してください。
 * **コホート：**&#x200B;一定期間に共通の特性を共有する人々のグループ。分析ユーザーガイドの「[コホート分析とは](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)」を参照してください。
@@ -75,7 +75,7 @@ ht-degree: 96%
 * **指標：**&#x200B;定量データを含むコンポーネントタイプです。指標の値には、一般的にページビュー数、訪問回数、売上高などの数値が含まれます。通常、ディメンションと組み合わせて表示されます。
 * **複数のスイートタグ付け：**&#x200B;同じヒットを複数のレポートスイートに送信する方法です。仮想レポートスイートの導入に伴い、この機能はほぼ不要になりました。複数のスイートタグ付けは、主にグローバルレポートスイートの調整に役立ちます。
 * **正規化：**&#x200B;すべての指標を取得し、それらを均等な比率に固定するビジュアライゼーションを編成する方法で、トレンドの比較が容易になります。
-* **回数：**&#x200B;ディメンション値が設定または持続されたヒット数を示す指標のタイプ。コンポーネントユーザーガイドの [回数](/help/components/metrics/occurrences.md) 指標を参照してください。
+* **回数：** ディメンション項目が設定または持続されたヒット数を示す指標のタイプ。 コンポーネントユーザーガイドの [回数](/help/components/metrics/occurrences.md) 指標を参照してください。
 * **Omniture：**&#x200B;現在はこの用語は使用されていません。2009 年にアドビによって買収される前に Adobe Analytics を所有していた組織。
 * **パス：**「フロー」を参照してください。
 * **ページビュー：**&#x200B;ページビュー数を示すヒットのタイプ。コンポーネントユーザーガイドの [ページ表示](/help/components/metrics/page-views.md) 指標を参照してください。 「ヒット」も参照してください。
