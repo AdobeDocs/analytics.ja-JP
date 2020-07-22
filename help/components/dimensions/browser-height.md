@@ -2,7 +2,7 @@
 title: ブラウザーの高さ — グループ
 description: ブラウザーウィンドウの高さ（ピクセル単位）。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -24,10 +24,10 @@ ht-degree: 0%
 
 ## このディメンションにデータを入力する
 
-このディメンションは、イメージリクエストの [`bh` クエリ列](/help/implement/validate/query-parameters.md) からデータを取得します。 AppMeasurementは、ブラウザーのJavaScript変数を使用してこのデータ `window.innerHeight` を収集します。 （Adobe Experience Platform Launch経由などの）AppMeasurementライブラリを使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement以外のデータ収集方法（API経由など）を使用する場合は、各訪問の最初のヒットに `bh` クエリ文字列パラメーターを必ず含めてください。
+このディメンションは、イメージリクエストの [`bh` クエリ列](/help/implement/validate/query-parameters.md) からデータを取得します。 AppMeasurementは、ブラウザーのJavaScript変数を使用してこのデータ `window.innerHeight` を収集します。 (Adobe Experience Platform起動を介したなどの)AppMeasurementライブラリを使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement以外のデータ収集方法（API経由など）を使用する場合は、各訪問の最初のヒットに `bh` クエリ文字列パラメーターを必ず含めてください。
 
 アドビは、1回の訪問でブラウザーの高さを維持します。 訪問中にブラウザーの高さを調整した場合、調整は記録されません。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、収集されたすべてのブラウザーの高さが含まれ、100ピクセルのグループに分類されます。 例えば、ヒットのブラウザーの高さが `720`ある場合、そのヒットはディメンション値にグループ化され `700 to 799`ます。
+ディメンション項目には、収集されたすべてのブラウザーの高さが含まれ、100ピクセルのグループに分類されます。 例えば、ヒットのブラウザーの高さが `720`ある場合、ディメンション項目にグループ化され `700 to 799`ます。
