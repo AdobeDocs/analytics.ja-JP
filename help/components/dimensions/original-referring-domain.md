@@ -2,7 +2,7 @@
 title: オリジナルの参照ドメイン
 description: 訪問者が貴社サイトにクリックスルーする前に最初にアクセスした参照ドメイン。
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 このディメンションは、Analyticsインターフェイスとお客様の実装の両方で設定する必要があります。
 
-* 実装内で、このディメンションはイメージリクエストの [`r` クエリ列](/help/implement/validate/query-parameters.md) からデータを取得します。 AppMeasurementは、ブラウザーのJavaScript変数を使用してこのデータ `document.referrer` を収集します。 （Adobe Experience Platform Launch経由などの）AppMeasurementライブラリを使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement以外の（API経由などの）データ収集方法を使用する場合は、クエリリクエストに `r` 文字列パラメーターを必ず含めてください。
-* Analyticsインターフェイス内で、レポートスイートの [内部URLフィルターーを設定する必要があります](/help/admin/admin/internal-url-filter-admin.md)。 内部URLフィルターを設定しないと、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
+* 実装内で、このディメンションはイメージリクエストの [`r` クエリ列](/help/implement/validate/query-parameters.md) からデータを取得します。 AppMeasurementは、ブラウザーのJavaScript変数を使用してこのデータ `document.referrer` を収集します。 (Adobe Experience Platform起動を介したなどの)AppMeasurementライブラリを使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement以外の（API経由などの）データ収集方法を使用する場合は、クエリリクエストに `r` 文字列パラメーターを必ず含めてください。
+* Analyticsのインターフェイス内で、レポートスイートの [内部URLフィルターを設定する必要があります](/help/admin/admin/internal-url-filter-admin.md)。 内部URLフィルターを設定しないと、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
 
 アドビでは、オリジナルの参照ドメインを訪問者の存続期間にわたって維持します。 訪問者が別のドメイン上のリンクを離れたりクリックスルーしたりする場合、新しい値は記録されません。 新しい値を表示する場合は、「 [参照ドメイン](referring-domain.md)」を参照してください。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、訪問者がサイトにクリックスルーしたドメインが含まれます。 ヒットに転送者データがない（設定または持続的な）場合は、ディメンション値でグループ化され `"None"`ます。 このディメンション値は、訪問者がブラウザーのアドレスを手動でアドレスバーに入力したか、ブックマークをクリックしたなど、転送者値がなかったことを意味します。
+ディメンション項目には、訪問者がクリックスルーしてサイトに導くドメインが含まれます。 ヒットに転送者データがない（設定または持続的な）場合は、ディメンション項目の下にグループ化され `"None"`ます。 このディメンション項目は、訪問者がブラウザーのアドレスを手動でアドレスバーに入力したか、ブックマークをクリックしたなど、転送者値がなかったことを意味します。
