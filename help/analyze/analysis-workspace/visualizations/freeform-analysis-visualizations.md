@@ -2,8 +2,11 @@
 description: Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 keywords: Analysis Workspace
 title: ビジュアライゼーションの概要
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,7 @@ YouTube ビデオ：[Analysis Workspace のビジュアライゼーションの�
 | [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
 | [行](/help/analyze/analysis-workspace/visualizations/line.md) | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、時間がディメンションとして使用される場合にのみ使用できます。 |
 | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 任意の指標（計算指標を含む）のビジュアルマップを作成できます。 |
-| [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ディメンション値と最大 3 つの指標の関係を表示します。 |
+| [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ディメンション項目と最大3つの指標の関係を表示します。 |
 | [概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | このビジュアライゼーションは、選択したセルに応じて、合計と概要を表示します。 |
 | [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | このビジュアライゼーションでは、選択されているセルに応じて、セルを互いに比較します。 |
 | [テキスト](/help/analyze/analysis-workspace/visualizations/text.md) | ユーザー定義のテキストを Workspace に追加できます。 |
@@ -37,7 +40,7 @@ YouTube ビデオ：[Analysis Workspace のビジュアライゼーションの�
 
 ## ビジュアライゼーションパネル {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-ビジュアライゼーションパネルを表示するには、サイドパネルで「**[!UICONTROL Visualizations]**」をクリックします。
+ビジュアライゼーションパネルを表示するには、サイドパネルで「**[!UICONTROL ビジュアライゼーション]**」をクリックします。
 
 ![手順の結果](assets/visualizations.png)
 
@@ -45,7 +48,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 
 ## ビジュアライゼーション設定 {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-[!UICONTROL Visualization Settings] にアクセスするに は、ビジュアライゼーションを[!UICONTROL Freeform Panel]にドラッグして、[!UICONTROL Visualization Settings]歯車アイコンをクリックします。
+「[!UICONTROL ビジュアライゼーション設定]」にアクセスするには、[!UICONTROL フリーフォームパネル]にビジュアライゼーションをドラッグした後、[!UICONTROL ビジュアライゼーション設定]ギアアイコンをクリックします。
 
 >[!IMPORTANT]
 >
@@ -66,7 +69,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 
 ## ビジュアルを作成アイコン {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-どのビジュアライゼーションが選択されているかわからない場合は、テーブルの行にある&#x200B;**[!UICONTROL Create Visual]**&#x200B;アイコンをクリックします。このアイコンは、テーブルの行の上にマウスポインターを置くと表示されます。クリックすると、データに最適なビジュアライゼーションを Analysis Workspace が学習に基づいて推測することの確認が表示されます。例えば、最大 3 セグメントを選択した場合、ベン図が作成されます。3 セグメントを超える場合、棒グラフが作成されます。他のタイプのデータの場合、折れ線グラフなどが作成されます。
+どのビジュアライゼーションが選択されているかわからない場合は、テーブルの行にある&#x200B;**[!UICONTROL ビジュアルを作成]**&#x200B;アイコンをクリックします。このアイコンは、テーブルの行の上にマウスポインターを置くと表示されます。クリックすると、データに最適なビジュアライゼーションを Analysis Workspace が学習に基づいて推測することの確認が表示されます。例えば、最大 3 セグメントを選択した場合、ベン図が作成されます。3 セグメントを超える場合、棒グラフが作成されます。他のタイプのデータの場合、折れ線グラフなどが作成されます。
 
 ![](assets/create-visual.png)
 
@@ -99,7 +102,7 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 折れ線グラフの凡例ラベルを編集するには、例えば、次のようにします。
 
 1. 凡例ラベルの 1 つを右クリックします。
-1. 「**[!UICONTROL Edit Label]**」をクリックします。
+1. 「**[!UICONTROL ラベルを編集]**」をクリックします。
 
    ![](assets/edit-label.png)
 
