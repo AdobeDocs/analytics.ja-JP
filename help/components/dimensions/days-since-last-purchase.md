@@ -2,7 +2,7 @@
 title: 前回購入からの日数
 description: 現在のヒットから最後の購入までの日数。
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 アドビでは、実装の [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) イベントに基づいて、このディメンションを自動的に設定します。 サイトに `purchase` イベントを実装する場合、このディメンションは常に機能します。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、訪問者の最新の購入から現在のヒットまでの日数が含まれます。 各日数は個別のディメンション値です。「同じ日」は、訪問者の最新の購入と現在のヒットが同じ日に発生した場合に発生します。
+ディメンション項目には、訪問者の最新の購入から現在のヒットまでの日数が含まれます。 各日数は個別のディメンション項目です。「同じ日」は、訪問者の最新の購入と現在のヒットが同じ日に発生した場合に発生します。
