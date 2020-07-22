@@ -2,7 +2,7 @@
 title: ヒットタイプ
 description: ヒットがフォアグラウンドヒットかバックグラウンドヒットかを判定します。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
@@ -16,8 +16,8 @@ ht-degree: 2%
 
 ## このディメンションにデータを入力する
 
-このディメンションは、バージョン4.13.6以降でのすべてのモバイルSDK実装で初期設定のまま機能します。 モバイルSDKを使用しない場合、「Foreground」ディメンション値以下のすべてのヒットリスト。 If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
+このディメンションは、バージョン4.13.6以降でのすべてのモバイルSDK実装で初期設定のまま機能します。 モバイルSDKを使用しない場合、「Foreground」ディメンション項目以下のすべてのヒットリスト。 If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、 `"Foreground"` およびが含まれ `"Background"`ます。 モバイルアプリケーションのバックグラウンドで送信されなかったヒットは、すべて `"Foreground"` ディメンション値に属します。 モバイルアプリがバックグラウンドにあった場所に送信されたヒットが、ディメンション値に属し `"Background"` ます。
+ディメンション項目には、 `"Foreground"` およびが含まれ `"Background"`ます。 モバイルアプリケーションのバックグラウンドで送信されなかったヒットは、ディメンション項目に属し `"Foreground"` ます。 モバイルアプリがバックグラウンドにあった場所に送信されたヒットが、ディメンション項目に属していま `"Background"` す。
