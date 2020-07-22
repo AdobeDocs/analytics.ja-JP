@@ -2,7 +2,7 @@
 title: ページ
 description: ページの名前。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -20,9 +20,9 @@ ht-degree: 3%
 
 このディメンションは、イメージリクエストの [`pageName` クエリ列](/help/implement/validate/query-parameters.md) からデータを取得します。 AppMeasurementは、この `pageName` 変数を使用してこのデータを収集します。 変数が定義されていない場合は `pageName` 、ページのURLを使用して戻ります。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、サイトのページ名が含まれます。 組織は、使用する特定のディメンション値を決定します。 組織によっては直接使用する場合 `document.title`と、カスタム階層リンクを作成する場合があります。 どの方法を使用する場合でも、一貫性があり、 [ソリューションデザインドキュメントに記録する必要があります](/help/implement/prepare/solution-design.md)。
+ディメンション項目には、サイトのページ名が含まれます。 組織によって、使用する特定のディメンション項目が決まります。 組織によっては直接使用する場合 `document.title`と、カスタム階層リンクを作成する場合があります。 どの方法を使用する場合でも、一貫性があり、 [ソリューションデザインドキュメントに記録する必要があります](/help/implement/prepare/solution-design.md)。
 
 >[!NOTE]
 >
