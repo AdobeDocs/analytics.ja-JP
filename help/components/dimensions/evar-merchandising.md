@@ -2,7 +2,7 @@
 title: eVar（マーチャンダイジング）
 description: productsディメンションに関連付けられるカスタム変数。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # eVar（マーチャンダイジング）
 
-*このヘルプページでは、マーチャンダイジングeVarがディメンションとして機能する方法を説明します。 マーチャンダイジングeVarの実装方法について詳しくは、『実装ユーザーガイド[](/help/implement/vars/page-vars/evar.md)』のeVarを参照してください。*
+*このヘルプページでは、マーチャンダイジングeVarがディメンションとして機能する方法を説明します。 For information on how to implement merchandising eVars, see[eVars](/help/implement/vars/page-vars/evar.md)in the Implement user guide.*
 
 外部キャンペーンまたは外部検索用語の成功を測定する場合、一般的には発生する成功イベントすべてに対応するクレジットを受け取る 1 個の値が必要になります。例えば、顧客が電子メールキャンペーンのリンクをクリックして Web サイトを訪問した場合、その結果としておこなわれたすべての購入のクレジットがそのキャンペーンに付与される必要があります。
 
@@ -48,7 +48,7 @@ If merchandising is enabled for the eVar in the previous example, the search ter
 マーチャンダイジング変数での使用には、 [](../metrics/instances.md) インスタンス指標の使用は推奨されません。
 
 * 製品の構文を使用するマーチャンダイジング変数の場合、インスタンスはまったく増えません。
-* コンバージョン変数の構文を使用するマーチャンダイジング変数の場合、eVarが設定されるたびにインスタンスがカウントされます。 ただし、同じヒットで次のすべてが発生しな `"None"` い限り、ディメンション値の属性になります。
+* コンバージョン変数の構文を使用するマーチャンダイジング変数の場合、eVarが設定されるたびにインスタンスがカウントされます。 ただし、次のすべてが同じヒットで発生しない `"None"` 限り、ディメンション項目の属性になります。
    * マーチャンダイジングeVarに値が設定されている。
    * 変数は値で定義され `products` ます。
    * バインディングイベントが設定される。
