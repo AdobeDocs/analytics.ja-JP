@@ -1,8 +1,8 @@
 ---
 title: アトリビューションモデルとルックバックウィンドウ
-description: 様々なタイプのアトリビューションによってディメンション値間でクレジットがどのように分割されるか。
+description: 様々なタイプのアトリビューションによってディメンション項目間でクレジットがどのように分割されるか。
 translation-type: tm+mt
-source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 93%
