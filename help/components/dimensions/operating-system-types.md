@@ -2,7 +2,7 @@
 title: オペレーティングシステムの種類
 description: バージョンに関係なく、オペレーティングシステム。
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 ## このディメンションにデータを入力する
 
-このディメンションは、Adobe内部のルックアップテーブルを参照します。 ルックアップ値は、イメージリクエストの `User-Agent` HTTPヘッダーに基づきます。 （Adobe Experience Platform Launch経由などの）AppMeasurementライブラリを使用する場合、このディメンションは初期設定の状態で動作します。
+このディメンションは、Adobe内部のルックアップテーブルを参照します。 ルックアップ値は、イメージリクエストの `User-Agent` HTTPヘッダーに基づきます。 (Adobe Experience Platform起動を介したなどの)AppMeasurementライブラリを使用する場合、このディメンションは初期設定の状態で動作します。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、使用するオペレーティングシステムの種類が含まれます。 Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
+ディメンション項目には、使用するオペレーティングシステムの種類が含まれます。 Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
