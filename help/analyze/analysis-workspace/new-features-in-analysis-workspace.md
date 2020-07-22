@@ -3,10 +3,10 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -345,7 +345,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >新しい行設定</a> </p> </td> 
-   <td colname="col2"> <p><span class="uicontrol">行ごとに割合を計算</span>という新しい設定により、フリーフォームテーブルでは、列ではなく行全体のセルの割合が表示されるようになります。これは、あるディメンション値が他の値に対してどの程度公正であるかを経時でトレンド分析する場合など、割合のトレンド分析に特に役立ちます。<span class="uicontrol">視覚化</span>アイコンをクリックした場合、これはデフォルトでオンになります。 </p> </td> 
+   <td colname="col2"> <p><span class="uicontrol">行ごとに割合を計算</span>という新しい設定により、フリーフォームテーブルでは、列ではなく行全体のセルの割合が表示されるようになります。これは、特に、あるディメンション項目が経時的に他のディメンション項目とどのように一致するかの傾向を見るなど、割合のトレンドを見る場合に便利です。 <span class="uicontrol">視覚化</span>アイコンをクリックした場合、これはデフォルトでオンになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >「100％の積み重ね」ビジュアライゼーション設定</a> </p> </td> 
@@ -515,7 +515,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>なし／未指定に対する変更 </p> </td> 
-   <td colname="col2"> <p>Reports &amp; Analytics、セグメントビルダーおよび Analysis Workspace のディメンション値メニューと一致するように、Analysis Workspace の「なし」／「未指定」の機能を変更しました。 </p> <p>これにより、Analysis Workspace のほとんどのプロジェクトで、値が「なし」ではなく「未指定」と表示されます。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspaceでの「なし」/「未指定」の機能のしくみを変更し、Reports &amp;Analytics、セグメントビルダー、Analysis Workspaceのディメンション項目メニューと一致するようにしました。 </p> <p>これにより、Analysis Workspace のほとんどのプロジェクトで、値が「なし」ではなく「未指定」と表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
