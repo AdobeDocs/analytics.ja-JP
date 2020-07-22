@@ -2,7 +2,7 @@
 title: Experience Cloud ID を持つ訪問者
 description: Adobe Experience Cloud IDサービスを使用している一意の訪問者の数です。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
@@ -38,4 +38,4 @@ ht-degree: 19%
 
 ![IDサービスを使用しないページ](assets/metric-mcvid3.png)
 
-「Product Quick表示」ディメンション値は、IDサービスでは正しく実装されないことに注意してください。 組織内の適切なチームと協力して、これらのページを可能な限り早く更新できます。 ブラウザータイプ [、](../dimensions/browser-type.md)サイトセクション [、eVarなど、あらゆるタイプのディメンションを使用して、類似したレポートを作成できます](../dimensions/site-section.md)[](../dimensions/evar.md)。
+「Product Quick表示」ディメンション項目は、IDサービスでは適切に実装されていません。 組織内の適切なチームと協力して、これらのページを可能な限り早く更新できます。 ブラウザータイプ [、](../dimensions/browser-type.md)サイトセクション [、eVarなど、あらゆるタイプのディメンションを使用して、類似したレポートを作成できます](../dimensions/site-section.md)[](../dimensions/evar.md)。
