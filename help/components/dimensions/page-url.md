@@ -2,7 +2,7 @@
 title: ページ URL
 description: ページのURL。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -28,6 +28,6 @@ eVarを連結された文字列に設定することをお勧め `window.locatio
 
 eVarをData warehouseの「ページURL」ディメンションと完全に一致させる場合は、 [動的変数を使用して](/help/implement/vars/page-vars/dynamic-variables.md) 、各ヒットに対してeVarを `D=g` 設定できます。 すべての [`tl()`](/help/implement/vars/functions/tl-method.md) 呼び出しでページURLが削除されるので、このメソッドは、カスタムリンクヒットに対しては動作しません。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、サイトのページのURLが含まれます。
+ディメンション項目には、サイトのページのURLが含まれます。
