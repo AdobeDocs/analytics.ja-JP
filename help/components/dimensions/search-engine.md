@@ -2,7 +2,7 @@
 title: 検索エンジン
 description: 訪問者がサイトに到達するのに使用した検索エンジン。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
@@ -27,6 +27,6 @@ ht-degree: 1%
 
 このディメンションは、Adobe内部の複数の参照テーブルを参照します。 各値は、ヒットの [転送者](referrer.md) ( [内部URLフィルターに依存)に基づきます](/help/admin/admin/internal-url-filter-admin.md)。 転送者ディメンションと内部URLフィルターが正しく設定されていることを確認します。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、サイトに到達するために使用される検索エンジンが含まれます。 例えば、、、 `"Google"`、な `"Microsoft Bing"`どの値があり `"DuckDuckGo"`ます。 ディメンション値は、すべて検索以外のトラフィックです。 `"Unspecified"`
+ディメンション項目には、サイトへのアクセスに使用される検索エンジンが含まれます。 例えば、、、 `"Google"`、な `"Microsoft Bing"`どの値があり `"DuckDuckGo"`ます。 ディメンション項目は、すべて検索以外のトラフィックです。 `"Unspecified"`
