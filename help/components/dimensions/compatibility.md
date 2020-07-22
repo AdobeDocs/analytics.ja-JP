@@ -2,7 +2,7 @@
 title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->カスタム変数名、分類、訪問者属性は、このリストには含まれません。 これらのディメンション値は、個々のレポートスイートに固有の値です。
+>カスタム変数名、分類、訪問者属性は、このリストには含まれません。 これらのディメンション項目は、個々のレポートスイートに固有です。
 
 >[!NOTE]
 >
