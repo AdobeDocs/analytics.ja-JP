@@ -2,7 +2,7 @@
 title: 画面の解像度
 description: 訪問者のモニターの解像度（ピクセル単位）。
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 1%
@@ -24,8 +24,8 @@ ht-degree: 1%
 
 ## このディメンションにデータを入力する
 
-このディメンションは、イメージリクエストの [`s` クエリ列](/help/implement/validate/query-parameters.md) からデータを取得します。 AppMeasurementは、JavaScript変数を使用してこのデータを収集し、ブラウザ `screen.width` ー `screen.height` でデータを収集します。 （Adobe Experience Platform Launch経由などの）AppMeasurementライブラリを使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement以外の（API経由などの）データ収集方法を使用する場合は、クエリリクエストに `s` 文字列パラメーターを必ず含めてください。
+このディメンションは、イメージリクエストの [`s` クエリ列](/help/implement/validate/query-parameters.md) からデータを取得します。 AppMeasurementは、JavaScript変数を使用してこのデータを収集し、ブラウザ `screen.width` ー `screen.height` でデータを収集します。 (Adobe Experience Platform起動を介したなどの)AppMeasurementライブラリを使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement以外の（API経由などの）データ収集方法を使用する場合は、クエリリクエストに `s` 文字列パラメーターを必ず含めてください。
 
-## 分析コード値
+## ディメンション項目
 
-ディメンション値には、収集されたすべてのモニター解像度が含まれます。 例えば、、、 `1920 x 1080`、な `1366 x 768`どの値があり `1280 x 720`ます。
+ディメンション項目には、収集されたすべてのモニター解像度が含まれます。 例えば、、、 `1920 x 1080`、な `1366 x 768`どの値があり `1280 x 720`ます。
