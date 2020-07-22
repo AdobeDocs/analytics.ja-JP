@@ -2,7 +2,7 @@
 title: t
 description: ページビュートラッキングコールをアドビに送信します。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
@@ -22,7 +22,7 @@ var s = s_gi("examplersid");
 
 // Define config variables and page variables
 s.trackingServerSecure = "data.example.com";
-s.eVar1 = "Example dimension value";
+s.eVar1 = "Example dimension item";
 
 // Compile the variables on the page into an image request to Adobe
 s.t();
