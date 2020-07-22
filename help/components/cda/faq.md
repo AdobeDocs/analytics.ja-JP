@@ -2,7 +2,7 @@
 title: クロスデバイス分析に関する FAQ
 description: クロスデバイス分析に関するよくある質問（FAQ）
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 52%
@@ -92,4 +92,4 @@ CDA識別方法を切り替える場合は、組織のアカウントマネー�
 
 ## アドビでは、フィールドベースのステッチで使用されるeVarの一意の制限をどのように処理しますか。
 
-CDAは、レポート用に最適化される前にeVarディメンション値を取り込みます。 CDAの目的で固有の制限について心配する必要はありません。 ただし、Workspaceプロジェクトでそのprop/eVarを使用しようとすると、 [（低トラフィック）](/help/technotes/low-traffic.md) ディメンション値が表示され続けます。
+CDAは、レポート用に最適化される前にeVarディメンション項目を取り込みます。 CDAの目的で固有の制限について心配する必要はありません。 ただし、Workspaceプロジェクトでそのprop/eVarを使用しようとすると、 [（低トラフィック）](/help/technotes/low-traffic.md) ディメンション項目を表示できます。
