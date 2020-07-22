@@ -2,7 +2,7 @@
 title: prop
 description: レポートで使用できるカスタムディメンション。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 26%
@@ -28,9 +28,9 @@ Prop は、好きなだけ使用できるカスタム変数です。設定され
 
 JavaScript変数をデータ収集用のイメージリクエストにコンパイルするAppMeasurementでは、変数 `prop1` — を使用 `prop75`します。 導入のガイドラインについては、『導入ユーザガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。
 
-## 分析コード値
+## ディメンション項目
 
-propは実装にカスタム文字列を含むので、組織は各propのディメンション値を決定します。 各propの目的と一般的なディメンション値を必ず [ソリューションデザインドキュメントに記録してください](/help/implement/prepare/solution-design.md)。
+propは実装にカスタム文字列を含むので、組織は各propのディメンション項目を決定します。 各propと一般的なディメンション項目の目的を [ソリューションデザインドキュメントに記録してください](/help/implement/prepare/solution-design.md)。
 
 ## eVarに対するpropの値
 
