@@ -3,10 +3,10 @@ description: Ad Hoc Analysis の用語およびタスクを Analysis Workspace �
 title: Analysis Workspace と Ad Hoc Analysis の比較
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 87%
 
 ---
 
@@ -56,6 +56,10 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > ビデオ：Workspace でのセグメントの使用</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > ビデオ：パネルへのセグメントの適用</a> </p> </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <p>一時的な（「アドホック」）セグメントの作成 </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. さらに、パネルのドロップゾーンにドロップダウンフィルターを追加して、一時セグメントを多数作成し、プロジェクトの操作を制御できます。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > ビデオ：Analysis Workspace のアドホックセグメント</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > ビデオ： Analysis Workspaceのドロップダウンフィルター</a> </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p>日付範囲および精度の選択 </p> </td> 
    <td colname="col2"> <p>日付範囲および精度は、日時コンポーネントメニューにあり、次の 3 つの方法で使用できます。 </p> 
     <ol id="ol_8B57C8A840694A879B22B809C58E7482"> 
@@ -63,10 +67,6 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
      <li id="li_85BB89EFF9C8466A992815BB7804EA37">「適用」では、パネル内のすべてのビジュアライゼーションに日付範囲が適用されます。これは、Ad Hoc Analysis での Workspace の日付範囲に似ています。 </li> 
      <li id="li_BC18564A8FBB48F4A522BCAC60838759">「すべてのパネルに適用」では、Workspace プロジェクト内のすべてのパネルに日付範囲が適用されます。これは、Ad Hoc Analysis でのプロジェクトの日付範囲に似ています。 </li> 
     </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > ビデオ：Analysis Workspace での日付の操作</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > ビデオ：カスタム日付範囲</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>内部（「アドホック」）セグメントの作成 </p> </td> 
-   <td colname="col2"> <p>ディメンション項目をパネルの上部にあるセグメントドロップゾーンにドラッグすると、Analysis Workspace で<a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >内部（「アドホック」）セグメントを即座に作成できます</a>。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > ビデオ：Analysis Workspace のアドホックセグメント</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>フォールアウトおよびコンバージョンファネルの使用 </p> </td> 
@@ -83,10 +83,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">フローは訪問または訪問者にまたがることができます。 </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">主な統計は、％パス表示で示されます。 </li> 
-    </ul> <p>また、フローでは、Ad Hoc Analysis よりも改善された点として、<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合したディメンション</a>と右クリックでセグメントを作成できることは、Ad Hoc Analysis における改善点です。 </p> <p>現在、Analysis Workspace のフローでは、以下のことは<b>できません</b>。 </p> 
-    <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
-     <li id="li_384141A577BB4A94899C3E36714225EE">繰り返しインスタンスをオフにする。 </li> 
-     <li id="li_CC451BFB9FFC4C68AE28A7462B339460">ユーザーに成功イベントの選択を許可する。 </li> 
+    </ul> <p>また、フローでは、Ad Hoc Analysis よりも改善された点として、<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合したディメンション</a>と右クリックでセグメントを作成できることは、Ad Hoc Analysis における改善点です。 </p> <p>現在、Analysis Workspace内のフローでは、イベントの選択 <b>をユーザーに許可できません</b> 。 </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > ビデオ：フロービジュアライゼーションの概要</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > ビデオ：複数ディメンションのフロー</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > ビデオ：フローからのセグメントの作成</a> </p> </td> 
   </tr> 
   <tr> 
@@ -99,20 +96,12 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポートスイートの選択 </p> </td> 
-   <td colname="col2"> <p>Ad Hoc Analysis と同様に、1 つの Workspace プロジェクトで選択できるレポートスイートは 1 つだけです。ただし、複数のレポートスイートの処理を今後リリースする予定です。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace内の1つのプロジェクトに複数のレポートスイートを追加できます。  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > ビデオ： Workspaceの複数のレポートスイート</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>なし </p> </td> 
-   <td colname="col2"> <p>セグメントへの日付範囲の追加。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>なし </p> </td> 
-   <td colname="col2"> <p>セグメントでシーケンスの「前のみ／後のみ」機能を使用します。 </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。これには、10以上のルールベースモデルとアルゴリズムモデルが含まれます。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > ビデオ： フリーフォーム表のアトリビューションIQ</a> </p> </td> 
+  </tr>  
  </tbody> 
 </table>
 
