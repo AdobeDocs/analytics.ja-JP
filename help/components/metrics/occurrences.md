@@ -2,9 +2,9 @@
 title: 発生件数
 description: 変数が設定または持続されたヒットの数。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## この指標の計算方法
 
-レポートスイート内のすべてのヒットの中で、ディメンション項目が定義または持続するヒットを含めます。 eVars [](../dimensions/evar.md)などのディメンションは、設定されたヒットの後も保持される場合があります。 [ページ表示](page-views.md) や [](occurrences.md) 回数などの指標は、初期値と持続値の両方をカウントします。 この指標では、永続化された値はカウントされません。
+レポートスイート内のすべてのヒットの中で、ディメンション項目が定義または持続するヒットを含めます。 eVars [](../dimensions/evar.md)などのディメンションは、設定されたヒットの後も保持される場合があります。 [ページ表示](page-views.md) や [](occurrences.md) 回数などの指標は、初期値と持続値の両方をカウントします。
 
 ## 類似の指標と比較
 
