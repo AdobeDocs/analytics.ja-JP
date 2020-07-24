@@ -2,9 +2,9 @@
 title: 動的ディメンション項目と静的ディメンション項目
 description: テーブルの動的および静的ディメンション項目の操作方法。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,4 @@ ht-degree: 2%
 フリーフォーム合計行の動的行と静的行の動作が異なります。 デフォルト：
 
 * 動的な行は、訪問数や訪問者数などのサーバー側と重複解除指標の合計です
-* 静的な行は、クライアント側で合計され、重複 **の解除指標は行われません** 。
-
-[動的行と静的行のWorkspace合計](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) オプションについて詳しく説明します。
+* 静的な行は、クライアント側で合計され、重複 **の解除指標は行われません** 。 サーバーサイドの合計行を計算するには、「行」設定を「総合計を **表示**」に変更します。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
