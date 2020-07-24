@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 98%
@@ -27,7 +27,7 @@ ht-degree: 98%
       + 列および行の設定 {#column-row-settings}
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [行設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [手動の行と動的な行の比較](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [動的項目と静的項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [「元に戻す」および「やり直し」の設定](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace で使用できるホットキー](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [テーブルのページネーション、フィルタリングおよび並べ替え](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
