@@ -2,12 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Analytics 実装ガイド
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -154,8 +155,8 @@ ht-degree: 92%
    + [Analytics プロパティの作成](launch/create-analytics-property.md)
    + [開発環境へのデプロイ](launch/deploy-dev.md)
    + [検証して実稼動環境に公開](launch/validate-publish-prod.md)
-   + [データレイヤーオブジェクトのデータ要素へのマッピング](launch/layer-to-elements.md)
-   + [起動データ要素のAnalytics変数へのマッピング](launch/elements-to-variable.md)
+   + [データレイヤーオブジェクトをデータ要素にマッピングする](launch/layer-to-elements.md)
+   + [Launch データ要素を Analytics 変数にマッピングする](launch/elements-to-variable.md)
 + 他のプラットフォームへの Analytics の実装 {#other}
    + [ハードコードされたイメージリクエストを使用した Analytics の実装](other/hardcoded.md)
    + DTM を使用した Analytics の実装 {#dtm}
@@ -201,6 +202,6 @@ ht-degree: 92%
    + [パケット監視](validate/packet-monitor.md)
    + [ハッシュの競合](validate/hash-collisions.md)
 + [よくある質問](faq.md)
-+ XDMデータをAnalyticsで使用する {#aep-edge}
-   + [AEP Web SDKを使用する](aep-edge/xdmoverview.md)
++ Analytics での XDM データの使用 {#aep-edge}
+   + [AEP Web SDK を使用する](aep-edge/xdmoverview.md)
    + [XDMデータを手動でAnalyticsにマップ](aep-edge/xdm-manual.md)
