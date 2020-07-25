@@ -2,9 +2,10 @@
 product: analytics
 audience: admin
 user-guide-title: Analytics 管理ガイド
+user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, company settings, data governance, server call usage, traffic management, and more.
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
+source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 99%
