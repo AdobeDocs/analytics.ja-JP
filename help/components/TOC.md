@@ -2,9 +2,10 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics コンポーネントガイド
+user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
+source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 74%
