@@ -2,9 +2,10 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics ツールガイド
+user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
+source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 98%
