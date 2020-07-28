@@ -3,10 +3,10 @@ description: Ad Hoc Analysis の概要を説明します。
 title: はじめに
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 100%
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -93,8 +93,8 @@ c_sys_reqs.xml
 * 自分のマシンにプログラムをインストールすることが許可されている場合
 
    1. https://www.java.com に移動します。
-   1. 「**[!UICONTROL 無料 Java のダウンロード]**」をクリックします。
-   1. 「**[!UICONTROL 同意して無料ダウンロードを開始]**」をクリックします。
+   1. Click **[!UICONTROL Java Download]**.
+   1. Click **[!UICONTROL Agree and Start Download]**.
    1. お使いのオペレーティングシステム専用の最新の Java バージョンをインストールします。
 
 * 自分のマシンにプログラムをインストールすることが&#x200B;**許可されていない**&#x200B;場合
