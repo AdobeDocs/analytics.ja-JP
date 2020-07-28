@@ -3,7 +3,7 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '2123'
 ht-degree: 96%
@@ -21,7 +21,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.21.0
 
-リリース日：**2020 年 6 月 24 日**
+Release Date: **June 24, 2020**
 
 * Activity MaplinkExclusionsフィルターがFirefoxに適用されない場合がある問題を修正しました。
 
@@ -356,7 +356,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 * s.t がリンク onclick 関数から呼び出されて、訪問者 API が必要な値をまだ持っていない場合、ページビューカウントが倍になる問題を修正しました。
 * HTTP POST をサポートします。
 
-   > [!IMPORTANT][!DNL Analytics]の GET メソッド（[!DNL AppMeasurement]IE での短縮 URL[ を解決するメソッド）の代わりに POST メソッドを使用する ](https://helpx.adobe.com/jp/analytics/kb/shortening-image-request-urls.html) の呼び出しの場合、Experience Cloud 用の最新の訪問者 ID サービス実装を使用する必要があります。
+   >[!IMPORTANT][!DNL Analytics]の GET メソッド（[!DNL AppMeasurement]IE での短縮 URL[ を解決するメソッド）の代わりに POST メソッドを使用する ](https://helpx.adobe.com/jp/analytics/kb/shortening-image-request-urls.html) の呼び出しの場合、Experience Cloud 用の最新の訪問者 ID サービス実装を使用する必要があります。
 
 ## バージョン 1.4
 
