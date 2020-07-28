@@ -2,8 +2,11 @@
 description: データプライバシーにおけるプライバシーレポート用変数。
 title: プライバシーレポート変数
 topic: Admin tools
-translation-type: ht
-source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -35,14 +38,14 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 Analytics Admin Console で利用できる新しいプライバシー設定を使用して、プライバシーレポート変数を有効にできます。
 
 各レポートスイートは、次のように設定できます。
-1. Reports &amp; Analyticsで、「**[!UICONTROL Admin > Report Suites]**」をクリックします。
-1. メディアデータを収集するレポートスイートを選択して、「**[!UICONTROL Edit Settings > Privacy Management]**」をクリックします。
+1. Reports &amp; Analytics で、**[!UICONTROL 管理者／レポートスイートをクリックします]**。
+1. メディアデータを収集するレポートスイートを選択して、**[!UICONTROL 設定を編集／プライバシー管理]**&#x200B;をクリックします。
 
    ![](assets/rsm-privacy-select.png)
 
-1. 「**[!UICONTROL Enable Data Privacy Reports]**」ボタンをクリックします。
+1. 「**[!UICONTROL データプライバシー レポートを有効にする]**」ボタンをクリックします。
 
-   > [!NOTE]有効化した後で、これらの変数をオフにすることはできません。
+   >[!NOTE]有効化した後で、これらの変数をオフにすることはできません。
 
    ![](assets/rsm-privacy-enable.png)
 
