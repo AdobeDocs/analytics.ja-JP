@@ -2,42 +2,37 @@
 description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbenchの 機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
 translation-type: tm+mt
-source-git-commit: 456459eab5ae26b49d16d9648a52e46a5818df44
+source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 83%
+source-wordcount: '662'
+ht-degree: 55%
 
 ---
 
 
 # Analytics 製品の比較と必要システム構成
 
-必要システム構成と、Analysis Workspace、Reports &amp;Analytics、Report Builder、Data warehouse、Data Workbench、AnalyticsAPI 2.0.、データフィード、Customer Journey Analyticsの比較。
+このページでは、Adobe Analyticsの各種製品の比較を示します。 Analysis Workspace、レポート&amp;Analytics、Report Builder、Data warehouse、Data Workbench、データフィード、AnalyticsAPI 2.0。
 
 どの Adobe Analytics 製品を使用するかについて詳しくは、[こちら](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)に移動します。
 
-| 製品名とヘルプリンク | [Analysis Workspace](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.translate.html) | [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) | AnalyticsAPI 2.0 | データフィード |
+| 製品名とヘルプリンク | [Analysis Workspace](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.translate.html) | [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) | [データフィード](https://docs.adobe.com/content/help/ja-JP/analytics/export/analytics-data-feed/data-feed-overview.html) | [AnalyticsAPI 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **アクセス方法** | 強力なカスタム分析プロジェクトを構築し、インサイトをデモクラタイズ（民主化）するブラウザーソリューション | デジタル分析のブラウザーソリューション | .csv 形式のレポートを生成するブラウザーソリューション。Tableau 形式のファイルを生成可能 | カスタムのアトリビューションモデル、予測分析、あらゆる角度からの顧客分析など、高度な分析機能を備えたマルチチャネル分析ツール |  |  |  |
-| **レポートの分類** | 制限なし | 最大 2 個の相関関係 | 最大 2 個の相関関係 | 無制限に分類が可能（セグメントによる分類） | 制限なし |  |  |
-| **セグメントの比較** | 制限なし | 最大 2 個のセグメント | 制限なし （データリクエストのスタック） | 1 個のセグメント. 複数のセグメント（スタック）をサポート | 制限なし |  |  |
-| **行の出力制限** | 400 | 200 | 50,000 | 制限なし | カスタマイズ可能 |  |  |
-| ****&#x200B;ユニーク値の制限（eVar／prop レポート内） | 50 万～200 万 | 50 万～200 万 | 50 万～200 万 | 制限なし | カスタマイズ可能 |  |  |
-| **ファネル／パス** | はい： [フォールアウト](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)/[フロー](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/flow/flow.html) | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/reports.html) | ○ | × | ○ |  |  |
-| **高度なカスタマージャーニー分析** | Yes: [Customer Journey Analytics](https://docs.adobe.com/content/help/ja-JP/analytics-platform/using/cja-landing.html) | × | × | × | ○ |  |  |
-| **コホート分析** | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | × | × | × | ○ |  |  |
-| **高度なアトリビューション** | はい： [アトリビューションIQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution-iq.html) | 制限あり - 最初／最後／線形 | 制限あり - 最初／最後／線形 | 制限あり - 最初／最後／線形 | ○ |  |  |
-| **ビジュアライゼーションの拡張オプション** | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) | × | ○ | × | ○ |  |  |
-| **レイアウトのカスタマイズ** | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html) | ○ - [ダッシュボード](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/dashboard.html) | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/layout/configure-the-custom-layout.html) | 分類または指標による結果の並べ替え | ○ |  |  |
-| ****&#x200B;プロジェクトのキュレーション（非アナリストを対象とする簡潔なレポート） | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/curate.html) | × | ○ | × | ○ |  |  |
-| **プロジェクトの共有** | [はい： すべて/任意のユーザー](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/curate.html) | [はい： すべて/任意のユーザー](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/scheduling.html) | はい： すべて/任意のユーザー | × | ○ |  |  |
-| **予定レポートの配信** | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/schedule-projects.html) | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/scheduling.html) | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/t-schedule-a-data-request.html) | ○ | ○ |  |  |
-| **必要システム構成** | <br>[ブラウザの詳細…](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html) | <br>[ブラウザの詳細…](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html) | Windows、MS Excel<br>[詳細…](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | ブラウザー、.csv ファイルを開くことのできるプログラム（MS Excel など）。Tableau 形式のファイルを生成可能 | Windows 64 bit, good graphics adapter for OpenGL 3.2 [More...](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/install/c-data-workbench-client-install.html) |  |  |  |
-| **仮想レポートスイート（レポート時間処理）の互換性** | ○ | ○ | ○ | × | ○? |  |  |
-| **複数のレポートスイート** | ○ | × | × | × | ○? |  |  |
-| **計算指標** | ○ | ○ | ○ | ○ | ○ |  |  |
-| **マーケティングチャネルの互換性** | ○ | ○ | ○ | ? | ? |  |  |
-| **精度のレベル** |  |  |  |  |  |  |  |
-| **異常値検出** | ○ | × |  |  |  |  |  |
-| **貢献度分析** | ○ | × | × | × | ○ |  |  |
-| **セグメントタイプ** |  |  |  |  |  |  |  |
+| **アクセス方法** | [ブラウザー](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html) | [ブラウザー](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html) | [Windows用MS Excel](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | ブラウザーを使用してセットアップします。 サポートされる宛先はFTPです。 追加のリンク先サポートについては、カスタマーケアにお問い合わせください。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html) | [Windows 64ビット](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/install/c-data-workbench-client-install.html) | ブラウザーを使用してセットアップします。 サポートされる宛先は、FTP、SFTP、Azure Blob、S3です。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/export/analytics-data-feed/data-feed-overview.html) | RESTful APIツール。 AdobeI/O資格情報を使用してログインします。 [詳細情報](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **データ形式（精度）** | 集計 | 集計 | 集計 | ECID | Timestamp + ECID | Timestamp + ECID | 集計 |
+| **処理レベル** | 完全処理済み | フル処理済みで、個別の [リアルタイムレポートを使用](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | フル処理済みで、個別の [リアルタイムレポートを使用](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | 完全処理済み | 完全処理済み | 完全処理済み | 完全処理済み |
+| **管理ボットフィルタデータが含まれています** 。 <br>[詳細](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html) | × | はい — 個別のボットレポート | はい — 個別のボットレポート | × | × | × | × |
+| **トラフィックが少ない（ユニークが超過しました）場合** 、 <br>[詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/low-traffic.html) | ○ | ○ | ○ | × | × | × | ○ |
+| **表示される行数制限（ページ分割前）** | 400 | 200 | 50000 | 制限なし | 制限なし | 制限なし | 50000 |
+| **複数のレポートスイート** | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | ○（制限あり） | ○ | × | ○ | × | ○ |
+| **分類の数** | 制限なし | ～ 2 | ～ 2 | 制限なし | 制限なし | 制限なし | 無制限、複数のクエリに対して実行 |
+| 「**セグメント** 」 <br>[詳細情報](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | ○ | ○ | ○ | ○( [制限あり)](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | ○ | × | ○ |
+| **計算指標**<br>[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html) | はい、 [Attribution IQあり](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | ○ | ○ | × | ○ | × | はい、 [Attribution IQあり](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
+| **マーケティングチャネル**<br>[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/components/marketing-channels/c-getting-started-mchannel.html) | ○ | ○ | ○ | ○ | ○ | はい — va_finder、va_closer | ○ |
+| **コホート分析** | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | × | × | × | ○ | × | × |
+| **アトリビューション** | はい、 [Attribution IQあり](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 制限あり | 制限あり | × | ○ | × | はい、 [Attribution IQあり](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
+| **Virtual Analyst機能**<br>[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | ○ | × | × | × | × | × | ○ |
+| **キュレーション**<br>[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/curate.html) | ○ — プロジェクトとVRS | × | × | × | × | × | ○ - VRSのみ |
+| **プロジェクト共有**<br>[の詳細](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | はい（プロジェクトロールあり） | ○ | ○ | × | ○ | × | × |
+| **配信予定** | ○ | ○ | ○ | ○ | ○ | ○ | × |
+| **VRSレポートの時間処理**<br>[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/components/virtual-report-suites/vrs-report-time-processing.html) | ○ | × | × | × | × | × | ○ |
