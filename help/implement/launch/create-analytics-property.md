@@ -1,8 +1,11 @@
 ---
 title: Launch での Analytics プロパティの作成
 description: Adobe Experience Platform Launch を使用してスペースを作成し、データの収集方法をカスタマイズします。
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '550'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,8 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
    * 拡張機能：Core
    * データ要素の種類：JavaScript 変数
    * 変数へのパス：`window.document.title`
-      > [!NOTE]注意：これは、使い始めるのに役立つ値の例です。データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
+
+      >[!NOTE]注意：これは、使い始めるのに役立つ値の例です。データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
    * クリーンテキストの確認
    * 期間：Pageview
 5. 「保存」をクリックします。
