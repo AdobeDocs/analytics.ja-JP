@@ -2,10 +2,10 @@
 title: eVar
 description: レポートで使用できるカスタムディメンション。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 72%
+source-wordcount: '788'
+ht-degree: 67%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 72%
 
 eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
-使用可能なeVarの数は、アドビとの契約によって異なります。 アドビとの契約でサポートされている場合は、最大250個のeVarを利用できます。
+使用可能なeVarの数は、Adobeとの契約によって異なります。 Adobeとの契約でサポートされている場合は、最大250個のeVarを使用できます。
+
+eVarでは大文字と小文字が区別されません。 異なるケース( `"DOG"` となど)で同じ値を送信する場合、Analysis Workspaceはそれらを同じディメンション項目にグループ化し `"Dog"`ます。 レポートの月の最初に表示される最初の値の場合が使用されます。 Data warehouseには、リクエスト期間中に最初に発生した値が表示されます。
 
 ## eVarにデータを入力する
 
@@ -24,9 +26,9 @@ eVar は、好きなだけ使用できるカスタム変数です。[ソリュ�
 
 JavaScript変数をデータ収集用のイメージリクエストにコンパイルするAppMeasurementでは、変数 `eVar1` — を使用 `eVar250`します。 導入のガイドラインについては、『導入ユーザガイド [](/help/implement/vars/page-vars/evar.md) 』のeVarを参照してください。
 
-## ディメンション項目
+## Dimension項目
 
-eVarは実装内にカスタム文字列を含むので、各eVarのディメンション項目は組織によって決まります。 各eVarと一般的なディメンション項目の目的を [ソリューションデザインドキュメントに記録してください](/help/implement/prepare/solution-design.md)。
+eVarは、実装にカスタム文字列を含むので、各eVarのディメンション項目を決定します。 各eVarと一般的なディメンション項目の目的を [ソリューションデザインドキュメントに記録してください](/help/implement/prepare/solution-design.md)。
 
 ## eVar のしくみ
 
@@ -42,7 +44,7 @@ Adobe Analytics にデータを送信すると、データ収集サーバーで�
 成功イベントと eVar は、様々なイメージリクエストで頻繁に定義されます。この `post_evar` 列では、eVar 値をイベントに結び付け、レポート内のデータを表示できます。訪問の例：
 
 1. 訪問者が貴社のホームページ上のサイトに到達します。
-2. サイト内検索で「cats」を検索します。導入では、内部検索にeVar1を使用します。
+2. サイト内検索で「cats」を検索します。導入では、内部検索にeVar1を使用しています。
 3. ユーザーは製品を表示し、チェックアウトプロセスを進めます。
 
 生データの簡易バージョンは、次のようになります。
@@ -86,10 +88,10 @@ You can change eVar allocation and expiration under [Conversion variables](/help
 
 ## propに対するeVarの値
 
-アドビでは、次のサポート対象となるほとんどの場合にeVarの使用をお勧めします。
+Adobeでは、次のサポート対象となるほとんどの場合にeVarの使用をお勧めします。
 
 * eVarは、レポートで255バイトの制限があります。 propには100バイトの制限があります。
 * デフォルトでは、prop は設定されたヒットの後は保持されません。eVar にはカスタムの有効期限があり、eVar がその後のイベントのクレジットを受け取らなくなった時期を判断できます。ただし、[レポートの時間処理](/help/components/vrs/vrs-report-time-processing.md)を使用する場合は、prop と eVar の両方でカスタムアトリビューションモデルを使用できます。
-* アドビでは、最大250個のeVarをサポートし、propは75個のみサポートします。
+* Adobeは、最大250個のeVarをサポートし、75個のpropのみをサポートします。
 
 prop [とeVarの比較について詳しくは、](prop.md) propを参照してください。
