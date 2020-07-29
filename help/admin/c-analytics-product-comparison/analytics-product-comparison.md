@@ -2,10 +2,10 @@
 description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbenchの 機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
 translation-type: tm+mt
-source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
+source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 55%
+source-wordcount: '672'
+ht-degree: 54%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 55%
 | **表示される行数制限（ページ分割前）** | 400 | 200 | 50000 | 制限なし | 制限なし | 制限なし | 50000 |
 | **複数のレポートスイート** | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | ○（制限あり） | ○ | × | ○ | × | ○ |
 | **分類の数** | 制限なし | ～ 2 | ～ 2 | 制限なし | 制限なし | 制限なし | 無制限、複数のクエリに対して実行 |
-| 「**セグメント** 」 <br>[詳細情報](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | ○ | ○ | ○ | ○( [制限あり)](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | ○ | × | ○ |
+| **分類**<br>[の詳細](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | ○ | ○ | ○ | ○( [制限あり)](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | ○ | × | ○ |
 | **計算指標**<br>[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html) | はい、 [Attribution IQあり](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | ○ | ○ | × | ○ | × | はい、 [Attribution IQあり](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **マーケティングチャネル**<br>[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/components/marketing-channels/c-getting-started-mchannel.html) | ○ | ○ | ○ | ○ | ○ | はい — va_finder、va_closer | ○ |
+| **マーケティングチャネル**<br>[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/components/marketing-channels/c-getting-started-mchannel.html) | ○ | ○ | ○ | ○ | ○ | はい — [va_finder、va_closer](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html) | ○ |
 | **コホート分析** | [○](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | × | × | × | ○ | × | × |
 | **アトリビューション** | はい、 [Attribution IQあり](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 制限あり | 制限あり | × | ○ | × | はい、 [Attribution IQあり](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
 | **Virtual Analyst機能**<br>[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | ○ | × | × | × | × | × | ○ |
