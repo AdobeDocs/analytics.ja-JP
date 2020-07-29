@@ -4,8 +4,11 @@ subtopic: Classifications
 title: トラフィック分類
 topic: Admin tools
 uuid: fec2f725-7aa9-4985-b8a9-f21b0b3e995c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 100%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 トラフィック分類ページでは、選択したレポートスイートの分類を作成することができます。分類後は、主要データを使用して生成できるすべてのレポートは、関連付けられた属性を使用して生成することもできます。
 
-分類を有効にした後、[分類インポーター](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md)を使用して、該当する分類に特定の値を割り当てます。
+分類を有効にした後、[分類インポーター](/help/components/classifications/c-classifications-importer/c-working-with-saint.md)を使用して、該当する分類に特定の値を割り当てます。
