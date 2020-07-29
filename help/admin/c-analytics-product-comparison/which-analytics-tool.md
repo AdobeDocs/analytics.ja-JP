@@ -3,7 +3,7 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 98%
@@ -48,7 +48,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 ## Adobe Analytics へのデータのインポート {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[分類](/help/components/c-classifications2/c-classifications.md)** は以下の場合に使用します。
+**[分類](/help/components/classifications/c-classifications.md)** は以下の場合に使用します。
 
 * 収集値（eVar、プロパティ、マーケティングチャネル）に関連付けるメタデータがある場合。
 * オプション：
@@ -99,7 +99,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * UI よりも詳細なデータへのアクセス（非正規化テーブル表示）
 * ピボットテーブルの入力に適した形式でのデータのダウンロード 
 * 顧客が Adobe データをサードパーティ製のデータ可視化ツールに入力することを希望する場合（ヒットレベルではなく、若干要約されたデータ）
-* アドビのAnalyticsで「低トラフィック」に遭遇している場合に、すべての一意のディメンション項目にアクセスするには
+* Adobe Analyticsで「低トラフィック」が発生している場合に、すべての一意のディメンション項目にアクセスするには
 
 **[Analytics データフィード](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** は、次の場合に使用します。
 
