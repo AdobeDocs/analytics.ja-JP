@@ -5,10 +5,10 @@ user-guide-title: Analytics 書き出しガイド
 user-guide-description: Get data out of Adobe Analytics. Use Data Feeds to receive an hourly or daily export of raw data. Retrieve a spreadsheet output of data using Data Warehouse.
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 92%
+source-wordcount: '261'
+ht-degree: 91%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 92%
    + [Data Warehouse の概要](data-warehouse/data-warehouse.md)
    + [Data Warehouse ユーザーグループの追加](data-warehouse/t-dw-group.md)
    + [Data Warehouse リクエストの作成](data-warehouse/t-dw-create-request.md)
+   + [リクエスト配信時間](data-warehouse/delivery-time.md)
    + [Tableau 形式のデータファイル](data-warehouse/t-tableau.md)
    + [指標で並べ替え](data-warehouse/sorting-by-metric.md)
    + [定期的なリクエストのスケジュール設定](data-warehouse/dw-schedule-recurring.md)
