@@ -5,10 +5,10 @@ user-guide-title: Analytics テクニカルノート
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '140'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 100%
    + [プラットフォーム間の処理の違い](ga-to-aa/processing-differences.md)
 + イベントの影響を受けるデータの分析 {#event}
    + [イベントの影響を受けるデータの分析の概要 ](event/overview.md)
+   + [データのスパイク/下落のトラブルシューティング](event/spikes-drops.md)
    + [分析内の特定の日付を除外する](event/segments.md)
    + [日付を前の範囲と比較する](event/compare-dates.md)
    + [イベントの影響を受けたデータの取得](event/calcmetrics.md)
