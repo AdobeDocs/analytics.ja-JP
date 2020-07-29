@@ -2,7 +2,7 @@
 title: '製品         '
 description: 製品の名前。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -18,6 +18,6 @@ ht-degree: 1%
 
 このディメンションは、 [`products`](/help/implement/vars/page-vars/products.md) 変数内の文字列の2番目の部分を参照します。 最初と2番目のセミコロン(`;`)の間の文字は、このディメンションに入力されます。
 
-## ディメンション項目
+## Dimension項目
 
-この変数は、実装内のカスタム文字列に基づくので、組織でディメンション項目が何であるかが決定されます。 アドビでは、製品に対して一貫した命名規則を設定することをお勧めします。 [分類は](../c-classifications2/c-classifications.md) 、別の方法で製品をグループ化したり、わかりやすい名前を付けたりする場合に利用できます。 「カテゴリ」ディメンションと「製品」ディメンションの両方を使用することをお勧めします。
+この変数は、実装内のカスタム文字列に基づくので、組織でディメンション項目が何であるかが決定されます。 Adobeでは、商品に対して一貫した命名規則を設定することをお勧めします。 [分類は](../classifications/c-classifications.md) 、別の方法で製品をグループ化したり、わかりやすい名前を付けたりする場合に利用できます。 Adobeでは、「Product」ディメンションと「カテゴリ」ディメンションの両方を使用することをお勧めします。
