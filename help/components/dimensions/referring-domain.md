@@ -2,10 +2,10 @@
 title: 参照元ドメイン
 description: 訪問者がクリックスルーしてサイトにアクセスする前に閲覧していた最も重要なドメイン。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 1%
+source-wordcount: '472'
+ht-degree: 5%
 
 ---
 
@@ -18,15 +18,24 @@ ht-degree: 1%
 >
 >このディメンションを使用するには、レポートスイートの [内部URLフィルター](/help/admin/admin/internal-url-filter-admin.md) を設定する必要があります。 内部URLフィルターを設定しないと、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
 
+同じレポートに、Analysis WorkspaceとData warehouseで異なる結果が表示される場合があります。 Analysis Workspaceは、内部URLフィルターに一致する値を除き、個々のページの参照ドメインを報告します。 Data warehouseは、訪問の最初の参照ドメインのみをレポートし、内部URLフィルターを無視します。
+
 ## このディメンションにデータを入力する
 
 このディメンションには、Analyticsインターフェイスでの設定とイメージリクエストでのデータが必要です。
 
-* 実装内で、このディメンションはイメージリクエストの [`r` クエリ列](/help/implement/validate/query-parameters.md) からデータを取得します。 AppMeasurementは、ブラウザーのJavaScript変数を使用してこのデータ `document.referrer` を収集します。 (Adobe Experience Platform起動を介したなどの)AppMeasurementライブラリを使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement以外の（API経由などの）データ収集方法を使用する場合は、クエリリクエストに `r` 文字列パラメーターを必ず含めてください。
+* 実装内で、このディメンションはイメージリクエストの [`r` クエリ列](/help/implement/validate/query-parameters.md) からデータを取得します。 AppMeasurementは、ブラウザーのJavaScript変数を使用してこのデータ `document.referrer` を収集します。 AppMeasurementライブラリ(Adobe Experience Platform Launch経由など)を使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement以外の（API経由などの）データ収集方法を使用する場合は、クエリリクエストに `r` 文字列パラメーターを必ず含めてください。
 * Analyticsのインターフェイス内で、レポートスイートの [内部URLフィルターを設定する必要があります](/help/admin/admin/internal-url-filter-admin.md)。 内部URLフィルターを設定しないと、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
 
-アドビは、1回の訪問で参照ドメインを維持します。 訪問者が1回の訪問中に別のドメインのリンクを離れたりクリックしたりした場合、新しい値が更新され、残りの訪問で維持されます。 元の値のみを表示したい場合は、「 [元の参照ドメイン](original-referring-domain.md)」を参照してください。
+Adobeは、訪問の参照ドメインを保持します。 訪問者が1回の訪問中に別のドメインのリンクを離れたりクリックしたりした場合、新しい値が更新され、残りの訪問で維持されます。 元の値のみを表示したい場合は、「 [元の参照ドメイン](original-referring-domain.md)」を参照してください。
 
-## ディメンション項目
+## Dimension項目
 
-ディメンション項目には、訪問者がクリックスルーしてサイトに導くドメインが含まれます。 ヒットに転送者データがない（設定または持続的な）場合は、ディメンション項目の下にグループ化され `"Typed/Bookmarked"`ます。 このディメンション項目は、訪問者がブラウザーのアドレスを手動でアドレスバーに入力したか、ブックマークをクリックしたなど、転送者値がなかったことを意味します。
+Dimension項目には、訪問者がクリックスルーしてサイトに導くドメインが含まれます。 ヒットに転送者データがない（設定または持続的な）場合は、ディメンション項目の下にグループ化され `"Typed/Bookmarked"`ます。 このディメンション項目は、訪問者がブラウザーのアドレスを手動でアドレスバーに入力したか、ブックマークをクリックしたなど、転送者値がなかったことを意味します。
+
+### 含むDimension項目 `googleusercontent.com`
+
+ユーザーは、ドメインを持つディメンション項目を表示でき `googleusercontent.com`ます。
+
+* **キャッシュされたページ**: Googleのスパイダーは、オフラインになった場合に備えて、常にWebをクロールし、ページのコピーを保存しています。 これらのキャッシュされたページは、「キャッシュ」リンクをクリックすると、ほとんどの検索結果の横に表示されます。 ユーザーがこのリンクをクリックし、Googleがキャッシュしたコンテンツを表示した場合、 `googleusercontent.com` がディメンション項目になります。
+* **翻訳済みページ**：Google オファーは、堅牢で便利な翻訳サービスです。このサービスを使用してサイトを表示する場合は、`googleusercontent.com` を起点とします。このディメンション項目は、ユーザーがリンクをクリックして元のコンテンツに戻ると表示されます。
