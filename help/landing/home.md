@@ -2,32 +2,35 @@
 title: Adobe Analytics テクニカルドキュメントガイド
 description: Analytics のユーザーガイドとリソース
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 100%
 
 ---
 
 
 # Adobe Analytics ドキュメント
 
-このたびは、Adobe Analytics 製品および技術ドキュメントのホームページをご利用いただき、誠にありがとうございます。Here you can find self-help and support information for reporting tools like [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], Reporting API, [!UICONTROL Data Workbench], and [!UICONTROL Activity Map]. また、製品とユーザーの管理、実装、および Adobe Analytics でサポートされるすべての機能に関するドキュメントにアクセスすることもできます。
+このたびは、Adobe Analytics 製品および技術ドキュメントのホームページをご利用いただき、誠にありがとうございます。ここでは、[!UICONTROL Analysis Workspace]、[!UICONTROL Report Buider]、レポート API、[!UICONTROL Data Workbench]、[!UICONTROL Activity Map] などのレポートツールのセルフヘルプおよびサポート情報を確認できます。また、製品とユーザーの管理、実装、および Adobe Analytics でサポートされるすべての機能に関するドキュメントにアクセスすることもできます。
 
-[![ツール](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics ツールガイド](/help/analyze/home.md) - Analytics のプレミア分析およびビジュアライゼーションツールである [Analysis Workspace](/help/analyze/analysis-workspace/home.md) にアクセスできます。Also features all the analysis tools ([!UICONTROL Report Buidler], Reporting API, [!UICONTROL Data Workbench], and [!UICONTROL Activity Map]) that you can use in Adobe Analytics.
+[![ツール](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics ツールガイド](/help/analyze/home.md) - Analytics のプレミア分析およびビジュアライゼーションツールである [Analysis Workspace](/help/analyze/analysis-workspace/home.md) にアクセスできます。また、Adobe Analyticsで使用できるすべての分析ツール（[!UICONTROL Report Builder]、Reporting API、[!UICONTROL Data Workbench]、[!UICONTROL Activity Map]）も備わっています。
 
 [![管理者](assets/admin_50px.png)](/help/admin/home.md) [管理者ガイド](/help/admin/home.md) - Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定、会社の設定、データガバナンス、サーバーコールの使用、トラフィック管理などについて説明します。
 
-[![実装](assets/implement_50px.png)](/help/implement/home.md) [実装ガイド](/help/implement/home.md) – データ収集をカスタマイズすることで、Adobe Analytics を最大限活用する方法について説明します。Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
+[![実装](assets/implement_50px.png)](/help/implement/home.md) [実装ガイド](/help/implement/home.md) – データ収集をカスタマイズすることで、Adobe Analytics を最大限活用する方法について説明します。[!UICONTROL Adobe Experience Platform Launch] と JavaScript の実装についても解説します。
 
 [![コンポーネント](assets/components_50px.png)](/help/components/home.md) [コンポーネントガイド](/help/components/home.md) - データの整理に役立つ機能をご紹介します。コンポーネントには、セグメント、計算指標、仮想レポートスイート、アラートなどがあります。このガイドには、利用可能なすべてのディメンションと指標を説明する変数リファレンスも含まれています。
 
-[![Export](assets/export_50px.png)](/help/export/home.md)[Export Guide](/help/export/home.md) - Get data out of Adobe Analytics: 生データ [!UICONTROL Data Feeds] の時間別または日別のエクスポートを受け取る場合に使用します。 Retrieve a spreadsheet output of data using [!UICONTROL Data Warehouse].
+[![書き出し](assets/export_50px.png)](/help/export/home.md) [書き出しガイド](/help/export/home.md) - Adobe Analytics のデータを活用：[!UICONTROL データフィード]を使用して、生データの時間別または日別の書き出しを受け取ります。[!UICONTROL Data Warehouse] を使用して、データのスプレッドシート出力を取得します。
 
-[![インポート](assets/import_50px.png)](/help/import/home.md) [インポートガイド](/help/import/home.md) – 外部ソースから Analytics へデータを一括またはリアルタイムでインポートする方法について説明します。、、 [!UICONTROL Data Sources]およびを含み [!UICONTROL Data Insertion API]ま [!UICONTROL Data Connectors]す。
+[![インポート](assets/import_50px.png)](/help/import/home.md) [インポートガイド](/help/import/home.md) – 外部ソースから Analytics へデータを一括またはリアルタイムでインポートする方法について説明します。これには、[!UICONTROL データソース]、[!UICONTROL データ挿入 API]、[!UICONTROL Data Connectors] が含まれます。
 
 [![統合](assets/integrate_50px.png)](/help/integrate/home.md) [統合ガイド](/help/integrate/home.md) - Audience Manager、Advertising Cloud、Target といった他の Adobe Experience Cloud ソリューションとの統合を設定します。
 
 [![メディア分析](assets/media_50px.png)](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) [メディア分析ガイド](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) — オーディオまたはビデオソースに Analytics を実装します。これには、メディア SDK とメディアコレクション API が含まれます。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) [ ガイド](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - [!UICONTROL Data Workbench]Data Workbench の非常に柔軟で強力なマルチチャネル機能について説明します。含まれ [!UICONTROL Data Workbench Client]る、インストール、 [!UICONTROL Dataset Configuration] ガイドなど。
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) [Data Workbench ガイド](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) - [!UICONTROL Data Workbench] の非常に柔軟で強力なマルチチャネル機能について説明します。[!UICONTROL Data Workbench クライアント]、インストール、[!UICONTROL データセット設定]ガイドなどが含まれます。
 
 [![テクニカルノート](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics テクニカルノート](/help/technotes/home.md) -特定の分析ツールやコンポーネントに特化していない、一般的な役立つ記事を含むナレッジベースです。
 
@@ -55,7 +58,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
 *   [Bot filtering](/help/admin/admin/bot-removal/bot-rules.md)
 *   [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
-*   [Classifications](/help/components/c-classifications2/c-classifications.md)
+*   [Classifications](/help/components/classifications/c-classifications.md)
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 *   [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
 *   [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)
