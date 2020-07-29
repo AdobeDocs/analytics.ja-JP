@@ -5,7 +5,7 @@ user-guide-title: Analytics コンポーネントガイド
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 74%
@@ -17,8 +17,8 @@ ht-degree: 74%
 
 + [Analytics コンポーネントヘルプ](home.md)
 + ディメンション {#dimensions}
-   + [ディメンションの概要](dimensions/overview.md)
-   + [ディメンションの互換性](dimensions/compatibility.md)
+   + [Dimensionの概要](dimensions/overview.md)
+   + [Dimension互換性](dimensions/compatibility.md)
    + [すべての検索ページのランク](dimensions/all-search-page-rank.md)
    + [午前 / 午後](dimensions/am-pm.md)
    + [ブラウザーの高さ](dimensions/browser-height.md)
@@ -219,33 +219,33 @@ ht-degree: 74%
    + [アラートマネージャー](c-alerts/alert-manager.md)
    + [インテリジェントアラート - 使用例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
-   + [分類について](c-classifications2/c-classifications.md)
-   + [下位分類について](c-classifications2/c-sub-classifications.md)
-   + [コンバージョンの分類](c-classifications2/conversion-classifications.md)
-   + [トラフィック分類](c-classifications2/traffic-classifications.md)
-   + [分類階層](c-classifications2/classification-hierarchies.md)
+   + [分類について](classifications/c-classifications.md)
+   + [下位分類について](classifications/c-sub-classifications.md)
+   + [コンバージョンの分類](classifications/conversion-classifications.md)
+   + [トラフィック分類](classifications/traffic-classifications.md)
+   + [分類階層](classifications/classification-hierarchies.md)
    + 分類インポーター（アップロード） {#classifications-importer}
-      + [分類インポーター - 概要](c-classifications2/c-classifications-importer/c-working-with-saint.md)
-      + [分類データファイル](c-classifications2/c-classifications-importer/c-saint-data-files.md)
-      + [分類データの削除](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
-      + [分類データのエスケープ](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
-      + [未分類のキー](c-classifications2/c-classifications-importer/nonclassified-keys.md)
-      + [分類テンプレート](c-classifications2/c-classifications-importer/c-download-saint-data.md)
-      + [ブラウザーおよび FTP インポート](c-classifications2/c-classifications-importer/import-file.md)
-      + [ブラウザーインポート](c-classifications2/c-classifications-importer/browser-import.md)
-      + [FTP インポート](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+      + [分類インポーター - 概要](classifications/c-classifications-importer/c-working-with-saint.md)
+      + [分類データファイル](classifications/c-classifications-importer/c-saint-data-files.md)
+      + [分類データの削除](classifications/c-classifications-importer/t-delete-classification-data.md)
+      + [分類データのエスケープ](classifications/c-classifications-importer/t-classifications-escape-data.md)
+      + [未分類のキー](classifications/c-classifications-importer/nonclassified-keys.md)
+      + [分類テンプレート](classifications/c-classifications-importer/c-download-saint-data.md)
+      + [ブラウザーおよび FTP インポート](classifications/c-classifications-importer/import-file.md)
+      + [ブラウザーインポート](classifications/c-classifications-importer/browser-import.md)
+      + [FTP インポート](classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + 分類ルールビルダー {#classifications-rulebuilder}
-      + [分類ルールビルダーのワークフロー ](c-classifications2/crb/classification-rule-builder.md)
-      + [分類ルールセット](c-classifications2/crb/classification-rule-set.md)
-      + [分類ルール](c-classifications2/crb/classification-quickstart-rules.md)
-      + [分類ルール - 定義](c-classifications2/crb/classification-rule-definitions.md)
-      + [下位分類とルールビルダー](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [分類ルールビルダーのワークフロー ](classifications/crb/classification-rule-builder.md)
+      + [分類ルールセット](classifications/crb/classification-rule-set.md)
+      + [分類ルール](classifications/crb/classification-quickstart-rules.md)
+      + [分類ルール - 定義](classifications/crb/classification-rule-definitions.md)
+      + [下位分類とルールビルダー](classifications/crb/sub-classification-rule-builder.md)
    + 数値 2 分類 {#numeric2-classification}
-      + [数値 2 分類の概要 ](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [数値 2 分類の作成](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [数値 2 分類のインポート](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
-      + [例](c-classifications2/c-numeric-2/c-examples.md)
-   + [分類のトラブルシューティング](c-classifications2/c-classifications-troubleshooting.md)
+      + [数値 2 分類の概要 ](classifications/c-numeric-2/c-numeric-2-classifications.md)
+      + [数値 2 分類の作成](classifications/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [数値 2 分類のインポート](classifications/c-numeric-2/c-import-numeric-2-classifications.md)
+      + [例](classifications/c-numeric-2/c-examples.md)
+   + [分類のトラブルシューティング](classifications/c-classifications-troubleshooting.md)
 + [カレンダーイベント](t-calendar-event.md)
 + リアルタイムレポート {#real-time-reporting}
    + [リアルタイムレポートの概要](c-real-time-reporting/realtime.md)
