@@ -2,7 +2,7 @@
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 95%
@@ -32,13 +32,13 @@ ht-degree: 95%
 * **チャネル：**&#x200B;次を参照してください。
    * チャネル変数。サイトセクションディメンションを入力します。実装ユーザーガイドの「[ページ変数](/help/implement/vars/page-vars/page-variables.md)」を参照してください。
    * マーケティングチャネルは、ユーザーがどのようにしてサイトに到達するかを理解するのに役立つコンポーネントです。コンポーネントユーザーガイドの「[マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)」を参照してください。
-* **分類：** ディメンション項目をグループ化できるAdobeAnalyticsの機能。 コンポーネントユーザーガイドの「[分類](/help/components/c-classifications2/c-classifications.md)」を参照してください。
+* **分類：** ディメンション項目をグループ化できるAdobe Analyticsの機能。 コンポーネントユーザーガイドの「[分類](/help/components/classifications/c-classifications.md)」を参照してください。
 * **クリックマップ：**&#x200B;現在は使用されていません。サイト内でクリック数の最も多いリンクを示す従来のブラウザープラグイン。このツールは廃止され、Activity Map に変更されました。
 * **クリックストリームデータフィード：**「データフィード」を参照してください。
 * **コホート：**&#x200B;一定期間に共通の特性を共有する人々のグループ。分析ユーザーガイドの「[コホート分析とは](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)」を参照してください。
 * **収集サーバー：**「データ収集サーバー」を参照してください。
 * **コンテキストデータ変数：**&#x200B;処理ルールでのみ使用される一時変数。コンテキストデータ変数をコンバージョン変数またはトラフィック変数にコピーするように処理ルールを設定していない場合、コンテキストデータ変数は恒久的に失われます。実装ユーザーガイドの「[コンテキストデータ変数](../implement/vars/page-vars/contextdata.md)」を参照してください。
-* **コンバージョン変数：** eVarとも呼ばれます。 カスタム値を格納し、変数値が期限切れになるまで保持します。コンポーネントユーザーガイドのeVar [](/help/components/dimensions/evar.md) ディメンションを参照してください。
+* **コンバージョン変数：** eVarとも呼ばれます。 カスタム値を格納し、変数値が期限切れになるまで保持します。コンポーネントユーザーガイドの [eVar](/help/components/dimensions/evar.md) ディメンションを参照してください。
 * **相関性：**&#x200B;現在はこの用語は使用されておらず、ディメンション分類に置き換えられています。以前のバージョンの Adobe Analytics では、相関性によってトラフィック変数を分類する機能が付与されていました。分析ユーザーガイドの「[分類ディメンション](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)」を参照してください。
 * **現在のデータ：**&#x200B;一部のレポートで、処理が完了していない最近収集したデータを含めることができるオプション。分析ユーザーガイドの「[現在のデータ](/help/analyze/reports-analytics/current-data.md)」を参照してください。
 * **カスタムリンク：**&#x200B;ページビュー以外のデータを含むヒットのタイプ。実装ユーザーガイドの「[s.tl() 関数](../implement/vars/functions/tl-method.md)」を参照してください。「ヒット」も参照してください。
