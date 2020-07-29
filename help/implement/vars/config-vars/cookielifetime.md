@@ -2,7 +2,7 @@
 title: cookieLifetime
 description: AppMeasurement で作成される Cookie の有効期限を上書きします。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 7c0d363cc3d0f504d638479b02bf4435491b22fd
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 100%
@@ -48,4 +48,4 @@ s.cookieLifetime = "SESSION";
 
 // Expire cookies after exactly 24 hours
 s.cookieLifetime = "86400";
-
+```
