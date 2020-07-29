@@ -3,10 +3,10 @@ description: Analytics レポート API の比較表です。サポートドキ�
 title: Analytics レポート API の比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -53,8 +53,8 @@ Analytics レポート API の比較表です。サポートドキュメント�
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/landing/home.html"  > レポートインターフェイス</a> </td> 
-   <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
-   <td colname="col3"> Reports &amp; Analytics、Report Builder、API のリアルタイムレポート </td> 
+   <td colname="col2"> Analysis Workspace、レポート、Analytics、Report Builder、API </td> 
+   <td colname="col3"> Report BuilderのReports &amp;Analyticsのリアルタイムレポート， 1.4 API </td> 
    <td colname="col4"> API のみ </td> 
    <td colname="col5"> Data Warehouse および API </td> 
   </tr> 
@@ -79,18 +79,11 @@ Analytics レポート API の比較表です。サポートドキュメント�
    <td colname="col4"> × </td> 
    <td colname="col5"> はい（ただし、Data Warehouse 互換セグメントのみ） </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <b>Analytics SKU</b> </td> 
-   <td colname="col2"> 標準+ </td> 
-   <td colname="col3"> 標準+ </td> 
-   <td colname="col4"> Premium Complete または Predictive Intelligence </td> 
-   <td colname="col5"> 標準+ </td> 
-  </tr> 
-  <tr> 
+   <tr> 
    <td colname="col1"> <b>ドキュメント</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Web サービス</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > リアルタイムレポート</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream の概要</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > リアルタイムレポート</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Livestream の概要</a> </p> </td> 
    <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.translate.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
