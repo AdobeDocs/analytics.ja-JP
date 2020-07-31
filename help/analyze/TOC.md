@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [ツリーマップ](analysis-workspace/visualizations/treemap.md)
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
-      + [Target用Analytics(A4T)パネル](analysis-workspace/c-panels/a4t-panel.md)
+      + [Analytics for Target（A4T）パネル](analysis-workspace/c-panels/a4t-panel.md)
       + [アトリビューションパネル](analysis-workspace/c-panels/attribution.md)
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
       + [クイックインサイトパネル](analysis-workspace/c-panels/quickinsight.md)
-      + Segment comparison panel {#segment-comparison}
+      + セグメント比較パネル {#segment-comparison}
          + [セグメント比較の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [セグメント比較の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -337,7 +337,7 @@ ht-degree: 98%
 + Labs {#tech-previews}
    + [Labs の概要](tech-previews/overview.md)
 + Adobe Analytics ダッシュボード {#mobapp}
-   + [アドビAnalyticsダッシュボード — 概要](mobile-app/home.md)
+   + [Adobe Analytics ダッシュボード — 概要](mobile-app/home.md)
    + [キュレーター向けガイド](mobile-app/curator.md)
    + [エグゼクティブユーザー向けクイックスタートガイド](mobile-app/executive.md)
 + プログレッシブ Web アプリケーション {#pwa}
