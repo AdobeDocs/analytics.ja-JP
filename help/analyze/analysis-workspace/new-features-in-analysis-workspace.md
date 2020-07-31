@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 | Workspace プロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新された空のパネル | 空のパネルにパネルとビジュアライゼーションが追加され、最適な分析ワークフローをよりシームレスに選択できるようになりました。 |
 | クイックインサイトパネル（2020年6月26日） | クイックインサイトは、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。[詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| WorkspaceのTargetパネル用Analytics（2020年6月25日） | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で上昇率と信頼性を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Workspace の Analytics for Target パネル (2020 年 6 月 26 日) | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で上昇率と信頼性を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Workspace についてページ | Workspace についてページには、Analysis Workspace 環境や Adobe Analytics 管理者（サポートが必要な場合）に関する情報、および製品内でフィードバックを提供する方法が記載されています。Workspace／ヘルプ／Workspace についてで確認できます。 |
 
 ## 2020 年 5 月
@@ -43,7 +43,7 @@ ht-degree: 97%
 
 | 機能 | 説明 |
 |--- |--- |
-| 空白の状態からフリーフォームテーブルを自動的に作成する | 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできず、最初にフリーフォームテーブルを追加する必要がありました。現在は、空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになりました。フリーフォームテーブルは推奨される形式で自動的に作成されます。また、空のフリーフォームテーブルにドロップした場合の混合コンポーネントタイプ（ディメンションや指標など）の処理方法も強化されました。 |
+| 空白の状態からフリーフォームテーブルを自動的に作成 | 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできず、最初にフリーフォームテーブルを追加する必要がありました。現在は、空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになりました。フリーフォームテーブルは推奨される形式で自動的に作成されます。また、空のフリーフォームテーブルにドロップした場合の混合コンポーネントタイプ（ディメンションや指標など）の処理方法も強化されました。 |
 | アクセシビリティの強化 | Adobe Analytics チームでは、キーボードナビゲーション、カラーコントラスト、スクリーンリーダーのサポートの強化など、Analysis Workspace に関していくつかのアクセシビリティの改善をおこないました。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## 2020 年 4 月
@@ -52,7 +52,7 @@ ht-degree: 97%
 
 | 機能 | 説明 |
 |--- |--- |
-| Automatically build [!UICONTROL Freeform Tables] from a blank state | 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできず、最初にフリーフォームテーブルを追加する必要がありました。空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになりました。フリーフォームテーブルは推奨される形式で自動的に作成されます。Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| 空白の状態から[!UICONTROL フリーフォームテーブル]を自動的に作成 | 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできず、最初にフリーフォームテーブルを追加する必要がありました。空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになりました。フリーフォームテーブルは推奨される形式で自動的に作成されます。また、空の[!UICONTROL フリーフォームテーブル]にドロップした場合の混合コンポーネントタイプ（ディメンションや指標など）の処理方法も改善されました。 |
 
 ## 2020 年 3 月
 
@@ -70,8 +70,8 @@ ht-degree: 97%
 | 機能 | 説明 |
 |--- |--- |
 | クロスデバイス間分析を使用する組織向けの新しい Workspace テンプレート | このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-setup.html)を参照してください。 |
-| Workspace の新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開：`alt + ctrl + m`</li><li>左パネルを検索：`ctrl + /`</li><li>次のパネルに移動：`alt + Right Key`</li><li>前のパネルに移動：`alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| Workspace のその他の機能拡張 | <ul><li>パネルまたはビジュアライゼーションを Workspace にドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加する ボタンが表示されます。</li></ul> |
+| Workspace の新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開：`alt + ctrl + m`</li><li>左パネルを検索: `ctrl + /`</li><li>次のパネルに移動：`alt + Right Key`</li><li>前のパネルに移動：`alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Workspace のその他の機能拡張 | <ul><li>パネルまたはビジュアライゼーションを Workspace にドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加するボタンが表示されます。</li></ul> |
 | Workspace デバッガー | Workspace デバッガーがヘルプメニューに追加され、よりシームレスに有効化して Workspace リクエストをデバッグできるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
@@ -88,7 +88,7 @@ ht-degree: 97%
 
 | 機能強化 | 説明 |
 |--- |--- |
-| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、**[!UICONTROL テーブルの合計]**&#x200B;と、**[!UICONTROL 総計]**&#x200B;の 2 つの合計が表示されるようになりました。テーブルの合計行は、適用された[レポートフィ ルター](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
+| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、**[!UICONTROL テーブルの合計]**&#x200B;と、**[!UICONTROL 総計]**&#x200B;の 2 つの合計が表示されるようになりました。テーブルの合計行は、適用された[レポートフィルター](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
 | 「未指定」または「なし」を削除するオプション | レポートフィルターのオプションに、「未指定（なし）」を簡単に削除する機能が追加されました。 |
 | 紫色の精度コンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL 日付範囲]**」に変更されました。 |
 
@@ -392,7 +392,7 @@ ht-degree: 97%
    <td colname="col2"> <p>カスタムテンプレートの最新リリースで、次のアップデートをおこないました。 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">テンプレートの編集モードとプロジェクトの開始時点でのテンプレートの使用を区別しやすくするため、プロジェクトの上部（タイトル付近）にテンプレートアイコンを追加しました。 </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Analysis Workspace でプロジェクトを作成／キュレーション権限が与えられている場合に、管理権限なしでWorkspaceプロジェクトテンプレートの作成（別名保存）と編集をおこなえるようになりました（<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスを編集</span>／<span class="uicontrol">Analytics ツールをカスタマイズ</span>／<span class="uicontrol">Analysis Workspace でプロジェクトを作成／キュレーション</span></span>）。 </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Analysis Workspace でプロジェクトを作成／キュレーション権限が与えられている場合に、管理権限なしで Workspace プロジェクトテンプレートの作成（別名保存）と編集をおこなえるようになりました（<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスを編集</span>／<span class="uicontrol">Analytics ツールをカスタマイズ</span>／<span class="uicontrol">Analysis Workspace でプロジェクトを作成／キュレーション</span></span>）。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -467,10 +467,10 @@ ht-degree: 97%
      <li id="li_16C7938EDC8F422EA006FB63F2881EF1">フレーズを含む </li> 
      <li id="li_5130EBE9A7A54CCFA313F3C3C268B367">いずれの語句も含まない </li> 
      <li id="li_861825154EDC49EBA57514FD0A2AE462">このフレーズを含まない </li> 
-     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">次と等しい </li> 
+     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">equals </li> 
      <li id="li_1EBF3119B6364842A35D39BAD645F4AF">次と等しくない </li> 
-     <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">次の語句で始まる </li> 
-     <li id="li_A73F54DFBAAB44D4A4134342A3124E47">次の語句で終わる </li> 
+     <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">startsWith </li> 
+     <li id="li_A73F54DFBAAB44D4A4134342A3124E47">endsWith </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -773,7 +773,7 @@ ht-degree: 97%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > カレンダーの変更</a></b> </td> 
+   <td colname="col1">  カレンダーの<b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >変更</a></b> </td> 
    <td colname="col2"> Reports &amp; Analytics カレンダーに合わせて、カレンダーが変更されました。 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">最初のクリックでは、日付範囲の選択を開始します。前または後の日付範囲をハイライト表示し、2 回目のクリックで日付範囲の終了を選択します。最初の日付をクリックしたまま Shift キーを押す（または右クリックする）と、その日付が範囲に追加されます。 </li> 
@@ -883,7 +883,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >プロジェクトコンポーネントの自動共有</a> </p> </td> 
-   <td colname="col2"> <p>すべての受信者とプロジェクトのコンポーネント（セグメント、計算指標および日付範囲）を自動的に共有するオプションが用意されるようになりました。共有すると、これらのコンポーネントは受信者のWorkspace のコンポーネントドロップダウンに表示されます。 </p> </td> 
+   <td colname="col2"> <p>すべての受信者とプロジェクトのコンポーネント（セグメント、計算指標および日付範囲）を自動的に共有するオプションが用意されるようになりました。共有すると、これらのコンポーネントは受信者の Workspace のコンポーネントドロップダウンに表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV 形式でのフォールアウトビジュアライゼーション </p> </td> 
@@ -1135,7 +1135,7 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 *`Save As`*&#x200B;は、[!UICONTROL 計算指標ビルダー]と[!UICONTROL 日付範囲ビルダー]でも使用できます。
 
-## 「新しいセグメントを追加」ボタン{#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## 「新しいセグメントを追加」ボタン {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
 プロジェクト上のセグメントをドラッグ＆ドロップした場所に、「**[!UICONTROL 新しいセグメントを追加]**」ボタンが追加されるようになりました。
 
