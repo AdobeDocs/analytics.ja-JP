@@ -2,11 +2,11 @@
 description: ヒストグラムは、Analysis Workspace の新しいビジュアライゼーションタイプです。
 title: ヒストグラム
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 | 開始グループ | どのグループからヒストグラムが始まるかを決定します。1 がデフォルトです。開始の数を 0 から無限大まで（負の数はなし）設定できます。 |
 | 指標グループ | データ範囲（グループ）の数を増減できます。グループの最大数は 50 です。 |
 | 指標グループのサイズ | 各グループのサイズを設定できます。例えば、グループサイズを 1 ページビューから 2 ページビューに変更できます。 |
-| カウント方法 | Lets you choose among [Visitor](/help/components/metrics/unique-visitors.md), [Visit](/help/components/metrics/visits.md), or [Hit Type](/help/components/dimensions/hit-type.md). 例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルの y 軸指標として、「回数」が使用されます。 |
+| カウント方法 | [訪問者](/help/components/metrics/unique-visitors.md)、[訪問](/help/components/metrics/visits.md)または[ヒットタイプ](/help/components/dimensions/hit-type.md)から選択できますタイプ。例えば、訪問ごとのページビュー、訪問者ごとのページビュー、ヒットごとのページビューです。ヒットの場合、フリーフォームテーブルの y 軸指標として、「回数」が使用されます。 |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
