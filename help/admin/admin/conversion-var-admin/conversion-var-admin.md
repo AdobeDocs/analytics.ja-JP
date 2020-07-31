@@ -4,11 +4,11 @@ keywords: eVar
 title: コンバージョン変数（eVar）
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ eVar は、次のような原因と結果を測定するために最適です。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> マーチャンダイジングバインディングイベント</span> </p> <p>（eVar のみ） </p> </td> 
-   <td colname="col2"> <p>マーチャンダイジングが<span class="uicontrol">コンバージョン変数構文</span>に設定されている場合、選択したイベントによって eVar の現在値が商品に結び付けられます。 </p> <p>バインディングイベントを使用するには、<span class="uicontrol">「配分」を「最新」</span>に設定します。<span class="uicontrol">「配分」が「元の値」 に設定</span>されている場合、最初の eVar と商品との結び付きが eVar の有効期限が切れるまで維持されます。Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. イベントを選択できるのは、「コンバージョン変数の構文」が選択されている場合のみです。</p> </td> 
+   <td colname="col2"> <p>マーチャンダイジングが<span class="uicontrol">コンバージョン変数構文</span>に設定されている場合、選択したイベントによって eVar の現在値が商品に結び付けられます。 </p> <p>バインディングイベントを使用するには、<span class="uicontrol">「配分」を「最新」</span>に設定します。<span class="uicontrol">「配分」が「元の値」 に設定</span>されている場合、最初の eVar と商品との結び付きが eVar の有効期限が切れるまで維持されます。<code>ctrl</code> キー（Windows）または <code>cmd</code> キー（Mac）を押しながらリストの複数の項目をクリックすることで、複数のイベントを選択できます。イベントを選択できるのは、「コンバージョン変数の構文」が選択されている場合のみです。</p> </td> 
   </tr> 
  </tbody> 
 </table>
