@@ -2,9 +2,9 @@
 description: 'null'
 title: フローの概要
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -33,6 +33,6 @@ ht-degree: 100%
 
 各列は、異なるディメンションを表示することがあります。ディメンションをドラッグしてドロップゾーンにドロップし、そのディメンションを図に追加します。
 
-## フロー図が含まれたプロジェクト .CSV ファイルの書き出し {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## フロー図が含まれたプロジェクト .CSV ファイルの書き出し{#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 フロー図は、**[!UICONTROL プロジェクト]**／**[!UICONTROL CSV をダウンロード]**&#x200B;に移動して作成できるプロジェクトの .CSV ファイルに含まれています。これにより、フロー結果を Microsoft Excel（テーブルとして表示）やその他のツールで分析することができます。
