@@ -2,9 +2,9 @@
 description: Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポートされています。これにより、すべての計算指標にグローバル ID が付けられ、複数のレポートスイートで使用することができるようになりました。
 title: 計算指標
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポ
 
 >[!NOTE]
 >
->既存のワークブックでは、従来の指標 ID の付いたリクエストを参照している場合があります。Report Builder 5.2 を使用すると、既存のワークブックでは従来の指標 ID が新しいグローバル ID に変換されます。Report Builder 5.2 を使用して変換されたワークブックを Report Builder の 5.1 以前のバージョンで開くと、計算指標は表示されません。
+>既存のワークブックでは、従来の指標 ID の付いたリクエストを参照している場合があります。Report Builder 5.2 を使用すると、既存のワークブックでは従来の指標 ID が新しいグローバル ID に変換されます。Report Builder 5.1 を使用しているユーザーと共有した場合、計算指標は共有先で表示されません。
 
 新しい計算指標ビルダーおよび計算指標マネージャでの計算指標の作成と管理方法について詳しくは、[計算指標](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html)ガイドを参照してください。
 
@@ -43,7 +43,7 @@ Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポ
 | その他のフィルター／自分が所有 | 自分が所有するすべての指標が表示されます。 |
 | その他のフィルター／自分と共有 | 自分と共有されているすべての指標が表示されます。 |
 
-## 計算指標の適用 {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
+## 計算指標の適用{#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
 フィルターを選択した後、**[!UICONTROL 適用]**&#x200B;をクリックすると、リクエストに計算指標が適用されます。選択した指標がレポートのレイアウトに追加されます。
 
