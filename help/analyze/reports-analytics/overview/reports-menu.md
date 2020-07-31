@@ -2,11 +2,11 @@
 description: Reports & Analytics のレポートメニューの概要を示します。
 title: レポートメニュー
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-個々のレポートについて詳しくは、[レポートの説明](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/c-variables.html)を参照してください。
+個々のレポートについて詳しくは、[レポートの説明](https://docs.adobe.com/content/help/ja-JP/analytics/components/dimensions/overview.html)を参照してください。
 
 ## レポートの検索 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -64,7 +64,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">セグメント <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">セグメントを追加または管理できるセグメントパネルを表示します。このパネルから、<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >セグメントビルダー</a>および<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >セグメントマネージャー</a>のインターフェイスにもアクセスできます。 </td> 
+   <td colname="col2">セグメントを追加または管理できるセグメントパネルを表示します。このパネルから、<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >セグメントビルダー</a>および<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >セグメントマネージャー</a>のインターフェイスにもアクセスできます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">指標 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
