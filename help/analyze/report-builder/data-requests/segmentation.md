@@ -3,11 +3,11 @@ description: Report Builder で Adobe Analytics のセグメントを追加、�
 title: セグメントの管理
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 >Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
 
 1. リクエストウィザードの手順 1 のセグメントパネルで、「**[!UICONTROL 追加]**」をクリックします。
-1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、 [Analyticsセグメント化を参照してください](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)。
+1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、「[Analytics セグメント化](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)」を参照してください。
 1. セグメントを定義して保存したら、リクエストウィザードに戻ります。
 1. 更新アイコンをクリックして、セグメント一覧を更新します
 
@@ -51,7 +51,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 1. Report Builder に戻り、更新アイコンをクリックして、セグメントの一覧を更新します。
 1. これで、このセグメントを適用する準備が整いました。
 
-## セグメントの検索および適用 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## セグメントの検索および適用{#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
 Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Warehouse で作成したすべてのセグメントがこのセグメント一覧に表示されます。一覧を更新するには、更新アイコン（![](assets/refresh_icon.png)）をクリックします。
 
@@ -80,8 +80,8 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 | その他のフィルター／「*レポートスイート名*」のみ | [!DNL marketing reports & analytics] のセグメントビルダーで「*レポートスイート名*」のみのフィルターを適用し、[!DNL report builder] のアドバンスフィルターを表示すると、アドバンスフィルターには選択されたレポートスイートのセグメントのみが表示されます。 |
 | その他のフィルター／自分が所有 | 自分が所有しているセグメントをすべて表示します。 |
 | その他のフィルター／自分と共有 | 自分と共有されているすべてのセグメントが表示されます。 |
-| その他のフィルター／お気に入り |   お気に入り. |
-| その他のフィルター／承認済み | 正式に     承認されたセグメントをすべて表示します。 |
+| その他のフィルター／お気に入り |  お気に入り. |
+| その他のフィルター／承認済み | 正式に      承認されたセグメントをすべて表示します。 |
 
 ## ワークブックへのセグメントコントロールの追加 {#section_E3E5149A8464441FA5445A98DBD520AC}
 
@@ -102,7 +102,7 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 
    ![](assets/seg_control2.png)
 
-## セグメントの一覧の更新 {#section_22E4A86789444B4A998532396B476EFB}
+## セグメントの一覧の更新{#section_22E4A86789444B4A998532396B476EFB}
 
 新規セグメントを追加したり、既存のセグメントを編集したりした場合は、更新アイコン（![](assets/refresh_icon.png)）をクリックして、キャッシュされたセグメント一覧を更新する必要があります。
 
