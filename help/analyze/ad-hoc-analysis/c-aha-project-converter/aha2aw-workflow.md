@@ -2,8 +2,11 @@
 description: 'null'
 title: Ad Hoc Analysis のプロジェクトの変換
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '282'
+ht-degree: 100%
 
 ---
 
@@ -43,6 +46,6 @@ Ad Hoc Analysis のプロジェクトを変換するには、次の 2 つの選�
 **現在のプロジェクトを変換する**
 
 1. Ad Hoc Analysis で、変換するプロジェクトを開きます。
-1. 「**[!UICONTROL 現在のプロジェクトを Analysis Workspace に変換]**」をクリックします。 ![](assets/export_current.png)
+1. 「**[!UICONTROL 現在のプロジェクトを Analysis Workspace に変換]**」をクリックします。![](assets/export_current.png)
 
 1. [!UICONTROL 変換サマリ]に、変換されたすべてのプロジェクト、および変換の成功／失敗を示すステータス列とエラーコードが一覧表示されます。「`Error-Id: <Error-Code>`」の詳しい診断については、Adobe Client Care までお問い合わせください。
