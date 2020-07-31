@@ -3,9 +3,9 @@ description: Report Builder の配信を最適化する方法や、時々発生�
 title: Report Builder のトラブルシューティングとベストプラクティス
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
 ht-degree: 100%
 
