@@ -2,11 +2,11 @@
 description: 'null'
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1383'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 * **空白のプロジェクト（デフォルト）**：手順については、「[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)」を参照してください。
 * **標準テンプレート**：アドビが作成し、製品に付属しているテンプレートです。
-* **Custom template**: これらのテンプレートは、管理者権限を持つユーザーまたは管理者以外のユーザーが作成、共有または削除できます( [!UICONTROL Analysis Workspaceが付与されている場合)。 Admin Console内の「Save as Template] 」権限。 [詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-console/permissions/product-profile.html)
+* **カスタムテンプレート**：管理者権限を持つユーザー、または Admin Console で [!UICONTROL Analysis Workspace：テンプレートとして保存]権限を付与された非管理者ユーザーが作成、共有または削除できるテンプレートです。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
