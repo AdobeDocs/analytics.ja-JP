@@ -3,9 +3,9 @@ description: レポートスイートでは、選択した Web サイト、Web �
 title: レポートスイートマネージャー
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> ベース URL</span> </td> 
-   <td colname="col2"> <p>レポートスイートのベース ドメインを定義します。 </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新しいレポートスイート</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>レポートスイートのベースドメインを定義します。 </p> <p><a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新しいレポートスイート</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
