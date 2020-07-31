@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 99%
       + [新しいレポートスイート - 設定](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [ソースレポートスイートからコピーされない設定](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [レポートスイートグループの作成](c-manage-report-suites/t-create-rs-group.md)
-+ ユーザーと製品の管理（レガシー）{#user-product-management}
++ ユーザーと製品の管理（レガシー） {#user-product-management}
    + [ユーザーと製品の管理](user-management2/user-management.md)
    + [レポートスイートに対するユーザーグループの割り当て](user-management2/t-group-access-report-suite.md)
    + ユーザー管理 {#user-management}
