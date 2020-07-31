@@ -3,11 +3,11 @@ description: 指標はレポートの基礎で、データの相互関連を見�
 title: 指標
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 [計算指標](/help/components/c-calcmetrics/cm-overview.md)は指標を組み合わせて作成します。
 
-指標の完全なリストについては、コンポーネントユーザーガイドの [指標の概要](/help/components/metrics/overview.md) を参照してください。
+指標の完全なリストについては、コンポーネントユーザガイドの「[指標の概要](/help/components/metrics/overview.md)」を参照してください。
 
 ## デフォルトのレポート指標の選択
 
