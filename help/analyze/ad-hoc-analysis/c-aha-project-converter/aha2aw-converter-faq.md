@@ -2,8 +2,11 @@
 description: 'null'
 title: プロジェクトコンバーターに関する FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '908'
+ht-degree: 100%
 
 ---
 
@@ -50,9 +53,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>回答：Analysis Workspace ではチャートやグラフはビジュアライゼーションと呼ばれることに注意してください。 </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>設定</b>：Analysis Workspace では、項目数や棒グラフ数といったビジュアライゼーション設定はサポートされません。 </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>円グラフ</b>：<a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  >ドーナツグラフ</a>ビジュアライゼーションとしてエクスポートされます。Analysis Workspace のこのビジュアライゼーションでは、分割数の上限は 19 分割になっています。 </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>バブルチャート</b>：<a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >散布図</a>ビジュアライゼーションとしてエクスポートされます。散布図ではデフォルトで、最初の指標が x 軸に、2 番目の指標が y 軸にそれぞれ描画されます。指標が 1 つしかない場合、バブルチャートは折れ線グラフビジュアライゼーションに変換されます。 </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>ヒストグラム</b>：Analysis Workspace と Ad Hoc Analysis では、サポートされるグループ化ロジックが異なっています。このため、ヒストグラムは<a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  >棒グラフ</a>ビジュアライゼーションに変換されます。 </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>円グラフ</b>：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/donut.html"  >ドーナツグラフ</a>ビジュアライゼーションとしてエクスポートされます。Analysis Workspace のこのビジュアライゼーションでは、分割数の上限は 19 分割になっています。 </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>バブルチャート</b>：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >散布図</a>ビジュアライゼーションとしてエクスポートされます。散布図ではデフォルトで、最初の指標が x 軸に、2 番目の指標が y 軸にそれぞれ描画されます。指標が 1 つしかない場合、バブルチャートは折れ線グラフビジュアライゼーションに変換されます。 </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>ヒストグラム</b>：Analysis Workspace と Ad Hoc Analysis では、サポートされるグループ化ロジックが異なっています。このため、ヒストグラムは<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/bar.html"  >棒グラフ</a>ビジュアライゼーションに変換されます。 </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>散布図</b>：Analysis Workspace にエクスポートされたプロジェクトでは、Y 軸が最初の列に設定され、X 軸が 2 番目の列、直径が 3 番目の列になります。 </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>フォールアウトの表</b>：フォールスルーまたはフォールアウトの表を表示するには、チェックポイントを右クリックして分類オプションを選択します。 </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>フォールアウトレポートレベルの日付範囲</b>：カスタマイズされたレポートの日付範囲は、フォールアウトビジュアライゼーションに適用されていません。 </li> 
@@ -93,7 +96,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>グローバルデータ設定を使用する場合、同じプロジェクトを 2 回エクスポートしたときに両者の動作が異なることがあります。 </p> 
     <ul id="ul_E3827883DD8045FAAB359D7E85E3EEFA"> 
      <li id="li_1056CA4813C44638BEB070228AE6914C"><b>繰り返しインスタンスのカウント：</b>エクスポート時に適用されていた設定が、Analysis Workspace 内のエクスポート後のプロジェクトに適用されます。 </li> 
-     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>データソース。</b> Analysis Workspace ではデータソースも含め、Analytics のすべてのデータが表示されます。 </li> 
+     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>データソース：</b> Analysis Workspace ではデータソースも含め、Analytics のすべてのデータが表示されます。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
