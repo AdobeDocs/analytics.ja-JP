@@ -1,26 +1,26 @@
 ---
-title: Adobe Analyticsダッシュボード — 概要
+title: Adobe Analytics ダッシュボード — 概要
 description: Adobe Analytics ダッシュボードの製品ドキュメントとセルフヘルプ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a905f74dc3d809bbe1542d7547c75ee64c710fb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analyticsダッシュボード — 概要
+# Adobe Analytics ダッシュボード — 概要
 
-**[!UICONTROL Adobe Analytics ダッシュボードは、Adobe Analytics からの洞察をいつでもどこでも提供します。]**&#x200B;このアプリケーションでは、モバイルで直感的なスコアカードにアクセスできます。スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
+**[!UICONTROL Adobe Analytics ダッシュボードは]**、Adobe Analytics からの洞察をいつでもどこでも提供します。このアプリケーションでは、モバイルで直感的なスコアカードにアクセスできます。スコアカードは、主要指標とその他のコンポーネントを並べて表示したレイアウトで構成され、タップすると、より詳細な分類やトレンドレポートを表示できます。モバイルアプリは iOS と Android の両方のオペレーティングシステムでサポートされています。
 
-Adobe Analytics [!UICONTROL ダッシュボードについて詳しくは、次のリソースを参照して]ください。
+Adobe Analytics [!UICONTROL ダッシュボード]について詳しくは、次のリソースを参照してください。
 
-* [キュレーターガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/curator.html): このガイドは、データのキュレータが [!UICONTROL ダッシュボード上のエグゼクティブ・ユーザーに対してスコアカードを構成する際に役立つようにすることを目的としています]。 キュレーターは、組織の管理者、またはスコアカードの設定を担当する他の役割を持つ人です。
+* [キュレーターガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/curator.html)：このガイドは、データのキュレーターが[!UICONTROL ダッシュボード]でエグゼクティブユーザーのスコアカードを設定するのに役立つように作成されています。キュレーターは、組織の管理者、またはスコアカードの設定を担当する他の役割を持つ人です。
 
-   このガイドの概要ビデオを見るには、 [Adobe Analyticsダッシュボードスコアカードビルダーを参照してください](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be)。
+   このガイドの概要ビデオを見るには、「[Adobe Analytics ダッシュボードスコアカードビルダー](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be)」を参照してください。
 
 
-* [エグゼクティブユーザークイック開始ガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/executive.html): このガイドは、エグゼクティブ・ユーザーが [!UICONTROL ダッシュボード上のスコアカードを読み、解釈するのに役立ちます]。 エグゼクティブユーザーは、自分のモバイルデバイスで、重要な概要データの幅広いレンダリングをすばやく簡単に表示できます。
+* [エグゼクティブユーザークイックスタートガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/executive.html)：このガイドは、エグゼクティブユーザーが[!UICONTROL ダッシュボード]でスコアカードを読み、解釈するのに役立つように作成されています。エグゼクティブユーザーは、自分のモバイルデバイスで、重要な概要データの幅広いレンダリングをすばやく簡単に表示できます。
 
-   この情報に焦点を当てたビデオを見るには、「 [Adobe Analyticsダッシュボードのアプリ内エクスペリエンス](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)」を参照してください。
+   この情報に焦点を当てたビデオを見るには、「[Adobe Analytics ダッシュボードのアプリ内エクスペリエンス](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)」を参照してください。
