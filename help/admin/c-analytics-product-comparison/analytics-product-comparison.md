@@ -1,5 +1,5 @@
 ---
-description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbenchの 機能の比較と必要システム構成を示します。
+description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbench の機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
 translation-type: tm+mt
 source-git-commit: 54d6b4c2993c5b0391b9243c76661db1da4087b8
@@ -10,13 +10,13 @@ ht-degree: 54%
 ---
 
 
-# Analytics 製品の比較と必要システム構成
+# Analytics製品の比較と必要システム構成
 
 このページでは、Adobe Analyticsの各種製品の比較を示します。 Analysis Workspace、レポート&amp;Analytics、Report Builder、Data warehouse、Data Workbench、データフィード、AnalyticsAPI 2.0。
 
 どの Adobe Analytics 製品を使用するかについて詳しくは、[こちら](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)に移動します。
 
-| 製品名とヘルプリンク | [Analysis Workspace](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.translate.html) | [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) | [データフィード](https://docs.adobe.com/content/help/ja-JP/analytics/export/analytics-data-feed/data-feed-overview.html) | [AnalyticsAPI 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 製品名とヘルプリンク | [Analysis Workspace](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) | [データフィード](https://docs.adobe.com/content/help/ja-JP/analytics/export/analytics-data-feed/data-feed-overview.html) | [AnalyticsAPI 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
 | **アクセス方法** | [ブラウザー](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html) | [ブラウザー](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html) | [Windows用MS Excel](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | ブラウザーを使用してセットアップします。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/admin/sys-reqs.html) | [Windows 64ビット](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/install/c-data-workbench-client-install.html) | ブラウザーを使用してセットアップします。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/export/analytics-data-feed/data-feed-overview.html) | RESTful APIツール。 AdobeI/O資格情報を使用してログインします。 [詳細情報](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **データ精度** | 集計 | 集計 | 集計 | 集計 | ヒット | ヒット | 集計 |
