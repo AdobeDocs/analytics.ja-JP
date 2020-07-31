@@ -3,9 +3,9 @@ description: 異なるレポートタイプの実行手順を説明します。
 title: 異なるレポートタイプの実行
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 このレポートを実行するには、ページレポートなどのレポートを選択します（**[!UICONTROL レポート]**／**[!UICONTROL キャンペーン]**／**[!UICONTROL トラッキングコード]**／**[!UICONTROL キャンペーンコンバージョンファネル]**）。
 
-詳しくは、[コンバージョンレポート](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-conversion.html)を参照してください。
+詳しくは、[コンバージョンレポート](https://docs.adobe.com/content/help/ja-JP/analytics/components/dimensions/evar.html)を参照してください。
 
 ## フォールアウトレポートの実行 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ Analysis Workspace の新しい[フォールアウト分析](https://docs.adobe.
 
 >[!MORELIKETHIS]
 >
->* [フォールアウトレポートの説明](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [フォールアウトレポートの説明](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)
 
 
 ## ページフローレポートの実行 {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -97,7 +97,7 @@ Analysis Workspace の新しい[フォールアウト分析](https://docs.adobe.
 
 Analysis Workspace の新しい[フロービジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)を調べます。
 
-[パス](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-paths.html)レポートを実行します。
+[パス](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)レポートを実行します。
 
 例えば、**[!UICONTROL レポート]**／**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL 次ページのフロー]**&#x200B;をクリックします。
 
@@ -123,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. **[!UICONTROL レポート]**／**[!UICONTROL 製品]**／[製品コンバージョンファネル](https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)をクリックします。
+1. **[!UICONTROL レポート]**／**[!UICONTROL 製品]**／[製品コンバージョンファネル](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/t-running-report-types.html)をクリックします。
 
 ## マーケティングチャネルレポートの実行 {#task_64ADED5CC75248319E06E3E029B47F78}
 
