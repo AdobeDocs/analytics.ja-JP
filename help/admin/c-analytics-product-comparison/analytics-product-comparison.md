@@ -2,7 +2,7 @@
 description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbench の機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
 translation-type: tm+mt
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -17,7 +17,7 @@ ht-degree: 54%
 どの Adobe Analytics 製品を使用するかについて詳しくは、[こちら](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)に移動します。
 
 | 製品名とヘルプリンク | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) | [データフィード](/help/export/analytics-data-feed/data-feed-overview.md) | [AnalyticsAPI 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|---|---|---|---|---|
 | **アクセス方法** | [ブラウザー](/help/admin/sys-reqs.md) | [ブラウザー](/help/admin/sys-reqs.md) | [Windows用MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | ブラウザーを使用してセットアップします。 [詳細情報](/help/admin/sys-reqs.md) | [Windows 64ビット](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/install/c-data-workbench-client-install.html) | ブラウザーを使用してセットアップします。 [詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful APIツール。 AdobeI/O資格情報を使用してログインします。 [詳細情報](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **データ精度** | 集計 | 集計 | 集計 | 集計 | ヒット | ヒット | 集計 |
 | **Experence Cloud ID(ECID)が利用可能** | × | × | × | ○ | ○ | ○ | × |
