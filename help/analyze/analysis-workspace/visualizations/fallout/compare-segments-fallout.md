@@ -3,9 +3,9 @@ description: タッチポイントからセグメントを作成したり、セ�
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: フォールアウト分析でのセグメントの適用
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
