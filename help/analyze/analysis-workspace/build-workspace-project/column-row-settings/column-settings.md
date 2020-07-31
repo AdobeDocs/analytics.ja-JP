@@ -2,11 +2,11 @@
 description: 列設定では、列の書式を設定できます。一部の列には条件付き書式を設定することもできます。
 title: 列設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,13 +52,13 @@ ht-degree: 96%
 
 ## デフォルト以外のアトリビューションモデルを使用
 
-分析ワークスペースでは、ほとんどすべての指標の [アトリビューション](../../attribution/overview.md) がサポートされています。
+Analysis Workspace では、ほとんどすべての指標の[アトリビューション](../../attribution/overview.md)がサポートされています。
 
 1. フリーフォームテーブル列の設定（歯車）アイコンをクリックします。
 
    ![アトリビューションチェックボックス](assets/attribution-checkbox.png)
 
-2. **[!UICONTROL データ設定]**&#x200B;で「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」チェックボックスをオンにします。For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+2. **[!UICONTROL データ設定]**&#x200B;で「**[!UICONTROL デフォルト以外のアトリビューションモデルを使用]**」チェックボックスをオンにします。様々なアトリビューションモデルの詳細については、「[アトリビューションモデルの概要](../../attribution/models.md)」を参照してください。
 
    ![アトリビューションモデルの選択](assets/attribution-select.png)
 
