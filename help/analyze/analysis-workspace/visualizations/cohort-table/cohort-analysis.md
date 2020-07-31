@@ -1,30 +1,30 @@
 ---
 title: コホート分析とは
-description: Analysis Workspaceでのコホートの分析について説明します。
-translation-type: tm+mt
+description: Analysis Workspace でのコホート分析について説明します。
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 
-# What is [!UICONTROL Cohort Analysis]?
+# [!UICONTROL コホート分析]とは
 
-*`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。[!UICONTROL コホート分析は、例えば、コホートがブランドとどのように関わっているかを学ぶ場合に便利です。]トレンドの変更を簡単に見分けて、それに応じて対応できます(Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+*`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。[!UICONTROL コホート分析は]、例えば、コホートがブランドとどのように関わっているかを学ぶ場合に便利です。トレンドの変更を簡単に見分けて、それに応じて対応できます（[!UICONTROL コホート分析]の説明は、[コホート分析 101](https://en.wikipedia.org/wiki/Cohort_analysis) など、Web 上で参照できます）。
 
 コホートレポートを作成したら、コンポーネント（特定のディメンション、指標およびセグメント）をキュレーションして、任意のユーザーとコホートレポートを共有できます。詳しくは、[キュレーションおよび共有](/help/analyze/analysis-workspace/curate-share/curate.md)を参照してください。
 
-Examples of what you can do with [!UICONTROL Cohort Analysis]:
+[!UICONTROL コホート分析]では、例えば次の操作をおこなえます。
 
 * 目的のアクションを促進するために設計したキャンペーンを開始する。
 * 顧客のライフサイクルのまさに適切なタイミングでマーケティング予算を振り替える。
-* 価値を最大限にするために、試用やオファーを終了するタイミングを認識する。
+* 価値を最大化するために、トライアルやオファーを終了するタイミングを認識する。
 * 価格やアップグレードパスなどの領域で、A/B テストの着想を得る。
-* View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
+* ガイド付き分析内に[!UICONTROL コホート分析]レポートを表示する。
 
-[!UICONTROL コホート分析] は、 [!UICONTROL Analysis Workspaceへのアクセス権を持つアドビのAnalyticsのすべてのお客様が利用できます]。
+[!UICONTROL コホート分析]は、[!UICONTROL Analysis Workspace] へのアクセス権を持つすべての Adobe Analytics ユーザーが利用できます。
 
 [コホート分析（YouTube）](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（4:36）
 
@@ -32,22 +32,22 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 >
 >[!UICONTROL コホート分析]
 >
->は、セグメント化不可能な指標（計算指標を含む）、整数以外の指標（売上高など）、回数をサポートしていません。 セグメントで使用できる指標のみが
->[!UICONTROL コホート分析]。一度に1つ増やすことしかできません。
+>は、セグメント化不可能な指標（計算指標を含む）、整数以外の指標（売上高など）、発生件数をサポートしていません。セグメントで使用できる指標のみが
+>[!UICONTROL コホート分析]で使用できます。一度に 1 つのみ増やすことができます。
 
 ## コホート分析の機能
 
 次の機能を使用すると、作成するコホートを細かく制御できます。
 
-### [!UICONTROL リテンションテーブル]
+### [!UICONTROL リテンションテ]ーブル
 
-A [!UICONTROL Retention] cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. 指標は最大 3 個、セグメントは最大 10 個含めることができます。
+[!UICONTROL リテンション]コホートレポートが訪問者を返す：各データセルは、その期間にアクションをおこなったコホートの生の訪問者数と割合を表します。指標は最大 3 個、セグメントは最大 10 個含めることができます。
 
 ![](assets/retention-report.png)
 
 ### [!UICONTROL チャーンテーブル]
 
-A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. 指標は最大 3 個、セグメントは最大 10 個含めることができます。
+[!UICONTROL チャーン]コホートはリテンションテーブルの逆で、コホートにおいてフォールアウトした訪問者、または一定期間内にリターン条件を満たしていない訪問者が表示されます。指標は最大 3 個、セグメントは最大 10 個含めることができます。
 
 ![](assets/churn-report.png)
 
@@ -59,15 +59,15 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 ### [!UICONTROL 待ち時間テーブル]
 
-インクルージョンイベントが発生した前後の経過時間を測定します。このツールは、イベント発生前後の分析に役立ちます。The **[!UICONTROL Included]** column is in the center of the table and time periods before and after the inclusion event are shown on both sides.
+インクルージョンイベントが発生した前後の経過時間を測定します。このツールは、イベント発生前後の分析に役立ちます。「**[!UICONTROL 含む]**」列がテーブルの中央にあり、インクルージョンイベント発生の前と後の期間が両側に表示されます。
 
 ![](assets/cohort-latency.png)
 
-### [!UICONTROL カスタムディメンションコホート]
+### [!UICONTROL カスタムディメンショ]ンコホート
 
-デフォルトの時間に基づくコホートではなく、選択したディメンションに基づいてコホートを作成します。Use dimensions such as [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region], or any other dimension in Adobe Analytics to show how retention changes based on the different values of these dimensions.
+デフォルトの時間に基づくコホートではなく、選択したディメンションに基づいてコホートを作成します。[!UICONTROL マーケティングチャネル]、[!UICONTROL キャンペーン]、[!UICONTROL 製品]、[!UICONTROL ページ]、[!UICONTROL 地域]などのディメンションや、Adobe Analytics のその他のディメンションを使用して、これらのディメンションの様々な値に基づいてリテンションがどのように変化しているかを表示します。
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-コホートレポートを設定および実行する方法については、コホート分析レポートの [設定を参照してください](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
+コホートレポートを設定および実行する方法については、「[コホート分析レポートの設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)」を参照してください。
 
