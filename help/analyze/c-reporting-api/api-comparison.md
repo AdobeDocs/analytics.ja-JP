@@ -38,7 +38,7 @@ Analytics レポート API の比較表です。サポートドキュメント�
    <td colname="col5"> 大量のデータエクスポートを引き出すために使用される、完全に処理済みで、ファイナライズされたデータ。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/technotes/latency.translate.html"  > 遅延</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/technotes/latency.html"  > 遅延</a> </p> </td> 
    <td colname="col2"> 30 ～ 90 分 </td> 
    <td colname="col3"> * 数秒 ～ 10 分 </td> 
    <td colname="col4"> 数秒 ～ 10 分 </td> 
@@ -84,7 +84,7 @@ Analytics レポート API の比較表です。サポートドキュメント�
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > リアルタイムレポート</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Livestream の概要</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.translate.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
