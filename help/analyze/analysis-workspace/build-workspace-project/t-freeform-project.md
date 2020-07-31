@@ -4,8 +4,11 @@ keywords: Analysis Workspace
 title: Workspace プロジェクトの作成
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '765'
+ht-degree: 100%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 1. プロジェクトを作成およびキュレーションするためのユーザー権限を指定します。
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Groups](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)).
+   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に **[!UICONTROL Analysis Workspace のプロジェクトを作成／キュレーション]**&#x200B;権限を有効にしたグループか、**[!UICONTROL 全レポートアクセス]**&#x200B;ユーザーグループに追加してもらう必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／[グループ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)。）
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
+1. [!DNL Experience Cloud] で、**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** をクリックします。
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -30,7 +33,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
    ![](assets/analysis-app-search.png)
 
-1. クリック **[!UICONTROL Create New Project]**.
+1. 「**[!UICONTROL 新規プロジェクトを作成]**」をクリックします。
 
    以下からプロジェクトを作成するかどうかを選択できます。
 
@@ -40,10 +43,11 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. 空のプロジェクトからプロジェクトを作成するには、「**[!UICONTROL 空のプロジェクト]**」をクリックします。
 
-   * 次に、 **[!UICONTROL Create]**&#x200B;または
-   * をクリックし **[!UICONTROL Enter]**&#x200B;ます。
+   * 次に、「**[!UICONTROL 作成]**」をクリックするか、または
+   * 単に **[!UICONTROL Enter]** キーを押します。
+
    空のプロジェクトが表示され、フリーフォームパネルとデータテーブルビジュアライゼーションが表示されます。
 
    ![](assets/fa_project_new.png)
@@ -75,7 +79,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
  </tbody> 
 </table>
 
-1. プロジェクトを保存します。Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
+1. プロジェクトを保存します。プロジェクトに名前を付け、説明を入力し（オプションですが便利です）、タグ付け（オプション）をおこない、「**[!UICONTROL プロジェクトを保存]**」をクリックします。
 
    ![](assets/save_project.png)
 
@@ -124,7 +128,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 **[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) tables, Venn diagrams, and so on. 複数のビジュアライゼーションをプロジェクトにドラッグ＆ドロップできます。
+[!UICONTROL ビジュアライゼーション]パネルには、標準の Analytics グラフ、チャート、ドーナツ、データテーブル、[コホート](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)テーブル、ベン図などが用意されています。複数のビジュアライゼーションをプロジェクトにドラッグ＆ドロップできます。
 
 ![手順の結果](assets/visualizations.png)
 
