@@ -1,29 +1,29 @@
 ---
 description: 'null'
 title: パネルの概要
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # パネルの概要
 
-パネルは、テーブルとビジュアライゼーションのコレクションです。Workspace の左上にあるアイコンからパネルへアクセスできます。期間、ビジネス単位、地理などによってプロジェクトを組み立てたい場合、パネルが役立ちます。以下の6種類のパネルを分析ワークスペースで使用できます。
+パネルは、テーブルとビジュアライゼーションのコレクションです。Workspace の左上にあるアイコンからパネルへアクセスできます。期間、ビジネス単位、地理などによってプロジェクトを組み立てたい場合、パネルが役立ちます。Analysis Workspace では 6 種類のパネルを使用できます。
 
 * [空のパネル](blank-panel.md)
 * [クイックインサイトパネル](quickinsight.md)
-* [ターゲットパネル用の解析](a4t-panel.md) （近日公開）
+* [Target パネル用 Analytics](a4t-panel.md) （近日公開）
 * [アトリビューションパネル](attribution.md)
 * [フリーフォームパネル](freeform-panel.md)
 * [セグメント比較パネル](c-segment-comparison/segment-comparison.md)
 
-クイックインサイト、空白、フリーフォームパネルは、分析を開始するのに最適な場所です。一方、Analytics forターゲット、アトリビューションIQ、セグメント比較は、より高度な分析に適しています。 プロジェクトでは `"+"` ボタンが使用できるので、いつでも空白のパネルを追加できます。
+クイックインサイト、空白、フリーフォームパネルは、分析を開始するのに最適な場所です。Target の Analytics、Attribution IQ、セグメント比較は、より高度な分析に役立ちます。プロジェクトでは `"+"` ボタンが使用できるので、いつでも空白のパネルを追加できます。
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+デフォルトの開始パネルはフリーフォームパネルですが、[空のパネル](/help/analyze/analysis-workspace/c-panels/blank-panel.md)をデフォルトにすることも可能です。
 
 ## パネルのドロップダウンフィルター {#section_D2828EEDD52944528E87F470EAB581CF}
 
