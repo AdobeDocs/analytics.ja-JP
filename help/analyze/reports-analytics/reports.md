@@ -1,227 +1,227 @@
 ---
 title: レポート
-description: 各レポートでReports &Analyticsが使用するディメンションと指標。
+description: 各レポートで Reports & Analytics が使用するディメンションと指標。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1863'
-ht-degree: 1%
+ht-degree: 88%
 
 ---
 
 
 # レポート
 
-Reports &amp;Analyticsの各レポートは、専用のディメンションとデフォルトの指標を使用します。 必要に応じて、各レポートの指標を変更し、分類を追加できます。 次のリストは、各レポートで使用されるディメンションを示します。
+Reports &amp; Analytics の各レポートは、専用のディメンションとデフォルトの指標を使用します。必要に応じて、各レポートの指標を変更し、分類を追加できます。次のリストは、各レポートで使用されるディメンションを示します。
 
 >[!NOTE]
 >
->組織の管理者が行ったカスタマイズに応じて、レポートメニューの外観が変わります。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>組織の管理者が行ったカスタマイズに応じて、レポートメニューの外観が変わります。詳しくは、『管理者ユーザーガイド』の「[メニューのカスタマイズ](/help/admin/admin/customize-menus.md)」を参照してください。
 
 ## サイト指標
 
-通常、日付範囲を使用したトレンドを示すレポートが含まれます。 また、推奨レポートやリアルタイムレポートなどの個別レポートも含まれます。
+通常、日付範囲を使用したトレンドを示すレポートが含まれます。また、推奨レポートやリアルタイムレポートなどの個別レポートも含まれます。
 
-* 推奨レポート： すぐにインサイトを得るための複数のレポートレットを含むダッシュボードを作成します。
-* 主要指標： 一度に5つまでの指標のトレンドを表示できるレポート。 トレンド [ページの表示](/help/components/metrics/page-views.md)、 [訪問](/help/components/metrics/visits.md)、 [実訪問者](/help/components/metrics/unique-visitors.md) （デフォルト）。
-* ページ表示: 経時的な [ページ表示](/help/components/metrics/page-views.md) 指標のトレンドを示します。
-* 訪問回数： 経時的な [訪問回数](/help/components/metrics/visits.md) 指標のトレンドを示します。
-* 訪問者: 様々な [個別訪問者](/help/components/metrics/unique-visitors.md) 指標の経時的なトレンドを示します。
-   * 個別訪問者数： 選択した日付範囲全体で訪問者を1回だけカウントします。
-   * 時間別訪問者数： 選択した日付範囲の異なる時間に訪問者が訪問した場合に複数回カウントします。
-   * 日別訪問者数： 選択した日付範囲の異なる日に訪問した訪問者を複数回カウントします。
-   * 週別訪問者数： 選択した日付範囲の別の週に訪問した訪問者を複数回カウントします。
-   * 月別訪問者数： 選択した日付範囲の異なる月に訪問者が訪問した場合に複数回カウントします。
-   * 四半期別訪問者数： 選択した日付範囲の異なる四半期に訪問した訪問者を複数回カウントします。 四半期は、1月から3月、4月から6月、7月から9月、10月から12月です。
-   * 年別訪問者数： 選択した日付範囲の異なるカレンダー年間に訪問者が訪問した場合に複数回カウントします。
-* 訪問別滞在時間： 訪問別滞在 [時間 — グループディメンションを使用し](/help/components/dimensions/time-spent-per-visit.md) ます。
-* イベント前の時間： 「 [イベント前の](/help/components/dimensions/time-prior-to-event.md) 時間」ディメンションを使用します。
-* 購入： 購入ベースの指標に関するレポートが含まれます。
-   * 購入コンバージョンファネル： 訪問 [件数](/help/components/metrics/visits.md)、買い物かご件数 [、](/help/components/metrics/carts.md)注文件数 [、](/help/components/metrics/orders.md)売上高、 [](/help/components/metrics/revenue.md)[](/help/components/metrics/units.md) 売上高、ファネルレポート内の購入点数に関するレポートを作成します。 フォールアウトビジュアライゼーションを使用したAnalysis Workspaceでも、同様のビジュアライ [ゼーションを実現でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
-   * 売上高： 指標の [売上高の経時的な傾向](/help/components/metrics/revenue.md) 。
-   * 注文件数： 指標の [注文の経時的なトレンド](/help/components/metrics/orders.md) 。
-   * 数量： 指標の [単位数](/help/components/metrics/units.md) （単位数）の経時的なトレンドを示します。
-* 買い物かご： 買い物かご指標に関するレポートが含まれます。
-   * 買い物かごコンバージョンファネル： レポート [・](/help/components/metrics/instances.md)インスタンス [、](/help/components/metrics/carts.md)買い物かご [、チェックアウト注文件数、](/help/components/metrics/checkouts.md)注文件数、および売上高ファネル・レポート内の売上高 [](/help/components/metrics/orders.md)[](/help/components/metrics/revenue.md) の各レポート
-   * 買い物かご： 指標の [買い物かごの経時的なトレンド](/help/components/metrics/carts.md) 。
-   * 買い物かご表示: 指標 [買い物かご表示の経時的なトレンドを示します](/help/components/metrics/cart-views.md) 。
-   * 買い物かごへの追加： 経時的に指標 [買い物かごへの追加のトレンドを示します](/help/components/metrics/cart-additions.md) 。
-   * 買い物かごからの削除： 指標 [買い物かごからの削除の傾向を経時的に示します](/help/components/metrics/cart-removals.md) 。
-   * チェックアウト： 指標の [チェックアウトの経時的な傾向](/help/components/metrics/checkouts.md) 。
-* カスタムイベント: お客様の実装に固有のカスタム [イベントに関するすべてのレポートが含まれ](/help/components/metrics/custom-events.md) ます。
-* ボット： ボット関連のレポートを表示します。
-   * ボット： サイトで最も頻繁に訪問するボットを表示します。 See [Bot rules](../../admin/admin/bot-removal/bot-rules.md) in the Admin user guide.
-   * ボットページ： ボットが最もヒットしたページを表示します。
-* リアルタイム： データ収集後、特定のディメンションおよび指標を数秒以内で表示します。 See [Real-time reports](/help/components/c-real-time-reporting/realtime.md) for more information.
+* 推奨レポート：すぐに洞察を得るための複数の小型レポートを含むダッシュボードを作成します。
+* 主要指標：一度に 5 つまでの指標のトレンドを表示できるレポート。トレンド[ページビュー](/help/components/metrics/page-views.md)、[訪問](/help/components/metrics/visits.md)、[個別訪問者](/help/components/metrics/unique-visitors.md)（デフォルト）。
+* ページビュー：[Page views](/help/components/metrics/page-views.md) 指標の経時的な推移を示します。
+* 訪問：[Visits](/help/components/metrics/visits.md) 指標の経時的な推移を示します。
+* 訪問者：様々な [Unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。
+   * 個別訪問者：選択した日付範囲全体で訪問者を 1 回だけカウントします。
+   * 時間別訪問者：選択した日付範囲の異なる時間に訪問者が訪問した場合に複数回カウントします。
+   * 日別個別訪問者：選択した日付範囲の異なる日に訪問者が訪問した場合に複数回カウントします。
+   * 週別個別訪問者：選択した日付範囲の異なる週に訪問者が訪問した場合に複数回カウントします。
+   * 月別個別訪問者：選択した日付範囲の異なる月に訪問者が訪問した場合に複数回カウントします。
+   * 四半期別個別訪問者：選択した日付範囲の異なる四半期に訪問者が訪問した場合に複数回カウントします。四半期は、1 月から 3 月、4 月から 6 月、7 月から 9 月、10 月から 12 月です。
+   * 年別個別訪問者：選択した日付範囲の異なる年に訪問者が訪問した場合に複数回カウントします。
+* 訪問別滞在時間：[訪問別滞在時間 — グループ](/help/components/dimensions/time-spent-per-visit.md)ディメンションを使用します。
+* イベント前の時間：「[イベント前の](/help/components/dimensions/time-prior-to-event.md)時間」ディメンションを使用します。
+* 購入：購入ベースの指標に関するレポートが含まれます。
+   * 購入コンバージョンファネル：ファネルレポートで[訪問](/help/components/metrics/visits.md)、[買い物かご](/help/components/metrics/carts.md)、[注文](/help/components/metrics/orders.md)、[売上高](/help/components/metrics/revenue.md)、[単位](/help/components/metrics/units.md)をレポートします。Analysis Workspace でも、[フォールアウトビジュアライゼーション](../analysis-workspace/visualizations/fallout/fallout-flow.md)を使用して同様のビジュアライゼーションを実現できます。
+   * 売上高：指標の[売上高](/help/components/metrics/revenue.md)の経時的な傾向。
+   * 注文件数：[Orders](/help/components/metrics/orders.md) 指標の経時的な推移を示します。
+   * 数量：[Units](/help/components/metrics/units.md) 指標の経時的な推移を示します。
+* 買い物かご：買い物かご指標に関するレポートが含まれます。
+   * 買い物かごコンバージョンファネル：ファネルレポートで[インスタンス](/help/components/metrics/instances.md)、[買い物かご](/help/components/metrics/carts.md)、[チェックアウト](/help/components/metrics/checkouts.md)、[注文](/help/components/metrics/orders.md)、[売上高](/help/components/metrics/revenue.md)をレポートします。
+   * 買い物かご：[Carts](/help/components/metrics/carts.md) 指標の経時的な推移を示します。
+   * 買い物かごビュー：[Cart views](/help/components/metrics/cart-views.md) 指標の経時的な推移を示します。
+   * 買い物かごへの追加：[Cart additions](/help/components/metrics/cart-additions.md) 指標の経時的な推移を示します。
+   * 買い物かごからの削除：[Cart removals](/help/components/metrics/cart-removals.md) 指標の経時的な推移を示します。
+   * チェックアウト：[Checkouts](/help/components/metrics/checkouts.md) 指標の経時的な推移を示します。
+* カスタムイベント：お客様の実装に固有のカスタム[イベント](/help/components/metrics/custom-events.md)に関するすべてのレポートが含まれます。
+* ボット：ボット関連のレポートを表示します。
+   * ボット：サイトを最も頻繁に訪問するボットを表示します。詳しくは、『管理者ユーザーガイド』の「[ボットルール](../../admin/admin/bot-removal/bot-rules.md)」を参照してください。
+   * ボットページ：ボットが頻繁に訪問したページを表示します。
+* リアルタイム：データ収集後、特定のディメンションおよび指標を数秒以内に表示します。詳しくは、「[リアルタイムレポート](/help/components/c-real-time-reporting/realtime.md)」を参照してください。
 
 ## サイトコンテンツ
 
-通常、サイトのコンテンツを表示するディメンションに関するレポートが含まれます。 分類は、これらのレポートの一部に適用できます。 分類を適用すると、レポートがソースレポートと分類レポートを含むメニューになります。
+通常、サイトのコンテンツを表示するディメンションに関するレポートが含まれます。これらのレポートの一部に分類を適用できます。分類を適用すると、レポートがソースレポートと分類レポートを含むメニューになります。
 
-* ページ： [Page](/help/components/dimensions/page.md) （ページ）ディメンションを使用します。
-* サイトセクション： [Site section](/help/components/dimensions/site-section.md) （サイトセクション）ディメンションを使用します。
-* サーバー： [Server](/help/components/dimensions/server.md) ディメンションを使用します。
-* リンク： リンクトラッキングを使用するレポートが含まれます。
-   * 離脱リンク： 離脱リンク [ディメンションを使用し](/help/components/dimensions/exit-link.md) ます。
-   * ファイルのダウンロード数： ダウンロード [リンク](/help/components/dimensions/download-link.md) ディメンションを使用します。
-   * カスタムリンク： カス [タムリンク](/help/components/dimensions/custom-link.md) ディメンションを使用します。
-   * エラーページ： エラー [ページ(404)ディメンションを使用します](/help/components/dimensions/pages-not-found.md) 。
+* ページ：[Page](/help/components/dimensions/page.md) ディメンションを使用します。
+* サイトセクション：[Site section](/help/components/dimensions/site-section.md) ディメンションを使用します。
+* サーバー：[Server](/help/components/dimensions/server.md) ディメンションを使用します。
+* リンク：リンクトラッキングを使用するレポートが含まれます。
+   * 離脱リンク：離脱リンク [Exit link](/help/components/dimensions/exit-link.md) ディメンションを使用します。
+   * ファイルのダウンロード：[Download link](/help/components/dimensions/download-link.md) ディメンションを使用します。
+   * カスタムリンク：[Custom link](/help/components/dimensions/custom-link.md) ディメンションを使用します。
+   * エラーページ：エラー [Pages not found](/help/components/dimensions/pages-not-found.md) ディメンションを使用します。
 
 ## モバイル
 
-レガシーモバイルレポートに関するレポートが含まれます。 これらのレポートは、ユーザーエージェント文字列に基づいてデータを作成します。 各レポートで様々な [モバイルディメンション](/help/components/dimensions/mobile-dimensions.md) を使用します。
+レガシーモバイルレポートに関するレポートが含まれます。これらのレポートは、ユーザーエージェント文字列に基づいてデータを作成します。各レポートで様々な[モバイル（mobile）ディメンション](/help/components/dimensions/mobile-dimensions.md)を使用します。
 
-* デバイス： モ [バイルデバイス](/help/components/dimensions/mobile-dimensions.md) (Mobile device)ディメンションを使用します。
-* デバイスの種類： モ [バイルデバイスタイプ](/help/components/dimensions/mobile-dimensions.md) (Mobile device type)ディメンションを使用します。
-* 製造元： モ [バイル製造元](/help/components/dimensions/mobile-dimensions.md) (Mobile Manufacturer)ディメンションを使用します。
-* 画面サイズ： モ [バイルの画面サイズ](/help/components/dimensions/mobile-dimensions.md) 。
-* 画面の高さ： モ [バイルの画面の高さ](/help/components/dimensions/mobile-dimensions.md) 。
-* 画面の幅： モ [バイルの画面の幅](/help/components/dimensions/mobile-dimensions.md) 。
-* cookieのサポート： モ [バイルcookieサポートディメンションを使用します](/help/components/dimensions/mobile-dimensions.md) 。
-* 画像サポート： モ [バイル画像サポートのサイズ](/help/components/dimensions/mobile-dimensions.md) 。
-* 画面の色： モ [バイルの画面の色](/help/components/dimensions/mobile-dimensions.md) 。
-* オーディオサポート： モ [バイルオーディオサポート](/help/components/dimensions/mobile-dimensions.md) (Mobile audio support)ディメンションを使用します。
-* ビデオサポート： モ [バイルビデオサポート](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
-* オペレーティングシステム（非推奨）: [Mobileオペレーティングシステム（非推奨）ディメンションを使用し](/help/components/dimensions/mobile-dimensions.md) ます。
+* デバイス：[Mobile device](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* デバイスの種類：[Mobile device type](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* 製造元：[Mobile manufacturer](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* 画面サイズ：[Mobile screen size](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* 画面の高さ：[Mobile screen height](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* 画面の幅：[Mobile screen width](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* Cookie のサポート：[Mobile cookie support](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* 画像サポート：[Mobile image support](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* 画面の色：[Mobile color depth](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* オーディオサポート：[Mobile audio support](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* ビデオサポート：[Mobile video support](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* オペレーティングシステム（非推奨）：[Mobile operating system（非推奨）](/help/components/dimensions/mobile-dimensions.md)ディメンションを使用します。
 
 ## パス
 
 訪問者のパスデータを表示できるレポートが含まれます。
 
-* 次ページのフロー： トップページのディメンション項目のフローレポートを使用します。 パス表示ーは [インスタンスに似ています](/help/components/metrics/instances.md)。 レポートされたディメンション項目は変更できます。 フ [ローのビジュアライゼーションを使用して、同様のAnalysis Workspaceのレポートを利用できます](../analysis-workspace/visualizations/c-flow/flow.md)。
+* 次ページのフロー： トップページのディメンション項目のフローレポートを使用します。 パスビューは[インスタンス](/help/components/metrics/instances.md)に似ています。レポートされたディメンション項目は変更できます。 Analysis Workspace の[フローのビジュアライゼーション](../analysis-workspace/visualizations/c-flow/flow.md)を使用すると、同様のレポートを利用できます。
 * 次のページ： トップのページディメンション項目を使用し、訪問者が次に移動したページを表示します。
-* 前ページのフロー： トップページのディメンション項目に関するフローレポートを使用します。 [フロービジュアライゼーションを使用して、Analysis Workspaceの類似したレポートを利用できます](../analysis-workspace/visualizations/c-flow/flow.md)。
+* Previous page flow: Uses a flow report on the top page dimension item A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
 * 前のページ： トップのページディメンション項目を取得し、前のページ訪問者の元を示します。
-* フォールアウト： ページディメンション項目を手順で選択でき、そのパスに従った訪問者と従わなかった訪問者の割合が表示されます。 フォールアウトビジュアライゼーションを使用しても、同様のAnalysis Workspaceの [レポートを利用でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
-* フルパス： 個々のパスをディメンション項目として表示します。 Analysis Workspaceに引退。 代わりに、 [フロービジュアライゼーションを使用し](../analysis-workspace/visualizations/c-flow/flow.md) ます。
-* パスファインダ： パスを分析(Analysis Workspaceで廃止)できる複数のタイプのレポートを提供します。
-* パスの長さ： 訪問の深さ [ディメンションを使用し](/help/components/dimensions/visit-depth.md) ます。
+* フォールアウト： ページディメンション項目を手順で選択でき、そのパスに従った訪問者と従わなかった訪問者の割合が表示されます。 Analysis Workspace の[フォールアウトビジュアライゼーション](../analysis-workspace/visualizations/fallout/fallout-flow.md)を使用すると、同様のレポートを利用できます。
+* フルパス： 個々のパスをディメンション項目として表示します。 Analysis Workspace では廃止しました。代わりに、 [フロービジュアライゼーション](../analysis-workspace/visualizations/c-flow/flow.md)を使用できます。
+* パスファインダ：パスを分析できる複数のタイプのレポートを提供します（Analysis Workspace では廃止）。
+* パスの長さ：訪問の深さ [Visit depth](/help/components/dimensions/visit-depth.md) ディメンションを使用します。
 * ページ分析
    * ページサマリ： トップのページディメンション項目を使用し、トレンド表示を表示します。 また、そのトップページのディメンション項目の入口ポイント、前のページ、出口ポイントおよび次のページも表示します。
-   * リロード回数： [Page](/help/components/dimensions/page.md) ( [ページ](/help/components/metrics/reloads.md) )ディメンションをリロード回数指標と共に使用します。
-   * ページでの滞在時間： ページでの滞在 [時間 — グループディメンションを使用し](/help/components/dimensions/time-spent-on-page.md) ます。
+   * リロード回数：[Page](/help/components/dimensions/page.md) ディメンションと [Reloads](/help/components/metrics/reloads.md) 指標を使用します。
+   * ページでの滞在時間：[Time spent on page - bucketed](/help/components/dimensions/time-spent-on-page.md) ディメンションを使用します。
    * ページへのクリック数： トップのページディメンション項目を使用し、特定の訪問でそのページに到達するのに費やしたクリック数を表示します。
 * 入口と出口
-   * 入口ページ： 入 [口ページ](/help/components/dimensions/entry-dimensions.md) ディメンションを使用します。
-   * オリジナルの入口ページ： 入口ページの元の [ディメンションを使用し](/help/components/dimensions/entry-dimensions.md) ます。
-   * 直帰数： アドビが提供する「 [ページ訪問回数」セグメントを適用したPage](/help/components/dimensions/page.md) （ページ）ディメンションを使用します。
-   * 出口ページ： 出 [口ページ](/help/components/dimensions/exit-dimensions.md) ディメンションを使用します。
+   * 入口ページ：[Entry pages](/help/components/dimensions/entry-dimensions.md) ディメンションを使用します。
+   * オリジナルの入口ページ：[Entry page original](/help/components/dimensions/entry-dimensions.md) ディメンションを使用します。
+   * 直帰数：アドビが提供する「単一ページ訪問」セグメントを適用した [Page](/help/components/dimensions/page.md) ディメンションを使用します。
+   * 出口ページ：[Exit pages](/help/components/dimensions/exit-dimensions.md) ディメンションを使用します。
 
 >[!NOTE]
 >
->このフォルダーには、他のレポートも表示できます。 これらはpropなどの他のディメンションで、レポートスイートの設定で [パスを有効にしている](../../admin/admin/c-traffic-variables/traffic-var.md) 。
+>このフォルダーには、他のレポートも表示できます。これらは prop などの他のディメンションで、レポートスイートの設定で[パスを有効にしています](../../admin/admin/c-traffic-variables/traffic-var.md)。
 
 ## トラフィックソース
 
-訪問者がサイトに到着する前にどこから来たかを知ることができるレポートが含まれます。 これらのレポートは、レポートスイートの設定で [内部URLフィルターーを正しく設定しない限り、正しく機能しません](../../admin/admin/internal-url-filter-admin.md) 。
+訪問者がサイトに到着する前にどこから来たかを知ることができるレポートが含まれます。これらのレポートは、レポートスイートの設定で[内部 URL フィルター](../../admin/admin/internal-url-filter-admin.md)を正しく設定しない限り、機能しません 。
 
-* 検索キーワード — すべて： Searchキーワード [](/help/components/dimensions/search-keyword.md) ディメンションを使用します。
-* 検索キーワード — 有料： キーワード [検索 — 有料](/help/components/dimensions/search-keyword.md) ディメンションを使用します。
-* 検索キーワード — 自然： 検索キーワード — 自然 [](/help/components/dimensions/search-keyword.md) ディメンションを使用します。
-* 検索エンジン — すべて： 検索エンジン [ディメンションを使用します](/help/components/dimensions/search-engine.md) 。
-* 検索エンジン — 有料： 検 [索エンジン — 有料](/help/components/dimensions/search-engine.md) ディメンションを使用します。
-* 検索エンジン — 自然： [検索エンジン — 自然](/help/components/dimensions/search-engine.md) ディメンションを使用します。
-* すべての検索ページのランク： 「 [すべての検索ページのランク](/help/components/dimensions/all-search-page-rank.md) 」ディメンションを使用します。
-* 参照ドメイン： [参照ドメイン](/help/components/dimensions/referring-domain.md) ディメンションを使用
-* オリジナルの参照ドメイン： オリジナルの参照ドメイン [ディメンションを使用](/help/components/dimensions/original-referring-domain.md) 。
-* 転送者: [転送者](/help/components/dimensions/referrer.md) ディメンションを使用します。
-* 転送者タイプ： [転送者タイプディメンションを使用し](/help/components/dimensions/referrer-type.md) ます。
+* 検索キーワード — すべて：[Search keyword](/help/components/dimensions/search-keyword.md) ディメンションを使用します。
+* 検索キーワード — 有料：[Search keyword - paid](/help/components/dimensions/search-keyword.md) ディメンションを使用します。
+* 検索キーワード — 自然：[Search keyword - natural](/help/components/dimensions/search-keyword.md) ディメンションを使用します。
+* 検索エンジン — すべて：[Search engine](/help/components/dimensions/search-engine.md) ディメンションを使用します。
+* 検索エンジン — 有料：検 [Search engine - paid](/help/components/dimensions/search-engine.md) ディメンションを使用します。
+* 検索エンジン — 自然：[Search engine - natural](/help/components/dimensions/search-engine.md) ディメンションを使用します。
+* すべての検索ページのランク：[All search page rank](/help/components/dimensions/all-search-page-rank.md) ディメンションを使用します。
+* 参照ドメイン：[Referring domain](/help/components/dimensions/referring-domain.md) ディメンションを使用します。
+* オリジナルの参照ドメイン：[Original referring domain](/help/components/dimensions/original-referring-domain.md) ディメンションを使用します。
+* 転送者：[Referrer](/help/components/dimensions/referrer.md) ディメンションを使用します。
+* 転送者タイプ：[Referrer type](/help/components/dimensions/referrer-type.md) ディメンションを使用します。
 
 ## キャンペーン
 
-主に [追跡コード](/help/components/dimensions/tracking-code.md) ディメンションに関するレポートが含まれます。
+主に [Tracking code（追跡コード）](/help/components/dimensions/tracking-code.md) ディメンションに関するレポートが含まれます。
 
-* キャンペーンコンバージョンファネル： ファネルレポートのクリックスルー数、 [チェックアウト](/help/components/metrics/checkouts.md)、 [注文](/help/components/metrics/orders.md)、 [売上高](/help/components/metrics/revenue.md) をレポートします。 クリックスルー指標は、トラッ [キングコード](/help/components/metrics/instances.md) ディメンションに関連するインスタンス [](/help/components/dimensions/tracking-code.md) 指標に似ています。 フォールアウトビジュアライゼーションを使用したAnalysis Workspaceでも、同様のビジュアライ [ゼーションを実現でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
-* トラッキングコード： ト [ラッキングコード](/help/components/dimensions/tracking-code.md) ディメンションを使用します。
+* キャンペーンコンバージョンファネル：ファネルレポートでクリックスルー、[チェックアウト](/help/components/metrics/checkouts.md)、[注文](/help/components/metrics/orders.md)、[売上高](/help/components/metrics/revenue.md)をレポートします。クリックスルー指標は、[Tracking code](/help/components/dimensions/tracking-code.md)ディメンションに関連する[インスタンス](/help/components/metrics/instances.md)指標に似ています。Analysis Workspace でも、[フォールアウトビジュアライゼーション](../analysis-workspace/visualizations/fallout/fallout-flow.md)を使用して同様のビジュアライゼーションを実現できます。
+* トラッキングコード：[Tracking code](/help/components/dimensions/tracking-code.md) ディメンションを使用します。
 
 ## 製品
 
 主に [Product](/help/components/dimensions/product.md) ディメンションに関するレポートが含まれます。
 
-* 製品コンバージョンファネル： レポート [表示](/help/components/metrics/product-views.md)、買い物かご [、](/help/components/metrics/cart-additions.md)追加数 [、チェックアウト数、チェックアウト数](/help/components/metrics/checkouts.md)[](/help/components/metrics/orders.md)[](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) 、商品注文数、商品注文数、商品注文数、商品注文数、商品注文数レポート内の売上高を表示します。 フォールアウトビジュアライゼーションを使用したAnalysis Workspaceでも、同様のビジュアライ [ゼーションを実現でき](../analysis-workspace/visualizations/fallout/fallout-flow.md)ます。
-* 製品： [Products](/help/components/dimensions/product.md) （製品）ディメンションを使用します。
-* クロス販売： 共に販売される(Analysis Workspaceで廃止される)商品を表示します。
-* カテゴリ: [カテゴリ](/help/components/dimensions/category.md) ディメンションを使用します。
+* 製品コンバージョンファネル：ファネルレポートで[製品ビュー](/help/components/metrics/product-views.md)、[買い物かごへの追加](/help/components/metrics/cart-additions.md)、[チェックアウト](/help/components/metrics/checkouts.md)、[注文](/help/components/metrics/orders.md)、[単位](/help/components/metrics/units.md)、[売上高](/help/components/metrics/revenue.md)をレポートします。Analysis Workspace でも、[フォールアウトビジュアライゼーション](../analysis-workspace/visualizations/fallout/fallout-flow.md)を使用して同様のビジュアライゼーションを実現できます。
+* 製品：[Products](/help/components/dimensions/product.md) ディメンションを使用します。
+* クロス販売：共に販売される製品を表示します（Analysis Workspace では廃止）。
+* カテゴリ：[Category](/help/components/dimensions/category.md) ディメンションを使用します。
 
 ## 訪問者保持率
 
 サイトに戻る訪問者に関するレポートが含まれます。
 
-* 再訪頻度： 再 [来訪頻度](/help/components/dimensions/return-frequency.md) (Return frequency)ディメンションを使用します。
-* 再来訪： アドビが提供する「再来訪 [数](/help/components/metrics/visits.md) 」セグメントを適用した、経時的な訪問数指標のトレンドを示します。
-* 訪問回数： 訪問回数 [ディメンションを使用し](/help/components/dimensions/visit-number.md) ます。
-* 販売サイクル： 購入関連レポートのフォルダー。
-   * 顧客の忠誠度： [顧客忠誠度](/help/components/dimensions/customer-loyalty.md) ディメンションを使用します。
-   * 初回購入までの日数： 「 [Days before first purchase](/help/components/dimensions/days-before-first-purchase.md) 」ディメンションを使用します。
-   * 前回購入からの日数： 前回購入からの [日数](/help/components/dimensions/days-since-last-purchase.md) (Days since last purchase)ディメンションを使用します。
-   * 日別ユニーク顧客数： アドビが提供する「購入者」セグメントが適用された [](/help/components/metrics/unique-visitors.md) 日別訪問者数の経時的な推移を示します。
-   * 週別ユニーク顧客数： アドビが提供する「購入者」セグメントが適用された [](/help/components/metrics/unique-visitors.md) 週別訪問者数の経時的なトレンドを示します。
-   * 月別ユニーク顧客数： アドビが提供する「購入者」セグメントが適用された [](/help/components/metrics/unique-visitors.md) 月別訪問者数の経時的なトレンドを示します。
-   * 四半期別ユニーク顧客数： アドビが提供する「購入者」セグメントを適用した [](/help/components/metrics/unique-visitors.md) 四半期別訪問者数の経時的なトレンドを示します。 四半期は、1月から3月、4月から6月、7月から9月、10月から12月です。
-   * 年別ユニーク顧客数： アドビが提供する「購入者」セグメントを適用した [年別訪問者数](/help/components/metrics/unique-visitors.md) の経時的なトレンド。
+* 再来訪頻度：[Return frequency](/help/components/dimensions/return-frequency.md) ディメンションを使用します。
+* 再来訪：アドビが提供する「再来訪」セグメントを適用した、[Visits](/help/components/metrics/visits.md) 指標の経時的な推移を示します。
+* 訪問数：[Visit number ](/help/components/dimensions/visit-number.md)ディメンションを使用します。
+* 販売サイクル：購入関連レポートのフォルダー。
+   * 顧客の忠誠度：[Customer loyalty](/help/components/dimensions/customer-loyalty.md) ディメンションを使用します。
+   * 初回購入までの日数：[Days before first purchase](/help/components/dimensions/days-before-first-purchase.md) ディメンションを使用します。
+   * 前回購入からの日数：[Days since last purchase](/help/components/dimensions/days-since-last-purchase.md) ディメンションを使用します。
+   * 日別ユニーク顧客数：アドビが提供する「購入者」セグメントが適用された [Daily unique visitors](/help/components/metrics/unique-visitors.md) の経時的な推移を示します。
+   * 週別ユニーク顧客数：アドビが提供する「購入者」セグメントを適用した [Weekly unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。
+   * 月別ユニーク顧客数：アドビが提供する「購入者」セグメントを適用した [Monthly unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。
+   * 四半期別ユニーク顧客数：アドビが提供する「購入者」セグメントを適用した [Quarterly unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。四半期は、1 月から 3 月、4 月から 6 月、7 月から 9 月、10 月から 12 月です。
+   * 年別ユニーク顧客数：アドビが提供する「購入者」セグメントを適用した [Yearly unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。
 
 ## 訪問者プロファイル
 
 サイトの訪問者に関するレポートが含まれます。
 
-* 地理特性： 世界中のサイト訪問者がどこから来訪したかに関するレポートです。
-   * 国： Countries [ディメンションを使用します](/help/components/dimensions/countries.md) 。
-   * 地域： Regions [ディメンションを使用します](/help/components/dimensions/regions.md) 。
-   * 市区町村： Cities [ディメンションを使用し](/help/components/dimensions/cities.md) ます。
-   * 米国の州： 「 [US states](/help/components/dimensions/us-states.md) 」ディメンションを使用します。
-   * 米国DMA: [US DMA](/help/components/dimensions/us-dma.md) （米国）ディメンションを使用します。
-* 言語： Language [](/help/components/dimensions/language.md) （言語）ディメンションを使用します。
-* タイムゾーン： タイムゾーンディメンションを使用します(Analysis Workspaceで削除)。 ディメンション項目は、ヒットのGMTオフセットです。
-* ドメイン： [Domain](/help/components/dimensions/domain.md) ディメンションを使用します。
-* トップレベルドメイン： トップレベルのドメインディメンションを使用します(Analysis Workspaceから削除)。 このレポートは、 [domains](/help/components/dimensions/domain.md) dimensionを上位レベルのカテゴリ（通常、ドメインの国別）にグループ化します。
-* 技術： 訪問者がサイトにアクセスする際に使用したレポートを含むフォルダ。
-   * ブラウザー： Browsers [ディメンションを使用し](/help/components/dimensions/browser.md) ます。
-   * ブラウザーのタイプ： ブ [ラウザータイプ](/help/components/dimensions/browser-type.md) (Browser type)ディメンションを使用します。
-   * ブラウザーの幅： ブラウザーの [幅 — グループディメンションを使用し](/help/components/dimensions/browser-width.md) ます。
-   * ブラウザーの高さ： ブ [ラウザーの高さ — グループディメンションを使用し](/help/components/dimensions/browser-height.md) ます。
-   * オペレーティングシステム： オペレー [ティングシステム](/help/components/dimensions/operating-systems.md) (Operating systems)ディメンションを使用します。
-   * オペレーティングシステムの種類： オペレー [ティングシステムタイプ](/help/components/dimensions/operating-system-types.md) (Operating system types)ディメンションを使用します。
-   * 画面の色： 色深度( [Color depth](/help/components/dimensions/color-depth.md) )ディメンションを使用します。
-   * 画面の解像度： [Monitor resolution](/help/components/dimensions/monitor-resolution.md) （画面の解像度）ディメンションを使用します。
-   * Java: [Java対応ディメンションを使用します](/help/components/dimensions/java-enabled.md) 。
-   * JavaScript: JavaScriptが有効なディメンションを使用します(Analysis Workspaceには使用されません)。 ブラウザーでJavaScriptが有効になっているかどうかに応じて、ディメンション項目は「有効」、「無効」または「不明」になります。
-   * JavaScriptのバージョン： は、JavaScriptバージョンディメンションを使用します(Analysis Workspaceでは廃止されました)。 ディメンション項目は、ブラウザーが使用するJavaScriptのバージョンを示します。
-   * Cookie: Cookieサポート [ディメンションを使用します](/help/components/dimensions/cookie-support.md) 。
-   * 接続の種類： 「 [接続タイプ](/help/components/dimensions/connection-type.md) 」ディメンションを使用します。
-   * 携帯電話会社： 携帯電話会社 [ディメンションを使用し](/help/components/dimensions/mobile-dimensions.md) ます。
-* 訪問者の状態： Stateディメンションを使用します(Analysis Workspaceには使用できません)。 ディメンション項目は、 [`state`](../../implement/vars/page-vars/state.md) 変数から派生します。
-* 訪問者の郵便番号： 郵便番号 [ディメンションを使用し](/help/components/dimensions/zip-code.md) ます。
+* 地理特性：世界中のサイト訪問者がどこから来訪したかに関するレポートです。
+   * 国：[Countries](/help/components/dimensions/countries.md) ディメンションを使用します。
+   * 地域：[Regions](/help/components/dimensions/regions.md) ディメンションを使用します。
+   * 市区町村：[Cities](/help/components/dimensions/cities.md) ディメンションを使用します。
+   * 米国の州：[US states](/help/components/dimensions/us-states.md) ディメンションを使用します。
+   * 米国 DMA：[US DMA](/help/components/dimensions/us-dma.md) ディメンションを使用します。
+* 言語：[Language](/help/components/dimensions/language.md) ディメンションを使用します。
+* タイムゾーン：time zone ディメンションを使用します（Analysis Workspace では廃止）。Dimension項目は、ヒットのGMTオフセットです。
+* ドメイン：[Domain](/help/components/dimensions/domain.md) ディメンションを使用します。
+* トップレベルドメイン：トップレベルのドメインディメンションを使用します（Analysis Workspace では廃止）。このレポートは、[domains](/help/components/dimensions/domain.md) ディメンションを上位レベルのカテゴリ（通常、ドメインの国別）にグループ化します。
+* 技術：訪問者がサイトにアクセスする際に使用したレポートを含むフォルダー。
+   * ブラウザー：[Browsers](/help/components/dimensions/browser.md) ディメンションを使用します。
+   * ブラウザータイプ：[Browser type](/help/components/dimensions/browser-type.md) ディメンションを使用します。
+   * ブラウザーの幅：[Browser width - bucketed](/help/components/dimensions/browser-width.md) ディメンションを使用します。
+   * ブラウザーの高さ：[Browser height - bucketed](/help/components/dimensions/browser-height.md) ディメンションを使用します。
+   * オペレーティングシステム：[Operating systems](/help/components/dimensions/operating-systems.md) ディメンションを使用します。
+   * オペレーティングシステムタイプ：[Operating system types](/help/components/dimensions/operating-system-types.md) ディメンションを使用します。
+   * 画面の色：[Color depth](/help/components/dimensions/color-depth.md) ディメンションを使用します。
+   * 画面の解像度：[Monitor resolution](/help/components/dimensions/monitor-resolution.md) ディメンションを使用します。
+   * Java：[Java enabled](/help/components/dimensions/java-enabled.md) ディメンションを使用します。
+   * JavaScript：JavaScript enabled ディメンションを使用します（Analysis Workspace では廃止）。DimensionーでJavaScriptが有効になっているかどうかに応じて、ブラウザー項目は「有効」、「無効」、「不明」になります。
+   * JavaScript のバージョン：JavaScript version ディメンションを使用します（Analysis Workspace では廃止）。Dimension項目は、ブラウザーが使用するJavaScriptのバージョンを示します。
+   * Cookie：[Cookie support](/help/components/dimensions/cookie-support.md) ディメンションを使用します。
+   * 接続タイプ：[Connection type](/help/components/dimensions/connection-type.md) ディメンションを使用します。
+   * 携帯電話会社：[Mobile carrier](/help/components/dimensions/mobile-dimensions.md) ディメンションを使用します。
+* 訪問者の状態：State ディメンションを使用します（Analysis Workspace では廃止）。Dimension items originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* 訪問者の郵便番号：[Zip code](/help/components/dimensions/zip-code.md) ディメンションを使用します。
 
 ## カスタムコンバージョン
 
-導入に固有のレポートが含まれます。 カスタムコンバージョンレポートでは、 [eVar](/help/components/dimensions/evar.md) をディメンションとして使用します。
+実装に固有のレポートが含まれます。カスタムコンバージョンレポートでは、[eVar](/help/components/dimensions/evar.md) をディメンションとして使用します。
 
 ## カスタムトラフィック
 
-導入に固有のレポートが含まれます。 カスタムトラフィックレポートでは、ディメンションとして [prop](/help/components/dimensions/prop.md) を使用します。
+実装に固有のレポートが含まれます。カスタムトラフィックレポートでは、[prop](/help/components/dimensions/prop.md) をディメンションとして使用します。
 
 ## マーケティングチャネル
 
-マー [ケティングチャネルに関するレポートが含まれます](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
+[マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)に関するレポートが含まれます。
 
-* チャネルの概要レポート： レポートおよびAnalyticsに固有のカスタムレポート。 ファーストタッチアトリビューションまたはラストタッチアトリビューションを使用する指標を含む、ディメンション項目としてマーケティングチャネルを使用します。
-* ファーストタッチチャネル: ファーストタッチ [チャネル](/help/components/dimensions/first-touch-channel.md) ディメンションを使用します。
-* ファーストタッチチャネルの詳細： ファーストタッチ [チャネルの詳細](/help/components/dimensions/first-touch-detail.md) ディメンションを使用します。
-* ラストタッチチャネル: ラストタッチ [チャネル](/help/components/dimensions/last-touch-channel.md) (Last touch)ディメンションを使用します。
-* ラストタッチチャネルの詳細： ラストタッチ [チャネルの詳細](/help/components/dimensions/last-touch-detail.md) (Last touch Detail)ディメンションを使用します。
+* チャネルの概要レポート：Reports &amp; Analytics に固有のカスタムレポート。ファーストタッチアトリビューションまたはラストタッチアトリビューションを使用する指標を含む、ディメンション項目としてマーケティングチャネルを使用します。
+* ファーストタッチチャネル：[First touch channel](/help/components/dimensions/first-touch-channel.md) ディメンションを使用します。
+* ファーストタッチチャネルの詳細：[First touch channel detail](/help/components/dimensions/first-touch-detail.md) ディメンションを使用します。
+* ラストタッチチャネル：[Last touch channel](/help/components/dimensions/last-touch-channel.md) ディメンションを使用します。
+* ラストタッチチャネルの詳細：[Last touch channel detail](/help/components/dimensions/last-touch-detail.md) ディメンションを使用します。
 
 ## ブックマーク
 
-ブックマークを付けたレポートが含まれます。 See [Bookmarks](bookmarks.md) for more information.
+ブックマークを付けたレポートが含まれます。詳しくは、「[ブックマーク](bookmarks.md)」を参照してください。
 
 ## ダッシュボード
 
-作成したダッシュボードが含まれます。 See [Dashboards](dashboard.md) for more information.
+作成したダッシュボードが含まれます。詳しくは、「[ダッシュボード](dashboard.md)」を参照してください。
 
 ## ターゲット
 
-作成したターゲットが含まれます。 See [Targets](targets.md) for more information.
+作成したターゲットが含まれます。詳しくは、「[ターゲット](targets.md)」を参照してください。
 
 >[!NOTE]
 >
->このヘルプページでレポートが見つからない場合は、管理者がフォルダの名前を変更したり、調整したりした可能性があります。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>このヘルプページでレポートが見つからない場合は、管理者がフォルダーの名前を変更したり、調整したりした可能性があります。詳しくは、『管理者ユーザーガイド』の「[メニューのカスタマイズ](/help/admin/admin/customize-menus.md)」を参照してください。
