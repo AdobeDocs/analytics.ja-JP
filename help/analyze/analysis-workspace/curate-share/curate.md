@@ -2,9 +2,9 @@
 description: キュレーションを使用すると、プロジェクトを共有する前にコンポーネントを制限できます。
 keywords: Analysis Workspace curation
 title: Workspace プロジェクトのキュレーション
-translation-type: ht
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ ht-degree: 100%
 ## プロジェクトキュレーションの削除
 
 プロジェクトのキュレーションを削除し、左側のレールのコンポーネントの完全なセットを復元するには：
+
 1. **[!UICONTROL 共有]**／**[!UICONTROL プロジェクトデータをキュレート]**&#x200B;をクリックします。
 1. 「**[!UICONTROL キュレーションを削除]**」をクリックします。
 1. 「**[!UICONTROL 完了]**」をクリックします。
