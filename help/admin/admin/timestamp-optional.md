@@ -3,11 +3,11 @@ description: タイムスタンプのあるデータとないデータの両方�
 title: タイムスタンプオプション
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. これにより、データが破壊され、時間の計算（滞在時間値など）、属性（eVar の持続性）、訪問回数／訪問のカウントおよびパスレポートに悪影響を与える可能性があります。
+>タイムスタンプオプションを使用する場合は、既にタイムスタンプを設定しているデータに [s.visitorID](/help/implement/vars/config-vars/visitorid.md) を設定しないでください。これにより、データが破壊され、時間の計算（滞在時間値など）、属性（eVar の持続性）、訪問回数／訪問のカウントおよびパスレポートに悪影響を与える可能性があります。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ ht-degree: 95%
    * **タイムスタンプが必要**（s.visitorID の設定はサポートされていない）
    * **タイムスタンプオプション**（s.visitorID の設定はサポートされているが、タイムスタンプ付きのヒットではサポートされない）
 
-## 既存のレポートスイートをタイムスタンプオプションに変更するには {#section_40BCD3B4639241DEA716F7640ED33E72}
+## 既存のレポートスイートをタイムスタンプオプションに変更するには{#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. **管理者／レポートスイート／設定を編集／一般／タイムスタンプの設定**&#x200B;に移動します。
 1. 「**選択されたレポートスイートをタイムスタンプオプションに変換**」ボックスを選択します。
