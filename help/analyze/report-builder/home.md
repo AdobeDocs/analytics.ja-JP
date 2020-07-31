@@ -2,8 +2,11 @@
 title: Adobe Report Builder ヘルプ
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -51,6 +54,6 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ## Reports &amp; Analytics ヘルプ
 
-* [Analysis Workspace ヘルプ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
-* [Reports &amp; Analytics ヘルプ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.translate.html)
+* [Analysis Workspace ヘルプ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html)
+* [Reports &amp; Analytics ヘルプ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.html)
 * [Analytics 参照元](https://docs.adobe.com/content/help/ja-JP/analytics/landing/home.html)管理ツール、レポートおよび指標に関するヘルプです。
