@@ -1,9 +1,9 @@
 ---
 description: Adobe Analysis Workspace とその関連コンポーネントに関する既知の制限のリスト
 title: Analysis Workspace の既知の制限
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
 ht-degree: 100%
 
