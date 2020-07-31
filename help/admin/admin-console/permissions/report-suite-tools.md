@@ -1,9 +1,9 @@
 ---
 source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '650'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # 製品プロファイル権限にリストされたレポートスイートツール
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 | レポートスイートツールの権限の項目 | 説明 |
 |------|------|
-| Data Warehouse | 未使用。代わりに、「カスタム Data Warehouseレポート」を使用します。 |
+| Data Warehouse | 未使用。代わりに、「カスタム Data Warehouse レポート」を使用します。 |
 | SiteCatalyst | 未使用。代わりに、「Analysis Workspace アクセス」を使用します。 |
 | レポート スイート（読み取り） | 未使用。 |
 | レポート スイート（書き込み） | 未使用。 |
@@ -54,7 +54,7 @@ ht-degree: 98%
 | モバイル版アプリ概要レポート | 未使用。 |
 | 分類 | Report Suite Manager のすべての分類設定へのアクセスを許可します。この権限項目には、次の項目が含まれます：<br>トラフィック／トラフィック分類<br>コンバージョン／コンバージョン分類<br>コンバージョン／分類階層<br>マーケティングチャネル／マーケティングチャネル分類<br>アプリ管理／アプリ分類<br>メディア管理／メディア分類<br>AEM／AEM Assets 分類<br>Adobe Campaign／アドビ分類 |
 | 推奨レポート | Reports &amp; Analytics のサイト指標／マイ推奨レポートへのアクセスを許可します。 |
-| 会社サマリレポートレット | 未使用。 |
+| 会社概要レポートレット | 未使用。 |
 | 画像 | 未使用。 |
 | KPI／ゲージレポートレット | 未使用。 |
 | レポートスイートの合計数 | 未使用。 |
@@ -62,4 +62,4 @@ ht-degree: 98%
 | 使用状況サマリレポートレット | 未使用。 |
 | Web リソース | 未使用。 |
 | Social | 未使用。 |
-| データ修復 API | データ修復API（今後のリリース）へのアクセスを許可 |
+| データ修復 API | データ修復 API（今後のリリース）へのアクセスを許可 |
