@@ -2,9 +2,9 @@
 description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
 title: データプライバシーと Data Connectors（Genesis）
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -165,7 +165,7 @@ ht-degree: 100%
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>受信者 ID-&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
+   <td colname="col2"> <p>Recipient ID-&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>分類 </p> </td> 
   </tr> 
   <tr> 
