@@ -1,11 +1,11 @@
 ---
 title: レポートスイートの作成
 description: Adobe Analytics でデータ収集用の基本コンテナを作成します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 96%
 このレポートスイートに同じ名前を付け、末尾に「- DEV」を追加します。このレポートスイートが受け取るのは内部トラフィックのみなので、最小限のサイズとなることが予測されます。
 1. 「次へ」をクリックして開発用レポートスイートの作成を終了します。
 
-このモーダルウィンドウの手順について詳しくは、『実装ユーザーガイド』の「 [実装モーダル](/help/implement/prepare/implementation-modal.md) 」を参照してください。
+このモーダルウィンドウの手順について詳しくは、『実装ユーザーガイド』の「[実装モーダル](/help/implement/prepare/implementation-modal.md)」を参照してください。
 
 ## トラブルシューティング
 
