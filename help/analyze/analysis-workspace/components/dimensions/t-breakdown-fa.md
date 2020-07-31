@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 63%
+ht-degree: 93%
 
 ---
 
@@ -34,6 +34,6 @@ Analysis Workspace のディメンションおよびディメンション項目�
 
 ## 分類へのアトリビューションモデルの適用
 
-テーブル内の分類には、任意のアトリビューションモデルを適用することもできます。 このアトリビューションモデルは、親列と同じか異なる可能性があります。 例えば、マーケティングチャネルディメンションの線形注文を分析し、チャネル内の特定のトラッキングコードにU字型注文を適用できます。 To edit the attribution model applied to a breakdown, hover over the breakdown model and click **[!UICONTROL Edit]**:
+テーブル内の分類には、任意のアトリビューションモデルを適用することもできます。このアトリビューションモデルは、親列と同じ場合と異なる場合があります。例えば、マーケティングチャネルディメンションで線形の注文件数を分析するものの、チャネル内の特定のトラッキングコードには U 字形の注文件数を適用するといったことができます。分類に適用されるアトリビューションモデルを編集するには、その分類モデルの上にマウスポインターを置いて「**[!UICONTROL 編集]**」をクリックするだけです。
 
 ![分類の設定](assets/breakdown_settings.png)
