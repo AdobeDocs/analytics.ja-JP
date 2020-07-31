@@ -100,7 +100,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。これには、10以上のルールベースモデルとアルゴリズムモデルが含まれます。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > ビデオ： フリーフォーム表のアトリビューションIQ</a> </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。これには、10以上のルールベースモデルとアルゴリズムモデルが含まれます。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > ビデオ： フリーフォームテーブルのAttribution IQ</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
