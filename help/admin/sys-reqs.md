@@ -1,31 +1,31 @@
 ---
 title: 必要システム構成
-description: アドビAnalyticsを使用するための必要システム構成です。
-translation-type: tm+mt
+description: Adobe Analytics を使用するための必要システム構成です。
+translation-type: ht
 source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
 # 必要システム構成
 
-リストは、アドビAnalyticsの様々な製品ソリューションを使用するための必要システム構成を示します。
+リストは、Adobe Analytics の様々な製品ソリューションを使用するための必要システム構成を示します。
 
-## ブラウザーベースのソリューションの必要システム構成
+## ブラウザーベースソリューションの必要システム構成
 
-Analysis Workspaceを含む、ほとんどのアドビAnalyticsソリューションはブラウザーベースです。 したがって、アドビのAnalyticsを使用するための最も重要な要件は、最新のWebブラウザーです。 アドビでは、以下のブラウザーの最新の安定版をサポートしています。
+Analysis Workspace を含む、ほとんどの Adobe Analytics ソリューションはブラウザーベースです。したがって、Adobe Analytics を使用するための最も重要な要件は、最新の Web ブラウザーです。アドビは、これらのブラウザーの最新の安定したバージョンをサポートしています。
 
 * Microsoft Edge
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE] アドビは、2018年11月13日にAdobeAnalytics内でMicrosoft Internet Explorer 11のサポートを終了しました。
+>[!NOTE]アドビは Adobe Analytics での Microsoft Internet Explorer 11 のサポートを 2018 年 11 月 13 日に終了しました。
 
-## ブラウザー以外のソリューションの必要システム構成
+## ブラウザーベース以外のソリューションの必要システム構成
 
 そのソリューションの必要システム構成については、リンクされたソリューションのページを参照してください。
 
