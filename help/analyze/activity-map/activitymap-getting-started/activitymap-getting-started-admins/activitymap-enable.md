@@ -3,9 +3,9 @@ description: Activity Map のリンクコレクションおよびユーザーダ
 title: Activity Map の有効化
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
 ht-degree: 100%
 
