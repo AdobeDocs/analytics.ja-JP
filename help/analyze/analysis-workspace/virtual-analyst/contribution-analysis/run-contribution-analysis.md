@@ -2,9 +2,9 @@
 description: 'null'
 title: 貢献度分析の実行
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
 ht-degree: 100%
 
