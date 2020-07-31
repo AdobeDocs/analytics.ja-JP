@@ -2,9 +2,9 @@
 description: Analysis Workspace のコンポーネントは、指標、ディメンション、セグメントおよび時間の精度で構成されており、これらはプロジェクトにドラッグ＆ドロップできます。カスタム日付範囲などの、作成したカスタムコンポーネントがこれらのパネルに追加されます。
 title: コンポーネントの概要
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
