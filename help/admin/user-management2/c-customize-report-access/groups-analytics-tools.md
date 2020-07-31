@@ -5,9 +5,9 @@ subtopic: Users and groups
 title: Analytics ツールの権限のカスタマイズ
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics**[!UICONTROL ／]**管理者**[!UICONTROL ／]**ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。
 
@@ -60,10 +60,10 @@ ht-degree: 100%
 | [レポートスイートを非表示](/help/admin/company/c-hide-report-suites.md) | Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にする権限を付与します。 |
 | **ツール** | これらの設定は、Analytics ツール（インターフェイスおよびアプリケーション）およびセグメンテーションや計算指標などの高度な機能へのアクセス権を付与します。 |
 | [現在のデータ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/current-data.html) | レポートの「現在のデータ」機能を使用する権限を付与します。 |
-| [Ad Hoc Analysis ライセンスユーザー](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | [!UICONTROL Ad Hoc Analysis] へのアクセス権を付与します。 |
+| [Ad Hoc Analysis](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/ad-hoc-analysis/adhoc-home.html) ライセンスユーザー | [!UICONTROL Ad Hoc Analysis] へのアクセス権を付与します。 |
 | Web サービスへのアクセス | 管理者以外のユーザーの Web サービスへのアクセスを有効にします。Web サービス資格情報を生成します。 |
 | [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | このグループのメンバーに [!UICONTROL Report Builder] ライセンスへのアクセス権を付与します。 |
-| [Analysis Workspace アクセス](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html) | [!DNL Adobe Analytics] の推奨レポートインターフェイスである、Analysis Workspace へのアクセス権をユーザーに付与します。 |
+| [Analysis Workspace](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html) アクセス | [!DNL Adobe Analytics] の推奨レポートインターフェイスである、Analysis Workspace へのアクセス権をユーザーに付与します。 |
 | [Reports &amp; Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/landing/an-key-concepts.html) | Reports &amp; Analytics へのアクセス権をユーザーに付与します。 |
 | [計算指標の作成](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html) | 計算指標を作成する権限をユーザーに付与します。 |
 | [セグメントの作成](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html) | セグメントを作成する権限をユーザーに付与します。 |
