@@ -3,9 +3,9 @@ description: 異常値検出は、統計的なモデリングを使用して、�
 title: 異常値検出
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 異常値検出は、統計的なモデリングを使用して、データ内の予期しないトレンドを自動的に見つけます。モデルによって指標を分析し、値の下限、上限、予想される範囲を決定します。予期しないスパイクまたは下落が発生した場合にレポートします。
 
-調査できる異常の例を次に示します。
+調査できる異常値の例を次に示します。
 
 * 平均注文額の急激な下落
 * 売上の低い注文の急増
