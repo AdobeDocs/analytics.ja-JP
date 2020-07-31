@@ -5,9 +5,9 @@ subtopic: Users and groups
 title: ユーザーおよびグループ権限の変更
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1562'
 ht-degree: 100%
 
@@ -124,7 +124,7 @@ API とインターフェイスでは同じ権限付与システムを使用し�
  </tbody> 
 </table>
 
-## 権限のクイックリファレンス {#section_A3FDD8259F524B21A5489833533D1B28}
+## 権限のクイックリファレンス{#section_A3FDD8259F524B21A5489833533D1B28}
 
 次の表に、会社のステータスに応じたタスクとその実行場所を示します。
 
