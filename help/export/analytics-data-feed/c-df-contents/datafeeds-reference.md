@@ -6,10 +6,10 @@ title: データ列リファレンス
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 97%
+source-wordcount: '3674'
+ht-degree: 96%
 
 ---
 
@@ -83,8 +83,8 @@ ht-degree: 97%
 | `geo_dma` | ヒットの発生元となった人口分布地域の数値 ID（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと人口分布地域を対応させることができます。 | int unsigned |
 | `geo_region` | ヒットの発生元となった州または地域の名前（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと州または地域を対応させることができます。 | char(32) |
 | `geo_zip` | ヒットの発生元となった場所の郵便番号（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと郵便番号を対応させることができます。 | varchar(16) |
-| `hier1 - hier5` | 階層変数で使用。値の区切りリストが格納されます。区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
-| `hit_source` | ヒットの発生源を示します。<br>1：標準的な画像リクエスト（タイムスタンプなし）<br>2：標準的な画像リクエスト（タイムスタンプあり）<br>3：ライブデータソースのアップロード（タイムスタンプあり）<br>4：未使用<br>5：汎用データソースのアップロード<br>6：完全な処理データソースのアップロード<br>7：TransactionID データソースのアップロード<br>8：廃止。Adobe Advertising Cloud の以前のバージョンのデータソース<br>9：廃止。Adobe Social サマリ指標 <br>10: Audience Managerサーバー側転送を使用 | tinyint unsigned |
+| `hier1 - hier5` | 階層変数で使用されます。 値の区切りリストが含まれます。 区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
+| `hit_source` | ヒットの発生源を示します。Hit_sources 0、1、2および6が請求されます。 <br>1: タイムスタンプ <br>2のない標準イメージリクエスト： タイムスタンプ <br>3の標準イメージリクエスト： タイムスタンプ <br>4を使用したライブデータソースのアップロード： 未使用 <br>5: 汎用データソースアップロード <br>6: フル処理データソースのアップロード <br>7: TransactionIDデータソースのアップロード <br>8: 使用は停止 以前のバージョンのAdobe Advertising Cloudデータソース <br>9: 使用は停止 Adobe Socialサマリ指標 <br>10: Audience Managerサーバー側転送を使用 | tinyint unsigned |
 | `hit_time_gmt` | Unix 時間に基づく、ヒットを受け取ったアドビデータ収集サーバーのタイムスタンプ。 | int |
 | `hitid_high` | hitid_low と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
 | `hitid_low` | hitid_high と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
@@ -180,7 +180,7 @@ ht-degree: 97%
 | `s_resolution` | 画面解像度の生の値。JavaScript 関数 screen.width および screen.height を使用して収集されます。 | char(20) |
 | `sampled_hit` | 廃止。以前 Ad Hoc Analysis でサンプリングに使用されていました。 | char(1) |
 | `search_engine` | サイトに訪問者を誘導した検索エンジンを表す数値 ID。search_engines.tsv 参照を使用します。 | smallint unsigned |
-| `search_page_num` | 「すべての検索ページのランク」ディメンションで使用されます。ユーザーがサイトにクリックスルーする前にサイトが表示された検索結果ページを示します。 | smallint unsigned |
+| `search_page_num` | 「すべての検索ページのランク」ディメンションで使用されます。ユーザーがクリックスルーしてサイトに到達する前にサイトが表示された検索結果ページを示します。 | smallint unsigned |
 | `secondary_hit` | 二次的なヒットを追跡するフラグ。通常、ヒットをコピーするマルチスイートタギングおよび VISTA ルールで生じます。 | tinyint unsigned |
 | `service` | 未使用。代わりに page_event を使用してください。 | char(2) |
 | `socialaccountandappids` | 廃止。Social アカウントおよびアプリ ID | varchar(255) |
@@ -267,7 +267,7 @@ ht-degree: 97%
 | `visid_low` | visid_highと組み合わせて訪問者を一意に識別するために使用します。 | bigint unsigned |
 | `visid_new` | 新しく生成された訪問者 ID がヒットに含まれているかどうかを識別するフラグ。 | char(1) |
 | `visid_timestamp` | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX 時間）を示します。 | int |
-| `visid_type` | 外部使用の場合は除く。 処理の最適化のためにアドビが内部的に使用します。 訪問者の識別に使用されるメソッドを表す数値ID。<br>0: Custom visitorID or Unknown/not applicable<br>1: IPおよびユーザーエージェントのフォールバック <br>2: HTTPモバイル加入者ヘッダー <br>3: 従来のcookie値(s_vi) <br>4: フォールバックcookieの値(s_fid) <br>5: IDサービス | tinyint unsigned |
+| `visid_type` | 外部使用の場合は除く。 Adobeが最適化を処理する際に内部的に使用します。 訪問者の識別に使用されるメソッドを表す数値ID。<br>0: Custom visitorID or Unknown/not applicable<br>1: IPおよびユーザーエージェントのフォールバック <br>2: HTTPモバイル加入者ヘッダー <br>3: 従来のcookie値(s_vi) <br>4: フォールバックcookieの値(s_fid) <br>5: IDサービス | tinyint unsigned |
 | `visit_keywords` | 「検索キーワード」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限が使用されます。 | varchar(244) |
 | `visit_num` | 「通算訪問回数」ディメンションで使用される変数。1 から始まり、訪問者ごとに新しい訪問が開始されるたびに増分されます。 | int unsigned |
 | `visit_page_num` | 「ヒットの深さ」ディメンションで使用される変数。ユーザーがヒットを生成するたびに 1 ずつ増えます。訪問ごとにリセットされます。 | int unsigned |
