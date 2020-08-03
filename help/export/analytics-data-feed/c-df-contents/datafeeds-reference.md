@@ -6,7 +6,7 @@ title: データ列リファレンス
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
+source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
 ht-degree: 96%
@@ -84,7 +84,7 @@ ht-degree: 96%
 | `geo_region` | ヒットの発生元となった州または地域の名前（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと州または地域を対応させることができます。 | char(32) |
 | `geo_zip` | ヒットの発生元となった場所の郵便番号（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと郵便番号を対応させることができます。 | varchar(16) |
 | `hier1 - hier5` | 階層変数で使用されます。 値の区切りリストが含まれます。 区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
-| `hit_source` | ヒットの発生源を示します。Hit_sources 0、1、2および6が請求されます。 <br>1: タイムスタンプ <br>2のない標準イメージリクエスト： タイムスタンプ <br>3の標準イメージリクエスト： タイムスタンプ <br>4を使用したライブデータソースのアップロード： 未使用 <br>5: 汎用データソースアップロード <br>6: フル処理データソースのアップロード <br>7: TransactionIDデータソースのアップロード <br>8: 使用は停止 以前のバージョンのAdobe Advertising Cloudデータソース <br>9: 使用は停止 Adobe Socialサマリ指標 <br>10: Audience Managerサーバー側転送を使用 | tinyint unsigned |
+| `hit_source` | ヒットの発生源を示します。ヒットソース1、2および6に対して請求が行われます。 <br>1: タイムスタンプ <br>2のない標準イメージリクエスト： タイムスタンプ <br>3の標準イメージリクエスト： タイムスタンプ <br>4を使用したライブデータソースのアップロード： 未使用 <br>5: 汎用データソースアップロード <br>6: フル処理データソースのアップロード <br>7: TransactionIDデータソースのアップロード <br>8: 使用は停止 以前のバージョンのAdobe Advertising Cloudデータソース <br>9: 使用は停止 Adobe Socialサマリ指標 <br>10: Audience Managerサーバー側転送を使用 | tinyint unsigned |
 | `hit_time_gmt` | Unix 時間に基づく、ヒットを受け取ったアドビデータ収集サーバーのタイムスタンプ。 | int |
 | `hitid_high` | hitid_low と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
 | `hitid_low` | hitid_high と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
