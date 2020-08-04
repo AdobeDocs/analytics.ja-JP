@@ -1,10 +1,10 @@
 ---
 description: 'null'
 title: パネルの概要
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '481'
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 * [空のパネル](blank-panel.md)
 * [クイックインサイトパネル](quickinsight.md)
-* [Target パネル用 Analytics](a4t-panel.md) （近日公開）
+* [Analytics for Target パネル](a4t-panel.md)
 * [アトリビューションパネル](attribution.md)
 * [フリーフォームパネル](freeform-panel.md)
 * [セグメント比較パネル](c-segment-comparison/segment-comparison.md)
