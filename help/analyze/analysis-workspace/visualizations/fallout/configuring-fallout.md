@@ -2,8 +2,11 @@
 description: 'null'
 title: フォールアウトビジュアライゼーションの設定
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 マーチャンダイジング eVar および [listVar](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html)（product、listVar、マーチャンダイジング eVar および listProp など複数の値を 1 回のヒットに含めることができる変数）を含む、eVar へのパスを設定できます。例えば、誰かが靴とシャツを 1 つのページで探していて、次のページでシャツとソックスを探しているとします。靴の次の製品フローレポートは、シャツではなく、シャツおよびソックスです。
 
-1. ビジュアライゼーションドロップダウンから [!UICONTROL Fallout] ビジュアライゼーションを[!UICONTROL Freeform Table]にドラッグします。
+1. 「[!UICONTROL フォールアウト]」ビジュアライゼーションを「ビジュアライゼーション」ドロップダウンから「[!UICONTROL フリーフォームテーブル]」にドラッグします。
 
-1. ページディメンションをフリーフォームテーブルにドラッグし、そしてそこから、最初のタッチポイントとしてページ（この場合、ホーム - JJEsquire）を「**[!UICONTROL Add TouchPoint]**」フィールドにドラッグします。
+1. ページディメンションをフリーフォームテーブルにドラッグし、そしてそこから、最初のタッチポイントとしてページ（この場合、ホーム - JJEsquire）を「**[!UICONTROL タッチポイントを追加]**」フィールドにドラッグします。
 
    ![](assets/fallout1.png)
 
@@ -47,7 +50,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>最終パス </p> <p>（デフォルト） </p> </td> 
+   <td colname="col1"> <p>最終パス </p> <p>(デフォルト) </p> </td> 
    <td colname="col2"> <p>カウントされるのは、「最終的に」パスの次のページを訪問した訪問者です。ただし、訪問者は必ずしも次のヒットで次のページに至っていません。 </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +65,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 | 設定 | 説明 |
 |--- |--- |
 | フォールアウトコンテナ <ul><li>訪問</li><li>訪問者。</li></ul> | 「訪問」と「訪問者」を切り替えて、訪問者のパスを分析できます。デフォルトは訪問者です。これらの設定により、訪問者のエンゲージメントを（訪問全体にわたって）訪問者レベルで分析したり、1 回の訪問に分析を制限したりできます。 |
-| 最初のタッチポイントとして「すべての訪問者」を表示します。 | 「すべての訪問」を最初のタッチポイントにしたくない場合、これを選択解除できます。 |
 
 **タッチポイントを右クリックする**&#x200B;と、次のオプションが表示されます。
 
