@@ -3,7 +3,7 @@ description: 'null'
 title: 現在のサーバーコールの使用状況の表示
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -28,7 +28,9 @@ ht-degree: 100%
 
 * 現在の期間の使用状況と前年の使用状況（青の線）を比較します。言うまでもなく、青の線が表示されるのは、前年のサーバーコール使用状況データが会社にある場合だけです。
 
-   >[!NOTE]前の期間の使用状況を表示する場合は、「[レポートスイートの使用状況](/help/admin/c-server-call-usage/report-suite-usage.md)」タブに移動し、前の期間の使用状況データをダウンロードする必要があります。
+   >[!NOTE]
+   >
+   >前の期間の使用状況を表示する場合は、「[レポートスイートの使用状況](/help/admin/c-server-call-usage/report-suite-usage.md)」タブに移動し、前の期間の使用状況データをダウンロードする必要があります。
 
 * 使用された呼び出しの数（全体に占める割合と生データ）と経過した使用期間（全体に占める割合と生データ）を一覧表示します。
 * デフォルトでは、5 日遅れで毎日更新されます。
