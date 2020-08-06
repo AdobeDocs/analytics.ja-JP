@@ -5,7 +5,7 @@ title: ディメンションの分類
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 93%
@@ -26,7 +26,9 @@ Analysis Workspace のディメンションおよびディメンション項目�
 
    選択した期間で、ディメンション項目またはオーディエンスセグメント別に指標を分類できます。 より詳細なレベルまで、さらに詳しく調べることもできます。
 
-   >[!NOTE]テーブルに表示する分類の数は、200 までに制限されています。この制限は、分類をエクスポートする場合は増加します。
+   >[!NOTE]
+   >
+   >テーブルに表示する分類の数は、200 までに制限されています。この制限は、分類をエクスポートする場合は増加します。
 
 [Analysis Workspace のディメンション（YouTube）](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（4:54）
 
