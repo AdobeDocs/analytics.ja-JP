@@ -3,7 +3,7 @@ description: 'null'
 title: Advertising Analytics 用のレポートスイートの有効化
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
@@ -23,7 +23,9 @@ Advertising Analytics の検索データを Analytics で表示するには、Ex
 
    ![レポート](assets/aa_reporting.png)
 
-   >[!IMPORTANT]AMO ID は、検索データの挿入先となる Adobe Advertising Cloud 変数を参照します。
+   >[!IMPORTANT]
+   >
+   >AMO ID は、検索データの挿入先となる Adobe Advertising Cloud 変数を参照します。
 
 1. 変数の配分と AMO ID 変数で使用する有効期限を設定します。コンバージョン変数（eVar）を使用することで、Adobe Analytics は成功イベントを具体的な変数値と紐づけることができます。成功イベントが発生するまでに変数が変化することがあります。その場合、どの変数値にイベントのクレジットが付与されるかは、配分の設定によって決まります。
 
