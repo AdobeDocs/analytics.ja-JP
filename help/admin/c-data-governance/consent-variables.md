@@ -3,7 +3,7 @@ description: データプライバシーにおけるプライバシーレポー�
 title: プライバシーレポート変数
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
@@ -45,7 +45,9 @@ Analytics Admin Console で利用できる新しいプライバシー設定を�
 
 1. 「**[!UICONTROL データプライバシー レポートを有効にする]**」ボタンをクリックします。
 
-   >[!NOTE]有効化した後で、これらの変数をオフにすることはできません。
+   >[!NOTE]
+   >
+   >有効化した後で、これらの変数をオフにすることはできません。
 
    ![](assets/rsm-privacy-enable.png)
 
