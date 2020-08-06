@@ -3,9 +3,9 @@ description: 成功イベントを設定する方法について手順を説明�
 title: 成功イベントの設定
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
-source-git-commit: 0df5a32a0cb0e38692e973f26b39e7a846225b12
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -25,7 +25,9 @@ ht-degree: 100%
 1.  「**[!UICONTROL 名前]**」列で編集を有効にする各項目の横にあるチェックボックスを選択し、名前を指定します。
 1.  「**[!UICONTROL タイプ]**」列でドロップダウンリストを有効にする各項目の横にあるチェックボックスを選択し、タイプを選択します。
 
-   >[!NOTE]イベントタイプを変更する前に、[イベントタイプを変更する](/help/admin/admin/c-success-events/event-type.md)を参照してください。
+   >[!NOTE]
+   >
+   >イベントタイプを変更する前に、[イベントタイプを変更する](/help/admin/admin/c-success-events/event-type.md)を参照してください。
 
    ここに挙げた要素について詳しくは、[成功イベントページ - 説明](/help/admin/admin/c-success-events/success-event.md)を参照してください。
 
@@ -37,7 +39,9 @@ ht-degree: 100%
 1. イベントを常に記録するかどうかを選択します。
 1. パーティシペーション指標を有効または無効にします。
 
-   >[!NOTE]パーティシペーションは、最大 100 個のカスタムイベントに対して有効にすることができます。100 を超える場合は、[計算指標](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)ビルダーでパーティシペーション指標を作成できます。
+   >[!NOTE]
+   >
+   >パーティシペーションは、最大 100 個のカスタムイベントに対して有効にすることができます。100 を超える場合は、[計算指標](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)ビルダーでパーティシペーション指標を作成できます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
