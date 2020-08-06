@@ -1,8 +1,8 @@
 ---
-title: クロスデバイスAnalyticsの設定
+title: デバイス間分析の設定
 description: CDAを有効にする仮想レポートスイートを設定します。
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 91%
@@ -10,11 +10,13 @@ ht-degree: 91%
 ---
 
 
-# クロスデバイスAnalyticsの設定
+# デバイス間分析の設定
 
 すべての前提条件を満たしたら、次の手順を使用してクロスデバイス分析を有効にします。以下の手順に従うには、製品プロファイル管理者グループに属しているか、Adobe Analytics の管理者権限が必要です。
 
->[!IMPORTANT]これらの手順を実行する前に、すべての前提条件を満たす必要があります。すべての前提条件が満たされていない場合、この機能は使用できないか、機能しません。前提条件と制限事項については、 [概要ページ](overview.md) 、および目的のステッチ方法([フィールドベースのステッチ](field-based-stitching.md) 、 [デバイスグラフ](device-graph.md))を参照してください。
+>[!IMPORTANT]
+>
+>これらの手順を実行する前に、すべての前提条件を満たす必要があります。すべての前提条件が満たされていない場合、この機能は使用できないか、機能しません。前提条件と制限事項については、 [概要ページ](overview.md) 、および目的のステッチ方法([フィールドベースのステッチ](field-based-stitching.md) 、 [デバイスグラフ](device-graph.md))を参照してください。
 
 ## CDA に対して有効にするクロスデバイスレポートスイートを選択する
 
