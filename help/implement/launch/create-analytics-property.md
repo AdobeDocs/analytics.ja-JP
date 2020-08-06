@@ -2,10 +2,10 @@
 title: Launch での Analytics プロパティの作成
 description: Adobe Experience Platform Launch を使用してスペースを作成し、データの収集方法をカスタマイズします。
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -36,18 +36,21 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 データ要素は、変数値を収集するための、サイトの特定の部分に対する参照です。
 
 1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
-2. サイトに実装する Launch プロパティをクリックします。
-3. 「データ要素」タブをクリックし、「新しいデータ要素の作成」をクリックします。
-4. データ要素に次の設定を指定します。
+1. サイトに実装する Launch プロパティをクリックします。
+1. 「データ要素」タブをクリックし、「新しいデータ要素の作成」をクリックします。
+1. データ要素に次の設定を指定します。
+
    * 名前：ページ名
    * 拡張機能：Core
    * データ要素の種類：JavaScript 変数
    * 変数へのパス：`window.document.title`
 
-      >[!NOTE]注意：これは、使い始めるのに役立つ値の例です。データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
+      >[!NOTE]
+      >
+      >これは、開始に役立つ値の例です。 データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
    * クリーンテキストの確認
    * 期間：Pageview
-5. 「保存」をクリックします。
+1. 「保存」をクリックします。
 
 ## Adobe Analytics のルールの作成
 
