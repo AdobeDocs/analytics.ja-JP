@@ -3,7 +3,7 @@ description: Enterprise または Federated ID として Analytics ユーザー�
 title: 'Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 '
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
@@ -63,9 +63,13 @@ Admin Console でユーザーを管理するための前提条件。
 
       *`Email`*、*`First Name`*、および *`Last Name`* の値を [!DNL sample.csv] ファイルにコピーする準備をします（次の手順で説明）。
 
-      >[!IMPORTANT]CSV ファイル内の値はコンマで区切る必要があります。
+      >[!IMPORTANT]
+      >
+      >CSV ファイル内の値はコンマで区切る必要があります。
 
-      >[!TIP]この手順の間に、ユーザーリストを整理して、Enterprise または Federated ID 移行に有効な電子メール ID を持つユーザーのみを含めることをお勧めします。
+      >[!TIP]
+      >
+      >この手順の間に、ユーザーリストを整理して、Enterprise または Federated ID 移行に有効な電子メール ID を持つユーザーのみを含めることをお勧めします。
 
 1. [!UICONTROL Admin Console] で、Admin Console ユーザーのリストをダウンロードします。
 
@@ -75,7 +79,9 @@ Admin Console でユーザーを管理するための前提条件。
 
    1. 2 つのファイルを比較：書き出された [!DNL .csv] ファイル（この例では [!DNL sample.csv]）の既存の Admin Console ユーザーと、Analytics の [!DNL User Logins List.csv] ファイルのユーザー。
 
-      >[!IMPORTANT]重複が見つかったら、それらを Analytics の [!DNL User Logins List.csv] ファイルから削除してください。この手順は、Admin Console の既存の Experience Cloud ユーザー権限が上書きされるのを防ぎ、移行するアカウントのリストを提供します。
+      >[!IMPORTANT]
+      >
+      >重複が見つかったら、それらを Analytics の [!DNL User Logins List.csv] ファイルから削除してください。この手順は、Admin Console の既存の Experience Cloud ユーザー権限が上書きされるのを防ぎ、移行するアカウントのリストを提供します。
 
 1. Admin Console から CSV テンプレートをダウンロード：
    1. 「ユーザー」タブで、「**[!UICONTROL CSV によるユーザーの追加]**」、「**[!UICONTROL CSV テンプレートのダウンロード]**」の順にクリックします。
@@ -133,7 +139,9 @@ Admin Console でユーザーを管理するための前提条件。
 
 [!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
->[!NOTE]その他の列（[!UICONTROL 製品設定]や[!UICONTROL 管理者の役割]など）は空白にできます。
+>[!NOTE]
+>
+>その他の列（[!UICONTROL 製品設定]や[!UICONTROL 管理者の役割]など）は空白にできます。
 
 1. Admin Console の「ユーザー」タブで、「**[!UICONTROL CSV によるユーザーの追加]**」（手順 3 のとおり）をクリックしてテンプレートファイルをアップロードします。
 1. Analytics で、移行ツールを実行します（[Analytics ユーザーアカウントの移行](/help/admin/user-management2/user-migration/t-migrate-users.md)を参照）。
