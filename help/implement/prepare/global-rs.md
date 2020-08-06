@@ -2,7 +2,7 @@
 title: Adobe Analytics のグローバルレポートスイート
 description: グローバルレポートスイートを使用する利点と要件を理解します。
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
@@ -35,12 +35,15 @@ ht-degree: 100%
 グローバルレポートスイートを実装するプロセスを理解するには、次の一般的なガイドラインを使用します。
 
 1. Adobe Analytics でグローバルレポートスイートを作成します。詳しくは、『管理者ユーザーガイド』の[レポートスイートの作成](../../admin/admin-console/create-report-suite.md)を参照してください。
-2. 各ドメインを担当する組織内のチームと連携します。多くのチームには、ビジネスの分野に固有のレポート要件があります。
-3. これらの要件をすべて[ソリューションデザインドキュメント](solution-design.md)に記録して集計します。チームがディメンションに対して同様の要件を持つ場合は、同じカスタム変数を使用できます。例えば、サイト A とサイト B の両方に階層リンクディメンションが必要な場合、両方のサイトの実装は eVar1 を介してそのデータを送信できます。
-   >[!IMPORTANT] 任意のカスタム変数がドメイン間で同様に使用されていることを確認します。サイト間で異なる目的で同じ eVar またはイベントを使用しないでください。
-4. 各ドメインにデータ層があり、データ収集を簡略化できることを確認します。データ層を使用せずにデータを収集することはできますが、実装の信頼性と長期間は、特にサイトのデザインが変更されるにつれて減少します。
-5. Analytics を実装するには、Adobe Experience Platform Launch を使用します。サイトごとに異なるデータ要素が必要になる場合があります。各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。『Adobe Experience Platform Launch ユーザーガイド』の [Launch の概要](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)を参照してください。
-6. [Adobe Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を含め、[appendVisitorIDsTo](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/methods/appendvisitorid.html) 関数を使用します。この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データをマージします。
+1. 各ドメインを担当する組織内のチームと連携します。多くのチームには、ビジネスの分野に固有のレポート要件があります。
+1. これらの要件をすべて[ソリューションデザインドキュメント](solution-design.md)に記録して集計します。チームがディメンションに対して同様の要件を持つ場合は、同じカスタム変数を使用できます。例えば、サイト A とサイト B の両方に階層リンクディメンションが必要な場合、両方のサイトの実装は eVar1 を介してそのデータを送信できます。
+
+   >[!IMPORTANT]
+   >
+   > 任意のカスタム変数がドメイン間で同様に使用されていることを確認します。サイト間で異なる目的で同じ eVar またはイベントを使用しないでください。
+1. 各ドメインにデータ層があり、データ収集を簡略化できることを確認します。データ層を使用せずにデータを収集することはできますが、実装の信頼性と長期間は、特にサイトのデザインが変更されるにつれて減少します。
+1. Analytics を実装するには、Adobe Experience Platform Launch を使用します。サイトごとに異なるデータ要素が必要になる場合があります。各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。『Adobe Experience Platform Launch ユーザーガイド』の [Launch の概要](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)を参照してください。
+1. [Adobe Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を含め、[appendVisitorIDsTo](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/methods/appendvisitorid.html) 関数を使用します。この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データをマージします。
 
 ## グローバルレポートスイートを使用した既存の実装の変更
 
