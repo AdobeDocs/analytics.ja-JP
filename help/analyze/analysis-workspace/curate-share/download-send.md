@@ -2,10 +2,10 @@
 description: 保存済みのプロジェクトも未保存のプロジェクトも、PDF および CSV 形式でダウンロードできます。
 title: PDF ファイルまたは CSV ファイルのダウンロード
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
-workflow-type: ht
-source-wordcount: '363'
+translation-type: tm+mt
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,6 @@ ht-degree: 100%
 * 数値が無効な場合は、空のセルが表示されます。
 * 丸めは適用されず（計算指標で指定されている場合も含む）、未加工の値が表示されます。
 
->[!N注意]
+>[!NOTE]
 >
-> 小数点を小数点区切り記号として使用する数値は、書き出された CSV では引き続き引用されます。
+>小数点を小数点区切り記号として使用する数値は、書き出された CSV では引き続き引用されます。
