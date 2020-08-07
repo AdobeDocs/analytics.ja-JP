@@ -2,9 +2,9 @@
 description: 'null'
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 ### Journey IQ：クロスデバイスの分析テンプレート
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
 このテンプレートを使用すれば、重要なクロスデバイスのパフォーマンスデータを確認できます。このサービスは、[Cross-Device Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-home.html)（CDA）へのアクセス権を持つユーザーのみが利用できます。
 
