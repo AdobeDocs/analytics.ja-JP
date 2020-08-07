@@ -2,7 +2,7 @@
 title: CDA Workspace テンプレート
 description: Analysis Workspace内のCDAテンプレートの各フィールドについて説明します。
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 97%
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 複数のパネルを含む Analysis Workspace プロジェクトが作成されます。上部に目次と紹介が表示され、レポートにコンテキストを表示したり、個々のレポートに移動したりできます。目次内のリンクをクリックするか、パネルのアコーディオンを展開して、これらのレポートを表示します。
 
-<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
+<!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **Co-op グラフのメンバーに関する特別な注意事項**：Co-op グラフがサポートされる地域とサポートされない地域の訪問者が、レポートスイートのどの部分に含まれているかが表示されます。
 * **ユーザーの ID**：クロスデバイス分析に基づくメソッドを使用して、サイトへの訪問者を識別する頻度を示します。
