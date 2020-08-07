@@ -2,11 +2,11 @@
 description: Workspace でのプロジェクト共有とプロジェクトの役割
 keywords: Analysis Workspace sharing
 title: Workspace プロジェクトの共有
-translation-type: ht
-source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ### 役割が割り当てられていません（プロジェクトリンク受信者）
 
-受信者に役割が割り当てられていない場合（**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**）、そのユーザーはデフォルトで役割に配置されます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。
+If a recipient is not assigned a role and receives a [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share]>[!UICONTROL Get project link]**), they will be placed into a role by default. 管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。
 
 ### 複数の役割の割り当て
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 ## プロジェクトリンクの共有 {#Links}
 
-プロジェクトへのリンクは、**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**&#x200B;で取得できます。クリックすると、受信者はプロジェクトにランディングする前にログインする必要があります。受信者が役割に配置されていない場合は、デフォルトの役割が割り当てられます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。
+プロジェクトへのリンクは、**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**&#x200B;で取得できます。クリックすると、受信者はプロジェクトにランディングする前にログインする必要があります。受信者が役割に配置されていない場合は、デフォルトの役割が割り当てられます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。[Workspaceプロジェクトへの共有可能なリンクを作成する方法について詳しく説明します](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) 。
 
 ## プロジェクトマネージャーでプロジェクトを共有する {#Manager}
 
