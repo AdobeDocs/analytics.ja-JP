@@ -2,7 +2,7 @@
 description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbench の機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
 translation-type: tm+mt
-source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
+source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -12,15 +12,15 @@ ht-degree: 54%
 
 # Analytics製品の比較と必要システム構成
 
-このページでは、Adobe Analyticsの各種製品の比較を示します。 Analysis Workspace、レポート&amp;Analytics、Report Builder、Data warehouse、Data Workbench、データフィード、AnalyticsAPI 2.0。
+このページでは、Adobe Analyticsの各種製品の比較を示します。Analysis Workspace、Reports &amp; Analytics、Report Builder、Data Warehouse、Data Workbench、データフィードおよびAnalytics API 2.0。
 
 どの Adobe Analytics 製品を使用するかについて詳しくは、[こちら](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)に移動します。
 
-| 製品名とヘルプリンク | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) | [データフィード](/help/export/analytics-data-feed/data-feed-overview.md) | [AnalyticsAPI 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 製品名とヘルプリンク | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) | [データフィード](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
 | **アクセス方法** | [ブラウザー](/help/admin/sys-reqs.md) | [ブラウザー](/help/admin/sys-reqs.md) | [Windows用MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | ブラウザーを使用してセットアップします。 [詳細情報](/help/admin/sys-reqs.md) | [Windows 64ビット](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/install/c-data-workbench-client-install.html) | ブラウザーを使用してセットアップします。 [詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful APIツール。 AdobeI/O資格情報を使用してログインします。 [詳細情報](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **データ精度** | 集計 | 集計 | 集計 | 集計 | ヒット | ヒット | 集計 |
-| **Experence Cloud ID(ECID)が利用可能** | × | × | × | ○ | ○ | ○ | × |
+| **Experience CloudID (ECID)が使用可能** | × | × | × | ○ | ○ | ○ | × |
 | **使用可能なタイムスタンプ** | × | × | × | × | ○ | ○ | × |
 | **処理レベル** | 完全処理済み | フル処理済みで、個別の [リアルタイムレポートを使用](/help/components/c-real-time-reporting/realtime.md) | フル処理済みで、個別の [リアルタイムレポートを使用](/help/components/c-real-time-reporting/realtime.md) | 完全処理済み | 完全処理済み | 完全処理済み | 完全処理済み |
 | **管理ボットフィルタデータが含まれています** <br> [詳細情報](/help/admin/admin/bot-removal/bot-removal.md) | × | はい — 個別のボットレポート | はい — 個別のボットレポート | × | × | × | × |
