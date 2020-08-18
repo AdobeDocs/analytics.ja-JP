@@ -4,7 +4,7 @@ title: Data Warehouse の概要
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
@@ -57,7 +57,7 @@ Data Warehouse は、1 MB を超えるファイルを自動的に zip ファイ�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">選択可能なセグメント</span> </td> 
-   <td colname="col2"> <p>調査対象の訪問者のみを選択し、複合セグメントを生成できます。事前に設定されたセグメントを読み込んだり、新しいセグメントを作成したり、またセグメントのコンポーネントを他のセグメント構築時に使用するためライブラリに保存することが可能です。 </p> <p>セグメントのスタックが可能になりました。複数のセグメントを選択するときには、プレビュー領域、リクエストマネージャー、リクエストの詳細のポップアップに、カンマ区切りの名前のリスト（「Segment1, Segment2」など）が表示されます。 </p> <p>詳しくは、<a href="/help/components/c-segmentation/seg-home.md">セグメントガイド</a>を参照してください。 </p> <p>注意：同じ Data Warehouse レポート内の同一のセグメントに、セグメントフィルターと分類の両方を含めることはできません。これはエラーの原因となります。 </p> </td> 
+   <td colname="col2"> <p>調査対象の訪問者のみを選択し、複合セグメントを生成できます。事前に設定されたセグメントを読み込んだり、新しいセグメントを作成したり、またセグメントのコンポーネントを他のセグメント構築時に使用するためライブラリに保存することが可能です。 </p> <p>セグメントのスタックが可能になりました。複数のセグメントを選択するときには、プレビュー領域、リクエストマネージャー、リクエストの詳細のポップアップに、カンマ区切りの名前のリスト（「Segment1, Segment2」など）が表示されます。 </p> <p>詳しくは、<a href="/help/components/segmentation/seg-home.md">セグメントガイド</a>を参照してください。 </p> <p>注意：同じ Data Warehouse レポート内の同一のセグメントに、セグメントフィルターと分類の両方を含めることはできません。これはエラーの原因となります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">分類</span> </td> 
