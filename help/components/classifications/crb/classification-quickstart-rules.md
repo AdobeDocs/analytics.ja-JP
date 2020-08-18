@@ -5,7 +5,7 @@ title: 分類ルール
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '2018'
 ht-degree: 100%
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * **レポートスイート**：分類を選択するには、1 つ以上のレポートスイートが選択されている必要があります。レポートスイートは、ルールセットが作成され変数が割り当てられていないと、適用できません。
 
-   ルールセットをテストするときは、レポートのキー（分類する変数）を使用して、ルールセットによる影響を確認します（[キー](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)は、分類する変数、または分類アップロードテーブルの最初の列です）。
+   ルールセットをテストするときは、レポートのキー（分類する変数）を使用して、ルールセットによる影響を確認します（[キー](/help/components/classifications/importer/c-saint-data-files.md)は、分類する変数、または分類アップロードテーブルの最初の列です）。
 
 * **ルールの優先度**：キーが複数のルールに一致し、そのすべてのルールで（[!UICONTROL 分類を設定]列内に）同じ分類列が設定される場合は、分類に一致する最後のルールが使用されます。詳しくは、[ルールの優先度について](/help/components/classifications/crb/classification-quickstart-rules.md)を参照してください。
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
 ## ルールによるキーの分類が行われない状況
 
-ルールをアクティブにするとき、既存の分類を上書きできます。次の場合、分類ルールによる[キー](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)（変数）の分類は行われません。
+ルールをアクティブにするとき、既存の分類を上書きできます。次の場合、分類ルールによる[キー](/help/components/classifications/importer/c-saint-data-files.md)（変数）の分類は行われません。
 
 * キーが既に分類済みで、「[分類を上書き](/help/components/classifications/crb/classification-rule-definitions.md)」を選択していない。
 
