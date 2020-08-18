@@ -3,11 +3,11 @@ description: Activity Map のリンクコレクションおよびユーザーダ
 title: Activity Map の有効化
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Map のデータは、このバージョン以上の AppMeasurement に
 
 まず、レポートスイートレベルで Activity Map レポートを有効にする必要があります。
 
-1. Adobe Analytics にログインし、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者／レポートスイートに移動して[レポートスイートを選択]し、設定を編集／Activity Map]**／**[!UICONTROL  Activity Map レポート&#x200B;]** に移動します。
+1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
 1. リンクデータが Activity Map レポートに収集されます。有効化をおこなうには、まず「**[!UICONTROL Activity Map レポートを有効にする]**」をクリックして変数を有効にする必要があります。
 
    この手順により、データの収集が必要な Analytics のディメンションがすべて追加されます。
