@@ -3,10 +3,10 @@ description: 行のビジュアライゼーションを使用して、トレン�
 title: 行
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 78ed02b7bb7a4dc042c837817d36fc8ce30dce79
+source-git-commit: 34db4e99589827fd41f642788e3409834b96d78a
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 17%
+source-wordcount: '446'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
-> 近似曲線などの一部の線のビジュアライゼーション設定は、現在、追加テストに制限があります。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/landing/an-releases.html).
+> 現在、「近似曲線を表示」などの一部の線のビジュアライゼーション設定は、制限付きのテストになっています。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/landing/an-releases.html).
 
 行ビジュアライゼーションの右上にある歯車アイコンをクリックして、 [**使用可能なビジュアライゼーション設定にアクセスします**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html#section_D3BB5042A92245D8BF6BCF072C66624B) 。 設定は次の分類に分類されます。
 
@@ -29,11 +29,15 @@ ht-degree: 17%
 
 ### 精度の変更
 
-[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B)の精度ドロップダウンにより、トレンドビジュアライゼーション（折れ線、棒など）を日別から週別、月別などに変更できます。
+[ビジュアライゼーション設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B)の精度ドロップダウンにより、トレンドビジュアライゼーション（折れ線、棒など）を日別から週別、月別などに変更できます。データソーステーブルの精度も更新されます。
 
-### 近似曲線追加オーバーレイ
+### 最小または最大を表示
 
-ビジュア **ライゼーション設定/Overlays/追加近似曲線**&#x200B;で、回帰近似曲線を線系列に追加するよう選択できます。 近似曲線は、データにより明確なパターンを表現するのに役立ちます。
+ビジュアライ **ゼーション設定/Overlays/Show min/max**（最小値と最大値を表示）で、最小値と最大値のラベルをオーバーレイして、指標内のピークと谷をすばやく強調できます。
+
+### 近似曲線オーバーレイを表示
+
+ビジュア **ライゼーション設定/オーバーレイ/近似曲線を表示**、回帰近似曲線を線系列に追加することを選択できます。 近似曲線は、データにより明確なパターンを表現するのに役立ちます。
 
 すべてのモデルは、通常の最小二乗を使用してフィットします。
 
