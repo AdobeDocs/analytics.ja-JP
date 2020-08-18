@@ -5,7 +5,7 @@ title: 下位分類について
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-データファイルについて詳しくは、[分類データファイル](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)を参照してください。
+データファイルについて詳しくは、[分類データファイル](/help/components/classifications/importer/c-saint-data-files.md)を参照してください。
 
 複数レベルの分類は、親の分類と子の分類から構成されます。次に例を示します。
 
@@ -46,7 +46,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 
 `<parent_name>^<child_name>`
 
-データファイルの形式について詳しくは、[分類データファイル](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)を参照してください。
+データファイルの形式について詳しくは、[分類データファイル](/help/components/classifications/importer/c-saint-data-files.md)を参照してください。
 
 次に例を示します。
 
