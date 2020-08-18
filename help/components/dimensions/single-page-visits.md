@@ -1,27 +1,27 @@
 ---
-title: 直帰数
-description: 訪問が1つのページで構成されていることを示すフラグ。
+title: 単一ページ訪問
+description: 訪問が 1 つのページで構成されていることを示すフラグ。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
 
-# 直帰数
+# 単一ページ訪問
 
-*このヘルプページでは、「直帰数」がディメンションとして機能する方法を説明します。 詳しくは、[](../metrics/single-page-visits.md)直帰数指標を参照してください。*
+*このヘルプページでは、「単一ページ訪問」がディメンションとして機能する方法を説明します。詳しくは、[単一ページ訪問](../metrics/single-page-visits.md)指標を参照してください。*
 
-「直帰数」ディメンションは、単一の一意の [Page](page.md) （ページ）ディメンション項目で構成される訪問回数をレポートします。 これは、「 [直帰数](../metrics/single-page-visits.md) 」指標のディメンション形式です。
+The &#39;Single page visits&#39; dimension reports the number of visits that consisted of a single unique [Page](page.md) dimension item. これは、[単一ページ訪問](../metrics/single-page-visits.md)指標のディメンション形式です。
 
-このディメンションは、最も一般的に、 [セグメント内のコンポーネントとして使用されます](../c-segmentation/seg-home.md)。 通常、これは、レポートでディメンションとして使用されません。
+このディメンションは、最も一般的に、[セグメント化](../segmentation/seg-home.md)のコンポーネントとして使用されます。通常、これは、レポートでディメンションとして使用されません。
 
-## このディメンションにデータを入力する
+## このディメンションへのデータ入力
 
-このディメンションは、すべての実装で初期設定の状態で動作します。 レポートスイートにデータが含まれる場合、このディメンションは機能します。
+このディメンションは、すべての実装で初期設定の状態で動作します。レポートスイートにデータが含まれる場合、このディメンションは機能します。
 
-## ディメンション項目
+## Dimension項目
 
-唯一のディメンション項目は `"Enabled"`です。 1回の訪問が1つのページで構成されている場合、ヒットはこの値に設定されます。 その他のヒットはすべてこのレポートから除外されます。
+The only dimension item is `"Enabled"`. 1 回の訪問が 1 つのページで構成されている場合、ヒットはこの値に設定されます。その他のヒットはすべてこのレポートから除外されます。
