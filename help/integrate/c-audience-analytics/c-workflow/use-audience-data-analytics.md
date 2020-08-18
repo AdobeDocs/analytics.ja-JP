@@ -3,8 +3,11 @@ description: 'AAM オーディエンスディメンションは Analytics の任
 solution: Experience Cloud
 title: Analytics でのオーディエンスデータの使用
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +72,7 @@ AAM セグメントのデータはヒットごとに Analytics に渡され、�
 
 ## セグメントビルダー {#section_2AA81852A1404AB894472CA8959461B6}
 
-Analytics が収集した行動情報に加えて、オーディエンスディメンションを Analytics の[セグメントビルダー](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)に取り込むことができます。
+Analytics が収集した行動情報に加えて、オーディエンスディメンションを Analytics の[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)に取り込むことができます。
 
 1. **[!UICONTROL コンポーネント]**／**[!UICONTROL セグメント]**&#x200B;に移動します。
 1. 「**[!UICONTROL 追加]**」をクリックして新しいセグメントを作成します。
