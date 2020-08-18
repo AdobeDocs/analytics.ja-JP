@@ -5,7 +5,7 @@ title: コンバージョンの分類
 topic: Admin tools
 uuid: b088ea4b-8ab7-4ccf-96c6-8567d91fb8cf
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 コンバージョン分類では、コンバージョン変数を分類できます。分類後は、主要データを使用して生成できるすべてのレポートは、関連付けられたデータプロパティを使用して生成することもできるようになります。
 
-分類を有効にした後、[分類インポーター](/help/components/classifications/c-classifications-importer/c-working-with-saint.md)を使用して、該当する分類に特定の値を割り当てます。
+分類を有効にした後、[分類インポーター](/help/components/classifications/importer/c-working-with-saint.md)を使用して、該当する分類に特定の値を割り当てます。
 
 ## コンバージョン分類の説明 {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
