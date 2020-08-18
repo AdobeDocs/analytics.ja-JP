@@ -4,7 +4,10 @@ title: セグメントの構築
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 94%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Ad Hoc Analysis は、Analytics セグメント化環境に統合されており、これによって、アドビ製品間で訪問者セグメントを作成、共有、管理および適用できます。Ad Hoc Analysis は、セグメントビルダーおよびセグメントマネージャーの Java ベースのユーザーインターフェイスです。これは、他の Analytics ツールで使用する Web ベースのツールと同じであり、サーバーコールのマッチングを実行するほか、Java ベースのコンソールと同じ機能を提供します。
 
-Ad Hoc Analysis には、従来のようなセグメント作成機能のほかに、セグメントの管理[ワークフロー](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)の設定に使用する[セグメントマネージャー](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html)などの新機能が加わっています。[セグメントビルダー](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)で普段どおりにセグメントの作成と保存が可能であるだけでなく、Ad Hoc Analysis コンソールでは[フォールアウトレポートからセグメントを生成](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)し、一般アクセスおよびアプリケーション用のオーディエンスライブラリに新しいセグメントや拡張したセグメントを保存することができます。![](assets/seg__overview_ad_hoc.png)
+Ad Hoc Analysis には、従来のようなセグメント作成機能のほかに、セグメントの管理[ワークフロー](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)の設定に使用する[セグメントマネージャー](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-manage.html)などの新機能が加わっています。[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)で普段どおりにセグメントの作成と保存が可能であるだけでなく、Ad Hoc Analysis コンソールでは[フォールアウトレポートからセグメントを生成](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)し、一般アクセスおよびアプリケーション用のオーディエンスライブラリに新しいセグメントや拡張したセグメントを保存することができます。![](assets/seg__overview_ad_hoc.png)
 
 ## Ad Hoc Analysis の統合セグメント化機能 {#section_5FA03A06DE054448AD519CE30C39E294}
 
-統合セグメント化環境でのセグメントの作成および管理に関する詳細については、[統合セグメント化](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)に関するドキュメントを参照してください。
+統合セグメント化環境でのセグメントの作成および管理に関する詳細については、[統合セグメント化](/help/components/segmentation/segmentation-workflow/seg-build.md)に関するドキュメントを参照してください。
 
 * [新機能](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [既存のセグメントへの影響](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
@@ -33,8 +36,8 @@ Ad Hoc Analysis には、従来のようなセグメント作成機能のほか�
 ## 機能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * [セグメント](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)が、レポートスイート全体で共通になりました。セグメントはこれまで、各レポートスイートに固有のものでした。
-* [セグメントマネージャ](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)を設定できます。
-* [セグメントビルダー](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)が更新され、セグメントの作成が簡素化しました。
+* [セグメントマネージャ](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-manage.html)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html)を設定できます。
+* [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)が更新され、セグメントの作成が簡素化しました。
 * フォルダーを使用する代わりに[セグメントにタグを設定](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-tag.html)して、セグメントを整理したり検索したりできます。これまでは、（[!DNL ad hoc analysis] の）フォルダーを使用してセグメントを整理していました。
 * Ad Hoc Analysis 以外でも[連続セグメント](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)を作成できます。
 
@@ -66,7 +69,7 @@ Ad Hoc Analysis のセグメントマネージャーでは、自身の所有と�
 
 どのユーザーも個人用セグメントを作成したり、編集したりできます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
-管理者であれば、あらゆるセグメントを編集できるほか、グループと[セグメントを共有](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html)したり、組織のセグメントにアクセスするための[権利を設定](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html)したりできます。
+管理者であれば、あらゆるセグメントを編集できるほか、グループと[セグメントを共有](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html)したり、組織のセグメントにアクセスするための[権利を設定](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segment-reference/seg-rights.html)したりできます。
 
 ## 同じ名前でありながら定義が異なるセグメントがある場合には、どうしたら良いでしょうか？ {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
