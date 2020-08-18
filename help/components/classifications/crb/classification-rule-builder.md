@@ -5,10 +5,10 @@ title: 分類ルールビルダーのワークフロー
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 | 手順 4：[分類ルールをセットに追加する](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md)」の情報を確認します。 |
 | 手順 5：[分類ルールセットのテスト](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | ルールをドラフトモードで編集してその有効性をテストします。ドラフトモードでは、ルールを実行できません。<br>この手順は、[正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)を使用する場合に重要です。 |
 | 手順 6：[有効なルールをアクティブ化する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。詳しくは、[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md)を参照してください。 |
-| 手順 7（オプション）：[不要なルールを削除する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。分類データを削除する必要がある場合は、[分類データの削除](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md)を参照してください。 |
+| 手順 7（オプション）：[不要なルールを削除する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。分類データを削除する必要がある場合は、[分類データの削除](/help/components/classifications/importer/t-delete-classification-data.md)を参照してください。 |
 
 >[!NOTE]
 >
@@ -50,6 +50,6 @@ ht-degree: 99%
 
 **その他のリソース**
 
-**ブログ**：この機能について詳しくは、Digital Marketing Blog の[Rule-based Classifications（ルールベースの分類）](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)を参照してください。
+**ブログ**：この機能について詳しくは、Digital Marketing Blog の[ルールベースの分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)を参照してください。
 
 **ビデオ**：[YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) にアクセスし、[!UICONTROL 分類の概要]のビデオを確認してください。
