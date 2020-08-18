@@ -2,7 +2,7 @@
 description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbench の機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
 translation-type: tm+mt
-source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
+source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -28,7 +28,7 @@ ht-degree: 54%
 | **表示される行数制限（ページ分割前）** | 400 | 200 | 50000 | 制限なし | 制限なし | 制限なし | 50000 |
 | **複数のレポートスイート** | [○](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | ○（制限あり） | ○ | × | ○ | × | ○ |
 | **分類の数** | 制限なし | ～ 2 | ～ 2 | 制限なし | 制限なし | 制限なし | 無制限、複数のクエリに対して実行 |
-| **セグメント化** <br> [詳細情報](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) | ○ | ○ | ○ | ○( [制限あり)](/help/components/c-segmentation/seg-reference/seg-compatibility.md) | ○ | × | ○ |
+| **セグメント化** <br> [詳細情報](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | ○ | ○ | ○ | ○( [制限あり)](/help/components/segmentation/seg-reference/seg-compatibility.md) | ○ | × | ○ |
 | **計算指標** <br> [詳細情報](/help/components/c-calcmetrics/cm-overview.md) | はい、 [Attribution IQあり](/help/analyze/analysis-workspace/attribution/overview.md) | ○ | ○ | × | ○ | × | はい、 [Attribution IQあり](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **マーケティングチャネル** <br> [詳細情報](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | ○ | ○ | ○ | ○ | ○ | はい — [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | ○ |
 | **コホート分析** | [○](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | × | × | × | ○ | × | × |
