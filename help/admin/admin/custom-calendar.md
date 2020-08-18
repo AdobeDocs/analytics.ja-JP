@@ -4,7 +4,10 @@ title: カレンダーのカスタマイズ
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 グレゴリオ暦以外のカレンダーオプションです。オプションには 4-4-5 制、4-5-4 制および 5-4-4 制のカレンダーモデルがあり、すべて小売業界では標準として使用されています。さらに、レポーティングでは、自分で設定できる完全にカスタマイズ可能なカレンダーのオプションを提供しています。
 
-**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL [レポートスイートを選択]]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL カレンダーのカスタマイズ]**
+**[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** /レポートスイートを選択/ **[!UICONTROL 設定を編集]** /一般 ******[!UICONTROL /カレンダーをカスタマイズ]**
 
 >[!CAUTION]
 >
