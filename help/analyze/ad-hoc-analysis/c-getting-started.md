@@ -3,10 +3,10 @@ description: Ad Hoc Analysis の概要を説明します。
 title: はじめに
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 99%
+source-wordcount: '1330'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->2018 年 7 月から、Ad Hoc Analysis では Java 8 以降のみがサポートされます。お客様が 2018 年 7 月のメンテナンスリリース以降に Java 7 で Ad Hoc Analysis を実行することを選択した場合、アドビはお客様の Ad Hoc Analysis 実装をサポートしません。
+>2018年7月現在、Ad Hoc AnalysisはJava 8以降のみをサポートしています。 Adobeは、Java 7以下でのAd Hoc Analysisの実行をサポートしていません。
 
 * OpenGL 2.0 をサポートするビデオカード
 * cookie：必要
@@ -80,13 +80,11 @@ c_sys_reqs.xml
 * JavaScript：有効
 * Java バージョン：Java 1.7 以降（前述の注意を参照）
 
-   Java の正しいバージョンがインストールされていない場合は、インストールされます。互換性のないバージョンの Java がインストールされている場合、Ad Hoc Analysis はアップデートをダウンロードし、このアップデートのインストールを指示するプロンプトを表示します。
+   Java の正しいバージョンがインストールされていない場合は、インストールされます。互換性のないバージョンのJavaがインストールされている場合、Ad Hoc Analysisはアップデートをダウンロードし、インストールするように指示します。
 
 ## Java のアップグレード手順 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-2018 年 7 月から、Ad Hoc Analysis では Java 8 以降のみがサポートされます。お客様が 2018 年 7 月のメンテナンスリリース以降に Java 7 で Ad Hoc Analysis を実行することを選択した場合、アドビはお客様の Ad Hoc Analysis 実装をサポートしません。
-
-アドビの .jar ファイルは安全な 256 ビット暗号化を使用して署名されていますが、この機能は 1.7.0_76 以前の Java バージョンではサポートされていません。この 256 ビット証明書を使用することで、セキュリティが強化されています。
+Adobeの.jarファイルは、1.7.0_76より前のJavaバージョンではサポートされない、安全な256ビット暗号化を使用して署名されます。 この 256 ビット証明書を使用することで、セキュリティが強化されています。
 
 まだ Java 7 がインストールされている場合、2018 年 7 月のメンテナンスリリースの前にアップグレードする必要があります。その方法を次に示します。
 
