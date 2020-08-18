@@ -3,7 +3,7 @@ title: 変数、関数、メソッド、プラグインの概要
 description: レポートを改善するためにアドビに送信するデータに含めることができる変数について説明します。
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 97%
@@ -40,4 +40,4 @@ Adobe Analytics によって公開された AppMeasurement ライブラリは、
 * 改行（`0x0A`）
 * HTML タグ（例：`<b></b>`、`&#153`）
 
-一部の変数には、追加の制限や構文上の要件があります。例えば、`products` 変数は製品とカテゴリを区切るためにセミコロンとコンマを予約します。
+一部の変数には、追加の制限や構文上の要件があります。例えば、[`products`](page-vars/products.md) 変数は製品とカテゴリを区切るためにセミコロンとコンマを予約します。
