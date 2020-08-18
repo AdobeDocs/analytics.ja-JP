@@ -3,7 +3,10 @@ description: 個々の指標でセグメント化をおこなうと、同じレ�
 title: セグメント化指標
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 100%
 
 ---
 
@@ -28,11 +31,11 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    >[!NOTE]
    >
-   >この作業は[セグメントビルダー](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)でも実行できますが、計算指標ビルダーでディメンションを使用できるようにすることで、ワークフローが簡略化されます。
+   >この作業は[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)でも実行できますが、計算指標ビルダーでディメンションを使用できるようにすることで、ワークフローが簡略化されます。
 
    >[!NOTE]
    >
-   >&quot;Internal&quot; means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the &quot;i&quot; icon next to it and clicking **[!UICONTROL Make public]**.
+   >「内部」とは、このセグメントが左レールの&#x200B;**[!UICONTROL セグメント]**&#x200B;リストに表示されないということを意味します。ただし、セグメントの横の「i」アイコンにマウスポインターを置き、「**[!UICONTROL 公開する]**」をクリックして、公開することができます。
 
 1. 同等のセグメントがない場合は、「海外の訪問者」という名前のセグメントを作成します。この場合、「国」を「Germany」に設定しません。
 1. 「ドイツの訪問者」という名前の指標を作成して保存します。そのためには、ドイツの訪問者セグメントを「定義」キャンバスにドラッグして、そのセグメント内に実訪問者数指標をドラッグします。
@@ -44,7 +47,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports & Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. または、[!UICONTROL Reports &amp; Analytics] で[!UICONTROL ページ]レポートを開き、「**[!UICONTROL 指標を表示]**」をクリックして、新しい「米国の訪問者」セグメント化指標と「海外の訪問者」セグメント化指標を適用し、コンテンツの閲覧行動をどのように比較するかを確認します。
 
    ![](assets/pages-report.png)
 
@@ -65,7 +68,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 米国と海外の閲覧行動の最も大きな違いを簡単に確認する場合は、それぞれから割合を引くもう 1 つの指標を作成できます。そのためには、2 つの指標セットを囲む丸括弧として、コンテナ機能を使用できます。
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** > **[!UICONTROL Container]**:
+1. 「[!UICONTROL 定義]」キャンバスで、**[!UICONTROL 追加]**／**[!UICONTROL コンテナ]**&#x200B;をクリックします。
 
    ![](assets/cm_add_container.png)
 
