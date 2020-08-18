@@ -2,45 +2,59 @@
 title: Adobe Analyticsへのログインのトラブルシューティング
 description: Adobe Analyticsにログインできない場合に実行する手順です。
 translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 5%
+source-wordcount: '511'
+ht-degree: 3%
 
 ---
 
 
 # Adobe Analyticsへのログインのトラブルシューティング
 
-Adobe AnalyticsはAdobe IDを使用してExperience Cloudの認証を行います。
+Adobe Analyticsは、複数の認証方法を使用してログインします。
 
-Analyticsに定期的にアクセスし、ランダムな開始でログインの問題が発生した場合、ブラウザーのCookieとキャッシュを消去すると、ほとんどの場合この問題が解決されます。
+* Experience Cloud中のAdobe ID
+* 従来のAnalytics ID
+* シングルサインオン
 
-## Access experience.adobe.com
+**Analyticsに定期的にアクセスし、ランダムな開始でログインの問題が発生した場合、ブラウザーのCookieとキャッシュを消去すると、ほとんどの問題が解決します。**
 
-experience.adobe.com [に移動します](https://experience.adobe.com)。
+可用性の問題がログイン機能に影響する場合があります。 オープン・インシデントがある場合は、 [status.adobe.com](https://status.adobe.com) を確認します。 それ以外の場合は、組織の認証方法に応じた適切なセクションを使用します。
 
-このサイトにアクセスできない場合：
+## Adobe ID
 
-* お使いの組織では、ファイアウォールを通じてこのドメインを許可していない可能性があります。 組織のITチームと協力して許可します。 ITチームに役立つ情報については、 [Adobe Experience Cloudで使用されるIPおよびドメイン](https://helpx.adobe.com/jp/analytics/kb/adobe-ip-addresses.html) を参照してください。
-* status.adobe.com [](https://status.adobe.com) を確認して、使用できる問題がないことを確認します。
+Experience Cloudを使用したAdobe Analyticsへのログインに関する問題のトラブルシューティングを行います。
 
-## Adobe IDを使用して認証する
+1. experience.adobe.com [に移動します](https://experience.adobe.com)。 このサイトにアクセスできない場合は、お使いのファイアウォールを通じてこのドメインを許可しない可能性があります。 組織のITチームと協力して許可します。 ITチームに役立つ情報については、 [Adobe Experience Cloudで使用されるIPおよびドメイン](https://helpx.adobe.com/jp/analytics/kb/adobe-ip-addresses.html) を参照してください。
 
-「**[!UICONTROL Adobe ID を使用してサインイン]**」をクリックします。
+2. Adobe IDを使用して認証：「 **[!UICONTROL Adobe IDでサインイン]**」をクリックします。 サインインできない場合は、重複が電子メールアドレスが正しく入力されていることを確認してください。 それ以外の場合は、「 **[!UICONTROL パスワードをリセット]** 」をクリックし、画面の指示に従ってAdobe IDのパスワードをリセットします。
 
-サインインできない場合：
+3. 認証後にAnalyticsにアクセスする：右上の9グリッドアイコンをクリックし、「Analytics」をクリックします。 このオプションがない場合、または灰色表示になっている場合は、組織内の製品管理者に問い合わせて、Analyticsへのアクセス権を持っていることを確認してください。
 
-* 重複は、電子メールアドレスが正しく入力されているかどうかを確認します。
-* 「 **[!UICONTROL パスワードをリセット]** 」をクリックし、画面の指示に従ってAdobe IDをリセットします。
+## 従来のAnalytics ID
 
-## 認証後にAnalyticsにアクセスできません
+組織内のユーザーがログイン時に次のエラーメッセージが表示されることがあります。
 
-右上の9-gridアイコンをクリックし、「Analytics」をクリックします。
+*セキュリティ対策のため、ログインに失敗した回数が多すぎるため、このアカウントはロックされています。*
 
-このオプションがない場合、または灰色表示になっている場合は、組織内の製品管理者に問い合わせて、Analyticsへのアクセスに適切な権限があることを確認してください。
+ブラウザーのCookieまたはキャッシュをクリアしてもこの問題が解決しない場合は、組織のAnalytics管理者に問い合わせて、ユーザーのパスワードをリセットしてください。
 
-## その他のエッジケースログインの問題
+>[!IMPORTANT]
+>
+>ユーザーのパスワードをリセットする次の手順は、従来のAnalytics IDにのみ適用され、Adobe IDのパスワードは適用されません。組織でAdobe IDを使用している場合は、 [adminconsole.adobe.comでユーザーアカウントを管理できます](https://adminconsole.adobe.com)。
+
+1. 管理者権限を持つアカウントでAdobe Analyticsにログインします。
+2. **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理に移動します]**。
+3. 「 **[!UICONTROL ユーザー]** 」タブをクリックし、目的のユーザーの **[!UICONTROL 横にある「編集]** 」をクリックします。
+4. パスワードを任意の値に変更し、「次回ログイン時にパスワードを変更するようユーザーに **[!UICONTROL 要求する]**」チェックボックスをオンにします。
+5. 新しいパスワードをユーザーに通知します。
+
+## シングルサインオン
+
+シングルサインオンの問題を解決するには、組織の管理者に問い合わせてください。
+
+## その他のログインの問題
 
 上記の手順がいずれも機能しない場合は、ログインの問題の幅を判断します。
 
