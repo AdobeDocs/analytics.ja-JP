@@ -5,7 +5,7 @@ title: 分類について
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 [トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)および[コンバージョン分類](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)を参照してください。
 
-次の表では、使用できる様々なタイプの分類およびこれらの分類をサポートする変数のタイプについて説明します。データファイルをアップロードする前に、[一般的なファイル構造](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)の情報を確認します。
+次の表では、使用できる様々なタイプの分類およびこれらの分類をサポートする変数のタイプについて説明します。データファイルをアップロードする前に、[一般的なファイル構造](/help/components/classifications/importer/c-saint-data-files.md)の情報を確認します。
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
