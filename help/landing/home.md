@@ -2,7 +2,7 @@
 title: Adobe Analytics テクニカルドキュメントガイド
 description: Analytics のユーザーガイドとリソース
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Adobe Analytics ドキュメント
 
-このたびは、Adobe Analytics 製品および技術ドキュメントのホームページをご利用いただき、誠にありがとうございます。ここでは、[!UICONTROL Analysis Workspace]、[!UICONTROL Report Buider]、レポート API、[!UICONTROL Data Workbench]、[!UICONTROL Activity Map] などのレポートツールのセルフヘルプおよびサポート情報を確認できます。また、製品とユーザーの管理、実装、および Adobe Analytics でサポートされるすべての機能に関するドキュメントにアクセスすることもできます。
+このたびは、Adobe Analytics 製品および技術ドキュメントのホームページをご利用いただき、誠にありがとうございます。ここでは、[!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、レポート API、[!UICONTROL Data Workbench]、[!UICONTROL Activity Map] などのレポートツールのセルフヘルプおよびサポート情報を確認できます。また、製品とユーザーの管理、実装、および Adobe Analytics でサポートされるすべての機能に関するドキュメントにアクセスすることもできます。
 
 [![ツール](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics ツールガイド](/help/analyze/home.md) - Analytics のプレミア分析およびビジュアライゼーションツールである [Analysis Workspace](/help/analyze/analysis-workspace/home.md) にアクセスできます。また、Adobe Analyticsで使用できるすべての分析ツール（[!UICONTROL Report Builder]、Reporting API、[!UICONTROL Data Workbench]、[!UICONTROL Activity Map]）も備わっています。
 
@@ -69,7 +69,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md)
 *   [Mobile App SDK](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)  
 *   [Real-time reporting](/help/components/c-real-time-reporting/realtime.md)
-*   [Segmentation](/help/components/c-segmentation/seg-home.md)
+*   [Segmentation](/help/components/segmentation/seg-home.md)
 *   [Segment Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 *   [Video Tracking](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 *   [Virtual Report Suites](/help/components/vrs/vrs-about.md)
