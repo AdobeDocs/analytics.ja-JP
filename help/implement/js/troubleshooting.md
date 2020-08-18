@@ -1,8 +1,11 @@
 ---
 title: JavaScript 実装のトラブルシューティング
 description: JavaScript 実装の一般的な問題とトラブルシューティングに関するベストプラクティスについて説明します。
-translation-type: ht
-source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
+translation-type: tm+mt
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 73%
 
 ---
 
@@ -78,3 +81,29 @@ s.pageName = "        Home Page";
 ```
 
 これらの 2 つの変数値は、Adobe Analytics では別々の値と見なされます。ただし、空白は表示のために自動的に削除されます。結果として、「ホームページ」の行項目が 2 つ表示されます。変数値に、目的の値の前後に空白が含まれていないことを確認します。
+
+## 切り捨てられた画像要求
+
+多くの変数に長い値を設定する実装では、イメージリクエストが切り捨てられる場合があります。 Internet Explorerなど、一部の古いブラウザーでは、イメージリクエストURLに2083文字の制限が設けられています。 組織が非常に長いイメージ要求を受ける場合は、次の操作を試してください。
+
+* **Experience CloudIDサービスの使用**:AppMeasurementライブラリ1.4.1以降は、長すぎる場合、HTTPPOSTを使用してイメージリクエストを自動的に送信します。 このメソッドを使用して送信されるデータは、長さに関係なく切り捨てられません。 See [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) for more information.
+* **処理ルールの使用**: [処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md) では、変数間で値をコピーできます。 この方法を使用すると、複数の変数で同じ値を設定する手間を省くことができます。 次に例を示します。
+
+   常に実行：<br>prop1の値をeVar1で上書きeVar2の値をeVar1<br>で上書き2の値をeVar1<br>で上書きする<br>
+
+   次に、実装にeVar1を設定します。
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   ```
+
+* **動的変数の使用**:実装で多くの変数に同じ値が設定される場合、 [動的変数を使用して、リクエストURLを短縮できます](/help/implement/vars/page-vars/dynamic-variables.md) 。
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   s.eVar2 = "D=v1";
+   s.prop1 = "D=v1";
+   s.prop2 = "D=v1";
+   ```
+
+* **分類の使用**:製品名やページ名が非常に長い場合は、識別値やコードを使用し、 [分類を使用してわかりやすい名前を表示できます](/help/components/classifications/c-classifications.md) 。
