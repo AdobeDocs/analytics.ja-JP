@@ -1,9 +1,9 @@
 ---
 title: Launch データ要素を Analytics 変数にマッピングする
 description: Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Adobe Experience Platform Launch でデータ要素のリポジトリを取得�
 1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. 目的の Launch プロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブをクリックし、目的のルールをクリックします（または作成します）。
-1. 「[!UICONTROL アク ション]」の下の「[!UICONTROL 追加]」ボタンをクリックします。
+1. 「[!UICONTROL アクション]」の下の「[!UICONTROL 追加]」ボタンをクリックします。
 1. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「変数を設定」に設定します。
 1. 目的の Analytics 変数の右側にある![データ要素](assets/data-element.png)アイコンをクリックします。組織の[ソリューションデザインドキュメント](../prepare/solution-design.md)には、使用する Analytics 変数が記載されています。
 1. モーダルウィンドウで目的のデータ要素を選択します。「[!UICONTROL 選択]」をクリックします。
@@ -54,4 +54,4 @@ Adobe Experience Platform Launch でデータ要素のリポジトリを取得�
 
 [ページ変数](../vars/page-vars/page-variables.md)：Analysis Workspace でディメンションを活用するために、実装で使用できるページレベルの変数について説明します。
 
-[設定変数](../vars/config-vars/configuration-variables.md)：Adobe Analytics　で他の機能のロックを解除するために、実装で使用できる設定変数について説明します。
+[設定変数](../vars/config-vars/configuration-variables.md)：Adobe Analytics で他の機能のロックを解除するために、実装で使用できる設定変数について説明します。
