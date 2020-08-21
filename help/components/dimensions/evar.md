@@ -5,30 +5,30 @@ translation-type: tm+mt
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
 
 # eVar
 
-*このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの[eVar](/help/implement/vars/page-vars/evar.md)を参照してください。*
+*このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。レポートスイート設定の「[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
 
-使用可能なeVarの数は、Adobeとの契約によって異なります。 Adobeとの契約でサポートされている場合は、最大250個のeVarを使用できます。
+使用可能な eVar の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
-eVarでは大文字と小文字が区別されません。 異なるケース( `"DOG"` となど)で同じ値を送信する場合、Analysis Workspaceはそれらを同じディメンション項目にグループ化し `"Dog"`ます。 レポートの月の最初に表示される最初の値の場合が使用されます。 Data warehouseには、リクエスト期間中に最初に発生した値が表示されます。
+eVarでは大文字と小文字が区別されません。 異なるケース( `"DOG"``"Dog"`となど)で同じ値を送信する場合、Analysis Workspaceはそれらを同じディメンション項目にグループ化します。 レポートの月の最初に表示される最初の値の場合が使用されます。 Data Warehouseには、リクエスト期間中に最初に発生した値が表示されます。
 
-## eVarにデータを入力する
+## eVar にデータを入力する
 
-各eVarは、イメージリクエストの [`v1` - `v250` クエリ文字列](/help/implement/validate/query-parameters.md) からデータを収集します。 例えば、 `v1` クエリ文字列パラメーターでeVar1のデータを収集し、 `v222` クエリ文字列パラメーターでeVar222のデータを収集します。
+各 eVar は、イメージリクエストの [`v1` - `v250` クエリ文字列](/help/implement/validate/query-parameters.md)からデータを収集します。例えば、`v1` クエリー文字列パラメーターで eVar1 のデータを収集し、`v222` クエリー文字列パラメーターで eVar222 のデータを収集します。
 
-JavaScript変数をデータ収集用のイメージリクエストにコンパイルするAppMeasurementでは、変数 `eVar1` — を使用 `eVar250`します。 導入のガイドラインについては、『導入ユーザガイド [](/help/implement/vars/page-vars/evar.md) 』のeVarを参照してください。
+JavaScript 変数をデータ収集用のイメージリクエストにコンパイルする AppMeasurement では、変数 `eVar1` — `eVar250` を使用します。導入のガイドラインについては、『導入ユーザガイド』の [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。
 
 ## Dimension項目
 
-eVarは、実装にカスタム文字列を含むので、各eVarのディメンション項目を決定します。 各eVarと一般的なディメンション項目の目的を [ソリューションデザインドキュメントに記録してください](/help/implement/prepare/solution-design.md)。
+eVarは、実装にカスタム文字列を含むので、各eVarのディメンション項目を決定します。 Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## eVar のしくみ
 
@@ -44,7 +44,7 @@ Adobe Analytics にデータを送信すると、データ収集サーバーで�
 成功イベントと eVar は、様々なイメージリクエストで頻繁に定義されます。この `post_evar` 列では、eVar 値をイベントに結び付け、レポート内のデータを表示できます。訪問の例：
 
 1. 訪問者が貴社のホームページ上のサイトに到達します。
-2. サイト内検索で「cats」を検索します。導入では、内部検索にeVar1を使用しています。
+2. サイト内検索で「cats」を検索します。導入では、内部検索に eVar1 を使用します。
 3. ユーザーは製品を表示し、チェックアウトプロセスを進めます。
 
 生データの簡易バージョンは、次のようになります。
@@ -84,14 +84,14 @@ Analysis Workspace は、次のロジックを使用してこのレポートを�
 * デフォルトでは、eVar は最後の配分を使用します。新しい値を指定すると、永続値が上書きされます。
 * デフォルトでは、eVar は訪問の有効期限を使用します。訪問が終了すると、値は `post_evar` 列の行間でコピーされなくなります。
 
-You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+eVar の配分と有効期限は、レポートスイート設定の「[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で変更できます。
 
-## propに対するeVarの値
+## Prop に対する eVar の値
 
-Adobeでは、次のサポート対象となるほとんどの場合にeVarの使用をお勧めします。
+アドビでは、次のサポート対象となるほとんどの場合に eVar の使用をお勧めします。
 
-* eVarは、レポートで255バイトの制限があります。 propには100バイトの制限があります。
+* レポートでは、eVar に 255 バイトの上限があります。prop の上限は 100 バイトです。
 * デフォルトでは、prop は設定されたヒットの後は保持されません。eVar にはカスタムの有効期限があり、eVar がその後のイベントのクレジットを受け取らなくなった時期を判断できます。ただし、[レポートの時間処理](/help/components/vrs/vrs-report-time-processing.md)を使用する場合は、prop と eVar の両方でカスタムアトリビューションモデルを使用できます。
-* Adobeは、最大250個のeVarをサポートし、75個のpropのみをサポートします。
+* アドビでは、最大 250 個の eVar をサポートし、prop は 75 個のみサポートします。
 
-prop [とeVarの比較について詳しくは、](prop.md) propを参照してください。
+Prop と eVar の比較について詳しくは、[prop](prop.md) を参照してください。
