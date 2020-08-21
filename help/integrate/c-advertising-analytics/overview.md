@@ -2,9 +2,9 @@
 description: 'null'
 title: Advertising Analytics の概要
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Advertising Analytics の概要
 
-Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA　または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud または Google／Bing で表示する必要がありました。現在 Adobe Analytics では、インプレッション数、クリック数、コスト、品質スコア、平均順位を、検索エンジンおよび AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。
+Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud または Google／Bing で表示する必要がありました。現在 Adobe Analytics では、インプレッション数、クリック数、コスト、品質スコア、平均順位を、検索エンジンおよび AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Advertising Analytics を使用すると、すべての Google および Bing �
 * この機能は、Advertising Cloud 以外、および AMO 以外のお客様が利用できます。
 * Advertising Analytics へのアクセス権限を保有するには、Adobe Analytics 管理者である必要があります。これにより、管理者以外のユーザーに[アクセス権限を付与できます](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
 * Google／Bing の検索データを表示する Analytics レポートスイートは、[Experience Cloud 組織にマッピングされている](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)必要があります。
-* Google／Bingの検索データを表示するレポートスイートの場合、[Advertising Analytics 用にそれらのレポートスイートを有効にする](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL Advertising Analytics 設定]**）。
+* Google／Bing の検索データを表示するレポートスイートの場合、[Advertising Analytics 用にそれらのレポートスイートを有効にする](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL Advertising Analytics 設定]**）。
 
 * Adobe Analytics と統合するアカウントを検索するには、編集権限を持つユーザーのログイン資格情報（Google アカウント ID とパスワードなど）が必要です。
 * Bing 広告の場合、Bing 顧客 ID も必要になります。
@@ -98,7 +98,7 @@ Advertising Analytics では、以下のディメンションと指標が Analys
 | 広告ディスプレイ URL（AMO ID） | 広告で使用される広告のディスプレイ URL オブジェクト。 |
 | 広告リンク先 URL（AMO ID） | 広告に割り当てられたランディングページの URL または最終 URL。 |
 | ネットワーク（AMO ID） | 広告が掲載されているネットワーク。Advertising Analytics では、この値は常に「Search」です。 |
-| プレースメント（AMO ID） | 管理されているプレースメントのウェブサイト（コンテンツネットワーク向け）。このディメンションは管理されているプレースメントのみによって使用されます。 |
+| プレースメント（AMO ID） | 管理されている配置の Web サイト（コンテンツネットワーク向け）。このディメンションは管理されているプレースメントのみによって使用されます。 |
 | 製品ターゲット（AMO ID） | PLA 広告で使用される製品の名前（購入した実際の製品ではありません）。 |
 | 最適化（AMO ID） | Advertising Analytics では使用しません。Advertising Cloud のお客様のみが使用します。 |
 | デバイス（AMO ID） | 現在は使用しません。広告のターゲットのデバイスタイプ（モバイル、デスクトップなど）を示すための、将来の潜在的な製品の改良用のプレースホルダーです（訪問者の実際のデバイスではありません）。 |
