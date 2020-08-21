@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。『コンポーネントユーザーガイド』の[クロスデバイス分析](/help/components/cda/overview.md)を参照してください。
+>デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。『コンポーネントユーザガイド』の「[クロスデバイス分析](/help/components/cda/overview.md)」を参照してください。
 
 複数の訪問者プロファイルが同じ訪問者 ID 変数と関連付けられた後に統合された場合、過去データのアトリビューション（配分方法）は変更されません。
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 次の例に、ユーザーが最初のデバイスで初めて認証されるときに Adobe Analytics にデータがどのような方法で送信されるかを示します。
 
 * `eVar16` は 1 日で有効期限切れに、`evar17` は訪問時に有効期限切れになります。
-* `post_visitor_id` 列は、Adobe Analytics サーバーによって保持されるプロファイルを表します。投稿列は通常、データフィードで表示されます。詳しくは、『エクスポートユーザーガイド』の[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)を参照してください。
+* `post_visitor_id` 列は、Adobe Analytics サーバーによって保持されるプロファイルを表します。投稿列は通常、データフィードで表示されます。『エクスポートユーザガイド』の「[データフィード](/help/export/analytics-data-feed/data-feed-overview.md)」を参照してください。
 * `post_evar16` および `post_evar17` 列は、eVar の持続性を示します。
 * `cust_visid` は、`s.visitorID` に設定される値を表します。
 * 1 つの行が 1 つの「ヒット」、つまり Adobe Analytics データ収集サーバーに送信される単一の要求です。
