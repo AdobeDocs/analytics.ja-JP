@@ -1,11 +1,11 @@
 ---
 title: サードパーティの分析プラットフォームから Adobe Analytics への移行
 description: Google Analytics などの他のプラットフォームに詳しいユーザー向けに、レポートの取得に関する概要について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Analytics では、Adobe Experience Cloud にログインしたあとに�
 * **Reports &amp; Analytics** は、基本レポートを取り込む従来の方法です。左側のメニューには既製レポートのリストが表示され、適切なレポートに移動してデータを取得できます。セグメントと指標をカスタマイズできます。このレイアウトは、Google Analytics のレポートと類似しています。
 * **Analysis Workspace** の使用は、現在最も推奨されるレポート取得方法です。左側のメニューでは、コンポーネントをドラッグ＆ドロップして独自のレポートを作成できます。柔軟性が非常に高く、あらゆるレポートニーズに的確に対応します。このレイアウトは、Google Analytics のダッシュボードとカスタムレポートに類似しています。
 
-Most reports can be created in both [!UICONTROL Reports &amp; Analytics] and [!UICONTROL Analysis Workspace]. ただし、どちらかのプラットフォームでのみ取り込むことができるレポートもあります。In most cases, Adobe recommends using [!UICONTROL Analysis Workspace], unless a specific feature is only available in [!UICONTROL Reports &amp; Analytics].
+ほとんどのレポートは、[!UICONTROL Reports &amp; Analytics] と [!UICONTROL Analysis Workspace] の両方で作成できます。ただし、どちらかのプラットフォームでのみ取り込むことができるレポートもあります。特定の機能が [!UICONTROL Reports &amp; Analytics] でのみ使用できる場合を除き基本的には [!UICONTROL Analysis Workspace] の使用をお勧めします。
 
 ## 推奨学習パス
 
@@ -29,7 +29,7 @@ Most reports can be created in both [!UICONTROL Reports &amp; Analytics] and [!U
 
 * [Google Analytics ユーザー向け：Analysis Workspace での基本レポートの作成方法](reports/create-report.md)
 
-[!UICONTROL 分析ワークスペースのコンポーネントに慣れると]、適切なコンポーネントを使用してほとんどのレポートを再作成する方法を学ぶことができます。
+[!UICONTROL Analysis Workspace] のコンポーネントについて理解できたら適切なコンポーネントを使用して様々なレポートを再作成する方法を学習しましょう。
 
 * [Adobe Analytics でのリアルタイムレポートの作成](reports/realtime-reports.md)
 * [Adobe Analytics でのオーディエンスレポートの作成](reports/audience-reports.md)
