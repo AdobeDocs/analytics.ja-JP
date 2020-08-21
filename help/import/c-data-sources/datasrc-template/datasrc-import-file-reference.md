@@ -4,11 +4,11 @@ subtopic: Data sources
 title: インポートファイルの参照
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 列見出しは、データソースファイルの各列のデータを識別するのに使用されます。列見出しには次の 3 つのタイプがあります。
 
-**日付**: （必須）ファイル内の各データ行のタイムスタンプ（形式） `m/d/yyyy`。
+**日付**：（必須）ファイル内の各データ行のタイムスタンプ（`m/d/yyyy` 形式）。
 
 **変数**：データソースのデータディメンションにマッピングされているレポート変数の名前。
 
