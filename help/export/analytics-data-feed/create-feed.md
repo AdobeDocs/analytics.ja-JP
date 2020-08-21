@@ -1,9 +1,9 @@
 ---
 title: データフィードの作成または編集
 description: データフィードを作成または編集する方法について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 ### Azure BLOB
 
-データフィードは Azure BLOB の宛先をサポートしています。コンテナ、アカウント、およびキーが必要です。Amazon は保存データを自動的に暗号化します。データをダウンロードすると、自動的に復号化されます。詳細については、Microsoft Azure ドキュメント内の「[ストレージアカウントの作成](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-create?tabs=azure-portal#view-and-copy-storage-access-keys)」を参照してください。
+データフィードは Azure BLOB の宛先をサポートしています。コンテナ、アカウント、およびキーが必要です。Amazon は保存データを自動的に暗号化します。データをダウンロードすると、自動的に復号化されます。詳細については、Microsoft Azure ドキュメント内の「[ストレージアカウントの作成](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)」を参照してください。
 
 ![Azure 情報](assets/azure.png)
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 すべての列は、データがあるかどうかに関係なく使用できます。データフィードには、少なくとも 1 つの列が含まれている必要があります。
 
 * **エスケープ文字を削除**：データを収集する際に、一部の文字（改行など）が問題の原因となる場合があります。フィードファイルからこれらの文字を削除する場合は、このチェックボックスをオンにします。
-* **圧縮形式**：使用する圧縮のタイプ。Gzipはファイルを `.tar.gz` 形式で出力します。Zipはファイルを `.zip` 形式で出力します。
+* **圧縮形式**：使用する圧縮のタイプ。Gzip はファイルを `.tar.gz` 形式で出力します。Zip はファイルを `.zip` 形式で出力します。
 * **パッケージの種類**：単一ファイルは、潜在的に大規模な 1 つのファイルとして `hit_data.tsv` を出力します。複数のファイルを使用すると、データが 2GB のチャンク（非圧縮）にページ分割されます。複数のファイルを選択し、レポートウィンドウの非圧縮データが 2GB 未満の場合は、1 つのファイルが送信されます。ほとんどのデータフィードでは、複数のファイルを使用することをお勧めします。
 * **列テンプレート**：多数のデータフィードを作成する場合は、列テンプレートを作成することをお勧めします。列テンプレートを選択すると、指定した列が自動的にテンプレートに含まれます。また、アドビでは、デフォルトで複数のテンプレートを提供しています。
 * **使用可能な列**：Adobe Analytics で使用可能なすべてのデータ列。「[!UICONTROL すべて追加]」をクリックして、データフィードにすべての列を含めます。
