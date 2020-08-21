@@ -1,11 +1,11 @@
 ---
 title: linkInternalFilters
 description: linkInternalFilters 変数の使用は出口リンクの自動トラッキングに役立ちます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 AppMeasurement は、サイト外を指すリンクを自動的に追跡する機能を提供します。[`trackExternalLinks`](trackexternallinks.md) が有効になっている場合、訪問者がリンクをクリックしてサイトを離れると、イメージリクエストがアドビに直接送信されます。[`linkExternalFilters`](linkexternalfilters.md) 変数と `linkInternalFilters` 変数は、リンクが外部と見なされるか内部と見なされるかを決定します。
 
-この変数に値が含まれる場合、離脱リンクの自動トラッキングはブロックリストのように動作します。 リンククリックがどの `linkInternalFilters` 値とも一致しない場合は、そのリンクは出口リンクと見なされます。この変数に対して URL 全体が調べられます。[`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリー文字列も調べられます。
+この変数に値が含まれる場合、出口リンクの自動トラッキングはブロックリストのように動作します。リンククリックがどの `linkInternalFilters` 値とも一致しない場合は、そのリンクは出口リンクと見なされます。この変数に対して URL 全体が調べられます。[`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリー文字列も調べられます。
 
 `linkInternalFilters` と `linkExternalFilters` の両方を同時に使用する場合は、クリックされたリンクが出口リンクと見なされるには、`linkExternalFilters` に一致すると&#x200B;**ともに** `linkInternalFilters` に一致しない必要があります。クリックされたリンクが出口リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
