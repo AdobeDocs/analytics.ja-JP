@@ -1,17 +1,17 @@
 ---
 title: People
 description: 一意の個人（通常複数のデバイスを持つ人）の数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
 # People
 
-「人」指標は、アドビのDevice Graphに基づいて、人またはデバイスのグループをカウントします。 これは、 [個別訪問者数の正確な表現です](unique-visitors.md)。
+「人」指標は、アドビのデバイスグラフに基づく人物（またはデバイスのグループ）の数です。これは、[個別訪問者数](unique-visitors.md)の正確な表現です。
 
-See the [People metric](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html) in the Device Co-op user guide.
+『Device Co-op ユーザガイド』の「[ホームページ](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html)」を参照してください。
