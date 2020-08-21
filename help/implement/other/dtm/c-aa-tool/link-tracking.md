@@ -4,11 +4,11 @@ keywords: Dynamic Tag Management;link tracking;enable clickmap;track download li
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: リンクトラッキング
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 Analytics の導入時のリンクトラッキングのための Dynamic Tag Management のフィールドの説明です。
 
-**[!UICONTROL プロパティ]** / ![歯車アイコン](assets/settings_gear.png) 「ツールを編集 **[!UICONTROL 」]** /「 **[!UICONTROL リンクトラッキング」]**
+**[!UICONTROL プロパティ]**／![歯車アイコン](assets/settings_gear.png)／**[!UICONTROL ツールを編集]**／**[!UICONTROL リンクトラッキング]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
@@ -29,11 +29,11 @@ Analytics の導入時のリンクトラッキングのための Dynamic Tag Man
  <tbody> 
   <tr> 
    <td colname="col1"> ClickMap を有効にする </td>
-   <td colname="col2"> <p>訪問者クリックマップ用のデータを収集するかどうかを指定します。 </p> <p>See <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
+   <td colname="col2"> <p>訪問者クリックマップ用のデータを収集するかどうかを指定します。 </p> <p><a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a> を参照してください。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> ダウンロードリンクを追跡 </td>
-   <td colname="col2"> <p>サイト上のダウンロード可能なファイルへのリンクを追跡します。 </p> <p>See <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
+   <td colname="col2"> <p>サイト上のダウンロード可能なファイルへのリンクを追跡します。 </p> <p><a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a> を参照してください。</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> ダウンロード拡張機能 </td> 
