@@ -1,26 +1,26 @@
 ---
 title: prop
 description: 実装で使用できるカスタム変数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # prop
 
-*このヘルプページでは、propの実装方法を説明します。 For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
+*このヘルプページでは、prop の実装方法について説明します。prop がディメンションとして機能する方法について詳しくは、『コンポーネントユーザガイド』の [prop](/help/components/dimensions/prop.md) を参照してください。*
 
-Prop は、好きなだけ使用できるカスタム変数です。設定されたヒットを超えては持続しません。
+Prop は、好きなだけ使用できるカスタム変数です。Prop は、設定されたヒットの後は保持されません。
 
 >[!TIP]
 >
->Adobe recommends using [eVars](evar.md) in most cases. 以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、アドビでは eVar を改善し、prop のほとんどすべての使用例を満たすようにしました。
+>ほとんどの場合、[eVar](evar.md) の使用をお勧めします。以前のバージョンの Adobe Analytics では、prop と eVar は互いに比べた利点と欠点がありました。ただし、アドビでは eVar を改善し、prop のほとんどすべての使用例を満たすようにしました。
 
-ソリューションデザイン [ドキュメントがある場合](/help/implement/prepare/solution-design.md)、これらのカスタムディメンションを組織に固有の値に割り当てることができます。 使用可能なpropの数は、アドビとの契約によって異なります。 アドビとの契約でサポートされている場合は、最大75個のpropを使用できます。
+[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)がある場合、これらのカスタムディメンションを組織に固有の値に割り当てることができます。使用可能な prop の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 75 個の prop を使用できます。
 
 ## Adobe Experience Platform Launch の prop
 
@@ -33,7 +33,7 @@ Prop は、Analytics 拡張機能の設定時（グローバル変数）また�
 5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
 6. [!UICONTROL Props] セクションを見つけます。
 
-propは値またはデータ要素に設定できます。 別の Analytics 変数から値をコピーすることもできます。
+Prop 値またはデータ要素に設定できます。別の Analytics 変数から値をコピーすることもできます。
 
 ## AppMeasurement および Launch カスタムコードエディターの s.prop1～s.prop75
 
