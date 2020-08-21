@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 90%
 
 「自動モード」で検索エンジンのアカウントを設定するには、以下の作業を行う責任があります。
 
-* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. これは、URL の最後に挿入されます。ウェブサーバーに特定の key=value ペアが URL の最後に必要な場合や、URLの で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業を行う必要がある場合があります。**ユーザーの責任のもとに、追加された URL パラメーターが最終的なランディングページまで適切に保持されるようにする必要があります。**
-* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. 特殊文字や記号が含まれる場合は、ウェブサーバーでそれらの文字がサポートされていることを確認してください。例：一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます。
+* `s_kwcid` パラメーターおよび値がアカウントのトラッキングテンプレート、または追加されるアカウント内のランディングページ URL に追加されます。これは、URL の最後に挿入されます。Web サーバーで URL の最後に特定の key=value ペアが必要な場合、または URL の新しい key=value ペアをサポートするための更新が必要な場合は、追加のアクションが必要になる場合があります。**ユーザーの責任のもとに、追加された URL パラメーターが最終的なランディングページまで適切に保持されるようにする必要があります。**
+* 加えて、キーワードを `s_kwcid` 値の一部としてランディング URL に追加できます。特殊文字や記号が含まれる場合は、Web サーバーでそれらの文字がサポートされていることを確認してください。例：一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます。
 
 >[!IMPORTANT]
 >
->コン `s_kwcid` テンツセキュリティポリシーにパラメーターを追加する必要があるかどうかを確認する [](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)。
+>[コンテンツセキュリティポリシー](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/csp.html)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
 
 ## 手動モードのトラッキング {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -60,7 +60,7 @@ s_kwcid=AL!
 {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**`{lpurl}`と追加の URL パラメーター&#x200B;**
+**`{lpurl}`と追加の URL パラメーター**
 
 ```
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
@@ -104,7 +104,7 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 {lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**`{lpurl}`と追加の URL パラメーター&#x200B;**
+**`{lpurl}`と追加の URL パラメーター**
 
 ```
 {lpurl}?campaign=PPC&
