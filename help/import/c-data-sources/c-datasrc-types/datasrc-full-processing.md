@@ -4,11 +4,11 @@ subtopic: Data sources
 title: フル処理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->フル処理のデータソースではなく、 [Bulk Data Insertion API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) を使用することをお勧めします。 フル処理データソースは、今後非推奨となります。
+>フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。フル処理データソースは、今後非推奨となります。
 
 データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 
@@ -49,8 +49,8 @@ ht-degree: 93%
    <td colname="col3"> <p>コンバージョンキャンペーンのトラッキングコード。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col1"> <p>チャネル </p> </td> 
+   <td colname="col2"> <p>チャネル </p> </td> 
    <td colname="col3"> <p>チャネル文字列（例：「スポーツセクション」） </p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +60,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
-   <td colname="col2"> <p>date </p> </td> 
+   <td colname="col2"> <p>日付 </p> </td> 
    <td colname="col3"> <p><code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> という ISO 8601 の日付フォーマット（例：<code> 2013-09-01T12:00:00-07:00 </code>）、または Unix の時刻フォーマット（1970 年 1 月 1 日からの経過秒数）を使用します。 </p> </td> 
   </tr> 
   <tr> 
@@ -117,8 +117,8 @@ ht-degree: 93%
    <td colname="col3"> <p>ページ URL（例：<code>https://www.mysite.com/index.html)</code>）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
+   <td colname="col1"> <p>製品 </p> </td> 
+   <td colname="col2"> <p>製品 </p> </td> 
    <td colname="col3"> <p>製品リスト（例：<code> "Sports;Ball;1;5.95") </code>）。 </p> </td> 
   </tr> 
   <tr> 
@@ -137,13 +137,13 @@ ht-degree: 93%
    <td colname="col3"> <p>ヒットを含めるレポートスイート ID（複数可）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>server </p> </td> 
+   <td colname="col1"> <p>サーバー </p> </td> 
+   <td colname="col2"> <p>サーバー </p> </td> 
    <td colname="col3"> <p>サーバー文字列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>state </p> </td> 
-   <td colname="col2"> <p>state </p> </td> 
+   <td colname="col1"> <p>都道府県 </p> </td> 
+   <td colname="col2"> <p>都道府県 </p> </td> 
    <td colname="col3"> <p>コンバージョンの州の文字列。 </p> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ JavaScript ライブラリを使用したときに自動的に入力されるト
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Web サイトでサポートされる文字セット。UTF-8、ISO-8859-1 などがあります。 </p> <p>完全なリストを確認するには、「<a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >2 バイト文字セット</a>（インターナショナリゼーション）」のホワイトペーパーを参照してください。 </p> </td> 
+   <td colname="col2"> <p>Web サイトでサポートされる文字セット。UTF-8、ISO-8859-1 などがあります。 </p> <p>完全なリストを確認するには、「<a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >2 バイト文字セット</a>（インターナショナリゼーション）」のホワイトペーパーを参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
@@ -237,7 +237,7 @@ JavaScript ライブラリを使用したときに自動的に入力されるト
    <td colname="col2"> <p>プロパティのプロパティ値。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>referrer </p> </td> 
+   <td colname="col1"> <p>リファラー </p> </td> 
    <td colname="col2"> <p>ページリファラーの URL。 </p> </td> 
   </tr> 
   <tr> 
