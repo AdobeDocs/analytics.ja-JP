@@ -6,6 +6,9 @@ title: Adobe Analytics ツールに関する FAQ
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+workflow-type: ht
+source-wordcount: '410'
+ht-degree: 100%
 
 ---
 
