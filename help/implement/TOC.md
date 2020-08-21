@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -204,4 +204,4 @@ ht-degree: 98%
 + [よくある質問](faq.md)
 + Analytics での XDM データの使用 {#aep-edge}
    + [AEP Web SDK を使用する](aep-edge/xdmoverview.md)
-   + [XDMデータを手動でAnalyticsにマップ](aep-edge/xdm-manual.md)
+   + [XDM データの Analytics への手動マッピング](aep-edge/xdm-manual.md)
