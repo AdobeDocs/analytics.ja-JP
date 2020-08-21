@@ -1,9 +1,9 @@
 ---
 title: hier
 description: Adobe Analytics に階層変数を実装します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
