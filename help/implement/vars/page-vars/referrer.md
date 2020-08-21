@@ -1,13 +1,16 @@
 ---
-title: referrer
+title: リファラー
 description: 自動的に収集されたヒットのリファラーを上書きします。
 translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: ht
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
 
 
-# referrer
+# リファラー
 
 `referrer` 変数は、レポートで自動的に収集されたリファラーよりも優先されます。この変数は、リダイレクト中や、訪問者を一時的に支払いプロセッサーに転送するなど、リファラーが失われる可能性がある状況で役立ちます。この変数は、「リファラー」ディメンションと「参照ドメイン」ディメンションの入力に役立ちます。
 
