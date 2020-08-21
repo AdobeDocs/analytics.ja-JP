@@ -1,11 +1,11 @@
 ---
 title: eVar
 description: 実装で使用できるカスタム変数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 86%
 
 *このヘルプページでは、eVar の実装方法について説明します。eVar がディメンションとして機能する方法について詳しくは、コンポーネントユーザーガイドの [eVar](/help/components/dimensions/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。レポートスイート設定の「[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
 
-使用可能なeVarの数は、アドビとの契約によって異なります。 アドビとの契約でサポートされている場合は、最大250個のeVarを利用できます。
+使用可能な eVar の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
 ## レポートスイート設定での eVar の設定
 
@@ -33,7 +33,7 @@ eVar は、Analytics 拡張機能の設定時（グローバル変数）また�
 5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
 6. [!UICONTROL eVars] セクションを見つけます。
 
-eVarには値またはデータ要素を設定できます。 別の Analytics 変数から値をコピーすることもできます。
+eVar を値またはデータ要素に設定できます。別の Analytics 変数から値をコピーすることもできます。
 
 ## AppMeasurement および Launch カスタムコードエディターの s.eVar1～s.eVar250
 
