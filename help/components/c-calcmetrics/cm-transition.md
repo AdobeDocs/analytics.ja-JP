@@ -2,9 +2,9 @@
 description: 処理に影響を及ぼす可能性のある、Analytics における計算指標の機能の変更を次に示します。
 title: よくある質問
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2148'
 ht-degree: 100%
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 ## 日別／週別／月別／四半期別／年別訪問者数指標に基づく計算指標についてどのような情報が必要ですか？ {#section_E9A77EBB41CE4881B196CC1C282B2DF3}
 
-個別訪問者数指標に基づく計算指標は、[!DNL Analytics] コンポーネント（[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]およびレポート API）に表示されます。
+個別訪問者数指標に基づく計算指標は、[!DNL Analytics] コンポーネント（[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder] およびレポート API）に表示されます。
 
 ただし、このような指標は、[!UICONTROL セグメント]、[!UICONTROL Analysis Workspace]、[!UICONTROL リアルタイムレポート]、[!UICONTROL 異常値検出]および[!UICONTROL 貢献度分析]の各コンポーネントではサポートされません。個別訪問者数指標に基づく計算指標を作成または編集すると、互換性に関する警告が表示されます。この警告は、特定の分野の製品との互換性がその指標にないことを示します。
 
