@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '2123'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.21.0
 
-Release Date: **June 24, 2020**
+リリース日：**2020 年 6 月 24 日**
 
-* Activity MaplinkExclusionsフィルターがFirefoxに適用されない場合がある問題を修正しました。
+* Activity MaplinkExclusions フィルターが Firefox に適用されない場合がある問題を修正しました。
 
 ## バージョン 2.20.0
 
-Release Date: **March 5, 2020**
+リリース日：**2020 年 3 月 5 日**
 
-* Internet Explorerの検出を更新してJSLintの警告を表示しないことにより、セキュリティに関する問題を修正しました。
+* Internet Explorer の検出を更新して JSLint の警告を表示しないことにより、セキュリティに関する問題を修正しました。
 
 ## バージョン 2.19.0
 
@@ -39,9 +39,9 @@ Release Date: **March 5, 2020**
 
 ## バージョン 2.18.0
 
-Release Date: **February 13, 2020**
+リリース日：**2020 年 2 月 13 日**
 
-* AppMeasurementで、変数を設定することで、cookieにセキュア属性を強制的に含めることができるようになり [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) ました。 この変数の要件は、クライアントWebサイト全体が安全に(HTTPS)提供されることです。 （AN-204604）
+* AppMeasurement で、[`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 変数を設定することで、cookie にセキュア属性を強制的に含めることができるようになりました。この変数の要件は、クライアント Web サイト全体が安全に（HTTPS）提供されることです。（AN-204604）
 
 ## バージョン 2.17.0
 
@@ -322,7 +322,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 ## バージョン 1.4.3
 
-リリース日：**2015 年 2 月 20 日**
+リリース日：**2015 年 2 月 19 日**
 
 * 遅延したトラッキングコールのすべての処理を一貫させるようにしました。これにより、クリックされたオブジェクトなど、遅延中のバックアップ変数の問題を修正しました。
 * 最初のトラッキングコールの後、自動リファラートラッキングをおこなわないように変更されました。これにより、最初のトラッキングコールの前に&#x200B;*`s.referrer`* が手動で設定された場合に、2 回目、3 回目などのトラッキングコール（通常はリンクトラッキング）で、リファラーを二重にカウントしなくなります。
@@ -370,7 +370,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 >[!NOTE]
 >
->H コード は、追加の eVar およびイベントをサポートしていません。
+>H コードは、追加の eVar およびイベントをサポートしていません。
 
 ## バージョン 1.3.2
 
