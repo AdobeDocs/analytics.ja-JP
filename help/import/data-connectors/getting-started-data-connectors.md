@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->2021年中旬から後半にかけて、Adobe Data Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021年半ばから後半にかけて、Adobeデータコネクタテクノロジの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 **必要システム構成**
 
