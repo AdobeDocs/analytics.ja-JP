@@ -5,6 +5,9 @@ title: 計算指標および高度な計算（派生）指標
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '783'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->2018 年 7 月、アドビは計算指標における配分モデルの評価方法を変える [Attribution IQ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) を導入しました。この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
+>2018 年 7 月、アドビは計算指標における配分モデルの評価方法を変える [Attribution IQ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/attribution/models.html) を導入しました。この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
 >
 >* 「マーケティングチャネルラストタッチ」と「マーケティングチャネルファーストタッチ」配分モデルはそれぞれ、新しい「ラストタッチ」と「ファーストタッチ」アトリビューションモデルに移行されました（注意：「マーケティングチャネル」は廃止されていません。計算指標で表示される 2 つの配分モデルのみが廃止されました）。
 >* さらに、線形配分の計算方法を修正しました。顧客が線形配分モデルで計算指標を使用する場合、修正された新しいアトリビューションモデルを反映してレポートが若干変わる可能性があります。この計算指標の変更は、[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、レポート API、Report Builder および Ad Hoc Analysis に反映されます。詳細については、[2018 年 7 月 19 日時点の線形配分の適用方法](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
@@ -24,7 +27,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。マーケティング担当者、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。各 [!DNL Analytics] パッケージで利用可能なカスタム指標を次に示します。
 
 * Adobe [!DNL Analytics] Foundation：計算指標
-* [Adobe Analytics Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)：計算指標      + 高度な計算指標
+* [Adobe Analytics Select](https://www.adobe.com/jp/data-analytics-cloud/analytics/select.html)：計算指標       + 高度な計算指標
 * [Adobe Analytics Prime](https://www.adobe.com/jp/data-analytics-cloud/analytics/prime.html)：計算指標 + 高度な計算指標
 * [Adobe Analytics Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html)：計算指標 + 高度な計算指標
 
@@ -47,9 +50,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 * [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Ad Hoc Analysis]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]および[!UICONTROL 貢献度分析]にまたがる指標を作成する。
 * [実装を変更することなく](https://youtu.be/CuQTm9RaUpY)、レポートの実行時に得られる、セグメント化された指標を作成する。これらの指標はセグメントに基づいているので、時系列で表示できます。
 * レポートスイート間で指標を共有する。つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
-* （高度な計算指標のみ）指標でセグメント化する。例えば、初回のセッションの訪問者の数を含む、「初回訪問者数」の指標を作成できます。
+* （高度な計算指標のみ）指標でセグメント化する。例えば、初回セッションの訪問者数を含む、「初回訪問者数」の指標を作成できます。
 * （高度な計算指標のみ）統計関数を組み込んで、データからより適切な情報を得る。例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
-* [!UICONTROL Ad Hoc Analysis] で作成した指標を他の ツールで利用する。または、他の [!DNL Analytics] ツールで作成した指標を Ad Hoc Analysis で利用する。
+* [!UICONTROL Ad Hoc Analysis] で作成した指標を他のツールで利用する。または、他の [!DNL Analytics] ツールで作成した指標を Ad Hoc Analysis で利用する。
 
    >[!NOTE]
    >
@@ -59,7 +62,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 一部の [!DNL Analytics] の機能では、イベントは使用できますが、計算指標は使用できません。
 
-* [!UICONTROL Reports &amp; Analytics ][!UICONTROL のファネル]
+* [!UICONTROL Reports &amp; Analytics] の[!UICONTROL ファネル]
 * [!UICONTROL Analysis Workspace ][!UICONTROL のフォールアウト]
 * [!UICONTROL Analysis Workspace のコホート分析]
 * [!UICONTROL Data Warehouse]
