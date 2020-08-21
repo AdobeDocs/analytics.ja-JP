@@ -2,6 +2,9 @@
 title: テクニカルノートホーム
 translation-type: ht
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
+workflow-type: ht
+source-wordcount: '75'
+ht-degree: 100%
 
 ---
 
