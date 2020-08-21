@@ -1,9 +1,9 @@
 ---
 title: account
 description: Account 変数を使用して、データの送信先のレポートスイートを決定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
