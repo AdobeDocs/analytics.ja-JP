@@ -1,9 +1,9 @@
 ---
 title: 設定変数
 description: 設定変数を使用して、データの収集方法を決定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
 ht-degree: 100%
 
