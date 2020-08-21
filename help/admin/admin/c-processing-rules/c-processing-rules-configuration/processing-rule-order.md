@@ -5,7 +5,10 @@ title: 処理順序
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 |--- |--- |
 | 動的変数参照 | 変数を動的に入力するには、HTTP ヘッダーや他の変数から情報を取得します。例えば、`s.eVar5="D=c1"` と指定すると、eVar5 に prop1 の値がセットされます。 |
 | AppMeasurement | AppMeasurementで使用される関数とプラグインは、ブラウザーまたはクライアントアプリケーションで実行されます。 |
-| Dynamic Tag Management | Dynamic Tag Management で定義したルールは、定義どおりに実行されます。 |
+| タグ管理 | Adobeの起動またはDynamic Tag Managementで定義されたルールは、定義どおりに実行されます。 |
 | ボットルール | [ボットルール](/help/admin/admin/bot-removal/bot-rules.md)を使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。 |
 
 ## 処理ルール後
@@ -40,6 +43,6 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## VISTA を使用してヒットをコピーするときに処理ルールを適用する方法 {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-他のレポートスイートにヒットをコピーするように VISTA ルールが設定されている場合、ヒットは、他のレポートスイートに定義されている処理ルールを介して送信されます。
+ヒットを別のレポートスイートにコピーするようにVISTAルールが設定されている場合、ヒットは他のレポートスイートで定義されている処理ルールを通じて送信されます。
 
 元のレポートスイートに処理ルールが定義されている場合、エンジニアリングサービスが VISTA ルールをどのように設定したかに応じて、ルールの適用の有無が決まります。確認するには、VISTA ルールで「pre」または「post」値を追加のレポートスイートにコピーしたかどうかを導入担当者に問い合わせてください。「pre」値をコピーした場合、元のレポートスイートに定義されている処理ルールは適用されません。「post」値をコピーした場合、処理ルールが適用された後にヒットがコピーされます。
