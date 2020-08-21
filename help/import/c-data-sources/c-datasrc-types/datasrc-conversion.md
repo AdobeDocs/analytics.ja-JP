@@ -4,11 +4,11 @@ subtopic: Data sources
 title: コンバージョン
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 データソースでは、コンバージョンとして処理されるデータタイプに対して、次のようなコンバージョンデータディメンションおよびコンバージョン指標をサポートしています。
 
-## コンバージョン ディメンションと指標 {#section_FA1731B232B246DABEDF5A5D84159084}
+## コンバージョンディメンションと指標 {#section_FA1731B232B246DABEDF5A5D84159084}
 
 表示イベントを指定する場合、対応するデータディメンション（eVar）も指定する必要があります。例えば、eVar2 表示数を含める場合、eVar2 と値をリストに含める必要があります。レポートスイートでサポートされるカスタムイベント数および eVar 表示数は、お客様のご契約内容によって異なります。
 
