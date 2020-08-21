@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 | 列名 | 列の説明 | データタイプ |
 | --- | --- | --- |
 | `accept_language` | イメージリクエストの Accept-Language HTTP ヘッダーで指定されている受け入れ可能なすべての言語のリスト。 | char(20) |
-| `aemassetid` | 一連の Adobe Experience Manager Assets のアセット ID（GUID）に対応する複数値変数。インプレッションイベント数が増分されます。 | text |
+| `aemassetid` | 一連の Adobe Experience Manager Assets のアセット ID（GUID）に対応する複数値変数。インプレッションイベント数が増分されます。 | テキスト |
 | `aemassetsource` | アセットイベントのソースを識別します。Adobe Experience Manager で使用されます。 | varchar(255) |
 | `aemclickedassetid` | Adobe Experience Manager アセットのアセット ID。クリックイベント数が増分されます。 | varchar(255) |
 | `browser` | ブラウザーの数値 ID。browser.tsv 参照テーブルを参照します。 | int unsigned |
@@ -47,7 +47,7 @@ ht-degree: 96%
 | `click_context_type` | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0：ページ URL<br>1：ページ名 | tinyint unsigned |
 | `click_sourceid` | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。レガシー ClickMap ツールの一部。 | int unsigned |
 | `click_tag` | 廃止。クリックされた HTML 要素のタイプ。 | char(10) |
-| `clickmaplink` | Activity Maplink | varchar(255) |
+| `clickmaplink` | Activity Mapリンク | varchar(255) |
 | `clickmaplinkbyregion` | Activity Map 地域別リンク | varchar(255) |
 | `clickmappage` | Activity Map ページ | varchar(255) |
 | `clickmapregion` | Activity Map 地域 | varchar(255) |
@@ -70,8 +70,8 @@ ht-degree: 96%
 | `duplicated_from` | ヒットコピー VISTA ルールを含んだレポートスイートでのみ使用されます。ヒットのコピー元となったレポートスイートを示します。 | varchar(40) |
 | `ef_id` | Adobe Advertising Cloud 統合で使用される ef_id。 | varchar(255) |
 | `evar1 - evar250` | カスタム変数 1 ～ 250。eVar の使用方法は組織ごとに異なります。組織における各 eVar への値の設定方法について詳しくは、それぞれの組織に固有のソリューションデザインドキュメントを参照してください。 | varchar(255) |
-| `event_list` | ヒットで発生したイベントを表す数値 ID のコンマ区切りリスト。デフォルトイベントもカスタムイベント 1 ～ 1000 も含まれています。event.tsv 参照テーブルを使用します。 | text |
-| `exclude_hit` | ヒットがレポートから除外されていることを示すフラグ。除外されたヒットに対しては visit_num 列は増分されません。<br>1：未使用。削除されたフィーチャの一部。<br>2：未使用。削除されたフィーチャの一部。<br>3：廃止。ユーザーエージェントの除外<br>4：IP アドレスに基づく除外<br>5：重要なヒット情報（page_url、pagename、page_event、event_listなどがない）<br>6：JavaScript でヒットが正しく処理されませんでした<br>7：アカウント固有の除外（VISTA ルールなど）<br>8：未使用。代替のアカウント固有の除外。<br>9：未使用。削除されたフィーチャの一部。<br>10：無効な通貨コード<br>11：タイムスタンプのみのレポートスイートでヒットにタイムスタンプが含まれていない、またはタイムスタンプ以外のレポートスイートでヒットにタイムスタンプが含まれている<br>12:未使用。削除されたフィーチャの一部。<br>13：未使用。削除されたフィーチャの一部。<br>14：Analytics と一致しないターゲットヒット<br>15：現在は使用されていません。<br>16：Analytics ヒットと一致しない Advertising Cloud ヒット | tinyint unsigned |
+| `event_list` | ヒットで発生したイベントを表す数値 ID のコンマ区切りリスト。デフォルトイベントもカスタムイベント 1 ～ 1000 も含まれています。event.tsv 参照テーブルを使用します。 | テキスト |
+| `exclude_hit` | ヒットがレポートから除外されていることを示すフラグ。除外されたヒットに対しては visit_num 列は増分されません。<br>1：未使用。削除されたフィーチャの一部。<br>2：未使用。削除されたフィーチャの一部。<br>3：廃止。ユーザーエージェントの除外<br>4：IP アドレスに基づく除外<br>5：重要なヒット情報（page_url、pagename、page_event、event_list などがない）<br>6：JavaScript でヒットが正しく処理されませんでした<br>7：アカウント固有の除外（VISTA ルールなど）<br>8：未使用。代替のアカウント固有の除外。<br>9：未使用。削除されたフィーチャの一部。<br>10：無効な通貨コード<br>11：タイムスタンプのみのレポートスイートでヒットにタイムスタンプが含まれていない、またはタイムスタンプ以外のレポートスイートでヒットにタイムスタンプが含まれている<br>12:未使用。削除されたフィーチャの一部。<br>13：未使用。削除されたフィーチャの一部。<br>14：Analytics と一致しないターゲットヒット<br>15：現在は使用されていません。<br>16：Analytics ヒットと一致しない Advertising Cloud ヒット | tinyint unsigned |
 | `first_hit_page_url` | 訪問者の本当に最初の URL。 | varchar(255) |
 | `first_hit_pagename` | 「オリジナルの入口ページ」ディメンションで使用される変数。訪問者のオリジナルの入口ページ名。 | varchar(100) |
 | `first_hit_ref_domain` | 「オリジナルの参照ドメイン」ディメンションで使用される変数。first_hit_referrer に基づいています。訪問者の本当に最初の参照ドメイン。 | varchar(100) |
@@ -83,8 +83,8 @@ ht-degree: 96%
 | `geo_dma` | ヒットの発生元となった人口分布地域の数値 ID（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと人口分布地域を対応させることができます。 | int unsigned |
 | `geo_region` | ヒットの発生元となった州または地域の名前（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと州または地域を対応させることができます。 | char(32) |
 | `geo_zip` | ヒットの発生元となった場所の郵便番号（IP アドレスに基づく）。アドビでは Digital Envoy 社との提携により、IP アドレスと郵便番号を対応させることができます。 | varchar(16) |
-| `hier1 - hier5` | 階層変数で使用されます。 値の区切りリストが含まれます。 区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
-| `hit_source` | ヒットの発生源を示します。ヒットソース1、2および6に対して請求が行われます。 <br>1: タイムスタンプ <br>2のない標準イメージリクエスト： タイムスタンプ <br>3の標準イメージリクエスト： タイムスタンプ <br>4を使用したライブデータソースのアップロード： 未使用 <br>5: 汎用データソースアップロード <br>6: フル処理データソースのアップロード <br>7: TransactionIDデータソースのアップロード <br>8: 使用は停止 以前のバージョンのAdobe Advertising Cloudデータソース <br>9: 使用は停止 Adobe Socialサマリ指標 <br>10: Audience Managerサーバー側転送を使用 | tinyint unsigned |
+| `hier1 - hier5` | 階層変数で使用されます。値の区切りリストが含まれます。 区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
+| `hit_source` | ヒットの発生源を示します。ヒットソース1、2および6に対して請求が行われます。 <br>1:タイムスタンプ <br>2のない標準イメージリクエスト：タイムスタンプ <br>3の標準イメージリクエスト：タイムスタンプ <br>4を使用したライブデータソースのアップロード：未使用 <br>5:汎用データソースアップロード <br>6:フル処理データソースのアップロード <br>7:TransactionIDデータソースのアップロード <br>8:使用は停止以前のバージョンのAdobe Advertising Cloudデータソース <br>9:使用は停止Adobe Socialサマリ指標 <br>10:Audience Managerサーバー側転送を使用 | tinyint unsigned |
 | `hit_time_gmt` | Unix 時間に基づく、ヒットを受け取ったアドビデータ収集サーバーのタイムスタンプ。 | int |
 | `hitid_high` | hitid_low と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
 | `hitid_low` | hitid_high と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
@@ -102,7 +102,7 @@ ht-degree: 96%
 | `latlon1` | ロケーション（半径 10 km 以内） | varchar(255) |
 | `latlon23` | ロケーション（半径 100 m 以内） | varchar(255) |
 | `latlon45` | ロケーション（半径 1 m 以内） | varchar(255) |
-| `mc_audiences` | 訪問者が属している Audience Manager セグメント ID のリスト。 | text |
+| `mc_audiences` | 訪問者が属している Audience Manager セグメント ID のリスト。 | テキスト |
 | `mcvisid` | Experience Cloud 訪問者 ID。2 つの 64 ビット数値を連結して 19 桁にパディングした 128 ビット数値です。 | varchar(255) |
 | `mobile_id` | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。 | int |
 | `mobileaction` | モバイルアクション。Mobile Services で trackAction が呼び出されると、自動的に収集されます。アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
@@ -147,15 +147,15 @@ ht-degree: 96%
 | `mobilerelaunchcampaigntrackingcode` | コンテキストデータ変数 a.launch.campaign.trackingcode から収集します。キャンペーン立ち上げのトラッキングコードとして、獲得で使用します。 | varchar(255) |
 | `mobileresolution` | モバイルデバイスの解像度。幅 x 高さ（ピクセル単位）。 | varchar(255) |
 | `monthly_visitor` | 当月の月別訪問者であることを示すフラグ。 | tinyint unsigned |
-| `mvvar1`～`mvvar3` | リスト変数値。実装に応じて、カスタム値の区切りリストを格納します。 | text |
+| `mvvar1`～`mvvar3` | リスト変数値。実装に応じて、カスタム値の区切りリストを格納します。 | テキスト |
 | `namespace` | 未使用。以前に廃止された機能の一部。 | varchar(50) |
 | `new_visit` | 現在のヒットが新しい訪問であるかどうかを指定するフラグ。訪問がアクティブでなくなった 30 分後にアドビのサーバーによって設定されます。 | tinyint unsigned |
 | `os` | 訪問者のオペレーティングシステムを表す数値 ID。user_agent 列に基づきます。os 参照テーブルを使用します。 | int unsigned |
-| `p_plugins` | 廃止。ブラウザーで使用可能なプラグインのリスト。JavaScript 関数 navigator.plugins() を使用します。 | text |
+| `p_plugins` | 廃止。ブラウザーで使用可能なプラグインのリスト。JavaScript 関数 navigator.plugins() を使用します。 | テキスト |
 | `page_event` | イメージリクエストで送信されるヒットのタイプ（標準的なヒット、ダウンロードリンク、カスタムリンク、離脱リンク）。[ページイベント参照](datafeeds-page-event.md)を参照してください。 | tinyint unsigned |
-| `page_event_var1` | リンクトラッキングイメージリクエストでのみ使用されます。クリックされたダウンロードリンク、離脱リンク、カスタムリンクの URL。 | text |
+| `page_event_var1` | リンクトラッキングイメージリクエストでのみ使用されます。クリックされたダウンロードリンク、離脱リンク、カスタムリンクの URL。 | テキスト |
 | `page_event_var2` | リンクトラッキングイメージリクエストでのみ使用されます。リンクのカスタム名（指定された場合）。 | varchar(100) |
-| `page_event_var3` | 廃止。調査モジュールやメディアモジュールのデータが格納されます。Adobe Analytics の以前のバージョンで設定されたレガシービデオレポート。 | text |
+| `page_event_var3` | 廃止。調査モジュールやメディアモジュールのデータが格納されます。Adobe Analytics の以前のバージョンで設定されたレガシービデオレポート。 | テキスト |
 | `page_type` | 「エラーページ」ディメンションの設定に使用。404 エラーページにのみ使用されます。この変数の値は、空か「ErrorPage」である必要があります。 | char(20) |
 | `page_url` | ヒットの URL。リンクトラッキングイメージリクエストでは使用されません。 | varchar(255) |
 | `pagename` | 「ページ」ディメンションの設定に使用されます。pagename 変数が空の場合、Analytics では代わりに page_url を使用します。 | varchar(100) |
@@ -167,8 +167,8 @@ ht-degree: 96%
 | `pointofinterestdistance` | 目標地点中心までの Mobile Services の距離 | varchar(255) |
 | `post_ columns` | レポートで最終的に使用された値が格納されます。各 post 列には、サーバー側ロジック、処理ルール、VISTA ルールの適用後に値が格納されます。ほとんどの場合、post 列を使用することをお勧めします。 | post 以外の各列を参照してください。 |
 | `prev_page` | 未使用。前のページを表すアドビ独自の識別子。 | int unsigned |
-| `product_list` | 製品変数を通じて渡される製品リスト。製品はコンマで区切られますが、個々の製品プロパティはセミコロンで区切られます。 | text |
-| `product_merchandising` | 未使用。代わりに product_list を使用してください。 | text |
+| `product_list` | 製品変数を通じて渡される製品リスト。製品はコンマで区切られますが、個々の製品プロパティはセミコロンで区切られます。 | テキスト |
+| `product_merchandising` | 未使用。代わりに product_list を使用してください。 | テキスト |
 | `prop1`～`prop75` | カスタムトラフィック変数 1 ～ 75。 | varchar(100) |
 | `purchaseid` | 購入の一意な識別子（s_purchaseID 変数を使用して設定）。duplicate_purchase 列で使用されます。 | char(20) |
 | `quarterly_visitor` | ヒットが新しい四半期別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
@@ -201,15 +201,15 @@ ht-degree: 96%
 | `state` | 状態変数。 | varchar(50) |
 | `stats_server` | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
 | `t_time_info` | 訪問者の現地時刻。形式を次に示します。M/D/YYYY HH:MM:SS Month（0 ～ 11、0 = 1 月）タイムゾーンのオフセット（分単位） | varchar(100) |
-| `tnt` | Adobe Target 統合で使用されます。 | text |
-| `tnt_action` | Adobe Target 統合で使用されます。 | text |
-| `tnt_post_vista` | 廃止。代わりに post_tnt を使用してください。 | text |
-| `transactionid` | データソースを使用して後から様々なデータポイントをアップロードするための一意の識別子。 | text |
+| `tnt` | Adobe Target 統合で使用されます。 | テキスト |
+| `tnt_action` | Adobe Target 統合で使用されます。 | テキスト |
+| `tnt_post_vista` | 廃止。代わりに post_tnt を使用してください。 | テキスト |
+| `transactionid` | データソースを使用して後から様々なデータポイントをアップロードするための一意の識別子。 | テキスト |
 | `truncated_hit` | イメージリクエストが切り捨てられたことを示すフラグ。部分的なヒットを受信したことを示します。<br>Y：ヒットが切り捨てられました。ヒットの一部を受信しました。<br>N：ヒットが切り捨てられませんでした。すべてのヒットを受信しました。 | char(1) |
 | `ua_color` | 廃止。以前、色深度のフォールバックとして使用されていました。 | char(20) |
 | `ua_os` | 廃止。以前、オペレーティングシステムのフォールバックとして使用されていました。 | char(80) |
 | `ua_pixels` | 廃止。以前、ブラウザーの高さと幅のフォールバックとして使用されていました。 | char(20) |
-| `user_agent` | イメージリクエストの HTTP ヘッダーで送信されたユーザーエージェント文字列。 | text |
+| `user_agent` | イメージリクエストの HTTP ヘッダーで送信されたユーザーエージェント文字列。 | テキスト |
 | `user_hash` | 未使用。レポートスイート ID のハッシュ。代わりに username を使用してください。 | int unsigned |
 | `user_server` | 「サーバー」ディメンションで使用される変数。 | varchar(100) |
 | `userid` | 未使用。レポートスイート ID の数値 ID。代わりに username を使用してください。 | int unsigned |
@@ -242,7 +242,7 @@ ht-degree: 96%
 | `videodaypart` | ビデオ日分割 | varchar(255) |
 | `videoepisode` | ビデオのエピソード | varchar(255) |
 | `videofeedtype` | ビデオフィードのタイプ | varchar(255) |
-| `videogenre` | ビデオのジャンル | text |
+| `videogenre` | ビデオのジャンル | テキスト |
 | `videolength` | ビデオの長さ | varchar(255) |
 | `videomvpd` | ビデオ MVPD | varchar(255) |
 | `videoname` | ビデオ名 | varchar(255) |
@@ -255,19 +255,19 @@ ht-degree: 96%
 | `videoqoebuffertimeevar` | ビデオ画質バッファ時間 | varchar(255) |
 | `videoqoedroppedframecountevar` | ビデオ画質ドロップフレーム数 | varchar(255) |
 | `videoqoeerrorcountevar` | ビデオ画質エラー数 | varchar(255) |
-| `videoqoeextneralerrors` | ビデオ画質の外部エラー | text |
-| `videoqoeplayersdkerrors` | ビデオ画質 SDK エラー | text |
+| `videoqoeextneralerrors` | ビデオ画質の外部エラー | テキスト |
+| `videoqoeplayersdkerrors` | ビデオ画質 SDK エラー | テキスト |
 | `videoqoetimetostartevar` | ビデオ画質開始時間 | varchar(255) |
 | `videoseason` | ビデオシーズン | varchar(255) |
 | `videosegment` | ビデオセグメント | varchar(255) |
 | `videoshow` | ビデオショー | varchar(255) |
 | `videoshowtype` | ビデオショーのタイプ | varchar(255) |
 | `videostreamtype` | ビデオストリームのタイプ | varchar(255) |
-| `visid_high` | visid_lowと組み合わせて訪問者を一意に識別するために使用します。 | bigint unsigned |
-| `visid_low` | visid_highと組み合わせて訪問者を一意に識別するために使用します。 | bigint unsigned |
+| `visid_high` | visid_low と組み合わせて使用し、訪問者を一意に識別します。 | bigint unsigned |
+| `visid_low` | visid_high と組み合わせて使用し、訪問者を一意に識別します。 | bigint unsigned |
 | `visid_new` | 新しく生成された訪問者 ID がヒットに含まれているかどうかを識別するフラグ。 | char(1) |
 | `visid_timestamp` | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX 時間）を示します。 | int |
-| `visid_type` | 外部使用の場合は除く。 Adobeが最適化を処理する際に内部的に使用します。 訪問者の識別に使用されるメソッドを表す数値ID。<br>0: Custom visitorID or Unknown/not applicable<br>1: IPおよびユーザーエージェントのフォールバック <br>2: HTTPモバイル加入者ヘッダー <br>3: 従来のcookie値(s_vi) <br>4: フォールバックcookieの値(s_fid) <br>5: IDサービス | tinyint unsigned |
+| `visid_type` | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>0：カスタム 訪問者 ID または該当なし<br>1：IP およびユーザーエージェントのフォールバック<br>2：HTTP モバイル加入者ヘッダー<br>3：従来の cookie 値（s_vi）<br>4：フォールバック cookie の値（s_fid）<br>5：ID サービス | tinyint unsigned |
 | `visit_keywords` | 「検索キーワード」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限が使用されます。 | varchar(244) |
 | `visit_num` | 「通算訪問回数」ディメンションで使用される変数。1 から始まり、訪問者ごとに新しい訪問が開始されるたびに増分されます。 | int unsigned |
 | `visit_page_num` | 「ヒットの深さ」ディメンションで使用される変数。ユーザーがヒットを生成するたびに 1 ずつ増えます。訪問ごとにリセットされます。 | int unsigned |
