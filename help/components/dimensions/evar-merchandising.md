@@ -1,30 +1,30 @@
 ---
 title: eVar（マーチャンダイジング）
-description: productsディメンションに関連付けられるカスタム変数。
+description: 製品ディメンションに関連付けられるカスタム変数。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 25%
+ht-degree: 95%
 
 ---
 
 
 # eVar（マーチャンダイジング）
 
-*このヘルプページでは、マーチャンダイジングeVarがディメンションとして機能する方法を説明します。 For information on how to implement merchandising eVars, see[eVars](/help/implement/vars/page-vars/evar.md)in the Implement user guide.*
+*このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。eVar の実装方法について詳しくは、『実装ユーザガイド』の [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
 
 外部キャンペーンまたは外部検索用語の成功を測定する場合、一般的には発生する成功イベントすべてに対応するクレジットを受け取る 1 個の値が必要になります。例えば、顧客が電子メールキャンペーンのリンクをクリックして Web サイトを訪問した場合、その結果としておこなわれたすべての購入のクレジットがそのキャンペーンに付与される必要があります。
 
-顧客が複数のイベントを探す場合、内部検索やカテゴリの閲覧によって引き起こされるアイテムについてはどうでしょうか。 For example, a customer searches your site for `"goggles"`, then adds a pair to their cart:
+しかし、顧客が複数のアイテムを探しているときにサイト内検索またはカテゴリー閲覧によって発生したイベントはどうなるでしょうか。例えば、顧客がサイトで「`"goggles"`」を検索し、をカートに追加したとします。
 
 ![ゴーグルの例](assets/merch-example-goggles.png)
 
-Before checkout, the customer searches for `"winter coat"`, then adds a down jacket to the to their cart:
+この顧客はチェックアウトの前に「`"winter coat"`」を検索し、ダウンジャケットをカートに追加しました。
 
 ![コートの例](assets/merch-example-coat.png)
 
-訪問者がこの購入を完了すると、一対のゴーグルの購入に `"winter coat"` クレジットが付与される内部検索が発生します（eVarでデフォルトの配分である「最新」が使用される場合）。 Good for `"winter coat"`, but bad for marketing decisions:
+訪問者がこの購入を完了すると、`"winter coat"` の内部検索に、ゴーグルの購入に対するクレジットが付与されます（eVar でデフォルトの配分である「最新」が使用される場合）。`"winter coat"` にとっては良いのですが、マーケティングの意思決定については良いものではありません。
 
 | 内部検索キーワード | 売上高 |
 |---|---|
@@ -32,25 +32,25 @@ Before checkout, the customer searches for `"winter coat"`, then adds a down jac
 
 ## マーチャンダイジング変数による問題解決
 
-マーチャンダイジングeVarを使用すると、成功イベントが発生した時点でeVarの現在の値を製品に割り当てることができます。 その特定の eVar に 1 つ以上の新しい値が後から設定された場合でも、この値はその製品に結び付けられたままになります。
+マーチャンダイジング eVar を使用して、成功イベントが発生した時点で eVar の現在の値を製品に割り当てることができます。その特定の eVar に 1 つ以上の新しい値が後から設定された場合でも、この値はその製品に結び付けられたままになります。
 
-If merchandising is enabled for the eVar in the previous example, the search term `"goggles"` is tied to the snow goggles, and the search term `"winter coat"` is tied to the down jacket. マーチャンダイジングeVarは製品レベルで売上高を割り当てるので、各用語は、その用語が関連付けられた製品の売上高の額に対するクレジットを受け取ります。
+前の例で eVar のマーチャンダイジングを有効にした場合、「`"goggles"`」は雪山用ゴーグルに結び付けられ、検索用語「`"winter coat"`」はダウンジャケットに結び付けられます。マーチャンダイジング eVar では製品レベルで売上を割り当てるので、用語が結び付けられた製品の売上金額に相当するクレジットを各用語が受け取ります。
 
 | 内部検索キーワード | 売上高 |
 |---|---|
 | 冬物コート | $119 |
 | ゴーグル | $38 |
 
-導入手順については、 [マーチャンダイジングeVar](/help/implement/vars/page-vars/evar-merchandising.md) （英語のみ）を参照してください。
+実装手順については、「[マーチャンダイジング eVar](/help/implement/vars/page-vars/evar-merchandising.md)」を参照してください。
 
 ## マーチャンダイジング変数とインスタンス
 
-マーチャンダイジング変数での使用には、 [](../metrics/instances.md) インスタンス指標の使用は推奨されません。
+マーチャンダイジング変数での使用には、[インスタンス](../metrics/instances.md)指標の使用は推奨されません。
 
 * 製品の構文を使用するマーチャンダイジング変数の場合、インスタンスはまったく増えません。
-* コンバージョン変数の構文を使用するマーチャンダイジング変数の場合、eVarが設定されるたびにインスタンスがカウントされます。 ただし、次のすべてが同じヒットで発生しない `"None"` 限り、ディメンション項目の属性になります。
-   * マーチャンダイジングeVarに値が設定されている。
-   * 変数は値で定義され `products` ます。
+* コンバージョン変数の構文を使用するマーチャンダイジング変数の場合、eVar が設定されるたびにインスタンスがカウントされます。However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
+   * マーチャンダイジング eVar が新しい値で上書きされます。
+   * `products` 変数は値で定義されます。
    * バインディングイベントが設定される。
 
 ```js
@@ -62,4 +62,4 @@ s.eVar1 = "Tower defense";
 s.products = "Games;Wizard tower;;;;eVar2=Tower defense";
 ```
 
-コンバージョン変数の構文のほとんどの使用例では、異なるヒットでeVarとproducts変数を使用する必要があるので、「Instances」指標を使用することは現実的ではありません。
+コンバージョン変数の構文のほとんどの使用例では、異なるヒットで eVar と products 変数を使用する必要があるので、「インスタンス」指標を使用することは現実的ではありません。
