@@ -1,9 +1,9 @@
 ---
 title: transactionID
 description: この変数を使用して、オンラインとオフラインのデータをリンクします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> この変数を使用する前に、レポートスイートで[!UICONTROL トランザクション ID ストレージ]が有効になっていることを確認してください。詳しくは、『管理者ユーザーガイド』の[一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md)を参照してください。
+> この変数を使用する前に、レポートスイートで[!UICONTROL トランザクション ID ストレージ]が有効になっていることを確認してください。詳しくは、『管理者ユーザガイド』の「[一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md)」を参照してください。
 
 `transactionID` でヒットを設定すると、その時点で設定または持続するすべての Analytics 変数の「スナップショット」が作成されます。一致するトランザクション ID を持つデータソースを通じてアップロードされたデータは、これらの変数値に永続的に結び付けられます。
 
