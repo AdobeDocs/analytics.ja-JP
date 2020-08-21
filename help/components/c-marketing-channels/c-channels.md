@@ -4,11 +4,11 @@ subtopic: Marketing channels
 title: マーケティングチャネルの管理
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 86%
 チャネル作成時のガイドラインは次のとおりです。
 
 * すべての訪問者が適切なチャネルに分類されるように、すべてのチャネルの一覧を作成し、事前に計画を立ててください。
-* [内部](/help/components/c-marketing-channels/c-rules.md) ヒットと [](/help/components/c-marketing-channels/c-rules.md) 直接ヒットのカテゴリに対するチャネルを含めます。
+* [内部](/help/components/c-marketing-channels/c-rules.md)ヒットのカテゴリ用のチャネルと、[直接](/help/components/c-marketing-channels/c-rules.md)ヒットのカテゴリ用のチャネルを含めてください。
 * 包括的な「その他のキャンペーン」チャネルを含め、有料チャネルの後、および有機チャネルの前に配置します。
 
 
@@ -70,7 +70,7 @@ ht-degree: 86%
 
 ## チャネル設定の適用 {#mktg-channel-mgr}
 
-マー [!UICONTROL ケティングチャネルマネージャー] ページの各チャネルに適用できる設定は様々です。
+[!UICONTROL マーケティングチャネルマネージャー]ページの各チャネルに適用できる設定は様々です。
 
 | フィールド | 定義 |
 |--- |--- |
@@ -79,7 +79,7 @@ ht-degree: 86%
 | ラストタッチチャネルの上書き | ラストタッチチャネルを上書きするかどうかをチャネルごとに指定できます。このチェックボックスを選択すると、すべてのチャネル（「直接」と「内部」を含む）が既存のラストタッチチャネルを上書きします。設定を変更すると、誤ったチャネル（「直接」や「内部」）にコンバージョンが関連付けられるリスクがあるので、注意が必要です。たとえば、「自然検索」チャネルを通してユーザーが以前に獲得されている場合、「直接アクセス」での訪問が発生しても、「自然検索」のチャネルがコンバージョンのクレジットを引き続き受け取るようにしたい場合は、「直接アクセス」チャネルの「ラストタッチチャネルの上書き」オプションを外しておきます（デフォルト設定のまま変更しない）。 |
 | チャネルの分類 |  この値によって、チャネルを分類できます。[マーケティングチャネルの分類](/help/components/c-marketing-channels/classifictions-mchannel.md)を作成する場合、チャネル分類（サブチャネル）を追加することができます。 |
 | タイプ | サイトへのユーザーの訪問手段を指定します。「オンライン」または「オフライン」を選択できます。検索エンジンまたは電子メールキャンペーンから来訪した訪問者に対しては「オンライン」チャネルを使用します。「オフライン」チャネルは、新聞のクーポンや雑誌の広告でサイトの情報を見つけた訪問者に使用します。オフラインチャネルには通常、データソースからインポートされたデータが含まれます。[データソース](https://docs.adobe.com/content/help/ja-JP/analytics/import/data-sources/datasrc-home.html)を参照してください。[オフラインデータの追加](/help/components/c-marketing-channels/c-getting-started-mchannel.md)を参照してください。 |
-| Color | レポートとAnalyticsのみ： このマーケティングチャネルに関連付けられている色。 この色は、マーケティングチャネルレポートで、このチャネルを表します。 |
+| Color | Reports &amp; Analytics のみ：このマーケティングチャネルに関連付けられている色。この色は、マーケティングチャネルレポートで、このチャネルを表します。 |
 
 ### ベストプラクティスの上書き
 
@@ -89,9 +89,9 @@ ht-degree: 86%
 
 ## チャネルルールの定義
 
-レポートにチャネルとチャネルデータを表示できるようにするには、チャネルおよびそのデータを処理するための基本的なルールを作成してください。また、 [訪問者エンゲージメント期間の長さも指定できます](/help/components/c-marketing-channels/visitor-engagement.md) 。
+レポートにチャネルとチャネルデータを表示できるようにするには、チャネルおよびそのデータを処理するための基本的なルールを作成してください。また、[訪問者エンゲージメント期間](/help/components/c-marketing-channels/visitor-engagement.md)の長さも指定できます。
 
-アドビでは、 [自動セットアップ中に定義済みのチャネルをいくつか提供します](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 。これらはニーズに合わせて編集できます。 また、この設定を変更し、 [マーケティングチャネルの処理ルール内でカスタムルールを定義することもでき](/help/components/c-marketing-channels/c-rules.md)ます。
+アドビでは、[自動セットアップ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中に定義済みのチャネルをいくつか提供します。これらはニーズに合わせて編集できます。また、この設定を変更し、[マーケティングチャネルの処理ルール](/help/components/c-marketing-channels/c-rules.md)内でカスタムルールを定義することもできます。
 
 >[!NOTE]
 >
