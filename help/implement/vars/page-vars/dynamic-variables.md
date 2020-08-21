@@ -26,7 +26,7 @@ ht-degree: 94%
 
 ## Adobe Experience Platform Launch の動的変数
 
-動的変数は、文字列を受け取る任意のディメンションフィールドで使用できます。ディメンション項目は、通常、Analytics拡張（グローバル変数）の設定時またはルールで設定されます。
+動的変数は、文字列を受け取る任意のディメンションフィールドで使用できます。Dimension項目は、通常、Analytics拡張機能（グローバル変数）の設定時またはルールで設定されます。
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
