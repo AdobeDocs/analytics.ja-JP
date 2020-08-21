@@ -2,9 +2,9 @@
 description: 関数を使用すると、データをフィルタリングしたり並べ替えたりできます。また、統計分析を行うこともできます。
 title: 関数の使用
 uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 
