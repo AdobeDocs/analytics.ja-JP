@@ -1,11 +1,11 @@
 ---
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 90%
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
-## Adobe Experience PlatformモバイルSDKの通貨コード
+## Adobe Experience Platform モバイル SDK の「通貨コード」
 
-Adobe Experience Platformコードは、AdobeAnalytics拡張機能のコンテキストデータ変数を通じて通貨モバイルSDKに渡されます。
+Adobe Experience Platform コードは、Adobe Analytics 拡張機能のコンテキストデータ変数を通じて通貨モバイル SDK に渡されます。
 
-1. またはのいずれかの時点で、コンテキストデータ変数に通貨コードを設定 `trackState` し `trackAction`ます。
-2. アドビのAnalytics管理コンソールで、レポートスイート用の処理ルールを作成します。 通貨コード変数を上書きするルールを設定します。
-3. またはの呼び出しで、通貨コードを `products` 変数に渡し `trackState` ま `trackAction`す。
+1. `trackState` または `trackAction` のいずれかの時点で、コンテキストデータ変数に通貨コードを設定します。
+2. アドビの Analytics Admin Console で、レポートスイート用の処理ルールを作成します。通貨コード変数を上書きするルールを設定します。
+3. `trackState` または `trackAction` の呼び出しで、通貨コードを `products` 変数に渡します。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
