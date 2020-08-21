@@ -5,22 +5,22 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 
 # Analytics のディメンションの互換性
 
-このページリストのディメンションは、それぞれのAnalytics機能でサポートされています。
+このページは、それぞれの Analytics 機能でサポートされているディメンションを一覧表示しています。
 
 >[!NOTE]
 >
->カスタム変数名、分類、訪問者属性は、このリストには含まれません。 これらのディメンション項目は、個々のレポートスイートに固有です。
+>カスタム変数名、分類、訪問者属性は、このリストには含まれません。これらのディメンション項目は、個々のレポートスイートに固有です。
 
 >[!NOTE]
 >
->Analyticsのツールで、類似した寸法に異なる用語が使用されている場合は、重なりがあります。 例えば、Reports &amp; Serverはを使用し、Analysis Workspaceは `browserwidth` を使用 `browserwidthbucketed`します。
+>Analytics のツールで、類似したディメンションに異なる用語が使用されている場合は、重なりがあります。例えば、Reports &amp; Analytics は `browserwidth` を使用し、Analysis Workspace は `browserwidthbucketed` を使用します。
 
 ## Reports &amp; Analytics と Analysis Workspace の両方でサポートされているディメンション
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 | ブラウザーのタイプ | `browsertype` |
 | カテゴリ | `category` |
 | 市区町村 | `geocity` |
-| 画面の色 | `colordepth` |
+| 色深度 | `colordepth` |
 | 接続のタイプ | `connectiontype` |
 | cookie サポート | `cookie` |
 | 国 | `geocountry` |
@@ -74,7 +74,7 @@ ht-degree: 92%
 | オペレーティングシステム | `operatingsystem` |
 | オリジナルの参照ドメイン | `referringdomainoriginal` |
 | ページ | `page` |
-| エラーページ (404) | `pagesnotfound` |
+| エラーページ（404） | `pagesnotfound` |
 | 製品          | `product` |
 | リファラー | `referrer` |
 | リファラータイプ | `referrertype` |
@@ -84,13 +84,13 @@ ht-degree: 92%
 | SC-TnT | `tntbase` |
 | 検索エンジン | `searchengine` |
 | 検索キーワード | `searchenginekeyword` |
-| 検索エンジン  — 自然 | `searchenginenatural` |
+| 検索エンジン- ナチュラル | `searchenginenatural` |
 | 検索エンジン - 有料 | `searchenginepaid` |
 | 検索キーワード - 自然 | `searchenginenaturalkeyword` |
 | 検索キーワード - 有料 | `searchenginepaidkeyword` |
 | すべての検索ページのランク | `searchenginepagerank` |
 | サーバー | `server` |
-| 直帰数 | `singlepagevisits` |
+| 単一ページ訪問数 | `singlepagevisits` |
 | サイトセクション | `sitesections` |
 | 訪問別滞在時間 - 詳細 | `sitetime` |
 | トラッキングコード | `campaign` |
@@ -106,7 +106,7 @@ ht-degree: 92%
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
-| 午前 / 午後 | `timepartampm` |
+| 午前／午後 | `timepartampm` |
 | ブラウザーの高さ - グループ | `browserheightbucketed` |
 | ブラウザーの幅 - グループ | `browserwidthbucketed` |
 | 日 | `daterangeday` |
@@ -126,7 +126,7 @@ ht-degree: 92%
 | 出口サイトセクション | `exitsitesections` |
 | ヒットの深さ | `hitdepth` |
 | ヒットタイプ | `hittype` |
-| 時間 | `daterangehour` |
+| Hour | `daterangehour` |
 | 時刻 | `timeparthourofday` |
 | マーケティングチャネル詳細 | `marketingchanneldetail` |
 | 分 | `daterangeminute` |
@@ -149,7 +149,7 @@ ht-degree: 92%
 | ページでの滞在時間 - グループ | `averagepagetime` |
 | ページでの滞在時間 - 詳細 | `pagetimeseconds` |
 | トラッキングオプトアウト理由 | `optoutreason` |
-| 平日 / 週末 | `timepartweekdayweekend` |
+| 平日／週末 | `timepartweekdayweekend` |
 | 週 | `daterangeweek` |
 | 年 | `daterangeyear` |
 
@@ -310,7 +310,7 @@ ht-degree: 92%
 
 ### Nielsen 統合
 
-For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
+この統合の実装方法の詳細については、「[Nielsen 拡張機能](https://exchange.adobe.com/experiencecloud.details.101361.html)」を参照してください。
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
@@ -319,7 +319,7 @@ For more information on how to implement this integration, see the [Nielsen Exte
 | Nielsen セグメント B | `nielsensegmentb` |
 | Nielsen セグメント A | `nielsensegmenta` |
 | Nielsen コンテンツ ID | `nielsencontentid` |
-| Nielsen アセット / プログラム | `nielsenasset` |
+| Nielsen アセット／プログラム | `nielsenasset` |
 | Nielsen VCID | `nielsenvcid` |
 | Nielsen オプトアウト | `nielsenoptout` |
 | Nielsen クライアント ID + VCID | `nielsenclientidvcid` |
