@@ -1,22 +1,22 @@
 ---
-title: products
+title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
 
-# products
+# 製品
 
-`products` 変数は、それらに関連付けられた製品とプロパティを追跡します。この変数は、通常、個々の製品ページ、買い物かごページ、および購入確認ページに設定されます。これは複数値の変数で、同じヒットで複数の製品を送信し、アドビが値を解析して別々のディメンション項目に分けることができます。
+`products` 変数は、それらに関連付けられた製品とプロパティを追跡します。この変数は、通常、個々の製品ページ、買い物かごページ、および購入確認ページに設定されます。これは複数値の変数です。つまり、同じヒットで複数の製品を送信し、Adobeが値を解析して別々のディメンション項目に分割できます。
 
 >[!NOTE]
 >
->If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. 各ヒットに対して、 `products` 変数を使用して適切な買い物かごのイベントを設定していることを確認します。
+>この変数が、買い物かごイベントのないヒットで [`events`](events/events-overview.md) 変数に設定されている場合、[製品表示回数](/help/components/metrics/product-views.md)指標は 1 増分されます。各ヒットに対して、`products` 変数を使用して適切な買い物かごのイベントを設定していることを確認します。
 
 ## Adobe Experience Platform Launch の製品
 
