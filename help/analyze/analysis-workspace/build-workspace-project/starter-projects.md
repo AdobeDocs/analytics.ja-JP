@@ -3,10 +3,10 @@ description: 'null'
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,9 @@ ht-degree: 100%
 
 ### コマース
 
-* **Magento：マーケティングとコマース**：このテンプレートは、マーケティングチャネルアトリビューション別に e コマースコンバージョンを分類し、検索キーワード、ランディングページ、地理的な場所などによるインサイトを提供します。ビデオの概要については、 [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw) を参照してください。
+* **Magento：マーケティングとコマース**：このテンプレートは、マーケティングチャネルアトリビューション別に e コマースコンバージョンを分類し、検索キーワード、ランディングページ、地理的な場所などによるインサイトを提供します。ビデオの概要については、次を参照してください。
+
+>[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### メディア
 
