@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: 特定のアクションが実行される時間を測定します。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '822'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 Analysis Workspace は、このプラグインとは少し異なる形式の、標準搭載された同様のディメンションを提供します。詳細については、『Analyze ユーザーガイド』の[時間分割ディメンション](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)を参照してください。組織によっては、Analysis Workspace の標準のディメンションで十分であると見なされる場合があります。
 
->[重要] このプラグインのバージョン 4.0 以降は、以前のバージョンとは大きく異なります。アドビでは、このプラグインを「最初から」実装することを強くお勧めします。バージョン 4.0 より前のプラグインを参照するコードは、このプラグインの現在のバージョンと互換性がありません。
+>[!IMPORTANT]
+>
+>このプラグインのバージョン4.0以降は、以前のバージョンとは大きく異なります。 アドビでは、このプラグインを「最初から」実装することを強くお勧めします。バージョン 4.0 より前のプラグインを参照するコードは、このプラグインの現在のバージョンと互換性がありません。
 
 ## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
 
