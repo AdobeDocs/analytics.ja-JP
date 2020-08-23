@@ -1,10 +1,10 @@
 ---
 description: Ad Hoc Analysis を使い始める
 title: Ad Hoc Analysis の概要
-translation-type: ht
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
-workflow-type: ht
-source-wordcount: '176'
+translation-type: tm+mt
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,8 @@ ht-degree: 100%
 
 Ad Hoc Analysis を使用すると、無制限のリアルタイム訪問者情報によって、価値の高い顧客セグメントを特定できます。データを詳細に分析し、顧客について深く掘り下げ、包括的な情報を正確に把握できます。
 
->[!I重要]
+>[!IMPORTANT]
+>
 >2018 年 8 月 6 日、アドビは Ad Hoc Analysis のサポート終了の意向を表明しました。サポート終了日については確定次第お知らせします。サポート終了の予定や詳細については [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace) を参照してください。
 
 ## 新しいトピックとよく参照されるトピック
