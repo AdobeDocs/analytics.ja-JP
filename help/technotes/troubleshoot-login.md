@@ -2,10 +2,10 @@
 title: Adobe Analyticsへのログインのトラブルシューティング
 description: Adobe Analyticsにログインできない場合に実行する手順です。
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 3%
+source-wordcount: '609'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Experience Cloudを使用したAdobe Analyticsへのログインに関する問�
 
 ## 従来のAnalytics ID
 
-組織内のユーザーがログイン時に次のエラーメッセージが表示されることがあります。
+組織内のユーザーがログインを試みると、次のエラーが発生する場合があります。
 
 *セキュリティ対策のため、ログインに失敗した回数が多すぎるため、このアカウントはロックされています。*
 
@@ -53,6 +53,14 @@ Experience Cloudを使用したAdobe Analyticsへのログインに関する問�
 ## シングルサインオン
 
 シングルサインオンの問題を解決するには、組織の管理者に問い合わせてください。
+
+## 期限切れログイン
+
+組織内のユーザーがログインを試みると、次のエラーが発生する場合があります。
+
+*エラー：このログインは期限が切れています。*
+
+このエラーは意図したとおりに機能します。 Adobe Analyticsでは、管理者がユーザーアカウントが有効な日付範囲を設定できる機能を提供しています。 現在の日付がアカウントの有効な日付範囲外にある場合は、ログインできません。 ログインの有効な日付範囲を拡張するには、組織のAnalytics管理者に相談してください。 Adobeカスタマーケアは、ユーザーアカウントの有効なログイン日の範囲を変更する権限がありません。
 
 ## その他のログインの問題
 
