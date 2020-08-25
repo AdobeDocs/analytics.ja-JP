@@ -5,10 +5,10 @@ user-guide-title: Analytics ツールガイド
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 99%
+source-wordcount: '1102'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,6 @@ ht-degree: 99%
       + [Analysis Workspace のアクセシビリティ](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder ヘルプ](report-builder/home.md)
-   + [Report Builder の新機能](report-builder/whats-new-arb.md)
    + Report Builder の設定 {#report-builder-setup}
       + [必要システム構成](report-builder/setup/system-requirements.md)
       + [Report Builder のインストール](report-builder/setup/t-install-arb.md)
@@ -241,8 +240,9 @@ ht-degree: 99%
       + [ベストプラクティス](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 統合のトラブルシューティング](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Power BI 用 Adobe Analytics コンテンツパック](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Report Builder のトラブルシューティングとベストプラクティス](report-builder/troubleshoot.md)
    + [Visual Basicマクロ](report-builder/vba.md)
+   + [Report Builderのトラブルシューティング](report-builder/troubleshoot.md)
+   + [Report BuilderFAQ](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map の概要](activity-map/activity-map.md)
    + はじめに {#getting-started}
