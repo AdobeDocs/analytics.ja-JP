@@ -2,10 +2,10 @@
 description: 'null'
 title: Power BI への発行 - 概要
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1058'
+translation-type: tm+mt
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -20,12 +20,6 @@ Microsoft Power BI は、データを分析してインサイトを共有する�
 Report Builder のレポート生成機能を Power BI の視覚化機能と組み合わせることで、組織の全員が情報にアクセスできるようになります。Power BI を使用すると、Adobe Analytics を他のデータソース（POS、CRM など）と統合して、独自の顧客インサイト、関連事項および機会を発見することもできます。
 
 ![](assets/aaplusbi.png)
-
-Adobe Report Builder との統合により、以下のことができるようになります。
-
-* [スケジュールされた Report Builder ワークブックを Power BI に発行する](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [ワークブック内のすべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行する](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [すべての Report Builder リクエストを Power BI データセットテーブルとして発行する](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## 必要システム構成 {#section_0B71092D853446F38FA36447DAC0D32B}
 
@@ -58,7 +52,7 @@ Adobe Report Builder との統合により、以下のことができるよう�
 
    ![](assets/workbooks-power-bi.png)
 
-1. これで、ワークブックのダッシュボードデータを表示できるようになります。      ![](assets/view-data-pbi.png)
+1. これで、ワークブックのダッシュボードデータを表示できるようになります。        ![](assets/view-data-pbi.png)
 
 1. このワークブックの領域をピン留めして任意の Power BI ダッシュボードに追加することができます。
 
