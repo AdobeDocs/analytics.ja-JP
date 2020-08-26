@@ -2,17 +2,17 @@
 title: '[!UICONTROL IP ログイン制限の実施]の提供終了'
 description: '[!UICONTROL IP ログイン制限の実施]の提供終了タイミングと影響について説明します。'
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 649a33253f7520b4d8e210043ceedd6345a49be7
 workflow-type: tm+mt
 source-wordcount: '544'
-ht-degree: 85%
+ht-degree: 80%
 
 ---
 
 
 # [!UICONTROL IP ログイン制限の実施]の提供終了
 
-The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. 多くの場合、この機能は、ユーザーがログインできる唯一のセキュア IP アドレスとして会社の IP アドレスを設定するために使用されます。したがって、Adobe Analytics を使用するには、ユーザーが社内にいるか、VPN 経由でネットワークにログインする必要があります。
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)** feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. 多くの場合、この機能は、ユーザーがログインできる唯一のセキュア IP アドレスとして会社の IP アドレスを設定するために使用されます。したがって、Adobe Analytics を使用するには、ユーザーが社内にいるか、VPN 経由でネットワークにログインする必要があります。
 
 この機能は2021年1月に提供終了となる予定です。
 
@@ -28,7 +28,7 @@ The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**
 
 For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. その時点で、「IP ログイン制限の実施」は適用されなくなります。引き続き IP アドレスでログインを制限する必要がある場合は、シングルサインオンと Federated ID の推奨ソリューション（詳細情報とリソースは以下を参照）を確認し、実装する必要があります。
 
-さらに、以下に示すように、**[!UICONTROL IP ログイン制限の実施]**&#x200B;設定は Analytics UI でも&#x200B;**[!UICONTROLA管理者／企業設定／セキュリティマネージャー]**&#x200B;から削除されます。
+Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROL Admin]>[!UICONTROL Company Settings]>[!UICONTROL Security Manager]** in the Analytics UI (as shown below).
 
 ![](assets/sec-manager2.png)
 
