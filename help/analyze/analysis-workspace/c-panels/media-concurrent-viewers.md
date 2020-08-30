@@ -1,16 +1,16 @@
 ---
-title: 同時ビューアパネル
-description: Analysis Workspaceの同時ビューアパネルの使用方法と解釈方法。
+title: メディア同時ビューアパネル
+description: Analysis Workspaceのメディアコンカレントビューアパネルの使用方法と解釈方法。
 translation-type: tm+mt
-source-git-commit: 807c5e31b376799f4494ecc24cebfd9498c39e63
+source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '993'
 ht-degree: 9%
 
 ---
 
 
-# 同時ビューアパネル
+# メディア同時ビューアパネル
 
 >[!IMPORTANT]
 >
