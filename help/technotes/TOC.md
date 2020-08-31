@@ -5,10 +5,10 @@ user-guide-title: Analytics テクニカルノート
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: 35952706f89bf70cd4fd5d33f83b4b2df5b8ffee
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 91%
+source-wordcount: '155'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,10 @@ ht-degree: 91%
 + [データの除外](exclude-data.md)
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)
++ [Mobile Servicesの処理ルールのAdobe Analyticsへの移行](migrate-mobile.md)
++ [複数通貨のサポート](multicurrency.md)
 + [プライバシーの概要](privacy-overview.md)
 + [リダイレクトとエイリアス](redirects.md)
-+ [複数通貨のサポート](multicurrency.md)
 + 地域データ収集 {#rdc}
    + [地域データ収集ヘルプ](rdc/regional-data-collection.md)
    + [SSL 証明書ライセンス](rdc/ssl-cert-licensing.md)
