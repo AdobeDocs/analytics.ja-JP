@@ -2,10 +2,10 @@
 title: メディア同時ビューアパネル
 description: Analysis Workspaceのメディアコンカレントビューアパネルの使用方法と解釈方法。
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 9%
+source-wordcount: '1002'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->この機能は、Media Analyticsのお客様向けに段階的に展開しています。
+>この機能は、メディア解析のお客様向けの限定テストに含まれています。 [詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/landing/an-releases.html)
 
 Media Analyticsのお客様は、同時実行のピークが発生した場所や下降が発生した場所を把握し、コンテンツとビューアの関与の質に関する貴重な洞察を得たり、ボリュームや規模のトラブルシューティングや計画を支援したりできます。
 
