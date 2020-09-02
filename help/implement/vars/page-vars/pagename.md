@@ -1,24 +1,24 @@
 ---
 title: pageName
 description: サイトのページの名前。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 81%
 
 ---
 
 
 # pageName
 
-`pageName` 変数は通常、特定のページの名前を保存します。最も人気のある個々のページを判断すると役立ちます。この変数は、「ページ名」ディメンションを設定します。
+`pageName` 変数は通常、特定のページの名前を保存します。最も人気のある個々のページを判断すると役立ちます。This variable populates the [Page](/help/components/dimensions/page.md) dimension.
+
+この変数が特定のページトラッキングコールで定義されていない場合は、代わりに [`pageURL`](pageurl.md) 変数が使用されます。
 
 >[!NOTE]
 >
-> このディメンションは、常にリンクトラッキングコールから削除されます。リンクが追跡されたページ名を確認する場合は、この変数を eVar にコピーすることを検討してください。
-
-この変数が特定のページトラッキングコールで定義されていない場合は、代わりに [`pageURL`](pageurl.md) 変数が使用されます。
+>Adobeデータ収集サーバーは、このディメンションをすべての [リンクトラッキング](/help/implement/vars/functions/tl-method.md) イメージリクエストから除去します。 このディメンションをリンクトラッキングのヒットで表示する場合は、このディメンションを [eVarにコピーすることを検討してください](evar.md)。
 
 ## Adobe Experience Platform Launch のページ名
 
@@ -43,4 +43,10 @@ s.pageName = "Example page name";
 
 // Set page name to the page's title
 s.pageName = window.document.title;
+```
+
+デー `digitalData` タレイヤーを使用する場合 [](../../prepare/data-layer.md):
+
+```js
+s.pageName = digitalData.page.pageInfo.pageName;
 ```
