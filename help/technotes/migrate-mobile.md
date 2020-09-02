@@ -2,9 +2,9 @@
 description: Mobile Servicesの処理ルールをAdobe Analyticsに移行する方法を説明します
 title: Mobile Servicesの処理ルールのAdobe Analyticsへの移行
 translation-type: tm+mt
-source-git-commit: 67c8880e125ca31aa96ecea56a7ef0b85bc3abba
+source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '680'
 ht-degree: 18%
 
 ---
@@ -47,6 +47,10 @@ Analysis Workspaceには、モバイル指標とディメンションに加え�
 * パフォーマンス：どのようにアプリが実行され、ユーザーはどこに問題を抱えていますか。
 * リテンション：常連ユーザーは誰で、何をしていますか。
 * ジャーニー：アプリで目立つ使用パターンは何ですか。
+
+以下に、モバイルアプリの使用状況テンプレートの抜粋を示します。
+
+![モバイルアプリの使用状況](assets/mobile-app-usage.png)
 
 テンプレートにアクセスするには：
 
