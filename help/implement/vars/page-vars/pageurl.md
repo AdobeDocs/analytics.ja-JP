@@ -1,11 +1,11 @@
 ---
 title: pageURL
 description: 自動的に収集されたページの URL をサイトで上書きします。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,7 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 
 >[!NOTE]
 >
-> この変数は、Analysis Workspace では使用できないディメンションで、Data Warehouse およびデータフィードでのみ使用できます。ページ URL を Analysis Workspace のディメンションとして使用する場合は、ヒットのたびに eVar に `pageURL` 変数を渡すことを検討してください。
-
-URL が 255 バイトを超える場合があります。AppMeasurement は、イメージリクエストの URL の最初の 255 バイトに対して `g` クエリー文字列パラメーターを使用します。URL が 255 バイトを超える場合、残りの URL は `-g` クエリー文字列パラメーターに保存されます。URL 内のプロトコルとクエリー文字列がこの変数に含まれます。
+> この変数は、Analysis Workspace では使用できないディメンションで、Data Warehouse およびデータフィードでのみ使用できます。また、Adobeデータ収集サーバーは、このディメンションをすべての [リンクトラッキング](/help/implement/vars/functions/tl-method.md) イメージリクエストから除去します。 ページURLをAnalysis Workspaceでディメンションとして使用する場合、またはこのディメンションをリンクトラッキングヒットで使用する場合は、 `pageURL` 変数を各ヒットで [eVar](evar.md) に渡すことを検討します。
 
 ## Adobe Experience Platform Launch のページ URL
 
@@ -26,10 +24,10 @@ Launch はページ URL を自動的に設定します。ただし、Analytics �
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
-3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
-5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
-6. [!UICONTROL ページ URL] セクションを見つけます。
+3. 「**[!UICONTROL ルール]**」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
+4. 「**[!UICONTROL アクション]**」で、既存の「**[!UICONTROL Adobe Analytics - 変数を設定]**」アクションをクリックするか、「+」アイコンをクリックします。
+5. 「**[!UICONTROL 拡張機能]**」ドロップダウンを「Adobe Analytics」に設定し、「**[!UICONTROL アクションタイプ]**」を「**[!UICONTROL 変数を設定]**」に設定します。
+6. **[!UICONTROL ページ URL]** セクションを見つけます。
 
 ページ URL は任意の文字列値に設定できます。
 
@@ -46,4 +44,10 @@ s.pageURL = "https://example.com";
 ```js
 // Set eVar1 to page URL without protocol or query strings
 s.eVar1 = window.location.hostname + window.location.pathname;
+```
+
+デー `digitalData` タレイヤーを使用する場合 [](../../prepare/data-layer.md):
+
+```js
+s.pageURL = digitalData.page.pageInfo.destinationURL;
 ```
