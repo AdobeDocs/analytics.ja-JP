@@ -2,23 +2,23 @@
 title: モバイル属性参照
 description: モバイル属性の参照ファイル。
 translation-type: tm+mt
-source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
+source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
 
 # モバイル属性参照
 
-モバイル属性は、ヒットに含まれるモバイルデバイスのプロパティを表示します。 このファイルは、次の場合に表示されます。
+モバイル属性は、ヒットに含まれるモバイルデバイスのプロパティを表示します。このファイルは、次の場合に表示されます。
 
-* 動的検索が有効になっています。 組織のサポート委任者は、必要なフィードIDをカスタマーケアに連絡して、動的な検索を有効にできます。
-* 列が含まれ `mobile_id` ます。
-* 列が除外され `user_agent` ます。 この除外は、DeviceAtlasとのライセンス契約に基づいて必要となります。
+* 動的検索が有効になっています。組織のサポート委任者は、必要なフィード ID をサポートに連絡して、動的な検索を有効にできます。
+* `mobile_id` 列が含まれます。
+* `user_agent` 列が除外されます。この除外は、DeviceAtlas とのライセンス契約に基づいて必要となります。
 
-リスト `mobile_attributes_headers.tsv`をダウンロードまたは参照するには、こちらを参照してください。
+[`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv)をダウンロードする、またはこちらのリストを参照してください。
 
 * `mobile_id`
 * `Manufacturer`
