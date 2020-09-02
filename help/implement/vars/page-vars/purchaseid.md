@@ -1,11 +1,11 @@
 ---
 title: purchaseID
 description: 一意の購入識別子に基づいてヒットの重複を除外します。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,12 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 s.purchaseID = "ABC123";
 ```
 
->[!NOTE]
+デー `digitalData` タレイヤーを使用する場合 [](../../prepare/data-layer.md):
+
+```js
+s.purchaseID = digitalData.transaction.transactionID;
+```
+
+>[!CAUTION]
 >
-> 購入 ID の生成にランダム化関数を使用しないでください。アドビでは、特定の購入 ID を保存するために[データレイヤー](../../prepare/data-layer.md)を使用することをお勧めします。
+> 購入 ID の生成にランダム化関数を使用しないでください。
