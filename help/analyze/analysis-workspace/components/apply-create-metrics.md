@@ -2,11 +2,11 @@
 description: Analysis Workspace には、指標の使用方法が 2 つあります。
 title: 指標
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 79032645028af6e782a89867057fc9a1726ca27c
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Analysis Workspace には、指標の使用方法が 2 つあります。
 >
 >これは一見シンプルに見えますが、指標の使用はかなり強力です。レポートに指標を追加するには、適切な指標をテーブルの「指標」セクションにドラッグします。また、ディメンションを指標別に分類して、テーブルビューを細かく制御することもできます。さらに、ディメンションとして指標を挿入したり、指標としてディメンションを挿入したりして、時間外レポートを作成できます。様々なコンポーネントを操作して、機能を確認してください。ほかにも多くのことができます。
 
-または、**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しい指標]**&#x200B;をクリックします。これにより、既存の指標からカスタム指標を作成できる、[計算指標ビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html)が表示されます。
+または、**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しい指標]**&#x200B;をクリックします。これにより、既存の指標からカスタム指標を作成できる、[計算指標ビルダー](/help/components/c-calcmetrics/cm-overview.md)が表示されます。
 
 計算指標をすばやく簡単に作成できるように、フリーフォームテーブルの列の右クリックメニューに「**[!UICONTROL 選択から指標を作成]**」が追加されました。このオプションは、ヘッダー列のセルが 1 つ以上選択されると表示されます。
 
@@ -33,7 +33,7 @@ Analysis Workspace には、指標の使用方法が 2 つあります。
 
 ## 様々なアトリビューションモデルとの指標の比較
 
-アトリビューションモデル同士を手軽に比較したい場合は、指標を右クリックし、「**[!UICONTROL アトリビューションモデルを比較]**」を選択します。
+If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Compare Attribution Models]**:
 
 ![アトリビューションの比較](assets/compare-attribution.png)
 
