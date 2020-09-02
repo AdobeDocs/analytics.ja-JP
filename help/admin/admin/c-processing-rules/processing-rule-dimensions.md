@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 処理ルールで使用可能なディメンション
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 86%
 
 ---
 
@@ -88,11 +91,11 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページ名 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意：ページビューは、ページ名が空以外のすべてのヒットに対してカウントされます。リンクを追跡すると、データ収集サーバーがヒットからページ名を削除するため、ページビューはカウントされません。この呼び出しに処理ルールを使用してページ名を再挿入すると、ページビューがカウントされるようになります。ページ名が既に設定されていることを確認してからページ名を変更することをお勧めします。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： リンクトラッキングの呼び出しは、処理ルールに到達する前に <code>pageName</code> 変数を取り除きます。 処理ルールを使用してページ名の値を再挿入すると、そのヒットは、リンクトラッキング呼び出しではなく、ページ表示と見なされます。 ページ名を変更する前に、ページ名が既に設定されていることを確認することをAdobeが推奨します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページ URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 </td> 
+   <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 <p>注意： リンクトラッキングの呼び出しは、処理ルールに到達する前に <code>pageURL</code> 変数を取り除きます。 処理ルールを使用してページURL値を再挿入する場合、ヒットはリンクトラッキング呼び出しではなくページ表示と見なされます。 ページURLを変更する前に、ページURLが既に設定されていることをAdobeが確認することをお勧めします。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>クエリー文字列パラメーター </p> </td> 
