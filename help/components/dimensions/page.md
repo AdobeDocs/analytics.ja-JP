@@ -2,10 +2,10 @@
 title: ページ
 description: ページの名前。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 88%
+source-wordcount: '212'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 88%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストの[`pageName`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、`pageName` 変数を使用してこのデータを収集します。`pageName` 変数が定義されていない場合は、ページの URL を使用してフォールバックします。
+このディメンションは、 [`pageName` ページ表示呼び出しの](/help/implement/validate/query-parameters.md) クエリ列 [(`t()`)からデータを取得します](/help/implement/vars/functions/t-method.md)。 [リンクトラッキングコール(`tl()`)](/help/implement/vars/functions/tl-method.md) 。 `pageName` クエリ文字列が存在する場合でも、常にこのディメンションを除去します。
+
+AppMeasurement は、[`pageName`](/help/implement/vars/page-vars/pagename.md) 変数を使用してこのデータを収集します。If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
 ## Dimension項目
 
