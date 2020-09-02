@@ -2,9 +2,9 @@
 description: Mobile Servicesの処理ルールをAdobe Analyticsに移行する方法を説明します
 title: Mobile Servicesの処理ルールのAdobe Analyticsへの移行
 translation-type: tm+mt
-source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
+source-git-commit: c2610bf25c960039ca8638cecbd05f3a8b28376f
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '700'
 ht-degree: 18%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 18%
 AdobeのMobile Services機能の今後（予告なしに）の日没が予定されているので、このドキュメントでは、Mobile Services UIで作成した追加の処理ルール（ライフサイクル指標を除く）をAdobe Analyticsに移行する方法について説明します。
 
 処理ルールは、コンテキストデータ変数の値を prop および eVar に移動するために使用されます。例えば、「検索語」コンテキストデータ変数の値をコマース変数eVarの値に配置し、すべてのヒットでその値を上書きできます。 処理ルールがないと、Analytics にレポートが出力されないため、コンテキストデータ変数は無意味となります。
+
+このドキュメントでは、Analysis Workspaceのモバイル使用レポートにも取り組み、他のMobile Services機能の移行の可能性について説明します。
 
 ## 処理ルールの移行
 
@@ -69,7 +71,7 @@ Analysis Workspaceには、モバイル指標とディメンションに加え�
 * アプリ内メッセージ
 * 目標地点管理
 
-有料機能としてMobile Servicesを利用する場合、他の内部/外部ツールへの実行可能な移行パスはありません。
+有料機能にMobile Servicesを活用している場合は、他の内部/外部ツールへの実行可能な移行パスはありません。
 
 * ダウンロード計測用リンクについては、お客様のニーズを満たすためにAdobeパートナーにお問い合わせいただけます。
 * プッシュメッセージとアプリ内メッセージはAdobe Campaign StandardとAdobe Campaign Classicで異なります（プッシュのみ）が、ターゲット設定に使用される基になるデータセットは異なり、データやメッセージアクティビティの移行はできません。
