@@ -3,7 +3,10 @@ description: Analytics ユーザー ID を Adobe Experience Cloud 内の Admin C
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '3131'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +76,7 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder の更新 </p> </td> 
-   <td colname="col2"> <p> <p>重要：<a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> のインストールを最新バージョンに更新してください。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> のインストールを最新バージョンに更新してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行はいつ始まるのですか。 </p> </td> 
@@ -126,17 +129,12 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行開始日を延期できますか。 </p> </td> 
-   <td colname="col2"> <p>はい。<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html">アドビカスタマーケア</a>に連絡してください。 </p> 
-    <draft-comment> 
-     <p>開始日における現在の Analytics ユーザーおよび権限管理に対する変更の説明については、以下を参照してください。 </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>はい。<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html">アドビカスタマーケア</a>に連絡してください。 </p><p>開始日における現在の Analytics ユーザーおよび権限管理に対する変更の説明については、以下を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>会社が Admin Console への移行を予定しています。移行開始日前は、新規ユーザーおよび権限グループをどこで作成しますか。 </p> </td> 
-   <td colname="col2"> <p>移行開始日前は、Admin Console または Analytics／ユーザー管理でユーザーを作成できます。 </p> <p>移行開始後は、Admin Console でのみユーザーおよび権限グループを作成できます。 </p> 
-    <draft-comment> 
-     <p>移行開始日に発生する処理の詳細については、以下の「移行」の節を参照してください。 </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>移行開始日前は、Admin Console または Analytics／ユーザー管理でユーザーを作成できます。 </p> <p>移行開始後は、Admin Console でのみユーザーおよび権限グループを作成できます。 </p><p>移行の開始日に起こる動作の詳細については、後述の「移行」の節を参照してください。 </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Federated ID を使用したシングルサインオンはいつ実装できるようになりますか。 </p> </td> 
@@ -167,10 +165,8 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行されていないユーザーの権限グループのメンバーシップを更新できますか。 </p> </td> 
-   <td colname="col2"> <p>はい。移行されていないユーザーのグループメンバーシップは、Analytics の「ユーザー管理」セクションから変更できます。 </p> 
-    <draft-comment> 
-     <p>これをどこで行うかについては、Ashok の確認待ち。 </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>はい。移行されていないユーザーのグループメンバーシップは、Analytics の「ユーザー管理」セクションから変更できます。 </p><p>これをどこで行うかについては、Ashok の確認待ち。 </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行開始後に Analytics でユーザーおよび権限グループを作成し、移行ツールを使用して Admin Console に移動することができますか。 </p> </td> 
@@ -314,7 +310,7 @@ Admin Console の使用メリットには、次のようなものがあります
 
 この移行計画について、現在のユーザーにあらかじめ知らせておきたい場合は、以下のテンプレートをカスタマイズして、現在の Analytics ユーザー全員に送信することができます。
 
-すべてのユーザーに電子メールを送信するには、// **[!UICONTROL Analytics]** 電子メー **[!UICONTROL Admin]** ルユー **[!UICONTROL User Management]** ザーに移 [動しま](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)す。
+すべてのユーザーに電子メールを送信するには、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／[ユーザーへのメール送信](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)に移動します。
 
 **件名：** Adobe Analytics と Adobe Experience Cloud へのログイン方法が新しくなります
 
