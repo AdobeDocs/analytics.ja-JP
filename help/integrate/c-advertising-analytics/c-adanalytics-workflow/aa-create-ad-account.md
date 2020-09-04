@@ -1,10 +1,10 @@
 ---
 title: 広告アカウントの設定
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '851'
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -45,14 +45,11 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
       </tr> 
       <tr> 
       <td colname="col1"> <p>OAuth のトークン </p> </td> 
-      <td colname="col2"> <p>注意：OAuth はアクセス委任のオープン標準です。Web サイトまたはアプリケーションに他の Web サイト上にある関連情報へのアクセス権限を付与しても、パスワードを渡さないようにする方法として一般的に使用されます。 </p> <p>注意：サードパーティの URL（efrontier.com）への誘導を示すメッセージが表示されます。アドビは efrontier を使用して 3 つのすべての検索エンジンに対して OAuth 認証プロセスを強化しています。 </p> <p>注意：Internet Explorer 11（または以前のバージョン）を使用している場合、3 つのどの検索エンジンでも OAuth のトークンを正しく取得できません。他の Web ブラウザーを使用してください。 </p> <p>「<span class="uicontrol">トークンを取得</span>」をクリックすると、OAuth2 認証プロセスが開始されます。つまり、資格情報を使用して　Google／Bing 検索アカウントにサインインするように求められます。選択している検索エンジンに応じて、このプロセスは多少異なります。 </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords：Google アカウント ID を入力します。 </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：Bing アカウント ID と Bing カスタマー ID を入力します。 </li> 
-        </ul> <p>これらの ID について詳しくは、<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >アカウント ID を見つける方法</a>を参照してください。 </p> <p>正しくログインすると、「OAuth のトークン」フィールドに「 
-        <systemoutput>
-          取得済み
-        </systemoutput>」と表示されます。 </p> </td> 
+      <td colname="col2"> <p>注意：OAuth はアクセス委任のオープン標準です。Web サイトまたはアプリケーションに他の Web サイト上にある関連情報へのアクセス権限を付与しても、パスワードを渡さないようにする方法として一般的に使用されます。 </p> <p>注意：サードパーティの URL（efrontier.com）への誘導を示すメッセージが表示されます。アドビは efrontier を使用して 3 つのすべての検索エンジンに対して OAuth 認証プロセスを強化しています。 </p> <p>注意：Internet Explorer 11（または以前のバージョン）を使用している場合、3 つのどの検索エンジンでも OAuth のトークンを正しく取得できません。他の Web ブラウザーを使用してください。 </p> <p>「<span class="uicontrol">トークンを取得</span>」をクリックすると、OAuth2 認証プロセスが開始されます。つまり、資格情報を使用して　Google／Bing 検索アカウントにサインインするように求められます。選択している検索エンジンに応じて、このプロセスは多少異なります。 </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords：Google アカウント ID を入力します。 </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：Bing アカウント ID と Bing カスタマー ID を入力します。 </li> 
+       </ul> <p>これらの ID について詳しくは、<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >アカウント ID を見つける方法</a>を参照してください。 </p> <p>正しくログインすると、「OAuth のトークン」フィールドに「<code>Retrieved</code> を選択します。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
