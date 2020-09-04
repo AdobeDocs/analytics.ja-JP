@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: ヘッダーおよびフッターコードの追加
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Dynamic Tag Management には、ステージングおよび実稼動用の埋め
 
    ![](assets/dtm-embed.png)
 
-   コードを [!DNL  の近くに配置します。<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] タグの近くに配置します。このコードスニペットは、実稼動サイトのすべてのページに配置する必要があります。
+   コードを `<head>` の近くに配置します。 タグの近くに配置します。このコードスニペットは、実稼動サイトのすべてのページに配置する必要があります。
 
    >[!NOTE]
    >
