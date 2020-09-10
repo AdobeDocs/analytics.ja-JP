@@ -3,10 +3,10 @@ description: 計算指標および高度な計算（または派生）指標は�
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 計算指標および高度な計算（派生）指標
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
-source-wordcount: '783'
+translation-type: tm+mt
+source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+workflow-type: tm+mt
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -15,14 +15,6 @@ ht-degree: 100%
 # 計算指標および高度な計算（派生）指標
 
 計算指標および高度な計算（または派生）指標は、既存の指標から作成できるカスタム指標です。
-
->[!IMPORTANT]
->
->2018 年 7 月、アドビは計算指標における配分モデルの評価方法を変える [Attribution IQ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/attribution/models.html) を導入しました。この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
->
->* 「マーケティングチャネルラストタッチ」と「マーケティングチャネルファーストタッチ」配分モデルはそれぞれ、新しい「ラストタッチ」と「ファーストタッチ」アトリビューションモデルに移行されました（注意：「マーケティングチャネル」は廃止されていません。計算指標で表示される 2 つの配分モデルのみが廃止されました）。
->* さらに、線形配分の計算方法を修正しました。顧客が線形配分モデルで計算指標を使用する場合、修正された新しいアトリビューションモデルを反映してレポートが若干変わる可能性があります。この計算指標の変更は、[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、レポート API、Report Builder および Ad Hoc Analysis に反映されます。詳細については、[2018 年 7 月 19 日時点の線形配分の適用方法](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)を参照してください。
-
 
 計算指標ツールを使用すると、指標を極めて柔軟に作成および管理できます。マーケティング担当者、製品マネージャーおよびアナリストは、[!DNL Analytics] の実装を変更することなくデータを照会できます。各 [!DNL Analytics] パッケージで利用可能なカスタム指標を次に示します。
 
@@ -43,7 +35,7 @@ ht-degree: 100%
 | [基本的な関数（カウント、絶対値、平均など）](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | × | ○ |
 | [高度な関数（回帰、if/then、t スコアなど）](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | × | ○ |
 
-## 機能{#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## 機能 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 データが誤用されていたり、アカウントの期限が切れている場合、
 
