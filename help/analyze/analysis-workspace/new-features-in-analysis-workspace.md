@@ -3,7 +3,7 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7820'
 ht-degree: 98%
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 機能 | 説明 |
 |--- |--- |
-| 新しい日付範囲プリセット | 次の4つの新しい日付範囲が追加されました。 ([!UICONTROL 今週/月/四半期/年（今日を除く）]。 これにより、今日の日付の一部を含まない日付範囲から選択できます。 |
+| 新しい日付範囲プリセット | 次の4つの新しい日付範囲が追加されました。([!UICONTROL 今週/月/四半期/年（今日を除く）]。 これにより、今日の日付の一部を含まない日付範囲から選択できます。 |
 
 ## 2020 年 6 月
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 | 機能 | 説明 |
 |--- |--- |
-| Attribution IQ：アルゴリズムアトリビューション | Analysis Workspace の アルゴリズムアトリビューションモデルでは、統計的手法を使用して、選択した指標に対するクレジットの最適な配分を動的に決定します。Adobe Analytics Ultimate のお客様が利用できます。[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ：アルゴリズムアトリビューション | Analysis Workspace のアルゴリズムアトリビューションモデルでは、統計的手法を使用して、選択した指標に対するクレジットの最適な配分を動的に決定します。Adobe Analytics Ultimate のお客様が利用できます。[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | Attribution IQ：カスタムルックバックウィンドウ | Attribution IQ で任意のアトリビューションモデルを設定して、レポート期間の最大 90 日前のタッチポイントを含められるようになりました。これにより、通常、前月（または過去数か月）に発生したインタラクションを考慮することで、レポートの初期に発生するイベントのアトリビューション精度を高めます。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete、および Ultimate のお客様が利用できます。[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 共有 Workspace プロジェクトのプロジェクトロール | Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 表示のみの Workspace プロジェクト | Workspace プロジェクトは、「表示可能」としてのみユーザーに共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
@@ -515,7 +515,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>なし／未指定に対する変更 </p> </td> 
-   <td colname="col2"> <p>Analysis Workspaceでの「なし」/「未指定」の機能のしくみを変更し、Reports &amp;Analytics、セグメントビルダー、Analysis Workspaceのディメンション項目メニューと一致するようにしました。 </p> <p>これにより、Analysis Workspace のほとんどのプロジェクトで、値が「なし」ではなく「未指定」と表示されます。 </p> </td> 
+   <td colname="col2"> <p>「なし」または「未指定」の機能の仕組みを変更し、Reports &amp; Analytics、セグメントビルダーおよびAnalysis Workspaceのディメンション項目メニューと一致するようにしました。 </p> <p>これにより、Analysis Workspace のほとんどのプロジェクトで、値が「なし」ではなく「未指定」と表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -736,7 +736,7 @@ ht-degree: 98%
    <td colname="col2"> <p>以前は、Experience Cloud 資格情報でログインして Analytics に移動すると、<span class="ignoretag"><span class="uicontrol">共有</span>／<span class="uicontrol">プロジェクトリンクを取得</span></span>の機能を使用できませんでした。この問題を修正しました。このオプションを使用するには、その前にプロジェクトを保存する必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >スケジュール済みプロジェクトマネージャーの「期限切れのプロジェクト」フィルター</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >スケジュール済みプロジェクトマネージャーの「期限切れのプロジェクト」フィルター</a></b> </p> </td> 
    <td colname="col2"> <p>スケジュール済みプロジェクトマネージャーで、期限切れのプロジェクトをフィルターできるようになりました。これにより、それらのプロジェクトを再開するか削除するかを決定できます。 </p> </td> 
   </tr> 
  </tbody> 
