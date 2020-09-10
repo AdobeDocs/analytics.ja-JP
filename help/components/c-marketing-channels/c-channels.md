@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: マーケティングチャネルの管理
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '789'
+translation-type: tm+mt
+source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -28,17 +28,9 @@ ht-degree: 100%
 
 ## 前提条件 {#prereqs}
 
-必要な場合は、次の前提条件に関してカスタマーケアに問い合わせることができます。
-
-* 管理コンソール（一般的なアカウント設定）でレポートスイートの「**[!UICONTROL コンバージョンレベル]**」（e-コマース）オプションを有効にします。
-
-   詳しくは、Analytics ヘルプの「[一般的なアカウント設定](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/general-acct-settings-admin.html)」を参照してください。
-
 * マーケティングチャネルディメンションへのアクセスを設定します。
 
    詳しくは、[マーケティングチャネルの権限](/help/components/c-marketing-channels/c-channel-report-access.md)を参照してください。
-
-* アカウントマネージャーがレポートスイートです。**[!UICONTROL チャネルレポート]**&#x200B;を有効にしたことを確認します。
 
 ## マーケティングチャネルの追加 {#add-mktg-channels}
 
