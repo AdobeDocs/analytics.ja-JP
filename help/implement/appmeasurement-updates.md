@@ -3,7 +3,7 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
+source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
 workflow-type: tm+mt
 source-wordcount: '2142'
 ht-degree: 99%
@@ -21,7 +21,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.22.0
 
-Release Date: **August4, 2020**
+Release Date: **August 4, 2020**
 
 * ユーザーのオプトアウト設定により、最初のヒットが送信されなかった場合に転送者が失われる問題を修正しました。
 
