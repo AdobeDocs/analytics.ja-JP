@@ -5,9 +5,9 @@ user-guide-title: Analytics ツールガイド
 user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Builder, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: ad91f03a510f0d3d796502df77718c3bbd063f99
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1103'
 ht-degree: 98%
 
 ---
@@ -99,7 +99,6 @@ ht-degree: 98%
       + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
       + [プロジェクトファイルの共有およびスケジュール](analysis-workspace/curate-share/send-schedule-files.md)
       + [ファイルの送信 - プロジェクトの配信スケジュールの設定](analysis-workspace/curate-share/t-schedule-report.md)
-      + [スケジュール済みプロジェクトマネージャー](analysis-workspace/curate-share/schedule-projects.md)
    + Attribution IQ {#attribution}
       + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
       + [アトリビューションモデルとルックバックウィンドウ](analysis-workspace/attribution/models.md)
