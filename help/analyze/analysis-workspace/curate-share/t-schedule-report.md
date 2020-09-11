@@ -2,10 +2,8 @@
 description: Analysis Workspaceプロジェクトを電子メールで送信するか、配信のスケジュールを設定します。
 keywords: Analysis Workspace
 title: スケジュールされたプロジェクト
-topic: Reports and analytics
-uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
+source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 9%
