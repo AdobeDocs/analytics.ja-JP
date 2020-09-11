@@ -2,10 +2,11 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics インポートガイド
+breadcrumb-title: Import Guide
 user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time. Includes Data Sources, Data Insertion API, and Data Connectors.
 user-guide-url: /content/help/en/analytics/import/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: 4cfcb8a8c86d86d0a3a5b038406be9e2b1980ab3
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 99%
