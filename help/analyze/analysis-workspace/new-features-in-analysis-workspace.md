@@ -3,10 +3,10 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
+source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
-source-wordcount: '7820'
-ht-degree: 98%
+source-wordcount: '7821'
+ht-degree: 97%
 
 ---
 
@@ -1135,9 +1135,9 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 *`Save As`*&#x200B;は、[!UICONTROL 計算指標ビルダー]と[!UICONTROL 日付範囲ビルダー]でも使用できます。
 
-## 「新しいセグメントを追加」ボタン {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## 新しいセグメントの追加
 
-プロジェクト上のセグメントをドラッグ＆ドロップした場所に、「**[!UICONTROL 新しいセグメントを追加]**」ボタンが追加されるようになりました。
+「ここにセグメントを **[!UICONTROL ドロップ]** 」ドロップゾーンが追加され、セグメントをプロジェクトにドラッグ&amp;ドロップできるようになりました。
 
 ![](assets/add-new-segment.png)
 
