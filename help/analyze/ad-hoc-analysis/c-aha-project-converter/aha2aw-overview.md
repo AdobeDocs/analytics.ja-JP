@@ -2,16 +2,20 @@
 description: 'null'
 title: Ad Hoc Analysis プロジェクトコンバーターの概要
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 93%
 
 ---
 
 
 # Ad Hoc Analysis プロジェクトコンバーターの概要
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 Ad Hoc Analysis プロジェクトコンバーターを使用すれば、Ad Hoc Analysis のすべてのプロジェクトを Analysis Workspace にシームレスに変換できます。
 
