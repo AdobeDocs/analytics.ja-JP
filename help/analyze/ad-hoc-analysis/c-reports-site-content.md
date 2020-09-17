@@ -3,12 +3,19 @@ description: サイトで最もアクティブなページや領域、および�
 title: サイトコンテンツレポート
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 97%
 
 ---
 
 
 # サイトコンテンツレポート
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 サイトで最もアクティブなページや領域、および最もよく利用されているサーバーに関する情報が表示されます。
 
