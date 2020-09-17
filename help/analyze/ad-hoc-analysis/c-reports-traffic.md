@@ -3,16 +3,20 @@ description: トラフィックソースレポートでは、訪問者の Web �
 title: トラフィックソースレポート
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1159'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 99%
 
 ---
 
 
 # トラフィックソースレポート
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 トラフィックソースレポートでは、訪問者の Web サイトでの行動を詳しく把握できます。
 
@@ -73,7 +77,7 @@ c_reports_ref_domains.xml
 
 サイトの成功指標に最も貢献した顧客を誘導したドメインを示します。リファラーは大きく「ドメイン」と「URL」というカテゴリに分けられます。ドメインは、ドメイン名のことであり、検索文字列や添付のサブディレクトリのない基本ドメインとして表示します。URL には基本ドメイン名と、クエリ文字列またはサブディレクトリが含まれます。
 
-## オリジナルの参照ドメイン{#concept_EB18251DF70343169B46BB59543A579A}
+## オリジナルの参照ドメイン {#concept_EB18251DF70343169B46BB59543A579A}
 
 <!-- 
 
