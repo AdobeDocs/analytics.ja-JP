@@ -3,10 +3,10 @@ description: 行のビジュアライゼーションを使用して、トレン�
 title: 行
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
+source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 12%
 線のビジュアライゼーションは、ある期間の値の変化を示すために線を使用して指標を表します。 折れ線グラフは、時間がディメンションとして使用される場合にのみ使用できます。
 
 ![線の視覚化](assets/line-viz.png)
-
->[!IMPORTANT]
->
->現在、「 [!UICONTROL 近似曲線を表示」などの一部の線のビジュアライゼーション設定は]、制限付きのテストになっています。 [詳細情報](/help/landing/an-releases.md)
 
 行ビジュアライゼーションの右上にある歯車アイコンをクリックして、 [**使用可能なビジュアライゼーション設定にアクセスします**](freeform-analysis-visualizations.md) 。 設定は次の分類に分類されます。
 
@@ -42,6 +38,10 @@ ht-degree: 12%
 ## 近似曲線オーバーレイを表示
 
 ビジュア **[!UICONTROL ライゼーション設定]** / **[!UICONTROL オーバーレイ]** /近似曲線を表示 **[!UICONTROL (Show trendline]**)で、回帰近似曲線を線系列に追加することを選択できます。 近似曲線は、データにより明確なパターンを表現するのに役立ちます。
+
+>[!TIP]
+>
+>近似曲線は、近似曲線をゆがめるので、今日（部分的なデータ）や未来の日付を含まないデータに適用することをお勧めします。 ただし、未来の日付を含める必要がある場合は、データからゼロを削除して、それらの日の偏りを防ぎます。 これを行うには、ビジュアライゼーションのデータソーステーブルに移動し、指標列を選択します。 次に、 [!UICONTROL 列設定に移動し] 、「ゼロを値なしとして **[!UICONTROL 解釈]**」をオンにします。)
 
 ![線形近似曲線](assets/show-linear-trendline.png)
 
