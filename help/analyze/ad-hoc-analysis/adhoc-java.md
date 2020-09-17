@@ -1,16 +1,20 @@
 ---
 description: Java 11 で Ad Hoc Analysis を実行する方法について説明します。
 title: Java 11 で Ad Hoc Analysis を実行する
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 97%
 
 ---
 
 
 # Java 11 で Ad Hoc Analysis を実行する
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 Java 11 で Ad Hoc Analysis を実行する際には、Java 8 の場合と異なる追加手順に従う必要があります。
 
