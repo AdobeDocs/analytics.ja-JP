@@ -4,15 +4,19 @@ title: セグメントの構築
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 93%
 
 ---
 
 
 # セグメントの構築
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 Ad Hoc Analysis は、Analytics セグメント化環境に統合されており、これによって、アドビ製品間で訪問者セグメントを作成、共有、管理および適用できます。Ad Hoc Analysis は、セグメントビルダーおよびセグメントマネージャーの Java ベースのユーザーインターフェイスです。これは、他の Analytics ツールで使用する Web ベースのツールと同じであり、サーバーコールのマッチングを実行するほか、Java ベースのコンソールと同じ機能を提供します。
 
