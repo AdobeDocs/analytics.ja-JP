@@ -2,10 +2,10 @@
 description: 'null'
 title: カラーパレット
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '198'
+translation-type: tm+mt
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+workflow-type: tm+mt
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
@@ -34,5 +34,5 @@ ht-degree: 100%
    ![](assets/custom_palette.png)
 
 1. 独自のパレットを指定するには、プリセットオプション下の「**[!UICONTROL カスタムパレット]**」を選択します。
-1. 使おうとしている色について、コンマ区切りで最大 16 個の 16 進数の値（例えば #00a4e4）を指定します。例えば、4 つの値だけを使いたい場合、これらの色は自動的により多くの色を含むビジュアライゼーションで繰り返されます。
+1. 使おうとしている色について、コンマ区切りで最大 16 個の 16 進数の値（例えば #00a4e4）を指定します。例えば、4 つの値だけを使いたい場合は、より多くの色を含むビジュアライゼーションでは自動的にこれらの色が繰り返されます。
 
