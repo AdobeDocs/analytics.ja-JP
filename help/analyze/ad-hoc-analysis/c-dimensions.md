@@ -4,12 +4,19 @@ title: ディメンション
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 96%
 
 ---
 
 
 # ディメンション
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 ディメンションは、レポート内で表示、クロス集計や比較が行える行項目です。数値ではなく文字列や日付であり、クロス集計や分類が可能です。
 
@@ -25,7 +32,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 画面の解像度
 * カスタム eVar 評価、s.prop 値
 
-**[!UICONTROL ディメンション]パネル&#x200B;**
+**[!UICONTROL ディメンション]パネル**
 
 [!UICONTROL ディメンション]パネルには、Reports and Analytics で実装されたすべてのディメンションが一覧表示および分類されています。任意のディメンション項目に基づいてレポートを作成できます。ほぼすべてのディメンションは他のディメンションで分類して、分析および比較できます。
 
