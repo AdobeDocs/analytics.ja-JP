@@ -3,10 +3,10 @@ description: 時間ディメンションは、時間、日、週、日付範囲�
 title: 時間
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 97%
+source-wordcount: '396'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
+>Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
 
 時間ディメンションは、時間、日、週、日付範囲にわたるトレンド分析に有効なレポートディメンションです。例えば、製品レポートには、選択した日付範囲内で製品から得られた売上高が表示されます。日付ディメンションを追加して、レポート期間の各日の内訳のトレンドを確認できます。精度には、時間、日、週、月、四半期および年を設定できます。日付範囲プリセットには、今日、昨日、最近の 7 日間などの設定が含まれています。
 
