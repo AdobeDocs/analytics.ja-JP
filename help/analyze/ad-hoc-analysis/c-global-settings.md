@@ -3,12 +3,19 @@ description: グローバルな動作設定を行います。例えば、自動�
 title: 設定
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
 
 # 設定
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 グローバルな動作設定を行います。例えば、自動保存の設定、グラフと表の設定、フォントとロケールの指定などを行うことができます。
 
@@ -16,7 +23,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 グローバルな動作設定を行います。例えば、自動保存の設定、グラフと表の設定、フォントとロケールの指定などを行うことができます。
 
-/をクリッ **[!UICONTROL Tools]** クしてア **[!UICONTROL Settings]** クセスしま [!UICONTROL Global Settings]す。
+**[!UICONTROL ツール]**／**[!UICONTROL 設定]**&#x200B;をクリックして、設定画面を表示します。
 
 ## 「一般的な設定」タブの定義 {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
