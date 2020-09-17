@@ -4,12 +4,19 @@ title: 製品レポート
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 95%
 
 ---
 
 
 # 製品レポート
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 Web サイトで販売、流通、または表示している商品に関する情報が表示されます。製品、アプリケーション、コンテンツの注文数やダウンロード数を調べることができます。
 
