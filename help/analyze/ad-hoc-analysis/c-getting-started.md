@@ -3,10 +3,10 @@ description: Ad Hoc Analysis の概要を説明します。
 title: はじめに
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 94%
+source-wordcount: '1305'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->2018 年 8 月 6 日、アドビは Ad Hoc Analysis のサポート終了の意向を表明しました。サポート終了日については確定次第お知らせします。サポート終了の予定や詳細については [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace) を参照してください。
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 Web サイト上でのアクティビティを迅速かつインタラクティブに分析できます。複数のレポートを同時に表示して、複数のディメンションにセグメントを適用することもできます。データをミクロとマクロの両方の観点から分析し、重要なビジネス指標にどのように影響しているかを確認することも容易です。
 
