@@ -3,12 +3,19 @@ description: ユーザーを設定し、データサンプリングを行う方�
 title: 管理
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
 
 # 管理
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 ユーザーを設定し、データサンプリングを行う方法について説明します。
 
@@ -37,14 +44,14 @@ t_user_licenses.xml
  -->
 
 1. [!DNL Experience Cloud] にログインします。
-1. クリック **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
-1. クリック **[!UICONTROL Edit Groups]**.
+1. **[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;をクリックします。
+1. 「**[!UICONTROL グループの編集]**」をクリックします。
 
-   会社がユーザーライセンスを購入した場合は、 [!UICONTROL Ad Hoc Analysis License Users] そのグループが列に表示さ [!UICONTROL Group Name] れます。 ユーザーログインに使用できるライセンスの数も表示されます。
+   貴社がユーザーライセンスを購入している場合、「[!UICONTROL グループ名]」列に「[!UICONTROL Ad Hoc Analysis ライセンスユーザー]」グループが表示されます。ユーザーログインに使用できるライセンスの数も表示されます。
 
-1. クリック **[!UICONTROL Edit]**.
-1. Under [!UICONTROL Assign User Logins], select the users you want to add to the group, then click **[!UICONTROL Add.]**
-1. クリック **[!UICONTROL Save Group]**.
+1. 「**[!UICONTROL 編集]**」をクリックします。
+1. 「[!UICONTROL ユーザーログインの割り当て]」で、グループに追加するユーザーを選択して、「**[!UICONTROL 追加]**」をクリックします。
+1. 「**[!UICONTROL グループの保存]**」をクリックします。
 
    ライセンスシステムには、グループに追加できるユーザーの数に制限はありません。同時にアクセスできるユーザーの数は、購入したユーザーライセンスの数に制限されます。
 
@@ -58,10 +65,10 @@ t_managing_users.xml
 
  -->
 
-1. //をク **[!UICONTROL Adobe Analytics]** リック **[!UICONTROL Admin]** し、 **[!UICONTROL User Management]**&#x200B;をクリックしま **[!UICONTROL Manage Users]**&#x200B;す。
-1. Locate the user, then click **[!UICONTROL Terminate.]**
+1. **[!UICONTROL Adobe Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL ユーザーを管理]**&#x200B;をクリックします。
+1. ユーザーを探し、「**[!UICONTROL 終了]**」をクリックします。
 
-   On the [!UICONTROL Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list.
+   [!UICONTROL アクティブな Ad Hoc Analysis セッション]ページで、最もアイドル時間の長いユーザーがリストの先頭に表示されます。
 
 ## 権限 {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
@@ -84,10 +91,10 @@ t_permissions.xml
  -->
 
 1. **[!UICONTROL Experience Cloud]** にログインします。
-1. Click **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
-1. クリック **[!UICONTROL All Report Access]**.
-1. で、 [!UICONTROL Available Users]ユーザーを選択し、 **[!UICONTROL Add.]**
-1. クリック **[!UICONTROL Save Group]**.
+1. **[!UICONTROL Adobe Analytics／管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループの編集]**&#x200B;をクリックします。
+1. 「**[!UICONTROL 全レポートアクセス]**」をクリックします。
+1. 「[!UICONTROL 利用可能なユーザー]」で、ユーザーを選択し、「**[!UICONTROL 追加]**」をクリックします。
+1. 「**[!UICONTROL グループの保存]**」をクリックします。
 
 ## 権限グループの作成 {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -100,10 +107,10 @@ t_permission_groups.xml
  -->
 
 1. **[!UICONTROL Experience Cloud]** にログインします。
-1. Click **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+1. **[!UICONTROL Adobe Analytics／管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループの編集]**&#x200B;をクリックします。
 1. 管理者以外のユーザー向けの権限グループを作成し、ユーザーからのアクセスを許可する、Ad Hoc Analysis が有効なレポートスイートを含めます。
 
-   The report suites available to the user are displayed in the [!UICONTROL Report Cloud] menu when you create a new project.
+   ユーザーが使用できるレポートスイートは、新しいプロジェクトを作成するときに[!UICONTROL レポート Cloud] メニューに表示されます。
 
 ## Java でのプロキシポリシーの設定 {#task_3B03F58519544025B55CF54FACF8F4F5}
 
@@ -117,10 +124,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis では、サーバーとの通信に HTTP を使用します。他の HTTP トラフィックと同じプロキシポリシーが適用されます。
 
-1. で、を起 [!DNL Windows Control Panel]動します [!UICONTROL Java Control Panel]。
-1. タブで、をク **[!UICONTROL General]** リックしま **[!UICONTROL Network Settings]**&#x200B;す。
-1. プロキシ **[!UICONTROL Use browser settings]**&#x200B;設定を選択するか、手動で設定します。
-1. をクリ **[!UICONTROL OK]**&#x200B;ックし、をクリ **[!UICONTROL OK]** ックしま [!UICONTROL Java Control Panel]す。
+1. [!DNL Windows Control Panel] で、[!UICONTROL Java コントロールパネル]を起動します。
+1. 「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL ネットワーク設定]**」をクリックします。
+1. 「**[!UICONTROL ブラウザーの設定を使用]**」を選択するか、手動でプロキシ設定を行います。
+1. 「**[!UICONTROL OK]**」をクリックしてから、**[!UICONTROL Java コントロールパネル]**&#x200B;で「[!UICONTROL OK]」をクリックします。
 
 ## データサンプリングの仕組み {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
