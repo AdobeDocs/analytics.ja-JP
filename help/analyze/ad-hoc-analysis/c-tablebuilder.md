@@ -3,9 +3,9 @@ description: 表ビルダーを使用すると、指標、ディメンション�
 title: 表ビルダー
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
+>Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
 
 表ビルダーを使用すると、指標、ディメンション、セグメントなどを柔軟に指定したレポートを作成できます。例えば、表ビルダーに複数の指標を追加してから、それらすべての指標に対して、セグメントを一度に適用することができます。ツールパネルから項目を行および分類として適用したり、列として適用したりできます。また、別のビュー用に表を簡単にピボットすることができます。表の作成後、結果として表示されたデータテーブルを直接操作して、分析することができます。表ビルダーからデータテーブルを作成する場合、クエリが実行され、新しいデータテーブルが作成されることに注意してください。
 
