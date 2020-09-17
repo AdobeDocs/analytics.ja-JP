@@ -3,10 +3,10 @@ description: Ad Hoc Analysis の用語およびタスクを Analysis Workspace �
 title: Analysis Workspace と Ad Hoc Analysis の比較
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 0c934b0e1d6c1e862094737ad7ac504574c0c0d2
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 86%
+source-wordcount: '931'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
+>Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
 
 Ad Hoc Analysis の用語およびタスクを Analysis Workspace と比較します。
 
