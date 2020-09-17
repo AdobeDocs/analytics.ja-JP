@@ -4,10 +4,10 @@ title: ディメンション
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 96%
+source-wordcount: '284'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
+>Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
 
 ディメンションは、レポート内で表示、クロス集計や比較が行える行項目です。数値ではなく文字列や日付であり、クロス集計や分類が可能です。
 
