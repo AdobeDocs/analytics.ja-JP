@@ -4,9 +4,9 @@ title: 予定レポートマネージャー
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 98%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
+>Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
 
 レポートの配信スケジュールをカスタマイズできます。特定の時間に配信を中止したり、レポートの送信回数を指定したりできます。スケジュールされたレポートでは、レポートで定義されている日付範囲が使用されます。例えば、最近 90 日間のレポートを作成し、このレポートを毎日実行するように設定した場合、最近 90 日間のレポートを毎日受信することになります。カレンダーで静的に日付範囲を指定してレポートを作成すると、送信されるたびに同じレポートが表示されます。
 
