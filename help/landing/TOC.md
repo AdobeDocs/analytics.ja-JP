@@ -2,10 +2,10 @@
 product: analytics
 audience: all
 user-guide-title: Adobe Analytics ドキュメント
-user-guide-url: /content/help/en/analytics/landing/home.html
-translation-type: ht
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
-workflow-type: ht
+breadcrumb-url: /docs/analytics/landing/home.html
+translation-type: tm+mt
+source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 
