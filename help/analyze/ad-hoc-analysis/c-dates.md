@@ -3,9 +3,9 @@ description: カレンダーで、日付や日付範囲を指定したり、プ�
 title: 日付と日付範囲
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '477'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
+>Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
 
 カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。プロジェクト、ワークスペースおよびレポートのレベルでカレンダーを選択できます。デフォルトの日付は、プロジェクトの日付範囲です。ただし、ワークスペースの日付範囲はプロジェクトの日付範囲より優先されます。同様に、レポートの日付範囲は、ワークスペースおよびプロジェクトの日付設定より優先されます。データの有効範囲外の日付範囲を選択することはできません。
 
