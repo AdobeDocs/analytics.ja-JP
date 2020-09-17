@@ -5,7 +5,7 @@ title: Analysis Workspaceで利用可能なホットキー（ショートカッ�
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 54%
@@ -24,7 +24,7 @@ Analysis Workspaceでは、シームレスなナビゲーション、分析、�
 ## ナビゲーション操作
 
 | アクション | ショートカット |
-|---|---|
+| --- | --- |
 | 新規プロジェクトを作成 | Ctrl + Shift + P |
 | 既存のプロジェクトを開く | Ctrl + O |
 | パネルウィンドウに移動 | Alt + Shift + 1 |
@@ -38,7 +38,7 @@ Analysis Workspaceでは、シームレスなナビゲーション、分析、�
 ## 分析の操作
 
 | アクション | ショートカット |
-|---|---|
+| --- | --- |
 | 左パネルを検索 | Ctrl + / |
 | アラートの作成 | Ctrl + Shift + A |
 | 計算指標を作成 | Ctrl + Shift + C |
@@ -55,7 +55,7 @@ Analysis Workspaceでは、シームレスなナビゲーション、分析、�
 ## 追加パネルとビジュアライゼーションのアクション
 
 | アクション | ショートカット |
-|---|---|
+| ---|---|
 | ターゲット用の新しいAnalyticsパネル | Alt + G |
 | 新しいアトリビューションパネル | Alt + E |
 | 新しい空のパネル | Alt + B |
@@ -70,7 +70,7 @@ Analysis Workspaceでは、シームレスなナビゲーション、分析、�
 ## 民主化行動
 
 | アクション | ショートカット |
-|---|---|
+| --- | --- |
 | プロジェクトを保存 | Ctrl + S |
 | プロジェクトに名前を付けて保存 | Ctrl + Shift + S |
 | テンプレートとして保存 | Alt + T |
