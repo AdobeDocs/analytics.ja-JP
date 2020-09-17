@@ -2,9 +2,9 @@
 title: ログファイル
 description: トラブルシューティング用にログファイルを取得します。
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
+>Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
 
 Ad Hoc Analysisの問題のトラブルシューティングを行う場合、ログファイルの取得が必要になる場合があります。 Adobeは、ログファイルを使用して問題の根本原因を特定し、解決を提供できます。 この `discover.log` ファイルには、すべてのセッションにわたるすべてのユーザーインタラクション、レポートの読み込み情報およびJavaエラーメッセージが含まれます。 ユーザーのパスワードなど、保護されている情報をハッシュします。 大きいログファイルは、10 MB単位に分割されます。 ログファイルをAdobeに提供する場合は、すべてのファイルが選択されていることを確認します。
 
