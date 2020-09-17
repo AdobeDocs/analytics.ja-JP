@@ -3,10 +3,10 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: Export Guide
-user-guide-description: Get data out of Adobe Analytics. Use Data Feeds to receive an hourly or daily export of raw data. Retrieve a spreadsheet output of data using Data Warehouse.
-user-guide-url: /content/help/en/analytics/export/home.html
+user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
+breadcrumb-url: /docs/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 4cfcb8a8c86d86d0a3a5b038406be9e2b1980ab3
+source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 95%
