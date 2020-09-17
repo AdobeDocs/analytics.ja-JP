@@ -1,8 +1,11 @@
 ---
-title: 開発環境への Adobe Analytics のデプロイ
-description: Adobe Experience Platform Launch を使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
-translation-type: ht
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+title: 開発実装の検証と実稼動環境への公開
+description: Adobe Experience Platform Launchを使用して実稼働環境にAdobe Analyticsを導入する方法を学びます。
+translation-type: tm+mt
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 93%
 
 ---
 
@@ -61,7 +64,7 @@ Experience Cloud デバッガーは、ページに存在するすべての Exper
 
 ## 次の手順
 
-これで基本的な実装が設定されました。組織内でのお客様の役割では、詳細を確認したいパスに影響を与えることができます。
+基本的な実装が設定されたので、組織内の役割が、どのパスに関して詳しく知りたいかに影響を与えることができます。
 
 * [ソリューションデザインドキュメントの作成](../prepare/solution-design.md)：カスタム変数の使用方法を計画し、実装に含めます。
 * [Analysis Workspace の使用を開始する](/help/analyze/analysis-workspace/home.md)：ツールの主力機能を使用して、Adobe Analytics に直接アクセスします。
