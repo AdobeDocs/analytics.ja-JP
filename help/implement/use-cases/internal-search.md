@@ -2,7 +2,7 @@
 title: 内部検索用語を捕捉します。
 description: 内部検索用語を取り込むには、カスタム変数を使用します。
 translation-type: tm+mt
-source-git-commit: 091e4b859addc1780d94d90c8b59748277890241
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). 開発環境での作業を確認したら、開発環境の実装を [検証し、実稼動環境に発行できます](../launch/validate-publish-prod.md)。
 
-## Workspaceでのレポート。
+## Workspaceでのレポート
 
 導入にデータ収集の時間を与えると、Analysis Workspaceでディメンションを使用して開始できます。
 
