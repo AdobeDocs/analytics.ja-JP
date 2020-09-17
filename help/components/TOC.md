@@ -3,10 +3,10 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: Components Guide
-user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
-user-guide-url: /content/help/en/analytics/components/home.html
+user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
+breadcrumb-url: /docs/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 4cfcb8a8c86d86d0a3a5b038406be9e2b1980ab3
+source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 97%
