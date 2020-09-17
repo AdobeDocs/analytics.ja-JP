@@ -4,12 +4,19 @@ title: サイト指標レポート
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1412'
+ht-degree: 99%
 
 ---
 
 
 # サイト指標レポート
+
+>[!IMPORTANT]
+>
+>Adobeは、2021年3月1日にAd Hoc Analysisを廃業に移す予定です。 [詳細情報...](https://adobe.ly/discoverworkspace).
 
 訪問者が特定のページを閲覧した回数、特定ページから行われた購入数、来訪日時など、Web サイトについての量的な情報が表示されます。これらの各レポートはその他の項目ベースのレポートに設定できる指標です。
 
@@ -19,7 +26,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 指標レポートには経時的なトレンドが表示されます。これらのレポートに時間や曜日の精度を適用できます。サイトでの滞在時間、購入、売上などの指標を分析することもできます。
 
-The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu.
+[!UICONTROL サイト指標]メニューから、次のようなサイト指標レポートを使用できます。
 
 ## ページビュー数レポート {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
@@ -29,7 +36,7 @@ c_reports_pageviews.xml
 
  -->
 
-指定された期間（時間、日、週、月、四半期、年）に Web サイトのページが閲覧された回数を表示するトレンドレポートです。A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. 例えば、1 名の訪問者が 1 回の訪問中に 15 ページ閲覧すると、15 ページビューとカウントされます。1 名の訪問者が 1 回の訪問中に同じページを 3 回閲覧すると、3 ページビューとカウントされます。このレポートでは、Web サイトのページの表示数と、サイト全体のページビュー合計数を計測できます。
+指定された期間（時間、日、週、月、四半期、年）に Web サイトのページが閲覧された回数を表示するトレンドレポートです。[!UICONTROL ページビュー]は画像やビデオなどのページの要素ではなく、ドキュメントの全ページに対する要求です。例えば、1 名の訪問者が 1 回の訪問中に 15 ページ閲覧すると、15 ページビューとカウントされます。1 名の訪問者が 1 回の訪問中に同じページを 3 回閲覧すると、3 ページビューとカウントされます。このレポートでは、Web サイトのページの表示数と、サイト全体のページビュー合計数を計測できます。
 
 ## 訪問件数レポート {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -41,7 +48,7 @@ c_reports_visits.xml
 
  -->
 
-In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. ad hoc analysis では、データをセグメント化し、特定のページを表示できます。
+Reports and Analytics では、選択したページに対して[!UICONTROL 訪問回数レポート]を実行できます。ad hoc analysis では、データをセグメント化し、特定のページを表示できます。
 
 ## 実訪問者数レポート {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -69,7 +76,7 @@ c_reports_visitors.xml
 
  -->
 
-表の一番下に表示される合計値は指定期間内の合計訪問件数であり、必ずしも実訪問者数を表しているとは限りません。For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month.
+表の一番下に表示される合計値は指定期間内の合計訪問件数であり、必ずしも実訪問者数を表しているとは限りません。例えば、[!UICONTROL 日別訪問者数レポート]を数日間の期間で実行した場合、同じ訪問者が翌日に再訪問してカウントされることがあるので、訪問者の総数に再訪問者が含まれる可能性があります。ただし、[!UICONTROL 月別訪問者数レポート]を実行した場合は、「合計」列にその月に訪問した実訪問者数の値が正確に表示されます。
 
 ## 訪問別滞在時間レポート {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
@@ -112,7 +119,7 @@ c_reports_shopping_cart.xml
 
  -->
 
-を使用して、次のことがで [!UICONTROL Carts Report] きます。
+[!UICONTROL 買い物かごレポート]は次の目的で使用できます。
 
 * サイトで開かれた買い物かご数のパターン、ピーク、ボトムなどを判断します。
 * 特定期間を詳しく調査して、買い物かごを開くことにつながった指標についての詳細を調べます。
@@ -127,7 +134,7 @@ c_reports_custom_events.xml
 
  -->
 
-Analytics のレポートスイートはそれぞれが異なるので、このレポート群の使用法も各 Analytics クライアントによって異なります。A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. 複数のカスタムイベントレポートを持つことができます。
+Analytics のレポートスイートはそれぞれが異なるので、このレポート群の使用法も各 Analytics クライアントによって異なります。[!UICONTROL カスタムイベント]レポートは、あるイベントが発生した回数を示すカウンターとして使用できます。例えば、**[!UICONTROL event1]** を設定して文書のダウンロード回数をカウントするとします。この場合、[!UICONTROL イベント 1] のカスタムイベントレポートはそのイベント（ダウンロード）が発生した合計回数を示します。複数のカスタムイベントレポートを持つことができます。
 
 ## コンバージョンレポート {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -159,8 +166,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL First or Last Touch Channel Report]**:特定のファーストタッチまたはラストタッチのデータを示す指標をチャネルします。 これらのレポートでは、チャネルを分類し、各チャネルの詳細を表示できます。AdLens が有効になっている場合は、Reports and Analytics チャネルレポートに分類が表示されます。
+**[!UICONTROL ファーストタッチまたはラストタッチチャネルレポート]**：特定のファーストタッチチャネルまたはラストタッチチャネルに関するデータを示す指標が表示されます。これらのレポートでは、チャネルを分類し、各チャネルの詳細を表示できます。AdLens が有効になっている場合は、Reports and Analytics チャネルレポートに分類が表示されます。
 
-**[!UICONTROL First or Last Touch Channel Detail Reports]**:ルールの設定時にオプションで設定したチャネル値から取得される、ページ名や転送者などの詳細 [!UICONTROL Set the channel's value to] が表示されます。 チャネル詳細レポートでは、概要レポートで報告されたチャネルの詳細値を詳しく調査できます。
+**[!UICONTROL ファーストタッチまたはラストタッチチャネル詳細レポート]**：ルールの設定時に「[!UICONTROL チャネルの値を次に設定する]」オプションで設定したチャネルの値から取得された、ページ名やリファラーなどの詳細が表示されます。チャネル詳細レポートでは、概要レポートで報告されたチャネルの詳細値を詳しく調査できます。
 
 Reports &amp; Analytics でマーケティングチャネルを設定する方法について詳しくは、[マーケティングチャネルのヘルプ](/help/components/c-marketing-channels/analyze-mc.md)システムを参照してください。
