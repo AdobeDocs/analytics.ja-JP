@@ -2,10 +2,10 @@
 title: 導入FAQ
 description: 実装に関するよくある質問と、詳細情報へのリンクです。
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 67%
+source-wordcount: '499'
+ht-degree: 48%
 
 ---
 
@@ -49,3 +49,13 @@ var s = new Object();
 >* 各ページのファイルへの参照をすべて削除する場合を除き、 `s_code.js` ファイルを完全に削除します。
 >* Adobeから遠ざかるように `trackingServer` 変数を変更します。 AppMeasurementは引き続きイメージリクエストを送信し、404エラーを返します。
 
+
+## コードアナライザを通じてAppMeasurementを実行し、潜在的なセキュリティ上のリスクとしての使用にフラグ `Math.random()` を付けました。 機密データと共に `Math.random()` 使用されているか。
+
+いいえ。使用する数値は、機密データのマスク、送信、または受信には使用されません。 `Math.random()` Adobeのデータ収集サーバーに送信されるデータは、基になるHTTPS接続のセキュリティに依存します。 <!-- AN-173590 -->
+
+AppMeasurementは、次の3つ `Math.random()` の主な領域を使用します。
+
+* **サンプリング**:導入によっては、一部の訪問者がサイトへのほんの一部の訪問者に対してのみ収集される場合があります。 `Math.random()` は、特定の訪問者がデータを送信する必要があるかどうかを判断するために使用されます。 ほとんどの実装では、サンプリングを使用しません。
+* **フォールバック訪問者ID**:訪問者IDをcookieから取得できない場合は、ランダムな訪問者IDが生成されます。 AppMeasurementのこの部分では、に対する2つの呼び出しを使用し `Math.random()`ます。
+* **キャッシュバスティング**:ブラウザーのキャッシュを防ぐために、イメージリクエストURLの末尾に乱数が追加されます。
