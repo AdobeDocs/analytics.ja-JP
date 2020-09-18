@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 処理ルールの概要
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 87%
 
 ---
 
@@ -40,11 +43,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->処理ルールは Analytics データに恒久的に影響を与えるので、処理ルール管理者は、Adobe Analytics の認定トレーニングを受け、レポートスイートのすべてのデータソース（標準的な Web サイト、モバイルサイト、モバイルアプリ、Data Insertion API など）の知識を深めることを強くお勧めします。様々なプラットフォームで入力されるコンテキストデータ変数と標準変数に関する知識は、データの予期しない削除や変更を防ぐのに役立ちます。
+>処理ルールはAnalyticsデータに永続的な影響を与えるので、Adobeでは、処理ルール管理者に対して、Adobe Analyticsで認定トレーニングを受け、レポートスイートのすべてのデータソース（標準Webサイト、モバイルサイト、モバイルアプリ、Data Insertion APIなど）を理解することを強くお勧めします。 様々なプラットフォームで入力されるコンテキストデータ変数と標準変数に関する知識は、データの予期しない削除や変更を防ぐのに役立ちます。
 
 ## コンテキストデータを使用したデータ収集の単純化 {#section_09EEA03612D24C15839631AA9E9668D8}
 
-コンテキストデータ変数は、処理ルールにのみ使用できる新しいタイプの変数です。コンテキストデータを使用するには、キー／値データペアを送信し、処理ルールを使用して標準的な Analytics 変数にこれらの値を取り込みます。これによって、プログラマーは prop や eVar に含めるべき値を正確に理解する必要がなくなります。
+コンテキストデータ変数は、処理ルールでのみ使用できる変数の一種です。 コンテキストデータを使用するには、キー／値データペアを送信し、処理ルールを使用して標準的な Analytics 変数にこれらの値を取り込みます。これによって、プログラマーは prop や eVar に含めるべき値を正確に理解する必要がなくなります。
 
 ![](assets/evar-context-map.png)
 
