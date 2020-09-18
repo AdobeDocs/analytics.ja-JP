@@ -3,11 +3,11 @@ description: 新しいレポートスイートを作成するには、事前定�
 title: 新しいレポートスイート - 設定
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> デフォルトのページ</span> </td> 
-   <td colname="col2"> <p>（オプション）<span class="wintitle">デフォルトのページ</span>値がある場合、それは URL から削除されます。<span class="wintitle">最頻訪問ページ</span>レポートにページ名ではなく URL がある場合に、この設定によって同じ Web ページが複数の URL で表されることを防止できます。 </p> <p>例えば、<span class="filepath">https://mysite.com</span> と <span class="filepath">https://mysite.com/index.html</span> という URL では、通常同じページが表示されます。不要なファイル名を削除できるので、これらの URL は共にレポートで <span class="filepath">https://mysite.com</span> として表示されます。 </p> <p>この値を設定しない場合、Analytics は URL から以下のファイル名を自動的に削除します。<span class="filepath"> index.htm</span>、<span class="filepath"> index.html</span>、<span class="filepath"> index.cgi</span>、<span class="filepath"> index.asp</span>、<span class="filepath"> default.htm</span>、<span class="filepath"> default.html</span>、<span class="filepath"> default.cgi</span>、<span class="filepath"> default.asp</span>、<span class="filepath"> home.htm</span>、<span class="filepath"> home.html</span>、<span class="filepath"> home.cgi</span>、および <span class="filepath"> home.asp</span>。 </p> <p>ファイル名の削除を無効にするには、URL に決して存在しないデフォルトのページ値を入力してください。 </p> </td> 
+   <td colname="col2"> <p>（オプション）<span class="wintitle">デフォルトのページ</span>値がある場合、それは URL から削除されます。<span class="wintitle">最頻訪問ページ</span>レポートにページ名ではなく URL がある場合に、この設定によって同じ Web ページが複数の URL で表されることを防止できます。 </p> <p>For example, the URLs<span class="filepath"> https://example.com</span> and <span class="filepath"> https://example.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://example.com</span> in your reports. </p> <p>この値を設定しない場合、Analytics は URL から以下のファイル名を自動的に削除します。<span class="filepath"> index.htm</span>、<span class="filepath"> index.html</span>、<span class="filepath"> index.cgi</span>、<span class="filepath"> index.asp</span>、<span class="filepath"> default.htm</span>、<span class="filepath"> default.html</span>、<span class="filepath"> default.cgi</span>、<span class="filepath"> default.asp</span>、<span class="filepath"> home.htm</span>、<span class="filepath"> home.html</span>、<span class="filepath"> home.cgi</span>、および <span class="filepath"> home.asp</span>。 </p> <p>ファイル名の削除を無効にするには、URL に決して存在しないデフォルトのページ値を入力してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live 日 </p> </td> 
