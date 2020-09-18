@@ -5,10 +5,10 @@ title: FTP インポート
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -95,3 +95,7 @@ Adobe FTP サーバーについて詳しくは、「[FTP と SFTP](https://docs.
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 アカウントを作成したら、FTP アカウントの横にある該当するリンクをクリックして、FTP アカウントを編集または削除できます。
+
+>[!NOTE]
+>
+>インポートで分類が変更されない場合、通知は送信されません。 電子メールは、電子メールが正常に送信され、その結果分類が変更された場合にのみ送信されます。
