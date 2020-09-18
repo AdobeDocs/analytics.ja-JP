@@ -4,8 +4,11 @@ subtopic: Data sources
 title: データソースに関する FAQ
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 95%
 
 ---
 
@@ -60,7 +63,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 トラフィックデータソースは対応する表の集計値を更新するだけなので、このデータソースからのアップロードは非常に速くなります。コンバージョンデータ（イベントなど）を含む一般的なデータソースは、処理対象列のすべての値に対してヒットを生成します。
 
-サンプルファイル：
+サンプル  ファイル:
 
 <table id="table_D5408E0BDB984229B4C60A66BB53CEBB"> 
  <tbody> 
@@ -132,3 +135,14 @@ Web サーバーログでの実訪問者数は、Web ログの *`IP Address`* �
 ## データソースを使用してアップロードされた eVar は、以降のオンライン動作まで持続しますか。 {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
 いいえ。トランザクション ID データソースを介してアップロードされた eVar は、保存されたプロファイル情報からの読み取りのみが行われるので、プロファイルは更新されません。いいえ。eVar は、訪問者プロファイルのスナップショットに保存される唯一の変数です。
+
+## 数値イベントと通貨イベントは、データソースでどのように機能しますか？
+
+フル処理では、イベントリストーで直接数値/通貨/カウンター（1を超える）イベント値を除く従来のイベントリスト形式のみがサポートされます。これはサポートされ `"eventNN,eventKK"` ません `"eventNN=#.##"`。 つまり、カウンターイベントは、カウンター情報がデータソースファイルの「イベント」列に渡され、1だけ増加する場合にのみサポートされます。
+
+数値、通貨、カウンター（1つ以上）のイベントが必要な場合は、次の製品リストを使用します。
+
+```js
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+```
