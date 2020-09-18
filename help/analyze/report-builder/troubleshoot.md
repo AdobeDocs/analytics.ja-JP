@@ -4,10 +4,10 @@ title: Report Builder のトラブルシューティングとベストプラク�
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 71%
+source-wordcount: '1399'
+ht-degree: 67%
 
 ---
 
@@ -86,3 +86,4 @@ Report Builder の使用中に表示されることのあるエラーメッセ�
    3. 削除 `calcChain.xml`.
    4. 内容を再圧縮し、ファイル拡張子をに戻し `.xlsx`ます。
    5. Excelでワークブックを開き、すべてのReport Builderリクエストを更新します。
+* **入力フィルターーまたは出力範囲に関連付けられているExcelセルが削除された可能性があります**:Report Builderでは、Excel名を使用して、セルにデータリクエストを添付します。 [名前管理]からExcel名を削除すると、このエラーが表示されます。 Excel名を削除すると、リクエストを復元できません。 ワークブックがスケジュールされている場合は、スケジュールマネージャからコピーをダウンロードするか、以前に配信されたワークブックのコピーを開くことができます。
