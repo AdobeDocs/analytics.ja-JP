@@ -1,11 +1,11 @@
 ---
 title: linkInternalFilters
 description: linkInternalFilters 変数の使用は出口リンクの自動トラッキングに役立ちます。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,8 @@ AppMeasurement は、サイト外を指すリンクを自動的に追跡する�
 この変数に値が含まれる場合、出口リンクの自動トラッキングはブロックリストのように動作します。リンククリックがどの `linkInternalFilters` 値とも一致しない場合は、そのリンクは出口リンクと見なされます。この変数に対して URL 全体が調べられます。[`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリー文字列も調べられます。
 
 `linkInternalFilters` と `linkExternalFilters` の両方を同時に使用する場合は、クリックされたリンクが出口リンクと見なされるには、`linkExternalFilters` に一致すると&#x200B;**ともに** `linkInternalFilters` に一致しない必要があります。クリックされたリンクが出口リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
+
+アクティビティマップでは、この変数を使用して、サイト内部のリンクを特定します。 Adobeでは、アクティビティマップを使用する導入では、この変数を設定することをお勧めします。
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ AppMeasurement は、サイト外を指すリンクを自動的に追跡する�
 `s.linkInternalFilters` 変数は、サイト内部と見なすフィルター（ドメインなど）を含む文字列です。複数のフィルターは、スペースなしのコンマで区切ります。
 
 ```js
-s.linkInternalFilters = "example.com,example.net,example.org";
+s.linkInternalFilters = "example.com,example.net";
 ```
 
 次の実装例を `adobe.com` にあるとして考えます。
@@ -50,5 +52,5 @@ s.linkInternalFilters = "example.com,example.net,example.org";
 </script>
 
 <!-- The following link is an exit link because it does not match the anything under linkInternalFilters -->
-<a href = "example.com">Example link 2</a>
+<a href = "example.org">Example link 2</a>
 ```
