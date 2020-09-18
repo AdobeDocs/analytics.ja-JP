@@ -4,7 +4,7 @@ title: レポートタイプ
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、このレポートから、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。例えば、`https://www.mysite.com` から `https://info.mysite.com` や `https://sales.mysite.com` に移動した訪問者の数などをレポートで確認できます。
+例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、このレポートから、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。例えば、`https://www.example.com` から `https://info.example.com` や `https://sales.example.com` に移動した訪問者の数などをレポートで確認できます。
 
 ## 次セクションのフロー {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、このレポートから、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。例えば、`www.mysite.com` から `info.mysite.com` や `sales.mysite.com` に移動した訪問者の数などをレポートで確認できます。
+例えば、特定のデータを異なるサーバーに置いている場合や、別のサーバーにデータをミラーリングしている場合、このレポートから、訪問者がヒットしたサーバー間のパスを知ることができます。これは、Web サイト内のドメインについても同じです。例えば、`www.example.com` から `info.example.com` や `sales.example.com` に移動した訪問者の数などをレポートで確認できます。
 
 ## コンバージョンファネルレポート {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
