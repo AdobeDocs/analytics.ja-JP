@@ -2,10 +2,10 @@
 title: サイトでの平均時間
 description: 特定のディメンション項目がヒット間に存在した平均時間。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 63%
+source-wordcount: '538'
+ht-degree: 60%
 
 ---
 
@@ -45,6 +45,10 @@ If you want average time on site for the dimension item `Product page A`, first 
 `Product page A` の合計滞在時間は `00:03:10` です。この訪問では 2 つのシーケンス（2 つの連続する値の最初のシーケンスと、チェックアウト前の 2 番目のシーケンス）がありました。最後のヒットは、終了タイムスタンプがないので、シーケンスではありません。
 
 `Product page A` のサイトでの平均時間は `00:01:35` です。
+
+>[!NOTE]
+>
+>この指標は、訪問の最後のヒットのみがディメンション項目に含まれ `"Invalid"` ている場合の値を示します。 この指標では、滞在時間を追跡するために後続のヒットが必要です。
 
 ## サイトでの平均滞在時間（秒）
 
