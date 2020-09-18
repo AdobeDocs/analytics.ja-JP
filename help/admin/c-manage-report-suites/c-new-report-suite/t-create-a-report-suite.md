@@ -3,8 +3,11 @@ description: レポートスイートを作成する方法とレポートスイ�
 title: レポートスイートの作成
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 87%
 
 ---
 
@@ -25,7 +28,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 「[新しいレポートスイート](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)」で説明されているフィールドに入力します。
 1. 「**[!UICONTROL レポートスイートの作成]**」をクリックします。
 
->[!MORELIKETHIS]
->
->* [仮想レポートスイートの作成](/help/components/vrs/c-workflow-vrs/vrs-create.md)
-
+レポートスイートIDの最大長は40バイトです。 レポートスイートのフレンドリ名の最大長は255バイトです。
