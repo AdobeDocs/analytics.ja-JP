@@ -4,11 +4,11 @@ subtopic: Bot rules
 title: ボットルールの概要
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1351'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1356'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 標準 IAB ボットルール
 
-標準 IAB ボットルールは、「[!UICONTROL IAB ボットフィルタールールを有効にする]」チェックボックスをオンにすることで有効にできます。この選択により、ボットトラフィックを削除するために、IAB（International Advertising Bureau）の「International Spiders &amp; Bots List」のボットが削除されます。IAB はこのリストを毎月更新します。
+標準 IAB ボットルールは、「[!UICONTROL IAB ボットフィルタールールを有効にする]」チェックボックスをオンにすることで有効にできます。この選択により、ボットトラフィックを削除するために、IAB（International Advertising Bureau）の「International Spiders &amp; Bots List」のボットが削除されます。Adobeは、このリストをIABから毎月更新します。
 
 ![](assets/bot-iab-checkbox.png)
 
