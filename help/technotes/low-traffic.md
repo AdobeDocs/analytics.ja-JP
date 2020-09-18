@@ -3,11 +3,11 @@ description: レポートに大量のユニーク値がある場合、発生頻�
 title: Adobe Analytics の低トラフィック値
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 94%
 
 ---
 
@@ -50,4 +50,5 @@ ht-degree: 100%
    * 一部のシナリオでは、低トラフィック値が表示される場合があります。例としては、リスト var、リスト prop、マーチャンダイジング eVar、マーケティングチャネルの詳細ディメンションなどがあります。
 * **セグメント化：**&#x200B;セグメント条件にユニーク値の数が多い変数が含まれている場合、低トラフィックで取り込まれた値は含まれません。
 * **分類：**&#x200B;分類レポートには、ユニーク値の数に制限があります。分類の親変数の値が低トラフィックの下に含まれる場合、値は分類されません。
-   * データに表示される前に値を分類する場合、該当する月のユニーク値のしきい値にカウントされます。
+   * インポーターを通じて取得された低トラフィックの分類値は、Data Warehouseで表示できます。 <!-- AN-115871 -->
+   * ルールビルダーで取得した低トラフィックの分類値は、Data Warehouseでは表示 *できません* 。 <!-- AN-122872 -->
