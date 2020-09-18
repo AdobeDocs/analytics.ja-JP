@@ -4,20 +4,20 @@ subtopic: Data sources
 title: フル処理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 96%
 
 ---
 
 
 # フル処理
 
->[!NOTE]
+>[!IMPORTANT]
 >
->フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。フル処理データソースは、今後非推奨となります。
+>フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。Adobeでは、今後、フル処理のデータソースを廃止する予定です。
 
 データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 
@@ -114,12 +114,12 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>ページ URL（例：<code>https://www.mysite.com/index.html)</code>）。 </p> </td> 
+   <td colname="col3"> <p>ページ URL（例：<code>https://www.example.com/index.html)</code>）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>製品 </p> </td> 
    <td colname="col2"> <p>製品 </p> </td> 
-   <td colname="col3"> <p>製品リスト（例：<code> "Sports;Ball;1;5.95") </code>）。 </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). 1行4096バイトの最大値を保持できます。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 ～ prop75 </p> </td> 
