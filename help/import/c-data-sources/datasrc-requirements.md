@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 要件とアップロードに関する制限
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -92,8 +95,8 @@ UTF-8 または ISO-8859-1 のファイルを送信し、レポートスイー�
 * Web ログデータの表示が最も有効なレポートは、ページビュー数などのトラフィックレポートです。
 * ページ名は、完全な URL として表示され、クエリ文字列を含みます。
 * それぞれのファイル要求は、個別のページビューとして表示され、スタイルシートや画像ファイルを含みます。
-* URL に情報を付加すると、ファイルが個別のページとして記録されることがあります。例えば、次の URL はマーケティングレポートで 2 つの個別のページとして記録されます。
+* URL に情報を付加すると、ファイルが個別のページとして記録されることがあります。例えば、次のURLはAdobeで2つの個別のページとして記録されます。
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
