@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: クエリー文字列パラメーターからのキャンペーン ID の入力
 topic: Admin tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+workflow-type: ht
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 クエリー文字列パラメーターを使用して、変数を入力することができます。
 
-ほとんどの場合、プラグインを使用して変数文字列から変数を入力します。クエリ文字列 入力ミスなどの問題によって値を入力できない場合、処理ルールを使用して変数を入力できます。
+ほとんどの場合、クエリー文字列からの変数の入力にはプラグインを使用します。入力ミスなどの問題によって値を入力できない場合、処理ルールを使用して変数を入力できます。
 
 値を上書きする前に、値が空白であるか、期待された値が含まれているかを必ず確認する必要があります。
 
