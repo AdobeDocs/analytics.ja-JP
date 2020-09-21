@@ -1,11 +1,11 @@
 ---
 title: 米国の州
 description: 訪問者の米国の州。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 79%
 >
 >[IP アドレスを不明化](/help/admin/admin/general-acct-settings-admin.md)するだけでは不十分な、プライバシーに関する厳しい規制に従う場合、位置情報データを完全に無効にするように要求できます。レポートスイート ID をサポートに連絡し、レポートスイートの「地域」をオフにするようにリクエストします。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、地域とその地域が属する国が含まれます。 例えば、`"California"`、`"Texas"`、`"Virginia"` の値があります。The dimension item `"Unspecified"` includes all international traffic outside of the United States.
+ディメンション項目には、地域とその地域の国が含まれます。例えば、`"California"`、`"Texas"`、`"Virginia"` の値があります。ディメンション値 `"Unspecified"` には、米国以外のすべての国際トラフィックが含まれます。
 
-このディメンションには、ダイヤルアップインターネットサービスプロバイダー `"AOL"`を含めることができます。 このサービスのサブスクライバには、アクセスポイントが割り当てられます。 AOLユーザーは、このアクセスポイントのIPアドレスを使用します。 このディメンションはIPアドレスに基づいているので、訪問者の実際の場所の代わりに、アクセスポイントの位置情報が使用されます。
+このディメンションには、ダイヤルアップインターネットサービスプロバイダーの `"AOL"` を含めることができます。このサービスの購読者には、アクセスポイントが割り当てられます。AOL ユーザーは、このアクセスポイントの IP アドレスを使用します。このディメンションは IP アドレスに基づいているので、訪問者の実際の場所の代わりに、アクセスポイントの位置情報が使用されます。
 
 ## レポート場所と実際の場所の違い
 
