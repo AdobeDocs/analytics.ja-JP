@@ -2,8 +2,11 @@
 description: 'null'
 title: データソース処理時間
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '119'
+ht-degree: 100%
 
 ---
 
