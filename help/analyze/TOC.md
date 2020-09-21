@@ -3,10 +3,10 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: Tools Guide
-user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics.
+user-guide-description: Provides how-to instructions to Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 breadcrumb-url: /docs/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
+source-git-commit: 847e4c58a64bcd31999fb3306bb819b774e100ca
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 98%
