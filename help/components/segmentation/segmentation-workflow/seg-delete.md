@@ -3,9 +3,9 @@ description: セグメントを削除する前に検討する必要があるい�
 title: セグメントの削除
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 セグメントを削除する場合は、次の点を考慮します。
 
-* セグメントを削除しても、そのセグメントが適用された配信レポートとダッシュボードは、これまでどおりに機能します。つまり、セグメントやダッシュボードは、削除されたセグメントを使い続けます。
+* セグメントが適用された配信レポートとダッシュボードは、これまでどおりに機能します。つまり、セグメントやダッシュボードは、削除されたセグメントを使い続けます。
 * 同じ名前を持つセグメントを編集しても、配信レポートは更新されません。具体的な例を見てみましょう。次に示すように、同じ名前を持つ 2 つのセグメントを、別々のレポートスイートで使用しているとします。
 
    ![](assets/duplicate_seg_names.png)
