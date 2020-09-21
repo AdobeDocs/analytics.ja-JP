@@ -5,9 +5,9 @@ subtopic: Visitors
 title: クロスデバイス訪問者特定の例
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
 ht-degree: 100%
 
