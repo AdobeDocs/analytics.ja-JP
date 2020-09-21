@@ -1,11 +1,11 @@
 ---
 title: ブラウザーの高さ - グループ
 description: ソース画像の高さをピクセルで指定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 88%
 
 1 回の訪問でのブラウザーの高さは維持されます。訪問中にブラウザーの高さを調整した場合、調整は記録されません。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、収集されたすべてのブラウザーの高さが含まれ、100ピクセルのグループに分類されます。 For example, if the browser height of a hit is `720`, then it is grouped in the dimension item `700 to 799`.
+ディメンション項目には、収集されたすべてのブラウザーの高さが含まれ、100 ピクセルのグループに分類されます。例えば、ヒットのブラウザーの高さが `720` ある場合、そのヒットは `700 to 799` ディメンション項目にグループ化されます。
