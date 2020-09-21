@@ -3,8 +3,11 @@ description: 標準モードで、Analytics データを Activity Map からコ�
 title: CSV ファイルへの書き出し
 topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee5489798f8c82c563b49b6c96acd1e63a0aa920
+workflow-type: ht
+source-wordcount: '237'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: ee5489798f8c82c563b49b6c96acd1e63a0aa920
 
 標準モードで、Analytics データを Activity Map からコンマ区切り値（CSV）ファイルに書き出します。
 
-ユーザーは、リンククリックデータを他のデータソースと結合するか、他の分析（Excel などで）を実行することが必要になる場合があります。CSV にエクスポートすることにより、特定のページのすべての Activity Map データを利用しやすい形式で入手できます。あるページに関して生成された分析データをフラットな CSV ファイルに保存できるので、 Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. その後、スプレッドシートまたはテキストファイルとして表示したり、別のシステムにデータをインポートしたりできます。
+ユーザーは、リンククリックデータを他のデータソースと結合するか、他の分析（Excel などで）を実行することが必要になる場合があります。CSV にエクスポートすることにより、特定のページのすべての Activity Map データを利用しやすい形式で入手できます。あるページに関して生成された分析データをフラットな CSV ファイルに保存できるので、ページレポート、[ページフローレポート](/help/analyze/activity-map/activitymap-page-flow.md)および[ページ上のリンク](/help/analyze/activity-map/activitymap-links-report.md)のデータを書き出すことができます。その後、スプレッドシートまたはテキストファイルとして表示したり、別のシステムにデータをインポートしたりできます。
 
 Activity Map ツールバーの書き出しアイコンをクリックします。
 
