@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 処理ルールの復元
 topic: Admin tools
 uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '60'
+ht-degree: 100%
 
 ---
 
