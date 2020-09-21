@@ -1,8 +1,11 @@
 ---
 title: 外部電子メールトラッキング
 description: Adobe Analytics を使用して電子メールコンテンツを追跡します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '736'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,7 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
    * sc_cid=A1123A321：「A」はアフィリエイトキャンペーンを示すフラグ
    * sc_cid=EM033007：「EM」は電子メールキャンペーンを示すフラグ
    * sc_cid=GG987123：「GG」は Google を意味する有料検索キャンペーン
+
    トラッキングコードの設定と使用について詳しくは、Adobe [!DNL Customer Care] にお問い合わせください。
 
 1. HTML 電子メールリンクにクエリー文字列パラメーターを追加します。
