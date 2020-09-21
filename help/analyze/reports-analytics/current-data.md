@@ -4,8 +4,11 @@ subtopic: Current Data
 title: 現在のデータ
 topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '564'
+ht-degree: 100%
 
 ---
 
