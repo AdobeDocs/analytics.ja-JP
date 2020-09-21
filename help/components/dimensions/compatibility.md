@@ -1,11 +1,11 @@
 ---
 title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->カスタム変数名、分類、訪問者属性は、このリストには含まれません。これらのディメンション項目は、個々のレポートスイートに固有です。
+>カスタム変数名、分類、訪問者属性は、このリストには含まれません。これらのディメンション項目は、個々のレポートスイートに固有の値です。
 
 >[!NOTE]
 >
@@ -29,11 +29,11 @@ ht-degree: 99%
 | Analytics for Target | `targetraw` |
 | オーディエンス ID | `mcaudiences` |
 | ブラウザー | `browser` |
-| ブラウザーのタイプ | `browsertype` |
+| ブラウザータイプ | `browsertype` |
 | カテゴリ | `category` |
 | 市区町村 | `geocity` |
 | 色深度 | `colordepth` |
-| 接続のタイプ | `connectiontype` |
+| 接続タイプ | `connectiontype` |
 | cookie サポート | `cookie` |
 | 国 | `geocountry` |
 | 顧客の忠誠度 | `customerloyalty` |
@@ -126,7 +126,7 @@ ht-degree: 99%
 | 出口サイトセクション | `exitsitesections` |
 | ヒットの深さ | `hitdepth` |
 | ヒットタイプ | `hittype` |
-| Hour | `daterangehour` |
+| 時間 | `daterangehour` |
 | 時刻 | `timeparthourofday` |
 | マーケティングチャネル詳細 | `marketingchanneldetail` |
 | 分 | `daterangeminute` |
