@@ -1,11 +1,11 @@
 ---
 title: カテゴリ
 description: ヒットの製品カテゴリ。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 85%
 
 このディメンションは、[`products`](/help/implement/vars/page-vars/products.md) 変数内の文字列の最初の部分を参照します。最初のセミコロン（`;`）より前にあるすべての要素が、このディメンションに入力されます。
 
-## Dimension項目
+## ディメンション項目
 
-この変数は、実装内のカスタム文字列に基づくので、組織でディメンション項目が何であるかが決定されます。 「製品」ディメンションと「カテゴリ」ディメンションの両方を使用して、個々の製品を意味のあるカテゴリにグループ化することをお勧めします。
+この変数は、実装内のカスタム文字列に基づくので、組織でディメンション項目が何かを決定します。「製品」ディメンションと「カテゴリ」ディメンションの両方を使用して、個々の製品を意味のあるカテゴリにグループ化することをお勧めします。
 
 >[!TIP]
 >
