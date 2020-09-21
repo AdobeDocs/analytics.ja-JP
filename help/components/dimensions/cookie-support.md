@@ -1,27 +1,27 @@
 ---
-title: cookieのサポート
-description: ブラウザーがcookieをサポートするかどうかを指定します。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+title: cookie サポート
+description: ブラウザーが cookie をサポートするかどうかを指定します。
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # cookie サポート
 
-「cookieのサポート」ディメンションは、ブラウザーが特定のヒットに対してcookieをサポートしているかどうかをレポートします。 cookieをサポートするブラウザーを使用する訪問者と、cookieを意図的に無効にするブラウザーの割合を判断すると役立ちます。
+「Cookie サポート」ディメンションは、ブラウザーが特定のヒットに対して cookie をサポートしているかどうかをレポートします。これは、cookie をサポートするブラウザーを使用する訪問者と cookie を意図的に無効にするブラウザーの割合を判断するのに役立ちます。
 
-## このディメンションにデータを入力する
+## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストの [`k` クエリ列](/help/implement/validate/query-parameters.md) からデータを収集します。 AppMeasurementは、という名前のcookieを設定しようとし `s_cc`、そのcookieが存在するかどうかを検出します。 結果は、クエリ文字列パラメータの値 `Y` （ブラウザーがcookieをサポートし、有効にしている場合）または `N` （ブラウザーがcookieを無効にしている場合）です。 (Adobe Experience Platformの起動を介したなど)AppMeasurementを使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement以外のデータ収集方法（API経由など）を使用する場合は、各ヒットに `k` クエリ文字列パラメーターを値 `Y` またはと共に含めてください `N`。
+このディメンションは、イメージリクエストの[`k`クエリー文字列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、`s_cc` という名前の cookie を設定しようとし 、その cookie が存在するかどうかを検出します。結果は、クエリー文字列パラメータの値 `Y`（ブラウザーが cookie をサポートし、有効にしている場合）または `N`（ブラウザーが cookie を無効にしている場合）です。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外のデータ収集方式（API 経由など）を使用する場合は、各ヒットに `k` クエリー文字列パラメーターを値 `Y` または `N` で含めてください。
 
 ## ディメンション項目
 
-ディメンション項目には、 `Enabled`、、 `Disabled`およびが含まれ `Unknown`ます。
+ディメンション項目の値には、`Enabled`、`Disabled`、`Unknown` が含まれます。
 
-* **`Enabled`**: ブラウザーはcookieをサポートし、cookieを有効にしています。
-* **`Disabled`**: ブラウザーがcookieをサポートしていないか、訪問者がcookieを無効にしています。
-* **`Unknown`**: AppMeasurementはcookieのサポートを判断できませんでした。 イメージ要求に `k` クエリ文字列が存在しませんでした。
+* **`Enabled`**：ブラウザーは cookie をサポートし、cookie を有効にしています。
+* **`Disabled`**：ブラウザーが cookie をサポートしていないか、訪問者が cookie を無効にしています。
+* **`Unknown`**：AppMeasurement は cookie サポートを判断できませんでした。イメージリクエストに `k` クエリー文字列が存在しませんでした。
