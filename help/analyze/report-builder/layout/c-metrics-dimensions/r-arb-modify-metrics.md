@@ -3,8 +3,11 @@ description: Report Builder で指標を設定する際に使用するフィー�
 title: 指標の変更 - フィールドの定義
 topic: Report builder
 uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '227'
+ht-degree: 100%
 
 ---
 
