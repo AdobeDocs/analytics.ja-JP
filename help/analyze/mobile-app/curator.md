@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
 
 受信者は、共有したスコアカードに Analytics ダッシュボードでアクセスできます。その後、スコアカードビルダーでスコアカードに変更を加えると、共有されたスコアカードが自動的に更新されます。エグゼクティブユーザーがアプリケーションのスコアカードを更新すると、変更が表示されます。
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
+新しいコンポーネントを追加してスコアカードを更新する場合、エグゼクティブユーザーがこれらの変更にアクセスできることを確認するために、スコアカードを再度共有する（および「**埋め込みコンポーネントを共有**」オプションをオンにする）ことができます。
 
 ## アプリケーションでのエグゼクティブユーザーの設定
 
@@ -163,7 +163,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 * ユーザーに Adobe Analytics への有効なログインがある
 * モバイルスコアカードを正しく作成し、共有している
 * ユーザーが Analysis Workspace およびスコアカードが基づくレポートスイートにアクセスできる
-* ユーザーがスコアカードに含まれるコンポーネントにアクセスできるNote that you can select an option when sharing your Scorecards to **Share embedded components**.
+* ユーザーがスコアカードに含まれるコンポーネントにアクセスできるスコアカードを共有する際に、「**埋め込みコンポーネントを共有**」オプションを選択できることにご注意ください。
 
 ### エグゼクティブユーザーのアプリケーション使用
 
