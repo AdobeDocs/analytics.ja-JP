@@ -1,9 +1,9 @@
 ---
 title: マーケティングチャネルでの分類
 description: 分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
