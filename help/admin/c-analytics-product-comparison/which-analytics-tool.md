@@ -2,11 +2,11 @@
 description: このヘルプページでは、各 Adobe Analytics ツールの推奨される使用例が紹介されています。ここにリストされている順にツールを検討するとよいでしょう。あるツールがニーズを満たさない場合は、次のツールの使用を検討します。
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 待ち時間分析（イベント前後の時間）。
 * Adobe Experience Cloud 全体での複雑なセグメントの識別およびエクスポート。
 
-## Adobe Analytics へのデータのインポート {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Adobe Analytics へのデータのインポート{#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 **[分類](/help/components/classifications/c-classifications.md)** は以下の場合に使用します。
 
@@ -83,7 +83,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 人口統計情報（例：性別や所得水準）、サイコグラフィック情報（例：興味や趣味）、CRM データ、広告インプレッションデータなどの Adobe Audience Manager（AAM）のオーディエンスデータを任意の Analytics ワークフローに組み込む場合。
 * この統合によって新しい情報が Analytics にヒットごとに送信されるので、アップロードされた CRM データを時間ベースにする場合。
 
-## Adobe Analytics からのデータのエクスポート {#section_901C06ABF2014E92B2952906723DF235}
+## Adobe Analytics からのデータのエクスポート{#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** は以下の場合に使用します。
 
@@ -99,7 +99,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * UI よりも詳細なデータへのアクセス（非正規化テーブル表示）
 * ピボットテーブルの入力に適した形式でのデータのダウンロード 
 * 顧客が Adobe データをサードパーティ製のデータ可視化ツールに入力することを希望する場合（ヒットレベルではなく、若干要約されたデータ）
-* Adobe Analyticsで「低トラフィック」が発生している場合に、すべての一意のディメンション項目にアクセスするには
+* すべての個別ディメンション項目へのアクセス（Adobe Analytics で「低トラフィック」を検出した場合）
 
 **[Analytics データフィード](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** は、次の場合に使用します。
 
