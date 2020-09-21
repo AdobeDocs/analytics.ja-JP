@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 66%
+ht-degree: 77%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics では、ほとんどの変数は、レポートの目的で、�
 
 ## ボットは管理コンソールのボットルールによってフィルタリングされ、データフィードに含まれますか。
 
-データフィードには、 [管理コンソールボットルールでフィルタリングされたボットは含まれません](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)。
+データフィードには、[Admin Console ボットルール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/bot-removal/bot-removal.html)でフィルタリングされたボットは含まれません。
 
 ## またはデータフィード列に複数の `000` 値が表示されるのはなぜで `event_list``post_event_list` すか。
 
