@@ -1,19 +1,19 @@
 ---
 title: インスタンス
 description: 変数が設定された（持続的でない）ヒット数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 
 # インスタンス
 
-「インスタンス」指標は、イメージリクエストでディメンションが明示的に定義された回数を示します。Some dimensions, such as [eVars](../dimensions/evar.md), persist dimension items past the hit they are set on. この指標は、その値が持続するヒットなしでディメンション項目が設定された回数を確認する場合に役立ちます。
+「インスタンス」指標は、イメージリクエストでディメンションが明示的に定義された回数を示します。[eVars](../dimensions/evar.md)などのディメンションには、設定されたヒットを超えたディメンション項目が保持されるものもあります。この指標は、その値が持続するヒットなしでディメンション項目が設定された回数を確認する必要がある場合に役立ちます。
 
 ## この指標の計算方法
 
-レポートスイート内のすべてのヒットのうち、イメージリクエストにディメンション項目を明示的に設定するヒットのみを含めます。 [eVars ](../dimensions/evar.md)などのディメンションは、設定されたヒットの後も保持される場合があります。[ページビュー](page-views.md)や[発生件数](occurrences.md)などの指標は、初期値と持続値の両方をカウントします。この指標では、持続値はカウントされません。
+レポートスイート内のすべてのヒットのうち、イメージリクエストにディメンション項目を明示的に設定するヒットのみを含めます。[eVars](../dimensions/evar.md)などのディメンションは、設定されたヒットの後も保持される場合があります。[ページビュー](page-views.md)や[発生件数](occurrences.md)などの指標は、初期値と持続値の両方をカウントします。この指標では、持続値はカウントされません。
