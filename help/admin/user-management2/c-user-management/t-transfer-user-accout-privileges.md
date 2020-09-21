@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: ユーザーアカウント項目の転送
 topic: Admin tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
 1. 「**[!UICONTROL ユーザーの編集]**」をクリックします。
 1. アセットの転送元のユーザーを探し、このユーザーの行の横にあるチェックボックスを選択します。
-1. 上部のア **[!UICONTROL クションバー]** 「アセットを転送」を選択します。
+1. 上部のアクションバーで「**[!UICONTROL アセットを転送]**」を選択します。
 1. **[!UICONTROL 転送]**&#x200B;ページで、このユーザーのアカウント項目を受け取るユーザーアカウントを選択します。
 1. 転送するアカウント項目を選択し、「**[!UICONTROL 転送]**」をクリックします。
 1. 「**[!UICONTROL OK]**」をクリックし、選択したアカウントリソースを転送することを確認します。
