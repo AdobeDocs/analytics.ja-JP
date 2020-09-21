@@ -3,10 +3,10 @@ description: 'null'
 title: プロジェクトコンバーターに関する FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 98%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>散布図</b>：Analysis Workspace にエクスポートされたプロジェクトでは、Y 軸が最初の列に設定され、X 軸が 2 番目の列、直径が 3 番目の列になります。 </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>フォールアウトの表</b>：フォールスルーまたはフォールアウトの表を表示するには、チェックポイントを右クリックして分類オプションを選択します。 </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>フォールアウトレポートレベルの日付範囲</b>：カスタマイズされたレポートの日付範囲は、フォールアウトビジュアライゼーションに適用されていません。 </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>フローレポート</b>：日付範囲やセグメント化を維持するため、フローは個別のパネルに移動されます。 </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>フローレポート</b>：日付範囲やセグメント化を維持するため、フローは個別のパネルに移動されます。繰り返しインスタンスは、フロー設定の下に含めたり除外したりできます。 </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>コンバージョンファネル</b>：これは Analysis Workspace ではサポートされないので、フリーフォームテーブルに変換されます。コンバージョンファネルの代わりとしてお勧めなのは、フォールアウトビジュアライゼーションですが、これは若干異なる動作を示します。 </li> 
     </ul> </td> 
   </tr> 
@@ -74,14 +74,14 @@ ht-degree: 98%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">セグメントは変換後のプロジェクトの内部（非公開）になります。以下に示すように、それらを公開することができます。 <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Ad Hoc Analysis のワークスペースレベルのセグメントは、Analysis Workspace のプロジェクト／ワークスペースレベルに適用されます。 </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Ad Hoc Analysis のレポートレベルのセグメントは、Analysis Workspace のテーブル列レベルに適用されます。 </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis の表のセグメントは、Analysis Workspace の列レベルに適用されます。 </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysisテーブルセグメントは、Workspaceのテーブル列レベルで適用されます。 </li> 
     </ul> <p>セグメントを編集するには、<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html"  >セグメントビルダー</a>を使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：日付範囲はどのように変換されますか。</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">日付範囲「最近の X 日間」の場合、Ad Hoc Analysis では今日が<i>除外</i>されますが、Analysis Workspace では今日は<i>含まれません</i>。このため、「最近の 90 日間」のような日付範囲は、ツール間で厳密に一致しない場合があります。Analysis Workspace で同じ期間を取得するには、カスタム日付範囲を使用してください。 </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">日付範囲「最近の X 日間」の場合、Ad Hoc Analysis では今日が<i>除外</i>されますが、Analysis Workspace では今日は<i>含まれません</i>。したがって、「過去90日間」のような日付範囲は、ツール間で正確に一致しない場合があります。 代わりに、Analysis Workspaceで「最近のX <b>日間 </b> 」の範囲を適用します。 </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis のワークスペースレベルの日付範囲は、Analysis Workspace のプロジェクト／ワークスペースレベルに適用されます。 </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis のレポートレベルの日付範囲は、Analysis Workspace のテーブル列レベルに適用されます。 </li> 
     </ul> <p>カスタム日付範囲を編集するには、<span class="uicontrol">Analytics</span>／<span class="uicontrol">コンポーネント</span>／<span class="uicontrol">日付範囲</span>を選択します。 </p> </td> 
