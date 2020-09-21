@@ -1,11 +1,11 @@
 ---
 title: 平日／週末
 description: ヒットが平日または週末のどちらで発生したかを指定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ ht-degree: 68%
 
 このディメンションは、すべての実装で初期設定の状態で動作します。レポートスイートにデータが含まれる場合、このディメンションは機能します。
 
-## Dimension項目
+## ディメンション項目
 
-This dimension always contains exactly two dimension items: `"Weekday"` and `"Weekend"`. The dimension item `"Weekday"` applies to all hits Monday through Friday, while the dimension item `"Weekend"` applies to all hits on Saturday and Sunday.
+このディメンションには、常に `"Weekday"` と `"Weekend"` の 2 つのディメンション項目が含まれます。`"Weekday"` ディメンション項目は月～金曜日のすべてのヒットに適用され、`"Weekend"` ディメンション項目は土曜日と日曜日のすべてのヒットに適用されます。
