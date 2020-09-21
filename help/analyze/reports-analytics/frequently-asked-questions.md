@@ -3,11 +3,11 @@ description: Analytics に関して最もよくある質問に対する回答と
 keywords: Troubleshooting Analytics
 title: よくある質問
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ iOS デバイスでは、デバイスバージョンではなく、ユーザー�
 
 **レポートの一番下の合計が値の和と一致しない理由を教えてください。**
 
-Dimensionの項目は、多くの場合複数の場所に適用できます。例えば、真夜中をまたぐ訪問や、単一の注文に属する複数の製品の訪問などです。 ディメンション項目は、該当するすべての行項目に対してレポートされますが、レポートの合計で重複が排除されます。 詳しくは、Analytics KB で[行項目の合計とレポートでの合計の比較](https://helpx.adobe.com/jp/analytics/kb/sum-line-items-different-from-total.html)を参照してください。
+ディメンション項目はよく複数の場所に適用されることがあります。例えば、午前 0 時にまたがる訪問や、単一の注文に属する複数の製品の訪問などです。ディメンション項目は、該当するすべての行項目にわたってレポートされますが、レポートの合計では重複が除外されます。詳しくは、Analytics KB で[行項目の合計とレポートでの合計の比較](https://helpx.adobe.com/jp/analytics/kb/sum-line-items-different-from-total.html)を参照してください。
 
 **レポートスイートの特定の IP アドレスからデータを除外する方法を教えてください。**
 
