@@ -5,6 +5,9 @@ topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: ht
+source-wordcount: '491'
+ht-degree: 100%
 
 ---
 
