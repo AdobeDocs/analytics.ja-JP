@@ -2,7 +2,7 @@
 description: 'null'
 title: 空のパネル
 translation-type: ht
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '47'
 ht-degree: 100%
