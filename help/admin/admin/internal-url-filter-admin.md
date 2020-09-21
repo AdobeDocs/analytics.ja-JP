@@ -3,18 +3,18 @@ description: 内部 URL フィルターは、サイト内部のリファラー�
 title: 内部 URL フィルター
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # 内部 URL フィルター
 
-**[!UICONTROL 管理者/レポートスイート/設定を編集/一般/内部URLフィルター/追加フィルター]**
+**[!UICONTROL 管理者／レポートスイート／設定を編集／一般／内部 URL フィルター／フィルターを追加]**
 
 内部 URL フィルターは、サイト内部のリファラーを識別します。トラフィックソースレポートにデータを入力したり、内部トラフィックにフィルターをかけるのに役立ちます。
 
