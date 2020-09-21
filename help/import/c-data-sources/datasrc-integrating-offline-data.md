@@ -4,11 +4,11 @@ subtopic: Data sources
 title: トランザクションの統合と顧客の統合
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 トランザクション ID は、ClientCare にお問い合わせいただかなくても、UI で次の手順を実行して有効／無効にできます。
 
-Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
+**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／レポートスイートを選択&#x200B;**[!UICONTROL ／設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 一般的なアカウント設定]**&#x200B;に移動します。
 
 <!-- 
 
