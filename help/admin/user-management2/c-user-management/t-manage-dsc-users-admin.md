@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: Ad Hoc Analysis ユーザーの管理
 topic: Admin tools
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '96'
+ht-degree: 100%
 
 ---
 
