@@ -3,7 +3,7 @@ description: Workspace の表示のみのプロジェクト
 keywords: View-only projects
 title: 表示のみの Workspace プロジェクト
 translation-type: ht
-source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
