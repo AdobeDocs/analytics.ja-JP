@@ -4,8 +4,11 @@ subtopic: Data sources
 title: インポートファイルテンプレートの作成
 topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '596'
+ht-degree: 100%
 
 ---
 
