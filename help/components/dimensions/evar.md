@@ -1,11 +1,11 @@
 ---
 title: eVar
 description: レポートで使用できるカスタムディメンション。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ eVar は、好きなだけ使用できるカスタム変数です。[ソリュ�
 
 使用可能な eVar の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
-eVarでは大文字と小文字が区別されません。 異なるケース( `"DOG"``"Dog"`となど)で同じ値を送信する場合、Analysis Workspaceはそれらを同じディメンション項目にグループ化します。 レポートの月の最初に表示される最初の値の場合が使用されます。 Data Warehouseには、リクエスト期間中に最初に発生した値が表示されます。
+eVar では大文字と小文字が区別されません。大文字と小文字で同じ値を送信する（`"DOG"` と `"Dog"` など）と、Analysis Workspace はそれらを同じディメンション項目にグループ化します。レポートの月の最初に表示される最初の値の場合が使用されます。Data Warehouse には、リクエスト期間中に最初に発生した値が表示されます。
 
 ## eVar にデータを入力する
 
@@ -26,9 +26,9 @@ eVarでは大文字と小文字が区別されません。 異なるケース( `
 
 JavaScript 変数をデータ収集用のイメージリクエストにコンパイルする AppMeasurement では、変数 `eVar1` — `eVar250` を使用します。導入のガイドラインについては、『導入ユーザガイド』の [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。
 
-## Dimension項目
+## ディメンション項目
 
-eVarは、実装にカスタム文字列を含むので、各eVarのディメンション項目を決定します。 Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+eVar は実装内にカスタム文字列を含むので、各 eVar のディメンション項目は組織によって決定されます。各 eVar の目的と一般的なディメンション項目を必ず[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)に記録してください。
 
 ## eVar のしくみ
 
