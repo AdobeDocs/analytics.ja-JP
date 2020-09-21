@@ -4,8 +4,11 @@ keywords: Virtual Report Suite
 title: 仮想レポートスイートの作成
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '360'
+ht-degree: 100%
 
 ---
 
@@ -18,8 +21,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 仮想レポートスイートは共有できません。「共有」するには、グループや権限を使用します。
 * 仮想レポートスイートマネージャーには、自分が所有する仮想レポートスイートのみが表示されます。他のユーザーの仮想レポートスイートを表示するには、「すべて表示」をクリックする必要があります。
 
-1. /に移動 **[!UICONTROL Components]** します **[!UICONTROL Virtual Report Suites]**。
-1. クリック **[!UICONTROL Add +]**.
+1. **[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**&#x200B;に移動します。
+1. 「**[!UICONTROL 追加 +]**」をクリックします。
 
    ![](assets/new_vrs.png)
 
