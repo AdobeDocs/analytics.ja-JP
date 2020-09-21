@@ -1,11 +1,11 @@
 ---
 title: eVar（マーチャンダイジング）
 description: 製品ディメンションに関連付けられるカスタム変数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 マーチャンダイジング変数での使用には、[インスタンス](../metrics/instances.md)指標の使用は推奨されません。
 
 * 製品の構文を使用するマーチャンダイジング変数の場合、インスタンスはまったく増えません。
-* コンバージョン変数の構文を使用するマーチャンダイジング変数の場合、eVar が設定されるたびにインスタンスがカウントされます。However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
+* コンバージョン変数の構文を使用するマーチャンダイジング変数の場合、eVar が設定されるたびにインスタンスがカウントされます。ただし、同じヒットで次のすべてが発生しない限り、ディメンション項目 `"None"` の属性になります。
    * マーチャンダイジング eVar が新しい値で上書きされます。
    * `products` 変数は値で定義されます。
    * バインディングイベントが設定される。
