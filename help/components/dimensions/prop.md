@@ -1,11 +1,11 @@
 ---
 title: prop
 description: レポートで使用できるカスタムディメンション。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ Prop は、好きなだけ使用できるカスタム変数です。Prop は、�
 
 JavaScript 変数をデータ収集用のイメージリクエストにコンパイルする AppMeasurement では、変数 `prop1` — `prop75` を使用します。実装のガイドラインについては、『実装ユーザガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。
 
-## Dimension項目
+## ディメンション項目
 
-propは実装にカスタム文字列を含むので、組織は各propのディメンション項目を決定します。 Make sure you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Prop は実装にカスタム文字列を含むので、組織は各 prop のディメンション項目を決定します。各 prop の目的と一般的なディメンション項目を必ず[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)に記録してください。
 
 ## 大文字と小文字の区別
 
-propは、デフォルトでは大文字と小文字が区別されません。 異なるケース( `"DOG"``"Dog"`となど)で同じ値を送信する場合、Analysis Workspaceはそれらを同じディメンション項目にグループ化します。 レポートの月の最初に表示される最初の値の場合が使用されます。 Data Warehouseには、リクエスト期間中に最初に発生した値が表示されます。
+prop では、デフォルトでは大文字と小文字が区別されません。大文字と小文字で同じ値を送信する（`"DOG"` と `"Dog"` など）と、Analysis Workspace はそれらを同じディメンション項目にグループ化します。レポートの月の最初に表示される最初の値の場合が使用されます。Data Warehouse には、リクエスト期間中に最初に発生した値が表示されます。
 
-propでは大文字と小文字が区別されます。 また、任意のpropを有効にした後、大文字と小文字の区別を無効にすることもできます。 大文字と小文字の区別を切り替えるには、レポートスイートIDと目的の変数をAdobeカスタマーケアに連絡します。
+prop では大文字と小文字が区別されます。また、任意の prop を有効にした後、大文字と小文字の区別を無効にすることもできます。大文字と小文字の区別を切り替えるには、レポートスイート ID と目的の変数を Adobe カスタマーケアに連絡します。
 
 >[!IMPORTANT]
 >
->大文字と小文字の区別を切り替えると、ディメンション項目の切り替え、セグメントでの予期しない結果の発生、フィルターの問題の原因となる場合があります。 Adobeでは、この設定を月や年の初めなど、2つの主要な期間に切り替えることを強くお勧めします。
+>大文字と小文字の区別を切り替えると、ディメンション項目の切り替え、セグメントでの予期しない結果の発生、フィルターの問題の原因となる場合があります。この設定は、月や年の初めなどの区切りの良い切りタイミングで替えることを強くお勧めします。
 
 ## eVar に対する prop の値
 
