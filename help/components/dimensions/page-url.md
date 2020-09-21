@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
@@ -32,6 +32,6 @@ eVar を連結された文字列 `window.location.hostname + window.location.pat
 
 eVar を Data Warehouse の「ページ URL」ディメンションと完全に一致させる場合は、[動的変数](/help/implement/vars/page-vars/dynamic-variables.md)を使用して、各ヒットに対して eVar を `D=g` に設定できます。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、サイトのページのURLが含まれます。
+ディメンション項目には、サイトのページの URL が含まれます。
