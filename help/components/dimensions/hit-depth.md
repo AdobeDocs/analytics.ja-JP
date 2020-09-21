@@ -1,11 +1,11 @@
 ---
 title: ヒットの深さ
 description: 訪問へのヒット数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 75%
 
 このディメンションは、すべての実装で初期設定の状態で動作します。レポートスイートにデータが含まれる場合、このディメンションは機能します。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension items include the string `"Hit Depth"` followed by a number representing the number of hits into the visit. The dimension item of `"Hit Depth 1"` represents the first hit of the visit, while the dimension item `"Hit Depth 8"` represents the 8th hit of the visit.
+ディメンション項目には、`"Hit Depth"` 文字列の後に、訪問へのヒット数を表す数値が続きます。`"Hit Depth 1"` ディメンション項目は訪問の最初のヒットを表し、`"Hit Depth 8"` ディメンション項目は訪問の 8 番目のヒットを表します。
 
 ## 訪問の深さとの比較
 
-ヒットの深さでは、ページビューやリンクトラッキングのヒットなど、すべてのタイプのヒットがカウントされます。Visit depth only increments for page view hits, _and_ the [Page](page.md) dimension item is not the same as the value on the previous page. また、訪問の深さは訪問ベースのディメンションです。つまり、訪問のすべてのヒットに対して同じ値になります。次の表に、訪問の例と、ヒットの深さと訪問の深さをどのように考慮するかを示します。
+ヒットの深さでは、ページビューやリンクトラッキングのヒットなど、すべてのタイプのヒットがカウントされます。訪問の深さは、ページビューのヒットに対してのみ増加します。_そして_、[ページ](page.md)ディメンションの項目が前のページの値と同じではありません。また、訪問の深さは訪問ベースのディメンションです。つまり、訪問のすべてのヒットに対して同じ値になります。次の表に、訪問の例と、ヒットの深さと訪問の深さをどのように考慮するかを示します。
 
 | ページシーケンス | ヒットの深さ | 訪問の深さに対するカウント？ | 訪問の深さ |
 | --- | --- | --- | --- |
