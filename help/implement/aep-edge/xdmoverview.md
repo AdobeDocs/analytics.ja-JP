@@ -2,7 +2,7 @@
 title: Analytics での XDM データの使用
 description: 'Adobe Analytics における Experience Platform の XDM データの使用の概要 '
 translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '259'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Analytic での Adobe Experience Platform Edge データの使用
 
-Adobe Experience Platform（AEP）[Web SDK](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) を使用して、データを Adobe Analytics に送信できます。これを機能させるには、[Experience Data Model（XDM）](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)を Analytics で使用される形式に変換します。
+[Adobe Experience Platform（AEP）Web SDK](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) を使用して、データを Adobe Analytics に送信できます。これを機能させるには、[Experience Data Model（XDM）](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)を Analytics で使用される形式に変換します。
 
 Analytics は、次の 2 つの方法で XDM データを収集します。
 
