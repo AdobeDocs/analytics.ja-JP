@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 処理ルールのしくみ
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
@@ -91,7 +94,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 処理ルールの条件 {#section_387390EEE9BA4DA98698522A84326DB4}
+## 処理ルールの条件{#section_387390EEE9BA4DA98698522A84326DB4}
 
 条件は、ページ変数の一致する値または値が存在するかどうかをチェックします。複数の条件を追加でき、すべての条件が一致する必要があるかどうかを選択できます。
 
@@ -99,7 +102,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 アクションがおこなわれる前に、変数の値は自動的にチェックされません。例えば Prop1 に「何か」の値が含まれていて、eVar1 が空であるとします。Prop1 を eVar1 と等しくなるように設定すると、両方の値が空になります。これを避けるには、値の存在をチェックする条件を追加します。
 
-## 処理ルールのアクション {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## 処理ルールのアクション{#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 アクションはページ変数を設定したり、ページ変数を削除したり、イベントをトリガーしたりします。アクションはレポートに表示する値を連結することもできます。
 
