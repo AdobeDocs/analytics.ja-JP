@@ -4,6 +4,9 @@ title: ディメンションのプレビュー
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 translation-type: ht
 source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
+workflow-type: ht
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
@@ -26,4 +29,4 @@ source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ディメンションにマウスポインターを置き、その横にある灰色の右矢印をクリックすると、ディメンション項目のリストが表示されます。ディメンション項目のリストには通常、過去 30 日間の上位の項目が表示されます。
 
-リストの下までスクロールすると、**[!UICONTROL Show Top Items From Last 6 Months]**&#x200B;が表示されます。このオプションをクリックすると、過去 180 日の上位のディメンション項目が表示されます。
+下にスクロールしてリストの下部に移動すると、「**[!UICONTROL 過去 6 ヶ月の上位の項目を表示]**」が表示されます。このオプションをクリックすると、過去 180 日の上位のディメンション項目が表示されます。
