@@ -53,7 +53,7 @@ ht-degree: 100%
 | [セキュリティ](/help/admin/company/security-manager.md) | レポートデータへのアクセスを制御するセキュリティマネージャーページに対する権限を付与します。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。 |
 | サポート情報 | カンパニー設定のサポート情報に対する権限を付与します。 |
 | [Web サービス](/help/admin/company/web-services-admin.md) | 管理ツールインターフェイスの Web サービスページにアクセスできるようにします（[!UICONTROL カンパニー設定]／[!UICONTROL Web サービス]）。<br>Web Services API を使用すると、ユーザーインターフェイスを通じて使用可能な機能を複製および補強する Adobe Analytics サービスにプログラムレベルでアクセスできます。 |
-| シングルサインオン（レガシー） | 管理ツールのシングルサインオンページへのアクセス権を付与します。<br>**注意&#x200B;**：Adobe Experience Cloud のシングルサインオンは、Experience Cloud とソリューションの間の[アカウントのリンク](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)を使用して実装されます。 |
+| シングルサインオン（レガシー） | 管理ツールのシングルサインオンページへのアクセス権を付与します。<br>**注意**：Adobe Experience Cloud のシングルサインオンは、Experience Cloud とソリューションの間の[アカウントのリンク](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)を使用して実装されます。 |
 | [保留中のアクション](/help/admin/company/pending-actions-admin.md) | [!UICONTROL カンパニー設定]の保留中のアクションを管理する権限を付与します。 |
 | [ブランド提携](/help/admin/company/co-branding-admin.md) | Analytics のコブランド化の権限を付与します。 |
 | [環境設定](/help/admin/admin/preferences-manager.md) | [!UICONTROL Preference Manager] に対する権限を付与します。 |
