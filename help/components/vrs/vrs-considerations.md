@@ -4,9 +4,9 @@ keywords: Virtual Report Suite,VRS
 title: 仮想レポートスイートとグローバル／複数のスイートタグ付けに関する考慮事項
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '1735'
 ht-degree: 100%
 
