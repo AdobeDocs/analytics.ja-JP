@@ -1,11 +1,11 @@
 ---
 title: よくある質問
 description: サードパーティプラットフォームからアドビ製品への移行について、よく寄せられる質問にお答えします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,6 +29,6 @@ ht-degree: 85%
 
 該当する [!UICONTROL Workspace] プロジェクトへのアクセス権を持つユーザーは、このドロップダウンを使用して、セグメントや他のコンポーネントをプロジェクトに適用できるようになりました。詳しくは、『Adobe Analytics ツールガイド』の「[パネルの概要](/help/analyze/analysis-workspace/c-panels/panels.md)」を参照してください。
 
-**ディメンション項目をクリックしてドリルダウンを表示するのに慣れています。 Analysis Workspace でこのワークフローを再現する方法を教えてください。**
+**ディメンション項目をクリックしてドリルダウンを表示しています。Analysis Workspace でこのワークフローを再現する方法を教えてください。**
 
-Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. 左クリックではなく右クリックでアクセスします。Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. 各値でCtrlキー(Windows)またはCommandキー(Mac)を押しながらクリックすると、複数のディメンション項目に同じ分類を適用できます。
+また、[!UICONTROL Analysis Workspace] のディメンション項目は 、分類の作業が容易になります。左クリックではなく右クリックでアクセスします。ディメンション項目を右クリックし「[!UICONTROL 分類]」をクリックして適切なコンポーネントを選択します。Ctrl キー（Windows）または Command キー（Mac）を押しながら各項目をクリックすると、同じ分類を複数のディメンション項目に適用できます。
