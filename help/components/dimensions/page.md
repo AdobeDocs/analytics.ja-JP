@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 71%
+ht-degree: 82%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 71%
 
 このディメンションは、 [`pageName` ページ表示呼び出しの](/help/implement/validate/query-parameters.md) クエリ列 [(`t()`)からデータを取得します](/help/implement/vars/functions/t-method.md)。 [リンクトラッキングコール(`tl()`)](/help/implement/vars/functions/tl-method.md) 。 `pageName` クエリ文字列が存在する場合でも、常にこのディメンションを除去します。
 
-AppMeasurement は、[`pageName`](/help/implement/vars/page-vars/pagename.md) 変数を使用してこのデータを収集します。If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+AppMeasurement は、[`pageName`](/help/implement/vars/page-vars/pagename.md) 変数を使用してこのデータを収集します。If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、サイトのページ名が含まれます。 組織によって、使用する特定のディメンション項目が決まります。 組織によって、`document.title`値を使用する場合と、カスタム値を作成する場合があります。どの方法を使用する場合でも、一貫性があり、[ソリューションデザイン](/help/implement/prepare/solution-design.md)ドキュメントに記録する必要があります。
+ディメンション項目には、サイトのページ名が含まれます。組織は、使用する特定のディメンション項目を決定します。組織によって、`document.title`値を使用する場合と、カスタム値を作成する場合があります。どの方法を使用する場合でも、一貫性があり、[ソリューションデザイン](/help/implement/prepare/solution-design.md)ドキュメントに記録する必要があります。
 
 >[!NOTE]
 >
