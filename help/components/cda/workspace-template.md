@@ -1,11 +1,11 @@
 ---
 title: CDA Workspace テンプレート
-description: Analysis Workspace内のCDAテンプレートの各フィールドについて説明します。
-translation-type: tm+mt
+description: Analysis Workspace 内の CDA テンプレートの各フィールドについて説明します。
+translation-type: ht
 source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 アドビのオファーは、重要なクロスデバイスパフォーマンスデータを確認するためのテンプレートを提供します。
 
-1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動し、Adobe IDの資格情報を使用してログインします。
+1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動し、Adobe ID の資格情報を使用してログインします。
 1. 上部の 9 グリッドアイコンをクリックし、「Analytics」をクリックします。
 1. 上部の「[!UICONTROL Workspace]」をクリックし、「[!UICONTROL 新しいプロジェクトを作成]」をクリックします。
 1. 「Journey IQ：デバイス間の分析」テンプレートを見つけ、「[!UICONTROL 作成]」をクリックします。
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 * **Co-op グラフのメンバーに関する特別な注意事項**：Co-op グラフがサポートされる地域とサポートされない地域の訪問者が、レポートスイートのどの部分に含まれているかが表示されます。
 * **ユーザーの ID**：クロスデバイス分析に基づくメソッドを使用して、サイトへの訪問者を識別する頻度を示します。
-* **オーディエンスサイズの測定**：「個別デバイス数」と「人」の比較を表示します。この 2 つの数値の比率は「クロスデバイス圧縮」と呼ばれ、このパネルに表示される計算指標です。この圧縮指標は、様々な要因に依存します。
+* **オーディエンスサイズの測定**：「個別デバイス数」と「人」の比較を表示します。この 2 つの数値の比率は「クロスデバイス圧縮」と呼ばれ、このパネルに表示される計算指標です。この圧縮指標は、次の様々な要因によって異なります。
    * Co-op グラフまたはプライベートグラフの使用：一般に、Device Co-op を使用する組織は、プライベートグラフを使用する組織よりも圧縮率が高くなる傾向があります。
    * ログイン率：サイトにログインするユーザーが増えるほど、アドビはデバイスをまたいで訪問者を識別し、関連付けられるようになります。サイトのログイン率が低い場合は、圧縮率も低くなります。
    * Experience Cloud ID の有効範囲：ECID を持つ訪問者のみを結び付けることができます。ECID を使用してサイトに来訪した訪問者の割合が低くなると、圧縮率も低くなります。
