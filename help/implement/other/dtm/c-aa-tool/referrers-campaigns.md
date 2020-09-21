@@ -6,6 +6,9 @@ title: リファラーとキャンペーン
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+workflow-type: ht
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
