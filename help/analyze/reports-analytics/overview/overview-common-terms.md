@@ -3,8 +3,11 @@ description: マーケティングレポートで使用される Web 解析の�
 title: 一般用語
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td> <p> レポート </p> </td> 
-   <td> <p>マーケティングレポート機能の基本です。収集したデータすべてに対してオンラインレポートを実行できます。 </p> <p>詳しくは、   <a href="/help/analyze/reports-analytics/reports.md"> レポートタイプ</a>。 </p> </td> 
+   <td> <p>マーケティングレポート機能の基本です。収集したデータすべてに対してオンラインレポートを実行できます。 </p> <p>詳しくは、    <a href="/help/analyze/reports-analytics/reports.md"> レポートタイプ</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> ページビュー </p> </td> 
@@ -62,7 +65,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td> <p>コンバージョンイベントとは、サイト上で訪問者に行ってもらいたい行動（主要業績評価指標）を指します。e コマースサイトでのコンバージョンイベントは、詳細製品ビュー、チェックアウト、購入などです。リードジェネレーションサイトでのイベントは、フォームの記入などです。コンバージョンイベントはサイト上でカウントされ、その件数が独自のレポートに表示されます。また、これらのイベントは指標として別のレポートにも挿入され、コンバージョンイベントの発生理由や発生要因などを示します。 </p> <p>基本的には 1 つのイベントで 1 つの指標が生成されますが、購入イベントは例外で、売上高、注文件数、および数量の 3 つの指標が生成されます。 </p> <p>ここで定義する以外のコンバージョン指標もありますが、コンバージョン指標は Web 解析の基礎となるもので、これらに基づいて他の指標やレポートが構築されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Channel </p> </td> 
+   <td> <p>チャネル </p> </td> 
    <td> <p> 定義されたサイトのセクションまたはカテゴリ。2 つの主なカテゴリ（天気やニュース<span class="term">天気</span>と<span class="term">ニュース</span>は 2 つのチャネルを持ちます。サイト内の任意のチャネルに対するページビュー件数の統計をすべてグループ化できます。 </p> </td> 
   </tr> 
  </tbody> 
