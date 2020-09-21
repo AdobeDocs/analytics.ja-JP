@@ -4,9 +4,9 @@ subtopic: Classifications
 title: 分類階層
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
 ht-degree: 100%
 
