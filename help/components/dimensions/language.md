@@ -1,11 +1,11 @@
 ---
 title: 言語
 description: ブラウザーの優先言語設定。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 80%
 
 このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `Accept-Language` HTTP ヘッダーに基づきます。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、訪問者の優先言語のわかりやすい名前が含まれます。 例として、`"English (United States)"`、`"English (United Kingom)"`、`"Chinese (China)"`、`"Spanish (Spain)"` があります。If an image request does not contain a valid language in the HTTP header, the dimension item is `"None"`.
+ディメンション項目には、訪問者の優先言語のわかりやすい名前が含まれます。例として、`"English (United States)"`、`"English (United Kingom)"`、`"Chinese (China)"`、`"Spanish (Spain)"` があります。イメージリクエストの HTTP ヘッダーに有効な言語が含まれていない場合、ディメンション項目は `"None"` です。
