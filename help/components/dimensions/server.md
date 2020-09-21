@@ -1,11 +1,11 @@
 ---
 title: サーバー
 description: サーバーの名前。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 85%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストの[`server`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、[`server`](/help/implement/vars/page-vars/server.md) 変数を使用してこのデータを収集します。
+このディメンションは、イメージリクエストの[`server`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、[`server`](/help/implement/vars/page-vars/server.md) 変数を使用してこのデータを収集します。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、サイト上のサーバーが含まれます。 組織によって、使用する特定のディメンション項目が決まります。 組織によって、`window.location.hostname` 値を使用する場合と、カスタム値を作成する場合があります。どの方法を使用する場合でも、一貫性があり、[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)に記録する必要があります。
+ディメンション項目には、サイトのサーバーが含まれます。組織は、使用する特定のディメンション項目を決定します。組織によって、`window.location.hostname` 値を使用する場合と、カスタム値を作成する場合があります。どの方法を使用する場合でも、一貫性があり、[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)に記録する必要があります。
