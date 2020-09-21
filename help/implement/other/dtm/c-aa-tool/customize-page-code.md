@@ -4,9 +4,9 @@ keywords: Dynamic Tag Management;customize page code;open editor;execute
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: ページコードのカスタマイズ
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Analytics のデプロイ時にページコードをカスタマイズするには、Dynamic Tag Management のフィールドの説明を使用します。
 
-**[!UICONTROL `Property`]**／****&#x200B;ツールを編集![](assets/settings_gear.png)／**[!UICONTROL ページコードをカスタマイズ]**
+**[!UICONTROL `Property`]**／**[!UICONTROL ツールを編集]**![](assets/settings_gear.png)／**[!UICONTROL ページコードをカスタマイズ]**
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 
