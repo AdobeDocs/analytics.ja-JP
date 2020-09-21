@@ -1,9 +1,9 @@
 ---
 title: 必要システム構成
 description: Adobe Analytics を使用するための必要システム構成です。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
 ht-degree: 100%
 
