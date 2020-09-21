@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
       >[!NOTE]
       >
-      >これは、開始に役立つ値の例です。 データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
+      >これは、使い始めるのに役立つ値の例です。データレイヤーの値など、ページ名に適した値を組織が定義する場合は、ここに入力できます。
    * クリーンテキストの確認
    * 期間：Pageview
 1. 「**[!UICONTROL 保存]**」をクリックします。
