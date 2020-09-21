@@ -1,11 +1,11 @@
 ---
 title: 検索エンジン
 description: 訪問者がサイトに到達するのに使用した検索エンジン。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 91%
 
 このディメンションは、Adobe 内部の複数のルックアップテーブルを参照します。各値は、ヒットの[リファラー](referrer.md)（[内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)に依存）に基づきます。リファラーディメンションと内部 URL フィルターが正しく設定されていることを確認します。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、サイトへのアクセスに使用される検索エンジンが含まれます。 例えば、`"Google"`、`"Microsoft Bing"`、`"DuckDuckGo"` などの値があります。The `"Unspecified"` dimension item is all non-search traffic.
+ディメンション項目には、サイトに到達するために使用される検索エンジンが含まれます。例えば、`"Google"`、`"Microsoft Bing"`、`"DuckDuckGo"` などの値があります。`"Unspecified"` ディメンション項目は、すべて検索以外のトラフィックです。
