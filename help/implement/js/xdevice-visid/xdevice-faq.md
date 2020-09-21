@@ -3,6 +3,9 @@ title: クロスデバイス訪問者特定に関する FAQ
 description: クロスデバイス訪問者特定に関するよくある質問（FAQ）
 translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+workflow-type: ht
+source-wordcount: '190'
+ht-degree: 100%
 
 ---
 
