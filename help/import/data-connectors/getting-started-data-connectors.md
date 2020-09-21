@@ -1,11 +1,11 @@
 ---
 description: サードパーティアプリケーションから Analytics に追跡データをインポートします。
 title: Analytics Data Connectors 使用の手引き
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '976'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->2021年半ばから後半にかけて、Adobeデータコネクタテクノロジの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021 年半ばから後半にかけて、Adobe Data Connectors テクノロジーの提供終了を予定しています。[詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 **必要システム構成**
 
