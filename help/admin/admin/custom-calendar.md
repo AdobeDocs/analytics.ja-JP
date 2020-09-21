@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 グレゴリオ暦以外のカレンダーオプションです。オプションには 4-4-5 制、4-5-4 制および 5-4-4 制のカレンダーモデルがあり、すべて小売業界では標準として使用されています。さらに、レポーティングでは、自分で設定できる完全にカスタマイズ可能なカレンダーのオプションを提供しています。
 
-**[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** /レポートスイートを選択/ **[!UICONTROL 設定を編集]** /一般 ******[!UICONTROL /カレンダーをカスタマイズ]**
+**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／レポートスイートを選択&#x200B;**[!UICONTROL ／設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL カレンダーのカスタマイズ]**
 
 >[!CAUTION]
 >
