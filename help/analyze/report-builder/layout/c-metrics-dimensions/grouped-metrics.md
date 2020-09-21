@@ -3,8 +3,11 @@ description: これら 2 種類の指標を、別々のリクエストを作成�
 title: 同じリクエストでのトラフィック指標とコマース指標の混在
 topic: Report builder
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '98'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 トラフィック指標とコマース指標は、リクエストウィザードの手順 2 の同じ指標カテゴリーに表示されるようになりました。以前は、これらの指標は、コマースとトラフィックのカテゴリーに分かれていました。
 
-The new grouped category is labeled **[!UICONTROL Standard]**. .
+新しいカテゴリーグループの名前は「**[!UICONTROL 標準]**」です。
 
 ![](assets/standard_metrics.png)
 
