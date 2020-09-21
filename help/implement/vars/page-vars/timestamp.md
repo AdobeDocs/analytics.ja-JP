@@ -1,5 +1,5 @@
 ---
-title: timestamp
+title: タイムスタンプ
 description: ヒットのタイムスタンプを手動で設定します。
 translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
@@ -10,7 +10,7 @@ ht-degree: 100%
 ---
 
 
-# timestamp
+# タイムスタンプ
 
 `timestamp` 変数は、タイムスタンプが有効なレポートスイートのヒットのタイムスタンプを手動で設定します。
 
