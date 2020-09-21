@@ -44,7 +44,7 @@ ht-degree: 99%
 
 ### S3
 
-フィードは Amazon S3 バケットに直接送信できます。バケット名、アクセスキー ID および秘密キーが必要です。詳しくは、Amazon S3 ドキュメント内の [Amazon S3 バケットの命名要件](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)を参照してください。
+フィードは Amazon S3 バケットに直接送信できます。バケット名、アクセスキー ID および秘密キーが必要です。詳しくは、Amazon S3 ドキュメント内の [Amazon S3 バケットの命名要件](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)を参照してください。
 
 ![S3 情報](assets/dest-s3.jpg)
 
