@@ -4,9 +4,9 @@ subtopic: Classifications
 title: ブラウザーおよび FTP インポート
 topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
 ht-degree: 100%
 
