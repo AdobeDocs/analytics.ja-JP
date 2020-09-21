@@ -1,11 +1,11 @@
 ---
 title: Analytics ツールガイド
-description: Analysis Workspace、Activity Map、Report Builder、レポート API、Reports & Analytics（旧称 Omniture Analytics 製品）の製品ドキュメントとセルフヘルプです。
-translation-type: ht
-source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
-workflow-type: ht
-source-wordcount: '224'
-ht-degree: 100%
+description: Analysis Workspace、Activity Map、Report Builder、レポートAPI、Reports & Analyticsの製品ドキュメントおよびセルフヘルプ。
+translation-type: tm+mt
+source-git-commit: 847e4c58a64bcd31999fb3306bb819b774e100ca
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 * **[!UICONTROL Analysis Workspace]：** Adobe Analytics で最初に取り上げられる機能です。Workspace は、コンポーネントをドラッグできるキャンバスを提供し、レポートのニーズを満たします。
 * **[!UICONTROL Activity Map]：**&#x200B;どの要素が最もクリックされたを示すオーバーレイをサイトに表示するブラウザープラグインです。
-* **[!UICONTROL Ad Hoc Analysis]：**&#x200B;堅牢なレポート機能を備えたスタンドアロン Java アプリケーションです。このツールは今後は更新されず、最終的に廃止されます。
+* **[!UICONTROL Ad Hoc Analysis]：**&#x200B;堅牢なレポート機能を備えたスタンドアロン Java アプリケーションです。このツールは更新されなくなり、2021年3月1日 [に日没します](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。
 * **[!UICONTROL レポート API]：**&#x200B;アドビのサーバーに直接レポートクエリをおこない、応答を取得して独自のお客様レポートツールで使用します。
 * **[!UICONTROL Report Builder]：** Analytics データを取得してブックに直接配置できる、Excel アドインです。
 * **[!UICONTROL Reports &amp; Analytics]：**&#x200B;多くのレポートがあらかじめ組み込まれているツールです。アドビでは、ほとんどのレポートニーズに対して Analysis Workspace を使用することをお勧めします。
