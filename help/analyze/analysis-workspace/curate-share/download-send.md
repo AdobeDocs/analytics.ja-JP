@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ Analysis Workspaceからデータをエクスポートする方法は、ツー�
 
 プロジェクトをダウンロードする場合は、次の点に注意してください。
 
-* プロジェクトのダウンロードを要求すると、プロジェクトを保存または未保存にできます。 ただし、スケジュールできるのは保存されたプロジェクト [のみ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)。
+* プロジェクトのダウンロードを要求すると、プロジェクトを保存または未保存にできます。 ただし、スケジュールできるのは保存されたプロジェクト [のみ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)。
 * PDF形式でレンダリングする前にAdobeサーバーでプロジェクトが再実行されるので、ブラウザーでダウンロードしたPDFは、書き出しに数分かかる場合があります。 PDF がブラウザーでダウンロードされるまで、プロジェクトを終了しないことをお勧めします。ただし、待っている間も引き続きプロジェクトに変更を加えることができます。PDFのレンダリングに5分以上かかる場合は、代わりに電子メールで送信するよう求められます。
 * PDFダウンロードは、ページ番号が適用されない単一のページとしてレンダリングされます。
 * プロジェクトがPDFにレンダリングされると、ページ上の内容がレンダリングされます。 プロジェクトにカスタムサイズのビジュアライゼーションとパネルが含まれている場合、内容が切り詰められないように、自動サイズに変更する必要があります（右上隅のボタン）。
