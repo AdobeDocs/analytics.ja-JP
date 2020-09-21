@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: コンテキストデータ変数の eVar へのコピー
 topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+workflow-type: ht
+source-wordcount: '229'
+ht-degree: 100%
 
 ---
 
