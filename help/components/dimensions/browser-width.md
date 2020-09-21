@@ -1,11 +1,11 @@
 ---
 title: ブラウザーの幅 - グループ
 description: ブラウザーウィンドウの幅をピクセルで指定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 88%
 
 1 回の訪問でのブラウザーの幅は維持されます。訪問中にブラウザーの幅を調整した場合、調整は記録されません。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、収集されたすべてのブラウザーの幅が含まれ、100ピクセルのグループに分類されます。 For example, if the browser width of a hit is `1280`, then it is grouped in the dimension item `1200 to 1299`.
+ディメンション項目には、収集されたすべてのブラウザーの幅が含まれ、100 ピクセルのグループに分類されます。例えば、ヒットのブラウザーの幅が `1280` ある場合、ディメンション項目 `1200 to 1299` にグループ化されます。
