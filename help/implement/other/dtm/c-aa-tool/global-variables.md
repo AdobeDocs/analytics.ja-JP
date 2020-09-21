@@ -6,6 +6,9 @@ title: グローバル変数
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: ht
 source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+workflow-type: ht
+source-wordcount: '136'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ Dynamic Tag Management を使用して Adobe Analytics をデプロイする場�
 
 ## グローバル変数 - フィールドの説明 {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL *`Property`*]**／![](assets/settings_gear.png)**[!UICONTROL &#x200B;ツールを編集&#x200B;]**／**[!UICONTROL &#x200B;グローバル変数&#x200B;]**
+**[!UICONTROL *`Property`*]** ／ ![](assets/settings_gear.png)**[!UICONTROL &#x200B;ツールを編集&#x200B;]** ／ **[!UICONTROL &#x200B;グローバル変数&#x200B;]**
 
 | 要素 | 説明 |
 |--- |--- |
