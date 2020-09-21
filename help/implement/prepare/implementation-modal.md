@@ -1,18 +1,18 @@
 ---
 title: 実装モーダル
 description: Adobe Analytics を初めて実装する場合について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '30'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 
 # 実装モーダル
 
-詳しくは、レポートスイートの [作成を参照してください](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)。
+詳しくは、[レポートスイートの作成](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-console/create-report-suite.html)を参照してください。
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
