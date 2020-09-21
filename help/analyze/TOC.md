@@ -241,7 +241,7 @@ ht-degree: 98%
       + [ベストプラクティス](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI 統合のトラブルシューティング](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Power BI 用 Adobe Analytics コンテンツパック](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Visual Basicマクロ](report-builder/vba.md)
+   + [Visual Basic マクロ](report-builder/vba.md)
    + [Report Builderのトラブルシューティング](report-builder/troubleshoot.md)
    + [Report BuilderFAQ](report-builder/faq.md)
 + Activity Map {#activity-map}
