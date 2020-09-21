@@ -1,11 +1,11 @@
 ---
 title: 訪問数
 description: 1 回のランディングでの一連のページビュー。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,4 +54,4 @@ ht-degree: 90%
 
 ## ディメンションでの訪問回数と合計訪問回数
 
-ディメンションのコンテキスト内の訪問( [マーケティングチャネルなど](../dimensions/marketing-channel.md))は、特定のディメンション項目を含む訪問の回数をいつでも示します。 同じ訪問の異なるヒットに複数のディメンション項目が頻繁に存在します。 通常、ディメンション項目に関するレポートの訪問数を合計しようとすると意味がありません。
+ディメンションのコンテキスト内の訪問（[マーケティングチャネルなど](../dimensions/marketing-channel.md)）は、特定のディメンション項目を含む訪問の回数をいつでも示します。同じ訪問の異なるヒットに複数のディメンション項目が頻繁に存在します。通常、ディメンション項目に関するレポートの訪問数を合計しようとすると意味がありません。
