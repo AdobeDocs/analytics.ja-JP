@@ -1,11 +1,11 @@
 ---
 title: 国
 description: ヒットの元の国。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 96%
 >
 >[IP アドレスを不明化](/help/admin/admin/general-acct-settings-admin.md)するだけでは不十分な、プライバシーに関する厳しい規制に従う場合、位置情報データを完全に無効にするように要求できます。レポートスイート ID をサポートに連絡し、レポートスイートの「地域」をオフにするようにリクエストします。
 
-## Dimension項目
+## ディメンション項目
 
-Dimensionは世界中の国々を含む。 例えば、`"United States"`、`"United Kingdom"`、`"India"` の値があります。
+ディメンション項目には、世界中の国が含まれます。例えば、`"United States"`、`"United Kingdom"`、`"India"` の値があります。
 
 ## レポート場所と実際の場所の違い
 
