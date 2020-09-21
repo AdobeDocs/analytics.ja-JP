@@ -3,8 +3,11 @@ description: すべてのレポートの表示方法と、デフォルトのメ�
 title: レポートの表示設定とナビゲーション
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1468'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## レポートの表示設定とナビゲーション {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]**／**[!UICONTROL Components]**／**[!UICONTROL Report Settings]**
+**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL レポート設定]**
 
 | 要素 | 説明 |
 |--- |--- |
@@ -75,7 +78,7 @@ nav_menu.xml
 |  | サイトセクション | コンテンツ／サイトセクション |
 |  | サーバー | コンテンツ／サーバー |
 |  | リンク | ナビゲーション／カスタムリンク、ナビゲーション／離脱リンク、ナビゲーション／ClickMap、ナビゲーション／ファイルのダウンロード数 |
-|  | エラーページ (404) | ナビゲーション／エラーページ(404) |
+|  | エラーページ（404） | ナビゲーション／エラーページ(404) |
 | **モバイル** |  |  |
 |  | デバイス | オーディエンス／モバイル／デバイス |
 |  | デバイスタイプ | オーディエンス／モバイル／デバイスタイプ |
@@ -85,7 +88,7 @@ nav_menu.xml
 |  | 画面の幅 | オーディエンス／モバイル／画面の幅 |
 |  | cookie サポート | オーディエンス／モバイル／cookie サポート |
 |  | 画像サポート | オーディエンス／モバイル／画像サポート |
-|  | 画面の色 | オーディエンス／モバイル／画面の色 |
+|  | 色深度 | オーディエンス／モバイル／画面の色 |
 |  | オーディオサポート | オーディエンス／モバイル／オーディオサポート |
 |  | ビデオサポート | オーディエンス／モバイル／ビデオサポート |
 |  | オペレーティングシステム | オーディエンス／モバイル／オペレーティングシステム |
