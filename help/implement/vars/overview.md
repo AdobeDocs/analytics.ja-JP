@@ -2,11 +2,11 @@
 title: 変数、関数、メソッド、プラグインの概要
 description: レポートを改善するためにアドビに送信するデータに含めることができる変数について説明します。
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 Analytics には、Analytics データを収集するための変数が多数用意されています。この節の変数は、いくつかに分かれています。
 
 * **ページ変数**&#x200B;は、通常、レポートで直接使用される値です。一般的なページ変数には、`props`、`eVars`、`events` が含まれます。
-* **設定変数**&#x200B;は、正しいデータがアドビに届くことを確認するのに役立つ設定値です。一般的な設定変数には、`trackingServerSecure`、`charSet`、`linkTrackVars` があります。設定変数は、通常、ディメンション項目を設定しません。
+* **設定変数**&#x200B;は、正しいデータがアドビに届くことを確認するのに役立つ設定値です。一般的な設定変数には、`trackingServerSecure`、`charSet`、`linkTrackVars` があります。通常、設定変数はディメンション項目を設定しません。
 * **関数とメソッド**&#x200B;は、参照時に特定のタスクを実行するコードの一部です。一般的な関数には、`t()`、`tl()`、`clearVars()` があります。
 
 ## 変数と実装メソッド
