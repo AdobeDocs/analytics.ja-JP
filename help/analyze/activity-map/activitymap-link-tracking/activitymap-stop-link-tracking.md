@@ -5,6 +5,9 @@ topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,7 @@ Activity Map またはレガシー ClickMap でリンクトラッキングを停
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap（旧称 Visitor ClickMap） </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/config-vars/configuration-variables.translate.html"  >trackInlineStats</a> 変数を false（デフォルト）に設定します。構文は次のようになります。
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 変数を false（デフォルト）に設定します。構文は次のようになります。
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
