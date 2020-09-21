@@ -4,9 +4,9 @@ subtopic: Classifications
 title: 分類ルールビルダーのワークフロー
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
 ht-degree: 100%
 
