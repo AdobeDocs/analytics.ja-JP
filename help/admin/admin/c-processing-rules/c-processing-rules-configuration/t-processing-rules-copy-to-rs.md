@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 他のレポートスイートへの処理ルールのコピー
 topic: Admin tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '116'
+ht-degree: 100%
 
 ---
 
