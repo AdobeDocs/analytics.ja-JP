@@ -4,9 +4,9 @@ subtopic: Classifications
 title: 分類データファイル
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1771'
 ht-degree: 100%
 
