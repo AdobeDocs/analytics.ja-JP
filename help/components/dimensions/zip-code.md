@@ -1,11 +1,11 @@
 ---
 title: 郵便番号
 description: 訪問者の郵便番号。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 90%
 >
 >このディメンションの入力方法を完全に制御する場合は、レポートスイートの設定が重要です。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、訪問者の郵便番号が含まれます。
+ディメンション項目には、訪問者の郵便番号が含まれます。
