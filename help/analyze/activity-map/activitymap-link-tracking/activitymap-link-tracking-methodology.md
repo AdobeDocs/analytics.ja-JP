@@ -4,7 +4,10 @@ title: リンクトラッキング手法
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '1000'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ HTML に s_objectid が含まれている場合、プライマリ ID はデフ�
 * Alttext
 * タイトル
 * Src
-* Action
+* アクション
 
 ## InnerText の使用とリンクアクション（URL）の使用{#section_70C3573E22274522A8CC035BF18EC468}
 
