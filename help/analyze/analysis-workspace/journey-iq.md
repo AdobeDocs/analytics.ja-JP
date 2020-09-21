@@ -1,9 +1,9 @@
 ---
 title: Journey IQ
 description: Adobe Analytics の一部である Journey IQ を構成する機能について説明します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a987a16be74e3a990294664179778fd2e9fcea7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
 ht-degree: 100%
 
