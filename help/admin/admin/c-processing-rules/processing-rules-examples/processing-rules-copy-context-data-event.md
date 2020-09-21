@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: コンテキストデータ変数を使用したイベントの設定
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
  s.contextData['search_term']
 ```
 
-The [!UICONTROL Context Variables] list contains all variables that were sent to the report suite in the previous 30 days. コンテキストデータ変数名を把握しているが、現在のレポートスイートに送信していない場合、値を追加するには、変数名を入力し、「**[!UICONTROL Add variable name context data]**（‘variable name’ コンテキストデータを追加）」をクリックします。
+[!UICONTROL コンテキスト変数]リストには、過去 30 日間にレポートスイートへ送信されたすべての変数が含まれます。コンテキストデータ変数名を把握しているが、現在のレポートスイートに送信していない場合、値を追加するには、変数名を入力して、「**[!UICONTROL 変数名コンテキストデータを追加]**」をクリックします。
 
 ![](assets/add-context-variable.png)
 
@@ -35,4 +38,4 @@ The [!UICONTROL Context Variables] list contains all variables that were sent to
 
 ![](assets/processing_rule_set_event.png)
 
-実装のヘルプの[コンテキストデータ変数](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html)を参照してください。
+実装のヘルプの[コンテキストデータ変数](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/contextdata.html)を参照してください。
