@@ -2,9 +2,9 @@
 description: 'null'
 title: ラベル設定の例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3e8f77bfa7c48fc82e5ebd5bbe66511ea82c9f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
 ht-degree: 100%
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 * 2 番目の行は変数の名前である。ID ラベルがある場合は、割り当てられた名前空間が括弧内に含まれている。
 * ヒットデータは 3 番目の行から開始する。
 
-| ラベル | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
+| ラベル | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
-| **変数名** <br> **(名前空間)** | **MyProp1** <br> **（user）** | **訪問者 ID** <br> **（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **（xyz）** |
+| **変数名** <br> **(名前空間)** | **MyProp1** <br> **（user）** | **訪問者 ID** <br> **（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br> **（xyz）** |
 | ヒットデータ | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | いいえ | Y |
 |  | Mary | 99 | C | O | Z |
@@ -56,7 +56,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 表の最初の行にある API の値を使用した削除要求の場合、ヒットの表は以下のように更新されます。
 
-| AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
+| AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter | AAID=77 expandIDs value <br> does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Mary | 42 | A | Privacy-7398 | Privacy-9152 |
@@ -72,7 +72,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 >
 >AAID = 77 および DEL-DEVICE ラベルを含む行のセルのみが影響を受けます。
 
-| user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
+| user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false | user=Mary <br> expandIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
@@ -88,7 +88,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 >
 >user=Mary および DEL-PERSON ラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar で、その置き換える値は、数値を異なるランダムな数値で置き換えるのではなく、「Privacy-」で始まり、乱数（GUID）が続く文字列です。
 
-| user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
+| user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true | user=Mary <br> expandIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
