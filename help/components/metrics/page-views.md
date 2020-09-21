@@ -1,22 +1,22 @@
 ---
-title: ページビュー
+title: ページビュー数
 description: あるページが表示された回数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
-# ページビュー
+# ページビュー数
 
-「ページ表示」指標は、特定のディメンション項目がページ上で設定または持続した回数を示します。 これは、レポートで最も一般的で基本的な指標の 1 つです。
+「ページビュー」指標は、特定のディメンション項目がページ上で設定または持続した回数を示します。これは、レポートで最も一般的で基本的な指標の 1 つです。
 
 ## この指標の計算方法
 
-この指標は、レポートスイート内のすべてのページビュートラッキングコール（[`t()`](/help/implement/vars/functions/t-method.md)）をカウントします。ディメンションの場合、ディメンション項目が定義または持続するヒットが含まれます。 リンクトラッキングコール（[`tl()`](/help/implement/vars/functions/tl-method.md)）は含まれません。
+この指標は、レポートスイート内のすべてのページビュートラッキングコール（[`t()`](/help/implement/vars/functions/t-method.md)）をカウントします。ディメンションの場合、ディメンション項目が定義または持続するヒットが含まれます。リンクトラッキングコール（[`tl()`](/help/implement/vars/functions/tl-method.md)）は含まれません。
 
 ## 類似の指標と比較
 
