@@ -3,9 +3,9 @@ description: セグメントビルダーでは、選択した演算子を使用�
 title: セグメントの比較演算子
 topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
 ht-degree: 100%
 
