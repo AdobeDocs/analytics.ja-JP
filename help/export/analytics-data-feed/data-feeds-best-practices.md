@@ -3,8 +3,11 @@ description: 'データフィードの処理および配信に関するベスト
 keywords: Data Feed;best practices;traffic spike;hourly;ftp
 title: ベストプラクティスおよび一般情報
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '211'
+ht-degree: 100%
 
 ---
 
