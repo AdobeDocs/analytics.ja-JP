@@ -1,5 +1,5 @@
 ---
-title: channel
+title: チャネル
 description: 「サイトセクション」ディメンションを設定します。
 translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
@@ -10,7 +10,7 @@ ht-degree: 97%
 ---
 
 
-# channel
+# チャネル
 
 `channel` 変数は、通常、特定のページが存在するサイトのセクションを格納します。サイトで最も人気のあるグループを判断すると役立ちます。この変数は、「サイトセクション」ディメンションを入力します。
 
