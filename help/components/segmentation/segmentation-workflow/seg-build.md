@@ -3,11 +3,11 @@ description: セグメントビルダーのキャンバスに指標ディメン�
 title: セグメントの構築
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2051'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
    * **[!UICONTROL + コンテナを追加]**：セグメント定義（トップレベルのコンテナの下）に新しいコンテナを追加できます。
    * **[!UICONTROL 次を除外する]**：1 つ以上のディメンション、セグメントまたは指標を除外することで、セグメントを定義できます。
 
-1. **[!UICONTROL Dimension]**:コンポーネントは、Dimensionリスト（オレンジ色のサイドバー）からドラッグ&amp;ドロップされます。
+1. **[!UICONTROL ディメンション]**：コンポーネントがディメンションリスト（オレンジ色のサイドバー）からドラッグ&amp;ドロップされます。
 1. **[!UICONTROL 演算子]**：選択した演算子を使用して値を比較および制限できます。
 1. **[!UICONTROL 値]**：ディメンション、セグメントまたは指標のために入力または選択した値。
 1. **[!UICONTROL アトリビューションモデル]**：ディメンションに対してのみ使用でき、これらのモデルは、セグメント化するディメンションの値を決定します。ディメンションモデルは、順次セグメントで特に役立ちます。
@@ -63,13 +63,13 @@ ht-degree: 96%
 1. **[!UICONTROL 比較]**&#x200B;演算子：選択した演算子を使用して値を比較および制限できます。
 1. **[!UICONTROL 値]**：ディメンション、セグメントまたは指標のために入力または選択した値。
 1. **[!UICONTROL X]**：（削除）セグメント定義のこの部分を削除できます。
-1. **[!UICONTROL 印刷Experience Cloud]**:Adobe AnalyticsセグメントをExperience Cloudに公開すると、そのセグメントを他のアクティベーションチャネルでのマーケティングアクティビティに使用で [!DNL Audience Manager] きます。 [詳細情報...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL オーディエンスライブラリ]**:Adobeのオーディエンスサービスは、訪問者データからオーディエンスセグメントへの変換を管理します。 したがって、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ています。また、オーディエンスセグメントを Experience Cloud と共有することもできます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Experience Cloud パブリッシング]**：Adobe Analytics セグメントを Experience Cloud に公開すると、[!DNL Audience Manager] や他のアクティベーションチャネルでのマーケティングアクティビティでセグメントを使用できます。[詳細情報...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL オーディエンスライブラリ]**：アドビのオーディエンスサービスは、訪問者データからオーディエンスセグメントへの変換を管理します。したがって、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ています。また、オーディエンスセグメントを Experience Cloud と共有することもできます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL 検索]**：ディメンション、セグメントまたは指標のリストを検索します。
 1. **[!UICONTROL ディメンション]**：（リスト）ヘッダーをクリックして展開します。
 1. **[!UICONTROL 指標]**：ヘッダーをクリックして展開します。
 1. **[!UICONTROL セグメント]**：ヘッダーをクリックして展開します。
-1. **[!UICONTROL レポートスイートの選択]**:このセグメントを保存するレポートスイートを選択できます。 セグメントは、すべてのレポートスイートで利用できます。
+1. **[!UICONTROL レポートスイートセレクタ]**：このセグメントを保存するレポートスイートを選択します。セグメントは、すべてのレポートスイートで利用できます。
 1. **[!UICONTROL セグメントのプレビュー]**：主要な指標をプレビューして、有効なセグメントであるかどうかおよびセグメントの範囲を確認します。このセグメントを適用した場合に期待するデータセットの分類を表します。データセットに対してセグメントを実行した結果の[!UICONTROL ヒット数]、[!UICONTROL 訪問]および[!UICONTROL 訪問者]の件数と割合が 3 つの同心円とリストで表示されます。このグラフは、セグメント定義を作成または変更するとすぐに更新されます。
 1. **[!UICONTROL 製品機能]**：作成したセグメントと互換性がある Adobe Analytics 製品（Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse）のリストが表示されます。ほとんどのセグメントは、すべての製品と互換性があります。ただし、演算子とディメンションは、すべての Analytics 製品と互換性があるとは限りません。特に、[Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md) とは互換性がない場合があります。このグラフは、セグメント定義を変更するとすぐに更新されます。
 1. **[!UICONTROL 保存]**&#x200B;または&#x200B;**[!UICONTROL キャンセル]**：セグメントを保存またはキャンセルします。「**[!UICONTROL 保存]**」をクリックした後、セグメントを管理できるセグメントマネージャが表示されます。
