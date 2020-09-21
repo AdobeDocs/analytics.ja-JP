@@ -3,7 +3,7 @@ description: アプリ管理を有効にすると、モバイルアプリケー�
 title: アプリ管理
 topic: Admin tools
 translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Adobe Analytics と Mobile Services のこの統合により、
 | 分類 | 定義 |
 |--- |--- |
 | 初回起動日 | インストール後または再インストール後の初回起動日。MM/DD/YYYY |
-| アプリケーション ID | アプリケーションの名前とバージョンを次の形式で格納します。                  `[AppName] [BundleVersion]`例：`myapp 1.1.`。 |
+| アプリケーション ID | アプリケーションの名前とバージョンを次の形式で格納します。                     `[AppName] [BundleVersion]`例：`myapp 1.1.`。 |
 | 起動回数 | アプリケーションが起動したか、またはバックグラウンドから復帰した回数。 |
 | 初回使用からの日数 | 初回起動時からの日数。 |
 | 前回使用からの日数 | 前回使用時からの経過日数。 |
