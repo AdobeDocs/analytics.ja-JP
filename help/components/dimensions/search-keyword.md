@@ -1,11 +1,11 @@
 ---
 title: 検索キーワード
 description: 訪問者がサイトに到達する際に使用した検索キーワード。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 78%
 
 >[!IMPORTANT]
 >
->プライバシーに関する慣行が増えているため、ほとんどの検索エンジンは検索キーワードを渡さなくなりました。Hits where Adobe recognizes a search engine but is missing a keyword groups under the dimension item `"Keyword unavailable"`.
+>プライバシーに関する慣行が増えているため、ほとんどの検索エンジンは検索キーワードを渡さなくなりました。アドビが検索エンジンを認識しても、ディメンション項目 `"Keyword unavailable"` の下にキーワードグループがないヒット。
 
 リファラーは、検索キーワードとして分類するために、次の両方と一致する必要があります。
 
 * 参照ドメインは、アドビによって有効な[検索エンジン](search-engine.md)として認識されます。
-* 参照 URL にキーワードクエリー文字列パラメーターが存在する。If the keyword query string exists but does not contain a value, it groups under the dimension item `"Keyword unavailable"`.
+* 参照 URL にキーワードクエリー文字列パラメーターが存在する。キーワードクエリー文字列が存在し、値が含まれない場合、そのキーワード文字列はディメンション項目 `"Keyword unavailable"` の下にグループ化されます。
 
 有料検索と自然検索を区別したい場合は、[有料検索検知](/help/admin/admin/paid-search-detection/paid-search-detection.md)が必要です。検索キーワードには、複数のディメンションを使用できます。
 
@@ -33,6 +33,6 @@ ht-degree: 78%
 
 このディメンションは、Adobe 内部の複数のルックアップテーブルを参照します。各値は、ヒットの[リファラー](referrer.md)（[内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)に依存）に基づきます。リファラーディメンションと内部 URL フィルターが正しく設定されていることを確認します。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、サイトの訪問に使用した検索キーワードが含まれます。 The `"Unspecified"` dimension item is all non-search traffic.
+ディメンション項目には、サイトに到達するために使用される検索キーワードが含まれます。`"Unspecified"` ディメンション項目は、すべて検索以外のトラフィックです。
