@@ -6,6 +6,9 @@ topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '725'
+ht-degree: 100%
 
 ---
 
