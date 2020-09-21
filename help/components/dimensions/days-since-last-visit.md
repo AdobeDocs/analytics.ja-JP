@@ -1,11 +1,11 @@
 ---
 title: 最終訪問からの日数
-description: 現在のヒットから最後のヒットまでの日数。
-translation-type: tm+mt
+description: 現在のヒットから最後の訪問までの日数。
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,6 +24,6 @@ ht-degree: 74%
 
 このディメンションは、すべての実装で初期設定の状態で動作します。レポートスイートにデータが含まれる場合、このディメンションは機能します。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、訪問者の最終訪問から現在のヒットまでの日数が含まれます。 Each number of days is a separate dimension item, with `"Same day"` occurring where a visitor&#39;s last visit and the current hit happened on the same day.
+ディメンション項目には、訪問者の最終訪問から現在のヒットまでの日数が含まれます。各日数は個別のディメンション項目です。`"Same day"` は、訪問者の最後の訪問と現在のヒットが同じ日に発生した場合に発生します。
