@@ -6,6 +6,9 @@ title: ページビューとコンテンツ
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+workflow-type: ht
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
