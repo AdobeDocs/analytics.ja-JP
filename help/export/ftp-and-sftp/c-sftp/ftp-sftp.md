@@ -5,6 +5,9 @@ title: セキュアファイル転送プロトコル - 概要
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '235'
+ht-degree: 100%
 
 ---
 
