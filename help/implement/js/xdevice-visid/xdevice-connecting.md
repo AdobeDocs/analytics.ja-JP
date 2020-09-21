@@ -5,9 +5,9 @@ subtopic: Visitors
 title: デバイス間のユーザーの接続
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: tm+mt
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '399'
 ht-degree: 100%
 
