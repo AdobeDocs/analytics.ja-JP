@@ -4,8 +4,11 @@ keywords: Virtual Report Suite
 title: 仮想レポートスイートのワークフロー
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
