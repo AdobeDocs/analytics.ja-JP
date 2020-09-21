@@ -3,7 +3,7 @@ description: 'null'
 title: サーバーコールの使用状況の概要
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '1038'
 ht-degree: 100%
