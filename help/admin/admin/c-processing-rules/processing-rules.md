@@ -34,7 +34,7 @@ ht-degree: 87%
 
 現在は、管理者には処理ルールを使用する権限が&#x200B;**デフォルトで**&#x200B;与えられています。試験を受ける必要はなくなりました。また、管理者は、管理ツールインターフェイスを使用してこの権限を非管理者に付与できます。その方法を次に示します。
 
-1. まだ完了していなければ、処理ルールを使用する権限を持つべき非管理者のみで構成される         [グループを作成](/help/admin/user-management2/c-user-groups/groups.md)します。
+1. まだ完了していなければ、処理ルールを使用する権限を持つべき非管理者のみで構成される          [グループを作成](/help/admin/user-management2/c-user-groups/groups.md)します。
 1. [管理者以外のユーザーをそのグループに追加します](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL `group name`]**／**[!UICONTROL 編集]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL レポートスイートツール]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL レポートスイート管理]**&#x200B;を選択します。
 1. 「[!UICONTROL 処理ルール]」チェックボックスをオンにし、「**[!UICONTROL OK]**」をクリックします。
