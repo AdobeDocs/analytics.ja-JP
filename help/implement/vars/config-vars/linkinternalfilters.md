@@ -22,7 +22,7 @@ AppMeasurement は、サイト外を指すリンクを自動的に追跡する�
 
 >[!NOTE]
 >
->`linkInternalFilters` および [ 内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)は、別々の目的を満たす個別の機能です。`linkInternalFilters` 変数は、出口リンクの追跡に特別に機能します。内部 URL フィルターは、参照ドメインなどのトラフィックソースディメンションの操作に役立つ管理者設定です。
+>`linkInternalFilters` および [内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)は、別々の目的を満たす個別の機能です。`linkInternalFilters` 変数は、出口リンクの追跡に特別に機能します。内部 URL フィルターは、参照ドメインなどのトラフィックソースディメンションの操作に役立つ管理者設定です。
 
 ## Adobe Experience Platform Launch の「アウトバウンドリンク - 追跡しない」
 
