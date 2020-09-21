@@ -3,7 +3,7 @@ description: Analysis Workspace テンプレート、および Reports & Analyti
 title: Analytics での広告データのレポート
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
