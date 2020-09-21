@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
 + [データ挿入 API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Analytics Data Connectors 使用の手引き](data-connectors/getting-started-data-connectors.md)
-   + [Analytics Data Connectorsの提供終了](data-connectors/data-connectors-eol.md)
+   + [Analytics Data Connectors の提供終了](data-connectors/data-connectors-eol.md)
    + Adobe Analytics 用 appFigures Data Connector {#appfigures}
       + [appFigures の概要](data-connectors/appfigures-overview/appfigures-overview.md)
       + [この統合をアクティブ化する前に](data-connectors/appfigures-overview/appfigures-before-activation.md)
