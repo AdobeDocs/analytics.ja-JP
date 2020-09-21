@@ -1,10 +1,13 @@
 ---
-description: Web サイトやモバイルアプリケーションから収集されたり、Web サービス API またはデータソースを使用してアップロードされたりしたデータの処理されてアドビの Data Warehouse でに格納されます。この生のクリックストリームデータは、Adobe Analytics で使用されるデータセットとして形成されています。
+description: Web サイトやモバイルアプリケーションから収集されたり、Web サービス API またはデータソースを使用してアップロードされたデータは処理されて、アドビの Data Warehouse に格納されます。この生のクリックストリームデータは、Adobe Analytics で使用されるデータセットとして形成されています。
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics データフィードの概要
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+workflow-type: ht
+source-wordcount: '567'
+ht-degree: 100%
 
 ---
 
@@ -26,26 +29,26 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 2. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
 3. 上部ナビゲーションバーで、管理者／データフィードに移動します。
-4. クリック [!UICONTROL Add]. 新しいページが開き、3つのメインカテゴリが表示されます。 [!UICONTROL Feed information]、、 [!UICONTROL Destination]および [!UICONTROL Data Column Definitions]。
-5. フィールドに入力 [!UICONTROL Feed Information] します。
+4. 「[!UICONTROL 追加]」をクリックします。新しいページで[!UICONTROL フィード情報]、[!UICONTROL 宛先]、[!UICONTROL データ列の定義]の 3 つの主要カテゴリが表示されます。
+5. [!UICONTROL フィード情報]フィールドに入力します。
    * 名前：任意の名前（「テストデータフィード」など）。
    * レポートスイート：目的のレポートスイートを選択します。
    * 完了時に電子メールを送信：電子メールを入力します。
    * フィード間隔：目的の間隔（時間単位または日単位）を選択します。
-   * Delay processing: Can be left as [!UICONTROL No Delay].
+   * 遅延処理：]遅延なし[!UICONTROL のままにできます。
    * 開始日と終了日：数日前から開始日を選択し、今日を終了日として選択します。
-6. フィールドに入力 [!UICONTROL Destination] します。
+6. [!UICONTROL 宛先]フィールドに入力します。
    * タイプ：FTP
    * ホスト：目的の FTP リンク先 URL を入力します。例：`ftp://ftp.omniture.com`。
    * パス：空白のままにします
    * ユーザー名：FTP サイトにログインするためのユーザー名を入力します。
    * パスワードとパスワードの確認：FTP サイトにログインするためのパスワードを入力します。
-7. 記入しま [!UICONTROL Data Column Definitions]す。
+7. [!UICONTROL データ列の定義]を入力します。
    * ドロップダウンで最新の「All Adobe Columns」テンプレートを選択します。
    * 圧縮形式：Gzip
    * パッケージの種類：複数のファイル
    * マニフェスト：ファイルなし
-8. Click [!UICONTROL Save] in the top right.
+8. 右上の「[!UICONTROL 保存]」をクリックします。
 9. 保存すると、履歴データの処理が開始されます。データが 1 日分の処理を終了すると、ファイルは FTP サイトに配置されます。
 10. Windows エクスプローラーまたは専用の FTP クライアントを使用して FTP サイトにログインします。
 11. 圧縮データフィードファイルをローカルマシンにダウンロードします。
