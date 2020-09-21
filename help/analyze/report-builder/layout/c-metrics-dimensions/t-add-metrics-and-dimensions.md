@@ -3,8 +3,11 @@ description: リクエストに指標およびディメンションを追加す�
 title: 指標およびディメンションの追加
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '515'
+ht-degree: 100%
 
 ---
 
@@ -13,14 +16,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 リクエストに指標およびディメンションを追加する手順です。
 
-1. [でデータリクエストを作成し](/help/analyze/report-builder/data-requests/data-requests.md) 、を [!UICONTROL Request Wizard: Step 1]クリックしま **[!UICONTROL Next]**&#x200B;す。
-1. On the [!UICONTROL Request Wizard: Step 2], double-click metrics, or drag them to the desired position.
+1. [!UICONTROL リクエストウィザード：ステップ 1] で[データリクエストを作成](/help/analyze/report-builder/data-requests/data-requests.md)し、「**[!UICONTROL 次へ]**」をクリックします。
+1. [!UICONTROL リクエストウィザード：ステップ 2] で、指標をダブルクリックするか、目的の位置までドラッグします。
 
    ![ステップ情報](assets/adding_metrics.png)
 
-   When you add metrics, they are not removed from the [!UICONTROL Metrics] tab, because you can display metrics multiple times within a request. 例えば、それぞれの値に加え、指標の小計を表示することができます。ただし、使用可能な指標のリストは、ディメンションの追加や削除のたびに変わります。
+   指標を追加しても、「[!UICONTROL 指標]」タブからは削除されません。1 つのリクエスト内で指標を複数回表示することができるからです。例えば、それぞれの値に加え、指標の小計を表示することができます。ただし、使用可能な指標のリストは、ディメンションの追加や削除のたびに変わります。
 
-   You can add only metrics to the [!UICONTROL Metrics] layout section. 指標は、としてレイアウ [!UICONTROL Column Label] トに追加されま [!UICONTROL Metric Header]す。 If you move a [!UICONTROL Metric Header] from [!UICONTROL Column Layout] to [!UICONTROL Row Layout], it is displayed there and is used as a metric as a breakdown.
+   「[!UICONTROL 指標]」レイアウトセクションには、指標のみを追加することができます。指標は[!UICONTROL 指標ヘッダー]として[!UICONTROL 列ラベル]のレイアウトに追加されます。[!UICONTROL 指標ヘッダー]を[!UICONTROL 列レイアウト]から[!UICONTROL 行レイアウト]に変更すると、指標ヘッダーは行レイアウトに表示され、指標が分類として使用されます。
 
    検索バーは、「指標」タブの、指標リストのすぐ上に表示されます。
 
@@ -50,9 +53,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. （オプション）リクエストを指標で並べ替えるには、指標のラベルをクリックします。
 1. 指標の追加時と同様にディメンションを追加します。
 
-On the [!UICONTROL Dimensions] tab, the system displays dimensions that break down or are a classification of any base report you select on Step 1, and on the configuration of the report suite. ディメンションをレイアウトグリッドにドロップすると、そのディメンションはツリービューから削除され、使用可能な残りのディメンションのリストが再計算されます。
+「[!UICONTROL ディメンション]」タブには、分類されたディメンション、またはステップ 1 で選択するベースレポートの分類、レポートスイートの設定に関するディメンションが表示されます。ディメンションをレイアウトグリッドにドロップすると、そのディメンションはツリービューから削除され、使用可能な残りのディメンションのリストが再計算されます。
 
-The [!UICONTROL Date] dimension is added automatically. Available date dimensions change depending on the selected granularity from the [!UICONTROL Request Wizard: Step 1]. （有効値は次のとおりです。
+「[!UICONTROL 日付]」ディメンションは自動的に追加されます。使用可能な日付ディメンションは、[!UICONTROL リクエストウィザード：ステップ 1] で選択された精度によって異なります（有効値は次のとおりです。
 
     *時間
     *日
@@ -62,7 +65,6 @@ The [!UICONTROL Date] dimension is added automatically. Available date dimension
     *日付範囲（精度が指定されていない場合）
 
 1. [フォーマットオプション](/help/analyze/report-builder/layout/t-format-display-headers.md)とフィルターを設定して、指標とディメンションを変更します。
-1. クリック **[!UICONTROL Finish]**.
-In the following example, dimensions relate to the [!UICONTROL Page] metric. ここで、ディメンショ [!UICONTROL Referring Domain] ンはとの間に内訳レポートを [!UICONTROL Page] 作成しま [!UICONTROL Referring Domain]す。 The [!UICONTROL Dimension] tab is updated with only dimensions that you can add to a breakdown report.
+1. 「**[!UICONTROL 完了]**」をクリックします。次の例では、[!UICONTROL ページ]指標に関連するディメンションが表示されています。ここでは、[!UICONTROL 参照ドメイン]ディメンションによって、[!UICONTROL ページ]と[!UICONTROL 参照ドメイン]の分類レポートが作成されています。分類レポートに追加できるディメンションのみが表示されるように、「[!UICONTROL ディメンション]」タブが更新されます。
 
 ![](assets/page_pageview_02.png)
