@@ -1,11 +1,11 @@
 ---
 title: 色深度
 description: デバイスの色深度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 94%
 
 このディメンションは、ルックアップテーブルを参照し、ビット値をより読みやすい形式に変換します。イメージリクエスト内の [`c` クエリ文字列](/help/implement/validate/query-parameters.md)を収集します。AppMeasurement は、`screen.colorDepth` 変数を使用して、イメージリクエストクエリ文字列を設定します。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外のデータ収集方式（API 経由など）を使用する場合は、各ヒットに `c` クエリー文字列パラメーターを有効なビット値で含めてください。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、デバイスでサポートされる色の数が含まれます。 例えば、`"16 million (24-bit)"`、`"16 million (32-bit)"`、`"65,536 (16-bit)"` などの値があります。AppMeasurement が色深度を判断できない場合は、`"None"` と表示されます。
+ディメンション項目には、デバイスでサポートされる色の数が含まれます。例えば、`"16 million (24-bit)"`、`"16 million (32-bit)"`、`"65,536 (16-bit)"` などの値があります。AppMeasurement が色深度を判断できない場合は、`"None"` と表示されます。
 
 >[!TIP]
 >
