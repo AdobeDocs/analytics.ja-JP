@@ -1,11 +1,11 @@
 ---
 title: 午前／午後
 description: ヒットが午前中に発生したか、午後 2 時間に発生したかを判定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ ht-degree: 70%
 
 このディメンションは設定なしで使用できます。変更する設定はありません。レポートスイートのタイムゾーンに依存する唯一のものです。タイムゾーンによって、午前と午後のどちらの時間が決まります。
 
-## Dimension項目
+## ディメンション項目
 
-This dimension always contains exactly two dimension items: `"AM"` and `"PM"`. The dimension item `"AM"` applies to all hits from 12:00 AM to 11:59 AM, while the dimension item `"PM"` applies to all hits from 12:00 PM to 11:59 PM.
+このディメンションには、常に `"AM"` と `"PM"` の 2 つのディメンション項目が含まれます。`"AM"` ディメンション項目は、午前 12:00 ～ 11:59 のすべてのヒットに適用され、`"PM"` ディメンション項目は、午後 12:00 ～ 11:59 のすべてのヒットに適用されます。
