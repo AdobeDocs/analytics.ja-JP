@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
 source-wordcount: '7821'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -15,31 +15,31 @@ ht-degree: 97%
 
 ## 2020 年 7 月
 
-2020年7月17日にリリースされた新機能。
+2020 年 7 月 16 日にリリースされた新機能。
 
 | 機能 | 説明 |
 |--- |--- |
-| 新しい日付範囲プリセット | 次の4つの新しい日付範囲が追加されました。([!UICONTROL 今週/月/四半期/年（今日を除く）]。 これにより、今日の日付の一部を含まない日付範囲から選択できます。 |
+| 新しい日付範囲プリセット | [!UICONTROL 今週／月／四半期／年（今日を除く）]の 4 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲から選択できます。 |
 
 ## 2020 年 6 月
 
-2020年6月19日にリリースされた新機能。
+2020 年 6 月 18 日にリリースされた新機能。
 
 | 機能 | 説明 |
 |--- |--- |
-| Attribution IQ：アルゴリズムアトリビューション | Analysis Workspace のアルゴリズムアトリビューションモデルでは、統計的手法を使用して、選択した指標に対するクレジットの最適な配分を動的に決定します。Adobe Analytics Ultimate のお客様が利用できます。[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ：カスタムルックバックウィンドウ | Attribution IQ で任意のアトリビューションモデルを設定して、レポート期間の最大 90 日前のタッチポイントを含められるようになりました。これにより、通常、前月（または過去数か月）に発生したインタラクションを考慮することで、レポートの初期に発生するイベントのアトリビューション精度を高めます。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete、および Ultimate のお客様が利用できます。[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Attribution IQ：アルゴリズムアトリビューション | Analysis Workspace のアルゴリズムアトリビューションモデルでは、統計的手法を使用して、選択した指標に対するクレジットの最適な配分を動的に決定します。Adobe Analytics Ultimate のお客様が利用できます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ：カスタムルックバックウィンドウ | Attribution IQ で任意のアトリビューションモデルを設定して、レポート期間の最大 90 日前のタッチポイントを含められるようになりました。これにより、通常、前月（または過去数か月）に発生したインタラクションを考慮することで、レポートの初期に発生するイベントのアトリビューション精度を高めます。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete、および Ultimate のお客様が利用できます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 共有 Workspace プロジェクトのプロジェクトロール | Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 表示のみの Workspace プロジェクト | Workspace プロジェクトは、「表示可能」としてのみユーザーに共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Workspace プロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 更新された空のパネル | 空のパネルにパネルとビジュアライゼーションが追加され、最適な分析ワークフローをよりシームレスに選択できるようになりました。 |
-| クイックインサイトパネル（2020年6月26日） | クイックインサイトは、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。[詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Workspace の Analytics for Target パネル (2020 年 6 月 26 日) | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で上昇率と信頼性を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 空白パネルの更新 | 空白パネルにパネルとビジュアライゼーションが追加され、最適な分析ワークフローを、よりシームレスに選択できるようになりました。 |
+| クイックインサイトパネル（2020 年 6 月 25 日） | クイックインサイトは、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。[詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Workspaceのターゲット用Analyticsパネル（2020年6月26日） | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で上昇率と信頼性を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Workspace についてページ | Workspace についてページには、Analysis Workspace 環境や Adobe Analytics 管理者（サポートが必要な場合）に関する情報、および製品内でフィードバックを提供する方法が記載されています。Workspace／ヘルプ／Workspace についてで確認できます。 |
 
 ## 2020 年 5 月
 
-2020年5月22日にリリースされた新機能。
+2020 年 5 月 21 日にリリースされた新機能。
 
 | 機能 | 説明 |
 |--- |--- |
@@ -70,7 +70,7 @@ ht-degree: 97%
 | 機能 | 説明 |
 |--- |--- |
 | クロスデバイス間分析を使用する組織向けの新しい Workspace テンプレート | このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-setup.html)を参照してください。 |
-| Workspace の新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開：`alt + ctrl + m`</li><li>左パネルを検索: `ctrl + /`</li><li>次のパネルに移動：`alt + Right Key`</li><li>前のパネルに移動：`alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Workspace の新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開: `alt + ctrl + m`</li><li>左パネルを検索: `ctrl + /`</li><li>次のパネルに移動: `alt + Right Key`</li><li>前のパネルに移動: `alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Workspace のその他の機能拡張 | <ul><li>パネルまたはビジュアライゼーションを Workspace にドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加するボタンが表示されます。</li></ul> |
 | Workspace デバッガー | Workspace デバッガーがヘルプメニューに追加され、よりシームレスに有効化して Workspace リクエストをデバッグできるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -345,7 +345,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >新しい行設定</a> </p> </td> 
-   <td colname="col2"> <p><span class="uicontrol">行ごとに割合を計算</span>という新しい設定により、フリーフォームテーブルでは、列ではなく行全体のセルの割合が表示されるようになります。これは、特に、あるディメンション項目が経時的に他のディメンション項目とどのように一致するかの傾向を見るなど、割合のトレンドを見る場合に便利です。 <span class="uicontrol">視覚化</span>アイコンをクリックした場合、これはデフォルトでオンになります。 </p> </td> 
+   <td colname="col2"> <p><span class="uicontrol">行ごとに割合を計算</span>という新しい設定により、フリーフォームテーブルでは、列ではなく行全体のセルの割合が表示されるようになります。これは、あるディメンション項目が他の値に対してどの程度公正であるかを経時でトレンド分析する場合など、割合のトレンド分析に特に役立ちます。<span class="uicontrol">視覚化</span>アイコンをクリックした場合、これはデフォルトでオンになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >「100％の積み重ね」ビジュアライゼーション設定</a> </p> </td> 
@@ -467,10 +467,10 @@ ht-degree: 97%
      <li id="li_16C7938EDC8F422EA006FB63F2881EF1">フレーズを含む </li> 
      <li id="li_5130EBE9A7A54CCFA313F3C3C268B367">いずれの語句も含まない </li> 
      <li id="li_861825154EDC49EBA57514FD0A2AE462">このフレーズを含まない </li> 
-     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">equals </li> 
+     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">次と等しい </li> 
      <li id="li_1EBF3119B6364842A35D39BAD645F4AF">次と等しくない </li> 
-     <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">startsWith </li> 
-     <li id="li_A73F54DFBAAB44D4A4134342A3124E47">endsWith </li> 
+     <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">次の語句で始まる </li> 
+     <li id="li_A73F54DFBAAB44D4A4134342A3124E47">次の語句で終わる </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -503,7 +503,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢献度分析：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >トークン通知 </a> </p> </td> 
-   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。  </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
+   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。&amp;nbsp; </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>マルチバイト文字を含む CSV ファイル </p> </td> 
@@ -515,7 +515,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p>なし／未指定に対する変更 </p> </td> 
-   <td colname="col2"> <p>「なし」または「未指定」の機能の仕組みを変更し、Reports &amp; Analytics、セグメントビルダーおよびAnalysis Workspaceのディメンション項目メニューと一致するようにしました。 </p> <p>これにより、Analysis Workspace のほとんどのプロジェクトで、値が「なし」ではなく「未指定」と表示されます。 </p> </td> 
+   <td colname="col2"> <p>Reports &amp; Analytics、セグメントビルダーおよび Analysis Workspace のディメンション項目メニューと一致するように、Analysis Workspace の「なし」／「未指定」の機能を変更しました。 </p> <p>これにより、Analysis Workspace のほとんどのプロジェクトで、値が「なし」ではなく「未指定」と表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -553,7 +553,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップのビジュアライゼーション </a> </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。  </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > トレンドビジュアライゼーションの精度セレクター </a> </p> </td> 
@@ -561,7 +561,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > セグメントドロップゾーンの拡張：フルディメンションおよびイベント </a> </p> </td> 
-   <td colname="col2"> <p>以前は、セグメントドロップゾーンにドロップできるのは、ディメンション項目、日付範囲またはセグメントだけでしたが、フルディメンションまたはイベントをセグメントドロップゾーンにドロップできるようになりました。どちらの場合も、「存在する」ヒットセグメントが Analysis Workspace で作成されます。 </p> <p>例：「eVar1 が存在するヒット」または「event1 が存在するヒット」 </p> <p>注意：計算指標をセグメントゾーンにドロップすることはできません。セグメントゾーンにドロップできるのは、セグメントを作成できるディメンションまたは指標だけです。 </p> </td> 
+   <td colname="col2"> <p>以前は、セグメントドロップゾーンにドロップできるのは、ディメンション項目、日付範囲またはセグメントだけでしたが、フルディメンションまたはイベントをセグメントドロップゾーンにドロップできるようになりました。どちらの場合も、「存在する」ヒットセグメントが Analysis Workspace で作成されます。 </p> <p>例：「eVar1 が存在するヒット」または「event1 が存在するヒット」。 </p> <p>注意：計算指標をセグメントゾーンにドロップすることはできません。セグメントゾーンにドロップできるのは、セグメントを作成できるディメンションまたは指標だけです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > データソース設定に一覧表示される接続済みのビジュアライゼーション </a> </p> </td> 
@@ -744,7 +744,7 @@ ht-degree: 97%
 
 ## 2017 年 6 月
 
-2017 年 6 月 9 日にリリースされた新機能。
+2017 年 6 月 8 日にリリースされた新機能。
 
 <table id="table_5B859A64363A44A98FC55E7AFB3C1D0C"> 
  <thead> 
@@ -815,8 +815,8 @@ ht-degree: 97%
    <td colname="col1"> <p><b>新しい<a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  >ホットキー</a></b> </p> </td> 
    <td colname="col2"> <p>以下のホットキーが追加されました。 </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
-     <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">Alt + Shift + 1 = パネルウィンドウに移動 </li> 
-     <li id="li_1B7E7C1115A84DB8A1BC07EA1C3AB15F">Alt + Shift + 2 = ビジュアライゼーションウィンドウに移動 </li> 
+     <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">Alt + Shift + 1 = パネルウィンドウに移動。 </li> 
+     <li id="li_1B7E7C1115A84DB8A1BC07EA1C3AB15F">Alt + Shift + 2 = ビジュアライゼーションウィンドウに移動。 </li> 
      <li id="li_1BDB09DDEEDC4E7DB0D1C08A4E02A613">Alt + Shift + 3 = コンポーネントウィンドウに移動。 </li> 
     </ul> </td> 
   </tr> 
@@ -1047,7 +1047,7 @@ ht-degree: 97%
 
 ## 2016 年 1 月
 
-2016 年 1 月 22 日にリリースされた新機能。
+2016 年 1 月 22 日にリリースされた新機能：
 
 * [操作を元に戻す](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
 * [このプロジェクトへのリンク](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
