@@ -10,7 +10,7 @@ ht-degree: 100%
 ---
 
 
-# state
+# 都道府県
 
 >[!IMPORTANT]
 >
