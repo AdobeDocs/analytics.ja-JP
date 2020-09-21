@@ -3,9 +3,9 @@ description: タグ、所有者およびその他のフィルター（すべて�
 title: セグメントのフィルタリング
 topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
@@ -32,6 +32,6 @@ ht-degree: 100%
    | その他のフィルター／自分が所有 | 自分が所有しているセグメントをすべて表示します。 |
    | その他のフィルター／自分と共有 | 他のユーザーが自分と[共有](/help/components/segmentation/segmentation-workflow/t-seg-share.md)しているセグメントをすべて表示します。 |
    | その他のフィルター／お気に入り |  [お気に入り](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)に登録しているセグメントをすべて表示します。 |
-   | その他のフィルター／承認済み | 正式に      [承認された](/help/components/segmentation/segmentation-workflow/seg-approve.md)セグメントをすべて表示します。 |
+   | その他のフィルター／承認済み | 正式に       [承認された](/help/components/segmentation/segmentation-workflow/seg-approve.md)セグメントをすべて表示します。 |
    | セグメントを検索 | セグメントを名前で検索できます。 |
 
