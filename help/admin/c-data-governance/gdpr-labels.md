@@ -330,7 +330,7 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
   </tr> 
   <tr> 
    <td colname="col1"> <p>ソリューションのディメンションとイベント </p> </td> 
-   <td colname="col2"> <p>Activity Map リンク、 </p> <p>Activity Map ページ </p> </td> 
+   <td colname="col2"> <p>Activity Map リンク, </p> <p>Activity Map ページ </p> </td> 
    <td colname="col3"> <p>なし／I1／I2 </p> <p>なし／DEL-DEVICE／DEL-PERSON </p> </td> 
    <td colname="col4"> <p>変数に、個人を直接的または間接的に特定できるデータを含む URL パラメーターが追加される場合があります。これらの変数で個人を直接的または間接的に特定できるデータを収集しない実装の場合は、識別ラベルおよび削除ラベルは不要です。 </p> <p>削除によって URL パラメーターはクリアされますが、元の URL は保持されます。 </p> </td> 
   </tr> 
@@ -351,7 +351,7 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
    <td colname="col4"> <p>DEL ラベルを削除することはできませんが、DEL-DEVICE または DEL-PERSON、または両方に変更できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ClickMap アクション（従来）、 </p> <p>ClickMap コンテキスト（従来）、 </p> <p>ページ、 </p> <p>ページ URL, </p> <p>オリジナルエントリページ URL、 </p> <p>Referrer, </p> <p>訪問開始ページ URL </p> </td> 
+   <td colname="col2"> <p>ClickMap アクション（従来）、 </p> <p>ClickMap コンテキスト（従来）、 </p> <p>ページ、 </p> <p>ページ URL, </p> <p>オリジナルエントリページ URL、 </p> <p>リファラー、 </p> <p>訪問開始ページ URL </p> </td> 
    <td colname="col3"> <p>なし／I1／I2 </p> <p>なし／DEL-DEVICE／DEL-PERSON </p> </td> 
    <td colname="col4"> <p>変数に、個人を直接的または間接的に特定できるデータを含む URL パラメーターが追加される場合があります。これらの変数で個人を直接的または間接的に特定できるデータを収集しない実装の場合は、識別ラベルおよび削除ラベルは不要です。 </p> <p>削除によって URL パラメーターはクリアされますが、元の URL は保持されます。 </p> </td> 
   </tr> 
