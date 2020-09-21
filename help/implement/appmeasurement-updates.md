@@ -29,7 +29,7 @@ Release Date: **August 4, 2020**
 
 リリース日：**2020 年 6 月 24 日**
 
-* Activity MaplinkExclusions フィルターが Firefox に適用されない場合がある問題を修正しました。
+* Activity Map linkExclusions フィルターが Firefox に適用されない場合がある問題を修正しました。
 
 ## バージョン 2.20.0
 
