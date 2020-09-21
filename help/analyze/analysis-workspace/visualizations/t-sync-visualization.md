@@ -4,6 +4,9 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: データソースの管理
 translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+workflow-type: ht
+source-wordcount: '562'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 1. データテーブルと[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)を使用して[プロジェクトを作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)します。
 1. データテーブルで、ビジュアライゼーションに関連付けたいセル（データソース）を選択します。
-1. ビジュアライゼーションでタイトルの横にある点をクリックすると、**[!UICONTROL Data Source]**&#x200B;ダイアログが表示されます。**[!UICONTROL Show Data Source]** または **[!UICONTROL Lock Selection]** を選択します。
+1. ビジュアライゼーションでタイトルの横にある点をクリックすると、**[!UICONTROL データソース]**&#x200B;ダイアログが表示されます。「**[!UICONTROL データソースを表示]**」または「**[!UICONTROL 選択をロック]**」を選択します。
 
    ![](assets/manage-data-source.png)
 
