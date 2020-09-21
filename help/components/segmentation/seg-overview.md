@@ -3,9 +3,9 @@ description: セグメントを使用すると、特性や Web サイトでの�
 title: セグメントおよびコンテナについて
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3709'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 このようなセグメントは、[!UICONTROL AND] および [!UICONTROL OR] 演算子を使用して結合された特性に基づいてデータセットをフィルタリングします。
 
-## 順次セグメント {#section_EE5B14287FC44E0B96E77679A2438948}
+## 順次セグメント{#section_EE5B14287FC44E0B96E77679A2438948}
 
 順次セグメントでは、サイト間でのナビゲーションとページビューに基づいて訪問者を識別し、定義済みのアクションとインタラクションのセグメントを提供できます。順次セグメントを使用すると、訪問者が好むものとそうでないものを容易に識別できます。順次セグメントを作成するときは、[!UICONTROL THEN] 演算子を使用して訪問者のナビゲーションを定義し、順序を指定します。
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 訪問コンテナには、1 回の訪問あたりの発生件数に基づく値が含まれます。
 
-* 訪問回数
+* 訪問数
 * 入口ページ
 * 再来訪頻度
 * パーティシペーション指標
