@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -60,8 +60,8 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > ビデオ：Workspace でのセグメントの使用</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > ビデオ：パネルへのセグメントの適用</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>一時的な（「アドホック」）セグメントの作成 </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. さらに、パネルのドロップゾーンにドロップダウンフィルターを追加して、一時セグメントを多数作成し、プロジェクトの操作を制御できます。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > ビデオ：Analysis Workspace のアドホックセグメント</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > ビデオ：Analysis Workspaceのドロップダウンフィルター</a> </p> </td> 
+   <td colname="col1"> <p>一時（「Ad Hoc」）セグメントの作成 </p> </td> 
+   <td colname="col2"> <p>ディメンション項目をパネルの上部にあるセグメントドロップゾーンにドラッグすると、Analysis Workspace で<a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >一時（「Ad Hoc」）セグメントを即座に作成できます</a>。さらに、パネルのドロップゾーンにドロップダウンフィルターを追加して、一時セグメントを多数作成し、プロジェクトの操作を制御できます。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > ビデオ：Analysis Workspace のアドホックセグメント</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  >ビデオ：Analysis Workspace のドロップダウンフィルター</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>日付範囲および精度の選択 </p> </td> 
@@ -87,7 +87,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">フローは訪問または訪問者にまたがることができます。 </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">主な統計は、％パス表示で示されます。 </li> 
-    </ul> <p>また、フローでは、Ad Hoc Analysis よりも改善された点として、<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合したディメンション</a>と右クリックでセグメントを作成できることは、Ad Hoc Analysis における改善点です。 </p> <p>現在、Analysis Workspaceのフローでは、成功イベントの選択をユーザーに <b>許可できません</b> 。 </li> 
+    </ul> <p>また、フローでは、Ad Hoc Analysis よりも改善された点として、<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合したディメンション</a>と右クリックでセグメントを作成できることは、Ad Hoc Analysis における改善点です。 </p> <p>現在、Analysis Workspace のフローでは、成功イベントは選択<b>できません</b>。 </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > ビデオ：フロービジュアライゼーションの概要</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > ビデオ：複数ディメンションのフロー</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > ビデオ：フローからのセグメントの作成</a> </p> </td> 
   </tr> 
   <tr> 
@@ -100,11 +100,11 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
   </tr> 
   <tr> 
    <td colname="col1"> <p>レポートスイートの選択 </p> </td> 
-   <td colname="col2"> <p>複数のレポートスイートをAnalysis Workspaceの1つのプロジェクトに追加できます。  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > ビデオ：Workspaceの複数のレポートスイート</a> </p></td> 
+   <td colname="col2"> <p>複数のレポートスイートを Analysis Workspace の 1 つのプロジェクトに追加できます。  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  >ビデオ：Workspace の複数のレポートスイート</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。これには、10以上のルールベースモデルとアルゴリズムモデルが含まれます。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > ビデオ：フリーフォームテーブルのAttribution IQ</a> </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace の <a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> では、新しいタイプの多数のアトリビューションモデルをフリーフォームテーブル、ビジュアライゼーション、計算指標に追加できます。これには、10 以上のルールベースモデルとアルゴリズムモデルが含まれます。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  >ビデオ：フリーフォームテーブルでの Attribution IQ</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
