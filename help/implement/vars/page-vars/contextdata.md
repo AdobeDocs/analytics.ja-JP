@@ -1,11 +1,11 @@
 ---
 title: contextData
 description: コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,12 +57,12 @@ s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```
 
-## コンテキストデータ変数を使用してイベントを増分
+## コンテキストデータ変数を使用したイベントの増分
 
 処理ルールを作成する際に、コンテキストデータ変数をイベントに割り当てることができます。
 
-* コンテキストデータ変数に任意の種類のテキストが含まれている場合、イベント値は1ずつ増分されます。
-* コンテキストデータ変数に整数が含まれる場合、イベントはその整数だけ増加します。
+* コンテキストデータ変数に任意の種類のテキストが含まれている場合、イベント値は 1 ずつ増分されます。
+* コンテキストデータ変数に整数が含まれる場合、イベントはその整数分だけ増加します。
 
 ```js
 // Assigning this context data variable to an event increments it by one
