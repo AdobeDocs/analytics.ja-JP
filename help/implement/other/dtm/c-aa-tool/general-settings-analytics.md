@@ -31,7 +31,7 @@ Adobe Analytics の実装のための DTM の「一般」設定のフィール�
    <td colname="col1"> <p><span class="keyword">Adobe Analytics</span> の EU コンプライアンスを有効にする  </p> </td> 
    <td colname="col2"> <p> EU プライバシー Cookie に基づいたトラッキングを有効または無効にします。 </p> <p>ページが読み込まれる際に、システムは、<span class="filepath">sat_track</span> という名前（または<span class="wintitle">プロパティ編集</span>ページで変更したカスタム名）の Cookie が設定されているかどうかを確認します。次の情報を考慮してください。 </p> 
     <ul id="ul_42A6D728F0BC4FBABB0069EFB66DCB01"> 
-     <li id="li_227CB14326344AA3980F20C7EACF2AD2"> <p> Cookie が存在しない場合または Cookie が存在していても<span class="term"> true </span> 以外に設定されている場合、この設定を有効にするとツールの読み込みはスキップされます。つまり、ツールを使用するルールのどの部分も適用されません。 </p> <p>ルールで Analytics の EU コンプライアンスがオンになっていて、ルールにサードパーティコードが含まれ、その Cookie が   <span class="term"> false </span> の場合、そのサードパーティコードは実行されます。ただし、Analytics 変数は設定されません。 </p> </li> 
+     <li id="li_227CB14326344AA3980F20C7EACF2AD2"> <p> Cookie が存在しない場合または Cookie が存在していても<span class="term"> true </span> 以外に設定されている場合、この設定を有効にするとツールの読み込みはスキップされます。つまり、ツールを使用するルールのどの部分も適用されません。 </p> <p>ルールで Analytics の EU コンプライアンスがオンになっていて、ルールにサードパーティコードが含まれ、その Cookie が    <span class="term"> false </span> の場合、そのサードパーティコードは実行されます。ただし、Analytics 変数は設定されません。 </p> </li> 
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> Cookie が存在し、<span class="term"> true </span> に設定されている場合、ツールは通常どおり読み込まれます。 </li> 
     </ul> <p>訪問者がオプトアウトしている場合、<span class="filepath">sat_track</span>（またはカスタム名）cookie を <span class="term">false</span> に設定する必要があります。次のカスタムコードを実行することでこれを達成できます： </p> <p> 
      <code>
