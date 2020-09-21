@@ -3,8 +3,11 @@ description: ツールバー、カレンダー、詳細テーブルなど、レ�
 title: レポートの機能
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '328'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ツールバー、カレンダー、詳細テーブルなど、レポートの機能について説明します。
 
-This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
+この例では、[!UICONTROL ページレポート]を示しています。設定オプションは実行するレポートによって異なることがあります。例えば、[!UICONTROL サイトコンテンツ]レポートで、「トレンド」や「ランク」を選択するのではなく、[!UICONTROL サイト指標]レポートの精度やページ名を指定する場合があります。
 
 ## ページレポートの例 {#section_288CC85536684C2DB184141358481EF0}
 
-ページレポートの例( > > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**)。
+ページレポートの例を示します（**[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページレポート]**／**[!UICONTROL ページ]**）。
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -67,7 +70,7 @@ This example shows a [!UICONTROL Pages Report]. The configuration options may va
 
 ![](assets/metrics.png)
 
-「指標」を参 [照してください。](/help/analyze/reports-analytics/metrics.md)
+[指標](/help/analyze/reports-analytics/metrics.md)を参照してください。
 
 ## 詳細テーブル {#section_449A5DC848744F65A10DA12E189B835D}
 
