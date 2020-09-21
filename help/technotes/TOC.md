@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 83%
       + [コンバージョン数](ga-to-aa/reports/conversions-reports.md)
    + [よくある質問](ga-to-aa/faq.md)
    + [プラットフォーム間の処理の違い](ga-to-aa/processing-differences.md)
-   + [データをサードパーティ製品と比較する](ga-to-aa/compare-data.md)
+   + [データのサードパーティ製品との比較](ga-to-aa/compare-data.md)
 + イベントの影響を受けるデータの分析 {#event}
    + [イベントの影響を受けるデータの分析の概要 ](event/overview.md)
-   + [データのスパイク/下落のトラブルシューティング](event/spikes-drops.md)
+   + [データの急増／急減のトラブルシューティング](event/spikes-drops.md)
    + [分析内の特定の日付を除外する](event/segments.md)
    + [日付を前の範囲と比較する](event/compare-dates.md)
    + [イベントの影響を受けたデータの取得](event/calcmetrics.md)
