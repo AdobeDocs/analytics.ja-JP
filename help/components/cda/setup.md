@@ -1,22 +1,22 @@
 ---
-title: デバイス間分析の設定
-description: CDAを有効にする仮想レポートスイートを設定します。
-translation-type: tm+mt
+title: クロスデバイス分析の設定
+description: CDA を有効にする仮想レポートスイートを設定します。
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# デバイス間分析の設定
+# クロスデバイス分析の設定
 
 すべての前提条件を満たしたら、次の手順を使用してクロスデバイス分析を有効にします。以下の手順に従うには、製品プロファイル管理者グループに属しているか、Adobe Analytics の管理者権限が必要です。
 
 >[!IMPORTANT]
 >
->これらの手順を実行する前に、すべての前提条件を満たす必要があります。すべての前提条件が満たされていない場合、この機能は使用できないか、機能しません。前提条件と制限事項については、 [概要ページ](overview.md) 、および目的のステッチ方法([フィールドベースのステッチ](field-based-stitching.md) 、 [デバイスグラフ](device-graph.md))を参照してください。
+>これらの手順を実行する前に、すべての前提条件を満たす必要があります。すべての前提条件が満たされていない場合、この機能は使用できないか、機能しません。前提条件と制限事項については、[概要ページ](overview.md)、および目的のステッチ方法（それぞれ[フィールドベースのステッチ](field-based-stitching.md) 、 [デバイスグラフ](device-graph.md)）を参照してください。
 
 ## CDA に対して有効にするクロスデバイスレポートスイートを選択する
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 仮想レポートスイートを作成するアクセス権を持つ管理者は、次の手順で CDA 仮想レポートスイートを作成できます。
 
-1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動し、Adobe IDの資格情報を使用してログインします。
+1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動し、Adobe ID の資格情報を使用してログインします。
 2. 上部の 9 グリッドアイコンをクリックし、「Analytics」をクリックします。
 3. 上部の「コンポーネント」の上にカーソルを置き、「仮想レポートスイート」をクリックします。
 4. 「追加」をクリックします。
