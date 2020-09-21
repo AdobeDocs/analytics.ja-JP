@@ -1,9 +1,9 @@
 ---
 description: 分類ルールビルダーを下位分類と組み合わせることはできません。
 title: 下位分類とルールビルダー
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -72,6 +72,6 @@ ht-degree: 100%
 
 1. 参照テーブルをメンテナンスするために、（この例のような）小さなファイルをアップロードします。
 
-   例えば、新しい *`Broad Campaign code`* が導入されたときにこのファイルをアップロードします。このファイルは、以前に分類した値に適用されます。同様に、新しい下位分類を作成する場合は（例えば      *`Creative Theme`* を *`Creative code`* の副分類として）、分類ファイル全体ではなく、副分類ファイルのみをアップロードします。
+   例えば、新しい *`Broad Campaign code`* が導入されたときにこのファイルをアップロードします。このファイルは、以前に分類した値に適用されます。同様に、新しい下位分類を作成する場合は（例えば       *`Creative Theme`* を *`Creative code`* の副分類として）、分類ファイル全体ではなく、副分類ファイルのみをアップロードします。
 
    レポーティングでは、これらの下位分類はトップレベル分類と同様に機能します。これにより、分類の利用に必要となる管理上の負荷が軽減されます。-->
