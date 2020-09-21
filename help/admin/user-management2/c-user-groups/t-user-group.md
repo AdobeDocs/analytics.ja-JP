@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: ユーザーグループの追加
 topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
 
