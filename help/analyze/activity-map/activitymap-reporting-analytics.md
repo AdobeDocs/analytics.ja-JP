@@ -3,8 +3,11 @@ description: Analytics で権限を設定する方法と、Analytics で使用�
 title: Analytics の Activity Map レポート
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -18,12 +21,12 @@ Analytics で権限を設定する方法と、Analytics で使用可能なディ
 ユーザーが Activity Map ディメンションを使用してレポートを作成できるようにするには、管理者が次の設定をおこなう必要があります。
 
 * [Activity Map アクセスグループにユーザーを追加します](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* このグループによるアクセスを許可するレポートスイートを追加します。//// **[!UICONTROL Admin]** に移 **[!UICONTROL User Management]** 動し **[!UICONTROL Groups]** ます **[!UICONTROL Activity Map Access]****[!UICONTROL Edit]**。
+* このグループによるアクセスを許可するレポートスイートを追加します。**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL Activity Map アクセス]**／**[!UICONTROL 編集]**&#x200B;を選択します。
 * ディメンションに対するユーザーのアクセス権をカスタマイズします。次の節を参照してください。
 
 ## Analytics Activity Map ディメンション {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-[ディメンションに対するユーザーのアクセス権のカスタマイズ](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)は、詳細なレベルでおこなえます。Analytics で使用可能な Activity Map ディメンションは次のとおりです。
+[ディメンションに対するユーザーのアクセス権のカスタマイズ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)は、詳細なレベルでおこなえます。Analytics で使用可能な Activity Map ディメンションは次のとおりです。
 
 | ディメンション | 説明 |
 |---|---|
@@ -34,7 +37,7 @@ Analytics で権限を設定する方法と、Analytics で使用可能なディ
 | Activity Map XY | 未使用 |
 
 * Analytics の実装で[Activity Map が有効](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)になっている場合、これらのディメンションは、Analysis Workspace、Reports &amp; Analytics、Report Builder で使用できます。
-* Reports &amp; Analyticsで、/に移動し **[!UICONTROL View All Reports]** ます **[!UICONTROL Activity Map]**。
+* Reports &amp; Analytics で、**[!UICONTROL すべてのレポートを表示]**／**[!UICONTROL Activity Map]** を選択します。
 
 * 特定のページのリンクおよび領域を見るには、目的の Activity Map ページから Activity Map リンクおよび地域への分類を作成します。
 
