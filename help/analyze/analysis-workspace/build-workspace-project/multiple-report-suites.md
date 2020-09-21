@@ -3,6 +3,9 @@ title: Workspace の複数のレポートスイート
 description: 複数のレポートスイートを含む Workspace でプロジェクトを作成する方法と理由を説明する
 translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+workflow-type: ht
+source-wordcount: '527'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ## レポートスイートをすべてのパネルに適用
 
-任意のパネルのヘッダーを右クリックし、**[!UICONTROL Apply Report Suite to All Panels]**&#x200B;を選択すると、レポートスイートをすべてのパネルに一度に適用できます。
+任意のパネルのヘッダーを右クリックし、「**[!UICONTROL レポートスイートをすべてのパネルに適用]**」を選択すると、レポートスイートをすべてのパネルに一度に適用できます。
 
 ![](assets/apply-rs-all-panels.png)
 
