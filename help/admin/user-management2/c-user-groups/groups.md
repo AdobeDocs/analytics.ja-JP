@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 98%
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager（すべてのアクセス、カスタマイズ、アクセス不可） </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>アクティブな <span class="keyword">TagManager</span> コンテナを持つお客様について、権限がサポートされます。新規ユーザーは使用できません。 </p> <p>アドビでは、<a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> をデプロイすることをお勧めします。 </p> </td> 
+   <td colname="col2"> <p>アクティブな <span class="keyword">TagManager</span> コンテナを持つお客様について、権限がサポートされます。新規ユーザーは使用できません。 </p> <p>アドビでは、<a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> をデプロイすることをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>ユーザーログインの割り当て</b> </td> 
