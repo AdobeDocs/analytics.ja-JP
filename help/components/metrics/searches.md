@@ -1,18 +1,18 @@
 ---
 title: 検索
 description: ヒットが外部検索条件に一致した回数。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # 検索
 
-「検索」指標は、アドビの外部検索検出に一致するヒット数を示します。この指標は、検索以外のディメンション項目を調べ、それらが検索エンジントラフィックにどのように貢献したかを確認する場合に役立ちます。
+「検索」指標は、アドビの外部検索検出に一致するヒット数を示します。この指標は、非検索ディメンション項目を調べて、それらが検索エンジントラフィックにどのように貢献したかを確認する場合に役立ちます。
 
 ## この指標の計算方法
 
