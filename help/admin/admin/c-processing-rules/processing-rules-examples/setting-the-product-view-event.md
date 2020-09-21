@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 製品の概要ページからの「製品表示」イベントの設定
 topic: Admin tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
