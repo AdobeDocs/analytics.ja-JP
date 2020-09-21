@@ -5,6 +5,9 @@ title: プライバシーの概要
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '843'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Adobe Analytics は次のデータを収集します。
 | Cookie ID（ランダム生成） | ○ |
 | 顧客ページにアクセスする前にユーザーが利用していたページの URL | ○ |
 | 消費者が顧客ページへのリンクをクリックしたときの検索クエリ | ○ |
-| ブラウザーのタイプ | ○ |
+| ブラウザータイプ | ○ |
 | デバイスタイプ | ○ |
 | オペレーティングシステム | ○ |
 | ISP／接続速度 | ○ |
@@ -114,7 +117,7 @@ Adobe Analytics は次のデータを収集します。
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> アドビ名 </th> 
-   <th colname="col2" class="entry"> 住所 </th> 
+   <th colname="col2" class="entry"> Address </th> 
    <th colname="col3" class="entry"> 施設タイプ（オペレーター） </th> 
    <th colname="col4" class="entry"> サポートされているソリューションコンポーネント </th> 
    <th colname="col5" class="entry"> 認定 </th> 
