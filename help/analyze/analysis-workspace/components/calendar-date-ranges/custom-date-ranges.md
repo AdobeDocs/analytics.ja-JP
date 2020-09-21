@@ -6,6 +6,9 @@ topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace でカスタム日付範囲を作成し、時間コンポーネントとして保存します。
 
-**[!UICONTROL Components]**／**[!UICONTROL New Date Range]**
+**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しい日付範囲]**
 
 日付範囲は、パネルレベルで適用します。プロジェクトに日付範囲を追加するには、**パネル**／*`<select panel>`* をクリックして、新しい日付範囲を指定します。
 
@@ -24,7 +27,7 @@ Analysis Workspace でカスタム日付範囲を作成し、時間コンポー�
 
 ![](assets/date-range-two-months-ago.png)
 
-カスタム日付範囲は、プロジェクトの [!UICONTROL Date Range] コンポーネントパネルの最上部に表示されます。
+カスタム日付範囲は、プロジェクトの[!UICONTROL 日付範囲]コンポーネントパネルの最上部に表示されます。
 
 ![](assets/date-range-panel-two-months-ago.png)
 
