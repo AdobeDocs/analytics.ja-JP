@@ -1,9 +1,9 @@
 ---
 title: t
 description: ページビュートラッキングコールをアドビに送信します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
 
