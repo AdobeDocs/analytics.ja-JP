@@ -68,11 +68,11 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-customers.png)
 
-### 超過したユニーク数{#section_9C583858A9F94FF7BA054D1043194BAA}
+### 超過したユニーク数 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/low-traffic.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
 
-### カウント関数の比較{#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### カウント関数の比較 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() は、Count() 関数および RowCount() 関数を改良したものです。作成した指標を任意のディメンションレポートで使用し、個別のディメンションに関して概算した項目数をレンダリングできます。例としては、モバイルデバイスタイプレポートで使用される顧客 ID 数があります。
 
