@@ -6,6 +6,9 @@ title: データ要素の作成
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
 
