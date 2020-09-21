@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,6 @@ ht-degree: 94%
       + [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [SFTP サーバーへの Data Warehouse リクエストの送信](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [パスワードなしでの SFTP 経由でのアドビへの接続](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspaceダウンロード](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Analysis Workspace ダウンロード](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [Adobe Analytics API ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
 + [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html)
