@@ -1,11 +1,11 @@
 ---
 title: 米国 DMA
 description: ヒットの指定された市場領域。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 91%
 >
 >[IP アドレスを不明化](/help/admin/admin/general-acct-settings-admin.md)するだけでは不十分な、プライバシーに関する厳しい規制に従う場合、位置情報データを完全に無効にするように要求できます。レポートスイート ID をサポートに連絡し、レポートスイートの「地域」をオフにするようにリクエストします。
 
-## Dimension項目
+## ディメンション項目
 
-Dimension項目には、訪問者のDMAとDMAコードが含まれます。 3 桁のコードは郵便番号ではなく、Nielsen の DMA コードです。例えば、`"Dallas-Ft. Worth (623)"`、`"New York (501)"`、`"Los Angeles (803)"` の値があります。The dimension item `"No Metro (0)"` includes all international traffic outside of the United States.
+ディメンション項目には、訪問者の DMA および DMA コードが含まれます。3 桁のコードは郵便番号ではなく、Nielsen の DMA コードです。例えば、`"Dallas-Ft. Worth (623)"`、`"New York (501)"`、`"Los Angeles (803)"` の値があります。ディメンション項目 `"No Metro (0)"` には、米国以外のすべての国際トラフィックが含まれます。
 
 ## レポート場所と実際の場所の違い
 
