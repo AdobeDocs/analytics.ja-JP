@@ -4,8 +4,11 @@ subtopic: Data sources
 title: データソースマネージャー
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '471'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +52,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p> エラーの発生時に処理を停止するよう、データソース処理エンジンに指示します。「処理の再開」を選択するまで、データソースの処理は再開しません。警告時に処理を中断するオプションは、<a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   >フル処理</a>にのみ適用されます。 </p> <p>ファイルエラーが検出されると、データソースによってエラーが通知されます。エラーのあるデータソースファイルは、FTP サーバー上の <span class="filepath">files_with_errors</span> というフォルダーに移動されます。問題を解決した後、処理を実行するためにデータソースファイルを再送信してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>メッセージの </p> </td> 
+   <td colname="col1"> <p>設定 </p> </td> 
    <td colname="col2"> <p>データソーステンプレートなど、このデータソースに固有の設定を変更できます。 </p> </td> 
   </tr> 
   <tr> 
@@ -74,6 +77,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 「ファイルログ」タブ {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
+## 「ファイルログ」タブ{#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
 ファイルログには検索機能があり、データソース名、データソースタイプ、ファイル名、受信日、ステータスによって情報を検索できます。
