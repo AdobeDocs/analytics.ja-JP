@@ -4,9 +4,9 @@ subtopic: Classifications
 title: 分類ルール
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2018'
 ht-degree: 100%
 
@@ -159,7 +159,7 @@ regex_classification_rules.xml
 
 正規表現の文字が何を意味しているかについては、[正規表現 - 参照表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)を参照してください。
 
-## 正規表現 - 特定の文字の分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
+## 正規表現 - 特定の文字の分類{#section_5D300C03FA484BADACBFCA983E738ACF}
 
 正規表現を使用する 1 つの方法は、文字を含む文字列内の特定の文字を分類することです。例えば、次のトラッキングコードに 2 つの重要な文字が含まれているとします。
 
@@ -294,7 +294,7 @@ rule_priority.xml
 
 | ルール番号 | ルールタイプ | 一致 | 分類を設定 | 設定値 |
 |---|---|---|---|---|
-| 1 | 次を含む | カウボーイズ | 市区町村 | Dallas |
+| 1 | 次を含む | カウボーイズ | 市区町村 | ダラス |
 | 2 | 次を含む | ブロンコス | 市区町村 | Denver |
 
 ユーザーが&#x200B;*`Cowboys vs. Broncos`* を検索すると、ルールビルダーによってルールの一致に競合が発見され、この検索では 2 番目のルールの分類（Denver）が適用されます。
