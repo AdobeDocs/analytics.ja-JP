@@ -2,9 +2,9 @@
 description: Reports & Analytics のレポートメニューの概要を示します。
 title: レポートメニュー
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '785'
 ht-degree: 100%
 
