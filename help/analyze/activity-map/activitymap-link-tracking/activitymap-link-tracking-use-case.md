@@ -42,7 +42,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation panel <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation パネル <p> </p> <p> </p> <p>recommendation パネル </p> <p> </p> <p> </p> <p>recommendation パネル </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation パネル </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation パネル </p> <p> </p> <p> </p> <p>recommendation パネル </p> <p> </p> <p> </p> <p>recommendation パネル </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
