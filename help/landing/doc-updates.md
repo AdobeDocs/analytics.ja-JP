@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 | 日付 | 説明 |
 |---|---|
-| 2020 年 7 月 22 日 | デバイス [間の分析の主な更新とリビジョン](/help/components/cda/overview.md)。 フィー [ルドベースのステッチを追加しました](/help/components/cda/field-based-stitching.md)。 |
+| 2020 年 7 月 22 日 | [クロスデバイス分析](/help/components/cda/overview.md)の主なアップデートとリビジョン。[フィー ルドベースのステッチ](/help/components/cda/field-based-stitching.md)を追加しました。 |
 | 2020 年 4 月 29 日 | [コンテンツ速度](/help/components/metrics/content-velocity.md)指標に関するドキュメントを追加しました。 |
 | 2020 年 3 月 13 日 | [Experience Cloud へのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)にアップデートを追加しました。 |
 | 2020 年 3 月 13 日 | CDA のステッチ待機時間のアップデート。 |
