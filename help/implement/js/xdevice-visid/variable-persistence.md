@@ -4,9 +4,9 @@ keywords: Analytics Implementation
 title: アトリビューションと持続性
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
 ht-degree: 100%
 
