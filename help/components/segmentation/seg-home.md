@@ -4,9 +4,9 @@ keywords: segmentation;segments
 title: Analytics のセグメント化
 topic: Segments
 uuid: 845c1743-1264-4090-bccc-78830477f52e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 
