@@ -2,11 +2,11 @@
 description: Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 keywords: Analysis Workspace
 title: ビジュアライゼーションの概要
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ YouTube ビデオ：[Analysis Workspace のビジュアライゼーションの�
 | [横棒グラフ](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 1 つ以上の指標の様々な値を表す横棒グラフが表示されます。 |
 | [行](/help/analyze/analysis-workspace/visualizations/line.md) | 時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、時間がディメンションとして使用される場合にのみ使用できます。 |
 | [マップ](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 任意の指標（計算指標を含む）のビジュアルマップを作成できます。 |
-| [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ディメンション項目と最大3つの指標の関係を表示します。 |
+| [散布図](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ディメンション項目と最大 3 つの指標の関係を表示します。 |
 | [概要番号](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | このビジュアライゼーションは、選択したセルに応じて、合計と概要を表示します。 |
 | [変更の概要](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | このビジュアライゼーションでは、選択されているセルに応じて、セルを互いに比較します。 |
 | [テキスト](/help/analyze/analysis-workspace/visualizations/text.md) | ユーザー定義のテキストを Workspace に追加できます。 |
