@@ -1,11 +1,11 @@
 ---
 title: tl
 description: リンクトラッキングコールをアドビに送信します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### リンク名
 
-リンク名引数は、リンクトラッキングディメンション項目を決定する文字列です。 [`linkName`](../config-vars/linkname.md) 変数の設定と同じです。
+リンク名引数は、リンクトラッキングディメンション項目を決定する文字列です。[`linkName`](../config-vars/linkname.md) 変数の設定と同じです。
 
 ```js
 s.tl(true,"d","Example download link");
