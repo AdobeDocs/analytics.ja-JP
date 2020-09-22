@@ -2,19 +2,15 @@
 title: メディア同時ビューアパネル
 description: Analysis Workspaceのメディアコンカレントビューアパネルの使用方法と解釈方法。
 translation-type: tm+mt
-source-git-commit: d63c9b2e3b8241b8b40f4bb2e440cb1e96add69f
+source-git-commit: aea820324da5153c85ab1c12110c756748aedec9
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1060'
 ht-degree: 11%
 
 ---
 
 
 # メディア同時ビューアパネル
-
->[!IMPORTANT]
->
->この機能は、メディア解析のお客様向けの限定テストに含まれています。 [詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/landing/an-releases.html)
 
 Media Analyticsのお客様は、同時実行のピークが発生した場所や下降が発生した場所を把握し、コンテンツとビューアの関与の質に関する貴重な洞察を得たり、ボリュームや規模のトラブルシューティングや計画を支援したりできます。
 
@@ -77,7 +73,7 @@ Analysis Workspace では、同時視聴者数は、セッション数にかか�
 | 異常値検出を実行できますか。 | いいえ。このパネルでは異常値検出を使用できません。 |
 | アクティブな訪問者ではなく、一意のセッションを使用する理由 | 一意の訪問者を使用すると、ショーの境界（セッションが終了し、同時に開始する）で不要なスパイクを除去できます。 |
 | 同時ビューアの精度を分よりも高くするというのは、どういう意味ですか。 | 精度が1分を超える場合、同時ビューアは、その時間範囲内の全分間の個別同時ビューアの合計です。  例えば、時間レベルの精度の同時ビューアは、その時間内の全分間の個別同時ビューアの合計です。 |
-| 分レベルの精度で1日以上表示したい場合はどうしますか。 | 分レベルの精度で1か月までデータに一度にアクセスするには、Analytics 2.0 APIを使用できます。 詳しくは、「Analytics 2.0 APIを使用した同時ビューアのJSONレポートデータの [取得](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)」を参照してください。 |
+| 分レベルの精度で1日以上表示したい場合はどうしますか。 | 分レベルの精度で1か月までデータに一度にアクセスするには、Analytics 2.0 APIを使用できます。 For more information, see [Get Concurrent Viewers JSON report data with Analytics 2.0 APIs](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
 | ワークスペース・パネルには、コンカレント・ビューア・レポートと同じ情報が表示されますか。 | いいえ。Analysis Workspaceでは、同時ビューアとは、セッション数に関係なく、特定の時点でメディアストリームを閲覧している個別訪問者の数を指します。<br><br>これは、「レポート」セクションの「同時アクティブ・セッション」を使用する「同時ビューア」レポートとは異なります。  一意の訪問者を使用すると、セッションが終了し、同時に開始する、表示境界での不要なスパイクを除去できます。 |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
