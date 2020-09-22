@@ -4,12 +4,11 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
-breadcrumb-url: /docs/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +53,7 @@ ht-degree: 97%
    + [ヒットの深さ](dimensions/hit-depth.md)
    + [ヒットタイプ](dimensions/hit-type.md)
    + [時刻](dimensions/hour-of-day.md)
-   + [Hour](dimensions/hour.md)
+   + [時間](dimensions/hour.md)
    + [Java 有効](dimensions/java-enabled.md)
    + [言語](dimensions/language.md)
    + [ファーストタッチチャネル](dimensions/last-touch-channel.md)
@@ -124,7 +123,7 @@ ht-degree: 97%
    + [訪問あたりの購入回数](metrics/orders-per-visit.md)
    + [注文件数](metrics/orders.md)
    + [ページイベント](metrics/page-events.md)
-   + [ページビュー](metrics/page-views.md)
+   + [ページビュー数](metrics/page-views.md)
    + [エラーページ（404）](metrics/pages-not-found.md)
    + [People](metrics/people.md)
    + [製品表示](metrics/product-views.md)
@@ -210,7 +209,7 @@ ht-degree: 97%
    + [クロスデバイス分析の概要](cda/overview.md)
    + [フィールドベースのステッチ](cda/field-based-stitching.md)
    + [デバイスグラフ](cda/device-graph.md)
-   + [デバイス間分析の設定](cda/setup.md)
+   + [クロスデバイス分析の設定](cda/setup.md)
    + [再生の仕組み](cda/replay.md)
    + [CDA Workspace テンプレート](cda/workspace-template.md)
    + [クロスデバイス分析に関する FAQ](cda/faq.md)
@@ -221,7 +220,7 @@ ht-degree: 97%
    + [インテリジェントアラート - 使用例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類の概要](classifications/c-classifications.md)
-   + Classifications importer {#classifications-importer}
+   + 分類インポーター {#classifications-importer}
       + [分類インポーター - 概要](classifications/importer/c-working-with-saint.md)
       + [分類データファイル](classifications/importer/c-saint-data-files.md)
       + [分類データの削除](classifications/importer/t-delete-classification-data.md)
@@ -240,7 +239,7 @@ ht-degree: 97%
       + [分類ルール - 定義](classifications/crb/classification-rule-definitions.md)
       + [下位分類とルールビルダー](classifications/crb/sub-classification-rule-builder.md)
    + [下位分類](classifications/c-sub-classifications.md)
-   + [分類FAQ](classifications/faq.md)
+   + [分類 FAQ](classifications/faq.md)
 + [カレンダーイベント](t-calendar-event.md)
 + リアルタイムレポート {#real-time-reporting}
    + [リアルタイムレポートの概要](c-real-time-reporting/realtime.md)
