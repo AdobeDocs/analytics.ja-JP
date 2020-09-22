@@ -4,9 +4,8 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: Export Guide
 user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
-breadcrumb-url: /docs/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 98%
