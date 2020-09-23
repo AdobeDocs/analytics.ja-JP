@@ -2,9 +2,9 @@
 title: 一般的なボット署名
 description: ボットの共通識別子を認識します。
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ IPアドレス、ページ表示、個別訪問者を含むData Warehouseレポ�
 
 ## 国とタイムゾーンの不一致
 
-発信元の国とタイムゾーンの間に不一致が生じます。 例えば、米国の場所ですが、GMTタイムゾーンを持つとします。
+発信元の国とタイムゾーンが一致しないことに気づくでしょう。 例えば、場所は米国ですが、タイムゾーンはGMTである場合があります。
 
 ![](assets/bots-country-time-zone.png)
 
