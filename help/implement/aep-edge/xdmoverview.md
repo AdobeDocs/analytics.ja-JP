@@ -1,11 +1,11 @@
 ---
 title: Analytics での XDM データの使用
 description: 'Adobe Analytics における Experience Platform の XDM データの使用の概要 '
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ XDM データを Analytics に手動でマッピングする場合は、[Analyti
 
 ## セットアップ
 
-XDM データを受信する Analytics を設定するには、次の手順を実行します。
+XDMデータを受け取るようにAnalyticsを設定するには：
 
 1. [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/ja-JP/experience-platform/edge/fundamentals/installing-the-sdk.html) をインストールして[設定](https://docs.adobe.com/content/help/ja-JP/experience-platform/edge/fundamentals/configuring-the-sdk.html)します。
 
