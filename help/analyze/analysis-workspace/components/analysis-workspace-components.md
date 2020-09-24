@@ -2,9 +2,9 @@
 description: 'Analysis Workspaceのコンポーネントは、ディメンション、指標、セグメントおよび日付範囲で構成され、これらはプロジェクトにドラッグ&ドロップできます。 '
 title: コンポーネントの概要
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 13%
 
 ---
@@ -36,7 +36,7 @@ To access the Components menu, click the **[!UICONTROL Components]** icon in the
 
 [**指標**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) (Metrics)は、訪問者の行動に関する定量的な指標です。 これらは左側のコンポーネントレール（緑のセクション）にあり、通常は表の列として適用されます。
 
-指標の例としては、[!UICONTROLページ表示数 [!UICONTROL 、訪問回数]、 [!UICONTROL 注文件数]、 [!UICONTROL 平均滞在時間]、 [!UICONTROL 売上高/注文]時間などがあります。 指標は、Adobeが提供するか、カスタム導入([!UICONTROL 成功イベント])で取得するか、 [計算指標ビルダーを使用して作成します](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+指標の例としては、 [!UICONTROL ページ表示]、 [!UICONTROL 訪問回数]、 [!UICONTROL Orders]、Average Spent Time Spent、Order Revenue、Page Revenueなどがあります。 指標は、Adobeが提供するか、カスタム導入([!UICONTROL 成功イベント])で取得するか、 [計算指標ビルダーを使用して作成します](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
 
 ![](assets/metrics.png)
 
