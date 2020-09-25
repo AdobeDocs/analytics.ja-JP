@@ -1,18 +1,18 @@
 ---
 description: Adobe Analytics の新しい継続的な機能リリース戦略を説明します。
 title: Adobe Analytics 機能リリース
-translation-type: ht
-source-git-commit: dcca8559c9e730c9e04981d69068786878062561
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 79%
 
 ---
 
 
 # Adobe Analytics 機能リリース
 
-これまで、Adobe Analytics の機能リリースは、毎月の固定スケジュールに従っていました。2020 年 4 月より、Adobe Analytics は、機能のデプロイメントに向けて、よりスケーラブルで段階的なアプローチを可能にする、継続的な配信モデルに移行しました。
+これまで、Adobe Analytics の機能リリースは、毎月の固定スケジュールに従っていました。2020年4月より、Adobe Analyticsは、機能導入に向けて、より拡張性の高い段階的アプローチを可能にする、継続的な配信モデルに移行しました。
 
 ## リリース方法
 
@@ -25,6 +25,12 @@ ht-degree: 100%
 * **GA (General Availability)**：この機能は、権利を付与されている Experience Cloud の組織の 100% が利用でき、機能のリリースが完了しました。
 
 各機能リリースにより、RTP から GA までのタイムラインが変わる場合があります。目標は、リリース開始（RTP）から 2 か月以内に機能が GA になるように、リリースを短く保つことです。
+
+## 機能フラグ
+
+機能フラグは、リリース時の新機能の表示を制御するために使用します。 Adobeでは、リリース時に最適なエクスペリエンスを得るために、app.launchdarkly.comをファイアウォールの [許可リスト](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) に追加することを推奨します。 GAに達した直後に、フラグを削除する。
+
+アクティブな機能のフラグは、 **ヘルプ/ワークスペースについて/アクティブな機能のフラグからいつでも表示できます**。
 
 ## メリット
 
