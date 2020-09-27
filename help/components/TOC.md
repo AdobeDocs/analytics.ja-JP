@@ -5,7 +5,7 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # [!DNL Analytics] コンポーネントガイド {#components}
 
-+ [Analytics コンポーネントヘルプ](home.md)
++ [Analytics コンポーネントガイド](home.md)
 + ディメンション {#dimensions}
    + [ディメンションの概要](dimensions/overview.md)
    + [ディメンションの互換性](dimensions/compatibility.md)
