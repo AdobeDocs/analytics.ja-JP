@@ -5,7 +5,7 @@ user-guide-title: Analytics インポートガイド
 breadcrumb-title: Import Guide
 user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Analytics インポートガイド {#import}
 
-+ [Analytics インポートヘルプ](home.md)
++ [Analytics インポートガイド](home.md)
 + データソース {#data-sources}
    + [データソースの概要](c-data-sources/datasrc-home.md)
    + [データソースの仕組み](c-data-sources/datasrc-how-data-sources-works.md)
