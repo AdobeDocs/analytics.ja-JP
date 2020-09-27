@@ -5,7 +5,7 @@ user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: Export Guide
 user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Analytics 書き出しガイド {#export}
 
-+ [Analytics エクスポートホーム](home.md)
++ [Analytics 書き出しガイド](home.md)
 + Analytics データフィード {#analytics-data-feed}
    + [データフィードの概要](analytics-data-feed/data-feed-overview.md)
    + [データフィードの作成または編集](analytics-data-feed/create-feed.md)
