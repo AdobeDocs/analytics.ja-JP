@@ -1,15 +1,16 @@
 ---
-title: テクニカルノートホーム
-translation-type: ht
-source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
-workflow-type: ht
-source-wordcount: '75'
+title: Analytics テクニカルノート
+description: このガイドでは、特定の分析ツールやコンポーネントに特化していないトピックに関する有用な情報を提供します。
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '92'
 ht-degree: 100%
 
 ---
 
 
-# テクニカルノートホーム
+# Analytics テクニカルノート
 
 このガイドでは、特定の分析ツールやコンポーネントに特化していないトピックに関する有用な情報を提供します。
 
