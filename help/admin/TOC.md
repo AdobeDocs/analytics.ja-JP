@@ -5,7 +5,7 @@ user-guide-title: Analytics 管理ガイド
 breadcrumb-title: Admin Guide
 user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Analytics 管理ガイド {#admin}
 
-+ [Analytics 管理ヘルプ](home.md)
++ [Analytics 管理ガイド](home.md)
 + Analytics 管理者の概要 {#admin-overview}
    + [使用する Adobe Analytics ツールの検討](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics 製品の比較と必要システム構成](c-analytics-product-comparison/analytics-product-comparison.md)
