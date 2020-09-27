@@ -1,16 +1,16 @@
 ---
-title: Analytics 統合ヘルプ
+title: Analytics の統合
 description: 'null'
-translation-type: ht
-source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
-workflow-type: ht
-source-wordcount: '154'
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
 
 
-# Analytics 統合ガイド
+# Analytics統合
 
 ![バナー](../../assets/doc_banner_integrate.png)
 
