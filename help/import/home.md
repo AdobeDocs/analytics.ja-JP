@@ -1,11 +1,11 @@
 ---
-title: Analytics インポートヘルプ
-description: Analytics インポートヘルプ
-translation-type: ht
-source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+title: Analytics インポートガイド
+description: このガイドでは、データソース、Data Insertion APIおよびData Connectorsを使用してAnalyticsにデータを取得する方法を説明します。
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
