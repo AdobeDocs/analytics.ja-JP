@@ -2,9 +2,9 @@
 description: パネルは、テーブルとビジュアライゼーションの集まりです
 title: パネルの概要
 translation-type: tm+mt
-source-git-commit: 0a29fa005c7b86a399ab39f0b499d22b6f86e373
+source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '761'
 ht-degree: 15%
 
 ---
@@ -74,7 +74,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ![](assets/create-dropdown.png)
 
-1. マー [!UICONTROL ケティングチャネルディメンション内の値など、]Dimension項目を使用してドロップダウンフィルターを作成するには  、左側のナビゲーションバーで、ディメンションの横にある右矢印をクリックします。 これにより、使用可能なすべての項目が表示されます。 左側のレールから1つまたは複数のコンポーネント項目を選択し、Shiftキーを押しながらパネルのドロップゾーン **にドロップします**。 これにより、コンポーネントが単一のセグメントではなく、ドロップダウンフィルターに変換されます。
+1. マー [!UICONTROL ケティングチャネルディメンション内の値など、]Dimension項目を使用してドロップダウンフィルターを作成するには  、左側のナビゲーションバーで、ディメンションの横にある右矢印アイコンをクリックします。 これにより、使用可能なすべての項目が表示されます。 左側のレールから1つまたは複数のコンポーネント項目を選択し、Shiftキーを押しながらパネルのドロップゾーン **にドロップします**。 これにより、コンポーネントが単一のセグメントではなく、ドロップダウンフィルターに変換されます。
 1. 指標、セグメント、日付範囲などの他のコンポーネントを使用してドロップダウンフィルターを作成するには、左側のレールで1つのコンポーネントタイプから選択し、Shiftキーを押しながらパネルのドロップゾーン **にドロップします**。
 1. ドロップダウンからオプションの1つを選択して、パネル内のデータを変更します。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
