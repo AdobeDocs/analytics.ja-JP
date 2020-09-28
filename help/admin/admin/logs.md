@@ -3,10 +3,10 @@ description: ユーザーがログインした時間、ユーザーの使用量�
 title: ログ
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
+source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 72%
+source-wordcount: '597'
+ht-degree: 71%
 
 ---
 
@@ -68,11 +68,6 @@ ht-degree: 72%
 | 日付範囲 | 日付範囲が作成または編集されました。 |
 | 仮想レポートスイート | 仮想レポートスイートが作成または編集されました。 |
 | 貢献度分析 | 貢献度分析ジョブが実行されました。 |
-| Excel データブロックリクエスト |  |
-| Excel ログイン失敗 |  |
-| Excel ログイン成功 |  |
-| モバイルログイン失敗 |  |
-| モバイルログイン成功 |  |
 | API メソッド | API呼び出しが行われました。 |
 
 
