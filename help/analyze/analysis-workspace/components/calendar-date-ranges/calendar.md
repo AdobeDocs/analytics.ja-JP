@@ -2,11 +2,11 @@
 description: カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。
 title: カレンダーと日付範囲の概要
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: ht
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 日付（および時間ディメンション）を Workspace プロジェクトにドラッグすることもできます。特定の日、週、月、年または周期的な日付を選択できます。
 
-[Analysis Workspace での日付範囲およびカレンダーの使用（YouTube）](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28)（4:07）
+[Analysis Workspace での日付範囲およびカレンダーの使用](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html)（4:07）
 
 | 設定 | 説明 |
 |--- |--- |
