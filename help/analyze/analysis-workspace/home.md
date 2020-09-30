@@ -4,10 +4,10 @@ title: Analysis Workspace の概要
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: a4e50c13ea8f567a38b0912ce7dc06d457c684a1
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspaceは柔軟なブラウザツールで、分析をすばやく�
 
 数分しかない場合は、この短い概要を見て、何が可能かを確認してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview.html)
 
 ## Log in to Adobe Analytics {#login}
 
@@ -64,5 +64,5 @@ Workspaceプロジェクトでは、 **パネル、テーブル、ビジュア�
 
 ## その他のリソース {#resources}
 
-* 完全なビデオトレーニングガイドは、 [ここのAdobe AnalyticsYouTubeチャネルで入手でき](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7)ます。
+* Adobeオファー数百件の [Analyticsビデオトレーニングチュートリアル](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)。
 * 機能に関する更新については、「[Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)」を参照してください。
