@@ -2,11 +2,11 @@
 description: 新しいインテリジェントアラートシステムでは、アラートをより詳細に制御でき、異常値検出とアラートシステムが統合されます。
 title: インテリジェントアラートの概要
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 インテリジェントアラートシステムでは、異常値検出とアラートを統合して、アラートをより詳細に制御します。
 
-[YouTube に関するインテリジェントアラート](https://www.youtube.com/watch?v=UVH9xr_2REA)（5:34）
+以下に、 [インテリジェントアラートに関するビデオチュートリアル](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)を示します。
 
 ## 概要
 
