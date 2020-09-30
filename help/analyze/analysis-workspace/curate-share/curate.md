@@ -1,17 +1,17 @@
 ---
 description: キュレーションを使用すると、プロジェクトを共有する前にコンポーネントを制限できます。
 keywords: Analysis Workspace curation
-title: Workspace プロジェクトのキュレーション
-translation-type: ht
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+title: プロジェクトのキュレーション
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Workspace プロジェクトのキュレーション
+# プロジェクトのキュレーション
 
 キュレーションを使用すると、プロジェクトを共有する前にコンポーネント（ディメンション、指標、セグメント、日付範囲）を制限できます。受信者がプロジェクトを開くと、キュレーションされたコンポーネントの制限付きセットが表示されます。キュレーションはオプションですが、プロジェクトを共有する前に行うことをお勧めします。
 
