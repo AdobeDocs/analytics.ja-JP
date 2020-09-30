@@ -2,10 +2,10 @@
 description: このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
 title: Adobe Analytics - 主要概念
 translation-type: tm+mt
-source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -113,5 +113,5 @@ ht-degree: 98%
 | DTM および Adobe Launch | Analytics ツールを参照してください。 |  |
 | VISTA | サーバー側のロジックを適用して、データの収集時にデータを変更またはセグメント化できます。 | [VISTA ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 処理ルール | Analytics UI で変数を設定、変更およびコピーして、収集されたデータを変更できます。 | [処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| デバッガーオプション | Adobe Experience Cloud デバッガーなど、実装の検証に役立つ様々なデバッガーやパケットスニファーを利用できます。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ja) |
+| デバッガーオプション | Adobe Experience Cloudデバッガを含む、導入の検証に役立つ様々なデバッガーやパケットスニファーを使用できます。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ja) |
 | Data Insertion API | Data Insertion API は、サーバー側のデータ収集と Experience Cloud サーバーへの送信のメカニズムを提供します。サーバー側のデータ収集では、各 Web ページで JavaScript ビーコンを使用して訪問者データを Experience Cloud サーバーに送信する代わりに、Web ブラウザーのリクエストと Web サーバーの応答に基づいてデータを収集します。 | [POST を使用して Adobe Analytics データ挿入 API を実装する手順](https://helpx.adobe.com/jp/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
