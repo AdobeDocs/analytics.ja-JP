@@ -1,11 +1,11 @@
 ---
 title: マーケティングチャネルの分析
 description: Workspace でのマーケティングチャネルディメンションの使用方法について説明します。
-translation-type: ht
-source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 94%
 
 ---
 
@@ -52,12 +52,10 @@ ht-degree: 100%
 
 異なるアトリビューションモデルを適用すると、同じ指標（オンライン注文）から異なる結果が生成されます。
 
-Attribution IQ について詳しく説明したビデオをいくつかご紹介します：[Attribution IQ プレイリスト](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR)。
-
 ## クロスタブマーケティング分析
 
 従来のファーストタッチチャネルとラストタッチチャネルを使用すると、チャネルの操作に関する次の便利なビューを利用できます。
 
 ![](assets/mc-viz6.png)
 
-クロスタブマーケティングの分析について詳しくは、[このビデオ](https://www.youtube.com/watch?v=M3EOdONa-3E)を参照してください。
+クロスタブマーケティングの分析について詳しくは、このビデオを参照してください。 [クロスタブ分析を使用したAnalysis Workspaceの基本的なマーケティングアトリビューションの調査](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)。
