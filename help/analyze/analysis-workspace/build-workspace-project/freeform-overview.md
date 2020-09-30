@@ -5,10 +5,10 @@ title: プロジェクトの作成 - 概要
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 68246d319bdfa27a0fabda493b3550085d2e5528
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 88%
+source-wordcount: '758'
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 | [新規プロジェクトを作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | このリンクをクリックすると、新しいプロジェクトを最初から作成できます。 |
 | プロジェクトの管理 | このリンクをクリックすると、プロジェクトコンポーネントマネージャーに移動します（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL プロジェクト]**）。ここでは、すべてのプロジェクトが一覧表示され、プロジェクトのタグ付け、共有、削除、名前の変更、承認、コピー、CSV への書き出しをおこなえます。 |
 | ランディングページとして設定 | このページをWorkspaceランディングページに変換します。 |
-| チュートリアルを表示 | [YouTube の Analysis Workspace 関連ビデオ](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)に移動します。 |
+| チュートリアルを表示 | [Analysis Workspaceのビデオチュートリアルに進みます](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)。 |
 | 名前 | Workspace プロジェクトの名前。 |
 | 所有者 | このプロジェクトを作成したユーザー（ユーザー自身、またはユーザー自身とそのプロジェクトを共有した他のユーザー）。 |
 | タイプ | これがWorkspaceプロジェクトか [Mobile Scorecardかを示します](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/home.html)。 |
