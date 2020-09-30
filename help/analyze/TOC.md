@@ -5,10 +5,10 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,13 +92,13 @@ ht-degree: 98%
          + [セグメント比較の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + プロジェクトのキュレーションおよび共有 {#curate-share}
-      + [Workspace プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
-      + [Workspace プロジェクトの共有](analysis-workspace/curate-share/share-projects.md)
+      + [共有メニュー](analysis-workspace/curate-share/send-schedule-files.md)
+      + [プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
+      + [プロジェクトの共有](analysis-workspace/curate-share/share-projects.md)
       + [共有可能なリンクの作成](analysis-workspace/curate-share/shareable-links.md)
-      + [表示のみの Workspace プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
+      + [表示のみのプロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
-      + [プロジェクトファイルの共有およびスケジュール](analysis-workspace/curate-share/send-schedule-files.md)
-      + [ファイルの送信 - プロジェクトの配信スケジュールの設定](analysis-workspace/curate-share/t-schedule-report.md)
+      + [プロジェクトのスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [アトリビューションの概要](analysis-workspace/attribution/overview.md)
       + [アトリビューションモデルとルックバックウィンドウ](analysis-workspace/attribution/models.md)
