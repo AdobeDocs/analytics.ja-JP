@@ -3,9 +3,9 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '7821'
+source-wordcount: '7790'
 ht-degree: 99%
 
 ---
@@ -989,9 +989,7 @@ ht-degree: 99%
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->左側のナビゲーションパネル上に、タグ、お気に入り、承認、<b>共有（新規）</b>、<b>削除（新規）</b>の操作をおこなうための「アクション」ボタンを追加しました。 </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">タグ、お気に入り、承認された項目およびコンポーネントで検索できるフィルターを検索バーに追加しました。 </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">セグメント、指標、日付範囲をプレビューするためのプレビューアイコンを手動の行に追加しました（ディメンション項目を表示する動的な行には表示されません）。 </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Analysis Workspace のチュートリアルの YouTube リンクを <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a> に更新しました。 </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">セグメント、指標、日付範囲をプレビューするためのプレビューアイコンを手動の行に追加しました（ディメンション項目を表示する動的な行には表示されません）。 </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->ビジュアライゼーションで、「<span class="uicontrol">やり直し</span>」という右クリックオプションをコンテキストメニューに追加しました（フロー、ベン、ヒストグラムで動作します）。現在のビジュアライゼーションの設定は削除され、設定し直すための新しいパネルが開きます。 </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">「凡例を表示」という新しいビジュアライゼーション設定では、数値の概要／変更概要ビジュアライゼーションのフィルター詳細テキストを隠すことができます。 </li> 
