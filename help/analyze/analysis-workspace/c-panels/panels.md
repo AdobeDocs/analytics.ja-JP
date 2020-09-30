@@ -2,10 +2,10 @@
 description: パネルは、テーブルとビジュアライゼーションの集まりです
 title: パネルの概要
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 15%
+source-wordcount: '803'
+ht-degree: 14%
 
 ---
 
@@ -33,6 +33,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 ## パネルレポートスイート {#report-suite}
 
 パネル内のテーブルとビジュアライゼーションは、パネルの右上部で選択した [!UICONTROL レポートスイート] からデータを取得します。 また、レポートスイートでは、左側のレールで使用できるコンポーネントも決定します。 プロジェクト内では、分析の使用例に応じて1つまたは [複数のレポートスイートを使用できます](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) 。
+
+レポートスイートのリストは、関連性に基づいて並べ替えられます。関連性に基づいて、現在のAdobeがスイートを使用した最近の頻度と頻度、および組織内でスイートを使用した頻度に基づいて定義されます。
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 **ドロップダウンフィルターを作成して使用する：**
 
-![](assets/create-dropdown.png)
-
 1. マー [!UICONTROL ケティングチャネルディメンション内の値など、]Dimension項目を使用してドロップダウンフィルターを作成するには  、左側のナビゲーションバーで、ディメンションの横にある右矢印アイコンをクリックします。 これにより、使用可能なすべての項目が表示されます。 左側のレールから1つまたは複数のコンポーネント項目を選択し、Shiftキーを押しながらパネルのドロップゾーン **にドロップします**。 これにより、コンポーネントが単一のセグメントではなく、ドロップダウンフィルターに変換されます。
 1. 指標、セグメント、日付範囲などの他のコンポーネントを使用してドロップダウンフィルターを作成するには、左側のレールで1つのコンポーネントタイプから選択し、Shiftキーを押しながらパネルのドロップゾーン **にドロップします**。
 1. ドロップダウンからオプションの1つを選択して、パネル内のデータを変更します。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
+![](assets/create-dropdown.png)
+
 [プロジェクトにドロップダウンフィルターを追加する方法について詳しくは](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) 、このビデオをご覧ください。
+
