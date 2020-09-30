@@ -1,9 +1,9 @@
 ---
 title: AMP を使用した実装
 description: AMP ページへの Adobe Analytics の実装
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 684e67203b2e3d5f0cb82cdbdda1f24d37a677f0
+workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
       "triggers": {
         "pageLoad": {
           "on": "visible",
-          "request": "pageView"
+          "request": "pageview"
         },
         "click": {
           "on": "click",
