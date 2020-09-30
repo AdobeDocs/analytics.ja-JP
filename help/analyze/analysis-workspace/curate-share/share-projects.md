@@ -1,17 +1,17 @@
 ---
 description: Workspace でのプロジェクト共有とプロジェクトの役割
 keywords: Analysis Workspace sharing
-title: Workspace プロジェクトの共有
-translation-type: ht
-source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+title: プロジェクトの共有
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 99%
 
 ---
 
 
-# Workspace プロジェクトの共有
+# プロジェクトの共有
 
 共有機能を使用すると、プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。適用した[キュレーション](curate.md)は、受信者がプロジェクトを開くと反映されます。
 
