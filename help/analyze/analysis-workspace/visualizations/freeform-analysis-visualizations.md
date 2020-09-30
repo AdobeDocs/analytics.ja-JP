@@ -2,11 +2,11 @@
 description: Analysis Workspace のビジュアライゼーションおよびビジュアライゼーション設定について説明します。
 keywords: Analysis Workspace
 title: ビジュアライゼーションの概要
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '1069'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Workspace オファーには、棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図など、データを視覚的に表現する様々なビジュアライゼーションがあります。各ビジュアライゼーションには、管理可能な独自の設定があります。ビジュアライゼーションの名前をクリックすると、詳細情報が表示されます。
 
-YouTube ビデオ：[Analysis Workspace のビジュアライゼーションのタイプ](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)（2:57）
+Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | ビジュアライゼーション名 | 説明 |
 |---|---|
@@ -109,4 +109,4 @@ Adobe Analytics を使用したことのあるユーザーにとって、大半�
 1. 新しいラベルテキストを入力します。
 1. **[!UICONTROL Enter]** キーを押して保存します。
 
-このトピックに関する[ビデオへのリンクはこちら](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)です。
+このトピックに関する[ビデオへのリンクはこちら](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)です。
