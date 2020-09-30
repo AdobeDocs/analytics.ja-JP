@@ -2,9 +2,9 @@
 description: パネルは、テーブルとビジュアライゼーションの集まりです
 title: パネルの概要
 translation-type: tm+mt
-source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '766'
 ht-degree: 15%
 
 ---
@@ -78,4 +78,4 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 1. 指標、セグメント、日付範囲などの他のコンポーネントを使用してドロップダウンフィルターを作成するには、左側のレールで1つのコンポーネントタイプから選択し、Shiftキーを押しながらパネルのドロップゾーン **にドロップします**。
 1. ドロップダウンからオプションの1つを選択して、パネル内のデータを変更します。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
-[プロジェクトにドロップダウンフィルターを追加する方法について詳しくは](https://www.youtube.com/watch?v=vpJywtsFVPI) 、このビデオをご覧ください。
+[プロジェクトにドロップダウンフィルターを追加する方法について詳しくは](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) 、このビデオをご覧ください。
