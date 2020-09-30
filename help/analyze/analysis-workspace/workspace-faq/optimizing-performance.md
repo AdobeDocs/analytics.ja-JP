@@ -2,11 +2,11 @@
 description: 'null'
 title: Analysis Workspace のパフォーマンスの最適化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-translation-type: ht
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
-workflow-type: ht
-source-wordcount: '1306'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Analysis Workspace のプロジェクトのパフォーマンスに影響を与�
 
 **日付範囲のベストプラクティス**
 
-できるだけ、必要以上のデータを取り込まないようにします。パネルカレンダーを分析に関連する日付に絞り込むか、フリーフォームテーブルで日付範囲コンポーネント（紫のコンポーネント）を使用します。テーブルで使用される日付範囲は、パネルの日付範囲より優先されます。例えば、先月、先週および昨日をテーブルの列に追加して、特定の範囲のデータをリクエストできます。Analysis Workspace での日付範囲の扱いについて詳しくは、[こちらのビデオ](https://www.youtube.com/watch?v=MIkT6FZ5gKk)を参照してください。
+できるだけ、必要以上のデータを取り込まないようにします。パネルカレンダーを分析に関連する日付に絞り込むか、フリーフォームテーブルで日付範囲コンポーネント（紫のコンポーネント）を使用します。テーブルで使用される日付範囲は、パネルの日付範囲より優先されます。例えば、先月、先週および昨日をテーブルの列に追加して、特定の範囲のデータをリクエストできます。Analysis Workspace での日付範囲の扱いについて詳しくは、[こちらのビデオ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)を参照してください。
 
 プロジェクトで使用される前年比の比較数を最小限に抑えます。前年比の比較を計算すると、対象となる月の間の完全な 13 ヶ月分のデータが調べられます。これは、パネルの日付範囲を過去 13 ヶ月に変更した場合と同じ影響を与えます。
 
@@ -79,7 +79,7 @@ Analysis Workspace のプロジェクトのパフォーマンスに影響を与�
 
 すべてを 1 つのプロジェクトに追加することは避け、特定の目的ごと、または関係者のグループごとに独立したプロジェクトを作成します。タグを使用してプロジェクトを主要なテーマにまとめ、関連するプロジェクトを関係者のグループと共有します。
 
-プロジェクトをさらに整理するには、プロジェクトへの[直接リンク](https://www.youtube.com/watch?v=6IOEewflG2U)も検討します。プロジェクトの内部インデックスを作成して、関係者が必要なものを簡単に見つけられるようにします。
+プロジェクトをさらに整理するには、プロジェクトへの[直接リンク](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html)も検討します。プロジェクトの内部インデックスを作成して、関係者が必要なものを簡単に見つけられるようにします。
 
 1 つのプロジェクトで大量のパネルが必要な場合は、保存して共有する前にパネルを折りたたみます。プロジェクトの読み込みの際、Analysis Workspace は展開されているパネルのコンテンツだけを読み込みます。折りたたまれているパネルは、ユーザーが展開するまで読み込まれません。これは、次の 2 つの点で役立ちます。
 
