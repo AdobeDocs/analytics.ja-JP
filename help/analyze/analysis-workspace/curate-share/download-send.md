@@ -3,10 +3,10 @@ description: Analysis Workspaceからデータをダウンロードするには�
 title: PDF ファイルまたは CSV ファイルのダウンロード
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 9%
+source-wordcount: '987'
+ht-degree: 8%
 
 ---
 
@@ -88,5 +88,5 @@ Analysis Workspaceからデータをエクスポートする方法は、ツー�
 | --- | --- |
 | ダウンロードしたPDFが1ページになるのはなぜですか？ | 現時点では、Workspaceでは、ダウンロードされたPDFのページ番号は付けられません。 |
 | 「アイテムをCSV形式でダウンロード」オプションを使用して50,000個を超えるアイテムをエクスポートできますか。 | 各ダウンロードには最大50,000個のディメンション項目を含めることができますが、テーブルの種類を変更してより長い末尾の項目を取得したり、フィルターを適用してより詳細な項目をダウンロードしたりできます。 |
-| ビジュアライゼーションの **[!UICONTROL コピーは]** ? | **[!UICONTROL コピーのビジュアライゼーション]** は書き出しオプションではありません。 Workspace内のある場所から別の場所にビジュアライゼーションまたはパネルをコピーできます。 例えば、同じプロジェクト内のパネル間、または1つのプロジェクトから別のプロジェクト間などです。 [ビデオを見る](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
+| ビジュアライゼーションの **[!UICONTROL コピーは]** ? | **[!UICONTROL コピーのビジュアライゼーション]** は書き出しオプションではありません。 Workspace内のある場所から別の場所にビジュアライゼーションまたはパネルをコピーできます。 例えば、同じプロジェクト内のパネル間、または1つのプロジェクトから別のプロジェクト間などです。 [イントラリンクビデオ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
