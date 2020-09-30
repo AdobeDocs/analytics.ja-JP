@@ -2,10 +2,10 @@
 title: Launch での Analytics プロパティの作成
 description: Adobe Experience Platform Launch を使用してスペースを作成し、データの収集方法をカスタマイズします。
 translation-type: tm+mt
-source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 85%
+source-wordcount: '543'
+ht-degree: 84%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 * [Adobe Analytics 拡張機能のドキュメント](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)： Adobe Experience Platform Launch の Adobe Analytics 拡張機能に固有の完全なドキュメントです。
 * [Launch 使用の手引き](https://docs.adobelaunch.com/getting-started)：より詳細なスタートガイドを含む、Launch の完全なドキュメントです。
-* [Adobe Experience Platform Launch YouTube チャンネル](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd)：ビデオを通して Launch の使用方法を学びます。
+* [Adobe Experience Platform Launch チャンネル](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform)：ビデオを通して Launch の使用方法を学びます。
 
 ## 次の手順
 
