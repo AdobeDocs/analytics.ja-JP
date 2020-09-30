@@ -3,15 +3,15 @@ description: Analysis Workspaceからデータをダウンロードするには�
 title: PDF ファイルまたは CSV ファイルのダウンロード
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '983'
 ht-degree: 9%
 
 ---
 
 
-# PDF ファイルまたは CSV ファイルのダウンロード Workspaceから
+# PDF ファイルまたは CSV ファイルのダウンロード
 
 Analysis Workspaceからデータをエクスポートする方法は、ツール以外で分析するデータのセットと、その情報を受け取る必要があるユーザーに応じて異なります。 書き出されたデータは、コピーされたデータ、CSV、PDFファイルの形式にすることができます。 通常、ファイルにビジュアライゼーションを含める場合はPDFをお勧めします。プレーンテキストデータを含める場合はCSV（またはコピーしたデータ）をお勧めします。
 
