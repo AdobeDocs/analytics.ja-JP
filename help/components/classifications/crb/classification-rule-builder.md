@@ -4,11 +4,11 @@ subtopic: Classifications
 title: 分類ルールビルダーのワークフロー
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 100%
 
 **ブログ**：この機能について詳しくは、Digital Marketing Blog の[ルールベースの分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)を参照してください。
 
-**ビデオ**：[YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) にアクセスし、[!UICONTROL 分類の概要]のビデオを確認してください。
+**ビデオ**:「 [分類の概要](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) 」ビデオの表示を参照してください。
