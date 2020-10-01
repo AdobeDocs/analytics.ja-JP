@@ -3,10 +3,10 @@ description: 線のビジュアライゼーションを使用して、トレン�
 title: 行
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
+source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 79%
+source-wordcount: '524'
+ht-degree: 64%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 79%
 
 ## 近似曲線オーバーレイを表示
 
-**[!UICONTROL ビジュアライゼーション設定]**／**[!UICONTROL オーバーレイ]**／**[!UICONTROL 近似曲線を表示]**&#x200B;で、回帰近似曲線を線系列に追加することを選択できます。近似曲線は、データにより明確なパターンを表現するのに役立ちます。
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. 近似曲線は、データにより明確なパターンを表現するのに役立ちます。
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ ht-degree: 79%
 
 ![線形近似曲線](assets/show-linear-trendline.png)
 
-すべてのモデルは、通常の最小二乗を使用してフィットされます。
+すべての回帰モデルの近似曲線は、通常の最小二乗を使用してフィットします。
 
 | モデル | 説明 |
 | --- | --- |
@@ -54,3 +54,4 @@ ht-degree: 79%
 | 指数関数的 | 曲線を作成します。データが一貫して加速し上昇または下降する場合に便利です。データに 0 または負の値が含まれる場合は、このオプションを使用しないでください。数式：`y = a + e^(b * x)` |
 | 冪 | 曲線を作成します。これは、特定の速度で増加する測定値を比較するデータセットに役立ちます。データに 0 または負の値が含まれる場合は、このオプションを使用しないでください。数式：`y = a * x^b` |
 | 二次 | 放物線（上または下に凹面）のような形状のデータセットに最適なデータを検索します。数式：`y = a + b * x + c * x^2` |
+| 移動平均 | 平均値のセットに基づいて、滑らかな近似曲線を作成します。 例えば、7日移動平均や4週間移動平均があります。 移動平均とも呼ばれる移動平均は、前の範囲の平均を計算し、それを近似曲線のデータポイントとして使用した後、次の期間に移動して繰り返します。 「期間」入力は、平均値を計算する範囲を定義します。 |
