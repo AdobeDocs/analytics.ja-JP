@@ -2,10 +2,10 @@
 title: Adobe Analyticsが使用するIPとドメイン
 description: 組織のファイアウォールで、アドビから派生する IP アドレスがブロックされている場合は、このリストを使用してファイアウォール設定を更新してください。
 translation-type: tm+mt
-source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
+source-git-commit: 436d0c2706f47a79cc70e4dcdbda6bd2c9a4d98c
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics では、次のホストを使用して、パフォーマンス�
 
 | 技術 | ドメイン |
 | --- | --- |
-| Adobe Analytics ドメイン | `adobe.com` |
+| Adobe Analytics藩 | `adobe.com`、`adobe.net`、`adobe.io` |
 | Adobe Analytics レガシードメイン | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
