@@ -5,9 +5,9 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: b4c435bee3cca701301b380adaf92e346b0a93e5
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1086'
 ht-degree: 97%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 97%
    + [Analysis Workspace の新機能](analysis-workspace/new-features-in-analysis-workspace.md)
    + Workspaceプロジェクトの構築 {#build-workspace-project}
       + [プロジェクトの作成 - 概要](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [Workspace プロジェクトの作成](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [プロジェクトの保存](analysis-workspace/build-workspace-project/save-projects.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Workspace の複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
