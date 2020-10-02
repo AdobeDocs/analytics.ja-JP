@@ -5,10 +5,10 @@ title: 処理ルールの概要
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 87%
+source-wordcount: '362'
+ht-degree: 80%
 
 ---
 
@@ -24,20 +24,11 @@ ht-degree: 87%
 * スペルを間違えたサイトセクションのクリーンアップ
 * クエリー文字列から eVar に内部検索用語またはキャンペーン ID を取り込む
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*処理ルールを使用する理由について、処理ルールの概要と Adobe Summit のトレーニングをご覧ください。*
+## 処理ルールの権限 {#section_8A4846688050453784DAE4D89355169A}
 
-## 処理ルール使用の承認を得る {#section_8A4846688050453784DAE4D89355169A}
-
-2017 年 4 月 20 日以前は、すべてのユーザー（管理者を含む）が試験に合格し、処理ルールを使用する権限をアドビカスタマーケアから受け取る必要がありました。
-
-現在は、管理者には処理ルールを使用する権限が&#x200B;**デフォルトで**&#x200B;与えられています。試験を受ける必要はなくなりました。また、管理者は、管理ツールインターフェイスを使用してこの権限を非管理者に付与できます。その方法を次に示します。
-
-1. まだ完了していなければ、処理ルールを使用する権限を持つべき非管理者のみで構成される          [グループを作成](/help/admin/user-management2/c-user-groups/groups.md)します。
-1. [管理者以外のユーザーをそのグループに追加します](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**／**[!UICONTROL `group name`]**／**[!UICONTROL 編集]**／**[!UICONTROL レポートアクセス]**／**[!UICONTROL レポートスイートツール]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL レポートスイート管理]**&#x200B;を選択します。
-1. 「[!UICONTROL 処理ルール]」チェックボックスをオンにし、「**[!UICONTROL OK]**」をクリックします。
+Administrators have rights to use processing rules **by default**. また、管理者は、管理ツールインターフェイスを使用してこの権限を非管理者に付与できます。手順については、[]
 
 ![](assets/processing-rules.png)
 
