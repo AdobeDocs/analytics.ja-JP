@@ -4,9 +4,9 @@ title: Analysis Workspace の概要
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '535'
 ht-degree: 13%
 
 ---
@@ -18,7 +18,7 @@ Analysis Workspaceは柔軟なブラウザツールで、分析をすばやく�
 
 数分しかない場合は、この短い概要を見て、何が可能かを確認してください。
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview.html)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
 
 ## Log in to Adobe Analytics {#login}
 
