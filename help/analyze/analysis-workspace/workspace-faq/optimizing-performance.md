@@ -3,10 +3,10 @@ description: 'null'
 title: Analysis Workspace のパフォーマンスの最適化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 8ac408613d9aae1745cc6b876ef2a4c252f0665d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 98%
+source-wordcount: '1381'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Analysis Workspace のプロジェクトのパフォーマンスに影響を与�
 * 上で説明したとおり、リクエストされるデータの範囲
 * フリーフォームテーブルの行として使用されるセグメントなど、適用されるセグメントの数
 * 複雑なセグメントの使用
-* [フリーフォームテーブルでの静的項目の行または列](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
+* [フリーフォームテーブルでの静的項目の行または列](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
 * フリーフォームテーブルの行に適用されるフィルター
 * 含まれている指標（特にセグメントを使用する計算指標）の数
 
@@ -99,10 +99,10 @@ Analysis Workspace または特定のプロジェクトに同時にアクセス�
 Analysis Workspace の操作中にエラーが発生する場合があります。エラーは、いくつかの理由で発生する場合があります。最も一般的なエラーは次のとおりです。
 
 | エラーメッセージ | エラーの発生理由 |
-|---|---|
-| `The report suite is experiencing unusually heavy reporting. Please try again later.` | 組織が特定のレポートスイートに対して同時に実行するリクエストが多すぎます。このエラーの原因となっているのは、API リクエスト、スケジュール済みプロジェクト、スケジュール済みレポート、スケジュール済みアラート、およびレポートリクエストをおこなう同時ユーザーです。レポートスイートのリクエストとスケジュールは、1 日を通じて均等に配分することをお勧めします。 |
-| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | アドビで問題が発生しています。この問題は解決する必要があります。カスタマーケアのリクエストを通じてエラーコードを送信することをお勧めします。 |
-| `The request is too complex.` | レポート要求が大きすぎるので、実行できません。このエラーの原因は、リクエストのサイズ、セグメントまたは検索フィルターで一致した項目が多すぎる、含まれる指標が多すぎる、互換性のないディメンションと指標の組み合わせなどが原因でタイムアウトになります。リクエストを簡略化することをお勧めします。 |
-| `One of the segments or the search in this visualization contains a text search that returned too many results.` | 検索テキストの条件を絞り込んで、もう一度リクエストを試すことをお勧めします。 |
-| `This dimension does not currently support non-default attribution models.` | テーブル内のディメンションを、[Attribution IQ](../attribution/overview.md) と互換性のあるディメンションに置き換えることをお勧めします。 |
-| `Your request failed as a result of too many columns or pre-configured rows.` | 列や行の一部を削除するか、別々のビジュアライゼーションに分割することをお勧めします。 |
+| --- | --- |
+| [!UICONTROL レポートスイートで、異常に重いレポート処理が発生しています。後でやり直してください。] | 組織が特定のレポートスイートに対して同時に実行するリクエストが多すぎます。このエラーの原因となっているのは、API リクエスト、スケジュール済みプロジェクト、スケジュール済みレポート、スケジュール済みアラート、およびレポートリクエストをおこなう同時ユーザーです。レポートスイートのリクエストとスケジュールは、1 日を通じて均等に配分することをお勧めします。 |
+| [!UICONTROL システムエラーが発生しました。 ヘルプ/サポートチケットを送信できるカスタマーケアのリクエストをログに記録し、エラーコードを記載してください。] | アドビで問題が発生しています。この問題は解決する必要があります。カスタマーケアのリクエストを通じてエラーコードを送信することをお勧めします。 |
+| [!UICONTROL リクエストが複雑すぎます。] | レポート要求が大きすぎるので、実行できません。このエラーの原因は、リクエストのサイズ、セグメントまたは検索フィルターで一致した項目が多すぎる、含まれる指標が多すぎる、互換性のないディメンションと指標の組み合わせなどが原因でタイムアウトになります。リクエストを簡略化することをお勧めします。 |
+| [!UICONTROL このビジュアライゼーションのセグメントまたは検索の1つに、返された結果が多すぎるテキスト検索が含まれています。] | 検索テキストの条件を絞り込んで、もう一度リクエストを試すことをお勧めします。 |
+| [!UICONTROL このディメンションでは、現在、デフォルト以外のアトリビューションモデルをサポートしていません。] | テーブル内のディメンションを、[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) と互換性のあるディメンションに置き換えることをお勧めします。 |
+| [!UICONTROL 列が多すぎるか事前設定された行が原因で、要求に失敗しました。] | 列や行の一部を削除するか、別々のビジュアライゼーションに分割することをお勧めします。 |
