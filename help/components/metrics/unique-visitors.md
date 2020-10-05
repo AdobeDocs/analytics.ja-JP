@@ -1,11 +1,11 @@
 ---
 title: 個別訪問者数
-description: 個別の個人（またはデバイス）の数。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+description: 一意の訪問者IDの数。
+translation-type: tm+mt
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 「個別訪問者数」指標は、ディメンション項目の訪問者 ID の数を示します。トラフィックを決定する際に使用される最も一般的な指標の 1 つで、ディメンション項目の人気度の概要を示します。例えば、ある訪問者が 1 か月間毎日サイトを訪問しても、1 人の個別訪問者としてカウントされることがあります。
 
-[クロスデバイス分析](../cda/overview.md)を使用する場合、この指標は「個別デバイス」に名前が変更されます。
+デバイス間の分析を使用する場合 [、この指標は「](../cda/overview.md)個別デバイス [](unique-devices.md) 」指標に置き換えられます。
 
 ## 日別、週別、月別、四半期別、年別の個別訪問者数
 
