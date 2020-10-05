@@ -5,10 +5,10 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 99%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 100%
    + [ヒットタイプ](dimensions/hit-type.md)
    + [時刻](dimensions/hour-of-day.md)
    + [時間](dimensions/hour.md)
+   + [識別された状態](dimensions/identified-state.md)
    + [Java 有効](dimensions/java-enabled.md)
    + [言語](dimensions/language.md)
    + [ファーストタッチチャネル](dimensions/last-touch-channel.md)
@@ -136,6 +137,7 @@ ht-degree: 100%
    + [訪問者別滞在時間](metrics/time-spent-per-visitor.md)
    + [滞在時間の概要](metrics/time-spent.md)
    + [合計滞在時間（秒）](metrics/total-seconds-spent.md)
+   + [一意のデバイス](metrics/unique-devices.md)
    + [個別訪問者数](metrics/unique-visitors.md)
    + [単位](metrics/units.md)
    + [Experience Cloud ID を持つ訪問者](metrics/visitors-with-ecid.md)
