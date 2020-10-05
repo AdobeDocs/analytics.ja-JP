@@ -1,23 +1,25 @@
 ---
 title: ドメイン
 description: 訪問者がインターネットにアクセスするために使用する組織または ISP。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c2d371cee2821360ab87240b1a81695798af4f9f
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 41%
 
 ---
 
 
 # ドメイン
 
-「ドメイン」ディメンションは、訪問者がインターネットにアクセスする際に使用する組織またはインターネットサービスプロバイダーをレポートします。
+&#39;Domain&#39;ディメンションは、訪問者がインターネットにアクセスする際に使用するアクセスポイントをレポートします。
 
 ## このディメンションへのデータ入力
 
-このディメンションは、リクエストがアドビのデータ収集サーバーに到達するまでにたどったパスに関する情報を使用します。構成は不要で、入力する変数もありません。すべての AppMeasurement 実装でデフォルトで動作します。
+Adobeは、 [Digital Element](https://info.digitalelement.com/jp/) （デジタル要素）とパートナー関係を持ち、アクセスポイントドメインを決定します。 DNS逆引き参照を含むいくつかのメソッドは、アクセスポイントドメインを決定するために使用されます。 構成は不要で、入力する変数もありません。すべての AppMeasurement 実装でデフォルトで動作します。
 
 ## ディメンション項目
 
-ディメンション項目の例としては、`comcast.net`、`rr.com`、`sbcglobal.net`、`amazonaws.com` などがあります。これらは、ISP がトラフィックを送信するために使用するドメインであり、ISP 組織を表すドメインであるとは限りません。
+ディメンション項目の例としては、`comcast.net`、`rr.com`、`sbcglobal.net`、`amazonaws.com` などがあります。これらのドメインはアクセスポイントであり、ISPや組織を表すドメインとは限りません。
+
+のDimension値は、アクセスポイントIPアドレスの所有者がドメインを提供しなかったことを `None` 意味します。
