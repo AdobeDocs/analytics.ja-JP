@@ -1,11 +1,11 @@
 ---
 title: クロスデバイス分析の設定
 description: CDA を有効にする仮想レポートスイートを設定します。
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 仮想レポートスイートでクロスデバイス分析が有効になっている場合は、次の変更点に注意してください。
 
 * 仮想レポートスイート名の横に、新しいクロスデバイスアイコンが表示されます。このアイコンは、クロスデバイス仮想レポートスイートにのみ使用できます。
-* 「識別済みの状態」というラベルの付いた新しいディメンションを使用できます。このディメンションは、そのヒットの Experience Cloud ID が、その時点のデバイスグラフで判明しているかどうかを指定します。
-* 「人」と「個別デバイス」というラベルの付いた新しい指標を使用できます。
-* 「個別訪問者数」指標は、「人」と「個別デバイス」に置き換えられるので、使用できません。
+* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. このディメンションは、そのヒットの Experience Cloud ID が、その時点のデバイスグラフで判明しているかどうかを指定します。
+* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
+* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
 * セグメントを作成する際、「訪問者」セグメントコンテナは「人」コンテナに置き換えられます。
