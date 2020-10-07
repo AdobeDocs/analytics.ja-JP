@@ -5,10 +5,10 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 99%
+source-wordcount: '622'
+ht-degree: 98%
 
 ---
 
@@ -214,6 +214,7 @@ ht-degree: 99%
    + [クロスデバイス分析の設定](cda/setup.md)
    + [再生の仕組み](cda/replay.md)
    + [CDA Workspace テンプレート](cda/workspace-template.md)
+   + [VRSを特定の日付に制限する](cda/limit-vrs-date.md)
    + [クロスデバイス分析に関する FAQ](cda/faq.md)
 + アラート {#alerts}
    + [インテリジェントアラート](c-alerts/intellligent-alerts.md)
