@@ -4,10 +4,10 @@ title: Analysis Workspace の概要
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 13%
+source-wordcount: '525'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspaceは柔軟なブラウザツールで、分析をすばやく�
 
 数分しかない場合は、この短い概要を見て、何が可能かを確認してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Log in to Adobe Analytics {#login}
 
@@ -46,7 +46,7 @@ Workspaceプロジェクトでは、 **パネル、テーブル、ビジュア�
 
 ### コンポーネント
 
-**コンポーネント** は、ディメンション、指標、セグメントまたは日付範囲です。これらすべてをフリ **[!UICONTROL ーフォームテーブルに組み合わせて]** 、開始の質問に答えることができます。 分析に進む前に、各 [コンポーネントのタイプについて理解しておく必要があります](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) 。 コンポーネントの用語を習得したら、ドラッグ&amp;ドロップを開始して、フリー [フォームテーブルで分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) を **[!UICONTROL 構築できます]**。
+**コンポーネント** は、ディメンション、指標、セグメントまたは日付範囲です。これらすべてをフリ **[!UICONTROL ーフォームテーブルに組み合わせて]** 、開始の質問に答えることができます。 分析に進む前に、各 [コンポーネントのタイプについて理解しておく必要があります](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 。 コンポーネントの用語を習得したら、ドラッグ&amp;ドロップを開始して、フリー [フォームテーブルで分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) を **[!UICONTROL 構築できます]**。
 
 ![](assets/build-components.png)
 
