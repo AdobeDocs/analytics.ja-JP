@@ -3,7 +3,7 @@ description: 'null'
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 93%
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 以下からプロジェクトを作成するかどうかを選択できます。
 
-* **空白のプロジェクト（デフォルト）**：手順については、「[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)」を参照してください。
+* **空白のプロジェクト（デフォルト）**：手順については、「[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/home.md)」を参照してください。
 * **標準テンプレート**：アドビが作成し、製品に付属しているテンプレートです。
 * **カスタムテンプレート**：管理者権限を持つユーザー、または Admin Console で [!UICONTROL Analysis Workspace：テンプレートとして保存]権限を付与された非管理者ユーザーが作成、共有または削除できるテンプレートです。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-console/permissions/product-profile.html)
 
