@@ -5,7 +5,7 @@ title: プロジェクトの作成 - 概要
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 86%
@@ -33,7 +33,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 | 要素 | 説明 |
 |---|---|
-| [新規プロジェクトを作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | このリンクをクリックすると、新しいプロジェクトを最初から作成できます。 |
+| [新規プロジェクトを作成](/help/analyze/analysis-workspace/home.md) | このリンクをクリックすると、新しいプロジェクトを最初から作成できます。 |
 | プロジェクトの管理 | このリンクをクリックすると、プロジェクトコンポーネントマネージャーに移動します（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL プロジェクト]**）。ここでは、すべてのプロジェクトが一覧表示され、プロジェクトのタグ付け、共有、削除、名前の変更、承認、コピー、CSV への書き出しをおこなえます。 |
 | ランディングページとして設定 | このページをWorkspaceランディングページに変換します。 |
 | チュートリアルを表示 | [Analysis Workspaceのビデオチュートリアルに進みます](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)。 |
