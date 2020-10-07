@@ -3,9 +3,9 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7786'
 ht-degree: 99%
 
 ---
@@ -414,8 +414,7 @@ ht-degree: 99%
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > カスタム Workspace テンプレート </a> </p> </td> 
    <td colname="col2"> <p>独自の Workspace テンプレートを作成して保存することで、組織内の他のユーザーが自身の関連するデータを使用して作業を開始することができるようになりました。 </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 新規プロジェクト開始モーダル </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>「新規プロジェクト」をクリックすると、新しい画面が開き、次のどこから開始するかを選択できるようになりました。 </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">空白のプロジェクト </li> 
@@ -498,7 +497,7 @@ ht-degree: 99%
    <td colname="col2"> <p>2017 年 10 月に導入されたマップビジュアライゼーションを、PDF でも表示できるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > プロジェクトをコピー／名前を付けて保存する際の相対的内部リンク</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > プロジェクトをコピー／名前を付けて保存する際の相対的内部リンク</a> </p> </td> 
    <td colname="col2"> <p>以前は、プロジェクトをコピーした場合や「名前を付けて保存」をおこなった場合、プロジェクト内に保存されている内部リンクはすべて、コピーされたプロジェクトではなく、元のプロジェクトを指していました。 </p> <p>コピー／名前を付けて保存の後でも、内部リンクは内部のプロジェクトに対して相対的になりました。 </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ ht-degree: 99%
    <td colname="col2"> <p>フリーフォームテーブルまたはコホートテーブルに接続されたビジュアライゼーションがある場合は、左上の点（データソース設定）から接続済みのビジュアライゼーションを一覧表示できるようになりました。カーソルを合わせるとリンク済みのビジュアライゼーションが強調表示され、クリックで移動できます。 </p> <p>さらに、データテーブルの表示または非表示が可能な「データテーブルを表示／非表示」チェックボックスもあります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 左側のパネルのイベント名に追加されたイベント番号表示 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 左側のパネルのイベント名に追加されたイベント番号表示 </a> </p> </td> 
    <td colname="col2"> <p>2017 年 10 月より前に、evar の番号および prop の番号がディメンション名に追加され、これらの番号を使用して検索できました。この同じ機能がイベントでも使用できるようになりました。 </p> <p>例：「サブスクリプション」という名前のイベントは、左側のパネルに「サブスクリプション（event1）」と表示されます。 </p> <p>次の点に注意してください。 </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">テーブル中では、表示文字数を短くするためイベント番号は表示されません。 </li> 
@@ -576,7 +575,7 @@ ht-degree: 99%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >デフォルトで論理順序で並べ替えられる事前設定済みディメンション</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  >デフォルトで論理順序で並べ替えられる事前設定済みディメンション</a> </p> </td> 
    <td colname="col2"> <p>次の場合における一部の事前設定済みディメンションのデフォルトの並べ替え順が更新されました。 </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">フリーフォームテーブルにドラッグされる場合。 </li> 
@@ -677,7 +676,7 @@ ht-degree: 99%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 保存中のプロジェクトのタグ付け </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 保存中のプロジェクトのタグ付け </a> </p> </td> 
    <td colname="col2"> <p>プロジェクトの保存中にプロジェクトにタグ付けできるようになりました。 </p> </td> 
   </tr> 
   <tr> 
