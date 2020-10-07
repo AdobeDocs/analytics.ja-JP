@@ -1,11 +1,11 @@
 ---
 description: サードパーティアプリケーションから Analytics に追跡データをインポートします。
 title: Analytics Data Connectors 使用の手引き
-translation-type: ht
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
-workflow-type: ht
-source-wordcount: '976'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 98%
 
 ---
 
@@ -86,8 +86,9 @@ Adobe Analytics は、Data Warehouse を経由し、これらを毎日の個別�
 
 >[!NOTE]
 >
->製品がイベントを関連付けずに定義されている場合、prodView イベントが自動的に発生します。
-上記の要件が満たされない場合、対応するリマーケティングセグメントは適切にレポートされません。
+>If the product is defined without an associated event, the `prodView` event automatically fires.
+>
+>上記の要件が満たされない場合、対応するリマーケティングセグメントは適切にレポートされません。
 
 [!UICONTROL 買い物かごの放棄]：ユーザーが商品を買い物かごに追加した後に発生します。
 
