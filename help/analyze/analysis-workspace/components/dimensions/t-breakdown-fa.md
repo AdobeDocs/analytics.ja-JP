@@ -5,7 +5,7 @@ title: ディメンションの分類
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 83%
@@ -19,7 +19,7 @@ Analysis Workspace のディメンションおよびディメンション項目�
 
 特定のニーズに合わせて様々な方法でデータを分類し、関連する指標、ディメンション、セグメント、タイムライン、その他の分析分類値を使用するクエリを作成します。
 
-1. データテーブルを使用して[プロジェクトを作成](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)します。
+1. データテーブルを使用して[プロジェクトを作成](/help/analyze/analysis-workspace/home.md)します。
 1. データテーブルで行項目を右クリックし、**[!UICONTROL 分類]**／*`<item>`*&#x200B;を選択します。
 
    ![手順の結果](assets/fa_data_table_actions.png)
