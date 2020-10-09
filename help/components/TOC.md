@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
    + [ヒットタイプ](dimensions/hit-type.md)
    + [時刻](dimensions/hour-of-day.md)
    + [時間](dimensions/hour.md)
-   + [識別された状態](dimensions/identified-state.md)
+   + [特定された状態](dimensions/identified-state.md)
    + [Java 有効](dimensions/java-enabled.md)
    + [言語](dimensions/language.md)
    + [ファーストタッチチャネル](dimensions/last-touch-channel.md)
@@ -137,7 +137,7 @@ ht-degree: 98%
    + [訪問者別滞在時間](metrics/time-spent-per-visitor.md)
    + [滞在時間の概要](metrics/time-spent.md)
    + [合計滞在時間（秒）](metrics/total-seconds-spent.md)
-   + [一意のデバイス](metrics/unique-devices.md)
+   + [個別デバイス数](metrics/unique-devices.md)
    + [個別訪問者数](metrics/unique-visitors.md)
    + [単位](metrics/units.md)
    + [Experience Cloud ID を持つ訪問者](metrics/visitors-with-ecid.md)
