@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace の概要](analysis-workspace/home.md)
    + [Analysis Workspace の新機能](analysis-workspace/new-features-in-analysis-workspace.md)
-   + Workspaceプロジェクトの構築 {#build-workspace-project}
+   + Workspace プロジェクトの作成 {#build-workspace-project}
       + [プロジェクトの作成 - 概要](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [プロジェクトの保存](analysis-workspace/build-workspace-project/save-projects.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -83,7 +83,7 @@ ht-degree: 97%
       + [アトリビューションパネル](analysis-workspace/c-panels/attribution.md)
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
-      + [メディア同時ビューアパネル](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [メディアの同時視聴者パネル](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [クイックインサイトパネル](analysis-workspace/c-panels/quickinsight.md)
       + セグメント比較パネル {#segment-comparison}
          + [セグメント比較の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -94,7 +94,7 @@ ht-degree: 97%
       + [プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
       + [プロジェクトの共有](analysis-workspace/curate-share/share-projects.md)
       + [共有可能なリンクの作成](analysis-workspace/curate-share/shareable-links.md)
-      + [表示のみのプロジェクト](analysis-workspace/curate-share/view-only-projects.md)
+      + [表示専用プロジェクト](analysis-workspace/curate-share/view-only-projects.md)
       + [PDF ファイルまたは CSV ファイルのダウンロード](analysis-workspace/curate-share/download-send.md)
       + [プロジェクトのスケジュール](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
@@ -239,8 +239,8 @@ ht-degree: 97%
       + [Power BI 統合のトラブルシューティング](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Power BI 用 Adobe Analytics コンテンツパック](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic マクロ](report-builder/vba.md)
-   + [Report Builderのトラブルシューティング](report-builder/troubleshoot.md)
-   + [Report BuilderFAQ](report-builder/faq.md)
+   + [Report Builder のトラブルシューティング](report-builder/troubleshoot.md)
+   + [Report Builder の FAQ](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map の概要](activity-map/activity-map.md)
    + はじめに {#getting-started}
