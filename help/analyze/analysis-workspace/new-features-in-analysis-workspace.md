@@ -3,22 +3,48 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 60bc50752c307aa83c11885380e0962243025373
 workflow-type: tm+mt
-source-wordcount: '7786'
-ht-degree: 99%
+source-wordcount: '8103'
+ht-degree: 98%
 
 ---
 
 
 # Analysis Workspace の新機能
 
+Adobe Experience Cloudのリリースノート全体については、 [こちらを参照してください](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)。
+
+## 2020 年 10 月
+
+2020年10月にリリースされた新機能。
+
+| 機能 | 説明 |
+| --- | --- |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL 折れ線グラフのビジュアライゼーションのトレンドライン設定に移動平均が追加されました。]**&#x200B;移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
+| [パフォーマンスのヘルプページ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace パフォーマンスヘルプページには、プロジェクトのパフォーマンスに影響を与える様々な要因と最適化のためのヒントへのリンクが示されています。 |
+
+## 2020 年 9 月
+
+2020年9月にリリースされた新機能。
+
+| 機能 | 説明 |
+| --- | --- |
+| [1つのディメンションに対して50,000個の項目をダウンロード](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | セグメントとフィルターが適用されたフリーフォームテーブルの単一のディメンションに対して、50,000個の項目をダウンロードできるようになりました。 これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
+| [線のビジュアライゼーションの強化](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>線の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、線の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の線の視覚化に最小値と最大値のラベルをオーバーレイして、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを線の視覚化に重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
+| 新しい日付範囲 | 5つの新しい日付範囲を追加し、今日の日付の一部データを含まない日付範囲から選択できるようにしました。最近の7日間、過去14日間、過去30日間、過去60日間、過去90日間の全日数 |
+
+
+## 2020 年 8 月
+
+2020年8月にリリースされた新機能はありません。
+
 ## 2020 年 7 月
 
 2020 年 7 月 16 日にリリースされた新機能。
 
 | 機能 | 説明 |
-|--- |--- |
+| --- | --- |
 | 新しい日付範囲プリセット | [!UICONTROL 今週／月／四半期／年（今日を除く）]の 4 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲から選択できます。 |
 
 ## 2020 年 6 月
@@ -115,7 +141,7 @@ ht-degree: 99%
 機能強化は 2019 年 6 月 14 日にリリースされました。
 
 | 機能強化 | 説明 |
-|--- |--- |
+| --- |--- |
 | そのまま使用できる新しいフィルター | 左側のレールの検索に新しい事前設定済みのフィルターが追加されました。現在表示できるもの（ディメンション、指標、承認済みなど）以外に、計算指標、顧客属性、eVar、Prop、ビデオなどの新しいフィルターが追加され、必要なコンポーネントを探すのがより簡単になります。 |
 
 ## 2019 年 5 月
@@ -207,6 +233,7 @@ ht-degree: 99%
   </tr> 
  </tbody> 
 </table>
+
 ## 2018 年 8 月
 
 2018 年 8 月 10 日にリリースされた新機能および機能強化。
