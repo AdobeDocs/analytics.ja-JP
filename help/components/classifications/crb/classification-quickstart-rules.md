@@ -325,7 +325,8 @@ t_classification_rule.xml
    **[!UICONTROL レポートスイートを選択]**&#x200B;ページが表示されます。
 
    >[!NOTE]
-   レポートスイートは、次の条件を満たした場合 *`only`* このページに表示されます。
+   >
+   >レポートスイートは、次の条件を満たした場合 *`only`* このページに表示されます。
 
    * レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
    この前提条件の説明については、*`Variable`*&#x200B;分類ルールセット[の ](/help/components/classifications/crb/classification-rule-set.md) を参照してください。）
