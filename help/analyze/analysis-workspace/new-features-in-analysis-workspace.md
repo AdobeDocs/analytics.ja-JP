@@ -3,7 +3,7 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: 60bc50752c307aa83c11885380e0962243025373
+source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
 ht-degree: 98%
@@ -33,7 +33,6 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
 | [1つのディメンションに対して50,000個の項目をダウンロード](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | セグメントとフィルターが適用されたフリーフォームテーブルの単一のディメンションに対して、50,000個の項目をダウンロードできるようになりました。 これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
 | [線のビジュアライゼーションの強化](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>線の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、線の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の線の視覚化に最小値と最大値のラベルをオーバーレイして、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを線の視覚化に重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
 | 新しい日付範囲 | 5つの新しい日付範囲を追加し、今日の日付の一部データを含まない日付範囲から選択できるようにしました。最近の7日間、過去14日間、過去30日間、過去60日間、過去90日間の全日数 |
-
 
 ## 2020 年 8 月
 
