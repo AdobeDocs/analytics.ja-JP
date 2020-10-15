@@ -5,7 +5,7 @@ title: ヘッダーおよびフッターコードの追加
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Dynamic Tag Management には、ステージングおよび実稼動用の埋め
 
 1. 実稼動サイト用のフッターコードをコピーして、サイトの HTML の [!DNL BODY] セクションに配置します。
 
-   コードを [!DNL  の近くに配置します。</body>] タグの近くに配置します。
+   コードを `</body>` の近くに配置します。 タグの近くに配置します。
 1. ステージングのヘッダーおよびフッターコードをコピーして、ステージングサイトで上記の手順を繰り返します。
 
    >[!NOTE]
