@@ -4,10 +4,10 @@ subtopic: Get started
 title: Reports and Analytics の概要
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '725'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '702'
 ht-degree: 100%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 100%
 # Reports &amp; Analytics の概要
 
 Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
-
-## Reports &amp; Analytics の概要
-
-Reports and Analytics を使用する前に、Reports and Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 
 レポートは、従来型の Web ベースのチャネルと、モバイルやビデオ、ソーシャルネットワークのような発展を続けるチャネルの両方に洞察を提供します。マーケティングレポートの例を以下に示します。
 
