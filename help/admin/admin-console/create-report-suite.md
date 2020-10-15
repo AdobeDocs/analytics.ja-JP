@@ -1,9 +1,9 @@
 ---
 title: レポートスイートの作成
 description: Adobe Analytics でデータ収集用の基本コンテナを作成します。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 [Adobe Analytics はじめての管理ガイド](first-admin-guide.md)：システムレベルの管理者が Experience Cloud Admin Console を使用して Adobe Analytics へのアクセスを許可できるようにします。
 
-## レポートスイートの作成
+## レポートスイートの作成 {#create-report-suite}
 
 >[!NOTE]
 >
