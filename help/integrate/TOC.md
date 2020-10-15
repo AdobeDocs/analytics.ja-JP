@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics 統合ガイド
-breadcrumb-title: Integration Guide
-user-guide-description: Configure integrations with other Adobe Experience Cloud solutions, such as Audience Manager, Advertising Cloud, and Target.
+breadcrumb-title: 統合ガイド
+user-guide-description: Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '154'
 ht-degree: 100%
 
 ---
