@@ -3,10 +3,10 @@ description: 指標はレポートの基礎で、データの相互関連を見�
 title: 指標
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: ht
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: ht
-source-wordcount: '370'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '371'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 指標はレポートの基礎で、データの相互関連を見て把握するのに役立ち、Web サイトに関する異なるデータセットを並べて比較することができます。指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。
 
-## 指標
+## 指標の概要
 
 指標はレポートの基礎で、データの相互関連を見て把握するのに役立ち、Web サイトに関する異なるデータセットを並べて比較することができます。指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。
 
