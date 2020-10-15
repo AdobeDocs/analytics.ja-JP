@@ -2,13 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Analytics テクニカルノート
-breadcrumb-title: Tech Notes
-user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
+breadcrumb-title: テクニカルノート
+user-guide-description: 特定の分析ツールやコンポーネントに属さない有益な記事を含むナレッジベース。
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 89%
+source-wordcount: '180'
+ht-degree: 90%
 
 ---
 
