@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics インポートガイド
-breadcrumb-title: Import Guide
-user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time.
+breadcrumb-title: インポートガイド
+user-guide-description: '一括またはリアルタイムで、外部のソースから Analytics にデータを取り込みます。 '
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '515'
 ht-degree: 100%
 
 ---
