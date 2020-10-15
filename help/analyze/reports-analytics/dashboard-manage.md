@@ -4,10 +4,10 @@ subtopic: Dashboards
 title: ダッシュボードマネージャー
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '807'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >ダッシュボードマネージャーを使用する場合は、1 人のユーザーに対して 300 個以下のダッシュボードを使用することをお勧めします。また、マネージャーがすべての共有ダッシュボードを下に読み込むので、ダッシュボードの共有は慎重に行ってください。
-
-## ダッシュボードマネージャー
-
-ダッシュボードマネージャーを使用して、ダッシュボードのコピー、共有、アーカイブ、および配信スケジュールの設定を行います。
 
 **[!UICONTROL 分析]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ダッシュボード]**&#x200B;をクリックします。
 
