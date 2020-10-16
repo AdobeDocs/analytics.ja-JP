@@ -1,9 +1,9 @@
 ---
-source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+source-git-commit: 78d9346ec82d802136cbaf2bfed31b6d25af207e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '514'
-ht-degree: 91%
+source-wordcount: '644'
+ht-degree: 72%
 
 ---
 # Adobe Analytics の製品プロファイル
@@ -54,4 +54,6 @@ Analyticsツールの権限項目は、レポートスイートの設定に依�
 
 ## 製品プロファイル開発者
 
-開発者はユーザーに似ていますが、Adobe I/O で Experience Cloud API を使用する権限が付与されています。詳しくは、エンタープライズユーザーガイドの[開発者の管理](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照してください。
+開発者はユーザーに似ていますが、Adobe I/O で Experience Cloud API を使用する権限が付与されています。詳しくは、エンタープライズユーザーガイドの[開発者の管理](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照してください。プロファイルに対して開発者アクセス権限が付与されている場合は、開発コンソール(console.adobe.io)にアクセスし、Adobe Analytics統合を編集できます。 ユーザーに対して承認されたAnalytics APIの呼び出しと応答は、そのユーザーが開発者アクセス権を持つすべてのプロファイルの正味権限に依存します。
+
+例えば、Analysis Workspaceアクセスの権限を持つユーザーは、すべての指標、すべてのディメンション、1つのレポートスイートに対して、/レポートエンドポイントへのAPI呼び出しを正常に実行できます。 異常値検出を追加すると、レポートにより完全な応答が含まれ、異常値データに追加される場合があります。 一般的に、プロファイルがAdobe Analyticsインターフェイス内のシナリオへのアクセスを許可した場合、同じプロファイルの開発者アクセスでは、対応するAPIの呼び出しと応答が有効になります。
