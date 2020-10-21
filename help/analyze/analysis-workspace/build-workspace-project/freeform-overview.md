@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: プロジェクトの作成 - 概要
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -35,15 +35,15 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 |---|---|
 | [新規プロジェクトを作成](/help/analyze/analysis-workspace/home.md) | このリンクをクリックすると、新しいプロジェクトを最初から作成できます。 |
 | プロジェクトの管理 | このリンクをクリックすると、プロジェクトコンポーネントマネージャーに移動します（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL プロジェクト]**）。ここでは、すべてのプロジェクトが一覧表示され、プロジェクトのタグ付け、共有、削除、名前の変更、承認、コピー、CSV への書き出しをおこなえます。 |
-| ランディングページとして設定 | このページをWorkspaceランディングページに変換します。 |
-| チュートリアルを表示 | [Analysis Workspaceのビデオチュートリアルに進みます](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)。 |
+| ランディングページとして設定 | このページを Workspace ランディングページにします。 |
+| チュートリアルを表示 | [Analysis Workspace ビデオチュートリアル](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)に移動します。 |
 | 名前 | Workspace プロジェクトの名前。 |
 | 所有者 | このプロジェクトを作成したユーザー（ユーザー自身、またはユーザー自身とそのプロジェクトを共有した他のユーザー）。 |
-| タイプ | これがWorkspaceプロジェクトか [Mobile Scorecardかを示します](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/home.html)。 |
-| プロジェクトの役割 | 自分が所有者か、プロジェクトを編集できるか、重複プロジェクトかを示します。 |
+| タイプ | Workspace プロジェクトか[モバイルスコアカード](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/home.html)のどちらであるかを示します。 |
+| プロジェクトの役割 | 自分が所有者か、プロジェクトを編集できるか、これが重複プロジェクトであるかを示します。 |
 | タグ | プロジェクトに適用されたタグ。プロジェクトコンポーネントマネージャー、または **[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;で適用されます。 |
 | 最終変更日 | プロジェクトが最後に変更された日付。 |
-| お気に入りのプロジェクト | プロジェクトをお気に入りに登録するには、プロジェクトを開き、名前の横の星をクリックします。 このリストは、次にWorkspaceを開いたときに表示されます。 |
+| お気に入りのプロジェクト | プロジェクトをお気に入りに登録するには、プロジェクトを開き、名前の横の星をクリックします。このリストは、次回 Workspace を開いたときに表示されます。 |
 | 頻繁に表示するプロジェクト | 頻繁に開くすべてのプロジェクトをリストし、アクセスしやすくします。 |
 
 ## プロジェクト情報および設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
