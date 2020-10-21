@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: ディメンションの分類
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Analysis Workspace のディメンションおよびディメンション項目�
    >
    >テーブルに表示する分類の数は、200 までに制限されています。この制限は、分類をエクスポートする場合は増加します。
 
-[Analysis WorkspaceのプロジェクトへのDimensionと指標の追加](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
+[Analysis Workspace のプロジェクトへのディメンションと指標の追加](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html)（11:39）
 
-[フリーフォームテーブルのDimensionの操作](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
+[フリーフォームテーブルでのディメンションの操作](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html)（15:35）
 
 ## 分類へのアトリビューションモデルの適用
 
