@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 99%
    + [特定された状態](dimensions/identified-state.md)
    + [Java 有効](dimensions/java-enabled.md)
    + [言語](dimensions/language.md)
-   + [ファーストタッチチャネル](dimensions/last-touch-channel.md)
+   + [ラストタッチチャネル](dimensions/last-touch-channel.md)
    + [ラストタッチチャネルの詳細](dimensions/last-touch-detail.md)
    + [マーケティングチャネル](dimensions/marketing-channel.md)
    + [分](dimensions/minute.md)
@@ -214,7 +214,7 @@ ht-degree: 99%
    + [クロスデバイス分析の設定](cda/setup.md)
    + [再生の仕組み](cda/replay.md)
    + [CDA Workspace テンプレート](cda/workspace-template.md)
-   + [VRSを特定の日付に制限する](cda/limit-vrs-date.md)
+   + [VRS を特定の日付に制限する](cda/limit-vrs-date.md)
    + [クロスデバイス分析に関する FAQ](cda/faq.md)
 + アラート {#alerts}
    + [インテリジェントアラート](c-alerts/intellligent-alerts.md)
