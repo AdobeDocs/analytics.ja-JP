@@ -59,7 +59,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
 | Workspace プロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 空白パネルの更新 | 空白パネルにパネルとビジュアライゼーションが追加され、最適な分析ワークフローを、よりシームレスに選択できるようになりました。 |
 | クイックインサイトパネル（2020 年 6 月 25 日） | クイックインサイトは、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。[詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Workspaceのターゲット用Analyticsパネル（2020年6月26日） | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で上昇率と信頼性を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Workspace の Analytics for Target パネル（2020 年 6 月 26 日） | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で上昇率と信頼性を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Workspace についてページ | Workspace についてページには、Analysis Workspace 環境や Adobe Analytics 管理者（サポートが必要な場合）に関する情報、および製品内でフィードバックを提供する方法が記載されています。Workspace／ヘルプ／Workspace についてで確認できます。 |
 
 ## 2020 年 5 月
@@ -157,7 +157,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
 
 | 機能強化 | 説明 |
 |--- |--- |
-| 最適化のベストプラクティスの機能強化 | [パフォーマンスの最適化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
+| 最適化のベストプラクティスの機能強化。 | [パフォーマンスの最適化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 
 ## 2019 年 1 月
 
@@ -228,7 +228,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>新規テンプレート: Audio Consumption</b> </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-reports/media-workspace-templates.html"  >Audio Analytics</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-reports/media-workspace-templates.html"  > Audio Analytics </a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -780,7 +780,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > フォールアウト</a></b>機能の強化 </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > フォールアウト </a></b> 機能の強化 </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">無制限のセグメント比較。 </li> 
@@ -791,14 +791,14 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>フロー</b> </a>機能の強化 </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>フロー</b> </a> 機能の強化 </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">「<span class="wintitle">ラベルの切り捨てを無効化</span>」という新しいビジュアライゼーション設定が追加されました（デフォルト = オフ）。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">  カレンダーの<b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >変更</a></b> </td> 
+   <td colname="col1">  カレンダーの <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > 変更 </a></b> </td> 
    <td colname="col2"> Reports &amp; Analytics カレンダーに合わせて、カレンダーが変更されました。 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">最初のクリックでは、日付範囲の選択を開始します。前または後の日付範囲をハイライト表示し、2 回目のクリックで日付範囲の終了を選択します。最初の日付をクリックしたまま Shift キーを押す（または右クリックする）と、その日付が範囲に追加されます。 </li> 
@@ -828,7 +828,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > アラートマネージャー</a> </b>機能の強化 </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > アラートマネージャー </a> </b>機能の強化 </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">アラートを有効／無効にする機能が追加されました。 </li> 
@@ -1082,7 +1082,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
 * [凡例を表示](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
 * [Y 軸をゼロに固定](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
 * [タブタイトルのプロジェクト名](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
-* [プロジェクト所有権の転送](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
+* [プロジェクト所有権の転送 ](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
 
 
 ## 操作を元に戻す {#section_12890C393D5E4FC8A3CF050318BD8482}
@@ -1160,7 +1160,7 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 ## 新しいセグメントの追加
 
-「ここにセグメントを **[!UICONTROL ドロップ]** 」ドロップゾーンが追加され、セグメントをプロジェクトにドラッグ&amp;ドロップできるようになりました。
+「**[!UICONTROL ここにセグメントをドロップ]**」ドロップゾーンが追加され、セグメントをプロジェクトにドラッグ&amp;ドロップできるようになりました。
 
 ![](assets/add-new-segment.png)
 
