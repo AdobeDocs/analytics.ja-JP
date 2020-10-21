@@ -2,11 +2,11 @@
 description: 'null'
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 93%
 
 これらの事前設定されたテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。
 
-Analysis Workspaceの [標準テンプレートに関するビデオチュートリアル](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
+[Analysis Workspace の標準テンプレート](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)に関するビデオチュートリアル（2:46）
 
 以下に、利用可能なテンプレートと各テンプレートに関する質問について説明します。
 
@@ -65,7 +65,7 @@ Analysis Workspaceの [標準テンプレートに関するビデオチュート
 
 * **トレーニングチュートリアル — 内部検索分析**：内部検索のチュートリアルは、Web サイトやアプリケーションで、訪問者が探しているが見つからないものを理解するのに役立ちます。このタイプのデータを分析すると、コンテンツ最適化の機会が増える可能性があります。
 
-* **トレーニングチュートリアル — マーケティング分析**:このチュートリアルでは、カスタムディメンションや指標が重要なものを含め、経営陣向けのマーケティング分析を組み立てる方法について説明します。
+* **トレーニングチュートリアル - マーケティング分析**：このチュートリアルでは、カスタムディメンションや指標が重要なものを含め、経営陣向けのマーケティング分析を組み立てる方法について説明します。
 
 ### 広告
 
@@ -77,7 +77,7 @@ Analysis Workspaceの [標準テンプレートに関するビデオチュート
 
 ### コマース
 
-* **Magento:マーケティングとコマース**:このテンプレートは、マーケティングチャネルの属性によってeコマースコンバージョンを分類し、検索キーワード、ランディングページ、地理的な場所などによってインサイトを提供します。 ビデオの概要については、次を参照してください。
+* **Magento：マーケティングとコマース**：このテンプレートは、マーケティングチャネルアトリビューション別に e コマースコンバージョンを分類し、検索キーワード、ランディングページ、地理的な場所などによるインサイトを提供します。ビデオの概要については、以下を参照してください。
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
