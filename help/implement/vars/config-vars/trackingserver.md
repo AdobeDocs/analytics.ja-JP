@@ -1,11 +1,11 @@
 ---
 title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 91%
 
 ---
 
@@ -51,22 +51,22 @@ ht-degree: 100%
 s.trackingServer = "data.example.com";
 ```
 
-通常、CNAME レコードは既に設定済みで、`sc.omtrdc.net` をポイントします。また、`2o7.net` ドメインは有効な CNAME の宛先でもあり、主に以前のバージョンの Adobe Analytics で使用されます。
-
 ### サードパーティ Cookie
 
 >[!TIP]
 >
 >最新のブラウザーではプライバシー保護が強化されており、サードパーティ Cookie の信頼性が低下しています。ファーストパーティ Cookie のワークフローに従うことをお勧めします。
 
-サードパーティ Cookie の実装を使用する場合、`trackingServer` の値は `sc.omtrdc.net` のサブドメインになります。次に例を示します。
+サードパーティ Cookie の実装を使用する場合、`trackingServer` の値は `data.adobedc.net` のサブドメインになります。次に例を示します。
 
 ```js
-s.trackingServer = "example.sc.omtrdc.net";
+s.trackingServer = "example.data.adobedc.net";
 ```
 
-Adobe Analytics を使用する別の組織では採用されないような、組織に固有のサブドメインを選択します。組織内のすべての実装で同じトラッキングサーバーを使用していることを確認します。[ソリューション設計ドキュメント](../../prepare/solution-design.md)でこの情報を維持すると役立つ場合があります。
+Adobe Analytics を使用する別の組織では採用されないような、組織に固有のサブドメインを選択します。組織に割り当てられている訪問者名前空間が推奨されます。  組織内のすべての実装で同じトラッキングサーバーを使用していることを確認します。[ソリューション設計ドキュメント](../../prepare/solution-design.md)でこの情報を維持すると役立つ場合があります。
+
+またはドメインで既にサードパーティのトラッキングサーバーを使用してい `sc.omtrdc.net` る可能性があり `2o7.net` ます。  これらは主にAdobe Analyticsの以前のバージョンで使用され、現在も有効です。
 
 >[!NOTE]
 >
-> `example.sc.omtrdc.net` より深いサブドメインは使用しないでください。例えば、`custom.example.sc.omtrdc.net` が有効なトラッキングサーバーではありません。
+> `example.data.adobedc.net` より深いサブドメインは使用しないでください。例えば、`custom.example.data.adobedc.net` が有効なトラッキングサーバーではありません。
