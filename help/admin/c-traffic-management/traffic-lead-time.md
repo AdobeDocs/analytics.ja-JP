@@ -4,9 +4,9 @@ title: トラフィック増加に対して必要なリードタイム
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a114bef4679da24d4fd6323a55c9ccf52ac772ed
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ Reports &amp; Analytics ユーザーインターフェイスを通じてアラ�
    * 1 日あたりの予測ヒット数
    * Go Live 日
 
-* トラフィックが減少している場合やレポートスイート廃止の場合も、クライアントアラートが必要です。
+* トラフィックが減少、またはレポートスイートが非推奨の場合もクライアントアラートが必要です。
 
 ## トラフィックが実現しなかったことによるハードウェアの割り当て解除
 
