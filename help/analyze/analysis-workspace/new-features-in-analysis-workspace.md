@@ -6,37 +6,37 @@ translation-type: tm+mt
 source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Analysis Workspace の新機能
 
-Adobe Experience Cloudのリリースノート全体については、 [こちらを参照してください](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)。
+Adobe Experience Cloud のリリースノート全体へのアクセスについては、[こちら](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)を参照してください。
 
 ## 2020 年 10 月
 
-2020年10月にリリースされた新機能。
+2020 年 10 月にリリースされた新機能。
 
 | 機能 | 説明 |
 | --- | --- |
-| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL 折れ線グラフのビジュアライゼーションのトレンドライン設定に移動平均が追加されました。]**&#x200B;移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
-| [パフォーマンスのヘルプページ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace パフォーマンスヘルプページには、プロジェクトのパフォーマンスに影響を与える様々な要因と最適化のためのヒントへのリンクが示されています。 |
+| 折れ線グラフのビジュアライゼーション：[移動平均トレンドラインオプション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/line.html) | 折れ線グラフのビジュアライゼーションのトレンドライン設定に&#x200B;**[!UICONTROL 移動平均]**&#x200B;が追加されました。移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
+| [パフォーマンスヘルプページ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace パフォーマンスヘルプページには、プロジェクトのパフォーマンスに影響を与える様々な要因と最適化のためのヒントへのリンクが示されています。 |
 
 ## 2020 年 9 月
 
-2020年9月にリリースされた新機能。
+2020 年 9 月にリリースされた新機能。
 
 | 機能 | 説明 |
 | --- | --- |
-| [1つのディメンションに対して50,000個の項目をダウンロード](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | セグメントとフィルターが適用されたフリーフォームテーブルの単一のディメンションに対して、50,000個の項目をダウンロードできるようになりました。 これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
-| [線のビジュアライゼーションの強化](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>線の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、線の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の線の視覚化に最小値と最大値のラベルをオーバーレイして、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを線の視覚化に重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
-| 新しい日付範囲 | 5つの新しい日付範囲を追加し、今日の日付の一部データを含まない日付範囲から選択できるようにしました。最近の7日間、過去14日間、過去30日間、過去60日間、過去90日間の全日数 |
+| [単一のディメンションに対して 50,000 個の項目をダウンロード](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
+| [折れ線グラフのビジュアライゼーションの強化](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>折れ線グラフのビジュアライゼーションの X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、折れ線グラフのビジュアライゼーションの方がコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
+| 新しい日付範囲 | 5 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲（過去 7 日間、過去 14 日間、過去 30 日間、過去 60 日間、過去 90 日間）から選択できます。 |
 
 ## 2020 年 8 月
 
-2020年8月にリリースされた新機能はありません。
+2020 年 8 月にリリースされた新機能はありません。
 
 ## 2020 年 7 月
 
@@ -58,7 +58,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
 | 表示のみの Workspace プロジェクト | Workspace プロジェクトは、「表示可能」としてのみユーザーに共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Workspace プロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 空白パネルの更新 | 空白パネルにパネルとビジュアライゼーションが追加され、最適な分析ワークフローを、よりシームレスに選択できるようになりました。 |
-| クイックインサイトパネル（2020 年 6 月 25 日） | クイックインサイトは、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。[詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Quick Insights パネル（2020 年 6 月 25 日） | Quick Insights は、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。[詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Workspace の Analytics for Target パネル（2020 年 6 月 26 日） | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で上昇率と信頼性を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Workspace についてページ | Workspace についてページには、Analysis Workspace 環境や Adobe Analytics 管理者（サポートが必要な場合）に関する情報、および製品内でフィードバックを提供する方法が記載されています。Workspace／ヘルプ／Workspace についてで確認できます。 |
 
@@ -95,7 +95,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
 | 機能 | 説明 |
 |--- |--- |
 | クロスデバイス間分析を使用する組織向けの新しい Workspace テンプレート | このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-setup.html)を参照してください。 |
-| Workspace の新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開: `alt + ctrl + m`</li><li>左パネルを検索: `ctrl + /`</li><li>次のパネルに移動: `alt + Right Key`</li><li>前のパネルに移動: `alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Workspace の新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開： `alt + ctrl + m`</li><li>左パネルを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Workspace のその他の機能拡張 | <ul><li>パネルまたはビジュアライゼーションを Workspace にドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加するボタンが表示されます。</li></ul> |
 | Workspace デバッガー | Workspace デバッガーがヘルプメニューに追加され、よりシームレスに有効化して Workspace リクエストをデバッグできるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -287,7 +287,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>可能な場合は、計算指標の合計（割合を含む）が表示されるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>新規<a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >日付範囲</a>プリセット</b> </p> </td> 
+   <td colname="col1"> <p><b>新規 <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > 日付範囲</a>プリセット</b> </p> </td> 
    <td colname="col2"> <p>Analysis Workspace の日付範囲プリセットに、「最近の 13 週間」を追加しました。 </p> </td> 
   </tr> 
  </tbody> 
@@ -339,7 +339,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>インターフェイスの右下隅に、本日のヒントを（ショートビデオとともに）表示します。これらのヒントは、Analysis Workspace の多数ある優れた機能を紹介するものです。<span class="uicontrol">ヘルプ</span>／<span class="uicontrol">ヒント</span>から、いつでもヒントを解除、または利用可能にすることを選択できます。 </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >セグメントテンプレート</a>と<a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  >計算指標テンプレート</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > セグメントテンプレート</a>と<a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 計算指標テンプレート</a></b> </p> </td> 
    <td colname="col2"> <p>左側のパネルには、セグメントテンプレートと計算指標テンプレートが表示されるようになりました。 </p> </td> 
   </tr> 
   <tr> 
@@ -347,7 +347,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>コンポーネントを新しい場所にドラッグしている最中に、上下にスクロールできるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>詳しくは、<a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 異常値</a>に関する追加情報 </b> </p> </td> 
+   <td colname="col1"> <p><b>詳しくは、 <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 異常値</a>に関する追加情報 </b> </p> </td> 
    <td colname="col2"> <p>折れ線グラフで異常値にカーソルを合わせると、日付および生の値の情報が表示されるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
@@ -366,19 +366,19 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >「ヘッダーテキストを折り返し」がデフォルトで有効</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 「ヘッダーテキストを折り返し」がデフォルトで有効</a> </p> </td> 
    <td colname="col2"> <p>フリーフォームテーブルの列設定で、「<span class="uicontrol">ヘッダーテキストを折り返し</span>」がデフォルトで有効になりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >新しい行設定</a> </p> </td> 
-   <td colname="col2"> <p><span class="uicontrol">行ごとに割合を計算</span>という新しい設定により、フリーフォームテーブルでは、列ではなく行全体のセルの割合が表示されるようになります。これは、あるディメンション項目が他の値に対してどの程度公正であるかを経時でトレンド分析する場合など、割合のトレンド分析に特に役立ちます。<span class="uicontrol">視覚化</span>アイコンをクリックした場合、これはデフォルトでオンになります。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 新しい行設定</a> </p> </td> 
+   <td colname="col2"> <p><span class="uicontrol">行ごとに割合を計算</span>という新しい設定により、フリーフォームテーブルでは、列ではなく行全体のセルの割合が表示されるようになります。これは、あるディメンション項目が他の値に対してどの程度公正であるかを経時でトレンド分析する場合など、割合のトレンド分析に特に役立ちます。<span class="uicontrol">ビジュアライゼーション</span>アイコンをクリックした場合は、デフォルトでオンになります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >「100％の積み重ね」ビジュアライゼーション設定</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > 「100％の積み重ね」ビジュアライゼーション設定</a> </p> </td> 
    <td colname="col2"> <p>積み重ね面／積み重ね棒／積み重ね横棒グラフのビジュアライゼーションを 100％の積み重ねに変更する新しい設定が追加され、相対的な比率を確認できるようになりました。 </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr>
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >異常値検出と貢献度分析</a>は、現在、Analysis Workspace からのみ使用できます。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > 異常値検出と貢献度分析</a>は、現在、Analysis Workspace からのみ使用できます。 </p> </td> 
    <td colname="col2"> <p>異常値検出と貢献度分析は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。 </p> <p>Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、Workspace で「毎日の精度」の異常値検出のみにアクセスできます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -453,7 +453,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>右クリックで「クリップボードにコピー」オプションが追加されたので、セルやテーブルを一貫した方法でコピーできます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >列の割合に対する改善</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 列の割合に対する改善</a> </p> </td> 
    <td colname="col2"> <p>列に表示される全体に占める割合は、シナリオによっては行が全体の 100 ％を超える場合（平均値など）であっても、上限が 100 ％に制限されていました。 </p> <p>精度向上のために、100 ％を超える割合が表示されるようになりました。列の幅をさらに大きくできるように、上限を 1,000 ％まで高める予定です。 </p> </td> 
   </tr> 
   <tr> 
@@ -461,7 +461,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>「カスタム」制限を選択した場合を除き、フリーフォームテーブルに適用した条件付き書式（色など）が分類で自動的に有効となります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>デフォルトの<a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >カレンダー</a>ビューの変更 </p> </td> 
+   <td colname="col1"> <p>デフォルトの<a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > カレンダー</a>ビューの変更 </p> </td> 
    <td colname="col2"> <p>Workspace カレンダーには、デフォルトで当月と翌月ではなく当月と前月が表示されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>フリーフォームテーブルの他のディメンション項目の<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  >フィルタリングオプション</a> </p> </td> 
+   <td colname="col1"> <p>フリーフォームテーブルの他のディメンション項目の<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  > フィルタリングオプション</a> </p> </td> 
    <td colname="col2"> <p>（既存の「次を含む」および「次を含まない」オプションに加えて）ディメンション項目用に次の（詳細）フィルタリングオプションが追加されました。 </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">すべての語句を含む </li> 
@@ -499,11 +499,11 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>  パネルやプロジェクトをまたがった<a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  >ビジュアライゼーション／パネルのコピー＆ペースト</a> </p> </td> 
+   <td colname="col1"> <p>  パネルやプロジェクトをまたがった<a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  > ビジュアライゼーション／パネルのコピー＆ペースト</a> </p> </td> 
    <td colname="col2"> <p>ビジュアライゼーションまたはパネルを右クリックしてコピーし、コピーした要素をプロジェクト内の別の場所、または別のプロジェクトに貼り付ける（「挿入する」）ことができるようになりました。 </p> <p>この機能を使用すると、ビジネスに固有のデータで「構築ブロック」（定義済みのビジュアライゼーション／パネル）を作成し、他のプロジェクトにコピーして作業を迅速化できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >「メッセージング」および「ロケーション」に関する新しい Mobile テンプレート</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 「メッセージング」および「ロケーション」に関する新しい Mobile テンプレート</a> </p> </td> 
    <td colname="col2"> <p>2 つの新しいプロジェクトテンプレートが追加されました。 </p> 
     <ul id="ul_2F5976C849474A2B8A6BCDA2559F2855"> 
      <li id="li_51B7830E062A4CFDBDF219C56249A733">アプリ内およびプッシュメッセージのパフォーマンスに重点を置いた、「メッセージング」に関する Mobile の新しいプロジェクトテンプレート。 </li> 
@@ -515,11 +515,11 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>左端の列のサイズを変更するときに、残りの列の幅の割合が維持されるようになりました（右隣の列幅が調整されるだけではありません）。この変更により、分析や共有のテーブルを、より短時間で作成できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>テーブルに <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400 行</a>を表示 </p> </td> 
+   <td colname="col1"> <p>テーブルに <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 400 行</a>を表示 </p> </td> 
    <td colname="col2"> <p>1 つのテーブルに 400 行を表示できるようになり（変更前は 200 行）、365 日間のトレンドに対応するようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>  PDF での<a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  >マップビジュアライゼーション</a>のサポート </p> </td> 
+   <td colname="col1"> <p>  PDF での<a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップビジュアライゼーション</a>のサポート </p> </td> 
    <td colname="col2"> <p>2017 年 10 月に導入されたマップビジュアライゼーションを、PDF でも表示できるようになりました。 </p> </td> 
   </tr> 
   <tr> 
@@ -527,7 +527,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>以前は、プロジェクトをコピーした場合や「名前を付けて保存」をおこなった場合、プロジェクト内に保存されている内部リンクはすべて、コピーされたプロジェクトではなく、元のプロジェクトを指していました。 </p> <p>コピー／名前を付けて保存の後でも、内部リンクは内部のプロジェクトに対して相対的になりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>貢献度分析：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >トークン通知 </a> </p> </td> 
+   <td colname="col1"> <p>貢献度分析：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > トークン通知 </a> </p> </td> 
    <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。&amp;nbsp; </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
   </tr> 
   <tr> 
@@ -601,7 +601,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  >デフォルトで論理順序で並べ替えられる事前設定済みディメンション</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > デフォルトで論理順序で並べ替えられる事前設定済みディメンション</a> </p> </td> 
    <td colname="col2"> <p>次の場合における一部の事前設定済みディメンションのデフォルトの並べ替え順が更新されました。 </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">フリーフォームテーブルにドラッグされる場合。 </li> 
@@ -641,14 +641,14 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md"  >Analysis Workspace の時間分割ディメンション</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md"  > Analysis Workspace の時間分割ディメンション</a> </p> </td> 
    <td colname="col2"> <p>タイムスタンプに基づくディメンションが Analysis Workspace に追加されました。ディメンションに含まれるものを以下に示します。 </p> 
     <ul id="ul_9BDBC0B344504E85840040E493873A47"> 
      <li id="li_826A8CBF4FDB4C98AC176C7145C09DB2">時間帯（例：01、12、15、23） </li> 
      <li id="li_FD6AAD4D3F544224A757D8124F973BE5">午前 / 午後（例：午前、午後） </li> 
      <li id="li_5CAE35FB8E3E490A8FCF72DF8AC619CC">曜日（例：月曜日、火曜日、水曜日など） </li> 
      <li id="li_930DFC6BFCC740A392EC7FA859FF0E73">平日 / 週末（例：週末、平日） </li> 
-     <li id="li_C09F8BF8C598498392732C183C5BB720">日付（例：1、2、...30、31） </li> 
+     <li id="li_C09F8BF8C598498392732C183C5BB720">日付（例：1、2、... 30、31） </li> 
      <li id="li_E80A8932C32B4410A9BC703090FB5CFF">月（例：1 月、2 月、3 月） </li> 
      <li id="li_67620F09B58244B2B17317E0DB97067A">通日（例：1 日、2 日など） </li> 
      <li id="li_A96CD77357064FC19D92EFA8244560D6">四半期（例：第 1 四半期、第 2 四半期など） </li> 
@@ -675,7 +675,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  >変更概要表示タイプの名前の更新</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  > 変更概要表示タイプの名前の更新</a> </p> </td> 
    <td colname="col2"> <p>変更概要の設定画面における表示タイプの選択肢の名前が、その用途をわかりやすくするために変更されました。 </p> 
     <ul id="ul_7301D1C73E72424F911EE8DAAD9247A0"> 
      <li id="li_89D94632E0C94263A84887AF5B360E27">表示タイプ／変化の割合 </li> 
@@ -683,7 +683,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  >短縮された数値の概要／変更概要の小数点以下の桁数の拡張</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  > 短縮された数値の概要／変更概要の小数点以下の桁数の拡張</a> </p> </td> 
    <td colname="col2"> <p>これまで、短縮された数値の概要／変更概要のビジュアライゼーションで表示される小数点以下の桁数は 0 でした。 </p> <p>0～3 の小数点以下の桁数を選択して、レポートの質を高めることができるようになりました。 </p> </td> 
   </tr> 
  </tbody> 
@@ -741,7 +741,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>テキストボックスビジュアライゼーションおよびパネル／ビジュアライゼーションの説明内でフォント設定（太字、斜体など）およびハイパーリンクを設定できるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  >イントラリンク（クイックビジュアライゼーションリンク）</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > イントラリンク（クイックビジュアライゼーションリンク）</a></b> </p> </td> 
    <td colname="col2"> <p><b>イントラリンク</b>を使用すると、例えばプロジェクトの目次を作成するために、テキストボックスからプロジェクト内の特定のパネルおよびビジュアライゼーションにリンクできます。プロジェクトリンクを共有するのと同じように、プロジェクト内の特定のビジュアライゼーションやパネルを他の人と共有することができます。「パネルリンクを取得」および「ビジュアライゼーションリンクを取得」という新しい右クリックオプションが追加されました。 </p> </td> 
   </tr> 
   <tr> 
@@ -749,7 +749,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>使いやすくするために、ビジュアライゼーション凡例の系列名を変更できます（フォールアウト、面グラフ、積み重ね面グラフ、棒グラフ、積み重ね棒グラフ、ドーナツ、ヒストグラム、横棒グラフ、積み重ね横棒グラフ、折れ線グラフ、散布図、ベン図）。 </p> <p>凡例の編集は、ツリーマップ、ブレットグラフ、変更概要または数値の概要、テキスト、フリーフォーム、ヒストグラム、コホートまたはフローのビジュアライゼーションには適用<b>されません</b>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  >「データソースを管理」の更新</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > 「データソースを管理」の更新</a></b> </p> </td> 
    <td colname="col2"> <p>（ビジュアライゼーションに使用する）データソースの管理方法を改善しました。データソースをテーブルにロックした場合、他の非表示のテーブルはなくなります。 </p> <p>代わりに、作成したテーブルに関連する表示を維持します。また、これにより、精度を変更しても次にプロジェクトを読み込むと古い精度に戻っていた、ライブリンクテーブルの問題も解決されました。 </p> </td> 
   </tr> 
   <tr> 
@@ -761,7 +761,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
    <td colname="col2"> <p>以前は、Experience Cloud 資格情報でログインして Analytics に移動すると、<span class="ignoretag"><span class="uicontrol">共有</span>／<span class="uicontrol">プロジェクトリンクを取得</span></span>の機能を使用できませんでした。この問題を修正しました。このオプションを使用するには、その前にプロジェクトを保存する必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >スケジュール済みプロジェクトマネージャーの「期限切れのプロジェクト」フィルター</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > スケジュール済みプロジェクトマネージャーの「期限切れのプロジェクト」フィルター</a></b> </p> </td> 
    <td colname="col2"> <p>スケジュール済みプロジェクトマネージャーで、期限切れのプロジェクトをフィルターできるようになりました。これにより、それらのプロジェクトを再開するか削除するかを決定できます。 </p> </td> 
   </tr> 
  </tbody> 
@@ -814,7 +814,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >「割合制限を使用」チェックボックス</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 「割合制限を使用」チェックボックス</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> 特に割合に基づく指標用に、割合カットオフを指定するチェックボックスが追加されました（ただし、割合に基づく指標以外でも機能します）。 </li> 
@@ -837,7 +837,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>新しい<a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  >ホットキー</a></b> </p> </td> 
+   <td colname="col1"> <p><b>新しい<a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > ホットキー</a></b> </p> </td> 
    <td colname="col2"> <p>以下のホットキーが追加されました。 </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">Alt + Shift + 1 = パネルウィンドウに移動。 </li> 
@@ -862,11 +862,11 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 人物テンプレート </a> </p> </td> 
-   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人物指標は、<a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
+   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人物指標は、<a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html"  > Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>「元に戻す」／「やり直し」オプションの強化 </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace で元に戻す／やり直すことができる操作とできない操作については、<a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  >こちらのリスト</a>に示されています。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace で元に戻す／やり直すことができる操作とできない操作については、 <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > こちらのリスト</a>に示されています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -903,11 +903,11 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  >プロジェクトを保存することなく PDF を送信およびダウンロード</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  > プロジェクトを保存することなく PDF を送信およびダウンロード</a> </p> </td> 
    <td colname="col2"> <p>プロジェクトを保存しなくても Workspace で PDF を送信およびダウンロードできるようになりました。未保存でも最新のプロジェクト名が PDF ファイル名になります。ダウンロードされた PDF にはプロジェクトの未保存の変更内容が含まれています。保存されていないプロジェクトはスケジュールできないことに注意してください（保存されていない CSV ファイルも送信およびダウンロードできますが、それらはスケジュールできません）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >プロジェクトコンポーネントの自動共有</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > プロジェクトコンポーネントの自動共有</a> </p> </td> 
    <td colname="col2"> <p>すべての受信者とプロジェクトのコンポーネント（セグメント、計算指標および日付範囲）を自動的に共有するオプションが用意されるようになりました。共有すると、これらのコンポーネントは受信者の Workspace のコンポーネントドロップダウンに表示されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -939,7 +939,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 日付の比較 </a> </p> </td> 
-   <td colname="col2"> <p>新しい日付比較機能により、任意の列を使用して、前年比、前四半期比、前月比などの一般的な日付比較を作成できます。 </p> <p>日付比較を利用すると、自動的に「差異」列が追加され、割合（％）の変化が表示されます。 </p> </td> 
+   <td colname="col2"> <p>新しい日付比較機能により、任意の列を使用して、前年比、前四半期比、前月比などの一般的な日付比較を作成できます。 </p> <p>日付比較を利用すると、自動的に「 差異」列が追加され、割合（％）の変化が表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -975,7 +975,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
     </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><a href="/help/components/c-alerts/intellligent-alerts.md"  >インテリジェントアラート</a></b> </td> 
+   <td colname="col1"> <b><a href="/help/components/c-alerts/intellligent-alerts.md"  > インテリジェントアラート</a></b> </td> 
    <td colname="col2"> <p>Adobe Analytics 全体の新しいアラートシステムであるインテリジェントアラートでは、アラートプレビューとルール貢献度を備えた Analysis Workspace 内でアラートの作成と管理をおこなうことができます。次のことができます。 </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
      <li id="li_01504AABBC514DF38354683843222541">異常値（90％、95％または 99％のしきい値、変化率、超過／未満）に基づいたアラートの構築。 </li> 
@@ -1031,7 +1031,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
 2016 年 6 月 17 日にリリースされた新機能：
 
 * 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL Workspace]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)。2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
-* Folio Builder[セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
+* Folio Builder [セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント。
 * 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[ベン図のビジュアライゼーションタイプ](/help/analyze/analysis-workspace/visualizations/venn.md)。
@@ -1059,7 +1059,7 @@ Adobe Experience Cloudのリリースノート全体については、 [こち�
  <tbody> 
   <tr> 
    <td colname="col1"> ファイルを送信 </td> 
-   <td colname="col2"> <p>電子メールを使用して Analysis Workspace を送信したり、Analysis Workspace の配信をスケジュールしたりします。<a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >ファイルの送信 - プロジェクトの配信スケジュールの設定</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>電子メールを使用して Analysis Workspace を送信したり、Analysis Workspace の配信をスケジュールしたりします。<a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > ファイルの送信 - プロジェクトの配信スケジュールの設定</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> PDF をダウンロード </td> 
