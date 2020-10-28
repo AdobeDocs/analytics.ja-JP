@@ -1,11 +1,11 @@
 ---
 title: クロスデバイス分析に関する FAQ
 description: クロスデバイス分析に関するよくある質問（FAQ）
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 2. 目的のパネルのデバッグアイコンをクリックし、目的のビジュアライゼーションとリクエストの時間を選択します。
 3. Adobe への API 呼び出しで使用できる JSON リクエストを見つけます。
 
-## クロスデバイス分析では、個別訪問者を結び付けることができます。訪問を結び付けることはできますか？
+## クロスデバイス分析では、個別訪問者を結び付けることができます。訪問を縫い合わせることはできますか。
 
 はい。仮想レポートスイートの訪問のタイムアウト（デフォルトでは 30 分）内に 2 つの異なるデバイスからヒットが送信された場合、それらは同じ訪問に結び付けられます。
 
