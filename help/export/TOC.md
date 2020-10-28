@@ -5,9 +5,9 @@ user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して、1 時間ごとまたは毎日生データの書き出しを受け取ります。Data Warehouse を使用して、データのスプレッドシート出力を取得します。
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '283'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 98%
    + [定期的なリクエストのスケジュール設定](data-warehouse/dw-schedule-recurring.md)
    + [Data Warehouse リクエストの管理](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse でサポートされるコンポーネント](data-warehouse/component-support.md)
-   + [Data Warehouse セグメントと互換性のないディメンション](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Data WarehouseFAQ](data-warehouse/faq.md)
    + [Data Warehouse のベストプラクティス](data-warehouse/data-warehouse-bp.md)
 + FTP と SFTP {#ftp-and-sftp}
