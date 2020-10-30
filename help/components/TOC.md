@@ -5,10 +5,10 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
 translation-type: tm+mt
-source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
+source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '643'
+ht-degree: 99%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 100%
    + [ラストタッチチャネル](dimensions/last-touch-channel.md)
    + [ラストタッチチャネルの詳細](dimensions/last-touch-detail.md)
    + [マーケティングチャネル](dimensions/marketing-channel.md)
+   + [マーケティングチャネルの詳細](dimensions/marketing-detail.md)
    + [分](dimensions/minute.md)
    + [モバイルディメンション](dimensions/mobile-dimensions.md)
    + [画面の解像度](dimensions/monitor-resolution.md)
