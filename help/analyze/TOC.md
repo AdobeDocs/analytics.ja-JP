@@ -5,9 +5,9 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Report Builder や Activity Map などのツールの使用手順について説明します。
 translation-type: tm+mt
-source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1114'
 ht-degree: 100%
 
 ---
@@ -123,6 +123,7 @@ ht-degree: 100%
    + Workspace の FAQ {#workspace-faq}
       + [よくある質問](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [エラーメッセージ](analysis-workspace/workspace-faq/error-messages.md)
       + [Analysis Workspace と Ad Hoc Analysis の比較](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Analysis Workspace の制限](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理要件](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
