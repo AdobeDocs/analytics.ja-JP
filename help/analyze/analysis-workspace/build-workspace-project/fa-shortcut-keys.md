@@ -1,21 +1,19 @@
 ---
 description: Analysis Workspace で使用できるキーボード操作、ショートカットキー、ポイント＆クリックの動作です。
 keywords: Analysis Workspace
-title: Analysis Workspace で使用できるホットキー（ショートカット）
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: ホットキー（ショートカット）
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 82%
+source-wordcount: '282'
+ht-degree: 74%
 
 ---
 
 
-# Analysis Workspace で使用できるホットキー（ショートカット）
+# ホットキー（ショートカット）
 
-Analysis Workspace では、シームレスなナビゲーション、分析、民主化のためのホットキー（キーボードショートカット）が利用できます。
+Analysis Workspaceでは、シームレスなナビゲーション、分析、パネルやビジュアライゼーションの追加、民主化（共有）のためのホットキー（キーボードショートカット）を利用できます。
 
 注釈:
 * `Ctrl` = Windowsおよび `Command` = Mac
