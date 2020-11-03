@@ -1,16 +1,16 @@
 ---
-title: Workspace の複数のレポートスイート
+title: 複数のレポートスイート
 description: 複数のレポートスイートを含む Workspace でプロジェクトを作成する方法と理由を説明する
-translation-type: ht
-source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
-workflow-type: ht
-source-wordcount: '527'
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
 
 
-# Workspace の複数のレポートスイート
+# 複数のレポートスイート
 
 複数のレポートスイートのデータを使用して、Analysis Workspace でプロジェクトを作成できるようになりました。レポートスイートがパネルレベルで選択され、同じ Workspace プロジェクト内の各パネルに対して異なるレポートスイートを選択できるようになりました。
 
