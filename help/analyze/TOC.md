@@ -5,10 +5,10 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Report Builder や Activity Map などのツールの使用手順について説明します。
 translation-type: tm+mt
-source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 100%
+source-wordcount: '1107'
+ht-degree: 99%
 
 ---
 
@@ -23,17 +23,10 @@ ht-degree: 100%
       + [プロジェクトの作成 - 概要](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [プロジェクトの保存](analysis-workspace/build-workspace-project/save-projects.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [Workspace の複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + 列および行の設定 {#column-row-settings}
-         + [列設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
-         + [行設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [動的項目と静的項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-      + [「元に戻す」および「やり直し」の設定](analysis-workspace/build-workspace-project/undo-redo.md)
-      + [Analysis Workspace で使用できるホットキー](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [テーブルのページネーション、フィルタリングおよび並べ替え](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [ホットキー（ショートカット）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [カラーパレット](analysis-workspace/build-workspace-project/color-palettes.md)
       + [表示密度](analysis-workspace/build-workspace-project/view-density.md)
-      + [Workspace の合計](analysis-workspace/build-workspace-project/workspace-totals.md)
    + コンポーネント {#components}
       + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
       + ディメンション {#dimensions}
@@ -49,7 +42,14 @@ ht-degree: 100%
    + ビジュアライゼーション {#visualizations}
       + [ビジュアライゼーションの概要](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [データソースの管理](analysis-workspace/visualizations/t-sync-visualization.md)
-      + [フリーフォームテーブル](analysis-workspace/visualizations/freeform-table.md)
+      + フリーフォームテーブル {#freeform-table}
+         + [フリーフォームテーブル](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + 列および行の設定 {#column-row-settings}
+            + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
+            + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+            + [動的項目と静的項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [テーブルのページネーション、フィルタリングおよび並べ替え](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [Workspace の合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + コホートテーブル {#cohort-table}
          + [コホート分析とは](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [コホート分析レポートの設定](analysis-workspace/visualizations/cohort-table/t-cohort.md)
