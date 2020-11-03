@@ -3,10 +3,10 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '8103'
-ht-degree: 100%
+source-wordcount: '8106'
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 
 | 機能 | 説明 |
 |--- |--- |
-| [フリーフォームテーブルビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新がおこなわれ、どのテーブルを作成したいかがわかると時間を節約することができます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、Workspace で適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
+| [フリーフォームテーブルビルダー](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新がおこなわれ、どのテーブルを作成したいかがわかると時間を節約することができます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、Workspace で適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
 
 ## 2019 年 10 月
 
@@ -113,7 +113,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 
 | 機能強化 | 説明 |
 |--- |--- |
-| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、**[!UICONTROL テーブルの合計]**&#x200B;と、**[!UICONTROL 総計]**&#x200B;の 2 つの合計が表示されるようになりました。テーブルの合計行は、適用された[レポートフィルター](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
+| フリーフォームテーブルの合計の更新 | フリーフォームテーブルに、**[!UICONTROL テーブルの合計]**&#x200B;と、**[!UICONTROL 総計]**&#x200B;の 2 つの合計が表示されるようになりました。テーブルの合計行は、適用された[レポートフィルター](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
 | 「未指定」または「なし」を削除するオプション | レポートフィルターのオプションに、「未指定（なし）」を簡単に削除する機能が追加されました。 |
 | 紫色の精度コンポーネントの廃止 | 紫色の精度の時間コンポーネント（分、時間、日、週、月、四半期、年）は廃止されました。紫の時間コンポーネントは常に、オレンジ色のディメンションと同じ動作をするので、この変更によって画面や操作がシンプルになります。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL 日付範囲]**」に変更されました。 |
 
@@ -366,11 +366,11 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 「ヘッダーテキストを折り返し」がデフォルトで有効</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 「ヘッダーテキストを折り返し」がデフォルトで有効</a> </p> </td> 
    <td colname="col2"> <p>フリーフォームテーブルの列設定で、「<span class="uicontrol">ヘッダーテキストを折り返し</span>」がデフォルトで有効になりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 新しい行設定</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > 新しい行設定</a> </p> </td> 
    <td colname="col2"> <p><span class="uicontrol">行ごとに割合を計算</span>という新しい設定により、フリーフォームテーブルでは、列ではなく行全体のセルの割合が表示されるようになります。これは、あるディメンション項目が他の値に対してどの程度公正であるかを経時でトレンド分析する場合など、割合のトレンド分析に特に役立ちます。<span class="uicontrol">ビジュアライゼーション</span>アイコンをクリックした場合は、デフォルトでオンになります。 </p> </td> 
   </tr> 
   <tr> 
@@ -397,7 +397,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > ヘッダーテキストの折り返し </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > ヘッダーテキストの折り返し </a> </p> </td> 
    <td colname="col2"> <p>ヘッダーを読みやすく、またテーブルを共有しやすくするため、フリーフォームテーブルでヘッダーテキストを折り返せるようになりました。「ヘッダーテキストを折り返し」というオプションが「列設定」に追加されました。これは、特に .pdf のレンダリングや名前の長い指標に使用すると便利です。 </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
    <td colname="col2"> <p>右クリックで「クリップボードにコピー」オプションが追加されたので、セルやテーブルを一貫した方法でコピーできます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 列の割合に対する改善</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 列の割合に対する改善</a> </p> </td> 
    <td colname="col2"> <p>列に表示される全体に占める割合は、シナリオによっては行が全体の 100 ％を超える場合（平均値など）であっても、上限が 100 ％に制限されていました。 </p> <p>精度向上のために、100 ％を超える割合が表示されるようになりました。列の幅をさらに大きくできるように、上限を 1,000 ％まで高める予定です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 分類における条件付き書式の有効化 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 分類における条件付き書式の有効化 </a> </p> </td> 
    <td colname="col2"> <p>「カスタム」制限を選択した場合を除き、フリーフォームテーブルに適用した条件付き書式（色など）が分類で自動的に有効となります。 </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>フリーフォームテーブルの他のディメンション項目の<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  > フィルタリングオプション</a> </p> </td> 
+   <td colname="col1"> <p>フリーフォームテーブルの他のディメンション項目の<a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > フィルタリングオプション</a> </p> </td> 
    <td colname="col2"> <p>（既存の「次を含む」および「次を含まない」オプションに加えて）ディメンション項目用に次の（詳細）フィルタリングオプションが追加されました。 </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">すべての語句を含む </li> 
@@ -515,7 +515,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
    <td colname="col2"> <p>左端の列のサイズを変更するときに、残りの列の幅の割合が維持されるようになりました（右隣の列幅が調整されるだけではありません）。この変更により、分析や共有のテーブルを、より短時間で作成できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>テーブルに <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 400 行</a>を表示 </p> </td> 
+   <td colname="col1"> <p>テーブルに <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 400 行</a>を表示 </p> </td> 
    <td colname="col2"> <p>1 つのテーブルに 400 行を表示できるようになり（変更前は 200 行）、365 日間のトレンドに対応するようになりました。 </p> </td> 
   </tr> 
   <tr> 
@@ -655,7 +655,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > フリーフォームテーブル内で一度に複数の列を管理 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > フリーフォームテーブル内で一度に複数の列を管理 </a> </p> </td> 
    <td colname="col2"> <p>複数の列の設定を一度に変更できるようになりました。複数の列を選択し、いずれかの列の設定アイコンをクリックするだけです。加えた変更が、選択されているセルを含むすべての列に適用されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -814,7 +814,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 「割合制限を使用」チェックボックス</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 「割合制限を使用」チェックボックス</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> 特に割合に基づく指標用に、割合カットオフを指定するチェックボックスが追加されました（ただし、割合に基づく指標以外でも機能します）。 </li> 
@@ -866,7 +866,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
   </tr> 
   <tr> 
    <td colname="col1"> <p>「元に戻す」／「やり直し」オプションの強化 </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace で元に戻す／やり直すことができる操作とできない操作については、 <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > こちらのリスト</a>に示されています。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace で元に戻す／やり直すことができる操作とできない操作については、  こちらのリスト</a>に示されています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,7 +884,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 位置で分類 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > 位置で分類 </a> </p> </td> 
    <td colname="col2"> <p>テーブルの位置による分類を許可します。例：「常にフリーフォームテーブルの上位 7 行を分類したい」フリーフォームテーブルを作成するとチェックボックスが表示されるようになりました。これにより、「位置で分類」することができます。この設定は、デフォルトで無効になっています。 </p> <p>以前は、分類の値のリストはレポート作成の時点で「ロック」されていました。例えば、<span class="wintitle">日付</span>を<span class="wintitle">ページ</span>ごとに分類した場合、選択した日付範囲の上位 50 ページのリストが表示されていました。 </p> <p>そのレポートを保存して 1 ヶ月後に実行した場合、上位 50 ページが変動している可能性があるものの、Analysis Workspace は現在の月を日付範囲としながらも、以前の分類の結果を「信頼」して同じページを返していました。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1037,7 +1037,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 * 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[ベン図のビジュアライゼーションタイプ](/help/analyze/analysis-workspace/visualizations/venn.md)。
 * ランク付けされたテーブルの[トレンド選択](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折れ線グラフ）がリンクされました。
 * [ビジュアルを作成アイコン](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：このアイコンをクリックすると、次の操作がインテリジェントに推測されます（棒グラフ、ベン図など）。
-* 拡張された[手動の行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)機能。
+* 拡張された[手動の行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)機能。
 * [セグメントを追加](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)ドロップゾーン。
 * マイナーアップデート：
 
