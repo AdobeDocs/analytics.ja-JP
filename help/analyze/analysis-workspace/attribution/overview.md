@@ -1,9 +1,9 @@
 ---
 title: アトリビューションの概要
 description: 成功イベントのクレジットを複数のディメンション項目に関連付ける概念。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -41,6 +41,6 @@ Adobe Analytics を使用すると、以下が可能になるので、アトリ�
 Attribution IQ は、次の機能で構成されます。
 
 * [アトリビューションパネル](../c-panels/attribution.md)：任意のディメンションと指標を使用して、様々なアトリビューションモデルとすばやく比較できます。
-* [指標へのアトリビューションの適用](../build-workspace-project/column-row-settings/column-settings.md)：プロジェクト内の任意の指標にデフォルト以外のアトリビューションを使用します。
+* [指標へのアトリビューションの適用](../visualizations/freeform-table/column-row-settings/column-settings.md)：プロジェクト内の任意の指標にデフォルト以外のアトリビューションを使用します。
 * [分類へのアトリビューションの適用](../components/dimensions/t-breakdown-fa.md)：分類にデフォルト以外のアトリビューションを使用します。
 * [アトリビューションモデルの比較](../components/apply-create-metrics.md)：指標ごとに異なるアトリビューションモデルがどのように比較されるかをすばやく確認できます。
