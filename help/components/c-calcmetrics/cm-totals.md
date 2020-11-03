@@ -2,7 +2,10 @@
 title: 計算指標の合計
 description: Analytics ツールにおいて計算指標の合計がどのように異なるかを説明します。
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 100%
 
 ---
 
@@ -35,5 +38,5 @@ Analysis Workspace でデータを表示すると、ほとんどの場合、計�
 
 合計が表示されている場合は多くの場合、サーバー側で計算され、訪問回数や訪問者数などの指標の重複を排除します。状況によっては、テーブルの行全体を合計して、クライアント側で計算指標が生成されることがあります。つまり、合計では、訪問回数や訪問者数などの指標の重複が排除されません。これは次のように発生します。
 
-* フリーフォームテーブルで、[静的な行](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)が使用され、「**[!UICONTROL 現在の行の合計として表示]**」オプション（デフォルト）が選択されている場合。
+* フリーフォームテーブルで、[静的な行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)が使用され、「**[!UICONTROL 現在の行の合計として表示]**」オプション（デフォルト）が選択されている場合。
 * [ドーナツビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/donut.md)では、数値の合計は 100％になります。
