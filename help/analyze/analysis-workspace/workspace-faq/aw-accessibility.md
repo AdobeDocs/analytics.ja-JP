@@ -39,7 +39,7 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 
 ### キーボードショートカット（ホットキー）
 
-[!UICONTROL Analysis Workspace] は、シームレスなワークフローを実現するための豊富な[キーボードショートカットのセット](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)を備えています。ナビゲーション、分析の作成、インサイトの民主化に関する一般的なショートカットを以下に示します。
+[!UICONTROL Analysis Workspace] は、シームレスなワークフローを実現するための豊富な[キーボードショートカットのセット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ja-JP)を備えています。ナビゲーション、分析の作成、インサイトの民主化に関する一般的なショートカットを以下に示します。
 
 #### ナビゲーション
 
@@ -60,7 +60,7 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 | Ctrl + Shift + D | 新しい日付範囲 |
 | Ctrl + Shift + E | 新しいセグメント |
 | Ctrl + Z | 元に戻す |
-| shift キーを押したまま（パネルセグメントドロップゾーン内） | [ドロップダウンフィルター](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)の作成 |
+| shift キーを押したまま（パネルセグメントドロップゾーン内） | [ドロップダウンフィルター](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja-JP)の作成 |
 
 #### 民主化
 
@@ -81,7 +81,7 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 
 [!UICONTROL Analysis Workspace] は、WCAG 2.1 AA への準拠を目指しています（カラーコントラストの要件を含む）。
 
-また、プロジェクトに対しては、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト設定]**／[プロジェクトのカラーパレット](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)で、ユーザーが希望するカラーパレットを設定できます。
+また、プロジェクトに対しては、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト設定]**／[プロジェクトのカラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ja-JP)で、ユーザーが希望するカラーパレットを設定できます。
 
 ## コンポーネントビルダーの必須フィールドの検証
 
