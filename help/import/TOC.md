@@ -5,10 +5,10 @@ user-guide-title: Analytics インポートガイド
 breadcrumb-title: インポートガイド
 user-guide-description: '一括またはリアルタイムで、外部のソースから Analytics にデータを取り込みます。 '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 98%
 
 ---
 
@@ -128,3 +128,5 @@ ht-degree: 100%
       + [Analytics 統合変数](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop 統合](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics プラグインコード](data-connectors/silverpop-overview/silverpop-analytics-code.md)
++ インポートの使用例 {#use-cases}
+   + [データソースを使用した有料検索指標のインポート](use-cases/paid-search-metrics.md)
