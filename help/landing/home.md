@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics テクニカルドキュメントガイド
 description: Analytics のユーザーガイドとリソース
-translation-type: ht
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 13fefcf8f743d1890044e2ac6b5864846d2c8cb7
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 [![統合](assets/integrate_50px.png)](/help/integrate/home.md) [統合ガイド](/help/integrate/home.md) – Audience Manager、Advertising Cloud、Target といった他の Adobe Experience Cloud ソリューションとの統合を設定します。
 
-[![メディア分析](assets/media_50px.png)](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) [メディア分析ガイド](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) – オーディオまたはビデオソースに Analytics を実装します。これには、メディア SDK とメディアコレクション API が含まれます。
+[![ストリーミングメディア解析](assets/media_50px.png)](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)[ストリーミングメディア解析ガイド](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) — ストリーミングメディア用Adobe Analyticsの実装 これには、メディア SDK とメディアコレクション API が含まれます。
 
 [![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) [Data Workbench ガイド](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) – [!UICONTROL Data Workbench] の非常に柔軟で強力なマルチチャネル機能について説明します。[!UICONTROL Data Workbench クライアント]、インストール、[!UICONTROL データセット設定]ガイドなどが含まれます。
 
