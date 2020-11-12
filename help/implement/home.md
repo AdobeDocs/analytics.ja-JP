@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティまたはアプリケーションに実装します。
-translation-type: ht
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
-workflow-type: ht
-source-wordcount: '382'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 97%
 
 ---
 
@@ -35,6 +35,7 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 
 ## 主な Analytics 実装記事
 
+* [既存のAdobe Analyticsの実施を担当](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
 * [Experience Platform Launch でのプロパティの作成](launch/create-analytics-property.md)
 * [AppMeasurement のアップデート](appmeasurement-updates.md)
