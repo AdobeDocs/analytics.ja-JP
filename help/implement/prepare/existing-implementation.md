@@ -2,9 +2,9 @@
 title: 既存のAdobe Analyticsの実施を担当
 description: 既存のAdobe Analytics導入を初めて使用する管理者向けの手順です。
 translation-type: tm+mt
-source-git-commit: 6f4f726cae91b794f321a56339eac41158db2577
+source-git-commit: c95ff254d2df8373776a2ce261a5786045169181
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -12,10 +12,12 @@ ht-degree: 0%
 
 # 既存のAdobe Analyticsの実施を担当
 
-Adobe Analyticsの実装を以前の技術担当者から引き継いでいますか？ Omnitureの継承導入実践ブックは、既存の導入の新しい技術所有者として担当するお手伝いをします。 ダウンロード可能なスプレッドシートでは、既存の実装を引き継ぐ最初の10週間のジョブで行う必要がある検出、監査、ドキュメントのアクティビティについて説明します。
+Adobe Analyticsの実装を以前の技術担当者から引き継いでいますか？ Omnitureの継承導入実践ブックは、既存の導入の新しい技術所有者として担当するお手伝いをします。 ダウンロード可能なスプレッドシートでは、既存の実装を引き継ぐ際に最初の10週間で行う必要がある検出、監査、ドキュメントのアクティビティについて説明します。
+
+『 [継承された導入実践ブック](assets/adobe_analytics_inherited_implementation_playbook.xlsx)』をダウンロードします。
 
 ![実践ブック](assets/inherited-impl-playbook.png)
 
-継 [承された導入実践ブックのダウンロード](assets/adobe_analytics_inherited_implementation_playbook.xlsx)
+テクニカルオーナー(Sarah Owen)のこれらのヒントをご覧ください。 Sarahは [Adobe Analyticsチャンピオンで](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) 、Sarahは「Inherited Implementation Playbook」を使用して既存の実装を管理する方法についてのアイデアを共有しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
