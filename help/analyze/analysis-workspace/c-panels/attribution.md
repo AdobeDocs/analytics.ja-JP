@@ -2,22 +2,22 @@
 title: アトリビューションパネル
 description: Analysis Workspace でのアトリビューションパネルの使用方法と解釈方法。
 translation-type: tm+mt
-source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 72%
+ht-degree: 66%
 
 ---
 
 
 # アトリビューションパネル
 
-アトリビューションパネルを使用すると、各種アトリビューションモデルの比較分析を簡単に作成できます。これは、[Attribution IQ](../attribution/overview.md) の機能で、アトリビューションモデルを使用および比較するための専用のワークスペースを提供します。
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. これは、[Attribution IQ](../attribution/overview.md) の機能で、アトリビューションモデルを使用および比較するための専用のワークスペースを提供します。
 
 ## アトリビューションパネルの作成
 
 1. 左端のパネルアイコンをクリックします。
-1. アトリビューションパネルを Analysis Workspace プロジェクトにドラッグします。
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
    ![新規アトリビューションパネル](assets/Attribution_Panel_1.png)
 
@@ -40,3 +40,4 @@ ht-degree: 72%
 * **パフォーマンスの詳細**:散布グラフを使用して、最大3つのアトリビューションモデルを視覚的に比較できます。
 * **トレンドパフォーマンス**:最上位のディメンション項目の属性付きコンバージョンの傾向を表示します。 隣接したフリーフォームテーブルで他の行を選択すると、その選択を反映するようにビジュアライゼーションが更新されます。
 * **フロー**:どのチャネルが最も一般的に行動を起こしているか、どのような順序で訪問者の遍歴を通して行われているかを確認できます。
+
