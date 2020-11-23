@@ -1,31 +1,25 @@
 ---
 description: 'null'
 keywords: Analysis Workspace
-title: プロジェクトの作成 - 概要
+title: プロジェクトの概要
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+workflow-type: tm+mt
+source-wordcount: '1358'
+ht-degree: 27%
 
 ---
 
 
-# プロジェクトの作成 - 概要
+# プロジェクトの概要
 
-**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]**
+Workspaceプロジェクトでは、データコンポーネント、テーブルおよびビジュアライゼーションを組み合わせて、分析を作成し、組織内の任意のユーザーと共有できます。 最初のプロジェクトを開始する前に、プロジェクトにアクセスし、ナビゲートし、管理する方法を学びます。
 
-ビジュアライゼーション、レポートコンポーネントおよびデータテーブルを任意に組み合わせて、堅牢な Analytics プロジェクトを作成できます。Analytics で Ad Hoc Analysis の数多くのテーブル作成機能を使用できます。
+## プロジェクトリスト {#project-list}
 
-Analysis Workspace では、新たな方法でデータの比較および詳細分析を実行できます。例えば、ランクレポートを設定して、すぐにデータクエリを繰り返し変更した後、レポート作成レベルで値にアクセスして操作することができます。
-
-クエリは、直接レポーティングエンジンに渡されます。分析を作成するために他のレポートを表示することなく、インラインで変更できます。結果は即座に返され、ブラウザーを更新する必要もありません。
-
-## Workspace のプロジェクト一覧ページ {#section_39AA007D7C384F4E869F842F1C7B11F8}
-
-最初に **[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** に移動すると、自分が所有するプロジェクトまたはアクセスを許可されたプロジェクトがすべて一覧表示されます。「**[!UICONTROL ランディングページとして設定]**」をクリックすると、このページを Adobe Analytics のランディングページに設定できます（下のスクリーンショットのように、このオプションが表示されない場合、既にランディングページに設定されています）。
+When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, the page lists all the projects you own or have been shared to you. これは、以前にカスタムランディングページを設定したことがない限り、Adobe Analyticsのランディングページでもあります。
 
 ![](assets/sample-project.png)
 
@@ -33,66 +27,82 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 | 要素 | 説明 |
 |---|---|
-| [新規プロジェクトを作成](/help/analyze/analysis-workspace/home.md) | このリンクをクリックすると、新しいプロジェクトを最初から作成できます。 |
+| [新規プロジェクトを作成](/help/analyze/analysis-workspace/home.md) | 新規プロジェクトを新規に開始する場合、または [作成したテンプレートから新規プロジェクトを作成する場合は](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#analysis-workspace) 、このリンクをクリックします。 |
 | プロジェクトの管理 | このリンクをクリックすると、プロジェクトコンポーネントマネージャーに移動します（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL プロジェクト]**）。ここでは、すべてのプロジェクトが一覧表示され、プロジェクトのタグ付け、共有、削除、名前の変更、承認、コピー、CSV への書き出しをおこなえます。 |
 | ランディングページとして設定 | このページを Workspace ランディングページにします。 |
-| チュートリアルを表示 | [Analysis Workspace ビデオチュートリアル](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html)に移動します。 |
+| [チュートリアルを表示](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | Analysis Workspace ビデオチュートリアルに移動します。 |
 | 名前 | Workspace プロジェクトの名前。 |
 | 所有者 | このプロジェクトを作成したユーザー（ユーザー自身、またはユーザー自身とそのプロジェクトを共有した他のユーザー）。 |
 | タイプ | Workspace プロジェクトか[モバイルスコアカード](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/mobapp/home.html)のどちらであるかを示します。 |
-| プロジェクトの役割 | 自分が所有者か、プロジェクトを編集できるか、これが重複プロジェクトであるかを示します。 |
-| タグ | プロジェクトに適用されたタグ。プロジェクトコンポーネントマネージャー、または **[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;で適用されます。 |
+| [プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | プロジェクトの役割(所有者、編集、重複、表示)を示します。 |
+| タグ | プロジェクトに適用されたタグ。 |
 | 最終変更日 | プロジェクトが最後に変更された日付。 |
 | お気に入りのプロジェクト | プロジェクトをお気に入りに登録するには、プロジェクトを開き、名前の横の星をクリックします。このリストは、次回 Workspace を開いたときに表示されます。 |
 | 頻繁に表示するプロジェクト | 頻繁に開くすべてのプロジェクトをリストし、アクセスしやすくします。 |
 
-## プロジェクト情報および設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
+## メニューバー {#menu-bar}
 
-**[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**
+プロジェクト内では、メニューに、プロジェクトの管理、コンポーネントの追加、ヘルプの検索などを行うためのオプションが表示されます。 各メニューオプションは、キーボード [ショートカットでアクセスすることもできます](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)。
+
+| メニュー項目 | 説明 |
+|---|---|
+| プロジェクト | プロジェクト管理に関する一般的なアクション(新規、開く、保存、名前を付けて保存、テンプレートとして [保存](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html))が含まれます。 また、「プロジェクトを更新」をクリックして、プロジェクト全体を更新し、最新のデータと定義を取得することもできます。 [「CSVおよびPDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) 」オプションをダウンロードすると、Workspaceからデータをエクスポートできます。 [「プロジェクト情報と設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) 」オファーには、プロジェクトを管理するための多くのオプションがあります。 |
+| テンプレートを | 前回の操作を元に戻すか、やり直します。 「すべてをクリア」を選択すると、プロジェクトが空白の開始点にリセットされます。 |
+| 前に | このメニューから新しいパネルまたはビジュアライゼーションを挿入します。 左側のレールから、新しいパネルやビジュアライゼーションを挿入することもできます。 |
+| [コンポーネント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) | プロジェクトから、新しいセグメント、計算指標、日付範囲またはアラートコンポーネントを作成します。 左側のレールから新しいコンポーネントを作成することもできます。 コンポーネント定義が最近変更された場合、「コンポーネントを更新」は最新の定義を取得します。 |
+| [共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) | PDF/CSVプロジェクトのキュレーション、共有、および組織内の受信者へのスケジュール設定を行います。 |
+| ヘルプ | ヘルプドキュメント、ビデオおよびAnalytics [Experience Leagueコミュニティにアクセスできます](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)。 Workspaceのヒントの表示と [デバッガーの管理を行います](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)。 Workspaceの詳細と、プロジェクトの [パフォーマンスに影響する要因を確認します](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html)。 |
+| 共有ボタンまたは所有者 | プロジェクトの「所有」または「編集」を使用している場合は、右上の「共有」ボタンをクリックすると、プロジェクト受信者を管理できます。 プロジェクトの重複または表示のロールに属している場合は、プロジェクト所有者の名前が表示されます。 |
+
+### プロジェクト情報および設定 {#info-settings}
+
+**[!UICONTROL Workspace]**／**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト情報および設定]**&#x200B;は、現在アクティブなプロジェクトに関するプロジェクトレベルの情報を提供します。
 
 ![](assets/projectinfo.png)
 
-**[!UICONTROL プロジェクト情報および設定]**&#x200B;は、現在アクティブなプロジェクトに関するプロジェクトレベルの情報を提供します。
+次の設定が含まれます。
 
 | 設定 | 説明 |
 |---|---|
 | プロジェクト名 | プロジェクトに設定された名前。名前をダブルクリックすると編集できます。 |
 | 作成者 | プロジェクト所有者名。 |
 | 最終変更日 | プロジェクトの最終変更日。 |
-| タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。プロジェクトは保存する際にもタグ付けできます。Workspace ランディングページの[!UICONTROL タグ]列にプロジェクトのタグが表示されます。 |
+| タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。 |
 | 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。説明をダブルクリックすると編集できます。 |
-| プロジェクトで繰り返しのインスタンスをカウントします | レポート内でレポートインスタンスがカウントされるかどうかを指定します。同じ変数に対して複数の連続する値が存在する場合に、それらの値を変数の 1 つのインスタンスとしてカウントすることも、複数のインスタンスとしてカウントすることもできます。 |
-| ビジュアライゼーションのカラースキーマ | 異なるカラーパレットを選択するか、独自のパレットを指定することにより、Workspace で使用されるカラースキーマを変更できるようになりました。この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
-| 表示密度 | 左側のパネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。 |
+| プロジェクトで繰り返しのインスタンスをカウントします | レポート内でレポートインスタンスがカウントされるかどうかを指定します。注意：この設定は、フロービジュアライゼーションまたはフォールアウトビジュアライゼーションには適用されません。 |
+| [プロジェクトのカラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Workspaceで使用する分類カラーパレットを変更するには、色弱に対応しているパレットを標準搭載から選択するか、カスタムパレットを指定します。 この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
+| [表示密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | 左側のパネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。 |
 
-## プロジェクトメニュー {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
+## Left rail {#left-rail}
 
-トッププロジェクトメニューは、次のように表示されます。
+Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), tables, [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html), and [components](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) are accessed from the left rail. これらはプロジェクトの構成要素です。
 
-![](assets/new-project-menus.png)
+また、 [空のパネルからもビジュアライゼーションやパネルにアクセスできます](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) 。
 
-サブメニューには次のオプションが含まれます。
+左側のレールのコンポーネント(Dimension、指標、セグメント、日付範囲)は、アクティブなパネルレポートスイートに関連付けられています。 アクティブなパネルの周囲に青い境界線が表示され、アクティブなレポートスイートがコンポーネントパネルの上部に表示されます。
 
->[!NOTE]
->
->アスタリスク（*）が付いているオプションは、**保存済みプロジェクト**&#x200B;でのみ表示されます。
+## プロジェクトキャンバス {#canvas}
 
-| プロジェクト | 編集 | 挿入 | コンポーネント | 共有 | ヘルプ |
-|---|---|---|---|---|---|
-| 新規 | 元に戻す | 新しいパネル | 新しいセグメント | プロジェクトを共有 | ビデオ |
-| Open | クリア | 新しいフリーフォームパネル | 新しい指標 | プロジェクトリンクを取得* | ホットキー |
-| 保存 | すべてクリア | 新しいセグメント比較パネル | 新しい日付範囲 | ファイルを今すぐ送信* | ヘルプフォーラム |
-| 名前を付けて保存* |  | 新しいフリーフォームテーブル | 新しいアラート | ファイルをスケジュールに従って送信* |  |
-| ランディングページとして設定* |  | 改行 | コンポーネントを更新 | プロジェクトデータをキュレート |  |
-| プロジェクトを更新 |  | 新しいバー |  |  |  |
-| CSV をダウンロード |  |  |  |  |  |
-| PDF をダウンロード* |  |  |  |  |  |
-| プロジェクト情報および設定 |  |  |  |  |  |
+プロジェクトキャンバスでは、パネル、テーブル、ビジュアライゼーションおよびコンポーネントをまとめて分析を構築できます。 プロジェクトには多数のパネルを含めることができ、各パネルには多数のテーブルやビジュアライゼーションを含めることができます。
 
-## 左側のパネル {#section_271295C26EC840ABB2A8E7EC0498B60E}
+パネルは、期間、レポートスイート、分析の使用例に従ってプロジェクトを整理する場合に便利です。 アクティブなパネルの周囲に青い境界線が表示され、左側のレールで使用できるコンポーネントが決まります。
 
-左側のパネルに、パネル、[ビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)および[コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)（ディメンション、指標、セグメント、データ範囲）に 1 クリックでアクセスできる 3 つのアイコンがあります。
+プロジェクトの開始点に応じて、キャンバスに [フリーフォームテーブル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) 、または [空白のパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) （最初に表示する）があります。 開始分析を最も簡単に行うには、1つまたは複数のコンポーネントを選択し、それらをプロジェクトキャンバスにドラッグ&amp;ドロップします。 データのテーブルが自動的にレンダリングされます。 [表を作成するための様々なオプションについての詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) 。または、 [トレーニングチュートリアル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) を活用して、最初のプロジェクトの作成に関する詳細なガイダンスを得ることもできます。
 
-![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
+## プロジェクトマネージャー {#manager}
 
-左側のパネルからパネルのリストにアクセスできる&#x200B;**[!UICONTROL 空のパネル]**&#x200B;が追加されました。**新しいコホートパネル**&#x200B;を作成するには、空のパネルにドラッグし、コホートテーブルのビジュアライゼーションにドラッグします。
+Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. プロジェクトマネージャーには、特定のユーザーが作成した項目が表示されます。 プロジェクトの所有権は、管理者/Analyticsユーザーとアセット/アセットを転送で、新しいユーザーに転送できます。
+
+プロジェクトマネージャーでは、追加、タグ付け、共有、重複/コピーなどを行うことができます。 検索バーで、または左側のレールのフィルターオプションを使用して、プロジェクトを検索します。 タグ、所有者、プロジェクトのタイプなどでフィルターできます。
+
+以下はプロジェクトマネージャの一般的な操作で、1つまたは複数のプロジェクトに対して一度に実行できます。
+
+| アクション | 説明 |
+|---|---|
+| 追加 | 新規プロジェクトを新規に作成するか、 [テンプレートから開始を作成します](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)。 |
+| タグまたは承認 | 「タグ」または「承認」を選択して、プロジェクトを整理し、検索しやすくします。 |
+| [共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。 |
+| 削除 | プロジェクトを削除します。 |
+| 名前変更 | プロジェクトの名前を編集します。 |
+| Copy | プロジェクトの重複コピーを作成します。 これにより、新しいプロジェクトとプロジェクトIDが作成されます。 元のプロジェクトに関連付けられた共有またはスケジュールはコピーされません。 |
+| CSV に書き出し | プロジェクトをCSVファイルとしてダウンロードします。このファイルにはプレーンテキストデータが含まれます。 |
