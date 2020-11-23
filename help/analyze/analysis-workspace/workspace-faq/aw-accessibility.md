@@ -1,11 +1,11 @@
 ---
 description: Analysis Workspace のアクセシビリティサポート機能
 title: Analysis Workspace のアクセシビリティ
-translation-type: ht
-source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 82%
 
 ---
 
@@ -22,11 +22,20 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 
 [!UICONTROL Analysis Workspace] でのナビゲーションは、上から下、左から右です。次のナビゲーション要素はアクセシビリティを容易にします。
 
-* `F6` キーは、ランドマークショートカットを有効にします。
-* `Tab` キーで個々の要素間を移動します。
+* `Tab` キーは、ランドマークショートカットを有効にします。Workspace内の大きいセクション間を移動します。 左側のレールでは、ドラッグ可能なオプション間を移動するこ `Tab` ともできます。
+* ハイライト表示した後の個々の要素間 `left/right arrows``Tab` の移動。
+* プロジェクト内の最初のパネルに `F6` 移動し、そのパネル内のビジュアライゼーション間を移動します。 次に、プロジェクト内の次のパネルに移動し、繰り返します。
 * フォーカスインジケーターを適用して、目が見えるキーボードユーザーが現在どの UI 要素にフォーカスがあるかを明確に示します。インジケーターは、選択した要素の周りの青い境界線です。
 
    ![フォーカスインジケーター](assets/focus-indicator.png)
+
+### メニューバーのキーボードナビゲーション
+
+1. メニューバーに到達するまでタブを押します。
+1. 左右の矢印キーを使用して、目的のメニューに移動します。
+1. を押 `Enter` してメニューを選択し、そのオプションを表示します。
+1. 上向き/下向き矢印キーを使用して、目的のメニューオプションに移動します。
+1. を押 `Enter` して、オプションを選択します。
 
 ### ドラッグ&amp;ドロップ操作のキーボードナビゲーション
 
