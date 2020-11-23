@@ -2,10 +2,10 @@
 title: 計算指標の合計
 description: Analytics ツールにおいて計算指標の合計がどのように異なるかを説明します。
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: bbe2b96960fd5aa6df331a77fdf5b04a769b6e84
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 94%
 
 ---
 
@@ -40,3 +40,6 @@ Analysis Workspace でデータを表示すると、ほとんどの場合、計�
 
 * フリーフォームテーブルで、[静的な行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)が使用され、「**[!UICONTROL 現在の行の合計として表示]**」オプション（デフォルト）が選択されている場合。
 * [ドーナツビジュアライゼーション](/help/analyze/analysis-workspace/visualizations/donut.md)では、数値の合計は 100％になります。
+
+Analysis Workspaceの合計の詳細については、 [Workspaceの合計を参照してください](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total)。
+
