@@ -2,10 +2,10 @@
 title: 既存のAdobe Analyticsの実施を担当
 description: 既存のAdobe Analytics導入を初めて使用する管理者向けの手順です。
 translation-type: tm+mt
-source-git-commit: d3b05bddef89d7525c21f9f4686707daa27bc669
+source-git-commit: d77bb01d96ab0df2465927afc08739a3ce8c5c5f
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 1%
 
 ---
 
@@ -21,3 +21,9 @@ Adobe Analyticsの実装を以前の技術担当者から引き継いでいま�
 テクニカルオーナー(Sarah Owen)のこれらのヒントをご覧ください。 Sarahは [Adobe Analyticsチャンピオンで](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) 、Sarahは「Inherited Implementation Playbook」を使用して既存の実装を管理する方法についてのアイデアを共有しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+関連トピック:
+
+* [各Webサイトリリース後の導入状況の確認のための「マイナーレビュー」チェックリスト](/help/implement/review/minor-review.md)
+* [6か月ごとの導入状況の確認のための「メジャーレビュー」チェックリスト](/help/implement/review/major-review.md)
+* [上位5件のKPIの定義](/help/implement/review/define-kpis.md)
