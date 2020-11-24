@@ -2,7 +2,7 @@
 description: パネルは、テーブルとビジュアライゼーションの集まりです
 title: パネルの概要
 translation-type: tm+mt
-source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
+source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 11%
@@ -84,7 +84,11 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## 右クリックメニュー {#right-click}
 
-パネルの追加機能は、パネルのヘッダーを右クリックすると使用できます。 次の設定を使用できます。
+パネルの追加機能は、パネルのヘッダーを右クリックすると使用できます。
+
+![](assets/right-click-menu.png)
+
+次の設定を使用できます。
 
 | 設定 | 説明 |
 | --- | --- |
