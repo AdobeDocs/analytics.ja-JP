@@ -1,9 +1,9 @@
 ---
 title: ハードコードされたイメージリクエストを使用した実装
 description: HTML イメージタグを使用した Adobe Analytics の実装（ハードコードされたイメージリクエスト）
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 次に、HTML を使用したハードコードされたイメージリクエストの例を示します。
 
 ```html
-<img src="https://example.sc.omtrdc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.sc.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` はプロトコルを指定します。イメージリクエストで使用されるプロトコルと、サイトの残りの部分で使用されるプロトコルとを一致させます。
-* `example.sc.omtrdc.net` は、[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 変数に含まれる値です。
+* `example.sc.adobedc.net` は、[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 変数に含まれる値です。
 * `/b/ss/` は、すべてのイメージリクエストに含まれます。これは、アドビのデータ収集サーバーに保存される画像のファイル構造の一部です。
 * `examplersid` は、データの送信先のレポートスイート ID です。
 * `/1/` はヒットソースです。詳しくは、『エクスポートユーザーガイド』の[データ列の参照](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で `hit_source` を参照してください。訪問者を識別するために Cookie やその他の方法が使用する順序を制御します。
