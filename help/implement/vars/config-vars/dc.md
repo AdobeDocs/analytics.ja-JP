@@ -2,7 +2,7 @@
 title: dc
 description: 使用するデータセンターを決定できる古い変数。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
@@ -18,4 +18,4 @@ ht-degree: 100%
 
 以前のバージョンの Adobe Analytics では、データの送信先のデータセンターを指定する必要がありました。ヒットを誤ったデータセンターに送信すると、データが失われていました。
 
-アドビは、任意の実装で `sc.omtrdc.net` へのヒットの送信を許可することで、このエクスペリエンスを向上させました。データセンターの指定は不要になりました。
+アドビは、任意の実装で `sc.adobedc.net` へのヒットの送信を許可することで、このエクスペリエンスを向上させました。データセンターの指定は不要になりました。
