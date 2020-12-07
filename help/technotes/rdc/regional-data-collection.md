@@ -2,10 +2,10 @@
 title: 地域データ収集
 description: 地域データ収集に関する情報
 translation-type: tm+mt
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud は地域データ収集（RDC）を使用するので、
 
 >[!IMPORTANT]
 >
->中国RDC(China Performance Optimization)追加オンパッケージは、アドビAnalyticsに対して有料で追加されます。 中国本土でのAdobe Performance Optimizationを使用すると、中国のお客様は、世界中の他の場所ではなく、中国のエッジノードにデータを直接送信できます。 これにより、中国以外のノードにデータを送信する場合と比較して、ページ読み込み時間とデータの精度が向上します。 詳しくは、アドビのセールス担当者にお問い合わせください。
+>中国RDC(China Performance Optimization)追加オンパッケージは、Adobe Analyticsに有料のアドオンです。 中国本土でのAdobeのパフォーマンス最適化(PPO)により、中国のお客様は、世界中の他の場所ではなく、直接中国のエッジノードにデータを送信できます。 これにより、中国以外のノードにデータを送信する場合と比較して、ページ読み込み時間とデータの精度が向上します。 詳細については、Adobeのセールス担当者にお問い合わせください。
 
 RDC には現在以下の場所が含まれます（変更される場合があります）：
 
@@ -26,7 +26,7 @@ RDC には現在以下の場所が含まれます（変更される場合があ�
 |---------------------|-------------------|
 | デフォルト | オレゴン州、バージニア州、アイルランド、パリ、ムンバイ、シンガポール、東京、シドニー |
 
-注意：Analytics イメージのリクエストが `2o7.net` または `omtdrc.net` のエンドポイントに送信された場合、サードパーティのデータ収集があることになります。リクエストの URL 内にエンドポイントが表示されるかどうかでこれを判断できます。
+Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. リクエストの URL 内にエンドポイントが表示されるかどうかでこれを判断できます。
 
 ## ファーストパーティ HTTPS データ収集
 
