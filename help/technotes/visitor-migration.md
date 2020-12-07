@@ -5,7 +5,10 @@ title: 訪問者の移行
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 83%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 訪問者を移行することで、データ収集ドメインを変更する際に訪問者 ID cookie を保持することができます。データ収集ドメインは、以下の場合に変更される場合があります。
 
-* `2o7.net` から `omtrdc.net` に移行するとき（[Regional Data Collection](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)）。
+* `2o7.net` から `adobedc.net` に移行するとき（[Regional Data Collection](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/rdc/regional-data-collection.html)）。
 
-* [Experience Cloud の訪問者 ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を導入しようとしており、CNAME／ファーストパーティデータ収集ドメインを `2o7.net` または `omtrdc.net` に移行するとき（[Regional Data Collection](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)）。
+* [Experience Cloud訪問者IDサービスを導入している場合](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) 、CNAME/ファーストパーティのデータ収集ドメインを、または `adobedc.net1`( `2o7.net` Regional Data Collection `omtrdc.net`[](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/rdc/regional-data-collection.html))に移行しようとしています。
 
-* `2o7.net` または `omtrdc.net` から CNAME ／ファーストパーティデータ収集に移行するとき（[ファーストパーティ cookie](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html)）。
+* `2o7.net` または `adobedc.net` から CNAME ／ファーストパーティデータ収集に移行するとき（[ファーストパーティ cookie](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html)）。
 
 * 別の CNAME に移行するとき（ドメインの変更）。
 
@@ -48,7 +51,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>設定変更から 6 時間以上経過後：</b>Analytics の JavaScript コード内の <code> s.trackingServer</code> 変数および <code> s.trackingServerSecure</code> 変数を新しいデータ収集サーバーに変更します。 </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics コードの更新直後：</b>サイトをテストして、以前のデータ収集ドメインへのリダイレクトがおこなわれていることを確認します。 </p> </td> 
