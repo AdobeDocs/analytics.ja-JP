@@ -2,7 +2,7 @@
 title: AMP を使用した実装
 description: AMP ページへの Adobe Analytics の実装
 translation-type: tm+mt
-source-git-commit: 684e67203b2e3d5f0cb82cdbdda1f24d37a677f0
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
@@ -20,8 +20,8 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 
 アドビは、AMP を使用しているページに Adobe Analytics を実装する 2 つの方法を作成しました。どちらも `<amp-analytics>` HTML タグを使用します。詳しくは、GitHub ampproject の [amp-analytics タグ](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics)を参照してください。
 
-* **`"adobeanalytics"`トラッキングテンプレート**&#x200B;の使用：ページ上で直接 Analytics リクエストを作成します
-* **`"analytics_nativeConfig"`トラッキングテンプレート**&#x200B;の使用：通常のサイトにデプロイするのと同じ AppMeasurement コードを含む iframe を使用します
+* **`"adobeanalytics"` トラッキングテンプレート**&#x200B;の使用：ページ上で直接 Analytics リクエストを作成します
+* **`"analytics_nativeConfig"` トラッキングテンプレート**&#x200B;の使用：通常のサイトにデプロイするのと同じ AppMeasurement コードを含む iframe を使用します
 
 次の表では、これら 2 つの方法を比較しています。
 
@@ -55,7 +55,7 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
         "myClick": "${click}&v1=${eVar1}",
       },
       "vars": {
-        "host": "example.sc.omtrdc.net",
+        "host": "example.sc.adobedc.net",
         "reportSuites": "reportSuiteID",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
@@ -109,7 +109,7 @@ AMP が個別訪問者を識別する方法を考慮して、AMP ページに対
         "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
       },
       "vars": {
-        "host": "example.sc.omtrdc.net"
+        "host": "example.sc.adobedc.net"
       },
       "extraUrlParams": {
       "pageName": "Example AMP page",
@@ -133,7 +133,7 @@ Web サーバーでホストする HTML ページも必要です。
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.omtrdc.net";
+      var s_trackingServer = "example.sc.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
       var s = s_gi(s_account);
