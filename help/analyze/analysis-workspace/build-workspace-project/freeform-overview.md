@@ -5,7 +5,7 @@ title: プロジェクトの概要
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 27%
@@ -44,6 +44,8 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 プロジェクト内では、メニューに、プロジェクトの管理、コンポーネントの追加、ヘルプの検索などを行うためのオプションが表示されます。 各メニューオプションは、キーボード [ショートカットでアクセスすることもできます](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)。
 
+![](assets/menu.png)
+
 | メニュー項目 | 説明 |
 |---|---|
 | プロジェクト | プロジェクト管理に関する一般的なアクション(新規、開く、保存、名前を付けて保存、テンプレートとして [保存](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html))が含まれます。 また、「プロジェクトを更新」をクリックして、プロジェクト全体を更新し、最新のデータと定義を取得することもできます。 [「CSVおよびPDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) 」オプションをダウンロードすると、Workspaceからデータをエクスポートできます。 [「プロジェクト情報と設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) 」オファーには、プロジェクトを管理するための多くのオプションがあります。 |
@@ -70,7 +72,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 | タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。 |
 | 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。説明をダブルクリックすると編集できます。 |
 | プロジェクトで繰り返しのインスタンスをカウントします | レポート内でレポートインスタンスがカウントされるかどうかを指定します。注意：この設定は、フロービジュアライゼーションまたはフォールアウトビジュアライゼーションには適用されません。 |
-| [プロジェクトのカラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Workspaceで使用する分類カラーパレットを変更するには、色弱に対応しているパレットを標準搭載から選択するか、カスタムパレットを指定します。 この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
+| [プロジェクトカラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | Workspaceで使用する分類カラーパレットを変更するには、色弱に対応しているパレットを標準搭載から選択するか、カスタムパレットを指定します。 この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
 | [表示密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | 左側のパネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。 |
 
 ## Left rail {#left-rail}
@@ -81,6 +83,8 @@ Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/ana
 
 左側のレールのコンポーネント(Dimension、指標、セグメント、日付範囲)は、アクティブなパネルレポートスイートに関連付けられています。 アクティブなパネルの周囲に青い境界線が表示され、アクティブなレポートスイートがコンポーネントパネルの上部に表示されます。
 
+![](assets/left-rail.png)
+
 ## プロジェクトキャンバス {#canvas}
 
 プロジェクトキャンバスでは、パネル、テーブル、ビジュアライゼーションおよびコンポーネントをまとめて分析を構築できます。 プロジェクトには多数のパネルを含めることができ、各パネルには多数のテーブルやビジュアライゼーションを含めることができます。
@@ -89,11 +93,15 @@ Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/ana
 
 プロジェクトの開始点に応じて、キャンバスに [フリーフォームテーブル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) 、または [空白のパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) （最初に表示する）があります。 開始分析を最も簡単に行うには、1つまたは複数のコンポーネントを選択し、それらをプロジェクトキャンバスにドラッグ&amp;ドロップします。 データのテーブルが自動的にレンダリングされます。 [表を作成するための様々なオプションについての詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) 。または、 [トレーニングチュートリアル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) を活用して、最初のプロジェクトの作成に関する詳細なガイダンスを得ることもできます。
 
+![](assets/canvas.png)
+
 ## プロジェクトマネージャー {#manager}
 
 Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. プロジェクトマネージャーには、特定のユーザーが作成した項目が表示されます。 プロジェクトの所有権は、管理者/Analyticsユーザーとアセット/アセットを転送で、新しいユーザーに転送できます。
 
 プロジェクトマネージャーでは、追加、タグ付け、共有、重複/コピーなどを行うことができます。 検索バーで、または左側のレールのフィルターオプションを使用して、プロジェクトを検索します。 タグ、所有者、プロジェクトのタイプなどでフィルターできます。
+
+![](assets/project-manager.png)
 
 以下はプロジェクトマネージャの一般的な操作で、1つまたは複数のプロジェクトに対して一度に実行できます。
 
