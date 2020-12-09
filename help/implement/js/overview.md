@@ -2,7 +2,7 @@
 title: JavaScript 版 AppMeasurement
 description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
@@ -29,7 +29,7 @@ JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する
    var s_account = "examplersid";
    var s=s_gi(s_account);
    // Make sure data is sent to the correct location
-   s.trackingServer = "example.adobedc.net";
+   s.trackingServer = "example.data.adobedc.net";
    ```
 
 3. サイトのページコード内でページレベルの変数を定義します。これらの変数は、アドビに送信される特定のディメンションと指標を決定します。定義できる変数の完全なリストについては、[ページ変数](../vars/page-vars/page-variables.md)を参照してください。
