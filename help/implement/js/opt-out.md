@@ -2,7 +2,7 @@
 title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 実装の `trackingServer` ドメインが見つかったら、最後にパス `/optout.html` を追加します。次に例を示します。
 
-* サードパーティ Cookie： `https://example.sc.adobedc.net/optout.html`
+* サードパーティ Cookie： `https://example.data.adobedc.net/optout.html`
 * ファーストパーティ Cookie：`https://stats.example.com/optout.html`
 
 ## オプトアウトクエリー文字列パラメーター
@@ -78,7 +78,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 * sk_SK（スロバキア語）
 * es_ES（スペイン語）
 
-例えば、`https://example.sc.adobedc.net/optout.html?locale=ko_KR` は、オプトアウトページを韓国語で読み込みます。
+例えば、`https://example.data.adobedc.net/optout.html?locale=ko_KR` は、オプトアウトページを韓国語で読み込みます。
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 ページに「ウィンドウを閉じる」ボタンを追加すると、オプトアウトページをポップアップウィンドウにすることができます。`popup` クエリー文字列パラメーターを使用し、`1` 値を指定します。
 
-例えば、`https://example.sc.adobedc.net/optout.html?popup=1` は、「ウィンドウを閉じる」ボタンを含むオプトアウトページを読み込みます。
+例えば、`https://example.data.adobedc.net/optout.html?popup=1` は、「ウィンドウを閉じる」ボタンを含むオプトアウトページを読み込みます。
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 ユーザーが追跡を直ちにオプトアウトできるようにします。`opt_out` と `confirm_change` の 2 つのクエリー文字列パラメーターを追加し、それぞれに `1` の値を指定します。
 
-例えば、`https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` は、オプトアウト Cookie を訪問者のページに直ちにインストールします。
+例えば、`https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` は、オプトアウト Cookie を訪問者のページに直ちにインストールします。
 
 ### シングルクリックのオプトイン
 
 ユーザーがオプトアウト Cookie を削除して、追跡を即座にオプトインできるようにします。`opt_in` と `confirm_change` の 2 つのクエリー文字列パラメーターを追加し、それぞれに `1` の値を指定します。
 
-例えば、`https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` は、訪問者のオプトアウト Cookie を直ちに削除します。
+例えば、`https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` は、訪問者のオプトアウト Cookie を直ちに削除します。
