@@ -2,10 +2,10 @@
 title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 91%
+source-wordcount: '398'
+ht-degree: 90%
 
 ---
 
@@ -27,15 +27,11 @@ ht-degree: 91%
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL トラッキングサーバー]」フィールドが表示されます。
 
-このフィールドを空白のままにすると、デフォルトでは `[rsid]sc.adobedc.net` になります。
+このフィールドを空白のままにすると、デフォルトでは `[rsid].data.adobedc.net` になります。
 
 ## AppMeasurement および Launch カスタムコードエディターの s.trackingServer
 
 `s.trackingServer` 変数は、データを送信する場所を含む文字列です。
-
->[!TIP]
->
-> 一部の実装では、データが `2o7.net` を指し示します。これは有効なデータ収集ドメインですが、地域データ収集は使用されません。`2o7.net` を使用して実装すると、イメージリクエストの応答時間が若干長くなります。
 
 ## trackingServer の値の決定
 
@@ -65,7 +61,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Adobe Analytics を使用する別の組織では採用されないような、組織に固有のサブドメインを選択します。組織に割り当てられている訪問者名前空間が推奨されます。  組織内のすべての実装で同じトラッキングサーバーを使用していることを確認します。[ソリューション設計ドキュメント](../../prepare/solution-design.md)でこの情報を維持すると役立つ場合があります。
 
-またはドメインで既にサードパーティのトラッキングサーバーを使用してい `sc.adobedc.net` る可能性があり `2o7.net` ます。  これらは主にAdobe Analyticsの以前のバージョンで使用され、現在も有効です。
+またはドメインで既にサードパーティのトラッキングサーバーを使用してい `sc.omtrdc.net` る可能性があり `2o7.net` ます。  これらは主にAdobe Analyticsの以前のバージョンで使用され、現在も有効です。
 
 >[!NOTE]
 >
