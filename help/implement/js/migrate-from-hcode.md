@@ -2,9 +2,9 @@
 title: JavaScript 版 AppMeasurement への移行
 description: H コードから実装を移行するために必要な事項を決定します。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ H コードと比較した場合、AppMeasurement には次の注目すべき変
 * 既存のページレベルの H コードは、AppMeasurement と互換性があります。
 * このライブラリは、クエリーパラメーターの取得、Cookie の読み取り／書き込み、高度なリンクトラッキングの実行のためのネイティブユーティリティを含みます。
 * このライブラリでは、動的アカウント設定変数（`dynamicAccountSelection`、`dynamicAccountMatch`、`dynamicAccountList` など）はサポートされません。
-* Survey モジュールはサポートされません。
 
 次の手順は、一般的な移行ワークフローを示しています。
 
@@ -62,7 +61,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.adobedc.net";
+s.trackingServer="example.data.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
