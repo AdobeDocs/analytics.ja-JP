@@ -5,10 +5,10 @@ title: 訪問者の移行
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 83%
+source-wordcount: '443'
+ht-degree: 77%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 83%
 
 訪問者を移行することで、データ収集ドメインを変更する際に訪問者 ID cookie を保持することができます。データ収集ドメインは、以下の場合に変更される場合があります。
 
-* `2o7.net` から `adobedc.net` に移行するとき（[Regional Data Collection](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/rdc/regional-data-collection.html)）。
+* Moving from `2o7.net` to `adobedc.net`.
 
-* [Experience Cloud訪問者IDサービスを導入している場合](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) 、CNAME/ファーストパーティのデータ収集ドメインを、または `adobedc.net1`( `2o7.net` Regional Data Collection `omtrdc.net`[](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/rdc/regional-data-collection.html))に移行しようとしています。
+* [](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)`adobedc.net``2o7.net` Experience Cloud訪問者IDサービスを導入し、CNAME/ファーストパーティデータ収集ドメインを、または、 `omtrdc.net`
 
-* `2o7.net` または `adobedc.net` から CNAME ／ファーストパーティデータ収集に移行するとき（[ファーストパーティ cookie](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html)）。
+* Moving to a cname/first-party data collection ( [First-Party Cookies)](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * 別の CNAME に移行するとき（ドメインの変更）。
 
@@ -51,7 +51,7 @@ ht-degree: 83%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>設定変更から 6 時間以上経過後：</b>Analytics の JavaScript コード内の <code> s.trackingServer</code> 変数および <code> s.trackingServerSecure</code> 変数を新しいデータ収集サーバーに変更します。 </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use the <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics コードの更新直後：</b>サイトをテストして、以前のデータ収集ドメインへのリダイレクトがおこなわれていることを確認します。 </p> </td> 
@@ -63,7 +63,3 @@ ht-degree: 83%
   </tr> 
  </tbody> 
 </table>
-
-## visitorMigrationKey 変数と visitorMigrationServer 変数の廃止 {#section_32FCEE2575944D039EA0FEBFB5814259}
-
-2013 年 3 月をもって、`visitorMigrationKey`、`visitorMigrationServer`、`visitorMigrationServerSecure` の各データ収集変数は廃止され、使用されなくなります。この変数に保存されていたデータは、現在、より安全なアドビサーバーに保存されています。
