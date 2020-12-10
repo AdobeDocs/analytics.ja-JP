@@ -1,11 +1,11 @@
 ---
 description: ダッシュボードスコアカードの使用手順。
 title: Adobe Analytics ダッシュボードエグゼクティブガイド
-translation-type: ht
-source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: ht
-source-wordcount: '1287'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
+workflow-type: tm+mt
+source-wordcount: '1293'
+ht-degree: 95%
 
 ---
 
@@ -53,13 +53,13 @@ Adobe Analytics ダッシュボードは、Adobe Analytics からの洞察をい
 
 **iOS**：
 
-次のリンク（Analytics の&#x200B;**ツール**／**ダッシュボードでも利用できます**）をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [iOS リンク](https://apple.co/2zXq0aN)：
 
 **Android**：
 
-次のリンク（Analytics の&#x200B;**ツール**／**ダッシュボードでも利用できます**）をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [Android リンク](https://bit.ly/2LM38Oo)
 
@@ -75,7 +75,7 @@ Adobe Analytics ダッシュボードは、Adobe Analytics からの洞察をい
 
    ![サインインの順序](assets/signseq.png)
 
-2. 会社を選択します。ダッシュボードにサインインすると、**会社を選択**&#x200B;画面が表示されます。この画面には、所属するログイン会社が一覧表示されます。自分と共有しているスコアカードに関連付けられている会社名をタップします。
+2. 会社を選択します。ダッシュボードにサインインすると、**[!UICONTROL 会社を選択]**&#x200B;画面が表示されます。この画面には、所属するログイン会社が一覧表示されます。自分と共有しているスコアカードに関連付けられている会社名をタップします。
 
 3. 次に、自分と共有されているすべてのスコアカードが「スコアカード」リストに表示されます。表示するスコアカードをタップします。
 
@@ -88,7 +88,7 @@ Adobe Analytics ダッシュボードは、Adobe Analytics からの洞察をい
 
    ![何も共有されていない](assets/nothing.png)
 
-4. スコアカードでタイルがどのように表示されるかを調べます（最初のスコアカードがダークモードで表示されます。詳しくは、次の「**環境設定**」を参照してください。
+4. スコアカードでタイルがどのように表示されるかを調べます（最初のスコアカードがダークモードで表示されます。詳しくは、次の「**[!UICONTROL 環境設定]**」を参照してください。
 
    ![タイルの説明](assets/newexplain.png)
 
@@ -118,7 +118,7 @@ Adobe Analytics ダッシュボードは、Adobe Analytics からの洞察をい
 
    * 同様に、上記の分類ビュー内で日付範囲を変更することもできます。
 
-   * タップした間隔（**日**、**週**、**月**、**年**）に応じて、現在の期間またはその直前の日付範囲の 2 つのオプションが表示されます。次の 2 つのオプションのいずれかをタップして、最初の範囲を選択します。「**比較**」リストで、表示されたオプションのいずれかをタップして、この期間のデータを選択した最初の日付範囲と比較します。画面右上の「**完了**」をタップします。「**日付範囲**」フィールドとスコアカードタイルは、選択した新しい範囲の新しい比較データで更新されます。
+   * タップした間隔（**日**、**週**、**月**、**年**）に応じて、現在の期間またはその直前の日付範囲の 2 つのオプションが表示されます。次の 2 つのオプションのいずれかをタップして、最初の範囲を選択します。「**[!UICONTROL 比較]**」リストで、表示されたオプションのいずれかをタップして、この期間のデータを選択した最初の日付範囲と比較します。画面右上の「**[!UICONTROL 完了]**」をタップします。「**[!UICONTROL 日付範囲]**」フィールドとスコアカードタイルは、選択した新しい範囲の新しい比較データで更新されます。
 
 7. スコアカードにセグメントフィルターを適用するには、フィルタードロップダウンをタップし、キュレーターが設定したセグメントを選択します。アプリの[フィルター](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)は、Analytics Workspace と同様に機能します。
 
@@ -129,12 +129,12 @@ Adobe Analytics ダッシュボードは、Adobe Analytics からの洞察をい
 9. アプリケーションでフィードバックを残す手順は、次のとおりです。
 
    1. アプリケーション画面の右上にある設定アイコンをタップします。
-   2. **設定**&#x200B;画面で、「**フィードバック**」オプションをタップします。
+   2. **[!UICONTROL 設定]**&#x200B;画面で、「**[!UICONTROL フィードバック]**」オプションをタップします。
    3. タップして、フィードバックを残すためのオプションを表示します。
 
       ![設定画面](assets/settings.png)
 
-10. 環境設定を変更するには、上記の「**環境設定**」オプションをタップします。環境設定で、生体認証ログインをオンにするか、次に示すようにアプリケーションのダークモードを設定できます。
+10. 環境設定を変更するには、上記の「**[!UICONTROL 環境設定]**」オプションをタップします。環境設定で、生体認証ログインをオンにするか、次に示すようにアプリケーションのダークモードを設定できます。
 
    ![ダークモード](assets/darkmode.png)
 
