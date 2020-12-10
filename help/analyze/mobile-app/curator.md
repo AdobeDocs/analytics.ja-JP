@@ -2,10 +2,10 @@
 description: ダッシュボードのスコアカードを設定する手順
 title: Adobe Analytics ダッシュボードキュレーターガイド
 translation-type: tm+mt
-source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 94%
+source-wordcount: '2380'
+ht-degree: 83%
 
 ---
 
@@ -51,40 +51,40 @@ Adobe Analytics ダッシュボードは、Adobe Analytics からの洞察をい
 
 スコアカードを作成するには、次の手順を実行する必要があります。
 
-1. 「空のモバイルスコアカード」テンプレートにアクセスします。
+1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. スコアカードにデータを構成し、保存します。
 
-### 「空のモバイルスコアカード」テンプレートへのアクセス
+### Access the [!UICONTROL Blank Mobile Scorecard] template
 
-「空のモバイルスコアカード」テンプレートにアクセスするには以下の方法があります。
+You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
 
 **新規プロジェクトを作成**
 
-1. Adobe Analytics を開いて「**ワークスペース**」タブをクリックします。
-2. 「**新規プロジェクトを作成**」ボタンをクリックして、「**空のモバイルスコアカード**」プロジェクトテンプレートを選択します。
-3. 「**作成**」ボタンをクリックします。
+1. Adobe Analytics を開いて「**[!UICONTROL ワークスペース]**」タブをクリックします。
+2. 「**[!UICONTROL 新規プロジェクトを作成]**」ボタンをクリックして、「**[!UICONTROL 空のモバイルスコアカード]**」プロジェクトテンプレートを選択します。
+3. 「**[!UICONTROL 作成]**」ボタンをクリックします。
 
 ![スコアカードテンプレート](assets/new_template.png)
 
 **プロジェクトを追加**
 
-**プロジェクト**&#x200B;画面の「**コンポーネント**」タブで、「**追加**」ボタンをクリックし、「**モバイルスコアカード**」を選択します。
+**[!UICONTROL プロジェクト]**&#x200B;画面の「**[!UICONTROL コンポーネント]**」タブで、「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL モバイルスコアカード]**」を選択します。
 
 ![プロジェクトを追加](assets/add_project.png)
 
-**Analytics ツールの使用**
+**ツールの使用 [!DNL Analytics]**
 
-Analytics で、**ツール**&#x200B;メニューをクリックして「**ダッシュボード**」を選択します。次の画面で、「**スコアカードの作**&#x200B;成」ボタンをクリックします。
+In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
 
 ### スコアカードでのデータの構成と保存
 
 スコアカードテンプレートを実装する手順は、次のとおりです。
 
-1. 右側のハンドレイルの「**プロパティ**」で、データを使用する&#x200B;**プロジェクトレポートスイート**&#x200B;を指定します。
+1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
 
    ![レポートスイートの選択](assets/properties_save.png)
 
-2. スコアカードに新しいタイルを追加するには、左のパネルから指標をドラッグし、「**ここに指標をドラッグ＆ドロップ**」にドロップします。同様のワークフローを使用して、2 つのタイル間に指標を挿入することもできます。
+2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. 同様のワークフローを使用して、2 つのタイル間に指標を挿入することもできます。
 
    ![タイルの追加](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
    *各タイルから、関連ディメンションのリストの上位アイテムなど、指数に関する追加情報を表示する詳細ビューにアクセスできます。*
 
 
-3. 指標に関連ディメンションを追加するには、左のパネルからディメンションをドラッグし、タイルにドロップします。例えば、適切なディメンション（この例では **DMA 地域**）をタイルにドラッグ＆ドロップして、**個別訪問者数**&#x200B;指標に追加できます。追加したディメンションは、タイル固有の&#x200B;**プロパティ**&#x200B;の分類セクションに表示されます。タイルごとに複数のディメンションを追加できます。
+3. 指標に関連ディメンションを追加するには、左のパネルからディメンションをドラッグし、タイルにドロップします。For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. タイルごとに複数のディメンションを追加できます。
 
    ![ディメンションの追加](assets/layer_dimensions.png)
 
    スコアカードキャンバスにディメンションをドロップして、すべてのタイルにディメンションを追加することもできます。
 
-   スコアカードビルダーでタイルをクリックすると、右側のレールにそのタイルに関連付けられているプロパティと特性が表示されます。このレールでは、タイルに新しい&#x200B;**タイトル**&#x200B;を指定したり、左側のレールからコンポーネントをドラッグ＆ドロップするのではなく、コンポーネントを指定してタイルを構成したりできます。
+   スコアカードビルダーでタイルをクリックすると、右側のレールにそのタイルに関連付けられているプロパティと特性が表示されます。このレールでは、タイルに新しい&#x200B;**[!UICONTROL タイトル]**&#x200B;を指定したり、左側のレールからコンポーネントをドラッグ＆ドロップするのではなく、コンポーネントを指定してタイルを構成したりできます。
 
    また、タイルをクリックすると、動的なポップアップに、アプリケーション内のエグゼクティブユーザーに分類ビューがどのように表示されるかが表示されます。ディメンションがタイルに適用されていない場合、分類ディメンションは、デフォルトの日付範囲に応じて、**時間**&#x200B;または&#x200B;**日**&#x200B;になります。
 
@@ -106,21 +106,21 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
 
    タイルに追加された各ディメンションは、アプリケーションの詳細ビューのドロップダウンリストに表示されます。エグゼクティブユーザーは、ドロップダウンリストにリストされたオプションから選択できるようになります。
 
-4. 個々のタイルにセグメントを適用するには、左パネルからセグメントをドラッグし、タイルの上に直接ドロップします。スコアカード内のすべてのタイルにセグメントを適用する場合は、スコアカードの上にタイルをドロップします。または、日付範囲の下にあるフィルターメニューでセグメントを選択して、セグメントを適用することもできます。[スコアカードに対するフィルターの構成と適用](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)は、Adobe Analytics Workspace と同じ方法でおこないます。
+4. 個々のタイルにセグメントを適用するには、左パネルからセグメントをドラッグし、タイルの上に直接ドロップします。スコアカード内のすべてのタイルにセグメントを適用する場合は、スコアカードの上にタイルをドロップします。または、日付範囲の下にあるフィルターメニューでセグメントを選択して、セグメントを適用することもできます。[スコアカードに対するフィルターの構成と適用](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)は、Adobe Analytics Workspace と同じ方法でおこないます。
 
    ![フィルター用のセグメントの作成](assets/segment_ui.png)
 
-5. 同様に、スコアカード全体に適用されるコンポーネントを削除するには、タイルの外側のスコアカード上の任意の場所をクリックし、コンポーネントにカーソルを合わせたときに表示される「**x**」をクリックして削除します。**モバイル顧客**&#x200B;セグメントについては以下に示します。
+5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
 
    ![Remove_components](assets/new_remove.png)
 
-6. スコアカードの&#x200B;**プロパティ**&#x200B;では、オプションで次も指定できます。
+6. スコアカードの&#x200B;**[!UICONTROL プロパティ]**&#x200B;では、オプションで次も指定できます。
 
-   * **デフォルト日付範囲**：ここで指定する範囲は、エグゼクティブユーザーがアプリケーションのスコアカードに最初にアクセスしたときに適用される範囲と同じです。
+   * A **[!UICONTROL Default date range]**. ここで指定する範囲は、エグゼクティブユーザーがアプリケーションのスコアカードに最初にアクセスしたときに適用される範囲と同じです。
 
-   * **比較日付範囲**
+   * A **[!UICONTROL Comparison date range]**
 
-   * スコアカード全体に適用する&#x200B;**セグメント**
+   * スコアカード全体に適用する&#x200B;**[!UICONTROL セグメント]**
 
 7. スコアカードに名前を付けるには、画面の左上にある名前空間をクリックして、新しい名前を入力します。
 
@@ -130,22 +130,22 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
 
 エグゼクティブユーザーとスコアカードを共有する手順は、次のとおりです。
 
-1. **共有**&#x200B;メニューをクリックし、「**スコアカードの共有**」を選択します。
+1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
 
-2. 共有フォームに入力します&#x200B;**。**
+2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
    * スコアカードの名前を指定します。
    * スコアカードの説明を指定します。
    * 関連するタグを追加します。
    * スコアカード受信者を指定します。
 
-3. 「**共有**」をクリックします。
+3. 「**[!UICONTROL 共有]**」をクリックします。
 
 ![Share_Scorecards](assets/new_share.png)
 
 受信者は、共有したスコアカードに Analytics ダッシュボードでアクセスできます。その後、スコアカードビルダーでスコアカードに変更を加えると、共有されたスコアカードが自動的に更新されます。エグゼクティブユーザーがアプリケーションのスコアカードを更新すると、変更が表示されます。
 
-新しいコンポーネントを追加してスコアカードを更新する場合、エグゼクティブユーザーがこれらの変更にアクセスできることを確認するために、スコアカードを再度共有する（および「**埋め込みコンポーネントを共有**」オプションをオンにする）ことができます。
+新しいコンポーネントを追加してスコアカードを更新する場合、エグゼクティブユーザーがこれらの変更にアクセスできることを確認するために、スコアカードを再度共有する（および「**[!UICONTROL 埋め込みコンポーネントを共有]**」オプションをオンにする）ことができます。
 
 ## アプリを使用したエグゼクティブユーザーの設定
 
@@ -159,7 +159,7 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
 * ユーザーに Adobe Analytics への有効なログインがある
 * モバイルスコアカードを正しく作成し、共有している
 * ユーザーが Analysis Workspace およびスコアカードが基づくレポートスイートにアクセスできる
-* ユーザーがスコアカードに含まれるコンポーネントにアクセスできるスコアカードを共有する際に、「**埋め込みコンポーネントを共有**」オプションを選択できることにご注意ください。
+* ユーザーがスコアカードに含まれるコンポーネントにアクセスできるスコアカードを共有する際に、「**[!UICONTROL 埋め込みコンポーネントを共有]**」オプションを選択できることにご注意ください。
 
 ### エグゼクティブユーザーのアプリケーション使用
 
@@ -169,22 +169,22 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
 
    **iOS**：
 
-   * 次のリンク（Analytics の&#x200B;**ツール**／**ダッシュボードでも利用できます**）をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [iOS リンク](https://apple.co/2zXq0aN)：
    **Android**：
 
-   * 次のリンク（Analytics の&#x200B;**ツール**／**ダッシュボードでも利用できます**）をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Android リンク](https://bit.ly/2LM38Oo)
    ダウンロードしてインストールすると、エグゼクティブユーザーは既存の Adobe Analytics 資格情報を使用してアプリケーションにサインインできます。Adobe ID または Enterprise／Federated ID を使用できます。
 
    ![アプリケーションのスタートアップスクリーン](assets/welcome.png)
 
-2. スコアカードへのアクセスを支援します。エグゼクティブユーザーがアプリケーションにサインインすると、**会社を選択**&#x200B;画面が表示されます。この画面には、エグゼクティブユーザーが所属するログイン会社が表示されます。スコアカードにアクセスする手順は、次のとおりです。
+2. スコアカードへのアクセスを支援します。エグゼクティブユーザーがアプリケーションにサインインすると、**[!UICONTROL 会社を選択]**&#x200B;画面が表示されます。この画面には、エグゼクティブユーザーが所属するログイン会社が表示されます。スコアカードにアクセスする手順は、次のとおりです。
 
    * 共有したスコアカードに適用されるログイン会社または Experience Cloud 組織の名前をタップします。次に、スコアカードリストに、そのログイン会社のエグゼクティブと共有されているすべてのスコアカードが表示されます。
-   * 該当する場合は、**最近変更された項目**&#x200B;で、このリストを並べ替えます。
+   * 該当する場合は、**[!UICONTROL 最近変更された項目]**&#x200B;で、このリストを並べ替えます。
    * スコアカードの名前をタップして表示します。
 
    ![会社を選択](assets/accesscard.png)
@@ -201,7 +201,7 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
    * エグゼクティブユーザーが適切な Analytics インスタンスにログインでき、スコアカードが共有されていることを確認します。
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
 
    ![タイルの説明](assets/newexplain.png)
 
@@ -231,17 +231,17 @@ Analytics で、**ツール**&#x200B;メニューをクリックして「**ダ�
 
    * 同様に、上記の分類ビュー内で日付範囲を変更することもできます。
 
-   * タップした間隔（**日**、**週**、**月**、**年**）に応じて、現在の期間またはその直前の日付範囲の 2 つのオプションが表示されます。次の 2 つのオプションのいずれかをタップして、最初の範囲を選択します。「**比較**」リストで、表示されたオプションのいずれかをタップして、この期間のデータを選択した最初の日付範囲と比較します。画面右上の「**完了**」をタップします。「**日付範囲**」フィールドとスコアカードタイルは、選択した新しい範囲の新しい比較データで更新されます。
+   * タップした間隔（**日**、**週**、**月**、**年**）に応じて、現在の期間またはその直前の日付範囲の 2 つのオプションが表示されます。次の 2 つのオプションのいずれかをタップして、最初の範囲を選択します。「**[!UICONTROL 比較]**」リストで、表示されたオプションのいずれかをタップして、この期間のデータを選択した最初の日付範囲と比較します。画面右上の「**[!UICONTROL 完了]**」をタップします。「**[!UICONTROL 日付範囲]**」フィールドとスコアカードタイルは、選択した新しい範囲の新しい比較データで更新されます。
 
 6. アプリケーションでフィードバックを残す手順は、次のとおりです。
 
    1. アプリケーション画面の右上にある設定アイコンをタップします。
-   2. **設定**&#x200B;画面で、「**フィードバック**」オプションをタップします。
+   2. **[!UICONTROL 設定]**&#x200B;画面で、「**[!UICONTROL フィードバック]**」オプションをタップします。
    3. タップして、フィードバックを残すためのオプションを表示します。
 
       ![設定画面](assets/settings.png)
 
-7. 環境設定を変更するには、上記の「**環境設定**」オプションをタップします。環境設定で、生体認証ログインをオンにするか、次に示すようにアプリケーションのダークモードを設定できます。
+7. 環境設定を変更するには、上記の「**[!UICONTROL 環境設定]**」オプションをタップします。環境設定で、生体認証ログインをオンにするか、次に示すようにアプリケーションのダークモードを設定できます。
 
    ![ダークモード](assets/darkmode.png)
 
