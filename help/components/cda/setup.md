@@ -2,10 +2,10 @@
 title: クロスデバイス分析の設定
 description: CDA を有効にする仮想レポートスイートを設定します。
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 91%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -18,9 +18,16 @@ ht-degree: 91%
 >
 >これらの手順を実行する前に、すべての前提条件を満たす必要があります。すべての前提条件が満たされていない場合、この機能は使用できないか、機能しません。前提条件と制限事項については、[概要ページ](overview.md)、および目的のステッチ方法（それぞれ[フィールドベースのステッチ](field-based-stitching.md) 、 [デバイスグラフ](device-graph.md)）を参照してください。
 
-## CDA に対して有効にするクロスデバイスレポートスイートを選択する
+## お客様のサクセスマネージャーに問い合わせて、CDAをデバイス間のレポートスイートでプロビジョニングするよう依頼します
 
-組織が CDA を使用するようにプロビジョニングされている場合は、使用するレポートスイートを選択します。この選択は、アドビのアカウントマネージャーを通じて伝えることができます。その後、アドビは選択したレポートスイートを、CDA 処理で使用できるようにします。
+CDAは、デバイス間のレポートスイートで、Adobeエンジニアリングによってプロビジョニングされます。 次の情報については、カスタマーサクセスマネージャーにお問い合わせください。
+
+* Adobe Experience Cloud組織ID（英数字の末尾が@AdobeOrgの文字列）
+* CDAで有効にするデバイス間のレポートスイートのレポートスイートID
+* 使用するCDAの方法(フィールドベースのステッチ、Adobeのプライベートグラフ、Adobe協力グラフ)
+* フィールドベースのステッチを使用する場合は、ユーザーIDを含むpropまたはeVar
+
+この情報をCSMに提供したら、Adobeエンジニアリングと連携して、選択したレポートスイートをCDA処理用に有効にします。
 
 ## クロスデバイス仮想レポートスイートを作成して、クロスデバイス表示を確認する
 
@@ -43,7 +50,7 @@ ht-degree: 91%
 仮想レポートスイートでクロスデバイス分析が有効になっている場合は、次の変更点に注意してください。
 
 * 仮想レポートスイート名の横に、新しいクロスデバイスアイコンが表示されます。このアイコンは、クロスデバイス仮想レポートスイートにのみ使用できます。
-* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. このディメンションは、そのヒットの Experience Cloud ID が、その時点のデバイスグラフで判明しているかどうかを指定します。
-* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
-* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
+* [Identified state](../dimensions/identified-state.md)というラベルの付いた新しいディメンションを使用できます。 このディメンションは、そのヒットの Experience Cloud ID が、その時点のデバイスグラフで判明しているかどうかを指定します。
+* [ユーザー](../metrics/people.md)と[個別デバイス](../metrics/unique-devices.md)というラベルの付いた新しい指標を利用できます。
+* 指標[実訪問者数](../metrics/unique-visitors.md)は、&#39;People&#39;と&#39;Unique Devices&#39;に置き換えられるので、使用できません。
 * セグメントを作成する際、「訪問者」セグメントコンテナは「人」コンテナに置き換えられます。
