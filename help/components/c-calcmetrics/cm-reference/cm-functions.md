@@ -2,11 +2,11 @@
 description: 計算指標ビルダーを使用すると、統計関数と数学関数を適用して、高度な計算指標を作成できます。
 title: リファレンス：基本的な関数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1056'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!DNL metric] が関数の引数として特定されている場合は、指標の他の式も許可されます。例えば、[!DNL MAXV(metrics)] を [!DNL MAXV(PageViews + Visits).] としてもかまいません。
+>[!DNL metric] が関数の引数として特定されている場合は、指標の他の式も許可されます。例えば、[!DNL MAXV(metrics)]は[!DNL MAXV(PageViews + Visits)]も許可します。
 
 ## 表関数と行関数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -101,9 +101,9 @@ EXP(metric)
 
 累乗演算子
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y 回)
-</pre>
+```
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+```
 
 ## 平均値（表） {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -161,24 +161,10 @@ modulo(modulo(x,y)+y,y)
 PERCENTILE(metric,k)
 ```
 
-<table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 引数 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i> metric</i>  </td> 
-   <td colname="col2"> 相対的な値を定義する指標列です。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> 0 ～ 100（0 と 100 を含む）の範囲のパーセンタイル値です。 </td> 
-  </tr> 
- </tbody> 
-</table>
+| 引数 | 説明 |
+| --- | --- |
+| *metric*  | 相対的な値を定義する指標列です。 |
+| *k* | 0 ～ 100（0 と 100 を含む）の範囲のパーセンタイル値です。 |
 
 ## 四分位数（表） {#concept_BFD37F0F23A24AD181407142233FA151}
 
@@ -188,24 +174,10 @@ PERCENTILE(metric,k)
 QUARTILE(metric,quart)
 ```
 
-<table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 引数 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i> metric</i>  </td> 
-   <td colname="col2"> 四分位数を求める指標です。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> 四分位数として返す値*を示します。 </td> 
-  </tr> 
- </tbody> 
-</table>
+| 引数 | 説明 |
+| --- | --- |
+| *metric*  | 四分位数を求める指標です。 |
+| *quart* | 四分位数として返す値*を示します。 |
 
 **quart* = 0 の場合、QUARTILE は最小値を返します。*quart* = 1 の場合、QUARTILE は第 1 四分位数（25 番目のパーセンタイル）を返します。*quart* = 2 の場合、QUARTILE は第 1 四分位数（50 番目のパーセンタイル）を返します。*quart* = 3 の場合、QUARTILE は第 1 四分位数（75 番目のパーセンタイル）を返します。*quart* = 4 の場合、QUARTILE は最大値を返します。
 
@@ -224,9 +196,9 @@ ROUND(metric)
 桁数パラメーターのない丸めは、桁数パラメーターが 0 の丸めと同じで、直近の整数に丸めます。桁数パラメーターがある場合、小数の右側が指定された桁数の値が返されます。桁数が負数の場合、小数の左側の指定された桁数が 0 として返されます。
 
 ```
-round( 314.15, 0) = 314 
-round( 314.15, 1) = 314.1 
-round( 314.15, -1) = 310 
+round( 314.15, 0) = 314
+round( 314.15, 1) = 314.1
+round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
@@ -255,7 +227,7 @@ SQRT(metric)
 ```
 
 | 引数 | 説明 |
-|---|---|
+| --- | --- |
 | *数値* | 平方根を求める指標です。 |
 
 ## 標準偏差（表） {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
@@ -266,24 +238,15 @@ STDEV の式は次のようになります。
 
 ![](assets/std_dev.png)
 
-ここで、x はサンプルの平均値（*metric*）であり、*n* はサンプルサイズです。
+*x*&#x200B;は各サンプルの値(*metric*)、*x̄*&#x200B;は母集団の平均、*n*&#x200B;は母集団の大きさです。
 
 ```
 STDEV(metric)
 ```
 
-<table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
- <tbody> 
-  <tr> 
-   <td> <b> 引数</b> </td> 
-   <td> <b> 説明</b> </td> 
-  </tr> 
-  <tr> 
-   <td> <b> <i>metric</i> </b> </td> 
-   <td> <p> 標準偏差に必要な指標です。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 引数 | 説明 |
+| --- | --- |
+| *metric*  | 標準偏差に必要な指標です。 |
 
 ## 平方偏差（表） {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -293,23 +256,21 @@ VARIANCE の式は次のようになります。
 
 ![](assets/variance_eq.png)
 
-ここで、x はサンプルの平均値 MEAN(*metric*) であり、*n* はサンプルサイズです。
+*x*&#x200B;は各サンプルの値(*metric*)、*x̄*&#x200B;は母集団の平均、*n*&#x200B;は母集団の大きさです。
 
 ```
 VARIANCE(metric)
 ```
 
 | 引数 | 説明 |
-|---|---|
+| --- | --- |
 | *metric*  | 平方偏差を求める指標です。 |
 
 平方偏差を計算するには、数字の列全体を見ます。まず、すべての数字の平均を求めます。平均を求めたら、各数字に対して次の計算をおこないます。
 
 1. 数字から平均を減算します。
-
-2. 結果を 2 乗します。
-
-3. その結果を合計に加算します。
+1. 結果を 2 乗します。
+1. その結果を合計に加算します。
 
 この計算をすべての数字に対して実行し、1 つの合計を求めます。その合計を列内にある数字の個数で除算します。その結果が列の平方偏差です。平方偏差は単一の数字です。ただし、数字の列として表示されます。
 
@@ -321,10 +282,4 @@ VARIANCE(metric)
 
 3
 
-この列の平均は 2 です。この列の平方偏差は、((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3 です。Ad Hoc Analysis では、次のようになります。
-
-1 2/3
-
-2 2/3
-
-3 2/3
+この列の平均は 2 です。この列の平方偏差は、((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3 です。
