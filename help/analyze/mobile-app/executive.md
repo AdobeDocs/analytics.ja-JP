@@ -1,11 +1,11 @@
 ---
 description: ダッシュボードスコアカードの使用手順。
 title: Adobe Analytics ダッシュボードエグゼクティブガイド
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,13 +53,13 @@ Adobe Analytics ダッシュボードは、Adobe Analytics からの洞察をい
 
 **iOS**：
 
-Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+次のリンク（Analytics の&#x200B;**[!UICONTROL ツール]**／**[!UICONTROL Analytics ダッシュボード（モバイルアプリ）]**&#x200B;でも利用できます）をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
 
 [iOS リンク](https://apple.co/2zXq0aN)：
 
 **Android**：
 
-Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+次のリンク（Analytics の&#x200B;**[!UICONTROL ツール]**／**[!UICONTROL Analytics ダッシュボード（モバイルアプリ）]**&#x200B;でも利用できます）をクリックし、画面の指示に従ってアプリをダウンロード、インストールし、開きます。
 
 [Android リンク](https://bit.ly/2LM38Oo)
 
@@ -120,7 +120,7 @@ Click the following link (it is also available in Analytics under **[!UICONTROL 
 
    * タップした間隔（**日**、**週**、**月**、**年**）に応じて、現在の期間またはその直前の日付範囲の 2 つのオプションが表示されます。次の 2 つのオプションのいずれかをタップして、最初の範囲を選択します。「**[!UICONTROL 比較]**」リストで、表示されたオプションのいずれかをタップして、この期間のデータを選択した最初の日付範囲と比較します。画面右上の「**[!UICONTROL 完了]**」をタップします。「**[!UICONTROL 日付範囲]**」フィールドとスコアカードタイルは、選択した新しい範囲の新しい比較データで更新されます。
 
-7. スコアカードにセグメントフィルターを適用するには、フィルタードロップダウンをタップし、キュレーターが設定したセグメントを選択します。アプリの[フィルター](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)は、Analytics Workspace と同様に機能します。
+7. スコアカードにセグメントフィルターを適用するには、フィルタードロップダウンをタップし、キュレーターが設定したセグメントを選択します。アプリの[フィルター](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)は、Analytics Workspace と同様に機能します。
 
    ![セグメントフィルター](assets/segment_filter.png)
 
