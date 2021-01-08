@@ -2,11 +2,11 @@
 title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントリポジトリの大幅なアップデート。
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 93%
 
 ---
 
@@ -20,10 +20,11 @@ ht-degree: 100%
 * 新機能について詳しくは、ツールユーザーガイドの [Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
 * オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)を参照してください。
 
-## アップデートの詳細
+## メジャー更新の詳細
 
 | 日付 | 説明 |
 |---|---|
+| 2020年11月 | 新しい導入レビュードキュメント: <ul><li>[完全な実装の確認](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[重点的な導入の検討](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
 | 2020 年 7 月 22 日 | [クロスデバイス分析](/help/components/cda/overview.md)の主なアップデートとリビジョン。[フィー ルドベースのステッチ](/help/components/cda/field-based-stitching.md)を追加しました。 |
 | 2020 年 4 月 29 日 | [コンテンツ速度](/help/components/metrics/content-velocity.md)指標に関するドキュメントを追加しました。 |
 | 2020 年 3 月 13 日 | [Experience Cloud へのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)にアップデートを追加しました。 |
@@ -38,7 +39,7 @@ ht-degree: 100%
 | 2020 年 1 月 14 日 | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies.md) を追加しました。 |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019 年 11 月 26 日 | [IP ログイン制限実施の提供終了](/help/admin/company/login-restrictions-eol.md)に関する新しいトピック。 |
-| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://docs.adobe.com/content/help/ja-JP/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
+| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
 | 2019 年 9 月 29 日 | [JavaScript 実装の設定変数](/help/implement/vars/config-vars/configuration-variables.md)に関する新しい記事を追加しました。 |
 | 2019 年 9 月 13 日 | [Journey IQ：クロスデバイス分析](/help/components/cda/overview.md)に関する新しい記事を追加しました。 |
 | 2019 年 8 月 29 日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/analyze/pwa/pwa.md)に関する新しい記事を追加しました。 |
