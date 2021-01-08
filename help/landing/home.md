@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics テクニカルドキュメントガイド
 description: Analytics のユーザーガイドとリソース
-translation-type: ht
-source-git-commit: 13fefcf8f743d1890044e2ac6b5864846d2c8cb7
-workflow-type: ht
-source-wordcount: '447'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 100%
 
 [![統合](assets/integrate_50px.png)](/help/integrate/home.md) [統合ガイド](/help/integrate/home.md) – Audience Manager、Advertising Cloud、Target といった他の Adobe Experience Cloud ソリューションとの統合を設定します。
 
-[![ストリーミングメディア解析](assets/media_50px.png)](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) [ストリーミングメディア解析ガイド](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) - ストリーミングメディア用 Adobe Analytics の実装これには、メディア SDK とメディアコレクション API が含まれます。
+[![ストリーミングメディア解析](assets/media_50px.png)](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) [ストリーミングメディア解析ガイド](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - ストリーミングメディア用 Adobe Analytics の実装これには、メディア SDK とメディアコレクション API が含まれます。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) [Data Workbench ガイド](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) – [!UICONTROL Data Workbench] の非常に柔軟で強力なマルチチャネル機能について説明します。[!UICONTROL Data Workbench クライアント]、インストール、[!UICONTROL データセット設定]ガイドなどが含まれます。
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) [Data Workbench ガイド](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – [!UICONTROL Data Workbench] の非常に柔軟で強力なマルチチャネル機能について説明します。[!UICONTROL Data Workbench クライアント]、インストール、[!UICONTROL データセット設定]ガイドなどが含まれます。
 
 [![テクニカルノート](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics テクニカルノート](/help/technotes/home.md) – 特定の分析ツールやコンポーネントに特化していない、一般的な役立つ記事を含むナレッジベースです。
 
 | 新しいトピックおよび注目すべきトピック | 主な Analytics リソース |
 | --- | --- |
-| <ul><li>[地域データ収集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 製品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>参照：[2019 年ドキュメントのアップデート](doc-updates.md) | <ul><li> [リリースノート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics ビデオチュートリアル](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/overview.html)</li><li>[Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[トレーニング（教室内および仮想教室）](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/support/analytics.html)</li></ul> |
+| <ul><li>[完全な実装の確認](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[重点的な導入の検討](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li><li>[地域データ収集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 製品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br>参照：[2019 年ドキュメントのアップデート](doc-updates.md) | <ul><li> [リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja-JP)</li><li> [Adobe Analytics ビデオチュートリアル](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/overview.html)</li><li>[Analytics コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[トレーニング（教室内および仮想教室）](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
