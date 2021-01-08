@@ -5,10 +5,10 @@ user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: 'どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。 '
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 93%
+source-wordcount: '485'
+ht-degree: 94%
 
 ---
 
@@ -203,9 +203,9 @@ ht-degree: 93%
    + [パケット監視](validate/packet-monitor.md)
    + [ハッシュの競合](validate/hash-collisions.md)
 + [よくある質問](faq.md)
-+ 導入を確認する {#review}
-   + [マイナーな導入レビュー（各Webサイトリリース後）](review/minor-review.md)
-   + [主な導入レビュー（6か月ごと）](review/major-review.md)
++ 導入を確認{#review}
+   + [重点レビュー（各Webサイトリリース後）](review/focused-review.md)
+   + [フルレビュー（6か月ごと）](review/full-review.md)
    + [上位5件のKPIの定義](review/define-kpis.md)
 + Analytics での XDM データの使用 {#aep-edge}
    + [AEP Web SDK を使用する](aep-edge/xdmoverview.md)
