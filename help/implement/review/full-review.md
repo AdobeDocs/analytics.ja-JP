@@ -2,9 +2,9 @@
 title: 完全なレビュー
 description: 6か月ごとに導入状況を確認し、ビジネスニーズとKPIとの整合性を維持します。
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 2.指標と変数が引き続き正常に機能していることを確認します。
 
-ビジネスにとって重要な順番で、すべての指標と変数を簡単に確認し、データが正しく収集されていることを確認します。 トップ5のKPIに関連付けられた最も重要な指標や変数との開始。 次に手順を示します。
+ビジネスにとって重要な順番で、すべての指標と変数を簡単に確認し、データが正しく収集されていることを確認します。 [トップ5のKPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review)に関連付けられた指標と変数に関する開始。 次に手順を示します。
 
 * ダッシュボードを作成して、指標と変数の月別トレンド表示を確認（または各指標に対してインテリジェントアラートを設定）し、期待するデータが取得され、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を調べます。
 * [Analytics正常性ダッシュボード](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)を再実行して、指標と変数の広範なトレンドを監視します。
