@@ -2,9 +2,9 @@
 title: 重点レビュー（各Webサイトリリース後）
 description: 以下の手順に従って、導入時にエラーが発生しないようにし、KPIに沿っておく必要があります。
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,11 @@ ht-degree: 0%
 
 時間の経過と共にコードを更新すると、意図しない影響が生じる可能性があります。 [トップ5のKPI](/help/implement/review/define-kpis.md)に関連付けられているすべての指標とディメンションが、引き続き正しく機能していることを確認する必要があります。 理想的には、これはWebサイトのリリース直後に行う必要があります。ここ数か月間それを行っていない場合は、今すぐ&#x200B;**&#x200B;してください。 次に手順を示します。
 
-* **ダ** ッシュボードを作成して、これらの重要な指標と変数の時間別トレンド表示を確認します。また、各指標にインテリジェントアラートを設定し、1 ～ 2日間監視して、期待するデータが得られ、データが正しいことを確認できます。変曲点を探します。 重要な問題を直ちに修正する準備をしてください。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルール、処理ルールを確認して理由を調べます。
-* **Analyticsヘルス** ダッシュボードを再実行して、KPI指標および変数の幅広いトレンドを監視します。
+* ダッシュボードを作成して、これらの重要な指標および変数の時間別トレンド表示を確認（または各指標に対してインテリジェントアラートを設定）します。 その後、1 ～ 2日監視し、期待するデータが正しく取得され、データが正しいことを確認します。\
+   変曲点を探します。 重要な問題を直ちに修正する準備をしてください。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルール、処理ルールを確認して理由を調べます。
+* [Analytics正常性ダッシュボード](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)を再実行して、KPI指標と変数の広範なトレンドを監視します。
 
-指標と変数が正しく機能していることを確認する方法の詳細については、Adobe AnalyticsチャンピオンのSarah Owen氏から、[以下のヒント](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)をお読みください。
+*指標と変数が正しく機能していることを確認する方法について詳しくは、Adobe AnalyticsチャンピオンのSarah Owen氏から、次の [](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 情報をお読みください。*
 
 ## 3.サイトの更新されたセクションのデータをよく調べます。
 
@@ -40,6 +41,8 @@ ht-degree: 0%
 ## 5.データ品質に関するギャップを即座に解決します。
 
 状況を評価し、データの修復計画を立てます。 その後、必要な変更を行い、ドキュメントを更新し、変更を関係者に通知します。
+
+
 
 *Adobe AnalyticsチャンピオンのSarah Owen氏が提供する、お客様の多忙なスケジュールに導入のレビューを適切に表示できる自然な時期に関するビデオを、2分間ご覧ください。*
 
