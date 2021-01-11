@@ -2,11 +2,11 @@
 description: 計算指標ビルダーを使用すると、統計関数と数学関数を適用して、高度な計算指標を作成できます。
 title: リファレンス：基本的な関数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->[!DNL metric] が関数の引数として特定されている場合は、指標の他の式も許可されます。例えば、[!DNL MAXV(metrics)]は[!DNL MAXV(PageViews + Visits)]も許可します。
+>[!DNL metric] が関数の引数として特定されている場合は、指標の他の式も許可されます。例えば、[!DNL MAXV(metrics)] を [!DNL MAXV(PageViews + Visits)] としてもかまいません。
 
 ## 表関数と行関数 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -238,7 +238,7 @@ STDEV の式は次のようになります。
 
 ![](assets/std_dev.png)
 
-*x*&#x200B;は各サンプルの値(*metric*)、*x̄*&#x200B;は母集団の平均、*n*&#x200B;は母集団の大きさです。
+*x* は各サンプルの値（*指標*）、*x̄* は母集団の平均、*n* は母集団の大きさです。
 
 ```
 STDEV(metric)
@@ -256,7 +256,7 @@ VARIANCE の式は次のようになります。
 
 ![](assets/variance_eq.png)
 
-*x*&#x200B;は各サンプルの値(*metric*)、*x̄*&#x200B;は母集団の平均、*n*&#x200B;は母集団の大きさです。
+*x* は各サンプルの値（*指標*）、*x̄* は母集団の平均、*n* は母集団の大きさです。
 
 ```
 VARIANCE(metric)
