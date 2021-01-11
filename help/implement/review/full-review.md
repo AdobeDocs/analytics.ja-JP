@@ -2,9 +2,9 @@
 title: 完全なレビュー
 description: 6か月ごとに導入状況を確認し、ビジネスニーズとKPIとの整合性を維持します。
 translation-type: tm+mt
-source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
+source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ビジネスにとって重要な順番で、すべての指標と変数を簡単に確認し、データが正しく収集されていることを確認します。 [トップ5のKPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review)に関連付けられた指標と変数に関する開始。 次に手順を示します。
 
-* ダッシュボードを作成して、指標と変数の月別トレンド表示を確認（または各指標に対してインテリジェントアラートを設定）し、期待するデータが取得され、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を調べます。
+* 指標と変数の月別トレンド表示を確認するダッシュボードを作成し（または各指標に対して[インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)を設定）、期待するデータが確実に取得され、データが正しいことを確認します。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルールおよび処理ルールを調べて、その理由を調べます。
 * [Analytics正常性ダッシュボード](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)を再実行して、指標と変数の広範なトレンドを監視します。
 
 不要な指標や変数に対する実装の負荷を軽減しないでください。 ビジネスで不要になった指標または変数を無効にします。 後で削除したり再利用したりできます。
