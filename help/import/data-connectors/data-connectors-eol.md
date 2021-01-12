@@ -2,9 +2,9 @@
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 23%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 Adobe Analyticsは、10年以上にわたって、お客様のニーズを満たす、クラス最高のウェブおよびマーケティング分析ソリューションを提供することを目指してきました。 テクノロジーとビジネスのニーズが進展するにつれ、最高水準の標準を継続的に提供し、満たすよう努めています。  残念ながら、この統合を強化するAPIは、現在のAdobe Analyticsテクノロジインフラストラクチャでは、これらの標準を満たさなくなり、使用できません。
 
-Adobeは、2021年8月1日をもって、Data Connectors統合の導入を中止する予定です。 提供終了は、テクノロジー製品のライフサイクルの一部であり、Adobeは、お客様やパートナーに対して可能な限りシームレスにトランジションを行うことを意図しています。 これらの統合の多くは、AdobeExchangeを通じて利用でき、引き続き利用できます。
+**Adobeは、2021年8月1日から**、Data Connectors統合の導入を中止する予定です。提供終了は、お客様やパートナーに対して可能な限りシームレスにトランジションを行うことを目指す、あらゆるテクノロジー製品のライフサイクルとAdobeの一環です。 これらの統合の多くは、AdobeExchangeを通じて利用でき、引き続き利用できます。
 
 ## この機能の提供終了の理由を教えてください。
 
@@ -41,7 +41,7 @@ Data Connectorのお客様で、使用する統合の移行をリクエストす
 | Appfigures | AdobeExchangeへの移行 |
 | Appsee | Adobe交換で使用可能 |
 | AppsFlyer | AdobeExchangeへの移行 |
-| Aprimo Enterprise Marketingエンゲージメント |
+| Aprimo Enterprise Marketingエンゲージメント | 廃止 |
 | Apteligent | Exchangeで使用可能 |
 | BlueHornet eMarketing Suite | 廃止 |
 | ブランチ | Exchangeへの移行 |
