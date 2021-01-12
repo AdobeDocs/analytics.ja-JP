@@ -4,10 +4,10 @@ keywords: AppFigures
 title: Adobe Analytics 用 appFigures Data Connector
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 94%
+source-wordcount: '236'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->2021年中旬から後半にかけて、Adobe Data Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021年8月1日に、Adobeデータコネクタ技術の提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 Adobe Data Connector統合は、appFigures 統合モバイルアプリストア分析と、Adobe Analytics の直接のアプリ追跡機能を組み合わせることによって、組織にとって強力な分析および最適化の機会を提供します。
 
