@@ -4,11 +4,11 @@ keywords: DFA
 title: Adobe Analytics 用 DFA Data Connector
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: ht
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
-workflow-type: ht
-source-wordcount: '1731'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+workflow-type: tm+mt
+source-wordcount: '1729'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->2021 年半ばから後半にかけて、Adobe Data Connectors テクノロジーの提供終了を予定しています。[詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021年8月1日に、Adobeデータコネクタ技術の提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 ますます複雑になり、競争の激しくなる今日のオンライン市場において、広告主や代理店は、オンラインマーケティング環境の理解と広告費用対効果を向上させ続ける必要があります。広告主、代理店、パブリッシャーのそれぞれが、目標達成に役立つツールを個別に所有していますが、異なるデータシステムやプロセスからのデータを手動で集計するようでは、オンラインマーケティングキャンペーンの有効性が大幅に阻害され、最適なキャンペーンの効果を得られなかったり、データの相違や混乱を招く原因となります。
 
@@ -104,7 +104,7 @@ Floodlight サーバーは、訪問者に関するエラーを返すことがあ
 | タイムアウトおよびエラートラッキング | × | ○ | ○ |
 | ネゴシエートされたクライアント側 ID は不要 | × | × | ○ |
 
-### バージョン 1.5 について{#section-b5a3e967cfa141ea8f740612336181be}
+### バージョン 1.5 について  {#section-b5a3e967cfa141ea8f740612336181be}
 
 統合のバージョン 1.5 では、ランディングページ JavaScript に Integrate モジュールが導入されています。Integrate モジュールは、DFA 広告サーバー（ad.doubleclick.net）への固定サイズのリクエストを可能にし、これにより、以前の統合の 2K のリクエスト制限の問題に対応します。また、設定可能なタイムアウトである、*`s.maxDelay`* が導入され、ネットワークの停止が発生しても Adobe の訪問者データを引き続き収集できます。エラーやタイムアウトは、Analytics 変数にキャプチャすることもできます。
 
@@ -118,7 +118,7 @@ Floodlight サーバーは、訪問者に関するエラーを返すことがあ
 
 新しい JavaScript コードの重要な特徴は、バージョン 1.5 とバージョン 2.0 の間で実装の変更が不要であるということです。
 
-### バージョン 2.0 について{#section-afd56de0c56c4489bb5ddc5798d6709a}
+### バージョン 2.0 について  {#section-afd56de0c56c4489bb5ddc5798d6709a}
 
 DFA 統合の最新バージョンでは、Floodlight 設定全体のデータを統合できます。バージョン 2.0 以前は、個々の統合が単一の DFA 広告主に結び付けられていました。この変更により、Floodlight 設定全体のクリック数、インプレッション数およびコスト指標が、統合されたレポートスイートに含まれるようになります。また、2 つのサイトが同じ Floodlight 設定内にある場合、これらのサイト間のビュースルーもトラッキングできます。
 
@@ -128,7 +128,7 @@ DFA 統合の最新バージョンでは、Floodlight 設定全体のデータ�
 
 Floodlight 設定が DFA の共有設定の場合、バージョン 1.5 から 2.0 へのアップグレードにより、Floodlight 設定内のすべての共有広告主のコンバージョンデータがレポートスイートに含まれるようになります。
 
-### バージョン 2.0 へのアップグレード{#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
+### バージョン 2.0 へのアップグレード  {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
 次の表に、統合の新バージョンへの移行について、所有者の概要を示します。
 
