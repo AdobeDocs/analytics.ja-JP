@@ -2,11 +2,11 @@
 description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
-translation-type: ht
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
-workflow-type: ht
-source-wordcount: '8106'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+workflow-type: tm+mt
+source-wordcount: '8204'
+ht-degree: 98%
 
 ---
 
@@ -15,9 +15,21 @@ ht-degree: 100%
 
 Adobe Experience Cloud のリリースノート全体へのアクセスについては、[こちら](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja-JP)を参照してください。
 
-## 2020 年 10 月
+## 2021 年 2 月
 
-2020 年 10 月にリリースされた新機能。
+| 機能 | ターゲット日 | 説明 |
+| --- | --- | --- |
+| コンポーネントの選択 | 2021 年 2 月 5 日 | クイックインサイトで見つかったドロップダウン/ドロップゾーンコンポーネントは、Workspaceのすべてのドロップゾーンに追加されます。 この機能強化により、互換性のあるコンポーネントのドロップダウンリストから選択したり、スペースをドロップゾーンとして引き続き使用したりできます。 |
+
+
+## 2021 年 1 月
+
+| 機能 | ターゲット日 | 説明 |
+| --- | --- | --- |
+| 画像URL | 2021 年 1 月 14 日 | 公開画像URLを参照して、画像をWorkspaceプロジェクトに追加できます。 |
+| ビジュアライゼーションのソースと設定を組み合わせました。 | 2021 年 1 月 14 日 | ビジュアライゼーションのデータソースマネージャー（ドット）と設定マネージャー（歯車）は、単一のプロポーバーに組み合わされたので、同じ場所からソースと設定を簡単に管理できます。 |
+
+## 2020 年 10 月
 
 | 機能 | 説明 |
 | --- | --- |
@@ -26,12 +38,10 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 
 ## 2020 年 9 月
 
-2020 年 9 月にリリースされた新機能。
-
 | 機能 | 説明 |
 | --- | --- |
 | [単一のディメンションに対して 50,000 個の項目をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja-JP#download-items) | セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
-| [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja-JP) | <ul><li>折れ線グラフのビジュアライゼーションの X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、折れ線グラフのビジュアライゼーションの方がコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
+| [折れ線グラフのビジュアライゼーションの強化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>折れ線グラフのビジュアライゼーションの X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、折れ線グラフのビジュアライゼーションの方がコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
 | 新しい日付範囲 | 5 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲（過去 7 日間、過去 14 日間、過去 30 日間、過去 60 日間、過去 90 日間）から選択できます。 |
 
 ## 2020 年 8 月
@@ -56,7 +66,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 | Attribution IQ：カスタムルックバックウィンドウ | Attribution IQ で任意のアトリビューションモデルを設定して、レポート期間の最大 90 日前のタッチポイントを含められるようになりました。これにより、通常、前月（または過去数か月）に発生したインタラクションを考慮することで、レポートの初期に発生するイベントのアトリビューション精度を高めます。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete、および Ultimate のお客様が利用できます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja-JP#ルックバックウィンドウ) |
 | 共有 Workspace プロジェクトのプロジェクトロール | Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja-JP) |
 | 表示のみの Workspace プロジェクト | Workspace プロジェクトは、「表示可能」としてのみユーザーに共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja-JP) |
-| Workspace プロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja-JP) |
+| Workspace プロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 空白パネルの更新 | 空白パネルにパネルとビジュアライゼーションが追加され、最適な分析ワークフローを、よりシームレスに選択できるようになりました。 |
 | Quick Insights パネル（2020 年 6 月 25 日） | Quick Insights は、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。[詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Workspace の Analytics for Target パネル（2020 年 6 月 26 日） | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace で上昇率と信頼性を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -528,7 +538,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢献度分析：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ja-JP"  > トークン通知 </a> </p> </td> 
-   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。 </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
+   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。&amp;nbsp; </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>マルチバイト文字を含む CSV ファイル </p> </td> 
@@ -578,7 +588,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップのビジュアライゼーション </a> </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > トレンドビジュアライゼーションの精度セレクター </a> </p> </td> 
@@ -1031,7 +1041,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 2016 年 6 月 17 日にリリースされた新機能：
 
 * 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL Workspace]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja-JP)。2016 年 6 月 17 日現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
-* [セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
+*  [セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント。
 * 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[ベン図のビジュアライゼーションタイプ](/help/analyze/analysis-workspace/visualizations/venn.md)。
@@ -1148,7 +1158,7 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 何らかの方法でツリー構造にカラーとサイズディメンションを関連付けると、特定のカラーが特に重要な場合など、他の方法では特定困難なパターンを容易に確認することが可能です。ツリーマップの 2 つ目のメリットは、構造上、スペースを有効活用できるようになるという点です。
 
-## セグメント、指標、日付に名前を付けて保存 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## セグメント、指標、日付に名前を付けて保存   {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 Analysis Workspace セグメントビルダーで既存の（保存した）セグメントを編集する際に、「**[!UICONTROL 名前を付けて保存]**」をクリックすると、コピーが作成されます。
 
@@ -1224,7 +1234,7 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 ![](assets/anchor_Y_axis.png)
 
-## タブタイトルのプロジェクト名{#section_497C61A030984BCCA2CEA553312C3226}
+## タブタイトルのプロジェクト名  {#section_497C61A030984BCCA2CEA553312C3226}
 
 プロジェクトを保存する際、ブラウザータブのタイトルは、「`<Project Name>` - Analysis Workspace」のように表示されます。この強化は、複数のブラウザータブで複数のプロジェクトを開く場合に便利です。
 
