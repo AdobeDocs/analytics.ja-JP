@@ -3,9 +3,9 @@ description: この Adobe® Data Connectors™ 電子メール統合は、Analyt
 title: Adobe Analytics 用 DreamMail Data Connector
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '805'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->2021年中旬から後半にかけて、Adobe Data Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021年8月1日に、Adobeデータコネクタ技術の提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 この Adobe® Data Connectors™ 電子メール統合は、Analytics® の行動情報と電子メールマーケティングを組み合わせ、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
 
@@ -51,7 +51,7 @@ Data Connectors 統合を開始する前に、次の要件を満たす必要が�
 
 * **認定担当者：**&#x200B;この統合を有効にすると、貴社と Adobe, Inc. とのサービス契約、またはアドビの信頼できるパートナーとのサービス契約に従って、該当する料金が発生する可能性があります。この統合をアクティブ化することで、お客様が会社によって認定された代表者であり、お客様の会社が上記のサービス契約で定められた料金を支払うことに合意したものとします。
 * **Data Warehouse™：**&#x200B;この統合では、リマーケティングセグメントを生成するために Data Warehouse を有効にしておく必要があります。Data Warehouse を有効にしていない場合は、アドビにお問い合わせください。
-* **[!DNL ~Partner~]：**統合では、Adobe Analytics 変数（eVar）内で電子メールを取得して保存する必要があります。この「[!DNL ~Partner~]」は、[!DNL ~Partner~]システムに取り込まれたサイト上でのダウンストリーム訪問者行動（買い物かごの放棄、購入など）に関連付けられており、リマーケティング目的で利用できます。セットアッププロセスの一環として、ウィザードの指示に従い、この目的の eVar を特定する必要があります。
+* **[!DNL ~Partner~]：**&#x200B;統合では、Adobe Analytics 変数（eVar）内で電子メールを取得して保存する必要があります。この「[!DNL ~Partner~]」は、[!DNL ~Partner~] システムに取り込まれたサイト上でのダウンストリーム訪問者行動（買い物かごの放棄、購入など）に関連付けられており、リマーケティング目的で利用できます。セットアッププロセスの一環として、ウィザードの指示に従い、この目的の eVar を特定する必要があります。
 * **外部トラッキング：**&#x200B;現在、送信する各電子メールキャンペーンに対して外部トラッキングを有効にするベストプラクティスに従っていない場合は、統合を成功させるために外部トラッキングを有効にする必要があります。詳しくは、以下の「[!DNL ~Partner~]」の節を参照してください。
 * **プライバシーコンプライアンス：**&#x200B;受信者 ID または訪問者 ID の追跡を有効にすると、この機能によってサイト訪問者の個人情報を追跡する可能性があります。また、サイト訪問者に通知したり、サイト訪問者の同意を得たりするなど、貴社がプライバシーに関して適切な手順を踏む必要があることを示します。
 
