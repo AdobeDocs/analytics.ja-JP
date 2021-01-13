@@ -2,7 +2,7 @@
 title: 重点レビュー（各Webサイトリリース後）
 description: 以下の手順に従って、導入時にエラーが発生しないようにし、KPIに沿っておく必要があります。
 translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
+source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -24,7 +24,8 @@ ht-degree: 0%
 
 * ダッシュボードを作成して、これらの重要な指標と変数の時間別トレンド表示を確認します（または、各指標に対して[インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)を設定します）。 その後、1 ～ 2日監視し、期待するデータが正しく取得され、データが正しいことを確認します。 変曲点を探します。 重要な問題を直ちに修正する準備をしてください。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルール、処理ルールを確認して理由を調べます。
 * [Analytics正常性ダッシュボード](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)を再実行して、KPI指標と変数の広範なトレンドを監視します。
-   *指標と変数が正しく機能していることを確認する方法について詳しくは、Adobe AnalyticsチャンピオンのSarah Owen氏から、次の [](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 情報をお読みください。*
+
+*指標と変数が正しく機能していることを確認する方法について詳しくは、Adobe AnalyticsチャンピオンのSarah Owen氏から、次の [](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 情報をお読みください。*
 
 ## 3.サイトの更新されたセクションのデータをよく調べます。
 
