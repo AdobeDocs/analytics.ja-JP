@@ -2,10 +2,10 @@
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 23%
+source-wordcount: '536'
+ht-degree: 26%
 
 ---
 
@@ -34,68 +34,68 @@ Data Connectorのお客様で、使用する統合の移行をリクエストす
 
 | パートナー | ステータス |
 | --- | --- |
-| アクシオム | Adobe交換で使用可能 |
-| Adform | Adobe交換で使用可能 |
+| アクシオム | 廃止 |
+| Adform | 廃止 |
 | 調整 | AdobeExchangeへの移行 |
 | Adobe Campaign | AdobeExchangeへの移行 |
 | Appfigures | AdobeExchangeへの移行 |
-| Appsee | Adobe交換で使用可能 |
+| Appsee | 廃止 |
 | AppsFlyer | AdobeExchangeへの移行 |
 | Aprimo Enterprise Marketingエンゲージメント | 廃止 |
-| Apteligent | Exchangeで使用可能 |
+| Apteligent | 廃止 |
 | BlueHornet eMarketing Suite | 廃止 |
 | ブランチ | Exchangeへの移行 |
-| BrightEdge 2.0 | Exchangeで使用可能 |
+| BrightEdge 2.0 | 廃止 |
 | Bronto Software | 廃止 |
 | CheetahMail by Experienc | Exchangeへの移行 |
-| ClickTale | Exchangeで使用可能 |
+| ClickTale | 廃止 |
 | Clicktale CA | 廃止 |
-| Conductor 2.0 | Exchangeで使用可能 |
-| ContactLab 2.0 （Send Connectorに連絡） | Exchangeで使用可能 |
-| Coradiant TrueSight | Exchangeで使用可能 |
-| D&amp;B訪問者インテリジェンス | Exchangeで使用可能 |
+| Conductor 2.0 | 廃止 |
+| ContactLab 2.0 （Send Connectorに連絡） | 廃止 |
+| Coradiant TrueSight | 廃止 |
+| D&amp;B訪問者インテリジェンス | 廃止 |
 | Datran Media | 廃止 |
-| デシベルインサイト | Exchangeで使用可能 |
-| デシファー | Exchangeで使用可能 |
+| デシベルインサイト | 廃止 |
+| デシファー | 廃止 |
 | Delivra | 廃止 |
-| Demandbase CA | Exchangeで使用可能 |
+| Demandbase CA | 廃止 |
 | Demandbase v3 | 廃止 |
-| DialogTech | Exchangeで使用可能 |
+| DialogTech | 廃止 |
 | DoubleClick for Advertisers（DFA） | 廃止（More Info Here **DFA EOL PAGE**&#x200B;へのリンク） |
 | 夢 | 廃止 |
 | DREAMmail 2.0 | 廃止 |
 | 動的信号(Nital Vora) | Exchangeへの移行 |
 | eDialog Precision Central | 廃止 |
 | eC-messenger | 廃止 |
-| Emailvision Campaign Commander | Exchangeで使用可能 |
+| Emailvision Campaign Commander | 廃止 |
 | emarsys xpress | 廃止 |
 | Epsilon Harmony | Exchangeへの移行 |
-| EveryoneSocial forAdobe Analytics | Exchangeで使用可能 |
+| EveryoneSocial forAdobe Analytics | 廃止 |
 | フィクス | 廃止 |
 | 予測(v2.0) | 廃止 |
-| Foresee Feedback | Exchangeで使用可能 |
-| Gigya | Exchangeで使用可能 |
+| Foresee Feedback | 廃止 |
+| Gigya | 廃止 |
 | 傲慢さ | 廃止 |
 | Kampyle（現在はMedalia）フィードバック分析(1.1) | 廃止 |
 | Listrak | Exchangeへの移行 |
 | Lyris HQ | 廃止 |
-| MaritzCX (V 2.0) | Exchangeで使用可能 |
-| メルクル | Exchangeで使用可能 |
+| MaritzCX (V 2.0) | 廃止 |
+| メルクル | 廃止 |
 | 公式Oracleエロカ統合 | 廃止 |
 | オプティボ・ブロードメール（エピサーバ） | Exchangeへの移行 |
 | Qualtrics v2 | Exchangeへの移行 |
 | Responsys 2.0 | 廃止 |
-| Selligent | Exchangeで使用可能 |
-| seoClarity 2.0 | Exchangeで使用可能 |
+| Selligent | 廃止 |
+| seoClarity 2.0 | 廃止 |
 | Silverpop Engage（v2.0） | 廃止 |
-| シズメク | Exchangeで使用可能 |
-| SpotEffects | Exchangeで使用可能 |
+| シズメク | 廃止 |
+| SpotEffects | 廃止 |
 | StrongMail Systems, Inc | 廃止 |
 | 聖餐会！360 | 廃止 |
 | ThinData EMS | 廃止 |
-| 調整 | Exchangeで使用可能 |
+| 調整 | 廃止 |
 | 都市飛行船 | 廃止 |
-| UserZoom調査ツール | Exchangeで使用可能 |
-| WhatCounts Email | Exchangeで使用可能 |
+| UserZoom調査ツール | 廃止 |
+| WhatCounts Email | 廃止 |
 | wywy | 廃止 |
-| Yesmail Enterprise | Exchangeで使用可能 |
+| Yesmail Enterprise | 廃止 |
