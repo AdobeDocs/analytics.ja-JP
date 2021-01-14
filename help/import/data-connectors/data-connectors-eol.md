@@ -2,9 +2,9 @@
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
 translation-type: tm+mt
-source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
+source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '528'
 ht-degree: 26%
 
 ---
@@ -61,7 +61,7 @@ Data Connectorのお客様で、使用する統合の移行をリクエストす
 | Demandbase CA | 廃止 |
 | Demandbase v3 | 廃止 |
 | DialogTech | 廃止 |
-| DoubleClick for Advertisers（DFA） | 廃止（More Info Here **DFA EOL PAGE**&#x200B;へのリンク） |
+| DoubleClick for Advertisers（DFA） | 廃止 |
 | 夢 | 廃止 |
 | DREAMmail 2.0 | 廃止 |
 | 動的信号(Nital Vora) | Exchangeへの移行 |
