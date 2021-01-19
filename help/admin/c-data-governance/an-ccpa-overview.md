@@ -2,9 +2,9 @@
 description: このドキュメントでは、CCPA におけるデータ主体のアクセス権および削除権に対応するために、Adobe Analytics でどのような作業が必要かを説明します。
 title: Adobe Analytics と CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
+workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 
 アドビは、お客様自身がレポートスイートのカスタムデータのことを最も熟知していると考えているので、お客様がデータガバナンスの各種設定を指定できるようにしています。そのため Adobe Analytics にはデータガバナンス用ユーザーインターフェイスが用意されており、データ管理者であるお客様は、Analytics のレポートスイートと、レポートスイート内のすべてのディメンションと指標に[プライバシー用ラベル](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)を設定できます。お客様は、個人を直接的または間接的に特定できるデータを含むデータセット内の列を識別し、それらのデータに対するアクセス要求または削除要求を送信できます。各要求では、Analytics のデータガバナンス用ユーザーインターフェイスで設定されたラベルが、対象の要求に対応する固有識別子として扱われます。
 
-ラベルの設定方法について詳しくは、[レポートスイートのデータのラベル設定](/help//admin/c-data-governance/gdpr-setup-reportsuite.md)を参照してください。
+ラベルの設定方法について詳しくは、[レポートスイートのデータのラベル設定](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)を参照してください。
 
 ## 前提条件
 
