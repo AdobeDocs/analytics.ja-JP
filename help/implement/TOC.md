@@ -4,11 +4,11 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: 'どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 94%
    + [グローバルレポートスイートの考慮事項](prepare/global-rs.md)
    + [実装モーダル](prepare/implementation-modal.md)
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
-   + [既存のAdobe Analyticsの実施を担当](prepare/existing-implementation.md)
+   + [既存の Adobe Analytics の実装を担当する](prepare/existing-implementation.md)
 + JavaScript を使用した Analytics の実装 {#js}
    + [JavaScript の概要](js/overview.md)
    + [オプトアウトリンクの実装](js/opt-out.md)
@@ -194,7 +194,7 @@ ht-degree: 94%
    + [Analytics の Facebook インスタント記事への実装](other/fb-instant-articles.md)
 + [Analytics のモバイルデバイスへの実装](mobile-device-sdk.md)
 + 実装の使用例 {#use-cases}
-   + [iFramesでのAppMeasurementの使用](use-cases/iframe.md)
+   + [iFrames での AppMeasurement の使用](use-cases/iframe.md)
    + [異なる実装タイプでのトラッキング](use-cases/cross-type-implementation.md)
    + [外部電子メールトラッキング](use-cases/email-external.md)
 + 実装の検証 {#validate}
@@ -203,10 +203,10 @@ ht-degree: 94%
    + [パケット監視](validate/packet-monitor.md)
    + [ハッシュの競合](validate/hash-collisions.md)
 + [よくある質問](faq.md)
-+ 導入を確認{#review}
-   + [重点レビュー（各Webサイトリリース後）](review/focused-review.md)
-   + [フルレビュー（6か月ごと）](review/full-review.md)
-   + [上位5件のKPIの定義](review/define-kpis.md)
++ 実装をレビュー {#review}
+   + [重点レビュー（各 Web サイトリリース後）](review/focused-review.md)
+   + [完全なレビュー（6 か月ごと）](review/full-review.md)
+   + [上位 5 件の KPI の定義](review/define-kpis.md)
 + Analytics での XDM データの使用 {#aep-edge}
    + [AEP Web SDK を使用する](aep-edge/xdmoverview.md)
    + [XDM データの Analytics への手動マッピング](aep-edge/xdm-manual.md)
