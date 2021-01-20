@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Adobe Analyticsでの現在のサーバーコールの使用状況を表示する方法。
 title: 現在のサーバーコールの使用状況の表示
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 ![](assets/server_call_dashboard.png)
 
 | UI 用語 | 定義 |
-|---|---|
+| --- | --- |
 | 当期の使用状況（緑） | 当期の使用状況は[使用期間](/help/admin/c-server-call-usage/overage-overview.md)に基づいています。 |
 | 前期の使用状況（青） | 前期は、現在の使用期間の 1 年前と定義されます。 |
 | 使用限度（赤） | この使用期間に設定されている契約上の使用限度です。 |
