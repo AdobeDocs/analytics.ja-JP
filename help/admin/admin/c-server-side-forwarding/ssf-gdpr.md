@@ -1,20 +1,23 @@
 ---
-description: 'null'
+description: EU cookieコンプライアンス規則によって促された、サーバ側転送の改良点を説明します。
 title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 91%
 
 ---
 
 
 # GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 
-ここでは、2017 年 9 月 30 日に施行された [EU Cookie コンプライアンス規定](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)によるサーバー側転送に対する最近の機能強化について説明します。
+この節では、2017年9月30日に発効した[EU cookieコンプライアンス規則](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)によるサーバー側転送の強化について説明します。
 
 サーバー側転送は、Adobe Analytics から他の [!DNL Experience Cloud Solutions] ソリューション（Audience Manager など）にリアルタイムでデータを共有するために使用されます。サーバー側転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
 
-最近まで、サーバー側転送には、同意および同意前のイベント／ヒットを説明する方法がありませんでした。2018 年 11 月 1 日以降、データ管理者であるお客様（Adobe Analytics のお客様）には、同意前のデータを Adobe Analytics に限定して、AAM に転送しないようにするオプションがあります。新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。この変数を設定すると、同意を受け取るまで、これらのヒットは AAM に送信されません。
+以前は、サーバー側転送では、同意と事前同意のイベント/ヒットを区別する方法がありませんでした。 2018 年 11 月 1 日以降、データ管理者であるお客様（Adobe Analytics のお客様）には、同意前のデータを Adobe Analytics に限定して、AAM に転送しないようにするオプションがあります。新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。この変数を設定すると、同意を受け取るまで、これらのヒットは AAM に送信されません。
 
 この新しいコンテキスト変数「`cm.ssf=1`」がヒットに存在する場合、このヒットにはフラグが設定され、AAM へのサーバー側転送はおこなわれません。反対に、この文字列がヒットにない場合、ヒットは AAM に転送されます。
 
