@@ -4,9 +4,9 @@ title: Report Builder ツールバー
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: e1c9f4e1b534b8cc1ebc22ee8e856ec437f74840
+source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Report Builder のインストール後、Excel を起動して「**[!UICONTROL 
 
 ![](assets/report_builder_toolbar.png)
 
-**ログイン：**&#x200B;まだの場合にログインする、または別のユーザーとしてログインするための[!UICONTROL ログイン]フォームを表示します。また、ログイン後には会社名が表示されます。  [Report Builder へのログイン](/help/analyze/report-builder/setup/login.md).
+**ログイン：**&#x200B;まだの場合にログインする、または別のユーザーとしてログインするための[!UICONTROL ログイン]フォームを表示します。また、ログイン後には会社名が表示されます。 [Report Builder へのログイン](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md)を参照してください。
 
 **作成：**[!UICONTROL リクエストウィザード]を起動します。まだログインしていない場合、ログインするよう指示されます。詳しくは、[データリクエスト](/help/analyze/report-builder/data-requests/data-requests.md)を参照してください。
 
