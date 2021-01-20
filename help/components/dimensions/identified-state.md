@@ -1,22 +1,22 @@
 ---
-title: 識別された状態
+title: 特定された状態
 description: デバイスグラフによる認識を決定するフラグ。
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
 
-# 識別された状態
+# 特定された状態
 
-「識別された状態」ディメンションは、 [デバイス間のAnalytics](../cda/overview.md) 仮想レポートスイートに固有です。 レポートの実行時にExperience CloudグラフでデバイスIDが認識されたかどうかを報告します。 このディメンションは、CDAによるデータのステッチ（「圧縮」）の精度を理解するのに役立ちます。
+「識別された状態」ディメンションは、[デバイス間分析](../cda/overview.md)仮想レポートスイートに固有です。 レポートの実行時にExperience CloudグラフでデバイスIDが認識されたかどうかを報告します。 このディメンションは、CDAによるデータのステッチ（「圧縮」）の精度を理解するのに役立ちます。
 
 ## このディメンションへのデータ入力
 
-仮想レポートスイート用に [クロスデバイス分析](../cda/overview.md) が設定されている限り、このディメンションは初期設定の状態で機能します。
+仮想レポートスイート用に[デバイス間分析](../cda/overview.md)が設定されている限り、このディメンションは初期設定のままで機能します。
 
 ## ディメンション項目
 
