@@ -4,11 +4,11 @@ keywords: Analytics Implementation
 title: アトリビューションと持続性
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。『コンポーネントユーザガイド』の「[クロスデバイス分析](/help/components/cda/overview.md)」を参照してください。
+>デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。コンポーネントユーザーガイドの[デバイス間分析](/help/components/cda/overview.md)を参照してください。
 
 複数の訪問者プロファイルが同じ訪問者 ID 変数と関連付けられた後に統合された場合、過去データのアトリビューション（配分方法）は変更されません。
 
