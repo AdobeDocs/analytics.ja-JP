@@ -5,11 +5,11 @@ subtopic: Visitors
 title: デバイス間のユーザーの接続
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。『コンポーネントユーザガイド』の「[クロスデバイス分析](/help/components/cda/overview.md)」を参照してください。
+>デバイスをまたいで訪問者を識別するこの方法は、非推奨になりました。コンポーネントユーザーガイドの[デバイス間分析](/help/components/cda/overview.md)を参照してください。
 
 デバイス間の訪問者の識別では、デバイス間の訪問者を関連付けます。クロスデバイス訪問者特定では、`visitorID` 変数を使用してデバイスをまたいでユーザーを関連付けます。`visitorID` 変数は、個別訪問者を識別する際に最も高い優先順位を持ちます。
 
@@ -33,4 +33,4 @@ ht-degree: 100%
 独自のカスタム訪問者 ID を使用すると、訪問者の識別方法をより詳細に制御できますが、これには制限があります。
 
 * **訪問者の重複除外は遡及的ではありません**：訪問者が初めてサイトにアクセスし、認証をおこなうと、2 人の個別訪問者がカウントされます。汎用の Analytics ID に対して 1 人の個別訪問者が自動的にカウントされ、ログイン時に別のカスタム訪問者 ID に対してカウントされます。この個別訪問者数の重複は、訪問者が新しいデバイスを使用したり、Cookie をクリアしたりするたびに発生します。
-* **Experience Cloud ID サービスとの非互換性**：クロスデバイス訪問者特定が導入されて以来、アドビでは、デバイス間で訪問者を追跡するためのより強力で信頼性の高い方法をリリースしました。これらの新しい識別方法には、カスタム訪問者 ID の上書きとの互換性がありません。ID サービス、クロスデバイス分析（CDA）または Device Co-op を使用する予定がある場合は、`visitorID` 変数を使用しないことを強くお勧めします。
+* **Experience Cloud ID サービスとの非互換性**：クロスデバイス訪問者特定が導入されて以来、アドビでは、デバイス間で訪問者を追跡するためのより強力で信頼性の高い方法をリリースしました。これらの新しい識別方法には、カスタム訪問者 ID の上書きとの互換性がありません。IDサービス、Cross-Device Analytics(CDA)、またはDevice Co-opを使用する予定がある場合、Adobeは`visitorID`変数の使用を強くお勧めします。
