@@ -2,10 +2,10 @@
 title: クロスデバイス分析に関する FAQ
 description: クロスデバイス分析に関するよくある質問（FAQ）
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 99%
 
 ## CDA の「人」指標と CDA 以外の「個別訪問者」指標の違いを教えてください。
 
-「[人](/help/components/metrics/people.md)」指標は、一意の個人の数をレポートするという点で「[個別訪問者](/help/components/metrics/unique-visitors.md)」指標に似ています。ただし、クロスデバイス分析を使用する場合、個別訪問者が CDA 以外で 2 人の別の個別訪問者として記録されると、個別訪問者は結合されます。クロスデバイス分析が有効になっている場合は、「個別訪問者数」指標が「人」指標に置き換えられます。
+「[人](/help/components/metrics/people.md)」指標は、一意の個人の数をレポートするという点で「[個別訪問者](/help/components/metrics/unique-visitors.md)」指標に似ています。ただし、クロスデバイス分析を使用する場合、個別訪問者が CDA 以外で 2 人の別の個別訪問者として記録されると、個別訪問者は結合されます。デバイス間の分析が有効な場合、「個別訪問者」指標が「人」指標に置き換えられます。 新しい指標[個別訪問者](/help/components/metrics/unique-devices.md)が利用でき、これは、デバイス間分析以外の個別デバイスとほぼ等しくなります。
 
 ## CDA の「個別デバイス数」指標と CDA 以外の「個別訪問者」指標の違いを教えてください。
 
