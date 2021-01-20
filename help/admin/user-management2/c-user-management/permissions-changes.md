@@ -1,15 +1,15 @@
 ---
-description: 'null'
+description: 従来の権限の内容
 keywords: groups;permissions
 subtopic: Users and groups
 title: ユーザーおよびグループ権限の変更
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '1562'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '1564'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーと製品の管理は[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)に移動しました。 ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 ## 変更内容 {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -124,7 +124,7 @@ API とインターフェイスでは同じ権限付与システムを使用し�
  </tbody> 
 </table>
 
-## 権限のクイックリファレンス{#section_A3FDD8259F524B21A5489833533D1B28}
+## 権限のクイックリファレンス  {#section_A3FDD8259F524B21A5489833533D1B28}
 
 次の表に、会社のステータスに応じたタスクとその実行場所を示します。
 
@@ -169,8 +169,8 @@ API とインターフェイスでは同じ権限付与システムを使用し�
   <tr> 
    <td colname="col1"> グループの作成 </td> 
    <td colname="col2"> <p>Admin Console - Admin Console でグループが作成されると、Analytics でマッピングされたグループは管理ツールに表示されますが、このマッピングされたグループは、管理ツールから名前を変更したり削除したりすることはできません。 </p> <p>管理ツール。 </p> </td> 
-   <td colname="col3"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html">製品設定の作成</a>） </p> </td> 
-   <td colname="col4"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html">製品設定の作成</a>） </p> </td> 
+   <td colname="col3"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">製品設定の作成</a>） </p> </td> 
+   <td colname="col4"> <p>Admin Console（<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">製品設定の作成</a>） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> グループのユーザーの編集 </td> 
