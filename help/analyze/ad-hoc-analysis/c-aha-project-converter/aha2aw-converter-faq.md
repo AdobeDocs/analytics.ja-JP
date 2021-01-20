@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Ad Hoc Analysis-Analysis WorkspaceプロジェクトコンバーターFAQ
 title: プロジェクトコンバーターに関する FAQ
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 93%
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
+>アドビは、2021 年 3 月 2 日に Ad Hoc Analysis の提供を終了します。[詳細情報](https://adobe.ly/discoverworkspace)
 
 ## プロジェクトコンバーターに関する FAQ {#topic_8231595303AD403E9322645A63632D57}
 
@@ -81,7 +81,7 @@ ht-degree: 93%
    <td colname="col1"> <p><b>質問：日付範囲はどのように変換されますか。</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">日付範囲「最近の X 日間」の場合、Ad Hoc Analysis では今日が<i>除外</i>されますが、Analysis Workspace では今日は<i>含まれません</i>。したがって、「過去90日間」のような日付範囲は、ツール間で正確に一致しない場合があります。 代わりに、Analysis Workspaceで「最近のX <b>日間 </b> 」の範囲を適用します。 </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">日付範囲「最近の X 日間」の場合、Ad Hoc Analysis では今日が<i>除外</i>されますが、Analysis Workspace では今日は<i>含まれません</i>。したがって、「過去90日間」のような日付範囲は、ツール間で正確に一致しない場合があります。 代わりに、「Last X <b>full </b> days」の範囲をAnalysis Workspaceに適用します。 </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis のワークスペースレベルの日付範囲は、Analysis Workspace のプロジェクト／ワークスペースレベルに適用されます。 </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis のレポートレベルの日付範囲は、Analysis Workspace のテーブル列レベルに適用されます。 </li> 
     </ul> <p>カスタム日付範囲を編集するには、<span class="uicontrol">Analytics</span>／<span class="uicontrol">コンポーネント</span>／<span class="uicontrol">日付範囲</span>を選択します。 </p> </td> 
