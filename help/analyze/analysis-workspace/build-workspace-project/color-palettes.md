@@ -1,12 +1,11 @@
 ---
-description: 'null'
-title: カラーパレット
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+description: Analysis Workspaceのビジュアライゼーションカラーパレットの使用方法
+title: ビジュアライゼーションカラーパレットとは何ですか？その機能は何ですか？
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 89%
 
 ---
 
