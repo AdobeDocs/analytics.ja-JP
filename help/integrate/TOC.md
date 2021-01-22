@@ -5,10 +5,10 @@ user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
 user-guide-description: Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: 41d3cfb510fb7cac77abbe0a80046c96042d0946
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +39,8 @@ ht-degree: 100%
       + [Advertising Analytics のトラブルシューティング](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [よくある質問](c-advertising-analytics/aa-faq.md)
 + [Analytics for Target - A4T](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
-+ [Adobe Campaign レポート](adobe-campaign.md)
++ [AnalyticsでのAdobe Campaignレポート](adobe-campaign.md)
++ [AnalyticsデータとCampaign Classicの統合](analytics-to-campaign-classic.md)
 + [AEM Assets レポート](aem-assets-reporting.md)
 + [Activity Map レポート](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
