@@ -1,12 +1,11 @@
 ---
-description: Ad Hoc Analysis-Analysis WorkspaceプロジェクトコンバーターFAQ
-title: プロジェクトコンバーターに関する FAQ
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
+description: Ad Hoc Analysis-Analysis Workspaceプロジェクトコンバーターに関するよくある質問
+title: Ad Hoc Analysis-Analysis Workspaceプロジェクトコンバーターに関するFAQ
 translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 94%
+source-wordcount: '951'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 94%
 ## 既知のコンバージョンの問題 {#section_39C922A58B2E49C9877B363042801361}
 
 | 問題 | 説明 |
-|--- |--- |
+| --- | --- |
 | 分類または列に関する分単位の精度 | 分単位の精度に分類が適用されている場合、または列に分単位の精度が存在する場合は、プロジェクトを Analysis Workspace に変換できません。回避策として、分単位の精度で分類を削除し、列から分単位の精度を削除して、プロジェクトを変換します。その後、Analysis Workspace で分単位の精度に分類を適用できます。 |
 | 列セグメントとともに使用される内部計算指標 | 内部計算指標を列セグメントとともに使用している場合は、プロジェクトを Analysis Workspace に変換できません。この問題を回避するには、コンバージョン前に内部計算指標をプロジェクトから削除してから、Analysis Workspace で再度追加します。 |
 
