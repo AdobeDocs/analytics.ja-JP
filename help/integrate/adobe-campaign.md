@@ -1,12 +1,11 @@
 ---
-description: 'null'
-title: Adobe Campaign レポート
-uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
+description: Adobe AnalyticsでAdobe Campaignレポートを有効にする方法を学びます
+title: Adobe CampaignレポートをAdobe Analyticsに統合する方法
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 95%
 
 ---
 
@@ -38,20 +37,9 @@ Analytics で Campaign データを表示するには、最初に Campaign レ�
 
 Adobe Campaign Standard と Adobe Analytics の統合により、**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;に次のレポートが追加されます。
 
-<table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> レポート </th> 
-   <th colname="col2" class="entry"> 定義 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Campaign 実行された配信 ID </p> </td> 
-   <td colname="col2"> <p>Adobe Campaign から送信された電子メールに関する、Adobe Campaign から読み込まれたデータを表示します。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| レポート | 定義 |
+|--- |--- |
+| Adobe Campaign 実行された配信 ID | Adobe Campaign から送信された電子メールに関する、Adobe Campaign から読み込まれたデータを表示します。 |
 
 ## 手順 3：Adobe Campaign 分類を使用する {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -65,7 +53,7 @@ Adobe Campaign に対してレポートスイートを有効にすると、次�
 * キャンペーンラベル（Adobe Campaign のキャンペーン）
 * 実行された配信ラベル（個々の実行された配信のリスト）
 
-## Adobe Analytics で使用できる Adobe Campaign のディメンションおよび指標 {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics で使用できる Adobe Campaign のディメンションおよび指標  {#section_F33385C9660644AF84172EC39601469B}
 
 Adobe Analytics レポートスイートで、次の Campaign の&#x200B;**指標**&#x200B;を使用できます。
 
