@@ -1,11 +1,11 @@
 ---
 description: サードパーティアプリケーションから Analytics に追跡データをインポートします。
 title: Analytics Data Connectors 使用の手引き
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '973'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->2021年8月1日に、Adobeデータコネクターテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021 年 8 月 1 日に、Adobe Data Connector テクノロジーのサービス提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 **必要システム構成**
 
@@ -86,7 +86,7 @@ Adobe Analytics は、Data Warehouse を経由し、これらを毎日の個別�
 
 >[!NOTE]
 >
->イベントが関連付けられていない商品が定義されている場合は、`prodView`イベントが自動的に起動します。
+>製品がイベントを関連付けずに定義されている場合、`prodView` イベントが自動的に発生します。
 >
 >上記の要件が満たされない場合、対応するリマーケティングセグメントは適切にレポートされません。
 
