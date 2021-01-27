@@ -1,11 +1,11 @@
 ---
 title: tl
 description: リンクトラッキングコールをアドビに送信します。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 87%
 
 ---
 
@@ -34,16 +34,10 @@ Launch では、オプションの引数を設定できません。
 アドビにトラッキングコールを送信する場合は、`s.tl()` メソッドを呼び出します。
 
 ```js
-s.tl();
-```
-
-オプションで、このメソッドは次の引数を受け取ります。
-
-```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### リンクオブジェクト
+### リンクオブジェクト（必須）
 
 リンクオブジェクトの引数は、ブラウザーがページから移動するまでに最大 500 ミリ秒待機するかどうかを指定します。イメージリクエストが 500 ミリ秒以内に送信されると、ページは直ちにクリックされたリンクに移動します。
 
@@ -55,37 +49,42 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 * `true`：待機しない。
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### リンクタイプ
+### リンクタイプ (必須)
 
-リンクタイプ引数は、リンクトラッキングコールのタイプを決定する 1 文字の文字列です。[`linkType`](../config-vars/linktype.md) 変数の設定と同じです。
+リンクタイプ引数は、リンクトラッキングコールのタイプを決定する1文字の文字列です。 有効な値は3つあります。
+
+* `o`:リンクは [カスタムリンクです](/help/components/dimensions/custom-link.md)。
+* `d`:リンクは [ダウンロードリンクです](/help/components/dimensions/download-link.md)。
+* `e`:リンクは [離脱リンク](/help/components/dimensions/exit-link.md)。
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### リンク名
+### リンク名（推奨）
 
-リンク名引数は、リンクトラッキングディメンション項目を決定する文字列です。[`linkName`](../config-vars/linkname.md) 変数の設定と同じです。
+リンク名引数は、リンクトラッキングディメンション項目を決定する文字列です。レポートで[カスタムリンク](/help/components/dimensions/custom-link.md)、[ダウンロードリンク](/help/components/dimensions/download-link.md)、または[出口リンク](/help/components/dimensions/exit-link.md)を使用する場合、この文字列にはディメンション項目が含まれます。 この引数が設定されていない場合は、[linkURL](../config-vars/linkurl.md)変数が使用されます。
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### 変数のオーバーライド
+### 変数の上書き（オプション）
 
 1 回の呼び出しに対する変数の値を変更できます。詳しくは、[変数のオーバーライド](../../js/overrides.md)を参照してください。
 
@@ -108,14 +107,6 @@ JavaScript で、メソッド引数を使用した基本的なリンクトラッ
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-JavaScript で、異なる変数を使用した同じ基本的なリンクトラッキングコールを作成します。
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### カスタム関数内でリンクトラッキングコールを実行します
