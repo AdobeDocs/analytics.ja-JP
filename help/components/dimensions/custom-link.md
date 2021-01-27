@@ -1,11 +1,11 @@
 ---
 title: カスタムリンク
 description: カスタムリンクの名前。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '148'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 80%
 
 ---
 
@@ -16,13 +16,9 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストでの `lnk_o` 値を持つ `pe` クエリ文字列も持つヒットについて、 ](/help/implement/validate/query-parameters.md)クエリ文字列 [`pev2` からデータを収集します。ヒット内で `pe` クエリ文字列の値が異なる場合、このディメンションはデータを収集しません。
+このディメンションは、イメージリクエストでの `lnk_o` 値を持つ `pe` クエリ文字列も持つヒットについて、 ](/help/implement/validate/query-parameters.md) クエリ文字列 [`pev2` からデータを収集します。ヒット内で `pe` クエリ文字列の値が異なる場合、このディメンションはデータを収集しません。
 
-AppMeasurement を使用してこのディメンションにデータを送信する場合：
-
-* 目的の値を [`linkName`](/help/implement/vars/config-vars/linkname.md) 変数に入力します。
-* [`linkType`](/help/implement/vars/config-vars/linktype.md) 変数を `"o"` に設定します。
-* [`tl()`](/help/implement/vars/functions/tl-method.md) イメージリクエストを送信します。
+AppMeasurementを使用してこのディメンションにデータを送信する場合は、`"o"`のリンクタイプ引数を持つ[`tl()`](/help/implement/vars/functions/tl-method.md)イメージリクエストを送信します。 リンク名の引数に必要な値を入力します。
 
 ## ディメンション項目
 
