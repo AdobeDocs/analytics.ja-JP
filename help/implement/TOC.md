@@ -5,10 +5,10 @@ user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: 'どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。 '
 translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 99%
 
 ---
 
@@ -118,10 +118,11 @@ ht-degree: 100%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [Numbers Suite](vars/plugins/numberssuite.md)
+      + [ナンバーズスイート](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
+      + [websiteBot](vars/plugins/websitebot.md)
    + [モジュールの統合](vars/integrate.md)
 + Adobe Analytics の実装準備 {#prepare}
    + [データレイヤーの作成](prepare/data-layer.md)
