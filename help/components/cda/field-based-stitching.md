@@ -1,18 +1,18 @@
 ---
 title: フィールドベースのステッチ
 description: フィールドベースのステッチを使用してデータをステッチする場合の前提条件と制限事項を理解します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # フィールドベースのステッチ
 
-デバイス間分析には、データを結合する2つの異なる方法があります。 この方法は、[prop](/help/implement/vars/page-vars/prop.md) や [eVar](/help/implement/vars/page-vars/evar.md) などの Analytics 変数に依存して、個人識別子を格納します。この変数をベースに、デバイスを相互にリンクします。
+クロスデバイス分析には、データを結合する 2 つの異なる方法があります。この方法は、[prop](/help/implement/vars/page-vars/prop.md) や [eVar](/help/implement/vars/page-vars/evar.md) などの Analytics 変数に依存して、個人識別子を格納します。この変数をベースに、デバイスを相互にリンクします。
 
 ## フィールドベースのステッチに固有の前提条件
 
