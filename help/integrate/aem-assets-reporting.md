@@ -1,11 +1,11 @@
 ---
 description: Analytics で AEM Assets レポートを有効にするための管理者の手順です。
-title: Adobe AnalyticsのAEM Assetsの報告
-translation-type: tm+mt
+title: Adobe Analytics で AEM Assets を報告する方法
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
