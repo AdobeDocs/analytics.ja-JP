@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics変数のデータプライバシーラベルの例
+description: Adobe Analytics 変数のデータプライバシーラベルの例
 title: Analytics 変数のデータプライバシーラベル
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3649'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
 >
 >Data Usage Labeling &amp; Enforcement（DULE）フレームワークは、アドビのすべてのソリューション／サービス／プラットフォームにまたがり、共通の方法で Adobe Experience Cloud 全体のデータに関するメタデータを取得、伝達、利用できるようにすることを目的としています。データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。この初期リリースでは、Analytics は、データプライバシーに関連する DULE ラベルのみを公開しています。他のアドビ製品が DULE ラベルのサポートを実装するのに伴い、将来のリリースでは、追加の機密データラベルに加えて契約のラベルが導入されます。これは、製品間で共有されたデータが法的に許容される方法でのみ使用されることを保証するのに役立ちます。
 
-## 識別データラベル（DULE）  {#identity-data-labels}
+## 識別データラベル（DULE） {#identity-data-labels}
 
 識別データの「I」ラベルは、個人を特定できるデータまたは個人に連絡できるデータの分類に使用されます。
 
@@ -63,7 +63,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
  </tbody> 
 </table>
 
-## 機密データラベル（DULE）  {#sensitive-data-labels}
+## 機密データラベル（DULE） {#sensitive-data-labels}
 
 機密データの「S」ラベルは、地理データなどの機密データの分類に使用されます。将来的に、他のタイプの機密情報を特定するために、追加の機密データラベルが導入される予定です。
 
@@ -205,7 +205,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
  </tbody> 
 </table>
 
-## 変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## 変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 変数を ID-DEVICE または ID-PERSON としてラベル設定する場合、名前空間を提供するよう指示されます。以前定義した名前空間を使用することも、新しい名前空間を定義することもできます。
 
@@ -295,7 +295,7 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
  </tbody> 
 </table>
 
-## ACC-ALL／ACC-PERSON 以外のラベルを割り当てる／変更することができる変数  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## ACC-ALL／ACC-PERSON 以外のラベルを割り当てる／変更することができる変数 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -358,7 +358,7 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
  </tbody> 
 </table>
 
-## 削除処理  {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## 削除処理 {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 Adobe Analytics でのデータプライバシー削除要求は、レポートへの影響を最小限に抑えるように設計されています。ほとんどの場合、レポートに表示される指標は変わりません。データプライバシー削除の前に実行された履歴レポートは、削除の後に実行された同じレポートと一致します。これは、削除されたデータをデータ主体から完全に切り離し、個人を特定できないデータを保持してレポートの値の一貫性を保つことで実現されます。
 
@@ -446,7 +446,7 @@ Adobe Analytics でのデータプライバシー削除要求は、レポート�
  </tbody> 
 </table>
 
-## アクセス要求のデータフィールド  {#section_6678FB4FF42B481C9B78E64F61782397}
+## アクセス要求のデータフィールド {#section_6678FB4FF42B481C9B78E64F61782397}
 
 5 つのタイムスタンプを含む標準変数があります。
 
