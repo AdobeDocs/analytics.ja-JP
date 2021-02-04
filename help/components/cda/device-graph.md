@@ -1,18 +1,18 @@
 ---
 title: デバイスグラフ
 description: デバイスグラフを使用してデータをステッチする際の前提条件と制限事項を理解します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # デバイスグラフ
 
-デバイス間分析には、データを結合する2つの異なる方法があります。 この方法では、Adobe Experience Platform ID サービス Co-op グラフまたはプライベートグラフを使用してデータを結合します。CDA は、デバイスグラフと定期的に通信し、デバイスを相互にリンクします。
+クロスデバイス分析には、データを結合する 2 つの異なる方法があります。この方法では、Adobe Experience Platform ID サービス Co-op グラフまたはプライベートグラフを使用してデータを結合します。CDA は、デバイスグラフと定期的に通信し、デバイスを相互にリンクします。
 
 ## Co-op グラフとプライベートグラフの違い
 
