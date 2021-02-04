@@ -1,12 +1,12 @@
 ---
-description: Adobe Analyticsのデータガバナンス用語集
+description: Adobe Analytics のデータガバナンス用語集
 title: GDPR 関連の用語
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 99%
 
 **ファイリングシステム** - 特定の条件に基づいてアクセスできる、または照会できる個人データの集合
 
-**GDPR** - General Data Protection Regulation（GDPR）は、欧州連合（EU）内の個人の個人情報を収集および処理する際のガイドラインを定めた法的な枠組みです。GDPR では、データ管理と個人の権利に関する原則を定めているほか、収益に応じた罰金も科しています。この枠組みは、EU 市民のデータを扱うすべての企業を対象としているので、銀行や保険会社、その他の金融機関のコーポレートコンプライアンス責任者にとって非常に重要な規則です。GDPR は、2018 年 5 月 25 日に EU 全域で発効します。
+**GDPR** - General Data Protection Regulation（GDPR）は、欧州連合（EU）内の個人の個人情報を収集および処理する際のガイドラインを定めた法的な枠組みです。GDPR では、データ管理と個人の権利に関する原則を定めているほか、収益に応じた罰金も科しています。この枠組みは、EU 市民のデータを扱うすべての企業を対象としているので、銀行や保険会社、その他の金融機関のコーポレートコンプライアンス責任者にとって非常に重要な規則です。GDPR は、2018 年 5 月 25日（PT）に EU 全域で発効します。
 
 **遺伝子データ** - 健康や生理機能の固有情報となる、遺伝的または後天的な個人の特性に関するデータ
 
