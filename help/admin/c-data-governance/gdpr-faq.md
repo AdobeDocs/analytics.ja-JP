@@ -1,12 +1,12 @@
 ---
-description: Adobe AnalyticsデータガバナンスFAQ
+description: Adobe Analytics のデータガバナンスに関する FAQ
 title: よくある質問
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1806'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics データガバナンスは、データプライバシー要求の処理にどのように役立ちますか？</b> </p> </td> 
-   <td colname="col2"> <p>データガバナンスは、データ管理者に Analytics データのデータ管理および分類機能を提供する、Adobe Analytics の新しいツールです。この新しいツールにより、アドビの製品をご利用のお客様は、データプライバシーデータのアクセスおよび削除要求の処理をカスタマイズする権利が付与されます。データガバナンスコンソールでは、管理者は、Adobe Analytics に存在する様々なデータ列に適用する設定を定義できます。これらのラベルが定義されると、アドビは、お客様の希望するラベル設定に従って、任意のダウンストリームアクセス要求または削除要求に対応し、処理します。これらのラベル設定に関して、確認および法定代理人の助言を受けるのは、データ管理者の責任です。Adobe Analytics は、GDPR 発行日の 2018 年 5 月 25 日より前にデータラベルを正しく設定して、データプライバシー API を活用した要求の完了をカスタマイズすることをクライアントに促します。 </p> <p>データガバナンスツールには、以下のデータラベルが含まれます。 </p> 
+   <td colname="col2"> <p>データガバナンスは、データ管理者に Analytics データのデータ管理および分類機能を提供する、Adobe Analytics の新しいツールです。この新しいツールにより、アドビの製品をご利用のお客様は、データプライバシーデータのアクセスおよび削除要求の処理をカスタマイズする権利が付与されます。データガバナンスコンソールでは、管理者は、Adobe Analytics に存在する様々なデータ列に適用する設定を定義できます。これらのラベルが定義されると、アドビは、お客様の希望するラベル設定に従って、任意のダウンストリームアクセス要求または削除要求に対応し、処理します。これらのラベル設定に関して、確認および法定代理人の助言を受けるのは、データ管理者の責任です。Adobe Analytics は、GDPR 発行日の 2018 年 5 月 25 日（PT）より前にデータラベルを正しく設定して、データプライバシー API を活用した要求の完了をカスタマイズすることをクライアントに促します。 </p> <p>データガバナンスツールには、以下のデータラベルが含まれます。 </p> 
     <ul id="ul_F25B00EB020B4A639628FB884D0CB4F9"> 
      <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels">ID データラベル：</a>直接または他のデータと組み合わせて個人を特定できるデータを分類するために使用されます。（なし、I1、I2）。 </li> 
      <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels">機密データラベル：</a>適用法の下で機密として定義される可能性のあるデータとしてデータを分類するために使用されます。（なし、S1、S2）。現在の Adobe Analytics での機密データの使用は、適用法の下で適切に取得された正確な位置情報データ（一部の管轄地域で機密データ見なされることがあります）を除いて、通常、禁止されています。 </li> 
