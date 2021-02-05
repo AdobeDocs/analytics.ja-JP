@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics のグローバルレポートスイート
 description: グローバルレポートスイートを使用する利点と要件を理解します。
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 グローバルレポートスイートを実装するプロセスを理解するには、次の一般的なガイドラインを使用します。
 
-1. Adobe Analytics でグローバルレポートスイートを作成します。詳しくは、『管理者ユーザーガイド』の[レポートスイートの作成](../../admin/admin-console/create-report-suite.md)を参照してください。
+1. Adobe Analytics でグローバルレポートスイートを作成します。詳しくは、『管理者ユーザーガイド』の[レポートスイートの作成](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)を参照してください。
 1. 各ドメインを担当する組織内のチームと連携します。多くのチームには、ビジネスの分野に固有のレポート要件があります。
 1. これらの要件をすべて[ソリューションデザインドキュメント](solution-design.md)に記録して集計します。チームがディメンションに対して同様の要件を持つ場合は、同じカスタム変数を使用できます。例えば、サイト A とサイト B の両方に階層リンクディメンションが必要な場合、両方のサイトの実装は eVar1 を介してそのデータを送信できます。
 
