@@ -2,7 +2,7 @@
 title: Launch での Analytics プロパティの作成
 description: Adobe Experience Platform Launch を使用してスペースを作成し、データの収集方法をカスタマイズします。
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 84%
@@ -16,20 +16,20 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 ## 前提条件
 
-[レポートスイートの作成](/help/admin/admin-console/create-report-suite.md)：収集する Analytics データ用のサイロを作成します。
+[レポートスイートの作成](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データ用のサイロを作成します。
 
 ## プロパティを作成し、重要な拡張機能をインストールする
 
 プロパティは、タグの管理に使用する包括的なコンテナです。拡張機能を使用すれば、製品固有のタグをインストールして設定できます。
 
 1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
-1. Click **[!UICONTROL New Property]**.
+1. 「**[!UICONTROL 新しいプロパティ]**」をクリックします。
 1. プロパティに Web サイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「**[!UICONTROL 保存]**」をクリックします。
 1. 新しく作成したプロパティをクリックして、設定を入力します。
-1. Click the **[!UICONTROL Extensions]** tab, then click **[!UICONTROL Catalog]**.
-1. Locate Identity Service, then click **[!UICONTROL Install]**.
+1. 「**[!UICONTROL 拡張子]**」タブをクリックし、「**[!UICONTROL カタログ]**」をクリックします。
+1. 「IDサービス」を探し、「**[!UICONTROL インストール]**」をクリックします。
 1. Experience Cloud 組織 ID を含むすべての設定は、既に入力されているはずです。「**[!UICONTROL 保存]**」をクリックします。
-1. Back in the extensions catalog, locate Adobe Analytics and click **[!UICONTROL Install]**.
+1. 拡張機能カタログに戻って、Adobe Analyticsを探し、**[!UICONTROL インストール]**&#x200B;をクリックします。
 
 ## Adobe Analytics 用のデータ要素の作成
 
@@ -37,7 +37,7 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. サイトに実装する Launch プロパティをクリックします。
-1. Click the **[!UICONTROL Data Elements]** tab, then click **[!UICONTROL Create New Data Element]**.
+1. 「**[!UICONTROL データ要素]**」タブをクリックし、「**[!UICONTROL 新しいデータ要素を作成]**」をクリックします。
 1. データ要素に次の設定を指定します。
 
    * 名前：ページ名
@@ -58,14 +58,14 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. サイトに実装する Launch プロパティをクリックします。
-1. Click **[!UICONTROL Create New Rule]** and name it `Global Rule`.
-1. Click **[!UICONTROL Add]** next to events, and enter the following settings:
+1. 「**[!UICONTROL 新しいルールを作成]**」をクリックし、`Global Rule`という名前を付けます。
+1. イベントの横の追加&#x200B;****&#x200B;をクリックし、次の設定を入力します。
    * 拡張機能：Core
    * イベントタイプ：読み込まれたライブラリ（ページ上部）
    * 名前：Core - 読み込まれたライブラリ（ページ上部）
    * 注文：50
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
-1. Under **[!UICONTROL Actions]**, click **[!UICONTROL Add]**, and enter the following settings:
+1. 「**[!UICONTROL アクション]**」で、「**[!UICONTROL 追加]**」をクリックし、次の設定を入力します。
    * 拡張機能：Adobe Analytics
    * アクションタイプ：変数を設定
    * ページ名：コンテナアイコンをクリックし、`Page Name`データ要素を選択します
@@ -77,7 +77,7 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
    * 名前：Adobe Analytics - ビーコンを送信
    * トラッキング：s.t()
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
-1. Verify that you have the event and two actions set, then click **[!UICONTROL Save]**.
+1. イベントと2つのアクションが設定されていることを確認し、「**[!UICONTROL 保存]**」をクリックします。
 
 ## ドキュメントとその他のリソース
 
