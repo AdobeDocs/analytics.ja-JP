@@ -1,11 +1,11 @@
 ---
 description: このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
 title: Adobe Analytics - 主要概念
-translation-type: ht
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
-workflow-type: ht
-source-wordcount: '1864'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
+workflow-type: tm+mt
+source-wordcount: '1876'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 | Analysis Workspace | 強力なカスタム分析プロジェクトを構築しインサイトをデモクラタイズ（民主化）するブラウザーソリューション。Reports and Analytics よりも柔軟性の高いレポートを提供します。 | [Analysis Workspace ホーム](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics（旧称 SiteCatalyst） | レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。 | [Reports and Analytics ホーム](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Adobe Analytics のデータからカスタムリクエストを構築し、視覚的なレポートを作成する Microsoft Excel のアドインです。 | [Report Builder ホーム](/help/analyze/report-builder/home.md) |
-| Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析を実行する Java ベースのツールです。 | [Ad Hoc Analysis ホーム](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
+| Ad Hoc Analysis（旧称 Discover） | 高度なデジタル分析を実行する Java ベースのツールです。EOL日：2021年3月1日。 | [Ad Hoc Analysis ホーム](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
 | Data Workbench（旧称 Insight） | 複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 | [Data Workbench クライアント](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [Data Warehouse ホーム](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 | [Mobile Services ホーム](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) |
-| Adobe Exchange Data Connectors（旧称 Genesis） | サードパーティのアプリケーションから Analytics にトラッキングデータをインポートします。これにより、パフォーマンスに関する一元的なエンドツーエンドの可視性が実現します。 | [Data Connectors ホーム](/help/import/data-connectors/data-connectors-eol.md) |
+| Adobe Exchange Data Connectors（旧称 Genesis） | サードパーティのアプリケーションから Analytics にトラッキングデータをインポートします。これにより、パフォーマンスに関する一元的なエンドツーエンドの可視性が実現します。2021 年 8 月 1 日、アドビは Data Connectors 統合を廃止する予定です。 | [Data Connectors ホーム](/help/import/data-connectors/data-connectors-eol.md) |
 | Dynamic Tag Management（DTM） | Analytics、Target およびその他のタグを、ドメイン数にかかわらず、すべてのサイトにわたって管理できます。 | [DTM ホーム](/help/implement/other/dtm/dtm-implementation-overview.md) |
 | Adobe Launch | アドビが提供する次世代型の Web サイトタグおよびモバイル SDK の管理機能です。 | [Adobe Launch ホーム](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) |
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 | prop（カスタムトラフィック） | ページ別のサイトトラフィックアクティビティのトラッキングに使用されるディメンションです。prop はページをまたいで保持されません。トラフィック変数の主要な用途を次に示します。 <ul> <li>特定の値の「一番人気」を見つける単純なカウント</li> <li>ユーザーがサイト内をどのように遷移したかの可視性</li> </ul> <br>トラフィック変数の例として、ページ名、サイトセクション、ブラウザーがあります。 | [prop](/help/admin/admin/c-traffic-variables/traffic-var.md) |
 | eVar（カスタムコンバージョン） | カスタマイズされた一定期間持続するディメンションです。有効期限オプションには、イベントの有効期限、訪問の有効期限、または X-day 有効期限が含まれ、該当の変数で実行される分析のタイプによって決定します。<br> eVar と prop の主な違い： <ul> <li>props では永続性が削除されるので、パス分析によく使用されます。</li> <li>eVar は、多くの場合、コンバージョン分析に使用されます。</li> </ul> <br>コンバージョン変数の例には、内部検索用語、内部プロモーション、外部キャンペーン（s.campaign）があります。 | [eVar](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) |
 | イベント／指標（s.events） | 指標サイト上で訪問者におこなって欲しい主要なアクションを測定する指標です。イベントには、カウンター、数値、通貨の 3 タイプがあります。イベントは、コンバージョン変数（eVar）レポートに追加すると便利です。eVar は発生した内容に関する定性的情報を提供し、イベントは発生した内容に関する定量的情報を提供します。<br> eVar とイベントの主な違い： <ul> <li>eVar は、誰が、何が、またはどれがコンバージョンに影響したかを示します</li> <li>イベントは、発生したコンバージョンの数を測定します</li> </ul> <br>コンバージョンイベントの例には、購入回数、アプリケーション開始、リード、売上高があります。 | [イベント](/help/admin/admin/c-success-events/success-event.md) |
-| コンポーネント | ディメンション、指標、セグメントおよび時間の精度（日付範囲）をプロジェクトにドラッグ＆ドロップできます。 | [コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
+| コンポーネント | Dimension、指標、セグメントおよび時間の精度（日付範囲）。これらの値はプロジェクトにドラッグ&amp;ドロップできます。 | [コンポーネント](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
 | ディメンション | eVar、prop、分類およびアドビの標準収集値のコレクションです。 | [ディメンション](/help/components/dimensions/overview.md) |
 | 指標 | 実装されたイベントと計算指標のコレクションです。 | [指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md) |
 | 計算指標 | 実装を通じて取り込まれた既存の指標からカスタム指標を導き出す機能です。 | [計算指標](/help/components/c-calcmetrics/cm-overview.md) |
@@ -61,7 +61,7 @@ ht-degree: 100%
 | カスタマージャーニーレポート | サイトまたはアプリケーションでのユーザーの遷移に関する情報を表示します。Analysis Workspace では、この分析に prop、eVar およびイベントを使用できます。 | [Analysis Workspaceフォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics パス](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | マーケティングチャネル | ユーザーをサイトに誘導する外部チャネルや、コンバージョンに最も効果があるチャネルを確認するのに役立つレポートです。ファーストタッチおよびラストタッチの属性ビューが提供されます。これは、有料チャネルと自然チャネルの両方において最も包括的なビューなので、Adobe Analytics で（キャンペーンやトラフィックソースよりも）推奨される外部トラフィックソースレポートです。 | [マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | モバイル | モバイルデバイスまたはタブレットからアクセスされた Web サイトの情報を表示します。 | [モバイルレポート](/help/components/dimensions/mobile-dimensions.md) |
-| モバイルアプリ | モバイルアプリに関する基本的な使用状況の情報を表示します。これらのレポートは、SDK が導入され、レポートが有効になると使用できます。さらに、Adobe Mobile Services によって、より包括的なアプリデータを提供する個別のモバイルアプリインターフェイスが作成されました。これにより、アプリの利用状況を把握し、改善につなげることができます。[こちらで](https://mobilemarketing.adobe.com)インターフェイスにアクセスできます。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) |
+| モバイルアプリ | モバイルアプリに関する基本的な使用状況の情報を表示します。これらのレポートは、SDK が導入され、レポートが有効になると使用できます。さらに、Adobe Mobile Services によって、より包括的なアプリデータを提供する個別のモバイルアプリインターフェイスが作成されました。これにより、アプリの利用状況を把握し、改善につなげることができます。[こちらで](https://mobilemarketing.adobe.com)インターフェイスにアクセスできます。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | 製品 | 売上高やチェックアウト数など各種コンバージョン指標に対する個々の商品や商品グループ（カテゴリ）の貢献を明らかにできます。 | [製品レポート](/help/components/dimensions/product.md) |
 | セグメント比較 | アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、セグメント間の最も大きな統計的差異を見つけることができます。 | [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | サイトコンテンツレポート | サイトで最もアクティブなページや領域、および最もよく利用されているサーバーに関する情報が表示されます。 | [サイトコンテンツレポート](/help/components/dimensions/page.md) |
@@ -106,7 +106,7 @@ ht-degree: 100%
 
 | 手段／リソース | 説明 | ドキュメントリンク |
 | --- | --- | --- |
-| 開発者向けリソース | 利用可能なすべてのプラットフォーム（Web、モバイルアプリ、ビデオ、Flash など）の Analytics データの収集で利用可能なライブラリについて概説したドキュメント。 | [開発者向けドキュメント](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 開発者リソース | 利用可能なすべてのプラットフォーム（Web、モバイルアプリ、ビデオ、Flash など）の Analytics データの収集で利用可能なライブラリについて概説したドキュメント。 | [開発者向けドキュメント](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | 実装ガイド | データ収集変数の説明と、JavaScript でのデータ収集コードの導入についての詳細してください。 | [実装ガイド](/help/implement/home.md) |
 | AppMeasurement（s_code） | グローバル変数管理。 | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | App SDK | アプリの設定ファイルの事前収集バージョンを含むカスタマイズされたパッケージ。 | <ul><li>[iOS](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
