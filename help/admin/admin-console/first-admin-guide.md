@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics はじめての管理ガイド
 description: Adobe Analytics の使用開始、一般的な役割タイプ、UI へのログイン方法を説明します。
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
@@ -58,6 +58,6 @@ Experience Platform Launch の製品管理者アクセスは、Analytics の製�
 
 ## 次の手順
 
-[レポートスイートの作成](create-report-suite.md)：Analytics 管理者をログインさせ、データ収集用のレポートスイートを作成してもらいます。
+[レポートスイートの作成](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：Analytics 管理者をログインさせ、データ収集用のレポートスイートを作成してもらいます。
 
 [Experience Platform Launch でのプロパティの作成](/help/implement/launch/create-analytics-property.md)：Experience Platform Launch の管理者にツールにログインしてプロパティを作成し、サイトに実装します。
