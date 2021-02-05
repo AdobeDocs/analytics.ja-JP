@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 97%
+source-wordcount: '1186'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 >[!IMPORTANT]
 >
->Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
+>アドビは、2021 年 3 月 1 日（PT）に Ad Hoc Analysis の提供を終了します。[詳細情報](https://adobe.ly/discoverworkspace)
 
 * プロジェクト作業のタブ編成が求められる場合.
 * サイト分析レポートを使用する（3D パスレポート）。
@@ -49,7 +49,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 待ち時間分析（イベント前後の時間）。
 * Adobe Experience Cloud 全体での複雑なセグメントの識別およびエクスポート。
 
-## Adobe Analytics へのデータのインポート {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Adobe Analytics へのデータのインポート  {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 **[分類](/help/components/classifications/c-classifications.md)** は以下の場合に使用します。
 
@@ -68,13 +68,17 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
    * トランザクション ID：オンラインエンドポイントをオフラインデータに接続し、インポートしたデータを、オンラインでキャプチャした訪問者スナップショットに完全に関連付けるデータアップロード（例えば、注文がオンラインで完了し、オフラインで返されるなど）。
    * フル処理：タイムスタンプ付きのデータソース。Adobe サーバーで収集されたヒットのように処理されます。つまり、データが訪問者のジャーニーに直接挿入されます。
 
-**[Data Connectors ](https://www.adobeexchange.com/experiencecloud.html)（以前の Genesis）** は以下の場合に使用します。
+**[Data ](https://www.adobeexchange.com/experiencecloud.html)** Connectorsは以下の場合に使用します。
 
 * Adobe Analytics とのサポートされる接続を構築したサードパーティプロバイダーとやり取りする場合。Data Connectors は、通常、サマリレベルのデータを、定期的、恒久的かつ自動的に Adobe Analytics に取り込みます。
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** は以下の場合に使用します。
 
 * データを Adobe Analytics にアップロードする必要があるときに Adobe AppMeasurement またはモバイル SDK コードを使用できない場合。
+
+**[一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* Data Insertion APIとBulk Data Insertion APIはどちらも、サーバー側の収集データをAdobe Analyticsに送信するメソッドです。 Data Insertion API呼び出しは、一度に1イベントずつ行われます。 Bulk Data Insertion APIは、1行に1イベントのイベントデータを含むCSV形式のファイルを受け付けます。 サーバー側コレクションの新しい実装を使用する場合は、Bulk Data Insertion APIを使用することをお勧めします。
 
 **[顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)** は以下の場合に使用します。
 
@@ -86,7 +90,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 人口統計情報（例：性別や所得水準）、サイコグラフィック情報（例：興味や趣味）、CRM データ、広告インプレッションデータなどの Adobe Audience Manager（AAM）のオーディエンスデータを任意の Analytics ワークフローに組み込む場合。
 * この統合によって新しい情報が Analytics にヒットごとに送信されるので、アップロードされた CRM データを時間ベースにする場合。
 
-## Adobe Analytics からのデータのエクスポート {#section_901C06ABF2014E92B2952906723DF235}
+## Adobe Analytics からのデータのエクスポート  {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** は以下の場合に使用します。
 
