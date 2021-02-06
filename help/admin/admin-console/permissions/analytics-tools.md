@@ -1,9 +1,9 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '558'
-ht-degree: 98%
+source-wordcount: '559'
+ht-degree: 97%
 
 ---
 # Analyticsツールの製品プロファイル権限
@@ -39,7 +39,7 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | Analysis Workspace アクセス | Analysis Workspace へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループ（推奨）または Reports &amp; Analytics アクセスに属している必要があります。 |
 | Reports &amp; Analytics アクセス | Reports &amp; Analytics へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループまたは Analysis Workspace アクセス（推奨）に属している必要があります。 |
 | Analysis Workspace：テンプレートとして保存 | Analysis Workspace 内のプロジェクト／テンプレートとして保存へのアクセスを許可します。 |
-| ラボのアクセス | 現在開発中です。リリース時に、ラボへのアクセスを許可します。 |
+| ラボのアクセス | ラボやラボ内のプロトタイプへのアクセスをユーザーに提供 |
 | 計算指標の作成 | すべての Analytics 機能で計算指標を作成する機能を付与します。 |
 | セグメントの作成 | すべての Analytics 機能でセグメントを作成および共有する機能を付与します。 |
 | Advertising Analytics 管理 | 未使用。 |
