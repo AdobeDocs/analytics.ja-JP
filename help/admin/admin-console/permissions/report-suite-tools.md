@@ -1,12 +1,12 @@
 ---
-source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: ht
-translation-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
-# 製品プロファイル権限にリストされたレポートスイートツール
+# レポートスイートツールに対する製品プロファイル権限
 
 このページを使用して、レポートスイートツールの各権限項目について理解します。
 
