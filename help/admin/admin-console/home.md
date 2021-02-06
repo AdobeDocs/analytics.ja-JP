@@ -1,6 +1,19 @@
 ---
-source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
+source-git-commit: 0912f05e64eccc068f86aead145c5c06e38b0f37
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '69'
+ht-degree: 20%
 
 ---
-# Adobe Admin Console での Adobe Analytics
+# Admin Console での Adobe Analytics
+
+[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)を使用して、Analyticsの製品とユーザーを管理します。 Adobe Admin Consoleは[adminconsole.adobe.com](https://adminconsole.adobe.com/)にあります。
+
+この章では、Adobe Admin ConsoleのAnalytics固有の製品プロファイルと権限について理解する必要がある概念について説明します。
+
+* 権限
+
+   * [Adobe Analytics向け商品プロファイル](/help/admin/admin-console/permissions/product-profile.md)
+   * [レポートスイートツールに対する製品プロファイル権限](/help/admin/admin-console/permissions/report-suite-tools.md)
+   * [Analyticsツールの製品プロファイル権限](/help/admin/admin-console/permissions/analytics-tools.md)
