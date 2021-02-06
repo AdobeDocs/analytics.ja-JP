@@ -1,9 +1,12 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '558'
+ht-degree: 98%
 
 ---
-# Analytics ツールの権限の項目
+# Analyticsツールの製品プロファイル権限
 
 Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対するアクセスを許可します。Analytics ツールの権限の項目は、レポートスイートではなく、Adobe Analytics 全体に適用されます。
 
