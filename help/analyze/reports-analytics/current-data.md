@@ -4,11 +4,11 @@ subtopic: Current Data
 title: 現在のデータ
 topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Reports &amp; Analytics の「現在のデータを含む」オプションを�
 
 * Analysis Workspace で、完全に処理済みのデータを使用します。
 * 現在のデータレポート設定で「いいえ」をクリックすると、完全に処理済みのデータのみが使用されます。
-* 管理者以外のユーザーがこのオプションを表示できないようにするには、Admin Console の製品プロファイルから「現在のデータ」権限項目を削除します。詳しくは、『管理者マニュアル』の「[Analytics ツール権限項目](/help/admin/admin-console/permissions/analytics-tools.md)」を参照してください。
+* 管理者以外のユーザーがこのオプションを表示できないようにするには、Admin Console の製品プロファイルから「現在のデータ」権限項目を削除します。詳しくは、『管理者ユーザーガイド』の「Analyticsツールの製品プロファイル権限](/help/admin/admin-console/permissions/analytics-tools.md)」を参照してください。[
 
 データの可用性を優先するため、現在のデータは、セグメント、分類、内訳、パス、また一部の指標では使用できません。これらの機能のいずれかを使用すると、現在のデータがレポートで強制的に「いいえ」に設定され、現在のデータが使用できない理由を示す黄色の通知が表示されます。
 
