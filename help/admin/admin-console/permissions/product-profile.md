@@ -1,14 +1,14 @@
 ---
-source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '643'
-ht-degree: 72%
+source-wordcount: '646'
+ht-degree: 67%
 
 ---
-# Adobe Analytics の製品プロファイル
+# Adobe Analytics向け商品プロファイル
 
-製品プロファイルは、製品管理者が組織内のユーザーに割り当てることができる権限プリセットです。製品プロファイルを作成し、その製品プロファイルに Experience Cloud ユーザーを割り当てると、ユーザーは製品プロファイルに含まれる権限項目を継承します。
+製品プロファイルは、製品管理者が組織内のユーザーに割り当てることができる権限プリセットです。 製品プロファイルを作成し、その製品プロファイルに Experience Cloud ユーザーを割り当てると、ユーザーは製品プロファイルに含まれる権限項目を継承します。
 
 製品プロファイルの一般情報については、エンタープライズユーザーガイドの[製品とプロファイルの管理](https://helpx.adobe.com/jp/enterprise/using/manage-products-and-profiles.html)を参照してください。
 
@@ -50,7 +50,7 @@ eVar などのカスタム変数には、レポートスイートから独立さ
 
 ### Analytics ツール
 
-Analyticsツールの権限項目は、レポートスイートの設定に依存しない機能へのアクセスを提供します。権限項目と説明の完全なリストについては、[Analytics ツール](analytics-tools.md)を参照してください。
+Analyticsツールの権限項目は、レポートスイートの設定に依存しない機能へのアクセスを提供します。権限項目と説明の完全なリストについては、[Analyticsツールの製品プロファイル権限](analytics-tools.md)を参照してください。
 
 ## 製品プロファイル開発者
 
