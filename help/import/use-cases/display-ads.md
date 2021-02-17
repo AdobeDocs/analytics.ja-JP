@@ -2,9 +2,9 @@
 title: Googleディスプレイ広告データをAdobe Analyticsに統合する
 description: null
 translation-type: tm+mt
-source-git-commit: b3fa13990807294f22414acb2e0eb44c08202b43
+source-git-commit: caa4042cbef2f588452f9fdd70c5f4bca976ca83
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 この統合により、顧客の行動をGoogle AdWordsのキャンペーンおよびコストデータに関連付けることができます。
 
 
-1. Googleキャンペーンマネージャーに移動します。
+1. Googleキャンペーンマネージャーを開きます。
 1. ディスプレイ広告データの繰り返しのエクスポートを設定し、最も詳細なID（広告ID）で分類された表示指標（インプレッション数、クリック数、コスト）の指標のデルタをアップロードできるようにします。
 1. キャンペーン、サイトなど、広告IDメタデータの完全なセットをアップロードします。
 1. すべてのメタデータを使用して広告IDを分類します。
