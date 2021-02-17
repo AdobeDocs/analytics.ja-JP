@@ -3,7 +3,7 @@ description: 仮想レポートスイートをキュレートして、Analysis W
 title: 仮想レポートスイートコンポーネントのキュレーション
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 780d1d70c1bef907ef3dc1a942eaf399c9d3ba48
+source-git-commit: 07aa9068e4500d11a80d1e340912b249156fd3b9
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
@@ -31,13 +31,14 @@ ht-degree: 100%
    >[!NOTE]
    >
    >コンポーネントのカスタマイズが有効になっている場合、仮想レポートスイートは **Analysis Workspace からのみ**&#x200B;アクセスでき、次の場所からはアクセスできません。
+   >
+   >* [!UICONTROL Reports &amp; Analytics]
+   >* [!UICONTROL Ad Hoc Analysis]
+   >* [!UICONTROL Data Warehouse]
+   >* [!UICONTROL Report Builder]
+   >* [!UICONTROL Activity Map]
+   >* Analytics レポート API
 
-   * [!UICONTROL Reports &amp; Analytics]
-   * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL Data Warehouse]
-   * [!UICONTROL Report Builder]
-   * [!UICONTROL Activity Map]
-   * Analytics レポート API
 
    このチェックボックスを選択した後は、「除外されたコンポーネント」列から「含まれるコンポーネント」列にコンポーネントをドラッグすることで、任意のコンポーネントを仮想レポートスイートに追加できます。仮想レポートスイートに含めるかどうかを選択できるコンポーネントは次のとおりです。
 
