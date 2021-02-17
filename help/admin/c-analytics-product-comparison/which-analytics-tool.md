@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
+source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 93%
+source-wordcount: '1162'
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 Adobe Analytics の製品比較について詳しくは、[こちら](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)を参照してください。
 
-## Adobe Analytics レポートユーザーインターフェイス {#section_8265460EBB47405AB19A3B2B0729C8A4}
+## Adobe Analytics レポートユーザーインターフェイス {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** は、レポートおよび分析のあらゆるニーズに応える中心的なユーザーインターフェイスです。アドビでは、この製品への投資を続け、毎月、製品のアップデートをリリースしています。Analysis Workspace で実行できないタスクがある場合は、以下に示す他のインターフェイスを検討してください。**
 
@@ -31,15 +31,6 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * ビデオ視聴時間帯とビューアのドロップオフの個別のビデオビジュアライゼーションにアクセスするには
 * 予定レポートで発行リストを活用する。
 
-**[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** は以下の場合に使用します。
-
->[!IMPORTANT]
->
->アドビは、2021 年 3 月 1 日（PT）に Ad Hoc Analysis の提供を終了します。[詳細情報](https://adobe.ly/discoverworkspace)
-
-* プロジェクト作業のタブ編成が求められる場合.
-* サイト分析レポートを使用する（3D パスレポート）。
-
 **[Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html)** は以下の場合に使用します。
 
 * 柔軟性の最も高い Analytics ツールとして使用（訪問者レベル、ヒットレベル分析に至るまで対応）。
@@ -49,7 +40,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 待ち時間分析（イベント前後の時間）。
 * Adobe Experience Cloud 全体での複雑なセグメントの識別およびエクスポート。
 
-## Adobe Analytics へのデータのインポート  {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Adobe Analytics へのデータのインポート  {#import}
 
 **[分類](/help/components/classifications/c-classifications.md)** は以下の場合に使用します。
 
@@ -90,14 +81,14 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * 人口統計情報（例：性別や所得水準）、サイコグラフィック情報（例：興味や趣味）、CRM データ、広告インプレッションデータなどの Adobe Audience Manager（AAM）のオーディエンスデータを任意の Analytics ワークフローに組み込む場合。
 * この統合によって新しい情報が Analytics にヒットごとに送信されるので、アップロードされた CRM データを時間ベースにする場合。
 
-## Adobe Analytics からのデータのエクスポート  {#section_901C06ABF2014E92B2952906723DF235}
+## Adobe Analytics からのデータのエクスポート  {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** は以下の場合に使用します。
 
 * Workspace のカスタマイズされたレイアウトオプションが制限的である場合（Report Builder では Excel の範囲内であればどのようなレイアウトも可能）。
 * ユーザー入力またはオフラインデータソース（インプレッション数、コスト）を Adobe データに緩やかに統合する場合。データを統合するためのより恒久的なソリューションはデータソースです（「Adobe Analytics へのデータのインポート」を参照）。
 * 様々なディメンションのレポートから得られるデータの結合（例えば、プロモーションのインプレッションレポートとプロモーションのクリックトゥコンバージョンレポートの結合など）。
-* クロスレポートスイート表示。
+* 異なるレポートスイートからのデータを、同じテーブルに並べて合計または表示することで結合する場合。
 * スケジュール設定による自動化が求められる場合（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** は以下の場合に使用します。
@@ -120,7 +111,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * **リアルタイム**：いくつかの指標とディメンションを数秒の待ち時間で表示させる場合。これは、限定的な、部分的に処理され要約されたデータで、30 秒以内で提供されます。最頻使用、勝者、敗者の固有アルゴリズムが含まれます。Report Builder を通じて使用できます。
 * **[!UICONTROL ライブストリーム]**：部分的に処理されたヒットレベルの Analytics データのストリームを数秒以内で収集したい場合。これは部分的に処理されたデータで、30 秒以内で提供されます。Analytics Premium でのみ使用可能です。データを可視化する何らかの方法が必要になります。通常は、エンジニアリングサービスを使用しておこないます。
 
-## カスタムソリューション {#section_4A212F26A15947599DFB0399A0440CB6}
+## カスタムソリューション {#custom-solutions}
 
 エンジニアリングサービスは、次のような場合に使用します：
 
