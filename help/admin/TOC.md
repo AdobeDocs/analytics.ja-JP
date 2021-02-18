@@ -5,9 +5,9 @@ user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定などについて説明します。
 translation-type: tm+mt
-source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
+source-git-commit: ae75341a1fcf15044c385d9d8ea2048190b9c1c3
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '731'
 ht-degree: 96%
 
 ---
@@ -111,6 +111,7 @@ ht-degree: 96%
 + Admin Console での Adobe Analytics {#admin-console}
    + [Admin Console での Adobe Analytics](admin-console/home.md)
    + 権限 {#permissions}
+      + [Admin ConsoleでのAnalytics権限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics向け商品プロファイル](admin-console/permissions/product-profile.md)
       + [レポートスイートツールに対する製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
       + [Analyticsツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
