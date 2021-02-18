@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * カレンダーイベントをセットアップする。
 * ターゲットをセットアップする。
 * ボットレポートを表示する。
-* ビデオ視聴時間帯とビューアのドロップオフの個別のビデオビジュアライゼーションにアクセスするには
+* ビデオ視聴時間帯、ビューアドロップオフの独自のビデオビジュアライゼーションにアクセスする。
 * 予定レポートで発行リストを活用する。
 
 **[Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html)** は以下の場合に使用します。
@@ -59,7 +59,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
    * トランザクション ID：オンラインエンドポイントをオフラインデータに接続し、インポートしたデータを、オンラインでキャプチャした訪問者スナップショットに完全に関連付けるデータアップロード（例えば、注文がオンラインで完了し、オフラインで返されるなど）。
    * フル処理：タイムスタンプ付きのデータソース。Adobe サーバーで収集されたヒットのように処理されます。つまり、データが訪問者のジャーニーに直接挿入されます。
 
-**[Data ](https://www.adobeexchange.com/experiencecloud.html)** Connectorsは以下の場合に使用します。
+**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** は以下の場合に使用します。
 
 * Adobe Analytics とのサポートされる接続を構築したサードパーティプロバイダーとやり取りする場合。Data Connectors は、通常、サマリレベルのデータを、定期的、恒久的かつ自動的に Adobe Analytics に取り込みます。
 
@@ -69,7 +69,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 **[一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* Data Insertion APIとBulk Data Insertion APIはどちらも、サーバー側の収集データをAdobe Analyticsに送信するメソッドです。 Data Insertion API呼び出しは、一度に1イベントずつ行われます。 Bulk Data Insertion APIは、1行に1イベントのイベントデータを含むCSV形式のファイルを受け付けます。 サーバー側コレクションの新しい実装を使用する場合は、Bulk Data Insertion APIを使用することをお勧めします。
+* データ挿入 API と一括データ挿入 API はどちらも、サーバーサイドの収集データを Adobe Analytics に送信する手段です。 データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含んだ CSV 形式のファイルを受け付けます。 サーバーサイド収集の新しい実装に取り組む場合は、一括データ挿入 API を使用することをお勧めします。
 
 **[顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)** は以下の場合に使用します。
 
