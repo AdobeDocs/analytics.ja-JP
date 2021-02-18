@@ -1,9 +1,9 @@
 ---
 title: getPercentPageViewed
 description: 訪問者が閲覧したページの割合を取得します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ### 例 1
 
-次のコードは...
+次のコードは…
 
 ```js
 if(s.pageName) s.getPercentPageViewed();
@@ -104,15 +104,15 @@ if(s._ppvPreviousPage)
 
 ## バージョン履歴
 
-### v4.0（2019 年 10 月 8 日）
+### v4.0（2019 年 10 月 7 日（PT））
 
 * `s._ppvFoldsSeen` および `s._ppvFoldsAvailable` ソリューションを追加しました。
 
-### V3.01（2018 年 8 月 14 日）
+### V3.01（2018 年 8 月 13 日（PT））
 
 * 複数の AppMeasurement オブジェクトがあるページの問題を修正しました。
 
-### V3.0（2018 年 4 月 14 日）
+### V3.0（2018 年 4 月 13 日（PT））
 
 * ポイントリリース（再コンパイル、コードサイズ縮小）
 * プラグインで、戻り値の代わりに Adobe Analytics 変数に割り当てる変数を作成できるようになりました。
