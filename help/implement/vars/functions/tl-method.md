@@ -1,11 +1,11 @@
 ---
 title: tl
 description: リンクトラッキングコールをアドビに送信します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -58,11 +58,11 @@ s.tl(true,"e","Example exit link");
 
 ### リンクタイプ (必須)
 
-リンクタイプ引数は、リンクトラッキングコールのタイプを決定する1文字の文字列です。 有効な値は3つあります。
+リンクタイプ引数は、リンクトラッキングコールのタイプを決定する 1 文字の文字列です。有効な値は 3 つです。
 
-* `o`:リンクは [カスタムリンクです](/help/components/dimensions/custom-link.md)。
-* `d`:リンクは [ダウンロードリンクです](/help/components/dimensions/download-link.md)。
-* `e`:リンクは [離脱リンク](/help/components/dimensions/exit-link.md)。
+* `o`：リンクは[カスタムリンク](/help/components/dimensions/custom-link.md)です。
+* `d`：リンクは [ダウンロードリンク](/help/components/dimensions/download-link.md)です。
+* `e`：リンクは [出口リンク](/help/components/dimensions/exit-link.md)です。
 
 ```js
 // Send a custom link
@@ -77,7 +77,7 @@ s.tl(true,"e","Example exit link");
 
 ### リンク名（推奨）
 
-リンク名引数は、リンクトラッキングディメンション項目を決定する文字列です。レポートで[カスタムリンク](/help/components/dimensions/custom-link.md)、[ダウンロードリンク](/help/components/dimensions/download-link.md)、または[出口リンク](/help/components/dimensions/exit-link.md)を使用する場合、この文字列にはディメンション項目が含まれます。 この引数が設定されていない場合は、[linkURL](../config-vars/linkurl.md)変数が使用されます。
+リンク名引数は、リンクトラッキングディメンション項目を決定する文字列です。レポートで[カスタムリンク](/help/components/dimensions/custom-link.md)、[ダウンロードリンク](/help/components/dimensions/download-link.md)、または[出口リンク](/help/components/dimensions/exit-link.md)を使用する場合、この文字列にはディメンション項目が含まれます。 この引数が設定されていない場合は、[linkURL](../config-vars/linkurl.md) 変数が使用されます。
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
