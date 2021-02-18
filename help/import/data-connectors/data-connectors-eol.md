@@ -1,11 +1,11 @@
 ---
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | Delivra | 廃止 |
 | Demandbase CA | 廃止 |
 | Demandbase v3 | 廃止 |
-| DialogTech | Adobe交換で使用可能 |
+| DialogTech | Adobe Exchange で入手可能 |
 | DoubleClick for Advertisers（DFA） | 廃止 |
 | DREAM | 廃止 |
 | DREAMmail 2.0 | 廃止 |
@@ -81,7 +81,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | Lyris HQ | 廃止 |
 | MaritzCX（V 2.0） | 廃止 |
 | Merkle | 廃止 |
-| 公式 Oracle  Eloqua 統合 | 廃止 |
+| 公式 Oracle Eloqua 統合 | 廃止 |
 | optivo broadmail（Episerver） | Exchange への移行 |
 | Qualtrics v2 | Exchange への移行 |
 | Responsys 2.0 | 廃止 |
