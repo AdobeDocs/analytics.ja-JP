@@ -1,11 +1,11 @@
 ---
 title: 出口リンク
 description: 出口リンクの名前。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 このディメンションは、イメージリクエストでの `lnk_e` 値を持つ `pe` クエリ文字列も持つヒットについて、 ](/help/implement/validate/query-parameters.md) クエリ文字列 [`pev2` からデータを収集します。ヒット内で `pe` クエリ文字列の値が異なる場合、このディメンションはデータを収集しません。
 
-AppMeasurementを使用してこのディメンションにデータを送信する場合は、`"e"`のリンクタイプ引数を持つ[`tl()`](/help/implement/vars/functions/tl-method.md)イメージリクエストを送信します。 リンク名の引数に必要な値を入力します。
+AppMeasurement を使用してこのディメンションにデータを送信する場合は、`"e"` のリンクタイプ引数を持つ [`tl()`](/help/implement/vars/functions/tl-method.md) イメージリクエストを送信します。リンク名の引数に必要な値を入力します。
 
 ## ディメンション項目
 
