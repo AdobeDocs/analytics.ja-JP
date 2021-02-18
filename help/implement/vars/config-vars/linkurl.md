@@ -1,11 +1,11 @@
 ---
 title: linkURL
 description: AppMeasurement がリンクトラッキングコールで使用する、自動生成されたリンク URL を上書きします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,4 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 s.linkURL = "https://example.com";
 ```
 
-[tl()](../functions/tl-method.md)メソッドの3番目の引数が設定されていない場合は、代わりに`linkURL`変数が使用されます。
+[tl()](../functions/tl-method.md) メソッドの 3 番目の引数が設定されていない場合は、代わりに `linkURL` 変数が使用されます。
