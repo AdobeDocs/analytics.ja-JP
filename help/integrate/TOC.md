@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
 user-guide-description: Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 41d3cfb510fb7cac77abbe0a80046c96042d0946
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
