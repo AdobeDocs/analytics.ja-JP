@@ -4,6 +4,9 @@ description: セグメント比較パネルを使用してマーケティング�
 keywords: Segment IQ
 translation-type: tm+mt
 source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+workflow-type: tm+mt
+source-wordcount: '826'
+ht-degree: 100%
 
 ---
 
