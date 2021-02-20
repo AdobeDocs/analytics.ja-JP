@@ -1,9 +1,9 @@
 ---
 title: tl
 description: リンクトラッキングコールをアドビに送信します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 
