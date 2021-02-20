@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: 処理ルールの作成
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
 
