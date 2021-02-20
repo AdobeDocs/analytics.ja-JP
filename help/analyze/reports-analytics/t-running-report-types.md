@@ -3,9 +3,9 @@ description: 異なるレポートタイプの実行手順を説明します。
 title: 異なるレポートタイプの実行
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ Analysis Workspace の新しい[フォールアウト分析](https://docs.adobe.
 
 ページフローレポートには、訪問者がページにアクセスした順序と使用したナビゲーション方法が表示されます。このレポートは問題を解決するのに役立ちます。
 
-Analysis Workspace の新しい[フロービジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)を調べます。
+Analysis Workspace の新しい[フロービジュアライゼーション](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)を調べます。
 
 [パス](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)レポートを実行します。
 
@@ -153,7 +153,7 @@ Analysis Workspace の新しい[異常値検出と貢献度分析](https://docs.
 
 >[!NOTE]
 >
->Analysis Workspace プロジェクト内からも異常値検出を実行できます。[さらに詳しく...](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>Analysis Workspace プロジェクト内からも異常値検出を実行できます。[さらに詳しく...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 異常値検出の設定については、[リファレンスガイド](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)を参照してください。
 
@@ -182,7 +182,7 @@ Analysis Workspace の新しい[異常値検出と貢献度分析](https://docs.
         <li id="li_4090357A0D214BC7B1C3DE0615875554">下限値と期待値が等しい場合は、偏差率は –100% になります。 </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">それ以外の場合は、偏差率は「((下限値 – 実際の値) / (期待値 – 下限値)) * -100」で計算されます。  </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">「<span class="uicontrol">表示セグメント</span>」をクリックすると、異常値検出レポートにセグメントを適用するためのセグメントパネルが表示されます。セグメントについての<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html"  >詳細</a>を参照してください。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">「<span class="uicontrol">表示セグメント</span>」をクリックすると、異常値検出レポートにセグメントを適用するためのセグメントパネルが表示されます。セグメントについての<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  >詳細</a>を参照してください。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">「<span class="uicontrol">指標を編集</span>」をクリックすると、異常値を検出する指標の選択および選択解除が行えます。 </li> 
      </ul> </p> </td> 
   </tr> 
