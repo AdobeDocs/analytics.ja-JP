@@ -5,8 +5,8 @@ title: Data Connectors
 translation-type: tm+mt
 source-git-commit: d5840838b092eb19165d4b716e808a1d2d1fc4dc
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 91%
+source-wordcount: '142'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->2021年中旬から後半にかけて、Adobe Data Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021 年半ばから後半にかけて、Adobe Data Connectors テクノロジーの提供終了を予定しています。[詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 [Data Connectors](https://www.adobeexchange.com/experiencecloud.html) を使用してアドビパートナーとの統合を作成する場合、アドビは、ユーザーやパートナーがダウンロードできるように、リマーケティングなどのデータを FTP アカウントにプッシュできます。
 
