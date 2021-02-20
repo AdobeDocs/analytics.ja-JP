@@ -4,6 +4,9 @@ title: 統合のアクティブ化
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
 translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 95%
 
 ---
 
@@ -12,8 +15,8 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 統合を設定するには、Adobe Data Connectors 設定ウィザードを使用します。
 
-1. Start [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
-1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
+1. [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) を起動し、「**[!UICONTROL + 新規追加]**」をクリックして[新しい統合を追加](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html)します。
+1. 「**[!UICONTROL 表示]**」リストで「**[!UICONTROL 名前別]**」を選択し、[!DNL ~Partner~] 統合を空のプラグインスロットにドラッグします。
 1. 次の表の情報を使用して、統合ウィザードを完了します。
 
 | フィールド | 説明 |
