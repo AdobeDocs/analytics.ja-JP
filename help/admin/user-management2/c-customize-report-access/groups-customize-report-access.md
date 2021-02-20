@@ -1,12 +1,15 @@
 ---
 description: Analytics ツール、レポートスイートツール、指標およびディメンションに対するグループ権限をカスタマイズします。
-keywords: groups;permissions
+keywords: グループ;権限
 subtopic: Users and groups
 title: レポートアクセスのカスタマイズ - 概要
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 100%
 
 ---
 
@@ -15,17 +18,17 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 Analytics ツール、レポートスイートツール、指標およびディメンションに対するグループ権限をカスタマイズします。
 
-**[!UICONTROL Add New Group]**／**[!UICONTROL Report Access]**
+**[!UICONTROL 新しいグループを追加]**／**[!UICONTROL レポートアクセス]**
 
-The [!UICONTROL Report Access] section on the [!UICONTROL Define User Group] page provides access categories that enable you to customize permissions at a granular level.
+[!UICONTROL ユーザーグループの定義]ページの「[!UICONTROL レポートアクセス]」セクションは、詳細なレベルで権限をカスタマイズすることを可能にするアクセスカテゴリを提供します。
 
 ![](assets/report-access.png)
 
-For example, you can create a group with access to multiple Analytics tools ( [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], and [!UICONTROL Report Builder]), with permission to specific metrics and dimensions (including eVars), and capabilities like segment or calculated metrics creation.
+例えば、特定の指標およびディメンション（eVar を含む）およびセグメントや計算指標の作成などの機能に対する権限を持つ、複数の Analytics ツール（[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] および [!UICONTROL Report Builder]）へのアクセス権を持つグループを作成できます。
 
 ## 権限について知っておくべきこと {#section_3D25D4A5BD044008870C5B98F696244E}
 
@@ -59,11 +62,11 @@ For example, you can create a group with access to multiple Analytics tools ( [!
    <td colname="col2"> <p>権限をカスタマイズして、（指標に加えて）ディメンションへのアクセス権を含めたり、除外したりできます。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/c-classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
     </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">ディメンションの権限のカスタマイズ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/jp/enterprise/using/admin-console.html">Adobe Admin Console</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html">Adobe Admin Console</a> </p> </td> 
    <td colname="col2"> <p>新規のお客様または <a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/core-services.html">Experience Cloud でプロビジョニングされた</a>会社を持つお客様の場合にのみお勧めします。既存の <span class="keyword">Analytics</span> のお客様の <span class="keyword">Experience Cloud</span> ID 管理システムへの移行は、予定されています。 </p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Admin Console への Analytics ユーザーの移行</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
