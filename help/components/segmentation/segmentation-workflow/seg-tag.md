@@ -3,9 +3,9 @@ description: セグメントマネージャでは、セグメントにタグを�
 title: セグメントのタグ設定
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
