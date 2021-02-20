@@ -1,9 +1,9 @@
 ---
 title: 既存の Adobe Analytics の実装を担当する
 description: 既存の Adobe Analytics 実装を初めて使用する管理者向けの手順です。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 159d40fc224c53d6295ad0f441e7c694f51d4961
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Analytics の実装を以前の技術担当者から引き継いでいま�
 
 テクニカルオーナーである Sarah Owen が紹介する、次のヒントをご確認ください。[Adobe Analytics チャンピオン](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p)の Sarah が、継承された実装プレイブックを使用して既存の実装を扱う方法についてのアイデアを紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
 関連トピック:
 
