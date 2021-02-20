@@ -4,9 +4,9 @@ subtopic: Data sources
 title: データのタイプとカテゴリの概要
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 顧客満足度{#section_1058CA3860044630B0B06EEDA261DBA2}
+## 顧客満足度  {#section_1058CA3860044630B0B06EEDA261DBA2}
 
 <table id="table_3811CA1E2B7C45D7A0CBEC5CE44C11A8"> 
  <thead> 
@@ -125,7 +125,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## サイトのパフォーマンス{#section_3A7BECB0B4B247FB991DC59237ECFE1F}
+## サイトのパフォーマンス  {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
 
 <table id="table_7B623D08275E4FDEADDD85EA89A2B7C7"> 
  <thead> 
@@ -144,7 +144,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 汎用{#section_9B9A2A9871894B6491032AE1E961629A}
+## 汎用  {#section_9B9A2A9871894B6491032AE1E961629A}
 
 <table id="table_D63A6A00C93A4CD48FEBE7BC24E5DA9F"> 
  <thead> 
@@ -202,7 +202,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## リード数と見積もり数{#section_0B3EAA59BEC94244BE3EB3825D719DF6}
+## リード数と見積もり数  {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
 
 <table id="table_85B095414F6C4644A191A94AC0CAD13D"> 
  <thead> 
