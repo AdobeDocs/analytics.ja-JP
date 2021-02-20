@@ -4,6 +4,9 @@ title: 計算指標マネージャ
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 100%
 
 ---
 
