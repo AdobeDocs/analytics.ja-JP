@@ -1,9 +1,9 @@
 ---
 title: フィールドベースのステッチ
 description: フィールドベースのステッチを使用してデータをステッチする場合の前提条件と制限事項を理解します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%
 
