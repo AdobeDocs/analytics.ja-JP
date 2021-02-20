@@ -1,9 +1,9 @@
 ---
 title: H コード実装のトラブルシューティング
 description: レガシー JavaScript の実装に関する一般的な問題をいくつか説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
