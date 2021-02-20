@@ -1,8 +1,11 @@
 ---
 title: offlineHitLimit
 description: オフライントラッキング用にキューに入れる最大ヒット数を決定します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
