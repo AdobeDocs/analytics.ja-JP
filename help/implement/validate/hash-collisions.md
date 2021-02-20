@@ -1,9 +1,9 @@
 ---
 title: ハッシュの競合
 description: ハッシュの競合とは何かと、どのようにレポートで示されるかについて説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ eVar62=&quot;値 500&quot; である訪問者を探すセグメントを作成�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> eVar62 文字列値 </th> 
-   <th colname="col2" class="entry"> Hash </th> 
+   <th colname="col2" class="entry"> ハッシュ </th> 
   </tr> 
  </thead>
  <tbody> 
