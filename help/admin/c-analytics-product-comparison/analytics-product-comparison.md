@@ -1,9 +1,9 @@
 ---
 description: 以下の表に、Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse、および Data Workbench の機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
