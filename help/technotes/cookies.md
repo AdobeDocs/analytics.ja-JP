@@ -103,7 +103,7 @@ CNAME を使用する場合、訪問者 ID サービスは ECID をサーバー�
 * ECID（Experience Cloud ID）サービスライブラリによって設定される AMCV cookie
 * Analytics の従来のフォールバック cookie `s_fid`
 
-Analytics legacy `s_vi` cookie as a third party cookie, including collection targets of adobedc.net, 2o7.net or omtrdc.net, continues to be blocked based on earlier versions of ITP.
+adobedc.net、2o7.netまたはomtrdc.netの収集ターゲットを含む、サードパーティCookieとしてのAnalyticsの従来の`s_vi` Cookieは、以前のバージョンのITPに基づいて引き続きブロックされます。
 
 まとめ：
 
@@ -111,7 +111,7 @@ Analytics legacy `s_vi` cookie as a third party cookie, including collection tar
 
 * ファーストパーティのコンテキストでファーストパーティの CNAME を使用し、訪問者 ID サービスを使用しない場合：実装は影響を受けません。
 
-* If you use a first party cookie domain in the third party context, or with the standard third-party domain names (e.g `adobedc.net`, `2o7.net`, `omtrdc.net`, etc), Safari will continue to block it as it has.
+* ファーストパーティcookieドメインをサードパーティのコンテキストで使用する場合、または標準的なサードパーティドメイン名（`adobedc.net`、`2o7.net`、`omtrdc.net`など）を使用する場合、Safariは引き続きそれをブロックします。
 
 * カスタム訪問者 ID を使用する場合：訪問者 ID の保存方法によって異なります。ID をファーストパーティの「クライアントサイド」cookie に保存する場合、7 日間の有効期限が適用されます。他の保存方法を使用する場合は、影響を受けるかどうか検証する必要があります。
 
@@ -133,11 +133,11 @@ Analytics legacy `s_vi` cookie as a third party cookie, including collection tar
 
 * 最新の Safari ブラウザーでデベロッパーコンソールを開きます。ファーストパーティドメインに上記の cookie が設定されている場合は、Safari の変更による影響を受ける可能性があります。
 
-* `s_vi` cookie を表示できるものの、CNAME のコンテキストに `AMCV` cookie が設定されていない場合は、訪問者の識別に CNAME を使用しているので、Analytics の使用は Safari の変更による影響を受けません。If you see both an `s_vi` cookie and an `AMCV` cookie set in the context of a CNAME, you have recently or currently are using Grace Period and some of your Adobe Analytics traffic may be impacted.
+* `s_vi` cookie を表示できるものの、CNAME のコンテキストに `AMCV` cookie が設定されていない場合は、訪問者の識別に CNAME を使用しているので、Analytics の使用は Safari の変更による影響を受けません。CNAMEのコンテキストに`s_vi` cookieと`AMCV` cookieの両方が設定されている場合は、最近または現在猶予期間を使用しているので、Adobe Analyticsトラフィックの一部に影響が出る可能性があります。
 
-* Analytics を使用して、7 日以内に再訪しない訪問者の割合を測定します。訪問者が 7 日以内に繰り返し再訪した場合、トラフィックは大きな影響を受けない可能性があります。For instructions on using Adobe Analytics to figure this out, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+* Analytics を使用して、7 日以内に再訪しない訪問者の割合を測定します。訪問者が 7 日以内に繰り返し再訪した場合、トラフィックは大きな影響を受けない可能性があります。Adobe Analyticsを使用してこの問題を解決する手順については、[Safari ITP 2.1 Impact onAdobe Experience Cloud andExperience Platformのお客様](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)を参照してください。
 
-* Safari ブラウザーからトラフィックの割合を測定し、変更が必要かどうかを判断します。For instructions on using Analytics to figure out the percentage of Safari traffic to your sites, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+* Safari ブラウザーからトラフィックの割合を測定し、変更が必要かどうかを判断します。Analyticsを使用してサイトへのSafariトラフィックの割合を特定する方法については、[Safari ITP 2.1 Impact on the safari andExperience Platformのお客様](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)を参照してください。
 
 ## 訪問者が最も使用しているブラウザーを特定する方法を教えてください。
 
