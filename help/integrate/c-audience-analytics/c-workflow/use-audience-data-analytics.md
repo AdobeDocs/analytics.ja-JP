@@ -54,9 +54,9 @@ AAM セグメントのデータはヒットごとに Analytics に渡され、�
 
 ![](assets/flow-aamaudiences.png)
 
-オーディエンスは[フォールアウトのビジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)で使用することもできます。
+オーディエンスは[フォールアウトのビジュアライゼーション](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)で使用することもできます。
 
-## Analysis Workspace でのベン図のビジュアライゼーション {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Analysis Workspace でのベン図のビジュアライゼーション  {#section_E78AB764FB5047148B51DC1526B0DF89}
 
 [ベン図のビジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/venn.html)には、最大 3 つのセグメントの重複が表示されます。
 
@@ -82,7 +82,7 @@ Analytics が収集した行動情報に加えて、オーディエンスディ�
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics と Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
+## Reports &amp; Analytics と Report Builder  {#section_04E8FD30F73344D7937AD3C6CD19E34A}
 
 1. Analytics レポートを表示するには、**[!UICONTROL レポート]**／**[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL オーディエンス ID レポート]**&#x200B;に移動します。
 1. このフォルダーから、オーディエンス ID ディメンションとオーディエンス名ディメンションの両方にアクセスできます。
