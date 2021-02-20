@@ -1,9 +1,9 @@
 ---
 title: ラストタッチチャネル
 description: 訪問者のエンゲージメント期限内で最も新しいマーケティングチャネル。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -28,4 +28,4 @@ ht-degree: 100%
 
 ## ディメンション項目
 
-ディメンション項目には、マーケティングチャネルマネージャー内の任意のチャネル名が含まれます。デフォルトでは、 `"Paid search"`、`"Natural search"`、 `"Display"`、`"Email"`、`"Affiliate"`、`"Direct"`、`"Internal"`、`"Social networks"`、`"Referring domains"`の値が含まれます。マーケティングチャネルマネージャーでチャネルを追加または削除できます。これは、このディメンションの値に影響を与えます。
+ディメンション項目には、マーケティングチャネルマネージャー内の任意のチャネル名が含まれます。デフォルトでは、`"Paid search"`、`"Natural search"`、`"Display"`、 `"Email"`、`"Affiliate"`、`"Direct"`、`"Internal"`、`"Social networks"`、`"Referring domains"`の値が含まれます。マーケティングチャネルマネージャーでチャネルを追加または削除できます。これは、このディメンションの値に影響を与えます。
