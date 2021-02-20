@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,19 +20,19 @@ IPアドレス、ページ表示、個別訪問者を含むData Warehouseレポ�
 
 ## 転送者なし
 
-ボットは通常、参照URLを持ちません。 セグメント化では、これはとしてフィルタでき `Referring Domain equals Typed/Bookmarked`ます。
+ボットは通常、参照URLを持ちません。 セグメント化では、これを`Referring Domain equals Typed/Bookmarked`としてフィルタリングできます。
 
 ## 不正なユーザーエージェント
 
-ボットは、多くの場合、Browsersディメンションに分類されていない、または標準ブラウザーの `unknown` バージョンとして表示されるカスタムユーザーエージェントを使用します。 未知のSafariや未知のオペラは、ボットである可能性が非常に高い。
+ボットは、多くの場合、Browsersディメンションに分類されていない、または標準ブラウザーの`unknown`バージョンとして表示されるカスタムユーザーエージェントを使用します。 未知のSafariや未知のオペラは、ボットである可能性が非常に高い。
 
 ## Linuxまたは「指定なし」のオペレーティングシステム
 
-ぼくたちは、オープンソースのLinuxオペレーティングシステムを信用しないつもりはないけれど、でも、どうやら、それをオペレーティングシステムとして設定するのがボットみたいだ。 ただし、Linuxユーザから正規のトラフィックを除外する場合は注意が必要です。 ボットは、オペレーティングシステムを設定しないことを好みます。オペレーティングシステムは、としてセグメント化でき `Operating System &#x200B;equals Not Specified`ます。
+ぼくたちは、オープンソースのLinuxオペレーティングシステムを信用しないつもりはないけれど、でも、どうやら、それをオペレーティングシステムとして設定するのがボットみたいだ。 ただし、Linuxユーザから正規のトラフィックを除外する場合は注意が必要です。 ボットは、オペレーティングシステムを設定しないことを好みます。オペレーティングシステムは`Operating System &#x200B;equals Not Specified`としてセグメント化できます。
 
 ## ページ表示=訪問回数=個別訪問者数
 
-これは、特にユーザーエージェントレポートに適用されます。 下のスクリーンショットに示すように、これらのブラウザーの「不明なバージョン」の訪問者数は、実訪問者数とほぼ同じです(ページ表示数もほぼ同じです)。 これは、またはの「 [!UICONTROL 含める] 」 `Single Page Visits equals Enabled` コンテナを作成することで、セグメント化で分離でき `Hit Depth is less than 2`ます。
+これは、特にユーザーエージェントレポートに適用されます。 下のスクリーンショットに示すように、これらのブラウザーの「不明なバージョン」の訪問者数は、実訪問者数とほぼ同じです(ページ表示数もほぼ同じです)。 これは、`Single Page Visits equals Enabled`または`Hit Depth is less than 2`の[!UICONTROL Include]コンテナを作成することで、セグメント化で分離できます。
 
 ![](assets/bots-browsers-unknown.png)
 
@@ -72,5 +72,6 @@ IPアドレス、ページ表示、個別訪問者を含むData Warehouseレポ�
 
 ## 分散コンピューティングプラットフォームから派生するIPアドレス
 
-AmazonWebサービスやGoogle CloudなどのWebホスティングサービスは、ボットファームとして悪用される場合があります。 これらのIPアドレスは、ボットになるリスクが高くなります。&#x200B;
-* [Google Cloud](https://cloud.google.com/compute/):またはのIPアドレス開始 `&#x200B;35.199` `35.194&#x200B;`
+AmazonWebサービスやGoogle CloudなどのWebホスティングサービスは、ボットファームとして悪用される場合があります。 これらのIPアドレスは、ボットになるリスクが高くなります。
+&#x200B;
+* [Google Cloud](https://cloud.google.com/compute/):またはのIPアドレス開始 `&#x200B;35.199`   `35.194&#x200B;`
