@@ -1,12 +1,12 @@
 ---
 description: Adobe Analytics が収集するデータの概要とプライバシーに関する他の考慮事項です。
-keywords: privacy
+keywords: プライバシー
 title: プライバシーの概要
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
-source-wordcount: '843'
+workflow-type: tm+mt
+source-wordcount: '844'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Adobe Analytics は次のデータを収集します。
 
 * アドビの顧客が IP の削除を選択していない場合に限ります。
 
-## プライバシーに関する他の考慮事項{#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## プライバシーに関する他の考慮事項  {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -109,7 +109,7 @@ Adobe Analytics は次のデータを収集します。
  </tbody> 
 </table>
 
-## EMEA データセンターの所在地{#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA データセンターの所在地  {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 現在、Adobe Analytics データは、次の EMEA データセンターでホストされています。
 
