@@ -12,13 +12,13 @@ ht-degree: 81%
 
 # pageName
 
-`pageName` 変数は通常、特定のページの名前を保存します。最も人気のある個々のページを判断すると役立ちます。This variable populates the [Page](/help/components/dimensions/page.md) dimension.
+`pageName` 変数は通常、特定のページの名前を保存します。最も人気のある個々のページを判断すると役立ちます。この変数は、[Page](/help/components/dimensions/page.md)ディメンションを入力します。
 
 この変数が特定のページトラッキングコールで定義されていない場合は、代わりに [`pageURL`](pageurl.md) 変数が使用されます。
 
 >[!NOTE]
 >
->Adobeデータ収集サーバーは、このディメンションをすべての [リンクトラッキング](/help/implement/vars/functions/tl-method.md) イメージリクエストから除去します。 このディメンションをリンクトラッキングのヒットで表示する場合は、このディメンションを [eVarにコピーすることを検討してください](evar.md)。
+>Adobeデータ収集サーバーは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)イメージリクエストからこのディメンションを除去します。 このディメンションをリンクトラッキングのヒットで表示する場合は、このディメンションを[eVar](evar.md)にコピーすることを検討してください。
 
 ## Adobe Experience Platform Launch のページ名
 
@@ -45,7 +45,7 @@ s.pageName = "Example page name";
 s.pageName = window.document.title;
 ```
 
-デー `digitalData` タレイヤーを使用する場合 [](../../prepare/data-layer.md):
+`digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合：
 
 ```js
 s.pageName = digitalData.page.pageInfo.pageName;
