@@ -4,9 +4,9 @@ subtopic: Classifications
 title: ブラウザーインポート
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 100%
 
