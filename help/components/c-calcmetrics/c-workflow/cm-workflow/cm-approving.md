@@ -4,6 +4,9 @@ title: 計算指標の承認
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 100%
 
 ---
 
