@@ -1,11 +1,11 @@
 ---
 description: ビジュアライゼーションを同期することで、ビジュアライゼーションに対応するデータテーブルまたはデータソースを制御できます。
-keywords: Analysis Workspace;Synchronize visualization with data source
+keywords: Analysis Workspace;ビジュアライゼーションのデータソースとの同期
 title: データソースの管理
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
-workflow-type: ht
-source-wordcount: '562'
+workflow-type: tm+mt
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
