@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
    * [セグメントを比較](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)できます。
    * 比較の[ディメンションとしてセグメント](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)を使用できます。
-   * [フォールアウト分析](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)でセグメントを使用できます。
+   * [フォールアウト分析](https://docs.adobe.com/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)でセグメントを使用できます。
 
 * [レポートやプロジェクトに複数のセグメントを適用](/help/components/segmentation/segmentation-workflow/seg-workflow.md)できます。
 * セグメントが、レポートスイート全体で共通になりました。
@@ -111,7 +111,7 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 * 自分が所有しているセグメントを確認します。
 * セグメントを適切なセグメントライブラリに追加します。
 * 正規のセグメントを承認します。
-* セグメントに[ベストプラクティス](/help/components/segmentation/segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
+* Tag segments according to[ベストプラクティス](/help/components/segmentation/segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
 
 ## レガシーセグメントの管理 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -251,7 +251,7 @@ seg_definition.xml
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 画面の色 </td> 
+   <td colname="col1"> 色深度 </td> 
    <td colname="col2"> 画面の色設定 </td> 
    <td colname="col3"> - </td> 
   </tr> 
@@ -328,29 +328,29 @@ seg_definition.xml
  </tbody> 
 </table>
 
-## 既知の値を持つ文字列ベースのディメンションの変更 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## 既知の値を持つ文字列ベースのディメンションの変更  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 既知の値のセットを持つ文字列ベースのディメンションは列挙型に変更されました。これらのディメンションを使用してセグメントを作成すると、リストにすべての既知の値が事前に設定されます。演算子は等号のみがサポートされます。したがって、必要な値をすばやく正確にセグメント化でき、制限の緩いマッチングによって意図しない値が選択されることはありません。
 
 次のディメンションが列挙型リストに変更されました。
 
-| モバイルの製造元 | モバイルの電子メールの長さ | 画面の色 |
+| モバイルの製造元 | モバイルの電子メールの長さ | 色深度 |
 |---|---|---|
 | モバイルの画面のサイズ | モバイルデバイス番号 | 画面の解像度 |
 | モバイルの画面の高さ | モバイルプッシュトゥトーク | プラグイン |
 | モバイルの Cookie サポート | モバイルデコレーションメール | オペレーティングシステム |
 | モバイルの画像サポート | モバイル情報サービス | リファラータイプ |
 | モバイルの画面の色 | モバイルデバイスタイプ | 検索エンジン |
-| モバイルのオーディオサポート | ブラウザーのタイプ | state |
+| モバイルのオーディオサポート | ブラウザータイプ | 都道府県 |
 | モバイルのビデオサポート | ブラウザー | 地域 - 国 |
-| モバイル DRM | 接続のタイプ | 地域 - 地域 |
+| モバイル DRM | 接続タイプ | 地域 - 地域 |
 | モバイルインターネットプロトコル | 携帯電話会社 | 地域 - 市 |
 | モバイル OS | cookie | 地域 - DMA |
 | モバイル Java VM | 顧客の忠誠度 | 永続的な Cookie |
 | モバイルのブックマークの長さ | Java 有効 | 有料検索 |
 | モバイルの URL の長さ | 言語 |  |
 
-## 既知の値を持つ整数値ベースのディメンションの変更 {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 既知の値を持つ整数値ベースのディメンションの変更  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 既知の値のセットを持つ整数値ベースのディメンションは列挙型の範囲に分割されたので、特定の範囲に対してセグメントをすばやく定義できます。これらの列挙型リストには、ディメンション名の後に「- グループ」が付きます。次のスクリーンショットに、以前および新しいセグメントビルダーインターフェイスを使用して、これらのディメンションをセグメント化する方法を示します。
 
