@@ -2,9 +2,9 @@
 description: 'null'
 title: ディメンションのプレビュー
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
