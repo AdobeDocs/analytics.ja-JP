@@ -21,7 +21,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.22.0
 
-Release Date: **August 4, 2020**
+リリース日：**2020年8月4日**
 
 * ユーザーのオプトアウト設定により、最初のヒットが送信されなかった場合に転送者が失われる問題を修正しました。
 
@@ -426,7 +426,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2013 年 11 月 15 日**
 
 * [ハードビートビデオ指標](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)のサポートを追加しました。
-* [訪問者 ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [訪問者 ID サービス](https://docs.adobe.com/content/help/en/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 
