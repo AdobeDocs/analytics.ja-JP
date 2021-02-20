@@ -1,9 +1,9 @@
 ---
 description: フリーフォームパネルについて説明します。
 title: フリーフォームパネル
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 77b126b2add78113c266265f413240f27f89bced
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 100%
 
