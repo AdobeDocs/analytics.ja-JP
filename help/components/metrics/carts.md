@@ -1,9 +1,9 @@
 ---
 title: 買い物かご
 description: 訪問者が最初の製品を買い物かごに追加したヒットの数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
