@@ -58,4 +58,4 @@ ht-degree: 94%
 
 ![](assets/mc-viz6.png)
 
-クロスタブマーケティングの分析について詳しくは、このビデオを参照してください。 [クロスタブ分析を使用したAnalysis Workspaceの基本的なマーケティングアトリビューションの調査](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)。
+クロスタブマーケティングの分析について詳しくは、このビデオを参照してください。[クロスタブ分析を使用したAnalysis Workspaceの基本的なマーケティングアトリビューションの調査](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)
