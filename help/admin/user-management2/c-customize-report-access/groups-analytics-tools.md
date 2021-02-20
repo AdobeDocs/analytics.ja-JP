@@ -1,14 +1,14 @@
 ---
 description: 一般的な項目（課金、ログなど）、会社の管理、ツール、Web サービスへのアクセス、Report Builder および Data Connectors の統合に関するユーザー権限を有効にします。
-keywords: groups;permissions
+keywords: グループ;権限
 subtopic: Users and groups
 title: Analytics ツールの権限のカスタマイズ
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '673'
+workflow-type: tm+mt
+source-wordcount: '675'
 ht-degree: 100%
 
 ---
