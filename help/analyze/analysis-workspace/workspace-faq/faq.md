@@ -1,9 +1,9 @@
 ---
 description: Workspace に関する FAQ
 title: よくある質問と Workspace のトラブルシューティング
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 | 質問 | 回答 |
 |--- |--- |
 | Analysis Workspace を使用するための前提条件を教えてください。 | [Adobe Experience Platform Launch を使用して Adobe Analytics にデータを送信する](/help/implement/launch/validate-publish-prod.md)：Analysis Workspace を使用するには、動作する実装が必要です。ツールを使用する前に、組織がアドビにデータを送信していることを確認します。DTM やレガシーの手動による実装など、他の実装も同様に機能できます。 |
-| Analysis Workspace の管理およびアクセスの要件を教えてください。 | [管理要件](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)を参照してください。 |
+| Analysis Workspace の管理およびアクセスの要件を教えてください。 |  [管理要件](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)を参照してください。 |
 | Analysis Workspace を使用するとデータ収集に影響が出ますか。 | Analysis Workspace はレポート作成ツールなので、データ収集には影響しません。何が機能するかを確認するためにコンポーネントをプロジェクトに適当にドラッグしても、データに影響はありません。様々なディメンションと指標の組み合わせをワークスペースプロジェクトにドラッグして、利用可能な項目を確認してください。無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 新規]*&#x200B;をクリックして、新しいスレートから始めることもできます。 |
 | Analysis Workspace プロジェクトには、レポートスイートはいくつ表示できますか。 | [複数のレポートスイート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ja-JP)のデータを使用して、Analysis Workspace でプロジェクトを作成できるようになりました。 |
 | Analysis Workspace はどのようにして実装しますか。 | 特別な実装は必要ありません。Analysis Workspace は、Analytics Standard または Premium を使用しているすべての企業で利用できます。ただし、コンテンツ（レポートスイートやプロジェクトコンポーネントなど）のほか、プロジェクトのキュレーションおよび共有には標準アクセス権限が適用されます。詳しくは、[管理およびアクセス要件](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)を参照してください。 |
