@@ -4,9 +4,9 @@ subtopic: Marketing channels
 title: マーケティングチャネルの有効期限
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 46dae8ee28b202578f5ad0c2446b1fd63e5144cc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 
