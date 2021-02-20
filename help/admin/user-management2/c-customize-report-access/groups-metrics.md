@@ -1,6 +1,6 @@
 ---
 description: トラフィック指標、コンバージョン指標、カスタムイベント、ソリューションイベントおよびコンテンツ対応に関する権限を有効にします。
-keywords: groups;permissions
+keywords: グループ;権限
 subtopic: Users and groups
 title: 指標の権限のカスタマイズ
 topic: Admin tools
@@ -8,7 +8,7 @@ uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
 source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 100%
 
 ---
