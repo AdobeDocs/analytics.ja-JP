@@ -2,9 +2,9 @@
 description: 'null'
 title: アラートビルダー
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 100%
 
