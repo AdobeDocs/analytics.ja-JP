@@ -15,7 +15,7 @@ ht-degree: 95%
 
 インテリジェントアラートシステムでは、異常値検出とアラートを統合して、アラートをより詳細に制御します。
 
-以下に、 [インテリジェントアラートに関するビデオチュートリアル](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)を示します。
+[インテリジェントアラート](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)のビデオチュートリアルを紹介します。
 
 ## 概要
 
