@@ -1,9 +1,9 @@
 ---
 title: レポート
 description: 各レポートで Reports & Analytics が使用するディメンションと指標。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 100%
 
