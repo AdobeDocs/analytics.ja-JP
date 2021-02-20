@@ -16,10 +16,10 @@ ht-degree: 41%
 
 ## このディメンションへのデータ入力
 
-Adobeは、 [Digital Element](https://info.digitalelement.com/jp/) （デジタル要素）とパートナー関係を持ち、アクセスポイントドメインを決定します。 DNS逆引き参照を含むいくつかのメソッドは、アクセスポイントドメインを決定するために使用されます。 構成は不要で、入力する変数もありません。すべての AppMeasurement 実装でデフォルトで動作します。
+Adobeは、[Digital Element](https://info.digitalelement.com/jp/)と提携して、アクセスポイントドメインを特定します。 DNS逆引き参照を含むいくつかのメソッドは、アクセスポイントドメインを決定するために使用されます。 構成は不要で、入力する変数もありません。すべての AppMeasurement 実装でデフォルトで動作します。
 
 ## ディメンション項目
 
 ディメンション項目の例としては、`comcast.net`、`rr.com`、`sbcglobal.net`、`amazonaws.com` などがあります。これらのドメインはアクセスポイントであり、ISPや組織を表すドメインとは限りません。
 
-のDimension値は、アクセスポイントIPアドレスの所有者がドメインを提供しなかったことを `None` 意味します。
+`None`のDimension値は、アクセスポイントIPアドレスの所有者がドメインを提供しなかったことを意味します。
