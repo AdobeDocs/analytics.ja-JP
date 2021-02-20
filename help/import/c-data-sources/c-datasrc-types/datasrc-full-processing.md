@@ -44,8 +44,8 @@ ht-degree: 96%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col1"> <p>キャンペーン </p> </td> 
+   <td colname="col2"> <p>キャンペーン </p> </td> 
    <td colname="col3"> <p>コンバージョンキャンペーンのトラッキングコード。 </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ ht-degree: 96%
    <td colname="col3"> <p>売上高の通貨コード（例：USD）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>timestamp </p> </td> 
+   <td colname="col1"> <p>タイムスタンプ </p> </td> 
    <td colname="col2"> <p>日付 </p> </td> 
    <td colname="col3"> <p><code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> という ISO 8601 の日付フォーマット（例：<code> 2013-09-01T12:00:00-07:00 </code>）、または Unix の時刻フォーマット（1970 年 1 月 1 日からの経過秒数）を使用します。 </p> </td> 
   </tr> 
@@ -70,7 +70,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col2"> <p>イベント </p> </td> 
    <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
     <code>
       scAdd,event1,event7 
@@ -119,7 +119,7 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> <p>製品 </p> </td> 
    <td colname="col2"> <p>製品 </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). 1行4096バイトの最大値を保持できます。</p> </td> 
+   <td colname="col3"> <p>製品リスト（例：<code> "Sports;Ball;1;5.95"</code>）。 1行4096バイトの最大値を保持できます。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 ～ prop75 </p> </td> 
