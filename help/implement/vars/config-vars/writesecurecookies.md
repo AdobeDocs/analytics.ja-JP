@@ -20,12 +20,12 @@ ht-degree: 86%
 
 ## Adobe Experience Platform Launch でのセキュア Cookie の書き込み
 
-[!UICONTROL セキュリティで保護されたcookieを書き込む] :Adobe Analytics拡張機能の設定時に、「 [!UICONTROL cookie] 」アコーディオンの下にあるチェックボックスです。
+[!UICONTROL Adobe Analytics拡張機能の設定時に、セキュア] cookiesを作成する場合は、  Cookiesアコーディオンの下にあるチェックボックスを作成します。
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
-4. 「 [!UICONTROL Cookies] 」アコーディオンを展開すると、「セキュリティで保護されたCookieを [!UICONTROL 書き込む] 」チェックボックスが表示されます。
+4. [!UICONTROL Cookies]アコーディオンを展開すると、[!UICONTROL 「セキュアcookieを書き込む]」チェックボックスが表示されます。
 
 ## AppMeasurement および Launch カスタムコードエディターの s.writeSecureCookies
 
