@@ -1,13 +1,13 @@
 ---
 description: Dynamic Tag Management を使用して Adobe Analytics をデプロイする場合の変数に関するフィールドの説明と情報です。
-keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
+keywords: Dynamic Tag Management, グローバル変数, サーバー変数, evar, prop, 動的変数プレフィックス, 動的変数
 solution: Experience Cloud,Analytics
 title: グローバル変数
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '150'
 ht-degree: 100%
 
 ---
