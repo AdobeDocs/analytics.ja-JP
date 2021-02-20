@@ -1,9 +1,9 @@
 ---
 title: マーケティングチャネル使用の手引き
 description: マーケティングチャネルのワークフロー、自動セットアップ、および複数のレポートスイートにテンプレートレポートスイート設定を適用する方法について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
 
