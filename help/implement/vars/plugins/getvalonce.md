@@ -1,9 +1,9 @@
 ---
 title: getValOnce
 description: Analytics 変数が 2 回続けて同じ値に設定されないようにします。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
