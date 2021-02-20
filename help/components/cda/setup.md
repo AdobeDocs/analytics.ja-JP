@@ -1,9 +1,9 @@
 ---
 title: クロスデバイス分析の設定
 description: CDA を有効にする仮想レポートスイートを設定します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
 
