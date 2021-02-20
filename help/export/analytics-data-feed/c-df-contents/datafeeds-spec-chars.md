@@ -1,15 +1,15 @@
 ---
 description: データフィードで使用される特殊文字に関する情報です。
-keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
+keywords: データフィード；ジョブ；特殊文字；hit_data；複数値の変数；イベント_リスト;products_リスト;mvvars
 subtopic: data feeds
 title: データフィードの特殊文字
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 95%
 
 ---
 
