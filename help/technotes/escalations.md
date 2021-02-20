@@ -14,7 +14,7 @@ ht-degree: 0%
 
 問題によっては、Adobeが直ちに対処する必要がある場合があります。 このプロセスを使用して、重大度に関して妥当な期間内にアクションされないインシデントを報告します。
 
-次の情報と共にdmaEscalations@adobe.com [に電子メールを送信します](mailto:dmaescalations@adobe.com) 。
+次の情報と共に、[dmaEscalations@adobe.com](mailto:dmaescalations@adobe.com)に電子メールを送信します。
 
 * エスカレーションするインシデント番号
 * エスカレーションのビジネス・ジャスティフィケーション
