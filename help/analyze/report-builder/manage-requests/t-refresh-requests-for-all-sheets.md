@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 複数のリクエストを更新する場合、リクエストがオリジナルであるか、または依存リクエストであるかに基づいてリクエストが優先順位付けされます。更新の進行状況に関するメッセージが表示されます。要求するデータ量によっては、更新プロセスに数分かかる場合があります。
 
-1. クリック **[!UICONTROL Manage]**.
-1. 有効にする **[!UICONTROL All Sheets]**.
-1. クリック **[!UICONTROL Refresh]**.
+1. 「**[!UICONTROL 管理]**」をクリックします。
+1. 「**[!UICONTROL すべてのシート]**」を有効にします。
+1. 「**[!UICONTROL 更新]**」をクリックします。
 1. 日付参照を指定して「**[!UICONTROL OK]**」をクリックします。
