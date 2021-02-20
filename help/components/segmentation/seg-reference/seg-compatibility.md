@@ -3,9 +3,9 @@ description: セグメントビルダーで作成するすべてのセグメン�
 title: Data Warehouse セグメントの互換性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ ht-degree: 100%
      <li>階層（「階層」で始まるすべてのディメンション） </li> 
      <li>ヒットの深さ </li> 
      <li>ヒットタイプ </li> 
-     <li>時刻 </li> 
+     <li>時間 日 </li> 
      <li>月 </li> 
      <li>エラーページ（404） </li> 
      <li>有料検索 </li> 
@@ -101,4 +101,4 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-*注意：Data Warehouse では、`AND/OR`を使用する場合に、`exclusion`または`without`コンテナを使用するすべてのケースをサポートするわけではありません。このような組み合わせを使用する場合、`A AND NOT B`として書き直すことのできるセグメントのみが（または&#x200B;**この特性を含み****この特性を除外する**）Data Warehouse でサポートされます。*
+*注意：Data Warehouse では、`AND/OR` を使用する場合に、`exclusion` または `without` コンテナを使用するすべてのケースをサポートするわけではありません。このような組み合わせを使用する場合、`A AND NOT B` として書き直すことのできるセグメントのみが（または&#x200B;**この特性を含み****この特性を除外する**）Data Warehouse でサポートされます。*
