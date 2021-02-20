@@ -32,7 +32,7 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 s.purchaseID = "ABC123";
 ```
 
-デー `digitalData` タレイヤーを使用する場合 [](../../prepare/data-layer.md):
+`digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合：
 
 ```js
 s.purchaseID = digitalData.transaction.transactionID;
