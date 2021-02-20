@@ -1,13 +1,13 @@
 ---
-description: 成功イベントとは、追跡できるアクションです。成功イベントはお客様によって定義されます。例えば、訪問者があるアイテムを購入した場合、購入イベントは成功イベントとみなすことができます。
+description: 成功イベントとは、追跡できるアクションです。成功イベントはお客様によって定義されます。例えば、訪問者があるアイテムを購入した場合、購入イベントは成功イベントとみなすことができますを参照してください。
 keywords: event
 title: 成功イベントの概要
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '715'
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
