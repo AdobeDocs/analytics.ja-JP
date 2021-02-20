@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
 
 # 製品
 
-`products` 変数は、それらに関連付けられた製品とプロパティを追跡します。この変数は、通常、個々の製品ページ、買い物かごページ、および購入確認ページに設定されます。これは複数値の変数です。つまり、同じヒットで複数の製品を送信し、Adobeが値を解析して別々のディメンション項目に分割できます。
+`products` 変数は、それらに関連付けられた製品とプロパティを追跡します。この変数は、通常、個々の製品ページ、買い物かごページ、および購入確認ページに設定されます。これは複数値の変数で、同じヒットで複数の製品を送信し、アドビがその値を別々のディメンション項目に解析します。
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-デー `digitalData` タレイヤーを使用する場合 [、](../../prepare/data-layer.md)`digitalData.product` オブジェクト配列を次のように繰り返し処理できます。
+`digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合は、`digitalData.product`オブジェクト配列を繰り返し処理できます。
 
 ```js
 for(var i=0; i<digitalData.product.length; i++) {
