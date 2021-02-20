@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 スプレッドシートへの項目のマッピングを開始する前に、スプレッドシートが保護されていないことを確認してください。ワークシートの保護によってユーザーの操作が妨げられると、スプレッドシートでセルを選択できなくなります。まず、シートの保護を解除してから、セルのマッピングを追加してください。
 
-マッピングできる領域およびセルの数は、選択した指標、精度、日付範囲および設定したフィルターによって異なります。例えば、/を選択し、精度を設 [!UICONTROL Site Metric] 定し、の日付範囲を設 [!UICONTROL Traffic Report][!UICONTROL Week][!UICONTROL Last 2 Weeks][!UICONTROL Custom Layout][!UICONTROL Request Wizard: Step 2]定すると、（を使用している場合）3つのセルを リクエストによって、第 1 週目のデータと第 2 週目のデータが取得されます。この際、各データポイントの値は、ページビューの値と同じになります。Your third cell serves as the row heading, which you can configure using [!UICONTROL Format Options].
+マッピングできる領域およびセルの数は、選択した指標、精度、日付範囲および設定したフィルターによって異なります。例えば、[!UICONTROL サイト指標]／[!UICONTROL トラフィックレポート]を選択し、精度に「[!UICONTROL 週]」を設定し、日付範囲に「[!UICONTROL 過去 2 週間]」を設定した場合、[!UICONTROL リクエストウィザード：ステップ 2] で 3 つのセルをマッピングするように求められます（[!UICONTROL カスタムレイアウト]を使用している場合）。リクエストによって、第 1 週目のデータと第 2 週目のデータが取得されます。この際、各データポイントの値は、ページビューの値と同じになります。3 つ目のセルは行ヘッダーとなります。この行ヘッダーは、「[!UICONTROL フォーマットオプション]」を使用して設定できます。
 
 スプレッドシートで互換性のない場所を誤ってマッピングした場合は、Report Builder でエラーが表示されます。
 
@@ -25,20 +28,20 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## セルの範囲の選択 {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
-On the [!UICONTROL Request Wizard: Step 2], when you enable [!UICONTROL Custom Layout] for a trended request, you can map the request to a range of cells.
+[!UICONTROL リクエストウィザード：ステップ 2] で、トレンドリクエストに対して「[!UICONTROL カスタムレイアウト]」を有効にすると、セルの一定の範囲にリクエストをマッピングすることができます。
 
-**[!UICONTROL Range Selector]**![ select_cell_icon.png](assets/select_cell_icon.png)
+マッピングする項目の隣にある&#x200B;**[!UICONTROL 範囲セレクター]** ![select_cell_icon.png](assets/select_cell_icon.png)
 
 をクリックします。
 
-* **範囲内のすべてのセル：** スタイルリクエストのセルのグループを選択する必要 [!UICONTROL Custom Layout] があります。
-* **範囲の最初のセル：** 範囲の左上のセルを選択し、方向を表示して、入力セルと出力セル（列または行） [!UICONTROL Range] の水平方向または垂直方向を指定します。 このオプションを使用すると、Report Builder によってセルが自動的に選択されます。
+* **範囲内のすべてのセル：**[!UICONTROL カスタムレイアウト]スタイルのリクエストに対して、セルの範囲を選択する必要があります。
+* **範囲の最初のセル：**&#x200B;範囲の左上にあたるセルを選択します。その後、「[!UICONTROL 範囲の方向]」が表示されるので、そこで入力セルと出力セル（列または行）について、縦方向または横方向を指定します。このオプションを使用すると、Report Builder によってセルが自動的に選択されます。
 * **範囲の方向：**&#x200B;列または行としてセル範囲の方向を指定します。
 * **範囲の先頭のセルを選択：**&#x200B;セル参照を表示します。
 
 ## セル選択のテクニック {#section_760421C3D7F84D67A639174710C93B22}
 
-You select the data by clicking the **[!UICONTROL Range Selection]** icon  ![select_cell_icon.png](assets/select_cell_icon.png)
+**[!UICONTROL 範囲選択]**&#x200B;アイコン ![select_cell_icon.png](assets/select_cell_icon.png) をクリックして日付を設定できます。
 
  をクリックし、スプレッドシートで選択したいセル範囲をマウスでクリック＆ドラッグして、データを選択します。連続した選択領域が、黒の枠線で囲まれます。
 
@@ -48,17 +51,17 @@ You select the data by clicking the **[!UICONTROL Range Selection]** icon  ![sel
 
 ![](assets/twoXten_cells_highlighted.gif)
 
-To map separate rows in one request, use the [!UICONTROL Control] key, then click and drag the cursor over the desired cells. 例えば、40 セル分の連続した領域 1 つではなく、それぞれ 10 セル分の 4 つの領域に対してリクエストを作成するような場合に、これを実行します。
+1 つのリクエスト内で離れた複数の行をマッピングするには、[!UICONTROL Ctrl] キーを使用して、選択したいセルの上でカーソルをクリックおよびドラッグします。例えば、40 セル分の連続した領域 1 つではなく、それぞれ 10 セル分の 4 つの領域に対してリクエストを作成するような場合に、これを実行します。
 
 ![](assets/map4.png)
 
-セルを選択した後、フォーム上 **[!UICONTROL Range Selector]** のを再度ク [!UICONTROL Range Selection] リックして、に戻ります [!UICONTROL Request Wizard: Step 2]。
+セルの選択後、[!UICONTROL 範囲の選択]フォームの&#x200B;**[!UICONTROL 範囲選択アイコン]**&#x200B;を再度クリックして、[!UICONTROL リクエストウィザード：ステップ 2] に戻ります。
 
 ## マッピングの問題 {#section_CC1BCF841291447EB3A994EB08F3A099}
 
 有効なマッピングが既に存在するセルに対して誤ってマッピングした場合は、範囲選択アイコンの隣にあるテキストボックスにセル参照が表示されません。「[!UICONTROL OK]」をクリックすると、Report Builder に「選択した範囲は別のリクエストの範囲と交差します。選択を変更してください。」というエラーが表示されます。
 
-* If you still need to use the cell, right-click on the desired cell or cells, and select **[!UICONTROL Delete Request]**.
+* このセルを使用する必要がある場合は、セル（複数の場合もあります）を右クリックして、「**[!UICONTROL リクエストを削除]**」を選択します。
 
 このメッセージが表示されないようにするには、次の 2 つの方法があります。
 
@@ -67,6 +70,6 @@ To map separate rows in one request, use the [!UICONTROL Control] key, then clic
 
 リクエストが埋め込まれている領域を確認するには、次の方法があります。
 
-* Launch the [!UICONTROL Request Manager] and click on individual requests listed in the table. リクエストをクリックすると、リクエストがマッピングされているスプレッドシート内のセルが強調表示されます。
-* Select cells in the spreadsheet you intend to use for a new mapping and click [!UICONTROL From Sheet]. The [!UICONTROL Request Manager] selects the request in the list which has an output item that intersects the selected cell. 選択されるリクエストがない場合は、そのセルを使用することができます。
-* Select cells in the spreadsheet, right-click in the context menu and verify if [!UICONTROL Edit Request] is available. 選択できる場合は、そのセルに関連付けられたリクエストが存在します。
+* [!UICONTROL リクエストマネージャー]を起動し、表示される個々のリクエストをクリックします。リクエストをクリックすると、リクエストがマッピングされているスプレッドシート内のセルが強調表示されます。
+* リクエストマネージャーを起動し、新しいマッピングのために使用するセルを選択し、「[!UICONTROL シートから取得]」をクリックします。[!UICONTROL リクエストマネージャー]によって、選択されたセルと交差する出力項目があるリクエストがリスト内で選択されます。選択されるリクエストがない場合は、そのセルを使用することができます。
+* スプレッドシートでセルを選択し、右クリックでコンテキストメニューを表示し、「[!UICONTROL リクエストを編集]」を選択できるかどうかを確認します。選択できる場合は、そのセルに関連付けられたリクエストが存在します。
