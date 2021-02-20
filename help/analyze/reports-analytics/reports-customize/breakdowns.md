@@ -5,6 +5,9 @@ topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
 source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
 
 レポートを&#x200B;*`Referrer Type`* 別に分類すると、*`Inside Your Site`* のデータポイントが表示される場合があります。この値は、内部 URL フィルターリスト上のリファーラページを示します。管理リファレンスの[内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)を参照してください。
 
-どの Analytics 変数（eVar または prop）も他の任意の変数別に分類できます。The **[!UICONTROL Breakdown By]** menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
+どの Analytics 変数（eVar または prop）も他の任意の変数別に分類できます。レポート表の&#x200B;**[!UICONTROL 分類基準]**&#x200B;メニューは、標準 Analytics レポートメニューに一致しており、選択項目が同じになっています。
 
 ## 内訳レポートの実行 {#task_F685624830E64C829C8BE6435A107F69}
 
@@ -29,11 +32,11 @@ t_reports_breakdown.xml
 
  -->
 
-1. > > >などのレポ **[!UICONTROL Analytics]** ート **[!UICONTROL Reports]** を開 **[!UICONTROL Site Content]** きます **[!UICONTROL Pages]**。
-1. In the report table, click the **[!UICONTROL Breakdown By]** icon.
+1. レポートを開きます（**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページ]**&#x200B;など）。
+1. レポート表で&#x200B;**[!UICONTROL 分類基準]**&#x200B;アイコンをクリックします。
 
-   If the **[!UICONTROL Breakdown By]** icon is not visible, the feature is either not available or not enabled.
+   **[!UICONTROL 分類基準]**&#x200B;アイコンが表示されていない場合は、この機能を使用できないか、または有効になっていません。
 
    ![](assets/breakdown.png)
 
-   The **[!UICONTROL Breakdown By]** menu displays all available breakdown options available for the current report.
+   **[!UICONTROL 分類基準]**&#x200B;メニューには、現在のレポートに使用できる分類オプションがすべて表示されます。
