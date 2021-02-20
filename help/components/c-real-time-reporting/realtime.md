@@ -3,9 +3,9 @@ description: Web ページのトラフィックを表示し、ページビュー
 title: リアルタイムレポートの概要
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 リアルタイムレポートの設定および表示をおこなうことができるのは、管理者または「全レポートアクセス」および「高度なレポート機能」権限グループのユーザーに制限されています。ただし、リアルタイムは権限を重視します。例えば、売上高を表示する権限がないユーザーは、売上高データを含むリアルタイムレポートを表示できません。
 
-## A4T 設定によるデータ遅延{#section_806CE36354FC4C539A0DED9266A5C704}
+## A4T 設定によるデータ遅延  {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Adobe [!DNL Target] で A4T 統合を有効にすると、Adobe Analytics で 5～10 分の待ち時間が追加で発生します。この追加の待ち時間は、Analytics と [!DNL Target] からのデータを同じヒットに格納することによって、ページおよびサイトセクションによってテストを分類できるようにするためのものです。
 
