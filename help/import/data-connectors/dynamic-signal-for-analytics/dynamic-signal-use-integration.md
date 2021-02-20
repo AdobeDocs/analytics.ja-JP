@@ -4,6 +4,9 @@ title: 統合の使用
 uuid: c902a868-20a7-42df-8a79-8e154608f299
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 100%
 
 ---
 
