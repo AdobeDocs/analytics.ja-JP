@@ -17,7 +17,7 @@ ht-degree: 86%
 
 処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
 
-## カスタム値とコンテキストデータ {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## カスタム値とコンテキストデータ  {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
@@ -91,11 +91,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページ名 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： リンクトラッキングの呼び出しは、処理ルールに到達する前に <code>pageName</code> 変数を取り除きます。 処理ルールを使用してページ名の値を再挿入すると、そのヒットは、リンクトラッキング呼び出しではなく、ページ表示と見なされます。 ページ名を変更する前に、ページ名が既に設定されていることを確認することをAdobeが推奨します。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： リンクトラッキングの呼び出しは、処理ルールに到達する前に<code>pageName</code>変数を取り除きます。 処理ルールを使用してページ名の値を再挿入すると、そのヒットは、リンクトラッキング呼び出しではなく、ページ表示と見なされます。 ページ名を変更する前に、ページ名が既に設定されていることを確認することをAdobeが推奨します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページ URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 <p>注意： リンクトラッキングの呼び出しは、処理ルールに到達する前に <code>pageURL</code> 変数を取り除きます。 処理ルールを使用してページURL値を再挿入する場合、ヒットはリンクトラッキング呼び出しではなくページ表示と見なされます。 ページURLを変更する前に、ページURLが既に設定されていることをAdobeが確認することをお勧めします。 </p></td> 
+   <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 <p>注意： リンクトラッキングの呼び出しは、処理ルールに到達する前に<code>pageURL</code>変数を取り除きます。 処理ルールを使用してページURL値を再挿入する場合、ヒットはリンクトラッキング呼び出しではなくページ表示と見なされます。 ページURLを変更する前に、ページURLが既に設定されていることをAdobeが確認することをお勧めします。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>クエリー文字列パラメーター </p> </td> 
@@ -131,11 +131,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照ルートドメイン（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照クエリー文字列（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>参照 URL に含まれるクエリー文字列パラメーター。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>参照 URL に含まれるクエリー文字列パラメーター。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP アドレス（読み取り専用） </p> </td> 
@@ -176,7 +176,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>リスト変数 1 ～ 3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>購入 ID </p> </td> 
@@ -211,7 +211,7 @@ ht-degree: 86%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>イベント1 ～ 1000 </p> <p>（SiteCatalyst 15 のお客様の場合、イベント 1 ～ 100） </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase、scView、scAdd およびその他の買い物かごイベント </p> </td> 
