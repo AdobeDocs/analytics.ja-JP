@@ -3,9 +3,9 @@ description: 時刻やファイル形式を指定してレポートをスケジ�
 title: データリクエストのスケジュール設定
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 100%
 
