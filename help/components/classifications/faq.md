@@ -1,9 +1,9 @@
 ---
 title: 分類 FAQ
 description: 分類の使用に関するよくある質問（FAQ）です。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
 
