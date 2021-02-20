@@ -1,17 +1,17 @@
 ---
 description: Workspace の表示のみのプロジェクト
-keywords: View-only projects
-title: 表示のみのプロジェクト
+keywords: 表示専用プロジェクト
+title: 表示専用プロジェクト
 translation-type: tm+mt
 source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
 
-# 表示のみのプロジェクト
+# 表示専用プロジェクト
 
 [プロジェクト共有ワークフロー](/help/analyze/analysis-workspace/curate-share/share-projects.md)を使用して、受信者に「表示のみ」としてプロジェクトを共有できます。「Can View」役割に配置された受信者は、より限定的なプロジェクト体験を受け取るようになります。組織のデータ構造、Analysis Workspace、または Adobe Analytics の一般的な知識が低いユーザーにプロジェクトを共有し、安全な環境でデータやインサイトを利用したい場合には、この方法が望ましい場合があります。
 
