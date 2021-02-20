@@ -5,7 +5,7 @@ title: ホットキー（ショートカット）
 translation-type: tm+mt
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '284'
 ht-degree: 74%
 
 ---
