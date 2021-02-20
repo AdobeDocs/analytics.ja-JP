@@ -1,9 +1,9 @@
 ---
 title: サードパーティの分析プラットフォームから Adobe Analytics への移行
 description: Google Analytics などの他のプラットフォームに詳しいユーザー向けに、レポートの取得に関する概要について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 
