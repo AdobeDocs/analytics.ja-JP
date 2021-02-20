@@ -1,12 +1,12 @@
 ---
 description: タッチポイントからセグメントを作成したり、セグメントをタッチポイントとして追加したり、Analysis Workspace の様々なセグメントにわたって主なワークフローを比較したりできます。
-keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
+keywords: フォールアウトとセグメント作成;フォールアウト分析におけるセグメント;フォールアウトでのセグメント比較
 title: フォールアウト分析でのセグメントの適用
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '394'
+workflow-type: tm+mt
+source-wordcount: '405'
 ht-degree: 100%
 
 ---
