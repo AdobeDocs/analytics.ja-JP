@@ -1,9 +1,9 @@
 ---
 title: プラグインの概要
 description: サイトにコードを貼り付けて、新しい機能を導入します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 
