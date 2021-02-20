@@ -1,13 +1,13 @@
 ---
 description: 訪問者の移行は、訪問者 ID Cookie をドメイン間で移行するプロセスです。
-keywords: Analytics Implementation
+keywords: Analytics の実装
 title: 訪問者の移行
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
 source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 77%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 77%
 
 訪問者を移行することで、データ収集ドメインを変更する際に訪問者 ID cookie を保持することができます。データ収集ドメインは、以下の場合に変更される場合があります。
 
-* Moving from `2o7.net` to `adobedc.net`.
+* `2o7.net`から`adobedc.net`に移動します。
 
-* [](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)`adobedc.net``2o7.net` Experience Cloud訪問者IDサービスを導入し、CNAME/ファーストパーティデータ収集ドメインを、または、 `omtrdc.net`
+* [Experience Cloud訪問者IDサービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を導入しようとしており、CNAME/ファーストパーティデータ収集ドメインを`adobedc.net`、`2o7.net`、または`omtrdc.net`に移行しようとしています
 
-* Moving to a cname/first-party data collection ( [First-Party Cookies)](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html).
+* CNAME/ファーストパーティデータ収集（[ファーストパーティcookie）](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html)に移動します。
 
 * 別の CNAME に移行するとき（ドメインの変更）。
 
 訪問者の移行を設定した後で、訪問者 ID cookie を持たないユーザーが新しいドメインを訪問すると、サーバーは前のデータ収集ホスト名にリダイレクトして、使用できる訪問者 ID cookie をすべて取得した後、新しいドメインに再リダイレクトします。前のホスト名で訪問者 ID が見つからない場合、新しい ID が生成されます。この処理は訪問者 1 人につき 1 回のみ実行されます。
 
-## 訪問者の移行のプロセス {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## 訪問者の移行のプロセス  {#section_FF0C5C5CAEF343FFA1892B29311F7160}
 
 以下の表に、訪問者の移行に必要なタスクを示します。
 
@@ -51,11 +51,11 @@ ht-degree: 77%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>設定変更から 6 時間以上経過後：</b>Analytics の JavaScript コード内の <code> s.trackingServer</code> 変数および <code> s.trackingServerSecure</code> 変数を新しいデータ収集サーバーに変更します。 </p> </td> 
-   <td colname="col3"> <p>After you make this change, use the <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>この変更を行った後、<a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en">Experience Cloudデバッガー</a>を使用して、Analyticsイメージリクエストが更新されたデータ収集サーバーに送信されることを確認します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics コードの更新直後：</b>サイトをテストして、以前のデータ収集ドメインへのリダイレクトがおこなわれていることを確認します。 </p> </td> 
-   <td colname="col3"> <p>Use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that when you access your site for the first time, or after clearing cookies, you see two 302 (redirect) HTTP status codes before the 200 (OK) HTTP status code. いずれかのリダイレクトに失敗した場合は、すぐにカスタマーケアに問い合わせて、移行が適切に設定されているかどうか確認してください。 </p> </td> 
+   <td colname="col3"> <p><a href="../implement/validate/packet-monitor.md">パケットモニター</a>を使用して、初めてサイトにアクセスしたとき、またはcookieを消去した後で、200(OK)HTTPステータスコードの前に2つの302（リダイレクト）HTTPステータスコードが表示されることを確認します。 いずれかのリダイレクトに失敗した場合は、すぐにカスタマーケアに問い合わせて、移行が適切に設定されているかどうか確認してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>移行期間全体</b>：前のホスト名の DNS レコードをアクティブに維持します。 </p> </td> 
