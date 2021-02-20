@@ -4,9 +4,9 @@ subtopic: Classifications
 title: 未分類のキー
 topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 
