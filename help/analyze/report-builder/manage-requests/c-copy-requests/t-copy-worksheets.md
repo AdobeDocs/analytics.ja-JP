@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 100%
 
 ---
 
@@ -13,8 +16,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 同じワークブック内でスプレッドシートを複製します。
 
-1. スプレッドシート内のセルの任意の場所を右クリックし、を選択しま **[!UICONTROL Copy Worksheet w/Requests]**&#x200B;す。
-1. もう一度右クリックし、を選択しま **[!UICONTROL Paste Worksheet w/Requests]**&#x200B;す。
+1. スプレッドシート内のセルの任意の箇所を右クリックして、「**[!UICONTROL リクエストを含むワークシートをコピー]**」を選択します。
+1. 再度右クリックして、「**[!UICONTROL リクエストを含むワークシートを貼り付け]**」を選択します。
 
    ワークブックに新しいワークシートが追加されます。デフォルトでは、ワークシートの名前はオリジナルのワークシートと同じで末尾に (2) という接尾辞が付きます。貼り付け操作を繰り返すと、新しいワークシートの名前には末尾に (3) が付きます（以下同様）。コピーしたスプレッドシートを貼り付けると、新しいスプレッドシートは、アクティブなワークシートの右（すぐ後ろ）に配置されます。
 
