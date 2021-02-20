@@ -16,7 +16,7 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 
 >[!NOTE]
 >
-> この変数は、Analysis Workspace では使用できないディメンションで、Data Warehouse およびデータフィードでのみ使用できます。また、Adobeデータ収集サーバーは、このディメンションをすべての [リンクトラッキング](/help/implement/vars/functions/tl-method.md) イメージリクエストから除去します。 ページURLをAnalysis Workspaceでディメンションとして使用する場合、またはこのディメンションをリンクトラッキングヒットで使用する場合は、 `pageURL` 変数を各ヒットで [eVar](evar.md) に渡すことを検討します。
+> この変数は、Analysis Workspace では使用できないディメンションで、Data Warehouse およびデータフィードでのみ使用できます。また、Adobeデータ収集サーバーでは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)イメージリクエストからこのディメンションを除去します。 ページURLをAnalysis Workspaceのディメンションとして使用する場合、またはこのディメンションをリンクトラッキングのヒットで使用する場合は、すべてのヒットで`pageURL`eVar](evar.md)に[変数を渡すことを検討してください。
 
 ## Adobe Experience Platform Launch のページ URL
 
@@ -46,7 +46,7 @@ s.pageURL = "https://example.com";
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-デー `digitalData` タレイヤーを使用する場合 [](../../prepare/data-layer.md):
+`digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合：
 
 ```js
 s.pageURL = digitalData.page.pageInfo.destinationURL;
