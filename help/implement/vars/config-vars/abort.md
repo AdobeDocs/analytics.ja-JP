@@ -1,16 +1,16 @@
 ---
 title: abort
 description: abort 変数は、ヒットがアドビのデータ収集サーバーに送信されないようにするブール値です。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
 ---
 
 
-# abort
+# 中止
 
 `abort` 変数は、次回のトラッキングコールがアドビに送信されるのを防ぐことができるブール値です。
 
