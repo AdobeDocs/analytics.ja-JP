@@ -1,9 +1,9 @@
 ---
 title: Data Warehouse リクエスト配信時間のトラブルシューティング
 description: 配信時間を長くさせる可能性のある Data Warehouse リクエストに関する潜在的な問題を特定します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
