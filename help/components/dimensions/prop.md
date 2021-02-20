@@ -1,9 +1,9 @@
 ---
 title: prop
 description: レポートで使用できるカスタムディメンション。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # prop
 
-*このヘルプページでは、prop がディメンションとして機能するしくみについて説明します。prop の実装方法について詳しくは、『実装ユーザガイド』の[prop](/help/implement/vars/page-vars/prop.md)を参照してください。*
+*このヘルプページでは、prop がディメンションとして機能するしくみについて説明します。prop の実装方法について詳しくは、『実装ユーザガイド』の [prop](/help/implement/vars/page-vars/prop.md) を参照してください。*
 
 Prop は、好きなだけ使用できるカスタム変数です。Prop は、設定されたヒットの後は保持されません。
 
