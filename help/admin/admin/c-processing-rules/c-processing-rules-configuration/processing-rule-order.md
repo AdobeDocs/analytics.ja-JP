@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: 処理順序
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 | GEO 参照 | これには、訪問者の州と訪問者の郵便番号が含まれます。 |
 | eVar の持続性 | 以前のヒットに含まれていた eVar はルールの処理時の各ヒットまで持続されません。処理される現在のヒットに設定された eVar のみ使用できます。 |
 
-## VISTA を使用してヒットをコピーするときに処理ルールを適用する方法{#section_576EE8C240A24CBA979BD614E8D5338D}
+## VISTA を使用してヒットをコピーするときに処理ルールを適用する方法  {#section_576EE8C240A24CBA979BD614E8D5338D}
 
 他のレポートスイートにヒットをコピーするように VISTA ルールが設定されている場合、ヒットは、他のレポートスイートに定義されている処理ルールを介して送信されます。
 
