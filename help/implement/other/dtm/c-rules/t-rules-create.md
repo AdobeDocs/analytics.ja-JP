@@ -1,13 +1,13 @@
 ---
 description: Dynamic Tag Management でルールを作成する手順を説明します。
-keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
+keywords: Dynamic Tag Management, ルール, ルールの作成, 新規ルール, イベント型ルール, ページ型ルール, ダイレクト型ルール
 solution: Experience Cloud,Analytics,Target
 title: 新規ルールの作成
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
