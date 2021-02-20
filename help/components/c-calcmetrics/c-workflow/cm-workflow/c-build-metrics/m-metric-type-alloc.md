@@ -2,9 +2,9 @@
 description: '詳細 '
 title: 指標タイプとアトリビューション
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 100%
 
@@ -30,9 +30,10 @@ ht-degree: 100%
 >
 >2018 年 7 月に、計算指標における配分モデルの評価方法を変える [Attribution IQ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/attribution/models.html) が [!DNL Analytics] に導入されました。この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
 >
->* デフォルト以外のアトリビューションモデルの完全なリストとサポートされるルックバックウィンドウについては、[Attribution IQ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/attribution/models.html) のドキュメントを参照してください。
+>* デフォルト以外のアトリビューションモデルの完全なリストとサポートされるルックバックウィンドウについては、[Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) のドキュメントを参照してください。
 >* 「マーケティングチャネルラストタッチ」と「マーケティングチャネルファーストタッチ」配分モデルはそれぞれ、新しい「ラストタッチ」と「ファーストタッチ」アトリビューションモデルに移行されます（注意：「マーケティングチャネル」は廃止されません。計算指標で表示される 2 つの配分モデルのみが廃止されます）。
 >* さらに、線形配分の計算方法が修正されます。顧客が線形配分モデルで計算指標を使用する場合、修正された新しいアトリビューションモデルを反映してレポートが若干変わる可能性があります。この計算指標の変更は、Analysis Workspace、Reports &amp; Analytics、レポート API、Report Builder、および Ad Hoc Analysis に反映されます。詳しくは、以下の「**線形配分の適用方法（2018 年 7 月 19 日）**」を参照してください。
+
 >
 
 
@@ -45,10 +46,10 @@ ht-degree: 100%
 
 |  | ヒット 1 | ヒット 2 | ヒット 3 | ヒット 4 | ヒット 5 | ヒット 6 | ヒット 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 送信データ | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
-| ラストタッチ eVar | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
-| ファーストタッチ eVar | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
-| prop 例 | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| 送信データ | PROMO A | - | プロモーションA | PROMO B | - | PROMO C | $10 |
+| ラストタッチ eVar | プロモーションA | プロモーションA | プロモーションA | プロモーションB | プロモーションB | PROMO C | $10 |
+| ファーストタッチ eVar | プロモーションA | プロモーションA | プロモーションA | プロモーションA | プロモーションA | プロモーションA | $10 |
+| prop 例 | プロモーションA | - | プロモーションA | プロモーションB | - | PROMO C | $10 |
 
 この例では、ヒット 7 で $10 の購入が行われる前に、値 A、B、C がヒット 1、3、4、6 の変数に送信されました。2 番目の行では、ラストタッチでの訪問がベースとなり、ヒット全体に値が持続されています。3 番目の行では、ファーストタッチでの訪問が持続されていることがわかります。最後の行には、持続性のない prop に記録されるデータの内容が示されています。
 
@@ -67,8 +68,8 @@ ht-degree: 100%
 
 | values | 現在のラストタッチの eVar | 現在のファーストタッチの eVar | 現在の Prop |
 |---|---|---|---|
-| PROMO A | $5.00 | $10.00 | $5.00 |
-| PROMO B | $3.33 | $0 | $2.50 |
+| プロモーションA | $5.00 | $10.00 | $5.00 |
+| プロモーションB | $3.33 | $0 | $2.50 |
 | PROMO C | $1.67 | $0 | $2.50 |
 | 合計 | $10.00 | $10.00 | $10.00 |
 
@@ -78,8 +79,8 @@ ht-degree: 100%
 
 | values | 新しいラストタッチの eVar | 新しいファーストタッチの eVar | 新しい Prop |
 |---|---|---|---|
-| PROMO A | $5.00 | $5.00 | $5.00 |
-| PROMO B | $2.50 | $2.50 | $2.50 |
+| プロモーションA | $5.00 | $5.00 | $5.00 |
+| プロモーションB | $2.50 | $2.50 | $2.50 |
 | PROMO C | $2.50 | $2.50 | $2.50 |
 | 合計 | $10.00 | $10.00 | $10.00 |
 
