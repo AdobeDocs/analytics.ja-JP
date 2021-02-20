@@ -4,9 +4,9 @@ subtopic: Classifications
 title: トラフィック分類
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
 
