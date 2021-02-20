@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 管理要件
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
-workflow-type: ht
-source-wordcount: '145'
+workflow-type: tm+mt
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
