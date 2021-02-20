@@ -1,13 +1,13 @@
 ---
 description: タイムスタンプオプション設定を使用することのメリットと制約について説明します。
-keywords: Analytics Implementation
+keywords: Analytics の実装
 title: タイムスタンプオプションの使用
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
 * タイムスタンプが必要（訪問者 ID の設定はサポートされていない）
 * タイムスタンプオプション（訪問者 ID の設定はサポートされてるが、タイムスタンプ付きのヒットではサポートされない）
 
-## タイムスタンプオプション機能について {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## タイムスタンプオプション機能について  {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 タイムスタンプオプションを使用すると、クライアント側のタイムスタンプが含まれていてもいなくても、複数のレポートスイートにわたって統合およびレポートできます。タイムスタンプオプションがあれば、以前のアプリからのタイムスタンプのないデータを使用しながら、タイムスタンプを使用するようにアプリをアップデートできます。
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    順番が正しくないデータには、オフラインデータ収集からの到着が遅れたデータおよび到着が遅れたヒット、またはオフラインモバイルデバイスの同期していないクロックが含まれている可能性があります。順番が正しくないデータは、時間の計算（滞在時間値など）、属性（eVar の持続性）、訪問回数／訪問のカウントおよびパスレポートに悪影響を与える可能性があります。
 
-* [s.visitorID](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/visitor-identification.html) が設定されている場合のタイムスタンプの使用は、推奨されません。データの順番がばらばらになる可能性があります。
+* [s.visitorID](https://docs.adobe.com/content/help/ja-JP/analytics/components/metrics/unique-visitors.html) が設定されている場合のタイムスタンプの使用は、推奨されません。データの順番がばらばらになる可能性があります。
 
 * アプリ（タイムスタンプ対応、オフラインデータ）から成るハイブリッドアプリで Web ブラウザー（タイムスタンプ非対応、ライブデータ）を開く場合、タイムスタンプを使用しないでください。セッションのレポーティングが不正確になります。
 
