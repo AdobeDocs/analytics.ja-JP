@@ -2,9 +2,9 @@
 description: PDF／CSV プロジェクトのキュレーション、共有、および組織内の受信者へのスケジュールを設定できます。
 title: 共有メニュー
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 63efd2f046ac43640a9dd0fe2b3ee9fa3f182a8f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 
