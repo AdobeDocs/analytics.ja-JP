@@ -1,11 +1,11 @@
 ---
 description: Workspace でのプロジェクト共有とプロジェクトの役割
-keywords: Analysis Workspace sharing
+keywords: Analysis Workspaceシェア
 title: プロジェクトの共有
 translation-type: tm+mt
 source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1103'
 ht-degree: 99%
 
 ---
@@ -57,14 +57,14 @@ ht-degree: 99%
 
 ## 受信者のグループに共有 {#Groups}
 
-すべてのユーザーが、受信者の集まりであるグループにプロジェクトを共有できます。Adobe Analytics は、グループは [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html) の製品プロファイルによって定義されます。
+すべてのユーザーが、受信者の集まりであるグループにプロジェクトを共有できます。Adobe Analytics は、グループは [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) の製品プロファイルによって定義されます。
 
 * 管理者は、「すべて」を含む任意のグループと共有できます。
 * 管理者以外のユーザーは、「すべて」を除き、自分が属するグループと共有できます。
 
 ## プロジェクトリンクの共有 {#Links}
 
-プロジェクトへのリンクは、**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**&#x200B;で取得できます。クリックすると、受信者はプロジェクトにランディングする前にログインする必要があります。受信者が役割に配置されていない場合は、デフォルトの役割が割り当てられます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。Workspace プロジェクトへの共有可能なリンクを作成する方法について[詳しく説明](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)します。
+プロジェクトへのリンクは、**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**&#x200B;で取得できます。クリックすると、受信者はプロジェクトにランディングする前にログインする必要があります。受信者が役割に配置されていない場合は、デフォルトの役割が割り当てられます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。Workspace プロジェクトへの共有可能なリンクを作成する方法について[詳しく説明](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)します。
 
 ## プロジェクトマネージャーでプロジェクトを共有する {#Manager}
 
