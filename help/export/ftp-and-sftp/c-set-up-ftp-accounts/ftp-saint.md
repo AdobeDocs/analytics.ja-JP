@@ -6,7 +6,7 @@ uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
 source-git-commit: 7a70a5185b768dbc09deca5c8989693501af0cca
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '485'
 ht-degree: 68%
 
 ---
@@ -24,14 +24,14 @@ FTP 経由で分類データをダウンロードしたり、データファイ�
 
 FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](/help/export/ftp-and-sftp/ftp-limits.md)を参照してください。
 
-## About the `.fin` file for Classifications and Data Sources Uploads {#section_1484719F8A134EAE91212DBD8F15174F}
+## 分類およびデータソースのアップロード用の`.fin`ファイルについて{#section_1484719F8A134EAE91212DBD8F15174F}
 
-When you upload a Classification or Data Source file (`.tab` or `.txt`), the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a .`.fin` extension. この `.fin` ファイルは、完了通知ファイルです。このファイルは、データファイルが FTP アカウントに完全にアップロードされたことをシステムに通知します。`.fin` ファイルがアップロードされることで、お客様が読み込みデータのアップロードを完了したことをアドビで認識できます。
+分類またはデータソースファイル（`.tab`または`.txt`）をアップロードする場合、インポートするデータファイルと同じ名前で、拡張子が。`.fin`の空のファイルもアップロードする必要があります。 この `.fin` ファイルは、完了通知ファイルです。このファイルは、データファイルが FTP アカウントに完全にアップロードされたことをシステムに通知します。`.fin` ファイルがアップロードされることで、お客様が読み込みデータのアップロードを完了したことをアドビで認識できます。
 
-ソースファイルと `.fin` ファイルの両方を送信したら、FTPサイトからログアウトすることが重要です。 理由は、Adobe Analyticsがログアウトイベントをトリガーとして使用し、ファイルの処理準備ができているからです。 読み込みが完了すると、Adobeは両方のファイルをFTPの場所から削除します。
+ソースファイルと`.fin`ファイルの両方を送信したら、FTPサイトからログアウトすることが重要です。 理由は、Adobe Analyticsでは、ファイルの処理準備ができたトリガーとしてログアウトイベントを使用するからです。 読み込みが完了すると、Adobeは両方のファイルをFTPの場所から削除します。
 
 ファイルの終了：[!DNL Classifications.fin]
 
-If you upload your Data Sources or Classification file without an accompanying `.fin` file, Adobe does not add it to the queue for processing. ファイルは FTP に残ったままになり、[!UICONTROL Experience Cloud] のデータに適用されません。Analytics の [!UICONTROL FTP アカウントを作成]ウィンドウで、「[!UICONTROL 通知受信者]」として電子メールアドレスを入力している場合にのみ、これについての通知が送信されます。このフィールドに電子メールアドレスを入力していない場合、通知は送信されません。
+データソースまたは分類ファイルをアップロードしても、`.fin`ファイルをアップロードしない場合、Adobeは処理のためのキューに追加しません。 ファイルは FTP に残ったままになり、[!UICONTROL Experience Cloud] のデータに適用されません。Analytics の [!UICONTROL FTP アカウントを作成]ウィンドウで、「[!UICONTROL 通知受信者]」として電子メールアドレスを入力している場合にのみ、これについての通知が送信されます。このフィールドに電子メールアドレスを入力していない場合、通知は送信されません。
 
 ファイルをアップロードし、`.fin` ファイルをアップロードしたが、ファイルにエラーがある場合、ファイルは処理のために送信されますが、エラーによって処理が中止され、ファイルはエラーフォルダーに送信されます。この場合、[!UICONTROL FTP アカウントを作成]ウィンドウで「[!UICONTROL 通知受信者]」フィールドに指定された電子メールアドレスに通知が送信されます。電子メールアドレスを入力しなかった場合、通知は送信されません。
