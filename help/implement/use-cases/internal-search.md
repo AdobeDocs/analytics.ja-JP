@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 内部検索に対応するeVarの作成
 
-コンバ [ージョン変数admin](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) （管理者）に従って、内部検索専用の新しいeVarを作成します。 eVarにわかりやすい名前（「内部検索用語」など）を付け、組織の [ソリューションデザインドキュメントに新しいeVarを記録します](../prepare/solution-design.md)。
+[コンバージョン変数admin](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)に従って、内部検索専用の新しいeVarを作成します。 簡単に認識できる名前（「内部検索用語」など）をeVarに付け、組織の[ソリューションデザインドキュメント](../prepare/solution-design.md)に新しいeVarを記録します。
 
 ## 内部検索キーワードの特定
 
@@ -32,21 +32,21 @@ ht-degree: 2%
 
 ## クエリ文字列パラメーターをデータ要素に割り当てる
 
-Follow [Map data layer objects to data elements](../launch/layer-to-elements.md). 「 **[!UICONTROL データ要素のタイプ]**」を選択する場合は、「JavaScript変数 **[!UICONTROL 」ではなく「]** クエリ文字列パラメーター ****」を選択します。 目的のクエリ文字列パラメーター(通常 `q`)をテキストフィールドに配置します。
+[データレイヤーオブジェクトをデータ要素](../launch/layer-to-elements.md)にマップするのに従います。 「**[!UICONTROL データ要素のタイプ]**」を選択する場合は、「**[!UICONTROL JavaScript変数]**」の代わりに「**[!UICONTROL クエリ文字列パラメーター]**」を選択します。 必要なクエリ文字列パラメータ（通常は`q`）をテキストフィールドに入力します。
 
 ## データ要素のeVarへのマッピング
 
-Follow [Map Launch data elements to Analytics variables](../launch/elements-to-variable.md). レポートスイート設定で作成したeVarと同じデータを選択していることを確認します。
+[起動データ要素をAnalytics変数](../launch/elements-to-variable.md)にマップするのに従います。 レポートスイート設定で作成したeVarと同じデータを選択していることを確認します。
 
 ## 展開プロセスの開始の開始
 
-Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). 開発環境での作業を確認したら、開発環境の実装を [検証し、実稼動環境に発行できます](../launch/validate-publish-prod.md)。
+[開発環境](../launch/deploy-dev.md)にAnalytics実装を導入するに従います。 開発環境での作業を確認したら、[開発実装の検証と実稼動環境への発行](../launch/validate-publish-prod.md)を行うことができます。
 
 ## Workspaceでのレポート
 
 導入にデータ収集の時間を与えると、Analysis Workspaceでディメンションを使用して開始できます。
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
-2. 自動的にAdobe Analyticsにログインしない場合は、右上の9-gridアイコンをクリックし、「 **[!UICONTROL Analytics]**」を選択します。
-3. 「 **[!UICONTROL ワークスペース]** 」タブをクリックし、新しいプロジェクトを作成します。
+2. 自動的にAdobe Analyticsにログインしない場合は、右上の9-gridアイコンをクリックし、「**[!UICONTROL Analytics]**」を選択します。
+3. 「**[!UICONTROL ワークスペース]**」タブをクリックし、新しいプロジェクトを作成します。
 4. Dimensionの下で作成したeVarの名前を見つけ、ワークスペースキャンバスにドラッグします。
