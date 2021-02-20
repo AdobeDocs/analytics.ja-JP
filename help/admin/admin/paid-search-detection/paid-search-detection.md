@@ -3,9 +3,9 @@ description: 有料検索探知は、検索エンジンと検索キーワード�
 title: 有料検索検知
 topic: Admin tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 
