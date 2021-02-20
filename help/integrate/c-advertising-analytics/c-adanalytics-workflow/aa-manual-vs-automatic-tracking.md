@@ -1,9 +1,9 @@
 ---
 description: トラッキングにより、Adobe Analytics の実装による検索エンジンデータの追跡方法が決まります。これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。
 title: トラッキング：手動モードと自動モード
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 100%
 
