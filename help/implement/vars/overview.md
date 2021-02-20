@@ -1,12 +1,12 @@
 ---
 title: 変数、関数、メソッド、プラグインの概要
 description: レポートを改善するためにアドビに送信するデータに含めることができる変数について説明します。
-keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: ht
+keywords: appmeasurement，変数，vars，設定，ページ，実装
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '318'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 98%
 
 ---
 
