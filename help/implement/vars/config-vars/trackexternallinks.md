@@ -1,8 +1,11 @@
 ---
 title: trackExternalLinks
 description: 出口リンクの自動リンクトラッキングを有効または無効にします。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
 
