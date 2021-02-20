@@ -1,13 +1,13 @@
 ---
 description: 仮想レポートスイートの実装を計画するために必要な手順の概要です。
-keywords: Virtual Report Suite
+keywords: 仮想レポートスイート
 title: 仮想レポートスイートのワークフロー
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '260'
+workflow-type: tm+mt
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
