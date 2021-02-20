@@ -20,15 +20,15 @@ Adobe Analyticsは、複数の認証方法を使用してログインします�
 
 **Analyticsに定期的にアクセスし、ランダムな開始でログインの問題が発生した場合、ブラウザーのCookieとキャッシュを消去すると、ほとんどの問題が解決します。**
 
-可用性の問題がログイン機能に影響する場合があります。 オープン・インシデントがある場合は、 [status.adobe.com](https://status.adobe.com) を確認します。 それ以外の場合は、組織の認証方法に応じた適切なセクションを使用します。
+可用性の問題がログイン機能に影響する場合があります。 [status.adobe.com](https://status.adobe.com)で、開いているインシデントを確認します。 それ以外の場合は、組織の認証方法に応じた適切なセクションを使用します。
 
 ## Adobe ID
 
 Experience Cloudを使用したAdobe Analyticsへのログインに関する問題のトラブルシューティングを行います。
 
-1. experience.adobe.com [に移動します](https://experience.adobe.com)。 このサイトにアクセスできない場合は、お使いのファイアウォールを通じてこのドメインを許可しない可能性があります。 組織のITチームと協力して許可します。 ITチームに役立つ情報については、 [Adobe Experience Cloudで使用されるIPおよびドメイン](https://helpx.adobe.com/jp/analytics/kb/adobe-ip-addresses.html) を参照してください。
+1. [experience.adobe.com](https://experience.adobe.com)に移動します。 このサイトにアクセスできない場合は、お使いのファイアウォールを通じてこのドメインを許可しない可能性があります。 組織のITチームと協力して許可します。 ITチームに役立つ情報については、[Adobe Experience Cloud](https://helpx.adobe.com/jp/analytics/kb/adobe-ip-addresses.html)で使用されているIPおよびドメインを参照してください。
 
-2. Adobe IDを使用して認証：「 **[!UICONTROL Adobe IDでサインイン]**」をクリックします。 サインインできない場合は、重複が電子メールアドレスが正しく入力されていることを確認してください。 それ以外の場合は、「 **[!UICONTROL パスワードをリセット]** 」をクリックし、画面の指示に従ってAdobe IDのパスワードをリセットします。
+2. Adobe IDを使用して認証：「**[!UICONTROL Adobe IDでサインイン]**」をクリックします。 サインインできない場合は、重複が電子メールアドレスが正しく入力されていることを確認してください。 それ以外の場合は、「**[!UICONTROL パスワードをリセット]**」をクリックし、画面の指示に従ってAdobe IDパスワードをリセットします。
 
 3. 認証後にAnalyticsにアクセスする：右上の9グリッドアイコンをクリックし、「Analytics」をクリックします。 このオプションがない場合、または灰色表示になっている場合は、組織内の製品管理者に問い合わせて、Analyticsへのアクセス権を持っていることを確認してください。
 
@@ -42,12 +42,12 @@ Experience Cloudを使用したAdobe Analyticsへのログインに関する問�
 
 >[!IMPORTANT]
 >
->ユーザーのパスワードをリセットする次の手順は、従来のAnalytics IDにのみ適用され、Adobe IDのパスワードは適用されません。組織でAdobe IDを使用している場合は、 [adminconsole.adobe.comでユーザーアカウントを管理できます](https://adminconsole.adobe.com)。
+>ユーザーのパスワードをリセットする次の手順は、従来のAnalytics IDにのみ適用され、Adobe IDのパスワードは適用されません。組織でAdobe IDを使用している場合は、[adminconsole.adobe.com](https://adminconsole.adobe.com)でユーザーアカウントを管理できます。
 
 1. 管理者権限を持つアカウントでAdobe Analyticsにログインします。
-2. **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理に移動します]**。
-3. 「 **[!UICONTROL ユーザー]** 」タブをクリックし、目的のユーザーの **[!UICONTROL 横にある「編集]** 」をクリックします。
-4. パスワードを任意の値に変更し、「次回ログイン時にパスワードを変更するようユーザーに **[!UICONTROL 要求する]**」チェックボックスをオンにします。
+2. **[!UICONTROL 管理者]** > **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
+3. 「**[!UICONTROL ユーザー]**」タブをクリックし、目的のユーザーの横にある「**[!UICONTROL 編集]**」をクリックします。
+4. パスワードを任意の値に変更し、「**[!UICONTROL 次のログイン時にパスワードの変更をユーザーに要求]**」チェックボックスをオンにします。
 5. 新しいパスワードをユーザーに通知します。
 
 ## シングルサインオン
