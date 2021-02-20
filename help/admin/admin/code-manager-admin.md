@@ -3,9 +3,9 @@ description: コードマネージャーを使用すると、Web およびモバ
 title: コードマネージャー
 topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 
