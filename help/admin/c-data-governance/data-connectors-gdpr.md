@@ -2,9 +2,9 @@
 description: このページには、潜在的にデータ主体の個人を直接的または間接的に特定できるデータを含む可能性のある Data Connectors（以前の Genesis）のすべてのパートナー変数を記載しています。
 title: データプライバシーと Data Connectors（Genesis）
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 
