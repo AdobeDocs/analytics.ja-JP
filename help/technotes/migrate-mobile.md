@@ -24,14 +24,14 @@ ht-degree: 6%
 
 ただし、Mobile Services UI（ライフサイクル指標を除く）に追加の処理ルールを設定した場合は、Mobile Servicesへのアクセス権を失った後にAnalyticsでその処理ルールを編集または削除できるように、それらの処理ルールを移行する必要があります。
 
-1. Log in to `experience.adobe.com` and go to Mobile Services.
+1. `experience.adobe.com`にログインし、Mobile Servicesに移動します。
 1. コンテキスト変数のマッピングをAdobe Analyticsに移行するモバイルアプリの歯車アイコンをクリックします。
-1. 変数と指標の **[!UICONTROL 管理メニュー項目をクリックし、「]** カスタム変数 **** 」タブをクリックします。 ここでは、設定に追加されたコンテキスト変数マッピング（コンテキストデータ）を確認できます。 これらの設定をメモしておく（またはスクリーンショットを撮る）。 例：
+1. **[!UICONTROL 変数と指標を管理]**&#x200B;メニュー項目をクリックし、**[!UICONTROL カスタム変数]**&#x200B;タブをクリックします。 ここでは、設定に追加されたコンテキスト変数マッピング（コンテキストデータ）を確認できます。 これらの設定をメモしておく（またはスクリーンショットを撮る）。 例：
 
    ![コンテキスト変数](assets/context-var.png)
 
 1. Experience Cloudで、Adobe Analyticsに切り替え、Mobile Servicesで閲覧していたのと同じモバイルレポートスイートにあることを確認します。
-1. 管理者 **[!UICONTROL /]** レポートスイート **[!UICONTROL /]** 設定 **[!UICONTROL /一般的な設定]** /処理ルール ********&#x200B;の編集に移動します。
+1. **[!UICONTROL 管理者]**/**[!UICONTROL レポートスイート]**/**[!UICONTROL 設定を編集]**/**[!UICONTROL 一般]**/**[!UICONTROL 処理ルール]**&#x200B;に移動します。
 1. 「**[!UICONTROL Add Rule]**」をクリックします。
 1. 条件を無視して、Mobile Servicesに存在するのと同じコンテキスト変数の追加に進みます。
 
@@ -58,11 +58,11 @@ Analysis Workspaceには、モバイル指標とディメンションに加え�
 
 テンプレートにアクセスするには：
 
-1. Log in to `experience.adobe.com` and select Analytics.
+1. `experience.adobe.com`にログインし、「解析」を選択します。
 1. Mobile Servicesが有効なレポートスイートに存在することを確認します。
-1. Click the **[!UICONTROL Workspace]** tab.
+1. 「**[!UICONTROL ワークスペース]**」タブをクリックします。
 1. 「**[!UICONTROL 新規プロジェクトを作成]**」をクリックします。
-1. 任意のモバイルテンプレートを選択し、「 **[!UICONTROL 作成]**」をクリックします。
+1. 任意のモバイルテンプレートを選択し、「**[!UICONTROL 作成]**」をクリックします。
 
 ## 他のMobile Services機能の移行
 
@@ -77,4 +77,4 @@ Analysis Workspaceには、モバイル指標とディメンションに加え�
 
 * ダウンロード計測用リンクについては、お客様のニーズを満たすためにAdobeパートナーにお問い合わせいただけます。
 * プッシュメッセージおよびアプリ内メッセージは、Adobe Campaign StandardとAdobe Campaign Classicで利用できます（プッシュのみ）。 ただし、ターゲティングに使用される基になるデータセットは異なります。 お客様のAdobeアカウントチームと協力して、メッセージングデータの移行オプションを決定することをお勧めします。
-* ロケーション機能については、AEPのすべてのお客様が無料で利用できる新しい [Adobe Experience Platformロケーションサービス](https://www.adobe.com/experience-platform/location-service.html)(AEP)を導入することをお勧めします。
+* 場所の機能については、新しい[Adobe Experience Platformロケーションサービス](https://www.adobe.com/experience-platform/location-service.html)を導入することをお勧めします。このサービスは、すべてのAEPユーザーが無料で利用できます。
