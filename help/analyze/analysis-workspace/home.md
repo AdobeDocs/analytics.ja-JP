@@ -3,10 +3,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace の概要
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
-workflow-type: ht
-source-wordcount: '525'
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Analysis Workspace は分析をすばやく構築してインサイトを共有�
 
 数分しか時間が取れない場合は、この短い概要を視聴し、何ができるかをご確認ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Adobe Analytics へのログイン {#login}
 
