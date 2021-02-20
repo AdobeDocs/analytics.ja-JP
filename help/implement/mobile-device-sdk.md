@@ -1,9 +1,9 @@
 ---
 title: モバイルデバイス用 Analytics の実装
 description: 使用するモバイル AppMeasurement ライブラリを決定します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 
