@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: コホート分析の使用例
 topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 79849c574909543d74e2935e493008927700585d
-workflow-type: ht
-source-wordcount: '926'
+workflow-type: tm+mt
+source-wordcount: '928'
 ht-degree: 100%
 
 ---
