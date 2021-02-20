@@ -5,6 +5,9 @@ title: FTP データおよび FTP アカウントの削除
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 99%
 
 ---
 
