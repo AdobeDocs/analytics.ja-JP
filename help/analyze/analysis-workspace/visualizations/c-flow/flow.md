@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 >
 >Analysis Workspace と Reports &amp; Analytics/Ad Hoc Analysis でのフローへのセグメントの適用結果の違いについて詳しくは、[フローとフォールアウトの基礎としてのセグメント化](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)を参照してください。
 
-[フローのビジュアライゼーションのビデオチュートリアル](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
+[フローのビジュアライゼーションのビデオチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=ja-JP)(4:56)
 
 ## ディメンション間のフロー {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -33,6 +33,6 @@ ht-degree: 93%
 
 各列は、異なるディメンションを表示することがあります。ディメンションをドラッグしてドロップゾーンにドロップし、そのディメンションを図に追加します。
 
-## フロー図が含まれたプロジェクト .CSV ファイルの書き出し {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## フロー図が含まれたプロジェクト .CSV ファイルの書き出し  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 フロー図は、**[!UICONTROL プロジェクト]**／**[!UICONTROL CSV をダウンロード]**&#x200B;に移動して作成できるプロジェクトの .CSV ファイルに含まれています。これにより、フロー結果を Microsoft Excel（テーブルとして表示）やその他のツールで分析することができます。
