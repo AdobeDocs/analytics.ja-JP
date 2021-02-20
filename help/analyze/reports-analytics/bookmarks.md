@@ -6,6 +6,9 @@ topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Run a report, then click **[!UICONTROL Bookmark.]**.
+1. レポートを実行し、「**[!UICONTROL ブックマーク]**」をクリックします。
 
        |名前|このブックマークのわかりやすい名前。|
        |---|---|
@@ -34,7 +37,7 @@ t_bookmarks_creating.xml
    
 ## ブックマークの管理 {#task_1EE793CB52EA467787817BBD98DEF150}
 
-After you create report bookmarks, you can manage them in the [!UICONTROL Bookmark Manager]. ブックマークおよびフォルダーを一元的に編集、削除、整理できます。
+レポートブックマークの作成後は、[!UICONTROL ブックマークマネージャー]でブックマークを管理できます。ブックマークおよびフォルダーを一元的に編集、削除、整理できます。
 
 <!-- 
 
@@ -42,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Bookmarks]**.
+**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ブックマーク]**
 
 **マイブックマーク**
 
