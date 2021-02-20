@@ -2,9 +2,9 @@
 description: データプライバシーにおけるプライバシーレポート用変数。
 title: プライバシーレポート変数
 topic: Admin tools
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
