@@ -4,6 +4,9 @@ title: 貢献度分析で使用される統計的手法
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
