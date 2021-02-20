@@ -1,9 +1,9 @@
 ---
 title: 発生件数
 description: 変数が設定または持続されたヒットの数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
