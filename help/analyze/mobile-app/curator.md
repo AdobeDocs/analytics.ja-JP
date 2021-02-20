@@ -1,9 +1,9 @@
 ---
 description: ダッシュボードのスコアカードを設定する手順
 title: Adobe Analytics ダッシュボードキュレーターガイド
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2380'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 次の情報は、Adobe Analytics データのキュレーターに、エグゼクティブユーザー向けのダッシュボードの設定方法と表示方法を示しています。この情報を実演するビデオについては、「Adobe Analytics ダッシュボードスコアカードビルダー」ビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/34544?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## はじめに
 
