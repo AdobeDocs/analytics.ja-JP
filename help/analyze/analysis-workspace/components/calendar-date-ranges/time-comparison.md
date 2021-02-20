@@ -2,8 +2,11 @@
 description: Analysis Workspace での日付の比較では、日付範囲を含む任意の列を使用して、前年比、前四半期比、前月比などの一般的な日付比較を作成できます。
 title: 日付の比較
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 分析にはコンテキストが必要ですが、多くの場合、そのコンテキストは前の期間から得られます。例えば、「前年の同じ時期に比べてどのくらい良くなっているか悪くなっているか」という質問は、ビジネスを把握するうえで基本的な問いです。日付の比較では自動的に「差異」列が含まれ、指定した期間と比較した変更の割合が示されます。
 
 1. ある期間について比較する任意のディメンションと指標を含むフリーフォームテーブルを作成します。
-1. テーブルの行を右クリックし、「**[!UICONTROL Compare Time Periods]**」を選択します。
+1. テーブル列を右クリックし、「**[!UICONTROL 期間を比較]**」を選択します。
 
    ![](assets/compare-time.png)
 
@@ -29,13 +32,13 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 
    | オプション | 説明 |
    |---|---|
-   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | この日付範囲の直前の週、月などと比較します。 |
-   | **[!UICONTROL This week/month/quarter/year last year]** | 1 年前の同じ日付範囲と比較します。 |
-   | **[!UICONTROL Select range]** | カスタム日付範囲を選択できます。 |
+   | **[!UICONTROL この日付範囲の前の週、月、四半期、年]** | この日付範囲の直前の週、月などと比較します。 |
+   | **[!UICONTROL 今週、今月、今四半期、今年対昨年]** | 1 年前の同じ日付範囲と比較します。 |
+   | **[!UICONTROL 範囲を選択]** | カスタム日付範囲を選択できます。 |
 
    >[!NOTE]
    >
-   >10 月 7 日から 10 月 20 日（14 日間の範囲）のように、カスタム日数を選択すると、次の 2 つのオプション（**[!UICONTROL Prior 14 days before this date range]** および **[!UICONTROL Select range]** のみ）が表示されます。
+   >注意：例えば 10 月 7 日から 10 月 20 日（14 日間）のように、カスタムの日数を選択した場合、オプションは「**[!UICONTROL この日付範囲の 14 日前]**」、「**[!UICONTROL 範囲を選択]**」の 2 つのみです。
 
 1. 結果として次のような比較が表示されます。
 
@@ -47,25 +50,25 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 
    ![](assets/compare-time-barchart.png)
 
-   横向き棒グラフで変更の割合を示すためには、[!UICONTROL Visualization Settings]で[!UICONTROL Percentages]設定を有効にしておく必要があります。
+   横向き棒グラフで変更の割合を示すためには、[!UICONTROL ビジュアライゼーション設定]で[!UICONTROL 割合 (%)] 設定を有効にしておく必要があります。
 
 ## 比較のために期間の列を追加 {#section_93CC2B4F48504125BEC104046A32EB93}
 
 テーブルの各列に期間を追加できるようになりました。これにより、カレンダーの設定先とは異なる期間を追加できます。この方法でも日付を比較することができます。
 
-1. テーブルの列を右クリックし、「**[!UICONTROL Add Time Period Column]**」を選択します。![](assets/add-time-period-column.png)
+1. テーブルの列を右クリックし、「**[!UICONTROL 期間列を追加]**![](assets/add-time-period-column.png)」を選択します。
 
 1. テーブルの日付範囲をどのように設定したかに応じて、次のオプションを比較に使用できます。
 
    | オプション | 説明 |
    |---|---|
-   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | この日付範囲の直前の週、月などの列を追加します。 |
-   | **[!UICONTROL This week/month/quarter/year last year]** | 1 年前の同じ日付範囲を追加します。 |
-   | **[!UICONTROL Select range]** | カスタム日付範囲を選択できます。 |
+   | **[!UICONTROL この日付範囲の前の週、月、四半期、年]** | この日付範囲の直前の週、月などの列を追加します。 |
+   | **[!UICONTROL 今週、今月、今四半期、今年対昨年]** | 1 年前の同じ日付範囲を追加します。 |
+   | **[!UICONTROL 範囲を選択]** | カスタム日付範囲を選択できます。 |
 
    >[!NOTE]
    >
-   >10 月 7 日から 10 月 20 日（14 日間の範囲）のように、カスタム日数を選択すると、次の 2 つのオプション（**[!UICONTROL Prior 14 days before this date range]** および **[!UICONTROL Select range]** のみ）が表示されます。
+   >注意：例えば 10 月 7 日から 10 月 20 日（14 日間）のように、カスタムの日数を選択した場合、オプションは「**[!UICONTROL この日付範囲の 14 日前]**」、「**[!UICONTROL 範囲を選択]**」の 2 つのみです。
 
 1. 選択した列の前に、期間が挿入されます。
 
@@ -79,7 +82,7 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 
 ## 列の日付が同じ行で始まるように整列 {#section_5085E200082048CB899C3F355062A733}
 
-すべてのテーブルの新しい設定では、**[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**&#x200B;が可能になります。「テーブル全体に適用」とは、例えば、テーブルで分類をおこない、分類に対してこの設定を変更すると、テーブル全体で設定が変更されることを意味します。
+すべてのテーブルで、「**[!UICONTROL 各列の日付を整列させて、すべてが同じ行で始まるようにします (テーブル全体に適用)]**」という新しい設定を使用できます。「テーブル全体に適用」とは、例えば、テーブルで分類をおこない、分類に対してこの設定を変更すると、テーブル全体で設定が変更されることを意味します。
 
 ![](assets/date-comparison-setting.png)
 
