@@ -1,9 +1,9 @@
 ---
 description: ダッシュボードスコアカードの使用手順。
 title: Adobe Analytics ダッシュボードエグゼクティブガイド
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 100%
 
