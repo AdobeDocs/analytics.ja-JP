@@ -33,7 +33,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 電子メールアドレス </td> 
+   <td colname="col1"> 電子メール住所 </td> 
    <td colname="col2"> 主要連絡先の電子メールアドレス。 </td> 
   </tr> 
   <tr> 
@@ -114,39 +114,39 @@ ht-degree: 98%
    <td colname="col2"> Demandbase API キー。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db._apiURL </td> 
+   <td colname="col1"> _db_apiURL </td> 
    <td colname="col2"> Demandbase API の URL テンプレート。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Demandbaseディメンション項目がAdobeAnalyticsに送信される際に、その項目を区切るために使用される区切り文字です。 この設定を変更すると、デフォルトの分類ルールが正しく機能しない場合があります。 </td> 
+   <td colname="col1"> _db_delim </td> 
+   <td colname="col2"> Demandbaseディメンション項目がAdobe Analyticsに送信される際に、その項目を区切るために使用される区切り文字。 この設定を変更すると、デフォルトの分類ルールが正しく機能しない場合があります。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db._setTnt </td> 
+   <td colname="col1"> _db_setTnt </td> 
    <td colname="col2">true の場合、統合コードは、非表示の mbox を使用して、Demandbase ディメンションをプロファイルパラメーターとして Adobe Target に送信しようとします。 <p>注意：これには、mbox.js コードがページ上に存在する必要があります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db._tntVarPrefix </td> 
+   <td colname="col1"> _db_tntVarPrefix </td> 
    <td colname="col2"> この文字列は、Adobe Target に送信する前に、各 Demandbase ディメンション名の前に追加されます。例えば、この設定の値が「db_」の場合、ディメンション「industry」は「db_industry」として Adobe Target に送信されます。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db._dimensionsArray </td> 
+   <td colname="col1"> _db_dimensionsArray </td> 
    <td colname="col2"> Adobe Analytics に送信される標準の Demandbase ディメンションです。この設定は変更しないことをお勧めします。「max_size」プロパティは、切り捨てが発生する前にディメンションで使用できる文字の数です。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db._dimensionsArrayCustom </td> 
+   <td colname="col1"> _db_dimensionsArrayCustom </td> 
    <td colname="col2"> Adobe Analytics に送信されるカスタムの Demandbase ディメンションです。「max_size」プロパティは、切り捨てが発生する前にディメンションで使用できる文字の数です。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db._cName </td> 
+   <td colname="col1"> _db_cName </td> 
    <td colname="col2"> Demandbase API 通信の状態を維持するために使用するセッション cookie の名前。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db._contextName </td> 
+   <td colname="col1"> _db_contextName </td> 
    <td colname="col2"> 標準ディメンションを Adobe Analytics に送信するために使用される contextData 変数の名前。この設定は変更しないことをお勧めします。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> _db._contextNameCustom </td> 
+   <td colname="col1"> _db_contextNameCustom </td> 
    <td colname="col2"> カスタムディメンションを Adobe Analytics に送信するために使用される contextData 変数の名前。この設定は変更しないことをお勧めします。 </td> 
   </tr> 
  </tbody> 
