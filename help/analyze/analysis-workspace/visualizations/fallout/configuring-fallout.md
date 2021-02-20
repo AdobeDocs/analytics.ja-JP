@@ -2,9 +2,9 @@
 description: 'null'
 title: フォールアウトビジュアライゼーションの設定
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
 
