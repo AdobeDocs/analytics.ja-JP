@@ -1,13 +1,13 @@
 ---
 description: エラーが発生した場合、エラーはジョブステータス列にレポートされます。
-keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
+keywords: データフィード；ジョブ；トラブルシューティング；エラー；ftp;chdir；接続；ログイン；put
 title: ジョブのトラブルシューティング
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '454'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 97%
 
 ---
 
