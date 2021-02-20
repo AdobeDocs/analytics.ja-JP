@@ -1,9 +1,9 @@
 ---
 title: データの急増／急減のトラブルシューティング
 description: トレンドレポートで劇的な増加や減少が見られる理由を説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 
