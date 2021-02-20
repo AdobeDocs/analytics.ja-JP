@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 98%
 
 ---
 
@@ -13,13 +16,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Excel の書式／セル（Ctrl + 1 キー）の機能で利用できる標準的なセル書式設定に加え、Report Builder を使用してセル範囲に対して簡易的な書式を適用できます。それらの書式設定に使用できるオプションは、選択した指標によって異なります。
 
-After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.
+行ラベルグリッドに[ディメンションを追加](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)した後、「**[!UICONTROL 書式]**」をクリックします。
 
-In the **[!UICONTROL Format]** menu, click **[!UICONTROL Custom Format]** to apply customized formats for dates similar to the prepend and postpend feature. 例えば、日付の後に常に付加されるテキスト（A.D.、B.C.E.、A.H. など）を入力することができます。日付の前に、やなどのテキストを追加で [!UICONTROL Start Date] きます [!UICONTROL Start and End Date]。 さらに、日、月、年の略語を使用してカスタムの日付式を作成し、日付の内部にカスタムの区切り文字を使用することができます。すべての日付書式は 3 つの略語で構成され、括弧で囲まれている必要があります。
+「**[!UICONTROL 書式]**」メニューで、「**[!UICONTROL カスタムフォーマット]**」をクリックして、前付け／後付け機能と同様に、カスタマイズされた書式を日付に適用します。例えば、日付の後に常に付加されるテキスト（A.D.、B.C.E.、A.H. など）を入力することができます。また、日付の前に、「[!UICONTROL 開始日]」、「[!UICONTROL 開始・終了日]」などのテキストを追加することもできます。さらに、日、月、年の略語を使用してカスタムの日付式を作成し、日付の内部にカスタムの区切り文字を使用することができます。すべての日付書式は 3 つの略語で構成され、括弧で囲まれている必要があります。
 
-The following table describes how you can use date abbreviations in the [!UICONTROL Custom Format] field:
+次の表では、「[!UICONTROL カスタムフォーマット]」フィールドで日付の略語を使用する方法を説明します。
 
-| 略語 | 意味 | 例2012 年 3 月 14 日（水）の場合 |
+| 略語 | 意味 | 例   2012年3月14日（水）の場合 |
 |--- |--- |--- |
 | MM/dd/yyy | 数字表記の正式な日付 | 03/14/2012 |
 | M | 月 | 3 |
