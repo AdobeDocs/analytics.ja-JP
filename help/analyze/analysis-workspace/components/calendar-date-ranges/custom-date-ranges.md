@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace でカスタム日付範囲を作成
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '246'
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
