@@ -4,10 +4,10 @@ keywords: Analysis Workspace;Segment IQ
 title: セグメント比較で使用される統計テスト
 topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '463'
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
