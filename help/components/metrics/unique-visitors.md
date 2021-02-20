@@ -14,7 +14,7 @@ ht-degree: 96%
 
 「個別訪問者数」指標は、ディメンション項目の訪問者 ID の数を示します。トラフィックを決定する際に使用される最も一般的な指標の 1 つで、ディメンション項目の人気度の概要を示します。例えば、ある訪問者が 1 か月間毎日サイトを訪問しても、1 人の個別訪問者としてカウントされることがあります。
 
-デバイス間の分析を使用する場合 [、この指標は「](../cda/overview.md)個別デバイス [](unique-devices.md) 」指標に置き換えられます。
+[デバイス間の分析](../cda/overview.md)を使用する場合、この指標は[個別デバイス](unique-devices.md)指標に置き換えられます。
 
 ## 日別、週別、月別、四半期別、年別の個別訪問者数
 
@@ -30,8 +30,8 @@ Analysis Workspace は、レポートの精度に基づいて個別訪問者を�
 | --- | --- | --- |
 | 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 変数が設定されます。 |
 | 2 | `aid` | 訪問者に既存の [`s_vi`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。訪問者 ID サービスを実装しない、または実装する前に設定します。 |
-| 3 | `mid` | 訪問者に既存の [`s_ecid`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。[Adobe Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用した実装に設定します。 |
-| 4 | `fid` | 訪問者に既存の [`s_fid`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookie がある、または何らかの理由で `aid` と `mid` を設定できなかった場合。 |
+| 3 | `mid` | 訪問者に既存の [`s_ecid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。[Adobe Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用した実装に設定します。 |
+| 4 | `fid` | 訪問者に既存の [`s_fid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) Cookie がある、または何らかの理由で `aid` と `mid` を設定できなかった場合。 |
 | 5 | IP アドレス、ユーザーエージェント、ゲートウェイ IP アドレス | 最後の手段は、訪問者のブラウザーが cookie を受け入れない場合に一意の訪問者を識別することです。 |
 
 >[!NOTE]
