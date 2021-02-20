@@ -2,9 +2,9 @@
 description: シンプルな「訪問あたりのページビュー数」指標の作成方法を示します。
 title: シンプルな「訪問あたりのページビュー数」指標の作成
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%
 
