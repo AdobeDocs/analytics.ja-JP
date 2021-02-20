@@ -53,7 +53,7 @@ Google Analytics などの他のプラットフォームでは、多くのレポ
 
    [計算指標](/help/components/c-calcmetrics/cm-overview.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
 
-**平均セッション時間**&#x200B;は、**訪問別滞在時間（秒）**&#x200B;とほぼ同じ役割を果たします。Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
+**平均セッション時間**&#x200B;は、**訪問別滞在時間（秒）**&#x200B;とほぼ同じ役割を果たします。[訪問別滞在時間](/help/components/metrics/time-spent-per-visit.md)指標について詳しくは、コンポーネントユーザーガイドを参照してください。
 
 ## コンバージョン指標
 
