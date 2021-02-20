@@ -1,9 +1,9 @@
 ---
 title: 検索
 description: ヒットが外部検索条件に一致した回数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 
