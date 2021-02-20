@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics ダッシュボード — 概要
 description: Adobe Analytics ダッシュボードの製品ドキュメントとセルフヘルプ
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3612800349243ed4ce7a137a6c2eaf12e5abb4a2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
