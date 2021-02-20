@@ -7,7 +7,7 @@ uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * ビュースルー数
 * DFA クリック数
-* インプレッション数
+* インプレッション
 * （オプション）DFA コストデータ
 * （オプション）DFA クエリエラー、タイムアウト
 
@@ -45,7 +45,7 @@ Data Connectors DFA 統合は、DFA によって返されたデータから DFA 
 
 他の 2 つの分類、配信ツール（DoubleClick for Advertisers）とチャネル（バナー広告）は、DFA キャンペーンに関する同じ値を持つので、DFA インポート済みデータを区別するのに役立ちます。
 
-## SearchCenter の重複除外 {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
+## SearchCenter の重複除外  {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
 DFA 統合は、Adobe SearchCenter に対応しています。Data Connectors ウィザードで SearchCenter 重複除外を有効にすると、検索による訪問者は DFA の Floodlight サーバーからデータを取得しなくなります。DFA によって *`s.campaign`* が入力されないので、SearchCenter によってデータを生成できるようになります。また、DFA および SearchCenter は、各製品の変数に重複除外の値を設定します。
 
