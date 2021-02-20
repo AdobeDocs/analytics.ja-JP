@@ -4,9 +4,9 @@ subtopic: Classifications
 title: 分類データファイル
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1771'
 ht-degree: 100%
 
@@ -203,5 +203,5 @@ ht-degree: 100%
 
 ## 分類のトラブルシューティング
 
-* [一般的なアップロードの問題](https://helpx.adobe.com/jp/analytics/kb/common-saint-upload-issues.html)：不適切なファイル形式およびファイルの内容に起因する問題について説明したナレッジベース記事です。
+* [一般的なアップロードの問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：不適切なファイル形式およびファイルの内容に起因する問題について説明したナレッジベース記事です。
 
