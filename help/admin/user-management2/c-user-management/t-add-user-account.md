@@ -4,9 +4,9 @@ subtopic: Users and groups
 title: ユーザーアカウントの追加
 topic: Admin tools
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 
