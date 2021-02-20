@@ -1,9 +1,9 @@
 ---
 title: 米国の州
 description: 訪問者の米国の州。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
 
