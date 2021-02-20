@@ -5,6 +5,9 @@ topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
