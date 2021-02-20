@@ -2,9 +2,9 @@
 description: 処理に影響を及ぼす可能性のある、Analytics における計算指標の機能の変更を次に示します。
 title: よくある質問
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2148'
 ht-degree: 100%
 
