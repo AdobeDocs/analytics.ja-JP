@@ -2,9 +2,9 @@
 description: 'null'
 title: Advertising Analytics の概要
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 100%
 
