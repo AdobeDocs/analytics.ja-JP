@@ -25,11 +25,11 @@ charSet 変数は、Analytics での保存とレポート用に、受信デー�
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 文字セット]」フィールドが表示されます。
 
-プリセット文字セットまたはカスタム文字セットを指定できます。レポートに文字化けした値が表示されない `UTF-8` 限り、値をから変更しないでください。
+プリセット文字セットまたはカスタム文字セットを指定できます。レポートに文字化けした値が表示されない限り、`UTF-8`から値を変更しないでください。
 
 ## AppMeasurement および Launch カスタムコードエディターの s.charSet
 
-`charSet` 変数は文字列です。AdobeAnalyticsで値が文字化けしている場合、この変数をサイトの `<meta charset="">` HTMLタグと同じ値に設定します。
+`charSet` 変数は文字列です。Adobe Analyticsで値が文字化けしている場合は、この変数をサイトの`<meta charset="">` HTMLタグと同じ値に設定します。
 
 ```js
 s.charSet = "UTF-8";
