@@ -4,9 +4,9 @@ subtopic: Data sources
 title: インポートファイルの参照
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
