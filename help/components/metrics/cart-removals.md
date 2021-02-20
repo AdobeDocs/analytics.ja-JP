@@ -1,9 +1,9 @@
 ---
 title: 買い物かごからの削除
 description: 訪問者が買い物かごから商品を削除したヒット数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 
