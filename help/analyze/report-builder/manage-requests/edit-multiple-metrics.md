@@ -4,6 +4,9 @@ title: 複数のリクエストの指標を編集
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
 source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 100%
 
 ---
 
@@ -17,14 +20,14 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 次の点に注意してください。
 
 * 指標は、ピボットレイアウトリクエストにのみ追加できます。選択したリクエストの一部がカスタムレイアウトの場合、指標は追加できません。これは、レイアウトがカスタマイズされているので、スプレッドシートのどこに新しい指標が配置されるかを Report Builder が認識しないためです。
-* Accordingly, if you have selected only Custom Layout requests, the **[!UICONTROL Add Metric/s]** option is not available.
+* そのため、カスタムレイアウトリクエストのみを選択した場合、「**[!UICONTROL 指標を追加]**」オプションは利用できません。
 * 指標を追加すると、リクエストのサイズが増加し、別のリクエストと重なる可能性があります。リクエストの周囲に指標を追加できる十分な領域があることを確認してください。
 * 追加された指標が選択したリクエストのいずれかに既に存在している場合、そのリクエストには追加されません。
 
 1 つ以上の指標を追加するには
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (または、// **[!UICONTROL Manage]** をク **[!UICONTROL Edit Multiple]** リック `<choose metric>` して、変 **[!UICONTROL Edit Group]** 更するリクエストのグループを選択します)。
-1. 「**[!UICONTROL Add Metric(s)]**」を選択し、追加する指標を選択します。
+1. Excel で 1 つ以上のリクエストを選択し、右クリックして「**[!UICONTROL 指標を編集]**」を選択します。（または、**[!UICONTROL 管理]**／**[!UICONTROL 複数を編集]**／`<choose metric>`／**[!UICONTROL グループの編集]**&#x200B;を選択して、変更するリクエストのグループを選択します。）
+1. 「[!UICONTROL 指標を追加]」を選択して、追加する指標を選択します。
 
    ![](assets/add_metric.png)
 
@@ -45,9 +48,9 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 指標を置換するには
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (または、// **[!UICONTROL Manage]** をク **[!UICONTROL Edit Multiple]** リック **`<choose metric>`** して、変 **[!UICONTROL Edit Group]** 更するリクエストのグループを選択します)。
+1. Excel で 1 つ以上のリクエストを選択し、右クリックして「**[!UICONTROL 指標を編集]**」を選択します。（または、**[!UICONTROL 管理]**／**[!UICONTROL 複数を編集]**／**`<choose metric>`**／**[!UICONTROL グループの編集]**&#x200B;を選択して、変更するリクエストのグループを選択します。）
 
-1. Select **[!UICONTROL Replace Metric]**.
+1. 「**[!UICONTROL 指標を置換]**」を選択します。
 
    ![](assets/replace_metric.png)
 
@@ -65,9 +68,9 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 指標を削除するには
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (または、// **[!UICONTROL Manage]** をク **[!UICONTROL Edit Multiple]** リック **`<choose metric>`** して、変 **[!UICONTROL Edit Group]** 更するリクエストのグループを選択します)。
+1. Excel で 1 つ以上のリクエストを選択し、右クリックして「**[!UICONTROL 指標を編集]**」を選択します。（または、**[!UICONTROL 管理]**／**[!UICONTROL 複数を編集]**／**`<choose metric>`**／**[!UICONTROL グループの編集]**&#x200B;を選択して、変更するリクエストのグループを選択します。）
 
-1. Select **[!UICONTROL Remove Metric(s)]**.
+1. 「**[!UICONTROL 指標を削除]**」を選択します。
 
    ![](assets/remove_metric.png)
 
