@@ -89,7 +89,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 1. コンポーネントメニューで&#x200B;**国**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
+詳しくは、コンポーネントユーザーガイドの[国](/help/components/dimensions/countries.md)のディメンションを参照してください。
 
 ## 行動 - 新規訪問回数と再訪問回数
 
@@ -161,7 +161,7 @@ See the [Countries](/help/components/dimensions/countries.md) dimensions in the 
 1. コンポーネントメニューで&#x200B;**モバイルデバイスタイプ**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+詳しくは、コンポーネントユーザーガイドの[モバイルデバイスタイプ](/help/components/dimensions/mobile-dimensions.md)のディメンションを参照してください。
 
 ## モバイル - デバイス
 
@@ -170,7 +170,7 @@ See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) d
 1. コンポーネントメニューで&#x200B;**モバイルデバイス**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。
 
-See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+詳しくは、コンポーネントユーザーガイドの[モバイルデバイス](/help/components/dimensions/mobile-dimensions.md)のディメンションを参照してください。
 
 ## カスタム
 
@@ -185,6 +185,6 @@ See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimens
 フローレポートは、Adobe Analytics と Google Analytics の両方で使用できます。フローレポートを作成するには：
 
 1. 左側のビジュアライゼーションアイコンをクリックし、フリーフォームテーブルの上にあるワークスペースにフロービジュアライゼーションをドラッグします。
-2. **ページ**&#x200B;ディメンションを選択し、矢印アイコンをクリックしてページ値を表示します。ディメンション項目は黄色に色付けされます。
+2. **ページ**&#x200B;ディメンションを選択し、矢印アイコンをクリックしてページ値を表示します。Dimension項目は黄色に色付けされます。
 3. 最初のページ値を選択し、中央にある「ディメンションまたは項目」というラベルの付いたスペースにドラッグします。
 4. このフローレポートはインタラクティブです。いずれかの値をクリックして、フローを展開し、後のページまたは前のページを開きます。右クリックメニューを使用して、列を展開または折りたたむことができます。同じフローレポート内で異なるディメンションを使用することもできます。
