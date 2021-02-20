@@ -52,4 +52,4 @@ ht-degree: 97%
 
 **ブログ**：この機能について詳しくは、Digital Marketing Blog の[ルールベースの分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)を参照してください。
 
-**ビデオ**:「 [分類の概要](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) 」ビデオの表示を参照してください。
+**ビデオ**:表示の概要ビデオを参照し [て](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) ください。
