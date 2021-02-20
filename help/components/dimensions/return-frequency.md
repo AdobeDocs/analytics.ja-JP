@@ -1,9 +1,9 @@
 ---
 title: 再来訪頻度
 description: 現在の訪問から前回の訪問までの時間をグループで示します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 
