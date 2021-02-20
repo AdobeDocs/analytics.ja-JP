@@ -4,9 +4,9 @@ subtopic: Classifications
 title: 分類ルール - 定義
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
