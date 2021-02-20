@@ -5,6 +5,9 @@ topic: Report builder
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 100%
 
 ---
 
@@ -13,6 +16,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ワークブック編集中に新しいリクエストの領域を確保したい場合、既存リクエストの削除が必要になることがあります。
 
-領域を確保するには、セルにマッピングされているリクエストを削除する必要があります。リクエストを含む行や列を削除してしまうと、関連するリクエストの有効性が失われます（その結果、更新が失敗します）。The Excel menu selection **[!UICONTROL Edit]** > **[!UICONTROL Clear Contents]** removes the value displayed in the cell. マッピングは残るので、「更新」すると値が復活します。
+領域を確保するには、セルにマッピングされているリクエストを削除する必要があります。リクエストを含む行や列を削除してしまうと、関連するリクエストの有効性が失われます（その結果、更新が失敗します）。Excel メニューの&#x200B;**[!UICONTROL 編集]**／**[!UICONTROL 数式と値のクリア]**&#x200B;を選択すると、セル内に表示されている値は削除されますが、マッピングは残るので、「更新」すると値が復活します。
 
-To remove a specific mapping of spreadsheet cells, locate the row, column, or metric item and click **[!UICONTROL Delete]**.
+スプレッドシートのセル内にある特定のマッピングを削除するには、その行、列または指標項目を右クリックし、「**[!UICONTROL リクエストの削除]**」を選択します。
