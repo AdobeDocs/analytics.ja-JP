@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: ディメンションの分類
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: ht
-source-wordcount: '226'
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
