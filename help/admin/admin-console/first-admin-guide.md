@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics はじめての管理ガイド
 description: Adobe Analytics の使用開始、一般的な役割タイプ、UI へのログイン方法を説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
