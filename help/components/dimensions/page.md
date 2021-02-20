@@ -18,9 +18,9 @@ ht-degree: 82%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、 [`pageName` ページ表示呼び出しの](/help/implement/validate/query-parameters.md) クエリ列 [(`t()`)からデータを取得します](/help/implement/vars/functions/t-method.md)。 [リンクトラッキングコール(`tl()`)](/help/implement/vars/functions/tl-method.md) 。 `pageName` クエリ文字列が存在する場合でも、常にこのディメンションを除去します。
+このディメンションは、[ページ表示呼び出し(`t()`)](/help/implement/vars/functions/t-method.md)の[`pageName`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。 [リンクトラッキングコール(`tl()`)](/help/implement/vars/functions/tl-method.md) は、 `pageName` クエリ文字列が存在する場合でも、常にこのディメンションを取り除きます。
 
-AppMeasurement は、[`pageName`](/help/implement/vars/page-vars/pagename.md) 変数を使用してこのデータを収集します。If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+AppMeasurement は、[`pageName`](/help/implement/vars/page-vars/pagename.md) 変数を使用してこのデータを収集します。`pageName`変数が定義されていない場合は、[`pageURL`](/help/implement/vars/page-vars/pageurl.md)変数を使用してフォールバックします。
 
 ## ディメンション項目
 
