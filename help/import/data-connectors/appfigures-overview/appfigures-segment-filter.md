@@ -4,6 +4,9 @@ title: アプリデータのセグメント化
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 100%
 
 ---
 
