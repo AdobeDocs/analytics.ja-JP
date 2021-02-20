@@ -44,7 +44,7 @@ ht-degree: 96%
 
    ![](assets/add-alert.png)
 
-## FAQ：アラートが計算およびトリガーされる仕組み {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+## FAQ：アラートが計算およびトリガーされる仕組み  {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
 % しきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。低いしきい値（90％など）を設定すると、高いしきい値（99％など）を設定した場合よりも多くの異常値が取得されます。99.75％と 99.99％のしきい値は、時間単位の精度用に、多数の異常値がトリガーされないようにするために導入されました。
 
