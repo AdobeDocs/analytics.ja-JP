@@ -1,9 +1,9 @@
 ---
 title: 接続タイプ
 description: 訪問者がインターネットに接続する方法。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fcaee113f2c15bfc5a1ce0a7cd31a456ba98929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '14'
 ht-degree: 100%
 
