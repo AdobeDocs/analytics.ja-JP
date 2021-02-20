@@ -2,9 +2,9 @@
 description: レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。事前にラベルとその意味について学んでおいてください。
 title: レポートスイートのデータのラベル設定
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
