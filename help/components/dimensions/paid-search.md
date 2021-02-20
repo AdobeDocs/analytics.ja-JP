@@ -1,9 +1,9 @@
 ---
 title: 有料検索
 description: 指標と有料検索および自然検索を区別します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 
