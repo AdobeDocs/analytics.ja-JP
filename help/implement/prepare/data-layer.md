@@ -167,7 +167,7 @@ digitalData = {
 }
 ```
 
-各オブジェクトとサブオブジェクトの詳細については、[顧客体験デジタルデータレイヤー](https://www.w3.org/2013/12/ceddl-201312.pdf)レポートを使用します。Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
+各オブジェクトとサブオブジェクトの詳細については、[顧客体験デジタルデータレイヤー](https://www.w3.org/2013/12/ceddl-201312.pdf)レポートを使用します。一部のサイトですべてのオブジェクトを使用しているわけではありません。例えば、ニュースサイトをホストする場合、`digitalData.product`オブジェクト配列を使用する可能性は低くなります。
 
 データレイヤーは拡張可能です。組織に固有の要件がある場合は、そのニーズに合わせてオブジェクトをデータレイヤーに含めることができます。
 
