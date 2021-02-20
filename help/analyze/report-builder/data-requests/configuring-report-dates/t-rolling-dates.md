@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 100%
 
 ---
 
@@ -13,9 +16,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 リクエストの相対日付をカスタマイズできます。
 
-1. で、を選 [!UICONTROL Request Wizard: Step 1]択します **[!UICONTROL Rolling Dates]**。
-1. Click the **[!UICONTROL Rolling]** link to choose the rolling type, then use the date links to configure rolling dates.
+1. [!UICONTROL リクエストウィザード：ステップ 1] で、「**[!UICONTROL 相対日付]**」をクリックします。
+1. 「**[!UICONTROL 周期]**」リンクをクリックして周期のタイプを選択してから、日付リンクを使用して相対日付を設定します。
 
-   The settings for [!UICONTROL Rolling Dates] change depending on your selections. For example, when you select [!UICONTROL Rolling Weekly], report builder provides week-specific settings you can select as the rolling pattern.
+   選択内容に応じて、「[!UICONTROL 相対日付]」の設定が変わります。例えば、「[!UICONTROL 週周期]」を選択すると、周期パターンとして選択できる週固有の設定が指定できます。
 
 1. 必要に応じて、アドバンスオプションを設定します。
