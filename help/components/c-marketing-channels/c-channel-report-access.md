@@ -1,9 +1,9 @@
 ---
 description: マーケティングチャネルレポートを実行し、制限付きの管理者ユーザー権限とユーザーグループ権限をレポートに許可する方法について説明します。
 title: マーケティングチャネルの権限
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
