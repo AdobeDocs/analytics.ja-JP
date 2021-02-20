@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 100%
 
 ---
 
@@ -17,4 +20,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## Report Builder での精度の処理方法
 
-Suppose you choose a date range for a month with [!UICONTROL Month] granularity. リクエストでは、ちょうど 1 か月に相当するデータに基づいて、指標の総計が表示されます。リクエストの日付範囲が 1 四半期に及んでいる場合、レポートでは、各月単位またはその端数による 3 つのデータが表示されます。今日が 3 月 18 日の場合、最新の四半期を選択すると、1 月 1 日～1 月 31 日、2 月 1 日～2 月 28 日、3 月 1 日～3 月 17 日の各データが返されます。
+「[!UICONTROL 月]」精度を使用して、1 か月分の日付範囲を選択したとします。リクエストでは、ちょうど 1 か月に相当するデータに基づいて、指標の総計が表示されます。リクエストの日付範囲が 1 四半期に及んでいる場合、レポートでは、各月単位またはその端数による 3 つのデータが表示されます。今日が 3 月 18 日の場合、最新の四半期を選択すると、1 月 1 日～1 月 31 日、2 月 1 日～2 月 28 日、3 月 1 日～3 月 17 日の各データが返されます。
