@@ -1,9 +1,9 @@
 ---
 title: リファラータイプ
 description: 転送者のタイプ。訪問者の送信元に応じて異なります。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
