@@ -1,9 +1,9 @@
 ---
 title: Data Warehouse でのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
