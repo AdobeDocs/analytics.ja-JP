@@ -1,6 +1,6 @@
 ---
 description: 従来の権限の内容
-keywords: groups;permissions
+keywords: グループ;権限
 subtopic: Users and groups
 title: ユーザーおよびグループ権限の変更
 topic: Admin tools
@@ -8,7 +8,7 @@ uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1566'
 ht-degree: 99%
 
 ---
