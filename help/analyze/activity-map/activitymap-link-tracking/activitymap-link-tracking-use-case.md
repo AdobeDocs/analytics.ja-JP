@@ -41,7 +41,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>購入 </p> <p> </p> <p> </p> <p>購入 </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation パネル <p> </p> <p> </p> <p>recommendation パネル </p> <p> </p> <p> </p> <p>recommendation パネル </p> </td> 
   </tr> 
  </tbody> 
@@ -49,7 +49,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 
 これらのリンクの値を区別するには、Web ページとタグをどのようにカスタマイズすればよいでしょうか。オプションは 3 つあります。リンク ID をカスタマイズするか、領域をカスタマイズするか、AppMeasurement Activity Map モジュールファイルをカスタマイズするかです。
 
-## s_objectID を使用したリンク ID のカスタマイズ {#section_01B0D463397B4837B2D46F087A6E5937}
+## s_objectID を使用したリンク ID のカスタマイズ  {#section_01B0D463397B4837B2D46F087A6E5937}
 
 リンクまたはページのリンクの場所に対して固有のオブジェクト ID を作成することにより、Activity Map のトラッキングを向上したり、Activity Map を使用して、リンク URL ではなく、リンクタイプやリンクの場所について報告します。s_objectID 変数について詳しくは、[ここ](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html)をクリックしてください。
 
@@ -86,7 +86,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
  </tbody> 
 </table>
 
-## 領域のカスタマイズ {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## 領域のカスタマイズ  {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 &quot;Buy&quot; リンクごとに独自の領域を定義することにより、領域をカスタマイズできます。これを行うには、&quot;Buy&quot; アンカータグごとに、親の 1 つに &quot;id&quot; パラメーターを追加します。
 
@@ -117,13 +117,13 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>購入 </p> <p> </p> <p> </p> <p>購入 </p> <p> </p> <p> </p> <p>購入 </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## AppMeasurement Activity Map モジュールファイルのカスタマイズ {#section_B933BB9F944E4D5389002908A5A881F8}
+## AppMeasurement Activity Map モジュールファイルのカスタマイズ  {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
