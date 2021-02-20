@@ -1,16 +1,16 @@
 ---
-title: 上位5件のKPIの定義
+title: 上位 5 件の KPI の定義
 description: 主要業績評価指標と関連する指標およびディメンションが、ビジネスニーズに密接に合致していることを確認します。
 translation-type: tm+mt
 source-git-commit: 145b31d01b7ec52ae3c65035774a5be54abbc51a
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# 上位5件のKPIの定義
+# 上位 5 件の KPI の定義
 
 すべてを測定することはできません。ビジネスにとって最も重要なものの測定を優先する場合は、Adobe Analyticsの導入が最も成功します。 貴社のビジネスに最も効果的な主要業績評価指標(KPI)を定義するには、貴社のビジネスリーダーと協力してください。 その後、これらのKPIをサポートする指標と変数に集中して取り組みます。
 
