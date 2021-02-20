@@ -1,12 +1,12 @@
 ---
 description: 計算指標および高度な計算（または派生）指標は、既存の指標から作成できるカスタム指標です。
-keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
+keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
 source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '636'
 ht-degree: 100%
 
 ---
