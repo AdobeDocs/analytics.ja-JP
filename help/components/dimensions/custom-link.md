@@ -1,9 +1,9 @@
 ---
 title: カスタムリンク
 description: カスタムリンクの名前。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 
