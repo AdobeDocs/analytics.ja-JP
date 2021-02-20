@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 97%
 フリーフォーム合計行での動的な行と静的な行の動作は異なります。デフォルトでは:：
 
 * 動的な行はサーバーサイドで合計され、訪問数や訪問者数などの指標の重複を取り除きます。
-* 静的な行は、クライアントサイドで合計され、重複を取り除き&#x200B;**ません** 。サーバーサイドの合計行を計算するには、「行」設定を「**総合計を表示**」に変更します。[詳細情報](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* 静的な行は、クライアントサイドで合計され、重複を取り除き&#x200B;**ません**。サーバーサイドの合計行を計算するには、「行」設定を「**総合計を表示**」に変更します。[詳細情報](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
