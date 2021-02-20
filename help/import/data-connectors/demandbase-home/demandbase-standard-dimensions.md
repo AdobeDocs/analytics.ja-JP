@@ -4,6 +4,9 @@ title: Demandbase 標準ディメンション
 uuid: dea1c680-b5e2-4237-bb2f-baf5f17c8019
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 100%
 
 ---
 
