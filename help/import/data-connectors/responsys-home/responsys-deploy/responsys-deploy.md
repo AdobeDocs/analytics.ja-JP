@@ -4,6 +4,9 @@ title: 統合のデプロイ
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Data Connectors インターフェイスで統合ウィザードを完了する�
 
    | 項目 | 説明 |
    |---|---|
-   | 電子メールアドレス | 主要連絡先の電子メールアドレス |
+   | 電子メール住所 | 主要連絡先の電子メールアドレス |
    | 説明 | （オプション）この統合設定の説明 |
    | アカウント ID | support@responsys.com から Responsys サポートチームに連絡して入手します |
 
