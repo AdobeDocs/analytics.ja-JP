@@ -1,13 +1,13 @@
 ---
 description: Dynamic Tag Management でデータ要素を作成します。
-keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
+keywords: Dynamic Tag Management, データ要素, 新しいデータ要素を作成, 名前, タイプ, デフォルト値, 強制的に小文字に変換値, この値を記憶しておく期間
 solution: Experience Cloud,Analytics,Target
 title: データ要素の作成
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,11 @@ Dynamic Tag Management でデータ要素を作成します。
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>タイプ</strong></td> 
-      <td class="chdesc stentry"> <p> JS オブジェクト、CSS セレクター、Cookie、URL パラメーター、カスタムスクリプトなど、データ取得元のタイプを指定します。 </p> <p>選択したタイプに応じて、異なるオプションが表示されます。詳細と例については、Dynamic Tag Management 製品ドキュメントの<a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/resources/data-elements.html">データ要素のタイプ</a>を参照してください。 </p> </td> 
+      <td class="chdesc stentry"> <p> JS オブジェクト、CSS セレクター、Cookie、URL パラメーター、カスタムスクリプトなど、データ取得元のタイプを指定します。 </p> <p>選択したタイプに応じて、異なるオプションが表示されます。詳細と例については、Dynamic Tag Management 製品ドキュメントの<a href="https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html">データ要素のタイプ</a>を参照してください。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>デフォルト値</strong></td> 
-      <td class="chdesc stentry"> <p>デフォルトの値。この値は、URL パラメーターが存在しない、または Dynamic Tag Management で見つからない場合でも、データ要素が常に値を持つようにします。 </p> <p> <p>注意：値がなくデフォルト値も指定されていない場合、戻り値は返されず、そのデータ要素を参照する変数は設定されません。ただし、「カスタムコード」データ要素ではデフォルト値フィールドが無視されます。 </p> </p> </td> 
+      <td class="chdesc stentry"> <p> デフォルトの要素です。 この値は、URL パラメーターが存在しない場合や Dynamic Tag Management で見つからない場合でも、データ要素に常に値が割り当てられるようにします。 </p> <p> <p>注意：値がなくデフォルト値も指定されていない場合、戻り値は返されず、そのデータ要素を参照する変数は設定されません。 また、「カスタムコード」データ要素の場合、デフォルト値フィールドは無視されます。 </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>強制的に小文字に変換値</strong></td> 
@@ -48,9 +48,9 @@ Dynamic Tag Management でデータ要素を作成します。
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>この値を記憶しておく期間</strong></td> 
-      <td class="chdesc stentry"> <p>Dynamic Tag Management にこの値を記憶させておく期間。 </p> <p> 有効な設定値は以下のとおりです。 </p> 
+      <td class="chdesc stentry"> <p> Dynamic Tag Management にこの値を記憶させる期間。 </p> <p> 有効な設定値は以下のとおりです。 </p> 
       <ul id="ul_52F6CD8FC22942208F3F45492E914104"> 
-        <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>セッション：セッションベースのタイミングは、実装によって変わる可能性があります。セッションデータ要素は、セッション Cookie に設定されます。ただし、この設定は Web サーバーやブラウザーの機能に基づくものです。Reports &amp; Analytics で使用されるマーケティング的な意味のセッション（訪問）とは関係ありません。 </p> </li> 
+        <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>セッション：セッションベースのタイミングは、実装によって異なる場合があります。 セッションデータ要素は、セッション cookie に設定されます。 ただし、この設定は Web サーバーまたはブラウザーに基づくものです。 マーケティングレポート &amp; Analytics で使用されるセッションとは関係ありません。 </p> </li> 
         <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>ページビュー。 </p> </li> 
         <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>訪問者。 </p> </li> 
       </ul> </td> 
