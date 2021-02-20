@@ -3,6 +3,9 @@ title: データフィード UI
 description: データフィードインターフェイスのナビゲーション方法を説明します。
 translation-type: tm+mt
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 1. [experiencecloud.adobe.com ](https://experiencecloud.adobe.com)にログインします。
 2. 右上の 9 グリッドメニューをクリックし、「[!UICONTROL Analytics]」をクリックします。
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. 上部のメニューで、[!UICONTROL 管理者]／[!UICONTROL データフィード]をクリックします。
 
 ![データフィードメニュー](assets/AdminMenu.png)
 
@@ -25,7 +28,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ![データフィード](assets/feeds.png)
 
-フィードが設定されていない場合は、ページにボタンが表示さ [!UICONTROL Create New Data Feed] れます。
+フィードが設定されていない場合、ページに「[!UICONTROL 新しいデータフィードを作成]」ボタンが表示されます。
 
 ### フィルターと検索
 
@@ -45,7 +48,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ### 追加
 
-Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. 詳しくは、[フィードの追加](create-feed.md)を参照してください。
+「フィード」タブと「ジョブ」タブの近くで、「+[!UICONTROL 追加]」ボタンをクリックし、新しいフィードを作成します。詳しくは、[フィードの追加](create-feed.md)を参照してください。
 
 ### 列
 
@@ -78,7 +81,7 @@ Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a ne
 使用可能なアクションを表示するには、データフィードの横にあるチェックボックスをクリックします。
 
 * **ジョブ履歴**：このデータフィードに関連付けられているすべてのジョブを表示します。自動的に[ジョブ管理インターフェイス](df-manage-jobs.md)に移動します。
-* **削除**:データフィードを削除し、ステータスをに設定しま [!UICONTROL Deleted]す。
+* **削除**：データフィードを削除し、ステータスを[!UICONTROL 削除済み]に設定します。
 * **コピー**：現在のフィードのすべての設定を含む[新しいフィード](create-feed.md)を作成します。複数のデータフィードが選択されている場合は、データフィードをコピーできません。
-* **一時停止**:フィードのステータスをに設定して、フィードの処理を停止しま [!UICONTROL Inactive]す。
+* **一時停止**：フィードの処理を停止し、ステータスを[!UICONTROL 非アクティブ]に設定します。
 * **アクティベート**：非アクティブなフィードでのみ使用できます。処理データを取得し、必要に応じて日付をバックフィルします。
