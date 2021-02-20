@@ -7,8 +7,8 @@ uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 99%
+source-wordcount: '753'
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> セグメント（青） </td> 
-   <td colname="col2"> <p>パネルレベルにのみドラッグできますが、データテーブルにインラインセグメントを作成できます。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>詳しくは、 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > セグメント </a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>パネルレベルにのみドラッグできますが、データテーブルにインラインセグメントを作成できます。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>詳しくは、「<a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >セグメント</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日付範囲および精度（紫） </td> 
