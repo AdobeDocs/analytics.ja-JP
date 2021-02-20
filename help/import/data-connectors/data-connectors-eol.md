@@ -1,9 +1,9 @@
 ---
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 
