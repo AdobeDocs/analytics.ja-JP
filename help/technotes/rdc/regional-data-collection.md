@@ -26,7 +26,7 @@ RDC には現在以下の場所が含まれます（変更される場合があ�
 |---------------------|-------------------|
 | デフォルト | オレゴン州、バージニア州、アイルランド、パリ、ムンバイ、シンガポール、東京、シドニー, 中国* |
 
-Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. リクエストの URL 内にエンドポイントが表示されるかどうかでこれを判断できます。
+注意：Analyticsイメージリクエストが`adobedc`、`2o7.net`または`omtrdc.net`エンドポイントに送信される場合、サードパーティのデータ収集が可能です。 リクエストの URL 内にエンドポイントが表示されるかどうかでこれを判断できます。
 
 *中国のRDCには、中国製オンパッケージが追加必要です。 上記の「重要」の注意を参照してください。
 
