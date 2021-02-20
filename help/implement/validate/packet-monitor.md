@@ -1,12 +1,12 @@
 ---
 title: パケットアナライザー
 description: パケットアナライザーを使用すると、実装によってアドビのデータ収集サーバーに送信されたデータを表示できます。
-keywords: packet sniffer, http status, 200, 302, charles
+keywords: パケットスニファー， httpステータス， 200, 302, charles
 translation-type: tm+mt
 source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 98%
+source-wordcount: '664'
+ht-degree: 97%
 
 ---
 
