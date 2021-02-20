@@ -1,9 +1,9 @@
 ---
 title: 新規エンゲージメント
 description: ファーストタッチチャネルが設定された回数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 
