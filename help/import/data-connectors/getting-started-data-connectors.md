@@ -1,9 +1,9 @@
 ---
 description: サードパーティアプリケーションから Analytics に追跡データをインポートします。
 title: Analytics Data Connectors 使用の手引き
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 100%
 
