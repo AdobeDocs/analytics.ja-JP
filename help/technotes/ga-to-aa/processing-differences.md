@@ -18,22 +18,22 @@ Adobe Analytics と Google Analytics はどちらも分析ツールですが、�
 
 [!UICONTROL バウンス率は、多くの分析ツールでランディングページの効果と関連性を測定するために使用される一般的な KPI です。]これは一般に、Web サイトを訪問したユーザーがランディングページで何も操作せずにそのままサイトから離脱した数を指します。
 
-* In Adobe Analytics, [!UICONTROL Bounce Rate] is calculated using the formula **Bounces divided by Entries**.
-* In Google Analytics, [!UICONTROL Bounce Rate] is calculated using the formula **Single-page sessions divided by Sessions**.
+* Adobe Analyticsでは、[!UICONTROL 直帰率]は、**バウンスを入口数**&#x200B;で割った数式を使用して計算されます。
+* Google Analyticsでは、[!UICONTROL 直帰率]は、**単一ページのセッション数をSessions**&#x200B;で割った数式を使用して計算されます。
 
 どちらのプラットフォームでも、1 回の訪問またはセッションで複数のヒットが送信された場合はバウンスとはみなされません。Adobe Analytics ではカスタムリンクを使用できます。カスタムリンクをクリックしたことによる訪問は、バウンスとはみなされません。Google Analytics は通常、1 つのページで複数のデータリクエストを送信しません。
 
-To achieve better parity between reporting tools, use the [!UICONTROL Single Page Visits] metric in Adobe Analytics instead of [!UICONTROL Bounces] as part of a calculated metric. The [!UICONTROL Single Page Visits] metric includes the total number of visits that only included one-page view, or visits that enter the website but do not include a click to another page.
+レポートツール間でより適切なパリティを得るには、計算指標の一部として[!UICONTROL バウンス]の代わりに、Adobe Analyticsの[!UICONTROL 直帰数]指標を使用します。 [!UICONTROL 直帰数]指標には、1ページの表示のみを含む訪問、またはWebサイトに訪問したが、別のページへのクリックは含まない訪問の合計数が含まれます。
 
 詳しくは、コンポーネントユーザーガイドの「[バウンス率](/help/components/metrics/bounce-rate.md)」を参照してください。
 
 ## [!UICONTROL 訪問回数とセッション数]
 
-[!UICONTROL 訪問回数] （Google Analyticsではセッションと呼ばれます）は、同じユーザーが短時間に行ったページ表示のグループです。 [!UICONTROL どちらのプラットフォームでも、訪問回数は通常、無操作状態が 30 分間続くと期限が切れます。]Both platforms allow customization on when a [!UICONTROL Visit] expires. プラットフォーム間で違いが発生する原因となるシナリオは、複数考えられます。
+[!UICONTROL 訪問] (Google Analyticsのセッションと呼ばれる)は、同じユーザーが短時間に作成したページ表示のグループです。[!UICONTROL どちらのプラットフォームでも、訪問回数は通常、無操作状態が 30 分間続くと期限が切れます。]どちらのプラットフォームでも、[!UICONTROL 訪問]の有効期限が切れた場合にカスタマイズできます。 プラットフォーム間で違いが発生する原因となるシナリオは、複数考えられます。
 
 * **終了日：** Google Analytics のすべてのセッションは、指定された日の午後 11:59 以降に期限が切れます。午前 12:00 以降もユーザーが Web サイトでアクティブな状態のままの場合は、新しいセッションが作成されます。Adobe Analytics では、翌日も続く訪問はすべて同じ訪問として扱います。
-* **異なるキャンペーン：** Google Analytics の新しいセッションは、ユーザーのキャンペーンソースが変更されると開始されます。If a new [!UICONTROL Tracking Code] value is seen in Adobe Analytics, it is considered part of the same visit.
+* **異なるキャンペーン：** Google Analytics の新しいセッションは、ユーザーのキャンペーンソースが変更されると開始されます。新しい[!UICONTROL トラッキングコード]値がAdobe Analyticsに表示された場合、同じ訪問の一部と見なされます。
 * **手動によるセッションの上書き：** Google Analytics では、`sessionControl` を使用してセッションを手動で開始または終了すると、新しいセッションが開始されます。[!UICONTROL Adobe Analytics では、訪問を手動で終了することはできません。]
-* **Adobe Analyticsでの外れ値の訪問検出：** Adobe Analyticsの新しい [!UICONTROL 訪問] ：連続アクティビティが12時間続いた場合、2,500ヒットまたは100ヒットに達した場合、100秒以内に開始が自動的に発生します。 これらの各検出条件は通常、ボットアクティビティによってトリガーされます。
+* **Adobe Analyticsでの外れ値訪問の検出：新しい訪問者のAdobe Analytics**   訪問は、連続アクティビティが12時間続いた場合、2,500ヒット、または100ヒットに達した場合に、自動的に開始します。これらの各検出条件は通常、ボットアクティビティによってトリガーされます。
 
 詳しくは、コンポーネントユーザーガイドの「[訪問回数指標](/help/components/metrics/visits.md)」を参照してください。
