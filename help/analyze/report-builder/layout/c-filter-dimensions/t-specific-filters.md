@@ -36,6 +36,6 @@ ht-degree: 91%
    * **リストから選択：**&#x200B;データの追加先のリストからデータを選択します。
 1. 「**[!UICONTROL リストから選択]**」を有効にする場合は、使用可能な項目をリストから選択するか、「**[!UICONTROL 追加]**」をクリックします。
 
-   When you click **[!UICONTROL Add]**, the [!UICONTROL Select From List] form displays a list of available dimension items for the current request date range, limited to the first 10,000 items. これらの項目を検索することもできます。または、「**[!UICONTROL その他...]**」をクリックして[!UICONTROL 「検索」フォーム]を表示し、ディメンションのより詳細な検索を行います。
+   **[!UICONTROL 追加]**&#x200B;をクリックすると、[!UICONTROL 「リストから選択」]フォームに、現在のリクエストの日付範囲で使用できるディメンション項目のリストが表示されます。この項目は最初の10,000項目に制限されます。 これらの項目を検索することもできます。または、「**[!UICONTROL その他...]**」をクリックして[!UICONTROL 「検索」フォーム]を表示し、ディメンションのより詳細な検索を行います。
 1. 「[!UICONTROL リストから選択]」で、「**[!UICONTROL OK]**」をクリックします。
 1. 「[!UICONTROL ページを選択]」フォームでフィルターを保存して、「**[!UICONTROL OK]**」をクリックします。
