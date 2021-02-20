@@ -5,13 +5,16 @@ topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
 source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 84%
 
 ---
 
 
 # リクエストウィザードの定義 - 相対日付
 
-Report Builderの相対日付のフィールドの定義です。
+Report Builderの相対日付のフィールドの定義。
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
@@ -23,7 +26,7 @@ Report Builderの相対日付のフィールドの定義です。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>式のカスタマイズ </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > Customized Date Expressions</a>. </p> </td> 
+   <td colname="col2"> <p>「<a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   >カスタマイズした日付式</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 基準日 </p> </td> 
