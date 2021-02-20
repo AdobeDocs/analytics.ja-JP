@@ -1,9 +1,9 @@
 ---
 title: 曜日
 description: 曜日を表します。日付の範囲は関係ありません。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 
