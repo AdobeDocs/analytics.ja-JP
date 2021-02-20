@@ -4,11 +4,11 @@ keywords: eVar
 title: コンバージョン変数（eVar）
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '1579'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1580'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ eVar は、次のような原因と結果を測定するために最適です。
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">月で設定：有効期限は 31 日後の午前 7 時 15 分に切れます。 </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定のコンバージョンイベント。</b>eVar に関連付けて指定された特定のイベントの後に発生するその他のコンバージョンイベント。 </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>なし</b>。<span class="varname"> visitorID</span> Cookie が破損していなければ、eVar とイベントの間で時間を受け渡すことができます。 </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>なし.</b> visitorIDcookieが破損している限り、eVarと <span class="varname"> </span> イベントの間に何分の時間が経過する可能性があります。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
