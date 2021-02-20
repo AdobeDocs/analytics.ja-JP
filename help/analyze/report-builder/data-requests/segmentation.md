@@ -3,9 +3,9 @@ description: Report Builder で Adobe Analytics のセグメントを追加、�
 title: セグメントの管理
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
 
@@ -44,14 +44,14 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 
    ![](assets/seg_in_context.png)
 
-   コンテナについて詳しくは、[セグメント化ガイド](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)を参照してください。
+   コンテナについて詳しくは、[セグメント化ガイド](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)を参照してください。
 
 1. セグメントビルダーの UI が Internet Explorer で起動します。セグメントビルダーの UI に指定したコンテナおよびフィルターが反映されます。
 1. セグメントに名前と説明を追加し、保存します。
 1. Report Builder に戻り、更新アイコンをクリックして、セグメントの一覧を更新します。
 1. これで、このセグメントを適用する準備が整いました。
 
-## セグメントの検索および適用{#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## セグメントの検索および適用  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
 Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Warehouse で作成したすべてのセグメントがこのセグメント一覧に表示されます。一覧を更新するには、更新アイコン（![](assets/refresh_icon.png)）をクリックします。
 
@@ -102,7 +102,7 @@ Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Wareho
 
    ![](assets/seg_control2.png)
 
-## セグメントの一覧の更新{#section_22E4A86789444B4A998532396B476EFB}
+## セグメントの一覧の更新  {#section_22E4A86789444B4A998532396B476EFB}
 
 新規セグメントを追加したり、既存のセグメントを編集したりした場合は、更新アイコン（![](assets/refresh_icon.png)）をクリックして、キャッシュされたセグメント一覧を更新する必要があります。
 
