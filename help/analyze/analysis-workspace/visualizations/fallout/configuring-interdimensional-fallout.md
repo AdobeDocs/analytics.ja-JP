@@ -2,8 +2,11 @@
 description: Analysis Workspace のフォールアウトでは、ディメンションと指標をファネルとワークフローのタッチポイントとして組み合わせることができます。これにより、調査するユーザーステップをより柔軟に定義できます。
 title: ディメンション間のフォールアウト
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
