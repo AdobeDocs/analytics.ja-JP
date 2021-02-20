@@ -6,6 +6,9 @@ topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +35,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. **ウィザードの手順 2 - 変数のマッピング**| Qualtrics 応答リスト | 使用可能なリスト変数をレポートスイートから選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
 |---|---|
 | Qualtrics 応答 ID | レポートスイート尾から使用可能な eVar または prop を選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
-| トラッキングサーバー | Adobe Analytics データの追跡に使用するトラッキングサーバー（ドメイン）設定。標準のトラッキングサーバー設定と異なる場合は、`trackingServerSecure` トラッキングサーバーを使用します。|| Qualtrics 調査の提出 | レポートスイートから利用可能なイベントを選択します（Report Suite Manager 内で新しいイベントの有効化が必要になる場合があります）。|
+| トラッキングサーバー | Adobe Analytics データの追跡に使用するトラッキングサーバー（ドメイン）設定。その場合は、 
+`trackingServerSecure` トラッキングサーバーを設定します。|| Qualtrics 調査の提出 | レポートスイートから利用可能なイベントを選択します（Report Suite Manager 内で新しいイベントの有効化が必要になる場合があります）。|
 
 1. **ウィザード：手順 3**：何もする必要はありません。情報のみ。
 
@@ -59,6 +63,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 「Adobe Analytics 設定」を選択し、「**[!UICONTROL 保存]**」をクリックします。使用できる設定がない場合は、アドビ統合ウィザードを完了していない可能性があります。
    1. 「**[!UICONTROL 部分的な回答を含む]**」チェックボックスを使用すると、部分的な調査の各画面が完了した後で Adobe Analytics にデータを取り込むことを示すことができます。選択しない場合、完全に完了した調査のデータのみが転送されます。
    1. 「**[!UICONTROL ビーコンとともにタイムスタンプを送信]**」チェックボックスは、タイムスタンプ付きのデータ（共通ではない）を受け取るように設定されたレポートスイートとの統合時にのみ使用してください。
+
    ![](assets/integration_config.png)
 
 ## 統合の確認 {#verifying-the-integration}
