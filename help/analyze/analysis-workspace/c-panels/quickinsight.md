@@ -1,9 +1,9 @@
 ---
 description: クイックインサイトは、新しい Workspace ユーザーを導くツールで、データテーブルやビジュアライゼーションの作成に使用します
 title: クイックインサイトパネル
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 100%
 
