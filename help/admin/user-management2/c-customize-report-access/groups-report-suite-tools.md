@@ -1,6 +1,6 @@
 ---
 description: API アクセス、レポートスイートの管理、ツールとレポートおよびダッシュボードの項目に関するユーザー権限を有効にします。
-keywords: groups;permissions
+keywords: グループ;権限
 subtopic: Users and groups
 title: レポートスイートツールの権限のカスタマイズ
 topic: Admin tools
@@ -8,7 +8,7 @@ uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
 source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1164'
 ht-degree: 93%
 
 ---
@@ -59,17 +59,17 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | [検索方法](/help/admin/admin/finding-methods.md) | 各種の検索方法レポートがサイト上のコンバージョンの成功イベントのクレジットを受け取る方法を特定できます。 |
 | [コンバージョンの分類](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | （ツールとレポートの）分類に統合されました。 |
 | [個別訪問者](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | 個別訪問者変数を指定する権限を付与します。 |
-| [成功イベント](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/success-events/success-event.html) | 製品表示、チェックアウト、購入など、トラッキングできるアクション。 |
+| [成功イベント](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | 製品表示、チェックアウト、購入など、トラッキングできるアクション。 |
 | [分類階層](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | （ツールとレポートの）分類に統合されました。 |
 | [リスト変数](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html) | リスト Var とも呼ばれます。リスト Prop の機能と同様、リスト Var は同じイメージリクエスト内で複数の値を同時にセットできます。 |
 | [デフォルトの指標](/help/admin/admin/default-metrics.md) | ユーザーがカスタム指標のセットを選択しない限り、Reports &amp; Analytics ではすべてのコンバージョンレポートでデフォルトの指標セットが表示されます。選択した指標は、関連付けられたレポートスイートのすべてのユーザーに表示されます。 |
-| [処理ルール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/processing-rules/processing-rules.html) | データ収集をシンプル化し、レポートに送信されるコンテンツを管理する処理ルールへのアクセス権を付与します。 |
+| [処理ルール](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) | データ収集をシンプル化し、レポートに送信されるコンテンツを管理する処理ルールへのアクセス権を付与します。 |
 | **ツールとレポート** |  |
-| [異常値検出](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法である、異常値検出に対する権限を付与します。 |
+| [異常値検出](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ja-JP) | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法である、異常値検出に対する権限を付与します。 |
 | [チャネルレポート](/help/components/c-marketing-channels/analyze-mc.md) | レポート／マーケティングチャネルレポートにあるマーケティングチャネルレポートに対する権限を付与します。 |
 | [リアルタイムレポート](/help/admin/admin/realtime/t-realtime-admin.md) | リアルタイムレポートへのアクセス権を付与します。 |
-| [ボットページ](/help/admin/admin/bot-removal/bot-rules.md) | **注意：ボットページは、ボットルールの管理ではなく、特定のReports &amp; Analyticsレポート用です。 現在、ボットルールの編集を許可する権限はありません。**&#x200B;ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
-| [ボット](/help/admin/admin/bot-removal/bot-rules.md) | **注意：ボットは、ボットルールの管理ではなく、特定のReports &amp; Analyticsレポート用です。 現在、ボットルールの編集を許可する権限はありません。** ボットを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。 ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
+| [ボットページ](/help/admin/admin/bot-removal/bot-rules.md) | **注意：ボットページは、ボットルールの管理ではなく、特定のReports &amp; Analyticsレポート用です。現在、ボットルールの編集を許可する権限はありません。**&#x200B;ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
+| [ボット](/help/admin/admin/bot-removal/bot-rules.md) | **注意：ボットは、ボットルールの管理ではなく、特定のReports &amp; Analyticsレポート用です。現在、ボットルールの編集を許可する権限はありません。** ボットを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
 | [カスタム Data Warehouse レポート](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse は、カスタムレポート用の処理されていない生のデータを取り出す機能です。カスタムレポートはこのデータをフィルタリングして実行します。ユーザー独自の質問に基づいて、生データから詳細なデータの関連性を表示するようレポートにリクエストできます。 |
 | 日別再来訪 | （レガシー）ある特定の日に、Web サイトを 2 回以上訪ねた訪問者の数を表示するレポートです。1 日は直前の 24 時間として定義されます。 |
 | [データソースマネージャー](/help/admin/admin/data-sources.md) | データソース機能を使用すると、オフラインソースから Analytics にデータをインポートできます。 |
@@ -78,7 +78,7 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | レガシー ClickMap のインストール | レガシー ClickMap ツールにインストール権限を付与します。 |
 | 再来訪 | 訪問回数が 2 以上である訪問の数を示すレポート。再来訪レポートには、cookie を使用していない訪問者が含まれます。 |
 | [分類インポーター](https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/classifications-importer/c-working-with-saint.html) / エクスポーターおよび[ルールビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | 分類に統合されました（以下を参照してください）。 |
-| データフィードマネージャー | 権限をAnalytics データフィードに権限を付与します。 |
+| データフィードマネージャー | Grants rights to theAnalytics データフィードに権限を付与します。 |
 | 分類 | 「トラフィック分類」、「ビデオ分類」、「コンバージョンの分類」、「分類階層」、「分類マネージャー」および「分類インポーター／エクスポーターおよびルールビルダー」の権限がまとめられています。注意：この権限を持つユーザーは、選択したレポートスイートだけではなく、すべてのレポートスイートの分類を編集できます。 |
 | [貢献度分析](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Analysis Workspace で貢献度分析を使用する権限を付与します。 |
 | **ダッシュボードの項目** |  |
