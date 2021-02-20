@@ -1,9 +1,9 @@
 ---
 title: 単位
 description: すべての注文内で購入された製品の合計数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
