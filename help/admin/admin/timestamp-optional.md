@@ -3,9 +3,9 @@ description: タイムスタンプのあるデータとないデータの両方�
 title: タイムスタンプオプション
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
    * **タイムスタンプが必要**（s.visitorID の設定はサポートされていない）
    * **タイムスタンプオプション**（s.visitorID の設定はサポートされているが、タイムスタンプ付きのヒットではサポートされない）
 
-## 既存のレポートスイートをタイムスタンプオプションに変更するには{#section_40BCD3B4639241DEA716F7640ED33E72}
+## 既存のレポートスイートをタイムスタンプオプションに変更するには  {#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. **管理者／レポートスイート／設定を編集／一般／タイムスタンプの設定**&#x200B;に移動します。
 1. 「**選択されたレポートスイートをタイムスタンプオプションに変換**」ボックスを選択します。
