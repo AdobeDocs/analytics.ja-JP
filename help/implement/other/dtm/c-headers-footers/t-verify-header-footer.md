@@ -1,13 +1,13 @@
 ---
 description: Dynamic Tag Management ライブラリがサイトに適切に読み込まれることを検証します。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;verify code;verify header code;verify footer code;embed tab;embed
+keywords: Analytics の実装, 実装方法, dynamic tag management, dtm, コード, ページコード, ヘッダーコード, フッターコード, 埋め込みコード, コードの検証, ヘッダーコードの検証, フッターコードの検証, 「埋め込み」タブ, 埋め込み
 title: ヘッダーおよびフッターコードの検証
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
 translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
