@@ -1,9 +1,9 @@
 ---
 title: 午前／午後
 description: ヒットが午前中に発生したか、午後 2 時間に発生したかを判定します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 
