@@ -4,6 +4,9 @@ title: Data Connectors 統合ウィザードの実行
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 100%
 
 ---
 
@@ -59,12 +62,12 @@ Data Connectors 統合ウィザードでは、Data Connectors 統合プロセス
    <td colname="col3"> <p>電子メールメッセージ ID の追跡に使用する Analytics eVar を識別します。 </p> <p>メッセージ ID は、マーケティングキャンペーンやリマーケティングキャンペーンに使用されます。メッセージ ID は「トラッキングコード」とも呼ばれています。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>受信者 ID </p> </td> 
    <td colname="col3"> <p>電子メール受信者 ID の追跡に使用する Analytics eVar を識別します。 </p> <p>受信者 ID は、マーケティングキャンペーンやリマーケティングキャンペーンに使用されます。メッセージ ID は「訪問者コード」とも呼ばれています。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>承認チェックボックス </p> </td> 
    <td colname="col3"> <p>承認チェックボックスの横に表示される情報を確認します。 </p> <p><i>「受信者 ID」の追跡を有効にすることによって、この機能がサイト訪問者の個人識別情報を追跡する可能性があることを理解するものとします。また、サイト訪問者に通知したり、サイト訪問者の同意を得たりするなど、プライバシーに関して適切な手順を踏む必要があることを了承します。</i> </p> <p>承認ステートメントに同意する場合は、チェックボックスを選択し、「<b>次へ</b>」をクリックしてウィザードの手順4に進みます。 </p> </td> 
   </tr> 
