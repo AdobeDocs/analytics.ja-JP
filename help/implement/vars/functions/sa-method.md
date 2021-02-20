@@ -1,8 +1,11 @@
 ---
 title: sa
 description: いつでも実装のレポートスイートを変更できます。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
 
