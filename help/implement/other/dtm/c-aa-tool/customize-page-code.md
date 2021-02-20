@@ -1,13 +1,13 @@
 ---
 description: Analytics のデプロイ時にページコードをカスタマイズするには、Dynamic Tag Management のフィールドの説明を使用します。
-keywords: Dynamic Tag Management;customize page code;open editor;execute
+keywords: Dynamic Tag Management, ページコードのカスタマイズ, エディターの起動, 実行
 solution: Experience Cloud,Analytics,Target
 title: ページコードのカスタマイズ
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '110'
 ht-degree: 100%
 
 ---
