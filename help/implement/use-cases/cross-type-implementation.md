@@ -1,9 +1,9 @@
 ---
 title: 異なる実装タイプでのトラッキング
 description: 異なる実装タイプを使用し、訪問者をシームレスに追跡します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
 
