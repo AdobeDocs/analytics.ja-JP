@@ -1,13 +1,13 @@
 ---
 description: 仮想レポートスイートの作成を始める前に、以下に注意してください。
-keywords: Virtual Report Suite
+keywords: 仮想レポートスイート
 title: 仮想レポートスイートの作成
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '360'
+workflow-type: tm+mt
+source-wordcount: '363'
 ht-degree: 100%
 
 ---
