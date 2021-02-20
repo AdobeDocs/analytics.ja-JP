@@ -1,9 +1,9 @@
 ---
 title: バウンス
 description: ヒットが 1 つだけある訪問の数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
