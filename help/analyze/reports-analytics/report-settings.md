@@ -3,9 +3,9 @@ description: すべてのレポートの表示方法と、デフォルトのメ�
 title: レポートの表示設定とナビゲーション
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 100%
 
