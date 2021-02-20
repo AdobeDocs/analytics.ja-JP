@@ -52,7 +52,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
    ![](assets/workbooks-power-bi.png)
 
-1. これで、ワークブックのダッシュボードデータを表示できるようになります。        ![](assets/view-data-pbi.png)
+1. これで、ワークブックのダッシュボードデータを表示できるようになります。           ![](assets/view-data-pbi.png)
 
 1. このワークブックの領域をピン留めして任意の Power BI ダッシュボードに追加することができます。
 
