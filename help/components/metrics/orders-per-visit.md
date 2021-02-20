@@ -1,9 +1,9 @@
 ---
 title: 訪問あたりの購入回数
 description: 訪問回数に対する注文件数の割合。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 100%
 
