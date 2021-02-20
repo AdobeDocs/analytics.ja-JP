@@ -1,24 +1,24 @@
 ---
 title: フリーフォームテーブル
-description: フリーフォームテーブルは、Workspaceのデータ分析の基盤です
+description: フリーフォームテーブルは、Workspace のデータ分析の基盤となっています。
 translation-type: tm+mt
 source-git-commit: c53af8e7658b838bff53f02abc6ea6f7b570a34b
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
 # フリーフォームテーブル
 
-Analysis Workspaceでは、フリーフォームテーブルはインタラクティブなデータ分析の基盤となっています。 You can drag and drop a combination of [components](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) into rows and columns to create a custom table for your analysis. 各コンポーネントが削除されると、テーブルは直ちに更新されるので、分析や掘り下げを迅速に行うことができます。
+Analysis Workspaceでは、フリーフォームテーブルはインタラクティブなデータ分析の基盤となっています。[コンポーネント](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html)の組み合わせを行と列にドラッグ＆ドロップして、分析用のカスタムテーブルを作成できます。各コンポーネントが削除されると、テーブルは直ちに更新されるので、分析や掘り下げを迅速におこなうことができます。
 
 ![](assets/opening-section.png)
 
 ## 自動化されたテーブル
 
-テーブルを最もすばやく作成するには、空のプロジェクト、パネルまたはフリーフォームテーブルにコンポーネントを直接ドロップします。 推奨の形式で自動的にフリーフォームテーブルが作成されます。 [チュートリアルを見る](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html)。
+テーブルを最もすばやく作成するには、空のプロジェクト、パネル、またはフリーフォームテーブルにコンポーネントを直接ドロップします。推奨される形式のフリーフォームテーブルが自動的に作成されます。[こちら](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=ja-JP)から、チュートリアルをご覧ください。
 
 ![](assets/automated-table.png)
 
@@ -34,23 +34,23 @@ Analysis Workspaceでは、フリーフォームテーブルはインタラク�
 
 * **行**
    * プロジェクトの[表示密度](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html)を調整すると、1 つの画面に表示する行を増やすことができます。
-   * 各ディメンション行は、ページネーションの前に最大 400 行を表示できます。「行」の横の数字をクリックして、ページにさらに行を表示します。 ヘッダーのページ矢印を使用して、別のページに移動します。
+   * 各ディメンション行は、ページネーションの前に最大 400 行を表示できます。「行」の横の数字をクリックすると、ページに行が表示されます。ヘッダーのページ矢印を使用して、別のページに移動します。
    * 行は、追加のコンポーネントで分類できます。複数の行を一度に分類するには、複数の行を選択し、次のコンポーネントを選択した行の上にドラッグします。[分類](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html)について説明します。
-   * 行を[フィルタリング](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ja-JP)して、表示する項目数を減らすここができます。[行設定](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html)で追加の設定を使用できます。
+   * 行を[フィルタリング](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)して、表示する項目数を減らすここができます。[行設定](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html)で追加の設定を使用できます。
 
 * **列**
    * 列内にコンポーネントを積み重ねて、セグメント化された指標やクロスタブ分析などを作成できます。
    * 各列の表示は、[列設定](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)で調整できます。
-   * [右クリックメニュー](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html)からは、いくつかの操作を実行できます。テーブルのヘッダー、行または列をクリックしたかどうかに応じて、このメニューに表示されるアクションが変わります。
+   * [右クリックメニュー](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html)からは、いくつかの操作を実行できます。テーブルのヘッダー、行または列をクリックしたかどうかに応じて、このメニューに表示されるアクションが変わります。
 
 ## フリーフォームテーブルデータの書き出し
 
-Analysis Workspaceのすべてのデータ [書き出しオプション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) 。
+Analysis Workspace のすべてのデータエクスポートオプションについては、[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja-JP)から確認できます。
 
-* 右クリックし、「データをクリップボードに **[!UICONTROL コピー]** 」をクリックして、表示されたデータを書き出します。 テーブルを選択した場合、このオプションは「選択範囲をクリップボードに **[!UICONTROL コピー]**」と表示します。 また、 **Ctrl + Cホットキーを押すと** 、選択したデータがコピーされます。
-* 右クリック/データをCSVとして **[!UICONTROL ダウンロード]** (Download data as CSV)を選択すると、表示されたデータがCSVとしてダウンロードされます。 テーブルを選択した場合、このオプションでは「選択範囲をCSVとして **[!UICONTROL ダウンロード]**」と表示されます。
-* 右クリック/ **[!UICONTROL プロジェクト/項目をCSVとしてダウンロード]** ：選択したディメンションに対して最大50,000個のディメンション項目がエクスポートされます。
+* 右クリック >「**[!UICONTROL データソースをクリップボードにコピー]**」：表示されているテーブルデータを書き出します。テーブルを選択すると、このオプションが「**[!UICONTROL 選択範囲をクリップボードにコピー]**」に変わります。ホットキー **Ctrl+C** を使用して、選択したデータをコピーすることもできます。
+* 右クリック >「**[!UICONTROL データを CSV 形式でダウンロード]**」：表示されているテーブルデータが CSV 形式でダウンロードされます。テーブルを選択すると、このオプションが「**[!UICONTROL 選択内容を CSV 形式でダウンロード]**」に変わります。
+* 右クリック >**[!UICONTROL 「プロジェクト」>「項目を CSV 形式でダウンロード」]**：選択したディメンションの最大 50,000 個のディメンション項目がエクスポートされます。
 
-Analysis Workspaceのすべてのデータ [書き出しオプション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) 。
+Analysis Workspace のすべてのデータエクスポートオプションついては、[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)から確認できます。
 
 ![](assets/export-options.png)
