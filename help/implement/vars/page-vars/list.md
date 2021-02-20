@@ -1,16 +1,16 @@
 ---
 title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
 ---
 
 
-# list
+# リスト
 
 リスト変数は、好きなだけ使用できるカスタム変数です。eVar と同様に機能しますが、同じヒットに複数の値を含めることができます。リスト変数には文字制限はありません。
 
