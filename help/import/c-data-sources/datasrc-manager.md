@@ -4,9 +4,9 @@ subtopic: Data sources
 title: データソースマネージャー
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
@@ -77,6 +77,6 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 「ファイルログ」タブ{#section_B7AC7EE8CAD740A59DD53CF1919373F0}
+## 「ファイルログ」タブ  {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
 ファイルログには検索機能があり、データソース名、データソースタイプ、ファイル名、受信日、ステータスによって情報を検索できます。
