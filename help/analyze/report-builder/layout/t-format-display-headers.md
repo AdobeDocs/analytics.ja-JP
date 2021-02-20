@@ -5,6 +5,9 @@ topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 レポートに名前を付けたり、行ヘッダーと列ヘッダーの表示方法を設定したりすることができます。ピボットレイアウトとカスタムレイアウトで、「フォーマットオプション」のリンクから指定できます。
 
-1. でリクエストを作成しま [!UICONTROL Request Wizard: Step 1]す。
-1. クリック **[!UICONTROL Next]**.
-1. On the [!UICONTROL Request Wizard: Step 2] form, add dimensions and metrics data to the request, as desired.
-1. クリック **[!UICONTROL Format Options]**.
-1. Configure the [!UICONTROL Display] options:
+1. [!UICONTROL リクエストウィザード：ステップ 1] でリクエストを作成します。
+1. 「**[!UICONTROL 次へ]**」をクリックします。
+1. [!UICONTROL リクエストウィザード：ステップ 2] のフォームで、必要に応じて、リクエストにディメンションおよび指標データを追加します。
+1. 「**[!UICONTROL フォーマットオプション]**」をクリックします。
+1. [!UICONTROL 表示]オプションを設定します。
 
    | 要素 | 説明 |
    |--- |--- |
@@ -26,7 +29,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    | セグメント | セグメントパラメーターを表示します。 |
    | データ最新性 | 直近いつまでのデータが含まれているかを表示します。例：データ最新性：ページビュー数（1.5時間前）、出口数（30分前）。現在のデータ処理について詳しくは、[オプション](/help/analyze/report-builder/options.md)を参照してください。 |
 
-   Regarding display order, if the [!UICONTROL Row Label] grid (on Step 2) contains an item, it is displayed first in the request. If not, the system uses the first item present in the [!UICONTROL Column Label] grid. If no row or column items exist, the first item in the [!UICONTROL Metrics] grid is displayed.
+   表示順については、ステップ 2 の[!UICONTROL 行ラベル]グリッドに項目が含まれる場合は、リクエストの最初の項目が表示されます。項目がない場合は、[!UICONTROL 列ラベル]グリッドの最初の項目が使用されます。行にも列にも項目がない場合は、[!UICONTROL 指標]グリッドにある最初の項目が表示されます。
 
    **行と列のヘッダーを表示：**&#x200B;項目を表示する行と列を追加します。
 
@@ -40,6 +43,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    **自動アウトラインを実行：** Report Builder から返される日付をリストビューからツリービューに変換します。
 
-   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。この名前は、に名前と [!UICONTROL Report] して表示されま [!UICONTROL Request Manager]す。 See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md).
+   **このリクエストに名前を作成：**&#x200B;リクエストに対してユーザー指定の名前を入力できます。または、ステップ 1 で選択されたデフォルトの名前が使用されます。この名前は、[!UICONTROL リクエストマネージャー]で[!UICONTROL レポート]名として表示されます。 [リクエストの名前の設定](/help/analyze/report-builder/layout/name-a-request.md)を参照してください。
 
-1. クリック **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
