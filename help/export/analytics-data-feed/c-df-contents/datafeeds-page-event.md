@@ -1,14 +1,14 @@
 ---
 description: page_event の値に基づいてヒットタイプを判別する参照テーブル。
-keywords: Data Feed;page;event;page_event;post_page_event
+keywords: データフィード；ページ；イベント；ページイベント;post_page_イベント
 title: ページイベント参照
 topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 95%
 
 ---
 
