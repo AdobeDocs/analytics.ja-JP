@@ -4,9 +4,9 @@ subtopic: Classifications
 title: 分類インポーター - 概要
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 
