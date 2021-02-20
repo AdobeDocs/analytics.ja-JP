@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 100%
 
 ---
 
