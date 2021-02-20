@@ -82,7 +82,7 @@ Report Builder の「リクエストの管理」におけるフィールドの�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 更新 </p> </td> 
-   <td colname="col2"> <p>選択した 1 つまたは複数のリクエストを更新します(<a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >リクエストの更新</a>を参照してください。） </p> </td> 
+   <td colname="col2"> <p>選択した 1 つまたは複数のリクエストを更新します（<a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >リクエストの更新</a>を参照してください。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>リストを更新 </p> </td> 
