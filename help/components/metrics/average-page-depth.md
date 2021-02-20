@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. この指標を単独で使用する場合、異常値ページの深さを含むディメンション項目が取得されます。これは通常、有用ではありません。
+>この指標を別の指標（[訪問回数](visits.md)など）と同時に使用して、より良いインサイトを取得します。 この指標を単独で使用する場合、異常値ページの深さを含むディメンション項目が取得されます。これは通常、有用ではありません。
 
 ## この指標の計算方法
 
