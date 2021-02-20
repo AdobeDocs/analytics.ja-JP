@@ -2,9 +2,9 @@
 description: この Workspace ビジュアライゼーションは折れ線グラフに似ていますが、線の下に色付きの領域があります。
 title: 面グラフおよび積み重ね面グラフ
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1835f9063809cc780350b04dd018eb8cb6800152
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## 面グラフ {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
 
-このビジュアライゼーションは折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の交差により表現される領域を視覚化する場合は、面グラフを使用します。
+この ビジュアライゼーションは折れ線グラフに似ていますが、線の下に色付きの領域があります。指標が複数あり、2 個以上の指標の交差により表現される領域を視覚化する場合は、面グラフを使用します。
 
 ![](assets/area.png)
 
