@@ -4,6 +4,9 @@ title: 注文支援指標
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
