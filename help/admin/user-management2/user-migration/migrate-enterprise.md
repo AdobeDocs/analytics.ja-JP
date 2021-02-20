@@ -128,7 +128,7 @@ Admin Console でユーザーを管理するための前提条件。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ドメイン </p> </td> 
-   <td colname="col2"> <p>ドメインが「<span class="term">ドメイン</span>」列と「<span class="term">電子メール</span>」列は、前提条件</a>で確立されたドメインと一致します。 </p> </td> 
+   <td colname="col2"> <p>Ensure that domains in「<span class="term">ドメイン</span>」列と「<span class="term">電子メール</span>」列は、前提条件</a>で確立されたドメインと一致します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国コード </p> </td> 
@@ -137,7 +137,7 @@ Admin Console でユーザーを管理するための前提条件。
  </tbody> 
 </table>
 
-[!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
+[!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/enterprise/using/users.html)を参照してください。
 
 >[!NOTE]
 >
