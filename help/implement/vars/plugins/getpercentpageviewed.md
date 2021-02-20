@@ -1,9 +1,9 @@
 ---
 title: getPercentPageViewed
 description: 訪問者が閲覧したページの割合を取得します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 100%
 
