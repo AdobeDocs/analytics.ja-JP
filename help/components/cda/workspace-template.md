@@ -1,9 +1,9 @@
 ---
 title: CDA Workspace テンプレート
 description: Analysis Workspace 内の CDA テンプレートの各フィールドについて説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%
 
