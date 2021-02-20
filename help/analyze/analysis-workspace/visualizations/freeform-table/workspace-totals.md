@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 97%
 
 ![](assets/total-row.png)
 
-## 合計設定を表示 {#display-total}
+## 合計設定を表示  {#display-total}
 
 「**[!UICONTROL 列設定]**」の下に、「**[!UICONTROL 合計を表示]**」と「**[!UICONTROL 総計を表示]**」のオプションがあります。これらの設定がオフの場合、合計はテーブルから削除されます。これは、特定の[計算指標のシナリオ](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)などで合計が意味をなさない場合に必要です。
 
 ![](assets/column-settings-total.png)
 
-## 静的な行の合計の設定 {#static-row-total}
+## 静的な行の合計の設定  {#static-row-total}
 
-[静的な行](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html)の合計は、動作が異なり、「**[!UICONTROL 行設定]**」で制御されます。
+[静的な行](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=ja-JP)の合計は、動作が異なり、「**[!UICONTROL 行設定]**」で制御されます。
 
 * **[!UICONTROL 現在の行の合計として表示]** - テーブル内の行のクライアント側の合計を表示します。これは、合計で訪問回数や訪問者数などの指標の重複が排除&#x200B;**されない**&#x200B;ことを意味します。
 * **[!UICONTROL 総計を表示]** - サーバー側の合計を表示します。つまり、合計で訪問回数や訪問者数などの指標の重複が排除されます。
