@@ -14,19 +14,19 @@ ht-degree: 75%
 
 Google Analytics などのサードパーティプラットフォームでは、複数のカスタマイズオプションを使用できます。これらのオプションにより、ダッシュボード、カスタムレポート、保存されたレポート、カスタムアラートを作成できます。Analysis Workspace では空白のキャンバスからレポートを作成できるので、カスタマイズオプションの多くはツールに直接組み込まれます。
 
-This page assumes the user has a basic knowledge of using [!UICONTROL Analysis Workspace]. Adobe Analytics のツールを初めて使用する場合は、[Google Analytics ユーザー向け：Analysis Workspace での基本レポートの作成方法](reports/create-report.md)を参照してください。
+このページでは、ユーザーが[!UICONTROL Analysis Workspace]の使用に関する基本的な知識を持っていることを前提としています。 Adobe Analytics のツールを初めて使用する場合は、[Google Analytics ユーザー向け：Analysis Workspace での基本レポートの作成方法](reports/create-report.md)を参照してください。
 
 ## ダッシュボード
 
-[!UICONTROL 分析ワークスペース] ・アーキテクチャは、ダッシュボード・ウィジェットの概念と似た構造を持っています。 [!UICONTROL 分析ワークスペース内のプロジェクト] は、Google Analyticsのダッシュボードとほぼ同じです。 [!UICONTROL 分析ワークスペースのビジュアライゼーション] は、Google Analyticsのウィジェットとほぼ同じです。
+[!UICONTROL Analysis Workspace]アーキテクチャは、ダッシュボードウィジェットの概念と似たように構築されています。 [!UICONTROL Analysis Workspace]のプロジェクトは、Google Analyticsのダッシュボードとほぼ同じです。 [!UICONTROL Analysis Workspace]のビジュアライゼーションは、Google Analyticsのウィジェットとほぼ同じです。
 
 ### プロジェクトへのコンテンツの追加
 
-1. Click the [!UICONTROL Visualizations] icon on the left and drag the desired visualization onto the workspace.
-2. Click the [!UICONTROL Components] icon on the left and drag the desired dimensions and metrics onto the visualization to populate it with data.
+1. 左側の[!UICONTROL ビジュアライゼーション]アイコンをクリックし、目的のビジュアライゼーションをワークスペースにドラッグします。
+2. 左側の[!UICONTROL コンポーネント]アイコンをクリックし、目的のディメンションと指標をビジュアライゼーションにドラッグして、データを入力します。
 3. ビジュアライゼーションの端をドラッグしてサイズを変更し、ビジュアライゼーションのタイトルをドラッグして移動します。
 
-All Google Analytics widgets are available in [!UICONTROL Analysis Workspace]:
+すべてのGoogle Analyticsウィジェットは[!UICONTROL Analysis Workspace]で利用できます。
 
 * **指標ウィジェット**&#x200B;は、数の概要ビジュアライゼーションとほぼ同じ役割を果たします。
 * **タイムラインウィジェット**&#x200B;は、線ビジュアライゼーションとほぼ同じ役割を果たします。
@@ -41,12 +41,12 @@ All Google Analytics widgets are available in [!UICONTROL Analysis Workspace]:
 
 プロジェクトへのコンテンツの追加が完了すると、プロジェクトを共有できます。
 
-* To share the project with your colleagues, go to **[!UICONTROL Share > Share Project]**. 受信者は、組織内で Adobe Analytics アカウントを持つその他のユーザーです。
-* To share your project via a link, go to **[!UICONTROL Share > Get Project Link]**. この場合も、組織内の Adobe Analytics アカウントにログインする必要があります。
+* 同僚とプロジェクトを共有するには、**[!UICONTROL 共有/プロジェクトを共有]**&#x200B;に移動します。 受信者は、組織内で Adobe Analytics アカウントを持つその他のユーザーです。
+* リンクを介してプロジェクトを共有するには、**[!UICONTROL 共有/プロジェクトリンクを取得]**&#x200B;に移動します。 この場合も、組織内の Adobe Analytics アカウントにログインする必要があります。
 
 ### プロジェクトのエクスポート
 
-In addition to PDF, [!UICONTROL Analysis Workspace] offers a CSV export.
+[!UICONTROL Analysis Workspace]は、PDFに加えてCSVエクスポートをオファーします。
 
 1. *[!UICONTROL 共有]*／*[!UICONTROL ファイルを今すぐ送信]*&#x200B;をクリックし、モーダルウィンドウを開きます。
 2. ファイルタイプと受信者を指定します。
@@ -62,7 +62,7 @@ Google Analytics でカスタムレポートを作成するときに必要なフ
 
 計算指標を作成するには：
 
-1. Click the **+** icon near the metric list to open the [!UICONTROL Calculated Metric Builder].
+1. 指標リストの近くにある&#x200B;**+**&#x200B;アイコンをクリックして、[!UICONTROL 計算指標ビルダー]を開きます。
 2. 計算指標に名前を付け、形式を指定します。
 3. 指標コンポーネントを定義領域にドラッグし、各コンポーネント間のドロップダウンを使用して演算子を指定します。
 4. 計算指標に適切な数式を追加したら、「保存」をクリックしてワークスペースに戻ります。
