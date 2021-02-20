@@ -3,9 +3,9 @@ description: セグメントマネージャでは、アプリケーションの�
 title: セグメントの承認
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 
