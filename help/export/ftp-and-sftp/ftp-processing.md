@@ -5,6 +5,9 @@ title: FTP 処理時間
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 98%
 
 ---
 
