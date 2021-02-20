@@ -1,9 +1,9 @@
 ---
 title: 変数のオーバーライド
 description: 変数のオーバーライドを使用して、一度のみのトラッキングまたはリンクトラッキングのための変数値をセットできます。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
