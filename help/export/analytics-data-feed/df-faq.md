@@ -1,12 +1,12 @@
 ---
 description: データフィードに関するよくある質問（FAQ）
-keywords: Data Feed;job;pre column;post column;case sensitivity
+keywords: データフィード；ジョブ；pre列；post列；大文字と小文字の区別
 title: データフィードに関する FAQ
 translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+source-wordcount: '327'
+ht-degree: 75%
 
 ---
 
@@ -31,8 +31,8 @@ Adobe Analytics では、ほとんどの変数は、レポートの目的で、�
 
 データフィードには、[Admin Console ボットルール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/bot-removal/bot-removal.html)でフィルタリングされたボットは含まれません。
 
-## またはデータフィード列に複数の `000` 値が表示されるのはなぜで `event_list``post_event_list` すか。
+## `event_list`または`post_event_list`データフィード列に複数の`000`値が表示されるのはなぜですか。
 
-一部のスプレッドシートエディタ（特にMicrosoft Excelなど）では、非常に大きな数値が自動的に丸められます。 この `event_list` 列には、カンマで区切られた多数の数字が含まれているので、Excelで大きな数字として処理されることがあります。 最後の数桁をに丸め `000`ます。
+一部のスプレッドシートエディタ（特にMicrosoft Excelなど）では、非常に大きな数値が自動的に丸められます。 `event_list`列には、カンマで区切られた多数の数字が含まれているので、Excelで大きな数字として処理されることがあります。 最後の数桁を`000`に丸めます。
 
-Adobeでは、Microsoft Excelで `hit_data.tsv` ファイルを自動的に開かないことをお勧めします。 代わりに、Excelの[データのインポート]ダイアログボックスを使用し、すべてのフィールドがテキストとして扱われていることを確認してください。
+Adobeでは、Microsoft Excelで`hit_data.tsv`ファイルを自動的に開かないことをお勧めします。 代わりに、Excelの[データのインポート]ダイアログボックスを使用し、すべてのフィールドがテキストとして扱われていることを確認してください。
