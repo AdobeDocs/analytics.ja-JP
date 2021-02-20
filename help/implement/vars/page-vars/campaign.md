@@ -1,9 +1,9 @@
 ---
 title: キャンペーン
 description: 「トラッキングコード」ディメンションを設定します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
