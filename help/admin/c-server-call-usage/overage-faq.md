@@ -2,9 +2,9 @@
 description: Adobe Analytics サーバーコールの使用に関する FAQ
 title: サーバーコールの使用状況の FAQ
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 100%
 
