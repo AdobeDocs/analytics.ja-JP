@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
 source-git-commit: fa1b0b7fb24d0cd2c205fbbb6a1e526f243531f8
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 29%
 
 ---
 
@@ -17,23 +20,23 @@ source-git-commit: fa1b0b7fb24d0cd2c205fbbb6a1e526f243531f8
 
 **カスタム式を有効にするには**
 
-これは、を使用した例で **[!UICONTROL Rolling Dates]**&#x200B;す。
+**[!UICONTROL 相対日付]**&#x200B;の使用例です。
 
-1. で、を使用 [!UICONTROL Request Wizard: Step 1]する代わりに、を **[!UICONTROL Preset Dates]**&#x200B;選択しま **[!UICONTROL Rolling Dates]**&#x200B;す。
+1. [!UICONTROL リクエストウィザード：手順1]で、「**[!UICONTROL 事前設定日]**」を使用する代わりに、「**[!UICONTROL 相対日付]**」を選択します。
 
    ![](assets/rolldates1.png)
 
-1. 周期的な週、月、四半期、年に切り替えます。 次のオプションがどのように変更されるかを確認します。
-1. その他のカスタマイズオプションを表示するには、をクリックし **[!UICONTROL Show Advanced Options]**&#x200B;ます。
+1. 周期的な週別、月別、四半期別、年別に切り替えます。 以下のオプションが変化することに注意してください。
+1. その他のカスタマイズオプションを表示するには、[**[!UICONTROL アドバンスオプションを表示]**]をクリックします。
 
    ![](assets/rolldates2.png)
 
-1. 例えば、上記の日付を3か月前の最初の日から今月の最初の日まで月周期に変更すると、前のオプション部分の日付自体が更新され、次のように反映されます。
+1. 例えば、上の日付を3か月前の最初の日から今月の初日までの月周期に変更すると、前のオプション部分の日付自体が更新され、次のように反映されます。
 
    ![](assets/rolldatesfor3.png)
 
-1. 有効にする **[!UICONTROL Customize Expression]**. のオプションを選択す **[!UICONTROL Rolling Dates]**&#x200B;ると、カスタムの日付オプションの構文を簡単に確認できます。式
+1. **[!UICONTROL 式のカスタマイズ]**&#x200B;を有効にします。 「**[!UICONTROL 相対日付]**」でオプションを選択すると、カスタムの日付式の構文を簡単に確認できます。
 
    ![](assets/rolldatesfor5.png)
 
-   「アドバンスオプション」を使用して、カスタムの日付オプションを組み合わせることができます。式 例えば、年の初めから最後の月の終わりまでのデータを表示する場合は、次のように入力します。 `From: cy``To: cm-1d`. ウィザードでは、これらの日付は2020年1月1日 — 1/31/2020と表示されます。
+   「アドバンスオプション」を使用して、カスタムの日付式を組み合わせて一致させることができます。 例えば、年初から月末までのデータを表示したい場合は、次のように入力できます。`From: cy` `To: cm-1d`。 ウィザードでは、これらの日付は2020年1月1日 —1/31/2020と表示されます。
