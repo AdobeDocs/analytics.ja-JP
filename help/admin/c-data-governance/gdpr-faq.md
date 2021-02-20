@@ -2,9 +2,9 @@
 description: Adobe Analytics のデータガバナンスに関する FAQ
 title: よくある質問
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 100%
 
