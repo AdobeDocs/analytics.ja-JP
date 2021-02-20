@@ -3,9 +3,9 @@ description: このセクションは Adobe Analytics 管理者を対象とし�
 title: リンクトラッキング手法
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 100%
 
@@ -33,9 +33,9 @@ HTML に s_objectid が含まれている場合、プライマリ ID はデフ�
 * Alttext
 * タイトル
 * Src
-* アクション
+* Action
 
-## InnerText の使用とリンクアクション（URL）の使用{#section_70C3573E22274522A8CC035BF18EC468}
+## InnerText の使用とリンクアクション（URL）の使用  {#section_70C3573E22274522A8CC035BF18EC468}
 
 リンクアクションは、リンクをクリックしたときに Web ページで実行されるアクションです。通常は、リンクをクリック後の訪問先の URL です。リンクアクションを使用すると、以下のような問題が発生する場合があります。
 
