@@ -16,7 +16,7 @@ ht-degree: 100%
 
 フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 
-## シンプルフィルター {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## シンプルフィルター  {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
@@ -52,7 +52,7 @@ help:Internal Search Term
 >
 >フィルターではスペースを使用できません。スペースは検索時に区切り文字と見なされます。
 
-**次を含まない**
+**含まない**
 
 指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/unspecified.html)をレポートから除外できます。
 
@@ -84,11 +84,11 @@ Mens:Desk & TravelJewelry & Accessories:Accessories:Hats:Mens
 Sale & Values
 ```
 
-**次に等しい**
+**次と等しい**
 
 行項目全体（スペースとその他の文字を含む）が指定のフレーズと等しい場合に一致します。
 
-次に等しい：`mens:desk & travel`
+次と等しい: `mens:desk & travel`
 
 `Mens:Desk & Travel`
 
