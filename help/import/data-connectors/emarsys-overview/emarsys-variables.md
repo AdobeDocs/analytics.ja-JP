@@ -4,6 +4,9 @@ title: Analytics 変数
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ emarsys 統合で使用するイベントと eVar を特定したら、[Admin Co
   <tr> 
    <th colname="col1" class="entry"> 変数の種類 </th> 
    <th colname="col2" class="entry"> 名前 </th> 
-   <th colname="col3" class="entry"> セット方法 </th> 
+   <th colname="col3" class="entry"> 母集団メソッド </th> 
    <th colname="col4" class="entry"> 説明 </th> 
   </tr>
  </thead>
