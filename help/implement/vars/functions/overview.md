@@ -1,9 +1,9 @@
 ---
 title: 関数とメソッド
 description: アドビが提供する関数とメソッドを実装で使用する方法について説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 
