@@ -6,23 +6,23 @@ translation-type: tm+mt
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # テーブルのページネーション、フィルタリングおよび並べ替え
 
-概要については、次のビデオチュートリアルを参照してください。
+概要については、このビデオチュートリアルをご覧ください。
 
-[Analysis Workspace のテーブルのページネーション、フィルタリングおよび並べ替え](https://docs.adobe.com/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
+[Analysis Workspace のテーブルのページネーション、フィルタリングおよび並べ替え](https://docs.adobe.com/help/ja-JP/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## アドバンスフィルターオプション {#section_36E92E31442B4EBCB052073590C1F025}
 
 フリーフォームテーブルのディメンションの隣にあるフィルターアイコンをクリックし、「アドバンスを表示」をクリックすると、次の条件を使用してフィルタリングできます。
 
 * 次を含む
-* doesNotContain
+* 含まない
 * すべての語句を含む
 * いずれかの語句を含む
 * フレーズを含む
