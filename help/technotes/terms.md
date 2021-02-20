@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 100%
 
