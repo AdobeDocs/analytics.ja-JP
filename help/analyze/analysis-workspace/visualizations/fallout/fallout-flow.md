@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 * 一般的でより広範囲なトラフィックフロー。ホームページを閲覧した訪問者のうち、検索を実行した訪問者の人数、その後特定の品目を閲覧した訪問者の人数などを表示できます。
 * サイト上のイベント間の関連性。例えばプライバシーポリシーを閲覧した訪問者のうち製品の購入に到達した人の割合を示します。
 
-[フォールアウトの視覚化のビデオチュートリアル](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[フォールアウトの視覚化のビデオチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=ja-JP) (4:15)
 
 ## フローとフォールアウトの基礎としてのセグメント化 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
