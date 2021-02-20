@@ -35,7 +35,7 @@ channel は任意の文字列値またはデータ要素に設定できます。
 s.channel = "Example site section";
 ```
 
-デー `digitalData` タレイヤーを使用する場合 [](../../prepare/data-layer.md):
+`digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合：
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;
