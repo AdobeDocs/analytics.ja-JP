@@ -3,6 +3,9 @@ title: データフィードジョブの管理
 description: データフィードで個々のジョブを管理する方法について説明します。
 translation-type: tm+mt
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 1. [experiencecloud.adobe.com ](https://experiencecloud.adobe.com)にログインします。
 2. 右上の 9 グリッドメニューをクリックし、「[!UICONTROL Analytics]」をクリックします。
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. 上部のメニューで、[!UICONTROL 管理者]／[!UICONTROL データフィード]をクリックします。
 4. 上部近くにある「ジョブ」タブをクリックします。
 
 ![データフィードメニュー](assets/AdminMenu.png)
