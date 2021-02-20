@@ -5,6 +5,9 @@ topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ターゲットでは、Web サイトのパフォーマンスを測定し、目標に対する達成度をトラッキングできます。例えば、ある地理的な地域からの訪問者数、注文ごとの売上高、または特定のリファラーからのヒット数などを向上することを目標にしているとします。
 
-## ターゲット {#concept_6516E81923E845198B7FC5D8F81DC35C}
+## ターゲット  {#concept_6516E81923E845198B7FC5D8F81DC35C}
 
 ターゲットでは、Web サイトのパフォーマンスを測定し、目標に対する達成度をトラッキングできます。例えば、ある地理的な地域からの訪問者数、注文ごとの売上高、または特定のリファラーからのヒット数などを向上することを目標にしているとします。
 
@@ -21,11 +24,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 例えば、Web サイトへの個別訪問者数を測定し、ターゲットとして使用するとします。この場合、Web サイト全体を選択する必要があります。一方、シカゴから Web サイトに来訪した個別訪問者数をターゲットにする場合は、Web サイト全体ではなく、該当する eVar のみを指定します。
 
-## ターゲットフィールドの説明 {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## ターゲットフィールドの説明  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ターゲット]**
 
-ページ上のフィールドとオプションの説明 [!UICONTROL Add/Edit Target] です。
+[!UICONTROL ターゲットの追加/編集]ページのフィールドとオプションについて説明します。
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -36,7 +39,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> ターゲット名 </td> 
+   <td colname="col1"> Target 名前 </td> 
    <td colname="col2"><span class="wintitle">ターゲットマネージャー</span>ページに表示するターゲット名を指定します。 </td> 
   </tr> 
   <tr> 
@@ -56,7 +59,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p>ターゲットの<span class="uicontrol">日付範囲</span>設定および<span class="uicontrol">精度</span>設定を定義できます。指定した期間によっては、一部の精度オプションを使用できない場合があります。指標の値を入力する場合は、それぞれの精度の設定に対する値を入力してください。例えば、期間を「2 月」、精度を「週」に設定した場合、2 月の各週ごとの値を入力します。ターゲットレポートは、それぞれの精度の設定ごとに表示されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 値 </td> 
+   <td colname="col1"> values </td> 
    <td colname="col2"> <p>期間および選択した指標に対するターゲット値を指定できます。この値は、達成しようとしているターゲット値です。例えば、売上高に基づいたターゲットで、ある月の売上高目標を $10,000 としている場合は、その月の値フィールドに「10000」と入力します。 </p> </td> 
   </tr> 
  </tbody> 
@@ -72,14 +75,14 @@ t_add_a_target.xml
 
  -->
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. ページ上で、 [!UICONTROL Target Manager] をクリックしま **[!UICONTROL Add New]**&#x200B;す。
+1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ターゲット]**&#x200B;をクリックします。
+1. [!UICONTROL ターゲットマネージャー]ページで、「**[!UICONTROL 新規追加]**」をクリックします。
 1. [ターゲットフィールドの説明](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
-1. クリック **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
 ## ターゲットの編集 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL ターゲット]**&#x200B;をクリックします。
+1.  「**[!UICONTROL 管理]**」列で、「**[!UICONTROL 編集]**」アイコンをクリックします。
 1. [ターゲットフィールドの説明](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
-1. クリック **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
