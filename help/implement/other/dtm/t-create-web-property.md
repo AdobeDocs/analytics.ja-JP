@@ -1,13 +1,13 @@
 ---
 description: Web プロパティは、1 つ以上のドメインおよびサブドメインの集合と複数のルールで構成され、1 つの埋め込みコードに組み込まれます。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
+keywords: Analytics の実装, 実装方法, dynamic tag management, dtm, web プロパティ, プロパティ
 title: Web プロパティの作成
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '466'
+workflow-type: tm+mt
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
