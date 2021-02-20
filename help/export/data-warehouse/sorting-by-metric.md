@@ -2,9 +2,9 @@
 description: 指標値を降順で並べ替えた、Data Warehouse のランク分類レポートを提供します。
 title: 指標で並べ替え
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -36,6 +36,6 @@ ht-degree: 100%
 | ○ | ○ | × | ○／× | × | 1 |
 | ○ | ○ | ○ | × | × | 2 |
 | ○ | ○ | × | ○ | ○ | 3 |
-| ○ | ○ | ○ | ○／× | ○ | 3 |
+| ○ | ○ | ○ | ○／× | ○ | 1 |
 | ○ | ○ | ○ | ○ | × | 4 |
 
