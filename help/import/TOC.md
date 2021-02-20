@@ -128,5 +128,5 @@ ht-degree: 98%
       + [Analytics 統合変数](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop 統合](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics プラグインコード](data-connectors/silverpop-overview/silverpop-analytics-code.md)
-+ インポートの使用例 {#use-cases}
++ 使用例のインポート{#use-cases}
    + [データソースを使用した有料検索指標のインポート](use-cases/paid-search-metrics.md)
