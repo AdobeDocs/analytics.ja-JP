@@ -1,13 +1,13 @@
 ---
 description: Dynamic Tag Management を使用して Adobe Analytics をデプロイするには、Adobe Analytics ツールを作成し、自動または手動でページコードを設定します。ほとんどの場合は、自動的な導入方法をお勧めします。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
+keywords: Analytics の実装, 実装方法, dynamic tag management, dtm, analytics ツール, プロパティ, ツールタイプ, ツール名, 設定方法, analytics premium, evar, イベント
 title: Adobe Analytics ツールの追加
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '750'
+workflow-type: tm+mt
+source-wordcount: '771'
 ht-degree: 100%
 
 ---
