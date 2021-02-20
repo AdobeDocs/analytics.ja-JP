@@ -4,6 +4,9 @@ title: Data Connectors 電子メール統合の準備
 uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 100%
 
 ---
 
