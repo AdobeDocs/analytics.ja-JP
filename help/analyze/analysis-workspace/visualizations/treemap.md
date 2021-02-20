@@ -4,6 +4,9 @@ title: ツリーマップ
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 100%
 
 ---
 
