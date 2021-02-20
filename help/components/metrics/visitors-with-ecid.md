@@ -1,9 +1,9 @@
 ---
 title: Experience Cloud ID を持つ訪問者
 description: Adobe Experience Cloud ID サービスを使用している一意の訪問者の数です。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 
