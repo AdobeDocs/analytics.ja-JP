@@ -1,9 +1,9 @@
 ---
 title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 | 国 | `geocountry` |
 | 顧客の忠誠度 | `customerloyalty` |
 | カスタムコンバージョン VAR | `evar1`, `evar2`, etc. |
-| カスタムインサイト VAR | `prop1`, `prop2`, etc. |
+| カスタムインサイト VAR | `prop1`、 `prop2`など |
 | カスタムリンク | `customlink` |
 | 初回購入までの日数 | `daysbeforefirstpurchase` |
 | 前回購入からの日数 | `dayssincelastpurchase` |
