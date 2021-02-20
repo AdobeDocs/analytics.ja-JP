@@ -2,8 +2,11 @@
 description: 'null'
 title: よくある質問
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '1406'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +50,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Advertising Analytics の使用 {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Advertising Analytics の使用  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -126,7 +129,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## 自動トラッキングと手動トラッキング {#section_7437C4698A6D482EB7ED94A948390119}
+## 自動トラッキングと手動トラッキング  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
@@ -138,7 +141,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising アカウントを設定するときに、<b>自動トラッキング</b>により予期しない結果になる可能性があるというメッセージが表示されます。どのような結果が生じますか？ </p> </td> 
-   <td colname="col2"> <p>回答： 
+   <td colname="col2"> <p>A: 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
       <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">自動モードでは、URL パラメーターがトラッキングテンプレート／リンク先 URL の末尾に正しい形式で追加されます。<b>ただし、ユーザーの責任のもとに、追加された URL パラメーターが最終的なランディングページまで適切に保持されるようにする必要があります。</b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">自動モードではランディング URL にキーワードを挿入できます。ご使用の Web サーバーでは特殊文字を含むキーワードがサポートされない場合があります。 </li> 
