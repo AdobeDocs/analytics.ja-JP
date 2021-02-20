@@ -1,9 +1,9 @@
 ---
 title: 製品表示
 description: 製品ページへの表示数。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
 
