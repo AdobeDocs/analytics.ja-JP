@@ -3,9 +3,9 @@ description: Data Warehouse は、Tableau Data Extract（TDE）ファイル形�
 title: Tableau 形式のデータファイル
 topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
 
