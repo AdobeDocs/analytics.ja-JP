@@ -5,6 +5,9 @@ topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 100%
 
 ---
 
@@ -16,13 +19,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 リクエストの日付範囲を拡張してリクエストを更新すると、延長された期間を含めるためにセルが追加されます。
 
 1. リクエストを作成し、実行します。
-1. After you have changed the request, right-click the request, then choose **[!UICONTROL Refresh Request]** from the shortcut menu. (Alternatively, click in the request, then click **[!UICONTROL Refresh]** in the toolbar.)
+1. リクエストを変更したら、リクエストを右クリックしてから、ショートカットメニューの「**[!UICONTROL リクエストを更新]**」を選択します（または、リクエスト内をクリックしてから、ツールバーの「**[!UICONTROL 更新]**」をクリックします）。
 
-   The system displays the [!UICONTROL Refresh Requests] form:
+   「[!UICONTROL リクエストを更新]」フォームが表示されます。
 
-   **現在の日付：**&#x200B;更新の基準になる日付です。日付とも呼ばれ [!UICONTROL As Of] ます。
+   **現在の日付：**&#x200B;更新の基準になる日付です。「[!UICONTROL 基準日]」とも呼ばれます。
 
-   **今後の更新アクションで現在の日付に設定：** このオプションを有効にすると、現在の日付を（または）日付として常に使用するよ [!UICONTROL Now] うにreport builderに指 [!UICONTROL As Of]示されます。 You can revert this setting by clicking [!UICONTROL Options] in the toolbar.
-1. クリック **[!UICONTROL OK]**.
+   **今後の更新アクションで現在の日付に設定：**&#x200B;このオプションを有効にすると、現在の日付が[!UICONTROL 現在]（または[!UICONTROL 基準日]）として必ず使用されます。この設定は、ツールバーの「[!UICONTROL オプション]」をクリックすると、元に戻すことができます。
+1. 「**[!UICONTROL OK]**」をクリックします。
 
-   When a refresh is successful, the system reports this with a green icon on the [!UICONTROL Request Manager].
+   更新が正常に完了すると、[!UICONTROL リクエストマネージャー]で緑のアイコンでレポートされます。
