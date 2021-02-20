@@ -3,9 +3,9 @@ description: タグ、所有者およびその他のフィルター（すべて�
 title: セグメントのフィルタリング
 topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%
 
