@@ -1,12 +1,12 @@
 ---
 description: プロジェクトやビジュアライゼーションへの共有可能なリンクを作成する方法を学びます。
-keywords: Analysis Workspace sharing
+keywords: Analysis Workspaceシェア
 title: 共有可能なリンクの作成
 translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 93%
+source-wordcount: '299'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Analysis Workspace には、プロジェクトまたはプロジェクトの特�
 * 任意のパネルヘッダーから、「**[!UICONTROL パネルのリンクを取得]**」を右クリックします
 * 任意のテーブルまたはビジュアライゼーションのヘッダーから、「**[!UICONTROL ビジュアライゼーションリンクを取得]**」を右クリックします
 
-リンクを作成し、それらを使用して受信者をプロジェクトの特定の部分に導く方法に関する[ビデオを視聴](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html)します。
+リンクを作成し、それらを使用して受信者をプロジェクトの特定の部分に導く方法に関する[ビデオを視聴](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html)します。
 
 ![](assets/get-viz-link.png)
 
@@ -36,6 +36,6 @@ Analysis Workspace には、プロジェクトまたはプロジェクトの特�
 
 様々なリンクオプションを活用するためのヒントの 1 つは、Workspace プロジェクトの上部に常に目次を含めることです。目次では、他の関連プロジェクト、特定のパネルおよび特定のビジュアライゼーションにリンクできます。これにより、プロジェクトの受信者によるナビゲーションが容易になります。
 
-リンクと Workspace のリッチテキストエディターを使用して目次を作成する方法に関する[ビデオ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)をご覧ください。
+リンクと Workspace のリッチテキストエディターを使用して目次を作成する方法に関する[ビデオ](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)をご覧ください。
 
 ![](assets/toc.png)
