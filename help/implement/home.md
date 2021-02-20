@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 
 ## 主な Analytics 実装記事
 
-* [既存のAdobe Analyticsの実施を担当](/help/implement/prepare/existing-implementation.md)
+* [既存の Adobe Analytics の実装を担当する](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
 * [Experience Platform Launch でのプロパティの作成](launch/create-analytics-property.md)
 * [AppMeasurement のアップデート](appmeasurement-updates.md)
