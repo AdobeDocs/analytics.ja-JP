@@ -2,9 +2,9 @@
 description: 'null'
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 100%
 
