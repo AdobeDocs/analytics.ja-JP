@@ -1,15 +1,15 @@
 ---
 description: 次の情報は、Analytics データにおけるレポートスイートの遅延の問題のトラブルシューティングに役立ちます。
-keywords: missing data;slow
+keywords: データが見つかりません。遅い
 subtopic: Current data
 title: データの可用性と遅延
 topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '806'
+ht-degree: 99%
 
 ---
 
