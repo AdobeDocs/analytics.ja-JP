@@ -35,7 +35,7 @@ referrer は、データ要素を含む任意の文字列値に設定できま�
 s.referrer = "https://example.com";
 ```
 
-デー `digitalData` タレイヤーを使用する場合 [](../../prepare/data-layer.md):
+`digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合：
 
 ```js
 s.referrer = digitalData.page.pageInfo.referringURL;
