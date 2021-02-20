@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->2021年8月1日に、Adobeデータコネクターテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021 年 8 月 1 日に、Adobe Data Connector テクノロジーのサービス提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 この Adobe® Data Connectors™ 電子メール統合は、Analytics® の行動情報と Silverpop の電子メールマーケティングを組み合わせ、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
 
