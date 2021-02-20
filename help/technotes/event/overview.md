@@ -1,9 +1,9 @@
 ---
 title: イベントの影響を受けるデータの分析
 description: イベントが影響を与えたデータが全体的なデータ品質にどのように貢献しているかを把握します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Adobe Analytics は、セグメント化を使用してデータに焦点を当�
 
 このビデオでは、上記の各手順について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
 
 * **0:27**:セグメントを使用したデータの除外
 * **2:55**:イベントと前の範囲の比較
