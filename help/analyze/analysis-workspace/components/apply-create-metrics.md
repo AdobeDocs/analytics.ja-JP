@@ -29,11 +29,11 @@ Analysis Workspace には、指標の使用方法が 2 つあります。
 
 ![](assets/calc_metrics.png)
 
-[計算指標：実装を使用しない指標](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[計算指標：実装なしの指標](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## 様々なアトリビューションモデルとの指標の比較
 
-If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Compare Attribution Models]**:
+あるアトリビューションモデルをすばやく簡単に別のアトリビューションモデルと比較する場合は、指標を右クリックし、「**[!UICONTROL アトリビューションモデルを比較]**」を選択します。
 
 ![アトリビューションの比較](assets/compare-attribution.png)
 
