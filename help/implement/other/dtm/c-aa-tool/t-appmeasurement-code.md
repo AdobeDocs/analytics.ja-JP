@@ -1,13 +1,13 @@
 ---
 description: Dynamic Tag Management を Adobe Analytics に手動で導入する場合に AppMeasurement コードを挿入します。
-keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appmeasurement;appmeasurement code
+keywords: Dynamic Tag Management, リンクされたアカウント, アカウントのリンク, コードを編集, appmeasurement, appmeasurement コード
 solution: Experience Cloud,Analytics,Target
 title: コアの AppMeasurement コードの挿入
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
