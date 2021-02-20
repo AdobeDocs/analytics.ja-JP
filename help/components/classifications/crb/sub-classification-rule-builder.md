@@ -1,9 +1,9 @@
 ---
 description: 分類ルールビルダーを下位分類と組み合わせることはできません。
 title: 下位分類とルールビルダー
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
