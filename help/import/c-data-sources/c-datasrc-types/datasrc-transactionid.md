@@ -1,9 +1,9 @@
 ---
 title: トランザクション ID データソース
 description: トランザクション ID データソースの一般的な使用ワークフローについて説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
