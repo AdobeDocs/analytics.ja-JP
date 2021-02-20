@@ -2,9 +2,9 @@
 description: レポート時間処理は、非破壊的かつ遡及的な方法で過去データを再処理できる仮想レポートスイートの設定です。
 title: レポート時間処理
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 100%
 
