@@ -4,6 +4,9 @@ title: 顧客属性
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
