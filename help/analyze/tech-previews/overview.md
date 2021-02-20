@@ -1,9 +1,9 @@
 ---
 title: ラボユーザーガイド
 description: Adobe Analytics のプロトタイププロジェクトのプレビュー
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
