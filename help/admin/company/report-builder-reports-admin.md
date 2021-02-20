@@ -5,6 +5,9 @@ topic: Admin tools
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 98%
 
 ---
 
@@ -19,4 +22,4 @@ Report Builder ユーザーに割り当てられているライセンスを管�
 
 「[!UICONTROL 予定タスクの使用]」の表には、Report Builder のアクセス権限を持つすべてのユーザーが表示されます。
 
-グループを参 [照してくださ](/help/admin/user-management2/c-user-groups/groups.md)い。
+[グループ](/help/admin/user-management2/c-user-groups/groups.md)を参照してください。
