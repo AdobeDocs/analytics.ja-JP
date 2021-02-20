@@ -3,9 +3,9 @@ description: リクエストに指標およびディメンションを追加す�
 title: 指標およびディメンションの追加
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 100%
 
