@@ -4,9 +4,9 @@ subtopic: Schedule
 title: レポートのスケジュールと配信
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1661'
 ht-degree: 100%
 
