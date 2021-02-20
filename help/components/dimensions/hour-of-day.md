@@ -1,9 +1,9 @@
 ---
 title: 時刻
 description: 時刻を数値で表します。日付は関係ありません。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
