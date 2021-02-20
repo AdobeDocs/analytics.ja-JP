@@ -2,9 +2,9 @@
 description: 時間分割は、収集したヒットのタイムスタンプを取得し、「時間帯」や「曜日」など、よりわかりやすいディメンションに分類します。
 title: 時間分割ディメンション
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 
