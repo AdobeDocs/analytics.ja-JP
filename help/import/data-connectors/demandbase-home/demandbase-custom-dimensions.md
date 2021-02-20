@@ -4,6 +4,9 @@ title: Demandbase カスタムディメンション
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
