@@ -3,8 +3,11 @@ description: Web Services API を使用すると、Analytics インターフェ�
 title: Web サービス
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Web Services API を使用すると、Analytics インターフェイスを通�
 
 ## Web サービスの管理
 
-ユーザー管理／      [グループ](/help/admin/user-management2/c-user-groups/groups.md)で、Web サービスアクセスグループを更新し、Web Services API へのアクセスを必要とするユーザーを含めることができます。
+ユーザー管理／     [グループ](/help/admin/user-management2/c-user-groups/groups.md)で、Web サービスアクセスグループを更新し、Web Services API へのアクセスを必要とするユーザーを含めることができます。
 
 ## WSDL：Web サービス開発者向けの Web Services API WSDL をダウンロードします。
 
