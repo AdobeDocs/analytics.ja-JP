@@ -1,9 +1,9 @@
 ---
 title: AJAX による実装
 description: AJAX を使用して Adobe Analytics をサイトに実装する方法を説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
 
