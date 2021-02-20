@@ -41,4 +41,4 @@ ht-degree: 96%
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.adobedc.net` or `2o7.net`.
+CNAMEレコードは通常、`data.adobedc.net`、`sc.adobedc.net`、または`2o7.net`のサブドメインを指します。
