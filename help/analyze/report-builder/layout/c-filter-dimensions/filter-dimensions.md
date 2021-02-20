@@ -5,6 +5,9 @@ topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## フィルターの定義 - 値と特殊文字 {#section_15840216A4044C40974945FAA435AD93}
 
-/パネルのフィルター **[!UICONTROL Most Popular Filter]** に関する情 **[!UICONTROL Define Filter]** 報です。
+**[!UICONTROL 最頻使用フィルター]**／**[!UICONTROL フィルターを定義]**&#x200B;パネルのフィルターについての情報です。
 
 ![](assets/define_filter.png)
 
@@ -64,7 +67,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col3"> <p>抽出されない：<span class="term"> abc</span>、<span class="term"> abc def</span> は除外され、<span class="term"> def</span> は抽出されない。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>次に等しい </p> </td> 
+   <td colname="col1"> <p>次と等しい </p> </td> 
    <td colname="col02"> <p>指定した値と完全に一致するデータを抽出します。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
    <td colname="col3"> <p> <span class="term"> abc</span> のみが抽出されます。ほかのものは一切抽出される。 </p> </td> 
@@ -73,7 +76,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col1"> <p>等しくない </p> </td> 
    <td colname="col02"> <p>指定した値と一致しないデータをすべて抽出します。 </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>一致しない<span class="term"> a</span> は抽出される。 </p> <p><span class="term"> a b c</span> は抽出される。 </p> <p><span class="term"> abc</span> は抽出される。 </p> </td> 
+   <td colname="col3"> <p>Does not match<span class="term"> a</span> は抽出される。 </p> <p><span class="term"> a b c</span> は抽出される。 </p> <p><span class="term"> abc</span> は抽出される。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>次の語句で始まる </p> </td> 
@@ -115,8 +118,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> " " </td> 
-   <td colname="col2"> 次に等しい </td> 
-   <td colname="col3"> <p>引用符をペアで使用しなければエスケープされません。例えば、「 <span class="term"> 17"ディスプレイ</span> 」はフレーズではありません。 </p> </td> 
+   <td colname="col2"> 次と等しい </td> 
+   <td colname="col3"> <p>引用符をペアで使用しなければエスケープされません。例えば、<span class="term"> 17" Display</span>はフレーズではありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
@@ -135,7 +138,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> - </td> 
-   <td colname="col2"> NOT </td> 
+   <td colname="col2"> Not </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
