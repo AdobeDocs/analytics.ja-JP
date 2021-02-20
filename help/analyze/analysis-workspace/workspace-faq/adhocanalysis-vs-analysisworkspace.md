@@ -2,9 +2,9 @@
 description: Ad Hoc Analysis の用語およびタスクを Analysis Workspace と比較します。
 title: Analysis Workspace と Ad Hoc Analysis の比較
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
 
 両製品の主要機能と必要システム構成の技術的な比較については、[こちら](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/analytics-product-comparison.html?lang=ja-JP)を参照してください。
 
-## 主な用語の比較 {#section_6109406B83B043A18E46D38F130B1D2E}
+## 主な用語の比較   {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -36,7 +36,7 @@ Analysis Workspace では、Ad Hoc Analysis の機能の多くがブラウザー
 | フローテンプレート | フロービジュアライゼーション |
 | フォールアウト | フォールアウトビジュアライゼーション |
 
-## 主なタスクの比較 {#section_F31446F1DFA742D794A30D713E223440}
+## 主なタスクの比較  {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
