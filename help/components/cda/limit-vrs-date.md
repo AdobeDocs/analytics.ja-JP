@@ -1,16 +1,16 @@
 ---
-title: VRSを特定の日付に制限する
+title: VRS を特定の日付に制限する
 description: VRS日付範囲を、関連付けられたデータのみに焦点を当てるように制限する方法を理解します。
 translation-type: tm+mt
 source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# VRSを特定の日付に制限する
+# VRS を特定の日付に制限する
 
 ステッチをオンにすると、特定の日付のステッチ開始が表示されます。 その日付が6月1日だと仮定します。 CDA VRSには、6月1日より前に未関連付けデータが含まれます。 6月1日より前のVRSのデータはすべて非表示にして、分析がステッチ開始後に日付範囲に集中できるようにします。
 
