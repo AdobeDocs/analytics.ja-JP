@@ -1,9 +1,9 @@
 ---
 title: 分類の概要
 description: ディメンション項目のグループ化をカスタマイズします。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 分類とは、Analytics 変数データをカテゴリーにまとめ、レポートを生成する際に様々な方法でデータを表示する手法です。
 
-[Analytics 分類](https://video.tv.adobe.com/v/16853/?captions=jpn)のビデオ概要。
+[Analytics 分類](https://video.tv.adobe.com/v/16853/)のビデオ概要。
 
 **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／*`<Traffic or Conversion>`*
 
