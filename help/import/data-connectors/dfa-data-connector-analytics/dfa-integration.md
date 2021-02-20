@@ -7,7 +7,7 @@ uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2599'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ DFA Data Connectors 統合について、順を追って説明します。
   </tr> 
   <tr> 
    <td colname="col1"> 4 </td> 
-   <td colname="col2"> インプレッション数 </td> 
+   <td colname="col2"> インプレッション </td> 
    <td colname="col3"> DFA インプレッション数指標データを受け取るカスタムイベント。インプレッション数は、広告が提供された回数を示します。 </td> 
   </tr> 
   <tr> 
@@ -112,7 +112,7 @@ DFA Data Connectors 統合について、順を追って説明します。
   <tr> 
    <td colname="col1"> 6 </td> 
    <td colname="col2"> タイムアウトイベント </td> 
-   <td colname="col3"> <p>Analyticsカウンターイベント。<span class="varname"> s.maxDelay </span> タイマーの期限が切れるたびに増加され、DFA サーバーから応答を受け取らない、Analytics カウンターイベント。このイベントを使用して、<span class="varname"> s.maxDelay </span> 変数 Tuning s.maxDelay </a> を設定します。 </p> </td> 
+   <td colname="col3"> <p>The Analytics Counter Event that increments each time the<span class="varname"> s.maxDelay </span> タイマーの期限が切れるたびに増加され、DFA サーバーから応答を受け取らない、Analytics カウンターイベント。このイベントを使用して、<span class="varname"> s.maxDelay </span> 変数 Tuning s.maxDelay </a> を設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
