@@ -1,6 +1,6 @@
 ---
 description: eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。
-keywords: groups;permissions
+keywords: グループ;権限
 subtopic: Users and groups
 title: ディメンションの権限のカスタマイズ
 topic: Admin tools
@@ -8,7 +8,7 @@ uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '514'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
 * カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。
 * 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる[変数](https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/c-classifications.html)へのアクセスによって判断されます。
 
-詳しくは、「 [ユーザーとグループの権限の変更](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/permissions-changes.html)」を参照してください。
+詳しくは、[ユーザーとグループの権限の変更](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/permissions-changes.html)を参照してください。
 
 **ディメンションのカスタマイズ**
 
@@ -63,14 +63,14 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/evar.html"> prop </a> </p> </td> 
-   <td colname="col2"> <p>prop は、カスタムトラフィック変数です。 </p> <p>Analytics の導入の<a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/evar.html">トラフィック prop と コンバージョン eVar</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>prop は、カスタムトラフィック変数です。 </p> <p>Analytics の導入の<a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">トラフィック prop と コンバージョン eVar</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html"> 階層 </a> </p> </td> 
    <td colname="col2"> <p> 階層（hierN）変数は、サイトの階層またはページ構造におけるページの位置を決定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> リスト Prop の機能と同様、リスト変数は、同じイメージリクエスト内で複数の値を許可します。 </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
    <td colname="col2"> <p>このパートナーとの統合は無効になりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>このパートナーとの統合は無効になりました。 </p> </td> 
   </tr> 
   <tr> 
