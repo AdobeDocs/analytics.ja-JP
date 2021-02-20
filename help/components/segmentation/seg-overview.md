@@ -39,7 +39,7 @@ ht-degree: 99%
 
 このようなセグメントは、[!UICONTROL AND] および [!UICONTROL OR] 演算子を使用して結合された特性に基づいてデータセットをフィルタリングします。
 
-## 順次セグメント {#section_EE5B14287FC44E0B96E77679A2438948}
+## 順次セグメント  {#section_EE5B14287FC44E0B96E77679A2438948}
 
 順次セグメントでは、サイト間でのナビゲーションとページビューに基づいて訪問者を識別し、定義済みのアクションとインタラクションのセグメントを提供できます。順次セグメントを使用すると、訪問者が好むものとそうでないものを容易に識別できます。順次セグメントを作成するときは、[!UICONTROL THEN] 演算子を使用して訪問者のナビゲーションを定義し、順序を指定します。
 
@@ -60,7 +60,7 @@ ht-degree: 99%
 
 ## ハウツービデオ {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-このビデオでは、セグメントのコンテナの概要と使用方法を簡単に説明します。 [Adobe Analyticsのセグメントコンテナ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+このビデオでは、セグメントのコンテナの概要と使用方法を簡単に説明します。[Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)のセグメントコンテナ
 
 ## コンテナについて {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
