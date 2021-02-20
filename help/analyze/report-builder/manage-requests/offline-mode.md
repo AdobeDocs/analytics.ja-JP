@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -17,13 +20,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 オフラインモードを有効にするには：
 
-1. Click **[!UICONTROL Options]** in the Report Builder menu.
+1. Report Builder メニューの&#x200B;**[!UICONTROL オプション]**&#x200B;を選択します。
 
    ![](assets/offline_mode.png)
 
-1. の横のチェックボックスをオンにしま **[!UICONTROL Turn on offline mode for creating and editing requests]**&#x200B;す。
-1. In the **[!UICONTROL Display Metric Data as]** field, enter the placeholder data that you want returned in your request. 例えば、「1」と入力します。
-1. クリック **[!UICONTROL OK]**.
+1. 「**[!UICONTROL オフラインモードにする（リクエストの作成、編集のみ可能）]**」の横にあるチェックボックスをオンにします。
+1. 「**[!UICONTROL ダミーデータの表示方法]**」フィールドに、リクエストで返すプレースホルダーデータを入力します。例えば、「1」と入力します。
+1. 「**[!UICONTROL OK]**」をクリックします。
 1. リクエストウィザードを使用して、（オフラインモードで）リクエストを作成し、実行します。
 1. プレースホルダーデータとして「1」が指定されたリクエストは次のように表示されます。
 
@@ -31,5 +34,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!IMPORTANT]
    >
-   >実際のデータを使用してリクエストを実行する前に、オフラインモードを無効にしてください。To do so, just go back to **[!UICONTROL Options]** and remove the checkmark.
+   >実際のデータを使用してリクエストを実行する前に、オフラインモードを無効にしてください。無効にするには、**[!UICONTROL オプション]**&#x200B;メニューでチェックボックスをオフにします。
 
