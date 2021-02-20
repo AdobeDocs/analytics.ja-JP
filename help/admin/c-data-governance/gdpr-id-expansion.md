@@ -2,9 +2,9 @@
 description: '送信する ID では、Analytics でデータ主体に関連付けることができるヒットデータの一部をカバーできない場合もあります。Analytics では、ID のセットを拡張し、関連付けられているデータをデータプライバシー要求に含めることができます。このオプションを要求するには、送信する各データプライバシー要求に対するオプションのパラメーターを JSON 要求に追加します。 '
 title: ID 拡張
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 100%
 
