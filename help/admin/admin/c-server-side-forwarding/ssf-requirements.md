@@ -3,9 +3,9 @@ description: サーバー側転送を実装するには、次の Experience Clou
 solution: Audience Manager
 title: サーバー側転送の要件
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
