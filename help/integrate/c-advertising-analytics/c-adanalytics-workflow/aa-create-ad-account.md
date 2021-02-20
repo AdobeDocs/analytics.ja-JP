@@ -78,7 +78,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>レポートスイートマッピング </p> </td> 
-      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
+      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
