@@ -3,9 +3,9 @@ description: セグメントを計画する際に従う手順とベストプラ�
 title: セグメントの計画
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
