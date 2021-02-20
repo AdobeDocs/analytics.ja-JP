@@ -1,9 +1,9 @@
 ---
 title: Launch での Analytics プロパティの作成
 description: Adobe Experience Platform Launch を使用してスペースを作成し、データの収集方法をカスタマイズします。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 100%
 
