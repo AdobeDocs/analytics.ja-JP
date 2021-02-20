@@ -1,9 +1,9 @@
 ---
 title: getPageLoadTime
 description: ページの読み込みにかかる時間を追跡します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
 
