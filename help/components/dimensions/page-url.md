@@ -16,15 +16,15 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->このディメンションは、Data Warehouse でのみ使用できます。他のAnalyticsソリューションでURLディメンションを使用する場合は、ヒットごとに [eVar](evar.md) に値をコピーすることを検討してください。
+>このディメンションは、Data Warehouse でのみ使用できます。他のAnalyticsソリューションでURLディメンションを使用する場合は、ヒットごとに[eVar](evar.md)に値をコピーすることを検討してください。
 
 ## このディメンションへのデータ入力
 
-This dimension retrieves data from the [`g` and `-g` query strings](/help/implement/validate/query-parameters.md) in [Page view calls (`t()`)](/help/implement/vars/functions/t-method.md). [リンクトラッキングコール(`tl()`)](/help/implement/vars/functions/tl-method.md) 。 `g` クエリ文字列が存在する場合でも、常にこのディメンションを除去します。
+このディメンションは、[ページ表示呼び出し(`t()`)](/help/implement/vars/functions/t-method.md)の[`g`および`-g`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。 [リンクトラッキングコール(`tl()`)](/help/implement/vars/functions/tl-method.md) は、 `g` クエリ文字列が存在する場合でも、常にこのディメンションを取り除きます。
 
 URL が 255 バイトを超える場合があります。AppMeasurement は、イメージリクエストの URL の最初の 255 バイトに対して `g` クエリー文字列パラメーターを使用します。URL が 255 バイトを超える場合、残りの URL は `-g` クエリー文字列パラメーターに保存されます。URL 内のプロトコルとクエリー文字列がこの変数に含まれます。
 
-AppMeasurementは、ページのURLに基づいてこのデータを自動的に収集します。 この [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 変数を使用して、収集された値を上書きできます。
+AppMeasurementは、ページのURLに基づいてこのデータを自動的に収集します。 [`pageURL`](/help/implement/vars/page-vars/pageurl.md)変数を使用して、収集された値を上書きできます。
 
 ## eVar への URL の入力
 
