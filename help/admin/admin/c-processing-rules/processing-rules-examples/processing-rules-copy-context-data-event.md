@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: コンテキストデータ変数を使用したイベントの設定
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
