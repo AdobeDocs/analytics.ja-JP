@@ -1,9 +1,9 @@
 ---
 description: Adobe Analytics の各種レポートで、「未指定」、「なし」、「その他」、「不明」という値が表示されることがあります（どの値が表示されるかはレポートによって異なります）。一般的に、これらの行項目は変数が定義されていなかったか、使用できなかったことを意味します。
 title: レポートにおける「未指定」、「なし」、「その他」、「不明」
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 100%
 
