@@ -1,13 +1,13 @@
 ---
 description: Adobe Analytics 導入のための Dynamic Tag Management の「一般」設定のフィールド説明です。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
+keywords: Analytics の実装, 導入方法, dynamic tag management, dtm, 一般設定, eu コンプライアンス, 文字セット, 通貨コード, トラッキングサーバー, ssl トラッキングサーバー
 title: 一般
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 translation-type: tm+mt
 source-git-commit: 0d699a50a764d9ea76771118c7cc083fb46cefe9
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
