@@ -1,9 +1,9 @@
 ---
 title: セグメントのベストプラクティス
 description: データを効率的に返す最適なセグメントを作成します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
