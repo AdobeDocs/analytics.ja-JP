@@ -1,9 +1,9 @@
 ---
 title: 動的アカウントの概要
 description: H コードを使用してレポートスイートを動的に選択する方法に関するワークフローについて説明します。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%
 
