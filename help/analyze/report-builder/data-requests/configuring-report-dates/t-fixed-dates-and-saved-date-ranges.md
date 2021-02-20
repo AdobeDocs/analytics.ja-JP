@@ -5,6 +5,9 @@ topic: Report builder
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 100%
 
 ---
 
@@ -13,8 +16,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 固定日付または日付範囲を指定する場合、Report Builder ではレポートのカレンダーが表示されます。ユーザーはこのカレンダーを使用して、日付、日付範囲または事前設定日を選択することができます。また、固定日付をテンプレートとして保存し、さらにどのレポートスイートで利用できるかを指定することもできます。
 
-1. On the Request Wizard: Step 1, choose **[!UICONTROL Fixed Dates]**.
+1. リクエストウィザード：ステップ 1 で、「**[!UICONTROL 固定日付]**」をクリックします。
 1. 日付のリンクをクリックします。
 1. 日付を選択して、「**OK**」をクリックします。
-1. To save a date range, click **[!UICONTROL Save Date]**.
-1. フォームのオプションを設定 [!UICONTROL Save Date Range] します。
+1. 日付範囲を保存するには、「**[!UICONTROL 日付を保存]**」をクリックします。
+1. [!UICONTROL 期間を保存]フォームで次のオプションを設定します。
