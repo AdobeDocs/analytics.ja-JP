@@ -2,10 +2,10 @@
 description: Analytics for Target（A4T）パネルでは、Analysis Workspace で Adobe Target のアクティビティとエクスペリエンスを分析できます。
 title: Analytics for Target（A4T）パネル
 translation-type: tm+mt
-source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
+source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 86%
+source-wordcount: '1072'
+ht-degree: 82%
 
 ---
 
@@ -50,7 +50,7 @@ Analytics for Target パネルは、豊富なデータとビジュアライゼ�
 | 上昇率 (上限) | バリアントエクスペリエンスがコントロールに対して持つことのできる最高上昇率を、95%の信頼区間で表します。<br>計算：上昇率（下降）を参照してください。 |
 | 信頼性 | 学生 t テストは信頼性レベルを計算します。これは、テストを再度実行した場合に結果が重複する可能性を示しています。75%／85%／95%という固定の条件付き書式が指標に適用されました。この形式設定は、必要に応じて列設定の下でカスタマイズできます。注 ：信頼性は、「ターゲットエクスペリエンス」に対して「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。<br>計算：y+y_control-2自由度を持つ2-tailed t検定を適用して、p値（x/yがx_control/y_controlに等しいかどうか）を調べます。stderrはsqrt(((xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control)であるtスコアを計算します。 1 ～ pは、それぞれ異なる信頼性として返されます。 |
 
-Analysis Workspace のパネルと同様に、Adobe Target アクティビティの分析に役立つテーブルと[ビジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)を追加して分析を続行できます。
+Analysis Workspace のパネルと同様に、Adobe Target アクティビティの分析に役立つテーブルと[ビジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)を追加して分析を続行できます。セグメントは、パネルレベルまたはフリーフォームテーブル内でも適用できます。 フリーフォームテーブル内に追加する場合、上昇率と信頼性の計算を維持するために、テーブル全体に重ねる必要があります。 現時点では、列レベルのセグメントはサポートされていません。
 
 ## よくある質問（FAQ） {#FAQ}
 
