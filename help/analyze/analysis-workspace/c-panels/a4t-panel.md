@@ -2,10 +2,10 @@
 description: Analytics for Target（A4T）パネルでは、Analysis Workspace で Adobe Target のアクティビティとエクスペリエンスを分析できます。
 title: Analytics for Target（A4T）パネル
 translation-type: tm+mt
-source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
+source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 82%
+source-wordcount: '1103'
+ht-degree: 78%
 
 ---
 
@@ -62,6 +62,6 @@ Analysis Workspace のパネルと同様に、Adobe Target アクティビティ
 | 分析内の特定の Target アクティビティに対してヒットセグメントを適用すると、無関係なエクスペリエンスが返されるのはなぜですか。 | A4T ディメンションはリスト変数です。つまり、多数のアクティビティ（およびエクスペリエンス）を一度に含めることができます。[詳細情報](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | 信頼性指標は、極端な注文を考慮しますか。それとも、複数のオファーに対してボンフェローニ補正を適用しますか。 | いいえ。Analytics が信頼性を計算する方法について[詳しく](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)ご覧ください。 |
 | 上昇率指標と信頼性指標を他のディメンションや分類と共に使用できますか。 | 上昇率と信頼性は、「ターゲットエクスペリエンス」ディメンションに対して「ロックされた指標」です。これは、全体で計算するには、コントロールとバリアントが必要だからです。したがって、分類したり、他のディメンションで使用したりすることはできません。 |
-| 上昇率と信頼性はいつ再計算されますか。 | 上昇率と信頼性は、パネルが実行（または再実行）されるたび、パネルの日付範囲が変更されたとき、またはセグメントがパネルやテーブルに適用されたときに再計算されます。 |
+| 上昇率と信頼性はいつ再計算されますか。 | 上昇率と信頼性は、パネルが実行（または再実行）されるたびに再計算されるか、パネルの日付範囲が変更されるか、セグメントがパネルまたはテーブルに適用されるたびに再計算されます。 フリーフォームテーブルにセグメントフィルターを適用する場合、すべての列または上昇率にセグメントフィルターを適用する必要があり、信頼性が正しく更新されません。 現時点では、列レベルのセグメントはサポートされていません。 |
 
 Analytics for Target レポートについて詳しくは、[A4T レポート](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/reporting.html)を参照してください
