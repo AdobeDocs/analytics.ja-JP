@@ -1,17 +1,16 @@
 ---
-description: 'null'
-title: Advertising Analytics の概要
-uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
+description: 必要な権限、使用可能なディメンションや指標など、Advertising Analyticsで可能なすべての機能を詳細なガイドで確認します。
+title: Advertising Analyticsへのガイド
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
 
-# Advertising Analytics の概要
+# Advertising Analyticsへのガイド
 
 Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud （AMO）または Google／Bing で表示する必要がありました。現在 Adobe Analytics では、インプレッション数、クリック数、コスト、品質スコア、平均順位を、検索エンジンおよび AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。
 
