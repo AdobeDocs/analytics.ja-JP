@@ -2,9 +2,9 @@
 title: Adobe Analytics権限 — 概要表
 description: Admin Consoleで使用可能なAdobe Analyticsの権限をまとめた表。
 translation-type: tm+mt
-source-git-commit: 5c300548b9677c7ffe21fa66b4b7c9859179ff8e
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1255'
 ht-degree: 94%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 94%
 | コスト | x |  |  |  | Report Suite Manager のマーケティングチャネル／マーケティングチャネルのコストへのアクセスを許可します。 |
 | カスタムカレンダー | x |  |  |  | Report Suite Manager の一般／カレンダーのカスタマイズへのアクセスを許可します。 |
 | データフィードマネージャー | x |  |  |  | Analytics のトップナビゲーションで管理者／データフィードへのアクセスを許可します。 |
-| データ修復 API | x |  |  |  | 新機能（ベータ版） — データ修復APIへのアクセスを許可します |
+| データ修復 API | x |  |  |  | データ修復APIへのアクセスを許可 |
 | データソースマネージャー | x |  |  |  | Analytics のトップナビゲーションで管理者／データソースへのアクセスを許可します。権限項目「Report Suite Mgmt」が必要です。 |
 | デフォルトの指標 | x |  |  |  | Report Suite Manager で個々のレポートスイートの設定／デフォルト指標へのアクセスを許可します。 |
 | IP アドレスで除外 | x |  |  |  | Analytics のトップナビゲーションで、管理者／IP アドレスごとに除外へのアクセスを許可します。 |
