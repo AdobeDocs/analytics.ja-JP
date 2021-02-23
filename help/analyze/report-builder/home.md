@@ -1,18 +1,18 @@
 ---
-title: Report Builderの概要
-description: アドインを使用して、Adobe AnalyticsのデータをMicrosoft Excelに直接取り込みます。
+title: Adobe AnalyticsのReport Builder
+description: Report Builderを使用して、Adobe Analyticsのデータを直接Microsoft Excelに取り込みます。 Report Builderのインストールと使用がビジネスを促進する方法を見つけます。
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 68%
+source-wordcount: '134'
+ht-degree: 61%
 
 ---
 
 
-# Report Builderの概要
+# Report Builderとは？
 
- Report Builder は Microsoft Excel のアドインです。レポートおよび分析データからカスタマイズしたリクエストを作成し、Excelワークシートに挿入できます。 リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
+Adobe Report Builder は Microsoft Excel のアドインです。レポートおよび分析データからカスタマイズしたリクエストを作成し、Excelワークシートに挿入できます。 リクエストはセルから動的に参照できます。さらに、Report Builder によるデータの表示形式は更新やカスタマイズが可能です。
 
 ## よく読まれるヘルプトピック
 
