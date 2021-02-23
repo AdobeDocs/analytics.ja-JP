@@ -1,12 +1,11 @@
 ---
-description: Analysis Workspace の異常値検出は、一連の高度な統計的手法を用いて、計測値を異常値と見なすべきかどうかを判定します。
+description: データの不一致は、大きな問題の原因となる可能性があります。 Adobeの異常値検出テクニックを使用して、統計的な異常値を識別する方法について説明します。 今すぐ始めましょう。
 title: 異常値検出で使用される統計的手法
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 100%
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
