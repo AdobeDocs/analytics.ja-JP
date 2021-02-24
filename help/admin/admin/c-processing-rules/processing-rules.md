@@ -5,7 +5,7 @@ title: 処理ルールの概要
 topic: 管理ツール
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
@@ -62,4 +62,4 @@ s.contextData['genre'] = "Youth";
 
 定義したコンテキストデータ変数をレポートで使用するには、eVar などの変数にコピーする必要があります。
 
-詳しくは、[eVar](processing-rules-examples/processing-rules-copy-context-data.md)へのコンテキストデータ変数のコピーおよび[コンテキストデータ変数](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)を使用したイベントの設定を参照してください。
+詳しくは、[eVar](processing-rules-examples/processing-rules-copy-context-data.md)へのコンテキストデータ変数のコピーおよび[コンテキストデータ変数](processing-rules-examples/processing-rules-copy-context-data-event.md)を使用したイベントの設定を参照してください。
