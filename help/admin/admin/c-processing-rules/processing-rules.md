@@ -2,13 +2,13 @@
 description: 処理ルールはデータ収集をシンプル化し、レポーティングに送信されるコンテンツを管理します。
 subtopic: Processing rules
 title: 処理ルールの概要
-topic: Admin tools
+topic: 管理ツール
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 80%
+source-wordcount: '396'
+ht-degree: 68%
 
 ---
 
@@ -40,11 +40,21 @@ ht-degree: 80%
 
 コンテキストデータ変数は、処理ルールでのみ使用できる変数の一種です。 コンテキストデータを使用するには、キー／値データペアを送信し、処理ルールを使用して標準的な Analytics 変数にこれらの値を取り込みます。これによって、プログラマーは prop や eVar に含めるべき値を正確に理解する必要がなくなります。
 
-![](assets/evar-context-map.png)
+```js
+s.contextData['author'] = "Robert Munch";
+s.contextData['section'] = "Books";
+s.contextData['genre'] = "Youth";
+```
 
-実装のヘルプの[コンテキストデータ変数](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/contextdata.html)を参照してください。
+コードに設定した後は、値を変数に割り当てる処理ルールを設定できます。 次に例を示します。
 
-## 処理ルールを使用したヒットデータの変換とイベントのトリガー  {#section_8284E72E999244E091CD7FB1A22342B6}
+1. `author`を`eVar2`にマップ
+2. `section`を`prop1`と`eVar3`にマップ
+3. `author`と`section`が存在する場合は、`event5`
+
+詳しくは、『導入ユーザーガイド』の[contextData](/help/implement/vars/page-vars/contextdata.md)を参照してください。
+
+## 処理ルールを使用したヒットデータの変換とイベントのトリガー {#section_8284E72E999244E091CD7FB1A22342B6}
 
 処理ルールでは、受け入れる値を監視し、よくある入力ミスを変換したり、レポートされたデータに基づいてイベントを設定したりできます。prop は eVar にコピーでき、レポートで値を連結でき、イベントを設定できます。
 
@@ -52,4 +62,4 @@ ht-degree: 80%
 
 定義したコンテキストデータ変数をレポートで使用するには、eVar などの変数にコピーする必要があります。
 
-詳しくは、[こちら](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)と[こちら](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)をご覧ください。
+詳しくは、[eVar](processing-rules-examples/processing-rules-copy-context-data.md)へのコンテキストデータ変数のコピーおよび[コンテキストデータ変数](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)を使用したイベントの設定を参照してください。
