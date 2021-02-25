@@ -5,10 +5,10 @@ user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定などについて説明します。
 translation-type: tm+mt
-source-git-commit: ae75341a1fcf15044c385d9d8ea2048190b9c1c3
+source-git-commit: 35f0f3fb9a349b7fceb035be771ee462ec0799aa
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 96%
+source-wordcount: '735'
+ht-degree: 95%
 
 ---
 
@@ -176,8 +176,9 @@ ht-degree: 96%
       + [ディメンションの権限のカスタマイズ](user-management2/c-customize-report-access/groups-dimensions.md)
    + [電子メールユーザー](user-management2/t-email-users.md)
 + データガバナンス {#data-governance}
-   + [Adobe Analytics と GDPR](c-data-governance/an-gdpr-overview.md)
+   + [Adobe AnalyticsとGDPRの概要](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics と CCPA](c-data-governance/an-ccpa-overview.md)
+   + [CNILの同意除外](c-data-governance/cnil-consent-exemption.md)
    + [よくある質問](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics データプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
    + [レポートスイートのデータガバナンス設定の表示／管理](c-data-governance/gdpr-view-settings.md)
