@@ -5,15 +5,15 @@ translation-type: tm+mt
 source-git-commit: 2a32ac1aafbbdfa4d0161666061fc9084af13fae
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 
 # ユーザー
 
-「人」指標には2つのバージョンがあります。
+「人」指標には 2 つのバージョンがあります。
 
-[デバイス間分析](../cda/overview.md)を使用しない[デバイスCo-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html)のメンバーの場合、「人」指標は、レポートで表される人の数を統計的に導いた数です。 これは、Device Co-opで識別される訪問者IDの数と、Device Co-opで識別されないデバイスの数です。
+[クロスデバイス分析](../cda/overview.md)を使用しない [Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html) のメンバーの場合、「人」指標は、レポートで表される人の数を統計的に導き出した数です。 これは、Device Co-op で識別される訪問者 ID の数に、Co-op で識別されないデバイスの数を加えたものです。
 
-[デバイス間分析](../cda/overview.md)仮想レポートスイート内では、「人」指標は、統計的導出ではなく、個別の人の直接カウントです。 CDAでの人物の定義は、Device Co-op、Private Graph、またはフィールドベースのステッチに基づきます。どちらを使用するかは、ベースレポートスイートでのCDAの設定方法に応じて異なります。 人とは、レポートで識別された個人と、その個人に属していると識別されなかったデバイスの数を合計したものです。
+[クロスデバイス分析](../cda/overview.md)仮想レポートスイート内では、「人」指標は、統計的導出ではなく、ユニークユーザーを直接カウントします。クロスデバイス分析（CDA）での人物の定義は、Device Co-op、プライベートグラフ、またはフィールドベースのステッチに基づきます。どれを使用するかは、ベースレポートスイートでの CDA の設定方法に応じて異なります。 「人」は、レポートで識別された個人の合計に、ある人物に属していると識別されなかったデバイスの数を加えたものです。
