@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * Workspace のカスタマイズされたレイアウトオプションが制限的である場合（Report Builder では Excel の範囲内であればどのようなレイアウトも可能）。
 * ユーザー入力またはオフラインデータソース（インプレッション数、コスト）を Adobe データに緩やかに統合する場合。データを統合するためのより恒久的なソリューションはデータソースです（「Adobe Analytics へのデータのインポート」を参照）。
 * 様々なディメンションのレポートから得られるデータの結合（例えば、プロモーションのインプレッションレポートとプロモーションのクリックトゥコンバージョンレポートの結合など）。
-* 異なるレポートスイートからのデータを、同じテーブルに並べて合計または表示することで結合する場合。
+* 異なるレポートスイートからのデータを、同じテーブルで横に並べて合計または表示する方法で結合します。
 * スケジュール設定による自動化が求められる場合（XLSX、XLSM、CSV、PDF、TXT、XML、MHT）。
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** は以下の場合に使用します。
