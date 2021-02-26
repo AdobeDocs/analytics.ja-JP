@@ -2,10 +2,10 @@
 title: Adobe Analytics 権限 - 概要テーブル
 description: Admin Console で使用可能な Adobe Analytics の権限をまとめたテーブル。
 translation-type: tm+mt
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 99%
+source-wordcount: '1243'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 99%
 | トラフィック管理 | x |  |  |  | 管理者／トラフィック管理へのアクセスを許可します。 |
 | Web サービス | x |  |  |  | 管理者／カンパニー設定／Web サービスへのアクセスを許可します。 |
 | Activity Map |  | x |  |  | ツール／Activity Map へのアクセスを許可します。Activity Map 拡張の使用をユーザーに許可します。 |
-| Ad Hoc Analysis ライセンスユーザー |  | x |  |  | ツール／Ad Hoc Analysis の下のダウンロードボタンを有効にし、ユーザーがツールを認証できるようにします。[詳細情報](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
+| Ad Hoc Analysis ライセンスユーザー |  | x |  |  | Ad Hoc Analysisは暮らしが終わった。 [詳細情報](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | Analysis Workspace アクセス |  | x |  |  | Analysis Workspace へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループ（推奨）または Reports &amp; Analytics アクセスに属している必要があります。 |
 | Analysis Workspace：テンプレートとして保存 |  | x |  |  | Analysis Workspace 内のプロジェクト／テンプレートとして保存へのアクセスを許可します。 |
 | 計算指標の作成 |  | x |  |  | すべての Analytics 機能で計算指標を作成する機能を付与します。 |
