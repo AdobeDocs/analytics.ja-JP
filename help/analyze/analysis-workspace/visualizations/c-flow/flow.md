@@ -3,10 +3,10 @@ description: 'null'
 title: フローの概要
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: '204'
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Analysis Workspace と Reports &amp; Analytics/Ad Hoc Analysis でのフローへのセグメントの適用結果の違いについて詳しくは、[フローとフォールアウトの基礎としてのセグメント化](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)を参照してください。
+>セグメントをフローに適用した結果がAnalysis WorkspaceとReports &amp; Analyticsでどのように異なるかについて詳しくは、[フローとフォールアウトの基盤としてのセグメント化](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)を参照してください。
 
 [フローのビジュアライゼーションのビデオチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=ja-JP)(4:56)
 
