@@ -3,10 +3,10 @@ description: 計算指標の権限は、管理者レベルのユーザーと管�
 title: 計算指標：役割ベースの権限
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
    <td colname="col1"> <b>管理者レベルユーザー</b> </td> 
    <td colname="col02"> 管理者は、計算指標を作成できるだけでなく、<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html"  >グループ</a>を作成して、計算指標を作成するユーザーの権限を制限できます。 </td> 
    <td colname="col2"> 会社全体、ユーザーグループおよび個人ユーザーと共有できます。 </td> 
-   <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>：ユーザー自身および他のユーザーの計算指標の表示／編集／削除などが可能です。 <p> <span class="keyword">Ad Hoc Analysis</span> および <span class="keyword">Report Builder</span>：ユーザー自身の計算指標と他のユーザーと共有している計算指標の表示／編集／削除などが可能です。 </p> </td> 
+   <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>：ユーザー自身および他のユーザーの計算指標の表示／編集／削除などが可能です。 <p> <span class="keyword"> Report Builder </span>:その他を表示、編集、削除できます。独自の計算指標と共有する計算指標。 </p> </td> 
    <td colname="col4"> 計算指標を正規の指標として承認できます。 </td> 
    <td colname="col5"> 組織全体ですべての計算指標を適用できます。 </td> 
   </tr> 
