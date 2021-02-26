@@ -3,10 +3,10 @@ description: 処理に影響を及ぼす可能性のある、Analytics におけ
 title: よくある質問
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 100%
+source-wordcount: '2055'
+ht-degree: 98%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 100%
 [計算指標がマーケティングチャネルレポートに表示されないのはなぜですか？](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [一部の計算指標の数式に、追加した丸括弧が表示されないのはなぜですか？](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
-
-[（Ad Hoc Analysis のみ）埋め込みまたはインラインのセグメント定義を含む計算指標は引き続きサポートされますか？](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
 [（Report Builder のみ）計算指標が要求に表示されなくなったのはなぜですか？](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
@@ -120,7 +118,7 @@ ht-degree: 100%
 
 現在、分類が Numeric または Numeric2 の計算指標は引き続き [!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder] および API に表示されます。ただし、このような指標は、セグメントが適用されたレポートではサポートされません。
 
-また、分類が Numeric または Numeric2 の計算指標は、[!UICONTROL Ad Hoc Analysis]、[!UICONTROL Analysis Workspace]、[!UICONTROL リアルタイムレポート]、[!UICONTROL 異常値検出]および[!UICONTROL 貢献度分析]の各コンポーネントではサポートされません。分類が Numeric または Numeric2 の計算指標を作成または編集すると、互換性に関する警告が表示されます。この警告は、特定の分野の製品との互換性がその計算指標にないことを示します。
+また、分類がNumericまたはNumeric2の計算指標は、次のコンポーネントではサポートされません。[!UICONTROL Analysis Workspace]、[!UICONTROL リアルタイム]レポート、[!UICONTROL 異常値検出]、[!UICONTROL 貢献度分析]。 分類が Numeric または Numeric2 の計算指標を作成または編集すると、互換性に関する警告が表示されます。この警告は、特定の分野の製品との互換性がその計算指標にないことを示します。
 
 **必要な処理**
 
@@ -183,14 +181,6 @@ API と計算指標ビルダーの両方を使用する必要がある場合は�
 ## 一部の計算指標の数式に、追加した丸括弧が表示されないのはなぜですか？ {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
 移行時には、一部の数式から不必要な丸括弧が自動的に削除されます。削除されるのは、指標の計算に影響しない丸括弧のみです。この処理は数式を簡略化するためのものであり、データが変更されることはありません。
-
-## （Ad Hoc Analysis のみ）埋め込みまたはインラインのセグメント定義を含む計算指標は引き続きサポートされますか？ {#section_B25C924A282F49388AB604E3D826F44C}
-
-これまで、Ad Hoc Analysis で作成された計算指標にはインラインセグメント定義を含めることができました。現在では、この処理を行うことはできません。
-
-**必要な処理**
-
-セグメントを明示的に保存する必要があります。インラインセグメント定義を含む既存の計算指標は引き続き正しく実行され、Ad Hoc Analysis でも表示できます。ただし、このような計算指標を保存するには、セグメントを明示的に保存する必要があります。
 
 ## （Report Builder のみ）計算指標が要求に表示されなくなったのはなぜですか？ {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
