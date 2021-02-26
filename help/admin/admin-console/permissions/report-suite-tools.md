@@ -3,10 +3,10 @@ source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 translation-type: tm+mt
 source-wordcount: '647'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
-# レポートスイートツールに対する製品プロファイル権限
+# レポートスイートツールの製品プロファイル権限
 
 このページを使用して、レポートスイートツールの各権限項目について理解します。
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 | 日別再来訪 | Reports &amp; Analytics で、訪問者保持率／日別再来訪へのアクセスを許可します。 |
 | データソースマネージャー | Analytics のトップナビゲーションで管理者／データソースへのアクセスを許可します。権限項目「Report Suite Mgmt」が必要です。 |
 | IP アドレスで除外 | Analytics のトップナビゲーションで、管理者／IP アドレスごとに除外へのアクセスを許可します。 |
-| 最近の訪問者 | 未使用。 |
+| 最近の 100 人の訪問者 | 未使用。 |
 | レガシー ClickMap | 未使用。代わりに、Analytics ツールの Activity Map を使用します。 |
 | レガシー ClickMap のインストール | 未使用。代わりに、Analytics ツールの Activity Map を使用します。 |
 | 再来訪 | Reports &amp; Analytics で、訪問者保持率／再来訪へのアクセスを許可します。 |
