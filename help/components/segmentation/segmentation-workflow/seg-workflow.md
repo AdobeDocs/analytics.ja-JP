@@ -1,12 +1,12 @@
 ---
 description: セグメントビルダーによって作成され、セグメントマネージャによって管理されるセグメント用の推奨ワークフローについて説明します。
 title: セグメントワークフローの概要
-topic: Segments
+topic: セグメント
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ THEN 演算子を使用したセグメントの作成方法については、[�
 
 ![](assets/step3_icon.png) [ セグメントのタグ設定](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-整理および共有が容易に行えるようにセグメントにタグを付けます。Ad Hoc Analysis のフォルダー階層はタグ付けに置き換えられました。簡易検索および詳細検索と整理について詳しくは、タグの計画および割り当て方法に関する説明を参照してください。
+整理および共有が容易に行えるようにセグメントにタグを付けます。簡易検索および詳細検索と整理について詳しくは、タグの計画および割り当て方法に関する説明を参照してください。
 
 ![](assets/step4_icon.png) [ セグメントの承認](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 
