@@ -1,13 +1,13 @@
 ---
 description: ロールアップレポートスイートは、複数の子レポートスイートからデータを集計してまとめたデータセットの形で表示します。
 title: ロールアップレポートスイートとグローバルレポートスイート
-topic: Admin tools
+topic: 管理ツール
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 98%
 
 ---
 
@@ -53,6 +53,6 @@ ht-degree: 100%
 
 **レポート**：グローバルレポートスイートではすべてのディメンションに関する情報が得られるのに対して、ロールアップでは上位レベルのレポートに関する集計データのみが得られます。
 
-**サポート対象製品**：ロールアップは Reports &amp; Analytics でのみ使用できます。Analysis Workspace、Data Warehouse、Ad Hoc Analysis ではサポートされていません。グローバルレポートスイートは、すべての製品で使用できます。
+**サポート対象製品**：ロールアップは Reports &amp; Analytics でのみ使用できます。これらは、Analysis WorkspaceやData Warehouseではサポートされていません。 グローバルレポートスイートは、すべての製品で使用できます。
 
 **集計レポートスイートの数**：ロールアップでサポートされる子レポートスイートは 40 個までです。グローバルレポートスイートは、所有している任意の数のドメインまたはアプリケーションに実装できます。
