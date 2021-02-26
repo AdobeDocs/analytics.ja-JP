@@ -1,13 +1,13 @@
 ---
 description: 'null'
 title: よくある質問
-topic: Segments
+topic: セグメント
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 100%
+source-wordcount: '2074'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,8 @@ ht-degree: 100%
 * セグメントが、レポートスイート全体で共通になりました。
 * [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)は、セグメント作成を簡素化します。
 * [セグメントマネージャ](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を設定できます。
-
-* フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md)して、セグメントを整理したり検索したりできます。これまでは、（[!DNL Ad Hoc Analysis] の）フォルダーを使用してセグメントを整理していました。
-
-* Ad Hoc Analysis 以外でも[連続セグメント](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を作成できます。
+* フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md)して、セグメントを整理したり検索したりできます。
+* [順次セグメント](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を作成できます。
 * ページビューコンテナの名称が「ヒットコンテナ」に変わりました。これは、ページビューだけでなく、すべての種類のデータをセグメント化するコンテナであることを意味しています。例えば、リンクトラッキング呼び出しと、モバイル SDK からの trackAction 呼び出しは、ヒットコンテナの対象になります。このコンテナは名前が変更されただけで、機能に変更はありません。
 
 詳しくは、Digital Marketing Blog の投稿 [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) を参照してください。
@@ -88,11 +86,11 @@ Ad Hoc Analysis と Report Builder には、自分が所有するセグメント
 
 **セグメントマネージャーでは Analytics のセグメントをすべて管理できるのですか？**
 
-すべてのセグメントを、Analysis Workspace、Reports &amp; Analytics および Ad Hoc Analysis のセグメントマネージャで管理できます。セグメントマネージャには、所有者（セグメントを作成したユーザー）、共有先ユーザーおよび管理者ユーザーに表示されるセグメントが表示されます。セグメントの選択には、ユーザーによって所有および共有されるセグメントが表示されます。
+すべてのセグメントをセグメントマネージャで管理できます。 セグメントマネージャには、所有者（セグメントを作成したユーザー）、共有先ユーザーおよび管理者ユーザーに表示されるセグメントが表示されます。セグメントの選択には、ユーザーによって所有および共有されるセグメントが表示されます。
 
 管理者は、Analysis Workspace および [!DNL Reports & Analytics] ユーザーインターフェイス内ですべてのセグメントを表示できます。
 
-Ad Hoc Analysis と Report Builder には、自分が作成したセグメントまたは自分が共有しているセグメントのみが表示されます。
+Report Builderには、自分が作成したセグメントまたは自分が共有しているセグメントのみが表示されます。
 
 **このセグメントを削除できないのはなぜですか？**
 
@@ -125,10 +123,6 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 
 ![](assets/seg_templates.png)
 
-**既存のセグメントフォルダーへの影響**
-
-セグメントマネージャでは、（Ad Hoc Analysis の）フォルダーの代わりに、タグの間に配置する導入方法が一般的でした。フォルダー名はタグに自動的に変換され、個々のセグメントに適用されています。
-
 **セグメントが適用された予定レポートへの影響**
 
 配信レポートは、定義済みのセグメントと共に、これまでと同様に適切に実行されます。
@@ -143,15 +137,9 @@ Ad Hoc Analysis と Report Builder には、自分が作成したセグメント
 
 **Data Warehouse セグメントへの影響**
 
-既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。また、ほとんどの Data Warehouse セグメントは、Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics などの他のコンポーネントでも機能します。
+既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。ほとんどのData Warehouseセグメントは、Analysis WorkspaceやReports &amp; Analyticsなどの他のコンポーネントでも機能します。
 
 新しい Data Warehouse セグメントは、セグメントビルダーとセグメントマネージャで作成または編集できます。セグメントビルダーの製品の互換性メカニズムは、セグメントが Data Warehouse と互換性があるかどうかを自動的に判定します。
-
-**お気に入りセグメント（Ad Hoc Analysis）への影響**
-
-Ad Hoc Analysis のこのセグメントは、Adobe Analytics の通常のセグメントとして表示されます。
-
-セグメントマネージャーのお気に入り機能（セグメントをお気に入りとしてマークする機能）と混同しないようにしてください。
 
 **事前設定済みのセグメントへの影響**
 
@@ -161,9 +149,7 @@ Ad Hoc Analysis のこのセグメントは、Adobe Analytics の通常のセグ
 * **有料検索からの訪問**
 * **訪問者 ID cookie の訪問**
 
-これらのセグメントは、セグメントテンプレートとしてセグメントビルダーに移行されます。
-
-既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。
+これらのセグメントは、セグメントテンプレートとしてセグメントビルダーに移行されます。既存のレポートにこのセグメントが適用されている場合でも、そのレポートは引き続き正しく動作します。
 
 **Experience Cloud（スイート）セグメントへの影響**
 
