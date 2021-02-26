@@ -1,18 +1,18 @@
 ---
-title: Adobe Analytics権限 — 概要表
-description: Admin Consoleで使用可能なAdobe Analyticsの権限をまとめた表。
+title: Adobe Analytics 権限 - 概要テーブル
+description: Admin Console で使用可能な Adobe Analytics の権限をまとめたテーブル。
 translation-type: tm+mt
 source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 source-wordcount: '1255'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
 
-# Adobe Analytics権限 — 概要表
+# Adobe Analytics 権限 - 概要テーブル
 
-次の要約表を使用して、Admin Console内のAdobe Analytics権限を論理グループ別に識別します。
+次の概要テーブルを使用して、Admin Console 内の Adobe Analytics 権限を論理グループで識別します。
 
 ## レポートスイートツール
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 | --- | --- | --- | --- | --- | --- |
 | アカウントの概要 | x |  |  |  | Report Suite Manager の一般／一般的なアカウント設定へのアクセスを許可します。 |
 | チャネル | x |  |  |  | Report Suite Manager で、マーケティングチャネルマネージャー、マーケティングチャネル処理ルール、マーケティングチャネルの有効期限などのマーケティングチャネルへのアクセスを許可します。 |
-| 分類 | x |  |  |  | Report Suite Manager のすべての分類設定へのアクセスを許可します。この権限項目には、次の項目が含まれます。 |
+| 分類 | x |  |  |  | Report Suite Manager のすべての分類設定へのアクセスを許可します。この権限項目には、次が含まれます。 |
 | コンバージョン変数 | x |  |  |  | Report Suite Manager のコンバージョン／コンバージョン変数へのアクセスを許可します。 |
 | コスト | x |  |  |  | Report Suite Manager のマーケティングチャネル／マーケティングチャネルのコストへのアクセスを許可します。 |
 | カスタムカレンダー | x |  |  |  | Report Suite Manager の一般／カレンダーのカスタマイズへのアクセスを許可します。 |
@@ -89,7 +89,7 @@ ht-degree: 94%
 | トラフィック管理 | x |  |  |  | 管理者／トラフィック管理へのアクセスを許可します。 |
 | Web サービス | x |  |  |  | 管理者／カンパニー設定／Web サービスへのアクセスを許可します。 |
 | Activity Map |  | x |  |  | ツール／Activity Map へのアクセスを許可します。Activity Map 拡張の使用をユーザーに許可します。 |
-| Ad Hoc Analysis ライセンスユーザー |  | x |  |  | ツール／Ad Hoc Analysis の下のダウンロードボタンを有効にし、ユーザーがツールを認証できるようにします。[詳細情報](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Ad Hoc Analysis ライセンスユーザー |  | x |  |  | ツール／Ad Hoc Analysis の下のダウンロードボタンを有効にし、ユーザーがツールを認証できるようにします。[詳細情報](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | Analysis Workspace アクセス |  | x |  |  | Analysis Workspace へのアクセスを許可します。Adobe Analytics を使用するには、ユーザーがこのグループ（推奨）または Reports &amp; Analytics アクセスに属している必要があります。 |
 | Analysis Workspace：テンプレートとして保存 |  | x |  |  | Analysis Workspace 内のプロジェクト／テンプレートとして保存へのアクセスを許可します。 |
 | 計算指標の作成 |  | x |  |  | すべての Analytics 機能で計算指標を作成する機能を付与します。 |
