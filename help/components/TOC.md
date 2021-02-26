@@ -5,9 +5,9 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
 translation-type: tm+mt
-source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '637'
 ht-degree: 99%
 
 ---
@@ -168,7 +168,6 @@ ht-degree: 99%
       + [トラブルシューティング](segmentation/seg-reference/c-troubleshooting.md)
    + [よくある質問](segmentation/seg-transition.md)
    + [ベストプラクティス](segmentation/best-practices.md)
-   + [Ad Hoc Analysis の移行ガイド](segmentation/seg-transition-ad-hoc.md)
 + 計算指標 {#calculated-metrics}
    + [計算指標および高度な計算（派生）指標](c-calcmetrics/cm-overview.md)
    + [よくある質問](c-calcmetrics/cm-transition.md)
