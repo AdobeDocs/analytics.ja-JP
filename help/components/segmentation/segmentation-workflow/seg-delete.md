@@ -1,12 +1,12 @@
 ---
 description: セグメントを削除する前に検討する必要があるいくつかの事項を示します。
 title: セグメントの削除
-topic: Segments
+topic: セグメント
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -24,9 +24,3 @@ ht-degree: 100%
    ![](assets/duplicate_seg_names.png)
 
    このとき、mainprod レポートスイートのセグメントを参照するブックマークがあるとします。このセグメントは重複しているので、セグメントを削除します。その後も、このブックマークは引き続き、削除されたセグメントの定義を参照します。ここで残っている方のセグメントのセグメント定義に手を加え、カタリナ島とメキシコのティフアナを含めるように変更しても、このブックマークに適用されているセグメントは変更されません。このセグメントは古い定義を使用したままです。これを修正するには、新しい定義を参照するようにブックマークを更新します。ブックマーク、ダッシュボードまたは配信レポートで削除されたセグメントを使用しているかどうかが不明な場合は、残りのセグメントの名前を変更できます。ブックマークが残りのセグメントを使用しているかどうかがより明確になります。
-
-## Ad Hoc Analysis での埋め込みの削除済みセグメントの編集 {#section_976D601DBD2244E38B0A0222E31D2610}
-
-Ad Hoc Analysis では、[計算指標ビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/cm-overview.html)内で埋め込みの削除済みセグメントを編集し、そのセグメントに対して「名前を付けて保存」操作を実行できるようになりました。
-
-ただし、該当する削除済みセグメントを参照するその他の削除済みセグメントは変更されません。
