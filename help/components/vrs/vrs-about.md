@@ -3,10 +3,10 @@ description: 仮想レポートスイートを使用すると、Adobe Analytics 
 title: 仮想レポートスイートの概要
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '789'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 | 機能 | 仮想レポートスイート | マルチスイートタギング |
 |--- |--- |--- |
 | リアルタイムまたは「現在のデータ」のレポーティング | × | ○ |
-| すべての Analytics ツール（Analysis Workspace、Report Builder、Ad Hoc Analysis など）で機能 | はい。注意：仮想レポートスイートとして編集や指定ができるのは、Reports &amp; Analytics 内のみです。ただし、他のツール内でも、レポートスイートのドロップダウンで選択することは可能です。 | ○ |
+| すべてのAnalyticsツール(Analysis Workspace、Report Builderなど)で機能 | はい。**注意：**&#x200B;仮想レポートスイートとして編集や指定ができるのは、Reports &amp; Analytics 内のみです。ただし、他のツール内でも、レポートスイートのドロップダウンで選択することは可能です。 | ○ |
 | データのアップロード（分類、データフィードなどを使用） | × | ○ |
 | DL レポート、ブックマーク、ダッシュボード、ターゲット、アラート、セグメント、計算指標などの作成： | ○ | ○ |
 | 権限グループへの個別の追加 | ○ | ○ |
