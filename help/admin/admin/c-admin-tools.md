@@ -3,9 +3,9 @@ description: Adobe Analytics の管理ツールのインデックス。
 title: 管理ツール
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
 + [IP アドレスで除外](exclude-ip.md)
 + [検索方法](finding-methods.md)
 + [一般的なアカウント設定](general-acct-settings-admin.md)
-+ [グループ管理](group.md)
 + [内部 URL フィルター](internal-url-filter-admin.md)
 + [ログ](logs.md)
 + [マーケティングチャネル](marketing-channels-admin.md)
