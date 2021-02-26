@@ -2,10 +2,10 @@
 description: Ad Hoc Analysis を使い始める
 title: Ad Hoc Analysis の概要
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +16,4 @@ Ad Hoc Analysis を使用すると、無制限のリアルタイム訪問者情�
 
 >[!IMPORTANT]
 >
->Adobeは2021年3月1日にAd Hoc Analysisを廃止に移す。 [詳細情報](https://adobe.ly/discoverworkspace)
-
-## 新しいトピックとよく参照されるトピック
-
-* Ad Hoc Analysis プロジェクトを Analysis Workspace プロジェクトへとシームレスに変換できるようになりました。[Ad Hoc Analysis Project Converter の概要](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)に移動して、方法をご確認ください。
-* [Ad Hoc Analysis と Analysis Workspace の比較](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)の節を確認します。Analysis Workspace は、Ad Hoc Analysis の多くの機能をブラウザーワークフローにもたらします。両製品で同じままの用語と機能もありますが、Analysis Workspace ではいくつかの新しい用語と分析アプローチが導入されています。
-* [管理](/help/analyze/ad-hoc-analysis/c-administration.md)：ユーザーとサンプルデータの設定方法について説明します。
+>アドビは、2021 年 3 月 1 日（PT）に Ad Hoc Analysis の提供を終了します。[詳細情報](https://adobe.ly/discoverworkspace)
