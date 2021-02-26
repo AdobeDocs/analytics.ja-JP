@@ -2,12 +2,12 @@
 description: あるユーザーアカウントから別のユーザーのアカウントにユーザーアカウント項目（ダッシュボード、計算指標、カレンダーイベント、アラート、ブックマーク、セグメント、Analysis Workspace プロジェクトおよびスケジュールされたプロジェクト）を割り当てる方法について手順を説明します。
 subtopic: Users and groups
 title: ユーザーアカウント項目の転送
-topic: Admin tools
+topic: 管理ツール
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -30,8 +30,3 @@ ht-degree: 100%
 1. 「**[!UICONTROL OK]**」をクリックし、選択したアカウントリソースを転送することを確認します。
 
    転送先ユーザーは、元のユーザーが所有していた選択済みアカウントリソースの全権限を受け取ります（ただし、予定レポートに対する権限は除きます）。
-
-   >[!NOTE]
-   >
-   >Ad Hoc Analysis のリソースは転送できません。企業が複数のログイン会社名を使用している場合、ログイン会社間では何も転送できません。
-
