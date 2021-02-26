@@ -5,9 +5,9 @@ user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定などについて説明します。
 translation-type: tm+mt
-source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '727'
 ht-degree: 99%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 99%
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [検索方法](admin/finding-methods.md)
    + [一般的なアカウント設定](admin/general-acct-settings-admin.md)
-   + [グループ管理](admin/group.md)
    + [内部 URL フィルター](admin/internal-url-filter-admin.md)
    + [ログ](admin/logs.md)
    + [マーケティングチャネル](admin/marketing-channels-admin.md)
@@ -164,7 +163,6 @@ ht-degree: 99%
          + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行](user-management2/user-migration/migrate-enterprise.md)
          + [従来のログインの無効化](user-management2/user-migration/t-disable-legacy-login.md)
          + [移行の影響を受ける API](user-management2/user-migration/developer.md)
-      + [Ad Hoc Analysis ユーザーの管理](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + ユーザーグループ {#user-groups}
       + [ユーザーグループの追加](user-management2/c-user-groups/t-user-group.md)
       + [ユーザーグループ設定](user-management2/c-user-groups/groups.md)
