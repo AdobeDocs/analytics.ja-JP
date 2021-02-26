@@ -1,13 +1,13 @@
 ---
 description: セグメントマネージャでは、セグメントを様々な方法で管理できます。例えば、共有、フィルターを適用、タグ付け、承認、コピー、削除およびお気に入りへの登録が可能です。
 title: セグメントの管理
-topic: Segments
+topic: セグメント
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 97%
 
 ---
 
@@ -45,15 +45,3 @@ Analytics セグメントマネージャには、自分が所有しているす�
 | 12 | 共有アイコン | 既にこのセグメントを自分が共有していることを示します。 |
 | 13 | 承認済みアイコン | このセグメントが管理者によって承認されていることを示します。 |
 | 14 | フィルター | タグ、レポートスイート、所有者およびその他（すべてを表示、自分が所有、自分と共有、承認済み、お気に入り）のフィルターを確認および選択できます。 |
-
-## Ad Hoc Analysis でのセグメントマネージャ {#section_CC8BDC968EBC4BC1919870869D8443A9}
-
-Ad Hoc Analysis のセグメントオーガナイザーには、自分が所有しているすべてのセグメントと自分が共有しているセグメントが表示されます。
-
-[!DNL ad hoc analysis] のセグメントオーガナイザーにアクセスするには：
-
-* 左のパネルにある「**[!UICONTROL セグメント]**」タブに移動し、レンチアイコン ![](assets/wrench_icon.png) をクリックして、メニューから「**[!UICONTROL セグメントを整理]**」を選択します。
-
-![](assets/ad_hoc_organize_segments.png)
-
-Web ユーザーインターフェイスのセグメントマネージャと同様、このコンソールも複数の機能を備えており、セグメントの共有、タグ付け、承認、コピー、削除、お気に入りへの登録などを行うことができます。
