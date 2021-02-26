@@ -1,12 +1,12 @@
 ---
 description: Report Builder で Adobe Analytics のセグメントを追加、編集、適用およびフィルターする方法について説明します。
 title: セグメントの管理
-topic: Report builder
+topic: Report Builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 
 ## セグメントの検索および適用  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Reports &amp; Analytics、Ad Hoc Analysis、Report Builder または Data Warehouse で作成したすべてのセグメントがこのセグメント一覧に表示されます。一覧を更新するには、更新アイコン（![](assets/refresh_icon.png)）をクリックします。
+Reports &amp; Analytics、Report Builder または Data Warehouse で作成したすべてのセグメントがこのセグメント一覧に表示されます。一覧を更新するには、更新アイコン（![](assets/refresh_icon.png)）をクリックします。
 
 リクエストに 1 つ以上のセグメントを適用できます。これには順次セグメントも含まれます。
 
