@@ -1,13 +1,13 @@
 ---
 description: グレゴリオ暦以外のカレンダーオプションです。オプションには 4-4-5 制、4-5-4 制および 5-4-4 制のカレンダーモデルがあり、すべて小売業界では標準として使用されています。さらに、レポーティングでは、自分で設定できる完全にカスタマイズ可能なカレンダーのオプションを提供しています。
 title: カレンダーのカスタマイズ
-topic: Admin tools
+topic: 管理ツール
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 98%
+source-wordcount: '476'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 98%
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：1 月は 4 週、2 月は 5 週、3 月は 4 週などとなります。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：1 月は 4 週、2 月は 4 週、3 月は 5 週などとなります。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-4-4</b>：1 月は 5 週、2 月は 4 週、3 月は 4 週などとなります。 </li> 
-    </ul> <p>注意：このカレンダーオプションは、Data Warehouse を除くすべての Adobe Analytics ツール（Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map、Ad Hoc Analysis）でサポートされています。Data Warehouse ではカスタムカレンダーをサポートしていません。 </p> </td> 
+    </ul> <p>注意： このカレンダーオプションは、カスタムカレンダーをサポートしないData Warehouseを除き、すべてのAdobe Analyticsツール(Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map)でサポートされます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
