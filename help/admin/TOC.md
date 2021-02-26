@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -111,10 +111,10 @@ ht-degree: 96%
 + Admin Console での Adobe Analytics {#admin-console}
    + [Admin Console での Adobe Analytics](admin-console/home.md)
    + 権限 {#permissions}
-      + [Admin ConsoleでのAnalytics権限](admin-console/permissions/summary-tables.md)
-      + [Adobe Analytics向け商品プロファイル](admin-console/permissions/product-profile.md)
-      + [レポートスイートツールに対する製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
-      + [Analyticsツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
+      + [Admin Console での Analytics 権限](admin-console/permissions/summary-tables.md)
+      + [Adobe Analytics の製品プロファイル](admin-console/permissions/product-profile.md)
+      + [レポートスイートツールの製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
+      + [Analytics ツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics はじめての管理ガイド](admin-console/first-admin-guide.md)
 + カンパニー設定 {#company-settings}
    + [カンパニー設定の概要](company/c-company-settings.md)
