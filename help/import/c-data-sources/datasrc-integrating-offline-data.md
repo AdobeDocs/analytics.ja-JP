@@ -2,13 +2,13 @@
 description: データソースには、オフラインで発生するイベントをオンラインデータに統合する方法がさらに 2 つ用意されています。
 subtopic: Data sources
 title: トランザクションの統合と顧客の統合
-topic: Developer and implementation
+topic: 開発者と実装
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 84%
 
 ---
 
@@ -64,8 +64,6 @@ ht-degree: 100%
 
 オンラインからオフラインに移行する際、顧客は匿名であることが少なくありません。
 
-トランザクション ID イベントは、（マーケティングレポートに表示される）訪問パーティシペーション指標には含まれませんが、（ad hoc analysis でのみ参照できる）訪問者パーティシペーション指標には含まれます。
+トランザクションIDのイベントは、訪問パーティシペーション指標（マーケティングレポートに表示される指標）には含まれません。 これは、トランザクションIDデータが訪問と関連付けられていないのに(通常、オフラインイベントはオンラインイベントに属していないので)、訪問者と関連付けられているからです。
 
-これは、トランザクション ID データが訪問とは関連付けられておらず（通常、オフラインイベントはオンラインイベントに含まれないため）、訪問者と関連付けられているからです。
-
-参照：[トランザクション ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
+[トランザクションID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)を参照してください。
