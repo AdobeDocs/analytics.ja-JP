@@ -3,13 +3,13 @@ description: 従来の権限の内容
 keywords: グループ;権限
 subtopic: Users and groups
 title: ユーザーおよびグループ権限の変更
-topic: Admin tools
+topic: 管理ツール
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 99%
+source-wordcount: '1565'
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ API とインターフェイスでは同じ権限付与システムを使用し�
   </tr> 
   <tr> 
    <td colname="col1"> <p>定義済みグループの変更 </p> </td> 
-   <td colname="col2"> <p> <b>管理者アクセス：</b>管理者には、定義済みのグループは、必要なくなりました。管理者は、すべての項目（ツール、指標、ディメンション）に加え、Web サービス、Report Builder、Activity Map、Ad Hoc Analysis にアクセスできるようになりました。 </p> <p>将来的なグループの目的は、管理者以外のユーザーにアクセスを付与または制限することです。 </p> <p> <b>カスタムグループ：</b>カスタムグループが、定義済みのグループから置き換わりました。既存の定義済みグループは、同じグループ名を使用して、カスタムグループに移行されます。作成したカスタムグループは、その設定も含めて保持されます。ただし、設定の場所が移動されることに注意してください。例えば、（Admin Console のカスタマイズの）カンパニー設定は、現在は、<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Analytics ツールのカスタマイズ</a>にあります。 </p> <p> 「<span class="term">すべてのレポートアクセス</span>」に属するユーザーは、次のアクセス権を持つカスタムグループに移行されました。 </p> 
+   <td colname="col2"> <p> <b>管理者アクセス：</b>管理者には、定義済みのグループは、必要なくなりました。管理者は、すべての項目（ツール、指標、ディメンション）に加え、Webサービス、Report BuilderおよびActivity Mapにアクセスできるようになりました。 </p> <p>将来的なグループの目的は、管理者以外のユーザーにアクセスを付与または制限することです。 </p> <p> <b>カスタムグループ：</b>カスタムグループが、定義済みのグループから置き換わりました。既存の定義済みグループは、同じグループ名を使用して、カスタムグループに移行されます。作成したカスタムグループは、その設定も含めて保持されます。ただし、設定の場所が移動されることに注意してください。例えば、（Admin Console のカスタマイズの）カンパニー設定は、現在は、<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Analytics ツールのカスタマイズ</a>にあります。 </p> <p> 「<span class="term">すべてのレポートアクセス</span>」に属するユーザーは、次のアクセス権を持つカスタムグループに移行されました。 </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">すべてのディメンション </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">すべての指標 </li> 
