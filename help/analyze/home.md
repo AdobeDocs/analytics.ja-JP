@@ -2,10 +2,10 @@
 title: Analytics ツールガイド
 description: Analysis Workspace、Adobe Analyticsのダッシュボード、Activity Map、Report Builder、レポートAPI、Reports & Analytics向けの製品ドキュメントおよびセルフヘルプ。
 translation-type: tm+mt
-source-git-commit: 378a1e8899722ce558677fdf2d57070d1a7ff965
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 75%
+source-wordcount: '235'
+ht-degree: 77%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 75%
 * **[!UICONTROL Report Builder]：** Analytics データを取得してブックに直接配置できる、Excel アドインです。
 * **[!UICONTROL レポート API]：**&#x200B;アドビのサーバーに直接レポートクエリをおこない、応答を取得して独自のお客様レポートツールで使用します。
 * **[!UICONTROL Reports &amp; Analytics]：**&#x200B;多くのレポートがあらかじめ組み込まれているツールです。アドビでは、ほとんどのレポートニーズに対して Analysis Workspace を使用することをお勧めします。
-* **[!UICONTROL Ad Hoc Analysis]：**&#x200B;堅牢なレポート機能を備えたスタンドアロン Java アプリケーションです。このツールは更新されなくなり、2021年3月1日[に日没します。](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)
 
 ## 主な Analytics ツール記事
 
