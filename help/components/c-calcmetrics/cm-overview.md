@@ -4,10 +4,10 @@ keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 
@@ -37,18 +37,13 @@ ht-degree: 100%
 
 ## 機能 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
-データが誤用されていたり、アカウントの期限が切れている場合、
+次のことが可能です。
 
-* [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Ad Hoc Analysis]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]および[!UICONTROL 貢献度分析]にまたがる指標を作成する。
+* [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]、[!UICONTROL 貢献度分析]にわたる指標を作成します。
 * [実装を変更することなく](https://youtu.be/CuQTm9RaUpY)、レポートの実行時に得られる、セグメント化された指標を作成する。これらの指標はセグメントに基づいているので、時系列で表示できます。
 * レポートスイート間で指標を共有する。つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
 * （高度な計算指標のみ）指標でセグメント化する。例えば、初回セッションの訪問者数を含む、「初回訪問者数」の指標を作成できます。
 * （高度な計算指標のみ）統計関数を組み込んで、データからより適切な情報を得る。例えば、レポート内の項目数をカウントしたり、各項目の標準偏差の数を追加したりできます。
-* [!UICONTROL Ad Hoc Analysis] で作成した指標を他のツールで利用する。または、他の [!DNL Analytics] ツールで作成した指標を Ad Hoc Analysis で利用する。
-
-   >[!NOTE]
-   >
-   >Ad Hoc Analysis では、指標を引き続き作成できます。計算指標ビルダーでは、新しい指標ビルダーと似たユーザーインターフェイスが採用されています。
 
 ## 制限事項 {#section_CB878B02451541D68A68B508D4DBD19A}
 
