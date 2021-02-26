@@ -1,13 +1,13 @@
 ---
 description: 新しいレポートスイートを作成するには、事前定義済みのテンプレートを選択するか、モデルとなる既存のレポートスイートを 1 つ選択して使用します。
 title: 新しいレポートスイート - 設定
-topic: Admin tools
+topic: 管理ツール
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 94%
+source-wordcount: '537'
+ht-degree: 93%
 
 ---
 
@@ -65,11 +65,7 @@ ht-degree: 94%
   <tr> 
    <td colname="col1"> <span class="wintitle">2 バイト文字サポートの無効化</span> </td> 
    <td colname="col2"> <p>レポートスイートのマルチバイト文字サポートを無効にします。マルチバイト文字のサポートが無効になっている場合、システムはデータを ISO-8859-1 形式であると想定します。Web ページの文字セットは、<span class="varname"> charSet</span> JavaScript 変数で設定する必要があります。 </p> <p>マルチバイト文字のサポートでは、UTF-8 を使用してレポートスイートに文字が保存されます。この要求を受けると、Web ページの文字セットから UTF-8 文字セットにデータが変換されて、マーケティングレポートで任意の言語を使用できるようになります。 </p> <p>既存のレポートスイートのマルチバイト文字サポートを変更する場合は、担当のアカウントマネージャーまたはカスタマーケアにお問い合わせください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> このスイートの Ad Hoc Analysis をアクティブにする</span> </td> 
-   <td colname="col2"> ad hoc analysis の実行時にこのレポートスイートを表示できるようにします。 </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
