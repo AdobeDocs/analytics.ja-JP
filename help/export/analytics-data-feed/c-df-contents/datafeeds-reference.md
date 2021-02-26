@@ -3,12 +3,12 @@ description: データフィードの各列について説明するテーブル�
 keywords: データフィード；列
 subtopic: data feeds
 title: データ列リファレンス
-topic: Reports and analytics
+topic: Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: f3b227e7d2f239076f7c38abd42af6e1a86b0069
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '3406'
+source-wordcount: '3396'
 ht-degree: 81%
 
 ---
@@ -178,7 +178,6 @@ ht-degree: 81%
 | `resolution` | モニターの解像度を表す数値 ID。[画面の解像度](/help/components/dimensions/monitor-resolution.md)のディメンションで使用されます。 `resolution.tsv`ルックアップテーブルを使用します。 | smallint unsigned |
 | `s_kwcid` | Adobe Advertising Cloud 統合で使用されるキーワード ID。 | varchar(255) |
 | `s_resolution` | 画面解像度の生の値。JavaScript関数`screen.width x screen.height`を使用して収集されます。 | char(20) |
-| `sampled_hit` | 廃止。以前 Ad Hoc Analysis でサンプリングに使用されていました。 | char(1) |
 | `search_engine` | サイトに訪問者を誘導した検索エンジンを表す数値 ID。`search_engines.tsv`参照を使用します。 | smallint unsigned |
 | `search_page_num` | [すべての検索ページランク](/help/components/dimensions/all-search-page-rank.md)ディメンションで使用されます。 ユーザーがクリックスルーしてサイトに到達する前にサイトが表示された検索結果ページを示します。 | smallint unsigned |
 | `secondary_hit` | 二次的なヒットを追跡するフラグ。通常は、ヒットをコピーするマルチスイートタギングおよびVISTAルールに由来します。 | tinyint unsigned |
