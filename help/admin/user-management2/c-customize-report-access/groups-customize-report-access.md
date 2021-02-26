@@ -3,13 +3,13 @@ description: Analytics ツール、レポートスイートツール、指標お
 keywords: グループ;権限
 subtopic: Users and groups
 title: レポートアクセスのカスタマイズ - 概要
-topic: Admin tools
+topic: 管理ツール
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 Analytics ツール、レポートスイートツール、指標およびディメンションに対するグループ権限をカスタマイズします。
 
@@ -42,7 +42,7 @@ Analytics ツール、レポートスイートツール、指標およびディ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>管理者アクセス／定義済みのグループ </p> </td> 
-   <td colname="col2"> <p> 管理者には、定義済みのグループは不要になりました。管理者は、すべての項目（ツール、指標、ディメンション）に加え、Web サービス、Report Builder、Activity Map、Ad Hoc Analysis にアクセスできるようになりました。 </p> <p>グループの目的は、管理者以外のユーザーにアクセスを付与または制限することです。 </p> </td> 
+   <td colname="col2"> <p> 管理者には、定義済みのグループは不要になりました。管理者は、すべての項目（ツール、指標、ディメンション）に加え、Webサービス、Report BuilderおよびActivity Mapにアクセスできるようになりました。 </p> <p>グループの目的は、管理者以外のユーザーにアクセスを付与または制限することです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタムグループ </p> </td> 
