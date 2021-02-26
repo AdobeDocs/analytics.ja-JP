@@ -1,13 +1,13 @@
 ---
 description: セグメントを使用すると、特性や Web サイトでのインタラクションに基づいて訪問者のサブセットを識別できます。セグメントは、分類された閲覧者インサイトとして設計され、特定のニーズに合わせて作成することができ、確認、編集および他のチームメンバーと共有したり、他の Adobe 製品や Analytics 機能で使用したりできます。
 title: セグメントおよびコンテナについて
-topic: Segments
+topic: セグメント
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 99%
+source-wordcount: '3700'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 セグメントは、[!UICONTROL 訪問者]、[!UICONTROL 訪問]および[!UICONTROL ヒット]の各レベル階層に基づき、ネストされたコンテナモデルを使用して構成されます。ネストされたコンテナを使用することで、コンテナ間およびコンテナ内のルールに基づいて、訪問者の属性とアクションを定義できます。Analytics セグメントは、[!DNL Adobe Experience Cloud] の複数の製品および機能間で構築、承認、共有、保存および実行できます。セグメントはレポートから生成したり、ダッシュボードレポートに組み込んだりできます。また、セグメントをブックマークに登録すると、セグメントにすばやくアクセスできるようになります。
 
-セグメントビルダーでセグメントを作成して保存することも、（[!DNL ad hoc analysis] で）フォールアウトレポートからセグメントを生成することもできます。また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。さらに、[積み重ねセグメント](/help/components/segmentation/segmentation-workflow/seg-workflow.md)として複数のセグメントを使用することもできます。
+セグメントビルダーでセグメントを作成して保存したり、フォールアウトレポートから(Analysis Workspaceで)セグメントを生成したりできます。 また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。さらに、[積み重ねセグメント](/help/components/segmentation/segmentation-workflow/seg-workflow.md)として複数のセグメントを使用することもできます。
 
 ## セグメント {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
