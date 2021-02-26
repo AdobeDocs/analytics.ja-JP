@@ -2,9 +2,9 @@
 description: Workspace に関する FAQ
 title: よくある質問と Workspace のトラブルシューティング
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 100%
 | Analysis Workspace は Adobe Analytics の事前設定済みレポートを変更しますか。 | いいえ。環境が異なるので、Adobe Analytics の既存のレポートや事前設定されたレポートは変更されません。Analysis Workspace を使用する際も、標準の Reports &amp; Analytics および Report Builder のレポートを使用できます。 |
 | Data Warehouse で Analysis Workspace を使用できますか。 | Analysis Workspace は、一括データエクスポートにはお勧めしません。これは、ダッシュボードのような分析プロジェクトを作成するビジュアライゼーションワークスペースです。 |
 | Analysis Workspace のパフォーマンスを最適化するにはどうすればよいですか。 | 詳しくは、[パフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)を参照してください。 |
-| Analysis Workspace と Ad Hoc Analysis の機能の違いを教えてください。 | 詳しくは、[ Analysis Workspace と Ad Hoc Analysis の比較](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)を参照してください。 |
 
 ## トラブルシューティング
 
