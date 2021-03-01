@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
-user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Report Builder や Activity Map などのツールの使用手順について説明します。
+user-guide-description: Analyticsの主要な分析と視覚化ツールであるAnalysis Workspaceの操作方法、およびAdobe Analyticsダッシュボード、Report Builder、Activity Mapなどのツールについて説明します。
 translation-type: tm+mt
-source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
+source-git-commit: a52f2f916db322ddb6226a5d3aa1f5585bf09539
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1017'
+ht-degree: 97%
 
 ---
 
@@ -306,15 +306,6 @@ ht-degree: 100%
    + [カレンダーイベント](reports-analytics/t-calendar-event.md)
    + [よくある質問](reports-analytics/frequently-asked-questions.md)
    + [トラブルシューティング](reports-analytics/report-troubleshooting.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
-   + Ad Hoc Analysis プロジェクトコンバーター {#aha-project-converter}
-      + [Ad Hoc Analysis プロジェクトコンバーターの概要](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
-      + [Ad Hoc Analysis のプロジェクトの変換](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
-      + [Analysis Workspace での変換後のプロジェクトの表示](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
-      + [プロジェクトコンバーターに関する FAQ](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
-   + [Ad Hoc Analysis の概要](ad-hoc-analysis/adhoc-home.md)
-+ Labs {#tech-previews}
-   + [Labs の概要](tech-previews/overview.md)
 + Adobe Analytics ダッシュボード {#mobapp}
    + [Adobe Analytics ダッシュボード — 概要](mobile-app/home.md)
    + [キュレーター向けガイド](mobile-app/curator.md)
@@ -325,3 +316,5 @@ ht-degree: 100%
    + [Analytics レポート API の概要](c-reporting-api/c-reporting-api.md)
    + [Analytics レポート API の比較](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
++ Labs {#tech-previews}
+   + [Labs の概要](tech-previews/overview.md)
