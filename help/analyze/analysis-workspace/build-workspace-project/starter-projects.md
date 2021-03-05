@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 標準またはカスタムのテンプレートに基づいて、Workspaceプロジェクトを作成します。
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 100%
+source-wordcount: '1397'
+ht-degree: 99%
 
 ---
 
