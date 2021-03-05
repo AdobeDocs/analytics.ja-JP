@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Adobe AnalyticsでDemandbaseデータコネクタを使用します。
 title: Adobe Analytics 用 Demandbase Data Connector
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 96%
+source-wordcount: '335'
+ht-degree: 94%
 
 ---
 
