@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Advertising Analyticsに関する問題のトラブルシューティングと修正。
 title: Advertising Analytics のトラブルシューティング
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 95%
 
 ---
 
