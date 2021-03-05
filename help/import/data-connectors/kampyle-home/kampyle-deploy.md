@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Kampyle data connectorをAdobe Analyticsにデプロイします。
 title: 統合のデプロイ
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 46%
 
 ---
 
