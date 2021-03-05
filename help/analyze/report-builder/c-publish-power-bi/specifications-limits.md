@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Report BuilderとMicrosoftPower BIを使用する場合の制限事項。
 title: 制限および仕様
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 98%
+source-wordcount: '624'
+ht-degree: 97%
 
 ---
 
