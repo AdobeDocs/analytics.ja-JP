@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Workspaceプロジェクトでフロービジュアライゼーションを使用します。
 title: フロービジュアライゼーションの設定
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 97%
 
 ---
 
