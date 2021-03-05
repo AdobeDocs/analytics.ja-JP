@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Data Warehouseでリクエストをスケジュールし、繰り返し実行します。
 title: 定期的なリクエストのスケジュール設定
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 100%
+source-wordcount: '74'
+ht-degree: 85%
 
 ---
 
