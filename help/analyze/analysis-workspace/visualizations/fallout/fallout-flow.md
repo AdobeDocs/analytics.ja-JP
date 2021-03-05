@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Workspaceプロジェクトでフォールアウトビジュアライゼーションを使用します。
 title: フォールアウトの概要
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 84%
+source-wordcount: '502'
+ht-degree: 83%
 
 ---
 
