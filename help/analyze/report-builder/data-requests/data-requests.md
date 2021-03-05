@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Report Builderでリクエストを作成する場合の最初の手順。
 title: データリクエスト - リクエストウィザード：ステップ 1
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '420'
+ht-degree: 97%
 
 ---
 
