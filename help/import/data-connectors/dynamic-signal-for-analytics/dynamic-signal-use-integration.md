@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Dynamic Signal VoiceStormデータコネクタをAdobe Analyticsと共に使用します。
 title: 統合の使用
 uuid: c902a868-20a7-42df-8a79-8e154608f299
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 97%
 
 ---
 
