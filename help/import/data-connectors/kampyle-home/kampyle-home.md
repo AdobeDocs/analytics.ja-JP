@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: KampyleデータコネクタとAdobe Analyticsを使用します。
 title: Adobe Analytics 用 Kampyle Data Connector
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 95%
+source-wordcount: '274'
+ht-degree: 93%
 
 ---
 
