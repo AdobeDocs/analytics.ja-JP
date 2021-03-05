@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Workspaceプロジェクトでフロービジュアライゼーションを使用します。
 title: フローの設定
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 96%
 
 ---
 
