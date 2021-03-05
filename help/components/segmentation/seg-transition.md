@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: セグメントに関するよくある質問です。
 title: よくある質問
 topic: セグメント
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2078'
 ht-degree: 97%
 
 ---
