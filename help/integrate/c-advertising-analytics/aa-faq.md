@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Advertising Analyticsに関するよくある質問。
 title: よくある質問
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 100%
+source-wordcount: '1411'
+ht-degree: 99%
 
 ---
 
