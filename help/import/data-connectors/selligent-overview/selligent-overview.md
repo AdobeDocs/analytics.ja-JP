@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Selligentのdata connectorは、Adobe Analyticsと共に使用します。
 title: Adobe Analytics 用 Selligent Data Connector
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 98%
+source-wordcount: '902'
+ht-degree: 97%
 
 ---
 
