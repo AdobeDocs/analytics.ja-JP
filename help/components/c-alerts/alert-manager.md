@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: アラートを管理.
 title: アラートマネージャー
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
