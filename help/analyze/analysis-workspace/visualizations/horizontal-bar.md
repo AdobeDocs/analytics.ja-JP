@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Workspaceプロジェクトで横棒グラフのビジュアライゼーションを使用します。
 title: 横棒グラフおよび積み重ね横棒グラフ
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '70'
+ht-degree: 87%
 
 ---
 
