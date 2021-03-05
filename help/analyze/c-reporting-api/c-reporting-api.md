@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: レポートAPIのリソースとリンクです。
 title: Analytics レポート API
 uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 100%
+source-wordcount: '34'
+ht-degree: 79%
 
 ---
 
