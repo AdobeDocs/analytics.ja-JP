@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Adobeがデータソースの処理に要する時間に関する情報。
 title: データソース処理時間
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 90%
 
 ---
 
