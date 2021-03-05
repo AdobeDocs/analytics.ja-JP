@@ -1,14 +1,14 @@
 ---
-description: 'null'
+description: DFA data connectorに関するよくある質問です。
 keywords: DFA
 title: よくある質問
-topic: Data connectors
+topic: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
