@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: MicrosoftPower BIでReport Builderを使用する。
 title: Power BI への発行 - 概要
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1026'
+ht-degree: 99%
 
 ---
 
