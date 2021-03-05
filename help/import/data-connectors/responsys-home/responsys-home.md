@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Adobe AnalyticsのResponsysデータコネクタを使用します。
 title: Adobe Analytics 用 Responsys Data Connector
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 95%
+source-wordcount: '277'
+ht-degree: 93%
 
 ---
 
