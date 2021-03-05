@@ -1,11 +1,11 @@
 ---
 title: Analytics コンポーネントガイド
-description: 'null'
+description: Adobe Analyticsのオファーが使用する様々なコンポーネントについて説明します。
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 95%
 
 ---
 
