@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Advertising Analytics周辺の使用例。
 title: Audience Analytics の使用例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 97%
 
 ---
 
