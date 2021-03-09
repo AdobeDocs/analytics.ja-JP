@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 99%
 + データガバナンス {#data-governance}
    + [Adobe Analytics と GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics と CCPA](c-data-governance/an-ccpa-overview.md)
-   + [CNILの同意除外](c-data-governance/cnil-consent-exemption.md)
+   + [CNIL 同意要件の適用除外](c-data-governance/cnil-consent-exemption.md)
    + [よくある質問](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics データプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
    + [レポートスイートのデータガバナンス設定の表示／管理](c-data-governance/gdpr-view-settings.md)
