@@ -1,18 +1,18 @@
 ---
 title: 訪問者別滞在時間（秒）
-description: null
+description: 「訪問者別滞在時間（秒）」指標は、訪問者の全期間に訪問者が特定のディメンション項目を操作した平均時間を示します。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 85%
 
 ---
 
 
 # 訪問者別滞在時間（秒）
 
-「訪問者別滞在時間（秒）」指標は、訪問者の全期間に訪問者が特定のディメンション項目を操作した平均時間を示します。
+[!UICONTROL 訪問者別滞在時間（秒）]指標は、訪問者の全期間に訪問者が特定のディメンション項目とやり取りした平均時間を示します。
 
 この指標は、処理アーキテクチャが異なるので、Data Warehouse では使用できません。
 
