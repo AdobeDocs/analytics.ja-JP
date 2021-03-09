@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 | コスト | x |  |  |  | Report Suite Manager のマーケティングチャネル／マーケティングチャネルのコストへのアクセスを許可します。 |
 | カスタムカレンダー | x |  |  |  | Report Suite Manager の一般／カレンダーのカスタマイズへのアクセスを許可します。 |
 | データフィードマネージャー | x |  |  |  | Analytics のトップナビゲーションで管理者／データフィードへのアクセスを許可します。 |
-| データ修復 API | x |  |  |  | データ修復APIへのアクセスを許可 |
+| データ修復 API | x |  |  |  | データ修復 API へのアクセスを許可 |
 | データソースマネージャー | x |  |  |  | Analytics のトップナビゲーションで管理者／データソースへのアクセスを許可します。権限項目「Report Suite Mgmt」が必要です。 |
 | デフォルトの指標 | x |  |  |  | Report Suite Manager で個々のレポートスイートの設定／デフォルト指標へのアクセスを許可します。 |
 | IP アドレスで除外 | x |  |  |  | Analytics のトップナビゲーションで、管理者／IP アドレスごとに除外へのアクセスを許可します。 |
