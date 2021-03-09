@@ -1,20 +1,20 @@
 ---
 description: Reports and Analytics を使用する前に、Reports and Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 title: Reports and Analytics の概要
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Reports &amp; Analyticsの概要
+# Reports &amp; Analytics の基礎知識
 
 Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 
-レポートは、従来型の Web ベースのチャネルと、モバイルやビデオ、ソーシャルネットワークのような発展を続けるチャネルの両方に洞察を提供します。レポートの例を以下に示します。
+レポートは、従来型の Web ベースのチャネルと、モバイルやビデオ、ソーシャルネットワークのような発展を続けるチャネルの両方に洞察を提供します。レポートの例には次のようなものがあります。
 
 * サイトの訪問者数
 * そのうちの個別訪問者数（1 回のみカウント）
@@ -37,7 +37,7 @@ Reports &amp; Analytics インターフェイスにログインするための�
 
       >[!NOTE]
       >
-      >アドビは Adobe Analytics での Internet Explorer 11 のサポートを 2018 年 11 月 13 日に終了しました。Microsoft Edge またはその他のサポート対象ブラウザーにお早めにお切り替えください。
+      >アドビは Adobe Analytics での Internet Explorer 11 のサポートを 2018 年 11 月 13 日（PT）に終了しました。Microsoft Edge またはその他のサポート対象ブラウザーにお早めにお切り替えください。
 
 * cookie と JavaScript を有効にする必要があります。
 * 画面の解像度 1024 x 768、画面の色 16 ビット以上。
@@ -91,7 +91,7 @@ Experience Cloud を介してログインする手順を説明します。
 | 情報のタイプ | 定義 |
 | --- | --- |
 | 連絡先 |  アカウントに次の個人情報を指定します。<ul><li>名前（必須）</li><li>姓（必須）</li><li>タイトル</li><li>電子メールアドレス（必須）</li><li>電話番号</li></ul> |
-| ログイン | アカウントのユーザー名が表示され、アカウントのパスワードを変更できます。[Reports &amp; Analytics アカウントのパスワードのリセット方法](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en)も参照してください。 |
+| ログイン | アカウントのユーザー名が表示され、アカウントのパスワードを変更できます。[Reports &amp; Analytics アカウントのパスワードのリセット方法](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=ja)も参照してください。 |
 | Web サービス | このアカウントに関連付けられた Web サービスのユーザー名と共通の秘密が表示されます。Web サービス API から Experience Cloud にアクセスする場合、これらの資格情報を使用します。詳しくは、Developer Connection を参照してください。**注：**&#x200B;この情報は、アカウントが Web サービスのユーザーとして認可されている場合にのみ表示されます。 |
 | このコンピューターを除外 | cookie を現在のコンピューターに適用し、データ収集から除外します。これはドメイン内のページビューおよび訪問者の数がオンラインアクティビティの影響を受けないようにする場合に役立ちます。**注：**&#x200B;この機能を使用するには、ブラウザーで cookie が有効になっている必要があります。コンピューターから cookie を削除した場合、除外 cookie を再び設定する必要があります。 |
 
