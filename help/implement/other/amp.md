@@ -1,11 +1,11 @@
 ---
 title: AMP を使用した実装
 description: AMP ページへの Adobe Analytics の実装
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Analytics は JavaScript ライブラリを使用してイメージリク�
 
 ## AMP を使用しているページに Adobe Analytics を実装する方法を決定する
 
-アドビは、AMP を使用しているページに Adobe Analytics を実装する 2 つの方法を作成しました。どちらも `<amp-analytics>` HTML タグを使用します。詳しくは、AMPのドキュメントの[amp-analytics tag](https://amp.dev/documentation/components/amp-analytics)を参照してください。
+アドビは、AMP を使用しているページに Adobe Analytics を実装する 2 つの方法を作成しました。どちらも `<amp-analytics>` HTML タグを使用します。詳しくは、AMP のドキュメントの [amp-analytics タグ](https://amp.dev/ja/documentation/components/amp-analytics)を参照してください。
 
 * **`"adobeanalytics"` トラッキングテンプレート**&#x200B;の使用：ページ上で直接 Analytics リクエストを作成します
 * **`"analytics_nativeConfig"` トラッキングテンプレート**&#x200B;の使用：通常のサイトにデプロイするのと同じ AppMeasurement コードを含む iframe を使用します
