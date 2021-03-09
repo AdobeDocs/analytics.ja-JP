@@ -1,22 +1,22 @@
 ---
-description: 必要な権限、使用可能なディメンションや指標など、Advertising Analyticsで可能なすべての機能を詳細なガイドで確認します。
-title: Advertising Analyticsへのガイド
-translation-type: tm+mt
+description: この詳細なガイドでは、必要な権限や使用可能なディメンションと指標など、Advertising Analytics のすべての機能について説明します。
+title: Advertising Analytics のガイド
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1282'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Advertising Analyticsへのガイド
+# Advertising Analytics のガイド
 
 Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud （AMO）または Google／Bing で表示する必要がありました。現在 Adobe Analytics では、インプレッション数、クリック数、コスト、品質スコア、平均順位を、検索エンジンおよび AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。
 
 >[!NOTE]
 >
-> Yahoo Gemini は、2019 年 3 月 31 日に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。
+> Yahoo Gemini は、2019 年 3 月 31 日（PT）に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。
 
 これらの検索エンジンからデータをまとめて Adobe Analytics に取り込むことで、Analysis Workspace の高い機能性を利用して同じデータを分析できます。Workspace に含まれる新しい[有料検索パフォーマンス](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)テンプレートにより、この分析を容易におこなうことができます。
 
