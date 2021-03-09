@@ -1,16 +1,16 @@
 ---
-title: 'ページ表示指標の説明 |Adobe Analytics '
-description: Adobe Analyticsでのページ表示指標の取り組み方と、ページ表示数と訪問数の違いについても説明します。
-translation-type: tm+mt
+title: 'ページビュー指標の説明 | Adobe Analytics '
+description: Adobe Analytics でのページビュー指標の仕組み、およびページビュー数と訪問数の違いについて説明します。
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analyticsとのページ表示について
+# Adobe Analytics でのページビューについて
 
 「ページビュー」指標は、特定のディメンション項目がページ上で設定または持続した回数を示します。これは、レポートで最も一般的で基本的な指標の 1 つです。
 
