@@ -1,16 +1,16 @@
 ---
-title: コホート分析とは何ですか。また、その仕組みは何ですか。
-description: オーディエンスに関するデータをより深く掘り下げ、コホート分析を使用して関連グループに分類します。 Analysis Workspaceのコホート分析について説明します。
-translation-type: tm+mt
+title: コホート分析の概要と仕組み
+description: オーディエンスに関するデータをより深く掘り下げ、コホート分析を使用して関連グループに分類します。 Analysis Workspace のコホート分析について説明します。
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analyticsの[!UICONTROL コホート分析]について
+# Adobe Analytics の[!UICONTROL コホート分析]について
 
 *`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。[!UICONTROL コホート分析は]、例えば、コホートがブランドとどのように関わっているかを学ぶ場合に便利です。トレンドの変更を簡単に見分けて、それに応じて対応できます（[!UICONTROL コホート分析]の説明は、[コホート分析 101](https://en.wikipedia.org/wiki/Cohort_analysis) など、Web 上で参照できます）。
 
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 [!UICONTROL コホート分析]は、[!UICONTROL Analysis Workspace] へのアクセス権を持つすべての Adobe Analytics ユーザーが利用できます。
 
-[コホート分析のビデオチュートリアル](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[コホート分析のビデオチュートリアル](https://docs.adobe.com/content/help/ja/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) （4:36）
 
 >[!IMPORTANT]
 >
