@@ -1,13 +1,11 @@
 ---
-keywords: Analysis Workspace
-title: Analysis Workspace の概要
-topic: Reports and analytics
-uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
+title: Analysis Workspaceとは何ですか？
+description: Analysis WorkspaceはAdobe Analyticsの主要な分析ツールです。 パネル、テーブル、ビジュアライゼーションおよびその他のコンポーネントを使用して、データを有効に活用したり、データセットをキュレーションしたり、プロジェクトを他の機能間で共有したり、スケジュールしたりできます。
 translation-type: tm+mt
-source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 92%
 
 ---
 
