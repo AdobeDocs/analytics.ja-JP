@@ -5,10 +5,10 @@ user-guide-title: Analytics インポートガイド
 breadcrumb-title: インポートガイド
 user-guide-description: '一括またはリアルタイムで、外部のソースから Analytics にデータを取り込みます。 '
 translation-type: tm+mt
-source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
+source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 98%
+source-wordcount: '529'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 98%
       + [Demandbase 標準ディメンション](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Demandbase カスタムディメンション](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Adobe Analytics 用 DFA Data Connector {#dfa}
+      + [DFA統合の提供終了情報](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Adobe Analytics 用 DFA Data Connector](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [前提条件](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [統合の機能](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
