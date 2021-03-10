@@ -5,10 +5,10 @@ title: よくある質問
 topic: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -47,6 +47,6 @@ ht-degree: 99%
 
 第2に、「[DFA 統合の成功の確認](../dfa-data-connector-analytics/dfa-integration.md)」の手順に従って、統合が正常に機能していることを確認します。DFA トラッキングコードがランディングページの Adobe ヒットを使用して表示されている場合、クリックスルーは DFA キャンペーンレポートで表示する必要があります。表示されない場合は、ランディングページの *`s.account`* 変数と Reports &amp; Analytics で表示されているレポートスイートが一致することを確認してください。これらが一致する場合、ビュースルー eVar レポートのトラッキングコードが DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX のようになっているかをチェックします。
 
-これらは、DFA から生データを要約する DFA VISTA ルールにエラーがあることを示します。この問題は、アドビのアカウント担当者を通じてサポートチケットを開くことで改善できます。
+これらは、DFA から生データを要約する DFA VISTA ルールにエラーがあることを示します。この問題は、Adobeのアカウント担当者からサポートチケットを開くことで解決できます。
 
-問題が上記の解決策に対応しない場合は、[指標の不一致の調整](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)を参照してください。
+上記の解決策で問題が説明されていない場合は、[指標の不一致の調整](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)を参照して、他の可能性を調べてください。
