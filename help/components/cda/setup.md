@@ -2,9 +2,9 @@
 title: クロスデバイス分析の設定
 description: CDA を有効にする仮想レポートスイートを設定します。
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,7 @@ CDA は、デバイス間のレポートスイートで、アドビのエンジ�
 * CDA で有効にするデバイス間のレポートスイートのレポートスイート ID
 * 使用する CDA の方法（フィールドベースのステッチ、アドビプライベートグラフ、アドビCo-op グラフ）
 * フィールドベースのステッチを使用する場合は、prop またはユーザー ID を含む eVar
+* 再生の頻度とルックバックの期間。オプションとしては、週に 1 回の再生（7 日間のルックバックウィンドウ）や、毎日の再生（1 日間のルックバックウィンドウ）があります。
 
 この情報を CSM に提供したら、アドビのエンジニアリングと連携して、選択したレポートスイートを CDA 処理用に有効にします。
 
