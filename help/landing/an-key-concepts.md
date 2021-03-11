@@ -1,9 +1,9 @@
 ---
 description: このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
 title: Adobe Analytics - 主要概念
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1858'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 | カスタマージャーニーレポート | サイトまたはアプリケーションでのユーザーの遷移に関する情報を表示します。Analysis Workspace では、この分析に prop、eVar およびイベントを使用できます。 | [Analysis Workspaceフォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics パス](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | マーケティングチャネル | ユーザーをサイトに誘導する外部チャネルや、コンバージョンに最も効果があるチャネルを確認するのに役立つレポートです。ファーストタッチおよびラストタッチの属性ビューが提供されます。これは、有料チャネルと自然チャネルの両方において最も包括的なビューなので、Adobe Analytics で（キャンペーンやトラフィックソースよりも）推奨される外部トラフィックソースレポートです。 | [マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | モバイル | モバイルデバイスまたはタブレットからアクセスされた Web サイトの情報を表示します。 | [モバイルレポート](/help/components/dimensions/mobile-dimensions.md) |
-| モバイルアプリ | モバイルアプリに関する基本的な使用状況の情報を表示します。これらのレポートは、SDK が導入され、レポートが有効になると使用できます。さらに、Adobe Mobile Services によって、より包括的なアプリデータを提供する個別のモバイルアプリインターフェイスが作成されました。これにより、アプリの利用状況を把握し、改善につなげることができます。[こちらで](https://mobilemarketing.adobe.com)インターフェイスにアクセスできます。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| モバイルアプリ | モバイルアプリに関する基本的な使用状況の情報を表示します。これらのレポートは、SDK が導入され、レポートが有効になると使用できます。さらに、Adobe Mobile Services によって、より包括的なアプリデータを提供する個別のモバイルアプリインターフェイスが作成されました。これにより、アプリの利用状況を把握し、改善につなげることができます。[こちらで](https://mobilemarketing.adobe.com)インターフェイスにアクセスできます。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) |
 | 製品 | 売上高やチェックアウト数など各種コンバージョン指標に対する個々の商品や商品グループ（カテゴリ）の貢献を明らかにできます。 | [製品レポート](/help/components/dimensions/product.md) |
 | セグメント比較 | アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、セグメント間の最も大きな統計的差異を見つけることができます。 | [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | サイトコンテンツレポート | サイトで最もアクティブなページや領域、および最もよく利用されているサーバーに関する情報が表示されます。 | [サイトコンテンツレポート](/help/components/dimensions/page.md) |
