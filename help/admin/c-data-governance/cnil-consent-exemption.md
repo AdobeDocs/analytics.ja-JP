@@ -1,11 +1,11 @@
 ---
 description: デバイスやブラウザーでの不必要な Cookie の保存や読み取りに対するユーザーの同意についてのガイドラインと推奨事項について説明します。
 title: ユーザーの同意と Cookie に関する CNIL ガイドライン
-translation-type: ht
-source-git-commit: c5ebc92622e012699d64c27701b24a88429e9f4f
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 36259e3a36cad221d7264e5caa0a09a757dc4fe8
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,8 @@ ht-degree: 100%
 ガイドラインでは、同意要件に対する制限付きの適用除外（以下「同意除外」）を規定しています。 同意除外は、Web パブリッシャーの代わりにサイトやアプリのオーディエンスを測定することのみを目的とする Analytics Cookie に適用されます。 ガイドラインでは、同意除外を適用するには次の条件を満たす必要があることを規定しています。
 
 * 最大 25 か月間のデータ保持期間。現在のデータ保持設定は、Analytics／管理者／データガバナンスで確認できます。[データ保持](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=ja)
-* 13 か月間の Cookie 制限。   `cookieLifetime` 変数を使用して、Analytics の Cookie の有効期限を上書きできます。  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=ja)
+* ECIDのサードパーティcookieを無効にする。 [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=en#id-service-api)、 [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=en#id-service-api) [、およびdisableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=en#id-service-api)
+* 13か月のCookieの制限が周期的ではなく静的な日付に設定されている。   `cookieLifetime` 変数を使用して、Analytics の Cookie の有効期限を上書きできます。  [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=ja)
 * 限定的な範囲。 Cookie の範囲を 1 つのサイトまたはアプリケーションに限定する必要があります。 [ブラウザーの Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=ja&quot;\l&quot;third-party-cookie-implementations)
 * 匿名化. IP アドレスの最終オクテットを匿名化します。 [一般的なアカウント設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=ja)
 * 訪問者 ID をレポートに表示しない。  訪問者 ID は、デフォルトでは、Adobe Workspaces と Adobe Reports and Analytics に表示されません。  訪問者 ID は、データフィードと Data Warehouse で使用できます。  データフィードおよび Data Warehouse へのアクセスは、 [Admin Console で設定されるアクセス権限](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)で制限できます
@@ -30,10 +31,12 @@ ht-degree: 100%
 
 さらに次の考慮事項が適用されます。
 
+* セグメント化や仮想レポートスイート用のオプトアウトデータからオプトインデータを分離したり、別のエンドポイントにルーティングしたりするために、Analytics変数でオプトインステータスを収集することを検討します。
 * 事前の同意なしにサイト外またはアプリ外での測定（例：オフサイトキャンペーン、電子メールキャンペーン、iFrame など）はおこないません。
 * 変数での個人情報の収集は、同意なしには許可されません。
 * データは、匿名の統計情報を生成する目的でのみ使用され、他のデータとの組み合わせはおこないません。
 * データは、アクションの相互参照には使用されません。
 * GPS 位置情報データは収集されません。
+* エンドユーザーの同意が得られた場合は、上記の設定を変更し、制限を緩和することができます。
 
 詳しくは、[CNIL Cookie 除外](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications)の Web サイトを参照してください。
