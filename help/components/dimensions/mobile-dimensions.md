@@ -1,11 +1,11 @@
 ---
 title: モバイルディメンション
-description: デバイスのユーザーエージェント文字列に基づくディメンション。
+description: デバイスのIPアドレスに基づくDimension。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## これらのディメンションにデータを入力する
 
-これらのディメンションは、Adobe 内部のルックアップルールを参照します。参照値は、ヒットと共に送信される `User-Agent` HTTP ヘッダーに基づきます。アドビは [DeviceAtlas](https://deviceatlas.com/) と提携しており 、ユーザーエージェントとモバイルディメンションの間での参照を維持しています。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、すべてのモバイルディメンションが初期設定の状態で動作します。
+これらのディメンションは、Adobe 内部のルックアップルールを参照します。[!UICONTROL モバイル] キャリアの検索は、NetAcuity（デジタル要素製品）から取得したデータを使用して、IPアドレスによって決定されます。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、すべてのモバイルディメンションが初期設定の状態で動作します。
 
 ## モバイルディメンションの説明
 
