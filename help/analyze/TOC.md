@@ -5,10 +5,10 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analyticsの主要な分析と視覚化ツールであるAnalysis Workspaceの操作方法、およびAdobe Analyticsダッシュボード、Report Builder、Activity Mapなどのツールについて説明します。
 translation-type: tm+mt
-source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,6 +120,7 @@ ht-degree: 97%
          + [アラートビルダー](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [アラートマネージャー](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [インテリジェントアラート - 使用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + [ユーザー環境設定](analysis-workspace/user-preferences.md)
    + Workspace の FAQ {#workspace-faq}
       + [よくある質問](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
