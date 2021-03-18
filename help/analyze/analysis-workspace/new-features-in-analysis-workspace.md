@@ -3,10 +3,10 @@ description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 translation-type: tm+mt
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '8206'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 
 | 機能 | ターゲット日 | 説明 |
 | --- | --- | --- |
-| コンポーネントの選択 | 2021 年 2 月 5 日 | クイックインサイトにあるドロップダウン／ドロップゾーンコンポーネントは、Workspace のすべてのドロップゾーンに追加されます。 この機能強化により、互換性のあるコンポーネントのドロップダウンリストから選択したり、スペースをドロップゾーンとして引き続き使用したりできます。 |
+| コンポーネントの選択 | 2021 年 2 月 5 日 | [!UICONTROL クイックインサイト]にあるドロップダウン/ドロップゾーンコンポーネントは、[!UICONTROL ワークスペース]のすべてのドロップゾーンに追加されます。 この機能強化により、互換性のあるコンポーネントのドロップダウンリストから選択したり、スペースをドロップゾーンとして引き続き使用したりできます。 |
 
 
 ## 2021 年 1 月
@@ -27,13 +27,13 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 | 機能 | ターゲット日 | 説明 |
 | --- | --- | --- |
 | 画像 URL | 2021 年 1 月 14 日 | 公開画像 URL を参照して、画像を Workspace プロジェクトに追加できます。 |
-| ビジュアライゼーションのソースと設定を組み合わせました。 | 2021 年 1 月 14 日 | ビジュアライゼーションのデータソースマネージャー（ドット）と設定マネージャー（歯車）が単一のポップオーバーに組み合わせられ、同じ場所からソースと設定を簡単に管理できます。 |
+| ビジュアライゼーションのソースと設定を組み合わせました。 | 2021 年 1 月 14 日 | ビジュアライゼーションの[!UICONTROL データソース]マネージャー（ドット）と設定マネージャー（歯車）が単一のプロバーに結合されたので、同じ場所からソースと設定を簡単に管理できます。 |
 
 ## 2020 年 10 月
 
 | 機能 | 説明 |
 | --- | --- |
-| 折れ線グラフのビジュアライゼーション：[移動平均トレンドラインオプション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja-JP) | 折れ線グラフのビジュアライゼーションのトレンドライン設定に&#x200B;**[!UICONTROL 移動平均]**&#x200B;が追加されました。移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
+| 折れ線グラフのビジュアライゼーション：[移動平均トレンドラインオプション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja-JP) | 折れ線グラフのビジュアライゼーションのトレンドライン設定に&#x200B;**[!UICONTROL 移動平均]**[!UICONTROL が追加されました。]移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
 | [パフォーマンスヘルプページ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=ja-JP) | Analysis Workspace パフォーマンスヘルプページには、プロジェクトのパフォーマンスに影響を与える様々な要因と最適化のためのヒントへのリンクが示されています。 |
 
 ## 2020 年 9 月
@@ -41,7 +41,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 | 機能 | 説明 |
 | --- | --- |
 | [単一のディメンションに対して 50,000 個の項目をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja-JP#download-items) | セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
-| [折れ線グラフのビジュアライゼーションの強化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>折れ線グラフのビジュアライゼーションの X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、折れ線グラフのビジュアライゼーションの方がコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
+| [折れ線グラフのビジュアライゼーションの強化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>[!UICONTROL 線]の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
 | 新しい日付範囲 | 5 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲（過去 7 日間、過去 14 日間、過去 30 日間、過去 60 日間、過去 90 日間）から選択できます。 |
 
 ## 2020 年 8 月
