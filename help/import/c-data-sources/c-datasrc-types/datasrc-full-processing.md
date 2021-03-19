@@ -1,14 +1,11 @@
 ---
 description: データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
-subtopic: Data sources
-title: フル処理
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+title: データソースのフル処理オプション
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 96%
+source-wordcount: '728'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。Adobeでは、今後、フル処理のデータソースを廃止する予定です。
+>フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。アドビでは、今後、フル処理データソースを廃止する予定です。 [詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 
