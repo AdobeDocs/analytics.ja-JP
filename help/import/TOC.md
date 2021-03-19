@@ -5,10 +5,10 @@ user-guide-title: Analytics インポートガイド
 breadcrumb-title: インポートガイド
 user-guide-description: '一括またはリアルタイムで、外部のソースから Analytics にデータを取り込みます。 '
 translation-type: tm+mt
-source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 97%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 97%
       + [トランザクション ID](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
       + [訪問者 ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [フル処理](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
+      + [フル処理の提供終了](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
    + [トランザクションの統合と顧客の統合](c-data-sources/datasrc-integrating-offline-data.md)
    + [トランザクション ID と訪問者プロファイル](c-data-sources/datasrc-tid-visitor-profile.md)
    + [データソースに関する FAQ](c-data-sources/datasrc-faq.md)
