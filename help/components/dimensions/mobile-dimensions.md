@@ -2,10 +2,10 @@
 title: モバイルディメンション
 description: デバイスのIPアドレスに基づくDimension。
 translation-type: tm+mt
-source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '891'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## これらのディメンションにデータを入力する
 
-これらのディメンションは、Adobe 内部のルックアップルールを参照します。[!UICONTROL モバイル] キャリアの検索は、NetAcuity（デジタル要素製品）から取得したデータを使用して、IPアドレスによって決定されます。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、すべてのモバイルディメンションが初期設定の状態で動作します。
+これらのディメンションは、Adobeの内部にある参照ルールを参照します。 [!UICONTROL モバイル] キャリアの検索は、NetAcuity（Digital Elements製品）から取得したデータを使用して、IPアドレスによって決定されます。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、すべてのモバイルディメンションが初期設定の状態で動作します。
 
 ## モバイルディメンションの説明
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >`"None"` ラベルの付いたディメンション項目は、モバイルデバイス以外のデバイスです。モバイルデバイスのみを含むレポートを作成する場合は、「モバイルデバイス」ディメンションを Workspace キャンバスのセグメント領域にドラッグします。
 
 * **モバイルオーディオサポート**：デバイスで再生できるファイル形式を指定します。例えば、`"MP3"`、`"AAC"`、`"MIDI Monophonic"` などの値があります。このディメンションの値は、相互に排他的ではありません。単一のヒットは、複数のディメンション項目を属性にすることができます。
-* **携帯電話会社**：ユーザーエージェントに通信事業者固有のデバイスが含まれる場合、通信事業者はディメンション項目となります。例えば、`"Reliance Jio"`、`"Airtel"`、`"Vodafone"`、`"Verizon"` などの値があります。
+* **携帯電話会社**:このディメンションの値は、AnalyticsがキャプチャしたIPアドレスに基づいてサードパーティ（デジタル要素）のデータを検索することで入力されます。例えば、`"Reliance Jio"`、`"Airtel"`、`"Vodafone"`、`"Verizon"` などの値があります。
 * **モバイルの画面の色**：モバイルデバイスの色深度（ビット）。
 * **モバイル cookie のサポート**：モバイルデバイスが cookie をサポートするかどうかを指定します。ブラウザーが cookie を受け入れた場合、このレポートは状態になりません。ディメンション項目の値には、`"Supported"`、`"Not supported"`、`"Unknown"` が含まれます。
 * **モバイルデバイス**：訪問者が使用するモバイルデバイス。
