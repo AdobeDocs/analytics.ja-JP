@@ -2,10 +2,10 @@
 title: Analysis Workspaceでのユーザ環境設定の設定方法
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## プロジェクトの環境設定
 
-プロジェクトの環境設定は、Analysis Workspaceで作成された新しいプロジェクトや新しいパネルに適用されます。環境設定は、ワークスペース/プロジェクト/プロジェクト情報および設定で、プロジェクト単位で管理することもできます。
+プロジェクトの環境設定は、Analysis Workspaceで作成された新しいプロジェクトや新しいパネルに適用されます。環境設定は、[!UICONTROL ワークスペース] > [!UICONTROL プロジェクト] > [!UICONTROL プロジェクト情報と設定]の下で、プロジェクト単位で管理することもできます。
 
 | セクション | 環境設定 | オプション |
 | --- | --- | --- |
