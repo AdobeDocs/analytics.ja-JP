@@ -2,10 +2,10 @@
 title: inList
 description: 値が別の文字区切り値に含まれているかどうかを確認します。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 27d151abe9bdf52c6eabdc3e9c785a99d08f971e
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 100%
+source-wordcount: '743'
+ht-degree: 99%
 
 ---
 
@@ -51,8 +51,8 @@ Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: inList v2.1 */
-s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===typeof lv)lv=lv.split(d||",");else if("object"!== typeof lv)return!1;d=0;for(var e=lv.length;d<e;d++)if(1==cc&&vtc===lv[d]||vtc.toLowerCase()===lv[d].toLowerCase())return!0;return!1};
+/* Adobe Consulting Plugin: inList v3.0 */
+function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"inList",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var d;a<window.s_c_il.length;a++)if(d=window.s_c_il[a],d._c&&"s_c"===d._c){a=d;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.inList="3.0");if("string"!==typeof e)return!1;if("string"===typeof b)b=b.split(c||",");else if("object"!==typeof b)return!1;c=0;for(a=b.length;c<a;c++)if(1==f&&e===b[c]||e.toLowerCase()===b[c].toLowerCase())return!0;return!1};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -150,6 +150,10 @@ if(s.inList(s.linkTrackVars,"eVar1","|"))
 「if」条件文は「false」になります。呼び出しに渡される d 引数の値（「|」）は、s.linkTrackVars 内の個々の値がパイプ文字で区切られていると想定しますが、実際には値がコンマで区切られています。この場合、プラグインは s.linkTrackVars の値全体（「events,eVar1」）と、検索する値（「eVar1」）の一致を確認しようとします。
 
 ## バージョン履歴
+
+### 3.0（2021年3月19日）
+
+* コンテキストデータとしてバージョン番号を追加しました。
 
 ### V2.1（2019 年 9 月 27 日）
 
