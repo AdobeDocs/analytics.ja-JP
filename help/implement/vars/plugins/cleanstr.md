@@ -2,10 +2,10 @@
 title: cleanStr
 description: 文字列から不要な文字をすべて削除または置換します。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: cleanStr v1.0 */
-function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)/g,"");str=str.trim(); str=str.replace(/[\u2018\u2019\u201A]/g,"'");str=str.replace(/\t+/g,"");for(str=str.replace(/[\n\r]/g," ");-1<str.indexOf("  ");)str=str.replace(/\s\s/g," ");return str}return""};
+/* Adobe Consulting Plugin: cleanStr v2.0 (No Prerequisites Required) */
+function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2.0"};a:{if("undefined"!==typeof window.s_c_il){var b=0;for(var c;b<window.s_c_il.length;b++)if(c=window.s_c_il[b],c._c&&"s_c"===c._c){b=c;break a}}b=void 0}"undefined"!==typeof b&&(b.contextData.cleanStr="2.0");if("string"===typeof a){a=a.replace(/<\/?[^>]+(>|$)/g,"");a=a.trim();a=a.replace(/[\u2018\u2019\u201A]/g,"'");a=a.replace(/\t+/g,"");for(a=a.replace(/[\n\r]/g," ");-1<a.indexOf("  ");)a=a.replace(/\s\s/g," ");return a}return""}
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -105,6 +105,10 @@ s.eVar1 の最終値は、次のとおりです。
 プラグインを単独で（変数に戻り値を割り当てずに）実行しても、str 引数を介して渡された変数は実際には「リセット」されません。
 
 ## バージョン履歴
+
+### 2.0（2021年3月19日）
+
+* コンテキストデータとしてバージョン番号を追加しました。
 
 ### 1.0（2018 年 4 月 16 日）
 
