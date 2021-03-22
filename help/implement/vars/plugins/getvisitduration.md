@@ -2,10 +2,10 @@
 title: getVisitDuration
 description: 訪問者がサイトに来訪した時間を追跡します。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: ca8e563118dcc74dfa718bd203db295faf4e9aa6
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 100%
+source-wordcount: '585'
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getVisitDuration v2.0 */
-s.getVisitDuration=function(){var d=new Date,c=d.getTime(),b=this.c_r("s_dur");if(isNaN(b)||18E5<c-b)b=c;var a=c-b;d.setTime(c+18E5); this.c_w("s_dur",b+"",d);if(0===a)return"first hit of visit";a=Math.floor(a/6E4);return 0===a?"less than a minute":1===a?"1 minute": a+" minutes"};
+/* Adobe Consulting Plugin: getVisitDuration v2.1 */
+function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"getVisitDuration",version:"2.1"};var d=function(){if("undefined"!==typeof window.s_c_il)for(var c=0,b;c<window.s_c_il.length;c++)if(b=window.s_c_il[c],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof d&&(d.contextData.getVisitDuration="2.1");window.cookieWrite=window.cookieWrite||function(c,b,f){if("string"===typeof c){var h=window.location.hostname,a=window.location.hostname.split(".").length-1;if(h&&!/^[0-9.]+$/.test(h)){a=2<a?a:2;var e=h.lastIndexOf(".");if(0<=e){for(;0<=e&&1<a;)e=h.lastIndexOf(".",e-1),a--;e=0<e?h.substring(e):h}}g=e;b="undefined"!==typeof b?""+b:"";if(f||""===b)if(""===b&&(f=-60),"number"===typeof f){var d=new Date;d.setTime(d.getTime()+6E4*f)}else d=f;return c&&(document.cookie=encodeURIComponent(c)+"="+encodeURIComponent(b)+"; path=/;"+(f?" expires="+d.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(c)===b:!1}};window.cookieRead=window.cookieRead||function(c){if("string"===typeof c)c=encodeURIComponent(c);else return"";var b=" "+document.cookie,a=b.indexOf(" "+c+"="),d=0>a?a:b.indexOf(";",a);return(c=0>a?"":decodeURIComponent(b.substring(a+2+c.length,0>d?b.length:d)))?c:""};d=(new Date).getTime();var k=cookieRead("s_dur"),a=0;if(isNaN(k)||18E5<d-k)k=d;a=d-k;cookieWrite("s_dur",k+"",30);if(0===a)return"first hit of visit";a=Math.floor(a/6E4);return 0===a?"less than a minute":1===a?"1 minute":a+" minutes"};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -100,6 +100,10 @@ s.prop10 = s.getVisitDuration();
 prop10 を常に訪問者がサイトにランディングしてから経過した分数に設定します。これは、prop10 でパスが有効になっている場合に役立ちます。「出口」指標を prop10 レポートに追加すると、訪問者がサイトを離脱するまでに訪問にかかった時間の詳細な「散布図」レポートが表示されます。
 
 ## バージョン履歴
+
+### 2.1（2021年3月19日）
+
+* コンテキストデータとしてバージョン番号を追加しました。
 
 ### 2.0（2018 年 5 月 3 日）
 
