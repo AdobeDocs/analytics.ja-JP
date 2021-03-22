@@ -2,10 +2,10 @@
 title: フル処理データソースの提供終了
 description: 持続終了の理由およびバルクデータ挿入APIとフル処理データソースとの比較。
 translation-type: tm+mt
-source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 9%
+source-wordcount: '1221'
+ht-degree: 29%
 
 ---
 
@@ -39,18 +39,59 @@ Bulk Data Insertion API(BDIA)は、フル処理でサポートされるすべて
 
 ## BDIAとFPDSで使用できるフィールド値の比較
 
-| BDIA、FPDS、両方 | BDIA変数 | フル処理列の変数 | 説明 |
-| --- | --- | --- | --- |
-| BDIA | aamlh | サポートなし | Adobe Audience Managerの場所のヒント。 以下のAAM地域一覧表で、有効なIDの値を参照してください。 |
-| Both | browserHeight | browserHeight | ピクセル単位のブラウザーの高さ（例：768） |
-| 両方 | browserWidth | browserWidth | ピクセル単位のブラウザーの幅（例：1024） |
-| 両方 | キャンペーン | キャンペーン | コンバージョンキャンペーントラッキングコード |
-| 両方 | チャネル | チャネル | チャネル文字列（例：スポーツセクション） |
-| 両方 | colorDepth | colorDepth | ビット単位の画面の色（例：24） |
-| 両方 | connectionType | connectionType | 訪問者の接続タイプ（LANまたはモデム） |
-| BDIA | contextData.key | サポートなし | キー値のペアは、ヘッダーに「contextData.product」または「contextData.color」という名前を付けることで指定します |
-| 両方 | cookiesEnabled | cookiesEnabled | `Y` または、訪問者 `N` がファーストパーティセッションcookieをサポートしているかどうか |
-| 両方 | currencyCode | currencyCode | 売上高の通貨コード（例：`USD`） |
-| BDIA | customerID。[customerIDType].authState | サポートなし | 訪問者の認証状態。 サポートされる値は、0、1、2、UNKNOWN、AUTHENTICATED、LOGGED_OUTまたは&quot;（大文字と小文字を区別しない）です。 2つの連続した一重引用符(&quot;)は、クエリ文字列から値を省略する原因となります。つまり、ヒットが行われるときに0になります。 サポートされるauthStateの数値は、0 = UNKNOWN、1 = AUTHENTICATED、2 = LOGGED_OUTを表します。 customerIDTypeは任意の英数字の文字列にすることができますが、大文字と小文字が区別される必要があります。 |
-| BDIA | customerID。[customerIDType].id | サポートなし | 使用する顧客ID。 customerIDTypeは任意の英数字の文字列にすることができますが、大文字と小文字が区別される必要があります。 |
-| BDIA | customerID。[customerIDType].isMCSeed | サポートなし | これがMarketing Cloud訪問者IDのシードかどうか。 サポートされる値は、0、1、TRUE、FALSE、&quot;（大文字と小文字を区別しない）です。 0、FALSE、または2つの連続した一重引用符(&quot;)を使用すると、値がクエリ文字列から省略されます。 customerIDTypeは任意の英数字の文字列にすることができますが、大文字と小文字が区別される必要があります。 |
+| BDIA変数 | フル処理列の変数 | 説明 |
+| --- | --- | --- |
+| aamlh | サポートなし | Adobe Audience Managerの場所のヒント。 |
+| browserHeight | browserHeight | ピクセル単位のブラウザーの高さ（例：768） |
+| browserWidth | browserWidth | ピクセル単位のブラウザーの幅（例：1024） |
+| キャンペーン | キャンペーン | コンバージョンキャンペーントラッキングコード |
+| チャネル | チャネル | チャネル文字列（例：スポーツセクション） |
+| colorDepth | colorDepth | ビット単位の画面の色（例：24） |
+| connectionType | connectionType | 訪問者の接続タイプ（LANまたはモデム） |
+| contextData.key | サポートなし | キー値のペアは、ヘッダーに「contextData.product」または「contextData.color」という名前を付けることで指定します |
+| cookiesEnabled | cookiesEnabled | `Y` または、訪問者 `N` がファーストパーティセッションcookieをサポートしているかどうか |
+| currencyCode | currencyCode | 売上高の通貨コード（例：`USD`） |
+| customerID。[customerIDType].authState | サポートなし | 訪問者の認証状態。 サポートされる値は、0、1、2、UNKNOWN、AUTHENTICATED、LOGGED_OUTまたは&quot;（大文字と小文字を区別しない）です。 2つの連続した一重引用符(&quot;)は、クエリ文字列から値を省略する原因となります。つまり、ヒットが行われるときに0になります。 サポートされるauthStateの数値は、0 = UNKNOWN、1 = AUTHENTICATED、2 = LOGGED_OUTを表します。 customerIDTypeは任意の英数字の文字列にすることができますが、大文字と小文字が区別される必要があります。 |
+| customerID。[customerIDType].id | サポートなし | 使用する顧客ID。 customerIDTypeは任意の英数字の文字列にすることができますが、大文字と小文字が区別される必要があります。 |
+| customerID。[customerIDType].isMCSeed | サポートなし | これがMarketing Cloud訪問者IDのシードかどうか。 サポートされる値は、0、1、TRUE、FALSE、&quot;（大文字と小文字を区別しない）です。 0、FALSE、または2つの連続した一重引用符(&quot;)を使用すると、値がクエリ文字列から省略されます。 customerIDTypeは任意の英数字の文字列にすることができますが、大文字と小文字が区別される必要があります。 |
+| eVarN | eVarN(例：`<eVar2>`...`<eVar>` | コンバージョン eVar 名。最大 75 個の eVar（ eVar1 -eVar75 )eVar名(eVar12)またはわかりやすい名前(広告キャンペーン3)を指定できます。 |
+| events | イベント | [イベント文字列](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars)。s.イベント変数と同じ構文を使用して形式設定されます。次に例を示します。scAdd,イベント1,イベント7 |
+| hierN | hierN、つまり`<hier2>`...`</hier2>` | 階層名。最大 5 つの階層を使用できます（ hier1 ～ hier5)。 デフォルトの階層名`hier2`またはわかりやすい名前(Yankees)を指定できます。 |
+| homePage | homePage | 現在のページが訪問者のホームページであるかどうか（Y または N）。 |
+| ipaddress | サポートなし | 訪問者のIPアドレス。 |
+| javaEnabled | javaEnabled | 訪問者側で Java が有効かどうか（Y または N）。 |
+| javaScriptVersion | javaScriptVersion | JavaScript のバージョン（例：1.3）。 |
+| language | サポートなし | ブラウザーでサポートされている言語です。 例：`en-us`。 |
+| linkName | linkName | リンク名。 |
+| linkType | linkType | リンクのタイプ。次の値がサポートされています。  `d: Download link`、 `e: Exit link` 、  `o: Custom link`. |
+| linkURL | linkURL | リンクの HREF（リンク先 URL）。 |
+| 例えば、listnは「リスト2」です。 | サポートなし | 変数に渡され、レポートの個別行項目としてレポートされる値の区切りリスト。 |
+| marketingCloudVisitorID | サポートなし | Marketing Cloud ID. 「[訪問者ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api)」および「Marketing Cloud訪問者IDサービス」を参照してください。 |
+| サポートなし | charSet | Webサイトでサポートされる文字セット。 UTF-8、ISO-8859-1 などがあります。 |
+| サポートなし | clickAction | Visitor Click Map のオブジェクト識別子（oid） |
+| サポートなし | clickActionType | Visitor Click Map のオブジェクト識別子タイプ（oidt） |
+| サポートなし | clickContext | Visitor Click Map のページ識別子（pid） |
+| サポートなし | clickContextType | Visitor Click Map のページ識別子タイプ（pidt） |
+| サポートなし | clickSourceID | Visitor Click Map のソースインデックス（oi） |
+| サポートなし | clickTag | Visitor Click Map のオブジェクトタグ名（ot） |
+| サポートなし | scXmlVer | マーケティングレポートの XML リクエストのバージョン番号（例：1.0）。 |
+| サポートなし | timezone | 訪問者のタイムゾーンの GMT との時差（例：-8）。 |
+| pageName | pageName | ページの名前。 |
+| pageType | pageType | ページのタイプ（「エラーページ」など）。 |
+| pageURL | pageURL | ページURL(例：https://www.example.com/index.html)。 |
+| plugins | plugins | ブラウザープラグイン名をセミコロンで区切ったリスト。 |
+| 製品 | 製品 | ページ上のすべての製品のリスト。 製品はコンマで区切ります。 次に例を示します。スポーツ；ボール；1;5.95，玩具；Top;1:1.99. |
+| prop1 ～ prop75 | propN(例：`<prop2>`...`</prop2>` | プロパティ番号の文字列（例：「スポーツセクション」）。 |
+| propN | propN | プロパティのプロパティ値。 |
+| purchaseID | purchaseID | 購入 ID 番号。 |
+| リファラー | リファラー | ページリファラーの URL。 |
+| reportSuiteID | s_account | データを送信するレポートスイートを指定します。複数のレポートスイートIDはコンマで区切る必要があります。 |
+| resolution | resolution | 画面の解像度（例：1024x768）。 |
+| サーバー | サーバー | サーバー文字列。 |
+| 都道府県 | 都道府県 | コンバージョンの州の文字列。 |
+| タイムスタンプ | 日付 | YYYY-MM-DDThh:mm:ss±UTC_offsetのISO 8601日付形式（例：2021-09-01T12:00:00-07:00）またはUnix時間形式（1月1日から経過した秒数）を使用します。、1970)。 |
+| trackingServer | サポートなし | 列ヘッダーからのみ指定できます。 |
+| transactionID | サポートなし | 複数チャネルのユーザーアクティビティを結び付けてレポートに利用する場合に使用される共通の値。詳しくは、『[データソースユーザーガイド](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources)』を参照してください。 |
+| userAgent | サポートなし | ユーザーエージェント文字列 |
+| visitorID | visitorID | 訪問者のAnalytics ID。 「[訪問者ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)」を参照してください。 |
+| 郵便番号 | 郵便番号 | コンバージョンの郵便番号。 |
