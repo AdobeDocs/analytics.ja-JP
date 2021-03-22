@@ -2,10 +2,10 @@
 title: p_fo（Page First Only）
 description: 特定のルーチンが 1 ページにつき 1 回だけ実行されるようにします。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v2.0 */
-s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo[on]={};return!0};
+/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v3.0 (Requires AppMeasurement) */
+function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c){a=b;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.p_fo="3.0");window.__fo||(window.__fo={});if(window.__fo[c])return!1;window.__fo[c]={};return!0};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -82,6 +82,10 @@ if(s.p_fo("myobject"))
 **注意：**&#x200B;新しいページオブジェクト／DOM が読み込まれる（または現在のページがリロードされる）たびに、on 引数で指定されたオブジェクトは存在しなくなり、ページの読み込みが完了した後初めて実行されたときに、p_fo プラグインは再び true を返します。
 
 ## バージョン履歴
+
+### 3.0（2021年3月19日）
+
+* コンテキストデータとしてバージョン番号を追加しました。
 
 ### 2.0
 
