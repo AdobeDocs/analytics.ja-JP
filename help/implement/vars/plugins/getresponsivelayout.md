@@ -2,10 +2,10 @@
 title: getResponsiveLayout
 description: 現在閲覧中の Web サイトのレイアウトを特定します。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 16d2bc13a71dfe0b9106dea03da5eaa9da4d704c
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getResponsiveLayout v1.0 */
-var getResponsiveLayout=function(ppw,plw,tw){if(!(isNaN(ppw)||isNaN(plw)||isNaN(tw)||plw<ppw||tw<plw)){var b=window.innerWidth|| document.documentElement.clientWidth||document.body.clientWidth;return(ppw<plw&&b<=plw?b<=ppw?"phone portrait layout":"phone landscape layout":b<=plw?"phone layout":b<=tw?"tablet layout":"desktop layout")+":"+b+"x"+(window.innerHeight|| document.documentElement.clientHeight||document.body.clientHeight)}};
+/* Adobe Consulting Plugin: getResponsiveLayout v1.1 (Requires AppMeasurement) */
+var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)return{plugin:"getResponsiveLayout",version:"1.1"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var d;a<window.s_c_il.length;a++)if(d=window.s_c_il[a],d._c&&"s_c"===d._c){a=d;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.getResponsiveLayout="1.1");if(!(isNaN(c)||isNaN(b)||isNaN(e)||b<c||e<b))return a=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,(c<b&&a<=b?a<=c?"phone portrait layout":"phone landscape layout":a<=b?"phone layout":a<=e?"tablet layout":"desktop layout")+":"+a+"x"+(window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight)};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -105,6 +105,10 @@ s.eVar10 = getResponsiveLayout(500, 500, 1100);
 ```
 
 ## バージョン履歴
+
+### 1.1（2021年3月19日）
+
+* コンテキストデータとしてバージョン番号を追加しました。
 
 ### 1.0（2018 年 5 月 3 日）
 
