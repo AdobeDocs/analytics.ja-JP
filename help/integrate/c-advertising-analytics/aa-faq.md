@@ -1,12 +1,12 @@
 ---
-description: Advertising Analyticsに関するよくある質問。
+description: Advertising Analytics に関するよくある質問。
 title: よくある質問
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## Advertising Analytics の使用  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Advertising Analytics の使用 {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -63,7 +63,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics にはどの<b>検索エンジンアカウント</b>が含まれますか？ </p> </td> 
-   <td colname="col2"> <p>回答：検索エンジンアカウントには Google AdWords と Microsoft Bing が含まれます。 </p> <p>注意：Yahoo Gemini は、2019 年 3 月 31 日に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。 </p> </td> 
+   <td colname="col2"> <p>回答：検索エンジンアカウントには Google AdWords と Microsoft Bing が含まれます。 </p> <p>注意：Yahoo Gemini は、2019 年 3 月 31 日（PT）に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising Analytics に<b>アクセス</b>するにはどこから開始しますか？ </p> </td> 
@@ -129,7 +129,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## 自動トラッキングと手動トラッキング  {#section_7437C4698A6D482EB7ED94A948390119}
+## 自動トラッキングと手動トラッキング {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
@@ -141,7 +141,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>質問：Advertising アカウントを設定するときに、<b>自動トラッキング</b>により予期しない結果になる可能性があるというメッセージが表示されます。どのような結果が生じますか？ </p> </td> 
-   <td colname="col2"> <p>A: 
+   <td colname="col2"> <p>回答： 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
       <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">自動モードでは、URL パラメーターがトラッキングテンプレート／リンク先 URL の末尾に正しい形式で追加されます。<b>ただし、ユーザーの責任のもとに、追加された URL パラメーターが最終的なランディングページまで適切に保持されるようにする必要があります。</b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">自動モードではランディング URL にキーワードを挿入できます。ご使用の Web サーバーでは特殊文字を含むキーワードがサポートされない場合があります。 </li> 
