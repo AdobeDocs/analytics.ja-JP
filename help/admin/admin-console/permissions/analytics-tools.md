@@ -1,9 +1,9 @@
 ---
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '547'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Analytics ツールの製品プロファイル権限
@@ -32,7 +32,7 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | Excel ライセンスユーザー | 未使用。 |
 | Activity Map | ツール／Activity Map へのアクセスを許可します。Activity Map 拡張の使用をユーザーに許可します。 |
 | 現在のデータ | Reports &amp; Analytics レポートで現在のデータを表示するオプションを有効にします。 |
-| Ad Hoc Analysis ライセンスユーザー | Ad Hoc Analysisは暮らしが終わった。 [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace) を参照してください。 |
+| Ad Hoc Analysis ライセンスユーザー | Ad Hoc Analysis のサポートは終了しました。[adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace) を参照してください。 |
 | モバイルアプリ管理者 | 未使用。 |
 | Web サービスへのアクセス | サードパーティサイトとの認証や API 呼び出しの送信を含め、API を使用する機能を許可します。 |
 | Report Builder | ツール／Report Builder の下のダウンロードボタンを有効にし、Microsoft Excel 内でのユーザー認証を許可します。 |
