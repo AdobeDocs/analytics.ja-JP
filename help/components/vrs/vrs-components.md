@@ -2,9 +2,9 @@
 description: 仮想レポートスイートをキュレートして、Analysis Workspace で利用可能なコンポーネントを限定できます。
 title: 仮想レポートスイートコンポーネントのキュレーション
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
 ht-degree: 100%
 
