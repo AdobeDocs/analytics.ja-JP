@@ -1,12 +1,12 @@
 ---
-description: 標準またはカスタムのテンプレートに基づいて、Workspaceプロジェクトを作成します。
+description: 標準またはカスタムのテンプレートに基づいて、Workspace プロジェクトを作成します。
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1397'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
 
 これらの事前設定されたテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。
 
-[Analysis Workspace の標準テンプレート](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)に関するビデオチュートリアル（2:46）
+[Analysis Workspace の標準テンプレート](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)に関するビデオチュートリアル（2:46）
 
 以下に、利用可能なテンプレートと各テンプレートに関する質問について説明します。
 
@@ -79,7 +79,7 @@ ht-degree: 99%
 
 * **Magento：マーケティングとコマース**：このテンプレートは、マーケティングチャネルアトリビューション別に e コマースコンバージョンを分類し、検索キーワード、ランディングページ、地理的な場所などによるインサイトを提供します。ビデオの概要については、以下を参照してください。
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### メディア
 
