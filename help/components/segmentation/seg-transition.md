@@ -1,13 +1,13 @@
 ---
-description: セグメントに関するよくある質問です。
+description: セグメント化に関するよくある質問です。
 title: よくある質問
 topic: セグメント
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2078'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 * [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)は、セグメント作成を簡素化します。
 * [セグメントマネージャ](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を使用すると、セグメントの共有、タグ設定、検証および承認の機能を使用して[ワークフロー](/help/components/segmentation/segmentation-workflow/seg-workflow.md)を設定できます。
 * フォルダーを使用する代わりに[セグメントにタグを設定](/help/components/segmentation/segmentation-workflow/seg-workflow.md)して、セグメントを整理したり検索したりできます。
-* [順次セグメント](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を作成できます。
+* [連続セグメント](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を作成できます。
 * ページビューコンテナの名称が「ヒットコンテナ」に変わりました。これは、ページビューだけでなく、すべての種類のデータをセグメント化するコンテナであることを意味しています。例えば、リンクトラッキング呼び出しと、モバイル SDK からの trackAction 呼び出しは、ヒットコンテナの対象になります。このコンテナは名前が変更されただけで、機能に変更はありません。
 
 詳しくは、Digital Marketing Blog の投稿 [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) を参照してください。
@@ -86,11 +86,11 @@ Ad Hoc Analysis と Report Builder には、自分が所有するセグメント
 
 **セグメントマネージャーでは Analytics のセグメントをすべて管理できるのですか？**
 
-すべてのセグメントをセグメントマネージャで管理できます。 セグメントマネージャには、所有者（セグメントを作成したユーザー）、共有先ユーザーおよび管理者ユーザーに表示されるセグメントが表示されます。セグメントの選択には、ユーザーによって所有および共有されるセグメントが表示されます。
+はい。すべてのセグメントをセグメントマネージャで管理できます。セグメントマネージャには、所有者（セグメントを作成したユーザー）、共有先ユーザーおよび管理者ユーザーに表示されるセグメントが表示されます。セグメントの選択には、ユーザーによって所有および共有されるセグメントが表示されます。
 
 管理者は、Analysis Workspace および [!DNL Reports & Analytics] ユーザーインターフェイス内ですべてのセグメントを表示できます。
 
-Report Builderには、自分が作成したセグメントまたは自分が共有しているセグメントのみが表示されます。
+Report Builder では、自分が作成したセグメントまたは自分に共有されているセグメントのみが表示されます。
 
 **このセグメントを削除できないのはなぜですか？**
 
@@ -109,7 +109,7 @@ Report Builderには、自分が作成したセグメントまたは自分が共
 * 自分が所有しているセグメントを確認します。
 * セグメントを適切なセグメントライブラリに追加します。
 * 正規のセグメントを承認します。
-* Tag segments according to[ベストプラクティス](/help/components/segmentation/segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
+* [ベストプラクティス](/help/components/segmentation/segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
 
 ## レガシーセグメントの管理 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -137,7 +137,7 @@ Report Builderには、自分が作成したセグメントまたは自分が共
 
 **Data Warehouse セグメントへの影響**
 
-既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。ほとんどのData Warehouseセグメントは、Analysis WorkspaceやReports &amp; Analyticsなどの他のコンポーネントでも機能します。
+既存の Data Warehouse セグメントは、今後も Data Warehouse 内ですべて機能します。また、ほとんどの Data Warehouse セグメントは、Analysis Workspace、Reports &amp; Analytics などの他のコンポーネントでも機能します。
 
 新しい Data Warehouse セグメントは、セグメントビルダーとセグメントマネージャで作成または編集できます。セグメントビルダーの製品の互換性メカニズムは、セグメントが Data Warehouse と互換性があるかどうかを自動的に判定します。
 
@@ -314,7 +314,7 @@ seg_definition.xml
  </tbody> 
 </table>
 
-## 既知の値を持つ文字列ベースのディメンションの変更  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## 既知の値を持つ文字列ベースのディメンションの変更 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 既知の値のセットを持つ文字列ベースのディメンションは列挙型に変更されました。これらのディメンションを使用してセグメントを作成すると、リストにすべての既知の値が事前に設定されます。演算子は等号のみがサポートされます。したがって、必要な値をすばやく正確にセグメント化でき、制限の緩いマッチングによって意図しない値が選択されることはありません。
 
@@ -336,7 +336,7 @@ seg_definition.xml
 | モバイルのブックマークの長さ | Java 有効 | 有料検索 |
 | モバイルの URL の長さ | 言語 |  |
 
-## 既知の値を持つ整数値ベースのディメンションの変更  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 既知の値を持つ整数値ベースのディメンションの変更 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 既知の値のセットを持つ整数値ベースのディメンションは列挙型の範囲に分割されたので、特定の範囲に対してセグメントをすばやく定義できます。これらの列挙型リストには、ディメンション名の後に「- グループ」が付きます。次のスクリーンショットに、以前および新しいセグメントビルダーインターフェイスを使用して、これらのディメンションをセグメント化する方法を示します。
 
