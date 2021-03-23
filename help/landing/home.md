@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics テクニカルドキュメントガイド
 description: Analytics のユーザーガイドとリソース
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 
 [![統合](assets/integrate_50px.png)](/help/integrate/home.md) [統合ガイド](/help/integrate/home.md) – Audience Manager、Advertising Cloud、Target といった他の Adobe Experience Cloud ソリューションとの統合を設定します。
 
-[![ストリーミングメディア解析](assets/media_50px.png)](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) [ストリーミングメディア解析ガイド](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) - ストリーミングメディア用 Adobe Analytics の実装これには、メディア SDK とメディアコレクション API が含まれます。
+[![ストリーミングメディア解析](assets/media_50px.png)](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html) [ストリーミングメディア解析ガイド](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) - ストリーミングメディア用 Adobe Analytics の実装これには、メディア SDK とメディアコレクション API が含まれます。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) [Data Workbench ガイド](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) – [!UICONTROL Data Workbench] の非常に柔軟で強力なマルチチャネル機能について説明します。[!UICONTROL Data Workbench クライアント]、インストール、[!UICONTROL データセット設定]ガイドなどが含まれます。
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html) [Data Workbench ガイド](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – [!UICONTROL Data Workbench] の非常に柔軟で強力なマルチチャネル機能について説明します。[!UICONTROL Data Workbench クライアント]、インストール、[!UICONTROL データセット設定]ガイドなどが含まれます。
 
 [![テクニカルノート](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics テクニカルノート](/help/technotes/home.md) – 特定の分析ツールやコンポーネントに特化していない、一般的な役立つ記事を含むナレッジベースです。
 
