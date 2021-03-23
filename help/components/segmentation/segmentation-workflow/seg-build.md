@@ -3,9 +3,9 @@ description: セグメントビルダーのキャンバスに指標ディメン�
 title: セグメントの構築
 topic: セグメント
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2040'
 ht-degree: 100%
 
