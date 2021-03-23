@@ -1,12 +1,12 @@
 ---
-description: Workspaceプロジェクトでフォールアウトビジュアライゼーションを使用します。
+description: Workspace プロジェクトでフォールアウトビジュアライゼーションを使用します。
 title: フォールアウトの概要
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 83%
 * 一般的でより広範囲なトラフィックフロー。ホームページを閲覧した訪問者のうち、検索を実行した訪問者の人数、その後特定の品目を閲覧した訪問者の人数などを表示できます。
 * サイト上のイベント間の関連性。例えばプライバシーポリシーを閲覧した訪問者のうち製品の購入に到達した人の割合を示します。
 
-[フォールアウトの視覚化のビデオチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=ja-JP) (4:15)
+[フォールアウトのビジュアライゼーションに関するビデオチュートリアル](\https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=ja)（4:15）
 
 ## フローとフォールアウトの基礎としてのセグメント化 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-ワークスペースパネルに適用したセグメントの動作は、Reports &amp; Analyticsのフォールアウトレポートやフローレポートに適用したセグメントとは若干異なります。 ほとんどの場合、これらは同じ結果になります。主な違いは、Reports &amp; Analyticsは、シーケンスの各ステップでセグメントを適用する点です。 これにより、結果がわずかに異なることになります。
+Workspace パネルに適用されたセグメントの動作は、Reports &amp; Analytics のフォールアウトレポートやフローレポートに適用されたセグメントとわずかに異なります。ほとんどの場合、これらは同じ結果になります。主な違いは、Reports &amp; Analytics ではセグメントがシーケンスの各ステップで適用されることです。これにより、結果がわずかに異なることになります。
 
 2 ステップのフォールアウトを例にします。
 
@@ -47,13 +47,13 @@ Workspace のパネルレベルでセグメントを適用すると、そのセ�
 
 ![](assets/fallout_seg.png)
 
-一方、Reports &amp; Analyticsがセグメントを計算する場合、セグメントは次のように結合されます。
+一方、Reports &amp; Analytics でセグメントを計算すると、セグメントは次のように結合されます。
 
 ![](assets/fallout_segments3.png)
 
-Reports &amp; Analyticsは、各手順でセグメントを組み合わせます。 コンテナがフォールアウトと同じレベル（訪問レベルまたは訪問者レベルなど）の場合は、訪問数と訪問者数が同じになります。
+Reports &amp; Analytics では、ステップは各ステップで結合されます。コンテナがフォールアウトと同じレベル（訪問レベルまたは訪問者レベルなど）の場合は、訪問数と訪問者数が同じになります。
 
-ただし、パネルに適用されたセグメントがフォールアウトのレベル（ヒットレベルなど）より小さい場合、レポートに組み合わされる方法によって、セグメントは異なる結果を示します。繰り返しますが、ほとんどの場合、Analysis Workspaceの数値がReports &amp; Analyticsの数値と一致します。 次の条件がすべて当てはまる場合にのみ一致&#x200B;**しません**。
+ただし、パネルに適用されたセグメントがフォールアウトのレベル（ヒットレベルなど）より小さい場合、レポートに組み合わされる方法によって、セグメントは異なる結果を示します。繰り返しますと、ほとんどの状況で Analysis Workspace の数字は Reports &amp; Analytics の数字と一致します。次の条件がすべて当てはまる場合にのみ一致&#x200B;**しません**。
 
 * セグメントがフォールアウトと同じレベルにない。
 * 訪問中または訪問者としてのアクセス時に訪問者／訪問が複数の値を取ることができる変数がセグメントにある。
