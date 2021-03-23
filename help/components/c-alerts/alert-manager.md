@@ -2,9 +2,9 @@
 description: アラートを管理.
 title: アラートマネージャー
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
