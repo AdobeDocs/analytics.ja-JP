@@ -1,11 +1,11 @@
 ---
-title: Advertising Analyticsで広告アカウントを設定する方法
+title: Advertising Analytics で広告アカウントを設定する方法
 description: 新しい広告アカウントを作成し、複数のアカウントを複数のレポートスイートにマッピングできます。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>タイプ </p> </td> 
-      <td colname="col2"> <p>Google AdWords と Microsoft Bing　Ads の 2 つのオプションがあります。 </p> <p>注意：Yahoo Gemini は、2019 年 3 月 31 日に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。  </p> </td> 
+      <td colname="col2"> <p>Google AdWords と Microsoft Bing　Ads の 2 つのオプションがあります。 </p> <p>注意：Yahoo Gemini は、2019 年 3 月 31 日（PT）に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>アカウント名 </p> </td> 
@@ -49,7 +49,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
       <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords：Google アカウント ID を入力します。 </li> 
        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：Bing アカウント ID と Bing カスタマー ID を入力します。 </li> 
-       </ul> <p>これらの ID について詳しくは、<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >アカウント ID を見つける方法</a>を参照してください。 </p> <p>正しくログインすると、「OAuth のトークン」フィールドに「<code>Retrieved</code> を選択します。 </p> </td> 
+       </ul> <p>これらの ID について詳しくは、<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >アカウント ID を見つける方法</a>を参照してください。 </p> <p>正しくログインすると、「OAuth のトークン」フィールドに「<code>Retrieved</code>」を選択します。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -78,7 +78,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>レポートスイートマッピング </p> </td> 
-      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
+      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
