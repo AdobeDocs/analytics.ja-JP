@@ -3,11 +3,11 @@ description: セグメントを使用すると、特性や Web サイトでの�
 title: セグメントおよびコンテナについて
 topic: セグメント
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 セグメントは、[!UICONTROL 訪問者]、[!UICONTROL 訪問]および[!UICONTROL ヒット]の各レベル階層に基づき、ネストされたコンテナモデルを使用して構成されます。ネストされたコンテナを使用することで、コンテナ間およびコンテナ内のルールに基づいて、訪問者の属性とアクションを定義できます。Analytics セグメントは、[!DNL Adobe Experience Cloud] の複数の製品および機能間で構築、承認、共有、保存および実行できます。セグメントはレポートから生成したり、ダッシュボードレポートに組み込んだりできます。また、セグメントをブックマークに登録すると、セグメントにすばやくアクセスできるようになります。
 
-セグメントビルダーでセグメントを作成して保存したり、フォールアウトレポートから(Analysis Workspaceで)セグメントを生成したりできます。 また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。さらに、[積み重ねセグメント](/help/components/segmentation/segmentation-workflow/seg-workflow.md)として複数のセグメントを使用することもできます。
+セグメントビルダーでセグメントを作成して保存することも、Analysis Workspace でフォールアウトレポートからセグメントを生成することもできます。また、事前作成されたセグメントをネストされたコンテナ間の特定のルールに基づいて利用および拡張し、結果をフィルタリングしてレポートに適用することもできます。さらに、[積み重ねセグメント](/help/components/segmentation/segmentation-workflow/seg-workflow.md)として複数のセグメントを使用することもできます。
 
 ## セグメント {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 
 このようなセグメントは、[!UICONTROL AND] および [!UICONTROL OR] 演算子を使用して結合された特性に基づいてデータセットをフィルタリングします。
 
-## 順次セグメント  {#section_EE5B14287FC44E0B96E77679A2438948}
+## 順次セグメント {#section_EE5B14287FC44E0B96E77679A2438948}
 
 順次セグメントでは、サイト間でのナビゲーションとページビューに基づいて訪問者を識別し、定義済みのアクションとインタラクションのセグメントを提供できます。順次セグメントを使用すると、訪問者が好むものとそうでないものを容易に識別できます。順次セグメントを作成するときは、[!UICONTROL THEN] 演算子を使用して訪問者のナビゲーションを定義し、順序を指定します。
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 ## ハウツービデオ {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-このビデオでは、セグメントのコンテナの概要と使用方法を簡単に説明します。[Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)のセグメントコンテナ
+[Adobe Analytics のセグメントコンテナ](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/components/segmentation/segment-containers.html)のビデオでは、セグメントコンテナの概要と使用方法について簡単に説明しています。
 
 ## コンテナについて {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
