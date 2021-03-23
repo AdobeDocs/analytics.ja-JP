@@ -2,9 +2,9 @@
 description: レポート時間処理は、非破壊的かつ遡及的な方法で過去データを再処理できる仮想レポートスイートの設定です。
 title: レポート時間処理
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1423'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
 
 レポート時間処理を使用する場合に現在のところサポートされない指標とディメンションの一覧を次に示します。
 
-* **Target 向け Analytics：**：現在サポートされていません。将来サポートされる予定です。
+* **Analytics for Target：**：現在サポートされていません。将来サポートされる予定です。
 * **Advertising Cloud 向け Analytics で予約された指標／ディメンション：**&#x200B;現在サポートされていません。将来サポートされる予定です。
 * **単一アクセス指標：**&#x200B;今後もサポートされる予定はありません。
 * **リスト Var：**&#x200B;現在サポートされていません。将来サポートされる予定です。
