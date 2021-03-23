@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
-user-guide-description: Analyticsの主要な分析と視覚化ツールであるAnalysis Workspaceの操作方法、およびAdobe Analyticsダッシュボード、Report Builder、Activity Mapなどのツールについて説明します。
+user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
 translation-type: tm+mt
 source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1012'
+ht-degree: 100%
 
 ---
 
