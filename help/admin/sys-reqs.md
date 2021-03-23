@@ -1,11 +1,11 @@
 ---
 title: 必要システム構成
 description: Adobe Analytics を使用するための必要システム構成です。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 564263be46b8c4fef996381819b4b13abb865b7a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '108'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Analysis Workspace を含む、ほとんどの Adobe Analytics ソリューシ�
 
 >[!NOTE]
 >
->アドビは Adobe Analytics での Microsoft Internet Explorer 11 のサポートを 2018 年 11 月 13 日に終了しました。
+>アドビは Adobe Analytics での Microsoft Internet Explorer 11 のサポートを 2018 年 11 月 13 日（PT）に終了しました。
 
 ## ブラウザーベース以外のソリューションの必要システム構成
 
