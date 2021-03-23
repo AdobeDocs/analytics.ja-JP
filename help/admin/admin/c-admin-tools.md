@@ -2,9 +2,9 @@
 description: Adobe Analytics の管理ツールのインデックス。
 title: 管理ツール
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
