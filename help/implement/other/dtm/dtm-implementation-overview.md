@@ -1,14 +1,14 @@
 ---
-description: Dynamic Tag Managementを使用したAdobe Analyticsの実装を参照してください。
+description: Dynamic Tag Management を使用して Adobe Analytics を実装します。
 keywords: Analytics の実装, 実装方法, dynamic tag management, dtm
 title: DTM 実装の概要
 topic: 開発者と実装
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
