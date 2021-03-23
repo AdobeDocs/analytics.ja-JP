@@ -3,11 +3,11 @@ description: セグメントマネージャでは、セグメントを様々な�
 title: セグメントの管理
 topic: セグメント
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Analytics セグメントマネージャには、自分が所有しているす�
 
 ## ハウツービデオ {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-この [Adobe Analytics の ビデオ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)では、セグメントマネージャの使用方法の概要を説明しています。
+この [Adobe Analytics の ビデオ](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)では、セグメントマネージャの使用方法の概要を説明しています。
 
 ## セグメントマネージャのユーザーインターフェイス {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
