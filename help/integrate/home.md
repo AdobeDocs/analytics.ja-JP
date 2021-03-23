@@ -1,11 +1,11 @@
 ---
 title: Analytics の統合
-description: 他の場所のデータをAdobe Analyticsに統合する方法を説明します。
-translation-type: tm+mt
+description: 他の場所のデータを Adobe Analytics に統合する方法について説明します。
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
