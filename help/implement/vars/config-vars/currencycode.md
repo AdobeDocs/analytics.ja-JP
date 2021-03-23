@@ -1,11 +1,11 @@
 ---
-title: currencyCode変数とは何ですか。その使用方法を教えてください。
-description: eコマースサイトの場合、ページで扱う通貨を設定します。
-translation-type: tm+mt
+title: currencyCode 変数とは何ですか？ その使い方を教えてください。
+description: e コマースサイトの場合、ページで扱う通貨を設定します。
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 Adobe Experience Platform コードは、Adobe Analytics 拡張機能のコンテキストデータ変数を通じて通貨モバイル SDK に渡されます。
 
 1. `trackState` または `trackAction` のいずれかの時点で、コンテキストデータ変数に通貨コードを設定します。
-2. アドビの Analytics Admin Console で、レポートスイート用の処理ルールを作成します。通貨コード変数を上書きするルールを設定します。
+2. アドビの Adobe Analytics Admin Console で、レポートスイート用の処理ルールを作成します。通貨コード変数を上書きするルールを設定します。
 3. `trackState` または `trackAction` の呼び出しで、通貨コードを `products` 変数に渡します。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
