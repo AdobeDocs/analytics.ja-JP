@@ -3,9 +3,9 @@ description: セグメントビルダーによって作成され、セグメン�
 title: セグメントワークフローの概要
 topic: セグメント
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
