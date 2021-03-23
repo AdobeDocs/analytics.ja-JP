@@ -2,11 +2,11 @@
 description: ページネーション、フィルタリング、並べ替えについて説明するビデオ。
 title: テーブルのページネーション、フィルタリングおよび並べ替え
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
