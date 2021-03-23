@@ -1,12 +1,12 @@
 ---
-description: Advertising Analyticsで使用するExperience Cloudマッピング済みレポートスイートを設定します。
+description: Advertising Analytics で使用する、Experience Cloud をマッピングしたレポートスイートを設定します。
 title: Advertising Analytics 用のレポートスイートの有効化
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
