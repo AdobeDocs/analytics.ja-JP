@@ -3,11 +3,11 @@ description: セグメント機能は、管理者レベルユーザーと非管�
 title: セグメントに対する役割別の権限
 topic: セグメント
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 88%
   <tr> 
    <td colname="col1"> <b>管理者レベルユーザー</b> </td> 
    <td colname="col2"> 会社全体、ユーザーグループおよび個人ユーザーと共有できます。 </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace、Reports &amp; Analytics</span>：ユーザー自身および他のユーザーのセグメントの表示／編集／削除などが可能です。 <p> <span class="keyword"> Report Builder </span>:その他を表示、編集、削除できます。独自のセグメントと共有されるセグメント。 </p> </td> 
+   <td colname="col3"> <span class="keyword"> Analysis Workspace、Reports &amp; Analytics </span>：ユーザー自身および他のユーザーのセグメントの表示／編集／削除などが可能です。 <p> <span class="keyword"> Report Builder </span>：表示／編集／削除などが可能です。自身のセグメントおよび共有されているセグメント。 </p> </td> 
    <td colname="col4"> セグメントを正当なセグメントとして承認できます。 </td> 
    <td colname="col5"> 組織全体ですべてのセグメントを適用できます。 </td> 
   </tr> 
