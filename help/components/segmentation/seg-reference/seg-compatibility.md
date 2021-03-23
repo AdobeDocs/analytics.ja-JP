@@ -3,11 +3,11 @@ description: セグメントビルダーで作成するすべてのセグメン�
 title: Data Warehouse セグメントの互換性
 topic: セグメント
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <b>ディメンション</b> </td> 
-   <td>セグメントビルダーの<span class="uicontrol">定義</span>フィールドにディメンションをドラッグ＆ドロップして、プロトコルの互換性を調べます。例えば、次のディメンションは、Analysis Workspace、Reports &amp; Analyticsでのみサポートされます。 
+   <td>セグメントビルダーの<span class="uicontrol">定義</span>フィールドにディメンションをドラッグ＆ドロップして、プロトコルの互換性を調べます。例えば、次のディメンションは、Analysis Workspace、Reports &amp; Analytics でのみサポートされます。 
     <ul> 
      <li>入口サーバー </li> 
      <li>入口カテゴリ </li> 
