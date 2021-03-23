@@ -1,12 +1,12 @@
 ---
-description: Workspaceプロジェクトで貢献度分析レポートを実行します。
+description: Workspace プロジェクトで貢献度分析レポートを実行します。
 title: 貢献度分析の実行
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
