@@ -4,11 +4,11 @@ subtopic: Classifications
 title: FTP インポート
 topic: 管理ツール
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 新しいキー値をアップロードするごとに、その月の変数あたりのユニーク値の数が増加します。
 
-その月のユニーク値が超過すると、その超過した値に対応する分類データはレポート上で表示されません。これらの分類は、Data Warehouseで表示できます。
+その月のユニーク値が超過すると、その超過した値に対応する分類データはレポート上で表示されません。これらの分類は、Data Warehouse で表示できます。
 
 >[!NOTE]
 >
@@ -98,4 +98,4 @@ Adobe FTP サーバーについて詳しくは、「[FTP と SFTP](https://docs.
 
 >[!NOTE]
 >
->インポートで分類が変更されない場合、通知は送信されません。 電子メールは、電子メールが正常に送信され、その結果分類が変更された場合にのみ送信されます。
+>読み込みによって分類が変更されない場合、通知は送信されません。電子メールは、正常に実行され、その結果分類が変更された場合にのみ送信されます。
