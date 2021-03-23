@@ -2,11 +2,11 @@
 description: 処理に影響を及ぼす可能性のある、Analytics における計算指標の機能の変更を次に示します。
 title: よくある質問
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 98%
 
 現在、分類が Numeric または Numeric2 の計算指標は引き続き [!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder] および API に表示されます。ただし、このような指標は、セグメントが適用されたレポートではサポートされません。
 
-また、分類がNumericまたはNumeric2の計算指標は、次のコンポーネントではサポートされません。[!UICONTROL Analysis Workspace]、[!UICONTROL リアルタイム]レポート、[!UICONTROL 異常値検出]、[!UICONTROL 貢献度分析]。 分類が Numeric または Numeric2 の計算指標を作成または編集すると、互換性に関する警告が表示されます。この警告は、特定の分野の製品との互換性がその計算指標にないことを示します。
+また、分類が Numeric または Numeric2 の計算指標は、[!UICONTROL Analysis Workspace]、[!UICONTROL リアルタイム]レポート、[!UICONTROL 異常値検出]および [!UICONTROL 貢献度分析]の各コンポーネントではサポートされません。分類が Numeric または Numeric2 の計算指標を作成または編集すると、互換性に関する警告が表示されます。この警告は、特定の分野の製品との互換性がその計算指標にないことを示します。
 
 **必要な処理**
 
@@ -166,7 +166,7 @@ API と計算指標ビルダーの両方を使用する必要がある場合は�
 
 ## 従来の計算指標に対して行った変更が保存されないのはなぜですか？ {#section_81CDEFCA1FD542579AF183DA1494EAF0}
 
-これは、新しい計算指標データベースへの移行のタイミングが原因である可能性があります。この移行は、2015 年 6 月 15 日から 6 月 18 日の期間に行われました。
+これは、新しい計算指標データベースへの移行のタイミングが原因である可能性があります。この移行は、2015 年 6 月 15 日（PT）から 6 月 18 日（PT）の期間に行われました。
 
 **必要な処理**
 
