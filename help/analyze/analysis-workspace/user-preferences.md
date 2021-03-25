@@ -2,9 +2,9 @@
 title: Analysis Workspaceでのユーザ環境設定の設定方法
 description: ランディングページ参照とプロジェクト参照を1か所で設定できます。
 translation-type: tm+mt
-source-git-commit: cbfe63bcb620bbd089d8d6a795662f50643a0109
+source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '224'
 ht-degree: 28%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 28%
 
 # ユーザー環境設定
 
-[!UICONTROL コンポーネント]/[!UICONTROL ユーザー環境設定]ページでは、ユーザーのAnalysis Workspace設定と関連コンポーネントを管理できます。 ユーザーの環境設定は、すべての&#x200B;*新しい*&#x200B;プロジェクトまたはパネルに適用されます。
+[!UICONTROL コンポーネント]/[!UICONTROL ユーザー環境設定]ページでは、ユーザーレベルでAnalysis Workspaceとその関連コンポーネントの設定を管理できます。 ユーザーの環境設定は、すべての&#x200B;*新しい*&#x200B;プロジェクトまたはパネルに適用されます。
 
 ![ユーザー環境設定](assets/user-preferences.png)
 
