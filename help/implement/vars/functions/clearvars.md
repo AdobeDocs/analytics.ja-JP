@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: インスタンスオブジェクトの以下の値をクリアします。この関数は要素を削除します（要素を「undefined」に設定します）。
+description: トラッキングオブジェクトから変数値をクリアします。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '158'
+ht-degree: 95%
 
 ---
 
