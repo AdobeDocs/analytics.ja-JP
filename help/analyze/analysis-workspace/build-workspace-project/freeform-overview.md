@@ -2,12 +2,13 @@
 description: Workspace プロジェクトでの作業の基本について説明します。
 keywords: Analysis Workspace
 title: プロジェクトの概要
-topic: Reports & Analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1371'
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1373'
 ht-degree: 100%
 
 ---
@@ -66,7 +67,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 | 設定 | 説明 |
 |---|---|
-| プロジェクト名 | プロジェクトに設定された名前。名前をダブルクリックすると編集できます。 |
+| プロジェクト名前 | プロジェクトに設定された名前。名前をダブルクリックすると編集できます。 |
 | 作成者 | プロジェクト所有者名。 |
 | 最終変更日 | プロジェクトの最終変更日。 |
 | タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。 |
@@ -77,7 +78,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 ## 左側のパネル {#left-rail}
 
-プロジェクトでは、左側のパネルから[パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)、テーブル、[ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja)および[コンポーネント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=ja)にアクセスします。これらはプロジェクトの構成要素です。
+プロジェクトでは、左側のパネルから[パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)、テーブル、[ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja)および[コンポーネント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html)にアクセスします。これらはプロジェクトの構成要素です。
 
 また、[空のパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ja)からもビジュアライゼーションやパネルにアクセスできます。
 
@@ -91,7 +92,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 パネルは、期間、レポートスイート、分析の使用例に従ってプロジェクトを整理する場合に便利です。 アクティブパネルの周囲に青い境界線が表示され、左側のパネルから使用できるコンポーネントが決定されます。
 
-プロジェクトの開始時に選択した内容に応じて、キャンバスに[フリーフォームテーブル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja)または[空のパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ja)が表示されます。分析を最も簡単に開始するには、1 つまたは複数のコンポーネントを選択し、それらをプロジェクトキャンバスにドラッグ＆ドロップします。データのテーブルが自動的にレンダリングされます。[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja)からテーブルを作成するための様々なオプションについて確認してください。または、アドビの[トレーニングチュートリアル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja#training-tutorial)を活用して、初めてプロジェクトを作成する際の手順を確認してください。
+プロジェクトの開始時に選択した内容に応じて、キャンバスに[フリーフォームテーブル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja)または[空のパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)が表示されます。分析を最も簡単に開始するには、1 つまたは複数のコンポーネントを選択し、それらをプロジェクトキャンバスにドラッグ＆ドロップします。データのテーブルが自動的にレンダリングされます。[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)からテーブルを作成するための様々なオプションについて確認してください。または、アドビの[トレーニングチュートリアル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja#training-tutorial)を活用して、初めてプロジェクトを作成する際の手順を確認してください。
 
 ![](assets/canvas.png)
 
@@ -107,9 +108,9 @@ Analysis Workspace プロジェクトは、**Analytics／コンポーネント�
 
 | アクション | 説明 |
 |---|---|
-| 追加 | 新規プロジェクトを最初から作成するか、[テンプレート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja)を使用して作成します。 |
+| 追加 | 新規プロジェクトを最初から作成するか、[テンプレート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)を使用して作成します。 |
 | タグまたは承認 | 「タグ」または「承認」を選択すると、プロジェクトが整理され、検索しやすくなります。 |
-| [共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja) | プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。 |
+| [共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。 |
 | 削除 | プロジェクトを削除します。 |
 | 名前変更 | プロジェクトの名前を編集します。 |
 | Copy | プロジェクトの複製を作成します。これで、新しいプロジェクトとプロジェクト ID が作成されます。元のプロジェクトに関連付けられた共有またはスケジュールはコピーされません。 |
