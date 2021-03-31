@@ -1,13 +1,14 @@
 ---
 description: 固定日付または日付範囲を指定する場合、Report Builder ではレポートのカレンダーが表示されます。ユーザーはこのカレンダーを使用して、日付、日付範囲または事前設定日を選択することができます。また、固定日付をテンプレートとして保存し、さらにどのレポートスイートで利用できるかを指定することもできます。
 title: 固定日付および保存済み日付範囲
-topic: Report builder
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 98%
 
 ---
 
