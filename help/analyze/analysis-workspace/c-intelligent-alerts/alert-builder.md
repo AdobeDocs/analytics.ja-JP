@@ -2,11 +2,13 @@
 description: プロジェクトコンポーネントが特定のしきい値に達した場合にアラートを受け取ります。
 title: アラートビルダー
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+feature: AIツール
+role: 営業者、管理者
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 98%
 
 ---
 
