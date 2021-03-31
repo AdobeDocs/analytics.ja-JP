@@ -1,11 +1,13 @@
 ---
 title: Adobe Analytics ダッシュボード — 概要
 description: Adobe Analytics ダッシュボードの製品ドキュメントとセルフヘルプ
+feature: Analyticsダッシュボード
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 3612800349243ed4ce7a137a6c2eaf12e5abb4a2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 97%
 
 ---
 
