@@ -1,13 +1,14 @@
 ---
 description: 値を直接指定するフィルターです。
 title: 特定のフィルター
-topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 91%
+source-wordcount: '321'
+ht-degree: 90%
 
 ---
 
