@@ -2,11 +2,13 @@
 description: Workspace プロジェクトで棒グラフビジュアライゼーションを使用します。
 title: 棒グラフおよび積み重ね棒グラフ
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '88'
-ht-degree: 100%
+feature: ビジュアライゼーション
+role: 営業者、管理者
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 96%
 
 ---
 
