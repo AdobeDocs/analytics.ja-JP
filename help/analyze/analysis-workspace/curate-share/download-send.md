@@ -2,10 +2,12 @@
 description: Analysis Workspaceからデータをダウンロードするには、データをコピーするか、PDFおよびCSV形式でダウンロードします。
 title: PDF ファイルまたは CSV ファイルのダウンロード
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
+feature: キュレーションと共有
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '993'
 ht-degree: 9%
 
 ---
