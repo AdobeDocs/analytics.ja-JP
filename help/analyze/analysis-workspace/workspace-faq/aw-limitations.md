@@ -1,10 +1,12 @@
 ---
 description: Adobe Analysis Workspace とその関連コンポーネントに関する既知の制限のリスト
 title: Analysis Workspace の既知の制限
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
 translation-type: tm+mt
-source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
@@ -34,7 +36,7 @@ ht-degree: 100%
 
 ## コンポーネント／セグメント
 
-* 指標やディメンションには、セグメント化できないものがあります（[!UICONTROL 回数]、[!UICONTROL 個別訪問者数]など）。
+* 指標やディメンションには、セグメント化できないものがあります（[!UICONTROL 回数]、[!UICONTROL ユニーク訪問者]など）。
 * [パネルのドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja-JP)で作成されたアドホックセグメントは、公開されない限り、Workspace の左パネルまたはセグメントコンポーネントマネージャーに表示されません。これは、セグメントを編集し、「**[!UICONTROL このセグメントを公開する]**」を選択することで実行できます。
 
 ## コンポーネント／計算指標
