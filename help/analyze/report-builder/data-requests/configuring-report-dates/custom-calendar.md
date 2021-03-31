@@ -1,12 +1,13 @@
 ---
 description: Report Builder では、Analytics のカスタムカレンダーを使用します。このカレンダーでは、週や年の最初の日を定義したり、様々なスタイルの小売業用カレンダーを使用したりできます。カレンダーフォーマットは、販売の比較および予測の標準化、人件費の分析、実在庫のカウント規則など、様々な目的に使用されます。
 title: カスタムカレンダー
-topic: Report Builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '385'
 ht-degree: 91%
 
 ---
