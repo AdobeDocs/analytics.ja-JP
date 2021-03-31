@@ -1,13 +1,14 @@
 ---
 description: カレンダーイベントを追加し、共有イベントを管理する手順を説明します。
 title: カレンダーイベント
-topic: Reports and analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
+feature: カレンダー
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 99%
 
 ---
 
