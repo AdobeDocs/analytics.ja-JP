@@ -1,13 +1,14 @@
 ---
 description: 事前設定日では、よく使用する日付や保存しておいた日付を選択できます。リクエストウィザード：ステップ 1 で、「事前設定日」を選択します。Report Builder の事前設定日のフィールド定義を次に示します。
 title: リクエストウィザードの定義 - 事前設定日
-topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 98%
 
 ---
 
