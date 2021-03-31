@@ -2,11 +2,13 @@
 description: ビジュアライゼーションでデータを視覚的に表示します。
 keywords: Analysis Workspace
 title: ビジュアライゼーションの概要
+feature: ビジュアライゼーション
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 44%
+source-wordcount: '1095'
+ht-degree: 45%
 
 ---
 
@@ -15,7 +17,7 @@ ht-degree: 44%
 
 Workspace オファーには、棒グラフ、ドーナツグラフ、ヒストグラム、折れ線グラフ、マップ、散布図など、データを視覚的に表現する様々なビジュアライゼーションがあります。Adobe Analyticsを使用すると、ほとんどのビジュアライゼーションタイプが見慣れています。 しかし、Analysis Workspace にはビジュアライゼーション設定があり、インタラクティブ機能を備えた新しいまたは独自のビジュアライゼーションタイプを数多く揃えています。
 
-ビジュアライゼーションには、Workspaceの左上のアイコン、[空白のパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)、またはワークフローの右クリックメニューからアクセスできます。
+ビジュアライゼーションには、Workspaceの左上のアイコン、[空白のパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=ja)、またはワークフローの右クリックメニューからアクセスできます。
 
 ![](assets/viz-rail.png)
 
