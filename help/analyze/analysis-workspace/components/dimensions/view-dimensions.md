@@ -2,10 +2,12 @@
 description: プロジェクトでディメンションを使用する前に、ディメンションの上位の値を表示します。
 title: ディメンションのプレビュー
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '192'
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
