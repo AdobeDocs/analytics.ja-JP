@@ -1,13 +1,14 @@
 ---
 description: リクエストをコピーして貼り付ける場合と同じ方法で、ショートカットメニューから「リクエストを切り取る」を選択することにより、リクエストをスプレッドシートの別の場所に移動させることができます。
 title: 隣接するリクエストのコピー
-topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 98%
 
 ---
 
