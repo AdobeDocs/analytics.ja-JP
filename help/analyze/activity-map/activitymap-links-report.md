@@ -1,13 +1,14 @@
 ---
 description: リンクレポートは、現在のページで見つかったリンクについて報告します。そのページ用に収集されたすべてのリンクについて報告するわけではありません。
 title: リンクレポート
-topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
+feature: Activity Map
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '760'
+ht-degree: 99%
 
 ---
 
