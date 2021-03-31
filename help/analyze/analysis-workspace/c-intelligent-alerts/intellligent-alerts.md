@@ -2,11 +2,13 @@
 description: 新しいインテリジェントアラートシステムでは、アラートをより詳細に制御でき、異常値検出とアラートシステムが統合されます。
 title: インテリジェントアラートの概要
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
+feature: AIツール
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 95%
+source-wordcount: '370'
+ht-degree: 94%
 
 ---
 
