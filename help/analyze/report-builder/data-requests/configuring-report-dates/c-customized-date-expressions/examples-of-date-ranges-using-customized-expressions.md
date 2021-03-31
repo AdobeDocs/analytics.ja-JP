@@ -1,13 +1,14 @@
 ---
 description: カスタマイズされた式で日付範囲を使用する場合の例、注意事項および構文に関する注意点について説明します。
 title: カスタマイズされた式を使用した日付範囲の例
-topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 99%
 
 ---
 
