@@ -2,13 +2,14 @@
 description: それぞれのトップの比較テーブルには、おこなわれた比較に基づくいくつかの統計テストによって計算された差異スコアが表示されますが、差異スコアは、使用されたテストにかかわらず、0～1 の値で示されます。
 keywords: Analysis Workspace;Segment IQ
 title: セグメント比較で使用される統計テスト
-topic: Reports and analytics
+topic: Reports & Analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
