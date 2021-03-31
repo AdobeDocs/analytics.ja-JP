@@ -1,13 +1,14 @@
 ---
 description: リクエストウィザード：ステップ 2 で指標とディメンションを追加し、リクエスト内でデータの Analytics レイアウトを定義できます。Report Builder の指標とディメンションのリストは、Reports and Analytics 内に表示されるメニューレイアウトと同じです。
 title: 指標およびディメンションの概要
-topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
