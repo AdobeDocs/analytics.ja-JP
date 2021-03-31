@@ -1,13 +1,14 @@
 ---
 description: レポートをスケジュールする場合、その配信に使用する発行リストを選択できます。
 title: 発行リストの上書きの許可
-topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 94%
+source-wordcount: '169'
+ht-degree: 92%
 
 ---
 
