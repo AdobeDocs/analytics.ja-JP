@@ -1,13 +1,14 @@
 ---
 description: 異なるレポートタイプの実行手順を説明します。
 title: 異なるレポートタイプの実行
-topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
+feature: Reports & Analyticsの基本事項
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 100%
+source-wordcount: '2364'
+ht-degree: 99%
 
 ---
 
