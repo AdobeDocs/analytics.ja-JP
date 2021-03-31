@@ -1,13 +1,14 @@
 ---
 description: '「式をカスタマイズ」を使用して日付範囲を設定する際には、次の 2 点に注意してください。 '
 title: 日付のカスタマイズに関する考慮事項
-topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 99%
 
 ---
 
