@@ -1,13 +1,14 @@
 ---
 description: リクエストを含むレポートの作成後、Excel のファイル／保存、またはファイル／名前を付けて保存をクリックしてレポートを保存できます。Report Builder では、レポートにリクエストが含まれているかどうかを検出します。これらの保存オプションのいずれかをクリックすると、「ワークブックに名前を付けて保存」フォームが表示されます。
 title: リクエストを含むワークブックの保存
-topic: Report builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 99%
 
 ---
 
