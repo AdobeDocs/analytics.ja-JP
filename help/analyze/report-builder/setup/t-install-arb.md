@@ -1,13 +1,14 @@
 ---
 description: Report Builder のインストール手順です。
 title: Report Builder のインストール
-topic: Report builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 67864f04effbc5cb41c14b9651da9144312148d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
