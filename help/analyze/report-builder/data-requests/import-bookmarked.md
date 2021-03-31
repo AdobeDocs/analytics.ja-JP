@@ -1,13 +1,14 @@
 ---
 description: ブックマークされたレポートおよびダッシュボードレポートは、リクエストウィザードの手順 1 でディメンションとして表示され、Report Builder リクエストとしてインポートできるようになりました。
 title: ブックマークされたレポートおよびダッシュボードレポートのインポート
-topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 99%
 
 ---
 
