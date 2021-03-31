@@ -1,13 +1,14 @@
 ---
 description: リクエストに指標およびディメンションを追加する手順です。
 title: 指標およびディメンションの追加
-topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 99%
 
 ---
 
