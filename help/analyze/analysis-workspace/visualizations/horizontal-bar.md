@@ -2,11 +2,13 @@
 description: Workspace プロジェクトで横棒グラフビジュアライゼーションを使用します。
 title: 横棒グラフおよび積み重ね横棒グラフ
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '70'
-ht-degree: 100%
+feature: ビジュアライゼーション
+role: 営業者、管理者
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 100%
 
 ![](assets/horizontal_bar.png)
 
-## 積み重ね横棒グラフ {#section_50C08E9E20A94024A6553BC352ADB597}
+## 積み重ね横棒グラフ  {#section_50C08E9E20A94024A6553BC352ADB597}
 
 このビジュアライゼーションは[!UICONTROL 横棒グラフ]に似ていますが、系列棒グラフは積み重なって表示されます。
 
