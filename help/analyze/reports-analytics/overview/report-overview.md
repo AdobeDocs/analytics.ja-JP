@@ -1,13 +1,14 @@
 ---
 description: ツールバー、カレンダー、詳細テーブルなど、レポートの機能について説明します。
 title: レポートの機能
-topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
+feature: Reports & Analyticsの基本事項
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 98%
 
 ---
 
