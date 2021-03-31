@@ -1,11 +1,13 @@
 ---
 title: アトリビューションに関する FAQ
 description: アトリビューションに関する FAQ に対する回答です。
+feature: アトリビューション
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1030'
+ht-degree: 99%
 
 ---
 
@@ -57,7 +59,7 @@ ht-degree: 100%
 アトリビューションパネルでは、すべてのディメンションがサポートされます。サポートされない指標は次のとおりです。
 
 * すべての計算指標
-* 個別訪問者数
+* ユニーク訪問者
 * 訪問数
 * 発生件数
 * ページビュー数
