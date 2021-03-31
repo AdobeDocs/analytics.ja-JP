@@ -2,11 +2,13 @@
 description: ユーザー定義のテキストを Workspace に追加できます。
 title: テキスト
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
+feature: ビジュアライゼーション
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 19cdf2b854dabf8c21ccdacc3de0aff05b31af9c
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 98%
 
 ---
 
