@@ -1,13 +1,14 @@
 ---
 description: オプションパネルでは、日付設定、待ち時間設定（現在のデータ）およびログ情報を指定し、更新を設定できます。
 title: Report Builder オプション
-topic: Report builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 99%
 
 ---
 
