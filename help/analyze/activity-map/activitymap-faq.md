@@ -1,13 +1,14 @@
 ---
 description: Activity Map での設定や機能の使用に関するよくある質問（FAQ）です。
 title: Activity Map の FAQ
-topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
+feature: Activity Map
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 24%
+source-wordcount: '508'
+ht-degree: 25%
 
 ---
 
