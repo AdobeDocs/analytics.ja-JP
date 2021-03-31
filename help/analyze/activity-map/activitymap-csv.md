@@ -1,13 +1,14 @@
 ---
 description: 標準モードで、Analytics データを Activity Map からコンマ区切り値（CSV）ファイルに書き出します。
 title: CSV ファイルへの書き出し
-topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
+feature: Activity Map
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: ee5489798f8c82c563b49b6c96acd1e63a0aa920
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
