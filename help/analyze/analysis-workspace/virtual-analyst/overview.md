@@ -1,11 +1,13 @@
 ---
 title: Virtual Analyst
 description: Virtual Analyst に貢献する Adobe Analytics の機能について説明します。
+feature: AIツール
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 95%
 
 ---
 
