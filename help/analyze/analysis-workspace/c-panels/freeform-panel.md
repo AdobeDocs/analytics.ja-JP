@@ -1,11 +1,13 @@
 ---
 description: フリーフォームパネルについて説明します。
 title: フリーフォームパネル
+feature: パネル
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 77b126b2add78113c266265f413240f27f89bced
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 100%
+source-wordcount: '28'
+ht-degree: 89%
 
 ---
 
