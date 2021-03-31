@@ -2,11 +2,13 @@
 description: 列設定では、列の書式を設定できます。一部の列には条件付き書式を設定することもできます。
 title: 列設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
+feature: フリーフォームテーブル
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: f2c6cda9743094cf198b4449b9163e3004d9e151
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 100%
+source-wordcount: '725'
+ht-degree: 99%
 
 ---
 
