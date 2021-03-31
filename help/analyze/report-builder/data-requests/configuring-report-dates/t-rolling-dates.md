@@ -1,13 +1,14 @@
 ---
 description: リクエストの相対日付をカスタマイズできます。
 title: 相対日付
-topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 96%
 
 ---
 
