@@ -1,10 +1,12 @@
 ---
 description: 自動保存、名前を付けて保存、テンプレートとして保存など、様々な保存オプションについて説明します。
 title: プロジェクトの保存
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
 translation-type: tm+mt
-source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
