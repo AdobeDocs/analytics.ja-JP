@@ -1,11 +1,12 @@
 ---
 description: データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
-title: データソースのフル処理オプション
+title: フル処理
+topic: 開発者と実装
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 97%
+source-wordcount: '727'
+ht-degree: 98%
 
 ---
 
