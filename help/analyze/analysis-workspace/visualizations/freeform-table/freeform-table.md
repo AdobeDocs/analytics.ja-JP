@@ -1,11 +1,13 @@
 ---
 title: フリーフォームテーブル
 description: フリーフォームテーブルは、Workspace のデータ分析の基盤となっています。
+feature: フリーフォームテーブル
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: c53af8e7658b838bff53f02abc6ea6f7b570a34b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 99%
 
 ---
 
