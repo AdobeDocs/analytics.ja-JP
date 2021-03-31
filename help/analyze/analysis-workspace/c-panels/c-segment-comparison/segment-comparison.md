@@ -2,11 +2,13 @@
 title: セグメント比較パネルの概要
 description: Analysis Workspace の Segment IQ の一部である、セグメント比較パネルの使用方法を説明します。
 keywords: Analysis Workspace;Segment IQ
+feature: パネル
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 100%
+source-wordcount: '1145'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +69,7 @@ ht-degree: 100%
 
 ### 母集団の概要
 
-サイズと重複ビジュアライゼーションの右側に、各セグメントと重複の個別訪問者の合計数が表示されます。
+サイズと重複ビジュアライゼーションの右側に、各セグメントと重複のユニーク訪問者の合計数が表示されます。
 
 ![母集団の概要](assets/population_summaries.png)
 
