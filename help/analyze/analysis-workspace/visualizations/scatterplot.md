@@ -1,11 +1,13 @@
 ---
 title: 散布図
 description: 最大 3 つの指標間の関係を示すビジュアライゼーション。
+feature: ビジュアライゼーション
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 97%
 
 ---
 
