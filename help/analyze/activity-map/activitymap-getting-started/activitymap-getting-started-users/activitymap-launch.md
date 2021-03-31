@@ -1,13 +1,14 @@
 ---
 description: 正しいブラウザープラグインがインストールされている場合は、Web ページから直接 Activity Map を起動できます。
 title: Activity Map の起動
-topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
+feature: Activity Map
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 100%
+source-wordcount: '80'
+ht-degree: 96%
 
 ---
 
