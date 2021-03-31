@@ -1,13 +1,14 @@
 ---
 description: ワークブックをロックすることで、リクエストの編集を防止できます。これにより、編集効率を高めるため、すべてのレポートリクエストを一時停止してワークブックをオフラインで編集できるようにします。
 title: ワークブックのロック／ロック解除
-topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
