@@ -2,13 +2,14 @@
 description: Reports & Analytics の「現在のデータを含む」オプションを使用すると、ほとんどの場合、データが完全に処理されてファイナライズされる前に最新の Analytics データを表示できます。「現在のデータ」には、ほとんどの指標が数分以内で表示され、迅速な意思決定を可能にする実用的なデータが提供されます。
 subtopic: Current Data
 title: 現在のデータ
-topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
+feature: Reports & Analyticsの基本事項
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '572'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +40,7 @@ Reports &amp; Analytics の「現在のデータを含む」オプションを�
 | --- | --- |
 | 10 分以内 | トラフィック変数のインスタンスとページビュー |
 | 10 ～ 35 分 | コンバージョン変数のコンバージョンイベント、インスタンス、ページビュー |
-| 45 ～ 120 分 | 訪問数、個別訪問者数、パーティシペーションなど、その他すべてのデータ |
+| 45 ～ 120 分 | 訪問数、ユニーク訪問者、パーティシペーションなど、その他すべてのデータ |
 
 現在のデータ表示に表示されるデータには完全に処理されていないデータも含まれるので、現在のデータ表示とファイナライズされた表示の値に違いがある場合があります。通常、トレンドレポートでのデータの相違は 1% 以内です。
 
