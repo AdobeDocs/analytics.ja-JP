@@ -1,10 +1,12 @@
 ---
 description: Analysis Workspace のビジュアライゼーションカラーパレットの使用方法
 title: ビジュアライゼーションカラーパレットとその機能
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
