@@ -1,10 +1,12 @@
 ---
 title: Activity Mapデータ収集のトラブルシューティング
 description: イメージリクエストでActivity Mapデータが表示されない理由の特定
+feature: Activity Map
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '269'
 ht-degree: 3%
 
 ---
@@ -18,7 +20,7 @@ Activity Mapディメンションのデータが表示されない場合は、�
 
 最初に、AppMeasurementがActivity Mapデータを正しく収集していることを確認します。
 
-1. [Adobe Experience CloudデバッガーChrome拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja-JP)をダウンロードしてインストールします。
+1. [Adobe Experience CloudデバッガーChrome拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)をダウンロードしてインストールします。
 2. Webページに移動し、リンクをクリックします。
 3. 後続のページが読み込まれたら、デバッガーを開きます。 Activity Mapコンテキストデータ変数が`activitymap.`と`.activitymap`の間に挟まれていることを検証します。
 
