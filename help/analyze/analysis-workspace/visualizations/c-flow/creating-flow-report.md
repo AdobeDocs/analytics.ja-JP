@@ -2,11 +2,13 @@
 description: Workspace プロジェクトでフロービジュアライゼーションを使用します。
 title: フロービジュアライゼーションの設定
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '351'
-ht-degree: 100%
+feature: ビジュアライゼーション
+role: 営業者、管理者
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 99%
 
 ---
 
