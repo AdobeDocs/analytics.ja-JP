@@ -1,11 +1,13 @@
 ---
 description: Reports and Analytics を使用する前に、Reports and Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 title: Reports and Analytics の概要
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '701'
-ht-degree: 100%
+feature: Reports & Analyticsの基本事項
+role: 営業者、管理者
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 99%
 
 ---
 
