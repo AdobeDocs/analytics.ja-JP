@@ -1,11 +1,13 @@
 ---
 title: アルゴリズムアトリビューション
 description: アルゴリズムアトリビューションモデルの詳細。
+feature: アトリビューション
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 98%
 
 ---
 
