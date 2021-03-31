@@ -1,12 +1,13 @@
 ---
 description: Report Builder の配信を最適化する方法や、時々発生する可能性のあるエラーメッセージのリストを示します。
 title: Report Builder のトラブルシューティングとベストプラクティス
-topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1404'
 ht-degree: 67%
 
 ---
