@@ -1,11 +1,13 @@
 ---
 title: アトリビューションの概要
 description: 成功イベントのクレジットを複数のディメンション項目に関連付ける概念。
+feature: アトリビューション
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 99%
 
 ---
 
