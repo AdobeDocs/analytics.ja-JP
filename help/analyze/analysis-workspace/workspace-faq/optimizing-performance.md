@@ -2,10 +2,12 @@
 description: Workspace のパフォーマンスに影響する要因と実行できる最適化
 title: Analysis Workspace のパフォーマンス要因と最適化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
 translation-type: tm+mt
-source-git-commit: 897c4a1a09dd6143c722cb08935b77b8d20b057b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2023'
 ht-degree: 90%
 
 ---
