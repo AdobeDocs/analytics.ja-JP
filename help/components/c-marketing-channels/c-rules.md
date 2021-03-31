@@ -2,7 +2,7 @@
 title: マーケティングチャネルの処理ルール
 description: マーケティングチャネルの処理ルールは、訪問者のヒットがチャネルに割り当てられた条件を満たすかどうかを判断するために使用します。このルールは、サイトでの訪問者によるすべてのヒットを処理します。チャネルの条件をルールが満たしていない場合やルールが正しく設定されていない場合、ヒットには「チャネルが識別されませんでした」が割り当てられます。
 translation-type: tm+mt
-source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
 source-wordcount: '2138'
 ht-degree: 90%
