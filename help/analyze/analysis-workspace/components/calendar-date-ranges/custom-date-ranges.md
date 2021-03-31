@@ -2,12 +2,13 @@
 description: Analysis Workspace でカスタム日付範囲を作成し、時間コンポーネントとして保存します。
 keywords: Analysis Workspace
 title: Analysis Workspace でカスタム日付範囲を作成
-topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
