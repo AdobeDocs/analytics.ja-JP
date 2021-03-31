@@ -1,11 +1,12 @@
 ---
 title: Analysis Workspaceでのユーザ環境設定の設定方法
-description: ランディングページ参照とプロジェクト参照を1か所で設定できます。
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
 translation-type: tm+mt
-source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 28%
+source-wordcount: '217'
+ht-degree: 31%
 
 ---
 
