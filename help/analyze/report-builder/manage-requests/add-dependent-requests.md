@@ -1,13 +1,14 @@
 ---
 description: 依存リクエストは既存のリクエストに依存しているリクエストです。
 title: 依存リクエストの追加
-topic: Report builder
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 97%
 
 ---
 
