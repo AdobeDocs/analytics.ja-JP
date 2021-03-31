@@ -1,13 +1,14 @@
 ---
 description: 共有されているワークブックをダウンロードして編集します。
 title: ワークブックのダウンロード
-topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '95'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +25,7 @@ ht-degree: 100%
 >
 >* **編集：**&#x200B;編集のためにワークブックをダウンロードして、開きます。編集のためにダウンロードしたワークブックをアップロードする場合は、手動でアップロードする必要があります。
 >* **削除：**&#x200B;アップロードしたワークブックを削除します。削除するにはワークブックの所有者である必要があります。
+
 >
 
 
