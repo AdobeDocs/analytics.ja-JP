@@ -1,12 +1,13 @@
 ---
 description: Adobe Analytics 実装コードでの AppMeasurement ライブラリと Activity Map モジュールの組み合わせ方法の例
 title: Activity Map 実装コード例を表示
-topic: Activity map
+feature: Activity Map
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 100%
+source-wordcount: '56'
+ht-degree: 94%
 
 ---
 
