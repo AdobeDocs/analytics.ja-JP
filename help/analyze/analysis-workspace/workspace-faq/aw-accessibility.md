@@ -1,11 +1,13 @@
 ---
 description: Analysis Workspace のアクセシビリティサポート機能
 title: Analysis Workspace のアクセシビリティ
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
 translation-type: tm+mt
-source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 82%
+source-wordcount: '666'
+ht-degree: 83%
 
 ---
 
