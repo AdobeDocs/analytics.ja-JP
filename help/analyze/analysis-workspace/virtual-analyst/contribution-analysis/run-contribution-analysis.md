@@ -2,11 +2,13 @@
 description: Workspace プロジェクトで貢献度分析レポートを実行します。
 title: 貢献度分析の実行
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+feature: AIツール
+role: 営業者、管理者
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +40,7 @@ ht-degree: 100%
 
    * その日の&#x200B;**訪問**&#x200B;数を表示するビジュアライゼーション。
    * コンテキストに関する毎月の&#x200B;**訪問トレンドライン**。
-   * [貢献度スコア](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)で並べ替えられた、この異常値に貢献した&#x200B;**トップアイテム**。加えて、問題の指標と、サイズの観点から指標を文脈の中で捉えるための実訪問者数指標。
+   * [貢献度スコア](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)で並べ替えられた、この異常値に貢献した&#x200B;**トップアイテム**。加えて、問題の指標と、サイズの観点から指標を文脈の中で捉えるためのユニーク訪問者指標。
 
    * [生成されたセグメント](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-build.html)（トップアイテムクラスター）テーブルは、貢献度スコア、異常値の発生数、異常な指標に貢献する全体的な割合に基づいて、トップアイテムの関連性を識別します。これは、その後、オーディエンスセグメントとしてキャプチャされます（貢献度セグメント 1、貢献度セグメント 2 など）。「i」（情報）ボタンをクリックすると、構成する上位の項目を含む、各自動セグメントの定義が表示されます。
 
