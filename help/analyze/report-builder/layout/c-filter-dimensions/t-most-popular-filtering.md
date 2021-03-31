@@ -1,13 +1,14 @@
 ---
 description: Boolean ロジックと AND／OR 検索式を使用して設定する、ランキングおよび条件フィルター。
 title: 最頻使用フィルター
-topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 99%
 
 ---
 
