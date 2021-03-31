@@ -2,10 +2,12 @@
 description: Analysis Workspace での日付の比較では、日付範囲を含む任意の列を使用して、前年比、前四半期比、前月比などの一般的な日付比較を作成できます。
 title: 日付の比較
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '643'
 ht-degree: 100%
 
 ---
