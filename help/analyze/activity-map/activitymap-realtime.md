@@ -1,12 +1,13 @@
 ---
 description: リアルタイムページ分析（ライブモード）により、分単位の精度でリアルタイムに結果を取得できます。
 title: リアルタイム（ライブ）ページ分析
-topic: Activity map
+feature: Activity Map
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 72%
+source-wordcount: '363'
+ht-degree: 71%
 
 ---
 
