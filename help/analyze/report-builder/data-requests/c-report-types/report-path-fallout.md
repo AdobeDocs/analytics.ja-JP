@@ -1,13 +1,14 @@
 ---
 description: Report Builder でのパスレポートおよびフォールアウトレポートの取得方法、および Reports & Analytics との違いについて説明します。
 title: Report Builder のパスレポートおよびパスフォールアウトレポート
-topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 98%
+source-wordcount: '297'
+ht-degree: 97%
 
 ---
 
