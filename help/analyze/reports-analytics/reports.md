@@ -1,11 +1,13 @@
 ---
 title: レポート
 description: 各レポートで Reports & Analytics が使用するディメンションと指標。
+feature: レポート & Analytics の基本事項
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 100%
+source-wordcount: '1869'
+ht-degree: 99%
 
 ---
 
@@ -23,17 +25,17 @@ Reports &amp; Analytics の各レポートは、専用のディメンション�
 通常、日付範囲を使用したトレンドを示すレポートが含まれます。また、推奨レポートやリアルタイムレポートなどの個別レポートも含まれます。
 
 * 推奨レポート：すぐに洞察を得るための複数の小型レポートを含むダッシュボードを作成します。
-* 主要指標：一度に 5 つまでの指標のトレンドを表示できるレポート。トレンド[ページビュー](/help/components/metrics/page-views.md)、[訪問](/help/components/metrics/visits.md)、[個別訪問者](/help/components/metrics/unique-visitors.md)（デフォルト）。
+* 主要指標：一度に 5 つまでの指標のトレンドを表示できるレポート。トレンド[ページビュー](/help/components/metrics/page-views.md)、[訪問](/help/components/metrics/visits.md)、[ユニーク訪問者](/help/components/metrics/unique-visitors.md)（デフォルト）。
 * ページビュー：[Page views](/help/components/metrics/page-views.md) 指標の経時的な推移を示します。
 * 訪問：[Visits](/help/components/metrics/visits.md) 指標の経時的な推移を示します。
-* 訪問者：様々な [Unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。
-   * 個別訪問者：選択した日付範囲全体で訪問者を 1 回だけカウントします。
-   * 時間別訪問者：選択した日付範囲の異なる時間に訪問者が訪問した場合に複数回カウントします。
-   * 日別個別訪問者：選択した日付範囲の異なる日に訪問者が訪問した場合に複数回カウントします。
-   * 週別個別訪問者：選択した日付範囲の異なる週に訪問者が訪問した場合に複数回カウントします。
-   * 月別個別訪問者：選択した日付範囲の異なる月に訪問者が訪問した場合に複数回カウントします。
-   * 四半期別個別訪問者：選択した日付範囲の異なる四半期に訪問者が訪問した場合に複数回カウントします。四半期は、1 月から 3 月、4 月から 6 月、7 月から 9 月、10 月から 12 月です。
-   * 年別個別訪問者：選択した日付範囲の異なる年に訪問者が訪問した場合に複数回カウントします。
+* 訪問者：様々な[ユニーク訪問者](/help/components/metrics/unique-visitors.md)指標の経時的な推移を示します。
+   * ユニーク訪問者：選択した日付範囲全体で訪問者を 1 回だけカウントします。
+   * 時間別ユニーク訪問者：選択した日付範囲の異なる時間に訪問者が訪問した場合に複数回カウントします。
+   * 日別ユニーク訪問者：選択した日付範囲の異なる日に訪問者が訪問した場合に複数回カウントします。
+   * 週別ユニーク訪問者：選択した日付範囲の異なる週に訪問者が訪問した場合に複数回カウントします。
+   * 月別ユニーク訪問者：選択した日付範囲の異なる月に訪問者が訪問した場合に複数回カウントします。
+   * 四半期別ユニーク訪問者：選択した日付範囲の異なる四半期に訪問者が訪問した場合に複数回カウントします。四半期は、1 月から 3 月、4 月から 6 月、7 月から 9 月、10 月から 12 月です。
+   * 年別ユニーク訪問者：選択した日付範囲の異なる年に訪問者が訪問した場合に複数回カウントします。
 * 訪問別滞在時間：[訪問別滞在時間 — グループ](/help/components/dimensions/time-spent-per-visit.md)ディメンションを使用します。
 * イベント前の時間：「[イベント前の](/help/components/dimensions/time-prior-to-event.md)時間」ディメンションを使用します。
 * 購入：購入ベースの指標に関するレポートが含まれます。
@@ -154,11 +156,11 @@ Reports &amp; Analytics の各レポートは、専用のディメンション�
    * 顧客の忠誠度：[Customer loyalty](/help/components/dimensions/customer-loyalty.md) ディメンションを使用します。
    * 初回購入までの日数：[Days before first purchase](/help/components/dimensions/days-before-first-purchase.md) ディメンションを使用します。
    * 前回購入からの日数：[Days since last purchase](/help/components/dimensions/days-since-last-purchase.md) ディメンションを使用します。
-   * 日別ユニーク顧客数：アドビが提供する「購入者」セグメントが適用された [Daily unique visitors](/help/components/metrics/unique-visitors.md) の経時的な推移を示します。
-   * 週別ユニーク顧客数：アドビが提供する「購入者」セグメントを適用した [Weekly unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。
-   * 月別ユニーク顧客数：アドビが提供する「購入者」セグメントを適用した [Monthly unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。
-   * 四半期別ユニーク顧客数：アドビが提供する「購入者」セグメントを適用した [Quarterly unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。四半期は、1 月から 3 月、4 月から 6 月、7 月から 9 月、10 月から 12 月です。
-   * 年別ユニーク顧客数：アドビが提供する「購入者」セグメントを適用した [Yearly unique visitors](/help/components/metrics/unique-visitors.md) 指標の経時的な推移を示します。
+   * 日別ユニーク顧客：アドビが提供する「購入者」セグメントが適用された[日別ユニーク顧客](/help/components/metrics/unique-visitors.md)の経時的な推移を示します。
+   * 週別ユニーク顧客：アドビが提供する「購入者」セグメントを適用した[週別ユニーク顧客](/help/components/metrics/unique-visitors.md)指標の経時的な推移を示します。
+   * 月別ユニーク顧客：アドビが提供する「購入者」セグメントを適用した[月別ユニーク顧客](/help/components/metrics/unique-visitors.md)指標の経時的な推移を示します。
+   * 四半期別ユニーク顧客：アドビが提供する「購入者」セグメントを適用した[四半期別ユニーク顧客](/help/components/metrics/unique-visitors.md)指標の経時的な推移を示します。四半期は、1 月から 3 月、4 月から 6 月、7 月から 9 月、10 月から 12 月です。
+   * 年別ユニーク顧客：アドビが提供する「購入者」セグメントを適用した[年別ユニーク訪問者](/help/components/metrics/unique-visitors.md)指標の経時的な推移を示します。
 
 ## 訪問者プロファイル
 
