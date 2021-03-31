@@ -2,12 +2,13 @@
 description: Reports & Analyticsのアラートを使用します。
 subtopic: Alerts
 title: アラート
-topic: Reports & Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
+feature: アラート
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 99%
 
 ---
@@ -80,7 +81,7 @@ deprecated_alerts.xml
    <td colname="col3"> <p>新しいアラートマネージャーでは使用できません。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>時間ベースの実訪問者数アラート（毎日、毎週、毎月などの個別訪問者数) </p> <p> </p> </td> 
+   <td colname="col1"> <p>時間ベースの実訪問者数アラート（毎日、毎週、毎月などのユニーク訪問者) </p> <p> </p> </td> 
    <td colname="col2"> <p>1 時間ごと、毎日、毎週、毎月の実訪問者数レポートに関するアラートを作成します。 </p> </td> 
    <td colname="col3"> <p>新しいアラートマネージャーでは、こうした時間ベースの実訪問者数アラートは、サポートされなくなります。例えば、以前、日別訪問者数に関する毎週のアラートを設定していても、発行される実訪問者数指標に毎日、毎週などのアラートを設定できます（Analysis Workspace は、実訪問者数指標をサポートしますが、毎日／毎週／毎月などの実訪問者数指標はサポートしません）。 </p> <p> </p> </td> 
   </tr> 
