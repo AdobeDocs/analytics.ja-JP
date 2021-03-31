@@ -1,13 +1,14 @@
 ---
 description: セルをロックしてワークシートを保護している場合は、リクエストの作成、編集または更新を実行できません。ワークシートのすべての保護を解除してから、リクエストマネージャーを使用するようにしてください。
 title: 保護されたワークシートの要素
-topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 100%
+source-wordcount: '108'
+ht-degree: 97%
 
 ---
 
