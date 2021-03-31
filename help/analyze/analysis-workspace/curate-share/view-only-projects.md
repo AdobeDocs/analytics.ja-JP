@@ -2,11 +2,13 @@
 description: Workspace の表示のみのプロジェクト
 keywords: 表示専用プロジェクト
 title: 表示専用プロジェクト
+feature: キュレーションと共有
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 97%
 
 ---
 
