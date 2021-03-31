@@ -1,13 +1,14 @@
 ---
 description: リアルタイムリクエストの日付の設定手順です。
 title: リアルタイムリクエストの設定
-topic: Report builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '121'
+ht-degree: 97%
 
 ---
 
