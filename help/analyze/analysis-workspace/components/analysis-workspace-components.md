@@ -1,10 +1,12 @@
 ---
 description: 'Analysis Workspaceのコンポーネントは、ディメンション、指標、セグメントおよび日付範囲で構成され、これらはプロジェクトにドラッグ&ドロップできます。 '
 title: コンポーネントの概要
+feature: ワークスペースの基本
+role: ビジネス従事者, 管理者
 translation-type: tm+mt
-source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '742'
 ht-degree: 17%
 
 ---
