@@ -1,13 +1,14 @@
 ---
 description: インタラクティブコントロールを使用すると、リクエストのセグメントや日付範囲をワークシートから直接編集できます。これにより、Report Builder リクエストを柔軟に更新できるようになります。
 title: インタラクティブコントロール
-topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
+feature: Report Builder
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +27,7 @@ ht-degree: 100%
 >インタラクティブコントロールが動作するためには、Report Builder v5.0 以降がインストールされている必要があります。>
 >* 古いバージョンの Report Builder を実行している場合や、Report Builder がインストールされていない場合は、インタラクティブコントロールで値を変更することはできますが、関連するリクエストは更新されず、リクエストの関連パラメーターも更新されません。
 >* Mac で Excel を実行している場合は、コントロールで値を変更すると、「マクロ &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39; が見つかりません」というメッセージが表示されます。
+
 >
 
 
