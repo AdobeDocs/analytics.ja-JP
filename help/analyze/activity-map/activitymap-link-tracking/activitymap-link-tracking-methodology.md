@@ -1,13 +1,14 @@
 ---
 description: このセクションは Adobe Analytics 管理者を対象としています。新しいリンクトラッキングパラメーターについて説明し、それによって異なるブラウザー間、デバイス間でのリンクの一意性と一貫性を確保し、ページ上でのリンクの再配置の処理を向上する方法を示します。
 title: リンクトラッキング手法
-topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
+feature: Activity Map
+role: 営業者、管理者
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 100%
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
