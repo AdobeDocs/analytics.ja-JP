@@ -4,18 +4,26 @@ keywords: Analysis Workspace
 title: Analysis Workspace の新機能
 feature: ワークスペースの基本
 role: ビジネス従事者, 管理者
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8211'
-ht-degree: 99%
+source-wordcount: '8326'
+ht-degree: 98%
 
 ---
-
 
 # Analysis Workspace の新機能
 
 Adobe Experience Cloud のリリースノート全体へのアクセスについては、[こちら](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja-JP)を参照してください。
+
+## 2021 年 3 月
+
+| 機能 | ターゲット日 | 説明 |
+| --- | --- | --- |
+| [!UICONTROL コンポーネント] / [!UICONTROL ユーザー環境設定] | 2021 年 3 月 25 日 | [!UICONTROL コンポーネント]/[!UICONTROL ユーザーの環境設定]ページでは、[!UICONTROL Analysis Workspace]の設定と、ユーザーに関連するコンポーネントを管理できます。 [!UICONTROL ユーザー] 環境設定は、すべての新しいプロジェクトおよびパネルに適用されます。<br>**注意：** 次の設定は、 [!UICONTROL ユーザー] 環境設定ページに移動しました。<ul><li>レポート設定：千単位区切り文字（現在は&#x200B;_数値の形式_）</li><li>レポート設定：CSV区切り文字</li><li>Workspaceプロジェクト：ヘルプ/ヒントを有効にする</li><li>Workspaceプロジェクト：空のパネル&#x200B;_このパネル_&#x200B;オプションを使用して新しいプロジェクトを開始</li></ul> |
+| [!UICONTROL ヒストグラムスマートバケット予測] | 2021 年 3 月 25 日 | [!UICONTROL ヒストグラムのスマートバケット] 予測は、データ分散に使用するグループの正しい幅と数を自動的に識別することで、カーディナリティ指標の高いヒストグラムの処理に役立ちます。低カーディナリティ指標の場合、ビジュアライゼーションは以前と同じように動作します。 |
+
 
 ## 2021 年 2 月
 
