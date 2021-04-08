@@ -1,11 +1,11 @@
 ---
 title: getNewRepeat
 description: 新規訪問者とリピーターのアクティビティを追跡します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d44226202cd690d069f9c0c85c8af2ef8fd0106
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,15 +110,15 @@ s.eVar1=s.getNewRepeat(365);
 
 ## バージョン履歴
 
-### 3.0（2021年3月19日）
+### 3.0 （2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 2.1（2019 年 10 月 1 日）
+### 2.1（2019 年 9 月 30 日（PT））
 
 * JavaScript ロジックを再配置し、プラグインサイズを削減しました。
 
-### 2.0（2018 年 4 月 17 日）
+### 2.0（2018 年 4 月 16 日（PT））
 
 * より小さいコードサイズで再コンパイルしました。
 * 訪問情報を保存する Cookie に名前を付ける機能を削除しました。プラグインは、`d` 引数に渡された値に基づいて、Cookie に動的に名前を付けるようになりました。
