@@ -1,11 +1,11 @@
 ---
 title: addProductEvar
 description: マーチャンダイジング eVar を products 変数に追加します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abed7197898d6c27448069350c9f2217d58293c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,10 +99,10 @@ s.addProductEvar("eVar1", "blue");
 
 ## バージョン履歴
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 1.0（2019 年 10 月 8 日）
+### 1.0（2019 年 10 月 7 日（PT））
 
 * 初回リリース。
