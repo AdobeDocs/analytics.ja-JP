@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics インポートガイド
 breadcrumb-title: インポートガイド
 user-guide-description: '一括またはリアルタイムで、外部のソースから Analytics にデータを取り込みます。 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 96%
       + [Demandbase 標準ディメンション](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Demandbase カスタムディメンション](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Adobe Analytics 用 DFA Data Connector {#dfa}
-      + [DFA統合の提供終了情報](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
+      + [DFA 統合の提供終了情報](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Adobe Analytics 用 DFA Data Connector](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [前提条件](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [統合の機能](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
@@ -130,5 +130,5 @@ ht-degree: 96%
       + [Analytics 統合変数](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop 統合](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics プラグインコード](data-connectors/silverpop-overview/silverpop-analytics-code.md)
-+ 使用例のインポート{#use-cases}
-   + [データソースを使用した有料検索指標のインポート](use-cases/paid-search-metrics.md)
++ ユースケースの読み込み {#use-cases}
+   + [データソースを使用した有料検索指標の読み込み](use-cases/paid-search-metrics.md)
