@@ -1,11 +1,11 @@
 ---
 title: getResponsiveLayout
 description: 現在閲覧中の Web サイトのレイアウトを特定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16d2bc13a71dfe0b9106dea03da5eaa9da4d704c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -106,10 +106,10 @@ s.eVar10 = getResponsiveLayout(500, 500, 1100);
 
 ## バージョン履歴
 
-### 1.1（2021年3月19日）
+### 1.1（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 1.0（2018 年 5 月 3 日）
+### 1.0（2018 年 5 月 2 日（PT））
 
 * 初回リリース。
