@@ -3,21 +3,21 @@ description: Experience Cloudログインアカウントを使用してReport Bu
 title: Report Builderへのサインイン方法
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 48%
+source-wordcount: '211'
+ht-degree: 49%
 
 ---
-
 
 # Report Builder へのログイン
 
 >[!IMPORTANT]
 >
->Report Builderバージョン5.6.47以降では、Experience Cloudログインのみがサポートされ、SiteCatalystのシングルサインオンや標準ログインなどの従来のログインはサポートされません。 2021年4月30日までに、すべてのReport Builderユーザーは、Report Builderインをバージョン5.6.47以降に追加更新する必要があります。これには、ログインプロセスに対する重要な更新が含まれます。
+>Report Builderバージョン5.6.47以降では、Experience Cloudログインのみがサポートされ、SiteCatalystのシングルサインオンや標準ログインなどの従来のログインはサポートされません。 **2021年7月22日までに、すべてのReport Builderユーザーは、Report Builderインをバージョン5.6.47以降に追加更新する必要があります。これには、ログインプロセスに対する重要な更新が含まれます。**
 
 Report Builderにログインするには、Experience Cloudのログインアカウントを使用します。
 
@@ -43,4 +43,3 @@ Report Builderにサインインするには
    * Excel内のリクエストを重複クリックします。
 
 1. 「[!UICONTROL ログイン]」ページのフィールドにデータを入力し、「**[!UICONTROL OK]**」をクリックします。
-
