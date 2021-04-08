@@ -1,11 +1,11 @@
 ---
 title: getTimeToComplete
 description: タスクの完了に要した時間を測定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37a3a44053260d9cdb2a3797e07f6d34592abc1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -106,25 +106,25 @@ if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregi
 
 ## バージョン履歴
 
-### 4.0（2021年3月19日）
+### 4.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 3.1（2019 年 10 月 1 日）
+### 3.1（2019 年 9 月 30 日（PT））
 
 * 最初の引数に「start」または「stop」の値を必要とするロジックを追加しました。渡された他のすべての値は、プラグインの実行を停止します。
 * `inList 2.0` プラグインを `inList 2.1` に更新しました。
 
-### 3.0（2018 年 8 月 24 日）
+### 3.0（2018 年 8 月 23 日（PT））
 
 * `formatTime v1.0` プラグインを `formatTime v1.1` に更新しました。
 
-### 3.0（2018 年 4 月 18 日）
+### 3.0（2018 年 4 月 17 日（PT））
 
 * ポイントリリース（再コンパイル、コードサイズの縮小）。
 * マイナーな問題を修正しました。
 
-### 2.0（2016 年 6 月 22 日）
+### 2.0（2016 年 6 月 21 日（PT））
 
 * `p_fo` プラグインへの依存を排除しました。
 * H コードおよび AppMeasurement との互換性を追加しました。
