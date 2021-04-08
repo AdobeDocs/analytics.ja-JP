@@ -1,11 +1,11 @@
 ---
 title: pt
 description: 変数のリストで関数を実行します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,19 +92,19 @@ for(var i = 0; i < parametersLength; i++)
 
 ## バージョン履歴
 
-### 3.0（2021年3月19日）
+### 3.0 （2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 2.01（2019 年 9 月 25 日）
+### 2.01（2019 年 9 月 24 日（PT））
 
 * 全体的なサイズを小さくするためにコードを少し変更しました。
 
-### 2.0（2018 年 4 月 18 日）
+### 2.0（2018 年 4 月 17 日（PT））
 
 * ポイントリリース（再コンパイル、コードサイズの縮小）。
 * H コードと AppMeasurement の両方のサポートを追加しました。
 
-### 1.0（2013 年 9 月 24 日）
+### 1.0（2013 年 9 月 23 日（PT））
 
 * 初回リリース。
