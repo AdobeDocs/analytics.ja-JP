@@ -1,11 +1,11 @@
 ---
 title: getValOnce
 description: Analytics 変数が 2 回続けて同じ値に設定されないようにします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a81754ca6137d7bc1e790fe537acbb4bbdb8efb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 
 ## バージョン履歴
 
-### 3.0（2021年3月19日）
+### 3.0 （2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
