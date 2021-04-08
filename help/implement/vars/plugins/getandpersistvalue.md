@@ -1,11 +1,11 @@
 ---
 title: getAndPersistValue
 description: 後でいつでも取得できる値を格納します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2970e05abf0d1f963175db6e3554aa0e3034a70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '934'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -129,15 +129,15 @@ s.eVar30 は「shopping」（つまり、「s_gapv」Cookie の持続値）に�
 
 ## バージョン履歴
 
-### 3.0（2021年3月19日）
+### 3.0 （2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 2.0（2018 年 4 月 17 日）
+### 2.0（2018 年 4 月 16 日（PT））
 
 * ポイントリリース（コードサイズの縮小）
 * `ex` 引数に 0 を渡すと、ブラウザーセッションの終わりではなく、無操作状態が 30 分続いた後に強制的に有効期限が切れるようになりました。
 
-### 1.0（2016 年 1 月 19 日）
+### 1.0（2016 年 1 月 18 日（PT））
 
 * 初回リリース。
