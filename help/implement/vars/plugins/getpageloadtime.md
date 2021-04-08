@@ -1,11 +1,11 @@
 ---
 title: getPageLoadTime
 description: ページの読み込みにかかる時間を追跡します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3c5fa41194d74725f48e12a546d8ce1c08b9b7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,10 +94,10 @@ if(s._pltPreviousPage)
 
 ## バージョン履歴
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 1.0（2018 年 5 月 23 日）
+### 1.0（2018 年 5 月 22 日（PT））
 
 * 初回リリース。
