@@ -1,11 +1,11 @@
 ---
 title: getTimeBetweenEvents
 description: 2 つのイベントの間隔を測定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8c6f4bbc72f7edfd966d698b8e4678e5eaa739e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -133,14 +133,14 @@ s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
 
 ## バージョン履歴
 
-### 3.0（2021年3月19日）
+### 3.0 （2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 2.1（2018 年 5 月 27 日）
+### 2.1（2018 年 5 月 26 日（PT））
 
 * 新しいバージョンの `formatTime` プラグインに対しておこなわれた変更に対応します。
 
-### 2.0（2018 年 4 月 7 日）
+### 2.0（2018 年 4 月 6 日（PT））
 
 * プラグインの完全な書き換えと再分析。
