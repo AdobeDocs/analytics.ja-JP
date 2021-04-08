@@ -1,11 +1,11 @@
 ---
 title: p_fo（Page First Only）
 description: 特定のルーチンが 1 ページにつき 1 回だけ実行されるようにします。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ if(s.p_fo("myobject"))
 
 ## バージョン履歴
 
-### 3.0（2021年3月19日）
+### 3.0 （2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
