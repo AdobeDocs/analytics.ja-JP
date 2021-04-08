@@ -1,11 +1,11 @@
 ---
 title: getPreviousValue
 description: 変数に渡された最後の値を取得します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,10 +134,10 @@ s.t() の呼び出し関数を実行すると、s.pageName が「page 2」で s.
 
 ## バージョン履歴
 
-### 3.0（2021年3月19日）
+### 3.0 （2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### v2.0（2019 年 10 月 8 日）
+### v2.0（2019 年 10 月 7 日（PT））
 
 * ポイントリリース（完全な論理書き換え）。
