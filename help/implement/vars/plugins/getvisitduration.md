@@ -1,11 +1,11 @@
 ---
 title: getVisitDuration
 description: 訪問者がサイトに来訪した時間を追跡します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca8e563118dcc74dfa718bd203db295faf4e9aa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,10 +101,10 @@ prop10 を常に訪問者がサイトにランディングしてから経過し�
 
 ## バージョン履歴
 
-### 2.1（2021年3月19日）
+### 2.1（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 2.0（2018 年 5 月 3 日）
+### 2.0（2018 年 5 月 2 日（PT））
 
 * ポイントリリース（プラグインの完全な再分析と書き換え）。
