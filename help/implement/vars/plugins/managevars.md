@@ -1,11 +1,11 @@
 ---
 title: manageVars
 description: 一度に複数の Analytics 変数の値を変更します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a2dc1b265c92468722ebc2e3656db55d63547c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '697'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,16 +142,16 @@ s.manageVars("cleanStr");
 
 ## バージョン履歴
 
-### 3.0（2021年3月19日）
+### 3.0 （2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 2.1（2019 年 1 月 15 日）
+### 2.1（2019 年 1 月 14 日（PT））
 
 * Internet Explorer 11 ブラウザーのバグ修正。
 * `s.cleanStr` が通常の `cleanStr` 関数を使用するように変更しました。
 
-### 2.0（2018 年 5 月 8 日）
+### 2.0（2018 年 5 月 7 日（PT））
 
 * ポイントリリース（プラグインの完全な再分析と書き換えを含む）
 * `cleanStr` コールバック関数を追加しました。
