@@ -1,11 +1,11 @@
 ---
 title: getGeoCoordinates
 description: 訪問者の geoLocation を追跡します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0947b075923956a4a48e09f8eeffc38e7fc0672
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -106,10 +106,10 @@ else
 
 ## バージョン履歴
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 1.0（2015 年 5 月 26 日）
+### 1.0（2015 年 5 月 25 日（PT））
 
 * 初回リリース。
