@@ -1,11 +1,11 @@
 ---
 title: apl（appendToList）
 description: 複数の値をサポートする変数に値を追加します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d84d53dd237f5bba729c902c8c4980c0288dbbb0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ### 例 1
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.events = "event22,event24";
@@ -98,7 +98,7 @@ s.events = "event22,event24,event23";
 
 ### 例 2
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.events = "event22,event23";
@@ -120,7 +120,7 @@ s.events = "event22,event23";
 
 ### 例 3
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.events = ""; //blank value
@@ -140,7 +140,7 @@ s.events = "event23";
 
 ### 例 4
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.prop4 = "hello|people";
@@ -168,7 +168,7 @@ s.eVar5 = "hello|people|today";
 
 ### 例 5
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.prop4 = "hello|people";
@@ -190,7 +190,7 @@ s.prop4 = "hello|people,today";
 
 ### 例 6
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.events = "event22,event23";
@@ -212,7 +212,7 @@ s.events = "event22,event23,EVentT23";
 
 ### 例 7
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.events = "event22,event23";
@@ -234,7 +234,7 @@ s.events = "event22,event23,event24,event25");
 
 ### 例 8
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.linkTrackVars = "events,eVar1";
@@ -256,7 +256,7 @@ s.linkTrackVars = "events,eVar1,campaign";
 
 ### 例 9
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.events = "event22,event24";
@@ -278,7 +278,7 @@ s.events = "event22,event24";
 
 ### 例 10
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.list2 = "casesensitivevalue|casesensitiveValue"
@@ -300,21 +300,21 @@ s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 
 ## バージョン履歴
 
-### 4.0（2021年3月19日）
+### 4.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 3.2（2019 年 9 月 26 日）
+### 3.2（2019 年 9 月 25 日（PT））
 
 * 古いバージョンのプラグインを使用した `apl` 呼び出しの互換性の問題を修正しました。
 * サイズを小さくするためにコンソールの警告を削除しました。
 *  `inList 2.1` を追加しました。
 
-### 3.1（2018 年 4 月 23 日）
+### 3.1（2018 年 4 月 22 日（PT））
 
 * `d2` 引数が設定されていない場合、デフォルトで `d1` 引数の値になるようになりました。
 
-### 3.0（2018 年 4 月 17 日）
+### 3.0（2018 年 4 月 16 日（PT））
 
 * プラグインの完全な再分析と書き換え
 * 詳細なエラーチェックを追加しました。
@@ -322,11 +322,11 @@ s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 * 戻り値の書式を設定する `d2` 引数を追加しました。
 * `cc` 引数をブール値に変更しました。
 
-### 2.5（2016 年 2 月 19 日）
+### 2.5（2016 年 2 月 18 日（PT））
 
 * 比較処理に `inList` メソッドを使用するようになりました。
 
-### 2.0（2016 年 1 月 27 日）
+### 2.0（2016 年 1 月 26 日（PT））
 
 * `d`（区切り文字）引数がオプションになりました（デフォルトでコンマ）。
 * `u`（大文字と小文字の区別フラグ）引数がオプションになりました（デフォルトでは大文字と小文字が区別されません）。
