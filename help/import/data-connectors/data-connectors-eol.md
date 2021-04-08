@@ -1,9 +1,9 @@
 ---
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Adobe Analytics は、10 年以上にわたって、お客様のニーズを満たす、クラス最高の Web およびマーケティング分析ソリューションを提供することを目指してきました。 テクノロジーとビジネスのニーズの進化に伴い、最高水準の標準を継続的に提供し、満たすよう努めています。残念ながら、この統合を強化する API はこれらの標準を満たさなくなり、最新の Adobe Analytics テクノロジーインフラストラクチャでは使用できません。
 
-**2021 年 8 月 1 日**、アドビは Data Connectors 統合を廃止する予定です。サービス提供終了はあらゆるテクノロジー製品のライフサイクルの一環です。アドビはお客様とパートナーに対して可能な限りシームレスにトランジションをおこなうことを目指します。これらの統合の多くは、Adobe Exchange を通じて利用でき、引き続き利用できます。
+**2021 年 8 月 1 日（PT）**、アドビは Data Connectors 統合を廃止する予定です。サービス提供終了はあらゆるテクノロジー製品のライフサイクルの一環です。アドビはお客様とパートナーに対して可能な限りシームレスにトランジションをおこなうことを目指します。これらの統合の多くは、Adobe Exchange を通じて利用でき、引き続き利用できます。
 
 ## この機能の提供終了の理由を教えてください。
 
@@ -51,7 +51,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | ClickTale | 廃止 |
 | Clicktale CA | 廃止 |
 | Conductor 2.0 | 廃止 |
-| ContactLab 2.0（ContactSend Connector） | 廃止 |
+| ContactLab 2.0（Contact Send Connector） | 廃止 |
 | Coradiant TrueSight | 廃止 |
 | D&amp;B 訪問者インテリジェンス | 廃止 |
 | Datran Media | 廃止 |
