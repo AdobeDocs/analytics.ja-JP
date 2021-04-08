@@ -1,11 +1,11 @@
 ---
 title: getQueryParam
 description: URL のクエリー文字列パラメーターの値を抽出します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03c3a954c40d17f11f4f80ee3a378fd43948cc5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -185,30 +185,30 @@ s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 
 ## バージョン履歴
 
-### 4.0（2021年3月19日）
+### 4.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
-* `pt`プラグインへの依存関係を削除しました。
+* プラグインへの依存関係を削除しました `pt`。
 
-### 3.3（2019 年 9 月 25 日）
+### 3.3（2019 年 9 月 24 日（PT））
 
 * 不要なロジックを迂回してコードサイズを縮小しました。
 
-### 3.2（2018 年 5 月 16 日）
+### 3.2（2018 年 5 月 15 日（PT））
 
 * `findParameterValue` 関数および `getParameterValue` 関数を `getQueryParam` 関数内に移動しました。
 
-### 3.1（2018 年 5 月 11 日）
+### 3.1（2018 年 5 月 10 日（PT））
 
 * 値のないクエリー文字列パラメーターの取得に関する問題を修正しました。
 
-### 3.0（2018 年 4 月 17 日）
+### 3.0（2018 年 4 月 16 日（PT））
 
 * ポイントリリース（再コンパイル、コードサイズの縮小）。
 * ヘルパー関数の名前を読みやすくするために、`findParameterValue` および `getParameterValue` に変更しました。
 * URL ハッシュに含まれるパラメーターを見つけるための引数を追加する必要がなくなりました。
 
-### 2.5（2016 年 1 月 9 日）
+### 2.5（2016 年 1 月 8 日（PT））
 
 * H コードと AppMeasurement の両方と互換性があります（AppMeasurement と `s.pt` が必要です）。
 
