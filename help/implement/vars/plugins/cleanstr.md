@@ -1,11 +1,11 @@
 ---
 title: cleanStr
 description: 文字列から不要な文字をすべて削除または置換します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ eVar1 は「this is a messystring」に等しく設定されます（余分な�
 
 ### 例 2
 
-以下で、
+以下の条件が当てはまる場合：
 
 ```js
 s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
@@ -106,10 +106,10 @@ s.eVar1 の最終値は、次のとおりです。
 
 ## バージョン履歴
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 1.0（2018 年 4 月 16 日）
+### 1.0（2018 年 4 月 15 日（PT））
 
 * 初回リリース。
