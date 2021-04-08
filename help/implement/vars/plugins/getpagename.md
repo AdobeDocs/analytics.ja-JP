@@ -1,11 +1,11 @@
 ---
 title: getPageName
 description: 現在の Web サイトのパスから読みやすい pageName を作成します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 063da38c105072944a46ec0ab31930623b7974c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -200,14 +200,14 @@ s.pageName = getPageName();
 
 ## バージョン履歴
 
-### 4.2（2021年3月19日）
+### 4.2（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 4.1（2019 年 9 月 18 日）
+### 4.1（2019 年 9 月 17 日（PT））
 
 * デフォルトの区切り文字の値を（コロン+スペースから）パイプ文字に変更しました。
 
-### 4.0（2018 年 5 月 23 日）
+### 4.0（2018 年 5 月 22 日（PT））
 
 * プラグインの完全な再分析と書き換え
