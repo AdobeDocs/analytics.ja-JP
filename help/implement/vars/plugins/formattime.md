@@ -1,11 +1,11 @@
 ---
 title: formatTime
 description: 秒数を分単位、時間単位などで同等の値に変換します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56b21b6acb948c478d7b2a29c3e8375a8fe77ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -155,14 +155,14 @@ s.eVar1 = s.formatTime(145, "m", .4);
 
 ## バージョン履歴
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 1.1（2018 年 5 月 22 日）
+### 1.1（2018 年 5 月 21 日（PT））
 
 * 丸めの柔軟性を高める `bml` 引数を追加しました。
 
-### 1.0（2018 年 4 月 16 日）
+### 1.0（2018 年 4 月 15 日（PT））
 
 * 初回リリース。
