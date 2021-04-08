@@ -1,11 +1,11 @@
 ---
 title: getTimeSinceLastVisit
 description: 2 回の訪問の間の経過時間を測定します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e7ebe21413d6a56dac2c95dbdaf73efde3991e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,11 +90,11 @@ s.prop1 の値は「新規訪問者」に設定されます。
 
 ## バージョン履歴
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 1.0（2018 年 4 月 17 日）
+### 1.0（2018 年 4 月 16 日（PT））
 
 * ポイントリリース（コードの再コンパイルとコード縮小）。
 * `getDaysSinceLastVisit` プラグインから派生したコード（現在は廃止され、名前が変更されています）。
