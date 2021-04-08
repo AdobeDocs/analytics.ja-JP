@@ -1,11 +1,11 @@
 ---
 title: getPercentPageViewed
 description: 訪問者が閲覧したページの割合を取得します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f11ad012756b5d42b1b53483c8688e30b4b79c83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
    * Events：Core – 読み込まれたライブラリ（ページ上部）
 1. 次の設定を使用して、上記のルールにアクションを追加します。
    * Extension：Common Analytics Plugins
-   * アクションタイプ：getPercentPageViewedの初期化
+   * アクションタイプ：Initialize getPercentPageViewed
 1. ルールに対する変更を保存して発行します。
 
 ## Launch カスタムコードエディターを使用したプラグインのインストール
@@ -78,7 +78,7 @@ function getPercentPageViewed(pid,ch){var l=pid,p=ch;function m(){if(window.ppvI
 
 ### 例 1
 
-次のコードは…
+次のコードは...
 
 ```js
 if(s.pageName) s.getPercentPageViewed();
@@ -114,7 +114,7 @@ if(s._ppvPreviousPage)
 
 ## バージョン履歴
 
-### 5.0（2021年3月19日）
+### 5.0 （2021 年 3 月 29 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
