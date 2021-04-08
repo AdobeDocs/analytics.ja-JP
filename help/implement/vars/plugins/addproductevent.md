@@ -1,11 +1,11 @@
 ---
 title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3359ed8e7ef7979be57ca5ec9ca1803fc52afe88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -139,10 +139,10 @@ s.addProductEvent("event35", "25");
 
 ## バージョン履歴
 
-### 2.0（2021年3月19日）
+### 2.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
 
-### 1.0（2019 年 10 月 8 日）
+### 1.0（2019 年 10 月 7 日（PT））
 
 * 初回リリース。
