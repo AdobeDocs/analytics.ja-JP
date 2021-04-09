@@ -1,13 +1,14 @@
 ---
 title: Analysis Workspace でのユーザー環境設定の設定方法
+description: ユーザー向けに一般環境設定とプロジェクト環境設定を設定できます。
 feature: ワークスペースの基本
 role: Business Practitioner, Administrator
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 translation-type: tm+mt
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+source-git-commit: bfbeac56917f4ff6b907c44f083638ee1e93c17e
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 65%
+source-wordcount: '223'
+ht-degree: 67%
 
 ---
 
