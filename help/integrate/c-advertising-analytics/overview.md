@@ -1,18 +1,18 @@
 ---
 description: この詳細なガイドでは、必要な権限や使用可能なディメンションと指標など、Advertising Analytics のすべての機能について説明します。
 title: Advertising Analytics のガイド
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '1282'
-ht-degree: 100%
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
+translation-type: tm+mt
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 96%
 
 ---
 
-
 # Advertising Analytics のガイド
 
-Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud （AMO）または Google／Bing で表示する必要がありました。現在 Adobe Analytics では、インプレッション数、クリック数、コスト、品質スコア、平均順位を、検索エンジンおよび AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。
+Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud （AMO）または Google／Bing で表示する必要がありました。次のデータがAdobe Analytics内で取得されます。インプレッション数、クリック数、検索エンジンからのデータ直接のコスト、およびAMO IDインスタンス（クリックインスタンス）。 Googleが2019年9月にこれらの指標を廃止したため、品質スコアと平均掲載順位は収集されなくなります。
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ Advertising Analytics では、以下のディメンションと指標が Analys
 | AMO インプレッション数 | 検索エンジンでレポートされる広告インプレッション数。 |
 | AMO クリック数 | 検索エンジンでレポートされる広告のクリック数。 |
 | AMO コスト | 検索エンジンでレポートされる、キーワード／広告ごとに支払われたコスト。 |
-| 平均掲載順位 | 検索エンジンでレポートされる、広告の平均順位を反映する計算指標。 |
-| 平均品質スコア | 検索エンジンでレポートされる、平均品質スコアを反映する計算指標。 |
