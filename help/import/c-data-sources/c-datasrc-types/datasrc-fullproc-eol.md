@@ -1,20 +1,20 @@
 ---
 title: フル処理データソースの提供終了
 description: 持続終了の理由およびバルクデータ挿入APIとフル処理データソースとの比較。
+exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1208'
 ht-degree: 29%
 
 ---
-
 
 # フル処理データソースの提供終了
 
 フル処理データソースを使用すると、数年間、ヒットレベルのデータをAdobe Analyticsに送信できます。 このデータは、JavaScriptライブラリやモバイルアプリSDKで収集されたデータと同じ方法で処理されました。 2020年、Adobeは、フル処理データソースと同じ機能を果たす[Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)をリリースしましたが、機能が追加されました。 このトピックでは、Bulk Data Insertion APIが提供する追加機能の詳細と、ファイル形式の相違点について説明します。
 
-2021年3月25日より、Adobeにより、フル処理データソースの新しい接続が作成されなくなります。 サービスが完全に非推奨になるまで、既存の接続は引き続きサポートされます。 廃止は2021年に行われますが、具体的な日付はまだ決まっていません。
+2021年3月25日より、Adobeにより、フル処理データソースの新しい接続が作成されなくなります。 既存の接続は、2021年7月31日にサービスが完全に廃止されるまで、引き続きサポートされます。
 
 ## この機能の提供終了の理由を教えてください。
 
