@@ -2,20 +2,20 @@
 description: データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 title: フル処理
 topic: 開発者と実装
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
-
 
 # フル処理
 
 >[!IMPORTANT]
 >
->フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。アドビでは、今後、フル処理データソースを廃止する予定です。 [詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。Adobeでは、2021年7月31日に、フル処理データソースの提供を停止する予定です。 [詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 
@@ -256,4 +256,3 @@ JavaScript ライブラリを使用したときに自動的に入力されるト
   </tr> 
  </tbody> 
 </table>
-
