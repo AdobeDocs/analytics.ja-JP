@@ -1,14 +1,14 @@
 ---
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
-translation-type: ht
-source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: ht
-source-wordcount: '531'
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
+translation-type: tm+mt
+source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
+workflow-type: tm+mt
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Data Connectors の提供終了
 
@@ -81,7 +81,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | Lyris HQ | 廃止 |
 | MaritzCX（V 2.0） | 廃止 |
 | Merkle | 廃止 |
-| 公式 Oracle Eloqua 統合 | 廃止 |
+| 公式 Oracle Eloqua 統合 | Exchange への移行 |
 | optivo broadmail（Episerver） | Exchange への移行 |
 | Qualtrics v2 | Exchange への移行 |
 | Responsys 2.0 | 廃止 |
