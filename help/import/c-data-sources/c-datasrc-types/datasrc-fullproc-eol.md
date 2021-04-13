@@ -3,10 +3,10 @@ title: フル処理データソースの提供終了
 description: 持続終了の理由およびバルクデータ挿入APIとフル処理データソースとの比較。
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
+source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 29%
+ht-degree: 27%
 
 ---
 
@@ -65,7 +65,7 @@ Bulk Data Insertion API(BDIA)は、フル処理でサポートされるすべて
 | linkName | linkName | リンク名。 |
 | linkType | linkType | リンクのタイプ。次の値がサポートされています。  `d: Download link`、 `e: Exit link` 、  `o: Custom link`. |
 | linkURL | linkURL | リンクの HREF（リンク先 URL）。 |
-| 例えば、listnは「リスト2」です。 | サポートなし | 変数に渡され、レポートの個別行項目としてレポートされる値の区切りリスト。 |
+| 例えば、listnは「リスト2」です。 | サポートなし | 変数に渡され、レポートのために個々の行項目としてレポートされる値の区切りリスト |
 | marketingCloudVisitorID | サポートなし | Marketing Cloud ID. 「[訪問者ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api)」および「Marketing Cloud訪問者IDサービス」を参照してください。 |
 | サポートなし | charSet | Webサイトでサポートされる文字セット。 UTF-8、ISO-8859-1 などがあります。 |
 | サポートなし | clickAction | Visitor Click Map のオブジェクト識別子（oid） |
@@ -76,7 +76,7 @@ Bulk Data Insertion API(BDIA)は、フル処理でサポートされるすべて
 | サポートなし | clickTag | Visitor Click Map のオブジェクトタグ名（ot） |
 | サポートなし | scXmlVer | マーケティングレポートの XML リクエストのバージョン番号（例：1.0）。 |
 | サポートなし | timezone | 訪問者のタイムゾーンの GMT との時差（例：-8）。 |
-| pageName | pageName | ページの名前。 |
+| pageName | pageName | ページの名前 |
 | pageType | pageType | ページのタイプ（「エラーページ」など）。 |
 | pageURL | pageURL | ページURL(例：https://www.example.com/index.html)。 |
 | plugins | plugins | ブラウザープラグイン名をセミコロンで区切ったリスト。 |
