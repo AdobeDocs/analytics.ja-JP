@@ -2,16 +2,16 @@
 description: Dynamic Tag Management を使用して Adobe Analytics を実装します。
 keywords: Analytics の実装, 実装方法, dynamic tag management, dtm
 title: DTM 実装の概要
-topic: 開発者と実装
+topic-fix: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '225'
+exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
-
 
 # DTM 実装の概要
 
@@ -32,4 +32,3 @@ Dynamic Tag Management による導入手順について詳しくは、Adobe Ana
 1. [データ要素](/help/implement/other/dtm/t-data-element.md)、[ルールと条件](/help/implement/other/dtm/c-rules/t-rules-create.md)、[アクション](/help/implement/other/dtm/c-rules/t-rules-actions.md)を作成します。
 
 1. 実稼動サーバーにツールおよびルールを発行する。
-
