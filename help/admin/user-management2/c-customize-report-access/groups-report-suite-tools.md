@@ -3,16 +3,16 @@ description: API アクセス、レポートスイートの管理、ツールと
 keywords: グループ;権限
 subtopic: Users and groups
 title: レポートスイートツールの権限のカスタマイズ
-topic: Admin tools
+feature: 管理ツール
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
+exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 93%
 
 ---
-
 
 # レポートスイートツールの権限のカスタマイズ
 
@@ -58,14 +58,14 @@ API アクセス、レポートスイートの管理、ツールとレポート�
 | [コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | カスタムインサイトコンバージョン変数（または eVar）は、サイト上の選択された Web ページの Adobe コードに配置されます。その主な目的は、カスタムマーケティングレポートでコンバージョン成功指標をセグメント化することです。 |
 | [検索方法](/help/admin/admin/finding-methods.md) | 各種の検索方法レポートがサイト上のコンバージョンの成功イベントのクレジットを受け取る方法を特定できます。 |
 | [コンバージョンの分類](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | （ツールとレポートの）分類に統合されました。 |
-| [個別訪問者](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | 個別訪問者変数を指定する権限を付与します。 |
+| [ユニーク訪問者](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | ユニーク訪問者変数を指定する権限を付与します。 |
 | [成功イベント](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | 製品表示、チェックアウト、購入など、トラッキングできるアクション。 |
 | [分類階層](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | （ツールとレポートの）分類に統合されました。 |
 | [リスト変数](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html) | リスト Var とも呼ばれます。リスト Prop の機能と同様、リスト Var は同じイメージリクエスト内で複数の値を同時にセットできます。 |
 | [デフォルトの指標](/help/admin/admin/default-metrics.md) | ユーザーがカスタム指標のセットを選択しない限り、Reports &amp; Analytics ではすべてのコンバージョンレポートでデフォルトの指標セットが表示されます。選択した指標は、関連付けられたレポートスイートのすべてのユーザーに表示されます。 |
 | [処理ルール](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) | データ収集をシンプル化し、レポートに送信されるコンテンツを管理する処理ルールへのアクセス権を付与します。 |
 | **ツールとレポート** |  |
-| [異常値検出](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ja-JP) | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法である、異常値検出に対する権限を付与します。 |
+| [異常値検出](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法である、異常値検出に対する権限を付与します。 |
 | [チャネルレポート](/help/components/c-marketing-channels/analyze-mc.md) | レポート／マーケティングチャネルレポートにあるマーケティングチャネルレポートに対する権限を付与します。 |
 | [リアルタイムレポート](/help/admin/admin/realtime/t-realtime-admin.md) | リアルタイムレポートへのアクセス権を付与します。 |
 | [ボットページ](/help/admin/admin/bot-removal/bot-rules.md) | **注意：ボットページは、ボットルールの管理ではなく、特定のReports &amp; Analyticsレポート用です。現在、ボットルールの編集を許可する権限はありません。**&#x200B;ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。 |
