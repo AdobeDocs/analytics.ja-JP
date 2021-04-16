@@ -2,16 +2,16 @@
 description: デプロイメントが完了すると、この統合で提供されている追加機能を使用できるようになります。
 subtopic: Qualtrics
 title: 統合の使用
-topic: Data connectors
+feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
+exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 100%
 
 ---
-
 
 # 統合の使用 {#using-the-integration}
 
@@ -31,4 +31,3 @@ ht-degree: 100%
 以下に、アナリストが調査回答データを使用して Adobe Analytics セグメントを定義する方法を示します。この例では、「今日の訪問に対して、どの程度満足していたか」というアンケートの質問を想定しています。この質問を使用して、「満足していない」訪問者を特定するセグメントを作成できます。このようなセグメントは、以下に示すように、購入コンバージョンファネルなど、Adobe Analytics の任意のレポートを掘り下げて調べるのに使用できます。
 
 ![](assets/using-1.png) ![](assets/using-2.png)
-
