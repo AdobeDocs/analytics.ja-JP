@@ -1,15 +1,15 @@
 ---
 description: アプリ管理を有効にすると、モバイルアプリケーションからライフサイクルと他の指標をキャプチャするモバイルソリューション変数がアクティブ化されます。
 title: アプリ管理
-topic: Admin tools
+feature: 管理ツール
+exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '625'
 ht-degree: 100%
 
 ---
-
 
 # アプリ管理
 
@@ -80,4 +80,3 @@ Adobe Analytics と Mobile Services のこの統合により、
 | アプリ内メッセージオンライン |  |
 | プッシュのオプトイン |  |
 | ペイロード ID |  |
-
