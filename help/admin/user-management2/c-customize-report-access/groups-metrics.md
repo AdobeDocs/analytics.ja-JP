@@ -3,16 +3,16 @@ description: トラフィック指標、コンバージョン指標、カスタ�
 keywords: グループ;権限
 subtopic: Users and groups
 title: 指標の権限のカスタマイズ
-topic: Admin tools
+feature: 管理ツール
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
+exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
-
 
 # 指標の権限のカスタマイズ
 
