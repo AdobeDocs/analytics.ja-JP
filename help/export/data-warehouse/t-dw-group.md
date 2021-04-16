@@ -1,16 +1,16 @@
 ---
 description: 管理者がユーザーグループに対して Data Warehouse レポートのアクセスを有効にする方法について手順を説明します。
 title: Data Warehouse ユーザーグループの追加
-topic: Data warehouse
+feature: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
+exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # Data Warehouse ユーザーグループの追加
 
