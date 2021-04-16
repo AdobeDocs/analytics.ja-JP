@@ -2,16 +2,16 @@
 description: トラフィック分類では、トラフィック変数（prop）の分類がおこなえます。トラフィック分類ではテキスト分類しか使用できません。
 subtopic: Classifications
 title: トラフィック分類
-topic: Admin tools
+feature: 管理ツール
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
+exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 translation-type: tm+mt
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
-
 
 # トラフィック分類
 
