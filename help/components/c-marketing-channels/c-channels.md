@@ -2,16 +2,16 @@
 description: マーケティングチャネルマネージャーでマーケティングチャネルを追加または有効化します。レポートスイートにマーケティングチャネルがない場合は、自動セットアップによって複数のチャネルと各チャネルのルールを作成することができます。ニーズに合わせて事前定義のチャネルを編集したり、独自に作成したりすることができます（合計 25 個まで）。
 subtopic: Marketing channels
 title: マーケティングチャネルの管理
-topic: Reports and analytics
+feature: Reports & Analyticsの基本事項
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
+exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '732'
+ht-degree: 99%
 
 ---
-
 
 # マーケティングチャネルの管理
 
@@ -90,4 +90,3 @@ ht-degree: 100%
 >まずテスト用のレポートスイートにレポートを設定することを推奨します。それをひな形として、1 つまたはそれ以上の本番用レポートスイートにまとめてチャネルとルールセットを適用することができます。
 >
 >詳しくは、[複数のレポートスイートへのテンプレートレポートスイート設定の適用](/help/components/c-marketing-channels/c-getting-started-mchannel.md)を参照してください。
-
