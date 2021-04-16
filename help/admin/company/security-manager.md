@@ -1,16 +1,16 @@
 ---
 description: レポーティングデータに対するアクセスを制御できます。オプションには、強力なパスワード、パスワード有効期限、IP ログイン制限、電子メールドメイン制限などがあります。
 title: セキュリティマネージャー
-topic: Admin tools
+feature: 管理ツール
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
+exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 100%
 
 ---
-
 
 # セキュリティマネージャー
 
