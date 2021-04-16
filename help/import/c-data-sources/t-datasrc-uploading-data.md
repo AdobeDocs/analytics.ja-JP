@@ -2,16 +2,16 @@
 description: データソースファイルのアップロード方法を説明した手順です。
 subtopic: Data sources
 title: データソースファイルのアップロード
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
+exl-id: 8b7fa32c-01f2-452b-bf8e-8a81da266926
 translation-type: tm+mt
-source-git-commit: fb2a63432275c4ab621df263035400051ff6bb32
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 87%
 
 ---
-
 
 # データソースファイルのアップロード
 
@@ -36,4 +36,3 @@ ht-degree: 87%
 1. データソースファイルの処理中、メッセージが表示されていないか確認します。
 
    ファイルの処理中に発生したエラーはすべてデータソースマネージャーに表示されます。
-
