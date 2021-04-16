@@ -2,16 +2,16 @@
 description: タイムスタンプオプション設定を使用することのメリットと制約について説明します。
 keywords: Analytics の実装
 title: タイムスタンプオプションの使用
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
 
 ---
-
 
 # タイムスタンプオプションの使用
 
