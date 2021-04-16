@@ -1,16 +1,16 @@
 ---
 description: サービスおよび製品の情報を提供する Web サイトの共通設定を定義します。これらのサービスおよび製品は、通常、さらに多くのエンゲージメントを介して販売されるものです。
 title: リードジェネレーション
-topic: Admin tools
+feature: 管理ツール
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
+exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
-
 
 # リードジェネレーション
 
@@ -44,6 +44,5 @@ ht-degree: 100%
 | 買い物かごからの削除 | カウンター | `scRemove` |
 | 訪問数 | カウンター（下位関係なし） | 該当なし |
 | ページビュー数 | カウンター（下位関係なし） | 該当なし |
-| 日別訪問者数 | カウンター（下位関係なし） | 該当なし |
-| 個別訪問者数 | カウンター（下位関係なし） | 該当なし |
-
+| 日別ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
+| ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
