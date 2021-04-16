@@ -2,16 +2,16 @@
 description: データソースのカテゴリは、提供する機能の類似性に基づいて様々なデータソースのタイプを識別します。
 subtopic: Data sources
 title: データのタイプとカテゴリの概要
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
+exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 100%
 
 ---
-
 
 # データのタイプとカテゴリの概要
 
@@ -230,4 +230,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
