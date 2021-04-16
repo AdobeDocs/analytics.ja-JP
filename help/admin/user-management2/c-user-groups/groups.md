@@ -2,16 +2,16 @@
 description: ユーザーグループの定義ページにあるエレメントの説明。
 subtopic: Users and groups
 title: ユーザーグループ設定
-topic: Admin tools
+feature: 管理ツール
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
+exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '613'
 ht-degree: 100%
 
 ---
-
 
 # ユーザーグループの設定（レガシー）
 
@@ -62,7 +62,7 @@ ht-degree: 100%
    <td colname="col2"> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>トラフィックレポート</b>（ページビュー数、訪問回数、個別訪問者数など、トラフィックに基づくすべてのレポートに対するアクセス権を付与） </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>トラフィックレポート</b>（ページビュー数、訪問回数、ユニーク訪問者など、トラフィックに基づくすべてのレポートに対するアクセス権を付与） </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>ツール</b>（除外 IP アドレス、分類、以前の ClickMap など、Reports &amp; Analytics で使用されているツールに対するアクセス権を付与） </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>ビデオおよびモバイルレポート</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>パスレポート</b>（次のページ、フォールアウト、ページでの滞在時間などのパスレポートに対するアクセス権を付与） </li> 
@@ -138,4 +138,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
