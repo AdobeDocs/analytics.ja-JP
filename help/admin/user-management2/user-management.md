@@ -2,16 +2,16 @@
 description: Admin Console で Analytics ユーザー、グループおよび製品を管理します。
 subtopic: Users and groups
 title: ユーザーと製品の管理
-topic: Admin tools
+feature: 管理ツール
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
+exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
-
 
 # ユーザーと製品の管理
 
@@ -128,4 +128,3 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
  </tbody> 
 </table>
-
