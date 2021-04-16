@@ -2,16 +2,16 @@
 description: ブラウザーを使用して分類データをインポート（アップロード）できます。この方法では、分類データのアップロードが単一のレポートスイートに制限されます。
 subtopic: Classifications
 title: ブラウザーインポート
-topic: Admin tools
+feature: 管理ツール
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
+exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
-
 
 # ブラウザーインポート
 
@@ -71,4 +71,3 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. ステータスウィンドウで、処理メッセージを確認します。
 1. （オプション）「**[!UICONTROL アップロードの完了後、自動的に分類ファイルをダウンロードする]**」を選択した場合は、処理完了時に結果ファイルを保存する場所を指定します。
 >インポートが正常に行われると、すぐにエクスポートで対応する変更が表示されます。ただし、Web ブラウザーでインポートした場合、レポートでのデータ変更には最大 4 時間かかります。FTP のインポートでは最大 24 時間かかります。
-
