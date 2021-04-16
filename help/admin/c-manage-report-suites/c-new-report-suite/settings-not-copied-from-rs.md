@@ -1,16 +1,16 @@
 ---
 description: 既存のレポートスイートから設定をコピーした場合、システムのメッセージで、新しいレポートスイートにコピーされない設定が特定されます。
 title: ソースレポートスイートからコピーされない設定
-topic: Admin tools
+feature: 管理ツール
 uuid: 5176c561-a278-43e4-837f-a17759985d52
+exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 translation-type: tm+mt
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # ソースレポートスイートからコピーされない設定
 
@@ -70,4 +70,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
