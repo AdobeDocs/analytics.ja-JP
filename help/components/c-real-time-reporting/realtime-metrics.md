@@ -1,16 +1,16 @@
 ---
 description: リアルタイムレポートでサポートされる指標とディメンションを一覧表示します。分類もサポートされます（分類を定義している場合）。
 title: サポートされるリアルタイム指標とディメンション
-topic: Reports
+topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
+exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # サポートされるリアルタイム指標とディメンション
 
@@ -47,4 +47,3 @@ ht-degree: 100%
 * ファイルのダウンロード
 * 出口リンク
 * カスタムインサイト変数（prop）1 ～ 75（レポートスイートで有効な場合）
-
