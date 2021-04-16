@@ -1,16 +1,16 @@
 ---
 description: タイムスタンプのあるデータとないデータの両方を組み合わせて 1 つのレポートスイートにします。
 title: タイムスタンプオプション
-topic: Admin tools
+feature: 管理ツール
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
+exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
-
 
 # タイムスタンプオプション
 
@@ -51,4 +51,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >レポートスイートが&#x200B;**タイムスタンプオプション**&#x200B;に設定されている場合、これを他の設定に変更するには、Adobe Client Care に連絡してください。
-
