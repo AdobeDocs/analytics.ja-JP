@@ -1,16 +1,16 @@
 ---
 description: セグメントを計画する際に従う手順とベストプラクティスの概要を説明します。
 title: セグメントの計画
-topic: Segments
+feature: セグメント
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
+exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # セグメントの計画
 
@@ -29,4 +29,3 @@ ht-degree: 100%
 
 1. **承認プロセス**&#x200B;の展開方法を検討します。セグメントの確認および承認を 1 人の担当者のみで行いますか。それとも委員会で判定しますか。
 1. **セグメントライブラリ**&#x200B;へのビューを使用してセグメントを定義します。セグメントライブラリを使用すると、部品としてのセグメントをモジュール形式で[積み重ね](/help/components/segmentation/segmentation-workflow/seg-build.md)および再利用できます。このライブラリを有益なものとするには、どのような「モジュール」を定義する必要がありますか。
-
