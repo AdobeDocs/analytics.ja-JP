@@ -2,16 +2,16 @@
 description: データフィードを使用して一般的な指標を計算する方法について説明します。
 keywords: データフィード；ジョブ；指標；pre列；post列；ボット；日付フィルタリング；イベント文字列；共通；数式
 title: 計算指標
-topic: Reports and analytics
+feature: Reports & Analyticsの基本事項
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
+exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 96%
 
 ---
-
 
 # データフィードを使用した一般的な指標の計算
 
@@ -36,7 +36,7 @@ ht-degree: 96%
 
 ## 訪問者
 
-個別訪問者（カスタム訪問者 ID、Experience Cloud ID サービスなど）を識別するためにアドビが使用するすべての方法はすべて最終的に、`post_visid_high` と `post_visid_low` の値として計算されます。これらの 2 つの列を連結することで、どのようにして個別訪問者として識別されたかに関係なく、個別訪問者を識別する際の標準として使用できます。アドビが個別訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
+ユニーク訪問者（カスタム訪問者 ID、Experience Cloud ID サービスなど）を識別するためにアドビが使用するすべての方法はすべて最終的に、`post_visid_high` と `post_visid_low` の値として計算されます。これらの 2 つの列を連結することで、どのようにしてユニーク訪問者として識別されたかに関係なく、ユニーク訪問者を識別する際の標準として使用できます。アドビがユニーク訪問者を識別するために使用した方法を理解するには、列 `post_visid_type` を使用します。
 
 1. `post_visid_high` と `post_visid_low` を連結します。
 2. 一意の値の数をカウントします。
