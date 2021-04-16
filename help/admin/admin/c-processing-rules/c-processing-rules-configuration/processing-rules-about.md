@@ -2,16 +2,16 @@
 description: 処理ルールを使用して、定義した条件に基づいてデータを変更できます。属性や値が定義した条件に一致する場合、値を設定および削除でき、イベントを設定できます。
 subtopic: Processing rules
 title: 処理ルールのしくみ
-topic: Admin tools
+feature: 管理ツール
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
+exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '692'
 ht-degree: 100%
 
 ---
-
 
 # 処理ルールのしくみ
 
