@@ -2,16 +2,16 @@
 description: 'DFA 統合の設定には、次のタスクが含まれます。 '
 keywords: DFA
 title: DFA 統合
-topic: Data connectors
+feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
+exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2601'
 ht-degree: 100%
 
 ---
-
 
 # DFA 統合 {#dfa-integration}
 
@@ -263,7 +263,7 @@ DFA を正しく導入することが、特定のサイトの s.maxDelay の最�
 Timeout Percentage = [Step 3] / [Step 2] * 100
 ```
 
-タイムアウトの割合では、実際はサイトへのすべての訪問者が考慮されます。一部の訪問者は、DFA にまったく結び付けられず、タイムアウトは誤った結果になる可能性があります。この計算結果を改善するには、別の分析で、`clickThroughParam` を設定した（例：`?CID=1`）ページへの個別訪問者のみを考慮します。これは、より正確に表示します。
+タイムアウトの割合では、実際はサイトへのすべての訪問者が考慮されます。一部の訪問者は、DFA にまったく結び付けられず、タイムアウトは誤った結果になる可能性があります。この計算結果を改善するには、別の分析で、`clickThroughParam` を設定した（例：`?CID=1`）ページへのユニーク訪問者のみを考慮します。これは、より正確に表示します。
 
 タイムアウトの割合が非常に低い場合、*`s.maxDelay`* を減らすことを検討してください。非常に高い場合は、*`s.maxDelay`* を増やします。*`s.maxDelay`* を減らす場合、[!DNL Timeout Report] を再実行することで、タイムアウトが劇的に増加していないことを確認できます。*`s.maxDelay`* を増やす場合、[!DNL Page Views Report] を実行することで、データ損失に起因してページビューが減少していないことを確認できます。*`s.maxDelay`* が変更されるたびに、数日間のデータを観察し、データが日々の変動だけでなく、傾向を表していることを確認します。
 
