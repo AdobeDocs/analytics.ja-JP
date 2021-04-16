@@ -2,16 +2,16 @@
 description: Adobe AnalyticsでDFA data connectorを使用するための前提条件です。
 keywords: DFA
 title: 前提条件
-topic: Data Connectors
+feature: Data Connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
+exl-id: aa47c54f-d98a-47cb-806f-3f16d783c207
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 97%
 
 ---
-
 
 # 前提条件 {#prerequisites}
 
@@ -31,4 +31,3 @@ DFA 用の Adobe Data Connectors 統合を開始する前に、以下をおこ�
 * （オプション）DFA コストデータを格納する Reports &amp; Analytics イベントを特定します。これらのイベント名は適宜変更できます。
 * （オプション）DFA エラーおよびタイムアウトを格納する Reports &amp; Analytics カスタム変数および成功イベントを特定します。これらの変数は、統合で起こりうる問題を診断するのに役立ちます。
 * （オプション）DFA 用の Data Connectors 統合に関連する情報および通知を受信するための特別な電子メールアカウントを作成します。
-
