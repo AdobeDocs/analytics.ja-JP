@@ -2,16 +2,16 @@
 description: Adobe AnalyticsとのDoubleClick for Advertisers統合を使用します。
 keywords: DFA
 title: Adobe Analytics 用 DFA Data Connector
-topic: Data Connectors
+feature: Data Connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
+exl-id: 35854556-c02f-410a-8e4d-2125404a6db4
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 98%
 
 ---
-
 
 # Adobe Analytics 用 DFA Data Connector {#dfa-data-connector-for-adobe-analytics}
 
@@ -46,7 +46,7 @@ Data Connector の主なメリット - DFA 統合に含まれる機能につい�
 
 ![](assets/Diagram1.png)
 
-訪問者は、（広告をホストする）パブリッシャーのサイトに到達します。各広告は、広告 ID と呼ばれる一意の識別子を持ちます。広告は、パブリッシャーのサイト上の位置を示す「プレースメント」と、どのコンテンツが訪問者に表示されるかを示す「クリエイティブ」で構成されます。訪問者が DFA サーバーからこの広告、プレースメントまたはクリエイティブを取得すると、この訪問者の DFA Floodlight サーバーに対するインプレッションがトラッキングされます（1）。
+訪問者は、（広告をホストする）パブリッシャーのサイトに到達します。各広告は、広告 ID と呼ばれる一意の ID を持ちます。広告は、パブリッシャーのサイト上の位置を示す「プレースメント」と、どのコンテンツが訪問者に表示されるかを示す「クリエイティブ」で構成されます。訪問者が DFA サーバーからこの広告、プレースメントまたはクリエイティブを取得すると、この訪問者の DFA Floodlight サーバーに対するインプレッションがトラッキングされます（1）。
 
 訪問者が広告をクリックすると（2）、Floodlight サーバーがクエリされ、これによりクリックがカウントされて、302 がランディングページに訪問者をリダイレクト（3）します。訪問者がランディングページに到達した場合、これはクリックスルーと呼ばれます。このページには、DFA Floodlight サーバーからデータをクエリする Adobe トラッキングコードが含まれています。
 
