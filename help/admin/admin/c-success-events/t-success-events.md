@@ -1,16 +1,16 @@
 ---
 description: 成功イベントを設定する方法について手順を説明します。
 title: 成功イベントの設定
-topic: Admin tools
+feature: 管理ツール
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
+exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
-
 
 # 成功イベントの設定
 
@@ -44,4 +44,3 @@ ht-degree: 100%
    >パーティシペーションは、最大 100 個のカスタムイベントに対して有効にすることができます。100 を超える場合は、[計算指標](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)ビルダーでパーティシペーション指標を作成できます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
-
