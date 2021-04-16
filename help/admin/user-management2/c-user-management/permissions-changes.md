@@ -3,10 +3,10 @@ description: 従来の権限の内容
 keywords: グループ;権限
 subtopic: Users and groups
 title: ユーザーおよびグループ権限の変更
-topic: 管理ツール
+feature: 管理ツール
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 97%
