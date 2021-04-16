@@ -1,22 +1,22 @@
 ---
 description: 公開ウィジェットは、Web ページにマーケティングレポート（ブックマークとダッシュボード）を埋め込むことのできるコンテナです。マーケティングレポートにアクセスできない従業員も適切なデータを見ることができます。
 title: 公開ウィジェット
-topic: Admin tools
+feature: 管理ツール
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
+exl-id: 97ec07d8-29ad-4ef3-9227-bfdc14a59b97
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
-
 
 # 公開ウィジェット
 
 公開ウィジェットは、Web ページに Analytics レポート（ブックマークとダッシュボード）を埋め込むことのできるコンテナです。Analytics レポートにアクセスできない従業員も適切なデータを見ることができます。
 
-例えば、会社の経営陣がページの訪問者数や個別ページの訪問者数などを表示できるように、ダッシュボードを提供できます。
+例えば、会社の経営陣がページの訪問者数やページのユニーク訪問者数などを表示できるように、ダッシュボードを提供できます。
 
 >[!CAUTION]
 >
