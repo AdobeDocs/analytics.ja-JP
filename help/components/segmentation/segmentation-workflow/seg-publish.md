@@ -1,16 +1,16 @@
 ---
 description: セグメントをオーディエンスライブラリ、Target および Audience Manager のマーケティングアクティビティで使用できます。
 title: Experience Cloud へのセグメントの公開
-topic: Segments
+feature: セグメント
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
+exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1346'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud へのセグメントの公開
 
@@ -59,7 +59,7 @@ Adobe Analytics セグメントを Experience Cloud に公開すると、[!DNL A
 ![](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Adobe Analytics の数値と Audience Manager の数値を比較する際には、Analytics でセグメントプレビューを確認する際に、「個別訪問者数」の合計ではなく、「Experience Cloud ID を持つ訪問者」を使用してください。
+>Adobe Analytics の数値と Audience Manager の数値を比較する際には、Analytics でセグメントプレビューを確認する際に、「ユニーク訪問者」の合計ではなく、「Experience Cloud ID を持つ訪問者」を使用してください。
 >
 >![](assets/seg-vis-ecid.png)
 
