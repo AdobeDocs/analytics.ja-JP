@@ -1,16 +1,16 @@
 ---
 description: リアルタイムレポートを設定するための管理者の手順です。
 title: リアルタイムレポートの設定
-topic: Admin tools
+feature: 管理ツール
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
+exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # リアルタイムレポートの設定
 
