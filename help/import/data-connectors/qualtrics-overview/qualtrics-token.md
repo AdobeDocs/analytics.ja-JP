@@ -2,16 +2,16 @@
 description: 統合ウィザードを完了するには、トークンが必要です。この ID を探すには、次の手順を実行します。
 subtopic: Qualtrics
 title: Qualtrics Adobe Analytics トークンの生成
-topic: Data connectors
+feature: Data Connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
+exl-id: 66bafeef-d0cd-4cce-ba18-df22d3d14995
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---
-
 
 # Qualtrics Adobe Analytics トークンの生成 {#generating-your-qualtrics-adobe-analytics-token}
 
@@ -33,4 +33,3 @@ ht-degree: 100%
    >[!NOTE]
    >
    >Adobe Analytics トークンを生成するオプションが表示されない場合は、Qualtrics アカウント管理者に問い合わせて、お使いのアカウントに適した権限を有効にしてもらってください。
-
