@@ -1,16 +1,16 @@
 ---
 description: 発行リストでは、個別にスケジュール設定されたレポートを作成することなく、様々なグループに特化した各種レポートを簡単に送信できます。発行リストは、場所に特化したレポートスイートがあり、それぞれの関係部門に特定のダッシュボードのコピーを提供する場合に役立ちます。また、単一のレポートスイートで作業している場合、個別に電子メールアドレスを入力することなく、大勢の人にデータを送信できます。
 title: 発行リスト
-topic: Admin tools
+feature: 管理ツール
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
+exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
 translation-type: tm+mt
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
-
 
 # 発行リスト
 
