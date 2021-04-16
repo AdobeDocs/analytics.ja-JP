@@ -1,16 +1,16 @@
 ---
 description: セグメントを使いやすく整理するための 1 つの方法として、セグメントをお気に入りに登録することができます。
 title: セグメントのお気に入りへの登録
-topic: Segments
+feature: セグメント
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
+exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '75'
 ht-degree: 100%
 
 ---
-
 
 # セグメントのお気に入りへの登録
 
