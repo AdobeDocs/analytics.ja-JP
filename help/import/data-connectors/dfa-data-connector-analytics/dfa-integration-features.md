@@ -2,16 +2,16 @@
 description: 'アクティブ化すると、Data Connectors DFA 統合によって、Adobe Analytics レポート用の次の指標が提供されます '
 keywords: DFA
 title: 統合の機能
-topic: Data connectors
+feature: Data Connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
+exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
-
 
 # 統合の機能 {#integration-features}
 
@@ -63,4 +63,3 @@ DFA 統合は、Adobe SearchCenter に対応しています。Data Connectors �
 >[!NOTE]
 >
 >SearchCenter／DFA 重複除外が有効になっており、SearchCenter クエリー文字列パラメーターが設定されている場合、DFA 処理では訪問は考慮されません。つまり、SearchCenter クエリー文字列パラメーターは、DFA クリックスルーパラメーターとは異なる必要があり、表示広告に SearchCenter クエリー文字列パラメーターが設定されないようにする必要があります。
-
