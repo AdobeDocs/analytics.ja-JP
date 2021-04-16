@@ -2,16 +2,16 @@
 description: page_event の値に基づいてヒットタイプを判別する参照テーブル。
 keywords: データフィード；ページ；イベント；ページイベント;post_page_イベント
 title: ページイベント参照
-topic: Reports and analytics
+feature: Reports & Analyticsの基本事項
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
+exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 95%
+source-wordcount: '209'
+ht-degree: 94%
 
 ---
-
 
 # ページイベント参照
 
