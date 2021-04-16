@@ -2,16 +2,16 @@
 description: アクティブな処理ルールは、管理ツールに表示されます。
 subtopic: Processing rules
 title: アクティブな処理ルールの表示
-topic: Admin tools
+feature: 管理ツール
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
+exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '53'
 ht-degree: 100%
 
 ---
-
 
 # アクティブな処理ルールの表示
 
