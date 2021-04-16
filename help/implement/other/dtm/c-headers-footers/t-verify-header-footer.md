@@ -2,16 +2,16 @@
 description: Dynamic Tag Management ライブラリがサイトに適切に読み込まれることを検証します。
 keywords: Analytics の実装, 実装方法, dynamic tag management, dtm, コード, ページコード, ヘッダーコード, フッターコード, 埋め込みコード, コードの検証, ヘッダーコードの検証, フッターコードの検証, 「埋め込み」タブ, 埋め込み
 title: ヘッダーおよびフッターコードの検証
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
+exl-id: bed44ba7-8e0e-49e2-bedc-fb1ba66e5b18
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
 ---
-
 
 # ヘッダーおよびフッターコードの検証
 
@@ -31,4 +31,3 @@ Dynamic Tag Management ライブラリがサイトに適切に読み込まれる
 
 * サイトのすべてのページで、[!DNL HEAD] セクションの、`<head>` タグのできるだけ近くに、完全なヘッダーコードが含まれている。 タグの近くに配置します。
 * ヘッダーコードに見えない全角スペースなど、余計な文字を含めていない（書式付きドキュメントからコピーアンドペーストした結果である可能性がある）。
-
