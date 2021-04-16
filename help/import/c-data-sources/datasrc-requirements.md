@@ -2,16 +2,16 @@
 description: データソース使用前のレポートスイートに対する要件についての情報です。
 subtopic: Data sources
 title: 要件とアップロードに関する制限
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 98%
 
 ---
-
 
 # 要件とアップロードに関する制限
 
