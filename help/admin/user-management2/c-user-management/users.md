@@ -2,16 +2,16 @@
 description: ユーザー管理ページでレポートのユーザーとグループを管理すると、ユーザーとグループを管理して、レポート、ツールおよびレポートスイートへのアクセスを制御できます。
 subtopic: Users and groups
 title: ユーザー管理の概要
-topic: Admin tools
+feature: 管理ツール
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
-
 
 # ユーザー管理の概要
 
@@ -95,4 +95,3 @@ ht-degree: 100%
 | [!UICONTROL 追加メッセージ] | お知らせメールの内容を追加します。「追加メッセージ」フィールドでは HTML がサポートされますが、添付ファイルを含めることはできません。 |
 | [!UICONTROL 電子メールのプレビュー] | 独立したブラウザーウィンドウにお知らせメールが表示されます。 |
 | [!UICONTROL デフォルトのお知らせメッセージに設定する] | 「追加メッセージ」パネルで指定した追加の内容を含めるようにデフォルトのお知らせメッセージを変更します。 |
-
