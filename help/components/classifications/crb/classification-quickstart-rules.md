@@ -2,12 +2,12 @@
 description: 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
 subtopic: Classifications
 title: 分類ルール
-topic: Admin tools
+feature: 管理ツール
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2020'
 ht-degree: 99%
 
 ---
@@ -329,10 +329,12 @@ t_classification_rule.xml
    >次の条件が満たされると、レポートスイートがこのページ&#x200B;*`only`*&#x200B;に表示されます。
    >
    >* レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
-   >
-   >   この前提条件の説明については、*`Variable`*&#x200B;分類ルールセット[の ](/help/components/classifications/crb/classification-rule-set.md) を参照してください。）
-   >
-   >* **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/classifications/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
+      >
+      >   
+      この前提条件の説明については、*`Variable`*&#x200B;分類ルールセット[の ](/help/components/classifications/crb/classification-rule-set.md) を参照してください。）
+      >
+      >
+   * **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/classifications/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
 
 
 1. 既存の値を上書きするかどうかを指定します。
