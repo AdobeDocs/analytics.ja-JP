@@ -2,16 +2,16 @@
 description: ユーザーアカウントを追加する方法について手順を説明します。
 subtopic: Users and groups
 title: ユーザーアカウントの追加
-topic: Admin tools
+feature: 管理ツール
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
+exl-id: b81f175d-5684-4eb4-b63b-9ee889fe76f1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
-
 
 # ユーザーアカウントの追加
 
