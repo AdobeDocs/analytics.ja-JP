@@ -2,16 +2,16 @@
 description: FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 subtopic: Classifications
 title: FTP インポート
-topic: 管理ツール
+feature: 管理ツール
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
 ---
-
 
 # FTP インポート
 
