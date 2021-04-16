@@ -2,16 +2,16 @@
 description: 仮想レポートスイートの作成を始める前に、以下に注意してください。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートの作成
-topic: Reports and analytics
+feature: Reports & Analyticsの基本事項
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
+exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '366'
+ht-degree: 99%
 
 ---
-
 
 # 仮想レポートスイートの作成
 
@@ -66,4 +66,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
