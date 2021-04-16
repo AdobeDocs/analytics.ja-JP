@@ -3,16 +3,16 @@ description: 一般的な項目（課金、ログなど）、会社の管理、�
 keywords: グループ;権限
 subtopic: Users and groups
 title: Analytics ツールの権限のカスタマイズ
-topic: 管理ツール
+feature: 管理ツール
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
+exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
 ---
-
 
 # Analytics ツールの権限のカスタマイズ
 
