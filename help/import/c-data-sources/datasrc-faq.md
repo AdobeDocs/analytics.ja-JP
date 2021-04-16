@@ -2,16 +2,16 @@
 description: ここでは、よくある質問とその回答を示します。
 subtopic: Data sources
 title: データソースに関する FAQ
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
+exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 95%
 
 ---
-
 
 # データソースに関する FAQ
 
@@ -109,9 +109,9 @@ ht-degree: 95%
 
 データソースからのレポートに、時間単位のデータは含まれません。特定の日に対してレポートを実行すると、データは時間別にしか分類されないので、レポートに何も表示されません。データが表示されるのは分類レベルが 1 日単位かそれより大きい場合のみで、これは週ごとまたは月ごとのレポートを実行することで実現されます。
 
-## データソースからアップロードされた Web サーバーログで、個別訪問者数はどのように計算されますか。  {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
+## データソースからアップロードされた Web サーバーログで、ユニーク訪問者数はどのように計算されますか。  {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
 
-Web サーバーログでの実訪問者数は、Web ログの *`IP Address`* と *`User Agent`* の個別の組み合わせとして計算されます。これら 2 つの項目の一意の組み合わせが、それぞれ 1 人の個別訪問者としてカウントされます。[!UICONTROL ユーザーエージェント]列が空白の（または Web ログに含まれていない）場合は、個別訪問者数を識別できないので、（複数の IP アドレスが含まれていても）アップロード全体で 1 人の個別訪問者としてカウントされます。
+Web サーバーログでのユニーク訪問者は、Web ログの *`IP Address`* と *`User Agent`* の個別の組み合わせとして計算されます。これら 2 つの項目の一意の組み合わせが、それぞれ 1 人のユニーク訪問者としてカウントされます。「[!UICONTROL ユーザーエージェント]」列が空白の（または Web ログに含まれていない）場合、ユニーク訪問者数を識別することができず、複数の IP アドレスが含まれていても、アップロード全体で 1 人のユニーク訪問者としてカウントされます。
 
 ## データソースで、どのログインがどのレポートスイートに属しているかをどうすれば判別できますか。  {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
