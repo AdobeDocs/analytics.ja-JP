@@ -1,16 +1,16 @@
 ---
 description: 新しいレポートスイートを作成するには、事前定義済みのテンプレートを選択するか、モデルとなる既存のレポートスイートを 1 つ選択して使用します。
 title: 新しいレポートスイート - 設定
-topic: 管理ツール
+feature: 管理ツール
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
+exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 93%
 
 ---
-
 
 # 新しいレポートスイート - 設定
 
@@ -32,7 +32,7 @@ ht-degree: 93%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle">レポートスイート ID</span> </td> 
-   <td colname="col2"> <p>英数字文字のみ含めることができる一意な ID を指定します。この ID は作成後は変更できません。アドビによって設定される必須の ID プレフィックスも変更できません。 </p> <p>複数のレポートスイートを作成する場合は、レポートスイート ID が一意になる命名方法を使用してください。 </p> </td> 
+   <td colname="col2"> <p>英数字文字のみ含めることができる一意の ID を指定します。この ID は作成後は変更できません。アドビによって設定される必須の ID プレフィックスも変更できません。 </p> <p>複数のレポートスイートを作成する場合は、レポートスイート ID が一意になる命名方法を使用してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">サイトのタイトル</span> </td> 
@@ -68,4 +68,3 @@ ht-degree: 93%
   </tr>  
  </tbody> 
 </table>
-
