@@ -2,16 +2,16 @@
 description: 訪問者の移行は、訪問者 ID Cookie をドメイン間で移行するプロセスです。
 keywords: Analytics の実装
 title: 訪問者の移行
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
+exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 77%
 
 ---
-
 
 # 訪問者の移行
 
