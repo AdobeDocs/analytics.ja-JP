@@ -2,16 +2,16 @@
 description: 処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
 subtopic: Processing rules
 title: 処理ルールで使用可能なディメンション
-topic: Admin tools
+feature: 管理ツール
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '745'
 ht-degree: 86%
 
 ---
-
 
 # 処理ルールで使用可能なディメンション
 
@@ -219,4 +219,3 @@ ht-degree: 86%
   </tr> 
  </tbody> 
 </table>
-
