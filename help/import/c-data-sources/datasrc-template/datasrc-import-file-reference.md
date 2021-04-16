@@ -2,16 +2,16 @@
 description: データソースの .txt テンプレートに関する情報です。
 subtopic: Data sources
 title: インポートファイルの参照
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
+exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
 ---
-
 
 # インポートファイルの参照
 
