@@ -2,16 +2,16 @@
 description: eVar の値を prop にコピーしてパス指定を有効にすることができます。
 subtopic: Processing rules
 title: eVar 値を prop にコピーしてパスを指定
-topic: Admin tools
+feature: 管理ツール
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
+exl-id: 23c978b9-a159-4364-9214-561a255d23e4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # eVar 値を prop にコピーしてパスを指定
 
@@ -34,4 +34,3 @@ eVar の値を prop にコピーしてパス指定を有効にすることがで
 次に例を示します。
 
 ![](assets/overwrite-empty-prop.png)
-
