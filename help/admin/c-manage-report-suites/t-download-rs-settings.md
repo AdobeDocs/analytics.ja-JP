@@ -1,16 +1,16 @@
 ---
 description: 選択したレポートスイートのすべての設定を含む Excel ワークシートを生成する方法について手順を説明します。
 title: レポートスイートの設定のダウンロード
-topic: Admin tools
+feature: 管理ツール
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
+exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '73'
 ht-degree: 100%
 
 ---
-
 
 # レポートスイートの設定のダウンロード
 
