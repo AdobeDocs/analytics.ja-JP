@@ -2,16 +2,16 @@
 description: この統合のデプロイは、以下の操作を必要とする簡単なプロセスです。
 subtopic: Qualtrics
 title: 統合のデプロイ
-topic: Data connectors
+feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
+exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '589'
 ht-degree: 98%
 
 ---
-
 
 # 統合のデプロイ {#deploying-the-integration}
 
@@ -35,7 +35,8 @@ ht-degree: 98%
 1. **ウィザードの手順 2 - 変数のマッピング**| Qualtrics 応答リスト | 使用可能なリスト変数をレポートスイートから選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
 |---|---|
 | Qualtrics 応答 ID | レポートスイート尾から使用可能な eVar または prop を選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
-| トラッキングサーバー | Adobe Analytics データの追跡に使用するトラッキングサーバー（ドメイン）設定。その場合は、`trackingServerSecure` トラッキングサーバーを設定します。|| Qualtrics 調査の提出 | レポートスイートから利用可能なイベントを選択します（Report Suite Manager 内で新しいイベントの有効化が必要になる場合があります）。|
+| トラッキングサーバー | Adobe Analytics データの追跡に使用するトラッキングサーバー（ドメイン）設定。その場合は、 
+`trackingServerSecure` トラッキングサーバーを設定します。|| Qualtrics 調査の提出 | レポートスイートから利用可能なイベントを選択します（Report Suite Manager 内で新しいイベントの有効化が必要になる場合があります）。|
 
 1. **ウィザード：手順 3**：何もする必要はありません。情報のみ。
 
@@ -84,5 +85,3 @@ ht-degree: 98%
    >このデータは、統合調査が積極的に回答を受け取っていると想定して、デプロイメントが成功してから 24 ～ 48 時間以内に表示されます。
 
    ![](assets/verify-2.png) ![](assets/verify-3.png)
-
-
