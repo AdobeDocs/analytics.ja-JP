@@ -2,16 +2,16 @@
 description: データソースの作成および管理を行い、レポートスイートでのデータソースの使用状況を表示します。
 subtopic: Data sources
 title: データソースマネージャー
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+exl-id: a63137b8-deeb-4865-9be9-322416b00186
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
 ---
-
 
 # データソースマネージャー
 
