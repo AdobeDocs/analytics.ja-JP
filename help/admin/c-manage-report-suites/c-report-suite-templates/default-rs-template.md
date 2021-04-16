@@ -1,16 +1,16 @@
 ---
 description: 一般的な Web サイトに共通する変数と成功イベントをいくつか設定します。
 title: デフォルトテンプレート
-topic: Admin tools
+feature: 管理ツール
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
+exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
-
 
 # デフォルトテンプレート
 
@@ -51,6 +51,5 @@ ht-degree: 100%
 | 買い物かごからの削除 | カウンター | `scRemove` |
 | 訪問数 | カウンター（下位関係なし） | 該当なし |
 | ページビュー数 | カウンター（下位関係なし） | 該当なし |
-| 日別訪問者数 | カウンター（下位関係なし） | 該当なし |
-| 個別訪問者数 | カウンター（下位関係なし） | 該当なし |
-
+| 日別ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
+| ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
