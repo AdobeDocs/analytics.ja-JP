@@ -2,16 +2,16 @@
 description: データソース使用の準備に利用できる手順です。
 subtopic: Data sources
 title: データソースを使用するための準備
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
 ---
-
 
 # データソースを使用するための準備
 
