@@ -1,16 +1,16 @@
 ---
 description: 個々のレポートスイートの設定ツールを使用してレポートスイートのデフォルト設定を変更できます。これらのツールでは、不要または古くなったページのレコードの削除、デフォルト指標の設定、メディアの設定を行うことができます。
 title: 個々のレポートスイートの設定
-topic: Admin tools
+feature: 管理ツール
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
+exl-id: 1d4cff11-f2e6-4c09-878a-763f3419ff38
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 100%
 
 ---
-
 
 # 個々のレポートスイートの設定
 
@@ -22,4 +22,3 @@ ht-degree: 100%
 
 1. レポートスイートを選択します。
 1. **[!UICONTROL 設定の編集]**／**[!UICONTROL 個々のレポートスイートの設定]**／*`<selection>`* の順にクリックします。
-
