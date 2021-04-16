@@ -1,12 +1,12 @@
 ---
 description: グループとは、共通のアクセス権や権限のセットを付与するユーザーの集まりです。例えば、50 人 のマーケティングレポートユーザーがいて、そのうちの 20 人のみが ad hoc analysis へのアクセスを必要としている場合、その 20 人のユーザー用のグループを作成することができます。
 title: グループ管理
-topic: Admin tools
+feature: 管理ツール
 uuid: e5596397-f07b-4887-bd8c-6a6dea44a07c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '97'
 ht-degree: 100%
 
 ---
