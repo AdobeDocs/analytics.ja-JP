@@ -1,16 +1,16 @@
 ---
 description: Analytics で Activity Map レポートを有効にするための管理者の手順です。
 title: Activity Map レポート
-topic: Reports
+feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
+exl-id: e1d3f894-b769-4294-b550-f46869b812be
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
-
 
 # Activity Map レポート
 
