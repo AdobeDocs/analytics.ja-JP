@@ -3,16 +3,16 @@ description: eVar、トラフィックレポート、ソリューションレポ
 keywords: グループ;権限
 subtopic: Users and groups
 title: ディメンションの権限のカスタマイズ
-topic: Admin tools
+feature: 管理ツール
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
+exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 98%
 
 ---
-
 
 # ディメンションの権限のカスタマイズ
 
