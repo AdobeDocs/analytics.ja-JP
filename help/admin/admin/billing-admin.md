@@ -1,16 +1,16 @@
 ---
 description: 課金ページでは、各レポートスイートのトラフィックの詳細を含む課金情報にアクセスできます。承認された管理者のみがこのページにアクセスできます。
 title: 課金
-topic: Admin tools
+feature: 管理ツール
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
+exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
-
 
 # 課金
 
