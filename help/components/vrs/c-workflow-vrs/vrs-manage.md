@@ -2,16 +2,16 @@
 description: 管理者は、仮想レポートスイートマネージャーを使用して、仮想レポートスイートの編集、追加、タグ付け、削除、名前の変更、承認、コピー、エクスポートおよびフィルターを実行できます。仮想レポートスイートマネージャーは管理者以外には表示されません。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートの管理
-topic: Reports and analytics
+feature: Reports & Analyticsの基本事項
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
+exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 99%
 
 ---
-
 
 # 仮想レポートスイートの管理
 
