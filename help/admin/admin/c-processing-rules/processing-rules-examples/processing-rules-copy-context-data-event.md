@@ -2,16 +2,16 @@
 description: 処理ルールで、コンテキストデータ変数に基づいてイベントをトリガーできます。
 subtopic: Processing rules
 title: コンテキストデータ変数を使用したイベントの設定
-topic: Admin tools
+feature: 管理ツール
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
+exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
-
 
 # コンテキストデータ変数を使用したイベントの設定
 
