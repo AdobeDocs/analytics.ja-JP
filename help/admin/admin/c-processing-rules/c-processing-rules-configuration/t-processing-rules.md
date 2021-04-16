@@ -2,16 +2,16 @@
 description: 処理ルールはレポートスイートで設定されます。
 subtopic: Processing rules
 title: 処理ルールの作成
-topic: Admin tools
+feature: 管理ツール
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
+exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
-
 
 # 処理ルールの作成
 
