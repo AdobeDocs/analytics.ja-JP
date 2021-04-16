@@ -2,16 +2,16 @@
 description: グループにユーザーを追加する方法を説明する手順を説明します。
 subtopic: Users and groups
 title: グループにユーザーを追加する
-topic: Admin tools
+feature: 管理ツール
 uuid: 032245b3-848d-4727-9b7d-6c5956c5f06a
+exl-id: f15696a9-3475-4ef6-8d23-3e4e12732b31
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '112'
 ht-degree: 100%
 
 ---
-
 
 # グループにユーザーを追加する
 
