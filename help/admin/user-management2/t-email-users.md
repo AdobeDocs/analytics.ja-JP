@@ -2,16 +2,16 @@
 description: 電子メールのメッセージを社内のすべてのユーザーに送信する方法について手順を説明します。
 subtopic: Users and groups
 title: 電子メールユーザー
-topic: Admin tools
+feature: 管理ツール
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
+exl-id: 4f3abfa1-d652-4cda-b68f-a21fff4f62c4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '153'
 ht-degree: 100%
 
 ---
-
 
 # 電子メールユーザー
 
