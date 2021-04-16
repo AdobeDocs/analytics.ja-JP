@@ -2,16 +2,16 @@
 description: DFA の Data Connectors 統合は、Analytics 変数を使用して DFA キャンペーン結果をトラッキングします。
 keywords: DFA
 title: Analytics 変数とイベント
-topic: Data connectors
+feature: Data Connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
+exl-id: 8c3df2e8-84cd-4a14-b15b-42233d874c19
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 変数とイベント {#analytics-variables-and-events}
 
