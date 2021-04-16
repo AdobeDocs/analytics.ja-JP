@@ -2,12 +2,12 @@
 description: Ad Hoc Analysis のセグメントビルダーの操作に慣れている場合は、この FAQ で、既存のセグメントとフォルダーへの影響、および実行する必要があるアクションを確認してください。
 keywords: セグメント化;セグメント
 title: Ad Hoc Analysis の移行ガイド
-topic: Segments
+feature: セグメント
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '832'
 ht-degree: 100%
 
 ---
