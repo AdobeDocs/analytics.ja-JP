@@ -3,16 +3,16 @@ description: Analytics ツール、レポートスイートツール、指標お
 keywords: グループ;権限
 subtopic: Users and groups
 title: レポートアクセスのカスタマイズ - 概要
-topic: 管理ツール
+feature: 管理ツール
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
+exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 96%
 
 ---
-
 
 # レポートアクセスのカスタマイズ - 概要
 
@@ -102,4 +102,3 @@ Analytics ツール、レポートスイートツール、指標およびディ�
   </tr> 
  </tbody> 
 </table>
-
