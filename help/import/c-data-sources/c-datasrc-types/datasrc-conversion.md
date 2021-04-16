@@ -2,16 +2,16 @@
 description: データソースでは、コンバージョンとして処理されるデータタイプに対して、次のようなコンバージョンデータディメンションおよびコンバージョン指標をサポートしています。
 subtopic: Data sources
 title: コンバージョン
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
+exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
 ---
-
 
 # コンバージョン
 
