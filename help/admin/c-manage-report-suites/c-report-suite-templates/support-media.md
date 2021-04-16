@@ -1,16 +1,16 @@
 ---
 description: 製品サポートに関する記事とビデオを提供する Web サイト用の共通設定が用意されています。
 title: サポートメディア
-topic: Admin tools
+feature: 管理ツール
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
+exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '181'
 ht-degree: 100%
 
 ---
-
 
 # サポートメディア
 
@@ -44,6 +44,5 @@ ht-degree: 100%
 | 買い物かごからの削除 | カウンター | `scRemove` |
 | 訪問数 | カウンター（下位関係なし） | 該当なし |
 | ページビュー数 | カウンター（下位関係なし） | 該当なし |
-| 日別訪問者数 | カウンター（下位関係なし） | 該当なし |
-| 個別訪問者数 | カウンター（下位関係なし） | 該当なし |
-
+| 日別ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
+| ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
