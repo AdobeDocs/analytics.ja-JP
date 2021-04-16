@@ -1,16 +1,16 @@
 ---
 description: この機能を使用すると、Reports & Analytics でユーザーに表示されるレポートメニューをカスタマイズできます。レポートを表示または非表示にでき、すべてのユーザーを対象として異なるフォルダーに移動できます。この機能は、企業で特定のレポートしか使用せず、左側のメニューが未使用または不必要なデータであふれるのを避けたい場合に特に役立ちます。
 title: メニューのカスタマイズ
-topic: 管理ツール
+feature: 管理ツール
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
+exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 92%
 
 ---
-
 
 # メニューのカスタマイズ
 
@@ -58,4 +58,3 @@ ht-degree: 92%
   </tr> 
  </tbody> 
 </table>
-
