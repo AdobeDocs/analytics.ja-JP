@@ -7,7 +7,7 @@ feature: Reports & Analyticsの基本事項
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 05c85e0eee25a04be154d8bcae9b133791667d75
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 98%
@@ -116,7 +116,7 @@ Datafeed-Manifest-Version: 1.0
 
 1 時間分のデータを収集した後、圧縮データファイルが 1 つ以上とマニフェストファイル 1 つが届きます。データファイルの名前は次のようになります。
 
-`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 展開すると、各データファイルにはその時間のすべてのデータを含む `hit_data.tsv` が 1 つと、必要な列のルックアップファイルが含まれています。
 
@@ -124,7 +124,7 @@ Datafeed-Manifest-Version: 1.0
 
 1 時間分のデータを収集した後、圧縮データファイル 1 つ以上とマニフェストファイル 1 つを受け取ります。データファイルの名前は次のようになります。
 
-`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 展開すると、各データファイルには約 2GB の非圧縮データを含む `hit_data.tsv` が 1 つと、必要な列のルックアップファイルが含まれています。
 
