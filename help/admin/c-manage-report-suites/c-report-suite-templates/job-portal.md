@@ -1,16 +1,16 @@
 ---
 description: ジョブポータルやキャリア検索 Web サイトの共通設定を定義します。
 title: ジョブポータル
-topic: Admin tools
+feature: 管理ツール
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
-
 
 # ジョブポータル
 
@@ -44,6 +44,5 @@ ht-degree: 100%
 | 買い物かごからの削除 | カウンター | `scRemove` |
 | 訪問数 | カウンター（下位関係なし） | 該当なし |
 | ページビュー数 | カウンター（下位関係なし） | 該当なし |
-| 日別訪問者数 | カウンター（下位関係なし） | 該当なし |
-| 個別訪問者数 | カウンター（下位関係なし） | 該当なし |
-
+| 日別ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
+| ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
