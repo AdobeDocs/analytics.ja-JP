@@ -1,16 +1,16 @@
 ---
 description: 内部 URL フィルターは、サイト内部のリファラーを識別します。トラフィックソースレポートにデータを入力したり、内部トラフィックにフィルターをかけるのに役立ちます。
 title: 内部 URL フィルター
-topic: Admin tools
+feature: 管理ツール
 uuid: 70868edb-208d-4dad-9401-70967468d40c
+exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
 translation-type: tm+mt
-source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # 内部 URL フィルター
 
