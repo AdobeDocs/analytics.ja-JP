@@ -2,16 +2,16 @@
 description: DFA data connectorに関するよくある質問です。
 keywords: DFA
 title: よくある質問
-topic: Data Connectors
+feature: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
+exl-id: fc695d81-0d45-4a9f-a02d-8a14aadc43c7
 translation-type: tm+mt
-source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 95%
 
 ---
-
 
 # よくある質問 {#frequently-asked-questions}
 
