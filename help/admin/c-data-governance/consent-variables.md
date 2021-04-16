@@ -1,15 +1,15 @@
 ---
 description: データプライバシーにおけるプライバシーレポート用変数。
 title: プライバシーレポート変数
-topic: Admin tools
+feature: 管理ツール
+exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
-
 
 # プライバシーレポート変数
 
