@@ -5,7 +5,7 @@ feature: ワークスペースの基本
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
+source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 54%
@@ -64,6 +64,9 @@ ht-degree: 54%
 以前のバージョンのプロジェクトを開くには：
 
 1. **[!UICONTROL プロジェクト]**&#x200B;に移動し、**[!UICONTROL 前のバージョンを開く]**
+
+   ![](assets/previous-versions.png)
+
 1. 利用可能な以前のバージョンのリストを確認します。
     タイムスタンプと  エディタは、エディタが  保存されたときに追加された  メモに加えて表示されます。メモのないバージョンは90日間保存されます。メモ付きのバージョンは1年間保存されます。
 1. 以前のバージョンを選択し、「**[!UICONTROL 読み込み]**」をクリックします。
