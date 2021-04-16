@@ -2,16 +2,16 @@
 description: マーケティングチャネルで訪問者のエンゲージメント期間を指定する方法について説明します。
 subtopic: Marketing channels
 title: マーケティングチャネルの有効期限
-topic: Reports and analytics
+feature: Reports & Analyticsの基本事項
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
+exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt
-source-git-commit: 46dae8ee28b202578f5ad0c2446b1fd63e5144cc
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 99%
 
 ---
-
 
 # マーケティングチャネルの有効期限
 
@@ -49,4 +49,3 @@ ht-degree: 100%
 
 3. 訪問者のエンゲージメント期間のフィールドを設定します。
 4. 「**[!UICONTROL 保存]**」をクリックします。
-
