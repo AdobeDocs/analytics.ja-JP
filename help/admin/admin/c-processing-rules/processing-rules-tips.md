@@ -2,16 +2,16 @@
 description: ここでは、処理ルールのテストに関するガイドラインと、回避する必要がある一般的な間違いについて説明します。
 subtopic: Processing rules
 title: 処理ルールのヒントとテクニック
-topic: Admin tools
+feature: 管理ツール
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '492'
 ht-degree: 100%
 
 ---
-
 
 # 処理ルールのヒントとテクニック
 
