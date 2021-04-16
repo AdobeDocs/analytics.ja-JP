@@ -2,16 +2,16 @@
 description: Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にできます。
 keywords: レポートスイートを削除
 title: レポートスイートを非表示
-topic: Admin tools
+feature: 管理ツール
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
+exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
-
 
 # レポートスイートを非表示
 
