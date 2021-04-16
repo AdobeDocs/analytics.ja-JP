@@ -1,16 +1,16 @@
 ---
 description: e コマース Web サイトの共通設定を定義します。
 title: コマース
-topic: Admin tools
+feature: 管理ツール
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
+exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
-
 
 # コマース
 
@@ -48,6 +48,5 @@ e コマース Web サイトの共通設定を定義します。
 | 買い物かごからの削除 | カウンター | `scRemove` |
 | 訪問数 | カウンター（下位関係なし） | 該当なし |
 | ページビュー数 | カウンター（下位関係なし） | 該当なし |
-| 日別訪問者数 | カウンター（下位関係なし） | 該当なし |
-| 個別訪問者数 | カウンター（下位関係なし） | 該当なし |
-
+| 日別ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
+| ユニーク訪問者 | カウンター（下位関係なし） | 該当なし |
