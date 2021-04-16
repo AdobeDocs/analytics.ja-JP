@@ -2,16 +2,16 @@
 description: 汎用（トランザクション ID）カテゴリを選択して、訪問者 ID を統合することができます。
 subtopic: Data sources
 title: 訪問者 ID
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
+exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # 訪問者 ID
 
