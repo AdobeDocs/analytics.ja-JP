@@ -1,16 +1,16 @@
 ---
 description: Web Services API を使用すると、Analytics インターフェイスを通じて使用可能な機能を複製および補強するマーケティングレポートおよびその他のスイートサービスにプログラムレベルでアクセスできます。
 title: Web サービス
-topic: Admin tools
+feature: 管理ツール
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
+exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 100%
 
 ---
-
 
 # Web サービス
 
