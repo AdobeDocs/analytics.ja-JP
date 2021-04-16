@@ -2,12 +2,12 @@
 description: （オプション）分類をマーケティングレポートにインポートする前に、分類データファイルの作成に役立つテンプレートをダウンロードできます。データファイルでは、必要な分類を列見出しとして使用し、レポートデータセットを適切な分類見出しの下に整理します。
 subtopic: Classifications
 title: 分類テンプレート
-topic: Admin tools
+feature: 管理ツール
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
