@@ -1,16 +1,16 @@
 ---
 description: レポートスイートでは、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。通常、レポートスイートは 1 つの Web サイトですが、複数サイトの数値を組み合わせて合計を示すグローバルセグメントとなる場合もあります。Adobe Analytics ソリューションにログインしたら、使用するレポートスイートを 1 つ選択します（レポートスイートを組み合わせたロールアップを使用する場合を除く）。また、サイトの一部に対してレポートを実行する場合は、レポートスイートが Web サイトより小さくなることがあります。Analytics ソリューションが集約され、これらのデータストアについてレポートします。管理ツールの Report Suite Manager では、レポートスイートでのデータの処理方法を制御するルールを定義できます。
 title: レポートスイートマネージャー
-topic: Admin tools
+feature: 管理ツール
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
+exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
-
 
 # レポートスイートマネージャー
 
@@ -84,4 +84,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
