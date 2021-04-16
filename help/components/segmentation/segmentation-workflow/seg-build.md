@@ -1,16 +1,16 @@
 ---
 description: セグメントビルダーのキャンバスに指標ディメンション、セグメントおよびイベントをドラッグ＆ドロップすることで、コンテナ階層の論理、ルールおよび演算子に基づいて訪問者をセグメント化します。この統合開発ツールを使用すると、訪問やページヒットを対象として訪問者の属性やアクションを識別する、簡単な、または複雑なセグメントを作成し、保存できます。
 title: セグメントの構築
-topic: セグメント
+feature: セグメント
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 100%
 
 ---
-
 
 # セグメントビルダー
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 1. ドロップダウンメニューから[演算子](/help/components/segmentation/seg-reference/seg-operators.md)を設定します。
 1. 選択した項目に対して値を入力または選択します。
 1. **[!UICONTROL AND]**、**[!UICONTROL OR]** または **[!UICONTROL THEN]** ルールを使用して、必要に応じて他のコンテナを追加します。
-1. コンテナを配置してルールを設定したら、右上の検証グラフにセグメントの結果を表示します。バリデーターは、作成されたセグメントと一致するページビュー、訪問回数および個別訪問者数の割合と絶対値を示します。
+1. コンテナを配置してルールを設定したら、右上の検証グラフにセグメントの結果を表示します。バリデーターは、作成されたセグメントと一致するページビュー、訪問回数およびユニーク訪問者数の割合と絶対値を示します。
 1. 「**[!UICONTROL タグ]**」で、既存のタグを選択するか、新しいタグを作成して、コンテナに[タグ](/help/components/segmentation/segmentation-workflow/seg-tag.md)を付けます。
 1. 「**[!UICONTROL 保存]**」をクリックしてセグメントを保存します。
 
@@ -244,4 +244,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
