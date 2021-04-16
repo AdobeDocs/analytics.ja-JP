@@ -1,16 +1,16 @@
 ---
 description: データソースのトランザクションIDを使用して、オンラインデータとオフラインデータを相互にリンクします。
 title: トランザクション ID と訪問者プロファイル
-topic: 開発者と実装
+topic-fix: Developer and implementation
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
+exl-id: ca5f9e8d-853f-4444-a8fd-a20933ef33d7
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '657'
 ht-degree: 98%
 
 ---
-
 
 # トランザクション ID と訪問者プロファイル
 
