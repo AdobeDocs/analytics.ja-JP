@@ -2,16 +2,16 @@
 description: この統合により、Qualtrics Research Suite の顧客調査機能と Adobe Analytics 内で収集する豊富なデータを組み合わせ、組織にとって強力な分析と最適化の機会が生まれます。
 subtopic: Qualtrics
 title: Adobe Analytics 用 Qualtrics Data Connector
-topic: Data connectors
+feature: Data Connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
+exl-id: 5c1234b1-bca8-4e7a-981e-1379e88821b8
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '305'
 ht-degree: 96%
 
 ---
-
 
 # Adobe Analytics 用 Qualtrics Data Connector {#qualtrics-data-connector-for-adobe-analytics}
 
