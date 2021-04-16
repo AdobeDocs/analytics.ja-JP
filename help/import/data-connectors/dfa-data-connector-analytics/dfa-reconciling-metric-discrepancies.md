@@ -2,16 +2,16 @@
 description: 場合によっては、一部の指標は、Adobe Analytics 指標を DFA 指標と比較する際に、許容される差異の範囲を超える場合があります。指標の定義と不一致の考えられる理由を以下に示します。
 keywords: DFA
 title: 指標の不一致の調整
-topic: Data connectors
+feature: Data Connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
+exl-id: bfe0f9cb-1bbc-40f9-b996-0002d5143889
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1270'
 ht-degree: 100%
 
 ---
-
 
 # 指標の不一致の調整 {#reconciling-metric-discrepancies}
 
