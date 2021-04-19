@@ -2,16 +2,16 @@
 description: 対象者にとって最も有用になるようにグラフをカスタマイズする手順を説明します。
 title: レポートのグラフの変更
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Reports & Analyticsの基本事項
-role: 営業者、管理者
+feature: Reports & Analyticsの基礎知識
+role: Business Practitioner, Administrator
+exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
-
 
 # レポートのグラフの変更
 
@@ -68,4 +68,3 @@ ht-degree: 98%
    **[!UICONTROL バブルチャート]**：バブルチャートでは、選択指標の相対的なデータがバブルで表示されます。バブルの位置により横軸と縦軸のそれぞれの指標間の関係が、バブルのサイズによりメインレポート指標が表されます。バブルグラフではデータを 2 次元表示できるので、異常値を識別できます。
 
    ![](assets/graph_bubble.png)
-
