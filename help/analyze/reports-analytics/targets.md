@@ -2,16 +2,16 @@
 description: ターゲットでは、Web サイトのパフォーマンスを測定し、目標に対する達成度をトラッキングできます。例えば、ある地理的な地域からの訪問者数、注文ごとの売上高、または特定のリファラーからのヒット数などを向上することを目標にしているとします。
 title: ターゲット
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Reports & Analyticsの基本事項
-role: 営業者、管理者
+feature: Reports & Analyticsの基礎知識
+role: Business Practitioner, Administrator
+exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 99%
 
 ---
-
 
 # ターゲット
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 ターゲットを作成する場合は、測定する属性指標や eVar を選択するか、選択した指標を使ってサイト全体を測定します。
 
-例えば、Web サイトへの個別訪問者数を測定し、ターゲットとして使用するとします。この場合、Web サイト全体を選択する必要があります。一方、シカゴから Web サイトに来訪した個別訪問者数をターゲットにする場合は、Web サイト全体ではなく、該当する eVar のみを指定します。
+例えば、Web サイトへのユニーク訪問者数を測定し、ターゲットとして使用するとします。この場合、Web サイト全体を選択する必要があります。一方、シカゴから Web サイトに来訪したユニーク訪問者数をターゲットにする場合は、Web サイト全体ではなく、該当する eVar のみを指定します。
 
 ## ターゲットフィールドの説明  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
