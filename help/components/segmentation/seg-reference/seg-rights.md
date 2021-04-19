@@ -1,11 +1,11 @@
 ---
 description: セグメント機能は、管理者レベルユーザーと非管理者ユーザーの間で大きく異なっています。
 title: セグメントに対する役割別の権限
-feature: セグメント
+feature: セグメント化
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
