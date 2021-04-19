@@ -2,16 +2,16 @@
 description: コンバージョン率は、通常は、開始イベント、終了イベント、およびマイルストーンイベントまたはコンバージョンプロセス内のポイントの間で発生したコンバージョンを測定します。ユーザーが成功イベントをサイト上にコーディングした後、レポートでこれらの異なる成功イベント間の比率が測定され、コンバージョンファネルレポートに表示されます。
 title: コンバージョンファネル
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-feature: Reports & Analyticsの基本事項
-role: 営業者、管理者
+feature: Reports & Analyticsの基礎知識
+role: Business Practitioner, Administrator
+exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 98%
 
 ---
-
 
 # コンバージョンファネル
 
@@ -36,4 +36,3 @@ ht-degree: 98%
 >[!NOTE]
 >
 >このレポートに関連して使用される場合、インスタンスは eVar またはイベントが定義された訪問の合計回数を表します。
-
