@@ -1,11 +1,11 @@
 ---
 description: セグメントを計画する際に従う手順とベストプラクティスの概要を説明します。
 title: セグメントの計画
-feature: セグメント
+feature: セグメント化
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
