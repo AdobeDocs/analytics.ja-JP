@@ -1,11 +1,11 @@
 ---
 description: セグメントマネージャでは、アプリケーションの各種レベル向け、特定の部門またはグループ向け、およびレポーティングポリシーに合致したセグメントを承認するワークフローを設定できます。
 title: セグメントの承認
-feature: セグメント
+feature: セグメント化
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
