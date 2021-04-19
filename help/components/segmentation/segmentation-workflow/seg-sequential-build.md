@@ -1,11 +1,11 @@
 ---
 description: 順次セグメントは、AND や OR ではなく、THEN 演算子を使用して作成されます。THEN は、1 つのセグメント条件が発生すると、もう 1 つのセグメント条件が続くことを示します。デフォルトでは、順次セグメントは、フィルター「全員を含む」を表示し、合致するすべてのデータを識別します。順次セグメントは、「シーケンスの前のみ」および「シーケンスの後のみ」オプションを使用して、さらに合致するヒットのサブセットにフィルタリングできます。
 title: 順次セグメントの構築
-feature: セグメント
+feature: セグメント化
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '3858'
 ht-degree: 100%
