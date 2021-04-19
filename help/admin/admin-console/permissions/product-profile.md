@@ -1,11 +1,15 @@
 ---
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
-workflow-type: tm+mt
+title: Adobe Analytics の製品プロファイル
+description: 製品プロファイルを、製品管理者が組織内のユーザーに割り当てることができる権限プリセットとして使用する方法について説明します。
+exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 translation-type: tm+mt
-source-wordcount: '646'
-ht-degree: 100%
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 97%
 
 ---
+
 # Adobe Analytics の製品プロファイル
 
 製品プロファイルは、製品管理者が組織内のユーザーに割り当てることができる権限プリセットです。製品プロファイルを作成し、その製品プロファイルに Experience Cloud ユーザーを割り当てると、ユーザーは製品プロファイルに含まれる権限項目を継承します。
