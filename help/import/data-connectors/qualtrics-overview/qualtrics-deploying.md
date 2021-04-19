@@ -32,11 +32,12 @@ ht-degree: 98%
    | Qualtrics 組織 ID | [Qualtrics 組織 ID の検索](../qualtrics-overview/qualtrics-org-id.md) |
    | Adobe SiteCatalyst トークン | [Qualtrics Adobe Analytics トークンの生成](../qualtrics-overview/qualtrics-token.md) |
 
-1. **ウィザードの手順 2 - 変数のマッピング**| Qualtrics 応答リスト | 使用可能なリスト変数をレポートスイートから選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
-|---|---|
-| Qualtrics 応答 ID | レポートスイート尾から使用可能な eVar または prop を選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
-| トラッキングサーバー | Adobe Analytics データの追跡に使用するトラッキングサーバー（ドメイン）設定。その場合は、 
-`trackingServerSecure` トラッキングサーバーを設定します。|| Qualtrics 調査の提出 | レポートスイートから利用可能なイベントを選択します（Report Suite Manager 内で新しいイベントの有効化が必要になる場合があります）。|
+1. **ウィザードの手順 2 - 変数のマッピング**
+   | Qualtrics 応答リスト | 使用可能なリスト変数をレポートスイートから選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
+   |---|---|
+   | Qualtrics 応答 ID | レポートスイート尾から使用可能な eVar または prop を選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
+   | トラッキングサーバー | Adobe Analytics データの追跡に使用するトラッキングサーバー（ドメイン）設定。その場合は、 `trackingServerSecure` トラッキングサーバーを設定します。|
+   | Qualtrics 調査の提出 | レポートスイートから利用可能なイベントを選択します（Report Suite Manager 内で新しいイベントの有効化が必要になる場合があります）。|
 
 1. **ウィザード：手順 3**：何もする必要はありません。情報のみ。
 
