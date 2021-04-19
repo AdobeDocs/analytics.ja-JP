@@ -2,16 +2,16 @@
 description: マーケティングレポートで使用される Web 解析の一般的な用語について説明します。
 title: 一般用語
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: レポート、Reports & analytics
-role: 営業者、管理者
+feature: Reports & Analyticsの基礎知識，Reports & Analytics
+role: Business Practitioner, Administrator
+exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 99%
 
 ---
-
 
 # 一般用語
 
@@ -51,7 +51,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td> <p> ユニーク訪問者 </p> </td> 
-   <td> <p>個別訪問者レポートは、指定された時間内にサイトを訪問した個別の訪問者数を示します。以下の 6 種類の個別訪問者数のレポートがあります。 </p> 
+   <td> <p>「ユニーク訪問者」レポートは、指定された時間内にサイトを訪問した個別の訪問者数を示します。以下の 6 種類の「ユニーク訪問者」レポートがあります。 </p> 
     <ul id="ul_863B8DE8B9E74DE4A93C2C2931EEFB6D"> 
      <li id="li_21C835B71EF64B4DA821B674416C8B85">1 時間ごと </li> 
      <li id="li_36A498AE7D7A455C8DEB3AA0F025B597">毎日 </li> 
@@ -59,7 +59,7 @@ ht-degree: 99%
      <li id="li_09263F6B1E114A8DB477793B560A0417">毎月 </li> 
      <li id="li_A0B2CA3D44564045B02B55AF6E392F76">毎四半期 </li> 
      <li id="li_296BC5B02921460690F35128B1192800">毎年 </li> 
-    </ul> <p>指定期間内に 1 人の訪問者が複数回サイトに来訪して複数ページを閲覧することもできますが、個別訪問者数レポートにはその訪問者が 1 人の個別訪問者として記録されます。 </p> <p> <b>訪問者の重複排除</b>：カレンダーの選択に関係なく、レポートの種類に基づいて、訪問者の重複を排除します。例えば、レポートを作成する週に 4 日訪問した訪問者は、選択した週の<span class="wintitle">週別ユニーク訪問者レポート</span>では 1 回とカウントされます。その週の<span class="wintitle">日別「ユニーク訪問者」レポート</span>では、同じ訪問者が 4 回カウントされます。 </p> </td> 
+    </ul> <p>指定期間内に 1 人の訪問者が複数回サイトに来訪して複数ページを閲覧することもできますが、「ユニーク訪問者」レポートにはその訪問者が 1 人のユニーク訪問者として記録されます。 </p> <p> <b>訪問者の重複排除</b>：カレンダーの選択に関係なく、レポートの種類に基づいて、訪問者の重複を排除します。例えば、レポートを作成する週に 4 日訪問した訪問者は、選択した週の<span class="wintitle">週別ユニーク訪問者レポート</span>では 1 回とカウントされます。その週の<span class="wintitle">日別「ユニーク訪問者」レポート</span>では、同じ訪問者が 4 回カウントされます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>コンバージョン（成功）イベント </p> </td> 
@@ -71,4 +71,3 @@ ht-degree: 99%
   </tr> 
  </tbody> 
 </table>
-
