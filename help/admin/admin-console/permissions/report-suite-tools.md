@@ -1,11 +1,15 @@
 ---
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
-workflow-type: tm+mt
+title: レポートスイートツールの製品プロファイル権限
+description: レポートスイートツールの各権限項目について理解します。
+exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 translation-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 98%
 
 ---
+
 # レポートスイートツールの製品プロファイル権限
 
 このページを使用して、レポートスイートツールの各権限項目について理解します。
@@ -30,7 +34,7 @@ ht-degree: 100%
 | コスト | Report Suite Manager のマーケティングチャネル／マーケティングチャネルのコストへのアクセスを許可します。 |
 | コンバージョン変数 | Report Suite Manager のコンバージョン／コンバージョン変数へのアクセスを許可します。 |
 | 検索方法 | Report Suite Manager のコンバージョン／検索方法へのアクセスを許可します。 |
-| 個別訪問者 | コンバージョン／個別訪問者変数へのアクセスを許可します。現代の実装では一般的に使用されません。 |
+| ユニーク訪問者 | コンバージョン／ユニーク訪問者変数へのアクセスを許可します。現代の実装では一般的に使用されません。 |
 | 成功イベント | Report Suite Manager のコンバージョン／成功イベントへのアクセスを許可します。 |
 | リスト変数 | Report Suite Manager のコンバージョン／リスト変数へのアクセスを許可します。 |
 | デフォルトの指標 | Report Suite Manager で個々のレポートスイートの設定／デフォルト指標へのアクセスを許可します。 |
