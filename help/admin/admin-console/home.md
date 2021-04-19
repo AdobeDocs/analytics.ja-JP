@@ -1,11 +1,15 @@
 ---
-source-git-commit: 0912f05e64eccc068f86aead145c5c06e38b0f37
-workflow-type: tm+mt
+title: Admin Console での Adobe Analytics
+description: Adobe Admin Consoleを使用してAnalyticsの製品とユーザーを管理する方法を説明します。
+exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 translation-type: tm+mt
-source-wordcount: '69'
-ht-degree: 100%
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 85%
 
 ---
+
 # Admin Console での Adobe Analytics
 
 [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を使用して、Analytics の製品とユーザーを管理します。 Adobe Admin Console は [adminconsole.adobe.com](https://adminconsole.adobe.com/) にあります。
