@@ -1,16 +1,16 @@
 ---
 description: Reports and Analytics を使用する前に、Reports and Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 title: Reports and Analytics の概要
-feature: Reports & Analyticsの基本事項
-role: 営業者、管理者
+feature: Reports & Analyticsの基礎知識
+role: Business Practitioner, Administrator
+exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 99%
 
 ---
-
 
 # Reports &amp; Analytics の基礎知識
 
@@ -19,7 +19,7 @@ Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基�
 レポートは、従来型の Web ベースのチャネルと、モバイルやビデオ、ソーシャルネットワークのような発展を続けるチャネルの両方に洞察を提供します。レポートの例には次のようなものがあります。
 
 * サイトの訪問者数
-* そのうちの個別訪問者数（1 回のみカウント）
+* そのうちのユニーク訪問者数（1 回のみカウント）
 * サイトへの来訪経路（リンクをたどって来訪したか、直接来訪したかなど）
 * サイトのコンテンツを検索するために使用したキーワード
 * 特定のページまたは全サイトでの滞在時間
