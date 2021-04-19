@@ -2,16 +2,16 @@
 description: 完全な下位関係は、すべてのコンバージョンレポートで有効であるため、eVar を別の eVar によって分類できます。レポート表の分類基準メニューは、標準 Analytics レポートメニューに一致し、選択の整合性を維持しています。
 title: 下位関係
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Reports & Analyticsの基本事項
-role: 営業者、管理者
+feature: Reports & Analyticsの基礎知識
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 98%
 
 ---
-
 
 # 下位関係
 
@@ -56,4 +56,3 @@ eVar1 レポートを Campaign によって下位関連付けすると、次の�
 * そのレポート内で表示している成功イベントを含むイメージリクエストを切り離します。
 * 下位関係で使用されている各コンバージョン変数から、永続化された値を返します。
 * 返された値を、下位関係の順序に基づいて整理します。変数に永続化された値がない場合（eVar が定義されていない、有効期限が切れている場合など）、変数は「なし」にグループ化されます。
-
