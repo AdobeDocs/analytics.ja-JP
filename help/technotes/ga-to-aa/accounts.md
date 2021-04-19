@@ -1,11 +1,15 @@
 ---
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: tm+mt
+title: アカウントとレポートスイート
+description: Adobe Analyticsでのデータサイロの整理に、ログイン会社とレポートスイートを使用する方法を説明します。
+exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
 translation-type: tm+mt
-source-wordcount: '251'
-ht-degree: 86%
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 81%
 
 ---
+
 # アカウントとレポートスイート
 
 Adobe Analyticsには、データサイロを整理するための2つのレベルがあります。
