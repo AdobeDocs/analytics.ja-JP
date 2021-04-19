@@ -2,10 +2,10 @@
 description: Ad Hoc Analysis のセグメントビルダーの操作に慣れている場合は、この FAQ で、既存のセグメントとフォルダーへの影響、および実行する必要があるアクションを確認してください。
 keywords: セグメント化;セグメント
 title: Ad Hoc Analysis の移行ガイド
-feature: セグメント
+feature: セグメント化
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
