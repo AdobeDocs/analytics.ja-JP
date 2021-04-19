@@ -3,13 +3,13 @@ description: データフィードの各列について説明するテーブル�
 keywords: データフィード;列
 subtopic: data feeds
 title: データ列リファレンス
-feature: Reports & Analyticsの基本事項
+feature: Reports & Analyticsの基礎知識
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt
-source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3407'
 ht-degree: 99%
 
 ---
