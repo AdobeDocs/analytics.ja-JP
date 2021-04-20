@@ -1,15 +1,15 @@
 ---
 title: Analytics 用 PWA
 description: Adobe Analytics 用プログレッシブウェブアプリ
-role: 営業者、管理者
+role: Business Practitioner, Administrator
+exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 960274fde798287568ada9e6d8ec96783449dd99
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '291'
+ht-degree: 88%
 
 ---
-
 
 # Adobe Analytics の PWA
 
@@ -27,7 +27,7 @@ Adobe Analytics は、従来の Web サイトと同様、PWA とシームレス�
 
 ## オフライントラッキングの追加による PWA 有効性の向上
 
-Adobe Analytics の[オフライントラッキング機能](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/functions/forceoffline.html)を使用して、PWA の効果を高めることができます。デフォルトでは、この機能はオフになっていますが、AppMeasurement.js ファイルにプロパティ「`s.trackOffline=true;`」を追加してオンにすることができます。 
+Adobe Analytics の[オフライントラッキング機能](/help/implement/vars/config-vars/trackoffline.md)を使用して、PWA の効果を高めることができます。デフォルトでは、この機能はオフになっていますが、AppMeasurement.js ファイルにプロパティ「`s.trackOffline=true;`」を追加してオンにすることができます。 
 
 例えば、次の AppMeasurement.js ファイルでは、プロパティが `CONFIG SECTION` の最後に追加されています。
 
@@ -47,8 +47,8 @@ s.trackOffline=true
 *** 
 ```
 
-AppMeasurement.js ファイルの編集について詳しくは、「[AppMeasurement.js ファイルへのコードの挿入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html)」を参照してください。
+AppMeasurement.jsファイルの編集について詳しくは、[コアAppMeasurementコードの挿入](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md)を参照してください。
 
-AppMeasurement.js ファイルの構成例については、「[AppMeasurement.js ファイルの構成](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/overview.html#section_042412C29CC249E298F19B2BC2F43CE7)」を参照してください。
+AppMeasurement.jsファイルの設定について詳しくは、同じサブチャプターの[設定変数の概要](/help/implement/vars/config-vars/configuration-variables.md)および個々の変数固有のページを参照してください。
 
-AppMeasurement.js ファイルの特性について詳しくは、「[Javascript 実装の概要](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/migrate-from-hcode.html)」を参照してください。
+AppMeasurement.js ファイルの特性について詳しくは、「[Javascript 実装の概要](/help/implement/js/overview.md)」を参照してください。
