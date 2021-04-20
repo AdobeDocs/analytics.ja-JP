@@ -4,10 +4,10 @@ description: Adobe Analytics 用プログレッシブウェブアプリ
 role: Business Practitioner, Administrator
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 960274fde798287568ada9e6d8ec96783449dd99
+source-git-commit: 3f3a9b7f81ce671a94b7fe71c3ef7e4ae206b875
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 88%
+source-wordcount: '290'
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 PWA は、Web サイトにネイティブアプリケーションエクスペリエンスやオフライン機能を提供できます。通常、PWA には、service worker、キャッシングプロビジョニング、およびマニフェストファイルが含まれます。これらはすべて、読み込み時間の短縮、ナビゲーションの簡素化、レスポンシブな動作に役立ちます。
 
-Adobe Analytics は、従来の Web サイトと同様、PWA とシームレスに連携します。PWA には、それ自体で漸進的に動作するための追加要件がいくつかありますが、Analytics がデータを収集してレポートする方法に対して科す障壁や制限は、従来の Web サイトと同じものです。実際、Analytics には既にオフライントラッキング機能が含まれているため、PWA を使用すると、この組み込み機能を従来の Web サイトよりも簡単に活用できます。
+Adobe Analyticsは、従来のウェブサイトと同様に、PWAとシームレスに連携します。 PWA には、それ自体で漸進的に動作するための追加要件がいくつかありますが、Analytics がデータを収集してレポートする方法に対して科す障壁や制限は、従来の Web サイトと同じものです。実際、Analytics には既にオフライントラッキング機能が含まれているため、PWA を使用すると、この組み込み機能を従来の Web サイトよりも簡単に活用できます。
 
 ## PWA Analytics データの取得
 
@@ -51,4 +51,4 @@ AppMeasurement.jsファイルの編集について詳しくは、[コアAppMeasu
 
 AppMeasurement.jsファイルの設定について詳しくは、同じサブチャプターの[設定変数の概要](/help/implement/vars/config-vars/configuration-variables.md)および個々の変数固有のページを参照してください。
 
-AppMeasurement.js ファイルの特性について詳しくは、「[Javascript 実装の概要](/help/implement/js/overview.md)」を参照してください。
+AppMeasurement.jsファイルの特性について詳しくは、[JavaScript実装の概要](/help/implement/js/overview.md)を参照してください。
