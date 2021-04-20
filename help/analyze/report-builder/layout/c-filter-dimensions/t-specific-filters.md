@@ -3,7 +3,7 @@ description: 値を直接指定するフィルターです。
 title: 特定のフィルター
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

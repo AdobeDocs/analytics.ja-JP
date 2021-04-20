@@ -2,7 +2,7 @@
 description: 処理ルールは、コンテキストデータ変数の値を prop および eVar に移動するために使用されます。
 subtopic: Processing rules
 title: コンテキストデータ変数の eVar へのコピー
-feature: 管理ツール
+feature: Admin Tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 exl-id: f52c2c6c-da3d-43d6-be13-92d0820c93b4
 translation-type: tm+mt

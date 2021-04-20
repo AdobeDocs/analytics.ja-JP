@@ -3,7 +3,7 @@ description: 事前設定日では、よく使用する日付や保存してお�
 title: リクエストウィザードの定義 - 事前設定日
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: インポーターを使用すると、分類データを Analytics レポートに一括してファイルでアップロードできます。データのアップロードを正常におこなうために、インポートでは指定のファイル形式を使用する必要があります。
 subtopic: Classifications
 title: 分類データファイル
-feature: 管理ツール
+feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

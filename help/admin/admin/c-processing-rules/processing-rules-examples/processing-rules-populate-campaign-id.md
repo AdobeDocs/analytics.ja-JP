@@ -2,7 +2,7 @@
 description: クエリー文字列パラメーターを使用して、変数を入力することができます。
 subtopic: Processing rules
 title: クエリー文字列パラメーターからのキャンペーン ID の入力
-feature: 管理ツール
+feature: Admin Tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: 現在、Adobe Report Builder には、Analytics 管理ツールの
 title: ディメンションおよび指標のユーザーアクセス権限
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

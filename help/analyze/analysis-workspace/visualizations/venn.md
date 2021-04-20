@@ -2,8 +2,8 @@
 description: ベン図のビジュアライゼーションを使用すると、（コンポーネントから）最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できます。
 title: ベン
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-feature: ビジュアライゼーション
-role: 営業者、管理者
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

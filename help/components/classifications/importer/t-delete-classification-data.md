@@ -2,7 +2,7 @@
 description: 分類データを削除する方法について手順を説明します。
 subtopic: Classifications
 title: 分類データの削除
-feature: 管理ツール
+feature: Admin Tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
 translation-type: tm+mt

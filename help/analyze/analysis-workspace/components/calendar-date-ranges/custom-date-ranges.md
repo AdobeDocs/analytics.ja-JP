@@ -3,8 +3,8 @@ description: Analysis Workspace でカスタム日付範囲を作成し、時間
 keywords: Analysis Workspace
 title: Analysis Workspace でカスタム日付範囲を作成
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: ワークスペースの基本
-role: ビジネス従事者, 管理者
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

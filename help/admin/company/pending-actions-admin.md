@@ -1,7 +1,7 @@
 ---
 description: 保留中のアクションの管理ページでは、Analytics 環境の保留中のアクションのリストを表示できます。保留中のアクションとは、導入前にアドビからの承認を必要とするシステム変更のことです。
 title: 保留中のアクション
-feature: 管理ツール
+feature: Admin Tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 exl-id: c1526937-99c8-4647-b7e0-da0ebb0c1116
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 title: レポート
 description: 各レポートで Reports & Analytics が使用するディメンションと指標。
-feature: レポート & Analyticsの基本と解析
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 translation-type: tm+mt

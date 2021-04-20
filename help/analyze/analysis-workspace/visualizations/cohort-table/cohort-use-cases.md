@@ -3,8 +3,8 @@ description: コホート分析の使用例です。
 keywords: Analysis Workspace
 title: コホート分析の使用例
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-feature: ビジュアライゼーション
-role: 営業者、管理者
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

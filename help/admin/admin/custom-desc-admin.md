@@ -1,7 +1,7 @@
 ---
 description: eVar、prop、分類およびイベントに対して、カスタムレポートの説明を入力できます。説明は、すべてのエンドユーザーに表示されます。
 title: カスタムレポートの説明
-feature: 管理ツール
+feature: Admin Tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 translation-type: tm+mt

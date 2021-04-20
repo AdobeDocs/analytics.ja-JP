@@ -3,7 +3,7 @@ description: 編集やフィルターでリクエストを変更した後や、�
 title: リクエストの更新
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

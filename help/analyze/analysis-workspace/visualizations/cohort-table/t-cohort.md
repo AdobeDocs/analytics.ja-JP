@@ -3,8 +3,8 @@ description: Analysis Workspace でコホートを作成し、コホート分析
 keywords: Analysis Workspace
 title: コホート分析レポートの実行
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: ビジュアライゼーション
-role: 営業者、管理者
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

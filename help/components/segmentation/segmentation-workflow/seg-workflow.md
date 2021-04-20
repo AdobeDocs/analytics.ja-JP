@@ -1,7 +1,7 @@
 ---
 description: セグメントビルダーによって作成され、セグメントマネージャによって管理されるセグメント用の推奨ワークフローについて説明します。
 title: セグメントワークフローの概要
-feature: セグメント化
+feature: Segmentation
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 translation-type: tm+mt

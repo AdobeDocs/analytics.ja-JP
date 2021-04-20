@@ -1,7 +1,7 @@
 ---
 description: ビデオのトラッキングとレポートに使用されるカスタムコンバージョン変数（eVar）とカスタムイベントのセットを指定できます。
 title: ビデオ管理
-feature: 管理ツール
+feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
 translation-type: tm+mt

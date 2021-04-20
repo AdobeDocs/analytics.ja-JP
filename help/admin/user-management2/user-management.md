@@ -2,7 +2,7 @@
 description: Admin Console で Analytics ユーザー、グループおよび製品を管理します。
 subtopic: Users and groups
 title: ユーザーと製品の管理
-feature: 管理ツール
+feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 translation-type: tm+mt

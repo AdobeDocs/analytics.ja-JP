@@ -1,7 +1,7 @@
 ---
 description: レポートスイートタイプの説明と、グローバルレポートスイートとロールアップレポートスイートの比較について説明します。
 title: レポートスイートのアプローチ
-feature: 管理ツール
+feature: Admin Tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 translation-type: tm+mt

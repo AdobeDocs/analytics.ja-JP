@@ -1,7 +1,7 @@
 ---
 description: 訪問者の識別子を含んでいる eVar を指定する方法について手順を説明します。
 title: ユニーク訪問者変数の指定
-feature: 管理ツール
+feature: Admin Tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 translation-type: tm+mt

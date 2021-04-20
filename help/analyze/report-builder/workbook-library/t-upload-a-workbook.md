@@ -3,7 +3,7 @@ description: 共有する Report Builder の Excel ワークブックをアッ�
 title: ワークブックのアップロード
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

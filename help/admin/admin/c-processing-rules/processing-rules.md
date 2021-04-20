@@ -2,7 +2,7 @@
 description: 処理ルールはデータ収集をシンプル化し、レポーティングに送信されるコンテンツを管理します。
 subtopic: Processing rules
 title: 処理ルールの概要
-feature: 管理ツール
+feature: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt

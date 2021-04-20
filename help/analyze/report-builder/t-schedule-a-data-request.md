@@ -3,7 +3,7 @@ description: 時刻やファイル形式を指定してレポートをスケジ�
 title: データリクエストのスケジュール設定
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

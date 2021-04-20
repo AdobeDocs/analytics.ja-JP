@@ -2,8 +2,8 @@
 description: 貢献度分析を使用して、データの統計的な異常値と相関する原因を特定します。
 title: 貢献度分析のトークンの概要
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AIツール
-role: 営業者、管理者
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

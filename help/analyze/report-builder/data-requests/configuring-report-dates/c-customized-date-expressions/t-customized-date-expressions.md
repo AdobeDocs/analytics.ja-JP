@@ -3,7 +3,7 @@ description: カスタム式を作成して、複雑な日付範囲を指定す�
 title: カスタマイズされた日付式 - 概要
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 管理におけるレポートスイートの一般的なアカウント設定のフィールドの説明。
 title: 一般的なアカウント設定
-feature: 管理ツール
+feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
 translation-type: tm+mt

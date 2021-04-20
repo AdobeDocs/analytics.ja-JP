@@ -1,7 +1,7 @@
 ---
 description: サービスおよび製品の情報を提供する Web サイトの共通設定を定義します。これらのサービスおよび製品は、通常、さらに多くのエンゲージメントを介して販売されるものです。
 title: リードジェネレーション
-feature: 管理ツール
+feature: Admin Tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt

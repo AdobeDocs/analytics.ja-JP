@@ -1,7 +1,7 @@
 ---
 description: リアルタイムレポートを設定するための管理者の手順です。
 title: リアルタイムレポートの設定
-feature: 管理ツール
+feature: Admin Tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 translation-type: tm+mt

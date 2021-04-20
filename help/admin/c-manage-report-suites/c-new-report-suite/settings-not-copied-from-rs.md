@@ -1,7 +1,7 @@
 ---
 description: 既存のレポートスイートから設定をコピーした場合、システムのメッセージで、新しいレポートスイートにコピーされない設定が特定されます。
 title: ソースレポートスイートからコピーされない設定
-feature: 管理ツール
+feature: Admin Tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 translation-type: tm+mt

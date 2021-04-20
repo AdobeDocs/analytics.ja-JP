@@ -2,7 +2,7 @@
 description: 値が一般的な誤ったつづりと一致する場合、レポート内で正しく表示されるように更新することができます。
 subtopic: Processing rules
 title: レポート内の値のクリーンアップ
-feature: 管理ツール
+feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
 translation-type: tm+mt

@@ -2,8 +2,8 @@
 description: 概要番号および変更ビジュアライゼーションを使用して、プロジェクト内の重要なデータポイントを表示します。
 title: 数の概要と変更の概要
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: ビジュアライゼーション
-role: 営業者、管理者
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

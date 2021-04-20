@@ -3,7 +3,7 @@ description: 異常値検出は、統計的なモデリングを使用して、�
 title: 異常値検出
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

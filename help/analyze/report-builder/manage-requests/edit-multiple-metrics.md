@@ -2,7 +2,7 @@
 description: 複数のリクエストの指標を編集する機能を使用すると、既存のリクエストの指標やグループ化されたリクエストの指標を容易に追加、削除または置換できます。
 title: 複数のリクエストの指標を編集
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

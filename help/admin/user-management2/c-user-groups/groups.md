@@ -2,7 +2,7 @@
 description: ユーザーグループの定義ページにあるエレメントの説明。
 subtopic: Users and groups
 title: ユーザーグループ設定
-feature: 管理ツール
+feature: Admin Tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt

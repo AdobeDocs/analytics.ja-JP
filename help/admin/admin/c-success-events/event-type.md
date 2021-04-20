@@ -1,7 +1,7 @@
 ---
 description: データが収集された後にイベントタイプを変更した場合の結果について説明します。
 title: イベントタイプの変更について
-feature: 管理ツール
+feature: Admin Tools
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
 exl-id: 6972431a-bb42-4b7f-b02b-ceef0ff56271
 translation-type: tm+mt

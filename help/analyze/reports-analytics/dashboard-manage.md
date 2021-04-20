@@ -3,7 +3,7 @@ description: ダッシュボードマネージャーを使用して、ダッシ�
 subtopic: Dashboards
 title: ダッシュボードマネージャー
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analyticsの基本事項
+feature: Reports & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: ユーザー管理ページでレポートのユーザーとグループを管理すると、ユーザーとグループを管理して、レポート、ツールおよびレポートスイートへのアクセスを制御できます。
 subtopic: Users and groups
 title: ユーザー管理の概要
-feature: 管理ツール
+feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt

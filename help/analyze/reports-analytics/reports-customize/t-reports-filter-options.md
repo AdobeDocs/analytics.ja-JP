@@ -2,7 +2,7 @@
 description: フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 title: レポートデータのフィルタリング
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 translation-type: tm+mt

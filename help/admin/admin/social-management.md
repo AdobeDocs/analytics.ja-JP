@@ -1,7 +1,7 @@
 ---
 description: Adobe Social が有効な場合、このオプションによって Social 変数を分類できます。
 title: ソーシャルの管理
-feature: 管理ツール
+feature: Admin Tools
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
 exl-id: eeb42b17-57a6-4743-b699-ce060c454555
 translation-type: tm+mt

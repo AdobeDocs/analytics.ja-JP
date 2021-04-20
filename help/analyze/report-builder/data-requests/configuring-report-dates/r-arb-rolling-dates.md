@@ -3,7 +3,7 @@ description: Report Builder における相対日付のフィールドの定義�
 title: リクエストウィザードの定義 - 相対日付
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

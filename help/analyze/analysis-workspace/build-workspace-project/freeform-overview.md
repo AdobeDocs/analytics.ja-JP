@@ -3,8 +3,8 @@ description: Workspace プロジェクトでの作業の基本について説明
 keywords: Analysis Workspace
 title: プロジェクトの概要
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-feature: ワークスペースの基本
-role: ビジネス従事者, 管理者
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

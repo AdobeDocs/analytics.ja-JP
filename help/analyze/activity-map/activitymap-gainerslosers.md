@@ -3,7 +3,7 @@ description: オーバーレイを使用すると、複数の方法でデータ�
 title: カスタマイズ可能なオーバーレイ
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

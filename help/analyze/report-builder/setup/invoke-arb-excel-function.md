@@ -3,7 +3,7 @@ description: Report Builder のユーザーインターフェイスにアクセ�
 title: Microsoft Excel の関数からの Report Builder 機能の呼び出し
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 情報を表示するには、レポートスイート名の横にある「i」（情報）アイコンをクリックします。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートの情報の表示
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

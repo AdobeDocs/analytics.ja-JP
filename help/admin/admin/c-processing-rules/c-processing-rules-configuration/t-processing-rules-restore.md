@@ -2,7 +2,7 @@
 description: 処理ルールは履歴から復元できます。
 subtopic: Processing rules
 title: 処理ルールの復元
-feature: 管理ツール
+feature: Admin Tools
 uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
 exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
 translation-type: tm+mt

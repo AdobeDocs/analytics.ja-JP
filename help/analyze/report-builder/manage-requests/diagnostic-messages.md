@@ -3,7 +3,7 @@ description: 診断メッセージによって、更新したリクエストの�
 title: 診断メッセージ
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

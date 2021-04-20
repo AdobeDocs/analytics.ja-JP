@@ -1,7 +1,7 @@
 ---
 description: レポートに大量の一意の値がある場合、発生頻度の高い値を確実にレポートに表示する機能があります。
 title: Adobe Analytics の低トラフィック値
-feature: 指標
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt

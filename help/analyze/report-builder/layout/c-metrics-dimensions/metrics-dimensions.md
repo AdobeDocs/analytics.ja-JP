@@ -3,7 +3,7 @@ description: リクエストウィザード：ステップ 2 で指標とディ�
 title: 指標およびディメンションの概要
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

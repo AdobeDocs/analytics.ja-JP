@@ -3,7 +3,7 @@ description: 日付が記入されたセルを選択して、日付範囲を指�
 title: セルからの日付の指定
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 title: Analysis Workspace でのユーザー環境設定の設定方法
 description: ユーザー向けに一般環境設定とプロジェクト環境設定を設定できます。
-feature: ワークスペースの基本
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 translation-type: tm+mt

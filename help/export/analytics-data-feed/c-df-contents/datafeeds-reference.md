@@ -3,7 +3,7 @@ description: データフィードの各列について説明するテーブル�
 keywords: データフィード;列
 subtopic: data feeds
 title: データ列リファレンス
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt

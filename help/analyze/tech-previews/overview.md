@@ -2,7 +2,7 @@
 title: ラボユーザーガイド
 description: Adobe Analytics のプロトタイププロジェクトのプレビュー
 feature: Labs
-role: 管理者
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: レポートスイート検索のメンバーを決定する基準のセットを定義する方法について手順を説明します。
 title: レポートスイートの検索の保存
-feature: 管理ツール
+feature: Admin Tools
 uuid: dd83eed6-1374-429c-9fc3-709055698a44
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
 translation-type: tm+mt

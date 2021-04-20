@@ -2,7 +2,7 @@
 description: 異なるレポートタイプの実行手順を説明します。
 title: 異なるレポートタイプの実行
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: データフィードで使用される特殊文字に関する情�
 keywords: データフィード；ジョブ；特殊文字；hit_data；複数値の変数；イベント_リスト;products_リスト;mvvars
 subtopic: data feeds
 title: データフィードの特殊文字
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt

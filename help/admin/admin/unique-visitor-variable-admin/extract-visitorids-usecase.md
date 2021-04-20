@@ -1,7 +1,7 @@
 ---
 description: Data Warehouse には、訪問者 ID のリストを抽出できる機能があります。これらの ID は、cookie ID ではなく、コンバージョン変数のいずれかで取得する ID です。この情報を得るための方法はいくつかありますが、次の例は Data Warehouse リクエストを生成するためのショートカットを示しています。
 title: 使用事例 - 訪問者 ID の抽出
-feature: 管理ツール
+feature: Admin Tools
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 新しいアカウントの設定、トラフィックスパイク、トラフィック増加について、アドビに事前に通知する必要があります。遅延やシステム全体への悪影響の可能性を最小限に抑えるため、ハードウェアを事前に割り当てる必要があるためです。
 title: トラフィック増加に対して必要なリードタイム
-feature: 管理ツール
+feature: Admin Tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 translation-type: tm+mt

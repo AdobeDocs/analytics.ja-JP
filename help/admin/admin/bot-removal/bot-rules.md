@@ -2,7 +2,7 @@
 description: ボットルールを使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。ボットトラフィックを削除することで、Web サイトでのユーザーアクティビティをより正確に測定できるようになります。
 subtopic: Bot rules
 title: ボットルールの概要
-feature: 管理ツール
+feature: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 translation-type: tm+mt

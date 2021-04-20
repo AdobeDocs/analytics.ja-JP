@@ -3,7 +3,7 @@ description: 一般的な項目（課金、ログなど）、会社の管理、�
 keywords: グループ;権限
 subtopic: Users and groups
 title: Analytics ツールの権限のカスタマイズ
-feature: 管理ツール
+feature: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
 translation-type: tm+mt

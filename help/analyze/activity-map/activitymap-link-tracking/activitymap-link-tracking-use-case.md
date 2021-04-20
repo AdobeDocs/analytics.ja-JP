@@ -3,7 +3,7 @@ description: s_objectID 変数を使用したリンク ID のカスタマイズ�
 title: 同じリンク ID および領域を参照する複数のリンクの区別
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

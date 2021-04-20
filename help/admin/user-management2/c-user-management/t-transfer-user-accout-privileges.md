@@ -2,7 +2,7 @@
 description: あるユーザーアカウントから別のユーザーのアカウントにユーザーアカウント項目（ダッシュボード、計算指標、カレンダーイベント、アラート、ブックマーク、セグメント、Analysis Workspace プロジェクトおよびスケジュールされたプロジェクト）を割り当てる方法について手順を説明します。
 subtopic: Users and groups
 title: ユーザーアカウント項目の転送
-feature: 管理ツール
+feature: Admin Tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
 translation-type: tm+mt

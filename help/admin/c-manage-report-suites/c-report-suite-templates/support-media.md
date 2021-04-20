@@ -1,7 +1,7 @@
 ---
 description: 製品サポートに関する記事とビデオを提供する Web サイト用の共通設定が用意されています。
 title: サポートメディア
-feature: 管理ツール
+feature: Admin Tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: アクティブな処理ルールは、管理ツールに表示されます。
 subtopic: Processing rules
 title: アクティブな処理ルールの表示
-feature: 管理ツール
+feature: Admin Tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 translation-type: tm+mt

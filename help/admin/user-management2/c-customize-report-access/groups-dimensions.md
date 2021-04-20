@@ -3,7 +3,7 @@ description: eVar、トラフィックレポート、ソリューションレポ
 keywords: グループ;権限
 subtopic: Users and groups
 title: ディメンションの権限のカスタマイズ
-feature: 管理ツール
+feature: Admin Tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: フィルターを適用してフォールアウトレポートを�
 title: リクエストウィザードを使用したフォールアウトレポートのフィルタリング
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

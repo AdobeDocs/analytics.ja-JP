@@ -2,7 +2,7 @@
 description: q などの一般的な変数を使用して検索用語を入力する場合、処理ルールを使用して内部検索用語 eVar にこのような変数の値を入力できます。
 subtopic: Processing rules
 title: クエリー文字列パラメーターを使用して内部検索用語を入力
-feature: 管理ツール
+feature: Admin Tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 exl-id: bc7cc712-0f2a-4260-a82c-ad0e48149e73
 translation-type: tm+mt

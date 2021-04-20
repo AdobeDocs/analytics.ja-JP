@@ -3,7 +3,7 @@ description: 日付の略語では、日付の直接指定ではなく、期間�
 title: 日付の略語
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,8 +3,8 @@ description: タッチポイントからセグメントを作成したり、セ�
 keywords: フォールアウトとセグメント作成;フォールアウト分析におけるセグメント;フォールアウトでのセグメント比較
 title: フォールアウト分析でのセグメントの適用
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: ビジュアライゼーション
-role: 営業者、管理者
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

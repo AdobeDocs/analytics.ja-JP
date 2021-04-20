@@ -3,7 +3,7 @@ description: Power BIとのReport Builderを使用する場合の一般的な問
 title: Power BI 統合のトラブルシューティング
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

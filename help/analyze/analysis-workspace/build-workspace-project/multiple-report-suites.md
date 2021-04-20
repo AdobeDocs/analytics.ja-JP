@@ -1,8 +1,8 @@
 ---
 title: 複数のレポートスイート
 description: 複数のレポートスイートを含む Workspace でプロジェクトを作成する方法と理由を説明する
-feature: ワークスペースの基本
-role: ビジネス従事者, 管理者
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: インタラクティブコントロールを使用すると、リ�
 title: インタラクティブコントロール
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

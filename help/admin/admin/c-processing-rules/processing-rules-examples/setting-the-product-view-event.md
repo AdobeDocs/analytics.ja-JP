@@ -2,7 +2,7 @@
 description: ページ価名や変数内の特定の値に基づいてイベントを設定できます。
 subtopic: Processing rules
 title: 製品の概要ページからの「製品表示」イベントの設定
-feature: 管理ツール
+feature: Admin Tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
 translation-type: tm+mt

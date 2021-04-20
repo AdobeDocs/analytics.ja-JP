@@ -1,7 +1,7 @@
 ---
 description: 自動保存、名前を付けて保存、テンプレートとして保存、以前のバージョンを開くなど、様々な保存オプションについて説明します。
 title: プロジェクトの保存
-feature: ワークスペースの基本
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt

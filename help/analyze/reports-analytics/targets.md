@@ -2,7 +2,7 @@
 description: ターゲットでは、Web サイトのパフォーマンスを測定し、目標に対する達成度をトラッキングできます。例えば、ある地理的な地域からの訪問者数、注文ごとの売上高、または特定のリファラーからのヒット数などを向上することを目標にしているとします。
 title: ターゲット
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt

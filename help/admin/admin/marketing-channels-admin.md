@@ -1,7 +1,7 @@
 ---
 description: マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネル処理ルールを作成してカスタマイズできます。
 title: マーケティングチャネル
-feature: 管理ツール
+feature: Admin Tools
 uuid: 05a74391-b694-4ed3-9793-5538d6373db2
 exl-id: d9721fb9-2aa4-4db0-8030-cc7907bd953c
 translation-type: tm+mt

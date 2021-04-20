@@ -2,7 +2,7 @@
 description: レポートの実行後は、レポートをカスタマイズしてニーズに応じたデータの表示、分析を行うことができます。レポートデータをフィルターしたり、データを図示する方法を変更したり、日付精度を変更したりできます。
 title: レポートのカスタマイズの概要
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 translation-type: tm+mt

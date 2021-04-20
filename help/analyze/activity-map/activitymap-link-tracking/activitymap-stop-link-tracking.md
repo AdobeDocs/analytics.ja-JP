@@ -3,7 +3,7 @@ description: Activity Map またはレガシー ClickMap でリンクトラッ�
 title: リンクトラッキングの停止
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 feature: Activity Map
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: ここでは、処理ルールのテストに関するガイドラインと、回避する必要がある一般的な間違いについて説明します。
 subtopic: Processing rules
 title: 処理ルールのヒントとテクニック
-feature: 管理ツール
+feature: Admin Tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 translation-type: tm+mt

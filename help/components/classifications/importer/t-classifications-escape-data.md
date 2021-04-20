@@ -2,7 +2,7 @@
 description: 分類ファイル内の分類データをエスケープする方法について手順を説明します。
 subtopic: Classifications
 title: 分類データのエスケープ
-feature: 管理ツール
+feature: Admin Tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 translation-type: tm+mt

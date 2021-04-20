@@ -1,7 +1,7 @@
 ---
 description: アプリ管理を有効にすると、モバイルアプリケーションからライフサイクルと他の指標をキャプチャするモバイルソリューション変数がアクティブ化されます。
 title: アプリ管理
-feature: 管理ツール
+feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

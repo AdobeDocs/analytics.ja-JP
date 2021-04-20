@@ -2,7 +2,7 @@
 description: 処理ルールを効果的に使用するために、データ収集中にそれらのルールが適用されるタイミングを理解する必要があります。
 subtopic: Processing rules
 title: 処理順序
-feature: 管理ツール
+feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt

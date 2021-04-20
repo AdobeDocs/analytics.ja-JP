@@ -2,7 +2,7 @@
 description: 指標はレポートの基礎で、データの相互関連を見て把握するのに役立ち、Web サイトに関する異なるデータセットを並べて比較することができます。指標は、ビュー数、クリックスルー数、リロード数、平均滞在時間、数量、注文件数、売上高など、訪問者の行動に関する量的な情報です。
 title: 指標
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt

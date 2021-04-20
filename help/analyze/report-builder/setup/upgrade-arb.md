@@ -3,7 +3,7 @@ description: Report Builder のアップグレードに関する手順と考慮�
 title: Report Builder のアップグレード
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

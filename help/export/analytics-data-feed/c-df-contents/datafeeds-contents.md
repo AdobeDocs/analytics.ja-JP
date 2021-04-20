@@ -3,7 +3,7 @@ description: このセクションでは、データフィード配信に含ま�
 keywords: データフィード；ジョブ；コンテンツ；マニフェスト；ファイル；参照；ヒットデータ；配信コンテンツ
 subtopic: data feeds
 title: データフィードの内容 - 概要
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt

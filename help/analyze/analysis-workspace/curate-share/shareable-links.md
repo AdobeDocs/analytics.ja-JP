@@ -2,8 +2,8 @@
 description: プロジェクトやビジュアライゼーションへの共有可能なリンクを作成する方法を学びます。
 keywords: Analysis Workspaceシェア
 title: 共有可能なリンクの作成
-feature: キュレーションと共有
-role: 営業者、管理者
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

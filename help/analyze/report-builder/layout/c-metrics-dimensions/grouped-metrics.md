@@ -3,7 +3,7 @@ description: これら 2 種類の指標を、別々のリクエストを作成�
 title: 同じリクエストでのトラフィック指標とコマース指標の混在
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

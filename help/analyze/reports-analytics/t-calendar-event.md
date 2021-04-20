@@ -2,8 +2,8 @@
 description: カレンダーイベントを追加し、共有イベントを管理する手順を説明します。
 title: カレンダーイベント
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
-feature: カレンダー
-role: 営業者、管理者
+feature: Calendar
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
-feature: ワークスペースの基本
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt

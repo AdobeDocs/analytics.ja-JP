@@ -2,7 +2,7 @@
 description: すべてのレポートの表示方法と、デフォルトのメニューオプションをシンプルメニューの場所に設定する情報を定義する設定です。
 title: レポートの表示設定とナビゲーション
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

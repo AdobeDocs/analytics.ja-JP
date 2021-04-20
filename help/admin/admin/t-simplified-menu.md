@@ -1,7 +1,7 @@
 ---
 description: Reports and Analytics にシンプル化されたレポートメニューを実装する手順を説明します。
 title: シンプル化されたレポートメニュー
-feature: 管理ツール
+feature: Admin Tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 exl-id: fa383f68-9858-4d85-972a-a375b24da61a
 translation-type: tm+mt

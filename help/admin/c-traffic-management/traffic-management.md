@@ -1,7 +1,7 @@
 ---
 description: トラフィック管理ページでは、予想されるトラフィック量の変化を指定できます。これらの設定により、適切なリソースを割り当て、トラフィックをタイムリーに追跡して処理することができます。
 title: トラフィックの管理
-feature: 管理ツール
+feature: Admin Tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 translation-type: tm+mt

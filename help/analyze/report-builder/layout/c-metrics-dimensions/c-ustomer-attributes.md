@@ -2,7 +2,7 @@
 description: 顧客属性は、VisAttr という名前の新たなタイプの要素に保存されます。これはディメンションまたは指標として選択できます。
 title: 顧客属性
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

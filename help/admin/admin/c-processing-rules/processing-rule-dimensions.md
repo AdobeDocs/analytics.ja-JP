@@ -2,7 +2,7 @@
 description: 処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
 subtopic: Processing rules
 title: 処理ルールで使用可能なディメンション
-feature: 管理ツール
+feature: Admin Tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt

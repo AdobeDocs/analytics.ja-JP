@@ -3,7 +3,7 @@ description: 標準モードで、Analytics データを Activity Map からコ�
 title: CSV ファイルへの書き出し
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 feature: Activity Map
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 新しいレポートスイートを作成するには、事前定義済みのテンプレートを選択するか、モデルとなる既存のレポートスイートを 1 つ選択して使用します。
 title: 新しいレポートスイート - 設定
-feature: 管理ツール
+feature: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt

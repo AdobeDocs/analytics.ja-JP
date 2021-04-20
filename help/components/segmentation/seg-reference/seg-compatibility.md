@@ -1,7 +1,7 @@
 ---
 description: セグメントビルダーで作成するすべてのセグメントが Data Warehouse と互換性があるとは限りません。サポートされる機能を次の表に示します。
 title: Data Warehouse セグメントの互換性
-feature: セグメント化
+feature: Segmentation
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 translation-type: tm+mt

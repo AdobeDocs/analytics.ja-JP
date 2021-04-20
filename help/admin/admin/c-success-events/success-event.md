@@ -2,7 +2,7 @@
 description: 成功イベントとは、追跡できるアクションです。成功イベントはお客様によって定義されます。例えば、訪問者があるアイテムを購入した場合、購入イベントは成功イベントとみなすことができますを参照してください。
 keywords: event
 title: 成功イベントの概要
-feature: 管理ツール
+feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 translation-type: tm+mt

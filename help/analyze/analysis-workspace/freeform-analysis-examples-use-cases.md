@@ -2,7 +2,7 @@
 description: Analysis Workspace のデータテーブル、セグメントおよび使用例のアイデアの使い方の例です。
 keywords: Analysis Workspace
 title: Analysis Workspace の使用例
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

@@ -2,7 +2,7 @@
 description: 処理ルールの変更は履歴で表示できます。
 subtopic: Processing rules
 title: 処理ルール履歴の表示
-feature: 管理ツール
+feature: Admin Tools
 uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
 translation-type: tm+mt

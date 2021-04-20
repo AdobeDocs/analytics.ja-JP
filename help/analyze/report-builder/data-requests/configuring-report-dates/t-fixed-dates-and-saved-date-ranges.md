@@ -3,7 +3,7 @@ description: 固定日付または日付範囲を指定する場合、Report Bui
 title: 固定日付および保存済み日付範囲
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
-role: 営業者、管理者
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

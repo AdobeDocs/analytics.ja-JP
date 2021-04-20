@@ -3,7 +3,7 @@ description: ブックマークを使用すると、よく使用するレポー�
 subtopic: Bookmarks
 title: ブックマークマネージャー
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Reports & Analyticsの基礎知識
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
 translation-type: tm+mt

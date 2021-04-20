@@ -2,8 +2,8 @@
 title: セグメント比較パネルの概要
 description: Analysis Workspace の Segment IQ の一部である、セグメント比較パネルの使用方法を説明します。
 keywords: Analysis Workspace;Segment IQ
-feature: パネル
-role: 営業者、管理者
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
