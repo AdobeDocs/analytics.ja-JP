@@ -1,13 +1,13 @@
 ---
 description: Reports and Analytics を使用する前に、Reports and Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 title: Reports and Analytics の概要
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analyticsの基本事項
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 99%
 
 ---
