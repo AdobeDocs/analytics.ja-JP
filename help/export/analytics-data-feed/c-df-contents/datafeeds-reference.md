@@ -3,13 +3,13 @@ description: データフィードの各列について説明するテーブル�
 keywords: データフィード;列
 subtopic: data feeds
 title: データ列リファレンス
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analyticsの基本事項
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3405'
 ht-degree: 99%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 99%
 | `mcvisid` | Experience Cloud 訪問者 ID。2 つの 64 ビット数値を連結して 19 桁にパディングした 128 ビット数値です。 | varchar(255) |
 | `mobile_id` | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。 | int |
 | `mobileaction` | モバイルアクション。Mobile Services で `trackAction` が呼び出されると、自動的に収集されます。アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
-| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。  `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。 `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Apteligent データコネクタで使用されます。Apteligent で使用されるアプリケーション ID。 | varchar(255) |
 | `mobileappperformancecrashid` | Apteligent データコネクタで使用されます。Apteligent で使用されるクラッシュ ID。 | varchar(255) |
 | `mobileappstoreobjectid` | Appfigures データコネクタで使用されます。App Store オブジェクト ID。 | varchar(255) |
