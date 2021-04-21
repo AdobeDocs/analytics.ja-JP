@@ -2,13 +2,13 @@
 description: フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 title: レポートデータのフィルタリング
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analyticsの基本事項
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '679'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 
-## シンプルフィルター  {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## シンプルフィルター {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
