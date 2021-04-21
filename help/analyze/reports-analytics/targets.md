@@ -2,13 +2,13 @@
 description: ターゲットでは、Web サイトのパフォーマンスを測定し、目標に対する達成度をトラッキングできます。例えば、ある地理的な地域からの訪問者数、注文ごとの売上高、または特定のリファラーからのヒット数などを向上することを目標にしているとします。
 title: ターゲット
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analyticsの基本事項
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 ターゲットでは、Web サイトのパフォーマンスを測定し、目標に対する達成度をトラッキングできます。例えば、ある地理的な地域からの訪問者数、注文ごとの売上高、または特定のリファラーからのヒット数などを向上することを目標にしているとします。
 
-## ターゲット  {#concept_6516E81923E845198B7FC5D8F81DC35C}
+## ターゲット {#concept_6516E81923E845198B7FC5D8F81DC35C}
 
 ターゲットでは、Web サイトのパフォーマンスを測定し、目標に対する達成度をトラッキングできます。例えば、ある地理的な地域からの訪問者数、注文ごとの売上高、または特定のリファラーからのヒット数などを向上することを目標にしているとします。
 
