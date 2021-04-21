@@ -2,14 +2,14 @@
 description: マーケティングチャネルで訪問者のエンゲージメント期間を指定する方法について説明します。
 subtopic: Marketing channels
 title: マーケティングチャネルの有効期限
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analyticsの基本事項
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 98%
+source-wordcount: '341'
+ht-degree: 99%
 
 ---
 
