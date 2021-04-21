@@ -3,14 +3,14 @@ description: Adobe Analytics 用にデータを収集する方法を説明しま
 subtopic: Get started
 title: データ収集について
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports & Analyticsの基本事項
 role: Business Practitioner, Administrator
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 97%
+source-wordcount: '176'
+ht-degree: 98%
 
 ---
 
