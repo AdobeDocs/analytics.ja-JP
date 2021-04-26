@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '637'
+translation-type: tm+mt
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
@@ -138,8 +138,8 @@ ht-degree: 100%
    + [訪問者別滞在時間](metrics/time-spent-per-visitor.md)
    + [滞在時間の概要](metrics/time-spent.md)
    + [合計滞在時間（秒）](metrics/total-seconds-spent.md)
-   + [個別デバイス数](metrics/unique-devices.md)
-   + [個別訪問者数](metrics/unique-visitors.md)
+   + [一意のデバイス](metrics/unique-devices.md)
+   + [ユニーク訪問者](metrics/unique-visitors.md)
    + [単位](metrics/units.md)
    + [Experience Cloud ID を持つ訪問者](metrics/visitors-with-ecid.md)
    + [訪問数](metrics/visits.md)
@@ -170,7 +170,6 @@ ht-degree: 100%
    + [ベストプラクティス](segmentation/best-practices.md)
 + 計算指標 {#calculated-metrics}
    + [計算指標および高度な計算（派生）指標](c-calcmetrics/cm-overview.md)
-   + [よくある質問](c-calcmetrics/cm-transition.md)
    + [ハウツービデオ](c-calcmetrics/cm-videos.md)
    + 計算指標のワークフロー {#calcmetric-workflow}
       + [計算指標のワークフロー](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
