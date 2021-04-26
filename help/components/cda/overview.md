@@ -3,10 +3,10 @@ title: クロスデバイス分析
 description: デバイスデータをまとめて、デバイス中心のデータから個人中心のデータに変更します。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 translation-type: tm+mt
-source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 86%
+source-wordcount: '751'
+ht-degree: 85%
 
 ---
 
@@ -51,3 +51,4 @@ CDA を使用するには、次のすべてが必要です。[フィールドベ
 * 1.4 API はサポートされません。Power BI コネクタと Report Builder はどちらも 1.4 API に依存しているので、CDA との互換性がありません。
 * 仮想レポートスイートの履歴データは、アドビによるデバイスの認識と組み合わせに基づいて変化します。ソースレポートスイート内のデータは変更されません。
 * Adobe別のCDAステッチプロセスのアクティブな監視は、実稼働用レポートスイートにのみ制限されます。
+* CDAは現在、Adobe Analytics[データ修復API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)と互換性がありません
