@@ -1,14 +1,14 @@
 ---
 title: Adobe Analyticsが使用するIPとドメイン
 description: 組織のファイアウォールで、アドビから派生する IP アドレスがブロックされている場合は、このリストを使用してファイアウォール設定を更新してください。
+exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 translation-type: tm+mt
-source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
+source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 86%
 
 ---
-
 
 # Adobe Analyticsが使用するIPとドメイン
 
@@ -33,7 +33,7 @@ Adobe Analytics では、次のホストを使用して、パフォーマンス�
 | Microsoft Azure Blob ストレージ | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## すべてのAdobe AnalyticsIPアドレスブロック
+## すべてのAdobe Analyticsデータ収集IPアドレスブロック
 
 次の表に、Adobe Analyticsのすべての標準データ収集サーバーと地域データ収集サーバーを示します。 個々の AWS ホストは含まれません。
 
