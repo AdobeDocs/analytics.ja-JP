@@ -2,7 +2,7 @@
 title: Adobe Analyticsマーケティングチャネルの実装のベストプラクティス
 description: マーケティングチャネルとAttribution IQおよびCustomer Journey Analyticsを使用するためのベストプラクティスの更新
 translation-type: tm+mt
-source-git-commit: 5422a051be1c55f394cf3f7fc5bb4f8822a7fb90
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# マーケティングチャネルでのAttribution IQの使用 — ベストプラクティス
+# マーケティングチャネルを使用したAttribution IQ — ベストプラクティス
 
 [マーケティング](/help/components/c-marketing-channels/c-getting-started-mchannel.md) チャネルはAdobe Analyticsの貴重で強力な機能です。マーケティングチャネルの導入に関する現在のガイダンスは、[Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)も[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ja#cja-usecases)も存在しない時に策定されました。
 
@@ -38,6 +38,6 @@ Workspaceのマーケティングチャネルディメンションで使用さ�
 
 訪問者のエンゲージメント期間を「1日」以上に設定すると、値が永続的になる可能性が最小限に抑えられます。 カスタムアトリビューションモデル(AIQ)では柔軟なルックバックウィンドウが可能なので、この設定の影響を最小限に抑えるために、最小値を設定することをお勧めします。
 
-## ベストプラクティス5:マーケティングチャネル処理ルールは、有効なチャネルに対してのみ存在します
+## ベストプラクティス5:マーケティングチャネル処理ルールは、有効なチャネルに対してのみ存在する必要があります
 
 無効なチャネルに対するマーケティングチャネルの処理ルールは削除してください。 ルールは、有効に設定されているマーケティングチャネルに対してのみ存在する必要があります。
