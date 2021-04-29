@@ -3,14 +3,18 @@ title: マーケティングチャネルの処理ルール
 description: マーケティングチャネルの処理ルールは、訪問者のヒットがチャネルに割り当てられた条件を満たすかどうかを判断するために使用します。このルールは、サイトでの訪問者によるすべてのヒットを処理します。チャネルの条件をルールが満たしていない場合やルールが正しく設定されていない場合、ヒットには「チャネルが識別されませんでした」が割り当てられます。
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 88%
+source-wordcount: '2169'
+ht-degree: 87%
 
 ---
 
 # マーケティングチャネルの処理ルール
+
+>[!NOTE]
+>
+>Attribution IQとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるため、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 
 マーケティングチャネルの処理ルールは、訪問者のヒットがチャネルに割り当てられた条件を満たすかどうかを決定するために、訪問者がサイトでおこなうすべてのヒットを処理します。ルールは指定された順序処理され、ルールの 1 つが満たされると残りのルールの処理を中止します。
 
