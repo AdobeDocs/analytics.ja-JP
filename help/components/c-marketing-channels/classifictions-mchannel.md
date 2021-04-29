@@ -1,16 +1,20 @@
 ---
 title: マーケティングチャネルでの分類
 description: 分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
+exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 93%
 
 ---
 
-
 # マーケティングチャネルでの分類
+
+>[!NOTE]
+>
+>Attribution IQとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるため、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 
 分類は値をグループにまとめてレポートするために使用します。例えば、すべての有料検索キャンペーンを「ビデオカード」などのカテゴリに分類できます。グルーピングされた項目に対して、「インスタンス」（クリックスルー）などの指標を追加できます。
 
