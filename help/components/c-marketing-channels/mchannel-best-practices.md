@@ -2,10 +2,10 @@
 title: Adobe Analyticsマーケティングチャネルの実装のベストプラクティス
 description: マーケティングチャネルとAttribution IQおよびCustomer Journey Analyticsを使用するためのベストプラクティスの更新
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: '633'
+ht-degree: 3%
 
 ---
 
@@ -24,19 +24,31 @@ ht-degree: 4%
 
 マーケティングチャネルの分析を微調整するには、既存のマーケティングチャネルの属性の代わりに[Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)を使用することをお勧めします。 他のベストプラクティスに従って、Attribution IQを使用した分析に対して一貫性と堅牢な制御を確保します。
 
+![](assets/attribution.png)
+
+* マーケティングチャネルとマーケティングチャネルの詳細のディメンションの設定によって、各マーケティングチャネルインスタンスに対応して、評価されるタッチポイントが設定されます。
+* 指標の分析の場合、組織は1つ以上のアトリビューションモデルに合わせる必要があります。再利用しやすいように、カスタム指標をこのモデルと共に保存します。
+* デフォルトでは、データはラストタッチと「訪問者のエンゲージメント期間」の設定を使用して割り当てられます。 Attribution IQ指標モデルオファーは、ルックバックウィンドウや、[アルゴリズムアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace)など、より多様なアトリビューションをより詳細に制御できます。
+
 ## ベストプラクティス2:直接およびセッション更新チャネルの定義がない
 
 直接アトリビューションモデル(Attribution IQ)および内部/セッションの更新チャネルは、カスタムアトリビューションモデル（データ）で使用する場合はお勧めしません。
 
 組織で、直接およびセッションの更新が既に設定されている場合はどうなりますか？ この場合、マーケティングチャネルの分類を作成し、これら2つのチャネルを未分類のままにすることをお勧めします。 分類されたディメンションは、これらのチャネルが設定されていない場合と同じAttribution IQ結果を得ます。
 
+![](assets/direct-session-refresh.png)
+
 ## ベストプラクティス#3:すべてのチャネルに対してラストタッチチャネルの上書きを有効にする
 
 Workspaceのマーケティングチャネルディメンションで使用されるカスタムアトリビューションモデルは、この設定が有効な場合に最も適しています。 この設定を有効にすると、新しいチャネル/詳細を検出した場合に、マーケティングチャネルインスタンスがカウントされます。 これは、直接または内部/セッションの更新を除くすべてのチャネルで有効にする必要があります。これは、カスタムアトリビューションモデル(Attribution IQ)では使用しないことをお勧めします。
 
+![](assets/override.png)
+
 ## ベストプラクティス#4:訪問者関与期間の最小化
 
 訪問者のエンゲージメント期間を「1日」以上に設定すると、値が永続的になる可能性が最小限に抑えられます。 カスタムアトリビューションモデル(AIQ)では柔軟なルックバックウィンドウが可能なので、この設定の影響を最小限に抑えるために、最小値を設定することをお勧めします。
+
+![](assets/expiration.png)
 
 ## ベストプラクティス5:マーケティングチャネル処理ルールは、有効なチャネルに対してのみ存在する必要があります
 
