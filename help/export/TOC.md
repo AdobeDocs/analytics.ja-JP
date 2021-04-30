@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して、1 時間ごとまたは毎日生データの書き出しを受け取ります。Data Warehouse を使用して、データのスプレッドシート出力を取得します。
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '278'
+translation-type: tm+mt
+source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+workflow-type: tm+mt
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
       + [到着が遅れたヒット](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [データフィードに関する FAQ](analytics-data-feed/df-faq.md)
    + [データフィードのベストプラクティス](analytics-data-feed/data-feeds-best-practices.md)
-   + [データフィードのトラブルシューティング](analytics-data-feed/feed-troubleshooting.md)
    + [ジョブのトラブルシューティング](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse の概要](data-warehouse/data-warehouse.md)
