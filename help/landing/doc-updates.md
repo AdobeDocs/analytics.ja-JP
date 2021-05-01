@@ -2,14 +2,14 @@
 title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントリポジトリの大幅なアップデート。
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
-workflow-type: ht
+exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
+translation-type: tm+mt
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics テクニカルドキュメントのアップデート
 
@@ -36,10 +36,10 @@ ht-degree: 100%
 | 2020 年 2 月 8 日 | [クロスデバイス分析のセットアップ](/help/components/cda/setup.md)と [FAQ](/help/components/cda/faq.md) のアップデート。 |
 | 2020 年 2 月 5 日 | [実装ユーザーガイド](/help/implement/home.md)を完全に書き直しました。 |
 | 2020 年 1 月 23 日 | フリーフォームテーブルページを更新し、新しい[フリーフォームテーブルビルダー](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)の情報を含めました。 |
-| 2020 年 1 月 14 日 | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies.md) を追加しました。 |
+| 2020 年 1 月 14 日 | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019 年 11 月 26 日 | [IP ログイン制限実施の提供終了](/help/admin/company/login-restrictions-eol.md)に関する新しいトピック。 |
-| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://docs.adobe.com/content/help/ja-JP/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
+| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
 | 2019 年 9 月 29 日 | [JavaScript 実装の設定変数](/help/implement/vars/config-vars/configuration-variables.md)に関する新しい記事を追加しました。 |
 | 2019 年 9 月 13 日 | [Journey IQ：クロスデバイス分析](/help/components/cda/overview.md)に関する新しい記事を追加しました。 |
 | 2019 年 8 月 29 日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/analyze/pwa/pwa.md)に関する新しい記事を追加しました。 |
