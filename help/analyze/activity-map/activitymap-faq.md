@@ -4,14 +4,14 @@ title: Activity Map の FAQ
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 25%
+source-wordcount: '655'
+ht-degree: 19%
 
 ---
-
 
 # Activity Map の FAQ
 
@@ -20,6 +20,15 @@ Activity Map での設定や機能の使用に関するよくある質問（FAQ�
 ## すべてのAnalyticsユーザーが管理ツールのActivity Map実施可能ページにアクセスできますか。
 
 Adobe Analytics Standard、プレミアムおよびアルティメートの契約を締結している組織は、Activity Mapを利用できます。
+
+## Activity Mapはシングルページアプリ(SPA)をどのようにサポートしていますか。
+
+数秒ごとに、Activity MapはWebページをスキャンし、ページに対する変更を探します。 ActivityMapは、新しいページを読み込む必要なく、ページ上で新しいコンテンツを検索しますが、この新しいコンテンツは常に、ページが読み込まれたときに見つかった最初のpageNameに関連付けられます。
+
+* Activity Mapは、その情報に関するリンクの表示/非表示が変更されたかどうかを確認します。 表示の変更が見つかった場合、そのリンクの「ページ上のリンク」テーブルの「現在」列が、[!UICONTROL 表示]または[!UICONTROL 非表示]に更新されます。
+
+* ユーザーの操作によって新しいコンテンツが作成されると、AppMeasurementでリンクとして見つかった新しい要素は、[!UICONTROL ページ]のリンクテーブルに追加されます。 Activity Mapは、これらの新しいリンクを含む新しいデータリクエストを送信します。 データリクエストがUIで処理されると、新しいリンクが[!UICONTROL ページ上のリンク]テーブルに表示されます。
+
 
 ## Activity Mapは「表示」に関するデータを提供しますか。
 
