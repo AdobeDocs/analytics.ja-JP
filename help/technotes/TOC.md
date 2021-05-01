@@ -5,10 +5,10 @@ user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の分析ツールやコンポーネントに属さない有益な記事を含むナレッジベース。
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '190'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,9 @@ ht-degree: 90%
    + [日付を前の範囲と比較する](event/compare-dates.md)
    + [イベントの影響を受けたデータの取得](event/calcmetrics.md)
    + [イベントについてユーザーに伝える](event/communicate.md)
-+ [ブラウザーの cookie](cookies.md)
++ [Cookie] {#cookies}
+   + [ブラウザーの cookie](cookies/cookies.md)
+   + [ブラウザーのCookie制限の影響を軽減するオプション](cookies/cookieless.md)
 + [リスニングデータの保持期間](data-retention.md)
 + [データの除外](exclude-data.md)
 + [Adobe Analyticsが使用するIPとドメイン](ip-addresses.md)
