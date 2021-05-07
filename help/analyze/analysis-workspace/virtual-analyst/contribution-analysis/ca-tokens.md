@@ -2,16 +2,16 @@
 description: 貢献度分析を使用して、データの統計的な異常値と相関する原因を特定します。
 title: 貢献度分析のトークンの概要
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI Tools
+feature: AIツール
 role: Business Practitioner, Administrator
+exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 99%
+source-wordcount: '1164'
+ht-degree: 91%
 
 ---
-
 
 # 貢献度分析のトークンの概要
 
@@ -47,41 +47,14 @@ ht-degree: 99%
 
 ## よくある質問 {#section_11D0431AD2014B96AB9561CA66A367CE}
 
-<table id="table_357775E5058644099E26B15A6790E8AF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 質問 </th> 
-   <th colname="col2" class="entry"> 回答 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>アドビがトークンを導入した理由</b> </p> </td> 
-   <td colname="col2"> <p>貢献度分析は、Adobe Analytics の最も重要な機能の 1 つになりました。一部の Analytics 製品のようにディメンション数を 3 つに制限するのではなく、ごく限られた回数でも 1 ヶ月に何度か「完全な」機能を実行できるようにすることで、制限のない完全な貢献度分析のメリットを実感していただけるものと考えています。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>貢献度分析のトークンはどのように機能しますか。プロジェクトに既存の貢献度分析を実装するときもトークンが必要ですか。それとも、新しい貢献度分析を実行するときにのみ、トークンが必要ですか。</b> </p> </td> 
-   <td colname="col2"> <p>各ログイン会社（各ユーザーではなく）は、1 ヶ月あたり定められた数のトークンを入手します。これらのトークンを使用して、Analysis Workspace 内で「完全な」貢献度分析を実行できます。 </p> <p>新しい貢献度分析を生成するたびにトークンが 1 つ必要です。事前実行された貢献度分析をプロジェクトに実装するときは、トークンは不要です。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Reports &amp; Analytics での貢献度分析にトークンは適用されますか。</b> </p> </td> 
-   <td colname="col2"> <p>いいえ。2018 年 4 月リリースより、Reports &amp; Analytics で貢献度分析が提供されなくなりました。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>トークンを切らしていますが、さらに貢献度分析を実行したい場合はどうしますか。</b> </p> </td> 
-   <td colname="col2"> <p>別の Adobe Analytics 製品にアップグレードします。例えば、Standard（2 トークン／月）から Ultimate（20 トークン／月）にアップグレードします。トークンを追加購入することはできません。既存のパッケージフレームワーク内でアップグレードする必要があります。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>貢献度分析へのアクセスを制限するには、どのようにしますか。</b> </p> </td> 
-   <td colname="col2"> <p>デフォルトでは、管理者のみが貢献度分析を実行するアクセス権を持っていますが、管理者は <a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html"  >Admin Console</a> で権限グループを作成することにより、他のユーザーにアクセス権を付与することができます。貢献度分析を使用する正当な理由があり、かつアクセス権を悪用しない信用できるユーザーに対してのみ、貢献度分析の使用権限を付与する必要があります。 </p> <p>この権限は、<span class="ignoretag"><span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span></span>では「貢献度分析」と呼ばれています。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>1 ヶ月あたり使用可能なトークン数は、どうすればわかりますか。また、当月に使用したトークン数は、どうすればわかりますか。</b> </p> </td> 
-   <td colname="col2"> <p><span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">会社設定</span>／<span class="uicontrol">機能アクセスレベルを表示</span></span>を選択します。以下のページに、新しい項目が 2 つあります。 </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| 質問 | 回答 |
+| --- | --- |
+| アドビがトークンを導入した理由 | 貢献度分析は、Adobe Analytics の最も重要な機能の 1 つになりました。一部の Analytics 製品のようにディメンション数を 3 つに制限するのではなく、ごく限られた回数でも 1 ヶ月に何度か「完全な」機能を実行できるようにすることで、制限のない完全な貢献度分析のメリットを実感していただけるものと考えています。 |
+| 貢献度分析のトークンはどのように機能しますか。プロジェクトに既存の貢献度分析を実装するときもトークンが必要ですか。それとも、新しい貢献度分析を実行するときにのみ、トークンが必要ですか。 | 各ログイン会社（各ユーザーではなく）は、1 ヶ月あたり定められた数のトークンを入手します。これらのトークンを使用して、Analysis Workspace 内で「完全な」貢献度分析を実行できます。新しい貢献度分析を生成するたびにトークンが 1 つ必要です。事前実行された貢献度分析をプロジェクトに実装するときは、トークンは不要です。 |
+| Reports &amp; Analytics での貢献度分析にトークンは適用されますか。 | いいえ。貢献度分析は、2018年4月以降、Reports &amp; Analyticsでは提供されなくなりました。 |
+| トークンを切らしていますが、さらに貢献度分析を実行したい場合はどうしますか。 | 別の Adobe Analytics 製品にアップグレードします。例えば、Standard（2 トークン／月）から Ultimate（20 トークン／月）にアップグレードします。トークンを追加購入することはできません。既存のパッケージフレームワーク内でアップグレードする必要があります。 |
+| 貢献度分析へのアクセスを制限するには、どのようにしますか。 | デフォルトでは、管理者のみが貢献度分析を実行する権限を持ちます。 ただし、管理者は[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)で権限グループを作成することで、他のユーザーにアクセス権を付与できます。 貢献度分析を使用する正当な理由があり、かつアクセス権を悪用しない信用できるユーザーに対してのみ、貢献度分析の使用権限を付与する必要があります。この権限は、[!UICONTROL レポートスイートツール]の下の[!UICONTROL 貢献度分析]と呼ばれます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
+| 1 ヶ月あたり使用可能なトークン数は、どうすればわかりますか。また、当月に使用したトークン数は、どうすればわかりますか。 | [!UICONTROL 管理者] > [!UICONTROL すべての管理者] >[!UICONTROL 会社設定ホーム] >[!UICONTROL 表示機能のアクセスレベル]に移動します。 下を見る<ul><li>貢献度分析 : 月使用トークンの数</li><li>貢献度分析 : 今月使用された使用トークンの数</li></ul> |
 
 ## 異常値検出と貢献度分析の権限 {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
@@ -89,7 +62,7 @@ Analysis Workspace における異常値検出と貢献度分析の詳細な権�
 
 >[!IMPORTANT]
 >
->異常値検出と貢献度分析は、Reports &amp; Analytics の画面から削除され、現在は、Analysis Workspace からのみ使用できます。Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、Workspace で「毎日の精度」の異常値検出のみにアクセスできます。
+>異常値検出と貢献度分析は、Reports &amp; Analyticsの機能セットから削除され、Analysis Workspaceからのみ使用できるようになりました。 Adobe Analytics Select および Adobe Analytics Foundation をご利用のお客様は、Workspace で「毎日の精度」の異常値検出のみにアクセスできます。
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
