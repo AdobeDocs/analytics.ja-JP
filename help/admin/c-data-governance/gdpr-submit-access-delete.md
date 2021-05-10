@@ -2,27 +2,24 @@
 description: Adobe Analytics でデータアクセスおよび削除リクエストを送信する方法。
 title: アクセス要求および削除要求の送信
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1307'
+ht-degree: 97%
 
 ---
 
-
 # アクセス要求および削除要求の送信
-
-
-## 概要 {#section_BD70882995894C1CA19C205C49FEC23C}
 
 顧客（消費者／データ主体）から、お客様がどのような顧客データを管理しているのかを知りたいという要求や、お客様の Analytics プロパティから自分のデータを削除してほしいという要求があった場合は、データ管理者であるお客様には、そうした要求に応える義務があります。データ管理者は、データ主体とのインタラクションの方法（データ主体のユーザーポータルを利用するなど）を決定し、その管理をおこないます。要求を処理するにあたり、データ主体に適切に応対することも、データ管理者の義務です。Adobe Experience Cloud はデータ処理者なので、データ主体から直接要求を受け取ったり、データ主体に直接データを返したりすることはありません。アドビはデータ管理者であるお客様を介してのみ、要求を受け取ったり、データを返したりします。
 
 また、必要に応じてモバイルアプリや Web サイトにポップアップ通知や補足資料を用意することで、個人を直接的または間接的に特定できるデータなど、御社が収集したデータに対してデータ主体が持つ権利について説明することが求められます。
 
-## 消費者の同意の管理  {#section_3012015E7E8942519FB9279CF7057EAB}
+## 消費者の同意の管理 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-データ管理者には、データ主体に関するデータ（場合によっては Adobe Analytics データを含む）を収集する前に、データ主体から明示的な同意を得る責任があります。また、Web サイトに[オプトアウトメカニズムを実装](https://docs.adobe.com/content/help/ja-JP/dtm/using/tools/opt-in.html)する責任があります。これにより、データ主体は、以降の Adobe Experience Cloud によるデータ収集をオプトアウトできます。
+お客様は、データコントローラーとして、データに関するデータ(Adobe Analyticsデータを含む場合もあります)を収集する前に、データの件名から明示的な同意を得る必要があります。また、Webサイトに[オプトアウトメカニズム](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)を導入する必要があります。 これにより、データ主体は、以降の Adobe Experience Cloud によるデータ収集をオプトアウトできます。
 
 ## ユーザーおよびユーザーデータの検証  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
