@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
-translation-type: ht
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
+workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -246,7 +246,7 @@ ht-degree: 100%
    + はじめに {#getting-started}
       + はじめに（管理者向け） {#get-started-admins}
          + [Activity Map の有効化](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [実装コードのサンプル](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [Activity Mapの実装](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + はじめに（ユーザー向け） {#get-started-users}
          + [Activity Map ブラウザープラグインのインストール](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Activity Map の起動](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
