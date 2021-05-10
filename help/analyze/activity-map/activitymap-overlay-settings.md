@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 translation-type: tm+mt
-source-git-commit: d4296a721e01e37c57a8fb44b67599a3cc9e4758
+source-git-commit: 700d3b21a238af23719b291fe60df207e916bb87
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 60%
+source-wordcount: '652'
+ht-degree: 50%
 
 ---
 
@@ -43,8 +43,8 @@ Activity Map Settings パネルにアクセスするには、Activity Map ツー
 
 | 設定 | 説明 |
 | --- | --- |
-| **[!UICONTROL 動的データフィルタリング]** |  |
-| **[!UICONTROL ヒットのないリンクのオーバーレイを非表示にします]**。 | このチェックボックスを使用すると、ヒットのなかったリンクのオーバーレイを非表示にして、インターフェイスを整理できます。 |
+| **[!UICONTROL 動的データフィルタリング]** | このドロップダウンでは、<ul><li>（デフォルト）ページ上のすべてのリンク</li><li>ページ上のランク付けされたリンクの上位（上位）または下位（下位）の数。#は1、10、50または100から選択できます。</li></ul> |
+| **[!UICONTROL ヒットのないリンクのオーバーレイを非表示にします]**。 | データのないリンクのオーバーレイの表示/非表示を切り替えるチェックボックス。<ul><li>（デフォルト）このチェックボックスがオンの場合、リンクにActivityMapリンクデータがないときにオーバーレイは表示されません。</li><li>このチェックボックスがオフの場合、リンクにActivityMapリンクデータがない場合、オーバーレイが表示され、ラベルが「 — 」で、該当なし（該当なし）を意味します。 |
 
 ## ライブ設定{#section_D30F6E62FB5D404090B588F396A460AF}
 
