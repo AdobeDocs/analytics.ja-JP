@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 42%
+source-wordcount: '513'
+ht-degree: 43%
 
 ---
 
@@ -42,10 +42,15 @@ Activity Mapリンクと地域の識別は、ユーザーがページをクリ�
 * これはタイプ`IMAGE`と`src`プロパティを持つ`INPUT`タグですか？
 * `BUTTON`?
 
-上記のいずれかの質問に対する答がはいの場合、要素はリンクとして処理され、追跡されます。 
-重要： attribute type=&quot;button&quot;のボタンタグは、AppMeasurementによるリンクと見なされません。 ボタンタグからtype=&quot;button&quot;を削除し、代わりにrole=&quot;button&quot;またはsubmit=&quot;button&quot;を追加することを検討してください。
- 
-重要：「href」を含むアンカータグ(「#」を含む開始は、リンクではなくAppMeasurementによって内部ターゲットの場所と見なされます)。ページから移動しないためです。 デフォルトでは、Activity Map は、これらの内部のターゲット場所を追跡しません。ユーザーを新しいページにナビゲートするリンクのみを追跡します。
+上記のいずれかの質問に対する答がはいの場合、要素はリンクとして処理され、追跡されます。
+
+>[!IMPORTANT]
+>
+>attribute type=&quot;button&quot;のボタンタグは、AppMeasurementによるリンクと見なされません。 ボタンタグからtype=&quot;button&quot;を削除し、代わりにrole=&quot;button&quot;またはsubmit=&quot;button&quot;を追加することを検討してください。
+
+>[!IMPORTANT]
+>
+>「href」を含むアンカータグ(「#」を含む開始は、リンクではなくAppMeasurementによって内部ターゲットの場所と見なされます)。ページから移動しないためです。 デフォルトでは、Activity Map は、これらの内部のターゲット場所を追跡しません。ユーザーを新しいページにナビゲートするリンクのみを追跡します。
 
 ## Activity Mapは、他の視覚的なHTML要素をどのように追跡するか。
 
@@ -54,7 +59,6 @@ a.`s.tl()`関数を使用します。
 `s.tl()`呼び出しを介してクリックが発生した場合、Activity Mapもこのクリックイベントを受け取り、`linkName`文字列変数が見つかったかどうかを判断します。 `s.tl()`の実行中に、そのlinkNameがActivity MapリンクIDとして設定されます。 クリックされた、`s.tl()`呼び出しの発生元の要素は、領域の特定に使用されます。 例：
 
 ```
-    
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
@@ -69,7 +73,9 @@ b.`s_objectID`変数を使用します。 例：
     
     &quot;
 
-重要： Activity Mapで`s_objectID`を使用する場合は、末尾のセミコロン(;)が必要です。
+>[!IMPORTANT]
+>
+>Activity Mapで`s_objectID`を使用する場合は、末尾のセミコロン(;)が必要です。
 
 ## 追跡されるリンクの例をいくつか教えてください。
 
