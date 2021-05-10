@@ -5,9 +5,9 @@ user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: 'どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。 '
 translation-type: tm+mt
-source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -158,35 +158,7 @@ ht-degree: 100%
    + [Launch データ要素を Analytics 変数にマッピングする](launch/elements-to-variable.md)
 + 他のプラットフォームへの Analytics の実装 {#other}
    + [ハードコードされたイメージリクエストを使用した Analytics の実装](other/hardcoded.md)
-   + DTM を使用した Analytics の実装 {#dtm}
-      + [Dynamic Tag Management 実装の概要](other/dtm/dtm-implementation-overview.md)
-      + [Web プロパティの作成](other/dtm/t-create-web-property.md)
-      + [ホスティングオプションの設定](other/dtm/t-configure-hosting.md)
-      + ヘッダーとフッター {#headers-footers}
-         + [ヘッダーおよびフッターコードの追加](other/dtm/c-headers-footers/t-header-footer-code.md)
-         + [ヘッダーおよびフッターコードの検証](other/dtm/c-headers-footers/t-verify-header-footer.md)
-      + Adobe Analytics ツール {#analytics-tool}
-         + [Adobe Analytics ツールの追加](other/dtm/c-aa-tool/analytics-dtm.md)
-         + [一般](other/dtm/c-aa-tool/general-settings-analytics.md)
-         + [ライブラリ管理](other/dtm/c-aa-tool/library-management.md)
-         + [コアの AppMeasurement コードの挿入](other/dtm/c-aa-tool/t-appmeasurement-code.md)
-         + [グローバル変数](other/dtm/c-aa-tool/global-variables.md)
-         + [ページビューとコンテンツ](other/dtm/c-aa-tool/pageviews-content.md)
-         + [リンクトラッキング](other/dtm/c-aa-tool/link-tracking.md)
-         + [リファラーとキャンペーン](other/dtm/c-aa-tool/referrers-campaigns.md)
-         + [Cookie](other/dtm/c-aa-tool/cookies-analytics.md)
-         + [ページコードのカスタマイズ](other/dtm/c-aa-tool/customize-page-code.md)
-         + [Adobe Analytics ツールに関する FAQ](other/dtm/c-aa-tool/dtm-faq.md)
-      + [データ要素の作成](other/dtm/t-data-element.md)
-      + [Adobe Analytics の手動実装（レガシー）](other/dtm/t-analytics-deploy.md)
-      + ルール {#rules}
-         + [新規ルールの作成](other/dtm/c-rules/t-rules-create.md)
-         + [イベント型ルールの条件の作成](other/dtm/c-rules/t-rules-event-conditions.md)
-         + [ページ型ルールの条件の作成](other/dtm/c-rules/t-rules-page-conditions.md)
-         + [ダイレクト型ルールの条件の作成](other/dtm/c-rules/t-rules-direct-conditions.md)
-         + [トリガー条件のアクションの設定](other/dtm/c-rules/t-rules-actions.md)
-         + [Akamai ホスティング用の未発行のルールのテスト](other/dtm/c-rules/t-test-rules-akamai.md)
-         + [ライブラリのダウンロードまたは FTP のルールのテスト](other/dtm/c-rules/t-test-rules-ftp.md)
+   + [DTM を使用した Analytics の実装](other/dtm-implementation-overview.md)
    + [Ajax への Analytics の実装](other/ajax.md)
    + [AMP への Analytics の実装](other/amp.md)
    + [Analytics のデジタルアシスタントへの実装](other/digital-assistants.md)
