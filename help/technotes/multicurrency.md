@@ -2,14 +2,14 @@
 description: 複数通貨のサポートを有効にするためにターゲット通貨コードを定義する方法について説明します。
 title: 複数通貨のサポート
 uuid: null
+exl-id: b67f459c-0636-4eac-af52-51846bb583b5
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1358'
 ht-degree: 100%
 
 ---
-
 
 # 複数通貨のサポート
 
@@ -429,8 +429,6 @@ s.linkTrackEvents="None"
 ***
     
 ```
-
-AppMeasurement.js ファイルの編集について詳しくは、「[AppMeasurement.js ファイルへのコードの挿入](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.translate.html)」を参照してください。
 
 ## 追加の導入時の注意
 
