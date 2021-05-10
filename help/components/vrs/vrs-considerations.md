@@ -2,13 +2,13 @@
 description: 仮想レポートスイートと複数のスイートタグ付けには、異なる利点があります。自分の組織にとってどちらが最適なのかを学びます。
 keywords: 仮想レポートスイート，VRS
 title: 仮想レポートスイートとグローバル／複数のスイートタグ付けに関する考慮事項
-feature: Report Suite Settings
+feature: レポート表示設定
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1712'
 ht-degree: 99%
 
 ---
@@ -101,7 +101,6 @@ ht-degree: 99%
    * 仮想レポートスイートをより排他的に保つ場合は、ヒットコンテナを使用します。
 2. 仮想レポートスイートが正しく設定されていることを確認したら、実装からセカンダリレポートスイート ID を削除します。セカンダリレポートスイートの削除方法：
    * Adobe Experience Platform Launch で、使用しないレポートスイートの横にある「x」をクリックします。
-   * DTM で、プロパティと Analytics ツールの場所を特定します。実稼動アカウント ID とステージングアカウント ID フィールドで、今後使用しない任意のレポートスイート ID を削除します。
    * 従来の JavaScript 実装では、`s.account` 変数を見つけて、使用しなくなったレポートスイート ID をすべて削除します。
    * サイトやアプリのデータを収集する場合は、どのような場合でも、グローバル／親レポートスイート ID のみをそのままにします。
    * 管理者／レポートスイートに移動し、使用されなくなったセカンダリレポートスイートを非表示にします。
