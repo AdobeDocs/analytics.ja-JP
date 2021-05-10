@@ -2,7 +2,7 @@
 title: Adobe Analyticsマーケティングチャネルの実装のベストプラクティス
 description: マーケティングチャネルとAttribution IQおよびCustomer Journey Analyticsを使用するためのベストプラクティスの更新
 translation-type: tm+mt
-source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
+source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # マーケティングチャネルを使用したAttribution IQ — ベストプラクティス
 
-[マーケティング](/help/components/c-marketing-channels/c-getting-started-mchannel.md) チャネルはAdobe Analyticsの貴重で強力な機能です。マーケティングチャネルの導入に関する現在のガイダンスは、[Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)も[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ja#cja-usecases)も存在しない時に策定されました。
+[マーケティング](/help/components/c-marketing-channels/c-getting-started-mchannel.md) チャネルはAdobe Analyticsの貴重で強力な機能です。マーケティングチャネルの導入に関する現在のガイダンスは、[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)も[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ja#cja-usecases)も存在しない時に策定されました。
 
 マーケティングチャネルの導入を将来的に配達確認し、Attribution IQおよびCustomer Journey Analyticsとのレポートの一貫性を確保するために、アドビでは、一連の更新されたベストプラクティスを発行しています。 既にマーケティングチャネルを使用している場合は、これらの新しいガイドラインの中から最適なオプションを選択できます。 マーケティングチャネルを初めて使用する場合は、すべての新しいベストプラクティスに従うことをお勧めします。
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## ベストプラクティス1:制御された分析にAttribution IQを活用
 
-マーケティングチャネルの分析を微調整するには、既存のマーケティングチャネルの属性の代わりに[Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)を使用することをお勧めします。 他のベストプラクティスに従って、Attribution IQを使用した分析に対して一貫性と堅牢な制御を確保します。
+マーケティングチャネルの分析を微調整するには、既存のマーケティングチャネルの属性の代わりに[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)を使用することをお勧めします。 他のベストプラクティスに従って、Attribution IQを使用した分析に対して一貫性と堅牢な制御を確保します。
 
 ![](assets/attribution.png)
 
