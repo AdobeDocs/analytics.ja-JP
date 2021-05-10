@@ -2,13 +2,13 @@
 description: ユーザーグループの定義ページにあるエレメントの説明。
 subtopic: Users and groups
 title: ユーザーグループ設定
-feature: Admin Tools
+feature: 管理ツール
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 ユーザーグループの定義ページにあるエレメントの説明。
 
@@ -110,14 +110,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"><b>すべてのレポートスイート</b> </td> 
    <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 
-     <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
-      <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager（すべてのアクセス、カスタマイズ、アクセス不可） </li> 
-     </ul> </p> </td> 
-   <td colname="col2"> <p>アクティブな <span class="keyword">TagManager</span> コンテナを持つお客様について、権限がサポートされます。新規ユーザーは使用できません。 </p> <p>アドビでは、<a href="https://docs.adobe.com/content/help/ja-JP/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> をデプロイすることをお勧めします。 </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"><b>ユーザーログインの割り当て</b> </td> 
    <td colname="col2"> </td> 
