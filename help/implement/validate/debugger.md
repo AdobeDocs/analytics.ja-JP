@@ -1,14 +1,14 @@
 ---
 title: レガシー Adobe Experience Cloud デバッガー
-description: レガシー Adobe Experience Cloud デバッガーをインストールします。このデバッガーは、Analytics、Target、Advertising Cloud、ID サービス、DTM および Launch のタグを調べます。
+description: レガシー Adobe Experience Cloud デバッガーをインストールします。このデバッガーは、タグのAnalytics、ターゲット、Advertising Cloud、IDサービス、起動を調べます。
+exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 98%
 
 ---
-
 
 # レガシー Adobe Experience Cloud デバッガー
 
