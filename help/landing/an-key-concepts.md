@@ -1,14 +1,14 @@
 ---
 description: このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
 title: Adobe Analytics - 主要概念
+exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 100%
+source-wordcount: '1834'
+ht-degree: 99%
 
 ---
-
 
 # Adobe Analytics - 主要概念
 
@@ -25,8 +25,7 @@ ht-degree: 100%
 | Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [Data Warehouse ホーム](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 | [Mobile Services ホーム](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors（旧称 Genesis） | サードパーティのアプリケーションから Analytics にトラッキングデータをインポートします。これにより、パフォーマンスに関する一元的なエンドツーエンドの可視性が実現します。2021 年 8 月 1 日（PT）、アドビは Data Connectors 統合を廃止する予定です。 | [Data Connectors ホーム](/help/import/data-connectors/data-connectors-eol.md) |
-| Dynamic Tag Management（DTM） | Analytics、Target およびその他のタグを、ドメイン数にかかわらず、すべてのサイトにわたって管理できます。 | [DTM ホーム](/help/implement/other/dtm/dtm-implementation-overview.md) |
-| Adobe Launch | アドビが提供する次世代型の Web サイトタグおよびモバイル SDK の管理機能です。 | [Adobe Launch ホーム](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) |
+| Adobe Experience Platform Launch | アドビが提供する次世代型の Web サイトタグおよびモバイル SDK の管理機能です。 | [Adobe Experience Platform Launchホーム](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## 主要用語 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -64,7 +63,7 @@ ht-degree: 100%
 | 製品 | 売上高やチェックアウト数など各種コンバージョン指標に対する個々の商品や商品グループ（カテゴリ）の貢献を明らかにできます。 | [製品レポート](/help/components/dimensions/product.md) |
 | セグメント比較 | アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、セグメント間の最も大きな統計的差異を見つけることができます。 | [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | サイトコンテンツレポート | サイトで最もアクティブなページや領域、および最もよく利用されているサーバーに関する情報が表示されます。 | [サイトコンテンツレポート](/help/components/dimensions/page.md) |
-| サイト指標レポート | 実訪問者数、購入回数、売上高などの Web サイトの定量的情報を表示します。各指標は、他の項目ベースレポートに配置できます。 | [サイト指標レポート](/help/components/metrics/overview.md) |
+| サイト指標レポート | ユニーク訪問者数、購入回数、売上高などの Web サイトの定量的情報を表示します。各指標は、他の項目ベースレポートに配置できます。 | [サイト指標レポート](/help/components/metrics/overview.md) |
 | 訪問者プロファイル | 国、州、郵便番号コードおよびドメインなどの各種プロファイルカテゴリから、顧客の購入パターンを確認するのに役立つレポートです。 | [訪問者プロファイル](/help/components/dimensions/language.md) |
 | 訪問者保持率 | 訪問者がサイトに再訪問した回数や頻度など、顧客忠誠度についての情報を表示します。 | [訪問者保持率](/help/components/dimensions/customer-loyalty.md) |
 | プロジェクトリンク、共有、スケジュール | Analytics インターフェイスで作業内容を保存および他者と共有するための方法です。 | [ファイルの送信およびスケジュール](/help/analyze/analysis-workspace/curate-share/send-schedule-files.md) |
@@ -74,7 +73,7 @@ ht-degree: 100%
 | 指標名 | 定義 | ドキュメントリンク |
 | --- | --- | --- |
 | 全指標のリスト | Adobe Analytics の全指標の定義。 | [指標の概要](/help/components/metrics/overview.md) |
-| 個別訪問者数 | 特定期間における Web サイトへの重複なしの訪問者数。 | [個別訪問者数](/help/components/metrics/unique-visitors.md) |
+| ユニーク訪問者 | 特定期間における Web サイトへの重複なしの訪問者数。 | [ユニーク訪問者](/help/components/metrics/unique-visitors.md) |
 | 訪問数 | 1 回のランディングでの一連のページビュー。訪問は、ユーザーが最初にサイトのページを表示したときに開始し、非アクティブ状態が 30 分続いた後に終了します。 | [訪問数](/help/components/metrics/visits.md) |
 | ページビュー数 | ページビューは、訪問者が Web サイトのページを表示したときに発生します。 | [ページビュー数](/help/components/metrics/page-views.md) |
 | インスタンス | 変数が定義された回数。Adobe Analytics に変数内の値が表示されるたびに、それぞれのレポートでインスタンスが 1 つずつ増分します。 | [インスタンス](/help/components/metrics/instances.md) |
@@ -109,7 +108,7 @@ ht-degree: 100%
 | 実装ガイド | データ収集変数の説明と、JavaScript でのデータ収集コードの導入についての詳細してください。 | [実装ガイド](/help/implement/home.md) |
 | AppMeasurement（s_code） | グローバル変数管理。 | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | App SDK | アプリの設定ファイルの事前収集バージョンを含むカスタマイズされたパッケージ。 | <ul><li>[iOS](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
-| DTM および Adobe Launch | Analytics ツールを参照してください。 |  |
+| Adobe Experience Platform Launch | Analytics ツールを参照してください。 |  |
 | VISTA | サーバー側のロジックを適用して、データの収集時にデータを変更またはセグメント化できます。 | [VISTA ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 処理ルール | Analytics UI で変数を設定、変更およびコピーして、収集されたデータを変更できます。 | [処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | デバッガーオプション | Adobe Experience Cloud デバッガーなど、実装の検証に役立つ様々なデバッガーやパケットスニファーを利用できます。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ja) |
