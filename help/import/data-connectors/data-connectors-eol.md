@@ -3,10 +3,10 @@ description: Analytics Data Connectors が提供されなくなる時期と理�
 title: Analytics Data Connectors の提供終了前の発表
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 82%
+source-wordcount: '648'
+ht-degree: 81%
 
 ---
 
@@ -82,7 +82,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | MaritzCX（V 2.0） | 廃止 |
 | Merkle | 廃止 |
 | 公式 Oracle Eloqua 統合 | Exchange への移行 |
-| optivo broadmail（Episerver） | Exchange への移行 |
+| optivo broadmail（Episerver） | 廃止 |
 | Qualtrics v2 | Exchange への移行 |
 | Responsys 2.0 | 廃止 |
 | Selligent | 廃止 |
