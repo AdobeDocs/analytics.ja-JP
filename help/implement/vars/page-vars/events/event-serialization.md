@@ -1,14 +1,14 @@
 ---
 title: イベントのシリアル化
 description: サイト上の指標の重複を除外するのに役立ちます。
+exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 94%
 
 ---
-
 
 # イベント ID のシリアル化
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
 6. [!UICONTROL イベント]セクションを探します。各イベントには「[!UICONTROL Event ID]」フィールドが含まれます。
 
-有効な値は、20 バイトまでの英数字です。
+有効な値は、20 バイトまでの英数字です。20バイトを超える値を入力すると、最初の20バイトに切り捨てられます。
 
 ## AppMeasurement と Launch カスタムコードエディターでのイベント ID の使用
 
