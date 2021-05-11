@@ -2,13 +2,13 @@
 description: 分類ルールを設定すると、分類されていない語句が定期的に検索されます。ルールとの一致が検出されると、ルールによってその語句が分類データテーブルに自動的に追加されます。分類ルールを使用して既存のキーを上書きすることもできます。
 subtopic: Classifications
 title: 分類ルール
-feature: Admin Tools
+feature: 管理ツール
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 99%
+source-wordcount: '2030'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL 分類ルールビルダー]**
 
-ルールビルダーを使用すると、*`classification rule set`*（*`classification rules`* のリスト）を作成できます。ルールは、指定された条件との照合を行い、アクションを実行します。
+ルールビルダーを使用すると、*分類ルールセット*&#x200B;を作成できます。分類ルールセットは、*分類ルール*&#x200B;のリストです。 ルールは、指定された条件との照合を行い、アクションを実行します。
 
 分類ルールは、次の項目に使用すると便利です。
 
@@ -159,7 +159,7 @@ regex_classification_rules.xml
 
 正規表現の文字が何を意味しているかについては、[正規表現 - 参照表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)を参照してください。
 
-## 正規表現 - 特定の文字の分類  {#section_5D300C03FA484BADACBFCA983E738ACF}
+## 正規表現 - 特定の文字の分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 正規表現を使用する 1 つの方法は、文字を含む文字列内の特定の文字を分類することです。例えば、次のトラッキングコードに 2 つの重要な文字が含まれているとします。
 
@@ -266,7 +266,7 @@ c:d:yoyo
 | `a{3,}` | 3 個以上の a |
 | `a{3,6}` | 3 ～ 6 個の a |
 
-正規表現の有効性のテストに関する参考資料については、https://rubular.com/ を参照してください。
+正規式の有効性をテストする際に役立つ情報は、[https://rubular.com/](https://rubular.com/)です。
 
 ## ルールの優先度について
 
@@ -282,7 +282,7 @@ rule_priority.xml
 
 以下に示すのは、アスリートの検索タイプを分類する検索語ルールの例です。
 
-| ルール番号 | ルールタイプ | 一致 | 分類を設定 | 設定値 |
+| ルール番号 | ルールタイプ | 次に一致 | 分類を設定 | 設定値 |
 |---|---|---|---|---|
 | 1 | 次を含む | カウボーイズ | 検索タイプ | チーム |
 | 2 | 次を含む | ファンタジー | 検索タイプ | ファンタジー |
@@ -292,9 +292,9 @@ rule_priority.xml
 
 同じように、以下の検索語についてルールを 2 つ設定している場合を考えます。
 
-| ルール番号 | ルールタイプ | 一致 | 分類を設定 | 設定値 |
+| ルール番号 | ルールタイプ | 次に一致 | 分類を設定 | 設定値 |
 |---|---|---|---|---|
-| 1 | 次を含む | カウボーイズ | 市区町村 | ダラス |
+| 3 | 次を含む | カウボーイズ | 市区町村 | ダラス |
 | 2 | 次を含む | ブロンコス | 市区町村 | Denver |
 
 ユーザーが&#x200B;*`Cowboys vs. Broncos`* を検索すると、ルールビルダーによってルールの一致に競合が発見され、この検索では 2 番目のルールの分類（Denver）が適用されます。
@@ -326,12 +326,12 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >次の条件が満たされると、レポートスイートがこのページ&#x200B;*`only`*&#x200B;に表示されます。
+   >次の条件が満たされると、レポートスイートはこのページ&#x200B;**&#x200B;のみに表示されます。
    >
    >* レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
       >
       >   
-      この前提条件の説明については、*`Variable`*&#x200B;分類ルールセット[の ](/help/components/classifications/crb/classification-rule-set.md) を参照してください。）
+      （この前提条件については、[分類ルールセット](/help/components/classifications/crb/classification-rule-set.md)の&#x200B;*変数*&#x200B;を参照してください。）
       >
       >
    * **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/classifications/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
@@ -407,7 +407,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. （オプション）分類を上書きするには、「**[!UICONTROL  の分類を上書き]** *`<selection>`* 」を有効にします。
+1. （オプション）分類を上書きするには、**** &lt;*selection*>の分類を上書きするを有効にします。
 
    このオプションを使用すると、影響を受けるキーの既存の分類を上書きできます。
 
