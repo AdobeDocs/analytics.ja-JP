@@ -2,11 +2,10 @@
 description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
-feature: Workspace Basics
+feature: ワークスペースの基本
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-translation-type: tm+mt
-source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
+source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
 workflow-type: tm+mt
 source-wordcount: '8323'
 ht-degree: 99%
@@ -24,13 +23,11 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 | [!UICONTROL コンポーネント] / [!UICONTROL ユーザー環境設定] | 2021 年 3 月 25 日（PT） | [!UICONTROL コンポーネント]／[!UICONTROL ユーザー環境設定]ページでは、[!UICONTROL Analysis Workspace] 設定（およびユーザー向けの関連するコンポーネント）を管理できます。[!UICONTROL ユーザー環境設定]は、すべての新しいプロジェクトおよびパネルに適用されます。<br>**注意：** 次の設定は、[!UICONTROL ユーザー環境設定]ページに移動しました。<ul><li>レポート設定：3 桁ごとの区切り記号（現在は&#x200B;_数値形式_&#x200B;と呼ばれる）</li><li>レポート設定：CSV 区切り記号</li><li>Workspace プロジェクト：ヘルプ／ヒントを有効にする</li><li>Workspace プロジェクト：空のパネル「_このパネルを使用して新しいプロジェクトを開始_」オプション</li></ul> |
 | [!UICONTROL ヒストグラムスマートバケット予測] | 2021 年 3 月 25 日（PT） | [!UICONTROL ヒストグラムスマートバケット予測]は、データ分散に使用するバケットの正しい幅と数を自動的に識別することで、カーディナリティ指標の高いヒストグラムの処理に役立ちます。低カーディナリティ指標の場合、ビジュアライゼーションは以前と同じように動作します。 |
 
-
 ## 2021 年 2 月
 
 | 機能 | ターゲット日 | 説明 |
 | --- | --- | --- |
 | コンポーネントの選択 | 2021 年 2 月 4 日（PT） | [!UICONTROL クイックインサイト]にあるドロップダウン／ドロップゾーンコンポーネントは、 [!UICONTROL Workspace] のすべてのドロップゾーンに追加されます。この機能強化により、互換性のあるコンポーネントのドロップダウンリストから選択したり、スペースをドロップゾーンとして引き続き使用したりできます。 |
-
 
 ## 2021 年 1 月
 
@@ -882,7 +879,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 人物テンプレート </a> </p> </td> 
-   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人物指標は、<a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html"  > Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、実訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
+   <td colname="col2"> <p>注意：人物テンプレートとそれに関連する人物指標は、<a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html"  > Adobe Experience Cloud Device Co-op</a> の一部としてのみ使用可能です。 </p> <p>このテンプレートは、ユニーク訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>「元に戻す」／「やり直し」オプションの強化 </p> </td> 
@@ -1154,7 +1151,7 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 ![](assets/scatter.png)
 
-インプレッションや、これらのインプレッションを表示した個別ユーザー数を表示します。各データポイントのサイズによって、閲覧者が広告を表示した平均回数を視覚的に推測できます。サイズとデータは、選択したディメンション、日付範囲、フィルターによって異なります。
+インプレッションや、これらのインプレッションを表示したユニークユーザー数を表示します。各データポイントのサイズによって、閲覧者が広告を表示した平均回数を視覚的に推測できます。サイズとデータは、選択したディメンション、日付範囲、フィルターによって異なります。
 
 >[!NOTE]
 >
@@ -1168,7 +1165,7 @@ Analysis Workspace でおこなったほとんどの操作を元に戻すこと�
 
 何らかの方法でツリー構造にカラーとサイズディメンションを関連付けると、特定のカラーが特に重要な場合など、他の方法では特定困難なパターンを容易に確認することが可能です。ツリーマップの 2 つ目のメリットは、構造上、スペースを有効活用できるようになるという点です。
 
-## セグメント、指標、日付に名前を付けて保存   {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## セグメント、指標、日付に名前を付けて保存  {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 Analysis Workspace セグメントビルダーで既存の（保存した）セグメントを編集する際に、「**[!UICONTROL 名前を付けて保存]**」をクリックすると、コピーが作成されます。
 
@@ -1244,7 +1241,7 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 ![](assets/anchor_Y_axis.png)
 
-## タブタイトルのプロジェクト名  {#section_497C61A030984BCCA2CEA553312C3226}
+## タブタイトルのプロジェクト名 {#section_497C61A030984BCCA2CEA553312C3226}
 
 プロジェクトを保存する際、ブラウザータブのタイトルは、「`<Project Name>` - Analysis Workspace」のように表示されます。この強化は、複数のブラウザータブで複数のプロジェクトを開く場合に便利です。
 
