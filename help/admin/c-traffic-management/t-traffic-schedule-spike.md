@@ -1,14 +1,13 @@
 ---
 title: トラフィックスパイクのスケジュール
 description: 高トラフィックのイベントに遅延が発生しないように、Adobeとパートナー関係を結びます。
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 24%
+source-wordcount: '581'
+ht-degree: 23%
 
 ---
-
 
 # トラフィックスパイクのスケジュール
 
@@ -18,7 +17,7 @@ Adobeは、高トラフィックのイベントが成功したことを確認す
 
 トラフィックスパイクをスケジュールする前に、[トラフィック増加に必要なリードタイム](/help/admin/c-traffic-management/traffic-lead-time.md)に関する情報をお読みください。
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL レポートスイート]**&#x200B;をクリックします。
 1. レポートスイートを選択します。
 1. **[!UICONTROL 設定の編集]**／**[!UICONTROL トラフィック管理]**／**[!UICONTROL スパイクのスケジュール]**&#x200B;の順にクリックします。
 1.  「**[!UICONTROL スパイクの開始日]**」フィールドでトラフィックスパイクを開始する日付を指定します。
