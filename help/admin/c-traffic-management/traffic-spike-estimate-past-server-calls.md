@@ -2,20 +2,19 @@
 description: 特定期間内の昨年の日別サーバーコール数平均に加え、今年のサーバーコールの予想増加量を取得できます。その後、この増倍率に基づいて、トラフィックスパイクをスケジュールできます。
 title: 過去のサーバーコールの推定とトラフィックスパイクのスケジュール
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 92%
 
 ---
-
 
 # 過去のサーバーコールの推定とトラフィックスパイクのスケジュール
 
 特定期間内の昨年の日別サーバーコール数平均に加え、今年のサーバーコールの予想増加量を取得できます。その後、この増倍率に基づいて、トラフィックスパイクをスケジュールできます。
 
-1. Analytics に管理者としてログインし、**[!UICONTROL 管理者]**／**[!UICONTROL トラフィック管理]**&#x200B;に移動します。
+1. Analyticsに管理者としてログインし、**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL トラフィック管理]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL 展開]**」をクリックしてレポートスイートのリストを展開し、「**[!UICONTROL レポートスイートを選択]**」をクリックして複数のレポートスイートを選択します。
 
@@ -33,4 +32,3 @@ ht-degree: 100%
    選択したレポートスイートそれぞれにスパイクがスケジュールされます。
 
 ![](assets/past_server_calls.png)
-
