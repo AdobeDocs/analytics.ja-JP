@@ -2,14 +2,13 @@
 description: 仮想レポートスイートの実装を計画するために必要な手順の概要です。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートのワークフロー
-feature: Reports & Analyticsの基本事項
+feature: Reports & Analytics の基本事項
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 98%
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -29,17 +28,8 @@ ht-degree: 98%
 
 レポートスイートについての[情報を表示するには](/help/components/vrs/c-workflow-vrs/vrs-view.md)、レポートスイート名の横にある情報アイコンをクリックします。
 
-![](assets/step3_icon.png)仮想レポートスイートの[グループ権限](/help/components/vrs/c-workflow-vrs/vrs-create.md)を設定します。
+![](assets/step3_icon.png)データをセグメント表示できるよう、プロジェクトまたはレポートを開いて仮想レポートスイートを選択します。
 
-仮想レポートスイートの作成時にグループ権限を追加できます。
-
-グループ権限は以下の 2 つの方法で編集できます。
-
-* 仮想レポートスイートマネージャーで仮想レポートスイートを編集します。
-* 管理者／ユーザー管理／グループに移動し、仮想レポートスイートに対して権限を持つグループを選択して、「編集」をクリックします。
-
-![](assets/step4_icon.png)データをセグメント表示できるよう、プロジェクトまたはレポートを開いて仮想レポートスイートを選択します。
-
-![](assets/step5_icon.png) [ 仮想レポートスイートを管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)します。
+![](assets/step4_icon.png) [ 仮想レポートスイートを管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)します。
 
 仮想レポートスイートマネージャーでは、仮想レポートスイートの編集、追加、タグ付け、削除、名前の変更、承認、コピー、エクスポートおよびフィルターを実行できます。仮想レポートスイートマネージャーは管理者以外には表示されません。
