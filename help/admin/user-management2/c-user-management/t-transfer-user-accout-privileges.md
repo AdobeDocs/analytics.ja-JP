@@ -2,14 +2,13 @@
 description: あるユーザーアカウントから別のユーザーのアカウントにユーザーアカウント項目（ダッシュボード、計算指標、カレンダーイベント、アラート、ブックマーク、セグメント、Analysis Workspace プロジェクトおよびスケジュールされたプロジェクト）を割り当てる方法について手順を説明します。
 subtopic: Users and groups
 title: ユーザーアカウント項目の転送
-feature: Admin Tools
+feature: 管理ツール
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '217'
+ht-degree: 88%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべてのお客様が移行した後、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは廃止されます。
 
 あるユーザーアカウントから別のユーザーのアカウントにユーザーアカウント項目（ダッシュボード、計算指標、カレンダーイベント、アラート、ブックマーク、セグメント、Analysis Workspace プロジェクトおよびスケジュールされたプロジェクト）を割り当てる方法について手順を説明します。
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;をクリックします。
 1. 「**[!UICONTROL ユーザーの編集]**」をクリックします。
 1. アセットの転送元のユーザーを探し、このユーザーの行の横にあるチェックボックスを選択します。
 1. 上部のアクションバーで「**[!UICONTROL アセットを転送]**」を選択します。
