@@ -1,16 +1,15 @@
 ---
 description: Adobe Analysis Workspace とその関連コンポーネントに関する既知の制限のリスト
 title: Analysis Workspace の既知の制限
-feature: Workspace Basics
+feature: ワークスペースの基本
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 98%
 
 ---
-
 
 # Analysis Workspace の既知の制限
 
@@ -53,7 +52,7 @@ ht-degree: 100%
 
 * レポート時間処理が有効な場合、一部のコンポーネントはサポートされません。完全なリストについては、[レポート時間処理](/help/components/vrs/vrs-report-time-processing.md)を参照してください。
 
-## コンポーネント／レポート設定
+## コンポーネント/すべてのコンポーネント/レポート設定
 
 * 「[!UICONTROL レポート設定]」ページの一部の設定は適用されません。Analysis Workspace では、一番下の「[!UICONTROL 言語 / 通貨 / エンコード]」設定（[!UICONTROL 千単位区切り文字]、[!UICONTROL 予定レポートのエンコード]、[!UICONTROL CSV 区切り文字]）のみが使用されます。
 
