@@ -3,14 +3,13 @@ description: Analytics ツール、レポートスイートツール、指標お
 keywords: グループ;権限
 subtopic: Users and groups
 title: レポートアクセスのカスタマイズ - 概要
-feature: Admin Tools
+feature: 管理ツール
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 96%
+source-wordcount: '591'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。すべてのお客様が移行した後、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは廃止されます。
 
 Analytics ツール、レポートスイートツール、指標およびディメンションに対するグループ権限をカスタマイズします。
 
