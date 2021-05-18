@@ -2,11 +2,10 @@
 title: レポートスイートツールの製品プロファイル権限
 description: レポートスイートツールの各権限項目について理解します。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 98%
+source-wordcount: '664'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +48,7 @@ ht-degree: 98%
 | データフィードマネージャー | Analytics のトップナビゲーションで管理者／データフィードへのアクセスを許可します。 |
 | カスタム Data Warehouse レポート | Analytics のトップナビゲーションでツール／Data Warehouse へのアクセスを許可します。 |
 | 日別再来訪 | Reports &amp; Analytics で、訪問者保持率／日別再来訪へのアクセスを許可します。 |
-| データソースマネージャー | Analytics のトップナビゲーションで管理者／データソースへのアクセスを許可します。権限項目「Report Suite Mgmt」が必要です。 |
+| データソースマネージャー | Analyticsのトップナビゲーションで、管理者/すべての管理者/データソースへのアクセス権を付与します。 権限項目「Report Suite Mgmt」が必要です。 |
 | IP アドレスで除外 | Analytics のトップナビゲーションで、管理者／IP アドレスごとに除外へのアクセスを許可します。 |
 | 最近の 100 人の訪問者 | 未使用。 |
 | レガシー ClickMap | 未使用。代わりに、Analytics ツールの Activity Map を使用します。 |
