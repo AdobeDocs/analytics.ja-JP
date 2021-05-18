@@ -2,16 +2,15 @@
 description: カレンダーイベントを追加し、共有イベントを管理する手順を説明します。
 title: カレンダーイベント
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
-feature: Calendar
+feature: カレンダー
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 99%
+source-wordcount: '339'
+ht-degree: 95%
 
 ---
-
 
 # カレンダーイベント
 
@@ -23,7 +22,7 @@ ht-degree: 99%
 
 経時的にトレンドされたレポートでは、イベントをビジュアルに表示し、キャンペーンなどのイベントがサイトへのトラフィック、売上高などの指標に影響を与えているかどうかを確認できます。カレンダーイベントの設定方法は、イベントに名前を付け、イベント日を設定し、メモを追加してアイコンを設定するだけです。例えば、Social を使用する場合、サイトトラフィックの増加と、有名人による Twitter での製品についてのメンションとの間に相関関係があることを示すカレンダーイベントを作成できます。
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL カレンダーイベント]**&#x200B;をクリックします。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL コンポーネント]**/**[!UICONTROL すべてのコンポーネント]**/**[!UICONTROL カレンダーイベント]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 新規追加]**」をクリックします。
    1. 「**[!UICONTROL タイトル]**」で、カレンダーイベントの名前を指定します。
    1. 「**[!UICONTROL イベント日]**」を指定します。
@@ -38,7 +37,7 @@ ht-degree: 99%
    1. 「**[!UICONTROL 保存]**」をクリックします。
 
    これにより、カレンダーイベントがより一層使いやすくなります。ユーザーのレポート上にオーバーレイを強制して、より多くのコンテキストを表示することができるようになりました。
-1. **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL カレンダーイベント]**&#x200B;をクリックします。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL コンポーネント]**/**[!UICONTROL すべてのコンポーネント]**/**[!UICONTROL カレンダーイベント]**&#x200B;をクリックします。
 1. 「共有されたカレンダーイベント」で、次のいずれかのオプションを指定します。
 
        | **コピー** | イベントのリストに、コピー元と同じ名前でイベントのコピーを追加します。ただし、このイベントの所有者による更新や変更は表示できません。|
