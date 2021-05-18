@@ -4,26 +4,25 @@ title: Activity Map の有効化
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
-
 
 # Activity Map の有効化 {#enable-activity-map}
 
 Activity Map のリンクコレクションおよびユーザーダウンロードを有効にするために Analytics 管理者がおこなう必要がある手順について説明します。
 
-## 手順 1.AppMeasurement（JavaScript）コードを v1.6 以上に更新 {#section_5D1586289DF2489289B1B6C1C80C300D}
+## 手順 1.AppMeasurement（JavaScript）コードを v1.6 以上に更新  {#section_5D1586289DF2489289B1B6C1C80C300D}
 
 Activity Map モジュールは、AppMeasurement.js ファイルの一部です（ファイルの先頭にあります）。AppMeasurement ライブラリは、インスタンス化の際に Activity Map を読み込みます。
 
 Activity Map のデータは、このバージョン以上の AppMeasurement に更新しない限り収集できません。
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL コードマネージャー]**&#x200B;に移動して、最新の AppMeasurement コード（AppMeasurement_Javascript-1.6.zip）をダウンロードし、[実装します](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/overview.html)。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL コードマネージャー]**&#x200B;に移動し、[それを](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/overview.html)実装して、最新のAppMeasurementコード(AppMeasurement_Javascript-1.6.zip)をダウンロードします。
 
    Activity Map モジュールを含めることによるコードの変更を視覚的に確認できるように、[実装コードのサンプル](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)を含めました。
 
