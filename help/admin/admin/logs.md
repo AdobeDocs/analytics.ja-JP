@@ -1,13 +1,12 @@
 ---
 description: ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。
 title: ログ
-feature: Admin Tools
+feature: 管理ツール
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 72%
+source-wordcount: '601'
+ht-degree: 71%
 
 ---
 
@@ -15,13 +14,13 @@ ht-degree: 72%
 
 ユーザーがログインした時間、ユーザーの使用量、アクセス、レポートスイート、管理者による変更を確認するのに役立つログファイルです。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ログ]**
+**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL ログ]**
 
 ## 管理ログ {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
 管理ログは、管理ツールで管理者が実行した変更をすべて報告します。ログページは、3 つのログのいずれからでもユーザー定義のレポートにアクセスできるゲートウェイです。指定した日付範囲で、選択した条件に一致するイベントを検索できます。
 
-## 使用状況およびアクセスログ  {#section_6FBAF92D9EA244809C45A78A2F0A7232}
+## 使用状況およびアクセスログ {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
 [!UICONTROL 使用状況およびアクセスログ]では、ユーザーアカウントレベルでレポートの使用状況を評価できます。例えば、Analysis Workspace での開く、作成、更新、共有解除および削除の各操作を追跡します。これにより、誰がどれくらいの頻度で Workspace を使用しているのかを調べられるようになりました。
 
