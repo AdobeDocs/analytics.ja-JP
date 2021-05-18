@@ -2,14 +2,13 @@
 description: ユーザーグループをレポートスイートに割り当てる方法について手順を説明します。
 subtopic: Users and groups
 title: レポートスイートに対するユーザーグループの割り当て
-feature: Admin Tools
+feature: 管理ツール
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 exl-id: 8e2a36b8-4693-4bb2-9993-8887fd7c906d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 88%
 
 ---
 
@@ -17,13 +16,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべてのお客様が移行した後、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは廃止されます。
 
 ユーザーグループをレポートスイートに割り当てる方法について手順を説明します。
 
 [!UICONTROL レポートスイート]ページでは、会社のレポートスイートを表示し、設定できます。Analytics は、グループメンバーシップでレポートスイートのアクセスを管理します。初回のセットアップで、必要なグループを作成（各グループにレポートスイートを割り当てる）し、ユーザーアカウントを適切な[グループ](/help/admin/user-management2/c-user-groups/groups.md)に割り当てます。
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**&#x200B;の順にクリックします。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;をクリックします。
 1. 「**[!UICONTROL レポートスイート]**」をクリックします。
 1. レポートスイートを選択します。
 1. **[!UICONTROL レポートスイート権限の管理]**&#x200B;ページで、レポートスイートに割り当てるグループを選択します。
