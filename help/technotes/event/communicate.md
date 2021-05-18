@@ -1,14 +1,13 @@
 ---
 title: ユーザーへの影響の伝達
 description: 組織内のイベントの影響を効果的に伝える方法を学びます。
-translation-type: tm+mt
-source-git-commit: 022d9cbfdae11d7efe1efb7fe503f4fdaa785be1
+exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '400'
 ht-degree: 2%
 
 ---
-
 
 # イベントへの影響をユーザーに伝える
 
@@ -61,7 +60,7 @@ Workspaceの任意のトレンドビジュアライゼーションに対して�
 
 Reports &amp; Analyticsを使用する場合、[カレンダーイベント](/help/components/t-calendar-event.md)を使用して、任意のトレンドレポートで影響を受ける日を強調表示できます。 この方法はAnalysis Workspaceには適用されない。
 
-1. **[!UICONTROL コンポーネント]** > **[!UICONTROL カレンダーイベント]**&#x200B;に移動します。
+1. **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL カレンダーイベント]**&#x200B;に移動します。
 2. 目的のタイトル、日付範囲、メモのテキストを入力します。
 3. 「**[!UICONTROL 保存]**」をクリックします。
 
