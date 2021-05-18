@@ -3,14 +3,13 @@ description: eVar、トラフィックレポート、ソリューションレポ
 keywords: グループ;権限
 subtopic: Users and groups
 title: ディメンションの権限のカスタマイズ
-feature: Admin Tools
+feature: 管理ツール
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 98%
+source-wordcount: '517'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべてのお客様が移行した後、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは廃止されます。
 
 eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。
 
