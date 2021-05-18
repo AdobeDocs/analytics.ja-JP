@@ -2,14 +2,13 @@
 description: 仮想レポートスイートの作成を始める前に、以下に注意してください。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートの作成
-feature: Reports & Analyticsの基本事項
+feature: Reports & Analytics の基本事項
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 99%
+source-wordcount: '368'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +49,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> グループ </td> 
-   <td colname="col2"> <p>この VRS へのアクセスを許可する権限グループを選択します（グループ権限は、<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span></span>からも管理できます）。 </p> </td> 
+   <td colname="col2"> <p>この VRS へのアクセスを許可する権限グループを選択します（グループ権限は、<span class="ignoretag"><span class="uicontrol">管理者</span> &gt; <span class="uicontrol">すべての管理者</span> &gt; <span class="uicontrol">ユーザー管理</span> &gt; <span class="uicontrol">グループ</span></span>からも管理できます）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 親レポートスイート </td> 
