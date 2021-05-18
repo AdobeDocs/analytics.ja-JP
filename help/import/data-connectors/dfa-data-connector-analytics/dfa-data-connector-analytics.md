@@ -5,10 +5,9 @@ title: Adobe Analytics 用 DFA Data Connector
 feature: Data Connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 exl-id: 35854556-c02f-410a-8e4d-2125404a6db4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1742'
 ht-degree: 98%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 98%
 
 Adobe® Data Connectors™ を使用して DoubleClick DFA から Reports &amp; Analytics にデータを自動的に渡すことができる DoubleClick for Advertisers（DFA）統合を活用すれば、この問題を解決できます。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL Data Connectors]**
+**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL Data Connectors]**
 
 ![](assets/data-connectors-home.png)
 
@@ -104,7 +103,7 @@ Floodlight サーバーは、訪問者に関するエラーを返すことがあ
 | タイムアウトおよびエラートラッキング | × | ○ | ○ |
 | ネゴシエートされたクライアント側 ID は不要 | × | × | ○ |
 
-### バージョン 1.5 について  {#section-b5a3e967cfa141ea8f740612336181be}
+### バージョン 1.5 について {#section-b5a3e967cfa141ea8f740612336181be}
 
 統合のバージョン 1.5 では、ランディングページ JavaScript に Integrate モジュールが導入されています。Integrate モジュールは、DFA 広告サーバー（ad.doubleclick.net）への固定サイズのリクエストを可能にし、これにより、以前の統合の 2K のリクエスト制限の問題に対応します。また、設定可能なタイムアウトである、*`s.maxDelay`* が導入され、ネットワークの停止が発生しても Adobe の訪問者データを引き続き収集できます。エラーやタイムアウトは、Analytics 変数にキャプチャすることもできます。
 
