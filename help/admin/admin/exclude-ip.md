@@ -1,20 +1,19 @@
 ---
 title: IP アドレスで除外
 description: 特定のIPアドレスによって生成されたデータがレポートに表示されないようにします。
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: 315a3000-f043-434b-a677-d111aeed7971
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 85%
+source-wordcount: '223'
+ht-degree: 82%
 
 ---
-
 
 # IP アドレスで除外
 
 レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。IP アドレスデータを除外することにより、レポートの精度が向上します。さらに、データを歪曲するサービス妨害（DoS）や悪意のあるイベントからデータを除外することもできます。除外は、ファイアウォールを使用して設定することもできます。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL IP アドレスで除外]**
+**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]**  **[!UICONTROL /IPアドレスごとに除外]**
 
 >[!NOTE]
 >
