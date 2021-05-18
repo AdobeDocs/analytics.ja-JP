@@ -3,14 +3,13 @@ description: すべてのレポートの表示方法と、デフォルトのメ�
 title: レポートの表示設定とナビゲーション
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1470'
 ht-degree: 99%
 
 ---
-
 
 # レポートの表示設定とナビゲーション
 
@@ -18,7 +17,7 @@ ht-degree: 99%
 
 ## レポートの表示設定とナビゲーション {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL レポート設定]**
+**[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL すべてのコンポーネント]** / **[!UICONTROL レポート設定]**
 
 | 要素 | 説明 |
 |--- |--- |
@@ -149,4 +148,3 @@ nav_menu.xml
 | **カスタムレポート** |  |  |
 |  | カスタムレポートは設定済みのものだけが表示されます。 | カスタムレポート |
 |  |  |  |
-
