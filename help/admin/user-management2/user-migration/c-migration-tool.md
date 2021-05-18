@@ -2,11 +2,10 @@
 description: Analytics ユーザー ID を Adobe Experience Cloud 内の Admin Console に移行するプロセスについて説明します。
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '3131'
-ht-degree: 98%
+source-wordcount: '3133'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ Admin Console に関する一般的な（Analytics の移行に関連しない�
 
 移行後に、Admin Console で[Experience Cloud ユーザーおよび製品を管理](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html)できます。
 
-## Analytics ユーザー ID の移行とは  {#section-adbe49aba10c4e62afa836a97894107c}
+## Analytics ユーザー ID の移行とは {#section-adbe49aba10c4e62afa836a97894107c}
 
 管理者は、Analytics ユーザー ID 移行機能を使用して、Analytics User Management から Adobe Admin Console にユーザーアカウントを簡単に移行できます。移行後、ユーザーは、Adobe Experience Cloud で各ソリューションとコアサービスにアクセスすることになります。移行は、顧客ごとに段階的に実施しています。
 
@@ -28,7 +27,7 @@ Admin Console の使用メリットには、次のようなものがあります
 <table id="table_E4465796E224474680D750CAC5434ED3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> メリット </th> 
+   <th colname="col1" class="entry"> 利点 </th> 
    <th colname="col2" class="entry"> 説明 </th> 
   </tr>
  </thead>
@@ -310,7 +309,7 @@ Admin Console の使用メリットには、次のようなものがあります
 
 この移行計画について、現在のユーザーにあらかじめ知らせておきたい場合は、以下のテンプレートをカスタマイズして、現在の Analytics ユーザー全員に送信することができます。
 
-すべてのユーザーに電子メールを送信するには、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／[ユーザーへのメール送信](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)に移動します。
+すべてのユーザーに電子メールを送信するには、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**/[電子メールユーザー](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)に移動します。
 
 **件名：** Adobe Analytics と Adobe Experience Cloud へのログイン方法が新しくなります
 
