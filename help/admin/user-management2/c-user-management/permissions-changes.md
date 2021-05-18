@@ -3,13 +3,12 @@ description: 従来の権限の内容
 keywords: グループ;権限
 subtopic: Users and groups
 title: ユーザーおよびグループ権限の変更
-feature: Admin Tools
+feature: 管理ツール
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 97%
+source-wordcount: '1566'
+ht-degree: 96%
 
 ---
 
@@ -18,9 +17,9 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->ユーザーと製品の管理は[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)に移動しました。 ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーと製品の管理は[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)に移動しました。 ユーザーを移行する時期は、アドビから通知されます。すべてのお客様が移行した後、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは廃止されます。
 
-## 変更内容 {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
+## 変更内容  {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
 **[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL グループ]**
 
@@ -124,7 +123,7 @@ API とインターフェイスでは同じ権限付与システムを使用し�
  </tbody> 
 </table>
 
-## 権限のクイックリファレンス  {#section_A3FDD8259F524B21A5489833533D1B28}
+## 権限のクイックリファレンス {#section_A3FDD8259F524B21A5489833533D1B28}
 
 次の表に、会社のステータスに応じたタスクとその実行場所を示します。
 
