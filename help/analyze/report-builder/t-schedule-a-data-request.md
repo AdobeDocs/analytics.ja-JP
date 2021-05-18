@@ -4,14 +4,13 @@ title: データリクエストのスケジュール設定
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 99%
+source-wordcount: '1029'
+ht-degree: 98%
 
 ---
-
 
 # ワークブックのスケジュール設定
 
@@ -23,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
-> ワークブックをスケジュールするには、Excel 2007 または互換パックがインストール済みである必要があります。Report Builder の 1 ライセンスあたり、最大で 10 件のワークブックをスケジュールできます。ただし、他のライセンスの最大件数を減らすことにより、最大件数を増やすことができます。これをおこなうには、**[!UICONTROL 管理者]**／**[!UICONTROL カンパニー設定]**／**[!UICONTROL Report Builder レポート]**&#x200B;に移動します。スケジュールされた（またはワークブックライブラリにアップロードされた）ワークブックのうち、28 か月以上操作されていない（更新や置き換えをしていない）ワークブックは削除されます。
+> ワークブックをスケジュールするには、Excel 2007 または互換パックがインストール済みである必要があります。Report Builder の 1 ライセンスあたり、最大で 10 件のワークブックをスケジュールできます。ただし、他のライセンスの最大件数を減らすことにより、最大件数を増やすことができます。その場合は、**[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL 会社設定]** > **[!UICONTROL Report Builderレポート]**&#x200B;に移動します。 スケジュールされた（またはワークブックライブラリにアップロードされた）ワークブックのうち、28 か月以上操作されていない（更新や置き換えをしていない）ワークブックは削除されます。
 
 >[!NOTE]
 >
@@ -83,4 +82,3 @@ ht-degree: 99%
 1. 「**[!UICONTROL OK]**」をクリックしてから、「**[!UICONTROL 終了]**」をクリックします。
 
    [スケジュールされたタスクマネージャー](/help/analyze/report-builder/r-arb-scheduled-reports.md)に予定ワークブックが表示されます。
-
