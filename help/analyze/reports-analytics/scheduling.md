@@ -3,14 +3,13 @@ description: レポートのスケジュール、ダウンロードおよび配�
 subtopic: Schedule
 title: レポートのスケジュールと配信
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports & Analytics Basics,Reports and analytics
+feature: Reports & Analyticsの基礎知識，Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1669'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +108,7 @@ Adobe Analytics アプリケーションでレポートの配信予定日時を�
 
 [!UICONTROL 予定レポートマネージャ]には、特定のユーザーが作成したアイテムが表示されます。ユーザーアカウントがアプリケーションで無効になっている場合、予定されたすべての配信が停止されます。
 
-1. 予定レポートマネージャにアクセスするには、**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL スケジュール済みレポート]**&#x200B;をクリックします。
+1. マネージャーにアクセスするには、**[!UICONTROL Analytics]**/**[!UICONTROL コンポーネント]**/**[!UICONTROL すべてのコンポーネント]**/**[!UICONTROL 予定レポート]**&#x200B;をクリックします。
 
 ## レポートリンクの共有 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
