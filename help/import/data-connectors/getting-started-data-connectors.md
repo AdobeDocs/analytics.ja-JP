@@ -1,14 +1,13 @@
 ---
 description: サードパーティアプリケーションから Analytics に追跡データをインポートします。
 title: Analytics Data Connectors 使用の手引き
-translation-type: tm+mt
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 100%
+source-wordcount: '975'
+ht-degree: 99%
 
 ---
-
 
 # Data Connectors の概要
 
@@ -48,7 +47,7 @@ data connectors は、多くの一般的なブラウザーで正しく統合さ�
 [!UICONTROL Data Connectors] ランディングページ（コンソール）にアクセスするには、現在アカウントを持っている必要があります。Adobe Analytics についてもよく理解しておくことをお勧めします。
 
 1. Adobe Experience Cloud にログインします。
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL Data Connectors]** をクリックします。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL Data connectors]**&#x200B;をクリックします。
 1. 「**[!UICONTROL 新規追加]**」をクリックします。
 1. 「**[!UICONTROL 統合を追加]**」インターフェイスに従って、手順を進めます。
 
