@@ -5,9 +5,9 @@ title: Analysis Workspace の新機能
 feature: ワークスペースの基本
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '8323'
+source-wordcount: '8329'
 ht-degree: 99%
 
 ---
@@ -435,7 +435,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
    <td colname="col2"> <p>カスタムテンプレートの最新リリースで、次のアップデートをおこないました。 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">テンプレートの編集モードとプロジェクトの開始時点でのテンプレートの使用を区別しやすくするため、プロジェクトの上部（タイトル付近）にテンプレートアイコンを追加しました。 </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Analysis Workspace でプロジェクトを作成／キュレーション権限が与えられている場合に、管理権限なしで Workspace プロジェクトテンプレートの作成（別名保存）と編集をおこなえるようになりました（<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスを編集</span>／<span class="uicontrol">Analytics ツールをカスタマイズ</span>／<span class="uicontrol">Analysis Workspace でプロジェクトを作成／キュレーション</span></span>）。 </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Analysis Workspace でプロジェクトを作成／キュレーション権限が与えられている場合に、管理権限なしで Workspace プロジェクトテンプレートの作成（別名保存）と編集をおこなえるようになりました( <span class="ignoretag"> <span class="uicontrol"> 管理者</span> &gt; <span class="uicontrol">すべての管理者</span> &gt; <span class="uicontrol">ユーザー管理</span> &gt; <span class="uicontrol">グループ</span> &gt; <span class="uicontrol">全レポートアクセスの編集</span> &gt; <span class="uicontrol">分析ツールのカスタマイズ</span> &gt; <span class="uicontrol">Analysis Workspaceのプロジェクトを作成/キュレーション</span> </span>)。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢献度分析：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > トークン通知 </a> </p> </td> 
-   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。  </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">ユーザー管理ホーム</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">全レポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
+   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。  </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。権限は、<span class="uicontrol"> Analytics </span> <span class="uicontrol">管理者</span> &gt; <span class="uicontrol">すべての管理者</span> <span class="uicontrol">ユーザー管理<span class="uicontrol">グループの編集</span> &gt; <span class="uicontrol">すべてのレポートの編集</span>/<span class="uicontrol">レポートスイートツールのカスタマイズ</span>/<span class="uicontrol">ツールとレポート</span>にアクセスします。 </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>マルチバイト文字を含む CSV ファイル </p> </td> 
@@ -1249,4 +1249,4 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 管理者は、あるユーザーから別のユーザーに [!UICONTROL Analysis Workspace] プロジェクトを転送できます。
 
-プロジェクトを転送するには、**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL 転送]**&#x200B;を選択します。
+**[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]** > **[!UICONTROL 転送]**&#x200B;に移動して、プロジェクトを転送します。
