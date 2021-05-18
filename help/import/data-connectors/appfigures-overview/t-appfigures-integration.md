@@ -2,14 +2,13 @@
 description: Data Connectors 統合ウィザードでは、Data Connectors 統合プロセスを順に進めることができます。
 title: 統合の設定
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 5036e577-611e-4fa1-9a80-dde9753aea53
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 90%
 
 ---
-
 
 # 統合の設定 {#configure-the-integration}
 
@@ -18,7 +17,7 @@ Data Connectors 統合ウィザードでは、Data Connectors 統合プロセス
 統合を設定するには、次の手順を実行します。
 
 1. AppFigures から統合アカウントキーを[生成](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud)します。
-1. 管理者ユーザーとして **[!UICONTROL Analytics]**／**[!UICONTROL Data Connectors]** に移動し、「**[!UICONTROL +新規追加]**」をクリックして新しい統合を追加します。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL Data connectors]**&#x200B;を管理者ユーザーとして開き、**[!UICONTROL + 追加 New]**&#x200B;をクリックして新しい統合を追加します。
 1. 「**[!UICONTROL 表示]**」リストで、「名前別」を選択し、**appFigures** 統合を空のプラグインスロットにドラッグします。
 1. AppFigures 統合の概要ページで、テキストを確認し、チェックボックスを選択して統合に関連する料金を承認したら、「**次へ**」をクリックします。
 1. この統合に使用するレポートスイートを選択します。
