@@ -5,11 +5,10 @@ title: データソースマネージャー
 topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 98%
 
 ---
 
@@ -17,15 +16,15 @@ ht-degree: 100%
 
 データソースの作成および管理を行い、レポートスイートでのデータソースの使用状況を表示します。
 
-**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL データソース]**。
+**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL データソース]**。
 
-## 「作成」タブ {#section_74603FDA3D8842E49F1A51624A06DE20}
+## 「作成」タブ  {#section_74603FDA3D8842E49F1A51624A06DE20}
 
 [!UICONTROL 「作成」]タブでは、現在選択されているレポートスイートに対して新しいデータソースを設定できます。データソースをアクティブにすると、[!UICONTROL データソースウィザード]によってデータソーステンプレートを作成する処理が進められ、データをアップロードするための FTP の場所が作成されます。
 
 「作成」タブでの選択内容により、作成されるテンプレートの初期設定のフィールドが決まります。詳しくは、[インポートファイルテンプレートの作成](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)を参照してください。
 
-## 「管理」タブ {#section_DD559A6701CA45F1A85E56F840F48DBE}
+## 「管理」タブ  {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
 <table id="table_F74696EC855441328CFE0BF49C20D9B0"> 
  <thead> 
@@ -77,6 +76,6 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 「ファイルログ」タブ  {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
+## 「ファイルログ」タブ {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
 ファイルログには検索機能があり、データソース名、データソースタイプ、ファイル名、受信日、ステータスによって情報を検索できます。
