@@ -2,11 +2,10 @@
 description: この詳細なガイドでは、必要な権限や使用可能なディメンションと指標など、Advertising Analytics のすべての機能について説明します。
 title: Advertising Analytics のガイド
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-translation-type: tm+mt
-source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 96%
+source-wordcount: '1263'
+ht-degree: 93%
 
 ---
 
@@ -57,13 +56,13 @@ Analytics には、Analytics 管理者に自動で付与される 2 つの権限
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 管理 </p> </td> 
    <td colname="col2"> <p>ユーザーは Advertising 検索アカウントを設定／編集／表示できます。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">全レポートアクセスの編集</span>／<span class="uicontrol">Analytics ツールのカスタマイズ</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理者</span> &gt;す <span class="uicontrol"> べての管理者&gt; </span>  ユーザー管理 <span class="uicontrol"> &gt;グループ</span> &gt;すべての編集&gt;すべての編集&gt;すべてのレポート&gt;すべてのツール&gt;アクセス&gt;解析 <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> のAdvertising Analyticsのカスタマイズ</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Adminconsole.adobe.com にログイン</span>／<span class="uicontrol">製品</span>／<span class="uicontrol">製品プロファイル</span>／<span class="uicontrol">「権限設定」タブ</span>／<span class="uicontrol">Analytics ツール</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 設定 </p> </td> 
    <td colname="col2"> <p>ユーザーは、Advertising Analytics 用にプロビジョニングするレポートスイートを設定できます。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理者</span>／<span class="uicontrol">ユーザー管理</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">全レポートアクセスの編集</span>／<span class="uicontrol">レポートスイートツールのカスタマイズ</span>／<span class="uicontrol">Advertising Analytics 設定</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理者</span> /す <span class="uicontrol"> べての管理者/ </span>  ユーザー管理 <span class="uicontrol"> /グループ</span>  <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> /グループの編集&gt;すべての編集&gt;すべてのレポートアクセス&gt;すべてのレポートツール&gt;レポートスイート&gt;Advertising Analytics構成の設定のカスタマイズ</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Adminconsole.adobe.com にログイン</span>／<span class="uicontrol">製品</span>／<span class="uicontrol">製品プロファイル</span>／<span class="uicontrol">「権限設定」タブ</span>／<span class="uicontrol">レポートスイートツール</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
   </tr> 
  </tbody> 
