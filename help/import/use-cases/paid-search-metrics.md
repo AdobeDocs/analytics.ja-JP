@@ -1,14 +1,13 @@
 ---
 title: 有料検索指標のインポート
 description: 有料検索指標（Google AdWords、MSN、Yahooなど）を追跡するようにAdobe Analyticsを設定する手順 データソースの使用を参照してください。
-translation-type: tm+mt
-source-git-commit: 81592ab80942b802fff3df62d2cd44b1e376aff8
+exl-id: b25a2a26-d277-4a51-9194-973acb425095
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1212'
 ht-degree: 8%
 
 ---
-
 
 # [!UICONTROL [!UICONTROL データソース]を使用して有料検索]指標をインポート
 
@@ -50,7 +49,7 @@ ht-degree: 8%
 
 [!UICONTROL データ] ソースを使用すると、クリックしないストリームデータをAdobe Analyticsと共有できます。この場合、Adobe Analyticsを使用して有料検索指標を追跡します。 アドビでは、トラッキングコードを鍵として、有料検索指標とAdobe Analytics指標の2つのデータを結び付けます。
 
-1. **[!UICONTROL Adobe Analytics/管理者/データソース]**&#x200B;に移動します。
+1. **[!UICONTROL Adobe Analytics/管理者/すべての管理者/データソース]**&#x200B;に移動します。
 1. 「**[!UICONTROL 作成]**」タブを選択して、新しいデータソースのアクティブ化を開始します。
 1. 「**[!UICONTROL カテゴリ]**&#x200B;を選択」で、「**[!UICONTROL 広告キャンペーン]**」を選択します。
 
