@@ -1,14 +1,13 @@
 ---
 title: Adobe Analyticsへのログインのトラブルシューティング
 description: Adobe Analyticsにログインできない場合に実行する手順です。
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: e670a043-c55b-4717-9b60-613ea4d04382
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
-
 
 # Adobe Analyticsへのログインのトラブルシューティング
 
@@ -45,7 +44,7 @@ Experience Cloudを使用したAdobe Analyticsへのログインに関する問�
 >ユーザーのパスワードをリセットする次の手順は、従来のAnalytics IDにのみ適用され、Adobe IDのパスワードは適用されません。組織でAdobe IDを使用している場合は、[adminconsole.adobe.com](https://adminconsole.adobe.com)でユーザーアカウントを管理できます。
 
 1. 管理者権限を持つアカウントでAdobe Analyticsにログインします。
-2. **[!UICONTROL 管理者]** > **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
+2. **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]**&#x200B;に移動します。
 3. 「**[!UICONTROL ユーザー]**」タブをクリックし、目的のユーザーの横にある「**[!UICONTROL 編集]**」をクリックします。
 4. パスワードを任意の値に変更し、「**[!UICONTROL 次のログイン時にパスワードの変更をユーザーに要求]**」チェックボックスをオンにします。
 5. 新しいパスワードをユーザーに通知します。
