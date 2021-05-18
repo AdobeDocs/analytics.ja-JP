@@ -3,10 +3,10 @@ description: Data Connectors 統合ウィザードでは、Data Connectors 統�
 title: Data Connectors 統合ウィザードの実行
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 exl-id: 9ba013cd-e0a5-4dbd-aad9-b6004f4a9e56
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 86%
+source-wordcount: '174'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 Data Connectors 統合ウィザードでは、Data Connectors 統合プロセスを順に進めることができます。
 
-1. [!DNL Adobe Experience Cloud] にログインします。
+1. [!DNL Adobe Experience Cloud]にログインします。
 1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL レポートスイートへのアクセス]**&#x200B;をクリックし、目的のレポートスイートをアクティブにします。
 1. **[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL Data connectors]**&#x200B;をクリックします。
 
