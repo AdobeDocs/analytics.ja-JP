@@ -2,14 +2,13 @@
 description: Admin Console で Analytics ユーザー、グループおよび製品を管理します。
 subtopic: Users and groups
 title: ユーザーと製品の管理
-feature: Admin Tools
+feature: 管理ツール
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '565'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +18,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**／**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべてのお客様が移行した後、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは廃止されます。
 
 ## Admin Console 管理者向けヘルプリソース {#section_C13BBB89E4F248F193358BB3A59DD502}
 
