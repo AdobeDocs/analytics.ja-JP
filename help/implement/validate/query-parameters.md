@@ -1,14 +1,13 @@
 ---
 title: データ収集クエリーパラメーター
 description: イメージリクエストで使用されるすべてのクエリー文字列パラメーターをリストします。
-translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
+source-git-commit: 7025d132da9d281da6d57973a195a5e86a39bf18
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 94%
 
 ---
-
 
 # データ収集クエリーパラメーター
 
@@ -46,6 +45,7 @@ ht-degree: 100%
 | `j` | なし | ブラウザーにインストールされている JavaScript バージョン。 |
 | `k` | なし | [Cookie サポート](/help/components/dimensions/cookie-support.md)ディメンションで使用されます。 |
 | `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | リスト変数。 |
+| `lrt` | なし | 「最後のリクエストのタイミング」。最後のリクエストのラウンドトリップ時間（ミリ秒）です。 ページから複数のリクエストが送信されている場合、またはページがシングルページアプリ(SPA)の場合にのみ送信されます。 |
 | `mid` | なし | Experience Cloud 訪問者 ID。 |
 | `ndh` | なし | イメージリクエストが AppMeasurement から送信されたかどうかを示すフラグ。 |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Cookie が設定されている場所を判断するのに役立ちます。 |
