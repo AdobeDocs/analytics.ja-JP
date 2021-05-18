@@ -2,14 +2,13 @@
 description: Kampyle data connectorをAdobe Analyticsにデプロイします。
 title: 統合のデプロイ
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '450'
 ht-degree: 46%
 
 ---
-
 
 # 統合のデプロイ {#deploying-the-integration}
 
@@ -20,7 +19,7 @@ ht-degree: 46%
 統合をアクティブ化するには、Data Connectorsインターフェイスの設定ウィザードを完了します。
 
 1. Adobe Experience Cloud にログインします。
-1. **[!UICONTROL Data Connectors]**&#x200B;に移動します。
+1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL Data connectors]**&#x200B;をクリックします。
 1. Kampyle 統合ウィザードを起動します。
 1. 目的のレポートスイートを選択し、統合の名前を指定します。
 1. 次のフィールドを設定します。
