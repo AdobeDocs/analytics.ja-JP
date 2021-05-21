@@ -2,16 +2,16 @@
 description: ページネーション、フィルタリング、並べ替えについて説明するビデオ。
 title: テーブルのページネーション、フィルタリングおよび並べ替え
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-feature: Freeform Tables
+feature: フリーフォームテーブル
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 97%
+exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '98'
+ht-degree: 100%
 
 ---
-
 
 # テーブルのページネーション、フィルタリングおよび並べ替え
 
@@ -36,4 +36,3 @@ ht-degree: 97%
 * 次の語句で終わる
 
 ![](assets/advanced-filter.png)
-
