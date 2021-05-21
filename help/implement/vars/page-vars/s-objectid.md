@@ -1,18 +1,18 @@
 ---
 title: s_objectID
 description: Activity Map で、サイト上の一意のリンクを識別します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '401'
 ht-degree: 100%
 
 ---
 
-
 # s_objectID
 
-`s_objectID` 変数はリンクの一意の識別子を提供します。これは、[Activity Map](/help/analyze/activity-map/activity-map.md) のレポートをより正確にするために使用します。頻繁に変更されるリンクがページ上にある場合は、`s_objectID` 変数を使用して一意のリンクの場所を Activity Map に知らせ、必要に応じてデータを正しくグループ化できます。
+`s_objectID` 変数はリンクの一意の ID を提供します。これは、[Activity Map](/help/analyze/activity-map/activity-map.md) のレポートをより正確にするために使用します。頻繁に変更されるリンクがページ上にある場合は、`s_objectID` 変数を使用して一意のリンクの場所を Activity Map に知らせ、必要に応じてデータを正しくグループ化できます。
 
 Activity Map の精度が組織にとって重要な場合は、サイト上のリンクの `onClick` イベントに `s_objectID` 変数を含めることをお勧めします。詳しくは、『Analyze ユーザーガイド』の [Activity Map リンクトラッキングの使用例](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)を参照してください。
 
