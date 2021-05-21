@@ -1,14 +1,14 @@
 ---
 title: データフィード UI
 description: データフィードインターフェイスのナビゲーション方法を説明します。
-translation-type: tm+mt
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
-workflow-type: tm+mt
+exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '637'
 ht-degree: 100%
 
 ---
-
 
 # データフィードの管理
 
@@ -57,9 +57,9 @@ ht-degree: 100%
 ![列アイコン](assets/cols.jpg)
 
 * **フィード名**：必須列。フィード名を表示します。
-* **フィード ID**：フィード ID（一意の識別子）を表示します。
+* **フィード ID**：フィード ID（一意の ID）を表示します。
 * **レポートスイート**：フィードが参照するデータのレポートスイート。
-* **レポートスイート ID**：レポートスイートの一意の識別子。
+* **レポートスイート ID**：レポートスイートの一意の ID。
 * **データ列**：フィードに対してアクティブなデータ列。ほとんどの場合、列数が多すぎてこの形式で表示できません。
 * **間隔**：フィードが 1 時間ごとか 1 日ごとかを示します。
 * **宛先の種類**：フィードの宛先タイプ。例えば、FTP、Amazon S3、Azure などです。
