@@ -1,14 +1,14 @@
 ---
 title: getPreviousValue
 description: 変数に渡された最後の値を取得します。
+exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 translation-type: ht
-source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '895'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getPreviousValue
 
