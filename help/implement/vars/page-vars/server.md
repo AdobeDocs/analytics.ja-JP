@@ -1,14 +1,14 @@
 ---
 title: サーバー
 description: 「サーバー」ディメンションを設定します。
-translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
-workflow-type: tm+mt
+exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '159'
 ht-degree: 100%
 
 ---
-
 
 # サーバー
 
