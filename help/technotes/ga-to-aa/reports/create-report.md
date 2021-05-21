@@ -1,14 +1,14 @@
 ---
 title: Analysis Workspace での基本レポートの作成
 description: Google Analytics などのサードパーティツールに詳しいユーザー向けに、Analysis Workspace で基本レポートを作成する方法について説明します。
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 
 ---
-
 
 # Google Analytics ユーザー向け：Analysis Workspace での基本レポートの作成方法
 
