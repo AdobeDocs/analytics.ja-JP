@@ -1,14 +1,14 @@
 ---
 title: トラッキングオプトアウト理由
 description: デスクトップまたはモバイルブラウザーで cookie が無効にされたかどうかを示します。
-translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
-workflow-type: tm+mt
+exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '20'
 ht-degree: 100%
 
 ---
-
 
 # トラッキングオプトアウト理由
 
