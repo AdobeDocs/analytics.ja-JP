@@ -1,14 +1,14 @@
 ---
 title: getVisitDuration
 description: 訪問者がサイトに来訪した時間を追跡します。
+exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 translation-type: ht
-source-git-commit: ca8e563118dcc74dfa718bd203db295faf4e9aa6
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '585'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getVisitDuration
 
