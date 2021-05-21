@@ -1,14 +1,14 @@
 ---
 title: getAndPersistValue
 description: 後でいつでも取得できる値を格納します。
+exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 translation-type: ht
-source-git-commit: a2970e05abf0d1f963175db6e3554aa0e3034a70
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '934'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getAndPersistValue
 
