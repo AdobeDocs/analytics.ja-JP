@@ -2,16 +2,16 @@
 description: Workspace の表示のみのプロジェクト
 keywords: 表示専用プロジェクト
 title: 表示専用プロジェクト
-feature: Curate and Share
+feature: キュレーションと共有
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 97%
+exl-id: 53372247-6902-4c7f-9132-38a1d453186c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '251'
+ht-degree: 100%
 
 ---
-
 
 # 表示専用プロジェクト
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 * 左側のレールを非表示にする
 * レポートスイート
-* パネルカレンダーの日付範囲注意：受信者にカレンダー制御を付与する場合は、日付範囲を含む[ドロップダウンフィルター](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)を追加します。
+* パネルカレンダーの日付範囲注意：受信者にカレンダー制御を付与する場合は、日付範囲を含む[ドロップダウンフィルター](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)を追加します。
 * フリーフォームフィルター
 * 表示可能な行のフリーフォーム数
 * フリーフォーム行、列またはビジュアライゼーションの設定
