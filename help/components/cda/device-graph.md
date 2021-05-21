@@ -1,14 +1,14 @@
 ---
 title: デバイスグラフ
 description: デバイスグラフを使用してデータをステッチする際の前提条件と制限事項を理解します。
-translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
 ---
-
 
 # デバイスグラフ
 
@@ -44,4 +44,3 @@ ht-degree: 100%
 ## 次の手順
 
 組織がすべての要件を満たし、制限事項を理解したら、[クロスデバイス分析の設定](setup.md)を開始できます。
-
