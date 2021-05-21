@@ -2,16 +2,16 @@
 description: アラートを作成、編集または削除します。
 title: アラートマネージャー
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI Tools
+feature: AI ツール
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 96%
+exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '161'
+ht-degree: 100%
 
 ---
-
 
 # アラートマネージャー
 
@@ -36,4 +36,3 @@ ht-degree: 96%
 * アラートの所有者の指定／変更。
 * 他のフィルターの追加。
 * アラートの&#x200B;**有効期限**&#x200B;の定義。
-
