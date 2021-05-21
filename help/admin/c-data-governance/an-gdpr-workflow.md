@@ -2,14 +2,14 @@
 description: Adobe Analytics の実装で、データ主体のデータプライバシーアクセスおよび削除権限をサポートできるようにする手順の概要を説明します。
 title: プライバシーワークフロー
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '399'
 ht-degree: 100%
 
 ---
-
 
 # プライバシーワークフロー
 
