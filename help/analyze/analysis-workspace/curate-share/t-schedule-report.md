@@ -2,16 +2,16 @@
 description: 電子メールを使用して Analysis Workspace を送信したり Analysis Workspace の配信をスケジュールしたりします。
 keywords: Analysis Workspace
 title: プロジェクトのスケジュール
-feature: Curate and Share
+feature: キュレーションと共有
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 98%
+exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '473'
+ht-degree: 100%
 
 ---
-
 
 # プロジェクトのスケジュール
 
