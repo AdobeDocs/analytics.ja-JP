@@ -1,14 +1,14 @@
 ---
 title: Java 有効
 description: Java がブラウザーで有効になっているかどうかを特定します。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # Java 有効
 
