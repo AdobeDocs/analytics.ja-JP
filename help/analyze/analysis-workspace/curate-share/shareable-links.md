@@ -1,17 +1,17 @@
 ---
 description: プロジェクトやビジュアライゼーションへの共有可能なリンクを作成する方法を学びます。
-keywords: Analysis Workspaceシェア
+keywords: Analysis Workspace の共有
 title: 共有可能なリンクの作成
-feature: Curate and Share
+feature: キュレーションと共有
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 97%
+exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '302'
+ht-degree: 100%
 
 ---
-
 
 # 共有可能なリンクの作成
 
