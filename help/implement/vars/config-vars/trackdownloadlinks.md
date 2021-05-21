@@ -1,14 +1,14 @@
 ---
 title: trackDownloadLinks
 description: ダウンロードリンクの自動リンクトラッキングを有効または無効にします。
-translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: tm+mt
+exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '183'
 ht-degree: 100%
 
 ---
-
 
 # trackDownLoadLinks
 
