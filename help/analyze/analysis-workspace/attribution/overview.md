@@ -1,16 +1,16 @@
 ---
 title: アトリビューションの概要
 description: 成功イベントのクレジットを複数のディメンション項目に関連付ける概念。
-feature: Attribution
+feature: アトリビューション
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 99%
+exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
-
 
 # アトリビューションの概要
 
