@@ -1,14 +1,14 @@
 ---
 title: 週
 description: 指標が発生した週。
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
-workflow-type: tm+mt
+exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
-
 
 # 週
 
@@ -20,6 +20,6 @@ ht-degree: 61%
 
 ## ディメンション項目
 
-Analysis Workspaceでは、ディメンション項目に週の最初の日付（月、日、年）が含まれます。
+Analysis Workspace では、ディメンション項目に週の最初の日付（月、日、年）が含まれます。
 
-Data Warehouseでは、ディメンション項目には、リクエストの日付範囲に基づく番号付きの週が含まれます。 例えば、1週目は`"Week 1"`です。 リクエストに週の一部が含まれる場合、データはディメンション項目`"Week 0"`にグループ化されます。
+Data Warehouse では、ディメンション項目にリクエストの日付範囲に基づいて番号が付けられた週が含まれます。 例えば、1 週目は `"Week 1"` です。 リクエストに週の一部が含まれる場合、データはディメンションアイテム `"Week 0"` にグループ化されます。
