@@ -1,14 +1,14 @@
 ---
 title: purchaseID
 description: 一意の購入識別子に基づいてヒットの重複を除外します。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # purchaseID
 
@@ -24,7 +24,7 @@ Launch にはこの変数を使用するための専用のフィールドはあ�
 
 ## AppMeasurement および Launch カスタムコードエディターの s.purchaseID
 
-`s.purchaseID` 変数は、購入に対する一意の識別子を含む文字列です。これは購入イベントと同じヒットに設定されます。この変数を設定するには、英数字のみを使用します。
+`s.purchaseID` 変数は、購入に対する一意の ID を含む文字列です。これは購入イベントと同じヒットに設定されます。この変数を設定するには、英数字のみを使用します。
 
 この変数には最大 20 バイトを格納できます。20 バイトを超える値は切り捨てられます。この切り捨てられた値が後続の切り捨てられた値と一致する場合、後続のヒットの重複は排除されます。
 
