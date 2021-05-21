@@ -3,14 +3,14 @@ description: Adobe Audience Manager（AAM）は、ファーストパーティ、
 solution: Experience Cloud
 title: Audience Analytics の概要
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: tm+mt
+exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '464'
 ht-degree: 100%
 
 ---
-
 
 # Audience Analytics の概要
 
