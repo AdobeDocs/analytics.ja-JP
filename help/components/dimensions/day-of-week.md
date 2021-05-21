@@ -1,14 +1,14 @@
 ---
 title: 曜日
 description: 曜日を表します。日付の範囲は関係ありません。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '127'
 ht-degree: 100%
 
 ---
-
 
 # 曜日
 
