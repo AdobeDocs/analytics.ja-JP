@@ -1,16 +1,16 @@
 ---
 title: Adobe Analytics ダッシュボード — 概要
 description: Adobe Analytics ダッシュボードの製品ドキュメントとセルフヘルプ
-feature: Analytics Dashboards
+feature: Analytics ダッシュボード
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 97%
+exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '208'
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics [!UICONTROL ダッシュボード] - 概要
 
