@@ -2,20 +2,20 @@
 description: 概要番号および変更ビジュアライゼーションを使用して、プロジェクト内の重要なデータポイントを表示します。
 title: 数の概要と変更の概要
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: Visualizations
+feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 99%
+exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '463'
+ht-degree: 100%
 
 ---
 
-
 # 数の概要と変更の概要
 
-## 数値の概要ビジュアライゼーション  {#summary-number}
+## 数値の概要ビジュアライゼーション {#summary-number}
 
 概要番号ビジュアライゼーションを使用して、プロジェクトで重要な大きな数を強調表示します。このビジュアライゼーションは、次のように動作します。
 
