@@ -1,14 +1,14 @@
 ---
 title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
-
 
 # trackingServer
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
-> この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートで個別訪問者数が一時的に急増する可能性があります。
+> この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートでユニーク訪問者数が一時的に急増する可能性があります。
 
 ## Adobe Experience Platform Launch の「トラッキングサーバー」
 
@@ -59,9 +59,9 @@ s.trackingServer = "data.example.com";
 s.trackingServer = "example.data.adobedc.net";
 ```
 
-Adobe Analytics を使用する別の組織では採用されないような、組織に固有のサブドメインを選択します。組織に割り当てられている訪問者名前空間が推奨されます。  組織内のすべての実装で同じトラッキングサーバーを使用していることを確認します。[ソリューション設計ドキュメント](../../prepare/solution-design.md)でこの情報を維持すると役立つ場合があります。
+Adobe Analytics を使用する別の組織では採用されないような、組織に固有のサブドメインを選択します。組織に割り当てられた訪問者名前空間を推奨します。  組織内のすべての実装で同じトラッキングサーバーを使用していることを確認します。[ソリューション設計ドキュメント](../../prepare/solution-design.md)でこの情報を維持すると役立つ場合があります。
 
-組織で、既に`sc.omtrdc.net`ドメインまたは`2o7.net`ドメインのサードパーティトラッキングサーバーを使用している可能性があります。  これらは主にAdobe Analyticsの以前のバージョンで使用され、現在も有効です。
+組織が既に、`sc.omtrdc.net`ドメインまたは `2o7.net`ドメインのサードパーティトラッキングサーバーを使用している可能性があります。  これらは主に Adobe Analytics の以前のバージョンで使用されていましたが、現在も有効です。
 
 >[!NOTE]
 >
