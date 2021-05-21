@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics データのサードパーティ製品との比較
 description: Adobe Analytics のデータを他の Analytics ソリューションで収集されたデータと直接比較する場合のオプションを理解します。
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '252'
 ht-degree: 100%
 
 ---
 
-
 # Adobe Analytics データのサードパーティ製品との比較
 
-オンラインでは多くの分析ソリューションを利用できます。これらの各ソリューションは、独自のメソッドを使用してコードを実装し、データを収集します。各製品で使用されるページ表示、訪問、個別訪問者、その他の指標は、それぞれ独自に定義されます。
+オンラインでは多くの分析ソリューションを利用できます。これらの各ソリューションは、独自のメソッドを使用してコードを実装し、データを収集します。各製品で使用されるページ表示、訪問、ユニーク訪問者、その他の指標は、それぞれ独自に定義されます。
 
 これらの定義、データ構造、実装は大幅に異なるため、 **Adobe カスタマーケアは、サードパーティの分析ツールとの不一致のトラブルシューティングをおこないません。**
 
