@@ -1,15 +1,15 @@
 ---
 title: trackInlineStats
 description: 実装で Activity Map を有効または無効にします。
-keywords: アクティビティマップを無効にする
-translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: tm+mt
+keywords: Activity Map を無効にする
+exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # trackInlineStats
 
