@@ -3,14 +3,14 @@ description: 計算指標および高度な計算（または派生）指標は�
 keywords: 計算指標,派生指標,高度な計算指標
 title: 計算指標および高度な計算（派生）指標
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
+exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '595'
 ht-degree: 100%
 
 ---
-
 
 # 計算指標および高度な計算（派生）指標
 
@@ -106,4 +106,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
