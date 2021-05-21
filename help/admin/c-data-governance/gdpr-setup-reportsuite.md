@@ -2,14 +2,14 @@
 description: レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。事前にラベルとその意味について学んでおいてください。
 title: レポートスイートのデータのラベル設定
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
 ---
-
 
 # レポートスイートのデータのラベル設定
 
@@ -93,4 +93,3 @@ ht-degree: 100%
    >常にコピー先レポートスイートをチェックして、ラベルが適切にコピーされていることを確認する必要があります。これは、ID または DEL ラベルを持つ変数で特に重要です。
 
 1. 「**[!UICONTROL 適用]**」をクリックします。
-
