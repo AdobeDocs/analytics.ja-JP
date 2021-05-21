@@ -1,14 +1,14 @@
 ---
 title: s_gi()
 description: AppMeasurement のインスタンスを作成し、追跡します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: f87eff07-7e60-480b-8334-3db538c1030e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
 ---
-
 
 # s_gi
 
