@@ -1,14 +1,14 @@
 ---
 title: 郵便番号
 description: 訪問者の郵便番号。
-translation-type: tm+mt
-source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
-workflow-type: tm+mt
+exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # 郵便番号
 
@@ -31,9 +31,9 @@ ht-degree: 78%
 
 ディメンション項目には、訪問者の郵便番号が含まれます。
 
-## Adobe Analyticsでどの国の郵便番号を報告できますか。
+## Adobe Analytics では、どの国の郵便番号をレポートできますか？
 
-* アランド諸島
+* オーランド諸島
 * アルバニア
 * アルジェリア
 * アルゼンチン
@@ -58,7 +58,7 @@ ht-degree: 78%
 * エストニア
 * フィンランド
 * フランス
-* ジョージア
+* グルジア
 * ドイツ
 * ジブラルタル
 * ギリシャ
@@ -74,11 +74,11 @@ ht-degree: 78%
 * 日本
 * ヨルダン
 * カザフスタン
-* キルギス
+* キルギスタン
 * ラトビア
 * レバノン
 * リトアニア
-* ルクセンブルク
+* ルクセンブルグ
 * マレーシア
 * マルタ
 * モーリシャス
@@ -110,7 +110,7 @@ ht-degree: 78%
 * スリランカ
 * スウェーデン
 * スイス
-* 台湾地域
+* 台湾
 * タイ
 * チュニジア
 * トルコ
