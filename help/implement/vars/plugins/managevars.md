@@ -1,14 +1,14 @@
 ---
 title: manageVars
 description: 一度に複数の Analytics 変数の値を変更します。
+exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 translation-type: ht
-source-git-commit: 93a2dc1b265c92468722ebc2e3656db55d63547c
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '697'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：manageVars
 
