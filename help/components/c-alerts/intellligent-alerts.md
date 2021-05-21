@@ -2,14 +2,14 @@
 description: 新しいインテリジェントアラートシステムでは、アラートをより詳細に制御でき、異常値検出とアラートシステムが統合されます。
 title: インテリジェントアラート
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: tm+mt
+exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # インテリジェントアラート
 
@@ -44,7 +44,7 @@ ht-degree: 96%
 
    ![](assets/add-alert.png)
 
-## FAQ：アラートが計算およびトリガーされる仕組み  {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+## FAQ：アラートが計算およびトリガーされる仕組み {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
 % しきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。低いしきい値（90％など）を設定すると、高いしきい値（99％など）を設定した場合よりも多くの異常値が取得されます。99.75％と 99.99％のしきい値は、時間単位の精度用に、多数の異常値がトリガーされないようにするために導入されました。
 
@@ -76,8 +76,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：「予期された値」のテーブル（点線またはそれらの値の意味の出力で構成される）を入手できますか。</b> </p> </td> 
-   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。固定の30日間のトレーニング期間（95%の間隔）を使用しています。 </p> </td> 
+   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。固定の 30 日間のトレーニング期間、固定の 95% 間隔を使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
