@@ -1,24 +1,24 @@
 ---
-description: Advertising Analyticsワークフローの概要
+description: Advertising Analytics ワークフローの概要
 title: ワークフローの概要
-translation-type: tm+mt
-source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
-workflow-type: tm+mt
+exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '164'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-
 # ワークフローの概要
 
-![](assets/step1_icon.png) Google/Bing検索データを表示するAdobe AnalyticsレポートスイートをExperience Cloud組織にマップします。
+![](assets/step1_icon.png) Google と Bing の検索データを表示する Adobe Analytics レポートスイートを、Experience Cloud 組織にマッピングします。
 
 [組織へのレポートスイートのマッピング](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)を参照してください。
 
 ![](assets/step2_icon.png) [レポートスイートごとの Advertising Analytics レポートの有効化](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Experience Cloudに対応したレポートスイートの[!UICONTROL Advertising Analytics]レポートを有効にします。
+Experience Cloud 対応レポートスイートの [!UICONTROL Advertising Analytics] レポートを有効にします。
 
 ![](assets/step3_icon.png) [Advertising Analytics アカウントの設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -30,7 +30,7 @@ Analytics 管理ツールで設定します。
 
 レポートは以下で利用できます。
 
-* Analysis Workspace:[!UICONTROL 有料検索パフォーマンス]テンプレート
+* Analysis Workspace：[!UICONTROL 有料検索パフォーマンス]テンプレート
 * Reports &amp; Analytics
 * Report Builder
 * Analytics レポート API
