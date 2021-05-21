@@ -1,14 +1,14 @@
 ---
 title: リファラータイプ
 description: 転送者のタイプ。訪問者の送信元に応じて異なります。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '423'
 ht-degree: 100%
 
 ---
-
 
 # リファラータイプ
 
