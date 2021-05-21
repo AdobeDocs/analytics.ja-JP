@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics での滞在時間の計算方法
 description: 滞在時間ディメンションおよび指標の集計ページ。
+exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1557'
 ht-degree: 100%
 
 ---
-
 
 # 滞在時間の概要
 
