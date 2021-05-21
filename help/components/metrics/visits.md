@@ -1,14 +1,14 @@
 ---
 title: 訪問数
 description: 1 回のランディングでの一連のページビュー。
-translation-type: tm+mt
-source-git-commit: ee9868b53b93c1ffabdd48e83e38d3cafc9a4c2a
-workflow-type: tm+mt
+exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-
 
 # 訪問数
 
@@ -56,6 +56,6 @@ ht-degree: 89%
 
 ディメンションのコンテキスト内の訪問（[マーケティングチャネルなど](../dimensions/marketing-channel.md)）は、特定のディメンション項目を含む訪問の回数をいつでも示します。同じ訪問の異なるヒットに複数のディメンション項目が頻繁に存在します。通常、ディメンション項目に関するレポートの訪問数を合計しようとすると意味がありません。
 
-## Data Warehouse内のすべての訪問者の訪問
+## Data Warehouse 内のすべての訪問者の訪問
 
-「訪問回数 — すべての訪問者数」指標は、「訪問回数」指標に加えてData Warehouseで利用できます。 「訪問回数 — すべての訪問者数」指標は、他のAnalyticsツールの「訪問回数」指標と同等です。 Data Warehouseの「訪問回数」指標は、永続的なcookieを持たない訪問者を除外します。 Adobeでは、訪問を指標として求めるData Warehouseリクエストに「訪問回数 — すべての訪問者数」を使用することを推奨します。
+「訪問回数 - すべての訪問者数」指標は、「訪問回数」指標に加えて Data Warehouse で利用できます。 「訪問回数 - すべての訪問者数」指標は、他の Analytics ツールの「訪問回数」指標と同等です。 Data Warehouse の「訪問回数」指標は、永続的な Cookie を持たない訪問者を除外します。 アドビでは、訪問を指標として求める Data Warehouse リクエストに「訪問回数 - すべての訪問者数」を使用することを推奨します。
