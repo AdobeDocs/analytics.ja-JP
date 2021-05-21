@@ -1,14 +1,14 @@
 ---
 title: 外部電子メールトラッキング
 description: Adobe Analytics を使用して電子メールコンテンツを追跡します。
-translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
-workflow-type: tm+mt
+exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
 ---
-
 
 # 外部電子メールトラッキング
 
@@ -102,4 +102,3 @@ Analytics を使用して電子メールキャンペーンの成功を判定し�
       ```
 
       [!UICONTROL カスタムインサイト]変数に対してパスを有効にした場合、[!UICONTROL パス]レポート（[!UICONTROL 次ページのフロー]、[!UICONTROL フォールアウト]など）を使用して、ランディングページからの訪問者のナビゲーションを確認できます。
-
