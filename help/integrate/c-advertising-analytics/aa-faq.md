@@ -2,14 +2,14 @@
 description: Advertising Analytics に関するよくある質問。
 title: よくある質問
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
+exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1411'
 ht-degree: 100%
 
 ---
-
 
 # よくある質問
 
@@ -157,4 +157,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
