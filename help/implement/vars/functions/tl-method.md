@@ -1,14 +1,14 @@
 ---
 title: tl
 description: リンクトラッキングコールをアドビに送信します。
-translation-type: tm+mt
-source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '606'
 ht-degree: 100%
 
 ---
-
 
 # tl
 
