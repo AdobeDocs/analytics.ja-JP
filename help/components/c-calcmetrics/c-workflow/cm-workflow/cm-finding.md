@@ -2,20 +2,20 @@
 description: 指標を検索するための 2 つの主な方法（並べ替えおよびフィルタリング）について説明します。
 title: 指標の検索
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: tm+mt
+exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '238'
 ht-degree: 100%
 
 ---
 
-
 # 指標の検索
 
 指標を検索するための 2 つの主な方法（並べ替えおよびフィルタリング）について説明します。
 
-## 並べ替え  {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## 並べ替え {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
 レポートを開き、レポートの左側の指標アイコン ![](assets/metrics_icon.png) をクリックして指標レールを表示させると、指標セレクターの「**[!UICONTROL 並べ替え順]**」ドロップダウンリストに次の 4 つの並べ替えオプションが表示されます。
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 | 頻繁に使用 | レポートでよく使用される指標を初心者ユーザーが確認する必要がある場合に役立ちます。 |
 | 最近使用 | 特定のプロジェクトで同じ指標のセットを繰り返し使用する場合に役立ちます。 |
 
-## フィルタリング - 詳細選択  {#section_33818CC048C04F098703AC229693F8CA}
+## フィルタリング - 詳細選択 {#section_33818CC048C04F098703AC229693F8CA}
 
 レポートを開き、指標アイコンをクリックして、「**[!UICONTROL 管理]**」をクリックします。フィルターアイコンをクリックします。様々な方法でフィルタリングできます。
 
@@ -64,4 +64,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
