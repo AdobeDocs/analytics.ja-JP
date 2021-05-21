@@ -1,14 +1,14 @@
 ---
 title: 分類の概要
 description: ディメンション項目のグループ化をカスタマイズします。
-translation-type: tm+mt
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # 分類の概要
 
@@ -62,4 +62,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
