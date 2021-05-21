@@ -1,14 +1,14 @@
 ---
 title: デジタルアシスタント向け Analytics
 description: Amazon Alexa や Google Home などのデジタルアシスタントに Adobe Analytics を実装します。
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # デジタルアシスタント向け Analytics
 
@@ -74,7 +74,7 @@ Cache-Control: no-cache
 
 ## ユーザー／訪問者の識別
 
-Adobe Analytics は、[Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) を使用して、同じ人物と時間の経過に応じてインタラクションを結び付けます。ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。ほとんどの場合、この値を一意の識別子として渡すことができます。一部のプラットフォームでは、100 文字を超える識別子を返すことができます。このような場合、固有の識別子を固定長値にハッシュするには、標準のハッシュアルゴリズム（MD5 や Sha1 など）を使用することをお勧めします。
+Adobe Analytics は、[Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) を使用して、同じ人物と時間の経過に応じてインタラクションを結び付けます。ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。ほとんどの場合、この値を一意の ID として渡すことができます。一部のプラットフォームでは、100 文字を超える識別子を返すことができます。このような場合、固有の識別子を固定長値にハッシュするには、標準のハッシュアルゴリズム（MD5 や Sha1 など）を使用することをお勧めします。
 
 様々なデバイス（例えば、Web アシスタントとデジタルアシスタント）で ECID をマッピングする場合、ID サービスを使用すると最も大きな価値が得られます。モバイルアプリの場合は、Experience Platform SDK をそのまま使用し、`setCustomerID` メソッドを使用してユーザー ID を送信します。ただし、アプリがサービスの場合、ECID としてサービスで提供されるユーザー ID を使用し、`setCustomerID` で設定します。
 
@@ -113,7 +113,7 @@ Cache-Control: no-cache
 
 例えばユーザーが「Siri、昨夜のディナー代として、ジョンにバンキングアプリから 20 ドル送金して」と言った場合は、その目的は&#x200B;*sendMoney* などになります。
 
-これらの各要求を eVar として送信することで、会話アプリの各目的に関するパスレポートを作成できます。目的がなくてもアプリがリクエストを処理できることを確認します。Adobeでは、変数を省略するのではなく、インテントコンテキストデータ変数に「インテントが指定されていません」を渡すことをお勧めします。
+これらの各要求を eVar として送信することで、会話アプリの各目的に関するパスレポートを作成できます。目的がなくてもアプリがリクエストを処理できることを確認します。変数を省略するのではなく、インテントコンテキストデータ変数に「No Intent Specified（インテントが指定されていません）」を渡すことをお勧めします。
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
