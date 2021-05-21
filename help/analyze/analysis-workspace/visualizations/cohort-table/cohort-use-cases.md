@@ -3,16 +3,16 @@ description: コホート分析の使用例です。
 keywords: Analysis Workspace
 title: コホート分析の使用例
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-feature: Visualizations
+feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 99%
+exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '929'
+ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL コホート分析]の使用例
 
