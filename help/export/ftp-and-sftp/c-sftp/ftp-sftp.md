@@ -3,14 +3,14 @@ description: SFTP は、データ転送を安全に行うためのプロトコ�
 keywords: ftp;sftp
 title: セキュアファイル転送プロトコル - 概要
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: tm+mt
+exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # セキュアファイル転送プロトコル - 概要
 
@@ -35,4 +35,3 @@ SFTP は、データ転送を安全に行うためのプロトコルであり、
 * [パスワードなしでの SFTP 経由でのアドビへの接続。](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 * [SFTP を使用したアドビの FTP アカウントへの接続](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
 * データフィード、Reports &amp; Analytics、Ad Hoc Analysis などの任意のレポートをアドビの FTP にプッシュしたり、アドビの FTP から取得したりできます。アドビは、これらのレポートをユーザーが設定した SFTP サーバーに配信することはできません。
-
