@@ -1,14 +1,14 @@
 ---
 title: getTimeSinceLastVisit
 description: 2 回の訪問の間の経過時間を測定します。
+exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 translation-type: ht
-source-git-commit: 15e7ebe21413d6a56dac2c95dbdaf73efde3991e
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '582'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getTimeSinceLastVisit
 
