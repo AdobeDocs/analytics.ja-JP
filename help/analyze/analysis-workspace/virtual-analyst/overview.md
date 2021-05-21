@@ -1,22 +1,22 @@
 ---
 title: Virtual Analyst
 description: Virtual Analyst に貢献する Adobe Analytics の機能について説明します。
-feature: AI Tools
+feature: AI ツール
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 95%
+exl-id: ae4c79a4-d2eb-4383-92d3-fa5591135c73
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '117'
+ht-degree: 100%
 
 ---
 
-
-# 仮想アナリスト
+# Virtual Analyst
 
 Adobe Analytics の一連の機能に属する Virtual Analyst は、予測アルゴリズムと機械学習を使用して、ビジネスに影響を与える異常値に関するインサイトを提供します。これにより、最も一般的で高コストなデータサイエンスのワークフローを自動化し、何がデータの中で異常な行動を引き起こしているかを特定できます。
 
-## 機能  {#features}
+## 機能 {#features}
 
 Virtual Analyst は、次の機能で構成されます。
 
