@@ -1,14 +1,14 @@
 ---
 title: trackingServerSecure
 description: HTTPS ページでイメージリクエストが送信される場所を決定します。
-translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
-workflow-type: tm+mt
+exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # trackingServerSecure
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
-> この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートで個別訪問者数が一時的に急増する可能性があります。
+> この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートでユニーク訪問者数が一時的に急増する可能性があります。
 
 ## Adobe Experience Platform Launch の「SSL トラッキングサーバー」
 
@@ -41,4 +41,4 @@ ht-degree: 96%
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAMEレコードは通常、`data.adobedc.net`、`sc.adobedc.net`、または`2o7.net`のサブドメインを指します。
+CNAME レコードは通常、`data.adobedc.net`、`sc.adobedc.net` または `2o7.net` のサブドメインを指します。
