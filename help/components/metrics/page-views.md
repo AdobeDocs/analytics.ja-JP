@@ -1,14 +1,14 @@
 ---
 title: 'ページビュー指標の説明 | Adobe Analytics '
 description: Adobe Analytics でのページビュー指標の仕組み、およびページビュー数と訪問数の違いについて説明します。
+exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '176'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics でのページビューについて
 
