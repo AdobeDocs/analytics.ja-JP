@@ -2,14 +2,14 @@
 description: 計算指標マネージャ内では、様々なレベルのアプリケーションや特定の部門またはグループに対応した指標の承認を含むワークフローを設定できます。
 title: 計算指標の承認
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: tm+mt
+exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '144'
 ht-degree: 100%
 
 ---
-
 
 # 計算指標の承認
 
@@ -25,4 +25,3 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 未承認]**」をクリックして、この指標を承認済みの計算指標のリストから除外することもできます。
 1. **[!UICONTROL フィルターを表示する]**／**[!UICONTROL その他のフィルター]**／**[!UICONTROL 承認済み]**&#x200B;をクリックすると、承認済みの指標をフィルタリングできます。
-
