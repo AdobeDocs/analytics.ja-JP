@@ -1,14 +1,14 @@
 ---
 title: トラッキングコード
 description: トラッキングコードまたはキャンペーンの名前。
-translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '525'
 ht-degree: 100%
 
 ---
-
 
 # トラッキングコード
 
