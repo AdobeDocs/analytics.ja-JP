@@ -3,15 +3,14 @@ title: ラボユーザーガイド
 description: Adobe Analytics のプロトタイププロジェクトのプレビュー
 feature: Labs
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
-workflow-type: tm+mt
-source-wordcount: '436'
+exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
-
-
 
 # [!UICONTROL ラボ]ユーザーガイド
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 [!UICONTROL ラボ]にアクセスするには：
 
-1. [!UICONTROL ワークスペース]および[!UICONTROL ラボ]へのアクセス権をまだ持っていない場合は管理者に権限を問い合わせてください。
+1. [!UICONTROL Workspace]および[!UICONTROL ラボ]へのアクセス権をまだ持っていない場合は管理者に権限を問い合わせてください。
 
 1. 「**[!UICONTROL ラボ]**」タブをクリックします。
 
