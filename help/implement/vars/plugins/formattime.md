@@ -1,14 +1,14 @@
 ---
 title: formatTime
 description: 秒数を分単位、時間単位などで同等の値に変換します。
+exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 translation-type: ht
-source-git-commit: 56b21b6acb948c478d7b2a29c3e8375a8fe77ce2
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '824'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：formatTime
 
