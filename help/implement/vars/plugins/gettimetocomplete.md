@@ -1,14 +1,14 @@
 ---
 title: getTimeToComplete
 description: タスクの完了に要した時間を測定します。
+exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 translation-type: ht
-source-git-commit: 37a3a44053260d9cdb2a3797e07f6d34592abc1f
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '762'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getTimeToComplete
 
