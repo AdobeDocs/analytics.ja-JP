@@ -1,14 +1,14 @@
 ---
 title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
 ---
-
 
 # オプトアウトリンクの実装
 
