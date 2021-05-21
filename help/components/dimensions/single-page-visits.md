@@ -1,20 +1,20 @@
 ---
 title: 単一ページ訪問数
 description: 訪問が 1 つのページで構成されていることを示すフラグ。
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
 
-
 # 単一ページ訪問数
 
 *このヘルプページでは、「単一ページ訪問」がディメンションとして機能する方法を説明します。詳しくは、[単一ページ訪問](../metrics/single-page-visits.md)指標を参照してください。*
 
-「単一ページ訪問」ディメンションは、単一の一意の[ページ](page.md)ディメンション項目で構成される訪問回数をレポートします。これは、[単一ページ訪問](../metrics/single-page-visits.md)指標のディメンション形式です。
+「単一ページ訪問」ディメンションは、一意の[ページ](page.md)ディメンション項目 1 つで構成される訪問回数をレポートします。これは、[単一ページ訪問](../metrics/single-page-visits.md)指標のディメンション形式です。
 
 このディメンションは、最も一般的に、[セグメント化](../segmentation/seg-home.md)のコンポーネントとして使用されます。通常、これは、レポートでディメンションとして使用されません。
 
