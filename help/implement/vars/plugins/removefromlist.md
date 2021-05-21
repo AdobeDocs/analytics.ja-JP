@@ -1,14 +1,14 @@
 ---
 title: rfl
 description: 区切り文字で区切られた文字列から特定の値を削除します。
+exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 translation-type: ht
-source-git-commit: 4c23f3cf764834636c1cdcefb2903efc9c90be7a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1054'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：rfl（Remove From List）
 
