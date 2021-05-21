@@ -1,14 +1,14 @@
 ---
 title: Launch データ要素を Analytics 変数にマッピングする
 description: Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
 ---
-
 
 # Launch データ要素を Analytics 変数にマッピングする
 
