@@ -1,14 +1,14 @@
 ---
 title: 購入イベント
 description: 購入イベントを使用して、「注文件数」、「数量」および「売上高」指標のデータを収集します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
 ---
-
 
 # 購入イベント
 
