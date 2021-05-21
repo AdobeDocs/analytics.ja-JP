@@ -1,14 +1,14 @@
 ---
 title: 重点レビュー（各 Web サイトリリース後）
 description: 以下の手順に従って、実装時にエラーが発生しないようにし、KPI に沿って進める必要があります。
-translation-type: tm+mt
-source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
-workflow-type: tm+mt
+exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
 ---
-
 
 # 重点レビュー（各 Web サイトリリース後）
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 経時的にコードを更新すると、意図しない影響が生じる可能性があります。 [上位 5 件の KPI](/help/implement/review/define-kpis.md)に関連付けられているすべての指標とディメンションが、引き続き正しく機能していることを確認する必要があります。これらは、Web サイトのリリース直後におこなうのが理想です。過去数か月間実行していない場合は、*今すぐ*&#x200B;実施してください次に手順を示します。
 
-* ダッシュボードを作成して、これらの重要な指標と変数の時間別トレンドビューを確認します（または、各指標に対して[インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=ja-JP#analysis-workspace)を設定します）。 その後、1 ～ 2日監視し、期待するデータが取得され、データが正しいことを確認します。 変曲点を探します。 重要な問題を直ちに修正できるよう備えてください。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルール、処理ルールを調べて理由を見つけます。
+* ダッシュボードを作成して、これらの重要な指標と変数の時間別トレンドビューを確認します（または、各指標に対して[インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=ja#analysis-workspace)を設定します）。 その後、1 ～ 2日監視し、期待するデータが取得され、データが正しいことを確認します。 変曲点を探します。 重要な問題を直ちに修正できるよう備えてください。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルール、処理ルールを調べて理由を見つけます。
 *  [Analytics ヘルスダッシュボード](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)を再実行して、KPI 指標および変数の幅広いトレンドを監視します。
 
 *指標と変数が正しく機能していることを確認する方法の詳細については、Adobe Analytics チャンピオンの Sarah Owen による[これらのヒント](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)をお読みください。*
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 指標または変数を最近追加または変更した場合は、ビジネス要件ドキュメント（BRD）およびソリューションデザインリファレンス（SDR）を更新する必要があります。
 
-実装に関するドキュメントがない場合は、変数のリストを書き出し、[このテンプレート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=ja-JP#implementation)を使用して BRD または SDR を作成します。
+実装に関するドキュメントがない場合は、変数のリストを書き出し、[このテンプレート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=ja#implementation)を使用して BRD または SDR を作成します。
 
 ## 5. データ品質に関するギャップを即座に解決します。
 
