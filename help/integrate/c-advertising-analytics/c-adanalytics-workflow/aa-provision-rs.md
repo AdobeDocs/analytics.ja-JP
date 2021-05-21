@@ -2,14 +2,14 @@
 description: Advertising Analytics で使用する、Experience Cloud をマッピングしたレポートスイートを設定します。
 title: Advertising Analytics 用のレポートスイートの有効化
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
+exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
 ---
-
 
 # Advertising Analytics 用のレポートスイートの有効化
 
@@ -36,4 +36,3 @@ Advertising Analytics の検索データを Analytics で表示するには、Ex
    | 有効期限 | eVar 値の有効期限が切れる（成功イベントのクレジットを受け取らなくなる）までの期間またはイベントを指定できます。eVar の有効期限が切れた後に成功イベントが発生した場合、「なし」がそのイベントのクレジットを受け取ることになります。つまり、アクティブな eVar がないということを示します。 |
 
 1. 「**[!UICONTROL Advertising Analytics レポートを有効にする]**」（初回時）、または「**[!UICONTROL Advertising Analytics レポートを更新]**」（2 回目以降）をクリックします。これで、レポートスイートが Advertising Analytics 検索データを受け取ることができます。[アカウントを作成できる](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)状態ではありません。
-
