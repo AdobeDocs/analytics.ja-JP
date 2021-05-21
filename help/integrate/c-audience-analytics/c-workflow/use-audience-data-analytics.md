@@ -3,14 +3,14 @@ description: 'AAM オーディエンスディメンションは Analytics の任
 solution: Experience Cloud
 title: Analytics でのオーディエンスデータの使用
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
-
 
 # Analytics でのオーディエンスデータの使用
 
@@ -54,9 +54,9 @@ AAM セグメントのデータはヒットごとに Analytics に渡され、�
 
 ![](assets/flow-aamaudiences.png)
 
-オーディエンスは[フォールアウトのビジュアライゼーション](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)で使用することもできます。
+オーディエンスは[フォールアウトのビジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)で使用することもできます。
 
-## Analysis Workspace でのベン図のビジュアライゼーション  {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Analysis Workspace でのベン図のビジュアライゼーション {#section_E78AB764FB5047148B51DC1526B0DF89}
 
 [ベン図のビジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/venn.html)には、最大 3 つのセグメントの重複が表示されます。
 
@@ -82,10 +82,9 @@ Analytics が収集した行動情報に加えて、オーディエンスディ�
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics と Report Builder  {#section_04E8FD30F73344D7937AD3C6CD19E34A}
+## Reports &amp; Analytics と Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
 
 1. Analytics レポートを表示するには、**[!UICONTROL レポート]**／**[!UICONTROL 訪問者プロファイル]**／**[!UICONTROL オーディエンス ID レポート]**&#x200B;に移動します。
 1. このフォルダーから、オーディエンス ID ディメンションとオーディエンス名ディメンションの両方にアクセスできます。
 
    ![](assets/mc-audiences.png)
-
