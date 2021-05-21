@@ -1,14 +1,14 @@
 ---
 title: エラーページ（404）
 description: エラーを含むヒットの数。
-translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: tm+mt
+exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # エラーページ（404）
 
