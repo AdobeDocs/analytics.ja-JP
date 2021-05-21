@@ -1,14 +1,14 @@
 ---
 title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # 製品
 
