@@ -1,14 +1,14 @@
 ---
 title: getVisitNum
 description: 訪問者の現在の訪問回数を追跡します。
+exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 translation-type: ht
-source-git-commit: fb1cdcb53732be46037a79587fc2541e629496e3
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1048'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getVisitNum
 
