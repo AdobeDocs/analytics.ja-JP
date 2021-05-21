@@ -1,14 +1,14 @@
 ---
 title: pt
 description: 変数のリストで関数を実行します。
+exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 translation-type: ht
-source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '602'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：pt
 
