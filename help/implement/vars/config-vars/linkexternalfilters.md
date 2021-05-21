@@ -1,20 +1,20 @@
 ---
 title: linkExternalFilters
 description: linkExternalFilters 変数の使用は出口リンクの自動トラッキングに役立ちます。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # linkExternalFilters
 
 AppMeasurement は、サイト外を指すリンクを自動的に追跡する機能を提供します。[`trackExternalLinks`](trackexternallinks.md) が有効になっている場合、訪問者がリンクをクリックしてサイトを離れると、イメージリクエストがアドビに直接送信されます。`linkExternalFilters` 変数と [`linkInternalFilters`](linkinternalfilters.md) 変数は、リンクが外部と見なされるか内部と見なされるかを決定します。
 
-この変数に値が含まれる場合、離脱リンクの自動追跡は許可リストのように動作します。 リンククリックがどの `linkExternalFilters` 値とも一致しない場合、そのリンクは出口リンクと見なされません。この変数に対して URL 全体が調べられます。[`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリー文字列も調べられます。
+この変数に値が含まれる場合、自動出口リンクトラッキングは許可リストのように動作します。リンククリックがどの `linkExternalFilters` 値とも一致しない場合、そのリンクは出口リンクと見なされません。この変数に対して URL 全体が調べられます。[`linkLeaveQueryString`](linkleavequerystring.md) が有効になっている場合は、クエリー文字列も調べられます。
 
 >[!TIP]
 >
