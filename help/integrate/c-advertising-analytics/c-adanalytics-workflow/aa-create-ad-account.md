@@ -1,14 +1,14 @@
 ---
 title: Advertising Analytics で広告アカウントを設定する方法
 description: 新しい広告アカウントを作成し、複数のアカウントを複数のレポートスイートにマッピングできます。
+exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 translation-type: ht
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '869'
 ht-degree: 100%
 
 ---
-
 
 # 広告アカウントの設定
 
@@ -91,4 +91,3 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 >[!NOTE]
 >
 > 検索エンジンのデータが Analytics レポートに入力され始めるまでに 24 時間以上かかることを想定する必要があります。
-
