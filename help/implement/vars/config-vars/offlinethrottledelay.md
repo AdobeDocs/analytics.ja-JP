@@ -1,14 +1,14 @@
 ---
 title: offlineThrottleDelay
 description: デバイスがオンラインに戻ったときのヒットの頻度を設定します。
-translation-type: tm+mt
-source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
-workflow-type: tm+mt
+exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
 ---
-
 
 # offlineThrottleDelay
 
