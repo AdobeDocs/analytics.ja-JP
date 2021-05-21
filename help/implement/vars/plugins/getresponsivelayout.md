@@ -1,14 +1,14 @@
 ---
 title: getResponsiveLayout
 description: 現在閲覧中の Web サイトのレイアウトを特定します。
+exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 translation-type: ht
-source-git-commit: 16d2bc13a71dfe0b9106dea03da5eaa9da4d704c
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '674'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getResponsiveLayout
 
