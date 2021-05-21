@@ -1,14 +1,14 @@
 ---
 title: writeSecureCookies
 description: AppMeasurement が Secure 属性を持つ cookie を設定することを許可します。
-translation-type: tm+mt
-source-git-commit: defb701d01747685a421b89a553f47efe40f1432
-workflow-type: tm+mt
+exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
-
 
 # writeSecureCookies
 
@@ -20,12 +20,12 @@ ht-degree: 86%
 
 ## Adobe Experience Platform Launch でのセキュア Cookie の書き込み
 
-[!UICONTROL Adobe Analytics拡張機能の設定時に、セキュア] cookiesを作成する場合は、  Cookiesアコーディオンの下にあるチェックボックスを作成します。
+「[!UICONTROL 安全な Cookie を書き込む]」は、Adobe Analytics 拡張機能を設定する際の [!UICONTROL Cookie] アコーディオンの下にあるチェックボックスです。
 
 1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
-4. [!UICONTROL Cookies]アコーディオンを展開すると、[!UICONTROL 「セキュアcookieを書き込む]」チェックボックスが表示されます。
+4. [!UICONTROL Cookies] アコーディオンを展開すると、「[!UICONTROL 安全な Cookie を書き込む]」チェックボックスが表示されます。
 
 ## AppMeasurement および Launch カスタムコードエディターの s.writeSecureCookies
 
