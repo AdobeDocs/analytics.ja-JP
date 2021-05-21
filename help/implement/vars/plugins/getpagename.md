@@ -1,14 +1,14 @@
 ---
 title: getPageName
 description: 現在の Web サイトのパスから読みやすい pageName を作成します。
+exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 translation-type: ht
-source-git-commit: 063da38c105072944a46ec0ab31930623b7974c8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getPageName
 
