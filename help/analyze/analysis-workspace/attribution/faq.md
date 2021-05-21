@@ -1,16 +1,16 @@
 ---
 title: アトリビューションに関する FAQ
 description: アトリビューションに関する FAQ に対する回答です。
-feature: Attribution
+feature: アトリビューション
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 99%
+exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
-
 
 # アトリビューションに関する FAQ
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 1. 何ページか訪問し、最後の訪問は 9 月 8 日（PT）午前 12 時 5 分に発生したとします。
 1. 1 週間後に、日付範囲が 9 月 8 日～ 9 月 14 日（PT）の日別トレンドレポートを作成します。
 
-[ページ表示](/help/components/metrics/page-views.md)などのヒットベースの指標は、期待された出力を生成します。9 月 8 日～ 9 月 14 日（PT）の各日のデータがトレンド表示されます。ただし、訪問ベースの指標では、上記の訪問が 9 月 7 日（PT）に表示されます。 訪問の属性付きエントリは 9 月 7 日に発生し、デフォルトでは9 月 1 日～  9 月 31 日（PT）がルックバックウィンドウです。
+[ページ表示](/help/components/metrics/page-views.md)などのヒットベースの指標は、期待された出力を生成します。9 月 8 日～ 9 月 14 日（PT）の各日のデータがトレンド表示されます。ただし、訪問ベースの指標では、上記の訪問が 9 月 7 日（PT）に表示されます。 訪問の属性付きエントリは 9 月 7 日に発生し、デフォルトでは9 月 1 日～ 9 月 31 日（PT）がルックバックウィンドウです。
 
 この例では、9 月 7 日（PT）のバウンス率は常に 0% と表示されます。 この指標は `Bounces divided by Entries` と定義されています。これは、ヒットベースの指標を、訪問ベースの指標で割った値です。 バウンスは 1 つのイメージリクエストで構成されるので、複数日にまたがることはできません。9 月 7 日（PT）のバウンスはレポートーウィンドウの外で発生し、その日のバウンス率が 0% と保証されています。 また、このレポートでは、他のヒットベースの指標でも、9 月 7 日（PT）に 0 と表示されます。これらのヒットはレポートーウィンドウ内にないからです。
 
