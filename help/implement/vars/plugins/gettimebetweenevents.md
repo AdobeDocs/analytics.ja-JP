@@ -1,14 +1,14 @@
 ---
 title: getTimeBetweenEvents
 description: 2 つのイベントの間隔を測定します。
+exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 translation-type: ht
-source-git-commit: e8c6f4bbc72f7edfd966d698b8e4678e5eaa739e
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1100'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getTimeBetweenEvents
 
