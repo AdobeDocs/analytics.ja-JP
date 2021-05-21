@@ -1,14 +1,14 @@
 ---
 title: ソリューションデザインドキュメントの作成
 description: ソリューションデザインドキュメントとは何か、および組織でのソリューションデザインドキュメントの使用方法について説明します。
-translation-type: tm+mt
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
-workflow-type: tm+mt
+exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '696'
 ht-degree: 100%
 
 ---
-
 
 # ソリューションデザインドキュメントの作成
 
