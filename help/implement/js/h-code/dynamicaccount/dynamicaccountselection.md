@@ -1,14 +1,14 @@
 ---
 title: 'dynamicAccountSelection '
 description: dynamicAccountSelection 変数は、動的アカウント選択を有効化または無効化します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '85'
 ht-degree: 100%
 
 ---
-
 
 # dynamicAccountSelection 
 
