@@ -1,14 +1,14 @@
 ---
 title: getValOnce
 description: Analytics 変数が 2 回続けて同じ値に設定されないようにします。
+exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 translation-type: ht
-source-git-commit: 5a81754ca6137d7bc1e790fe537acbb4bbdb8efb
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '729'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getValOnce
 
