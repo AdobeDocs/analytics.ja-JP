@@ -3,14 +3,14 @@ description: アドビでは、Data Warehouse リクエストの SFTP サーバ�
 keywords: ftp;sftp
 title: SFTP サーバーへの Data Warehouse リクエストの送信
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 45694647-69ec-45e3-b614-4a936909a338
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # SFTP サーバーへの Data Warehouse リクエストの送信
 
