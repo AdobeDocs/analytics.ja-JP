@@ -2,14 +2,14 @@
 description: Advertising Analytics の使用例。
 title: Audience Analytics の使用例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
+exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '218'
 ht-degree: 100%
 
 ---
-
 
 # Audience Analytics の使用例
 
