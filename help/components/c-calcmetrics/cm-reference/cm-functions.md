@@ -2,14 +2,14 @@
 description: 計算指標ビルダーを使用すると、統計関数と数学関数を適用して、高度な計算指標を作成できます。
 title: リファレンス：基本的な関数
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
-source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: tm+mt
+exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '1047'
 ht-degree: 100%
 
 ---
-
 
 # リファレンス：基本的な関数
 
