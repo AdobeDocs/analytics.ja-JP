@@ -2,16 +2,16 @@
 description: Workspace プロジェクトでフロービジュアライゼーションを使用します。
 title: フローの概要
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: Visualizations
+feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 98%
+exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '212'
+ht-degree: 100%
 
 ---
-
 
 # フローの概要
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 >
 >Analysis Workspace と Reports &amp; Analytics でのフローへのセグメントの適用結果の違いについて詳しくは、「[フローとフォールアウトの基礎としてのセグメント化](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)」を参照してください。
 
-[フローのビジュアライゼーションに関するビデオチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=ja-JP)（4:56）
+[フローのビジュアライゼーションに関するビデオチュートリアル](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)（4:56）
 
 ## ディメンション間のフロー {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -35,6 +35,6 @@ ht-degree: 98%
 
 各列は、異なるディメンションを表示することがあります。ディメンションをドラッグしてドロップゾーンにドロップし、そのディメンションを図に追加します。
 
-## フロー図が含まれたプロジェクト .CSV ファイルの書き出し  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## フロー図が含まれたプロジェクト .CSV ファイルの書き出し {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 フロー図は、**[!UICONTROL プロジェクト]**／**[!UICONTROL CSV をダウンロード]**&#x200B;に移動して作成できるプロジェクトの .CSV ファイルに含まれています。これにより、フロー結果を Microsoft Excel（テーブルとして表示）やその他のツールで分析することができます。
