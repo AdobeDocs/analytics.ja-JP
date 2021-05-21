@@ -1,14 +1,14 @@
 ---
 title: ブラウザー
 description: 使用されたブラウザーの名前とバージョン。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '177'
 ht-degree: 100%
 
 ---
-
 
 # ブラウザー
 
