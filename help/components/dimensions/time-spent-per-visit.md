@@ -1,14 +1,14 @@
 ---
 title: 訪問別滞在時間
 description: 訪問に費やした合計時間。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # 訪問別滞在時間
 
