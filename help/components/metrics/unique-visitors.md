@@ -1,26 +1,26 @@
 ---
-title: 個別訪問者数
-description: 一意の訪問者IDの数。
-translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
-workflow-type: tm+mt
+title: ユニーク訪問者
+description: 一意の訪問者 ID の数。
+exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
+# ユニーク訪問者
 
-# 個別訪問者数
+「ユニーク訪問者」指標は、ディメンション項目の訪問者 ID の数を示します。トラフィックを決定する際に使用される最も一般的な指標の 1 つで、ディメンション項目の人気度の概要を示します。例えば、ある訪問者が 1 か月間毎日サイトを訪問しても、1 人のユニーク訪問者としてカウントされることがあります。
 
-「個別訪問者数」指標は、ディメンション項目の訪問者 ID の数を示します。トラフィックを決定する際に使用される最も一般的な指標の 1 つで、ディメンション項目の人気度の概要を示します。例えば、ある訪問者が 1 か月間毎日サイトを訪問しても、1 人の個別訪問者としてカウントされることがあります。
+[デバイス間の分析](../cda/overview.md)を使用する場合、この指標は、[一意のデバイス](unique-devices.md)指標に置き換えられます。
 
-[デバイス間の分析](../cda/overview.md)を使用する場合、この指標は[個別デバイス](unique-devices.md)指標に置き換えられます。
+## 日別、週別、月別、四半期別、年別のユニーク訪問者
 
-## 日別、週別、月別、四半期別、年別の個別訪問者数
+Reports &amp; Analytics では、日別、週別、月別、四半期別、年別のユニーク訪問者を選択できます。ユニーク訪問者は、その期間全体に対して 1 人のユニーク訪問者をカウントする代わりに、選択した指標に基づいてカウントされます。例えば、サイトの日別ユニーク訪問者を調べたい場合などです。ある訪問者が午前中に再びサイトに来訪し、夜間に再び来訪した場合、1 人の日別ユニーク訪問者と見なされます。訪問者が月曜日にサイトを訪問し、再び火曜日にサイトを訪問した場合、その訪問者は 2 人の日別訪問者としてカウントされます。
 
-Reports &amp; Analytics では、日別、週別、月別、四半期別、年別の個別訪問者を選択できます。個別訪問者は、その期間全体に対して 1 人の個別訪問者をカウントする代わりに、選択した指標に基づいてカウントされます。例えば、サイトの日別個別訪問者数を調べたい場合などです。訪問者が午前中に再びサイトに来訪し、夜間に再び来訪した場合、1 人の日別訪問者と見なされます。訪問者が月曜日にサイトを訪問し、再び火曜日にサイトを訪問した場合、その訪問者は 2 人の日別訪問者としてカウントされます。
-
-Analysis Workspace は、レポートの精度に基づいて個別訪問者を処理します。例えば、[日](../dimensions/day.md)ディメンションを使用すると、各ディメンション項目の日別訪問者数が表示されます。ただし、レポートの合計に対しては、フリーフォームテーブルの日付範囲で重複が排除されます。
+Analysis Workspace は、レポートの精度に基づいてユニーク訪問者を処理します。例えば、[日](../dimensions/day.md)ディメンションを使用すると、各ディメンション項目の日別ユニーク訪問者が表示されます。ただし、レポートの合計に対しては、フリーフォームテーブルの日付範囲で重複が排除されます。
 
 ## この指標の計算方法
 
@@ -30,24 +30,24 @@ Analysis Workspace は、レポートの精度に基づいて個別訪問者を�
 | --- | --- | --- |
 | 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 変数が設定されます。 |
 | 2 | `aid` | 訪問者に既存の [`s_vi`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。訪問者 ID サービスを実装しない、または実装する前に設定します。 |
-| 3 | `mid` | 訪問者に既存の [`s_ecid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。[Adobe Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用した実装に設定します。 |
-| 4 | `fid` | 訪問者に既存の [`s_fid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) Cookie がある、または何らかの理由で `aid` と `mid` を設定できなかった場合。 |
+| 3 | `mid` | 訪問者に既存の [`s_ecid`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。[Adobe Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用した実装に設定します。 |
+| 4 | `fid` | 訪問者に既存の [`s_fid`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookie がある、または何らかの理由で `aid` と `mid` を設定できなかった場合。 |
 | 5 | IP アドレス、ユーザーエージェント、ゲートウェイ IP アドレス | 最後の手段は、訪問者のブラウザーが cookie を受け入れない場合に一意の訪問者を識別することです。 |
 
 >[!NOTE]
 >
 >各 Analytics 訪問者 ID は、アドビのサーバー上のプロファイルに関連付けられます。訪問者プロファイルは、少なくとも 13 ヶ月操作が実行されなかった場合、訪問者 ID cookie の有効期限にかかわらず削除されます。
 
-## 個別訪問者数に影響する動作
+## ユニーク訪問者数に影響する動作
 
-一意の訪問者識別子は、通常、ブラウザーの Cookie に保存されます。新しい個別訪問者は、次のいずれかの操作を実行するとカウントされます。
+一意の訪問者識別子は、通常、ブラウザーの Cookie に保存されます。新しいユニーク訪問者は、次のいずれかの操作を実行するとカウントされます。
 
 * キャッシュをクリアする（どの時点でも）
-* 同じコンピューターで別のブラウザーを開く -ブラウザーごとに個別訪問者が 1 回カウントされます。
-* 同じ訪問者が異なるデバイスでサイトを閲覧した -デバイスごとに個別訪問者が 1 回カウントされます。[クロスデバイス分析](../cda/overview.md)を使用すると、[人](people.md)指標を使用して訪問者を組み合わせることができます。
+* 同じコンピューターで別のブラウザーを開く -ブラウザーごとにユニーク訪問者が 1 回カウントされます。
+* 同じ訪問者が異なるデバイスでサイトを閲覧した -デバイスごとにユニーク訪問者が 1 回カウントされます。[クロスデバイス分析](../cda/overview.md)を使用すると、[人](people.md)指標を使用して訪問者を組み合わせることができます。
 * プライベートブラウジングセッション（Chrome の「シークレットウィンドウ」など）を開く
 
-Cookie 識別子が保持されている限り、新しい個別訪問者はカウント&#x200B;*されません*。
+Cookie 識別子が保持されている限り、新しいユニーク訪問者はカウント&#x200B;*されません*。
 
 * 長期間ブラウザーを閉じる
 * ブラウザーを最新バージョンにアップグレードする
