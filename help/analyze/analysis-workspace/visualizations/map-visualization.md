@@ -2,16 +2,16 @@
 description: Workspace プロジェクトでマップのビジュアライゼーションを使用します。
 title: マップ
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualizations
+feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 99%
+exl-id: a60544b4-27b6-413a-96ce-ab9487594422
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '626'
+ht-degree: 100%
 
 ---
-
 
 # マップ
 
