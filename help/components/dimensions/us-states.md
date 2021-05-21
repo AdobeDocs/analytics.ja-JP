@@ -1,14 +1,14 @@
 ---
 title: 米国の州
 description: 訪問者の米国の州。
-translation-type: tm+mt
-source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '368'
 ht-degree: 100%
 
 ---
-
 
 # 米国の州
 
