@@ -3,14 +3,14 @@ description: アドビの FTP サーバーのアップグレードでは、特�
 keywords: ftp;sftp
 title: Adobe FTP サーバーのアップグレード
 uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 442b2d5d-735c-4ece-a456-3a0ac5909c8c
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Adobe FTP サーバーのアップグレード
 
