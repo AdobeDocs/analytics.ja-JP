@@ -1,14 +1,14 @@
 ---
 title: リスト変数
 description: レポートで使用するリスト変数を作成および設定します。
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '496'
 ht-degree: 100%
 
 ---
-
 
 # リスト変数
 
