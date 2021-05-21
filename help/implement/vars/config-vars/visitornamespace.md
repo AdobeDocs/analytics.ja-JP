@@ -1,14 +1,14 @@
 ---
 title: visitorNameSpace
 description: Cookie ドメインを決定した古い変数。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 
 ---
-
 
 # visitorNamespace
 
