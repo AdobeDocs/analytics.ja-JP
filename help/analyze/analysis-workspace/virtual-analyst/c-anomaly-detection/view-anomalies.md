@@ -2,16 +2,16 @@
 description: 異常値をテーブルまたは線グラフで表示できます。
 title: Analysis Workspace での異常値の表示
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-feature: AI Tools
+feature: AI ツール
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
-
 
 # Analysis Workspace での異常値の表示
 
@@ -45,4 +45,3 @@ ht-degree: 98%
 信頼区間でチャートを調整できるオプションがあります。設定（歯車）アイコンをクリックして、「**[!UICONTROL 異常値検出で Y 軸のスケールの設定を可能にする]**」をオンにします。
 
 ![](assets/scale-y-axis.png)
-
