@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics で Adobe Campaign レポートを有効にする方法を学びます
 title: Adobe Campaign レポートを Adobe Analytics に統合する方法
-translation-type: tm+mt
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Campaign レポート
 
@@ -53,7 +53,7 @@ Adobe Campaign に対してレポートスイートを有効にすると、次�
 * キャンペーンラベル（Adobe Campaign のキャンペーン）
 * 実行された配信ラベル（個々の実行された配信のリスト）
 
-## Adobe Analytics で使用できる Adobe Campaign のディメンションおよび指標  {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics で使用できる Adobe Campaign のディメンションおよび指標 {#section_F33385C9660644AF84172EC39601469B}
 
 Adobe Analytics レポートスイートで、次の Campaign の&#x200B;**指標**&#x200B;を使用できます。
 
