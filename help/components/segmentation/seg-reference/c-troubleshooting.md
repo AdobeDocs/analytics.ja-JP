@@ -2,14 +2,14 @@
 description: セグメントに関する問題のトラブルシューティングと修正をおこないます。
 title: セグメント化のトラブルシューティング
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
+exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '227'
 ht-degree: 100%
 
 ---
-
 
 # セグメント化のトラブルシューティング
 
@@ -47,4 +47,3 @@ ht-degree: 100%
 * 必要な結果に対してルール／演算子が正しくない。
 * セグメントに対するコンテナの適用が正しくない。
 * セグメントに使用するトラフィック変数が適切に設定されていないか、期限切れになっている。
-
