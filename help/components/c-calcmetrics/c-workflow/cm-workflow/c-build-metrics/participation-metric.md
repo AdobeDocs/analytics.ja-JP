@@ -2,14 +2,14 @@
 description: 計算指標ビルダーを使用して、誰でもパーティシペーション指標を作成できます。
 title: パーティシペーション指標
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: bef185d6-72c0-4068-80f8-57261369573f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
-
 
 # パーティシペーション指標
 
@@ -33,4 +33,3 @@ ht-degree: 100%
    ![](assets/participation-pages.png)
 
 1. （オプション）指標を組織内の他のユーザーと共有します。
-
