@@ -1,16 +1,16 @@
 ---
 title: アルゴリズムアトリビューション
 description: アルゴリズムアトリビューションモデルの詳細。
-feature: Attribution
+feature: アトリビューション
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 98%
+exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
-
 
 # アルゴリズムアトリビューション
 
