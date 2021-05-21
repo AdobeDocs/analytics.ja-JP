@@ -1,14 +1,14 @@
 ---
 title: インスタンス
 description: 変数が設定された（持続的でない）ヒット数。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
 ---
-
 
 # インスタンス
 
