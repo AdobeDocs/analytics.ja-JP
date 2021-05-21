@@ -1,14 +1,14 @@
 ---
 title: '製品         '
 description: 製品名。
-translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
 ---
-
 
 # 製品         
 
