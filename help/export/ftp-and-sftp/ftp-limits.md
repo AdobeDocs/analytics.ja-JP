@@ -3,14 +3,14 @@ description: アドビのすべての FTP アカウントでは、最大で 2 GB
 keywords: ftp;sftp
 title: FTP の制限とデータ保持期間
 uuid: deb807c9-e988-4587-b518-881857cad1cf
-translation-type: tm+mt
-source-git-commit: 19de1233201bfeba88014209f5d288db67787f83
-workflow-type: tm+mt
+exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '82'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # FTP の制限とデータ保持期間
 
