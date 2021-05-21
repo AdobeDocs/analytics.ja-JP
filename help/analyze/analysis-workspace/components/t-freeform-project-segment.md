@@ -2,16 +2,16 @@
 description: Analysis Workspace でセグメントを使用します。
 title: セグメント
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-feature: Workspace Basics
+feature: Workspace の基本
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '375'
+exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
-
 
 # セグメント {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
