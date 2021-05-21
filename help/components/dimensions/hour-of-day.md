@@ -1,14 +1,14 @@
 ---
 title: 時刻
 description: 時刻を数値で表します。日付は関係ありません。
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '356'
 ht-degree: 100%
 
 ---
-
 
 # 時刻
 
