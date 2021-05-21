@@ -1,14 +1,14 @@
 ---
 title: 平均訪問別ページビュー数
 description: 訪問中に特定のディメンション項目が表示された平均回数。
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
-workflow-type: tm+mt
+exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # 平均訪問別ページビュー数
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!TIP]
 >
->この指標を別の指標（[訪問回数](visits.md)など）と同時に使用して、より良いインサイトを取得します。 この指標を単独で使用する場合、訪問あたりの異常値ページの表示を含むディメンション項目が取得されます。これは通常、有用ではありません。
+>この指標を別の指標（[訪問数](visits.md)など）と同時に使用すると、より優れたインサイトを得ることができます。 この指標を単独で使用する場合、訪問あたりの異常値ページの表示を含むディメンション項目が取得されます。これは通常、有用ではありません。
 
 ## この指標の計算方法
 
