@@ -2,16 +2,16 @@
 description: 標準またはカスタムのテンプレートに基づいて、Workspace プロジェクトを作成します。
 title: テンプレート
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Workspace Basics
+feature: Workspace の基本
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1402'
+exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1399'
 ht-degree: 100%
 
 ---
-
 
 # テンプレート
 
