@@ -1,14 +1,14 @@
 ---
 title: Analytics での XDM データの使用
-description: 'Adobe Analytics における Experience Platform の XDM データの使用の概要 '
-translation-type: tm+mt
-source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
-workflow-type: tm+mt
+description: Adobe Analytics における Experience Platform の XDM データの使用の概要
+exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Analytic での Adobe Experience Platform Edge データの使用
 
@@ -25,11 +25,11 @@ Analytics は、次の 2 つの方法で XDM データを収集します。
 
 ## 手動マッピング
 
-[](xdm-manual.md)XDM データを Analytics に手動でマッピングする場合は、[Analytics のコンテキストデータ](../vars/page-vars/contextdata.md)変数が必要です。これらの変数は、該当するスキーマに対応する JSON オブジェクトに配置されます。通常は、開発チームが実装時にコンテキストデータを追加し、管理者が[処理ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)を設定して、そのデータを指定したレポートスイートに適用します。
+[XDM データを Analytics に手動でマッピングする](xdm-manual.md)場合は、[Analytics のコンテキストデータ](../vars/page-vars/contextdata.md)変数が必要です。これらの変数は、該当するスキーマに対応する JSON オブジェクトに配置されます。通常は、開発チームが実装時にコンテキストデータを追加し、管理者が[処理ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)を設定して、そのデータを指定したレポートスイートに適用します。
 
 ## セットアップ
 
-XDMデータを受け取るようにAnalyticsを設定するには：
+XDM データを受信する Analytics を設定するには、次の手順を実行します。
 
 1. [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/ja-JP/experience-platform/edge/fundamentals/installing-the-sdk.html) をインストールして[設定](https://docs.adobe.com/content/help/ja-JP/experience-platform/edge/fundamentals/configuring-the-sdk.html)します。
 
