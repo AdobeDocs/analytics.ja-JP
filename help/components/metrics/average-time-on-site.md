@@ -1,14 +1,14 @@
 ---
 title: サイトでの平均時間
 description: 特定のディメンション項目がヒット間に存在した平均時間。
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # サイトでの平均時間
 
@@ -48,7 +48,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->この指標は、訪問で最後に発生したヒットのみがディメンション項目に含まれる場合、`"Invalid"`の値を示します。 この指標では、滞在時間を追跡するために後続のヒットが必要です。
+>この指標は、訪問で最後に発生したヒットのみがディメンションアイテムに含まれる場合、`"Invalid"` の値を示します。 この指標では、滞在時間を追跡するために後続のヒットが必要です。
 
 ## サイトでの平均滞在時間（秒）
 
