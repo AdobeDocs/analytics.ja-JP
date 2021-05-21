@@ -1,14 +1,14 @@
 ---
 title: 平均セッション時間（モバイル）
 description: モバイルデバイスの平均セッション長です。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '83'
 ht-degree: 100%
 
 ---
-
 
 # 平均セッション時間（モバイル）
 
