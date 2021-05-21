@@ -1,14 +1,14 @@
 ---
 title: cookie サポート
 description: ブラウザーが cookie をサポートするかどうかを指定します。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '187'
 ht-degree: 100%
 
 ---
-
 
 # cookie サポート
 
