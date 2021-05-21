@@ -1,14 +1,14 @@
 ---
 title: 出口
 description: 訪問の最後の値のインスタンス。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '186'
 ht-degree: 100%
 
 ---
-
 
 # 出口
 
