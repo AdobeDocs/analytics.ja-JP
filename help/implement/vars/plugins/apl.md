@@ -1,14 +1,14 @@
 ---
 title: apl（appendToList）
 description: 複数の値をサポートする変数に値を追加します。
+exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 translation-type: ht
-source-git-commit: d84d53dd237f5bba729c902c8c4980c0288dbbb0
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1036'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：apl（appendToList）
 
