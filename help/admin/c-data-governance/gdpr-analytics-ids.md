@@ -2,14 +2,14 @@
 description: Analytics データに取り込まれる ID を把握し、データのプライバシーリクエストに使用する ID を決定します。
 title: ラベル設定に関するベストプラクティス
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '2706'
 ht-degree: 100%
 
 ---
-
 
 # ラベル設定に関するベストプラクティス
 
@@ -33,7 +33,7 @@ Analytics データ内の様々な ID を収集している場合でも、デー
 * ID が複数のユーザーに対応していることがあり、あるユーザーの情報を、同一の ID を持つ別のユーザーに返すことは避ける必要があります。例えば、あるユーザーの名前が John Smith であることを確認できたとしても、システム内のすべての John Smith に関するすべてのデータを返すのは避けるようにします。
 * 別の例としては、Analytics Cookie ID などのデバイス ID が挙げられます。携帯電話のアプリの ID では、その ID を使用するすべてのインタラクションを、携帯電話の所有者が利用できるようにすることもあります。ただし、自宅、図書館、インターネットカフェのパソコンなどの共有デバイスの ID の場合は、そのデバイスのユーザーを識別できないように設定することもあります。こうしたケースでは、違うユーザーのデータを返すおそれが十二分にあるので、このタイプの ID は利用できません。
 
-## Analytics がサポートしている ID に関するベストプラクティス  {#section_B6481505FF1949498D4B4B35B780D050}
+## Analytics がサポートしている ID に関するベストプラクティス {#section_B6481505FF1949498D4B4B35B780D050}
 
 この表を使用して、データプライバシー要求を Analytics に送信する際に使用する ID のタイプを判別します。この情報を知れば、変数に使用すべき他のラベルを簡単に判別できます。
 
@@ -115,4 +115,3 @@ Analytics データ内の様々な ID を収集している場合でも、デー
   </tr> 
  </tbody> 
 </table>
-
