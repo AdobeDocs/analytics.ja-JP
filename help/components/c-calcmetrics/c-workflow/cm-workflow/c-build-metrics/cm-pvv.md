@@ -2,14 +2,14 @@
 description: シンプルな「訪問あたりのページビュー数」指標の作成方法を示します。
 title: シンプルな「訪問あたりのページビュー数」指標の作成
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: tm+mt
+exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '251'
 ht-degree: 100%
 
 ---
-
 
 # シンプルな「訪問あたりのページビュー数」指標の作成
 
@@ -33,4 +33,3 @@ UI コンポーネントについて詳しくは、「[指標の作成](/help/co
 1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 「**[!UICONTROL 概要]**」の数式は、指標の定義を変更すると更新されます。
 1. セグメントマネージャに似た[計算指標マネージャ](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)へと自動的に移動します。計算指標マネージャを使用すると、指標の共有、承認、（再）タグ付け、名前変更または削除を行うことができます。
-
