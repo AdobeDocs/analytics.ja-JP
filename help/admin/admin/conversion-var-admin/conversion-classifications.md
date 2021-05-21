@@ -1,14 +1,14 @@
 ---
 description: 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「ポップミュージック用語」という分類に入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関してそのカテゴリの成功を報告します。
 title: コンバージョンの分類
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: b4855000-adf3-4e3b-af36-f4803383126d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # コンバージョンの分類
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 >[!WARNING]
 >
->分類の名前を変更すると、[分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)で作成した既存のルールで問題が発生する可能性があります。 分類ルールを持つ分類の名前を変更する場合は、名前を変更した分類を指すように各ルールを修正してください。
+>分類の名前を変更すると、[分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)で作成した既存のルールで問題が発生する可能性があります。 分類ルールがある分類の名前を変更する場合は、名前を変更した分類を指すように各ルールを修正してください。
 
 ## コンバージョン分類の説明
 
