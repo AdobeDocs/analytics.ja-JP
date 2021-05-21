@@ -2,14 +2,14 @@
 description: 権限に応じて、指標を組織全体、グループまたは個々のユーザーと共有できます。
 title: 計算指標の共有
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: tm+mt
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '275'
 ht-degree: 100%
 
 ---
-
 
 # 計算指標の共有
 
@@ -41,4 +41,3 @@ ht-degree: 100%
    指標の横に共有アイコン  が表示されます。![](assets/share_icon.png)
 
 1. **[!UICONTROL フィルター]**／**[!UICONTROL その他のフィルター]**／**[!UICONTROL 自分と共有]**&#x200B;に移動して、自分と共有している指標をフィルタリングできます。
-
