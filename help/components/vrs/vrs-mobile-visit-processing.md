@@ -2,14 +2,14 @@
 description: 仮想レポートスイートのコンテキスト対応セッションは、Adobe Analytics によるモバイル訪問数の計算方法を変更します。この記事では、（モバイル SDK によって設定される）バックグラウンドヒットとアプリ起動イベントの処理がモバイル訪問数の定義にどのように影響するかについて説明します。
 title: コンテキスト対応セッション
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
-workflow-type: tm+mt
+exl-id: 5e969256-3389-434e-a989-ebfb126858ef
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1556'
 ht-degree: 100%
 
 ---
-
 
 # コンテキスト対応セッション
 
