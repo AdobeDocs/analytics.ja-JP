@@ -1,14 +1,14 @@
 ---
 title: 注文件数
 description: おこなわれた購入の数。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: b05abb6d-983f-43fe-80ad-a0ddf90de466
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '91'
 ht-degree: 100%
 
 ---
-
 
 # 注文件数
 
