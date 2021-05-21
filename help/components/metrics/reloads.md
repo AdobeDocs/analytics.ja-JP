@@ -1,14 +1,14 @@
 ---
 title: リロード回数
 description: ページがリロードされた回数。
-translation-type: tm+mt
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+exl-id: 9539a733-9e9f-48b3-b8ab-8d969de27f87
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '63'
 ht-degree: 100%
 
 ---
-
 
 # リロード回数
 
