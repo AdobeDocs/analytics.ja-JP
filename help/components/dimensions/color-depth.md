@@ -1,14 +1,14 @@
 ---
 title: 色深度
 description: デバイスの色深度。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '220'
 ht-degree: 100%
 
 ---
-
 
 # 色深度
 
