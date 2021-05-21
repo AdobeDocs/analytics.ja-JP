@@ -3,14 +3,14 @@ description: FTP および SFTP を使用してコンピューターおよびサ
 keywords: ftp;sftp
 title: Adobe Experience Cloud での FTP および SFTP の使用
 uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 03111429-6a32-4d0a-bf3c-9ca658de1684
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '126'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Adobe Experience Cloud での FTP および SFTP の使用
 
