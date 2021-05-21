@@ -1,14 +1,14 @@
 ---
 title: Launch 実装の概要
 description: Adobe Experience Platform Launch を使用した Adobe Analytics の実装方法を説明します。
-translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
-workflow-type: tm+mt
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # Launch 実装の概要
 
