@@ -2,14 +2,14 @@
 title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
-translation-type: tm+mt
-source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
-workflow-type: tm+mt
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2142'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # JavaScript 版 AppMeasurement リリースノート
 
@@ -21,9 +21,9 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.22.0
 
-リリース日：**2020年8月4日**
+リリース日：**2020 年 8 月 5 日**
 
-* ユーザーのオプトアウト設定により、最初のヒットが送信されなかった場合に転送者が失われる問題を修正しました。
+* ユーザーのオプトアウト設定が原因で最初のヒットが送信されなかった場合に、リファラーが失われる問題を修正しました。
 
 ## バージョン 2.21.0
 
@@ -426,7 +426,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2013 年 11 月 15 日**
 
 * [ハードビートビデオ指標](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)のサポートを追加しました。
-* [訪問者 ID サービス](https://docs.adobe.com/content/help/en/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [訪問者 ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 
