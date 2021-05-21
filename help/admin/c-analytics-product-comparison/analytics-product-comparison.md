@@ -1,14 +1,14 @@
 ---
 description: 以下の表に、Analysis Workspace、Reports & Analytics、Report Builder、Data Warehouse、および Data Workbench の機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
+exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '429'
 ht-degree: 100%
 
 ---
-
 
 # Analytics製品の比較と必要システム構成
 
