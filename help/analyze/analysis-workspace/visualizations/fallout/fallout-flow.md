@@ -2,16 +2,16 @@
 description: Workspace プロジェクトでフォールアウトビジュアライゼーションを使用します。
 title: フォールアウトの概要
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-feature: Visualizations
+feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 99%
+exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
-
 
 # フォールアウトの概要
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 * 一般的でより広範囲なトラフィックフロー。ホームページを閲覧した訪問者のうち、検索を実行した訪問者の人数、その後特定の品目を閲覧した訪問者の人数などを表示できます。
 * サイト上のイベント間の関連性。例えばプライバシーポリシーを閲覧した訪問者のうち製品の購入に到達した人の割合を示します。
 
-[フォールアウトのビジュアライゼーションに関するビデオチュートリアル](\https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=ja)（4:15）
+[フォールアウトのビジュアライゼーションに関するビデオチュートリアル](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html)（4:15）
 
 ## フローとフォールアウトの基礎としてのセグメント化 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
