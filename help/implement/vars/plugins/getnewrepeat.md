@@ -1,14 +1,14 @@
 ---
 title: getNewRepeat
 description: 新規訪問者とリピーターのアクティビティを追跡します。
+exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 translation-type: ht
-source-git-commit: 9d44226202cd690d069f9c0c85c8af2ef8fd0106
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '826'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getNewRepeat
 
