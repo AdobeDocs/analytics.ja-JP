@@ -1,14 +1,14 @@
 ---
 title: 訪問の深さ
 description: 訪問の深さをレポートする訪問ベースのディメンション。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # 訪問の深さ
 
