@@ -1,14 +1,14 @@
 ---
 title: eVar
 description: 実装で使用できるカスタム変数。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: f89457b2-4186-4276-8637-9992070e3a73
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
 ---
-
 
 # eVar
 
