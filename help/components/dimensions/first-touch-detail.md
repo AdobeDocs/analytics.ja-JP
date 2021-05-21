@@ -1,14 +1,14 @@
 ---
 title: ファーストタッチチャネルの詳細
 description: 訪問者のエンゲージメント期限内の最初のマーケティングチャネルの詳細。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
 ---
-
 
 # ファーストタッチチャネルの詳細
 
