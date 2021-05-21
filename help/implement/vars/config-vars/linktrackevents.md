@@ -1,14 +1,14 @@
 ---
 title: linkTrackEvents
 description: リンクトラッキングイメージリクエストに含めるイベントを決定します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
 ---
-
 
 # linkTrackEvents
 
