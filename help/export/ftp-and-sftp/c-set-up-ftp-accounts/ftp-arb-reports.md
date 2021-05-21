@@ -3,14 +3,14 @@ description: Microsoft Excel 用の Adobe Report Builder アドオンを使用�
 keywords: ftp;sftp
 title: Report Builder が配信するレポート
 uuid: 94070700-4073-499a-afe2-10a30eeab79f
-translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: tm+mt
+exl-id: 0026b6dc-023f-4896-ba0d-0eec16a9d469
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '126'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Report Builder が配信するレポート
 
