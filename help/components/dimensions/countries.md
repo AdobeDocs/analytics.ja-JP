@@ -1,14 +1,14 @@
 ---
 title: 国
 description: ヒットの元の国。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '307'
 ht-degree: 100%
 
 ---
-
 
 # 国
 
