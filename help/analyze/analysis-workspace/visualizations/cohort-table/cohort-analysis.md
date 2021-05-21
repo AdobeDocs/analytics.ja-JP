@@ -1,16 +1,16 @@
 ---
 title: コホート分析の概要と仕組み
 description: オーディエンスに関するデータをより深く掘り下げ、コホート分析を使用して関連グループに分類します。 Analysis Workspace のコホート分析について説明します。
-feature: Visualizations
+feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 99%
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '493'
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics の[!UICONTROL コホート分析]について
 
@@ -72,4 +72,3 @@ ht-degree: 99%
 ![](assets/cohort-customizable-cohort-row.png)
 
 コホートレポートを設定および実行する方法については、「[コホート分析レポートの設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)」を参照してください。
-
