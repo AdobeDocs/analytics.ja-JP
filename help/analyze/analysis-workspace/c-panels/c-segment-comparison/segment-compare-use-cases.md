@@ -2,16 +2,16 @@
 title: セグメント比較の使用例
 description: セグメント比較パネルを使用してマーケティング戦略のインサイトを得る方法に関する実際の使用例を説明します。
 keywords: Segment IQ
-feature: Panels
+feature: パネル
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 99%
+exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '827'
+ht-degree: 100%
 
 ---
-
 
 # Segment IQ の使用例
 
