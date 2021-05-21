@@ -1,14 +1,14 @@
 ---
 title: 検索キーワード
 description: 訪問者がサイトに到達する際に使用した検索キーワード。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '250'
 ht-degree: 100%
 
 ---
-
 
 # 検索キーワード
 
