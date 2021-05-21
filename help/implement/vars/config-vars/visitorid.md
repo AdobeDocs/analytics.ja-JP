@@ -1,14 +1,14 @@
 ---
 title: visitorID
 description: カスタム訪問者 ID を使用します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # visitorID
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!WARNING]
 >
-> 1 回の訪問で `visitorID` 変数を分割して設定した場合、データは 2 人の個別訪問者を示します。
+>1 回の訪問で `visitorID` 変数を分割して設定した場合、データは 2 人のユニーク訪問者を示します。
 
 ```js
 s.visitorID = "abc123";
