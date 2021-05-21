@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics と Adobe Campaign を統合する際に実装担当者が従う必要があるリファレンスアーキテクチャ、ガイドライン、設定手順、およびテストに関する情報を紹介します。
 title: Analytics を Adobe Campaign と統合する方法
-translation-type: tm+mt
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '68'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics と Campaign Classic を統合
 
