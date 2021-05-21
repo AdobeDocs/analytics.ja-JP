@@ -1,14 +1,14 @@
 ---
 title: モバイルディメンション
 description: デバイスの IP アドレスに基づくディメンション。
+exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 translation-type: ht
-source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '891'
 ht-degree: 100%
 
 ---
-
 
 # モバイルディメンション
 
