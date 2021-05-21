@@ -1,14 +1,14 @@
 ---
 title: dynamicAccountList
 description: 実装によるレポートスイートの決定方法に関するロジックを確立します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
 ---
-
 
 # s.dynamicAccountList
 
