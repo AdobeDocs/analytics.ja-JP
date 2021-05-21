@@ -1,14 +1,14 @@
 ---
 title: Util.getQueryParam
 description: クエリー文字列パラメーターの値を返します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
 ---
-
 
 # Util.getQueryParam
 
