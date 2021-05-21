@@ -3,14 +3,14 @@ description: オーディエンスデータをプロビジョニング、共有�
 solution: Experience Cloud
 title: ワークフローの概要
 uuid: 211e079b-46ee-4238-856d-7cac40620717
+exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '114'
 ht-degree: 100%
 
 ---
-
 
 # ワークフローの概要
 
