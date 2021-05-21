@@ -4,14 +4,14 @@ title: Power BI への発行 - 概要
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 99%
+exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1028'
+ht-degree: 100%
 
 ---
-
 
 # Power BI への発行 - 概要
 
@@ -54,7 +54,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
    ![](assets/workbooks-power-bi.png)
 
-1. これで、ワークブックのダッシュボードデータを表示できるようになります。           ![](assets/view-data-pbi.png)
+1. これで、ワークブックのダッシュボードデータを表示できるようになります。          ![](assets/view-data-pbi.png)
 
 1. このワークブックの領域をピン留めして任意の Power BI ダッシュボードに追加することができます。
 
@@ -84,7 +84,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 **Power BI でのテーブルデータの表示**
 
-1. Power BI で、**[!UICONTROL ワークスペース]**／**[!UICONTROL データセット]**&#x200B;メニューに移動します。
+1. Power BI で、**[!UICONTROL Workspace]**／**[!UICONTROL データセット]**&#x200B;メニューに移動します。
 
    ![](assets/datasets-menu.png)
 
@@ -122,7 +122,7 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 
 スケジュールされた各 Report Builder リクエストは、データセット内のテーブルとして発行されます。各リクエストテーブルには、リクエストのプライマリディメンションに基づいた名前が付けられ、[!UICONTROL レポートスイート]列と[!UICONTROL セグメント]列があります。
 
-1. Power BI で、**[!UICONTROL ワークスペース]**／**[!UICONTROL データセット]**&#x200B;メニューに移動します。
+1. Power BI で、**[!UICONTROL Workspace]**／**[!UICONTROL データセット]**&#x200B;メニューに移動します。
 
 1. 発行したリクエストを選択し、その横にある[!UICONTROL レポートの作成]アイコンをクリックします。
 
@@ -137,4 +137,3 @@ Report Builder のレポート生成機能を Power BI の視覚化機能と組�
 1. **[!UICONTROL 凡例]**&#x200B;という追加のテーブルがあることにも注意してください。Report Builder 以外でリクエストを利用する場合に、各リクエストが何を表しているのかわからなくなることがあります。凡例テーブルの目的は、例えば、テーブル ID の下に各リクエストの名前を表示することです。他の凡例列を追加して、リクエストの全体像を把握することもできます。
 
    ![](assets/legend-table.png)
-
