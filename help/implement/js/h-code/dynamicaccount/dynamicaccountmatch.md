@@ -1,14 +1,14 @@
 ---
 title: dynamicAccountMatch
 description: dynamicAccountMatch 変数は、動的アカウントで表示する値を決定します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '126'
 ht-degree: 100%
 
 ---
-
 
 # dynamicAccountMatch
 
