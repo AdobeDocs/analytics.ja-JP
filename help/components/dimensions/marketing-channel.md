@@ -1,14 +1,14 @@
 ---
 title: マーケティングチャネル
 description: 訪問者のエンゲージメント期限内で最も新しいマーケティングチャネル。
-translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
-workflow-type: tm+mt
+exl-id: c833a801-b7c6-498c-8094-1a5ad6c22fe4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '112'
 ht-degree: 100%
 
 ---
-
 
 # マーケティングチャネル
 
