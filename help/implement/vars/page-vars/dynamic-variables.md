@@ -1,14 +1,14 @@
 ---
 title: 動的変数
 description: イメージリクエストの長さを増やさずに変数をコピーします。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '359'
 ht-degree: 100%
 
 ---
-
 
 # 動的変数
 
