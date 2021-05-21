@@ -1,14 +1,14 @@
 ---
 title: forceOnline
 description: AppMeasurement のオンライン状態を手動で設定します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
-
 
 # forceOnline
 
