@@ -1,14 +1,14 @@
 ---
 title: 他のプラットフォームでよく使用される指標の互換性ガイド
 description: Google Analytics に詳しいユーザー向けに、一般的なレポートの指標データを取り込む方法をわかりやすく説明します。
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: e95b0530-8099-4a08-9e2b-75174546277d
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # 他のプラットフォームでよく使用される指標の互換性ガイド
 
@@ -20,12 +20,12 @@ Google Analytics などの他のプラットフォームでは、多くのレポ
 
 ## 獲得指標
 
-**ユーザー数**&#x200B;は、Workspace の&#x200B;**個別訪問者数**&#x200B;とほぼ同じ役割を果たします。詳しくは、コンポーネントユーザーガイドの「[個別訪問者数](/help/components/metrics/unique-visitors.md)指標」を参照してください。
+**ユーザー数**&#x200B;は、Workspace の&#x200B;**ユニーク訪問者**&#x200B;とほぼ同じ役割を果たします。詳しくは、コンポーネントユーザーガイドの「[ユニーク訪問者](/help/components/metrics/unique-visitors.md)指標」を参照してください。
 
 **新規ユーザー数**&#x200B;は、次の方法で取得できます。
 
-1. **個別訪問者数**&#x200B;指標をワークスペースにドラッグします。
-2. **初回訪問回数**&#x200B;セグメントを個別訪問者数指標ヘッダーの上にドラッグします。
+1. **ユニーク訪問者**&#x200B;指標をワークスペースにドラッグします。
+2. **初回訪問回数**&#x200B;セグメントをユニーク訪問者指標ヘッダーの上にドラッグします。
 
    ![初回訪問回数](../assets/first_time_visits.png)
 
@@ -53,7 +53,7 @@ Google Analytics などの他のプラットフォームでは、多くのレポ
 
    [計算指標](/help/components/c-calcmetrics/cm-overview.md)について詳しくは、コンポーネントユーザーガイドを参照してください。
 
-**平均セッション時間**&#x200B;は、**訪問別滞在時間（秒）**&#x200B;とほぼ同じ役割を果たします。[訪問別滞在時間](/help/components/metrics/time-spent-per-visit.md)指標について詳しくは、コンポーネントユーザーガイドを参照してください。
+**平均セッション時間**&#x200B;は、**訪問別滞在時間（秒）**&#x200B;とほぼ同じ役割を果たします。[訪問ごとの滞在時間](/help/components/metrics/time-spent-per-visit.md)の指標について詳しくは、コンポーネントユーザガイドを参照してください。
 
 ## コンバージョン指標
 
