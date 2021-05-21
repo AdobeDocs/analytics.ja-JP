@@ -1,14 +1,14 @@
 ---
 title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
+exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 translation-type: ht
-source-git-commit: 3359ed8e7ef7979be57ca5ec9ca1803fc52afe88
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '632'
 ht-degree: 100%
 
 ---
-
 
 # Adobe プラグイン：addProductEvent
 
