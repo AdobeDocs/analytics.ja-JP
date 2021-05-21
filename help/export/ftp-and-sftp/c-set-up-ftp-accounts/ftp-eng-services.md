@@ -3,14 +3,14 @@ description: 多くの Adobe Engineering Services エンゲージメントでは
 keywords: ftp;sftp
 title: FTP を使用した Engineering Services エンゲージメント
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # FTP を使用した Engineering Services エンゲージメント
 
