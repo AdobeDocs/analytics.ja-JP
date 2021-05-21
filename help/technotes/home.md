@@ -1,14 +1,14 @@
 ---
 title: Analytics テクニカルノート
 description: このガイドでは、特定の分析ツールやコンポーネントに特化していないトピックに関する有用な情報を提供します。
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
-
 
 # Analytics テクニカルノート
 
