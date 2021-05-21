@@ -1,14 +1,14 @@
 ---
 title: getTimeParting
 description: 特定のアクションが実行される時間を測定します。
+exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 translation-type: ht
-source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '821'
 ht-degree: 100%
 
 ---
-
 
 # アドビプラグイン：getTimeParting
 
