@@ -1,14 +1,14 @@
 ---
 title: websiteBot
 description: マウスの動きを使用してボットを動的に識別します。
-translation-type: tm+mt
-source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
-workflow-type: tm+mt
+exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '393'
 ht-degree: 100%
 
 ---
-
 
 # Adobe プラグイン：websiteBot
 
