@@ -1,16 +1,16 @@
 ---
 title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
 ---
 
-
-# リスト
+# list
 
 リスト変数は、好きなだけ使用できるカスタム変数です。eVar と同様に機能しますが、同じヒットに複数の値を含めることができます。リスト変数には文字制限はありません。
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> リスト変数には、訪問者ごとの最新の 250 個の値が格納されます。特定の訪問者に対して 250 を超えるユニーク値が存在する場合、最も古い値は指標に関連付けられません。
+> リスト変数には、訪問者ごとの最新の 250 個の値が格納されます。特定の訪問者に対して 250 を超える一意の値が存在する場合、最も古い値は指標に関連付けられません。
 
 ## レポートスイート設定でのリスト変数の設定
 
