@@ -1,14 +1,14 @@
 ---
 title: 郵便番号
 description: レポートスイートの設定で許可されている場合は、「郵便番号」ディメンションを手動で入力します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
 ---
-
 
 # 郵便番号
 
