@@ -1,14 +1,14 @@
 ---
 title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
 ---
-
 
 # Analytics のディメンションの互換性
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 | 国 | `geocountry` |
 | 顧客の忠誠度 | `customerloyalty` |
 | カスタムコンバージョン VAR | `evar1`, `evar2`, etc. |
-| カスタムインサイト VAR | `prop1`、 `prop2`など |
+| カスタムインサイト VAR | `prop1`, `prop2`, etc. |
 | カスタムリンク | `customlink` |
 | 初回購入までの日数 | `daysbeforefirstpurchase` |
 | 前回購入からの日数 | `dayssincelastpurchase` |
@@ -128,7 +128,7 @@ ht-degree: 100%
 | ヒットタイプ | `hittype` |
 | 時間 | `daterangehour` |
 | 時刻 | `timeparthourofday` |
-| マーケティングチャネル詳細 | `marketingchanneldetail` |
+| マーケティングチャネルの詳細 | `marketingchanneldetail` |
 | 分 | `daterangeminute` |
 | モバイルのブックマーク最大長 | `mobilebookmarklength` |
 | モバイルデバイス番号 | `mobiledevicenumber` |
@@ -170,16 +170,16 @@ ht-degree: 100%
 |--- |--- |
 | ブラウザーの高さ | `browserheight` |
 | ブラウザーの幅 | `browserwidth` |
-| 日別ユニーク顧客数 | `dailyuniquecustomers` |
+| 日別ユニーク顧客 | `dailyuniquecustomers` |
 | JavaScript | `javascriptsupport` |
 | JavaScript のバージョン | `javascriptversion` |
-| 月別ユニーク顧客数 | `monthlyuniquecustomers` |
-| 四半期別ユニーク顧客数 | `quarterlyuniquecustomers` |
+| 月別ユニーク顧客 | `monthlyuniquecustomers` |
+| 四半期別ユニーク顧客 | `quarterlyuniquecustomers` |
 | タイムゾーン | `timezone` |
 | トップレベルドメイン | `topleveldomain` |
 | 訪問者の州 | `legacystate` |
-| 週別ユニーク顧客数 | `weeklyuniquecustomers` |
-| 年別ユニーク顧客数 | `yearlyuniquecustomers` |
+| 週別ユニーク顧客 | `weeklyuniquecustomers` |
+| 年別ユニーク顧客 | `yearlyuniquecustomers` |
 
 ## Reports &amp; Analytics と Analysis Workspace の両方でサポートされているコンテンツに応じたディメンション
 
