@@ -2,16 +2,16 @@
 description: Analysis Workspace での日付の比較では、日付範囲を含む任意の列を使用して、前年比、前四半期比、前月比などの一般的な日付比較を作成できます。
 title: 日付の比較
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Workspace Basics
+feature: Workspace の基本
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '643'
+exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '640'
 ht-degree: 100%
 
 ---
-
 
 # 日付の比較
 
@@ -101,4 +101,3 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 <p>See Jonny Moon's email from November 3. </p>
 
  -->
-
