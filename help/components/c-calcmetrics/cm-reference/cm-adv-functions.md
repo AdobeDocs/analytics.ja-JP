@@ -2,14 +2,14 @@
 description: これらの関数にアクセスするには、関数ドロップダウンリストの「詳細を表示」を選択します。
 title: リファレンス：高度な関数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
 
 ---
-
 
 # リファレンス：高度な関数
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 表関数とは、表のどの行についても出力が同じになる関数です。行関数とは、表の各行で出力が異なる関数です。
 
-## ゼロを含むパラメーターとは  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## ゼロを含むパラメーターとは {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 このパラメーターは、計算にゼロを含むかどうかを示します。ゼロは「何もない」ことを意味する場合もあれば、重要な意味を持つ場合もあります。
 
@@ -56,7 +56,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *ディメンション* | 個別の項目数を概算するディメンションです。 |
 
-### 使用例  {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### 使用例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 個別概算カウント（顧客 ID eVar）は、この関数の一般的な使用例です。
 
@@ -68,11 +68,11 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-customers.png)
 
-### 超過したユニーク数  {#section_9C583858A9F94FF7BA054D1043194BAA}
+### 超過したユニーク数 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/low-traffic.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
 
-### カウント関数の比較  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### カウント関数の比較 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() は、Count() 関数および RowCount() 関数を改良したものです。作成した指標を任意のディメンションレポートで使用し、個別のディメンションに関して概算した項目数をレンダリングできます。例としては、モバイルデバイスタイプレポートで使用される顧客 ID 数があります。
 
@@ -727,4 +727,3 @@ z スコア A の Z 検定（n-tailed）を実行します。
 >[!NOTE]
 >
 >値が正規分布されると仮定します。
-
