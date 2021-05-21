@@ -1,16 +1,16 @@
 ---
 title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
-translation-type: tm+mt
-source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
-workflow-type: tm+mt
+exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '676'
 ht-degree: 100%
 
 ---
 
-
-# イベント
+# events
 
 ディメンションと指標は、レポートにとって重要な要素です。`events` 変数は、サイト上の多くの指標のデータ収集をおこないます。イベントは、通常、レポートで[指標](/help/components/metrics/overview.md)を増分します 。
 
