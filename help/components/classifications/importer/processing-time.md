@@ -1,14 +1,14 @@
 ---
 title: 分類インポーターの処理時間
 description: アドビが分類ファイルを処理する時間枠と、処理時間を最小限に抑える方法について理解します。
-translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '416'
 ht-degree: 100%
 
 ---
-
 
 # 分類インポーターの処理時間
 
