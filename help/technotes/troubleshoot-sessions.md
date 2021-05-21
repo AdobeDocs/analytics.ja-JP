@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics でのセッションのトラブルシューティング
 description: Adobe Analytics からログアウトする際の問題を解決する方法について説明します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 191250ef-8313-47be-9717-046cce870998
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '345'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics でのセッションのトラブルシューティング
 
