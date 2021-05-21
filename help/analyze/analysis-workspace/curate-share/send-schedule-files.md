@@ -2,16 +2,16 @@
 description: PDF／CSV プロジェクトのキュレーション、共有、および組織内の受信者へのスケジュールを設定できます。
 title: 共有メニュー
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-feature: Curate and Share
+feature: キュレーションと共有
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 96%
+exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
-
 
 # 共有メニュー
 
