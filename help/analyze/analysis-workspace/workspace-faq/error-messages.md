@@ -1,16 +1,16 @@
 ---
 description: Adobe Analysis Workspace とその関連コンポーネントに関するエラーメッセージのリスト
 title: Analysis Workspace の一般的なエラーメッセージ
-feature: Workspace Basics
+feature: Workspace の基本
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '451'
+exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
-
 
 # 一般的なエラーメッセージ
 
@@ -26,4 +26,3 @@ Analysis Workspace の操作中に、パフォーマンスにも影響を与え�
 | [!UICONTROL リクエストが複雑すぎます。] | レポート要求が大きすぎるので、実行できません。このエラーの原因は、リクエストのサイズ、セグメントまたは検索フィルターで一致した項目が多すぎる、含まれる指標が多すぎる、互換性のないディメンションと指標の組み合わせなどが原因でタイムアウトになります。 | テーブルの一部の列や行を削除してリクエストを簡略化するか、テーブルを個別のリクエストに分割することを検討します。 |
 | [!UICONTROL このディメンションでは、現在、デフォルト以外のアトリビューションモデルをサポートしていません。] | デフォルト以外の属性は、お使いのディメンションではサポートされません。 | テーブル内のディメンションを、[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) と互換性のあるディメンションに置き換えます。 |
 | [!UICONTROL 列が多すぎるか事前設定された行が原因で、要求に失敗しました。] | テーブルに含まれるフリーフォームセル（行 x 列）が多すぎます。 | テーブルの列または行を削除するか、テーブルを個別のリクエストに分割することを検討します。 |
-
