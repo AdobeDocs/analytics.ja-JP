@@ -2,16 +2,16 @@
 description: インテリジェントアラートの使用例。
 title: インテリジェントアラート - 使用例
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-feature: AI Tools
+feature: AI ツール
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 94%
+exl-id: a03312ff-47df-451c-9dfa-0597b3a183cb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '91'
+ht-degree: 100%
 
 ---
-
 
 # インテリジェントアラート - 使用例
 
@@ -40,4 +40,3 @@ Update screenshots for better readability.
 アラートのスタックは、アラートを組み合わせて、多数の異なるアラートを受け取ることがないようにします。
 
 ![](assets/alerts_example2.png)
-
