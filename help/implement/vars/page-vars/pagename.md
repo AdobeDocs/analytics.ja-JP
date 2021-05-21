@@ -1,24 +1,24 @@
 ---
 title: pageName
 description: サイトのページの名前。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-
 # pageName
 
-`pageName` 変数は通常、特定のページの名前を保存します。最も人気のある個々のページを判断すると役立ちます。この変数は、[Page](/help/components/dimensions/page.md)ディメンションを入力します。
+`pageName` 変数は通常、特定のページの名前を保存します。最も人気のある個々のページを判断すると役立ちます。この変数は、[ページ](/help/components/dimensions/page.md)ディメンションを設定します。
 
 この変数が特定のページトラッキングコールで定義されていない場合は、代わりに [`pageURL`](pageurl.md) 変数が使用されます。
 
 >[!NOTE]
 >
->Adobeデータ収集サーバーは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)イメージリクエストからこのディメンションを除去します。 このディメンションをリンクトラッキングのヒットで表示する場合は、このディメンションを[eVar](evar.md)にコピーすることを検討してください。
+>アドビのデータ収集サーバーは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)イメージリクエストからこのディメンションを除外します。 このディメンションをリンクトラッキングのヒットで表示する場合は、このディメンションを [eVar](evar.md) にコピーすることを検討してください。
 
 ## Adobe Experience Platform Launch のページ名
 
