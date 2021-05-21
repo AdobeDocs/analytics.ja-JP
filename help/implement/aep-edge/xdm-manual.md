@@ -1,14 +1,14 @@
 ---
 title: XDM データの Analytics への手動マッピング
-description: 'XDM データの Experience Platform から Adobe Analytics への手動マッピング '
-translation-type: tm+mt
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
-workflow-type: tm+mt
+description: XDM データの Experience Platform から Adobe Analytics への手動マッピング
+exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
 
 ---
-
 
 # XDM データの Analytics への手動マッピング
 
@@ -47,7 +47,7 @@ Analytics が使用するために、XDM データはドット表記を使用し
 
 ## 処理ルール
 
-エッジネットワークによって収集されたすべてのデータへは、[処理ルール](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)を介してアクセスできます。Analytics では、処理ルールを使用して、コンテキストデータを Analytics 変数に組み込むことができます。
+エッジネットワークによって収集されたすべてのデータへは、[処理ルール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)を介してアクセスできます。Analytics では、処理ルールを使用して、コンテキストデータを Analytics 変数に組み込むことができます。
 
 例えば、次のルールでは、Analytics を設定して&#x200B;**内部検索用語（eVar2）** に **a.x_atag.search.term(Context Data)**&#x200B;に関連付けられたデータを入力します。
 
@@ -83,4 +83,4 @@ alloy("event",{
 });
 ```
 
-AEP Web SDK を使用したイベントのトラッキングについて詳しくは、「[トラッキングイベント](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html)」を参照してください。
+AEP Web SDK を使用したイベントのトラッキングについて詳しくは、「[トラッキングイベント](https://docs.adobe.com/content/help/ja-JP/experience-platform/edge/fundamentals/tracking-events.html)」を参照してください。
