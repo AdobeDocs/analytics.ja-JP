@@ -2,14 +2,14 @@
 description: 「レポートスイートの使用状況」タブには、請求会社に関連付けられたすべてのログイン会社のレポートスイートごとに、現在の使用期間のサーバー使用状況データが表示されます。
 title: レポートスイートの使用状況の表示
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: tm+mt
+exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '441'
 ht-degree: 100%
 
 ---
-
 
 # レポートスイートの使用状況の表示
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 | モバイルセカンダリ (%) | 現在の使用期間に発生したすべてのモバイルセカンダリサーバーコールの数（および全体に占める割合）。 |
 
 
-## 使用状況レポートのダウンロード  {#section_D7345660B5E043CD8850954216509A3D}
+## 使用状況レポートのダウンロード {#section_D7345660B5E043CD8850954216509A3D}
 
 このオプションでは、現在の使用状況データと現在の使用期間より前の期間（2015 年 1 月までさかのぼることが可能）のデータをダウンロードできます。レポートは .csv ファイルとしてダウンロードされます。
 
