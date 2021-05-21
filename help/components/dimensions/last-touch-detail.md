@@ -1,14 +1,14 @@
 ---
 title: ラストタッチチャネルの詳細
 description: 訪問者のエンゲージメント期限内の最新のマーケティングチャネルの詳細。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: def03267-f3e5-4772-a707-5678c45eba6d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '313'
 ht-degree: 100%
 
 ---
-
 
 # ラストタッチチャネルの詳細
 
