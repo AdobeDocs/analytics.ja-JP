@@ -2,16 +2,16 @@
 description: 貢献度分析は、Adobe Analytics で異常値と見なされた結果に貢献した要因を発見するために設計された、集中的な機械学習プロセスです。目的は、ユーザーが、別の方法よりもずっと迅速に、焦点を当てるべき領域や追加の分析のオポチュニティを見つけるのを支援することです。
 title: 貢献度分析で使用される統計的手法
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI Tools
+feature: AI ツール
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 98%
+exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '332'
+ht-degree: 100%
 
 ---
-
 
 # 貢献度分析で使用される統計的手法
 
@@ -40,4 +40,3 @@ ht-degree: 98%
    （同様の式が期間 1 に対しても得られます。）
 
    最終結果として、各ディメンション項目のスコアは、クラメールの V 指標で重み付けされ、0～1 の数値に再測定されて、貢献度スコアが提供されます。
-
