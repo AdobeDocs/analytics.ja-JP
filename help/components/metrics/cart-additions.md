@@ -1,14 +1,14 @@
 ---
 title: 買い物かごへの追加
 description: 訪問者が買い物かごに製品を追加したヒットの数。
-translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: tm+mt
+exl-id: 0617b4c4-6425-4425-b6f7-efadbd6f58b2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '79'
 ht-degree: 100%
 
 ---
-
 
 # 買い物かごへの追加
 
