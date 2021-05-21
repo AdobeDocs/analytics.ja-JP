@@ -1,14 +1,14 @@
 ---
 title: linkLeaveQueryString
 description: リンクトラッキングディメンションでクエリー文字列を保持できます。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
-
 
 # linkLeaveQueryString
 
