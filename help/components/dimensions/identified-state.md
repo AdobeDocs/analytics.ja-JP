@@ -1,14 +1,14 @@
 ---
 title: 特定された状態
 description: デバイスグラフによる認識を決定するフラグ。
-translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '120'
 ht-degree: 100%
 
 ---
-
 
 # 特定された状態
 
