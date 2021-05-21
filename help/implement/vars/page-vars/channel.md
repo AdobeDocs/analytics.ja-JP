@@ -1,14 +1,14 @@
 ---
 title: チャネル
 description: 「サイトセクション」ディメンションを設定します。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # チャネル
 
