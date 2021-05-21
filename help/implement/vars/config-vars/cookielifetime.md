@@ -1,14 +1,14 @@
 ---
 title: cookieLifetime
 description: AppMeasurement で作成される Cookie の有効期限を上書きします。
-translation-type: tm+mt
-source-git-commit: 7c0d363cc3d0f504d638479b02bf4435491b22fd
-workflow-type: tm+mt
+exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '229'
 ht-degree: 100%
 
 ---
-
 
 # cookieLifetime
 
@@ -16,7 +16,7 @@ AppMeasurement によって設定される Cookie の有効期限は通常 2 年
 
 >[!NOTE]
 >
-> この変数は、個別訪問者のカウントと属性に影響を与えます。この変数を設定する場合は注意が必要です。
+> この変数は、ユニーク訪問者数と属性に影響を与えます。この変数を設定する場合は注意が必要です。
 
 ## Adobe Experience Platform Launch での Cookie の有効期間
 
