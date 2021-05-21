@@ -2,14 +2,14 @@
 description: 計算指標を作成するための手順について説明します。
 title: 計算指標のワークフロー
 uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: tm+mt
+exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
 ---
-
 
 # 計算指標のワークフロー
 
