@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics のグローバルレポートスイート
 description: グローバルレポートスイートを使用する利点と要件を理解します。
-translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: tm+mt
+exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '878'
 ht-degree: 100%
 
 ---
-
 
 # グローバルレポートスイートの考慮事項
 
