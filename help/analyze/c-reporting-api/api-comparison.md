@@ -4,14 +4,14 @@ title: Analytics レポート API の比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
-workflow-type: tm+mt
-source-wordcount: '284'
+exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
-
 
 # Analytics レポート API の比較
 
@@ -95,4 +95,3 @@ Analytics レポート API の比較表です。サポートドキュメント�
 
 * [Adobe/IO](https://www.adobe.io/) - アドビのテクノロジーをアプリケーションに統合するために必要な技術ドキュメントおよびツールの包括的なソース。
 * [Data Workbench Query API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
-
