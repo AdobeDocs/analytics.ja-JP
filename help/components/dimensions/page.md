@@ -1,14 +1,14 @@
 ---
 title: ページ
 description: ページの名前。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 579963c8-8460-425f-b716-3b30d7a259af
+translation-type: ht
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
-
 
 # ページ
 
@@ -18,9 +18,9 @@ ht-degree: 82%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、[ページ表示呼び出し(`t()`)](/help/implement/vars/functions/t-method.md)の[`pageName`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。 [リンクトラッキングコール(`tl()`)](/help/implement/vars/functions/tl-method.md) は、 `pageName` クエリ文字列が存在する場合でも、常にこのディメンションを取り除きます。
+このディメンションは、[ページビュー呼び出し（`t()`）](/help/implement/vars/functions/t-method.md) の [`pageName` クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。 [リンクトラッキング呼び出し（`tl()`）](/help/implement/vars/functions/tl-method.md)は、`pageName`クエリ文字列が存在する場合でも、常にこのディメンションを削除します。
 
-AppMeasurement は、[`pageName`](/help/implement/vars/page-vars/pagename.md) 変数を使用してこのデータを収集します。`pageName`変数が定義されていない場合は、[`pageURL`](/help/implement/vars/page-vars/pageurl.md)変数を使用してフォールバックします。
+AppMeasurement は、[`pageName`](/help/implement/vars/page-vars/pagename.md) 変数を使用してこのデータを収集します。`pageName`変数が定義されていない場合は、[`pageURL`](/help/implement/vars/page-vars/pageurl.md) 変数の使用にフォールバックします。
 
 ## ディメンション項目
 
