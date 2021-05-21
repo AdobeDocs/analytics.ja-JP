@@ -2,16 +2,16 @@
 description: Workspace プロジェクトで貢献度分析レポートを実行します。
 title: 貢献度分析の実行
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-feature: AI Tools
+feature: AI ツール
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 99%
+exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '603'
+ht-degree: 100%
 
 ---
-
 
 # 貢献度分析の実行
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 1. （オプション）折れ線グラフまたはテーブルで「**[!UICONTROL 貢献度分析を実行]**」をクリックしたら、[ディメンションを除外](#section_F6932F4BF74544B5872164E7B1E0C6FC)することで、分析の範囲を狭める（その結果、スピードアップする）ことができます。
 
 1. 貢献度分析が読み込まれるまでしばらく待ちます。レポートスイートのサイズおよびディメンションの数によって、これには、かなりの時間がかかる可能性があります。貢献度分析は、ディメンションあたり上位 50,000 項目の分析を実行します。
-1. 次に、このプロジェクト内に直接新しい貢献度分析パネルが読み込まれます。以前 Reports &amp; Analytics の貢献度分析を使用したことがあるユーザーは、多くのパネルを既に目にしたことがあるでしょう。
+1. 次に、Analytics Workspace によってこのプロジェクト内に直接新しい貢献度分析パネルが読み込まれます。以前 Reports &amp; Analytics の貢献度分析を使用したことがあるユーザーは、多くのパネルを既に目にしたことがあるでしょう。
 
    * その日の&#x200B;**訪問**&#x200B;数を表示するビジュアライゼーション。
    * コンテキストに関する毎月の&#x200B;**訪問トレンドライン**。
@@ -74,4 +74,3 @@ ht-degree: 99%
    ![](assets/excluded-dimensions.png)
 
 1. 不要なディメンションの隣にある x をクリックして削除し、「**[!UICONTROL デフォルトとして設定]**」をクリックしてリストを保存します。
-
