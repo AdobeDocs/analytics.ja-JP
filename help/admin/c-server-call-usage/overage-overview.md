@@ -102,7 +102,7 @@ Adobe Analytics のサーバーコール使用状況の機能は、ブラウザ�
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">sc.omniture.com を通じて Analytics にログインします。 </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A"><span class="ignoretag"> <span class="uicontrol">管理者</span> &gt; <span class="uicontrol">すべての管理者</span> &gt; <span class="uicontrol">ユーザー管理</span> &gt; <span class="uicontrol">グループ</span> &gt; <span class="uicontrol">すべてのレポートアクセスを編集</span> &gt; <span class="uicontrol">分析ツールa1に移動します。2/&gt; &gt; <span class="uicontrol">カスタマイズ</span> &gt; <span class="uicontrol">サーバー呼び出しの使用</span> </span></span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A"><span class="ignoretag"> <span class="uicontrol">管理者</span> / <span class="uicontrol">すべての管理者</span> / <span class="uicontrol">ユーザー管理</span> / <span class="uicontrol">グループ</span> / <span class="uicontrol">全レポートアクセスを編集</span> / <span class="uicontrol">分析ツール</span> &gt; <span class="uicontrol"> </span>のカスタマイズ&gt; <span class="uicontrol">サーバーコールの使用状況</span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
