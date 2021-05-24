@@ -2,14 +2,13 @@
 description: マーケティングチャネルで訪問者のエンゲージメント期間を指定する方法について説明します。
 subtopic: Marketing channels
 title: マーケティングチャネルの有効期限
-feature: Reports & Analyticsの基本事項
+feature: Reports & Analytics の基本
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Attribution IQとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるため、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+>Attribution IQとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 
 マーケティングチャネルの有効期限（訪問者のエンゲージメント期間）を指定する方法について説明します。
 
