@@ -3,7 +3,6 @@ description: Adobe Analytics でデータアクセスおよび削除リクエス
 title: アクセス要求および削除要求の送信
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '1307'
@@ -19,9 +18,9 @@ ht-degree: 97%
 
 ## 消費者の同意の管理 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-お客様は、データコントローラーとして、データに関するデータ(Adobe Analyticsデータを含む場合もあります)を収集する前に、データの件名から明示的な同意を得る必要があります。また、Webサイトに[オプトアウトメカニズム](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)を導入する必要があります。 これにより、データ主体は、以降の Adobe Experience Cloud によるデータ収集をオプトアウトできます。
+データ管理者であるお客様は、データ主体に関するデータ(場合によってはAdobe Analyticsデータを含む)を収集する前に、データ主体から明示的な同意を得る必要があります。また、Webサイトに[オプトアウトメカニズム](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)を導入する必要があります。 これにより、データ主体は、以降の Adobe Experience Cloud によるデータ収集をオプトアウトできます。
 
-## ユーザーおよびユーザーデータの検証  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## ユーザーおよびユーザーデータの検証 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 データ管理者であるお客様には、データ主体が言及されている本人であることと、要求したデータに対する権利をデータ主体が持っていることを確認する義務があります。また、正しいデータをデータ主体に返し、データ主体が誤って他のデータ主体のデータを受け取ることがないようにする義務もあります。
 
@@ -37,7 +36,7 @@ ht-degree: 97%
 >
 >データプライバシー API は、単一の要求の複数のユーザーに対する一括送信をサポートしています。現在サポートされている制限は、単一の要求 JSON ファイルで 1,000 人の個別のユーザー（ユーザーごとに複数の ID を持つ可能性がある）です。
 
-## JSON 要求のサンプル  {#sample-json-request}
+## JSON 要求のサンプル {#sample-json-request}
 
 以下に、データプライバシー API または UI を使用して送信される、3 人のユーザーにデータプライバシー処理を要求する JSON を示します。
 
