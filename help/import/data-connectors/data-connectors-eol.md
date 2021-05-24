@@ -2,7 +2,6 @@
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-translation-type: tm+mt
 source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
 source-wordcount: '648'
@@ -37,7 +36,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | Acxiom | 廃止 |
 | Adform | 廃止 |
 | 調整 | Adobe Exchange への移行 |
-| Adobe Campaign | Adobe Exchange への移行 （下記の注意を参照）。 |
+| Adobe Campaign | Adobe Exchange への移行 （以下の注意を参照）。 |
 | Appfigures | Adobe Exchange への移行 |
 | Appsee | 廃止 |
 | AppsFlyer | Adobe Exchange への移行 |
@@ -102,6 +101,6 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 
 ## 例外：Adobe Campaign Classic
 
-2021年8月1日を除き、Adobe Campaign Classicの統合が1点目。 この統合は、2022年3月1日に正式に廃止されます。
+2021年8月1日の例外は、Adobe Campaign Classic統合です。 この統合は、2022年3月1日に正式に廃止されます。
 
-2021年8月1日に、Adobe Campaign Classicは、他のすべての統合と共に、Data Connectors UIから削除されます。ただし、既存のキャンペーン統合は、2022年3月1日まで引き続きデータを収集してAdobe Analyticsに渡します。 2022年3月1日には、データの収集とAdobe Analyticsへの引き渡しが終了します。 Adobe Campaignは、現在のData Connectors統合を置き換えるために、AdobeExchangeで新しい統合を構築しています。 Adobe Campaignは、2022年3月の廃止日より前に、新しい統合に移行するように、この新しい統合が予定どおりに終了することを予想しています。
+2021年8月1日に、Adobe Campaign Classicは、その他すべての統合と共にData Connectors UIから削除されます。ただし、既存のCampaign統合は、2022年3月1日まで引き続きデータを収集してAdobe Analyticsに渡します。 2022年3月1日、統合は、データを収集してAdobe Analyticsに渡すのを停止します。 Adobe Campaignは、現在のData Connectors統合に代わる新しい統合をAdobeExchangeで構築しています。 Adobe Campaignは、この新しい統合を2022年3月の廃止日より前に完了する予定です。
