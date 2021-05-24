@@ -2,7 +2,7 @@
 description: 仮想レポートスイートの作成を始める前に、以下に注意してください。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートの作成
-feature: Reports & Analytics の基本事項
+feature: Reports & Analytics の基本
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
@@ -27,7 +27,7 @@ ht-degree: 73%
 
 ## 設定の定義
 
-「[!UICONTROL 設定]」タブで、これらの設定を定義し、「**[!UICONTROL 継続]**」をクリックします。
+「[!UICONTROL 設定]」タブでこれらの設定を定義し、「**[!UICONTROL 続行]**」をクリックします。
 
 | 要素 | 説明 |
 | --- |--- |
@@ -40,7 +40,7 @@ ht-degree: 73%
 
 ## 訪問の定義
 
-「[!UICONTROL 訪問の定義]」タブで、これらの設定を定義し、「**[!UICONTROL 継続]**」をクリックします。
+「[!UICONTROL 訪問の定義]」タブでこれらの設定を定義し、「**[!UICONTROL 続行]**」をクリックします。
 
 ![](assets/visit-definition.png)
 
@@ -58,17 +58,17 @@ ht-degree: 73%
 
 ![](assets/components.png)
 
-1. 「[!UICONTROL コンポーネント]」タブで、Analysis Workspaceのこの仮想レポートスイートのコンポーネントを含める、除外する、名前を変更するキュレーションを適用するチェックボックスを選択します。
-VRSキュレーションの詳細については、[仮想レポートスイートコンポーネントのキュレーション](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites)を参照してください。
+1. 「[!UICONTROL コンポーネント]」タブで、Analysis Workspaceのこの仮想レポートスイート用のキュレーションを適用するチェックボックスをオンにします。
+VRSキュレーションについて詳しくは、[仮想レポートスイートコンポーネントのキュレーション](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites)を参照してください。
 
-1. VRSに含めるコンポーネント（ディメンション、指標、セグメントまたは日付範囲）を[!UICONTROL 「含まれるコンポーネント]」セクションにドラッグします。
+1. VRSに含めるコンポーネント（ディメンション、指標、セグメントまたは日付範囲）を、「[!UICONTROL 含まれるコンポーネント]」セクションにドラッグします。
 
-1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
+1. 完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
 ## データのプレビュー
 
-各タブの右側で、元のレポートスイートと比較して、この仮想レポートスイートの合計ヒット数、合計訪問回数および合計訪問者数をプレビューできます。
+各タブの右側で、元のレポートスイートと比較した、この仮想レポートスイートでの合計ヒット数、合計訪問回数、合計訪問者数をプレビューできます。
 
-## 表示製品の互換性
+## 製品の互換性の表示
 
-仮想レポートスイートの一部の機能は、すべてのAdobe Analytics製品でサポートされていません。 製品の互換性リストを使用すると、現在の仮想レポートスイートの設定に基づいて、Adobe Analytics内のどの製品がサポートされているかを確認できます。
+仮想レポートスイートの一部の機能は、すべてのAdobe Analytics製品でサポートされているわけではありません。 製品の互換性リストを使用すると、現在の仮想レポートスイートの設定に基づいて、Adobe Analytics内でサポートされている製品を確認できます。
