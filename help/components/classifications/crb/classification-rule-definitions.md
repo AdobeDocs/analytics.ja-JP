@@ -2,10 +2,9 @@
 description: 分類ルールビルダーのページ上のインターフェイスエレメントの定義です。
 subtopic: Classifications
 title: 分類ルール - 定義
-feature: Admin Tools
+feature: 管理ツール
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '880'
