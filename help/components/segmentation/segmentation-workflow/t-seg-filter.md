@@ -1,10 +1,9 @@
 ---
 description: タグ、所有者およびその他のフィルター（すべてを表示、自分が所有、自分と共有、お気に入りおよび承認済み）でフィルタリングします。
 title: セグメントのフィルタリング
-feature: Segmentation
+feature: セグメント化
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '155'
