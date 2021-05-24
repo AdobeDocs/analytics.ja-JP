@@ -2,7 +2,6 @@
 title: クロスデバイス分析
 description: デバイスデータをまとめて、デバイス中心のデータから個人中心のデータに変更します。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-translation-type: tm+mt
 source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
 workflow-type: tm+mt
 source-wordcount: '751'
@@ -36,7 +35,7 @@ CDA を使用すると、次のような質問に答えることができます�
 CDA を使用するには、次のすべてが必要です。[フィールドベースのステッチ](field-based-stitching.md)と[デバイスグラフ](device-graph.md)の方法にも、独自の前提条件があります。
 
 * 契約は、Adobe Analytics Ultimate を含めてアドビとの間で署名する必要があります。
-* デバイス間分析は、レポートスイートごとに有効になります。 アドビでは、複数のデバイスタイプ（Web、アプリなど）のデータを含むクロスデバイスデータをレポートスイートに含めることをお勧めします。一部の組織では、この概念を「グローバル」レポートスイートと呼んでいますが、CDA は地理的な観点から厳密にグローバルである必要はありません。
+* クロスデバイス分析は、レポートスイートごとに有効になります。 アドビでは、複数のデバイスタイプ（Web、アプリなど）のデータを含むクロスデバイスデータをレポートスイートに含めることをお勧めします。一部の組織では、この概念を「グローバル」レポートスイートと呼んでいますが、CDA は地理的な観点から厳密にグローバルである必要はありません。
 
 ## 制限事項
 
@@ -45,10 +44,10 @@ CDA を使用するには、次のすべてが必要です。[フィールドベ
 * CDA は Analysis Workspace でのみ使用できます。
 * クロスデバイス分析は、複数のレポートスイートで機能しません。また、複数のレポートスイートのデータを組み合わせることもできません。
 * Adobe Analytics レポートスイートを複数の IMS 組織にマッピングすることはできません。CDA は特定のレポートスイート内のデバイスを結び付けるので、CDA を使用して複数の IMS 組織間をまたいでデータを結び付けることはできません。
-* プライベートグラフは、Experience CloudおよびAdobe Analytics内の[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes)機能で使用されるものと同じID同期を利用します。 ただし、CDAの仮想レポートスイート（プライベートグラフまたはフィールドベースのステッチに基づくもの）は、他の顧客属性機能と互換性がありません。 つまり、顧客属性ベースのディメンションは、CDA仮想レポートスイート内では使用できません。
+* プライベートグラフでは、Experience CloudとAdobe Analyticsで使用されている[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes)機能と同じID同期を利用します。 ただし、CDA仮想レポートスイート（プライベートグラフベースまたはフィールドベースのステッチベース）は、残りの顧客属性機能との互換性はありません。 つまり、顧客属性ベースのディメンションは、CDA仮想レポートスイート内では使用できません。
 * 現在、CDA と A4T には互換性がありません。
 * クロスデバイス分析では、仮想レポートスイートとレポートの時間処理を使用しますが、これには独自の制限があります。これらの制限について詳しくは、[仮想レポートスイート](../vrs/vrs-about.md)と[レポートの時間処理](../vrs/vrs-report-time-processing.md)を参照してください。
 * 1.4 API はサポートされません。Power BI コネクタと Report Builder はどちらも 1.4 API に依存しているので、CDA との互換性がありません。
 * 仮想レポートスイートの履歴データは、アドビによるデバイスの認識と組み合わせに基づいて変化します。ソースレポートスイート内のデータは変更されません。
-* Adobe別のCDAステッチプロセスのアクティブな監視は、実稼働用レポートスイートにのみ制限されます。
-* CDAは現在、Adobe Analytics[データ修復API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)と互換性がありません
+* Adobe別のCDAステッチプロセスのアクティブな監視は、実稼動用レポートスイートにのみ制限されます。
+* CDAは、現在、Adobe Analytics [データ修復API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md)と互換性がありません
