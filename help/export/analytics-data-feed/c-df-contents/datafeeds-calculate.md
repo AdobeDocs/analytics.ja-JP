@@ -1,15 +1,14 @@
 ---
 description: データフィードを使用して一般的な指標を計算する方法について説明します。
-keywords: データフィード；ジョブ；指標；pre列；post列；ボット；日付フィルタリング；イベント文字列；共通；数式
+keywords: データフィード;ジョブ;指標;列の前;列の後;ボット;日付フィルタリング;イベント文字列; 共通;数式
 title: 計算指標
-feature: Reports & Analyticsの基本事項
+feature: Reports & Analytics の基本
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
