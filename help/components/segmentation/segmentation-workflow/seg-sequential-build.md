@@ -1,10 +1,9 @@
 ---
 description: 順次セグメントは、AND や OR ではなく、THEN 演算子を使用して作成されます。THEN は、1 つのセグメント条件が発生すると、もう 1 つのセグメント条件が続くことを示します。デフォルトでは、順次セグメントは、フィルター「全員を含む」を表示し、合致するすべてのデータを識別します。順次セグメントは、「シーケンスの前のみ」および「シーケンスの後のみ」オプションを使用して、さらに合致するヒットのサブセットにフィルタリングできます。
 title: 順次セグメントの構築
-feature: Segmentation
+feature: セグメント化
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '3858'
@@ -31,7 +30,7 @@ ht-degree: 100%
 | 一致する | A -> B<br>A ->（別の訪問で）B<br>A -> D -> B |
 | 一致しない | B -> A |
 
-## シーケンスの前のみおよびシーケンスの後のみ  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## シーケンスの前のみおよびシーケンスの後のみ {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 「**[!UICONTROL シーケンスの前のみ]**」および「**[!UICONTROL シーケンスの後のみ]**」オプションは、セグメントを特定のシーケンスの前または後のデータのサブセットにフィルタリングします。
 
@@ -355,7 +354,7 @@ ht-degree: 100%
 
 [!UICONTROL Within] および [!UICONTROL After] コンテナを使用し、精度とカウントを指定することで、一致の範囲を指定した期間に制限できます。[!UICONTROL Within] 演算子は、2 つのチェックポイントの間隔の最大値を指定するために使用します。[!UICONTROL After] 演算子は、2 つのチェックポイントの間隔の最小値を指定するために使用します。
 
-### After および Within 演算子  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After および Within 演算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 期間は、精度を表す 1 つの大文字の後に、その精度の繰り返し回数を表す数値を記述して指定します。
 
