@@ -1,15 +1,14 @@
 ---
 description: 仮想レポートスイートと複数のスイートタグ付けには、異なる利点があります。自分の組織にとってどちらが最適なのかを学びます。
-keywords: 仮想レポートスイート，VRS
+keywords: 仮想レポートスイート、VRS
 title: 仮想レポートスイートとグローバル／複数のスイートタグ付けに関する考慮事項
 feature: レポート表示設定
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '1712'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
