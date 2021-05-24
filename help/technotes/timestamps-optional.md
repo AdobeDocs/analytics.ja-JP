@@ -5,7 +5,6 @@ title: タイムスタンプオプションの使用
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '618'
@@ -43,7 +42,7 @@ ht-degree: 100%
 * タイムスタンプが必要（訪問者 ID の設定はサポートされていない）
 * タイムスタンプオプション（訪問者 ID の設定はサポートされてるが、タイムスタンプ付きのヒットではサポートされない）
 
-## タイムスタンプオプション機能について  {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## タイムスタンプオプション機能について {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 タイムスタンプオプションを使用すると、クライアント側のタイムスタンプが含まれていてもいなくても、複数のレポートスイートにわたって統合およびレポートできます。タイムスタンプオプションがあれば、以前のアプリからのタイムスタンプのないデータを使用しながら、タイムスタンプを使用するようにアプリをアップデートできます。
 
