@@ -2,14 +2,13 @@
 description: トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベース分類を作成し、複数のレポートスイートに適用することができるようになりました。ルールは、分類に関連するトラフィックのボリュームに応じた頻度で処理されます。
 subtopic: Classifications
 title: 分類ルールビルダーのワークフロー
-feature: Admin Tools
+feature: 管理ツール
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,4 +51,4 @@ ht-degree: 97%
 
 **ブログ**：この機能について詳しくは、Digital Marketing Blog の[ルールベースの分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)を参照してください。
 
-**ビデオ**:表示の概要ビデオを参照し [て](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) ください。
+**ビデオ**：[分類の概要](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/components/classifications/overview-of-classifications.html)ビデオを参照してださい。
