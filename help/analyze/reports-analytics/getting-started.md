@@ -1,14 +1,13 @@
 ---
-description: Reports and Analytics を使用する前に、Reports and Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
-title: Reports and Analytics の概要
-feature: Reports & Analyticsの基本事項
+description: Reports & Analytics を使用する前に、Reports & Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
+title: Reports & Analytics の概要
+feature: Reports & Analytics の基本
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +43,7 @@ Reports &amp; Analytics インターフェイスにログインするための�
 * cookie と JavaScript を有効にする必要があります。
 * 画面の解像度 1024 x 768、画面の色 16 ビット以上。
 
-## Reports and Analytics へのログイン
+## Reports &amp; Analytics へのログイン
 
 インターフェイスにアクセスする前に、アカウントマネージャーまたはアドビカスタマーケアと協力して会社のアカウントを設定してください。
 
@@ -99,7 +98,7 @@ Experience Cloud を介してログインする手順を説明します。
 
 ## インターフェイス言語の変更
 
-インターフェイスの言語を変更する手順を説明します。選択した言語で Reports and Analytics のインターフェイスを表示できます。
+インターフェイスの言語を変更する手順を説明します。選択した言語で Reports &amp; Analytics のインターフェイスを表示できます。
 
 1. Analytics にログインし、「**[!UICONTROL レポート]**」タブを選択します。
 1. ページフッターで、**[!UICONTROL 言語]**&#x200B;メニューのアクティブな言語をクリックし、目的の言語を選択します。
