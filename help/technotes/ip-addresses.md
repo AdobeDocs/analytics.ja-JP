@@ -1,15 +1,15 @@
 ---
-title: Adobe Analyticsで使用されるIPとドメイン
+title: Adobe Analytics が使用する IP とドメイン
 description: 組織のファイアウォールで、アドビから派生する IP アドレスがブロックされている場合は、このリストを使用してファイアウォール設定を更新してください。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: 9e013f484c9f417a1e2ac2c2a59d2e918cedf787
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 86%
+ht-degree: 97%
 
 ---
 
-# Adobe Analyticsで使用されるIPとドメイン
+# Adobe Analytics が使用する IP とドメイン
 
 一部のファイアウォール構成では、アドビのデータ収集サーバーまたはデータにアクセスするためのサーバーの IP アドレスをブロックするものがあります。このリストの範囲を使用して、組織のファイアウォール設定を変更し、アクセスを許可したり、組織内からデータを送信したりできます。
 
@@ -23,7 +23,7 @@ Adobe Analytics では、次のホストを使用して、パフォーマンス�
 
 | 技術 | ドメイン |
 | --- | --- |
-| Adobe Analyticsドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
+| Adobe Analytics ドメイン | `adobe.com`、`adobe.net`、`adobe.io` |
 | Adobe Analytics レガシードメイン | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
@@ -34,7 +34,7 @@ Adobe Analytics では、次のホストを使用して、パフォーマンス�
 
 ## すべてのAdobe Analyticsデータ収集IPアドレスブロック
 
-次の表に、Adobe Analyticsのすべての標準データ収集サーバーと地域データ収集サーバーを示します。 個々の AWS ホストは含まれません。
+次の表に、Adobe Analytics のすべての標準データ収集サーバーと、地域データ収集サーバーを示します。 個々の AWS ホストは含まれません。
 
 | IP ブロック（CIDR 表記） |
 | --- |
@@ -112,7 +112,7 @@ Adobe Analytics では、次のホストを使用して、パフォーマンス�
 
 ## AWS ホスト
 
-Adobe Analyticsは、データ収集プロセスの一部としてAmazon Webサービスを使用します。 次の表に、アドビ用に予約された AWS ホストを示します。これらのホストは、上記の集計ブロック範囲に含まれ&#x200B;**ません**。
+Adobe Analytics は、Amazon Web サービスをデータ収集プロセスの一環として使用しています。次の表に、アドビ用に予約された AWS ホストを示します。これらのホストは、上記の集計ブロック範囲に含まれ&#x200B;**ません**。
 
 | 場所 | ホスト |
 | --- | --- |
