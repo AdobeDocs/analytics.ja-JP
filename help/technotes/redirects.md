@@ -6,7 +6,6 @@ title: リダイレクトとエイリアス
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1125'
@@ -111,7 +110,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-ブラウザーによって参照元 URL が取り除かれるので、リダイレクトをおこなうメカニズム（Web サーバー、サーバーサイドのコード、クライアントサイドのコードなど）で、オリジナルリファラーの情報が渡されるように設定する必要があります。エイリアスリンクの URL も記録したい場合、この URL も最終的なランディングページに渡す必要があります。その場合は、*`s_pageURL`* 変数を使用して、現在の URL に優先させます。
+ブラウザーによって参照元 URL が取り除かれるので、リダイレクトをおこなうメカニズム（Web サーバー、サーバーサイドのコード、クライアントサイドのコードなど）で、オリジナルリファラーの情報が渡されるように設定する必要があります。エイリアスリンクの URL も記録したい場合、この URL も最終的なランディングページに渡す必要があります。 *`s_pageURL`* 変数を使用して、現在の URL に優先させます。
 
 リダイレクトの実装には多くの方法があるので、Web オペレーショングループやオンライン広告パートナーと協力して、貴社の Web サイトでリダイレクトが実行されるメカニズムを特定する必要があります。
 
@@ -150,7 +149,7 @@ redirects_verify_referrer.xml
 
 リファラー、発信元 URL（*`s_server`*）およびキャンペーン変数が取り込まれていることを確認するために、テストを実行します。
 
-[Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)では、これらの変数が次のパラメーターで表されます。
+[Experience Cloud デバッガー](https://docs.adobe.com/content/help/ja-JP/debugger/using/experience-cloud-debugger.html)では、これらの変数が次のパラメーターで表されます。
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
