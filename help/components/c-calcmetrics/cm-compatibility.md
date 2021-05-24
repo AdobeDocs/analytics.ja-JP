@@ -3,7 +3,6 @@ description: 「製品の互換性」の 3 つのオプションについて説�
 title: 指標の互換性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
-translation-type: tm+mt
 source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
 workflow-type: tm+mt
 source-wordcount: '178'
@@ -19,6 +18,6 @@ ht-degree: 60%
 
 | 互換性の対象 | 説明 |
 | --- | --- |
-| [現在のデータ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) | Adobe Analyticsの「[!UICONTROL 現在のデータを含む]」オプションを使用すると、多くの場合、データが完全に処理されてファイナライズされる前に、最新の解析データを表示できます。 [!UICONTROL 現在の] データには、ほとんどの指標が数分以内に表示され、迅速な意思決定を可能にする実用的なデータが提供されます。[!UICONTROL 「現在のデータ」では、計算指標（乗算、除算、加算、減算を含む指標）のみがサポートされます。][!UICONTROL 「現在のデータ」では、高度な計算指標（セグメントや関数を含む計算指標）はサポートされません。] |
-| 処理済みのデータ | 処理がすべて完了し、セグメントと分類を含むデータです。データが完全に処理された後にすべての指標を表示する場合は、現在のデータユーザーグループからユーザーを削除して、[!UICONTROL 現在のデータ]を無効にできます。 |
+| [現在のデータ](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) | Adobe Analyticsの「[!UICONTROL 現在のデータを含む]」オプションを使用すると、ほとんどの場合はデータが完全に処理されてファイナライズされる前に、最新のAnalyticsデータを表示できます。 [!UICONTROL 「現在のデ] ータ」には、ほとんどの指標が数分以内で表示され、迅速な意思決定を可能にする実用的なデータが提供されます。[!UICONTROL 「現在のデータ」では、計算指標（乗算、除算、加算、減算を含む指標）のみがサポートされます。][!UICONTROL 「現在のデータ」では、高度な計算指標（セグメントや関数を含む計算指標）はサポートされません。] |
+| 処理済みのデータ | 処理がすべて完了し、セグメントと分類を含むデータです。データが完全に処理された後にすべての指標を表示する場合は、「現在のデータユーザー」グループからユーザーを削除して、「[!UICONTROL 現在のデータ]」を無効にできます。 |
 | マーケティングチャネルレポート | ファーストタッチ配分を使用する指標は、マーケティングチャネルレポートとのみ互換性があります。 |
