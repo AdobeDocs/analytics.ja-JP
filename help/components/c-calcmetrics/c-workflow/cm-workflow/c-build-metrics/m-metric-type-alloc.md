@@ -2,14 +2,14 @@
 description: '詳細 '
 title: 指標タイプとアトリビューション
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
 workflow-type: ht
 source-wordcount: '908'
 ht-degree: 100%
 
 ---
-
 
 # 指標タイプとアトリビューション
 
@@ -33,6 +33,7 @@ ht-degree: 100%
 >* デフォルト以外のアトリビューションモデルの完全なリストとサポートされるルックバックウィンドウについては、[Attribution IQ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/attribution/models.html) のドキュメントを参照してください。
 >* 「マーケティングチャネルラストタッチ」と「マーケティングチャネルファーストタッチ」配分モデルはそれぞれ、新しい「ラストタッチ」と「ファーストタッチ」アトリビューションモデルに移行されます（注意：「マーケティングチャネル」は廃止されません。計算指標で表示される 2 つの配分モデルのみが廃止されます）。
 >* さらに、線形配分の計算方法が修正されます。顧客が線形配分モデルで計算指標を使用する場合、修正された新しいアトリビューションモデルを反映してレポートが若干変わる可能性があります。この計算指標の変更は、Analysis Workspace、Reports &amp; Analytics、レポート API、および Report Builder に反映されます。詳しくは、以下の「**線形配分の適用方法（2018 年 7 月 19 日（PT））**」を参照してください。
+
 >
 
 
@@ -82,4 +83,3 @@ ht-degree: 100%
 | PROMO B | $2.50 | $2.50 | $2.50 |
 | PROMO C | $2.50 | $2.50 | $2.50 |
 | 合計 | $10.00 | $10.00 | $10.00 |
-
