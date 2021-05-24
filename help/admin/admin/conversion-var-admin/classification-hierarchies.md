@@ -2,10 +2,9 @@
 description: 分類階層ページでは、階層レポートを作成するのに使用できる分類階層を同じ名前で定義できます。
 subtopic: Classifications
 title: 分類階層
-feature: Admin Tools
+feature: 管理ツール
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '299'
