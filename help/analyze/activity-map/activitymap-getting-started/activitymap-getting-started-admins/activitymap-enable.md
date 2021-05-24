@@ -22,7 +22,7 @@ Activity Map モジュールは、AppMeasurement.js ファイルの一部です�
 
 Activity Map のデータは、このバージョン以上の AppMeasurement に更新しない限り収集できません。
 
-1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL コードマネージャー]**&#x200B;に移動し、[それを](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/overview.html)実装して、最新のAppMeasurementコード(AppMeasurement_Javascript-1.6.zip)をダウンロードします。
+1. **[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL コードマネージャー]**&#x200B;および[実装](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/js/overview.html)に移動して、最新のAppMeasurementコード(AppMeasurement_Javascript-1.6.zip)をダウンロードします。
 
    Activity Map モジュールを含めることによるコードの変更を視覚的に確認できるように、[実装コードのサンプル](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)を含めました。
 
