@@ -2,11 +2,10 @@
 title: マーケティングチャネルの分析
 description: Workspace でのマーケティングチャネルディメンションの使用方法について説明します。
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->Attribution IQとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるため、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+>Attribution IQとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 
 ターゲットの精度を上げ、マーケティング収益を増加できるよう、最も効果的なマーケティングチャネルとそのユーザーを知りたい場合があります。Adobe Analytics では、Workspace のマーケティングチャネルディメンションとマーケティング指標は、様々なチャネルが注文件数や売上高などに与える影響を追跡し、有益なチャネルに関するインサイトを提供するツールです。マーケティングチャネルに使用できるディメンションと指標は次のとおりです。
 
@@ -58,8 +57,8 @@ ht-degree: 81%
 
 ## クロスタブマーケティング分析
 
-従来のファーストタッチチャネルとラストタッチチャネルを使用すると、チャネルの操作に関する次のような役立つ表示を入手できます。
+従来のファーストタッチチャネルとラストタッチチャネルを使用すると、チャネルのインタラクションに関する次の便利なビューを利用できます。
 
 ![](assets/mc-viz6.png)
 
-クロスタブマーケティングの分析について詳しくは、このビデオを参照してください。[クロスタブ分析を使用したAnalysis Workspaceの基本的なマーケティングアトリビューションの調査](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)
+クロスタブマーケティングの分析について詳しくは、次のビデオを参照してください。[クロスタブ分析を使用した Analysis Workspace の基本的なマーケティング属性の調査](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)
