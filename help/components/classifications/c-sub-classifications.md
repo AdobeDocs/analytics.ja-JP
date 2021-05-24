@@ -2,10 +2,9 @@
 description: Adobe Analytics では、単一レベルの分類モデルと複数レベルの分類レベルの両方をサポートしています。分類階層を使用すると、分類に対して分類を適用できます。
 subtopic: Classifications
 title: 下位分類について
-feature: Admin Tools
+feature: 管理ツール
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '653'
@@ -79,7 +78,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 | 410390014 | Polo-SS | メンズポロシャツ、半袖（L、03） | M | L | 03 | アクアマリン |
 | 410390015 | Polo-LS | レディースポロシャツ、長袖（S、23） | F | S | 23 | 水色 |
 
-### 製品の分類 - 複数ファイル（ファイル 1）  {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### 製品の分類 - 複数ファイル（ファイル 1） {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | キー | 製品名 | 製品の詳細 | 性別 | サイズ | コード |
 |---|---|---|---|---|---|
@@ -87,7 +86,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 | 410390014 | Polo-SS | メンズポロシャツ、半袖（L、03） | M | L | 03 |
 | 410390015 | Polo-LS | レディースポロシャツ、長袖（S、23） | F | S | 23 |
 
-### 製品の分類 - 複数ファイル（ファイル 2）  {#section_19ED95C33B174A9687E81714568D56A3}
+### 製品の分類 - 複数ファイル（ファイル 2） {#section_19ED95C33B174A9687E81714568D56A3}
 
 | キー | コード | コード^色 |
 |---|---|---|
