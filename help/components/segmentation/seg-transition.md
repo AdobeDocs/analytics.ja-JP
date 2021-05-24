@@ -1,10 +1,9 @@
 ---
 description: セグメント化に関するよくある質問です。
 title: よくある質問
-feature: Segmentation
+feature: セグメント化
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '2078'
@@ -109,7 +108,7 @@ Report Builder では、自分が作成したセグメントまたは自分に�
 * 自分が所有しているセグメントを確認します。
 * セグメントを適切なセグメントライブラリに追加します。
 * 正規のセグメントを承認します。
-* Tag segments according to[ベストプラクティス](/help/components/segmentation/segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
+*  [ベストプラクティス](/help/components/segmentation/segmentation-workflow/seg-workflow.md)に従ってセグメントにタグを設定します。
 
 ## レガシーセグメントの管理 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -314,7 +313,7 @@ seg_definition.xml
  </tbody> 
 </table>
 
-## 既知の値を持つ文字列ベースのディメンションの変更  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## 既知の値を持つ文字列ベースのディメンションの変更 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 既知の値のセットを持つ文字列ベースのディメンションは列挙型に変更されました。これらのディメンションを使用してセグメントを作成すると、リストにすべての既知の値が事前に設定されます。演算子は等号のみがサポートされます。したがって、必要な値をすばやく正確にセグメント化でき、制限の緩いマッチングによって意図しない値が選択されることはありません。
 
@@ -336,7 +335,7 @@ seg_definition.xml
 | モバイルのブックマークの長さ | Java 有効 | 有料検索 |
 | モバイルの URL の長さ | 言語 |  |
 
-## 既知の値を持つ整数値ベースのディメンションの変更  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 既知の値を持つ整数値ベースのディメンションの変更 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 既知の値のセットを持つ整数値ベースのディメンションは列挙型の範囲に分割されたので、特定の範囲に対してセグメントをすばやく定義できます。これらの列挙型リストには、ディメンション名の後に「- グループ」が付きます。次のスクリーンショットに、以前および新しいセグメントビルダーインターフェイスを使用して、これらのディメンションをセグメント化する方法を示します。
 
