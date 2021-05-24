@@ -34,7 +34,7 @@ ht-degree: 98%
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 1. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
-1. 上部のナビゲーションで、**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL コードマネージャー]**&#x200B;をクリックします。
+1. 上部のナビゲーションで、**[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL コードマネージャー]**&#x200B;をクリックします。
 1. 最新の JavaScript appMeasurement ライブラリをダウンロードします。
 1. ダウンロードが完了したら、ファイルを展開して `AppMeasurement_Module_Integrate.js` を見つけます。
 
