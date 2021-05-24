@@ -2,10 +2,9 @@
 description: インポーターを使用して、分類を Adobe Analytics にアップロードします。インポートの前に、更新用にデータをエクスポートすることもできます。
 subtopic: Classifications
 title: 分類インポーター - 概要
-feature: Admin Tools
+feature: 管理ツール
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '147'
