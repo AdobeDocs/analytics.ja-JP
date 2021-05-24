@@ -40,4 +40,4 @@ ht-degree: 95%
 | 質問 | 回答 |
 |---|---|
 | 機能への早期アクセスをリクエストできますか？ | いいえ。早期アクセスは許可されません。<br>Analytics の初期の概念をテストする場合は、[Adobe Analytics Labs](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/tech-previews/overview.html) で業界をリードする革新的なアイデアに対するフィードバックを提供してみることをお勧めします 。 |
-| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analyticsパッケージの表示の詳細は、 [!UICONTROL 管理者] / [!UICONTROL すべての管理者] / [!UICONTROL 会社設定] / [](https://docs.adobe.com/content/help/ja-JP/analytics/admin/company-settings/feature-access-levels.html)アクセスレベル機能で確認できます。 |
+| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analyticsパッケージの詳細は、 [!UICONTROL 管理者] / [!UICONTROL すべての管理者] / [!UICONTROL カンパニー設定] / [機能アクセスレベル](https://docs.adobe.com/content/help/ja-JP/analytics/admin/company-settings/feature-access-levels.html)で表示できます。 |
