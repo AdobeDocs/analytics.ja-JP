@@ -45,7 +45,7 @@ ht-degree: 94%
 | `j` | なし | ブラウザーにインストールされている JavaScript バージョン。 |
 | `k` | なし | [Cookie サポート](/help/components/dimensions/cookie-support.md)ディメンションで使用されます。 |
 | `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | リスト変数。 |
-| `lrt` | なし | 「最後のリクエストのタイミング」。最後のリクエストのラウンドトリップ時間（ミリ秒）です。 ページから複数のリクエストが送信されている場合、またはページがシングルページアプリ(SPA)の場合にのみ送信されます。 |
+| `lrt` | なし | 最後のリクエストのラウンドトリップ時間である「最後のリクエストタイミング」（ミリ秒）。 複数のリクエストがページから送信される場合、またはページがシングルページアプリケーション(SPA)の場合にのみ送信されます。 |
 | `mid` | なし | Experience Cloud 訪問者 ID。 |
 | `ndh` | なし | イメージリクエストが AppMeasurement から送信されたかどうかを示すフラグ。 |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Cookie が設定されている場所を判断するのに役立ちます。 |
