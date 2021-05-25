@@ -1,14 +1,14 @@
 ---
-description: フォールアウトビジュアライゼーションの設定.
+description: タッチポイントを指定して、複数ディメンションのフォールアウトシーケンスを作成します。
 title: フォールアウトビジュアライゼーションの設定
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: d2edb8921afa2aeb7ce4b932f1e1320acac7de70
+source-git-commit: 2d30969652991564379c37801b353803e73e5f8c
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 96%
+source-wordcount: '691'
+ht-degree: 95%
 
 ---
 
