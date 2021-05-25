@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して、1 時間ごとまたは毎日生データの書き出しを受け取ります。Data Warehouse を使用して、データのスプレッドシート出力を取得します。
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +25,8 @@ ht-degree: 100%
       + [計算指標](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [データ列リファレンス](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [ページイベント参照](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [モバイル属性参照](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [モバイル属性の参照](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [post_product_listのマーチャンダイジングeVarインスタンス参照](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊文字](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [到着が遅れたヒット](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [データフィードに関する FAQ](analytics-data-feed/df-faq.md)
