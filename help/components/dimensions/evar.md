@@ -2,11 +2,10 @@
 title: eVar
 description: レポートで使用できるカスタムディメンション。
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ eVar は、好きなだけ使用できるカスタム変数です。[ソリュ�
 
 使用可能な eVar の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
-eVar では大文字と小文字が区別されません。大文字と小文字で同じ値を送信する（`"DOG"` と `"Dog"` など）と、Analysis Workspace はそれらを同じディメンション項目にグループ化します。レポートの月の最初に表示される最初の値の場合が使用されます。Data Warehouse には、リクエスト期間中に最初に発生した値が表示されます。
+レポートで使用される(大文字と小文字の区別は、バックエンドシステムが最初に登録する値に基づきます。 この値は、レポートスイートに関連付けられているデータの種類や数量に応じて、ある期間（月など）で確認された初めてのインスタンスになるか、変化する可能性があります。
 
 ## eVar にデータを入力する
 
