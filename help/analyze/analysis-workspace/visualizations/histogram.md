@@ -5,10 +5,9 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '372'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -31,7 +30,7 @@ ht-degree: 100%
 >
 >ヒストグラムは、計算指標ではなく、標準指標のみをサポートします。
 
-ここでは、実訪問者数ごとにページビュー数指標を使用しました。最初の（左の）グループは、実訪問者数ごとの 1 ページビューに対応し、2 番目のグループは 2 ページビューに対応します（以下同様）。
+ここでは、ユニーク訪問者数ごとにページビュー数指標を使用しました。最初の（左の）グループは、ユニーク訪問者数ごとの 1 ページビューに対応し、2 番目のグループは 2 ページビューに対応します（以下同様）。
 
 ![](assets/histogram2.png)
 
@@ -63,4 +62,4 @@ ht-degree: 100%
 
 ![](assets/prebuilt_segments.png)
 
-データを分類するなど、フリーフォームデータテーブルおよびその他のビジュアライゼーションを管理するその他の方法を確認するには、[こちら](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)を参照してください。
+データを分類するなど、フリーフォームデータテーブルおよびその他のビジュアライゼーションを管理するその他の方法を確認するには、[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja)を参照してください。
