@@ -2,11 +2,10 @@
 title: visitorID
 description: カスタム訪問者 ID を使用します。
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> この変数の使用はお勧めしません。代わりに、[Adobe Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用してください。
+> この変数の使用はお勧めしません。代わりに、[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)を使用してください。
 
 ## Adobe Experience Platform Launch の「訪問者 ID」
 
