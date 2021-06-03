@@ -2,20 +2,19 @@
 description: この Adobe® Data Connectors™ 電子メール統合は、Adobe Analytics® の行動情報と電子メールマーケティングを組み合わせ、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
 title: Adobe Analytics 用 Aprimo Data Connector
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: cd5191c9-68fb-42ad-98f6-23d5a72878da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 98%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
-
 
 # Adobe Analytics 用 Aprimo Data Connector {#aprimo-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->2021年8月1日に、Adobeデータコネクタ技術の提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021年8月1日に、AdobeData Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 この Adobe® Data Connectors™ 電子メール統合は、Adobe Analytics® の行動情報と電子メールマーケティングを組み合わせ、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
 
@@ -72,4 +71,4 @@ Data Connectors 統合を開始する前に、次の要件を満たす必要が�
 
 この統合では、指標を追跡するために Adobe Analytics 変数が必要です。
 
-この統合で使用するイベントと eVar を特定したら、Adobe Analytics Admin Console で有効にする必要があります（手順については、[レポートスイート](https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/report-suites-admin.html)を参照してください）。
+この統合で使用するイベントと eVar を特定したら、Adobe Analytics Admin Console で有効にする必要があります（手順については、[レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)を参照してください）。
