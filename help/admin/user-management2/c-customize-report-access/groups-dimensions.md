@@ -6,10 +6,10 @@ title: ディメンションの権限のカスタマイズ
 feature: 管理ツール
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 94%
+source-wordcount: '499'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべてのお客様が移行した後、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは廃止されます。
+>ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 eVar、トラフィックレポート、ソリューションレポートおよびパスレポートを含む、詳細なレベルでユーザーアクセスをカスタマイズします。
 
@@ -40,9 +40,9 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
 * ビデオおよびモバイルレポートおよびその他の Analytics ソリューリョンレポート（Experience Manager、Advertising Cloud、Social など）はディメンションです。
 * パスレポートは、ユーザーが親ディメンションにアクセスできる場合に使用できます。
 * カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。
-* 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる[変数](https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/c-classifications.html)へのアクセスによって判断されます。
+* 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる[変数](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)へのアクセスによって判断されます。
 
-詳しくは、[ユーザーとグループの権限の変更](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/permissions-changes.html)を参照してください。
+詳しくは、[ユーザーとグループの権限の変更](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/permissions-changes.html)を参照してください。
 
 **ディメンションのカスタマイズ**
 
@@ -61,15 +61,15 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
    <td colname="col2"> <p>eVar 1 ～250 に対して個別に権限が与えられます。eVar は、カスタムレポートのコンバージョン成功指標をセグメント化するために使用するカスタムコンバージョン変数です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/evar.html"> prop </a> </p> </td> 
-   <td colname="col2"> <p>prop は、カスタムトラフィック変数です。 </p> <p>Analytics の導入の<a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">トラフィック prop と コンバージョン eVar</a> を参照してください。 </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html"> prop </a> </p> </td> 
+   <td colname="col2"> <p>prop は、カスタムトラフィック変数です。 </p> <p>Analytics の導入の<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html">トラフィック prop と コンバージョン eVar</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html"> 階層 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html"> 階層 </a> </p> </td> 
    <td colname="col2"> <p> 階層（hierN）変数は、サイトの階層またはページ構造におけるページの位置を決定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> リスト Prop の機能と同様、リスト変数は、同じイメージリクエスト内で複数の値を許可します。 </p> </td> 
   </tr> 
   <tr> 
@@ -85,11 +85,11 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/activity-map/activity-map.html"> Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html"> Activity Map </a> </p> </td> 
    <td colname="col2"> <p> Activity Map レポートディメンション：Activity Map ページ、Activity Map リンク、Activity Map 地域、Activity Map 地域別リンク、Activity Map XY </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html"> モバイル </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html"> モバイル </a> </p> </td> 
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ eVar、トラフィックレポート、ソリューションレポートおよ�
    <td colname="col2"> <p>このパートナーとの統合は無効になりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>このパートナーとの統合は無効になりました。 </p> </td> 
   </tr> 
   <tr> 
