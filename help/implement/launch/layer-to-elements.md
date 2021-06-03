@@ -2,11 +2,10 @@
 title: データレイヤーオブジェクトをデータ要素にマッピングする
 description: データレイヤーから読み取るよう Launch を設定します。
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 ## Adobe Experience Platform Launch を使用してデータ要素を作成する
 
-[データ要素](https://docs.adobe.com/content/help/ja-JP/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)は、ツール全体で使用できる Launch のコンポーネントです。データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
+[データ要素](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)は、ツール全体で使用できる Launch のコンポーネントです。データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. 目的の Launch プロパティをクリックします。
