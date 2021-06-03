@@ -3,11 +3,10 @@ description: Adobe Analytics のデータガバナンスに関する FAQ
 title: よくある質問
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1806'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1804'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +52,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>データプライバシーに関して、データ管理者はデータ保持についてどのように考えればよいですか？</b> </p> </td> 
-   <td colname="col2"> <p>データプライバシーは、通常、個人データは、収集された目的を達成するために必要な期間以上に保持しないということが規定されています。 </p> <p>アドビが 2 月のお客様とのコミュニケーションで説明したように、他の合意（顧客通知と認証が必要）がなされない限り、ほとんどのお客様に対して 25 ヶ月のデータ保持計画を適用します。お客様は、アドビがデータプライバシー要求を処理できるように、データ保持ポリシーを設定する必要があります。 </p> <p>Adobe Analytics では、お客様はデータプライバシー要求を処理するためのデータ保持を設定する必要があります。新しいデータガバナンス管理 UI には、各レポートスイートの現在のデータ保持ポリシーが表示されます。データ保持ポリシーを調整する必要がある場合は、アドビの担当窓口までご連絡ください。<a href="https://docs.adobe.com/content/help/ja-JP/analytics/technotes/latency.html">Adobe Analytics データ保持の FAQ</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>データプライバシーは、通常、個人データは、収集された目的を達成するために必要な期間以上に保持しないということが規定されています。 </p> <p>アドビが 2 月のお客様とのコミュニケーションで説明したように、他の合意（顧客通知と認証が必要）がなされない限り、ほとんどのお客様に対して 25 ヶ月のデータ保持計画を適用します。お客様は、アドビがデータプライバシー要求を処理できるように、データ保持ポリシーを設定する必要があります。 </p> <p>Adobe Analytics では、お客様はデータプライバシー要求を処理するためのデータ保持を設定する必要があります。新しいデータガバナンス管理 UI には、各レポートスイートの現在のデータ保持ポリシーが表示されます。データ保持ポリシーを調整する必要がある場合は、アドビの担当窓口までご連絡ください。<a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html">Adobe Analytics データ保持の FAQ</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>お客様は、デフォルトのデータ保持期間を短縮または延長できますか？</b> </p> </td> 
