@@ -4,10 +4,9 @@ subtopic: Classifications
 title: 分類ルール
 feature: 管理ツール
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
-source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2028'
 ht-degree: 97%
 
 ---
@@ -19,7 +18,7 @@ ht-degree: 97%
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL 分類ルールビルダー]**
 
-ルールビルダーを使用すると、*分類ルールセット*&#x200B;を作成できます。分類ルールセットは、*分類ルール*&#x200B;のリストです。 ルールは、指定された条件との照合を行い、アクションを実行します。
+ルールビルダーを使用すると、*分類ルールセット*&#x200B;を作成できます。これは、*分類ルール*&#x200B;のリストです。 ルールは、指定された条件との照合を行い、アクションを実行します。
 
 分類ルールは、次の項目に使用すると便利です。
 
@@ -37,8 +36,8 @@ ht-degree: 97%
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
 | 次の語句で始まる | em: | チャネル | 電子メール |
-| 次の語句で終わる | Sale | タイプ | Sale |
-| 次を含む | 2013 | 年 | 2013 |
+| 次の語句で終わる | Sale | タイプ | 販売 |
+| 次を含む | 2013 | 年 | 2013年 |
 
 ## ルールの処理方法 {#how-rules-are-processed}
 
@@ -60,7 +59,7 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-*    [管理ツール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)で、分類の[!UICONTROL グループ権限]を指定します。
+*    [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)で、分類の[!UICONTROL グループ権限]を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -266,7 +265,7 @@ c:d:yoyo
 | `a{3,}` | 3 個以上の a |
 | `a{3,6}` | 3 ～ 6 個の a |
 
-正規式の有効性をテストする際に役立つ情報は、[https://rubular.com/](https://rubular.com/)です。
+正規表現の有効性のテストに関する参考情報は、[https://rubular.com/](https://rubular.com/)です。
 
 ## ルールの優先度について
 
@@ -294,7 +293,7 @@ rule_priority.xml
 
 | ルール番号 | ルールタイプ | 次に一致 | 分類を設定 | 設定値 |
 |---|---|---|---|---|
-| 3 | 次を含む | カウボーイズ | 市区町村 | ダラス |
+| 1 | 次を含む | カウボーイズ | 市区町村 | ダラス |
 | 2 | 次を含む | ブロンコス | 市区町村 | Denver |
 
 ユーザーが&#x200B;*`Cowboys vs. Broncos`* を検索すると、ルールビルダーによってルールの一致に競合が発見され、この検索では 2 番目のルールの分類（Denver）が適用されます。
@@ -326,7 +325,7 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >次の条件が満たされると、レポートスイートはこのページ&#x200B;**&#x200B;のみに表示されます。
+   >次の条件を満たした場合、レポートスイートはこのページ&#x200B;*のみ*&#x200B;に表示されます。
    >
    >* レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
       >
@@ -407,7 +406,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. （オプション）分類を上書きするには、**** &lt;*selection*>の分類を上書きするを有効にします。
+1. （オプション）分類を上書きするには、「**** &lt;*selection*&#x200B;の分類を上書き」を有効にします。
 
    このオプションを使用すると、影響を受けるキーの既存の分類を上書きできます。
 
