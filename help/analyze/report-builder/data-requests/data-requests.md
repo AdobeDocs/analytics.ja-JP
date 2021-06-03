@@ -1,16 +1,15 @@
 ---
-description: Report Builderでリクエストを作成する場合の最初の手順。
+description: Report Builderでリクエストを作成する際の最初の手順。
 title: データリクエスト - リクエストウィザード：ステップ 1
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '418'
+ht-degree: 95%
 
 ---
-
 
 # データリクエスト - リクエストウィザード：ステップ 1
 
@@ -22,7 +21,7 @@ ht-degree: 96%
 
 1. **範囲選択アイコン**：レポートスイート ID が記入されたセルを選択します。詳しくは、[レポートスイートの選択](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)を参照してください。
 
-1. **セグメント**：データのカスタムサブセット、または作成した規則でフィルターされたデータです。セグメントはヒット、訪問および訪問者に基づいています。セグメントについて詳しくは、[Analytics セグメントガイド](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)を参照してください。
+1. **セグメント**：データのカスタムサブセット、または作成した規則でフィルターされたデータです。セグメントはヒット、訪問および訪問者に基づいています。セグメントについて詳しくは、[Analytics セグメントガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)を参照してください。
 
    例えば、[!UICONTROL ページレポート]を実行し、初回訪問件数セグメントを適用できます。
 
