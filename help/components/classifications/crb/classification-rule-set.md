@@ -2,13 +2,12 @@
 description: ルールセットは、特定の変数の分類ルールのグループです。変数をルールセットに適用します。1 つの変数に対して複数のルールセットを作成するには、それぞれのルールセットを複数のレポートスイートに適用する必要があります。
 subtopic: Classifications
 title: 分類ルールセット
-feature: Admin Tools
+feature: 管理ツール
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +59,7 @@ ht-degree: 100%
 
 1. （前提条件）**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;で、分類構造を定義します。
 
-   （分類の追加については、管理ツールのヘルプの[分類](https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/c-classifications.html)を参照してください。）
+   （分類の追加については、管理ツールのヘルプの[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)を参照してください。）
 
    変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ[!UICONTROL 新しいルールセット]パネルに表示されます。
 
