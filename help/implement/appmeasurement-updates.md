@@ -3,11 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2142'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2132'
+ht-degree: 98%
 
 ---
 
@@ -309,8 +308,8 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2015 年 5 月 22 日**
 
-* iOS SDK バージョン 4.5 から、新しい iOS 拡張機能により、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの iOS 拡張機能アプリから使用データを収集できるようになりました。『Mobile Services ユーザーガイド』の [iOS 拡張機能の実装](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/ios-ext/ios-ext.html)を参照してください。
-* Android SDK バージョン 4.5 から、新しい Android 拡張機能によって Android ウェアラブルアプリからデータを収集できるようになりました。詳しくは、『Mobile Services ユーザーガイド』の [Android ウェアラブル](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/wearables-android/android-wearable.html)を参照してください。
+* iOS SDK バージョン 4.5 から、新しい iOS 拡張機能により、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの iOS 拡張機能アプリから使用データを収集できるようになりました。『Mobile Services ユーザーガイド』の [iOS 拡張機能の実装](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html)を参照してください。
+* Android SDK バージョン 4.5 から、新しい Android 拡張機能によって Android ウェアラブルアプリからデータを収集できるようになりました。詳しくは、『Mobile Services ユーザーガイド』の [Android ウェアラブル](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html)を参照してください。
 * Visitor API 1.4 を同梱しました。
 * AudienceManagement モジュールが更新され、DIL バージョン 6.0 を使用できるようになりました。
 
@@ -395,7 +394,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2014 年 4 月 18 日**
 
-* [Experience Cloud 訪問者 ID サービスのサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)。
+* [Experience Cloud 訪問者 ID サービスのサポート](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## バージョン 1.2.4
 
@@ -425,8 +424,8 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2013 年 11 月 15 日**
 
-* [ハードビートビデオ指標](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)のサポートを追加しました。
-* [訪問者 ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [ハードビートビデオ指標](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)のサポートを追加しました。
+* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 
