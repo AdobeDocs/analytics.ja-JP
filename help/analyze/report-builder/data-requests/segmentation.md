@@ -4,14 +4,13 @@ title: セグメントの管理
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 99%
+source-wordcount: '914'
+ht-degree: 98%
 
 ---
-
 
 # セグメントの管理
 
@@ -28,7 +27,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 >Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
 
 1. リクエストウィザードの手順 1 のセグメントパネルで、「**[!UICONTROL 追加]**」をクリックします。
-1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、「[Analytics セグメント化](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)」を参照してください。
+1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、「[Analytics セグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)」を参照してください。
 1. セグメントを定義して保存したら、リクエストウィザードに戻ります。
 1. 更新アイコンをクリックして、セグメント一覧を更新します
 
@@ -45,14 +44,14 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 
    ![](assets/seg_in_context.png)
 
-   コンテナについて詳しくは、[セグメント化ガイド](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)を参照してください。
+   コンテナについて詳しくは、[セグメント化ガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)を参照してください。
 
 1. セグメントビルダーの UI が Internet Explorer で起動します。セグメントビルダーの UI に指定したコンテナおよびフィルターが反映されます。
 1. セグメントに名前と説明を追加し、保存します。
 1. Report Builder に戻り、更新アイコンをクリックして、セグメントの一覧を更新します。
 1. これで、このセグメントを適用する準備が整いました。
 
-## セグメントの検索および適用  {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## セグメントの検索および適用 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
 Reports &amp; Analytics、Report Builder または Data Warehouse で作成したすべてのセグメントがこのセグメント一覧に表示されます。一覧を更新するには、更新アイコン（![](assets/refresh_icon.png)）をクリックします。
 
@@ -103,7 +102,7 @@ Reports &amp; Analytics、Report Builder または Data Warehouse で作成し�
 
    ![](assets/seg_control2.png)
 
-## セグメントの一覧の更新  {#section_22E4A86789444B4A998532396B476EFB}
+## セグメントの一覧の更新 {#section_22E4A86789444B4A998532396B476EFB}
 
 新規セグメントを追加したり、既存のセグメントを編集したりした場合は、更新アイコン（![](assets/refresh_icon.png)）をクリックして、キャッシュされたセグメント一覧を更新する必要があります。
 
@@ -126,4 +125,3 @@ Report Builder 5.4 を使用すると、複数のリクエストでセグメン�
    | セグメントを置換 | 1 つまたは複数のセグメントで置き換えるセグメントを選択できます。 |
    | すべてのセグメントを次で置換 | 現在のセグメントから置換する 1 つまたは複数のセグメントを選択できます。 |
    | セグメントを削除 | リクエストからセグメントを削除できます。 |
-
