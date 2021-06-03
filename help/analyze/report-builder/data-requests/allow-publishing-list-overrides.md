@@ -4,14 +4,13 @@ title: 発行リストの上書きの許可
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 92%
+source-wordcount: '164'
+ht-degree: 95%
 
 ---
-
 
 # 発行リストの上書きの許可
 
@@ -19,7 +18,7 @@ ht-degree: 92%
 
 発行リストは Analytics 管理ツールで設定しておく必要があります。
 
-Analytics リファレンスの[発行リスト](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html)を参照してください。
+Analytics リファレンスの[発行リスト](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html)を参照してください。
 
 この機能を有効にするには、[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウを開きます。
 
@@ -30,4 +29,3 @@ Analytics リファレンスの[発行リスト](https://docs.adobe.com/content/
 >[!NOTE]
 >
 >予定レポートを複数の発行リストに対して送信する場合、各リストに対してレポートが一度実行されます。対象レポートスイートは、発行リストに割り当てられたレポートスイートに置き換えられます。
-
