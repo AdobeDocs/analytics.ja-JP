@@ -5,11 +5,10 @@ uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 feature: AI ツール
 role: Business Practitioner, Administrator
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 ![](assets/alert-manager.png)
 
-アラートマネージャー（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]**）は、[セグメントマネージャー](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-manage.html)および[計算指標マネージャー](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)と非常によく似た構造で、次の操作をおこなえます。
+アラートマネージャー（**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]**）は、[セグメントマネージャー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html)および[計算指標マネージャー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)と非常によく似た構造で、次の操作をおこなえます。
 
 ![](assets/alert-manager-tasks.png)
 
