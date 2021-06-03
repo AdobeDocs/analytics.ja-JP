@@ -2,11 +2,10 @@
 description: サーバーのすべての使用状況アラートを追加または管理できます。アラートをセットアップすると、請求会社のすべてのログイン会社におけるすべてのレポートスイートに適用されます。
 title: サーバーコールの使用状況アラート
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 ## 概要
 
-**[!UICONTROL サーバーコールの使用状況アラート]**&#x200B;という新しいアラートカテゴリーが既存の[アラート管理](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)ユーザーインターフェイスに追加されます。
+**[!UICONTROL サーバーコールの使用状況アラート]**&#x200B;という新しいアラートカテゴリーが既存の[アラート管理](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)ユーザーインターフェイスに追加されます。
 
 **1 つのデフォルトアラート**&#x200B;があらかじめ設定されており、サーバーコール使用状況の機能を利用できるあらゆるログイン会社内で表示されます。以下の条件のいずれかが満たされた場合、このアラートはログイン会社の管理者全員に宛てた通知をトリガーします。
 
