@@ -2,10 +2,10 @@
 title: websiteBot
 description: マウスの動きを使用してボットを動的に識別します。
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: c4b44b573732e7bcdafdac539dec8ee7b680aa92
+source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 73%
+source-wordcount: '427'
+ht-degree: 52%
 
 ---
 
@@ -19,16 +19,19 @@ ht-degree: 73%
 
 このプラグインでは、次の 2 つのチェックを実行します。
 
-* まず、`navigator.UserAgent` 変数を使用して、デバイスがデスクトップかモバイルデバイスかを判断します。 モバイルデバイスは無視されます。
-* デスクトップデバイスの場合は、マウスの動きに対するイベントリスナーを追加します。
+* まず、デスクトップデバイスの場合は、マウスの動きに関するイベントリスナーを追加します。
+* 次に、`navigator.UserAgent`変数を使用して、デバイスがデスクトップかモバイルデバイスかを判断します。 モバイルデバイスは無視されます。
 
-ユーザーエージェントがデスクトップ上にあり、マウスの動きが検出されない場合、プラグインは `websiteBot` 変数を `true` に設定します。 ユーザーエージェントがモバイルデバイスの場合、またはマウスの動きが検出された場合、プラグインは `websiteBot` 変数を `false` に設定します。
+ユーザーエージェントがデスクトップ上にあり、マウスの動きが検出されない場合は、プラグインで
+
+* (Adobe Experience Platform Launchの)[!UICONTROL 直接呼び出し]ルールを呼び出すか、
+* 訪問者がボットでないことを示すために`s.tl`呼び出しをおこないます。
 
 ## 前提条件
 
 アドビでは、このプラグインを使用する前に次の点を推奨します。
 
-* **eVar 設定の指定**：レポートスイート設定の「 [コンバージョン 変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で eVar を設定します。有効期限を&#x200B;**なし**&#x200B;に設定し、割り当てを&#x200B;**&quot;元の値（最初）&quot;**&#x200B;に設定します。
+* **eVar 設定の指定**：レポートスイート設定の「 [コンバージョン 変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で eVar を設定します。有効期限を&#x200B;**なし**&#x200B;に設定し、割り当てを&#x200B;**&quot;元の値（最初）&quot;**&#x200B;に設定します。 このeVarは、次の両方の状況で設定する必要があります。[!UICONTROL 直接呼び出し]ルールまたは`s.tl`呼び出しが実行されたとき。
 * **別の変数でのユーザーエージェントの収集**：別の変数にユーザーエージェント文字列を収集して、このプラグインの有効性を監視します。このデータを収集するには、すべてのヒットで eVar を `navigator.UserAgent` に設定します。
 
 ## Launch カスタムコードエディターを使用したプラグインのインストール
