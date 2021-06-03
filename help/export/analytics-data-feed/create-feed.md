@@ -2,10 +2,10 @@
 title: データフィードの作成または編集
 description: データフィードを作成または編集する方法について説明します。
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 91%
+source-wordcount: '948'
+ht-degree: 82%
 
 ---
 
@@ -43,9 +43,19 @@ ht-degree: 91%
 
 ### S3
 
-フィードは Amazon S3 バケットに直接送信できます。バケット名、アクセスキー ID および秘密キーが必要です。詳しくは、Amazon S3 ドキュメント内の [Amazon S3 バケットの命名要件](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)を参照してください。
+フィードは Amazon S3 バケットに直接送信できます。この宛先タイプには、バケット名、アクセスキーID、秘密鍵が必要です。 詳しくは、Amazon S3 ドキュメント内の [Amazon S3 バケットの命名要件](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)を参照してください。
 
 ![S3 情報](assets/dest-s3.jpg)
+
+データフィードのアップロードに使用するユーザーには、次の[権限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)が必要です。
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+   >[!NOTE]
+   >
+   >Amazon S3バケットにアップロードするたびに、[!DNL Analytics]は、バケットの所有者をBucketOwnerFullControl ACLに追加します。このACLは、バケットに必要なポリシーがあるかどうかに関係なく追加されます。 詳しくは、「[Amazon S3データフィードのBucketOwnerFullControl設定とは何ですか？](df-faq.md#BucketOwnerFullControl)」を参照してください。
 
 以下の 16 の標準 AWS 地域がサポートされます（必要に応じて適切な署名アルゴリズムを使用）。
 
