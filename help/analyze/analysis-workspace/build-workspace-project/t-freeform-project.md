@@ -2,12 +2,12 @@
 description: プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
 keywords: Analysis Workspace
 title: Workspace プロジェクトの作成
-feature: Reports & Analytics の基本事項
+feature: Reports & Analytics の基本
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 99%
+source-wordcount: '756'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 1. プロジェクトを作成およびキュレーションするためのユーザー権限を指定します。
 
-   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に **[!UICONTROL Analysis Workspace のプロジェクトを作成／キュレーション]**&#x200B;権限を有効にしたグループか、**[!UICONTROL 全レポートアクセス]**&#x200B;ユーザーグループに追加してもらう必要があります（**[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]** > [グループ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-groups/groups.html)）。
+   Analysis Workspace プロジェクトを作成またはキュレーションするユーザーは、先に、管理者に **[!UICONTROL Analysis Workspace のプロジェクトを作成／キュレーション]**&#x200B;権限を有効にしたグループか、**[!UICONTROL 全レポートアクセス]**&#x200B;ユーザーグループに追加してもらう必要があります（**[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]** > [グループ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)）。
 
 1. [!DNL Experience Cloud] で、**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** をクリックします。
 
