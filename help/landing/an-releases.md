@@ -2,10 +2,10 @@
 description: Adobe Analytics の新しい継続的な機能リリース戦略を説明します。
 title: Adobe Analytics 機能リリース
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 ## 機能フラグ
 
-機能フラグは、リリース時の新機能の表示を制御するために使用します。リリース時に最適なエクスペリエンスを得るために、app.launchdarkly.com をファイアウォールの [許可リスト](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/ip-addresses.html)に追加することを推奨します。GA に達した直後に、フラグが削除されます。
+機能フラグは、リリース時の新機能の表示を制御するために使用します。リリース時に最適なエクスペリエンスを得るために、app.launchdarkly.com をファイアウォールの [許可リスト](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ja)に追加することを推奨します。GA に達した直後に、フラグが削除されます。
 
 アクティブな機能フラグは、**ヘルプ／Workspace について／アクティブな機能フラグ**&#x200B;からいつでも表示できます。
 
@@ -39,5 +39,5 @@ ht-degree: 95%
 
 | 質問 | 回答 |
 |---|---|
-| 機能への早期アクセスをリクエストできますか？ | いいえ。早期アクセスは許可されません。<br>Analytics の初期の概念をテストする場合は、[Adobe Analytics Labs](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/tech-previews/overview.html) で業界をリードする革新的なアイデアに対するフィードバックを提供してみることをお勧めします 。 |
-| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analyticsパッケージの詳細は、 [!UICONTROL 管理者] / [!UICONTROL すべての管理者] / [!UICONTROL カンパニー設定] / [機能アクセスレベル](https://docs.adobe.com/content/help/ja-JP/analytics/admin/company-settings/feature-access-levels.html)で表示できます。 |
+| 機能への早期アクセスをリクエストできますか？ | いいえ。早期アクセスは許可されません。<br>Analytics の初期の概念をテストする場合は、[Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) で業界をリードする革新的なアイデアに対するフィードバックを提供してみることをお勧めします 。 |
+| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analyticsパッケージの詳細は、 [!UICONTROL 管理者] / [!UICONTROL すべての管理者] / [!UICONTROL カンパニー設定] / [機能アクセスレベル](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html)で表示できます。 |
