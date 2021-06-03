@@ -2,9 +2,9 @@
 description: Analytics ユーザー ID を Adobe Experience Cloud 内の Admin Console に移行するプロセスについて説明します。
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3123'
 ht-degree: 97%
 
 ---
@@ -16,7 +16,7 @@ Analytics ユーザー ID を Adobe Experience Cloud 内の Admin Console に移
 
 Admin Console に関する一般的な（Analytics の移行に関連しない）ヘルプについては、『[Admin Console ユーザーガイド](https://helpx.adobe.com/jp/enterprise/administering/user-guide.html)』を参照してください。
 
-移行後に、Admin Console で[Experience Cloud ユーザーおよび製品を管理](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html)できます。
+移行後に、Admin Console で[Experience Cloud ユーザーおよび製品を管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)できます。
 
 ## Analytics ユーザー ID の移行とは {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -47,7 +47,7 @@ Admin Console の使用メリットには、次のようなものがあります
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">新しいユーザーの招待 </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">製品プロファイルの作成 </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">ユーザーへの特定の製品またはサービスに対する権限の付与 </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Adobe Experience Cloud で使用可能な<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/experience-cloud.html">クロスソリューションコアサービス</a>へのアクセス権を獲得できます。 </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Adobe Experience Cloud で使用可能な<a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html">クロスソリューションコアサービス</a>へのアクセス権を獲得できます。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -75,7 +75,7 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder の更新 </p> </td> 
-   <td colname="col2"> <p> <p>重要：<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> のインストールを最新バージョンに更新してください。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> のインストールを最新バージョンに更新してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行はいつ始まるのですか。 </p> </td> 
@@ -97,7 +97,7 @@ Admin Console の使用メリットには、次のようなものがあります
      <li id="li_418476105FE341229CE146E730AAB33D">Analytics の既存の権限グループが製品プロファイルとして Admin Console に自動的に複製されます。これには、権限グループの説明や、レポートスイート、指標、ディメンション、Analytics およびレポートスイートのツールにまたがる詳細な権限が含まれます。 </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">現在の Analytics ユーザーの中に Admin Console で作成された（すなわち Adobe ID または Enterprise ID がリンクされている）ユーザーがいる場合、そのユーザーは Admin Console の適切な製品プロファイルに追加されます。 </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics の「管理者」タブの「User Management」セクションは、<span class="term">読み取り専用</span>です。ここで新規ユーザーおよび権限グループを作成することはできなくなり、これらの機能は Admin Console で実行することになります。詳細については、<a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console でサポートされない Analytics の機能</a>を参照してください。 </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">管理者は、<a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">ユーザーID移行ツール</a>へのアクセス権を付与されます。 さらに、移行の終了日（通常は 60 日後）と、ヘルプコンテンツおよび FAQ へのリンクを含む製品内通知が表示されます。 </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">管理者には、<a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">ユーザーID移行ツール</a>へのアクセス権が付与されます。 さらに、移行の終了日（通常は 60 日後）と、ヘルプコンテンツおよび FAQ へのリンクを含む製品内通知が表示されます。 </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Admin Console の「権限」タブへのアクセス権が付与され、Analytics で従来可能であった詳細オプションをすべて持つ製品プロファイルを作成できるようになります。 </li> 
     </ul> </td> 
   </tr> 
@@ -132,7 +132,7 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>会社が Admin Console への移行を予定しています。移行開始日前は、新規ユーザーおよび権限グループをどこで作成しますか。 </p> </td> 
-   <td colname="col2"> <p>移行開始日前は、Admin Console または Analytics／ユーザー管理でユーザーを作成できます。 </p> <p>移行開始後は、Admin Console でのみユーザーおよび権限グループを作成できます。 </p><p>移行の開始日に起こる動作の詳細については、後述の「移行」の節を参照してください。 </p>
+   <td colname="col2"> <p>移行開始日前は、Admin Console または Analytics／ユーザー管理でユーザーを作成できます。 </p> <p>移行開始後は、Admin Console でのみユーザーおよび権限グループを作成できます。 </p><p>移行の開始日に発生する処理の詳細については、以下の「移行」の節を参照してください。 </p>
    </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Admin Console の使用メリットには、次のようなものがあります
 
 この移行計画について、現在のユーザーにあらかじめ知らせておきたい場合は、以下のテンプレートをカスタマイズして、現在の Analytics ユーザー全員に送信することができます。
 
-すべてのユーザーに電子メールを送信するには、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**/[電子メールユーザー](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)に移動します。
+すべてのユーザーに電子メールを送信するには、**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL ユーザー管理]** / [ユーザーへのメール](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)に移動します。
 
 **件名：** Adobe Analytics と Adobe Experience Cloud へのログイン方法が新しくなります
 
@@ -321,7 +321,7 @@ Admin Console の使用メリットには、次のようなものがあります
 
 **参考情報：**
 
-[ログインとプロファイル設定の管理](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html)を参照してください。
+[ログインとプロファイル設定の管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html)を参照してください。
 
 質問や気になる点がありましたら、Analytics 管理者にお問い合わせください。
 
