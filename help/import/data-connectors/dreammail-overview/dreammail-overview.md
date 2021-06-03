@@ -2,20 +2,19 @@
 description: この Adobe® Data Connectors™ 電子メール統合は、Analytics® の行動情報と電子メールマーケティングを組み合わせ、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
 title: Adobe Analytics 用 DreamMail Data Connector
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: a37bf616-0f2a-4009-825f-92c30e79336f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 98%
+source-wordcount: '803'
+ht-degree: 97%
 
 ---
-
 
 # Adobe Analytics 用 DreamMail Data Connector {#dreammail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->2021年8月1日に、Adobeデータコネクタ技術の提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021年8月1日に、AdobeData Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 この Adobe® Data Connectors™ 電子メール統合は、Analytics® の行動情報と電子メールマーケティングを組み合わせ、成功指標を再定義し、より関連性の高いメッセージをターゲットオーディエンスに提供する強力なツールを作成します。
 
@@ -73,4 +72,4 @@ Data Connectors 統合を開始する前に、次の要件を満たす必要が�
 
 この統合では、指標を追跡するために Analytics 変数が必要です。
 
-この統合で使用するイベントと eVar を特定したら、Analytics Admin Console で有効にする必要があります（手順については、[レポートスイート](https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/report-suites-admin.html)を参照してください）。
+この統合で使用するイベントと eVar を特定したら、Analytics Admin Console で有効にする必要があります（手順については、[レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)を参照してください）。
