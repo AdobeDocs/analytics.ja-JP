@@ -2,10 +2,9 @@
 title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '590'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '586'
 ht-degree: 100%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 特に GDPR 規制への懸念がある組織では、オプトインサービスの使用をお勧めします。『Experience Cloud ID サービスユーザーガイド』の[オプトインサービスの概要](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/optin-overview.html)を参照してください。
+> 特に GDPR 規制への懸念がある組織では、オプトインサービスの使用をお勧めします。『Experience Cloud ID サービスユーザーガイド』の[オプトインサービスの概要](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=ja)を参照してください。
 
 Web サイトへの訪問者の中には、自分の閲覧情報をデータセットに含めないことを好む訪問者もいます。アドビでは、Web サイトの訪問者が自分の情報が収集されないようにする機能を用意しています。この機能はすべての実装タイプに対応しています。組織は、自らのプライバシーポリシーに責任を持ち、署名済みの利用条件に従う責任を負うものとします。
 
@@ -37,7 +36,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
    1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
    2. `trackingServer` 変数の値をメモしておきます。
 
-* [Adobe Experience Cloud デバッガー](https://docs.adobe.com/content/help/ja-JP/debugger/using/experience-cloud-debugger.html)を使用して、以下を実行します。
+* [Adobe Experience Cloud デバッガー](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)を使用して、以下を実行します。
    1. Chrome ブラウザーを使用してサイトに移動します。
    2. Experience Cloud デバッガーを開き、「[!UICONTROL ネットワーク]」タブに移動します。
    3. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
