@@ -5,10 +5,10 @@ title: 訪問者の移行
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 * `2o7.net` から `adobedc.net` への移行
 
-* [Experience Cloud 訪問者 ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を実装しており、CNAME／ファーストパーティのデータ収集ドメインから `adobedc.net`、`2o7.net` または `omtrdc.net` に移行しています
+* [Experience Cloud 訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)を実装しており、CNAME／ファーストパーティのデータ収集ドメインから `adobedc.net`、`2o7.net` または `omtrdc.net` に移行しています
 
-* cname／ファーストパーティデータコレクション（[ファーストパーティ Cookie）](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-first-party.html)への移行。
+* cname／ファーストパーティデータコレクション（[ファーストパーティ Cookie）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)への移行。
 
 * 別の CNAME に移行するとき（ドメインの変更）。
 
