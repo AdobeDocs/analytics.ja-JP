@@ -2,11 +2,10 @@
 title: デジタルアシスタント向け Analytics
 description: Amazon Alexa や Google Home などのデジタルアシスタントに Adobe Analytics を実装します。
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1266'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +73,7 @@ Cache-Control: no-cache
 
 ## ユーザー／訪問者の識別
 
-Adobe Analytics は、[Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html) を使用して、同じ人物と時間の経過に応じてインタラクションを結び付けます。ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。ほとんどの場合、この値を一意の ID として渡すことができます。一部のプラットフォームでは、100 文字を超える識別子を返すことができます。このような場合、固有の識別子を固定長値にハッシュするには、標準のハッシュアルゴリズム（MD5 や Sha1 など）を使用することをお勧めします。
+Adobe Analytics は、[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) を使用して、同じ人物と時間の経過に応じてインタラクションを結び付けます。ほとんどのデジタルアシスタントは、様々なユーザーのアクティビティを保持するために使用できる `userID` を返します。ほとんどの場合、この値を一意の ID として渡すことができます。一部のプラットフォームでは、100 文字を超える識別子を返すことができます。このような場合、固有の識別子を固定長値にハッシュするには、標準のハッシュアルゴリズム（MD5 や Sha1 など）を使用することをお勧めします。
 
 様々なデバイス（例えば、Web アシスタントとデジタルアシスタント）で ECID をマッピングする場合、ID サービスを使用すると最も大きな価値が得られます。モバイルアプリの場合は、Experience Platform SDK をそのまま使用し、`setCustomerID` メソッドを使用してユーザー ID を送信します。ただし、アプリがサービスの場合、ECID としてサービスで提供されるユーザー ID を使用し、`setCustomerID` で設定します。
 
