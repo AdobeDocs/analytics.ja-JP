@@ -3,11 +3,10 @@ description: 新しいインテリジェントアラートシステムでは、�
 title: インテリジェントアラート
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +27,7 @@ ht-degree: 100%
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信。
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成。
 
-新しいアラートシステムのコンポーネントには、アラートビルダー、アラートマネージャー、アラートプレビュー、アラート作成への優れたコンテキスト内アクセスが含まれます。古いアラートシステムユーザーインターフェイスは、使用できなくなりますが、アラートは移行されます。一部のレガシーアラート機能は、[使用できなくなります](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/alerts.html)。
+新しいアラートシステムのコンポーネントには、アラートビルダー、アラートマネージャー、アラートプレビュー、アラート作成への優れたコンテキスト内アクセスが含まれます。古いアラートシステムユーザーインターフェイスは、使用できなくなりますが、アラートは移行されます。一部のレガシーアラート機能は、[使用できなくなります](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html)。
 
 アラートビルダーにアクセスするには、次の 4 つの方法があります。
 
@@ -76,7 +75,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>質問：「予期された値」のテーブル（点線またはそれらの値の意味の出力で構成される）を入手できますか。</b> </p> </td> 
-   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。固定の 30 日間のトレーニング期間、固定の 95% 間隔を使用します。 </p> </td> 
+   <td colname="col2"> <p>Workspace ではできませんが、Report Builder では取得できます（<a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder での異常値検出</a>を参照）。 </p> <p>Report Builder では、低レベルの異常値検出方法が使用されることに留意してください。固定の 30 日間のトレーニング期間、固定の 95% 間隔を使用します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
