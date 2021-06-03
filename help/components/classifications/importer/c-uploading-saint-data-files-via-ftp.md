@@ -5,10 +5,10 @@ title: FTP インポート
 feature: 管理ツール
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +74,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-Adobe FTP サーバーについて詳しくは、「[FTP と SFTP](https://docs.adobe.com/content/help/ja-JP/analytics/export/ftp-and-sftp/ftp-overview.html)」を参照してください。
+Adobe FTP サーバーについて詳しくは、「[FTP と SFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html)」を参照してください。
 
 1. **[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**&#x200B;をクリックします。
 1. 「**[!UICONTROL ファイルのインポート]**」をクリックしてから「**[!UICONTROL FTP インポート]**」をクリックします。
