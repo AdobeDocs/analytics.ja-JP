@@ -4,11 +4,10 @@ title: パネルの概要
 feature: パネル
 role: Business Practitioner, Administrator
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1005'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1001'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +33,7 @@ ht-degree: 100%
 
 ## レポートスイート {#report-suite}
 
-パネル内のテーブルとビジュアライゼーションは、パネルの右上で選択された[!UICONTROL レポートスイート]からデータを取得します。 また、レポートスイートでは、左パネルで使用できるコンポーネントも決定します。 プロジェクト内では、分析の使用例に応じて、1 つまたは[複数のレポートスイート](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)を使用できます。 1 つのレポートスイートをプロジェクト内のすべてのパネルに適用するには、**パネルヘッダーを右クリックし、レポートスイートをすべてのパネルに適用**&#x200B;します。
+パネル内のテーブルとビジュアライゼーションは、パネルの右上で選択された[!UICONTROL レポートスイート]からデータを取得します。 また、レポートスイートでは、左パネルで使用できるコンポーネントも決定します。 プロジェクト内では、分析の使用例に応じて、1 つまたは[複数のレポートスイート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)を使用できます。 1 つのレポートスイートをプロジェクト内のすべてのパネルに適用するには、**パネルヘッダーを右クリックし、レポートスイートをすべてのパネルに適用**&#x200B;します。
 
 レポートスイートのリストは、関連性に基づいて並べ替えられます。これらの関連性は、現在のユーザーがスイートを使用した最近のタイミングと頻度、および組織内でスイートを使用した頻度に基づき、アドビによって定義されます。
 
@@ -82,7 +81,7 @@ ht-degree: 100%
 
 ![](assets/create-dropdown.png)
 
-プロジェクトにドロップダウンフィルターを追加する方法について詳しくは、[ビデオをご覧ください](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)。 
+プロジェクトにドロップダウンフィルターを追加する方法について詳しくは、[ビデオをご覧ください](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)。 
 
 ## 右クリックメニュー {#right-click}
 
