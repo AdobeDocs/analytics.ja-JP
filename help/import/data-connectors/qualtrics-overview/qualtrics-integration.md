@@ -5,11 +5,10 @@ title: 統合の使用
 feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 以下は、Adobe Analytics 内でこの統合を活用するために実行するアクションです。
 
-1. 調査回答データを使用したセグメントの作成（「[セグメントの作成](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)」を参照）。
+1. 調査回答データを使用したセグメントの作成（「[セグメントの作成](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)」を参照）。
 1. セグメントを主要レポートに適用します。
 
 ## 例 {#section-07051d0d60a44408a4e108034586c42f}
