@@ -3,11 +3,10 @@ title: 変数、関数、メソッド、プラグインの概要
 description: レポートを改善するためにアドビに送信するデータに含めることができる変数について説明します。
 keywords: appmeasurement、変数、vars、設定、ページ、実装
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '324'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +27,7 @@ Adobe Analytics は様々な方法で実装できます。各ページには、L
 Adobe Analytics によって公開された AppMeasurement ライブラリは、アドビにデータを送信する際に、特定の順序に従います。これらのタスクを順不同で実行すると、データが不完全になる可能性があります。
 
 1. サイトでデータレイヤーを使用している場合は、該当するすべての変数が最初に入力されていることを確認します。詳しくは、[データレイヤー](../prepare/data-layer.md)を参照してください。
-2. データレイヤーを使用して Analytics 変数を入力します。Launch を使用する場合、このタスクは、データ要素を使用し、データ要素を変数に割り当てることで簡単に実行できます。『Launch ユーザーガイド』の[データ要素](https://docs.adobe.com/content/help/ja-JP/launch/using/reference/manage-resources/data-elements.html)を参照してください。
+2. データレイヤーを使用して Analytics 変数を入力します。Launch を使用する場合、このタスクは、データ要素を使用し、データ要素を変数に割り当てることで簡単に実行できます。『Launch ユーザーガイド』の[データ要素](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html)を参照してください。
 3. トラッキング関数を呼び出します。ほとんどの AppMeasurement ライブラリでは `t()` メソッドを使用しますが、一部の モバイル SDK では `track()` メソッドを使用します。トラッキング関数が呼び出されると、Analytics オブジェクトで定義されたサポートされているすべての変数が、イメージリクエストの形式でアドビに送信されます。
 
 ## 無効な文字
