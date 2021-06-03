@@ -4,10 +4,9 @@ title: Analysis Workspace のアクセシビリティ
 feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '663'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '657'
 ht-degree: 100%
 
 ---
@@ -50,7 +49,7 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 
 ### キーボードショートカット（ホットキー）
 
-[!UICONTROL Analysis Workspace] は、シームレスなワークフローを実現するための豊富な[キーボードショートカットのセット](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)を備えています。ナビゲーション、分析の作成、インサイトの民主化に関する一般的なショートカットを以下に示します。
+[!UICONTROL Analysis Workspace] は、シームレスなワークフローを実現するための豊富な[キーボードショートカットのセット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ja)を備えています。ナビゲーション、分析の作成、インサイトの民主化に関する一般的なショートカットを以下に示します。
 
 #### ナビゲーション
 
@@ -71,7 +70,7 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 | Ctrl + Shift + D | 新しい日付範囲 |
 | Ctrl + Shift + E | 新しいセグメント |
 | Ctrl + Z | 元に戻す |
-| shift キーを押したまま（パネルセグメントドロップゾーン内） | [ドロップダウンフィルター](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)の作成 |
+| shift キーを押したまま（パネルセグメントドロップゾーン内） | [ドロップダウンフィルター](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja)の作成 |
 
 #### 民主化
 
@@ -92,7 +91,7 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 
 [!UICONTROL Analysis Workspace] は、WCAG 2.1 AA への準拠を目指しています（カラーコントラストの要件を含む）。
 
-また、プロジェクトに対しては、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト設定]**／[プロジェクトのカラーパレット](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)で、ユーザーが希望するカラーパレットを設定できます。
+また、プロジェクトに対しては、**[!UICONTROL プロジェクト]**／**[!UICONTROL プロジェクト設定]**／[プロジェクトのカラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ja)で、ユーザーが希望するカラーパレットを設定できます。
 
 ## コンポーネントビルダーの必須フィールドの検証
 
