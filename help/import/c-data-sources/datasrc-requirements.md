@@ -5,11 +5,10 @@ title: 要件とアップロードに関する制限
 topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 98%
+source-wordcount: '634'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 98%
 
 * それぞれの FTP アカウントでは、全ファイルの合計データサイズが 50 MB に制限されます。データサイズが 50 MB を超えると処理が一時停止し、合計 50 MB 未満になるまで再開しません。
 
-## 日付  {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## 日付 {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
 * カレンダーの日ごとに、90 日分までの一意の日付のデータをアップロードできます。この制限を超えた場合、固有の最大日数を超えたというエラーメッセージが表示されてアップロードに失敗します。
 * 現在または過去の日付があるデータのみをインポートできます。データソースのデータには未来の日付を使用しないでください。
@@ -60,7 +59,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>サポート対象。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新しいレポートスイート</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>サポート対象。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新しいレポートスイート</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> バイトオーダーマーク付きの UTF-8（EF BB BF） </td> 
@@ -90,12 +89,12 @@ UTF-8 または ISO-8859-1 のファイルを送信し、レポートスイー�
 * コンバージョン時にエラーが検出され、「UTF-8 から ISO-8859-1 への変換中、ファイル内の場所 18 に不正な文字が見つかりました」のようなメッセージが表示されます。
 * ファイルはエラーなしで処理されますが、レポートには文字化けしたデータが表示されます。
 
-## Web ログファイルのアップロード  {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Web ログファイルのアップロード {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * Web ログデータの表示が最も有効なレポートは、ページビュー数などのトラフィックレポートです。
 * ページ名は、完全な URL として表示され、クエリ文字列を含みます。
 * それぞれのファイル要求は、個別のページビューとして表示され、スタイルシートや画像ファイルを含みます。
-* URL に情報を付加すると、ファイルが個別のページとして記録されることがあります。例えば、次のURLはAdobeで2つの個別のページとして記録されます。
+* URL に情報を付加すると、ファイルが個別のページとして記録されることがあります。例えば、Adobeは、次のURLを2つの異なるページとして記録します。
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
