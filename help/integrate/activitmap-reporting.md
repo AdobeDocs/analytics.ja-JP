@@ -4,10 +4,10 @@ title: Activity Map レポート
 feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 95%
 
 ---
 
@@ -29,4 +29,4 @@ Activity Map（旧称 ClickMap）から提供されるユーザーアクティ�
    | Activity Map リンク | Web サイト全体で収集されたすべてのリンクのリストを表示します。 |
    | Activity Map リンクと地域 | Web サイト全体で収集されたすべてのリンクのリストを、その領域と共に表示します。 |
 
-レポートにデータが入力されるようにするには、[Activity Mapのドキュメント](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/activity-map/activity-map.html)を参照して、導入手順をご確認ください。
+レポートにデータが入力されるようにするには、[Activity Mapのドキュメント](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)を参照して、導入手順をご確認ください。
