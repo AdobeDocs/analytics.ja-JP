@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
 user-guide-description: Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
-translation-type: tm+mt
-source-git-commit: 41d3cfb510fb7cac77abbe0a80046c96042d0946
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 93%
 
 ---
 
@@ -34,11 +33,11 @@ ht-degree: 100%
       + [広告アカウントの設定](c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
       + [アカウント ID の見つけ方](c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)
       + [トラッキング：手動モードと自動モード](c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)
-      + [Adobe Analytics での広告データのレポート](c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)
+      + [Analytics での広告データのレポート](c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)
       + [広告アカウントの管理](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics のトラブルシューティング](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [よくある質問](c-advertising-analytics/aa-faq.md)
-+ [Analytics for Target - A4T](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t.html)
++ [Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 + [Analytics での Adobe Campaign レポート](adobe-campaign.md)
 + [Analytics データとCampaign Classic の統合](analytics-to-campaign-classic.md)
 + [AEM Assets レポート](aem-assets-reporting.md)
