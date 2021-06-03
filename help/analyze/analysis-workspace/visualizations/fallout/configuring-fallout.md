@@ -5,10 +5,10 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 2d30969652991564379c37801b353803e73e5f8c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 95%
+source-wordcount: '689'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 追加できる手順の数または使用するディメンションの数に制限はありません。
 
-マーチャンダイジング eVar および [listVar](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html)（product、listVar、マーチャンダイジング eVar および listProp など複数の値を 1 回のヒットに含めることができる変数）を含む、eVar へのパスを設定できます。例えば、誰かが靴とシャツを 1 つのページで探していて、次のページでシャツとソックスを探しているとします。靴の次の製品フローレポートは、シャツではなく、シャツおよびソックスです。
+マーチャンダイジング eVar および [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)（product、listVar、マーチャンダイジング eVar および listProp など複数の値を 1 回のヒットに含めることができる変数）を含む、eVar へのパスを設定できます。例えば、誰かが靴とシャツを 1 つのページで探していて、次のページでシャツとソックスを探しているとします。靴の次の製品フローレポートは、シャツではなく、シャツおよびソックスです。
 
 1. 「[!UICONTROL フォールアウト]」ビジュアライゼーションを「ビジュアライゼーション」ドロップダウンから「[!UICONTROL フリーフォームテーブル]」にドラッグします。
 
