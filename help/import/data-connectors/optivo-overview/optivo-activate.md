@@ -2,20 +2,19 @@
 description: 統合を設定するには、Adobe Data Connectors 設定ウィザードを使用します。
 title: 統合のアクティブ化
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 18fb2f55-f1fb-4d97-bd1e-8c5e74dbde69
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 97%
+source-wordcount: '729'
+ht-degree: 98%
 
 ---
-
 
 # 統合のアクティブ化 {#activate-the-integration}
 
 統合を設定するには、Adobe Data Connectors 設定ウィザードを使用します。
 
-1. [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) を起動し、「**[!UICONTROL + 新規追加]**」をクリックして[新しい統合を追加](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html)します。
+1. [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) を起動し、「**[!UICONTROL + 新規追加]**」をクリックして[新しい統合を追加](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html)します。
 1. 「**[!UICONTROL 表示]**」リストで「**[!UICONTROL 名前別]**」を選択し、[!DNL ~Partner~] 統合を空のプラグインスロットにドラッグします。
 1. 次の表の情報を使用して、統合ウィザードを完了します。
 
@@ -24,7 +23,7 @@ ht-degree: 97%
 | レポートスイート | この統合からデータを受け取るレポートスイート。 |
 | 統合名 | Data Connectors で、レポートスイートのアクティブな統合リストに表示される統合名。 |
 | 電子メールアドレス | 統合関連の情報を受信する電子メールアドレスを指定します。 |
-| アカウント ID | 電子メール サービス プロバイダによって会社に割り当てられる一意の識別子です。電子メールサービスプロバイダーから電子メールキャンペーンデータ（例：送信済み数、開封済み数、クリック済み数など）を要求する際や、電子メールサービスプロバイダーに訪問者セグメントを送信する際に使用します。 |
+| アカウント ID | 電子メール サービス プロバイダによって会社に割り当てられる一意の ID です。電子メールサービスプロバイダーから電子メールキャンペーンデータ（例：送信済み数、開封済み数、クリック済み数など）を要求する際や、電子メールサービスプロバイダーに訪問者セグメントを送信する際に使用します。 |
 | 受信者 ID | この ID は、optivo® broadmail システムの電子メールアドレスをエンコードまたは数値で表したものです。この「受信者 ID」は、optivo® broadmail システムに取り込まれたサイト上でのダウンストリーム訪問者行動（買い物かごの放棄、購入など）に関連付けられており、リマーケティング目的で利用できます。 |
 | メッセージ ID | （必須）一意の郵送 ID を保存します。次の分類ディメンションは、Data Connectors ウィザードによってメッセージID用に作成されます。 <br>a）**キャンペーン**：メッセージに関連付けられたキャンペーン。<br>b）**チャネル**：送信チャネルは、常に「optivo broadmail」です。<br>c）**国コード**：このフィールドには、送信元の国コードが含まれます。定数「DE」です。<br>d） **配信ツール**：送信方法。常に「電子メール」となります。<br>e）**メッセージ名**：Optivo® Broadmail で設定されている、郵送物の名前。<br>f）**開始日**：このメールの開始のタイムスタンプ。 |
 | クリック後の時間 | （必須）受信者がメールのリンクをクリックした後で、受信者のアクションに関する情報を optivo® broadmail に送信するために必要です。 |
