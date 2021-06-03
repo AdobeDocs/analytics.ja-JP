@@ -2,20 +2,19 @@
 description: 統合を設定するには、Adobe Data Connectors 設定ウィザードを使用します。
 title: 統合のアクティブ化
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: d36c26ad-09c4-4a4d-a653-670c18f2ab19
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 95%
+source-wordcount: '421'
+ht-degree: 96%
 
 ---
-
 
 # 統合のアクティブ化 {#activate-the-integration}
 
 統合を設定するには、Adobe Data Connectors 設定ウィザードを使用します。
 
-1. [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) を起動し、「**[!UICONTROL + 新規追加]**」をクリックして[新しい統合を追加](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html)します。
+1. [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) を起動し、「**[!UICONTROL + 新規追加]**」をクリックして[新しい統合を追加](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html)します。
 1. 「**[!UICONTROL 表示]**」リストで「**[!UICONTROL 名前別]**」を選択し、[!DNL ~Partner~] 統合を空のプラグインスロットにドラッグします。
 1. 次の表の情報を使用して、統合ウィザードを完了します。
 
@@ -32,8 +31,8 @@ ht-degree: 95%
 | スケジュール済み | 配信がスケジュールされている電子メールメッセージの数。 |
 | 送信済み | 送信された電子メールメッセージの数。 |
 | バウンス数合計 | 配信の問題が原因で受信者に配信されなかった電子メールメッセージの数です。 |
-| 個別クリック数 | ユニーククリック数。 |
-| 個別開封数 | ユニーク開封数。 |
+| ユニーククリック | ユニーククリック数。 |
+| ユニーク開封 | ユニーク開封数。 |
 | 登録解除 | 電子メールメッセージを開封したが、登録解除リンクをクリックして組織からの今後の電子メールメッセージをオプトアウトした訪問者の数。 |
 | セグメント | この統合により、「Partner セグメント」セクションに表示されるパートナー定義のセグメントが作成されます。また、統合に含める既存のレポートスイートレベルのセグメントを選択することもできます。 |
 | アクセス要求 | 推奨されるアクセス権限を有効にします。 |
