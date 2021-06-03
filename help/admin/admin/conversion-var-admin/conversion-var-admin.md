@@ -5,10 +5,10 @@ title: コンバージョン変数（eVar）
 feature: 管理ツール
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 100%
+source-wordcount: '1578'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ eVar は、次のような原因と結果を測定するために最適です。
 
 >[!NOTE]
 >
->イメージリクエストの 1 つの eVar には、単一の値のみを格納できます。1 つの eVar の値に複数の値を格納したい場合は、[リスト変数（リスト var）](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/page-variables.html)を実装することをお勧めします。
+>イメージリクエストの 1 つの eVar には、単一の値のみを格納できます。1 つの eVar の値に複数の値を格納したい場合は、[リスト変数（リスト var）](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)を実装することをお勧めします。
 
 ## コンバージョン変数 - 説明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -88,7 +88,7 @@ eVar は、次のような原因と結果を測定するために最適です。
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> マーチャンダイジング</span> </p> <p>（eVar のみ） </p> </td> 
-   <td colname="col2"> <p>マーチャンダイジング変数は次の 2 つの構文のいずれかに従います。 </p> <p> <b>商品構文</b>：</span>eVar 値を商品に関連付けます。注意：商品構文を選択すると、「マーチャンダイジングバインディングイベント」セクションは無効になり、編集できなくなります。この構文で、バインディングイベントは使用できません。 </p> </p> <p> <b>コンバージョン変数構文</b>：</span>バインディングイベントによってのみ eVar 値が商品に結び付けられます。この場合、バインディングイベントに設定するイベントを選択します。 </p> <p>JavaScript コードを適切に更新せずにこの設定を変更すると、データが失われます。<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/variables/merchandising-variables/var-merchandising.html">マーチャンダイジング変数</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>マーチャンダイジング変数は次の 2 つの構文のいずれかに従います。 </p> <p> <b>商品構文</b>：</span>eVar 値を商品に関連付けます。注意：商品構文を選択すると、「マーチャンダイジングバインディングイベント」セクションは無効になり、編集できなくなります。この構文で、バインディングイベントは使用できません。 </p> </p> <p> <b>コンバージョン変数構文</b>：</span>バインディングイベントによってのみ eVar 値が商品に結び付けられます。この場合、バインディングイベントに設定するイベントを選択します。 </p> <p>JavaScript コードを適切に更新せずにこの設定を変更すると、データが失われます。<a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html">マーチャンダイジング変数</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> マーチャンダイジングバインディングイベント</span> </p> <p>（eVar のみ） </p> </td> 
