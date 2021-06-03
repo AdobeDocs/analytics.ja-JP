@@ -2,10 +2,10 @@
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2433'
-ht-degree: 100%
+source-wordcount: '2429'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 * **相関性：**&#x200B;現在はこの用語は使用されておらず、ディメンション分類に置き換えられています。以前のバージョンの Adobe Analytics では、相関性によってトラフィック変数を分類する機能が付与されていました。『分析ユーザガイド』の「[分類ディメンション](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)」を参照してください。
 * **現在のデータ：**&#x200B;一部のレポートで、処理が完了していない最近収集したデータを含めることができるオプション。『分析ユーザガイド』の「[現在のデータ](/help/analyze/reports-analytics/current-data.md)」を参照してください。
 * **カスタムリンク：**&#x200B;ページビュー以外のデータを含むヒットのタイプ。『実装ユーザガイド』の「[s.tl() 関数](../implement/vars/functions/tl-method.md)」を参照してください。「ヒット」も参照してください。
-* **顧客属性：**&#x200B;属性データをアップロードできる Experience Cloud の機能。『コアサービスユーザガイド』の「[顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)」を参照してください。
+* **顧客属性：**&#x200B;属性データをアップロードできる Experience Cloud の機能。『コアサービスユーザガイド』の「[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)」を参照してください。
 * **カスタマーサポート委任者：**&#x200B;アドビカスタマーケアと直接連絡を取る権限を持つ指定ユーザー。Experience Cloud ナレッジベースの「[カスタマーサポート委任者](https://helpx.adobe.com/jp/experience-cloud/supported-users.html)」を参照してください。
 * **データ収集サーバー：**&#x200B;データを受信して処理するためのアドビ所有のサーバー。イメージリクエストはアドビのデータ収集サーバーに送信され、レポートで使用できます。
 * **データコネクタ：**&#x200B;サードパーティによる Adobe Analytics へのデータのアップロードを自動化するための包括的な開発ソリューション。サードパーティのユーザーは、データコネクタを使用して Adobe Analytics でデータをエンリッチ化できます。多くのデータコネクタは、データソースで使用されるものと同じワークフローを使用します。『インポートユーザガイド』の「Data Connectors」を参照してください。
@@ -65,7 +65,7 @@ ht-degree: 100%
    * Custom Insight。カスタムトラフィック変数の旧名称です。
 * **KPI：**&#x200B;主要業績評価指標の略称です。自社サイトのパフォーマンスを把握するのに役立ちます。企業は、事業をあらゆる角度から測定するために様々な KPI を設定しています。『実装ユーザガイド』の「[ソリューションデザインドキュメントの作成](/help/implement/prepare/solution-design.md)」を参照してください。
 * **遅延：**&#x200B;データが収集されてからレポートで使用できるまでの待ち時間。レポートスイートの一般的な遅延は 30 ～ 90 分です。技術注記ユーザーガイドの「[遅延](/help/technotes/latency.md)」を参照してください。
-* **Launch：**&#x200B;アドビの最新の実装ソリューションである Adobe Experience Platform Launch の略称です。Adobe Experience Platform Launch ユーザーガイドの「[概要](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)」を参照してください。
+* **Launch：**&#x200B;アドビの最新の実装ソリューションである Adobe Experience Platform Launch の略称です。Adobe Experience Platform Launch ユーザーガイドの「[概要](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)」を参照してください。
 * **リスト prop：**&#x200B;同じヒットで複数の値に対応するように標準的なトラフィック変数を変換する設定。この設定が有効な場合、任意のカスタムトラフィック変数をリスト prop に変換できます。実装ユーザーガイドの「[prop](../implement/vars/page-vars/prop.md)」を参照してください。
 * **リスト var：**&#x200B;コンバージョン変数とは異なる別の変数。リスト var は、同じヒットで複数の値に対応し、コンバージョン変数と同様に 1 回の訪問で変数値が保持されます。1 つの組織で使用できるリスト var は 3 つまでです。実装ユーザーガイドの「[リスト](/help/implement/vars/page-vars/list.md)」を参照してください。
 * **ログイン会社：**&#x200B;企業が使用するレポートスイートの集まりです。企業によっては複数のログイン会社名を持ち、社内の異なる部署に適用します。
