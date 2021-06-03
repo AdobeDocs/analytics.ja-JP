@@ -2,14 +2,13 @@
 description: 成功イベントとは、追跡できるアクションです。成功イベントはお客様によって定義されます。例えば、訪問者があるアイテムを購入した場合、購入イベントは成功イベントとみなすことができますを参照してください。
 keywords: event
 title: 成功イベントの概要
-feature: Admin Tools
+feature: 管理ツール
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ Web サイトのタイプに応じて、様々な種類の成功イベントが�
 * **ハイテク**：ホワイトペーパーのダウンロード、RFP、フォーム入力、サポート要求
 * **自動車**：リードの送信、見積の要求、パンフレットのダウンロード
 
-[s.events](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/events/event-serialization.html) 変数は、成功イベントを定義するためのものです。
+[s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) 変数は、成功イベントを定義するためのものです。
 
 ## 成功イベントページ - 説明 {#section_681ECEC981694CABBDBF00E18165B447}
 
