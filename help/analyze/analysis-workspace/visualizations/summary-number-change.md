@@ -5,11 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +45,7 @@ ht-degree: 100%
 
 ## 変更概要ビジュアライゼーション {#summary-change}
 
-変更概要ビジュアライゼーションを使用して、2 つの数値の差分（変化）を表示します。変更概要の緑と赤は、[カスタムイベントの極性](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/success-events/success-event.html)、または計算指標の「[上昇傾向を表示](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)」オプションを使用して制御できます。
+変更概要ビジュアライゼーションを使用して、2 つの数値の差分（変化）を表示します。変更概要の緑と赤は、[カスタムイベントの極性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)、または計算指標の「[上昇傾向を表示](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)」オプションを使用して制御できます。
 
 このビジュアライゼーションは、次のように動作します。
 
