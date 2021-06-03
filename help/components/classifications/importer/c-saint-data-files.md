@@ -2,13 +2,12 @@
 description: インポーターを使用すると、分類データを Analytics レポートに一括してファイルでアップロードできます。データのアップロードを正常におこなうために、インポートでは指定のファイル形式を使用する必要があります。
 subtopic: Classifications
 title: 分類データファイル
-feature: Admin Tools
+feature: 管理ツール
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 100%
+source-wordcount: '1771'
+ht-degree: 99%
 
 ---
 
@@ -164,13 +163,13 @@ ht-degree: 100%
 
 通常、キャンペーンの日付は個別のキャンペーンに関連付けられた範囲（開始日と終了日）になります。日付は YYYY/MM/DD の形式で示す必要があります。例えば、「2013/06/15-2013/06/30」とします。
 
-詳しくは、[コンバージョン分類](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)を参照してください。
+詳しくは、[コンバージョン分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)を参照してください。
 
 >[!NOTE]
 >
 >2018 年 5 月 10 日[!DNL Analytics]の Analytics メンテナンスリリースにおいて、日付が有効な分類と数値の分類の機能制限を開始しました。これらの分類タイプは、管理者および分類インポーターの各インターフェイスから削除されました。新しい日付が有効な分類および数値の分類は追加できません。既存の分類は、通常の分類ワークフローで引き続き管理（アップロード、削除）でき、レポートで使用できます。
 
-## [!UICONTROL 分類 ]{#section_966A07B228CD4643B258E73FB8BA150A}
+## [!UICONTROL 分類] {#section_966A07B228CD4643B258E73FB8BA150A}
 
 [!UICONTROL 分類]を使用して、キャンペーンまたはその他のコンバージョン[!UICONTROL 分類]に日付範囲を割り当てることができます。日付範囲を割り当てると、より正確なキャンペーン測定が可能になります。値の日付範囲を指定した場合は、値が一致しても、日付範囲外で発生するものは分類されません。これは、キャンペーン自体に一致するすべてのヒットを測定するのではなく、キャンペーンが実施されていた正確な日付を利用してキャンペーンを測定する場合に役立ちます。日付範囲を使用して値を分類するには、次の条件を満たす必要があります。
 
