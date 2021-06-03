@@ -2,9 +2,9 @@
 description: この詳細なガイドでは、必要な権限や使用可能なディメンションと指標など、Advertising Analytics のすべての機能について説明します。
 title: Advertising Analytics のガイド
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1261'
 ht-degree: 93%
 
 ---
@@ -32,7 +32,7 @@ Advertising Analytics を使用すると、すべての Google および Bing �
 
 * この機能は、Advertising Cloud 以外、および AMO 以外のお客様が利用できます。
 * Advertising Analytics へのアクセス権限を保有するには、Adobe Analytics 管理者である必要があります。これにより、管理者以外のユーザーに[アクセス権限を付与できます](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
-* Google／Bing の検索データを表示する Analytics レポートスイートは、[Experience Cloud 組織にマッピングされている](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)必要があります。
+* Google／Bing の検索データを表示する Analytics レポートスイートは、[Experience Cloud 組織にマッピングされている](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)必要があります。
 * Google／Bing の検索データを表示するレポートスイートの場合、[Advertising Analytics 用にそれらのレポートスイートを有効にする](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)必要があります（**[!UICONTROL 管理者]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL Advertising Analytics 設定]**）。
 
 * Adobe Analytics と統合するアカウントを検索するには、編集権限を持つユーザーのログイン資格情報（Google アカウント ID とパスワードなど）が必要です。
