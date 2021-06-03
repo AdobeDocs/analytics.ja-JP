@@ -3,11 +3,10 @@ description: Analytics データに取り込まれる ID を把握し、デー�
 title: ラベル設定に関するベストプラクティス
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '2706'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2700'
+ht-degree: 99%
 
 ---
 
@@ -48,14 +47,14 @@ Analytics データ内の様々な ID を収集している場合でも、デー
   <tr> 
    <td colname="col1"> <p>Cookie ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-privacy.html">（従来の）Analytics Cookie</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html">ID サービスの Cookie</a>（ECID）：旧 Marketing Cloud ID（MCID） </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html">（従来の）Analytics Cookie</a> </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html">ID サービスの Cookie</a>（ECID）：旧 Marketing Cloud ID（MCID） </li> 
     </ul> </td> 
    <td colname="col2"> <p>この Cookie ではデバイスが識別されます。より具体的には、特定のデバイスのユーザーが使用しているブラウザーが識別されます。共通のログイン情報を使用する共有デバイスの場合は、この ID はデバイスのすべてのユーザーに適用される可能性があります。アドビは、データプライバシー要求でこうした Cookie を使用できるように、Web サイトに挿入して Cookie を収集するための<a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">統合 JavaScript</a> を作成しました。 </p> <p>Adobe Analytics のモバイル SDK のユーザーも Experience Cloud ID（ECID）を持っています。SDK には、この ID を読み取るための API 呼び出しがあるので、アプリを拡張してデータプライバシー要求用にこの ID を収集できます。 </p> <p>多くの企業では、ブラウザーの Cookie ID は共有デバイス ID と考えられています。そのため自社内の法務チームと相談した上で、これらの ID をデータプライバシー要求で使用することを禁止したり、これらの ID を使用する際にごく限られた量のデータのみを返すようにしたり、削除要求ではこれらの ID のみ受け入れるようにしたりする場合もあります。 </p> <p>これらの Cookie には、変更できない ID-DEVICE ラベルが設定されています（I2 および DEL-DEVICE ラベルも設定されています）。Adobe Analytics のデフォルト設定では、デバイスに関する一般的な情報（デバイスのタイプ、OS、ブラウザーなど）と、Web サイトにこれらの ID を使用する訪問があった日時のみが返されます。ただし、データプライバシー要求でこれらの ID を利用する場合は、以下で説明するように、ACC-ALL ラベルを追加または削除して、データプライバシーアクセス要求で返されるようにしたいフィールドを設定できます。 </p> <p>特に、レポートスイートがモバイルアプリに対応しており、モバイルアプリでログインが必要な場合は、デバイスの Experience Cloud ID が特定のユーザーに一致するので、訪問されたページの名前や閲覧された製品など、より多くのフィールドに ACC-ALL ラベルを設定するケースもあります。 </p> <p>注意：データプライバシー要求で「expandIds」オプションを指定すると、要求には常に Cookie ID に加えて、指定した他の ID が含まれるようになります。詳しくは、<a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID 拡張</a>を参照してください。そうした場合、Cookie ID のみを持ち、他の ID を持たないヒットは、アクセス要求の一部として ACC-ALL のラベルが設定されたデータのみを返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタム変数の ID </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/evar.html">カスタムトラフィック変数（prop）またはカスタムコンバージョン変数（eVar）</a>に ID を挿入しているお客様もいます。最も一般的なのは CRM ID ですが、それ以外にも、電子メールアドレス、ユーザーログイン名、顧客のロイヤルティ番号、またはこれらの値のハッシュなどがあります。 </p> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html">カスタムトラフィック変数（prop）またはカスタムコンバージョン変数（eVar）</a>に ID を挿入しているお客様もいます。最も一般的なのは CRM ID ですが、それ以外にも、電子メールアドレス、ユーザーログイン名、顧客のロイヤルティ番号、またはこれらの値のハッシュなどがあります。 </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">データプライバシー要求でこれらのいずれかの ID を使用する場合は、その ID を含むフィールドに ID-PERSON ラベルを設定する必要があります。 </li> 
      <li id="li_94541340B054436297C5565F074413DC">（一般的ではないケース）これらのいずれかのカスタム変数に含まれている ID で、複数のユーザーが共有するデバイスのみが識別される場合は、その代わりに ID-DEVICE ラベルを使用できます。 </li> 
