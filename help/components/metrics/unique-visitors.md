@@ -2,11 +2,10 @@
 title: ユニーク訪問者
 description: 一意の訪問者 ID の数。
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
 
@@ -29,9 +28,9 @@ Analysis Workspace は、レポートの精度に基づいてユニーク訪問�
 | 使用順序 | クエリパラメーター（収集方法） | 以下の場合に表示される |
 | --- | --- | --- |
 | 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 変数が設定されます。 |
-| 2 | `aid` | 訪問者に既存の [`s_vi`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。訪問者 ID サービスを実装しない、または実装する前に設定します。 |
-| 3 | `mid` | 訪問者に既存の [`s_ecid`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。[Adobe Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用した実装に設定します。 |
-| 4 | `fid` | 訪問者に既存の [`s_fid`](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-analytics.html) Cookie がある、または何らかの理由で `aid` と `mid` を設定できなかった場合。 |
+| 2 | `aid` | 訪問者に既存の [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。訪問者 ID サービスを実装しない、または実装する前に設定します。 |
+| 3 | `mid` | 訪問者に既存の [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie があります。[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)を使用した実装に設定します。 |
+| 4 | `fid` | 訪問者に既存の [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie がある、または何らかの理由で `aid` と `mid` を設定できなかった場合。 |
 | 5 | IP アドレス、ユーザーエージェント、ゲートウェイ IP アドレス | 最後の手段は、訪問者のブラウザーが cookie を受け入れない場合に一意の訪問者を識別することです。 |
 
 >[!NOTE]
