@@ -3,11 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1162'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 * ビデオ視聴時間帯、ビューアドロップオフの独自のビデオビジュアライゼーションにアクセスする。
 * 予定レポートで発行リストを活用する。
 
-**[Data Workbench](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/home.html)** は以下の場合に使用します。
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** は以下の場合に使用します。
 
 * 柔軟性の最も高い Analytics ツールとして使用（訪問者レベル、ヒットレベル分析に至るまで対応）。
 * CRM から POS さらに Web へのオンラインおよびオフラインインタラクションのマルチチャネルデータセットを作成する。
@@ -71,7 +70,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 * データ挿入 API と一括データ挿入 API はどちらも、サーバーサイドの収集データを Adobe Analytics に送信する手段です。 データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含んだ CSV 形式のファイルを受け付けます。 サーバーサイド収集の新しい実装に取り組む場合は、一括データ挿入 API を使用することをお勧めします。
 
-**[顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)** は以下の場合に使用します。
+**[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** は以下の場合に使用します。
 
 * 顧客関係管理（CRM）データベースに取り込んだエンタープライズ顧客データを Experience Cloud にアップロードする場合。
 * CRM データを Analytics でより詳しく分析する場合または Adobe Target のターゲティング条件として使用する場合。
