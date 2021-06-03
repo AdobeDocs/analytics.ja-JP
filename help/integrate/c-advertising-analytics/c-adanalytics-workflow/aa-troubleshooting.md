@@ -3,11 +3,10 @@ description: Advertising Analytics に関する問題をトラブルシューテ
 title: Advertising Analytics のトラブルシューティング
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 * [「マッピング」セクションにレポートスイートが表示されません。](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Google AdWords アカウントの認証時にエラーが表示されます。](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
-## 「マッピング」セクションにレポートスイートが表示されません。{#section_9CAACDE6445C492DBAE542BA74DE6316}
+## 「マッピング」セクションにレポートスイートが表示されません。 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
 [新規の Advertising アカウントを設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)しようとしても、**[!UICONTROL レポートスイートの選択]**&#x200B;ドロップダウンリストにレポートスイートが表示されません。2 つの理由が考えられます。
 
@@ -30,7 +29,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. レポートスイートがログインユーザーの Experience Cloud Org ID にマッピングされていません。 </p> </td> 
-   <td colname="col2"> <p>マッピングの手順については、<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html"  >組織へのレポートスイートのマッピング</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>マッピングの手順については、<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >組織へのレポートスイートのマッピング</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. レポートスイートが Advertising Analytics レポート用にプロビジョニングされていません。 </p> </td> 
@@ -39,7 +38,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## Google AdWords アカウントの認証時にエラーが表示されます。{#section_C99EA9A1946E4908B36778A331142B84}
+## Google AdWords アカウントの認証時にエラーが表示されます。 {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
