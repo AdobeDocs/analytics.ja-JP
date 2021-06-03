@@ -3,11 +3,10 @@ description: データソースでは、標準的なサーバー呼び出しと�
 title: フル処理
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 96%
+source-wordcount: '719'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。Adobeでは、2021年7月31日に、フル処理データソースの提供を停止する予定です。 [詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。アドビは、2021 年 7 月 31 日（PT）にフル処理データソースを非推奨にする予定です。 [詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 
@@ -68,8 +67,8 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>イベント </p> </td> 
-   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
+   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -117,7 +116,7 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> <p>製品 </p> </td> 
    <td colname="col2"> <p>製品 </p> </td> 
-   <td colname="col3"> <p>製品リスト（例：<code> "Sports;Ball;1;5.95"</code>）。 1行4096バイトの最大値を保持できます。</p> </td> 
+   <td colname="col3"> <p>製品リスト（例：<code> "Sports;Ball;1;5.95"</code>）。 1行につき4096バイトの最大値を保持できます。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 ～ prop75 </p> </td> 
@@ -172,7 +171,7 @@ JavaScript ライブラリを使用したときに自動的に入力されるト
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Web サイトでサポートされる文字セット。UTF-8、ISO-8859-1 などがあります。 </p> <p>完全なリストを確認するには、「<a href="https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >2 バイト文字セット</a>（インターナショナリゼーション）」のホワイトペーパーを参照してください。 </p> </td> 
+   <td colname="col2"> <p>Web サイトでサポートされる文字セット。UTF-8、ISO-8859-1 などがあります。 </p> <p>完全なリストを確認するには、「<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >2 バイト文字セット</a>（インターナショナリゼーション）」のホワイトペーパーを参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
