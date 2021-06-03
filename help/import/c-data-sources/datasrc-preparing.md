@@ -5,11 +5,10 @@ title: データソースを使用するための準備
 topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
 
@@ -23,13 +22,13 @@ ht-degree: 100%
 * [トランザクション ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [データソースのデータで有効な日付範囲の指定](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## 指標の指定と名前付け  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## 指標の指定と名前付け {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 データソースに含まれる指標や測定（例：*`Off-line Sales Revenue by Product`*、*`Returns by Product`*、*`Ad Impressions by Campaign`*）について理解することが重要です。これらは、レポート指標（イベント、prop、eVar）と関連付けることができる名前です。
 
 データソースのデータに対して指標とイベントとの適切なマッピングを決定した後は、イベント名を、関連するデータソース指標に対応するわかりやすい名前に変更します。
 
-管理ツールのヘルプの「[成功イベント](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/success-events/success-event.html)」を参照してください。
+管理ツールのヘルプの「[成功イベント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)」を参照してください。
 
 >[!NOTE]
 >
@@ -51,7 +50,7 @@ ht-degree: 100%
 
 eVar を使用する場合は、既存の eVar と新規の eVar のどちらでもデータディメンションとして使用できます。データソースからデータディメンションを受け取る eVar を選択したら、必ずこれらの eVar に適切な名前を付けてください。
 
-Analytics のヘルプの「[成功イベント](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html)」を参照してください。
+Analytics のヘルプの「[成功イベント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)」を参照してください。
 
 ## キャンペーントラッキングコード {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +62,7 @@ Analytics のヘルプの「[成功イベント](https://docs.adobe.com/content/
 
 トランザクション ID は、オンラインのイベントとオフラインのイベントとを結びつけるのに使用します。
 
-## データソースのデータで有効な日付範囲の指定  {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## データソースのデータで有効な日付範囲の指定 {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 データソース指標（カスタムイベント）とデータディメンション（eVar）を定義したら、インポートするデータソースのデータの日付範囲を確認します。既存のレポートデータの範囲外になるデータソースをインポートすることはできません。
 
