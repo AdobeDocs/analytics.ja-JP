@@ -2,14 +2,13 @@
 description: 統合がデプロイされると、提供されている追加機能を使用できるようになります。
 title: 統合の使用
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 7c568f78-6cec-47ad-acf8-60138cd4aca7
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 96%
 
 ---
-
 
 # 統合の使用 {#using-the-integration}
 
@@ -37,6 +36,6 @@ Adobe Analytics 内でこの統合を活用するために実行するアクシ�
 
 オーディエンス = SMB とする。
 
-セグメントの作成方法について詳しくは、[Analytics セグメント化ガイド](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/seg-home.html)を参照してください。
+セグメントの作成方法について詳しくは、[Analytics セグメント化ガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)を参照してください。
 
 このセグメントは、ほぼすべてのレポートに適用できます。例として、ここに示す訪問別滞在時間レポートなどがあります。![](assets/segment_applied_report.png)
