@@ -2,13 +2,12 @@
 description: フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 title: レポートデータのフィルタリング
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Reports & Analyticsの基本事項
+feature: Reports & Analytics の基本
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '677'
 ht-degree: 99%
 
 ---
@@ -55,7 +54,7 @@ help:Internal Search Term
 
 **含まない**
 
-指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/unspecified.html)をレポートから除外できます。
+指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html)をレポートから除外できます。
 
 次を含まない。`none`
 
