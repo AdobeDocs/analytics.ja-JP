@@ -2,11 +2,10 @@
 description: トラッキングにより、Adobe Analytics の実装による検索エンジンデータの追跡方法が決まります。これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。
 title: トラッキング：手動モードと自動モード
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[コンテンツセキュリティポリシー](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/csp.html)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
+>[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
 
 ## 手動モードのトラッキング {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
