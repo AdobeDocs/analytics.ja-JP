@@ -2,11 +2,10 @@
 title: Launch 実装の概要
 description: Adobe Experience Platform Launch を使用した Adobe Analytics の実装方法を説明します。
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 96%
 
 ---
 
@@ -33,6 +32,6 @@ Launch を使用して実装を実行するには、次の手順に従います�
 
 Launch は高度にカスタマイズできます。実装に適切なデータを含めることで Adobe Analytics を最大限に活用する方法について説明します。
 
-* [Launch ドキュメント](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html)：インターフェイスの仕組みと使用可能な拡張機能について説明します。
-* [Adobe Analytics 拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)：Analytics 拡張機能を使用して、Adobe Analytics にデータを送信します。
+* [Launch ドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)：インターフェイスの仕組みと使用可能な拡張機能について説明します。
+* [Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)：Analytics 拡張機能を使用して、Adobe Analytics にデータを送信します。
 * [実装変数](../vars/overview.md)：データ収集サーバーに送信する変数を決定します。
