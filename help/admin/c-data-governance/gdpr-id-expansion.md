@@ -3,11 +3,10 @@ description: '送信する ID では、Analytics でデータ主体に関連付�
 title: ID 拡張
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1354'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1350'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie ID の拡張 </p> </td> 
-   <td colname="col2"> <p>Analytics をご利用の多くのお客様は、以前までは（従来の）<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-privacy.html">Analytics Cookie</a> を使用していましたが、現在は <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html"> ID サービス（ECID）</a>（旧称 Marketing Cloud ID サービス（MCID））を使用しています。移行後に、こうしたお客様の Web サイトを初めて訪問したユーザーの場合は、ECID のみが使用されます。ただし、従来の Cookie しか利用できなかった時期に Web サイトを初めて訪問し、それ以降も訪問し続けているユーザーの場合は、一部のデータで両方の Cookie が使用され、古いデータでは Analytics Cookie のみ、最新のデータでは稀に ECID のみが使用される場合もあります。 </p> <p>Analytics（訪問者 ID）Cookie または ECID で識別された 1 人の訪問者に関するすべてのデータが確実に検出される必要があります。このため、現在は ECID を使用し、以前は Analytics Cookie を使用していた場合、いずれかのタイプの ID を使用して要求を送信する場合はいつでも、要求に両方の ID を含めるか、expandIDs オプションを指定する必要があります。expandIDs を指定すると、指定した任意の Cookie ID に対応する他の ECID または Analytics Cookie がないかどうかチェックされます。新しく特定されたこれらの Cookie ID を含めるように要求が自動的に拡張されます。 </p> </td> 
+   <td colname="col2"> <p>Analytics をご利用の多くのお客様は、以前までは（従来の）<a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html">Analytics Cookie</a> を使用していましたが、現在は <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html"> ID サービス（ECID）</a>（旧称 Marketing Cloud ID サービス（MCID））を使用しています。移行後に、こうしたお客様の Web サイトを初めて訪問したユーザーの場合は、ECID のみが使用されます。ただし、従来の Cookie しか利用できなかった時期に Web サイトを初めて訪問し、それ以降も訪問し続けているユーザーの場合は、一部のデータで両方の Cookie が使用され、古いデータでは Analytics Cookie のみ、最新のデータでは稀に ECID のみが使用される場合もあります。 </p> <p>Analytics（訪問者 ID）Cookie または ECID で識別された 1 人の訪問者に関するすべてのデータが確実に検出される必要があります。このため、現在は ECID を使用し、以前は Analytics Cookie を使用していた場合、いずれかのタイプの ID を使用して要求を送信する場合はいつでも、要求に両方の ID を含めるか、expandIDs オプションを指定する必要があります。expandIDs を指定すると、指定した任意の Cookie ID に対応する他の ECID または Analytics Cookie がないかどうかチェックされます。新しく特定されたこれらの Cookie ID を含めるように要求が自動的に拡張されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタム ID から Cookie ID への拡張 </p> </td> 
@@ -42,7 +41,7 @@ ht-degree: 100%
 
 データプライバシーの施行後最初の数ヶ月の間、Analytics データプライバシー要求の大部分は ID 拡張を要求しませんでした。ただし、組織にとって適切な値の決定はユーザー次第です。使用する ID を含むデータおよび Adobe Analytics 内で収集するデータに対して ID 拡張が必要かどうかを法務チームに問い合わせる必要があります。第一に考慮すべきことは、複数のユーザーがサイトに訪問した共有デバイス上では、ID 拡張を使用すると、（デバイスファイルの）アクセス要求で返されたデータにデバイスの他のユーザーからのヒットが含まれるということです。訪問したページのように、デバイスファイルにプライベートデータが含まれていないといったラベリングのベストプラクティスに従っていたとしても、そのデバイスファイルには、訪問したページの数とそれらの各訪問の回数が含まれます。訪問者でない可能性があるユーザーとこの情報を共有してもいいのでしょうか。
 
-削除要求の場合、ID 拡張が使用されていないので、Cookie 以外の ID（ECID や Analytics Cookie 以外の任意の ID）を使用して削除する必要があるヒットを特定する場合、そしてその ID が ID-DEVICE ラベルを持つ場合、Cookie ID の一部のインスタンスのみが匿名化されるので、レポートの個別訪問者数が変更されますが、他は変更されません。ID 拡張を指定していない場合、要求に Cookie ID を使用するか、ID-PERSON ラベルと共に ID を使用することをお勧めします。
+削除要求の場合、ID 拡張が使用されていないので、Cookie 以外の ID（ECID や Analytics Cookie 以外の任意の ID）を使用して削除する必要があるヒットを特定する場合、そしてその ID が ID-DEVICE ラベルを持つ場合、Cookie ID の一部のインスタンスのみが匿名化されるので、レポートのユニーク訪問者数が変更されますが、他は変更されません。ID 拡張を指定していない場合、要求に Cookie ID を使用するか、ID-PERSON ラベルと共に ID を使用することをお勧めします。
 
 アドビが ID 拡張を実行する場合、追加のフルデータスキャンが必要になる可能性があります。これにより、アドビが要求を完了するのにかかる時間が増加し、多くの場合、処理時間が 1 週間増加します。
 
