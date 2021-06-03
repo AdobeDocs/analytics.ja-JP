@@ -2,17 +2,16 @@
 title: Analytics での XDM データの使用
 description: Adobe Analytics における Experience Platform の XDM データの使用の概要
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '259'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 87%
 
 ---
 
 # Analytic での Adobe Experience Platform Edge データの使用
 
-[Adobe Experience Platform（AEP）Web SDK](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) を使用して、データを Adobe Analytics に送信できます。これを機能させるには、[Experience Data Model（XDM）](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)を Analytics で使用される形式に変換します。
+[Adobe Experience Platform（AEP）Web SDK](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) を使用して、データを Adobe Analytics に送信できます。これを機能させるには、[Experience Data Model（XDM）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を Analytics で使用される形式に変換します。
 
 Analytics は、次の 2 つの方法で XDM データを収集します。
 
@@ -21,7 +20,7 @@ Analytics は、次の 2 つの方法で XDM データを収集します。
 
 ## 自動マッピング
 
-自動マッピングは、XDM のデフォルトの [スキーマ](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/schema/composition.html) に依存しており、通常の Analytics データ収集に含まれる JSON オブジェクトが自動的に入力されます。XDM から設定したレポートスイートへと自動的にマッピングされる Analytic 変数には、開発者向けサポートを組み込む必要はありません。
+自動マッピングは、XDM のデフォルトの [スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) に依存しており、通常の Analytics データ収集に含まれる JSON オブジェクトが自動的に入力されます。XDM から設定したレポートスイートへと自動的にマッピングされる Analytic 変数には、開発者向けサポートを組み込む必要はありません。
 
 ## 手動マッピング
 
@@ -31,6 +30,6 @@ Analytics は、次の 2 つの方法で XDM データを収集します。
 
 XDM データを受信する Analytics を設定するには、次の手順を実行します。
 
-1. [Adobe Experience Platform Web SDK](https://docs.adobe.com/content/help/ja-JP/experience-platform/edge/fundamentals/installing-the-sdk.html) をインストールして[設定](https://docs.adobe.com/content/help/ja-JP/experience-platform/edge/fundamentals/configuring-the-sdk.html)します。
+1. [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) をインストールして[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)します。
 
 2. 該当するレポートスイートが目的のデータにマッピングされていることを確認します。XDM データは、Adobe Experience Platform から自動的にレポートスイートへ送られます。
