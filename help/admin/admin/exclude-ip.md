@@ -2,10 +2,10 @@
 title: IP アドレスで除外
 description: 特定のIPアドレスによって生成されたデータがレポートに表示されないようにします。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 82%
+source-wordcount: '221'
+ht-degree: 79%
 
 ---
 
@@ -13,17 +13,17 @@ ht-degree: 82%
 
 レポートから、社内の Web サイト活動、サイトのテスト、従業員の使用量など、特定の IP アドレスからのデータを除外できます。IP アドレスデータを除外することにより、レポートの精度が向上します。さらに、データを歪曲するサービス妨害（DoS）や悪意のあるイベントからデータを除外することもできます。除外は、ファイアウォールを使用して設定することもできます。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]**  **[!UICONTROL /IPアドレスごとに除外]**
+**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** /IPアドレスで除外 ****
 
 >[!NOTE]
 >
->IP アドレスによって除外されたヒットは、[サーバーコール](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/terms.html)として請求されます。
+>IP アドレスによって除外されたヒットは、[サーバーコール](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html)として請求されます。
 
 ワイルドカード（*）を使用すると、アドレス範囲を除外することができます。例えば `[!DNL 0.0.*.0]` と入力すると、`[!DNL 0.0.0.0]` と `[!DNL 0.0.255.0]` の間の IP アドレスがすべて除外されます。IP アドレスは 50 つまで除外できます。
 
 >[!TIP]
 >
->プライベートIPアドレスは除外する必要はありません。 Adobeデータ収集サーバーに到達できるのは、外部IPアドレスのみです。 プライベートアドレスには、`10.*.*.*`、`192.168.*.*`、`172.[16-31].*.*`、`169.254.*.*`が含まれます。
+>プライベートIPアドレスを除外する必要はありません。 外部IPアドレスのみがAdobeデータ収集サーバーに到達します。 プライベートアドレスには、`10.*.*.*`、`192.168.*.*`、`172.[16-31].*.*`、`169.254.*.*`が含まれます。
 
 ## IP の不明化の影響 {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
