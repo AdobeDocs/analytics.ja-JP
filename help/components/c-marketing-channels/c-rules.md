@@ -2,10 +2,10 @@
 title: マーケティングチャネルの処理ルール
 description: マーケティングチャネルの処理ルールは、訪問者のヒットがチャネルに割り当てられた条件を満たすかどうかを判断するために使用します。このルールは、サイトでの訪問者によるすべてのヒットを処理します。チャネルの条件をルールが満たしていない場合やルールが正しく設定されていない場合、ヒットには「チャネルが識別されませんでした」が割り当てられます。
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2169'
-ht-degree: 97%
+source-wordcount: '2163'
+ht-degree: 96%
 
 ---
 
@@ -121,13 +121,13 @@ ht-degree: 97%
 
 ![](assets/example_paid_search.png)
 
-詳しくは、管理ヘルプの「[有料検索検知](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)」を参照してください。
+詳しくは、管理ヘルプの「[有料検索検知](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)」を参照してください。
 
 ### 自然検索 {#natural-search}
 
 自然検索は、Web 検索リストでの掲載順位に対して料金を支払わない場合に検索エンジンで決定される掲載位置から貴社の Web サイトを訪問者が見つけた場合に発生します。
 
-Analytics には自然検索の検出は用意されていません。有料検索検知を設定すると、検索リファラーが有料検索リファラーでなかった場合は、リファラーを自然検索リファラーにする必要があるとシステムで判断されます。詳しくは、管理ヘルプの「[有料検索検知](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)」を参照してください。
+Analytics には自然検索の検出は用意されていません。有料検索検知を設定すると、検索リファラーが有料検索リファラーでなかった場合は、リファラーを自然検索リファラーにする必要があるとシステムで判断されます。詳しくは、管理ヘルプの「[有料検索検知](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)」を参照してください。
 
 マーケティングチャネルルールでは、自然検索の設定は次のようになります。
 
@@ -169,7 +169,7 @@ Analytics には自然検索の検出は用意されていません。有料検�
 
 ![](assets/int-channel1.png)
 
-このチャネルが発生する理由の詳細は、「[内部の理由（セッションの更新）](https://docs.adobe.com/content/help/ja-JP/analytics/components/marketing-channels/c-faq.html#internal)」を参照してください。
+このチャネルが発生する理由の詳細は、「[内部の理由（セッションの更新）](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal)」を参照してください。
 
 ### 直接アクセス {#direct}
 
