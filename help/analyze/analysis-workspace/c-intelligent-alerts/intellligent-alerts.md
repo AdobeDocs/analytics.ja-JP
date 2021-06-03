@@ -5,11 +5,10 @@ uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 feature: AI ツール
 role: Business Practitioner, Administrator
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 インテリジェントアラートシステムでは、異常値検出とアラートを統合して、アラートをより詳細に制御します。
 
-[インテリジェントアラート](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/data-science/intelligent-alerts.html)（5:34）のビデオチュートリアルを紹介します。
+[インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html)（5:34）のビデオチュートリアルを紹介します。
 
 ## 概要
 
