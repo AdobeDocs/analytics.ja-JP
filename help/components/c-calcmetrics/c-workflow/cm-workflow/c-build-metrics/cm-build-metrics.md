@@ -3,11 +3,10 @@ description: 計算指標ビルダーは、ディメンション、指標、セ�
 title: 指標の作成
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +87,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">製品の互換性</span> </td> 
-   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://docs.adobe.com/content/help/ja-JP/analytics/analyze/reports-analytics/current-data.html"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  >さらに詳しく... </a> </p> </p> </td> 
+   <td colname="col3"> <p>「製品の互換性」は、指標が「<a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  >現在のデータ</a>」、「処理済みのデータ」またはマーケティングチャネルレポートのみ（ファーストタッチ配分）のいずれと互換性があるかを示します。 <p>注意：「現在のデータ」はすべての指標をサポートしているわけではありません。セグメントまたは関数を含む指標は「現在のデータ」との互換性がありません。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  >さらに詳しく... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">追加</span> </td> 
@@ -131,7 +130,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <p>セグメントリスト </p> </td> 
-   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segment-reference/seg-rights.html"  >さらに詳しく... </a> </p> </td> 
+   <td colname="col3"> <p>（高度な計算指標のみ）管理者の場合は、ログイン会社で作成されたすべてのセグメントがこのリストに表示されます。管理者以外のユーザーの場合は、自分が所有するセグメントおよび共有しているセグメントがこのリストに表示されます。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  >さらに詳しく... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>関数リスト </p> </td> 
