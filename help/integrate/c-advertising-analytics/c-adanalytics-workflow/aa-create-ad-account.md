@@ -2,11 +2,10 @@
 title: Advertising Analytics で広告アカウントを設定する方法
 description: 新しい広告アカウントを作成し、複数のアカウントを複数のレポートスイートにマッピングできます。
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 97%
 
 ---
 
@@ -58,13 +57,13 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 
    | 設定 | 説明 |
    |--- |--- |
-   | タイプ | <ul><li>**自動**：Advertising Cloud Engine によって、トラッキングパラメーターを検索エンジンのトラッキングテンプレート／リンク先 URL に追加する方法が決定されます。これはもっともシンプルな方法ですが、統合されたデータセットの品質が最良ではなくなる可能性があります。<br>**重要**：「自動モード」で検索エンジンのアカウントを設定するには、次の操作を実行する必要があります。<br>- 「s_kwcid」パラメータと値が、追加するアカウント内のアカウント追跡テンプレートまたはランディングページ URL に追加されます。これは、URL の最後に挿入されます。結果として、Web サーバーに特定の key=value ペアが URL の最後に必要な場合や、URL で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業をおこなう必要がある場合があります。**注意**：このパラメーターを[コンテンツセキュリティポリシー](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/csp.html)に追加する必要があるかどうかを確認します。<br>-加えて、キーワードを「s_kwcid」値の一部としてランディング URL に追加できるため、特殊文字や記号が含まれている場合、Web サーバーでそれらの文字がサポートされていることを確認してください（一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます）。</li><li>**手動**：トラッキングパラメーターを検索エンジンのトラッキングテンプレート／リンク先 URL に追加する方法を管理できます。[各検索エンジンについては手動トラッキングの例を参照してください](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
+   | タイプ | <ul><li>**自動**：Advertising Cloud Engine によって、トラッキングパラメーターを検索エンジンのトラッキングテンプレート／リンク先 URL に追加する方法が決定されます。これはもっともシンプルな方法ですが、統合されたデータセットの品質が最良ではなくなる可能性があります。<br>**重要**：「自動モード」で検索エンジンのアカウントを設定するには、次の操作を実行する必要があります。<br>- 「s_kwcid」パラメータと値が、追加するアカウント内のアカウント追跡テンプレートまたはランディングページ URL に追加されます。これは、URL の最後に挿入されます。結果として、Web サーバーに特定の key=value ペアが URL の最後に必要な場合や、URL で新しい key=value ペアをサポートするための更新が必要な場合は、ご自身で追加の作業をおこなう必要がある場合があります。**注意**：このパラメーターを[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)に追加する必要があるかどうかを確認します。<br>-加えて、キーワードを「s_kwcid」値の一部としてランディング URL に追加できるため、特殊文字や記号が含まれている場合、Web サーバーでそれらの文字がサポートされていることを確認してください（一般的な特殊文字の例は「+」です。これは、「絞り込み部分一致」キーワードに使用されます）。</li><li>**手動**：トラッキングパラメーターを検索エンジンのトラッキングテンプレート／リンク先 URL に追加する方法を管理できます。[各検索エンジンについては手動トラッキングの例を参照してください](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
 1. 「**[!UICONTROL マッピング]**」セクションで、この検索エンジンアカウントにリンクするレポートスイートを選択します。少なくとも 1 つのレポートスイートを指定しないと、Advertising アカウントを保存できません。複数のレポートスイートに複数のアカウントをマッピングできます（1 対 1、1 対多、多対多）。AMO で検索エンジンから取り込んだデータは、マッピングしたどのレポートスイートにもデータ分割がないようにコピーされます。
 
    >[!IMPORTANT]
    >
-   >[Experience Cloud 組織にマッピング](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)されたレポートスイートのみが選択できます。使用するレポートスイートが表示されない場合は、[Advertising Analytics のトラブルシューティング](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)を参照してください。
+   >[Experience Cloud 組織にマッピング](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)されたレポートスイートのみが選択できます。使用するレポートスイートが表示されない場合は、[Advertising Analytics のトラブルシューティング](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)を参照してください。
 
    「**[!UICONTROL マッピングの設定]**」では、以下のガイドラインに従います。
 
@@ -77,8 +76,8 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>レポートスイートマッピング </p> </td> 
-      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
+      <td colname="col1"> <p>レポートスイートのマッピング </p> </td> 
+      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
