@@ -2,10 +2,10 @@
 description: このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
 title: Adobe Analytics - 主要概念
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 99%
+source-wordcount: '1822'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 99%
 | Analysis Workspace | 強力なカスタム分析プロジェクトを構築しインサイトをデモクラタイズ（民主化）するブラウザーソリューション。Reports &amp; Analytics よりも柔軟性の高いレポートを提供します。 | [Analysis Workspace ホーム](/help/analyze/analysis-workspace/home.md) |
 | Reports &amp; Analytics（旧称 SiteCatalyst） | レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。 | [Reports &amp; Analytics ホーム](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | Adobe Analytics のデータからカスタムリクエストを構築し、視覚的なレポートを作成する Microsoft Excel のアドインです。 | [Report Builder ホーム](/help/analyze/report-builder/home.md) |
-| Data Workbench（旧称 Insight） | 複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 | [Data Workbench クライアント](https://docs.adobe.com/content/help/ja-JP/data-workbench/using/client/t-open-ins.html) |
+| Data Workbench（旧称 Insight） | 複数チャネルに渡るオンラインとオフラインの両方の顧客インタラクションから、データの収集、処理、分析、視覚化を行うよう設計されています。 | [Data Workbench クライアント](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [Data Warehouse ホーム](/help/export/data-warehouse/data-warehouse.md) |
-| Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 | [Mobile Services ホーム](https://docs.adobe.com/content/help/ja-JP/mobile-services/using/home.html) |
+| Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 | [Mobile Services ホーム](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors（旧称 Genesis） | サードパーティのアプリケーションから Analytics にトラッキングデータをインポートします。これにより、パフォーマンスに関する一元的なエンドツーエンドの可視性が実現します。2021 年 8 月 1 日（PT）、アドビは Data Connectors 統合を廃止する予定です。 | [Data Connectors ホーム](/help/import/data-connectors/data-connectors-eol.md) |
 | Adobe Experience Platform Launch | アドビが提供する次世代型の Web サイトタグおよびモバイル SDK の管理機能です。 | [Adobe Experience Platform Launchホーム](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
@@ -58,7 +58,7 @@ ht-degree: 99%
 | カスタマージャーニーレポート | サイトまたはアプリケーションでのユーザーの遷移に関する情報を表示します。Analysis Workspace では、この分析に prop、eVar およびイベントを使用できます。 | [Analysis Workspaceフォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports &amp; Analytics パス](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | マーケティングチャネル | ユーザーをサイトに誘導する外部チャネルや、コンバージョンに最も効果があるチャネルを確認するのに役立つレポートです。ファーストタッチおよびラストタッチの属性ビューが提供されます。これは、有料チャネルと自然チャネルの両方において最も包括的なビューなので、Adobe Analytics で（キャンペーンやトラフィックソースよりも）推奨される外部トラフィックソースレポートです。 | [マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | モバイル | モバイルデバイスまたはタブレットからアクセスされた Web サイトの情報を表示します。 | [モバイルレポート](/help/components/dimensions/mobile-dimensions.md) |
-| モバイルアプリ | モバイルアプリに関する基本的な使用状況の情報を表示します。これらのレポートは、SDK が導入され、レポートが有効になると使用できます。さらに、Adobe Mobile Services によって、より包括的なアプリデータを提供する個別のモバイルアプリインターフェイスが作成されました。これにより、アプリの利用状況を把握し、改善につなげることができます。[こちらで](https://mobilemarketing.adobe.com)インターフェイスにアクセスできます。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| モバイルアプリ | モバイルアプリに関する基本的な使用状況の情報を表示します。これらのレポートは、SDK が導入され、レポートが有効になると使用できます。さらに、Adobe Mobile Services によって、より包括的なアプリデータを提供する個別のモバイルアプリインターフェイスが作成されました。これにより、アプリの利用状況を把握し、改善につなげることができます。[こちらで](https://mobilemarketing.adobe.com)インターフェイスにアクセスできます。 | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | 製品 | 売上高やチェックアウト数など各種コンバージョン指標に対する個々の商品や商品グループ（カテゴリ）の貢献を明らかにできます。 | [製品レポート](/help/components/dimensions/product.md) |
 | セグメント比較 | アクセス権のあるすべての単一のセグメントおよびディメンションを自動分析することで、セグメント間の最も大きな統計的差異を見つけることができます。 | [セグメント比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | サイトコンテンツレポート | サイトで最もアクティブなページや領域、および最もよく利用されているサーバーに関する情報が表示されます。 | [サイトコンテンツレポート](/help/components/dimensions/page.md) |
@@ -84,7 +84,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 分類インポーター | ブラウザーまたは FTP アップロードを介して、メタデータを取得したディメンションに対してインポートします。ルールビルダーとは異なり、手動で操作します。 | [分類インポーター](/help/components/classifications/importer/c-working-with-saint.md) |
 | ルールビルダー | ユーザー定義のルールに基づき、メタデータ分類を自動的に作成します。 | [分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md) |
-| 顧客属性 | Adobe Analytics および Adobe Target で使用するために Experience Cloud にアップロードされた CRM データです。 | [顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html) |
+| 顧客属性 | Adobe Analytics および Adobe Target で使用するために Experience Cloud にアップロードされた CRM データです。 | [顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) |
 | データソース | オフライン指標をディメンションに対して、または単に日別に Analytics にインポートします。 | [データソース](/help/import/c-data-sources/datasrc-home.md) |
 | Adobe Exchange Data Connectors | [Analytics ツール](/help/import/data-connectors/data-connectors-eol.md)を参照してください。 |  |
 | ネイティブ統合 | Audience Analytics &amp; Advertising Analytics。 | 「主要レポート」の節を参照。 |
@@ -106,7 +106,7 @@ ht-degree: 99%
 | 開発者リソース | 利用可能なすべてのプラットフォーム（Web、モバイルアプリ、ビデオ、Flash など）の Analytics データの収集で利用可能なライブラリについて概説したドキュメント。 | [開発者向けドキュメント](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | 実装ガイド | データ収集変数の説明と、JavaScript でのデータ収集コードの導入についての詳細してください。 | [実装ガイド](/help/implement/home.md) |
 | AppMeasurement（s_code） | グローバル変数管理。 | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
-| App SDK | アプリの設定ファイルの事前収集バージョンを含むカスタマイズされたパッケージ。 | <ul><li>[iOS](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
+| App SDK | アプリの設定ファイルの事前収集バージョンを含むカスタマイズされたパッケージ。 | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | Adobe Experience Platform Launch | Analytics ツールを参照してください。 |  |
 | VISTA | サーバー側のロジックを適用して、データの収集時にデータを変更またはセグメント化できます。 | [VISTA ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 処理ルール | Analytics UI で変数を設定、変更およびコピーして、収集されたデータを変更できます。 | [処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md) |
