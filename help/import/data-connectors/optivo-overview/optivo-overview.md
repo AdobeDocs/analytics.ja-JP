@@ -2,20 +2,19 @@
 description: この統合では、電子メールマーケティングソフトウェア統合フィードバックシステムの力と Adobe Analytics の行動レポートを組み合わせ、組織のための強力な分析と最適化の機会を作り出します。
 title: Adobe Analytics 用 Optivo® BroadMail Data Connector
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: fff63047-afa6-420d-9188-ec8ebe407a46
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1082'
 ht-degree: 98%
 
 ---
-
 
 # Adobe Analytics 用 Optivo® BroadMail Data Connector {#optivo-broadmail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->2021年8月1日に、Adobeデータコネクタ技術の提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021年8月1日に、AdobeData Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 この統合では、電子メールマーケティングソフトウェア統合フィードバックシステムの力と Adobe Analytics の行動レポートを組み合わせ、組織のための強力な分析と最適化の機会を作り出します。
 
@@ -90,4 +89,4 @@ Adobe Analytics ソリューションを現在ご利用中のお客様の場合�
 
 この統合では、指標を追跡するために Adobe Analytics 変数が必要です。
 
-この統合で使用するイベントと eVar を特定したら、Analytics Admin Console で有効にする必要があります（手順については、[レポートスイート](https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/report-suites-admin.html)を参照してください）。
+この統合で使用するイベントと eVar を特定したら、Analytics Admin Console で有効にする必要があります（手順については、[レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)を参照してください）。
