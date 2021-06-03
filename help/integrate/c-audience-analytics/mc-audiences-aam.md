@@ -4,11 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics の概要
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +17,7 @@ Adobe Audience Manager（AAM）は、ファーストパーティ、セカンド�
 
 Audience Analytics を統合したら、デモグラフィック情報（性別、所得水準など）、サイコグラフィック情報（興味や趣味）、CRM データ、広告インプレッションデータといった AAM オーディエンスのデータを、任意の Analytics ワークフローに組み込むことができます。
 
-## 主要なメリット {#section_94816D17283349E0BA28521BE55BB868}
+## 主なメリット  {#section_94816D17283349E0BA28521BE55BB868}
 
 Audience Analytics 統合には次の主要なメリットがあります。
 
@@ -47,7 +46,7 @@ AAM セグメントは同じヒットごとに挿入されるので、AAM で使
 * Audience Manager と Adobe Analytics の両方のユーザーである。
 * Audience Manager 管理者である。
 * ID サービス v1.5 以降を使用している。
-* AAM および Adobe Analytics レポートスイートが、[同じ Experience Cloud 組織にマッピングされている](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)。
-* [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)を使用していて、[Audience Management モジュール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)（DIL コードなし） - AppMeasurement 1.5 以降を実装している。
+* AAM および Adobe Analytics レポートスイートが、[同じ Experience Cloud 組織にマッピングされている](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
+* [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)を使用していて、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)（DIL コードなし） - AppMeasurement 1.5 以降を実装している。
 
 これらの前提条件は、[Audience Analytics ワークフロー](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)に記載されています。
