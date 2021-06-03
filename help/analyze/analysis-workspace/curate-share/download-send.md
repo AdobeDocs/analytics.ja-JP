@@ -5,11 +5,10 @@ uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 feature: キュレーションと共有
 role: Business Practitioner, Administrator
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '990'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ Analysis Workspace からデータをエクスポートする方法は、ツー�
 
 プロジェクトをダウンロードする場合は、次の点に注意してください。
 
-* プロジェクトのダウンロードを要求すると、プロジェクトは保存済みまたは未保存になる場合があります。ただし、[スケジュール](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)できるのは、保存したプロジェクトだけです。
+* プロジェクトのダウンロードを要求すると、プロジェクトは保存済みまたは未保存になる場合があります。ただし、[スケジュール](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)できるのは、保存したプロジェクトだけです。
 * PDF 形式でレンダリングする前に Adobe サーバーでプロジェクトが再実行されるので、ブラウザーでダウンロードした PDF は、書き出しに数分かかる場合があります。PDF がブラウザーでダウンロードされるまで、プロジェクトを終了しないことをお勧めします。ただし、待っている間も引き続きプロジェクトに変更を加えることができます。PDF のレンダリングに 5 分以上かかる場合は、代わりに電子メールで送信するよう求められます。
 * PDF ダウンロードは、ページ番号が適用されない単一ページとしてレンダリングされます。
 * プロジェクトが PDF にレンダリングされると、ページ上の内容がレンダリングされます。プロジェクトにカスタムサイズのビジュアライゼーションとパネルが含まれている場合、内容が切り詰められないように、自動サイズに変更する必要があります（右上隅のボタン）。
@@ -90,4 +89,4 @@ Analysis Workspace からデータをエクスポートする方法は、ツー�
 | --- | --- |
 | ダウンロードした PDF が 1 ページになるのはなぜですか？ | 現時点では、Workspace でダウンロードされた PDF にページ番号は付けられません。 |
 | 「アイテムを CSV 形式でダウンロード」オプションを使用して 50,000 個を超えるアイテムを書き出すことはできますか？ | 各ダウンロードには最大 50,000 個のディメンションアイテムを含めることができますが、テーブルの種類を変更してテールがより長いアイテムを取得したり、フィルターを適用して特定のアイテムをダウンロードしたりできます。 |
-| 「**[!UICONTROL ビジュアライゼーションをコピー]**」は何を実行しますか？ | 「**[!UICONTROL ビジュアライゼーションをコピー]**」はエクスポートオプションではありません。Workspace 内のある場所から別の場所にビジュアライゼーションまたはパネルをコピーできます。 例えば、同じプロジェクト内のパネル間、またはプロジェクト間でコピーできます。[内部リンクビデオ](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+| 「**[!UICONTROL ビジュアライゼーションをコピー]**」は何を実行しますか？ | 「**[!UICONTROL ビジュアライゼーションをコピー]**」はエクスポートオプションではありません。Workspace 内のある場所から別の場所にビジュアライゼーションまたはパネルをコピーできます。 例えば、同じプロジェクト内のパネル間、またはプロジェクト間でコピーできます。[内部リンクビデオ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
