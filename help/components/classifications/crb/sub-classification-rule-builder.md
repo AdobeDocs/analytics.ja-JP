@@ -1,11 +1,10 @@
 ---
 description: 分類ルールビルダーを下位分類と組み合わせることはできません。
 title: 下位分類とルールビルダー
-translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 >
 >次の手順では、「[下位分類とルールビルダー](/help/components/classifications/crb/sub-classification-rule-builder.md)」に記載された使用例を実現する方法を説明します。
 
-1. [分類マネージャー](https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/c-classifications.html)で、分類と下位分類を作成します。
+1. [分類マネージャー](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)で、分類と下位分類を作成します。
 
    例：
 
@@ -50,7 +49,7 @@ ht-degree: 100%
 
    この操作には、正規表現を使用します。この例では、*`Broad Campaign code`* の設定ルールで次の正規表現を使用します。
 
-   | `#` | ルールタイプ | 一致 | 分類を設定 | 設定値 |
+   | `#` | ルールタイプ | 次に一致 | 分類を設定 | 設定値 |
    |---|---|---|---|---|
    |  | 正規表現 | `[^\:]:([^\:]):([^\:]`) | 幅広いキャンペーンコード | `$1` |
    |  | 正規表現 | `[^\:]:([^\:]):([^\:]`) | クリエイティブコード | `$2` |
