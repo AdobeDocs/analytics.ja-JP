@@ -2,20 +2,19 @@
 description: Silverpop 用 Data Connectors 統合は、Analytics 変数を使用してさまざまな Silverpop 指標を追跡します。
 title: Analytics 統合変数
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 0b8b31f5-65a8-41e0-97d1-d75fb1b91f62
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 98%
 
 ---
-
 
 # Analytics 統合変数 {#analytics-integration-variables}
 
 Silverpop 用 Data Connectors 統合は、Analytics 変数を使用してさまざまな Silverpop 指標を追跡します。
 
-Silverpop 統合で使用するイベントと eVar を特定したら、Adobe Analytics Admin Console を使用してそれらを有効にします（[レポートスイート](https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/report-suites-admin.html)を参照）。
+Silverpop 統合で使用するイベントと eVar を特定したら、Adobe Analytics Admin Console を使用してそれらを有効にします（[レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)を参照）。
 
 次の表に、Silverpop 統合に必要な Analytics 変数を示します。
 
@@ -28,7 +27,7 @@ Silverpop 統合で使用するイベントと eVar を特定したら、Adobe A
 | イベント（数値） | 開封数 | Silverpop から自動的に読み込まれます。 | 開封済みイベントを使用すると、電子メールメッセージを開封した訪問者の数を確認できます。 |
 | イベント（数値） | 送信数 | Silverpop から自動的に読み込まれます。 | 送信数イベントを使用すると、送信された電子メールメッセージの数を確認できます。 |
 | イベント（数値） | 登録解除 | Silverpop から自動的に読み込まれます。 | 登録解除イベントを使用すると、電子メールメッセージを開いた訪問者の数を確認できます。組織からの今後の電子メールメッセージをオプトアウトするには、登録解除リンクをクリックします。 |
-| eVar | Silverpop ID／訪問者 ID | 自動収集方法または JavaScript プラグインを使用して、電子メールリンクのクエリパラメーターから収集されます。 | 個別訪問者 ID |
+| eVar | Silverpop ID／訪問者 ID | 自動収集方法または JavaScript プラグインを使用して、電子メールリンクのクエリパラメーターから収集されます。 | 一意の訪問者 ID |
 | eVar または s.campaign | 郵送 ID | 自動収集方法または JavaScript プラグインを使用して、電子メールリンクのクエリパラメーターから収集されます。 | 多くの場合、キャンペーン変数に格納されます。 |
 
 ## オプションの変数 {#section-5f0a32b0a2084c87a64b5f90c0d0fb53}
@@ -41,4 +40,3 @@ Silverpop 統合で使用するイベントと eVar を特定したら、Adobe A
 | eVar | 電子メールアドレス | Analytics タグを使用して手動で収集されます。 | 電子メールアドレスは電子メールアドレスを収集する、登録ページ、ログインページ、またはその他のページで、電子メールアドレスを手動によって収集するためのものです。この変数は、電子メールの受信をオプトインしたけれど、電子メールをまだクリックしていない可能性のあるユーザーに対し、リマーケティングをおこなうために使用します。 |
 | eVar | ダウンロード済みファイル | Analytics タグを使用して手動で収集されます。 | ダウンロード済みファイルは、訪問者がダウンロードしたファイルを特定します。 |
 | eVar | フォーム名 | Analytics タグを使用して手動で収集されます。 | フォーム名は、訪問者が破棄したフォームを特定します。 |
-
