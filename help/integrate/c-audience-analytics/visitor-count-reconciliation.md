@@ -3,11 +3,10 @@ description: Adobe Analytics と Adobe Audience Manager には同様の定義の
 title: 訪問者数の相違
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '292'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 94%
 
 ---
 
@@ -26,20 +25,20 @@ Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：Total Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：Total Segment Population</a> </p> </td> 
    <td colname="col3"> <p>ルックバック期間にセグメントのメンバーであったデバイス（Experience Cloud ID）の数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：Real-Time Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：Real-Time Segment Population</a> </p> </td> 
    <td colname="col3"> <p>ルックバック期間にセグメントのメンバーであり、プロパティにアクセスしたデバイス（Experience Cloud ID）の数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics：個別訪問者 </p> </td> 
-   <td colname="col3"> <p>レポート期間にプロパティにアクセスした個別訪問者の数を表示します。 </p> </td> 
+   <td colname="col2"> <p>Analytics：ユニーク訪問者 </p> </td> 
+   <td colname="col3"> <p>レポート期間にプロパティにアクセスしたユニーク訪問者の数を表示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics：Experience Cloud ID での訪問者 </p> </td> 
-   <td colname="col3"> <p>レポート期間にプロパティにアクセスした Experience Cloud ID を持つ個別訪問者の数を表示します。 </p> </td> 
+   <td colname="col3"> <p>レポート期間にプロパティにアクセスした Experience Cloud ID を持つユニーク訪問者の数を表示します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
