@@ -5,11 +5,10 @@ uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->時間分割ディメンションは、Analysis Workspace でのみ使用できます。時間分割ディメンションを別の Analytics ソリューションで使用するには、[getTimeParting プラグイン](https://docs.adobe.com/content/help/ja-JP/analytics/implementation/vars/plugins/gettimeparting.html)を実装します。
+>時間分割ディメンションは、Analysis Workspace でのみ使用できます。時間分割ディメンションを別の Analytics ソリューションで使用するには、[getTimeParting プラグイン](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html)を実装します。
 
 Analysis Workspace の時間分割ディメンションに含まれるものを以下に示します。
 
