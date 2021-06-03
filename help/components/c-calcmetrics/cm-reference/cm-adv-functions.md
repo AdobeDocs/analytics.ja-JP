@@ -3,11 +3,10 @@ description: これらの関数にアクセスするには、関数ドロップ�
 title: リファレンス：高度な関数
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '2911'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2909'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +69,7 @@ Approximate Count Distinct (dimension)
 
 ### 超過したユニーク数 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://docs.adobe.com/content/help/ja-JP/analytics/technotes/low-traffic.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
+Count() や RowCount() と同様に、Approximate Count Distinct() も[「超過したユニーク数」制限](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html)の対象です。あるディメンションに関して、特定の月に「超過したユニーク数」制限に達した場合、値は 1 ディメンション項目としてカウントされます。
 
 ### カウント関数の比較 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
