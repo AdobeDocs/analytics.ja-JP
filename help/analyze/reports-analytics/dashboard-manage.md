@@ -3,13 +3,13 @@ description: ダッシュボードマネージャーを使用して、ダッシ�
 subtopic: Dashboards
 title: ダッシュボードマネージャー
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics の基本事項
+feature: Reports & Analytics の基本
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 98%
+source-wordcount: '797'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 >
 >ダッシュボードマネージャーを使用する場合は、1 人のユーザーに対して 300 個以下のダッシュボードを使用することをお勧めします。また、マネージャーがすべての共有ダッシュボードを下に読み込むので、ダッシュボードの共有は慎重に行ってください。
 
-**[!UICONTROL Analytics]**/**[!UICONTROL コンポーネント]**/**[!UICONTROL すべてのコンポーネント]**/**[!UICONTROL ダッシュボード]**&#x200B;をクリックします。
+**[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL すべてのコンポーネント]** / **[!UICONTROL ダッシュボード]**&#x200B;をクリックします。
 
 | 要素 | 説明 |
 |--- |--- |
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 共有ダッシュボードの管理オプションの使い方を説明します。
 
-1. **[!UICONTROL Analytics]**/**[!UICONTROL コンポーネント]**/**[!UICONTROL すべてのコンポーネント]**/**[!UICONTROL ダッシュボード]**&#x200B;に移動します。
+1. **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL ダッシュボード]**&#x200B;に移動します。
 1. 「[!UICONTROL 共有ダッシュボード]」で、管理する共有ダッシュボード（またはレガシーダッシュボード）を探し、次のオプションを 1 つ以上選択します。
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
@@ -71,7 +71,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->今後は、[Analysis Workspace プロジェクト](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html)とダウンロードおよびスケジュール機能の使用を検討してください。
+>今後は、[Analysis Workspace プロジェクト](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)とダウンロードおよびスケジュール機能の使用を検討してください。
 
 レガシーダッシュボードをコピーすると、編集用のレガシーダッシュボードが表示され、レガシーコンテンツまたは新しいコンテンツを追加できます。レガシーダッシュボードをコピーしても、元のレガシーダッシュボードはレガシーダッシュボードのリストに保持されます。
 
