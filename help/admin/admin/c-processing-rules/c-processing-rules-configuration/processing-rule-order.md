@@ -2,14 +2,13 @@
 description: 処理ルールを効果的に使用するために、データ収集中にそれらのルールが適用されるタイミングを理解する必要があります。
 subtopic: Processing rules
 title: 処理順序
-feature: Admin Tools
+feature: 管理ツール
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 98%
 
 ---
 
@@ -37,11 +36,11 @@ ht-degree: 100%
 | VISTA によって追加されるデータ | 処理ルールは VISTA の前に適用されます。 |
 | 訪問ページ番号 | 原則として、処理ルールは、現在のヒットにのみ含まれるデータを認識します。訪問ページ番号は、処理ルールの適用後にコンパイルされます。 |
 | ページ名が設定されていない場合は、クリーン URL をページ名として追加 | 処理ルールと VISTA の適用後、ページ名が設定されていない場合、クリーン URL がページ名として追加されます。これは、処理ルールの適用後に行われるため、ページ名が空白かどうかをチェックする条件を追加することをお勧めします。サイトのコンテンツ／ページレポートを実行し、ページ名に https:// 値が表示された場合、ページ名が空白で、URL が使用されている可能性があります。空白のページ名をテストするか、ページ名またはページ URL に特定の値が含まれているかどうかを確認するテストを行う条件を設定できます。これにより、ページ名を必要に応じて設定できます。 |
-| マーケティングチャネルの処理ルール | 処理ルールを使用して、[マーケティングチャネル処理ルール](https://docs.adobe.com/content/help/ja-JP/analytics/components/marketing-channels/c-rules.html)によって処理するデータを準備できます。 |
+| マーケティングチャネルの処理ルール | 処理ルールを使用して、[マーケティングチャネル処理ルール](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html)によって処理するデータを準備できます。 |
 | GEO 参照 | これには、訪問者の州と訪問者の郵便番号が含まれます。 |
 | eVar の持続性 | 以前のヒットに含まれていた eVar はルールの処理時の各ヒットまで持続されません。処理される現在のヒットに設定された eVar のみ使用できます。 |
 
-## VISTA を使用してヒットをコピーするときに処理ルールを適用する方法  {#section_576EE8C240A24CBA979BD614E8D5338D}
+## VISTA を使用してヒットをコピーするときに処理ルールを適用する方法 {#section_576EE8C240A24CBA979BD614E8D5338D}
 
 他のレポートスイートにヒットをコピーするように VISTA ルールが設定されている場合、ヒットは、他のレポートスイートに定義されている処理ルールを介して送信されます。
 
