@@ -6,10 +6,10 @@ title: レポートアクセスのカスタマイズ - 概要
 feature: 管理ツール
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '585'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。すべてのお客様が移行した後、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは廃止されます。
+>ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。すべての顧客が移行されたら、**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
 
 Analytics ツール、レポートスイートツール、指標およびディメンションに対するグループ権限をカスタマイズします。
 
@@ -41,7 +41,7 @@ Analytics ツール、レポートスイートツール、指標およびディ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>管理者アクセス／定義済みのグループ </p> </td> 
-   <td colname="col2"> <p> 管理者には、定義済みのグループは不要になりました。管理者は、すべての項目（ツール、指標、ディメンション）に加え、Webサービス、Report BuilderおよびActivity Mapにアクセスできるようになりました。 </p> <p>グループの目的は、管理者以外のユーザーにアクセスを付与または制限することです。 </p> </td> 
+   <td colname="col2"> <p> 管理者には、定義済みのグループは不要になりました。管理者は、すべての項目（ツール、指標、ディメンション）に加え、Webサービスへのアクセス、Report Builder、Activity Mapにアクセスできるようになりました。 </p> <p>グループの目的は、管理者以外のユーザーにアクセスを付与または制限することです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタムグループ </p> </td> 
@@ -61,12 +61,12 @@ Analytics ツール、レポートスイートツール、指標およびディ�
    <td colname="col2"> <p>権限をカスタマイズして、（指標に加えて）ディメンションへのアクセス権を含めたり、除外したりできます。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>カスタムグループ内にあるすべてのディメンションと指標は新しいカテゴリに自動的に移行されます。既存のグループで指標が有効な場合、新しく権限を付与できるすべてのディメンション（eVar およびコンテンツに対応するもの）および指標は、デフォルトで有効になります。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/c-classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> 分類インポーター（以前の SAINT）の権限：分類へのアクセスは、分類の基となる<a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">変数</a>へのアクセスによって判断されます。 </li> 
     </ul> <p><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">ディメンションの権限のカスタマイズ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html">Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>新規のお客様または <a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/core-services.html">Experience Cloud でプロビジョニングされた</a>会社を持つお客様の場合にのみお勧めします。既存の <span class="keyword">Analytics</span> のお客様の <span class="keyword">Experience Cloud</span> ID 管理システムへの移行は、予定されています。 </p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Admin Console への Analytics ユーザーの移行</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>新規のお客様または <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html">Experience Cloud でプロビジョニングされた</a>会社を持つお客様の場合にのみお勧めします。既存の <span class="keyword">Analytics</span> のお客様の <span class="keyword">Experience Cloud</span> ID 管理システムへの移行は、予定されています。 </p> <p>詳しくは、<a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Admin Console への Analytics ユーザーの移行</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>コンテンツ対応 </p> </td> 
