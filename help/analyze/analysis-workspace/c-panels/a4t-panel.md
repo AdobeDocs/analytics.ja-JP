@@ -4,11 +4,10 @@ title: Analytics for Target（A4T）パネル
 feature: パネル
 role: Business Practitioner, Administrator
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 93%
 
 ---
 
@@ -52,18 +51,18 @@ Analytics for Target パネルは、豊富なデータとビジュアライゼ�
 | 上昇率 (上限) | バリアントエクスペリエンスがコントロールに対して持つ可能性のある最高の上昇率を 95% の信頼区間で表します。<br>計算：「上昇率（下限）」を参照してください。 |
 | 信頼性 | 学生 t テストは信頼性レベルを計算します。これは、テストを再度実行した場合に結果が重複する可能性を示しています。75%／85%／95%という固定の条件付き書式が指標に適用されました。この形式設定は、必要に応じて列設定の下でカスタマイズできます。注 ：信頼性は、「ターゲットエクスペリエンス」に対して「ロックされた指標」です。 分類したり、他のディメンションで使用したりすることはできません。<br>計算：自由度が y+y_control-2 の 2-tailed t 検定を適用して、p 値（x/y が x_control/y_control に等しいかどうか）を調べます。stderr は sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control) である t スコアを計算します。 1～p は、それぞれ異なる信頼性として返されます。 |
 
-Analysis Workspace のパネルと同様に、Adobe Target アクティビティの分析に役立つテーブルと[ビジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)を追加して分析を続行できます。セグメントは、パネルレベルでもフリーフォームテーブル内でも適用できます。なお、フリーフォームテーブル内に追加する場合は、上昇率と信頼性の計算を維持するため、テーブル全体にオーバーレイする必要があります。 現時点では、列レベルのセグメントはサポートされていません。
+Analysis Workspace のパネルと同様に、Adobe Target アクティビティの分析に役立つテーブルと[ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja)を追加して分析を続行できます。セグメントは、パネルレベルでもフリーフォームテーブル内でも適用できます。なお、フリーフォームテーブル内に追加する場合は、上昇率と信頼性の計算を維持するため、テーブル全体にオーバーレイする必要があります。 現時点では、列レベルのセグメントはサポートされていません。
 
 ## よくある質問（FAQ） {#FAQ}
 
 | 質問 | 回答 |
 |---|---|
-| A4T でサポートされるアクティビティのタイプは何ですか？ | サポートされるアクティビティの種類について[詳しく](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html)ご覧ください。 |
-| 計算指標は上昇率と信頼性の計算でサポートされていますか。 | いいえ。上昇率と信頼性で計算指標がサポートされない理由について[詳しく](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)ご覧ください。ただし、計算指標は、これらの指標の外部で A4T レポートで使用できます。 |
-| なぜ、Target と Analytics ではユニーク訪問者数が異なるのでしょうか。 | 製品間のユニーク訪問者の相違についての[詳細](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)。 |
-| 分析内の特定の Target アクティビティに対してヒットセグメントを適用すると、無関係なエクスペリエンスが返されるのはなぜですか。 | A4T ディメンションはリスト変数です。つまり、多数のアクティビティ（およびエクスペリエンス）を一度に含めることができます。[詳細情報](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| 信頼性指標は、極端な注文を考慮しますか。それとも、複数のオファーに対してボンフェローニ補正を適用しますか。 | いいえ。Analytics が信頼性を計算する方法について[詳しく](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)ご覧ください。 |
+| A4T でサポートされるアクティビティのタイプは何ですか？ | サポートされるアクティビティの種類について[詳しく](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html)ご覧ください。 |
+| 計算指標は上昇率と信頼性の計算でサポートされていますか。 | いいえ。上昇率と信頼性で計算指標がサポートされない理由について[詳しく](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)ご覧ください。ただし、計算指標は、これらの指標の外部で A4T レポートで使用できます。 |
+| なぜ、Target と Analytics ではユニーク訪問者数が異なるのでしょうか。 | 製品間のユニーク訪問者の相違についての[詳細](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)。 |
+| 分析内の特定の Target アクティビティに対してヒットセグメントを適用すると、無関係なエクスペリエンスが返されるのはなぜですか。 | A4T ディメンションはリスト変数です。つまり、多数のアクティビティ（およびエクスペリエンス）を一度に含めることができます。[詳細情報](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 信頼性指標は、極端な注文を考慮しますか。それとも、複数のオファーに対してボンフェローニ補正を適用しますか。 | いいえ。Analytics が信頼性を計算する方法について[詳しく](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)ご覧ください。 |
 | 上昇率指標と信頼性指標を他のディメンションや分類と共に使用できますか。 | 上昇率と信頼性は、「ターゲットエクスペリエンス」ディメンションに対して「ロックされた指標」です。これは、全体で計算するには、コントロールとバリアントが必要だからです。したがって、分類したり、他のディメンションで使用したりすることはできません。 |
 | 上昇率と信頼性はいつ再計算されますか。 | 上昇率と信頼性は、パネルの実行（または再実行）、パネルの日付範囲の変更、パネルまたはテーブルへのセグメントの適用のたびに再計算されます。フリーフォームテーブルにセグメントフィルターを適用する場合、すべての列にセグメントフィルターを適用する必要があります。そうしないと、上昇率と信頼性が正しく更新されません。 現時点では、列レベルのセグメントはサポートされていません。 |
 
-Analytics for Target レポートについて詳しくは、[A4T レポート](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/a4t/reporting.html)を参照してください
+Analytics for Target レポートについて詳しくは、[A4T レポート](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/reporting.html)を参照してください
