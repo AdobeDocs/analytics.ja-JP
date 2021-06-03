@@ -3,9 +3,9 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントリポジトリの大幅なアップデート。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '415'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,10 @@ ht-degree: 100%
 
 2019 年 1 月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* [!UICONTROL Customer Journey Analytics] の詳細については、[こちら](https://docs.adobe.com/content/help/ja-JP/analytics-platform/using/cja-landing.html)を参照してください。
-* Adobe Analytics の新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html)を参照してください。
+* [!UICONTROL Customer Journey Analytics] の詳細については、[こちら](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)を参照してください。
+* Adobe Analytics の新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 * 新機能について詳しくは、ツールユーザーガイドの [Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
-* オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/ja-JP/media-analytics/using/media-overview.html)を参照してください。
+* オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)を参照してください。
 
 ## メジャー更新の詳細
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 | 2020 年 1 月 14 日 | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019 年 11 月 26 日 | [IP ログイン制限実施の提供終了](/help/admin/company/login-restrictions-eol.md)に関する新しいトピック。 |
-| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
+| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
 | 2019 年 9 月 29 日 | [JavaScript 実装の設定変数](/help/implement/vars/config-vars/configuration-variables.md)に関する新しい記事を追加しました。 |
 | 2019 年 9 月 13 日 | [Journey IQ：クロスデバイス分析](/help/components/cda/overview.md)に関する新しい記事を追加しました。 |
 | 2019 年 8 月 29 日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/analyze/pwa/pwa.md)に関する新しい記事を追加しました。 |
