@@ -2,11 +2,10 @@
 title: 分類の概要
 description: ディメンション項目のグループ化をカスタマイズします。
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '605'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +31,7 @@ ht-degree: 100%
 
 レポーティングと解析には、トラッキングコード変数の分類が事前定義されており、クリエイティブエレメントやキャンペーンと呼ばれる分類ベースのレポートを作成できます。その他すべてのコンバージョン変数およびトラフィック変数については、分類を手動で設定する必要があります。
 
-[トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)および[コンバージョン分類](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)を参照してください。
+[トラフィック分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)および[コンバージョン分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)を参照してください。
 
 次の表では、使用できる様々なタイプの分類およびこれらの分類をサポートする変数のタイプについて説明します。データファイルをアップロードする前に、[一般的なファイル構造](/help/components/classifications/importer/c-saint-data-files.md)の情報を確認します。
 
