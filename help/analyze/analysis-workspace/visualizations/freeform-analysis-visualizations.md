@@ -5,11 +5,10 @@ title: ビジュアライゼーションの概要
 feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1092'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +78,7 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 1. 新しいラベルテキストを入力します。
 1. **[!UICONTROL Enter]** キーを押して保存します。
 
-このトピックに関する[ビデオへのリンクはこちら](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)です。
+このトピックに関する[ビデオへのリンクはこちら](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)です。
 
 ## 右クリックメニュー {#right-click}
 
