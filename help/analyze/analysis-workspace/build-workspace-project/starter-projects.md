@@ -5,11 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1399'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1389'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 * **空白のプロジェクト（デフォルト）**：手順については、「[Analysis Workspace プロジェクトの作成](/help/analyze/analysis-workspace/home.md)」を参照してください。
 * **標準テンプレート**：アドビが作成し、製品に付属しているテンプレートです。
-* **カスタムテンプレート**：管理者権限を持つユーザー、または Admin Console で [!UICONTROL Analysis Workspace：テンプレートとして保存]権限を付与された非管理者ユーザーが作成、共有または削除できるテンプレートです。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-console/permissions/product-profile.html)
+* **カスタムテンプレート**：管理者権限を持つユーザー、または Admin Console で [!UICONTROL Analysis Workspace：テンプレートとして保存]権限を付与された非管理者ユーザーが作成、共有または削除できるテンプレートです。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -57,7 +56,7 @@ ht-degree: 100%
 
 これらの事前設定されたテンプレートをそのまま、またはニーズに応じて変更して（例えば指標やビジュアライゼーションを追加または置き換えることで）使用して、新しい名前で保存できます。
 
-[Analysis Workspace の標準テンプレート](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)に関するビデオチュートリアル（2:46）
+[Analysis Workspace の標準テンプレート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)に関するビデオチュートリアル（2:46）
 
 以下に、利用可能なテンプレートと各テンプレートに関する質問について説明します。
 
@@ -81,7 +80,7 @@ ht-degree: 100%
 
 * **Magento：マーケティングとコマース**：このテンプレートは、マーケティングチャネルアトリビューション別に e コマースコンバージョンを分類し、検索キーワード、ランディングページ、地理的な場所などによるインサイトを提供します。ビデオの概要については、以下を参照してください。
 
->[!VIDEO](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### メディア
 
@@ -119,7 +118,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->人物テンプレートとそれに関連する人物指標は、[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/data/people.html) の一部としてのみ使用可能です。
+>人物テンプレートとそれに関連する人物指標は、[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html) の一部としてのみ使用可能です。
 
 このテンプレートは、ユニーク訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。このテンプレートでは次の操作が可能です。
 
@@ -135,7 +134,7 @@ ht-degree: 100%
 
 <!--This content is mirrored in the CDA doc.-->
 
-このテンプレートを使用すれば、重要なクロスデバイスのパフォーマンスデータを確認できます。このサービスは、[Cross-Device Analytics](https://docs.adobe.com/content/help/ja-JP/analytics/components/cda/cda-home.html)（CDA）へのアクセス権を持つユーザーのみが利用できます。
+このテンプレートを使用すれば、重要なクロスデバイスのパフォーマンスデータを確認できます。このサービスは、[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html)（CDA）へのアクセス権を持つユーザーのみが利用できます。
 
 * **Co-op グラフのメンバーに関する特別な注意事項**：Co-op グラフがサポートされる地域とサポートされない地域の訪問者が、レポートスイートのどの部分に含まれているかを表示します。
 * **ユーザーの ID**：クロスデバイス分析に基づくメソッドを使用して、サイトへの訪問者を識別する頻度を示します。
