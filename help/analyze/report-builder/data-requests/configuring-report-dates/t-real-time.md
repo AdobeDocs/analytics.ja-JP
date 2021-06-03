@@ -4,20 +4,19 @@ title: リアルタイムリクエストの設定
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 97%
+source-wordcount: '116'
+ht-degree: 93%
 
 ---
-
 
 # リアルタイムリクエストの設定
 
 リアルタイムリクエストの日付の設定手順です。
 
-1. Reports &amp; Analytics の[管理ツール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)でリアルタイムレポートが有効であることを確認します。
+1. Reports &amp; Analytics の[管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)でリアルタイムレポートが有効であることを確認します。
 1. [!UICONTROL リクエストウィザード：ステップ 1] で、**[!UICONTROL リアルタイムレポート]**／**[!UICONTROL `<report type>`]** をクリックします。
 
    例えば、「トラフィックレポート」を選択します。リアルタイムレポートのタイプを選択すると、「[!UICONTROL 時間範囲を選択]」オプションが表示されます。
