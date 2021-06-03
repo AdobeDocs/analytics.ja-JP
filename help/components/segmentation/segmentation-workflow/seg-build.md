@@ -4,10 +4,10 @@ title: セグメントの構築
 feature: セグメント化
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 100%
+source-wordcount: '2036'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * **Analytics 上部ナビゲーション**：**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL セグメント]**&#x200B;をクリックします。
 * **[!UICONTROL Analysis Workspace]**：**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** に移動し、プロジェクトを開いて **[!UICONTROL + 新規]**／**[!UICONTROL セグメントを作成]**&#x200B;をクリックします。
 * **[!UICONTROL Reports &amp; Analytics]**：**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;で、既存のレポートを開いて、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックしてから、「**[!UICONTROL 追加]**」をクリックします。
-* **[!UICONTROL Report Builder]**：[レポートビルダーでセグメントを追加または編集します。](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/data-requests/segmentation.html)
+* **[!UICONTROL Report Builder]**：[レポートビルダーでセグメントを追加または編集します。](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html)
 
 ## ビルダー条件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 1. **[!UICONTROL 値]**：ディメンション、セグメントまたは指標のために入力または選択した値。
 1. **[!UICONTROL X]**：（削除）セグメント定義のこの部分を削除できます。
 1. **[!UICONTROL Experience Cloud パブリッシング]**：Adobe Analytics セグメントを Experience Cloud に公開すると、[!DNL Audience Manager] や他のアクティベーションチャネルでのマーケティングアクティビティでセグメントを使用できます。[詳細情報...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL オーディエンスライブラリ]**：アドビのオーディエンスサービスは、訪問者データからオーディエンスセグメントへの変換を管理します。したがって、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ています。また、オーディエンスセグメントを Experience Cloud と共有することもできます。[詳細情報...](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL オーディエンスライブラリ]**：アドビのオーディエンスサービスは、訪問者データからオーディエンスセグメントへの変換を管理します。したがって、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ています。また、オーディエンスセグメントを Experience Cloud と共有することもできます。[詳細情報...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL 検索]**：ディメンション、セグメントまたは指標のリストを検索します。
 1. **[!UICONTROL ディメンション]**：（リスト）ヘッダーをクリックして展開します。
 1. **[!UICONTROL 指標]**：ヘッダーをクリックして展開します。
