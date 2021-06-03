@@ -4,11 +4,10 @@ solution: Experience Cloud
 title: よくある質問
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1098'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ Audience Analytics を実装するときによくある質問への回答です�
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">prop または eVar に電子メール／アドレスなどを格納している場合は、収集時にデータをハッシュすることを検討します。 </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">お客様の国で IP アドレスが PII（個人情報）と見なされる場合は、<a href="https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/exclude-ip.html"  >IP の不明化を有効にします</a>。 </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">お客様の国で IP アドレスが PII（個人情報）と見なされる場合は、<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html"  >IP の不明化を有効にします</a>。 </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Analytics 管理者に問い合わせて、収集内容を確認します。 </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">社内の法務部に問い合わせて、PII と見なされる情報を確認します。 </li> 
     </ul> </td> 
@@ -48,7 +47,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q：Audience Manager で Analytics の宛先を作成するにはどうすればよいですか。</b> </p> </td> 
-   <td colname="col2"> <a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >AAM での Analytics の宛先の設定</a>を参照してください。 </td> 
+   <td colname="col2"> <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >AAM での Analytics の宛先の設定</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q：Analytics の宛先を作成して保存した後、選択したレポートスイートにデータが表示されるまでにどれくらい時間がかかりますか。</b> </p> </td> 
