@@ -5,11 +5,10 @@ title: プロジェクトのキュレーション
 feature: キュレーションと共有
 role: Business Practitioner, Administrator
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +47,7 @@ ht-degree: 100%
 
 ## 仮想レポートスイート（VRS）のキュレーション
 
-多数のプロジェクトに同時に適用できるように、レポートスイートレベルでキュレーションを適用する場合は、[仮想レポートスイート（VRS）内のコンポーネントをキュレーション](https://docs.adobe.com/content/help/ja-JP/analytics/components/virtual-report-suites/vrs-components.html)できます。
+多数のプロジェクトに同時に適用できるように、レポートスイートレベルでキュレーションを適用する場合は、[仮想レポートスイート（VRS）内のコンポーネントをキュレーション](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html)できます。
 
 >[!NOTE]
 > VRS キュレーションは常に、プロジェクトのキュレーション前に適用されます。つまり、キュレーションされたプロジェクトに特定のコンポーネントが含まれている場合でも、キュレーションされた VRS に含まれていない場合は除外されます。
