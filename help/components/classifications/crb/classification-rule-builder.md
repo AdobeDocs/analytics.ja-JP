@@ -5,10 +5,10 @@ title: 分類ルールビルダーのワークフロー
 feature: 管理ツール
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 | 手順 | 作業する場所 | 説明 |
 |--- |--- |--- |
-| 手順 1（必須）：[分類スキーマを設定します](https://docs.adobe.com/content/help/ja-JP/analytics/components/classifications/c-classifications.html)。 | [!UICONTROL 管理者]／[!UICONTROL レポートスイート]／[!UICONTROL 設定を編集]／&lt;トラフィック分類またはコンバージョン分類> | 変数を選択し、その変数で使用する分類を定義します。<br>変数をルールで使用するには、事前に 1 つ以上の分類列を作成しておく必要があります。<br>分類が有効になると、インポーターおよびルールビルダーを使用して特定の値を分類できます。 |
+| 手順 1（必須）：[分類スキーマを設定します](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 | [!UICONTROL 管理者]／[!UICONTROL レポートスイート]／[!UICONTROL 設定を編集]／&lt;トラフィック分類またはコンバージョン分類> | 変数を選択し、その変数で使用する分類を定義します。<br>変数をルールで使用するには、事前に 1 つ以上の分類列を作成しておく必要があります。<br>分類が有効になると、インポーターおよびルールビルダーを使用して特定の値を分類できます。 |
 | 手順 2：[ルールセットを作成する](/help/components/classifications/crb/classification-rule-set.md)。 | [!UICONTROL 管理者]／[!UICONTROL 分類ルールビルダー]／[!UICONTROL ルールセットを追加] | ルールセットは、特定の変数の分類ルールのグループです。 |
 | 手順 3：レポートスイートと変数を設定します。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | レポートスイートおよび変数にルールセットを適用します。 |
 | 手順 4：[分類ルールをセットに追加する](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md)」の情報を確認します。 |
@@ -51,4 +51,4 @@ ht-degree: 100%
 
 **ブログ**：この機能について詳しくは、Digital Marketing Blog の[ルールベースの分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)を参照してください。
 
-**ビデオ**：[分類の概要](https://docs.adobe.com/content/help/ja-JP/analytics-learn/tutorials/components/classifications/overview-of-classifications.html)ビデオを参照してださい。
+**ビデオ**：[分類の概要](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html)ビデオを参照してださい。
