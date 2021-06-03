@@ -5,10 +5,10 @@ uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 95%
+source-wordcount: '267'
+ht-degree: 92%
 
 ---
 
@@ -21,12 +21,12 @@ Analytics で権限を設定する方法と、Analytics で使用可能なディ
 ユーザーが Activity Map ディメンションを使用してレポートを作成できるようにするには、管理者が次の設定をおこなう必要があります。
 
 * [Activity Map アクセスグループにユーザーを追加します](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* このグループによるアクセスを許可するレポートスイートを追加します。**[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]** > **[!UICONTROL グループ]** > **[!UICONTROL Activity Mapアクセス]** > **[!UICONTROL 編集]**&#x200B;に移動します。
+* このグループによるアクセスを許可するレポートスイートを追加します。**[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL Activity Map管理]** / **[!UICONTROL グループ]** / **[!UICONTROL ユーザーアクセス]** / **[!UICONTROL 編集]**&#x200B;に移動します。
 * ディメンションに対するユーザーのアクセス権をカスタマイズします。次の節を参照してください。
 
 ## Analytics Activity Map ディメンション {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-[ディメンションに対するユーザーのアクセス権のカスタマイズ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)は、詳細なレベルでおこなえます。Analytics で使用可能な Activity Map ディメンションは次のとおりです。
+[ディメンションに対するユーザーのアクセス権のカスタマイズ](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)は、詳細なレベルでおこなえます。Analytics で使用可能な Activity Map ディメンションは次のとおりです。
 
 | ディメンション | 説明 |
 |---|---|
