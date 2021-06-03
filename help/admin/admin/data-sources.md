@@ -1,14 +1,13 @@
 ---
 description: データソース機能を使用すると、オフラインソースから Analytics にデータをインポートできます。インポートしたデータは、通常の方法で収集されたデータと同じように処理できます。
 title: データソース
-feature: Admin Tools
+feature: 管理ツール
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 95%
 
 ---
 
@@ -24,4 +23,4 @@ ht-degree: 100%
 
 データソースがレポートスイートで有効になると、FTP ロケーションが提供され、レポーティングに統合するファイルをアップロードできるようになります。ファイルをアップロードすると、アドビのサーバーはデータを自動的に処理し、レポートスイートに統合します。
 
-詳しくは、[データソースヘルプ](https://docs.adobe.com/content/help/ja-JP/analytics/import/data-sources/datasrc-home.html) を参照してください。
+詳しくは、[データソースヘルプ](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html) を参照してください。
