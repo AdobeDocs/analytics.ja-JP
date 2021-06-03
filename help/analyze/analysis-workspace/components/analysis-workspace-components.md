@@ -4,11 +4,10 @@ title: コンポーネントの概要
 feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '739'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 92%
 
 ---
 
@@ -16,15 +15,15 @@ ht-degree: 100%
 
 Analysis Workspace のコンポーネントは、プロジェクトにドラッグ＆ドロップできるディメンション、指標、セグメント、および日付範囲で構成されています。
 
-「コンポーネント」メニューにアクセスするには、左側のレールにある「**[!UICONTROL コンポーネント]**」アイコンをクリックします。 左側のレールアイコンから、または[ホットキー](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)を使用して、[パネル](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/panels/panels.html)、[ビジュアライゼーション](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)、コンポーネントを切り替えることができます。
+「コンポーネント」メニューにアクセスするには、左側のレールにある「**[!UICONTROL コンポーネント]**」アイコンをクリックします。 左側のレールアイコンから、または[ホットキー](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)を使用して、[パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)、[ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja)、コンポーネントを切り替えることができます。
 
 ![](assets/component-overview.png)
 
-また、**[!UICONTROL プロジェクト／プロジェクト情報と設定／ビュー密度]**&#x200B;に移動して、プロジェクトの[ビュー密度設定](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html)を調整し、左側のレールで一度に多くの値を表示することもできます。
+また、**[!UICONTROL プロジェクト／プロジェクト情報と設定／ビュー密度]**&#x200B;に移動して、プロジェクトの[ビュー密度設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ja)を調整し、左側のレールで一度に多くの値を表示することもできます。
 
 ## ディメンション {#dimensions}
 
-[**ディメンション**](https://docs.adobe.com/content/help/ja-JP/analytics/components/dimensions/overview.html)は、訪問者行動を説明するテキスト属性であり、分析内で表示、分類、および比較できます。 これらは左側のコンポーネントレール（オレンジ色のセクション）にあり、通常はテーブルの行として適用されます。
+[**ディメンション**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html)は、訪問者行動を説明するテキスト属性であり、分析内で表示、分類、および比較できます。 これらは左側のコンポーネントレール（オレンジ色のセクション）にあり、通常はテーブルの行として適用されます。
 
 ディメンションの例としては、[!UICONTROL ページ名]、[!UICONTROL マーケティングチャネル]、[!UICONTROL デバイスタイプ]、[!UICONTROL 製品]があります。 ディメンションはアドビが提供し、カスタム実装（eVar、Prop、分類など）を通じて取得します。
 
@@ -36,25 +35,25 @@ Analysis Workspace のコンポーネントは、プロジェクトにドラッ�
 
 ## 指標 {#metrics}
 
-[**指標**](https://docs.adobe.com/content/help/ja-JP/analytics/components/metrics/overview.html)は、訪問者行動に関する定量的な指標です。 これらは左側のコンポーネントレール（緑色のセクション）にあり、通常は表の列として適用されます。
+[**指標**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html)は、訪問者行動に関する定量的な指標です。 これらは左側のコンポーネントレール（緑色のセクション）にあり、通常は表の列として適用されます。
 
-指標の例としては、[!UICONTROL ページビュー]、[!UICONTROL 訪問回数]、[!UICONTROL 注文件数]、[!UICONTROL 平均滞在時間]、および[!UICONTROL 売上高／注文件数]があります。 指標は、アドビから提供されるか、カスタム実装（[!UICONTROL 成功イベント]）を通じて取得、または[計算指標ビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)を使用して作成します。
+指標の例としては、[!UICONTROL ページビュー]、[!UICONTROL 訪問回数]、[!UICONTROL 注文件数]、[!UICONTROL 平均滞在時間]、および[!UICONTROL 売上高／注文件数]があります。 指標は、アドビから提供されるか、カスタム実装（[!UICONTROL 成功イベント]）を通じて取得、または[計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)を使用して作成します。
 
 ![](assets/metrics.png)
 
 ## セグメント {#segments}
 
-[**セグメント**](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)は、分析に適用するオーディエンスフィルターです。 これらは左側のコンポーネントレール（青いセクション）にあり、通常はパネルの上部または表の指標列の上に適用されます。
+[**セグメント**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)は、分析に適用するオーディエンスフィルターです。 これらは左側のコンポーネントレール（青いセクション）にあり、通常はパネルの上部または表の指標列の上に適用されます。
 
-セグメントの例としては、[!UICONTROL モバイルデバイス訪問者]、[!UICONTROL 電子メールからの訪問]、および[!UICONTROL 認証済みヒット]があります。 セグメントはアドビから提供されるか、[パネルドロップゾーン](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/panels/panels.html)で作成、または[セグメントビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-build.html)を使用して作成します。
+セグメントの例としては、[!UICONTROL モバイルデバイス訪問者]、[!UICONTROL 電子メールからの訪問]、および[!UICONTROL 認証済みヒット]があります。 セグメントはアドビから提供されるか、[パネルドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)で作成、または[セグメントビルダー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)を使用して作成します。
 
 ![](assets/segments.png)
 
 ## 日付範囲 {#date-ranges}
 
-[**日付範囲**](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html)は、分析を実行する日付の範囲です。 これらは左側のコンポーネントレール（紫のセクション）にあり、通常は各パネルのカレンダーに適用されます。
+[**日付範囲**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html)は、分析を実行する日付の範囲です。 これらは左側のコンポーネントレール（紫のセクション）にあり、通常は各パネルのカレンダーに適用されます。
 
-日付範囲の例としては、2019 年 7 月、[!UICONTROL 過去 4 週間]、[!UICONTROL 今月]などがあります。 日付範囲はアドビが提供するか、[パネルのカレンダー](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/panels/panels.html)に適用されるか、[日付範囲ビルダー](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)を使用して作成します。
+日付範囲の例としては、2019 年 7 月、[!UICONTROL 過去 4 週間]、[!UICONTROL 今月]などがあります。 日付範囲はアドビが提供するか、[パネルのカレンダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)に適用されるか、[日付範囲ビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)を使用して作成します。
 
 ![](assets/date-ranges.png)
 
