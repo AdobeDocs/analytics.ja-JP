@@ -1,14 +1,13 @@
 ---
 title: トランザクション ID データソース
 description: トランザクション ID データソースの一般的な使用ワークフローについて説明します。
-translation-type: tm+mt
-source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
+exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
+source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
-
 
 # トランザクション ID データソース
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 トランザクション ID データソースを使用して開始するには、次の汎用ワークフローを使用します。
 
 1. データソース（「汎用」カテゴリと「汎用データソース（トランザクション ID）」タイプ）を作成します。
-1. データフィードの設定ウィザードに従って、FTP の場所を取得し、データをアップロードしてデータソーステンプレートファイルをダウンロードします。
+1. データソース設定ウィザードに従って、FTPの場所を取得し、データをアップロードしてデータソーステンプレートファイルをダウンロードします。
 1. `transactionID` 変数を含めるように実装を更新します。
 1. データソースファイルを `.fin` ファイルと共に FTP サイトへとアップロードします。
 
