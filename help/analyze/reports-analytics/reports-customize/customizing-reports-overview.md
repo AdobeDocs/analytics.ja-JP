@@ -2,14 +2,13 @@
 description: レポートの実行後は、レポートをカスタマイズしてニーズに応じたデータの表示、分析を行うことができます。レポートデータをフィルターしたり、データを図示する方法を変更したり、日付精度を変更したりできます。
 title: レポートのカスタマイズの概要
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Reports & Analyticsの基本事項
+feature: Reports & Analytics の基本
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '924'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +38,7 @@ t_reports_custom.xml
 
 >[!MORELIKETHIS]
 >
->* [メニューのカスタマイズ](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/customize-menus.html)
+>* [メニューのカスタマイズ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## 日付または日付範囲の選択 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -87,7 +86,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
->ダッシュボード内で主要指標について日付比較を行いたい場合は、2 つの異なるリクエストを使用してデータを [Report Builder](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/report-builder/home.html) に取り込みます。その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
+>ダッシュボード内で主要指標について日付比較を行いたい場合は、2 つの異なるリクエストを使用してデータを [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) に取り込みます。その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
 
 Reports &amp; Analytics のランクレポート間で日付を比較するには、以下のようにします。
 
@@ -210,7 +209,7 @@ t_reports_day_of_week.xml
 1. 指定した日付範囲でトレンドレポートを実行します。
 1. 「**[!UICONTROL 曜日]**」リンクをクリックし、曜日をクリックします。
 
-## 「ワークスペースで試す」ボタン {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## 「ワークスペースで試す」ボタン  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 レポートの上部にある「**[!UICONTROL ワークスペースで試す]**」ボタンをクリックすると、同じレポートが Analysis Workspace に読み込まれます。
 
@@ -224,4 +223,4 @@ Reports &amp; Analytics のほとんどのレポートには現在、「ワー�
 
 現在、このボタンが使用できるのは、ユーザーに Analysis Workspace の完全な権限が付与されている場合のみです。
 
-レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/home.html) ガイドを参照してください。
+レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) ガイドを参照してください。
