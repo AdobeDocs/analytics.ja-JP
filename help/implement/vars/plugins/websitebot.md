@@ -2,9 +2,9 @@
 title: websiteBot
 description: マウスの動きを使用してボットを動的に識別します。
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
+source-git-commit: 7b77e023e9328cd029c326d29a30f9c80b8fbcbd
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 52%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 52%
 
 アドビでは、このプラグインを使用する前に次の点を推奨します。
 
-* **eVar 設定の指定**：レポートスイート設定の「 [コンバージョン 変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で eVar を設定します。有効期限を&#x200B;**なし**&#x200B;に設定し、割り当てを&#x200B;**&quot;元の値（最初）&quot;**&#x200B;に設定します。 このeVarは、次の両方の状況で設定する必要があります。[!UICONTROL 直接呼び出し]ルールまたは`s.tl`呼び出しが実行されたとき。
+* **eVar 設定の指定**：レポートスイート設定の「 [コンバージョン 変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で eVar を設定します。有効期限を「**なし**」または「**訪問**」に設定し、「**元の値（最初）」**&#x200B;に割り当てます。 このeVarは、次の両方の状況で設定する必要があります。[!UICONTROL 直接呼び出し]ルールまたは`s.tl`呼び出しが実行されたとき。
 * **別の変数でのユーザーエージェントの収集**：別の変数にユーザーエージェント文字列を収集して、このプラグインの有効性を監視します。このデータを収集するには、すべてのヒットで eVar を `navigator.UserAgent` に設定します。
 
 ## Launch カスタムコードエディターを使用したプラグインのインストール
