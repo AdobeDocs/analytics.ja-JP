@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
 user-guide-description: Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 93%
+source-wordcount: '159'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
    + [Audience Analytics の概要](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics のワークフロー {#audience-analytics-workflow}
       + [ワークフローの概要](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Analytics の宛先の作成 - AAM ガイド](https://docs.adobe.com/help/ja-JP/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [Analytics の宛先の作成 - AAM ガイド](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Analytics でのオーディエンスデータの使用](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics の使用例](c-audience-analytics/aam-audience-use-cases.md)
       + [よくある質問](c-audience-analytics/mc-audiences-faqs.md)
