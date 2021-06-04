@@ -3,10 +3,10 @@ description: Advertising Analytics の使用例。
 title: Audience Analytics の使用例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 92%
+source-wordcount: '213'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 
 ## 見込み客分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-B2B 小売業者は、[連続セグメント](https://docs.adobe.com/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)を使用して、見込み客オーディエンスの購入直前の行動を深く分析できるようになり、どのアクションがコンバージョンにつながるかを理解できます。
+B2B 小売業者は、[連続セグメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)を使用して、見込み客オーディエンスの購入直前の行動を深く分析できるようになり、どのアクションがコンバージョンにつながるかを理解できます。
 
 ## デモグラフィックターゲティング {#section_F034DB721A06419283DBD29D4A1B444B}
 
