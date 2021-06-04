@@ -5,11 +5,10 @@ uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 feature: フリーフォームテーブル
 role: Business Practitioner, Administrator
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 91%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 概要については、このビデオチュートリアルをご覧ください。
 
-[Analysis Workspace のテーブルのページネーション、フィルタリングおよび並べ替え](https://docs.adobe.com/help/ja-JP/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
+[Analysis Workspace のテーブルのページネーション、フィルタリングおよび並べ替え](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## アドバンスフィルターオプション {#section_36E92E31442B4EBCB052073590C1F025}
 
