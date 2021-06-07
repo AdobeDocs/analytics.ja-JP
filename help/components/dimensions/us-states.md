@@ -2,10 +2,9 @@
 title: 米国の州
 description: 訪問者の米国の州。
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '368'
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -17,10 +16,6 @@ ht-degree: 100%
 ## このディメンションへのデータ入力
 
 このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。アドビは [Digital Element](https://info.digitalelement.com/jp/) と提携し、IP アドレスと国間の検索を維持しています。このディメンションは、すべての実装で初期設定の状態で動作します。
-
->[!TIP]
->
->[IP アドレスを不明化](/help/admin/admin/general-acct-settings-admin.md)するだけでは不十分な、プライバシーに関する厳しい規制に従う場合、位置情報データを完全に無効にするように要求できます。レポートスイート ID をサポートに連絡し、レポートスイートの「地域」をオフにするようにリクエストします。
 
 ## ディメンション項目
 
