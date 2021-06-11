@@ -2,10 +2,10 @@
 title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティまたはアプリケーションに実装します。
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 97%
+source-wordcount: '368'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 3. ページが読み込まれ、Analytics JavaScript コードが実行されます。JavaScript コードは、イメージリクエストをアドビデータ収集サーバーに送信します。実装で定義したページデータは、このイメージリクエストのクエリー文字列の一部として送信されます。
 
 4. アドビは、透明なピクセルイメージを返します。
-5. アドビのサーバーは、収集したデータを&#x200B;*レポートスイート*&#x200B;に保存します。
+5. Adobeサーバーは、収集したデータを1つ以上の&#x200B;*レポートスイート*&#x200B;に格納します。
 6. レポートスイートデータは、Web ブラウザーでアクセスできるレポートに入力されます。
 
    JavaScript コードの実行は迅速におこなわれ、ページ読み込み時間には影響しません。この方法では、ページがキャッシュから取得された場合でも JavaScript コードが実行されるので、訪問者が「**[!UICONTROL リロード]**」または「**[!UICONTROL 戻る]**」をクリックして表示されたページをカウントできます。
