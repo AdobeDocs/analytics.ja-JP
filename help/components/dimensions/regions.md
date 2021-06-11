@@ -2,10 +2,9 @@
 title: 地域
 description: 訪問者の地域。
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '381'
+source-git-commit: 4e09df2631626376f9351512afed7a9e4241e7d6
+workflow-type: tm+mt
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -17,10 +16,6 @@ ht-degree: 100%
 ## このディメンションへのデータ入力
 
 このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。アドビは [Digital Element](https://info.digitalelement.com/jp/) と提携し、IP アドレスと国間の検索を維持しています。このディメンションは、すべての実装で初期設定の状態で動作します。
-
->[!TIP]
->
->[IP アドレスを不明化](/help/admin/admin/general-acct-settings-admin.md)するだけでは不十分な、プライバシーに関する厳しい規制に従う場合、位置情報データを完全に無効にするように要求できます。レポートスイート ID をサポートに連絡し、レポートスイートの「地域」をオフにするようにリクエストします。
 
 ## ディメンション項目
 
