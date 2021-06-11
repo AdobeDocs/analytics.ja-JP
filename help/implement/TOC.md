@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: 'どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。 '
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 99%
 
 ---
 
@@ -53,8 +52,8 @@ ht-degree: 100%
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + ページ変数 {page-vars}
       + [ページ変数の概要](vars/page-vars/page-variables.md)
-      + [campaign](vars/page-vars/campaign.md)
-      + [channel](vars/page-vars/channel.md)
+      + [キャンペーン](vars/page-vars/campaign.md)
+      + [チャネル](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [動的変数](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
@@ -68,16 +67,16 @@ ht-degree: 100%
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
       + [pageURL](vars/page-vars/pageurl.md)
-      + [products](vars/page-vars/products.md)
+      + [製品](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
-      + [referrer](vars/page-vars/referrer.md)
+      + [リファラー](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
-      + [server](vars/page-vars/server.md)
-      + [state](vars/page-vars/state.md)
-      + [timestamp](vars/page-vars/timestamp.md)
+      + [サーバー](vars/page-vars/server.md)
+      + [都道府県](vars/page-vars/state.md)
+      + [タイムスタンプ](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
-      + [zip](vars/page-vars/zip.md)
+      + [郵便番号](vars/page-vars/zip.md)
    + 関数とメソッド {#functions}
       + [関数の概要](vars/functions/overview.md)
       + [s_gi](vars/functions/s-gi.md)
@@ -127,6 +126,7 @@ ht-degree: 100%
 + Adobe Analytics の実装準備 {#prepare}
    + [データレイヤーの作成](prepare/data-layer.md)
    + [グローバルレポートスイートの考慮事項](prepare/global-rs.md)
+   + [複数のスイートタグ付けの実装](prepare/multi-suite-tagging.md)
    + [実装モーダル](prepare/implementation-modal.md)
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
    + [既存の Adobe Analytics の実装を担当する](prepare/existing-implementation.md)
@@ -141,7 +141,7 @@ ht-degree: 100%
          + [動的アカウントの概要](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
-         + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
+         + [dynamicAccountSelection ](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [H コードのトラブルシューティング](js/h-code/troubleshooting.md)
    + レガシーのクロスデバイス特定 {#xdevice-visid}
       + [デバイス間のユーザーの接続](js/xdevice-visid/xdevice-connecting.md)
