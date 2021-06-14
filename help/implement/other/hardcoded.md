@@ -2,11 +2,10 @@
 title: ハードコードされたイメージリクエストを使用した実装
 description: HTML イメージタグを使用した Adobe Analytics の実装（ハードコードされたイメージリクエスト）
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 * `https://` はプロトコルを指定します。イメージリクエストで使用されるプロトコルと、サイトの残りの部分で使用されるプロトコルとを一致させます。
 * `example.data.adobedc.net` は、[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 変数に含まれる値です。
 * `/b/ss/` は、すべてのイメージリクエストに含まれます。これは、アドビのデータ収集サーバーに保存される画像のファイル構造の一部です。
-* `examplersid` は、データの送信先のレポートスイート ID です。
+* `examplersid` は、データの送信先のレポートスイート ID です。複数のレポートスイートの場合、IDをコンマで区切り、スペースは使用しません（`examplersid1,examplersid2`など）。
 * `/1/` はヒットソースです。詳しくは、『エクスポートユーザーガイド』の[データ列の参照](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で `hit_source` を参照してください。訪問者を識別するために Cookie やその他の方法が使用する順序を制御します。
 * クエリー文字列の区切り文字（`?`）の後にあるのはすべて、レポートに含めるデータです。イメージリクエストに含めることができるすべてのパラメーターのリストについては、[データ収集クエリーパラメーター](../validate/query-parameters.md)を参照してください。
 
