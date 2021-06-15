@@ -5,7 +5,7 @@ feature: セグメント化
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
 ht-degree: 100%
 
