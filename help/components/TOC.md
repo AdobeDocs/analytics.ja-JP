@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
-translation-type: tm+mt
 source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 99%
    + [すべての検索ページのランク](dimensions/all-search-page-rank.md)
    + [午前／午後](dimensions/am-pm.md)
    + [ブラウザーの高さ](dimensions/browser-height.md)
-   + [ブラウザーのタイプ](dimensions/browser-type.md)
+   + [ブラウザータイプ](dimensions/browser-type.md)
    + [ブラウザーの幅](dimensions/browser-width.md)
    + [ブラウザー](dimensions/browser.md)
    + [キャンペーン](dimensions/campaigns.md)
@@ -37,7 +36,7 @@ ht-degree: 99%
    + [月間通算日](dimensions/day-of-month.md)
    + [曜日](dimensions/day-of-week.md)
    + [年間通算日](dimensions/day-of-year.md)
-   + [Day](dimensions/day.md)
+   + [日](dimensions/day.md)
    + [初回購入までの日数](dimensions/days-before-first-purchase.md)
    + [前回購入からの日数](dimensions/days-since-last-purchase.md)
    + [最終訪問からの日数](dimensions/days-since-last-visit.md)
@@ -64,7 +63,7 @@ ht-degree: 99%
    + [分](dimensions/minute.md)
    + [モバイルディメンション](dimensions/mobile-dimensions.md)
    + [画面の解像度](dimensions/monitor-resolution.md)
-   + [年間通算月](dimensions/month-of-year.md)
+   + [月](dimensions/month-of-year.md)
    + [月](dimensions/month.md)
    + [オペレーティングシステムの種類](dimensions/operating-system-types.md)
    + [オペレーティングシステム](dimensions/operating-systems.md)
@@ -74,19 +73,19 @@ ht-degree: 99%
    + [エラーページ（404）](dimensions/pages-not-found.md)
    + [有料検索](dimensions/paid-search.md)
    + [永続的な cookie のサポート](dimensions/persistent-cookie-support.md)
-   + [製品](dimensions/product.md)
-   + [Prop](dimensions/prop.md)
+   + [製品            ](dimensions/product.md)
+   + [prop](dimensions/prop.md)
    + [四半期](dimensions/quarter-of-year.md)
    + [四半期](dimensions/quarter.md)
    + [リファラータイプ](dimensions/referrer-type.md)
    + [リファラー](dimensions/referrer.md)
-   + [参照元ドメイン](dimensions/referring-domain.md)
+   + [参照ドメイン](dimensions/referring-domain.md)
    + [地域](dimensions/regions.md)
    + [再来訪頻度](dimensions/return-frequency.md)
    + [検索エンジン](dimensions/search-engine.md)
    + [検索キーワード](dimensions/search-keyword.md)
    + [サーバー](dimensions/server.md)
-   + [単一ページ訪問](dimensions/single-page-visits.md)
+   + [単一ページ訪問数](dimensions/single-page-visits.md)
    + [サイトセクション](dimensions/site-section.md)
    + [イベント前の時間](dimensions/time-prior-to-event.md)
    + [ページでの滞在時間](dimensions/time-spent-on-page.md)
@@ -95,7 +94,7 @@ ht-degree: 99%
    + [トラッキングオプトアウト理由](dimensions/tracking-opt-out-reason.md)
    + [米国 DMA](dimensions/us-dma.md)
    + [米国の州](dimensions/us-states.md)
-   + [訪問の深さ](dimensions/visit-depth.md)
+   + [訪問の深度](dimensions/visit-depth.md)
    + [訪問数](dimensions/visit-number.md)
    + [週](dimensions/week.md)
    + [平日／週末](dimensions/weekday-weekend.md)
@@ -103,7 +102,7 @@ ht-degree: 99%
    + [郵便番号](dimensions/zip-code.md)
 + 指標 {#metrics}
    + [指標の概要](metrics/overview.md)
-   + [平均ページの深さ](metrics/average-page-depth.md)
+   + [平均ページの深度](metrics/average-page-depth.md)
    + [平均訪問別ページビュー数](metrics/average-page-views-per-visit.md)
    + [セッションの平均長さ](metrics/average-session-length.md)
    + [サイトでの平均時間](metrics/average-time-on-site.md)
@@ -133,7 +132,7 @@ ht-degree: 99%
    + [売上高](metrics/revenue.md)
    + [検索](metrics/searches.md)
    + [単一アクセス](metrics/single-access.md)
-   + [単一ページ訪問](metrics/single-page-visits.md)
+   + [単一ページ訪問数](metrics/single-page-visits.md)
    + [訪問別滞在時間](metrics/time-spent-per-visit.md)
    + [訪問者別滞在時間](metrics/time-spent-per-visitor.md)
    + [滞在時間の概要](metrics/time-spent.md)
@@ -200,7 +199,7 @@ ht-degree: 99%
    + [コンテキスト対応セッション](vrs/vrs-mobile-visit-processing.md)
    + [レポート時間処理](vrs/vrs-report-time-processing.md)
    + [VRS FAQ](vrs/vrs-faq.md)
-   + [VRS とグローバル／マルチスイートタギングに関する考慮事項](vrs/vrs-considerations.md)
+   + [VRS とグローバル／マルチスイートタグ付けに関する考慮事項](vrs/vrs-considerations.md)
    + VRS のワークフロー {#vrs-workflow}
       + [仮想レポートスイートのワークフロー](vrs/c-workflow-vrs/vrs-workflow.md)
       + [仮想レポートスイートの作成](vrs/c-workflow-vrs/vrs-create.md)
@@ -235,7 +234,7 @@ ht-degree: 99%
       + [処理時間](classifications/importer/processing-time.md)
       + [トラブルシューティング](classifications/importer/troubleshooting.md)
    + 分類ルールビルダー {#classifications-rulebuilder}
-      + [分類ルールビルダーのワークフロー ](classifications/crb/classification-rule-builder.md)
+      + [分類ルールビルダーのワークフロー](classifications/crb/classification-rule-builder.md)
       + [分類ルールセット](classifications/crb/classification-rule-set.md)
       + [分類ルール](classifications/crb/classification-quickstart-rules.md)
       + [分類ルール - 定義](classifications/crb/classification-rule-definitions.md)
@@ -249,7 +248,7 @@ ht-degree: 99%
    + [サポートされるリアルタイム指標とディメンション](c-real-time-reporting/realtime-metrics.md)
 + マーケティングチャネル {#marketing-channels}
    + [マーケティングチャネル使用の手引き](c-marketing-channels/c-getting-started-mchannel.md)
-   + [マーケティングチャネルとのAttribution IQ](c-marketing-channels/mchannel-best-practices.md)
+   + [Attribution IQ とマーケティングチャネル](c-marketing-channels/mchannel-best-practices.md)
    + [マーケティングチャネルの管理](c-marketing-channels/c-channels.md)
    + [マーケティングチャネルの処理ルール](c-marketing-channels/c-rules.md)
    + [マーケティングチャネルでの分類](c-marketing-channels/classifictions-mchannel.md)
