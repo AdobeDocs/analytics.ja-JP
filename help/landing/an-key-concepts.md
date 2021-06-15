@@ -24,7 +24,7 @@ ht-degree: 97%
 | Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [Data Warehouse ホーム](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 | [Mobile Services ホーム](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors（旧称 Genesis） | サードパーティのアプリケーションから Analytics にトラッキングデータをインポートします。これにより、パフォーマンスに関する一元的なエンドツーエンドの可視性が実現します。2021 年 8 月 1 日（PT）、アドビは Data Connectors 統合を廃止する予定です。 | [Data Connectors ホーム](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | アドビが提供する次世代型の Web サイトタグおよびモバイル SDK の管理機能です。 | [Adobe Experience Platform Launchホーム](https://experienceleague.adobe.com/docs/launch/using/home.html) |
+| Adobe Experience Platform Launch | アドビが提供する次世代型の Web サイトタグおよびモバイル SDK の管理機能です。 | [Adobe Experience Platform Launch ホーム](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## 主要用語 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -55,7 +55,7 @@ ht-degree: 97%
 | 異常値検出 | 以前のデータに関連して特定の指標がどのように変化したかを判定するための統計的手法です。AD は、Analysis Workspace のすべてのトレンドビジュアライゼーションのデフォルトでオンになっています。 | [異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
 | 貢献度分析 | アクセス権を持つすべての指標およびディメンションの自動分析を実行することで、異常値が「なぜ」発生したかを調べます。 | [貢献度分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) |
 | コホート分析 | コホートは、特定の期間にわたって共通の特性を共有する人のグループです。コホート分析は、ユーザーのリテンションと傾向を分析する際に役立ちます。 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) |
-| カスタマージャーニーレポート | サイトまたはアプリケーションでのユーザーの遷移に関する情報を表示します。Analysis Workspace では、この分析に prop、eVar およびイベントを使用できます。 | [Analysis Workspaceフォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports &amp; Analytics パス](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+| カスタマージャーニーレポート | サイトまたはアプリケーションでのユーザーの遷移に関する情報を表示します。Analysis Workspace では、この分析に prop、eVar およびイベントを使用できます。 | [Analysis Workspace フォールアウト](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace フロー](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports &amp; Analytics パス](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | マーケティングチャネル | ユーザーをサイトに誘導する外部チャネルや、コンバージョンに最も効果があるチャネルを確認するのに役立つレポートです。ファーストタッチおよびラストタッチの属性ビューが提供されます。これは、有料チャネルと自然チャネルの両方において最も包括的なビューなので、Adobe Analytics で（キャンペーンやトラフィックソースよりも）推奨される外部トラフィックソースレポートです。 | [マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | モバイル | モバイルデバイスまたはタブレットからアクセスされた Web サイトの情報を表示します。 | [モバイルレポート](/help/components/dimensions/mobile-dimensions.md) |
 | モバイルアプリ | モバイルアプリに関する基本的な使用状況の情報を表示します。これらのレポートは、SDK が導入され、レポートが有効になると使用できます。さらに、Adobe Mobile Services によって、より包括的なアプリデータを提供する個別のモバイルアプリインターフェイスが作成されました。これにより、アプリの利用状況を把握し、改善につなげることができます。[こちらで](https://mobilemarketing.adobe.com)インターフェイスにアクセスできます。 | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
