@@ -8,7 +8,7 @@ exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 * [Experience Cloud 訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)を実装しており、CNAME／ファーストパーティのデータ収集ドメインから `adobedc.net`、`2o7.net` または `omtrdc.net` に移行しています
 
-* cname／ファーストパーティデータコレクション（[ファーストパーティ Cookie）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)への移行。
+* cname／ファーストパーティデータコレクション（[ファーストパーティ Cookie）](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=ja)への移行。
 
 * 別の CNAME に移行するとき（ドメインの変更）。
 
@@ -54,7 +54,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Analytics コードの更新直後：</b>サイトをテストして、以前のデータ収集ドメインへのリダイレクトがおこなわれていることを確認します。 </p> </td> 
-   <td colname="col3"> <p><a href="../implement/validate/packet-monitor.md">パケットモニター</a>を使用して、初めてサイトにアクセスするとき、または Cookie をクリアした後、200（OK）HTTP ステータスコードの前に 2 つの 302（リダイレクト）HTTP ステータスコードが表示されることを確認します。 いずれかのリダイレクトに失敗した場合は、すぐにカスタマーケアに問い合わせて、移行が適切に設定されているかどうか確認してください。 </p> </td> 
+   <td colname="col3"> <p><a href="../implement/validate/packet-monitor.md">パケットモニター</a>を使用して、初めてサイトにアクセスするとき、または Cookie をクリアした後、200（OK）HTTP ステータスコードの前に 2 つの 302（リダイレクト）HTTP ステータスコードが表示されることを確認します。いずれかのリダイレクトに失敗した場合は、すぐにカスタマーケアに問い合わせて、移行が適切に設定されているかどうか確認してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>移行期間全体</b>：前のホスト名の DNS レコードをアクティブに維持します。 </p> </td> 
