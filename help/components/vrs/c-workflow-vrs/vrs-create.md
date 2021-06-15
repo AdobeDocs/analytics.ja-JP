@@ -2,13 +2,13 @@
 description: 仮想レポートスイートの作成を始める前に、以下に注意してください。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートの作成
-feature: Reports & Analytics の基本
+feature: Reports and Analytics の基本
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -58,10 +58,10 @@ ht-degree: 73%
 
 ![](assets/components.png)
 
-1. 「[!UICONTROL コンポーネント]」タブで、Analysis Workspaceのこの仮想レポートスイート用のキュレーションを適用するチェックボックスをオンにします。
-VRSキュレーションについて詳しくは、[仮想レポートスイートコンポーネントのキュレーション](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites)を参照してください。
+1. 「[!UICONTROL コンポーネント]」タブで、Analysis Workspace のこの仮想レポートスイート用のキュレーションを適用するチェックボックスをオンにします。
+VRS キュレーションについて詳しくは、「[仮想レポートスイートコンポーネントのキュレーション](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ja#virtual-report-suites)」を参照してください。
 
-1. VRSに含めるコンポーネント（ディメンション、指標、セグメントまたは日付範囲）を、「[!UICONTROL 含まれるコンポーネント]」セクションにドラッグします。
+1. VRS に含めるコンポーネント（ディメンション、指標、セグメント、または日付範囲）を、[!UICONTROL 含まれるコンポーネント]セクションにドラッグします。
 
 1. 完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -71,4 +71,4 @@ VRSキュレーションについて詳しくは、[仮想レポートスイー�
 
 ## 製品の互換性の表示
 
-仮想レポートスイートの一部の機能は、すべてのAdobe Analytics製品でサポートされているわけではありません。 製品の互換性リストを使用すると、現在の仮想レポートスイートの設定に基づいて、Adobe Analytics内でサポートされている製品を確認できます。
+仮想レポートスイートの一部の機能は一部の Adobe Analytics 製品でのみサポートされています。製品の互換性リストを使用すると、現在の仮想レポートスイートの設定に基づいて、Adobe Analytics 内でサポートされている製品を確認できます。
