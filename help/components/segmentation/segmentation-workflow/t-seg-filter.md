@@ -5,7 +5,7 @@ feature: セグメント化
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
@@ -31,5 +31,5 @@ ht-degree: 100%
    | その他のフィルター／自分が所有 | 自分が所有しているセグメントをすべて表示します。 |
    | その他のフィルター／自分と共有 | 他のユーザーが自分と[共有](/help/components/segmentation/segmentation-workflow/t-seg-share.md)しているセグメントをすべて表示します。 |
    | その他のフィルター／お気に入り |  [お気に入り](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)に登録しているセグメントをすべて表示します。 |
-   | その他のフィルター／承認済み | 正式に       [承認された](/help/components/segmentation/segmentation-workflow/seg-approve.md)セグメントをすべて表示します。 |
+   | その他のフィルター／承認済み | 正式に        [承認された](/help/components/segmentation/segmentation-workflow/seg-approve.md)セグメントをすべて表示します。 |
    | セグメントを検索 | セグメントを名前で検索できます。 |
