@@ -1,11 +1,10 @@
 ---
 title: マーケティングチャネル使用の手引き
 description: マーケティングチャネルのワークフロー、自動セットアップ、および複数のレポートスイートにテンプレートレポートスイート設定を適用する方法について説明します。
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Attribution IQとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるため、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+>Attribution IQ と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 
 マーケティングチャネルは、サイトに訪問者がどのように到達するかを把握するために一般に使われます。追跡するチャネルと追跡する方法に応じて、マーケティングチャネルの処理ルールをカスタマイズできます。
 
