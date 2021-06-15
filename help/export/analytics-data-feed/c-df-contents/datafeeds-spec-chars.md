@@ -3,11 +3,11 @@ description: データフィードで使用される特殊文字に関する情�
 keywords: データフィード、ジョブ、特殊文字、hit_data、複数値の変数、events_list、products_list、mvvars
 subtopic: data feeds
 title: データフィードの特殊文字
-feature: Reports & Analytics の基本
+feature: Reports and Analytics の基本
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
 ht-degree: 100%
 
