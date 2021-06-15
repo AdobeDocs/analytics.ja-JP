@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
-translation-type: tm+mt
 source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +36,7 @@ ht-degree: 99%
       + [セグメント](analysis-workspace/components/t-freeform-project-segment.md)
       + カレンダーと日付範囲 {#calendar-date-ranges}
          + [カレンダーと日付範囲の概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [Analysis Workspace でカスタム日付範囲を作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [カスタム日付範囲の作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日付の比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
    + ビジュアライゼーション {#visualizations}
       + [ビジュアライゼーションの概要](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
@@ -104,7 +103,7 @@ ht-degree: 99%
       + [FAQ](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
-   + Virtual Analyst {#virtual-analyst}
+   + 仮想アナリスト {#virtual-analyst}
       + [仮想アナリストの概要](analysis-workspace/virtual-analyst/overview.md)
       + 異常値検出 {#anomaly-detection}
          + [異常値検出の概要](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
@@ -112,7 +111,7 @@ ht-degree: 99%
          + [異常値検出をオフにする](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
          + [異常値検出で使用される統計的手法](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
       + 貢献度分析 {#contribution-analysis}
-         + [貢献度分析のトークン - 概要](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+         + [貢献度分析のトークンの概要](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
          + [貢献度分析の実行](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
          + [貢献度分析で使用される統計的手法](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
       + インテリジェントアラート {#intelligent-alerts}
@@ -142,8 +141,8 @@ ht-degree: 99%
       + [データリクエスト - リクエストウィザード：ステップ 1](report-builder/data-requests/data-requests.md)
       + [データリクエストの作成](report-builder/data-requests/t-create-a-data-request.md)
       + レポートスイート {#report-suites}
-         + [レポートスイートの選択](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [Excel のセルからのレポートスイートの選択](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [レポートスイートを選択します。](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [レポートスイートを選択します。Excel の既存のリクエストから](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel を使用したレポートスイート ID の調査](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [セグメントの管理](report-builder/data-requests/segmentation.md)
       + [発行リストの上書きの許可](report-builder/data-requests/allow-publishing-list-overrides.md)
@@ -163,7 +162,7 @@ ht-degree: 99%
          + [リクエストウィザードの定義 - 相対日付](report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
          + [リアルタイムレポート](report-builder/data-requests/configuring-report-dates/real-time.md)
          + [リアルタイムリクエストの設定](report-builder/data-requests/configuring-report-dates/t-real-time.md)
-         + 日付式のカスタマイズ {#customized-date-expressions}
+         + カスタマイズされた日付式 {#customized-date-expressions}
             + [カスタマイズされた日付式 - 概要](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
             + [日付の略語](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
             + [開始日または終了日](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
@@ -185,7 +184,7 @@ ht-degree: 99%
          + [顧客属性](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [異常値検出](report-builder/layout/anomaly-detection.md)
       + [異常値検出リクエストの設定](report-builder/layout/t-anomaly.md)
-      + [日付の書式](report-builder/layout/format-the-data.md)
+      + [日付のフォーマット](report-builder/layout/format-the-data.md)
       + [表示ヘッダーのフォーマット](report-builder/layout/t-format-display-headers.md)
       + [ヘッダーの表示または非表示](report-builder/layout/hide-or-show-headers.md)
       + [出力マッピングの削除](report-builder/layout/delete-output-mapping.md)
@@ -231,7 +230,7 @@ ht-degree: 99%
       + [ワークブックのロック／ロック解除](report-builder/workbook-library/protect-wb.md)
       + [マクロが有効なワークブックのスケジュール](report-builder/workbook-library/schedule-macro-wb.md)
    + Report Builder 5.5 での Power BI への発行 {#publish-powerbi}
-      + [ Power BI への発行 - 概要](report-builder/c-publish-power-bi/power-bi.md)
+      + [Power BI への発行 - 概要](report-builder/c-publish-power-bi/power-bi.md)
       + [制限および仕様](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Power BI への手動データインポート](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [Power BI Desktop への発行済みアセットの取り込み](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
@@ -246,7 +245,7 @@ ht-degree: 99%
    + はじめに {#getting-started}
       + はじめに（管理者向け） {#get-started-admins}
          + [Activity Map の有効化](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Activity Mapの実装](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [Activity Map の実装](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + はじめに（ユーザー向け） {#get-started-users}
          + [Activity Map ブラウザープラグインのインストール](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Activity Map の起動](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
@@ -262,7 +261,7 @@ ht-degree: 99%
    + [ページの詳細](activity-map/activitymap-page-flow.md)
    + [完全な指標セット](activity-map/activitymap-complete-metrics.md)
    + [リアルタイム（ライブ）ページ分析](activity-map/activitymap-realtime.md)
-   + [顧客セグメント](activity-map/activitymap-multiple-segments.md)
+   + [顧客のセグメント化](activity-map/activitymap-multiple-segments.md)
    + [カスタマイズ可能なオーバーレイ](activity-map/activitymap-gainerslosers.md)
    + [オーバーレイの詳細](activity-map/activitymap-overlay-details.md)
    + [CSV ファイルへの書き出し](activity-map/activitymap-csv.md)
@@ -280,7 +279,7 @@ ht-degree: 99%
    + レポートインターフェイスの概要 {#reporting-interface}
       + [データ収集について](reports-analytics/overview/overview-data-collection.md)
       + [レポートメニュー](reports-analytics/overview/reports-menu.md)
-      + [レポートの各機能](reports-analytics/overview/report-overview.md)
+      + [レポートの機能](reports-analytics/overview/report-overview.md)
       + [一般用語](reports-analytics/overview/overview-common-terms.md)
       + [iOS 版 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [レポートの表示設定とナビゲーション](reports-analytics/report-settings.md)
