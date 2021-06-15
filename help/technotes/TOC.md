@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の分析ツールやコンポーネントに属さない有益な記事を含むナレッジベース。
-translation-type: tm+mt
 source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +40,13 @@ ht-degree: 84%
    + [インテリジェントデータスムージング](event/intelligent-data-smoothing.md)
 + Cookie {#cookies}
    + [ブラウザーの cookie](cookies/cookies.md)
-   + [ブラウザーのCookie制限の影響を軽減するオプション](cookies/cookieless.md)
+   + [ブラウザーの cookie 制限の影響を軽減するオプション](cookies/cookieless.md)
 + [リスニングデータの保持期間](data-retention.md)
 + [データの除外](exclude-data.md)
-+ [Adobe Analyticsが使用するIPとドメイン](ip-addresses.md)
++ [Adobe Analytics が使用する IP とドメイン](ip-addresses.md)
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)
-+ [Mobile Servicesの処理ルールのAdobe Analyticsへの移行](migrate-mobile.md)
++ [Mobile Services の処理ルールの Adobe Analytics への移行](migrate-mobile.md)
 + [複数通貨のサポート](multicurrency.md)
 + [プライバシーの概要](privacy-overview.md)
 + [リダイレクトとエイリアス](redirects.md)
