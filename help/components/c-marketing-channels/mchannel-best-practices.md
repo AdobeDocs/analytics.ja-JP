@@ -1,55 +1,54 @@
 ---
-title: Adobe Analyticsマーケティングチャネルの実装のベストプラクティス
-description: マーケティングチャネルとAttribution IQおよびCustomer Journey Analyticsを使用するためのベストプラクティスの更新
-translation-type: tm+mt
-source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
+title: Adobe Analytics マーケティングチャネルの実装のベストプラクティス
+description: マーケティングチャネルでの Attribution IQ と Customer Journey Analytics の使用に関するベストプラクティスの更新
+source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 3%
+source-wordcount: '645'
+ht-degree: 91%
 
 ---
 
 
-# マーケティングチャネルを使用したAttribution IQ — ベストプラクティス
+# Attribution IQ とマーケティングチャネル — ベストプラクティス
 
-[マーケティング](/help/components/c-marketing-channels/c-getting-started-mchannel.md) チャネルはAdobe Analyticsの貴重で強力な機能です。マーケティングチャネルの導入に関する現在のガイダンスは、[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)も[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ja#cja-usecases)も存在しない時に策定されました。
+[マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)は、Adobe Analytics の貴重で強力な機能です。マーケティングチャネルの実装に関する現在のガイダンスは、[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ja#analysis-workspace) も [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ja#cja-usecases) も存在しなかったときに作成されています。
 
-マーケティングチャネルの導入を将来的に配達確認し、Attribution IQおよびCustomer Journey Analyticsとのレポートの一貫性を確保するために、アドビでは、一連の更新されたベストプラクティスを発行しています。 既にマーケティングチャネルを使用している場合は、これらの新しいガイドラインの中から最適なオプションを選択できます。 マーケティングチャネルを初めて使用する場合は、すべての新しいベストプラクティスに従うことをお勧めします。
+マーケティングチャネルの実装を将来的に実証し、Attribution IQ や Customer Journey Analytics との一貫性をレポートに確実に保つために、一連の更新されたベストプラクティスを発行しています。既にマーケティングチャネルを使用している場合は、これらの新しいガイドラインの中から最適なオプションを選択できます。マーケティングチャネルを初めて使用する場合は、すべての新しいベストプラクティスに従うことをお勧めします。
 
-マーケティングチャネルが初めて導入されたとき、ファーストタッチとラストタッチのディメンションのみが導入されました。 現在のバージョンのアトリビューションでは、明示的なファーストタッチディメンションとラストタッチディメンションは不要になりました。Adobeは、汎用の「マーケティングチャネル」ディメンションと「マーケティングチャネルの詳細」ディメンションを提供し、それらを目的のアトリビューションモデルで使用できます。 これらの汎用ディメンションは、ラストタッチチャネルのディメンションと同じように動作しますが、異なるアトリビューションモデルでマーケティングチャネルを使用する場合の混乱を防ぐため、異なるラベルが付けられます。
+マーケティングチャネルが初めて導入された際にあったディメンションはファーストタッチとラストタッチのみでした。現在のバージョンのアトリビューションでは、明示的なファーストタッチディメンションとラストタッチディメンションは不要になりました。アドビでは、汎用の「マーケティングチャネル」ディメンションと「マーケティングチャネルの詳細」ディメンションを提供し、それらを目的のアトリビューションモデルで使用できるようにしています。これらの汎用ディメンションは、「ラストタッチチャネル」ディメンションと同じように動作しますが、異なるアトリビューションモデルでマーケティングチャネルを使用する場合の混乱を防ぐために、異なるラベルが付けられます。
 
-マーケティングチャネルのディメンションは、（処理ルールで定義された）従来の訪問の定義に依存するので、仮想レポートスイートを使用して訪問の定義を変更することはできません。 これらの修正により、Attribution IQとCJAを使用した、明確で制御されたルックバックウィンドウが可能になります。
+マーケティングチャネルのディメンションは、（処理ルールで定義された）従来の訪問の定義に依存するので、仮想レポートスイートを使用して訪問の定義を変更することはできません。これらの改訂されたプラクティスにより、Attribution IQ と CJA を使用した、明確で制御可能なルックバックウィンドウが可能になります。
 
-## ベストプラクティス1:制御された分析にAttribution IQを活用
+## ベストプラクティス #1：Attribution IQ を制御分析に活用
 
-マーケティングチャネルの分析を微調整するには、既存のマーケティングチャネルの属性の代わりに[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)を使用することをお勧めします。 他のベストプラクティスに従って、Attribution IQを使用した分析に対して一貫性と堅牢な制御を確保します。
+マーケティングチャネル分析を微調整するには、既存のマーケティングチャネルアトリビューションの代わりに [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) を使用することをお勧めします。他のベストプラクティスに従って、Attribution IQ を使用した分析との一貫性と堅牢な制御を確保します。
 
 ![](assets/attribution.png)
 
-* マーケティングチャネルとマーケティングチャネルの詳細のディメンションの設定によって、各マーケティングチャネルインスタンスに対応して、評価されるタッチポイントが設定されます。
-* 指標の分析の場合、組織は1つ以上のアトリビューションモデルに合わせる必要があります。再利用しやすいように、カスタム指標をこのモデルと共に保存します。
-* デフォルトでは、データはラストタッチと「訪問者のエンゲージメント期間」の設定を使用して割り当てられます。 Attribution IQ指標モデルオファーは、ルックバックウィンドウや、[アルゴリズムアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace)など、より多様なアトリビューションをより詳細に制御できます。
+* 「マーケティングチャネル」と「マーケティングチャネルの詳細」ディメンションの設定により、各マーケティングチャネルインスタンスに対応して、評価されるタッチポイントが設定されます。
+* 指標分析の場合、組織は 1 つ以上のアトリビューションモデルに合わせる必要があります。再利用しやすいように、カスタム指標をこのモデルと共に保存します。
+* デフォルトでは、データはラストタッチと訪問者エンゲージメント期間の設定を使用して割り当てられます。Attribution IQ 指標モデルは、ルックバックウィンドウの制御を強化し、[アルゴリズムのアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja#analysis-workspace)を含む多様性を提供します。
 
-## ベストプラクティス2:直接およびセッション更新チャネルの定義がない
+## ベストプラクティス #2：「直接」および「セッション更新」チャネル定義がない
 
-直接アトリビューションモデル(Attribution IQ)および内部/セッションの更新チャネルは、カスタムアトリビューションモデル（データ）で使用する場合はお勧めしません。
+「直接」および「内部／セッション更新」チャネルをカスタムアトリビューションモデル（Attribution IQ）で使用することはお勧めしません。
 
-組織で、直接およびセッションの更新が既に設定されている場合はどうなりますか？ この場合、マーケティングチャネルの分類を作成し、これら2つのチャネルを未分類のままにすることをお勧めします。 分類されたディメンションは、これらのチャネルが設定されていない場合と同じAttribution IQ結果を得ます。
+組織で「直接」および「セッション更新」が既に設定されている場合は、この場合、ファーストタッチ/ラストタッチの分類[を作成し、直接チャネルとセッション更新チャネルを未分類のままにすることをお勧めします。 ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en)分類されたディメンションは、これらのチャネルが設定されていない場合と同じ Attribution IQ 結果を生成します。
 
 ![](assets/direct-session-refresh.png)
 
-## ベストプラクティス#3:すべてのチャネルに対してラストタッチチャネルの上書きを有効にする
+## ベストプラクティス #3：すべてのチャネルに対してラストタッチチャネルの上書きを有効にする
 
-Workspaceのマーケティングチャネルディメンションで使用されるカスタムアトリビューションモデルは、この設定が有効な場合に最も適しています。 この設定を有効にすると、新しいチャネル/詳細を検出した場合に、マーケティングチャネルインスタンスがカウントされます。 これは、直接または内部/セッションの更新を除くすべてのチャネルで有効にする必要があります。これは、カスタムアトリビューションモデル(Attribution IQ)では使用しないことをお勧めします。
+Workspace のマーケティングチャネルディメンションで使用されるカスタムアトリビューションモデルは、この設定が有効な場合に最も適しています。この設定を有効にすると、新しいチャネル／詳細が見つかった場合にマーケティングチャネルインスタンスがカウントされます。「直接」と「内部／セッション更新」を除くすべてのチャネルに対してこの機能を有効にする必要があります。この 2 つをカスタムアトリビューションモデル（Attribution IQ）で使用することは推奨されなくなっています。
 
 ![](assets/override.png)
 
-## ベストプラクティス#4:訪問者関与期間の最小化
+## ベストプラクティス #4：訪問者エンゲージメント期間の最小化
 
-訪問者のエンゲージメント期間を「1日」以上に設定すると、値が永続的になる可能性が最小限に抑えられます。 カスタムアトリビューションモデル(AIQ)では柔軟なルックバックウィンドウが可能なので、この設定の影響を最小限に抑えるために、最小値を設定することをお勧めします。
+訪問者エンゲージメント期間を最小である「1 日」に設定すると、値が持続する可能性を最小限に抑えることができます。カスタムアトリビューションモデル（AIQ）では柔軟なルックバックウィンドウを許可するので、この設定の影響を最小限に抑えるために、最小値を設定することをお勧めします。
 
 ![](assets/expiration.png)
 
-## ベストプラクティス5:マーケティングチャネル処理ルールは、有効なチャネルに対してのみ存在する必要があります
+## ベストプラクティス #5：マーケティングチャネルの処理ルールは有効なチャネルに対してのみ存在する
 
-無効なチャネルに対するマーケティングチャネルの処理ルールは削除してください。 ルールは、有効に設定されているマーケティングチャネルに対してのみ存在する必要があります。
+無効なチャネルに対するマーケティングチャネルの処理ルールをすべて削除してください。ルールは、有効として確認されているマーケティングチャネルに対してのみ存在する必要があります。
