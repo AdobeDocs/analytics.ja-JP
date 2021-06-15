@@ -2,11 +2,10 @@
 description: （オプション）分類をマーケティングレポートにインポートする前に、分類データファイルの作成に役立つテンプレートをダウンロードできます。データファイルでは、必要な分類を列見出しとして使用し、レポートデータセットを適切な分類見出しの下に整理します。
 subtopic: Classifications
 title: 分類テンプレート
-feature: Admin Tools
+feature: 管理ツール
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
 ht-degree: 100%
 
@@ -38,7 +37,7 @@ ht-degree: 100%
 
 データファイルの構造について詳しくは、[分類データファイルについて](/help/components/classifications/importer/c-saint-data-files.md)を参照してください。
 
-## 分類データテンプレートのダウンロード（オプション） {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
+## 分類データテンプレートのダウンロード（オプション）  {#task_8DFCF309B6FD43ABB1D6FEE9AFAEC596}
 
 このテンプレートは、分類に関して従う必要があるファイル形式を提供します。
 
