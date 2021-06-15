@@ -29,4 +29,4 @@ Activity Map（旧称 ClickMap）から提供されるユーザーアクティ�
    | Activity Map リンク | Web サイト全体で収集されたすべてのリンクのリストを表示します。 |
    | Activity Map リンクと地域 | Web サイト全体で収集されたすべてのリンクのリストを、その領域と共に表示します。 |
 
-レポートにデータが入力されるようにするには、[Activity Mapのドキュメント](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)を参照して、導入手順をご確認ください。
+レポートにデータが入力されるようにするには、[Activity Map のドキュメント](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)を参照して、導入手順をご確認ください。
