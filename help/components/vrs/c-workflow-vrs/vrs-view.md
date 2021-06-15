@@ -2,11 +2,11 @@
 description: 情報を表示するには、レポートスイート名の横にある「i」（情報）アイコンをクリックします。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートの情報の表示
-feature: Reports & Analytics の基本
+feature: Reports and Analytics の基本
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
 ht-degree: 100%
 
