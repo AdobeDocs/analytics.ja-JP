@@ -8,7 +8,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '8283'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -435,7 +435,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
    <td colname="col2"> <p>カスタムテンプレートの最新リリースで、次のアップデートをおこないました。 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">テンプレートの編集モードとプロジェクトの開始時点でのテンプレートの使用を区別しやすくするため、プロジェクトの上部（タイトル付近）にテンプレートアイコンを追加しました。 </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Analysis Workspace でプロジェクトを作成／キュレーション権限が与えられている場合に、管理権限なしで Workspace プロジェクトテンプレートの作成（別名保存）と編集をおこなえるようになりました( <span class="ignoretag"> <span class="uicontrol">管理者</span> &gt; <span class="uicontrol">すべての管理者</span> / <span class="uicontrol">ユーザー管理</span> / <span class="uicontrol">グループ</span> / <span class="uicontrol">全レポートアクセスの編集</span> / <span class="uicontrol"> Analyticsツールのカスタマイズ</span> / <span class="uicontrol"> Analysis Workspaceでプロジェクトを作成/キュレーション(</span> </span>)。 </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Analysis Workspace でプロジェクトを作成／キュレーション権限が与えられている場合に、管理権限なしで Workspace プロジェクトテンプレートの作成（別名保存）と編集をおこなえるようになりました（<span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">すべての管理者</span>／<span class="uicontrol">User Management</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスを編集</span>／<span class="uicontrol">Analytics ツールをカスタマイズ</span>／<span class="uicontrol">Analysis Workspace でプロジェクトを作成／キュレーション</span></span>）。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -478,7 +478,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
    <td colname="col2"> <p>「カスタム」制限を選択した場合を除き、フリーフォームテーブルに適用した条件付き書式（色など）が分類で自動的に有効となります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>デフォルトの<a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > カレンダー</a>ビューの変更 </p> </td> 
+   <td colname="col1"> <p>デフォルトの<a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >カレンダー</a>ビューの変更 </p> </td> 
    <td colname="col2"> <p>Workspace カレンダーには、デフォルトで当月と翌月ではなく当月と前月が表示されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -501,7 +501,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>フリーフォームテーブルの他のディメンション項目の<a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > フィルタリングオプション</a> </p> </td> 
+   <td colname="col1"> <p>フリーフォームテーブルの他のディメンション項目の<a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  >フィルタリングオプション</a> </p> </td> 
    <td colname="col2"> <p>（既存の「次を含む」および「次を含まない」オプションに加えて）ディメンション項目用に次の（詳細）フィルタリングオプションが追加されました。 </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">すべての語句を含む </li> 
@@ -516,7 +516,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>  パネルやプロジェクトをまたがった<a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  > ビジュアライゼーション／パネルのコピー＆ペースト</a> </p> </td> 
+   <td colname="col1"> <p>  パネルやプロジェクトをまたがった<a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  >ビジュアライゼーション／パネルのコピー＆ペースト</a> </p> </td> 
    <td colname="col2"> <p>ビジュアライゼーションまたはパネルを右クリックしてコピーし、コピーした要素をプロジェクト内の別の場所、または別のプロジェクトに貼り付ける（「挿入する」）ことができるようになりました。 </p> <p>この機能を使用すると、ビジネスに固有のデータで「構築ブロック」（定義済みのビジュアライゼーション／パネル）を作成し、他のプロジェクトにコピーして作業を迅速化できます。 </p> </td> 
   </tr> 
   <tr> 
@@ -536,7 +536,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
    <td colname="col2"> <p>1 つのテーブルに 400 行を表示できるようになり（変更前は 200 行）、365 日間のトレンドに対応するようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>  PDF での<a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップビジュアライゼーション</a>のサポート </p> </td> 
+   <td colname="col1"> <p>  PDF での<a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  >マップビジュアライゼーション</a>のサポート </p> </td> 
    <td colname="col2"> <p>2017 年 10 月に導入されたマップビジュアライゼーションを、PDF でも表示できるようになりました。 </p> </td> 
   </tr> 
   <tr> 
@@ -545,7 +545,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢献度分析：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > トークン通知 </a> </p> </td> 
-   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。  </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、 <span class="uicontrol"> Analytics </span> / <span class="uicontrol">管理者</span> / <span class="uicontrol">すべての管理者</span> / <span class="uicontrol">ユーザー管理</span> <span class="uicontrol">グループを編集</span> / <span class="uicontrol">レポートをすべて編集では「異常値検出と貢献度分析」と呼ばれます。</span> / <span class="uicontrol">レポートスイートツールのカスタマイズ</span> / <span class="uicontrol">ツールとレポート</span>にアクセスします。 )  </p> </td> 
+   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。&amp;nbsp; </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">すべての管理者</span>／<span class="uicontrol">User Management</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">すべてのレポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>マルチバイト文字を含む CSV ファイル </p> </td> 
@@ -595,7 +595,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップのビジュアライゼーション </a> </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。  </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > トレンドビジュアライゼーションの精度セレクター </a> </p> </td> 
@@ -845,7 +845,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/components/c-alerts/alert-manager.md"  > アラートマネージャー </a></b>機能の強化 </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/components/c-alerts/alert-manager.md"  >アラートマネージャー</a></b>機能の強化 </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">アラートを有効／無効にする機能が追加されました。 </li> 
@@ -854,7 +854,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>新しい<b><a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > ホットキー</a></b> </p> </td> 
+   <td colname="col1"> <p>新しい<b><a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  >ホットキー</a></b> </p> </td> 
    <td colname="col2"> <p>以下のホットキーが追加されました。 </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">Alt + Shift + 1 = パネルウィンドウに移動。 </li> 
@@ -883,7 +883,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
   </tr> 
   <tr> 
    <td colname="col1"> <p>「元に戻す」／「やり直し」オプションの強化 </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace で元に戻す／やり直すことができる操作とできない操作については、 こちらのリスト</a>に示されています。 </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace で元に戻す／やり直すことができる操作とできない操作については、  こちらのリスト</a>に示されています。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1181,7 +1181,7 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 ![](assets/add-new-segment.png)
 
-この強化は、[!UICONTROL セグメント]パネルを使用してセグメントを作成するよりも、プロジェクトでの作業中に直接セグメントを作成したい場合に便利です。
+この強化機能は、[!UICONTROL セグメント]パネルを使用してセグメントを作成するよりも、プロジェクトでの作業中に直接セグメントを作成したい場合に便利です。
 
 ## 条件付き書式 {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
@@ -1249,4 +1249,4 @@ Analysis Workspace セグメントビルダーで既存の（保存した）セ�
 
 管理者は、あるユーザーから別のユーザーに [!UICONTROL Analysis Workspace] プロジェクトを転送できます。
 
-**[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL ユーザー管理]** / **[!UICONTROL 転送]**&#x200B;に移動して、プロジェクトを転送します。
+プロジェクトを転送するには、**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL User Management]**／**[!UICONTROL 転送]**&#x200B;を選択します。
