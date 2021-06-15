@@ -3,9 +3,9 @@ title: getQueryParam
 description: URL のクエリー文字列パラメーターの値を抽出します。
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -184,14 +184,14 @@ s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 
 ## バージョン履歴
 
-### 4.0.1（2021年3月27日）
+### 4.0.1（2021 年 3 月 26 日（PT））
 
-* クエリーパラメーターがクエリー文字列に存在しない場合、「」の代わりにundefinedが返される問題を更新しました。
+* クエリーパラメーターがクエリー文字列に存在しない場合、「」の代わりに undefined が返される問題を更新しました。
 
 ### 4.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
-* ptプラグインに対する依存関係を削除しました。
+* pt プラグインへの依存関係を削除しました 。
 
 ### 3.3（2019 年 9 月 24 日（PT））
 
