@@ -105,7 +105,7 @@ Experience Cloud に公開されているセグメントを削除するには、
 **方法 2：Chrome Developer Tools（または他のブラウザー開発者ツール）を使用する**
 
 1. ページを読み込む前に Chrome Developer Tools を起動します。
-1. ページを読み込み、アプリケーション／Cookie を確認します。AAM UUID は、サードパーティ Demdex cookie（下の例では [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) に設定する必要があります）。demdex フィールドは、ブラウザー上の AAM UUID 設定です（以下の例は `50814298273775797762943354787774730612`）。
+1. ページを読み込み、アプリケーション／Cookie を確認します。AAM UUID は、サードパーティ Demdex cookie（下の例では [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) に設定する必要があります）。demdex フィールドは、ブラウザー上の AAM UUID 設定です（以下の例は `50814298273775797762943354787774730612`）。
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
