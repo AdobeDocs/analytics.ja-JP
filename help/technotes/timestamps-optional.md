@@ -5,10 +5,10 @@ title: タイムスタンプオプションの使用
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 97%
+source-wordcount: '608'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 97%
 
    順番が正しくないデータには、オフラインデータ収集からの到着が遅れたデータおよび到着が遅れたヒット、またはオフラインモバイルデバイスの同期していないクロックが含まれている可能性があります。順番が正しくないデータは、時間の計算（滞在時間値など）、属性（eVar の持続性）、訪問回数／訪問のカウントおよびパスレポートに悪影響を与える可能性があります。
 
-* [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) が設定されている場合のタイムスタンプの使用は、推奨されません。データの順番がばらばらになる可能性があります。
+* [s.visitorID](/help/implement/vars/config-vars/visitorid.md) が設定されている場合のタイムスタンプの使用は、推奨されません。データの順番がばらばらになる可能性があります。
 
 * アプリ（タイムスタンプ対応、オフラインデータ）から成るハイブリッドアプリで Web ブラウザー（タイムスタンプ非対応、ライブデータ）を開く場合、タイムスタンプを使用しないでください。セッションのレポーティングが不正確になります。
 
