@@ -2,13 +2,12 @@
 description: Analysis Workspace のデータテーブル、セグメントおよび使用例のアイデアの使い方の例です。
 keywords: Analysis Workspace
 title: Analysis Workspace の使用例
-feature: Reports & Analyticsの基本事項
+feature: Reports and Analytics の基本
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
