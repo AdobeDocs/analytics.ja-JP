@@ -5,7 +5,7 @@ exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: 4460850971fe822ff8a0ebf3e3269d0e573fa1db
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Adobe Analytics では、次のホストを使用して、パフォーマンス�
 | Microsoft Azure Blob ストレージ | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## すべてのAdobe Analyticsデータ収集IPアドレスブロック
+## すべての Adobe Analytics データ収集 IP アドレスブロック
 
-次の表に、Adobe Analytics のすべての標準データ収集サーバーと、地域データ収集サーバーを示します。 個々の AWS ホストは含まれません。
+次の表に、Adobe Analytics のすべての標準データ収集サーバーと、地域データ収集サーバーを示します。個々の AWS ホストは含まれません。
 
 | IP ブロック（CIDR 表記） |
 | --- |
