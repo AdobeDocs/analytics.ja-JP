@@ -2,11 +2,11 @@
 description: 仮想レポートスイートの実装を計画するために必要な手順の概要です。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートのワークフロー
-feature: Reports & Analytics の基本
+feature: Reports and Analytics の基本
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
