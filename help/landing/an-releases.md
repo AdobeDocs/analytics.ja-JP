@@ -5,7 +5,7 @@ exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -40,4 +40,4 @@ ht-degree: 92%
 | 質問 | 回答 |
 |---|---|
 | 機能への早期アクセスをリクエストできますか？ | いいえ。早期アクセスは許可されません。<br>Analytics の初期の概念をテストする場合は、[Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) で業界をリードする革新的なアイデアに対するフィードバックを提供してみることをお勧めします 。 |
-| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analyticsパッケージの詳細は、 [!UICONTROL 管理者] / [!UICONTROL すべての管理者] / [!UICONTROL カンパニー設定] / [機能アクセスレベル](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html)で表示できます。 |
+| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analytics パッケージの表示の詳細は、[!UICONTROL 管理者]／[!UICONTROL すべての管理者]／[!UICONTROL 会社設定]／[機能アクセスレベル](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html)で確認できます。 |
