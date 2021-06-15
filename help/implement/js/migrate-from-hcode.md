@@ -3,9 +3,9 @@ title: JavaScript 版 AppMeasurement への移行
 description: H コードから実装を移行するために必要な事項を決定します。
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ H コードと比較した場合、AppMeasurement には次の注目すべき変
 
 次の手順は、一般的な移行ワークフローを示しています。
 
-1. **新しいAppMeasurementファイルをダウンロードします**。Adobe Analyticsにログインし、管理者/すべての管理者/コードマネージャーに移動して、新しいファイルにアクセスします。ダウンロードした圧縮ファイルには、`AppMeasurement.js` 縮小ファイルと、メディアモジュールおよび統合モジュールが含まれています。
+1. **新しい AppMeasurement ファイルをダウンロードします**：Adobe Analytics にログインし、管理者／すべての管理者／Code Manager の順に移動して、新しいファイルにアクセスします。ダウンロードした圧縮ファイルには、`AppMeasurement.js` 縮小ファイルと、メディアモジュールおよび統合モジュールが含まれています。
 1. **`s_code.js` のカスタマイズを`AppMeasurement.js`** にコピーします：`s_code.js` で `DO NOT ALTER ANYTHING BELOW THIS LINE` セクションの前にあるすべてのコードを `AppMeasurement.js` の先頭に移動します。
 1. **すべてのプラグインを更新します**：`s_code.js` ファイルに一覧表示されているプラグインのそれぞれが最新バージョンを使用していることを確認します。これにはメディアモジュールと統合モジュールが含まれます。
 1. **AppMeasurement.js ファイルをデプロイします**：`AppMeasurement.js` ファイルを Web サーバーにアップロードします。
