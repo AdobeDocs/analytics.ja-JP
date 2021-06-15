@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: ページの読み込みにかかる時間を追跡します。
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: c814c023fe909b5e78d6dd46de8c27213a4d92be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,9 +93,9 @@ if(s._pltPreviousPage)
 
 ## バージョン履歴
 
-### 2.0.1（2021年3月27日）
+### 2.0.1（2021 年 3 月 26 日（PT））
 
-* プラグインがsオブジェクトの値を正しく設定できない問題を修正しました。
+* プラグインが s オブジェクトの値を正しく設定できない問題を修正しました。
 
 ### 2.0（2021 年 3 月 19 日（PT））
 
