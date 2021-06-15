@@ -7,7 +7,7 @@ exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
 
 * レポート時間処理が有効な場合、一部のコンポーネントはサポートされません。完全なリストについては、[レポート時間処理](/help/components/vrs/vrs-report-time-processing.md)を参照してください。
 
-## コンポーネント/すべてのコンポーネント/レポート設定
+## コンポーネント／すべてのコンポーネント／レポート設定
 
 * 「[!UICONTROL レポート設定]」ページの一部の設定は適用されません。Analysis Workspace では、一番下の「[!UICONTROL 言語 / 通貨 / エンコード]」設定（[!UICONTROL 千単位区切り文字]、[!UICONTROL 予定レポートのエンコード]、[!UICONTROL CSV 区切り文字]）のみが使用されます。
 
