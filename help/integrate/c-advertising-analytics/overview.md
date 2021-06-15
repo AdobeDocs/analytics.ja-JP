@@ -5,13 +5,13 @@ exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
 # Advertising Analytics のガイド
 
-Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud （AMO）または Google／Bing で表示する必要がありました。Adobe Analytics内で次のデータが取得されます。インプレッション数、クリック数、検索エンジンから直接データを取得し、AMO IDインスタンス（クリックインスタンス）を取得します。 2019年9月にGoogleがこれらの指標を廃止したので、品質スコアと平均順位は収集されなくなります。
+Advertising Analytics を使用すると、すべての Google および Bing 有料検索データを Adobe Analytics 内で並べて表示できます。以前は、Google AdWords／DFA または Microsoft Bing Ads のデータは、いずれも Adobe Advertising Cloud （AMO）または Google／Bing で表示する必要がありました。Adobe Analytics 内で、インプレッション数、クリック数、コストデータを、検索エンジンおよび AMO ID インスタンス（クリックインスタンス）から直接取得できるようになりました。「品質スコア」と「平均順位」指標は 2019 年 9 月に Google によって廃止されたため、収集されなくなります。
 
 >[!NOTE]
 >
@@ -56,14 +56,14 @@ Analytics には、Analytics 管理者に自動で付与される 2 つの権限
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 管理 </p> </td> 
    <td colname="col2"> <p>ユーザーは Advertising 検索アカウントを設定／編集／表示できます。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理者</span> / <span class="uicontrol"> すべての管理者/ </span>   <span class="uicontrol"> ユーザー管理</span> / <span class="uicontrol"> グループ</span> / <span class="uicontrol"> 全レポートアクセスの編集</span> / <span class="uicontrol"> Analyticsツールのカスタマイズ</span> / <span class="uicontrol"> Advertising Analytics管理</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">すべての管理者</span>／<span class="uicontrol">User Management</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスの編集</span>／<span class="uicontrol">Analytics ツールのカスタマイズ</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Adminconsole.adobe.com にログイン</span>／<span class="uicontrol">製品</span>／<span class="uicontrol">製品プロファイル</span>／<span class="uicontrol">「権限設定」タブ</span>／<span class="uicontrol">Analytics ツール</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 設定 </p> </td> 
    <td colname="col2"> <p>ユーザーは、Advertising Analytics 用にプロビジョニングするレポートスイートを設定できます。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理者</span> / <span class="uicontrol"> すべての管理者/ </span>   <span class="uicontrol"> ユーザー管理</span> / <span class="uicontrol"> グループ</span> / <span class="uicontrol"> 全レポートアクセスの編集</span> / <span class="uicontrol"> レポートスイートツールのカスタマイズ</span> / <span class="uicontrol"> Advertising Analytics設定</span></span> </td> 
-   <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Adminconsole.adobe.com にログイン</span>／<span class="uicontrol">製品</span>／<span class="uicontrol">製品プロファイル</span>／<span class="uicontrol">「権限設定」タブ</span>／<span class="uicontrol">レポートスイートツール</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol">管理者</span>／<span class="uicontrol">すべての管理者</span>／<span class="uicontrol">User Management</span>／<span class="uicontrol">グループ</span>／<span class="uicontrol">すべてのレポートアクセスの編集</span>／<span class="uicontrol">レポートスイートツールのカスタマイズ</span>／<span class="uicontrol">Advertising Analytics 設定</span></span> </td> 
+   <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Adminconsole.adobe.com にログイン</span>／<span class="uicontrol">製品</span>／<span class="uicontrol">製品プロファイル</span>／<span class="uicontrol">「権限」タブ</span>／<span class="uicontrol">レポートスイートツール</span>／<span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
   </tr> 
  </tbody> 
 </table>
