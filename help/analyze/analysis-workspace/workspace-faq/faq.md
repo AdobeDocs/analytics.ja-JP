@@ -7,7 +7,7 @@ exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 | 質問 | 回答 |
 |--- |--- |
-| Analysis Workspace を使用するための前提条件を教えてください。 | [Adobe Experience Platform Launch を使用して Adobe Analytics にデータを送信する](/help/implement/launch/validate-publish-prod.md)：Analysis Workspace を使用するには、動作する実装が必要です。ツールを使用する前に、組織がアドビにデータを送信していることを確認します。レガシーの手動実装など、他の実装も同様に機能します。 |
+| Analysis Workspace を使用するための前提条件を教えてください。 | [Adobe Experience Platform Launch を使用して Adobe Analytics にデータを送信する](/help/implement/launch/validate-publish-prod.md)：Analysis Workspace を使用するには、動作する実装が必要です。ツールを使用する前に、組織がアドビにデータを送信していることを確認します。レガシーの手動による実装など、他の実装も同様に機能できます。 |
 | Analysis Workspace の管理およびアクセスの要件を教えてください。 |  [管理要件](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)を参照してください。 |
 | Analysis Workspace を使用するとデータ収集に影響が出ますか。 | Analysis Workspace はレポート作成ツールなので、データ収集には影響しません。何が機能するかを確認するためにコンポーネントをプロジェクトに適当にドラッグしても、データに影響はありません。様々なディメンションと指標の組み合わせをワークスペースプロジェクトにドラッグして、利用可能な項目を確認してください。無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 新規]*&#x200B;をクリックして、新しいスレートから始めることもできます。 |
 | Analysis Workspace プロジェクトには、レポートスイートはいくつ表示できますか。 | [複数のレポートスイート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)のデータを使用して、Analysis Workspace でプロジェクトを作成できるようになりました。 |
