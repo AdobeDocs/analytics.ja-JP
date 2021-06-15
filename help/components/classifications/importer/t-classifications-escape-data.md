@@ -6,7 +6,7 @@ feature: 管理ツール
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
 ht-degree: 100%
 
