@@ -5,7 +5,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 81%
+ht-degree: 95%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->Attribution IQとCustomer Journey Analyticsに対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
+>Attribution IQ と Customer Journey Analytics に対するマーケティングチャネルの効果を最大限に高めるために、[改訂されたベストプラクティス](/help/components/c-marketing-channels/mchannel-best-practices.md)を公開しました。
 
 ターゲットの精度を上げ、マーケティング収益を増加できるよう、最も効果的なマーケティングチャネルとそのユーザーを知りたい場合があります。Adobe Analytics では、Workspace のマーケティングチャネルディメンションとマーケティング指標は、様々なチャネルが注文件数や売上高などに与える影響を追跡し、有益なチャネルに関するインサイトを提供するツールです。マーケティングチャネルに使用できるディメンションと指標は次のとおりです。
 
@@ -57,7 +57,7 @@ ht-degree: 81%
 
 ## クロスタブマーケティング分析
 
-従来のファーストタッチチャネルとラストタッチチャネルを使用すると、チャネルのインタラクションに関する次の便利なビューを利用できます。
+従来のファーストタッチチャネルとラストタッチチャネルを使用すると、チャネルの操作に関する次の便利なビューを利用できます。
 
 ![](assets/mc-viz6.png)
 
