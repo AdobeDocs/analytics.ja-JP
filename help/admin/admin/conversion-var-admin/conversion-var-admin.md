@@ -5,7 +5,7 @@ title: コンバージョン変数（eVar）
 feature: 管理ツール
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 212f9c66e2916e629693bf4bf61e767af164900a
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 82%
@@ -33,8 +33,6 @@ eVar は、次のような原因と結果を測定するために最適です。
 ## コンバージョン変数 - 説明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
 [コンバージョン変数の編集](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md)時に使用されるフィールドの説明。
-
-
 
 | 要素 | 説明 |
 | --- | --- |
