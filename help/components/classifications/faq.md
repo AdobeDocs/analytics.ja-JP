@@ -3,9 +3,9 @@ title: 分類 FAQ
 description: 分類の使用に関するよくある質問（FAQ）です。
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 
 ## 特殊文字を含む値を分類する方法を教えてください。
 
-Adobe Analyticsではこれらのデータの空白文字が切り詰められるので、分類データとヒットデータで先頭と末尾の空白文字を使用することはできません。
+Adobe Analytics ではこれらのデータの空白文字が切り詰められるので、分類データとヒットデータで先頭と末尾の空白文字を使用することはできません。
 
 通常、レポートでカンマや二重引用符などの特殊文字を使用することはお勧めしません。ただし、このような使用が必要になる場合もあります。レポート値に分類対象としてこれらの文字が含まれている場合は、次の手順に従います。
 
