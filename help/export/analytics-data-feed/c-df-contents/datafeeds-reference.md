@@ -7,9 +7,9 @@ feature: Reports & Analytics の基本
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3405'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 99%
 | `page_event_var2` | リンクトラッキングイメージリクエストでのみ使用されます。リンクのカスタム名（指定された場合）。 | varchar(100) |
 | `page_event_var3` | 廃止。調査モジュールやメディアモジュールのデータが格納されます。Adobe Analytics の以前のバージョンで設定されたレガシービデオレポート。 | テキスト |
 | `page_type` | 「[エラーページ](/help/components/dimensions/pages-not-found.md)」ディメンションの入力に使用。404 エラーページにのみ使用されます。この変数の値は、空か「`ErrorPage`」である必要があります。 | char(20) |
-| `page_url` | ヒットの URL。リンクトラッキングイメージリクエストの場合、ポストバリアント(post_page_url)内の値が削除されます。 | varchar(255) |
+| `page_url` | ヒットの URL。リンクトラッキングイメージリクエストの場合、ポストバリアント（post_page_url）内の値が削除されます。 | varchar(255) |
 | `pagename` | 「[ページ](/help/components/dimensions/page.md)」ディメンションの入力に使用されます。[`pagename`](/help/implement/vars/page-vars/pagename.md) 変数が空の場合、Analytics では代わりに `page_url` が使用されます。 | varchar(100) |
 | `paid_search` | ヒットが有料検索の検出に一致した場合に設定されるフラグ。 | tinyint unsigned |
 | `partner_plugins` | 未使用。削除されたフィーチャの一部。 | varchar(255) |
