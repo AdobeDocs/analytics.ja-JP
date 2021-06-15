@@ -62,7 +62,7 @@ ht-degree: 99%
 1. **[!UICONTROL 値]**：ディメンション、セグメントまたは指標のために入力または選択した値。
 1. **[!UICONTROL X]**：（削除）セグメント定義のこの部分を削除できます。
 1. **[!UICONTROL Experience Cloud パブリッシング]**：Adobe Analytics セグメントを Experience Cloud に公開すると、[!DNL Audience Manager] や他のアクティベーションチャネルでのマーケティングアクティビティでセグメントを使用できます。[詳細情報...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL オーディエンスライブラリ]**：アドビのオーディエンスサービスは、訪問者データからオーディエンスセグメントへの変換を管理します。したがって、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ています。また、オーディエンスセグメントを Experience Cloud と共有することもできます。[詳細情報...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL オーディエンスライブラリ]**：アドビのオーディエンスサービスは、訪問者データからオーディエンスセグメントへの変換を管理します。したがって、オーディエンスを作成および管理することは、セグメントを作成および使用することに似ています。また、オーディエンスセグメントを Experience Cloud と共有することもできます。[詳細情報...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)
 1. **[!UICONTROL 検索]**：ディメンション、セグメントまたは指標のリストを検索します。
 1. **[!UICONTROL ディメンション]**：（リスト）ヘッダーをクリックして展開します。
 1. **[!UICONTROL 指標]**：ヘッダーをクリックして展開します。
