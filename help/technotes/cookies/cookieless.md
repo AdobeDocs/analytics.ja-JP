@@ -36,5 +36,6 @@ Adobe Analytics は、ファーストパーティ cookie を利用して訪問�
 ビジネスがサードパーティ cookie から移行するための実用的な手順については、『[アドビで、クッキーのない世界で顧客を獲得して保つ](https://business.adobe.com/jp/solutions/cookieless.html)』と詳細な『[サードパーティ cookie を超えて考える：サードパーティ cookie のない世界への完全なガイド](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf)』を参照してください。
 
 >[!MORELIKETHIS]
-[Adobe Analytics とブラウザーの cookie](cookies.md)>
+>
+>[Adobe Analytics とブラウザーの cookie](cookies.md)>
 >
