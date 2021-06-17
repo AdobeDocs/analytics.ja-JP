@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics の基本
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 96%
+source-wordcount: '1299'
+ht-degree: 95%
 
 ---
 
@@ -57,23 +57,9 @@ Analysis Workspace の新しい[フォールアウト分析](https://experiencel
 
 ページフローレポートには、訪問者がページにアクセスした順序と使用したナビゲーション方法が表示されます。このレポートは問題を解決するのに役立ちます。
 
-Analysis Workspace の新しい[フロービジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)を調べます。
-
-[パス](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html)レポートを実行します。
+Analysis Workspaceの[フロービジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)を確認します。
 
 例えば、**[!UICONTROL レポート]**／**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL 次ページのフロー]**&#x200B;をクリックします。
-
-![](assets/page_flow.png)
-
-このレポートは、選択されたページから始まり、左から右へ読みます。選択したページの後に閲覧された各ページが、右側に分岐として表示されます。
-
-続く各ページが閲覧された割合が、そのページ名の横に表示されます。次の各ページとを結ぶラインの幅により、そのパスのトラフィックの相対的な量が示されます。
-
-**[!UICONTROL パスビュー数]**：表示されたパスをたどって、あるページが閲覧された回数を示します。
-
-例えば、プライバシーポリシーページの総ページビュー数は 10,000 であっても、ホームページを見た直後にこのページを閲覧したのはそのうち 500 のみだったとすると、この場合のパスビュー数は 500 になります。パスビューという用語はこのように使用されます。
-
-ラインの幅によってトラフィックの相対的な量が表されます。このレポートには、デフォルトで 5 本の 2 次レベルの分岐と 5 本の 3 次レベルの分岐が表示されています。2 次レベルの分岐は 10 本まで、3 次レベルの分岐は 5 本まで拡張できます。拡張すると、レポートの高さは高くなり、このグラフ全体を閲覧するにはスクロールすることが必要になります。
 
 ## マーケティングチャネルレポートの実行 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -83,109 +69,11 @@ Analysis Workspace の新しい[フロービジュアライゼーション](http
 
 ## 異常値検出レポートの実行 {#task_4808C96327354D789C075823F5C3A049}
 
-異常値検出レポートに表示される概要グラフと個別の指標グラフの見方を説明します。
-
-Analysis Workspace の新しい[異常値検出と貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)機能を調べます。
-
-**[!UICONTROL レポート]**／**[!UICONTROL サイト指標]**／**[!UICONTROL 異常値検出]**
-
->[!NOTE]
->
->Analysis Workspace プロジェクト内からも異常値検出を実行できます。[さらに詳しく...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-異常値検出の設定については、[リファレンスガイド](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)を参照してください。
-
-異常値検出では、2 種類のグラフが表示されます（概要グラフと個別の指標グラフ）。個別の指標グラフは、その指標に関して 1 つ以上の異常値が検出された場合にのみ表示されます。
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>グラフのタイプ </p> </th> 
-   <th colname="col2" class="entry"> <p>説明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>概要グラフ </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">各ボックスは、下の指標に関して 1 日に追跡された 1 つの異常値を表します。 </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">緑はトレンドラインよりも上にある異常値、青はトレンドラインよりも下にある異常値を表します。 </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">異常が大きいほど、データポイントの色が濃くなり、トレンドラインからの距離が遠くなります。 </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">各異常値をクリックすると、その異常の個別の指標グラフが上部（概要グラフの下部）に表示されます。 </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">偏差率の値（グラフの左側）は、次のようにして計算されます。 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">上限値と期待値が等しい場合は、偏差率は 100% になります。 </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">それ以外の場合は、偏差率は「((実際の値 – 上限値) / (上限値 – 期待値)) * 100」で計算されます。 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">下限値と期待値が等しい場合は、偏差率は –100% になります。 </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">それ以外の場合は、偏差率は「((下限値 – 実際の値) / (期待値 – 下限値)) * -100」で計算されます。  </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">「<span class="uicontrol">表示セグメント</span>」をクリックすると、異常値検出レポートにセグメントを適用するためのセグメントパネルが表示されます。セグメントについての<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  >詳細</a>を参照してください。 </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">「<span class="uicontrol">指標を編集</span>」をクリックすると、異常値を検出する指標の選択および選択解除が行えます。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>個別の指標グラフ </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">個々のトレンド指標（計算指標を含む）の異常値のデータポイントをドットで示します。 </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">異常値の数ごとに、第 1 位と第 2 位の最新の異常値を表示します。 </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">実線は、現在収集中の実際のデータを表します。これをエラーの予測や許容範囲と比較して、データポイントが異常であるかどうかを判断します。 </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">破線は、履歴データ（つまりトレーニング期間）に基づく予想を表します。 </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">灰色の領域は、95% 信頼区間の上限と下限を表します。 </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">指標名の横にある上向きまたは下向きの二重矢印をクリックすると、個別のレポートを折りたたんだり展開したりできます。 </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">概要レポート（前述）でドリルダウンを行うと、それに応答して指標グラフの表示順序が変化します。 </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">単語による検索でグラフをフィルタリングできます。例えば「ページ」という単語で検索してページ関連の指標のみを表示できます。 </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">定義したすべての指標を表示することも、異常値のある指標のみを表示することもできます。 </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## 異常値検出の設定 {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-異常値検出のレポートスイート、指標、トレーニング期間、表示期間を選択する手順を説明します。
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-異常値検出は、レポートスイートごとに個別に設定します。
-
-1. **[!UICONTROL Analytics／レポート／サイト指標／異常値検出]**&#x200B;に移動します。
-1. 異常値検出を毎日追跡したいレポートスイートを選択します。レポートスイートのリストを表示するには、レポートスイートセレクターのドロップダウンメニューをクリックします。
-1. 指標を選択するか、フィルター適用済み指標を定義するには、画面右上にある&#x200B;**[!UICONTROL 指標を編集]**&#x200B;アイコンをクリックします。![](assets/metrics_icon.png)
-
-   全指標のリスト（計算指標を含む）または追跡指標のリストから、必要な指標を選択できます。特定の条件に基づいてフィルターし、リストを絞り込むこともできます。1. レポートが生成されたら、異常値検出の「**[!UICONTROL トレーニング期間]**」と「**[!UICONTROL 期間を表示]**」を変更できます。（トレーニング期間は、このアルゴリズムの「学習期間」と考えてください）。
-
-   ![](assets/view_training_periods.png)
-
-   次の点に注意してください。
-
-* トレーニング期間は表示期間が始まる直前に終了します。
-* デフォルトはどちらも 30 日間で、60 日間または 90 日間に延長できます。
-* トレーニング期間を延長するとデータのコンテキストが大きくなり、異常値のサイズが減少することがあります。
-
-   異常値検出レポートは、これらのパラメーターを変更するたびに更新されます。
-1. （オプション）「**[!UICONTROL セグメントを表示]**」をクリックし、既存のセグメントを 1 つ以上選択するか、新しいセグメントを作成して適用することによって、セグメントをレポートに適用します。
-
-   ![](assets/ad_top_menu.png)
-
-   セグメントの作成と管理について詳しくは、[Analytics セグメント化ガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)を参照してください。1.（オプション）レポートをお気に入りにするか、ブックマークします。
-1. （オプション）表示期間の終了日を変更します。デフォルトは昨日です。
-1. これで、レポートを表示できるようになります。[異常値検出グラフの表示](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
+[異常値検出と貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)は、Analysis Workspaceでのみ実行できます。
 
 ## リアルタイムレポートの実行 {#task_5D25929C918E40B18965222FA94176B0}
 
 リアルタイムレポートの表示方法と見方を説明します。
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL レポート／サイト指標／リアルタイム]**。
 
