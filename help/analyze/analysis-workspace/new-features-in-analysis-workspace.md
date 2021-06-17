@@ -5,9 +5,9 @@ title: Analysis Workspace の新機能
 feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '8283'
+source-wordcount: '8276'
 ht-degree: 98%
 
 ---
@@ -111,7 +111,7 @@ Adobe Experience Cloud のリリースノート全体へのアクセスについ
 
 | 機能 | 説明 |
 |--- |--- |
-| クロスデバイス間分析を使用する組織向けの新しい Workspace テンプレート | このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、[デバイス間分析の設定](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html)を参照してください。 |
+| クロスデバイス間分析を使用する組織向けの新しい Workspace テンプレート | このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、[クロスデバイス分析の設定](/help/components/cda/setup.md)を参照してください。 |
 | Workspace の新しいホットキー | <ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開： `alt + ctrl + m`</li><li>左パネルを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Workspace のその他の機能拡張 | <ul><li>パネルまたはビジュアライゼーションを Workspace にドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加するボタンが表示されます。</li></ul> |
 | Workspace デバッガー | Workspace デバッガーがヘルプメニューに追加され、よりシームレスに有効化して Workspace リクエストをデバッグできるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
