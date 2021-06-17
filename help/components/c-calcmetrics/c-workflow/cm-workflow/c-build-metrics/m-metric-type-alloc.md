@@ -3,10 +3,10 @@ description: '詳細 '
 title: 指標タイプとアトリビューション
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 98%
+source-wordcount: '888'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->2018 年 7 月に、計算指標における配分モデルの評価方法を変える [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) が [!DNL Analytics] に導入されました。この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
+>[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) では、計算指標における配分モデルの評価方法を修正しました。この変更の一環として、デフォルト以外の配分モデルを使用する計算指標は、新しく改善されたアトリビューションモデルに移行されました。
 >
 >* デフォルト以外のアトリビューションモデルの完全なリストとサポートされるルックバックウィンドウについては、[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) のドキュメントを参照してください。
 >* 「マーケティングチャネルラストタッチ」と「マーケティングチャネルファーストタッチ」配分モデルはそれぞれ、新しい「ラストタッチ」と「ファーストタッチ」アトリビューションモデルに移行されます（注意：「マーケティングチャネル」は廃止されません。計算指標で表示される 2 つの配分モデルのみが廃止されます）。
@@ -72,9 +72,9 @@ ht-degree: 98%
 | PROMO C | $1.67 | $0 | 2.50ドル |
 | 合計 | 10.00ドル | 10.00ドル | 10.00ドル |
 
-**2018 年 7 月 19 日（PT）以降の線形配分の適用方法の概要**
+**線形配分の適用方法の概要**
 
-7 月 19 日（PT）以降、計算指標でのこの動作は修正されました。ラストタッチまたはファーストタッチに基づいた持続的な値を使用する代わりに、[!DNL Analytics] では渡された値のみを使用します（上の表の最初の列）。そうすることで、ディメンションの配分設定が線形配分の計算内容に影響しなくなります（つまり、prop と eVar が同じように扱われます）。また、ファーストタッチまたはラストタッチの持続的な値ではなく、当初に渡された値が結果に反映されます。したがって、3 つのケースすべてで次のようになります：A = 10 * (2/4) = $5、B = 10 * (1/4) = $2.50、C = 10 * (1/4) = $2.50
+ラストタッチまたはファーストタッチに基づいた持続的な値を使用する代わりに、[!DNL Analytics] では渡された値のみを使用します（上の表の最初の列）。そうすることで、ディメンションの配分設定が線形配分の計算内容に影響しなくなります（つまり、prop と eVar が同じように扱われます）。また、ファーストタッチまたはラストタッチの持続的な値ではなく、当初に渡された値が結果に反映されます。したがって、3 つのケースすべてで次のようになります：A = 10 * (2/4) = $5、B = 10 * (1/4) = $2.50、C = 10 * (1/4) = $2.50
 
 | values | 新しいラストタッチの eVar | 新しいファーストタッチの eVar | 新しい Prop |
 |---|---|---|---|
