@@ -2,7 +2,7 @@
 description: Analytics ユーザー ID を Adobe Experience Cloud 内の Admin Console に移行するプロセスについて説明します。
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '3122'
 ht-degree: 97%
@@ -321,7 +321,7 @@ Admin Console の使用メリットには、次のようなものがあります
 
 **参考情報：**
 
-[ログインとプロファイル設定の管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html)を参照してください。
+[ログインとプロファイル設定の管理](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-products.ug.html)を参照してください。
 
 質問や気になる点がありましたら、Analytics 管理者にお問い合わせください。
 
