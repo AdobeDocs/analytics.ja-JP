@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics の基本
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 95%
+source-wordcount: '2188'
+ht-degree: 96%
 
 ---
 
@@ -16,16 +16,9 @@ ht-degree: 95%
 
 異なるレポートタイプの実行手順を説明します。
 
-
 ## ランクレポートの実行 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 ランクレポートでは、指標の大小で並べ替えられた項目がテーブルに表示されます。ランクレポートでは、1 つのレポートに複数の指標を表示できます。
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. [!UICONTROL ページレポート]などのレポートを生成します（**[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページ]**）。
 1. レポートタイプで「**[!UICONTROL ランク]**」をクリックします。
@@ -37,12 +30,6 @@ t_reports_ranked.xml
 
 トレンドレポートには、時系列で指標が表示されます。このレポートタイプは、指定した期間における指定の増減を表示するために使用します。
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 ほとんどのコンバージョンとトラフィックレポートではトレンドを表示できます。[!UICONTROL カレンダー]を使用すると、月内の日、年内の週、四半期内の週、月など、どの期間ごとのパフォーマンスの改善も見ることができます。トレンドレポートは、最大 5 つまでの項目（製品、カテゴリ、Web ページなど）に対して 1 つの指標（売上高、注文、表示回数など）のトレンドを表示できます。
 
 **トレンドレポートを実行するには**
@@ -50,29 +37,9 @@ t_reports_trended.xml
 1. **[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページ]**&#x200B;などの変換またはトラフィックレポートを実行します。
 1. 「**[!UICONTROL レポートタイプ]**」の「**[!UICONTROL トレンド]**」をクリックします。
 
-## コンバージョンファネルレポートの実行 {#task_B926A74AA6A641138C2986C1635120CB}
-
-コンバージョンファネルレポートには、一連のイベントを経て望ましい行動をとるに至った訪問者の割合が表示されます。例えば、Web サイトの訪問者のうち何人が買い物かごにアイテムを追加し、購入に至ったかを知ることができます。途中で離脱した人数も表示されます。
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-このレポートを実行するには、ページレポートなどのレポートを選択します（**[!UICONTROL レポート]**／**[!UICONTROL キャンペーン]**／**[!UICONTROL トラッキングコード]**／**[!UICONTROL キャンペーンコンバージョンファネル]**）。
-
-詳しくは、[コンバージョンレポート](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html)を参照してください。
-
 ## フォールアウトレポートの実行 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 [!UICONTROL フォールアウトレポート]には、事前に指定されたページ順に訪問した訪問者の数が表示されます。ステップ間のコンバージョン率とフォールアウト率も示します。
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 Analysis Workspace の新しい[フォールアウト分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)パネルを調べます。
 
@@ -85,11 +52,6 @@ Analysis Workspace の新しい[フォールアウト分析](https://experiencel
 1. 「**[!UICONTROL レポートを実行]**」をクリックします。
 
    ![手順の結果](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [フォールアウトレポートの説明](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 
 ## ページフローレポートの実行 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -113,39 +75,15 @@ Analysis Workspace の新しい[フロービジュアライゼーション](http
 
 ラインの幅によってトラフィックの相対的な量が表されます。このレポートには、デフォルトで 5 本の 2 次レベルの分岐と 5 本の 3 次レベルの分岐が表示されています。2 次レベルの分岐は 10 本まで、3 次レベルの分岐は 5 本まで拡張できます。拡張すると、レポートの高さは高くなり、このグラフ全体を閲覧するにはスクロールすることが必要になります。
 
-## ファネルレポートの実行 {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-成功イベントを選択し、[!UICONTROL 購入コンバージョンファネル]レポートまたは[!UICONTROL 製品コンバージョンファネル]レポートに追加できます。
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. **[!UICONTROL レポート]**／**[!UICONTROL 製品]**／[製品コンバージョンファネル](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)をクリックします。
-
 ## マーケティングチャネルレポートの実行 {#task_64ADED5CC75248319E06E3E029B47F78}
 
 マーケティングチャネルレポートには、ファーストタッチチャネルおよびラストタッチチャネルの配分の概要、および注文件数、売上高、コストなどの標準のレポート指標が表示されます。これらのレポートでは各チャネルが生み出す売上高を調べることができます。
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 詳細については、[マーケティングチャネル](/help/components/c-marketing-channels/analyze-mc.md)のヘルプシステムを参照してください。
 
 ## 異常値検出レポートの実行 {#task_4808C96327354D789C075823F5C3A049}
 
 異常値検出レポートに表示される概要グラフと個別の指標グラフの見方を説明します。
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 Analysis Workspace の新しい[異常値検出と貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)機能を調べます。
 
