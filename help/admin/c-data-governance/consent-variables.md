@@ -3,10 +3,10 @@ description: データプライバシーにおけるプライバシーレポー�
 title: プライバシーレポート変数
 feature: 管理ツール
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 95%
+source-wordcount: '427'
+ht-degree: 97%
 
 ---
 
@@ -62,7 +62,7 @@ Analytics Admin Console で利用できる新しいプライバシー設定を�
 
 3 つのコンテキストデータ変数が、プライバシーレポート管理予約変数と連携するように事前に定義されています。これらの変数の設定の管理方法と保持の方法は、各実装エンジニアが決定します。
 
-コンテキスト データ変数の実装に関する一般的なガイダンスについては、[コンテキストデータ変数](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)を参照してください。
+コンテキスト データ変数の実装に関する一般的なガイダンスについては、[コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)を参照してください。
 
 ### SSF
 
