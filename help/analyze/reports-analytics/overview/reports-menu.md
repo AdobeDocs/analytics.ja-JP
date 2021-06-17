@@ -5,9 +5,9 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics の基本
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '771'
 ht-degree: 95%
 
 ---
@@ -31,7 +31,7 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-個々のレポートについて詳しくは、[レポートの説明](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html)を参照してください。
+個々のレポートについて詳しくは、[Dimension](/help/components/dimensions/overview.md)を参照してください。
 
 ## レポートの検索 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
