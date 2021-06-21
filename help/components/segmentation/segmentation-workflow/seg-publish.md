@@ -4,10 +4,10 @@ title: Experience Cloud へのセグメントの公開
 feature: セグメント化
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: f9a5b1ae08209260b4e4694b743932627a0c2019
+source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
 workflow-type: tm+mt
 source-wordcount: '1325'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -94,7 +94,7 @@ Experience Cloud に公開されているセグメントを削除するには、
 
 次のスクリーンショットは、ブラウザーで AAM UUID を取得し、Audience Manager 訪問者プロファイルビューアで AAM UUID を使用して特性とセグメントのメンバーシップを検証する方法を示しています。
 
-**方法 1：Adobe Experience Cloud デバッガーの使用**
+**方法1:Adobe Experience Cloud Debuggerの使用**
 
 1. Chrome Web Store で [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) をダウンロードしてインストールします。
 1. ページの読み込み時にデバッガーを起動します。
