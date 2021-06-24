@@ -1,17 +1,16 @@
 ---
-description: Report BuilderとMicrosoftPower BIを使用する場合の制限事項。
+description: Report BuilderとMicrosoftPower BIの使用に関する制限
 title: 制限および仕様
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 94%
 
 ---
-
 
 # 制限および仕様
 
@@ -38,7 +37,7 @@ Power BI に発行した後に Report Builder リクエストを編集すると�
    **次に示すのは、ビジュアライゼーションが壊れる例です。**
 
    1. Report Builder で、ページディメンションとページビュー数指標を使用して、1 つのリクエストが含まれたワークブックを作成します。
-   2. この要求をPower BIに発行するようにスケジュールします。
+   2. このリクエストをPower BIに公開するようにスケジュールします。
    3. Power BI で、ページとページビュー数のビジュアライゼーションを作成します。
    4. 次にワークブックを編集して、リクエストからページビュー数を削除します。
    5. 更新したワークブックでスケジュールを編集し、リクエストを Power BI に発行し直します。
@@ -71,6 +70,5 @@ Power BI に発行した後に Report Builder リクエストを編集すると�
 次の点に注意してください。
 
 * ラベルは、行および列のアドレスと間違えられる可能性がある文字と数字の組み合わせにすることはできません。例えば、A100 をラベルにすることはできません。これは、ワークシート内のセルのアドレスだからです。
-* 「#」、「@」、「!」、「$」、「^」、「&amp;」、「*」、「`」、「~」、「 」の各文字は、ラベルの文字として無効です。これらの文字はアンダースコア文字に置換されます。
+* 次の文字は、ラベル文字として有効ではありません：`'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;と`'~', ' '`が表示されます。 アンダースコア文字に置き換えられます。
 * 無効な名前を入力すると、警告メッセージが表示され、自動生成された名前の候補が提示されます。「**[!UICONTROL はい]**」をクリックすると、その名前が使用されます。「**[!UICONTROL いいえ]**」をクリックすると、詳細ウィザード UI で新しい名前を入力できます。
-
