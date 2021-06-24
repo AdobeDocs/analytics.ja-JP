@@ -4,10 +4,10 @@ keywords: データフィード、ベストプラクティス、トラフィッ�
 title: ベストプラクティスおよび一般情報
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 8f6c6aabf1e41cfd4b143a5d4cf14e73cdcbb603
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 66%
+source-wordcount: '277'
+ht-degree: 67%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 66%
 
 * フィードの取り込みプロセスを自動化する場合は、ヒットとファイルを複数回転送できる可能性を考慮します。 フィードの取り込みプロセスでは、エラーやデータの複製を発生させずに、重複したヒットや重複したファイルを処理する必要があります。 `hitid_high`列と`hitid_low`列の組み合わせを使用して、ヒットを一意に識別することをお勧めします。
 
-   まれに、`hitid_high`と`hitid_low`の値が重複する場合があります。 この場合は、以前に送信および処理されていなかったファイルを確認します。 ファイル内の一部の行のみが重複している場合は、一意性を判断するために`visit_num`とvisit_page_num&#39;を追加することを検討してください。
+   まれに、`hitid_high`と`hitid_low`の値が重複する場合があります。 この場合は、以前に送信および処理されていなかったファイルを確認します。 ファイル内の一部の行のみが重複している場合は、一意性を判断するために`visit_num`と`visit_page_num`を追加することを検討してください。
