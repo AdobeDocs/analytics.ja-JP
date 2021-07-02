@@ -7,7 +7,7 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Analytics セグメントマネージャには、自分が所有しているす�
 
 ## ハウツービデオ {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-この [Adobe Analytics の ビデオ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)では、セグメントマネージャの使用方法の概要を説明しています。
+この [Adobe Analytics の ビデオ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=ja)では、セグメントマネージャの使用方法の概要を説明しています。
 
 ## セグメントマネージャのユーザーインターフェイス {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
