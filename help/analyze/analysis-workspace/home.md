@@ -5,9 +5,9 @@ feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Analysis Workspace の使用を開始するには、[experience.adobe.com/analyt
 
 ## 新規プロジェクトを作成 {#new-project}
 
-チュートリアルが完了したら、最初のプロジェクトの構築を開始する準備が整います。**新しいプロジェクトモーダル**&#x200B;には、分析を開始するための様々なオプションが用意されています。ブラウザーと Adobe Analytics ダッシュボードモバイルアプリのどちらで分析を共有するかに応じて、空のプロジェクトまたは[空のモバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)のどちらで開始するかを選択できます。
+チュートリアルが完了したら、最初のプロジェクトの構築を開始する準備が整います。**新しいプロジェクトモーダル**&#x200B;には、分析を開始するための様々なオプションが用意されています。ブラウザーと Adobe Analytics ダッシュボードモバイルアプリのどちらで分析を共有するかに応じて、空のプロジェクトまたは[空のモバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ja)のどちらで開始するかを選択できます。
 
 ![](assets/create-new-project.png)
 
@@ -45,7 +45,7 @@ Workspace プロジェクトでは、左パネルから&#x200B;**パネル、テ
 
 ### コンポーネント
 
-**コンポーネント**&#x200B;は、ディメンション、指標、セグメントまたは日付範囲です。これらすべてを&#x200B;**[!UICONTROL フリーフォームテーブル]**&#x200B;に組み合わせることで、ビジネスに関する質問への回答を開始できます。分析を開始する前に、各[コンポーネントのタイプ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)について理解しておく必要があります。コンポーネントの用語を習得したら、**[!UICONTROL フリーフォームテーブル]**&#x200B;でドラッグ&amp;ドロップを開始し、[分析を構築](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)します。
+**コンポーネント**&#x200B;は、ディメンション、指標、セグメントまたは日付範囲です。これらすべてを&#x200B;**[!UICONTROL フリーフォームテーブル]**&#x200B;に組み合わせることで、ビジネスに関する質問への回答を開始できます。分析を開始する前に、各[コンポーネントのタイプ](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)について理解しておく必要があります。コンポーネントの用語を習得したら、**[!UICONTROL フリーフォームテーブル]**&#x200B;でドラッグ&amp;ドロップを開始し、[分析を構築](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=ja)します。
 
 ![](assets/build-components.png)
 
@@ -63,5 +63,5 @@ Workspace プロジェクトでは、左パネルから&#x200B;**パネル、テ
 
 ## その他のリソース {#resources}
 
-* アドビでは、数百もの[Analytics ビデオトレーニングチュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)を提供しています。
+* アドビでは、数百もの[Analytics ビデオトレーニングチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ja)を提供しています。
 * 機能に関する更新については、「[Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)」を参照してください。
