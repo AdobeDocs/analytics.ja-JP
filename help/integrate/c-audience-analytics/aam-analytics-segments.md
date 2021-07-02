@@ -4,9 +4,9 @@ title: Analytics と Audience Manager のセグメントについて
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Audience Manager セグメントのメンバーシップは流動的です。ユ
 
 Audience Manager セグメントは、Analytics ではオーディエンスとして示されます。
 
-詳しくは、[セグメントビルダーの特性とセグメント母集団データ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html)および[シグナル、特性およびセグメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html)を参照してください。
+詳しくは、[セグメントビルダーの特性とセグメント母集団データ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja)および[シグナル、特性およびセグメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ja)を参照してください。
 
 ## Analytics セグメント {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -44,4 +44,4 @@ Analytics セグメントは、レポートのデータのフィルタリング�
 
    逆に、Analytics では、訪問者はレポートの日付範囲に基づいてセグメントに含められたり、除外されたりします。例えば、1 人の訪問者が先月購入をおこなったとします。AAM では、その訪問者は日付範囲に関係なく「購入者」セグメントに含められます。Analytics の今月に基づくレポートでは、この訪問者は「購入者」セグメントに含められません。しかし、今月と先月に基づくレポートではこの訪問者が「購入者」セグメントに含められます。
 
-詳しくは、[Analytics セグメントガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)を参照してください。
+詳しくは、[Analytics セグメントガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を参照してください。
