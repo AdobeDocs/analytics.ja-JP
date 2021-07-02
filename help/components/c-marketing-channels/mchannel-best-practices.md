@@ -4,7 +4,7 @@ description: マーケティングチャネルでの Attribution IQ と Customer
 source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 91%
 
 ![](assets/attribution.png)
 
-* 「マーケティングチャネル」と「マーケティングチャネルの詳細」ディメンションの設定により、各マーケティングチャネルインスタンスに対応して、評価されるタッチポイントが設定されます。
+* 「マーケティングチャネル」と「マーケティングチャネルの詳細」ディメンションの設定では、各マーケティングチャネルインスタンスに対応する、評価対象タッチポイントを設定します。
 * 指標分析の場合、組織は 1 つ以上のアトリビューションモデルに合わせる必要があります。再利用しやすいように、カスタム指標をこのモデルと共に保存します。
 * デフォルトでは、データはラストタッチと訪問者エンゲージメント期間の設定を使用して割り当てられます。Attribution IQ 指標モデルは、ルックバックウィンドウの制御を強化し、[アルゴリズムのアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja#analysis-workspace)を含む多様性を提供します。
 
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 「直接」および「内部／セッション更新」チャネルをカスタムアトリビューションモデル（Attribution IQ）で使用することはお勧めしません。
 
-組織で「直接」および「セッション更新」が既に設定されている場合は、この場合、ファーストタッチ/ラストタッチの分類[を作成し、直接チャネルとセッション更新チャネルを未分類のままにすることをお勧めします。 ](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en)分類されたディメンションは、これらのチャネルが設定されていない場合と同じ Attribution IQ 結果を生成します。
+組織で「直接」および「セッション更新」が既に設定されている場合は、この場合、ファーストタッチ/ラストタッチの[分類を作成](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=ja)し、ダイレクトチャネルとセッション更新チャネルを未分類のままにすることをお勧めします。分類されたディメンションは、これらのチャネルが設定されていない場合と同じ Attribution IQ 結果を生成します。
 
 ![](assets/direct-session-refresh.png)
 
