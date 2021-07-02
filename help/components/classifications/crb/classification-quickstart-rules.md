@@ -5,9 +5,9 @@ title: 分類ルール
 feature: 管理ツール
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2028'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 99%
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
 | 次の語句で始まる | em: | チャネル | 電子メール |
-| 次の語句で終わる | Sale | タイプ | 販売 |
-| 次を含む | 2013 | 年 | 2013年 |
+| 次の語句で終わる | Sale | タイプ | Sale |
+| 次を含む | 2013 | 年 | 2013 |
 
 ## ルールの処理方法 {#how-rules-are-processed}
 
@@ -59,7 +59,7 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-*    [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)で、分類の[!UICONTROL グループ権限]を指定します。
+*    [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)で、分類の[!UICONTROL グループ権限]を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
