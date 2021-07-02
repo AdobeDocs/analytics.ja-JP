@@ -4,9 +4,9 @@ title: Audience Analytics の使用例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
 source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 88%
 
 ## 類似モデリング {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-マルチメディアパブリッシャーは、[セグメント IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) を使用してサードパーティのオーディエンスを比較し、重要な差別化特性を把握できます。これにより、価値の高いファーストパーティセグメントを構築して、ターゲティングに使用できます。
+マルチメディアパブリッシャーは、[セグメント IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=ja) を使用してサードパーティのオーディエンスを比較し、重要な差別化特性を把握できます。これにより、価値の高いファーストパーティセグメントを構築して、ターゲティングに使用できます。
 
 ## 見込み客分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-B2B 小売業者は、[連続セグメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)を使用して、見込み客オーディエンスの購入直前の行動を深く分析できるようになり、どのアクションがコンバージョンにつながるかを理解できます。
+B2B 小売業者は、[連続セグメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=ja)を使用して、見込み客オーディエンスの購入直前の行動を深く分析できるようになり、どのアクションがコンバージョンにつながるかを理解できます。
 
 ## デモグラフィックターゲティング {#section_F034DB721A06419283DBD29D4A1B444B}
 
-デスティネーションリゾートは、[Analysis Workspace のヒストグラム](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html)を使用して、年齢別の購入の分布を表示できます。これにより、各リゾート施設で適切なオーディエンスをターゲティングできます。
+デスティネーションリゾートは、[Analysis Workspace のヒストグラム](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html?lang=ja)を使用して、年齢別の購入の分布を表示できます。これにより、各リゾート施設で適切なオーディエンスをターゲティングできます。
