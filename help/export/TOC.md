@@ -7,7 +7,7 @@ user-guide-description: データフィードを使用して、1 時間ごとま
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
       + [データ列リファレンス](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [ページイベント参照](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [モバイル属性の参照](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-      + [マーチャンダイジングeVar参照](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [マーチャンダイジング eVar 参照](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊文字](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [到着が遅れたヒット](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [データフィードに関する FAQ](analytics-data-feed/df-faq.md)
@@ -69,4 +69,4 @@ ht-degree: 96%
       + [パスワードなしでの SFTP 経由でのアドビへの接続](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Analysis Workspace ダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja)
 + [Adobe Analytics API ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ja)
