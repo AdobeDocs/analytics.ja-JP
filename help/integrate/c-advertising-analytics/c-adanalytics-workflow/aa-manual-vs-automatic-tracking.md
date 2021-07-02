@@ -3,9 +3,9 @@ description: トラッキングにより、Adobe Analytics の実装による検
 title: トラッキング：手動モードと自動モード
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
+>[コンテンツセキュリティポリシー](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=ja)に `s_kwcid` パラメーターを追加する必要があるかどうかを確認します。
 
 ## 手動モードのトラッキング {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
