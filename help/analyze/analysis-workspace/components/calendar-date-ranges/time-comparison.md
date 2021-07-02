@@ -6,9 +6,9 @@ feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: baea0f33276b07a93144d2225935013ab7007005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 ## 期間を比較 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL 期間の比較]では、高度な計算指標を利用します。 その結果、Analytics Select、Prime、Ultimate SKUをお持ちのお客様のみが利用できます。
+>[!UICONTROL 期間の比較]では、高度な計算指標を利用します。その結果、利用できるのは Analytics Select、Prime、Ultimate SKU をお持ちのお客様のみとなります。
 
 分析にはコンテキストが必要ですが、多くの場合、そのコンテキストは前の期間から得られます。例えば、「前年の同じ時期に比べてどのくらい良くなっているか悪くなっているか」という質問は、ビジネスを把握するうえで基本的な問いです。日付の比較では自動的に「差異」列が含まれ、指定した期間と比較した変更の割合が示されます。
 
