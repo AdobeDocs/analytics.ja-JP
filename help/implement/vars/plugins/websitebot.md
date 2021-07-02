@@ -3,9 +3,9 @@ title: websiteBot
 description: マウスの動きを使用してボットを動的に識別します。
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: e76cf660bb14b8a69e44d300afcc4e712147de5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -20,24 +20,24 @@ ht-degree: 52%
 このプラグインでは、次の 2 つのチェックを実行します。
 
 * まず、デスクトップデバイスの場合は、マウスの動きに関するイベントリスナーを追加します。
-* 次に、`navigator.UserAgent`変数を使用して、デバイスがデスクトップかモバイルデバイスかを判断します。 モバイルデバイスは無視されます。
+* 次に、`navigator.UserAgent` 変数を使用して、デバイスがデスクトップかモバイルデバイスかを判断します。モバイルデバイスは無視されます。
 
 ユーザーエージェントがデスクトップ上にあり、マウスの動きが検出されない場合は、プラグインで
 
-* (Adobe Experience Platform Launchの)[!UICONTROL 直接呼び出し]ルールを呼び出すか、
-* 訪問者がボットでないことを示すために`s.tl`呼び出しをおこないます。
+* （Adobe Experience Platform Launch の）[!UICONTROL 直接呼び出し]ルールを呼び出すか、
+* 訪問者がボットでないことを示すために `s.tl` 呼び出しをおこないます。
 
 ## 前提条件
 
 アドビでは、このプラグインを使用する前に次の点を推奨します。
 
-* **eVar 設定の指定**：レポートスイート設定の「 [コンバージョン 変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で eVar を設定します。有効期限を「**なし**」または「**訪問**」に設定し、「**元の値（最初）」**&#x200B;に割り当てます。 このeVarは、次の両方の状況で設定する必要があります。[!UICONTROL 直接呼び出し]ルールまたは`s.tl`呼び出しが実行されたとき。
+* **eVar 設定の指定**：レポートスイート設定の「 [コンバージョン 変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で eVar を設定します。有効期限を「**なし**」または「**訪問**」に設定し、「**元の値（最初）**」に割り当てます。この eVar は、次の両方の状況で設定する必要があります：[!UICONTROL 直接呼び出し]ルールまたは `s.tl` 呼び出しが実行されたとき。
 * **別の変数でのユーザーエージェントの収集**：別の変数にユーザーエージェント文字列を収集して、このプラグインの有効性を監視します。このデータを収集するには、すべてのヒットで eVar を `navigator.UserAgent` に設定します。
 
 ## Launch カスタムコードエディターを使用したプラグインのインストール
 
-1. 新しい`websiteBot`ルールを追加します。
-1. **Mouse Move Listener**&#x200B;イベントを`websiteBot`ルールに追加します。このルールには、次のカスタムコードが含まれます。
+1. 新しい `websiteBot` ルールを追加します。
+1. **マウス移動リスナー**&#x200B;イベントを `websiteBot` ルールに追加します。このルールには、次のカスタムコードが含まれます。
 
    ```
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
@@ -72,11 +72,11 @@ ht-degree: 52%
       }))
    ```
 
-1. `websiteBot`を識別子として使用してAnalyticsビーコンを実行する[!UICONTROL 直接呼び出し]ルールを追加します。 この例では、`s.tl`呼び出しを使用します。
+1. `websiteBot` を識別子として使用して Analytics ビーコンを実行する[!UICONTROL 直接呼び出し]ルールを追加します。この例では、`s.tl` 呼び出しを使用します。
 
-   ![websiteBot識別子](assets/websitebot.png)
+   ![websiteBot 識別子](assets/websitebot.png)
 
-1. 「 Adobe Analytics - Set Variables &amp; Adobe Analytics - Send Beacon 」アクションを[!UICONTROL ダイレクト型]ルールで実行します。  これをおこなう方法の1つを次の例に示します。
+1. [!UICONTROL 直接呼び出し]ルールで、「Adobe Analytics - 変数を設定」および「Adobe Analytics - ビーコンを送信」アクションを実行します。これをおこなう方法の 1 つを次の例に示します。
 
    ![ビーコン送信アクション](assets/websitebot2.png)
 
@@ -94,7 +94,7 @@ Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`
 
 ## プラグインの使用
 
-`websiteBot`プラグインは、ボット以外のトラフィックが検出されると、`s.tl`呼び出しを実行します。
+`websiteBot` プラグインは、ボット以外のトラフィックが検出されると、`s.tl` 呼び出しを実行します。
 
 ## 例
 
@@ -110,10 +110,10 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 
 ### 0.1（2021 年 1 月 19 日（PT））
 
-* ベータリリース
+* ベータ版リリース
 
-### 0.11（2021年6月4日）
+### 0.11（2021 年 6 月 3 日（PT））
 
-* AppMeasurementプラグインコードの更新
-* Launchの節を更新し、説明を拡張しました。
-* 「プラグインの使用」節を更新しました。
+* AppMeasurement プラグインコードの更新
+* Launch の節を更新し、説明を拡大しました。
+* 「プラグインの使用」の節を更新しました。
