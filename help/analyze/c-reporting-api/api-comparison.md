@@ -6,9 +6,9 @@ feature: API
 role: Developer
 exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Analytics レポート API の比較表です。サポートドキュメント�
    <td colname="col5"> 大量のデータエクスポートを引き出すために使用される、完全に処理済みで、ファイナライズされたデータ。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"  > 遅延</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=ja"  > 遅延</a> </p> </td> 
    <td colname="col2"> 30 ～ 90 分 </td> 
    <td colname="col3"> * 数秒 ～ 10 分 </td> 
    <td colname="col4"> 数秒 ～ 10 分 </td> 
@@ -53,7 +53,7 @@ Analytics レポート API の比較表です。サポートドキュメント�
    <td colname="col5"> フル </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html"  > レポートインターフェイス</a> </td> 
+   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=ja"  > レポートインターフェイス</a> </td> 
    <td colname="col2"> Analysis Workspace、Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics、Report Builder、1.4 API のリアルタイムレポート </td> 
    <td colname="col4"> API のみ </td> 
@@ -85,7 +85,7 @@ Analytics レポート API の比較表です。サポートドキュメント�
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > リアルタイムレポート</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Livestream の概要</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=ja"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
