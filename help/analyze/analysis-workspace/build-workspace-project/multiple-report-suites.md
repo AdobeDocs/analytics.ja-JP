@@ -5,9 +5,9 @@ feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,6 +65,6 @@ ht-degree: 95%
 
 1. （オプション）他の Analytics コンポーネントビルダーに移動して、これらのビルダーが、以下を示すレポートスイートラベルが表示されることを確認します。
 
-   * セグメントの作成場所：[セグメントビルダー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
-   * 計算指標が作成される場所：[計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
-   * アラートの作成場所：[アラートビルダー](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html)。
+   * セグメントの作成場所：[セグメントビルダー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja)。
+   * 計算指標が作成される場所：[計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja)。
+   * アラートの作成場所：[アラートビルダー](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=ja)。
