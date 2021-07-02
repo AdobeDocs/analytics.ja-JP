@@ -3,7 +3,7 @@ title: AMP を使用した実装
 description: AMP ページへの Adobe Analytics の実装
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
 ht-degree: 100%
 
