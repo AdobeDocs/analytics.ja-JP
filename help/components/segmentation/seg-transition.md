@@ -7,7 +7,7 @@ exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
 source-wordcount: '2071'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 98%
 
 * Analysis Workspace のセグメント：
 
-   * [セグメントを比較](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)できます。
+   * [セグメントを比較](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=ja)できます。
    * 比較の[ディメンションとしてセグメント](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)を使用できます。
-   * [フォールアウト分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)でセグメントを使用できます。
+   * [フォールアウト分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=ja)でセグメントを使用できます。
 
 * [レポートやプロジェクトに複数のセグメントを適用](/help/components/segmentation/segmentation-workflow/seg-workflow.md)できます。
 * セグメントが、レポートスイート全体で共通になりました。
@@ -73,7 +73,7 @@ Reports &amp; Analytics のセグメントドロップダウンは、より豊�
 
 **セグメントの使用、作成および管理に必要な権限と許可**
 
-デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
+デフォルトでは、すべてのユーザーが個人用のセグメントを作成および編集できます。ただし、管理者の判断により、[セグメントを作成する権限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)を持つべきユーザーを決定し、特定のグループに割り当てることができます。これらのセグメントは、他の Analytics ユーザーと直接共有できます。
 
 管理者はすべてのセグメントを編集できます。また、グループや組織のメンバー全員とセグメントを共有することもできます。[さらに詳しく...](/help/components/segmentation/seg-reference/seg-rights.md)
 
