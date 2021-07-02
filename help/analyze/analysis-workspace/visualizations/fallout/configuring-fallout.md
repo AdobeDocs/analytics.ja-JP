@@ -6,9 +6,9 @@ feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 追加できる手順の数または使用するディメンションの数に制限はありません。
 
-マーチャンダイジング eVar および [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)（product、listVar、マーチャンダイジング eVar および listProp など複数の値を 1 回のヒットに含めることができる変数）を含む、eVar へのパスを設定できます。例えば、誰かが靴とシャツを 1 つのページで探していて、次のページでシャツとソックスを探しているとします。靴の次の製品フローレポートは、シャツではなく、シャツおよびソックスです。
+マーチャンダイジング eVar および [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ja)（product、listVar、マーチャンダイジング eVar および listProp など複数の値を 1 回のヒットに含めることができる変数）を含む、eVar へのパスを設定できます。例えば、誰かが靴とシャツを 1 つのページで探していて、次のページでシャツとソックスを探しているとします。靴の次の製品フローレポートは、シャツではなく、シャツおよびソックスです。
 
 1. 「[!UICONTROL フォールアウト]」ビジュアライゼーションを「ビジュアライゼーション」ドロップダウンから「[!UICONTROL フリーフォームテーブル]」にドラッグします。
 
@@ -52,7 +52,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最終パス </p> <p>(デフォルト) </p> </td> 
-   <td colname="col2"> <p>訪問者は、そのセッション内のパスの次のページを「最終的に」訪問したと見なされますが、次のヒットを訪問したとは限りません。 </p> </td> 
+   <td colname="col2"> <p>カウントされるのは、「最終的に」そのセッション内のパスの次のページを訪問した訪問者です（ただし、必ずしも次のヒットで次のページに至った訪問者に限りません）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>次のヒット </p> </td> 
