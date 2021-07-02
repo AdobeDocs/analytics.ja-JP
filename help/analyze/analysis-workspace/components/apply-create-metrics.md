@@ -6,9 +6,9 @@ feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Analysis Workspace には、指標の使用方法が 2 つあります。
 
 ![](assets/calc_metrics.png)
 
-[計算指標： 実装なしの指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)（3:42）
+[計算指標： 実装なしの指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja)（3:42）
 
 ## 様々なアトリビューションモデルとの指標の比較
 
