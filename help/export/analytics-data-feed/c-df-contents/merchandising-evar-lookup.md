@@ -1,19 +1,19 @@
 ---
-title: post_product_listのマーチャンダイジングeVarインスタンス参照
-description: データフィードのpost_product_list列で、各ルックアップ値のマーチャンダイジングeVarインスタンスを見つけます。
+title: post_product_list の マーチャンダイジング eVar インスタンス参照
+description: データフィードの post_product_list 列で、各参照値のマーチャンダイジング eVar インスタンスを見つけます。
 exl-id: null
 source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# post_product_listのマーチャンダイジングeVarインスタンス参照
+# post_product_list の マーチャンダイジング eVar インスタンス参照
 
-データフィードでは、 [post_product_list](datafeeds-reference.md)列にマーチャンダイジングeVarインスタンスが含まれる場合があります。 各eVarは数値で表されます。
+データフィードでは、[post_product_list](datafeeds-reference.md) 列にマーチャンダイジング eVar インスタンスが含まれる場合があります。各 eVar は数値で表されます。
 
-post_product_listのマーチャンダイジングeVarインスタンス参照は、データフィードのevent_list参照列とは異なります。
+post_product_list のマーチャンダイジング eVar インスタンス参照は、データフィードの event_list 参照列とは異なります。
 
 | 参照値 | マーチャンダイジングインスタンス |
 |--- |--- |
