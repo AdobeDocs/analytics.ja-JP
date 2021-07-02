@@ -4,9 +4,9 @@ title: 複数通貨のサポート
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 98%
 
 ## ページレベル
 
-ターゲット通貨の JavaScript 変数は、ページレベルで設定できます。サイトの所有者は、（このドキュメントで以下に示すとおり）この変数を適切な 3 文字の ISO 4217 通貨コードで設定します。[currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) 変数がこのレベルで設定されていない場合、デフォルトの通貨はレポートスイートで指定された通貨と同じになります。ページレベルの変数がレポートスイートで指定された変数と競合する場合は、レポートスイートの変数が優先されます。
+ターゲット通貨の JavaScript 変数は、ページレベルで設定できます。サイトの所有者は、（このドキュメントで以下に示すとおり）この変数を適切な 3 文字の ISO 4217 通貨コードで設定します。[currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=ja) 変数がこのレベルで設定されていない場合、デフォルトの通貨はレポートスイートで指定された通貨と同じになります。ページレベルの変数がレポートスイートで指定された変数と競合する場合は、レポートスイートの変数が優先されます。
 
 
 ## レポートスイートレベル
 
-**ベース通貨**&#x200B;は、[レポートスイートの作成](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)時に指定されます。これは通貨のデフォルト設定で、ページレベルで設定された通貨コードよりも優先されます。したがって、レポートスイートにアメリカドル、ユーロ、イギリスポンドを受け付ける注文が含まれていて、レポートスイートのデフォルトの通貨コードが「アメリカドル」に設定されている場合、レポートのバックエンドデータベースがすべてのトランザクションをアメリカドルに変換します。
+**ベース通貨**&#x200B;は、[レポートスイートの作成](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=ja)時に指定されます。これは通貨のデフォルト設定で、ページレベルで設定された通貨コードよりも優先されます。したがって、レポートスイートにアメリカドル、ユーロ、イギリスポンドを受け付ける注文が含まれていて、レポートスイートのデフォルトの通貨コードが「アメリカドル」に設定されている場合、レポートのバックエンドデータベースがすべてのトランザクションをアメリカドルに変換します。
 
 マーケティングレポートでは、イメージリクエストが発生した時点の為替レートを使用して、ページレベルの通貨価値をレポートスイートのデフォルトの通貨価値に変換します。レポートスイートは、「アメリカドル」をデフォルトの通貨として使用します。
 
