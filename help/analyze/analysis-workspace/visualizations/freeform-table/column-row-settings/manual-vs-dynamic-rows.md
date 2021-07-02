@@ -5,9 +5,9 @@ feature: フリーフォームテーブル
 role: Business Practitioner, Administrator
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ ht-degree: 98%
 フリーフォーム合計行での動的な行と静的な行の動作は異なります。デフォルトでは:：
 
 * 動的な行はサーバーサイドで合計され、訪問数や訪問者数などの指標の重複を取り除きます。
-* 静的な行は、クライアントサイドで合計され、重複を取り除き&#x200B;**ません**。サーバーサイドの合計行を計算するには、「行」設定を「**総合計を表示**」に変更します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* 静的な行は、クライアントサイドで合計され、重複を取り除き&#x200B;**ません**。サーバーサイドの合計行を計算するには、「行」設定を「**総合計を表示**」に変更します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja)
