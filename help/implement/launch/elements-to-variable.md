@@ -3,9 +3,9 @@ title: Launch データ要素を Analytics 変数にマッピングする
 description: Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Experience Platform Launch でデータ要素のリポジトリを取得�
 
 ### ルール内での変数の設定
 
-ルールで設定された変数は、すべてのページで変数を設定したくない場合に最適です。ルールで条件を定義します。Adobe Experience Platform Launch ユーザーガイドの「[ルール](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html)」を参照してください。
+ルールで設定された変数は、すべてのページで変数を設定したくない場合に最適です。ルールで条件を定義します。Adobe Experience Platform Launch ユーザーガイドの「[ルール](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=ja)」を参照してください。
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
 1. 目的の Launch プロパティをクリックします。
