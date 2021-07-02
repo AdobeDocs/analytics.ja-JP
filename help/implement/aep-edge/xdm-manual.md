@@ -5,7 +5,7 @@ exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 80%
 
 Adobe Experience Platform（AEP）Web SDK には、Platform と Analytics の間でデータを手動でマッピングするのに役立つツールが含まれています。
 
-XDM データが自動的に Analytics にマッピングされない場合は、[コンテキストデータ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html)を追加して、[スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)に合わせることができます。その後、Analytics の[処理ルール](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)で Analytics 変数を設定するために使用できます 。
+XDM データが自動的に Analytics にマッピングされない場合は、[コンテキストデータ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=ja)を追加して、[スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja)に合わせることができます。その後、Analytics の[処理ルール](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=ja)で Analytics 変数を設定するために使用できます 。
 
 また、デフォルトのアクションと製品リストのセットを使用して、[AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)でデータを送信または取得できます。
 
@@ -57,7 +57,7 @@ Analytics が使用するために、XDM データはドット表記を使用し
 
 Experience Platform では、スキーマを使用して、一貫した再利用可能な方法でデータの構造を記述します。システム間で一貫したデータを定義することで、意味を保持しやすくなり、データから価値を得ることができます。Analytics のコンテキストデータは、スキーマで定義された構造と連携します。
 
-次の例は、AEP Web SDK でデータを送信および取得するために [`event` コマンド](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html)を `xdm` オプションで使用する方法を示しています。この例では、`event` コマンドは [ExperienceEvent Commerce 詳細スキーマ](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md)に一致し、productListItems の `name` と `SKU` 値が追跡されるようにします。
+次の例は、AEP Web SDK でデータを送信および取得するために [`event` コマンド](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja)を `xdm` オプションで使用する方法を示しています。この例では、`event` コマンドは [ExperienceEvent Commerce 詳細スキーマ](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md)に一致し、productListItems の `name` と `SKU` 値が追跡されるようにします。
 
 
 ```
