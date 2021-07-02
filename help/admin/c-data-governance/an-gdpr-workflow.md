@@ -4,9 +4,9 @@ title: プライバシーワークフロー
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
