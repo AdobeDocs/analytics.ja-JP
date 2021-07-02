@@ -3,9 +3,9 @@ title: レポートスイートツールの製品プロファイル権限
 description: レポートスイートツールの各権限項目について説明します。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 89%
 | 再来訪 | Reports &amp; Analytics で、訪問者保持率／再来訪へのアクセスを許可します。 |
 | 分類 | Report Suite Manager のすべての分類設定へのアクセスを許可します。この権限項目には、次の項目が含まれます：<br>トラフィック／トラフィック分類<br>コンバージョン／コンバージョン分類<br>コンバージョン／分類階層<br>マーケティングチャネル／マーケティングチャネル分類<br>アプリ管理／アプリ分類<br>メディア管理／メディア分類<br>AEM／AEM Assets 分類<br>Adobe Campaign／アドビ分類 |
 | 推奨レポート | Reports &amp; Analytics のサイト指標／マイ推奨レポートへのアクセスを許可します。 |
-| Reports &amp; Analyticsダッシュボード画像レポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
-| Reports &amp; Analyticsダッシュボード指標ゲージレポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
-| Reports &amp; Analyticsダッシュボードレポートスイートサマリレポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
-| Reports &amp; Analyticsのダッシュボードテキストレポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
-| Reports &amp; Analyticsダッシュボードレポートスイートサマリレポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
-| Reports &amp; Analyticsダッシュボード外部レポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
+| Reports &amp; Analytics ダッシュボードの画像レポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
+| Reports &amp; Analytics ダッシュボードの指標ゲージレポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
+| Reports &amp; Analytics ダッシュボードのレポートスイート概要レポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
+| Reports &amp; Analytics ダッシュボードのテキストレポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
+| Reports &amp; Analytics ダッシュボードのレポートスイート概要レポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
+| Reports &amp; Analytics ダッシュボードの外部レポートレット | ダッシュボードレポートレットへのアクセスを許可します。 |
 | データ修復 API | データ修復 API へのアクセスを許可 |
