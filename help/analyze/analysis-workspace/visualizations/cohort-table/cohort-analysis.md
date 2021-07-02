@@ -5,9 +5,9 @@ feature: ビジュアライゼーション
 role: Business Practitioner, Administrator
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 [!UICONTROL コホート分析]は、[!UICONTROL Analysis Workspace] へのアクセス権を持つすべての Adobe Analytics ユーザーが利用できます。
 
-[コホート分析のビデオチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) （4:36）
+[コホート分析のビデオチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=ja) （4:36）
 
 >[!IMPORTANT]
 >
