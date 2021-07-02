@@ -3,7 +3,7 @@ title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
    1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
    2. `trackingServer` 変数の値をメモしておきます。
 
-* [Adobe Experience Cloud デバッガー](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)を使用して、以下を実行します。
+* [Adobe Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用して、以下を実行します。
    1. Chrome ブラウザーを使用してサイトに移動します。
    2. Experience Cloud デバッガーを開き、「[!UICONTROL ネットワーク]」タブに移動します。
    3. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
