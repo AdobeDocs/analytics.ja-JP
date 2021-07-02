@@ -8,7 +8,7 @@ exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 >
 >タイムスタンプオプションは、今後テンプレートから作成されるすべての新しいレポートスイートのデフォルト設定になります。既存のレポートスイートからコピーした新しいレポートスイートは、元のものから設定を継承します。
 
-その他の設定情報について詳しくは、[タイムスタンプオプション](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html)を参照してください。
+その他の設定情報について詳しくは、[タイムスタンプオプション](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=ja)を参照してください。
 
 ## タイムスタンプオプション：タイムスタンプのあるデータとないデータの統合 {#section_BF17CB593044462B993FD0D28EA56518}
 
