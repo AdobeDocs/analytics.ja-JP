@@ -4,9 +4,9 @@ description: JavaScript 版 AppMeasurement のこれまでのリリースノー�
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2132'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,44 +20,44 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.22.0
 
-リリース日：**2020 年 8 月 5 日**
+リリース日：**2020 年 8 月 4 日（PT）**
 
 * ユーザーのオプトアウト設定が原因で最初のヒットが送信されなかった場合に、リファラーが失われる問題を修正しました。
 
 ## バージョン 2.21.0
 
-リリース日：**2020 年 6 月 24 日**
+リリース日：**2020 年 6 月 24 日（PT）**
 
 * Activity Map linkExclusions フィルターが Firefox に適用されない場合がある問題を修正しました。
 
 ## バージョン 2.20.0
 
-リリース日：**2020 年 3 月 5 日**
+リリース日：**2020 年 3 月 5 日（PT）**
 
 * Internet Explorer の検出を更新して JSLint の警告を表示しないことにより、セキュリティに関する問題を修正しました。
 
 ## バージョン 2.19.0
 
-リリース日：**2020 年 2 月 22 日**
+リリース日：**2020 年 2 月 21 日（PT）**
 
 * Audience Management モジュールを DIL 9.4 に更新しました。（AN-209341）
 
 ## バージョン 2.18.0
 
-リリース日：**2020 年 2 月 13 日**
+リリース日：**2020 年 2 月 13 日（PT）**
 
 * AppMeasurement で、[`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 変数を設定することで、cookie にセキュア属性を強制的に含めることができるようになりました。この変数の要件は、クライアント Web サイト全体が安全に（HTTPS）提供されることです。（AN-204604）
 
 ## バージョン 2.17.0
 
-リリース日：**2019 年 8 月 24 日**
+リリース日：**2019 年 8 月 23 日（PT）**
 
 * Baidu クエリー文字列の並べ替えのサポートが追加されました。（AN-182483）
 * オプトインの待機中にキューに登録されたヒットの訪問者の値が更新されない問題を修正しました。（AN-184391）
 
 ## バージョン 2.16.0
 
-リリース日：**2019 年 8 月 16 日**
+リリース日：**2019 年 8 月 15 日（PT）**
 
 * [!UICONTROL AppMeasurement] による出口リンク計測において、ブラウザーの `sendBeacon` 機能が活用されるようになりました。ヒットが `sendBeacon` を使用して、ページがアンロードされた場合、リクエストは完了します。ヒットがデータ収集サーバーに到達する可能性が高いので、離脱リンクにとって非常に役立ちます。（AN-175142）
 * ECID/fid の値は、オプトイン設定が変更された場合でも、最初のヒット時にキャッシュされるようになりました。（AN-175142）
@@ -67,27 +67,27 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.15.0
 
-リリース日：**2019 年 7 月 16 日**
+リリース日：**2019 年 7 月 15 日（PT）**
 
 * Activity Map 拡張機能に ActivityMap スクロールリーチトラッキングが追加されました。（AN-172949）
 * AppMeasurement に DIL 9.2 が追加されました（AN-182472）
 
 ## バージョン 2.14.0
 
-リリース日：**2019 年 5 月 22 日**
+リリース日：**2019 年 5 月 21 日（PT）**
 
 * 複数のヒットが保留中の場合のトラッカーパラメーターの状態の管理の問題を修正しました。（AN-176931、AN-176629、DTM-12758）
 * AppMeasurement を更新し、Visitor.js 4.3.0 が含まれるようになりました（AN-180049）
 
 ## バージョン 2.13.0
 
-リリース日：**2019 年 4 月 11 日**
+リリース日：**2019 年 4 月 10 日（PT）**
 
 * clearVars で報告された多くの問題を修正しました。この問題は、トラッカーの準備が整う前にヒットが送信された場合に発生します。トラッカーの準備が整うと、ライブラリは、既にクリアまたは変更された変数を設定できます。（AN-176931、AN-176629、DTM-12758）
 
 ## バージョン 2.12.0
 
-リリース日：**2019 年 2 月 23 日**
+リリース日：**2019 年 2 月 22 日（PT）**
 
 * Audience Management モジュールを DIL 9.1 に更新しました。（AN-175255）
 * GTM セキュリティポリシーにより Activity Map モジュールが許可されない問題を解決しました。（AN-174679）
@@ -95,7 +95,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.11.0
 
-リリース日&#x200B;**：2019 年 2 月 12 日**
+リリース日&#x200B;**：2019 年 2 月 11 日（PT）**
 
 * AppMeasurement に新しい Adobe オプトインサービス機能のサポートが追加されました。（AN-163546）
 * セッションストレージにリンクトラッキングデータを保存するためのサポートが追加されました。（AN-162272）
@@ -103,7 +103,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.10.0
 
-リリース日：**2018 年 9 月 21 日**
+リリース日：**2018 年 9 月 20 日（PT）**
 
 このリリースでは、[!DNL AppMeasurement] ライブラリがすべての接続タイプに対して Cookie を適切に送信するようになります。
 
@@ -114,7 +114,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.9.0
 
-リリース日：**2018 年 5 月 25 日**
+リリース日：**2018 年 5 月 24 日（PT）**
 
 >[!NOTE]
 >
@@ -308,8 +308,8 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2015 年 5 月 22 日**
 
-* iOS SDK バージョン 4.5 から、新しい iOS 拡張機能により、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの iOS 拡張機能アプリから使用データを収集できるようになりました。『Mobile Services ユーザーガイド』の [iOS 拡張機能の実装](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html)を参照してください。
-* Android SDK バージョン 4.5 から、新しい Android 拡張機能によって Android ウェアラブルアプリからデータを収集できるようになりました。詳しくは、『Mobile Services ユーザーガイド』の [Android ウェアラブル](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html)を参照してください。
+* iOS SDK バージョン 4.5 から、新しい iOS 拡張機能により、Apple Watch アプリ、Today ウィジェット、Photo Editing ウィジェットなどの iOS 拡張機能アプリから使用データを収集できるようになりました。『Mobile Services ユーザーガイド』の [iOS 拡張機能の実装](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=ja)を参照してください。
+* Android SDK バージョン 4.5 から、新しい Android 拡張機能によって Android ウェアラブルアプリからデータを収集できるようになりました。詳しくは、『Mobile Services ユーザーガイド』の [Android ウェアラブル](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=ja)を参照してください。
 * Visitor API 1.4 を同梱しました。
 * AudienceManagement モジュールが更新され、DIL バージョン 6.0 を使用できるようになりました。
 
@@ -394,7 +394,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2014 年 4 月 18 日**
 
-* [Experience Cloud 訪問者 ID サービスのサポート](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* [Experience Cloud 訪問者 ID サービスのサポート](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)。
 
 ## バージョン 1.2.4
 
@@ -424,8 +424,8 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 リリース日：**2013 年 11 月 15 日**
 
-* [ハードビートビデオ指標](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)のサポートを追加しました。
-* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [ハードビートビデオ指標](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)のサポートを追加しました。
+* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 
