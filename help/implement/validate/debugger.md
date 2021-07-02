@@ -3,7 +3,7 @@ title: レガシー Adobe Experience Cloud デバッガー
 description: レガシー Adobe Experience Cloud デバッガーをインストールします。このデバッガーは、Analytics、Target、Advertising Cloud、ID サービス、 および Launch のタグを調べます。
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->このデバッグツールはメンテナンスされなくなりました。代わりに、[Adobe Experience Cloud デバッガー Chrome 拡張機能](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)を使用することをお勧めします。
+>このデバッグツールはメンテナンスされなくなりました。代わりに、[Adobe Experience Cloud デバッガー Chrome 拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用することをお勧めします。
 
 [!UICONTROL レガシーデバッガー]は、ほとんどの Adobe Experience Cloud サービスに対してタグを調べます。デバッガーを使用すると、サイトの任意のページでアドビに送信されるデータを確認できます。この情報を使用して、組織の導入のトラブルシューティングや検証をおこなうことができます。
 
@@ -35,7 +35,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-[Chrome 拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)を使用したくない場合は、レガシーデバッガーブックマークレットを代わりに使用できます。
+[Chrome 拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用したくない場合は、レガシーデバッガーブックマークレットを代わりに使用できます。
 
 1. 右上の 3 つのドットをクリックし、ブックマーク／ブックマークマネージャーに移動します。また、`Ctrl` + `Shift` + `O`（Windows）または `Cmd` + `Shift` + `O`（Mac）を押すこともできます。
 2. ブックマークマネージャーの右上で、3 つのドットをクリックし、「新しいブックマークの追加」をクリックします。
