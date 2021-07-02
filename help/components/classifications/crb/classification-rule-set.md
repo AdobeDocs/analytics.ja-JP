@@ -7,7 +7,7 @@ uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 1. （前提条件）**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;で、分類構造を定義します。
 
-   （分類の追加については、管理ツールのヘルプの[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)を参照してください。）
+   （分類の追加については、管理ツールのヘルプの[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja)を参照してください。）
 
    変数は、その変数に対して 1 つ以上の分類が定義されている場合にのみ[!UICONTROL 新しいルールセット]パネルに表示されます。
 
