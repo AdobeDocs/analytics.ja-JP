@@ -3,7 +3,7 @@ title: 実装 FAQ
 description: 実装に関するよくある質問と、詳細情報へのリンクです。
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ID サービスは、Experience Cloud の他のソリューション間で共有
 
 ## ハートビートビデオトラッキングを実装する方法を教えてください。
 
-[Adobe Analytics でのオーディオおよびビデオの測定](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)を参照してください。
+[Adobe Analytics でのオーディオおよびビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を参照してください。
 
 ## アドビのサービスを中断すると、パフォーマンスに影響を与える可能性はありますか。
 
