@@ -5,7 +5,7 @@ feature: Workspace の基本
 role: Business Practitioner, Administrator
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
 ht-degree: 100%
 
