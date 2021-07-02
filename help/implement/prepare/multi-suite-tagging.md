@@ -3,37 +3,37 @@ description: 複数のスイートタグ付けを実装し、イメージリク�
 title: 複数のスイートタグ付けの実装
 exl-id: null
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # 複数のスイートタグ付けの実装
 
-[マルチスイートタギ](/help/admin/c-manage-report-suites/rollup-report-suite.md) ングを使用すると、イメージリクエストをグローバルレポートスイートだけでなく個々の子レポートスイートに送信して、会社のグローバルレポートスイートデータのサブセットを様々なエンドユーザーに提供できます。
+[複数のスイートタグ付け](/help/admin/c-manage-report-suites/rollup-report-suite.md)を使用すると、イメージリクエストをグローバルレポートスイートだけでなく個々の子レポートスイートに送信して、会社のグローバルレポートスイートデータのサブセットを様々なエンドユーザーに提供できます。
 
-複数のスイートタグ付けを実装するには、Webページやアプリのトラッキングコードに、グローバルレポートスイートのレポートスイートID(RSID)と、該当する子レポートスイートのRSIDを含める必要があります。
+複数のスイートタグ付けを実装するには、eb ページやアプリのトラッキングコードに、グローバルレポートスイートのレポートスイート ID（RSID）と、該当する子レポートスイートの RSID を含める必要があります。
 
-* Adobe Experience Platform Launch実装の場合、[[!DNL Analytics] 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)の各レポートスイートを指定します。
+* Adobe Experience Platform Launch 実装の場合、[[!DNL Analytics] 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ja)の各レポートスイートを指定します。
 
-* レガシーJavaScriptおよびモバイルSDKを実装する場合、RSIDをコンマで区切り、スペース（`rsid1,rsid2,rsid3`など）は使用しません。
+* レガシー JavaScript およびモバイル SDK を実装する場合、RSID をコンマで区切り、スペースは使用しません（`rsid1,rsid2,rsid3` など）。
 
-* その他の実装タイプでは、必要な構文を使用して複数のRSIDをリストします。
+* その他の実装タイプの場合は、必要な構文を使用して複数の RSID をリストします。
 
 >[!TIP]
 >
-> 最初にグローバルレポートスイートまたはレポートスイートIDをリストすることをお勧めします。
+> ベストプラクティスとして、最初にグローバルレポートスイートまたはレポートスイート ID をリストすることをお勧めします。
 
-マルチスイートタギングには、各イメージリクエストに対して複数のサーバーコールが必要です。グローバルレポートスイートへのプライマリ呼び出しと、各子レポートスイートのセカンダリ呼び出し。
+複数のスイートタグ付けには、各イメージリクエストに対して複数のサーバー呼び出しが必要です：グローバルレポートスイートへのプライマリ呼び出しと、各子レポートスイートのセカンダリ呼び出し。
 
 >[!NOTE]
 >
-> [仮想レポートスイート](/help/components/vrs/vrs-about.md)（会社のグローバルレポートスイートデータのサブセットを様々なエンドユーザーに提供できます）には、セカンダリサーバーコールは発生しません。
+> [仮想レポートスイート](/help/components/vrs/vrs-about.md)（会社のグローバルレポートスイートデータのサブセットを様々なエンドユーザーに提供できます）には、セカンダリサーバー呼び出しは発生しません。
 
 ## 複数のスイートタグ付けまたは仮想レポートスイートを実装する必要がありますか？
 
 多くの場合、複数のスイートタグ付けの代わりに仮想レポートスイートを使用することがベストプラクティスですが、ビジネスニーズに応じて組織に最適なレポートスイートアプローチを決定する必要があります。
 
-仮想レポートスイートが最適なアプローチかどうかを理解するには、「[仮想レポートスイートと複数のスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md)」を参照してください。 複数のスイートタグ付けと仮想レポートスイートの機能の比較については、「[仮想レポートスイートとマルチスイートタグ付け](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)」も参照してください。
+仮想レポートスイートが最適なアプローチかどうかを理解するには、[仮想レポートスイートと複数のスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md)を参照してください。複数のスイートタグ付けと仮想レポートスイートの機能の比較については、[仮想レポートスイートと複数のスイートタグ付けの比較](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)も参照してください。
