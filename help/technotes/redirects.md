@@ -149,7 +149,7 @@ redirects_verify_referrer.xml
 
 リファラー、発信元 URL（*`s_server`*）およびキャンペーン変数が取り込まれていることを確認するために、テストを実行します。
 
-[Experience Cloud デバッガー](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)では、これらの変数が次のパラメーターで表されます。
+[Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)では、これらの変数が次のパラメーターで表されます。
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
