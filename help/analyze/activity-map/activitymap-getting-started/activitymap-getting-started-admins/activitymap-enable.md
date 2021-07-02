@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Activity Map のデータは、このバージョン以上の AppMeasurement に
 
    Admin Console のグループ管理ページが表示されます。
 
-1. [このグループにユーザーを追加](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)して「**[!UICONTROL グループの保存]**」をクリックします。
+1. [このグループにユーザーを追加](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)して「**[!UICONTROL グループの保存]**」をクリックします。
 
 1. これで、管理者ユーザーは、**[!UICONTROL Adobe Analytics]**／**[!UICONTROL ツール]**／**[!UICONTROL Activity Map]** から Activity Map をダウンロードできます。
 
