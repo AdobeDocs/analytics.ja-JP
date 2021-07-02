@@ -5,9 +5,9 @@ user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: 'どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。 '
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
    + ページ変数 {page-vars}
       + [ページ変数の概要](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
-      + [channel](vars/page-vars/channel.md)
+      + [チャネル](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [動的変数](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
