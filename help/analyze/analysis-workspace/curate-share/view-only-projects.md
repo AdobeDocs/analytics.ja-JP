@@ -6,7 +6,7 @@ feature: キュレーションと共有
 role: Business Practitioner, Administrator
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
 ht-degree: 100%
 
