@@ -2,9 +2,9 @@
 description: 分類ルールビルダーを下位分類と組み合わせることはできません。
 title: 下位分類とルールビルダー
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 >
 >次の手順では、「[下位分類とルールビルダー](/help/components/classifications/crb/sub-classification-rule-builder.md)」に記載された使用例を実現する方法を説明します。
 
-1. [分類マネージャー](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)で、分類と下位分類を作成します。
+1. [分類マネージャー](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ja)で、分類と下位分類を作成します。
 
    例：
 
