@@ -3,9 +3,9 @@ description: この詳細なガイドでは、必要な権限や使用可能な�
 title: Advertising Analytics のガイド
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1261'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Advertising Analytics を使用すると、すべての Google および Bing �
 >
 > Yahoo Gemini は、2019 年 3 月 31 日（PT）に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。
 
-これらの検索エンジンからデータをまとめて Adobe Analytics に取り込むことで、Analysis Workspace の高い機能性を利用して同じデータを分析できます。Workspace に含まれる新しい[有料検索パフォーマンス](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)テンプレートにより、この分析を容易におこなうことができます。
+これらの検索エンジンからデータをまとめて Adobe Analytics に取り込むことで、Analysis Workspace の高い機能性を利用して同じデータを分析できます。Workspace に含まれる新しいWorkspace の[有料検索パフォーマンス](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)テンプレートにより、この分析を容易におこなうことができます。
 
 ![](assets/aa_aw.png)
 
