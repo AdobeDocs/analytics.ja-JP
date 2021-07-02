@@ -3,15 +3,15 @@ title: Experience Cloud ID を持つ訪問者
 description: Adobe Experience Cloud ID サービスを使用しているユニーク訪問者の数です。
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud ID を持つ訪問者
 
-「Experience Cloud ID を持つ訪問者」指標は、アドビが [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)を使用して識別したユニーク訪問者の数を示します。このディメンションは、[ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの大部分の訪問者が ID サービスを使用していることを確認するのに役立ちます。訪問者の大部分が ID サービス cookie を使用していない場合は、実装内の問題を示している可能性があります。
+「Experience Cloud ID を持つ訪問者」指標は、アドビが [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用して識別したユニーク訪問者の数を示します。このディメンションは、[ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの大部分の訪問者が ID サービスを使用していることを確認するのに役立ちます。訪問者の大部分が ID サービス cookie を使用していない場合は、実装内の問題を示している可能性があります。
 
 >[!NOTE]
 >
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 ## この指標の計算方法
 
-この指標は、[ユニーク訪問者](unique-visitors.md)指標に基づきますが、`mid` クエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) cookie に基づく）を使用して識別された個人のみが含まれます。
+この指標は、[ユニーク訪問者](unique-visitors.md)指標に基づきますが、`mid` クエリ文字列（[`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja) cookie に基づく）を使用して識別された個人のみが含まれます。
 
 ## Experience Cloud ID 設定のデバッグ
 
