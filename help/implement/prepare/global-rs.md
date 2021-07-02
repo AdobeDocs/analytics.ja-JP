@@ -3,9 +3,9 @@ title: Adobe Analytics のグローバルレポートスイート
 description: グローバルレポートスイートを使用する利点と要件を理解します。
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '872'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 98%
    >
    > 任意のカスタム変数がドメイン間で同様に使用されていることを確認します。サイト間で異なる目的で同じ eVar またはイベントを使用しないでください。
 1. 各ドメインにデータ層があり、データ収集を簡略化できることを確認します。データ層を使用せずにデータを収集することはできますが、実装の信頼性と長期間は、特にサイトのデザインが変更されるにつれて減少します。
-1. Analytics を実装するには、Adobe Experience Platform Launch を使用します。サイトごとに異なるデータ要素が必要になる場合があります。各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。『Adobe Experience Platform Launch ユーザーガイド』の [Launch の概要](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html)を参照してください。
-1. [Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)を含め、[appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) 関数を使用します。この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データをマージします。
+1. Analytics を実装するには、Adobe Experience Platform Launch を使用します。サイトごとに異なるデータ要素が必要になる場合があります。各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。『Adobe Experience Platform Launch ユーザーガイド』の [Launch の概要](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ja)を参照してください。
+1. [Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を含め、[appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja) 関数を使用します。この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データをマージします。
 
 ## グローバルレポートスイートを使用した既存の実装の変更
 
