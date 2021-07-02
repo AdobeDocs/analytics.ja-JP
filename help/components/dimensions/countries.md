@@ -3,7 +3,7 @@ title: 国
 description: ヒットの元の国。
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
 source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
