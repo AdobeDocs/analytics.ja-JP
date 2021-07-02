@@ -5,9 +5,9 @@ feature: セグメント化
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2036'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 * **Analytics 上部ナビゲーション**：**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL セグメント]**&#x200B;をクリックします。
 * **[!UICONTROL Analysis Workspace]**：**[!UICONTROL Analytics]**／**[!UICONTROL Workspace]** に移動し、プロジェクトを開いて **[!UICONTROL + 新規]**／**[!UICONTROL セグメントを作成]**&#x200B;をクリックします。
 * **[!UICONTROL Reports &amp; Analytics]**：**[!UICONTROL Analytics]**／**[!UICONTROL レポート]**&#x200B;で、既存のレポートを開いて、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックしてから、「**[!UICONTROL 追加]**」をクリックします。
-* **[!UICONTROL Report Builder]**：[レポートビルダーでセグメントを追加または編集します。](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html)
+* **[!UICONTROL Report Builder]**：[レポートビルダーでセグメントを追加または編集します。](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=ja)
 
 ## ビルダー条件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
