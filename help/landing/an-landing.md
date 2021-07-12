@@ -2,7 +2,7 @@
 description: Adobe Analytics の新しい継続的な機能リリース戦略を説明します。
 title: 新しいAdobe Analyticsランディングページ
 hide-in-toc: true
-source-git-commit: e81ffc2ae03dd3d45a0286d37d7851a4302ad3aa
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 Adobe分析の新しいランディングページでは、Analysis WorkspaceとReports &amp; Analyticsの両方が、Workspaceの傘下にある単一のインターフェイスとアクセスポイントに統合されます。 新しいプロジェクトマネージャーのホームページ、更新されたレポートメニュー、最新化されたレポートのほか、より効果的に使い始めるのに役立つ新しい学習セクションが追加されました。
 
-この新しいページでは、検出性が向上し、Reports &amp; AnalyticsのユーザーがWorkspaceのレポート作成機能を強化できるようになります。
+この新しいページでは、検出性が向上し、Reports &amp; AnalyticsのユーザーがWorkspaceのレポート作成機能の向上に役立ちます。
 
 >[!NOTE]
 >
