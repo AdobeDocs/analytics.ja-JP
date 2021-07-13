@@ -3,10 +3,10 @@ description: Activity Map での設定や機能の使用に関するよくある
 title: Activity Map の FAQ
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
