@@ -3,12 +3,12 @@ description: レポートの実行後は、レポートをカスタマイズし�
 title: レポートのカスタマイズの概要
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics の基本
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
->ダッシュボード内で主要指標について日付比較を行いたい場合は、2 つの異なるリクエストを使用してデータを [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) に取り込みます。その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
+>ダッシュボード内で主要指標について日付比較を行いたい場合は、2 つの異なるリクエストを使用してデータを [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ja) に取り込みます。その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
 
 Reports &amp; Analytics のランクレポート間で日付を比較するには、以下のようにします。
 
@@ -223,4 +223,4 @@ Reports &amp; Analytics のほとんどのレポートには現在、「ワー�
 
 現在、このボタンが使用できるのは、ユーザーに Analysis Workspace の完全な権限が付与されている場合のみです。
 
-レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) ガイドを参照してください。
+レポートをカスタマイズするすべての方法について詳しくは、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) ガイドを参照してください。
