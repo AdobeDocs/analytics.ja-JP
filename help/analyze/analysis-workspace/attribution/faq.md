@@ -2,11 +2,10 @@
 title: アトリビューションに関する FAQ
 description: アトリビューションに関する FAQ に対する回答です。
 feature: アトリビューション
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 100%
 
