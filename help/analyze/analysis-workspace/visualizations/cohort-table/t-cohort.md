@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: コホート分析レポートの実行
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 feature: ビジュアライゼーション
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 100%
 
