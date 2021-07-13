@@ -3,15 +3,14 @@ description: オーバーレイを使用すると、複数の方法でデータ�
 title: カスタマイズ可能なオーバーレイ
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 99%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
-
 
 # カスタマイズ可能なオーバーレイ
 
@@ -31,7 +30,7 @@ Activity Map では次の 3 つのタイプのオーバーレイが提供され�
 
 オーバーレイにカーソルを合わせると、その[詳細](/help/analyze/activity-map/activitymap-overlay-details.md)が表示されます。
 
-## グラデーションオーバーレイ（ヒートマップ） {#section_06AF13DE05A1454D960176CD0DA921A6}
+## グラデーションオーバーレイ（ヒートマップ）  {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 グラデーションオーバーレイでは、色の強度はリンクの人気度に基づきます。この強度は、上位 30 件、または指標絶対値の関数に合わせて標準化できます。
 
@@ -64,4 +63,3 @@ Activity Map では次の 3 つのタイプのオーバーレイが提供され�
 このリアルタイムのオーバーレイでは、前回の期間と現在の期間の間の指標値の変化に基づいてクリック数をランク付けします。
 
 ![](assets/gainers_losers.png)
-
