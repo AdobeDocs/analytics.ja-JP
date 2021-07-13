@@ -3,11 +3,10 @@ description: Workspace プロジェクトでフロービジュアライゼーシ
 title: フローの設定
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
 feature: ビジュアライゼーション
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 12a358b4-4f8e-4201-9f97-5c07c91f301e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
