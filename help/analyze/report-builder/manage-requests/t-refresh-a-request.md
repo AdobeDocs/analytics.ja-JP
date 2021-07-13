@@ -3,15 +3,14 @@ description: 編集やフィルターでリクエストを変更した後や、�
 title: リクエストの更新
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 319dc040-92cf-4289-9373-bc165e58c2db
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+source-wordcount: '211'
+ht-degree: 100%
 
 ---
-
 
 # リクエストの更新
 
