@@ -3,15 +3,14 @@ description: Report Builder の「リクエストの管理」におけるフィ�
 title: リクエストの管理 - 定義
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 99%
+source-wordcount: '547'
+ht-degree: 100%
 
 ---
-
 
 # リクエストの管理 - 定義
 
@@ -38,7 +37,7 @@ Report Builder の「リクエストの管理」におけるフィールドの�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>すべて シート </p> </td> 
+   <td colname="col1"> <p>すべてのシート </p> </td> 
    <td colname="col2"> <p>実行中のワークブックにあるすべてのシート上のリクエストを表示します。特定のシートのリクエストを表示するには、このオプションをオフにします。このオプションをオフにする場合は、Excel の下側にある「シート」タブをクリックして、 <span class="wintitle"> Request Manager</span> で該当シートを最前面に表示しておく必要があります。このチェックボックスの隣のラベルは、現在フォーカスがあるワークブックのシート名になります。 </p> </td> 
   </tr> 
   <tr> 
@@ -91,4 +90,3 @@ Report Builder の「リクエストの管理」におけるフィールドの�
   </tr> 
  </tbody> 
 </table>
-
