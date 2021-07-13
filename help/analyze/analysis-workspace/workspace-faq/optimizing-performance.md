@@ -3,10 +3,10 @@ description: Workspace のパフォーマンスに影響する要因と実行で
 title: Analysis Workspace のパフォーマンス要因と最適化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 feature: Workspace の基本
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 100%
 
