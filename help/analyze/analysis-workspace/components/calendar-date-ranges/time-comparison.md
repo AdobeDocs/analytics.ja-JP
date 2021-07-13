@@ -3,10 +3,10 @@ description: Analysis Workspace での日付の比較では、日付範囲を含
 title: 日付の比較
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 feature: Workspace の基本
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: baea0f33276b07a93144d2225935013ab7007005
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
 
