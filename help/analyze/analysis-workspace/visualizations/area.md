@@ -3,11 +3,10 @@ description: この Workspace ビジュアライゼーションは折れ線グ�
 title: 面グラフおよび積み重ね面グラフ
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: ビジュアライゼーション
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
 
