@@ -3,15 +3,14 @@ description: 「ページの詳細」タブには、ページレポートは表�
 title: ページの詳細
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 98%
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
-
 
 # ページの詳細
 
@@ -39,4 +38,3 @@ ht-degree: 98%
 | 前のページ | レポートスイートの中の、現在のページより前にある内部ページの名前。 |
 | 次のページ | 現在のページの後に訪問されるページ。 |
 | サイトからの離脱 | ページを閲覧後にサイトを完全に離脱した人数。 |
-
