@@ -3,15 +3,14 @@ description: 値を直接指定するフィルターです。
 title: 特定のフィルター
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 90%
+source-wordcount: '318'
+ht-degree: 91%
 
 ---
-
 
 # 特定のフィルター
 
@@ -37,6 +36,6 @@ ht-degree: 90%
    * **リストから選択：**&#x200B;データの追加先のリストからデータを選択します。
 1. 「**[!UICONTROL リストから選択]**」を有効にする場合は、使用可能な項目をリストから選択するか、「**[!UICONTROL 追加]**」をクリックします。
 
-   **[!UICONTROL 追加]**&#x200B;をクリックすると、[!UICONTROL 「リストから選択」]フォームに、現在のリクエストの日付範囲で使用できるディメンション項目のリストが表示されます。この項目は最初の10,000項目に制限されます。 これらの項目を検索することもできます。または、「**[!UICONTROL その他...]**」をクリックして[!UICONTROL 「検索」フォーム]を表示し、ディメンションのより詳細な検索を行います。
+   「****&#x200B;を追加[!UICONTROL 」をクリックすると、「リストから選択]」フォームに、現在のリクエストの日付範囲で使用可能なディメンション項目（最初の10,000項目に制限）のリストが表示されます。 これらの項目を検索することもできます。または、「**[!UICONTROL その他...]**」をクリックして[!UICONTROL 「検索」フォーム]を表示し、ディメンションのより詳細な検索を行います。
 1. 「[!UICONTROL リストから選択]」で、「**[!UICONTROL OK]**」をクリックします。
 1. 「[!UICONTROL ページを選択]」フォームでフィルターを保存して、「**[!UICONTROL OK]**」をクリックします。
