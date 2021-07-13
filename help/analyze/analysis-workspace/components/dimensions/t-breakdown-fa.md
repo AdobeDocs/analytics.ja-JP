@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: ディメンションの分類
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 feature: Workspace の基本
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 95%
