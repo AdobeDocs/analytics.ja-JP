@@ -3,15 +3,14 @@ description: Report Builder で異常値検出関連データを抽出する手�
 title: 異常値検出リクエストの設定
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 98%
+source-wordcount: '174'
+ht-degree: 100%
 
 ---
-
 
 # 異常値検出リクエストの設定
 
