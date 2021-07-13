@@ -3,15 +3,14 @@ description: Adobe Activity Map の追加の情報リソースを参照してく
 title: 情報リソース
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 3b79c1d4-641d-4543-8566-c1bdc6589742
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 96%
+source-wordcount: '93'
+ht-degree: 100%
 
 ---
-
 
 # 情報リソース
 
