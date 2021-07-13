@@ -2,11 +2,10 @@
 description: フリーフォームパネルについて説明します。
 title: フリーフォームパネル
 feature: パネル
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 100%
 
