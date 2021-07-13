@@ -3,9 +3,9 @@ description: Adobe Analytics の Activity Map ツールバー内から完全な�
 title: 完全な指標セット
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6de4ef4d-913d-4c66-916e-56cc81f1e6c7
-source-git-commit: f9a5b1ae08209260b4e4694b743932627a0c2019
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
