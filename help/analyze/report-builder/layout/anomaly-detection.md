@@ -3,17 +3,16 @@ description: 異常値検出は、統計的なモデリングを使用して、�
 title: 異常値検出
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 99%
+source-wordcount: '520'
+ht-degree: 100%
 
 ---
 
-
-# 異常値検出 {#anomaly-detection}
+# 異常値検出{#anomaly-detection}
 
 異常値検出は、統計的なモデリングを使用して、データ内の予期しないトレンドを自動的に見つけます。モデルによって指標を分析し、値の下限、上限、予想される範囲を決定します。予期しないスパイクまたは下落が発生した場合にレポートします。
 
