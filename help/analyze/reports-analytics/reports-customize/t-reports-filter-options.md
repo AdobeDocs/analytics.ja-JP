@@ -3,9 +3,9 @@ description: フィルターを使用すると、フィルターに一致する�
 title: レポートデータのフィルタリング
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics の基本
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 99%
