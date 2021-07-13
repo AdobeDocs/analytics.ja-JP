@@ -3,15 +3,14 @@ description: すべてのシート上のリクエストを一括で更新する�
 title: すべてのシートのリクエストの更新
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 650c1626-be2d-4e4c-bcd9-bd9665ef9550
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 98%
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
-
 
 # すべてのシートのリクエストの更新
 
