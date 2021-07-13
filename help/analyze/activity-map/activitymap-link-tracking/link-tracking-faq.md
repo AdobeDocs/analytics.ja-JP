@@ -3,10 +3,9 @@ description: Activity Map でのリンクトラッキングに関するよくあ
 title: リンクトラッキングの FAQ
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-translation-type: tm+mt
-source-git-commit: 7ba73d75dde80571125c83efb3265441b8d3278a
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 43%
@@ -28,50 +27,50 @@ Activity Map トラッキングによって PII データが収集される可�
 * 金融機関では、口座番号がリンクとして表示されている場合があります。そのリンクをクリックすると、リンクのテキストが収集されます。
 * また、医療関連の Web サイトでも、PII データがリンクとして表示されている場合があります。これらのリンクをクリックすると、リンクのテキストが収集されるので、PII データが収集されることになります。
 
-## リンクトラッキングはいつ行われますか。
+## リンクトラッキングはいつおこなわれますか？
 
-Activity Mapリンクと地域の識別は、ユーザーがページをクリックしたときに行われます。
+Activity Mapリンクと地域の識別は、ユーザーがページをクリックしたときに発生します。
 
-## デフォルトでは何が追跡されますか。
+## デフォルトでは何が追跡されますか？
 
-要素に対してクリックイベントが発生した場合、その要素はいくつかのチェックに合格し、AppMeasurementがその要素をリンクとして処理するかどうかを判断する必要があります。 チェックは以下のとおりです。
+要素に対してクリックイベントが発生した場合、その要素はいくつかのチェックに合格し、AppMeasurementが要素をリンクとして処理するかどうかを判断する必要があります。 チェックは以下のとおりです。
 
-* `href`プロパティを持つ`A`タグまたは`AREA`タグですか。
+* `href`プロパティを持つ`A`タグか`AREA`タグか。
 * `s_objectID`変数を設定する`onclick`属性はありますか。
-* 値または子テキストを持つ`INPUT`タグまたは`SUBMIT`ボタンですか。
-* これはタイプ`IMAGE`と`src`プロパティを持つ`INPUT`タグですか？
-* `BUTTON`?
+* これは、値または子テキストを持つ`INPUT`タグまたは`SUBMIT`ボタンですか？
+* これは、型`IMAGE`と`src`プロパティを持つ`INPUT`タグですか？
+* これは`BUTTON`ですか？
 
 上記のいずれかの質問に対する答がはいの場合、要素はリンクとして処理され、追跡されます。
 
 >[!IMPORTANT]
 >
->attribute type=&quot;button&quot;のボタンタグは、AppMeasurementによるリンクと見なされません。 ボタンタグからtype=&quot;button&quot;を削除し、代わりにrole=&quot;button&quot;またはsubmit=&quot;button&quot;を追加することを検討してください。
+>AppMeasurementでは、属性type=&quot;button&quot;を持つbuttonタグは、リンクと見なされません。 buttonタグからtype=&quot;button&quot;を削除し、代わりにrole=&quot;button&quot;またはsubmit=&quot;button&quot;を追加することを検討してください。
 
 >[!IMPORTANT]
 >
->「href」を含むアンカータグ(「#」を含む開始は、リンクではなくAppMeasurementによって内部ターゲットの場所と見なされます)。ページから移動しないためです。 デフォルトでは、Activity Map は、これらの内部のターゲット場所を追跡しません。ユーザーを新しいページにナビゲートするリンクのみを追跡します。
+>「#」で始まる「href」を含むアンカータグは、リンクではなく、AppMeasurementによって内部のターゲット位置と見なされます（ページを離れないので）。 デフォルトでは、Activity Map は、これらの内部のターゲット場所を追跡しません。ユーザーを新しいページにナビゲートするリンクのみを追跡します。
 
-## Activity Mapは、他の視覚的なHTML要素をどのように追跡するか。
+## Activity Mapは、その他の視覚的HTML要素をどのように追跡しますか。
 
-a.`s.tl()`関数を使用します。
+a.`s.tl()`関数を使用。
 
-`s.tl()`呼び出しを介してクリックが発生した場合、Activity Mapもこのクリックイベントを受け取り、`linkName`文字列変数が見つかったかどうかを判断します。 `s.tl()`の実行中に、そのlinkNameがActivity MapリンクIDとして設定されます。 クリックされた、`s.tl()`呼び出しの発生元の要素は、領域の特定に使用されます。 例：
+クリックが`s.tl()`の呼び出しを通じて発生した場合、Activity Mapもこのクリックイベントを受け取り、`linkName`文字列変数が見つかったかどうかを判断します。 `s.tl()`の実行中に、そのlinkNameがActivity MapリンクIDとして設定されます。 `s.tl()`呼び出しを発生させたクリックされた要素を使用して、領域が特定されます。 例：
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b.`s_objectID`変数を使用します。 例：
+b.`s_objectID`変数を使用。 例：
 
-    &quot;
+    &quot;&#39; 
     
     &lt;a>&lt;img>&lt;/a>
     
     &lt;a>Link Text Here&lt;/a>
     
     
-    &quot;
+    &quot;&#39;
 
 >[!IMPORTANT]
 >
@@ -138,6 +137,6 @@ b.`s_objectID`変数を使用します。 例：
    
    ```  
    
-1. 理由：&quot;src&quot;プロパティにフォーム入力要素がありません：
+1. 理由：&quot;src&quot;プロパティにフォーム入力要素がない：
 
    `<input type="image"/>`
