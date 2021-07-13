@@ -3,11 +3,10 @@ description: Activity Map は Adobe Analytics のアプリケーションであ�
 title: Activity Map の概要
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -43,7 +42,7 @@ Activity Map を使用すると、様々なビューを設定することによ�
 * [ページの詳細](activitymap-page-flow.md)
 * [完全な指標セット](activitymap-complete-metrics.md)
 * [リアルタイム（ライブ）ページ分析](activitymap-realtime.md)
-* [顧客セグメント](activitymap-multiple-segments.md)
+* [顧客のセグメント化](activitymap-multiple-segments.md)
 * [カスタマイズ可能なオーバーレイ](activitymap-gainerslosers.md)
 * [オーバーレイの詳細](activitymap-overlay-details.md)
 * [CSV ファイルへの書き出し](activitymap-csv.md)
