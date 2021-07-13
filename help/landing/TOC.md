@@ -2,10 +2,10 @@
 product: analytics
 audience: all
 user-guide-title: Adobe Analytics ドキュメント
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '118'
-ht-degree: 100%
+source-git-commit: 4868278e88807e0f34f78f5063643f3a0b4de3df
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 96%
 
 ---
 
@@ -13,6 +13,7 @@ ht-degree: 100%
 # Adobe Analytics ドキュメント {#landing}
 
 * [ホーム](home.md)
+* [新しいAnalyticsランディングページ](an-landing.md)
 * [Adobe Analytics 主要概念](an-key-concepts.md)
 * [ツールガイド](https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=ja)
 * [管理ガイド](https://experienceleague.adobe.com/docs/analytics/admin/home.html?lang=ja)
