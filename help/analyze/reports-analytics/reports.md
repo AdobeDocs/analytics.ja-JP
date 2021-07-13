@@ -2,10 +2,9 @@
 title: レポート
 description: 各レポートで Reports & Analytics が使用するディメンションと指標。
 feature: レポート & Analytics の基本事項
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 100%
