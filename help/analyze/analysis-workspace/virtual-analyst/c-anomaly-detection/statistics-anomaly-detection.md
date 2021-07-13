@@ -2,11 +2,10 @@
 description: データの不整合は、重大な問題の原因となる可能性があります。 アドビの異常値検出技術を使用して、統計的な異常値を識別する方法について説明します。 今すぐ取りかかりましょう。
 title: 異常値検出で使用される統計的手法
 feature: AI ツール
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
 
