@@ -3,21 +3,20 @@ description: Report Builder のユーザーインターフェイスにアクセ�
 title: Microsoft Excel の関数からの Report Builder 機能の呼び出し
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '494'
 ht-degree: 99%
 
 ---
-
 
 # Microsoft Excel の関数からの Report Builder 機能の呼び出し
 
 Report Builder のユーザーインターフェイスにアクセスすることなく、Excel の関数のみで Report Builder リクエストを操作できます。
 
-例えば、Excel 内で他のソースから取得されたデータに基づいて入力フィルターを適用する Report Builder リクエストを自動的に更新することができます。このような処理を、string RefreshRequestsInCellsRange(..)関数を使用して実行できます。すべての呼び出しは非同期で実行されます。関数は、呼び出しの処理が完全に実行されるまで待機せず、すぐに制御が戻ります。
+例えば、Excel 内で他のソースから取得されたデータに基づいて入力フィルターを適用する Report Builder リクエストを自動的に更新することができます。このような処理を、string RefreshRequestsInCellsRange(..)関数. すべての呼び出しは非同期で実行されます。関数は、呼び出しの処理が完全に実行されるまで待機せず、すぐに制御が戻ります。
 
 >[!NOTE]
 >
@@ -49,7 +48,7 @@ Excel でこれらの関数にアクセスするには、[!UICONTROL 数式]／[
 
 この数式は、「セル P5 の値がテキストであるか、または空白の場合は、指定した範囲（セル P9）を更新する」と言う意味です。
 
-## 「コントロールの書式設定」での Report Builder 関数の使用 {#section_26123090B5BD49748C8D8ED7A1C5ED84}
+## 「コントロールの書式設定」での Report Builder 関数の使用  {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
 作成したコントロールにマクロを割り当てて、Report Builder のリクエストを更新することもできます。例えば、関数 AsyncRefreshActiveWorksheet は、ワークシートのすべてのリクエストを更新します。しかし、すべてのリクエストではなく、特定のリクエストのみを更新することが必要な場合もあります。
 
@@ -59,7 +58,7 @@ Excel でこれらの関数にアクセスするには、[!UICONTROL 数式]／[
 
 ![](assets/assign_macro.png)
 
-## 「コントロールの書式設定」から Report Builder の関数にパラメーターを渡す {#section_ECCA1F4990D244619DFD79138064CEF0}
+## 「コントロールの書式設定」から Report Builder の関数にパラメーターを渡す  {#section_ECCA1F4990D244619DFD79138064CEF0}
 
 以下の 2 つの関数では、「コントロールの書式設定」の代替テキストフィールドにセットされた値を受け取ることができます。
 
@@ -79,4 +78,3 @@ Excel でこれらの関数にアクセスするには、[!UICONTROL 数式]／[
 
 
 1. AltTextParam で終わる上記 2 つの関数のいずれかの関数名を入力して、「**[!UICONTROL OK]**」をクリックします。
-
