@@ -3,12 +3,12 @@ description: s_objectID 変数を使用したリンク ID のカスタマイズ�
 title: 同じリンク ID および領域を参照する複数のリンクの区別
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -75,7 +75,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 
 ## s_objectID を使用したリンク ID のカスタマイズ {#section_01B0D463397B4837B2D46F087A6E5937}
 
-リンクまたはページ上のリンクの場所に対して一意のオブジェクトID `s_objectID`を作成することで、Activity Mapトラッキングの向上や、Activity Mapを使用して、リンクURLではなく、リンクタイプやリンクの場所に関するレポートを作成できます。  変数について詳しくは、[ここ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)をクリックしてください。`s_objectID`
+リンクまたはページ上のリンクの場所に対して一意のオブジェクトID `s_objectID`を作成することで、Activity Mapトラッキングの向上や、Activity Mapを使用して、リンクURLではなく、リンクタイプやリンクの場所に関するレポートを作成できます。  変数について詳しくは、[ここ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ja)をクリックしてください。`s_objectID`
 
 >[!IMPORTANT]
 >
