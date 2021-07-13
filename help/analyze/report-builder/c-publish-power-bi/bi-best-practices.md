@@ -1,17 +1,16 @@
 ---
-description: Power BIのベストプラクティス。
+description: Power BIのベストプラクティス
 title: ベストプラクティス
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 95%
+source-wordcount: '140'
+ht-degree: 97%
 
 ---
-
 
 # ベストプラクティス
 
@@ -24,4 +23,3 @@ ht-degree: 95%
 * 可能であれば、Report Builder で作成したリクエストは削除しないでください。
 * Report Builder でリクエストを削除する場合は、Power BI の対応するビジュアライゼーションも削除するようにしてください。
 * 対応するビジュアライゼーションかわからない場合は、不要になったリクエストを削除し、再発行して Power BI に移動し、壊れているビジュアライゼーションを確認します。
-
