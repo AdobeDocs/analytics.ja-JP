@@ -2,10 +2,10 @@
 title: フリーフォームテーブル
 description: フリーフォームテーブルは、Workspace のデータ分析の基盤となっています。
 feature: フリーフォームテーブル
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
 
@@ -52,6 +52,6 @@ Analysis Workspace のすべてのデータエクスポートオプションに�
 * 右クリック >「**[!UICONTROL データを CSV 形式でダウンロード]**」：表示されているテーブルデータが CSV 形式でダウンロードされます。テーブルを選択すると、このオプションが「**[!UICONTROL 選択内容を CSV 形式でダウンロード]**」に変わります。
 * 右クリック >**[!UICONTROL 「プロジェクト」>「項目を CSV 形式でダウンロード」]**：選択したディメンションの最大 50,000 個のディメンション項目がエクスポートされます。
 
-Analysis Workspace のすべてのデータエクスポートオプションついては、[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja)から確認できます。
+Analysis Workspace のすべてのデータエクスポートオプションついては、[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)から確認できます。
 
 ![](assets/export-options.png)
