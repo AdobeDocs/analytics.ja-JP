@@ -2,10 +2,10 @@
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 95%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -44,12 +44,12 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | Apteligent | 廃止 |
 | BlueHornet eMarketing Suite | 廃止 |
 | ブランチ | Exchange への移行 |
-| BrightEdge 2.0 | 廃止 |
+| BrightEdge 2.0、BrightEdge、BrightEdge Express | 廃止 |
 | Bronto Software | 廃止 |
 | CheetahMail by Experian | Exchange への移行 |
 | ClickTale | 廃止 |
 | Clicktale CA | 廃止 |
-| Conductor 2.0 | 廃止 |
+| Conductor 2.0, Conductor, Conductor Organic Metrics | 廃止 |
 | ContactLab 2.0（Contact Send Connector） | 廃止 |
 | Coradiant TrueSight | 廃止 |
 | D&amp;B 訪問者インテリジェンス | 廃止 |
@@ -62,7 +62,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | DialogTech | Adobe Exchange で入手可能 |
 | [DoubleClick for Advertisers（DFA）](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 廃止 |
 | DREAM | 廃止 |
-| DREAMmail 2.0 | 廃止 |
+| DREAMmail 1.0、DREAMmail 2.0 | 廃止 |
 | Dynamic Signal（Nital Vora） | Exchange への移行 |
 | eDialog Precision Central | 廃止 |
 | eC-messenger | 廃止 |
@@ -70,10 +70,11 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | emarsys xpress | 廃止 |
 | Epsilon Harmony | Exchange への移行 |
 | EveryoneSocial for Adobe Analytics | 廃止 |
+| ExactTarget, ExactTarget 2.0 | 廃止 |
 | Fiksu | 廃止 |
-| ForeSee（v2.0） | 廃止 |
-| Foresee Feedback | 廃止 |
+| ForeSee（v2.0）, Foresee Feedback, Foresee Results | 廃止 |
 | Gigya | 廃止 |
+| ほつ岩 | 廃止 |
 | hybris | 廃止 |
 | Kampyle（現在は Medalia）フィードバック分析（1.1） | 廃止 |
 | Listrak | Exchange への移行 |
@@ -83,11 +84,13 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | 公式 Oracle Eloqua 統合 | Exchange への移行 |
 | optivo broadmail（Episerver） | 廃止 |
 | Qualtrics v2 | Exchange への移行 |
-| Responsys 2.0 | 廃止 |
+| Responsys 1.0、Responsys 2.0 | 廃止 |
+| Salesforce.com | 廃止 |
 | Selligent | 廃止 |
-| seoClarity 2.0 | 廃止 |
+| seoClarity, seoClarity 2.0#seoClarity, seoClarity 2.0# | 廃止 |
 | Silverpop Engage（v2.0） | 廃止 |
 | Sizmek | 廃止 |
+| SmartFOCUSデジタル | 廃止 |
 | SpotEffects | 廃止 |
 | StrongMail Systems, Inc | 廃止 |
 | Syngergy! 360 | 廃止 |
@@ -98,6 +101,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | WhatCounts Email | 廃止 |
 | wywy | 廃止 |
 | Yesmail Enterprise | 廃止 |
+| ゼータ・インタラクティブ | 廃止 |
 
 ## 例外：Adobe Campaign Classic
 
