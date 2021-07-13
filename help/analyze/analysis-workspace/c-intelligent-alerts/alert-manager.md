@@ -3,10 +3,10 @@ description: アラートを作成、編集または削除します。
 title: アラートマネージャー
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 feature: AI ツール
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
