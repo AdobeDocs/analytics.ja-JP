@@ -4,10 +4,10 @@ subtopic: Schedule
 title: レポートのスケジュールと配信
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports and Analytics の基本、Reports and Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1669'
 ht-degree: 100%
 
