@@ -3,15 +3,14 @@ description: Report Builder では、Analytics のカスタムカレンダーを
 title: カスタムカレンダー
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '382'
 ht-degree: 91%
 
 ---
-
 
 # カスタムカレンダー
 
@@ -46,8 +45,7 @@ Report Builder では、Analytics のカスタムカレンダーを使用しま�
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：1 月は 4 週、2 月は 5 週、3 月は 4 週などとなります。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：例えば、1 月は 4 週、2 月は 4 週、3 月は 5 週になります。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>：例えば、1 月は 5 週、2 月は 5 週、3 月は 4 週になります。 </li> 
-    </ul> <p>注意： このカレンダーオプションは、すべてのAdobe Analyticsツール(Analysis Workspace、Reports &amp; Analytics、Report BuilderおよびActivity Map)でサポートされています。 例外はData Warehouseで、カスタムカレンダーはサポートされません。 </p> </td> 
+    </ul> <p>注意： このカレンダーオプションは、すべてのAdobe Analyticsツール(Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map)でサポートされています。 例外はData Warehouseで、カスタムカレンダーをサポートしていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
