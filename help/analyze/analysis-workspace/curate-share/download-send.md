@@ -3,10 +3,10 @@ description: Analysis Workspace からデータをダウンロードするには
 title: PDF ファイルまたは CSV ファイルのダウンロード
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 feature: キュレーションと共有
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Analysis Workspace からデータをエクスポートする方法は、ツー�
 * PDF ダウンロードは、ページ番号が適用されない単一ページとしてレンダリングされます。
 * プロジェクトが PDF にレンダリングされると、ページ上の内容がレンダリングされます。プロジェクトにカスタムサイズのビジュアライゼーションとパネルが含まれている場合、内容が切り詰められないように、自動サイズに変更する必要があります（右上隅のボタン）。
 
-## データをクリップボードにコピー（ホットキー：Ctrl+C）{#copy-data}
+## データをクリップボードにコピー（ホットキー：Ctrl+C） {#copy-data}
 
 右クリックオプション&#x200B;**[!UICONTROL クリップボードにコピー]**&#x200B;を使用すると、Workspace からデータをすばやくコピーして他の場所に貼り付けることができます。
 
