@@ -4,12 +4,12 @@ subtopic: Alerts
 title: アラート
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: アラート
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 全体の新しいアラートシステムであるインテリ�
 
 この新しいアラートシステムには、Reports &amp; Analytics の任意のレポートの&#x200B;**[!UICONTROL その他]**／**[!UICONTROL アラート]**&#x200B;からアクセスできます。
 
-詳しくは、Analysis Workspace ドキュメントの[インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)を参照してください。
+詳しくは、Analysis Workspace ドキュメントの[インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=ja)を参照してください。
 
 ## アラートの追加 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
