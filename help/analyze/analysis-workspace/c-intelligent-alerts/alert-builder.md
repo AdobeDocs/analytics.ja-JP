@@ -3,11 +3,10 @@ description: プロジェクトコンポーネントが特定のしきい値に�
 title: アラートビルダー
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 feature: AI ツール
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
