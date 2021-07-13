@@ -3,15 +3,14 @@ description: Report Builder における相対日付のフィールドの定義�
 title: リクエストウィザードの定義 - 相対日付
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 81%
+source-wordcount: '77'
+ht-degree: 84%
 
 ---
-
 
 # リクエストウィザードの定義 - 相対日付
 
@@ -27,7 +26,7 @@ Report Builderの相対日付のフィールドの定義。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>式のカスタマイズ </p> </td> 
-   <td colname="col2"> <p>「<a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   >カスタマイズした日付式</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   >カスタマイズされた日付式</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 基準日 </p> </td> 
@@ -39,4 +38,3 @@ Report Builderの相対日付のフィールドの定義。
   </tr> 
  </tbody> 
 </table>
-
