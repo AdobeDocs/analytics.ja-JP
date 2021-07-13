@@ -2,11 +2,10 @@
 description: クイックインサイトは、新しい Workspace ユーザーを導くツールで、データテーブルやビジュアライゼーションの作成に使用します
 title: クイックインサイトパネル
 feature: パネル
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
 
