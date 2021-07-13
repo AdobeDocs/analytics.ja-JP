@@ -3,15 +3,14 @@ description: コピー元ワークブックのスプレッドシート全体を 
 title: ワークブック間でのリクエストおよびワークシートのコピー
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 99%
+source-wordcount: '348'
+ht-degree: 100%
 
 ---
-
 
 # ワークブック間でのリクエストおよびワークシートのコピー
 
