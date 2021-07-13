@@ -3,15 +3,14 @@ description: ブックマークされたレポートおよびダッシュボー�
 title: ブックマークされたレポートおよびダッシュボードレポートのインポート
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 19813950-2495-4a75-aacb-587b59bf2484
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 99%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
-
 
 # ブックマークされたレポートおよびダッシュボードレポートのインポート
 
@@ -40,4 +39,3 @@ ht-degree: 99%
 >[!IMPORTANT]
 >
 >日付範囲は同じ日付範囲に設定されますが、Reports &amp; Analytics のブックマークでこの日付範囲が相対的な日付範囲であった場合でも、静的な日付範囲として設定されます。
-
