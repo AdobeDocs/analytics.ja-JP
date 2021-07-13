@@ -3,15 +3,14 @@ description: 診断メッセージによって、更新したリクエストの�
 title: 診断メッセージ
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 09eccff0-64ab-432d-bbb1-6c9b83ecb170
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 97%
+source-wordcount: '121'
+ht-degree: 100%
 
 ---
-
 
 # 診断メッセージ
 
