@@ -3,15 +3,14 @@ description: Report Builder における固定日付の定義です。
 title: リクエストウィザードの定義 - 固定日付
 uuid: bd65a312-bab6-46d7-ba30-570777344cc9
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e2ab1b8b-30e7-4851-8f13-292613fef016
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 97%
+source-wordcount: '111'
+ht-degree: 100%
 
 ---
-
 
 # リクエストウィザードの定義 - 固定日付
 
