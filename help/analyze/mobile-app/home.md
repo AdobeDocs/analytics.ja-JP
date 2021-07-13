@@ -2,11 +2,10 @@
 title: Adobe Analytics ダッシュボード — 概要
 description: Adobe Analytics ダッシュボードの製品ドキュメントとセルフヘルプ
 feature: Analytics ダッシュボード
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
