@@ -2,14 +2,13 @@
 description: マーケティングレポートで使用される Web 解析の一般的な用語について説明します。
 title: 一般用語
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: Reports & Analytics Basics,Reports and analytics
-role: Business Practitioner, Administrator
+feature: Reports and Analytics の基本、Reports and Analytics
+role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
