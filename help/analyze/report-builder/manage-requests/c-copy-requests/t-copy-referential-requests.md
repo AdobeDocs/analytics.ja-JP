@@ -3,15 +3,14 @@ description: データフィルター、相関フィルターなどのパラメ�
 title: 参照リクエストのコピー
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 99%
+source-wordcount: '543'
+ht-degree: 100%
 
 ---
-
 
 # 参照リクエストのコピー
 
