@@ -3,15 +3,14 @@ description: 日付の略語では、日付の直接指定ではなく、期間�
 title: 日付の略語
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f2d19f3f-c663-4fa4-b6c1-fe0dcdfffe63
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 98%
+source-wordcount: '148'
+ht-degree: 100%
 
 ---
-
 
 # 日付の略語
 
