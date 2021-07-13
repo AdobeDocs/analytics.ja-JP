@@ -5,15 +5,14 @@ title: 統合のデプロイ
 feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 85d199e71fb65e9026156b146201da2e5be37111
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
-# 統合のデプロイ {#deploying-the-integration}
+# 統合のデプロイ{#deploying-the-integration}
 
 この統合のデプロイは、以下の操作を必要とする簡単なプロセスです。
 
@@ -32,12 +31,13 @@ ht-degree: 98%
    | Qualtrics 組織 ID | [Qualtrics 組織 ID の検索](../qualtrics-overview/qualtrics-org-id.md) |
    | Adobe SiteCatalyst トークン | [Qualtrics Adobe Analytics トークンの生成](../qualtrics-overview/qualtrics-token.md) |
 
-1. **ウィザードの手順 2 - 変数のマッピング**
-   | Qualtrics 応答リスト | 使用可能なリスト変数をレポートスイートから選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
+1. **ウィザードの手順2 — 変数のマッピング**
+
+   | Qualtrics応答リスト | 使用可能なリスト変数をレポートスイートから選択します。 （場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります） |
    |---|---|
-   | Qualtrics 応答 ID | レポートスイート尾から使用可能な eVar または prop を選択します。（場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります）|
-   | トラッキングサーバー | Adobe Analytics データの追跡に使用するトラッキングサーバー（ドメイン）設定。その場合は、 `trackingServerSecure` トラッキングサーバーを設定します。|
-   | Qualtrics 調査の提出 | レポートスイートから利用可能なイベントを選択します（Report Suite Manager 内で新しいイベントの有効化が必要になる場合があります）。|
+   | Qualtrics応答ID | レポートスイートから使用可能なeVarまたはpropを選択します。 （場合によっては、Report Suite Manager 内で新しい listVar を有効にする必要があります） |
+   | Tracking Server | Adobe Analyticsデータの追跡に使用するトラッキングサーバー（ドメイン）設定を指定します。 標準のトラッキングサーバー設定と異なる場合は、`trackingServerSecure` トラッキングサーバーを使用します。 |
+   | Qualtrics調査の提出 | レポートスイートから使用可能なイベントを選択します（場合によっては、Report Suite Manager内で新しいイベントを有効にする必要があります）。 |
 
 1. **ウィザード：手順 3**：何もする必要はありません。情報のみ。
 
@@ -67,7 +67,7 @@ ht-degree: 98%
 
    ![](assets/integration_config.png)
 
-## 統合の確認 {#verifying-the-integration}
+## 統合の確認{#verifying-the-integration}
 
 すべての実装手順が完了したら、統合が正常にデータを転送していることを検証できます。
 
