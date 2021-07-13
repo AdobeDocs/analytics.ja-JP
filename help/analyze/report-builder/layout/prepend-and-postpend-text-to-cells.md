@@ -3,15 +3,14 @@ description: ピボットレイアウトとカスタムレイアウトのリク�
 title: セルに対するテキストの前付けおよび後付け
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 79a90e33-00ef-435e-8304-be0cf59ced78
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 96%
+source-wordcount: '89'
+ht-degree: 100%
 
 ---
-
 
 # セルに対するテキストの前付けおよび後付け
 
