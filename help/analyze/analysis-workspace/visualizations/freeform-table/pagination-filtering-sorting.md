@@ -3,9 +3,9 @@ description: ページネーション、フィルタリング、並べ替えに�
 title: テーブルのページネーション、フィルタリングおよび並べ替え
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 feature: フリーフォームテーブル
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
