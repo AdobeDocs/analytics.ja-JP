@@ -2,14 +2,13 @@
 description: 完全な下位関係は、すべてのコンバージョンレポートで有効であるため、eVar を別の eVar によって分類できます。レポート表の分類基準メニューは、標準 Analytics レポートメニューに一致し、選択の整合性を維持しています。
 title: 下位関係
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Reports & Analyticsの基本事項
-role: Business Practitioner, Administrator
+feature: Reports & Analytics の基本
+role: User, Admin
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
