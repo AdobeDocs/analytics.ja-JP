@@ -3,11 +3,10 @@ description: 電子メールを使用して Analysis Workspace を送信した�
 keywords: Analysis Workspace
 title: プロジェクトのスケジュール
 feature: キュレーションと共有
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
 
