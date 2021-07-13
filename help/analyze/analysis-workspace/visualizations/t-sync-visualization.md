@@ -3,11 +3,10 @@ description: ビジュアライゼーションを同期することで、ビジ�
 keywords: Analysis Workspace;ビジュアライゼーションのデータソースとの同期
 title: データソースの管理
 feature: ビジュアライゼーション
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
