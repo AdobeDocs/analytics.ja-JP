@@ -2,14 +2,13 @@
 description: 対象者にとって最も有用になるようにグラフをカスタマイズする手順を説明します。
 title: レポートのグラフの変更
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Reports & Analyticsの基本事項
-role: Business Practitioner, Administrator
+feature: Reports & Analytics の基本
+role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
