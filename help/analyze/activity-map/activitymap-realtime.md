@@ -2,12 +2,12 @@
 description: リアルタイムページ分析（ライブモード）により、分単位の精度でリアルタイムに結果を取得できます。
 title: リアルタイム（ライブ）ページ分析
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 
@@ -35,13 +35,13 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 ## A4T 設定によるデータ遅延
 
-Adobe Targetで[A4T統合](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)を有効にすると、Adobe Analyticsで5 ～ 10分の待ち時間が追加で発生します。 この追加の待ち時間は、Analytics と Target からのデータを同じヒットに格納することによって、ページおよびサイトセクションによってテストを分類できるようにするためのものです。
+Adobe Targetで[A4T統合](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)を有効にすると、Adobe Analyticsで5 ～ 10分の待ち時間が追加で発生します。 この追加の待ち時間は、Analytics と Target からのデータを同じヒットに格納することによって、ページおよびサイトセクションによってテストを分類できるようにするためのものです。
 
 この追加の待ち時間は、ライブストリームやリアルタイムレポートなどのすべての Adobe Analytics サービスおよびツールで発生します。追加の待ち時間が発生する対象となるヒットは次のとおりです。
 
 * ライブストリーム、リアルタイムのレポートと API リクエスト、トラフィック変数の現在のデータでは、追加のデータ ID が設定されたヒットのみが遅延します。
 * コンバージョン指標の現在のデータ、ファイナライズされたデータ、データフィードでは、すべてのヒットが追加で 5 ～ 7 分遅延します。
 
-この統合を完全に実装していなくても、[ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)を導入すると追加の待ち時間が発生することに注意してください。
+この統合を完全に実装していなくても、[ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を導入すると追加の待ち時間が発生することに注意してください。
 
 詳細[ここ](/help/analyze/activity-map/activitymap-standard-live.md)。
