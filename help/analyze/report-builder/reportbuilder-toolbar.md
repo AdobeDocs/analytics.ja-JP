@@ -3,15 +3,14 @@ description: Report Builder ツールバーのボタンの機能についての�
 title: Report Builder ツールバー
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 92%
+source-wordcount: '303'
+ht-degree: 93%
 
 ---
-
 
 # Report Builder ツールバー
 
@@ -21,7 +20,7 @@ Report Builder のインストール後、Excel を起動して「**[!UICONTROL 
 
 ![](assets/report_builder_toolbar.png)
 
-**サインイン：ログイン情報を**   表示し、資格情報を使用して、または別のユーザーとしてサインインできます。また、ログイン後には会社名が表示されます。  [Report Builder へのログイン](/help/analyze/report-builder/setup/login.md).
+**ログイン：** ログイン情報を表  示して、資格情報を使用して、または別のユーザーとしてログインできます。また、ログイン後には会社名が表示されます。  [Report Builder へのログイン](/help/analyze/report-builder/setup/login.md).
 
 **作成：**[!UICONTROL リクエストウィザード]を起動します。まだログインしていない場合、ログインするよう指示されます。詳しくは、[データリクエスト](/help/analyze/report-builder/data-requests/data-requests.md)を参照してください。
 
