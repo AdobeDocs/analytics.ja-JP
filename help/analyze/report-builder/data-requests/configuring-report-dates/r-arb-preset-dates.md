@@ -3,15 +3,14 @@ description: 事前設定日では、よく使用する日付や保存してお�
 title: リクエストウィザードの定義 - 事前設定日
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 98%
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
-
 
 # リクエストウィザードの定義 - 事前設定日
 
@@ -39,4 +38,3 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
-
