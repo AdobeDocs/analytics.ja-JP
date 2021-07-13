@@ -3,11 +3,10 @@ description: Analysis Workspace のフォールアウトでは、ディメンシ
 title: ディメンション間のフォールアウト
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 feature: ビジュアライゼーション
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
