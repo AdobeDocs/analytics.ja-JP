@@ -3,15 +3,14 @@ description: リクエストウィザード：ステップ 1 では、データ�
 title: 精度
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 96c3b93a-9adf-4993-b6fc-9146ee5be4bd
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 98%
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
-
 
 # 精度
 
