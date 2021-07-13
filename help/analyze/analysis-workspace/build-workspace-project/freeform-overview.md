@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace の基本
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 99%
+source-wordcount: '1405'
+ht-degree: 95%
 
 ---
 
@@ -71,7 +71,7 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 | 最終変更日 | プロジェクトの最終変更日。 |
 | タグ | 分類を簡単にするためにプロジェクトに適用されたタグのリスト。 |
 | 説明 | 説明は、プロジェクトの目的を明確にするのに役立ちます。説明をダブルクリックすると編集できます。 |
-| プロジェクトで繰り返しのインスタンスをカウントします | レポート内でレポートインスタンスがカウントされるかどうかを指定します。注意：この設定は、フローまたはフォールアウトのビジュアライゼーションには適用されません。 |
+| プロジェクトで繰り返しのインスタンスをカウントします | レポート内でレポートインスタンスがカウントされるかどうかを指定します。例えば、この設定（有効にした場合）は、複数の連続するページビューを複数のページビューと同じページに対して処理します。 オフの場合、単一ページビューとしてカウントされます（これは単一ページ訪問数などの特定の指標にのみ影響します）。 **注意**:この設定は、フロービジュアライゼーションやフォールアウトビジュアライゼーションには適用されません。 |
 | [プロジェクトカラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ja) | Workspace で使用する分類カラーパレットを変更するには、色弱のユーザー向け用に最適化されている既定のパレットを選択するか、カスタムパレットを指定します。この機能は、ほとんどのビジュアライゼーションを含む Workspace の多くの機能に影響します。 |
 | [表示密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ja) | 左側のパネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。 |
 
