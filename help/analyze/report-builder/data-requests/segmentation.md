@@ -3,12 +3,12 @@ description: Report Builder で Adobe Analytics のセグメントを追加、�
 title: セグメントの管理
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Report Builder のリクエストウィザードのステップ 1 に、セグ�
 >Report Builder でセグメントを追加または編集するためのインターフェイスは、Microsoft Internet Explorer ウィンドウで Analytics のセグメントビルダーを起動します。Report Builder のセッションはアクティブな状態に維持されます。ブラウザーを Internet Explorer 以外に変更することはできません。
 
 1. リクエストウィザードの手順 1 のセグメントパネルで、「**[!UICONTROL 追加]**」をクリックします。
-1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、「[Analytics セグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)」を参照してください。
+1. Internet Explorer のウィンドウが起動し、Analytics セグメントビルダーインターフェイスが開きます。セグメントの作成方法について詳しくは、「[Analytics セグメント化](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)」を参照してください。
 1. セグメントを定義して保存したら、リクエストウィザードに戻ります。
 1. 更新アイコンをクリックして、セグメント一覧を更新します
 
