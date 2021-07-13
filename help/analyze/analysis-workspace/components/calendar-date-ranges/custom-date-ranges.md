@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace でカスタム日付範囲を作成
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 feature: Workspace の基本
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Analysis Workspace でカスタム日付範囲を作成し、時間コンポー�
 
 日付範囲は、パネルレベルで適用します。プロジェクトに日付範囲を追加するには、**パネル**／*`<select panel>`* をクリックして、新しい日付範囲を指定します。
 
-## 「2 ヶ月前」の日付範囲 {#section_C4109C57CB444BB2A79CC8082BD67294}
+## 「2 ヶ月前」の日付範囲  {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 次のカスタム日付範囲は、方向の変化を示す変更概要ビジュアライゼーションで、「2 ヶ月前」の日付範囲を示します。
 
