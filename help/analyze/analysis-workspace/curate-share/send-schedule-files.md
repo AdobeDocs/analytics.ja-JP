@@ -3,10 +3,10 @@ description: PDF／CSV プロジェクトのキュレーション、共有、お
 title: 共有メニュー
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 feature: キュレーションと共有
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
