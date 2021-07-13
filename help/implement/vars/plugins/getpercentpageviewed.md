@@ -2,7 +2,7 @@
 title: getPercentPageViewed
 description: 訪問者が閲覧したページの割合を取得します。
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 633ba0b9a3fe40bfd1b36820949810c631597397
+source-git-commit: 77192bdec509fed0b2a7c49112b7b430ff677a3c
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 98%
@@ -84,7 +84,7 @@ if(s.pageName) s.getPercentPageViewed();
 if(s._ppvPreviousPage)
 {
   s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " + | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
 }
 ```
 
