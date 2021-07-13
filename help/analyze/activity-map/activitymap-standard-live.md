@@ -3,15 +3,14 @@ description: Activity Map は 2 つの基本モードを備えており、ペー
 title: 標準モードとライブモード
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2364e7b0-443a-49a8-b084-403501f52360
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 100%
 
 ---
-
 
 # 標準モードとライブモード
 
@@ -45,4 +44,3 @@ Activity Map は 2 つの基本モードを備えており、ページアクテ�
 >仮想レポートスイートは、ライブモードとは互換性がなく、標準モードのみと互換性があります。
 
 ![](assets/live_mode.png)
-
