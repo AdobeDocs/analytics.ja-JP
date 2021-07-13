@@ -3,9 +3,9 @@ description: リアルタイムリクエストの日付の設定手順です。
 title: リアルタイムリクエストの設定
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 93%
