@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: 管理要件
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 feature: Workspace の基本
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
 
