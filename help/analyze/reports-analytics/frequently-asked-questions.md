@@ -3,11 +3,10 @@ description: Analytics に関して最もよくある質問に対する回答と
 keywords: Analytics のトラブルシューティング
 title: よくある質問
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 
