@@ -3,12 +3,12 @@ description: 基本的な Report Builder データリクエストを作成する
 title: データリクエストの作成
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 1. [!UICONTROL リクエストウィザード：ステップ 1] ウィンドウで、[レポートスイート](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)を選択します。
 1. （オプション）リクエストに適用するセグメントを選択します。1 つまたは複数のセグメントを選択したら、リストのトップに移動します。
 
-   Report Builder では、Adobe Analytics と同様の方法でセグメントを使用します。[Analytics セグメントガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)を参照してください。1.（オプション）配布に使用する[発行リスト](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)を選択します。
+   Report Builder では、Adobe Analytics と同様の方法でセグメントを使用します。[Analytics セグメントガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を参照してください。1.（オプション）配布に使用する[発行リスト](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)を選択します。
 1. 「[レポートタイプ](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)」を選択します。
 1. 「[日付範囲](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)」を指定してレポートの「[精度](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)」をクリックします。
 1. 「**[!UICONTROL 次へ]**」をクリックします。
