@@ -4,11 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定などについて説明します。
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 99%
 
 ---
 
@@ -35,6 +34,7 @@ ht-degree: 100%
       + [コンバージョンの分類](admin/conversion-var-admin/conversion-classifications.md)
       + [分類階層](admin/conversion-var-admin/classification-hierarchies.md)
       + [リスト変数](admin/conversion-var-admin/list-var-admin.md)
+      + [マーチャンダイジング eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [通貨コード](admin/currency.md)
    + [カスタムレポートの説明](admin/custom-desc-admin.md)
    + [カレンダーのカスタマイズ](admin/custom-calendar.md)
@@ -103,11 +103,11 @@ ht-degree: 100%
       + [トラフィック変数（prop）の概要](admin/c-traffic-variables/traffic-var.md)
       + [トラフィック変数レポートの有効化](admin/c-traffic-variables/t-traffic-variable.md)
       + [トラフィック分類](admin/c-traffic-variables/traffic-classifications.md)
-   + 個別訪問者変数 {#unique-visitor-variable}
-      + [個別訪問者変数の指定](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+   + ユニーク訪問者変数 {#unique-visitor-variable}
+      + [ユニーク訪問者変数の指定](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用事例 - 訪問者 ID の抽出](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [ビデオ管理](admin/video-management.md)
-+ Admin Console での Adobe Analytics {#admin-console}
++ AnalyticsAdmin Console での Adobe {#admin-console}
    + [Admin Console での Adobe Analytics](admin-console/home.md)
    + 権限 {#permissions}
       + [Admin Console での Analytics 権限](admin-console/permissions/summary-tables.md)
@@ -159,8 +159,8 @@ ht-degree: 100%
       + [グループにユーザーを追加する](user-management2/c-user-management/t-add-user-to-group.md)
       + Adobe Admin Console へのユーザーの移行 {#migrate-users}
          + [Admin Console への Analytics ユーザーの移行](user-management2/user-migration/c-migration-tool.md)
-         + [Adobe ID 用に Analytics ユーザーアカウントを移行する](user-management2/user-migration/t-migrate-users.md)
-         + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行](user-management2/user-migration/migrate-enterprise.md)
+         + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](user-management2/user-migration/t-migrate-users.md)
+         + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 ](user-management2/user-migration/migrate-enterprise.md)
          + [従来のログインの無効化](user-management2/user-migration/t-disable-legacy-login.md)
          + [移行の影響を受ける API](user-management2/user-migration/developer.md)
    + ユーザーグループ {#user-groups}
@@ -176,7 +176,7 @@ ht-degree: 100%
 + データガバナンス {#data-governance}
    + [Adobe Analytics と GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics と CCPA](c-data-governance/an-ccpa-overview.md)
-   + [CNIL 同意要件の適用除外](c-data-governance/cnil-consent-exemption.md)
+   + [CNIL 同意除外](c-data-governance/cnil-consent-exemption.md)
    + [よくある質問](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics データプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
    + [レポートスイートのデータガバナンス設定の表示／管理](c-data-governance/gdpr-view-settings.md)
