@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics とブラウザーの cookie
 description: トラッキング防止対策が、Adobe Analytics によって設定されたサードパーティ cookie およびファーストパーティ cookie にどのように影響するかを説明します。
-source-git-commit: b2f606e74aa0d2ab0f01ab7cbfc795bfd7cda461
-workflow-type: ht
+source-git-commit: 2a0cc52664bbeaae66d6160d74fad4840bf692b8
+workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ### サードパーティ cookie の制限
 
-サードパーティのコンテキストで使用される cookie は、広く非推奨（廃止予定）となっています。Firefox と Safari は、それぞれ 2019 年と 2020 年から、デフォルトでサードパーティ cookie のブロックを開始しました。Chrome は、2022 年中にサードパーティ cookie のサポートを停止する計画を発表しました。その場合、サードパーティ cookie を事実上使用できなくなります。
+サードパーティのコンテキストで使用される cookie は、広く非推奨（廃止予定）となっています。Firefox と Safari は、それぞれ 2019 年と 2020 年から、デフォルトでサードパーティ cookie のブロックを開始しました。Chrome は、2023 年中にサードパーティ cookie のサポートを停止する計画を発表しました。その場合、サードパーティ cookie を事実上使用できなくなります。
 
 さらに、現在、Chrome では、「SameSite」属性が「なし」に設定され、セキュアとしてラベル付けされている場合（つまり HTTPS 経由でのみ使用できる）にのみ、cookie がサードパーティコンテキストで機能することを許可しています。詳しくは、「[SameSite cookie 属性とは何ですか？また、Analytics にどのような影響を与えますか？](#samesite-effect)」の節を参照してください。
 
@@ -50,9 +50,9 @@ ITP ポリシーは頻繁に進化しています。最新のポリシーにつ�
 
 アドビによって設定されているすべてのファーストパーティ cookie および関連する JavaScript ライブラリは、ITP ポリシーの影響を受けます。
 
-* Experience Cloud 訪問者 IDID（ECID）サービスライブラリによって設定される[「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)
+* Experience Cloud 訪問者 IDID（ECID）サービスライブラリによって設定される[「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)
 * CNAME を使用したファーストパーティデータ収集で設定されている場合の、Analytics 従来の[「s_vi」 cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja)
-* Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
+* Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
 
 #### Safari の Analytics への ITP の影響
 
@@ -73,7 +73,7 @@ ITP の制限の影響は、ユーザーの行動によって大きく異なる�
 
 サードパーティ cookie は、ユーザーが訪問する Web サイトによって作成されるものではありません。
 
-現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しをおこない、不明な、または疑わしいサードパーティドメインは呼び出しません。この cookie はドメイン間で永続的な識別子と（HTTPS による）安全なコンテンツを提供します。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
+現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しをおこない、不明な、または疑わしいサードパーティドメインは呼び出しません。この cookie はドメイン間で永続的な識別子と（HTTPS による）安全なコンテンツを提供します。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)を参照してください。
 
 Analytics 実装では、サードパーティ cookie がクロスドメイントラッキングや広告の使用例（リターゲティング広告を含む）に使用されます。サードパーティ cookie を使用すると、訪問者が所有する別のドメインにアクセスしたときや所有していないサイトで広告が表示されたときに、訪問者を識別できます。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -87,7 +87,7 @@ Analytics 実装では、ファーストパーティ cookie を使用して、�
 
 ![cookie の比較](/help/technotes/assets/cookies2.png)
 
-## SameSite cookie 属性とは何ですか？また、Analytics cookie にどのような影響を与えますか？{#samesite-effect}
+## SameSite cookie 属性とは何ですか？また、Analytics cookie にどのような影響を与えますか？ {#samesite-effect}
 
 2020 年 2 月の Chrome 80 ブラウザーのリリース（および Firefox と Edge の今後のバージョン）では、 SameSite cookie 属性によって、cookie をサードパーティコンテキストで使用できるかどうかを制御する 3 つの異なる値が指定されます。
 
@@ -133,7 +133,7 @@ Web サイトと同じドメインに設定された CNAME 実装がある場合
 
 ただし、複数のドメインを所有し、すべてのドメインで同じ CNAME をデータ収集に使用する場合、他のドメインではサードパーティ cookie として扱われます。Chrome 80 以降では、他のドメインでは表示されなくなります。Analytics では、すべてのブラウザーにおいて動作を統一するために、この cookie の `SameSite` 値を `Lax` に明示的に設定しています。この cookie を明確なサードパーティコンテキストで使用する場合は、cookie に `SameSite=None` 値を設定し、常に HTTPS を使用する必要があります。セキュアな CNAME の SameSite 値を変更していない場合は、アドビのカスタマーケアにお問い合わせください。
 
-## Safari の変更が自社のビジネスに影響を与えるかどうかを確認する方法 {#measure-itp-effect}
+## Safari の変更が自社のビジネスに影響を与えるかどうかを確認する方法  {#measure-itp-effect}
 
 アドビでは、データ収集を変更する前に、自社内の影響を測定することをお勧めします。Analysis Workspace を使用して、ITP トラッキング防止が個々のビジネスに与える影響を測定できます。
 
