@@ -8,7 +8,7 @@ exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 99%
 
 <!--This content is mirrored in the CDA doc.-->
 
-このテンプレートを使用すれば、重要なクロスデバイスのパフォーマンスデータを確認できます。このサービスは、[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en)（CDA）へのアクセス権を持つユーザーのみが利用できます。
+このテンプレートを使用すれば、重要なクロスデバイスのパフォーマンスデータを確認できます。このサービスは、[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ja)（CDA）へのアクセス権を持つユーザーのみが利用できます。
 
 * **Co-op グラフのメンバーに関する特別な注意事項**：Co-op グラフがサポートされる地域とサポートされない地域の訪問者が、レポートスイートのどの部分に含まれているかを表示します。
 * **ユーザーの ID**：クロスデバイス分析に基づくメソッドを使用して、サイトへの訪問者を識別する頻度を示します。
