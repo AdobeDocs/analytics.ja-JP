@@ -4,9 +4,9 @@ title: ラベル設定の例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: fe277bea867dc67e8693673a547adecccf169332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 69%
 
 ## アクセス要求のサンプル
 
-アクセス要求を送信すると、サマリファイルに以下の表に示す値が含まれます。 要求は、デバイスファイルファイルのみ、ユーザーファイルのみまたはどちらか 1 つを返す可能性があります。2 つの概要ファイルは、ユーザー ID が使用され、expandIDs が true の場合にのみ返されます。
+アクセス要求を送信すると、概要ファイルには次の表に示されている値が含まれます。要求は、デバイスファイルファイルのみ、ユーザーファイルのみまたはどちらか 1 つを返す可能性があります。2 つの概要ファイルは、ユーザー ID が使用され、expandIDs が true の場合にのみ返されます。
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API の値</th>
-    <th rowspan="2">返された<br>ファイルの種類</th>
+    <th rowspan="2">返される<br>ファイルタイプ</th>
     <th colspan="5" style="text-align:center">概要アクセスファイルのデータ</th>
   </tr>
   <tr>
@@ -147,7 +147,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">AAID=77 <br>(expandIDs value does not matter)</th>
+    <th colspan="5" style="text-align:center">AAID=77 <br>（expandIDs の値は関係ありません）</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -206,7 +206,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <td>X</td>
   </tr>
   <tr>
-    <td>アリス</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -279,7 +279,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <td>X</td>
   </tr>
   <tr>
-    <td>アリス</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -289,7 +289,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 >[!NOTE]
 >
->user=Mary および DEL-PERSON ラベルを含む行のセルのみが影響を受けます。また、実際は、A_IDを含む変数は、おそらくpropまたはeVarです。 置き換える値は、数値を別のランダムな数値で置き換えるのではなく、「Privacy — 」で始まり、その後に乱数(GUID)が続く文字列になります。
+>user=Mary および DEL-PERSON ラベルを含む行のセルのみが影響を受けます。また、実際は、A_ID を含む変数は、おそらく prop または eVar です。 置き換える値は、数値を別のランダムな数値で置き換えた文字列ではなく、「Privacy-」で始まり、その後にランダムな数値（GUID）が続く文字列になります。
 
 <table>
   <tr>
@@ -352,7 +352,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <td>X</td>
   </tr>
   <tr>
-    <td>アリス</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -362,8 +362,8 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 以下のことに注意してください。
 
-* `user=Mary`および`DEL-DEVICE`または`DEL-PERSON`ラベルを含む行のセルが影響を受けます。また、`user=Mary`を含む行で発生した訪問者ID(AAID)を含む行の`DEL-DEVICE`ラベルを含むセルも影響を受けます。
-* `user=Mary`の場合、expandIDs設定は、ID-DEVICEラベルを持つMyEvar3に存在する値を含める呼び出しには拡張されません。 ExpandIDsは、`user=Mary`の行に訪問者ID（この例ではAAID、さらにECID）を含むように拡張されます。
-* `MyEvar2` 4行目と5行目の行は、1行目と2行目と同じ訪問者ID値を含むので更新されます。その結果、ID拡張には、デバイスレベルの削除用に含まれます。
-* 2行目と5行目の`MyEvar2`の値は、削除の前後で一致します。 ただし、削除後は、その行が削除リクエストの一部として更新されなかったので、最後の行にある値Nと一致しなくなります。
-* `MyEvar3` の動作は ID 拡張をおこなわない場合とは非常に異なりますが、これは、ID 拡張をおこなわないとどの `ID-DEVICES` とも一致しないからです。現在は、`AAID`は最初の5行に一致します。
+* `user=Mary` および `DEL-DEVICE` ラベルまたは `DEL-PERSON` ラベルを含む行のセルが影響を受けます。また、`user=Mary` を含む行にある訪問者 ID（AAID）を含む行の `DEL-DEVICE` ラベルの付いたセルも影響を受けます。
+* `user=Mary` の場合、expandIDs 設定は、ID-DEVICE ラベルを持つ MyEvar3 に存在する値を含める呼び出しには拡張されません。 ExpandIDs は、`user=Mary` の行に訪問者 ID を含むように拡張されます。訪問者 ID は、この例では AAID ですが、ECID でもあります。
+* 4 行目と 5 行目の `MyEvar2` は、1 行目と 2 行目と同じ訪問者 ID の値が含まれているので更新されます。その結果、ID 拡張には、デバイスレベルの削除用にこれらが含まれます。
+* 2 行目と 5 行目の `MyEvar2` の値は、削除の前後で一致します。ただし、削除後は、その行が削除リクエストの過程で更新されなかったので、最後の行にある値 N と一致しなくなります。
+* `MyEvar3` の動作は ID 拡張をおこなわない場合とは非常に異なりますが、これは、ID 拡張をおこなわないとどの `ID-DEVICES` とも一致しないからです。これで、最初の 5 行で `AAID` が一致します。
