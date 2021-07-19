@@ -1,7 +1,7 @@
 ---
 title: マーチャンダイジングeVarと製品検索方法
 description: マーチャンダイジングeVarの概念と、eVarがデータを処理および割り当てる方法について詳しく説明します。
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5337'
 ht-degree: 0%
@@ -383,6 +383,6 @@ post_products列に含まれる値は、よく知られている場合があり�
 
 要約すると、追加の設定を行わない限り、マーチャンダイジングeVarの標準インスタンス指標はあまり役に立ちません。 幸いにも、Adobeは[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en)をリリースしました。 Adobe Analyticsが収集するカスタマイズされた指標に対して、複数のアトリビューションモデルを適用できます。 これらのアトリビューションモデルを適用する指標では、post_evar列に含まれる値や、特定の製品に連結されている値は使用されません。 代わりに、これらの指標は、イメージリクエスト自体(またはAdobe Analyticsの処理ルールで取り込まれた値)を経由して渡された値のみを使用します。 コンバージョン変数構文を使用するすべてのマーチャンダイジングeVarについて、Attribution IQの機能を使用して、正確にアトリビュートされたインスタンス指標を取得できます。
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 マーチャンダイジングeVarのインスタンス指標をレポートに追加する場合、適切なAttribution IQモデルは「ラストタッチ」モデルになります。 この場合、モデルのルックバックウィンドウ設定は重要ではありません。 理由は、「強制」ラストタッチアトリビューションモデルは、リクエストを介して渡される各個々の値にインスタンスのクレジットを常に与えるからです。 これは、eVarの実際のアトリビューション/バインディング設定が「最新（最後）」から「元の値（最初）」に等しいかどうかに関係なく、です。
