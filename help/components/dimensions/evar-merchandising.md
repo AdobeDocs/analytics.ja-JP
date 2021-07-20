@@ -2,17 +2,18 @@
 title: eVar（マーチャンダイジング）
 description: 製品ディメンションに関連付けられるカスタム変数。
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 90%
 
 ---
 
 # eVar（マーチャンダイジング）
 
-*このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。eVar の実装方法について詳しくは、『実装ユーザガイド』の [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
+*このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。マーチャンダイジングeVarの実装方法について詳しくは、『実装ユーザガイド』の[eVars](/help/implement/vars/page-vars/evar.md)を参照してください。*
+
+マーチャンダイジングeVarの仕組みについて詳しくは、[マーチャンダイジングeVarと製品検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)を参照してください。
 
 外部キャンペーンまたは外部検索用語の成功を測定する場合、一般的には発生する成功イベントすべてに対応するクレジットを受け取る 1 個の値が必要になります。例えば、顧客が電子メールキャンペーンのリンクをクリックして Web サイトを訪問した場合、その結果としておこなわれたすべての購入のクレジットがそのキャンペーンに付与される必要があります。
 
