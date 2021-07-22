@@ -1,28 +1,31 @@
 ---
 title: 開発環境への Adobe Analytics のデプロイ
-description: Adobe Experience Platform Launch を使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
+description: タグを使用して開発環境にAdobe Analyticsをデプロイする方法を説明します。
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 66%
 
 ---
 
 # 開発環境への Analytics 実装のデプロイ
 
-Launch でプロパティが作成および設定されると、サイト上でライブラリを展開してコードを実装する準備が整います。
+タグプロパティを作成して設定すると、サイトにライブラリをデプロイしてコードを実装する準備が整います。
 
-## 前提条件
+>[!NOTE]
+>Adobe Experience Platform Launchは、Experience Platformのデータ収集テクノロジーのスイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)を参照してください。
 
-[Launch で Adobe Analytics 用にプロパティを作成および設定する](create-analytics-property.md)：ツールにアクセスして、Analytics 実装用のスペースを作成します。
+## 前提条件 
+
+[Adobe Analytics ](create-analytics-property.md)のタグプロパティを作成および設定します。ツールにアクセスし、Analytics実装用のスペースを作成します。
 
 ## アダプターと環境の作成
 
-Launch は、コードをデプロイする多くの組織的なワークフローに対応しています。Analytics の実装に最低限必要なコンポーネントを作成するには、次の手順に従います。Launch 管理者は組織内で協力して、アドビソリューションのデプロイに適したワークフローを確立できます。
+タグは、コードをデプロイする多くの組織のワークフローに対応します。 Analytics の実装に最低限必要なコンポーネントを作成するには、次の手順に従います。タグ管理者は、組織内で作業し、Adobeソリューションを導入するための適切なワークフローを確立できます。
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
-2. サイトに実装する Launch プロパティをクリックします。
+2. サイトに実装するタグプロパティをクリックします。
 3. 「アダプター」タブをクリックし、「アダプターの追加」をクリックします。
 4. 「Akamai」という名前を付け、タイプドロップダウンで「Akamai」を選択します。「保存」をクリックします。
 5. 「環境」タブに移動し、「新しい環境の作成」をクリックします。
@@ -35,16 +38,16 @@ Launch は、コードをデプロイする多くの組織的なワークフロ�
 ここまでにおこなったすべての変更や設定にもかかわらず、実際にはコードは公開されていません。ライブラリ（変更の集まりのようなもの）を作成すれば、サイトで使用するコードを公開できます。
 
 1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
-2. サイトに実装する Launch プロパティをクリックします。
+2. サイトに実装するタグプロパティをクリックします。
 3. 「公開」タブをクリックし、「新しいライブラリの追加」をクリックします。
 4. ライブラリに「初期変更」という名前を付け、開発環境を選択します。
 5. 「変更されたすべてのリソースを追加」をクリックすると、Adobe Analytics、ID サービスおよび Core が自動的に表示されます。
 6. 「保存」をクリックします。
 7. 投稿ワークフロー画面に戻り、新しいライブラリの横にあるドロップダウンをクリックし、「開発用にビルド」をクリックします。数秒後、ライブラリの黄色い丸が緑色に変わり、ビルドが成功したことを示します。
 8. 「環境」タブに移動し、開発環境をクリックします。
-9. 「Launch をインストール」の下で、コードブロックをコピーし、組織の Web サイト所有者に提供します。
+9. 「タグをインストール」の下で、コードブロックをコピーして、組織のWebサイトの所有者に提供します。
 
-## Web サイトの開発環境に Launch をインストールする
+## Webサイトの開発環境にタグをインストールする
 
 Web サイトのコードを制御する場合は、サイトの各ページのそれぞれの場所（`<head>` タグ内および終了 `</body>` タグのすぐ上）に、2 つのコードブロックを実装します。このコードは、通常、サイトのオーバーチャーチテンプレートに配置されます。実装コードのみを含む空白のページは、次のようになります。
 
@@ -71,8 +74,8 @@ Web サイトのコードを制御する場合は、サイトの各ページの�
 
 ## ドキュメントとその他のリソース
 
-- [はじめに](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html?lang=ja)：Launch の基本を学習します。
-- [Launch の公開](https://experienceleague.adobe.com/docs/launch/using/reference/publish/overview.html?lang=ja)：公開と環境についての詳細。
+- [クイックスタートガイド](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en):タグ実装の基本的なワークフローについて説明します
+- [公開の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en):公開と環境の詳細を説明します
 
 ## 次の手順
 
