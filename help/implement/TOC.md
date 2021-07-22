@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: 'どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。 '
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 94%
 
 ---
 
@@ -149,13 +149,13 @@ ht-degree: 100%
       + [訪問の例](js/xdevice-visid/visit-example.md)
       + [レガシークロスデバイス FAQ](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement のトラブルシューティング](js/troubleshooting.md)
-+ Adobe Experience Platform Launch による Analytics の実装 {#launch}
-   + [Launch の概要](launch/overview.md)
-   + [Analytics プロパティの作成](launch/create-analytics-property.md)
++ Adobe Experience Platform {#launch}のタグを使用したAnalyticsの実装
+   + [タグの概要](launch/overview.md)
+   + [Analyticsタグプロパティの作成](launch/create-analytics-property.md)
    + [開発環境へのデプロイ](launch/deploy-dev.md)
    + [検証して実稼動環境に公開](launch/validate-publish-prod.md)
    + [データレイヤーオブジェクトをデータ要素にマッピングする](launch/layer-to-elements.md)
-   + [Launch データ要素を Analytics 変数にマッピングする](launch/elements-to-variable.md)
+   + [タグデータ要素のAnalytics変数へのマッピング](launch/elements-to-variable.md)
 + 他のプラットフォームへの Analytics の実装 {#other}
    + [ハードコードされたイメージリクエストを使用した Analytics の実装](other/hardcoded.md)
    + [DTM を使用した Analytics の実装](other/dtm-implementation-overview.md)
