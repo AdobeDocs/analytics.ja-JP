@@ -1,28 +1,33 @@
 ---
 title: データレイヤーオブジェクトをデータ要素にマッピングする
-description: データレイヤーから読み取るよう Launch を設定します。
+description: データレイヤーから読み取るタグを設定します。
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '304'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 60%
 
 ---
 
 # データレイヤーオブジェクトをデータ要素にマッピングする
 
-組織がデータレイヤーを確立し、サイトに実装したら、Launch 内のデータ要素にデータレイヤーオブジェクトをマッピングできます。
+組織がデータレイヤーを確立し、サイトに実装したら、タグ内のデータ要素にデータレイヤーオブジェクトをマッピングできます。
+
+>[!NOTE]
+>Adobe Experience Platform Launchは、Experience Platformのデータ収集テクノロジーのスイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)を参照してください。
 
 ## 前提条件
 
-[データレイヤーを作成する](../prepare/data-layer.md)：サイトにデータレイヤーが存在することを確認します。技術的には、任意の JavaScript オブジェクトをマッピングしたり、CSS 要素をページから直接削除したりできますが、アドビではこの方法を最後の手段として使用することをお勧めします。サイトのレイアウトが変更されると、Launch で使用される CSS セレクターの動作が停止し、データが失われます。
+[データレイヤーを作成する](../prepare/data-layer.md)：サイトにデータレイヤーが存在することを確認します。技術的には、任意の JavaScript オブジェクトをマッピングしたり、CSS 要素をページから直接削除したりできますが、アドビではこの方法を最後の手段として使用することをお勧めします。サイトのレイアウトが変更されると、タグで使用されるCSSセレクターが機能しなくなり、データが失われます。
 
-## Adobe Experience Platform Launch を使用してデータ要素を作成する
+## タグを使用したデータ要素の作成
 
-[データ要素](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html?lang=ja#create-a-data-element)は、ツール全体で使用できる Launch のコンポーネントです。データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
+[データ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 要素は、データ収集UIのコンポーネントで、ツール全体で使用できます。データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
-1. 目的の Launch プロパティをクリックします。
+1. [experience.adobe.com](https://experience.adobe.com)に移動し、プロンプトが表示されたらログインします。
+1. **[!UICONTROL Launch /データ収集]**&#x200B;を選択します。
+1. 「**[!UICONTROL Launch /データ収集に移動]**」をクリックし、「**[!UICONTROL タグ]**」を選択します。
+1. 目的のタグプロパティをクリックします。
 1. 「**[!UICONTROL データ要素]**」タブをクリックしてから、「**[!UICONTROL データ要素の追加]**」をクリックします。
 
    ![データ要素の作成](assets/createelement.png)
