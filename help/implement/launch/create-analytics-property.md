@@ -1,30 +1,35 @@
 ---
-title: Launch での Analytics プロパティの作成
-description: Adobe Experience Platform Launch を使用してスペースを作成し、データの収集方法をカスタマイズします。
+title: タグでのAnalyticsプロパティの作成
+description: タグを使用してスペースを作成し、データの収集方法をカスタマイズします。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: c46feec3f08b78ca7882193ab86914db49617c1c
-workflow-type: ht
-source-wordcount: '557'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 59%
 
 ---
 
-# Adobe Experience Platform Launch での Analytics プロパティの作成
+# Analyticsタグプロパティの作成
 
-Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソリューション（Analytics を含む）を統合できるツールです。このページでは、Launch 管理者が Adobe Analytics の基本的な実装を正しく設定する方法について詳しく説明します。
+Adobe Experience Platformのタグを使用すると、Webサイト上でExperience Cloudソリューションを統合できます（Analyticsを含む）。 このページでは、タグ管理者が基本的なAdobe Analytics実装を正しく設定する方法について詳しく説明します。
+
+>[!NOTE]
+>Adobe Experience Platform Launchは、Experience Platformのデータ収集テクノロジーのスイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)を参照してください。
 
 ## 前提条件
 
-[レポートスイートの作成](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データ用のサイロを作成します。
+[レポートスイートの作成](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データ用のサイロを作成します。。
 
-## プロパティを作成し、重要な拡張機能をインストールする
+## タグプロパティを作成し、重要な拡張機能をインストールする
 
 プロパティは、タグの管理に使用する包括的なコンテナです。拡張機能を使用すれば、製品固有のタグをインストールして設定できます。
 
-1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
+1. [experience.adobe.com](https://experience.adobe.com)に移動し、プロンプトが表示されたらログインします。
+1. **[!UICONTROL Launch /データ収集]**&#x200B;を選択します。
+1. 「**[!UICONTROL Launch /データ収集に移動]**」をクリックし、「**[!UICONTROL タグ]**」を選択します。
 1. 「**[!UICONTROL 新規プロパティ]**」をクリックします。
 1. プロパティに Web サイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「**[!UICONTROL 保存]**」をクリックします。
-1. 新しく作成したプロパティをクリックして、設定を入力します。
+1. 新しく作成したタグプロパティをクリックして、設定を入力します。
 1. 「**[!UICONTROL 拡張機能]**」タブをクリックし、「**[!UICONTROL カタログ]**」をクリックします。
 1. 「ID サービス」を探し、「**[!UICONTROL インストール]**」をクリックします。
 1. Experience Cloud 組織 ID を含むすべての設定は、既に入力されているはずです。「**[!UICONTROL 保存]**」をクリックします。
@@ -34,8 +39,10 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 データ要素は、変数値を収集するための、サイトの特定の部分に対する参照です。
 
-1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
-1. サイトに実装する Launch プロパティをクリックします。
+1. [experience.adobe.com](https://experience.adobe.com)に移動し、プロンプトが表示されたらログインします。
+1. **[!UICONTROL Launch /データ収集]**&#x200B;を選択します。
+1. 「**[!UICONTROL Launch /データ収集に移動]**」をクリックし、「**[!UICONTROL タグ]**」を選択します。
+1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL データ要素]**」タブをクリックし、「**[!UICONTROL 新しいデータ要素の作成]**」をクリックします。
 1. データ要素に次の設定を指定します。
 
@@ -55,8 +62,10 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 ルールは、データ要素を Analytics 変数値にマッピングし、それらの値がアドビのサーバーに送信されるタイミングを決定します。
 
-1. [launch.adobe.com](https://launch.adobe.com) に移動して、要求された場合はログインします。
-1. サイトに実装する Launch プロパティをクリックします。
+1. [experience.adobe.com](https://experience.adobe.com)に移動し、プロンプトが表示されたらログインします。
+1. **[!UICONTROL Launch /データ収集]**&#x200B;を選択します。
+1. 「**[!UICONTROL Launch /データ収集に移動]**」をクリックし、「**[!UICONTROL タグ]**」を選択します。
+1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL 新しいルールを作成]**」をクリックし、「`Global Rule`」と名付けます。
 1. イベントの横にある「**[!UICONTROL 追加]**」をクリックし、次の設定を入力します。
    * 拡張機能：Core
@@ -80,9 +89,9 @@ Adobe Experience Platform Launch は、Web サイト上で Experience Cloud ソ�
 
 ## ドキュメントとその他のリソース
 
-* [Adobe Analytics 拡張機能のドキュメント](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ja#extensions-ref)： Adobe Experience Platform Launch の Adobe Analytics 拡張機能に固有の完全なドキュメントです。
-* [Launch 使用の手引き](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=ja#get-started)：より詳細なスタートガイドを含む、Launch の完全なドキュメントです。
-* [Adobe Experience Platform Launch チャンネル](https://experienceleague.adobe.com?tag=Launch&amp;lang=ja#recommended/solutions/experience-platform)：ビデオを通して Launch の使用方法を学びます。
+* [Adobe Analytics拡張機能のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en):タグのAdobe Analytics拡張機能に固有の完全なドキュメント。
+* [タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en):より詳細なスタートガイドを含む、タグの完全なドキュメント
+* [Adobe Experience Platform Launchチャネル](https://experienceleague.adobe.com?tag=Launch&amp;lang=ja#recommended/solutions/experience-platform):ビデオを介したタグの使用方法を説明します
 
 ## 次の手順
 
