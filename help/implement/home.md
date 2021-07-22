@@ -2,10 +2,10 @@
 title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティまたはアプリケーションに実装します。
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '368'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 83%
 
 ---
 
@@ -27,16 +27,15 @@ ht-degree: 100%
 
 Adobe Analytics では、データ収集サーバーにデータを送信するために、Web サイト、モバイルアプリケーションまたはその他のアプリケーション内のコードが必要です。プラットフォームや組織のニーズに応じて、このコードを実装する方法がいくつかあります。
 
-* **Adobe Experience Platform Launch**：Adobe Analytics を実装するための標準化されたお勧めの方法です。各ページにローダータグを配置し、Launch のインターフェイスを使用して、各変数の定義方法を決定します。
-* **Dynamic Tag Management**：Dynamic Tag Management の提供は終了しました。
-* **従来の JavaScript**：Adobe Analytics を実装するために古くから使用されている手動の方法です。実装で使用される変数および設定の概要を説明します。カスタムコードを含むルールを使用する Launch 実装で役立ちます。
+* **タグAdobe Experience Platform**:Adobe Analyticsを実装するための標準化されたお勧めの方法。各ページにローダタグを配置し、データ収集UIを使用して各変数の定義方法を決定します。
+* **従来の JavaScript**：Adobe Analytics を実装するために古くから使用されている手動の方法です。実装で使用される変数と設定の概要を説明します。これは、カスタムコードを含むルールを使用するタグ実装で役立ちます。
 * **モバイル SDK**：モバイルアプリケーション内からアドビに簡単にデータを送信する専用ライブラリです。
 
 ## 主な Analytics 実装記事
 
 * [既存の Adobe Analytics の実装を担当する](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
-* [Experience Platform Launch でのプロパティの作成](launch/create-analytics-property.md)
+* [Experience Platformでのタグプロパティの作成](launch/create-analytics-property.md)
 * [AppMeasurement のアップデート](appmeasurement-updates.md)
 
 ## その他の Analytics ユーザーガイド
