@@ -5,10 +5,10 @@ title: 処理順序
 feature: 管理ツール
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 98%
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 |--- |--- |
 | 動的変数参照 | 変数を動的に入力するには、HTTP ヘッダーや他の変数から情報を取得します。例えば、`s.eVar5="D=c1"` と指定すると、eVar5 に prop1 の値がセットされます。 |
 | AppMeasurement | AppMeasurement に使用される関数とプラグインは、ブラウザーまたはクライアントアプリケーションで実行されます。 |
-| Tag Management | Adobe Launch や Dynamic Tag Management で定義したルールは、定義どおりに実行されます。 |
+| Tag Management | データ収集UIで定義されたルールは、定義どおりに実行されます。 |
 | ボットルール | [ボットルール](/help/admin/admin/bot-removal/bot-rules.md)を使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。 |
 
 ## 処理ルール後
@@ -36,7 +36,7 @@ ht-degree: 98%
 | VISTA によって追加されるデータ | 処理ルールは VISTA の前に適用されます。 |
 | 訪問ページ番号 | 原則として、処理ルールは、現在のヒットにのみ含まれるデータを認識します。訪問ページ番号は、処理ルールの適用後にコンパイルされます。 |
 | ページ名が設定されていない場合は、クリーン URL をページ名として追加 | 処理ルールと VISTA の適用後、ページ名が設定されていない場合、クリーン URL がページ名として追加されます。これは、処理ルールの適用後に行われるため、ページ名が空白かどうかをチェックする条件を追加することをお勧めします。サイトのコンテンツ／ページレポートを実行し、ページ名に https:// 値が表示された場合、ページ名が空白で、URL が使用されている可能性があります。空白のページ名をテストするか、ページ名またはページ URL に特定の値が含まれているかどうかを確認するテストを行う条件を設定できます。これにより、ページ名を必要に応じて設定できます。 |
-| マーケティングチャネルの処理ルール | 処理ルールを使用して、[マーケティングチャネル処理ルール](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html)によって処理するデータを準備できます。 |
+| マーケティングチャネルの処理ルール | 処理ルールを使用して、[マーケティングチャネル処理ルール](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=ja)によって処理するデータを準備できます。 |
 | GEO 参照 | これには、訪問者の州と訪問者の郵便番号が含まれます。 |
 | eVar の持続性 | 以前のヒットに含まれていた eVar はルールの処理時の各ヒットまで持続されません。処理される現在のヒットに設定された eVar のみ使用できます。 |
 
