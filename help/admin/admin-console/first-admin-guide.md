@@ -2,11 +2,10 @@
 title: Adobe Analytics はじめての管理ガイド
 description: Adobe Analytics の使用開始、一般的な役割タイプ、UI へのログイン方法を説明します。
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '943'
-ht-degree: 100%
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+workflow-type: tm+mt
+source-wordcount: '954'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 Adobe Analytics の購入後は、主に次のような役割を考慮する必要があります。
 
 * **Adobe Analytics 管理者：**&#x200B;レポートスイートの設定やユーザー権限など、Adobe Analytics のすべての項目に対してフルアクセス権を持ちます。組織の構造に応じて、様々な人やチームが Analytics 管理の様々なファセットを担当できます。例えば、ある人は、実装で使用する変数の指定を担当し、別の人は、すべてのユーザーに権限が正しく割り当てられていることを確認し、レポートを正しく取り込めるようにすることを担当できます。Analytics レポートスイートの設定とユーザー権限を担当できるユーザーを 1 人以上特定し、そこから他の Analytics 管理者を招待できます。
-* **Adobe Experience Platform Launch 管理者：**&#x200B;これらのユーザーは、公開権限、コンテナの作成およびユーザー権限を含め、Experience Platform Launch に含まれるすべての項目に対するフルアクセス権を持ちます。これらのユーザーはプログラマーでなくてもかまいませんが、少なくとも HTML、CSS、JavaScript に関する初心者向けの知識があると便利です。組織の Web サイトの所有者と協力して、サイトに Experience Platform Launch コードを実装する必要があります。実装を担当する 1 人以上のユーザーを特定します。そのユーザーは他の Experience Platform Launch 管理者を招待できます。
+* **Adobe Experience Platform Launch管理者：** これらのユーザーは、公開権限、コンテナの作成およびユーザー権限を含め、データ収集UI(旧称：Experience Platform Launch)のすべての項目に対するフルアクセス権を持ちます。これらのユーザーはプログラマーでなくてもかまいませんが、少なくとも HTML、CSS、JavaScript に関する初心者向けの知識があると便利です。組織のWebサイトの所有者と協力して、サイトにExperience Platformタグを実装する必要があります。 実装を担当する 1 人以上のユーザーを特定します。そのユーザーは他の Experience Platform Launch 管理者を招待できます。
 * **サポート委任**：サポート対象ユーザーとも呼ばれ、Analytics インターフェイスでの追加の権限はありません。代わりに、Adobe カスタマーケアとの通信時に追加の権限を受け取ります。これらのユーザーは、ほとんどの場合は Analytics の管理者でもあり、カスタマーケアが問題のトラブルシューティングに役立ちます。エンドユーザーと Adobe カスタマーケアとの間のやり取りを担当する Analytics 管理者を少なくとも 1 人特定します。
 * **Web サイトの所有者：**&#x200B;これらの個人またはチームは、Web サイトのコーディングと開発を担当します。アカウントは不要ですが、Experience Platform Launch の管理者と連携して、Experience Platform Launch コードを取得し、Web サイトに実装する必要があります。
 * **エンドユーザー：**&#x200B;一般的に、レポートを閲覧して、ビジネスの質問に対する回答を探します。Analytics 管理者は、これらのユーザーに対し、製品で作業する権限を付与します。
@@ -41,9 +40,9 @@ Adobe Analytics の購入後は、主に次のような役割を考慮する必�
 1. Analytics へのフルアクセス権を付与する電子メールアドレスを入力し、新しく作成したフル管理者アクセスプロファイルを割り当てます。「保存」をクリックします。
 1. これで、ユーザーは Adobe Analytics へのフルアクセス権を持ちます。
 
-## Experience Platform Launch に対する製品管理者アクセスの許可
+## Experience Platform（旧称Launch）でのデータ収集に対する製品管理者アクセスの許可
 
-Experience Platform Launch の製品管理者アクセスは、Analytics の製品管理者アクセス権を付与するのとほとんど同じです。
+タグの製品管理者アクセスは、Experience Platformの製品管理者アクセスを許可するのとほとんど同じです。
 
 1. Adobe ID の資格情報を使用して Admin Console にログインします。
 1. 上部の「製品」タブをクリックします。組織が購入した製品はすべて左側に表示されます。「Experience Platform Launch by Adobe」をクリックし、「新しいプロファイル」ボタンをクリックします。
