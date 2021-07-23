@@ -2,11 +2,10 @@
 title: ブラウザータイプ
 description: ブラウザーを作成した組織。
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '133'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。
+このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。AppMeasurementライブラリ(Adobe Experience Platformのタグを介した場合など)を使用する場合、このディメンションは初期設定の状態で動作します。
 
 ## ディメンション項目
 
