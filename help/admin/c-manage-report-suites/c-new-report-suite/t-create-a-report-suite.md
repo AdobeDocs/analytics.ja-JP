@@ -3,10 +3,10 @@ description: Adobe Analyticsでのデータ収集用の基本コンテナの作�
 title: レポートスイートの作成
 feature: 管理ツール
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 62%
+source-wordcount: '376'
+ht-degree: 63%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 62%
 
 この記事は、データ収集の準備をおこなうシステムレベルの管理者またはAdobe Analytics管理者向けに作成されています。
 
-## 前提条件
+## 前提条件 
 
 [Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md):システムレベルの管理者から、Experience CloudAdmin Consoleを使用したAdobe Analyticsへのアクセス権が付与されていることを確認します。
 
@@ -47,4 +47,4 @@ my.omniture.comではなく、[Experience Cloud](https://experience.adobe.com)�
 
 ## 次の手順
 
-[Adobe Experience Platform LaunchでAdobe Analyticsのプロパティを作成および設定します](/help/implement/launch/create-analytics-property.md)。Analytics実装を管理する領域を作成する
+[Adobe Analyticsタグプロパティを作成しま ](/help/implement/launch/create-analytics-property.md)す。Analytics実装を管理する領域を作成する
