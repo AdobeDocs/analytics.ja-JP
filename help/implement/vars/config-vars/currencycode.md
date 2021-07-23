@@ -2,11 +2,10 @@
 title: currencyCode 変数とは何ですか？ その使い方を教えてください。
 description: e コマースサイトの場合、ページで扱う通貨を設定します。
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 95%
 
 ---
 
@@ -26,14 +25,16 @@ ht-degree: 100%
 
 この変数は、ヒット間で保持されません。この変数が売上高または通貨イベントを含むすべてのページで定義されていることを確認してください。
 
-## Adobe Experience Platform Launch の「通貨コード」
+## Adobe Experience Platformタグの通貨コード
 
 「通貨コード」は、Adobe Analytics 拡張機能を設定する際に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
-2. 目的のプロパティをクリックします。
-3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
-4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 通貨コード]」フィールドが表示されます。
+1. `experience.adobe.com`に移動し、プロンプトが表示されたらログインします。
+1. [!UICONTROL Launch /データ収集]を選択します。
+1. 「[!UICONTROL Launch /データ収集に移動]」をクリックし、「[!UICONTROL タグ]」を選択します。
+1. 目的のプロパティをクリックします。
+1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
+1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 通貨コード]」フィールドが表示されます。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
@@ -42,12 +43,12 @@ ht-degree: 100%
 Adobe Experience Platform コードは、Adobe Analytics 拡張機能のコンテキストデータ変数を通じて通貨モバイル SDK に渡されます。
 
 1. `trackState` または `trackAction` のいずれかの時点で、コンテキストデータ変数に通貨コードを設定します。
-2. アドビの Adobe Analytics Admin Console で、レポートスイート用の処理ルールを作成します。通貨コード変数を上書きするルールを設定します。
-3. `trackState` または `trackAction` の呼び出しで、通貨コードを `products` 変数に渡します。
+1. アドビの Adobe Analytics Admin Console で、レポートスイート用の処理ルールを作成します。通貨コード変数を上書きするルールを設定します。
+1. `trackState` または `trackAction` の呼び出しで、通貨コードを `products` 変数に渡します。
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.currencyCode 
+## AppMeasurementおよびデータ収集カスタムコードエディターのs.currencyCode
 
 `s.currencyCode` 変数は、ページ上の通貨を表す 3 文字の大文字コードを含む文字列です。
 
