@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: 'どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。 '
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 94%
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -151,9 +151,9 @@ ht-degree: 94%
    + [AppMeasurement のトラブルシューティング](js/troubleshooting.md)
 + Adobe Experience Platform {#launch}のタグを使用したAnalyticsの実装
    + [タグの概要](launch/overview.md)
-   + [Analyticsタグプロパティの作成](launch/create-analytics-property.md)
+   + [Adobe Analyticsタグプロパティの作成](launch/create-analytics-property.md)
    + [開発環境へのデプロイ](launch/deploy-dev.md)
-   + [検証して実稼動環境に公開](launch/validate-publish-prod.md)
+   + [検証して実稼動環境に公開する](launch/validate-publish-prod.md)
    + [データレイヤーオブジェクトをデータ要素にマッピングする](launch/layer-to-elements.md)
    + [タグデータ要素のAnalytics変数へのマッピング](launch/elements-to-variable.md)
 + 他のプラットフォームへの Analytics の実装 {#other}
