@@ -2,10 +2,10 @@
 title: Adobe Analytics 権限 - 概要テーブル
 description: Admin Console で使用可能な Adobe Analytics の権限をまとめたテーブル。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '1272'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 | Analytics ツール | 管理 | アクセス制御 | レポートのみの機能 | 廃止された  | 説明 |
 | --- | --- | --- | --- | --- | --- |
-| コードマネージャー | x |  |  |  | 従来の目的のために保存されました。管理者／すべての管理者／Code Manager へのアクセス権を付与します。ほとんどの場合、代わりに、Adobe Experience Platform Launch に含まれるライブラリを使用します。 |
+| コードマネージャー | x |  |  |  | 従来の目的のために保存されました。管理者／すべての管理者／Code Manager へのアクセス権を付与します。ほとんどの場合、代わりに、Adobe Experience Platformデータ収集に含まれるライブラリを使用します。 |
 | コードマネージャー - Web サービス | x |  |  |  | 1.4 API を使用して Code Manager へのアクセスを許可します。 |
 | レポートスイートを非表示 | x |  |  |  | 管理者／すべての管理者／会社設定／レポートスイートを非表示へのアクセス権を付与します。レポートスイートへのアクセス権に関係なく、組織内の任意のレポートスイートを非表示にする機能を付与します。 |
 | 統合 (作成) | x |  |  |  | 管理者／すべての管理者／Data Connectors へのアクセス権を付与し、ユーザーが Data Connectors を作成できるようにします。 |
