@@ -2,10 +2,10 @@
 title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 95%
 
 ---
 
@@ -27,19 +27,22 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 組織のオプトアウトページは、実装内の [`trackingServer`](../vars/config-vars/trackingserver.md) 変数値に応じて異なります。
 
-* Adobe Experience Platform Launch：
-   1. [Launch.adobe.com](https://launch.adobe.com) にログインし、目的のプロパティをクリックします。
-   2. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics で「[!UICONTROL 設定]」をクリックします。
-   3. 「[!UICONTROL 一般]」アコーディオンをクリックし、「[!UICONTROL トラッキングサーバー]」の値をメモします。
+* Adobe Experience Platformデータ収集UIで、次の操作を実行します。
+   1. `experience.adobe.com`に移動し、プロンプトが表示されたらログインします。
+   1. [!UICONTROL Launch /データ収集]を選択します。
+   1. 「[!UICONTROL Launch /データ収集に移動]」をクリックし、「[!UICONTROL タグ]」を選択します。
+   1. 目的のプロパティをクリックします。
+   1. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics で「[!UICONTROL 設定]」をクリックします。
+   1. 「[!UICONTROL 一般]」アコーディオンをクリックし、「[!UICONTROL トラッキングサーバー]」の値をメモします。
 
 * JavaScript 実装の場合：
    1. Web サーバー上で、サイトで使用している AppMeasurement.js ファイルをコードエディターまたはテキストエディターで開きます。
-   2. `trackingServer` 変数の値をメモしておきます。
+   1. `trackingServer` 変数の値をメモしておきます。
 
 * [Adobe Experience Cloud デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用して、以下を実行します。
    1. Chrome ブラウザーを使用してサイトに移動します。
-   2. Experience Cloud デバッガーを開き、「[!UICONTROL ネットワーク]」タブに移動します。
-   3. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
+   1. Experience Cloud デバッガーを開き、「[!UICONTROL ネットワーク]」タブに移動します。
+   1. 「[!UICONTROL リクエスト URL - ホスト名]」の値に注意してください。
 
 実装の `trackingServer` ドメインが見つかったら、最後にパス `/optout.html` を追加します。次に例を示します。
 
