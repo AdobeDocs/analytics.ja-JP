@@ -2,11 +2,10 @@
 title: H コード JavaScript 実装の概要
 description: サイトで H コードを実装するためのワークフローについて説明します。
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> このバージョンのデータ収集はサポートされなくなりました。[Adobe Experience Platform Launch](../../launch/overview.md) または [JavaScript 版 AppMeasurement](../overview.md) にアップグレードします。
+> このバージョンのデータ収集はサポートされなくなりました。Adobe Experience Platform](../../launch/overview.md)または[JavaScript版AppMeasurement](../overview.md)の[タグにアップグレードします。
 
 データを収集するコードを含むページを正しく実装するには、ホストサーバーにアクセスできる必要があります。以下の手順で、Analytics の基本的な H コード実装方法を説明します。
 
