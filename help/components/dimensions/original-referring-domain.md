@@ -2,11 +2,10 @@
 title: オリジナルの参照ドメイン
 description: 訪問者がクリックスルーしてサイトにアクセスする前に閲覧していた最初の参照ドメイン。
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 このディメンションは、Analytics インターフェイスとお客様の実装の両方で設定する必要があります。
 
-* 実装内で、このディメンションはイメージリクエストの[`r`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `document.referrer` 変数を使用してこのデータを収集します。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外の（API 経由などの）データ収集方法を使用する場合は、クエリリクエストに `r` 文字列パラメーターを必ず含めてください。
+* 実装内で、このディメンションはイメージリクエストの[`r`クエリ文字列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `document.referrer` 変数を使用してこのデータを収集します。AppMeasurementライブラリ(Adobe Experience Platformのタグを介した場合など)を使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement 以外の（API 経由などの）データ収集方法を使用する場合は、クエリリクエストに `r` 文字列パラメーターを必ず含めてください。
 * Analytics のインターフェイス内で、レポートスイートの[内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md) を設定する必要があります。内部 URL フィルターを設定しないと、内部ドメインが含まれるか、外部ドメインが表示されない可能性があります。
 
 アドビは、訪問者が存続する間、オリジナルの参照ドメインを維持します。訪問者が別のドメイン上のリンクを離れたりクリックスルーしたりする場合、新しい値は記録されません。新しい値を表示する場合は、[参照ドメイン](referring-domain.md)を参照してください。
