@@ -2,10 +2,10 @@
 title: Adobe Analytics はじめての管理ガイド
 description: Adobe Analytics の使用開始、一般的な役割タイプ、UI へのログイン方法を説明します。
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 91%
+source-wordcount: '949'
+ht-degree: 78%
 
 ---
 
@@ -40,23 +40,23 @@ Adobe Analytics の購入後は、主に次のような役割を考慮する必�
 1. Analytics へのフルアクセス権を付与する電子メールアドレスを入力し、新しく作成したフル管理者アクセスプロファイルを割り当てます。「保存」をクリックします。
 1. これで、ユーザーは Adobe Analytics へのフルアクセス権を持ちます。
 
-## Experience Platform（旧称Launch）でのデータ収集に対する製品管理者アクセスの許可
+## Experience Platformでのデータ収集に対する製品管理者アクセスの許可
 
-タグの製品管理者アクセスは、Experience Platformの製品管理者アクセスを許可するのとほとんど同じです。
+Experience Platformのデータ収集に対する製品管理者アクセスは、Analyticsの製品管理者アクセス権を付与するのとほとんど同じです。
 
 1. Adobe ID の資格情報を使用して Admin Console にログインします。
-1. 上部の「製品」タブをクリックします。組織が購入した製品はすべて左側に表示されます。「Experience Platform Launch by Adobe」をクリックし、「新しいプロファイル」ボタンをクリックします。
-1. このプロファイルに「&#39;Experience Platform Launch の管理者フルアクセス」という名前を付け、「完了」をクリックします。
-1. 製品プロファイルページに戻り、新しく作成したプロファイルをクリックして、「権限」タブをクリックします。
-1. 権限行項目の 1 つをクリックします。自動インクルードを使用できる場合は、有効にします。自動インクルードを使用できない場合は、「すべて追加」をクリックします。両方のオプションを選択すると、すべての権限項目が右側の列に移動します。
-1. 「保存」をクリックします。すべての権限カテゴリに対して、上記の手順を繰り返します。
-1. すべての権限カテゴリがプロファイルに付与されたら、上部の「概要」をクリックして概要ページに戻ります。
-1. 「Experience Platform Launch by Adobe」タイルで、「ユーザーを割り当て」をクリックします。
-1. Analytics へのフルアクセス権を付与する電子メールアドレスを入力し、新しく作成したフル管理者アクセスプロファイルを割り当てます。「保存」をクリックします。
-1. これで、ユーザーは Experience Platform Launch へのフルアクセス権を持ちます。
+1. 上部の「**[!UICONTROL 製品]**」タブをクリックします。 組織が購入した製品はすべて左側に表示されます。「**[!UICONTROL Adobe別Experience Platform Launch]**」をクリックし、「**[!UICONTROL 新しいプロファイル]**」をクリックします。
+1. このプロファイルに「Experience Platform Launchの完全な管理者アクセス」という名前を付け、「**[!UICONTROL 完了]**」をクリックします。
+1. **[!UICONTROL 製品プロファイル]**&#x200B;ページに戻り、新しく作成したプロファイルをクリックし、「**[!UICONTROL 権限]**」タブをクリックします。
+1. 権限行項目の 1 つをクリックします。**[!UICONTROL 自動インクルード]**&#x200B;が使用可能な場合は、有効にします。 自動インクルードを使用できない場合は、「**[!UICONTROL すべて追加]**」をクリックします。 両方のオプションを選択すると、すべての権限項目が右側の列に移動します。
+1. 「**[!UICONTROL 保存]**」をクリックします。すべての権限カテゴリに対して、上記の手順を繰り返します。
+1. すべての権限カテゴリがプロファイルに付与されたら、上部の「**[!UICONTROL 概要]**」をクリックして、概要ページに戻ります。
+1. 「[!UICONTROL Adobe別Experience Platform Launch]」タイルで、「**[!UICONTROL ユーザーを割り当て]**」をクリックします。
+1. Analytics へのフルアクセス権を付与する電子メールアドレスを入力し、新しく作成したフル管理者アクセスプロファイルを割り当てます。「**[!UICONTROL 保存]**」をクリックします。
+1. これで、ユーザーはデータ収集に対するフルアクセス権をExperience Platformに付与されました。
 
 ## 次の手順
 
 [レポートスイートの作成](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：Analytics 管理者をログインさせ、データ収集用のレポートスイートを作成してもらいます。
 
-[Experience Platform Launch でのプロパティの作成](/help/implement/launch/create-analytics-property.md)：Experience Platform Launch の管理者にツールにログインしてプロパティを作成し、サイトに実装します。
+[Analyticsタグプロパティを作成します](/help/implement/launch/create-analytics-property.md)。データ収集管理者にツールにログインしてプロパティを作成し、サイトに実装してもらう
