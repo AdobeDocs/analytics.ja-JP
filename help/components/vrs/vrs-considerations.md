@@ -5,10 +5,10 @@ title: 仮想レポートスイートとグローバル／複数のスイート�
 feature: レポートスイートの設定
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 95%
+source-wordcount: '1756'
+ht-degree: 93%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 95%
    * ベストプラクティスとして、[セグメントの積み重ね](/help/components/segmentation/segmentation-workflow/seg-build.md)を使用し、1 か所でセグメントを編集し、依存するすべての仮想レポートスイートに適用できるようにします。
    * 仮想レポートスイートをより排他的に保つ場合は、ヒットコンテナを使用します。
 2. 仮想レポートスイートが正しく設定されていることを確認したら、実装からセカンダリレポートスイート ID を削除します。セカンダリレポートスイートの削除方法：
-   * Adobe Experience Platform Launch で、使用しないレポートスイートの横にある「x」をクリックします。
+   * Adobe Experience Platformのデータ収集UIで、今後使用しないレポートスイートの横にある「x」をクリックします。
    * 従来の JavaScript 実装では、`s.account` 変数を見つけて、使用しなくなったレポートスイート ID をすべて削除します。
    * サイトやアプリのデータを収集する場合は、どのような場合でも、グローバル／親レポートスイート ID のみをそのままにします。
    * 管理者／レポートスイートに移動し、使用されなくなったセカンダリレポートスイートを非表示にします。
