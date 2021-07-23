@@ -2,11 +2,10 @@
 title: 画面の解像度
 description: 訪問者のモニターの解像度（ピクセル単位）。
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストの[`s`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `screen.width` および `screen.height` 変数を使用してこのデータを収集します。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外の（API 経由などの）データ収集方法を使用する場合は、クエリリクエストに `s` 文字列パラメーターを必ず含めてください。
+このディメンションは、イメージリクエストの[`s`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `screen.width` および `screen.height` 変数を使用してこのデータを収集します。AppMeasurementライブラリ(Adobe Experience Platformのタグを介した場合など)を使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement 以外の（API 経由などの）データ収集方法を使用する場合は、クエリリクエストに `s` 文字列パラメーターを必ず含めてください。
 
 ## ディメンション項目
 
