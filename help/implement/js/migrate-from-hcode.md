@@ -2,16 +2,16 @@
 title: JavaScript 版 AppMeasurement への移行
 description: H コードから実装を移行するために必要な事項を決定します。
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 93%
 
 ---
 
 # JavaScript 版 AppMeasurement への移行
 
-実装で引き続き H コードを使用する場合は、AppMeasurement の最新バージョンに移行することを強くお勧めします。[Adobe Experience Platform Launch](../launch/overview.md) を使用した Analytics の実装をお勧めします。ただし、更新された JavaScript の実装を使用することもできます。
+実装で引き続き H コードを使用する場合は、AppMeasurement の最新バージョンに移行することを強くお勧めします。Adobe Experience Platform](../launch/overview.md)に[タグを使用してAnalyticsを実装することをお勧めしますが、更新されたJavaScript実装を使用することもできます。
 
 H コードと比較した場合、AppMeasurement には次の注目すべき変更が含まれています。
 
