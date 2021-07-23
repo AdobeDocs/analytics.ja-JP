@@ -2,11 +2,10 @@
 title: 色深度
 description: デバイスの色深度。
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、ルックアップテーブルを参照し、ビット値をより読みやすい形式に変換します。イメージリクエスト内の [`c` クエリ文字列](/help/implement/validate/query-parameters.md)を収集します。AppMeasurement は、`screen.colorDepth` 変数を使用して、イメージリクエストクエリ文字列を設定します。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外のデータ収集方式（API 経由など）を使用する場合は、各ヒットに `c` クエリー文字列パラメーターを有効なビット値で含めてください。
+このディメンションは、ルックアップテーブルを参照し、ビット値をより読みやすい形式に変換します。イメージリクエスト内の [`c` クエリ文字列](/help/implement/validate/query-parameters.md)を収集します。AppMeasurement は、`screen.colorDepth` 変数を使用して、イメージリクエストクエリ文字列を設定します。AppMeasurement(Adobe Experience Platformのthroughタグなど)を使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement 以外のデータ収集方式（API 経由など）を使用する場合は、各ヒットに `c` クエリー文字列パラメーターを有効なビット値で含めてください。
 
 ## ディメンション項目
 
