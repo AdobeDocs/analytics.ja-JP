@@ -4,10 +4,10 @@ keywords: クリックストリーム、データフィード、データフィ�
 title: Analytics データフィードの概要
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 データフィードを使用する前に、次の要件をすべて満たしていることを確認してください。
 
 * FTP サイトと資格情報を入手しておくと便利です。データフィードは、サーバーの宛先にのみ送信できます。通常、組織が FTP 資格情報を提供します。アドビは、お客様のリクエストに応じて FTP の場所をわずかな容量で提供できます。データフィードの FTP 送信先をリクエストする場合は、カスタマーケアにお問い合わせください。
-* アドビのデータ収集サーバーにデータを送信する実装。実装ユーザーガイドの「[Launch の実装の検証と発行](/help/implement/launch/validate-publish-prod.md)」を参照してください。
+* アドビのデータ収集サーバーにデータを送信する実装。『実装ユーザガイド』の「 [実装の検証と公開](/help/implement/launch/validate-publish-prod.md) 」を参照してください。
 * アカウントが Analytics 製品管理者であるか、アカウントがデータフィードへのアクセス権を持つ製品プロファイルに属している。
 
 ## 使用を開始する手順
