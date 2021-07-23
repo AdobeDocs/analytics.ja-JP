@@ -2,14 +2,14 @@
 title: タグでのAnalyticsプロパティの作成
 description: タグを使用してスペースを作成し、データの収集方法をカスタマイズします。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 59%
 
 ---
 
-# Analyticsタグプロパティの作成
+# Adobe Analyticsタグプロパティの作成
 
 Adobe Experience Platformのタグを使用すると、Webサイト上でExperience Cloudソリューションを統合できます（Analyticsを含む）。 このページでは、タグ管理者が基本的なAdobe Analytics実装を正しく設定する方法について詳しく説明します。
 
