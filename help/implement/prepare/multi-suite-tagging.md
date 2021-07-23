@@ -2,10 +2,10 @@
 description: 複数のスイートタグ付けを実装し、イメージリクエストを複数のレポートスイートに送信する方法を説明します。
 title: 複数のスイートタグ付けの実装
 exl-id: null
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 複数のスイートタグ付けを実装するには、eb ページやアプリのトラッキングコードに、グローバルレポートスイートのレポートスイート ID（RSID）と、該当する子レポートスイートの RSID を含める必要があります。
 
-* Adobe Experience Platform Launch 実装の場合、[[!DNL Analytics] 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ja)の各レポートスイートを指定します。
+* Adobe Experience Platformタグ実装の場合、[[!DNL Analytics] 拡張子](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)の各レポートスイートを指定します。
 
 * レガシー JavaScript およびモバイル SDK を実装する場合、RSID をコンマで区切り、スペースは使用しません（`rsid1,rsid2,rsid3` など）。
 
