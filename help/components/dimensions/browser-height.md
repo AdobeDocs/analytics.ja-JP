@@ -2,11 +2,10 @@
 title: ブラウザーの高さ - グループ
 description: ソース画像の高さをピクセルで指定します。
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストの[`bh`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `window.innerHeight` 変数を使用してこのデータを収集します。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外のデータ収集方法（API 経由など）を使用する場合は、各訪問の最初のヒットに `bh` クエリー文字列パラメーターを必ず含めてください。
+このディメンションは、イメージリクエストの[`bh`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `window.innerHeight` 変数を使用してこのデータを収集します。AppMeasurementライブラリ(Adobe Experience Platformのタグを介した場合など)を使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement 以外のデータ収集方法（API 経由など）を使用する場合は、各訪問の最初のヒットに `bh` クエリー文字列パラメーターを必ず含めてください。
 
 1 回の訪問でのブラウザーの高さは維持されます。訪問中にブラウザーの高さを調整した場合、調整は記録されません。
 
