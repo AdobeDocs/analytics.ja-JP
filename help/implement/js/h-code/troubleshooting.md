@@ -2,11 +2,10 @@
 title: H コード実装のトラブルシューティング
 description: レガシー JavaScript の実装に関する一般的な問題をいくつか説明します。
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +17,7 @@ H コードの実装に固有のトラブルシューティング手順を以下
 
 >[!NOTE]
 >
->H コードの実装では `<body>` タグ内でコードを参照する必要がありますが、他の実装（Adobe Experience Platform Launch の使用など）では `<head>` タグ内でコードを参照する必要があります。
+>Hコードの実装では`<body>`タグでコードを参照する必要がありますが、他の実装(Adobe Experience Platformでのタグの使用など)では`<head>`タグでコードを参照する必要があります。
 
 Analytics コードは、非表示の 1 x 1 ピクセル画像を作成します。以前は、`s_code.js` の参照を `<head>` タグに配置するのが一般的な実装方法でした。ここにコードを配置すると、画像がページレイアウトに影響を与えなくなります。また、コードは早い段階で実行され、部分的なページ読み込みのページビューをより効果的にカウントできます。
 
