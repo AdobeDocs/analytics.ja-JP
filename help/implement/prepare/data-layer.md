@@ -2,11 +2,10 @@
 title: データレイヤーの作成
 description: Analytics の実装におけるデータレイヤーと、それらを Adobe Analytics で変数のマッピングに使用する方法について説明します。
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '479'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 83%
 
 ---
 
@@ -28,8 +27,8 @@ ht-degree: 100%
    >
    > アドビ推奨のデータレイヤー仕様に従うことはオプションです。データレイヤーが既に存在する場合、またはアドビの仕様に従わない場合は、どの仕様に従うかを組織で決定してください。
 1. **ブラウザーコンソールを使用して、データレイヤーを検証します**：データレイヤーが作成されたら、任意のブラウザーの開発者コンソールを使用して、データレイヤーが機能していることを検証できます。デベロッパーコンソールは、`F12` キーを使用してほとんどのブラウザーで開くことができます。変数値の例は `digitalData.page.pageInfo.pageID` です。
-1. **Adobe Experience Platform Launch を使用して、データレイヤーオブジェクトを Launch データ要素にマッピングします**：Launch でデータ要素を作成し、データレイヤーで概要を説明している JavaScript 属性にマップします。
-1. **Launch の Adobe Analytics 拡張機能を使用して、データ要素を Analytics 変数にマップします**：ソリューションデザインドキュメントに従って、各データ要素を適切な Analytics 変数に割り当てます。
+1. **Adobe Experience Platformタグを使用して、データレイヤーオブジェクトをデータ要素にマッピングします**。Adobe Experience Platformのデータ収集UIでデータ要素を作成し、データレイヤーで概要を説明しているJavaScript属性にマッピングします。
+1. **Adobe Analyticsタグ拡張機能を使用して、データ要素をAnalytics変数にマッピングします**。ソリューションデザインドキュメントに従って、各データ要素を適切なAnalytics変数に割り当てます。
 
 ## 仕様
 
@@ -177,4 +176,4 @@ digitalData = {
 
 ## 次の手順
 
-[データ要素へのデータレイヤーオブジェクトのマッピング](../launch/layer-to-elements.md)：Adobe Experience Platform Launch で、サイトのデータレイヤーを使用します。
+[データレイヤーオブジェクトをデータ要素にマッピングする](../launch/layer-to-elements.md):Adobe Experience Platformでサイトのデータレイヤーを使用します。
