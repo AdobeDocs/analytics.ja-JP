@@ -2,9 +2,9 @@
 title: Adobe Experience Platformでのタグを使用した実装
 description: タグを使用したAdobe Analyticsの実装方法を説明します
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '362'
 ht-degree: 47%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 47%
 
 Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。Adobeの現在の推奨メソッドは、Adobe Experience Platformのタグを使用した方法です。
 
-Adobe Experience Platformのタグは、他のタグ要件と共にAnalyticsコードを導入できるタグ管理ソリューションです。 アドビは他のソリューションや製品との統合を提供し、カスタムコードの導入に対応します。これらのタスクはすべて、組織の開発チームに依存せずに実行できるので、自らサイト上のコードを更新できます。
+Adobe Experience Platformデータ収集のタグは、他のタグ要件と共にAnalyticsコードを導入できるタグ管理ソリューションです。 アドビは他のソリューションや製品との統合を提供し、カスタムコードの導入に対応します。これらのタスクはすべて、組織の開発チームに依存せずに実行できるので、自らサイト上のコードを更新できます。
 
 アクティブなAdobe Experience Cloud契約を締結しているすべてのお客様がタグを使用できます。 Launch にアクセスできるかどうかがわからない場合は、組織の Experience Cloud システム管理者にお問い合わせください。
 
