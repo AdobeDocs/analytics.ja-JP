@@ -2,11 +2,10 @@
 title: cookieDomain
 description: cookieDomain 変数は、Cookie を設定するドメインを決定するのに役立ちます。
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 87%
 
 ---
 
@@ -25,11 +24,11 @@ ht-degree: 100%
 
 `cookieDomain` 変数を使用する実装はごく少数で、その代わりに、[`cookieDomainPeriods`](cookiedomainperiods.md) のような代替変数を使用できます。
 
-## Adobe Experience Platform Launch の Cookie ドメイン
+## Adobe Experience Platformデータ収集のCookieドメイン
 
-Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.cookieDomain
+## AppMeasurement および カスタムコードエディターの s.cookieDomain
 
 `cookieDomain` 変数は文字列で、Cookie を保存するドメインに設定されます。
 
