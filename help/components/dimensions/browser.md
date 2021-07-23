@@ -2,11 +2,10 @@
 title: ブラウザー
 description: 使用されたブラウザーの名前とバージョン。
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 88%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。AppMeasurement ライブラリ（Adobe Experience Platform Launch を介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。
+このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。AppMeasurementライブラリ(Adobe Experience Platformのタグを介した場合など)を使用する場合、このディメンションは初期設定の状態で動作します。
 
 ## ディメンション項目
 
