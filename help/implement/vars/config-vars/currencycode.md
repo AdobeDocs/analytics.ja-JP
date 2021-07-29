@@ -2,10 +2,10 @@
 title: currencyCode 変数とは何ですか？ その使い方を教えてください。
 description: e コマースサイトの場合、ページで扱う通貨を設定します。
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 95%
+source-wordcount: '834'
+ht-degree: 97%
 
 ---
 
@@ -25,13 +25,11 @@ ht-degree: 95%
 
 この変数は、ヒット間で保持されません。この変数が売上高または通貨イベントを含むすべてのページで定義されていることを確認してください。
 
-## Adobe Experience Platformタグの通貨コード
+## Adobe Experience Platformでタグを使用する通貨コード
 
 「通貨コード」は、Adobe Analytics 拡張機能を設定する際に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
-1. `experience.adobe.com`に移動し、プロンプトが表示されたらログインします。
-1. [!UICONTROL Launch /データ収集]を選択します。
-1. 「[!UICONTROL Launch /データ収集に移動]」をクリックし、「[!UICONTROL タグ]」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 通貨コード]」フィールドが表示されます。
@@ -48,7 +46,7 @@ Adobe Experience Platform コードは、Adobe Analytics 拡張機能のコン�
 
 プリセットの通貨コードまたはカスタムの通貨コードを使用できます。カスタム通貨コードを使用する場合は、コードが有効であることを確認します。
 
-## AppMeasurementおよびデータ収集カスタムコードエディターのs.currencyCode
+## AppMeasurement および カスタムコードエディターの s.currencyCode 
 
 `s.currencyCode` 変数は、ページ上の通貨を表す 3 文字の大文字コードを含む文字列です。
 
