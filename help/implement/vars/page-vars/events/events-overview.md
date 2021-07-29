@@ -2,11 +2,10 @@
 title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 96%
 
 ---
 
@@ -16,11 +15,11 @@ ht-degree: 100%
 
 イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-success-events/success-event.md)」で、成功イベントを作成し、設定していることを確認してください。リンクトラッキングのヒットでカスタムイベントを使用する予定がある場合は、[`linkTrackVars`](../../config-vars/linktrackvars.md) と [`linkTrackEvents`](../../config-vars/linktrackevents.md) が正しく設定され ていることを確認してください。
 
-## Adobe Experience Platform Launch のイベント
+## Adobe Experience Platformでタグを使用するイベント
 
 イベントは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
@@ -34,7 +33,7 @@ ht-degree: 100%
 * イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例えば、ドロップダウンで `event1` を選択し、このフィールドに `10` を含めると、レポートでは `event1` が 10 ずつ増えます。
 * 別のイベントを追加するボタン。ヒットに含めることのできるイベント数には、妥当な制限はありません。
 
-## AppMeasurement および Launch カスタムコードエディターの s.events
+## AppMeasurement および カスタムコードエディターの s.events
 
 `s.events` 変数は、ヒットに含めるイベントのコンマ区切りリストを含む文字列です。この変数にはバイト制限がないので、切り捨てられません。有効な設定値は以下のとおりです。
 
