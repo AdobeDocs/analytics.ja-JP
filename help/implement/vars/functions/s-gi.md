@@ -2,11 +2,10 @@
 title: s_gi()
 description: AppMeasurement のインスタンスを作成し、追跡します。
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 93%
 
 ---
 
@@ -14,18 +13,18 @@ ht-degree: 100%
 
 `s_gi()` 関数は、レポートスイート ID で AppMeasurement のインスタンスをインスタンス化するか、検索します。AppMeasurement は作成されるすべてのインスタンスを追跡して、`s_gi()` はレポートスイートに対応する既存のインスタンスがある場合にそれを返します。インスタンスが存在しなければ、新しいインスタンスが作成されます。
 
-## Adobe Experience Platform Launch の s_gi()
+## Adobe Experience Platformでのタグの使用
 
 Analytics 拡張機能により、追跡オブジェクトがインスタンス化され、管理されます。ただし、Adobe Analytics の拡張機能を設定する際に、「[!UICONTROL ライブラリ管理]」アコーディオンでグローバルトラッキングオブジェクトを設定することもできます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL ライブラリ管理]」アコーディオンを展開し、「[!UICONTROL 私に代わってライブラリを管理する]」以外のラジオボタンを選択します。
 
 グローバル変数テキストフィールドでは、カスタムトラッキングオブジェクトを設定できます。デフォルト値は `s` です。
 
-## AppMeasurement および Launch カスタムコードエディターの s_gi()
+## AppMeasurement および カスタムコードエディターの s_gi()
 
 `s_gi()` 関数を呼び出して、トラッキングオブジェクトをインスタンス化します。その唯一の引数には、レポートスイート ID のコンマ区切り文字列が含まれます。レポートスイート ID 引数は必須です。
 
