@@ -2,10 +2,10 @@
 title: Adobe Analytics テクニカルドキュメントガイド
 description: Analytics のユーザーガイドとリソース
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [![管理者](assets/admin_50px.png)](/help/admin/home.md) [管理者ガイド](/help/admin/home.md) – Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定、会社の設定、データガバナンス、サーバーコールの使用、トラフィック管理などについて説明します。
 
-[![実装](assets/implement_50px.png)](/help/implement/home.md) [実装ガイド](/help/implement/home.md) – データ収集をカスタマイズすることで、Adobe Analytics を最大限活用する方法について説明します。[!UICONTROL Adobe Experience Platform Launch] と JavaScript の実装についても解説します。
+[![実装](assets/implement_50px.png)](/help/implement/home.md) [実装ガイド](/help/implement/home.md) – データ収集をカスタマイズすることで、Adobe Analytics を最大限活用する方法について説明します。Adobe Experience PlatformおよびJavaScript実装でのタグの使用が含まれます。
 
 [![コンポーネント](assets/components_50px.png)](/help/components/home.md) [コンポーネントガイド](/help/components/home.md) – データの整理に役立つ機能をご紹介します。コンポーネントには、セグメント、計算指標、仮想レポートスイート、アラートなどがあります。このガイドには、利用可能なすべてのディメンションと指標を説明する変数リファレンスも含まれています。
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 
 [![統合](assets/integrate_50px.png)](/help/integrate/home.md) [統合ガイド](/help/integrate/home.md) – Audience Manager、Advertising Cloud、Target といった他の Adobe Experience Cloud ソリューションとの統合を設定します。
 
-[![ストリーミングメディア解析](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja) [ストリーミングメディア解析ガイド](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja) - ストリーミングメディア用 Adobe Analytics の実装これには、メディア SDK とメディアコレクション API が含まれます。
+[![ストリーミングメディア解析](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja) [ストリーミングメディア解析ガイド](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) - ストリーミングメディア用 Adobe Analytics の実装これには、メディア SDK とメディアコレクション API が含まれます。
 
-[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ja) [Data Workbench ガイド](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ja) – [!UICONTROL Data Workbench] の非常に柔軟で強力なマルチチャネル機能について説明します。[!UICONTROL Data Workbench クライアント]、インストール、[!UICONTROL データセット設定]ガイドなどが含まれます。
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ja) [Data Workbench ガイド](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) – [!UICONTROL Data Workbench] の非常に柔軟で強力なマルチチャネル機能について説明します。[!UICONTROL Data Workbench クライアント]、インストール、[!UICONTROL データセット設定]ガイドなどが含まれます。
 
 [![テクニカルノート](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics テクニカルノート](/help/technotes/home.md) – 特定の分析ツールやコンポーネントに特化していない、一般的な役立つ記事を含むナレッジベースです。
 
