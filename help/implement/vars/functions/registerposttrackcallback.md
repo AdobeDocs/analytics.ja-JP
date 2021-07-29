@@ -2,11 +2,10 @@
 title: registerPostTrackCallback
 description: アドビにヒットを送信した後に、コールバック関数を作成します。
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 91%
 
 ---
 
@@ -24,11 +23,11 @@ ht-degree: 100%
 >
 > [`registerPreTrackCallback`](registerpretrackcallback.md) と `registerPostTrackCallback` の間に呼び出される関数のタイミングと順序は保証されません。この 2 つの関数間の依存関係を避けます。
 
-## Adobe Experience Platform Launch でのトラック後コールバックの登録
+## Adobe Experience Platformでタグを使用したPost Trackコールバックの登録
 
-Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.registerPostTrackCallback
+## AppMeasurement および カスタムコードエディターの s.registerPostTrackCallback
 
 `s.registerPostTrackCallback` は、関数を唯一の引数として受け取る関数です。ネストされた関数は、画像リクエストが正常に送信された直後に実行されます。
 
