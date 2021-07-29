@@ -2,11 +2,10 @@
 title: t
 description: ページビュートラッキングコールをアドビに送信します。
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 86%
 
 ---
 
@@ -36,18 +35,18 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 アドビはイメージリクエストを受け取り、リクエストヘッダー、URL およびクエリー文字列パラメーターを解析します。次に、データ収集サーバーは、サイトに不可視的に表示された、1 x 1 ピクセルの透明イメージを返します。
 
-## Adobe Experience Platform Launch でのページビュートラッキングコール
+## Adobe Experience Platformのタグを使用したページビュートラッキングコール
 
-Launch には、ページビュートラッキングコールを設定する専用の場所があります。
+データ収集UIには、ページビュートラッキングコールを設定する専用の場所があります。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
 5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「ビーコンを送信」に設定します。
 6. 「`s.t()`」ラジオボタンをクリックします。
 
-## AppMeasurement および Launch カスタムコードエディターの s.t() メソッド
+## AppMeasurement および カスタムコードエディターの s.t() メソッド
 
 アドビにトラッキングコールを送信する場合は、`s.t()` メソッドを呼び出します。
 
