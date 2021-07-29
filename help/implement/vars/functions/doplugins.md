@@ -2,11 +2,10 @@
 title: doPlugins
 description: ヒットがコンパイルされてアドビに送信される直前にロジックを設定します。
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 88%
 
 ---
 
@@ -19,11 +18,11 @@ ht-degree: 100%
 
 `doPlugins` 変数を使用してプラグインコードを呼び出し、イメージリクエストがコンパイルされてアドビに送信される直前に、最終的な変数値を設定します。
 
-## Adobe Experience Platform Launch でのプラグイン
+## Adobe Experience Platformのタグを使用したプラグイン
 
-Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.doPlugins
+## AppMeasurement および カスタムコードエディターの s.doPlugins
 
 目的のコードを含む関数に `s.doPlugins` 変数を設定します。この関数は、トラッキングコールをおこなうときに自動的に実行されます。
 
