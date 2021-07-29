@@ -2,10 +2,10 @@
 title: getPageLoadTime
 description: ページの読み込みにかかる時間を追跡します。
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: c814c023fe909b5e78d6dd46de8c27213a4d92be
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 93%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 `getPageLoadTime` プラグインは、JavaScript パフォーマンスオブジェクトを使用して、ページの読み込みが完了するまでの時間を測定できます。ページの読み込みに要する時間を測定する場合は、このプラグインを使用することをお勧めします。
 
-## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
+## Adobe Experience Platformのタグを使用したプラグインのインストール
 
 アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
@@ -33,11 +33,11 @@ ht-degree: 100%
    * Action Type：Initialize getPageLoadTime
 1. ルールに対する変更を保存して発行します。
 
-## Launch カスタムコードエディターを使用したプラグインのインストール
+##  カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
