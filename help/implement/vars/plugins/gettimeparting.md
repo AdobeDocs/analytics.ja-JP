@@ -2,11 +2,10 @@
 title: getTimeParting
 description: 特定のアクションが実行される時間を測定します。
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '827'
+ht-degree: 95%
 
 ---
 
@@ -24,11 +23,11 @@ Analysis Workspace は、このプラグインとは少し異なる形式の、�
 >
 >このプラグインのバージョン 4.0 以降は、以前のバージョンとは大きく異なります。アドビでは、このプラグインを「最初から」実装することを強くお勧めします。バージョン 4.0 より前のプラグインを参照するコードは、このプラグインの現在のバージョンと互換性がありません。
 
-## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
+## Adobe Experience Platformのタグを使用したプラグインのインストール
 
 アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
@@ -40,11 +39,11 @@ Analysis Workspace は、このプラグインとは少し異なる形式の、�
    * Action Type：Initialize getTimeParting
 1. ルールに対する変更を保存して発行します。
 
-## Launch カスタムコードエディターを使用したプラグインのインストール
+##  カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
