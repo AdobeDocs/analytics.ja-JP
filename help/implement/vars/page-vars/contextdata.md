@@ -2,11 +2,10 @@
 title: contextData
 description: コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
@@ -16,11 +15,11 @@ ht-degree: 100%
 
 コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。例えば、開発チームにページの作成者の `eVar10` への割り当てをリクエストする代わりに、`s.contextData["author"]` への割り当てをリクエストすることができます。その後、組織の Analytics 管理者は、コンテキストデータ変数をレポート用の Analytics 変数にマップする処理ルールを作成できます。開発チームは、最終的に、アドビが提供する多くのページ変数ではなく、コンテキストデータ変数についてのみ懸念することになります。
 
-## Adobe Experience Platform Launch のコンテキストデータ変数
+## Adobe Experience Platformでタグを使用するコンテキストデータ変数
 
-Launch には、コンテキストデータ変数を設定するための専用の場所がありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集UIには、コンテキストデータ変数を設定する専用の場所はありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.contextData
+## AppMeasurement および カスタムコードエディターの s.contextData
 
 `s.contextData` 変数は値を直接取りません。代わりに、この変数のプロパティを文字列に設定します。
 
