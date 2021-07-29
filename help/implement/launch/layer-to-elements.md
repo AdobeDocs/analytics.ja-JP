@@ -2,10 +2,10 @@
 title: データレイヤーオブジェクトをデータ要素にマッピングする
 description: データレイヤーから読み取るタグを設定します。
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 60%
+source-wordcount: '357'
+ht-degree: 61%
 
 ---
 
@@ -24,9 +24,7 @@ ht-degree: 60%
 
 [データ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 要素は、データ収集UIのコンポーネントで、ツール全体で使用できます。データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
 
-1. [experience.adobe.com](https://experience.adobe.com)に移動し、プロンプトが表示されたらログインします。
-1. **[!UICONTROL Launch /データ収集]**&#x200B;を選択します。
-1. 「**[!UICONTROL Launch /データ収集に移動]**」をクリックし、「**[!UICONTROL タグ]**」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「**[!UICONTROL データ要素]**」タブをクリックしてから、「**[!UICONTROL データ要素の追加]**」をクリックします。
 
