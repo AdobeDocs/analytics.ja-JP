@@ -2,11 +2,10 @@
 title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '632'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 94%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 `addProductEvent` プラグインは、数値イベントまたは通貨イベントを [`products`](../page-vars/products.md) 変数に追加します。製品文字列の形式を気にせずに数値イベントや通貨イベントを `products` 変数に追加する場合は、このプラグインを使用することをお勧めします。このプラグインは、`products` 変数で数値イベントや通貨イベントを使用しない場合は不要です。
 
-## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
+## Adobe Experience Platformのタグを使用したプラグインのインストール
 
 アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
@@ -34,11 +33,11 @@ ht-degree: 100%
    * Action Type：Initialize addProductEvent
 1. ルールに対する変更を保存して発行します。
 
-## Launch カスタムコードエディターを使用したプラグインのインストール
+##  カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
