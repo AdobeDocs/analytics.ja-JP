@@ -5,10 +5,10 @@ uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 feature: Activity Map
 role: User, Admin
 exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '183'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ Activity Map 内で複数セグメントフィルターを適用できます。
 
 ![](assets/segments.png)
 
-セグメントの選択が変更されると、セグメントセレクターを閉じた後に、アプリケーションに表示されているすべての指標に関して、Analytics データ取得プロセスが新規に開始されます。選択されたセグメントは、ページからページへ移動しても保存されます。
+セグメントの選択が変更され、セグメントセレクターを閉じた後、アプリケーションに表示されているすべての指標に対して新しいAnalyticsデータ取得プロセスが開始されます。 選択されたセグメントは、ページからページへ移動しても保存されます。
 
 複数のセグメントを選択した場合、セグメント選択ラベル（折りたたまれた状態）に「複数」と表示されます。コントロールをクリックすると、選択したセグメントの完全なリストが表示されます。
 
