@@ -1,14 +1,13 @@
 ---
 title: maxDelay
 description: AppMeasurement がイメージリクエストを送信するまで　DFA からの応答を待機する最大の時間を指定します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 154f7e34-39e7-4390-ae36-d4fbc998787f
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 92%
 
 ---
-
 
 # maxDelay
 
@@ -16,11 +15,11 @@ ht-degree: 100%
 
 この変数は、DFA データコネクタを使用する実装でのみ使用されます。DFA を使用している実装であっても、この変数はオプションです。
 
-## Adobe Experience Platform Launch の最大遅延
+## Adobe Experience Platformでのタグを使用した最大遅延
 
-Launch には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムのコードエディターを使用します。
+データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.maxDelay
+## AppMeasurement および カスタムコードエディターの s.maxDelay
 
 `s.maxDelay` 変数は、AppMeasurement が DFA からの応答を待機する時間（ミリ秒）を表す整数です。AppMeasurement が時間内に DFA からの応答を受信しない場合、イメージリクエストは DFA データなしでアドビへと送信されます。
 
