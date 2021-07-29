@@ -2,9 +2,9 @@
 title: 開発実装の検証と実稼動環境への公開
 description: Adobe Experience Platformタグを使用してAdobe Analyticsを実稼動環境にデプロイする方法を説明します。
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '692'
 ht-degree: 64%
 
 ---
@@ -35,9 +35,7 @@ Experience Cloud デバッガーは、ページに存在するすべての Exper
 
 データを確認したら、実装を本番用サイトにプッシュできます。
 
-1. [experience.adobe.com](https://experience.adobe.com)に移動し、プロンプトが表示されたらログインします。
-1. **[!UICONTROL Launch /データ収集]**&#x200B;を選択します。
-1. 「**[!UICONTROL Launch /データ収集に移動]**」をクリックし、「**[!UICONTROL タグ]**」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL 公開]**」タブをクリックし、開発列でライブラリを探します。
 1. ライブラリのドロップダウンをクリックし、「**[!UICONTROL 承認用に送信]**」を選択します。 モーダルウィンドウで「**[!UICONTROL 送信]**」をクリックします。
