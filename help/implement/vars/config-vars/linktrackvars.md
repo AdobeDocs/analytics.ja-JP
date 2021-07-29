@@ -2,11 +2,10 @@
 title: linkTrackVars
 description: リンクトラッキングイメージリクエストに含める変数を指定します。
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 77%
 
 ---
 
@@ -16,15 +15,15 @@ ht-degree: 100%
 
 この変数は、ページビュー呼び出し（[`t()`](../functions/t-method.md) メソッド）には使用されません。
 
-## Adobe Experience Platform Launch を使用したリンクトラッキングコールの変数
+## Adobe Experience Platformのタグを使用したリンクトラッキングコールの変数
 
-この変数は Launch ではインターフェイスで設定された変数に基づいて、バックエンドで自動的に設定するので、Launch を使用した実装では常に設定されます。
+Adobe Experience Platformは、インターフェイスで設定された変数に基づいて、バックエンドでこの変数を自動的に設定するので、Adobe Experience Platformのタグを使用した実装では常に設定されます。
 
 >[!IMPORTANT]
 >
-> カスタムコードエディターを使用して Launch で変数を設定する場合は、カスタムコードを使用して `linkTrackVars` にも変数を含める必要があります。
+>カスタムコードエディターを使用して変数を設定する場合は、カスタムコードを使用して`linkTrackVars`にも変数を含める必要があります。
 
-## AppMeasurement および Launch カスタムコードエディターの s.linkTrackVars
+## AppMeasurement および カスタムコードエディターの s.linkTrackVars
 
 `s.linkTrackVars` 変数は、リンクトラッキングイメージリクエスト（`tl()` メソッド）に含める変数のコンマ区切りリストを含む文字列です。リンクトラッキングヒットにディメンションを含めるには、次の両方の条件を満たす必要があります。
 
