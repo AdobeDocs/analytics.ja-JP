@@ -2,11 +2,10 @@
 title: Util.cookieWrite
 description: Cookie に値を書き込みます。
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '128'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 82%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 Cookie は、同じドメインの複数のページにわたって情報を保存および取得できます。`Util.cookieWrite()` メソッドを使用して、Cookie に値を設定します。[`Util.cookieRead()`](util-cookieread.md) メソッドを使用すると、`Util.cookieWrite()` を使用して値セットを取得できます。
 
-## Adobe Experience Platform Launch での Cookie の設定
+## Adobe Experience Platformのタグを使用したCookieの設定
 
-Launch インターフェイスでは Cookie を設定する機能は提供されていません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集UIには、インターフェイスでCookieを設定する機能はありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.Util.cookieWrite()
+## AppMeasurement および カスタムコードエディターの s.Util.cookieWrite()
 
 `s.Util.cookieWrite()` メソッドを呼び出して、Cookie に目的の値を設定します。
 
