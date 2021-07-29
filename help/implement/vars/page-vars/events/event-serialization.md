@@ -2,10 +2,10 @@
 title: イベントのシリアル化
 description: サイト上の指標の重複を除外するのに役立ちます。
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 93%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 100%
 >
 > [`purchase`](event-purchase.md) イベントの重複を排除する場合は、代わりに [`purchaseID`](../purchaseid.md) 変数を使用します。
 
-## Adobe Experience Platform Launch でのイベント ID の使用
+## Adobe Experience Platformのタグを使用したイベントIDの使用
 
 イベント ID フィールドは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 有効な値は、20 バイトまでの英数字です。20 バイトを超える値を入力すると、最初の 20 バイトに切り捨てられます。
 
-## AppMeasurement と Launch カスタムコードエディターでのイベント ID の使用
+## AppMeasurement と カスタムコードエディターでのイベント ID の使用
 
 イベントシリアル化は `s.events` 変数の一部です。文字列内にコロンを使用して、各イベントに ID を割り当てます。
 
