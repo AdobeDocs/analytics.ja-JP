@@ -2,11 +2,10 @@
 title: linkInternalFilters
 description: linkInternalFilters 変数の使用は出口リンクの自動トラッキングに役立ちます。
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 93%
 
 ---
 
@@ -24,18 +23,18 @@ Activity Map では、この変数を使用して、サイト内部のリンク�
 >
 >`linkInternalFilters` および [内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)は、別々の目的を満たす個別の機能です。`linkInternalFilters` 変数は、出口リンクの追跡に特別に機能します。内部 URL フィルターは、参照ドメインなどのトラフィックソースディメンションの操作に役立つ管理者設定です。
 
-## Adobe Experience Platform Launch の「アウトバウンドリンク - 追跡しない」
+## アウトバウンドリンク — Adobe Experience Platformでタグを使用して追跡しない
 
 「追跡しない」フィールドは、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるフィルター（通常はドメイン）のコンマ区切りリストです。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL アウトバウンドリンク - 追跡しない]」フィールドが表示されます。
 
 出口リンクとして追跡しないフィルターをこのフィールドに配置します。複数のドメインは、スペースなしのコンマで区切ります。
 
-## AppMeasurement および Launch カスタムコードエディターの s.linkInternalFilters
+## AppMeasurement および カスタムコードエディターの s.linkInternalFilters
 
 `s.linkInternalFilters` 変数は、サイト内部と見なすフィルター（ドメインなど）を含む文字列です。複数のフィルターは、スペースなしのコンマで区切ります。
 
