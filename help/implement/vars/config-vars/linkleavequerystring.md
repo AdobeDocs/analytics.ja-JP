@@ -2,11 +2,10 @@
 title: linkLeaveQueryString
 description: リンクトラッキングディメンションでクエリー文字列を保持できます。
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 92%
 
 ---
 
@@ -24,18 +23,18 @@ AppMeasurement は、デフォルトで、リンクトラッキング URL から
 >
 > この変数は、リンクトラッキング以外のディメンションには影響しません。カスタムリンク、出口リンク、ダウンロードリンクのみが影響されます。
 
-## Adobe Experience Platform Launch の「URL パラメーターの保持」
+## Adobe Experience Platformのタグを使用したURLパラメーターの保持
 
 「[!UICONTROL URL パラメーターの保持]」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるチェックボックスです。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL URL パラメーターの保持]」チェックボックスが表示されます。
 
 リンクトラッキングディメンションにクエリー文字列を含める場合は、このチェックボックスをオンにします。
 
-## AppMeasurement および Launch カスタムコードエディターの s.linkLeaveQueryString
+## AppMeasurement および カスタムコードエディターの s.linkLeaveQueryString
 
 `s.linkLeaveQueryString` 変数はブール値です。デフォルト値は `false` です。
 
