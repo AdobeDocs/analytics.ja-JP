@@ -2,10 +2,10 @@
 title: visitorID
 description: カスタム訪問者 ID を使用します。
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 91%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 100%
 >
 > この変数の使用はお勧めしません。代わりに、[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用してください。
 
-## Adobe Experience Platform Launch の「訪問者 ID」
+## Adobe Experience Platformのタグを使用する訪問者ID
 
 「[!UICONTROL 訪問者 ID]」は、Adobe Analytics 拡張機能を設定する際に「[!UICONTROL Cookies]」アコーディオンの下にあるフィールドです。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL Cookies]」アコーディオンを展開し、「[!UICONTROL 訪問者 ID]」フィールドを表示します。
 
 このフィールドを、カスタム訪問者 ID を含むデータ要素に割り当てます。このフィールドに静的値を設定しないでください。
 
-## AppMeasurement および Launch カスタムコードエディターの s.visitorID
+## AppMeasurement および カスタムコードエディターの s.visitorID
 
 `s.visitorID` 変数は、訪問者の一意のカスタム識別子を含む文字列です。有効な値には、最大 100 バイトの英数字が含まれます。この変数では、ダッシュ、スペース、アンダースコアまたは記号の使用を避けます。
 
