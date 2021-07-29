@@ -2,10 +2,10 @@
 title: getQueryParam
 description: URL のクエリー文字列パラメーターの値を抽出します。
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
-workflow-type: ht
-source-wordcount: '918'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '928'
+ht-degree: 92%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 `getQueryParam` プラグインを使用すると、URL に含まれるクエリー文字列パラメーターの値を抽出できます。これは、ランディングページの URL から内部および外部の両方のキャンペーンコードを抽出する場合に役立ちます。また、検索用語や他のクエリー文字列パラメーターを抽出する場合にも役立ちます。
 
-このプラグインは、複数のクエリー文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。単純なクエリー文字列パラメーターのみが必要な場合は、Launch の URL パラメーター機能または AppMeasurement に含まれる [`Util.getQueryParam()`](../functions/util-getqueryparam.md) メソッドの使用をお勧めします。
+このプラグインは、複数のクエリー文字列パラメーターを含むハッシュや URL を含む複雑な URL を解析する際に堅牢な機能を提供します。単純なクエリー文字列パラメーターのみが必要な場合は、Adobe Experience PlatformのタグまたはAppMeasurementに含まれる[`Util.getQueryParam()`](../functions/util-getqueryparam.md)メソッドを使用して、URLパラメーター機能を使用することをAdobeにお勧めします。
 
-## Adobe Experience Platform Launch 拡張機能を使用したプラグインのインストール
+## Adobe Experience Platformのタグを使用したプラグインのインストール
 
 アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
@@ -35,11 +35,11 @@ ht-degree: 100%
    * Action Type：Initialize getQueryParam
 1. ルールに対する変更を保存して発行します。
 
-## Launch カスタムコードエディターを使用したプラグインのインストール
+##  カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
