@@ -2,11 +2,10 @@
 title: sa
 description: いつでも実装のレポートスイートを変更できます。
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 `sa()` メソッドを使用すると、ページ上のレポートスイートをいつでも動的に変更できます。ページをリロードせずに別のレポートスイートにデータを送信する場合は、このメソッドを使用できます。
 
-## Adobe Experience Platform Launch での sa メソッドの使用
+## Adobe Experience Platformでタグを使用したsaメソッドの使用
 
 インターフェイス内のレポートスイートを柔軟に変更する方法はありません。Adobe Analytics 拡張機能を設定する際に、「[!UICONTROL ライブラリ管理]」アコーディオンの下でレポートスイートを設定できます。ただし、ルールを使用してレポートスイートを変更または更新することはできません。設定後にレポートスイートの値を更新する場合は、AppMeasurement 構文に従ってカスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.sa()
+## AppMeasurement および カスタムコードエディターの s.sa()
 
 `s.sa()` メソッドを呼び出して、送信先のレポートスイートを変更します。唯一の引数は、レポートスイート ID を含む文字列、またはコンマで区切られた複数のレポートスイート ID です。レポートスイート ID 引数は必須です。文字列引数にスペースを使用しないでください。
 
