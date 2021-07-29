@@ -2,11 +2,10 @@
 title: pageName
 description: サイトのページの名前。
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +19,11 @@ ht-degree: 100%
 >
 >アドビのデータ収集サーバーは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)イメージリクエストからこのディメンションを除外します。 このディメンションをリンクトラッキングのヒットで表示する場合は、このディメンションを [eVar](evar.md) にコピーすることを検討してください。
 
-## Adobe Experience Platform Launch のページ名
+## Adobe Experience Platformでタグを使用したページ名
 
 ページ名は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
@@ -33,7 +32,7 @@ ht-degree: 100%
 
 ページ名は、データ要素を含む任意の文字列値に設定できます。
 
-## AppMeasurement および Launch カスタムコードエディターの s.pageName
+## AppMeasurement および カスタムコードエディターの s.pageName
 
 `s.pageName` 変数は、通常、ページの名前を含む文字列です。最大値は 100 バイトです。より長い値は切り捨てられます。この切り捨てには、この変数が空白の場合に `pageURL` にフォールバックされるインスタンスが含まれます。
 
