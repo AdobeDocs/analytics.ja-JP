@@ -2,11 +2,10 @@
 title: registerPreTrackCallback
 description: アドビにヒットを送信する前に実行するコールバック関数を作成します。
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 90%
 
 ---
 
@@ -24,11 +23,11 @@ ht-degree: 100%
 >
 > `registerPreTrackCallback` と `registerPostTrackCallback` の間に呼び出される関数のタイミングと順序は保証されません。この 2 つの関数間の依存関係を避けます。
 
-## Adobe Experience Platform Launch でのトラック前コールバックの登録
+## Adobe Experience Platformでタグを使用したPre Trackコールバックの登録
 
-Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.registerPreTrackCallback
+## AppMeasurement および カスタムコードエディターの s.registerPreTrackCallback
 
 `s.registerPreTrackCallback` は、関数を唯一の引数として受け取る関数です。ネストされた関数は、イメージリクエストの送信直前に実行されます。
 
