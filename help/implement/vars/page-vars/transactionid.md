@@ -2,11 +2,10 @@
 title: transactionID
 description: この変数を使用して、オンラインとオフラインのデータをリンクします。
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +21,11 @@ ht-degree: 100%
 
 デフォルトでは、すべてのトランザクション ID の値（リンクおよびリンク解除）は、最大 90 日間記憶されます。オフラインのインタラクションプロセスが 90 日を超える場合は、カスタマーケアにご連絡いただき、限度を延長してください。
 
-## Adobe Experience Platform Launch のトランザクション ID
+## Adobe Experience Platformのタグを使用したトランザクションID
 
 トランザクション ID は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
@@ -35,7 +34,7 @@ ht-degree: 100%
 
 トランザクション ID は、データ要素を含む任意の文字列値に設定できます。
 
-## AppMeasurement および Launch カスタムコードエディターの s.transactionID
+## AppMeasurement および カスタムコードエディターの s.transactionID
 
 `s.transactionID` 変数は、トランザクションの一意の ID を含む文字列です。有効な値には、100 バイトまでの英数字が含まれます。デフォルト値は空の文字列です。
 
