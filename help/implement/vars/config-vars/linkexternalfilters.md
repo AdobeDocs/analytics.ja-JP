@@ -2,11 +2,10 @@
 title: linkExternalFilters
 description: linkExternalFilters 変数の使用は出口リンクの自動トラッキングに役立ちます。
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 92%
 
 ---
 
@@ -22,18 +21,18 @@ AppMeasurement は、サイト外を指すリンクを自動的に追跡する�
 
 `linkInternalFilters` と `linkExternalFilters` の両方を同時に使用する場合は、クリックされたリンクが出口リンクと見なされるには、`linkExternalFilters` に一致すると&#x200B;**ともに** `linkInternalFilters` に一致しない必要があります。クリックされたリンクが出口リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
-## Adobe Experience Platform Launch の「アウトバウンドリンク - 追跡」
+## アウトバウンドリンク — Adobe Experience Platformでのタグを使用した追跡
 
 「追跡」フィールドは、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるフィルター（通常はドメイン）のコンマ区切りリストです。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL アウトバウンドリンク - 追跡]」フィールドが表示されます。
 
 常に外部と見なすフィルターをこのフィールドに配置します。複数のドメインは、スペースなしのコンマで区切ります。
 
-## AppMeasurement および Launch カスタムコードエディターの s.linkExternalFilters
+## AppMeasurement および カスタムコードエディターの s.linkExternalFilters
 
 `s.linkExternalFilters` 変数は、出口リンクと見なすフィルター（ドメインなど）を含む文字列です。複数のドメインは、スペースなしのコンマで区切ります。
 
