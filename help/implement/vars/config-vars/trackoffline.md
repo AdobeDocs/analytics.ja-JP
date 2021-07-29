@@ -2,11 +2,10 @@
 title: trackOffline
 description: オフライントラッキングを有効または無効にします。これにより、AppMeasurement でのデータ収集方法が変更されます。
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 91%
 
 ---
 
@@ -28,11 +27,11 @@ ht-degree: 100%
    * アドビのデータ収集サーバーに接続できない場合、ヒットはデバイス上のキューに追加されます。
    * アドビのデータ収集サーバーに接続できる場合は、デバイスがオフラインの間のヒットおよびヒットのキューが送信されます。
 
-## Adobe Experience Platform Launch でのオフライントラッキング
+## Adobe Experience Platformでのタグを使用したオフラインの追跡
 
-Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.trackOffline
+## AppMeasurement および カスタムコードエディターの s.trackOffline
 
 `s.trackOffline` 変数は、オフライントラッキングを有効または無効にするブール値です。デフォルト値は `false` です。オフライントラッキングを有効にする場合は、この値を `true` に設定します。
 
