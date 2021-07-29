@@ -2,11 +2,10 @@
 title: cookieDomainPeriods
 description: ドメインのサフィックスにピリオドが含まれていると、AppMeasurement が Cookie を保存するドメインをよりよく理解できます。
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 91%
 
 ---
 
@@ -21,18 +20,18 @@ ht-degree: 100%
 >
 > この変数ではサブドメインは考慮しません。例えば、サンプル URL `store.toys.example.com` では `fpCookieDomainPeriods` を設定しないでください。AppMeasurement は、多くのサブドメインを持つ URL 上でも、Cookie の保存先が `example.com` であることをデフォルトで認識します。
 
-## Adobe Experience Platform Launch の「ファーストパーティドメインピリオド」
+## Adobe Experience Platformのタグを使用するファーストパーティドメインピリオド
 
 「ファーストパーティドメインピリオド」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL Cookies]」アコーディオンの下にあるフィールドです。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL Cookies]」アコーディオンを展開すると、「[!UICONTROL ファーストパーティドメインピリオド]」フィールドが表示されます。
 
 サフィックスにピリオドを含むドメインでのみ、このフィールドを `3` に設定します。それ以外の場合は、このフィールドを空白のままにすることができます。
 
-## AppMeasurement および Launch カスタムコードエディターの s.fpCookieDomainPeriods 
+## AppMeasurement および カスタムコードエディターの s.fpCookieDomainPeriods 
 
 `fpCookieDomainPeriods` 変数は、通常、サフィックスにピリオドを含むドメインでのみで `"3"` に設定される文字列です。デフォルト値は `"2"` で、ほとんどのドメインに対応します。
 
