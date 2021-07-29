@@ -2,10 +2,10 @@
 title: モジュールの統合
 description: 統合モジュールを使用すると、アドビのパートナーは自社のデータ収集作業を組織と統合できます。
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 92%
+source-wordcount: '888'
+ht-degree: 93%
 
 ---
 
@@ -42,9 +42,7 @@ ht-degree: 92%
 
 サイトに統合モジュールを実装するには、Adobe Experience Platformのデータ収集UIにアクセスする必要があります。 レガシー JavaScript 実装を使用する場合は、組織の Web サイトソースコードへのアクセスが必要になります。
 
-1. `experience.adobe.com`に移動し、プロンプトが表示されたらログインします。
-1. [!UICONTROL Launch /データ収集]を選択します。
-1. 「[!UICONTROL Launch /データ収集に移動]」をクリックし、「[!UICONTROL タグ]」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 編集するタグプロパティをクリックします。
 1. 「拡張機能」タブをクリックしてから、Adobe Analytics で「設定」をクリックします。
 1. カスタムコードアコーディオンを使用してトラッカーの設定を開き、「&lt;/> エディターを開く」をクリックします。
