@@ -2,11 +2,10 @@
 title: サーバー
 description: 「サーバー」ディメンションを設定します。
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 87%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 `server` 変数は通常、サイトのホスト名を保存します。これは、複数のドメインのデータを含むレポートスイートで一般的に使用されます。機能的には prop と同じです。
 
-## Adobe Experience Platform Launch の server
+## Adobe Experience Platformでタグを使用するサーバー
 
 サーバーは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 サーバーは任意の文字列値またはデータ要素に設定できます。
 
-## AppMeasurement および Launch カスタムコードエディターの s.server
+## AppMeasurement および カスタムコードエディターの s.server
 
 `s.server` 変数は、通常、サイトのホスト名を含む文字列です。最大値は 100 バイトです。より長い値は切り捨てられます。
 
