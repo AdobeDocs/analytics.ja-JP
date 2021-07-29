@@ -2,10 +2,10 @@
 title: タグでのAnalyticsプロパティの作成
 description: タグを使用してスペースを作成し、データの収集方法をカスタマイズします。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 59%
+source-wordcount: '608'
+ht-degree: 60%
 
 ---
 
@@ -24,9 +24,7 @@ Adobe Experience Platformのタグを使用すると、Webサイト上でExperie
 
 プロパティは、タグの管理に使用する包括的なコンテナです。拡張機能を使用すれば、製品固有のタグをインストールして設定できます。
 
-1. [experience.adobe.com](https://experience.adobe.com)に移動し、プロンプトが表示されたらログインします。
-1. **[!UICONTROL Launch /データ収集]**&#x200B;を選択します。
-1. 「**[!UICONTROL Launch /データ収集に移動]**」をクリックし、「**[!UICONTROL タグ]**」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 「**[!UICONTROL 新規プロパティ]**」をクリックします。
 1. プロパティに Web サイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「**[!UICONTROL 保存]**」をクリックします。
 1. 新しく作成したタグプロパティをクリックして、設定を入力します。
@@ -39,9 +37,7 @@ Adobe Experience Platformのタグを使用すると、Webサイト上でExperie
 
 データ要素は、変数値を収集するための、サイトの特定の部分に対する参照です。
 
-1. [experience.adobe.com](https://experience.adobe.com)に移動し、プロンプトが表示されたらログインします。
-1. **[!UICONTROL Launch /データ収集]**&#x200B;を選択します。
-1. 「**[!UICONTROL Launch /データ収集に移動]**」をクリックし、「**[!UICONTROL タグ]**」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL データ要素]**」タブをクリックし、「**[!UICONTROL 新しいデータ要素の作成]**」をクリックします。
 1. データ要素に次の設定を指定します。
@@ -62,9 +58,7 @@ Adobe Experience Platformのタグを使用すると、Webサイト上でExperie
 
 ルールは、データ要素を Analytics 変数値にマッピングし、それらの値がアドビのサーバーに送信されるタイミングを決定します。
 
-1. [experience.adobe.com](https://experience.adobe.com)に移動し、プロンプトが表示されたらログインします。
-1. **[!UICONTROL Launch /データ収集]**&#x200B;を選択します。
-1. 「**[!UICONTROL Launch /データ収集に移動]**」をクリックし、「**[!UICONTROL タグ]**」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL 新しいルールを作成]**」をクリックし、「`Global Rule`」と名付けます。
 1. イベントの横にある「**[!UICONTROL 追加]**」をクリックし、次の設定を入力します。
