@@ -2,10 +2,10 @@
 title: cookieDomainPeriods
 description: ドメインのサフィックスにピリオドが含まれていると、AppMeasurement が Cookie を保存するドメインをよりよく理解できます。
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 93%
+source-wordcount: '291'
+ht-degree: 92%
 
 ---
 
@@ -22,13 +22,11 @@ AppMeasurement は、ドメインとドメインサフィックスを調べて C
 >
 > この変数ではサブドメインは考慮しません。例えば、サンプル URL `store.toys.example.com` では `cookieDomainPeriods` を設定しないでください。AppMeasurement は、多くのサブドメインを持つ URL 上でも、Cookie の保存先が `example.com` であることをデフォルトで認識します。
 
-## Adobe Experience Platform Launch のドメインピリオド
+## Adobe Experience Platformでタグを使用するドメインピリオド
 
 「ドメインピリオド」は、Adobe Analytics 拡張機能を設定する際に「[!UICONTROL Cookies]」アコーディオンの下にあるフィールドです。
 
-1. `experience.adobe.com`に移動し、プロンプトが表示されたらログインします。
-1. [!UICONTROL Launch /データ収集]を選択します。
-1. 「[!UICONTROL Launch /データ収集に移動]」をクリックし、「[!UICONTROL タグ]」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 1. 「[!UICONTROL Cookies]」アコーディオンを展開すると、「[!UICONTROL ドメインピリオド]」フィールドが表示されます。
