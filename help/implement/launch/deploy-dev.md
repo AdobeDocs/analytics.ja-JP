@@ -2,10 +2,10 @@
 title: 開発環境への Adobe Analytics のデプロイ
 description: タグを使用して開発環境にAdobe Analyticsをデプロイする方法を説明します。
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 66%
+source-wordcount: '594'
+ht-degree: 61%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 66%
 
 タグは、コードをデプロイする多くの組織のワークフローに対応します。 Analytics の実装に最低限必要なコンポーネントを作成するには、次の手順に従います。タグ管理者は、組織内で作業し、Adobeソリューションを導入するための適切なワークフローを確立できます。
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. サイトに実装するタグプロパティをクリックします。
 3. 「アダプター」タブをクリックし、「アダプターの追加」をクリックします。
 4. 「Akamai」という名前を付け、タイプドロップダウンで「Akamai」を選択します。「保存」をクリックします。
@@ -37,7 +37,7 @@ ht-degree: 66%
 
 ここまでにおこなったすべての変更や設定にもかかわらず、実際にはコードは公開されていません。ライブラリ（変更の集まりのようなもの）を作成すれば、サイトで使用するコードを公開できます。
 
-1. [Adobe Experience Platform Launch](https://launch.adobe.com) に移動して、要求された場合はログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. サイトに実装するタグプロパティをクリックします。
 3. 「公開」タブをクリックし、「新しいライブラリの追加」をクリックします。
 4. ライブラリに「初期変更」という名前を付け、開発環境を選択します。
