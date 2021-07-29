@@ -2,11 +2,10 @@
 title: チャネル
 description: 「サイトセクション」ディメンションを設定します。
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '169'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 87%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 `channel` 変数は、通常、特定のページが存在するサイトのセクションを格納します。サイトで最も人気のあるグループを判断すると役立ちます。この変数は、「サイトセクション」ディメンションを入力します。
 
-## Adobe Experience Platform Launch のチャネル
+## Adobe Experience Platformでタグを使用したチャネル
 
 チャネルは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 channel は任意の文字列値またはデータ要素に設定できます。
 
-## AppMeasurement および Launch カスタムコードエディターの s.channel
+## AppMeasurement および カスタムコードエディターの s.channel
 
 `s.channel` 変数は、通常、ページのサイトセクションを含む文字列です。最大値は 100 バイトです。より長い値は切り捨てられます。
 
