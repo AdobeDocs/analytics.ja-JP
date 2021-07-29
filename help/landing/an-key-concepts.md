@@ -2,10 +2,10 @@
 description: このセクションには、Adobe Analytics の主要概念、概念の簡潔な説明および特定のドキュメントリンクとトピックについての詳細が含まれています。
 title: Adobe Analytics - 主要概念
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 100%
+source-wordcount: '1815'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | Data Warehouse | 保存用およびデータをフィルタリングして実行できるカスタムレポート用の、生の処理されていないデータです。ヒットレベルではありません。 | [Data Warehouse ホーム](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | アプリ用の各ソリューションが Adobe Experience Cloud 上で統合されます。これにより、アプリの利用状況を把握し、改善につなげることができます。 | [Mobile Services ホーム](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ja) |
 | Adobe Exchange Data Connectors（旧称 Genesis） | サードパーティのアプリケーションから Analytics にトラッキングデータをインポートします。これにより、パフォーマンスに関する一元的なエンドツーエンドの可視性が実現します。2021 年 8 月 1 日（PT）、アドビは Data Connectors 統合を廃止する予定です。 | [Data Connectors ホーム](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | アドビが提供する次世代型の Web サイトタグおよびモバイル SDK の管理機能です。 | [Adobe Experience Platform Launch ホーム](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja) |
+| Adobe Experience Platformのタグ | アドビが提供する次世代型の Web サイトタグおよびモバイル SDK の管理機能です。 | [タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) |
 
 ## 主要用語 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 | 実装ガイド | データ収集変数の説明と、JavaScript でのデータ収集コードの導入についての詳細してください。 | [実装ガイド](/help/implement/home.md) |
 | AppMeasurement（s_code） | グローバル変数管理。 | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | App SDK | アプリの設定ファイルの事前収集バージョンを含むカスタマイズされたパッケージ。 | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ja)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=ja)</li></ul> |
-| Adobe Experience Platform Launch | Analytics ツールを参照してください。 |  |
+| Adobe Experience Platformのタグ | Analytics ツールを参照してください。 |  |
 | VISTA | サーバー側のロジックを適用して、データの収集時にデータを変更またはセグメント化できます。 | [VISTA ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 処理ルール | Analytics UI で変数を設定、変更およびコピーして、収集されたデータを変更できます。 | [処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | デバッガーオプション | Adobe Experience Cloud デバッガーなど、実装の検証に役立つ様々なデバッガーやパケットスニファーを利用できます。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=ja) |
