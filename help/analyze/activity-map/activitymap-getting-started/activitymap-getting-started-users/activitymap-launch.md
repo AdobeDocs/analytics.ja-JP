@@ -5,12 +5,13 @@ uuid: f617fbc3-a577-4bd2-a316-578959219874
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 100%
 
 ---
+
 
 # Activity Map の起動{#launch-activity-map}
 
