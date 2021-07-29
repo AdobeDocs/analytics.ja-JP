@@ -2,11 +2,10 @@
 title: linkDownloadFileTypes
 description: ダウンロードリンクとして自動的に追跡されるファイル拡張子を決定します。
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 91%
 
 ---
 
@@ -24,23 +23,25 @@ ht-degree: 100%
 > * リダイレクト後にトリガーするダウンロード
 > * 右クリックして「ターゲットに名前を付けて保存…」を選択します
 > * JavaScript を使用するリンク（`javascript:openLink()` など）
+
 >
-> これらのダウンロードタイプでは、手動で [`tl()`](../functions/tl-method.md) メソッドを呼び出すことができます。
+> 
+これらのダウンロードタイプでは、手動で [`tl()`](../functions/tl-method.md) メソッドを呼び出すことができます。
 
 クリックされたリンクが出口リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
-## Adobe Experience Platform Launch の「ダウンロード拡張子」
+## Adobe Experience Platformのタグを使用した拡張機能のダウンロード
 
 「ダウンロード拡張子」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にある、さらに追加するフィールドを含むファイル拡張子のリストです。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL ダウンロード拡張子]」フィールドが表示されます。
 
 フィールドにテキストを入力し、「[!UICONTROL 追加]」をクリックして、リストにファイル拡張子を追加します。リストからファイル拡張子を削除するには、該当する「X」アイコンをクリックします。
 
-## AppMeasurement および Launch カスタムコードエディターの s.linkDownloadFileTypes 
+## AppMeasurement および カスタムコードエディターの s.linkDownloadFileTypes 
 
 `s.linkDownloadFileTypes` 変数は、コンマで区切られたファイル拡張子の文字列です。スペースは使用しないでください。
 
