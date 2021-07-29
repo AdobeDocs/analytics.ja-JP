@@ -2,10 +2,10 @@
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2429'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '2439'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
    * Custom Insight。カスタムトラフィック変数の旧名称です。
 * **KPI：**&#x200B;主要業績評価指標の略称です。自社サイトのパフォーマンスを把握するのに役立ちます。企業は、事業をあらゆる角度から測定するために様々な KPI を設定しています。『実装ユーザガイド』の「[ソリューションデザインドキュメントの作成](/help/implement/prepare/solution-design.md)」を参照してください。
 * **遅延：**&#x200B;データが収集されてからレポートで使用できるまでの待ち時間。レポートスイートの一般的な遅延は 30 ～ 90 分です。技術注記ユーザーガイドの「[遅延](/help/technotes/latency.md)」を参照してください。
-* **Launch：**&#x200B;アドビの最新の実装ソリューションである Adobe Experience Platform Launch の略称です。Adobe Experience Platform Launch ユーザーガイドの「[概要](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ja)」を参照してください。
+* **Launch:** 現在はこの用語は使用されていません。Adobeの現在の実装ソリューションであるAdobe Experience Platformのタグの旧名称を短縮したもの。 『Adobe Experience Platformユーザガイド』の「[タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)」を参照してください。
 * **リスト prop：**&#x200B;同じヒットで複数の値に対応するように標準的なトラフィック変数を変換する設定。この設定が有効な場合、任意のカスタムトラフィック変数をリスト prop に変換できます。実装ユーザーガイドの「[prop](../implement/vars/page-vars/prop.md)」を参照してください。
 * **リスト var：**&#x200B;コンバージョン変数とは異なる別の変数。リスト var は、同じヒットで複数の値に対応し、コンバージョン変数と同様に 1 回の訪問で変数値が保持されます。1 つの組織で使用できるリスト var は 3 つまでです。実装ユーザーガイドの「[リスト](/help/implement/vars/page-vars/list.md)」を参照してください。
 * **ログイン会社：**&#x200B;企業が使用するレポートスイートの集まりです。企業によっては複数のログイン会社名を持ち、社内の異なる部署に適用します。
