@@ -2,10 +2,10 @@
 title: Adobe Analytics はじめての管理ガイド
 description: Adobe Analytics の使用開始、一般的な役割タイプ、UI へのログイン方法を説明します。
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 78%
+source-wordcount: '942'
+ht-degree: 72%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 78%
 Adobe Analytics の購入後は、主に次のような役割を考慮する必要があります。
 
 * **Adobe Analytics 管理者：**&#x200B;レポートスイートの設定やユーザー権限など、Adobe Analytics のすべての項目に対してフルアクセス権を持ちます。組織の構造に応じて、様々な人やチームが Analytics 管理の様々なファセットを担当できます。例えば、ある人は、実装で使用する変数の指定を担当し、別の人は、すべてのユーザーに権限が正しく割り当てられていることを確認し、レポートを正しく取り込めるようにすることを担当できます。Analytics レポートスイートの設定とユーザー権限を担当できるユーザーを 1 人以上特定し、そこから他の Analytics 管理者を招待できます。
-* **Adobe Experience Platform Launch管理者：** これらのユーザーは、公開権限、コンテナの作成およびユーザー権限を含め、データ収集UI(旧称：Experience Platform Launch)のすべての項目に対するフルアクセス権を持ちます。これらのユーザーはプログラマーでなくてもかまいませんが、少なくとも HTML、CSS、JavaScript に関する初心者向けの知識があると便利です。組織のWebサイトの所有者と協力して、サイトにExperience Platformタグを実装する必要があります。 実装を担当する 1 人以上のユーザーを特定します。そのユーザーは他の Experience Platform Launch 管理者を招待できます。
+* **データ収集管理者：** これらのユーザーは、公開権限、コンテナの作成およびユーザー権限を含め、データ収集UI(旧称、Experience Platform LaunchUI)のすべての項目に対して完全にアクセスできます。これらのユーザーはプログラマーでなくてもかまいませんが、少なくとも HTML、CSS、JavaScript に関する初心者向けの知識があると便利です。組織のWebサイトの所有者と協力して、サイトにExperience Platformタグを実装する必要があります。 実装を担当する1人以上のユーザーを特定します。そのユーザーは他のデータ収集管理者を招待できます。
 * **サポート委任**：サポート対象ユーザーとも呼ばれ、Analytics インターフェイスでの追加の権限はありません。代わりに、Adobe カスタマーケアとの通信時に追加の権限を受け取ります。これらのユーザーは、ほとんどの場合は Analytics の管理者でもあり、カスタマーケアが問題のトラブルシューティングに役立ちます。エンドユーザーと Adobe カスタマーケアとの間のやり取りを担当する Analytics 管理者を少なくとも 1 人特定します。
-* **Web サイトの所有者：**&#x200B;これらの個人またはチームは、Web サイトのコーディングと開発を担当します。アカウントは不要ですが、Experience Platform Launch の管理者と連携して、Experience Platform Launch コードを取得し、Web サイトに実装する必要があります。
+* **Web サイトの所有者：**&#x200B;これらの個人またはチームは、Web サイトのコーディングと開発を担当します。アカウントは不要ですが、データ収集管理者と協力してタグコードを取得し、Webサイトに実装する必要があります。
 * **エンドユーザー：**&#x200B;一般的に、レポートを閲覧して、ビジネスの質問に対する回答を探します。Analytics 管理者は、これらのユーザーに対し、製品で作業する権限を付与します。
 
 最初の管理者は、自分の役割をこれらの役割の 1 つ以上と重複させることができます。これらの基本的な責任者を割り当てた後は、組織内の他のユーザーに対して作業に必要な権限を付与できます。
@@ -44,14 +44,14 @@ Adobe Analytics の購入後は、主に次のような役割を考慮する必�
 
 Experience Platformのデータ収集に対する製品管理者アクセスは、Analyticsの製品管理者アクセス権を付与するのとほとんど同じです。
 
-1. Adobe ID の資格情報を使用して Admin Console にログインします。
-1. 上部の「**[!UICONTROL 製品]**」タブをクリックします。 組織が購入した製品はすべて左側に表示されます。「**[!UICONTROL Adobe別Experience Platform Launch]**」をクリックし、「**[!UICONTROL 新しいプロファイル]**」をクリックします。
-1. このプロファイルに「Experience Platform Launchの完全な管理者アクセス」という名前を付け、「**[!UICONTROL 完了]**」をクリックします。
+1. Adobe IDの資格情報を使用して[Adobe Admin Console](https://adminconsole.adobe.com)にログインします。
+1. 上部の「**[!UICONTROL 製品]**」タブをクリックします。 組織が購入した製品はすべて左側に表示されます。「**[!UICONTROL Experience Platform Launch]**」をクリックし、「**[!UICONTROL 新しいプロファイル]**」をクリックします。
+1. このプロファイルに「Data Collection full admin access」という名前を付け、「**[!UICONTROL Done]**」をクリックします。
 1. **[!UICONTROL 製品プロファイル]**&#x200B;ページに戻り、新しく作成したプロファイルをクリックし、「**[!UICONTROL 権限]**」タブをクリックします。
 1. 権限行項目の 1 つをクリックします。**[!UICONTROL 自動インクルード]**&#x200B;が使用可能な場合は、有効にします。 自動インクルードを使用できない場合は、「**[!UICONTROL すべて追加]**」をクリックします。 両方のオプションを選択すると、すべての権限項目が右側の列に移動します。
 1. 「**[!UICONTROL 保存]**」をクリックします。すべての権限カテゴリに対して、上記の手順を繰り返します。
 1. すべての権限カテゴリがプロファイルに付与されたら、上部の「**[!UICONTROL 概要]**」をクリックして、概要ページに戻ります。
-1. 「[!UICONTROL Adobe別Experience Platform Launch]」タイルで、「**[!UICONTROL ユーザーを割り当て]**」をクリックします。
+1. [!UICONTROL Experience Platform Launch]タイルの下で、「**[!UICONTROL ユーザーを割り当て]**」をクリックします。
 1. Analytics へのフルアクセス権を付与する電子メールアドレスを入力し、新しく作成したフル管理者アクセスプロファイルを割り当てます。「**[!UICONTROL 保存]**」をクリックします。
 1. これで、ユーザーはデータ収集に対するフルアクセス権をExperience Platformに付与されました。
 
