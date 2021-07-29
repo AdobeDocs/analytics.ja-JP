@@ -2,10 +2,10 @@
 description: Adobe Analytics の新しい継続的な機能リリース戦略を説明します。
 title: Adobe Analytics 機能リリース
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 機能フラグ
 
-機能フラグは、リリース時の新機能の表示を制御するために使用します。リリース時に最適なエクスペリエンスを得るために、app.launchdarkly.com をファイアウォールの [許可リスト](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ja)に追加することを推奨します。GA に達した直後に、フラグが削除されます。
+機能フラグは、リリース時の新機能の表示を制御するために使用します。Adobeでは、リリース時に最適なエクスペリエンスを得るために、`app.launchdarkly.com`をファイアウォールの[許可リスト](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=ja)に追加することをお勧めします。 GA に達した直後に、フラグが削除されます。
 
 アクティブな機能フラグは、**ヘルプ／Workspace について／アクティブな機能フラグ**&#x200B;からいつでも表示できます。
 
