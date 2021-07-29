@@ -2,11 +2,10 @@
 title: purchaseID
 description: 一意の購入識別子に基づいてヒットの重複を除外します。
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 91%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 購入 ID はすべての訪問者に適用され、期限は切れません。ある訪問者が特定の購入 ID を設定し、その 1 年後に同じ購入 ID を別の訪問者が設定した場合、2 番目の購入の重複が排除されます。
 
-## Adobe Experience Platform Launch での購入 ID
+## Adobe Experience Platformのタグを使用した購入ID
 
-Launch にはこの変数を使用するための専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および Launch カスタムコードエディターの s.purchaseID
+## AppMeasurement および カスタムコードエディターの s.purchaseID
 
 `s.purchaseID` 変数は、購入に対する一意の ID を含む文字列です。これは購入イベントと同じヒットに設定されます。この変数を設定するには、英数字のみを使用します。
 
