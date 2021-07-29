@@ -2,10 +2,10 @@
 title: タグデータ要素のAnalytics変数へのマッピング
 description: Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 65%
+source-wordcount: '492'
+ht-degree: 67%
 
 ---
 
@@ -30,20 +30,16 @@ ht-degree: 65%
 
 グローバル変数は、データ要素が存在するあらゆるページで変数値を設定する場合に最適です。
 
-1. `experience.adobe.com`に移動し、プロンプトが表示されたらログインします。
-1. [!UICONTROL Launch /データ収集]を選択します。
-1. 「[!UICONTROL Launch /データ収集に移動]」をクリックし、「[!UICONTROL タグ]」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics 拡張機能の下にある「[!UICONTROL 設定]」をクリックします。
 1. 「[!UICONTROL グローバル変数]」アコーディオンをクリックすると、グローバル変数を割り当てるインターフェイスが表示されます。
 
 ### ルール内での変数の設定
 
-ルールで設定された変数は、すべてのページで変数を設定したくない場合に最適です。ルールで条件を定義します。Adobe Experience Platformデータ収集ドキュメントの[ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)を参照してください。
+ルールで設定された変数は、すべてのページで変数を設定したくない場合に最適です。ルールで条件を定義します。Adobe Experience Platformタグのドキュメントの[ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)を参照してください。
 
-1. `experience.adobe.com`に移動し、プロンプトが表示されたらログインします。
-1. [!UICONTROL Launch /データ収集]を選択します。
-1. 「[!UICONTROL Launch /データ収集に移動]」をクリックし、「[!UICONTROL タグ]」を選択します。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブをクリックし、目的のルールをクリックします（または作成します）。
 1. 「[!UICONTROL アクション]」の下の「[!UICONTROL 追加]」ボタンをクリックします。
