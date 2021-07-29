@@ -2,10 +2,10 @@
 title: オプトアウトリンク
 description: サイトへの訪問者を対象にしたオプトアウトリンクの作成方法を説明します。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 95%
+source-wordcount: '593'
+ht-degree: 96%
 
 ---
 
@@ -27,10 +27,8 @@ Web サイトへの訪問者の中には、自分の閲覧情報をデータセ�
 
 組織のオプトアウトページは、実装内の [`trackingServer`](../vars/config-vars/trackingserver.md) 変数値に応じて異なります。
 
-* Adobe Experience Platformデータ収集UIで、次の操作を実行します。
-   1. `experience.adobe.com`に移動し、プロンプトが表示されたらログインします。
-   1. [!UICONTROL Launch /データ収集]を選択します。
-   1. 「[!UICONTROL Launch /データ収集に移動]」をクリックし、「[!UICONTROL タグ]」を選択します。
+* データ収集UIで、次の操作を行います。
+   1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
    1. 目的のプロパティをクリックします。
    1. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics で「[!UICONTROL 設定]」をクリックします。
    1. 「[!UICONTROL 一般]」アコーディオンをクリックし、「[!UICONTROL トラッキングサーバー]」の値をメモします。
