@@ -2,11 +2,10 @@
 title: tl
 description: リンクトラッキングコールをアドビに送信します。
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 92%
 
 ---
 
@@ -16,20 +15,20 @@ ht-degree: 100%
 
 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) または [`trackExternalLinks`](../config-vars/trackexternallinks.md) が有効な場合、AppMeasurement は自動的に `tl()` メソッドを呼び出して、ダウンロードリンクと出口リンクトラッキングデータを送信します。組織で、追跡するリンクとその動作をより詳細に制御する必要がある場合は、手動で `tl()` メソッドを呼び出すことができます。カスタムリンクは手動でのみ追跡できます。
 
-## Adobe Experience Platform Launch でのリンクトラッキングコール
+## Adobe Experience Platformのタグを使用したリンクトラッキングコール
 
-Launch には、リンクトラッキングコールを設定する専用の場所があります。
+データ収集UIには、リンクトラッキングコールを設定する専用の場所があります。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 1. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
 1. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「ビーコンを送信」に設定します。
 1. 「`s.tl()`」ラジオボタンをクリックします。
 
-Launch では、オプションの引数を設定できません。
+データ収集UIでは、オプションの引数を設定できません。
 
-## AppMeasurement および Launch カスタムコードエディターの s.tl() メソッド
+## AppMeasurement および カスタムコードエディターの s.tl() メソッド
 
 アドビにトラッキングコールを送信する場合は、`s.tl()` メソッドを呼び出します。
 
