@@ -2,11 +2,10 @@
 title: Util.getQueryParam
 description: クエリー文字列パラメーターの値を返します。
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 ブラウザー URL のクエリー文字列パラメーターには、Analytics の重要なデータが含まれることがよくあります。クエリー文字列からデータを取得するには、`Util.getQueryParam()` メソッドを使用します。
 
-## Adobe Experience Platform Launch でのクエリー文字列パラメーターデータの取得
+## Adobe Experience Platformのタグを使用したクエリー文字列パラメーターデータの取得
 
 データ要素に値を設定することで、クエリー文字列パラメーターデータを取得できます。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
 4. 「[!UICONTROL 拡張機能]」ドロップダウンを「[!UICONTROL コア]」に設定し、「[!UICONTROL データ要素タイプ]」を「[!UICONTROL クエリー文字列パラメーター]」に設定します。
@@ -26,7 +25,7 @@ ht-degree: 100%
 
 クエリー文字列パラメーター値は、データ要素に格納されます。その後、ルール内のデータ要素を参照して、Analytics 変数を割り当てることができます。
 
-## AppMeasurement および Launch カスタムコードエディターの s.Util.getQueryParam()
+## AppMeasurement および カスタムコードエディターの s.Util.getQueryParam()
 
 `s.Util.getQueryParam()` メソッドを呼び出して、ブラウザー URL からクエリー文字列値を取得します。クエリー文字列パラメーターを含む文字列引数が必要です。このメソッドは、Analytics 変数に割り当て可能な文字列を返します。
 
