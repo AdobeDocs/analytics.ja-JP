@@ -2,11 +2,10 @@
 title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 91%
 
 ---
 
@@ -18,18 +17,18 @@ ht-degree: 100%
 >
 >この変数が、買い物かごイベントのないヒットで [`events`](events/events-overview.md) 変数に設定されている場合、[製品表示回数](/help/components/metrics/product-views.md)指標は 1 増分されます。各ヒットに対して、`products` 変数を使用して適切な買い物かごのイベントを設定していることを確認します。
 
-## Adobe Experience Platform Launch の製品
+## Adobe Experience Platformでタグを使用する製品
 
-Launch にはこの変数を設定するための専用フィールドがありません。ただし、複数のサードパーティ拡張機能が存在しているので役立ちます。
+データ収集UIには、この変数を設定する専用のフィールドはありません。ただし、役に立つサードパーティの拡張機能は複数存在します。
 
-1. Adobe ID の資格情報を使用して [launch.adobe.com](https://launch.adobe.com) にログインします。
+1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」をクリックして、使用可能な拡張機能をすべて表示します。
 4. 「product」という用語を検索すると、この変数の設定に役立ついくつかの拡張機能が明らかになります。
 
 これらの拡張機能の 1 つを使用することも、以下の AppMeasurement 構文に従ってカスタムコードエディターを使用することもできます。
 
-## AppMeasurement および Launch カスタムコードエディターの s.products
+## AppMeasurement および カスタムコードエディターの s.products
 
 `s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。個々の製品には、すべてのフィールドに対して最大 100 バイトを含めることができます。各フィールドを文字列内でセミコロン（`;`）で区切ります。
 
