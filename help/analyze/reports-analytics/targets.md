@@ -5,7 +5,7 @@ uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Reports & Analytics の基本
 role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a51577d1c13cdeaa8ac68175d4695bfd82f394ab
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 90%
