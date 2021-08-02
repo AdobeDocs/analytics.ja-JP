@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定などについて説明します。
-source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 99%
@@ -56,7 +56,7 @@ ht-degree: 99%
    + [公開ウィジェット](admin/publishing-widgets-admin.md)
    + [設定マネージャー](admin/preferences-manager.md)
    + [プライバシー設定](admin/privacy-settings.md)
-   + [プライバシー設定](admin/privacy-reporting.md)
+   + [プライバシーレポート](admin/privacy-reporting.md)
    + 処理ルール {#processing-rules}
       + [処理ルールの概要](admin/c-processing-rules/processing-rules.md)
       + 処理ルールの設定 {#processing-rules-configuration}
