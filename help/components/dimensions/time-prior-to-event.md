@@ -2,11 +2,10 @@
 title: イベント前の時間
 description: 指標から訪問の最初のヒットまでの時間。
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
@@ -20,4 +19,4 @@ ht-degree: 100%
 
 ## ディメンション項目
 
-ディメンション項目には、`"Less than 1 minute"` から `"More than 15 hours"` までの時間ベースのグループが含まれます。例えば、最初のヒットから購入までに 23 分かかった訪問者は、`"10 to 30 minutes"` ディメンション項目の下に含まれます。
+ディメンション項目には、`"Less than 1 minute"` から `"More than 15 hours"` までの時間ベースのグループが含まれます。例えば、最初のヒットから購入までに 23 分かかった訪問者は、`"10 to 30 minutes"` ディメンション項目の下に含まれます。バケットは、この指標に対してカスタマイズできません。
