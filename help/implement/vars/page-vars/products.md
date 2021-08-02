@@ -2,10 +2,10 @@
 title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 91%
+source-wordcount: '505'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->この変数が、買い物かごイベントのないヒットで [`events`](events/events-overview.md) 変数に設定されている場合、[製品表示回数](/help/components/metrics/product-views.md)指標は 1 増分されます。各ヒットに対して、`products` 変数を使用して適切な買い物かごのイベントを設定していることを確認します。
+>この変数が[`events`](events/events-overview.md)変数を含まないヒットで設定された場合、[製品表示回数](/help/components/metrics/product-views.md)指標は1増分されます。 各ヒットに対して、`products`変数を使用して適切なイベントを設定してください。
 
 ## Adobe Experience Platformでタグを使用する製品
 
