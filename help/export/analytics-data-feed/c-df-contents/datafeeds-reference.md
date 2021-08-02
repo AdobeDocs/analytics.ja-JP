@@ -6,10 +6,10 @@ title: データ列リファレンス
 feature: Reports & Analytics の基本
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '3405'
-ht-degree: 100%
+source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+workflow-type: tm+mt
+source-wordcount: '3409'
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 | `mcvisid` | Experience Cloud 訪問者 ID。2 つの 64 ビット数値を連結して 19 桁にパディングした 128 ビット数値です。 | varchar(255) |
 | `mobile_id` | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。 | int |
 | `mobileaction` | モバイルアクション。Mobile Services で `trackAction` が呼び出されると、自動的に収集されます。アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
-| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。 `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。  `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Apteligent データコネクタで使用されます。Apteligent で使用されるアプリケーション ID。 | varchar(255) |
 | `mobileappperformancecrashid` | Apteligent データコネクタで使用されます。Apteligent で使用されるクラッシュ ID。 | varchar(255) |
 | `mobileappstoreobjectid` | Appfigures データコネクタで使用されます。App Store オブジェクト ID。 | varchar(255) |
@@ -274,7 +274,7 @@ ht-degree: 100%
 | `visit_referrer` | 訪問の最初のリファラー。 | varchar(255) |
 | `visit_search_engine` | 訪問の最初の検索エンジンを表す数値 ID。`search_engines.tsv` ルックアップを使用します。 | smallint unsigned |
 | `visit_start_page_url` | 訪問の最初の URL。 | varchar(255) |
-| `visit_start_pagename` | 訪問の最初のページ名。 | varchar(100) |
+| `visit_start_pagename` | 訪問の最初のヒットにおけるページ名の値。 | varchar(100) |
 | `visit_start_time_gmt` | 訪問の最初のヒットのタイムスタンプ（UNIX 時間）。 | int |
 | `weekly_visitor` | ヒットが新しい週別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | `yearly_visitor` | ヒットが新しい年別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
