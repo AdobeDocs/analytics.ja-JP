@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
-source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: ht
-source-wordcount: '1012'
-ht-degree: 100%
+source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 100%
          + [セグメント比較の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [セグメント比較の使用例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [セグメント比較で使用される統計テスト](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + プロジェクトのキュレーションおよび共有 {#curate-share}
+   + プロジェクトのキュレーション、共有、スケジュール{#curate-share}
       + [共有メニュー](analysis-workspace/curate-share/send-schedule-files.md)
       + [プロジェクトのキュレーション](analysis-workspace/curate-share/curate.md)
       + [プロジェクトの共有](analysis-workspace/curate-share/share-projects.md)
