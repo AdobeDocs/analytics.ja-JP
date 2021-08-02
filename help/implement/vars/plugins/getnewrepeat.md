@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: 新規訪問者とリピーターのアクティビティを追跡します。
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 95%
+source-wordcount: '788'
+ht-degree: 66%
 
 ---
 
@@ -69,42 +69,42 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ### 例 1
 
-次のコードでは、s.eVar1 を新規訪問者の「New」の値に設定し、s.eVar1 を（新規呼び出しのたびに）そのサイトへの訪問の残りの部分にわたって、「New」の値に設定します。
+次のコードは、新規訪問者の`eVar1`を`"New"`の値に設定し、訪問者のサイト訪問の残りの部分で、`eVar1`を`"New"`の値（新しい呼び出しのたび）に引き続き設定します。
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 例 2
 
-訪問者が最後に s.getNewRepeat() が呼び出されてから 31 分から 30 日の間にサイトに戻ってきた場合、次のコードは s.eVar1 を「Repeat」の値に設定し、訪問者の残りの訪問全体で s.eVar1 を「Repeat」の値（新しい呼び出しごと）に設定します。
+訪問者が最後に`getNewRepeat()`が呼び出されてから31分から30日までにサイトに戻った場合、次のコードは`eVar1`を`"Repeat"`の値に設定し、訪問者の残りの訪問全体を通して`eVar1`を`"Repeat"`の値に設定し続けます。
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 例 3
 
-訪問者が最後に s.getNewRepeat() が呼び出されてから 30 日以上サイトを訪問していない場合、次のコードは s.eVar1 を「New」の値に設定し、訪問者の残りの訪問全体で s.eVar1 を「New」の値に設定します。
+訪問者が最後に`getNewRepeat()`が呼び出されてから30日以上サイトを訪問していない場合、次のコードは`eVar1`を`"New"`の値に設定し、訪問者の残りの訪問全体を通じて`eVar1`を`"New"`の値に設定し続けます。
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 例 4
 
-訪問者が最後に s.getNewRepeat() が呼び出されてから 31 分から 365 日（1 年）の間にサイトに戻ってきた場合、次のコードは s.eVar1 を「Repeat」の値に設定し、サイトへの訪問者の残りの訪問を通して、s.eVar1 を（新しい呼び出しごとに）「Repeat」の値に等しく設定します。
+訪問者が最後に`getNewRepeat()`が呼び出されてから31分～ 365日（1年）にサイトに戻った場合、次のコードは`eVar1`を`"Repeat"`の値に設定し、残りの訪問では`eVar1`を`"Repeat"`の値（新しい呼び出しごと）に設定し続けます。
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ### 例 5
 
-訪問者が最後に s.getNewRepeat() が呼び出されてから 365 日（1 年）以上サイトを訪問していない場合、次のコードは s.eVar1 を「New」の値に設定し、サイトへの訪問者の残りの訪問を通して、s.eVar1 を（新しい呼び出しごとに）「New」の値に等しく設定します。
+訪問者が最後に`getNewRepeat()`が呼び出されてから365日（1年）以上サイトを訪問していない場合、次のコードは`eVar1`を`"New"`の値に設定し、訪問者の残りの訪問全体を通して`eVar1`を`"New"`の値に設定し続けます。
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ## バージョン履歴
