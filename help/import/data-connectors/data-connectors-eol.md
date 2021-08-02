@@ -2,10 +2,10 @@
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
+source-git-commit: 711020fc00aaaf546b2daf343c28634f7a693b50
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 91%
+source-wordcount: '667'
+ht-degree: 89%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 Adobe Analytics は、10 年以上にわたって、お客様のニーズを満たす、クラス最高の Web およびマーケティング分析ソリューションを提供することを目指してきました。テクノロジーとビジネスのニーズの進化に伴い、最高水準の標準を継続的に提供し、満たすよう努めています。残念ながら、この統合を強化する API はこれらの標準を満たさなくなり、最新の Adobe Analytics テクノロジーインフラストラクチャでは使用できません。
 
-**2021 年 8 月 1 日（PT）**、アドビは Data Connectors 統合を廃止する予定です。サービス提供終了はあらゆるテクノロジー製品のライフサイクルの一環です。アドビはお客様とパートナーに対して可能な限りシームレスにトランジションをおこなうことを目指します。これらの統合の多くは、Adobe Exchange を通じて利用でき、引き続き利用できます。
+**2021年8月1日**、AdobeはData Connectors統合を終了しました。サービス提供終了はあらゆるテクノロジー製品のライフサイクルの一環です。アドビはお客様とパートナーに対して可能な限りシームレスにトランジションをおこなうことを目指します。これらの統合の多くは、Adobe Exchange を通じて利用でき、引き続き利用できます。
 
 ## この機能の提供終了の理由を教えてください。
 
@@ -30,6 +30,8 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 その他の質問やサポートについては、Adobe カスタマーケアにお問い合わせください。
 
 ## Data Connector パートナーの状態
+
+*最新の更新：2021年8月2日（ホツアイト）*
 
 | パートナー | ステータス |
 | --- | --- |
@@ -74,7 +76,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | Fiksu | 廃止 |
 | ForeSee（v2.0）, Foresee Feedback, Foresee Results | 廃止 |
 | Gigya | 廃止 |
-| ほつ岩 | 廃止 |
+| ほつ岩 | Exchange への移行 |
 | hybris | 廃止 |
 | Kampyle（現在は Medalia）フィードバック分析（1.1） | 廃止 |
 | Listrak | Exchange への移行 |
