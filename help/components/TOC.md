@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
-source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: ht
-source-wordcount: '639'
+source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+workflow-type: tm+mt
+source-wordcount: '642'
 ht-degree: 100%
 
 ---
@@ -102,6 +102,7 @@ ht-degree: 100%
    + [郵便番号](dimensions/zip-code.md)
 + 指標 {#metrics}
    + [指標の概要](metrics/overview.md)
+   + [繰り返しインスタンスのカウント](metrics/count-repeat-instances.md)
    + [平均ページの深度](metrics/average-page-depth.md)
    + [平均訪問別ページビュー数](metrics/average-page-views-per-visit.md)
    + [セッションの平均長さ](metrics/average-session-length.md)
