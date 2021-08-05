@@ -4,10 +4,10 @@ subtopic: Classifications
 title: 分類データファイル
 feature: 管理ツール
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
 workflow-type: tm+mt
-source-wordcount: '1771'
-ht-degree: 100%
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -178,6 +178,9 @@ ht-degree: 100%
 * 指定する日付範囲には、開始日および（オプションで）終了日が含まれている必要があります。
 
 日付範囲に基づいてキャンペーンを分類するには：
+
+>[!IMPORTANT]
+>このオプションは、新しい分類アーキテクチャで有効なレポートスイートには使用できません。
 
 1. [!DNL Analytics] にログインし、管理者／分類に移動します。
 1. 「**[!UICONTROL ブラウザエクスポート]**」タブをクリックし、日付が有効な分類の設定が正しいことを確認して、「ファイルのエクスポート」をクリックします。
