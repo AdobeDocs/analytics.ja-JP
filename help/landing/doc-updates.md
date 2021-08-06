@@ -3,10 +3,10 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントリポジトリの大幅なアップデート。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 71%
 
 ---
 
@@ -19,12 +19,30 @@ ht-degree: 100%
 * 新機能について詳しくは、ツールユーザーガイドの [Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
 * オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を参照してください。
 
-## メジャー更新の詳細
+## 主なドキュメントの更新の詳細
 
 | 日付 | 説明 |
 |---|---|
+| 2021 年 8 月 5 日（PT） | [繰り返しインスタンスのカウント](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)に関する新しいトピック |
+| 2021 年 7 月 23 日（PT） | [マーチャンダイジングeVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)の詳細な説明 |
+| 2021 年 7 月 15 日（PT） | [Adobe Analyticsランディングページ](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=ja)に関する新しいドキュメントを追加しました。 |
+| 2021 年 6 月 15 日（PT） | [マーケティングチャネルのベストプラクティス](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html)を更新しました |
+| 2021 年 6 月 3 日（PT） | [データフィードの実装](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en)についての詳細な説明のドキュメントと[こちら](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl)を更新しました。 |
+| 2021 年 5 月 25 日（PT） | [レポートで eVar の大文字と小文字の区別](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)に関するドキュメントを更新しました。 |
+| 2021 年 5 月 13 日（PT） | [Data WarehouseAPIリクエスト](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)の更新。 現在は、「Hours」をサポートしています。 |
+| 2021年4月 | Adobe Analyticsダッシュボード[エグゼクティブガイド](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html)および[キュレーターガイド](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)の更新 |
+| 2021 年 3 月 25 日（PT） | [データ修](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 復APIの更新（URL、クエリ文字列、記号などでのフィルタリング） |
+| 2021 年 3 月 25 日（PT） | 新しい[使用ログAPI](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)ドキュメント |
+| 2021 年 1 月 14 日（PT） | Analyticsダッシュボードの言語選択オプションを追加しました。 |
 | 2020 年 11 月 | 新しい実装レビューのドキュメント： <ul><li>[完全な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ja)</li><li>[重点的な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=ja)</li></ul> |
+| 2020 年 10 月 23 日 | Adobe Analyticsダッシュボードのドキュメントに機能強化を追加しました。 Workspaceのモバイルスコアカードで、スコアカードのスタイルがアプリと一致するようになりました。 |
+| 2020年9月18日 | Workspaceの[メディア同時ビューアパネルに関する新しいドキュメント(](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=ja)) |
+| 2020 年 8 月 31 日（PT） | クロスデバイス分析の[フィールドベースのステッチドキュメント](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html)に機能強化を追加しました。 |
 | 2020 年 7 月 22 日 | [クロスデバイス分析](/help/components/cda/overview.md)の主なアップデートとリビジョン。[フィー ルドベースのステッチ](/help/components/cda/field-based-stitching.md)を追加しました。 |
+| 2021 年 6 月 18 日（PT） | [Attribution IQに関する新しいドキュメント：アルゴリズムアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja) |
+| 2021 年 6 月 18 日（PT） | [Attribution IQに関する新しいドキュメント：カスタムルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
+| 2020 年 5 月 31 日（PT） | [一括データ挿入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)に関する新しいドキュメント |
+| 2020 年 5 月 21 日（PT） | [Adobe Analyticsダッシュボード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)の新しいドキュメント |
 | 2020 年 4 月 29 日 | [コンテンツ速度](/help/components/metrics/content-velocity.md)指標に関するドキュメントを追加しました。 |
 | 2020 年 3 月 13 日 | [Experience Cloud へのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)にアップデートを追加しました。 |
 | 2020 年 3 月 13 日 | CDA のステッチ待機時間のアップデート。 |
@@ -38,7 +56,7 @@ ht-degree: 100%
 | 2020 年 1 月 14 日 | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019 年 11 月 26 日 | [IP ログイン制限実施の提供終了](/help/admin/company/login-restrictions-eol.md)に関する新しいトピック。 |
-| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja) の新しいドキュメントセット。 |
+| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
 | 2019 年 9 月 29 日 | [JavaScript 実装の設定変数](/help/implement/vars/config-vars/configuration-variables.md)に関する新しい記事を追加しました。 |
 | 2019 年 9 月 13 日 | [Journey IQ：クロスデバイス分析](/help/components/cda/overview.md)に関する新しい記事を追加しました。 |
 | 2019 年 8 月 29 日 | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/analyze/pwa/pwa.md)に関する新しい記事を追加しました。 |
