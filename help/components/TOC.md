@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
-source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
+source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 99%
 
 ---
@@ -233,6 +233,7 @@ ht-degree: 99%
       + [ブラウザーインポート](classifications/importer/browser-import.md)
       + [ブラウザーエクスポート](classifications/importer/browser-export.md)
       + [FTP インポート](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+      + [FTPエクスポート](classifications/importer/ftp-export.md)
       + [処理時間](classifications/importer/processing-time.md)
       + [トラブルシューティング](classifications/importer/troubleshooting.md)
    + 分類ルールビルダー {#classifications-rulebuilder}
