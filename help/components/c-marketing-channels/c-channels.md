@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: マーケティングチャネルの管理
 feature: Reports and Analytics の基本
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 レポートにチャネルとチャネルデータを表示できるようにするには、チャネルおよびそのデータを処理するための基本的なルールを作成してください。また、[訪問者エンゲージメント期間](/help/components/c-marketing-channels/visitor-engagement.md)の長さも指定できます。
 
-アドビでは、[自動セットアップ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中に定義済みのチャネルをいくつか提供します。これらはニーズに合わせて編集できます。また、この設定を変更し、[マーケティングチャネルの処理ルール](/help/components/c-marketing-channels/c-rules.md)内でカスタムルールを定義することもできます。
+アドビでは、[自動セットアップ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中に定義済みのチャネルをいくつか提供します。これらはニーズに合わせて編集できます。さらに、この設定を変更し、[マーケティングチャネルの処理ルール](/help/components/c-marketing-channels/c-rules.md)内でカスタムルールを定義できます。
 
 >[!NOTE]
 >
