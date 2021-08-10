@@ -5,14 +5,17 @@ title: Analysis Workspace の新機能
 feature: Workspace の基本
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
 workflow-type: tm+mt
-source-wordcount: '8276'
-ht-degree: 100%
+source-wordcount: '8290'
+ht-degree: 99%
 
 ---
 
 # Analysis Workspace の新機能
+
+>[!IMPORTANT]
+>Analysis Workspaceの更新が[Adobe Analyticsドキュメントの更新](/help/landing/doc-updates.md)ページに展開されました。
 
 Adobe Experience Cloud のリリースノート全体へのアクセスについては、[こちら](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
 
