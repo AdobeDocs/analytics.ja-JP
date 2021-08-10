@@ -3,7 +3,7 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントリポジトリの大幅なアップデート。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
+source-git-commit: 185ea7f120d918db52233a321dfa629c6bc1c8ee
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 71%
@@ -22,7 +22,7 @@ ht-degree: 71%
 ## 主なドキュメントの更新の詳細
 
 | 日付 | 説明 |
-|---|---|
+| --- | --- |
 | 2021 年 8 月 5 日（PT） | [繰り返しインスタンスのカウント](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)に関する新しいトピック |
 | 2021 年 7 月 23 日（PT） | [マーチャンダイジングeVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)の詳細な説明 |
 | 2021 年 7 月 15 日（PT） | [Adobe Analyticsランディングページ](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=ja)に関する新しいドキュメントを追加しました。 |
