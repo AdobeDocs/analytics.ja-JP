@@ -2,10 +2,9 @@
 title: 地域データ収集
 description: 地域データ収集に関する情報
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '475'
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
@@ -46,10 +45,9 @@ RDC には現在以下の場所が含まれます（変更される場合があ�
 
 ## RDC のメリット
 
-| メリット | 説明 |
+| 利点 | 説明 |
 | --- | --- |
 | パフォーマンス | RDC により、訪問者は最も近い DCC に接続します。 これにより、応答時間が最速クラスになり、追跡の精度が向上、読み込み時間が短縮します。 |
-| 冗長性 | DCC との通信が中断されると、データ収集は次に近い DCC に自動的にルーティングされ、サービスの継続が確保されます。 |
 | 冗長性 | DCC と DPC の間の通信が中断されると、アドビの RDC インフラストラクチャはデータをローカルに保存し、通信が復元されたときにそのデータを DPC に転送します。 |
 
 ## RDC のしくみ
