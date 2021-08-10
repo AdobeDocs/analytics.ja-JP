@@ -2,10 +2,10 @@
 title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
+source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 85%
+source-wordcount: '503'
+ht-degree: 80%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 85%
 
 ## AppMeasurement および カスタムコードエディターの s.products
 
-`s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。個々の製品には、すべてのフィールドに対して最大 100 バイトを含めることができます。各フィールドを文字列内でセミコロン（`;`）で区切ります。
+`s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。各フィールドを文字列内でセミコロン（`;`）で区切ります。
 
-* **カテゴリ**（オプション）：包括的な製品カテゴリ。組織は、製品をカテゴリにグループ化する方法を決定します。
-* **製品名**（必須）：製品の名前。
+* **カテゴリ**（オプション）：包括的な製品カテゴリ。組織は、製品をカテゴリにグループ化する方法を決定します。このフィールドの最大長は100バイトです。
+* **製品名**（必須）：製品の名前。このフィールドの最大長は100バイトです。
 * **量**（オプション）：買い物かごに入っている製品の数。このフィールドは、購入イベントを含むヒットにのみ適用されます。
 * **価格**（オプション）：小数での製品の合計価格。量が 2 つ以上の場合、価格は個々の製品価格ではなく合計に設定します。この値の通貨を [`currencyCode`](../config-vars/currencycode.md) 変数に合わせて整列します。このフィールドに通貨記号を含めないでください。このフィールドは、購入イベントを含むヒットにのみ適用されます。
 * **イベント**（オプション）：製品に関連付けられたイベント。複数のイベントをパイプ（`|`）で区切ります。詳しくは、[イベント](events/events-overview.md)を参照してください。
@@ -44,11 +44,11 @@ ht-degree: 85%
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-この変数は、同じヒットで複数の製品をサポートします。買い物かごや複数の製品を含む購入に役立ちます。製品ごとに 100 バイトの制限がありますが、`products` 変数の合計の長さは 64K です。各製品は文字列内でコンマ（`,`）で区切ります。
+この変数は、同じヒットで複数の製品をサポートします。買い物かごや複数の製品を含む購入に役立ちます。`products`文字列全体の最大長は64Kです。 各製品は文字列内でコンマ（`,`）で区切ります。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -99,11 +99,11 @@ s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;e
 `digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合は、`digitalData.product`オブジェクト配列を繰り返し処理できます。
 
 ```js
-for(var i=0; i<digitalData.product.length; i++) {
+for(var i = 0; i < digitalData.product.length; i++) {
     // Add individual product info to the product string
     s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
     // If there are more products, add a comma
-    if(i != digitalData.product.length-1) {
+    if(i != digitalData.product.length - 1) {
         s.products += ",";
     }
 }
