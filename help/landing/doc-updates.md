@@ -3,10 +3,10 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントリポジトリの大幅なアップデート。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 185ea7f120d918db52233a321dfa629c6bc1c8ee
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 71%
+source-wordcount: '1006'
+ht-degree: 68%
 
 ---
 
@@ -23,9 +23,14 @@ ht-degree: 71%
 
 | 日付 | 説明 |
 | --- | --- |
+| **2021年8月** |  |
 | 2021 年 8 月 5 日（PT） | [繰り返しインスタンスのカウント](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)に関する新しいトピック |
+| 2021 年 8 月 5 日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートで使用できないオプションを示すために、[templates](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[browser import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)および[browser export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)に関する分類ドキュメントを更新しました。 |
+| 2021 年 8 月 2 日（PT） | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)のリブランディングを反映するように複数のページを更新しました |
+| **2021 年 7 月** |  |
 | 2021 年 7 月 23 日（PT） | [マーチャンダイジングeVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)の詳細な説明 |
 | 2021 年 7 月 15 日（PT） | [Adobe Analyticsランディングページ](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=ja)に関する新しいドキュメントを追加しました。 |
+| **2021 年 6 月** |  |
 | 2021 年 6 月 15 日（PT） | [マーケティングチャネルのベストプラクティス](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html)を更新しました |
 | 2021 年 6 月 3 日（PT） | [データフィードの実装](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en)についての詳細な説明のドキュメントと[こちら](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl)を更新しました。 |
 | 2021 年 5 月 25 日（PT） | [レポートで eVar の大文字と小文字の区別](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)に関するドキュメントを更新しました。 |
@@ -34,6 +39,7 @@ ht-degree: 71%
 | 2021 年 3 月 25 日（PT） | [データ修](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 復APIの更新（URL、クエリ文字列、記号などでのフィルタリング） |
 | 2021 年 3 月 25 日（PT） | 新しい[使用ログAPI](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)ドキュメント |
 | 2021 年 1 月 14 日（PT） | Analyticsダッシュボードの言語選択オプションを追加しました。 |
+| **2020年** |  |
 | 2020 年 11 月 | 新しい実装レビューのドキュメント： <ul><li>[完全な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ja)</li><li>[重点的な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=ja)</li></ul> |
 | 2020 年 10 月 23 日 | Adobe Analyticsダッシュボードのドキュメントに機能強化を追加しました。 Workspaceのモバイルスコアカードで、スコアカードのスタイルがアプリと一致するようになりました。 |
 | 2020年9月18日 | Workspaceの[メディア同時ビューアパネルに関する新しいドキュメント(](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=ja)) |
@@ -54,6 +60,7 @@ ht-degree: 71%
 | 2020 年 2 月 5 日 | [実装ユーザーガイド](/help/implement/home.md)を完全に書き直しました。 |
 | 2020 年 1 月 23 日 | フリーフォームテーブルページを更新し、新しい[フリーフォームテーブルビルダー](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)の情報を含めました。 |
 | 2020 年 1 月 14 日 | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
+| **2019年** |  |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019 年 11 月 26 日 | [IP ログイン制限実施の提供終了](/help/admin/company/login-restrictions-eol.md)に関する新しいトピック。 |
 | 2019 年 11 月 22 日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
@@ -68,9 +75,12 @@ ht-degree: 71%
 | 2019 年 7 月 19 日 | [コホートテーブル設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)が更新されました。 |
 | 2019 年 6 月 5 日 | 新しいガイド[サードパーティの分析プラットフォームから Adobe Analytics への移行](/help/technotes/ga-to-aa/home.md)が作成されました。 |
 | 2019 年 5 月 31 日 | [データフィード列リファレンス](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)が改定されました。 |
+| 2019年5月10日 | フロービジュアライゼーション設定に新しい設定を追加しました：繰り返しインスタンスを含める。[フロー設定](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md)を参照 |
+| 2019 年 4 月 12 日 | Workspaceの最適化のベストプラクティスに関する機能強化：[パフォーマンスの最適化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019 年 4 月 12 日 | [Workspace のパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)が更新されました。 |
 | 2019 年 3 月 15 日 | [地域データ収集](/help/technotes/rdc/regional-data-collection.md)が大幅に更新されました。 |
 | 2019 年 2 月 8 日 | [一般アカウント設定](/help/admin/admin/general-acct-settings-admin.md)の「IP アドレスの最後のオクテットを 0 に置き換える」と「IP アドレスの難読化」設定が若干更新されました。 |
 | 2019 年 2 月 2 日 | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 実装プラグインが大幅に更新されました。 |
-| 2019 年 1 月 18 日 | Analysis Workspace のプロジェクト設定に「[表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)」が追加されました。 |
-| 2019 年 1 月 18 日 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)が大幅に更新されました。 |
+| 2019 年 1 月 18 日 | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)  — コホート分析が大幅に改善され、以下のことが可能になりました。<ul><li>インクルージョン指標とリターン指標のそれぞれにセグメントを適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます（計算指標はサポートされません）。</li></ul> |
+| 2019 年 1 月 18 日 | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). この新しい設定を使用すると、左側のパネル、フリーフォームテーブルおよびコホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。プロジェクト／プロジェクト情報および設定から利用できます。 |
+| 2019 年 1 月 18 日 | [Attribution IQ における複数値の変数のサポート](/help/analyze/analysis-workspace/attribution/overview.md). Analytics の一部のディメンションでは、1 回のヒットに複数の値（listVar、product 変数、listProp、マーチャンダイジング eVar など）を含めることができます。Analysis Workspace において、このような変数にヒットレベルで Attribution IQ を適用できるようになりました。 |
