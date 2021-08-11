@@ -4,8 +4,8 @@ title: Analytics Data Connectors の提供終了前の発表
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | CheetahMail by Experian | Exchange への移行 |
 | ClickTale | 廃止 |
 | Clicktale CA | 廃止 |
-| Conductor 2.0, Conductor, Conductor Organic Metrics | 廃止 |
+| Conductor 2.0、Conductor、Conductor Organic Metrics | 廃止 |
 | ContactLab 2.0（Contact Send Connector） | 廃止 |
 | Coradiant TrueSight | 廃止 |
 | D&amp;B 訪問者インテリジェンス | 廃止 |
@@ -72,11 +72,11 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | emarsys xpress | 廃止 |
 | Epsilon Harmony | Exchange への移行 |
 | EveryoneSocial for Adobe Analytics | 廃止 |
-| ExactTarget, ExactTarget 2.0 | 廃止 |
+| ExactTarget、ExactTarget 2.0 | 廃止 |
 | Fiksu | 廃止 |
-| ForeSee（v2.0）, Foresee Feedback, Foresee Results | 廃止 |
+| ForeSee（v2.0）、Foresee Feedback、Foresee Results | 廃止 |
 | Gigya | 廃止 |
-| ほつ岩 | Exchange への移行 |
+| Hootsuite | Exchange への移行 |
 | hybris | 廃止 |
 | Kampyle（現在は Medalia）フィードバック分析（1.1） | 廃止 |
 | Listrak | Exchange への移行 |
@@ -89,10 +89,10 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | Responsys 1.0、Responsys 2.0 | 廃止 |
 | Salesforce.com | 廃止 |
 | Selligent | 廃止 |
-| seoClarity, seoClarity 2.0#seoClarity, seoClarity 2.0# | 廃止 |
+| seoClarity、seoClarity 2.0 | 廃止 |
 | Silverpop Engage（v2.0） | 廃止 |
 | Sizmek | 廃止 |
-| SmartFOCUSデジタル | 廃止 |
+| SmartFOCUS Digital | 廃止 |
 | SpotEffects | 廃止 |
 | StrongMail Systems, Inc | 廃止 |
 | Syngergy! 360 | 廃止 |
@@ -103,10 +103,10 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | WhatCounts Email | 廃止 |
 | wywy | 廃止 |
 | Yesmail Enterprise | 廃止 |
-| ゼータ・インタラクティブ | 廃止 |
+| Zeta Interactive | 廃止 |
 
 ## 例外：Adobe Campaign Classic
 
 2021 年 8 月 1 日までの唯一の例外は、Adobe Campaign Classic 統合です。この統合は、2022 年 3 月 1 日に正式に廃止されます。
 
-2021 年 8 月 1 日に、Adobe Campaign Classic は、その他すべての統合と共に Data Connectors UI から削除されます。ただし、既存の Campaign 統合は、2022 年 3 月 1 日まで引き続きデータを収集して Adobe Analytics に渡します。2022 年 3 月 1 日には、統合はデータを収集して Adobe Analytics に渡さなくなります。この統合を使用している場合は、2022年3月2日より前に、新しいCampaign-Analyticsコネクタに移動する必要があります。 詳しくは、[Adobe Campaign Classicのドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html)を参照してください。
+2021 年 8 月 1 日に、Adobe Campaign Classic は、その他すべての統合と共に Data Connectors UI から削除されます。ただし、既存の Campaign 統合は、2022 年 3 月 1 日まで引き続きデータを収集して Adobe Analytics に渡します。2022 年 3 月 1 日には、統合はデータを収集して Adobe Analytics に渡さなくなります。この統合を使用している場合は、2022 年 3 月 1 日（PT）より前に、新しい Campaign-Analytics コネクタに移動する必要があります。詳しくは、[Adobe Campaign Classic のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=ja)を参照してください。
