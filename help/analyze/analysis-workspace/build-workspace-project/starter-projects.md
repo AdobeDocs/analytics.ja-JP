@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 * **リテンション：**&#x200B;サイトの常連ユーザーになる傾向があるのはどのタイプのユーザーですか。
 * **テクノロジー：**&#x200B;人々がサイトにアクセスするのに使用しているのはどの技術ですか。
 
-### People
+### ユーザー
 
 >[!NOTE]
 >
