@@ -6,7 +6,7 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Activity Map を使用すると、様々なビューを設定することによ�
 
 **はじめに（ユーザー向け）**
 
-* [Activity Map ブラウザープラグインのインストール](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+* [Activity Map ブラウザープラグインのインストール ](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Activity Map の起動](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
 **Activity Map の機能**
