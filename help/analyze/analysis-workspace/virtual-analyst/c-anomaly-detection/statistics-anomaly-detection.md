@@ -5,7 +5,7 @@ feature: AI ツール
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
