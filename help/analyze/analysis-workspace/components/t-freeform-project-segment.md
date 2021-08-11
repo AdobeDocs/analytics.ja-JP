@@ -6,7 +6,7 @@ feature: Workspace の基本
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
