@@ -4,8 +4,8 @@ description: 訪問者が閲覧したページの割合を取得します。
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
