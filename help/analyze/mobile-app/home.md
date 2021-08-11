@@ -5,7 +5,7 @@ feature: Analytics ダッシュボード
 role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
