@@ -6,9 +6,9 @@ title: データ列リファレンス
 feature: Reports & Analytics の基本
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3407'
 ht-degree: 99%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 99%
 | `hier1 - hier5` | 階層変数で使用され、値の区切りリストが含まれます。区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
 | `hit_source` | ヒットの発生源を示します。ヒットソース 1、2、6 に対して請求が行われます。<br>1：標準的なイメージリクエスト（タイムスタンプなし）<br>2：標準的なイメージリクエスト（タイムスタンプあり）<br>3：ライブデータソースのアップロード（タイムスタンプあり）<br>4：未使用<br>5：汎用データソースのアップロード<br>6：完全な処理データソースのアップロード<br>7：TransactionID データソースのアップロード<br>8：廃止。Adobe Advertising Cloud の以前のバージョンのデータソース<br>9：廃止。Adobe Social サマリ指標<br>10：Audience Manager サーバーサイド転送を使用 | tinyint unsigned |
 | `hit_time_gmt` | Unix 時間に基づく、ヒットを受け取ったアドビデータ収集サーバーのタイムスタンプ。 | int |
-| `hitid_high` | `hitid_low` と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
-| `hitid_low` | `hitid_high` と組み合わせて使用し、ヒットを一意に識別します。 | bigint unsigned |
+| `hitid_high` | `hitid_low`と組み合わせて使用し、ヒットを識別します。 | bigint unsigned |
+| `hitid_low` | `hitid_high`と組み合わせて使用し、ヒットを識別します。 | bigint unsigned |
 | `homepage` | 廃止。現在の URL がブラウザーのホームページかどうかを示します。 | char(1) |
 | `hourly_visitor` | ヒットが新しい時間別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | `ip` | イメージリクエストの HTTP ヘッダーに基づく IP アドレス。 | char(20) |
