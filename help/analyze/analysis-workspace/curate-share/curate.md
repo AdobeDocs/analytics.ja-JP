@@ -6,7 +6,7 @@ feature: キュレーションと共有
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
 ht-degree: 100%
 
