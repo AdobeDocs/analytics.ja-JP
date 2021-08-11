@@ -6,7 +6,7 @@ feature: Workspace の基本
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 
 テーブルの各列に期間を追加できるようになりました。これにより、カレンダーの設定先とは異なる期間を追加できます。この方法でも日付を比較することができます。
 
-1. テーブルの列を右クリックし、「**[!UICONTROL 期間列を追加]**![](assets/add-time-period-column.png)」を選択します。
+1. テーブルの列を右クリックし、「 **[!UICONTROL 期間列を追加]** ![](assets/add-time-period-column.png)」を選択します。
 
 1. テーブルの日付範囲をどのように設定したかに応じて、次のオプションを比較に使用できます。
 
