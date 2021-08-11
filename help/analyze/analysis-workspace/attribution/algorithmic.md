@@ -5,7 +5,7 @@ feature: アトリビューション
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -19,8 +19,8 @@ Analysis Workspace のアルゴリズム[アトリビューションモデル](m
 
 高いレベルでは、各タッチポイントのコンバージョンクレジットのアトリビューション計算では、ルックバックウィンドウ内の各マーケティングタッチポイントを、剰余を均等に配分する必要のあるプレーヤーの連合とみなします。各連合の余剰分配は、各サブ連合（または以前に参加したディメンション項目）によって以前に再帰的に作成された余剰に従って決定されます。詳しくは、John Harsanyi と Lloyd Shapley の元の論文を参照してください。
 
-* Shapley, Lloyd S. (1953).A value for n-person games.*Contributions to the Theory of Games, 2(28)*, 307-317.
-* Harsanyi, John C. (1963).A simplified bargaining model for the n-person cooperative game.*International Economic Review 4(2)*, 194-220.
+* Shapley, Lloyd S. (1953).n 人用ゲームの値&#x200B;*Contributions to the Theory of Games, 2(28)*, 307-317.
+* Harsanyi, John C. (1963).n 人用協力ゲームのシンプル版安価モデル。*International Economic Review 4(2)*, 194-220.
 
 >[!NOTE]
 >
