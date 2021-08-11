@@ -5,7 +5,7 @@ feature: Reports & Analytics の基本
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Experience Cloud を介してログインする手順を説明します。
    **[!UICONTROL パスワード]**： アカウントのパスワードを入力します。
 1. Experience Cloud のホームページで、**Analytics／レポート**&#x200B;に移動します。
 
-   無操作状態が 30 分間続くと自動的にログアウトされます。
+   無操作状態が 30 分間続くと自動的に Experience Cloud からログアウトされます。
 
 ## レポートの実行
 
