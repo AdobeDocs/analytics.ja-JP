@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1401'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Report Builder では、レポートスイートからデータリクエスト�
 * **ワークブックの実行時間を長くさせる要因**：分類が大幅に増加したか、リクエストの日付範囲が経時的に増加しています。
 * **ワークブックの配信に失敗する原因**：ワークブック内の Excel 式が複雑です（特に日付と時間を含む式）。
 * **0（値なし）を返すセル**：Excel のシート名にアポストロフィまたは一重引用符があると、Report Builder は値を返しません。（これは Microsoft Excel の制限です。）
-* **個々のリクエストのパフォーマンス**:処理速度は、次の設定の影響を受ける場合があります。
+* **個々のリクエストのパフォーマンス**：処理速度は、次の設定の影響を受ける場合があります。
 
    | 設定 | パフォーマンス向上 | パフォーマンス低下 |
    |--- |--- |--- |
