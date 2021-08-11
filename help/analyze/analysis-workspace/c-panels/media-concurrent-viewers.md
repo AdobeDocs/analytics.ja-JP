@@ -5,7 +5,7 @@ feature: パネル
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1005'
 ht-degree: 100%
 
