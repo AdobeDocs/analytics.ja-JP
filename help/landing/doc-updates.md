@@ -3,10 +3,10 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントリポジトリの大幅なアップデート。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 784a2ab3bf825473c9ced7a1d79f2cc7bfc8f8e7
+source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
 workflow-type: tm+mt
-source-wordcount: '2859'
-ht-degree: 69%
+source-wordcount: '2845'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 69%
 
 * [!UICONTROL Customer Journey Analytics] の詳細については、[こちら](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)を参照してください。
 * Adobe Analytics の新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
-* 新機能について詳しくは、ツールユーザーガイドの [Analysis Workspace の新機能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)を参照してください。
 * オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を参照してください。
 
 ## 主なドキュメントの更新の詳細
@@ -101,7 +100,7 @@ ht-degree: 69%
 | 2020 年 2 月 20 日（PT） | Workspaceデバッガーがヘルプメニューに追加され、よりシームレスに有効化してWorkspaceリクエストをデバッグできるようになりました。 [詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020 年 2 月 19 日 | [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 変数を追加しました。 |
 | 2020 年 2 月 13 日 | [マーケティングチャネルドキュメント](/help/components/c-marketing-channels/c-getting-started-mchannel.md)のアップデートと再編成。 |
-| 2020 年 2 月 13 日 | [このWorkspaceページ](https://docs.adobe.com/content/help/ja-JP/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)に新しいホットキーを追加しました。 |
+| 2020 年 2 月 13 日 | [このWorkspaceページ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=en)に新しいホットキーを追加しました。 |
 | 2020 年 2 月 8 日 | [クロスデバイス分析のセットアップ](/help/components/cda/setup.md)と [FAQ](/help/components/cda/faq.md) のアップデート。 |
 | 2020 年 2 月 5 日 | [実装ユーザーガイド](/help/implement/home.md)を完全に書き直しました。 |
 | 2020 年 1 月 23 日 | フリーフォームテーブルページを更新し、新しい[フリーフォームテーブルビルダー](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)の情報を含めました。 |
@@ -109,7 +108,7 @@ ht-degree: 69%
 | 2020年1月25日 | Workspaceの[行設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en)ページが更新されました。 |
 | 2020 年 1 月 16 日（PT） | [フリーフォームテーブルビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja)の新しいドキュメント。 Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新がおこなわれ、どのテーブルを作成したいかがわかると時間を節約することができます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、Workspace で適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
 | 2020 年 1 月 14 日 | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
-| 2020 年 1 月 14 日 | [使用するツール](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-overview/which-analytics-tool.html)ページを変更しました。 |
+| 2020 年 1 月 14 日 | [使用するAdobe Analyticsツール](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en)ページを変更しました。 |
 | **2019年** |  |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019 年 11 月 26 日 | [IP ログイン制限実施の提供終了](/help/admin/company/login-restrictions-eol.md)に関する新しいトピック。 |
