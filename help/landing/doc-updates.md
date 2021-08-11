@@ -1,12 +1,12 @@
 ---
 title: Adobe Analytics テクニカルドキュメントのアップデート
-description: Adobe Analytics ドキュメントリポジトリの大幅なアップデート。
+description: Adobe Analyticsドキュメントセットの主なアップデート点です。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
+source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
 workflow-type: tm+mt
-source-wordcount: '2930'
-ht-degree: 64%
+source-wordcount: '2886'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 64%
 | 2021 年 8 月 5 日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートで使用できないオプションを示すために、[templates](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[browser import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)および[browser export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)に関する分類ドキュメントが更新されました。 |
 | 2021 年 8 月 2 日（PT） | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)のリブランディングを反映するように複数のページを更新しました |
 | **2021 年 7 月** |  |
-| 2021 年 7 月 23 日（PT） | [マーチャンダイジングeVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)の詳細な説明 |
+| 2021 年 7 月 23 日（PT） | [マーチャンダイジングeVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)に関する新しい詳細な説明 |
 | 2021 年 7 月 15 日（PT） | 新しい[Adobe Analyticsランディングページ](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=ja)に新しいドキュメントを追加しました。 |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日（PT） | [マーケティングチャネルのベストプラクティス](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html)を更新しました |
@@ -70,32 +70,31 @@ ht-degree: 64%
 | 2020 年 7 月 22 日 | [クロスデバイス分析](/help/components/cda/overview.md)の主なアップデートとリビジョン。[フィー ルドベースのステッチ](/help/components/cda/field-based-stitching.md)を追加しました。 |
 | 2020 年 7 月 16 日 | Workspaceの新しい日付範囲プリセット。 [!UICONTROL 今週／月／四半期／年（今日を除く）]の 4 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲から選択できます。 |
 | **2020 年 6 月** |  |
-| 2020 年 6 月 25 日（PT） | Workspaceのクイックインサイトパネルでは、Analysis Workspaceのアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。 [詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 2020 年 6 月 25 日（PT） | WorkspaceのAnalytics for Targetパネルを使用すると、上昇率と信頼性を使用して、Adobe Targetのアクティビティとエクスペリエンスを分析できます。 [詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 2020 年 6 月 25 日（PT） | Workspaceの[クイックインサイトパネル](/help/analyze/analysis-workspace/c-panels/quickinsight.md)の新しいドキュメントです。 Analysis Workspaceのアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。 |
+| 2020 年 6 月 25 日（PT） | Workspaceの[Analytics for Targetパネル](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)の新しいドキュメントです。 上昇率と信頼性を使用して、Adobe Targetのアクティビティとエクスペリエンスを分析できます。 |
 | 2020 年 6 月 18 日（PT） | [Attribution IQに関する新しいドキュメント：アルゴリズムアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja) |
 | 2020 年 6 月 18 日（PT） | [Attribution IQに関する新しいドキュメント：カスタムルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
-| 2020 年 6 月 18 日（PT） | 共有 Workspace プロジェクトのプロジェクトロール. Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja) |
-| 2020 年 6 月 18 日（PT） | Workspaceプロジェクトを「表示可能」としてのみユーザーに共有する方法に関するドキュメントです。 「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja) |
-| 2020 年 6 月 18 日（PT） | 共有Workspaceプロジェクトのプロジェクトロールに関する新しいドキュメントです。 Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 2020 年 6 月 18 日（PT） | 表示専用のWorkspaceプロジェクト：Workspaceプロジェクトは、「表示可能」としてのみユーザーに共有できます。 「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 2020 年 6 月 18 日（PT） | Workspace プロジェクトを共同編集できる機能. 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 2020 年 6 月 18 日（PT） | 共有Workspaceプロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメントです。 Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
+| 2020 年 6 月 18 日（PT） | [「表示のみ」のWorkspaceプロジェクト](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja)に関する新しいドキュメントです。 プロジェクトは、「表示可能」としてのみユーザーに共有できます。 「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。 |
+| 2020 年 6 月 18 日（PT） | 共有Workspaceプロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)に関する新しいドキュメントです。 Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
+| 2020 年 6 月 18 日（PT） | [Workspaceプロジェクトの共同編集](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)に関する新しいドキュメントです。 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日（PT） | [一括データ挿入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)に関する新しいドキュメント |
 | 2020 年 5 月 21 日（PT） | [Adobe Analyticsダッシュボード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)の新しいドキュメント |
-| 2020 年 5 月 21 日（PT） | キーボードナビゲーション、カラーコントラスト、スクリーンリーダーのサポートの改善など、Analysis Workspaceのアクセシビリティの改善に関するドキュメント。 [詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=ja) |
+| 2020 年 5 月 21 日（PT） | Analysis Workspaceの[アクセシビリティの改善](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=ja)に関する新しいドキュメント。キーボードナビゲーション、カラーコントラスト、スクリーンリーダーのサポートの改善が含まれます。 |
 | **2020 年 4 月** |  |
 | 2020 年 4 月 29 日 | [コンテンツ速度](/help/components/metrics/content-velocity.md)指標に関するドキュメントを追加しました。 |
 | 2020 年 4 月 17 日 | 空白の状態から[!UICONTROL フリーフォームテーブル]を自動的に作成する方法に関するドキュメントです。 以前は、空のプロジェクトや空のパネルにコンポーネントを直接ドロップすることはできず、最初にフリーフォームテーブルを追加する必要がありました。空のプロジェクトまたはパネルにコンポーネントを直接ドロップできるようになりました。フリーフォームテーブルは推奨される形式で自動的に作成されます。また、空の[!UICONTROL フリーフォームテーブル]にドロップした場合の混合コンポーネントタイプ（ディメンションや指標など）の処理方法も改善されました。 |
 | **2020 年 3 月** |  |
 | 2020 年 3 月 13 日 | [Experience Cloud へのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)にアップデートを追加しました。 |
 | 2020 年 3 月 13 日 | CDA のステッチ待機時間のアップデート。 |
-| 2020 年 3 月 13 日 | Workspace での複数のレポートスイートのサポート. 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 2020 年 3 月 13 日 | Workspace での複数のレポートスイートのサポート. 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ja) |
 | 2020 年 3 月 13 日 | Workspaceのトレーニングチュートリアルテンプレート。 この新しい標準テンプレートでは、Workspace で最初の分析を作成するための一般的な用語と手順を順に説明します。これは、「新規プロジェクト」モーダルの標準テンプレートとして使用でき、リストに他のプロジェクトがない新規ユーザー向けにある、サンプルプロジェクトを置き換えます。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 | **2020 年 2 月** |  |
 | 2020 年 2 月 28 日 | [Adobe Analytics Labs](/help/analyze/tech-previews/overview.md) に関するドキュメントを追加しました。 |
 | 2020 年 2 月 26 日 | [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 変数を追加しました。 |
 | 2020 年 2 月 20 日（PT） | クロスデバイス間分析を使用する組織向けの新しい Workspace テンプレート. このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、[クロスデバイス分析の設定](/help/components/cda/setup.md)を参照してください。 |
-| 2020 年 2 月 20 日（PT） | Workspace の新しいホットキー:<ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開： `alt + ctrl + m`</li><li>左パネルを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 2020 年 2 月 20 日（PT） | Workspace の新しいホットキー:<ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開： `alt + ctrl + m`</li><li>左パネルを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ja) |
 | 2020 年 2 月 20 日（PT） | Workspaceの強化： <ul><li>パネルまたはビジュアライゼーションを Workspace にドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加するボタンが表示されます。</li></ul> |
 | 2020 年 2 月 20 日（PT） | Workspaceデバッガーがヘルプメニューに追加され、よりシームレスに有効化してWorkspaceリクエストをデバッグできるようになりました。 [詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020 年 2 月 19 日 | [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 変数を追加しました。 |
@@ -132,7 +131,7 @@ ht-degree: 64%
 | 2019 年 7 月 23 日 | [Analysis Workspace テンプレート](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)ドキュメントに Magento：マーケティングとコマーステンプレートが追加されました。 |
 | 2019 年 7 月 19 日 | [コホートテーブル設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)が更新されました。 |
 | 2019 年 7 月 19 日 | Workspaceの左側のレールに、過去18ヶ月の項目を表示するオプションが&#x200B;_追加されました。_ 以前は、ルックバック期間は最大 6 ヶ月でした。これにより、昨年のページやキャンペーンとの比較が簡単になります（最大 18 ヶ月前）。 |
-| 2019 年 7 月 19 日 | [&quot;Workspaceテンプレートと呼ばれる新しいWorkspaceMagento:Marketing &amp; Commerce」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)からAnalysis Workspace。 Magento e コマースのお客様向けに特別に設計されたものですが、小売業者のお客様は独自のインサイトを業務に役立てることができます。 |
+| 2019 年 7 月 19 日 | [&quot;Workspaceテンプレートと呼ばれる新しいWorkspaceMagento:Marketing &amp; Commerce」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja)からAnalysis Workspace。 Magento e コマースのお客様向けに特別に設計されたものですが、小売業者のお客様は独自のインサイトを業務に役立てることができます。 |
 | 2019 年 6 月 13 日（PT） | Workspaceの左側のレールの検索に、新しい標準のフィルターが追加されました。 現在表示できるもの（ディメンション、指標、承認済みなど）以外に、計算指標、顧客属性、eVar、Prop、ビデオなどの新しいフィルターが追加され、必要なコンポーネントを探すのがより簡単になります。 |
 | 2019 年 6 月 5 日 | 新しいガイド[サードパーティの分析プラットフォームから Adobe Analytics への移行](/help/technotes/ga-to-aa/home.md)が作成されました。 |
 | 2019 年 5 月 31 日 | [データフィード列リファレンス](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)が改定されました。 |
