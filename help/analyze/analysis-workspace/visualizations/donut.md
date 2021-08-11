@@ -5,7 +5,7 @@ feature: ビジュアライゼーション
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '44'
 ht-degree: 100%
 
