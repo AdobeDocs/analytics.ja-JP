@@ -6,7 +6,7 @@ feature: フリーフォームテーブル
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
 ht-degree: 100%
 
