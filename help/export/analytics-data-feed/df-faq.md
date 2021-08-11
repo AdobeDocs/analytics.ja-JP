@@ -3,10 +3,10 @@ description: データフィードに関するよくある質問（FAQ）
 keywords: データフィード;ジョブ;pre列;post列;大文字と小文字を区別
 title: データフィードに関する FAQ
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
-workflow-type: ht
-source-wordcount: '1375'
-ht-degree: 100%
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+workflow-type: tm+mt
+source-wordcount: '1440'
+ht-degree: 95%
 
 ---
 
@@ -51,6 +51,10 @@ Adobe Analytics では、ほとんどの変数は、レポートの目的で、�
 一部のスプレッドシートエディター（特に Microsoft Excel など）では、大きな数値が自動的に丸められます。`event_list` 列には、カンマで区切られた多数の数字が含まれているので、Excel で大きな数字として処理されることがあります。最後の数桁を `000` に丸めます。
 
 Adobe では、Microsoft Excel で `hit_data.tsv` ファイルを自動的に開かないことをお勧めします。代わりに、Excel のデータのインポートダイアログボックスを使用し、すべてのフィールドがテキストとして扱われていることを確認してください。
+
+## `hitid_high`、`hitid_low`、`visid_high`、`visid_low`などの列は、必ずヒットまたは訪問ごとに一意になりますか？
+
+ほとんどの場合、 `hitid_high`と`hitid_low`を連結することで、ヒットを一意に識別します。 同じ概念が、訪問の`visid_high`と`visid_low`の連結に適用されます。 ただし、処理の異常値によって2つのヒットが同じヒットIDを共有することはほとんどありません。 Adobeでは、すべてのヒットが一意であることに柔軟に依存するデータフィードワークフローを作成しないことをお勧めします。
 
 ## 一部の通信事業者のドメイン列に情報が表示されないのはなぜですか。 {#section_B7508D65370442C7A314EAED711A2C75}
 
