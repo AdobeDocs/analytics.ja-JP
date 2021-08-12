@@ -3,10 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2132'
-ht-degree: 100%
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+workflow-type: tm+mt
+source-wordcount: '2171'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,12 @@ JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートで�
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/code-manager-admin.md)でダウンロードできます。
+
+## バージョン 2.22.1
+
+リリース日：**2021 年 8 月 12 日（PT）**
+
+* オプトアウトを使用しているお客様は、リンクを追跡する際に、サーバー側転送のオプトアウトパラメーターが適用されない場合があります。 このリリースの修正では、リンクのトラッキング時にオプトアウトフラグが存在する場合、オプトアウトフラグが送信される問題を修正しました。
 
 ## バージョン 2.22.0
 
@@ -248,7 +254,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 ## バージョン 1.6.2
 
-リリース日：**2016 年 7 月 22 日**
+リリース日：**2016 年 7 月 21 日（PT）**
 
 * 訪問者 API 1.6.0 を同梱しました。
 * [!DNL AppMeasurement] が訪問者 API の不適切な不明化されたメソッドを呼び出してしまう問題を修正しました。（AN-126006）
@@ -291,7 +297,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 ## バージョン 1.5.1
 
-リリース日：**2015 年 9 月 18 日**
+リリース日：**2015 年 9 月 17 日（PT）**
 
 * Visitor API 1.5.2 を同梱しました。
 * [!DNL Audience Manager] モジュールが更新され、AAM DIL 6.2 を使用できるようになりました。VisitorAPI.js から getCustomerIDs を実行し、/event 呼び出しで AAM に渡します。（AN-104978）
@@ -425,7 +431,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2013 年 11 月 15 日**
 
 * [ハードビートビデオ指標](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)のサポートを追加しました。
-* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 
@@ -448,7 +454,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 ## バージョン 1.0.2
 
-リリース日：**2013 年 7 月 19 日**
+リリース日：**2013 年 7 月 18 日（PT）**
 
 * 自動リンク追跡でハッシュ／フラグメントが無視されるようになりました。以前は、次の URL が自動的にダウンロードリンクとして追跡されていました。これは、`href` 全体が `.pdf` で終わるためです。
 
