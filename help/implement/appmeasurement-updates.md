@@ -3,7 +3,7 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 98%
@@ -20,7 +20,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.22.1
 
-リリース日：**2021 年 8 月 12 日（PT）**
+リリース日：**2021 年 8 月 17 日（PT）**
 
 * オプトアウトを使用しているお客様は、リンクを追跡する際に、サーバー側転送のオプトアウトパラメーターが適用されない場合があります。 このリリースの修正では、リンクのトラッキング時にオプトアウトフラグが存在する場合、オプトアウトフラグが送信される問題を修正しました。
 
