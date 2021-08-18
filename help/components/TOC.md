@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 99%
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
 
@@ -195,10 +195,11 @@ ht-degree: 99%
       + [計算指標の合計](c-calcmetrics/cm-totals.md)
 + 仮想レポートスイート {#virtual-report-suites}
    + [仮想レポートスイートの概要](vrs/vrs-about.md)
-   + [仮想レポートスイートコンポーネントのキュレーション](vrs/vrs-components.md)
+   + [仮想レポートスイート — コンポーネントのキュレーション](vrs/vrs-components.md)
    + [Mobile Services の VRS サポート](vrs/vrs-mobile-services.md)
    + [コンテキスト対応セッション](vrs/vrs-mobile-visit-processing.md)
    + [レポート時間処理](vrs/vrs-report-time-processing.md)
+   + [A4Tに関する考慮事項](vrs/vrs-a4t.md)
    + [VRS FAQ](vrs/vrs-faq.md)
    + [VRS とグローバル／マルチスイートタグ付けに関する考慮事項](vrs/vrs-considerations.md)
    + VRS のワークフロー {#vrs-workflow}
