@@ -3,9 +3,9 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analyticsドキュメントセットの主なアップデート点です。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
+source-git-commit: 3da800f4f1a2f30032cd7b1554c082526f8cf9e0
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2903'
 ht-degree: 63%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 63%
 | 日付 | 説明 |
 | --- | --- |
 | **2021年8月** |  |
+| 2021 年 8 月 18 日（PT） | [A4Tと仮想レポートスイート](/help/components/vrs/vrs-a4t.md)に関する新しいトピック |
+| 2021 年 8 月 18 日（PT） | [アトリビューションのベストプラクティス](/help/analyze/analysis-workspace/attribution/best-practices.md)に関する新しいトピック |
 | 2021 年 8 月 5 日（PT） | [繰り返しインスタンスのカウント](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)に関する新しいトピック |
 | 2021 年 8 月 5 日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートで使用できないオプションを示すために、[templates](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[browser import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)および[browser export](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)に関する分類ドキュメントが更新されました。 |
 | 2021 年 8 月 2 日（PT） | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)のリブランディングを反映するように複数のページを更新しました |
