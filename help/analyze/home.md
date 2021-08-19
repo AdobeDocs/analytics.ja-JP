@@ -4,9 +4,9 @@ description: Analysis Workspace、Adobe Analytics ダッシュボード、Activi
 feature: Workspace の基本
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '237'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -28,14 +28,13 @@ ht-degree: 100%
 
 * [Adobe Analytics ダッシュボード — 概要](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace 使用の手引き](analysis-workspace/home.md)
-* [Adobe Analytics 用プログレッシブ Web アプリ](/help/analyze/pwa/pwa.md)
 * [使用する Adobe Analytics ツールの検討](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder はじめに](report-builder/home.md)
 * [Activity Map はじめに](activity-map/activity-map.md)
 
 ## その他の Analytics ユーザーガイド
 
-[Analytics ユーザーガイド](/help/landing/home.md)
+[Analytics ユーザーガイド](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)
 
 ## 主な Analytics リソース
 
