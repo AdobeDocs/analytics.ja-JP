@@ -1,22 +1,22 @@
 ---
 description: 内部 URL フィルターは、サイト内部のリファラーを識別します。トラフィックソースレポートにデータを入力したり、内部トラフィックにフィルターをかけるのに役立ちます。
 title: 内部 URL フィルター
-feature: Admin Tools
+feature: 管理ツール
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 95%
 
 ---
 
+
 # 内部 URL フィルター
 
-**[!UICONTROL 管理者／レポートスイート／設定を編集／一般／内部 URL フィルター／フィルターを追加]**
-
 内部 URL フィルターは、サイト内部のリファラーを識別します。トラフィックソースレポートにデータを入力したり、内部トラフィックにフィルターをかけるのに役立ちます。
+
+**[!UICONTROL 管理者]** / **[!UICONTROL レポートスイート]** / **[!UICONTROL 設定を編集]** / **[!UICONTROL 一般]** / **[!UICONTROL 内部URLフィルター]**
 
 リファラー（参照元ページ）は、通常訪問者がサイトを訪問する前に表示したページです。データの歪曲を避けるために、自社の内部リファラーをフィルターして除外できます。レポートでは、[転送者](/help/components/dimensions/referrer.md)ディメンション、[参照ドメインディメンション](/help/components/dimensions/referring-domain.md)、および他のトラフィックソースディメンションからフィルターされた転送者を除外します。
 
