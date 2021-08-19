@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の分析ツールやコンポーネントに属さない有益な記事を含むナレッジベース。
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 99%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 # Analytics テクニカルノート {#technotes}
 
 + [Analytics テクニカルノート](home.md)
++ [ドキュメントの更新](doc-updates.md)
 + Adobe Analytics for Google Analytics ユーザー {#ga-to-aa}
    + [Adobe Analytics for Google Analytics ユーザーヘルプ](ga-to-aa/home.md)
    + [アカウントとレポートスイート](ga-to-aa/accounts.md)
@@ -43,12 +44,14 @@ ht-degree: 100%
    + [ブラウザーの cookie 制限の影響を軽減するオプション](cookies/cookieless.md)
 + [リスニングデータの保持期間](data-retention.md)
 + [データの除外](exclude-data.md)
++ [機能リリース](releases.md)
 + [Adobe Analytics が使用する IP とドメイン](ip-addresses.md)
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)
 + [Mobile Services の処理ルールの Adobe Analytics への移行](migrate-mobile.md)
 + [複数通貨のサポート](multicurrency.md)
 + [プライバシーの概要](privacy-overview.md)
++ [プログレッシブ Web アプリケーション](pwa.md)
 + [リダイレクトとエイリアス](redirects.md)
 + 地域データ収集 {#rdc}
    + [地域データ収集ヘルプ](rdc/regional-data-collection.md)
