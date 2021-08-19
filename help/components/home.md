@@ -2,10 +2,9 @@
 title: Analytics コンポーネントガイド
 description: Adobe Analytics が提供する様々なコンポーネントについて説明します。
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -34,11 +33,11 @@ Analytics コンポーネントは、データの分析を微調整したり、�
 
 ## その他の Analytics ユーザーガイド
 
-[Analytics ユーザーガイド](/help/landing/home.md)
+[Analytics ユーザーガイド](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)
 
 ## 主な Analytics リソース
 
 * [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Analytics フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
+* [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
+* [Experience League](https://experienceleague.adobe.com/?lang=ja#home)
