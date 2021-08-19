@@ -2,10 +2,9 @@
 title: Analytics 管理ガイド
 description: Admin Console でのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics 管理者向けの管理ヘルプです。
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '316'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
@@ -35,11 +34,11 @@ Adobe Analytics には、現在、管理者向けの以下の 2 つの領域が�
 
 ## その他の Analytics ユーザーガイド
 
-[Analytics ユーザーガイド](/help/landing/home.md)
+[Analytics ユーザーガイド](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)
 
 ## 主な Analytics リソース
 
 * [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics リソース](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Analytics フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
+* [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
+* [Experience League](https://experienceleague.adobe.com/?lang=ja#home)
