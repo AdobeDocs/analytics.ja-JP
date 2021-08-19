@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
-source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '985'
 ht-degree: 99%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 99%
 # Analytics ツールガイド {#analyze}
 
 + [Analytics ツールガイド](home.md)
++ [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace の概要](analysis-workspace/home.md)
    + [Analysis Workspace の新機能](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -273,10 +274,8 @@ ht-degree: 99%
    + [Analytics の Activity Map レポート](activity-map/activitymap-reporting-analytics.md)
    + [ブラウザー拡張のトラブルシューティング](activity-map/troubleshooting-browser-extensions.md)
    + [データ収集のトラブルシューティング](activity-map/troubleshoot-data-collection.md)
-   + [情報リソース](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Reports and Analytics の概要](reports-analytics/getting-started.md)
-   + [Adobe Analytics - 主要概念](reports-analytics/key-concepts.md)
    + レポートインターフェイスの概要 {#reporting-interface}
       + [データ収集について](reports-analytics/overview/overview-data-collection.md)
       + [レポートメニュー](reports-analytics/overview/reports-menu.md)
@@ -310,11 +309,5 @@ ht-degree: 99%
    + [Adobe Analytics ダッシュボード — 概要](mobile-app/home.md)
    + [キュレーター向けガイド](mobile-app/curator.md)
    + [エグゼクティブユーザー向けクイックスタートガイド](mobile-app/executive.md)
-+ プログレッシブ Web アプリケーション {#pwa}
-   + [プログレッシブ Web アプリケーション](pwa/pwa.md)
-+ Analytics レポート API {#analytics-reporting-api}
-   + [Analytics レポート API の概要](c-reporting-api/c-reporting-api.md)
-   + [Analytics レポート API の比較](c-reporting-api/api-comparison.md)
-   + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
-+ Labs {#tech-previews}
-   + [Labs の概要](tech-previews/overview.md)
++ [レポート API](reporting-api.md)
++ [Labs](labs.md)
