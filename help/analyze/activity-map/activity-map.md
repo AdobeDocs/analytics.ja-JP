@@ -5,9 +5,9 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '290'
 ht-degree: 97%
 
 ---
@@ -57,4 +57,3 @@ Activity Map を使用すると、様々なビューを設定することによ�
 * [Activity Map ユーザーインターフェイス](activitymap-user-interface.md)
 * [Analytics の Activity Map レポート](activitymap-reporting-analytics.md)
 * [ブラウザー拡張のトラブルシューティング](troubleshooting-browser-extensions.md)
-* [情報リソース](activitymap-info-resources.md)
