@@ -3,9 +3,9 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analyticsドキュメントセットの主なアップデート点です。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
+source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2905'
 ht-degree: 63%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 63%
 | 日付 | 説明 |
 | --- | --- |
 | **2021年8月** |  |
+| 2021 年 8 月 18 日（PT） | トップレベルの構造を改訂し、1つの[ランディングページ](https://experienceleague.adobe.com/docs/analytics.html?lang=ja)に統合しました。 |
 | 2021 年 8 月 18 日（PT） | [A4Tと仮想レポートスイート](/help/components/vrs/vrs-a4t.md)に関する新しいトピック |
 | 2021 年 8 月 18 日（PT） | [アトリビューションのベストプラクティス](/help/analyze/analysis-workspace/attribution/best-practices.md)に関する新しいトピック |
 | 2021 年 8 月 5 日（PT） | [繰り返しインスタンスのカウント](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)に関する新しいトピック |
