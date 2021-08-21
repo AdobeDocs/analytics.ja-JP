@@ -2,10 +2,10 @@
 title: getPageName
 description: 現在の Web サイトのパスから読みやすい pageName を作成します。
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 95%
+source-wordcount: '596'
+ht-degree: 83%
 
 ---
 
@@ -57,145 +57,43 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## プラグインの使用
 
-`getPageName` メソッドでは、次の引数を使用します。
+`getPageName`関数は次の引数を使用します。
 
 * **`si`**（オプション、文字列）：サイトの ID を表す文字列の先頭に挿入される ID。この値は、数値 ID またはわかりやすい名前にすることができます。設定しない場合は、デフォルトで現在のドメインが使用されます。
 * **`qv`**（オプション、文字列）：URL 内にある場合に文字列に追加されるクエリー文字列パラメーターのコンマ区切りリストです。
 * **`hv`**（オプション、文字列）：URL ハッシュに含まれるパラメーターのコンマ区切りリストです。URL 内に含まれる場合は文字列に追加されます。
 * **`de`**（オプション、文字列）：文字列の個々の部分を分割する区切り文字です。デフォルトはパイプ（`|`）です。
 
-このメソッドは、わかりやすい形式の URL を含む文字列を返します。この文字列は通常 `pageName` 変数に割り当てられますが、他の変数でも使用できます。
+この関数は、わかりやすい形式のURLを含む文字列を返します。 この文字列は通常 `pageName` 変数に割り当てられますが、他の変数でも使用できます。
 
-## 呼び出しの例
-
-### 例 1
-
-現在の URL が以下の場合、
+## 例
 
 ```js
-https://mail.google.com/mail/u/0/#inbox
-```
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "mail.example.com|mail|u|0".
+s.pageName = getPageName();
 
-次のコードが実行された場合、
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "example|mail|u|0".
+s.pageName = getPageName("example");
 
-```js
-s.pageName = getPageName()
-```
+// Given the URL https://www.example.com/, sets the page variable to "www.example.com|home".
+// When the code runs on a URL that does not contain a path, it always adds the value of "home" to the end of the return value.
+s.pageName = getPageName();
 
-s.pageName の最終値は次のようになります。
+// Given the URL https://www.example.com/, sets the page variable to "example|home".
+s.pageName = getPageName("example","","","|");
 
-```js
-s.pageName = "mail.google.com|mail|u|0";
-```
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "www.example.com|en|booking|room-booking.html".
+s.pageName = getPageName();
 
-### 例 2
-
-現在の URL が以下の場合、
-
-```js
-https://mail.google.com/mail/u/0/#inbox
-```
-
-次のコードが実行された場合、
-
-```js
-s.pageName = getPageName("gmail")
-```
-
-s.pageName の最終値は次のようになります。
-
-```js
-s.pageName = "gmail|mail|u|0";
-```
-
-### 例 3
-
-現在の URL が以下の場合、
-
-```js
-https://www.google.com/
-```
-
-次のコードが実行された場合、
-
-```js
-s.pageName = getPageName()
-```
-
-s.pageName の最終値は次のようになります。
-
-```js
-s.pageName = "www.google.com|home"
-```
-
-**注意**：パスを含まない URL でコードを実行する場合、常に戻り値の末尾に「home」の値が追加されます
-
-### 例 4
-
-現在の URL が以下の場合、
-
-```js
-https://www.google.com/
-```
-
-次のコードが実行された場合、
-
-```js
-s.pageName = getPageName("google","","","|")
-```
-
-s.pageName の最終値は次のようになります。
-
-```js
-s.pageName = "google|home"
-```
-
-### 例 5
-
-現在の URL が以下の場合、
-
-```js
-https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
-```
-
-次のコードが実行された場合、
-
-```js
-s.pageName = getPageName()
-```
-
-s.pageName の最終値は次のようになります。
-
-```js
-s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
-```
-
-ただし、代わりに次のコードを実行する場合は、
-
-```js
-s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
-```
-
-s.pageName の最終値は次のようになります。
-
-```js
-s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "example: en: booking: room-booking.html: cid=1235: arrive=05-26: numGuests=2"
+s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 ```
 
 ## 以前のバージョンからのアップグレード
 
-getPageName プラグインのバージョン 4.0 以降は、実行する Adobe Analytics の AppMeasurement オブジェクト（「s」オブジェクト）の存在に依存しません。このバージョンにアップグレードする場合は、「s」オブジェクトのインスタンスをプラグインを呼び出すコードから必ず削除してください。
-例えば、次のコードは
-
-```js
-s.pageName = s.getPageName();
-```
-
-次のように変更します。
-
-```js
-s.pageName = getPageName();
-```
+`getPageName`プラグインのバージョン4.0以降は、Adobe AnalyticsのAppMeasurementオブジェクト（`s`オブジェクト）の存在に依存しません。 このバージョンにアップグレードする場合は、`s`オブジェクトのインスタンスを呼び出しから削除して、プラグインを呼び出すコードを変更します。 例えば、`s.getPageName();`を`getPageName();`に変更します。
 
 ## バージョン履歴
 
