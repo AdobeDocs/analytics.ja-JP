@@ -2,10 +2,10 @@
 title: getValOnce
 description: Analytics 変数が 2 回続けて同じ値に設定されないようにします。
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 94%
+source-wordcount: '577'
+ht-degree: 87%
 
 ---
 
@@ -59,36 +59,27 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## プラグインの使用
 
-`getValOnce` メソッドでは、次の引数を使用します。
+`getValOnce`関数は次の引数を使用します。
 
 * **`vtc`**（必須、文字列）：以前に同じ値に設定されていたかどうかを確認する変数です。
 * **`cn`**（オプション、文字列）：確認する値を保持する Cookie の名前です。デフォルトは `"s_gvo"` です。
 * **`et`**（オプション、整数）：Cookie の有効期限（引数に応じて日単位または分単位）`ep`です。デフォルト値は `0` で、ブラウザーセッションの終わりに有効期限が切れます。
 * **`ep`**（オプション、文字列）：この引数は、`et` 引数も設定されている場合にのみ設定します。`et` 引数で有効期限を日数ではなく分単位で指定する場合は `"m"` に設定します。デフォルト値は `"d"` で、日単位で `et` 引数を設定します。
 
-`vtc` 引数と Cookie の値が一致する場合、このメソッドは空の文字列を返します。`vtc` 引数と Cookie の値が一致しない場合、このメソッドは `vtc` 引数を文字列として返します。
+`vtc`引数とCookieの値が一致する場合、この関数は空の文字列を返します。 `vtc`引数とCookieの値が一致しない場合、この関数は`vtc`引数を文字列として返します。
 
-## 呼び出しの例
-
-### 例 1
-
-この呼び出しを使用して、次の 30 日間、同じ値が連続で s.campaign に複数回渡されるのを防ぎます。
+## 例
 
 ```js
-s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
+// Prevent the same value from being passed in to the campaign variable more than once in a row for next 30 days
+s.campaign = getValOnce(s.campaign,"s_campaign",30);
+
+// Prevent the same value from being passed in to eVar2 more than once in a row for the browser session
+s.eVar2 = getValOnce(s.eVar2,"s_ev2");
+
+// Prevent the same value from being passed in to eVar8 more than once in a row for 10 minutes
+s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 ```
-
-上記の呼び出しでは、プラグインはまず、「s_campaign」Cookie に既に含まれている値と、現在の s.campaign 変数から取得されている値を比較します。一致しない場合、プラグインは「s_campaign」Cookie を s.campaign からの新しい値と同じに設定し、新しい値を返します。この比較は今後 30 日間おこなわれます。
-
-### 例 2
-
-この呼び出しを使用して、セッション全体で同じ値が設定されるのを防ぎます。
-
-```js
-s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
-```
-
-このコードは、ユーザーのセッション中に同じ値が s.eVar2 に 2 回以上連続して渡されるのを防ぎます。また、有効期限が 0 に設定されているので、（呼び出しの最後に）ep の「m」引数値も無視します。また、このコードは比較値を「s_ev2」Cookie に保存します。
 
 ## バージョン履歴
 
