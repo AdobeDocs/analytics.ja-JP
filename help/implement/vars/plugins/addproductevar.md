@@ -2,7 +2,7 @@
 title: addProductEvar
 description: マーチャンダイジング eVar を products 変数に追加します。
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 93%
@@ -74,26 +74,26 @@ function addProductEvar(en,ev,ap){var e=en,f=ev,d=ap;if("-v"===e)return{plugin:"
 ```js
 // Set a merchandising eVar to blue on the last product. The output for the products variable is ";product1;3;300,;product2;2;122,;product3;1;25;;eVar1=blue"
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
-s.addProductEvar("eVar1", "blue");
+addProductEvar("eVar1", "blue");
 
 // Set a merchandising eVar to blue on all products. The output for the products variable is ";product1;3;300;;eVar1=blue,;product2;2;122;;eVar1=blue,;product3;1;25;;eVar1=blue"
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
-s.addProductEvar("eVar1", "blue", true);
+addProductEvar("eVar1", "blue", true);
 
 // Set multiple merchandising eVars to the last product in the string. The output for the products variable is ";product1;3;300;event2=10;eVar23=large|eVar24=men|eVar1=blue,;product2;2;122,;product3;1;25;;eVar23=medium|eVar24=women|eVar1=red"
 s.products=";product1;3;300;event2=10;eVar23=large|eVar24=men|eVar1=blue,;product2;2;122,;product3;1;25";
-s.addProductEvar("eVar23", "medium");
-s.addProductEvar("eVar24", "women");
-s.addProductEvar("eVar1", "red");
+addProductEvar("eVar23", "medium");
+addProductEvar("eVar24", "women");
+addProductEvar("eVar1", "red");
 
 // Set multiple merchandising eVars to all products in the string. The output for the products variable is ";product1;3;300;event2=10;eVar23=large|eVar24=men|eVar1=blue|eVar23=medium|eVar24=women|eVar1=red,;product2;2;122;;eVar23=medium|eVar24=women|eVar1=red,;product3;1;25;;eVar23=medium|eVar24=women|eVar1=red"
 s.products=";product1;3;300;event2=10;eVar23=large|eVar24=men|eVar1=blue,;product2;2;122,;product3;1;25";
-s.addProductEvar("eVar23", "medium", true);
-s.addProductEvar("eVar24", "women", true);
-s.addProductEvar("eVar1", "red", true);
+addProductEvar("eVar23", "medium", true);
+addProductEvar("eVar24", "women", true);
+addProductEvar("eVar1", "red", true);
 
 // If the products variable is not set, the plug-in creates an empty product string correctly delimited to the merchandising eVar. The output for the products variable is ";;;;;eVar1=blue"
-s.addProductEvar("eVar1", "blue");
+addProductEvar("eVar1", "blue");
 ```
 
 ## バージョン履歴
