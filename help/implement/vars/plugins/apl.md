@@ -2,10 +2,10 @@
 title: apl（appendToList）
 description: 複数の値をサポートする変数に値を追加します。
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 96%
+source-wordcount: '695'
+ht-degree: 90%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## プラグインの使用
 
-`apl` メソッドでは、次の引数を使用します。
+`apl`関数は次の引数を使用します。
 
 * **`lv`**（必須、文字列）：新しい値を追加する項目の区切りリストを含む変数です。
 * **`vta`**（必須、文字列）：`lv` 引数の値に追加する新しい値のコンマ区切りリストです。
@@ -71,231 +71,59 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 * **`d2`**（オプション、文字列）：出力の区切り文字です。設定されていない場合のデフォルト値は、`d1` と同じ値です。
 * **`cc`**（オプション、ブール値）：チェックで大文字と小文字が区別されるかどうかを示すフラグです。`true` の場合、重複チェックでは大文字と小文字が区別されます。`false` の場合や未設定の場合、重複チェックでは大文字と小文字が区別されません。デフォルト値は `false` です。
 
-`apl` メソッドは、`lv` 引数の値に、`vta` 引数内の重複しない値を加えた値を返します。
+`apl`関数は、`lv`引数の値に、`vta`引数内の重複しない値を加えた値を返します。
 
-## 呼び出しの例
-
-### 例 1
-
-以下の条件が当てはまる場合：
+## 例
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
-次のコードが実行された場合、
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-s.events の最終値は次のとおりです。
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### 例 2
-
-以下の条件が当てはまる場合：
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
-次のコードが実行された場合、
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-s.events の最終値は次のとおりです。
-
-```js
-s.events = "event22,event23";
-```
-
-この例では、s.events に既に「event23」が含まれているので、apl 呼び出しで s.events は変更されませんでした。
-
-### 例 3
-
-以下の条件が当てはまる場合：
-
-```js
-s.events = ""; //blank value
-```
-
-次のコードが実行された場合、
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-s.events の最終値は次のとおりです。
-
-```js
-s.events = "event23";
-```
-
-### 例 4
-
-以下の条件が当てはまる場合：
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
-次のコードが実行された場合、
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
-s.prop4 の最終値は、引き続き次のとおりです。
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-ただし、s.eVar5 の最終値は次のとおりです。
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-プラグインは値を返すだけであることに注意してください。lv 引数を使用して渡された変数は、必ずしも「リセット」されるわけではありません。
-
-### 例 5
-
-以下の条件が当てはまる場合：
-
-```js
-s.prop4 = "hello|people";
-```
-
-次のコードが実行された場合、
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
-s.prop4 の最終値は次のとおりです。
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-区切り文字は、lv 引数の値と d1 および d2 引数の値の間で一貫性を保つようにしてください
-
-### 例 6
-
-以下の条件が当てはまる場合：
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
-次のコードが実行された場合、
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-s.events の最終値は次のとおりです。
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-この例は実用的ではありませんが、大文字と小文字を区別するフラグを使用する際に注意が必要であることを示しています。
-
-### 例 7
-
-以下の条件が当てはまる場合：
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
-次のコードが実行された場合、
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-s.events の最終値は次のとおりです。
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-このプラグインでは、「event23」は s.events に既に存在するので追加しません。ただし、event24 と event25 はどちらも s.events に含まれていないため追加されます。
-
-### 例 8
-
-以下の条件が当てはまる場合：
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
-次のコードが実行された場合、
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-s.linkTrackVars の最終値は次のとおりです。
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-この apl 呼び出しの最後の 3 つの引数（&quot;,&quot;,&quot;,&quot;,false）は、デフォルトの引数値と一致するので、設定する必要はありませんが、「無害」です。
-
-### 例 9
-
-以下の条件が当てはまる場合：
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
-次のコードが実行された場合、
-
-```js
-s.apl(s.events, "event23");
-```
-
-s.events の最終値は次のとおりです。
-
-```js
-s.events = "event22,event24";
-```
-
-プラグインを単独で（変数に戻り値を割り当てずに）実行しても、lv 引数を通じて渡された変数は実際には「リセット」されません。
-
-### 例 10
-
-以下の条件が当てはまる場合：
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
-次のコードが実行された場合、
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-s.list2 の最終値は次のとおりです。
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-2 つの区切り文字引数が異なるので、渡される値は最初の区切り文字引数（ ）で区切られ、2 番目の区切り文字引数（-）で結合されます。
 
 ## バージョン履歴
 
@@ -323,7 +151,7 @@ s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 
 ### 2.5（2016 年 2 月 18 日（PT））
 
-* 比較処理に `inList` メソッドを使用するようになりました。
+* 比較処理に`inList`関数を使用するようになりました。
 
 ### 2.0（2016 年 1 月 26 日（PT））
 
