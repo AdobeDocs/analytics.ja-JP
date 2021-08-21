@@ -2,10 +2,10 @@
 title: getVisitDuration
 description: 訪問者がサイトに来訪した時間を追跡します。
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '466'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## プラグインの使用
 
-`getVisitDuration` メソッドでは引数を使用しません。以下のどちらかの値を返します。
+`getVisitDuration`関数は引数を使用しません。 以下のどちらかの値を返します。
 
 * `"first hit of visit"`
 * `"less than a minute"`
@@ -66,37 +66,16 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 このプラグインは、訪問者がサイトにランディングしてから経過したミリ秒数である、「`"s_dur"`」というファーストパーティ Cookie を作成します。Cookie は、無操作状態が 30 分間続くと有効期限が切れます。
 
-## 呼び出しの例
-
-### 例 1
-
-次のコードは...
+## 例
 
 ```js
-s.eVar10 = s.getVisitDuration();
+// Always sets eVar10 to the number of minutes passed since the visitor first landed on the site
+s.eVar10 = getVisitDuration();
+
+// Checks if the events variable contains the purchase event.
+// If it does, sets eVar56 to the number of minutes between the start of the visit and the time of purchase
+if(inList(s.events, "purchase")) s.eVar56 = getVisitDuration();
 ```
-
-eVar10 を常に訪問者がサイトにランディングしてから経過した分数に設定します。
-
-### 例 2
-
-次のコードは...
-
-```js
-if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
-```
-
-inList プラグインを使用して、イベント変数に購入イベントが含まれているかどうかを確認します。その場合、eVar10 は訪問者の訪問開始から購入時刻までの分数に設定されます。
-
-### 例 3
-
-次のコードは...
-
-```js
-s.prop10 = s.getVisitDuration();
-```
-
-prop10 を常に訪問者がサイトにランディングしてから経過した分数に設定します。これは、prop10 でパスが有効になっている場合に役立ちます。「出口」指標を prop10 レポートに追加すると、訪問者がサイトを離脱するまでに訪問にかかった時間の詳細な「散布図」レポートが表示されます。
 
 ## バージョン履歴
 
