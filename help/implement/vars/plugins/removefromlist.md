@@ -2,10 +2,10 @@
 title: rfl
 description: 区切り文字で区切られた文字列から特定の値を削除します。
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 96%
+source-wordcount: '1043'
+ht-degree: 74%
 
 ---
 
@@ -62,7 +62,7 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 ## プラグインの使用
 
-`rfl` メソッドでは、次の引数を使用します。
+`rfl`関数は次の引数を使用します。
 
 * **`lv`**（必須、文字列）：区切られた値のリストを含む変数（または文字列）です。
 * **`vr`**（必須、文字列）：`lv` 引数から削除する値です。`rfl` を 1 回呼び出して複数の値を削除することをお勧めします。
@@ -70,7 +70,7 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 * **`d2`**（オプション、文字列）：戻り文字列で使用する区切り文字です。デフォルトでは、`d1` 引数と同じ値になります。
 * **`df`**（オプション、ブール値）：`true` の場合、すべてのインスタンスではなく、`lv` 引数から `vr` 引数のインスタンスのみが強制的に複製されます。未設定の場合のデフォルト値は `false` です。
 
-このメソッドを呼び出すと、`lv` 引数を含み、`vr` 引数で指定された値のインスタンス（または重複インスタンス）を一切含まない、変更された文字列が返されます。
+この関数を呼び出すと、`lv`引数を含み、`vr`引数で指定された値のインスタンス（または重複インスタンス）を一切含まない、変更された文字列が返されます。
 
 ## 呼び出しの例
 
@@ -85,7 +85,7 @@ s.events = "event22,event24,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"event24");
+s.events = rfl(s.events,"event24");
 ```
 
 s.events の最終値は次のとおりです。
@@ -105,7 +105,7 @@ s.events = "event22,event24,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"event26");
+s.events = rfl(s.events,"event26");
 ```
 
 s.events の最終値は次のとおりです。
@@ -127,7 +127,7 @@ s.events = "event22,event24,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events);
+s.events = rfl(s.events);
 ```
 
 s.events の最終値は次のとおりです。
@@ -136,7 +136,7 @@ s.events の最終値は次のとおりです。
 s.events = "";
 ```
 
-s.rfl の呼び出しで lv 引数または vr 引数が空白の場合、プラグインは何も返しません。
+`rfl`呼び出しで`lv`引数または`vr`引数が空白の場合、プラグインは何も返しません。
 
 ### 例 4
 
@@ -149,7 +149,7 @@ s.prop4 = "hello|people|today";
 次のコードが実行された場合、
 
 ```js
-s.eVar5 = s.rfl(s.prop4,"people","|");
+s.eVar5 = rfl(s.prop4,"people","|");
 ```
 
 s.prop4 の最終値は、引き続き次のようになります。
@@ -164,7 +164,7 @@ s.eVar5 の最終値は次のようになります。
 s.eVar5 = "hello|today";
 ```
 
-プラグインは値を返すだけであることに注意してください。lv 引数を使用して渡された変数は、実際には「リセット」されません。
+プラグインは値を返すだけであることに注意してください。`lv`引数を通じて渡された変数は、実際には「リセット」されません。
 
 ### 例 5
 
@@ -177,7 +177,7 @@ s.prop4 = "hello|people|today";
 次のコードが実行された場合、
 
 ```js
-s.prop4 = s.rfl(s.prop4,"people");
+s.prop4 = rfl(s.prop4,"people");
 ```
 
 s.prop4 の最終値は、引き続き次のようになります。
@@ -186,7 +186,7 @@ s.prop4 の最終値は、引き続き次のようになります。
 s.prop4 = "hello|people|today";
 ```
 
-lv 引数の値にデフォルト値と異なる区切り文字（コンマなど）が含まれている場合は、d1 引数を必ず設定してください。
+`lv`引数の値にデフォルト値（コンマ）とは異なる区切り文字が含まれている場合は、必ず`d1`引数を設定してください。
 
 ### 例 6
 
@@ -199,7 +199,7 @@ s.events = "event22,event23,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"EVenT23");
+s.events = rfl(s.events,"EVenT23");
 ```
 
 s.events の最終値は次のとおりです。
@@ -221,7 +221,7 @@ s.events = "event22,event23:12345,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"event23");
+s.events = rfl(s.events,"event23");
 ```
 
 s.events の最終値は次のとおりです。
@@ -241,7 +241,7 @@ s.events = "event22,event23:12345,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"event23:12345");
+s.events = rfl(s.events,"event23:12345");
 ```
 
 s.events の最終値は次のとおりです。
@@ -250,7 +250,7 @@ s.events の最終値は次のとおりです。
 s.events = "event22,event23:12345,event25";
 ```
 
-シリアル化や数値／通貨の構文を使用するイベントを削除する必要がある場合は、s.rfl の呼び出しでイベント自体（シリアル化／数値／通貨の値を除く）のみを指定する必要があります。
+シリアル化や数値/通貨の構文を使用するイベントを削除する必要がある場合は、`rfl`呼び出しでイベント自体（シリアル化/数値/通貨の値を除く）のみを指定する必要があります。
 
 ### 例 9
 
@@ -263,7 +263,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"event23");
+s.events = rfl(s.events,"event23");
 ```
 
 s.events の最終値は次のとおりです。
@@ -283,7 +283,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"event23", "", "",true);
+s.events = rfl(s.events,"event23", "", "",true);
 ```
 
 s.events の最終値は次のとおりです。
@@ -303,7 +303,7 @@ s.events = "event22,event23,event23,event23,event24,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"event23", "", "|",true);
+s.events = rfl(s.events,"event23", "", "|",true);
 ```
 
 s.events の最終値は次のとおりです。
@@ -323,7 +323,7 @@ s.events = "event22,event23,event24,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"event23,event24");
+s.events = rfl(s.events,"event23,event24");
 ```
 
 s.events の最終値は次のとおりです。
@@ -332,7 +332,7 @@ s.events の最終値は次のとおりです。
 s.events = "event22,event23,event24,event25";
 ```
 
-vr 引数に複数の値を設定することはできません。上の例の rfl ロジックは、最初に lv 引数（「s.events」）内の値を分割し、各区切り値を完全な vr 引数値（「event23,event24」）に一致させようとします。
+`vr`引数に複数の値を設定することはできません。 上の例の`rfl`ロジックは、最初に`lv`引数（つまりs.events）の値を分割し、各区切り値を完全な`vr`引数値(`"event23,event24"`)です。
 
 ### 例 13
 
@@ -345,8 +345,8 @@ s.events = "event22,event23,event24,event25";
 次のコードが実行された場合、
 
 ```js
-s.events = s.rfl(s.events,"event23");
-s.events = s.rfl(s.events,"event24");
+s.events = rfl(s.events,"event23");
+s.events = rfl(s.events,"event24");
 ```
 
 s.events の最終値は次のとおりです。
@@ -355,7 +355,7 @@ s.events の最終値は次のとおりです。
 s.events = "event22,event25");
 ```
 
-リストから削除する各値は、それぞれ独自の s.rfl 呼び出し内に含まれている必要があります。
+リストから削除する各値は、それぞれ別の`rfl`呼び出しに含まれている必要があります。
 
 ### 例 14
 
@@ -368,7 +368,7 @@ s.linkTrackVars = "events,eVar1,eVar2,eVar3";
 次のコードが実行された場合、
 
 ```js
-s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
+s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 ```
 
 s.linkTrackVars の最終値は次のとおりです。
@@ -377,7 +377,7 @@ s.linkTrackVars の最終値は次のとおりです。
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-この s.rfl 呼び出しの最後の 3 つの引数（&quot;,&quot;,&quot;,&quot;,false）は、デフォルトの引数値と一致するので、設定する必要はありませんが、「無害」です。
+最後の3つの引数(この`rfl`呼び出しの最後にある&quot;,&quot;,&quot;,false)は、デフォルト設定と一致するので、必ずしもそこにいる必要はありませんが、&quot;無害&quot;です。
 
 ### 例 15
 
@@ -390,7 +390,7 @@ s.events = "event22,event23,event24";
 次のコードが実行された場合、
 
 ```js
-s.rfl(s.events,"event23");
+rfl(s.events,"event23");
 ```
 
 s.events の最終値は、次のとおりです。
@@ -399,7 +399,7 @@ s.events の最終値は、次のとおりです。
 s.events = "event22,event23,event24";
 ```
 
-この場合も、プラグインが返す値は 1 つのみであることに注意してください。lv 引数を使用して渡された変数は、実際には「リセット」されません。
+この場合も、プラグインが返す値は1つのみであることに注意してください。`lv`引数を通じて渡された変数は、実際には「リセット」されません。
 
 ## バージョン履歴
 
