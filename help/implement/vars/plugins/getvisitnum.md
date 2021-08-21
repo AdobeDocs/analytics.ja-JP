@@ -2,10 +2,10 @@
 title: getVisitNum
 description: 訪問者の現在の訪問回数を追跡します。
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 96%
+source-wordcount: '684'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## プラグインの使用
 
-`getVisitNum` メソッドでは、次の引数を使用します。
+`getVisitNum`関数は次の引数を使用します。
 
 * **`rp`**（オプション、整数または文字列）：訪問回数カウンターがリセットされるまでの日数です。未設定の場合のデフォルト値は `365` です。
    * この引数が `"w"` に指定されている場合、カウンターは週の終わり（この土曜日の午後 11:59）にリセットされます。
@@ -65,89 +65,31 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
    * この引数が `"y"` に指定されている場合、カウンターは年の終わり（12 月 31 日）にリセットされます。
 * **`erp`**（オプション、ブール値）：`rp` 引数が数値の場合、この引数は訪問回数の有効期限を延長する必要があるかどうかを指定します。`true` に設定した場合、サイトへの後続のヒットによって訪問回数カウンターがリセットされます。`false` に設定した場合、サイトへの後続のヒットは、訪問回数カウンターがリセットされたときに延長されません。デフォルト値は `true` です。この引数は、`rp` 引数が文字列の場合は無効です。
 
-無操作状態が 30 分間続いたあとで訪問者がサイトに戻るたびに、訪問回数が増加します。このメソッドを呼び出すと、訪問者の現在の訪問回数を表す整数が返されます。
+無操作状態が 30 分間続いたあとで訪問者がサイトに戻るたびに、訪問回数が増加します。この関数を呼び出すと、訪問者の現在の訪問回数を表す整数が返されます。
 
 このプラグインは、「`"s_vnc[LENGTH]"`」というファーストパーティ Cookie を設定します。ここで、`[LENGTH]` は `rp` 引数に渡された値です。例：`"s_vncw"`、`"s_vncm"`、`"s_vnc365"`。Cookie の値は、週末、月末、無操作状態が 365 日間続いた後など、訪問カウンターがリセットされた日時を表す Unix タイムスタンプの組み合わせです。また、現在の訪問回数も含まれます。このプラグインは、無操作状態が 30 分間続くと `true` に設定されて有効期限が切れる、「`"s_ivc"`」Cookie を設定します。
 
-## 呼び出しの例
-
-### 例 1
-
-過去 365 日以内にサイトを訪問していない訪問者の場合、次のコードは s.prop1 を 1 の値に設定します。
+## 例
 
 ```js
-s.prop1=s.getVisitNum();
+// Sets prop4 to the visit number, storing the value in a cookie that expires in 365 days
+// The cookie value is reset only if there are 365+ days of inactivity or the visitor clears their cookies.
+s.prop4 = getVisitNum();
+
+// Sets eVar4 to the visit number, storing the value in a cookie that expires in 200 days
+// The cookie value is reset only if there are 200+ days of inactivity or the visitor clears their cookies.
+s.eVar4 = getVisitNum(200);
+
+// Sets eVar16 to the visit number, storing the value in a cookie that expires in 90 days.
+// The cookie value is reset after 90 days, regardless of how many visits that happen in those 90 days.
+s.eVar16 = getVisitNum(90,false);
+
+// Track the visit number unique to the week, month, and year, all in separate variables
+// The plug-in automatically creates three separate cookies to track these values
+s.prop1 = getVisitNum("w");
+s.prop2 = getVisitNum("m");
+s.prop3 = getVisitNum("y");
 ```
-
-### 例 2
-
-訪問者が初回訪問から 364 日以内にサイトに戻った場合、次のコードは s.prop1 を 2 に設定します。
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-この訪問者が 2 回目の訪問から 364 日以内にサイトに戻った場合、次のコードは s.prop1 を 3 に設定します。
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-### 例 3
-
-訪問者が初回訪問から 179 日以内にサイトに戻った場合、次のコードは s.prop1 を 2 に設定します。
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-ただし、この訪問者が 2 回目の訪問から 1 日以上たってからサイトに戻った場合、次のコードは s.prop1 を 1 に設定します。
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-呼び出しの 2 番目の引数が false の場合、訪問回数を「リセット」して 1 にするタイミングを決定するルーチンは、訪問者がサイトを初めて訪問した「x」日（この例では 365 日）後に、訪問回数を 1 にリセットします。
-
-2 番目の引数が true の場合（または設定されていない場合）、訪問者が「x」日間（この例では 365 日間）で無操作状態であった後にのみ訪問回数を 1 にリセットします。
-
-### 例 4
-
-現在の週（日曜日から始まる）で初めてサイトを訪問したすべての訪問者に対して、次のコードは s.prop1 を 1 に設定します。
-
-```js
-s.prop1=s.getVisitNum("w");
-```
-
-### 例 5
-
-今月（各月の初日から始まる）で初めてサイトを訪問したすべての訪問者に対して、次のコードは s.prop1 を 1 に設定します。
-
-```js
-s.prop1=s.getVisitNum("m");
-```
-
-getVisitNum プラグインでは、小売ベースのカレンダー（例：4-5-4、4-4-5 など）は考慮しません。
-
-### 例 6
-
-（1 月 1 日から始まる）今年初めてサイトを訪問したすべての訪問者に対して、次のコードは s.prop1 を 1 に設定します。
-
-```js
-s.prop1=s.getVisitNum("y");
-```
-
-### 例 7
-
-その週の訪問者の訪問回数、その月の訪問者の訪問回数、その年の訪問者の訪問回数を追跡する場合は、すべて異なる Analytics 変数内で、次のようなコードを使用する必要があります。
-
-```js
-s.prop1=s.getVisitNum("w");
-s.prop2=s.getVisitNum("m");
-s.prop3=s.getVisitNum("y");
-```
-
-この場合、プラグインは 3 つの異なる Cookie（異なる期間ごとに 1 つ）を作成し、期間ごとの個々の訪問回数を追跡します。
 
 ## バージョン履歴
 
