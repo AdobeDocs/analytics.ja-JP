@@ -2,10 +2,10 @@
 title: getTimeParting
 description: 特定のアクションが実行される時間を測定します。
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 95%
+source-wordcount: '718'
+ht-degree: 92%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## プラグインの使用
 
-`getTimeParting` メソッドでは、次の引数を使用します。
+`getTimeParting`関数は次の引数を使用します。
 
 **`t`**（オプション、推奨、文字列）：訪問者のローカル時間を変換するタイムゾーンの名前。デフォルトは UTC／GMT 時間です。有効な値の完全なリストについては、Wikipedia の [List of TZ database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)（英語）を参照してください。
 
@@ -74,7 +74,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 * `"America/Denver"`（山岳地帯）
 * `"America/Los_Angeles"`（太平洋標準時間）
 
-このメソッドを呼び出すと、次のように区切られたパイプ（`|`）を含む文字列が返されます。
+この関数を呼び出すと、次のように区切られたパイプ(`|`)を含む文字列が返されます。
 
 * 現在の年
 * 現在の月
@@ -82,55 +82,35 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 * 曜日
 * 現在の時刻（AM/PM）
 
-## 呼び出しの例
-
-### 特定のタイムゾーンの例
-
-クライアントがフランスのパリにある場合は、次のサンプルコードを使用します。
+## 例
 
 ```js
-s.eVarX = getTimeParting("Europe/Paris");
-```
+// Use the following code if the visitor resides in Paris, France
+s.eVar8 = getTimeParting("Europe/Paris");
 
-クライアントがカリフォルニア州サンノゼにある場合：
+// Use the following code if the visitor resides in San Jose, California
+s.eVar17 = getTimeParting("America/Los_Angeles");
 
-```js
-s.eVarX = getTimeParting("America/Los_Angeles");
-```
+// Use the following code if the visitor resides in Ghana.
+// Note that Ghana is in GMT time, the default time zone that the plug-in uses with no argument
+s.eVar22 = getTimeParting();
 
-クライアントがアフリカのガーナにいる場合：
-
-```js
-s.eVarX = getTimeParting();
-```
-
-ガーナは UTC／GMT タイムゾーン内です。次の例は、UTC／GMT にプラグイン引数が必要ないことを示しています。
-
-### Internet Explorer ブラウザーのアカウンティング
-
-Internet Explorer 訪問者から時間分割データを除外する場合は、次の例を使用します。IE ブラウザーから返される値は、訪問者のローカル時間にのみ含まれます。
-
-```js
-if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
+// Internet Explorer only returns the visitor's local time. Use this conditional statement to accommodate IE visitors
+if(!document.documentMode) s.eVar39 = getTimeParting("America/New_York");
 else s.eVarX = "Internet Explorer Visitors";
-```
 
-### 呼び出しの結果
-
-コロラド州デンバーからの訪問者が 2020 年 8 月 31 日（PT）午前 9 時 15 分にサイトを訪問した場合。
-
-```js
-s.eVar10 = getTimeParting("Europe/Athens");
+// Given a visitor from Denver Colorado visits a site on August 31, 2020 at 9:15 AM
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+s.eVar10 = getTimeParting("Europe/Athens");
 
-s.eVar11 = getTimeParting("America/Nome");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+s.eVar11 = getTimeParting("America/Nome");
 
-s.eVar12 = getTimeParting("Asia/Calcutta");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+s.eVar12 = getTimeParting("Asia/Calcutta");
 
-s.eVar13 = getTimeParting("Australia/Sydney");
 // Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
+s.eVar13 = getTimeParting("Australia/Sydney");
 ```
 
 ## バージョン履歴
