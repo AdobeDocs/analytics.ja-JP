@@ -2,10 +2,10 @@
 title: getTimeBetweenEvents
 description: 2 つのイベントの間隔を測定します。
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 96%
+source-wordcount: '800'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## プラグインの使用
 
-`getTimeBetweenEvents` メソッドでは、次の引数を使用します。
+`getTimeBetweenEvents`関数は次の引数を使用します。
 
 * **`ste`**（必須、文字列）：タイマー開始イベント。Analytics「タイマー開始」イベントのコンマ区切りの文字列。
 * **`rt`**（必須、ブール値）：タイマーの再開オプション。`events` 変数にタイマー開始イベントが含まれるたびにタイマーを再開する場合には、`true` に設定します。タイマー開始イベントが発生したときにタイマーを再開しない場合には、`false` に設定します。
@@ -81,54 +81,28 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`bml`**（オプション、数値）：`fmt` 引数の形式に従った丸めベンチマークの長さ。例えば、`fmt` 引数が `"s"` でこの引数が `2` である場合、戻り値は最も近い 2 秒刻みのベンチマーク値に丸められます。`fmt` 引数が `"m"` でこの引数が `0.5` である場合、戻り値は最も近い 0.5 分刻みのベンチマーク値に丸められます。
 * **`rte`**（オプション、文字列）：タイマーを削除または削除する Analytics イベントのコンマ区切りの文字列。デフォルト値は何もありません。
 
-このメソッドを呼び出すと、タイマー開始イベントとタイマー停止イベントの間の時間を表す整数が目的の形式で返されます。
+この関数を呼び出すと、タイマー開始イベントとタイマー停止イベントの間の時間を表す整数が目的の形式で返されます。
 
 ## 呼び出しの例
 
-### 例 1
-
-次のコードは...
-
 ```js
+// The timer starts or restarts when the events variable contains event1
+// The timer stops and resets when the events variable contains event2
+// The timer resets when the events variable contains event3 or the visitor closes their browser
+// Sets eVar1 to the number of seconds between event1 and event2, rounded to the nearest 2-second benchmark
 s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
+
+// The timer starts when the events variable contains event1. It does NOT restart with subsequent hits that also contain event1
+// The timer records a "lap" when the events variable contains event2. It does not stop the timer.
+// The timer resets when the events variable contains event3 or if more than 20 days pass since the timer started
+// The timer is stored in a cookie labeled "s_20"
+// Sets eVar4 to the number of hours between event1 and event2, rounded to the nearest 90-minute benchmark
+s.eVar4 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
+
+// Similar to the above timer in eVar4, except the return value is returned in seconds/minutes/hours/days depending on the timer length.
+// The timer expires after 1 day.
+s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 ```
-
-次のように動作するように設定されています。
-
-* タイマーは、s.events が event1 を含むと開始します。
-* タイマーは、s.events が event1 を含むたびに再開します。
-* タイマーは、s.events が event2 を含むと停止します。
-* タイマーは、s.events が event2 を含むたびにリセット（0 秒に戻る）されます。
-* タイマーは、s.events が event3 を含む場合や訪問者がブラウザーを閉じた場合にもリセットされます。
-* event1 から event2 までの実際の時間が記録されると、プラグインは eVar1 を設定中の 2 つのイベントの間の秒数と同じ値に設定し、最も近い 2 秒のベンチマーク（0 秒、2 秒、4 秒、10 秒、184 秒など）に丸めます。
-* タイマーが開始する前に s.events が event2 を含む場合、eVar1 は設定されません。
-
-### 例 2
-
-次のコードは...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
-```
-
-次のように動作するように設定されています。
-
-* タイマーは、s.events が event1 を含むと開始します。
-* タイマーは、s.events が event1 を含むたびに再開することはなく、元のタイマーが引き続き実行されます。
-* タイマーは、s.events が event2 を含む場合に停止しませんが、プラグインは元の event1 設定が記録されてからの時間を記録します。
-* タイマーは「s_20」という名前の Cookie に保存されます。
-* タイマーは、s.events が event3 を含む場合、またはタイマーが開始してから 20 日が経過した場合にのみリセットされます。
-* （元の）event1 から event2 までの時間が記録されると、プラグインは eVar1 を設定中の 2 つのイベントの間の時間数と同じ値に設定し、最も近い 1.5 時間のベンチマーク（0 時間、1.5 時間、3 時間、7.5 時間、478.5 時間など）に丸めます。
-
-### 例 3
-
-次のコードは...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
-```
-
-上の最初の例と同じ結果をもたらします。ただし、eVar1 の値は、タイマーの最終的な長さに応じて、秒、分、時間または日で返されます。また、このタイマーは、訪問者がブラウザーを閉じた時点ではなく、最初に設定された 1 日後に有効期限が切れます。
 
 ## バージョン履歴
 
