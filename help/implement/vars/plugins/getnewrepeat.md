@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: 新規訪問者とリピーターのアクティビティを追跡します。
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 66%
+source-wordcount: '552'
+ht-degree: 87%
 
 ---
 
@@ -57,54 +57,22 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## プラグインの使用
 
-`getNewRepeat` メソッドでは、次の引数を使用します。
+`getNewRepeat`関数は次の引数を使用します。
 
 * **`d`**（整数、オプション）：訪問者を再び `"New"` にリセットする間隔の最小日数です。この引数を設定しない場合、デフォルトで 30 日に設定されます。
 
-このメソッドは、プラグインによって設定された Cookie が存在しないか、有効期限が切れている場合の `"New"` 値を返します。プラグインによって設定された Cookie が存在する場合、および現在のヒットからの経過時間と Cookie に設定された時間が 30 分を超える場合、`"Repeat"` の値を返します。このメソッドは、訪問全体に対して同じ値を返します。
+この関数は、プラグインによって設定されたCookieが存在しないか、有効期限が切れている場合、`"New"`の値を返します。 プラグインによって設定された Cookie が存在する場合、および現在のヒットからの経過時間と Cookie に設定された時間が 30 分を超える場合、`"Repeat"` の値を返します。この関数は、訪問全体で同じ値を返します。
 
 このプラグインは、`[LENGTH]` が `d` 引数と等しい、「`"s_nr[LENGTH]"`」という名前の Cookie を使用します。Cookie には、現在時刻と訪問者の現在のステータス（`"New"` または `"Repeat"`）を表す Unix タイムスタンプが含まれます。
 
-## 呼び出しの例
-
-### 例 1
-
-次のコードは、新規訪問者の`eVar1`を`"New"`の値に設定し、訪問者のサイト訪問の残りの部分で、`eVar1`を`"New"`の値（新しい呼び出しのたび）に引き続き設定します。
+## 例
 
 ```js
+// Sets eVar1 to "New" if it is the visitor's first visit to the site, or they have not visited in at least 30 days. Otherwise, sets eVar1 to "Repeat".
 s.eVar1 = getNewRepeat();
-```
 
-### 例 2
-
-訪問者が最後に`getNewRepeat()`が呼び出されてから31分から30日までにサイトに戻った場合、次のコードは`eVar1`を`"Repeat"`の値に設定し、訪問者の残りの訪問全体を通して`eVar1`を`"Repeat"`の値に設定し続けます。
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### 例 3
-
-訪問者が最後に`getNewRepeat()`が呼び出されてから30日以上サイトを訪問していない場合、次のコードは`eVar1`を`"New"`の値に設定し、訪問者の残りの訪問全体を通じて`eVar1`を`"New"`の値に設定し続けます。
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### 例 4
-
-訪問者が最後に`getNewRepeat()`が呼び出されてから31分～ 365日（1年）にサイトに戻った場合、次のコードは`eVar1`を`"Repeat"`の値に設定し、残りの訪問では`eVar1`を`"Repeat"`の値（新しい呼び出しごと）に設定し続けます。
-
-```js
-s.eVar1 = getNewRepeat(365);
-```
-
-### 例 5
-
-訪問者が最後に`getNewRepeat()`が呼び出されてから365日（1年）以上サイトを訪問していない場合、次のコードは`eVar1`を`"New"`の値に設定し、訪問者の残りの訪問全体を通して`eVar1`を`"New"`の値に設定し続けます。
-
-```js
-s.eVar1 = getNewRepeat(365);
+// Sets eVar2 to "New" if it is the visitor's first visit to the site, or they have not visited in at least a year (365 days). Otherwise, sets eVar2 to "Repeat".
+s.eVar2 = getNewRepeat(365);
 ```
 
 ## バージョン履歴
