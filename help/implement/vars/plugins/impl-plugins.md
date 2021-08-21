@@ -2,10 +2,10 @@
 title: プラグインの概要
 description: サイトにコードを貼り付けて、新しい機能を導入します。
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 84%
+source-wordcount: '366'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,3 @@ ht-degree: 84%
 4. 実装を検証し、発行します。
 
 多くの組織では、[`doPlugins`](../functions/doplugins.md) 関数を使用してプラグインを呼び出します。この関数は必須ではありませんが、アドビでは、関数の使用をベストプラクティスと見なしています。イメージリクエストをコンパイルして送信する直前に AppMeasurement がこの関数を呼び出します。これは、いくつかのプラグインが他の Analytics 変数に依存しているので理想的です。
-
-## 非標準のトラッキングオブジェクトでのプラグインの使用
-
-プラグインは、デフォルトでは、`s` 以外のトラッキングオブジェクトに対しては機能しません 。ただし、カスタムトラッキングオブジェクトに対応するようにプラグインコードを変更できます。特定のプラグイン内で、`s` への参照をすべて目的のトラッキングオブジェクトに置き換えます。
