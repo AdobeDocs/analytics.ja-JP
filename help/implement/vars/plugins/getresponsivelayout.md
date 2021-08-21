@@ -2,10 +2,10 @@
 title: getResponsiveLayout
 description: 現在閲覧中の Web サイトのレイアウトを特定します。
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 94%
+source-wordcount: '528'
+ht-degree: 80%
 
 ---
 
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## プラグインの使用
 
-`getResponsiveLayout` メソッドでは、次の引数を使用します。
+`getResponsiveLayout`関数は次の引数を使用します。
 
 * **`ppw`**（必須、整数）：ページがスマートフォンの縦置きレイアウトからスマートフォンの横置きレイアウトに切り替わる前に、ブラウザーウィンドウに表示できる最大幅（ピクセル単位）です。
 * **`plw`**（必須、整数）：ページがスマートフォンの横置きレイアウトからタブレットベースのレイアウトに切り替わる前に、ブラウザーウィンドウに表示できる最大幅（ピクセル単位）です。
-* **`tw`**（必須、ブール値）：ページがタブレットレイアウトからデスクトップベースのレイアウトに切り替わる前に、ブラウザーウィンドウに表示できる最大幅（ピクセル単位）です。
+* **`tw`** （必須、整数）:ページがタブレットレイアウトからデスクトップベースのレイアウトに切り替わる前に、ブラウザーウィンドウに表示できる最大幅（ピクセル単位）です
 
-このメソッドを呼び出すと、2 つの部分を含む文字列が返されます。最初の部分では、ブラウザーの幅と上記の引数に応じて、次の値が使用されます。
+この関数を呼び出すと、コロン(`:`)で区切られた2つの部分を含む文字列が返されます。 文字列の最初の部分には、ブラウザーの幅と上記の引数に応じて、次のいずれかの値が含まれます。
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
@@ -73,34 +73,22 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 返される文字列の 2 番目の部分は、ブラウザーの幅と高さの寸法です。例：`"desktop layout:1243x700"`。
 
-## 呼び出しの例
-
-### 例 1
-
-以下の条件が当てはまる場合：
-
-* ブラウザーの幅が 500 ピクセルを超える場合、サイトはスマートフォンの縦置きモードからスマートフォンの横置きモードに切り替わります
-* ブラウザーの幅が 700 ピクセルを超える場合、サイトはスマートフォンの横置きモードからタブレットモードに切り替わります
-* ブラウザーの幅が 1,000 ピクセルを超える場合、サイトはタブレットモードからデスクトップモードに切り替わります
-
-次のコードは、eVar10 を、訪問者のエクスペリエンスとしての現在のレスポンシブデザインレイアウト、およびブラウザーの幅とサイズに等しく設定します。
+## 例
 
 ```js
+// A visitor accesses your site on their laptop. The browser window is maximized.
+// * Your site switches from phone portrait mode to phone landscape mode when the browser width is greater than 500 pixels
+// * Your site switches from phone landscape mode to tablet mode when the browser width is greater than 700 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1000 pixels
+// Sets eVar10 to "desktop layout:1920x937".
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
-```
 
-### 例 2
-
-以下の条件が当てはまる場合：
-
-* サイトにはスマートフォンモード、タブレットモード、デスクトップモードのみがあります
-* ブラウザーの幅が 500 ピクセルを超える場合、サイトのモードがスマートフォンモードからタブレットモードに切り替わります
-* ブラウザーの幅が 1,100 ピクセルを超える場合、サイトはタブレットモードからデスクトップモードに切り替わります
-
-次のコードは、eVar10 を、訪問者のエクスペリエンスとしての現在のレスポンシブデザインレイアウト、およびブラウザーの幅とサイズに等しく設定します。
-
-```js
-s.eVar10 = getResponsiveLayout(500, 500, 1100);
+// A visitor accesses your site on their phone.
+// * Your site has only a phone mode, a tablet mode, and a desktop mode
+// * Your site switches from phone mode to tablet mode when the browser width is greater than 800 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1,100 pixels
+// Sets eVar10 to "phone portrait layout:720x1280"
+s.eVar10 = getResponsiveLayout(800, 800, 1100);
 ```
 
 ## バージョン履歴
