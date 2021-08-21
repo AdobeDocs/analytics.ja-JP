@@ -2,10 +2,10 @@
 title: getQueryParam
 description: URL のクエリー文字列パラメーターの値を抽出します。
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 92%
+source-wordcount: '666'
+ht-degree: 76%
 
 ---
 
@@ -55,132 +55,58 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## プラグインの使用
 
-`getQueryParam` メソッドでは、次の引数を使用します。
+`getQueryParam`関数は次の引数を使用します。
 
 * **`qsp`**（必須）：URL 内で検索するクエリー文字列パラメーターのコンマ区切りリストです。大文字と小文字は区別されません。
 * **`de`**（オプション）：複数のクエリー文字列パラメーターが一致する場合に使用する区切り文字です。デフォルトでは空の文字列です。
 * **`url`**（オプション）：クエリー文字列パラメーターの値を抽出するカスタム URL、文字列、または変数です。デフォルト値は `window.location` です。
 
-このメソッドを呼び出すと、上記の引数と URL に応じた値が返されます。
+この関数を呼び出すと、上記の引数とURLに応じた値が返されます。
 
-* 一致するクエリー文字列パラメーターが見つからない場合は、空の文字列を返します。
-* 一致するクエリー文字列パラメーターが見つかった場合、このメソッドはクエリー文字列パラメーター値を返します。
-* 一致するクエリー文字列パラメーターが見つかったが値が空の場合、このメソッドは `true` を返します。
-* 一致するクエリー文字列パラメーターが複数見つかった場合、このメソッドは `de` 引数内の文字列で区切られた各パラメーター値を持つ文字列を返します。
+* 一致するクエリー文字列パラメーターが見つからない場合、この関数は空の文字列を返します。
+* 一致するクエリー文字列パラメーターが見つかった場合、この関数はクエリー文字列パラメーター値を返します。
+* 一致するクエリー文字列パラメーターが見つかったが値が空の場合、この関数は`true`を返します。
+* 一致するクエリー文字列パラメーターが複数見つかった場合、この関数は`de`引数内の文字列で区切られた各パラメーター値を持つ文字列を返します。
 
-## 呼び出しの例
-
-### 例 1
-
-現在の URL が次の場合：
+## 例
 
 ```js
-http://www.abc123.com/?cid=trackingcode1
+// Given the URL https://example.com/?cid=trackingcode
+// Sets the campaign variable to "trackingcode"
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode:123"
+s.campaign = getQueryParam('cid,ecid',':');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode123"
+s.campaign = getQueryParam('cid,ecid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123#location
+// Sets the campaign variable to "123"
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com/#location&cid=trackingcode&ecid=123
+// Sets the campaign variable to "123"
+// The plug-in replaces the URL's hash character with a question mark if a question mark doesn't exist.
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com
+// Does not set the campaign variable to a value.
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com
+// Sets the campaign variable to "trackingcode"
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid','',s.pageURL);
+
+// Given the URL https://example.com
+// Sets eVar2 to "123|trackingcode|true|300"
+s.eVar1 = "https://example.com/?cid=trackingcode&ecid=123#location&pos=300";
+s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ```
-
-次のコードは、s.campaign を「trackingcode1」に設定します。
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-### 例 2
-
-現在の URL が次の場合：
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-次のコードは、s.campaign を「trackingcode1:123456」に設定します。
-
-```js
-s.campaign=s.getQueryParam('cid,ecid',':');
-```
-
-### 例 3
-
-現在の URL が次の場合：
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-次のコードは、s.campaign を「trackingcode1123456」に設定します。
-
-```js
-s.campaign=s.getQueryParam('cid,ecid');
-```
-
-### 例 4
-
-現在の URL が次の場合：
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
-```
-
-次のコードでは、s.campaign を「123456」に設定します。
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-### 例 5
-
-現在の URL が次の場合：
-
-```js
-http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
-```
-
-次のコードでは、s.campaign を「123456」に設定します。
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-**注意：**&#x200B;疑問符が存在しない場合、プラグインは、Check のハッシュ文字の URL を疑問符に置き換えます。URL にハッシュ文字の前に疑問符が含まれている場合、プラグインは Check のハッシュ文字の URL をアンパサンドに置き換えます。
-
-### 例 6
-
-現在の URL が次で、
-
-```js
-http://www.abc123.com/
-```
-
-変数 s.testURL が次のように設定されている場合、
-
-```js
-s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
-```
-
-次のコードは、s.campaign をまったく設定しません。
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-ただし、次のコードでは、s.campaign を「trackingcode1」に設定します。
-
-```js
-s.campaign=s.getQueryParam('cid','',s.testURL);
-```
-
-**注意：** 3 つ目のパラメーターは、コードでクエリー文字列パラメーターを検索するために使用する任意の文字列／変数を指定できます。
-
-次のコードは、s.eVar2 を「123456|trackingcode1|true|300」に設定します。
-
-```js
-s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
-```
-
-* 123456 の値は、s.testURL 変数の ecid パラメーターから取得されます。
-* trackingcode1 の値は、s.testURL 変数の cid パラメーターから取得されます。
-* true の値は、s.testURL 変数内のハッシュ文字の後の場所パラメーターの存在（値以外）から取得されます。
-
-300 の値は、s.testURL 変数の pos パラメーターの値から取得されます。
 
 ## バージョン履歴
 
