@@ -2,10 +2,10 @@
 title: getTimeSinceLastVisit
 description: 2 回の訪問の間の経過時間を測定します。
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 93%
+source-wordcount: '508'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## プラグインの使用
 
-`getTimeSinceLastVisit` メソッドでは引数を使用しません。訪問者が最後にサイトに来てから経過した時間を次の形式でグループ化して返します。
+`getTimeSinceLastVisit`関数は引数を使用しません。 訪問者が最後にサイトに来てから経過した時間を次の形式でグループ化して返します。
 
 * 最後の訪問から 30 分～1 時間の時間は、最も近い 0.5 分のベンチマークに設定されます。例：`"30.5 minutes"`、`"53 minutes"`。
 * 1 時間～1 日の時間は、最も近い 0.25 時間刻みのベンチマーク値に丸められます。例：`"2.25 hours"`、`"7.5 hours"`。
@@ -70,22 +70,21 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 このプラグインは、Unix の現在の時刻のタイムスタンプに設定される、ファーストパーティ Cookie「`"s_tslv"`」を作成します。この Cookie は、無操作状態が 2 年間続くと有効期限が切れます。
 
-## 呼び出しの例
+## 例
 
-### 例 1
+```js
+// Given a visitor's first visit to the site
+// Sets prop1 to "New Visitor"
+s.prop1 = getTimeSinceLastVisit();
 
-新規訪問者がサイトを訪問し、次のコードが訪問の最初のページで実行される場合、
+// 35 minutes later, the same visitor returns
+// Sets prop1 to "35 minutes"
+s.prop1 = getTimeSinceLastVisit();
 
-```javascript
-s.prop1 = s.getTimeSinceLastVisit();
-s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
+// 4 days later, the same visitor returns
+// Sets prop1 to "4 days"
+s.prop1 = getTimeSinceLastVisit();
 ```
-
-s.prop1 の値は「新規訪問者」に設定されます。
-
-無操作状態が 35 分間続いた後に同じコードが同じドメインで実行された場合、s.prop1 の値は「35 分」に設定されます。
-
-無操作状態が 4 日間続いた後に同じコードが同じドメインで実行された場合、s.prop1 の値は「4 日間」に設定されます。
 
 ## バージョン履歴
 
