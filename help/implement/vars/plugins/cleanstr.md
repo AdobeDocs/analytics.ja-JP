@@ -2,10 +2,10 @@
 title: cleanStr
 description: 文字列から不要な文字をすべて削除または置換します。
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 75%
 
 ---
 
@@ -57,51 +57,24 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## プラグインの使用
 
-`cleanStr` メソッドでは、次の引数を使用します。
+`cleanStr`関数は次の引数を使用します。
 
 * **`str`**（必須、文字列）：HTML エンコーディング、余分な空白、タブ、またはその他の不要な文字を消去する値です。
 
-このメソッドは、不要な文字をすべて削除した `str` 引数の値を返します。
+この関数は、不要な文字をすべて削除した`str`引数の値を返します。
 
 ## 例
 
-### 例 1
-
-次を想定します（点はスペースを表し、矢印はタブ文字を表します）。
-
 ```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-次のコードを実行すると
-
-```js
+// Returns the value "this is a messystring". Note that both tabs and extra spaces are present in the original string.
+// Multiple spaces are reduced to one, while tabs are omitted entirely.
+s.eVar1 = "  this  is a      messy  string    ";
 s.eVar1 = cleanStr(s.eVar1)
+
+// This function call does not do anything because the code does not assign the returned value to a variable.
+s.eVar1 = "  this  is a      messy  string    ";
+cleanStr(s.eVar1);
 ```
-
-eVar1 は「this is a messystring」に等しく設定されます（余分なスペースとタブ文字はすべて削除されます）。
-
-### 例 2
-
-以下の条件が当てはまる場合：
-
-```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-次のコードが実行された場合、
-
-```js
-cleanStr(s.eVar1)
-```
-
-s.eVar1 の最終値は、次のとおりです。
-
-```js
-"»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-プラグインを単独で（変数に戻り値を割り当てずに）実行しても、str 引数を介して渡された変数は実際には「リセット」されません。
 
 ## バージョン履歴
 
