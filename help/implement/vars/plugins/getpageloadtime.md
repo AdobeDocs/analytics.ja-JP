@@ -2,10 +2,10 @@
 title: getPageLoadTime
 description: ページの読み込みにかかる時間を追跡します。
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 93%
+source-wordcount: '478'
+ht-degree: 88%
 
 ---
 
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## プラグインの使用
 
-`getPageLoadTime` メソッドでは引数を使用しません。このメソッドは呼び出されても、何も返されません。代わりに、次の変数を設定します。
+`getPageLoadTime`関数は引数を使用しません。 この関数を呼び出すと、何も返されません。 代わりに、次の変数を設定します。
 
 * `s._pltPreviousPage`：前のページ（読み込み時間を関連付けできます）。
 * `s._pltLoadTime`：前のページの読み込みに要した時間（秒）。
@@ -67,29 +67,22 @@ getPageLoadTime プラグインは、2 つのファーストパーティ Cookie 
 * `s_plt`：前のページの読み込みにかかった時間（秒）。ブラウザーセッションの終了時に有効期限が切れます。
 * `s_pltp` 以前の Adobe Analytics イメージリクエストで記録された `s.pageName` 変数の値。ブラウザーセッションの終了時に有効期限が切れます。
 
-## 呼び出しの例
-
-### 例 1
-
-次のコードを実行すると...
+## 例
 
 ```js
+// 1. Run the getPageLoadTime function if the pageName variable is set
+// 2. Set prop10 to the load time of the previous page
+// 3. Set eVar10 to the name of the previous page
+// 4. Set event100 to the load time (in seconds) of the previous page. A numeric event is required to capture this value.
+// You can then use event100 in calculated metrics to obtain the average page load time per page.
 if(s.pageName) s.getPageLoadTime();
 if(s._pltPreviousPage)
 {
   s.prop10 = s._pltLoadTime;
-  s.prop11 = s._pltPreviousPage
-  s.eVar10 = prop11;
+  s.eVar10 = s._pltPreviousPage
   s.events = "event100=" + s._pltLoadTime;
 }
 ```
-
-以下が起こります。
-
-* s.pageName が設定されている場合は、getPageLoadTime プラグインを実行します。
-* s.prop10 を前のページの読み込み時間に設定します。
-* s.prop11 と s.eVar10 を、前のページの名前（s.pageName に記録されているとおり）に設定します。
-* カスタムの数値イベントになる event100 を、前のページの読み込み時間と同じに設定します。この場合、カスタムイベントを使用すると、前のページのすべてのページ読み込みに関する合計時間を（すべての訪問者／訪問から）取得でき、計算指標を使用して各ページの平均ページ読み込み時間を取得できます。
 
 ## バージョン履歴
 
