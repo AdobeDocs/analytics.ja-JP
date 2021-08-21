@@ -2,10 +2,10 @@
 title: getTimeToComplete
 description: タスクの完了に要した時間を測定します。
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 95%
+source-wordcount: '571'
+ht-degree: 88%
 
 ---
 
@@ -57,51 +57,31 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## プラグインの使用
 
-`getTimeToComplete` メソッドでは、次の引数を使用します。
+`getTimeToComplete`関数は次の引数を使用します。
 
 * **`sos`**（オプション、文字列）：`"start"` をタイマーを開始する時に設定します。`"stop"` をタイマーを停止する時に設定します。デフォルト値は `"start"` です。
 * **`cn`**（オプション、文字列）：開始時間を保存する Cookie の名前です。デフォルト値は `"s_gttc"` です。
 * **`exp`**（オプション、整数）：Cookie（およびタイマー）の有効期限が切れる日数です。デフォルトは `0` で、ブラウザーセッションの終わりを表します。
 
-このメソッドを呼び出すと、`"start"` と `"stop"` の間にかかった日数、時間数、分数、秒数を含む文字列が返されます。
+この関数を呼び出すと、`"start"`アクションと`"stop"`アクションの間にかかった日数、時間数、分数、秒数を含む文字列が返されます。
 
-## 呼び出しの例
-
-### 例 1
-
-これらの呼び出しを使用して、訪問者がチェックアウトプロセスを開始してから購入するまでの時間を判断します。
-
-訪問者がチェックアウトを開始したら、タイマーを開始します。
+## 例
 
 ```js
-if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
+// Start the timer when the visitor starts the checkout
+if(s.events.indexOf("scCheckout") > -1) getTimeToComplete("start");
+
+// Stop the timer when the visitor makes the purchase and set prop1 to the time difference between stop and start
+// Sets prop1 to the amount of time it took to complete the purchase process
+if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
+
+// Simultaneously track the time it takes to complete a purchase and to fill out a registration form
+// Stores each timer in their own respective cookies so they run independently
+if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
 ```
-
-訪問者が購入をおこなったらタイマーを停止し、prop1 を停止と開始の時間差に設定します。
-
-```js
-if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
-```
-
-s.prop1 は、購入プロセスの完了に必要な時間を取り込みます。
-
-### 例 2
-
-複数のタイマーを同時に（異なるプロセスを測定するために）実行させたい場合は、cn Cookie 引数を手動で設定する必要があります。例えば、購入の完了に必要な時間を測定する場合は、次のコードを設定します。
-
-```javascript
-if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
-if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
-```
-
-ただし、登録フォームの記入に必要な時間を（同時に）測定する場合は、次のコードも実行します。
-
-```js
-if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
-if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
-```
-
-2 つ目の例では、event1 は登録プロセスの開始を取り込むためのもので、そのプロセスが完了するまでに最大 7 日かかる場合があります。event2 は、登録の完了を取り込むためのものです。s.prop2 は、登録プロセスの完了に必要な時間を取得します。
 
 ## バージョン履歴
 
