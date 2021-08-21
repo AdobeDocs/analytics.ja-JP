@@ -2,10 +2,10 @@
 title: inList
 description: 値が別の文字区切り値に含まれているかどうかを確認します。
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 95%
+source-wordcount: '557'
+ht-degree: 85%
 
 ---
 
@@ -57,96 +57,48 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## プラグインの使用
 
-`inList` メソッドでは、次の引数を使用します。
+`inList`関数は、入力に応じてブール値を返します。 次の引数を使用します。
 
 * **`lv`**（必須、文字列または配列）：検索する値の区切りリストまたは JavaScript 配列オブジェクトです。
 * **`vtc`**（必須、文字列）：検索する値です。
 * **`d`**（オプション、文字列）：`lv` 引数内の個々の値を区切るために使用する区切り文字です。設定されていない場合は、デフォルトでコンマ（`,`）が使用されます。
-* **`cc`**（オプション、ブール値）：`true` に設定した場合、大文字と小文字が区別されます。`false` に設定するか省略すると、チェックでは大文字と小文字が区別されません。デフォルト値は `false` です。
+* **`cc`** （オプション、ブール値）:またはに設定した `true` 場合、 `1`大文字と小文字が区別されます。`false` に設定するか省略すると、チェックでは大文字と小文字が区別されません。デフォルト値は `false` です。
 
-このメソッドを呼び出すと、一致が見つかった場合は `true`、見つからなかった場合は `false` が返されます。
+この関数を呼び出すと、一致が見つかった場合は`true`が返され、一致が見つからなかった場合は`false`が返されます。
 
-## 呼び出しの例
-
-### 例 1
-
-以下の条件が当てはまる場合：
+## 例
 
 ```js
-s.events="event22,event24";
-```
+// Returns true
+s.events = "event22,event24";
+if(inList(s.events,"event22")) {
+    // Code will execute
+}
 
-次のコードが実行された場合、
+// Returns false because event2 is not an exact match in the string
+s.events = "event22,event24";
+if(inList(s.events,"event2")) {
+    // Code will not execute
+}
 
-```js
-if(s.inList(s.events,"event22"))
-```
+// Returns true because of the NOT operator
+s.events = "event22,event24";
+if(!inList(s.events,"event23")) {
+    // Code will execute
+}
 
-「if」条件文は「true」になります。
-
-### 例 2
-
-以下の条件が当てはまる場合：
-
-```js
-s.events="event22,event24";
-```
-
-次のコードが実行された場合、
-
-```js
-if(s.inList(s.events,"event2"))
-```
-
-inList の呼び出しで event2 と s.events の区切り文字付き値のいずれかが完全に一致しなかったので、「if」条件文は「false」になります。
-
-### 例 3
-
-以下の条件が当てはまる場合：
-
-```js
-s.events="event22,event24";
-```
-
-次のコードが実行された場合、
-
-```js
-if(!s.inList(s.events,"event23"))
-```
-
-inList の呼び出しで、event23 と s.events の区切り文字付き値のいずれかとが完全に一致しなかったので、「if」条件文は「true」になります。（inList 変数呼び出しの最初にある「NOT」演算子に注意してください）。
-
-### 例 4
-
-以下の条件が当てはまる場合：
-
-```js
+// Returns false because of the case-sensitive check
 s.events = "event22,event23";
-```
+if(inList(s.events,"EVenT23","",true)) {
+    // Code will not execute
+}
 
-次のコードが実行された場合、
-
-```js
-if(s.inList(s.events,"EVenT23","",1))
-```
-
-「if」条件文は「false」になります。この例は実用的ではありませんが、大文字と小文字を区別するフラグを使用する際に注意が必要であることを示しています。
-
-### 例 5
-
-以下の条件が当てはまる場合：
-
-```js
+// Returns false because of a mismatched delimiter, treating "events,eVar1" as a single value
 s.linkTrackVars = "events,eVar1";
+if(inList(s.linkTrackVars,"eVar1","|")) {
+    // Code will not execute
+}
 ```
-
-次のコードが実行された場合、
-
-```js
-if(s.inList(s.linkTrackVars,"eVar1","|"))
-```
-
-「if」条件文は「false」になります。呼び出しに渡される d 引数の値（「|」）は、s.linkTrackVars 内の個々の値がパイプ文字で区切られていると想定しますが、実際には値がコンマで区切られています。この場合、プラグインは s.linkTrackVars の値全体（「events,eVar1」）と、検索する値（「eVar1」）の一致を確認しようとします。
 
 ## バージョン履歴
 
