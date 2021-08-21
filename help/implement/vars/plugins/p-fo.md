@@ -2,10 +2,10 @@
 title: p_fo（Page First Only）
 description: 特定のルーチンが 1 ページにつき 1 回だけ実行されるようにします。
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 82%
 
 ---
 
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## プラグインの使用
 
-`p_fo` メソッドでは、次の引数を使用します。
+`p_fo`関数は次の引数を使用します。
 
 * **On**（必須、文字列）：プラグインが作成する JavaScript オブジェクトの名前です（オブジェクトがまだページに存在しない場合）。
 
-オブジェクトが存在しない場合、このメソッドは `true` を返してオブジェクトを作成します。オブジェクトが既に存在する場合、このメソッドは `false` を返します。
+オブジェクトが存在しない場合、この関数は`true`を返し、オブジェクトを作成します。 オブジェクトが既に存在する場合、この関数は`false`を返します。
 
 ## 呼び出しの例
 
@@ -71,14 +71,14 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 一方、p_fo が呼び出された際に「myobject」オブジェクトが既に存在する場合、p_fo 関数は false の値を返し、条件文は false と見なされます。この場合、条件分内のコードは実行されません。
 
-```javascript
-if(s.p_fo("myobject"))
+```js
+if(p_fo("myobject"))
 {
   console.log("hello");
 }
 ```
 
-**注意：**&#x200B;新しいページオブジェクト／DOM が読み込まれる（または現在のページがリロードされる）たびに、on 引数で指定されたオブジェクトは存在しなくなり、ページの読み込みが完了した後初めて実行されたときに、p_fo プラグインは再び true を返します。
+**注意：** 新しいページオブジェクト/DOMが読み込まれるたび（または現在のページがリロードされるたび）、引数onで指定されたオブジェクトは存在しなくなるので、p_foプラグインは、ページの読み込みが完了した後に初めて実行されたときにtrueを再び返します。
 
 ## バージョン履歴
 
