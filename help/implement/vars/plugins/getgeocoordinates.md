@@ -2,10 +2,10 @@
 title: getGeoCoordinates
 description: 訪問者の geoLocation を追跡します。
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 93%
+source-wordcount: '483'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## プラグインの使用
 
-`getGeoCoordinates` メソッドでは引数を使用しません。以下のどちらかの値を返します。
+`getGeoCoordinates`関数は引数を使用しません。 以下のどちらかの値を返します。
 
 * `"geo coordinates not available"`：プラグインの実行時に利用できる地域データのないデバイスの場合。この値は、訪問の最初のヒットで一般的です。特に、訪問者が場所を追跡する際に、最初に同意する必要がある場合に使用されます。
 * `"error retrieving geo coordinates"`：プラグインがデバイスの場所を取得しようとしたときにエラーが発生した場合。
@@ -69,38 +69,29 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 このプラグインは、必要に応じて、ヒット間の座標を保存するために「`"s_ggc"`」という名前の Cookie を使用します。
 
-## 呼び出しの例
-
-### 例 1
-
-次のコードは...
+## 例
 
 ```js
-s.eVar1 = s.getGeoCoordinates();
-```
+// Sets eVar1 to one of the above return values depending on the visitor's device status.
+s.eVar1 = getGeoCoordinates();
 
-訪問者のデバイスステータスに応じて eVar1 を上記の戻り値のいずれかに設定します。
-
-### 例 2
-
-次のコードは、他のコード／アプリケーションで使用するために、緯度と経度を独自の変数 finalLatitude と finalLongitude に抽出します。
-
-```js
-var coordinates = s.getGeoCoordinates();
+// Extracts latitude and longitude into their own variables called finalLatitude and finalLongitude for use in other code/applications.
+var coordinates = getGeoCoordinates();
 if(coordinates.indexOf("latitude") > -1)
 {
   var finalLatitude = Number(coordinates.split("|")[0].trim().split("=")[1]),
   finalLongitude = Number(coordinates.split("|")[1].trim().split("=")[1]);
 }
-```
 
-ここから、例えば訪問者が自由の女神にいるかどうかなどを判断できます。
-
-```js
-if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongtude >= -74.0446 && finalLongitude <= -74.0444)
+// From there, you can determine whether a visitor is at, for example, the Statue of Liberty:
+if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongitude >= -74.0446 && finalLongitude <= -74.0444)
+{
   var visitorAtStatueOfLiberty = true;
+}
 else
+{
   var visitorAtStatueOfLiberty = false;
+}
 ```
 
 ## バージョン履歴
