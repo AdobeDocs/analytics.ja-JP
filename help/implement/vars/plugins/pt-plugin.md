@@ -2,10 +2,10 @@
 title: pt
 description: 変数のリストで関数を実行します。
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 93%
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 >
 > このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-`pt` プラグインは、Analytics 変数のリストで関数またはメソッドを実行します。例えば、[`clearVars`](../functions/clearvars.md) メソッドを毎回手動で呼び出すことなく、複数の変数に対して選択的に実行できます。その他のプラグインの一部は、正しく実行するために、このコードに依存しています。一度に複数の Analytics 変数に対して特定の関数を実行する必要がない場合や、依存するプラグインを使用しない場合は、このプラグインは必要ありません。
+`pt` プラグインは、Analytics 変数のリストで関数またはメソッドを実行します。例えば、毎回手動で関数を呼び出すことなく、複数の変数に対して[`clearVars`](../functions/clearvars.md)関数を選択的に実行できます。 その他のプラグインの一部は、正しく実行するために、このコードに依存しています。一度に複数の Analytics 変数に対して特定の関数を実行する必要がない場合や、依存するプラグインを使用しない場合は、このプラグインは必要ありません。
 
 ## Adobe Experience Platformのタグを使用したプラグインのインストール
 
@@ -57,14 +57,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## プラグインの使用
 
-`pt` メソッドでは、次の引数を使用します。
+`pt`関数は次の引数を使用します。
 
 * **`l`**（必須、文字列）：`cf` 引数に含まれる関数が実行できる変数のリストです。
 * **`de`**（オプション、文字列）：`l` 引数内の変数のリストを区切る区切り文字です。デフォルトはコンマ（`,`）です。
 * **`cf`**（必須、文字列）：`l` 引数に含まれる各変数に対して呼び出される AppMeasurement オブジェクトに含まれるコールバック関数の名前です。
 * **`fa`**（オプション、文字列）：`cf` 引数内の関数が実行時に追加の引数を呼び出す場合は、ここに含めます。デフォルト値は `undefined` です。
 
-このメソッドを呼び出すと、（`cf` 引数内の）コールバック関数が値を返す場合に値が返されます。
+この関数を呼び出すと、（`cf`引数内の）コールバック関数が値を返す場合に値が返されます。
 
 ## 呼び出しの例
 
@@ -72,7 +72,7 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 次のコードは getQueryParam プラグインの一部です。URL のクエリー文字列（fullQueryString）に含まれる各キーと値のペアに対して、getParameterValue ヘルパー関数を実行します。また、各キーと値のペアを抽出するには、fullQueryString をアンパサンド「&amp;」で区切る必要があります。parameterKey は、プラグインがクエリー文字列から抽出しようとしているクエリー文字列パラメーターを参照します。
 
-```javascript
+```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
@@ -84,7 +84,7 @@ var returnValue = "",
   parametersLength = parameters.length;
 for(var i = 0; i < parametersLength; i++)
 {
-  returnValue = s.getParameterValue(parameters[i], parameterKey);
+  returnValue = getParameterValue(parameters[i], parameterKey);
   if(returnValue !== "") break;
 }
 ```
