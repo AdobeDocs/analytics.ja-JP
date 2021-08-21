@@ -2,10 +2,10 @@
 title: getPercentPageViewed
 description: 訪問者が閲覧したページの割合を取得します。
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 84%
 
 ---
 
@@ -55,59 +55,46 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 ## プラグインの使用
 
-`getPercentPageViewed` メソッドでは、次の引数を使用します。
+`getPercentPageViewed`関数は次の引数を使用します。
 
 * **`pid`**（オプション、文字列）：プラグインの測定値によって提供される割合と相関させることができるページベースの識別子です。デフォルトで `pageName` 変数に設定されます。
 * **`ch`**（オプション、ブール値）：初回読み込み後にページのサイズに対しておこなわれた変更を考慮しない場合は、`false`（または `0`）に設定します。省略した場合、この引数はデフォルトで `true` になります。ほとんどの場合、この引数は省略することをお勧めします。
 
-このメソッドを呼び出すと、何も返されません。代わりに、次の変数が設定されます。
+この関数を呼び出すと、何も返されません。代わりに、次の変数を設定します。
 
 * `s._ppvPreviousPage`：表示された前のページの名前。現在のページの最終的なスクロール値は、新しいページが読み込まれるまで使用できません。
-* `s._ppvHighestPercentViewed`：訪問者が閲覧した前のページの最高閲覧率（ページの高さ）。訪問者が前のページを下にスクロールした最も遠いポイント。
-* `s._ppvInitialPercentViewed`：前のページで、最初の読み込み時に表示された割合。
+* `s._ppvHighestPercentViewed`：訪問者が閲覧した前のページの最高閲覧率（ページの高さ）。訪問者が前のページを下にスクロールした最も遠いポイント。ページが最初に読み込まれたときにページ全体が表示されている場合、この値は`100`です。
+* `s._ppvInitialPercentViewed`：前のページで、最初の読み込み時に表示された割合。ページが最初に読み込まれたときにページ全体が表示されている場合、この値は`100`です。
 * `s._ppvHighestPixelsSeen`：前のページで、訪問者が下にスクロールしたときに表示された合計ピクセル数の最高値（高さが基準）。
-* `s._ppvFoldsSeen`：前のページで、訪問者が下にスクロールしたときに表示された「ページの折り目」の最高値（高さが基準）。この変数には、「ページの先頭」の折り目が含まれます。
-* `s._ppvFoldsAvailable`：前のページで下にスクロールできる「ページの折り目」の合計数です。
+* `s._ppvFoldsSeen`：前のページで、訪問者が下にスクロールしたときに表示された「ページの折り目」の最高値（高さが基準）。この変数には、「ページの先頭」の折り目が含まれます。ページが最初に読み込まれたときにページ全体が表示されている場合、この値は`1`です。
+* `s._ppvFoldsAvailable`：前のページで下にスクロールできる「ページの折り目」の合計数です。ページが最初に読み込まれたときにページ全体が表示されている場合、この値は`1`です。
 
 これらの変数の 1 つ以上を eVar に割り当てて、レポート内のディメンションデータを表示します。
 
 このプラグインは、上記の値を含む、`s_ppv` という名前のファーストパーティ Cookie を作成します。ブラウザーセッションの終わりに有効期限が切れます。
 
-## 呼び出しの例
-
-### 例 1
-
-次のコードは...
+## 例
 
 ```js
-if(s.pageName) s.getPercentPageViewed();
-if(s._ppvPreviousPage)
+// 1. Runs the getPercentPageViewed function if the page variable is set
+// 2. Sets prop1 to the previous value of the page variable
+// 3. Sets prop2 to the highest percent viewed, the intial percent, the number of folds viewed, and total number of folds of the previous page
+if(s.pageName) getPercentPageViewed();
+if(_ppvPreviousPage)
 {
-  s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop1 = _ppvPreviousPage;
+  s.prop2 = "highestPercentViewed=" + _ppvHighestPercentViewed + " | initialPercentViewed=" + _ppvInitialPercentViewed + " | foldsSeen=" + _ppvFoldsSeen + " | foldsAvailable=" + _ppvFoldsAvailable;
 }
-```
 
-* s.pageName が設定されているかどうかを判断し、設定されている場合、コードは getPercentPageViewed 関数を実行します
-* getPercentPageViewed 関数を実行すると、上記の「戻り値」の節で説明した変数が作成されます
-* 「戻り値」変数が正常に設定された場合：
-   * コードは s.prop1 を s._ppvPreviousPage の値（つまり、s.pageName の前の値、または前のページ）に設定します
-   * また、s.prop2 には、訪問者が閲覧した折り目の数と利用可能な折り目の数と共に、前のページの「最高閲覧率」と「初期閲覧率」に等しい値が設定されます
-
-**注意**：ページを最初に読み込むときにページ全体が表示される場合、「最高閲覧率」ディメンションと「初期閲覧率」ディメンションの両方が 100 になり、「閲覧された折り目」と「利用可能な折り目」の両方が 1 になります。ページが最初に読み込まれたときにページ全体が表示されず、訪問者が次のページに進む前にページをスクロールしなかった場合、「最高閲覧率」ディメンションと「初期閲覧率」ディメンションの両方が同じ値になります。
-
-### 例 2
-
-ページ名全体ではなくロールアップされた「ページタイプ」を取り込むため、s.prop5 が別途設定されているとします。
-
-次のコードは、s.prop5 が設定されているかどうかを判別し、設定されている場合はその値を「前のページ」として保存して、「最高閲覧率」ディメンションと「初期閲覧率」ディメンションを関連付けます。この値は s._ppvPreviousPage 変数に保存されたままですが、前のページ名の代わりに前のページタイプとして扱うことができます。
-
-```js
-if(s.prop5) s.getPercentPageViewed(s.prop5);
-if(s._ppvPreviousPage)
+// Given prop5 operates as a page type variable:
+// 1. Runs the getPercentPageViewed function if prop5 has a value
+// 2. Sets prop1 to the previous value of the page variable
+// 3. Sets prop2 to the highest percent viewed and the initial percent viewed.
+if(s.prop5) getPercentPageViewed(s.prop5);
+if(_ppvPreviousPage)
 {
-  s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed;
+  s.prop1 = _ppvPreviousPage;
+  s.prop2 = "highestPercentViewed = " + _ppvHighestPercentViewed + " | initialPercentViewed=" + _ppvInitialPercentViewed;
 }
 ```
 
