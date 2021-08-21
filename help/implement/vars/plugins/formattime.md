@@ -2,10 +2,10 @@
 title: formatTime
 description: 秒数を分単位、時間単位などで同等の値に変換します。
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## プラグインの使用
 
-`formatTime` メソッドでは、次の引数を使用します。
+`formatTime`関数は次の引数を使用します。
 
 * **`ns`**（必須、整数）：変換または書式設定する秒数です。
 * **`tf`**（オプション、文字列）：秒を返す形式のタイプで、デフォルトは秒です。
@@ -67,7 +67,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
    * 秒単位の時間を求める場合には `"s"` に設定します（デフォルトでは最も近い 5 秒刻みのベンチマーク値に丸められます）。
 * **`bml`**（オプション、数値）：丸めベンチマークの長さです。デフォルトでは、`tf` 引数にリストされたベンチマークです。
 
-このメソッドは、`tf` 引数で指定した単位を使用して形式設定された秒数を返します。`tf` 引数が設定されていない場合：
+この関数は、`tf`引数で指定した単位を使用して形式設定された秒数を返します。 `tf` 引数が設定されていない場合：
 
 * 1 分未満の値は、最も近い 5 秒刻みのベンチマーク値に丸められます。
 * 1 分～1 時間の値は、最も近い 0.5 分刻みのベンチマーク値に丸められます。
@@ -76,81 +76,31 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## 例
 
-### 例 1
-
-次のコードは...
-
 ```js
-s.eVar1 = s.formatTime(38242);
+// Sets eVar1 to "10.5 hours".
+// 38242 seconds equals 10 hours, 37 minutes, and 22 seconds. Since the tf argument is not set, the value returned is the number of seconds converted to the nearest quarter-hour benchmark.
+s.eVar1 = formatTime(38242);
+
+// Sets eVar4 to "10.75 hours".
+// 38250 seconds equals 10 hours, 37 minutes, and 30 seconds. This value rounds up to the nearest quarter hour.
+s.eVar4 = formatTime(38250);
+
+// Sets eVar9 to "637.5 minutes".
+s.eVar9 = formatTime(38242, "m");
+
+// Sets eVar14 to "640 minutes".
+// The tf argument forces the returned value to minutes, while the bml argument forces the value to the nearest 20-minute increment.
+s.eVar14 = formatTime(38242, "m", 20);
+
+// Sets eVar2 to "126 seconds", the closest 2-second benchmark to 125 seconds.
+s.eVar2 = formatTime(125, "s", 2);
+
+// Sets eVar7 to "3 minutes", the closest 3-minute benchmark to 125 seconds.
+s.eVar7 = formatTime(125, "m", 3);
+
+// Sets eVar55 to "2.4 minutes, the closest 2/5-minute benchmark to 145 seconds.
+s.eVar55 = formatTime(145, "m", .4);
 ```
-
-は s.eVar1 を「10.5 時間」に設定します。
-
-渡された引数（38242 秒）は、10 時間 37 分 22 秒です。tf 引数がこの呼び出しに設定されておらず、経過秒数が 1 時間から 1 日の間にあるので、プラグインは最も近い 0.25 時間のベンチマークに変換された秒数を返します。
-
-### 例 2
-
-次のコードは...
-
-```js
-s.eVar1 = s.formatTime(38250);
-```
-
-は、s.eVar1 を「10.75 時間」に設定します。渡された引数（38250 秒）は、10 時間 37 分 30 秒です。この場合、最も近い 0.25 時間のベンチマークに渡された秒数を丸めると、最終値は 10.75 時間に設定されます。
-
-### 例 3
-
-次のコードは...
-
-```js
-s.eVar1 = s.formatTime(38242, "m");
-```
-
-は s.eVar1 を「637.5 分」に設定します。
-
-この場合、「m」引数は、プラグインが最も近い 0.5 分のベンチマークに秒を変換するように強制します。
-
-### 例 4
-
-次のコードは...
-
-```js
-s.eVar1 = s.formatTime(38242, "m", 20);
-```
-
-は s.eVar1 を「640 分」に設定します。
-
-tf 引数値（「m」）は秒の分への返還を強制し、bml 引数値（20）は分の最も近い 20 分のベンチマークへの丸めを強制します。
-
-### 例 5
-
-次のコードは...
-
-```js
-s.eVar1 = s.formatTime(125, "s", 2);
-```
-
-は、s.eVar1 を「126 秒」に設定します。これは、125 秒に最も近い 2 秒のベンチマークです。
-
-### 例 6
-
-次のコードは...
-
-```js
-s.eVar1 = s.formatTime(125, "m", 3);
-```
-
-は、s.eVar1 を「3 分」に設定します。これは、125 秒に最も近い 3 分のベンチマークです。
-
-### 例 7
-
-次のコードは...
-
-```js
-s.eVar1 = s.formatTime(145, "m", .4);
-```
-
-は、s.eVar1 を 「2.4 分」に設定します。これは、145 秒に最も近い 0.4 分のベンチマークです（0.4 = 2/5）。
 
 ## バージョン履歴
 
