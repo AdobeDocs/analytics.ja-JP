@@ -2,10 +2,10 @@
 title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 94%
+source-wordcount: '518'
+ht-degree: 88%
 
 ---
 
@@ -57,84 +57,51 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## プラグインの使用
 
-`addProductEvent` メソッドでは、次の引数を使用します。
+`addProductEvent`関数は次の引数を使用します。
 
 * **`en`**（必須、文字列）：`products` 変数の最後のエントリに追加するイベント。`products` 変数が空の場合、イベント（およびその値）が添付された「空白」の製品エントリが作成されます。
-* **`ev`**（必須、文字列）：`en` 引数内の数値イベントまたは通貨イベントに割り当てられる値。未設定の場合のデフォルト値は `1` です。
+* **`ev`**（必須、文字列）：`en` 引数内の数値イベントまたは通貨イベントに割り当てられる値。未設定の場合のデフォルト値は `1` です。文字列の引用符で囲まれていない数値も有効です。
 * **`ap`**（オプション、ブール値）：現在、products 変数に複数の製品エントリが含まれている場合、値が `true`（または `1`）の場合、すべての製品エントリにイベントが追加されます。未設定の場合のデフォルト値は `false` です。
 
 `addProductEvent` は何も返しません。代わりに、イベントとその値が `products` 変数に追加されます。また、このプラグインは [`events`](../page-vars/events/events-overview.md) 変数にも必要なので、イベントを自動的に追加します。
 
 ## Cookie
 
-addProductEvent プラグインは、Cookie を作成したり使用したりしません。
+`addProductEvent`関数は、Cookieを作成または使用しません。
 
-## 呼び出しの例
-
-### 例 1
-
-次のコードは、 `s.products` 変数を `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"` に設定します。
+## 例
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase";
-s.addProductEvent("event35", "25");
-```
+// Sets the products variable to ";product1;3;300,;product2;2;122,;product3;1;25;event35=25".
+// Also sets the events variable to "purchase,event35".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+s.events = "purchase";
+addProductEvent("event35", "25");
 
-また、上記のコードでは、`s.events` 変数を `"purchase,event35"` に設定します。
+// Sets the products variable to ";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+addProductEvent("event35", 25, true);
 
-### 例 2
-
-次のコードでは、`s.products` 変数を `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"` に設定します。
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25";
-s.addProductEvent("event35", 25, 1);
-```
-
-`addProductEvent` 呼び出しの 3 番目の引数が `true`（または `1`）の場合、呼び出しで指定されたイベントが各製品エントリの値に追加されます。
-
-### 例 3
-
-次のコードでは、`s.products` 変数を `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"` に設定します。
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
+// Also sets the s.events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
 s.events="purchase,event2";
-s.addProductEvent("event33", "12");
-s.addProductEvent("event34", "10");
-s.addProductEvent("event35", "15");
-```
+addProductEvent("event33", "12");
+addProductEvent("event34", "10");
+addProductEvent("event35", "15");
 
-また、上記のコードでは、`s.events` 変数を `"purchase,event2,event33,event34,event35"` に設定します。
-
-### 例 4
-
-次のコードでは、`s.products` 変数を `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"` に設定します。
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15".
+// Also sets the events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1);
-s.addProductEvent("event35", "15", 1);
+addProductEvent("event33", "12", 1);
+addProductEvent("event34", 10, 1);
+addProductEvent("event35", "15", 1);
+
+// If the products variable isn't already set, sets it to ";;;;event35=25".
+// Also appends event35 to the events variable.
+addProductEvent("event35", "25");
 ```
-
-また、上記のコードでは、`s.events` 変数を `"purchase,event2,event33,event34,event35"` に設定します。
-
->[!NOTE]
->
->呼び出しの 2 番目の引数は、整数&#x200B;**または**&#x200B;整数／数値を表す文字列です
-
-### 例 5
-
-`s.products` がまだ設定されていない場合、次のコードによって `";;;;event35=25"` に設定されます。
-
-```js
-s.addProductEvent("event35", "25");
-```
-
-上記のコードでは、 `s.events` のの末尾に `"event35"` を追加します。**または** `s.events` がまだ設定されていない場合、上記のコードセットは `s.events` を `"event35"` に設定します。
 
 ## バージョン履歴
 
