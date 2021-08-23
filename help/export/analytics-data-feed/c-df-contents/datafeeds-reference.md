@@ -6,10 +6,10 @@ title: データ列リファレンス
 feature: Reports & Analytics の基本
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3407'
-ht-degree: 99%
+source-wordcount: '3422'
+ht-degree: 98%
 
 ---
 
@@ -199,8 +199,8 @@ ht-degree: 99%
 | `state` | 状態変数。 | varchar(50) |
 | `stats_server` | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
 | `t_time_info` | 訪問者の現地時刻。形式：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Adobe Target 統合で使用されます。 | テキスト |
-| `tnt_action` | Adobe Target 統合で使用されます。 | テキスト |
+| `tnt` | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。 形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | テキスト |
+| `tnt_action` | Adobe Target 統合で使用されます。ヒットが認定されるすべてのテストを表します。 | テキスト |
 | `tnt_post_vista` | 廃止。代わりに、`post_tnt` を使用してください。 | テキスト |
 | `transactionid` | データソースを使用して後から様々なデータポイントをアップロードするための一意の識別子。[`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用して収集します。 | テキスト |
 | `truncated_hit` | イメージリクエストが切り捨てられたことを示すフラグ。部分的なヒットを受信したことを示します。<br>Y：ヒットが切り捨てられました。ヒットの一部を受信しました。<br>N：ヒットが切り捨てられませんでした。すべてのヒットを受信しました。 | char(1) |
