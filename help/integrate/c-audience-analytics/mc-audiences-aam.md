@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Audience Analytics の概要
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '460'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Audience Analytics 統合には次の主要なメリットがあります。
 ![](assets/mc-aud-dataflow.png)
 
 1. デジタルプロパティに訪問者が訪問するたびに、ヒットが収集されて Analytics に送信されます。
-1. [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)では、Analytics が受け取った各ヒットが AAM にリアルタイムで自動的に送信されます。
+1.  [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)では、Analytics が受け取った各ヒットが AAM にリアルタイムで自動的に送信されます。
 1. Audience Analytics 統合を通じて、各ヒットについて訪問者のオーディエンスメンバーシップが AAM で検索され、リアルタイムで処理するためにセグメント ID のリストが Analytics に返されます。
 
 AAM セグメントは同じヒットごとに挿入されるので、AAM で使用可能な訪問者に関するどのデータも欠落することなく、ヒットに対して最新の状態が保たれます。AppMeasurement プラグインでは、これらのセグメントを次のヒットでのみ使用できます（現在のヒットでは使用できません）。Analytics データ収集は、この点で AppMeasurement プラグインより優れています。
@@ -46,7 +46,7 @@ AAM セグメントは同じヒットごとに挿入されるので、AAM で使
 * Audience Manager と Adobe Analytics の両方のユーザーである。
 * Audience Manager 管理者である。
 * ID サービス v1.5 以降を使用している。
-* AAM および Adobe Analytics レポートスイートが、[同じ Experience Cloud 組織にマッピングされている](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
+* AAM および Adobe Analytics レポートスイートが、同じ Experience Cloud 組織にマッピングされている。
 * [サーバー側転送](/help/admin/admin/c-server-side-forwarding/ssf.md)を使用していて、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)（DIL コードなし） - AppMeasurement 1.5 以降を実装している。
 
 これらの前提条件は、[Audience Analytics ワークフロー](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)に記載されています。

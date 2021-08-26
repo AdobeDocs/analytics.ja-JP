@@ -2,11 +2,10 @@
 title: Adobe Analytics でのセッションのトラブルシューティング
 description: Adobe Analytics からログアウトする際の問題を解決する方法について説明します。
 exl-id: 191250ef-8313-47be-9717-046cce870998
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 ## プロキシによる問題
 
-アドビにリクエストを送信する際には、認証ヘッダーが使用されます。Bluecoat（現在は Symantec が所有）などの一部のプロキシは、Adobe Analytics で使用される重要な認証ヘッダー情報を除外します。認証ヘッダーが表示されない場合、セッションの有効期限が切れます。
+アドビにリクエストを送信する際には、認証ヘッダーが使用されます。Edge Secure Web Gateway（旧称Bluecoat）などの一部のプロキシは、Adobe Analyticsが使用する重要な認証ヘッダー情報を取り除きます。 認証ヘッダーが表示されない場合、セッションの有効期限が切れます。
 
 この問題を解決するには、貴社の IT 部門に依頼して、貴社のプロキシを通じて認証ヘッダーを許可することをお勧めします。
 
@@ -32,7 +31,7 @@ ht-degree: 100%
 >
 > Analytics コミュニティのメンバーは、次のリンクが役に立つと判断しましたが、これらのリンクはアドビが所有しているものではありません。コンテンツを表示する際は、この点に留意してください。
 
-Symantec のプロキシと認証ヘッダーに関する情報は、次を参照してください。
+ のプロキシと認証ヘッダーに関する情報は、次を参照してください。
 
-* [ProxySG または ASG アプライアンスでのプロキシチェーンデプロイメントにおけるアップストリームプロキシ認証を設定する](https://support.symantec.com/en_US/article.TECH246122.html)
-* [ProxySG がサーバー認証を常にアップストリームへ転送できるようにする](https://support.symantec.com/en_US/article.TECH244708.html)
+* [ProxySG または ASG アプライアンスでのプロキシチェーンデプロイメントにおけるアップストリームプロキシ認証を設定する](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [ProxySGアプライアンスの背後にあるサーバにユーザーの資格情報を転送する方法](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)

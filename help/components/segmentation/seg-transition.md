@@ -1,13 +1,13 @@
 ---
 description: セグメント化に関するよくある質問です。
 title: よくある質問
-feature: セグメント化
+feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2071'
-ht-degree: 100%
+source-wordcount: '2080'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * [連続セグメント](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を作成できます。
 * ページビューコンテナの名称が「ヒットコンテナ」に変わりました。これは、ページビューだけでなく、すべての種類のデータをセグメント化するコンテナであることを意味しています。例えば、リンクトラッキング呼び出しと、モバイル SDK からの trackAction 呼び出しは、ヒットコンテナの対象になります。このコンテナは名前が変更されただけで、機能に変更はありません。
 
-詳しくは、Digital Marketing Blog の投稿 [Improving Segmentation in Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) を参照してください。
+詳しくは、Adobeブログの「Adobe Analyticsのセグメント化の改善](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) 」の投稿を参照してください。[
 
 ## セグメントツールにアクセスする {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,9 +39,9 @@ ht-degree: 100%
 
 セグメントビルダーには、次のようにアクセスします。
 
-* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。または
+* 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン![セグメントアイコン](assets/segment_icon.png)をクリックします。 表示されるセグメントレールで、「**[!UICONTROL 追加]**」をクリックします。または
 
-* セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」 をクリックします。![](assets/add_button.png)
+* セグメントマネージャの上部で、「**[!UICONTROL + 追加]**」 をクリックします。![追加ボタン](assets/add_button.png)
 
     または
 
@@ -53,13 +53,13 @@ ht-degree: 100%
 
 * 上部のナビゲーションから **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**&#x200B;に移動します。次に、「**[!UICONTROL セグメント]**」をクリックするか、または
 
-* 既存のレポートを表示して、左側のナビゲーションでセグメントアイコン ![](assets/segment_icon.png) をクリックします。次に、「**[!UICONTROL 管理]**」をクリックします。または
+* 既存のレポートを表示し、左側のナビゲーションでセグメントアイコン![セグメントアイコン](assets/segment_icon.png)をクリックします。 次に、「**[!UICONTROL 管理]**」をクリックします。または
 
 * インターフェイス内の任意の場所でスラッシュキー「/」を押して、セグメントマネージャを検索します。
 
 **レガシーセグメントドロップダウンの移動先**
 
-Reports &amp; Analytics のセグメントドロップダウンは、より豊富な機能を備えた [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-workflow.md) インターフェイスに置き換えられ、レポートスイート全体および Adobe Analytics ソリューション全体で使用できる「汎用」セグメントを作成できます。既存のセグメントのリストを表示するには、セグメントアイコン ![](assets/segment_icon.png) をクリックします。
+Reports &amp; Analytics のセグメントドロップダウンは、より豊富な機能を備えた [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-workflow.md) インターフェイスに置き換えられ、レポートスイート全体および Adobe Analytics ソリューション全体で使用できる「汎用」セグメントを作成できます。既存のセグメントのリストを表示するには、セグメントアイコン ![ をクリックします。セグメントアイコン](assets/segment_icon.png)
 
 左側のナビゲーションとセグメントパネルが表示されます。
 
@@ -67,7 +67,7 @@ Reports &amp; Analytics のセグメントドロップダウンは、より豊�
 
 レポートスイートドロップダウンは、各レポートまたはダッシュボードの右上隅にある日付セレクターの横に移動しました。
 
-![](assets/report_suite_selector.png)
+![レポートスイートの選択](assets/report_suite_selector.png)
 
 ## 権限 {#section_648DFA3A882146C485A84ED014EEC707}
 

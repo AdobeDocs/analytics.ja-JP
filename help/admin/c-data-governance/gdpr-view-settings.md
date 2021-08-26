@@ -3,9 +3,9 @@ description: 管理ツールのデータガバナンスダイアログには、E
 title: レポートスイートのデータガバナンス設定の表示／管理
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '553'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
@@ -37,8 +37,7 @@ ht-degree: 100%
    <td colname="col1"> <p>組織のマッピング </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
-     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>マップ済み</b>：このレポートスイートは、ログインした Analytics ログイン会社として、同じ Experience Cloud 組織に既にマッピングされています。この設定のあるレポートスイートのみ、ラベル設定できます。 </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>レポートスイートをマップ</b>：このリンクをクリックすると、Experience Cloud 組織に<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html">レポートスイートをマップ</a>できます。 <p>すると、Experience Cloud 組織 – レポートスイートマッピング管理ページにリダイレクトされます。そこから、レポートスイートを検索して適切な組織に割り当てる必要があります。それが完了したら、このデータガバナンス画面に戻ります。 </p> </li> 
+     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>マップ済み</b>：このレポートスイートは、ログインした Analytics ログイン会社として、同じ Experience Cloud 組織に既にマッピングされています。この設定のあるレポートスイートのみ、ラベル設定できます。 </li>
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>別の組織にマップ済み</b>：このレポートスイートは、別の Experience Cloud 組織に既にマッピングされています。 </li> 
     </ul> </td> 
   </tr> 

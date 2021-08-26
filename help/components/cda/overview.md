@@ -2,10 +2,10 @@
 title: クロスデバイス分析
 description: デバイスデータをまとめて、デバイス中心のデータから個人中心のデータに変更します。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
-workflow-type: ht
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ CDA を使用すると、次のような質問に答えることができます�
 
 パートナーシップと透明性の精神から、クロスデバイス分析と関連した Microsoft Azure の使用について、お客様にお知らせします。アドビは Azure を使用してデバイスグラフデータを保存し、クロスデバイスでのステッチをおこないます。そのため、Adobe Analytics データは、アドビのデータ処理センターと Microsoft Azure にプロビジョニングされたアドビのインスタンスの間でやり取りされます。
 
-クロスデバイス分析の機能について詳しくは、[Journey IQ：クロスデバイス Analytics Spark ページ](http://adobe.ly/aacda)を参照してください。
+クロスデバイス分析の機能について詳しくは、[Journey IQ：クロスデバイス Analytics Spark ページ](https://adobe.ly/aacda)を参照してください。
 
 ## 前提条件
 

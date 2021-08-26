@@ -3,11 +3,10 @@ title: パケットアナライザー
 description: パケットアナライザーを使用すると、実装によってアドビのデータ収集サーバーに送信されたデータを表示できます。
 keywords: パケットスニファー、http ステータス、200、302、charles
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '664'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +33,7 @@ Analytics の要求を表示するには、「b/ss」を使用して送信要求
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin)（タグビューア） | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin)（タグビューア） | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/ja-JP/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [Tamper Data](https://addons.mozilla.org/ja-JP/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 

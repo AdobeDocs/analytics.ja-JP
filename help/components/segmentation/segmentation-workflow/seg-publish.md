@@ -1,12 +1,12 @@
 ---
 description: セグメントをオーディエンスライブラリ、Target および Audience Manager のマーケティングアクティビティで使用できます。
 title: Experience Cloud へのセグメントの公開
-feature: セグメント化
+feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1300'
 ht-degree: 100%
 
 ---
@@ -25,10 +25,8 @@ Adobe Analytics セグメントを Experience Cloud に公開すると、[!DNL A
 ## 前提条件
 
 * このセグメントの保存先となるレポートスイートが [Experience Cloud に対して有効](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=ja)になっていることを確認します。そうしないと、Experience Cloud に公開できません。
-* [Experience Cloud 組織にマッピングされた](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)レポートスイートで作業していることを確認します。
 * 組織が Experience Cloud ID を使用していることを確認します。
 * セグメントを公開する前に、管理者は [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) で製品プロファイルに[!UICONTROL セグメントの公開]権限を割り当て、製品プロファイルにユーザーを追加する必要があります。
-
 
 ## 注意点
 

@@ -2,10 +2,10 @@
 title: Advertising Analytics で広告アカウントを設定する方法
 description: 新しい広告アカウントを作成し、複数のアカウントを複数のレポートスイートにマッピングできます。
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -63,24 +63,24 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 
    >[!IMPORTANT]
    >
-   >[Experience Cloud 組織にマッピング](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)されたレポートスイートのみが選択できます。使用するレポートスイートが表示されない場合は、[Advertising Analytics のトラブルシューティング](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)を参照してください。
+   >選択できるのは、Experience Cloud組織にマッピングされたレポートスイートのみです。 使用するレポートスイートが表示されない場合は、[Advertising Analytics のトラブルシューティング](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)を参照してください。
 
    「**[!UICONTROL マッピングの設定]**」では、以下のガイドラインに従います。
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> 設定 </th> 
-      <th colname="col2" class="entry"> 説明 </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>レポートスイートのマッピング </p> </td> 
-      <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> <p><a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >使用するレポートスイートが表示されない場合、このツールを使用してレポートスイートを Experience Cloud</a> 組織にマッピングできます。 </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> 設定 </th> 
+   <th colname="col2" class="entry"> 説明 </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>レポートスイートのマッピング </p> </td> 
+   <td colname="col2"> <p>レポートスイートのマッピングにより、この検索エンジンアカウントにリンクされるレポートスイートが決まります。つまり、検索エンジンデータの送信先となるレポートスイートが決まります。 </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 保存すると、免責事項に注意事項の一覧が表示されます。この注意事項を読み、理解したことを確認してください。チェックボックスを選択して、「**[!UICONTROL OK]**」をクリックします。

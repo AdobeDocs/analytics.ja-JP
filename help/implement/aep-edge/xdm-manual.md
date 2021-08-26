@@ -2,7 +2,7 @@
 title: XDM データの Analytics への手動マッピング
 description: XDM データの Experience Platform から Adobe Analytics への手動マッピング
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Analytics が使用するために、XDM データはドット表記を使用し
           "c.a.x.environment.browserdetails.javascriptenabled": "true",
           "c.a.x.environment.type": "browser",
           "cust_hit_time_gmt": "1579781427",
-          "g": "http://example.com/home",
+          "g": "https://example.com/home",
           "gn": "home",
           "j": "1.8.5",
           "k": "Y",

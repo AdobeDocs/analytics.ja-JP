@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定などについて説明します。
-source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '723'
+ht-degree: 99%
 
 ---
 
@@ -125,7 +125,6 @@ ht-degree: 0%
    + [ブランド提携](company/co-branding-admin.md)
    + [レポートスイートを非表示](company/c-hide-report-suites.md)
    + [セキュリティマネージャー](company/security-manager.md)
-   + [「IP ログイン制限の実施」の提供終了](company/login-restrictions-eol.md)
 + レポートスイートの管理 {#manage-report-suites}
    + [レポートスイートマネージャー](c-manage-report-suites/report-suites-admin.md)
    + [ロールアップレポートスイートとグローバルレポートスイート](c-manage-report-suites/rollup-report-suite.md)

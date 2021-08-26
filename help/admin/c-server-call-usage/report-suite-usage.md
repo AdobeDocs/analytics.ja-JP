@@ -3,10 +3,10 @@ description: 「レポートスイートの使用状況」タブには、請求�
 title: レポートスイートの使用状況の表示
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->レポートスイートが [Experience Cloud 組織にリンクされて](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)いない場合、その使用状況データはこのダッシュボードには反映されません。また、請求 ID は複数の Experience Cloud 組織に関連付けることができ、組織と請求 ID の間には必ずしも 1 対 1 の関係はありません。
+>レポートスイートがExperience Cloud組織にリンクされていない場合、その使用状況データはこのダッシュボードには反映されません。 また、請求 ID は複数の Experience Cloud 組織に関連付けることができ、組織と請求 ID の間には必ずしも 1 対 1 の関係はありません。
 
 レポートスイートの使用状況ダッシュボードは、以下のように動作します。
 

@@ -3,9 +3,9 @@ description: このドキュメントでは、GDPR におけるデータ主体�
 title: Adobe Analytics と GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '613'
 ht-degree: 97%
 
 ---
@@ -46,7 +46,6 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 
 * [GDPR 関連の用語](/help/admin/c-data-governance/gdpr-terminology.md)について学びます。
 * ログイン会社名と Experience Cloud 組織をリンクさせます（まだリンクさせていない場合）。アドビカスタマーケアに問い合わせ、[組織とアカウントのリンク設定](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)についてお尋ねください。
-* データガバナンスの設定をおこなう Adobe Analytics のレポートスイートを、[Experience Cloud 組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)にマッピングします。
 * GDPR の削除要求およびアクセス要求に対応できるよう、各レポートスイートのデータ保持ポリシーを設定します。
 
    >[!NOTE]

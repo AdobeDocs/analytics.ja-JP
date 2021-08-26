@@ -3,9 +3,9 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analyticsドキュメントセットの主なアップデート点です。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2899'
 ht-degree: 63%
 
 ---
@@ -31,10 +31,10 @@ ht-degree: 63%
 | 2021 年 8 月 2 日（PT） | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)のリブランディングを反映するように複数のページを更新しました |
 | **2021 年 7 月** |  |
 | 2021 年 7 月 23 日（PT） | [マーチャンダイジングeVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)に関する新しい詳細な説明 |
-| 2021 年 7 月 15 日（PT） | 新しい[Adobe Analyticsランディングページ](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=ja)に新しいドキュメントを追加しました。 |
+| 2021 年 7 月 15 日（PT） | 新しい[Adobe Analyticsランディングページ](/help/analyze/landing.md)に新しいドキュメントを追加しました。 |
 | **2021 年 6 月** |  |
-| 2021 年 6 月 15 日（PT） | [マーケティングチャネルのベストプラクティス](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html)を更新しました |
-| 2021 年 6 月 3 日（PT） | [データフィードの実装](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en)についての詳細な説明のドキュメントと[こちら](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl)を更新しました。 |
+| 2021 年 6 月 15 日 | [マーケティングチャネルのベストプラクティス](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html)を更新しました |
+| 2021 年 6 月 3 日 | [データフィードの実装](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en)についての詳細な説明のドキュメントと[こちら](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl)を更新しました。 |
 | 2021 年 5 月 25 日（PT） | [レポートで eVar の大文字と小文字の区別](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)に関するドキュメントを更新しました。 |
 | 2021 年 5 月 13 日（PT） | [Data WarehouseAPIリクエスト](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)の更新。 現在は、「Hours」をサポートしています。 |
 | **2021 年 3 月** |  |
@@ -114,7 +114,7 @@ ht-degree: 63%
 | **2019年** |  |
 | 2020 年 12 月 19 日（PT） | デフォルトの[FTPデータ保存制限](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en)を10 GBに変更しました。 |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
-| 2019 年 11 月 26 日 | [IP ログイン制限実施の提供終了](/help/admin/company/login-restrictions-eol.md)に関する新しいトピック。 |
+| 2019 年 11 月 26 日 | IP ログイン制限実施の提供終了に関する新しいトピック. |
 | 2019 年 11 月 22 日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
 | 2019 年 11 月 22 日 | [Audience AnalyticsワークフローのFAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en)を更新し、LiveStreamでの可用性を示しました。 |
 | 2019 年 10 月 25 日（PT） | [Adobe Analyticsの主要概念](/help/technotes/terms.md)ページを更新しました。 |

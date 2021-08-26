@@ -2,12 +2,12 @@
 description: ビジュアライゼーションでデータを視覚的に表示します。
 keywords: Analysis Workspace
 title: ビジュアライゼーションの概要
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1090'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '1071'
 ht-degree: 100%
 
 ---
@@ -77,8 +77,6 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 
 1. 新しいラベルテキストを入力します。
 1. **[!UICONTROL Enter]** キーを押して保存します。
-
-このトピックに関する[ビデオへのリンクはこちら](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=ja)です。
 
 ## 右クリックメニュー {#right-click}
 

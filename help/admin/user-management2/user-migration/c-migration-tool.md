@@ -2,21 +2,21 @@
 description: Analytics ユーザー ID を Adobe Experience Cloud 内の Admin Console に移行するプロセスについて説明します。
 title: Admin Console への Analytics ユーザーの移行
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3119'
 ht-degree: 97%
 
 ---
 
 
-# Admin Console への Analytics ユーザーの移行 {#analytics-user-migration-to-the-admin-console}
+# Admin Console への Analytics ユーザーの移行{#analytics-user-migration-to-the-admin-console}
 
 Analytics ユーザー ID を Adobe Experience Cloud 内の Admin Console に移行するプロセスについて説明します。
 
 Admin Console に関する一般的な（Analytics の移行に関連しない）ヘルプについては、『[Admin Console ユーザーガイド](https://helpx.adobe.com/jp/enterprise/administering/user-guide.html)』を参照してください。
 
-移行後に、Admin Console で[Experience Cloud ユーザーおよび製品を管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)できます。
+移行後に、Admin Console で[Experience Cloud ユーザーおよび製品を管理](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja)できます。
 
 ## Analytics ユーザー ID の移行とは {#section-adbe49aba10c4e62afa836a97894107c}
 
@@ -38,7 +38,7 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>ユーザー ID および権限の管理 </p> </td> 
-   <td colname="col2"> <p>Analytics 管理者は、<a href="http://adminconsole.adobe.com/enterprise/">Admin Console</a>（http://adminconsole.adobe.com/enterprise/）でのみユーザーと権限を管理できます。 </p> </td> 
+   <td colname="col2"> <p>Analytics管理者は、<a href="https://adminconsole.adobe.com/enterprise/">Admin Console</a>でのみユーザーと権限を管理できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>製品およびコアサービスの管理 </p> </td> 
@@ -53,7 +53,7 @@ Admin Console の使用メリットには、次のようなものがあります
  </tbody> 
 </table>
 
-## ユーザー ID の移行前に知っておくべき情報（およびすべきこと）（FAQ） {#section-b0fc7f0bbd4b488e95b0c8e77ff077a9}
+## ユーザー ID の移行前に知っておくべき情報（およびすべきこと）（FAQ）  {#section-b0fc7f0bbd4b488e95b0c8e77ff077a9}
 
 移行前に考えられる質問と、それに対する回答を示します。
 
@@ -142,7 +142,7 @@ Admin Console の使用メリットには、次のようなものがあります
  </tbody> 
 </table>
 
-## 移行中に知っておくべき情報（FAQ）  {#section-d394524aa6d046d79025bbd7499792bc}
+## 移行中に知っておくべき情報（FAQ） {#section-d394524aa6d046d79025bbd7499792bc}
 
 移行プロセスに関する重要情報と、現在のユーザー管理に与える影響について説明します。
 
@@ -231,7 +231,7 @@ Admin Console の使用メリットには、次のようなものがあります
  </tbody> 
 </table>
 
-## 移行後に知っておくべき情報（FAQ）  {#section-9681baa01b8c41cdb9659b73b70b50ff}
+## 移行後に知っておくべき情報（FAQ） {#section-9681baa01b8c41cdb9659b73b70b50ff}
 
 <table id="table_F48CC9DFE3424AC9AD76A16882701C8F"> 
  <thead> 
@@ -315,7 +315,7 @@ Admin Console の使用メリットには、次のようなものがあります
 
 **本文：** Adobe Analytics ユーザーの皆様へ
 
-まもなく、すべての Adobe Analytics アカウントを [!DNL https://my.omniture.com/login/] から Adobe Experience Cloud（[experiencecloud.adobe.com](http://experiencecloud.adobe.com/)）に移行する処理を開始します。この移行に伴い、Adobe Analytics アカウントがアップグレードされ、Adobe Experience Cloud を通じて Analytics にアクセスできるようになります。Analytics にアクセスする方法は変わりますが、レポートスイートやツールに対する既存の権限はすべて維持されます。
+まもなく、すべての Adobe Analytics アカウントを [!DNL https://my.omniture.com/login/] から Adobe Experience Cloud（[experiencecloud.adobe.com](https://experiencecloud.adobe.com/)）に移行する処理を開始します。この移行に伴い、Adobe Analytics アカウントがアップグレードされ、Adobe Experience Cloud を通じて Analytics にアクセスできるようになります。Analytics にアクセスする方法は変わりますが、レポートスイートやツールに対する既存の権限はすべて維持されます。
 
 **次のステップ：**&#x200B;ユーザーの移行は  **日付の挿入**。ご利用の Analytics アカウントに登録されている電子メール ID 宛に、新しいログイン情報が記載されたウェルカムメッセージが送信されますので、そちらをご確認ください。[Adobe ID](https://helpx.adobe.com/jp/x-productkb/global/adobe-id-account-change.html) を電子メールアドレスにリンクする設定をしていない場合は、アカウントを設定するように求められます。
 

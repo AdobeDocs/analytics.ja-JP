@@ -2,7 +2,7 @@
 title: フル処理データソースのサポート終了
 description: 一括データ挿入APIとフル処理データソースの提供終了と比較の理由。
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 27%
@@ -13,7 +13,7 @@ ht-degree: 27%
 
 数年の間、フル処理データソースを使用することで、ヒットレベルのデータをAdobe Analyticsに送信できました。 このデータは、アドビのJavaScriptライブラリおよびモバイルアプリSDKで収集されたデータと同じ方法で処理されました。 2020年に、Adobeは、フル処理データソースと同じ機能を実行する[Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)をリリースしましたが、追加機能も追加されました。 このトピックでは、Bulk Data Insertion APIが提供する追加機能の詳細とファイル形式の違いの概要を説明します。
 
-2021年3月26日以降、Adobeにより、新しいフル処理データソース接続の作成が禁止されます。 サービスが2021年7月31日に完全に廃止されるまで、既存の接続は引き続きサポートされます。 アドビの標準的なドキュメントに加え、Bulk Data Insertion API](http://adobe.ly/aabdia)を使用してデータを送信するために必要な[手順のウォークスルーを提供しています。
+2021年3月26日以降、Adobeにより、新しいフル処理データソース接続の作成が禁止されます。 サービスが2021年7月31日に完全に廃止されるまで、既存の接続は引き続きサポートされます。 アドビの標準的なドキュメントに加え、Bulk Data Insertion API](https://adobe.ly/aabdia)を使用してデータを送信するために必要な[手順のウォークスルーを提供しています。
 
 ## この機能の提供終了の理由を教えてください。
 

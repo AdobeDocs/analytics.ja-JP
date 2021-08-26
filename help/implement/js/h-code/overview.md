@@ -2,10 +2,10 @@
 title: H コード JavaScript 実装の概要
 description: サイトで H コードを実装するためのワークフローについて説明します。
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -39,4 +39,4 @@ JavaScript ファイルは訪問者のブラウザーでの初回の読み込み
 
 ## H コード圧縮
 
-`s_code.js` ファイルのダウンロードサイズが問題となる場合は、GZIP を使用して `s_code.js` ファイルを圧縮することをお勧めします。GZIP はすべての主要ブラウザーでサポートされ、JavaScript 圧縮よりも高いパフォーマンスを提供します。Apache ドキュメントで [Apache Module mod_deflate](http://httpd.apache.org/docs/current/mod/mod_deflate.html) を参照してください。
+`s_code.js` ファイルのダウンロードサイズが問題となる場合は、GZIP を使用して `s_code.js` ファイルを圧縮することをお勧めします。GZIP はすべての主要ブラウザーでサポートされ、JavaScript 圧縮よりも高いパフォーマンスを提供します。Apache ドキュメントで [Apache Module mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html) を参照してください。

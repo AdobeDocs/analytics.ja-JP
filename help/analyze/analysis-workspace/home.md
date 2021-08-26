@@ -1,12 +1,12 @@
 ---
 title: Analysis Workspace の概要と使い方を教えてください。
 description: Analysis Workspace は Adobe Analytics の主要な分析ツールです。パネル、テーブル、ビジュアライゼーション、その他のコンポーネントを使用して、データを有効に活用したり、データセットをキュレーションしたり、プロジェクトを他のユーザーとの間で共有およびスケジュールしたりできます。
-feature: Workspace の基本
+feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '557'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Analysis Workspace は分析をすばやく構築してインサイトを共有�
 
 ## Adobe Analytics へのログイン {#login}
 
-Analysis Workspace の使用を開始するには、[experience.adobe.com/analytics](http://experience.adobe.com/analytics) に移動して Adobe Analytics にログインします。これまでに特定のプロジェクトを選択したことがない場合は、Workspace プロジェクトリストのホームページに移動します。
+Analysis Workspace の使用を開始するには、[experience.adobe.com/analytics](https://experience.adobe.com/analytics) に移動して Adobe Analytics にログインします。これまでに特定のプロジェクトを選択したことがない場合は、Workspace プロジェクトリストのホームページに移動します。
 
 ![](assets/login-analytics.png)
 

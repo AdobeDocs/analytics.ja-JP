@@ -1,21 +1,20 @@
 ---
-description: Selligentのdata connectorは、Adobe Analyticsと共に使用します。
+description: Adobe AnalyticsでSelligent Data Connectorを使用します。
 title: Adobe Analytics 用 Selligent Data Connector
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: baeabd9c-10bc-4733-8779-abfa81807c54
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 97%
 
 ---
 
-
-# Adobe Analytics 用 Selligent Data Connector {#selligent-data-connector-for-adobe-analytics}
+# Adobe Analytics 用 Selligent Data Connector{#selligent-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->2021年8月1日に、Adobeデータコネクタ技術の提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
+>2021年8月1日に、AdobeData Connectorテクノロジーの提供終了を予定しています。 [詳細情報...](/help/import/data-connectors/data-connectors-eol.md)
 
 この統合の主なメリットは、次のとおりです。
 
@@ -131,7 +130,7 @@ ht-degree: 97%
 
    URL は、Selligent Marketing ソリューションへのログオンに使用する URL から取得できます。URLの「/simweb/login.aspx」部分を「/automation/omniture.asmx」に置き換えます。
 
-   例：`http://<client-specific install url>/automation/omniture.asmx`
+   例：`https://<client-specific install url>/automation/omniture.asmx`
 
 * **クエリー文字列パラメーター**：ランディングページ URL に追加され、メッセージ ID および受信者 ID（訪問者 ID）を表します。メッセージ ID は常に MID、受信者 ID は RID となります。
 

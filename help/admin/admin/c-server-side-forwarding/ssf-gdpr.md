@@ -3,16 +3,16 @@ description: EU Cookieコンプライアンス規則によって促されたサ�
 title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
 # GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 
-ここでは、2017年9月30日に施行された[EU Cookieコンプライアンス規則](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)によるサーバー側転送の機能強化について説明します。
+ここでは、2017年9月30日に施行された[EU Cookieコンプライアンス規則](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookie+and+similar+technologies)によるサーバー側転送の機能強化について説明します。
 
 サーバー側転送は、Adobe Analytics から他の [!DNL Experience Cloud Solutions] ソリューション（Audience Manager など）にリアルタイムでデータを共有するために使用されます。サーバー側転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
 

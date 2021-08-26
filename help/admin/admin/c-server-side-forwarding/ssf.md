@@ -4,9 +4,9 @@ solution: Audience Manager
 title: サーバー側転送の概要
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '821'
 ht-degree: 94%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 94%
 
 ## ![step1_icon.png image](assets/step1_icon.png) ECID サービス実装の確認
 
-[Analytics トラッキングリクエスト](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html)を調べて、Experience Cloud ID（ECID）サービスが実装されているかどうかを確認します。
+[Analytics トラッキングリクエスト](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=ja)を調べて、Experience Cloud ID（ECID）サービスが実装されているかどうかを確認します。
 
 「リクエスト」タブで、ECID 値が設定されていることを確認します。これで、サーバー側転送の前提条件である ID サービスが適切に実装されていることがわかります。
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
    * **DIL を使用している AAM のお客様**：以下の 2 つの項目を緊密に連携および調整します。
 
-      1. DIL コードを削除し、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)ページのコードをインストールします。
+      1. DIL コードを削除し、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)ページのコードをインストールします。
       1. 手順 3 の説明に従って、Analytics 管理 UI でサーバー側転送を有効にします。DIL コードを削除する前にこの設定を有効にすると、データが複製され、Audience Manager に対する追加の請求対象サーバーコールが作成されます。
    * **AAM の新しいお客様** - Audience [Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)ページのコードをインストールし、手順 3 に進みます。手順 3 でサーバー側転送を有効にするまでは、データは Audience Manager に送信されません。
 
@@ -64,10 +64,10 @@ ht-degree: 94%
 
 **Analytics**／**管理者**／**レポートスイート**／（**レポートスイート**&#x200B;を選択）／**設定を編集**／**一般**／**サーバー側転送**&#x200B;に移動します。このチェックボックスが
 
-* **非アクティブ**&#x200B;の場合（項目を選択できないか、メニューが存在しない場合）：選択されているレポートスイートは Experience Cloud Organization にマップされていません。[レポートスイートマッピング UI](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) を使用して、該当するレポートスイートを適切な IMS Org にマップしてください。
+* **非アクティブ** （選択できないか、メニューが存在しません）:選択したレポートスイートがIMS組織にマッピングされていません。カスタマーケアに連絡して、レポートスイートが正しくマッピングされていることを確認してください。
 * **無効**：新しいサーバー側転送を有効にしていません。ページのコンテンツを読んで、機能を有効にしてください。
 * **有効**：新しいサーバー側転送がプロビジョニングされています。この Audience Analytics 統合をセットアップすることもできます。
 
 >[!NOTE]
 >
->3 つの手順をすべて実行するまでは、データは他の Experience Cloud ソリューション（[Audience Manager](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.translate.html) や [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) など）に表示されません。有効にした後、これらの設定が反映されるまでに数時間かかります。
+>3 つの手順をすべて実行するまでは、データは他の Experience Cloud ソリューション（[Audience Manager](https://docs.adobe.com/content/help/ja-JP/experience-cloud/user-guides/home.html) や [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja) など）に表示されません。有効にした後、これらの設定が反映されるまでに数時間かかります。
