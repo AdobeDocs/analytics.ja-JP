@@ -2,11 +2,10 @@
 title: CDA Workspace テンプレート
 description: Analysis Workspace 内の CDA テンプレートの各フィールドについて説明します。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 1. [experiencecloud.adobe.com](https://experiencecloud.adobe.com) に移動し、Adobe ID の資格情報を使用してログインします。
 1. 上部の 9 グリッドアイコンをクリックし、「Analytics」をクリックします。
 1. 上部の「[!UICONTROL Workspace]」をクリックし、「[!UICONTROL 新しいプロジェクトを作成]」をクリックします。
-1. 「Journey IQ：デバイス間の分析」テンプレートを見つけ、「[!UICONTROL 作成]」をクリックします。
+1. 「クロスデバイス分析」テンプレートを探し、「[!UICONTROL 作成]」をクリックします。
 1. プロンプトが表示されたら、CDA をサポートするレポートスイートに変更します。
 
 複数のパネルを含む Analysis Workspace プロジェクトが作成されます。上部に目次と紹介が表示され、レポートにコンテキストを表示したり、個々のレポートに移動したりできます。目次内のリンクをクリックするか、パネルのアコーディオンを展開して、これらのレポートを表示します。
