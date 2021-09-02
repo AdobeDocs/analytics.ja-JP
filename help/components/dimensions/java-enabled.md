@@ -3,9 +3,9 @@ title: Java 有効
 description: Java がブラウザーで有効になっているかどうかを特定します。
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストの[`v`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、Java がブラウザーで有効になっているかどうかを検出することで、このデータを収集します。AppMeasurementライブラリ(Adobe Experience Platformのタグを介した場合など)を使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement 以外のデータ収集方法（API 経由など）を使用する場合は、「Y」または「N」を含む `v` クエリー文字列パラメーターを必ず含めてこのディメンションを使用してください。
+このディメンションは、イメージリクエストの[`v`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、Java がブラウザーで有効になっているかどうかを検出することで、このデータを収集します。AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外のデータ収集方法（API 経由など）を使用する場合は、「Y」または「N」を含む `v` クエリー文字列パラメーターを必ず含めてこのディメンションを使用してください。
 
 ## ディメンション項目
 
