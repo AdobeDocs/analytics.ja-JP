@@ -3,9 +3,9 @@ title: iFrames での AppMeasurement の使用
 description: iframe 内で、iframe または親ページ内の Adobe Analytics 変数にアクセスします。
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 AppMeasurement 変数は、子 iframe と親 iframe の両方から参照できます。AppMeasurement ライブラリが存在する場所と同じ場所にすべての変数を定義する必要があります。次の例では、iframe の内外に基本的な AppMeasurement 変数およびメソッドを設定する方法を説明します。
 
-Adobe Experience Platformでタグを使用する場合は、トラッカーオブジェクトがグローバルにアクセスできることを確認してください。 「[Adobe Analytics拡張機能の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)」を参照してください。
+Adobe Experience Platform のタグを使用する場合は、トラッカーオブジェクトがグローバルにアクセスできることを確認します。[Adobe Analytics 拡張機能の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja)を参照してください。
 
 >[!CAUTION]
 >
