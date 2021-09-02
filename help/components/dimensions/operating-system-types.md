@@ -3,9 +3,9 @@ title: オペレーティングシステムの種類
 description: オペレーティングシステムを表します。バージョンは関係ありません。
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 81%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。AppMeasurementライブラリ(Adobe Experience Platformのタグを介した場合など)を使用する場合、このディメンションは初期設定の状態で動作します。
+このディメンションは、Adobe 内部のルックアップテーブルを参照します。ルックアップ値は、イメージリクエストの `User-Agent` HTTP ヘッダーに基づきます。AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。
 
 ## ディメンション項目
 
