@@ -6,9 +6,9 @@ feature: 管理ツール
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 88%
 >
 >インポートおよびエクスポートする列の数を 30 以内にすることをお勧めします。
 
-[分類インポーターのトラブルシューティング](/help/components/classifications/importer/troubleshooting.md)を参照してください。 このトピックでは、不適切なファイル形式およびファイルの内容に起因する問題について説明します。
+[分類インポーターのトラブルシューティング](/help/components/classifications/importer/troubleshooting.md)を参照してください。 このトピックでは、誤ったファイル形式とファイル内容に起因する問題について説明します。
