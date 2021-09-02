@@ -3,9 +3,9 @@ title: t
 description: ページビュートラッキングコールをアドビに送信します。
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 アドビはイメージリクエストを受け取り、リクエストヘッダー、URL およびクエリー文字列パラメーターを解析します。次に、データ収集サーバーは、サイトに不可視的に表示された、1 x 1 ピクセルの透明イメージを返します。
 
-## Adobe Experience Platformのタグを使用したページビュートラッキングコール
+## Adobe Experience Platform のタグを使用したページビュートラッキングの呼び出し
 
-データ収集UIには、ページビュートラッキングコールを設定する専用の場所があります。
+データ収集 UI には、ページビュートラッキング呼び出しを設定する専用の場所があります。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
