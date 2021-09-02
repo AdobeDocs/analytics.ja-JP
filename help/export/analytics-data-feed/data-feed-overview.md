@@ -5,9 +5,9 @@ title: Analytics データフィードの概要
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 98%
 データフィードを使用する前に、次の要件をすべて満たしていることを確認してください。
 
 * FTP サイトと資格情報を入手しておくと便利です。データフィードは、サーバーの宛先にのみ送信できます。通常、組織が FTP 資格情報を提供します。アドビは、お客様のリクエストに応じて FTP の場所をわずかな容量で提供できます。データフィードの FTP 送信先をリクエストする場合は、カスタマーケアにお問い合わせください。
-* アドビのデータ収集サーバーにデータを送信する実装。『実装ユーザガイド』の「 [実装の検証と公開](/help/implement/launch/validate-publish-prod.md) 」を参照してください。
+* アドビのデータ収集サーバーにデータを送信する実装。実装ユーザーガイドの[実装の検証と公開](/help/implement/launch/validate-publish-prod.md)を参照してください。
 * アカウントが Analytics 製品管理者であるか、アカウントがデータフィードへのアクセス権を持つ製品プロファイルに属している。
 
 ## 使用を開始する手順
 
-1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
+1. Adobe ID の認証情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 2. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
 3. 上部ナビゲーションバーで、管理者／データフィードに移動します。
 4. 「[!UICONTROL 追加]」をクリックします。新しいページで[!UICONTROL フィード情報]、[!UICONTROL 宛先]、[!UICONTROL データ列の定義]の 3 つの主要カテゴリが表示されます。
