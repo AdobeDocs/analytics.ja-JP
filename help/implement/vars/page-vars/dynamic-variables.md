@@ -3,9 +3,9 @@ title: 動的変数
 description: イメージリクエストの長さを増やさずに変数をコピーします。
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 93%
 >
 > 変数をコピーする際は、文字制限の最大値に注意してください。例えば、`eVar1` を `prop1` にコピーする場合、100 バイトの上限（`eVar1` の上限は 255 バイト）があるので、`prop1` に切り捨てられた値が含まれる可能性があります。
 
-## Adobe Experience Platformでタグを使用した動的変数
+## Adobe Experience Platform のタグを使用した動的変数
 
 動的変数は、文字列を受け取る任意のディメンションフィールドで使用できます。ディメンションこう項目は、通常、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定されます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
