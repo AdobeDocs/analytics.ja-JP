@@ -3,9 +3,9 @@ title: purchaseID
 description: 一意の購入識別子に基づいてヒットの重複を除外します。
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 
 購入 ID はすべての訪問者に適用され、期限は切れません。ある訪問者が特定の購入 ID を設定し、その 1 年後に同じ購入 ID を別の訪問者が設定した場合、2 番目の購入の重複が排除されます。
 
-## Adobe Experience Platformのタグを使用した購入ID
+## Adobe Experience Platform のタグを使用した購入 ID
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.purchaseID
 
