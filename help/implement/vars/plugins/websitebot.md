@@ -3,9 +3,9 @@ title: websiteBot
 description: マウスの動きを使用してボットを動的に識別します。
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 91%
 
 ユーザーエージェントがデスクトップ上にあり、マウスの動きが検出されない場合は、プラグインで
 
-* Adobe Experience Platformのタグを使用して直接呼び出しルールを呼び出すか、
-* 訪問者がボットでないことを示すリンクトラッキングコールを実行します。
+* Adobe Experience Platform のタグを使用して直接呼び出しルールを呼び出すか、
+* 訪問者がボットでないことを示すリンクトラッキング呼び出しを実行します。
 
 ## 前提条件
 
@@ -34,7 +34,7 @@ ht-degree: 91%
 * **eVar 設定の指定**：レポートスイート設定の「 [コンバージョン 変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で eVar を設定します。有効期限を「**なし**」または「**訪問**」に設定し、「**元の値（最初）**」に割り当てます。この eVar は、次の両方の状況で設定する必要があります：[!UICONTROL 直接呼び出し]ルールまたは `s.tl` 呼び出しが実行されたとき。
 * **別の変数でのユーザーエージェントの収集**：別の変数にユーザーエージェント文字列を収集して、このプラグインの有効性を監視します。このデータを収集するには、すべてのヒットで eVar を `navigator.UserAgent` に設定します。
 
-##  カスタムコードエディターを使用したプラグインのインストール
+## カスタムコードエディターを使用したプラグインのインストール
 
 1. 新しい `websiteBot` ルールを追加します。
 1. **マウス移動リスナー**&#x200B;イベントを `websiteBot` ルールに追加します。このルールには、次のカスタムコードが含まれます。
