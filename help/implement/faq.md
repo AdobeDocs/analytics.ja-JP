@@ -3,9 +3,9 @@ title: 実装 FAQ
 description: 実装に関するよくある質問と、詳細情報へのリンクです。
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ID サービスは、Experience Cloud の他のソリューション間で共有
 
 ## アドビのサービスを中断すると、パフォーマンスに影響を与える可能性はありますか。
 
-いいえ。JavaScript ファイルは、アドビのサーバーでホストされていないでため、アドビの停止状態が AppMeasurement ライブラリに影響することはありません。Adobe Experience Platformでタグを使用する場合、JavaScriptファイルはAkamaiによってホストされるか、組織が決定したサーバーの場所に置かれます。
+いいえ。JavaScript ファイルは、アドビのサーバーでホストされていないでため、アドビの停止状態が AppMeasurement ライブラリに影響することはありません。Adobe Experience Platform のタグを使用する場合、JavaScript ファイルは Akamai または組織が決定したサーバーでホストされます。
 
 ## ブラウザーからアドビのサーバーにデータを送信することによってパフォーマンスが低下することはありますか。
 
@@ -33,7 +33,7 @@ AppMeasurement は、HTML ページ内にイメージオブジェクトを作成
 
 組織では、契約の有効期限切れやサーバーコールの数の減少が原因で実装を削除したい場合があります。
 
-* **Adobe Experience Platformでタグを使用した実装**:「拡張機能」タブでAdobe Analytics拡張機能を無効にするかアンイ  ンストールして、公開します。
+* **Adobe Experience Platform のタグを使用した実装**：「[!UICONTROL 拡張機能]」タブで Adobe Analytics 拡張機能を無効にするかアンインストールして、公開します。
 * **従来の AppMeasurement の実装**：`s_code.js` ファイルの内容全体を次のコード行に置き換えます。 
 
 ```js
