@@ -1,45 +1,45 @@
 ---
-title: タグデータ要素のAnalytics変数へのマッピング
+title: タグデータ要素の Analytics 変数へのマッピング
 description: Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
-# タグデータ要素のAnalytics変数へのマッピング
+# タグデータ要素の Analytics 変数へのマッピング
 
-タグデータ要素のリポジトリを取得したら、それらをAnalyticsディメンションに割り当てることができます。
+タグデータ要素のリポジトリーを取得したら、それらを Analytics のディメンションに割り当てることができます。
 
 >[!NOTE]
->Adobe Experience Platform Launchは、Experience Platformのデータ収集テクノロジーのスイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)を参照してください。
+>Adobe Experience Platform Launch は、Experience Platform のデータ収集テクノロジースイートとしてリブランドされています。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja)を参照してください。
 
 ## 前提条件 
 
-[データレイヤーオブジェクトをデータ要素にマッピングする](layer-to-elements.md):タグデータ要素と、操作するデータ要素が複数あることを理解していることを確認します。
+[データレイヤーオブジェクトをデータ要素にマッピングする](layer-to-elements.md)：タグデータ要素について理解していること、操作するタグデータ要素が複数あることを確認します。
 
 [ソリューションデザインドキュメントを作成する](../prepare/solution-design.md)：整理された状態を維持するには、ソリューションデザインドキュメントが不可欠です。ソリューションデザインドキュメントに従うと、データ要素を Analytics 変数へと簡単に割り当てることができます。
 
 ## データ要素を Analytics 変数に割り当てる
 
-以下の手順に従ってタグライブラリを公開すると、Analysis Workspaceでカスタムディメンションを使用できます。 Analytics 変数は、グローバルに設定することも、個々のルール内で設定することもできます。
+以下の手順に従った後にタグライブラリを公開すると、Analysis Workspace でカスタムディメンションを使用できます。Analytics 変数は、グローバルに設定することも、個々のルール内で設定することもできます。
 
 ### グローバル変数の設定
 
 グローバル変数は、データ要素が存在するあらゆるページで変数値を設定する場合に最適です。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブをクリックしてから、Adobe Analytics 拡張機能の下にある「[!UICONTROL 設定]」をクリックします。
 1. 「[!UICONTROL グローバル変数]」アコーディオンをクリックすると、グローバル変数を割り当てるインターフェイスが表示されます。
 
 ### ルール内での変数の設定
 
-ルールで設定された変数は、すべてのページで変数を設定したくない場合に最適です。ルールで条件を定義します。Adobe Experience Platformタグのドキュメントの[ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)を参照してください。
+ルールで設定された変数は、すべてのページで変数を設定したくない場合に最適です。ルールで条件を定義します。Adobe Experience Platform タグに関するドキュメントの[ルール](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=ja)を参照してください。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブをクリックし、目的のルールをクリックします（または作成します）。
 1. 「[!UICONTROL アクション]」の下の「[!UICONTROL 追加]」ボタンをクリックします。
