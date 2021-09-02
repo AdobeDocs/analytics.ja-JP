@@ -3,9 +3,9 @@ title: イベント前の時間
 description: 指標から訪問の最初のヒットまでの時間。
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
