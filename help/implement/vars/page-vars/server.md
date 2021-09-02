@@ -3,9 +3,9 @@ title: サーバー
 description: 「サーバー」ディメンションを設定します。
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 87%
 
 `server` 変数は通常、サイトのホスト名を保存します。これは、複数のドメインのデータを含むレポートスイートで一般的に使用されます。機能的には prop と同じです。
 
-## Adobe Experience Platformでタグを使用するサーバー
+## Adobe Experience Platform のタグを使用したサーバー
 
 サーバーは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
