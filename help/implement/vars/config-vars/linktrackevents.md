@@ -3,9 +3,9 @@ title: linkTrackEvents
 description: リンクトラッキングイメージリクエストに含めるイベントを決定します。
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 67%
 
 この変数は、ページビュー呼び出し（[`t()`](../functions/t-method.md) メソッド）には使用されません。
 
-## Adobe Experience Platformのタグを使用したリンクトラッキングコールのイベント
+## Adobe Experience Platform のタグを使用したリンクトラッキング呼び出しのイベント
 
-カスタムコードを使用しない場合、Adobe Experience Platformでは、定義済みのイベントが自動的にリンクトラッキングのヒットに含まれます。
+カスタムコードを使用しない場合、Adobe Experience Platform では、定義済みのイベントが自動的にリンクトラッキングのヒットに含まれます。
 
 >[!IMPORTANT]
 >
->カスタムコードエディターを使用してデータ収集UIでイベントを設定する場合は、カスタムコードを使用して`linkTrackEvents`にもイベントを含める必要があります。
+> カスタムコードエディターを使用してデータ収集 UI でイベントを設定する場合は、カスタムコードを使用して `linkTrackEvents` でもイベントを含める必要があります。
 
 ## AppMeasurement および カスタムコードエディターの s.linkTrackEvents
 
@@ -35,7 +35,7 @@ ht-degree: 67%
 s.linkTrackEvents = "event1,event2,event3,purchase";
 ```
 
-この変数のデフォルト値は空の文字列です。この変数を定義しない場合、すべてのイベントがリンクトラッキングイメージリクエストに含まれます。データ収集は、インターフェイスで設定されたイベントに基づいてこの変数を自動的に設定するので、Adobe Experience Platformでタグを使用する実装では常に設定されます。
+この変数のデフォルト値は空の文字列です。この変数を定義しない場合、すべてのイベントがリンクトラッキングイメージリクエストに含まれます。データ収集は、インターフェイスで設定されたイベントに基づいてこの変数を自動的に設定するので、Adobe Experience Platform のタグを使用する実装では常に設定されます。
 
 >[!TIP]
 >
