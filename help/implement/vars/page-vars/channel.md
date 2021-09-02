@@ -3,9 +3,9 @@ title: チャネル
 description: 「サイトセクション」ディメンションを設定します。
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 87%
 
 `channel` 変数は、通常、特定のページが存在するサイトのセクションを格納します。サイトで最も人気のあるグループを判断すると役立ちます。この変数は、「サイトセクション」ディメンションを入力します。
 
-## Adobe Experience Platformでタグを使用したチャネル
+## Adobe Experience Platform のタグを使用したチャネル
 
 チャネルは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
