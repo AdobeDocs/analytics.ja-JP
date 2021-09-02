@@ -3,9 +3,9 @@ title: offlineHitLimit
 description: オフライントラッキング用にキューに入れる最大ヒット数を決定します。
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 84%
 
 `offlineHitLimit` 変数は、デバイスがローカルに保存するヒット数に上限を設定します。この変数は、[`trackOffline`](trackoffline.md) が有効な場合にのみ機能します。
 
-## Adobe Experience Platformでタグを使用したオフラインヒットの制限
+## Adobe Experience Platform のタグを使用したオフラインヒットの制限
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.offlineHitLimit
 
