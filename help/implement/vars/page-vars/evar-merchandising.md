@@ -3,9 +3,9 @@ title: eVar（マーチャンダイジング）
 description: 個々の製品に関連付けられるカスタム変数。
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 *このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。マーチャンダイジング eVar がディメンションとして機能する方法について詳しくは、『コンポーネントユーザガイド』の [eVar](/help/components/dimensions/evar-merchandising.md) を参照してください。*
 
-マーチャンダイジングeVarの仕組みについて詳しくは、[マーチャンダイジングeVarと製品検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)を参照してください。
+マーチャンダイジング eVar の仕組みについて詳しくは、[マーチャンダイジング eVar と製品検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja)を参照してください。
 
 ## レポートスイート設定での eVar の設定
 
