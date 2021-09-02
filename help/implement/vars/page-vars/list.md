@@ -3,9 +3,9 @@ title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 93%
 
 実装で各リスト変数を使用する前に、レポートスイートの設定で各リスト変数を設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/list-var-admin.md)を参照してください。
 
-## Adobe Experience Platformのタグを使用した変数のリスト
+## Adobe Experience Platform のタグを使用した変数のリスト
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.list1～s.list3
 
