@@ -3,9 +3,9 @@ title: モバイルディメンション
 description: デバイスの IP アドレスに基づくディメンション。
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ## これらのディメンションにデータを入力する
 
-これらのディメンションは、Adobe 内部のルックアップルールを参照します。[!UICONTROL 携帯電話会社]のルックアップは、NetAcuity（Digital Elements 製品）から取得したデータを使用して、IP アドレスによって決定されます。AppMeasurementライブラリ(Adobe Experience Platformのthroughタグなど)を使用する場合、すべてのモバイルディメンションが初期設定の状態で動作します。
+これらのディメンションは、Adobe 内部のルックアップルールを参照します。[!UICONTROL 携帯電話会社]のルックアップは、NetAcuity（Digital Elements 製品）から取得したデータを使用して、IP アドレスによって決定されます。AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、すべてのモバイルディメンションが初期設定の状態で動作します。
 
 ## モバイルディメンションの説明
 
