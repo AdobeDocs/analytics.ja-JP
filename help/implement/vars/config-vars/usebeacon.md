@@ -3,9 +3,9 @@ title: useBeacon
 description: useBeacon を使用すると、AppMeasurement で強制的にブラウザーの sendBeacon API を使用できます
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 90%
 
 訪問者が `useBeacon` をサポートしていないブラウザーを使用している場合、`navigator.sendBeacon()` 変数は無視されます。この変数を使用するには、AppMeasurement 2.16.0 以降が必要です。
 
-## Adobe Experience Platformのタグを使用したビーコンの使用
+## Adobe Experience Platform のタグを使用したビーコンの使用
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.useBeacon
 
