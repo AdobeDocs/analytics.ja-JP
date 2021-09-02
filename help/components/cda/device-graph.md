@@ -3,9 +3,9 @@ title: デバイスグラフ
 description: デバイスグラフを使用してデータをステッチする際の前提条件と制限事項を理解します。
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 * 「[概要](overview.md)」ページに表示されるすべての前提条件。
 * 組織で、Adobe Experience Platform ID サービス Co-op グラフまたはプライベートグラフを使用する必要があります。Device Co-op ユーザーガイドの「[ホームページ](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ja)」を参照してください。
-* 実装では、Experience Cloud ID サービスの最新バージョンを使用する必要があります。Experience Cloud ID サービスユーザーガイドの「[ホームページ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)」を参照してください。Adobe Experience Platformでタグを使用するほとんどの実装では、既にECIDがデプロイされている可能性が高くなります。
+* 実装では、Experience Cloud ID サービスの最新バージョンを使用する必要があります。Experience Cloud ID サービスユーザーガイドの「[ホームページ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)」を参照してください。Adobe Experience Platform のタグを使用するほとんどの実装では、既に ECID がデプロイされている可能性があります。
 * 実装ユーザーがログインしたときや電子メールを開いたときなど、個人を識別できるタイミングでは、実装は常にこの `setCustomerIDs` 関数（または相当する SDK）を呼び出します。この要件は、すべてのプラットフォーム（使用する場合はモバイルアプリを含む）に適用されます。Experience Cloud ID サービスユーザーガイドの [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=ja) を参照してください。
 
 ## デバイスグラフに固有の制限
