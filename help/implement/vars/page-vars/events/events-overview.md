@@ -3,9 +3,9 @@ title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 96%
 
 イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-success-events/success-event.md)」で、成功イベントを作成し、設定していることを確認してください。リンクトラッキングのヒットでカスタムイベントを使用する予定がある場合は、[`linkTrackVars`](../../config-vars/linktrackvars.md) と [`linkTrackEvents`](../../config-vars/linktrackevents.md) が正しく設定され ていることを確認してください。
 
-## Adobe Experience Platformでタグを使用するイベント
+## Adobe Experience Platform のタグを使用したイベント
 
 イベントは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
