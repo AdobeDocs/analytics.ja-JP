@@ -3,9 +3,9 @@ title: 動的アカウントの概要
 description: H コードを使用してレポートスイートを動的に選択する方法に関するワークフローについて説明します。
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
-> 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在のAdobe Experience PlatformのAppMeasurementライブラリやタグではサポートされていません。
+> 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在の AppMeasurement ライブラリや Adobe Experience Platform のタグではサポートされていません。
 
 動的アカウントは、定義した条件に基づいてどのレポートスイートを使用するかを決定できる実装機能です。組織で複数のレポートスイートが必要で、サイト間で同じ実装を使用する場合は、動的アカウントはよいソリューションです。
 
