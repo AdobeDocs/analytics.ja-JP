@@ -3,9 +3,9 @@ title: usePlugins
 description: doPlugins() 関数を有効または無効にします。
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 76%
 
 `usePlugins` を有効にすると、AppMeasurement がコンパイルして、ヒットがアドビに送信される直前に [`doPlugins()`](../functions/doplugins.md) 関数が実行されます。`doPlugins()` 関数を使用する場合は、この変数を有効にします。
 
-## Adobe Experience Platformでのタグを使用したプラグインの使用
+## Adobe Experience Platform のタグを使用したプラグインの使用
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.usePlugins
 
