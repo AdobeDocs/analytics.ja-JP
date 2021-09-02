@@ -3,9 +3,9 @@ title: linkURL
 description: AppMeasurement がリンクトラッキングコールで使用する、自動生成されたリンク URL を上書きします。
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 80%
 
 リンクトラッキングコールがアドビに送信されるたびに、データ収集サーバーは URL を自動的に検出します。`linkURL` 変数は、検出された URL を上書きするために使用します。
 
-## Adobe Experience Platformでタグを使用したURLのリンク
+## Adobe Experience Platform のタグを使用した URL のリンク
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.linkURL
 
