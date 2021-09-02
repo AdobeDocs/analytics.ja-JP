@@ -1,30 +1,30 @@
 ---
 title: データレイヤーオブジェクトをデータ要素にマッピングする
-description: データレイヤーから読み取るタグを設定します。
+description: データレイヤーから読み取るようにタグを設定します。
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 # データレイヤーオブジェクトをデータ要素にマッピングする
 
-組織がデータレイヤーを確立し、サイトに実装したら、タグ内のデータ要素にデータレイヤーオブジェクトをマッピングできます。
+組織がデータレイヤーを確立してサイトに実装したら、タグ内のデータ要素にデータレイヤーオブジェクトをマッピングできます。
 
 >[!NOTE]
->Adobe Experience Platform Launchは、Experience Platformのデータ収集テクノロジーのスイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)を参照してください。
+>Adobe Experience Platform Launch は、Experience Platform のデータ収集テクノロジースイートとしてリブランドされています。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja)を参照してください。
 
 ## 前提条件
 
-[データレイヤーを作成する](../prepare/data-layer.md)：サイトにデータレイヤーが存在することを確認します。技術的には、任意の JavaScript オブジェクトをマッピングしたり、CSS 要素をページから直接削除したりできますが、アドビではこの方法を最後の手段として使用することをお勧めします。サイトのレイアウトが変更されると、タグで使用されるCSSセレクターが機能しなくなり、データが失われます。
+[データレイヤーを作成する](../prepare/data-layer.md)：サイトにデータレイヤーが存在することを確認します。技術的には、任意の JavaScript オブジェクトをマッピングしたり、CSS 要素をページから直接削除したりできますが、アドビではこの方法を最後の手段として使用することをお勧めします。サイトのレイアウトが変更されると、タグで使用される CSS セレクターの動作が停止し、データが失われます。
 
 ## タグを使用したデータ要素の作成
 
-[データ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 要素は、データ収集UIのコンポーネントで、ツール全体で使用できます。データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
+[データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)は、ツール全体で使用できるデータ収集 UI のコンポーネントです。データ要素を使用して、Adobe Analytics 拡張機能で変数の値を割り当てることができます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「**[!UICONTROL データ要素]**」タブをクリックしてから、「**[!UICONTROL データ要素の追加]**」をクリックします。
 
