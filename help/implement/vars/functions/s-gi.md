@@ -3,9 +3,9 @@ title: s_gi()
 description: AppMeasurement のインスタンスを作成し、追跡します。
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 93%
 
 `s_gi()` 関数は、レポートスイート ID で AppMeasurement のインスタンスをインスタンス化するか、検索します。AppMeasurement は作成されるすべてのインスタンスを追跡して、`s_gi()` はレポートスイートに対応する既存のインスタンスがある場合にそれを返します。インスタンスが存在しなければ、新しいインスタンスが作成されます。
 
-## Adobe Experience Platformでのタグの使用
+## Adobe Experience Platform のタグを使用した s_gi()
 
 Analytics 拡張機能により、追跡オブジェクトがインスタンス化され、管理されます。ただし、Adobe Analytics の拡張機能を設定する際に、「[!UICONTROL ライブラリ管理]」アコーディオンでグローバルトラッキングオブジェクトを設定することもできます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL ライブラリ管理]」アコーディオンを展開し、「[!UICONTROL 私に代わってライブラリを管理する]」以外のラジオボタンを選択します。
