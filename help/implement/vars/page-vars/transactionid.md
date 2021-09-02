@@ -3,9 +3,9 @@ title: transactionID
 description: この変数を使用して、オンラインとオフラインのデータをリンクします。
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 94%
 
 デフォルトでは、すべてのトランザクション ID の値（リンクおよびリンク解除）は、最大 90 日間記憶されます。オフラインのインタラクションプロセスが 90 日を超える場合は、カスタマーケアにご連絡いただき、限度を延長してください。
 
-## Adobe Experience Platformのタグを使用したトランザクションID
+## Adobe Experience Platform のタグを使用したトランザクション ID
 
 トランザクション ID は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
