@@ -3,9 +3,9 @@ title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 94%
 >
 > この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートでユニーク訪問者数が一時的に急増する可能性があります。
 
-## Adobe Experience Platformのタグを使用したトラッキングサーバー
+## Adobe Experience Platform のタグを使用したトラッキングサーバー
 
 「トラッキングサーバー」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL トラッキングサーバー]」フィールドが表示されます。
