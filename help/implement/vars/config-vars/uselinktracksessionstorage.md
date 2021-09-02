@@ -3,9 +3,9 @@ title: useLinkTrackSessionStorage
 description: リンクトラッキングデータを、cookie ではなくセッションストレージに格納します。
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 90%
 
 AppMeasurement は、ヒットをアドビに送信した後で、セッションストレージのリンクトラッキングデータを削除します。また、ブラウザータブを閉じると自動的に期限切れになります。
 
-## Adobe Experience Platformのタグを使用して、リンクトラッキングセッションストレージを使用する
+## Adobe Experience Platform のタグを使用したリンクトラッキングセッションストレージの使用
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.useLinkTrackSessionStorage
 
