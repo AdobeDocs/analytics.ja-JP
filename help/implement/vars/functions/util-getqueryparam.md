@@ -3,9 +3,9 @@ title: Util.getQueryParam
 description: クエリー文字列パラメーターの値を返します。
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 90%
 
 ブラウザー URL のクエリー文字列パラメーターには、Analytics の重要なデータが含まれることがよくあります。クエリー文字列からデータを取得するには、`Util.getQueryParam()` メソッドを使用します。
 
-## Adobe Experience Platformのタグを使用したクエリー文字列パラメーターデータの取得
+## Adobe Experience Platform のタグを使用したクエリ文字列パラメーターデータの取得
 
 データ要素に値を設定することで、クエリー文字列パラメーターデータを取得できます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
 4. 「[!UICONTROL 拡張機能]」ドロップダウンを「[!UICONTROL コア]」に設定し、「[!UICONTROL データ要素タイプ]」を「[!UICONTROL クエリー文字列パラメーター]」に設定します。
