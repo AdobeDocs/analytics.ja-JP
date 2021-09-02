@@ -3,9 +3,9 @@ title: ブラウザーの幅 - グループ
 description: ブラウザーウィンドウの幅をピクセルで指定します。
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストの[`bw`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `window.innerWidth` 変数を使用してこのデータを収集します。AppMeasurementライブラリ(Adobe Experience Platformのタグを介した場合など)を使用する場合、このディメンションは初期設定の状態で動作します。 AppMeasurement 以外のデータ収集方法（API 経由など）を使用する場合は、各訪問の最初のヒットに `bw` クエリー文字列パラメーターを必ず含めてください。
+このディメンションは、イメージリクエストの[`bw`クエリ列](/help/implement/validate/query-parameters.md)からデータを取得します。AppMeasurement は、ブラウザーの JavaScript `window.innerWidth` 変数を使用してこのデータを収集します。AppMeasurement ライブラリ（Adobe Experience Platform のタグを介した場合など）を使用する場合、このディメンションは初期設定の状態で動作します。AppMeasurement 以外のデータ収集方法（API 経由など）を使用する場合は、各訪問の最初のヒットに `bw` クエリー文字列パラメーターを必ず含めてください。
 
 1 回の訪問でのブラウザーの幅は維持されます。訪問中にブラウザーの幅を調整した場合、調整は記録されません。
 
