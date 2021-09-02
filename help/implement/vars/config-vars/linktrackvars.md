@@ -3,9 +3,9 @@ title: linkTrackVars
 description: リンクトラッキングイメージリクエストに含める変数を指定します。
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 77%
 
 この変数は、ページビュー呼び出し（[`t()`](../functions/t-method.md) メソッド）には使用されません。
 
-## Adobe Experience Platformのタグを使用したリンクトラッキングコールの変数
+## Adobe Experience Platform のタグを使用したリンクトラッキング呼び出しの変数
 
-Adobe Experience Platformは、インターフェイスで設定された変数に基づいて、バックエンドでこの変数を自動的に設定するので、Adobe Experience Platformのタグを使用した実装では常に設定されます。
+Adobe Experience Platform は、インターフェイスで設定された変数に基づいてバックエンドでこの変数を自動的に設定するため、Adobe Experience Platform のタグを使用した実装では常にこの変数が設定されます。
 
 >[!IMPORTANT]
 >
->カスタムコードエディターを使用して変数を設定する場合は、カスタムコードを使用して`linkTrackVars`にも変数を含める必要があります。
+>カスタムコードエディターを使用して変数を設定する場合は、カスタムコードを使用して `linkTrackVars` にも変数を含める必要があります。
 
 ## AppMeasurement および カスタムコードエディターの s.linkTrackVars
 
