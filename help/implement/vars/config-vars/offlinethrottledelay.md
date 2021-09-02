@@ -3,9 +3,9 @@ title: offlineThrottleDelay
 description: デバイスがオンラインに戻ったときのヒットの頻度を設定します。
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 86%
 
 デバイスが再びオンラインになると、デバイスに保存されているすべてのヒットがアドビのデータ収集サーバーに送信されます。キューに格納されたヒットの数が多いと、古いデバイスのパフォーマンスに影響を与える可能性があります。`offlineThrottleDelay` 変数を使用して、キューに登録されたヒットがアドビに送信される頻度を指定します。
 
-## Adobe Experience Platformのタグを使用したオフラインスロットル遅延
+## Adobe Experience Platform のタグを使用したオフラインスロットル遅延
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.offlineThrottleDelay
 
