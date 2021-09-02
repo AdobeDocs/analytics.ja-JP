@@ -3,9 +3,9 @@ title: cookieLifetime
 description: AppMeasurement で作成される Cookie の有効期限を上書きします。
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ AppMeasurement によって設定される Cookie の有効期限は通常 2 年
 >
 > この変数は、ユニーク訪問者数と属性に影響を与えます。この変数を設定する場合は注意が必要です。
 
-## Adobe Experience Platformでタグを使用したCookieの有効期間
+## Adobe Experience Platform のタグを使用した Cookie の有効期間
 
 Cookie の有効期間は、Adobe Analytics 拡張機能を設定する際の「[!UICONTROL Cookies]」アコーディオンのドロップダウンです。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 1. 「[!UICONTROL Cookies]」アコーディオンを展開すると、「[!UICONTROL Cookie の有効期間]」ドロップダウンが表示されます。
