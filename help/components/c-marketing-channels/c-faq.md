@@ -2,7 +2,7 @@
 title: マーケティングチャネル FAQ
 description: マーケティングチャネルに関するよくある質問（FAQ）です。
 source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1485'
 ht-degree: 100%
 
