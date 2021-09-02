@@ -3,9 +3,9 @@ title: abort
 description: abort 変数は、ヒットがアドビのデータ収集サーバーに送信されないようにするブール値です。
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 79%
 
 `abort` 変数は、次回のトラッキングコールがアドビに送信されるのを防ぐことができるブール値です。
 
-## Adobe Experience Platformのデータ収集UIでのabort変数の使用
+## Adobe Experience Platform のデータ収集 UI での abort 変数の使用
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## データ収集UIのAppMeasurement構文とカスタムコードエディター
+## データ収集 UI の AppMeasurement 構文とカスタムコードエディター
 
 `abort` 変数はブール値です。デフォルト値は `false` です。
 
