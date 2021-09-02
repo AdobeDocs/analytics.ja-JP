@@ -3,15 +3,15 @@ title: JavaScript 版 AppMeasurement
 description: タグ管理システムなしで JavaScript を使用して Adobe Analytics を実装する方法を説明します。
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # JavaScript 版 AppMeasurement
 
-JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する一般的な方法でした。ただし、Tag Managementシステムの人気が高まっているので、Adobe Experience Platform](../launch/overview.md)で[タグを使用することをお勧めします。
+JavaScript 版 AppMeasurement は、これまで Adobe Analytics を実装する一般的な方法でした。ただし、Tag Management システムの人気が高まっており、[Adobe Experience Platform のタグ](../launch/overview.md) の使用がお勧めです。
 
 ## JavaScript を使用したアドビへのデータ送信のワークフロー全体
 
