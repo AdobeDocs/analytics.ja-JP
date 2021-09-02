@@ -3,9 +3,9 @@ title: visitorNameSpace
 description: Cookie ドメインを決定した古い変数。
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 89%
 >
 > サイトでファーストパーティ Cookie を使用することをお勧めします。この変数はファーストパーティ Cookie では使用されません。
 
-## Adobe Experience Platformのタグを使用した訪問者名前空間
+## Adobe Experience Platform のタグを使用した訪問者名前空間
 
 「[!UICONTROL 訪問者名前空間]」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL Cookies]」アコーディオンの下にあるフィールドです。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 4. 「[!UICONTROL Cookies]」アコーディオンを展開すると、「[!UICONTROL 訪問者名前空間]」フィールドが表示されます。
