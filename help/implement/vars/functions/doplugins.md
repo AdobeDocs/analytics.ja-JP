@@ -3,9 +3,9 @@ title: doPlugins
 description: ヒットがコンパイルされてアドビに送信される直前にロジックを設定します。
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 88%
 
 `doPlugins` 変数を使用してプラグインコードを呼び出し、イメージリクエストがコンパイルされてアドビに送信される直前に、最終的な変数値を設定します。
 
-## Adobe Experience Platformのタグを使用したプラグイン
+## Adobe Experience Platform のタグを使用したプラグイン
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.doPlugins
 
