@@ -3,9 +3,9 @@ title: forceOffline
 description: AppMeasurement のオンライン状態を手動で設定します。
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 83%
 
 AppMeasurement は、デバイスのオンライン状態を自動的に検出します。`forceOffline()` メソッドを使用すると、AppMeasurement に対して、デバイスがオフラインの場合と同じようにヒットが処理されるように強制できます。このメソッドは引数を取らず、値を返しません。AppMeasurement でオンライン状態を上書きするのが目的です。
 
-## Adobe Experience Platformのタグを使用してオフラインを強制
+## Adobe Experience Platform のタグを使用したオフラインの強制
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.forceOffline()
 
