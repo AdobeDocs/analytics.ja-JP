@@ -3,13 +3,13 @@ description: データフィードの各列について説明するテーブル�
 keywords: データフィード;列
 subtopic: data feeds
 title: データ列リファレンス
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3422'
-ht-degree: 98%
+source-wordcount: '3419'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
 | `click_context_type` | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0：ページ URL<br>1：ページ名 | tinyint unsigned |
 | `click_sourceid` | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。レガシー ClickMap ツールの一部。 | int unsigned |
 | `click_tag` | 廃止。クリックされた HTML 要素のタイプ。 | char(10) |
-| `clickmaplink` | Activity Mapリンク | varchar(255) |
+| `clickmaplink` | アクティビティマップリンク | varchar(255) |
 | `clickmaplinkbyregion` | Activity Map 地域別リンク | varchar(255) |
 | `clickmappage` | Activity Map ページ | varchar(255) |
 | `clickmapregion` | Activity Map 地域 | varchar(255) |

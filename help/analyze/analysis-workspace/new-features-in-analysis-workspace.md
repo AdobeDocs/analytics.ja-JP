@@ -2,12 +2,12 @@
 description: Analysis Workspace の新機能です。
 keywords: Analysis Workspace
 title: Analysis Workspace の新機能
-feature: Workspace の基本
+feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '8288'
+source-wordcount: '8286'
 ht-degree: 99%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 99%
 # Analysis Workspace の新機能
 
 >[!IMPORTANT]
->Analysis Workspaceの更新が[Adobe Analyticsドキュメントの更新](/help/technotes/doc-updates.md)ページに展開されました。
+>Analysis Workspace の更新が [Adobe Analytics ドキュメントの更新](/help/technotes/doc-updates.md)ページに展開されました。
 
 包括的な製品のアップデートについては、「 [Adobe Experience Cloudリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) 」を参照してください。
 

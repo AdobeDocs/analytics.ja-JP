@@ -5,7 +5,7 @@ exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
-> このバージョンのデータ収集はサポートされなくなりました。Adobe Experience Platform](../../launch/overview.md)または[JavaScript版AppMeasurement](../overview.md)の[タグにアップグレードします。
+> このバージョンのデータ収集はサポートされなくなりました。[Adobe Experience Platform のタグ](../../launch/overview.md)または [JavaScript 版 AppMeasurement](../overview.md) にアップグレードします。
 
 データを収集するコードを含むページを正しく実装するには、ホストサーバーにアクセスできる必要があります。以下の手順で、Analytics の基本的な H コード実装方法を説明します。
 

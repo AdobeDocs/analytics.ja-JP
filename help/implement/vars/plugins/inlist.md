@@ -5,7 +5,7 @@ exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 85%
 
 `inList` プラグインを使用すると、区切り文字列または JavaScript 配列オブジェクト内に値が既に存在するかどうかを確認できます。その他のプラグインの中には、`inList`プラグインの動作が依存するものもあります。このプラグインは、部分文字列と一致しない JavaScript `indexOf()` メソッドよりも明確な利点を提供します。例えば、このプラグインを使用して `"event2"` のチェックをおこなった場合、`"event25"` を含む文字列とは一致しません。区切り文字付きの文字列や配列の値を確認する必要がない場合や、独自の `indexOf()` ロジックを使用する場合は、このプラグインは不要です。
 
-## Adobe Experience Platformのタグを使用したプラグインのインストール
+## Adobe Experience Platform のタグを使用したプラグインのインストール
 
 アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
 1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
@@ -33,11 +33,11 @@ ht-degree: 85%
    * Action Type：Initialize inList
 1. ルールに対する変更を保存して発行します。
 
-##  カスタムコードエディターを使用したプラグインのインストール
+## カスタムコードエディターを使用したプラグインのインストール
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「[!UICONTROL 設定]」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。

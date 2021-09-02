@@ -5,7 +5,7 @@ exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 83%
 
 Adobe Analytics では、データ収集サーバーにデータを送信するために、Web サイト、モバイルアプリケーションまたはその他のアプリケーション内のコードが必要です。プラットフォームや組織のニーズに応じて、このコードを実装する方法がいくつかあります。
 
-* **タグAdobe Experience Platform**:Adobe Analyticsを実装するための標準化されたお勧めの方法。各ページにローダタグを配置し、データ収集UIを使用して各変数の定義方法を決定します。
-* **従来の JavaScript**：Adobe Analytics を実装するために古くから使用されている手動の方法です。実装で使用される変数と設定の概要を説明します。これは、カスタムコードを含むルールを使用するタグ実装で役立ちます。
+* **Adobe Experience Platform のタグ**：Adobe Analytics を実装するための標準化されたお勧めの方法です。各ページにローダータグを配置し、データ収集 UI を使用して、各変数の定義方法を決定します。
+* **従来の JavaScript**：Adobe Analytics を実装するために古くから使用されている手動の方法です。実装で使用される変数および設定の概要を説明します。カスタムコードを含むルールを使用する実装で役立ちます。
 * **モバイル SDK**：モバイルアプリケーション内からアドビに簡単にデータを送信する専用ライブラリです。
 
 ## 主な Analytics 実装記事
 
 * [既存の Adobe Analytics の実装を担当する](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
-* [Experience Platformでのタグプロパティの作成](launch/create-analytics-property.md)
+* [Experience Platform でのタグプロパティの作成](launch/create-analytics-property.md)
 * [AppMeasurement のアップデート](appmeasurement-updates.md)
 
 ## その他の Analytics ユーザーガイド
@@ -45,6 +45,6 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 ## 主な Analytics リソース
 
 * [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-* [Analytics フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
+* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://experienceleague.adobe.com/?lang=ja#home)

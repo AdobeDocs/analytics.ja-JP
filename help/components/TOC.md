@@ -234,7 +234,7 @@ ht-degree: 98%
       + [ブラウザーインポート](classifications/importer/browser-import.md)
       + [ブラウザーエクスポート](classifications/importer/browser-export.md)
       + [FTP インポート](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
-      + [FTPエクスポート](classifications/importer/ftp-export.md)
+      + [FTP エクスポート](classifications/importer/ftp-export.md)
       + [処理時間](classifications/importer/processing-time.md)
       + [トラブルシューティング](classifications/importer/troubleshooting.md)
    + 分類ルールビルダー {#classifications-rulebuilder}
