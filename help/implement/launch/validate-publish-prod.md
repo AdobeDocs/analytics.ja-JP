@@ -1,20 +1,20 @@
 ---
 title: 開発実装の検証と実稼動環境への公開
-description: Adobe Experience Platformタグを使用してAdobe Analyticsを実稼動環境にデプロイする方法を説明します。
+description: Adobe Experience Platform のタグを使用して、Adobe Analytics を実稼動環境にデプロイする方法を説明します。
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # 開発実装の検証と実稼動環境への公開
 
-タグライブラリが実稼動環境にプッシュされると、組織はAdobe Analyticsを使用して基本レポートの取り込みを開始できます。
+タグライブラリが実稼働環境にプッシュされると、組織は Adobe Analytics を使用して基本的なレポートの取り込みを開始できます。
 
 >[!NOTE]
->Adobe Experience Platform Launchは、Experience Platformのデータ収集テクノロジーのスイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)を参照してください。
+>Adobe Experience Platform Launch は、Experience Platform のデータ収集テクノロジースイートとしてリブランドされています。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja)を参照してください。
 
 ## 前提条件
 
@@ -25,9 +25,9 @@ ht-degree: 64%
 Experience Cloud デバッガーは、ページに存在するすべての Experience Cloud タグを表示する Chrome プラグインです。
 
 1. [Chrome Web ブラウザー](https://www.google.com/intl/ja/chrome/)を開き、Chrome Web ストアで [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) に移動して拡張機能をインストールします。
-2. タグを実装した開発用Webサイトに移動します。
+2. タグを実装した開発用 web サイトに移動します。
 3. Chrome の右上にある Adobe Experience Cloud デバッガーアイコンをクリックします。
-4. すべてが正しく実装されている場合は、Adobe Analytics、タグおよびAdobe Experience Cloud訪問者IDサービス内のコンテンツが表示されます。
+4. すべてが正しく実装されている場合は、Adobe Analytics、タグおよび Adobe Experience Cloud 訪問者 ID サービス内に次のコンテンツが表示されます。
 
 ![debugger][assets/debugger.png]
 
@@ -35,14 +35,14 @@ Experience Cloud デバッガーは、ページに存在するすべての Exper
 
 データを確認したら、実装を本番用サイトにプッシュできます。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL 公開]**」タブをクリックし、開発列でライブラリを探します。
-1. ライブラリのドロップダウンをクリックし、「**[!UICONTROL 承認用に送信]**」を選択します。 モーダルウィンドウで「**[!UICONTROL 送信]**」をクリックします。
+1. ライブラリのドロップダウンをクリックし、「**[!UICONTROL 承認用に送信]**」を選択します。モーダルウィンドウで「**[!UICONTROL 送信]**」をクリックします。
 1. ライブラリのドロップダウン（「送信済み」列に表示）を再度クリックし、「**[!UICONTROL ステージング用にビルド]**」を選択します。
 1. しばらくすると、ライブラリの黄色のライトが緑色に変わり、ビルドが正常に完了したことを示します。
 1. ライブラリのドロップダウンを再度クリックし、「**[!UICONTROL 公開の承認]**」を選択します。
-1. ライブラリのドロップダウン（「[!UICONTROL 承認済み]」列に表示）を再度クリックし、「**[!UICONTROL ビルドして実稼動環境にパブリッシュ]**」を選択します。
+1. ライブラリのドロップダウン（「[!UICONTROL 承認済み]」列に表示）を再度クリックし、「**[!UICONTROL 実稼動用にビルドおよび公開]**」を選択します。
 1. 「環境」タブに移動し、「**[!UICONTROL 実稼動環境]**」をクリックします。
 1. 実稼動用のヘッダーとフッターのコードをコピーし、Web サイトの所有者に提供します。サイトの実稼動環境にこのコードを実装するように要求します。
 
@@ -50,7 +50,7 @@ Experience Cloud デバッガーは、ページに存在するすべての Exper
 
 本番用サイトのデータが表示されていることを確認し、Adobe Analytics の正式なデータ収集を開始します。
 
-1. Webサイトの所有者がタグコードを実稼動環境にプッシュしたことを確認したら、ChromeでWebサイトのホームページに移動し、[!UICONTROL Adobe Experience Cloudデバッガー]を開きます。
+1. Web サイトの所有者がタグコードを実稼動にプッシュしたことを確認したら、Chrome で web サイトのホームページに移動し、[!UICONTROL Adobe Experience Cloud Debugger]を開きます。
 2. すべてが機能している場合は、開発環境でのテストと類似したデータが表示されます。この時点で、サイト上のデータを収集するようになっており、レポートへの Adobe Analytics の使用を開始できます。
 
 ## トラブルシューティング
