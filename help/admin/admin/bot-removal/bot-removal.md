@@ -3,9 +3,9 @@ title: Adobe Analytics でのボットの削除
 description: Adobe Analytics でボットを削除する方法
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ### 手順 1：訪問者の Experience Cloud ID を新しい宣言済み ID に渡す
 
-まず、[People コアサービス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)で新しい宣言済み ID を作成します。訪問者のExperience CloudIDをこの新しい宣言済みIDに渡します。Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)の[タグを使用すると、すばやく簡単におこなえます。 宣言済み ID に「ECID」という名前を使用するとします。
+まず、[People コアサービス](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ja)で新しい宣言済み ID を作成します。訪問者の Experience Cloud ID をこの新しい宣言済み ID に渡します。[Adobe Experience Platform のタグ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ja) を使用すると、この処理を素早く簡単に行うことができます。宣言済み ID に「ECID」という名前を使用するとします。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -49,7 +49,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-このデータ要素を設定したら、[次の手順](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)に従って、Adobe Experience Platformのタグを使用して宣言済みIDをECIDツールに渡します。
+このデータ要素を設定したら、[次の手順](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ja)に従って Adobe Experience Platform のタグを使用して ECID ツールに宣言済み ID を渡します。
 
 ### 手順 2：セグメント化を使用したボットの識別
 
