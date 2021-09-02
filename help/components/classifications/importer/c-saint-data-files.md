@@ -5,9 +5,9 @@ title: 分類データファイル
 feature: 管理ツール
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 99%
 日付範囲に基づいてキャンペーンを分類するには：
 
 >[!IMPORTANT]
->このオプションは、新しい分類アーキテクチャで有効なレポートスイートには使用できません。
+>このオプションは、新しい分類アーキテクチャが有効になっているレポートスイートには使用できません。
 
 1. [!DNL Analytics] にログインし、管理者／分類に移動します。
 1. 「**[!UICONTROL ブラウザエクスポート]**」タブをクリックし、日付が有効な分類の設定が正しいことを確認して、「ファイルのエクスポート」をクリックします。
@@ -205,5 +205,5 @@ ht-degree: 99%
 
 ## 分類のトラブルシューティング
 
-* [一般的なアップロードの問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：不適切なファイル形式およびファイルの内容に起因する問題について説明したナレッジベース記事です。
+* [一般的なアップロードの問題](https://helpx.adobe.com/jp/analytics/kb/common-saint-upload-issues.html)：不適切なファイル形式およびファイルの内容に起因する問題について説明したナレッジベース記事です。
 
