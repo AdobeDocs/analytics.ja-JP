@@ -3,9 +3,9 @@ title: モジュールの統合
 description: 統合モジュールを使用すると、アドビのパートナーは自社のデータ収集作業を組織と統合できます。
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 93%
 
 ### 統合モジュールコードの取得
 
-モジュールコードを取得するには、製品管理者のアクセス権を持つユーザー、またはコードマネージャーへのアクセス権を持つ製品プロファイルに属するユーザーである必要があります。モジュールコードを取得する方法は、Adobe Experience Platformのタグを含むすべての実装メソッドで同じです。
+モジュールコードを取得するには、製品管理者のアクセス権を持つユーザー、またはコードマネージャーへのアクセス権を持つ製品プロファイルに属するユーザーである必要があります。モジュールコードの取得メソッドは、Adobe Experience Platform のタグを含め、すべての実装方法で同じです。
 
-1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
+1. Adobe ID の認証情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 1. 右上の 9 つの正方形のアイコン、色付きの Analytics ロゴの順にクリックします。
 1. 上部のナビゲーションで、**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL Code Manager]** をクリックします。
 1. 最新の JavaScript appMeasurement ライブラリをダウンロードします。
@@ -40,9 +40,9 @@ ht-degree: 93%
 
 ### 実装に統合モジュールを配置する
 
-サイトに統合モジュールを実装するには、Adobe Experience Platformのデータ収集UIにアクセスする必要があります。 レガシー JavaScript 実装を使用する場合は、組織の Web サイトソースコードへのアクセスが必要になります。
+サイトに統合モジュールを実装するには、Adobe Experience Platform のデータ収集 UI にアクセスする必要があります。レガシー JavaScript 実装を使用する場合は、組織の Web サイトソースコードへのアクセスが必要になります。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 1. 編集するタグプロパティをクリックします。
 1. 「拡張機能」タブをクリックしてから、Adobe Analytics で「設定」をクリックします。
 1. カスタムコードアコーディオンを使用してトラッカーの設定を開き、「&lt;/> エディターを開く」をクリックします。
