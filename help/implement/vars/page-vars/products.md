@@ -3,9 +3,9 @@ title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->この変数が[`events`](events/events-overview.md)変数を含まないヒットで設定された場合、[製品表示回数](/help/components/metrics/product-views.md)指標は1増分されます。 各ヒットに対して、`products`変数を使用して適切なイベントを設定してください。
+>この変数が、[`events`](events/events-overview.md) 変数のないヒットで設定されている場合、[製品表示回数](/help/components/metrics/product-views.md)指標は 1 増分されます。各ヒットに対して、`products` 変数を使用して適切なイベントを設定していることを確認します。
 
-## Adobe Experience Platformでタグを使用する製品
+## Adobe Experience Platform のタグを使用した製品
 
-データ収集UIには、この変数を設定する専用のフィールドはありません。ただし、役に立つサードパーティの拡張機能は複数存在します。
+データ収集 UI にはこの変数を設定するための専用フィールドがありませんが、サードパーティ拡張機能が複数存在しています。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」をクリックして、使用可能な拡張機能をすべて表示します。
 4. 「product」という用語を検索すると、この変数の設定に役立ついくつかの拡張機能が明らかになります。
@@ -32,8 +32,8 @@ ht-degree: 80%
 
 `s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。各フィールドを文字列内でセミコロン（`;`）で区切ります。
 
-* **カテゴリ**（オプション）：包括的な製品カテゴリ。組織は、製品をカテゴリにグループ化する方法を決定します。このフィールドの最大長は100バイトです。
-* **製品名**（必須）：製品の名前。このフィールドの最大長は100バイトです。
+* **カテゴリ**（オプション）：包括的な製品カテゴリ。組織は、製品をカテゴリにグループ化する方法を決定します。このフィールドの最大長は 100 バイトです。
+* **製品名**（必須）：製品の名前。このフィールドの最大長は 100 バイトです。
 * **量**（オプション）：買い物かごに入っている製品の数。このフィールドは、購入イベントを含むヒットにのみ適用されます。
 * **価格**（オプション）：小数での製品の合計価格。量が 2 つ以上の場合、価格は個々の製品価格ではなく合計に設定します。この値の通貨を [`currencyCode`](../config-vars/currencycode.md) 変数に合わせて整列します。このフィールドに通貨記号を含めないでください。このフィールドは、購入イベントを含むヒットにのみ適用されます。
 * **イベント**（オプション）：製品に関連付けられたイベント。複数のイベントをパイプ（`|`）で区切ります。詳しくは、[イベント](events/events-overview.md)を参照してください。
@@ -44,7 +44,7 @@ ht-degree: 80%
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-この変数は、同じヒットで複数の製品をサポートします。買い物かごや複数の製品を含む購入に役立ちます。`products`文字列全体の最大長は64Kです。 各製品は文字列内でコンマ（`,`）で区切ります。
+この変数は、同じヒットで複数の製品をサポートします。買い物かごや複数の製品を含む購入に役立ちます。`products` 文字列全体の最大長は 64K です。各製品は文字列内でコンマ（`,`）で区切ります。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
