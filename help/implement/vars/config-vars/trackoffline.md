@@ -3,9 +3,9 @@ title: trackOffline
 description: オフライントラッキングを有効または無効にします。これにより、AppMeasurement でのデータ収集方法が変更されます。
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 91%
    * アドビのデータ収集サーバーに接続できない場合、ヒットはデバイス上のキューに追加されます。
    * アドビのデータ収集サーバーに接続できる場合は、デバイスがオフラインの間のヒットおよびヒットのキューが送信されます。
 
-## Adobe Experience Platformでのタグを使用したオフラインの追跡
+## Adobe Experience Platform のタグを使用したオフラインのトラッキング
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.trackOffline
 
