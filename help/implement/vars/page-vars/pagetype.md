@@ -3,9 +3,9 @@ title: pageType
 description: 現在のページが 404 エラーであるかどうかを調べます。
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 83%
 >
 > この変数は、エラーのないページに設定しないでください。
 
-## Adobe Experience Platformでタグを使用したページタイプ
+## Adobe Experience Platform のタグを使用したページタイプ
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.pageType
 
