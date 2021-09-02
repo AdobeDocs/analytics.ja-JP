@@ -3,9 +3,9 @@ title: dynamicAccountList
 description: 実装によるレポートスイートの決定方法に関するロジックを確立します。
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
-> 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在のAppMeasurementライブラリやデータ収集UIではサポートされていません。
+> 動的アカウントは、レガシー JavaScript 実装（H コード）を使用した場合にのみサポートされます。これらの変数は、現在の AppMeasurement ライブラリやデータ収集 UI ではサポートされていません。
 
 `s.dynamicAccountList` 変数は、`s_account` の値を動的に決定します。`dynamicAccountSelection` を `true` に設定すると、`dynamicAccountMatch` 変数が `dynamicAccountList` と比較されます 。一致が見つかった場合は、一致するレポートスイート ID が使用されます。
 
