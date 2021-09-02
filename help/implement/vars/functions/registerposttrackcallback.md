@@ -3,9 +3,9 @@ title: registerPostTrackCallback
 description: アドビにヒットを送信した後に、コールバック関数を作成します。
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 91%
 >
 > [`registerPreTrackCallback`](registerpretrackcallback.md) と `registerPostTrackCallback` の間に呼び出される関数のタイミングと順序は保証されません。この 2 つの関数間の依存関係を避けます。
 
-## Adobe Experience Platformでタグを使用したPost Trackコールバックの登録
+## Adobe Experience Platform のタグを使用したトラック後コールバックの登録
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.registerPostTrackCallback
 
