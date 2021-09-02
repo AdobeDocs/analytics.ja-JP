@@ -3,9 +3,9 @@ title: Util.cookieRead
 description: cookie の値を取得します。
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 87%
 
 Cookie は、同じドメインの複数のページにわたって情報を保存および取得できます。`Util.cookieRead()` メソッドを使用して Cookie から値を取得します。
 
-## Adobe Experience Platformのタグを使用したCookieの読み取り
+## Adobe Experience Platform のタグを使用した Cookie の読み取り
 
 Cookie を読み取るには、データ要素の値を設定します。
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL データ要素]」タブに移動し、目的のデータ要素をクリックします（またはデータ要素を作成します）。
 4. 「[!UICONTROL 拡張機能]」ドロップダウンを「[!UICONTROL コア]」に設定し、「[!UICONTROL データ要素タイプ]」を「[!UICONTROL Cookie]」に設定します。
