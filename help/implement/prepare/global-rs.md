@@ -3,9 +3,9 @@ title: Adobe Analytics のグローバルレポートスイート
 description: グローバルレポートスイートを使用する利点と要件を理解します。
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 93%
    >
    > 任意のカスタム変数がドメイン間で同様に使用されていることを確認します。サイト間で異なる目的で同じ eVar またはイベントを使用しないでください。
 1. 各ドメインにデータ層があり、データ収集を簡略化できることを確認します。データ層を使用せずにデータを収集することはできますが、実装の信頼性と長期間は、特にサイトのデザインが変更されるにつれて減少します。
-1. Adobe Experience Platformでタグを使用してAnalyticsを実装します。 サイトごとに異なるデータ要素が必要になる場合があります。各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。[タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)を参照してください。
+1. Adobe Experience Platform でタグを使用して Analytics を実装します。サイトごとに異なるデータ要素が必要になる場合があります。各ドメインに固有のルールを使用して、各データ要素が正しく入力されていることを確認し、それらのデータ要素をそれぞれの eVar およびイベントに割り当てます。[タグの概要](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を参照してください。
 1. [Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を含め、[appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=ja) 関数を使用します。この関数は、ユーザーが 1 つのドメインから別のドメインにクリックした場合に訪問者データをマージします。
 
 ## グローバルレポートスイートを使用した既存の実装の変更
@@ -50,7 +50,7 @@ ht-degree: 93%
 
 1. 既存のレポートスイートの 1 つを使用するか、新しいレポートスイートで新規に開始するかを決定します。実装内の既存の変数の用途を変更する場合は、新しいレポートスイートから開始することをお勧めします。
 2. グローバルレポートスイートに切り替える日を指定します。カットオーバーをおこなうのに最適なタイミングは、2 つの重要なレポート期間の間、またはサイトへの主要な変更と同時期です。例としては、会計四半期や年度の開始、サイトの更新中の開始、新しいタグ管理システムへの変更などがあります。
-3. 上記の手順に従います（レポートスイートを作成し、ソリューションデザインドキュメントでレポート要件を収集し、各サイトでデータ層を確立します）。Adobe Experience Platformでタグを実装する場合は、Webサイトの開発バージョンを使用して実装を検証します。
+3. 上記の手順に従います（レポートスイートを作成し、ソリューションデザインドキュメントでレポート要件を収集し、各サイトでデータ層を確立します）。Adobe Experience Platform でタグを実装する場合は、web サイトの開発バージョンを使用して実装を検証します。
 4. 実装が開発に対して動作していることを確認したら、カットオーバーの日にタグの実装をプッシュします。
 
 ## 関連ページ
