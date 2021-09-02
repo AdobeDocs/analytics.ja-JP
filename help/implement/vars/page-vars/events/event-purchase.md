@@ -3,9 +3,9 @@ title: 購入イベント
 description: 購入イベントを使用して、「注文件数」、「数量」および「売上高」指標のデータを収集します。
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 90%
 >
 >売上高に数量フィールドを掛けることはありません。例えば、`s.products="Womens;Socks;5;4.50"` では $22.50 ではなく、$4.50 が売上高に渡されます。実装において、リストされている量に対する合計売上高を渡すようにしてください。例： `s.products="Womens;Socks;5;22.50"`。
 
-## Adobe Experience Platformのタグを使用した購入イベントの設定
+## Adobe Experience Platform のタグを使用した購入イベントの設定
 
-1. Adobe IDの資格情報を使用して、[データ収集UI](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
 5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
 6. [!UICONTROL イベント]セクションを探し、「イベント」ドロップダウンを「[!UICONTROL 購入]」に設定します。
 
-`products`や`purchaseID`など、その他の依存変数には、データ収集UIの専用フィールドはありません。 これらの変数については、AppMeasurement 構文に従ったカスタムコードエディターを使用します。
+`products` や `purchaseID` など、その他の依存変数には、データ収集 UI の専用フィールドはありません。これらの変数については、AppMeasurement 構文に従ったカスタムコードエディターを使用します。
 
 ## AppMeasurement と カスタムコードエディターでの購入イベントの設定
 
