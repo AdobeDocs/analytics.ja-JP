@@ -3,9 +3,9 @@ title: タイムスタンプ
 description: ヒットのタイムスタンプを手動で設定します。
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 >
 > レポートスイートでタイムスタンプ付きのヒットを受け入れるように明示的に設定されていない場合は、この変数を使用しないでください。AppMeasurement は、タイムスタンプ付きのヒットをサポートしないレポートスイートのヒットの時間を自動的に設定します。この変数を含むヒットを、タイムスタンプをサポートしないレポートスイートに送信すると、そのデータは永久的に失われます。
 
-## Adobe Experience Platformのタグを使用したタイムスタンプ
+## Adobe Experience Platform のタグを使用したタイムスタンプ
 
-データ収集UIには、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.timestamp
 
@@ -41,7 +41,7 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601 値
 
-[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) で表される日付と時間は、様々な形式を取ることができます。アドビは、ISO 8601 のすべての機能をサポートしているわけではありません。
+[ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) で表される日付と時間は、様々な形式を取ることができます。アドビは、ISO 8601 のすべての機能をサポートしているわけではありません。
 
 * 日付と時刻を `T` で区切り、両方を指定する必要があります。
 * 時間と分が必要です。秒はオプションですが、推奨されます。
