@@ -3,10 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
+source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 98%
+source-wordcount: '2201'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,12 @@ JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートで�
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/code-manager-admin.md)でダウンロードできます。
+
+## バージョン 2.22.2
+
+リリース日：**2021 年 9 月 7 日（PT）**
+
+* この更新により、リンクの追跡時に`opt.dmp`と`opt.sell`が常に含まれるようになりました。 以下に、同意変数](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html)の完全なリストを示します。[
 
 ## バージョン 2.22.1
 
