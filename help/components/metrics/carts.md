@@ -2,17 +2,16 @@
 title: 買い物かご
 description: 訪問者が最初の製品を買い物かごに追加したヒットの数。
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 86%
 
 ---
 
 # 買い物かご
 
-「買い物かごからの削除件数」指標は、訪問者が買い物かごから何かを削除した回数を示します。この指標は、顧客が製品に興味を持たなくなったコンバージョンファネルの部分を理解したい場合に役立ちます。
+「買い物かご」指標は、訪問者が最初の製品を買い物かごに追加したヒット数を示します。
 
 ## この指標の計算方法
 
