@@ -3,10 +3,10 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1158'
-ht-degree: 100%
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 99%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 このヘルプページでは、各 Adobe Analytics ツールの推奨される使用例が紹介されています。ここにリストされている順にツールを検討するとよいでしょう。あるツールがニーズを満たさない場合は、次のツールの使用を検討します。
 
 Adobe Analytics の製品比較について詳しくは、[こちら](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)を参照してください。
+
+様々なAdobe Analyticsツールを比較したビデオを以下に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
 
 ## Adobe Analytics レポートユーザーインターフェイス {#user-interfaces}
 
@@ -112,7 +116,7 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
 
 ## カスタムソリューション {#custom-solutions}
 
-エンジニアリングサービスは、次のような場合に使用します：
+エンジニアリングサービスは、次のような場合に使用します:
 
 * その他のアドビツールではニーズが満たされない。
 * カスタムエクスペリエンスが必要。
