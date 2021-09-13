@@ -3,13 +3,13 @@ description: タッチポイントからセグメントを作成したり、セ�
 keywords: フォールアウトとセグメント作成;フォールアウト分析におけるセグメント;フォールアウトでのセグメント比較
 title: フォールアウト分析でのセグメントの適用
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 100%
 ## フォールアウトでのセグメントの比較 {#section_E0B761A69B1545908B52E05379277B56}
 
 フォールアウトビジュアライゼーションでは、無数のセグメントを比較できます。
+
+以下に、フォールアウトでのセグメントの比較に関するビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
 1. 左側の[!UICONTROL セグメント]パネルから比較したいセグメントを選択します。この例では、US Users と Non-US Users の 2 つのセグメントを選択しています。
 1. それらを上部のセグメントドロップゾーンにドラッグします。

@@ -4,10 +4,10 @@ title: 一般的なアカウント設定
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: d509de3ff49d996f821803f0a93c3184db4af1d3
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 83%
+source-wordcount: '811'
+ht-degree: 82%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 83%
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定の編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 一般的なアカウント設定]**
 
 これらの設定には、名前やタイムゾーンなど、基本的なレポートスイート機能の編集オプションが含まれます。
+
+一般的なアカウント設定に関するビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/332330/?quality=12)
 
 | オプション | 説明 |
 |--- |--- |

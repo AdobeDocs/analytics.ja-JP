@@ -2,13 +2,13 @@
 description: 仮想レポートスイートの作成を始める前に、以下に注意してください。
 keywords: 仮想レポートスイート
 title: 仮想レポートスイートの作成
-feature: Reports and Analytics の基本
+feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
-workflow-type: ht
-source-wordcount: '663'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,10 @@ ht-degree: 100%
 「[!UICONTROL 訪問の定義]」タブでこれらの設定を定義し、「**[!UICONTROL 続行]**」をクリックします。
 
 ![](assets/visit-definition.png)
+
+以下は、仮想レポートスイートの訪問の定義を調整する方法に関するビデオです。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 | 要素 | 説明 |
 | --- |--- |
