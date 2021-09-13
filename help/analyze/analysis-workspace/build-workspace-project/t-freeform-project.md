@@ -2,11 +2,11 @@
 description: プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
 keywords: Analysis Workspace
 title: Workspace プロジェクトの作成
-feature: Reports and Analytics の基本
+feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 100%
 # Workspace プロジェクトの作成
 
 プロジェクトを作成して、コンポーネント（ディメンション、指標、セグメントおよびデータ範囲）をフリーフォームパネルに追加します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 この記事では、Analysis Workspace インターフェイス要素について説明し、プロジェクトの作成方法を示します。
 
