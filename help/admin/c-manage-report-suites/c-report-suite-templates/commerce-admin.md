@@ -1,20 +1,19 @@
 ---
-description: e コマース Web サイトの共通設定を定義します。
+description: eコマース web サイトの共通設定を定義します。
 title: コマース
 feature: Admin Tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
 exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
-source-wordcount: '183'
+workflow-type: ht
+source-wordcount: '181'
 ht-degree: 100%
 
 ---
 
 # コマース
 
-e コマース Web サイトの共通設定を定義します。
+eコマース web サイトの共通設定を定義します。
 
 | コンバージョン変数 | タイプ | 下位関係 | 配分 | 有効期限 | `s_code` 変数 |
 |---|---|---|---|---|---|
@@ -27,11 +26,11 @@ e コマース Web サイトの共通設定を定義します。
 | 成功イベント | タイプ | `s_code` 変数 |
 |---|---|---|
 | 登録 | カウンター（下位関係なし） | `event1` |
-| カスタムイベント 1 ～ 5 | カウンター（下位関係なし） | `event1, event2, event3, event4, event5` |
+| カスタムイベント 1～5 | カウンター（下位関係なし） | `event1, event2, event3, event4, event5` |
 
 | カスタムインサイト変数 | `s_code` 変数 |
 |---|---|
-| トラフィックプロパティ 1 ～ 5 | `prop1, prop2, prop3, prop4, prop5` |
+| トラフィックプロパティ 1～5 | `prop1, prop2, prop3, prop4, prop5` |
 
 次の表は、標準コマースイベントの一覧です。標準コマースイベントの初期設定は、すべてのレポートスイートテンプレートで同じになります。該当なしの s_code 変数を含むイベントは、自動的に提供されるので、設定する必要はありません。
 
