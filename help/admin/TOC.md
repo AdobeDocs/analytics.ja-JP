@@ -5,7 +5,7 @@ user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定などについて説明します。
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
    + 処理ルール {#processing-rules}
       + [処理ルールの概要](admin/c-processing-rules/processing-rules.md)
       + 処理ルールの設定 {#processing-rules-configuration}
-         + [処理ルールのしくみ](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
+         + [処理ルールの仕組み](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
          + [処理順序](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [処理ルールの作成](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [アクティブな処理ルールの表示](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
@@ -70,12 +70,12 @@ ht-degree: 100%
       + [処理ルールで使用可能なディメンション](admin/c-processing-rules/processing-rule-dimensions.md)
       + 処理ルールの例 {#processing-rules-examples}
          + [処理ルールの例](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [クエリー文字列パラメーターからのキャンペーン ID の入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+         + [クエリ文字列パラメーターからのキャンペーン ID の入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
          + [製品の概要ページからの「製品表示」イベントの設定](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
          + [カテゴリとページ名の連結によるサブカテゴリの追加](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
          + [eVar 値を prop にコピーしてパスを指定](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
          + [レポート内の値のクリーンアップ](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [クエリー文字列パラメーターを使用して内部検索用語を入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+         + [クエリ文字列パラメーターを使用して内部検索用語を入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
          + [コンテキストデータ変数の eVar へのコピー](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
          + [コンテキストデータ変数を使用したイベントの設定](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [ヒットからのイベントの削除](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
