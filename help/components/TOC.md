@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+source-wordcount: '658'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 98%
    + [カスタムイベント](metrics/custom-events.md)
    + [入口](metrics/entries.md)
    + [出口](metrics/exits.md)
+   + [識別された人](metrics/identified-people.md)
    + [インスタンス](metrics/instances.md)
    + [モバイルビュー数](metrics/mobile-views.md)
    + [新規エンゲージメント](metrics/new-engagements.md)
@@ -127,6 +128,7 @@ ht-degree: 98%
    + [ページイベント](metrics/page-events.md)
    + [ページビュー数](metrics/page-views.md)
    + [エラーページ（404）](metrics/pages-not-found.md)
+   + [People Experience CloudID](metrics/people-with-exp-cloud-id.md)
    + [People](metrics/people.md)
    + [製品表示](metrics/product-views.md)
    + [リロード回数](metrics/reloads.md)
@@ -138,6 +140,7 @@ ht-degree: 98%
    + [訪問者別滞在時間](metrics/time-spent-per-visitor.md)
    + [滞在時間の概要](metrics/time-spent.md)
    + [合計滞在時間（秒）](metrics/total-seconds-spent.md)
+   + [特定されていないユーザー](metrics/unidentified-people.md)
    + [一意のデバイス](metrics/unique-devices.md)
    + [ユニーク訪問者](metrics/unique-visitors.md)
    + [単位](metrics/units.md)
