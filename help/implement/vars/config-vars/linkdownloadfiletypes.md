@@ -2,10 +2,10 @@
 title: linkDownloadFileTypes
 description: ダウンロードリンクとして自動的に追跡されるファイル拡張子を決定します。
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,12 +19,13 @@ ht-degree: 100%
 >
 > 実際のクリックのみが自動的に追跡されます。次のタイプのリンクは自動的には追跡されません。
 >
-> * ページ読み込み時に自動的に開始するファイルダウンロード
-> * リダイレクト後にトリガーするダウンロード
-> * 右クリックして「ターゲットに名前を付けて保存…」を選択します
-> * JavaScript を使用するリンク（`javascript:openLink()` など）
+>* ページ読み込み時に自動的に開始するファイルダウンロード
+>* リダイレクト後にトリガーするダウンロード
+>* 右クリックして「ターゲットに名前を付けて保存…」を選択します
+>* JavaScript を使用するリンク（`javascript:openLink()` など）
+
 >
-> これらのダウンロードタイプでは、手動で [`tl()`](../functions/tl-method.md) メソッドを呼び出すことができます。
+>これらのダウンロードタイプでは、手動で [`tl()`](../functions/tl-method.md) メソッドを呼び出すことができます。
 
 クリックされたリンクが出口リンクとダウンロードリンクの両方の条件に一致する場合、ダウンロードリンクタイプが優先されます。
 
