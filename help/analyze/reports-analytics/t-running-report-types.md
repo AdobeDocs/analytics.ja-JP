@@ -2,12 +2,12 @@
 description: 異なるレポートタイプの実行手順を説明します。
 title: 異なるレポートタイプの実行
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1283'
 ht-degree: 97%
 
 ---
@@ -79,7 +79,7 @@ Analysis Workspaceの[フロービジュアライゼーション](https://experi
 
 リアルタイムレポートには、概要レポートと詳細レポートという 2 つのメインレポートがあります。それぞれは複数のレポートレットから構成されています。
 
-リアルタイムレポートの設定については、[Analytics リファレンスガイド](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration)を参照してください。
+詳しくは、[リアルタイムレポートの概要](/help/components/c-real-time-reporting/realtime.md)を参照してください。
 
 1. **[!UICONTROL 概要]**&#x200B;レポートとそのコンポーネントをひととおり確認します。![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ Analysis Workspaceの[フロービジュアライゼーション](https://experi
    </tr> 
    </table>
 
-1. プライマリレポートレットのリスト項目をクリックすると、リスト項目の&#x200B;**[!UICONTROL 詳細]**&#x200B;ビューが表示されます。![](assets/rtr_detail_report.png)
+2. プライマリレポートレットのリスト項目をクリックすると、リスト項目の&#x200B;**[!UICONTROL 詳細]**&#x200B;ビューが表示されます。![](assets/rtr_detail_report.png)
 
    | **アイテムトレンドレポートレット** | 概要レポートで選択した項目の、過去 N 分間のトレンドラインを表示します。N の数値は時間範囲セレクターで設定できます。 |
    |---|---|
