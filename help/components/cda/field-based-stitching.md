@@ -2,16 +2,16 @@
 title: フィールドベースのステッチ
 description: フィールドベースのステッチを使用してデータをステッチする場合の前提条件と制限事項を理解します。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
+source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 98%
+source-wordcount: '522'
+ht-degree: 95%
 
 ---
 
 # フィールドベースのステッチ
 
-クロスデバイス分析には、データを結合する 2 つの異なる方法があります。この方法は、[prop](/help/implement/vars/page-vars/prop.md) や [eVar](/help/implement/vars/page-vars/evar.md) などの Analytics 変数に依存して、個人識別子を格納します。この変数をベースに、デバイスを相互にリンクします。
+クロスデバイス分析には、データを結合する 2 つの異なる方法があります。この方法は、[prop](/help/implement/vars/page-vars/prop.md) や [eVar](/help/implement/vars/page-vars/evar.md) などの Analytics 変数に依存して、個人識別子を格納します。この変数をベースに、デバイスを相互にリンクします。Adobeは、訪問者トラッキングの透明性と予測性を高めるために、このステッチオプションを推奨しています。
 
 ## フィールドベースのステッチに固有の前提条件
 

@@ -1,17 +1,17 @@
 ---
 title: 識別された人
 description: クロスデバイス分析で識別される人の数。
-source-git-commit: a3a30a4b7b7f9b4fa21af0b6f59f9648dd27cd0b
+source-git-commit: c6faacbc4b5365c500237682c3ec2ef71448be80
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 21%
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
 # 識別された人
 
-「識別された人」指標は、CDAによって識別される人の数をカウントする[クロスデバイス分析](../cda/overview.md)指標です。
+「識別された人」指標は、CDAによって識別される訪問者の数をカウントする[クロスデバイス分析](../cda/overview.md)指標です。
 
 ## この指標の計算方法
 
-コンテンツを準備中です。
+ステッチサービスによって新しい訪問者が識別される（ヒットが特定の新しい人物に結び付けられる）と、この指標は増加します。
