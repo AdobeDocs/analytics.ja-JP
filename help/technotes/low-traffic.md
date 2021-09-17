@@ -1,13 +1,13 @@
 ---
 description: レポートに大量の一意の値がある場合、発生頻度の高い値を確実にレポートに表示する機能があります。
 title: Adobe Analytics の低トラフィック値
-feature: 指標
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 100%
    * 値がまだレポートに含まれていない場合は、[!UICONTROL 低トラフィック]の行項目に表示されます。[!UICONTROL 低トラフィック]の行項目に含まれている値が短時間にかなりの回数見つかった場合、その値は独自の行項目として認識され始めます。項目を表示されるのに必要な「かなりの回数」は、その特定のレポートスイートのデータを処理している処理サーバーやデーモンの数などに多くの依存関係があります。
 
 [!UICONTROL 低トラフィック]行項目から独自の行項目に項目を移動させるのはなぜでしょうか。例えば、この移動では、（ユニークを超えた後に）月の後半に追加されて多くのヒットやビューを得ている、人気の新しいページや新しい項目を認識する場合があります。この移動は、1 日または 1 か月に一定数のヒット／ビューを取得するものすべてを取得するためのものではありません。
+
+>[!NOTE]
+>ページ参照数には、[!UICONTROL pagename]/[!UICONTROL page_url]の値だけが含まれるわけではありません。 ページ参照テーブルには、[!UICONTROL pagename]、[!UICONTROL first_hit_pagename]/[!UICONTROL page_url]、[!UICONTROL visit_pagename]/[!UICONTROL page_url]、クリックコンテキスト（古いClickMapデータ）などが含まれます。
 
 ## 一意の値のしきい値の変更
 
