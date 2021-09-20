@@ -5,24 +5,42 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
+source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 96%
+source-wordcount: '500'
+ht-degree: 75%
 
 ---
 
 # セグメント {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
-管理ツールで他のトラフィック変数を使用して、 
+複雑さの要件や、このプロジェクトにのみ適用するかどうかなどに応じて、様々なタイプのセグメントを作成できます。 セグメントタイプの概要を次に示します。
 
-## セグメントパネル {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
+| セグメントタイプ | どこで作成した？ | 適用可能な場所 | 複数のコンテナ？ | UIカラー |
+| --- | --- | --- | --- |
+| コンポーネントリストセグメント | [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md) | 左側のレールからすべてのプロジェクトに | ○ | 青 |
+| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトレベルのみ | × | グレー? |
+| アドホックセグメント： | 以下を参照 | プロジェクトレベルのみ | × | ? |
+| - Ad hoc Workspaceプロジェクトセグメント | セグメントにドラッグ&amp;ドロップした場合 新しいプロジェクトで |  |  |  |
+|  — 計算指標ベースのセグメント | 計算指標ビルダー |  |  |  |
+| - VRSベースのセグメント | 仮想レポートスイートビルダー |  |  |  |
+|  — セグメントビルダー「適用」 &quot; | セグメントビルダー |  |  |  |
+
+Adobe Analyticsでのセグメント化の詳細な説明については、[こちら](/help/components/segmentation/seg-overview.md)を参照してください。
+
+## 左側のパネルのコンポーネントリストセグメント {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 コンポーネントメニューのセグメントパネルには、次のアイコンで示されるようにセグメントとセグメントテンプレートが表示されます。
 
 ![](assets/segment_icons.png)
 
 [Analysis Workspace でのセグメントの使用](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html?lang=ja)（6:46）
+
+## Analysis Workspaceのアドホック（一時的な）セグメント
+
+アドホックセグメントに関するビデオを以下に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
 ## セグメントの作成 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -62,8 +80,4 @@ ht-degree: 96%
 | 共有／プロジェクトを共有または共有／プロジェクトデータをキュレート | [キュレーションおよび共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ja#concept_4A9726927E7C44AFA260E2BB2721AFC6)では、プロジェクトに適用するセグメントを、受信者に共有された分析で使用する方法について学習します。 |
 | ディメンションとしてセグメントを使用 | ビデオ：[Analysis Workspace でセグメントをディメンションとして使用する](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=ja) |
 
-## Analysis Workspaceのアドホック（一時的な）セグメント
 
-アドホックセグメントに関するビデオを以下に示します。
-
->[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
