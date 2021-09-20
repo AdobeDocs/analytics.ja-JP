@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '989'
 ht-degree: 99%
 
 ---
@@ -34,7 +34,9 @@ ht-degree: 99%
          + [ディメンションの分類](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [時間分割ディメンション](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [指標](analysis-workspace/components/apply-create-metrics.md)
-      + [セグメント](analysis-workspace/components/t-freeform-project-segment.md)
+      + セグメント {#segments}
+         + [セグメントの作成](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [クイックセグメント](analysis-workspace/components/segments/quick-segments.md)
       + カレンダーと日付範囲 {#calendar-date-ranges}
          + [カレンダーと日付範囲の概要](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [カスタム日付範囲の作成](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)

@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Workspace プロジェクトの作成
 feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -118,7 +118,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> セグメント（青） </td> 
-   <td colname="col2"> <p>パネルレベルにのみドラッグできますが、データテーブルにインラインセグメントを作成できます。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>詳しくは、「<a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >セグメント</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>パネルレベルにのみドラッグできますが、データテーブルにインラインセグメントを作成できます。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>詳しくは、「<a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  >セグメント</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日付範囲および精度（紫） </td> 
@@ -194,7 +194,7 @@ ht-degree: 100%
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 選択からセグメントを作成</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 選択からセグメントを作成</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 

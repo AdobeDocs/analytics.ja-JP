@@ -2,10 +2,10 @@
 title: Adobe Analytics でのボットの削除
 description: Adobe Analytics でボットを削除する方法
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: ht
-source-wordcount: '796'
-ht-degree: 100%
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 98%
 
 ---
 
@@ -49,11 +49,11 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-このデータ要素を設定したら、[次の手順](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=ja)に従って Adobe Experience Platform のタグを使用して ECID ツールに宣言済み ID を渡します。
+このデータ要素を設定したら、[次の手順](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)に従って Adobe Experience Platform のタグを使用して ECID ツールに宣言済み ID を渡します。
 
 ### 手順 2：セグメント化を使用したボットの識別
 
-訪問者の ECID を宣言済み ID に渡したので、[Analysis Workspace のセグメント化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=ja)を使用して、ボットのような行動をとる訪問者を識別できます。ボットは、多くの場合、直帰数、通常と異なるユーザーエージェント、不明なデバイス／ブラウザー情報、リファラーがない、新規訪問者、通常と異なるランディングページなどの動作によって定義されます。Workspace のドリルダウンとセグメント化の機能を使用して、IAB フィルタリングとレポートスイートのボットルールを回避したボットを識別します。例として、使用できるセグメントのスクリーンショットを次に示します。
+訪問者の ECID を宣言済み ID に渡したので、[Analysis Workspace のセグメント化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html)を使用して、ボットのような行動をとる訪問者を識別できます。ボットは、多くの場合、直帰数、通常と異なるユーザーエージェント、不明なデバイス／ブラウザー情報、リファラーがない、新規訪問者、通常と異なるランディングページなどの動作によって定義されます。Workspace のドリルダウンとセグメント化の機能を使用して、IAB フィルタリングとレポートスイートのボットルールを回避したボットを識別します。例として、使用できるセグメントのスクリーンショットを次に示します。
 
 ![](assets/bot-filter-seg1.png)
 

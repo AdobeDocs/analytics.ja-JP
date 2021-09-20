@@ -5,7 +5,7 @@ title: Analysis Workspace の新機能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
 source-wordcount: '8286'
 ht-degree: 99%
@@ -359,7 +359,7 @@ ht-degree: 99%
    <td colname="col2"> <p>インターフェイスの右下隅に、本日のヒントを（ショートビデオとともに）表示します。これらのヒントは、Analysis Workspace の多数ある優れた機能を紹介するものです。<span class="uicontrol">ヘルプ</span>／<span class="uicontrol">ヒント</span>から、いつでもヒントを解除、または利用可能にすることを選択できます。 </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > セグメントテンプレート</a>と<a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 計算指標テンプレート</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > セグメントテンプレート</a>と<a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 計算指標テンプレート</a></b> </p> </td> 
    <td colname="col2"> <p>左側のパネルには、セグメントテンプレートと計算指標テンプレートが表示されるようになりました。 </p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +605,7 @@ ht-degree: 99%
    <td colname="col2"> <p>データソースのディメンションが時間ディメンションの場合、時間の精度を簡単に切り替えることができるようになりました。ビジュアライゼーション設定のドロップダウンから精度を切り替えることができます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > セグメントドロップゾーンの拡張：フルディメンションおよびイベント </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > セグメントドロップゾーンの拡張：フルディメンションおよびイベント </a> </p> </td> 
    <td colname="col2"> <p>以前は、セグメントドロップゾーンにドロップできるのは、ディメンション項目、日付範囲またはセグメントだけでしたが、フルディメンションまたはイベントをセグメントドロップゾーンにドロップできるようになりました。どちらの場合も、「存在する」ヒットセグメントが Analysis Workspace で作成されます。 </p> <p>例：「eVar1 が存在するヒット」または「event1 が存在するヒット」。 </p> <p>注意：計算指標をセグメントゾーンにドロップすることはできません。セグメントゾーンにドロップできるのは、セグメントを作成できるディメンションまたは指標だけです。 </p> </td> 
   </tr> 
   <tr> 
@@ -935,7 +935,7 @@ ht-degree: 99%
    <td colname="col2"> <p>フォールアウトビジュアライゼーションの CSV 形式でのダウンロードがサポートされるようになりました。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > セグメント内の日付範囲 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > セグメント内の日付範囲 </a> </p> </td> 
    <td colname="col2"> <p>セグメントドロップゾーン（例えば、パネルのセグメントドロップゾーンやフォールアウトビジュアライゼーションのセグメントドロップゾーンなど）に日付範囲をドロップできます。それらの日付範囲はセグメントに自動変換されます。日付範囲はカスタムでもカスタムでなくてもかまいませんが、時間／日／週／月／四半期／年のような精度ではありません。 </p> </td> 
   </tr> 
   <tr> 
@@ -1058,7 +1058,7 @@ ht-degree: 99%
 * ランク付けされたテーブルの[トレンド選択](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)（折れ線グラフ）がリンクされました。
 * [ビジュアルを作成アイコン](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：このアイコンをクリックすると、次の操作がインテリジェントに推測されます（棒グラフ、ベン図など）。
 * 拡張された[手動の行](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)機能。
-* [セグメントを追加](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)ドロップゾーン。
+* [セグメントを追加](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)ドロップゾーン。
 * マイナーアップデート：
 
    * パネル内のすべてのビジュアライゼーション、およびプロジェクト内のすべてのパネルを削除できるようになりました（以前は、少なくとも 1 つのビジュアライゼーションか 1 つのパネルを維持する必要がありました）。
