@@ -5,14 +5,16 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '382'
 ht-degree: 96%
 
 ---
 
 # セグメント {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
+
+管理ツールで他のトラフィック変数を使用して、 
 
 ## セグメントパネル {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
