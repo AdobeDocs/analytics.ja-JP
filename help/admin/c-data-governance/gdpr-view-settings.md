@@ -4,7 +4,7 @@ title: レポートスイートのデータガバナンス設定の表示／管�
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
 ht-degree: 100%
 
