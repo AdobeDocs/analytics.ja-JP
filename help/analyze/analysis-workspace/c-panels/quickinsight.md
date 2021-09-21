@@ -1,13 +1,13 @@
 ---
 description: クイックインサイトは、新しい Workspace ユーザーを導くツールで、データテーブルやビジュアライゼーションの作成に使用します
 title: クイックインサイトパネル
-feature: パネル
+feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 * ディメンションの単純な分類、複数の指標の追加、[!UICONTROL フリーフォームテーブル]内でのセグメントの比較を簡単におこないます。
 * 様々なビジュアライゼーションタイプを変更または試して、分析の検索ツールをすばやく直感的に見つけます。
 
-次に、[!UICONTROL クイックインサイト]パネルの概要ビデオを示します。
+次に、 [!UICONTROL クイックインサイト] パネルの概要ビデオを示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
