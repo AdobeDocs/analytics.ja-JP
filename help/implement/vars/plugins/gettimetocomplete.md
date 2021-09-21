@@ -3,9 +3,9 @@ title: getTimeToComplete
 description: タスクの完了に要した時間を測定します。
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## プラグインの使用
 
-`getTimeToComplete`関数は次の引数を使用します。
+`getTimeToComplete` 関数は次の引数を使用します。
 
 * **`sos`**（オプション、文字列）：`"start"` をタイマーを開始する時に設定します。`"stop"` をタイマーを停止する時に設定します。デフォルト値は `"start"` です。
 * **`cn`**（オプション、文字列）：開始時間を保存する Cookie の名前です。デフォルト値は `"s_gttc"` です。
 * **`exp`**（オプション、整数）：Cookie（およびタイマー）の有効期限が切れる日数です。デフォルトは `0` で、ブラウザーセッションの終わりを表します。
 
-この関数を呼び出すと、`"start"`アクションと`"stop"`アクションの間にかかった日数、時間数、分数、秒数を含む文字列が返されます。
+この関数を呼び出すと、`"start"` と `"stop"` の間にかかった日数、時間数、分数、秒数を含む文字列が返されます。
 
 ## 例
 
