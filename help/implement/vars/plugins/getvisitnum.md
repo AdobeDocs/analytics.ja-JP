@@ -3,9 +3,9 @@ title: getVisitNum
 description: 訪問者の現在の訪問回数を追跡します。
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## プラグインの使用
 
-`getVisitNum`関数は次の引数を使用します。
+`getVisitNum` 関数は次の引数を使用します。
 
 * **`rp`**（オプション、整数または文字列）：訪問回数カウンターがリセットされるまでの日数です。未設定の場合のデフォルト値は `365` です。
    * この引数が `"w"` に指定されている場合、カウンターは週の終わり（この土曜日の午後 11:59）にリセットされます。
