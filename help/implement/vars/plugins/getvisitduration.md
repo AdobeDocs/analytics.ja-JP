@@ -3,9 +3,9 @@ title: getVisitDuration
 description: 訪問者がサイトに来訪した時間を追跡します。
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## プラグインの使用
 
-`getVisitDuration`関数は引数を使用しません。 以下のどちらかの値を返します。
+`getVisitDuration` 関数では引数を使用しません。以下のどちらかの値を返します。
 
 * `"first hit of visit"`
 * `"less than a minute"`
