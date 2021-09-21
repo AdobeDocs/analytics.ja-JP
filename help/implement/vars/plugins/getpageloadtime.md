@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: ページの読み込みにかかる時間を追跡します。
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## プラグインの使用
 
-`getPageLoadTime`関数は引数を使用しません。 この関数を呼び出すと、何も返されません。 代わりに、次の変数を設定します。
+`getPageLoadTime` 関数では引数を使用しません。この関数は呼び出されても、何も返されません。代わりに、次の変数を設定します。
 
 * `s._pltPreviousPage`：前のページ（読み込み時間を関連付けできます）。
 * `s._pltLoadTime`：前のページの読み込みに要した時間（秒）。
