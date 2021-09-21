@@ -3,7 +3,7 @@ title: addProductEvar
 description: マーチャンダイジング eVar を products 変数に追加します。
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
 
