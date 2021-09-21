@@ -3,9 +3,9 @@ title: Adobe Analytics が使用する IP とドメイン
 description: 組織のファイアウォールで、アドビから派生する IP アドレスがブロックされている場合は、このリストを使用してファイアウォール設定を更新してください。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Analytics では、次のホストを使用して、パフォーマンス�
 
 ## データ収集と FTP IP アドレスブロック
 
-特定の IP アドレス範囲を許可する場合次のテーブルを使用できます。このセクションのすべての範囲は、上の表に含まれています。Data Warehouseおよびデータフィード用のFTP接続は、ロンドン、オレゴンおよびシンガポールの場所からのみ開始されます。
+特定の IP アドレス範囲を許可する場合次のテーブルを使用できます。このセクションのすべての範囲は、上の表に含まれています。Data Warehouse およびデータフィード用の FTP 接続は、ロンドン、オレゴンおよびシンガポールの場所からのみ開始されます。
 
 | 場所 | IP 範囲（CIDR 表記） |
 | --- | --- |
