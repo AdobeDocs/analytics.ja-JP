@@ -3,9 +3,9 @@ title: Admin Console での Adobe Analytics
 description: Adobe Admin Console を使用して、Analytics の製品とユーザーを管理します。
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 83%
    * [レポートスイートツールの製品プロファイル権限](/help/admin/admin-console/permissions/report-suite-tools.md)
    * [Analytics ツールの製品プロファイル権限](/help/admin/admin-console/permissions/analytics-tools.md)
 
-## Adobe Analyticsでの管理者の追加
+## Adobe Analytics での管理者の追加
 
-以下に、プロセスに関する短いビデオを示します。
+次に、プロセスに関する短いビデオを示します。
 
 https://video.tv.adobe.com/v/37648/?quality=12
