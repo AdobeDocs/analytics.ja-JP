@@ -2,23 +2,23 @@
 description: 線のビジュアライゼーションを使用して、トレンド（時間ベース）のデータセットを表現します
 title: 行
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
 # 行
 
-[!UICONTROL 線]のビジュアライゼーションは、一定期間の値の変化を示すために、線を使用して指標を表します。 [!UICONTROL 折れ線グラフ]は、時間がディメンションとして使用される場合にのみ使用できます。
+[!UICONTROL 折れ線グラフ] のビジュアライゼーションは、一定期間の値の変化を示すために、線を使用して指標を表します。[!UICONTROL 折れ線グラフ] は、時間がディメンションとして使用される場合にのみ使用できます。
 
 ![行のビジュアライゼーション](assets/line-viz.png)
 
-[!UICONTROL 線]ビジュアライゼーションの右上にある歯車アイコンをクリックして、使用可能な&#x200B;[**ビジュアライゼーション設定**](freeform-analysis-visualizations.md)&#x200B;にアクセスします。 設定は次の分類に分類されます。
+[!UICONTROL 折れ線グラフ] のビジュアライゼーションの右上にある歯車アイコンをクリックして、 使用可能な [**ビジュアライゼーション設定**](freeform-analysis-visualizations.md) にアクセスします。設定は次の分類に分類されます。
 
 * **一般**：ビジュアライゼーションタイプ間で共通の設定
 * **軸**：線のビジュアライゼーションの X または Y 軸に影響する設定
