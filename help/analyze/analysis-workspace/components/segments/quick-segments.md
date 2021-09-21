@@ -3,9 +3,9 @@ description: Analysis Workspaceでのクイックセグメントの使用。
 title: クイックセグメント
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,11 @@ ht-degree: 0%
 
    ディメンションと指標を組み合わせたセグメントの例を次に示します。
 
+   ![](assets/quick-seg2.png)
+
+1. 「**[!UICONTROL 適用]**」をクリックして、このセグメントをパネルに適用します。
+セグメントが上部に表示されます。 左側のコンポーネントレベルのセグメントの青いバーとは異なり、灰色のバーに注意してください。
+
+   ![](assets/quick-seg3.png)
+
+1. クイックセグメント内
