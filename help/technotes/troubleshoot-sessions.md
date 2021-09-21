@@ -3,9 +3,9 @@ title: Adobe Analytics でのセッションのトラブルシューティング
 description: Adobe Analytics からログアウトする際の問題を解決する方法について説明します。
 exl-id: 191250ef-8313-47be-9717-046cce870998
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 88%
 
 ## プロキシによる問題
 
-アドビにリクエストを送信する際には、認証ヘッダーが使用されます。Edge Secure Web Gateway（旧称Bluecoat）などの一部のプロキシは、Adobe Analyticsが使用する重要な認証ヘッダー情報を取り除きます。 認証ヘッダーが表示されない場合、セッションの有効期限が切れます。
+アドビにリクエストを送信する際には、認証ヘッダーが使用されます。Edge Secure Web Gateway（旧称 Bluecoat）などの一部のプロキシは、Adobe Analytics が使用する重要な認証ヘッダー情報を取り除きます。認証ヘッダーが表示されない場合、セッションの有効期限が切れます。
 
 この問題を解決するには、貴社の IT 部門に依頼して、貴社のプロキシを通じて認証ヘッダーを許可することをお勧めします。
 
@@ -34,4 +34,4 @@ ht-degree: 88%
  のプロキシと認証ヘッダーに関する情報は、次を参照してください。
 
 * [ProxySG または ASG アプライアンスでのプロキシチェーンデプロイメントにおけるアップストリームプロキシ認証を設定する](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
-* [ProxySGアプライアンスの背後にあるサーバにユーザーの資格情報を転送する方法](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
+* [ProxySG アプライアンスの背後にあるサーバーにユーザーの資格情報を転送する方法](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
