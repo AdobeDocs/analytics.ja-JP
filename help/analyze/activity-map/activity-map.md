@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
-workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Activity Map は Adobe Analytics のアプリケーションであり、視覚�
 
 Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。
 
-以下に、Activity Mapの概要ビデオを示します。
+次に、Activity Map の概要ビデオを示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
 
