@@ -4,9 +4,9 @@ title: Adobe Analytics と GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 
 そのため Adobe Analytics にはデータガバナンス用ユーザーインターフェイスが用意されており、データ管理者であるお客様は、Analytics のレポートスイートと、レポートスイート内のすべてのディメンションと指標に[プライバシー用ラベル](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)を設定できます。お客様は、個人を直接的または間接的に特定できるデータを含むデータセット内の列を識別し、それらのデータに対するアクセス要求または削除要求を送信できます。各要求では、Analytics のデータガバナンス用ユーザーインターフェイスで設定されたラベルが、対象の要求に対応する固有識別子として扱われます。
 
-ラベルの設定方法について詳しくは、[レポートスイートのデータのラベル設定](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)を参照してください。
+ラベルの設定方法について詳しくは、[レポートスイートのデータのラベル設定](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) を参照してください。
 
 ## 前提条件 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -54,8 +54,8 @@ Adobe Cloud Platform（ACP）には統合型ソリューションが用意され
 
 * 権限の確認：Adobe Analytics でデータガバナンス管理インターフェイスを使用するには、Adobe Analytics の管理者である必要があります。
 
-## AdobePrivacyJS:GDPR要求に対するクライアント側のID解決
+## AdobePrivacyJS：GDPR リクエストに対するクライアントサイドの ID 解決
 
-このトピックに関するビデオの概要を次に示します。
+次に、このトピックに関する概要ビデオを示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
