@@ -3,10 +3,10 @@ description: Analysis Workspaceでアドホックセグメントを使用する�
 title: アドホックセグメント
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 45%
+source-wordcount: '278'
+ht-degree: 41%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 45%
 
    パネルにこのセグメントが自動的に適用され、結果をすぐに確認できます。
 
-1. 設定値
+1. 最大3つのアドホックセグメントをパネルに追加できます。
+1. このセグメントを保存する場合は、「アドホックセグメントを公開する」の節を参照してください。
 
 次の点に注意してください。
 
@@ -45,3 +46,4 @@ ht-degree: 45%
 1. 表示される情報パネルで、「**[!UICONTROL 公開する]**」をクリックします。
 
    ![](assets/segment-info.png)
+
