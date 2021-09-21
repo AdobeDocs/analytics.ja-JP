@@ -3,9 +3,9 @@ title: manageVars
 description: 一度に複数の Analytics 変数の値を変更します。
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## プラグインの使用
 
-`manageVars`関数は次の引数を使用します。
+`manageVars` 関数は次の引数を使用します。
 
 * **`cb`**（必須、文字列）：プラグインが Analytics 変数の操作に使用するコールバック関数の名前です。`cleanStr` のようなアドビの関数または独自のカスタム関数を使用できます。
 * **`l`**（オプション、文字列）：操作する Analytics 変数のコンマ区切りリストです。未設定の場合はデフォルトですべての Adobe Analytics 変数に設定され、次の変数が含まれます。
@@ -79,7 +79,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
    * すべてのコンテキストデータ変数
 * **`Il`**（オプション、ブール値）：`l` 引数で宣言された変数のリストを含める代わりに&#x200B;*除外*&#x200B;する場合には `false` に設定します。デフォルト値は `true` です。
 
-この関数を呼び出すと、何も返されません。 代わりに、目的のコールバック関数に基づいて Analytics 変数の値を変更します。
+この関数を呼び出すと、何も返されません。代わりに、目的のコールバック関数に基づいて Analytics 変数の値を変更します。
 
 ## 呼び出しの例
 
