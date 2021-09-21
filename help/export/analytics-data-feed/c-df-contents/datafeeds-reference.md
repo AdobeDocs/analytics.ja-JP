@@ -9,7 +9,7 @@ exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
 source-wordcount: '3420'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -85,8 +85,8 @@ ht-degree: 98%
 | `hier1 - hier5` | 階層変数で使用され、値の区切りリストが含まれます。区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
 | `hit_source` | ヒットの発生源を示します。ヒットソース 1、2、6 に対して請求が行われます。<br>1：標準的なイメージリクエスト（タイムスタンプなし）<br>2：標準的なイメージリクエスト（タイムスタンプあり）<br>3：ライブデータソースのアップロード（タイムスタンプあり）<br>4：未使用<br>5：汎用データソースのアップロード<br>6：完全な処理データソースのアップロード<br>7：TransactionID データソースのアップロード<br>8：廃止。Adobe Advertising Cloud の以前のバージョンのデータソース<br>9：廃止。Adobe Social サマリ指標<br>10：Audience Manager サーバーサイド転送を使用 | tinyint unsigned |
 | `hit_time_gmt` | Unix 時間に基づく、ヒットを受け取ったアドビデータ収集サーバーのタイムスタンプ。 | int |
-| `hitid_high` | `hitid_low`と組み合わせて使用し、ヒットを識別します。 | bigint unsigned |
-| `hitid_low` | `hitid_high`と組み合わせて使用し、ヒットを識別します。 | bigint unsigned |
+| `hitid_high` | `hitid_low` と組み合わせて使用し、ヒットを識別します。 | bigint unsigned |
+| `hitid_low` | `hitid_high` と組み合わせて使用し、ヒットを識別します。 | bigint unsigned |
 | `homepage` | 廃止。現在の URL がブラウザーのホームページかどうかを示します。 | char(1) |
 | `hourly_visitor` | ヒットが新しい時間別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | `ip` | イメージリクエストの HTTP ヘッダーに基づく IP アドレス。 | char(20) |
@@ -199,7 +199,7 @@ ht-degree: 98%
 | `state` | 状態変数。 | varchar(50) |
 | `stats_server` | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
 | `t_time_info` | 訪問者の現地時刻。形式：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。 形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | テキスト |
+| `tnt` | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。 形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType|Event/Action` | テキスト |
 | `tnt_action` | Adobe Target 統合で使用されます。ヒットが認定されるすべてのテストを表します。 | テキスト |
 | `tnt_post_vista` | 廃止。代わりに、`post_tnt` を使用してください。 | テキスト |
 | `transactionid` | データソースを使用して後から様々なデータポイントをアップロードするための一意の識別子。[`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用して収集します。 | テキスト |

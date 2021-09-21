@@ -7,7 +7,7 @@ user-guide-description: セグメント、計算指標、仮想レポートス�
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -198,11 +198,11 @@ ht-degree: 97%
       + [計算指標の合計](c-calcmetrics/cm-totals.md)
 + 仮想レポートスイート {#virtual-report-suites}
    + [仮想レポートスイートの概要](vrs/vrs-about.md)
-   + [仮想レポートスイート — コンポーネントのキュレーション](vrs/vrs-components.md)
+   + [仮想レポートスイート - コンポーネントのキュレーション](vrs/vrs-components.md)
    + [Mobile Services の VRS サポート](vrs/vrs-mobile-services.md)
    + [コンテキスト対応セッション](vrs/vrs-mobile-visit-processing.md)
    + [レポート時間処理](vrs/vrs-report-time-processing.md)
-   + [A4Tに関する考慮事項](vrs/vrs-a4t.md)
+   + [A4T に関する考慮事項](vrs/vrs-a4t.md)
    + [VRS FAQ](vrs/vrs-faq.md)
    + [VRS とグローバル／マルチスイートタグ付けに関する考慮事項](vrs/vrs-considerations.md)
    + VRS のワークフロー {#vrs-workflow}

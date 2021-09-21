@@ -8,7 +8,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
 source-wordcount: '8286'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 >[!IMPORTANT]
 >Analysis Workspace の更新が [Adobe Analytics ドキュメントの更新](/help/technotes/doc-updates.md)ページに展開されました。
 
-包括的な製品のアップデートについては、「 [Adobe Experience Cloudリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) 」を参照してください。
+包括的な製品のアップデートについては、 [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) を参照してください。
 
 ## 2021 年 3 月
 
@@ -959,7 +959,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 日付の比較 </a> </p> </td> 
-   <td colname="col2"> <p>新しい日付比較機能により、任意の列を使用して、前年比、前四半期比、前月比などの一般的な日付比較を作成できます。 </p> <p>日付比較を利用すると、自動的に「差異」列が追加され、割合（％）の変化が表示されます。 </p> </td> 
+   <td colname="col2"> <p>新しい日付比較機能により、任意の列を使用して、前年比、前四半期比、前月比などの一般的な日付比較を作成できます。 </p> <p>日付比較を利用すると、自動的に 「差異」列が追加され、割合（％）の変化が表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

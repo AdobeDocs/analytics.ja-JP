@@ -5,7 +5,7 @@ exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->詳しくは、[Device Co-opの提供終了](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html)を参照してください。
+>詳しくは、 [Device Co-op の提供終了](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=ja) を参照してください。
 
 CDA を使用すると、次のような質問に答えることができます。
 
@@ -48,13 +48,13 @@ CDA を使用するには、次のすべてが必要です。[フィールドベ
 * CDA は Analysis Workspace でのみ使用できます。
 * クロスデバイス分析は、複数のレポートスイートで機能しません。また、複数のレポートスイートのデータを組み合わせることもできません。
 * Adobe Analytics レポートスイートを複数の IMS 組織にマッピングすることはできません。CDA は特定のレポートスイート内のデバイスを結び付けるので、CDA を使用して複数の IMS 組織間をまたいでデータを結び付けることはできません。
-* プライベートグラフでは、Experience Cloud と Adobe Analytics で使用されている[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes)機能と同じ ID 同期を活用します。ただし、CDA 仮想レポートスイート（プライベートグラフベースかフィールドベースのステッチベースかにはかかわらず）は、残りの顧客属性機能との互換性はありません。つまり、顧客属性ベースのディメンションは、CDA 仮想レポートスイート内では使用できません。
+* プライベートグラフでは、Experience Cloud と Adobe Analytics で使用されている[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja)機能と同じ ID 同期を活用します。ただし、CDA 仮想レポートスイート（プライベートグラフベースかフィールドベースのステッチベースかにはかかわらず）は、残りの顧客属性機能との互換性はありません。つまり、顧客属性ベースのディメンションは、CDA 仮想レポートスイート内では使用できません。
 * 現在、CDA と A4T には互換性がありません。
 * クロスデバイス分析では、仮想レポートスイートとレポートの時間処理を使用しますが、これには独自の制限があります。これらの制限について詳しくは、[仮想レポートスイート](../vrs/vrs-about.md)と[レポートの時間処理](../vrs/vrs-report-time-processing.md)を参照してください。
 * 1.4 API はサポートされません。Power BI コネクタと Report Builder はどちらも 1.4 API に依存しているので、CDA との互換性がありません。
 * アドビによる CDA ステッチプロセスのアクティブな監視は、実稼動用レポートスイートにのみ制限されます。
 * 現在、CDA には Adobe Analytics [Data Repair API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) との互換性がありません
 * 仮想レポートスイートの履歴データは、アドビによるデバイスの認識と組み合わせに基づいて変化します。ソースレポートスイート内のデータは変更されません。
-* ステッチデータは、8 ～ 12時間の遅延に従います。
+* ステッチデータは、8～12 時間の遅延に従います。
 * 特定のデバイスのマッピング履歴データは、最大1年間保存されます。
 * 1年間でデバイスが非常に多くのマッピング履歴エントリに達すると、マッピング履歴が切り捨てられます。 正確な制限は、使用するステッチオプションによって異なります。
