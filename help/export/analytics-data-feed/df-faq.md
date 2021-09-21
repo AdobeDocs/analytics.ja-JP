@@ -4,9 +4,9 @@ keywords: データフィード;ジョブ;pre列;post列;大文字と小文字�
 title: データフィードに関する FAQ
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Analytics では、ほとんどの変数は、レポートの目的で、�
 
 Adobe では、Microsoft Excel で `hit_data.tsv` ファイルを自動的に開かないことをお勧めします。代わりに、Excel のデータのインポートダイアログボックスを使用し、すべてのフィールドがテキストとして扱われていることを確認してください。
 
-## `hitid_high`、`hitid_low`、`visid_high`、`visid_low`などの列は、必ずヒットまたは訪問ごとに一意になりますか？
+## `hitid_high`、`hitid_low`、`visid_high`、`visid_low` などの列は、ヒットまたは訪問ごとに必ず一意になりますか？
 
-ほとんどの場合、 `hitid_high`と`hitid_low`を連結することで、ヒットを一意に識別します。 同じ概念が、訪問の`visid_high`と`visid_low`の連結に適用されます。 ただし、処理の異常値によって2つのヒットが同じヒットIDを共有することはほとんどありません。 Adobeでは、すべてのヒットが一意であることに柔軟に依存するデータフィードワークフローを作成しないことをお勧めします。
+ほとんどの場合、`hitid_high` と `hitid_low` を連結することで、ヒットを一意に識別します。同じ概念が、訪問の `visid_high` と `visid_low` の連結に適用されます。ただし、処理の異常値によって 2 つのヒットが同じヒット ID を共有することはほとんどありません。 アドビでは、すべてのヒットが一意であることに依存する柔軟性のないデータフィードワークフローは作成しないことをお勧めします。
 
 ## 一部の通信事業者のドメイン列に情報が表示されないのはなぜですか。 {#section_B7508D65370442C7A314EAED711A2C75}
 
