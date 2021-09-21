@@ -3,9 +3,9 @@ title: addProductEvent
 description: カスタムイベントを製品およびイベント変数に追加します。
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## プラグインの使用
 
-`addProductEvent`関数は次の引数を使用します。
+`addProductEvent` 関数は次の引数を使用します。
 
 * **`en`**（必須、文字列）：`products` 変数の最後のエントリに追加するイベント。`products` 変数が空の場合、イベント（およびその値）が添付された「空白」の製品エントリが作成されます。
 * **`ev`**（必須、文字列）：`en` 引数内の数値イベントまたは通貨イベントに割り当てられる値。未設定の場合のデフォルト値は `1` です。文字列の引用符で囲まれていない数値も有効です。
@@ -67,7 +67,7 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## Cookie
 
-`addProductEvent`関数は、Cookieを作成または使用しません。
+`addProductEvent` 関数は、Cookie の作成や使用はしません。
 
 ## 例
 
