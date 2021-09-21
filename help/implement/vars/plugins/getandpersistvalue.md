@@ -3,9 +3,9 @@ title: getAndPersistValue
 description: 後でいつでも取得できる値を格納します。
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 >
 > このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
-`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。これは、Adobe Experience Platform のタグを使用した[!UICONTROL ストレージ期間]機能と同様の役割を果たします。変数の設定後の後続のヒットで Analytics 変数を自動的に同じ値に保持する場合は、このプラグインを使用することをお勧めします。このプラグインは、データ収集UIの[!UICONTROL ストレージ期間]機能で十分な場合は必要ありません。 後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。eVarはAdobeごとにサーバー側で保持されるので、組み込みのeVarの永続性ではこのプラグインを使用する必要はありません。
+`getAndPersistValue` プラグインを使用すると、Cookie に値を保存して後で訪問中に取得できます。これは、Adobe Experience Platform のタグを使用した[!UICONTROL ストレージ期間]機能と同様の役割を果たします。変数の設定後の後続のヒットで Analytics 変数を自動的に同じ値に保持する場合は、このプラグインを使用することをお勧めします。このプラグインは、データ収集 UI の [!UICONTROL ストレージ期間] 機能で十分な場合は必要ありません。後続のヒットで変数を同じ値に設定して永続化する必要がない場合も、このプラグインを使用する必要はありません。eVar はアドビがサーバーサイドで保持するので、組み込みの eVar の永続性はこのプラグインを使用する必要はありません。
 
 ## Adobe Experience Platform のタグを使用したプラグインのインストール
 
@@ -57,7 +57,7 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## プラグインの使用
 
-`getAndPersist`関数は次の引数を使用します。
+`getAndPersist` 関数は次の引数を使用します。
 
 * **`vtp`**（必須）：ページ間で保持する値です。
 * **`cn`**（オプション）：値を保存する Cookie の名前です。この引数が設定されていない場合、Cookie の名前は `"s_gapv"` です。
