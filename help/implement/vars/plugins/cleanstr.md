@@ -3,9 +3,9 @@ title: cleanStr
 description: 文字列から不要な文字をすべて削除または置換します。
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## プラグインの使用
 
-`cleanStr`関数は次の引数を使用します。
+`cleanStr` 関数は次の引数を使用します。
 
 * **`str`**（必須、文字列）：HTML エンコーディング、余分な空白、タブ、またはその他の不要な文字を消去する値です。
 
-この関数は、不要な文字をすべて削除した`str`引数の値を返します。
+この関数は、不要な文字をすべて削除した `str` 引数の値を返します。
 
 ## 例
 
