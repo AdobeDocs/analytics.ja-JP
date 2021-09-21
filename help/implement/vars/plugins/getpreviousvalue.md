@@ -3,9 +3,9 @@ title: getPreviousValue
 description: 変数に渡された最後の値を取得します。
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -56,12 +56,12 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## プラグインの使用
 
-`getPreviousValue`関数は次の引数を使用します。
+`getPreviousValue` 関数は次の引数を使用します。
 
 * **`v`**（文字列、必須）：次のイメージリクエストに渡す値を持つ変数。一般的な変数は、前のページ値を取得するために使用される `s.pageName` です。
 * **`c`**（文字列、オプション）：値を格納する Cookie の名前。この引数を設定しない場合、デフォルトは `"s_gpv"` になります。
 
-この関数を呼び出すと、Cookieに含まれる文字列値が返されます。 その後、プラグインは Cookie の有効期限をリセットし、`v` 引数から変数値を割り当てます。Cookie は、無操作状態が 30 分間続くと有効期限が切れます。
+この関数を呼び出すと、Cookie に含まれる文字列値が返されます。その後、プラグインは Cookie の有効期限をリセットし、`v` 引数から変数値を割り当てます。Cookie は、無操作状態が 30 分間続くと有効期限が切れます。
 
 ## 例
 
@@ -83,7 +83,7 @@ s.eVar10 = getPreviousValue(s.eVar1);
 
 ## 万が一の場合
 
-`v`引数に関連付けられた変数が新しい値に設定され、`getPreviousValue`プラグインが実行され、Analyticsサーバー呼び出しが同時に送信されない場合、新しい`v`引数の値は、次回プラグインが実行される際に「以前の値」と見なされます。
+`v` 引数に関連付けられた変数が新しい値に設定され、`getPreviousValue` プラグインが実行され、Analytics サーバー呼び出しが同時に送信されない場合、新しい `v` 引数の値は、次回プラグインが実行されたときに「以前の値」と見なされます。
 例えば、次のコードが訪問の最初のページで実行されるとします。
 
 ```js
@@ -92,14 +92,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-このコードは、`pageName`が「Home」でprop7が設定されていないサーバーコールを生成します。  ただし、`getPreviousValue`の呼び出しによって、`pageName`の値が`gpv_Page` Cookieに保存されます。 同じページ上で次のコードが直後に実行されたとします。
+このコードは、`pageName` が「Home」で prop7 が設定されていないサーバーコールを生成します。ただし、`getPreviousValue` の呼び出しによって、`pageName` の値が `gpv_Page` Cookie に保存されます。同じページ上で次のコードが直後に実行されたとします。
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-`t()`関数はこのコードブロックで実行されないので、別のイメージリクエストは送信されません。  ただし、この時点で`getPreviousValue`関数コードが実行されると、`prop7`は以前の値`pageName`(&quot;Home&quot;)に設定され、`pageName`(&quot;New value&quot;)の新しい値を`gpv_Page` Cookieに保存します。 次に、訪問者が別のページに移動し、このページで次のコードが実行されたとします。
+`t()` 関数はこのコードブロックで実行されないので、別のイメージリクエストは送信されません。ただし、この時点で `getPreviousValue` 関数コードが実行されると、`prop7` は以前の値 `pageName` (「Home」) に設定され、`pageName` (「New value」) の新しい値を `gpv_Page` Cookie に保存します。次に、訪問者が別のページに移動し、このページで次のコードが実行されるとします。
 
 ```js
 s.pageName = "Page 2";
@@ -107,7 +107,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-`t()`関数を実行すると、`pageName`が「ページ2」、`prop7`が「新しい値」（`getPreviousValue`の最後の呼び出しがおこなわれたときの`pageName`の値）というイメージリクエストが作成されます。 `pageName`に渡された最初の値が「Home」であったにもかかわらず、 `"Home"`の`prop7`値がイメージリクエストに含まれることはありませんでした。
+`t()` 関数を実行すると、`pageName` が「Page 2」、`prop7`が「New value」（`getPreviousValue` の最後の呼び出しが行なわれたときの `pageName` の値）というイメージリクエストが作成されます。`pageName` に渡された最初の値が「Home」であったにもかかわらず、 `"Home"` の `prop7` 値がイメージリクエストに含まれることはありませんでした。
 
 ## バージョン履歴
 
