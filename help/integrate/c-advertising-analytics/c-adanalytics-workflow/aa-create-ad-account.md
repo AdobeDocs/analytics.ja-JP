@@ -3,9 +3,9 @@ title: Advertising Analytics で広告アカウントを設定する方法
 description: 新しい広告アカウントを作成し、複数のアカウントを複数のレポートスイートにマッピングできます。
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 
    >[!IMPORTANT]
    >
-   >選択できるのは、Experience Cloud組織にマッピングされたレポートスイートのみです。 使用するレポートスイートが表示されない場合は、[Advertising Analytics のトラブルシューティング](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)を参照してください。
+   >選択できるのは、Experience Cloud 組織にマッピングされたレポートスイートのみです。使用するレポートスイートが表示されない場合は、[Advertising Analytics のトラブルシューティング](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)を参照してください。
 
    「**[!UICONTROL マッピングの設定]**」では、以下のガイドラインに従います。
 
