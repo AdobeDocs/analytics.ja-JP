@@ -4,7 +4,7 @@ title: Advertising Analytics 用のレポートスイートの有効化
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Advertising Analytics の検索データを Analytics で表示するには、Experience Cloud をマッピングした各レポートスイートを Advertising Analytics レポート用に設定する必要があります。
 
-1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;に移動します。
+1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]** に移動します。
 
 1. Experience Cloud の組織にマッピングされているレポートスイートを選択します。
 1. **[!UICONTROL 設定の編集]**／**[!UICONTROL Advertising Analytics 設定]**&#x200B;をクリックします。
