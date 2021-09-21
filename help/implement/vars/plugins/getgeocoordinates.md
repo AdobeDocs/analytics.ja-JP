@@ -3,9 +3,9 @@ title: getGeoCoordinates
 description: 訪問者の geoLocation を追跡します。
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## プラグインの使用
 
-`getGeoCoordinates`関数は引数を使用しません。 以下のどちらかの値を返します。
+`getGeoCoordinates` 関数では引数を使用しません。以下のどちらかの値を返します。
 
 * `"geo coordinates not available"`：プラグインの実行時に利用できる地域データのないデバイスの場合。この値は、訪問の最初のヒットで一般的です。特に、訪問者が場所を追跡する際に、最初に同意する必要がある場合に使用されます。
 * `"error retrieving geo coordinates"`：プラグインがデバイスの場所を取得しようとしたときにエラーが発生した場合。
