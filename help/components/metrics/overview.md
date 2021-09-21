@@ -3,9 +3,9 @@ title: 指標の概要
 description: 時間の経過に伴うディメンション項目またはデータの表示量。
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 88%
 
 ## 指標の説明の追加
 
-以下は、Adobe Analyticsで指標（およびディメンション）の説明を追加する方法を説明するビデオです。
+次に、Adobe Analytics で指標（およびディメンション）の説明を追加する方法を説明するビデオを示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
