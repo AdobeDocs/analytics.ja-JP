@@ -3,9 +3,9 @@ title: getTimeBetweenEvents
 description: 2 つのイベントの間隔を測定します。
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## プラグインの使用
 
-`getTimeBetweenEvents`関数は次の引数を使用します。
+`getTimeBetweenEvents` 関数は次の引数を使用します。
 
 * **`ste`**（必須、文字列）：タイマー開始イベント。Analytics「タイマー開始」イベントのコンマ区切りの文字列。
 * **`rt`**（必須、ブール値）：タイマーの再開オプション。`events` 変数にタイマー開始イベントが含まれるたびにタイマーを再開する場合には、`true` に設定します。タイマー開始イベントが発生したときにタイマーを再開しない場合には、`false` に設定します。
