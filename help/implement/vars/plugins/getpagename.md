@@ -3,9 +3,9 @@ title: getPageName
 description: 現在の Web サイトのパスから読みやすい pageName を作成します。
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -57,14 +57,14 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## プラグインの使用
 
-`getPageName`関数は次の引数を使用します。
+`getPageName` 関数は次の引数を使用します。
 
 * **`si`**（オプション、文字列）：サイトの ID を表す文字列の先頭に挿入される ID。この値は、数値 ID またはわかりやすい名前にすることができます。設定しない場合は、デフォルトで現在のドメインが使用されます。
 * **`qv`**（オプション、文字列）：URL 内にある場合に文字列に追加されるクエリー文字列パラメーターのコンマ区切りリストです。
 * **`hv`**（オプション、文字列）：URL ハッシュに含まれるパラメーターのコンマ区切りリストです。URL 内に含まれる場合は文字列に追加されます。
 * **`de`**（オプション、文字列）：文字列の個々の部分を分割する区切り文字です。デフォルトはパイプ（`|`）です。
 
-この関数は、わかりやすい形式のURLを含む文字列を返します。 この文字列は通常 `pageName` 変数に割り当てられますが、他の変数でも使用できます。
+この関数は、わかりやすい形式の URL を含む文字列を返します。この文字列は通常 `pageName` 変数に割り当てられますが、他の変数でも使用できます。
 
 ## 例
 
@@ -93,7 +93,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## 以前のバージョンからのアップグレード
 
-`getPageName`プラグインのバージョン4.0以降は、Adobe AnalyticsのAppMeasurementオブジェクト（`s`オブジェクト）の存在に依存しません。 このバージョンにアップグレードする場合は、`s`オブジェクトのインスタンスを呼び出しから削除して、プラグインを呼び出すコードを変更します。 例えば、`s.getPageName();`を`getPageName();`に変更します。
+`getPageName` プラグインのバージョン 4.0 以降は、Adobe Analytics の AppMeasurement オブジェクト（`s` オブジェクト）の存在に依存しません。このバージョンにアップグレードする場合は、呼び出しから `s` オブジェクトの任意のインスタンスを削除し、プラグインを呼び出すコードを変更してください。例えば、`s.getPageName();` を `getPageName();` に変更します。
 
 ## バージョン履歴
 
