@@ -5,9 +5,9 @@ user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の分析ツールやコンポーネントに属さない有益な記事を含むナレッジベース。
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
