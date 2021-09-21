@@ -3,9 +3,9 @@ title: getTimeSinceLastVisit
 description: 2 回の訪問の間の経過時間を測定します。
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## プラグインの使用
 
-`getTimeSinceLastVisit`関数は引数を使用しません。 訪問者が最後にサイトに来てから経過した時間を次の形式でグループ化して返します。
+`getTimeSinceLastVisit` 関数では引数を使用しません。訪問者が最後にサイトに来てから経過した時間を次の形式でグループ化して返します。
 
 * 最後の訪問から 30 分～1 時間の時間は、最も近い 0.5 分のベンチマークに設定されます。例：`"30.5 minutes"`、`"53 minutes"`。
 * 1 時間～1 日の時間は、最も近い 0.25 時間刻みのベンチマーク値に丸められます。例：`"2.25 hours"`、`"7.5 hours"`。
