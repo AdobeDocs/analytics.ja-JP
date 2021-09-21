@@ -2,13 +2,13 @@
 description: この Workspace ビジュアライゼーションは折れ線グラフに似ていますが、線の下に色付きの領域があります。
 title: 面グラフおよび積み重ね面グラフ
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -30,6 +30,6 @@ ht-degree: 93%
 
 ![](assets/areastacked100.png)
 
-次に、「100%の積み重ね」ビジュアライゼーションに関するビデオを示します。
+次に、「100%積み上げビジュアライゼーション」に関するビデオを示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
