@@ -3,10 +3,10 @@ description: Analysis Workspaceでのクイックセグメントの使用。
 title: クイックセグメント
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
+source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -42,8 +42,22 @@ ht-degree: 0%
    ![](assets/quick-seg2.png)
 
 1. 「**[!UICONTROL 適用]**」をクリックして、このセグメントをパネルに適用します。
-セグメントが上部に表示されます。 左側のコンポーネントレベルのセグメントの青いバーとは異なり、灰色のバーに注意してください。
+セグメントが上部に表示されます。 左側のコンポーネントレベルのセグメントの青いバーとは異なり、灰色のサイドバーに注意してください。
 
    ![](assets/quick-seg3.png)
 
-1. クイックセグメント内
+## クイックセグメントを公開する
+
+次の手順に従うことで、これらのセグメントを公開（グローバル）できます。
+
+1. クイックセグメントの上にマウスポインターを置いて、「i」アイコンをクリックします。
+1. 「**[!UICONTROL ビルダーを開く]**」をクリックします。
+セグメントビルダーにセグメントが開きます。
+   >[!NOTE]
+   >セグメントビルダーでセグメントを適用または保存すると、クイックセグメントビルダーで編集できなくなります。
+1. 「**[!UICONTROL OK]**」をクリックします。
+1. セグメントビルダーで、「**[!UICONTROL 適用]**」をクリックします。
+1. Workspaceに戻り、セグメントに青いサイドバーが表示され、コンポーネントライブラリの一部であることを示します。
+
+   ![](assets/quick-seg4.png)
+
