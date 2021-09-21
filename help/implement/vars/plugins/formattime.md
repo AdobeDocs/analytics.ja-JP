@@ -3,9 +3,9 @@ title: formatTime
 description: 秒数を分単位、時間単位などで同等の値に変換します。
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '600'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## プラグインの使用
 
-`formatTime`関数は次の引数を使用します。
+`formatTime` 関数は次の引数を使用します。
 
 * **`ns`**（必須、整数）：変換または書式設定する秒数です。
 * **`tf`**（オプション、文字列）：秒を返す形式のタイプで、デフォルトは秒です。
@@ -67,7 +67,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
    * 秒単位の時間を求める場合には `"s"` に設定します（デフォルトでは最も近い 5 秒刻みのベンチマーク値に丸められます）。
 * **`bml`**（オプション、数値）：丸めベンチマークの長さです。デフォルトでは、`tf` 引数にリストされたベンチマークです。
 
-この関数は、`tf`引数で指定した単位を使用して形式設定された秒数を返します。 `tf` 引数が設定されていない場合：
+この関数は、`tf` 引数で指定した単位を使用して形式設定された秒数を返します。`tf` 引数が設定されていない場合：
 
 * 1 分未満の値は、最も近い 5 秒刻みのベンチマーク値に丸められます。
 * 1 分～1 時間の値は、最も近い 0.5 分刻みのベンチマーク値に丸められます。
