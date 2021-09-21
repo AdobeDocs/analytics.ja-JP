@@ -3,9 +3,9 @@ title: apl（appendToList）
 description: 複数の値をサポートする変数に値を追加します。
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## プラグインの使用
 
-`apl`関数は次の引数を使用します。
+`apl` 関数は次の引数を使用します。
 
 * **`lv`**（必須、文字列）：新しい値を追加する項目の区切りリストを含む変数です。
 * **`vta`**（必須、文字列）：`lv` 引数の値に追加する新しい値のコンマ区切りリストです。
@@ -71,7 +71,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 * **`d2`**（オプション、文字列）：出力の区切り文字です。設定されていない場合のデフォルト値は、`d1` と同じ値です。
 * **`cc`**（オプション、ブール値）：チェックで大文字と小文字が区別されるかどうかを示すフラグです。`true` の場合、重複チェックでは大文字と小文字が区別されます。`false` の場合や未設定の場合、重複チェックでは大文字と小文字が区別されません。デフォルト値は `false` です。
 
-`apl`関数は、`lv`引数の値に、`vta`引数内の重複しない値を加えた値を返します。
+`apl` 関数は、`lv` 引数の値に、`vta` 引数内の重複しない値を加えた値を返します。
 
 ## 例
 
@@ -151,7 +151,7 @@ s.list3 = apl(s.list3,"value1");
 
 ### 2.5（2016 年 2 月 18 日（PT））
 
-* 比較処理に`inList`関数を使用するようになりました。
+* 比較処理に `inList` 関数を使用するようになりました。
 
 ### 2.0（2016 年 1 月 26 日（PT））
 
