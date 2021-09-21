@@ -3,9 +3,9 @@ title: ディメンションの概要
 description: 文字列値を含む変数。
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,6 +25,6 @@ ht-degree: 85%
 
 ## ディメンションの説明の追加
 
-以下は、Adobe Analyticsでディメンション（および指標）の説明を追加する方法を説明するビデオです。
+次に、Adobe Analytics でディメンション（および指標）の説明を追加する方法を説明するビデオを示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
