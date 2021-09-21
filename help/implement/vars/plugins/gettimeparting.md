@@ -3,9 +3,9 @@ title: getTimeParting
 description: 特定のアクションが実行される時間を測定します。
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## プラグインの使用
 
-`getTimeParting`関数は次の引数を使用します。
+`getTimeParting` 関数では、次の引数を使用します。
 
 **`t`**（オプション、推奨、文字列）：訪問者のローカル時間を変換するタイムゾーンの名前。デフォルトは UTC／GMT 時間です。有効な値の完全なリストについては、Wikipedia の [List of TZ database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)（英語）を参照してください。
 
@@ -74,7 +74,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 * `"America/Denver"`（山岳地帯）
 * `"America/Los_Angeles"`（太平洋標準時間）
 
-この関数を呼び出すと、次のように区切られたパイプ(`|`)を含む文字列が返されます。
+この関数を呼び出すと、パイプ（`|`）で区切られた次を含む文字列が返されます。
 
 * 現在の年
 * 現在の月
