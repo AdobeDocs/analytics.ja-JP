@@ -3,9 +3,9 @@ title: getNewRepeat
 description: 新規訪問者とリピーターのアクティビティを追跡します。
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## プラグインの使用
 
-`getNewRepeat`関数は次の引数を使用します。
+`getNewRepeat` 関数は次の引数を使用します。
 
 * **`d`**（整数、オプション）：訪問者を再び `"New"` にリセットする間隔の最小日数です。この引数を設定しない場合、デフォルトで 30 日に設定されます。
 
-この関数は、プラグインによって設定されたCookieが存在しないか、有効期限が切れている場合、`"New"`の値を返します。 プラグインによって設定された Cookie が存在する場合、および現在のヒットからの経過時間と Cookie に設定された時間が 30 分を超える場合、`"Repeat"` の値を返します。この関数は、訪問全体で同じ値を返します。
+この関数は、プラグインによって設定された Cookie が存在しないか、有効期限が切れている場合の `"New"` 値を返します。プラグインによって設定された Cookie が存在する場合、および現在のヒットからの経過時間と Cookie に設定された時間が 30 分を超える場合、`"Repeat"` の値を返します。この関数は、訪問全体に対して同じ値を返します。
 
 このプラグインは、`[LENGTH]` が `d` 引数と等しい、「`"s_nr[LENGTH]"`」という名前の Cookie を使用します。Cookie には、現在時刻と訪問者の現在のステータス（`"New"` または `"Repeat"`）を表す Unix タイムスタンプが含まれます。
 
