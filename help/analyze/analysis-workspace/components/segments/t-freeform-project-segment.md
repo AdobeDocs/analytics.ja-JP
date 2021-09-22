@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 42%
+source-wordcount: '499'
+ht-degree: 43%
 
 ---
 
@@ -20,9 +20,9 @@ Workspaceでは、複雑さの程度や、このプロジェクトにのみ適�
 | セグメントタイプ | どこで？ | 適用可能な場所 | 使用するタイミング |
 | --- | --- | --- | --- |
 | コンポーネントリストセグメント | 「+」をクリックすると、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)が表示されます。 | すべてのWorkspaceプロジェクト | より複雑なセグメントでは、順次セグメント |
-| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトレベルで使用できますが、セグメントリストに保存して追加できます。 | 1つ以上のルールを柔軟に追加/編集 |
+| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトのみ。ただし、セグメントリストを保存して追加できます。 | 1つ以上のルールを柔軟に追加/編集 |
 | アドホックセグメント： |  |  |  |
-|  — アドホックワークスペースプロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ&amp;ドロップします](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | プロジェクトレベルで使用できますが、セグメントリストに保存して追加できます。 | デフォルトの単一ルールセグメント（制限なし） |
+|  — アドホックワークスペースプロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ&amp;ドロップします](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | プロジェクトのみ。ただし、セグメントリストを保存して追加できます。 | デフォルトの単一ルールセグメント（制限なし） |
 |  — 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 個々の計算指標を追加するには | 指標定義内でのセグメントの適用 |
 | - VRSベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | 個々の仮想レポートスイートへ | VRS定義内でのセグメントの適用 |
 

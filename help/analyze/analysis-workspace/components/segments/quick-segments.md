@@ -3,9 +3,9 @@ description: Analysis Workspaceでのクイックセグメントの使用。
 title: クイックセグメント
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # クイックセグメント
 
-プロジェクト内に迅速なセグメントを作成して、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)全体の複雑さを回避できます。 本格的なコンポーネントレベルのセグメントとクイックセグメントで実行できる操作の比較については、[ここ](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)を参照してください。
+プロジェクト内に迅速なセグメントを作成して、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)全体の複雑さを回避できます。 本格的なコンポーネントリストセグメントとクイックセグメントの機能の比較については、[ここ](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)を参照してください。
 
 >[!IMPORTANT]
 > 現在、クイックセグメントは制限付きテストで、一般にはまだ利用できません。
@@ -56,7 +56,7 @@ ht-degree: 0%
 次の手順に従って、クイックセグメントを保存できます。
 
 >[!IMPORTANT]
->保存したセグメントは、クイックセグメントビルダーでは編集できなくなり、通常のセグメントビルダーでのみ編集できます。
+>セグメントを保存または適用すると、クイックセグメントビルダーでは編集できなくなり、通常のセグメントビルダーでのみ編集できます。
 
 1. クイックセグメントにカーソルを移動し、情報(「i」)アイコンを選択します。
 1. 「**[!UICONTROL セグメントを保存]**」を選択します。
@@ -65,13 +65,11 @@ ht-degree: 0%
 
 1. 名前はそのままにするか、セグメントの名前を変更します。
 
-1. Workspaceに戻り、セグメントに青いサイドバーが表示され、コンポーネントライブラリの一部であることを示します。
+   Workspaceに戻り、セグメントが青いサイドバーになっていることを確認します。 これは、クイックセグメントビルダーで編集/開くことができなくなったことを示しています。 保存すると、コンポーネントリストの一部になります。
 
    ![](assets/quick-seg4.png)
 
-## セグメントをすべてのプロジェクトで使用できるようにする
-
-セグメントを保存したら、セグメントコンポーネントリストに追加して、すべてのプロジェクトで使用できるようにします。
+セグメントを適用したら、セグメントコンポーネントリストに追加して、すべてのプロジェクトで使用できるようにします。
 
 1. 保存したセグメントの上にマウスポインターを置いて、鉛筆アイコンを選択します。
 
@@ -82,12 +80,8 @@ ht-degree: 0%
 1. 「**[!UICONTROL このセグメントをすべてのプロジェクトで使用できるようにし、コンポーネントリストに追加します。]**
 1. 「**[!UICONTROL 保存]**」をクリックします。
 1. セグメントが、すべてのプロジェクトのセグメントコンポーネントリストに表示されます。
-1. [セグメント](/help/components/segmentation/segmentation-workflow/t-seg-share.md)を共有することもできます。
+1. また、[セグメント](/help/components/segmentation/segmentation-workflow/t-seg-share.md)を組織内の他のユーザーと共有することもできます。
 
-## クイックセグメントをアドホックセグメントに変換する
+## プロジェクトのみのセグメントとは
 
-1. 保存したセグメントの上にマウスポインターを置いて、鉛筆アイコンを選択します。
-
-1. セグメントビルダーの上部で、「**[!UICONTROL 適用]**」をクリックします。
-
-アドホックセグメントについて詳しくは、[ここ](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)を参照してください。
+プロジェクトのみのセグメントは、クイックセグメントまたはアドホックWorkspaceプロジェクトセグメントです。 セグメントビルダーで編集または開くと、プロジェクトのみのボックスが表示されます。 ユーザーがビルダーでクイックセグメントを適用し、「使用可能にする」ボックスをオンにしない場合、そのセグメントはプロジェクトのみのセグメントですが、QSビルダーで開くことはできません。 これらがチェックボックスをオンにして「保存」すると、コンポーネントリストセグメントになります。
