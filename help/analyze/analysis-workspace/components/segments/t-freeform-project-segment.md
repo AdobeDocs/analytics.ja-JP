@@ -5,12 +5,13 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
+source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 57%
+source-wordcount: '501'
+ht-degree: 42%
 
 ---
+
 
 # セグメント {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
@@ -18,14 +19,16 @@ Workspaceでは、複雑さの程度や、このプロジェクトにのみ適�
 
 | セグメントタイプ | どこで？ | 適用可能な場所 | 使用するタイミング |
 | --- | --- | --- | --- |
-| コンポーネントリストセグメント | [セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md) | グローバル/パブリック | 複雑なセグメントの場合、順次セグメント |
-| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトレベル。ただし、公開可能 | ルール、名前、複数のルールを追加/編集する柔軟性と制御 |
+| コンポーネントリストセグメント | 「+」をクリックすると、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)が表示されます。 | すべてのWorkspaceプロジェクト | より複雑なセグメントでは、順次セグメント |
+| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトレベルで使用できますが、セグメントリストに保存して追加できます。 | 1つ以上のルールを柔軟に追加/編集 |
 | アドホックセグメント： |  |  |  |
-| - Ad hoc Workspaceプロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ&amp;ドロップします](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | プロジェクトレベル。ただし、公開可能 | デフォルトの単一ルールセグメントの場合 |
+|  — アドホックワークスペースプロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ&amp;ドロップします](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | プロジェクトレベルで使用できますが、セグメントリストに保存して追加できます。 | デフォルトの単一ルールセグメント（制限なし） |
 |  — 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 個々の計算指標を追加するには | 指標定義内でのセグメントの適用 |
 | - VRSベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | 個々の仮想レポートスイートへ | VRS定義内でのセグメントの適用 |
 
-Adobe Analyticsでのセグメント化の詳細な説明については、[こちら](/help/components/segmentation/seg-overview.md)を参照してください。
+Analysis Workspaceでのセグメントの使用に関するビデオを紹介します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
 ## セグメントの作成 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -37,11 +40,22 @@ Analysis Workspaceでは、様々なタイプのセグメントを作成でき�
 
 ### コンポーネントリストセグメントの作成 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
-コンポーネントメニューのセグメントパネルには、次のアイコンで示されるようにセグメントとセグメントテンプレートが表示されます。
+コンポーネントメニューの下のセグメントレールにが表示されます。
+* 自分または自分の会社が作成したセグメント
+* セグメントテンプレート(Adobeアイコンで示されます)
 
 ![](assets/segment_icons.png)
 
-[Analysis Workspace でのセグメントの使用](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html?lang=ja)（6:46）
+このタイプのセグメントを作成するには、2つのオプションがあります。 どちらも、Adobe Analyticsの[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)に移動します。
+
+* 左側のレールで、「[!UICONTROL セグメント]」の横のプラス記号(+)をクリックします。
+
+![](assets/create-seg.png)
+
+ または
+
+* [!UICONTROL コンポーネント] > [!UICONTROL セグメント]に移動し、[!UICONTROL +追加]をクリックします。
+
 
 ### セグメントを適用するその他の方法 {#section_10FF2E309BA84618990EA5B473015894}
 
@@ -58,7 +72,11 @@ Analysis Workspaceでは、様々なタイプのセグメントを作成でき�
 
 ## Segment IQ
 
-Segment IQ は、次の機能で構成されます。
+セグメントIQ（セグメント比較とも呼ばれます）は、次の機能で構成されます。
 
 * [ セグメント比較パネル：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)Segment IQ のコア機能。2 つのセグメントをパネルにドラッグし、統計的に有意な違いと 2 つのオーディエンス間の重複を示す包括的なレポートを表示します。
 * [フォールアウトでのセグメントの比較：](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)フォールアウトビジュアライゼーションのコンテキストで、異なるオーディエンスを相互に比較する方法を確認します。
+
+## 詳細情報
+
+Adobe Analyticsでのセグメント化の詳細な説明については、[こちら](/help/components/segmentation/seg-overview.md)を参照してください。
