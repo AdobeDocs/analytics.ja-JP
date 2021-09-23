@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
+source-git-commit: 63f833ffb3578614d7148bfcc6c786d4ddc8a2a8
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 43%
+source-wordcount: '511'
+ht-degree: 42%
 
 ---
 
@@ -22,7 +22,7 @@ Workspaceでは、複雑さの程度や、このプロジェクトにのみ適�
 | コンポーネントリストセグメント | 「+」をクリックすると、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)が表示されます。 | すべてのWorkspaceプロジェクト | より複雑なセグメントでは、順次セグメント |
 | クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトのみ。ただし、セグメントリストを保存して追加できます。 | 1つ以上のルールを柔軟に追加/編集 |
 | アドホックセグメント： |  |  |  |
-|  — アドホックワークスペースプロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ&amp;ドロップします](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | プロジェクトのみ。ただし、セグメントリストを保存して追加できます。 | デフォルトの単一ルールセグメント（制限なし） |
+|  — アドホックワークスペースプロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ&amp;ドロップします](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | プロジェクトのみ。ただし、セグメントリストを保存して追加できます。 | 単一ルールセグメントの場合（制限なし） |
 |  — 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 個々の計算指標を追加するには | 指標定義内でのセグメントの適用 |
 | - VRSベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | 個々の仮想レポートスイートへ | VRS定義内でのセグメントの適用 |
 
@@ -36,7 +36,7 @@ Analysis Workspaceでは、様々なタイプのセグメントを作成でき�
 
 * [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
 * [アドホックセグメント](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
-* セグメントライブラリで終わる通常のコンポーネントリストセグメント（以下を参照）
+* セグメントビルダーで作成し、セグメントライブラリで終わる通常のコンポーネントリストセグメント（以下を参照）
 
 ### コンポーネントリストセグメントの作成 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
@@ -46,7 +46,7 @@ Analysis Workspaceでは、様々なタイプのセグメントを作成でき�
 
 ![](assets/segment_icons.png)
 
-このタイプのセグメントを作成するには、2つのオプションがあります。 どちらも、Adobe Analyticsの[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)に移動します。
+このタイプのセグメントを作成するには、2つのオプションがあります。 どちらも、Adobe Analyticsの[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)に移動します。ここで、詳細な手順を確認できます。
 
 * 左側のレールで、「[!UICONTROL セグメント]」の横のプラス記号(+)をクリックします。
 
