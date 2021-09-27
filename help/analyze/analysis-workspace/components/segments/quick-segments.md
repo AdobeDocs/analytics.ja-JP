@@ -3,7 +3,7 @@ description: Analysis Workspaceでのクイックセグメントの使用。
 title: クイックセグメント
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
+source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 2%
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 ## クイックセグメントの保存
 
-クイックセグメントビルダーまたはセグメントビルダーで、クイックセグメントを保存するよう選択できます。
+[!UICONTROL クイックセグメントビルダー]または[!UICONTROL セグメントビルダー]でクイックセグメントを保存するよう選択できます。
 
 >[!IMPORTANT]
 >セグメントを保存または適用すると、クイックセグメントビルダーでは編集できなくなり、通常のセグメントビルダーでのみ編集できます。
