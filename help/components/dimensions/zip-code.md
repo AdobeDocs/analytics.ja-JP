@@ -2,11 +2,10 @@
 title: 郵便番号
 description: 訪問者の郵便番号。
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 ディメンション項目には、訪問者の郵便番号が含まれます。
 
-## Adobe Analytics では、どの国の郵便番号をレポートできますか？
+## サポートされる郵便番号の国
 
 * オーランド諸島
 * アルバニア

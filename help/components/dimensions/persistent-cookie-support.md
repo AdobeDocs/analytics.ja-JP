@@ -2,14 +2,27 @@
 title: 永続的な cookie のサポート
 description: 訪問者が永続的な cookie をサポートできるかどうかを指定します。
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '20'
-ht-degree: 100%
+source-git-commit: 82d6137bc9229bbaa997c6856690bf76c20b755c
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 11%
 
 ---
 
 # 永続的な cookie のサポート
 
-コンテンツを準備中です。
+「永続的な cookie のサポート」ディメンションは、ヒットが永続的なソースから発生した訪問者識別子を使用したかどうかを示します。 最も一般的な永続的なソースは cookie からのものですが、モバイルヘッダーや他のソースも使用できます。
+
+## このディメンションへのデータ入力
+
+Adobeは、ヒットの識別子のソースに基づいて、このディメンションの値をサーバーサイドで決定します。 直接設定する方法はありません。 すべての実装で初期設定の状態で機能します。
+
+## ディメンション項目
+
+* **`Enabled`**:ヒットの訪問者識別子は、通常は持続するソースから取得されます。最も一般的な例としては、 `aid`、`fid`、`mid` の各クエリー文字列パラメーターがあり、これらは cookie から値を導き出します。
+* **`Disabled`**:ヒットの訪問者 ID は、IP +ユーザーエージェント文字列など、Adobeが永続的と認識しないソースから取得したものです。このディメンション項目には、[`visitorID`](/help/implement/vars/config-vars/visitorid.md) 変数を使用したカスタム訪問者 ID も含まれます。
+
+## 「cookie のサポート」と「永続的な cookie のサポート」の違い
+
+* **cookie サポート**:AppMeasurement は汎用 Cookie の設定を試みます。ディメンション項目は、Cookie が正常に設定されたかどうかを基にします。
+* **永続的な cookie のサポート**:ディメンション項目は、ヒットの識別子が永続的なソース（Cookie など）から生成されたものかどうかに基づきます。
