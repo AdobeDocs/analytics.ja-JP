@@ -3,9 +3,9 @@ description: Analysis Workspaceでクイックセグメントを使用する。
 title: クイックセグメント
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '886'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 ## 前提条件 
 
-すばやくセグメントを作成するには、[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) で [!UICONTROL  セグメントの作成 ] 権限が必要です。
+[!UICONTROL  クイックセグメント ] は誰でも作成できます。 ただし、すばやくセグメントを保存したり、[!UICONTROL  セグメントビルダー ] で開いたりするには、[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) で [!UICONTROL  セグメントの作成 ] 権限が必要です。
 
 ## クイックセグメントの作成
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 セグメントが上部に表示されます。 左側のセグメントライブラリのコンポーネントレベルのセグメントの青いサイドバーとは異なり、青い縞のサイドバーに注意してください。
 
-![](assets/quick-seg3.png)
+![](assets/quick-seg5.png)
 
 ## クイックセグメントの編集
 
@@ -73,24 +73,15 @@ ht-degree: 2%
 ### クイックセグメントビルダーで保存
 
 1. クイックセグメントを適用したら、該当するセグメントにカーソルを移動し、情報 (「i」) アイコンを選択します。
+
+   ![](assets/quick-seg6.png)
+
 1. **[!UICONTROL 「すべてのプロジェクトで使用可能にする」をクリックし、コンポーネントリスト]** に追加します。
 1. （オプション）セグメントの名前を変更します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 セグメントのサイドバーが縞模様の青から青に変わるのに注意してください。 これで、左側のレールのコンポーネントリストに表示されます。
 
-### セグメントビルダーで保存
-
-1. クイックセグメントにカーソルを移動し、情報 (「i」) アイコンを選択します。
-1. 「**[!UICONTROL セグメントを保存]**」を選択します。
-
-   ![](assets/save-quick-seg.png)
-
-1. 名前はそのままにするか、セグメント名を変更します。
-
-   Workspace に戻り、セグメントが青いサイドバーで表示されるのを確認します。 これは、クイックセグメントビルダーで編集/開くことができなくなったことを示しています。 保存すると、コンポーネントリストの一部になります。
-
-   ![](assets/quick-seg4.png)
 
 セグメントを適用したら、セグメントコンポーネントリストに追加して、すべてのプロジェクトで使用できるようにします。
 
