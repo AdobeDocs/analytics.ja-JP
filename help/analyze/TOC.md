@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
-source-git-commit: d395feb9a2d08f1c9e670d593b250c2d9bfa83f5
+source-git-commit: b3ed242a677ada3eef61b79ecb4167d834ee132e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 99%
+source-wordcount: '1005'
+ht-degree: 98%
 
 ---
 
@@ -312,6 +312,8 @@ ht-degree: 99%
 + Adobe Analytics ダッシュボード {#mobapp}
    + [Adobe Analytics ダッシュボード — 概要](mobile-app/home.md)
    + [キュレーター向けガイド](mobile-app/curator.md)
+   + [スコアカードの作成](mobile-app/create-scorecard.md)
+   + [スコアカードを使用するエグゼクティブの設定](mobile-app/set-up-execs.md)
    + [エグゼクティブユーザー向けクイックスタートガイド](mobile-app/executive.md)
 + [レポート API](reporting-api.md)
 + [Labs](labs.md)
