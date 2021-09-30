@@ -3,10 +3,10 @@ description: Analytics ダッシュボードスコアカードの作成方法
 title: スコアカードの作成
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 81%
+source-wordcount: '1037'
+ht-degree: 74%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 81%
 
 場合によっては、エグゼクティブユーザーがアプリケーションにアクセスして使用するために追加の支援が必要になることがあります。この節では、その支援を提供するのに役立つ情報を提供します。
 
-## エグゼクティブユーザーのシステム前提条件
+## アプリユーザーが Adobe Analytics のアクセス権を持っていることを確認します
+
+1. [Experience CloudAdmin Console](/help/admin/admin-console/permissions/product-profile.md) で新しいユーザーを設定します。
+
+1. スコアカードを共有するには、Analysis Workspace、スコアカードの基になるレポートスイート、セグメント、指標、ディメンションなどのスコアカードコンポーネントにアクセスするためのアプリユーザーの権限を付与する必要があります。
+
+## アプリユーザーのシステム前提条件
 
 エグゼクティブユーザーがアプリケーションのスコアカードにアクセスできるようにするには、次の点を確認します。
 
 * ユーザーのモバイル OS が、iOS バージョン 10 以上、または Android バージョン 4.4（KitKat）以上である
-* ユーザーに Adobe Analytics への有効なログインがある
-* モバイルスコアカードを正しく作成し、共有している
-* ユーザーが Analysis Workspace およびスコアカードが基づくレポートスイートにアクセスできる
-* ユーザーがスコアカードに含まれるコンポーネントにアクセスできるスコアカードを共有する際に、「**[!UICONTROL 埋め込みコンポーネントを共有]**」オプションを選択できることにご注意ください。
+* ユーザーに Adobe Analytics への有効なログインがある。
+* モバイルスコアカードを正しく作成し、共有している。
+* ユーザーは、スコアカードに含まれるコンポーネントにアクセスできます。 スコアカードを **[!UICONTROL 埋め込みコンポーネントを共有]** する際に、オプションを選択できます。
 
 ## エグゼクティブによるアプリのダウンロードとインストールの支援
 
