@@ -3,9 +3,9 @@ description: Analysis Workspaceでクイックセグメントを使用する。
 title: クイックセグメント
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
+source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 本格的なコンポーネントリストセグメントとクイックセグメントの機能の比較については、[ ここ ](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) を参照してください。
 
 >[!IMPORTANT]
-> 現在、クイックセグメントは制限付きテストで、まだ一般には利用できません。
+> 現在、クイックセグメントは制限付きテスト中で、2021 年 10 月 21 日に一般に提供されます。
 
 ## 前提条件 
 
