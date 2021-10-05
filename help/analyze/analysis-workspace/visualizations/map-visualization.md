@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,6 +92,6 @@ Analysis Workspace のマップのビジュアライゼーションの特徴を�
 
 ## 時間分割ヒートマップの作成
 
-次に、トピックに関するビデオを示します。
+こちらが、このトピックに関するビデオです：
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
