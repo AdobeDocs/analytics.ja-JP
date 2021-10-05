@@ -4,9 +4,9 @@ title: 使用する Adobe Analytics ツールの検討
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1168'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 Adobe Analytics の製品比較について詳しくは、[こちら](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)を参照してください。
 
-様々なAdobe Analyticsツールを比較したビデオを以下に示します。
+以下は、様々な Adobe Analytics ツールを比較したビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27220/?quality=12)
 
