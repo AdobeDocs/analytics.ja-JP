@@ -3,9 +3,9 @@ description: Adobe Analyticsダッシュボードスコアカードの作成方�
 title: スコアカードの作成
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1195'
 ht-degree: 60%
 
 ---
@@ -104,7 +104,7 @@ Adobe Analyticsのスコアカードには、次に示すように、エグゼ�
 
 ### ビジュアライゼーションの適用
 
-Analytics ダッシュボードには、4 つのビジュアライゼーションが用意され、ディメンション項目に関する優れたインサイトが得られるようになりました。 タイルのプロパティの [!UICONTROL  グラフのタイプ ] を変更して、別のビジュアライゼーションを適用します。
+Analytics ダッシュボードには、4 つのビジュアライゼーションが用意されており、これらのビジュアライゼーションを使用して、ディメンション項目と指標を詳細に把握できます。 タイルのプロパティの [!UICONTROL  グラフのタイプ ] を変更して、別のビジュアライゼーションに変更します。
 
 ![タイルのプロパティ](assets/properties.png)
 
@@ -117,6 +117,8 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 **行のビジュアライゼーション**
 
 行のビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフ は、時間がディメンションとして使用される場合にのみ使用できます。
+
+
 
 **[!UICONTROL 横棒グラ] フ**
 
