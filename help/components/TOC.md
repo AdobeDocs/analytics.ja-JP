@@ -5,9 +5,9 @@ user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 99%
    + [カスタムイベント](metrics/custom-events.md)
    + [入口](metrics/entries.md)
    + [出口](metrics/exits.md)
-   + [識別された人](metrics/identified-people.md)
+   + [識別済みユーザー](metrics/identified-people.md)
    + [インスタンス](metrics/instances.md)
    + [モバイルビュー数](metrics/mobile-views.md)
    + [新規エンゲージメント](metrics/new-engagements.md)
@@ -128,7 +128,7 @@ ht-degree: 99%
    + [ページイベント](metrics/page-events.md)
    + [ページビュー数](metrics/page-views.md)
    + [エラーページ（404）](metrics/pages-not-found.md)
-   + [People Experience CloudID](metrics/people-with-exp-cloud-id.md)
+   + [PeopleExperience Cloud ID を持つ](metrics/people-with-exp-cloud-id.md)
    + [People](metrics/people.md)
    + [製品表示](metrics/product-views.md)
    + [リロード回数](metrics/reloads.md)
