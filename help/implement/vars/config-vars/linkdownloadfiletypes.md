@@ -3,9 +3,9 @@ title: linkDownloadFileTypes
 description: ダウンロードリンクとして自動的に追跡されるファイル拡張子を決定します。
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
