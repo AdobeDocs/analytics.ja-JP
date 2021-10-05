@@ -1,16 +1,16 @@
 ---
-title: 識別された人
-description: クロスデバイス分析で識別される人の数。
+title: 識別済みユーザー
+description: クロスデバイス分析で識別されたユーザーの数。
 source-git-commit: c6faacbc4b5365c500237682c3ec2ef71448be80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '58'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# 識別された人
+# 識別済みユーザー
 
-「識別された人」指標は、CDAによって識別される訪問者の数をカウントする[クロスデバイス分析](../cda/overview.md)指標です。
+「識別済みユーザー」指標は、CDA によって識別された訪問者の数をカウントする[クロスデバイス分析](../cda/overview.md)指標です。
 
 ## この指標の計算方法
 
