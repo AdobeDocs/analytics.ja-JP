@@ -4,9 +4,9 @@ description: JavaScript 版 AppMeasurement のこれまでのリリースノー�
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2201'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 リリース日：**2021 年 9 月 7 日（PT）**
 
-* この更新により、リンクの追跡時に`opt.dmp`と`opt.sell`が常に含まれるようになりました。 以下に、同意変数](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html)の完全なリストを示します。[
+* この更新により、リンクをトラッキングする際に `opt.dmp` と `opt.sell` が常に含まれるようになりました。[同意変数の完全なリスト](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=ja)は次の通りです。
 
 ## バージョン 2.22.1
 
@@ -437,7 +437,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2013 年 11 月 15 日**
 
 * [ハードビートビデオ指標](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)のサポートを追加しました。
-* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 
