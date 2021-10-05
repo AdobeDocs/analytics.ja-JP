@@ -4,9 +4,9 @@ description: レポートを改善するためにアドビに送信するデー�
 keywords: appmeasurement、変数、vars、設定、ページ、実装
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Analytics には、Analytics データを収集するための変数が多数用
 
 Adobe Analytics は様々な方法で実装できます。各ページには、Adobe Experience Platform のタグと JavaScript 版 AppMeasurement を使用した変数の実装方法に関する節があります。
 
-Adobe Analyticsでの変数の設定に関するビデオを以下に示します。
+Adobe Analytics での変数の設定に関するビデオを以下に示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
 
