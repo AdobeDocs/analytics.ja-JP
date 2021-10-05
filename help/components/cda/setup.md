@@ -3,9 +3,9 @@ title: クロスデバイス分析の設定
 description: CDA を有効にする仮想レポートスイートを設定します。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,6 +51,6 @@ CDA は、デバイス間のレポートスイートで、アドビのエンジ�
 
 * 仮想レポートスイート名の横に、新しいクロスデバイスアイコンが表示されます。このアイコンは、クロスデバイス仮想レポートスイートにのみ使用できます。
 * 「[識別済みの状態](../dimensions/identified-state.md)」というラベルの付いた新しいディメンションを使用できます。
-* 「[人](../metrics/people.md)」、「[一意のデバイス](../metrics/unique-devices.md)」、「[識別された人](../metrics/identified-people.md)」、「[識別されない人](../metrics/unidentified-people.md)」、「[Experience CloudIDのある人](../metrics/people-with-exp-cloud-id.md)」というラベルの付いた新しい指標を使用できます。
+* 「[ユーザー](../metrics/people.md)」、「[一意のデバイス](../metrics/unique-devices.md)」、「[識別済みユーザー](../metrics/identified-people.md)」、「[未識別のユーザー](../metrics/unidentified-people.md)」、「[Experience Cloud ID を持つユーザー](../metrics/people-with-exp-cloud-id.md)」 というラベルの付いた新しい指標を使用できます。
 * [ユニーク訪問者](../metrics/unique-visitors.md)指標は、「人」と「一意のデバイス」に置き換えられるので、使用できません。
 * セグメントを作成する際、「訪問者」セグメントコンテナは「人」コンテナに置き換えられます。
