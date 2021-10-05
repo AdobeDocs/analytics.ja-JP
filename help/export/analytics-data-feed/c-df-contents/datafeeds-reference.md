@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3420'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 | `click_context_type` | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0：ページ URL<br>1：ページ名 | tinyint unsigned |
 | `click_sourceid` | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。レガシー ClickMap ツールの一部。 | int unsigned |
 | `click_tag` | 廃止。クリックされた HTML 要素のタイプ。 | char(10) |
-| `clickmaplink` | アクティビティマップリンク | varchar(255) |
+| `clickmaplink` | Activity Map リンク | varchar(255) |
 | `clickmaplinkbyregion` | Activity Map 地域別リンク | varchar(255) |
 | `clickmappage` | Activity Map ページ | varchar(255) |
 | `clickmapregion` | Activity Map 地域 | varchar(255) |
@@ -156,7 +156,7 @@ ht-degree: 99%
 | `page_event_var2` | リンクトラッキングイメージリクエストでのみ使用されます。リンクのカスタム名（指定された場合）。 | varchar(100) |
 | `page_event_var3` | 廃止。調査モジュールやメディアモジュールのデータが格納されます。Adobe Analytics の以前のバージョンで設定されたレガシービデオレポート。 | テキスト |
 | `page_type` | 「[エラーページ](/help/components/dimensions/pages-not-found.md)」ディメンションの入力に使用。404 エラーページにのみ使用されます。この変数の値は、空か「`ErrorPage`」である必要があります。 | char(20) |
-| `page_url` | ヒットの URL。`post_page_url`は、リンクトラッキングイメージリクエストでは削除され、データ型はvarchar(255)を使用します。 | テキスト |
+| `page_url` | ヒットの URL。`post_page_url` は、リンクトラッキングのイメージリクエストでは削除され、データタイプ「 varchar（255）」を使用します。 | テキスト |
 | `pagename` | 「[ページ](/help/components/dimensions/page.md)」ディメンションの入力に使用されます。[`pagename`](/help/implement/vars/page-vars/pagename.md) 変数が空の場合、Analytics では代わりに `page_url` が使用されます。 | varchar(100) |
 | `paid_search` | ヒットが有料検索の検出に一致した場合に設定されるフラグ。 | tinyint unsigned |
 | `partner_plugins` | 未使用。削除されたフィーチャの一部。 | varchar(255) |
