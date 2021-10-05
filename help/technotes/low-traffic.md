@@ -5,9 +5,9 @@ feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 [!UICONTROL 低トラフィック]行項目から独自の行項目に項目を移動させるのはなぜでしょうか。例えば、この移動では、（ユニークを超えた後に）月の後半に追加されて多くのヒットやビューを得ている、人気の新しいページや新しい項目を認識する場合があります。この移動は、1 日または 1 か月に一定数のヒット／ビューを取得するものすべてを取得するためのものではありません。
 
 >[!NOTE]
->ページ参照数には、[!UICONTROL pagename]/[!UICONTROL page_url]の値だけが含まれるわけではありません。 ページ参照テーブルには、[!UICONTROL pagename]、[!UICONTROL first_hit_pagename]/[!UICONTROL page_url]、[!UICONTROL visit_pagename]/[!UICONTROL page_url]、クリックコンテキスト（古いClickMapデータ）などが含まれます。
+>ページ参照数には、[!UICONTROL pagename]/[!UICONTROL page_url] の値だけが含まれるわけではありません。ページ参照テーブルには、[!UICONTROL pagename]、[!UICONTROL first_hit_pagename]/[!UICONTROL page_url]、[!UICONTROL visit_pagename]/[!UICONTROL page_url]、クリックコンテキスト（古い ClickMap データ）など、複数の列／フィールドが含まれています。
 
 ## 一意の値のしきい値の変更
 
