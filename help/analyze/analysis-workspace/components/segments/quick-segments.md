@@ -1,19 +1,19 @@
 ---
-description: Analysis Workspaceでクイックセグメントを使用する。
+description: Analysis Workspace でクイックセグメントを使用します。
 title: クイックセグメント
 feature: Workspace Basics
 role: User, Admin
 source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
 
 # クイックセグメント
 
-プロジェクト内に迅速なセグメントを作成して、[ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md) 全体の複雑さを回避できます。 クイックセグメント
+プロジェクト内にクイックセグメントを作成して、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)全体の複雑さを回避できます。クイックセグメント
 
 * 作成されたプロジェクトにのみ適用します（変更可能）。
 * 最大 3 つのルールを許可します。
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ## クイックセグメントの作成
 
-フリーフォームテーブルで、パネルヘッダーのフィルター+アイコンをクリックします。
+フリーフォームテーブルで、パネルヘッダーのフィルター + アイコンをクリックします。
 
 ![](assets/quick-seg1.png)
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 | 名前 | セグメントのデフォルト名は、セグメント内のルール名の組み合わせです。 セグメントの名前は変更できます。 |
 | 含む／除く | セグメント定義にコンポーネントを含めるか除外するかはできますが、両方を含めることはできません。 |
 | ヒット/訪問/訪問者コンテナ | クイックセグメントには、ディメンション/指標/日付範囲をセグメントに含める（またはセグメントから除外する）ことができる [ セグメントコンテナ ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) が 1 つだけ含まれます。  訪問者には、訪問およびページビュー全体で訪問者に固有の包括的なデータが含まれます。[!UICONTROL  訪問 ] コンテナでは訪問者のデータを訪問に基づいて分類するルールを設定でき、[!UICONTROL  ヒット ] コンテナでは訪問者情報を個々のページビューに基づいて分類できます。 デフォルトのコンテナは [!UICONTROL  ヒット ] です。 |
-| コンポーネント (Dimension/指標/日付範囲 ) | コンポーネントのディメンションや指標、日付範囲およびその値を追加して、最大 3 つのルールを定義できます。 適切なコンポーネントを見つける方法は 3 つあります。<ul><li>入力を開始すると、[!UICONTROL  クイックセグメント ] ビルダーによって適切なコンポーネントが自動的に見つかります。</li><li>ドロップダウンリストを使用して、コンポーネントを検索します。</li><li>左側のパネルからコンポーネントをドラッグ&amp;ドロップします。</li></ul> |
+| コンポーネント (Dimension/指標/日付範囲 ) | コンポーネントのディメンションや指標、日付範囲およびその値を追加して、最大 3 つのルールを定義できます。 適切なコンポーネントを見つける方法は 3 つあります。<ul><li>入力を開始すると、[!UICONTROL  クイックセグメント ] ビルダーによって適切なコンポーネントが自動的に見つかります。</li><li>ドロップダウンリストを使用して、コンポーネントを検索します。</li><li>左パネルからコンポーネントをドラッグ＆ドロップします。</li></ul> |
 | 演算子 | 標準演算子と [!UICONTROL  個別カウント ] 演算子を検索するには、ドロップダウンメニューを使用します。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=en) |
 | プラス記号 (+) | 別のルールの追加 |
 | AND/OR 修飾子 | 「AND」修飾子または「OR」修飾子をルールに追加できますが、1 つのセグメント定義で「AND」修飾子と「OR」修飾子を混在させることはできません。 |

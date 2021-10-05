@@ -800,7 +800,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > フォールアウト </a></b> 機能の強化 </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > フォールアウト</a></b> 機能の強化 </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">無制限のセグメント比較。 </li> 
@@ -811,7 +811,7 @@ ht-degree: 100%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>フロー</b> </a> 機能の強化 </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>フロー</b></a> 機能の強化 </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">「<span class="wintitle">ラベルの切り捨てを無効化</span>」という新しいビジュアライゼーション設定が追加されました（デフォルト = オフ）。 </li> 
@@ -841,14 +841,14 @@ ht-degree: 100%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>コンポーネントマネージャー</b>機能の強化 </p> </td> 
+   <td colname="col1"> <p><b>コンポーネントマネージャー</b> 機能の強化 </p> </td> 
    <td colname="col2"> 
     <ul id="ul_BB22F84ABFB04685A9752AD4BDE6E60A"> 
      <li id="li_B3D460C15C454911A9D7254F50815355">アラートおよびスケジュール済みプロジェクトの有効期限が追加されました。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  >アラートマネージャー</a> </b>機能の強化 </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/components/c-alerts/alert-manager.md"  >アラートマネージャー</a></b> 機能の強化 </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">アラートを有効／無効にする機能が追加されました。 </li> 
