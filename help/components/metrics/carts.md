@@ -3,9 +3,9 @@ title: 買い物かご
 description: 訪問者が最初の製品を買い物かごに追加したヒットの数。
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
