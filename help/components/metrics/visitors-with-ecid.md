@@ -3,15 +3,15 @@ title: Experience Cloud ID を持つ訪問者
 description: Adobe Experience Cloud ID サービスを使用しているユニーク訪問者の数です。
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: d16128491569b93f4c470e21b84742cda13b3d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud ID を持つ訪問者
 
-「Experience Cloud ID を持つ訪問者」指標は、アドビが [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用して識別したユニーク訪問者の数を示します。この指標は、[個別訪問者数](unique-visitors.md)指標と比較して、サイトへの大部分の訪問者がIDサービスを使用していることを確認するのに役立ちます。 訪問者の大部分が ID サービス cookie を使用していない場合は、実装内の問題を示している可能性があります。
+「Experience Cloud ID を持つ訪問者」指標は、アドビが [Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用して識別したユニーク訪問者の数を示します。この指標は、[ユニーク訪問者](unique-visitors.md)指標と比較して、サイトへの訪問者の大半が ID サービスを使用していることを確認するのに役立ちます。訪問者の大部分が ID サービス cookie を使用していない場合は、実装内の問題を示している可能性があります。
 
 >[!NOTE]
 >
