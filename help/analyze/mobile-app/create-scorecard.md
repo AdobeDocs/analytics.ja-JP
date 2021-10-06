@@ -3,9 +3,9 @@ description: Adobe Analyticsダッシュボードスコアカードの作成方�
 title: スコアカードの作成
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
+source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1338'
 ht-degree: 54%
 
 ---
@@ -112,32 +112,32 @@ Analytics ダッシュボードには、4 つのビジュアライゼーショ�
 
 ![ビジュアライゼーション](assets/vizs.png)
 
-**[!UICONTROL 概要番号]**
+### [!UICONTROL 概要番号]
 
 概要番号ビジュアライゼーションを使用して、プロジェクトで重要な大きな数を強調表示します。
 
-![概要番号](assets/sparkline.png)
+![概要番号](assets/summary-number.png)
 
-** Donutvisualization**
+### [!UICONTROL ドーナツ]
 
 このビジュアライゼーションは、円グラフと同様に、データを全体の一部または断片として表示します。合計の割合を比較する際にドーナツグラフを使用します。 例えば、個別訪問者の合計数に貢献した広告プラットフォームを確認するとします。
 
 ![ドーナツビジュアライゼーション](assets/donut-viz.png)
 
-**行のビジュアライゼーション**
+### [!UICONTROL 行]
 
 行のビジュアライゼーションでは、時間の経過に伴う値の変化を確認できるように、折れ線で指標が表されます。折れ線グラフは、時間の経過に伴うディメンションを表示しますが、あらゆるビジュアライゼーションで機能します。 この例では、製品カテゴリディメンションを視覚化しています。
 
 ![行のビジュアライゼーション](assets/line.png)
 
 
-**[!UICONTROL 横棒グラ] フ**
+### [!UICONTROL 横棒グラフ]
 
 このビジュアライゼーションでは、1 つ以上の指標の様々な値を表す横棒グラフが表示されます。例えば、上位の商品を簡単に確認するには、[!UICONTROL  横棒 ] を使用して、好みのビジュアライゼーションを表示します。
 
 ![横棒](assets/horizontal.png)
 
-**未指定のデ  ィメンション項目の削除**
+### [!UICONTROL  未指定 ] ディメンション項目の削除
 
 データから [!UICONTROL  未指定 ] ディメンション項目を削除する場合は、次の手順を実行します。
 
