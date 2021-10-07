@@ -3,10 +3,10 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントセットの大幅なアップデート。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '2899'
-ht-degree: 100%
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+workflow-type: tm+mt
+source-wordcount: '2918'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 
 | 日付 | 説明 |
 | --- | --- |
+| **2021年10月** |  |
+| 2021 年 10 月 8 日 | モバイルスコアカードの [ ビジュアライゼーションに関する新しいドキュメント ](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
 | **2021年8月** |  |
 | 2021 年 8 月 18 日（PT） | トップレベルの構造を改訂し、1 つの [ランディングページ](https://experienceleague.adobe.com/docs/analytics.html?lang=ja) に統合しました。 |
 | 2021 年 8 月 18 日（PT） | [A4T と仮想レポートスイート](/help/components/vrs/vrs-a4t.md) に関する新しいトピック |
@@ -64,7 +66,7 @@ ht-degree: 100%
 | 2020 年 10 月 23 日 | Adobe Analytics ダッシュボードのドキュメントに機能強化を追加しました。Workspace のモバイルスコアカードで、スコアカードのスタイルがアプリと一致するようになりました。 |
 | **2020 年 9 月** |  |
 | 2020年9月17日（PT） | [単一のディメンションに対して 50,000 個の項目をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja#download-items)：セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
-| 2020年9月17日（PT） | [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja): <ul><li>[!UICONTROL 線]の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
+| 2020年9月17日（PT） | [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): <ul><li>[!UICONTROL 線]の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
 | 2020年9月17日（PT） | Workspace の新しい日付範囲：5 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲（過去 7 日間、過去 14 日間、過去 30 日間、過去 60 日間、過去 90 日間）から選択できます。 |
 | 2020年9月17日（PT） | [Workspace のメディア同時ビューアパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=ja)に関する新しいドキュメント |
 | **2020 年 8 月** |  |
@@ -79,8 +81,8 @@ ht-degree: 100%
 | 2020 年 6 月 18 日（PT） | [Attribution IQ：カスタムルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja#lookback-windows)に関する新しいドキュメント |
 | 2020 年 6 月 18 日（PT） | 共有 Workspace プロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメント。Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
 | 2020 年 6 月 18 日（PT） | [「表示のみ」の Workspace プロジェクト](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja)に関する新しいドキュメント。 プロジェクトは、「表示可能」としてのみユーザーに共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。 |
-| 2020 年 6 月 18 日（PT） | 共有 Workspace プロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメント。Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
-| 2020 年 6 月 18 日（PT） | [Workspace プロジェクトの共同編集](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメント。「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。 |
+| 2020 年 6 月 18 日（PT） | 共有 Workspace プロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)に関する新しいドキュメント。Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
+| 2020 年 6 月 18 日（PT） | [Workspace プロジェクトの共同編集](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)に関する新しいドキュメント。「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日（PT） | [一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) に関する新しいドキュメント |
 | 2020 年 5 月 21 日（PT） | [Adobe Analytics ダッシュボード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ja)に関する新しいドキュメント |
@@ -115,7 +117,7 @@ ht-degree: 100%
 | 2020 年 12 月 19 日（PT） | デフォルトの [FTP データ保存制限](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=ja)を 10 GB に変更しました。 |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019 年 11 月 26 日 | IP ログイン制限実施の提供終了に関する新しいトピック. |
-| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja) の新しいドキュメントセット。 |
+| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
 | 2019 年 11 月 22 日 | [Audience Analytics ワークフローの FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ja) を更新し、LiveStream での可用性を示しました。 |
 | 2019 年 10 月 25 日（PT） | [Adobe Analytics の主要概念](/help/technotes/terms.md)ページを更新しました。 |
 | 2019 年 10 月 10 日（PT） | フリーフォームテーブルの合計の更新：2 つの合計（**[!UICONTROL テーブルの合計]**&#x200B;と&#x200B;**[!UICONTROL 総計]**）が含まれるようになりました。テーブルの合計行は、適用された[レポートフィルター](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ja)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |

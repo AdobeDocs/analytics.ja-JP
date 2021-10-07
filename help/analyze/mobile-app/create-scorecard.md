@@ -1,19 +1,19 @@
 ---
 description: Adobe Analyticsダッシュボードスコアカードの作成方法
-title: スコアカードの作成
+title: モバイルスコアカードの作成
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 54%
+source-wordcount: '1349'
+ht-degree: 53%
 
 ---
 
 
-# スコアカードの作成
+# モバイルスコアカードの作成
 
-次の情報は、Adobe Analytics データのキュレーターに、エグゼクティブユーザー向けのダッシュボードの設定方法と表示方法を示しています。まず、Adobe Analyticsダッシュボードのスコアカードビルダーのビデオを確認できます。
+次の情報は、Adobe Analyticsデータのキュレーターに、エグゼクティブユーザーのモバイルスコアカードを設定および表示する方法を示しています。 まず、Adobe Analyticsダッシュボードのスコアカードビルダーのビデオを確認できます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Adobe Analyticsのスコアカードには、次に示すように、エグゼ�
 これにより、新しい日付範囲コンポーネントを作成して保存できる日付範囲ビルダーに移動します。 
 
 ## ビジュアライゼーションの適用
+
+モバイルスコアカードのビジュアライゼーションに関するビデオを表示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Analytics ダッシュボードには、4 つのビジュアライゼーションが用意されており、これらのビジュアライゼーションを使用して、ディメンション項目と指標を詳細に把握できます。 タイルの [!UICONTROL  プロパティ ] の [!UICONTROL  グラフの種類 ] を変更して、別のビジュアライゼーションに変更します。 適切なタイルを選択して、グラフのタイプを変更します。
 
