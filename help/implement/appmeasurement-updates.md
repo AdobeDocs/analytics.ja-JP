@@ -3,10 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
-workflow-type: ht
-source-wordcount: '2201'
-ht-degree: 100%
+source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
+workflow-type: tm+mt
+source-wordcount: '2218'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,12 @@ JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートで�
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/code-manager-admin.md)でダウンロードできます。
+
+## バージョン 2.22.3
+
+リリース日：**2021 年 10 月 11 日**
+
+* ヘルプドキュメントを参照して、現在のヘルプの場所を指すようにファイルを更新しました。
 
 ## バージョン 2.22.2
 
@@ -437,7 +443,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2013 年 11 月 15 日**
 
 * [ハードビートビデオ指標](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)のサポートを追加しました。
-* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 
