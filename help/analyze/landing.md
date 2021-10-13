@@ -3,9 +3,9 @@ description: ランディングページで、Analysis Workspace と Reports & A
 title: Adobe Analytics ランディングページ
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3236'
 ht-degree: 92%
 
 ---
@@ -162,7 +162,7 @@ Reports &amp; Analytics を現在ご利用中のお客様に対して、従来�
 
 1. 必要なフィールドをすべてモーダルに追加して保存します。
 
-   レポートは会社レポートリストに追加され、社内のレポートで使用できます。
+   レポートは会社レポートリストに追加され、ログイン会社のレポートで使用できます。
 
 その他の学習オプション：
 
