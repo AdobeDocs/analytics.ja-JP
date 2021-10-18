@@ -3,9 +3,9 @@ title: 郵便番号
 description: 訪問者の郵便番号。
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ディメンション項目には、訪問者の郵便番号が含まれます。
 
-## サポートされる郵便番号の国
+## 郵便番号をサポートしている国
 
 * オーランド諸島
 * アルバニア
