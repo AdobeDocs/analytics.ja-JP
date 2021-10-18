@@ -8,31 +8,31 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
 # セグメント {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
-Workspace では、複雑さ、このプロジェクトにのみ適用するかどうかなどに応じて、様々なタイプのセグメントを作成できます。 セグメントタイプの概要を次に示します。
+Workspace では、どのくらい複雑なセグメントが必要か、このプロジェクトだけに適用すべきかなどに応じて、様々なタイプのセグメントを作成できます。セグメントタイプの概要を次に示します。
 
-| セグメントタイプ | どこで？ | 適用可能な場所 | 使用するタイミング |
+| セグメントタイプ | 作成場所 | 適用可能な場所 | 使用するタイミング |
 | --- | --- | --- | --- |
-| コンポーネントリストセグメント | 「+」をクリックすると、[ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md) が表示されます。 | すべての Workspace プロジェクト | より複雑なセグメントの場合、順次セグメント |
-| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトのみ。ただし、保存してセグメントリストに追加できます。 | 1 つ以上のルールを柔軟に追加/編集できる |
+| コンポーネントリストセグメント | 「+」をクリックすると、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)が表示されます。 | すべての Workspace プロジェクト | より複雑なセグメント、順次セグメントの場合 |
+| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | プロジェクトのみ。ただし、保存してセグメントリストに追加できます。 | 1 つまたは複数のルールを柔軟に追加／編集する |
 | アドホックセグメント： |  |  |  |
-|  — アドホックワークスペースのプロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ&amp;ドロップ](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | プロジェクトのみ。ただし、保存してセグメントリストに追加できます。 | 単一ルールセグメントの場合 |
-| - 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 個々の計算指標を作成するには | 指標定義内でのセグメントの適用 |
-| - VRS ベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | 個々の仮想レポートスイートの作成 | VRS 定義内でのセグメントの適用 |
+| - アドホック Workspace のプロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ＆ドロップ](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | プロジェクトのみ。ただし、保存してセグメントリストに追加できます。 | 単一ルールセグメントの場合 |
+| - 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=ja) | 個々の計算指標に適用 | 指標の定義内でセグメントを適用する場合 |
+| - VRS ベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja) | 個々の仮想レポートスイートに適用 | VRS 定義内でのセグメントの適用 |
 
-Analysis Workspaceでのセグメントの使用に関するビデオを紹介します。
+Analysis Workspace でのセグメントの使用に関するビデオを紹介します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
 ## セグメントの作成 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
-Analysis Workspaceでは、様々なタイプのセグメントを作成できます。
+Analysis Workspace では、様々なタイプのセグメントを作成できます。
 
 * [クイックセグメント](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
 * [アドホックセグメント](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
@@ -40,21 +40,21 @@ Analysis Workspaceでは、様々なタイプのセグメントを作成でき�
 
 ### コンポーネントリストセグメントの作成 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
-コンポーネントメニューの下のセグメントレールにが表示されます。
+コンポーネントメニューの下のセグメントパネルに次が表示されます。
 * 自分または自分の会社が作成したセグメント
-* セグメントテンプレート (Adobeアイコンで示されます )
+* セグメントテンプレート（次のアドビアイコンで示されます）
 
 ![](assets/segment_icons.png)
 
-このタイプのセグメントを作成するには、2 つのオプションがあります。 どちらもAdobe Analyticsの [ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md) に移動します。ここで詳しい手順を確認できます。
+このタイプのセグメントを作成するには、2 つのオプションがあります。どちらも Adobe Analytics の[ セグメントビルダー ](/help/components/segmentation/segmentation-workflow/seg-build.md)に移動します。ここで詳しい手順を確認できます。
 
-* 左側のレールで、[!UICONTROL  セグメント ] の横のプラス記号 (+) をクリックします。
+* 左側のパネルで、[!UICONTROL セグメント]の横のプラス記号（+）をクリックします。
 
 ![](assets/create-seg.png)
 
  または
 
-* [!UICONTROL  コンポーネント ] > [!UICONTROL  セグメント ] に移動し、[!UICONTROL +追加 ] をクリックします。
+* [!UICONTROL コンポーネント]／[!UICONTROL セグメント]に移動し、「[!UICONTROL + 追加] 」をクリックします。
 
 
 ### セグメントを適用するその他の方法 {#section_10FF2E309BA84618990EA5B473015894}
