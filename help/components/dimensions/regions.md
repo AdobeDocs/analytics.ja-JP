@@ -3,7 +3,7 @@ title: 地域
 description: 訪問者の地域。
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。アドビは [Digital Element](https://info.digitalelement.com/jp/) と提携し、IP アドレスと国間の検索を維持しています。このディメンションは、すべての実装で初期設定の状態で動作します。
+このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。アドビは [Digital Element](https://www.digitalelement.com/) と提携し、IP アドレスと国間の検索を維持しています。このディメンションは、すべての実装で初期設定の状態で動作します。
 
 ## ディメンション項目
 
