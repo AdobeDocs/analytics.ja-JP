@@ -5,7 +5,7 @@ exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
 
 ![一意のデバイス数](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-[ 未認証のヒットを再生 ](/help/components/cda/replay.md) する前に、このデータを CDA 仮想レポートスイートで表示すると、次のように表示されます。
+CDA 仮想レポートスイートでこのデータを表示すると、[再生](/help/components/cda/replay.md)で未認証のヒットをステッチする可能性があり、次のように表示されます。
 
 * **一意のデバイス 5 台**：Bob（未認証）1 台 + Bob 2 台 + Alice 1 台 + Charles 1 台
 * **4 人の[ユーザー](people.md)**：1 人の[識別済みユーザー](unidentified-people.md) + 3 人の[未識別のユーザー](identified-people.md)
