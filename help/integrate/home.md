@@ -2,10 +2,10 @@
 title: Analytics の統合
 description: 他の場所のデータを Adobe Analytics に統合する方法について説明します。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: caecae51d7921ecec63d3922bc5902b94379a7fb
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +19,7 @@ Audience Manager、Advertising Cloud、Target など、他の Adobe Experience C
 
 * **Audience Analytics：** Adobe Audience Manager を Adobe Analytics と統合します。
 * **Advertising Analytics：**&#x200B;有料検索データを Adobe Analytics データと並べて確認します。
+* **広告クラウドの分析:** Adobe アナリティクスと Adobe 広告クラウドを統合して、各製品の機能を拡張および強化します。
 * **Analytics for Target：** A4T は Adobe Analytics および Adobe Target を統合します。
 * **Adobe Campaign レポート：** Adobe Analytics を Adobe Campaign と統合します。
 * **AEM Assets レポート：** Adobe Experience Manager から提供されるアセットのインプレッション数およびクリック数のコレクションを有効にします。
