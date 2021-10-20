@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 統合ガイド
 breadcrumb-title: 統合ガイド
 user-guide-description: Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。
-source-git-commit: caecae51d7921ecec63d3922bc5902b94379a7fb
+source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 93%
+source-wordcount: '175'
+ht-degree: 81%
 
 ---
 
@@ -37,10 +37,10 @@ ht-degree: 93%
       + [広告アカウントの管理](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics のトラブルシューティング](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [よくある質問](c-advertising-analytics/aa-faq.md)
-+ [広告 Cloud の解析](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
-+ [Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
-+ [Analytics での Adobe Campaign レポート](adobe-campaign.md)
-+ [Analytics データとCampaign Classic の統合](analytics-to-campaign-classic.md)
++ [広告クラウド用の Adobe アナリティクス](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
++ [ターゲットの Adobe アナリティクス A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ja)
++ [Adobe アナリティクスでの adobe キャンペーンレポート](adobe-campaign.md)
++ [Adobe アナリティクスデータと Adobe キャンペーンが統合される従来の状態](analytics-to-campaign-classic.md)
 + [AEM Assets レポート](aem-assets-reporting.md)
 + [Activity Map レポート](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
