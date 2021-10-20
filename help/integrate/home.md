@@ -2,10 +2,10 @@
 title: Analytics の統合
 description: 他の場所のデータを Adobe Analytics に統合する方法について説明します。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
+source-git-commit: 4324a4911337db6299563f31cc50dc4da220ee45
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 89%
+source-wordcount: '188'
+ht-degree: 84%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 89%
 
 ![バナー](../../assets/doc_banner_integrate.png)
 
-このガイドでは、複数の Experience Cloud ソリューションの統合に焦点を当てています。Analytics Data Connectors をお探しの場合は、インポートユーザーガイドの [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) ページを参照してください。
+このガイドでは、複数の Adobe エクスペリエンスクラウドソリューションの統合について重点的に説明します。 Analytics Data Connectors をお探しの場合は、インポートユーザーガイドの [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) ページを参照してください。
 
 Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。以下のようなものがあります。
 
