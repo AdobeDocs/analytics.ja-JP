@@ -2,13 +2,13 @@
 description: タッチポイントを指定して、複数ディメンションのフォールアウトシーケンスを作成します。
 title: フォールアウトビジュアライゼーションの設定
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 92%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最終パス </p> <p>(デフォルト) </p> </td> 
-   <td colname="col2"> <p>カウントされるのは、「最終的に」そのセッション内のパスの次のページを訪問した訪問者です（ただし、必ずしも次のヒットで次のページに至った訪問者に限りません）。 </p> </td> 
+   <td colname="col2"> <p>訪問者は、訪問者がパス内の次の touchpoint に着陸したときにカウントされます。 Detours は、touchpoints 間で使用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>次のヒット </p> </td> 
-   <td colname="col2"> <p>カウントされるのは、次のヒットでパスの次のページを訪問した訪問者です。 </p> </td> 
+   <td colname="col2"> <p>訪問者 (または訪問者) は、パスの次の touchpoint に直ちに移動したときにカウントされます。 「次へ」をクリックすると、ヒットタイプ (ページビューまたはリンク) が表示されます。 Detours を touchpoints 間で使用することはできません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
