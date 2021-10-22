@@ -5,9 +5,9 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '516'
 ht-degree: 43%
 
 ---
@@ -27,56 +27,56 @@ Activity Map トラッキングによって PII データが収集される可�
 * 金融機関では、口座番号がリンクとして表示されている場合があります。そのリンクをクリックすると、リンクのテキストが収集されます。
 * また、医療関連の Web サイトでも、PII データがリンクとして表示されている場合があります。これらのリンクをクリックすると、リンクのテキストが収集されるので、PII データが収集されることになります。
 
-## リンクトラッキングはいつおこなわれますか？
+## リンク追跡はいつ実行されるか。
 
-Activity Mapリンクと地域の識別は、ユーザーがページをクリックしたときに発生します。
+アクティビティマップへのリンクおよび地域の識別は、ユーザーがページをクリックしたときに実行されます。
 
-## デフォルトでは何が追跡されますか？
+## デフォルトでトラッキングされる内容
 
-要素に対してクリックイベントが発生した場合、その要素はいくつかのチェックに合格し、AppMeasurementが要素をリンクとして処理するかどうかを判断する必要があります。 チェックは以下のとおりです。
+エレメントに click イベントが発生した場合、そのエレメントは、AppMeasurement によってそのエレメントがリンクとして扱われるかどうかを判断するために、何らかのチェックを通す必要があります。 チェックは以下のとおりです。
 
-* `href`プロパティを持つ`A`タグか`AREA`タグか。
-* `s_objectID`変数を設定する`onclick`属性はありますか。
-* これは、値または子テキストを持つ`INPUT`タグまたは`SUBMIT`ボタンですか？
-* これは、型`IMAGE`と`src`プロパティを持つ`INPUT`タグですか？
-* これは`BUTTON`ですか？
+* これは、 `A` `AREA` プロパティと共に or タグになり `href` ます。
+* `onclick`変数を設定する属性がある `s_objectID` かどうかを確認します。
+* これは `INPUT` `SUBMIT` 、値または子のテキストが付いたタグまたはボタンですか?
+* これは、 `INPUT` タイプおよびプロパティが設定されたタグ `IMAGE` `src` かどうかを示します。
+* これは a `BUTTON` ?
 
 上記のいずれかの質問に対する答がはいの場合、要素はリンクとして処理され、追跡されます。
 
 >[!IMPORTANT]
 >
->AppMeasurementでは、属性type=&quot;button&quot;を持つbuttonタグは、リンクと見なされません。 buttonタグからtype=&quot;button&quot;を削除し、代わりにrole=&quot;button&quot;またはsubmit=&quot;button&quot;を追加することを検討してください。
+>属性タイプが「button」である button タグは、AppMeasurement によってリンクされるとは見なされません。 代わりに button タグ上の type = 「button」を削除し、role = 「button」または submit = &quot;button&quot; を追加することを検討してください。
 
 >[!IMPORTANT]
 >
->「#」で始まる「href」を含むアンカータグは、リンクではなく、AppMeasurementによって内部のターゲット位置と見なされます（ページを離れないので）。 デフォルトでは、Activity Map は、これらの内部のターゲット場所を追跡しません。ユーザーを新しいページにナビゲートするリンクのみを追跡します。
+>「Href」によって開始されたアンカータグは、リンクではなく、(ページから移動しないと) AppMeasurement によって、内部ターゲットの場所として扱われます。 デフォルトでは、Activity Map は、これらの内部のターゲット場所を追跡しません。ユーザーを新しいページにナビゲートするリンクのみを追跡します。
 
-## Activity Mapは、その他の視覚的HTML要素をどのように追跡しますか。
+## アクティビティマップでのその他の視覚的な HTML エレメントの追跡方法
 
-a.`s.tl()`関数を使用。
+に.この関数を使用 `s.tl()` します。
 
-クリックが`s.tl()`の呼び出しを通じて発生した場合、Activity Mapもこのクリックイベントを受け取り、`linkName`文字列変数が見つかったかどうかを判断します。 `s.tl()`の実行中に、そのlinkNameがActivity MapリンクIDとして設定されます。 `s.tl()`呼び出しを発生させたクリックされた要素を使用して、領域が特定されます。 例：
+呼び出しによって click が発生した場合は `s.tl()` 、アクティビティーマップによって click イベントが表示され、ストリング変数が検出されたかどうかが確認され `linkName` ます。 実行時に `s.tl()` 、その linkName がアクティビティマップリンク ID として設定されます。 呼び出しを開始した要素は、 `s.tl()` 地域を決定するために使用されます。 例：
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b.`s_objectID`変数を使用。 例：
+b.変数を使用 `s_objectID` します。 例：
 
-    &quot;&#39; 
+    「ここに 
     
-    &lt;a>&lt;img>&lt;/a>
+     &lt;img onclick=&quot;s_objectID=&#39;abc&#39;;&quot; src=&quot;someimageurl.png&quot;/> 
+     &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&#39;abc&#39;;&quot; > 
+     テキストをリンク 
+     
     
-    &lt;a>Link Text Here&lt;/a>
-    
-    
-    &quot;&#39;
-
+     」というテキストを入力します。 
+ &lt;/a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&#39;abc&#39;;&quot; >
 >[!IMPORTANT]
 >
->Activity Mapで`s_objectID`を使用する場合は、末尾のセミコロン(;)が必要です。
+>後続するセミコロン (;)は、アクティビティマップでを使用する場合に必要です `s_objectID` 。
 
-## 追跡されるリンクの例をいくつか教えてください。
+## トラックされるリンクの例には、どのようなものがありますか。
 
 ### 例 1
 
@@ -114,12 +114,12 @@ b.`s_objectID`変数を使用。 例：
     </div>
 ```
 
-## 追跡されないリンクの例をいくつか示してください。
+## トラックされないリンクについては、いくつかの例を示してもかまいません。
 
-1. 理由：アンカータグに有効な`href`がありません：
+1. 理由: アンカータグに、次の有効な値がありません `href` 。
    `<a name="innerAnchor">Section header</a>`
 
-1. 理由：`s_ObjectID`も`s.tl()`も存在しません：
+1. 理由: `s_ObjectID` または表示されること `s.tl()` はありません。
 
    ```
    <p onclick="showPanel('market rates')">
@@ -128,7 +128,7 @@ b.`s_objectID`変数を使用。 例：
    </p>
    ```
 
-1. 理由：`s_ObjectID`も`s.tl()`も存在しません：
+1. 理由: `s_ObjectID` または表示されること `s.tl()` はありません。
 
    ``` 
    <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
@@ -137,6 +137,7 @@ b.`s_objectID`変数を使用。 例：
    
    ```  
    
-1. 理由：&quot;src&quot;プロパティにフォーム入力要素がない：
+1. 理由: &quot;src&quot; プロパティにフォームの input エレメントがありません。
 
    `<input type="image"/>`
+

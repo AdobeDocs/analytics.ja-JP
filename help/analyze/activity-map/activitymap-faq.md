@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Mapでは、ほとんどのブラウザーの最新バージョンが�
 
 Activity Map 自体は、サーバーの呼び出しを送信しません。代わりに、Activity Map コンテキストデータ変数が、後続のページでの Analytics ページビュー呼び出しに含まれます。
 
-## ランク付けした項目のオーバーレイの一部が表示されないのはなぜですか？**
+## 一部のランク付けされたアイテムのオーバーレイが見つからない理由
 
 サブメニューリンクなど、ランク付けされたリンクの一部はページに表示されません。その結果、対応するリンクオーバーレイも表示されません。ランクは、非表示のリンクも含め、ページ上のすべてのリンクに対して計算されます。
 
@@ -83,3 +83,16 @@ Activity Map のコンテキストデータ変数は、データフィードで�
 ## Activity Map は、仮想レポートスイートと互換性がありますか？
 
 はい。ただし、仮想レポートスイートの制限により、Activity Map のライブモードは仮想レポートスイートと互換性がありません。
+
+## アクティビティマップを無効にするにはどうすればいいですか?
+
+次の3つのオプションがあります。
+
+* `AppMeasurement_Module_ActivityMap`JS ファイルから関数を削除します。
+* 上の例の関数を空の本文に書き換えるカスタムコードを追加します。
+
+   ```
+   function AppMeasurement_Module_ActivityMap() {}
+   ```
+
+* AppMeasurement を設定 `s.trackClickMap` `s.trackInlineStats` するには、「設定」を選択します。 `false`
