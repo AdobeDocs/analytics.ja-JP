@@ -5,10 +5,10 @@ uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 97%
+source-wordcount: '992'
+ht-degree: 95%
 
 ---
 
@@ -116,102 +116,105 @@ s.ActivityMap.regionIDAttribute = "lpos";
 
 以下の変数はあくまでも参照目的です。Activity Map は追加設定なしで適切に設定できますが、以下の変数を使用して実装をカスタマイズすることもできます。
 
-<table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 変数名 </th> 
-   <th colname="col2" class="entry"> 例 </th> 
-   <th colname="col3" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
-   <td colname="col2"> デフォルトで "id" パラメーターに設定されます。これを別のパラメーターに設定できます。 </td> 
-   <td colname="col3"> s.linkObject の上位（parent、parent.parent など）要素（<b>クリックされた要素</b>）の領域 ID として使用するタグ属性を識別する文字列。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s.ActivityMap.link </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;linkId;</code><br/>
-    <code>&nbsp;&nbsp;if&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A')&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title');</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;return&nbsp;linkId;</code><br/>
-    <code>}</code> </td>
-   <td colname="col3"> クリックされた HTMLElement を受け取り、<b>クリックされたリンク</b>を表す文字列値を返す関数。<br/>
-      <br/>
-     戻り値がfalse（null、未定義、空の文字列、0）の場合、リンクは追跡されません。 </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.region </td> 
-   <td colname="col2"> 
-        <code>//&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region</code><br/>
-    <code>function(clickedElement)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;regionId,&nbsp;className;</code><br/>
-    <code>&nbsp;&nbsp;while&nbsp;(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement&nbsp;=&nbsp;clickedElement.parentNode))&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(regionId)&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;regionId.toLowerCase();</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;}</code><br/>
-    <code>&nbsp;&nbsp;}</code><br/>
-    <code>}</code> </td> 
-   <td colname="col3"> クリックされた HTMLElement を受け取り、<b>クリックしたときにリンクが見つかった領域</b>を表す文字列値を返す関数。<br/>
-      <br/>
-     戻り値がfalse（null、未定義、空の文字列、0）の場合、リンクは追跡されません。 </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.linkExclusions </td> 
-   <td colname="col2"> 
-     <code>//&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class</code><br/>
-    <code>&lt;style&gt;</code><br/>
-    <code>.linkExcluded&nbsp;{</code><br/>
-    <code>&nbsp;&nbsp;display:&nbsp;block;</code><br/>
-    <code>&nbsp;&nbsp;height:&nbsp;1px;</code><br/>
-    <code>&nbsp;&nbsp;left:&nbsp;-9999px;</code><br/>
-    <code>&nbsp;&nbsp;overflow:&nbsp;hidden;</code><br/>
-    <code>&nbsp;&nbsp;position:&nbsp;absolute;</code><br/>
-    <code>&nbsp;&nbsp;width:&nbsp;1px;</code><br/>
-    <code>}</code><br/>
-    <code>&lt;/style&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt;</code><br/>
-    <code>&lt;/a&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> リンクテキスト内を検索する文字列のコンマ区切りのリストを受け取る文字列。見つかった場合、リンクは Activity Map による追跡から除外されます。設定されていない場合、Activity Map によるリンクの追跡を停止することはありません。 </td>
-  </tr>
-  <tr>
-   <td colname="col1"> s.ActivityMap.regionExclusions </td> 
-   <td colname="col2"> 
-    <code>//&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap</code><br/>
-    <code>&lt;div&nbsp;id="links-included"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;div&nbsp;id="links-excluded"&gt;&nbsp;</code><br/>
-    <code>&nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;</code><br/>
-    <code>&nbsp;&nbsp;&nbsp;&nbsp;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.</code><br/>
-    <code>&nbsp;&nbsp;&lt;/a&gt;</code><br/>
-    <code>&lt;/div&gt;</code><br/>
-    <code>&lt;script&gt;</code><br/>
-    <code>&nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid');</code><br/>
-    <code>&nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded';</code><br/>
-    <code>&lt;/script&gt;</code> </td> 
-   <td colname="col3"> 地域テキスト内を検索する文字列のコンマ区切りのリストを受け取る文字列。見つかった場合、リンクは Activity Map による追跡から除外されます。設定されていない場合、Activity Map によるリンクの追跡を停止することはありません。 </td>
-  </tr>
- </tbody>
-</table>
+### `s.ActivityMap.regionIDAttribute`
+
+`s.linkObject`、つまり **クリックされたエレメント (親、親、親、親、...) エレメントの領域 ID として使用するタグ属性を指定するストリングです** 。
+
+**例**
+
+デフォルトで &quot;id&quot; パラメーターに設定されます。これを別のパラメーターに設定できます。
+
+### `s.ActivityMap.link`
+
+クリックされたを受け取る、 `HTMLElement` クリックされたリンクを表すストリング値を返す関数。 戻り値が false（null、未定義、空の文字列、0）の場合、リンクは追跡されません。
+
+**例**
+
+```
+// only ever use "title" attributes from A tags
+function(clickedElement) {
+  var linkId;
+  if (clickedElement && clickedElement.tagName.toUpperCase() === 'A') {
+    linkId = clickedElement.getAttribute('title');
+  }
+  return linkId;
+}
+```
+
+### `s.ActivityMap.region`
+
+クリックされた HTMLElement を受け取り、**クリックしたときにリンクが見つかった領域を表す文字列値を返す関数。**&#x200B;戻り値が false（null、未定義、空の文字列、0）の場合、リンクは追跡されません。
+
+**例**
+
+```
+// only ever use lowercase version of tag name concatenated with first className as the region
+function(clickedElement) {
+  var regionId, className;
+  while (clickedElement && (clickedElement = clickedElement.parentNode)) {
+    regionId = clickedElement.tagName;
+    if (regionId) {
+      return regionId.toLowerCase();
+    }
+  }
+}
+```
+
+### `s.ActivityMap.linkExclusions`
+
+リンクテキスト内を検索する文字列のコンマ区切りのリストを受け取る文字列。見つかった場合、リンクは Activity Map による追跡から除外されます。設定されていない場合、Activity Map によるリンクの追跡を停止することはありません。
+
+**例**
+
+```
+// Exclude links tagged with a special linkExcluded CSS class
+<style>
+.linkExcluded {
+  display: block;
+  height: 1px;
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+</style>
+<a href="next-page.html">
+  Link is tracked because link does not have hidden text matching the filter. 
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link1</span>
+</a>
+<a href="next-page.html">
+  Link not tracked because s.ActivityMap.linkExclusions is set and this link has hidden text matching the filter.
+  <span class="linkExcluded">exclude-link2</span>
+</a>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2';
+</script>
+```
+
+### `s.ActivityMap.regionExclusions`
+
+地域テキスト内を検索する文字列のコンマ区切りのリストを受け取る文字列。見つかった場合、リンクは Activity Map による追跡から除外されます。設定されていない場合、Activity Map によるリンクの追跡を停止することはありません。
+
+**例**
+
+```
+// Exclude regions on the page from its links being trackable by ActivityMap
+<div id="links-included">
+  <a href="next-page.html">
+    Link is tracked because s.ActivityMap.regionExclusions is set but does not match the filter.
+  </a>
+</div>
+<div id="links-excluded"> 
+  <a href="next-page.html">
+    Link not tracked because s.ActivityMap.regionExclusions is set and this link matches the filter.
+  </a>
+</div>
+<script>
+  var s = s_gi('samplersid');
+  s.ActivityMap.regionExclusions = 'links-excluded';
+</script>
+```
