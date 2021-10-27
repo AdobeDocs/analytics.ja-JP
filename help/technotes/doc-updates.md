@@ -3,10 +3,10 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントセットの大幅なアップデート。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 7a8a4d6c7a7addc1e5432d0f8d092caa64feb1eb
 workflow-type: tm+mt
-source-wordcount: '2918'
-ht-degree: 99%
+source-wordcount: '2957'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 99%
 | 日付 | 説明 |
 | --- | --- |
 | **2021年10月** |  |
-| 2021 年 10 月 8 日 | モバイルスコアカードの [ ビジュアライゼーションに関する新しいドキュメント ](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
+| 2021年10月21日（PT） | に関する新しいドキュメント [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) Analysis Workspace |
+| 2021年10月21日（PT） | 新しいドキュメント： [メディア再生に費やした時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html?lang=ja) Analysis Workspaceのパネル |
+| 2021 年 10 月 7 日 | に関する新しいドキュメント [モバイルスコアカードのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#ビジュアライゼーションの適用) |
 | **2021年8月** |  |
 | 2021 年 8 月 18 日（PT） | トップレベルの構造を改訂し、1 つの [ランディングページ](https://experienceleague.adobe.com/docs/analytics.html?lang=ja) に統合しました。 |
 | 2021 年 8 月 18 日（PT） | [A4T と仮想レポートスイート](/help/components/vrs/vrs-a4t.md) に関する新しいトピック |
