@@ -1,13 +1,13 @@
 ---
 title: Analysis Workspace でのユーザー環境設定の設定方法
-description: ユーザー向けに一般環境設定とプロジェクト環境設定を設定できます。
-feature: Workspace の基本
+description: ユーザーに対しては、一般的な環境設定とプロジェクト環境設定のほか、ダークテーマの環境設定を設定できます。
+feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '223'
-ht-degree: 100%
+source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 79%
 
 ---
 
@@ -41,3 +41,13 @@ ht-degree: 100%
 |  | [パネルタイプ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja) | <ul><li>フリーフォーム（デフォルト）</li><li>空白</li><li>クイックインサイト</li></ul> |
 |  | 数値の形式 | <ul><li>1,000.00（デフォルト）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 区切り文字文字 | <ul><li>カンマ（デフォルト）</li><li>セミコロン</li><li>コロン</li><li>パイプ</li><li>ピリオド</li><li>空白文字</li><li>タブ</li></ul> |
+
+## [!UICONTROL ダークテーマ]
+
+Adobe Analyticsユーザーインターフェイスの背景を暗くしたい場合は、 [!UICONTROL ダークテーマ].
+
+1. 右上のExperience Cloudユーザーアイコンをクリックします。
+
+   ![ダークテーマ](assets/dark-theme.png)
+
+1. を **[!UICONTROL ダークテーマ]** 右に切り替えます。
