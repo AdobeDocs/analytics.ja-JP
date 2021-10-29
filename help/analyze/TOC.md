@@ -5,9 +5,9 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1006'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
             + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動的項目と静的項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [テーブルのページネーション、フィルタリングおよび並べ替え](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Workspace の合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [ワークスペースの合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + コホートテーブル {#cohort-table}
          + [コホート分析とは](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [コホート分析レポートの設定](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -126,7 +126,7 @@ ht-degree: 99%
          + [アラートマネージャー](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [インテリジェントアラート - 使用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [ユーザー環境設定](analysis-workspace/user-preferences.md)
-   + Workspace の FAQ {#workspace-faq}
+   + ワークスペースの FAQ {#workspace-faq}
       + [よくある質問](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [エラーメッセージ](analysis-workspace/workspace-faq/error-messages.md)
