@@ -2,10 +2,10 @@
 title: ハードコードされたイメージリクエストを使用した実装
 description: HTML イメージタグを使用した Adobe Analytics の実装（ハードコードされたイメージリクエスト）
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: ht
-source-wordcount: '672'
-ht-degree: 100%
+source-git-commit: a97043caa9b6d2dc24f52c599fd0caa9241af62f
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 次に、HTML を使用したハードコードされたイメージリクエストの例を示します。
 
 ```html
-<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1/s234234238479?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` はプロトコルを指定します。イメージリクエストで使用されるプロトコルと、サイトの残りの部分で使用されるプロトコルとを一致させます。
@@ -32,6 +32,7 @@ ht-degree: 100%
 * `/b/ss/` は、すべてのイメージリクエストに含まれます。これは、アドビのデータ収集サーバーに保存される画像のファイル構造の一部です。
 * `examplersid` は、データの送信先のレポートスイート ID です。複数のレポートスイートの場合、ID をコンマで区切り、スペースは使用しません（`examplersid1,examplersid2` など）。
 * `/1/` はヒットソースです。詳しくは、『エクスポートユーザーガイド』の[データ列の参照](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で `hit_source` を参照してください。訪問者を識別するために Cookie やその他の方法が使用する順序を制御します。
+* `/s234234238479` (`"s"` +乱数 ) は、ブラウザーがイメージリクエストをキャッシュするのを防ぎます。
 * クエリー文字列の区切り文字（`?`）の後にあるのはすべて、レポートに含めるデータです。イメージリクエストに含めることができるすべてのパラメーターのリストについては、[データ収集クエリーパラメーター](../validate/query-parameters.md)を参照してください。
 
 ## Microsoft Outlook のハードコードされたイメージリクエスト

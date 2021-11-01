@@ -3,10 +3,10 @@ description: データフィードに関するよくある質問（FAQ）
 keywords: データフィード;ジョブ;pre列;post列;大文字と小文字を区別
 title: データフィードに関する FAQ
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: ht
-source-wordcount: '1440'
-ht-degree: 100%
+source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ FTP 転送が失敗した場合（ログイン拒否、接続の切断、割り�
 
 転送が失敗した場合は、正常に実行されるまでジョブを再実行できます。
 
-FTP サイトにデータフィードを表示する際に問題が発生した場合は、「[ジョブのトラブルシューティング](jobs-troubleshooting.md)」を参照してください。
+FTP サイトにデータフィードを表示する際に問題が発生した場合は、 [データフィードのトラブルシューティング](troubleshooting.md).
 
 ## ジョブを再送する方法を教えてください。 {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
@@ -99,8 +99,3 @@ AWS でも、異なるユーザーアカウントに属するバケット内に�
 >[!NOTE]
 >
 >[!DNL Analytics] は、バケットの所有者に新しいオブジェクの完全な制御を許可する必要があるポリシーがバケットに含まれているかどうか、またはバケットがデータを書き込むユーザーとは異なるアカウントに属しているかどうかを判断しません。代わりに、[!DNL Analytics] は、フィードのアップロードごとに、バケットの所有者を BucketOwnerFullControl ACL に自動的に追加します。
-
->[!MORELIKETHIS]
->
->* [ジョブのトラブルシューティング](jobs-troubleshooting.md)
-
