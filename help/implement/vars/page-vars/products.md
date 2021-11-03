@@ -2,10 +2,10 @@
 title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 100%
 
 `s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。各フィールドを文字列内でセミコロン（`;`）で区切ります。
 
-* **カテゴリ**（オプション）：包括的な製品カテゴリ。組織は、製品をカテゴリにグループ化する方法を決定します。このフィールドの最大長は 100 バイトです。
+>[!IMPORTANT]
+>**[!UICONTROL カテゴリ&#x200B;]**は、製品カテゴリのパフォーマンスを追跡するための実行可能なオプションとして推奨されなくなりました。 その結果、すべての製品文字列はセミコロンで始まり、空の最初のフィールドを示す必要があります。
+
 * **製品名**（必須）：製品の名前。このフィールドの最大長は 100 バイトです。
 * **量**（オプション）：買い物かごに入っている製品の数。このフィールドは、購入イベントを含むヒットにのみ適用されます。
 * **価格**（オプション）：小数での製品の合計価格。量が 2 つ以上の場合、価格は個々の製品価格ではなく合計に設定します。この値の通貨を [`currencyCode`](../config-vars/currencycode.md) 変数に合わせて整列します。このフィールドに通貨記号を含めないでください。このフィールドは、購入イベントを含むヒットにのみ適用されます。
@@ -41,14 +43,14 @@ ht-degree: 100%
 
 ```js
 // Set a single product using all available fields
-s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
+s.products = ";Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
 この変数は、同じヒットで複数の製品をサポートします。買い物かごや複数の製品を含む購入に役立ちます。`products` 文字列全体の最大長は 64K です。各製品は文字列内でコンマ（`,`）で区切ります。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
+s.products = ";Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -61,39 +63,39 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 ```js
 // Include only product and category. Common on individual product pages
-s.products = "Example category;Example product";
+s.products = ";Example product";
 
-// Include only product name if you do not want to use product category
+// Include only product name
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = "Example category;Example product 1,;Example product 2";
+s.products = ";Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
-s.products = "Example category;Example product;1;6.99";
+s.products = ";Example product;1;6.99";
 
 // A visitor purchases multiple products with different quantities
 s.events = "purchase";
-s.products = "Example category;Example product 1;9;26.91,Example category;Example product 2;4;9.96";
+s.products = ";Example product 1;9;26.91,Example category;Example product 2;4;9.96";
 
 // Attribute currency event1 only to product 2 and not product 1
 s.events = "event1";
-s.products = "Example category 1;Example product 1;1;1.99,Example category 2;Example product 2;1;2.69;event1=1.29";
+s.products = ";Example product 1;1;1.99,Example category 2;Example product 2;1;2.69;event1=1.29";
 
 // Use multiple numeric events in the product string
 s.events = "event1,event2";
-s.products = "Example category;Example product;1;4.20;event1=2.3|event2=5";
+s.products = ";Example product;1;4.20;event1=2.3|event2=5";
 
 // Use merchandising eVars without any events. Note the adjacent semicolons to skip events
-s.products = "Example category;Example product;1;6.69;;eVar1=Merchandising value";
+s.products = ";Example product;1;6.69;;eVar1=Merchandising value";
 
 // Use merchandising eVars without category, quantity, price, or events
 s.products = ";Example product;;;;eVar1=Merchandising value";
 
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
-s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+s.products = ";Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
 `digitalData` [データレイヤー](../../prepare/data-layer.md)を使用する場合は、`digitalData.product`オブジェクト配列を繰り返し処理できます。

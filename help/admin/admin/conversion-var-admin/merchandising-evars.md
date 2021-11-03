@@ -1,10 +1,11 @@
 ---
 title: マーチャンダイジング eVar と製品検索方法
 description: マーチャンダイジング eVar の概念と、eVar によるデータの処理方法および配分方法について詳しく説明します。
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
-workflow-type: ht
-source-wordcount: '5324'
-ht-degree: 100%
+exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '5319'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +87,7 @@ ht-degree: 100%
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL カテゴリー]は非推奨（廃止予定）の機能で、製品カテゴリーのパフォーマンスを追跡するための実行可能なオプションとしては、推奨されなくなりました。products 変数のほとんどの実装で、変数値の productID 部分の前にセミコロンを 1 つ配置するのはこのためです。
+* [!UICONTROL カテゴリ] は、製品カテゴリのパフォーマンスを追跡するための実行可能なオプションとして推奨されなくなりました。  products 変数のほとんどの実装で、変数値の productID 部分の前にセミコロンを 1 つ配置するのはこのためです。
 * [!UICONTROL 数量]と[!UICONTROL 売上]は、製品購入を追跡する際に役立ちます。
 * [!UICONTROL イベント] は、売上高としてカウントされないカスタムの増分イベント値または通貨イベント値（送料、割引など）を記録するのに役立ちます。
 
