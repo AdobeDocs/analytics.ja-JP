@@ -2,13 +2,13 @@
 description: キュレーションを使用すると、プロジェクトを共有する前にコンポーネントを制限できます。
 keywords: Analysis Workspace キュレーション
 title: プロジェクトのキュレーション
-feature: キュレーションと共有
+feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '552'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 
 >[!NOTE]
 > 製品プロファイルは、ユーザーに表示されるコンポーネントを管理する主要メカニズムです。Adobe Experience Cloud Admin Console で管理されます。キュレーションはセカンダリフィルターです。
+
+以下は、プロジェクトのキュレーションおよび共有に関するビデオです。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
 
 ## プロジェクトキュレーションの適用
 

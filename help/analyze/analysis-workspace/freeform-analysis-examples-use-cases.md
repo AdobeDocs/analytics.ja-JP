@@ -2,12 +2,12 @@
 description: Analysis Workspace のデータテーブル、セグメントおよび使用例のアイデアの使い方の例です。
 keywords: Analysis Workspace
 title: Analysis Workspace の使用例
-feature: Reports and Analytics の基本
+feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -61,3 +61,8 @@ Analysis Workspace のデータテーブル、セグメントおよび使用例�
 
    これで、[マーチャンダイジングチームとレポートを共有](/help/analyze/analysis-workspace/curate-share/curate.md)できます。
 
+## Analysis Workspaceでのクロス販売分析
+
+このトピックに関するビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
