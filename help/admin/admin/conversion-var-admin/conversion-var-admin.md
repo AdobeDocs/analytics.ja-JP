@@ -2,19 +2,23 @@
 description: カスタムインサイトコンバージョン変数（または eVar）は、サイト上の選択された Web ページの Adobe コードに配置されます。その主な目的は、カスタムマーケティングレポートでコンバージョン成功指標をセグメント化することです。eVar は訪問ベースにすることができ、cookie と同じように機能します。eVar 変数に渡された値は、事前設定した期間、ユーザーを追跡します。
 keywords: eVar
 title: コンバージョン変数（eVar）
-feature: 管理ツール
+feature: Admin Tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1582'
+ht-degree: 100%
 
 ---
 
 # コンバージョン変数（eVar）
 
 カスタムインサイトコンバージョン変数（または eVar）は、サイト上の選択された Web ページの Adobe コードに配置されます。その主な目的は、カスタムマーケティングレポートでコンバージョン成功指標をセグメント化することです。eVar は訪問ベースにすることができ、cookie と同じように機能します。eVar 変数に渡された値は、事前設定した期間、ユーザーを追跡します。
+
+ビデオの概要を次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
 
 1 つの eVar を 1 人の訪問者の値に設定すると、その値が期限切れになるまで自動的に記憶されます。eVar 値がアクティブなときに訪問者に対して発生したすべての成功イベントは、その eVar 値にカウントされます。
 

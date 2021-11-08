@@ -2,10 +2,10 @@
 title: Analytics の統合
 description: 他の場所のデータを Adobe Analytics に統合する方法について説明します。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 4324a4911337db6299563f31cc50dc4da220ee45
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 84%
+source-wordcount: '202'
+ht-degree: 80%
 
 ---
 
@@ -13,16 +13,21 @@ ht-degree: 84%
 
 ![バナー](../../assets/doc_banner_integrate.png)
 
-このガイドでは、複数の Adobe エクスペリエンスクラウドソリューションの統合について重点的に説明します。 Analytics Data Connectors をお探しの場合は、インポートユーザーガイドの [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) ページを参照してください。
+このガイドでは、複数のAdobe Experience Cloudソリューションの統合に焦点を当てています。 Analytics Data Connectors をお探しの場合は、インポートユーザーガイドの [Data Connectors](/help/import/data-connectors/getting-started-data-connectors.md) ページを参照してください。
 
 Audience Manager、Advertising Cloud、Target など、他の Adobe Experience Cloud ソリューションとの統合を設定します。以下のようなものがあります。
 
 * **Audience Analytics：** Adobe Audience Manager を Adobe Analytics と統合します。
 * **Advertising Analytics：**&#x200B;有料検索データを Adobe Analytics データと並べて確認します。
-* **広告クラウドの分析:** Adobe アナリティクスと Adobe 広告クラウドを統合して、各製品の機能を拡張および強化します。
+* **Advertising Cloud DSP向け Analytics:** Adobe AnalyticsとAdobe Advertising Cloudを統合して、各製品の機能を拡張および強化します。 ビデオの概要を次に示します。
+   >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
 * **Analytics for Target：** A4T は Adobe Analytics および Adobe Target を統合します。
 * **Adobe Campaign レポート：** Adobe Analytics を Adobe Campaign と統合します。
 * **AEM Assets レポート：** Adobe Experience Manager から提供されるアセットのインプレッション数およびクリック数のコレクションを有効にします。
+
+以下に、Adobe Analyticsの概要ビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## 主な Analytics 統合記事
 

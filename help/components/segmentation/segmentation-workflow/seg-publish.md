@@ -4,10 +4,10 @@ title: Experience Cloud へのセグメントの公開
 feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '1300'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '1306'
+ht-degree: 99%
 
 ---
 
@@ -17,10 +17,13 @@ Adobe Analytics セグメントを Experience Cloud に公開すると、[!DNL A
 
 また、公開可能な Adobe Analytics セグメントの最大数を 20 から 75 に増やしました。公開したセグメントは、[!UICONTROL Analytics／Components／Segments] で表示できます。
 
+詳しくは、このビデオを参照してください。
+
+>[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+
 >[!NOTE]
 >
 > Adobe Campaign（Classic と Standard）の動作は、8 時間の遅延に加えて 24 時間の遅延が発生する点が異なります。
-
 
 ## 前提条件
 

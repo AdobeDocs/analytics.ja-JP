@@ -2,19 +2,23 @@
 description: ヒストグラムは、Analysis Workspace の新しいビジュアライゼーションタイプです。
 title: ヒストグラム
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '370'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 97%
 
 ---
 
 # ヒストグラム
 
 ヒストグラムは、棒グラフに似ていますが、数を範囲（グループ）でグループ化します。Analytics は、数から範囲への「グループ化」を自動化しますが、[詳細設定](#section_09D774C584864D4CA6B5672DC2927477)で設定を変更できます。
+
+ヒストグラムの使用方法に関するビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
 
 ## ヒストグラムのビルド {#section_74647707CC984A1CB6D3097F43A30B45}
 
