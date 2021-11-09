@@ -2,17 +2,20 @@
 title: データフィード UI
 description: データフィードインターフェイスのナビゲーション方法を説明します。
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '637'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 98%
 
 ---
 
 # データフィードの管理
 
 データフィードマネージャーを使用すると、組織のデータフィードを作成、編集および削除できます。データフィードマネージャーにアクセスする権限を持っている場合は、表示されているすべてのレポートスイートのデータフィードを管理できます。
+
+データフィード管理 UI のビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
 次の手順に従って、データフィード管理にアクセスします。
 

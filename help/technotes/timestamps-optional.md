@@ -5,9 +5,9 @@ title: タイムスタンプオプションの使用
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # タイムスタンプオプションの使用
 
 タイムスタンプオプション設定を使用することのメリットと制約について説明します。
+
+こちらが、このトピックに関するビデオです：
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 タイムスタンプオプションは、すべての新しいレポートスイートのデフォルト設定です。
 
@@ -34,7 +38,6 @@ ht-degree: 100%
 
 * **タイムスタンプデータ**。クライアント側のタイムスタンプデータは、Web ページでクライアント側タイムスタンプ変数 Javascript を使用するか、モバイルアプリで Mobile SDK 呼び出し（[!DNL offlineEnabled=true]）を使用したデバイスデータで直接キャプチャおよび送信されます。
 * **タイムスタンプのないデータ**。アドビは、データが収集サーバーをヒットした場合、レポートスイートのタイムスタンプのないデータにタイムスタンプを設定します。
-
 
 レポートスイートは、次のいずれかのタイムスタンプ設定を持つ可能性があります。
 

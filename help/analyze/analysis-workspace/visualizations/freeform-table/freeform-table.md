@@ -1,13 +1,13 @@
 ---
 title: フリーフォームテーブル
 description: フリーフォームテーブルは、Workspace のデータ分析の基盤となっています。
-feature: フリーフォームテーブル
+feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 98%
 
 ---
 
@@ -52,6 +52,20 @@ Analysis Workspace のすべてのデータエクスポートオプションに�
 * 右クリック >「**[!UICONTROL データを CSV 形式でダウンロード]**」：表示されているテーブルデータが CSV 形式でダウンロードされます。テーブルを選択すると、このオプションが「**[!UICONTROL 選択内容を CSV 形式でダウンロード]**」に変わります。
 * 右クリック >**[!UICONTROL 「プロジェクト」>「項目を CSV 形式でダウンロード」]**：選択したディメンションの最大 50,000 個のディメンション項目がエクスポートされます。
 
-Analysis Workspace のすべてのデータエクスポートオプションついては、[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja)から確認できます。
+Analysis Workspace のすべてのデータエクスポートオプションついては、[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)から確認できます。
 
 ![](assets/export-options.png)
+
+## ビデオ
+
+フリーフォームテーブルビルダーの概要：
+
+>[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+
+フリーフォームテーブルフィルター：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+
+フリーフォームテーブルの合計：
+
+>[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)

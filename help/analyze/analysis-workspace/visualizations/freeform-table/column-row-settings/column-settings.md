@@ -2,13 +2,13 @@
 description: 列設定では、列の書式を設定できます。一部の列には条件付き書式を設定することもできます。
 title: 列設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: フリーフォームテーブル
+feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -69,3 +69,9 @@ Analysis Workspace では、ほとんどすべての指標の[アトリビュー
 >
 >* [データソースの管理](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
+
+## 動的列
+
+Analysis Workspaceでの動的列の使用方法に関するビデオを以下に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)

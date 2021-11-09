@@ -5,10 +5,10 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 96%
 
 ---
 
@@ -24,21 +24,17 @@ Activity Map は Adobe Analytics のアプリケーションであり、視覚�
 
 Activity Map を使用すると、様々なビューを設定することにより、顧客アクティビティの増加を視覚的に特定し、マーケティングイニシアチブを数量化して、オーディエンスのニーズや行動に合わせて対応することができます。
 
-次に、Activity Map の概要ビデオを示します。
-
->[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
-
-**はじめに（管理者向け）**
+## はじめに（管理者向け）
 
 * [Activity Map の有効化](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [実装コードのサンプル](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**はじめに（ユーザー向け）**
+## はじめに（ユーザー向け）
 
 * [Activity Map ブラウザープラグインのインストール ](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Activity Map の起動](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Activity Map の機能**
+## Activity Map の機能
 
 * [強力なリンクトラッキング](lnk-tracking-overview.md)
 * [標準モードとライブモード](activitymap-standard-live.md)
@@ -57,3 +53,13 @@ Activity Map を使用すると、様々なビューを設定することによ�
 * [Activity Map ユーザーインターフェイス](activitymap-user-interface.md)
 * [Analytics の Activity Map レポート](activitymap-reporting-analytics.md)
 * [ブラウザー拡張のトラブルシューティング](troubleshooting-browser-extensions.md)
+
+## ビデオ
+
+ビデオ：Activity Mapの概要：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
+
+Activity Mapの有効化、無効化およびカスタマイズ：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)

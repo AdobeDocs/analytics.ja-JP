@@ -3,13 +3,13 @@ description: Analysis Workspace のディメンションおよびディメンシ
 keywords: Analysis Workspace
 title: ディメンションの分類
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Workspace の基本
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 88%
 
 ---
 
@@ -30,12 +30,22 @@ Analysis Workspace のディメンションおよびディメンション項目�
    >
    >テーブルに表示する分類の数は、200 までに制限されています。この制限は、分類をエクスポートする場合は増加します。
 
-[Analysis Workspace のプロジェクトへのディメンションと指標の追加](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=ja)（11:39）
-
-[フリーフォームテーブルでのディメンションの操作](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html?lang=ja)（15:35）
-
 ## 分類へのアトリビューションモデルの適用
 
 テーブル内の分類には、任意のアトリビューションモデルを適用することもできます。このアトリビューションモデルは、親列と同じ場合と異なる場合があります。例えば、マーケティングチャネルディメンションで線形の注文件数を分析するものの、チャネル内の特定のトラッキングコードには U 字形の注文件数を適用するといったことができます。分類に適用されるアトリビューションモデルを編集するには、その分類モデルの上にマウスポインターを置いて「**[!UICONTROL 編集]**」をクリックするだけです。
 
 ![分類の設定](assets/breakdown_settings.png)
+
+## ビデオ
+
+Analysis Workspaceのプロジェクトにディメンションと指標を追加する：
+
+>[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+
+フリーフォームテーブルでのディメンションの操作：
+
+>[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+
+次に、位置別のディメンション分類に関するビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)

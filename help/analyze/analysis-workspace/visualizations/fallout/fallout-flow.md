@@ -2,19 +2,23 @@
 description: Workspace プロジェクトでフォールアウトビジュアライゼーションを使用します。
 title: フォールアウトの概要
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 98%
 
 ---
 
 # フォールアウトの概要
 
 フォールアウトビジュアライゼーションには、フォールアウトレポートを作成するためのより多くのオプションがあります。フォールアウトレポートは、事前に指定した一連のページ間で、訪問者が離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。
+
+以下に、フォールアウトビジュアライゼーションに関するビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
 
 フォールアウトビジュアライゼーションでは、次の操作をおこなうことができます。
 
@@ -33,8 +37,6 @@ ht-degree: 100%
 * サイト上の特定のプロセス（購入や登録プロセスなど）を通してのコンバージョン率。
 * 一般的でより広範囲なトラフィックフロー。ホームページを閲覧した訪問者のうち、検索を実行した訪問者の人数、その後特定の品目を閲覧した訪問者の人数などを表示できます。
 * サイト上のイベント間の関連性。例えばプライバシーポリシーを閲覧した訪問者のうち製品の購入に到達した人の割合を示します。
-
-[フォールアウトのビジュアライゼーションに関するビデオチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=ja)（4:15）
 
 ## フローとフォールアウトの基礎としてのセグメント化 {#section_654F37A398C24DDDB1552A543EE29AA9}
 

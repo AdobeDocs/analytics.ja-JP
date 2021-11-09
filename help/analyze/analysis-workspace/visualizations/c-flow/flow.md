@@ -2,12 +2,12 @@
 description: Workspace プロジェクトでフロービジュアライゼーションを使用します。
 title: フローの概要
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -37,3 +37,7 @@ ht-degree: 100%
 ## フロー図が含まれたプロジェクト .CSV ファイルの書き出し {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 フロー図は、**[!UICONTROL プロジェクト]**／**[!UICONTROL CSV をダウンロード]**&#x200B;に移動して作成できるプロジェクトの .CSV ファイルに含まれています。これにより、フロー結果を Microsoft Excel（テーブルとして表示）やその他のツールで分析することができます。
+
+## フロービジュアライゼーションの詳細
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
