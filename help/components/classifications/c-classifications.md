@@ -2,10 +2,10 @@
 title: 分類の概要
 description: ディメンション項目のグループ化をカスタマイズします。
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
 分類後は、キー変数を使用して生成できるすべてのレポートが、関連付けられた属性を使用して生成することもできるようになります。例えば、[!UICONTROL 製品 ID] を、追加した製品属性（製品名、色、サイズ、説明、SKU など）によって分類できます。レポーティングと解析データに属性を追加し拡張することで、さらに詳しく複雑なレポートを作成できます。
 
 分類を作成すると、Adobe Analytics で新しいデータ属性を利用できます。
+
+以下に、Adobe Analytics分類に関する概要ビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
 ## トラッキングコードの例
 

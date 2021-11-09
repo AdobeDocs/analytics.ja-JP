@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,10 @@ Analysis Workspace のマップのビジュアライゼーションの特徴を�
 * PDF の書き出しをサポートします。
 * グラフィックの表示に WebGL を利用します。グラフィックドライバーが WebGL レンダリングをサポートしない場合、ドライバーを更新する必要がある可能性があります。
 
+ビデオの概要を次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## マップのビジュアライゼーションの作成 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. ビジュアライゼーションのリストからフリーフォームパネルに&#x200B;**[!UICONTROL マップ]**&#x200B;をドラッグします。
@@ -33,18 +37,10 @@ Analysis Workspace のマップのビジュアライゼーションの特徴を�
 1. 指標のリスト（計算指標を含む）から指標にドラッグします。
 1. 描画するデータソースを指定します（このダイアログは、モバイルアプリデータのロケーションの追跡を有効にしている場合にのみ、表示されます）。
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>モバイル緯度経度</b> </p> </td> 
-   <td colname="col2"> <p>このオプションは、モバイルアプリデータを表します。 </p> <p>このオプションは、<span class="ignoretag"><span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">レポートスイート</span>／<span class="uicontrol">&lt;レポートスイートを選択&gt;</span>／<span class="uicontrol">設定を編集</span>／<span class="uicontrol">モバイル管理</span>／<span class="uicontrol">ロケーションの追跡を有効にする</span></span>で、レポートスイートに対してこのオプションを有効にしている場合にのみ表示されます。 </p> <p>これがデフォルト設定です（ロケーションの追跡が有効な場合）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>地域ディメンション</b> </p> </td> 
-   <td colname="col2"> <p>このオプションは、訪問者の IP アドレスに基づく訪問者の場所に関する地理特性データを表します。このデータは、国、地域および市区町村に変換されます。DMA または郵便番号レベルには変換されません。 </p> <p>このディメンションは、ほぼすべてのレポートスイートで有効になっています。有効になっていない場合は、アドビカスタマーケアに連絡して、地域レポートを有効にしてもらってください。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 設定 | 説明 |
+| --- | --- |
+| [!UICONTROL モバイル緯度経度] | このオプションは、モバイルアプリデータを表します。このオプションは、 [!UICONTROL Analytics] > [!UICONTROL 管理者] > [!UICONTROL レポートスイート] / （レポートスイートを選択）/ [!UICONTROL 設定を編集] >  [!UICONTROL モバイル管理] > [!UICONTROL ロケーションの追跡を有効にする]. これがデフォルト設定です（ロケーションの追跡が有効な場合）。 |
+| [!UICONTROL 地域ディメンション] | このオプションは、訪問者の IP アドレスに基づく訪問者の場所に関する地理特性データを表します。このデータは、 [!UICONTROL 国], [!UICONTROL 地域]、および [!UICONTROL 市区町村]. DMA または郵便番号レベルには変換されません。このディメンションは、ほぼすべてのレポートスイートで有効になっています。有効になっていない場合は、アドビカスタマーケアに連絡して、地域レポートを有効にしてもらってください。 |
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
-workflow-type: ht
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + フォールアウト {#fallout}
          + [フォールアウトの概要](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [フォールアウトビジュアライゼーションの設定](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [ディメンション間のフォールアウト](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [複数ディメンションのフォールアウト](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [フォールアウト分析でのセグメントの適用](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + フロー {#flow}
          + [フローの概要](analysis-workspace/visualizations/c-flow/flow.md)
