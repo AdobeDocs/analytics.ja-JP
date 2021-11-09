@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 99%
+source-wordcount: '1405'
+ht-degree: 98%
 
 ---
 
@@ -123,6 +123,10 @@ ht-degree: 99%
 >[!NOTE]
 >
 >人物テンプレートとそれに関連する人物指標は、[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=ja) の一部としてのみ使用可能です。
+
+人物テンプレートのビデオ概要：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 このテンプレートは、ユニーク訪問者指標の重複を排除したバージョンである人物指標に基づいています。人物指標は、消費者がブランドと関わる際にどのくらいの頻度で複数のデバイスを使用しているかを測定します。このテンプレートでは次の操作が可能です。
 

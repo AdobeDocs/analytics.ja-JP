@@ -4,10 +4,9 @@ title: リアルタイムレポート
 topic-fix: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -19,6 +18,10 @@ Web ページのトラフィックを表示し、ページビューをリアル�
 >[!NOTE]
 >
 >リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートの設定については、[リアルタイムレポートの設定](/help/admin/admin/realtime/t-realtime-admin.md)を参照してください。
+
+ビデオの概要を次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL サイト指標]**／**[!UICONTROL リアルタイム]**
 
@@ -48,7 +51,7 @@ Web ページのトラフィックを表示し、ページビューをリアル�
 
 リアルタイムレポートの設定および表示をおこなうことができるのは、管理者または「全レポートアクセス」および「高度なレポート機能」権限グループのユーザーに制限されています。ただし、リアルタイムは権限を重視します。例えば、売上高を表示する権限がないユーザーは、売上高データを含むリアルタイムレポートを表示できません。
 
-## A4T 設定によるデータ遅延  {#section_806CE36354FC4C539A0DED9266A5C704}
+## A4T 設定によるデータ遅延 {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Adobe Target で A4T 統合を有効にすると、Adobe Analytics で 5～10 分の待ち時間が追加で発生します。この追加の待ち時間は、Analytics と Target からのデータを同じヒットに格納することによって、ページおよびサイトセクションによってテストを分類できるようにするためのものです。
 

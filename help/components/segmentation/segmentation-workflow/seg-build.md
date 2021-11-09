@@ -1,13 +1,13 @@
 ---
 description: セグメントビルダーのキャンバスに指標ディメンション、セグメントおよびイベントをドラッグ＆ドロップすることで、コンテナ階層の論理、ルールおよび演算子に基づいて訪問者をセグメント化します。この統合開発ツールを使用すると、訪問やページヒットを対象として訪問者の属性やアクションを識別する、簡単な、または複雑なセグメントを作成し、保存できます。
 title: セグメントの構築
-feature: セグメント化
+feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2036'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '2046'
+ht-degree: 99%
 
 ---
 
@@ -120,6 +120,10 @@ ht-degree: 100%
 訪問コンテナーを作成し、そこに、AND 演算子を使用して、「[!UICONTROL 最近の 60 日間]」という期間と「[!UICONTROL 購入回数が 1 よりも大きいか等しい]」という指標を追加します。
 
 ![](assets/date-ranges.png)
+
+次に、セグメントでの周期的な日付範囲の使用に関するビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
 ## セグメントの積み重ね {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

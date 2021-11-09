@@ -4,10 +4,10 @@ description: オーディエンスに関するデータをより深く掘り下�
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 447f03c240580462b92b04254ca682cef69b6ffc
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 90%
 
 ---
 
@@ -27,14 +27,13 @@ ht-degree: 100%
 
 [!UICONTROL コホート分析]は、[!UICONTROL Analysis Workspace] へのアクセス権を持つすべての Adobe Analytics ユーザーが利用できます。
 
-[コホート分析のビデオチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=ja) （4:36）
+Analysis Workspaceのコホートテーブルに関するビデオ：
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL コホート分析]
->
->は、セグメント化不可能な指標（計算指標を含む）、整数以外の指標（売上高など）、発生件数をサポートしていません。セグメントで使用できる指標のみが
->[!UICONTROL コホート分析]で使用できます。一度に 1 つのみ増やすことができます。
+>[!UICONTROL コホート分析] は、セグメント化不可能な指標（計算指標を含む）、整数以外の指標（売上高、発生件数など）をサポートしていません。 セグメントで使用できる指標のみが [!UICONTROL コホート分析]で、一度に 1 を超える数のみ増やすことができます。
 
 ## コホート分析の機能
 

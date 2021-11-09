@@ -4,10 +4,10 @@ description: Analysis Workspace は Adobe Analytics の主要な分析ツール�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 97%
 
 ---
 
@@ -60,6 +60,12 @@ Workspace プロジェクトでは、左パネルから&#x200B;**パネル、テ
 **パネル**&#x200B;を使用すると、プロジェクト内の分析を整理し、多数のテーブルやビジュアライゼーションを含めることができます。Analysis Workspace で提供される多くのパネルは、少数のユーザー入力に基づいてフルセットの分析を生成します。左端のパネルで上部の&#x200B;**[!UICONTROL パネル]**&#x200B;アイコンを選択し、使用可能な [パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)の完全なリストを表示します。
 
 ![](assets/build-panels.png)
+
+### Analysis Workspaceでのプロジェクト管理
+
+プロジェクト管理の概要ビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
 ## その他のリソース {#resources}
 
