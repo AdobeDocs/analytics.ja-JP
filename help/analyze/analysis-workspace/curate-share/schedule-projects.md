@@ -1,13 +1,12 @@
 ---
-description: 予定されているAnalysis Workspaceプロジェクトの管理
+description: スケジュールされたAnalysis Workspaceプロジェクトの管理
 keywords: Analysis Workspace
 title: スケジュール済みプロジェクトマネージャー
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 96%
+source-wordcount: '164'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +18,10 @@ ht-degree: 96%
 **[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL スケジュールされたプロジェクト]**。
 
 ![](assets/components-scheduled-projects.png)
+
+以下は、Analysis Workspaceのスケジュール済みおよびダウンロード可能なプロジェクトに関するビデオです。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24709/?quality=12)
 
 スケジュール済みプロジェクトマネージャーでは、定期的なプロジェクト配信を編集および削除できます。レポートを電子メール経由で指定のアドレスに送信する配信スケジュールを設定できます。これらのスケジュールを設定して、ある期間中のみまたは無期限に、指定した間隔でレポートを自動送信したり、定期的なプロジェクトの配信を停止したりできます。
 
@@ -32,6 +35,5 @@ ht-degree: 96%
 * スケジュール済みプロジェクトのタグ付け。
 * スケジュール済みプロジェクトの所有者の指定／変更。
 * その他のフィルターの追加（承認済み、失敗、お気に入り、自分が所有、すべてを表示、期限切れのプロジェクト）。
-
 * スケジュール済みプロジェクトの有効期限の定義。
 

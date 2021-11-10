@@ -1,13 +1,13 @@
 ---
 description: セグメントを使用すると、特性や Web サイトでのインタラクションに基づいて訪問者のサブセットを識別できます。セグメントは、分類された閲覧者インサイトとして設計され、特定のニーズに合わせて作成することができ、確認、編集および他のチームメンバーと共有したり、他の Adobe 製品や Analytics 機能で使用したりできます。
 title: セグメントおよびコンテナについて
-feature: セグメント化
+feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '3698'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3705'
+ht-degree: 99%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 100%
 セグメントビルダーで利用されるコンテナアーキテクチャは、**[!UICONTROL 訪問者]**&#x200B;を最も外側にあるコンテナとして定義します。この訪問者コンテナには、訪問とページビューの全体で訪問者に固有の最も重要なデータが含まれます。ネストされた&#x200B;**[!UICONTROL 訪問]**&#x200B;コンテナでは、訪問者のデータを訪問に基づいて分類するルールを設定でき、ネストされた&#x200B;**[!UICONTROL ヒット]**&#x200B;コンテナでは、訪問者情報を個々のページビューに基づいて分類できます。各コンテナでは、訪問者の履歴全体で訪問別に分類されたインタラクションのレポートを作成することや、個々のヒットを分類することができます。
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
+
+セグメントコンテナの概要ビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
 
 **訪問者コンテナ**
 

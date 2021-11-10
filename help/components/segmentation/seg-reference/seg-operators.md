@@ -1,13 +1,13 @@
 ---
 description: セグメントビルダーでは、選択した演算子を使用して値を比較および制限できます。
 title: セグメントの比較演算子
-feature: セグメント化
+feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 99%
 
 ---
 
@@ -63,3 +63,7 @@ ht-degree: 100%
 | 次よりも小さい | 入力された値よりも小さいユニーク数を持つディメンション項目を返します。 |
 | 次よりも大きいか等しい | 入力された値以上のユニーク数を持つディメンション項目を返します。 |
 | 次よりも小さいか等しい | 入力された値以下のユニーク数を持つディメンション項目を返します。 |
+
+次に、個別のディメンション数に関するセグメント化に関するビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)

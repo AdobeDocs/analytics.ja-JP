@@ -1,13 +1,13 @@
 ---
 description: 順次セグメントは、AND や OR ではなく、THEN 演算子を使用して作成されます。THEN は、1 つのセグメント条件が発生すると、もう 1 つのセグメント条件が続くことを示します。デフォルトでは、順次セグメントは、フィルター「全員を含む」を表示し、合致するすべてのデータを識別します。順次セグメントは、「シーケンスの前のみ」および「シーケンスの後のみ」オプションを使用して、さらに合致するヒットのサブセットにフィルタリングできます。
 title: 順次セグメントの構築
-feature: セグメント化
+feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '3858'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3864'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 ![](assets/before-after-sequence.png)
 
 さらに、[After および Within 演算子](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を使用して、特定の期間、精度およびチェックポイント間のカウントに順次セグメントを制限することができます。
+
+順次セグメント化に関するビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
 ## 全員を含む {#section_75ADDD5D41F04800A09E592BB2940B35}
 
@@ -43,9 +47,9 @@ ht-degree: 100%
 
 | 例 | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
-| 全員を含む | A | B | C | D | E | F |
+| 全員を含む | A | B | C | D | E | 金 |
 | シーケンスの前のみ | A | B |  |  |  |  |
-| シーケンスの後のみ |  |  |  | D | E | F |
+| シーケンスの後のみ |  |  |  | D | E | 金 |
 
 **例 2：B の次に D が複数回現れる**
 

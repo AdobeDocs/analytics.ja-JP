@@ -5,9 +5,9 @@ title: プロジェクトの共有
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1111'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 99%
 受信者は、プロジェクトの 3 つの役割のいずれかに追加できます。プロジェクトの役割は、ユーザーと特定のプロジェクト ID に結び付けられます。プロジェクトの役割は、[Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) で管理されるユーザー権限とは独立しています。
 
 | 役割 | プロジェクト管理 |
-|---|---|
+| --- | --- |
 | 編集可能 | 受信者は、変更をプロジェクトに「**[!UICONTROL 保存]**」し、共同所有者になることができます。この役割は、他の同僚とプロジェクトを共同管理する場合に役立ちます。これには、共有プロジェクトの受信者リストの編集、削除、変更が含まれます。<br>注：Analysis Workspace は現在、ライブコラボレーションをサポートしていないので、一度に 1 人のユーザーだけがプロジェクトを編集することをお勧めします。プロジェクトを同時に保存すると、最後のバージョンが保持されます。 |
 | 複製可能 | 受信者は、 **[!UICONTROL 名前を付けて保存]**&#x200B;し、左側のパネルにアクセスできます。この役割では、プロジェクトの操作は制限されません。この役割は、組織のデータと Analysis Workspace の使用方法を理解しているが、プロジェクトを変更してほしくないユーザーとプロジェクトを共有する場合に役立ちます。 |
 | 表示可能 | 受信者は「名前を付けて保存」できず、左パネルにアクセスできません。プロジェクトの操作も制限されます。この役割は、組織のデータ構造、Analysis Workspace、または Adobe Analytics の一般的な知識の低いユーザーにプロジェクトを共有する場合に役立ちます。ただし、引き続き、安全な環境でデータやインサイトを利用したいと考える場合です。<br>「[プロジェクト体験を表示できる](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)」についての詳細をご覧ください。 |
@@ -86,6 +86,12 @@ ht-degree: 99%
 * プロジェクト B：4、5、6、7
 
 ![](assets/mult-proj-sharing.png)
+
+## 埋め込みコンポーネントの共有
+
+こちらが、このトピックに関するビデオです：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
 ## よくある質問（FAQ） {#FAQs}
 

@@ -2,21 +2,25 @@
 description: 概要番号および変更ビジュアライゼーションを使用して、プロジェクト内の重要なデータポイントを表示します。
 title: 数の概要と変更の概要
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 84%
 
 ---
 
 # 数の概要と変更の概要
 
-## 数値の概要ビジュアライゼーション {#summary-number}
+次に、これら 2 つのビジュアライゼーションに関するビデオを示します。
 
-概要番号ビジュアライゼーションを使用して、プロジェクトで重要な大きな数を強調表示します。このビジュアライゼーションは、次のように動作します。
+>[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+
+## [!UICONTROL 数値の概要ビジュアライゼーション] {#summary-number}
+
+以下を使用： [!UICONTROL 概要番号] ビジュアライゼーションを使用して、プロジェクトで重要な大きな数をハイライト表示できます。 このビジュアライゼーションは、次のように動作します。
 
 * セルが選択されていない場合、列の合計が選択されます。
 * 1 つのセルが選択されている場合、そのセルの概要が表示されます。
@@ -27,14 +31,14 @@ ht-degree: 100%
 
 | 設定 | 定義 |
 |--- |--- |
-| 割合（％） | 生の番号ではなく割合を表示します。 |
-| 凡例を表示 | 表示された指標に関する情報を表示します。 |
-| 値を短縮 | 値の省略形として、小数点以下 3 桁まで表示できます。 |
-| 値の要約基準 | データの選択範囲の最大値、最小値、平均値、中央値または合計を表示するかどうかを選択します。 |
+| [!UICONTROL 割合（％）] | 生の番号ではなく割合を表示します。 |
+| [!UICONTROL 凡例を表示] | 表示された指標に関する情報を表示します。 |
+| [!UICONTROL 値を短縮] | 値の省略形として、小数点以下 3 桁まで表示できます。 |
+| [!UICONTROL 値の要約基準] | データの選択範囲の最大値、最小値、平均値、中央値または合計を表示するかどうかを選択します。 |
 
-## 変更概要ビジュアライゼーション {#summary-change}
+## [!UICONTROL 変更概要ビジュアライゼーション] {#summary-change}
 
-変更概要ビジュアライゼーションを使用して、2 つの数値の差分（変化）を表示します。変更概要の緑と赤は、[カスタムイベントの極性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ja)、または計算指標の「[上昇傾向を表示](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja)」オプションを使用して制御できます。
+以下を使用： [!UICONTROL 変更概要] ビジュアライゼーションを使用して、2 つの数値の差分（変化）を表示できます。 の緑と赤 [!UICONTROL 変更概要] ～を通して制御できる [カスタムイベントの極性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ja) または計算指標の [上昇傾向を次の形式で表示](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja) オプション。
 
 このビジュアライゼーションは、次のように動作します。
 
@@ -52,8 +56,8 @@ ht-degree: 100%
 右上の&#x200B;**ビジュアライゼーション設定**&#x200B;の歯車をクリックして、変更概要の設定を指定します。
 
 | 設定 | 定義 |
-|--- |--- |
-| 割合（％） | 生の番号ではなく割合を表示します。 |
-| 凡例を表示 | 表示された指標に関する情報を表示します。 |
-| 変化率を表示 | 2 つの数値の変化率を表示します。 |
-| 生の差異を表示 | 2 つの数の間の生の差異を表示します。また、値の省略形を使用し、小数点以下 3 桁まで表示できます。 |
+| --- | --- |
+| [!UICONTROL 割合（％）] | 生の番号ではなく割合を表示します。 |
+| [!UICONTROL 凡例を表示] | 表示された指標に関する情報を表示します。 |
+| [!UICONTROL 変化率を表示] | 2 つの数値の変化率を表示します。 |
+| [!UICONTROL 生の差異を表示] | 2 つの数の間の生の差異を表示します。また、値の省略形を使用し、小数点以下 3 桁まで表示できます。 |
