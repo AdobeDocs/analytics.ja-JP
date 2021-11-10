@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1414'
 ht-degree: 98%
 
 ---
@@ -71,6 +71,10 @@ ht-degree: 98%
 * **トレーニングチュートリアル — 内部検索分析**：内部検索のチュートリアルは、web サイトやアプリケーションで、訪問者が探しているが見つからないものを理解するのに役立ちます。このタイプのデータを分析すると、コンテンツ最適化の機会が増える可能性があります。
 
 * **トレーニングチュートリアル - マーケティング分析**：このチュートリアルでは、カスタムディメンションや指標が重要なものを含め、経営陣向けのマーケティング分析を組み立てる方法について説明します。
+
+以下は、 [!UICONTROL トレーニングチュートリアル] テンプレート：
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### 広告
 

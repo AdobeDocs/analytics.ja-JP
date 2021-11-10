@@ -2,19 +2,23 @@
 description: ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを検証できます。
 title: ディメンション間のフロー
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-feature: ビジュアライゼーション
+feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 96%
 
 ---
 
 # ディメンション間のフロー
 
 ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを検証できます。
+
+Analysis Workspaceでのテキストの折り返しと多次元のフローに関するビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
 各フロー列の先頭のディメンションラベルにより、フローのビジュアライゼーションで複数のディメンションをより直感的に使用できます。
 

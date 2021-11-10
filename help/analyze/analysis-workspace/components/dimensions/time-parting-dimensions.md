@@ -2,19 +2,23 @@
 description: 時間分割は、収集したヒットのタイムスタンプを取得し、「時間帯」や「曜日」など、よりわかりやすいディメンションに分類します。
 title: 時間分割ディメンション
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace の基本
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 97%
 
 ---
 
 # 時間分割ディメンション
 
 時間分割は、収集したヒットのタイムスタンプを取得し、「時間帯」や「曜日」など、よりわかりやすいディメンションに分類します。
+
+次に、時間分割ディメンションに関するビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 時間分割ディメンションは、レポートスイートまたは仮想レポートスイートのタイムゾーンに基づいています。これらのディメンションは Analysis Workspace で使用でき、以下の問いへの回答を得られます。
 
@@ -30,7 +34,7 @@ ht-degree: 100%
 Analysis Workspace の時間分割ディメンションに含まれるものを以下に示します。
 
 | ディメンション | 値の例 |
-|--- |--- |
+| --- | --- |
 | 時刻 | 0～23 |
 | 午前／午後 | 午前、午後 |
 | 曜日 | 月曜日、火曜日、水曜日、木曜日、金曜日、土曜日、日曜日 |

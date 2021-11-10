@@ -1,13 +1,13 @@
 ---
 description: Workspace に関する FAQ
 title: よくある質問と Workspace のトラブルシューティング
-feature: Workspace の基本
+feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 100%
 | Data Warehouse で Analysis Workspace を使用できますか。 | Analysis Workspace は、一括データエクスポートにはお勧めしません。これは、ダッシュボードのような分析プロジェクトを作成するビジュアライゼーションワークスペースです。 |
 | Analysis Workspace のパフォーマンスを最適化するにはどうすればよいですか。 | 詳しくは、[パフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)を参照してください。 |
 
+## データはAnalysis Workspaceプロジェクトにどのように取り込まれますか？
+
+このビデオを見る：
+
+>[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
 ## トラブルシューティング
 
 **指標をドラッグすると、「無効なデータ」と表示される。**
@@ -38,3 +44,4 @@ ht-degree: 100%
 * レポートにセグメントを適用している場合、そのセグメント条件がどのデータとも一致しない可能性があります。セグメントを削除するか、セグメント定義を調整してみてください。
 * 右上隅の日付範囲をチェックし、期待する値に設定されていることを確認します。
 * Web サイトに移動し、[デバッガー](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用してデータが収集されていることを検証します。
+
