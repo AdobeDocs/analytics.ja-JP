@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1428'
+ht-degree: 96%
 
 ---
 
@@ -89,6 +89,12 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 ![](assets/left-rail.png)
 
+## 右クリックメニュー
+
+Analysis Workspaceでの右クリックメニューの使用に関するビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## プロジェクトキャンバス {#canvas}
 
 プロジェクトキャンバスでは、パネル、テーブル、ビジュアライゼーションおよびコンポーネントをまとめ、分析を作成できます。プロジェクトには多数のパネルを含めることができます。また、各パネルには多数のテーブルやビジュアライゼーションを含めることができます。
@@ -101,7 +107,9 @@ Workspace のプロジェクト一覧ページには、次の情報が表示さ�
 
 ## プロジェクトマネージャー {#manager}
 
-Analysis Workspace プロジェクトは、**Analytics／コンポーネント／プロジェクト**&#x200B;で管理できます。プロジェクトマネージャーには、特定のユーザーが作成したアイテムが表示されます。プロジェクトの所有権は、管理者／Analytics ユーザーおよびアセット／アセットを転送で新しいユーザーに譲渡できます。
+Analysis Workspaceプロジェクトは、以下で管理できます。 **[!UICONTROL Analytics] > [!UICONTROL コンポーネント] >  [!UICONTROL プロジェクト]**. プロジェクトマネージャーには、特定のユーザーが作成したアイテムが表示されます。
+
+プロジェクトの所有権は、以下の下の新しいユーザーに転送できます。 [!UICONTROL 管理者] > [!UICONTROL Analytics ユーザーおよびアセット] > [!UICONTROL アセットを転送].
 
 プロジェクトマネージャーでは、追加、タグ付け、共有、複製／コピーなどをおこなうことができます。検索バーまたは左側のパネルのフィルターオプションを使用して、プロジェクトを検索します。タグ、所有者、プロジェクトのタイプなどでフィルターできます。
 

@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace の使用例
 feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 93%
 
 ---
 
@@ -66,3 +66,15 @@ Analysis Workspace のデータテーブル、セグメントおよび使用例�
 このトピックに関するビデオを次に示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
+
+## 基本的なマーケティングアトリビューションに対するクロスタブ分析の使用
+
+Adobe Analytics では、アトリビューション手法を次のレベルにまで引き継ぐ方法は数多くあります。このビデオでは、Workspace のクロスタブ分析を使用して、 マーケティングチャネルレポートからより深い洞察を得る方法を強調します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/39237/?quality=12)
+
+## Analysis Workspaceでのパーティシペーション指標の使用
+
+このビデオでは、計算指標を使用してパーティシペーション指標を取得する方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/41266/?quality=12)

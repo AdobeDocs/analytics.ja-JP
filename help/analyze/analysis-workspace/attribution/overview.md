@@ -1,13 +1,13 @@
 ---
 title: アトリビューションの概要
 description: 成功イベントのクレジットを複数のディメンション項目に関連付ける概念。
-feature: アトリビューション
+feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 96%
 
 ---
 
@@ -45,3 +45,9 @@ Attribution IQ は、次の機能で構成されます。
 * [指標へのアトリビューションの適用](../visualizations/freeform-table/column-row-settings/column-settings.md)：プロジェクト内の任意の指標にデフォルト以外のアトリビューションを使用します。
 * [分類へのアトリビューションの適用](../components/dimensions/t-breakdown-fa.md)：分類にデフォルト以外のアトリビューションを使用します。
 * [アトリビューションモデルの比較](../components/apply-create-metrics.md)：指標ごとに異なるアトリビューションモデルがどのように比較されるかをすばやく確認できます。
+
+## ビデオ
+
+Analysis Workspaceでのセグメントでの様々なAttribution IQモデルの使用に関するビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)

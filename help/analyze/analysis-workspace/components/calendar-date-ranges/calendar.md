@@ -2,19 +2,23 @@
 description: カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。
 title: カレンダーと日付範囲の概要
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Workspace の基本
+feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
 # カレンダーと日付範囲の概要
 
 カレンダーで、日付や日付範囲を指定したり、プリセットを選択できます。
+
+Analysis Workspaceでの日付範囲とカレンダーの使用に関するビデオを次に示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
 カレンダーの選択は、パネルレベルで適用されますが、すべてのパネルに適用することもできます。Workspace で日付範囲をクリックすると、インターフェイスに現在のカレンダー月と、前のカレンダー月が表示されます。これらの 2 つのカレンダーを調整するには、それぞれの上隅にある右向き矢印と左向き矢印をクリックします。
 

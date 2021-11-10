@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 98%
+source-wordcount: '1423'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,10 @@ ht-degree: 98%
 
 ### メディア
 
-* **オーディオ消費**：最も消費され、ユーザーを惹きつけているのはどのコンテンツですか。
+* **オーディオ消費**：最も消費され、ユーザーを惹きつけているのはどのコンテンツですか。オーディオ消費テンプレートに関するビデオを次に示します。
+
+   >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
+
 * **最新性 - 頻度 - ロイヤルティ**：常連読者は誰ですか。
 
 ### モバイル
