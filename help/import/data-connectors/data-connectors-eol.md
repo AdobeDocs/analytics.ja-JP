@@ -2,10 +2,10 @@
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
-workflow-type: ht
+source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Analytics は、10 年以上にわたって、お客様のニーズを満�
 
 ## この機能の提供終了の理由を教えてください。
 
-この機能は、実行不可能またはサポートされなくなったレガシーテクノロジーによって動作します。[Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) で、アドビソリューションの現在の統合を見つけることができます。
+この機能は、実行不可能またはサポートされなくなったレガシーテクノロジーによって動作します。[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) で、アドビソリューションの現在の統合を見つけることができます。
 
 ## この機能を削除すると、どのように影響を受けますか。
 
