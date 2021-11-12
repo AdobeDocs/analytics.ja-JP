@@ -3,9 +3,9 @@ description: サーバー側転送コールでの設定変数、HTTP ヘッダ�
 title: サーバー側転送のデータとコードのリファレンス
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 4f29245a80e54f3fbc5a830075d066b31d23c628
+source-git-commit: 27af710f1ce9d85b1177fa4c5fd4d3f6e2875a48
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '520'
 ht-degree: 92%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 92%
 | Accept-Language | Analytics に渡される `Accept-Language` ヘッダーに設定します。 | `h_accept-language` |
 | 参照元 | Analytics に渡されるページ URL か、Analytics に渡される `Referer` ヘッダーから収集されるページ URL に設定します。 | `h_referer` |
 | リファラー | Analytics に渡されるページ URL か、Analytics に渡される `Referrer` ヘッダーから収集されるページ URL に設定します。 | `h_referrer` |
+| 日付 | Analytics に渡される `Date` ヘッダーに設定します。 | `h_date` |
 
 また、 `h_ip` シグナルが、DCS に要求を送信するホストの IP から生成される。
 
