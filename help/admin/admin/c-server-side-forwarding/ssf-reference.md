@@ -3,10 +3,10 @@ description: サーバー側転送コールでの設定変数、HTTP ヘッダ�
 title: サーバー側転送のデータとコードのリファレンス
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f1e1a30e29faab66995b683acbf6748aeeec91fc
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '611'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 ## 設定変数 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-プレフィックス `d_*` が付いたパラメーターは、[データ収集サーバー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html)（DCS）によって使用される特殊なシステムレベルのキーと値のペアを示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)も参照してください。
+プレフィックス `d_*` が付いたパラメーターは、[データ収集サーバー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ja)（DCS）によって使用される特殊なシステムレベルのキーと値のペアを示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja)も参照してください。
 
 | パラメーター | 説明 |
 |--- |--- |
@@ -29,16 +29,14 @@ ht-degree: 95%
 
 これらのヘッダーは、HTTP 呼び出し内のデータおよび応答のリクエストのような情報を格納するフィールドです。
 
-<!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
-
-| HTTP ヘッダー | 説明 |
-|--- |--- |
-| ホスト | これは、Analytics ホスト設定ファイルで指定したクライアントの特定のデータ収集ホスト名に設定されます。`host name .demdex.net` と表示されます。「Demdex ドメインの呼び出しについて」を参照してください。 |
-| User-Agent | Analytics に渡される User-Agent ヘッダーに設定します。 |
-| X-Original-User-Agent | 代替ユーザーエージェントが以下のいずれかのヘッダーで指定された場合にのみ設定します。</br>`X-Device-User-Agent\ `</br>`X-Original-User-Agent\`  </br>`X-OperaMini-Phone-UA\`</br>`X-Skyfire-Phone\`   </br>`X-Bolt-Phone-UA\`        |
-| X-Forwarded-For | 要求元クライアントの IP アドレスに設定します。Analytics は、既に受信 `X-Forwarded-For` ヘッダーを解析して、使用する正しい IP アドレスを特定している可能性があります。 |
-| Accept-Language | Analytics に渡される `Accept-Language` ヘッダーに設定します。 |
-| 参照元 | Analytics に渡されるページ URL か、Analytics に渡される Referer ヘッダーから収集されるページ URL に設定します。 |
+| HTTP ヘッダー | 説明 | Audience Managerが受け入れた h_キー |
+| --- | --- | --- |
+| ホスト | これは、Analytics ホスト設定ファイルで指定したクライアントの特定のデータ収集ホスト名に設定されます。`host name .demdex.net` と表示されます。[Demdex ドメインの呼び出しについて](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja)を参照してください。 | `h_host` |
+| User-Agent | Analytics に渡される User-Agent ヘッダーに設定します。 | `h_user-agent` |
+| Accept-Language | Analytics に渡される `Accept-Language` ヘッダーに設定します。 | `h_accept-language` |
+| 参照元 | Analytics に渡されるページ URL か、Analytics に渡される `Referer` ヘッダーから収集されるページ URL に設定します。 | `h_referer` |
+| リファラー | Analytics に渡されるページ URL か、Analytics に渡される `Referrer` ヘッダーから収集されるページ URL に設定します。 | `h_referrer` |
+| IP | DCS に要求を送信するホストの IP から生成されるシグナル。 | `h_ip` |
 
 ## カスタム定義のシグナル {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
@@ -49,7 +47,7 @@ ht-degree: 95%
 | c_browserWidth および c_browserHeight | ブラウザーウィンドウの幅と高さ。 |
 | c_campaign | s.campaign によって設定されます。 |
 | c_channel | s.channel によって設定されます。 |
-| c_clientDateTime | タイムスタンプの形式は dd/mm/yyy hh:mm:ss  W TZ です。TZ は分単位で表され、Date.getTimezoneOffset メソッドの戻り値と一致します。 |
+| c_clientDateTime | タイムスタンプの形式は dd/mm/yyy hh:mm:ss W TZ 。    TZ は分単位で表され、Date.getTimezoneOffset メソッドの戻り値と一致します。 |
 | c_colorDepth | 16 または 32 ビットカラーとして指定します。 |
 | c_connectionType | 接続のタイプを指定します。オプションは以下のとおりです。<ul><li>modem</li><li>lan</li></ul> |
 | c_contextData。* | 例：<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>シグナル：c_contextData.category=news</li></ul> |
