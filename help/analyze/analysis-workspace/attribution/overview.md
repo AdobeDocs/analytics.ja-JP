@@ -4,10 +4,10 @@ description: 成功イベントのクレジットを複数のディメンショ�
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 96%
+source-wordcount: '430'
+ht-degree: 97%
 
 ---
 
@@ -48,6 +48,6 @@ Attribution IQ は、次の機能で構成されます。
 
 ## ビデオ
 
-Analysis Workspaceでのセグメントでの様々なAttribution IQモデルの使用に関するビデオを次に示します。
+フリーフォームテーブルのAttribution IQに関するビデオを以下に示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
