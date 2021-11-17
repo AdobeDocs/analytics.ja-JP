@@ -3,15 +3,15 @@ description: スケジュールされたAnalysis Workspaceプロジェクトの�
 keywords: Analysis Workspace
 title: スケジュール済みプロジェクトマネージャー
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 89%
+source-wordcount: '175'
+ht-degree: 84%
 
 ---
 
 
-# スケジュール済みプロジェクトマネージャー
+# スケジュールされたプロジェクトマネージャー
 
 スケジュールされた Analysis Workspace プロジェクトを管理します。
 
@@ -28,6 +28,10 @@ ht-degree: 89%
 スケジュールされたプロジェクトマネージャーには、特定のユーザーが作成したアイテムが表示されます。ユーザーアカウントがアプリケーションで無効になっている場合、予定されたすべての配信が停止されます。
 
 ![](assets/scheduled-projects.png)
+
+## プロジェクトマネージャータスクのスケジュール
+
+内 [!UICONTROL スケジュール済みプロジェクト] UI では、次の操作を実行できます。
 
 * スケジュール済みプロジェクトの編集。
 * プロジェクトのスケジュール ID の表示（主にデバッグ目的で使用）。
