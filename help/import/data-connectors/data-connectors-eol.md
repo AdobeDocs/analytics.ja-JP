@@ -2,7 +2,7 @@
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 99%
@@ -11,9 +11,9 @@ ht-degree: 99%
 
 # Adobe Data Connectors の提供終了
 
-Adobe Analytics は、10 年以上にわたって、お客様のニーズを満たす、クラス最高の Web およびマーケティング分析ソリューションを提供することを目指してきました。テクノロジーとビジネスのニーズの進化に伴い、最高水準の標準を継続的に提供し、満たすよう努めています。残念ながら、この統合を強化する API はこれらの標準を満たさなくなり、最新の Adobe Analytics テクノロジーインフラストラクチャでは使用できません。
-
 **2021年8月19日（PT）**&#x200B;をもって、アドビは Data Connectors 統合を廃止しました。サービス提供終了はあらゆるテクノロジー製品のライフサイクルの一環です。アドビはお客様とパートナーに対して可能な限りシームレスにトランジションをおこなうことを目指します。これらの統合の多くは、Adobe Exchange を通じて利用でき、引き続き利用できます。
+
+Adobe Analytics は、10 年以上にわたって、お客様のニーズを満たす、クラス最高の Web およびマーケティング分析ソリューションを提供することを目指してきました。テクノロジーとビジネスのニーズの進化に伴い、最高水準の標準を継続的に提供し、満たすよう努めています。残念ながら、この統合を強化する API はこれらの標準を満たさなくなり、最新の Adobe Analytics テクノロジーインフラストラクチャでは使用できません。
 
 ## この機能の提供終了の理由を教えてください。
 
@@ -62,7 +62,7 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 | Demandbase CA | 廃止 |
 | Demandbase v3 | 廃止 |
 | DialogTech | 最新の API への移行 |
-| [DoubleClick for Advertisers（DFA）](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 廃止 |
+| [DoubleClick for Advertisers（DFA）] | 廃止 |
 | DREAM | 廃止 |
 | DREAMmail 1.0、DREAMmail 2.0 | 廃止 |
 | Dynamic Signal（Nital Vora） | 最新の API への移行 |
