@@ -2,13 +2,13 @@
 description: Admin Console で Analytics ユーザー、グループおよび製品を管理します。
 subtopic: Users and groups
 title: ユーザーと製品の管理
-feature: 管理ツール
+feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f184cc7a98f0b15e2b96d5132e2a35b12d0f3556
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 92%
+source-wordcount: '557'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品管理は、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]**&#x200B;のヘルプコンテンツは利用できなくなります。
+>ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、次のヘルプコンテンツを参照してください。 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]** は廃止されます。
 
 ## Admin Console 管理者向けヘルプリソース {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -36,7 +36,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console を起動 </p> </td> 
-   <td colname="col2"> <p>ユーザーアカウントが移行されたら、すべてのソリューションのユーザーおよび製品を Admin Console で管理できます。 </p> <p><a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a> に移動します。 </p> <p>Admin Console での Experience Cloud ユーザーおよび製品管理への更新について詳しくは、<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">Experience Cloud ユーザーおよび製品の管理</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーアカウントが移行されたら、すべてのソリューションのユーザーおよび製品を Admin Console で管理できます。 </p> <p><a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a> に移動します。 </p> <p>Admin Console での Experience Cloud ユーザーおよび製品管理への更新について詳しくは、<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja">Experience Cloud ユーザーおよび製品の管理</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
