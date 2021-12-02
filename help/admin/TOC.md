@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定などについて説明します。
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 22bf5b376f1f5a5c1b6efea419cae9bd0c77991d
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
@@ -149,29 +149,12 @@ ht-degree: 100%
    + [レポートスイートグループの作成](c-manage-report-suites/t-create-rs-group.md)
 + ユーザーと製品の管理（レガシー） {#user-product-management}
    + [ユーザーと製品の管理](user-management2/user-management.md)
-   + [レポートスイートに対するユーザーグループの割り当て](user-management2/t-group-access-report-suite.md)
-   + ユーザー管理 {#user-management}
-      + [ユーザー管理の概要](user-management2/c-user-management/users.md)
-      + [ユーザーアカウントの追加](user-management2/c-user-management/t-add-user-account.md)
-      + [ユーザーおよびグループ権限の変更](user-management2/c-user-management/permissions-changes.md)
-      + [ユーザーアカウント項目の転送](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-      + [グループにユーザーを追加する](user-management2/c-user-management/t-add-user-to-group.md)
-      + Adobe Admin Console へのユーザーの移行 {#migrate-users}
-         + [Admin Console への Analytics ユーザーの移行](user-management2/user-migration/c-migration-tool.md)
-         + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](user-management2/user-migration/t-migrate-users.md)
-         + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 ](user-management2/user-migration/migrate-enterprise.md)
-         + [従来のログインの無効化](user-management2/user-migration/t-disable-legacy-login.md)
-         + [移行の影響を受ける API](user-management2/user-migration/developer.md)
-   + ユーザーグループ {#user-groups}
-      + [ユーザーグループの追加](user-management2/c-user-groups/t-user-group.md)
-      + [ユーザーグループ設定](user-management2/c-user-groups/groups.md)
-   + レポートアクセスのカスタマイズ {#customize-report-access}
-      + [レポートアクセスのカスタマイズ - 概要](user-management2/c-customize-report-access/groups-customize-report-access.md)
-      + [Analytics ツールの権限のカスタマイズ](user-management2/c-customize-report-access/groups-analytics-tools.md)
-      + [レポートスイートツールの権限のカスタマイズ](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-      + [指標の権限のカスタマイズ](user-management2/c-customize-report-access/groups-metrics.md)
-      + [ディメンションの権限のカスタマイズ](user-management2/c-customize-report-access/groups-dimensions.md)
-   + [電子メールユーザー](user-management2/t-email-users.md)
+   + Adobe Admin Console へのユーザーの移行 {#migrate-users}
+      + [Admin Console への Analytics ユーザーの移行](user-management2/user-migration/c-migration-tool.md)
+      + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](user-management2/user-migration/t-migrate-users.md)
+      + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 ](user-management2/user-migration/migrate-enterprise.md)
+      + [従来のログインの無効化](user-management2/user-migration/t-disable-legacy-login.md)
+      + [移行の影響を受ける API](user-management2/user-migration/developer.md)
 + データガバナンス {#data-governance}
    + [Adobe Analytics と GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics と CCPA](c-data-governance/an-ccpa-overview.md)

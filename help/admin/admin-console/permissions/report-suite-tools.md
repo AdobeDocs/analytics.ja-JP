@@ -1,17 +1,17 @@
 ---
-title: レポートスイートツールの製品プロファイル権限
+title: Adobe Admin Consoleのレポートスイートツールに対する製品プロファイル権限
 description: レポートスイートツールの各権限項目について説明します。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 95%
 
 ---
 
 # レポートスイートツールの製品プロファイル権限
 
-このページを使用して、レポートスイートツールの各権限項目について理解します。
+このページを使用して、Adobe Admin Consoleのレポートスイートツールの各権限項目について理解します。
 
 | レポートスイートツールの権限の項目 | 説明 |
 |------|------|

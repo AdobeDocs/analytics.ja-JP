@@ -5,10 +5,10 @@ title: ユーザーと製品の管理
 feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: f184cc7a98f0b15e2b96d5132e2a35b12d0f3556
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 93%
+source-wordcount: '277'
+ht-degree: 65%
 
 ---
 
@@ -18,7 +18,7 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
 
 >[!IMPORTANT]
 >
->ユーザーと製品の管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。ユーザーを移行する時期は、アドビから通知されます。すべての顧客が移行されたら、次のヘルプコンテンツを参照してください。 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]** は廃止されます。
+>ユーザーおよび製品の管理は、 [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html). ユーザーを移行する時期は、アドビから通知されます。
 
 ## Admin Console 管理者向けヘルプリソース {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -31,99 +31,101 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Analytics ユーザー ID の Admin Console への移行 </p> </td> 
-   <td colname="col2"> <p> Analytics 管理者がユーザー ID を Adobe Admin Console に移行する際には、アドビがお手伝いします。この対応は順次おこなわれます。お客様のユーザーを移行する順番になったら、手順を含む電子メールでアドビから Analytics 管理者に通知されます。その時点で、この作業を簡単にするための<a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">移行ツール</a>が Analytics ユーザー管理で使用できるようになります。 </p> <p>重要：ユーザーの移行をおこなう日に、以前の権限グループが自動的に Admin Console にコピーされます。Analytics 管理ツールで新規ユーザーを招待したり、新規グループを作成したりできなくなります。移行の準備方法と影響を受ける管理機能については、<a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Admin Console への Analytics ユーザーの移行</a>の FAQ とヘルプを参照してください。 </p> </td> 
+   <td colname="col1"> <p>Analytics ユーザー ID のAdobe Admin Consoleへの移行 </p> </td> 
+   <td colname="col2"> <p> Analytics 管理者がユーザー ID を Adobe Admin Console に移行する際には、アドビがお手伝いします。この対応は順次おこなわれます。お客様のユーザーを移行する順番になったら、手順を含む電子メールでアドビから Analytics 管理者に通知されます。その時点で、この作業を簡単にするための<a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">移行ツール</a>が Analytics ユーザー管理で使用できるようになります。 </p> <p>重要：ユーザーの移行をおこなう日に、以前の権限グループが自動的に Admin Console にコピーされます。Analytics 管理ツールで新規ユーザーを招待したり、新規グループを作成したりできなくなります。FAQ とヘルプを <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html"> Adobe Admin Consoleへの Analytics ユーザーの移行</a> 移行の準備方法と影響を受ける管理機能についての情報を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Admin Console を起動 </p> </td> 
-   <td colname="col2"> <p>ユーザーアカウントが移行されたら、すべてのソリューションのユーザーおよび製品を Admin Console で管理できます。 </p> <p><a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a> に移動します。 </p> <p>Admin Console での Experience Cloud ユーザーおよび製品管理への更新について詳しくは、<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja">Experience Cloud ユーザーおよび製品の管理</a>を参照してください。 </p> </td> 
+   <td colname="col1"> <p>Adobe Admin Consoleを起動 </p> </td> 
+   <td colname="col2"> <p>ユーザーアカウントが移行されたら、すべてのソリューションのユーザーおよび製品を Admin Console で管理できます。 </p> <p><a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a> に移動します。 </p> <p>ヘルプについては、 <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja"> Experience Cloudユーザーと製品を管理する</a> Adobe Admin ConsoleでのExperience Cloudユーザーおよび製品管理の更新について。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## ユーザー管理の説明 {#section_7C19842A3D4249109A9399D4DF18DE75}
+<!---
+## User Management Descriptions {#section_7C19842A3D4249109A9399D4DF18DE75}
 
-次の表で、「[!UICONTROL ユーザー管理]」の「[!UICONTROL ユーザー]」タブにあるエレメントについて説明します。
+The following table describes elements on the [!UICONTROL Users] tab in [!UICONTROL User Management].
 
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 要素 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
+   <th colname="col1" class="entry"> Element </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">使用できるユーザーログイン数</span> </td> 
-   <td colname="col2"> この会社用に作成できるユーザーアカウントの最大数。必要に応じて、アカウント担当者またはカスタマーケアに連絡して、この数を無料で増やすことができます。 </td> 
+   <td colname="col1"> <span class="wintitle"> Number of User Logins available</span> </td> 
+   <td colname="col2"> The maximum number of user accounts you can create for this company. If necessary, you can contact your Account Representative or Customer Care to increase this number at no charge. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">使用中のユーザーログイン数</span> </td> 
-   <td colname="col2"> この会社が現在使用しているユーザーアカウントの数。 </td> 
+   <td colname="col1"> <span class="wintitle"> Number of User Logins in use</span> </td> 
+   <td colname="col2"> The number of user accounts currently in use for this company. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">残りのユーザーログイン数</span> </td> 
-   <td colname="col2"> ユーザーアカウントの最大数と既存のユーザーアカウント数の差。 </td> 
+   <td colname="col1"> <span class="wintitle"> Number of User Logins Remaining</span> </td> 
+   <td colname="col2"> The difference between the user account maximum and the number of existing user accounts. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">新しいユーザーの追加</span> </td> 
-   <td colname="col2"> <p>会社にユーザーアカウントを追加することができます。このリンクは「残りのユーザーログイン数」が 0 より大きい場合にのみ使用できます。 </p> <p>「<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>」を参照してください。 </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Add New User</span> </td> 
+   <td colname="col2"> <p>Lets you add a user account to the company. This link is available only if the Number of User Logins Remaining is greater than 0. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">レポートのダウンロード</span> </td> 
-   <td colname="col2">「<span class="wintitle">ユーザー</span>」テーブルの内容をタブ区切りファイルにエクスポートできます。 </td> 
+   <td colname="col1"> <span class="wintitle"> Download Report</span> </td> 
+   <td colname="col2">Exports the contents of the <span class="wintitle"> Users</span> table to a tab-delimited file. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">ログイン</span> </td> 
-   <td colname="col2"> <p>ユーザー名。ユーザー名をクリックして、ユーザーアカウントのプロパティを編集できます。 </p> <p>「<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>」を参照してください。 </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Login</span> </td> 
+   <td colname="col2"> <p>The user name. You can click the user name to edit the user account properties. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">名</span> </td> 
-   <td colname="col2"> ユーザーの名。 </td> 
+   <td colname="col1"> <span class="wintitle"> First Name</span> </td> 
+   <td colname="col2"> The user's first (given) name. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">姓</span> </td> 
-   <td colname="col2"> ユーザーの姓。 </td> 
+   <td colname="col1"> <span class="wintitle"> Last Name</span> </td> 
+   <td colname="col2"> The user's surname (family name). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">タイトル</span> </td> 
-   <td colname="col2"> ユーザーの肩書。 </td> 
+   <td colname="col1"> <span class="wintitle"> Title</span> </td> 
+   <td colname="col2"> The user's job title. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">管理者</span> </td> 
-   <td colname="col2"> ユーザーアカウントに管理者権限があるかどうかを指定します。 </td> 
+   <td colname="col1"> <span class="wintitle"> Admin</span> </td> 
+   <td colname="col2"> Specifies if the user account has administrative privileges. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">最後のログイン</span> </td> 
-   <td colname="col2"> このユーザーアカウントの最後のログインのタイムスタンプが表示されます。 </td> 
+   <td colname="col1"> <span class="wintitle"> Last Login</span> </td> 
+   <td colname="col2"> Displays a timestamp of the last login for this user account. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle">作成時刻</span> </td> 
-   <td colname="col2"> ログインアカウントが作成された日時を示します。 </td> 
+   <td colname="col1"><span class="wintitle"> Create Time</span> </td> 
+   <td colname="col2"> Shows the date and time when the login account was created. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">有効期限</span> </td> 
-   <td colname="col2"> 該当する場合は、アカウントの有効期限が表示されます。 </td> 
+   <td colname="col1"> <span class="wintitle"> Expires</span> </td> 
+   <td colname="col2"> Displays the account expiration account, if applicable. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">管理</span> </td> 
-   <td colname="col2"> ユーザーアカウント管理へのリンクが表示されます。 </td> 
+   <td colname="col1"> <span class="wintitle"> Manage</span> </td> 
+   <td colname="col2"> Provides links for user account management. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">編集</span> </td> 
-   <td colname="col2"> <p>ユーザーアカウントの設定を編集します。 </p> <p>「<a href="/help/admin/user-management2/c-user-management/users.md">ユーザー</a>」を参照してください。 </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Edit</span> </td> 
+   <td colname="col2"> <p>Edit user account settings. </p> <p>See <a href="/help/admin/user-management2/c-user-management/users.md"> Users</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">削除</span> </td> 
-   <td colname="col2"> ユーザーアカウントを削除します。 </td> 
+   <td colname="col1"> <span class="wintitle"> Delete</span> </td> 
+   <td colname="col2"> Delete the user account. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle">転送</span> </td> 
-   <td colname="col2">あるユーザーアカウントの権限（許可とリソースアクセス）を別のユーザーアカウントに割り当てます。 <p>詳しくは、<a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md">ユーザーアカウント権限の転送</a>を参照してください。 </p> </td> 
+   <td colname="col1"> <span class="wintitle"> Transfer</span> </td> 
+   <td colname="col2">Assign the privileges (permissions and resource access) of one user account to another. <p>See <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> Transfer user account privileges</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle">このユーザとしてログイン</span> </td> 
-   <td colname="col2"> <p>管理者が非管理者アカウントとしてログインできます。管理者アカウントを装うことはできません。 </p> </td> 
+   <td colname="col1"><span class="wintitle"> Login as this user</span> </td> 
+   <td colname="col2"> <p>Allows admins to impersonate and log in as a non-admin account. Admin accounts cannot be impersonated. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+-->
