@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類ルール
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 97%
@@ -257,7 +257,7 @@ c:d:yoyo
 | `\W` | 任意の単語以外の文字 |
 | `\b` | 任意の単語境界 |
 | `(...)` | 囲まれている内容をすべてキャプチャ |
-| `(a|b)` | a または b |
+| `(a\b)` | a または b |
 | `a?` | 0 または 1 個の a |
 | `a*` | 0 個以上の a |
 | `a+` | 1 つ以上の a |
