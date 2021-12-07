@@ -3,11 +3,10 @@ title: メディア再生滞在時間パネルの入力と出力
 description: メディア再生に費やした時間の入力および出力設定は何ですか？
 feature: Panels
 role: User, Admin
-exl-id: null
-source-git-commit: 6a82b998d6ff079f5e100d2ea09d160f6e9f8c8a
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
