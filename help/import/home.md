@@ -2,10 +2,10 @@
 title: Analytics インポートガイド
 description: このガイドでは、データソース、Data Insertion API、Data Connectors を使用して、データを Analytics に送信する方法について説明します。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
+source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 75%
+source-wordcount: '138'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 75%
 
 * **[データソース](c-data-sources/datasrc-home.md)**：指定された Adobe FTP サイトにファイルをアップロードします。アドビは、ファイルを取得し、データをレポートスイートに含めます。
 * **[Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)**：API を使用して、アドビのデータコレクションに直接データを送信します。
-* **Data Connectors**:2021 年 8 月 19 日、Adobeは Data Connectors 統合を終了しました。 これらの統合の多くは、 [Adobe交換](https://exchange.adobe.com/experiencecloud.analytics.html#product) そして、引き続き利用することができます。
+* **[AdobeExchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**:Adobe Analyticsレポートスイートの強化に使用できる現在の統合を見つけます。
 
 以下に、Adobe Analyticsの概要ビデオを示します。
 
