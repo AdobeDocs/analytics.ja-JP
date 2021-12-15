@@ -4,17 +4,14 @@ title: Reports & Analytics の概要
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 94%
 
 ---
 
 # Reports &amp; Analytics の基礎知識
-
->[!NOTE]
->本製品は、北米や他の地域での販売が許可されており、実際に販売されている製品で、他の国や地域での販売要件を満たしていない場合があります。
 
 Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 
@@ -102,3 +99,6 @@ Experience Cloud を介してログインする手順を説明します。
 1. ページフッターで、**[!UICONTROL 言語]**&#x200B;メニューのアクティブな言語をクリックし、目的の言語を選択します。
 
 ドキュメントおよびホームページには Adobe Experience Cloud からアクセスできます。（**[!UICONTROL ヘルプ]**／**[!UICONTROL ヘルプホーム]**&#x200B;を選択します。）
+
+>[!NOTE]
+>本製品は、実際に販売されている北米や他の地域での販売が許可されています。 他の国や地域での販売に関する現地の要件を満たしていない場合があります。
