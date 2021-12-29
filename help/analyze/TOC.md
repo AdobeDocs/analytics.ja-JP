@@ -5,9 +5,9 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace と、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順について説明します。
 source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 99%
       + フォールアウト {#fallout}
          + [フォールアウトの概要](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [フォールアウトビジュアライゼーションの設定](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [複数ディメンションのフォールアウト](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [多次元フォールアウト](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [フォールアウト分析でのセグメントの適用](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + フロー {#flow}
          + [フローの概要](analysis-workspace/visualizations/c-flow/flow.md)
@@ -282,7 +282,7 @@ ht-degree: 99%
    + [ブラウザー拡張のトラブルシューティング](activity-map/troubleshooting-browser-extensions.md)
    + [データ収集のトラブルシューティング](activity-map/troubleshoot-data-collection.md)
 + Reports and Analytics {#reports-analytics}
-   + [Reports and Analytics の概要](reports-analytics/getting-started.md)
+   + [Reports &amp; Analytics の概要](reports-analytics/getting-started.md)
    + レポートインターフェイスの概要 {#reporting-interface}
       + [データ収集について](reports-analytics/overview/overview-data-collection.md)
       + [レポートメニュー](reports-analytics/overview/reports-menu.md)
