@@ -1,22 +1,22 @@
 ---
 description: 成功イベントとは、追跡できるアクションです。成功イベントはお客様によって定義されます。例えば、訪問者があるアイテムを購入した場合、購入イベントは成功イベントとみなすことができますを参照してください。
-keywords: event
+keywords: イベント
 title: 成功イベントの概要
 feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 成功イベントの概要
 
-成功イベント（コンバージョンイベントやカスタムイベントとも呼ばれます）は、追跡可能なアクションです。 成功イベントはお客様によって定義されます。例えば、訪問者があるアイテムを購入した場合、購入イベントは成功イベントとみなすことができます。
+成功イベント（コンバージョンイベントまたはカスタムイベントとも呼ばれます）は、トラッキングが可能なアクションです。成功イベントはお客様によって定義されます。例えば、訪問者があるアイテムを購入した場合、購入イベントは成功イベントとみなすことができます。
 
-ビデオの概要を次に示します。
+以下は、このトピックの概要に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
 
@@ -24,8 +24,8 @@ ht-degree: 97%
 
 1. Adobe ID の資格情報を使用して [experiencecloud.adobe.com](https://experiencecloud.adobe.com) にログインします。
 2. 上部の 9 グリッドボタンをクリックし、「[!UICONTROL Analytics]」をクリックします。
-3. [!UICONTROL 管理者]／[!UICONTROL レポートスイート]に移動します。
-4. 目的のレポートスイートを選択し、[!UICONTROL 設定を編集]／[!UICONTROL コンバージョン]／[!UICONTROL 成功イベント]に移動します。
+3. [!UICONTROL 管理者]／[!UICONTROL レポートスイート] に移動します。
+4. 目的のレポートスイートを選択し、 [!UICONTROL 設定を編集]／[!UICONTROL コンバージョン]／[!UICONTROL 成功イベント] に移動します。
 5. 目的のイベントを見つけ、「[!UICONTROL 個別イベントの記録]」ドロップダウンを「[!UICONTROL 訪問ごとに 1 回記録する]」または「[!UICONTROL イベント ID を使用する]」に変更します。
 
 Web サイトのタイプに応じて、様々な種類の成功イベントがあります。次にいくつか例を示します。
