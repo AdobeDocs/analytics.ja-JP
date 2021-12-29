@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 フォールアウトビジュアライゼーションには、フォールアウトレポートを作成するためのより多くのオプションがあります。フォールアウトレポートは、事前に指定した一連のページ間で、訪問者が離脱した（フォールアウト）箇所や、次に進んだ（フォールスルー）箇所を表示します。
 
-以下に、フォールアウトビジュアライゼーションに関するビデオを示します。
+以下は、フォールアウトビジュアライゼーションに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
 
