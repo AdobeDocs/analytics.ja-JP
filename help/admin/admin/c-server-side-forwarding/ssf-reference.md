@@ -4,9 +4,9 @@ title: サーバー側転送のデータとコードのリファレンス
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: 27af710f1ce9d85b1177fa4c5fd4d3f6e2875a48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,67 +16,67 @@ ht-degree: 92%
 
 ## 設定変数 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-プレフィックス `d_*` が付いたパラメーターは、[データ収集サーバー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ja)（DCS）によって使用される特殊なシステムレベルのキーと値のペアを示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja)も参照してください。
+プレフィックス `d_*` が付いたパラメーターは、[データ収集サーバー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=ja)（DCS）によって使用される特殊なシステムレベルのキーと値のペアを示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja) も参照してください。
 
 | パラメーター | 説明 |
 |--- |--- |
-| `d_rs` | （レガシー／トラッキングサーバーベースのサーバー側転送で設定）<br>Analytics にヒットと共に渡されるレポートスイートに設定します。 |
-| `d_dst_filter` | （レポートスイートベースのサーバー側転送で設定）<br>Analytics にヒットと共に渡されるレポートスイート ID に設定します。 |
-| `d_dst` | Analytics へのリクエストに対して宛先に関するコンテンツがクライアントに送り返されることを期待している場合は `d_dst=1` を設定します。<br> |
+| `d_rs` | （レガシー／トラッキングサーバーベースのサーバーサイド転送で設定） <br>Analytics にヒットと共に渡されるレポートスイートに設定します。 |
+| `d_dst_filter` | （レポートスイートベースのサーバーサイド転送で設定）<br>Analytics にヒットと共に渡されるレポートスイート ID に設定します。 |
+| `d_dst` | クライアントに送り返される宛先に関する内容を Analytics へのリクエストが想定している場合は 、<br> `d_dst=1` を設定します。 |
 | `d_mid` | Analytics に渡される Experience Cloud ID。 |
 
 ## HTTP ヘッダー {#section_0549705E76004F9585224AEF872066C0}
 
 これらのヘッダーは、HTTP 呼び出し内のデータおよび応答のリクエストのような情報を格納するフィールドです。
 
-| HTTP ヘッダー | 説明 | Audience Managerが受け入れた h_キー |
+| HTTP ヘッダー | 説明 | Audience Manager が受け取る h_キー |
 | --- | --- | --- |
-| ホスト | これは、Analytics ホスト設定ファイルで指定したクライアントの特定のデータ収集ホスト名に設定されます。`host name .demdex.net` と表示されます。[Demdex ドメインの呼び出しについて](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja)を参照してください。 | `h_host` |
+| ホスト | これは、Analytics ホスト設定ファイルで指定したクライアントの特定のデータ収集ホスト名に設定されます。`host name .demdex.net` と表示されます。[Demdex ドメインへの呼び出しについて](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) を参照してください。 | `h_host` |
 | User-Agent | Analytics に渡される User-Agent ヘッダーに設定します。 | `h_user-agent` |
 | Accept-Language | Analytics に渡される `Accept-Language` ヘッダーに設定します。 | `h_accept-language` |
 | 参照元 | Analytics に渡されるページ URL か、Analytics に渡される `Referer` ヘッダーから収集されるページ URL に設定します。 | `h_referer` |
 | リファラー | Analytics に渡されるページ URL か、Analytics に渡される `Referrer` ヘッダーから収集されるページ URL に設定します。 | `h_referrer` |
 | 日付 | Analytics に渡される `Date` ヘッダーに設定します。 | `h_date` |
 
-また、 `h_ip` シグナルが、DCS に要求を送信するホストの IP から生成される。
+また、`h_ip` シグナルが、DCS にリクエストを送信するホストの IP から生成されます。
 
-## カスタム定義のシグナル {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
+## 顧客定義のシグナル {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)も参照してください。
+プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja) も参照してください。
 
 | シグナル | 説明 |
 | --- |--- |
-| `c_browserWidth`  と `c_browserHeight` | ブラウザーウィンドウの幅と高さ。 |
-| `c_campaign` | 設定者 `s.campaign`. |
-| `c_channel` | 設定者 `s.channel`. |
-| `c_clientDateTime` | タイムスタンプの形式 `dd/mm/yyy hh:mm:ss  W TZ` . `TZ` は分単位で表され、 メソッドの戻り値と一致します。`Date.getTimezoneOffset` |
-| `c_colorDepth` | 16 または 32 ビットカラーとして指定します。 |
+| `c_browserWidth` と `c_browserHeight` | ブラウザーウィンドウの幅と高さ。 |
+| `c_campaign` | `s.campaign` で設定。 |
+| `c_channel` | `s.channel` で設定。 |
+| `c_clientDateTime` | `dd/mm/yyy hh:mm:ss  W TZ` として書式設定されたタイムスタンプ。`TZ` は分単位であり、`Date.getTimezoneOffset` メソッドの戻り値と一致します。 |
+| `c_colorDepth` | 16 ビットまたは32 ビットカラーとして指定します。 |
 | `c_connectionType` | 接続のタイプを指定します。オプションは以下のとおりです。<ul><li>modem</li><li>lan</li></ul> |
-| `c_contextData.*` | 例：<ul><li>AppMeasurement: `s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>シグナル: `c_contextData.category=news`</li></ul> |
+| `c_contextData.*` | 例：<ul><li>AppMeasurement：`s.contextData`</li><li>[category] = &quot;news&quot;;</li><li>シグナル：`c_contextData.category=news`</li></ul> |
 | `c_cookiesEnabled` | Cookie を有効にできるかどうかを指定します。オプションは以下のとおりです。はい、いいえ、不明 |
 | `c_currencyCode` | トランザクションに使用する通貨のタイプ。 |
-| `c_evar#` | カスタム evar。 |
-| `c_events` | 設定者 `s.events`. |
+| `c_evar#` | カスタム eVar |
+| `c_events` | `s.events` で設定。 |
 | `c_hier#` | カスタム階層変数。 |
 | `c_javaEnabled` | Java を有効にできるかどうかを指定します。オプションは以下のとおりです。はい、いいえ、不明 |
 | `c_javaScriptVersion` | ブラウザーでサポートされている JavaScript のバージョン。 |
-| `c_latitude` | 緯度（数値）。 |
+| `c_latitude` | 緯度（数値） |
 | `c_linkClick` | オプション：カスタム、ダウンロード終了 |
-| `c_linkCustomName` | リンクに指定されたカスタムの名前（存在する場合）。 |
+| `c_linkCustomName` | リンクに指定されたカスタム名（存在する場合）。 |
 | `c_linkDownloadURL` | ダウンロードリンクの URL。 |
 | `c_linkExitURL` | 出口リンクの URL。 |
 | `c_list#` | カスタムリスト変数。 |
 | `c_longitude` | 経度（数値）。 |
 | `c_mediaPlayerType` | メディアストリームトラッキングリクエスト用。オプションは以下のとおりです。        その他、Primetime |
 | `c_pageName` | ページ名（設定されている場合）。 |
-| `c_pageURL` | ブラウザーのアドレスバー内のページのアドレス。 |
-| `c_products` | 製品文字列（`s.products` によって設定されます）。 |
-| `c_prop` | カスタム prop。 |
+| `c_pageURL` | ブラウザーのアドレスバーに表示されるページのアドレス。 |
+| `c_products` | 製品文字列（`s.products` で設定）。 |
+| `c_prop` | カスタムプロパティ。 |
 | `c_purchaseID` | 購入の一意の ID。 |
 | `c_referrer` | 現在のページの直前のページ。 |
 | `c_screenResolution` | 画面の幅と高さ（ピクセル単位）。 |
-| `c_server` | Web サーバー名（`s.server` によって設定されます）。 |
-| `c_state` | 地域 ( `s.state`) をクリックします。 |
+| `c_server` | Web サーバー名（`s.server` で設定）。 |
+| `c_state` | 地理的地域（`s.state` で設定）。 |
 | `c_timezone` | 時間オフセット（時間単位）。 |
 | `c_transactionID` | トランザクションの一意の ID。 |
-| `c_zip` | 郵便番号 ( 設定者： `s.zip`) をクリックします。 |
+| `c_zip` | 郵便番号（`s.zip` で設定）。 |
