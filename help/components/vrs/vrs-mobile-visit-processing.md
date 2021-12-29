@@ -4,9 +4,9 @@ title: コンテキスト対応セッション
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1563'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 訪問の定義は、基になるデータを変更することなく、訪問者がデジタルエクスペリエンスをどのように操作するかに応じて自由に変更できます。
 
-コンテキスト対応セッションに関するビデオを以下に示します。
+以下は、コンテキスト対応セッションに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
