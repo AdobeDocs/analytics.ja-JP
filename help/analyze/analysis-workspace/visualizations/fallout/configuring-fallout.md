@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最終パス </p> <p>(デフォルト) </p> </td> 
-   <td colname="col2"> <p>訪問者は、訪問者がパス内の次の touchpoint に着陸したときにカウントされます。 Detours は、touchpoints 間で使用できます。 </p> </td> 
+   <td colname="col2"> <p>訪問者（または訪問）は、最終的にパス内の次のタッチポイントに到達したときにカウントされます。タッチポイント間の迂回は許可されています。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>次のヒット </p> </td> 
-   <td colname="col2"> <p>訪問者 (または訪問者) は、パスの次の touchpoint に直ちに移動したときにカウントされます。 「次へ」をクリックすると、ヒットタイプ (ページビューまたはリンク) が表示されます。 Detours を touchpoints 間で使用することはできません。 </p> </td> 
+   <td colname="col2"> <p>訪問者（または訪問）は、パス内の次のタッチポイントに到着してすぐにカウントされます。次のヒットには、任意のヒットタイプ（ページビューまたはリンク）が含まれます。タッチポイント間の迂回は許可されていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
