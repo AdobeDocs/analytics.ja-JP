@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Analysis Workspace には、指標の使用方法が 2 つあります。
 
 * または、**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しい指標]**&#x200B;をクリックします。これにより、既存の指標からカスタム指標を作成できる、[計算指標ビルダー](/help/components/c-calcmetrics/cm-overview.md)が表示されます。
 
-フリーフォームテーブルでの指標の操作に関するビデオを以下に示します。
+以下は、フリーフォームテーブルでの指標の操作に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
@@ -46,8 +46,8 @@ Analysis Workspace には、指標の使用方法が 2 つあります。
 
 これにより、指標にドラッグして設定を 2 回おこなわなくても、アトリビューションモデルをすばやく簡単に相互比較できます。
 
-## 以下を使用： [!UICONTROL 累加平均] 指標のスムージングを適用する関数
+## [!UICONTROL 累積平均] 関数を使用した指標スムージングの適用
 
-こちらが、このトピックに関するビデオです：
+以下は、このトピックに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
