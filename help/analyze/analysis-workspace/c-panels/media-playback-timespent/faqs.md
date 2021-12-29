@@ -1,12 +1,12 @@
 ---
 title: メディア再生滞在時間に関する FAQ
-description: メディア再生滞在時間に関する FAQ は何ですか？
+description: メディア再生滞在時間に関する FAQ とは何ですか？
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
