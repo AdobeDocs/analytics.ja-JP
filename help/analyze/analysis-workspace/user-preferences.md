@@ -1,13 +1,13 @@
 ---
 title: Analysis Workspace でのユーザー環境設定の設定方法
-description: ユーザーに対しては、一般的な環境設定とプロジェクト環境設定のほか、ダークテーマの環境設定を設定できます。
+description: ユーザーの一般的な環境設定とプロジェクト環境設定およびダークテーマの環境設定を行えます。
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 84%
 
 ![ユーザー環境設定](assets/user-preferences.png)
 
-ユーザーの環境設定に関する短いビデオを次に示します。
+以下は、ユーザー環境設定に関する短いビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
@@ -48,7 +48,7 @@ ht-degree: 84%
 
 ## [!UICONTROL ダークテーマ]
 
-Adobe Analyticsユーザーインターフェイスの背景を暗くしたい場合は、 [!UICONTROL ダークテーマ].
+Adobe Analytics ユーザーインターフェイスの背景を暗くしたい場合は、 [!UICONTROL ダークテーマ] に切り替えることができます。
 
 1. 右上の Experience Cloud ユーザーアイコンをクリックします。
 
