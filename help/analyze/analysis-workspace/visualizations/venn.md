@@ -6,34 +6,34 @@ feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # ベン
 
-この [!UICONTROL ベン] ビジュアライゼーションを使用すると、( [!UICONTROL コンポーネント]) と 1 つの指標 [!UICONTROL ベン] 図。
+[!UICONTROL ベン図] のビジュアライゼーションを使用すると、（[!UICONTROL コンポーネント] の）最大 3 つのセグメントと 1 つの指標をドラッグして、 [!UICONTROL ベン図] を作成できます。
 
 ![](assets/venn.png)
 
-セグメント上にマウスポインターを置くと、割合などのインサイトが得られます。
+次に、セグメントにカーソルを合わせると、パーセンテージなどについて、より多くのインサイトが得られます。
 
 ![](assets/venn_hover.png)
 
-## 回転 [!UICONTROL ベン] ～に図を描く [!UICONTROL フリーフォーム] 表
+## [!UICONTROL ベン] 図の [!UICONTROL フリーフォーム] テーブルへの変換
 
-ベン図をフリーフォームテーブルに変換するには、**[!UICONTROL ベン]**&#x200B;のヘッダーの隣にある色付きの点をクリックして、**[!UICONTROL データソースを管理]**／**[!UICONTROL 使用可能なデータソース]**／**[!UICONTROL フリーフォームテーブル]**&#x200B;を選択します。
+ベン図をフリーフォームテーブルに変換するには、**[!UICONTROL ベン]**&#x200B;ヘッダーの横にある色の付いた点をクリックして、**[!UICONTROL データソースを管理]**／**[!UICONTROL 使用可能なデータソース]**／**[!UICONTROL フリーフォームテーブル]**&#x200B;を選択します。
 
-## 標準化 [!UICONTROL ベン] 図
+## [!UICONTROL ベン] 図の正規化
 
-標準化するには [!UICONTROL ベン] 図（サイズを測る）の、ビジュアライゼーション設定アイコンに移動して、「 **[!UICONTROL 正規化]**.
+[!UICONTROL ベン] 図を正規化する（サイズを測る）には、 ビジュアライゼーション設定アイコンに移動し、「**[!UICONTROL 正規化]**」を選択します。
 
 ![](assets/normalization.png)
 
 ## ビデオ
 
-以下は、 [!UICONTROL ベン] 図：
+以下は、 [!UICONTROL ベン] 図に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
