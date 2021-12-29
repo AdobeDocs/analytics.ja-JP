@@ -6,21 +6,21 @@ feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# 数の概要と変更の概要
+# [!UICONTROL 数値概要] と [!UICONTROL 変更概要]
 
-次に、これら 2 つのビジュアライゼーションに関するビデオを示します。
+以下は、これら 2 つのビジュアライゼーションに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
-## [!UICONTROL 数値の概要ビジュアライゼーション] {#summary-number}
+## [!UICONTROL 数値概要] ビジュアライゼーション {#summary-number}
 
-以下を使用： [!UICONTROL 概要番号] ビジュアライゼーションを使用して、プロジェクトで重要な大きな数をハイライト表示できます。 このビジュアライゼーションは、次のように動作します。
+[!UICONTROL 数値概要] ビジュアライゼーションを使用すると、プロジェクトで重要になる大きな数値をハイライト表示できます。このビジュアライゼーションは、次のように動作します。
 
 * セルが選択されていない場合、列の合計が選択されます。
 * 1 つのセルが選択されている場合、そのセルの概要が表示されます。
@@ -31,14 +31,14 @@ ht-degree: 84%
 
 | 設定 | 定義 |
 |--- |--- |
-| [!UICONTROL 割合（％）] | 生の番号ではなく割合を表示します。 |
+| [!UICONTROL 割合 (％)] | 生の数値ではなく、パーセンテージを表示します。 |
 | [!UICONTROL 凡例を表示] | 表示された指標に関する情報を表示します。 |
-| [!UICONTROL 値を短縮] | 値の省略形として、小数点以下 3 桁まで表示できます。 |
-| [!UICONTROL 値の要約基準] | データの選択範囲の最大値、最小値、平均値、中央値または合計を表示するかどうかを選択します。 |
+| [!UICONTROL 値を短縮] | 値の表記を短縮して小数点以下 3 桁まで表示することを選択します。 |
+| [!UICONTROL 値の要約基準] | 選択したデータの最大値、最小値、平均値、中央値または合計値の表示を選択します。 |
 
-## [!UICONTROL 変更概要ビジュアライゼーション] {#summary-change}
+## [!UICONTROL 変更概要] ビジュアライゼーション {#summary-change}
 
-以下を使用： [!UICONTROL 変更概要] ビジュアライゼーションを使用して、2 つの数値の差分（変化）を表示できます。 の緑と赤 [!UICONTROL 変更概要] ～を通して制御できる [カスタムイベントの極性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ja) または計算指標の [上昇傾向を次の形式で表示](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja) オプション。
+[!UICONTROL 変更概要] ビジュアライゼーションを使用すると、2 つの数値間の差分（変化）を表示できます。[!UICONTROL 変更概要] の緑と赤の色は、 [カスタムイベントの極性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ja) または計算指標の「[上昇傾向を次の形式で表示](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja)」オプションを使用して制御できます。
 
 このビジュアライゼーションは、次のように動作します。
 
@@ -53,11 +53,11 @@ ht-degree: 84%
 ![](assets/summary-change.png)
 
 
-右上の&#x200B;**ビジュアライゼーション設定**&#x200B;の歯車をクリックして、変更概要の設定を指定します。
+右上の **ビジュアライゼーション設定** の歯車をクリックして、変更概要の設定を指定します。
 
 | 設定 | 定義 |
 | --- | --- |
-| [!UICONTROL 割合（％）] | 生の番号ではなく割合を表示します。 |
+| [!UICONTROL 割合 (％)] | 生の数値ではなく、パーセンテージを表示します。 |
 | [!UICONTROL 凡例を表示] | 表示された指標に関する情報を表示します。 |
-| [!UICONTROL 変化率を表示] | 2 つの数値の変化率を表示します。 |
+| [!UICONTROL 変化率を表示] | 2 つの数値間の変化率を表示します。 |
 | [!UICONTROL 生の差異を表示] | 2 つの数の間の生の差異を表示します。また、値の省略形を使用し、小数点以下 3 桁まで表示できます。 |
