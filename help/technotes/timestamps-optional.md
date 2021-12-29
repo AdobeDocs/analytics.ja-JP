@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 タイムスタンプオプション設定を使用することのメリットと制約について説明します。
 
-こちらが、このトピックに関するビデオです：
+以下は、このトピックに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >
 >タイムスタンプオプションは、今後テンプレートから作成されるすべての新しいレポートスイートのデフォルト設定になります。既存のレポートスイートからコピーした新しいレポートスイートは、元のものから設定を継承します。
 
-その他の設定情報について詳しくは、[タイムスタンプオプション](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=ja)を参照してください。
+その他の設定情報について詳しくは、 [タイムスタンプオプション](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=ja) を参照してください。
 
 ## タイムスタンプオプション：タイムスタンプのあるデータとないデータの統合 {#section_BF17CB593044462B993FD0D28EA56518}
 
