@@ -6,9 +6,9 @@ feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 source-git-commit: 1c066c0ebdf581c7a85b532534cf3088877fd046
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -18,15 +18,15 @@ Admin Console で Analytics ユーザー、グループおよび製品を管理�
 
 >[!IMPORTANT]
 >
->ユーザーおよび製品の管理は、 [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html). ユーザーを移行する時期は、アドビから通知されます。
+>ユーザーと製品の管理は [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移動しました。ユーザーを移行する時期に、アドビから通知があります。
 
 ## Admin Console 管理者向けヘルプリソース {#section_C13BBB89E4F248F193358BB3A59DD502}
 
 | タスクまたはリソース | 説明 |
 | --- | --- |
-| Analytics ユーザー ID のAdobe Admin Consoleへの移行 | Analytics 管理者がユーザー ID を Adobe Admin Console に移行する際には、アドビがお手伝いします。この対応は順次おこなわれます。お客様のユーザーを移行する順番になったら、手順を含む電子メールでアドビから Analytics 管理者に通知されます。移行ツールは、 [Analytics ユーザー管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) このタスクを簡単にする<p>**重要**:ユーザーの移行をおこなう日に、以前の権限グループが自動的にAdmin Consoleにコピーされます。 Analytics 管理ツールで新規ユーザーを招待したり、新規グループを作成したりできなくなります。移行の準備方法と影響を受ける管理機能については、Adobe Admin Consoleへの Analytics ユーザーの移行の FAQ とヘルプを参照してください。 |
-| Adobe Admin Consoleを起動 | ユーザーアカウントを移行した後は、Admin Console内のすべてのソリューションにわたってユーザーと製品を管理できます。 移動先： `https://adminconsole.adobe.com/enterprise/`. また、 [Experience Cloudユーザーと製品を管理する](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html). |
-| Adobe Analytics製品プロファイル、ユーザーおよび権限の管理 | 参照： [Adobe Admin Consoleでの Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja). |
+| Analytics ユーザー ID の Adobe Admin Console への移行 | Analytics 管理者がユーザー ID を Adobe Admin Console に移行する際には、アドビがお手伝いします。この対応は順次おこなわれます。お客様のユーザーを移行する順番になったら、手順を含む電子メールでアドビから Analytics 管理者に通知されます。このタスクを簡素化するために、 [Analytics ユーザー管理](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=ja) で移行ツールを使用できます。<p>**重要**：ユーザーの移行当日に、以前の権限グループが自動的に Admin Console にコピーされます。Analytics 管理ツールで新規ユーザーを招待したり、新規グループを作成したりできなくなります。移行の準備方法と影響を受ける管理機能については、「Adobe Admin Console への Analytics ユーザーの移行」の FAQ とヘルプを参照してください。 |
+| Adobe Admin Console の起動 | ユーザーアカウントが移行されたら、すべてのソリューションのユーザーおよび製品を Admin Console で管理できます。`https://adminconsole.adobe.com/enterprise/` に移動します。[Experience Cloud ユーザーと製品の管理](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ja) も参照してください。 |
+| Adobe Analytics 製品プロファイル、ユーザーおよび権限の管理 | [Adobe Admin Console の Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja) を参照してください。 |
 
 <!---
 ## User Management Descriptions {#section_7C19842A3D4249109A9399D4DF18DE75}
