@@ -3,9 +3,9 @@ title: ハードコードされたイメージリクエストを使用した実�
 description: HTML イメージタグを使用した Adobe Analytics の実装（ハードコードされたイメージリクエスト）
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 source-git-commit: a97043caa9b6d2dc24f52c599fd0caa9241af62f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 98%
 * `example.data.adobedc.net` は、[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 変数に含まれる値です。
 * `/b/ss/` は、すべてのイメージリクエストに含まれます。これは、アドビのデータ収集サーバーに保存される画像のファイル構造の一部です。
 * `examplersid` は、データの送信先のレポートスイート ID です。複数のレポートスイートの場合、ID をコンマで区切り、スペースは使用しません（`examplersid1,examplersid2` など）。
-* `/1/` はヒットソースです。詳しくは、『エクスポートユーザーガイド』の[データ列の参照](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)で `hit_source` を参照してください。訪問者を識別するために Cookie やその他の方法が使用する順序を制御します。
-* `/s234234238479` (`"s"` +乱数 ) は、ブラウザーがイメージリクエストをキャッシュするのを防ぎます。
-* クエリー文字列の区切り文字（`?`）の後にあるのはすべて、レポートに含めるデータです。イメージリクエストに含めることができるすべてのパラメーターのリストについては、[データ収集クエリーパラメーター](../validate/query-parameters.md)を参照してください。
+* `/1/` はヒットソースです。詳しくは、『エクスポートユーザーガイド』の [データ列の参照](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) で `hit_source` を参照してください。訪問者を識別するために Cookie やその他の方法が使用する順序を制御します。
+* `/s234234238479`（`"s"` + 乱数）は、ブラウザーによるイメージリクエストのキャッシュを防ぎます。
+* クエリー文字列の区切り文字（`?`）の後にあるのはすべて、レポートに含めるデータです。イメージリクエストに含めることができるすべてのパラメーターのリストについては、 [データ収集クエリーパラメーター](../validate/query-parameters.md) を参照してください。
 
 ## Microsoft Outlook のハードコードされたイメージリクエスト
 
