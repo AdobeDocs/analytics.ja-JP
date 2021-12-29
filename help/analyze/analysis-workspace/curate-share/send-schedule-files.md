@@ -6,15 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
 source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 共有メニュー
 
-Workspace 内で、組織内の受信者に対してPDF/CSV プロジェクトのキュレーション、共有、スケジュールを設定できます **共有メニュー**.
+Workspace の **共有メニュー** 内で、組織の受信者に対して PDF／CSV プロジェクトのキュレーション、共有およびスケジュール設定を行えます。
 
 | メニューオプション | 説明 |
 |---|---|
