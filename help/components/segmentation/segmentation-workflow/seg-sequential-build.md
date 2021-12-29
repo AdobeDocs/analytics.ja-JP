@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3864'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 さらに、[After および Within 演算子](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)を使用して、特定の期間、精度およびチェックポイント間のカウントに順次セグメントを制限することができます。
 
-順次セグメント化に関するビデオを次に示します。
+以下は、順次セグメント化に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
@@ -47,9 +47,9 @@ ht-degree: 99%
 
 | 例 | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
-| 全員を含む | A | B | C | D | E | 金 |
+| 全員を含む | A | B | C | D | E | F |
 | シーケンスの前のみ | A | B |  |  |  |  |
-| シーケンスの後のみ |  |  |  | D | E | 金 |
+| シーケンスの後のみ |  |  |  | D | E | F |
 
 **例 2：B の次に D が複数回現れる**
 
