@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 >
 >Analysis Workspace と Reports &amp; Analytics でのフローへのセグメントの適用結果の違いについて詳しくは、「[フローとフォールアウトの基礎としてのセグメント化](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)」を参照してください。
 
-フロービジュアライゼーションビデオチュートリアルを次に示します。
+以下は、フロービジュアライゼーションに関するビデオチュートリアルです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
@@ -40,6 +40,6 @@ ht-degree: 96%
 
 フロー図は、**[!UICONTROL プロジェクト]**／**[!UICONTROL CSV をダウンロード]**&#x200B;に移動して作成できるプロジェクトの .CSV ファイルに含まれています。これにより、フロー結果を Microsoft Excel（テーブルとして表示）やその他のツールで分析することができます。
 
-## フロービジュアライゼーションの詳細
+## フロービジュアライゼーションの拡張
 
 >[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
