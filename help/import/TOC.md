@@ -5,7 +5,7 @@ user-guide-title: Analytics インポートガイド
 breadcrumb-title: インポートガイド
 user-guide-description: '一括またはリアルタイムで、外部のソースから Analytics にデータを取り込みます。 '
 source-git-commit: a9d0cc251e8902f3c9c3cd9c31cbc71ae6ee20e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '126'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
    + [データソースマネージャー](c-data-sources/datasrc-manager.md)
    + データソーステンプレート {#data-sources-template}
       + [データソーステンプレートの概要](c-data-sources/datasrc-template/datasrc-template-file.md)
-      + [インポートファイルテンプレートの作成](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
+      + [インポートファイルテンプレートの生成](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
       + [インポートファイルの参照](c-data-sources/datasrc-template/datasrc-import-file-reference.md)
    + [データソースファイルのアップロード](c-data-sources/t-datasrc-uploading-data.md)
    + データのタイプとカテゴリ {#data-types-and-categories}
@@ -36,11 +36,11 @@ ht-degree: 100%
       + [訪問者 ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [フル処理](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
       + [フル処理の提供終了](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
-   + [トランザクションの統合と顧客の統合](c-data-sources/datasrc-integrating-offline-data.md)
+   + [トランザクションと顧客の統合](c-data-sources/datasrc-integrating-offline-data.md)
    + [トランザクション ID と訪問者プロファイル](c-data-sources/datasrc-tid-visitor-profile.md)
    + [データソースに関する FAQ](c-data-sources/datasrc-faq.md)
 + [データ挿入 API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Analytics Data Connectors の提供終了](data-connectors/data-connectors-eol.md)
-+ ユースケースの読み込み {#use-cases}
-   + [データソースを使用した有料検索指標の読み込み](use-cases/paid-search-metrics.md)
++ インポートのユースケース {#use-cases}
+   + [データソースを使用した有料検索指標のインポート](use-cases/paid-search-metrics.md)
