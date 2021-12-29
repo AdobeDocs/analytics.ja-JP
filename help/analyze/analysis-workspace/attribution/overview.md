@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Attribution IQ は、次の機能で構成されます。
 
 ## ビデオ
 
-フリーフォームテーブルのAttribution IQ:
+フリーフォームテーブルでの Attribution IQ：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
@@ -56,11 +56,11 @@ Attribution IQ は、次の機能で構成されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Attribution IQパネルを使用する場合：
+Attribution IQ パネルの使用：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Attribution IQモデルの並列比較を追加：
+Attribution IQ モデルの並列比較の追加：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
