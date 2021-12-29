@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 96%
 * **[!UICONTROL レポート API]：**&#x200B;アドビのサーバーに直接レポートクエリをおこない、応答を取得して独自のお客様レポートツールで使用します。
 * **[!UICONTROL Reports &amp; Analytics]：**&#x200B;多くのレポートがあらかじめ組み込まれているツールです。アドビでは、ほとんどのレポートニーズに対して Analysis Workspace を使用することをお勧めします。
 
-以下に、Adobe Analyticsの概要ビデオを示します。
+Adobe Analytics のビデオの概要は次のとおりです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
-## 主な Analytics ツール記事
+## Analytics ツールに関する主な記事
 
 * [Adobe Analytics ダッシュボード — 概要](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace 使用の手引き](analysis-workspace/home.md)
