@@ -1,20 +1,20 @@
 ---
-description: インテリジェントアラートシステムでは、異常値検出とアラートシステムが統合され、アラートをより詳細に制御できます。
+description: インテリジェントアラートシステムにより、アラートをよりきめ細かく制御できるほか、異常値検出とアラートシステムを統合できます。
 title: インテリジェントアラート
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # インテリジェントアラート
 
-インテリジェントアラートシステムでは、異常値検出とアラートシステムが統合され、アラートをより詳細に制御できます。
+インテリジェントアラートシステムにより、アラートをよりきめ細かく制御できるほか、異常値検出とアラートシステムを統合できます。
 
-ビデオの概要を次に示します。
+以下は、このトピックの概要に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25446/?quality=12)
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 * 自動生成される Analysis Workspace プロジェクトへのリンクが記載された電子メールまたは SMS によるアラートの送信。
 * 1 つのアラートで複数の指標を示す「積み重ね」アラートの作成。
 
-アラートシステムのコンポーネントは次のとおりです。アラートビルダー、アラートマネージャー、アラートプレビューを追加し、アラート作成へのコンテキスト内アクセスを改善しました。 古いアラートシステムユーザーインターフェイスは、使用できなくなりますが、アラートは移行されます。一部の従来のアラート機能 [現在は使用できません](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=ja).
+アラートシステムのコンポーネントには、アラートビルダー、アラートマネージャー、アラートプレビュー、アラート作成への強化されたコンテキスト内アクセスなどが含まれます。古いアラートシステムユーザーインターフェイスは使用できなくなりますが、アラートは移行されます。一部のレガシーアラート機能は、[使用できなくなりました](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=ja)。
 
 アラートビルダーにアクセスするには、次の 4 つの方法があります。
 
@@ -61,7 +61,7 @@ ht-degree: 88%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>質問：アラートの異常値検出はデータの異常値を判別するためにどれくらい過去に遡りますか。</b> </p> </td> 
-   <td colname="col2"> <p>トレーニング期間は選択した精度によって異なります詳しくは、<a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">異常値検出</a>で使用される統計的手法を参照してください。要約を次に示します。 </p> 
+   <td colname="col2"> <p>トレーニング期間は選択した精度によって異なります詳しくは、 <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">異常値検出</a> で使用される統計的手法を参照してください。要約を次に示します。 </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">月単位 = 15 ヶ月 + 前年の同じ時間範囲 </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">週単位 = 15 週 + 前年の同じ時間範囲 </li> 
