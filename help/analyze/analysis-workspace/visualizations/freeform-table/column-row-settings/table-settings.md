@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 source-git-commit: 3903387ac6cba1ceb45e1de35fbceb259151f4f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 90%
 
 ## 行数の変更
 
-表示される行数を変更するには、次のようにします。
+表示される行数を変更するには、次の手順に従います。
 
-1. [!UICONTROL テーブルの上端の行の横にある数字をクリックし ] ます。
+1. テーブルの一番上にある[!UICONTROL 行]の横の数字をクリックします。
 
    ![](assets/row-number.png)
 
