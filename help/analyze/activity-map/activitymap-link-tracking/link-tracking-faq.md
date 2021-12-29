@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Activity Map でのリンクトラッキングに関するよくある質問（F
 
 >[!CAUTION]
 >
->Activity Map トラッキングをオンにすると、**個人を特定できる情報（PII）のデータを収集できます。**&#x200B;このデータは、そのまま使用するか、その他の情報と共に使用して、個人を特定および検索したり、個人と連絡を取ったり、コンテキスト内で個人を特定したりすることができます。
+>Activity Map トラッキングをオンにすると、**個人を特定できる情報（PII）のデータを収集できます。** このデータは、そのまま使用するか、その他の情報と共に使用して、個人を特定および検索したり、個人と連絡を取ったり、コンテキスト内で個人を特定したりすることができます。
 
 Activity Map トラッキングによって PII データが収集される可能性がある既知のケースには次のようなものがあります。
 
@@ -27,56 +27,56 @@ Activity Map トラッキングによって PII データが収集される可�
 * 金融機関では、口座番号がリンクとして表示されている場合があります。そのリンクをクリックすると、リンクのテキストが収集されます。
 * また、医療関連の Web サイトでも、PII データがリンクとして表示されている場合があります。これらのリンクをクリックすると、リンクのテキストが収集されるので、PII データが収集されることになります。
 
-## リンク追跡はいつ実行されるか。
+## リンクトラッキングはいつ行われますか？
 
-アクティビティマップへのリンクおよび地域の識別は、ユーザーがページをクリックしたときに実行されます。
+Activity Map のリンクと領域の識別は、ユーザーがページをクリックしたときに行われます。
 
-## デフォルトでトラッキングされる内容
+## デフォルトでは何がトラッキングされますか？
 
-エレメントに click イベントが発生した場合、そのエレメントは、AppMeasurement によってそのエレメントがリンクとして扱われるかどうかを判断するために、何らかのチェックを通す必要があります。 チェックは以下のとおりです。
+要素でクリックイベントが発生した場合、その要素は、AppMeasurement がそれをリンクとして扱うかどうかを判断するためにいくつかのチェックに合格する必要があります。チェックは次のとおりです。
 
-* これは、 `A` `AREA` プロパティと共に or タグになり `href` ます。
-* `onclick`変数を設定する属性がある `s_objectID` かどうかを確認します。
-* これは `INPUT` `SUBMIT` 、値または子のテキストが付いたタグまたはボタンですか?
-* これは、 `INPUT` タイプおよびプロパティが設定されたタグ `IMAGE` `src` かどうかを示します。
-* これは a `BUTTON` ?
+* これは `href` プロパティを持つ `A` または `AREA` タグか
+* `s_objectID` 変数を設定する `onclick` 属性があるか
+* これは、値または子テキストを持つ `INPUT` タグまたは `SUBMIT` ボタンか
+* これは、type が `IMAGE` で `src` プロパティを持つ `INPUT` タグか
+* これは `BUTTON` か
 
-上記のいずれかの質問に対する答がはいの場合、要素はリンクとして処理され、追跡されます。
-
->[!IMPORTANT]
->
->属性タイプが「button」である button タグは、AppMeasurement によってリンクされるとは見なされません。 代わりに button タグ上の type = 「button」を削除し、role = 「button」または submit = &quot;button&quot; を追加することを検討してください。
+上記の質問のいずれかに対する答えが「はい」の場合、要素はリンクとして扱われ、トラッキングされます。
 
 >[!IMPORTANT]
 >
->「Href」によって開始されたアンカータグは、リンクではなく、(ページから移動しないと) AppMeasurement によって、内部ターゲットの場所として扱われます。 デフォルトでは、Activity Map は、これらの内部のターゲット場所を追跡しません。ユーザーを新しいページにナビゲートするリンクのみを追跡します。
+>属性 type=&quot;button&quot; を持つボタンタグは、AppMeasurement ではリンクとは見なされません。ボタンタグの type=&quot;button&quot; を削除し、代わりに role=&quot;button&quot; または submit=&quot;button&quot; を追加することを検討してください。
 
-## アクティビティマップでのその他の視覚的な HTML エレメントの追跡方法
+>[!IMPORTANT]
+>
+>AppMeasurement では、「#」で始まる「href」を含むアンカータグは、リンクではなく、内部ターゲット場所と見なされます（ページを離れないので）。デフォルトでは、Activity Map は、これらの内部のターゲット場所を追跡しません。ユーザーを新しいページにナビゲートするリンクのみを追跡します。
 
-に.この関数を使用 `s.tl()` します。
+## Activity Map では、他のビジュアル HTML 要素はどのようにトラッキングされますか？
 
-呼び出しによって click が発生した場合は `s.tl()` 、アクティビティーマップによって click イベントが表示され、ストリング変数が検出されたかどうかが確認され `linkName` ます。 実行時に `s.tl()` 、その linkName がアクティビティマップリンク ID として設定されます。 呼び出しを開始した要素は、 `s.tl()` 地域を決定するために使用されます。 例：
+a. `s.tl()` 関数を使用します。
+
+クリックが `s.tl()` 呼び出しを介して発生した場合、Activity Map もこのクリックイベントを受け取り、`linkName` 文字列変数が見つかったかどうかを判断します。`s.tl()` の実行時に、その linkName が Activity Map のリンク ID として設定されます。`s.tl()` 呼び出しが発生したクリックされた要素は、領域を特定するために使用されます。例：
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b.変数を使用 `s_objectID` します。 例：
+b. `s_objectID` 変数を使用します。例：
 
-    「ここに 
+    ``` 
     
-     &lt;img onclick=&quot;s_objectID=&#39;abc&#39;;&quot; src=&quot;someimageurl.png&quot;/> 
-     &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&#39;abc&#39;;&quot; > 
-     テキストをリンク 
-     
+    &lt;img onclick=&quot;s_objectID=&#39;abc&#39;;&quot; src=&quot;someimageurl.png&quot;/>
+    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&#39;abc&#39;;&quot; >
+    ここにテキストをリンク
+    &lt;/a>
     
-     」というテキストを入力します。 
- &lt;/a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&#39;abc&#39;;&quot; >
+    ```
+
 >[!IMPORTANT]
 >
->後続するセミコロン (;)は、アクティビティマップでを使用する場合に必要です `s_objectID` 。
+>Activity Map で `s_objectID` を使用する場合、末尾のセミコロン（;）は必須です。
 
-## トラックされるリンクの例には、どのようなものがありますか。
+## トラッキングされるリンクの例をいくつか示してください。
 
 ### 例 1
 
@@ -114,12 +114,12 @@ b.変数を使用 `s_objectID` します。 例：
     </div>
 ```
 
-## トラックされないリンクについては、いくつかの例を示してもかまいません。
+## トラッキングされないリンクの例をいくつか示してください。
 
-1. 理由: アンカータグに、次の有効な値がありません `href` 。
+1. 理由：アンカータグに有効な `href` が含まれていない
    `<a name="innerAnchor">Section header</a>`
 
-1. 理由: `s_ObjectID` または表示されること `s.tl()` はありません。
+1. 理由：`s_ObjectID` も `s.tl()` も存在しない
 
    ```
    <p onclick="showPanel('market rates')">
@@ -128,7 +128,7 @@ b.変数を使用 `s_objectID` します。 例：
    </p>
    ```
 
-1. 理由: `s_ObjectID` または表示されること `s.tl()` はありません。
+1. 理由：`s_ObjectID` も `s.tl()` も存在しない
 
    ``` 
    <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
@@ -137,7 +137,7 @@ b.変数を使用 `s_objectID` します。 例：
    
    ```  
    
-1. 理由: &quot;src&quot; プロパティにフォームの input エレメントがありません。
+1. 理由：「src」プロパティにフォーム入力要素がない
 
    `<input type="image"/>`
 
