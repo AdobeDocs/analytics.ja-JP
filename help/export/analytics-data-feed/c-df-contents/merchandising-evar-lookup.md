@@ -2,9 +2,9 @@
 title: post_product_list の マーチャンダイジング eVar インスタンス参照
 description: データフィードの post_product_list 列で、各参照値のマーチャンダイジング eVar インスタンスを見つけます。
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '579'
+ht-degree: 100%
 
 ---
 
