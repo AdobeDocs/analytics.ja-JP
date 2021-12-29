@@ -2,7 +2,7 @@
 description: 複数のスイートタグ付けを実装し、イメージリクエストを複数のレポートスイートに送信する方法を説明します。
 title: 複数のスイートタグ付けの実装
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -35,4 +35,4 @@ ht-degree: 100%
 
 多くの場合、複数のスイートタグ付けの代わりに仮想レポートスイートを使用することがベストプラクティスですが、ビジネスニーズに応じて組織に最適なレポートスイートアプローチを決定する必要があります。
 
-仮想レポートスイートが最適なアプローチかどうかを理解するには、[仮想レポートスイートと複数のスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md)を参照してください。複数のスイートタグ付けと仮想レポートスイートの機能の比較については、[仮想レポートスイートと複数のスイートタグ付けの比較](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)も参照してください。
+仮想レポートスイートが最適なアプローチかどうかを理解するには、 [仮想レポートスイートと複数のスイートタグ付けに関する考慮事項](/help/components/vrs/vrs-considerations.md) を参照してください。複数のスイートタグ付けと仮想レポートスイートの機能の比較については、 [仮想レポートスイートと複数のスイートタグ付けの比較](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) も参照してください。
