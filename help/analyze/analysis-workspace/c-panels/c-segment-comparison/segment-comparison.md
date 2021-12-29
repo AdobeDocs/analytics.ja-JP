@@ -6,9 +6,9 @@ feature: Panels
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 セグメント比較パネルは、[Segment IQ](../../segment-iq.md) のツールの一部で、無制限数のセグメント間で最も統計的に有意な違いを見つけます。この機能は、アクセス権を持つすべてのディメンションと指標の自動分析を繰り返し実行します。会社の KPI を推進するオーディエンスセグメントの主要な特性を自動的に発見し、セグメントがどの程度重なっているかを確認できます。
 
-セグメント比較に関するビデオを次に示します。
+以下は、セグメント比較に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
