@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Analysis Workspace のディメンションおよびディメンション項目�
 
 ## ビデオ
 
-Analysis Workspaceのプロジェクトにディメンションと指標を追加する：
+Analysis Workspace でのプロジェクトへのディメンションと指標の追加：
 
 >[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
 
@@ -46,6 +46,6 @@ Analysis Workspaceのプロジェクトにディメンションと指標を追�
 
 >[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
 
-次に、位置別のディメンション分類に関するビデオを示します。
+以下は、ディメンションの位置別分類に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
