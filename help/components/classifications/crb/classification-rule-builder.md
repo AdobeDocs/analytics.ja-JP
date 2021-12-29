@@ -6,9 +6,9 @@ feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベース分類を作成し、複数のレポートスイートに適用することができるようになりました。ルールは、分類に関連するトラフィックのボリュームに応じた頻度で処理されます。
 
-次に、分類ルールビルダーの概要ビデオを示します。
+以下は、分類ルールビルダーの概要ビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
 
@@ -44,15 +44,15 @@ ht-degree: 98%
 | 手順 3：レポートスイートと変数を設定します。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | レポートスイートおよび変数にルールセットを適用します。 |
 | 手順 4：[分類ルールをセットに追加する](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分類ルールビルダー]／&lt;ルールセット> | 条件を分類に照合し、ルールに対して実行するアクションを指定します。「[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md)」の情報を確認します。 |
 | 手順 5：[分類ルールセットのテスト](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | ルールをドラフトモードで編集してその有効性をテストします。ドラフトモードでは、ルールを実行できません。<br>この手順は、[正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)を使用する場合に重要です。 |
-| 手順 6：[有効なルールをアクティブ化する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。詳しくは、[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md)を参照してください。 |
-| 手順 7（オプション）：[不要なルールを削除する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。分類データを削除する必要がある場合は、[分類データの削除](/help/components/classifications/importer/t-delete-classification-data.md)を参照してください。 |
+| 手順 6：[有効なルールをアクティブ化する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | ルールが有効であることを確認したら、ルールセットをアクティブ化します。必要に応じて、既存のキーを上書きできます。詳しくは、[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。 |
+| 手順 7（オプション）：[不要なルールを削除する](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 不要なルールをセットから削除します。<br>注意：ルールを削除しても、アップロードされた分類済みデータは削除されません。分類データを削除する必要がある場合は、 [分類データの削除](/help/components/classifications/importer/t-delete-classification-data.md) を参照してください。 |
 
 >[!NOTE]
 >
->分類インポートツールを使用する権限を持つグループが分類ルールを使用できます。処理に関する重要な情報については、[ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md)を参照してください。
+>分類インポートツールを使用する権限を持つグループが分類ルールを使用できます。処理に関する重要な情報については、 [ルールの処理方法](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
 
 **その他のリソース**
 
-**ブログ**：この機能について詳しくは、Digital Marketing Blog の[ルールベースの分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)を参照してください。
+**ブログ**：この機能について詳しくは、Digital Marketing Blog の [ルールベースの分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/) を参照してください。
 
 **ビデオ**：[分類の概要](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=ja)ビデオを参照してださい。
