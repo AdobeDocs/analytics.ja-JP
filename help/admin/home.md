@@ -3,9 +3,9 @@ title: Analytics 管理ガイド
 description: Admin Console でのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics 管理者向けの管理ヘルプです。
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '328'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 このヘルプは、Adobe Analytics の管理者を対象としています。Admin Console でのユーザーと製品の管理、レポートスイート、変数、分類、データ収集の設定に関するヘルプが含まれます。 
 
-以下に、Adobe Analyticsの概要ビデオを示します。
+Adobe Analytics のビデオの概要は次のとおりです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
@@ -26,8 +26,8 @@ Adobe Analytics には、現在、管理者向けの以下の 2 つの領域が�
 
 このガイドでは、以下について説明します。
 
-* Analytics Admin Console でおこなわれるすべてのタスク。この領域には、レポートスイート、変数、分類またはデータガバナンスの設定が含まれます。使用可能なレポートスイートおよびカンパニー設定のリストについては、[管理ツール](admin/c-admin-tools.md)を参照してください。
-* Adobe Admin Console でおこなわれるすべての Analytics 専用タスク。この領域には、製品プロビジョニングおよびユーザー権限管理が含まれます。Adobe Admin Console で可能なアクションのリストについては、[Adobe Admin Console の Adobe Analytics](admin-console/home.md) を参照してください。
+* Analytics Admin Console でおこなわれるすべてのタスク。この領域には、レポートスイート、変数、分類またはデータガバナンスの設定が含まれます。使用可能なレポートスイートおよびカンパニー設定のリストについては、 [管理ツール](admin/c-admin-tools.md) を参照してください。
+* Adobe Admin Console でおこなわれるすべての Analytics 専用タスク。この領域には、製品プロビジョニングおよびユーザー権限管理が含まれます。Adobe Admin Console で可能なアクションのリストについては、 [Adobe Admin Console の Adobe Analytics](admin-console/home.md) を参照してください。
 
 このガイドでは、Adobe Admin Console が提供する多くの汎用機能については説明しません。代わりに、エンタープライズユーザーガイドの [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を参照してください。
 
