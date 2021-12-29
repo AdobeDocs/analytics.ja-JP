@@ -5,17 +5,17 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics の[!UICONTROL コホート分析]について
 
-*`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。[!UICONTROL コホート分析は]、例えば、コホートがブランドとどのように関わっているかを学ぶ場合に便利です。トレンドの変更を簡単に見分けて、それに応じて対応できます（[!UICONTROL コホート分析]の説明は、[コホート分析 101](https://en.wikipedia.org/wiki/Cohort_analysis) など、Web 上で参照できます）。
+*`cohort`* とは、特定の期間、共通の特性を共有する人々のグループのことです。[!UICONTROL コホート分析は]、例えば、コホートがブランドとどのように関わっているかを学ぶ場合に便利です。トレンドの変更を簡単に見分けて、それに応じて対応できます（[!UICONTROL コホート分析]の説明は、[コホート分析 101](https://ja.wikipedia.org/wiki/Cohort_analysis) など、Web 上で参照できます）。
 
-コホートレポートを作成したら、コンポーネント（特定のディメンション、指標およびセグメント）をキュレーションして、任意のユーザーとコホートレポートを共有できます。詳しくは、[キュレーションおよび共有](/help/analyze/analysis-workspace/curate-share/curate.md)を参照してください。
+コホートレポートを作成したら、コンポーネント（特定のディメンション、指標およびセグメント）をキュレーションして、任意のユーザーとコホートレポートを共有できます。詳しくは、[キュレーションおよび共有](/help/analyze/analysis-workspace/curate-share/curate.md) を参照してください。
 
 [!UICONTROL コホート分析]では、例えば次の操作をおこなえます。
 
@@ -27,13 +27,13 @@ ht-degree: 90%
 
 [!UICONTROL コホート分析]は、[!UICONTROL Analysis Workspace] へのアクセス権を持つすべての Adobe Analytics ユーザーが利用できます。
 
-Analysis Workspaceのコホートテーブルに関するビデオ：
+Analysis Workspace のコホートテーブルに関するビデオ：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL コホート分析] は、セグメント化不可能な指標（計算指標を含む）、整数以外の指標（売上高、発生件数など）をサポートしていません。 セグメントで使用できる指標のみが [!UICONTROL コホート分析]で、一度に 1 を超える数のみ増やすことができます。
+>[!UICONTROL コホート分析] では、セグメント化できない指標（計算指標など）、整数以外の指標（収益、オカレンスなど）はサポートしていません。[!UICONTROL コホート分析] で使用できるのはセグメントで使用できる指標のみで、一度に増やせるのは 1 を超える数のみです。
 
 ## コホート分析の機能
 
