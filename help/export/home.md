@@ -3,9 +3,9 @@ title: Analytics 書き出しガイド
 description: このガイドでは、データフィードとData Warehouse を使用して、Adobe Analytics からデータを取得する方法を概説します。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 * **データフィード：** 1 時間ごとまたは 1 日ごとに生データの書き出しを受け取ります。各行は個別のヒットで、各列は変数です。データフィードは、通常、FTP サイトに送信されます。
 * **Data Warehouse：**&#x200B;リクエストウィザードを使用して、データのスプレッドシート出力を取得します。Data Warehouse は、様々な処理アーキテクチャを使用して、任意の数の行および任意の数の一意の値を可能にします。
 
-以下に、Adobe Analyticsの概要ビデオを示します。
+Adobe Analytics のビデオの概要は次のとおりです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
