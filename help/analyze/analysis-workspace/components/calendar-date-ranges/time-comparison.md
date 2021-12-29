@@ -6,7 +6,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Analysis Workspace での日付の比較では、日付範囲を含む任意の列を使用して、前年比、前四半期比、前月比などの一般的な日付比較を作成できます。
 
-こちらが、このトピックに関するビデオです：
+以下は、このトピックに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
 
@@ -58,7 +58,7 @@ Analysis Workspace での日付の比較では、日付範囲を含む任意の�
 
    ![](assets/compare-time-barchart.png)
 
-   横向き棒グラフで変更の割合を示すためには、[!UICONTROL ビジュアライゼーション設定]で[!UICONTROL 割合 (%)] 設定を有効にしておく必要があります。
+   横向き棒グラフで変更の割合を示すためには、 [!UICONTROL ビジュアライゼーション設定] で [!UICONTROL 割合 (%)] 設定を有効にしておく必要があります。
 
 ## 比較のために期間の列を追加 {#section_93CC2B4F48504125BEC104046A32EB93}
 
