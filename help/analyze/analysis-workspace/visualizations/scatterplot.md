@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 94%
 
 ![散布図](assets/scatter.png)
 
-以下に、散布図のビジュアライゼーションに関するビデオを示します。
+以下は、散布図のビジュアライゼーションに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)
