@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,6 +72,6 @@ Analysis Workspace では、ほとんどすべての指標の[アトリビュー
 
 ## 動的列
 
-Analysis Workspaceでの動的列の使用方法に関するビデオを以下に示します。
+以下は、Analysis Workspace での動的列の使用方法に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
