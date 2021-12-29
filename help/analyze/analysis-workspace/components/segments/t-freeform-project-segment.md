@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ Workspace では、どのくらい複雑なセグメントが必要か、この�
 
 ## ビデオ
 
-Analysis Workspaceでのセグメントの使用：
+Analysis Workspace でのセグメントの使用：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
-セグメントの検索と作成:
+セグメントの検索と作成：
 
 >[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-セグメント内の周期的な日付範囲：
+セグメントでの周期的な日付範囲：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
@@ -76,7 +76,7 @@ Analysis Workspace では、様々なタイプのセグメントを作成でき�
 | アクション | 説明 |
 |--- |--- |
 | 選択からセグメントを作成 | インラインセグメントを作成します。このセグメントは、オープンプロジェクトにのみ適用し、Analytics セグメントとして保存されません。1. 行を選択します。2. 選択範囲を右クリックします。3. 「*選択からセグメントを作成*」をクリックします。 |
-| コンポーネント／新しいセグメント | セグメントビルダーを表示します。セグメント化について詳しくは、[セグメントビルダー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja)を参照してください。 |
+| コンポーネント／新しいセグメント | セグメントビルダーを表示します。セグメント化について詳しくは、 [セグメントビルダー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja) を参照してください。 |
 | 共有／プロジェクトを共有または共有／プロジェクトデータをキュレート | [キュレーションおよび共有](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=ja#concept_4A9726927E7C44AFA260E2BB2721AFC6)では、プロジェクトに適用するセグメントを、受信者に共有された分析で使用する方法について学習します。 |
 | ディメンションとしてセグメントを使用 | ビデオ：[Analysis Workspace でセグメントをディメンションとして使用する](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=ja) |
 
@@ -89,4 +89,4 @@ Analysis Workspace では、様々なタイプのセグメントを作成でき�
 
 ## 詳細情報
 
-Adobe Analytics でのセグメント化の詳細な説明については、[こちら](/help/components/segmentation/seg-overview.md)を参照してください。
+Adobe Analytics でのセグメント化の詳細な説明については、 [こちら](/help/components/segmentation/seg-overview.md) を参照してください。
