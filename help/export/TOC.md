@@ -5,9 +5,9 @@ user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して、1 時間ごとまたは毎日生データの書き出しを受け取ります。Data Warehouse を使用して、データのスプレッドシート出力を取得します。
 source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
