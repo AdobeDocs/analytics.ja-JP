@@ -1,19 +1,19 @@
 ---
 title: メディア再生滞在時間パネルの入力と出力
-description: メディア再生に費やした時間の入力および出力設定は何ですか？
+description: メディア再生滞在時間の入力設定および出力設定は何ですか？
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '545'
+ht-degree: 100%
 
 ---
 
 
 # メディア再生滞在時間パネルの入力と出力 {#Inputs-and-outputs}
 
-次の入出力設定を使用して、メディア再生時間パネルをカスタマイズできます。
+次の入出力設定を使用して、メディア再生滞在時間パネルをカスタマイズできます。
 
 ## パネル入力 {#Input}
 
