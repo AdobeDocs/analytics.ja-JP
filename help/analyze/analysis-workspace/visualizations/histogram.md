@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 ヒストグラムは、棒グラフに似ていますが、数を範囲（グループ）でグループ化します。Analytics は、数から範囲への「グループ化」を自動化しますが、[詳細設定](#section_09D774C584864D4CA6B5672DC2927477)で設定を変更できます。
 
-ヒストグラムの使用方法に関するビデオを次に示します。
+以下は、ヒストグラムの使用方法に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 ヒストグラムを作成するには
 
-1. 左側のパネルで、**[!UICONTROL ビジュアライゼーション]**&#x200B;をクリックします。
+1. 左側のパネルで、 **[!UICONTROL ビジュアライゼーション]** をクリックします。
 1. **[!UICONTROL ヒストグラム]**&#x200B;をパネルにドラッグします。
 1. 指標を選択してヒストグラムビジュアライゼーションにドラッグし、「**[!UICONTROL ビルド]**」をクリックします。
 
@@ -58,7 +58,7 @@ ht-degree: 97%
 
 ## ヒストグラムデータの表示と編集 {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-ヒストグラムのデータソースを表示または変更するには、ヒストグラムヘッダーの隣の点をクリックして、**[!UICONTROL データソース設定]**／**[!UICONTROL データソースを表示]**&#x200B;に移動します。
+ヒストグラムのデータソースを表示または変更するには、ヒストグラムヘッダーの隣の点をクリックして、 **[!UICONTROL データソース設定]**／**[!UICONTROL データソースを表示]** に移動します。
 
 ![](assets/manage-data-source.png)
 
@@ -66,4 +66,4 @@ ht-degree: 97%
 
 ![](assets/prebuilt_segments.png)
 
-データを分類するなど、フリーフォームデータテーブルおよびその他のビジュアライゼーションを管理するその他の方法を確認するには、[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja)を参照してください。
+データを分類するなど、フリーフォームデータテーブルおよびその他のビジュアライゼーションを管理するその他の方法を確認するには、 [こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) を参照してください。
