@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2046'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 99%
 
 ![](assets/date-ranges.png)
 
-次に、セグメントでの周期的な日付範囲の使用に関するビデオを示します。
+以下は、セグメントでの周期的な日付範囲の使用に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
