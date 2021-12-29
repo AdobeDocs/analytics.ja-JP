@@ -4,9 +4,9 @@ title: ラベル設定の例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 81%
 * 2 番目の行は変数の名前である。ID ラベルがある場合は、割り当てられた名前空間が括弧内に含まれている。
 * ヒットデータは 3 番目の行から開始する。
 
-| ラベル | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
+| ラベル | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
-| **変数名** <br> **(名前空間)** | **MyProp1** <br> **（user）** | **訪問者 ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **（xyz）** |
+| **変数名** <br> **(名前空間)** | **MyProp1** <br> **（user）** | **訪問者 ID** <br> **（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **（xyz）** |
 | ヒットデータ | Mary | 77 | A | M | X |
-|  | メアリー | 88 | B | いいえ | Y |
-|  | メアリー | 99 | C | O | Z |
+|  | Mary | 88 | B | いいえ | Y |
+|  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
 |  | John | 88 | E | いいえ | U |
 |  | John | 44 | F | Q | V |
@@ -75,7 +75,7 @@ ht-degree: 81%
     <td>user=Mary</td>
     <td>false</td>
     <td>ユーザー</td>
-    <td>メアリー</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -85,7 +85,7 @@ ht-degree: 81%
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
     <td>ユーザー</td>
-    <td>メアリー</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -103,7 +103,7 @@ ht-degree: 81%
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>ユーザー</td>
-    <td>メアリー</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -157,21 +157,21 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>メアリー</td>
+    <td>Mary</td>
     <td>42</td>
     <td>A</td>
     <td>Privacy-7398</td>
     <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>メアリー</td>
+    <td>Mary</td>
     <td>88</td>
     <td>B</td>
     <td>いいえ</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>メアリー</td>
+    <td>Mary</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>
@@ -194,7 +194,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
   <tr>
     <td>John</td>
     <td>44</td>
-    <td>金</td>
+    <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
@@ -206,7 +206,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <td>X</td>
   </tr>
   <tr>
-    <td>アリス</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -220,7 +220,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=false</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=false</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -267,7 +267,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
   <tr>
     <td>John</td>
     <td>44</td>
-    <td>金</td>
+    <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
@@ -279,7 +279,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <td>X</td>
   </tr>
   <tr>
-    <td>アリス</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -293,7 +293,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=true</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=true</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -340,7 +340,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
   <tr>
     <td>John</td>
     <td>44</td>
-    <td>金</td>
+    <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
@@ -352,7 +352,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <td>X</td>
   </tr>
   <tr>
-    <td>アリス</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -362,9 +362,9 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
 
 以下のことに注意してください。
 
-* 次を含む行のセル `user=Mary` および `DEL-PERSON` ラベルが影響を受けます。
-* ID 拡張のため、 `AAID=77`, `AAID=88` または `AAID=99` ( これは、 `user=Mary`) および `DEL-DEVICE` ラベルが影響を受けます。 これには、 `DEL-DEVICE` 行のラベル `user=Mary`. これにより、行 4 と 5（および行 1 ～ 3）のセルが `DEL-DEVICE` ラベル（AAID、MyEvar2 および MyEvar3）を不明化します。
-* expandIDs 設定は、MyEvar3 (`X`, `Y` および `Z`) に書き込まれます。 `user=Mary`. ExpandIDs は、`user=Mary` の行に訪問者 ID を含むように拡張されます。訪問者 ID は、この例では AAID ですが、ECID でもあります。したがって、最後の 2 行には、次の MyEvar3 値が含まれます。 `X` および `Z` は影響を受けません。
-* `MyEvar2` 4 番目および 5 番目の行のは、同じ訪問者 ID 値 (`77` および `88`) を最初の行と 2 番目の行のものとして扱います。 その結果、ID 拡張には、デバイスレベルの削除用にこれらが含まれます。
-* 2 行目と 5 行目の `MyEvar2` の値は、削除の前後で一致します。ただし、削除後は、値と一致しなくなります `N` の値は、最後の行で発生します。これは、その行が削除リクエストの一環として更新されなかったためです。
+* `user=Mary` と `DEL-PERSON` ラベルを含んだ行のセルが影響を受けます。
+* ID 拡張により、`AAID=77`、`AAID=88` または `AAID=99`（`user=Mary` を含んだ行の AAID 値）および `DEL-DEVICE` ラベルを含んだ行のセルが影響を受けます。これには、`user=Mary` を満たす行の、`DEL-DEVICE` ラベルが付いたセルが含まれます。これにより、`DEL-DEVICE` ラベル（AAID、MyEvar2 および MyEvar3）を持つ 4 行目と 5 行目（および 1〜3 行目）のセルが難読化されます。
+* ExpandIDs 設定は、`user=Mary` の場合、ID-DEVICE ラベルを持つ MyEvar3（`X`、`Y` および `Z`）に存在する値を含めるための呼び出しまでは拡大適用されません。ExpandIDs は、`user=Mary` の行に訪問者 ID（この例では AAID だけでなく ECID も）を含むように拡張するだけです。したがって、`X` および `Z` の MyEvar3 値を含んだ最後の 2 行は影響を受けません。
+* 4 行目と 5 行目の `MyEvar2` は、1 行目と 2 行目と同じ訪問者 ID 値（`77` および `88`）を含んでいるので更新されます。その結果、ID 拡張には、デバイスレベルの削除用にこれらが含まれます。
+* 2 行目と 5 行目の `MyEvar2` の値は、削除の前後で一致します。ただし、削除後は、その行が削除リクエストの一環として更新されなかったので、最後の行にある値 `N` と一致しなくなります。
 * `MyEvar3` の動作は ID 拡張をおこなわない場合とは非常に異なりますが、これは、ID 拡張をおこなわないとどの `ID-DEVICES` とも一致しないからです。これで、最初の 5 行で `AAID` が一致します。
