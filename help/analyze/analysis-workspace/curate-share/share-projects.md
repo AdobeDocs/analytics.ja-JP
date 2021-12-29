@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1121'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 共有機能を使用すると、プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。適用した[キュレーション](curate.md)は、受信者がプロジェクトを開くと反映されます。
 
-以下に、プロジェクト共有の概要ビデオを示します。
+以下は、プロジェクト共有の概要に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 | 複製可能 | 受信者は、 **[!UICONTROL 名前を付けて保存]**&#x200B;し、左側のパネルにアクセスできます。この役割では、プロジェクトの操作は制限されません。この役割は、組織のデータと Analysis Workspace の使用方法を理解しているが、プロジェクトを変更してほしくないユーザーとプロジェクトを共有する場合に役立ちます。 |
 | 表示可能 | 受信者は「名前を付けて保存」できず、左パネルにアクセスできません。プロジェクトの操作も制限されます。この役割は、組織のデータ構造、Analysis Workspace、または Adobe Analytics の一般的な知識の低いユーザーにプロジェクトを共有する場合に役立ちます。ただし、引き続き、安全な環境でデータやインサイトを利用したいと考える場合です。<br>「[プロジェクト体験を表示できる](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)」についての詳細をご覧ください。 |
 
-以下は、Analysis Workspaceの表示専用プロジェクトに関するビデオです。
+以下は、Analysis Workspace の表示専用プロジェクトに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
@@ -66,14 +66,14 @@ ht-degree: 98%
 
 ## 受信者のグループに共有 {#Groups}
 
-すべてのユーザーが、受信者の集まりであるグループにプロジェクトを共有できます。Adobe Analytics は、グループは [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) の製品プロファイルによって定義されます。
+すべてのユーザーが、受信者の集まりであるグループにプロジェクトを共有できます。Adobe Analytics は、グループは [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) の製品プロファイルによって定義されます。
 
 * 管理者は、「すべて」を含む任意のグループと共有できます。
 * 管理者以外のユーザーは、「すべて」を除き、自分が属するグループと共有できます。
 
 ## プロジェクトリンクの共有 {#Links}
 
-プロジェクトへのリンクは、**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**&#x200B;で取得できます。クリックすると、受信者はプロジェクトにランディングする前にログインする必要があります。受信者が役割に配置されていない場合は、デフォルトの役割が割り当てられます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。Workspace プロジェクトへの共有可能なリンクを作成する方法について[詳しく説明](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)します。
+プロジェクトへのリンクは、**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**&#x200B;で取得できます。クリックすると、受信者はプロジェクトにランディングする前にログインする必要があります。受信者が役割に配置されていない場合は、デフォルトの役割が割り当てられます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。Workspace プロジェクトへの共有可能なリンクを作成する方法について[詳しく説明](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ja)します。
 
 ## プロジェクトマネージャーでプロジェクトを共有する {#Manager}
 
@@ -93,7 +93,7 @@ ht-degree: 98%
 
 ## 埋め込みコンポーネントの共有
 
-こちらが、このトピックに関するビデオです：
+以下は、このトピックに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
