@@ -5,9 +5,9 @@ title: 分類ルール
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 分類ルールは、次の項目に使用すると便利です。
 
-* **電子メール** および **ディスプレイ広告**:分類ルールを作成して、個々のディスプレイ広告キャンペーンをグループ化し、ディスプレイキャンペーンが電子メールキャンペーンに対してどのような効果を発揮しているかを学習します。
+* **メール** および **ディスプレイ広告**： メールキャンペーンに対するディスプレイ広告キャンペーンのパフォーマンスを確認できるように、個々のディスプレイ広告キャンペーンをグループ化する分類ルールを作成します。
 
 * **トラッキングコード**：トラッキングコードの文字列から派生するキー値を分類するための分類ルールを作成し、定義した特定の条件と照合します。
 * **検索用語**：[正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)とワイルドカードを使用して、検索用語の分類を簡略化できます。例えば、検索用語に *`baseball`* が含まれる場合、*`Sports League`* 分類を「*`MLB`*」に設定できます。
@@ -36,8 +36,8 @@ ht-degree: 97%
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
 | 次の語句で始まる | em: | チャネル | 電子メール |
-| 次の語句で終わる | Sale | タイプ | 販売 |
-| 次を含む | 2013 | 年 | 2013 年 |
+| 次の語句で終わる | Sale | タイプ | Sale |
+| 次を含む | 2013 | 年 | 2013 |
 
 ## ルールの処理方法 {#how-rules-are-processed}
 
@@ -59,7 +59,7 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-*    [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)で、分類の[!UICONTROL グループ権限]を指定します。
+*  [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)で、分類の[!UICONTROL グループ権限]を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -67,7 +67,7 @@ about_classification_rules.xml
 
    ルールセットをテストするときは、レポートのキー（分類する変数）を使用して、ルールセットによる影響を確認します（[キー](/help/components/classifications/importer/c-saint-data-files.md)は、分類する変数、または分類アップロードテーブルの最初の列です）。
 
-* **ルールの優先度**：キーが複数のルールに一致し、そのすべてのルールで（[!UICONTROL 分類を設定]列内に）同じ分類列が設定される場合は、分類に一致する最後のルールが使用されます。詳しくは、[ルールの優先度について](/help/components/classifications/crb/classification-quickstart-rules.md)を参照してください。
+* **ルールの優先度**：キーが複数のルールに一致し、そのすべてのルールで（[!UICONTROL 分類を設定]列内に）同じ分類列が設定される場合は、分類に一致する最後のルールが使用されます。詳しくは、[ルールの優先度について](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
 
 * **ルールの数に関する制限**：作成できるルールの数に制限はありません。ただし、大量にルールを作成すると、ブラウザーのパフォーマンスに影響が及ぶことがあります。
 * **処理**：ルールは、分類に関連するトラフィックのボリュームに応じた頻度で処理されます。
@@ -153,10 +153,10 @@ regex_classification_rules.xml
 
 | 正規表現 | 文字列または一致結果 | 対応する一致グループ |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:em:JuneSale:20130601  `$1`:em  `$2`:JuneSale  `$3`:20130601 |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
 | 構文の構築 | `^`= 行の先頭 () = 文字をグループ化し、括弧内の一致する文字を抽出します。`(.+)` = 1 ( .) 文字と ( + ) 任意の  \ = 文字列の先頭。`$` = 前の文字（または文字グループ）が行の末尾であることを示しています。 |
 
-正規表現の文字が何を意味しているかについては、[正規表現 - 参照表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)を参照してください。
+正規表現の文字が何を意味しているかについては、 [正規表現 - 参照表](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) を参照してください。
 
 ## 正規表現 - 特定の文字の分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
@@ -202,10 +202,10 @@ regex_classification_rules.xml
 |--- |--- |--- |--- |
 | 一致文字列 a:b の正規表現 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
 | 一致文字列 a:b の正規表現 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 一致文字列 a の正規表現:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 一致文字列 a の正規表現:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 一致文字列 a の正規表現:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| 一致文字列 a の正規表現:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| 一致文字列 a:b:c の正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 一致文字列 a:b:c の正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 一致文字列 a:b:c の正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| 一致文字列 a:b:c:d の正規表現 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## 正規表現 - 「含まない」の例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -265,7 +265,7 @@ c:d:yoyo
 | `a{3,}` | 3 個以上の a |
 | `a{3,6}` | 3 ～ 6 個の a |
 
-正規表現の有効性のテストに関する参考資料については、[https://rubular.com/](https://rubular.com/) を参照してください。
+正規表現の有効性のテストに関する参考資料については、 [https://rubular.com/](https://rubular.com/) を参照してください。
 
 ## ルールの優先度について
 
@@ -296,9 +296,9 @@ rule_priority.xml
 | 1 | 次を含む | カウボーイズ | 市区町村 | ダラス |
 | 2 | 次を含む | ブロンコス | 市区町村 | Denver |
 
-ユーザーが&#x200B;*`Cowboys vs. Broncos`* を検索すると、ルールビルダーによってルールの一致に競合が発見され、この検索では 2 番目のルールの分類（Denver）が適用されます。
+ユーザーが&#x200B;*`Cowboys vs. Broncos`* を検索すると、ルールビルダーがルールマッチングで競合を検出した場合、2 番目のルールの分類（Denver）がこの検索に適用されます。
 
-## ルールセットに対する分類ルールの追加 {#add-classification-to-rule-set}
+## ルール設定に対する分類ルールの追加 {#add-classification-to-rule-set}
 
 <!-- 
 
@@ -329,7 +329,7 @@ t_classification_rule.xml
    >
    >* レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
       >
-      >   （この前提条件については、[分類ルールセット](/help/components/classifications/crb/classification-rule-set.md)の&#x200B;*変数*&#x200B;を参照してください。）
+      >   （この前提条件については、 [ 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
    >
    >* **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/classifications/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
 
@@ -348,14 +348,14 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >（分類を設定列で）同じ分類が設定されているルールが複数あり、それにキーが合致した場合には、分類に合致した最後のルールが使用されます。ルールの並べ替えの詳細については、**ルールの優先度について**&#x200B;を参照してください。
+   >（分類を設定列で）同じ分類が設定されているルールが複数あり、それにキーが合致した場合には、分類に合致した最後のルールが使用されます。ルールの並べ替えの詳細については、 **ルールの優先度について** を参照してください。
 
 1. [ルールセットをテストします](/help/components/classifications/crb/classification-quickstart-rules.md)。
 1. テストが完了したら、**[!UICONTROL アクティブ]**&#x200B;をクリックしてルールを検証およびアクティブ化します。
 
    ルールをアクティブ化すると、自動的にファイルが構築され、アップロードされます。
 
-   フィールド定義：このページのインターフェイスオプションの完全な定義については、[分類ルールビルダー](/help/components/classifications/crb/classification-rule-definitions.md)を参照してください。
+   フィールド定義：このページのインターフェイスオプションの完全な定義については、 [分類ルールビルダー](/help/components/classifications/crb/classification-rule-definitions.md) を参照してください。
 
 ## 分類ルールセットのテスト
 
@@ -381,7 +381,7 @@ t_classifications_test_rule.xml
    * トラッキングコード
    * 検索キーワードまたは語句
 
-   詳しくは、[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)を参照してください。
+   詳しくは、[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md) を参照してください。
 1. 「**[!UICONTROL テストを実行]**」をクリックします。
 
    「[!UICONTROL 結果]」テーブルに一致するルールが表示されます。
@@ -408,4 +408,4 @@ t_validate_rules.xml
 
    このオプションを使用すると、影響を受けるキーの既存の分類を上書きできます。
 
-   このオプションの定義については、[ルールページ](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529)を参照してください。
+   このオプションの定義については、 [ルールページ](/help/components/classifications/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) を参照してください。
