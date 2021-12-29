@@ -1,22 +1,22 @@
 ---
 description: Analysis Workspace のフォールアウトでは、ディメンションと指標をファネルとワークフローのタッチポイントとして組み合わせることができます。これにより、調査するユーザーステップをより柔軟に定義できます。
-title: 複数ディメンションのフォールアウト
+title: 多次元フォールアウト
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 複数ディメンションのフォールアウト
+# 多次元フォールアウト
 
 Analysis Workspace のフォールアウトでは、ディメンションと指標をファネルとワークフローのタッチポイントとして組み合わせることができます。これにより、調査するユーザーステップをより柔軟に定義できます。
 
-次に、この件に関するビデオを示します。
+以下は、このトピックに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 
