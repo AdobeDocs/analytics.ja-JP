@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->テキスト（href 以外）に PII（Personally Identifiable Information：個人を特定できる情報）が含まれている可能性のあるリンクは、[s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ja) を使用して明示的に実装するか、[s.ActivityMap.linkExclusions または s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) で ActivityMap リンクコレクションを除外して実装する必要があります。Activity Map によって PII データがどのように収集される可能性があるかについて詳しくは、[こちら](/help/analyze/activity-map/lnk-tracking-overview.md)を参照してください。
+>テキスト（href 以外）に PII（Personally Identifiable Information：個人を特定できる情報）が含まれている可能性のあるリンクは、[s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ja) を使用して明示的に実装するか、[s.ActivityMap.linkExclusions または s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) で ActivityMap リンクコレクションを除外して実装する必要があります。Activity Map によって PII データがどのように収集される可能性があるかについて詳しくは、 [こちら](/help/analyze/activity-map/lnk-tracking-overview.md) を参照してください。
 
 Activity Map では、次の 2 つの ID に基づいてリンクトラッキングをおこないます。
 
@@ -80,7 +80,7 @@ HTML に s_objectid が含まれている場合、プライマリ ID はデフ�
   </div>
 ```
 
-必要に応じて、任意の文字列 ID（この場合は &quot;lpos&quot;）を使用して要素にタグを付け、&quot;lpos&quot; という名前で属性を追加することもできます。
+必要に応じて、任意の文字列識別子（この場合は「lpos」）を使用して要素にタグ付けしたあと、「lpos」という名前の属性を追加できます。
 
 ```
 <script language="JavaScript" type="text/javascript">
@@ -118,7 +118,7 @@ s.ActivityMap.regionIDAttribute = "lpos";
 
 ### `s.ActivityMap.regionIDAttribute`
 
-`s.linkObject`、つまり **クリックされたエレメント (親、親、親、親、...) エレメントの領域 ID として使用するタグ属性を指定するストリングです** 。
+`s.linkObject` の上位（parent、parent.parent など）要素 （**クリックされた要素**）の領域 ID として使用するタグ属性を識別する文字列。
 
 **例**
 
@@ -126,7 +126,7 @@ s.ActivityMap.regionIDAttribute = "lpos";
 
 ### `s.ActivityMap.link`
 
-クリックされたを受け取る、 `HTMLElement` クリックされたリンクを表すストリング値を返す関数。 戻り値が false（null、未定義、空の文字列、0）の場合、リンクは追跡されません。
+クリックされた `HTMLElement` を受け取り、クリックされたリンクを表す文字列値を返す関数。戻り値が false（null、未定義、空の文字列、0）の場合、リンクはトラッキングされません。
 
 **例**
 
@@ -143,7 +143,7 @@ function(clickedElement) {
 
 ### `s.ActivityMap.region`
 
-クリックされた HTMLElement を受け取り、**クリックしたときにリンクが見つかった領域を表す文字列値を返す関数。**&#x200B;戻り値が false（null、未定義、空の文字列、0）の場合、リンクは追跡されません。
+クリックされた HTMLElement を受け取り、**クリック時にリンクが見つかった領域** を表す文字列値を返す関数。戻り値が false（null、未定義、空の文字列、0）の場合、リンクはトラッキングされません。
 
 **例**
 
