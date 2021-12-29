@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Mapでは、ほとんどのブラウザーの最新バージョンが�
 
 Activity Map 自体は、サーバーの呼び出しを送信しません。代わりに、Activity Map コンテキストデータ変数が、後続のページでの Analytics ページビュー呼び出しに含まれます。
 
-## 一部のランク付けされたアイテムのオーバーレイが見つからない理由
+## ランク付けされた項目のオーバーレイの一部が欠落しているのはなぜですか？
 
 サブメニューリンクなど、ランク付けされたリンクの一部はページに表示されません。その結果、対応するリンクオーバーレイも表示されません。ランクは、非表示のリンクも含め、ページ上のすべてのリンクに対して計算されます。
 
@@ -84,15 +84,15 @@ Activity Map のコンテキストデータ変数は、データフィードで�
 
 はい。ただし、仮想レポートスイートの制限により、Activity Map のライブモードは仮想レポートスイートと互換性がありません。
 
-## アクティビティマップを無効にするにはどうすればいいですか?
+## Activity Map を無効にするにはどうすればよいですか？
 
-次の3つのオプションがあります。
+次の 3 つの選択肢があります。
 
-* `AppMeasurement_Module_ActivityMap`JS ファイルから関数を削除します。
-* 上の例の関数を空の本文に書き換えるカスタムコードを追加します。
+* `AppMeasurement_Module_ActivityMap` 関数を JS ファイルから削除します。
+* 上記の関数を空の本文に書き換えるカスタムコードを追加します。次に例を示します。
 
    ```
    function AppMeasurement_Module_ActivityMap() {}
    ```
 
-* AppMeasurement を設定 `s.trackClickMap` `s.trackInlineStats` するには、「設定」を選択します。 `false`
+* `s.trackClickMap` および `s.trackInlineStats` を `false` に設定して AppMeasurement を設定します。
