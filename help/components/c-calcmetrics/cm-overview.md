@@ -5,9 +5,9 @@ title: 計算指標および高度な計算（派生）指標
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ ht-degree: 97%
 次のことが可能です。
 
 * [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 異常値検出]および[!UICONTROL 貢献度分析]にまたがる指標を作成します。
-* 実装を変更することなく、レポートの実行時に得られる、セグメント化された指標を作成する。これらの指標はセグメントに基づいているので、時系列で表示できます。以下は、実装レス指標に関するビデオです。
+* 実装を変更せずに、レポート実行時に導出されるセグメント化された指標を作成します。これらはセグメントに基づいているため、時系列で表示できます。以下は、実装なしの指標に関するビデオです。
 
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * レポートスイート間で指標を共有する。つまり、新しく作成されたすべての指標は、同じログイン会社のすべてのレポートスイートに適用されます。
-* （高度な計算指標のみ）指標でセグメント化する。例えば、初回セッションの訪問者数を含む、「初回訪問者数」の指標を作成できます。このトピックに関するビデオを次に示します。
+* （高度な計算指標のみ）指標のセグメント。例えば、これが最初のセッションである人の数を使用して、「新規訪問者」の指標を作成できます。以下は、このトピックに関するビデオです。
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
