@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 * 指標とビジュアライゼーションのダッシュボードを作成して、他の組織に報告する。様々なレポートスイートから同じプロジェクト内にデータを取り込めるようになりました。
 
-次に、この件に関するビデオを示します。
+以下は、このトピックに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
