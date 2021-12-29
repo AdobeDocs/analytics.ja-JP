@@ -5,9 +5,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,8 +55,8 @@ ht-degree: 99%
 * 動的な行はサーバーサイドで合計され、訪問数や訪問者数などの指標の重複を取り除きます。
 * 静的な行は、クライアントサイドで合計され、重複を取り除き&#x200B;**ません**。サーバーサイドの合計行を計算するには、「行」設定を「**総合計を表示**」に変更します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja)
 
-## 静的な行の並べ替え
+## 静的行の並べ替え
 
-こちらが、このトピックに関するビデオです：
+以下は、このトピックに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
