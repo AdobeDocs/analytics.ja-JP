@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,6 +64,6 @@ ht-degree: 99%
 | 次よりも大きいか等しい | 入力された値以上のユニーク数を持つディメンション項目を返します。 |
 | 次よりも小さいか等しい | 入力された値以下のユニーク数を持つディメンション項目を返します。 |
 
-次に、個別のディメンション数に関するセグメント化に関するビデオを示します。
+以下は、個別のディメンション数に基づくセグメント化に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
