@@ -2,10 +2,10 @@
 description: Analytics Data Connectors が提供されなくなる時期と理由について説明します。
 title: Analytics Data Connectors の提供終了前の発表
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
-workflow-type: tm+mt
+source-git-commit: 3e1b422c908c9cdd2abd877285e15dc7398cb131
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Analytics は、10 年以上にわたって、お客様のニーズを満�
 
 ## この機能を削除すると、どのように影響を受けますか。
 
-Adobe パートナーの場合は、新しい Adobe Exchange プログラムへの統合の移行に関する詳細は、アドビのドキュメントで[こちら](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools)を参照してください。
+Adobe パートナーの場合は、新しい Adobe Exchange プログラムへの統合の移行に関する詳細は、アドビのドキュメントで [こちら](https://adobeexchangeec.zendesk.com/hc/ja-jp/articles/360003867071-Adobe-Analytics-Integration-Tools) を参照してください。
 
 Data Connector のお客様で、使用する統合の移行をリクエストする場合は、*すべてのリクエストを統合パートナーに直接ルーティングする必要があります*。パートナーは、新しい API への移行をコミットする必要があります。残念ながら、アドビカスタマーケアは、パートナーに新しい API への移行を強制できません。
 
@@ -107,6 +107,6 @@ Data Connector のお客様で、使用する統合の移行をリクエスト�
 
 ## 例外：Adobe Campaign Classic
 
-2021 年 8 月 1 日までの唯一の例外は、Adobe Campaign Classic 統合です。この統合は、2022 年 3 月 1 日に正式に廃止されます。
+2021 年 8 月 1 日までの唯一の例外は、Adobe Campaign Classic 統合です。この統合は、2022年8月17日（PT）に正式に廃止されます。
 
-2021 年 8 月 1 日に、Adobe Campaign Classic は、その他すべての統合と共に Data Connectors UI から削除されます。ただし、既存の Campaign 統合は、2022 年 3 月 1 日まで引き続きデータを収集して Adobe Analytics に渡します。2022 年 3 月 1 日には、統合はデータを収集して Adobe Analytics に渡さなくなります。この統合を使用している場合は、2022 年 3 月 1 日（PT）より前に、新しい Campaign-Analytics コネクタに移動する必要があります。詳しくは、[Adobe Campaign Classic のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=ja)を参照してください。
+2021年8月1日に、Adobe Campaign Classic は、その他すべての統合と共に Data Connectors UI から削除されます。ただし、既存の Campaign 統合は、2022年8月17日まで引き続きデータを収集して Adobe Analytics に渡します。2022年8月17日（PT）、統合はデータの収集と Adobe Analytics への受け渡しを停止します。この統合を使用している場合は、2022年8月17日（PT）までに、新しい Campaign-Analytics コネクタに移行する必要があります。詳しくは、 [Adobe Campaign Classic のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=ja) を参照してください。
