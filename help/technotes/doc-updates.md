@@ -4,9 +4,9 @@ description: Adobe Analytics ドキュメントセットの大幅なアップデ
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 579279798d67536fde182386ec0cf8db36785cc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2958'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 98%
 
 2019 年 1 月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
-* [!UICONTROL Customer Journey Analytics] の詳細については、[こちら](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja)を参照してください。
-* Adobe Analytics の新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja)を参照してください。
-* オーディオおよびビデオのための Adobe Analytics について詳しくは、[Adobe Analytics でのオーディオおよびビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)を参照してください。
+* [!UICONTROL Customer Journey Analytics] の詳細については、 [こちら](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja) を参照してください。
+* Adobe Analytics の新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) を参照してください。
+* オーディオおよびビデオのための Adobe Analytics について詳しくは、 [Adobe Analytics でのオーディオおよびビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja) を参照してください。
 
 ## 主なドキュメントのアップデートの詳細
 
 | 日付 | 説明 |
 | --- | --- |
 | **2021年10月** |  |
-| 2021 年 10 月 21 日（PT） | に関する新しいドキュメント [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) Analysis Workspace |
-| 2021 年 10 月 21 日（PT） | 新しいドキュメント： [メディア再生に費やした時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html) Analysis Workspaceのパネル |
-| 2021 年 10 月 7 日（PT） | [モバイルスコアカードのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#apply-visualizations)に関する新しいドキュメント |
+| 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja) に関する新しいドキュメントが公開されました |
+| 2021年10月21日（PT） | Analysis Workspace の [メディア再生滞在時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ja) パネルに関する新しいドキュメントが公開されました。 |
+| 2021 年 10 月 7 日（PT） | [モバイルスコアカードのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#apply-visualizations) に関する新しいドキュメント |
 | **2021年8月** |  |
 | 2021 年 8 月 18 日（PT） | トップレベルの構造を改訂し、1 つの [ランディングページ](https://experienceleague.adobe.com/docs/analytics.html?lang=ja) に統合しました。 |
 | 2021 年 8 月 18 日（PT） | [A4T と仮想レポートスイート](/help/components/vrs/vrs-a4t.md) に関する新しいトピック |
@@ -52,25 +52,25 @@ ht-degree: 98%
 | **2021 年 1 月** |  |
 | 2021 年 1 月 14 日（PT） | Analytics ダッシュボードのドキュメントに言語選択オプションを追加しました。 |
 | 2021 年 1 月 14 日（PT） | 公開画像 URL を参照して、画像を ワークスペースプロジェクトに追加する方法に関するドキュメントを追加しました。 |
-| 2021 年 1 月 14 日（PT） | ワークスペースのビジュアライゼーションのソースマネージャーと設定マネージャーの結合：ビジュアライゼーションの[!UICONTROL データソース]マネージャー（ドット）と設定マネージャー（歯車）が単一のポップオーバーに結合し、一箇所でソースと設定を簡単に管理できます。 |
+| 2021 年 1 月 14 日（PT） | ワークスペースのビジュアライゼーションのソースマネージャーと設定マネージャーの結合：ビジュアライゼーションの [!UICONTROL データソース] マネージャー（ドット）と設定マネージャー（歯車）が単一のポップオーバーに結合し、一箇所でソースと設定を簡単に管理できます。 |
 | **2020 年 12 月 日** |  |
 | 2020 年 12 月 7 日（PT） | 「adobedc.net」エンドポイントを含めるか代用するすべての関連ページを修正しました。 |
 | 2020 年 12 月 8 日（PT） | ワークスペースの[新しいプロジェクトを作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ja)ページを更新しました。 |
 | **2020 年 11 月** |  |
-| 2020 年 11 月 24 日（PT） | ワークスペースの[パネルの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)ページを更新しました。 |
+| 2020 年 11 月 24 日（PT） | ワークスペースの[パネルの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)ページを更新しました。 |
 | 2020 年 11 月 24 日（PT） | 新しい実装レビューのドキュメント： <ul><li>[完全な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ja)</li><li>[重点的な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=ja)</li></ul> |
-| 2020 年 11 月 24 日（PT） | Analysis Workspace の[ビジュアライゼーションの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja)ページを更新しました。 |
+| 2020 年 11 月 24 日（PT） | Analysis Workspace の [ビジュアライゼーションの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) ページを更新しました。 |
 | 2020 年 11 月 12 日 | [継承された Adobe Analytics の実装](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=ja)の新しいページ。 |
 | 2020 年 11 月 2 日 | [FTP の分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ja)に関するドキュメントを更新しました。 |
 | **2020 年 10 月** |  |
-| 2020 年 10 月 23 日 | ワークスペースの線のビジュアライゼーション：[移動平均トレンドラインオプション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja)：この設定は、 [!UICONTROL 折れ線グラフ]のビジュアライゼーションのトレンドライン設定に追加されました。移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
+| 2020 年 10 月 23 日 | ワークスペースの線のビジュアライゼーション：[移動平均トレンドラインオプション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja)：この設定は、 [!UICONTROL 折れ線グラフ] のビジュアライゼーションのトレンドライン設定に追加されました。移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
 | 2020 年 10 月 23 日 |  ワークスペース[パフォーマンスヘルプ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=ja)ページには、プロジェクトのパフォーマンスに影響を与える様々な要因と最適化のためのヒントへのリンクが示されています。 |
 | 2020 年 10 月 23 日 | Adobe Analytics ダッシュボードのドキュメントに機能強化を追加しました。ワークスペースのモバイルスコアカードで、スコアカードのスタイルがアプリと一致するようになりました。 |
 | **2020 年 9 月** |  |
 | 2020年9月17日（PT） | [単一のディメンションに対して 50,000 個の項目をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja#download-items)：セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
-| 2020年9月17日（PT） | [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): <ul><li>[!UICONTROL 線]の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
+| 2020年9月17日（PT） | [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja): <ul><li>[!UICONTROL 線] の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
 | 2020年9月17日（PT） | ワークスペースの新しい日付範囲：5 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲（過去 7 日間、過去 14 日間、過去 30 日間、過去 60 日間、過去 90 日間）から選択できます。 |
-| 2020年9月17日（PT） | [ワークスペースのメディア同時ビューアパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html)に関する新しいドキュメント |
+| 2020年9月17日（PT） | [ワークスペースのメディア同時ビューアパネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=ja)に関する新しいドキュメント |
 | **2020 年 8 月** |  |
 | 2020 年 8 月 31 日（PT） | クロスデバイス分析の[フィールドベースのステッチドキュメント](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=ja)に機能強化を追加しました。 |
 | **2020 年 7 月** |  |
@@ -83,8 +83,8 @@ ht-degree: 98%
 | 2020 年 6 月 18 日（PT） | [Attribution IQ：カスタムルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja#lookback-windows)に関する新しいドキュメント |
 | 2020 年 6 月 18 日（PT） | 共有 ワークスペースプロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメント。ワークスペースプロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
 | 2020 年 6 月 18 日（PT） | [「表示のみ」の ワークスペースプロジェクト](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja)に関する新しいドキュメント。 プロジェクトは、「表示可能」としてのみユーザーに共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。 |
-| 2020 年 6 月 18 日（PT） | 共有 ワークスペースプロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)に関する新しいドキュメント。ワークスペースプロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
-| 2020 年 6 月 18 日（PT） | [ワークスペースプロジェクトの共同編集](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)に関する新しいドキュメント。「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。 |
+| 2020 年 6 月 18 日（PT） | 共有 ワークスペースプロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメント。ワークスペースプロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
+| 2020 年 6 月 18 日（PT） | [ワークスペースプロジェクトの共同編集](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメント。「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日（PT） | [一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) に関する新しいドキュメント |
 | 2020 年 5 月 21 日（PT） | [Adobe Analytics ダッシュボード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ja)に関する新しいドキュメント |
@@ -96,11 +96,11 @@ ht-degree: 98%
 | 2020 年 3 月 13 日 | [Experience Cloud へのセグメントの公開](/help/components/segmentation/segmentation-workflow/seg-publish.md)にアップデートを追加しました。 |
 | 2020 年 3 月 13 日 | CDA のステッチ待機時間のアップデート。 |
 | 2020 年 3 月 13 日 | ワークスペースでの複数のレポートスイートのサポート. 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ja) |
-| 2020 年 3 月 13 日 | ワークスペースのテンプレートトレーニングチュートリアル。この新しい標準テンプレートでは、ワークスペースで最初の分析を作成するための一般的な用語と手順を順に説明します。これは、「新規プロジェクト」モーダルの標準テンプレートとして使用でき、リストに他のプロジェクトがない新規ユーザー向けにある、サンプルプロジェクトを置き換えます。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| 2020 年 3 月 13 日 | ワークスペースのテンプレートトレーニングチュートリアル。この新しい標準テンプレートでは、ワークスペースで最初の分析を作成するための一般的な用語と手順を順に説明します。これは、「新規プロジェクト」モーダルの標準テンプレートとして利用可能であり、リストに他のプロジェクトがない新規ユーザーのために現在用意されているサンプルプロジェクトの代わりになるものです。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 | **2020 年 2 月** |  |
 | 2020 年 2 月 28 日 | [Adobe Analytics Labs](/help/analyze/labs.md) に関するドキュメントを追加しました。 |
 | 2020 年 2 月 26 日 | [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 変数を追加しました。 |
-| 2020 年 2 月 20 日（PT） | クロスデバイス間分析を使用する組織向けの新しいワークスペーステンプレート. このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、[クロスデバイス分析の設定](/help/components/cda/setup.md)を参照してください。 |
+| 2020 年 2 月 20 日（PT） | クロスデバイス間分析を使用する組織向けの新しいワークスペーステンプレート. このテンプレートは、CDA による訪問の関連付けと、CDA 専用のディメンションと指標に関する教育の有効性を示します。CDA を使用するレポートスイートが必要です。詳しくは、 [クロスデバイス分析の設定](/help/components/cda/setup.md) を参照してください。 |
 | 2020 年 2 月 20 日（PT） | ワークスペースの新しいホットキー:<ul><li>すべてのパネルを折りたたむ／展開する：`alt + m`</li><li>アクティブパネルを折りたたみ／展開： `alt + ctrl + m`</li><li>左パネルを検索： `ctrl + /`</li><li>次のパネルに移動： `alt + Right Key`</li><li>前のパネルに移動： `alt + Left Key`</li></ul>[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ja) |
 | 2020 年 2 月 20 日（PT） | ワークスペースの機能強化： <ul><li>パネルまたはビジュアライゼーションを ワークスペースにドロップすると、左パネルがコンポーネントへと自動的に切り替わり、よりシームレスなワークフローが実現するようになります。</li><li>テンプレートコンポーネントに対するアクションを実行できるようになりました（例：タグ付け、お気に入りに登録、承認）。</li><li>フィルター適用済みの指標およびセグメントリストには、必要な項目が見つからない場合に新しいコンポーネントを追加するボタンが表示されます。</li></ul> |
 | 2020 年 2 月 20 日（PT） | ワークスペースデバッガーがヘルプメニューに追加され、ワークスペースリクエストのデバッグがよりシームレスに有効化できるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
@@ -119,7 +119,7 @@ ht-degree: 98%
 | 2020 年 12 月 19 日（PT） | デフォルトの [FTP データ保存制限](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=ja)を 10 GB に変更しました。 |
 | 2019 年 11 月 30 日 | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019 年 11 月 26 日 | IP ログイン制限実施の提供終了に関する新しいトピック. |
-| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
+| 2019 年 11 月 22 日 | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja) の新しいドキュメントセット。 |
 | 2019 年 11 月 22 日 | [Audience Analytics ワークフローの FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ja) を更新し、LiveStream での可用性を示しました。 |
 | 2019 年 10 月 25 日（PT） | [Adobe Analytics の主要概念](/help/technotes/terms.md)ページを更新しました。 |
 | 2019 年 10 月 10 日（PT） | フリーフォームテーブルの合計の更新：2 つの合計（**[!UICONTROL テーブルの合計]**&#x200B;と&#x200B;**[!UICONTROL 総計]**）が含まれるようになりました。テーブルの合計行は、適用された[レポートフィルター](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ja)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
