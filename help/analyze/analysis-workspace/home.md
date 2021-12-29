@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,11 @@ Analysis Workspace の使用を開始するには、[experience.adobe.com/analyt
 
 ![](assets/create-new-project.png)
 
-また、アドビが提供する標準テンプレートや、組織が作成したカスタム テンプレートなど、事前定義済み&#x200B;**テンプレート**&#x200B;から分析を開始することもできます。想定している分析や用途に応じて、様々なテンプレートを使用できます。使用可能な様々なテンプレートオプションについて詳しくは[こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja)を参照してください。
+また、アドビが提供する標準テンプレートや、組織が作成したカスタム テンプレートなど、事前定義済み&#x200B;**テンプレート**&#x200B;から分析を開始することもできます。想定している分析や用途に応じて、様々なテンプレートを使用できます。使用可能な様々なテンプレートオプションについて詳しくは [こちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja) を参照してください。
 
 ## 分析の構築 {#analysis}
 
-Workspace プロジェクトでは、左パネルから&#x200B;**パネル、テーブル、ビジュアライゼーションおよびコンポーネント**&#x200B;にアクセスします。これらはプロジェクトの構成要素です。
+Workspace プロジェクトでは、左パネルから **パネル、テーブル、ビジュアライゼーションおよびコンポーネント** にアクセスします。これらはプロジェクトの構成要素です。
 
 ### コンポーネント
 
@@ -51,23 +51,23 @@ Workspace プロジェクトでは、左パネルから&#x200B;**パネル、テ
 
 ### ビジュアライゼーション
 
-次に、棒グラフや折れ線グラフなどの&#x200B;**ビジュアライゼーション**&#x200B;をデータに追加して、データに命を吹き込みます。左端のパネルで、中央の&#x200B;**[!UICONTROL ビジュアライゼーション]**&#x200B;アイコンを選択し、使用可能な[ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja)の完全なリストを表示します。
+次に、棒グラフや折れ線グラフなどの **ビジュアライゼーション** をデータに追加して、データに命を吹き込みます。左端のパネルで、中央の **[!UICONTROL ビジュアライゼーション]** アイコンを選択し、使用可能な [ビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) の完全なリストを表示します。
 
 ![](assets/build-visualizations.png)
 
 ### パネル
 
-**パネル**&#x200B;を使用すると、プロジェクト内の分析を整理し、多数のテーブルやビジュアライゼーションを含めることができます。Analysis Workspace で提供される多くのパネルは、少数のユーザー入力に基づいてフルセットの分析を生成します。左端のパネルで上部の&#x200B;**[!UICONTROL パネル]**&#x200B;アイコンを選択し、使用可能な [パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)の完全なリストを表示します。
+**パネル** を使用すると、プロジェクト内の分析を整理し、多数のテーブルやビジュアライゼーションを含めることができます。Analysis Workspace で提供される多くのパネルは、少数のユーザー入力に基づいてフルセットの分析を生成します。左端のパネルで上部の&#x200B;**[!UICONTROL パネル]**&#x200B;アイコンを選択し、使用可能な [パネル](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)の完全なリストを表示します。
 
 ![](assets/build-panels.png)
 
-### Analysis Workspaceでのプロジェクト管理
+### Analysis Workspace でのプロジェクト管理
 
-プロジェクト管理の概要ビデオを次に示します。
+以下は、プロジェクト管理の概要に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
 ## その他のリソース {#resources}
 
 * アドビでは、数百もの[Analytics ビデオトレーニングチュートリアル](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=ja)を提供しています。
-* 詳しくは、 [Adobe Experience Cloudリリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#analytics) ：新機能に関する更新の説明です。
+* 新機能の最新情報については、 [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja#analytics) を参照してください。
