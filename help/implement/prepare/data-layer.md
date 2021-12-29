@@ -3,9 +3,9 @@ title: データレイヤーの作成
 description: Analytics の実装におけるデータレイヤーと、それらを Adobe Analytics で変数のマッピングに使用する方法について説明します。
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 データレイヤーは、サイト上の JavaScript オブジェクトのフレームワークで、実装で使用されるすべての変数値が含まれます。データレイヤーを使用すると、実装をより詳細に制御することができ、メンテナンスが容易になります。
 
-データレイヤーの使用に関するビデオを次に示します。
+以下は、データレイヤーの使用に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
 
