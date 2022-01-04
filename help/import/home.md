@@ -4,8 +4,8 @@ description: このガイドでは、データソース、Data Insertion API、D
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 81%
 * **[Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)**：API を使用して、アドビのデータコレクションに直接データを送信します。
 * **[AdobeExchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**:Adobe Analyticsレポートスイートの強化に使用できる現在の統合を見つけます。
 
-以下に、Adobe Analyticsの概要ビデオを示します。
+Adobe Analytics のビデオの概要は次のとおりです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 

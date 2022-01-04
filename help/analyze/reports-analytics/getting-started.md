@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,9 @@ Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基�
 Reports &amp; Analytics インターフェイスにログインするためのブラウザーと必要システム構成を示します。
 
 >[!NOTE]
->アドビは Adobe Analytics での Internet Explorer 11 のサポートを 2018 年 11 月 13 日（PT）に終了しました。Microsoft Edge またはその他のサポート対象ブラウザーにお早めにお切り替えください。
+>アドビは Adobe Analytics での Internet Explorer 11 のサポートを 2018 年 11 月 13 日（PT）に終了しました。できるだけ早く、Microsoft Edge またはその他の対応ブラウザーに切り替えてください。
 
-* 優先ブラウザ：Firefox、Chrome、Safari または Edge の最新バージョン。
+* 推奨ブラウザー：Firefox、Chrome、Safari または Edge の最新バージョン。
 * cookie と JavaScript を有効にする必要があります。
 * 画面の解像度 1024 x 768、画面の色 16 ビット以上。
 
@@ -56,7 +56,7 @@ Experience Cloud を介してログインする手順を説明します。
    **[!UICONTROL ユーザー名]**： アカウント ID を入力します。
 
    **[!UICONTROL パスワード]**： アカウントのパスワードを入力します。
-1. Experience Cloud のホームページで、**Analytics／レポート**&#x200B;に移動します。
+1. Experience Cloud のホームページで、 **Analytics／レポート** に移動します。
 
    無操作状態が 30 分間続くと自動的に Experience Cloud からログアウトされます。
 
@@ -87,7 +87,7 @@ Experience Cloud を介してログインする手順を説明します。
 | 情報のタイプ | 定義 |
 | --- | --- |
 | 連絡先 |  アカウントに次の個人情報を指定します。<ul><li>名前（必須）</li><li>姓（必須）</li><li>タイトル</li><li>電子メールアドレス（必須）</li><li>電話番号</li></ul> |
-| ログイン | アカウントのユーザー名が表示され、アカウントのパスワードを変更できます。[Reports &amp; Analytics アカウントのパスワードのリセット方法](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=ja)も参照してください。 |
+| ログイン | アカウントのユーザー名が表示され、アカウントのパスワードを変更できます。[Reports &amp; Analytics アカウントのパスワードのリセット方法](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=ja) も参照してください。 |
 | Web サービス | このアカウントに関連付けられた Web サービスのユーザー名と共通の秘密が表示されます。Web サービス API から Experience Cloud にアクセスする場合、これらの資格情報を使用します。詳しくは、Developer Connection を参照してください。**注：**&#x200B;この情報は、アカウントが Web サービスのユーザーとして認可されている場合にのみ表示されます。 |
 | このコンピューターを除外 | cookie を現在のコンピューターに適用し、データ収集から除外します。これはドメイン内のページビューおよび訪問者の数がオンラインアクティビティの影響を受けないようにする場合に役立ちます。**注：**&#x200B;この機能を使用するには、ブラウザーで cookie が有効になっている必要があります。コンピューターから cookie を削除した場合、除外 cookie を再び設定する必要があります。 |
 
