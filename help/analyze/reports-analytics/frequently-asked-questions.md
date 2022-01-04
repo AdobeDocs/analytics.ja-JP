@@ -5,16 +5,19 @@ title: よくある質問
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 89%
 
 ---
 
 # よくある質問
 
 Reports &amp; Analytics の Analytics に関して最もよくある質問に対する回答とトラブルシューティングの提案を示します。実装に関するよくある質問については、『実装マニュアル』の「[FAQ](/help/implement/faq.md)」を参照してください。
+
+>[!IMPORTANT]
+>有効 **2023 年 12 月 31 日** Adobeは、Reports &amp; Analytics とそれに伴うレポートおよび機能を廃止する予定です。 その時点で、Reports &amp; Analytics とそのすべてのレポートとスケジュールは機能しなくなります。 Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、Adobeの技術標準を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace内で使用できます。 2015 年のAnalysis Workspaceのリリース以降、Reports &amp; Analytics の機能はAnalysis Workspaceに移行され、ワークフローパリティのしきい値に達しました。 この通知では、提供終了プロセスについて説明します。
 
 **ロックされたマイアカウントのロックを解除する方法を教えてください。**
 

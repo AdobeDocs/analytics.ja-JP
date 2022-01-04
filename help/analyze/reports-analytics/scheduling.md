@@ -3,19 +3,22 @@ description: レポートのスケジュール、ダウンロードおよび配�
 subtopic: Schedule
 title: レポートのスケジュールと配信
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
-workflow-type: ht
-source-wordcount: '1666'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '1750'
+ht-degree: 95%
 
 ---
 
 # レポートのスケジュールと配信
 
 レポートのスケジュール、ダウンロードおよび配信に関する情報を示します。
+
+>[!IMPORTANT]
+>有効 **2023 年 12 月 31 日** Adobeは、Reports &amp; Analytics とそれに伴うレポートおよび機能を廃止する予定です。 その時点で、Reports &amp; Analytics とそのすべてのレポートとスケジュールは機能しなくなります。 Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、Adobeの技術標準を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace内で使用できます。 2015 年のAnalysis Workspaceのリリース以降、Reports &amp; Analytics の機能はAnalysis Workspaceに移行され、ワークフローパリティのしきい値に達しました。 この通知では、提供終了プロセスについて説明します。
 
 Adobe Analytics アプリケーションでレポートの配信予定日時をスケジュールするときに、スケジュールツールと配信ツールを使用して、自動的に送信されたファイルを表示したり、配信を変更または停止したりできます。
 

@@ -2,13 +2,13 @@
 description: ツールバー、カレンダー、詳細テーブルなど、レポートの機能について説明します。
 title: レポートの機能
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 79%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 100%
 ツールバー、カレンダー、詳細テーブルなど、レポートの機能について説明します。
 
 この例では、[!UICONTROL ページレポート]を示しています。設定オプションは実行するレポートによって異なることがあります。例えば、[!UICONTROL サイトコンテンツ]レポートで、「トレンド」や「ランク」を選択するのではなく、[!UICONTROL サイト指標]レポートの精度やページ名を指定する場合があります。
+
+>[!IMPORTANT]
+>有効 **2023 年 12 月 31 日** Adobeは、Reports &amp; Analytics とそれに伴うレポートおよび機能を廃止する予定です。 その時点で、Reports &amp; Analytics とそのすべてのレポートとスケジュールは機能しなくなります。 Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、Adobeの技術標準を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace内で使用できます。 2015 年のAnalysis Workspaceのリリース以降、Reports &amp; Analytics の機能はAnalysis Workspaceに移行され、ワークフローパリティのしきい値に達しました。 この通知では、提供終了プロセスについて説明します。
 
 ## ページレポートの例 {#section_288CC85536684C2DB184141358481EF0}
 

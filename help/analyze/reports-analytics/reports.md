@@ -1,13 +1,13 @@
 ---
 title: レポート
 description: 各レポートで Reports & Analytics が使用するディメンションと指標。
-feature: レポート & Analytics の基本事項
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 100%
+source-wordcount: '1950'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,9 @@ Reports &amp; Analytics の各レポートは、専用のディメンション�
 >[!NOTE]
 >
 >組織の管理者が行ったカスタマイズに応じて、レポートメニューの外観が変わります。詳しくは、『管理者ユーザーガイド』の「[メニューのカスタマイズ](/help/admin/admin/customize-menus.md)」を参照してください。
+
+>[!IMPORTANT]
+>有効 **2023 年 12 月 31 日** Adobeは、Reports &amp; Analytics とそれに伴うレポートおよび機能を廃止する予定です。 その時点で、Reports &amp; Analytics とそのすべてのレポートとスケジュールは機能しなくなります。 Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、Adobeの技術標準を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace内で使用できます。 2015 年のAnalysis Workspaceのリリース以降、Reports &amp; Analytics の機能はAnalysis Workspaceに移行され、ワークフローパリティのしきい値に達しました。 この通知では、提供終了プロセスについて説明します。
 
 ## サイト指標
 

@@ -4,16 +4,19 @@ title: Reports & Analytics の概要
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 84%
 
 ---
 
 # Reports &amp; Analytics の基礎知識
 
 Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
+
+>[!IMPORTANT]
+>有効 **2023 年 12 月 31 日** Adobeは、Reports &amp; Analytics とそれに伴うレポートおよび機能を廃止する予定です。 その時点で、Reports &amp; Analytics とそのすべてのレポートとスケジュールは機能しなくなります。 Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、Adobeの技術標準を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace内で使用できます。 2015 年のAnalysis Workspaceのリリース以降、Reports &amp; Analytics の機能はAnalysis Workspaceに移行され、ワークフローパリティのしきい値に達しました。 この通知では、提供終了プロセスについて説明します。
 
 レポートは、従来型の Web ベースのチャネルと、モバイルやビデオ、ソーシャルネットワークのような発展を続けるチャネルの両方に洞察を提供します。レポートの例には次のようなものがあります。
 
@@ -30,9 +33,6 @@ Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基�
 ## ブラウザー要件とシステム要件
 
 Reports &amp; Analytics インターフェイスにログインするためのブラウザーと必要システム構成を示します。
-
->[!NOTE]
->アドビは Adobe Analytics での Internet Explorer 11 のサポートを 2018 年 11 月 13 日（PT）に終了しました。できるだけ早く、Microsoft Edge またはその他の対応ブラウザーに切り替えてください。
 
 * 推奨ブラウザー：Firefox、Chrome、Safari または Edge の最新バージョン。
 * cookie と JavaScript を有効にする必要があります。

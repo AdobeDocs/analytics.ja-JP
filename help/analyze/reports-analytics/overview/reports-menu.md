@@ -2,19 +2,22 @@
 description: Reports & Analytics のレポートメニューの概要を示します。
 title: レポートメニュー
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 96%
+source-wordcount: '855'
+ht-degree: 87%
 
 ---
 
 # レポートメニュー{#reports-menu}
 
 Reports &amp; Analytics のレポートメニューの概要を示します。
+
+>[!IMPORTANT]
+>有効 **2023 年 12 月 31 日** Adobeは、Reports &amp; Analytics とそれに伴うレポートおよび機能を廃止する予定です。 その時点で、Reports &amp; Analytics とそのすべてのレポートとスケジュールは機能しなくなります。 Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、Adobeの技術標準を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace内で使用できます。 2015 年のAnalysis Workspaceのリリース以降、Reports &amp; Analytics の機能はAnalysis Workspaceに移行され、ワークフローパリティのしきい値に達しました。 この通知では、提供終了プロセスについて説明します。
 
 レポートメニューでは、次の機能を提供します。
 
@@ -31,7 +34,7 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-個々のレポートについて詳しくは、[Dimension](/help/components/dimensions/overview.md)を参照してください。
+個々のレポートについて詳しくは、 [Dimension](/help/components/dimensions/overview.md).
 
 ## レポートの検索 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -113,7 +116,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1">レポートスイートセレクター <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2"><a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >基本レポートスイート</a>または<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >仮想レポートスイート</a>を選択できます。 </td> 
+   <td colname="col2"><a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ja"  >基本レポートスイート</a>または<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >仮想レポートスイート</a>を選択できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">カレンダー <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
