@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 20a4ee51d0eace9cdcb5e0aeff5704b9a757a1eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 | `color` | `c_color` 列の値に基づいく色深度 ID。`color_depth.tsv`ルックアップテーブルを参照します。 | smallint unsigned |
 | `connection_type` | 接続タイプを表す数値 ID。「[接続タイプ](/help/components/dimensions/connection-type.md)」ディメンションで使用される変数。`connection_type.tsv`ルックアップテーブルを参照します。 | tinyint unsigned |
 | `cookies` | 「[cookie サポート](/help/components/dimensions/cookie-support.md)」ディメンションで使用される変数。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
-| `country` | 「 `country.tsv` 参照。 Reports &amp; Analytics のトップレベルドメインレポートで使用されます。 | smallint unsigned |
+| `country` | `country.tsv` ルックアップで見つかった値を表す数値 ID。Reports &amp; Analytics のトップレベルドメインレポートで使用されます。 | smallint unsigned |
 | `ct_connect_type` | `connection_type` 列と関連しています。よく使用される値は LAN/Wi-Fi、Mobile Carrier、Modem です。 | char(20) |
 | `curr_factor` | 通貨の小数点以下の桁数を指定します。通貨の変換に使用されます。例えば、USD では小数点以下 2 桁を使用するので、この列の値は 2 になります。 | tinyint |
 | `curr_rate` | トランザクションが発生した時点の為替レート。アドビでは XE 社との提携により、当日の為替レートを決定しています。 | decimal(24,12) |
@@ -77,11 +77,11 @@ ht-degree: 97%
 | `first_hit_ref_type` | 訪問者の本当に最初のリファラーのリファラータイプを表す数値 ID。`referrer_type.tsv` ルックアップを使用します。 | tinyint unsigned |
 | `first_hit_referrer` | 訪問者の本当に最初の参照 URL。 | varchar(255) |
 | `first_hit_time_gmt` | 訪問者の本当に最初のヒットのタイムスタンプ（UNIX 時間）。 | int |
-| `geo_city` | ヒットの発生元となった市区町村の名前（IP アドレスに基づく）。 「[市区町村](/help/components/dimensions/cities.md)」ディメンションで使用されます。 | char(32) |
-| `geo_country` | ヒットの発生元となった国の略称（IP アドレスに基づく）。 「[国](/help/components/dimensions/countries.md)」ディメンションで使用されます。 | char(4) |
-| `geo_dma` | ヒットの発生元となった人口統計領域の ID（IP アドレスに基づく）。 「[米国 DMA](/help/components/dimensions/us-dma.md)」ディメンションで使用されます。 | int unsigned |
-| `geo_region` | ヒットの発生元となった州または地域の名前（IP アドレスに基づく）。 「[地域](/help/components/dimensions/regions.md)」ディメンションで使用されます。 | char(32) |
-| `geo_zip` | ヒットの発生元となった郵便番号（IP アドレスに基づく）。 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの入力に役立ちます。関連トピック `zip`. | varchar(16) |
+| `geo_city` | ヒットが発生した市区町村の名前（IP アドレスに基づく）。「[市区町村](/help/components/dimensions/cities.md)」ディメンションで使用されます。 | char(32) |
+| `geo_country` | ヒットが発生した国の略称（IP アドレスに基づく）。[国](/help/components/dimensions/countries.md)ディメンションで使用します。 | char(4) |
+| `geo_dma` | ヒットが発生したデモグラフィック地域の数値 ID（IP アドレスに基づく）。「[米国 DMA](/help/components/dimensions/us-dma.md)」ディメンションで使用されます。 | int unsigned |
+| `geo_region` | ヒットが発生した州または地域の名前（IP アドレスに基づく）。「[地域](/help/components/dimensions/regions.md)」ディメンションで使用されます。 | char(32) |
+| `geo_zip` | ヒットが発生した場所の郵便番号（IP アドレスに基づく）。「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの入力に役立ちます。関連トピック `zip`. | varchar(16) |
 | `hier1 - hier5` | 階層変数で使用され、値の区切りリストが含まれます。区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
 | `hit_source` | ヒットの発生源を示します。ヒットソース 1、2、6 に対して請求が行われます。<br>1：標準的なイメージリクエスト（タイムスタンプなし）<br>2：標準的なイメージリクエスト（タイムスタンプあり）<br>3：ライブデータソースのアップロード（タイムスタンプあり）<br>4：未使用<br>5：汎用データソースのアップロード<br>6：完全な処理データソースのアップロード<br>7：TransactionID データソースのアップロード<br>8：廃止。Adobe Advertising Cloud の以前のバージョンのデータソース<br>9：廃止。Adobe Social サマリ指標<br>10：Audience Manager サーバーサイド転送を使用 | tinyint unsigned |
 | `hit_time_gmt` | Unix 時間に基づく、ヒットを受け取ったアドビデータ収集サーバーのタイムスタンプ。 | int |
@@ -105,7 +105,7 @@ ht-degree: 97%
 | `mcvisid` | Experience Cloud 訪問者 ID。2 つの 64 ビット数値を連結して 19 桁にパディングした 128 ビット数値です。 | varchar(255) |
 | `mobile_id` | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。 | int |
 | `mobileaction` | モバイルアクション。Mobile Services で `trackAction` が呼び出されると、自動的に収集されます。アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
-| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。  `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。 `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Apteligent データコネクタで使用されます。Apteligent で使用されるアプリケーション ID。 | varchar(255) |
 | `mobileappperformancecrashid` | Apteligent データコネクタで使用されます。Apteligent で使用されるクラッシュ ID。 | varchar(255) |
 | `mobileappstoreobjectid` | Appfigures データコネクタで使用されます。App Store オブジェクト ID。 | varchar(255) |
