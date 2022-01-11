@@ -6,10 +6,10 @@ title: データ列リファレンス
 feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 20a4ee51d0eace9cdcb5e0aeff5704b9a757a1eb
-workflow-type: ht
-source-wordcount: '3432'
-ht-degree: 100%
+source-git-commit: 0884c5a13fba7a22589e2962a4d79f4a6525dd8a
+workflow-type: tm+mt
+source-wordcount: '3445'
+ht-degree: 99%
 
 ---
 
@@ -101,11 +101,11 @@ ht-degree: 100%
 | `latlon1` | ロケーション（半径 10 km 以内） | varchar(255) |
 | `latlon23` | ロケーション（半径 100 m 以内） | varchar(255) |
 | `latlon45` | ロケーション（半径 1 m 以内） | varchar(255) |
-| `mc_audiences` | 訪問者が属している Audience Manager セグメント ID のリスト。 | テキスト |
+| `mc_audiences` | 訪問者が属している Audience Manager セグメント ID のリスト。この `post_mc_audiences` 列区切り文字を `--**--`. | テキスト |
 | `mcvisid` | Experience Cloud 訪問者 ID。2 つの 64 ビット数値を連結して 19 桁にパディングした 128 ビット数値です。 | varchar(255) |
 | `mobile_id` | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。 | int |
 | `mobileaction` | モバイルアクション。Mobile Services で `trackAction` が呼び出されると、自動的に収集されます。アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
-| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。 `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。  `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Apteligent データコネクタで使用されます。Apteligent で使用されるアプリケーション ID。 | varchar(255) |
 | `mobileappperformancecrashid` | Apteligent データコネクタで使用されます。Apteligent で使用されるクラッシュ ID。 | varchar(255) |
 | `mobileappstoreobjectid` | Appfigures データコネクタで使用されます。App Store オブジェクト ID。 | varchar(255) |
@@ -146,7 +146,7 @@ ht-degree: 100%
 | `mobilerelaunchcampaigntrackingcode` | コンテキストデータ変数 `a.launch.campaign.trackingcode` から収集します。キャンペーン立ち上げのトラッキングコードとして、獲得で使用します。 | varchar(255) |
 | `mobileresolution` | モバイルデバイスの解像度。`[Width] x [Height]` 画素数. | varchar(255) |
 | `monthly_visitor` | 当月の月別訪問者であることを示すフラグ。 | tinyint unsigned |
-| `mvvar1`～`mvvar3` | リスト変数値。実装に応じて、カスタム値の区切りリストを格納します。 | テキスト |
+| `mvvar1`～`mvvar3` | リスト変数値。実装に応じて、カスタム値の区切りリストを格納します。この `post_mvvar1` - `post_mvvar3` 列は元の区切り文字を次で置き換えます。 `--**--`. | テキスト |
 | `namespace` | 未使用。削除されたフィーチャの一部。 | varchar(50) |
 | `new_visit` | 現在のヒットが新しい訪問であるかどうかを指定するフラグ。訪問がアクティブでなくなった 30 分後にアドビのサーバーによって設定されます。 | tinyint unsigned |
 | `os` | 訪問者のオペレーティングシステムを表す数値 ID。`user_agent` 列に基づきます。`os` ルックアップを使用します。 | int unsigned |
