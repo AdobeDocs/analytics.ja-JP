@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して、1 時間ごとまたは毎日生データの書き出しを受け取ります。Data Warehouse を使用して、データのスプレッドシート出力を取得します。
-source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 98%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 100%
    + [FTP Passive モードを使用](ftp-and-sftp/ftp-passive.md)
    + [FTP 処理時間](ftp-and-sftp/ftp-processing.md)
    + セキュアファイル転送プロトコル {#secure-file-transfer-protocol}
+      + [SFTP サービスのアップグレード — FAQ](ftp-and-sftp/c-sftp/sftp-upgrade.md)
       + [セキュアファイル転送プロトコル - 概要](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [SFTP を使用したアドビの FTP アカウントへの接続](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [SFTP を使用した外部 FTP アカウントへのアドビデータの送信](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
