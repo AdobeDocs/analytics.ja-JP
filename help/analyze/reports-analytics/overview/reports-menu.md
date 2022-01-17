@@ -1,23 +1,23 @@
 ---
 description: Reports & Analytics のレポートメニューの概要を示します。
-title: レポートメニュー
+title: 'レポートメニュー '
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# レポートメニュー{#reports-menu}
+# レポートメニュー {#reports-menu}
 
 Reports &amp; Analytics のレポートメニューの概要を示します。
 
 >[!IMPORTANT]
->有効 **2023 年 12 月 31 日** Adobeは、Reports &amp; Analytics とそれに伴うレポートおよび機能を廃止する予定です。 その時点で、Reports &amp; Analytics とそのすべてのレポートとスケジュールは機能しなくなります。 Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、Adobeの技術標準を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace内で使用できます。 2015 年のAnalysis Workspaceのリリース以降、Reports &amp; Analytics の機能はAnalysis Workspaceに移行され、ワークフローパリティのしきい値に達しました。 この通知では、提供終了プロセスについて説明します。
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。 Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 レポートメニューでは、次の機能を提供します。
 
@@ -34,7 +34,7 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-個々のレポートについて詳しくは、 [Dimension](/help/components/dimensions/overview.md).
+個々のレポートについて詳しくは、[ディメンション](/help/components/dimensions/overview.md)を参照してください。
 
 ## レポートの検索 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -59,7 +59,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Experience Cloud ソリューションメニュー<img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Experience Cloud ソリューションメニュー <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> このアイコンをクリックすると、Experience Cloud メニューが展開し、他の Marketing Cloud ソリューションにアクセスできます。 </td> 
   </tr> 
   <tr> 
@@ -116,7 +116,7 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
   </tr> 
   <tr> 
    <td colname="col1">レポートスイートセレクター <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2"><a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ja"  >基本レポートスイート</a>または<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >仮想レポートスイート</a>を選択できます。 </td> 
+   <td colname="col2"><a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ja"  >基本レポートスイート</a>または<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja"  >仮想レポートスイート</a>を選択できます。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">カレンダー <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -127,4 +127,4 @@ Tab キーまたは下向き矢印（↓）を押してレポートのリスト�
 
 ## すべてのレポートメニューのカスタマイズ {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)」を参照してください。
+管理者はレポートメニューに含まれるレポートを変更することができます。管理ヘルプの「[メニューのカスタマイズ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=ja)」を参照してください。
