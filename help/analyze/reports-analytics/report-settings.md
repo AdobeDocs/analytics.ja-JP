@@ -5,9 +5,9 @@ uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1557'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 94%
 すべてのレポートの表示方法と、デフォルトのメニューオプションをシンプルメニュー内の各レポートの場所にマップする情報を定義する設定です。
 
 >[!IMPORTANT]
->有効 **2023 年 12 月 31 日** Adobeは、Reports &amp; Analytics とそれに伴うレポートおよび機能を廃止する予定です。 その時点で、Reports &amp; Analytics とそのすべてのレポートとスケジュールは機能しなくなります。 Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、Adobeの技術標準を満たさなくなりました。 Reports &amp; Analytics のほとんどの機能は、Analysis Workspace内で使用できます。 2015 年のAnalysis Workspaceのリリース以降、Reports &amp; Analytics の機能はAnalysis Workspaceに移行され、ワークフローパリティのしきい値に達しました。 この通知では、提供終了プロセスについて説明します。
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。 Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 ## レポートの表示設定とナビゲーション {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL レポート設定]**
+**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL すべてのコンポーネント]**／**[!UICONTROL レポート設定]**
 
 | 要素 | 説明 |
 |--- |--- |
