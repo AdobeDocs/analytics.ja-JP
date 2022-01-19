@@ -3,7 +3,7 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
+source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 97%
@@ -20,7 +20,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.22.4
 
-リリース日： **2022 年 1 月 12 日**
+リリース日： **2022 年 1 月 19 日**
 
 * リンクトラッキングコール `s.tl()` 渡されたオブジェクトに `href` タイプの属性 `string`. これが `string`そうすれば、無視されても問題なく無視されます。 `href` 属性を設定する必要があります。 これは、 `svg` オブジェクトをリンクトラッキングコールに追加します。
 
