@@ -3,10 +3,10 @@ description: データソースでは、標準的なサーバー呼び出しと�
 title: フル処理
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。アドビは、2021 年 7 月 31 日（PT）にフル処理データソースを非推奨にする予定です。 [詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobeでは、 [一括データ挿入 API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) フル処理のデータソースではなく、 Adobeは、2022 年 1 月 31 日にフル処理データソースを非推奨（廃止予定）となりました。 [詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 
@@ -67,8 +67,8 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
+   <td colname="col2"> <p>イベント </p> </td> 
+   <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=ja"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -116,7 +116,7 @@ ht-degree: 94%
   <tr> 
    <td colname="col1"> <p>製品 </p> </td> 
    <td colname="col2"> <p>製品 </p> </td> 
-   <td colname="col3"> <p>製品リスト（例：<code> "Sports;Ball;1;5.95"</code>）。 1行につき4096バイトの最大値を保持できます。</p> </td> 
+   <td colname="col3"> <p>製品リスト ( 例： <code> "Sports;Ball;1;5.95"</code>) をクリックします。 1 行につき最大 4096 バイトの値を保持できます。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 ～ prop75 </p> </td> 

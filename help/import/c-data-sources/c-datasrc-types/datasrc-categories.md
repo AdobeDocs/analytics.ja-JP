@@ -5,11 +5,10 @@ title: データのタイプとカテゴリの概要
 topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 91%
 
 ---
 
@@ -17,216 +16,64 @@ ht-degree: 100%
 
 データソースのカテゴリは、提供する機能の類似性に基づいて様々なデータソースのタイプを識別します。
 
-カテゴリによって、ユーザーの視点でデータソースをグループ分けすることができます。データソース UI からデータソースを作成する場合、まずデータソースのカテゴリを選択してから、データソースのタイプを指定します。各カテゴリに含まれるデータソースのタイプは、類似したタイプのデータをサポートしています。データソースには、次のようなデータソースのカテゴリがあります。
+カテゴリによって、ユーザーの視点でデータソースをグループ分けすることができます。を使用してデータソースを作成する場合 [!DNL Data Sources] UI で、まずデータソースのカテゴリを選択し、次に特定のデータソースタイプを選択します。 各カテゴリに含まれるデータソースのタイプは、類似したタイプのデータをサポートしています。[!DNL Data Sources] は次のデータソースカテゴリを提供します。
 
-## Web サイトの使用状況 {#section_4BA8D97B6BA848518F21760AE49F41D1}
+## Web サイトの使用状況 {#web-usage}
 
-<table id="table_2562E7A400214B8F9BB9177D210348F4"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>データソース </p> </th> 
-   <th colname="col2" class="entry"> <p>処理タイプ </p> </th> 
-   <th colname="col3" class="entry"> <p>説明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Web サーバーログファイル </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md"   >Web ログ </a> </p> </td> 
-   <td colname="col3"> <p>大部分の Web サーバーは、提供したすべてのページを記録するログファイルを生成しています。このデータソースを使用すると、大部分の Web サーバーデータからのログファイルを処理してレポートに追加することができます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Advertising Cloud のバルクアップロード </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>手動の、または Excel で自動化したバルクアップロードを Advertising Cloud で実行できます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>サイトレベルのトラフィックデータソース </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md"   >トラフィック</a> </p> </td> 
-   <td colname="col3"> <p>Web サイト全体のトラフィックデータをインポートします。例えば、ページビュー数です。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>分類トラフィックデータソース </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md"   >トラフィック</a> </p> </td> 
-   <td colname="col3"> <p>別の Web サイト変数で分類されたトラフィックデータをインポートします。例えば、製品別ページビュー数です。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| データソース | 処理タイプ | 説明 |
+| --- | --- | --- |
+| [!UICONTROL Web サーバーログファイル] | [Web ログ](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md) | 大部分の Web サーバーは、提供したすべてのページを記録するログファイルを生成しています。このデータソースを使用すると、大部分の Web サーバーデータからのログファイルを処理してレポートに追加することができます。 |
+| [!UICONTROL Advertising Cloud のバルクアップロード] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | 手動および Excel で自動化したバルクアップロードをで実行できます。 [!DNL Advertising Cloud]. |
+| [!UICONTROL サイトレベルのトラフィックデータソース] | [トラフィック](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Web サイト全体のトラフィックデータをインポートします。例： [!UICONTROL ページビュー数]. |
+| [!UICONTROL 分類トラフィックデータソース] | [トラフィック](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | 別の Web サイト変数で分類されたトラフィックデータをインポートします。例： [!UICONTROL ページビュー数] 次の項目で分類： [!UICONTROL 製品]. |
 
-## 広告キャンペーン {#section_9AE27E347CFC48F29E7C1134B6E928A6}
+## 広告キャンペーン {#ad-campaigns}
 
-<table id="table_2A297A86CC3E4B1E8B72389AA148549A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>データソース </p> </th> 
-   <th colname="col2" class="entry"> <p>処理タイプ </p> </th> 
-   <th colname="col3" class="entry"> <p>説明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>汎用広告サーバー </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>広告サーバーの広告アクティビティのインプレッションおよびその他のトップライン指標をマーケティングレポート内に組み込むことができます。これは汎用の広告サーバーデータソースであり、特定の広告サーバーがサポートされていない場合に使用します。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>汎用電子メールキャンペーンサーバー </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>電子メールキャンペーンサーバーにある指標をマーケティングレポート内に統合できます。 </p> <p>一般的に統合される指標は、送信されたメッセージ数、配信されたメッセージ数、読まれたメッセージ数などです。これは汎用の電子メールキャンペーンデータソースであり、特定の電子メールキャンペーンサーバーがサポートされていない場合に使用します。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>汎用ペイパークリックサービス </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p> インプレッション、クリック数、コストなど、ペイパークリックの実績に関するデータをインポートできます。 </p> <p>これは汎用のペイパークリックデータソースであり、特定のペイパークリックサービスがサポートされていない場合に使用します。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| データソース | 処理タイプ | 説明 |
+| --- | --- | --- |
+| [!UICONTROL 汎用広告サーバー] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | 広告サーバーの広告アクティビティのインプレッションおよびその他のトップライン指標をマーケティングレポート内に組み込むことができます。これは汎用の広告サーバーデータソースであり、特定の広告サーバーがサポートされていない場合に使用します。 |
+| [!UICONTROL 汎用電子メールキャンペーンサーバー] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | 電子メールキャンペーンサーバーにある指標をマーケティングレポート内に統合できます。一般的に統合される指標は、送信されたメッセージ数、配信されたメッセージ数、読まれたメッセージ数などです。これは汎用の電子メールキャンペーンデータソースであり、特定の電子メールキャンペーンサーバーがサポートされていない場合に使用します。 |
+| [!UICONTROL 汎用ペイパークリックサービス] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | インプレッション、クリック数、コストなど、ペイパークリックの実績に関するデータをインポートできます。これは汎用のペイパークリックデータソースであり、特定のペイパークリックサービスがサポートされていない場合に使用します。 |
 
-## 顧客関係管理（CRM）{#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
+## 顧客関係管理（CRM） {#crm}
 
-<table id="table_5895659CAB2C415AB2AA59A2E6C75AD1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>データソース </p> </th> 
-   <th colname="col2" class="entry"> <p>処理タイプ </p> </th> 
-   <th colname="col3" class="entry"> <p>説明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>汎用コールセンター </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>コールセンターに関する情報をマーケティングレポート内に組み込むことができます。比較的よくインポートされる指標として、通話回数、電話使用時間、エージェント名、合計販売額などがあります。 </p> <p>これは汎用のコールセンターデータソースであり、特定のコールセンターソフトウェアがサポートされていない場合に使用します。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> </p> <p>汎用顧客サポート </p> <p>アプリケーション </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>カスタマーサポートソフトウェアに関する情報をマーケティングレポート内に組み込むことができます。新規サポート件数、解決したサポート件数、およびサポート解決の所要時間などの指標が含まれます。 </p> <p>これは汎用の顧客サポートデータソースであり、特定の顧客サービスアプリケーションがサポートされていない場合に使用します。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| データソース | 処理タイプ | 説明 |
+| --- | --- | --- |
+| [!UICONTROL 汎用コールセンター] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | コールセンターに関する情報をマーケティングレポート内に組み込むことができます。比較的よくインポートされる指標として、通話回数、電話使用時間、エージェント名、合計販売額などがあります。これは汎用のコールセンターデータソースであり、特定のコールセンターソフトウェアがサポートされていない場合に使用します。 |
+| [!UICONTROL 汎用顧客サポート アプリケーション] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | カスタマーサポートソフトウェアに関する情報をマーケティングレポート内に組み込むことができます。新規サポート件数、解決したサポート件数、およびサポート解決の所要時間などの指標が含まれます。これは汎用の顧客サポートデータソースであり、特定の顧客サービスアプリケーションがサポートされていない場合に使用します。 |
 
-## 顧客満足度  {#section_1058CA3860044630B0B06EEDA261DBA2}
+## 顧客満足度 {#csat}
 
-<table id="table_3811CA1E2B7C45D7A0CBEC5CE44C11A8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>データソース </p> </th> 
-   <th colname="col2" class="entry"> <p>処理タイプ </p> </th> 
-   <th colname="col3" class="entry"> <p>説明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>汎用調査データ </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>サードパーティのツールから得た調査結果をマーケティングレポート内に組み込むことができます。これにより、サイトでの顧客のインタラクションを基に顧客の全体的な満足度がわかります。 </p> <p>これは汎用の調査データソースであり、特定の調査データサービスがサポートされていない場合に使用します。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| データソース | 処理タイプ | 説明 |
+| --- | --- | --- |
+| [!UICONTROL 汎用調査データ] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | サードパーティのツールから得た調査結果をマーケティングレポート内に組み込むことができます。これにより、サイトでの顧客のインタラクションを基に顧客の全体的な満足度がわかります。これは汎用の調査データソースであり、特定の調査データサービスがサポートされていない場合に使用します。 |
 
-## サイトのパフォーマンス  {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
+## サイトのパフォーマンス {#performance}
 
-<table id="table_7B623D08275E4FDEADDD85EA89A2B7C7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>データソース </p> </th> 
-   <th colname="col2" class="entry"> <p>処理タイプ </p> </th> 
-   <th colname="col3" class="entry"> <p>説明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>汎用サイトダウンロード速度 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>ダウンロードの速度を追跡するアプリケーションまたはサービスから得たデータを、利用しているデータに統合できます。 </p> <p>これは汎用のダウンロード速度データソースであり、特定のダウンロード速度測定ソフトウェアまたはサービスがサポートされていない場合に使用します。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| データソース | 処理タイプ | 説明 |
+| --- | --- | --- |
+| [!UICONTROL 汎用サイトダウンロード速度] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | ダウンロードの速度を追跡するアプリケーションまたはサービスから得たデータを、利用しているデータに統合できます。これは汎用のダウンロード速度データソースであり、特定のダウンロード速度測定ソフトウェアまたはサービスがサポートされていない場合に使用します。 |
 
-## 汎用  {#section_9B9A2A9871894B6491032AE1E961629A}
+## 汎用 {#generic}
 
-<table id="table_D63A6A00C93A4CD48FEBE7BC24E5DA9F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>データソース </p> </th> 
-   <th colname="col2" class="entry"> <p>処理タイプ </p> </th> 
-   <th colname="col3" class="entry"> <p>説明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> </p> <p>一般的なデータソース（サマリデータのみ） </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>このデータソースは、マーケティングレポートおよび Analytics にインポートするデータに近いタイプがない場合に使用します。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>一般的なデータソース（フル処理） </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > フル処理 </a> </p> </td> 
-   <td colname="col3"> <p>ログファイルのデータをインポートできます。このデータは、指定した時間にデータ収集サーバーで受信したかのように処理されます（各ヒットにタイムスタンプが付与されます）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> </p> <p>一般的なデータソース（トランザクション ID） </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > トランザクション ID </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > 訪問者 ID </a> </p> </td> 
-   <td colname="col3"> <p>任意のオフラインイベントをオンラインイベントに関連付けることができます。トランザクション ID は、オフラインイベントとオンラインイベント間のキーとして機能します。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| データソース | 処理タイプ | 説明 |
+| --- | --- | --- |
+| [!UICONTROL 一般的なデータソース（サマリデータのみ）] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | このデータソースは、マーケティングレポートおよび Analytics にインポートするデータに近いタイプがない場合に使用します。 |
+| [!UICONTROL 一般的なデータソース（フル処理）] | フル処理 | Adobeは、2022 年 1 月 31 日にフル処理データソースを非推奨（廃止予定）となりました。 [詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). Adobeでは、 [一括データ挿入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 代わりに、 |
+| [!UICONTROL 一般的なデータソース（トランザクション ID）] | <ul><li>トランザクション ID</li><li>訪問者 ID</li></ul> | 任意のオフラインイベントをオンラインイベントに関連付けることができます。この [!UICONTROL トランザクション ID] は、オフラインイベントとオンラインイベントの間のキーとして機能します。 |
 
-## オンライン購入 {#section_2B2D4DBB045548C3A5DC7DEF81BA56D1}
+## オンライン購入 {#purchases}
 
-<table id="table_EE450D955D4C4264A40142AF6D74F1AA"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>データソース </p> </th> 
-   <th colname="col2" class="entry"> <p>処理タイプ </p> </th> 
-   <th colname="col3" class="entry"> <p>説明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>製品戻り値 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>製品返却データをインポートして購入 ID に関連付けることによって、返品につながる可能性の高い検索エンジン、キーワード、キャンペーンなどの属性を特定することができます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>製品コスト </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>Web サイトから購入および発送された製品の実際のコストが得られます。コストまたは利益を各製品に関連付けることで、Web サイトで最も利益を上げたキャンペーン、キーワード、社内プロモーションに関して正確なレポートが得られるようになります。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>注文ステータス </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>指標を使用して、発注されたすべての注文のステータス（キャンセルされた注文、発送済みの注文、完了した注文、不正と見なされる注文など）を特定します。 </p> <p>注文ステータスレポートでは、注文完了率が最も高い獲得方法を特定できます。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| データソース | 処理タイプ | 説明 |
+| --- | --- | --- |
+| [!UICONTROL 製品の返却数] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | 製品返却データをインポートして購入 ID に関連付けることによって、返品につながる可能性の高い検索エンジン、キーワード、キャンペーンなどの属性を特定することができます。 |
+| [!UICONTROL 製品コスト] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Web サイトから購入および発送された製品の実際のコストが得られます。コストまたは利益を各製品に関連付けることで、Web サイトで最も利益を上げたキャンペーン、キーワード、社内プロモーションに関して正確なレポートが得られるようになります。 |
+| [!UICONTROL 注文ステータス] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | 指標を使用して、発注されたすべての注文のステータス（キャンセルされた注文、発送済みの注文、完了した注文、不正と見なされる注文など）を特定します。注文ステータスレポートでは、注文完了率が最も高い獲得方法を特定できます。 |
 
-## リード数と見積もり数  {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
+## リード数と見積もり数 {#leads}
 
-<table id="table_85B095414F6C4644A191A94AC0CAD13D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>データソース </p> </th> 
-   <th colname="col2" class="entry"> <p>処理タイプ </p> </th> 
-   <th colname="col3" class="entry"> <p>説明 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>リードジェネレーション </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>Web サイトで発生したすべてのリードについて、実際に発生した売上高を含む、リード数の結果に関する情報をアップロードできます。 </p> <p>売上高をリード ID に正確に関連付けることで、最も利益を上げたキャンペーンとプロモーションを特定できます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>オンラインの見積もり </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>Web サイトで発生したすべてのリードについて、実際に発生した売上高を含む、リード数の結果に関する情報をアップロードできます。 </p> <p>売上高をリード ID に正確に関連付けることで、最も利益を上げたキャンペーンとプロモーションを特定できます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>コールセンターデータ </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   >コンバージョン</a> </p> </td> 
-   <td colname="col3"> <p>コールセンタートランザクションをアップロードして、顧客の電話に結びついた方策（キャンペーンやプロモーションなど）を特定できます。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| データソース | 処理タイプ | 説明 |
+| --- | --- | --- |
+| [!UICONTROL リードジェネレーション] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Web サイトで発生したすべてのリードについて、実際に発生した売上高を含む、リード数の結果に関する情報をアップロードできます。売上高をリード ID に正確に関連付けることで、最も利益を上げたキャンペーンとプロモーションを特定できます。 |
+| [!UICONTROL オンラインの見積もり] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Web サイトで発生したすべてのリードについて、実際に発生した売上高を含む、リード数の結果に関する情報をアップロードできます。売上高をリード ID に正確に関連付けることで、最も利益を上げたキャンペーンとプロモーションを特定できます。 |
+| [!UICONTROL コールセンターデータ] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | コールセンタートランザクションをアップロードして、顧客の電話に結びついた方策（キャンペーンやプロモーションなど）を特定できます。 |
