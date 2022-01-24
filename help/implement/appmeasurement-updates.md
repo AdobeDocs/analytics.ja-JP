@@ -6,7 +6,7 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2267'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.22.4
 
-リリース日： **2022 年 1 月 19 日**
+リリース日：**2022年1月18日（PT）**
 
 * リンクトラッキングコール `s.tl()` 渡されたオブジェクトに `href` タイプの属性 `string`. これが `string`そうすれば、無視されても問題なく無視されます。 `href` 属性を設定する必要があります。 これは、 `svg` オブジェクトをリンクトラッキングコールに追加します。
 
@@ -359,7 +359,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 ## バージョン 1.4.2
 
-リリース日：**2015 年 1 月 16 日**
+リリース日：**2015年1月15日（PT）**
 
 * 非表示のプリレンダリングページを追跡していなかった WebKit プリレンダリング処理を修正しました。
 * 配布 zip を更新して Visitor API 1.3.4 を含めました。同梱の最新の **[!UICONTROL AudienceManagement]** モジュールには DIL バージョン 5.5 が含まれています。
