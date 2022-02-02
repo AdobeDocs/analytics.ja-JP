@@ -2,10 +2,10 @@
 title: Analytics ツールの製品プロファイル権限
 description: Analytics ツールの権限の項目を使用して、Adobe Analytics 内の機能へのアクセス権を付与します。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 98%
 
 ---
 
@@ -41,6 +41,6 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | [!UICONTROL セグメントの作成] | すべての Analytics 機能でセグメントを作成および共有する機能を付与します。 |
 | [!UICONTROL Advertising Analytics 管理] | 未使用。 |
 | [!UICONTROL セグメント公開] | セグメントの作成時または編集時に、セグメントを Experience Cloud オーディエンスにする機能を付与します。 |
-| [!UICONTROL 統合 (作成)] | 管理者／すべての管理者／Data Connectors へのアクセス権を付与し、ユーザーが Data Connectors を作成できるようにします。 |
-| [!UICONTROL 統合 (更新)] | 管理者／すべての管理者／Data Connectors へのアクセス権を付与し、ユーザーが既存のコネクタ設定を変更できるようにします。 |
-| [!UICONTROL 統合 (削除)] | 管理者／すべての管理者／Data Connectors へのアクセス権を付与し、ユーザーが Data Connectors を削除できるようにします。 |
+| [!UICONTROL 統合 (作成)] | 未使用。Data Connectors の提供が終了しました。 |
+| [!UICONTROL 統合 (更新)] | 未使用。 |
+| [!UICONTROL 統合 (削除)] | 未使用。 |

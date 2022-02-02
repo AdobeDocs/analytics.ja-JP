@@ -2,13 +2,13 @@
 description: Analysis Workspace で使用できるキーボード操作、ショートカットキー、ポイント＆クリックの動作です。
 keywords: Analysis Workspace
 title: ホットキー（ショートカット）
-feature: Workspace の基本
+feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 97%
 
 ---
 
@@ -40,6 +40,7 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 | --- | --- |
 | 左パネルを検索 | Ctrl+/ |
 | アラートの作成 | Ctrl + Shift + A |
+| 注釈の作成 | ctrl + shift + o |
 | 計算指標を作成 | Ctrl + Shift + C |
 | 日付範囲を作成 | Ctrl + Shift + D |
 | セグメントの作成 | Ctrl + Shift + E |
