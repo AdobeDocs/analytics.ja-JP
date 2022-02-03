@@ -3,10 +3,10 @@ title: 注釈：概要
 description: Workspace での注釈の使用方法です。
 role: User, Admin
 solution: Analytics
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -36,26 +36,6 @@ ht-degree: 4%
 
 ただし、管理者は [!UICONTROL 注釈の作成] 権限（Analytics ツール）を [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
 
-## 注釈の表示
-
-注釈は、様々な方法で表示できます。内 [!UICONTROL 線] ビジュアライゼーション（トレンドデータなので） [!UICONTROL フリーフォーム] テーブル、 [!UICONTROL 棒グラフ] グラフ、または書き出された.pdf ファイル。
-
-### 行のビジュアライゼーション
-
-後を追う
-
-### フリーフォームテーブル
-
-後を追う
-
-### 棒グラフ
-
-後を追う
-
-### PDFファイル
-
-後を追う
-
 ## 注釈のオン/オフの切り替え
 
 注釈は、複数のレベルでオン/オフを切り替えることができます。
@@ -66,3 +46,6 @@ ht-degree: 4%
 
 * ユーザーレベルで、 [!UICONTROL コンポーネント] > [!UICONTROL ユーザーの環境設定] > [!UICONTROL データ] > [!UICONTROL 注釈を表示]
 
+![](assets/show-ann.png)
+
+![](assets/show-ann2.png)
