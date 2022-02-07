@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 product: analytics
 solution: Analytics
-git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.ja-JP
+git-repo: https://github.com/AdobeDocs/analytics.ja-JP
 type: Documentation
 index: true
 feature-set: Analytics
