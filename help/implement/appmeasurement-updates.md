@@ -6,7 +6,7 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2267'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 リリース日：**2022年1月18日（PT）**
 
-* リンクトラッキングコール `s.tl()` 渡されたオブジェクトに `href` タイプの属性 `string`. これが `string`そうすれば、無視されても問題なく無視されます。 `href` 属性を設定する必要があります。 これは、 `svg` オブジェクトをリンクトラッキングコールに追加します。
+* リンクトラッキング呼び出し `s.tl()` で、渡されたオブジェクトに `string` タイプの `href` 属性が含まれていることを確認するようになりました。`string` でない場合は、失敗せずに `href` 属性が適切に無視されます。これは、`svg` オブジェクトをリンクトラッキング呼び出しに渡すときに発生する可能性があります。
 
 ## バージョン 2.22.3
 
