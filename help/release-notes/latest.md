@@ -1,15 +1,19 @@
 ---
 title: 現在のAdobe Analyticsリリースノートを表示
 description: 最新の Analytics リリースノート
-source-git-commit: f8c2d98e49ead838781b175aa9f22712d6802a9d
+source-git-commit: e19299820a03783215d8425b937a0935311d9e7b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 98%
 
 ---
 
 
 # 最新のAdobe Analyticsリリースノート
+
+**2022年1月**
+
+[Adobe Experience Cloud 製品](https://business.adobe.com/jp/products/adobe-experience-cloud-products.html) の最新のリリース更新について説明します。Experience League に関する最新のセルフヘルプドキュメント、チュートリアル、コースを入手します。
 
 ## Adobe Analytics の新機能 {#aa-features}
 
