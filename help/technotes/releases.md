@@ -1,17 +1,17 @@
 ---
-description: Adobe Analytics の新しい継続的な機能リリース戦略を説明します。
+description: Adobe Analyticsの継続的な機能リリース戦略を説明します
 title: Adobe Analytics 機能リリース
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 492f2333d07d887ce89d549306b05ee0df02fe90
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 92%
 
 ---
 
 # Adobe Analytics 機能リリース
 
-これまで、Adobe Analytics の機能リリースは、毎月の固定スケジュールに従っていました。2020 年 4 月より、Adobe Analytics は、機能のデプロイメントに向けて、よりスケーラブルで段階的なアプローチを可能にする、継続的な配信モデルに移行しました。
+Adobe Analyticsリリースは、機能のデプロイメントに向けて、よりスケーラブルで段階的なアプローチを可能にする、継続的な配信モデルで動作します。
 
 ## リリース方法
 
