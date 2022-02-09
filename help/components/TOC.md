@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 99%
 
 ---
 
 
-# [!DNL Analytics] コンポーネントガイド {#components}
+# [!DNL Adobe Analytics] コンポーネントガイド {#components}
 
 + [Analytics コンポーネントガイド](home.md)
++ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + ディメンション {#dimensions}
    + [ディメンションの概要](dimensions/overview.md)
    + [ディメンションの互換性](dimensions/compatibility.md)
@@ -129,7 +130,7 @@ ht-degree: 100%
    + [ページビュー数](metrics/page-views.md)
    + [エラーページ（404）](metrics/pages-not-found.md)
    + [PeopleExperience Cloud ID を持つ](metrics/people-with-exp-cloud-id.md)
-   + [People](metrics/people.md)
+   + [人](metrics/people.md)
    + [製品表示](metrics/product-views.md)
    + [リロード回数](metrics/reloads.md)
    + [売上高](metrics/revenue.md)

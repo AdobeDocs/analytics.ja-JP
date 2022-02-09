@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
 user-guide-description: データフィードを使用して、1 時間ごとまたは毎日生データの書き出しを受け取ります。Data Warehouse を使用して、データのスプレッドシート出力を取得します。
-source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 96%
 
 ---
 
 
-# Analytics 書き出しガイド {#export}
+# Adobe Analytics Export Guide {#export}
 
 + [Analytics 書き出しガイド](home.md)
++ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics データフィード {#analytics-data-feed}
    + [データフィードの概要](analytics-data-feed/data-feed-overview.md)
    + [データフィードの作成または編集](analytics-data-feed/create-feed.md)

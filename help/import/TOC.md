@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics インポートガイド
 breadcrumb-title: インポートガイド
 user-guide-description: '一括またはリアルタイムで、外部のソースから Analytics にデータを取り込みます。 '
-source-git-commit: a9d0cc251e8902f3c9c3cd9c31cbc71ae6ee20e9
-workflow-type: ht
-source-wordcount: '126'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 92%
 
 ---
 
 
-# Analytics インポートガイド {#import}
+# Adobe Analytics Import Guide {#import}
 
 + [Analytics インポートガイド](home.md)
++ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + データソース {#data-sources}
    + [データソースの概要](c-data-sources/datasrc-home.md)
    + [データソースの仕組み](c-data-sources/datasrc-how-data-sources-works.md)
