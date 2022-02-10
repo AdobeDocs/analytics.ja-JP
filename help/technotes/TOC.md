@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の分析ツールやコンポーネントに属さない有益な記事を含むナレッジベース。
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
-source-wordcount: '200'
+source-git-commit: fac5627cec2a398aaca8272fefe8497fbb8fb315
+workflow-type: tm+mt
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 100%
 # Analytics テクニカルノート {#technotes}
 
 + [Analytics テクニカルノート](home.md)
-+ [ドキュメントの更新](doc-updates.md)
 + Adobe Analytics for Google Analytics ユーザー {#ga-to-aa}
    + [Adobe Analytics for Google Analytics ユーザーヘルプ](ga-to-aa/home.md)
    + [アカウントとレポートスイート](ga-to-aa/accounts.md)
@@ -44,7 +43,6 @@ ht-degree: 100%
    + [ブラウザーの cookie 制限の影響を軽減するオプション](cookies/cookieless.md)
 + [リスニングデータの保持期間](data-retention.md)
 + [データの除外](exclude-data.md)
-+ [機能リリース](releases.md)
 + [Adobe Analytics が使用する IP とドメイン](ip-addresses.md)
 + [遅延](latency.md)
 + [低トラフィック値](low-traffic.md)

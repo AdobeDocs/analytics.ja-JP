@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics リリースノート
 breadcrumb-title: リリースノート
 user-guide-description: 新機能とバグ修正の説明の一覧です。
-source-git-commit: 4ccda7057df7543125be8c69e92aed6c45aed80f
+source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 29%
+source-wordcount: '39'
+ht-degree: 30%
 
 ---
 
@@ -20,3 +20,5 @@ ht-degree: 29%
    + [2021 年リリースノート](2021.md)
    + [2020 年リリースノート](2020.md)
    + [2019 年リリースノート](2019-earlier.md)
++ [ドキュメントの更新](doc-updates.md)
++ [Analytics 機能リリース](releases.md)

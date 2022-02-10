@@ -5,7 +5,7 @@ title: Analysis Workspace の新機能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
+source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
 workflow-type: tm+mt
 source-wordcount: '8286'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Analysis Workspace の新機能
 
 >[!IMPORTANT]
->Analysis Workspace の更新が [Adobe Analytics ドキュメントの更新](/help/technotes/doc-updates.md)ページに展開されました。
+>Analysis Workspace の更新が [Adobe Analytics ドキュメントの更新](/help/release-notes/doc-updates.md)ページに展開されました。
 
 包括的な製品のアップデートについては、 [Adobe Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) を参照してください。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 | 機能 | ターゲット日 | 説明 |
 | --- | --- | --- |
-| [!UICONTROL コンポーネント]／[!UICONTROL ユーザー環境設定] | 2021 年 3 月 25 日（PT） | [!UICONTROL コンポーネント]／[!UICONTROL ユーザー環境設定]ページでは、[!UICONTROL Analysis Workspace] 設定（およびユーザー向けの関連するコンポーネント）を管理できます。[!UICONTROL ユーザー環境設定]は、すべての新しいプロジェクトおよびパネルに適用されます。<br>**注意：** 次の設定は、[!UICONTROL ユーザー環境設定]ページに移動しました。<ul><li>レポート設定：3 桁ごとの区切り記号（現在は&#x200B;_数値形式_&#x200B;と呼ばれる）</li><li>レポート設定：CSV 区切り記号</li><li>Workspace プロジェクト：ヘルプ／ヒントを有効にする</li><li>Workspace プロジェクト：空のパネル「_このパネルを使用して新しいプロジェクトを開始_」オプション</li></ul> |
+| [!UICONTROL コンポーネント]／[!UICONTROL ユーザー環境設定] | 2021 年 3 月 25 日（PT） | [!UICONTROL コンポーネント]／[!UICONTROL ユーザー環境設定]ページでは、[!UICONTROL Analysis Workspace] 設定（およびユーザー向けの関連するコンポーネント）を管理できます。[!UICONTROL ユーザー環境設定]は、すべての新しいプロジェクトおよびパネルに適用されます。<br>**注意：** 次の設定は、[!UICONTROL ユーザー環境設定]ページに移動しました。<ul><li>レポート設定：3 桁ごとの区切り記号（現在は&#x200B;_数値形式_&#x200B;と呼ばれる）</li><li>レポート設定：CSV 区切り記号</li><li>ワークスペースプロジェクト：ヘルプ／ヒントを有効にする</li><li>ワークスペースプロジェクト：空のパネル「_このパネルを使用して新しいプロジェクトを開始_」オプション</li></ul> |
 | [!UICONTROL ヒストグラムスマートバケット予測] | 2021 年 3 月 25 日（PT） | [!UICONTROL ヒストグラムスマートバケット予測]は、データ分散に使用するバケットの正しい幅と数を自動的に識別することで、カーディナリティ指標の高いヒストグラムの処理に役立ちます。低カーディナリティ指標の場合、ビジュアライゼーションは以前と同じように動作します。 |
 
 ## 2021 年 2 月
@@ -51,7 +51,7 @@ ht-degree: 100%
 | 機能 | 説明 |
 | --- | --- |
 | [単一のディメンションに対して 50,000 個の項目をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja#download-items) | セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
-| [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>[!UICONTROL 線]の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
+| [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>[!UICONTROL 線] の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
 | 新しい日付範囲 | 5 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲（過去 7 日間、過去 14 日間、過去 30 日間、過去 60 日間、過去 90 日間）から選択できます。 |
 
 ## 2020 年 8 月
@@ -106,7 +106,7 @@ ht-degree: 100%
 | 機能 | 説明 |
 |--- |--- |
 | Workspace での複数のレポートスイートのサポート | 複数のレポートスイートのデータを単一のプロジェクトに取り込み、並べて表示できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=ja) |
-| トレーニングチュートリアルテンプレート | この新しい標準テンプレートでは、Workspace で最初の分析を作成するための一般的な用語と手順を順に説明します。これは、「新規プロジェクト」モーダルの標準テンプレートとして使用でき、リストに他のプロジェクトがない新規ユーザー向けにある、サンプルプロジェクトを置き換えます。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| トレーニングチュートリアルテンプレート | この新しい標準テンプレートでは、Workspace で最初の分析を作成するための一般的な用語と手順を順に説明します。これは、「新規プロジェクト」モーダルの標準テンプレートとして利用可能であり、リストに他のプロジェクトがない新規ユーザーのために現在用意されているサンプルプロジェクトの代わりになるものです。[詳細情報...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 | 機能 | 説明 |
 |--- |--- |
-| [フリーフォームテーブルビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja) | Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新がおこなわれ、どのテーブルを作成したいかがわかると時間を節約することができます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、Workspace で適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
+| [フリーフォームテーブルビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja) | Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新がおこなわれ、どのテーブルを作成したいかがわかると時間を節約することができます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、ワークスペースで適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
 
 ## 2019 年 10 月
 
