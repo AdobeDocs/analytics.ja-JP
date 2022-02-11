@@ -2,10 +2,10 @@
 title: 現在のAdobe Analyticsリリースノートを表示
 description: 最新の Analytics リリースノート
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
+source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 60%
+source-wordcount: '653'
+ht-degree: 59%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 60%
 
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
-| モバイルスコアカードプロジェクトのプレビューモード | Analytics ダッシュボードアプリでのモバイルスコアカードの表示方法を、スコアカードビルダーから直接開始します。 プレビューモードを使用すると、ユーザーはアプリ内と同じ方法でフィルターやグラフを操作でき、スコアカードを保存および共有する前にエクスペリエンスをプレビューできます。 また、デバイスピッカーをプレビューモードで使用して、様々なデバイスでのスコアカードの表示を確認することもできます。 | 2022年2月16日（PT） |
+| モバイルスコアカードプロジェクトのプレビューモード | Analytics ダッシュボードアプリでのモバイルスコアカードの表示方法を、スコアカードビルダーから直接開始します。 プレビューモードを使用すると、ユーザーはアプリ内と同じ方法でフィルターやグラフを操作でき、スコアカードを保存および共有する前にエクスペリエンスをプレビューできます。 また、デバイスピッカーをプレビューモードで使用して、様々なデバイスでのスコアカードの表示を確認することもできます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 2022年2月16日（PT） |
 
 {style=&quot;table-layout:auto&quot;}
 
