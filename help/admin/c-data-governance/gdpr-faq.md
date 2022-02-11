@@ -3,10 +3,10 @@ description: Adobe Analytics のデータガバナンスに関する FAQ
 title: よくある質問
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics は、お客様（データ管理者）によって認められたエンドユーザー（データ主体）のアクセス要求および削除要求をどのようにサポートしますか？</b> </p> </td> 
-   <td colname="col2"> <p>様々なデータプライバシー規則（GDPR、CCPA）が発効すると、Adobe Analytics は、より自動化されたプロセスを可能にするために、データ管理者によって Experience Cloud データプライバシー API に送信された、検証済み要求の処理をサポートします。アドビのデータプライバシー API は、Adobe Experience Cloud ソリューションに保存されたお客様のデータに対する個人の権利に基づく要求（例えば、アクセス要求および削除要求）を処理するのを支援するように設計されています。データ主体から企業が受け取ったデータアクセスおよび削除要求の数に応じた柔軟性とスケーラビリティがあります。また、データプライバシー API を使用すると、お客様はどのようにデータアクセスおよび削除要求が実行されているかに関するステータスをチェックできます。 </p> <p>詳しくは、<a href="https://www.adobe.io/apis/cloudplatform/gdpr.html">データプライバシー API のドキュメント</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>様々なデータプライバシー規則（GDPR、CCPA）が発効すると、Adobe Analytics は、より自動化されたプロセスを可能にするために、データ管理者によって Experience Cloud データプライバシー API に送信された、検証済み要求の処理をサポートします。アドビのデータプライバシー API は、Adobe Experience Cloud ソリューションに保存されたお客様のデータに対する個人の権利に基づく要求（例えば、アクセス要求および削除要求）を処理するのを支援するように設計されています。データ主体から企業が受け取ったデータアクセスおよび削除要求の数に応じた柔軟性とスケーラビリティがあります。また、Privacy ServiceAPI を使用すると、お客様は、データアクセスおよび削除の要求がどのように実行されているかに関するステータスを確認できます。 </p> <p>詳しくは、 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Privacy ServiceAPI ドキュメント。 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>エンドユーザーからの データプライバシー要求の受信、承認および実行に対して責任を負うのは誰ですか？</b> </p> </td> 
