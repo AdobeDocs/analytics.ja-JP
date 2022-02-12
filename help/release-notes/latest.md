@@ -1,11 +1,11 @@
 ---
-title: 現在のAdobe Analyticsリリースノートを表示
-description: 最新の Analytics リリースノート
+title: 最新の Analytics リリースノート
+description: 最新のAdobe Analyticsリリースノートを表示します。
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
+source-git-commit: 511e3f4c621137d76b40fcc04ea849a0bba9e3fa
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 59%
+source-wordcount: '676'
+ht-degree: 58%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 59%
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
 | モバイルスコアカードプロジェクトのプレビューモード | Analytics ダッシュボードアプリでのモバイルスコアカードの表示方法を、スコアカードビルダーから直接開始します。 プレビューモードを使用すると、ユーザーはアプリ内と同じ方法でフィルターやグラフを操作でき、スコアカードを保存および共有する前にエクスペリエンスをプレビューできます。 また、デバイスピッカーをプレビューモードで使用して、様々なデバイスでのスコアカードの表示を確認することもできます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 2022年2月16日（PT） |
+| API プロジェクトエンドポイント | API を使用して、Analysis Workspaceプロジェクトを追加、編集または削除します。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 2022 年 2 月 2 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,11 +36,9 @@ ht-degree: 59%
 * レポート時間が遅かった問題を修正しました。 （AN-280055）
 * 分類で、すべてのディメンション項目が分類されない問題を修正しました。 （AN-280031）
 
-
 ### Adobe Analytics におけるその他の修正点
 
 AN-268093、AN-273820、AN-274435、AN-274904、AN-275356、AN-276160、AN-276258、AN-276705、AN-277051、AN-277957、AN-278693、AN-AN-279046、AN-AN-AN-AN-278882AN AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-ANANANANANANANANANANANANANANANANANAN-ANAN-ANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANANAN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN-AN
-
 
 ## [!DNL Analytics] 管理者向けの重要な注意事項 
 
@@ -55,4 +54,3 @@ AppMeasurement リリース（バージョン 2.22.4）の最新のアップデ�
 
 >[!MORELIKETHIS]
 >[[!DNL Customer Journey Analytics]  リリースノート](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
-
