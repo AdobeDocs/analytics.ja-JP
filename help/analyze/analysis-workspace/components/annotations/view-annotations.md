@@ -2,13 +2,13 @@
 title: 注釈の表示
 description: Workspace で注釈を表示する方法。
 role: User, Admin
-source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
+exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
+source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 6%
 
 ---
-
 
 # 注釈の表示
 
@@ -34,3 +34,9 @@ ht-degree: 5%
 .pdf ファイル内のアイコンの上にマウスポインターを置くことができないので、このファイルは（書き出し後に）パネルの下部に説明のメモを表示します。 次に例を示します。
 
 ![](assets/ann-pdf.png)
+
+## 日付に基づいていない注釈を表示
+
+注釈は、日付に関連付けられず、特定のディメンションに関連付けられる場合があります。 その場合、それらは右下隅の概要注釈にのみ表示されます。 次に例を示します。
+
+![](assets/non-date.png)
