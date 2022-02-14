@@ -5,10 +5,10 @@ title: Analysis Workspace の新機能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+source-git-commit: c818db35524d6c0d416ee2560943526f19842c5e
 workflow-type: tm+mt
-source-wordcount: '8286'
-ht-degree: 100%
+source-wordcount: '8276'
+ht-degree: 99%
 
 ---
 
@@ -548,7 +548,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢献度分析：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ja"  > トークン通知 </a> </p> </td> 
-   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。  </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、<span class="uicontrol">Analytics</span>／<span class="uicontrol">管理者</span>／<span class="uicontrol">すべての管理者</span>／<span class="uicontrol">User Management</span>／<span class="uicontrol">グループの編集</span>／<span class="uicontrol">すべてのレポートアクセスを編集</span>／<span class="uicontrol">レポートスイートツールをカスタマイズ</span>／<span class="uicontrol">ツールとレポート</span>では「異常値検出と貢献度分析」と呼ばれています。） </p> </td> 
+   <td colname="col2"> <p>貢献度分析トークンの数が制限されている場合、トークンを消費したときに Analysis Workspace の UI に通知が表示されるようになりました。これにより、残りのトークン数を把握できます。 </p> <p>（管理者ユーザーは、グループ権限を編集することにより、トークンの使用者を制限できます。この権限は、以下では「異常値検出と貢献度分析」と呼ばれています。 <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> 管理者 </span> &gt; <span class="uicontrol"> すべての管理者 </span>  &gt; <span class="uicontrol"> ユーザー管理 </span>&gt; <span class="uicontrol"> グループの編集 </span> &gt; <span class="uicontrol"> 全レポートアクセスの編集 </span> &gt; <span class="uicontrol"> レポートスイートツールのカスタマイズ </span> &gt; <span class="uicontrol"> ツールとレポート </span>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>マルチバイト文字を含む CSV ファイル </p> </td> 
@@ -598,7 +598,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > マップのビジュアライゼーション </a> </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace での新しいマップのビジュアライゼーションでは、位置データを持つ顧客インタラクションを簡単にビジュアライズできます。マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Mobile SDK を使用しているお客様の場合は緯度と経度のデータを Analysis Workspace に取り込んだりできます。  </p> </td> 
+   <td colname="col2"> <p>新しいマップのビジュアライゼーションを使用すると、位置データを持つ顧客インタラクションを簡単に表示できます。 マクロ（グローバル）ビューからミクロ（市区町村）ビューまで、ビジュアライゼーションの様々な階層レベルを簡単にズームインおよびズームアウトして、複数の地域にわたるデータを確認できます。 </p> <p>非モバイルデータセットの場合は IP アドレスを使用して位置データを視覚化したり、Analysis Workspaceで緯度と経度のデータ（Mobile SDK を使用するお客様の場合）を有効にしたりできます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > トレンドビジュアライゼーションの精度セレクター </a> </p> </td> 
