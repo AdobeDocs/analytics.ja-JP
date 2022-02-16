@@ -1,14 +1,13 @@
 ---
 description: インテリジェントアラートの使用例。
 title: インテリジェントアラート - 使用例
-uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-feature: AI ツール
+feature: Alerts
 role: User, Admin
 exl-id: a03312ff-47df-451c-9dfa-0597b3a183cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '91'
-ht-degree: 100%
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

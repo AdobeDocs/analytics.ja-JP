@@ -1,14 +1,13 @@
 ---
 description: 基本的な Report Builder データリクエストを作成する手順です。
 title: データリクエストの作成
-uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

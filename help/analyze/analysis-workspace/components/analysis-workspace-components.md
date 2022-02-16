@@ -1,13 +1,13 @@
 ---
 description: 'Analysis Workspace のコンポーネントは、プロジェクトにドラッグ＆ドロップできるディメンション、指標、セグメント、および日付範囲で構成されています。 '
 title: コンポーネントの概要
-feature: Workspace Basics
+feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Analysis Workspace のコンポーネントは、プロジェクトにドラッ�
 
 [**セグメント**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=ja)は、分析に適用するオーディエンスフィルターです。 これらは左側のコンポーネントレール（青いセクション）にあり、通常はパネルの上部または表の指標列の上に適用されます。
 
-セグメントの例としては、[!UICONTROL モバイルデバイス訪問者]、[!UICONTROL 電子メールからの訪問]、および[!UICONTROL 認証済みヒット]があります。 セグメントはアドビから提供されるか、[パネルドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)で作成、または[セグメントビルダー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja)を使用して作成します。
+セグメントの例としては、[!UICONTROL モバイルデバイス訪問者]、[!UICONTROL 電子メールからの訪問]、および[!UICONTROL 認証済みヒット]があります。 セグメントはアドビから提供されるか、[パネルドロップゾーン](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)で作成、または[セグメントビルダー](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ja)を使用して作成します。
 
 ![](assets/segments.png)
 
@@ -53,7 +53,7 @@ Analysis Workspace のコンポーネントは、プロジェクトにドラッ�
 
 [**日付範囲**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=ja)は、分析を実行する日付の範囲です。 これらは左側のコンポーネントレール（紫のセクション）にあり、通常は各パネルのカレンダーに適用されます。
 
-日付範囲の例としては、2019 年 7 月、[!UICONTROL 過去 4 週間]、[!UICONTROL 今月]などがあります。 日付範囲はアドビが提供するか、[パネルのカレンダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)に適用されるか、[日付範囲ビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ja)を使用して作成します。
+日付範囲の例としては、2019 年 7 月、[!UICONTROL 過去 4 週間]、[!UICONTROL 今月]などがあります。 日付範囲はアドビが提供するか、[パネルのカレンダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)に適用されるか、[日付範囲ビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=ja)を使用して作成します。
 
 ![](assets/date-ranges.png)
 

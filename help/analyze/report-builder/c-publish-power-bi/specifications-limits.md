@@ -1,13 +1,12 @@
 ---
-description: Report BuilderとMicrosoftPower BIの使用に関する制限
+description: Report BuilderとMicrosoftPower BIを使用する際の制限事項
 title: 制限および仕様
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '624'
 ht-degree: 94%
 
 ---
@@ -70,5 +69,5 @@ Power BI に発行した後に Report Builder リクエストを編集すると�
 次の点に注意してください。
 
 * ラベルは、行および列のアドレスと間違えられる可能性がある文字と数字の組み合わせにすることはできません。例えば、A100 をラベルにすることはできません。これは、ワークシート内のセルのアドレスだからです。
-* 次の文字は、ラベル文字として有効ではありません：`'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;と`'~', ' '`が表示されます。 アンダースコア文字に置き換えられます。
+* 次の文字は、ラベル文字として有効ではありません： `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;および `'~', ' '` . アンダースコア文字に置き換えられます。
 * 無効な名前を入力すると、警告メッセージが表示され、自動生成された名前の候補が提示されます。「**[!UICONTROL はい]**」をクリックすると、その名前が使用されます。「**[!UICONTROL いいえ]**」をクリックすると、詳細ウィザード UI で新しい名前を入力できます。

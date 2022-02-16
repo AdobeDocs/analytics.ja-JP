@@ -1,15 +1,15 @@
 ---
 description: Analysis Workspace でクイックセグメントを使用します。
 title: クイックセグメント
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
-source-git-commit: 533c58f3bcc3974dafab1d6b7dd3e239ad80831b
-workflow-type: ht
-source-wordcount: '798'
-ht-degree: 100%
+exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # クイックセグメント
 
@@ -43,10 +43,10 @@ ht-degree: 100%
 | --- | --- |
 | 名前 | セグメントのデフォルト名は、セグメント内のルール名の組み合わせです。セグメントの名前は変更できます。 |
 | 含む／除く | セグメント定義にコンポーネントを含めるか除外することはできますが、両方に対応していません。 |
-| ヒット／訪問／訪問者コンテナ | クイックセグメントには、ディメンション／指標／日付範囲をセグメントに含める（またはセグメントから除外する）ことができる[セグメントコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=ja#section_AF2A28BE92474DB386AE85743C71B2D6)が 1 つだけ含まれます。[!UICONTROL 訪問者]には、訪問およびページビュー全体で訪問者に固有の包括的なデータが含まれます。[!UICONTROL 訪問]コンテナでは、訪問者のデータを訪問に基づいて分類するルールを設定でき、[!UICONTROL ヒット]コンテナでは、訪問者情報を個々のページビューに基づいて分類できます。デフォルトのコンテナは[!UICONTROL ヒット]です。 |
-| コンポーネント（ディメンション／指標／日付範囲） | コンポーネント（ディメンション／指標／日付範囲）とその値を追加して、最大 3 つのルールを定義できます。適切なコンポーネントを見つける方法は 3 つあります。<ul><li>入力を開始すると、[!UICONTROL クイックセグメント]ビルダーが適切なコンポーネントを自動的に見つけます。</li><li>ドロップダウンリストを使用して、コンポーネントを検索します。</li><li>左パネルからコンポーネントをドラッグ＆ドロップします。</li></ul> |
-| 演算子 | 標準演算子と[!UICONTROL 個別カウント]演算子を検索するには、ドロップダウンメニューを使用します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=ja) |
-| プラス（+）記号 | 別のルールを追加します。 |
+| ヒット／訪問／訪問者コンテナ | クイックセグメントには、ディメンション／指標／日付範囲をセグメントに含める（またはセグメントから除外する）ことができる[セグメントコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=ja#section_AF2A28BE92474DB386AE85743C71B2D6)が 1 つだけ含まれます。[!UICONTROL 訪問者]には、訪問およびページビュー全体で訪問者に固有の包括的なデータが含まれます。[!UICONTROL 訪問] コンテナでは、訪問者のデータを訪問に基づいて分類するルールを設定でき、 [!UICONTROL ヒット] コンテナでは、訪問者情報を個々のページビューに基づいて分類できます。デフォルトのコンテナは [!UICONTROL ヒット] です。 |
+| コンポーネント（ディメンション／指標／日付範囲） | コンポーネント（ディメンション／指標／日付範囲）とその値を追加して、最大 3 つのルールを定義できます。適切なコンポーネントを見つける方法は 3 つあります。<ul><li>入力を開始すると、[!UICONTROL クイックセグメント]ビルダーが適切なコンポーネントを自動的に見つけます。</li><li>ドロップダウンリストを使用して、コンポーネントを検索します。</li><li>データセットを左側のパネルからドラッグ＆ドロップします。</li></ul> |
+| 演算子 | 標準演算子と [!UICONTROL 個別カウント] 演算子を検索するには、ドロップダウンメニューを使用します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=ja) |
+| プラス（+）記号 | 別のルールの追加 |
 | AND／OR 修飾子 | 「AND」修飾子または「OR」修飾子をルールに追加できますが、1 つのセグメント定義で「AND」修飾子と「OR」修飾子を混在させることはできません。 |
 | 適用 | このセグメントをパネルに適用します。セグメントにデータが含まれていない場合は、続行するかどうかを尋ねられます。 |
 | ビルダーを開く | セグメントビルダーを表示します。セグメントビルダーでセグメントを保存または適用すると、「クイックセグメント」とは見なされなくなります。これは、コンポーネントリストセグメントライブラリの一部になります。 |

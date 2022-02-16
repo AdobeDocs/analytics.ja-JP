@@ -1,13 +1,12 @@
 ---
 description: Microsoft Power BI で Report Builder を使用します。
 title: Power BI への発行 - 概要
-uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1028'
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+workflow-type: tm+mt
+source-wordcount: '1026'
 ht-degree: 100%
 
 ---

@@ -1,15 +1,15 @@
 ---
-description: Analytics ダッシュボードスコアカードの作成方法
-title: スコアカードの作成
+description: エグゼクティブユーザーがアプリにアクセスして使用するには、追加のサポートが必要になる場合があります。 この節では、その支援を提供するのに役立つ情報を提供します。
+title: アプリを使用したエグゼクティブユーザーの設定
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # アプリを使用したエグゼクティブユーザーの設定
 

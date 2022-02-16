@@ -1,13 +1,12 @@
 ---
 description: 異常値をテーブルまたは線グラフで表示できます。
 title: Analysis Workspace での異常値の表示
-uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-feature: AI ツール
+feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '249'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '247'
 ht-degree: 100%
 
 ---

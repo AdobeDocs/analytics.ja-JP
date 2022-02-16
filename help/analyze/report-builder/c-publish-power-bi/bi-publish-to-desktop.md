@@ -1,14 +1,13 @@
 ---
 description: Report Builder から発行されたアセットを Power BI Desktop に取り込む方法を説明します。
 title: Power BI Desktop への発行済みアセットの取り込み
-uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 feature: Report Builder
 role: User, Admin
 exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Report Builder から発行されたアセットを Power BI Desktop に取り込む方法を説明します。
 
-## 前提条件 {#section_BDFDAE1E300B429FB6EBCB21AD1383A0}
+## 前提条件  {#section_BDFDAE1E300B429FB6EBCB21AD1383A0}
 
 * 最新バージョン（2017 年 4 月リリース）の Power BI Desktop をインストールしておく必要があります。
 * この手順では、Report Builder でフォーマットされたテーブルまたはリクエストを Power BI サービスに既に発行していることを前提としています。

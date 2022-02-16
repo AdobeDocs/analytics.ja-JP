@@ -2,14 +2,13 @@
 description: Analysis Workspace のディメンションおよびディメンション項目を分類します。
 keywords: Analysis Workspace
 title: ディメンションの分類
-uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Workspace Basics
+feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
-workflow-type: ht
-source-wordcount: '343'
-ht-degree: 100%
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

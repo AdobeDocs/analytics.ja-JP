@@ -1,10 +1,10 @@
 ---
 description: Report Builderでリクエストを作成する際の最初の手順。
 title: データリクエスト - リクエストウィザード：ステップ 1
-uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
+feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 97%

@@ -2,13 +2,12 @@
 description: Analysis Workspace でコホートを作成し、コホート分析レポートを実行します。
 keywords: Analysis Workspace
 title: コホート分析レポートの実行
-uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: ビジュアライゼーション
+feature: Cohort Analysis
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '953'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '952'
 ht-degree: 100%
 
 ---

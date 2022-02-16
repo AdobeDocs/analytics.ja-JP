@@ -1,13 +1,12 @@
 ---
 description: フィルターを適用してフォールアウトレポートを作成する手順について説明します。
 title: リクエストウィザードを使用したフォールアウトレポートのフィルタリング
-uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 100%
 
 ---

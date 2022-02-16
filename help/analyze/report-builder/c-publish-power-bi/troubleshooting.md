@@ -1,20 +1,19 @@
 ---
-description: Power BIを使用する際の一般的なReport Builder。
+description: Power BIでReport Builderを使用する際の一般的な問題。
 title: Power BI 統合のトラブルシューティング
-uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 51%
 
 ---
 
 # Power BI 統合のトラブルシューティング
 
-Power BIを使用する際の一般的な問題を調べ、解決します。
+Power BIとのReport Builderを使用する際の一般的な問題を調べ、解決します。
 
 ## Power BI への発行の失敗
 
@@ -38,8 +37,8 @@ Report Builder リクエストを Power BI に発行した後にビジュアラ�
 
 ## Report Builderは、組織のリソースにアクセスする権限を持っている必要があります。 このアクセス権は管理者のみが付与できます。 管理者に権限の付与を依頼します。
 
-Microsoft管理者に、次の場所にある「ユーザーはアプリケーションを登録できます」設定を確認してもらいます。**[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL ユーザー設定では、オプション]**&#x200B;を使用できます。 このオプションを「いいえ」に設定すると、管理者はこれらのタイプのアプリケーションを登録できます。
+Microsoft管理者に、次の場所にある「ユーザーはアプリケーションを登録できます」設定を確認してもらいます。 **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 「ユーザー設定」ではオプションを使用できます]**. このオプションを「いいえ」に設定すると、管理者はこの種のアプリケーションを登録できます。
 
-次の[リンク](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)を使用してアクセス権を付与できます。
+ユーザーは、次の方法を使用してアクセス権を付与できます [リンク](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
-管理者は、次の[link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)を使用して、各ユーザーに対してアクセス権を付与しました。
+管理者は、次の機能を使用して、すべてのユーザーに対してアクセス権を付与しました [リンク](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
