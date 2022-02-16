@@ -1,14 +1,14 @@
 ---
 title: Data Warehouse でのコンポーネントのサポート
 description: Data Warehouse で使用できる追加のディメンションと指標、およびサポートされていない指標について説明します。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Data Warehouse
+exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Data Warehouse でのコンポーネントのサポート
 
@@ -23,7 +23,7 @@ Data Warehouse 固有の処理アーキテクチャを使用すると、通常�
 * Experience Cloud ID：Experience Cloud ID サービス（ECID）を使用する実装の場合、64 ビットの連結された 2 つの数値から成る 128 ビットの数値で、19 桁にパディングされます。
 * ページ URL:ヒットが発生したページの URL。
 * 購入 ID：購入の一意な識別子（s_purchaseID 変数を使用して設定）。
-* 訪問者 ID：訪問者の一意の識別子を提供します。この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
+* 訪問者 ID：訪問者の一意の ID を提供します。この値は、データフィードの `visid_high` 列と `visid_low` 列の連結値と同じです。詳しくは、データフィードの[データ列の参照](../analytics-data-feed/c-df-contents/datafeeds-reference.md)を参照してください。
 
 ### 排他的にサポートされる指標
 

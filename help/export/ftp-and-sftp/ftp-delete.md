@@ -2,13 +2,12 @@
 description: アドビの FTP ポリシーにより、90 日間連続で使用されなかった FTP アカウントについては、アカウントへのアクセスが自動的に無効になります。
 keywords: ftp;sftp
 title: FTP データおよび FTP アカウントの削除
-uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
+feature: FTP Export
 exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

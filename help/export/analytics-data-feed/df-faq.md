@@ -2,9 +2,10 @@
 description: データフィードに関するよくある質問（FAQ）
 keywords: データフィード;ジョブ;pre列;post列;大文字と小文字を区別
 title: データフィードに関する FAQ
+feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%
 

@@ -2,13 +2,12 @@
 description: アドビがホストする FTP アカウントを設定して使用します。
 keywords: ftp;sftp
 title: FTP アカウントの設定 - 概要
-uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
+feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

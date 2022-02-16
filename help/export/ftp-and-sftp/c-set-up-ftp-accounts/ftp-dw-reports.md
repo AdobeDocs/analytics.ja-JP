@@ -2,11 +2,10 @@
 description: Data Warehouse を使用すると、ユーザー固有の質問に基づいて生のデータから詳細なデータの関連性を表示するようにレポートにリクエストできるようになります。
 keywords: ftp;sftp
 title: Data Warehouse が配信するレポート
-uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
+feature: FTP Export
 exl-id: d49217a4-33ab-49f8-9207-c5d31e8f798d
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
 

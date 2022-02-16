@@ -2,10 +2,10 @@
 title: Analytics 書き出しガイド
 description: このガイドでは、データフィードとData Warehouse を使用して、Adobe Analytics からデータを取得する方法を概説します。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 
 * **データフィード：** 1 時間ごとまたは 1 日ごとに生データの書き出しを受け取ります。各行は個別のヒットで、各列は変数です。データフィードは、通常、FTP サイトに送信されます。
 * **Data Warehouse：**&#x200B;リクエストウィザードを使用して、データのスプレッドシート出力を取得します。Data Warehouse は、様々な処理アーキテクチャを使用して、任意の数の行および任意の数の一意の値を可能にします。
+* **FTP および SFTP:** FTP および SFTP をAdobeで使用する際のベストプラクティス
 
 Adobe Analytics のビデオの概要は次のとおりです。
 
@@ -35,6 +36,6 @@ Adobe Analytics のビデオの概要は次のとおりです。
 ## 主な Analytics リソース
 
 * [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-* [Analytics フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
+* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://experienceleague.adobe.com/?lang=ja#home)

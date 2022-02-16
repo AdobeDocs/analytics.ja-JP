@@ -1,10 +1,10 @@
 ---
 title: モバイル属性の参照
 description: モバイル属性の参照ファイル。
+feature: Data Feeds
 exl-id: d5130716-2bf2-42ce-811e-26a5081efc18
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 100%
 

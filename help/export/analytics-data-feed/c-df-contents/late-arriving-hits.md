@@ -1,12 +1,12 @@
 ---
 title: 到着が遅れたヒット
 description: データフィードでの、到着が遅れたヒットの処理方法について説明します。
+feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '331'
-ht-degree: 100%
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

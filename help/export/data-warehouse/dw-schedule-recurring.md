@@ -1,15 +1,14 @@
 ---
-description: Data Warehouseでリクエストをスケジュールし、繰り返し実行します。
+description: リクエストをData Warehouseでスケジュールし、繰り返し実行します。
 title: 定期的なリクエストのスケジュール設定
-uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+feature: Data Warehouse
+exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # 定期的なリクエストのスケジュール設定
 
@@ -27,4 +26,3 @@ ht-degree: 85%
    ![](assets/dw_schedule.png)
 
 1. 「**[!UICONTROL スケジュール]**」をクリックします。
-
