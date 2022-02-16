@@ -2,8 +2,9 @@
 title: Adobe Analytics の製品プロファイル
 description: 製品管理者が組織内のユーザーに割り当てる権限プリセットとして製品プロファイルを使用する方法について説明します。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
 

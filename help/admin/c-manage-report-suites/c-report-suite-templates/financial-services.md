@@ -1,13 +1,11 @@
 ---
 description: オンラインサービスへのアクセスを提供する銀行や他の機関の共通設定を定義します。
 title: 金融サービス
-feature: Admin Tools
-uuid: a321b409-24a4-4d9f-9aac-65761261e991
+feature: Report Suite Settings
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 100%
 
 ---

@@ -1,21 +1,20 @@
 ---
 description: 従来の Analytics ユーザー管理システムから Admin Console へユーザーを移行します。
 title: 'Adobe ID 用に Analytics ユーザーアカウントを移行する '
-uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Admin Tools
+exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
-
 # Adobe ID 用に Analytics ユーザーアカウントを移行する {#migrate-analytics-user-accounts-for-adobe-ids}
 
 従来の Analytics ユーザー管理システムから Admin Console へユーザーを移行します。
 
-## Adobe ID 用に Analytics ユーザーアカウントを移行する {#task-f3355f3b14a340feae58cfa04c0ba1c9}
+## Adobe ID 用に Analytics ユーザーアカウントを移行する  {#task-f3355f3b14a340feae58cfa04c0ba1c9}
 
 従来の Analytics ユーザー管理システムから Admin Console へユーザーを移行します。
 

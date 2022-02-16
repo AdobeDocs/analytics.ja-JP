@@ -1,11 +1,10 @@
 ---
 description: Adobe Analytics の管理ツールのインデックス。
 title: 管理ツール
-uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 

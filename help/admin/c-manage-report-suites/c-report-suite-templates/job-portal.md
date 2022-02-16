@@ -1,13 +1,11 @@
 ---
 description: ジョブポータルやキャリア検索 Web サイトの共通設定を定義します。
 title: ジョブポータル
-feature: Admin Tools
-uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+feature: Report Suite Settings
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 100%
 
 ---

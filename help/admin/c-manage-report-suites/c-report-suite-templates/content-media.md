@@ -1,13 +1,11 @@
 ---
 description: オリジナルコンテンツを作成し、記事とビデオを表示する Web サイトの共通設定を定義します。
 title: コンテンツとメディア
-feature: Admin Tools
-uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
+feature: Report Suite Settings
 exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '212'
 ht-degree: 100%
 
 ---
@@ -34,7 +32,7 @@ ht-degree: 100%
 
 | カスタムインサイト変数 | `s_code` 変数 |
 |---|---|
-| トラフィックプロパティ 1 ～ 5 | `prop1, prop2, prop3, prop4, prop5` |
+| トラフィックプロパティ 1～5 | `prop1, prop2, prop3, prop4, prop5` |
 
 次の表は、標準コマースイベントの一覧です。標準コマースイベントの初期設定は、すべてのレポートスイートテンプレートで同じになります。該当なしの s_code 変数を含むイベントは、自動的に提供されるので、設定する必要はありません。
 

@@ -1,14 +1,14 @@
 ---
 description: サーバーのすべての使用状況アラートを追加または管理できます。アラートをセットアップすると、請求会社のすべてのログイン会社におけるすべてのレポートスイートに適用されます。
 title: サーバーコールの使用状況アラート
-uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+feature: Server Call Usage
+exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
 ---
-
 
 # サーバーコールの使用状況アラート
 
@@ -77,4 +77,3 @@ ht-degree: 100%
    | 有効 / 無効 | デフォルトアラートを含め、すべてのアラートを有効または無効にすることができます。 |
    | 更新 | 1 つまたは複数のアラートが選択されている場合、更新できます。これにより、元の有効期限にかかわらず、「[!UICONTROL 更新]」がクリックされた日から 1 年先に有効期限が延長されます。 |
    | CSV に書き出し | [使用状況レポートのダウンロード](/help/admin/c-server-call-usage/report-suite-usage.md)を参照してください。 |
-

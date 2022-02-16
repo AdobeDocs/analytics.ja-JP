@@ -1,9 +1,10 @@
 ---
 title: Analytics 管理ガイド
 description: Admin Console でのユーザー管理や製品管理、レポートスイート、変数、分類、データ収集の設定など、Adobe Analytics 管理者向けの管理ヘルプです。
+feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 100%
 
@@ -43,6 +44,6 @@ Adobe Analytics には、現在、管理者向けの以下の 2 つの領域が�
 ## 主な Analytics リソース
 
 * [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-* [Analytics フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
+* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://experienceleague.adobe.com/?lang=ja#home)

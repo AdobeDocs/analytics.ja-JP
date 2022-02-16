@@ -2,12 +2,10 @@
 description: 有料検索検知を設定する方法について手順を説明します。
 title: 有料検索検知の設定
 feature: Admin Tools
-uuid: adfce60d-a762-46bd-8314-f876baf02a25
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '78'
 ht-degree: 100%
 
 ---

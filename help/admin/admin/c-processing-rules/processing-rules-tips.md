@@ -2,13 +2,11 @@
 description: ここでは、処理ルールのテストに関するガイドラインと、回避する必要がある一般的な間違いについて説明します。
 subtopic: Processing rules
 title: 処理ルールのヒントとテクニック
-feature: Admin Tools
-uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -33,7 +31,7 @@ prop1 に「news」が含まれる場合などの条件に基づく検索では�
 
 開発レポートスイートに処理ルールを設定して、これらのルールが正しく動作していることを確認することをお勧めします。可能であれば、幅広く導入する前に、ルールを小規模な実稼動用レポートスイートにコピーしてください。
 
-## 空の値の確認  {#section_EE84A5525E26415787930723B0CAAE0F}
+## 空の値の確認 {#section_EE84A5525E26415787930723B0CAAE0F}
 
 ルールを作成するときは、値が空の場合を考慮します。空の値を確認する条件を追加しないと、誤って変数を空の値で上書きする可能性があります。
 
@@ -43,7 +41,7 @@ prop1 に「news」が含まれる場合などの条件に基づく検索では�
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## 値の上書きの回避  {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## 値の上書きの回避 {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 次の例では、2 つのコンテキストデータ変数がサイトで使用され、search_keyword と search_term という検索用語が取得されます。ただし、設定に基づいて、search_term が空であっても、search_keyword 値は常に上書きされます。
 
@@ -51,13 +49,13 @@ prop1 に「news」が含まれる場合などの条件に基づく検索では�
 
 ![](assets/tips-search-keyword.png)
 
-## 検索用語の UTF-8 または Unicode へのエンコード  {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## 検索用語の UTF-8 または Unicode へのエンコード {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 クエリ文字列から取得した検索用語は正しくエンコードする必要があります。そうしないと、処理ルールと一致しなくなります。
 
 ![](assets/tips-multibyte.png)
 
-## 「次で始まる」、「次を含む」、「次で終わる」  {#section_80CE853244FC435B844A09EA51868D8D}
+## 「次で始まる」、「次を含む」、「次で終わる」 {#section_80CE853244FC435B844A09EA51868D8D}
 
 正しい照合条件を選択して、正確に照合を行う最も厳密な条件を見つけます。ルールを作成する前にレポート内の値を検索して、意図しない一致がないことを確認します。例えば、prop2 レポートを検索して、この条件が一致する場所をすべて見つけてから、このルールを有効にします。
 

@@ -1,11 +1,10 @@
 ---
 description: Web ページのトラフィックを表示し、ページビューをリアルタイムでランク付けします。ビジネス上の意思決定の基になる実行可能なデータを提供します。
 title: リアルタイムレポート
-topic-fix: Reports
-uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
+feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
-workflow-type: ht
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 

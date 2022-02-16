@@ -1,15 +1,14 @@
 ---
 description: メニュー、指標セレクター、計算指標ビルダーおよびセグメントビルダー内の標準（組み込み）指標、カスタムイベントおよび組み込みイベントを非表示にできます。
 title: 指標の表示
-uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: Admin Tools
+exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
 ---
-
 
 # 指標の表示
 
@@ -66,4 +65,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-

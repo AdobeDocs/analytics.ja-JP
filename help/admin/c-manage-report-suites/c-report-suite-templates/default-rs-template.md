@@ -1,13 +1,12 @@
 ---
 description: 一般的な Web サイトに共通する変数と成功イベントをいくつか設定します。
 title: デフォルトテンプレート
-feature: Admin Tools
+feature: Report Suite Settings
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
@@ -34,7 +33,7 @@ ht-degree: 100%
 
 | カスタムインサイト変数 | `s_code` 変数 |
 |---|---|
-| トラフィックプロパティ 1 ～ 5 | `prop1, prop2, prop3, prop4, prop5` |
+| トラフィックプロパティ 1～5 | `prop1, prop2, prop3, prop4, prop5` |
 
 次の表は、標準コマースイベントの一覧です。標準コマースイベントの初期設定は、すべてのレポートスイートテンプレートで同じになります。該当なしの s_code 変数を含むイベントは、自動的に提供されるので、設定する必要はありません。
 

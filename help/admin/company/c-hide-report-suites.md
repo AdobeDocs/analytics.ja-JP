@@ -2,12 +2,11 @@
 description: Adobe Analytics ユーザーインターフェイスでレポートスイートを非表示にできます。
 keywords: レポートスイートを削除
 title: レポートスイートを非表示
-feature: 管理ツール
-uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
+feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 92%
 
 ---
@@ -24,7 +23,7 @@ Adobe Analytics ユーザーインターフェイスでレポートスイート�
 >
 >レポートスイートが非表示になっていても、サイトからそのレポートスイートに送信されるデータは引き続き、収集、処理および課金の対象になります。つまり、レポートスイートは完全には削除されません。
 
-レポートスイートを非表示にするには、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL 会社設定]**/**[!UICONTROL レポートスイートを非表示]**&#x200B;に移動します。 レポートスイート名の左側にある「**[!UICONTROL 非表示]**」チェックボックスをオンにします。
+レポートスイートを非表示にするには、に移動します。 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL カンパニー設定]** > **[!UICONTROL レポートスイートを非表示]**. レポートスイート名の左側にある「**[!UICONTROL 非表示]**」チェックボックスをオンにします。
 
 レポートスイートの非表示を解除するには、「**[!UICONTROL 非表示]**」チェックボックスをオフにします。
 

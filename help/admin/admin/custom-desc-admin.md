@@ -2,12 +2,10 @@
 description: eVar、prop、分類およびイベントに対して、カスタムレポートの説明を入力できます。説明は、すべてのエンドユーザーに表示されます。
 title: カスタムレポートの説明
 feature: Admin Tools
-uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---

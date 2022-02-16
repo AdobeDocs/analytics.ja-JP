@@ -1,24 +1,24 @@
 ---
 description: Adobe Analyticsでのデータ収集用の基本コンテナの作成
 title: レポートスイートの作成
-feature: 管理ツール
+feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '374'
 ht-degree: 63%
 
 ---
 
 # レポートスイートの作成
 
-レポートスイートは、Adobe Analytics がレポートの取り込みに使用するデータのサイロです。1 つの組織に複数のレポートスイートを設定し、それぞれ異なるデータセットを含めることができます。以前は個々のレポートスイートを用意することが重要でしたが、今では単一のレポートスイートを使用した方が便利になりました。[仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites)とレポート時間処理が導入され、管理者は独自のデータサブセットを作成でき、グローバルデータとサイト固有のデータの両方を柔軟に取得できます。
+レポートスイートは、Adobe Analytics がレポートの取り込みに使用するデータのサイロです。1 つの組織に複数のレポートスイートを設定し、それぞれ異なるデータセットを含めることができます。以前は個々のレポートスイートを用意することが重要でしたが、今では単一のレポートスイートを使用した方が便利になりました。の導入 [仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) およびレポート時間処理を使用すると、管理者はデータの独自のサブセットを作成でき、グローバルデータとサイト固有のデータの両方を柔軟に取得できます。
 
-この記事は、データ収集の準備をおこなうシステムレベルの管理者またはAdobe Analytics管理者向けに作成されています。
+この記事は、データ収集の準備をおこなう、システムレベルの管理者またはAdobe Analytics管理者を対象としています。
 
 ## 前提条件 
 
-[Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md):システムレベルの管理者から、Experience CloudAdmin Consoleを使用したAdobe Analyticsへのアクセス権が付与されていることを確認します。
+[Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md):システムレベルの管理者が、Experience CloudAdmin Consoleを使用してAdobe Analyticsへのアクセス権を付与していることを確認します。
 
 ## レポートスイートの作成 {#create-report-suite}
 
@@ -33,7 +33,7 @@ ht-degree: 63%
 1. 「[新しいレポートスイート](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)」で説明されているフィールドに入力します。
 1. 「**[!UICONTROL レポートスイートの作成]**」をクリックします。
 
-レポートスイートIDの最大長は40バイトです。 レポートスイートのわかりやすい名前の最大長は255バイトです。
+レポートスイート ID の最大長は 40 バイトです。 レポートスイートのわかりやすい名前の最大長は 255 バイトです。
 
 ## トラブルシューティング
 
@@ -43,8 +43,8 @@ ht-degree: 63%
 
 **Adobe Analytics にログインしても、「Adobe Analytics へようこそ」ポップアップとドロップダウンが表示されない。**
 
-my.omniture.comではなく、[Experience Cloud](https://experience.adobe.com)を使用してログインしていることを確認します。 my.omniture.com からログインしたユーザは、レポートスイートセットアップウィザードを使用できません。
+次を通じてログインしていることを確認します： [Experience Cloud](https://experience.adobe.com)my.omniture.com 経由ではなく my.omniture.com からログインしたユーザは、レポートスイートセットアップウィザードを使用できません。
 
 ## 次の手順
 
-[Adobe Analyticsタグプロパティを作成しま ](/help/implement/launch/create-analytics-property.md)す。Analytics実装を管理する領域を作成する
+[Adobe Analyticsタグプロパティの作成 ](/help/implement/launch/create-analytics-property.md):Analytics 実装を管理する領域を作成します

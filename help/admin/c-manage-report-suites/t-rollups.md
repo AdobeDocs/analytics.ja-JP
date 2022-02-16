@@ -1,13 +1,11 @@
 ---
 description: ロールアップレポートスイートを作成する方法について手順を説明します。
 title: ロールアップレポートスイートの作成
-feature: Admin Tools
-uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
+feature: Report Suite Settings
 exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 76%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] は、ロールアップレポートをサポートする唯一のツールです。Adobeは、ロールアップの使用を推奨しなくなりました。代替オプションについては、「[レポートスイートのアプローチ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)」を参照してください。
+>[!DNL Reports & Analytics] はロールアップレポートをサポートする唯一のツールです。Adobeでは、ロールアップの使用はお勧めしません。 参照：[レポートスイートのアプローチ](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)」を参照してください。
 
 1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. 「[!UICONTROL レポートスイートグループ]」で、「**[!UICONTROL ロールアップ]**」ヘッダーの横にある「**[!UICONTROL 追加]**」をクリックします。

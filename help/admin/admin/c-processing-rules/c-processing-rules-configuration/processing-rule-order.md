@@ -2,12 +2,11 @@
 description: 処理ルールを効果的に使用するために、データ収集中にそれらのルールが適用されるタイミングを理解する必要があります。
 subtopic: Processing rules
 title: 処理順序
-feature: 管理ツール
-uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
+feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 97%
 
 ---
@@ -26,7 +25,7 @@ ht-degree: 97%
 |--- |--- |
 | 動的変数参照 | 変数を動的に入力するには、HTTP ヘッダーや他の変数から情報を取得します。例えば、`s.eVar5="D=c1"` と指定すると、eVar5 に prop1 の値がセットされます。 |
 | AppMeasurement | AppMeasurement に使用される関数とプラグインは、ブラウザーまたはクライアントアプリケーションで実行されます。 |
-| Tag Management | データ収集UIで定義されたルールは、定義どおりに実行されます。 |
+| Tag Management | データ収集 UI で定義されたルールは、定義どおりに実行されます。 |
 | ボットルール | [ボットルール](/help/admin/admin/bot-removal/bot-rules.md)を使用すると、既知のスパイダーやボットによって生成されるトラフィックを、レポートスイートから削除できます。 |
 
 ## 処理ルール後

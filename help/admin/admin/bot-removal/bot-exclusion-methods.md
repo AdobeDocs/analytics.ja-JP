@@ -2,8 +2,9 @@
 title: 様々なボット除外方法の比較
 description: ボットを除外する様々な方法を比較できます。
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
-source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
-workflow-type: ht
+feature: Admin Tools
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 

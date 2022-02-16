@@ -1,10 +1,10 @@
 ---
 title: 一般的なボット署名
 description: ボットの共通識別子を認識します。
+feature: Admin Tools
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
 

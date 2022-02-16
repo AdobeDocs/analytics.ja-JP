@@ -2,13 +2,11 @@
 description: 処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
 subtopic: Processing rules
 title: 処理ルールで使用可能なディメンション
-feature: Admin Tools
-uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 86%
 
 ---
@@ -17,7 +15,7 @@ ht-degree: 86%
 
 処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
 
-## カスタム値とコンテキストデータ  {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## カスタム値とコンテキストデータ {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
@@ -91,11 +89,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページ名 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： リンクトラッキングの呼び出しは、処理ルールに到達する前に<code>pageName</code>変数を取り除きます。 処理ルールを使用してページ名の値を再挿入すると、そのヒットは、リンクトラッキング呼び出しではなく、ページ表示と見なされます。 ページ名を変更する前に、ページ名が既に設定されていることを確認することをAdobeが推奨します。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意：リンクトラッキングコールは、 <code>pageName</code> 変数を設定する必要があります。 処理ルールを使用してページ名の値を再挿入した場合、このヒットは、リンクトラッキングコールではなく、ページビューと見なされます。 Adobeは、変更する前に、ページ名が既に設定されていることを確認することをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページ URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 <p>注意： リンクトラッキングの呼び出しは、処理ルールに到達する前に<code>pageURL</code>変数を取り除きます。 処理ルールを使用してページURL値を再挿入する場合、ヒットはリンクトラッキング呼び出しではなくページ表示と見なされます。 ページURLを変更する前に、ページURLが既に設定されていることをAdobeが確認することをお勧めします。 </p></td> 
+   <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 <p>注意：リンクトラッキングコールは、 <code>pageURL</code> 変数を設定する必要があります。 処理ルールを使用してページ URL 値を再挿入した場合、このヒットは、リンクトラッキングコールではなく、ページビューと見なされます。 Adobeは、ページ URL を変更する前に、ページ URL が既に設定されていることを確認することをお勧めします。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>クエリー文字列パラメーター </p> </td> 
@@ -176,7 +174,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>リスト変数 1 ～ 3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>購入 ID </p> </td> 
@@ -211,7 +209,7 @@ ht-degree: 86%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>イベント1 ～ 1000 </p> <p>（SiteCatalyst 15 のお客様の場合、イベント 1 ～ 100） </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase、scView、scAdd およびその他の買い物かごイベント </p> </td> 

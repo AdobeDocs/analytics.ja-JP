@@ -1,12 +1,11 @@
 ---
 description: 「恒常的なトラフィック」セクションでは、予想されるトラフィックレベルを変更できるので、アドビで新しいトラフィックレベルを処理するリソースを再割り当てすることができます。
 title: 恒常的なトラフィック増加の指定
-feature: 管理ツール
-uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
+feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 92%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 92%
 
 恒常的なトラフィック増加を指定する前に、[トラフィック増加に対して必要なリードタイム](/help/admin/c-traffic-management/traffic-lead-time.md)に関する情報をお読みください。
 
-1. **[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL レポートスイート]**&#x200B;をクリックして、Report Suite Managerを開きます。
+1. 次をクリックして Report Suite Manager を開きます。 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL レポートスイート]**.
 1. レポートスイートを選択します。
 1. **[!UICONTROL 設定の編集]**／**[!UICONTROL トラフィック管理]**／**[!UICONTROL 恒常的なトラフィック]**&#x200B;の順にクリックします。
 1.  「**[!UICONTROL 新しい予想日別ページ表示数]**」フィールドで、新しいトラフィックレベルの予想日別ページビューの合計を指定します。

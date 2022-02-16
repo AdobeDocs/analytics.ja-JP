@@ -1,9 +1,10 @@
 ---
 title: 必要システム構成
 description: Adobe Analytics を使用するための必要システム構成です。
+feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 

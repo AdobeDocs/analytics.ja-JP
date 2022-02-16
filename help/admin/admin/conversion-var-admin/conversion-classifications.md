@@ -1,9 +1,10 @@
 ---
-description: 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンを「ポップミュージック用語」という分類に入れて、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関してそのカテゴリの成功を報告します。
+description: 分類は値をグループにまとめてグループレベルで報告するために使用します。例えば、すべての有料検索キャンペーンをポップミュージック用語などのカテゴリに分類し、インスタンス（クリックスルー）や成功イベントへのコンバージョンなどの指標に関するそのカテゴリの成功を報告できます。
 title: コンバージョンの分類
+feature: Admin Tools
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: fa12c51be5d0f788dbdaacfbd36504d1cda92a58
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 

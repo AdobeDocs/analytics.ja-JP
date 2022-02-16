@@ -2,12 +2,10 @@
 description: 成功イベントを設定する方法について手順を説明します。
 title: 成功イベントの設定
 feature: Admin Tools
-uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 100%
 
 ---

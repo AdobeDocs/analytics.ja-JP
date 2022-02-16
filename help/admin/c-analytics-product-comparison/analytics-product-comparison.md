@@ -2,14 +2,15 @@
 description: 以下の表に、Analysis Workspace、Reports & Analytics、Report Builder、Data Warehouse、および Data Workbench の機能の比較と必要システム構成を示します。
 title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+feature: Analytics Basics
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
 ---
 
-# Analytics製品の比較と必要システム構成
+# Analytics 製品の比較と必要システム構成
 
 このページでは、Adobe Analytics の各種製品（Analysis Workspace、Reports &amp; Analytics、Report Builder、Data Warehouse、Data Workbench、データフィード、Analytics API 2.0）の比較を示します。
 

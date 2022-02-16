@@ -1,13 +1,11 @@
 ---
 description: レポートスイートグループを作成する方法について手順を説明します。
 title: レポートスイートグループの作成
-feature: Admin Tools
-uuid: 4a5c9a8e-518e-43a0-8ed6-6275825009f3
+feature: Report Suite Settings
 exl-id: ad4c3f06-72ef-4ffd-86c4-0d2a4c7a4e9d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---

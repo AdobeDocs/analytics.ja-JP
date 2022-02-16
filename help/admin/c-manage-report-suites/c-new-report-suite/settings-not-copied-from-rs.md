@@ -1,13 +1,12 @@
 ---
 description: 既存のレポートスイートから設定をコピーした場合、システムのメッセージで、新しいレポートスイートにコピーされない設定が特定されます。
 title: ソースレポートスイートからコピーされない設定
-feature: 管理ツール
-uuid: 5176c561-a278-43e4-837f-a17759985d52
+feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 91%
+source-wordcount: '203'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 91%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分類データ（分類構造はコピーされます） </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分類インポーター（アップロード）ドキュメント</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=ja"> 分類インポーター（アップロード）ドキュメント</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>トランザクション ID の記録の有効化 </p> </td> 

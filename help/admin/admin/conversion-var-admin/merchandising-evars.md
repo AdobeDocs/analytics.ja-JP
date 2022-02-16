@@ -1,9 +1,10 @@
 ---
 title: マーチャンダイジング eVar と製品検索方法
 description: マーチャンダイジング eVar の概念と、eVar によるデータの処理方法および配分方法について詳しく説明します。
+feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '5319'
 ht-degree: 100%
 

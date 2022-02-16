@@ -1,16 +1,15 @@
 ---
 description: サーバー側転送が適切に有効になっていることを確認するには、Analytics トラッキングリクエストの HTTP 応答を調べる必要があります。そのためには、ブラウザーの開発者ツールを使用するか、Charles Web デバッガーなどのプロキシツールを使用します。サーバー側転送が適切に有効になっていることを示すデータを確認する手順を以下に示します。
-solution: Audience Manager
+solution: Analytics
 title: サーバー側転送の実装の確認方法
-uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Server-Side Forwarding
+exl-id: 21db4572-da3c-43aa-a774-86a089656695
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # サーバー側転送の実装の確認方法
 

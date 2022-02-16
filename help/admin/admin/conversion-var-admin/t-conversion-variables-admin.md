@@ -1,12 +1,11 @@
 ---
 description: コンバージョン変数を追加または編集する方法について手順を説明します。
 title: コンバージョン変数の編集
-feature: 管理ツール
-uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
+feature: Admin Tools
 exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '109'
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
+source-wordcount: '107'
 ht-degree: 100%
 
 ---

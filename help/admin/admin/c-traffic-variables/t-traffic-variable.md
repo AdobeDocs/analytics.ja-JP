@@ -2,12 +2,10 @@
 description: トラフィック変数レポートを追加および有効化する方法について手順を説明します。
 title: トラフィック変数レポートの有効化
 feature: Admin Tools
-uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
 exl-id: 6c28c1ed-76ec-4df8-a583-3b7ac923569a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '58'
 ht-degree: 100%
 
 ---

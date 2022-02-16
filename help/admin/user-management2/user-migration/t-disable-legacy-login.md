@@ -1,17 +1,16 @@
 ---
 description: Analytics ユーザーの従来のログインを無効化する方法を学習します。
 title: 従来のログインの無効化
-uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+feature: Admin Tools
+exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-
-# 従来のログインの無効化 {#disable-legacy-logins}
+# 従来のログインの無効化{#disable-legacy-logins}
 
 Analytics ユーザーの従来のログインを無効化する方法を学習します。
 
@@ -29,4 +28,3 @@ Analytics ユーザーの従来のログインを無効化する方法を学習�
    「従来のログインを無効化」には、従来の [!DNL my.omniture.com] ユーザー名とパスワードを引き続き使用できるユーザーが表示されます。
 
    まだ移行されていないユーザーの従来のログインを無効化することはできません。無効化されると、ユーザーは Experience Cloud ID を使用して Analytics へログインおよびアクセスする必要があります。
-

@@ -2,13 +2,11 @@
 description: 処理ルールを使用して、定義した条件に基づいてデータを変更できます。属性や値が定義した条件に一致する場合、値を設定および削除でき、イベントを設定できます。
 subtopic: Processing rules
 title: 処理ルールのしくみ
-feature: Admin Tools
-uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
+feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -94,7 +92,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 処理ルールの条件  {#section_387390EEE9BA4DA98698522A84326DB4}
+## 処理ルールの条件 {#section_387390EEE9BA4DA98698522A84326DB4}
 
 条件は、ページ変数の一致する値または値が存在するかどうかをチェックします。複数の条件を追加でき、すべての条件が一致する必要があるかどうかを選択できます。
 
@@ -102,7 +100,7 @@ ht-degree: 100%
 
 アクションがおこなわれる前に、変数の値は自動的にチェックされません。例えば Prop1 に「何か」の値が含まれていて、eVar1 が空であるとします。Prop1 を eVar1 と等しくなるように設定すると、両方の値が空になります。これを避けるには、値の存在をチェックする条件を追加します。
 
-## 処理ルールのアクション  {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## 処理ルールのアクション {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 アクションはページ変数を設定したり、ページ変数を削除したり、イベントをトリガーしたりします。アクションはレポートに表示する値を連結することもできます。
 

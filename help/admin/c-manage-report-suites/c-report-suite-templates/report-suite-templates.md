@@ -1,11 +1,9 @@
 ---
 description: レポートスイートテンプレートには、複数の種類のレポートスイートを対象とした最も一般的な設定が定義されています。
 title: レポートスイートテンプレートの概要
-feature: Admin Tools
-uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
+feature: Report Suite Settings
 exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
@@ -18,4 +16,4 @@ ht-degree: 100%
 
 新しいレポートスイートを作成する時間を節約するには、設計したレポートスイート設定に類似したテンプレートを選択します。レポートスイートテンプレートを選択しても、導入は何も制限されません。レポートスイートテンプレートによって適用されるすべての設定は、レポートスイートの作成後に変更できます。
 
-<!-- Meike, links to relevant articles? -->
+[詳細情報](/help/admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)

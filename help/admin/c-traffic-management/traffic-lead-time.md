@@ -1,13 +1,11 @@
 ---
 description: 新しいアカウントの設定、トラフィックスパイク、トラフィック増加について、アドビに事前に通知する必要があります。遅延やシステム全体への悪影響の可能性を最小限に抑えるため、ハードウェアを事前に割り当てる必要があるためです。
 title: トラフィック増加に対して必要なリードタイム
-feature: Admin Tools
-uuid: aa3fb882-51b0-458f-917b-7c54d5659623
+feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---

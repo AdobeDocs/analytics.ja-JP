@@ -2,13 +2,11 @@
 description: 処理ルールの変更は履歴で表示できます。
 subtopic: Processing rules
 title: 処理ルール履歴の表示
-feature: Admin Tools
-uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
+feature: Processing Rules
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 100%
 
 ---

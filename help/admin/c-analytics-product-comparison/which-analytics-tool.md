@@ -1,12 +1,12 @@
 ---
 description: このヘルプページでは、各 Adobe Analytics ツールの推奨される使用例が紹介されています。ここにリストされている順にツールを検討するとよいでしょう。あるツールがニーズを満たさない場合は、次のツールの使用を検討します。
 title: 使用する Adobe Analytics ツールの検討
-uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: ht
-source-wordcount: '1168'
-ht-degree: 100%
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 98%
 
 ---
 
@@ -62,9 +62,9 @@ Adobe Analytics の製品比較について詳しくは、[こちら](/help/admi
    * トランザクション ID：オンラインエンドポイントをオフラインデータに接続し、インポートしたデータを、オンラインでキャプチャした訪問者スナップショットに完全に関連付けるデータアップロード（例えば、注文がオンラインで完了し、オフラインで返されるなど）。
    * フル処理：タイムスタンプ付きのデータソース。Adobe サーバーで収集されたヒットのように処理されます。つまり、データが訪問者のジャーニーに直接挿入されます。
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** は以下の場合に使用します。
+**[AdobeExchange の統合](https://www.adobeexchange.com/experiencecloud.html)** は以下の場合に使用します。
 
-* Adobe Analytics とのサポートされる接続を構築したサードパーティプロバイダーとやり取りする場合。Data Connectors は、通常、サマリレベルのデータを、定期的、恒久的かつ自動的に Adobe Analytics に取り込みます。
+* Adobe Analytics とのサポートされる接続を構築したサードパーティプロバイダーとやり取りする場合。統合アプリは、通常、サマリレベルのデータを、定期的に、恒久的かつ自動的にAdobe Analyticsに組み込みます。
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** は以下の場合に使用します。
 
