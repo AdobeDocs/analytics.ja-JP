@@ -1,10 +1,10 @@
 ---
 title: ヒットの深さ
 description: 訪問へのヒット数。
+feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 

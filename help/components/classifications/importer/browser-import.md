@@ -1,13 +1,11 @@
 ---
 description: ブラウザーを使用して分類データをインポート（アップロード）できます。この方法では、分類データのアップロードが単一のレポートスイートに制限されます。
-subtopic: Classifications
 title: ブラウザーインポート
-feature: 管理ツール
-uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
+feature: Classifications
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
-source-wordcount: '353'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---

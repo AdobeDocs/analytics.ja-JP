@@ -1,10 +1,10 @@
 ---
 title: Analytics のディメンションの互換性
 description: Analytics のディメンションおよびレポートに関するリファレンス。
+feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 | 国 | `geocountry` |
 | 顧客の忠誠度 | `customerloyalty` |
 | カスタムコンバージョン VAR | `evar1`, `evar2`, etc. |
-| カスタムインサイト VAR | `prop1`, `prop2`, etc. |
+| カスタムインサイト VAR | `prop1`, `prop2`など |
 | カスタムリンク | `customlink` |
 | 初回購入までの日数 | `daysbeforefirstpurchase` |
 | 前回購入からの日数 | `dayssincelastpurchase` |

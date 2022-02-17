@@ -1,13 +1,11 @@
 ---
 description: Adobe Analytics では、単一レベルの分類モデルと複数レベルの分類レベルの両方をサポートしています。分類階層を使用すると、分類に対して分類を適用できます。
-subtopic: Classifications
 title: 下位分類について
-feature: 管理ツール
-uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
+feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '653'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
 
 ---
@@ -84,7 +82,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 |---|---|---|---|---|---|
 | 410390013 | Polo-SS | メンズポロシャツ、半袖（M、01） | M | M | 01 |
 | 410390014 | Polo-SS | メンズポロシャツ、半袖（L、03） | M | L | 03 |
-| 410390015 | Polo-LS | レディースポロシャツ、長袖（S、23） | F | S | 23 |
+| 410390015 | Polo-LS | レディースポロシャツ、長袖（S、23） | 金 | S | 23 |
 
 ### 製品の分類 - 複数ファイル（ファイル 2） {#section_19ED95C33B174A9687E81714568D56A3}
 

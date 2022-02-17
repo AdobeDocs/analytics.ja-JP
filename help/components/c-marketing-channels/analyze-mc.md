@@ -1,8 +1,9 @@
 ---
 title: マーケティングチャネルの分析
 description: Workspace でのマーケティングチャネルディメンションの使用方法について説明します。
+feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%

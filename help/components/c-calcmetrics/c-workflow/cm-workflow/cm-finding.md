@@ -1,11 +1,10 @@
 ---
 description: 指標を検索するための 2 つの主な方法（並べ替えおよびフィルタリング）について説明します。
 title: 指標の検索
-uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
+feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 

@@ -1,10 +1,10 @@
 ---
 title: リロード回数
 description: ページがリロードされた回数。
+feature: Metrics
 exl-id: 9539a733-9e9f-48b3-b8ab-8d969de27f87
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 100%
 

@@ -1,11 +1,10 @@
 ---
 description: Analysis Workspace でアラートを使用します。
 title: アラートビルダー
-uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
+feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 

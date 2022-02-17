@@ -1,11 +1,10 @@
 ---
 description: インテリジェントアラートの作成と管理の使用例。
 title: インテリジェントアラート - 使用例
-uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
+feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
 

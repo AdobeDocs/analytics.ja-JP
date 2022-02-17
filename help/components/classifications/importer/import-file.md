@@ -1,13 +1,11 @@
 ---
 description: 適切なデータを分類テンプレートファイルにコピーした後、アドビのデータ収集サーバーにインポート（アップロード）できます。
-subtopic: Classifications
 title: ブラウザーおよび FTP インポート
-feature: 管理ツール
-uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
+feature: Classifications
 exl-id: 3b5eb6b4-42a2-4cf7-864b-33a5a7766255
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '116'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '114'
 ht-degree: 100%
 
 ---

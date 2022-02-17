@@ -1,9 +1,10 @@
 ---
 title: 分類の概要
 description: ディメンション項目のグループ化をカスタマイズします。
+feature: Classifications
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 

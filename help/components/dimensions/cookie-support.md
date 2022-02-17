@@ -1,9 +1,10 @@
 ---
 title: cookie サポート
 description: ブラウザーが cookie をサポートするかどうかを指定します。
+feature: Dimensions
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 

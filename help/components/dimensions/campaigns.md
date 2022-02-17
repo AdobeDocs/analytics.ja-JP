@@ -1,10 +1,10 @@
 ---
 title: キャンペーン
 description: 曖昧さ回避ページ。
+feature: Dimensions
 exl-id: 554c6f08-fcc4-4af9-8fef-325fd17f6997
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 100%
 

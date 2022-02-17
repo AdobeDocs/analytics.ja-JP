@@ -1,13 +1,14 @@
 ---
 title: Adobe Analytics マーケティングチャネルの実装のベストプラクティス
 description: マーケティングチャネルでの Attribution IQ と Customer Journey Analytics の使用に関するベストプラクティスの更新
-source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
+feature: Marketing Channels
+exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
 ---
-
 
 # Attribution IQ とマーケティングチャネル — ベストプラクティス
 

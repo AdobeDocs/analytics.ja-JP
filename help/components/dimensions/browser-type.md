@@ -1,9 +1,10 @@
 ---
 title: ブラウザータイプ
 description: ブラウザーを作成した組織。
+feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 

@@ -1,10 +1,10 @@
 ---
 description: 仮想レポートスイートを使用すると、Adobe Analytics データをセグメントに分割して、各セグメントへのアクセスを制御できます。
 title: 仮想レポートスイートの概要
-uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
+feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 100%
 

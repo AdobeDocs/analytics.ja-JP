@@ -1,12 +1,10 @@
 ---
 description: トラッキングコードが変更されるたびに分類の編集とアップロードを実行するのではなく、自動のルールベース分類を作成し、複数のレポートスイートに適用することができるようになりました。ルールは、分類に関連するトラフィックのボリュームに応じた頻度で処理されます。
-subtopic: Classifications
 title: 分類ルールビルダーのワークフロー
-feature: Admin Tools
-uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
+feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 

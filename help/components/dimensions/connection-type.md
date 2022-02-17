@@ -1,9 +1,10 @@
 ---
 title: 接続タイプ
 description: 訪問者がインターネットに接続する方法。
+feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: 82d6137bc9229bbaa997c6856690bf76c20b755c
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
 

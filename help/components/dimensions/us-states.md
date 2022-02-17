@@ -1,9 +1,10 @@
 ---
 title: 米国の州
 description: 訪問者の米国の州。
+feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
-source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 

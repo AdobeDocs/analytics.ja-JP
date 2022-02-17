@@ -1,9 +1,10 @@
 ---
 title: eVar（マーチャンダイジング）
 description: 製品ディメンションに関連付けられるカスタム変数。
+feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 100%
 

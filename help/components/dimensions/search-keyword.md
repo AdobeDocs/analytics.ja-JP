@@ -1,10 +1,10 @@
 ---
 title: 検索キーワード
 description: 訪問者がサイトに到達する際に使用した検索キーワード。
+feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 

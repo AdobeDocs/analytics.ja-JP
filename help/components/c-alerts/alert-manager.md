@@ -1,10 +1,10 @@
 ---
 description: アラートを管理.
 title: アラートマネージャー
-uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
+feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

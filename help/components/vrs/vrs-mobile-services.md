@@ -1,10 +1,10 @@
 ---
 description: Adobe Mobile Services UI は、Adobe Analytics レポートスイートのモバイルアプリデータとプッシュ通知の送信機能を組み合わせて、アプリ内メッセージを生成します。
 title: Mobile Services の VRS サポート
-uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
+feature: VRS
 exl-id: 3082333a-514d-45c6-9432-da32bd27a2eb
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: 再来訪頻度
 description: 現在の訪問から前回の訪問までの時間をグループで示します。
+feature: Dimensions
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
-source-git-commit: d49a1eac29b949af04e6cefece9f1433fddf19cc
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 

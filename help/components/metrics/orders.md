@@ -1,10 +1,10 @@
 ---
 title: 注文件数
 description: おこなわれた購入の数。
+feature: Metrics
 exl-id: b05abb6d-983f-43fe-80ad-a0ddf90de466
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 100%
 

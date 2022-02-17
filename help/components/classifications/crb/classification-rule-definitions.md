@@ -1,13 +1,11 @@
 ---
 description: 分類ルールビルダーのページ上のインターフェイスエレメントの定義です。
-subtopic: Classifications
 title: 分類ルール - 定義
-feature: 管理ツール
-uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '874'
 ht-degree: 100%
 
 ---

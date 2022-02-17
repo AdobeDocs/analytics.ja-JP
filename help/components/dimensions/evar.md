@@ -1,11 +1,12 @@
 ---
 title: eVar
 description: レポートで使用できるカスタムディメンション。
+feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 *このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは eVar になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。レポートスイート設定の「[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
+eVar は、好きなだけ使用できるカスタム変数です。次の場合、 [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)の場合、組織に固有のほとんどのディメンションは、 [!UICONTROL eVar]. デフォルトでは、eVar は設定されたヒットを超えても保持されます。その有効期限と配分は、 [コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in [!UICONTROL レポートスイートの設定].
 
 使用可能な eVar の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 

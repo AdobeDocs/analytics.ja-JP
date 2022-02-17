@@ -1,9 +1,10 @@
 ---
 title: 買い物かご
 description: 訪問者が最初の製品を買い物かごに追加したヒットの数。
+feature: Metrics
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%
 

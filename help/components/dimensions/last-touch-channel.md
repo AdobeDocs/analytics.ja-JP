@@ -1,10 +1,10 @@
 ---
 title: ラストタッチチャネル
 description: 訪問者のエンゲージメント期限内で最も新しいマーケティングチャネル。
+feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 

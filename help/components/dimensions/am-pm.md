@@ -1,10 +1,10 @@
 ---
 title: 午前／午後
 description: ヒットが午前中に発生したか、午後 2 時間に発生したかを判定します。
+feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 

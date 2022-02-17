@@ -2,10 +2,9 @@
 description: 順次セグメントは、AND や OR ではなく、THEN 演算子を使用して作成されます。THEN は、1 つのセグメント条件が発生すると、もう 1 つのセグメント条件が続くことを示します。デフォルトでは、順次セグメントは、フィルター「全員を含む」を表示し、合致するすべてのデータを識別します。順次セグメントは、「シーケンスの前のみ」および「シーケンスの後のみ」オプションを使用して、さらに合致するヒットのサブセットにフィルタリングできます。
 title: 順次セグメントの構築
 feature: Segmentation
-uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -47,9 +46,9 @@ ht-degree: 100%
 
 | 例 | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
-| 全員を含む | A | B | C | D | E | F |
+| 全員を含む | A | B | C | D | E | 金 |
 | シーケンスの前のみ | A | B |  |  |  |  |
-| シーケンスの後のみ |  |  |  | D | E | F |
+| シーケンスの後のみ |  |  |  | D | E | 金 |
 
 **例 2：B の次に D が複数回現れる**
 

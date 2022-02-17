@@ -1,10 +1,10 @@
 ---
 title: エラーページ（404）
 description: エラーを含むヒットの数。
+feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 

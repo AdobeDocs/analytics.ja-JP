@@ -1,13 +1,14 @@
 ---
 title: ブラウザーエクスポート
 description: ブラウザーエクスポートを使用すると、分類データをタブ区切りファイルにエクスポートできます。
-source-git-commit: d522303de5beb6a10d95ad2da523774ea595ae2d
-workflow-type: ht
+feature: Classifications
+exl-id: f4c709b2-f707-4e3c-82ba-6b43def3e698
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
 
 ---
-
 
 # ブラウザーエクスポート
 

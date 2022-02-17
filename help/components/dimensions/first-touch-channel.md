@@ -1,10 +1,10 @@
 ---
 title: ファーストタッチチャネル
 description: 訪問者のエンゲージメント期限内で最初のマーケティングチャネル。
+feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 

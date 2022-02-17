@@ -1,9 +1,10 @@
 ---
 title: オリジナルの参照ドメイン
 description: 訪問者がクリックスルーしてサイトにアクセスする前に閲覧していた最初の参照ドメイン。
+feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 

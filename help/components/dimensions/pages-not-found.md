@@ -1,10 +1,10 @@
 ---
 title: エラーページ（404）
 description: サイトでエラーを返した URL。
+feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 

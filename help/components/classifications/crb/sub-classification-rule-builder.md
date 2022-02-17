@@ -1,13 +1,14 @@
 ---
 description: 分類ルールビルダーを下位分類と組み合わせることはできません。
 title: 下位分類とルールビルダー
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+feature: Classifications
+exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
 ---
-
 
 # 下位分類とルールビルダー
 

@@ -1,11 +1,10 @@
 ---
 description: フィルター適用済み指標と重み付け指標の例を示します。
 title: フィルター適用済み指標と重み付け指標
-uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
+feature: Calculated Metrics
 exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 ![](assets/cm_fbr.png)
 
-この数式は、一貫した時間の範囲に依存することに注意してください。レポートを 1 日だけ実行する場合は、訪問回数が 20 回を超えるページも対象とした方がよいでしょう。レポートを 1 か月間実行する場合は、訪問回数がさらに多い場合に対応したフィルターが必要になる可能性があります。
+この数式は、一貫した時間の範囲に依存することに注意してください。レポートを 1 日だけ実行する場合は、訪問回数が 20 回を超えるページも対象とした方がよいでしょう。レポートを 1 ヶ月間実行する場合は、訪問回数がさらに多い場合に対応したフィルターが必要になる可能性があります。
 
 ## フィルター適用済みのバウンス率（パーセンタイルを使用） {#section_4F3E6D33A1FD438A932FA662B3510552}
 

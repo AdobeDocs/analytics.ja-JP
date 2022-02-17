@@ -1,13 +1,11 @@
 ---
 description: FTP を使用してデータファイルをアップロードする方法。
-subtopic: Classifications
 title: FTP インポート
-feature: 管理ツール
-uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
+feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: ht
-source-wordcount: '718'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -20,7 +18,7 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 
-**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**
+**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**.
 
 次の推奨限度に注意してください。
 

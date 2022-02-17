@@ -1,9 +1,10 @@
 ---
 title: 特定された状態
 description: デバイスグラフによる認識を決定するフラグ。
+feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-source-git-commit: 1a58c3e87f5918c91b891faa6027f5ad8b6024b9
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
 

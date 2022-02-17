@@ -1,12 +1,11 @@
 ---
 description: 権限に応じて、セグメントを組織全体、グループまたは個々のユーザーと共有できます。
 title: セグメントの共有
-feature: セグメント化
-uuid: 48736078-85a7-49bd-b8b8-562818798c5e
+feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '276'
 ht-degree: 100%
 
 ---

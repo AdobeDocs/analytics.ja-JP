@@ -1,9 +1,10 @@
 ---
 title: ブラウザー
 description: 使用されたブラウザーの名前とバージョン。
+feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
 

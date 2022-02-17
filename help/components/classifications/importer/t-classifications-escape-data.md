@@ -1,13 +1,11 @@
 ---
 description: 分類ファイル内の分類データをエスケープする方法について手順を説明します。
-subtopic: Classifications
 title: 分類データのエスケープ
-feature: 管理ツール
-uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
+feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '106'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '104'
 ht-degree: 100%
 
 ---

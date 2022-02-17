@@ -1,10 +1,10 @@
 ---
 title: 買い物かごからの削除
 description: 訪問者が買い物かごから商品を削除したヒット数。
+feature: Metrics
 exl-id: 74b9677e-89c7-4409-8bd3-99707436def0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 

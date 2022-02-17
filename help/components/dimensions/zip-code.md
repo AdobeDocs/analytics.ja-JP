@@ -1,9 +1,10 @@
 ---
 title: 郵便番号
 description: 訪問者の郵便番号。
+feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 

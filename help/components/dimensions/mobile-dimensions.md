@@ -1,9 +1,10 @@
 ---
 title: モバイルディメンション
 description: デバイスの IP アドレスに基づくディメンション。
+feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 

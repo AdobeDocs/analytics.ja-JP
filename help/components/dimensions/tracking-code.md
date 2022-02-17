@@ -1,10 +1,10 @@
 ---
 title: トラッキングコード
 description: トラッキングコードまたはキャンペーンの名前。
+feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
 

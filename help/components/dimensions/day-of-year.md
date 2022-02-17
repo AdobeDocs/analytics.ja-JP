@@ -1,10 +1,10 @@
 ---
 title: 年間通算日
 description: 年間通算日を数値で表します。年は関係ありません。
+feature: Dimensions
 exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
 

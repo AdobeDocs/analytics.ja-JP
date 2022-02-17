@@ -1,10 +1,10 @@
 ---
 title: 時間
 description: 指標が発生した時間。
+feature: Dimensions
 exl-id: 323c46dd-87d0-487a-b954-e5ccbc1b919d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 

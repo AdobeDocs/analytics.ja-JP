@@ -1,9 +1,10 @@
 ---
 title: 米国 DMA
 description: ヒットの指定された市場領域。
+feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 

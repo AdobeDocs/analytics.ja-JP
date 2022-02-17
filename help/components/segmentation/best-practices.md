@@ -1,10 +1,10 @@
 ---
 title: セグメントのベストプラクティス
 description: データを効率的に返す最適なセグメントを作成します。
+feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 

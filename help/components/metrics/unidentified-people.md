@@ -1,8 +1,10 @@
 ---
 title: 特定されていないユーザー
 description: クロスデバイス分析で識別されなかった訪問者の数。
-source-git-commit: 0e3ebcb7a28623c12876391e2204afa43e341d9c
-workflow-type: ht
+feature: Metrics
+exl-id: 00df1a5a-1a99-4783-acf6-8d8ab0293e6f
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 100%
 

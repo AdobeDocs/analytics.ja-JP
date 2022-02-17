@@ -1,9 +1,10 @@
 ---
 title: Experience Cloud ID を持つ訪問者
 description: Adobe Experience Cloud ID サービスを使用しているユニーク訪問者の数です。
+feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: d16128491569b93f4c470e21b84742cda13b3d2f
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 

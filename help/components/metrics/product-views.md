@@ -1,10 +1,10 @@
 ---
 title: 製品表示
 description: 製品ページへの表示数。
+feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
 

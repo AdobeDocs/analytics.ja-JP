@@ -1,10 +1,10 @@
 ---
 title: 訪問数
 description: 訪問者の n 番目の訪問。
+feature: Dimensions
 exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 

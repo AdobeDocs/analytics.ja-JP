@@ -1,12 +1,11 @@
 ---
 description: セグメントマネージャでは、セグメントにタグを付けて管理できます。
 title: セグメントのタグ設定
-feature: セグメント化
-uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
+feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '186'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '185'
 ht-degree: 100%
 
 ---

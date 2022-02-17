@@ -2,10 +2,9 @@
 description: セグメントビルダーでは、選択した演算子を使用して値を比較および制限できます。
 title: セグメントの比較演算子
 feature: Segmentation
-uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 100%
 

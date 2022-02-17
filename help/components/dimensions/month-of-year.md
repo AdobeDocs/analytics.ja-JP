@@ -1,10 +1,10 @@
 ---
 title: 月
 description: 月を数値で表します。年は関係ありません。
+feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%
 

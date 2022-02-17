@@ -1,10 +1,10 @@
 ---
 title: 出口
 description: 訪問の最後の値のインスタンス。
+feature: Metrics
 exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 100%
 

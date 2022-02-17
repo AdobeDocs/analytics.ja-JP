@@ -2,10 +2,10 @@
 description: Web ページのトラフィックを表示し、ページビューをリアルタイムでランク付けします。ビジネス上の意思決定の基になる実行可能なデータを提供します。
 title: リアルタイムレポートの概要
 topic-fix: Reports
-uuid: ff832952-c507-4c63-9437-25d9c44c44d1
+feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートの設定については、[リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md)を参照してください。
+>リアルタイムレポートでは、追加の実装やタギングは必要ありません。Adobe Analytics の既存の実装が使用されます。リアルタイムレポートの設定については、[リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md) を参照してください。
 
 **[!UICONTROL サイト指標]**／**[!UICONTROL リアルタイム]**
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 * 例えば、先週の値と昨年の値（および今日の合計）を比較することができます。
 
-永続性の概念がないので、eVar（コンバージョン指標）はサポートされないことに注意してください。コンバージョン指標を選択することはできますが、それが機能するのは、ディメンションと同じページに設定されている場合のみです。詳しくは、[リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md)を参照してください。
+永続性の概念がないので、eVar（コンバージョン指標）はサポートされないことに注意してください。コンバージョン指標を選択することはできますが、それが機能するのは、ディメンションと同じページに設定されている場合のみです。詳しくは、[リアルタイムレポートの設定](/help/components/c-real-time-reporting/t-realtime-admin.md) を参照してください。
 
 リアルタイムレポートの設定および表示をおこなうことができるのは、管理者または「全レポートアクセス」および「高度なレポート機能」権限グループのユーザーに制限されています。ただし、リアルタイムは権限を重視します。例えば、売上高を表示する権限がないユーザーは、売上高データを含むリアルタイムレポートを表示できません。
 
