@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics のオーディエンスレポート
 description: Analysis Workspace を使用してオーディエンスベースのレポートを作成する方法について説明します。
+feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 
@@ -143,7 +143,7 @@ Google Analytics のオーディエンスレポートでは、オーディエン
 * [ブラウザー](/help/components/dimensions/browser.md)
 * [オペレーティングシステム](/help/components/dimensions/operating-systems.md)
 * [画面の解像度](/help/components/dimensions/monitor-resolution.md)
-* [画面の色](/help/components/dimensions/color-depth.md)
+* [色深度](/help/components/dimensions/color-depth.md)
 
 ## 技術 - ネットワーク
 

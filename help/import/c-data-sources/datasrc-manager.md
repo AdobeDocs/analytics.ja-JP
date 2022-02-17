@@ -3,9 +3,9 @@ description: データソースの作成および管理を行い、レポート�
 subtopic: Data sources
 title: データソースマネージャー
 topic-fix: Developer and implementation
-uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 98%
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 データソースの作成および管理を行い、レポートスイートでのデータソースの使用状況を表示します。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL データソース]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL データソース]**.
 
 ## 「作成」タブ  {#section_74603FDA3D8842E49F1A51624A06DE20}
 

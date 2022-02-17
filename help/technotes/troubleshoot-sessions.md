@@ -1,9 +1,10 @@
 ---
 title: Adobe Analytics でのセッションのトラブルシューティング
 description: Adobe Analytics からログアウトする際の問題を解決する方法について説明します。
+feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 100%
 

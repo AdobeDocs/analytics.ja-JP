@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics での獲得レポート
 description: Analysis Workspace を使用して獲得ベースのレポートを作成する方法について説明します。
+feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
 

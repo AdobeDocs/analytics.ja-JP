@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics でのレポートのカスタマイズ
 description: Adobe Analytics でレポートをカスタマイズする方法について説明します。
+feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 

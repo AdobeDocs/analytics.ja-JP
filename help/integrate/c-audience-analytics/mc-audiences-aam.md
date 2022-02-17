@@ -2,10 +2,10 @@
 description: Adobe Audience Manager（AAM）は、ファーストパーティ、セカンドパーティ／パートナーおよびサードパーティのデータ統合から一意のオーディエンスプロファイルを構築できる強力なデータ管理プラットフォームです。広告主の場合、これらのオーディエンスプロファイルを利用すれば、デジタルチャネル全体で最も効果的なセグメントを定義できます。
 solution: Experience Cloud
 title: Audience Analytics の概要
-uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
+feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 

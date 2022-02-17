@@ -3,12 +3,12 @@ description: データソース使用前のレポートスイートに対する�
 subtopic: Data sources
 title: 要件とアップロードに関する制限
 topic-fix: Developer and implementation
-uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>サポート対象。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新しいレポートスイート</a>」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>サポート対象。データソースで使用されるレポートスイートでは、2 バイト文字のサポートを有効にする必要があります。 </p> <p>ヘルプの「<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=ja"  >新しいレポートスイート</a>」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> バイトオーダーマーク付きの UTF-8（EF BB BF） </td> 
@@ -94,7 +94,7 @@ UTF-8 または ISO-8859-1 のファイルを送信し、レポートスイー�
 * Web ログデータの表示が最も有効なレポートは、ページビュー数などのトラフィックレポートです。
 * ページ名は、完全な URL として表示され、クエリ文字列を含みます。
 * それぞれのファイル要求は、個別のページビューとして表示され、スタイルシートや画像ファイルを含みます。
-* URL に情報を付加すると、ファイルが個別のページとして記録されることがあります。例えば、Adobeは、次のURLを2つの異なるページとして記録します。
+* URL に情報を付加すると、ファイルが個別のページとして記録されることがあります。例えば、Adobeでは、次の URL を 2 つの異なるページとして記録します。
 
 `/jokes/misc/snail_joke.html?userid=12345`
 

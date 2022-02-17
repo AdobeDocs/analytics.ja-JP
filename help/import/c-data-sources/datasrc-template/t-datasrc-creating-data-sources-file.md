@@ -3,9 +3,9 @@ description: インポートテンプレートファイルの目的は、イン�
 subtopic: Data sources
 title: インポートファイルテンプレートの作成
 topic-fix: Developer and implementation
-uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 98%
@@ -25,7 +25,7 @@ ht-degree: 98%
 詳しくは、[インポートファイルの参照](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md)を参照してください。
 
 1. Analytics にログインします。
-1. スイートのヘッダーで、**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL データソース]**&#x200B;を選択します。
+1. スイートのヘッダーで、 **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL データソース]**.
 1. 「**[!UICONTROL データソースの作成]**」タブで、テンプレートのカテゴリとタイプを選択します。
 1. 「アクティブにする操作手順／情報」を確認し、「**[!UICONTROL アクティブ化]**」をクリックします。
 

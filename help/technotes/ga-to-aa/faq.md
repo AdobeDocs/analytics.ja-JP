@@ -1,10 +1,10 @@
 ---
 title: よくある質問
 description: サードパーティプラットフォームからアドビ製品への移行について、よく寄せられる質問にお答えします。
+feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 

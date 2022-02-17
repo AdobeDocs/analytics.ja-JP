@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics でのリアルタイムレポート
 description: Google Analytics に詳しいユーザー向けに、Adobe Analytics でリアルタイムレポートを取り込む方法について説明します。
+feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 100%
 

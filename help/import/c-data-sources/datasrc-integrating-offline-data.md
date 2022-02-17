@@ -3,9 +3,9 @@ description: データソースには、オフラインで発生するイベン�
 subtopic: Data sources
 title: トランザクションの統合と顧客の統合
 topic-fix: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 79%
@@ -38,7 +38,7 @@ ht-degree: 79%
 
  -->
 
-トランザクションIDの記録が有効かどうかを確認するには、**[!UICONTROL Analytics]**/**[!UICONTROL 管理者]**/**[!UICONTROL すべての管理者]**/**[!UICONTROL データソース]**&#x200B;に移動します。
+トランザクション ID の記録が有効かどうかを確認するには、 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL データソース]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ ht-degree: 79%
 
 オンラインからオフラインに移行する際、顧客は匿名であることが少なくありません。
 
-トランザクションIDのイベントは、訪問パーティシペーション指標（マーケティングレポートに表示される指標）には含まれません。 これは、トランザクションIDデータが訪問と関連付けられていないのに(通常、オフラインイベントはオンラインイベントに属していないので)、訪問者と関連付けられているからです。
+トランザクション ID のイベントは、訪問パーティシペーション指標には含まれません（マーケティングレポートに表示される指標）。 これは、トランザクション ID データが訪問に関連付けられない（通常、オフラインイベントはオンラインイベントに含まれない）ので、トランザクション ID データが訪問者に関連付けられるからです。
 
-[トランザクションID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)を参照してください。
+詳しくは、 [トランザクション ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

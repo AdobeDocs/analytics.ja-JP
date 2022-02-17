@@ -1,10 +1,10 @@
 ---
 description: ここでは Google や Bing のアカウント ID を簡単に見つけるための手順を説明しています。
 title: アカウント ID の見つけ方
+feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
-translation-type: ht
-source-git-commit: 4c726cc78e4d6c15db70ab04b0319b0602a51be6
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
 

@@ -1,10 +1,10 @@
 ---
 description: Analytics と Audience Manager ではセグメントが使用されます。ただし、Analytics セグメントは Audience Manager セグメントとまったく同じではありません。これらの相違は、Analytics レポートと Audience Manager レポートの相違に一部関係しています。このため、これらのソリューションでセグメントの操作を開始するときには、そうした相違を理解することが重要であり、役に立ちます。
 title: Analytics と Audience Manager のセグメントについて
-uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
+feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
 

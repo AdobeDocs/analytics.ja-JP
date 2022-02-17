@@ -1,8 +1,9 @@
 ---
 description: この詳細なガイドでは、必要な権限や使用可能なディメンションと指標など、Advertising Analytics のすべての機能について説明します。
 title: Advertising Analytics のガイド
+feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 100%

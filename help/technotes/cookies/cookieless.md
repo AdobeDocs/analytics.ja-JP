@@ -1,13 +1,14 @@
 ---
 title: ブラウザーの cookie 制限の影響を軽減するオプション
 description: Adobe Analytics のデータ収集を改善するために、ブラウザーの cookie 制限の影響を軽減する方法について説明します。
-source-git-commit: 6c354a343648162ce2951c52a70a688970e1304d
-workflow-type: ht
+feature: Data Configuration and Collection
+exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
 
 ---
-
 
 # ブラウザーの cookie 制限の影響を軽減するオプション
 
@@ -37,5 +38,4 @@ Adobe Analytics は、ファーストパーティ cookie を利用して訪問�
 
 >[!MORELIKETHIS]
 >
->[Adobe Analytics とブラウザーの cookie](cookies.md)>
->
+>[Adobe Analytics とブラウザーの cookie](cookies.md)

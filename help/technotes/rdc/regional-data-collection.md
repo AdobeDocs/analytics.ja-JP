@@ -1,8 +1,9 @@
 ---
 title: 地域データ収集
 description: 地域データ収集に関する情報
+feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%

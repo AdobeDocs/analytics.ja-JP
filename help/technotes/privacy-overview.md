@@ -2,10 +2,10 @@
 description: Adobe Analytics が収集するデータの概要とプライバシーに関する他の考慮事項です。
 keywords: プライバシー
 title: プライバシーの概要
-uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 

@@ -2,9 +2,10 @@
 title: Analytics 用 PWA
 description: Adobe Analytics 用プログレッシブ Web アプリ
 role: User, Admin
+feature: Progressive Web Apps
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
 

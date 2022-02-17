@@ -2,12 +2,12 @@
 description: Audience Analytics を実装するときによくある質問への回答です。
 solution: Experience Cloud
 title: よくある質問
-uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1094'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Audience Analytics を実装するときによくある質問への回答です�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q：Analytics レポートに「オーディエンスの上限に達しました」と表示されるのはなぜですか。（注意：また、Data Warehouse では「Audience ID = -1」および「::max_audiences_exceeded:::」としても表示されます。</b> </p> </td> 
+   <td colname="col1"> <p><b>Q：Analytics レポートに「オーディエンスの上限に達しました」と表示されるのはなぜですか。( 注意：これは、Audience ID = -1 および「:」としても表されます。:max_audiences_exceeded::" (Data Warehouse)</b> </p> </td> 
    <td colname="col2"> <p>デフォルトでは、AAM の Audience Analytics 統合は、訪問者が認定されたすべてのセグメントをヒットごとに Analytics に送信します。単一のヒットで訪問者が 150 を超える AAM セグメントに属している場合、<b>150 個の最近認定されたセグメント</b>が Analytics に送信され、残りのリストは切り捨てられます。 </p> <p>セグメントリストが切り捨てられたことを示す追加のフラグが Analytics に送信され、オーディエンス名ディメンションに「オーディエンスの制限に達しました」と表示され、オーディエンス ID ディメンションに「-1」が表示されます。 </p> <p>特定のヒットで訪問者が 150 を超えるセグメントに認定されることはあまりありませんが、まれに起こる可能性があります。レポートに「オーディエンスの制限に達しました」が表示される場合は、2 つの選択肢があります。 </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>選択肢 1</b>：統合を初期状態で使用し、特定の訪問者が最近認定された 150 個のセグメントを送信します。 </li> 

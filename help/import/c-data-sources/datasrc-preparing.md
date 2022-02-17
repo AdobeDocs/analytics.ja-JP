@@ -3,12 +3,12 @@ description: データソース使用の準備に利用できる手順です。
 subtopic: Data sources
 title: データソースを使用するための準備
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 
 データソースのデータに対して指標とイベントとの適切なマッピングを決定した後は、イベント名を、関連するデータソース指標に対応するわかりやすい名前に変更します。
 
-管理ツールのヘルプの「[成功イベント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)」を参照してください。
+管理ツールのヘルプの「[成功イベント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ja)」を参照してください。
 
 >[!NOTE]
 >

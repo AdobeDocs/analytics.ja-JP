@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics のコンバージョンレポート
 description: Adobe Analytics でコンバージョンレポートを使用する方法について説明します。
+feature: Third-party Integration
 exl-id: 315b7dc0-1cd9-4beb-8203-88e205375f84
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
 
