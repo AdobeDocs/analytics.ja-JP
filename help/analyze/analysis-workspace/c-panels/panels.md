@@ -4,10 +4,10 @@ title: パネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,9 @@ Analysis Workspace では、次のパネルタイプを利用できます。
 | [Analytics for Target パネル](a4t-panel.md) | Analysis Workspace で Target アクティビティとエクスペリエンスを分析します。 |
 | [アトリビューションパネル](attribution.md) | 任意のディメンションとコンバージョン指標を使用して、アトリビューションモデルをすばやく比較および視覚化します。 |
 | [フリーフォームパネル](freeform-panel.md) | 無制限の比較および分類を実行し、ビジュアライゼーションを追加して豊かなデータのストーリーを示します。 |
+| [メディア分平均オーディエンスパネル](average-minute-audience-panel.md) | ピークビューの詳細と分類および比較機能を使用して、経時的な分平均オーディエンスを分析します。 |
 | [メディアの同時視聴者パネル](media-concurrent-viewers.md) | 同時実行のピークの詳細と分類および比較機能を使用して、経時的に同時視聴者を分析します。 |
+| [メディア再生時間パネル](media-playback-timespent/media-playback-time-spent.md) | 同時実行のピークの詳細と分類および比較機能を使用して、経時的に同時視聴者を分析します。 |
 | [セグメント比較パネル](c-segment-comparison/segment-comparison.md) | すべてのデータポイントで 2 つのセグメントをすばやく比較し、関連性の高い違いを自動的に見つけます。 |
 
 ![](assets/panel-overview.png)

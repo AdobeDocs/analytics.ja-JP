@@ -3,7 +3,7 @@ title: Adobe Analytics テクニカルドキュメントのアップデート
 description: Adobe Analytics ドキュメントセットの大幅なアップデート。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
+source-git-commit: 487761e051abf1e37465094fde44af35fe625aeb
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 100%
