@@ -7,7 +7,7 @@ user-guide-description: Analytics の主要な分析およびビジュアライ�
 source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 97%
    + コンポーネント {#components}
       + [コンポーネントの概要](analysis-workspace/components/analysis-workspace-components.md)
       + 注釈 {#annotations}
-         + [注釈：概要](analysis-workspace/components/annotations/overview.md)
-         + [注釈の作成](analysis-workspace/components/annotations/create-annotations.md)
-         + [注釈の管理](analysis-workspace/components/annotations/manage-annotations.md)
-         + [注釈の表示](analysis-workspace/components/annotations/view-annotations.md)
+         + [注釈の概要](analysis-workspace/components/annotations/overview.md)
+         + [注釈を作成](analysis-workspace/components/annotations/create-annotations.md)
+         + [注釈を管理](analysis-workspace/components/annotations/manage-annotations.md)
+         + [注釈を表示](analysis-workspace/components/annotations/view-annotations.md)
       + ディメンション {#dimensions}
          + [ディメンションのプレビュー](analysis-workspace/components/dimensions/view-dimensions.md)
          + [ディメンションの分類](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -289,7 +289,7 @@ ht-degree: 97%
    + [ブラウザー拡張のトラブルシューティング](activity-map/troubleshooting-browser-extensions.md)
    + [データ収集のトラブルシューティング](activity-map/troubleshoot-data-collection.md)
 + Reports and Analytics {#reports-analytics}
-   + [Reports &amp; Analytics の概要](reports-analytics/getting-started.md)
+   + [Reports and Analytics の概要](reports-analytics/getting-started.md)
    + レポートインターフェイスの概要 {#reporting-interface}
       + [データ収集について](reports-analytics/overview/overview-data-collection.md)
       + [レポートメニュー](reports-analytics/overview/reports-menu.md)

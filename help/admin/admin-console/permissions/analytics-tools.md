@@ -6,7 +6,7 @@ feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,5 +43,5 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | [!UICONTROL Advertising Analytics 管理] | 未使用。 |
 | [!UICONTROL セグメント公開] | セグメントの作成時または編集時に、セグメントを Experience Cloud オーディエンスにする機能を付与します。 |
 | [!UICONTROL 統合 (作成)] | 未使用。Data Connectors の提供が終了しました。 |
-| [!UICONTROL 統合 (更新)] | 未使用。 |
-| [!UICONTROL 統合 (削除)] | 未使用。 |
+| [!UICONTROL 統合（更新）] | 未使用。 |
+| [!UICONTROL 統合（削除）] | 未使用。 |
