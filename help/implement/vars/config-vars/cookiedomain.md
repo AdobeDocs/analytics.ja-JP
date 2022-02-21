@@ -1,9 +1,10 @@
 ---
 title: cookieDomain
 description: cookieDomain 変数は、Cookie を設定するドメインを決定するのに役立ちます。
+feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
 

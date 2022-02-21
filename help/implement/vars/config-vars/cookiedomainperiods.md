@@ -1,9 +1,10 @@
 ---
 title: cookieDomainPeriods
 description: ドメインのサフィックスにピリオドが含まれていると、AppMeasurement が Cookie を保存するドメインをよりよく理解できます。
+feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: イベントのシリアル化
 description: サイト上の指標の重複を除外するのに役立ちます。
+feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 100%
 

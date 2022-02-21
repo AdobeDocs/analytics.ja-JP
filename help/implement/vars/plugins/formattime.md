@@ -1,9 +1,10 @@
 ---
 title: formatTime
 description: 秒数を分単位、時間単位などで同等の値に変換します。
+feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
 

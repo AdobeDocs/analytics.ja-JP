@@ -1,15 +1,16 @@
 ---
 title: account
 description: Account 変数を使用して、データの送信先のレポートスイートを決定します。
+feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%
 
 ---
 
-# account
+# アカウント
 
 >[!IMPORTANT]
 >

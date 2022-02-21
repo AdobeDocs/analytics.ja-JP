@@ -1,10 +1,10 @@
 ---
 title: 外部電子メールトラッキング
 description: Adobe Analytics を使用して電子メールコンテンツを追跡します。
+feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 100%
 

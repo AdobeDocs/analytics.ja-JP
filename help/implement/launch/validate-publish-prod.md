@@ -1,9 +1,10 @@
 ---
 title: 開発実装の検証と実稼動環境への公開
 description: Adobe Experience Platform のタグを使用して、Adobe Analytics を実稼動環境にデプロイする方法を説明します。
+feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -16,7 +17,7 @@ ht-degree: 100%
 >[!NOTE]
 >Adobe Experience Platform Launch は、Experience Platform のデータ収集テクノロジースイートとしてリブランドされています。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja)を参照してください。
 
-## 前提条件
+## 前提条件 
 
 [Analytics 実装を開発環境にデプロイする](deploy-dev.md)：このページの手順をおこなうには、Analytics 実装を開発環境に公開する必要があります。
 

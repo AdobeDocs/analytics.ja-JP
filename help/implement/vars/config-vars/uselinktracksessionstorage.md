@@ -1,9 +1,10 @@
 ---
 title: useLinkTrackSessionStorage
 description: リンクトラッキングデータを、cookie ではなくセッションストレージに格納します。
+feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 

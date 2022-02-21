@@ -1,9 +1,10 @@
 ---
 title: getTimeParting
 description: 特定のアクションが実行される時間を測定します。
+feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 100%
 

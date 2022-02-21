@@ -1,9 +1,10 @@
 ---
 title: t
 description: ページビュートラッキングコールをアドビに送信します。
+feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 

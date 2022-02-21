@@ -1,9 +1,10 @@
 ---
 title: pageName
 description: サイトのページの名前。
+feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
 

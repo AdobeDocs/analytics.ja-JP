@@ -1,9 +1,10 @@
 ---
 title: doPlugins
 description: ヒットがコンパイルされてアドビに送信される直前にロジックを設定します。
+feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 

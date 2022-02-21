@@ -1,10 +1,10 @@
 ---
 title: 重点レビュー（各 Web サイトリリース後）
 description: 以下の手順に従って、実装時にエラーが発生しないようにし、KPI に沿って進める必要があります。
+feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
 

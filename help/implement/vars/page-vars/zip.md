@@ -1,9 +1,10 @@
 ---
 title: 郵便番号
 description: レポートスイートの設定で許可されている場合は、「郵便番号」ディメンションを手動で入力します。
+feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 

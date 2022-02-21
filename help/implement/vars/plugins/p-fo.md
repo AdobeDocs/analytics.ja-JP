@@ -1,9 +1,10 @@
 ---
 title: p_fo（Page First Only）
 description: 特定のルーチンが 1 ページにつき 1 回だけ実行されるようにします。
+feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 

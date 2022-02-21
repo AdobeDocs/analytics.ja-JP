@@ -1,9 +1,10 @@
 ---
 title: タグの Analytics プロパティの作成
 description: タグを使用してスペースを作成し、データの収集方法をカスタマイズします。
+feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -16,7 +17,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 >[!NOTE]
 >Adobe Experience Platform Launch は、Experience Platform のデータ収集テクノロジースイートとしてリブランドされています。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja)を参照してください。
 
-## 前提条件
+## 前提条件 
 
 [レポートスイートの作成](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データ用のサイロを作成します。。
 

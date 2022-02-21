@@ -1,9 +1,10 @@
 ---
 title: useBeacon
 description: useBeacon を使用すると、AppMeasurement で強制的にブラウザーの sendBeacon API を使用できます
+feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 

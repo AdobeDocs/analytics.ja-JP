@@ -1,9 +1,10 @@
 ---
 title: usePlugins
 description: doPlugins() 関数を有効または無効にします。
+feature: Variables
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 

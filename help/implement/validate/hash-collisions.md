@@ -1,10 +1,10 @@
 ---
 title: ハッシュの競合
 description: ハッシュの競合とは何かと、どのようにレポートで示されるかについて説明します。
+feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 

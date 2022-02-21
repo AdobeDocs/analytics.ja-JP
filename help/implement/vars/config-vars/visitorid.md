@@ -1,9 +1,10 @@
 ---
 title: visitorID
 description: カスタム訪問者 ID を使用します。
+feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 

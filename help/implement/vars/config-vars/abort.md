@@ -1,9 +1,10 @@
 ---
 title: abort
 description: abort 変数は、ヒットがアドビのデータ収集サーバーに送信されないようにするブール値です。
+feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: レガシー Adobe Experience Cloud デバッガー
 description: レガシー Adobe Experience Cloud デバッガーをインストールします。このデバッガーは、Analytics、Target、Advertising Cloud、ID サービスおよびデータ収集のタグを調べます。
+feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 
@@ -35,7 +36,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-[Chrome 拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=ja)を使用したくない場合は、レガシーデバッガーブックマークレットを代わりに使用できます。
+[Chrome 拡張機能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)を使用したくない場合は、レガシーデバッガーブックマークレットを代わりに使用できます。
 
 1. 右上の 3 つのドットをクリックし、ブックマーク／ブックマークマネージャーに移動します。また、`Ctrl` + `Shift` + `O`（Windows）または `Cmd` + `Shift` + `O`（Mac）を押すこともできます。
 2. ブックマークマネージャーの右上で、3 つのドットをクリックし、「新しいブックマークの追加」をクリックします。

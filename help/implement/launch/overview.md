@@ -1,9 +1,10 @@
 ---
 title: Adobe Experience Platform のタグを使用した実装
 description: タグを使用した Adobe Analytics の実装方法を説明します
+feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
 

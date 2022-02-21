@@ -1,15 +1,16 @@
 ---
 title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
+feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
 
 ---
 
-# list
+# リスト
 
 リスト変数は、好きなだけ使用できるカスタム変数です。eVar と同様に機能しますが、同じヒットに複数の値を含めることができます。リスト変数には文字制限はありません。
 

@@ -1,9 +1,10 @@
 ---
 title: タグデータ要素の Analytics 変数へのマッピング
 description: Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
+feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 

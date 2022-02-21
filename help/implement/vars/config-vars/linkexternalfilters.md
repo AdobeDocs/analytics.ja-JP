@@ -1,9 +1,10 @@
 ---
 title: linkExternalFilters
 description: linkExternalFilters 変数の使用は出口リンクの自動トラッキングに役立ちます。
+feature: Variables
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: データレイヤーオブジェクトをデータ要素にマッピングする
 description: データレイヤーから読み取るようにタグを設定します。
+feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
@@ -16,7 +17,7 @@ ht-degree: 100%
 >[!NOTE]
 >Adobe Experience Platform Launch は、Experience Platform のデータ収集テクノロジースイートとしてリブランドされています。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja)を参照してください。
 
-## 前提条件
+## 前提条件 
 
 [データレイヤーを作成する](../prepare/data-layer.md)：サイトにデータレイヤーが存在することを確認します。技術的には、任意の JavaScript オブジェクトをマッピングしたり、CSS 要素をページから直接削除したりできますが、アドビではこの方法を最後の手段として使用することをお勧めします。サイトのレイアウトが変更されると、タグで使用される CSS セレクターの動作が停止し、データが失われます。
 

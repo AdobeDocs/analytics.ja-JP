@@ -1,9 +1,10 @@
 ---
 title: getTimeToComplete
 description: タスクの完了に要した時間を測定します。
+feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 

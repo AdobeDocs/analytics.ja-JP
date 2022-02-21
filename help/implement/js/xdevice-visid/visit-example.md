@@ -3,11 +3,10 @@ description: 一般的な顧客インタラクションで送信されるサー�
 keywords: Analytics の実装
 subtopic: Visitors
 title: クロスデバイス訪問者特定の例
-topic-fix: Developer and implementation
-uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
+feature: Implementation Basics
 exl-id: c68bb745-29de-48e3-8731-d714503a2447
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 

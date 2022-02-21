@@ -1,9 +1,10 @@
 ---
 title: タイムスタンプ
 description: ヒットのタイムスタンプを手動で設定します。
+feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -41,7 +42,7 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601 値
 
-[ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) で表される日付と時間は、様々な形式を取ることができます。アドビは、ISO 8601 のすべての機能をサポートしているわけではありません。
+[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) で表される日付と時間は、様々な形式を取ることができます。アドビは、ISO 8601 のすべての機能をサポートしているわけではありません。
 
 * 日付と時刻を `T` で区切り、両方を指定する必要があります。
 * 時間と分が必要です。秒はオプションですが、推奨されます。

@@ -1,9 +1,10 @@
 ---
 title: visitorNameSpace
 description: Cookie ドメインを決定した古い変数。
+feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 

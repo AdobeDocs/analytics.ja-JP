@@ -1,10 +1,10 @@
 ---
 title: クロスデバイス訪問者特定に関する FAQ
 description: クロスデバイス訪問者特定に関するよくある質問（FAQ）
+feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # クロスデバイス訪問者特定に関する FAQ
 
-クロスデバイス訪問者特定に関するよくある質問です。
+クロスデバイス訪問者特定に関するよくある質問（FAQ）。
 
 **クロスデバイス訪問者特定とクロスデバイス分析の違いは何ですか。**
 

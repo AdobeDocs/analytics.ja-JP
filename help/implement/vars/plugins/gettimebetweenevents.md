@@ -1,9 +1,10 @@
 ---
 title: getTimeBetweenEvents
 description: 2 つのイベントの間隔を測定します。
+feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 100%
 

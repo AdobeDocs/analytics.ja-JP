@@ -1,9 +1,10 @@
 ---
 title: JavaScript 実装のトラブルシューティング
 description: JavaScript 実装の一般的な問題とトラブルシューティングに関するベストプラクティスについて説明します。
+feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 

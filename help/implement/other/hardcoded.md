@@ -1,9 +1,10 @@
 ---
 title: ハードコードされたイメージリクエストを使用した実装
 description: HTML イメージタグを使用した Adobe Analytics の実装（ハードコードされたイメージリクエスト）
+feature: Implementation Basics
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-source-git-commit: a97043caa9b6d2dc24f52c599fd0caa9241af62f
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 100%
 

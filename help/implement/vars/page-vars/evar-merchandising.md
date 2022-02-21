@@ -1,9 +1,10 @@
 ---
 title: eVar（マーチャンダイジング）
 description: 個々の製品に関連付けられるカスタム変数。
+feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 

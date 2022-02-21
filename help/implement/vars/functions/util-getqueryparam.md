@@ -1,9 +1,10 @@
 ---
 title: Util.getQueryParam
 description: クエリー文字列パラメーターの値を返します。
+feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 

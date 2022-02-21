@@ -1,9 +1,10 @@
 ---
 title: s_objectID
 description: Activity Map で、サイト上の一意のリンクを識別します。
+feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
+feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 

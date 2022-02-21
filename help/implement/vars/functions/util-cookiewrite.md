@@ -1,9 +1,10 @@
 ---
 title: Util.cookieWrite
 description: Cookie に値を書き込みます。
+feature: Variables
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 

@@ -1,13 +1,14 @@
 ---
 description: 複数のスイートタグ付けを実装し、イメージリクエストを複数のレポートスイートに送信する方法を説明します。
 title: 複数のスイートタグ付けの実装
-source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: ht
+feature: Implementation Basics
+exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
 ---
-
 
 # 複数のスイートタグ付けの実装
 

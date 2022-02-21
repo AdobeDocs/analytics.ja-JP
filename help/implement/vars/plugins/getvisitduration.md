@@ -1,9 +1,10 @@
 ---
 title: getVisitDuration
 description: 訪問者がサイトに来訪した時間を追跡します。
+feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: sa
 description: いつでも実装のレポートスイートを変更できます。
+feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
 
