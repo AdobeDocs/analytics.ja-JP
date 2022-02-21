@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 
 | アクション | ショートカット |
 | --- | --- |
-| 新規プロジェクトを作成 | Ctrl + Shift + P |
-| 既存のプロジェクトを開く | Ctrl + O |
+| 新規プロジェクトを作成 | Ctrl+Shift+P |
+| 既存のプロジェクトを開く | Ctrl+O |
 | パネルウィンドウに移動 | Alt+Shift+1 |
 | ビジュアライゼーションウィンドウに移動 | Alt+Shift+2 |
 | コンポーネントウィンドウに移動 | Alt+Shift+3 |
@@ -39,18 +39,18 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 | アクション | ショートカット |
 | --- | --- |
 | 左パネルを検索 | Ctrl+/ |
-| アラートの作成 | Ctrl + Shift + A |
-| 注釈の作成 | ctrl + shift + o |
-| 計算指標を作成 | Ctrl + Shift + C |
-| 日付範囲を作成 | Ctrl + Shift + D |
-| セグメントの作成 | Ctrl + Shift + E |
+| アラートの作成 | Ctrl+Shift+A |
+| 注釈を作成 | Ctrl+Shift+O |
+| 計算指標を作成 | Ctrl+Shift+C |
+| 日付範囲を作成 | Ctrl+Shift+D |
+| セグメントの作成 | Ctrl+Shift+E |
 | すべてクリア | Alt+W |
-| Copy | Ctrl + c |
-| やり直し | Ctrl + Shift + z |
-| 元に戻す | Ctrl + z |
+| コピー | Ctrl+c |
+| やり直し | Ctrl+Shift+z |
+| 元に戻す | Ctrl+z |
 | コンポーネントを更新 | Alt+Shift+R |
 | プロジェクトを更新 | Alt+R |
-| ランディングページとして設定 | Ctrl + Shift + L |
+| ランディングページとして設定 | Ctrl+Shift+L |
 
 ## 追加パネルとビジュアライゼーションのアクション
 
@@ -71,13 +71,13 @@ Analysis Workspace では、シームレスなナビゲーション、分析、�
 
 | アクション | ショートカット |
 | --- | --- |
-| プロジェクトを保存 | Ctrl + S |
-| プロジェクトに名前を付けて保存 | Ctrl + Shift + S |
+| プロジェクトを保存 | Ctrl+S |
+| プロジェクトに名前を付けて保存 | Ctrl+Shift+S |
 | テンプレートとして保存 | Alt+T |
-| CSV としてダウンロード | Ctrl + Shift + V |
-| PDF としてダウンロード | Ctrl + Shift + B |
-| プロジェクトデータをキュレート | Ctrl + Shift + G |
-| プロジェクトを共有 | Ctrl + G |
+| CSV としてダウンロード | Ctrl+Shift+V |
+| PDF としてダウンロード | Ctrl+Shift+B |
+| プロジェクトデータをキュレート | Ctrl+Shift+G |
+| プロジェクトを共有 | Ctrl+G |
 | プロジェクトリンクを取得 | Alt+l |
 | ファイルを今すぐ送信 | Alt+S |
 | ファイルをスケジュールに従って送信 | Shift+Alt+S |
