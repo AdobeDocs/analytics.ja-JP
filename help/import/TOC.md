@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics インポートガイド
 breadcrumb-title: インポートガイド
 user-guide-description: '一括またはリアルタイムで、外部のソースから Analytics にデータを取り込みます。 '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '140'
 ht-degree: 92%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 92%
    + [トランザクションと顧客の統合](c-data-sources/datasrc-integrating-offline-data.md)
    + [トランザクション ID と訪問者プロファイル](c-data-sources/datasrc-tid-visitor-profile.md)
    + [データソースに関する FAQ](c-data-sources/datasrc-faq.md)
++ [一括データ挿入 API](bulk-data-insertion-api/bulk-data-insert.md)
 + [データ挿入 API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Analytics Data Connectors の提供終了](data-connectors/data-connectors-eol.md)

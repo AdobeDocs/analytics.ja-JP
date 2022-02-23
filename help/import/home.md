@@ -2,10 +2,10 @@
 title: Analytics インポートガイド
 description: このガイドでは、データソース、Data Insertion API、Data Connectors を使用して、データを Analytics に送信する方法について説明します。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
+source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 86%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 100%
 このガイドでは、Analytics にデータを取得する方法を説明します。以下のようなものがあります。
 
 * **[データソース](c-data-sources/datasrc-home.md)**：指定された Adobe FTP サイトにファイルをアップロードします。アドビは、ファイルを取得し、データをレポートスイートに含めます。
+* **[一括データ挿入 API](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** では、AppMeasurement などのクライアント側ライブラリを使用する代わりに、ファイルのバッチでサーバーコールデータをアップロードできます。
 * **[Data Insertion API](c-data-insertion-api/c-data-insertion-api.md)**：API を使用して、アドビのデータコレクションに直接データを送信します。
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**：Adobe Analytics レポートスイートのエンリッチメントに使用できる現在の統合を検索します。
 
