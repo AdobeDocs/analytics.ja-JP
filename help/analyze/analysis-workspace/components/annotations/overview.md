@@ -3,8 +3,9 @@ title: 注釈の概要
 description: ワークスペースで注釈を使用する方法。
 role: User, Admin
 solution: Analytics
+feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 38170806d0fbf6ae373ae089872f8d25306f416e
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 79%

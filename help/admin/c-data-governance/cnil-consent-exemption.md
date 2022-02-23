@@ -1,9 +1,10 @@
 ---
 description: デバイスやブラウザーでの不必要な Cookie の保存や読み取りに対するユーザーの同意についてのガイドラインと推奨事項について説明します。
 title: ユーザーの同意と Cookie に関する CNIL ガイドライン
+feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 100%
 

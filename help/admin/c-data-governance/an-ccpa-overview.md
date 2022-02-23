@@ -1,10 +1,10 @@
 ---
 description: このドキュメントでは、CCPA におけるデータ主体のアクセス権および削除権に対応するために、Adobe Analytics でどのような作業が必要かを説明します。
 title: Adobe Analytics と CCPA
-uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 Adobe Cloud Platform（ACP）には統合型ソリューションが用意されており、お客様のデータガバナンスインフラストラクチャと、顧客エクスペリエンスを作成および管理するためのアドビのツールを連携させることができます。Adobe Cloud Platform のこのデータガバナンス機能によって、データガバナンスポリシーとデータ利用を直接リンクさせることができます。
 
-「[Adobe Analytics による GDPR の処理方法](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html)」を確認してください。ここでは、プライバシー対応の手順と、Adobe Experience Cloud プライバシーサービス API との統合方法について説明しています。
+「[Adobe Analytics による GDPR の処理方法](https://www.adobe.com/jp/data-analytics-cloud/analytics/general-data-protection-regulation.html)」を確認してください。ここでは、プライバシー対応の手順と、Adobe Experience Cloud プライバシーサービス API との統合方法について説明しています。
 
 ## CCPA 対応の準備とお客様の Adobe Analytics データ
 

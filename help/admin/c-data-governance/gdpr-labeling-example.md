@@ -1,10 +1,10 @@
 ---
 description: ヒットデータ、アクセス要求、削除要求のデータラベル付けの方法の例を示します
 title: ラベル設定の例
-uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
+feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 |---|---|---|---|---|---|
 | **変数名** <br> **(名前空間)** | **MyProp1** <br> **（user）** | **訪問者 ID** <br> **（AAID）** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **（xyz）** |
 | ヒットデータ | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | いいえ | Y |
-|  | Mary | 99 | C | O | Z |
+|  | メアリー | 88 | B | いいえ | Y |
+|  | メアリー | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
 |  | John | 88 | E | いいえ | U |
 |  | John | 44 | F | Q | V |
@@ -75,7 +75,7 @@ ht-degree: 100%
     <td>user=Mary</td>
     <td>false</td>
     <td>ユーザー</td>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -85,7 +85,7 @@ ht-degree: 100%
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
     <td>ユーザー</td>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -103,7 +103,7 @@ ht-degree: 100%
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>ユーザー</td>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -157,21 +157,21 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>42</td>
     <td>A</td>
     <td>Privacy-7398</td>
     <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>88</td>
     <td>B</td>
     <td>いいえ</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>メアリー</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>
@@ -194,7 +194,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
   <tr>
     <td>John</td>
     <td>44</td>
-    <td>F</td>
+    <td>金</td>
     <td>Q</td>
     <td>V</td>
   </tr>
@@ -206,7 +206,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>アリス</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -267,7 +267,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
   <tr>
     <td>John</td>
     <td>44</td>
-    <td>F</td>
+    <td>金</td>
     <td>Q</td>
     <td>V</td>
   </tr>
@@ -279,7 +279,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>アリス</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>
@@ -340,7 +340,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
   <tr>
     <td>John</td>
     <td>44</td>
-    <td>F</td>
+    <td>金</td>
     <td>Q</td>
     <td>V</td>
   </tr>
@@ -352,7 +352,7 @@ Cookie ID が使用されている場合、expandIDs の設定は出力に影響
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>アリス</td>
     <td>66</td>
     <td>A</td>
     <td>いいえ</td>

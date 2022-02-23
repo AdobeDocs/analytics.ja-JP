@@ -1,9 +1,9 @@
 ---
 title: 一般的なボット署名
 description: ボットの共通識別子を認識します。
-feature: Admin Tools
+feature: Bot Removal
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%

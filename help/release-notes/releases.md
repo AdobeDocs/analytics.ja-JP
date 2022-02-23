@@ -1,8 +1,9 @@
 ---
 description: Adobe Analyticsの継続的な機能リリース戦略を説明します
 title: Adobe Analytics 機能リリース
+feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 92%

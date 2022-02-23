@@ -1,11 +1,10 @@
 ---
 description: 検索可能にする各 ID には、名前空間が割り当てられます。名前空間とは、すべてのレポートスイートにわたって使用される任意の変数でその ID を識別するカスタム文字列のことです。
 title: 名前空間
-uuid: cab61844-3209-4980-b14c-6859de777606
+feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 100%
 

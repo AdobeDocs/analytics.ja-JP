@@ -1,11 +1,10 @@
 ---
 description: レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。事前にラベルとその意味について学んでおいてください。
 title: レポートスイートのデータのラベル設定
-uuid: a694851c-8933-496e-9118-113cc38cba8a
+feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -64,7 +63,7 @@ ht-degree: 100%
 
 1. すべてのラベル設定が完了したら、「**[!UICONTROL 適用]**」をクリックします。
 
-## レポートスイートへのラベルのコピー {#section_7C6FDAFF049F4126B84F6261F72668EE}
+## レポートスイートへのラベルのコピー  {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 次に、複数のレポートスイートに同じ DULE／データプライバシー設定を割り当てる手順を示します。
 

@@ -2,8 +2,9 @@
 title: 注釈を表示
 description: ワークスペースで注釈を表示する方法。
 role: User, Admin
+feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 78%

@@ -2,8 +2,9 @@
 title: 注釈を作成
 description: ワークスペースでの注釈の作成方法
 role: User, Admin
+feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 8c5614799d4350f214f7ff2c229a7a9461839720
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 61%

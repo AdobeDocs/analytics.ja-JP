@@ -1,11 +1,10 @@
 ---
 description: Adobe Analytics のデータガバナンス用語集
 title: GDPR 関連の用語
-uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
+feature: Data Governance
 exl-id: d6e6d363-ac5e-467e-af88-f6feda9cb980
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
