@@ -3,10 +3,10 @@ description: Adobe Analytics のデータガバナンスに関する FAQ
 title: よくある質問
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 98%
+source-wordcount: '1802'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>アドビの製品をご利用のお客様（データ管理者）がデータプライバシー処理のために Adobe Analytics でどのデータプライバシー要求をどの ID にマッピングしているかを調べるにはどうしたらよいですか？</b> </p> </td> 
-   <td colname="col2"> <p>データ管理者は、データ主体からの要求の ID を解決する方法を決めます。<a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">アドビのデータプライバシー ID 取得タグのデプロイを検討します。</a>開発チームは、データプライバシー要求を処理するためにアドビのデータプライバシー ID 取得タグを使用してユーザー ID（Cookie ID）をキャプチャし、アドビのデータプライバシー API を使用してそれらのユーザー ID を Adobe Experience Cloud の関連ソリューションに送信することで、時間を節約できます。 </p> <p>データプライバシー API は、複数のアドビソリューションをまたいで様々な顧客 ID をサポートできます。データ主体が識別子（カスタム変数 – prop または eVar）と共に要求を送信すると、Adobe Analytics は、指定された識別子について収集されたデータの履歴全体をスキャンします。Analytics prop または eVar に格納されているカスタム ID の設定方法について詳しくは、<a href="/help/admin/c-data-governance/gdpr-namespaces.md">名前空間</a>の Analytics ドキュメントを参照してください。
+   <td colname="col2"> <p>データ管理者は、データ主体からの要求の ID を解決する方法を決めます。<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">アドビのデータプライバシー ID 取得タグのデプロイを検討します。</a>開発チームは、データプライバシー要求を処理するためにアドビのデータプライバシー ID 取得タグを使用してユーザー ID（Cookie ID）をキャプチャし、アドビのデータプライバシー API を使用してそれらのユーザー ID を Adobe Experience Cloud の関連ソリューションに送信することで、時間を節約できます。 </p> <p>データプライバシー API は、複数のアドビソリューションをまたいで様々な顧客 ID をサポートできます。データ主体が識別子（カスタム変数 – prop または eVar）と共に要求を送信すると、Adobe Analytics は、指定された識別子について収集されたデータの履歴全体をスキャンします。Analytics prop または eVar に格納されているカスタム ID の設定方法について詳しくは、<a href="/help/admin/c-data-governance/gdpr-namespaces.md">名前空間</a>の Analytics ドキュメントを参照してください。
     </p> </td> 
   </tr> 
   <tr> 

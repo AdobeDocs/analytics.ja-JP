@@ -3,10 +3,10 @@ description: 検索可能にする各 ID には、名前空間が割り当てら
 title: 名前空間
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * 「type」フィールド。Adobe Analytics のほとんどの要求で、値は「analytics」になります。
 * 「value」フィールド。値は、各レポートスイートの関連付けられた名前空間の変数に含まれている、Analytics による検索対象となる ID です。
 
-詳しくは、[Experience Cloud データプライバシー API のドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)を参照してください。
+詳しくは、[Experience Cloud データプライバシー API のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)を参照してください。
 
 ## Cookie ID
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 これらの Cookie ID の任意の値の部分の形式が、その ID について説明した形式に従っていない場合、「値が正しくフォーマットされていません」というエラーと共に、データプライバシー要求は失敗します。
 
-新しい[プライバシー JavaScript](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm) を使用して、これらの Cookie ID を収集するのが最も一般的です。これにより、これらの JSON ID の関連するすべてのキーと値のペアが自動的に提供されます。
+新しい[プライバシー JavaScript](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) を使用して、これらの Cookie ID を収集するのが最も一般的です。これにより、これらの JSON ID の関連するすべてのキーと値のペアが自動的に提供されます。
 
 この JavaScript コードによって、前述のフィールド（名前空間、タイプ、値）以外のキーと値のペアが JSON に入力されますが、Analytics でのデータプライバシーの処理で最も重要なのは、前述のフィールドです。他の方法で ID を収集している場合に提供する必要があるのも前述のフィールドのみです。
 

@@ -3,9 +3,9 @@ description: Analytics ユーザー ID を Adobe Experience Cloud 内の Admin C
 title: Admin Console への Analytics ユーザーの移行
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '3119'
+source-wordcount: '3115'
 ht-degree: 97%
 
 ---
@@ -280,7 +280,7 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>ユーザー管理 API の<a href="https://helpx.adobe.com/jp/enterprise/help/identity.html">アドビがサポートしている ID タイプ</a> </p> </td> 
-   <td colname="col2"> <p> Admin Console への移行をおこなっている管理者は、プログラムによって Admin Console のユーザーアカウントにアクセスできるよう、Adobe I/O で提供されている<a href="https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html">ユーザー管理 API</a> を設定する必要があります。 </p> <p>管理者が移行を実行できるようになると、Analytics の権限 API はオフになります。 </p> </td> 
+   <td colname="col2"> <p> Admin Console への移行をおこなっている管理者は、プログラムによって Admin Console のユーザーアカウントにアクセスできるよう、Adobe I/O で提供されている<a href="https://developer.adobe.com/UMAPI/">ユーザー管理 API</a> を設定する必要があります。 </p> <p>管理者が移行を実行できるようになると、Analytics の権限 API はオフになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web サービス資格情報 </p> </td> 
