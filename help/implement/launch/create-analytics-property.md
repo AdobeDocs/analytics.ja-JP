@@ -3,10 +3,10 @@ title: タグの Analytics プロパティの作成
 description: タグを使用してスペースを作成し、データの収集方法をカスタマイズします。
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 0763f2624d46eb282b7b4c94f7d103d8e9ad8095
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 1. プロパティに Web サイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「**[!UICONTROL 保存]**」をクリックします。
 1. 新しく作成したタグプロパティをクリックして、設定を入力します。
 1. 「**[!UICONTROL 拡張機能]**」タブをクリックし、「**[!UICONTROL カタログ]**」をクリックします。
-1. 「ID サービス」を探し、「**[!UICONTROL インストール]**」をクリックします。
+1. 「Experience CloudID サービス」を探し、 **[!UICONTROL インストール]**.
 1. Experience Cloud 組織 ID を含むすべての設定は、既に入力されているはずです。「**[!UICONTROL 保存]**」をクリックします。
 1. 拡張機能カタログに戻り、Adobe Analytics を探して「**[!UICONTROL インストール]**」をクリックします。
 
