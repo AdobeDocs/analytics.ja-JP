@@ -4,10 +4,10 @@ description: ワークスペースで注釈を表示する方法。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 66%
+source-wordcount: '228'
+ht-degree: 50%
 
 ---
 
@@ -23,8 +23,9 @@ ht-degree: 66%
 
 | 日付 | 外観 |
 | --- | --- |
-| **1 日** | ![](assets/single-day.png) |
-| **日付範囲** | アイコンが変わり、その上にマウスポインターを置くと、日付範囲が表示されます。<p>![](assets/multi-day.png)<p>テーブルでは、日付範囲のすべての日付にアイコンが表示されます。<p>![](assets/multi-day-table.png)<p>次の点に注意してください。複数の注釈が関連付けられている日では、アイコンは灰色で表示されます。 |
+| **1 日** | ![](assets/single-day.png)<p>注釈の上にマウスポインターを置くと、その詳細が表示されます。また、ペンアイコンを選択して注釈を編集することも、注釈を削除することもできます。<p> ![](assets/hover.png) |
+| **日付範囲** | アイコンが変わり、その上にマウスポインターを置くと、日付範囲が表示されます。<p>![](assets/multi-day.png)<p>折れ線グラフで選択すると、注釈のメタデータが表示され、編集または削除できます。![](assets/multi-hover.png)<p>テーブルでは、日付範囲のすべての日付にアイコンが表示されます。<p>![](assets/multi-day-table.png) |
+| **重複する注釈** | 複数の注釈が関連付けられている日には、アイコンがグレーで表示されます。<p>![](assets/grey.png)<p>灰色のアイコンの上にマウスポインターを置くと、重なり合っているすべての注釈が表示されます。<p>![](assets/overlap.png) |
 
 ## 概要グラフで注釈を表示
 
