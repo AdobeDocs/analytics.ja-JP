@@ -3,11 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
-user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定などについて説明します。
-source-git-commit: 5a2319c5f2084891319ce59893eb27273bc72486
+user-guide-description: Experience CloudAdmin Consoleでのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 98%
+source-wordcount: '673'
+ht-degree: 95%
 
 ---
 

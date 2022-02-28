@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics インポートガイド
 breadcrumb-title: インポートガイド
-user-guide-description: '一括またはリアルタイムで、外部のソースから Analytics にデータを取り込みます。 '
-source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
+user-guide-description: '外部ソースからAdobe Analyticsにデータを一括またはリアルタイムで取り込みます。 '
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 92%
+source-wordcount: '141'
+ht-degree: 83%
 
 ---
 

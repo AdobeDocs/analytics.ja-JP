@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
-user-guide-description: セグメント、計算指標、仮想レポートスイート、アラートなどのコンポーネントを使用してデータを整理するのに役立ちます。
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: セグメント、計算指標、仮想レポートスイート、アラート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理し、クロスデバイス分析について学びます。
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 99%
+source-wordcount: '674'
+ht-degree: 95%
 
 ---
 
