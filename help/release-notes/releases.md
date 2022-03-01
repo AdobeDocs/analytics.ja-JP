@@ -1,18 +1,18 @@
 ---
-description: Adobe Analyticsの継続的な機能リリース戦略を説明します
+description: Adobe Analytics の継続的な機能リリース戦略を説明
 title: Adobe Analytics 機能リリース
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 機能リリース
 
-Adobe Analyticsリリースは、機能のデプロイメントに向けて、よりスケーラブルで段階的なアプローチを可能にする、継続的な配信モデルで動作します。
+Adobe Analytics リリースは、機能のデプロイメントに向けて、よりスケーラブルで段階的なアプローチを可能にする、継続的な配信モデルで動作します。
 
 ## リリース方法
 
@@ -30,7 +30,7 @@ Adobe Analyticsリリースは、機能のデプロイメントに向けて、�
 
 機能フラグは、リリース時の新機能の表示を制御するために使用します。リリース時に最適なエクスペリエンスを得るために、`app.launchdarkly.com` をファイアウォールの[許可リスト](/help/technotes/ip-addresses.md)に追加することを推奨します。GA に達した直後に、フラグが削除されます。
 
-アクティブな機能フラグは、**ヘルプ／Workspace について／アクティブな機能フラグ**&#x200B;からいつでも表示できます。
+アクティブな機能フラグは、**ヘルプ／ワークスペースについて／アクティブな機能フラグ**&#x200B;からいつでも表示できます。
 
 ## メリット
 
@@ -40,5 +40,5 @@ Adobe Analyticsリリースは、機能のデプロイメントに向けて、�
 
 | 質問 | 回答 |
 | --- | --- |
-| 機能への早期アクセスをリクエストできますか？ | いいえ。早期アクセスは許可されません。<br>Analytics の初期の概念をテストする場合は、[Adobe Analytics Labs](/help/analyze/labs.md) で業界をリードする革新的なアイデアに対するフィードバックを提供してみることをお勧めします 。 |
+| 機能への早期アクセスをリクエストできますか？ | いいえ。早期アクセスは許可されません。<br>Analytics の初期の概念をテストする場合は、[Adobe Analytics Labs](/help/analyze/labs.md) で業界をリードする革新的なアイデアに対するフィードバックを提供してみることをお勧めします。 |
 | このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analytics パッケージの詳細の表示は、 [機能アクセスレベル](/help/admin/company/feature-access-levels.md) で確認できます。 |
