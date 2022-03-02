@@ -4,10 +4,10 @@ title: クイックセグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '876'
+ht-degree: 77%
 
 ---
 
@@ -15,15 +15,11 @@ ht-degree: 0%
 
 プロジェクト内にクイックセグメントを作成して、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)全体の複雑さを回避できます。クイックセグメント
 
-* クイックセグメントを作成したプロジェクトにのみ適用できます（変更可能）。
+* 適用方法 [プロジェクトのみのセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * 最大 3 つのルールを設定できます。
 * ネストされたコンテナや順次ルールに対応しません。
-* 複数のレポートスイートを含むプロジェクトで機能します。
 
 クイックセグメントの機能と本格的なコンポーネントリストのセグメントの機能の比較については、[こちら](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)を参照してください。
-
->[!IMPORTANT]
-> 現在、クイックセグメントは制限付きテスト中で、2021年10月21日に一般に提供されます。
 
 ## 前提条件 
 
@@ -81,14 +77,16 @@ ht-degree: 0%
 1. （オプション）セグメントの名前を変更します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-セグメントのサイドバーが青い縞模様から青に変わるのに注意してください。これで、左側のパネルのコンポーネントリストに表示されます。
+セグメントのサイドバーが青い縞模様から青に変わるのに注意してください。これで、左側のパネルコンポーネントリストにも表示されます。
 
 ## プロジェクトのみのセグメントとは
 
-プロジェクトのみのセグメントは、クイックセグメントまたはアドホックなワークスペースのプロジェクトセグメントです。 [!UICONTROL セグメントビルダー]で編集または開くと、プロジェクト専用のボックスが表示されます。ビルダーでクイックセグメントを「適用」したが、「使用できるようにする」チェックボックスをオフにした場合、そのセグメントはまだプロジェクトのみのセグメントですが、[!UICONTROL クイックセグメントビルダー]で開くことはできません。
+プロジェクトのみのセグメントとは、作成元の現在のプロジェクトにのみ適用されるセグメントです。 他のプロジェクトでは使用できず、他のユーザーと共有することもできません。 これは、左側のパネルでセグメントを作成して保存する必要なく、データをすばやく調査するためのものです。 プロジェクトのみのセグメントは、クイックセグメントまたは [アドホックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+
+プロジェクトのみのセグメントが [!UICONTROL セグメントビルダー]に設定すると、プロジェクトのみの通知が表示されます。 「このセグメントを使用可能にする」をオフにした場合。 をクリックし、 **[!UICONTROL 適用]**&#x200B;の場合、セグメントはプロジェクトのみのセグメントのままです。 注意：セグメントビルダーからクイックセグメントを適用した場合、そのセグメントは [!UICONTROL クイックセグメントビルダー].
 
 ![プロジェクトのみ未チェック](assets/project-only-unchecked.png)
 
-このチェックボックスをオンにして「**[!UICONTROL 保存]**」をクリックすると、このセグメントはコンポーネントリストセグメントになります。
+「このセグメントを使用可能にする」をオンにした場合 をクリックし、 **[!UICONTROL 保存]**&#x200B;の場合、セグメントが左側のレールのコンポーネントリストで使用可能になり、他のプロジェクトで使用できるようになります。 セグメントマネージャから他のユーザーと共有することもできます。
 
 ![プロジェクトのみチェック済み](assets/project-only-checked.png)
