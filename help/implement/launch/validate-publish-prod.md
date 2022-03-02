@@ -3,10 +3,10 @@ title: 開発実装の検証と実稼動環境への公開
 description: Adobe Experience Platform のタグを使用して、Adobe Analytics を実稼動環境にデプロイする方法を説明します。
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 81%
 
 ---
 
@@ -14,27 +14,22 @@ ht-degree: 100%
 
 タグライブラリが実稼働環境にプッシュされると、組織は Adobe Analytics を使用して基本的なレポートの取り込みを開始できます。
 
->[!NOTE]
->Adobe Experience Platform Launch は、Experience Platform のデータ収集テクノロジースイートとしてリブランドされています。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja)を参照してください。
-
-## 前提条件 
+## 前提条件
 
 [Analytics 実装を開発環境にデプロイする](deploy-dev.md)：このページの手順をおこなうには、Analytics 実装を開発環境に公開する必要があります。
 
 ## Experience Cloud デバッガーを使用した開発環境の実装の検証
 
-Experience Cloud デバッガーは、ページに存在するすべての Experience Cloud タグを表示する Chrome プラグインです。
+Experience Cloudデバッガーは、ページに存在するすべてのExperience Cloudタグを表示する拡張機能です。
 
-1. [Chrome Web ブラウザー](https://www.google.com/intl/ja/chrome/)を開き、Chrome Web ストアで [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) に移動して拡張機能をインストールします。
+1. 次のいずれかの拡張機能をインストールします。 [クロム](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) または [Firefox](https://addons.mozilla.org/ja/firefox/addon/adobe-experience-platform-dbg/).
 2. タグを実装した開発用 web サイトに移動します。
-3. Chrome の右上にある Adobe Experience Cloud デバッガーアイコンをクリックします。
-4. すべてが正しく実装されている場合は、Adobe Analytics、タグおよび Adobe Experience Cloud 訪問者 ID サービス内に次のコンテンツが表示されます。
-
-![debugger][assets/debugger.png]
+3. ブラウザーでAdobe Experience Cloud Debugger アイコンをクリックします。
+4. すべてが正しく実装されている場合は、Adobe Analytics、タグおよびAdobe Experience Cloud訪問者 ID サービス内にコンテンツが表示されます。
 
 ## ステージング／実稼動環境に開発環境の実装をデプロイする
 
-データを確認したら、実装を本番用サイトにプッシュできます。
+データが表示されていることを検証したら、実装を本番用サイトにプッシュできます。
 
 1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
 1. サイトに実装するタグプロパティをクリックします。
@@ -45,7 +40,7 @@ Experience Cloud デバッガーは、ページに存在するすべての Exper
 1. ライブラリのドロップダウンを再度クリックし、「**[!UICONTROL 公開の承認]**」を選択します。
 1. ライブラリのドロップダウン（「[!UICONTROL 承認済み]」列に表示）を再度クリックし、「**[!UICONTROL 実稼動用にビルドおよび公開]**」を選択します。
 1. 「環境」タブに移動し、「**[!UICONTROL 実稼動環境]**」をクリックします。
-1. 実稼動用のヘッダーとフッターのコードをコピーし、Web サイトの所有者に提供します。サイトの実稼動環境にこのコードを実装するように要求します。
+1. 実稼動用インストールコードをコピーし、Web サイトの所有者に提供します。 サイトの実稼動環境にこのコードを実装するように要求します。
 
 ## 実稼動環境の実装を検証します。
 
@@ -63,7 +58,7 @@ Experience Cloud デバッガーは、ページに存在するすべての Exper
 * コンソールに JavaScript エラーはありません。組織の Web サイトの所有者と協力して、すべての JS エラーが解決されていることを確認します。
 * ヘッダーコードが正しく実装されている：ヘッダーコードが `<head>` タグ内にあり、ファイルが存在することを確認してください。
 * AppMeasurement ライブラリが存在します：JS ソースに直接移動し、JS ファイルにコードが含まれていることを確認します。表示されない場合は、各環境が作成され、それぞれの環境にライブラリが公開されていることを確認します。
-* 干渉プラグイン：一部の Chrome プラグインは、画像リクエストの発動を防ぐことがあります。アドビのサーバーへのデータの送信を停止する可能性のあるプラグインを無効にします。
+* 干渉拡張機能：広告ブロッカーなどの一部の拡張は、イメージリクエストの実行を防ぐ可能性があります。 データのAdobeへの送信を停止する可能性のある拡張機能を無効にします。
 
 ## 次の手順
 

@@ -3,19 +3,17 @@ title: タグデータ要素の Analytics 変数へのマッピング
 description: Analytics 変数にデータ要素を割り当てて、Analysis Workspace でディメンションとして使用できるようにします。
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
 
+
 # タグデータ要素の Analytics 変数へのマッピング
 
 タグデータ要素のリポジトリーを取得したら、それらを Analytics のディメンションに割り当てることができます。
-
->[!NOTE]
->Adobe Experience Platform Launch は、Experience Platform のデータ収集テクノロジースイートとしてリブランドされています。その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。用語の変更点の一覧については、次の[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja)を参照してください。
 
 ## 前提条件 
 
