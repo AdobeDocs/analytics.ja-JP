@@ -3,10 +3,10 @@ description: デバイスやブラウザーでの不必要な Cookie の保存�
 title: ユーザーの同意と Cookie に関する CNIL ガイドライン
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 99bbc9d6cc4d50c39b7f689a9bd84ee95a008691
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 
 さらに次の考慮事項が適用されます。
 
+* Adobe Analyticsは、米国、英国、シンガポールのデータ処理センターを運用し、すべてのお客様が地域的にデータを収集、処理、保存できる柔軟性を提供します。 Adobe Analyticsの初期セットアップを設定する際に、お客様はデータ処理センターの目的の場所を選択します。 顧客のデータは、最終的には、コア Analytics 製品で選択された地域に保存されます。
 * セグメント化や仮想レポートスイート用のオプトアウトデータからオプトインデータを分離したり、別のエンドポイントにルーティングしたりするために、Analytics 変数でオプトインステータスを収集することを検討してください。
 * 事前の同意なしにサイト外またはアプリ外での測定（例：オフサイトキャンペーン、電子メールキャンペーン、iFrame など）はおこないません。
 * 変数での個人情報の収集は、同意なしには許可されません。[ユーザーの同意に基づいて Experience Cloud アクティビティを制御する](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=ja&quot;\l&quot;implementation#implementation)
