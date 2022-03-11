@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 76%
+source-wordcount: '913'
+ht-degree: 72%
 
 ---
 
@@ -43,7 +43,8 @@ AN-268093、AN-273820、AN-274435、AN-274904、AN-275356、AN-275947、AN-27616
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| 2022 年 ISO 地域の更新 | 2021年3月11日（PT） | Adobeは、2022 年 6 月 10 日に、2022 年の ISO 地域の更新を実行します。 このリリース以降、マイナーアップデートが提供される可能性があります。 |
+| 一時停止された古い予定レポート | 2022 年 3 月 12 日 | 有効 **2022 年 4 月 16 日**&#x200B;のAdobeは、作成日が 2 年を超える（2020 年 1 月 31 日以前に作成）予定レポートをすべて一時停止します。 レポートやデータは削除されません。 2 年を超えたレポートのみが一時停止され、追加の予定レポートは送信されません。 [詳細情報](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| 2022 年 ISO 地域の更新 | 2021年3月11日（PT） | Adobeは、 **2022 年 6 月 11 日**. このリリース以降、マイナーアップデートが提供される可能性があります。 |
 | Experience Edge 経由で収集された A4T データを Analytics が処理する方法の変更 | 2022 年 2 月 25 日（PT） | オン **2022 年 3 月 8 日**&#x200B;を使用する場合、Experience Edge を介してAdobe Analyticsに送信される Target 関連のデータの処理方法を変更します。 Adobe Experience Platform Web SDK を Analytics および Target で使用する場合、一部のパーソナライゼーションイベントが [!DNL Adobe Analytics] as [!UICONTROL ページビュー数]. これにより、ページビュー数と追加のサーバー呼び出しが水増しされました。 この変更により、Analytics コンテンツを持たないパーソナライゼーション呼び出しは無視されます。 A4T データを使用したパーソナライゼーション呼び出しは、A4T データを記録しますが、課金対象のサーバー呼び出しとして記録されず、ページビュー数やリンクイベント指標にも影響しません。 |
 | 過去の予定Report Builderタスクの一時停止 | 2022 年 2 月 24 日（PT） | **2022 年 4 月 15 日から有効**&#x200B;のAdobeは、2 年以上前に作成された、スケジュールされたすべてのReport Builderタスクを一時停止する予定です。 特に、この一時停止は、2020 年 1 月 31 日より前に作成されたすべてのタスクに適用されます。 タスク、ワークブック、またはデータは削除されません。 ただし、2 年を超えたタスクは一時停止され、追加のスケジュール済みタスクは送信されません。 [詳細情報](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | 従来の Analytics OAuth／JWT 統合の許可リスト EOL 拡張機能の有効期限 | 2022年1月14日（PT） | **2022年5月25日（PT）**&#x200B;に、[Analytics 1.3 API、1.4 SOAP API および Legacy Analytics OAuth／JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 許可リスト拡張機能の有効期限が切れます。この拡張機能は、従来の [!DNL Adobe Analytics] OAuth／JWT 認証情報を使用している顧客に、クライアント統合を[アドビ IMS 認証報](https://developer.adobe.com/console)に移行するための時間的余裕を提供するために提供されました。この有効期限は、必要な IMS 移行を完了していない [!DNL Adobe Analytics Livestream] および [!DNL Adobe Campaign] のお客様に影響します（ただし、これに限定されるものではありません）。現在、許可リスト拡張機能により従来の [!DNL Analytics] OAuth／JWT 認証情報を使用しているお客様は、2022年5月25日（PT）までに IMS 認証情報への移行が完了しない場合、アドビサービスへのアクセスができなくなる可能性があります。Livestream のお客様は、クライアントアプリケーションを IMS 認証情報に移行する関する以下の [説明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) をご覧いただけます。[!DNL Campaign] のお客様は、[!DNL Campaign] の最新バージョンへのアップグレードについて、アドビアカウントチームにお問い合わせください。 |

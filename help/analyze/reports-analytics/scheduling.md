@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
-source-wordcount: '1750'
-ht-degree: 100%
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+workflow-type: tm+mt
+source-wordcount: '1714'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 レポートのスケジュール、ダウンロードおよび配信に関する情報を示します。
 
 >[!IMPORTANT]
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。 Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
+>2022 年 4 月 15 日以降、Adobeは、作成日が 2 年を超える予定レポート（2020 年 1 月 31 日より前に作成されたタスク）をすべて一時停止する予定です。 レポートやデータは削除されません。 2 年を超えたレポートのみが一時停止され、追加の予定レポートは送信されません。 [詳細情報](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Adobe Analytics アプリケーションでレポートの配信予定日時をスケジュールするときに、スケジュールツールと配信ツールを使用して、自動的に送信されたファイルを表示したり、配信を変更または停止したりできます。
 

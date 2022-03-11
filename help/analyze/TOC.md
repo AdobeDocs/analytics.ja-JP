@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールであるAnalysis Workspace、およびAdobe Analyticsダッシュボード、Report Builder、Activity Mapなどのツールの使い方の説明です。
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1039'
 ht-degree: 96%
 
 ---
@@ -298,6 +298,7 @@ ht-degree: 96%
       + [iOS 版 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [レポートの表示設定とナビゲーション](reports-analytics/report-settings.md)
    + [レポートのスケジュールと配信](reports-analytics/scheduling.md)
+   + [予定レポートの提供終了通知](reports-analytics/scheduled-reports-eol.md)
    + [レポートタイプ](reports-analytics/reports.md)
    + [異なるレポートタイプの実行](reports-analytics/t-running-report-types.md)
    + レポートのカスタマイズ {#customize-reports}
