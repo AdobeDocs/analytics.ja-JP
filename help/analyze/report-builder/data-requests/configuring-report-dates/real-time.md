@@ -1,13 +1,13 @@
 ---
 description: Web ページトラフィックをリアルタイムで表示し、ページビュー数をランク付けします。これにより、サイトのトレンドをよりすばやく把握できるようになります。
-title: リアルタイムレポート
+title: リアルタイムレポート概要
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 94%
 
 ---

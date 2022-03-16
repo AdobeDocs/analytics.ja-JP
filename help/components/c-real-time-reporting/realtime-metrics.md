@@ -1,12 +1,12 @@
 ---
 description: リアルタイムレポートでサポートされる指標とディメンションを一覧表示します。分類もサポートされます（分類を定義している場合）。
-title: サポートされるリアルタイム指標とディメンション
+title: サポートされるリアルタイム指標とディメンション概要
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---

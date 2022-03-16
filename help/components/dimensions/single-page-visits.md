@@ -1,12 +1,12 @@
 ---
-title: 単一ページ訪問数
+title: 単一ページ訪問数（ディメンション）
 description: 訪問が 1 つのページで構成されていることを示すフラグ。
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 97%
 
 ---
 
