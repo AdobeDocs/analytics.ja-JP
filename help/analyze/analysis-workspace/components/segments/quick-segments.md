@@ -4,10 +4,10 @@ title: クイックセグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 77%
+source-wordcount: '878'
+ht-degree: 75%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 77%
 1. （オプション）セグメントの名前を変更します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-セグメントのサイドバーが青い縞模様から青に変わるのに注意してください。これで、左側のパネルコンポーネントリストにも表示されます。
+セグメントのサイドバーが縞の青から薄い青に変わるのに注意してください。 これで、左側のパネルコンポーネントリストにも表示されます。
 
 ## プロジェクトのみのセグメントとは
 
