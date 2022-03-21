@@ -3,14 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d9892291d5386c3faaec0da06084a1ce7695a78a
+source-git-commit: 99572e3ed2b519b5479a31680a48c17e2aed4fd9
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '888'
 ht-degree: 52%
 
 ---
 
 # 最新のAdobe Analyticsリリースノート（2022 年 3 月）
+
+**最終更新日：2022 年 21 月 4 日**
 
 >[!IMPORTANT]
 >
@@ -24,7 +26,7 @@ ht-degree: 52%
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
 | Workspace の注釈 | Workspace の注釈を使用すると、コンテキストデータのニュアンスやインサイトを組織に効果的に伝えることができます。 [詳細情報](/help/analyze/analysis-workspace/components/annotations/overview.md) | 2022 年 3 月 24 日 |
-| Adobe Analyticsランディングページの更新 | 共同の Workspace/Reports &amp; Analytics ランディングページが更新され、操作性が向上し、ナビゲーションが容易になりました。 [詳細情報](/help/analyze/landing.md) | 未定 |
+| Adobe Analyticsランディングページの更新 | 共同の Workspace/Reports &amp; Analytics ランディングページが更新され、操作性が向上し、ナビゲーションが容易になりました。 [詳細情報](/help/analyze/landing.md) | 2022 年 4 月 2 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
