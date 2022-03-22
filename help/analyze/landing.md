@@ -4,10 +4,10 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: ec11508218082b62fffa7541662a1e12ae5245d9
+source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 84%
+source-wordcount: '3610'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Analyticsのランディングページは、 [!DNL Analysis Workspace] �
 | 展開 [!UICONTROL プロジェクト] 全画面表示 | テーブルを展開するには、ハンバーガーのメニューアイコンをクリックします。 この操作を実行すると、左側のパネルのタブが折りたたまれます。 | ![テーブルを展開](assets/landing-collapse.png) |
 | 列の幅のカスタマイズ | 以前は、列の幅は固定されていました。 これで、列区切り記号をドラッグして調整できます。 |  |
 | ピンされた項目を並べ替え | ピンされた項目を上下に移動するには、ピンされた項目の横の省略記号をクリックし、「 **[!UICONTROL 上に移動]** または **[!UICONTROL 下に移動]**. | ![固定された項目を移動](assets/move-up-down.png) |
-| 新しいテーブル列 | 次をクリック： [!UICONTROL テーブルをカスタマイズ] アイコンをクリックします。 新しいテーブル列は次のとおりです。 <ul><li>**[!UICONTROL 予定]**:に設定 [!UICONTROL オン] プロジェクトがスケジュールされたとき、または [!UICONTROL オフ] そうでない場合は クリック [!UICONTROL オン] 「 」リンクを使用すると、スケジュール済みプロジェクトに関する情報を表示できます。 また、 [プロジェクトスケジュールを編集](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) （プロジェクトの所有者である場合）</li><li>**[!UICONTROL プロジェクト ID]**:プロジェクト ID は、プロジェクトのデバッグに使用できます。</li><li>**[!UICONTROL 最長の日付範囲]**:日付範囲を長くすると、プロジェクトの複雑さが増し、処理と読み込み時間が長くなる場合があります。 </li><li>**[!UICONTROL クエリ数]**:プロジェクトクエリの数が多いと、プロジェクトが複雑になり、処理と読み込みに時間がかかる場合があります。</li></ul> | ![新しい列](assets/new-columns.png) |
+| 新しいテーブル列 | 次をクリック： [!UICONTROL テーブルをカスタマイズ] アイコンをクリックします。 新しいテーブル列は次のとおりです。 <ul><li>**[!UICONTROL 予定]**:に設定 [!UICONTROL オン] プロジェクトがスケジュールされたとき、または [!UICONTROL オフ] そうでない場合は クリック [!UICONTROL オン] 「 」リンクを使用すると、スケジュール済みプロジェクトに関する情報を表示できます。 また、 [プロジェクトスケジュールを編集](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) （プロジェクトの所有者である場合）</li><li>**[!UICONTROL プロジェクト ID]**:プロジェクト ID は、プロジェクトのデバッグに使用できます。</li><li>**[!UICONTROL 最長の日付範囲]**:日付範囲を長くすると、プロジェクトの複雑さが増し、処理と読み込み時間が長くなる場合があります。 </li><li>**[!UICONTROL クエリ数]**:プロジェクトの読み込み時に Analytics に対しておこなわれた要求の合計数です。 プロジェクトクエリの数が多いと、プロジェクトが複雑になり、処理と読み込みに時間がかかる場合があります。 このデータは、プロジェクトが読み込まれたか、スケジュールされたプロジェクトが送信された後にのみ使用できます。 </li></ul> | ![新しい列](assets/new-columns.png) |
 | シングルクリックでレポートを開く | 以前は、ダブルクリックする必要がありました。 |  |
 | 新しいリンク先 **[!UICONTROL Reports &amp; Analytics]** レポート | <ul><li>**[!UICONTROL レポート]** > **[!UICONTROL 対象ユーザ]** > **[!UICONTROL ボット]**</li><li>**[!UICONTROL レポート]** > **[!UICONTROL 対象ユーザ]** > **[!UICONTROL ボットページ]**<li>**[!UICONTROL レポート]** > **[!UICONTROL エンゲージメント]** > **[!UICONTROL リアルタイム]**</li></ul> | ![新しいリンク](assets/report-links.png) |
 | 標準の新しいレポート | <ul><li>**[!UICONTROL レポート]** > **[!UICONTROL 最頻使用]** > **[!UICONTROL 次のページ]**</li><li>**[!UICONTROL レポート]** > **[!UICONTROL 最頻使用]** > **[!UICONTROL 前のページ]**</li><li>**[!UICONTROL レポート]** > **[!UICONTROL エンゲージメント]** > **[!UICONTROL ページ分析]** > **[!UICONTROL ページサマリ]**</li></ul>これらのレポートは、 [!UICONTROL Workspace] 形式を設定し、設定とビルドが必要です。 出力は、高レベルの指標、トレンドデータのパネルで構成されます。 [!UICONTROL フロー] ビジュアライゼーションなど。 これらのレポートを変更し、ディメンション、ディメンション項目などを変更できます。 これらのレポートは、Workspace パネルのパネルとしても使用できます。 | ![次のページ](assets/next-page.png) |
