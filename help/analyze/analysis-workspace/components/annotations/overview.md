@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: e35e437a61b925625f6dc7fa2344406c5a66e5fe
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 74%
+source-wordcount: '310'
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->この機能は現在、限定的にテスト中です。
+>この機能の段階的な展開は、2022 年 3 月 23 日から始まります。 一般公開：2022 年 4 月 11 日。
 
 Workspace の注釈を使用すると、コンテキストデータのニュアンスやインサイトを組織に効果的に伝えることができます。 カレンダーイベントを特定のディメンションや指標に関連付けることができます。日付や日付範囲に、既知のデータ問題、祝日、キャンペーン開始などの注釈を付けることができます。次に、イベントをグラフィカルに表示し、キャンペーンやその他のイベントがサイトトラフィックや売上高、その他の指標に影響を与えたかどうかを確認できます。
 

@@ -4,10 +4,10 @@ description: ワークスペースで注釈を表示する方法。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 70dc0fedc6ba16cb521af7a94524a4df99200d25
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 43%
+source-wordcount: '254'
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->この機能は現在、限定的にテスト中です。
+>この機能の段階的な展開は、2022 年 3 月 23 日から始まります。 一般公開：2022 年 4 月 11 日。
 
 注釈の表示方法は、1 日単位か日付範囲かによって若干異なります。
 

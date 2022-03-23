@@ -4,10 +4,10 @@ description: ワークスペースでの注釈を管理する方法。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 65%
+source-wordcount: '687'
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->この機能は現在、限定的にテスト中です。
+>この機能の段階的な展開は、2022 年 3 月 23 日から始まります。 一般公開：2022 年 4 月 11 日。
 
 [!UICONTROL コンポーネント]／[!UICONTROL 注釈]マネージャーは、共有、フィルタリング、タグ付け、承認、コピー、削除、お気に入りとしてマークするなど、注釈を管理する様々な方法を提供します。
 
@@ -54,15 +54,15 @@ ht-degree: 65%
 
 * プロジェクトのみの注釈を持つプロジェクトを作成し、そのプロジェクトを別のユーザーと共有したとします。 これらの注釈は表示されますが、プロジェクトを共有しているユーザーは、注釈を編集または削除できません。
 
-* 注釈を保存してユーザーと直接共有する場合、ユーザーは管理者権限を持つユーザーのみ注釈の編集/削除ができます。
+* If you save an annotation and share it directly with a user, they can edit/delete the annotation only if they have admin rights.
 
-* まとめると、プロジェクトが共有されている場合は、そのプロジェクトにのみ表示されます。 注釈が直接共有されている場合は、その注釈を表示できるすべてのプロジェクトに表示されます。
+* To recap, if the project is shared with you, it will show up only in that project. 注釈が直接共有されている場合は、その注釈を表示できるすべてのプロジェクトに表示されます。
 
 ## 注釈とタイムゾーン
 
-すべての注釈はタイムスタンプを使用して作成されますが、時間やタイムゾーンの情報は含まれません。 レポート時には、パネルのレポートスイートのタイムゾーンが常に適用されます。 したがって、クリスマス日用に作成された注釈は、現在のレポートスイートタイムゾーンに関係なく、12 月 25 日に発生します。
+All annotations are created with a timestamp, but no hours or timezone information. レポート時には、パネルのレポートスイートのタイムゾーンが常に適用されます。 したがって、クリスマス日用に作成された注釈は、現在のレポートスイートタイムゾーンに関係なく、12 月 25 日に発生します。
 
-もう 1 つの例は元日です。 毎時、新年が始まるときに花火のタイムゾーンが変わります。 米国山岳部時間の午後 10 時に、米国東海岸は、すでに東部時間の午前 12 時なので、火事工事を停止しています。
+もう 1 つの例は元日です。 毎時、新年が始まるときに花火のタイムゾーンが変わります。 At 10pm US Mountain Time, the US east coast is setting off fire works because it is already 12am Eastern Time.
 
 ## その他の注釈タスク
 
