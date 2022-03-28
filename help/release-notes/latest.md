@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1102'
 ht-degree: 42%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 42%
 * A4T Workspace パネルの問題を修正しました。 （AN-281594、AN-282418）
 * 一部のユーザーがAdobe Analyticsにアクセスできない問題を修正しました。 （AN-282776）
 * 一部の新しく作成されたレポートスイートでデータが収集されない問題を修正しました。 （AN-283114、AN-283311）
-* オペレーティングシステムディメンションを使用して Win11 を検出できない問題を修正しました。 (AN-275569、AN-275727、AN-280335)
 * データフィード電子メールが正しく送信されない問題を修正しました。 （AN-280255、AN-282051）
 
 

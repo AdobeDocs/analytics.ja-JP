@@ -4,10 +4,10 @@ description: Adobe Analytics ドキュメントセットの大幅なアップデ
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 96%
+source-wordcount: '3169'
+ht-degree: 93%
 
 ---
 
@@ -24,13 +24,16 @@ ht-degree: 96%
 | 日付 | 説明 |
 | --- | --- |
 | **2022年3月** |  |
+| New topic on supported HTTPS encryption algorithms | [サポートされる HTTPS 暗号化アルゴリズム](/help/technotes/rdc/encryption-algos.md) 暗号セキュリティレベルが「高」に設定されているお客様の場合 |
 | Workspace での注釈に関する新しいドキュメント | [Workspace の注釈](/help/analyze/analysis-workspace/components/annotations/overview.md) を使用すると、コンテキストデータのニュアンスやインサイトを組織に効果的に伝えることができます。 |
-| Adobe Analyticsランディングページの更新 | [更新](/help/analyze/landing.md) を追加しました。 |
+| Adobe Analytics landing page updates | [更新](/help/analyze/landing.md) を追加しました。 |
 | [!UICONTROL 次の項目] または [!UICONTROL 前の項目] Workspace パネル | このパネルを使用すると、選択したディメンション項目に従う項目、または選択したディメンション項目より前にある項目を調べることができます。 |
-| [!UICONTROL ページサマリ] Workspace パネル | このパネルでは、任意のページに関する詳細な分析を提供します。 |
-| **2022 年 2 月** |  |
-| モバイルスコアカードプロジェクトのプレビューモード | この [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) スコアカードを保存および共有する前に、エクスペリエンスをプレビューできます。 |
+| [!UICONTROL ページサマリ] Workspace パネル | This panel provides a deep-dive analysis for a page of your choosing. |
+| 古い予定レポートの一時停止に関する新しいトピックです。 | 有効 **2022 年 4 月 16 日**,Adobeは、 [作成日が 2 年を超える予定レポートをすべて一時停止します。](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| **2022 年 2 月** |
+| モバイルスコアカードプロジェクトのプレビューモード | The [preview mode](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) allows you to preview the experience before you save and share a scorecard. |
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspaceプロジェクトを追加、編集または削除します。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| Updated topic on pausing older scheduled Report Builder tasks | **2022 年 4 月 15 日から有効**,Adobeは、 [2 年以上前に作成されたすべての予定Report Builderタスクを一時停止します](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **2021年10月** |  |
 | 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja) に関する新しいドキュメントが公開されました |
 | 2021年10月21日（PT） | Analysis Workspace の [メディア再生滞在時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ja) パネルに関する新しいドキュメントが公開されました。 |
