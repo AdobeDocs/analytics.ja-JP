@@ -4,10 +4,10 @@ description: Adobe Analytics ドキュメントセットの大幅なアップデ
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
 workflow-type: tm+mt
-source-wordcount: '2958'
-ht-degree: 100%
+source-wordcount: '3096'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,14 @@ ht-degree: 100%
 
 | 日付 | 説明 |
 | --- | --- |
+| **2022年3月** |  |
+| Workspace での注釈に関する新しいドキュメント | [Workspace の注釈](/help/analyze/analysis-workspace/components/annotations/overview.md) を使用すると、コンテキストデータのニュアンスやインサイトを組織に効果的に伝えることができます。 |
+| Adobe Analyticsランディングページの更新 | [更新](/help/analyze/landing.md) を追加しました。 |
+| [!UICONTROL 次の項目] または [!UICONTROL 前の項目] Workspace パネル | このパネルを使用すると、選択したディメンション項目に従う項目、または選択したディメンション項目より前にある項目を調べることができます。 |
+| [!UICONTROL ページサマリ] Workspace パネル | このパネルでは、任意のページに関する詳細な分析を提供します。 |
+| **2022 年 2 月** |  |
+| モバイルスコアカードプロジェクトのプレビューモード | この [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) スコアカードを保存および共有する前に、エクスペリエンスをプレビューできます。 |
+| API プロジェクトエンドポイント | API を使用して、Analysis Workspaceプロジェクトを追加、編集または削除します。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | **2021年10月** |  |
 | 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja) に関する新しいドキュメントが公開されました |
 | 2021年10月21日（PT） | Analysis Workspace の [メディア再生滞在時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ja) パネルに関する新しいドキュメントが公開されました。 |
