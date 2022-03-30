@@ -4,9 +4,9 @@ title: クイックセグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
+source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '886'
 ht-degree: 75%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 75%
 * ネストされたコンテナや順次ルールに対応しません。
 
 クイックセグメントの機能と本格的なコンポーネントリストのセグメントの機能の比較については、[こちら](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)を参照してください。
+
+次に、クイックセグメントの概要ビデオを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## 前提条件 
 
