@@ -3,10 +3,10 @@ description: FTP を使用してデータファイルをアップロードする
 title: FTP インポート
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,8 @@ FTP アカウントの作成について詳しくは、[FTP アカウントの�
    この FIN ファイルは、使用するデータファイルと同じ名前を持つ空のファイルで、ファイル名の拡張子は [!DNL .fin] です。例えば、使用するデータファイルが [!DNL classdata1.tab] の場合、FIN ファイル名は [!DNL classdata1.fin] です。
 
 関連する FIN ファイルを持つアップロードされたデータファイルは、定期的に、アドビによって取得されます。アドビは、FTP アカウント設定で指定されたレポートスイートとデータセットに、これらのファイルをインポートします。
+
+Adobe Analyticsが FTP フォルダーにアップロードされたファイルを読み取り、処理すると、そのファイルは自動的に削除されます。
 
 ## FTP アカウントの作成 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
