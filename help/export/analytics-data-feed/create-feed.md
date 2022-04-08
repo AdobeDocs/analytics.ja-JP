@@ -4,9 +4,9 @@ description: データフィードを作成または編集する方法につい�
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '948'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 データフィードを作成すると、生データファイルの送信先と各ファイルに含めたい内容をアドビが把握できます。このページには、データフィードの作成時にカスタマイズできる個々の設定が表示されます。
 
-このページを読む前に、データフィードの基本的な知識を身に着けることをお勧めします。データフィードを作成するための要件を満たしていることを確認するには 、[データフィードの概要](data-feed-overview.md)を参照してください。
+このページを読む前に、データフィードの基本的な知識を身に着けることをお勧めします。データフィードを作成するための要件を満たしていることを確認するには、[データフィードの概要](data-feed-overview.md)を参照してください。
 
 ## フィード情報フィールド
 
