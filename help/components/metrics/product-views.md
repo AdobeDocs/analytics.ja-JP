@@ -4,7 +4,7 @@ description: 製品ページへの表示数。
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
 ht-degree: 100%
 
