@@ -1,10 +1,10 @@
 ---
-description: レポートスイートでは、選択した Web サイト、Web サイト群、または Web ページのサブセットに関する完全な独立レポートが定義されます。
+description: レポートスイートでは、選択した web サイト、web サイト群または web ページのサブセットに関する独立した完全なレポートが定義されます。
 title: レポートスイートマネージャー
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >仮想レポートスイートは、**[!UICONTROL Analytics]**／**[!UICONTROL コンポーネント]**／**[!UICONTROL 仮想レポートスイート]**&#x200B;で管理されます。[仮想レポートスイートのドキュメント](/help/components/vrs/vrs-about.md)を参照してください。
 
-## Report Suite Manager の説明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
+## レポートスイートマネージャーの説明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
 以下の表では、[!UICONTROL Report Suite Manager] ページのエレメントについて説明しています。
 
