@@ -4,7 +4,7 @@ description: ヒットがコンパイルされてアドビに送信される直�
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
