@@ -4,7 +4,7 @@ description: 動的変数を識別する文字列をカスタマイズできま�
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
 ht-degree: 100%
 
