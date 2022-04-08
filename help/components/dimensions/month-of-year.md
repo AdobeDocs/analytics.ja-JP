@@ -4,7 +4,7 @@ description: 月を数値で表します。年は関係ありません。
 feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
