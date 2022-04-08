@@ -4,7 +4,7 @@ title: 指標の作成
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ ht-degree: 100%
    <td colname="col2"> <span class="uicontrol">定義</span> </td> 
    <td colname="col3"> <p>ここで、指標／計算指標、セグメントまたは関数をドラッグして、計算指標を作成します。 </p> <p> 
      <ul id="ul_B13401A266354DC594C6176025DB61CB"> 
-      <li id="li_01776C32C7C5440AA1F847096CBED92B">計算指標をドラッグすると、指標の定義が自動的に展開します。 </li> 
+      <li id="li_01776C32C7C5440AA1F847096CBED92B">計算指標をドラッグすると、指標の定義が自動的に展開されます。 </li> 
       <li id="li_A483D352522E4572AB43042473053359">コンテナを使用して定義をネストできます。ただし、セグメントコンテナとは異なり、これらのコンテナは数式のように機能し、演算の順序を指定します。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -91,7 +91,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol">追加</span> </td> 
-   <td colname="col3"> <p>すべてのタイプの計算指標の場合、コンテナおよび静的な数値を定義に追加できます。高度な計算指標の場合、セグメントおよび関数も追加できます。 </p> <p> 
+   <td colname="col3"> <p>どのようなタイプの計算指標の場合でも、コンテナおよび静的な数値を定義に追加できます。高度な計算指標の場合、セグメントおよび関数も追加できます。 </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
       <li id="li_53462789B8AF4F1AA9B45565D37CF22B">コンテナは数式のように機能し、演算の順序を指定します。そのため、コンテナ内の項目は、次の演算の前に処理されます。 </li> 
       <li id="li_401A9E0D8B3B468990289DBF66A06F63">コンテナにセグメントをドラッグすると、そのコンテナ内のすべての項目がセグメント化されます。（高度な計算指標のみ） </li> 
