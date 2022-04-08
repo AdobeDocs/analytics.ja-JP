@@ -4,7 +4,7 @@ title: 指標の表示
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
 ht-degree: 100%
 
