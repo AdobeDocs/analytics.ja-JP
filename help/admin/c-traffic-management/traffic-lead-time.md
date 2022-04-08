@@ -4,7 +4,7 @@ title: トラフィック増加に対して必要なリードタイム
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Reports &amp; Analytics ユーザーインターフェイスを通じてアラ�
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> ～ 1,000,000 </td>
+   <td colname="col1"> ～1,000,000 </td>
    <td colname="col2"> リードタイム不要 </td>
    <td colname="col3"> リードタイム不要 </td>
   </tr>
