@@ -4,7 +4,7 @@ title: 管理ツール
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 + [カレンダーのカスタマイズ](custom-calendar.md)
 + [データソース](data-sources.md)
 + [デフォルトの指標](default-metrics.md)
-+ [IP アドレスで除外](exclude-ip.md)
++ [IP アドレスによる除外](exclude-ip.md)
 + [検索方法](finding-methods.md)
 + [一般的なアカウント設定](general-acct-settings-admin.md)
 + [内部 URL フィルター](internal-url-filter-admin.md)
@@ -39,14 +39,14 @@ ht-degree: 100%
 + [有料検索検知の概要](paid-search-detection/paid-search-detection.md)
 + [発行リスト](publishing-list.md)
 + [公開ウィジェット](publishing-widgets-admin.md)
-+ [設定マネージャー](preferences-manager.md)
++ [環境設定マネージャー](preferences-manager.md)
 + [プライバシー設定](privacy-settings.md)
 + [処理ルールの概要](c-processing-rules/processing-rules.md)
 + [リアルタイムレポートの概要](realtime/realtime.md)
 + [予定レポートキュー](scheduled-reports-admin.md)
-+ [サーバー側転送の概要](c-server-side-forwarding/ssf.md)
++ [サーバーサイド転送の概要](c-server-side-forwarding/ssf.md)
 + [シンプル化されたレポートメニュー](t-simplified-menu.md)
-+ [ソーシャルの管理](social-management.md)
++ [ソーシャル管理](social-management.md)
 + [成功イベントの概要](c-success-events/success-event.md)
 + [タイムスタンプオプション](timestamp-optional.md)
 + [トラフィック変数（prop）の概要](c-traffic-variables/traffic-var.md)
