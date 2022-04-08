@@ -4,7 +4,7 @@ description: Adobe Experience Cloud ID サービスを使用しているユニ�
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
 ht-degree: 100%
 
