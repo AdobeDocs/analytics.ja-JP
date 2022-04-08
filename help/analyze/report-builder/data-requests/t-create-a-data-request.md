@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '301'
+ht-degree: 100%
 
 ---
 
@@ -33,6 +33,6 @@ ht-degree: 0%
 1. 「[!UICONTROL 指標]」タブで、ツリーの指標をダブルクリックまたはドラッグして、「[!UICONTROL 指標]」グリッドに追加します。
 1. 「[!UICONTROL ディメンション]」タブで、ディメンションをダブルクリック（またはドラッグ）して、「[!UICONTROL 行ラベル]」グリッドに追加します。
 
-   ステップ 2 で使用可能な[ディメンション](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html)は、ステップ 1 で選択したベースレポート、およびレポートスイートの設定によって異なります。相関関係（コリレーション）または下位関係（サブリレーション）が有効化された項目、または[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウで選択したオリジナルレポートのタイプが分類されている場合は分類された項目が使用可能です。ディメンションをクロス集計するには、ステップ 2 で複数のディメンションを追加します。
+   ステップ 2 で使用可能な[ディメンション](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html?lang=ja)は、ステップ 1 で選択したベースレポート、およびレポートスイートの設定によって異なります。相関関係（コリレーション）または下位関係（サブリレーション）が有効化された項目、または[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウで選択したオリジナルレポートのタイプが分類されている場合は分類された項目が使用可能です。ディメンションをクロス集計するには、ステップ 2 で複数のディメンションを追加します。
 
     [指標およびディメンションの追加](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)を参照してください。
