@@ -4,7 +4,7 @@ title: ハウツービデオ
 feature: Calculated Metrics
 exl-id: 1227f68f-b4cd-4fa6-8fa9-0e8cc4e86cb3
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '77'
 ht-degree: 100%
 
