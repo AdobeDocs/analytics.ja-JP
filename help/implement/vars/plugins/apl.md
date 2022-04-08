@@ -4,7 +4,7 @@ description: 複数の値をサポートする変数に値を追加します。
 feature: Variables
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
 ht-degree: 100%
 
