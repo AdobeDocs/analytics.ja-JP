@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
-user-guide-description: セグメント、計算指標、仮想レポートスイート、アラート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理し、クロスデバイス分析について学びます。
+user-guide-description: セグメント、計算指標、仮想レポートスイート、アラート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理するのに役立つ情報を提供し、クロスデバイス分析についても説明します。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # [!DNL Adobe Analytics] コンポーネントガイド {#components}
 
 + [Analytics コンポーネントガイド](home.md)
-+ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
 + ディメンション {#dimensions}
    + [ディメンションの概要](dimensions/overview.md)
    + [ディメンションの互換性](dimensions/compatibility.md)
@@ -130,7 +130,7 @@ ht-degree: 95%
    + [ページビュー数](metrics/page-views.md)
    + [エラーページ（404）](metrics/pages-not-found.md)
    + [PeopleExperience Cloud ID を持つ](metrics/people-with-exp-cloud-id.md)
-   + [人](metrics/people.md)
+   + [People](metrics/people.md)
    + [製品表示](metrics/product-views.md)
    + [リロード回数](metrics/reloads.md)
    + [売上高](metrics/revenue.md)
