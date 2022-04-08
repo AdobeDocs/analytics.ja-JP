@@ -4,7 +4,7 @@ description: Google Analytics に詳しいユーザー向けに、Adobe Analytic
 feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '979'
 ht-degree: 100%
 
