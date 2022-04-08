@@ -4,7 +4,7 @@ description: ページの読み込みにかかる時間を追跡します。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
