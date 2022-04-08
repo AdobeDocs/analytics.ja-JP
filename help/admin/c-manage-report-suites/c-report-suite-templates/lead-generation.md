@@ -4,7 +4,7 @@ title: リードジェネレーション
 feature: Report Suite Settings
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
