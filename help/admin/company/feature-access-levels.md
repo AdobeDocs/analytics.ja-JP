@@ -1,19 +1,19 @@
 ---
-description: 会社が使用権原を持つAdobe Analyticsパッケージおよび機能へのアクセスレベルを表示する方法。
+description: 会社が利用できる Adobe Analytics パッケージおよび機能へのアクセスレベルを確認する方法。
 title: 機能アクセスレベル
 feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '80'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # 機能アクセスレベル
 
-**[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL カンパニー設定]** > **[!UICONTROL 機能アクセスレベルを表示]**
+**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL カンパニー設定]**／**[!UICONTROL 機能アクセスレベルを表示]**
 
-この設定グループを使用すると、会社が使用権限を持つAdobe Analyticsパッケージおよび機能へのアクセスレベルを表示できます。 一部の機能は、 [Adobe Analytics Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html).
+この設定グループを使用すると、会社が利用できる Adobe Analytics パッケージおよび機能へのアクセスレベルを確認できます。一部の機能は、[Adobe Analytics Ultimate](https://www.adobe.com/jp/data-analytics-cloud/analytics/ultimate.html) などのより上位の製品パッケージ（SKU）でのみ利用できます。
 
 ![](assets/feature-access-levels.png)
