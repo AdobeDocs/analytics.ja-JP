@@ -4,7 +4,7 @@ description: 2 つのイベントの間隔を測定します。
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
 ht-degree: 100%
 
