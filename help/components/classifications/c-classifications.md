@@ -4,7 +4,7 @@ description: ディメンション項目のグループ化をカスタマイズ�
 feature: Classifications
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
 ht-degree: 100%
 
