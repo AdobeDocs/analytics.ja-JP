@@ -4,7 +4,7 @@ description: コンテンツベロシティは、コンテンツが下流のコ�
 feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
 ht-degree: 100%
 
