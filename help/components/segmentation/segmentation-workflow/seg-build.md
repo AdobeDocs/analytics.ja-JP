@@ -4,7 +4,7 @@ title: セグメントの構築
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2046'
 ht-degree: 100%
 
