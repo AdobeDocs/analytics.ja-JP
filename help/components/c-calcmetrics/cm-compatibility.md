@@ -4,7 +4,7 @@ title: 指標の互換性
 feature: Calculated Metrics
 exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
 ht-degree: 100%
 
