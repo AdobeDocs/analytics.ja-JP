@@ -4,7 +4,7 @@ description: 指標が発生した時間。
 feature: Dimensions
 exl-id: 323c46dd-87d0-487a-b954-e5ccbc1b919d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
 ht-degree: 100%
 
