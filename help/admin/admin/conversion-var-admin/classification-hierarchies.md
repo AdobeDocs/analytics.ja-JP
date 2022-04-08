@@ -5,7 +5,7 @@ title: 分類階層
 feature: Classifications
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
 ht-degree: 100%
 
