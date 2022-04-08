@@ -1,22 +1,22 @@
 ---
-description: EU Cookie コンプライアンス規則によって促されたサーバー側転送の機能強化について説明します。
+description: EU Cookie コンプライアンス規則によって促されたサーバーサイド転送の機能強化について説明します。
 title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 
-この節では、 [EU Cookie コンプライアンス規則](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookie+and+similar+technology):2017 年 9 月 30 日に有効になりました。
+ここでは、2017年9月30日（PT）に施行された [EU Cookie コンプライアンス規定](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies)によるサーバーサイド転送に対する機能強化について説明します。
 
-サーバー側転送は、Adobe Analytics から他の [!DNL Experience Cloud Solutions] ソリューション（Audience Manager など）にリアルタイムでデータを共有するために使用されます。サーバー側転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
+サーバー側転送は、Adobe Analytics から他の [!DNL Experience Cloud Solutions] ソリューション（Audience Manager など）にリアルタイムでデータを共有するために使用されます。サーバーサイド転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
 
-以前は、サーバー側転送では、同意と同意前のイベント/ヒットを区切る方法がありませんでした。 2018 年 11 月 1 日以降、データ管理者であるお客様（Adobe Analytics のお客様）には、同意前のデータを Adobe Analytics に限定して、AAM に転送しないようにするオプションがあります。新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。この変数を設定すると、同意を受け取るまで、これらのヒットは AAM に送信されません。
+これまで、サーバーサイド転送には、同意後と同意前のイベント／ヒットを区別する方法がありませんでした。2018 年 11 月 1 日以降、データ管理者であるお客様（Adobe Analytics のお客様）には、同意前のデータを Adobe Analytics に限定して、AAM に転送しないようにするオプションがあります。新しい実装コンテキスト変数を使用すると、同意を受けていないヒットにフラグを設定できます。この変数を設定すると、同意を受け取るまで、これらのヒットは AAM に送信されません。
 
 この新しいコンテキスト変数「`cm.ssf=1`」がヒットに存在する場合、このヒットにはフラグが設定され、AAM へのサーバー側転送はおこなわれません。反対に、この文字列がヒットにない場合、ヒットは AAM に転送されます。
 
@@ -28,10 +28,10 @@ ht-degree: 80%
 
 | 実装方法 | 手順 |
 |--- |--- |
-| Adobe Experience Platform のタグ | Adobe Analytics拡張機能をインストールした場合は、ルールのアクション設定内で、次のコンテキストデータ変数定義をカスタムコードエディターに追加します。 <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。 ターゲットのマーケティングに同意した顧客については、`contextdata` 変数を *0* に設定します。 |
-| AppMeasurement | コンテキストデータ変数定義を AppMeasurement.js ファイルに追加します。            <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットのマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
+| Adobe Experience Platform のタグ | Adobe Analytics 拡張機能がインストールされている場合は、ルールのアクション設定内のカスタムコードエディターに次のコンテキストデータ変数定義を追加します。<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>メモ： 顧客がターゲットマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットマーケティングに同意した顧客については、`contextdata` 変数を *0* に設定します。 |
+| AppMeasurement | コンテキストデータ変数定義を AppMeasurement.js ファイルに追加します。            <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注： 顧客がターゲットのマーケティングに同意しない場合は、contextdata 変数を定義し、1 に設定します。ターゲットマーケティングに同意した顧客については、contextdata 変数を 0 に設定します。 |
 
-## レポート（オプション）  {#section_6AD4028EC11C4DABA2A34469DDC99E89}
+## レポート（オプション） {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 Adobe Analytics を使用して、どのくらいのトラフィックが同意され、結果として AAM にサーバー側転送されているかと、どのくらいのトラフィックが同意されず、結果としてサーバー側転送されていないかを比較してレポートできます。
 
