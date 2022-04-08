@@ -4,7 +4,7 @@ description: マーケティングチャネルに関するよくある質問（F
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
 ht-degree: 100%
 
