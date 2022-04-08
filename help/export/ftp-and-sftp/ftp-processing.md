@@ -5,7 +5,7 @@ title: FTP 処理時間
 feature: FTP Export
 exl-id: 151a5f42-d581-457f-a1d5-113dee21cf1a
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
