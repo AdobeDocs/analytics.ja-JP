@@ -4,7 +4,7 @@ description: 「サーバー」ディメンションを設定します。
 feature: Variables
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
