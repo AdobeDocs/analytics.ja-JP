@@ -4,7 +4,7 @@ description: データフィードで個々のジョブを管理する方法に�
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
 ht-degree: 100%
 
