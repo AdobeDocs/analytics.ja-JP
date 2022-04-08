@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 顧客属性は、VisAttr という名前の新たなタイプの要素に保存されます。これはディメンションまたは指標として選択できます。
 
-顧客属性をアップロードする方法について詳しくは、「[Experience Cloud ヘルプ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)」を参照してください。
+顧客属性をアップロードする方法について詳しくは、[Experience Cloud ヘルプ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ja)を参照してください。
 
 * 指標として設定する場合、VisAttr は「ディメンション」と指標の両方として表示されます。
 
