@@ -4,7 +4,7 @@ title: コンテキスト対応セッション
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1563'
 ht-degree: 100%
 
