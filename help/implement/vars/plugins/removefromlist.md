@@ -4,7 +4,7 @@ description: 区切り文字で区切られた文字列から特定の値を削�
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
 ht-degree: 100%
 
