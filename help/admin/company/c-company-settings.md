@@ -1,12 +1,12 @@
 ---
-description: 組織が管理するすべてのレポートスイートに適用する設定の概要ページです。
+description: 組織が管理するすべてのレポートスイートに適用される設定の概要ページです。
 title: カンパニー設定の概要
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '63'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 66%
 
 [!UICONTROL カンパニー設定]ページでは、管理するすべてのレポートスイートに適用する設定を構成できます。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL カンパニー設定]**
+**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL カンパニー設定]**
 
 + [機能アクセスレベル](feature-access-levels.md)
 + [Web サービス](web-services-admin.md)
