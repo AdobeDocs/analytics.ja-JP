@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 発行リストは Analytics 管理ツールで設定しておく必要があります。
 
-Analytics リファレンスの[発行リスト](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html)を参照してください。
+Analytics リファレンスの[発行リスト](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html?lang=ja)を参照してください。
 
 この機能を有効にするには、[!UICONTROL リクエストウィザード：ステップ 1] ウィンドウを開きます。
 
@@ -27,4 +27,4 @@ Analytics リファレンスの[発行リスト](https://experienceleague.adobe.
 
 >[!NOTE]
 >
->予定レポートを複数の発行リストに対して送信する場合、各リストに対してレポートが一度実行されます。対象レポートスイートは、発行リストに割り当てられたレポートスイートに置き換えられます。
+>予定レポートを複数の発行リストに対して送信する場合、リストごとにレポートが 1 回実行されます。変数となっているレポートスイートは、発行リストに割り当てられたレポートスイートに置き換えられます。
