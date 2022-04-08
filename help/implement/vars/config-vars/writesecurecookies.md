@@ -4,7 +4,7 @@ description: AppMeasurement が Secure 属性を持つ cookie を設定するこ
 feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
 ht-degree: 100%
 
