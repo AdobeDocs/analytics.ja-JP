@@ -4,7 +4,7 @@ description: ヒットの元となった市区町村。
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。アドビは [Digital Element](https://info.digitalelement.com/jp/) と提携し、IP アドレスと市区町村間の検索を維持しています。このディメンションは、すべての実装で初期設定の状態で動作します。
+このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。アドビは [Digital Element](https://www.digitalelement.com/) と提携し、IP アドレスと市区町村間の検索を維持しています。このディメンションは、すべての実装で初期設定の状態で動作します。
 
 ## ディメンション項目
 
