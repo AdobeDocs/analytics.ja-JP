@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ UTF-8 または ISO-8859-1 のファイルを送信し、レポートスイー�
 * Web ログデータの表示が最も有効なレポートは、ページビュー数などのトラフィックレポートです。
 * ページ名は、完全な URL として表示され、クエリ文字列を含みます。
 * それぞれのファイル要求は、個別のページビューとして表示され、スタイルシートや画像ファイルを含みます。
-* URL に情報を付加すると、ファイルが個別のページとして記録されることがあります。例えば、Adobeでは、次の URL を 2 つの異なるページとして記録します。
+* URL に情報を付加すると、ファイルが個別のページとして記録されることがあります。例えば、次の URL はアドビで 2 つの個別のページとして記録されます。
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
