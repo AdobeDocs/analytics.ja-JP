@@ -4,7 +4,7 @@ description: dynamicAccountMatch 変数は、動的アカウントで表示す�
 feature: Implementation Basics
 exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
 ht-degree: 100%
 
