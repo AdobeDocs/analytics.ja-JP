@@ -5,9 +5,9 @@ feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ Analysis Workspace の新しいアラートビルダーおよびアラートマ�
 
 アラートビルダーにアクセスするには、次の 4 つの方法があります。
 
-| メソッド | 詳細 |
+| 方法 | 詳細 |
 | --- | --- |
-| アラートビルダーに直接移動する | **[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]** |
-| Workspace でのキーボードショートカットの使用 | `Ctrl + Shift + A` (Windows) または `Cmd + Shift + A` (Mac) |
-| 1 つ以上のフリーフォームテーブル行項目を選択 | 右クリックして「 」を選択します。 **[!UICONTROL 選択からアラートを作成]**. これにより、 [!UICONTROL アラートビルダー] およびは、テーブルから適用した適切な指標およびフィルターを事前設定します。 必要に応じて、アラートを編集できます。![選択からアラートを作成](assets/create-alert-from-selection.png) |
-| Reports &amp; Analytics レポート内から | に移動します。  **[!UICONTROL 詳細]** > **[!UICONTROL アラートの追加]** . これにより、アラートビルダーが開き、レポートから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。![アラートの追加](assets/add-alert.png) |
+| アラートビルダーに直接移動 | **[!UICONTROL コンポーネント]**／**[!UICONTROL アラート]** |
+| Workspace でキーボードショートカットを使用 | `Ctrl + Shift + A`（Windows）または `Cmd + Shift + A`（Mac） |
+| 1 つ以上のフリーフォームテーブル行項目を選択 | 右クリックして「**[!UICONTROL 選択からアラートを作成]**」を選択します。これにより、[!UICONTROL アラートビルダー]が開き、テーブルから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。![選択からアラートを作成](assets/create-alert-from-selection.png) |
+| Reports &amp; Analytics レポート内から | **[!UICONTROL その他]**／**[!UICONTROL アラートの追加]**&#x200B;に移動します。これにより、アラートビルダーが開き、レポートから適用した適切な指標およびフィルターが事前設定されます。必要に応じて、アラートを編集できます。![アラートの追加](assets/add-alert.png) |
 
 パーセントしきい値は標準偏差です。例えば、95% = 2 標準偏差と 99% = 3 標準偏差です。選択した時間の精度に応じて、[異なるモデル](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)が使用され、各データポイントが標準からどれくらい離れているか（標準偏差からの乖離）が計算されます。しきい値を低く（90％など）設定すると、しきい値を高く（99.75％など）設定した場合よりも多くの異常値が取得されます。
 
