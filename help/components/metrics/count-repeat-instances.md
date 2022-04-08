@@ -4,7 +4,7 @@ description: レポート内でレポートインスタンスがカウントさ�
 feature: Metrics
 exl-id: e80544c0-f030-44e7-84c5-0902cd18d467
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
 ht-degree: 100%
 
