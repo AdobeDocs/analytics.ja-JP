@@ -5,9 +5,9 @@ feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> デフォルトのページ</span> </td> 
-   <td colname="col2"> <p>（オプション）<span class="wintitle">デフォルトのページ</span>値がある場合、それは URL から削除されます。<span class="wintitle">最頻訪問ページ</span>レポートにページ名ではなく URL がある場合に、この設定によって同じ Web ページが複数の URL で表されることを防止できます。 </p> <p>例：URL<span class="filepath"> https://example.com</span> および <span class="filepath"> https://example.com/index.html</span> は通常同じページです。 不要なファイル名を削除できるので、これらの URL は共に <span class="filepath"> https://example.com</span> 」と入力します。 </p> <p>この値を設定しない場合、Analytics は URL から以下のファイル名を自動的に削除します。<span class="filepath"> index.htm</span>、<span class="filepath"> index.html</span>、<span class="filepath"> index.cgi</span>、<span class="filepath"> index.asp</span>、<span class="filepath"> default.htm</span>、<span class="filepath"> default.html</span>、<span class="filepath"> default.cgi</span>、<span class="filepath"> default.asp</span>、<span class="filepath"> home.htm</span>、<span class="filepath"> home.html</span>、<span class="filepath"> home.cgi</span>、および <span class="filepath"> home.asp</span>。 </p> <p>ファイル名の削除を無効にするには、URL に決して存在しないデフォルトのページ値を入力してください。 </p> </td> 
+   <td colname="col2"> <p>（オプション）<span class="wintitle">デフォルトのページ</span>値がある場合、それは URL から削除されます。<span class="wintitle">最頻訪問ページ</span>レポートにページ名ではなく URL がある場合に、この設定によって同じ Web ページが複数の URL で表されることを防止できます。 </p> <p>例えば、<span class="filepath">https://example.com</span> と <span class="filepath">https://example.com/index.html</span> という URL では、通常同じページが表示されます。無関係なファイル名を削除できるので、これらの URL は共にレポートで <span class="filepath">https://example.com</span> として表示されます。 </p> <p>この値を設定しない場合、Analytics は URL から以下のファイル名を自動的に削除します。<span class="filepath"> index.htm</span>、<span class="filepath"> index.html</span>、<span class="filepath"> index.cgi</span>、<span class="filepath"> index.asp</span>、<span class="filepath"> default.htm</span>、<span class="filepath"> default.html</span>、<span class="filepath"> default.cgi</span>、<span class="filepath"> default.asp</span>、<span class="filepath"> home.htm</span>、<span class="filepath"> home.html</span>、<span class="filepath"> home.cgi</span>、および <span class="filepath"> home.asp</span>。 </p> <p>ファイル名の削除を無効にするには、URL に決して存在しないデフォルトのページ値を入力してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Go Live 日 </p> </td> 
