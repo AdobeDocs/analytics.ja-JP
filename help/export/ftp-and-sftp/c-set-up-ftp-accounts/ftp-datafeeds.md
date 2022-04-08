@@ -5,9 +5,9 @@ title: データフィード
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
