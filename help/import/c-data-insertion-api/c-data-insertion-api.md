@@ -1,12 +1,12 @@
 ---
-description: Data Insertion API ドキュメントへのリンク。
+description: データ挿入 API ドキュメントへのリンク。
 title: データ挿入 API
 feature: API
 exl-id: d0ed201a-4bc9-49e2-919b-8cea4fcff587
 source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 78%
 
 [一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)
 
-Data Insertion API および [一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)は、どちらの方法でも、サーバー側の収集データをAdobe Analyticsに送信できます。 データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含んだ CSV 形式のファイルを受け付けます。 サーバーサイド収集の新しい実装に取り組む場合は、一括データ挿入 API を使用することをお勧めします。
+データ挿入 API と[一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) はどちらも、サーバーサイドの収集データを Adobe Analytics に送信する手段です。データ挿入 API 呼び出しは、一度に 1 イベントずつおこなわれます。 一括データ挿入 API は、1 行に 1 イベントのイベントデータを含んだ CSV 形式のファイルを受け付けます。 サーバーサイド収集の新しい実装に取り組む場合は、一括データ挿入 API を使用することをお勧めします。
