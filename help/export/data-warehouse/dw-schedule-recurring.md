@@ -1,12 +1,12 @@
 ---
-description: リクエストをData Warehouseでスケジュールし、繰り返し実行します。
+description: 繰り返し実行するリクエストを Data Warehouse でスケジュールします。
 title: 定期的なリクエストのスケジュール設定
 feature: Data Warehouse
 exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
