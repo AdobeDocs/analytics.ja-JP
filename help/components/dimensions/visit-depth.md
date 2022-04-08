@@ -4,7 +4,7 @@ description: 訪問の深さをレポートする訪問ベースのディメン�
 feature: Dimensions
 exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
