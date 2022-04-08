@@ -1,19 +1,19 @@
 ---
 description: オーディエンスデータをプロビジョニング、共有および使用する方法を示します。
 solution: Analytics
-title: Audience Analyticsワークフローの概要
+title: Audience Analytics ワークフローの概要
 feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Audience Analyticsワークフローの概要
+# Audience Analytics ワークフローの概要
 
-オーディエンスデータをプロビジョニング、共有および使用する方法。
+オーディエンスデータをプロビジョニング、共有および使用する方法を示します。
 
 | 手順 # | タスクの説明 | メモ |
 |--- |--- |--- |
