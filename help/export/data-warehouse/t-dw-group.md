@@ -5,7 +5,7 @@ feature: Data Warehouse
 solution: Analytics
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '43'
 ht-degree: 100%
 
