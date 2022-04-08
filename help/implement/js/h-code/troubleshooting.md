@@ -4,7 +4,7 @@ description: レガシー JavaScript の実装に関する一般的な問題を�
 feature: Implementation Basics
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
 ht-degree: 100%
 
