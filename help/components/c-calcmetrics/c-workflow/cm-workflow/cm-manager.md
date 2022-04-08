@@ -4,7 +4,7 @@ title: 計算指標マネージャ
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
 ht-degree: 100%
 
