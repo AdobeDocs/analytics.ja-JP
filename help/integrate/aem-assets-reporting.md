@@ -4,9 +4,9 @@ title: Adobe Analytics で AEM Assets を報告する方法
 feature: AEM Assets Reporting
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Analytics で AEM Assets レポートを有効にするための管理者の手�
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**`<select report suite>`**／**[!UICONTROL 設定を編集]**／**[!UICONTROL AEM]**／**[!UICONTROL AEM Assets レポート]**
 
-Analytics でのインプレッション数およびクリック数の収集を有効にします。 [!UICONTROL Assets] は、AEM Asset Insights から提供されます。 この統合により、
+AEM Assets インサイトから提供された[!UICONTROL アセット]に対するインプレッション数とクリック数を Analytics で収集できます。この統合により、
 
 * Analytics でのレポートの作成が可能になります。
 * Analysis Workspace のアセット変数に、新しいディメンション（アセット ID、アセットソース、クリックされたアセット ID）が追加されます。
