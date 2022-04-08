@@ -4,7 +4,7 @@ description: 以下の手順に従って、実装時にエラーが発生しな�
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
