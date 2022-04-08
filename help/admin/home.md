@@ -4,7 +4,7 @@ description: Admin Console でのユーザー管理や製品管理、レポー�
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '328'
 ht-degree: 100%
 
