@@ -4,7 +4,7 @@ description: linkExternalFilters 変数の使用は出口リンクの自動ト�
 feature: Variables
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
 ht-degree: 100%
 
