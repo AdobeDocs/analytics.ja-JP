@@ -4,7 +4,7 @@ description: レポートスイートツールの各権限項目について説�
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
 ht-degree: 100%
 
