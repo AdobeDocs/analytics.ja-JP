@@ -4,7 +4,7 @@ title: 個々のレポートスイートの設定
 feature: Report Suite Settings
 exl-id: 1d4cff11-f2e6-4c09-878a-763f3419ff38
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
 ht-degree: 100%
 
