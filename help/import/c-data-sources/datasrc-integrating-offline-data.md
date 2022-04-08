@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 79%
 
  -->
 
-トランザクション ID の記録が有効かどうかを確認するには、 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL データソース]**.
+トランザクション ID の記録が有効かどうかを確認するには、**[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL データソース]**&#x200B;に移動します。
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ ht-degree: 79%
 
 オンラインからオフラインに移行する際、顧客は匿名であることが少なくありません。
 
-トランザクション ID のイベントは、訪問パーティシペーション指標には含まれません（マーケティングレポートに表示される指標）。 これは、トランザクション ID データが訪問に関連付けられない（通常、オフラインイベントはオンラインイベントに含まれない）ので、トランザクション ID データが訪問者に関連付けられるからです。
+トランザクション ID イベントは、訪問パーティシペーション指標（マーケティングレポートに表示される指標）には含まれません。これは、トランザクション ID データが訪問とは関連付けられておらず（通常、オフラインイベントはオンラインイベントに含まれないので）、訪問者と関連付けられているからです。
 
-詳しくは、 [トランザクション ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+[トランザクション ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md) を参照してください。
