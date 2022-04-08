@@ -4,7 +4,7 @@ description: クロスデバイス分析で、Experience Cloud ID を持つ人�
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
 ht-degree: 100%
 
