@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
 ht-degree: 100%
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 * [データディメンションの指定](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
 * [キャンペーントラッキングコード](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1)
 * [トランザクション ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
-* [データソースのデータで有効な日付範囲の指定](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
+* [データソースデータの有効な日付範囲の特定](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## 指標の指定と名前付け {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## 指標の特定と名前付け {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 データソースに含まれる指標や測定（例：*`Off-line Sales Revenue by Product`*、*`Returns by Product`*、*`Ad Impressions by Campaign`*）について理解することが重要です。これらは、レポート指標（イベント、prop、eVar）と関連付けることができる名前です。
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 >
 >アドビではデータソースのデータに新しい空のイベントを使用することを強くお勧めしますが、既存のイベントの使用が適する場合も稀にあります。
 
-## データディメンションの指定 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
+## データディメンションの特定 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
 データソースからインポートした指標の分類に使用するデータ（レポート）を指定して収集します。このデータは、*`data dimensions`* と呼ばれます。
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 eVar を使用する場合は、既存の eVar と新規の eVar のどちらでもデータディメンションとして使用できます。データソースからデータディメンションを受け取る eVar を選択したら、必ずこれらの eVar に適切な名前を付けてください。
 
-Analytics のヘルプの「[成功イベント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)」を参照してください。
+Analytics のヘルプの「[成功イベント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=ja)」を参照してください。
 
 ## キャンペーントラッキングコード {#section_468222796FF449ABAA90D88EB3264CB1}
 
