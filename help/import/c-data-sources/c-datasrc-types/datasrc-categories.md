@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 | データソース | 処理タイプ | 説明 |
 | --- | --- | --- |
 | [!UICONTROL 一般的なデータソース（概要データのみ）] | [コンバージョン](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | このデータソースは、マーケティングレポートおよび Analytics に読み込むデータと似たタイプがない場合に使用します。 |
-| [!UICONTROL 一般的なデータソース（フル処理）] | フル処理 | アドビは、2022年1月31日（PT）にフル処理データソースを非推奨（廃止予定）としました。[詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). 代わりに、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=ja)を使用することをお勧めします。 |
+| [!UICONTROL 一般的なデータソース（フル処理）] | フル処理 | アドビは、2022年1月31日（PT）にフル処理データソースを非推奨（廃止予定）としました。[詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). 代わりに、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。 |
 | [!UICONTROL 一般的なデータソース（トランザクション ID）] | <ul><li>トランザクション ID</li><li>訪問者 ID</li></ul> | 任意のオフラインイベントをオンラインイベントに関連付けることができます。[!UICONTROL トランザクション ID] は、オフラインイベントとオンラインイベント間のキーとして機能します。 |
 
 ## オンライン購入 {#purchases}
