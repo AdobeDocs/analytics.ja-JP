@@ -4,7 +4,7 @@ title: 'Enterprise ID と Federated ID の Analytics ユーザーアカウント
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 {#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
-Enterprise または Federated ID として Analytics ユーザーアカウントを Admin Console に移行する方法。
+Analytics ユーザーアカウントを Enterprise ID または Federated ID として Admin Console に移行する方法。
 
 ## 前提条件  {#prereqs}
 
@@ -68,7 +68,7 @@ Admin Console でユーザーを管理するための前提条件。
 
       >[!TIP]
       >
-      >この手順の間に、ユーザーリストを整理して、Enterprise または Federated ID 移行に有効な電子メール ID を持つユーザーのみを含めることをお勧めします。
+      >この手順の間に、ユーザーリストを整理して、Enterprise ID または Federated ID 移行に有効なメール ID を持つユーザーのみを含めることをお勧めします。
 
 1. [!UICONTROL Admin Console] で、Admin Console ユーザーのリストをダウンロードします。
 
@@ -127,7 +127,7 @@ Admin Console でユーザーを管理するための前提条件。
   </tr> 
   <tr> 
    <td colname="col1"> <p>ドメイン </p> </td> 
-   <td colname="col2"> <p>Ensure that domains in「<span class="term">ドメイン</span>」列と「<span class="term">電子メール</span>」列は、前提条件</a>で確立されたドメインと一致します。 </p> </td> 
+   <td colname="col2"> <p> 「<span class="term">ドメイン</span>」列と「<span class="term">電子メール</span>」列は、前提条件</a>で確立されたドメインと一致します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>国コード </p> </td> 
@@ -136,7 +136,7 @@ Admin Console でユーザーを管理するための前提条件。
  </tbody> 
 </table>
 
-[!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/enterprise/using/users.html)を参照してください。
+[!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
 
 >[!NOTE]
 >
