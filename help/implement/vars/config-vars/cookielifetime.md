@@ -4,7 +4,7 @@ description: AppMeasurement で作成される Cookie の有効期限を上書�
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
 ht-degree: 100%
 
