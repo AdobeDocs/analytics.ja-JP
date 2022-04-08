@@ -5,15 +5,15 @@ solution: Analytics
 feature: Release Notes
 exl-id: 5f6822e9-895a-4285-8f30-48a2ed9f1f0a
 source-git-commit: 49a8035ff7e230877da15e858d9c044ced9b9901
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics 2019 年（およびそれ以前）のリリースノート
+# 2019年（およびそれ以前の）Adobe Analytics リリースノート
 
-これらのリリースノート.pdf ファイルには、すべてのAdobe Experience Cloudソリューションのリリースノートが含まれています。
+これらのリリースノート .pdf ファイルには、すべての Adobe Experience Cloud ソリューションのリリースノートが含まれています。
 
 * [2019 年リリースノート PDF](2019-Adobe-Experience-Cloud-Release-Notes.pdf)
 * [2018 年リリースノート PDF](2018-Adobe-Experience-Cloud-Release-Notes.pdf)
