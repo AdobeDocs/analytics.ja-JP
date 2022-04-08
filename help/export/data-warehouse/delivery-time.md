@@ -4,9 +4,9 @@ description: 配信時間を長くさせる可能性のある Data Warehouse リ
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
