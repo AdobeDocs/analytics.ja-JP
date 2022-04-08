@@ -4,7 +4,7 @@ title: コンテンツとメディア
 feature: Report Suite Settings
 exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
 ht-degree: 100%
 
