@@ -4,7 +4,7 @@ description: ヒットの製品カテゴリ。
 feature: Dimensions
 exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
