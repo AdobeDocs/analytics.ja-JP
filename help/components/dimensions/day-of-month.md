@@ -4,7 +4,7 @@ description: 月を問わず、月間通算日を数値で表します。
 feature: Dimensions
 exl-id: 6d27aa9f-ce75-4a27-bb92-3acabe3975a1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
