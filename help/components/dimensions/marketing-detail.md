@@ -4,7 +4,7 @@ description: 訪問者のエンゲージメントの有効期限内で最新の�
 feature: Dimensions
 exl-id: 9b206066-2ffe-4996-8783-c83774e73dfe
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
 ht-degree: 100%
 
