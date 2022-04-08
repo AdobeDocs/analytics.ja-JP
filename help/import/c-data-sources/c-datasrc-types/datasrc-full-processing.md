@@ -5,7 +5,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=ja)を使用することをお勧めします。アドビは、2022年1月31日（PT）にフル処理データソースを非推奨（廃止予定）としました。[詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>フル処理のデータソースではなく、[Bulk Data Insertion API（BDIA）](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)を使用することをお勧めします。アドビは、2022年1月31日（PT）にフル処理データソースを非推奨（廃止予定）としました。[詳細情報](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 データソースでは、標準的なサーバー呼び出しとしてデータを処理する場合（汎用／フル処理）に、次の変数を使用できます。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p>キャンペーン </p> </td> 
    <td colname="col2"> <p>キャンペーン </p> </td> 
-   <td colname="col3"> <p>コンバージョンキャンペーンのトラッキングコード. </p> </td> 
+   <td colname="col3"> <p>コンバージョンキャンペーンのトラッキングコード。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>チャネル </p> </td> 
@@ -68,7 +68,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>イベント </p> </td> 
+   <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=ja"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
     <code>
       scAdd,event1,event7 
@@ -172,7 +172,7 @@ JavaScript ライブラリを使用したときに自動的に入力されるト
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Web サイトでサポートされる文字セット。UTF-8、ISO-8859-1 などがあります。 </p> <p>完全なリストを確認するには、「<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=ja"  >2 バイト文字セット</a>（インターナショナリゼーション）」のホワイトペーパーを参照してください。 </p> </td> 
+   <td colname="col2"> <p>Web サイトでサポートされる文字セット。例えば、UTF-8、ISO-8859-1 などがあります。 </p> <p>完全なリストを確認するには、「<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=ja"  >2 バイト文字セット</a>（インターナショナリゼーション）」のホワイトペーパーを参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
