@@ -4,9 +4,9 @@ title: 恒常的なトラフィック増加の指定
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 恒常的なトラフィック増加を指定する前に、[トラフィック増加に対して必要なリードタイム](/help/admin/c-traffic-management/traffic-lead-time.md)に関する情報をお読みください。
 
-1. 次をクリックして Report Suite Manager を開きます。 **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL レポートスイート]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL レポートスイート]**&#x200B;をクリックして、レポートスイートマネージャーを開きます。
 1. レポートスイートを選択します。
 1. **[!UICONTROL 設定の編集]**／**[!UICONTROL トラフィック管理]**／**[!UICONTROL 恒常的なトラフィック]**&#x200B;の順にクリックします。
 1.  「**[!UICONTROL 新しい予想日別ページ表示数]**」フィールドで、新しいトラフィックレベルの予想日別ページビューの合計を指定します。
