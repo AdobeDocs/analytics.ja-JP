@@ -4,7 +4,7 @@ title: 分類ルール - 定義
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
 ht-degree: 100%
 
