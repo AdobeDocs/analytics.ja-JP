@@ -4,9 +4,9 @@ title: 計算指標：役割ベースの権限
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 90%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>管理者レベルユーザー</b> </td> 
-   <td colname="col02"> 管理者は、計算指標を作成できるだけでなく、Admin Consoleで製品プロファイルを作成して、計算指標を作成するユーザーの権限を制限できます。 </td> 
+   <td colname="col02"> 管理者は、計算指標を作成するだけでなく、Admin Console で製品プロファイルを作成して、計算指標を作成するユーザーの権限を制限できます。 </td> 
    <td colname="col2"> 会社全体、ユーザーグループおよび個人ユーザーと共有できます。 </td> 
    <td colname="col3"> <span class="keyword"> Reports &amp; Analytics </span>：ユーザー自身および他のユーザーの計算指標の表示／編集／削除などが可能です。 <p> <span class="keyword"> Report Builder </span>：独自の計算指標およびそれらを共有しているものの表示／編集／削除などが可能です。 </p> </td> 
    <td colname="col4"> 計算指標を正規の指標として承認できます。 </td> 
