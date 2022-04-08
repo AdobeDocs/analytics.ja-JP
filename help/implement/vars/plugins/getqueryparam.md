@@ -4,7 +4,7 @@ description: URL のクエリー文字列パラメーターの値を抽出しま
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
 ht-degree: 100%
 
@@ -118,7 +118,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0（2021 年 3 月 19 日（PT））
 
 * コンテキストデータとしてバージョン番号を追加しました。
-* pt プラグインへの依存関係を削除しました 。
+* pt プラグインへの依存関係を削除しました。
 
 ### 3.3（2019 年 9 月 24 日（PT））
 
