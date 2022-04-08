@@ -4,9 +4,9 @@ title: アクセス要求および削除要求の送信
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 97%
 
 各ファイルですべてのレポートスイートのデータが結合され、レプリケートされたヒットの余分なコピーは自動的に削除されます。お客様は、これらのファイルのうちどれをデータ主体に返すかを決めることができます。例えば、これらのデータの一部を抽出し、他のシステムのデータと組み合わせてからデータ主体に返すことができます。
 
-## 要求の送信 {#submit-requests}
+## リクエストの送信 {#submit-requests}
 
-お客様は、 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) または [Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
+[プライバシーサービス UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ja) や[プライバシーサービス API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja) を使用して、データプライバシーのアクセスリクエストや削除リクエストを送信することができます。
 
 >[!NOTE]
 >
