@@ -4,7 +4,7 @@ title: セグメントに対する役割別の権限
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
 ht-degree: 100%
 
