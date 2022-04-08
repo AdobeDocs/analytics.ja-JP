@@ -4,7 +4,7 @@ title: GDPR 関連の用語
 feature: Data Governance
 exl-id: d6e6d363-ac5e-467e-af88-f6feda9cb980
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
 ht-degree: 100%
 
