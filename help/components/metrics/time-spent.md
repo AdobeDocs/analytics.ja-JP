@@ -4,7 +4,7 @@ description: 滞在時間ディメンションおよび指標の集計ページ�
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1581'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Adobe Analytics 製品全体では、様々な「[!UICONTROL 滞在時間]」指
 | ディメンション | 定義 | 使用対象 |
 | --- | --- | --- |
 | [!UICONTROL 訪問別滞在時間 - 詳細] | 訪問中の合計滞在時間（秒単位）であり、訪問の一部として各ヒットに適用されます。これは、訪問レベルのディメンションです。 | Analysis Workspace |
-| [!UICONTROL 訪問別滞在時間 - グループ] | 9 個の異なる範囲にグループ分けされた詳細なディメンションです。これは、訪問レベルのディメンションです。範囲を次に示します。<ul><li>1 分未満</li><li>1 ～ 5 分</li><li>5 ～ 10 分</li><li>10 ～ 30 分</li><li>30 ～ 60 分</li><li>1 ～ 2 時間</li><li>2 ～ 5 時間</li><li>5 ～ 10 時間</li><li>10 ～ 15 時間</li></ul>**メモ**：訪問は 12 時間のアクティビティの後に有効期限が切れるので、これより大きいグループはありません。 | Analysis Workspace、Reports &amp; Analytics、Report Builder |
+| [!UICONTROL 訪問別滞在時間 - グループ] | 9 個の異なる範囲にグループ分けされた詳細なディメンションです。これは、訪問レベルのディメンションです。範囲を次に示します。<ul><li>1 分未満</li><li>1 ～ 5 分</li><li>5 ～ 10 分</li><li>10 ～ 30 分</li><li>30～60 分</li><li>1 ～ 2 時間</li><li>2 ～ 5 時間</li><li>5 ～ 10 時間</li><li>10 ～ 15 時間</li></ul>**メモ**：訪問は 12 時間のアクティビティの後に有効期限が切れるので、これより大きいグループはありません。 | Analysis Workspace、Reports &amp; Analytics、Report Builder |
 | [!UICONTROL ページでの滞在時間 - 詳細] | 各ヒットに関する合計滞在時間（秒単位）です。ヒットレベルのディメンションであり、ページビュー数およびリンクイベントを含みます。名前にもかかわらず、「ページ」ディメンションに制限されません。 | Analysis Workspace |
 | [!UICONTROL ページでの滞在時間 - グループ] | 10 個の異なる時間範囲にグループ分けされた詳細なディメンションです。ただし、グループディメンションは、ページビュー数のみをカウントします（リンクイベントを除く）。これは、ヒットレベルのディメンションです。範囲を次に示します。<ul><li>15 秒未満</li><li>15 ～ 29 秒</li><li>30 ～ 59 秒</li><li>1 ～ 3 分</li><li>3 ～ 5 分</li><li>5 ～ 10 分</li><li>10 ～ 15 分</li><li>15 ～ 20 分</li><li>20 ～ 30 分</li><li>31 分以上</li></ul> | Analysis Workspace、Reports &amp; Analytics |
 
