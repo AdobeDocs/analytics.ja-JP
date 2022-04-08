@@ -4,7 +4,7 @@ description: 現在のページが 404 エラーであるかどうかを調べ�
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
