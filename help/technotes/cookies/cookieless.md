@@ -4,7 +4,7 @@ description: Adobe Analytics のデータ収集を改善するために、ブラ
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
 ht-degree: 100%
 
@@ -38,4 +38,4 @@ Adobe Analytics は、ファーストパーティ cookie を利用して訪問�
 
 >[!MORELIKETHIS]
 >
->[Adobe Analytics とブラウザーの cookie](cookies.md)
+>[Adobe Analytics とブラウザーの Cookie](cookies.md)
