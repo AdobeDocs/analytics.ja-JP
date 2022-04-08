@@ -4,7 +4,7 @@ description: charSet 変数は、画像要求の解析にアドビが使用す�
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
 ht-degree: 100%
 
