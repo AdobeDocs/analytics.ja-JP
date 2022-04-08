@@ -4,7 +4,7 @@ description: モバイルデバイスの平均セッション長です。
 feature: Metrics
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
 ht-degree: 100%
 
