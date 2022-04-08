@@ -4,7 +4,7 @@ title: ワークフローの概要
 feature: Advertising Analytics
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
 ht-degree: 100%
 
