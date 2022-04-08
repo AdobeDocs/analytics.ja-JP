@@ -5,9 +5,9 @@ title: ベストプラクティスおよび一般情報
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '277'
+ht-degree: 100%
 
 ---
 
