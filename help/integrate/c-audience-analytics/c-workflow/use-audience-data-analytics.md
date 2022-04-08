@@ -5,7 +5,7 @@ title: Analytics でのオーディエンスデータの使用
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ AAM セグメントのデータはヒットごとに Analytics に渡され、�
 
 ![](assets/flow-aamaudiences.png)
 
-オーディエンスは[フォールアウトのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)で使用することもできます。
+オーディエンスは[フォールアウトのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=ja)で使用することもできます。
 
 ## Analysis Workspace でのベン図のビジュアライゼーション {#section_E78AB764FB5047148B51DC1526B0DF89}
 
