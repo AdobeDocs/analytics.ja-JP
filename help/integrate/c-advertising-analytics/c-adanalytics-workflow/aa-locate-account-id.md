@@ -4,7 +4,7 @@ title: アカウント ID の見つけ方
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
 ht-degree: 100%
 
