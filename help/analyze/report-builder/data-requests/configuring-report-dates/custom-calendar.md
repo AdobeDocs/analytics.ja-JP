@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Report Builder では、Analytics のカスタムカレンダーを使用しま�
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：1 月は 4 週、2 月は 5 週、3 月は 4 週などとなります。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：例えば、1 月は 4 週、2 月は 4 週、3 月は 5 週になります。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>：例えば、1 月は 5 週、2 月は 5 週、3 月は 4 週になります。 </li> 
-    </ul> <p>注意：このカレンダーオプションは、すべてのAdobe Analyticsツール (Analysis Workspace、Reports &amp; Analytics、Report BuilderおよびActivity Map) でサポートされています。 例外はData Warehouseで、カスタムカレンダーをサポートしていません。 </p> </td> 
+    </ul> <p>メモ：このカレンダーオプションは、すべての Adobe Analytics ツール（Analysis Workspace、Reports &amp; Analytics、Report Builder および Activity Map）でサポートされています。例外は Data Warehouse で、これはカスタムカレンダーをサポートしていません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
