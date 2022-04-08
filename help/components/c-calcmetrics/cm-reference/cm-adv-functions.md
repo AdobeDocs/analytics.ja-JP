@@ -4,7 +4,7 @@ title: リファレンス：高度な関数
 feature: Calculated Metrics
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2909'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ AND(logical_test1,[logical_test2],...)
 | 引数 | 説明 |
 |---|---|
 | *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
-| *logical_test2* | （オプション）TRUE または FALSE として求める追加の条件です。 |
+| *logical_test2* | （オプション）。TRUE または FALSE として求める追加の条件です。 |
 
 ## 個別概算カウント（ディメンション） {#concept_000776E4FA66461EBA79910B7558D5D7}
 
@@ -464,7 +464,7 @@ OR(logical_test1,[logical_test2],...)
 | 引数 | 説明 |
 |---|---|
 | *logical_test1* | 必須。TRUE または FALSE で示される値または式です。 |
-| *logical_test2* | （オプション）TRUE または FALSE として求める追加の条件です。 |
+| *logical_test2* | （オプション）。TRUE または FALSE として求める追加の条件です。 |
 
 ## 円周率 {#concept_41258789660D4A33B5FB86228F12ED9C}
 
