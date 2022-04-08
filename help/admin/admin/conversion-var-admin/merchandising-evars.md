@@ -4,7 +4,7 @@ description: マーチャンダイジング eVar の概念と、eVar による�
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5319'
 ht-degree: 100%
 
