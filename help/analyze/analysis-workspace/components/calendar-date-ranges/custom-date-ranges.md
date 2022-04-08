@@ -6,13 +6,13 @@ feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
 ---
 
-# Analysis Workspace でカスタム日付範囲を作成
+# カスタム日付範囲を作成
 
 Analysis Workspace でカスタム日付範囲を作成し、時間コンポーネントとして保存します。
 
