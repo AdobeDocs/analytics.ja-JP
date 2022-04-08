@@ -4,7 +4,7 @@ title: セグメントの削除
 feature: Segmentation
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
 ht-degree: 100%
 
