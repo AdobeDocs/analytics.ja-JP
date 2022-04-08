@@ -4,7 +4,7 @@ description: Admin Console で使用可能な Adobe Analytics の権限をまと
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
 ht-degree: 100%
 
