@@ -4,7 +4,7 @@ description: 現在の訪問から前回の訪問までの時間をグループ�
 feature: Dimensions
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
 ht-degree: 100%
 
