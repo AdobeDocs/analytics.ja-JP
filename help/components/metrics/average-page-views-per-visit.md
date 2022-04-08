@@ -4,7 +4,7 @@ description: 訪問中に特定のディメンション項目が表示された�
 feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
 ht-degree: 100%
 
