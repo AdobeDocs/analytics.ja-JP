@@ -4,9 +4,9 @@ description: 新しい広告アカウントを作成し、複数のアカウン�
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Adobe Analytics Administrator は、新しい広告アカウントを作成し�
 
    | 設定 | 説明 |
    | --- | --- |
-   | タイプ | Google AdWords と Microsoft Bing　Ads の 2 つのオプションがあります。注意：Yahoo Gemini は、2019 年 3 月 31 日（PT）に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。 |
+   | タイプ | Google AdWords と Microsoft Bing Ads の 2 つのオプションがあります。注意：Yahoo Gemini は、2019 年 3 月 31 日（PT）に Microsoft Bing に吸収されました。その結果、Yahoo Gemini 広告アカウントオプションは使用できなくなりました。 |
    | アカウント名 | このアカウント名は最適な名前に設定できます。これが UI に表示されるアカウントのわかりやすい名前になります。 |
-   | OAuth のトークン | **注意：** OAuth はアクセス委任のオープン標準です。Web サイトまたはアプリケーションに他の Web サイト上にある関連情報へのアクセス権限を付与しても、パスワードを渡さないようにする方法として一般的に使用されます。サードパーティの URL(efrontier.com) に誘導されることに気が付くでしょう。 アドビは efrontier を使用して 3 つのすべての検索エンジンに対して OAuth 認証プロセスを強化しています。Internet Explorer 11（またはそれ以前）を使用している場合、3 つのどの検索エンジンでも OAuth トークンを正常に取得できません。 他の Web ブラウザーを使用してください。<p>「**[!UICONTROL トークンを取得]**」をクリックすると、OAuth2 認証プロセスが開始されます。資格情報を使用してGoogle/Bing 検索アカウントにログインするように求められます。 選択している検索エンジンに応じて、このプロセスは多少異なります。 <ul><li>Google Adwords:Googleアカウント ID の入力</li><li>Microsoft Bing：Bing アカウント ID と Bing カスタマー ID を入力します。</li></ul>これらの ID について詳しくは、[アカウント ID を見つける方法](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)を参照してください。正常にログインすると、 **[!UICONTROL OAuth トークン]** フィールド表示 **[!UICONTROL 取得済み]**. |
+   | OAuth のトークン | **メモ：** OAuth はアクセス委任のオープン標準です。web サイトまたはアプリケーションに他の web サイト上にある関連情報へのアクセス権限を付与しても、パスワードを渡さないようにする方法として一般的に使用されます。サードパーティの URL（efrontier.com）への誘導を示すメッセージが表示されます。アドビは efrontier を使用して、3 つのすべての検索エンジンに対して OAuth 認証プロセスを強化しています。Internet Explorer 11（またはそれ以前のバージョン）を使用している場合、3 つのどの検索エンジンでも OAuth のトークンを正しく取得できません。他の web ブラウザーを使用してください。<p>「**[!UICONTROL トークンを取得]**」をクリックすると、OAuth2 認証プロセスが開始されます。資格情報を使用して　Google／Bing 検索アカウントにサインインするように求められます。選択している検索エンジンによって、このプロセスは多少異なります。 <ul><li>Google AdWords：Google アカウント ID を入力します</li><li>Microsoft Bing：Bing アカウント ID と Bing カスタマー ID を入力します。</li></ul>これらの ID について詳しくは、これらの ID については、[アカウント ID を見つける方法](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)を参照してください。正常にログインすると、「**[!UICONTROL OAuth のトークン]**」フィールドに「**[!UICONTROL 取得済み]**」が表示されます。 |
 
 1. 「**[!UICONTROL トラッキング]**」セクションで、Adobe Analytics の実装による検索エンジンデータの追跡方法に関する情報を入力します。これは、検索エンジンのデータで Adobe Analytics のデータを適切に拡張するために必要な手順です。以下のガイドラインに従って「**[!UICONTROL トラッキングの設定]**」に入力します。
 
