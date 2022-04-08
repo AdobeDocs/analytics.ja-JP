@@ -4,7 +4,7 @@ description: Google Analytics などの他のプラットフォームに詳し�
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 
@@ -27,9 +27,9 @@ Adobe Analytics では、Adobe Experience Cloud にログインしたあとに�
 
 アドビでは、レポートデータの取得に関する基本事項の学習から始めることを推奨しています。
 
-* [Google Analytics ユーザー向け：Analysis Workspace での基本レポートの作成方法](reports/create-report.md)
+* [Analysis Workspace での基本レポートの作成（Google Analytics ユーザー向け）](reports/create-report.md)
 
-[!UICONTROL Analysis Workspace] のコンポーネントについて理解できたら適切なコンポーネントを使用して様々なレポートを再作成する方法を学習しましょう。
+[!UICONTROL Analysis Workspace] のコンポーネントについて理解できたら、適切なコンポーネントを使用して様々なレポートを再作成する方法を学習しましょう。
 
 * [Adobe Analytics でのリアルタイムレポートの作成](reports/realtime-reports.md)
 * [Adobe Analytics でのオーディエンスレポートの作成](reports/audience-reports.md)
