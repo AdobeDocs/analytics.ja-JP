@@ -4,7 +4,7 @@ title: Activity Map レポート
 feature: Activity Map
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
 source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
 ht-degree: 100%
 
