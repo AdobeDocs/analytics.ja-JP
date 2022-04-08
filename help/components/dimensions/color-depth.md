@@ -4,7 +4,7 @@ description: デバイスの色深度。
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -24,4 +24,4 @@ ht-degree: 100%
 
 >[!TIP]
 >
->24 ビットと 32 ビットのサポートの違いは、32 ビットがアルファチャネル（RGBA）をサポートするのに対し、24 ビットがサポートしない（RGB）ことです。この概念について詳しくは、Wikipedia の[色深度](https://ja.wikipedia.org/wiki/%E8%89%B2%E6%B7%B1%E5%BA%A6)を参照してください。
+>24 ビットと 32 ビットのサポートの違いは、32 ビットがアルファチャネル（RGBA）をサポートするのに対し、24 ビットがサポートしない（RGB）ことです。この概念について詳しくは、Wikipedia の[色深度](https://ja.wikipedia.org/wiki/色深度)を参照してください。
