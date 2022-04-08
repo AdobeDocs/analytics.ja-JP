@@ -4,7 +4,7 @@ description: 購入イベントを使用して、「注文件数」、「数量�
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
