@@ -4,7 +4,7 @@ description: Adobe Admin Console を使用して、Analytics の製品とユー�
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
 ht-degree: 100%
 
@@ -26,4 +26,4 @@ ht-degree: 100%
 
 次に、プロセスに関する短いビデオを示します。
 
-https://video.tv.adobe.com/v/37648/?quality=12
+https://video.tv.adobe.com/v/37648/?quality=12&amp;captions=jpn
