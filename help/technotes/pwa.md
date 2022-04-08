@@ -5,7 +5,7 @@ role: User, Admin
 feature: Progressive Web Apps
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
 ht-degree: 100%
 
