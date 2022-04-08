@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '360'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポ
 >
 >既存のワークブックでは、従来の指標 ID の付いたリクエストを参照している場合があります。Report Builder 5.2 を使用すると、既存のワークブックでは従来の指標 ID が新しいグローバル ID に変換されます。Report Builder 5.1 を使用しているユーザーと共有した場合、計算指標は共有先で表示されません。
 
-新しい計算指標ビルダーおよび計算指標マネージャでの計算指標の作成と管理方法について詳しくは、[計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html)ガイドを参照してください。
+新しい計算指標ビルダーおよび計算指標マネージャでの計算指標の作成と管理方法について詳しくは、[計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=ja)ガイドを参照してください。
 
 リクエストウィザードのステップ 2 では、計算指標へのフィルター設定と計算指標の適用ができます。
 
-## 計算指標へのフィルター設定 {#section_376E986D3E684999A7CDB08E53854159}
+## 計算指標のフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
 
 計算指標に&#x200B;**フィルターを設定**&#x200B;するには、フィルターアイコン ![](assets/segment_filter.png) を
 
