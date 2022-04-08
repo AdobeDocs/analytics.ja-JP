@@ -4,7 +4,7 @@ description: 他の JavaScript 変数で使用する数値を生成および操�
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
 ht-degree: 100%
 
