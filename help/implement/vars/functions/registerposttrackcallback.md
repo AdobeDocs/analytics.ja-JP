@@ -4,7 +4,7 @@ description: アドビにヒットを送信した後に、コールバック関�
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
 ht-degree: 100%
 
