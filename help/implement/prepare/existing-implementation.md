@@ -4,7 +4,7 @@ description: 既存の Adobe Analytics 実装を初めて使用する管理者�
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -24,6 +24,6 @@ Adobe Analytics の実装を以前の技術担当者から引き継いでいま�
 
 関連トピック:
 
-* [各 Web サイトリリース後の実装状況の確認のための「重点レビュー」チェックリスト](/help/implement/review/focused-review.md)
-* [「完全なレビュー」のチェックリスト（6 か月ごとに実装状況を確認）](/help/implement/review/full-review.md)
+* [「重点レビュー」チェックリスト（各 web サイトのリリース後に実装状況を確認するため）](/help/implement/review/focused-review.md)
+* [「完全レビュー」チェックリスト（6 か月ごとに実装状況を確認するため）](/help/implement/review/full-review.md)
 * [上位 5 件の KPI の定義](/help/implement/review/define-kpis.md)
