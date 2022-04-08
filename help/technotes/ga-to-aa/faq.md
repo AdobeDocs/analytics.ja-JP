@@ -5,8 +5,8 @@ feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 98%
 
 **ディメンション項目をクリックしてドリルダウンを表示しています。Analysis Workspace でこのワークフローを再現する方法を教えてください。**
 
-また、[!UICONTROL Analysis Workspace] のディメンション項目は 、分類の作業が容易になります。左クリックではなく右クリックでアクセスします。ディメンション項目を右クリックし「[!UICONTROL 分類]」をクリックして適切なコンポーネントを選択します。Ctrl キー（Windows）または Command キー（Mac）を押しながら各項目をクリックすると、同じ分類を複数のディメンション項目に適用できます。
+また、[!UICONTROL Analysis Workspace] のディメンション項目は、分類の作業が容易になります。左クリックではなく右クリックでアクセスします。ディメンション項目を右クリックし「[!UICONTROL 分類]」をクリックして適切なコンポーネントを選択します。Ctrl キー（Windows）または Command キー（Mac）を押しながら各項目をクリックすると、同じ分類を複数のディメンション項目に適用できます。

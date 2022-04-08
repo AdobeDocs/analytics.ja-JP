@@ -5,8 +5,8 @@ feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: dd1b2d358e6074fc393e6e5999c4286549a1b82d
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 お使いの FTP/SFTP ソフトウェアは、Adobe Analytics とのデータ交換用に設定した接続で使用されている特定の設定を示しています。このソフトウェアには、接続に使用できる様々なオプションに関するドキュメントも含まれています。 この更新後にサポートされるオプションは、業界で広くサポートされ、受け入れられています。
 
-削除される接続オプションは、通常は古いものと見なされ、現在のソフトウェアでは使用されません。 過去 3 年以内に FTP/SFTP ソフトウェアをアップグレードした場合、既に準拠している接続がある可能性があります。
+削除される接続オプションは、通常は古いものと見なされ、現在のソフトウェアでは使用されません。過去 3 年以内に FTP／SFTP ソフトウェアをアップグレードした場合、標準に準拠した接続が既に存在する可能性があります。
 
 ## Adobe Analytics でデータ取り込みに SFTP を使用するのは、どの機能ですか？
 
@@ -46,7 +46,7 @@ ht-degree: 92%
 
 * SFTP プロトコルの暗号アルゴリズム：
 
-   * サポートされなくなるもの：3des-cbc、aes128-cbc、aes128-gcm@openssh.com、aes192-cbc、aes256-cbc、aes256-gcm@openssh.com、arcfour、 arcfour、arcfour2128、arcfour256、blowfish-cbc、cast128-cbc、rijndael-cbc@lysator.liu.se
+   * サポートされなくなるもの：3des-cbc、aes128-cbc、aes128-gcm@openssh.com、aes192-cbc、aes256-cbc、aes256-gcm@openssh.com、arcfour、 arcfour128、arcfour256、blowfish-cbc、cast128-cbc、rijndael-cbc@lysator.liu.se
 
    * サポートされるもの：aes128-ctr、aes192-ctr、aes256-ctr
 

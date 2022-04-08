@@ -1,38 +1,55 @@
 ---
-title: Adobe Experience Platform のタグを使用した実装
-description: タグを使用した Adobe Analytics の実装方法を説明します
-feature: Launch Implementation
-exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
+title: null
+description: null
+role: User, Admin
+solution: Analytics
+feature: Annotations
+exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Adobe Experience Platform のタグを使用した実装
+# 
 
-Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。アドビが現在推奨するのは、Adobe Experience Platform のタグを介した方法です。
+>
+>
+>
 
-Adobe Experience Platform のタグは、他のタグ要件と共に Analytics コードを導入できるタグ管理ソリューションです。アドビは他のソリューションや製品との統合を提供し、カスタムコードの導入に対応します。これらのタスクはすべて、組織の開発チームに依存せずに実行できるので、自らサイト上のコードを更新できます。
 
-有効な Adobe Experience Cloud 契約を締結しているすべてのお客様は、タグを使用できます。Launch にアクセスできるかどうかがわからない場合は、組織の Experience Cloud システム管理者にお問い合わせください。
 
-## ワークフロー全体
 
-タグを使用して実装を実行するには、次の手順に従います。
 
-1. **タグへのアクセス権を取得**：Platform のタグへのアクセス権は、組織のシステム管理者から取得できます。
-2. **タグプロパティを作成**：プロパティは、タグ管理データを参照するために使用される包括的なコンテナです。
-3. **開発環境にデプロイ**：タグの開発を繰り返し実行できる環境を構築します。
-4. **検証して実稼動環境に公開**：すべてが機能していることを確認し、公開します。
 
-開始するには、[Analytics タグプロパティの作成](create-analytics-property.md)を参照してください。
 
-## その他のリソース
 
-タグは高度にカスタマイズできます。実装に適切なデータを含めることで Adobe Analytics を最大限に活用する方法について説明します。
 
-* [タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)：インターフェイスの仕組みと使用可能な拡張機能について説明します。
-* [Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja)：Analytics 拡張機能を使用して、Adobe Analytics にデータを送信します。
+* 
+
+* 
+
+* 
+
+* 
+
+## 
+
+
+
+
+
+## 
+
+
+
 * [実装変数](../vars/overview.md)：データ収集サーバーに送信する変数を決定します。
+
+* At the Project level: [!UICONTROL Project info &amp; settings] > [!UICONTROL Show annotations]
+
+* At the User level: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]
+
+![](assets/show-ann.png)
+
+![](assets/show-ann2.png)

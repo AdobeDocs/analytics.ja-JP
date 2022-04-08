@@ -3,19 +3,19 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
-user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールであるAnalysis Workspace、およびAdobe Analyticsダッシュボード、Report Builder、Activity Mapなどのツールの使い方の説明です。
+user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace のほか、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順。
 source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Adobe Analytics Tools Guide {#analyze}
+# Adobe Analytics ツールガイド {#analyze}
 
 + [Analytics ツールガイド](home.md)
-+ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace の概要](analysis-workspace/home.md)
@@ -93,7 +93,7 @@ ht-degree: 96%
       + [空のパネル](analysis-workspace/c-panels/blank-panel.md)
       + [フリーフォームパネル](analysis-workspace/c-panels/freeform-panel.md)
       + [メディア分平均オーディエンスパネル](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [メディアの同時視聴者パネル](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [メディア同時視聴者数パネル](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + メディア再生滞在時間 {#media-playback-timespent}
          + [概要](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [入力と出力の設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)

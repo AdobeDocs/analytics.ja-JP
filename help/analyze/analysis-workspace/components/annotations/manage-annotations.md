@@ -54,15 +54,15 @@ ht-degree: 64%
 
 * プロジェクトのみの注釈を持つプロジェクトを作成し、そのプロジェクトを別のユーザーと共有したとします。 これらの注釈は表示されますが、プロジェクトを共有しているユーザーは、注釈を編集または削除できません。
 
-* If you save an annotation and share it directly with a user, they can edit/delete the annotation only if they have admin rights.
+* 注釈を保存してユーザーと直接共有する場合、ユーザーは管理者権限を持つユーザーのみ注釈の編集/削除ができます。
 
-* To recap, if the project is shared with you, it will show up only in that project. 注釈が直接共有されている場合は、その注釈を表示できるすべてのプロジェクトに表示されます。
+* まとめると、プロジェクトが共有されている場合は、そのプロジェクトにのみ表示されます。 注釈が直接共有されている場合は、その注釈を表示できるすべてのプロジェクトに表示されます。
 
 ## 注釈とタイムゾーン
 
-All annotations are created with a timestamp, but no hours or timezone information. レポート時には、パネルのレポートスイートのタイムゾーンが常に適用されます。 したがって、クリスマス日用に作成された注釈は、現在のレポートスイートタイムゾーンに関係なく、12 月 25 日に発生します。
+すべての注釈はタイムスタンプを使用して作成されますが、時間やタイムゾーンの情報は含まれません。 レポート時には、パネルのレポートスイートのタイムゾーンが常に適用されます。 したがって、クリスマス日用に作成された注釈は、現在のレポートスイートタイムゾーンに関係なく、12 月 25 日に発生します。
 
-もう 1 つの例は元日です。 毎時、新年が始まるときに花火のタイムゾーンが変わります。 At 10pm US Mountain Time, the US east coast is setting off fire works because it is already 12am Eastern Time.
+もう 1 つの例は元日です。 毎時、新年が始まるときに花火のタイムゾーンが変わります。 米国山岳部時間の午後 10 時に、米国東海岸は、すでに東部時間の午前 12 時なので、火事工事を停止しています。
 
 ## その他の注釈タスク
 

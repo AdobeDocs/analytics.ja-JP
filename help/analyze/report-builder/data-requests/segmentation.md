@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +64,7 @@ Reports &amp; Analytics、Report Builder または Data Warehouse で作成し�
 
 >[!NOTE]
 >
->管理者であるかどうかにかかわらず、Report Builder では、自分が所有しているセグメント、および自分へ共有されているセグメントのみが表示されます（Reports &amp; Analytics のユーザーインターフェイスでは、管理者は組織内のすべてのセグメントが表示されます）。
+>管理者であるかどうかにかかわらず、Report Builder では、自分が所有しているセグメント、および自分へ共有されているセグメントのみが表示されますなお、Reports &amp; Analytics のユーザーインターフェイスでは、管理者には組織内のすべてのセグメントが表示されます。
 
 ## セグメントのフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -103,7 +103,7 @@ Reports &amp; Analytics、Report Builder または Data Warehouse で作成し�
 
 ## セグメントの一覧の更新 {#section_22E4A86789444B4A998532396B476EFB}
 
-新規セグメントを追加したり、既存のセグメントを編集したりした場合は、更新アイコン（![](assets/refresh_icon.png)）をクリックして、キャッシュされたセグメント一覧を更新する必要があります。
+新規セグメントを追加したり、既存のセグメントを編集したりするたびに、更新アイコン（![](assets/refresh_icon.png)）をクリックして、キャッシュされたセグメント一覧を更新する必要があります。
 
 ## 複数のリクエストにわたるセグメントの管理 {#section_C3D63FCBE1A94369A319243313B03C93}
 

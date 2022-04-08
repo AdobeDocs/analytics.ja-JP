@@ -5,8 +5,8 @@ feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics は、お客様（データ管理者）によって認められたエンドユーザー（データ主体）のアクセス要求および削除要求をどのようにサポートしますか？</b> </p> </td> 
-   <td colname="col2"> <p>様々なデータプライバシー規則（GDPR、CCPA）が発効すると、Adobe Analytics は、より自動化されたプロセスを可能にするために、データ管理者によって Experience Cloud データプライバシー API に送信された、検証済み要求の処理をサポートします。アドビのデータプライバシー API は、Adobe Experience Cloud ソリューションに保存されたお客様のデータに対する個人の権利に基づく要求（例えば、アクセス要求および削除要求）を処理するのを支援するように設計されています。データ主体から企業が受け取ったデータアクセスおよび削除要求の数に応じた柔軟性とスケーラビリティがあります。また、Privacy ServiceAPI を使用すると、お客様は、データアクセスおよび削除の要求がどのように実行されているかに関するステータスを確認できます。 </p> <p>詳しくは、 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Privacy ServiceAPI ドキュメント。 </a> </p> </td> 
+   <td colname="col2"> <p>様々なデータプライバシー規則（GDPR、CCPA）が発効すると、Adobe Analytics は、より自動化されたプロセスを可能にするために、データ管理者によって Experience Cloud データプライバシー API に送信された、検証済み要求の処理をサポートします。アドビのデータプライバシー API は、Adobe Experience Cloud ソリューションに保存されたお客様のデータに対する個人の権利に基づく要求（例えば、アクセス要求および削除要求）を処理するのを支援するように設計されています。データ主体から企業が受け取ったデータアクセスおよび削除要求の数に応じた柔軟性とスケーラビリティがあります。また、Privacy Service API を使用すると、お客様は、データアクセスリクエストとデータ削除リクエストの実行状況に関するステータスを確認できます。 </p> <p>詳しくは、<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Privacy Service API のドキュメント</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>エンドユーザーからの データプライバシー要求の受信、承認および実行に対して責任を負うのは誰ですか？</b> </p> </td> 
@@ -30,7 +30,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>アドビの製品をご利用のお客様（データ管理者）がデータプライバシー処理のために Adobe Analytics でどのデータプライバシー要求をどの ID にマッピングしているかを調べるにはどうしたらよいですか？</b> </p> </td> 
-   <td colname="col2"> <p>データ管理者は、データ主体からの要求の ID を解決する方法を決めます。<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">アドビのデータプライバシー ID 取得タグのデプロイを検討します。</a>開発チームは、データプライバシー要求を処理するためにアドビのデータプライバシー ID 取得タグを使用してユーザー ID（Cookie ID）をキャプチャし、アドビのデータプライバシー API を使用してそれらのユーザー ID を Adobe Experience Cloud の関連ソリューションに送信することで、時間を節約できます。 </p> <p>データプライバシー API は、複数のアドビソリューションをまたいで様々な顧客 ID をサポートできます。データ主体が識別子（カスタム変数 – prop または eVar）と共に要求を送信すると、Adobe Analytics は、指定された識別子について収集されたデータの履歴全体をスキャンします。Analytics prop または eVar に格納されているカスタム ID の設定方法について詳しくは、<a href="/help/admin/c-data-governance/gdpr-namespaces.md">名前空間</a>の Analytics ドキュメントを参照してください。
+   <td colname="col2"> <p>データ管理者が、データ主体からのリクエストの ID を解決する方法を決めます。<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">アドビのデータプライバシー ID 取得タグのデプロイを検討します。</a>開発チームは、データプライバシー要求を処理するためにアドビのデータプライバシー ID 取得タグを使用してユーザー ID（Cookie ID）をキャプチャし、アドビのデータプライバシー API を使用してそれらのユーザー ID を Adobe Experience Cloud の関連ソリューションに送信することで、時間を節約できます。 </p> <p>データプライバシー API は、複数のアドビソリューションをまたいで様々な顧客 ID をサポートできます。データ主体が識別子（カスタム変数 – prop または eVar）と共に要求を送信すると、Adobe Analytics は、指定された識別子について収集されたデータの履歴全体をスキャンします。Analytics prop または eVar に格納されているカスタム ID の設定方法について詳しくは、<a href="/help/admin/c-data-governance/gdpr-namespaces.md">名前空間</a>の Analytics ドキュメントを参照してください。
     </p> </td> 
   </tr> 
   <tr> 

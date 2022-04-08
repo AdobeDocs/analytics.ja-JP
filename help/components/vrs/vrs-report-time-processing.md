@@ -7,8 +7,8 @@ feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Analytics によるデータ処理では、データがデータ収集パイプ�
 
 この処理アーキテクチャにより、従来よりもはるかに柔軟なレポートの作成が可能となります。例えば、訪問タイムアウト期間を非破壊的な方法で任意の長さに設定すると、それらの変更がデータの収集前に適用されていたかのように、過去に遡って eVar の持続性やセグメントコンテナに反映されます。また、ベースレポートスイートのデータを変更することなく、複数の仮想レポートスイートを作成して、同じベースレポートスイートに基づく別々のレポート時間処理オプションを仮想レポートスイートごとに設定することもできます。
 
-[!UICONTROL レポート時間処理] また、Analytics は、バックグラウンドヒットで新しい訪問が開始されるのを防ぎ、 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) :App Launch イベントがトリガーされるたびに新しい訪問を開始するようレポートに指示します。
+また、[!UICONTROL レポート時間処理]では、Analytics がバックグラウンドヒットで新しい訪問が開始されないようにしたり、アプリ起動イベントがトリガーされるたびに [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=ja) がレポートに対して新しい訪問を開始するように指示したりできます。
 
 ## 設定オプション
 

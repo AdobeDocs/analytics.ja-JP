@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ FTP を使用してデータファイルをアップロードする方法につ�
 
 FTP を使用してデータファイルをアップロードする方法について手順を説明します。
 
-**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**.
+**[!UICONTROL 管理者]**／**[!UICONTROL 分類インポーター]**
 
 次の推奨限度に注意してください。
 

@@ -6,8 +6,8 @@ feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Analytics を使用して、FTP ベースのデータソースを作成および
 
 FTP の制限およびデータ保持期間については、[FTP の制限とデータ保持期間](/help/export/ftp-and-sftp/ftp-limits.md)を参照してください。
 
-## 分類およびデータソースのアップロードの .fin ファイルについて {#section_1484719F8A134EAE91212DBD8F15174F}
+## 分類およびデータソースのアップロードに必要な .fin ファイルについて {#section_1484719F8A134EAE91212DBD8F15174F}
 
 分類または[!UICONTROL データソース]ファイル（[!DNL .tab] または [!DNL .txt]）をアップロードする際には、読み込むデータファイルと全く同じ名称で拡張子が [!DNL .fin] の空のファイルもアップロードする必要があります。この [!DNL .fin] ファイルは、完了通知ファイルです。このファイルは、データファイルが FTP アカウントに完全にアップロードされたことをシステムに通知します。[!DNL .fin] ファイルがアップロードされることで、お客様が読み込みデータのアップロードを完了したことをアドビで認識できます。このファイルが送信された後、アドビでは両方のファイルを FTP から削除し、読み込みの処理を開始します。ファイルの読み込み：[!DNL Classifications.tab]
 
