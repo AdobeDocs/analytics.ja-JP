@@ -5,7 +5,7 @@ keywords: appmeasurement、変数、vars、設定、ページ、実装
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
