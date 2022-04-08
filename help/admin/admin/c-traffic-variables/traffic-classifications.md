@@ -5,7 +5,7 @@ title: トラフィック分類
 feature: Admin Tools
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ t_classification_add_traffic.xml
 
  -->
 
-選択したレポートスイートの分類を追加または編集する方法について手順を説明します。
+選択したレポートスイートの分類を追加または編集する手順を説明します。
 
 1. スイートのヘッダーで&#x200B;**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;の順にクリックします。
 1. レポートスイートを選択します。
