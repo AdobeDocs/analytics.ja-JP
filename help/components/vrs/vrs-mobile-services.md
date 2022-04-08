@@ -4,7 +4,7 @@ title: Mobile Services の VRS サポート
 feature: VRS
 exl-id: 3082333a-514d-45c6-9432-da32bd27a2eb
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
 ht-degree: 100%
 
