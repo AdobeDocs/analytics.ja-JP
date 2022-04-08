@@ -4,7 +4,7 @@ description: カスタム訪問者 ID を使用します。
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
 ht-degree: 100%
 
