@@ -4,7 +4,7 @@ description: サイトにコードを貼り付けて、新しい機能を導入�
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
