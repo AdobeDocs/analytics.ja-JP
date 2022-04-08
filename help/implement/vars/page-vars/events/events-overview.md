@@ -4,15 +4,15 @@ description: イベント変数を設定します。この変数は、サイト�
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
 ht-degree: 100%
 
 ---
 
-# イベント
+# events
 
-ディメンションと指標は、レポートにとって重要な要素です。`events` 変数は、サイト上の多くの指標のデータ収集をおこないます。イベントは、通常、レポートで[指標](/help/components/metrics/overview.md)を増分します 。
+ディメンションと指標は、レポートにとって重要な要素です。`events` 変数は、サイト上の多くの指標のデータ収集をおこないます。イベントは、通常、レポートで[指標](/help/components/metrics/overview.md)を増分します。
 
 イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-success-events/success-event.md)」で、成功イベントを作成し、設定していることを確認してください。リンクトラッキングのヒットでカスタムイベントを使用する予定がある場合は、[`linkTrackVars`](../../config-vars/linktrackvars.md) と [`linkTrackEvents`](../../config-vars/linktrackevents.md) が正しく設定され ていることを確認してください。
 
