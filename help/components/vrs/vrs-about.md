@@ -4,7 +4,7 @@ title: 仮想レポートスイートの概要
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
 ht-degree: 100%
 
