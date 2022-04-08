@@ -4,7 +4,7 @@ description: ヒットの元の国。
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。アドビは [Digital Element](https://info.digitalelement.com/jp/) と提携し、IP アドレスと国間の検索を維持しています。このディメンションは、すべての実装で初期設定の状態で動作します。
+このディメンションは、Adobe 内部のルックアップルールを参照します。ルックアップ値は、ヒットと共に送信される IP アドレスに基づきます。アドビは [Digital Element](https://www.digitalelement.com/) と提携し、IP アドレスと国間の検索を維持しています。このディメンションは、すべての実装で初期設定の状態で動作します。
 
 ## ディメンション項目
 
