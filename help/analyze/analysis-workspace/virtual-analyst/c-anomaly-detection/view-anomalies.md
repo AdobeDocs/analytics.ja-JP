@@ -5,7 +5,7 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Analysis Workspace での異常値の表示
 
-異常値をテーブルまたは線グラフで表示できます。
+異常値はテーブルまたは折れ線グラフで表示できます。
 
 ## テーブルの異常値の表示 {#section_869A87B92B574A38B017A980ED8A29C5}
 
