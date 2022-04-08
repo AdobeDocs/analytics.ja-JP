@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1827'
+ht-degree: 100%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 0%
 
 各ユーザーには、自分で作成するダッシュボード以外に、以下のプリパッケージダッシュボードが用意されています。
 
-**[!UICONTROL コンポーネント] > [!UICONTROL すべてのコンポーネント] > [!UICONTROL ダッシュボード] > [!UICONTROL 共有ダッシュボード] > [!UICONTROL ローカルサイト]**
+**[!UICONTROL コンポーネント]／[!UICONTROL すべてのコンポーネント]／[!UICONTROL ダッシュボード]／[!UICONTROL 共有ダッシュボード]／[!UICONTROL ローカルサイト]**
 
 このカスタマイズ可能なダッシュボードでは、提供されるテンプレート内にレポートレットをドロップできます。
 
-**[!UICONTROL コンポーネント] > [!UICONTROL すべてのコンポーネント] > [!UICONTROL ダッシュボード] > [!UICONTROL 共有ダッシュボード] > [!UICONTROL サイト運用ダッシュボード]**
+**[!UICONTROL コンポーネント]／[!UICONTROL すべてのコンポーネント]／[!UICONTROL ダッシュボード]／[!UICONTROL 共有ダッシュボード]／[!UICONTROL サイト操作ダッシュボード]**
 
 このダッシュボードは、Web サイトの運用に関連する主要指標の概要を提供します。このダッシュボードには、以下のレポートが表示されます。
 
@@ -186,7 +186,7 @@ t_dashboard_edit.xml
 
 **ダッシュボードとレポートレットのデータを編集するには**
 
-1. クリック **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL ダッシュボード]** > *ダッシュボード名* をクリックして、ダッシュボードを開きます。
+1. **[!UICONTROL コンポーネント]**／**[!UICONTROL すべてのコンポーネント]**／**[!UICONTROL ダッシュボード]**／*ダッシュボード名*&#x200B;をクリックしてダッシュボードを開きます。
 1. 「**[!UICONTROL レイアウト]**」をクリックします。
 
 | 設定値 | 手順 |
@@ -214,7 +214,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL カンパニー設定]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL カンパニー設定]**&#x200B;に移動します。
 1. [!UICONTROL カンパニー設定]ページで、「**[!UICONTROL Adobe Experience Cloud のコブランド化]**」をクリックします。
 1. 「**[!UICONTROL コブランディングを有効にする]**」をクリックします。
 1. 画像を参照してアップロードし、「**[!UICONTROL 保存]**」をクリックします。
