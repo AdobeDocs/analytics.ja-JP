@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics データソースを使用すると、追加のオンラインまたはオフラインデータをレポート用に手動で読み込むことができます。
+description: Adobe Analytics データソースを使用すると、追加のオンラインまたはオフラインデータをレポート用に手動でインポートできます。
 title: データソースとは何ですか？また、データソースにはどのようなメリットがありますか？
 feature: Data Sources
 exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,4 +36,4 @@ Adobe Analytics データソースを使用すると、追加のオンライン�
 >
 >トランザクション ID データソースについてオフラインデータをオンラインイベントと関連付けるには、トランザクション ID の記録がカスタマーケアによって有効にされている必要があります。詳しくは、[トランザクション ID の記録](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)を参照してください。
 
-読み込み後、ほとんどのデータソースデータはAdobe Experience Cloud全体で使用できます。
+インポート後、データソースのデータのほとんどが、Adobe Experience Cloud 全体で使用できます。
