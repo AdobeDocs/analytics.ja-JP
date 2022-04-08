@@ -4,7 +4,7 @@ description: Adobe Analytics における Experience Platform の XDM データ�
 feature: AEP Edge
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
