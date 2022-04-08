@@ -4,7 +4,7 @@ description: Adobe Analytics の使用開始、一般的な役割タイプ、UI 
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
 ht-degree: 100%
 
