@@ -5,7 +5,7 @@ title: 成功イベントの概要
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
 ht-degree: 100%
 
