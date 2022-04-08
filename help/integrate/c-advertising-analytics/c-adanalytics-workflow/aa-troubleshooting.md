@@ -4,7 +4,7 @@ title: Advertising Analytics のトラブルシューティング
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 
