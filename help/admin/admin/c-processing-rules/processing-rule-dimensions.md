@@ -5,15 +5,15 @@ title: 処理ルールで使用可能なディメンション
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # 処理ルールで使用可能なディメンション
 
-処理ルールを使用して（特記がない限り）読み取りおよび書き込みが可能なディメンションです。
+処理ルールを使用して（特に断りがない限り）読み取りおよび書き込みが可能なディメンションです。
 
 ## カスタム値とコンテキストデータ {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
@@ -89,11 +89,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページ名 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意：リンクトラッキングコールは、 <code>pageName</code> 変数を設定する必要があります。 処理ルールを使用してページ名の値を再挿入した場合、このヒットは、リンクトラッキングコールではなく、ページビューと見なされます。 Adobeは、変更する前に、ページ名が既に設定されていることを確認することをお勧めします。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>メモ：リンクトラッキングコールは、処理ルールに到達する前に <code>pageName</code> 変数を削除します。処理ルールを使用してページ名の値を再挿入した場合、このヒットは、リンクトラッキングコールではなく、ページビューと見なされます。ページ名を変更する前に、そのページ名が既に設定されていることを確認することをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ページ URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 <p>注意：リンクトラッキングコールは、 <code>pageURL</code> 変数を設定する必要があります。 処理ルールを使用してページ URL 値を再挿入した場合、このヒットは、リンクトラッキングコールではなく、ページビューと見なされます。 Adobeは、ページ URL を変更する前に、ページ URL が既に設定されていることを確認することをお勧めします。 </p></td> 
+   <td colname="col2"> <code> s.pageURL</code>。<code> s.pageURL</code> が指定されていない場合は現在のページ URL。 <p>メモ：リンクトラッキングコールは、処理ルールに到達する前に <code>pageURL</code> 変数を削除します。処理ルールを使用してページ URL の値を再挿入した場合、このヒットは、リンクトラッキングコールではなく、ページビューと見なされます。ページ URL を変更する前に、そのページ URL が既に設定されていることを確認することをお勧めします。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>クエリー文字列パラメーター </p> </td> 
@@ -129,11 +129,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照ルートドメイン（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照クエリー文字列（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>参照 URL に含まれるクエリー文字列パラメーター。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>参照 URL に含まれるクエリー文字列パラメーター。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP アドレス（読み取り専用） </p> </td> 
