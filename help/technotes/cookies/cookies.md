@@ -4,7 +4,7 @@ description: トラッキング防止対策が、Adobe Analytics によって設
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1985'
 ht-degree: 100%
 
@@ -51,9 +51,9 @@ ITP ポリシーは頻繁に進化しています。最新のポリシーにつ�
 
 アドビによって設定されているすべてのファーストパーティ cookie および関連する JavaScript ライブラリは、ITP ポリシーの影響を受けます。
 
-* Experience Cloud 訪問者 IDID（ECID）サービスライブラリによって設定される[「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)
+* Adobe Experience Cloud 訪問者 IDID（ECID）サービスライブラリによって設定される[「AMCV」 cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)
 * CNAME を使用したファーストパーティデータ収集で設定されている場合の、Analytics 従来の[「s_vi」 cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja)
-* Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
+* Analytics 従来の[「s_fid」 cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=ja)（「s_vi」を設定できない場合に使用されるフォールバック cookie）
 
 #### Safari の Analytics への ITP の影響
 
@@ -74,7 +74,7 @@ ITP の制限の影響は、ユーザーの行動によって大きく異なる�
 
 サードパーティ cookie は、ユーザーが訪問する Web サイトによって作成されるものではありません。
 
-現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しをおこない、不明な、または疑わしいサードパーティドメインは呼び出しません。この cookie はドメイン間で永続的な識別子と（HTTPS による）安全なコンテンツを提供します。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)を参照してください。
+現在、ブラウザーはすべてのサードパーティ cookie を同じように処理して保存しますが、サードパーティ cookie はそれぞれ異なる方法で動作する場合があります。お客様の Analytics サードパーティ cookie の実装では、ブラウザーは Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) ID をサードパーティ cookie として保存しますが、クライアントは Adobe に対してのみ呼び出しをおこない、不明な、または疑わしいサードパーティドメインは呼び出しません。この cookie はドメイン間で永続的な識別子と（HTTPS による）安全なコンテンツを提供します。詳しくは、[cookie と Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
 
 Analytics 実装では、サードパーティ cookie がクロスドメイントラッキングや広告の使用例（リターゲティング広告を含む）に使用されます。サードパーティ cookie を使用すると、訪問者が所有する別のドメインにアクセスしたときや所有していないサイトで広告が表示されたときに、訪問者を識別できます。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
