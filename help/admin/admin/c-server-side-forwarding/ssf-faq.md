@@ -4,7 +4,7 @@ title: サーバー側転送の FAQ
 feature: Server-Side Forwarding
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
 ht-degree: 100%
 
