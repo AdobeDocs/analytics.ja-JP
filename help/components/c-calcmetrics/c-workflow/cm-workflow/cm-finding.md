@@ -4,7 +4,7 @@ title: 指標の検索
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
 ht-degree: 100%
 
