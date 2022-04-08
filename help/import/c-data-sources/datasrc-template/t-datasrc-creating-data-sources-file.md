@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 詳しくは、[インポートファイルの参照](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md)を参照してください。
 
 1. Analytics にログインします。
-1. スイートのヘッダーで、 **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL データソース]**.
+1. スイートのヘッダーで、**[!UICONTROL 管理者]**／**[!UICONTROL すべての管理者]**／**[!UICONTROL データソース]**&#x200B;を選択します。
 1. 「**[!UICONTROL データソースの作成]**」タブで、テンプレートのカテゴリとタイプを選択します。
 1. 「アクティブにする操作手順／情報」を確認し、「**[!UICONTROL アクティブ化]**」をクリックします。
 
