@@ -4,7 +4,7 @@ description: サイトのページの名前。
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
 ht-degree: 100%
 
