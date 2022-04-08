@@ -4,7 +4,7 @@ description: Amazon Alexa や Google Home などのデジタルアシスタン�
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
 ht-degree: 100%
 
