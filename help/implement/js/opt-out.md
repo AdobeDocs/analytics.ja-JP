@@ -4,7 +4,7 @@ description: サイトへの訪問者を対象にしたオプトアウトリン�
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
 ht-degree: 100%
 
