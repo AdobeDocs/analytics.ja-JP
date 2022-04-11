@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 14881de9527796430f13199a6fc5d06452a94a60
+source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1138'
+ht-degree: 47%
 
 ---
 
 # 最新のAdobe Analyticsリリースノート（2022 年 3 月）
 
-**最終更新日：2022 年 4 月 7 日**
+**最終更新日：2022 年 31 月 4 日**
 
 * 2022 年 2 月のリリースノートについては、 [ここ](/help/release-notes/2022.md).
 * Customer Journey Analyticsリリースノートについては、 [ここ](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ja)
@@ -21,14 +21,12 @@ ht-degree: 0%
 
 ## Adobe Analytics の新機能 {#aa-features}
 
-**最終更新日：2022 年 4 月 7 日**
-
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
 | Workspace の注釈 | Workspace の注釈を使用すると、コンテキストデータのニュアンスやインサイトを組織に効果的に伝えることができます。 [詳細情報](/help/analyze/analysis-workspace/components/annotations/overview.md) | 段階的な展開は 2022 年 3 月 23 日から始まります。 一般公開：2022 年 4 月 12 日 |
 | Adobe Analyticsランディングページの更新 | 共同の Workspace/Reports &amp; Analytics ランディングページが更新され、操作性とナビゲーションが簡単になりました。 [詳細情報](/help/analyze/landing.md) | 2022 年 4 月 2 日 |
-| [!UICONTROL 次の項目] または [!UICONTROL 前の項目] Workspace パネル | この [!UICONTROL 次または前の項目] パネルを使用すると、選択したディメンション項目に従う項目、または選択したディメンション項目の前に続く項目を調べることができます。 例えば、特定の製品ページ、マーケティングチャネル、デバイスタイプまで、次のページや前のページを表示したい場合に使用します。 このパネルは、任意のディメンションを参照でき、インサイトを得るために新しい実装は必要ないので、従来の次へ/以前のレポートにとどまりません。 | 2022 年 4 月 21 日 |
-| [!UICONTROL ページサマリ] Workspace パネル | この [!UICONTROL ページサマリ] パネルでは、任意のページに関する詳細な分析を行うことができます。 従来の Reports &amp; Analytics と同じ詳細が提供されます [!UICONTROL ページサマリ] レポートに加えて、さらに多くの情報が含まれます。 | 2022 年 4 月 21 日 |
+| [!UICONTROL 次の項目] または [!UICONTROL 前の項目] Workspace パネル | この [!UICONTROL 次または前の項目] パネルを使用すると、選択したディメンション項目に従う項目、または選択したディメンション項目の前に続く項目を調べることができます。 例えば、特定の製品ページ、マーケティングチャネル、デバイスタイプまで、次のページや前のページを表示したい場合に使用します。 このパネルは、任意のディメンションを参照でき、インサイトを得るために新しい実装は必要ないので、従来の次へ/以前のレポートにとどまりません。 | 2022 年 4 月 2 日 |
+| [!UICONTROL ページサマリ] Workspace パネル | この [!UICONTROL ページサマリ] パネルでは、任意のページに関する詳細な分析を行うことができます。 従来の Reports &amp; Analytics と同じ詳細が提供されます [!UICONTROL ページサマリ] レポートに加えて、さらに多くの情報が含まれます。 | 2022 年 4 月 2 日 |
 
 {style=&quot;table-layout:auto&quot;}
 

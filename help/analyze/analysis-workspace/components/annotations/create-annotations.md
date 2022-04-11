@@ -4,10 +4,10 @@ description: ワークスペースでの注釈の作成方法
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 6a63c480220fa963cf1dc00acdd5e482dc2bab38
+source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '597'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 0%
 | **[!UICONTROL 折れ線]グラフの点を右クリックします。** | [!UICONTROL 注釈ビルダー]が開きます。なお、この方法で作成された注釈は、デフォルトでは、作成されたプロジェクトでのみ表示されます。ただし、すべてのプロジェクトで利用できるようにすることができます。日付や指標などは既に入力されていることにも注意してください。<p>![](assets/annotate-line.png) |
 | **ワークスペースで、[!UICONTROL コンポーネント]／[!UICONTROL 注釈を作成]に移動します。** | [!UICONTROL 注釈ビルダー]が開きます。 |
 | **次のホットキーを使用**&#x200B;して注釈ビルダーを開きます。PC：`ctrl` + `shift` + o、Mac：`shift` + `command` + o | なお、ホットキーを使用して注釈を作成すると、事前に選択された範囲（指標またはディメンション）を含まずに、現在の日付に対して 1 日分の注釈が作成されます。 |
-| **以下を使用： [2.0 注釈 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/annotations/)** | Analytics 2.0 注釈 API を使用すると、Adobe I/Oを通じて、注釈の作成、更新、取得をプログラムでおこなうことができます。これらの API は、製品 UI 内でAdobeが使用するのと同じデータおよびメソッドを使用します。 |
 
 1. [!UICONTROL 注釈ビルダー]の要素を入力します。
 
