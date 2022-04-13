@@ -3,10 +3,10 @@ title: 製品表示
 description: 製品ページへの表示数。
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+source-git-commit: eb13c3e828bc6d4c547f4529ee7a15182bbbf046
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 88%
 
 ---
 
@@ -19,4 +19,4 @@ ht-degree: 100%
 この指標では、次の&#x200B;**いずれかに**&#x200B;一致するヒット数をカウントします。
 
 * `prodView` の値は [`events`](/help/implement/vars/page-vars/events/events-overview.md) 変数に存在する、または
-* [`products`](/help/implement/vars/page-vars/products.md) 変数が設定され、`events` 変数に買い物かごイベントが存在しない。カスタム（`event1` - `event1000`）以外のイベントは買い物かごイベントです。
+* この [`products`](/help/implement/vars/page-vars/products.md) 変数が設定され、 `events` 変数が空です。
