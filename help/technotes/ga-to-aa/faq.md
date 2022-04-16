@@ -3,14 +3,14 @@ title: Adobe Analyticsへの移行に関するよくある質問 (FAQ)
 description: サードパーティプラットフォームからアドビ製品への移行について、よく寄せられる質問にお答えします。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
-# よくある質問
+# Adobe Analyticsへの移行に関するよくある質問 (FAQ)
 
 **サードパーティプラットフォームから Adobe Analytics に履歴データを移行するにはどうすればよいですか？**
 

@@ -4,14 +4,14 @@ keywords: ftp;sftp
 title: データソースの概要
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '452'
+ht-degree: 99%
 
 ---
 
-# データソース
+# FTP ベースのデータソース
 
 Analytics を使用して、FTP ベースのデータソースを作成および管理できます。このデータソースは、FTP ファイル転送を利用して、オフラインデータまたは履歴データを Experience Cloud に読み込みます。
 

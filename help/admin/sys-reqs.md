@@ -1,16 +1,16 @@
 ---
-title: 必要システム構成
+title: Adobe Analyticsの必要システム構成
 description: Adobe Analytics を使用するための必要システム構成です。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 92%
 
 ---
 
-# 必要システム構成
+# Adobe Analyticsの必要システム構成
 
 リストは、Adobe Analytics の様々な製品ソリューションを使用するための必要システム構成を示します。
 
