@@ -5,7 +5,7 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 591c7af7fe721b94b4da0c1f09f63f88603f9af9
+source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
 workflow-type: tm+mt
 source-wordcount: '3445'
 ht-degree: 100%
@@ -198,7 +198,7 @@ ht-degree: 100%
 | `state` | 状態変数。 | varchar(50) |
 | `stats_server` | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
 | `t_time_info` | 訪問者の現地時刻。形式：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。 形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType|Event/Action` | テキスト |
+| `tnt` | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。 形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action` | テキスト |
 | `tnt_action` | Adobe Target 統合で使用されます。ヒットが認定されるすべてのテストを表します。 | テキスト |
 | `tnt_post_vista` | 廃止。代わりに、`post_tnt` を使用してください。 | テキスト |
 | `transactionid` | データソースを使用して後から様々なデータポイントをアップロードするための一意の識別子。[`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用して収集します。 | テキスト |
