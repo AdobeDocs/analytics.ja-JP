@@ -3,9 +3,9 @@ description: 特定のディメンションの次または前のディメンシ�
 title: 次または前の項目パネル
 feature: Panels
 role: User, Admin
-source-git-commit: 73fa048164c67c6c381ce5e223bb178f9ab1833f
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '484'
 ht-degree: 8%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # 次または前の項目パネル
 
-この [!UICONTROL 次または前の項目] パネルは、Reports &amp; Analytics のレポートとして、 [!UICONTROL レポート] > [!UICONTROL 最頻使用] > [!UICONTROL 次のページ/前のページ]. この Workspace パネルには、特定のディメンションの次または前のディメンション項目を簡単に識別できる、多数のテーブルとビジュアライゼーションが含まれています。 例えば、顧客がホームページを訪問した後、どのページに最も頻繁にアクセスしたかを調べたい場合があります。
+この [!UICONTROL 次または前の項目] パネルは、Reports &amp; Analytics のレポートとして、 [!UICONTROL レポート] > [!UICONTROL 最頻使用] > [!UICONTROL 次のページ/前のページ]. 現在は、Workspace パネルになっています。 このパネルには、特定のディメンションの次または前のディメンション項目を簡単に識別できる、多数のテーブルとビジュアライゼーションが含まれています。 例えば、顧客がホームページを訪問した後、どのページに最も頻繁にアクセスしたかを調べたい場合があります。
 
 ## パネルへのアクセス
 

@@ -3,9 +3,9 @@ description: ページ概要パネルには、選択したページの概要情�
 title: ページサマリパネル
 feature: Panels
 role: User, Admin
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '469'
 ht-degree: 9%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # ページサマリパネル
 
-この [!UICONTROL ページサマリ] パネルは、Reports &amp; Analytics のレポートとして、レポート/エンゲージメント/ページ分析/ページサマリから始まりました。 この Workspace パネルを使用すると、特定のページに関する主要な統計を簡単に調べることができます。
+この [!UICONTROL ページサマリ] パネルは、Reports &amp; Analytics のレポートとして、レポート/エンゲージメント/ページ分析/ページサマリから始まりました。 現在は、Workspace パネルになっています。 このパネルを使用すると、特定のページに関する主要な統計を簡単に参照できます。
 
 ## パネルへのアクセス
 
