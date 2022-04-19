@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace のほか、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順。
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1047'
+ht-degree: 99%
 
 ---
 
@@ -98,6 +98,8 @@ ht-degree: 0%
          + [概要](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [入力と出力の設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [よくある質問（FAQ）](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [次または前の項目パネル](analysis-workspace/c-panels/next-previous.md)
+      + [ページサマリパネル](analysis-workspace/c-panels/page-summary.md)
       + [クイックインサイトパネル](analysis-workspace/c-panels/quickinsight.md)
       + セグメント比較パネル {#segment-comparison}
          + [セグメント比較の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
