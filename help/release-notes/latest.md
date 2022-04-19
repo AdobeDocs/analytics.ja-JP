@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 39%
+source-wordcount: '996'
+ht-degree: 40%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 39%
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
 | Adobe Analyticsランディングページの更新 | 共同の Workspace/Reports &amp; Analytics ランディングページが更新され、操作性とナビゲーションが簡単になりました。 [詳細情報](/help/analyze/landing.md) | 2022 年 4 月 21 日 |
-| [!UICONTROL 次の項目] または [!UICONTROL 前の項目] Workspace パネル | この [!UICONTROL 次または前の項目] パネルを使用すると、選択したディメンション項目に従う項目、または選択したディメンション項目の前に続く項目を調べることができます。 例えば、特定の製品ページ、マーケティングチャネル、デバイスタイプまで、次のページや前のページを表示したい場合に使用します。 このパネルは、任意のディメンションを参照でき、インサイトを得るために新しい実装は必要ないので、従来の次へ/以前のレポートにとどまりません。 | 2022 年 4 月 21 日 |
-| [!UICONTROL ページサマリ] Workspace パネル | この [!UICONTROL ページサマリ] パネルでは、任意のページに関する詳細な分析を行うことができます。 従来の Reports &amp; Analytics と同じ詳細が提供されます [!UICONTROL ページサマリ] レポートに加えて、さらに多くの情報が含まれます。 | 2022 年 4 月 21 日 |
+| [!UICONTROL 次の項目] または [!UICONTROL 前の項目] Workspace パネル | この [!UICONTROL 次または前の項目] パネルを使用すると、選択したディメンション項目に従う項目、または選択したディメンション項目の前に続く項目を調べることができます。 例えば、特定の製品ページ、マーケティングチャネル、デバイスタイプまで、次のページや前のページを表示したい場合に使用します。 このパネルは、任意のディメンションを参照でき、インサイトを得るために新しい実装は必要ないので、従来の次へ/以前のレポートにとどまりません。 [詳細情報](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 2022 年 4 月 21 日 |
+| [!UICONTROL ページサマリ] Workspace パネル | この [!UICONTROL ページサマリ] パネルでは、任意のページに関する詳細な分析を行うことができます。 従来の Reports &amp; Analytics と同じ詳細が提供されます [!UICONTROL ページサマリ] レポートに加えて、さらに多くの情報が含まれます。 [詳細情報](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 2022 年 4 月 21 日 |
 
 {style=&quot;table-layout:auto&quot;}
 

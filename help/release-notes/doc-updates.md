@@ -4,10 +4,10 @@ description: Adobe Analytics ドキュメントセットの大幅なアップデ
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
+source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3212'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 0%
 
 | 日付 | 説明 |
 | --- | --- |
+| **2022 年 4 月** |  |
+| Adobe Analyticsランディングページの更新 | ジョイントの更新 [Workspace/Reports &amp; Analytics のランディングページ](/help/analyze/landing.md) 操作性とナビゲーションの容易性を向上させます。 |
+| に関する新しいトピックです。 [!UICONTROL ページサマリ] パネル | [ページサマリパネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
+| に関する新しいトピックです。 [!UICONTROL 次/前の項目] パネル | [次/前のディメンション項目パネル](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022年3月** |  |
 | サポートされる HTTPS 暗号化アルゴリズムに関する新しいトピックです。 | [サポートされる HTTPS 暗号化アルゴリズム](/help/technotes/rdc/encryption-algos.md) 暗号セキュリティレベルが「高」に設定されているお客様の場合 |
 | Workspace での注釈に関する新しいドキュメント | [Workspace の注釈](/help/analyze/analysis-workspace/components/annotations/overview.md) を使用すると、コンテキストデータのニュアンスやインサイトを組織に効果的に伝えることができます。 |

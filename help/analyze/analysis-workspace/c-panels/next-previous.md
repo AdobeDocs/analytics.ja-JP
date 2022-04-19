@@ -3,10 +3,10 @@ description: 特定のディメンションの次または前のディメンシ�
 title: 次または前の項目パネル
 feature: Panels
 role: User, Admin
-source-git-commit: 2a16410a1a9ece301844ef0f242d09e3a16318c0
+source-git-commit: d4106324f6716139731cc6bd948ef06b35303620
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 7%
 | アクセスポイント | 説明 |
 | --- | --- |
 | [!UICONTROL レポート] | <ul><li>パネルは既にプロジェクトにドロップされています。</li><li>左側のレールが折りたたまれます。</li><li>選択した場合 [!UICONTROL 次のページ]の場合、デフォルト設定は既に適用されています ( 例： [!UICONTROL ページ] 対象 [!UICONTROL Dimension]、および [!UICONTROL Dimension項目], [!UICONTROL 次へ] 対象 [!UICONTROL 方向] および [!UICONTROL 訪問] 対象 [!UICONTROL コンテナ]. これらの設定はすべて変更できます。</li></ul>![次/前のパネル](assets/next-previous.png) |
-| Workspace | 新しいプロジェクトを作成し、左側のパネルでパネルアイコンを選択します。 次に、 [!UICONTROL 次または前の項目] パネルを使用して、フリーフォームテーブルの上に表示できます。 この [!UICONTROL Dimension] および [!UICONTROL Dimension項目] フィールドは空白のままです。 ドロップダウンからディメンションを選択します。 [!UICONTROL Dimension項目] が [!UICONTROL ディメンション] 君が選んだ。 上位のディメンション項目が追加されますが、別の項目を選択できます。<p>![次/前のパネル](assets/next-previous2.png) |
+| Workspace | 新しいプロジェクトを作成し、左側のパネルでパネルアイコンを選択します。 次に、 [!UICONTROL 次または前の項目] パネルを使用して、フリーフォームテーブルの上に表示できます。 この [!UICONTROL Dimension] および [!UICONTROL Dimension項目] フィールドは空白のままです。 ドロップダウンリストからディメンションを選択します。 [!UICONTROL Dimension項目] が [!UICONTROL ディメンション] 君が選んだ。 上位のディメンション項目が追加されますが、別の項目を選択できます。 デフォルトは「次へ」と「訪問者」です。 これらも変更できます。<p>![次/前のパネル](assets/next-previous2.png) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## パネル入力 {#Input}
 
@@ -33,9 +35,11 @@ ht-degree: 7%
 | --- | --- |
 | セグメント（または他のコンポーネント）ドロップゾーン | セグメントや他のコンポーネントをドラッグ&amp;ドロップして、パネル結果をさらにフィルタリングできます。 |
 | ディメンション | 次または前の項目を調査するディメンション。 |
-| ディメンション項目 | 項目 |
+| ディメンション項目 | 次の問い合わせ/前の問い合わせの中心にある特定の項目。 |
 | 方向 | を探しているかどうかを指定します [!UICONTROL 次へ] または [!UICONTROL 前へ] ディメンション項目。 |
 | コンテナ | [!UICONTROL 訪問] または [!UICONTROL 訪問者] （デフォルト）お問い合わせの範囲を決定します。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 クリック **[!UICONTROL ビルド]** をクリックして、パネルを構築します。
 
@@ -47,3 +51,10 @@ ht-degree: 7%
 
 ![次/前のパネル出力](assets/next-previous-output2.png)
 
+| ビジュアライゼーション | 説明 |
+| --- | --- |
+| 横棒グラフ | 選択したディメンション項目に基づいて、次の（または前の）項目をリストします。 個々のバーにカーソルを合わせると、フリーフォームテーブル内の対応する項目がハイライトされます。 |
+| 概要番号 | 現在の月（現在まで）の次のディメンション項目または前のディメンション項目の発生件数の概要。 |
+| フリーフォームテーブル | 選択したディメンション項目に基づいて、次の（または前の）項目をテーブル形式でリストします。 例えば、ホームページまたはワークスペースペースページの後（または前）にユーザーが最も人気のあるページ（発生件数別）でした。 |
+
+{style=&quot;table-layout:auto&quot;}
