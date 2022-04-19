@@ -3,13 +3,13 @@ description: ページ概要パネルには、選択したページの概要情�
 title: ページサマリパネル
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
-
 
 # ページサマリパネル
 
@@ -26,12 +26,12 @@ ht-degree: 9%
 
 ## パネル入力 {#Input}
 
-次の項目を設定できます。 [!UICONTROL 次または前の項目] パネルパネルで次の入力設定を使用できます。
+次の項目を設定できます。 [!UICONTROL ページサマリ] パネルで次の入力設定を使用します。
 
 | 設定 | 説明 |
 | --- | --- |
 | セグメント（または他のコンポーネント）ドロップゾーン | セグメントや他のコンポーネントをドラッグ&amp;ドロップして、パネル結果をさらにフィルタリングできます。 |
-| ページディメンション項目 | ドロップダウンリストで、主要統計を調査するディメンション項目を選択します。 |
+| ページディメンション項目 | ドロップダウンリストで、キー統計を調査するページディメンション項目を選択します。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ ht-degree: 9%
 | [!UICONTROL フロー] | 選択したページを焦点とするフロー図です。 任意の [フロー図](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style=&quot;table-layout:auto&quot;}
+
+![ページサマリパネル](assets/page-sum1.png)
+
+![指標とフロー](assets/page-sum2.png)
