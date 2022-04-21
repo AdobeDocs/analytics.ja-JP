@@ -3,10 +3,10 @@ title: Adobe Analytics の製品プロファイル
 description: 製品管理者が組織内のユーザーに割り当てる権限プリセットとして製品プロファイルを使用する方法について説明します。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '671'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,6 @@ Analytics ツールの権限項目は、レポートスイートの設定に依�
 
 ## 製品プロファイル開発者
 
-開発者はユーザーに似ていますが、Adobe I/O で Experience Cloud API を使用する権限が付与されています。詳しくは、エンタープライズユーザーガイドの[開発者の管理](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照してください。プロファイルに対する開発者アクセス権限を付与されているユーザーは、開発コンソール（console.adobe.io）にアクセスし、Adobe Analytics 統合を編集できます。ユーザーに対して承認された Analytics API の呼び出しと応答は、そのユーザーが開発者アクセス権を持っているすべてのプロファイルの正味権限に依存します。
+開発者はユーザーに似ていますが、ユーザー開発者にExperience CloudAPI を使用する権限が付与されています。 詳しくは、 [開発者の管理](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html) （エンタープライズユーザーガイド）を参照してください。 プロファイルに対する開発者アクセス権限を付与されているユーザーは、開発コンソール（console.adobe.io）にアクセスし、Adobe Analytics 統合を編集できます。ユーザーに対して承認された Analytics API の呼び出しと応答は、そのユーザーが開発者アクセス権を持っているすべてのプロファイルの正味権限に依存します。
 
 例えば、すべての指標、すべてのディメンション、1 つのレポートスイートを含むプロファイル権限を持っている場合、プロファイルの開発者アクセスメンバーは、関連スイート内の任意のコンポーネントに関する API 呼び出しをおこなうことができます。異常値検出を追加すると、レポートに異常値データを追加して、より完全な応答を含めることができます。一般的に、プロファイルが Adobe Analytics インターフェイス内のシナリオへのアクセスを許可した場合、同様に定義されたプロファイル上の開発者アクセスにより、対応する API の呼び出しと応答が有効になります。

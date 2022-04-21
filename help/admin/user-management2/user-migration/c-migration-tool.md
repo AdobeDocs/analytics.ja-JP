@@ -3,10 +3,10 @@ description: Analytics ユーザー ID を Adobe Experience Cloud 内の Admin C
 title: Admin Console への Analytics ユーザーの移行
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
-source-wordcount: '3115'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '3114'
+ht-degree: 99%
 
 ---
 
@@ -120,15 +120,15 @@ Admin Console の使用メリットには、次のようなものがあります
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">Admin Console で Analytics 製品管理者であることを確認する。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">移行が始まるとログインエクスペリエンスが変わることをユーザーベースに伝える。 </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">現在のユーザーおよび権限を監査し、クリーンアップアクティビティを実行する。 </li> 
-    </ul> <p>移行を早めるには、<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html">アドビカスタマーケア</a>でカスタマーサクセスマネージャーに連絡し、開始日を早めるように依頼を送信します。 </p> </td> 
+    </ul> <p>移行を早めるには、<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">アドビカスタマーケア</a>でカスタマーサクセスマネージャーに連絡し、開始日を早めるように依頼を送信します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Analytics 管理者ですが、Admin Console へのアクセス権がありません。Admin Console へのアクセス権を付与できるのは誰ですか。 </p> </td> 
-   <td colname="col2"> <p>組織の Admin Console へのアクセス権を持つシステム管理者または製品管理者であれば、Analytics 管理者にアクセス権を付与できます。組織内で誰が Admin Console の管理者権限を持っているかわからない場合は、<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html">アドビカスタマーケア</a>にお問い合わせください。 </p> </td> 
+   <td colname="col2"> <p>組織の Admin Console へのアクセス権を持つシステム管理者または製品管理者であれば、Analytics 管理者にアクセス権を付与できます。組織内で誰が Admin Console の管理者権限を持っているかわからない場合は、<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">アドビカスタマーケア</a>にお問い合わせください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移行開始日を延期できますか。 </p> </td> 
-   <td colname="col2"> <p>はい。<a href="https://helpx.adobe.com/jp/marketing-cloud/contact-support.html">アドビカスタマーケア</a>に連絡してください。 </p><p>開始日における現在の Analytics ユーザーおよび権限管理に対する変更の説明については、以下を参照してください。 </p> </td> 
+   <td colname="col2"> <p>はい。<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">アドビカスタマーケア</a>に連絡してください。 </p><p>開始日における現在の Analytics ユーザーおよび権限管理に対する変更の説明については、以下を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>会社が Admin Console への移行を予定しています。移行開始日前は、新規ユーザーおよび権限グループをどこで作成しますか。 </p> </td> 
@@ -280,7 +280,7 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>ユーザー管理 API の<a href="https://helpx.adobe.com/jp/enterprise/help/identity.html">アドビがサポートしている ID タイプ</a> </p> </td> 
-   <td colname="col2"> <p> Admin Console への移行をおこなっている管理者は、プログラムによって Admin Console のユーザーアカウントにアクセスできるよう、Adobe I/O で提供されている<a href="https://developer.adobe.com/UMAPI/">ユーザー管理 API</a> を設定する必要があります。 </p> <p>管理者が移行を実行できるようになると、Analytics の権限 API はオフになります。 </p> </td> 
+   <td colname="col2"> <p> 移行中の管理者は、Admin Consoleを設定する必要があります<a href="https://developer.adobe.com/UMAPI/"> ユーザー管理 API</a> は、Admin Console内のユーザーアカウントにプログラムでアクセスするために、Adobe Developerで提供されています。 </p> <p>管理者が移行を実行できるようになると、Analytics の権限 API はオフになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Web サービス資格情報 </p> </td> 
@@ -288,7 +288,7 @@ Admin Console の使用メリットには、次のようなものがあります
   </tr> 
   <tr> 
    <td colname="col1"> <p>シングルサインオン </p> </td> 
-   <td colname="col2"> <p> Analytics のシングルサインオン設定は、移行を完了すると削除されます。移行中は、これらの設定は有効なままです。Analytics のシングルサインオンを使用する顧客は、<a href="https://helpx.adobe.com/jp/enterprise/help/identity.html">Adobe Federated ID</a> にアップグレードする必要があります。 </p> <p>Analytics では、まずユーザーを Adobe ID として移行して Experience Cloud アカウントを作成しやすくし、次にそのアカウントを統一されたシングルサインオンユーザーに変換することをお勧めします。 </p> </td> 
+   <td colname="col2"> <p> Analytics のシングルサインオン設定は、移行を完了すると削除されます。移行中は、これらの設定は有効なままです。Analytics のシングルサインオンを使用する顧客は、<a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe Federated ID</a> にアップグレードする必要があります。 </p> <p>Analytics では、まずユーザーを Adobe ID として移行して Experience Cloud アカウントを作成しやすくし、次にそのアカウントを統一されたシングルサインオンユーザーに変換することをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>権限グループのダウンロード </p> </td> 
