@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
 workflow-type: tm+mt
 source-wordcount: '3212'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -24,20 +24,20 @@ ht-degree: 93%
 | 日付 | 説明 |
 | --- | --- |
 | **2022 年 4 月** |  |
-| Adobe Analyticsランディングページの更新 | ジョイントの更新 [Workspace/Reports &amp; Analytics のランディングページ](/help/analyze/landing.md) 操作性とナビゲーションの容易性を向上させます。 |
+| Adobe Analytics ランディングページの更新 | ジョイントの更新 [Workspace/Reports &amp; Analytics のランディングページ](/help/analyze/landing.md) 操作性とナビゲーションの容易性を向上させます。 |
 | に関する新しいトピックです。 [!UICONTROL ページサマリ] パネル | [ページサマリパネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | に関する新しいトピックです。 [!UICONTROL 次/前の項目] パネル | [次/前のディメンション項目パネル](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022年3月** |  |
-| サポートされる HTTPS 暗号化アルゴリズムに関する新しいトピックです。 | [サポートされる HTTPS 暗号化アルゴリズム](/help/technotes/rdc/encryption-algos.md) 暗号セキュリティレベルが「高」に設定されているお客様の場合 |
-| Workspace での注釈に関する新しいドキュメント | [Workspace の注釈](/help/analyze/analysis-workspace/components/annotations/overview.md) を使用すると、コンテキストデータのニュアンスやインサイトを組織に効果的に伝えることができます。 |
-| Adobe Analyticsランディングページの更新 | [更新](/help/analyze/landing.md) を追加しました。 |
-| [!UICONTROL 次の項目] または [!UICONTROL 前の項目] Workspace パネル | このパネルを使用すると、選択したディメンション項目に従う項目、または選択したディメンション項目より前にある項目を調べることができます。 |
-| [!UICONTROL ページサマリ] Workspace パネル | このパネルでは、任意のページに関する詳細な分析を提供します。 |
-| 古い予定レポートの一時停止に関する新しいトピックです。 | 有効 **2022 年 4 月 16 日**,Adobeは、 [作成日が 2 年を超える予定レポートをすべて一時停止します。](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
-| **2022 年 2 月** |
-| モバイルスコアカードプロジェクトのプレビューモード | この [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) スコアカードを保存および共有する前に、エクスペリエンスをプレビューできます。 |
+| サポートされる HTTPS 暗号化アルゴリズムに関する新しいトピック | 暗号化セキュリティレベルが「高」に設定されているお客様向けに [サポートされている HTTPS 暗号化アルゴリズム](/help/technotes/rdc/encryption-algos.md)。 |
+| Workspace での注釈に関する新しいドキュメント | [Workspace の注釈](/help/analyze/analysis-workspace/components/annotations/overview.md) を使用すると、コンテキストデータのニュアンスとインサイトを組織に効果的に伝えることができます。 |
+| Adobe Analytics ランディングページの更新 | Workspace と Reports &amp; Analytics の共同ランディングページを [更新](/help/analyze/landing.md) し、操作性とナビゲーションのしやすさを改善しました。 |
+| [!UICONTROL 次の項目] または [!UICONTROL 前の項目] Workspace パネル | このパネルでは、選択したディメンション項目の後に続く項目、または先行する項目を探索できます。 |
+| [!UICONTROL ページの概要] Workspace パネル | このパネルでは、選択したページに関する詳細な分析結果を提供します。 |
+| 古い予定レポートの一時停止に関する新しいトピック | **2022年4月15日（PT）** より、アドビは、 [作成日が 2 年を超える予定レポートをすべて一時停止](/help/analyze/reports-analytics/scheduled-reports-eol.md) する予定です。 |
+| **2022年2月** |
+| モバイルスコアカードプロジェクトのプレビューモード | [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) では、スコアカードを保存して共有する前に、エクスペリエンスをプレビューできます。 |
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspace プロジェクトを追加、編集または削除します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| 古いスケジュール済みReport Builderタスクの一時停止に関するトピックを更新しました | **2022 年 4 月 15 日から有効**,Adobeは、 [2 年以上前に作成されたすべての予定Report Builderタスクを一時停止します](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| 過去のスケジュール済み Report Builder タスクの一時停止に関する更新されたトピック | **2022年4月15日（PT）** より、アドビは、 [2 年以上前に作成されたすべてのスケジュール済み Report Builder タスクを一時停止](/help/analyze/report-builder/r-arb-scheduled-reports.md) する予定です。 |
 | **2021年10月** |  |
 | 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja) に関する新しいドキュメントが公開されました |
 | 2021年10月21日（PT） | Analysis Workspace の [メディア再生滞在時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ja) パネルに関する新しいドキュメントが公開されました。 |
