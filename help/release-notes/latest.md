@@ -3,24 +3,25 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
+source-git-commit: c29515da8c74ad3332aa9797db9de505af7fe3aa
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 68%
+source-wordcount: '1070'
+ht-degree: 60%
 
 ---
 
 # 現在の Adobe Analytics リリースノート（2022年4月）
 
-**最終更新日**：2022年4月20日（PT）
+**最終更新日**：2022年4月28日（PT）
 
-* 2022年3月のリリースノートについては、 [こちら](/help/release-notes/2022.md) をご覧ください。
+## 関連リソース
 
-* Customer Journey Analytics リリースノートについては、 [こちら](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ja) をご覧ください。
+* [2022 年の以前のリリースノート](/help/release-notes/2022.md)
+* [年 Customer Journey Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [Media Analytics リリースノート](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
+* の最新のリリース更新 [Adobe Experience Cloud製品](https://business.adobe.com/jp/products/adobe-experience-cloud-products.html)
 
-* Media Analytics リリースノートについては、 [こちら](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ja) をご覧ください。
-
-* [Adobe Experience Cloud 製品](https://business.adobe.com/jp/products/adobe-experience-cloud-products.html) の最新のリリース更新について説明します。Experience League に関する最新のセルフヘルプドキュメント、チュートリアル、コースを入手します。
+## Adobe Analytics の新機能
 
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
@@ -34,12 +35,12 @@ ht-degree: 68%
 ## Adobe Analytics の修正点
 
 * データフィード UI から作成する際に、データフィードを保存した後に、開始日と終了日が自動的に変更されるというデータフィードの問題を修正しました。日付は 1 日ずつ更新されていました。（AN-281262）
-
 * メールのリンクを使用してスケジュール済みプロジェクトを更新できない問題を修正しました。（AN-283622）
+* Adobeーのブラウザータイプ参照テーブルで、Apple Safari とMicrosoft Edge の最近のリリースが正しく識別されない問題を修正しました。 次の場合と同様 [ブラウザーのバージョンが更新されました](/help/components/dimensions/browser.md)、ブラウザータイプ参照テーブルが更新され、データが正しく転送されるようになりました。 ブラウザーバージョンの参照テーブルは 4 月 20 日に更新され、ブラウザータイプの参照テーブルは 4 月 28 日に更新されました。 (AN-284872;AN-285753;AN-286257)
 
 ### Adobe Analytics におけるその他の修正点
 
-AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761;
+AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-283508; AN-283517; AN-283706; AN-283762; AN-283921; AN-284195; AN-284663; AN-284573; AN-284721; AN-284790; AN-284867; AN-284870; AN-284872; AN-284884; AN-284914; AN-284930; AN-284933; AN-284967; AN-284970; AN-285187; AN-285328; AN-285337; AN-285375; AN-285447; AN-285724; AN-285753; AN-285761
 
 ## Adobe Analytics 管理者向けの重要な注意事項
 
