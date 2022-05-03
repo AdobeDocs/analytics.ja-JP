@@ -1,19 +1,19 @@
 ---
-description: サーバー側転送は、Analytics のデータを他の Experience Cloud ソリューションとリアルタイムで共有したいと考えるお客様向けに設計されています。サーバー側転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
+description: サーバー側転送は、Analytics のデータを他の Experience Cloud ソリューションとリアルタイムで共有したいと考えるお客様向けに設計されています。サーバーサイド転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
 solution: Analytics
 title: サーバー側転送の概要
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # サーバー側転送の概要
 
-サーバー側転送は、Analytics のデータを他の Experience Cloud ソリューションとリアルタイムで共有したいと考えるお客様向けに設計されています。サーバー側転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
+サーバー側転送は、Analytics のデータを他の Experience Cloud ソリューションとリアルタイムで共有したいと考えるお客様向けに設計されています。サーバーサイド転送が有効な場合、Analytics が他の Experience Cloud ソリューションにデータをプッシュできるほか、データ収集プロセス中にこれらのソリューションから Analytics にデータをプッシュできます。
 
 以下の点でデータ収集時のサーバー側転送が改善されました。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
       1. DIL コードを削除し、[Audience Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)ページのコードをインストールします。
       1. 手順 3 の説明に従って、Analytics 管理 UI でサーバー側転送を有効にします。DIL コードを削除する前にこの設定を有効にすると、データが複製され、Audience Manager に対する追加の請求対象サーバーコールが作成されます。
-   * **AAM の新しいお客様** - Audience [Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=ja)ページのコードをインストールし、手順 3 に進みます。手順 3 でサーバー側転送を有効にするまでは、データは Audience Manager に送信されません。
+   * **AAM の新しいお客様** - Audience [Management モジュール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)ページのコードをインストールし、手順 3 に進みます。手順 3 でサーバー側転送を有効にするまでは、データは Audience Manager に送信されません。
 
 
 ## ![step3_icon.png image](assets/step3_icon.png) レポートスイートのサーバー側転送の実装の確認
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 **Analytics**／**管理者**／**レポートスイート**／（**レポートスイート**&#x200B;を選択）／**設定を編集**／**一般**／**サーバー側転送**&#x200B;に移動します。このチェックボックスが
 
-* **非アクティブ**（選択できないか、メニューが存在しません）：選択したレポートスイートが IMS 組織にマッピングされていません。カスタマーケアに問い合わせて、レポートスイートが正しくマッピングされていることを確認してください。
+* **非アクティブ** （選択できないか、メニューが存在しません）:選択したレポートスイートが組織 ID にマッピングされていません。 カスタマーケアに問い合わせて、レポートスイートが正しくマッピングされていることを確認してください。
 * **無効**：新しいサーバー側転送を有効にしていません。ページのコンテンツを読んで、機能を有効にしてください。
 * **有効**：新しいサーバー側転送がプロビジョニングされています。この Audience Analytics 統合をセットアップすることもできます。
 

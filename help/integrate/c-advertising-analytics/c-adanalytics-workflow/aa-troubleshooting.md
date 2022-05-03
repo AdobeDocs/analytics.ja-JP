@@ -3,10 +3,10 @@ description: Advertising Analytics に関する問題をトラブルシューテ
 title: Advertising Analytics のトラブルシューティング
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. レポートスイートがログインユーザーの Experience Cloud Org ID にマッピングされていません。 </p> </td> 
-   <td colname="col2"> <p>カスタマーケアに連絡して、レポートスイートを IMS 組織にマッピングしてください。</p> </td> 
+   <td colname="col2"> <p>カスタマーケアに問い合わせて、レポートスイートを組織 ID にマッピングしてください。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. レポートスイートが Advertising Analytics レポート用にプロビジョニングされていません。 </p> </td> 
