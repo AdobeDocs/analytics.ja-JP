@@ -4,28 +4,20 @@ title: Adobe Analytics ランディングページ
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '3610'
+source-wordcount: '3564'
 ht-degree: 83%
 
 ---
 
 # Adobe Analytics ランディングページ
 
-Adobe Analyticsのランディングページは、 [!DNL Analysis Workspace] および [!DNL Reports & Analytics] 単一のインターフェイスで、 [!DNL Workspace] 傘。 プロジェクトマネージャーのホームページ、更新されたレポートメニュー、最新化されたレポートおよび学習セクションが用意されており、作業をより効率的に開始するのに役立ちます。
-
->[!IMPORTANT]
->
->このランディングページは現在オープンベータ版です。 これはオプションの出発点です。必要に応じて、既存のランディングページを使用できます。 [!UICONTROL Workspace] または [!UICONTROL レポート]. ベータ版プログラムをオプトインする場合は、ページにアクセスし、画面上部の「**[!UICONTROL フィードバックを提供]**」をクリックして、フィードバックと発生したバグを記録してください。ベータプログラムは、いつでもオプトアウトや再開ができます。ベータ版のユーザーインターフェイスで行われた作業は、既存の [!UICONTROL Workspace] エクスペリエンス。
+Adobe Analyticsのランディングページは、 [!DNL Analysis Workspace] および [!DNL Reports & Analytics] 単一のインターフェイスで、 [!DNL Workspace] 傘。 プロジェクトマネージャーのホームページ、更新されたレポートメニュー、最新化されたレポートおよび学習セクションが用意されており、作業をより効率的に開始するのに役立ちます。以下は、このトピックの概要に関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## 新しいランディングページの機能
-
->[!NOTE]
->
->これらの追加と変更は現在、 [限られたテストで](/help/release-notes/releases.md).
+## 新しいランディングページの機能 {#new-features}
 
 | 機能 | 説明 | スクリーンショット |
 | --- | --- | --- |
@@ -47,7 +39,7 @@ Adobe Experience Cloud および Analytics にログインしたら、左下隅�
 
 ![ランディング](assets/landing.png)
 
-## メニュー構造
+## 上部のメニュー構造 {#top-menu}
 
 ![上位メニュー](assets/top-menus.png)
 
@@ -112,7 +104,7 @@ Adobe Experience Cloud および Analytics にログインしたら、左下隅�
 
 前述のとおり、ここで使用できるのや、以前 Reports &amp; Analytics でグループ化されていた、最も一般的なレポートのみです。ほとんど使用されないレポートや、関連性の低いレポートの一部は移行されませんでした。詳しくは、以下の FAQ を参照してください。
 
-### メニューとサブメニュー
+### メニューとサブメニュー {#menus}
 
 次に、メニューとそのサブメニューを示します。特定のレポートが見つからない場合は、「ページで検索」を実行して見つけます。
 
@@ -125,7 +117,7 @@ Adobe Experience Cloud および Analytics にログインしたら、左下隅�
 | **[!UICONTROL 獲得]** | <ul><li>マーケティングチャネル／ファーストタッチチャネル、ファーストタッチチャネルの詳細（ファーストタッチチャネルの種類と、パフォーマンスが最も高い特定のファーストタッチチャネルの種類はどれか）</li><li>マーケティングチャネル／最後のチャネル、最後のチャネルの詳細（ラストタッチチャネル、および最もパフォーマンスの高い特定のラストタッチチャネルはどれか）</li><li>Campaign／Campaign（主要指標を推進しているキャンペーンはどれか）</li><li>Campaign／キャンペーンのパフォーマンス（最も高い売上を促進しているのはどのキャンペーンか）</li><li>キャンペーン／トラッキングコード（パフォーマンスが最も高いキャンペーントラッキングコードはどれか）</li><li>[Web 獲得](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#web)</li><li>[モバイル獲得](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics: 有料検索](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=ja#advertising)</li><li>検索キーワード - すべて、有料、自然（主要指標を最も促進している検索キーワードおよび有料／自然検索キーワードはどれか）</li><li>検索エンジン - すべて、有料、自然（主要指標を最も促進している検索エンジンおよび有料／自然検索エンジンはどれか）</li><li>すべての検索ページのランク（ユーザーはどの検索ページから訪問しているか）</li><li>参照ドメイン（サイトへのトラフィックを促進しているのはどのドメインか）</li><li>オリジナルの参照ドメイン（サイトを訪問する前に最初に訪問したドメインは何か）</li><li>リファラー（クリックスルーしてサイトにアクセスする前に、ユーザーが閲覧していた URL はどれか）</li><li>リファラータイプ（参照 URL が属するカテゴリはどれか）</li></ul> |
 | **[!UICONTROL 会社レポート]** | ユーザーが使用するために会社が作成したレポート。以下の「会社レポートの作成」を参照してください。 |
 
-### テンプレートの場所（現在はレポートと呼ばれています）
+### テンプレートの場所（現在はレポートと呼ばれています） {#templates}
 
 | レポート（テンプレート）名 | レポートの場所 |
 | --- | --- |
@@ -152,7 +144,7 @@ Adobe Experience Cloud および Analytics にログインしたら、左下隅�
 | Web 獲得 | 獲得 > Web 獲得 |
 | Advertising Analytics：有料検索 | 獲得 > Advertising Analytics：有料検索 |
 
-### 「レポート」タブの使用
+### 「レポート」タブの使用 {#use-reports}
 
 Reports &amp; Analytics を現在ご利用中のお客様に対して、従来のレポートの使用方法と、ワークスペース内に表示されるレポートの使用方法を簡単に紹介します。レポートは、既存のテンプレートのように機能します。変更を加えると、別のレポートに移動する際に変更を保存または破棄するよう求められます。 変更を保存する場合は、レポートを新しいプロジェクトとして保存します。
 
@@ -170,7 +162,7 @@ Reports &amp; Analytics を現在ご利用中のお客様に対して、従来�
    * 右上のカレンダーに移動して、日付範囲を変更できます。
    * ディメンション分類の追加、他の指標へのドラッグ、および好きな方法でレポートの一般的なカスタマイズを実行できます。
 
-### （カスタム）会社レポートの作成
+### （カスタム）会社レポートの作成 {#company-report}
 
 カスタムレポートは会社レポートと呼ばれ、会社レポートメニューに表示されます（以下を参照してください）。以前に作成されたものと新しいものが、ここに一覧表示されます。
 
@@ -199,6 +191,22 @@ Reports &amp; Analytics を現在ご利用中のお客様に対して、従来�
 * [!UICONTROL ワークスペースの基本]ツアーでは、ワークスペースに直接アクセスし、ワークスペースのレイアウトと、最も一般的なアクションをどこで見つけて実行できるかについて説明します。このツアーは、パネルヘッダーからツールチップポップオーバーを使用して、ワークスペースでいつでも直接再起動できます。
 * ビデオ／ツアーをクリックすると、「**[!UICONTROL 閲覧済み]**」タグが追加されます。このタグは、学習コンテンツの進捗状況を追跡するのに役立ちます。コンテンツをまだ完了していない場合は、タグをクリックするとタグが消えます。
 * ビデオモーダルの「**[!UICONTROL 詳細情報]**」ボタンをクリックすると、先ほど視聴したビデオに関連する詳細なヘルプコンテンツが記載された Adobe Experience League ドキュメントページが表示されます。「**[!UICONTROL その他のビデオを視聴する]**」をクリックすると、Analysis Workspace YouTube の完全なプレイリスト全体が表示されます。
+
+## ランディングページの設定 {#set-landing}
+
+ユーザーは希望するランディングページを設定できます。
+
+1. Analytics /に移動します。 [!UICONTROL コンポーネント] > [!UICONTROL 環境設定] > [!UICONTROL 一般].
+1. 希望するランディングページを選択します。
+
+   ![ランディングページを設定](assets/landing-pref.png)
+
+## 「レポート」タブを非表示にする {#hide-reports}
+
+管理者は、組織内のすべてのユーザーの「レポート」タブを非表示にできます。
+
+1. に移動します。 [!UICONTROL Analytics] > [!UICONTROL コンポーネント] > [!UICONTROL 環境設定] > [!UICONTROL 会社].
+1. チェック **[!UICONTROL 「レポート」タブを非表示]**.
 
 ## ランディングページに関する FAQ {#landing-faq}
 
