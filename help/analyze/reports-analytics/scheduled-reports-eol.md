@@ -1,36 +1,36 @@
 ---
-title: End-of-life notice for scheduled reports
-description: Adobe intends to pause all scheduled reports that have a creation date greater than two years.
+title: 予定レポートの提供終了通知
+description: Adobeは、作成日が 2 年を超える予定レポートをすべて一時停止しようとしています。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 35e5f056f962066a068ca1f0247c5b550efc2edc
+source-git-commit: 3a307eefec4f9e6559c5109819ef55b200852b3b
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '353'
 ht-degree: 9%
 
 ---
 
-# End-of-life notice for scheduled reports
+# 予定レポートの提供終了通知
 
-**** No reports or data were deleted. Only reports identified as older than two years were paused, and no additional scheduled reports can be sent.
+有効 **2022 年 4 月 22 日**「 」をクリックすると、作成日が 2 年を超えるすべての予定レポートがAdobeによって一時停止されました（2020 年 1 月 31 日より前に作成されたタスク）。 レポートまたはデータは削除されませんでした。 一時停止されたのは 2 年を超えていると見なされたレポートのみで、追加の予定レポートは送信できませんでした。
 
-Any report that gets reactivated will have a default expiration of 9 months, unless a shorter expiration date is chosen.
+まだ送信されていない予定レポートは、Analytics にログインして [!UICONTROL 予定レポート] 管理者。 次をクリック： [!UICONTROL 編集] アイコンをクリックし、新しくスケジュールされた時間と有効期限を設定します。 再アクティブ化されるレポートでは、有効期限が短い場合を除き、デフォルトで 9 ヶ月の有効期限が設定されます。
 
-Any report with a creation date less than two years with no expiration date (or with an expiration date longer than two years) will have a default 9-month expiration date applied. The new expiration date will be December 15, 2022. この有効期限は 9 か月未満に編集できますが、18 か月より長い期間には編集できません。
+作成日が 2 年未満で有効期限のない（または有効期限が 2 年を超える）レポートには、デフォルトで 9 ヶ月の有効期限が適用されます。 新しい有効期限は 2022 年 12 月 15 日です。 この有効期限は 9 か月未満に編集できますが、18 か月より長い期間には編集できません。
 
-Finally, any edits to an existing scheduled report with no expiration date require an expiration date of 9 months or less. Otherwise, you cannot save any edits or changes to the report.
+最後に、有効期限のない既存の予定レポートを編集する場合は、有効期限を 9 ヶ月以下にする必要があります。 そうしないと、レポートの編集や変更を保存できません。
 
-At the time of expiration, the scheduled report will be paused. However, the report can be reactivated with a new 9-month expiration date. レポートやデータは削除されません。
+有効期限が切れると、予定レポートは一時停止します。 ただし、9 ヶ月の新しい有効期限でレポートを再度アクティブにすることはできます。 レポートやデータは削除されません。
 
-## New governance policy
+## 新しいガバナンスポリシー
 
-The purpose of this action is to effectively manage and maintain our scheduled reports as we prepare for the previously announced end-of-life for Reports &amp; Analytics. This will serve as our new governance policy moving forward:
+このアクションの目的は、以前に発表された Reports &amp; Analytics の提供終了に備えて、予定レポートを効果的に管理および管理することです。 これは、今後の新しいガバナンスポリシーの役割を果たします。
 
-* No new scheduled reports can be created after April 21, 2022.
-* After April 21, 2022, all scheduled reports have a maximum expiration date of 9 months.
-* After 9 months, expired tasks are paused and can be reactivated, if still needed, until December 31, 2023.
-* On December 31, 2023, Reports &amp; Analytics will be deprecated.
-* You can no longer set up new Data Extracts. Existing ones will continue to run, but no new ones can be scheduled.
+* 2022 年 4 月 21 日以降、新しい予定レポートを作成することはできません。
+* 2022 年 4 月 21 日以降、すべての予定レポートの有効期限は最大 9 ヶ月です。
+* 9 ヶ月後、期限切れのタスクは一時停止され、必要に応じて、2023 年 12 月 31 日まで再アクティブ化できます。
+* 2023 年 12 月 31 日に、Reports &amp; Analytics は非推奨となります。
+* 2022 年 4 月 22 日以降、新しいデータ抽出を設定できなくなります。 既存のソースは引き続き実行されますが、新しいソースはスケジュールできません。
 
 その他の質問やサポートについては、Adobe カスタマーケアにお問い合わせください。
