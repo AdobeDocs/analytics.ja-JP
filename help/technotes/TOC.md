@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の分析ツールやコンポーネントに属さない有益な記事を含むナレッジベース。
-source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
+source-git-commit: 1539649c758814d64a6f5c6dddff262df831d691
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 98%
+source-wordcount: '197'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 98%
    + [日付を前の範囲と比較する](event/compare-dates.md)
    + [イベントの影響を受けたデータの取得](event/calcmetrics.md)
    + [イベントについてユーザーに伝える](event/communicate.md)
-   + [インテリジェントデータスムージング](event/intelligent-data-smoothing.md)
 + Cookie {#cookies}
    + [ブラウザーの cookie](cookies/cookies.md)
    + [ブラウザーの cookie 制限の影響を軽減するオプション](cookies/cookieless.md)
