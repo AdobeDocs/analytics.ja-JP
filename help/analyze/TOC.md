@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace のほか、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順。
-source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 99%
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 99%
       + フロー {#flow}
          + [フローの概要](analysis-workspace/visualizations/c-flow/flow.md)
          + [フロービジュアライゼーションの設定](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [新しいフロービジュアライゼーション（ベータ版）](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [フローの設定](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [ディメンション間のフロー](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [ヒストグラム](analysis-workspace/visualizations/histogram.md)
@@ -99,7 +100,7 @@ ht-degree: 99%
          + [入力と出力の設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [よくある質問（FAQ）](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [次または前の項目パネル](analysis-workspace/c-panels/next-previous.md)
-      + [ページサマリパネル](analysis-workspace/c-panels/page-summary.md)
+      + [ページの概要パネル](analysis-workspace/c-panels/page-summary.md)
       + [クイックインサイトパネル](analysis-workspace/c-panels/quickinsight.md)
       + セグメント比較パネル {#segment-comparison}
          + [セグメント比較の概要](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)

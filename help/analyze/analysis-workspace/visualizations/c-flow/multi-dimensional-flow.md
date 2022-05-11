@@ -5,8 +5,8 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 # ディメンション間のフロー
 
-ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを検証できます。
-
-以下は、Analysis Workspace でのテキストの折り返しと多次元フローに関するビデオです。
+ディメンション間のフローを使用すると、様々なディメンションにわたるユーザーパスを検証できます。以下は、Analysis Workspace でのテキストの折り返しと多次元フローに関するビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ ht-degree: 100%
 
 アプリの使用例と Web の使用例の 2 つについて見ていきます。
 
-## 使用例 1：アプリケーション {#section_3D31D37B9C9F4134AE46C96291E41294}
+## 使用例 1：アプリケーション {#app}
 
 返される上位の項目が [!UICONTROL ItemAdded] で、[!UICONTROL アクション名]ディメンションがフローに追加されました。
 
@@ -56,7 +54,7 @@ ht-degree: 100%
 
 これにより、深いインサイトが可能になり、分析するアプリに対する変更の可能性を考慮できます。
 
-## 使用例 2：Web {#section_8D55983FA0C84926995270052AE01CD8}
+## 使用例 2：Web {#web}
 
 この使用例は、最も多くのエントリを Web サイトに導くキャンペーンをどのようにして分析できるかを示します。
 
