@@ -3,10 +3,10 @@ title: データ収集クエリーパラメーター
 description: イメージリクエストで使用されるすべてのクエリー文字列パラメーターをリストします。
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 | `p` | なし | 廃止。ブラウザーで使用されるプラグインのリスト。 |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | [ページ](/help/components/dimensions/page.md)ディメンションで使用されます。 |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | [エラーページ](/help/components/dimensions/pages-not-found.md)ディメンションで使用されます。 |
-| `pccr` | なし | 新規訪問者に対してのみ設定し、常に `true` に設定します。無限リダイレクトを防ぐのに役立ちます。 |
+| `pccr` | なし | 新規訪問者に対してのみ設定し、常に `true` に設定します。訪問者が Cookie を拒否した場合に、無限リダイレクトを防ぐのに役立ちます。 |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | カスタムリンクのタイプを決定します。[カスタムリンク](/help/components/dimensions/custom-link.md)、[ダウンロードリンク](/help/components/dimensions/download-link.md)、[離脱リンク](/help/components/dimensions/exit-link.md)に必須です。 |
 | `pev1` | なし | カスタムリンクが発生した URL。 |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | カスタムリンクのわかりやすい名前。 |
@@ -77,6 +77,7 @@ ht-degree: 100%
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [トラッキングコードデ](/help/components/dimensions/tracking-code.md)ィメンション。 |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md)、またはカスタムコンバージョンディメンション。 |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 訪問者固有の ID。 |
+| `vidn` | なし | 新規訪問者に対して AppMeasurement によって設定されます。 訪問者の Cookie に保存された ID 値が含まれます。 |
 | `vmk` | `vmk` | 廃止。訪問者移行キー。サードパーティ Cookie からファーストパーティ Cookie への実装を移行するのに役立ちました。 |
 | `vvp` | `variableProvider` | Data Connectors で使用されます。 |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | データソースと共に使用して、オンラインデータとオフラインデータを結び付けます。 |
