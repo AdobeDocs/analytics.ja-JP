@@ -3,16 +3,20 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
+source-git-commit: aa4dc06dc1719f398c29aeca40051d88f339ce42
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '872'
+ht-degree: 89%
 
 ---
 
-# 現在の Adobe Analytics リリースノート（2022年4月）
+# 最新のAdobe Analyticsリリースノート（2022 年 5 月）
 
-**最終更新日**:2022 年 5 月 10 日
+**最終更新日**:2022 年 5 月 12 日
+
+>[!NOTE]
+>
+>このページに記載される内容は、リリース前の情報であり、変更される可能性があります。
 
 ## 関連リソース
 
@@ -25,24 +29,23 @@ ht-degree: 95%
 
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
-| Adobe Analytics ランディングページの更新 | ワークスペースと Reports &amp; Analytics の共同ランディングページが更新され、操作性とナビゲーションのしやすさが改善しました。 [詳細情報](/help/analyze/landing.md) | 2022年4月20日（PT） |
-| [!UICONTROL 次の項目] または [!UICONTROL 前の項目]ワークスペースパネル | [!UICONTROL 次または前の項目] パネルでは、選択したディメンション項目の後または前の項目を探索できます。例えば、特定の製品ページの次のページや前のページ、マーケティングチャネル、さらにデバイスタイプを確認する場合に使用します。このパネルは、任意のディメンジョンを参照でき、インサイトを得るために新たな実装を必要としないので、従来の次／前のレポート以上の役割を果たします。[詳細情報](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 2022年4月20日（PT） |
-| [!UICONTROL ページの概要]ワークスペースパネル | [!UICONTROL ページの概要]パネルでは、選択したページの詳細な分析結果を提供します。従来の Reports &amp; Analytics における[!UICONTROL ページの概要]レポートと同様の詳細情報に加えて、さらに多くの情報を提供します。[詳細情報](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 2022年4月20日（PT） |
-| 2.0 API 呼び出しの `x-proxy-global-company-id` ヘッダーの要件を削除 | この情報はエンドポイント URL の一部であるため、Adobe Analytics 2.0 API では `x-proxy-global-company-id` ヘッダーが不要になりました。このヘッダーを引き続き含めることはできますが、ヘッダーがない場合にエラーが表示されることはなくなりました。 | 2022年4月20日（PT） |
+| 今月は新機能はありません | 該当なし | 該当なし |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Adobe Analytics の修正点
+### Adobe Analytics の修正点
 
-* データフィード UI から作成する際に、データフィードを保存した後に、開始日と終了日が自動的に変更されるというデータフィードの問題を修正しました。日付は 1 日ずつ更新されていました。（AN-281262）
-* メールのリンクを使用してスケジュール済みプロジェクトを更新できない問題を修正しました。（AN-283622）
-* Apple Safari と Microsoft Edge の最新リリースがアドビのブラウザータイプのルックアップテーブルで正しく識別されない問題を修正しました。[ブラウザーバージョンを更新する](/help/components/dimensions/browser.md)場合と同様に、ブラウザータイプのルックアップテーブルを更新すると、転送するデータのみが修正されます。ブラウザーバージョンのルックアップテーブルは 4月20日（PT）、ブラウザータイプのルックアップテーブルは 4月28日（PT）に更新しました。（AN-284872、AN-285753、AN-286257）
+（複数のお客様に対する修正点）
+
+該当なし
 
 ### Adobe Analytics におけるその他の修正点
 
-AN-274486、AN-279258、AN-279995、AN-280918、AN-281423; AN-282084; AN-282435; AN-283508、AN-283517、AN-283706、AN-283762、AN-283921、AN-284195、AN-284663、AN-284573、AN-284721、AN-284790、AN-284867、AN-284870、AN-284872、AN-284884、AN-284914、AN-284930、AN-284933、AN-284967、AN-284970、AN-285187、AN-285328、AN-285337、AN-285375、AN-285447、AN-285724、AN-285753、AN-285761
+（個々のお客様向けの修正点）
 
-## Adobe Analytics 管理者向けの重要な注意事項
+AN-274429;AN-280918;AN-280945;AN-282884;AN-283565;AN-284785;AN-284814;AN-284854;AN-285253;AN-285432;AN-285535;AN-286255;AN-286340;AN-286434;AN-286454;AN-286630;AN-286716;AN-286854;AN-286911
+
+### Adobe Analytics 管理者向けの重要な注意事項
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
@@ -58,9 +61,7 @@ AN-274486、AN-279258、AN-279995、AN-280918、AN-281423; AN-282084; AN-282435;
 
 {style=&quot;table-layout:auto&quot;}
 
-## AppMeasurement {#appm}
+### AppMeasurement
 
 AppMeasurement リリース（バージョン 2.22.4）の最新のアップデートについては、[JavaScript リリースノートの AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ja) を参照してください。
 
->[!MORELIKETHIS]
->[[!DNL Customer Journey Analytics] リリースノート](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ja)
