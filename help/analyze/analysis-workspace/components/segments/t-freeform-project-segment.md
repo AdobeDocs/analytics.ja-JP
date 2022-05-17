@@ -4,10 +4,10 @@ title: セグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 5e9894e3b7ea3e6c36e45b3683c08a1c767df8f0
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '537'
+ht-degree: 91%
 
 ---
 
@@ -19,9 +19,9 @@ Workspace では、どのくらい複雑なセグメントが必要か、この�
 | セグメントタイプ | 作成場所 | 適用対象となる場所 | 使用するタイミング |
 | --- | --- | --- | --- |
 | コンポーネントリストセグメント | 「+」をクリックすると、[セグメントビルダー](/help/components/segmentation/segmentation-workflow/seg-build.md)が表示されます。 | すべての Workspace プロジェクト | より複雑なセグメント、順次セグメントの場合 |
-| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [プロジェクトのみ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)を含めることはできませんが、を保存してセグメントリストに追加することができます。 | 1 つまたは複数のルールを柔軟に追加／編集する |
+| クイックセグメント | [クイックセグメントビルダー](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [プロジェクトのみ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)を含めることはできませんが、を保存してセグメントリストに追加することができます。 | 1 つ以上のルールを柔軟に追加／編集 |
 | アドホックセグメント： |  |  |  |
-| - アドホック Workspace のプロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ＆ドロップ](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [プロジェクトのみ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)を含めることはできませんが、を保存してセグメントリストに追加することができます。 | 単一ルールセグメントの場合 |
+| - アドホック Workspace プロジェクトセグメント | [プロジェクトのセグメントドロップゾーンにドラッグ＆ドロップします](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [プロジェクトのみ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F)を含めることはできませんが、を保存してセグメントリストに追加することができます。 | 単一ルールセグメントの場合 |
 | - 計算指標ベースのセグメント | [計算指標ビルダー](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=ja) | 個々の計算指標に適用 | 指標の定義内でセグメントを適用する場合 |
 | - VRS ベースのセグメント | [仮想レポートスイートビルダー](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=ja) | 個々の仮想レポートスイートに適用 | VRS 定義内でのセグメントの適用 |
 

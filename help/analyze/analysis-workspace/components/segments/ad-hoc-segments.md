@@ -1,13 +1,13 @@
 ---
-description: Analysis Workspace でアドホックセグメントを使用します。
+description: Analysis Workspaceでアドホックセグメントを使用します。
 title: アドホックセグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 47%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 アドホックプロジェクトセグメントを使用すると、任意のコンポーネントをパネルのドロップゾーンに直接ドラッグ&amp;ドロップして、セグメントを作成できます。 セグメントが [プロジェクトレベルのセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F) 現在のプロジェクトのローカル
 
-アドホックプロジェクトセグメントの作成に関するビデオをご覧ください。
+アドホックプロジェクトセグメントの作成に関するビデオを以下に示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. 任意の種類のコンポーネント（ディメンション、ディメンション項目、イベント、指標、セグメント、セグメントテンプレート、日付範囲）をパネルの上部にあるセグメントドロップゾーンにドロップします。コンポーネントタイプはアドホックセグメントに自動変換されるか、 [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja) 互換性がある場合は。
+1. 任意の種類のコンポーネント（ディメンション、ディメンション項目、イベント、指標、セグメント、セグメントテンプレート、日付範囲）をパネルの上部にあるセグメントドロップゾーンにドロップします。コンポーネントタイプは、アドホックセグメントに自動変換されるか、 [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) 互換性がある場合は。
 以下に、Twitter 参照ドメイン用のセグメントの作成方法の例を示します。
 
    ![](assets/ad-hoc1.png)
