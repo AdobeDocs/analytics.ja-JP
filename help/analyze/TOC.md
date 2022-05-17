@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace のほか、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順。
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 98%
             + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動的項目と静的項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [テーブルのページネーション、フィルタリングおよび並べ替え](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [ワークスペースの合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Workspace の合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + コホートテーブル {#cohort-table}
          + [コホート分析とは](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [コホート分析レポートの設定](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -84,7 +84,7 @@ ht-degree: 98%
       + [横棒グラフおよび積み重ね横棒グラフ](analysis-workspace/visualizations/horizontal-bar.md)
       + [行](analysis-workspace/visualizations/line.md)
       + [散布図](analysis-workspace/visualizations/scatterplot.md)
-      + [数の概要と変更の概要](analysis-workspace/visualizations/summary-number-change.md)
+      + [数値の概要と変更概要](analysis-workspace/visualizations/summary-number-change.md)
       + [テキスト](analysis-workspace/visualizations/text.md)
       + [ツリーマップ](analysis-workspace/visualizations/treemap.md)
    + パネル {#panels}
@@ -139,7 +139,7 @@ ht-degree: 98%
          + [アラートマネージャー](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [インテリジェントアラート - 使用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [ユーザー環境設定](analysis-workspace/user-preferences.md)
-   + ワークスペースの FAQ {#workspace-faq}
+   + Workspace の FAQ {#workspace-faq}
       + [よくある質問](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [エラーメッセージ](analysis-workspace/workspace-faq/error-messages.md)
