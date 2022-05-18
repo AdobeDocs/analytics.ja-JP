@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b300ec0f40eacc43463e9e42e7ff8f7cfedc15cb
+source-git-commit: 3243780b2bb1f7507dc5815f71c448a8be7f62cd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '897'
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
-| 今月は新機能はありません | 該当なし | 該当なし |
+| Experience Edge を通じてライフサイクルディメンションと指標を設定する | 多くのライフサイクルイベントが XDM フィールドに自動的にマッピングされるようになりました。 自動的にマッピングされないイベントは、自由形式のキーと値のペアを使用してAdobeに送信できます。 [詳細情報 — 近日公開] | 2022 年 5 月 28 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
