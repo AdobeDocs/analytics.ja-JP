@@ -4,18 +4,14 @@ description: ワークスペースでの注釈を管理する方法。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 64%
+source-wordcount: '677'
+ht-degree: 65%
 
 ---
 
 # 注釈を管理
-
->[!NOTE]
->
->この機能の段階的な展開は、2022 年 3 月 23 日から始まります。 一般公開：2022 年 4 月 11 日。
 
 [!UICONTROL コンポーネント]／[!UICONTROL 注釈]マネージャーは、共有、フィルタリング、タグ付け、承認、コピー、削除、お気に入りとしてマークするなど、注釈を管理する様々な方法を提供します。
 

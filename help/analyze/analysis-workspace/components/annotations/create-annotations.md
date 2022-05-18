@@ -4,18 +4,14 @@ description: ワークスペースでの注釈の作成方法
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 95%
+source-wordcount: '587'
+ht-degree: 96%
 
 ---
 
 # 注釈を作成
-
->[!NOTE]
->
->この機能の段階的な展開は、2022 年 3 月 23 日から始まります。 一般公開：2022 年 4 月 11 日。
 
 1. 注釈を作成するには、次のいくつかの方法があります。
 
