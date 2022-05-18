@@ -3,20 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 31387d369428727a486a19b986bf9d891a36e714
+source-git-commit: b300ec0f40eacc43463e9e42e7ff8f7cfedc15cb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 最新のAdobe Analyticsリリースノート（2022 年 5 月）
 
 **最終更新日**:2022 年 5 月 18 日
-
->[!NOTE]
->
->このページに記載される内容は、リリース前の情報であり、変更される可能性があります。
 
 ## 関連リソース
 
