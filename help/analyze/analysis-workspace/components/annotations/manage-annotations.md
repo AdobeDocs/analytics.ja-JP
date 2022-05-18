@@ -4,9 +4,9 @@ description: ワークスペースでの注釈を管理する方法。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '683'
 ht-degree: 65%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 65%
 | [!UICONTROL 適用された日付範囲] | この注釈が適用される日付または日付範囲。 |
 | [!UICONTROL 共有先] | 注釈を共有した個人またはグループの数を一覧表示します。詳細については、ここをクリックしてください。 |
 | [!UICONTROL 修正日] | 注釈が最後に変更された日時を表示します。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 注釈を編集
 
@@ -75,3 +77,5 @@ ht-degree: 65%
 | [!UICONTROL Copy] | 独自の注釈 ID を使用して、同じ名前と定義を持つ別個のコピーを作成します。 |
 | [!UICONTROL CSV に書き出し] | 注釈の定義を .csv ファイルに書き出します。 |
 | [!UICONTROL フィルター] （左レール） | タグ、レポートスイート、所有者、その他のフィルター（自分が所有、承認済み、お気に入り、自分と共有、すべて表示）でフィルタリングします。 |
+
+{style=&quot;table-layout:auto&quot;}
