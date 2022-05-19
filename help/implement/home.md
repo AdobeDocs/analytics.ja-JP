@@ -3,9 +3,9 @@ title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティまたはアプリケーションに実装します。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '373'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '374'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Adobe Analytics では、データ収集サーバーにデータを送信する�
 
 ## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [カスタマーケアにお問い合わせください](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
 * [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://experienceleague.adobe.com/?lang=ja#home)

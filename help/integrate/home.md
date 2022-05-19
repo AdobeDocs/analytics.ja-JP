@@ -2,9 +2,9 @@
 title: Analytics の統合
 description: 他の場所のデータを Adobe Analytics に統合する方法について説明します。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 80698e880e2fe218525854d4ccc8dba341b1da5d
-workflow-type: ht
-source-wordcount: '177'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '178'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Adobe Analytics のビデオの概要は次のとおりです。
 
 ## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-* [Analytics フォーラム](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=ja)
+* [カスタマーケアにお問い合わせください](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
+* [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://experienceleague.adobe.com/?lang=ja#home)

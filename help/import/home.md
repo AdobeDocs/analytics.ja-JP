@@ -2,9 +2,9 @@
 title: Analytics インポートガイド
 description: このガイドでは、データソース、Data Insertion API、Data Connectors を使用して、データを Analytics に送信する方法について説明します。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
-workflow-type: ht
-source-wordcount: '160'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '161'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Adobe Analytics のビデオの概要は次のとおりです。
 
 ## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
+* [カスタマーケアにお問い合わせください](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
 * [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
 * [Experience League](https://experienceleague.adobe.com/?lang=ja#home)
