@@ -3,10 +3,10 @@ title: 買い物かご表示
 description: 訪問者が買い物かごを表示したヒットの数。
 feature: Metrics
 exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '69'
-ht-degree: 100%
+source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 92%
 
 ---
 
@@ -17,3 +17,5 @@ ht-degree: 100%
 ## この指標の計算方法
 
 この指標は、`scView` が [`events`](/help/implement/vars/page-vars/events/events-overview.md) 変数に存在するヒット数をカウントします。
+
+詳しくは、 [買い物かご](carts.md) 指標比較の場合。
