@@ -6,8 +6,8 @@ breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace のほか、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順。
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1052'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 0%
       + フロー {#flow}
          + [フローの概要](analysis-workspace/visualizations/c-flow/flow.md)
          + [フロービジュアライゼーションの設定](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [新しいフロービジュアライゼーション（ベータ版）](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [新規フロービジュアライゼーション（ベータ版）](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [フローの設定](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [ディメンション間のフロー](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [ヒストグラム](analysis-workspace/visualizations/histogram.md)
@@ -301,7 +301,7 @@ ht-degree: 0%
       + [iOS 版 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [レポートの表示設定とナビゲーション](reports-analytics/report-settings.md)
    + [レポートのスケジュールと配信](reports-analytics/scheduling.md)
-   + [予定レポートの提供終了通知](reports-analytics/scheduled-reports-eol.md)
+   + [予定レポートの提供終了のお知らせ](reports-analytics/scheduled-reports-eol.md)
    + [レポートタイプ](reports-analytics/reports.md)
    + [異なるレポートタイプの実行](reports-analytics/t-running-report-types.md)
    + レポートのカスタマイズ {#customize-reports}
