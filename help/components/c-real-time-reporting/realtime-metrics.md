@@ -1,11 +1,11 @@
 ---
 description: リアルタイムレポートでサポートされる指標とディメンションを一覧表示します。分類もサポートされます（分類を定義している場合）。
-title: サポートされるリアルタイム指標とディメンション概要
+title: サポートされるリアルタイム指標とディメンションの概要
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
 ht-degree: 100%
 
@@ -38,11 +38,11 @@ ht-degree: 100%
 * 地理特性 - 地域
 * 地理特性 - 区市町村
 * 地理特性 - 米国 DMA
-* 製品     
+* 製品
 * サーバー
 * サイトセクション
 * トラッキングコード
 * カスタムリンク
 * ファイルのダウンロード
-* 出口リンク
+* 離脱リンク
 * カスタムインサイト変数（prop）1 ～ 75（レポートスイートで有効な場合）
