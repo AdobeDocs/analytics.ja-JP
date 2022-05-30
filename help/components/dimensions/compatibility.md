@@ -46,7 +46,7 @@ ht-degree: 100%
 | ダウンロードリンク | `downloadlink` |
 | 入口ページ | `entrypage` |
 | オリジナルの入口ページ | `entrypageoriginal` |
-| 出口リンク | `exitlink` |
+| 離脱リンク | `exitlink` |
 | ファーストタッチチャネル | `firsttouchchannel` |
 | ファーストタッチチャネルの詳細 | `firsttouchchanneldetail` |
 | Java 有効 | `javaenabled` |
@@ -75,7 +75,7 @@ ht-degree: 100%
 | オリジナルの参照ドメイン | `referringdomainoriginal` |
 | ページ | `page` |
 | エラーページ（404） | `pagesnotfound` |
-| 製品          | `product` |
+| 製品     | `product` |
 | リファラー | `referrer` |
 | リファラータイプ | `referrertype` |
 | 参照ドメイン | `referringdomain` |
@@ -310,7 +310,7 @@ ht-degree: 100%
 
 ### Nielsen 統合
 
-この統合の実装方法の詳細については、「[Nielsen 拡張機能](https://exchange.adobe.com/experiencecloud.details.101361.html)」を参照してください。
+この統合の実装方法について詳しくは、「[Nielsen 拡張機能](https://exchange.adobe.com/experiencecloud.details.101361.html)」を参照してください。
 
 | ディメンション名（Analytics UI で確認可能） | ディメンション ID（API リクエストで使用） |
 |--- |--- |
