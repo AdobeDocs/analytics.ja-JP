@@ -1,25 +1,25 @@
 ---
-title: データ収集クエリーパラメーター
-description: イメージリクエストで使用されるすべてのクエリー文字列パラメーターをリストします。
+title: データ収集クエリパラメーター
+description: イメージリクエストで使用されるすべてのクエリ文字列パラメーターをリストします。
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# データ収集クエリーパラメーター
+# データ収集クエリパラメーター
 
-次の表に、アドビがイメージリクエストで使用するすべてのクエリー文字列パラメーターを示します。この情報は、[パケットアナライザー](packet-monitor.md)を使用したデバッグ、[イメージリクエストのハードコーディング](../other/hardcoded.md)、[動的変数](../vars/page-vars/dynamic-variables.md)の使用時に使用できます。
+次の表に、アドビがイメージリクエストで使用するすべてのクエリ文字列パラメーターを示します。この情報は、[パケットアナライザー](packet-monitor.md)を使用したデバッグ、[イメージリクエストのハードコーディング](../other/hardcoded.md)、[動的変数](../vars/page-vars/dynamic-variables.md)の使用時に使用できます。
 
 | パラメーター | Analytics 実装変数 | 説明 |
 | --- | --- | --- |
 | `aamlh` | なし | Audience Manager のロケーションヒント。Experience Cloud 共有プロファイルの統合で使用。 |
 | `aamb` | なし | Audience Manager Blob。Experience Cloud 共有プロファイルの統合で使用。 |
 | `aid` | なし | Analytics 訪問者 ID。 |
-| `AQB` | なし | イメージリクエストクエリー文字列の開始を示します。 |
+| `AQB` | なし | イメージリクエストクエリ文字列の開始を示します。 |
 | `AQE` | なし | イメージリクエストの終了を示します。これは、リクエストが切り捨てられていないことを表しています。 |
 | `bh` | なし | ブラウザーの高さ（ピクセル単位）。「[ブラウザーの高さ](/help/components/dimensions/browser-height.md)」ディメンションで使用されます。 |
 | `bw` | なし | ブラウザーの幅（ピクセル単位）。「[ブラウザーの幅](/help/components/dimensions/browser-width.md)」ディメンションで使用されます。 |
@@ -35,12 +35,12 @@ ht-degree: 94%
 | `cp` | なし | 「[ヒットタイプ](/help/components/dimensions/hit-type.md)」ディメンションで使用されます。 |
 | `ct` | なし | 「[接続タイプ](/help/components/dimensions/connection-type.md)」ディメンションで使用されます。 |
 | `D` | [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md) | 動的変数に使用する内容を示します。 |
-| `ev` | [`events`](../vars/page-vars/events/events-overview.md) | `events` クエリー文字列の略記法。 |
+| `ev` | [`events`](../vars/page-vars/events/events-overview.md) | `events` クエリ文字列の略記法。 |
 | `events` | [`events`](../vars/page-vars/events/events-overview.md) | ページ上のイベントのコンマ区切りリスト。ほとんどの[指標](/help/components/metrics/overview.md)で使用されます。 |
 | `g` | [`pageURL`](../vars/page-vars/pageurl.md) | ページの現在の URL（最大 255 バイト）。[ページ URL](/help/components/dimensions/page-url.md) ディメンションで使用されます。 |
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | 255 バイトを超える URL は分割されます。最初の 255 バイトが `g` パラメーターに、残りのすべてのバイトが `-g` パラメーターに表示されます。 |
-| `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` クエリー文字列の略記法。 |
-| `gt` | [`pageType`](../vars/page-vars/pagetype.md) | `pageType` クエリー文字列の略記法。 |
+| `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` クエリ文字列の略記法。 |
+| `gt` | [`pageType`](../vars/page-vars/pagetype.md) | `pageType` クエリ文字列の略記法。 |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | 階層ディメンション。 |
 | `hp` | なし | 廃止。以前のバージョンの Adobe Analytics では、現在の URL がブラウザーのホームページであるかどうかが判別されました。 |
 | `j` | なし | ブラウザーにインストールされている JavaScript バージョン。 |
@@ -63,22 +63,22 @@ ht-degree: 94%
 | `pf` | なし | プラットフォームフラグ（アドビでのみ使用）。変更できません。 |
 | `pid` | なし | 最後のページのページ識別子。以前のバージョンの Activity Map で使用されていました。 |
 | `pidt` | なし | 最後のページのページ識別子タイプ。以前のバージョンの Activity Map で使用されていました。 |
-| `pl` | [`products`](../vars/page-vars/products.md) | `products` クエリー文字列の略記法。 |
+| `pl` | [`products`](../vars/page-vars/products.md) | `products` クエリ文字列の略記法。 |
 | `products` | [`products`](../vars/page-vars/products.md) | products 変数。[製品](/help/components/dimensions/product.md)および[カテゴリ](/help/components/dimensions/category.md)ディメンションで使用されます。 |
 | `purchaseID` | [`purchaseID`](../vars/page-vars/purchaseid.md) | 購入の重複を除外するために使用します。 |
 | `r` | [`referrer`](../vars/page-vars/referrer.md) | ヒットのリファラー URL。トラフィックソースディメンション（[リファラー](/help/components/dimensions/referrer.md)、[参照ドメイン](/help/components/dimensions/referring-domain.md)など）で使用されます。 |
 | `s` | なし | 画面解像度（`width x height`）。[モニター解析度](/help/components/dimensions/monitor-resolution.md)ディメンションで使用されます。 |
 | `server` | [`server`](../vars/page-vars/server.md) | [サーバー](/help/components/dimensions/server.md)ディメンション。 |
-| `sv` | [`server`](../vars/page-vars/server.md) | `server` クエリー文字列の略記法。 |
+| `sv` | [`server`](../vars/page-vars/server.md) | `server` クエリ文字列の略記法。 |
 | `state` | [`state`](../vars/page-vars/state.md) | 状態ディメンション。 |
 | `t` | なし | ヒットの生成日時。`dd/mm/yyyy hh:mm:ss w o` 形式を使用します。<br> - `dd/mm/yyyy hh:mm:ss` JavaScript の日時。`0` は 1 月、`11` は 12 月です。<br> - `w` は曜日です。`0` は日曜日、`6` は土曜日です。<br> - `o` は負の GMT オフセット（分単位）。例えば、`420` は GMT-7 です。 |
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | ヒットで設定されたカスタムタイムスタンプ。通常、オフライントラッキングで使用されます。 |
 | `v` | なし | [Java 対応](/help/components/dimensions/java-enabled.md)ディメンションで使用されます。 |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [トラッキングコードデ](/help/components/dimensions/tracking-code.md)ィメンション。 |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md)、またはカスタムコンバージョンディメンション。 |
-| `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 訪問者固有の ID。 |
-| `vidn` | なし | 新規訪問者に対して AppMeasurement によって設定されます。 訪問者の Cookie に保存された ID 値が含まれます。 |
-| `vmk` | `vmk` | 廃止。訪問者移行キー。サードパーティ Cookie からファーストパーティ Cookie への実装を移行するのに役立ちました。 |
+| `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 訪問者 ID 変数。 |
+| `vidn` | なし | 新規訪問者に対して AppMeasurement によって設定されます。訪問者の Cookie に格納された ID 値が含まれます。 |
+| `vmk` | `vmk` | 廃止。訪問者移行キー。サードパーティ Cookie からファーストパーティ Cookie に実装を移行するのに役立ちました。 |
 | `vvp` | `variableProvider` | Data Connectors で使用されます。 |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | データソースと共に使用して、オンラインデータとオフラインデータを結び付けます。 |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | [郵便番号](/help/components/dimensions/zip-code.md)ディメンションで使用されます。 |
