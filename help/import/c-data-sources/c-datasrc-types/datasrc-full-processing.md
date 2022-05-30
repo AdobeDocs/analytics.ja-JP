@@ -53,7 +53,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>注意：この変数は、標準のデータソースでも <code> currency code </code> としてサポートされています。 </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>メモ：この変数は、標準のデータソースでも <code> currency code </code> としてサポートされています。 </p> </td> 
    <td colname="col3"> <p>売上高の通貨コード（例：USD）。 </p> </td> 
   </tr> 
   <tr> 
@@ -152,7 +152,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-JavaScript ライブラリを使用したときに自動的に入力されるトラフィック変数を、次の表に示します。これらのプロパティは関連する変数がありませんが、データソースを使用してインポートすることができます。
+JavaScript ライブラリを使用したときに自動的に入力されるトラフィック変数を、次の表に示します。これらのプロパティは関連する変数がありませんが、データソースを使用してインポートできます。
 
 <table id="table_FDBC5BD225644AA09078C0570BE709FE"> 
  <thead> 
