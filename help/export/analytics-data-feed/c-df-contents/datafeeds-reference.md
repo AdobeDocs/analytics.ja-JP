@@ -6,7 +6,7 @@ title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3445'
 ht-degree: 100%
 
@@ -95,8 +95,8 @@ ht-degree: 100%
 | `javascript` | JavaScript のバージョンの参照 ID（`j_jscript` に基づく）。参照テーブルを使用します。 | tinyint unsigned |
 | `language` | 言語の数値 ID。`languages.tsv` ルックアップテーブルを使用します。 | smallint unsigned |
 | `last_hit_time_gmt` | 前回のヒットのタイムスタンプ（UNIX 時間）。「[最終訪問からの日数](/help/components/dimensions/days-since-last-visit.md)」ディメンションの計算に使用されます。 | int |
-| `last_purchase_num` | 「[顧客の忠誠度](/help/components/dimensions/customer-loyalty.md)」ディメンションで使用される変数。訪問者がこれまでにおこなった購入の回数。<br>0：過去に購入したことがない（顧客以外）<br>1：過去に 1 回購入したことがある（新規顧客）<br>2：過去に 2 回購入したことがある（リターン顧客）<br>3：過去に 3 回以上購入したことがある（常連客） | int unsigned |
-| `last_purchase_time_gmt` | 「[前回購入からの日数](/help/components/dimensions/days-since-last-purchase.md)」ディメンションで使用されます。前回おこなった購入のタイムスタンプ（UNIX 時間）。初回の購入やこれまでに購入をおこなっていない訪問者の場合、この値は `0` になります。 | int |
+| `last_purchase_num` | 「[顧客の忠誠度](/help/components/dimensions/customer-loyalty.md)」ディメンションで使用される変数。訪問者がこれまでに行った購入の回数。<br>0：過去に購入したことがない（顧客以外）<br>1：過去に 1 回購入したことがある（新規顧客）<br>2：過去に 2 回購入したことがある（リターン顧客）<br>3：過去に 3 回以上購入したことがある（常連客） | int unsigned |
+| `last_purchase_time_gmt` | 「[前回購入からの日数](/help/components/dimensions/days-since-last-purchase.md)」ディメンションで使用されます。前回行った購入のタイムスタンプ（UNIX 時間）。初回の購入やこれまでに購入を行っていない訪問者の場合、この値は `0` になります。 | int |
 | `latlon1` | ロケーション（半径 10 km 以内） | varchar(255) |
 | `latlon23` | ロケーション（半径 100 m 以内） | varchar(255) |
 | `latlon45` | ロケーション（半径 1 m 以内） | varchar(255) |
@@ -104,7 +104,7 @@ ht-degree: 100%
 | `mcvisid` | Experience Cloud 訪問者 ID。2 つの 64 ビット数値を連結して 19 桁にパディングした 128 ビット数値です。 | varchar(255) |
 | `mobile_id` | ユーザーがモバイルデバイスを使用している場合は、そのデバイスの数値 ID。 | int |
 | `mobileaction` | モバイルアクション。Mobile Services で `trackAction` が呼び出されると、自動的に収集されます。アプリケーション内で自動的にアクションを渡すことができるようにします。 | varchar(100) |
-| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。  `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | モバイルアプリケーション ID。アプリケーションの名前とバージョンを次の形式で格納します。`[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Apteligent データコネクタで使用されます。Apteligent で使用されるアプリケーション ID。 | varchar(255) |
 | `mobileappperformancecrashid` | Apteligent データコネクタで使用されます。Apteligent で使用されるクラッシュ ID。 | varchar(255) |
 | `mobileappstoreobjectid` | Appfigures データコネクタで使用されます。App Store オブジェクト ID。 | varchar(255) |
@@ -198,7 +198,7 @@ ht-degree: 100%
 | `state` | 状態変数。 | varchar(50) |
 | `stats_server` | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
 | `t_time_info` | 訪問者の現地時刻。形式：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。 形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action` | テキスト |
+| `tnt` | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action` | テキスト |
 | `tnt_action` | Adobe Target 統合で使用されます。ヒットが認定されるすべてのテストを表します。 | テキスト |
 | `tnt_post_vista` | 廃止。代わりに、`post_tnt` を使用してください。 | テキスト |
 | `transactionid` | データソースを使用して後から様々なデータポイントをアップロードするための一意の識別子。[`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用して収集します。 | テキスト |
@@ -264,7 +264,7 @@ ht-degree: 100%
 | `visid_low` | `visid_high` と組み合わせて使用し、訪問者を一意に識別します。 | bigint unsigned |
 | `visid_new` | 新しく生成された訪問者 ID がヒットに含まれているかどうかを識別するフラグ。 | char(1) |
 | `visid_timestamp` | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX 時間）を示します。 | int |
-| `visid_type` | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>0：カスタム 訪問者 ID または不明／該当なし<br>1：IP およびユーザーエージェントのフォールバック<br>2：HTTP モバイル加入者ヘッダー<br>3：従来の cookie 値（`s_vi`）<br>4：フォールバック cookie の値（`s_fid`）<br>5：ID サービス | tinyint unsigned |
+| `visid_type` | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>0：カスタム訪問者 ID または不明／該当なし<br>1：IP およびユーザーエージェントのフォールバック<br>2：HTTP モバイル加入者ヘッダー<br>3：従来の cookie 値（`s_vi`）<br>4：フォールバック cookie の値（`s_fid`）<br>5：ID サービス | tinyint unsigned |
 | `visit_keywords` | 「[検索キーワード](/help/components/dimensions/search-keyword.md)」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限である varchar(244) が使用されます。 | varchar(244) |
 | `visit_num` | 「[訪問回数](/help/components/dimensions/visit-number.md)」ディメンションで使用される変数。1 から始まり、訪問者ごとに新しい訪問が開始されるたびに増分されます。 | int unsigned |
 | `visit_page_num` | 「[ヒットの深度](/help/components/dimensions/hit-depth.md)」ディメンションで使用される変数。ユーザーがヒットを生成するたびに 1 ずつ増えます。訪問ごとにリセットされます。 | int unsigned |
