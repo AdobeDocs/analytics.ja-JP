@@ -14,7 +14,7 @@ ht-degree: 100%
 
 `tl()` メソッドは、Adobe Analytics の重要なコアコンポーネントです。ページで定義されているすべての Analytics 変数を取得し、それらをイメージリクエストにコンパイルして、そのデータをアドビのデータ収集サーバーに送信します。このメソッドは [`t()`](t-method.md) メソッドと同じように機能しますが、このメソッドではページビューが増分されません。完全なページ読み込みとは見なされないリンクやその他の要素を追跡する場合に便利です。
 
-[`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) または [`trackExternalLinks`](../config-vars/trackexternallinks.md) が有効な場合、AppMeasurement は自動的に `tl()` メソッドを呼び出して、ダウンロードリンクと出口リンクトラッキングデータを送信します。組織で、追跡するリンクとその動作をより詳細に制御する必要がある場合は、手動で `tl()` メソッドを呼び出すことができます。カスタムリンクは手動でのみ追跡できます。
+[`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) または [`trackExternalLinks`](../config-vars/trackexternallinks.md) が有効な場合、AppMeasurement は自動的に `tl()` メソッドを呼び出して、ダウンロードリンクと離脱リンクトラッキングデータを送信します。組織で、追跡するリンクとその動作をより詳細に制御する必要がある場合は、手動で `tl()` メソッドを呼び出すことができます。カスタムリンクは手動でのみ追跡できます。
 
 ## Adobe Experience Platform のタグを使用したリンクトラッキング呼び出し
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 データ収集 UI では、オプションの引数を設定できません。
 
-## AppMeasurement および カスタムコードエディターの s.tl() メソッド
+## AppMeasurement およびカスタムコードエディターの s.tl() メソッド
 
 アドビにトラッキングコールを送信する場合は、`s.tl()` メソッドを呼び出します。
 
@@ -43,7 +43,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 >[!NOTE]
 >
-> AppMeasurement は出口リンク用の [`useBeacon`](../config-vars/usebeacon.md) 変数を自動的に有効にするので、最新のブラウザーではこの引数は不要になりました。この引数は、以前のバージョンの AppMeasurement でより一般的に使用されていました。
+> AppMeasurement は離脱リンク用の [`useBeacon`](../config-vars/usebeacon.md) 変数を自動的に有効にするので、最新のブラウザーではこの引数は不要になりました。この引数は、以前のバージョンの AppMeasurement でより一般的に使用されていました。
 
 * `this`：AppMeasurement がイメージリクエストを送信するまで、最大 500 ミリ秒待機します。デフォルト値。
 * `true`：待機しない。
@@ -62,7 +62,7 @@ s.tl(true,"e","Example exit link");
 
 * `o`：リンクは[カスタムリンク](/help/components/dimensions/custom-link.md)です。
 * `d`：リンクは [ダウンロードリンク](/help/components/dimensions/download-link.md)です。
-* `e`：リンクは [出口リンク](/help/components/dimensions/exit-link.md)です。
+* `e`：リンクは [離脱リンク](/help/components/dimensions/exit-link.md)です。
 
 ```js
 // Send a custom link
@@ -77,7 +77,7 @@ s.tl(true,"e","Example exit link");
 
 ### リンク名（推奨）
 
-リンク名引数は、リンクトラッキングディメンション項目を決定する文字列です。レポートで[カスタムリンク](/help/components/dimensions/custom-link.md)、[ダウンロードリンク](/help/components/dimensions/download-link.md)、または[出口リンク](/help/components/dimensions/exit-link.md)を使用する場合、この文字列にはディメンション項目が含まれます。 この引数が設定されていない場合は、[linkURL](../config-vars/linkurl.md) 変数が使用されます。
+リンク名引数は、リンクトラッキングディメンション項目を決定する文字列です。レポートで[カスタムリンク](/help/components/dimensions/custom-link.md)、[ダウンロードリンク](/help/components/dimensions/download-link.md)、または[離脱リンク](/help/components/dimensions/exit-link.md)を使用する場合、この文字列にはディメンション項目が含まれます。この引数が設定されていない場合は、[linkURL](../config-vars/linkurl.md) 変数が使用されます。
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
@@ -111,7 +111,7 @@ s.tl(true,"o","Example link");
 
 ### カスタム関数内でリンクトラッキングコールを実行します
 
-ページやリンクされている JavaScript ファイルで定義されている、自己完結型の JavaScript 関数にリンクトラッキングコードを統合できます。次に、各リンクの onClick 関数で呼び出しをおこなうことができます。JavaScript ファイルで次の設定をおこないます。
+ページやリンクされている JavaScript ファイルで定義されている、自己完結型の JavaScript 関数にリンクトラッキングコードを統合できます。次に、各リンクの onClick 関数で呼び出しを行うことができます。JavaScript ファイルで次の設定を行います。
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -131,7 +131,7 @@ function trackClickInteraction(name){
 
 ### 重複リンクの追跡を避けます
 
-`trackDownloadLinks` または `trackExternalLinks` が有効な場合、正しいフィルターが一致すると、AppMeasurement は自動的にリンクトラッキングコールをおこないます。これらのリンククリックに対して `s.tl()` を手動でも呼び出すと、重複したデータをアドビに送信する場合があります。重複したデータは、レポート数を水増しし、正確性を低下させます。
+`trackDownloadLinks` または `trackExternalLinks` が有効な場合、正しいフィルターが一致すると、AppMeasurement は自動的にリンクトラッキングコールを行います。これらのリンククリックに対して `s.tl()` を手動でも呼び出すと、重複したデータをアドビに送信する場合があります。重複したデータは、レポート数を水増しし、正確性を低下させます。
 
 例えば、次の関数は、同じリンククリックに対して 2 つのリンクトラッキングコール（手動および自動ダウンロードリンク）を送信します。
 
