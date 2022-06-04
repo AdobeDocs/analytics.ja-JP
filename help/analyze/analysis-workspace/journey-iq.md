@@ -1,17 +1,16 @@
 ---
 title: Journey IQ
 description: Adobe Analytics の一部である Journey IQ を構成する機能について説明します。
-feature: AI ツール
 role: User, Admin
 exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '179'
+source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+workflow-type: tm+mt
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
 
-# Journey IQ
+# ジャーニーIQ
 
 Journey IQ は、使いやすく完全にカスタマイズ可能なビジュアライゼーションと設定を提供し、顧客の体験をより深く理解する一連の機能です。チャネルをまたいでも、カスタマージャーニーの各タッチポイントを測定できます。これらの機能を使用して、顧客の関心を向け直し、ロイヤルティを維持し、それらの顧客のエクスペリエンスをパーソナライズする方法についての理解を深めることができます。
 

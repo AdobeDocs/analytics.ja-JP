@@ -1,11 +1,10 @@
 ---
 description: 貢献度分析を使用して、データの統計的な異常値と相関する原因を特定します。
 title: 貢献度分析のトークンの概要
-feature: AI Tools
 role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 100%
 

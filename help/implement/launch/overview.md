@@ -1,16 +1,16 @@
 ---
-title: Adobe Experience Platform のタグを使用した実装
+title: Adobe Experience Platformでのタグ付きAdobe Analyticsの実装
 description: タグを使用した Adobe Analytics の実装方法を説明します
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
-# Adobe Experience Platform のタグを使用した実装
+# Adobe Experience Platformでのタグ付きAdobe Analyticsの実装
 
 Adobe Analytics が発表されて以来、アドビでは、データ収集用にサイトにコードを実装する様々な方法を提供してきました。アドビが現在推奨するのは、Adobe Experience Platform のタグを介した方法です。
 

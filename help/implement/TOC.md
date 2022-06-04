@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: 'どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。 '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -131,6 +131,22 @@ ht-degree: 100%
    + [実装モーダル](prepare/implementation-modal.md)
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
    + [既存の Adobe Analytics の実装を担当する](prepare/existing-implementation.md)
++ Analytics Edge を使用したExperience Platformの実装 {#aep-edge}
+   + [Experience Edge の概要](aep-edge/overview.md)
+   + [変数のマッピング](aep-edge/variable-mapping.md)
+   + Web SDK {#web-sdk}
+      + [Web SDK の概要](aep-edge/web-sdk/overview.md)
+   + モバイル SDK {#mobile-sdk}
+      + [Mobile SDK の概要](aep-edge/mobile-sdk/overview.md)
+   + Edge API {#edge-api}
+      + [Edge API の概要](aep-edge/edge-api/overview.md)
++ Adobe Experience Platform {#launch} のタグを使用した Analytics の実装
+   + [タグの概要](launch/overview.md)
+   + [Adobe Analytics タグプロパティの作成](launch/create-analytics-property.md)
+   + [開発環境へのデプロイ](launch/deploy-dev.md)
+   + [検証して実稼動環境に公開](launch/validate-publish-prod.md)
+   + [データレイヤーオブジェクトをデータ要素にマッピングする](launch/layer-to-elements.md)
+   + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
 + JavaScript を使用した Analytics の実装 {#js}
    + [JavaScript の概要](js/overview.md)
    + [オプトアウトリンクの実装](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 100%
       + [訪問の例](js/xdevice-visid/visit-example.md)
       + [レガシークロスデバイス FAQ](js/xdevice-visid/xdevice-faq.md)
    + [AppMeasurement のトラブルシューティング](js/troubleshooting.md)
-+ Adobe Experience Platform {#launch} のタグを使用した Analytics の実装
-   + [タグの概要](launch/overview.md)
-   + [Adobe Analytics タグプロパティの作成](launch/create-analytics-property.md)
-   + [開発環境へのデプロイ](launch/deploy-dev.md)
-   + [検証して実稼動環境に公開](launch/validate-publish-prod.md)
-   + [データレイヤーオブジェクトをデータ要素にマッピングする](launch/layer-to-elements.md)
-   + [タグデータ要素の Analytics 変数へのマッピング](launch/elements-to-variable.md)
 + 他のプラットフォームへの Analytics の実装 {#other}
    + [ハードコードされたイメージリクエストを使用した Analytics の実装](other/hardcoded.md)
    + [DTM を使用した Analytics の実装](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 100%
    + [重点レビュー（各 Web サイトリリース後）](review/focused-review.md)
    + [完全なレビュー（6 か月ごと）](review/full-review.md)
    + [上位 5 件の KPI の定義](review/define-kpis.md)
-+ Analytics での XDM データの使用 {#aep-edge}
-   + [AEP Web SDK を使用する](aep-edge/xdmoverview.md)
-   + [XDM データの Analytics への手動マッピング](aep-edge/xdm-manual.md)
