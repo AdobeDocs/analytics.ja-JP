@@ -3,10 +3,10 @@ title: currencyCode 変数とは何ですか？ その使い方を教えてく�
 description: e コマースサイトの場合、ページで扱う通貨を設定します。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 `currencyCode` が定義され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。アドビは [XE](https://xe.com) と提携し、毎日通貨を換算します。データ収集サーバーに保存される値は、最終的にはレポートスイートの通貨で保存されます。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 > `currencyCode` に無効な値が含まれる場合、ヒット全体が破棄され、データが失われます。実装でこの変数を使用する場合は、この変数が正しく定義されていることを確認します。
 

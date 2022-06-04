@@ -3,10 +3,10 @@ description: 分類は値をグループにまとめてグループレベルで�
 title: コンバージョンの分類
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+source-git-commit: 0ec9d6fd44f1f6eb565f8602cc5a2d449556d0ee
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

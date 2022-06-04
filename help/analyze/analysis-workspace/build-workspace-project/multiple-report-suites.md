@@ -4,8 +4,8 @@ description: 複数のレポートスイートを含む Workspace でプロジ�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 この機能を使用して、「アクティブなパネル」と「非アクティブなパネル」の概念を導入しています。アクティブなパネは、明るい青色の境界線で囲まれていることで認識できます。パネル内をクリックするだけで、そのパネルがアクティブなパネルになります。
 
->[!IMPORTANT]
+>[!TIP]
 >アクティブなパネルと同じレポートスイート内の任意のパネルにドラッグ＆ドロップできます。同じレポートスイートの非アクティブなパネル内にドラッグすると、パネルがアクティブになります。
 
 | タスク | アクティブなパネル | 非アクティブなパネル |

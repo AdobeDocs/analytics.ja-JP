@@ -3,10 +3,10 @@ title: trackOffline
 description: オフライントラッキングを有効または無効にします。これにより、AppMeasurement でのデータ収集方法が変更されます。
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 `trackOffline` 変数は、実装でオフライントラッキングを使用するかどうかを決定します。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 > この変数を有効にする前に、タイムスタンプ付きのヒットを受け入れるようにレポートスイートを設定する必要があります。レポートスイートでタイムスタンプ付きのヒットが受け入れられず、この変数が有効な場合、そのデータは失われ、復元できません。
 

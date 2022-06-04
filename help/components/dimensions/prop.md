@@ -3,10 +3,10 @@ title: prop
 description: レポートで使用できるカスタムディメンション。
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '467'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ prop は、デフォルトでは大文字と小文字が区別されません。
 
 prop は大文字と小文字を区別するように設定することができます。また、任意の prop を有効にした後、大文字と小文字の区別を無効にすることもできます。大文字と小文字の区別を切り替えるには、レポートスイート ID と目的の変数をアドビカスタマーケアに連絡します。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >大文字と小文字の区別を切り替えると、ディメンション項目の切り替え、セグメントでの予期しない結果の発生、フィルターの問題の原因となる場合があります。この設定は、月や年の初めなどの区切りの良いタイミングで切り替えることを強くお勧めします。
 

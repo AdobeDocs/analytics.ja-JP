@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: 処理ルールの概要
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * レポートを容易にするために、prop でカテゴリとページ名を連結する
 * eVar を prop にコピーし、パスを確認する
 * スペルを間違えたサイトセクションのクリーンアップ
-* クエリ文字列から eVar に内部検索用語またはキャンペーン ID を取り込む
+* クエリー文字列から eVar に内部検索用語またはキャンペーン ID を取り込む
 
 >[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
@@ -28,11 +28,7 @@ ht-degree: 100%
 
 管理者には、処理ルールを使用する権限が&#x200B;**デフォルトで**&#x200B;与えられています。また、管理者は、管理ツールインターフェイスを使用してこの権限を管理者以外のユーザーに付与することもできます。手順については、[]を参照してください
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->処理ルールは Analytics データに恒久的に影響を与えるので、処理ルール管理者は、Adobe Analytics の認定トレーニングを受け、レポートスイートのすべてのデータソース（標準的な web サイト、モバイルサイト、モバイルアプリ、データ挿入 API など）をよく理解しておくことを強くお勧めします。様々なプラットフォームで入力されるコンテキストデータ変数と標準変数に関する知識は、データの予期しない削除や変更を防ぐのに役立ちます。
+![処理ルール](assets/processing-rules.png)
 
 ## コンテキストデータを使用したデータ収集の単純化 {#section_09EEA03612D24C15839631AA9E9668D8}
 

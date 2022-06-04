@@ -3,7 +3,7 @@ title: eVar（マーチャンダイジング）変数
 description: 個々の製品に関連付けられるカスタム変数。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 実装で eVar を使用する前に、各 eVar をレポートスイートの設定で設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >マーチャンダイジング eVar を正しく設定しないと、変数の予期しない値やデータ損失が発生します。お使いの実装に合わせて正しく設定されていることを確認します。
 

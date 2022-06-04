@@ -2,8 +2,8 @@
 title: デバイスグラフ
 description: デバイスグラフを使用してデータをステッチする際の前提条件と制限事項を理解します。
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 デバイスグラフ方式を使用してクロスデバイス分析を実装する場合は、次の手順が必要です。組織内のチームやアドビのアカウントマネージャーと協力して、以下のすべての条件を満たすようにします。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >すべての前提条件を満たしていない場合、クロスデバイス分析を有効にできないか、データを結び付ける際に結果の質が低下する可能性があります。
 

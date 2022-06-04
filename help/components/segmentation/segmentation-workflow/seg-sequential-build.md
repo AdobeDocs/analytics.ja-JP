@@ -3,8 +3,8 @@ description: 順次セグメントは、AND や OR ではなく、THEN 演算子
 title: 順次セグメントの構築
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -46,9 +46,9 @@ ht-degree: 100%
 
 | 例 | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
-| 全員を含む | A | B | C | D | E | F |
+| 全員を含む | A | B | C | D | E | 金 |
 | シーケンスの前のみ | A | B |  |  |  |  |
-| シーケンスの後のみ |  |  |  | D | E | F |
+| シーケンスの後のみ |  |  |  | D | E | 金 |
 
 **例 2：B の次に D が複数回現れる**
 
@@ -398,7 +398,7 @@ ht-degree: 100%
 * [!UICONTROL Within] では、年、月、日、時間および分を指定して、一致する訪問を追跡できます。
 * [!UICONTROL Within] は、このような細かな精度を定義できる唯一のレベルである[!UICONTROL ヒット]コンテナにのみ適用されます。
 
->[!IMPORTANT]
+>[!TIP]
 >
 >「within」句の「THEN」ステートメントの間に、例えば「within 1 search keyword instance（1 個の検索キーワードのインスタンス内）」や「within 1 eVar 47 instance（1 個の eVar 47 インスタンス内）」というように追加できます。これにより、ディメンションの 1 個のインスタンス内にセグメントが制限されます。
 

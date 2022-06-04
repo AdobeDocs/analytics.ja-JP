@@ -3,8 +3,8 @@ title: registerPreTrackCallback
 description: アドビにヒットを送信する前に実行するコールバック関数を作成します。
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 `registerPreTrackCallback` 変数を使用すると、イメージリクエスト URL がコンパイルされたがまだ送信されていないときに実行する JavaScript 関数をフックできます。この変数を使用して、AppMeasurement によって収集されたデータをパートナーまたは社内インフラストラクチャに送信できます。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 > [`t()`](t-method.md) や [`tl()`](tl-method.md) などのトラッキングコールは [`registerPostTrackCallback`](registerposttrackcallback.md) 変数内で呼び出さないでください。この変数で関数をトラッキングすると、イメージリクエストが無限ループになります。
 

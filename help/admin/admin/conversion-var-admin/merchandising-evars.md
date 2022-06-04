@@ -3,10 +3,10 @@ title: マーチャンダイジング eVar と製品検索方法
 description: マーチャンダイジング eVar の概念と、eVar によるデータの処理方法および配分方法について詳しく説明します。
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
-source-wordcount: '5319'
-ht-degree: 100%
+source-git-commit: 3d9b64bd28210732c7506dbf667c5d4d50e7fb07
+workflow-type: tm+mt
+source-wordcount: '5291'
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 マーチャンダイジング eVar で使用できる設定は次のとおりです。レポートスイートマネージャーのスクリーンショットを次に示します。この設定にアクセスするには、 [!UICONTROL Analytics]／[!UICONTROL 管理者]／[!UICONTROL レポートスイート]／[!UICONTROL 設定を編集]／[!UICONTROL コンバージョン]／[!UICONTROL コンバージョン変数]／[!UICONTROL 新規追加]／[!UICONTROL マーチャンダイジングを有効にする] に移動します。
 
-![](assets/merch-evars1.png)
+![マーチ eVar](assets/merch-evars1.png)
 
 これらの設定の詳細については、表の下のセクションを参照してください。
 
@@ -86,9 +86,9 @@ ht-degree: 100%
 
 ただし、**[!UICONTROL 製品の構文]**&#x200B;を使用すると、eVar は Adobe Analytics 製品変数内でのみ設定されます。Analytics の製品変数は、製品ごとに 6 つの異なる部分に分かれています。
 
-`s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
+`s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL カテゴリ] は、製品カテゴリのパフォーマンスを追跡するための実行可能なオプションとしては推奨されなくなりました。products 変数のほとんどの実装で、変数値の productID 部分の前にセミコロンを 1 つ配置するのはこのためです。
+* [!UICONTROL カテゴリ] および [!UICONTROL 名前] 特定の製品を特定します。
 * [!UICONTROL 数量]と[!UICONTROL 売上]は、製品購入を追跡する際に役立ちます。
 * [!UICONTROL イベント] は、売上高としてカウントされないカスタムの増分イベント値または通貨イベント値（送料、割引など）を記録するのに役立ちます。
 
@@ -104,7 +104,7 @@ products 変数の数量、売上高、イベント部分のセミコロン区�
 
 この設定の意味を理解すると、eVar 配分とマーチャンダイジング eVar バインディングの違いを理解することができます。マーチャンダイジング eVar の場合、この「配分」設定に適した名前は「マーチャンダイジング eVar バインディング」です。
 
-**標準 eVar 配分設定**
+#### 標準 eVar 配分設定
 
 標準構文の eVar がイメージリクエストから収集されるたびに、Adobe Analytics 処理サーバーは `post_evar` 列と呼ばれる別のデータベース列にデータを挿入します。eVar は永続的にする必要があるため、ほとんどの場合、現在のヒット以降のある時点で期限切れになります。その後、イメージリクエストのたびに、サーバーによってこの `post_evar` 列が設定されます。対応する eVar に渡された最後の値と同じになるよう設定されます。標準 eVar の場合、成功イベントが発生すると、Adobe Analytics では通常の eVar 列ではなく `post_evar` 列を使用して、イベントのクレジット付与対象となる eVar 値を決定します。
 
@@ -112,7 +112,7 @@ products 変数の数量、売上高、イベント部分のセミコロン区�
 
 標準 eVar の配分設定が「最新（最後）」に設定されている場合、訪問者から収集された最新の eVar 値は、以降のすべてのイメージリクエストの `post_evar` 列に入力されます。「最新（最後）」の配分は、イメージリクエストで、対応する eVar が新しい値に設定されるたびに `post_evar` の値が変更されることを意味します。「元の値（最初）」の配分は、将来のイメージリクエストにおいて、対応する eVar が異なる値に設定されたとしても、ヒットをまたいで `post_evar` 列が変化しないことを意味します。
 
-**マーチャンダイジング eVar 配分（バインディング）設定**
+#### マーチャンダイジング eVar 配分（バインディング）設定
 
 前述のように、コンバージョン変数構文を使用するすべてのマーチャンダイジング eVar には、「最新（最後）」のみが割り当てられています。したがって、訪問者が引き続きサイトを使用するので、マーチャンダイジング eVar の配分設定によって post_evar 列に挿入される値が決まるわけではありません。この設定は、製品にバインドされた eVar 値と、その成功イベントをバインドされた eVar 値に配分する方法を決定します。
 
@@ -174,12 +174,11 @@ productID 12345 と同時に取り込まれた成功イベント（買い物か�
 
 次に例を示します。
 
-```
+```js
 s.products=";12345;;;;eVar1=internal campaign";
 ```
 
 この変数設定により、製品 ID 12345 のバインディングが eVar1 値「内部キーワード検索」から eVar1 値「内部キャンペーン」に変更されます。また、この再バインドの変更は、eVar が製品構文と「最新（最後）」の「配分（バインディング）」設定を使用するように設定されている場合にも発生します。「配分（バインディング） 」設定が代わりに「元の値（最初）」に設定された場合、eVar1 を製品 ID 12345 と「内部キャンペーン」に設定しても、製品 ID 12345 を「内部キャンペーン」の eVar1 値に再バインドできません。その代わりに、元のバインド値（「内部キーワード検索」）でバインディングが維持されます。
-
 
 ### 製品の構文を使用する際の課題
 
@@ -191,7 +190,7 @@ s.products=";12345;;;;eVar1=internal campaign";
 
 この例では products 変数の構文は長くなりますが、表示された各 eVar 値が「sandal123」の製品 ID にバインドされます。それ以降は、「sandal123」製品と同時に取り込まれた成功イベント（買い物かごへの追加、購入など）が、最後に製品にバインドされた eVar 値にクレジットされます。このコードサンプルは、上記の eVar が「sandal123」製品にバインドされた後に、「sandal123」製品（79.95 ドル）の 1 個が購入されたかどうかを示します。
 
-```
+```js
 s.products=";sandal123;1;79.95";
 s.events="purchase";
 ```
@@ -210,7 +209,7 @@ s.events="purchase";
 
 さらに、検索方法のページを表示している間、訪問者は、個々の製品の詳細ページに移動するリンクをクリックしたり、検索方法のページから直接買い物かごに個々の製品を追加した可能性があります。「sandals」検索キーワードの例を使用して、訪問者がキーワード検索結果ページから買い物かごに「sandal123」製品を直接追加した場合、買い物かごへの追加をキャプチャするコード（「買い物かごに追加」ボタンの onClick イベントなどを使用）は、買い物かごへの追加が発生した際に動的に生成されるか、ページコードまたはタグ管理システムを介して直接「ハードコード」される必要があります。そのような場合に実行するコードは、次のようになります。
 
-```
+```js
 s.linkTrackVars="products,events";
 s.linkTrackEvents=s.events="scAdd";
 s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
@@ -236,9 +235,9 @@ s.tl(true,"o","Cart Add")
 
 例えば、多くの衣料品には「子 SKU」があり、サイズ、色、スタイルおよびその他の属性を示します。これらの属性は、同じ親製品に属する他の製品から 1 つの子製品を分離します。例えば、ミディアムサイズ、青色の T シャツにラージサイズ、赤色の T シャツを加えて購入するとします。両方のシャツの親 ID が「tshirt123」で、`eVar10` が子 SKU を取り込むように設定されているとします。購入確認ページで設定される変数は次のように設定されます。
 
-```
-s.events='purchase';
-s.products=';tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red"
+```js
+s.events="purchase";
+s.products=";tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tshirt123-l-red";
 ```
 
 この場合、「tshirt123-m-blue」と「tshirt123-l-red」の `eVar10`（childSKU）値の両方が、製品 ID「tshirt123」のそれぞれのインスタンスの購入に対して、クレジットを受け取ります。
@@ -247,17 +246,17 @@ s.products=';tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tsh
 
 「最新（最後）」の「配分（バインディング）」設定を使用すると、追加の問題が発生する場合があります。多くの web ブラウジングエクスペリエンスでは、訪問者は、既に閲覧した製品や買い物かごに追加した製品を「再検索」します。これは通常、その後の訪問の際か、購入を完了する直前に発生します。サイトを初めて訪問した際に、訪問者が「sandals」のキーワード検索で「sandal123」という製品を見つけたとします。訪問者はキーワード検索結果ページからすぐ、その製品を買い物かごに追加します。買い物かごへの追加をキャプチャするコードは、次のように設定されます。
 
-```
+```js
 s.linkTrackVars="products,events";
 s.linkTrackEvents=s.events="scAdd";
-s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross
+s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross";
 ```
 
 その結果、このイメージリクエストで表示される各 eVar 値が「sandal123」という製品にバインドされます。
 
 次に、訪問者がこの訪問中に製品を購入せず、買い物かごに「sandals123」製品を入れたまま、3 日後にサイトに戻ったと仮定します。訪問者は、購入前に製品に関する詳細情報を入手したいと考えています。ただし、訪問者は、キーワード検索で製品を見つける代わりに、サイトを閲覧します。製品を「再検索」する直前に、「womens／shoes／sandals」マーチャンダイジング閲覧セクションに辿り着きます。「sandal123」製品の製品詳細ページを「再検索」すると、変数は次のように設定されます（ページ読み込み時）。
 
-```
+```js
 s.events="prodView";
 s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-internal campaign|eVar2=non-search|eVar5=non-cross-sell";
 ```
@@ -279,14 +278,14 @@ s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-
 同時に設定する必要のある残りの変数（マーチャンダイジング eVar／ディメンション）は、AppMeasurement／AEP Web SDK ファイルに含まれる追加のロジックによって入力できます。\
 例えば、新しい訪問者が「sandals」というキーワード検索をおこなった場合、検索結果ページで 25 件の結果が返され、（ページコードまたはデータレイヤーキャプチャを介して）呼び出されるコードは次のようになります。
 
-```
+```js
 s.prop4="sandals";
 s.prop5="25";
 ```
 
 AppMeasurement／Analytics SDK ファイル内のロジックは、コードのこのスニペットを次のコードに自動変換できます。
 
-```
+```js
 s.prop4="sandals";
 s.prop5="25";
 s.eVar2="sandals";
@@ -324,7 +323,7 @@ s.eVar5="non-cross sell";
 
 products 変数と同じサーバー呼び出しにバインディングイベントが含まれている場合、post 列のマーチャンダイジング eVar（コンバージョン変数の構文を使用）値が products 変数にバインドされます。前の例に基づいて、1 つのサーバー呼び出しに次のマーチャンダイジング eVar 値が含まれているとします。
 
-```
+```js
 s.eVar2="sandals";
 s.eVar1="internal keyword search";
 s.eVar3="non-internal campaign";
@@ -334,7 +333,7 @@ s.eVar5="non-cross sell";
 
 前述のように、上記の eVar は、それぞれの post_evar 列を介して現在のヒットの後も保持されます。したがって、アドビのサーバーは、上記の eVar を次のように変換します。
 
-```
+```js
 post_eVar2="sandals";
 post_eVar1="internal keyword search";
 post_eVar3="non-internal campaign";
@@ -348,15 +347,15 @@ post_eVar5="non-cross sell";
 
 将来のヒットで、次の変数が設定されるとします。
 
-```
+```js
 s.products=";sandals123"
 s.events="prodView";
 ```
 
 post_evar 列では、これらのヒットが次のようにアドビの処理サーバーに表示されます。
 
-```
-s.products=";sandals123"
+```js
+s.products=";sandals123";
 s.events="prodView";
 post_eVar2="sandals";
 post_eVar1="internal keyword search";
@@ -369,9 +368,9 @@ eVar1、eVar2、eVar3、eVar4、eVar5 がバインディングイベントとし
 
 バインディングは、非常に興味深い結果を生み出し、post_products 列の値に表示されます。バインディングは、上記のコードを変換し、次のように、さらにいくつかの post 列を設定します。
 
-```
-post_events="prodView"
-post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell"
+```js
+post_events="prodView";
+post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";
 ```
 
 post_products 列に含まれる値は、見慣れたものである可能性があります。このドキュメントを上にスクロールして、以下に示すように、この post_products 値と s.products 値を比較します。 post_products 列は製品変数の構文を使用して設定されています。
@@ -390,6 +389,6 @@ post_products 列に含まれる値は、見慣れたものである可能性が
 
 要約すると、追加の設定を行わない限り、マーチャンダイジング eVar の標準インスタンス指標はあまり役に立ちません。幸いにも、アドビは [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ja) をリリースしました。Adobe Analytics が収集するカスタマイズされた指標に対して、複数のアトリビューションモデルを適用できます。これらのアトリビューションモデルを適用する指標では、post_evar 列に含まれる値や、特定の製品にバインドされている値は使用されません。代わりに、これらの指標は、イメージリクエスト自体（または Adobe Analytics の処理ルールで取り込まれた値）を経由して渡された値のみを使用します。コンバージョン変数構文を使用するすべてのマーチャンダイジング eVar について、Attribution IQ の機能を使用して、正確にアトリビュートされたインスタンス指標を取得できます。
 
-![](assets/attribution-select.png)
+![属性の選択](assets/attribution-select.png)
 
 マーチャンダイジング eVar のインスタンス指標をレポートに追加する場合、適切な Attribution IQ モデルは「ラストタッチ」モデルです。この場合、モデルのルックバックウィンドウ設定は重要ではありません。理由は、「強制」ラストタッチアトリビューションモデルは、リクエストを介して渡される各個々の値にインスタンスのクレジットを常に与えるからです。これは、eVar の実際のアトリビューション／バインディング設定が「最新（最後）」から「元の値（最初）」に等しいかどうかに関係しません。

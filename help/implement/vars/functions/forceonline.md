@@ -3,10 +3,10 @@ title: forceOnline
 description: AppMeasurement のオンライン状態を手動で設定します。
 feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '141'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 `forceOnline()` メソッドを使用すると、自動的に検出された AppMeasurement の状態を上書きできます。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 > このメソッドは、[`trackOffline`](../config-vars/trackoffline.md) が有効な場合にのみ使用します。この関数をオフライントラッキング以外で使用すると、データが失われる可能性があります。
 

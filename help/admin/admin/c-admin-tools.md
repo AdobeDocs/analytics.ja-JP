@@ -3,8 +3,8 @@ description: Adobe Analytics の管理ツールのインデックス。
 title: 管理ツール
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >同じブラウザーで複数の「管理者」タブを開かないでください。間違って正しくないレポートスイートに設定を保存してしまうおそれがあります。例えば、ルールセットを比較して新しいレポートスイートにコピーする必要がある場合は、新しいブラウザーを開くか、スクリーンショットを撮影して、ルールセットを比較することをお勧めします。
 

@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: アドビにヒットを送信した後に、コールバック関数を作成します。
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 `registerPostTrackCallback` 変数を使用すると、ヒットが正常にアドビに送信された直後に実行する JavaScript 関数をフックできます。トラッキングコールが失敗した場合、この関数は実行されません。この変数を使用して、AppMeasurement によって収集されたデータをパートナーや社内インフラストラクチャに送信したり、単一ページのアプリケーションで変数の値をクリーンアップしたりできます。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 > [`t()`](t-method.md) や [`tl()`](tl-method.md) などのトラッキングコールは `registerPostTrackCallback` 変数内で呼び出さないでください。この変数で関数をトラッキングすると、イメージリクエストが無限ループになります。
 

@@ -4,7 +4,7 @@ title: アラートビルダー (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # アラートビルダー
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >インテリジェントアラートは、Adobe Analytics Prime および Adobe Analytics Ultimate のお客様のみご利用いただけます。
 

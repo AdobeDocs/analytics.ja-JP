@@ -4,8 +4,8 @@ keywords: データフィード;ジョブ;指標;列の前;列の後;ボット;�
 title: 計算指標
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 データフィードを使用して一般的な指標を計算する方法について説明します。
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >通常、Adobe Analytics から除外されたヒットは、データフィードに含まれます。除外されたヒットを、生データに関するクエリから削除する場合には、`exclude_hit > 0` を使用します。データフィードには、データソースのデータも含まれます。データソースを除外する場合は、`hit_source = 5,7,8,9` を使用してすべての行を除外します。
 
