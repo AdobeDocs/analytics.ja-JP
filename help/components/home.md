@@ -3,7 +3,7 @@ title: Analytics コンポーネントガイド
 description: Adobe Analytics が提供する様々なコンポーネントについて説明します。
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
 ht-degree: 100%
 
