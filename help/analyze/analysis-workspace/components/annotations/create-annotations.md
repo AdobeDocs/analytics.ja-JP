@@ -5,9 +5,9 @@ role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
    | 要素 | 説明 |
    | --- | --- |
-   | [!UICONTROL プロジェクトのみの注釈] | デフォルトでは、注釈は現在のプロジェクトに適用されます。このチェックボックスをオンにすると、自分が所有するすべてのプロジェクトで注釈を使用できるようになります。<p> ![](assets/project-only.png) |
+   | [!UICONTROL プロジェクトのみの注釈] | デフォルトでは、注釈は現在のプロジェクトに適用されます。このチェックボックスをオンにすると、所有するすべてのプロジェクトに注釈を利用できるようになります。<p> ![](assets/project-only.png) |
    | [!UICONTROL タイトル] | 注釈に名前を付ける（例：「記念日」） |
    | [!UICONTROL 説明] | （オプション）注釈の説明をします（例：「米国で制定された祝日」）。 |
    | [!UICONTROL タグ] | （オプション）タグを作成または適用して、注釈を整理します。 |
