@@ -3,7 +3,7 @@ title: Analytics テクニカルノート
 description: このガイドでは、特定の分析ツールやコンポーネントに特化していないトピックに関する有用な情報を提供します。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
 ht-degree: 100%
 
