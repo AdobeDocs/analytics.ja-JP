@@ -4,7 +4,7 @@ title: フロービジュアライゼーションの設定
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
+source-git-commit: 2ce17ecd45810e1c567e99423271dbc2d5288485
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 40%
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->この新しいバージョンの [!UICONTROL フロー] ビジュアライゼーションは現在非公開ベータ版です。 参照： [このページ](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) 現在の機能に対して。
+>この新しいバージョンの [!UICONTROL フロー] ビジュアライゼーションは現在、限られたテストになっています。 参照： [このページ](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) 現在の機能に対して。
 
 更新されたフロービジュアライゼーションを使用すると、Web サイトやアプリ上の特定のコンバージョンイベントに由来する、またはそれに至るジャーニーを把握できます。 ディメンション（およびディメンション項目）または指標を通るパスをトレースします。 フローでは、目的のパスの開始または終了を設定したり、ディメンションまたはディメンション項目を流れるすべてのパスを分析したりできます。
 
