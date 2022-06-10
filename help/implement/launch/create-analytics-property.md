@@ -3,10 +3,10 @@ title: タグの Analytics プロパティの作成
 description: タグを使用してスペースを作成し、データの収集方法をカスタマイズします。
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 
 プロパティは、タグの管理に使用する包括的なコンテナです。拡張機能を使用すれば、製品固有のタグをインストールして設定できます。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
 1. 「**[!UICONTROL 新規プロパティ]**」をクリックします。
 1. プロパティに Web サイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「**[!UICONTROL 保存]**」をクリックします。
 1. 新しく作成したタグプロパティをクリックして、設定を入力します。
@@ -37,7 +37,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 
 データ要素は、変数値を収集するための、サイトの特定の部分に対する参照です。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
 1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL データ要素]**」タブをクリックしてから、「**[!UICONTROL データ要素の追加]**」をクリックします。
 1. データ要素に次の設定を指定します。
@@ -58,7 +58,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 
 ルールは、データ要素を Analytics 変数値にマッピングし、それらの値がアドビのサーバーに送信されるタイミングを決定します。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
 1. サイトに実装するタグプロパティをクリックします。
 1. 次をクリック： **[!UICONTROL ルール]** 「 」タブで、「 **[!UICONTROL ルールを追加]**. 名前を付ける `Global Rule`.
 1. イベントの横にある「**[!UICONTROL 追加]**」をクリックし、次の設定を入力します。

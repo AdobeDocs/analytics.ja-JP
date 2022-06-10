@@ -3,10 +3,10 @@ title: linkTrackEvents
 description: リンクトラッキングイメージリクエストに含めるイベントを決定します。
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -16,15 +16,19 @@ ht-degree: 100%
 
 この変数は、ページビュー呼び出し（[`t()`](../functions/t-method.md) メソッド）には使用されません。
 
-## Adobe Experience Platform のタグを使用したリンクトラッキング呼び出しのイベント
+## Web SDK を使用した、XDM イベントに含める Analytics イベントの決定
+
+Web SDK は、リンクトラッキングコール用に特定のフィールドを除外しません。 ただし、 `onBeforeEventSend` データがAdobeに送信される前に、目的のフィールドをクリアまたは設定するコールバック。 詳しくは、 [イベントのグローバルな変更](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) （ Web SDK ドキュメント）を参照してください。
+
+## Adobe Analytics拡張機能を使用したリンクトラッキングコールのイベント
 
 カスタムコードを使用しない場合、Adobe Experience Platform では、定義済みのイベントが自動的にリンクトラッキングのヒットに含まれます。
 
 >[!IMPORTANT]
 >
-> カスタムコードエディターを使用してデータ収集 UI でイベントを設定する場合は、カスタムコードを使用して `linkTrackEvents` でもイベントを含める必要があります。
+>Analytics 拡張機能のカスタムコードエディターでイベントを設定する場合は、 `linkTrackEvents` カスタムコードの使用もおこないます。
 
-## AppMeasurement および カスタムコードエディターの s.linkTrackEvents
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.linkTrackEvents
 
 `s.linkTrackEvents` 変数は、リンクトラッキングイメージリクエスト（`tl()` メソッド）に含めるイベントのコンマ区切りリストを含む文字列です。リンクトラッキングヒットに指標を含めるには、次の 3 つの条件を満たす必要があります。
 

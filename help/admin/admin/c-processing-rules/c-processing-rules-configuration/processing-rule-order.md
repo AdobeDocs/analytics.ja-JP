@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: 処理順序
 feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: 790c3a02fbdf896cba0933dcd7a2b2efd5a19f15
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 49%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 49%
 |--- |--- |
 | [動的変数](/help/implement/vars/page-vars/dynamic-variables.md) | HTTP ヘッダーまたは他の変数から情報を取り出すことで、動的に設定される変数。 |
 | [AppMeasurement](/help/implement/home.md) | AppMeasurement ライブラリで使用される関数とプラグインは、ブラウザーまたはクライアントアプリケーションで実行されます。 |
-| [タグの実装](/help/implement/launch/overview.md) | データ収集 UI で定義されるルール。 |
+| [タグの実装](/help/implement/launch/overview.md) | Adobe Experience Platformデータ収集内のAdobe Analytics拡張機能で定義されたルール。 |
 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html) | Web SDK で収集されたデータは Adobe Experience Edge に送信され、目的のレポートスイートに転送されます。 |
 | [ボットルール](/help/admin/admin/bot-removal/bot-rules.md) | 既知のスパイダーやボットによって生成されたトラフィックを削除できます。 |
 

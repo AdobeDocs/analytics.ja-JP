@@ -3,10 +3,10 @@ title: forceOnline
 description: AppMeasurement のオンライン状態を手動で設定します。
 feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '157'
+ht-degree: 70%
 
 ---
 
@@ -20,11 +20,15 @@ ht-degree: 0%
 
 AppMeasurement は、デバイスのオンライン状態を自動的に検出します。`forceOnline()` メソッドを使用すると、AppMeasurement がデバイスがオンラインの場合と同様にヒットを処理するように強制できます。このメソッドは引数を取らず、値を返しません。AppMeasurement でオンライン状態を上書きするのが目的です。
 
-## Adobe Experience Platform のタグを使用したオンラインの強制
+## Web SDK を使用してオンラインを強制
 
-データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Web SDK は、オフライン追跡をサポートしていません。
 
-## AppMeasurement および カスタムコードエディターの s.forceOnline()
+## Adobe Analytics拡張機能を使用してオンラインを強制
+
+Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.forceOnline()
 
 Analytics オブジェクトをインスタンス化した後、実装の任意の場所で `s.forceOnline()` メソッドを呼び出すことができます。
 

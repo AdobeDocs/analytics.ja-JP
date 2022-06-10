@@ -3,10 +3,10 @@ title: 開発環境への Adobe Analytics のデプロイ
 description: タグを使用して、Adobe Analytics を開発環境にデプロイする方法を説明します。
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 43%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 タグは、コードをデプロイする多くの組織的なワークフローに対応しています。Analytics の実装に最低限必要なコンポーネントを作成するには、次の手順に従います。タグ管理者は、組織内で作業して、アドビソリューションをデプロイするための正しいワークフローを確立できます。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
 2. サイトに実装するタグプロパティをクリックします。
 3. クリック **[!UICONTROL ホスト]**&#x200B;を選択し、「 **[!UICONTROL ホストを追加]**.
 4. 名前を付ける `"Adobe managed"`を選択し、 **[!UICONTROL 管理者Adobe]** タイプドロップダウン内。 「保存」をクリックします。
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ここまでにおこなったすべての変更や設定にもかかわらず、実際にはコードは公開されていません。ライブラリ（変更の集まりのようなもの）を作成すれば、サイトで使用するコードを公開できます。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
 2. サイトに実装するタグプロパティをクリックします。
 3. 次をクリック： **[!UICONTROL 公開フロー]** 「 」タブで、「 **[!UICONTROL ライブラリを追加]**. 詳しくは、 [公開の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) （タグに関するドキュメント）を参照してください。
 4. ライブラリに名前を付けます。 `'Initial changes'`をクリックし、開発環境を選択します。

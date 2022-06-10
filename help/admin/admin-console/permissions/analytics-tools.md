@@ -3,10 +3,10 @@ title: Analytics ツールの製品プロファイル権限
 description: Analytics ツールの権限の項目を使用して、Adobe Analytics 内の機能へのアクセス権を付与します。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ Analytics ツールの権限の項目は、Adobe Analytics 内の機能に対す
 | Analytics ツールの権限の項目 | 説明 |
 |----|----|
 | [!UICONTROL サーバーコールの使用状況] | 管理者／サーバーコールの使用状況へのアクセス権を付与します。 |
-| [!UICONTROL コードマネージャー] | 従来の目的のために保存されました。管理者／すべての管理者／Code Manager へのアクセス権を付与します。ほとんどの場合、代わりに、データ収集 UI に含まれるライブラリを使用します。 |
+| [!UICONTROL コードマネージャー] | 従来の目的のために保存されました。管理者／すべての管理者／Code Manager へのアクセス権を付与します。ほとんどの場合、代わりに、Adobe Experience Platformデータ収集内のAdobe Analytics拡張機能に含まれるライブラリを使用します。 |
 | [!UICONTROL コードマネージャー - Web サービス] | 1.4 API を使用して Code Manager へのアクセスを許可します。 |
 | [!UICONTROL ログ] | 管理者／すべての管理者／ログへのアクセス権を付与します。 |
 | [!UICONTROL ログ - Web サービス] | 1.4 API を介したプルログへのアクセスを許可します。 |

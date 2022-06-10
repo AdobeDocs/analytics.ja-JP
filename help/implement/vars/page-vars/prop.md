@@ -3,10 +3,10 @@ title: prop
 description: 実装で使用できるカスタム変数。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *このヘルプページでは、prop の実装方法について説明します。prop がディメンションとして機能する方法について詳しくは、『コンポーネントユーザガイド』の [prop](/help/components/dimensions/prop.md) を参照してください。*
 
-Prop は、好きなだけ使用できるカスタム変数です。Prop は、設定されたヒットの後は保持されません。
+Prop は、好きなだけ使用できるカスタム変数です。prop は、設定されたヒットの後は保持されません。
 
 >[!TIP]
 >
@@ -22,12 +22,16 @@ Prop は、好きなだけ使用できるカスタム変数です。Prop は、�
 
 [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)がある場合、これらのカスタムディメンションを組織に固有の値に割り当てることができます。使用可能な prop の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 75 個の prop を使用できます。
 
-## Adobe Experience Platform のタグを使用した prop
+## Web SDK を使用した prop
+
+prop は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `_experience.analytics.customDimensions.props.prop1` から `_experience.analytics.customDimensions.props.prop75`.
+
+## Adobe Analytics拡張機能を使用する prop
 
 Prop は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のプロパティをクリックします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
 5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
@@ -35,7 +39,7 @@ Prop は、Analytics 拡張機能の設定時（グローバル変数）また�
 
 Prop 値またはデータ要素に設定できます。別の Analytics 変数から値をコピーすることもできます。
 
-## AppMeasurement および カスタムコードエディターの s.prop1～s.prop75
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.prop1～s.prop75
 
 各 prop 変数は、組織固有のカスタム値を含む文字列です。最大長は 100 バイトです。100 バイトを超える値は、アドビに送信する際に自動的に切り捨てられます。
 

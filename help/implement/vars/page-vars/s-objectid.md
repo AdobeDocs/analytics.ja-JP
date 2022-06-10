@@ -3,10 +3,10 @@ title: s_objectID
 description: Activity Map で、サイト上の一意のリンクを識別します。
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '404'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 91%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Activity Map の精度が組織にとって重要な場合は、サイト上のリンクの `onClick` イベントに `s_objectID` 変数を含めることをお勧めします。詳しくは、『Analyze ユーザーガイド』の [Activity Map リンクトラッキングの使用例](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)を参照してください。
 
-## Adobe Experience Platform のタグを使用したオブジェクト ID
+## Adobe Analytics拡張機能を使用したオブジェクト ID
 
-データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および カスタムコードエディターの s_objectID
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s_objectID
 
 `s_objectID` はグローバル変数で、Analytics トラッキングオブジェクトとは独立して動作します（デフォルトで `s`）。この変数の有効な値は、100 バイトまでの任意の文字列です。この変数を定義していない場合、Activity Map はリンク URL をリンクの識別子として使用します。
 

@@ -3,10 +3,10 @@ title: purchaseID
 description: 一意の購入識別子に基づいてヒットの重複を除外します。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 80%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 
 購入 ID はすべての訪問者に適用され、期限は切れません。ある訪問者が特定の購入 ID を設定し、その 1 年後に同じ購入 ID を別の訪問者が設定した場合、2 番目の購入の重複が排除されます。
 
-## Adobe Experience Platform のタグを使用した購入 ID
+## Web SDK を使用した購入 ID
 
-データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+購入 ID は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `commerce.order.purchaseID`.
 
-## AppMeasurement および カスタムコードエディターの s.purchaseID
+## Adobe Analytics拡張機能を使用した購入 ID
+
+Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.purchaseID
 
 `s.purchaseID` 変数は、購入に対する一意の ID を含む文字列です。これは購入イベントと同じヒットに設定されます。この変数を設定するには、英数字のみを使用します。
 

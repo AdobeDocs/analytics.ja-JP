@@ -3,10 +3,10 @@ title: プラグインの概要
 description: サイトにコードを貼り付けて、新しい機能を導入します。
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 アドビでは、特定のプラグインをインストールする方法をいくつか提供しています。
 
-1. Adobe Experience Platform のタグを使用した「Common Analytics Plugins」拡張機能の使用
+1. Web SDK またはAdobe Analytics拡張機能を使用して、「Common Analytics Plugins」拡張機能を使用する
 2.  カスタムコードエディターを使用したプラグインコードの貼り付け。
 3. `AppMeasurement.js` ファイルへのプラグインコードの貼り付け。
 

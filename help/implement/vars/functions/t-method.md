@@ -3,10 +3,10 @@ title: t
 description: ページビュートラッキングコールをアドビに送信します。
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '276'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 52%
 
 ---
 
@@ -36,18 +36,40 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 アドビはイメージリクエストを受け取り、リクエストヘッダー、URL およびクエリー文字列パラメーターを解析します。次に、データ収集サーバーは、サイトに不可視的に表示された、1 x 1 ピクセルの透明イメージを返します。
 
-## Adobe Experience Platform のタグを使用したページビュートラッキングの呼び出し
+## Web SDK 拡張機能を使用したイベントの送信
 
-データ収集 UI には、ページビュートラッキング呼び出しを設定する専用の場所があります。
+アクションを使用して、XDM イベントデータのAdobeへの送信を設定します。 Datastream は、このデータを受け取り、設定されたマッピングを適用し、そのデータがその Datastream に追加されたサービスである場合はAdobe Analyticsに転送します。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のプロパティをクリックします。
-3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-4. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
-5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「ビーコンを送信」に設定します。
-6. 「`s.t()`」ラジオボタンをクリックします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. 目的のタグプロパティをクリックします。
+1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
+1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
+1. を [!UICONTROL 拡張] ドロップダウン **[!UICONTROL Adobe Experience Platform Web SDK]** そして [!UICONTROL アクションタイプ] から **[!UICONTROL イベントを送信]**.
 
-## AppMeasurement および カスタムコードエディターの s.t() メソッド
+## Web SDK を手動で実装するイベントの送信
+
+以下を使用： `sendEvent` コマンドを使用してデータをAdobeに送信します。 Datastream は、このデータを受け取り、設定されたマッピングを適用し、そのデータがその Datastream に追加されたサービスである場合はAdobe Analyticsに転送します。
+
+```js
+alloy("sendEvent", {
+  "xdm": {}
+});
+```
+
+詳しくは、 [イベントの追跡](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=ja) （ Web SDK ドキュメント）を参照してください。
+
+## Adobe Analytics拡張機能を使用したページビュートラッキングコール
+
+Adobe Experience Platformデータ収集のAdobe Analytics拡張機能には、ページビュートラッキングコールを設定する専用の場所があります。
+
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. 目的のタグプロパティをクリックします。
+1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
+1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
+1. を [!UICONTROL 拡張] ドロップダウン **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
+1. 「`s.t()`」ラジオボタンをクリックします。
+
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.t() メソッド
 
 アドビにトラッキングコールを送信する場合は、`s.t()` メソッドを呼び出します。
 

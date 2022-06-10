@@ -3,10 +3,10 @@ title: pageURL
 description: 自動的に収集されたページの URL をサイトで上書きします。
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 78%
 
 ---
 
@@ -18,12 +18,16 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 >
 > この変数は、Analysis Workspace では使用できないディメンションで、Data Warehouse およびデータフィードでのみ使用できます。さらに、アドビのデータ収集サーバーでは、すべての[リンクトラッキング](/help/implement/vars/functions/tl-method.md)画像リクエストからこのディメンションを除外します。 ページ URL を Analysis Workspace のディメンションとして使用する場合、またはこのディメンションをリンクトラッキングのヒットで使用する場合は、ヒットごとに `pageURL`eVar](evar.md) に [ 変数を渡すことを検討してください。
 
-## Adobe Experience Platform のタグを使用したページ URL
+## Web SDK を使用したページ URL
 
-データ収集 UI によってページ URL が自動的に設定されます。ただし、Analytics 拡張機能の設定時（グローバル変数）またはルールで、ページ URL の上書きを設定できます。
+ページ URL は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `web.webPageDetails.URL`.
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のプロパティをクリックします。
+## Adobe Analytics拡張機能を使用したページ URL
+
+Adobe Experience Platformデータ収集の Analytics 拡張機能により、ページ URL が自動的に入力されます。 ただし、Analytics 拡張機能の設定時（グローバル変数）またはルールで、ページ URL の上書きを設定できます。
+
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+2. 目的のタグプロパティをクリックします。
 3. 「**[!UICONTROL ルール]**」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「**[!UICONTROL アクション]**」で、既存の「**[!UICONTROL Adobe Analytics - 変数を設定]**」アクションをクリックするか、「+」アイコンをクリックします。
 5. 「**[!UICONTROL 拡張機能]**」ドロップダウンを「Adobe Analytics」に設定し、「**[!UICONTROL アクションタイプ]**」を「**[!UICONTROL 変数を設定]**」に設定します。
@@ -31,7 +35,7 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 
 ページ URL は任意の文字列値に設定できます。
 
-## AppMeasurement および カスタムコードエディターの s.pageURL
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.pageURL
 
 `s.pageURL` 変数は、ページの URL を含む文字列です。AppMeasurement はこの変数を自動的に収集しますが、必要に応じてその値を上書きできます。
 

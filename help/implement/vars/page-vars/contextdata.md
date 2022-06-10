@@ -3,10 +3,10 @@ title: contextData
 description: コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '509'
+ht-degree: 79%
 
 ---
 
@@ -16,11 +16,17 @@ ht-degree: 0%
 
 コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。例えば、開発チームにページの作成者の `eVar10` への割り当てをリクエストする代わりに、`s.contextData["author"]` への割り当てをリクエストすることができます。その後、組織の Analytics 管理者は、コンテキストデータ変数をレポート用の Analytics 変数にマップする処理ルールを作成できます。開発チームは、最終的に、アドビが提供する多くのページ変数ではなく、コンテキストデータ変数についてのみ懸念することになります。
 
-## Adobe Experience Platform のタグを使用したコンテキストデータ変数
+## Web SDK を使用したコンテキストデータ変数
 
-データ収集 UI には、コンテキストデータ変数を設定するための専用の場所がありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+XDM フィールドが [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)の場合、コンテキストデータ変数として自動的に含まれます。 この場合、 [処理ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) を使用して、目的の Analytics 変数にコンテキストデータ変数を割り当てます。
 
-## AppMeasurement および カスタムコードエディターの s.contextData
+データストリーム内の正しい XDM フィールドにデータをマッピングするのがベストプラクティスですが、この方法は似たような結果を実現します。
+
+## Adobe Analytics拡張機能を使用したコンテキストデータ変数
+
+Adobe Experience Platformのデータ収集には、コンテキストデータ変数を設定するための専用の場所がありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.contextData
 
 `s.contextData` 変数は値を直接取りません。代わりに、この変数のプロパティを文字列に設定します。
 

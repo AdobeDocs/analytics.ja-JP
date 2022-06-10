@@ -3,10 +3,10 @@ title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 98%
+source-wordcount: '571'
+ht-degree: 77%
 
 ---
 
@@ -18,18 +18,29 @@ ht-degree: 98%
 >
 >この変数が、[`events`](events/events-overview.md) 変数のないヒットで設定されている場合、[製品表示回数](/help/components/metrics/product-views.md)指標は 1 増分されます。各ヒットに対して、`products` 変数を使用して適切なイベントを設定していることを確認します。
 
-## Adobe Experience Platform のタグを使用した製品
+## Web SDK を使用する製品
 
-データ収集 UI にはこの変数を設定するための専用フィールドがありませんが、サードパーティ拡張機能が複数存在しています。
+製品は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 複数の XDM フィールドの下：
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のプロパティをクリックします。
+* カテゴリのマッピング先 `productListItems[].name`.
+* 製品が `productListItems[]._id`.
+* 数量が次にマッピングされています： `productListItems[].quantity`.
+* 価格は `productListItems[].priceTotal`.
+* マーチャンダイジング eVar は `productListItems._experience.analytics.customDimensions.eVars.eVar1` から `productListItems._experience.analytics.customDimensions.eVars.eVar250`に含まれ、製品にバインドするeVarに応じて異なります。
+* マーチャンダイジングイベントのマッピング先 `productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems._experience.analytics.event901to1000.event1000.value`に含まれ、製品にバインドするイベントに応じて異なります。
+
+## Adobe Analytics拡張機能を使用する製品
+
+Adobe Experience Platformデータ収集にこの変数を設定するための専用フィールドはありません。ただし、役に立つ複数のサードパーティの拡張機能が存在します。
+
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」をクリックして、使用可能な拡張機能をすべて表示します。
 4. 「product」という用語を検索すると、この変数の設定に役立ついくつかの拡張機能が明らかになります。
 
 これらの拡張機能の 1 つを使用することも、以下の AppMeasurement 構文に従ってカスタムコードエディターを使用することもできます。
 
-## AppMeasurement および カスタムコードエディターの s.products
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.products
 
 `s.products` 変数は、製品ごとに複数の区切りフィールドを含む文字列です。文字列内の各フィールドをセミコロン（`;`）で区切ります。
 

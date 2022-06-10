@@ -3,10 +3,10 @@ title: pageType
 description: 現在のページが 404 エラーであるかどうかを調べます。
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 77%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 >
 > この変数は、エラーのないページに設定しないでください。
 
-## Adobe Experience Platform のタグを使用したページタイプ
+## Adobe Analytics拡張機能を使用したページタイプ
 
-データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および カスタムコードエディターの s.pageType
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.pageType
 
 `s.pageType` 変数は文字列で、唯一の有効な値は `errorPage` です。この変数は、404 ページなど、サイトの任意のエラーページでこの値に設定します。
 

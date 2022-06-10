@@ -3,14 +3,14 @@ title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 85%
 
 ---
 
-# list
+# リスト
 
 リスト変数は、好きなだけ使用できるカスタム変数です。eVar と同様に機能しますが、同じヒットに複数の値を含めることができます。リスト変数には文字制限はありません。
 
@@ -24,11 +24,15 @@ ht-degree: 100%
 
 実装で各リスト変数を使用する前に、レポートスイートの設定で各リスト変数を設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/list-var-admin.md)を参照してください。
 
-## Adobe Experience Platform のタグを使用した変数のリスト
+## Web SDK を使用した変数のリスト
 
-データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+リスト変数は、 [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `_experience.analytics.customDimensions.lists.list1` から `_experience.analytics.customDimensions.lists.list3`.
 
-## AppMeasurement および カスタムコードエディターの s.list1～s.list3
+## Adobe Analytics拡張機能を使用したリスト変数
+
+Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.list1～s.list3
 
 各リスト変数は、組織固有のカスタム値を含む文字列です。最大バイト数はありません。ただし、各値の最大値は 255 バイトです。使用する区切り文字は、レポートスイート設定で変数を設定する際に決定されます。複数の項目を区切る場合は、スペースを使用しないでください。
 

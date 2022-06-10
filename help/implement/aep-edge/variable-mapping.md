@@ -2,9 +2,9 @@
 title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 1ed07727530ef5e3c9afbb291772f668fdee5d45
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,13 @@ ht-degree: 0%
 | `environment.operatingSystem` | モバイルディメンション [オペレーティングシステム](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | モバイルディメンション [オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.type` | イベントが [着用できる](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html) デバイス。 有効な値は次のとおりです。 `Application` （このイベントはアプリから来たものです）、 `Extension` （イベントはウェアラブルアプリから来たもの）、または `Widget` （イベントはモバイルウィジェットから来たものです）。 |
+| `_experience.analytics.customDimensions.eVars.eVar1` -<br/>`_experience.analytics.customDimensions.eVars.eVar250` | それぞれ [eVar](../../components/dimensions/evar.md) ディメンション。 |
+| `_experience.analytics.customDimensions.listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.listProps.prop75.delimiter` | 特定の [リスト prop](../vars/page-vars/prop.md#list-props). |
+| `_experience.analytics.customDimensions.listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.listProps.prop75.values` | それぞれの [リスト prop](../vars/page-vars/prop.md#list-props) 値。 |
+| `_experience.analytics.customDimensions.lists.list1.list` -<br/>`_experience.analytics.customDimensions.lists.list3.list` | それぞれ [リスト変数](../vars/page-vars/list.md). |
+| `_experience.analytics.customDimensions.props.prop1` -<br/>`_experience.analytics.customDimensions.props.prop75` | それぞれ [Prop](../../components/dimensions/prop.md) ディメンション。 |
+| `_experience.analytics.event1to100.event1.id` -<br/>`_experience.analytics.event901to1000.event1000.value` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) 各 [カスタムイベント](../../components/metrics/custom-events.md) 指標。 |
+| `_experience.analytics.event1to100.event1.value` -<br/>`_experience.analytics.event901to1000.event1000.value` | それぞれ [カスタムイベント](../../components/metrics/custom-events.md) 指標を必要な量で示します。 |
 | `identityMap.ECID[0].id` | この [Adobe Experience Cloud Identity Service ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja). |
 | `marketing.trackingCode` | を設定します。 [トラッキングコード](../../components/dimensions/tracking-code.md) ディメンション。 |
 | `media.mediaTimed.completes.value` | Media Analytics 指標 [コンテンツ完了](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-complete). |
@@ -101,10 +108,10 @@ ht-degree: 0%
 | `placeContext.geo.longitude` | モバイルディメンションの経度。 |
 | `placeContext.geo.postalCode` | この [郵便番号](../../components/dimensions/zip-code.md) ディメンション。 |
 | `placeContext.geo.stateProvince` | この [米国の州](../../components/dimensions/us-states.md) ディメンション。 |
-| `productListItems[N].lineItemId` | この [カテゴリ](../../components/dimensions/category.md) ディメンション。 |
-| `productlistitems[N].name` | この [製品](../../components/dimensions/product.md) ディメンション。 |
-| `productlistitems[N].priceTotal` | を判断するのに役立ちます [売上高](../../components/metrics/revenue.md) 指標。 |
-| `productlistitems[N].quantity` | を判断するのに役立ちます [単位](../../components/metrics/units.md) 指標。 |
+| `productListItems[].lineItemId` | この [カテゴリ](../../components/dimensions/category.md) ディメンション。 |
+| `productListItems[].name` | この [製品](../../components/dimensions/product.md) ディメンション。 |
+| `productListItems[].priceTotal` | を判断するのに役立ちます [売上高](../../components/metrics/revenue.md) 指標。 |
+| `productListItems[].quantity` | を判断するのに役立ちます [単位](../../components/metrics/units.md) 指標。 |
 | `web.webInteraction.URL` | この [linkURL](../vars/config-vars/linkurl.md) 実装変数。 |
 | `web.webInteraction.name` | この [カスタムリンク](../../components/dimensions/custom-link.md), [ダウンロードリンク](../../components/dimensions/download-link.md)または [出口リンク](../../components/dimensions/exit-link.md) ディメンション ( `web.webInteraction.type` |
 | `web.webInteraction.type` | クリックされたリンクのタイプを決定します。 有効な値は次のとおりです。 `lnk_o` （カスタムリンク） `lnk_d` （ダウンロードリンク）、 `lnk_e` （出口リンク）。 |

@@ -3,10 +3,10 @@ title: タイムスタンプ
 description: ヒットのタイムスタンプを手動で設定します。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 >
 > レポートスイートでタイムスタンプ付きのヒットを受け入れるように明示的に設定されていない場合は、この変数を使用しないでください。AppMeasurement は、タイムスタンプ付きのヒットをサポートしないレポートスイートのヒットの時間を自動的に設定します。この変数を含むヒットを、タイムスタンプをサポートしないレポートスイートに送信すると、そのデータは永久的に失われます。
 
-## Adobe Experience Platform のタグを使用したタイムスタンプ
+## Adobe Analytics拡張機能を使用したタイムスタンプ
 
-データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
-## AppMeasurement および カスタムコードエディターの s.timestamp
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.timestamp
 
 `s.timestamp` 変数は、ヒットの日時を含む文字列です。有効なタイムスタンプ形式は、[ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) と [Unix 時間](https://ja.wikipedia.org/wiki/UNIX時間)です。
 
@@ -42,7 +42,7 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601 値
 
-[ISO 8601](https://ja.wikipedia.org/wiki/ISO_8601) で表される日付と時間は、様々な形式を取ることができます。アドビは、ISO 8601 のすべての機能をサポートしているわけではありません。
+[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) で表される日付と時間は、様々な形式を取ることができます。アドビは、ISO 8601 のすべての機能をサポートしているわけではありません。
 
 * 日付と時刻を `T` で区切り、両方を指定する必要があります。
 * 時間と分が必要です。秒はオプションですが、推奨されます。

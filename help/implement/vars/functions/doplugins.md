@@ -3,10 +3,10 @@ title: doPlugins
 description: ヒットがコンパイルされてアドビに送信される直前にロジックを設定します。
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 57%
 
 ---
 
@@ -19,9 +19,32 @@ ht-degree: 100%
 
 `doPlugins` 変数を使用してプラグインコードを呼び出し、イメージリクエストがコンパイルされてアドビに送信される直前に、最終的な変数値を設定します。
 
-## Adobe Experience Platform のタグを使用したプラグイン
+## Web SDK 拡張機能を使用した、イベント送信前のコールバックコードの使用
 
-データ収集 UI には、この変数を使用する専用のフィールドはありません。AppMeasurement 構文に従って、カスタムコードエディターを使用します。
+の代わりに `doPlugins`を使用する場合、Web SDK は `onBeforeEventSend` 同様の機能を備えています。
+
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. 目的のタグプロパティをクリックします。
+1. 次に移動： [!UICONTROL 拡張機能] 「 」タブで、 **[!UICONTROL 設定]** 下のボタン [!UICONTROL Adobe Experience Platform Web SDK].
+1. の下 [!UICONTROL データ収集]、 **[!UICONTROL イベント送信コールバックコードの前に編集]** 」ボタンをクリックします。
+1. エディターに目的のコードを配置します。
+
+## 用途 `onBeforeEventSend` Web SDK の手動実装
+
+の代わりに `doPlugins`を使用する場合、Web SDK は `onBeforeEventSend` 同様の機能を備えています。 詳しくは、 [イベントのグローバルな変更](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) （ Web SDK ドキュメント）を参照してください。
+
+```js
+// Set the trackingCode XDM field to "New value"
+alloy("configure", {
+  "onBeforeEventSend": function(content) {
+    content.xdm.marketing.trackingCode = "New value";
+  }
+})
+```
+
+## Adobe Analytics拡張機能を使用したプラグイン
+
+Adobe Analytics拡張機能には、この変数を使用する専用のフィールドはありません。 AppMeasurement 構文に従って、カスタムコードエディターを使用します。
 
 ## AppMeasurement および カスタムコードエディターの s.doPlugins
 
@@ -31,7 +54,7 @@ ht-degree: 100%
 s.doPlugins = function() {/* Desired code */};
 ```
 
->[!NOTE]
+>[!IMPORTANT]
 >
 > 実装で 1 回だけ、関数を `doPlugins` 変数に設定します。`doPlugins` 変数を複数回設定した場合は、最新のコードのみが使用されます。
 

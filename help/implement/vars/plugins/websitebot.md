@@ -3,10 +3,10 @@ title: websiteBot
 description: マウスの動きを使用してボットを動的に識別します。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ユーザーエージェントがデスクトップ上にあり、マウスの動きが検出されない場合は、プラグインで
 
-* Adobe Experience Platform のタグを使用して直接呼び出しルールを呼び出すか、
+* Web SDK またはAdobe Analytics拡張機能を使用して直接呼び出しルールを呼び出すか、
 * 訪問者がボットでないことを示すリンクトラッキング呼び出しを実行します。
 
 ## 前提条件

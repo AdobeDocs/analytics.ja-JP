@@ -3,10 +3,10 @@ title: tl
 description: リンクトラッキングコールをアドビに送信します。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 80%
 
 ---
 
@@ -16,20 +16,38 @@ ht-degree: 100%
 
 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) または [`trackExternalLinks`](../config-vars/trackexternallinks.md) が有効な場合、AppMeasurement は自動的に `tl()` メソッドを呼び出して、ダウンロードリンクと離脱リンクトラッキングデータを送信します。組織で、追跡するリンクとその動作をより詳細に制御する必要がある場合は、手動で `tl()` メソッドを呼び出すことができます。カスタムリンクは手動でのみ追跡できます。
 
-## Adobe Experience Platform のタグを使用したリンクトラッキング呼び出し
+## Web SDK を使用したリンクトラッキング
 
-データ収集 UI には、リンクトラッキング呼び出しを設定する専用の場所があります。
+Web SDK は、ページビュー呼び出しとリンクトラッキング呼び出しを区別しません。両方とも `sendEvent` コマンドを使用します。 Adobe Analyticsで特定のイベントをリンクトラッキングコールとしてカウントする場合は、XDM データに `web.webInteraction.name`, `web.webInteraction.URL`、および `web.webInteraction.type`.
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
-1. 目的のプロパティをクリックします。
+```js
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
+```
+
+## Adobe Analytics拡張機能を使用したリンクトラッキング
+
+Adobe Analytics拡張機能には、リンクトラッキングコールを設定するための専用の場所があります。
+
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
-1. 「[!UICONTROL アクション]」で「+」アイコンをクリックします。
-1. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「ビーコンを送信」に設定します。
+1. の下 [!UICONTROL アクション]、目的のアクションをクリックするか、 **&#39;+&#39;** アイコンをクリックしてアクションを追加します。
+1. を [!UICONTROL 拡張] ドロップダウン **[!UICONTROL Adobe Analytics]**、および [!UICONTROL アクションタイプ] から **[!UICONTROL ビーコンを送信]**.
 1. 「`s.tl()`」ラジオボタンをクリックします。
 
-データ収集 UI では、オプションの引数を設定できません。
+Analytics 拡張機能では、オプションの引数を設定できません。
 
-## AppMeasurement およびカスタムコードエディターの s.tl() メソッド
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.tl() メソッド
 
 アドビにトラッキングコールを送信する場合は、`s.tl()` メソッドを呼び出します。
 

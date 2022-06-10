@@ -3,10 +3,10 @@ title: eVar変数
 description: 実装で使用できるカスタム変数。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 99%
+source-wordcount: '405'
+ht-degree: 86%
 
 ---
 
@@ -22,12 +22,16 @@ eVar は、好きなだけ使用できるカスタム変数です。[ソリュ�
 
 実装で eVar を使用する前に、各 eVar をレポートスイートの設定で設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
-## Adobe Experience Platform のタグを使用した eVar
+## Web SDK を使用した eVar
+
+eVar は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `_experience.analytics.customDimensions.eVars.eVar1` から `_experience.analytics.customDimensions.eVars.eVar250`.
+
+## Adobe Analytics拡張機能を使用した eVar
 
 eVar は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のプロパティをクリックします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
 5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
@@ -35,7 +39,7 @@ eVar は、Analytics 拡張機能の設定時（グローバル変数）また�
 
 eVar を値またはデータ要素に設定できます。別の Analytics 変数から値をコピーすることもできます。
 
-## AppMeasurement および カスタムコードエディターの s.eVar1～s.eVar250
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.eVar1～s.eVar250
 
 各 eVar は、組織に固有のカスタム値を含む文字列です。最大長は 255 バイトです。255 バイトを超える値は、アドビに送信する際に自動的に切り捨てられます。
 

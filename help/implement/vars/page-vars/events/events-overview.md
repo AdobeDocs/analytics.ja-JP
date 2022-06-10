@@ -3,25 +3,42 @@ title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 84%
 
 ---
 
-# events
+# イベント
 
 ディメンションと指標は、レポートにとって重要な要素です。`events` 変数は、サイト上の多くの指標のデータ収集をおこないます。イベントは、通常、レポートで[指標](/help/components/metrics/overview.md)を増分します。
 
 イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-success-events/success-event.md)」で、成功イベントを作成し、設定していることを確認してください。リンクトラッキングのヒットでカスタムイベントを使用する予定がある場合は、[`linkTrackVars`](../../config-vars/linktrackvars.md) と [`linkTrackEvents`](../../config-vars/linktrackevents.md) が正しく設定され ていることを確認してください。
 
-## Adobe Experience Platform のタグを使用したイベント
+## Web SDK を使用するイベント
+
+カスタムイベントは [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 次の XDM フィールドの下：
+
+* カスタムイベント 1 ～ 100 が `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
+* カスタムイベント 101～200 は、 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
+* このパターンは、100 個のイベントごとに、 `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* 注文は次にマッピングされます： `commerce.purchases.value`.
+* 単位は、すべての `productListItems[].quantity` フィールド。
+* 売上高は、すべての `productListItems[].priceTotal` フィールド。
+* 製品表示は `commerce.productListViews.value`.
+* 買い物かごは `commerce.productListOpens.value`.
+* 買い物かごへの追加は `commerce.productListAdds.value`.
+* 買い物かごからの削除は、 `commerce.productListRemovals.value`.
+* 買い物かご表示は、 `commerce.productListViews.value`.
+* チェックアウトは `commerce.checkouts.value`.
+
+## Adobe Analytics拡張機能を使用するイベント
 
 イベントは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のプロパティをクリックします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
 5. 「[!UICONTROL 拡張機能]」ドロップダウンを「Adobe Analytics」に設定し、「[!UICONTROL アクションタイプ]」を「[!UICONTROL 変数を設定]」に設定します。
@@ -34,7 +51,7 @@ ht-degree: 100%
 * イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例えば、ドロップダウンで `event1` を選択し、このフィールドに `10` を含めると、レポートでは `event1` が 10 ずつ増えます。
 * 別のイベントを追加するボタン。ヒットに含めることのできるイベント数には、妥当な制限はありません。
 
-## AppMeasurement および カスタムコードエディターの s.events
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.events
 
 `s.events` 変数は、ヒットに含めるイベントのコンマ区切りリストを含む文字列です。この変数にはバイト制限がないので、切り捨てられません。有効な設定値は以下のとおりです。
 

@@ -3,10 +3,10 @@ title: Adobe Analytics の実装
 description: Adobe Analytics をサイト、プロパティまたはアプリケーションに実装します。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 79%
 
 ---
 
@@ -32,7 +32,8 @@ Adobe Analytics のビデオの概要は次のとおりです。
 
 Adobe Analytics では、データ収集サーバーにデータを送信するために、Web サイト、モバイルアプリケーションまたはその他のアプリケーション内のコードが必要です。プラットフォームや組織のニーズに応じて、このコードを実装する方法がいくつかあります。
 
-* **Adobe Experience Platform のタグ**：Adobe Analytics を実装するための標準化されたお勧めの方法です。各ページにローダータグを配置し、データ収集 UI を使用して、各変数の定義方法を決定します。
+* **Web SDK**:Adobe Analyticsを実装するための標準化されたお勧めの方法。 Web SDK 拡張機能をAdobe Experience Platformデータ収集にインストールし、各ページでローダータグを使用して、組織が使いやすい形式でAdobe Experience Platform Edge にデータを送信します。 Experience Edge は、受信データを正しい形式でAdobe Analyticsに転送します。
+* **Adobe Analytics拡張機能**:Adobe Analytics拡張機能をAdobe Experience Platformデータ収集にインストールします。 各ページにローダータグを配置し、Analytics 拡張機能を使用して各変数の定義方法を決定します。
 * **従来の JavaScript**：Adobe Analytics を実装するために古くから使用されている手動の方法です。実装で使用される変数および設定の概要を説明します。カスタムコードを含むルールを使用する実装で役立ちます。
 * **モバイル SDK**：モバイルアプリケーション内からアドビに簡単にデータを送信する専用ライブラリです。
 

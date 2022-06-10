@@ -3,10 +3,10 @@ title: trackingServer
 description: イメージリクエストを送信する場所を決定します。
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 69%
 
 ---
 
@@ -18,22 +18,47 @@ ht-degree: 100%
 >
 > この値を変更すると、AppMeasurement が別の場所で Cookie を探します。訪問者の Cookie が新しい場所に設定されると、レポートでユニーク訪問者数が一時的に急増する可能性があります。
 
-## Adobe Experience Platform のタグを使用したトラッキングサーバー
+## Web SDK 拡張機能を使用する Edge ドメイン
+
+Web SDK が使用する [!UICONTROL エッジドメイン] を使用して、トラッキングサーバーとセキュアトラッキングサーバーの両方を処理できます。 必要な [!UICONTROL エッジドメイン] 値を指定します。
+
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. 目的のタグプロパティをクリックします。
+1. 次に移動： [!UICONTROL 拡張機能] 「 」タブで、 **[!UICONTROL 設定]** 下のボタン [!UICONTROL Adobe Experience Platform Web SDK].
+1. 目的のを設定 **[!UICONTROL エッジドメイン]** テキストフィールド。
+
+詳しくは、 [Adobe Experience Platform Web SDK 拡張機能の設定](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) （ Web SDK ドキュメント）を参照してください。
+
+>[!TIP]
+>
+>組織が AppMeasurement または Analytics 拡張機能の実装から Web SDK に移行した場合、このフィールドでは、 `trackingServerSecure` ( または `trackingServer`) をクリックします。
+
+## Web SDK の手動実装の Edge ドメイン
+
+を使用した SDK の設定 [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=ja). フィールドは、データの送信先のドメインを決定する文字列です。
+
+```json
+alloy("configure", {
+  "edgeDomain": "data.example.com"
+});
+```
+
+## Adobe Analytics拡張機能を使用したトラッキングサーバー
 
 「トラッキングサーバー」は、Adobe Analytics 拡張機能の設定時に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
-1. Adobe ID の認証情報を使用して、[データ収集 UI](https://experience.adobe.com/data-collection) にログインします。
-2. 目的のプロパティをクリックします。
-3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「[!UICONTROL 設定]」ボタンをクリックします。
+1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+2. 目的のタグプロパティをクリックします。
+3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 4. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL トラッキングサーバー]」フィールドが表示されます。
 
 このフィールドを空白のままにすると、デフォルトでは `[rsid].data.adobedc.net` になります。
 
-## AppMeasurement および カスタムコードエディターの s.trackingServer
+## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.trackingServer
 
 `s.trackingServer` 変数は、データを送信する場所を含む文字列です。
 
-## trackingServer の値の決定
+##  の値の決定`trackingServer`
 
 この変数の値は、ファーストパーティ Cookie とサードパーティ Cookie のどちらを使用するかによって異なります。実装にファーストパーティ Cookie を使用することを強くお勧めします。
 
