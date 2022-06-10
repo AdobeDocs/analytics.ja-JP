@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace のほか、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順。
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
-workflow-type: ht
-source-wordcount: '1052'
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+workflow-type: tm+mt
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 100%
             + [行設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動的項目と静的項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [テーブルのページネーション、フィルタリングおよび並べ替え](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Workspace の合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [ワークスペースの合計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + コホートテーブル {#cohort-table}
          + [コホート分析とは](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [コホート分析レポートの設定](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -70,8 +70,7 @@ ht-degree: 100%
          + [フォールアウト分析でのセグメントの適用](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + フロー {#flow}
          + [フローの概要](analysis-workspace/visualizations/c-flow/flow.md)
-         + [フロービジュアライゼーションの設定](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [新規フロービジュアライゼーション（ベータ版）](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [フロービジュアライゼーションの設定](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [フローの設定](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [ディメンション間のフロー](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [ヒストグラム](analysis-workspace/visualizations/histogram.md)
@@ -139,7 +138,7 @@ ht-degree: 100%
          + [アラートマネージャー](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [インテリジェントアラート - 使用例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [ユーザー環境設定](analysis-workspace/user-preferences.md)
-   + Workspace の FAQ {#workspace-faq}
+   + ワークスペースの FAQ {#workspace-faq}
       + [よくある質問](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace のパフォーマンスの最適化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [エラーメッセージ](analysis-workspace/workspace-faq/error-messages.md)

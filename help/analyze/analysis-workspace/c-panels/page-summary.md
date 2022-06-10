@@ -1,17 +1,17 @@
 ---
 description: ページ概要パネルには、選択したページの概要情報が表示されます。
-title: ページサマリパネル
+title: ページの概要パネル
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 9%
 
 ---
 
-# ページサマリパネル
+# ページの概要パネル
 
 この [!UICONTROL ページサマリ] パネルは、Reports &amp; Analytics のレポートとして、レポート/エンゲージメント/ページ分析/ページサマリから始まりました。 現在は、Workspace パネルになっています。 このパネルを使用すると、特定のページに関する主要な統計を簡単に参照できます。
 
@@ -53,10 +53,10 @@ ht-degree: 9%
 | [!UICONTROL リロード回数] | この [!UICONTROL リロード回数] 指標は、再読み込み中にディメンション項目が存在した回数を示します。 訪問者によるブラウザーの更新は、再読み込みをトリガーする最も一般的な方法です。 |
 | [!UICONTROL 入口] | この [!UICONTROL 入口] 指標は、訪問の最初の値として特定のディメンション項目が取得された回数を示します。 |
 | [!UICONTROL 出口] | この [!UICONTROL 出口] 指標は、訪問の最後の値として特定のディメンション項目が取り込まれた回数を示します。 |
-| [!UICONTROL フロー] | 選択したページを焦点とするフロー図です。 任意の [フロー図](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL フロー] | 選択したページを焦点とするフロー図です。 任意の [フロー図](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
-![ページサマリパネル](assets/page-sum1.png)
+![ページの概要パネル](assets/page-sum1.png)
 
 ![指標とフロー](assets/page-sum2.png)
