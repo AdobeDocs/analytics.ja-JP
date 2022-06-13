@@ -2,7 +2,7 @@
 title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 0%
@@ -114,7 +114,7 @@ ht-degree: 0%
 | `productListItems[].quantity` | を判断するのに役立ちます [単位](../../components/metrics/units.md) 指標。 |
 | `web.webInteraction.URL` | この [linkURL](../vars/config-vars/linkurl.md) 実装変数。 |
 | `web.webInteraction.name` | この [カスタムリンク](../../components/dimensions/custom-link.md), [ダウンロードリンク](../../components/dimensions/download-link.md)または [出口リンク](../../components/dimensions/exit-link.md) ディメンション ( `web.webInteraction.type` |
-| `web.webInteraction.type` | クリックされたリンクのタイプを決定します。 有効な値は次のとおりです。 `lnk_o` （カスタムリンク） `lnk_d` （ダウンロードリンク）、 `lnk_e` （出口リンク）。 |
+| `web.webInteraction.type` | クリックされたリンクのタイプを決定します。 有効な値は次のとおりです。 `other` （カスタムリンク） `download` （ダウンロードリンク）、 `exit` （出口リンク）。 |
 | `web.webPageDetails.URL` | この [ページ URL](../../components/dimensions/page-url.md) ディメンション。 |
 | `web.webPageDetails.errorPage` | 「エラーページ (404)」を判断するのに役立つフラグ [ディメンション](../../components/dimensions/pages-not-found.md) および [指標](../../components/metrics/pages-not-found.md). |
 | `web.webPageDetails.name` | この [ページ](../../components/dimensions/page.md) ディメンション。 |

@@ -3,10 +3,10 @@ title: tl
 description: リンクトラッキングコールをアドビに送信します。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 80%
+source-wordcount: '702'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,11 @@ ht-degree: 80%
 
 ## Web SDK を使用したリンクトラッキング
 
-Web SDK は、ページビュー呼び出しとリンクトラッキング呼び出しを区別しません。両方とも `sendEvent` コマンドを使用します。 Adobe Analyticsで特定のイベントをリンクトラッキングコールとしてカウントする場合は、XDM データに `web.webInteraction.name`, `web.webInteraction.URL`、および `web.webInteraction.type`.
+Web SDK は、ページビュー呼び出しとリンクトラッキング呼び出しを区別しません。両方とも `sendEvent` コマンドを使用します。 Adobe Analyticsで特定の XDM イベントをリンクトラッキングコールとしてカウントする場合は、XDM データにまたはが含まれていることと、がにマッピングされていることを確認してください `web.webInteraction.name`, `web.webInteraction.URL`、および `web.webInteraction.type`.
+
+* リンク名のマッピング先 `web.webInteraction.name`.
+* URL マッピングのリンク先 `web.webInteraction.URL`.
+* リンクタイプのマッピング先 `web.webInteraction.type`. 有効な値は次のとおりです。 `other` （カスタムリンク） `download` （ダウンロードリンク）、 `exit` （出口リンク）。
 
 ```js
 alloy("sendEvent", {

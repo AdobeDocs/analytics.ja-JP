@@ -3,10 +3,10 @@ title: タイムスタンプ
 description: ヒットのタイムスタンプを手動で設定します。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 87%
+source-wordcount: '276'
+ht-degree: 78%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 87%
 >[!WARNING]
 >
 > レポートスイートでタイムスタンプ付きのヒットを受け入れるように明示的に設定されていない場合は、この変数を使用しないでください。AppMeasurement は、タイムスタンプ付きのヒットをサポートしないレポートスイートのヒットの時間を自動的に設定します。この変数を含むヒットを、タイムスタンプをサポートしないレポートスイートに送信すると、そのデータは永久的に失われます。
+
+## Web SDK を使用したタイムスタンプ
+
+タイムスタンプ： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `_experience.analytics.session.timestamp`. このフィールドでは、Unix 時間のみがサポートされます。
 
 ## Adobe Analytics拡張機能を使用したタイムスタンプ
 
