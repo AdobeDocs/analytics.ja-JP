@@ -4,10 +4,10 @@ description: Adobe Analytics ドキュメントセットの大幅なアップデ
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+source-git-commit: 94e9f0688de4dd5b3d2a36d8eb68b0963bc67071
 workflow-type: tm+mt
-source-wordcount: '3212'
-ht-degree: 100%
+source-wordcount: '3372'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 100%
 
 | 日付 | 説明 |
 | --- | --- |
+| **2022年6月** |  |
+| フロービジュアライゼーションのドキュメントを更新しました | 次に基づいて [新しい UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
+| モバイルスコアカードでの注釈の共有に関するドキュメント | 表示可能な [Workspace で作成される注釈 — モバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
+| Edge Collection を使用したマーチャンダイジング変数の製品構文バージョンに関するドキュメント | 関連する XDM フィールドを設定することで、製品構文と同等のものを使用してマーチャンダイジング変数を設定できるようになりました。 マーチャンダイジング変数の製品構文の詳細を見る [ここ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja). 製品の構文のマッピングを参照してください [ここ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
+| **2022年5月** |  |
+| Experience Edge を通じてライフサイクルディメンションと指標を入力する | Experience Edge を介して送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法の詳細については、ドキュメントを参照してください。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
 | **2022年4月** |  |
 | Adobe Analytics ランディングページの更新 | [ワークスペースと Reports &amp; Analytics の共同ランディングページ](/help/analyze/landing.md)を更新し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL ページの概要]パネルに関する新しいトピック | [ページの概要パネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
@@ -39,7 +45,7 @@ ht-degree: 100%
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspace プロジェクトを追加、編集または削除します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 過去のスケジュール済み Report Builder タスクの一時停止に関する更新されたトピック | **2022年4月15日（PT）** より、アドビは、 [2 年以上前に作成されたすべてのスケジュール済み Report Builder タスクを一時停止](/help/analyze/report-builder/r-arb-scheduled-reports.md) する予定です。 |
 | **2021年10月** |  |
-| 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja) に関する新しいドキュメントが公開されました |
+| 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) に関する新しいドキュメントが公開されました |
 | 2021年10月21日（PT） | Analysis Workspace の [メディア再生滞在時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ja) パネルに関する新しいドキュメントが公開されました。 |
 | 2021 年 10 月 7 日（PT） | [モバイルスコアカードのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#viz) に関する新しいドキュメント |
 | **2021年8月** |  |
@@ -50,7 +56,7 @@ ht-degree: 100%
 | 2021 年 8 月 5 日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートに使用できないオプションを示すために、[テンプレート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=ja)、[ブラウザーインポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=ja) および [ブラウザーエクスポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=ja) に関する分類ドキュメントを更新しました。 |
 | 2021 年 8 月 2 日（PT） | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ja) のリブランディングを反映するように複数のページを更新しました |
 | **2021 年 7 月** |  |
-| 2021 年 7 月 23 日（PT） | [マーチャンダイジング eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja) に関する新しい詳細な説明 |
+| 2021 年 7 月 23 日（PT） | [マーチャンダイジング eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) に関する新しい詳細な説明 |
 | 2021 年 7 月 15 日（PT） | 新しい[Adobe Analytics ランディングページ](/help/analyze/landing.md)に新しいドキュメントを追加しました |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日（PT） | [マーケティングチャネルのベストプラクティス](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ja)を更新しました |
