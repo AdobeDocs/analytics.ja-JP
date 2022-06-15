@@ -1,22 +1,19 @@
 ---
-title: 'モバイルスコアカード注釈    '
+title: モバイルスコアカード注釈
 description: モバイルスコアカードで注釈を表示する方法を説明します。
 role: User, Admin
 solution: Analytics
 feature: Components
-source-git-commit: bb6b14e2b44c0e83e6f1f0bbc5914eb86c09adc1
+exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
+source-git-commit: 0e7a9aa92c8c5b61fffae96d42bd1b258920e99d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 3%
+source-wordcount: '377'
+ht-degree: 2%
 
 ---
 
 
 # モバイルスコアカードでの注釈の共有
-
->[!NOTE]
->
->この機能は、現在、[限定的にテスト中](/help/release-notes/releases.md)です。
 
 Workspace で作成された注釈をモバイルスコアカードに表示できます。 これにより、組織とキャンペーンに関するコンテキストデータのニュアンスやインサイトを、Mobile Scorecard プロジェクト内で直接共有でき、Analytics ダッシュボードモバイルアプリで表示できます。
 
@@ -32,17 +29,17 @@ Workspace で作成された注釈をモバイルスコアカードに表示で�
 
 1. 選択 **注釈を表示** 「モバイルスコアカード」に注釈を表示するには
 
-![](assets/show-annotations.png)
+<img src="assets/show-annotations.png"  width="75%">
 
 1. 注釈の表示が選択されていることを確認するには、に移動します。 **プロジェクト** > **プロジェクト情報と設定**.
 
-![](assets/project-info-settings.png)
+<img src="assets/project-info-settings.png" width="40%">
 
 ## モバイルスコアカードでの注釈の表示
 
 注釈が有効な場合、スコアカードビルダーに注釈アイコンが表示されます。 注釈は、詳細ビューのグラフとテーブルにのみ表示されます。 注釈は、スコアカードのメインタイル表示には表示されません。
 
-![](assets/view-annotations.png)
+<img src="assets/view-annotations.png"  width="75%">
 
 注釈アイコンが表示されている場合、ビルダーキャンバスで注釈を完全に表示したり操作したりすることはできません。 プレビューモードを使用すると、アプリに表示される注釈の表示と操作を行うことができます。 ![](assets/preview-icon.png)
 
@@ -52,6 +49,6 @@ Workspace で作成された注釈をモバイルスコアカードに表示で�
 
 | 日付 | 外観 |
 | --- | --- |
-| **1 日** | ![](assets/single-day-mobile-annotations.png)<br></br> |
-| **日付範囲** | ![](assets/date-range.png) |
-| **重複する注釈** | ![](assets/overlapping-annotations.png)<br></br>Analytics ダッシュボードアプリで注釈の詳細を表示するには、注釈アイコンをタップします。 <br></br>グラフで注釈を表示している場合は、左右にスワイプして、グラフに存在するすべての注釈に移動できます。 テーブルで注釈を表示している場合は、左右にスワイプして、テーブル内のその行項目に関連付けられているすべての注釈に移動します。 <br></br>![](assets/swipe-multiple-annotations.png) <br></br>時間に基づくグラフの場合 *x 軸*&#x200B;ドーナツグラフや横棒グラフなど、グラフに適用される注釈は、右下隅にあるアイコンをタップすると表示できます。<br></br> ![](assets/charts-without-timebase.png) |
+| **1 日** | <img src="assets/single-day-mobile-annotations.png"  width="30%"><br></br> |
+| **日付範囲** | <img src="assets/date-range.png"  width="30%"> |
+| **重複する注釈** | <img src="assets/overlapping-annotations.png"  width="30%"><br></br>Analytics ダッシュボードアプリで注釈の詳細を表示するには、注釈アイコンをタップします。 <br></br>グラフで注釈を表示している場合は、左右にスワイプして、グラフに存在するすべての注釈に移動できます。 テーブルで注釈を表示している場合は、左右にスワイプして、テーブル内のその行項目に関連付けられているすべての注釈に移動します。 <br></br><img src="assets/swipe-multiple-annotations.png"  width="30%"> <br></br>時間に基づくグラフの場合 *x 軸*&#x200B;ドーナツグラフや横棒グラフなど、グラフに適用される注釈は、右下隅にあるアイコンをタップすると表示できます。<br></br> <img src="assets/charts-without-timebase.png"  width="30%"> |
