@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 93937279fa9d342048c7a16cabc50e92f95cf74d
+source-git-commit: d6456064e6fb0f78f1b3c1beda5ff288c33f6d71
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 49%
+source-wordcount: '1070'
+ht-degree: 47%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 49%
 >
 >このページに記載される内容は、リリース前の情報であり、変更される可能性があります。
 
-**最終更新日**:2022 年 6 月 15 日
+**最終更新日**:2022 年 6 月 16 日
 
 ## 関連リソース
 
@@ -29,11 +29,12 @@ ht-degree: 49%
 
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
-| 新しいフロービジュアライゼーション UI | フロービジュアライゼーションに追加の機能を提供して、より強力で高機能にします。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 2022年6月15日（PT） |
-| モバイルスコアカードでの注釈の共有 | Workspace で作成された注釈をモバイルスコアカードに表示できます。 これにより、組織とキャンペーンに関するコンテキストデータのニュアンスやインサイトを、Mobile Scorecard プロジェクト内で直接共有でき、Analytics ダッシュボードモバイルアプリで表示できます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022年6月15日（PT） |
-| Edge Collection を使用したマーチャンダイジング変数の製品構文バージョンのサポート | 関連する XDM フィールドを設定することで、製品構文と同等のものを使用してマーチャンダイジング変数を設定できるようになりました。 マーチャンダイジング変数の製品構文の詳細を見る [ここ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja). 製品の構文のマッピングを参照してください [ここ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 2022年6月15日（PT） |
-| Experience Edge を通じてライフサイクルディメンションと指標を入力する | Experience Edge を介して送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法の詳細については、ドキュメントを参照してください。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022年5月27日（PT） |
-| 新しい分類のエクスペリエンス — フェーズ 1 | 新しい分類セットユーザーエクスペリエンスの段階的リリースにより、顧客が所有する分類データの可視性が大幅に向上しました。 GA は 2023 年初頭に推定されている。 | 制限付きテストは 2022 年 6 月 15 日から開始します |
+| **新しいフロービジュアライゼーション UI** | フロービジュアライゼーションに追加の機能を提供して、より強力で高機能にします。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 2022年6月15日（PT） |
+| **モバイルスコアカードでの注釈の共有** | Workspace で作成された注釈をモバイルスコアカードに表示できます。 これにより、組織とキャンペーンに関するコンテキストデータのニュアンスやインサイトを、Mobile Scorecard プロジェクト内で直接共有でき、Analytics ダッシュボードモバイルアプリで表示できます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022年6月15日（PT） |
+| **Edge Collection を使用したマーチャンダイジング変数の製品構文バージョンのサポート** | 関連する XDM フィールドを設定することで、製品構文と同等のものを使用してマーチャンダイジング変数を設定できるようになりました。 マーチャンダイジング変数の製品構文の詳細を見る [ここ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja). 製品の構文のマッピングを参照してください [ここ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 2022年6月15日（PT） |
+| **Experience Edge を通じてライフサイクルディメンションと指標を入力する** | Experience Edge を介して送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法の詳細については、ドキュメントを参照してください。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022年5月27日（PT） |
+| **Analytics の処理ルールで使用可能な Mobile Service の処理ルール** | AdobeMobile Services の提供終了日は 2022 年 12 月 31 日です。 Mobile Services で作成または生成された既存の処理ルールは、AdobeMobile Services でAdobe Analyticsの処理ルールに自動的に移行されます。 これらは管理できますが、製品が終了するまで、Mobile Services では編集できなくなります。 その他の質問やサポートについては、Adobe カスタマーケアにお問い合わせください。[詳細情報](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022年6月15日（PT） |
+| **新しい分類のエクスペリエンス — フェーズ 1** | 新しい分類セットユーザーエクスペリエンスの段階的リリースにより、顧客が所有する分類データの可視性が大幅に向上しました。 [一般公開](/help/release-notes/releases.md) は 2023 年初頭に推定されています。 | 制限付きテストは 2022 年 6 月 15 日から開始します |
 
 {style=&quot;table-layout:auto&quot;}
 
