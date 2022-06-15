@@ -5,9 +5,9 @@ title: 処理ルールの概要
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '329'
+ht-degree: 100%
 
 ---
 
