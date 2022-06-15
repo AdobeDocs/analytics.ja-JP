@@ -5,61 +5,61 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
 # Adobe Experience Edge での Analytics 変数のマッピング
 
-次の表に、Adobe Experience Platform Edge Network がAdobe Analyticsに自動的にマッピングする変数を示します。 これらの XDM フィールドパスを使用する場合、Adobe Analyticsにデータを送信するための追加の設定は必要ありません。
+次の表に、Adobe Experience Platform Edge Network が Adobe Analytics に自動的にマッピングする変数を示します。これらの XDM フィールドパスを使用する場合、Adobe Analytics にデータを送信するための追加設定は必要ありません。
 
-| XDM フィールドパス | Analytics ディメンションと説明 |
+| XDM フィールドパス | Analytics のディメンションと説明 |
 | --- | --- |
-| `application.id` | モバイルディメンション [アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `application.isClose` | モバイル指標の定義に役立ちます [クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。 有効な値は次のとおりです。 `close` （ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合） `unknown` （ライフサイクルセッションは一時停止イベントなしで終了します）。 |
-| `application.isInstall` | モバイル指標 [インストール](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | モバイル指標 [起動回数](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.name` | モバイルディメンションの設定に役立ちます [アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `application.launches.value` | モバイル指標 [起動回数](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isUpgrade` | モバイル指標 [アップグレード](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.version` | モバイルディメンションの設定に役立ちます [アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `application.sessionLength` | モバイル指標 [セッションの長さの合計](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `commerce.checkouts.id` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) から [チェックアウト](../../components/metrics/checkouts.md) 指標。 |
-| `commerce.checkouts.value` | インクリメント [チェックアウト](../../components/metrics/checkouts.md) 指標を必要な量で示します。 |
-| `commerce.order.currencyCode` | を設定します。 [currencyCode](../vars/config-vars/currencycode.md) 設定変数。 |
-| `commerce.order.purchaseID` | を設定します。 [purchaseID](../vars/page-vars/purchaseid.md) ページ変数を使用します。 |
-| `commerce.productListAdds.id` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) から [買い物かごへの追加](../../components/metrics/cart-additions.md) 指標。 |
-| `commerce.productListAdds.value` | インクリメント [買い物かごへの追加](../../components/metrics/cart-additions.md) 指標を必要な量で示します。 |
-| `commerce.productListOpens.id` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) から [買い物かご](../../components/metrics/carts.md) 指標。 |
-| `commerce.productListOpens.value` | インクリメント [買い物かご](../../components/metrics/carts.md) 指標を必要な量で示します。 |
-| `commerce.productListRemovals.id` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) から [買い物かごからの削除](../../components/metrics/cart-removals.md) 指標。 |
-| `commerce.productListRemovals.value` | インクリメント [買い物かごからの削除](../../components/metrics/cart-removals.md) 指標を必要な量で示します。 |
-| `commerce.productListViews.id` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) から [買い物かご表示](../../components/metrics/cart-views.md) 指標。 |
-| `commerce.productListViews.value` | インクリメント [買い物かご表示](../../components/metrics/cart-views.md) 指標を必要な量で示します。 |
-| `commerce.productViews.id` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) から [製品表示](../../components/metrics/product-views.md) 指標。 |
-| `commerce.productViews.value` | インクリメント [製品表示](../../components/metrics/product-views.md) 指標を必要な量で示します。 |
-| `commerce.purchases.value` | インクリメント [注文](../../components/metrics/orders.md) 指標を必要な量で示します。 |
+| `application.id` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)」。 |
+| `application.isClose` | モバイル指標「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」の定義に役立ちます。 |
+| `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は`close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。 |
+| `application.isInstall` | モバイル指標「[インストール](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
+| `application.isLaunch` | モバイル指標「[起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
+| `application.name` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」の設定に役立ちます。 |
+| `application.launches.value` | モバイル指標「[起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
+| `application.isUpgrade` | モバイル指標「[アップグレード](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
+| `application.version` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」の設定に役立ちます。 |
+| `application.sessionLength` | モバイル指標「[セッションの長さの合計](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
+| `commerce.checkouts.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[チェックアウト](../../components/metrics/checkouts.md)」指標に適用します。 |
+| `commerce.checkouts.value` | 「[チェックアウト](../../components/metrics/checkouts.md)」指標を必要な量だけ増分します。 |
+| `commerce.order.currencyCode` | [currencyCode](../vars/config-vars/currencycode.md) 設定変数を設定します。 |
+| `commerce.order.purchaseID` | [purchaseID](../vars/page-vars/purchaseid.md) ページ変数を設定します。 |
+| `commerce.productListAdds.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごへの追加](../../components/metrics/cart-additions.md)」指標に適用します。 |
+| `commerce.productListAdds.value` | 「[買い物かごへの追加](../../components/metrics/cart-additions.md)」指標を必要な量だけ増分します。 |
+| `commerce.productListOpens.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご](../../components/metrics/carts.md)」指標に適用します。 |
+| `commerce.productListOpens.value` | 「[買い物かご](../../components/metrics/carts.md)」指標を必要な量だけ増分します。 |
+| `commerce.productListRemovals.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごからの削除](../../components/metrics/cart-removals.md)」指標に適用します。 |
+| `commerce.productListRemovals.value` | 「[買い物かごからの削除](../../components/metrics/cart-removals.md)」指標を必要な量だけ増分します。 |
+| `commerce.productListViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご表示](../../components/metrics/cart-views.md)」指標に適用します。 |
+| `commerce.productListViews.value` | 「[買い物かご表示](../../components/metrics/cart-views.md)」指標を必要な量だけ増分します。 |
+| `commerce.productViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[製品表示](../../components/metrics/product-views.md)」指標に適用します。 |
+| `commerce.productViews.value` | 「[製品表示](../../components/metrics/product-views.md)」指標を必要な量だけ増分します。 |
+| `commerce.purchases.value` | 「[注文数](../../components/metrics/orders.md)」指標を必要な量だけ増分します。 |
 | `device.manufacturer` | モバイルデバイスの製造元。 |
-| `device.model` | モバイルディメンション [デバイス名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `device.model` | モバイルディメンション「[デバイス名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
 | `device.modelNumber` | モバイルデバイスのモデル番号。 |
-| `device.colorDepth` | 設定に役立つ [色深度](../../components/dimensions/color-depth.md) ディメンション。 |
-| `device.screenHeight` | 設定に役立つ [画面の解像度](../../components/dimensions/monitor-resolution.md) ディメンション。 XDM フィールドも必ず設定してください `device.screenWidth`. |
-| `device.screenWidth` | 設定に役立つ [画面の解像度](../../components/dimensions/monitor-resolution.md) ディメンション。 XDM フィールドも必ず設定してください `device.screenHeight`. |
-| `device.type` | モバイルデバイスタイプ。 |
-| `environment.browserDetails.acceptLanguage` | 設定に役立つ [言語](../../components/dimensions/language.md) ディメンション。 |
-| `environment.browserDetails.cookiesEnabled` | を設定します。 [cookie サポート](../../components/dimensions/cookie-support.md) ディメンション。 有効な値は次のとおりです。 `Y` （ブラウザーが cookie を受け入れる）および `N` （ブラウザーは Cookie を拒否します）。 |
-| `environment.browserDetails.javaEnabled` | を設定します。 [Java 有効](../../components/dimensions/java-enabled.md) ディメンション。 有効な値は次のとおりです。 `Y` （Java が有効になっている）と `N` （Java は無効です）。 |
-| `environment.browserDetails.userAgent` | フォールバックとして使用されます [ユニーク訪問者](../../components/metrics/unique-visitors.md) 識別方法。 通常、 `User-Agent` HTTP リクエストヘッダー。 このフィールドをレポートで使用する場合は、eVarにマッピングできます。 |
-| `environment.browserDetails.viewportHeight` | を設定します。 [ブラウザーの高さ](../../components/dimensions/browser-height.md) ディメンション。 |
-| `environment.browserDetails.viewportWidth` | を設定します。 [ブラウザーの幅](../../components/dimensions/browser-width.md) ディメンション。 |
-| `environment.carrier` | モバイルディメンション [通信事業者名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.connectionType` | 設定に役立つ [接続タイプ](../../components/dimensions/connection-type.md) ディメンション。 |
-| `environment.ipV4` | フォールバックとして使用されます [ユニーク訪問者](../../components/metrics/unique-visitors.md) 識別方法。 通常、 `X-Forwarded-For` HTTP ヘッダー。 |
-| `environment.language` | モバイルディメンションのロケール。 |
-| `environment.operatingSystem` | モバイルディメンション [オペレーティングシステム](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.operatingSystemVersion` | モバイルディメンション [オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.type` | イベントが [着用できる](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html) デバイス。 有効な値は次のとおりです。 `Application` （このイベントはアプリから来たものです）、 `Extension` （イベントはウェアラブルアプリから来たもの）、または `Widget` （イベントはモバイルウィジェットから来たものです）。 |
+| `device.colorDepth` | 「[色深度](../../components/dimensions/color-depth.md)」ディメンションの設定に役立ちます。 |
+| `device.screenHeight` | [画面の解像度](../../components/dimensions/monitor-resolution.md)ディメンションの設定に役立ちます。XDM フィールド `device.screenWidth` も必ず設定してください。 |
+| `device.screenWidth` | [画面の解像度](../../components/dimensions/monitor-resolution.md)ディメンションの設定に役立ちます。XDM フィールド `device.screenHeight` も必ず設定してください。 |
+| `device.type` | モバイルデバイスのタイプ。 |
+| `environment.browserDetails.acceptLanguage` | [言語](../../components/dimensions/language.md)ディメンションの設定に役立ちます。 |
+| `environment.browserDetails.cookiesEnabled` | [cookie サポート](../../components/dimensions/cookie-support.md)ディメンションを設定します。有効な値は `Y` （ブラウザーが cookie を受け入れる）および `N` （ブラウザーが cookie を拒否する）です。 |
+| `environment.browserDetails.javaEnabled` | [Java 対応](../../components/dimensions/java-enabled.md)ディメンションを設定します。有効な値は `Y` (Java が有効) と `N` (Java が無効) です。 |
+| `environment.browserDetails.userAgent` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`User-Agent` HTTP リクエストヘッダーを使用して生成します。このフィールドをレポートで使用する場合は、eVar にマッピングできます。 |
+| `environment.browserDetails.viewportHeight` | [ブラウザーの高さ](../../components/dimensions/browser-height.md)ディメンションを設定します。 |
+| `environment.browserDetails.viewportWidth` | [ブラウザーの幅](../../components/dimensions/browser-width.md)ディメンションを設定します。 |
+| `environment.carrier` | モバイルディメンションの[通信事業者名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
+| `environment.connectionType` | [接続タイプ](../../components/dimensions/connection-type.md)ディメンションの設定に役立ちます。 |
+| `environment.ipV4` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`X-Forwarded-For` HTTP ヘッダーを使用して生成します。 |
+| `environment.language` | モバイルディメンション「ロケール」。 |
+| `environment.operatingSystem` | モバイルディメンション「[オペレーティングシステム](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
+| `environment.operatingSystemVersion` | モバイルディメンション「[オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
+| `environment.type` | イベントが[ウェアラウル](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html?lang=ja)デバイスから発生したかどうかを示します。有効な値は `Application` （イベントはアプリから発生した）、`Extension` （イベントはウェアラブルアプリから発生した）、または `Widget` （イベントはモバイルウィジェットから発生した）です。 |
 | `_experience.analytics.customDimensions.eVars.eVar1` -<br/>`_experience.analytics.customDimensions.eVars.eVar250` | それぞれ [eVar](../../components/dimensions/evar.md) ディメンション。 |
 | `_experience.analytics.customDimensions.listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.listProps.prop75.delimiter` | 特定の [リスト prop](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.listProps.prop75.values` | それぞれの [リスト prop](../vars/page-vars/prop.md#list-props) 値。 |
@@ -67,68 +67,68 @@ ht-degree: 0%
 | `_experience.analytics.customDimensions.props.prop1` -<br/>`_experience.analytics.customDimensions.props.prop75` | それぞれ [Prop](../../components/dimensions/prop.md) ディメンション。 |
 | `_experience.analytics.event1to100.event1.id` -<br/>`_experience.analytics.event901to1000.event1000.value` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) 各 [カスタムイベント](../../components/metrics/custom-events.md) 指標。 |
 | `_experience.analytics.event1to100.event1.value` -<br/>`_experience.analytics.event901to1000.event1000.value` | それぞれ [カスタムイベント](../../components/metrics/custom-events.md) 指標を必要な量で示します。 |
-| `identityMap.ECID[0].id` | この [Adobe Experience Cloud Identity Service ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja). |
-| `marketing.trackingCode` | を設定します。 [トラッキングコード](../../components/dimensions/tracking-code.md) ディメンション。 |
-| `media.mediaTimed.completes.value` | Media Analytics 指標 [コンテンツ完了](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-complete). |
+| `identityMap.ECID[0].id` | [Adobe Experience Cloud ID サービスの ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)。 |
+| `marketing.trackingCode` | [トラッキングコード](../../components/dimensions/tracking-code.md)ディメンションを設定します。 |
+| `media.mediaTimed.completes.value` | Media Analytics 指標「[コンテンツ完了](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-complete)」。 |
 | `media.mediaTimed.dropBeforeStart.value` | `c.a.media.view`、`c.a.media.timePlayed`、`c.a.media.play` |
-| `media.mediaTimed.federated.value` | Media Analytics 指標 [Federated Data](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#federated-data). |
-| `media.mediaTimed.firstQuartiles.value` | Media Analytics 指標 [25%プログレスマーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#twenty-five-progress-marker). |
-| `media.mediaTimed.mediaSegmentView.value` | Media Analytics 指標 [コンテンツセグメント視聴回数](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-segment-views). |
-| `media.mediaTimed.midpoints.value` | Media Analytics 指標 [50%プログレスマーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#fifty-progress-marker). |
-| `media.mediaTimed.pauseTime.value` | Media Analytics 指標 [一時停止時間合計](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#total-pause-duration). |
-| `media.mediaTimed.pauses.value` | Media Analytics 指標 [一時停止イベント](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#pause-events). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`@id` | Media Analytics ディメンション [アセット ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#asset-id). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | Media Analytics ディメンション [ビデオ名](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-name). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Media Analytics ディメンション [作成者](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#originator). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | Media Analytics ディメンション [エピソード](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#episode). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | Media Analytics ディメンション [ジャンル](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#genre). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Media Analytics ディメンション [コンテンツ評価](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-rating). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | Media Analytics ディメンション [シーズン](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#season). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Media Analytics ディメンション [コンテンツ ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-id). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | Media Analytics ディメンション [表示](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`showType` | Media Analytics ディメンション [番組タイプ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show-type). |
-| `media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | Media Analytics ディメンション [ビデオの長さ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-length). |
-| `media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | Media Analytics ディメンション [メディアセッション ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-session-id). |
-| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | Media Analytics ディメンション [コンテンツチャネル](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-channel). |
-| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | Media Analytics ディメンション [コンテンツタイプ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-type). |
-| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | Media Analytics ディメンション [ネットワーク](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#network). |
-| `media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | Media Analytics ディメンション [コンテンツセグメント](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-segment). |
-| `media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | Media Analytics ディメンション [コンテンツプレイヤー名](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-player-name). |
-| `media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | Media Analytics ディメンション [SDK のバージョン](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#sdk-version). |
-| `media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | Media Analytics ディメンション [メディアフィードのタイプ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-feed-type). |
-| `media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | Media Analytics ディメンション [ストリーム形式](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#stream-format). |
-| `media.mediaTimed.progress10.value` | Media Analytics 指標 [10%プログレスマーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ten-progress-marker). |
-| `media.mediaTimed.progress95.value` | Media Analytics 指標 [95%プログレスマーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ninety-five-progress-marker). |
-| `media.mediaTimed.resumes.value` | Media Analytics 指標 [コンテンツ再開](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-resumes). |
-| `media.mediaTimed.starts.value` | Media Analytics 指標 [メディア開始](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-starts). |
-| `media.mediaTimed.thirdQuartiles.value` | Media Analytics 指標 [75%プログレスマーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#seventy-five-progress-marker). |
-| `media.mediaTimed.timePlayed.value` | Media Analytics 指標 [コンテンツ視聴時間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-time-spent). |
-| `media.mediaTimed.totalTimePlayed.value` | Media Analytics 指標 [メディア視聴時間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-time-spent). |
-| `placeContext.geo.latitude` | Mobile ディメンションの緯度。 |
-| `placeContext.geo.longitude` | モバイルディメンションの経度。 |
-| `placeContext.geo.postalCode` | この [郵便番号](../../components/dimensions/zip-code.md) ディメンション。 |
-| `placeContext.geo.stateProvince` | この [米国の州](../../components/dimensions/us-states.md) ディメンション。 |
-| `productListItems[].lineItemId` | この [カテゴリ](../../components/dimensions/category.md) ディメンション。 |
-| `productListItems[].name` | この [製品](../../components/dimensions/product.md) ディメンション。 |
-| `productListItems[].priceTotal` | を判断するのに役立ちます [売上高](../../components/metrics/revenue.md) 指標。 |
-| `productListItems[].quantity` | を判断するのに役立ちます [単位](../../components/metrics/units.md) 指標。 |
-| `web.webInteraction.URL` | この [linkURL](../vars/config-vars/linkurl.md) 実装変数。 |
-| `web.webInteraction.name` | この [カスタムリンク](../../components/dimensions/custom-link.md), [ダウンロードリンク](../../components/dimensions/download-link.md)または [出口リンク](../../components/dimensions/exit-link.md) ディメンション ( `web.webInteraction.type` |
-| `web.webInteraction.type` | クリックされたリンクのタイプを決定します。 有効な値は次のとおりです。 `other` （カスタムリンク） `download` （ダウンロードリンク）、 `exit` （出口リンク）。 |
-| `web.webPageDetails.URL` | この [ページ URL](../../components/dimensions/page-url.md) ディメンション。 |
-| `web.webPageDetails.errorPage` | 「エラーページ (404)」を判断するのに役立つフラグ [ディメンション](../../components/dimensions/pages-not-found.md) および [指標](../../components/metrics/pages-not-found.md). |
-| `web.webPageDetails.name` | この [ページ](../../components/dimensions/page.md) ディメンション。 |
-| `web.webPageDetails.server` | この [サーバー](../../components/dimensions/server.md) ディメンション。 |
-| `web.webPageDetails.siteSection` | この [サイトセクション](../../components/dimensions/site-section.md) ディメンション。 |
-| `web.webReferrer.URL` | この [リファラー](../../components/dimensions/referrer.md) ディメンション。 |
+| `media.mediaTimed.federated.value` | Media Analytics 指標「[Federated Data](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#federated-data)」。 |
+| `media.mediaTimed.firstQuartiles.value` | Media Analytics 指標「[25％進捗マーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#twenty-five-progress-marker)」。 |
+| `media.mediaTimed.mediaSegmentView.value` | Media Analytics 指標「[コンテンツセグメント閲覧回数](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-segment-views)」。 |
+| `media.mediaTimed.midpoints.value` | Media Analytics 指標「[50％進捗マーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#fifty-progress-marker)」。 |
+| `media.mediaTimed.pauseTime.value` | Media Analytics 指標「[一時停止時間合計](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#total-pause-duration)」。 |
+| `media.mediaTimed.pauses.value` | Media Analytics 指標「[一時停止イベント](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#pause-events)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`@id` | Media Analytics ディメンション「[アセット ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#asset-id)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | Media Analytics ディメンション「[ビデオ名](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#video-name)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Media Analytics ディメンション「[作成者](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#originator)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | Media Analytics ディメンション「[エピソード](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#episode)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | Media Analytics ディメンション「[ジャンル](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#genre)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Media Analytics ディメンション「[コンテンツ評価](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-rating)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | Media Analytics ディメンション「[シーズン](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#season)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Media Analytics ディメンション「[コンテンツ ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-id)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | Media Analytics ディメンション「[表示](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#show)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`showType` | Media Analytics ディメンション「[タイプ表示](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#show-type)」。 |
+| `media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | Media Analytics ディメンション「[ビデオの長さ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#video-length)」。 |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | Media Analytics ディメンション「[メディアセッション ID](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#media-session-id)」。 |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | Media Analytics ディメンション「[コンテンツチャネル](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-channel)」。 |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | Media Analytics ディメンション「[コンテンツタイプ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-type)」。 |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | Media Analytics ディメンション「[ネットワーク](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#network)」。 |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | Media Analytics ディメンション「[コンテンツセグメント](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-segment)」。 |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | Media Analytics ディメンション「[コンテンツプレイヤー名](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-player-name)」。 |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | Media Analytics ディメンション「[SDK のバージョン](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#sdk-version)」。 |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | Media Analytics ディメンション「[メディアフィードのタイプ](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#media-feed-type)」。 |
+| `media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | Media Analytics ディメンション「[ストリーム形式](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#stream-format)」。 |
+| `media.mediaTimed.progress10.value` | Media Analytics 指標「[10％進捗マーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#ten-progress-marker)」。 |
+| `media.mediaTimed.progress95.value` | Media Analytics 指標「[95％進捗マーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#ninety-five-progress-marker)」。 |
+| `media.mediaTimed.resumes.value` | Media Analytics 指標「[コンテンツ再開](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-resumes)」。 |
+| `media.mediaTimed.starts.value` | Media Analytics 指標「[メディア開始](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#media-starts)」。 |
+| `media.mediaTimed.thirdQuartiles.value` | Media Analytics 指標「[75％進捗マーカー](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#seventy-five-progress-marker)」。 |
+| `media.mediaTimed.timePlayed.value` | Media Analytics 指標「[コンテンツ滞在時間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-time-spent)」。 |
+| `media.mediaTimed.totalTimePlayed.value` | Media Analytics 指標「[メディア閲覧時間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#media-time-spent)」。 |
+| `placeContext.geo.latitude` | Mobile ディメンション「緯度」。 |
+| `placeContext.geo.longitude` | モバイルディメンション「経度」。 |
+| `placeContext.geo.postalCode` | 「[郵便番号](../../components/dimensions/zip-code.md)」ディメンション。 |
+| `placeContext.geo.stateProvince` | 「[米国の州](../../components/dimensions/us-states.md)」ディメンション。 |
+| `productListItems[].lineItemId` | 「[カテゴリ](../../components/dimensions/category.md)」ディメンション。 |
+| `productListItems[].name` | 「[製品](../../components/dimensions/product.md)」ディメンション。 |
+| `productListItems[].priceTotal` | [売上高](../../components/metrics/revenue.md)指標を判断するのに役立ちます。 |
+| `productListItems[].quantity` | [単位](../../components/metrics/units.md)指標を判断するのに役立ちます。 |
+| `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 実装変数。 |
+| `web.webInteraction.name` | [カスタムリンク](../../components/dimensions/custom-link.md)、[ダウンロードリンク](../../components/dimensions/download-link.md)、または[出口リンク](../../components/dimensions/exit-link.md)ディメンション（`web.webInteraction.type` の値によって異なります）。 |
+| `web.webInteraction.type` | クリックされたリンクのタイプを判断します。有効な値は `other` （カスタムリンク）、`download` （ダウンロードリンク）、`exit` （出口リンク）です。 |
+| `web.webPageDetails.URL` | 「[ページ URL](../../components/dimensions/page-url.md)」ディメンション。 |
+| `web.webPageDetails.errorPage` | 「ページが見つかりませんでした」[ディメンション](../../components/dimensions/pages-not-found.md)および[指標](../../components/metrics/pages-not-found.md)を判断するのに役立つフラグ。 |
+| `web.webPageDetails.name` | 「[ページ](../../components/dimensions/page.md)」ディメンション。 |
+| `web.webPageDetails.server` | 「[サーバー](../../components/dimensions/server.md)」ディメンション。 |
+| `web.webPageDetails.siteSection` | 「[サイトセクション](../../components/dimensions/site-section.md)」ディメンション。 |
+| `web.webReferrer.URL` | 「[リファラー](../../components/dimensions/referrer.md)」ディメンション。 |
 
 {style=&quot;table-layout:auto&quot;}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
 
-## 他の XDM フィールドの Analytics 変数へのマッピング
+## 他の XDM フィールドを Analytics 変数にマッピングする
 
-Adobe Analyticsに追加するディメンションまたは指標がある場合は、 [コンテキストデータ変数](../vars/page-vars/contextdata.md). すべての XDM フィールド要素は、プレフィックスを持つコンテキストデータとしてAdobe Analyticsに送信されます `a.x`. その後、 [処理ルール](../../admin/admin/c-processing-rules/processing-rules.md). 例えば、次のイベントを送信する場合：
+Adobe Analytics に追加するディメンションまたは指標がある場合は、[コンテキストデータ変数](../vars/page-vars/contextdata.md)を通じて行うことができます。すべての XDM フィールド要素は、プレフィックス `a.x` が付いたコンテキストデータとして Adobe Analytics に送信されます。その後、[処理ルール](../../admin/admin/c-processing-rules/processing-rules.md)を使用して、このコンテキストデータ変数を目的の Analytics 変数にマッピングできます。例えば、次のイベントを送信した場合：
 
 ```js
 alloy("event",{
@@ -142,6 +142,6 @@ alloy("event",{
 })
 ```
 
-Web SDK は、そのデータをコンテキストデータ変数としてAdobe Analyticsに送信します `a.x._atag.search.term`. その後、処理ルールを使用して、そのコンテキストeVar変数値を目的の Analytics 変数（データなど）に割り当てることができます。
+Web SDK は、そのデータをコンテキストデータ変数 `a.x._atag.search.term` として Adobe Analytics に送信します。その後、処理ルールを使用して、そのコンテキスト eVar 変数値を目的の Analytics 変数（データなど）に割り当てることができます。
 
 ![検索語句の処理ルール](assets/examplerule.png)

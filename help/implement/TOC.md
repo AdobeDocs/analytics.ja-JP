@@ -7,7 +7,7 @@ user-guide-description: 'どのデータを収集するかをカスタマイズ�
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 93%
    + [実装モーダル](prepare/implementation-modal.md)
    + [ソリューションデザインドキュメントの作成](prepare/solution-design.md)
    + [既存の Adobe Analytics の実装を担当する](prepare/existing-implementation.md)
-+ Analytics Edge を使用したExperience Platformの実装 {#aep-edge}
++ Analytics Edge を使用した Experience Platform の実装{#aep-edge}
    + [Experience Edge の概要](aep-edge/overview.md)
    + [変数のマッピング](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
