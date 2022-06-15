@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics コンポーネントガイド
 breadcrumb-title: コンポーネントガイド
 user-guide-description: セグメント、計算指標、仮想レポートスイート、アラート、マーケティングチャネル、分類などのコンポーネントを使用してデータを管理するのに役立つ情報を提供し、クロスデバイス分析についても説明します。
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: ht
-source-wordcount: '674'
-ht-degree: 100%
+source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 97%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 100%
    + [ページビュー数](metrics/page-views.md)
    + [エラーページ（404）](metrics/pages-not-found.md)
    + [PeopleExperience Cloud ID を持つ](metrics/people-with-exp-cloud-id.md)
-   + [People](metrics/people.md)
+   + [人](metrics/people.md)
    + [製品表示](metrics/product-views.md)
    + [リロード回数](metrics/reloads.md)
    + [売上高](metrics/revenue.md)
@@ -227,6 +227,18 @@ ht-degree: 100%
    + [インテリジェントアラート - 使用例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類の概要](classifications/c-classifications.md)
+   + 分類セット {#sets}
+      + [分類セットの概要](classifications/sets/overview.md)
+      + [分類セットマネージャ](classifications/sets/set-manager.md)
+      + [分類セットジョブマネージャ](classifications/sets/job-manager.md)
+      + [分類セットの作成](classifications/sets/create.md)
+      + [分類セット設定](classifications/sets/settings.md)
+   + 分類ルールビルダー {#classifications-rulebuilder}
+      + [分類ルールビルダーのワークフロー](classifications/crb/classification-rule-builder.md)
+      + [分類ルールセット](classifications/crb/classification-rule-set.md)
+      + [分類ルール](classifications/crb/classification-quickstart-rules.md)
+      + [分類ルール - 定義](classifications/crb/classification-rule-definitions.md)
+      + [下位分類とルールビルダー](classifications/crb/sub-classification-rule-builder.md)
    + 分類インポーター {#classifications-importer}
       + [分類インポーター - 概要](classifications/importer/c-working-with-saint.md)
       + [分類データファイル](classifications/importer/c-saint-data-files.md)
@@ -241,12 +253,6 @@ ht-degree: 100%
       + [FTP エクスポート](classifications/importer/ftp-export.md)
       + [処理時間](classifications/importer/processing-time.md)
       + [トラブルシューティング](classifications/importer/troubleshooting.md)
-   + 分類ルールビルダー {#classifications-rulebuilder}
-      + [分類ルールビルダーのワークフロー](classifications/crb/classification-rule-builder.md)
-      + [分類ルールセット](classifications/crb/classification-rule-set.md)
-      + [分類ルール](classifications/crb/classification-quickstart-rules.md)
-      + [分類ルール - 定義](classifications/crb/classification-rule-definitions.md)
-      + [下位分類とルールビルダー](classifications/crb/sub-classification-rule-builder.md)
    + [下位分類](classifications/c-sub-classifications.md)
    + [分類 FAQ](classifications/faq.md)
 + [カレンダーイベント](t-calendar-event.md)

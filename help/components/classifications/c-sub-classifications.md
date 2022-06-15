@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics では、単一レベルの分類モデルと複数レベルの分類レベルの両方をサポートしています。分類階層を使用すると、分類に対して分類を適用できます。
-title: 下位分類について
+title: 下位分類
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '651'
+source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
 
-# 下位分類について
+# 下位分類
 
 Adobe Analytics では、単一レベルの分類モデルと複数レベルの分類レベルの両方をサポートしています。分類階層を使用すると、分類に対して分類を適用できます。
 
@@ -82,12 +82,12 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 |---|---|---|---|---|---|
 | 410390013 | Polo-SS | メンズポロシャツ、半袖（M、01） | M | M | 01 |
 | 410390014 | Polo-SS | メンズポロシャツ、半袖（L、03） | M | L | 03 |
-| 410390015 | Polo-LS | レディースポロシャツ、長袖（S、23） | F | S | 23 |
+| 410390015 | Polo-LS | レディースポロシャツ、長袖（S、23） | 金 | S | 23 |
 
 ### 製品の分類 - 複数ファイル（ファイル 2） {#section_19ED95C33B174A9687E81714568D56A3}
 
 | キー | コード | コード^色 |
 |---|---|---|
-| * | 01 | グレー |
-| * | 03 | アクアマリン |
-| * | 23 | 水色 |
+| &#42; | 01 | グレー |
+| &#42; | 03 | アクアマリン |
+| &#42; | 23 | 水色 |
