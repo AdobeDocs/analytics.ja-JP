@@ -1,13 +1,13 @@
 ---
 title: 分類セットの概要
 description: 分類セットを使用して分類データを管理します。
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # 分類セットの概要
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この機能は現在、限定的なリリースになっています。 この機能にアクセスしたい場合は、Adobeカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。この担当者は、プロビジョニング用に分類セットチームにリクエストを転送できます。
+>この機能は現在、限定的なリリースになっています。 この機能にアクセスしたい場合は、Adobeカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。この担当者は、プロビジョニングのリクエストを Classifications チームに転送できます。
 
 **[!UICONTROL コンポーネント]** > **[!UICONTROL 分類セット]**
 

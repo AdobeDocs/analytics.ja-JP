@@ -1,13 +1,13 @@
 ---
 title: 分類セットの作成
 description: 分類セットを作成する際に使用できるフィールドと説明です。
-source-git-commit: 7347fe573aaab86bdef51a9d74cbef0e091739d4
+exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
-
 
 # 分類セットの作成
 
@@ -21,5 +21,7 @@ ht-degree: 0%
 * **[!UICONTROL 列名]**:作成する分類ディメンションの名前。 このフィールドは、Analysis Workspaceで使用されるディメンション名で、分類データをエクスポートする際の列名です。
 * **[!UICONTROL タイプ]**:分類のタイプを示すラジオボタン。 プライマリの分類は、通常、参照分類は、 [下位分類](../c-sub-classifications.md).
 * **[!UICONTROL 購読]** この分類セットが適用されるレポートスイートおよびディメンション。 複数のレポートスイートのサポートが予定されています。
+
+![分類セットの作成](../assets/classification-set-create.png)
 
 特定のレポートスイート+変数に対して分類セットが存在する場合、代わりに分類がスキーマに追加されます。
