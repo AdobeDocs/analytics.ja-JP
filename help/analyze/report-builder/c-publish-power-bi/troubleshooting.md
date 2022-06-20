@@ -4,10 +4,10 @@ title: Power BI 統合のトラブルシューティング
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
+source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 89%
 
 ---
 
@@ -45,4 +45,4 @@ Microsoft 管理者に、**[!UICONTROL Microsoft Azure]**／**[!UICONTROL Azure 
 
 ## API 制限への到達
 
-Power BIのレポートは Analytics レポート API で機能するので、API しきい値の制限が適用されます。 詳しくは、 [API 呼び出しのレート制限は何ですか？](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
+Power BIのレポートは Analytics レポート API で機能するので、API しきい値の制限が適用されます。 詳しくは、 [Web サービスのエラーコード](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
