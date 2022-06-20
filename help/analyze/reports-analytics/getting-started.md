@@ -16,7 +16,7 @@ ht-degree: 100%
 Reports &amp; Analytics を使用する前に、Reports &amp; Analytics の基本的なログインやタスクの設定、およびアカウント情報へのアクセス方法について理解します。
 
 >[!IMPORTANT]
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。 Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 レポートは、従来型の Web ベースのチャネルと、モバイルやビデオ、ソーシャルネットワークのような発展を続けるチャネルの両方に洞察を提供します。レポートの例には次のようなものがあります。
 
