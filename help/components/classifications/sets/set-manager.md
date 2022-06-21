@@ -2,9 +2,9 @@
 title: 分類セットマネージャ
 description: Adobe Analyticsで分類セットを管理します。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ ht-degree: 0%
 * **[!UICONTROL 購読]**:この分類セットが適用される購読の数、またはレポートスイートの数。
 * **[!UICONTROL 所有者]**:分類セットの所有者。
 * **[!UICONTROL 分類]**:分類セットに含まれる分類ディメンションの数。
-* **[!UICONTROL 自動]**:FTP サイトからデータを自動的に取り込むように分類セットが設定されているかどうかを示します。
 * **[!UICONTROL 最終変更日]**:分類セットが最後に変更された日時。
-* **[!UICONTROL FTP ホスト+パス]**:自動の場合、分類セットがデータを取り込む FTP の場所。
 
 ## オプションを作成または編集
 
