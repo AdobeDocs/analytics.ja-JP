@@ -2,10 +2,10 @@
 title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f92ad30f2a27f70b8478d55ab71f223cd1c82b24
+source-git-commit: 66724724788c406fff3abf30c711090accd2d632
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 95%
+source-wordcount: '1248'
+ht-degree: 89%
 
 ---
 
@@ -17,35 +17,27 @@ ht-degree: 95%
 | --- | --- |
 | `application.id` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)」。 |
 | `application.isClose` | モバイル指標「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」の定義に役立ちます。 |
-| `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は`close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。 |
+| `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は`close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。設定に役立つ [クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) 指標。 |
 | `application.isInstall` | モバイル指標「[インストール](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `application.isLaunch` | モバイル指標「[起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `application.name` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」の設定に役立ちます。 |
-| `application.launches.value` | モバイル指標「[起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `application.isUpgrade` | モバイル指標「[アップグレード](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `application.version` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」の設定に役立ちます。 |
-| `application.sessionLength` | モバイル指標「[セッションの長さの合計](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
+| `application.sessionLength` | モバイル指標 [以前のセッションの長さ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `commerce.checkouts.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[チェックアウト](../../components/metrics/checkouts.md)」指標に適用します。 |
 | `commerce.checkouts.value` | 「[チェックアウト](../../components/metrics/checkouts.md)」指標を必要な量だけ増分します。 |
 | `commerce.order.currencyCode` | [currencyCode](../vars/config-vars/currencycode.md) 設定変数を設定します。 |
 | `commerce.order.purchaseID` | [purchaseID](../vars/page-vars/purchaseid.md) ページ変数を設定します。 |
-| `commerce.productListAdds.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごへの追加](../../components/metrics/cart-additions.md)」指標に適用します。 |
-| `commerce.productListAdds.value` | 「[買い物かごへの追加](../../components/metrics/cart-additions.md)」指標を必要な量だけ増分します。 |
-| `commerce.productListOpens.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご](../../components/metrics/carts.md)」指標に適用します。 |
-| `commerce.productListOpens.value` | 「[買い物かご](../../components/metrics/carts.md)」指標を必要な量だけ増分します。 |
-| `commerce.productListRemovals.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごからの削除](../../components/metrics/cart-removals.md)」指標に適用します。 |
-| `commerce.productListRemovals.value` | 「[買い物かごからの削除](../../components/metrics/cart-removals.md)」指標を必要な量だけ増分します。 |
-| `commerce.productListViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご表示](../../components/metrics/cart-views.md)」指標に適用します。 |
-| `commerce.productListViews.value` | 「[買い物かご表示](../../components/metrics/cart-views.md)」指標を必要な量だけ増分します。 |
-| `commerce.productViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[製品表示](../../components/metrics/product-views.md)」指標に適用します。 |
-| `commerce.productViews.value` | 「[製品表示](../../components/metrics/product-views.md)」指標を必要な量だけ増分します。 |
-| `commerce.purchases.value` | 「[注文数](../../components/metrics/orders.md)」指標を必要な量だけ増分します。 |
-| `device.manufacturer` | モバイルデバイスの製造元。 |
+| `commerce.productListAdds.value` | インクリメント [買い物かごへの追加](../../components/metrics/cart-additions.md) 指標。 |
+| `commerce.productListOpens.value` | インクリメント [買い物かご](../../components/metrics/carts.md) 指標。 |
+| `commerce.productListRemovals.value` | インクリメント [買い物かごからの削除](../../components/metrics/cart-removals.md) 指標。 |
+| `commerce.productListViews.value` | インクリメント [買い物かご表示](../../components/metrics/cart-views.md) 指標。 |
+| `commerce.productViews.value` | インクリメント [製品表示](../../components/metrics/product-views.md) 指標。 |
+| `commerce.purchases.value` | インクリメント [注文](../../components/metrics/orders.md) 指標。 |
 | `device.model` | モバイルディメンション「[デバイス名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
-| `device.modelNumber` | モバイルデバイスのモデル番号。 |
 | `device.colorDepth` | 「[色深度](../../components/dimensions/color-depth.md)」ディメンションの設定に役立ちます。 |
-| `device.screenHeight` | [画面の解像度](../../components/dimensions/monitor-resolution.md)ディメンションの設定に役立ちます。XDM フィールド `device.screenWidth` も必ず設定してください。 |
-| `device.screenWidth` | [画面の解像度](../../components/dimensions/monitor-resolution.md)ディメンションの設定に役立ちます。XDM フィールド `device.screenHeight` も必ず設定してください。 |
+| `device.screenHeight` | [画面の解像度](../../components/dimensions/monitor-resolution.md)ディメンションの設定に役立ちます。 |
+| `device.screenWidth` | [画面の解像度](../../components/dimensions/monitor-resolution.md)ディメンションの設定に役立ちます。 |
 | `device.type` | モバイルデバイスのタイプ。 |
 | `environment.browserDetails.acceptLanguage` | [言語](../../components/dimensions/language.md)ディメンションの設定に役立ちます。 |
 | `environment.browserDetails.cookiesEnabled` | [cookie サポート](../../components/dimensions/cookie-support.md)ディメンションを設定します。有効な値は `Y` （ブラウザーが cookie を受け入れる）および `N` （ブラウザーが cookie を拒否する）です。 |
@@ -57,9 +49,7 @@ ht-degree: 95%
 | `environment.connectionType` | [接続タイプ](../../components/dimensions/connection-type.md)ディメンションの設定に役立ちます。 |
 | `environment.ipV4` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`X-Forwarded-For` HTTP ヘッダーを使用して生成します。 |
 | `environment.language` | モバイルディメンション「ロケール」。 |
-| `environment.operatingSystem` | モバイルディメンション「[オペレーティングシステム](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
 | `environment.operatingSystemVersion` | モバイルディメンション「[オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
-| `environment.type` | イベントが[ウェアラウル](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html?lang=ja)デバイスから発生したかどうかを示します。有効な値は `Application` （イベントはアプリから発生した）、`Extension` （イベントはウェアラブルアプリから発生した）、または `Widget` （イベントはモバイルウィジェットから発生した）です。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | それぞれ [eVar](../../components/dimensions/evar.md) ディメンション。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 特定の [リスト prop](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | それぞれの [リスト prop](../vars/page-vars/prop.md#list-props) 値。 |
@@ -110,10 +100,10 @@ ht-degree: 95%
 | `placeContext.geo.stateProvince` | 「[米国の州](../../components/dimensions/us-states.md)」ディメンション。 |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 適用 [製品の構文](../vars/page-vars/products.md) eVar に対するマーチャンダイジング。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 適用 [製品の構文](../vars/page-vars/products.md) マーチャンダイジングをイベントに追加できます。 |
-| `productListItems[].lineItemId` | 「[カテゴリ](../../components/dimensions/category.md)」ディメンション。 |
-| `productListItems[].name` | 「[製品](../../components/dimensions/product.md)」ディメンション。 |
-| `productListItems[].priceTotal` | [売上高](../../components/metrics/revenue.md)指標を判断するのに役立ちます。 |
-| `productListItems[].quantity` | [単位](../../components/metrics/units.md)指標を判断するのに役立ちます。 |
+| `productListItems[].lineItemId` | 「[カテゴリ](../../components/dimensions/category.md)」ディメンション。関連トピック [製品](../vars/page-vars/products.md) ページ変数を使用します。 |
+| `productListItems[].name` | 「[製品](../../components/dimensions/product.md)」ディメンション。関連トピック [製品](../vars/page-vars/products.md) ページ変数を使用します。 |
+| `productListItems[].priceTotal` | [売上高](../../components/metrics/revenue.md)指標を判断するのに役立ちます。関連トピック [製品](../vars/page-vars/products.md) ページ変数を使用します。 |
+| `productListItems[].quantity` | [単位](../../components/metrics/units.md)指標を判断するのに役立ちます。関連トピック [製品](../vars/page-vars/products.md) ページ変数を使用します。 |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 実装変数。 |
 | `web.webInteraction.name` | [カスタムリンク](../../components/dimensions/custom-link.md)、[ダウンロードリンク](../../components/dimensions/download-link.md)、または[出口リンク](../../components/dimensions/exit-link.md)ディメンション（`web.webInteraction.type` の値によって異なります）。 |
 | `web.webInteraction.type` | クリックされたリンクのタイプを判断します。有効な値は `other` （カスタムリンク）、`download` （ダウンロードリンク）、`exit` （出口リンク）です。 |
@@ -127,6 +117,12 @@ ht-degree: 95%
 {style=&quot;table-layout:auto&quot;}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
+<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
+<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
+<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
+<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
+<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
 
 ## 他の XDM フィールドを Analytics 変数にマッピングする
 
