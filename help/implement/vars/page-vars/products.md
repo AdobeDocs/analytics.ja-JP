@@ -3,10 +3,10 @@ title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 77%
 
 ## Web SDK を使用する製品
 
-製品は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 複数の XDM フィールドの下：
+製品は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) 複数の XDM フィールドの下：
 
-* カテゴリのマッピング先 `productListItems[].name`.
-* 製品が `productListItems[]._id`.
+* カテゴリのマッピング先 `productListItems[].lineItemId`.
+* 製品が `productListItems[].name`.
 * 数量が次にマッピングされています： `productListItems[].quantity`.
 * 価格は `productListItems[].priceTotal`.
 * マーチャンダイジング eVar は `productListItems._experience.analytics.customDimensions.eVars.eVar1` から `productListItems._experience.analytics.customDimensions.eVars.eVar250`に含まれ、製品にバインドするeVarに応じて異なります。
