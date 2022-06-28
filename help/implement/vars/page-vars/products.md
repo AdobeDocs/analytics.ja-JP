@@ -3,10 +3,10 @@ title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
+source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 78%
+source-wordcount: '600'
+ht-degree: 74%
 
 ---
 
@@ -28,6 +28,11 @@ ht-degree: 78%
 * 価格は `productListItems[].priceTotal`.
 * マーチャンダイジング eVar は `productListItems._experience.analytics.customDimensions.eVars.eVar1` から `productListItems._experience.analytics.customDimensions.eVars.eVar250`に含まれ、製品にバインドするeVarに応じて異なります。
 * マーチャンダイジングイベントのマッピング先 `productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems._experience.analytics.event901to1000.event1000.value`に含まれ、製品にバインドするイベントに応じて異なります。
+
+>[!NOTE]
+>
+>`lineItemId` 標準の Analytics イベントスキーマの一部ではないので、をカスタムフィールドとして追加する必要があります。 今後、専用の「カテゴリ」フィールドを追加します。
+
 
 ## Adobe Analytics拡張機能を使用する製品
 
