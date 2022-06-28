@@ -4,9 +4,9 @@ description: 実装に関するよくある質問と、詳細情報へのリン�
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ AppMeasurement は、HTML ページ内にイメージオブジェクトを作成
 
 組織では、契約の有効期限切れやサーバーコールの数の減少が原因で実装を削除したい場合があります。
 
-* **Adobe Experience Platform Data Collection を使用した実装**:で、該当するAdobe Analytics、Web SDK、または Mobile SDK 拡張機能を無効にするかアンインストールします。 [!UICONTROL 拡張機能] 」タブに移動して、公開します。
+* **Adobe Experience Platform データ収集を使用した実装**：「[!UICONTROL 拡張機能]」タブで該当する Adobe Analytics、Web SDK または Mobile SDK 拡張機能を無効にするかアンインストールして、公開します。
 * **従来の AppMeasurement の実装**：`s_code.js` ファイルの内容全体を次のコード行に置き換えます。 
 
 ```js
