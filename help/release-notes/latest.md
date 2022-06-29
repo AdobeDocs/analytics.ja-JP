@@ -6,13 +6,13 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: c083c9d62d71dfd2d8a6360f24d8cc40f18f427d
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 45%
+ht-degree: 87%
 
 ---
 
-# 最新のAdobe Analyticsリリースノート（2022 年 6 月）
+# 現在の Adobe Analytics リリースノート（2022年6月）
 
-**最終更新日**:2022 年 6 月 17 日
+**最終更新日**：2022年6月16日（PT）
 
 ## 関連リソース
 
@@ -25,11 +25,11 @@ ht-degree: 45%
 
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
-| **新しいフロービジュアライゼーション UI** | フロービジュアライゼーションに追加の機能を提供して、より強力で高機能にします。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | ロールアウトは 2022 年 6 月 15 日に開始します。2022 年 6 月 27 日または 28 日までに GA |
-| **モバイルスコアカードでの注釈の共有** | Workspace で作成された注釈をモバイルスコアカードに表示できます。 これにより、組織とキャンペーンに関するコンテキストデータのニュアンスやインサイトを、Mobile Scorecard プロジェクト内で直接共有でき、Analytics ダッシュボードモバイルアプリで表示できます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022年6月15日（PT） |
-| **Edge Collection を使用したマーチャンダイジング変数の製品構文バージョンのサポート** | 関連する XDM フィールドを設定することで、製品構文と同等のものを使用してマーチャンダイジング変数を設定できるようになりました。 詳しくは、 [products 変数](../implement/vars/page-vars/products.md) 詳しくは、 `products` 変数と [Adobe Experience Edge での Analytics 変数のマッピング](../implement/aep-edge/variable-mapping.md) を参照してください。 | 2022年6月15日（PT） |
-| **Experience Edge を通じてライフサイクルディメンションと指標を入力する** | Experience Edge を介して送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法の詳細については、ドキュメントを参照してください。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022年5月27日（PT） |
-| **Analytics の処理ルールで使用可能な Mobile Service の処理ルール** | AdobeMobile Services の提供終了日は 2022 年 12 月 31 日です。 AdobeMobile Services で作成または生成された既存の処理ルールは、Adobe Analyticsの処理ルールに自動的に移行されます。このルールで、ルールを編集および管理できます。 これらは表示できますが、製品が終了するまで、Mobile Services では編集できなくなります。 その他の質問やサポートについては、Adobe カスタマーケアにお問い合わせください。[詳細情報](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022年6月15日（PT） |
+| **新しいフロービジュアライゼーション UI** | フロービジュアライゼーションがさらに強力で高機能になる追加の機能を提供します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=ja) | ロールアウトは 2022 年 6 月 15 日に開始します。2022 年 6 月 27 日または 28 日までに GA |
+| **モバイルスコアカードで注釈を共有** | ワークスペースで作成された注釈をモバイルスコアカードに表示できます。これにより、組織とキャンペーンに関するコンテキストデータのニュアンスやインサイトを、モバイルスコアカードプロジェクト内で直接共有でき、Analytics ダッシュボードモバイルアプリで表示できます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=ja) | 2022年6月15日（PT） |
+| **Edge コレクションを使用したマーチャンダイジング変数の製品構文バージョンのサポート** | 関連する XDM フィールドを設定することで、製品構文と同等のものを使用してマーチャンダイジング変数を設定できるようになりました。詳しくは、 [products 変数](../implement/vars/page-vars/products.md) 詳しくは、 `products` 変数と [Adobe Experience Edge での Analytics 変数のマッピング](../implement/aep-edge/variable-mapping.md) を参照してください。 | 2022年6月15日（PT） |
+| **Experience Edge を通じてライフサイクルディメンションと指標を入力する** | Experience Edge を介して送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、ドキュメントを参照してください。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) | 2022年5月27日（PT） |
+| **Analytics の処理ルールで使用可能な Mobile Service の処理ルール** | AdobeMobile Services の提供終了日は 2022 年 12 月 31 日です。 AdobeMobile Services で作成または生成された既存の処理ルールは、Adobe Analyticsの処理ルールに自動的に移行されます。このルールで、ルールを編集および管理できます。 これらは表示できますが、製品が終了するまで、Mobile Services では編集できなくなります。 その他の質問やサポートについては、アドビのカスタマーケアにお問い合わせください。[詳細情報](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022年6月15日（PT） |
 | **分類セット — フェーズ 1** | 新しい分類ユーザーエクスペリエンスが段階的にリリースされると、顧客が所有する分類データが大幅に可視化されます。 詳しくは、 [分類セット](../components/classifications/sets/overview.md) を参照してください。 | 2022 年 6 月 15 日より、2023 年初めに予想される一般公開 (GA) |
 
 {style=&quot;table-layout:auto&quot;}
@@ -42,12 +42,12 @@ AN-251686、AN-283542、AN-286572、AN-286945、AN-286784、AN-286944、AN-28701
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Reports &amp; Analytics での予定レポートの一時停止** | 2022 年 6 月 9 日 | 2022 年 4 月 22 日に、以前に Reports &amp; Analytics の提供終了に備えて、予定レポートに固有の機能のいくつかは廃止されることを発表しました。 これらの機能には、新しいレポートのスケジュール設定機能と、新しいデータ抽出機能が含まれていました。<p>Reports and Analyticsからの移行を容易にするために、拡張機能を求めるお客様の要求に応えて、以下の機能へのアクセスをまで拡張することにしました。 **2023 年 1 月 31 日**. レポートとデータ抽出の両方の有効期限は、引き続き 9 か月に制限されます。レポートおよびデータ抽出の配信は、スケジュールが再度アクティブ化されない限り、この期間の終わりに一時停止します。<p>繰り返しますが、これらの機能は 2023 年 1 月 31 日に廃止されます。 この日までに、予定レポートをAdobe Analyticsで使用できる他のメカニズムの 1 つに移行する必要があります。 その他の質問やサポートについては、Adobe カスタマーケアにお問い合わせください。[詳細情報](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
-| **スケジュールされたタスクのReport Builder** | 2022 年 6 月 9 日 | 2022 年 4 月 22 日に、パフォーマンスと配信の最適化の一環として、Report Builderの予定タスクに変更を加えました。 これらの変更により、スケジュールされた配信の「x 回後に終了」機能が削除されることが含まれていました。 お客様の複数の要望に応えて、代替案の検討や導入にさらに時間をかけようと、アドビでは、このオプションを以前まで限られた方法で復元することにしました。 **2023 年 1 月 31 日**.<p>引き続き時間別Report Builderタスクのスケジュールを設定し、最大 99 回のタスクの後でタスクを終了させることができます。 ロールバックは時間別タスクにのみ適用されることに注意してください。「x 回後に終了する」回数は、その他のすべての配信間隔（日別、週別、月別、年別）では使用できなくなります。 このオプションは 2023 年 1 月 31 日に廃止されます。 その他の質問やサポートについては、Adobeカスタマーケアにお問い合わせください。 [詳細情報](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
-| **SFTP アップグレード** | 2022年5月9日（PT） | 以前 2022年5月にアドビがセキュアファイル転送プロトコル（SFTP）サービスをアップグレードし、ファイル転送のセキュリティを強化することをお伝えしました。このアップグレードを **2022 年夏**. この変更が行われると、特定の SFTP クライアント設定はサポートされなくなります。これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、お使いの SFTP クライアント（コード、ツール、サービス）が、[ここ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=ja)で詳細に説明された変更に従っていることを確認してください。 |
-| **特定の顧客でサポートされるブラウザー暗号化メソッドへのアップデート** | 2022年3月28日（PT） | アドビでは、2 種類の暗号セキュリティレベルを提供し、1st パーティのデータ収集におけるセキュリティに関するお客様の様々なニーズに対応しています。**2022年6月23日（PT）**&#x200B;に、セキュリティレベルが「高」に設定されているお客様に対して、暗号として知られる特定の HTTPS 暗号化アルゴリズムのサポートを削除します。このアクションは、一部の古いオペレーティングシステムでは最新の暗号化方法に対応していないので、Analytics にデータを送信できなくなったことを意味します。デフォルトの「標準」暗号セキュリティ設定を使用しているお客様には影響はありません。現在「高」の設定を使用しているすべてのお客様には、既にご連絡済みです。この影響を受ける暗号の詳細なリスト |
-| **2022年 ISO の地域のアップデート** | 2021年3月11日（PT） | Adobeは、2022 年に ISO 地域の更新を実行しました： **2022 年 6 月 11 日**. このリリース以降、マイナーな地域情報に関するアップデートが提供される可能性があります。 |
-| **[!DNL Reports & Analytics]** のサポート終了 | 2022年1月4日（PT） | **2023年12月31日**（PT）をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。 |
+| **Reports &amp; Analytics での予定レポートの一時停止** | 2022年6月8日（PT） | 2022年4月21日（PT）に、以前に発表された Reports &amp; Analytics の提供終了に備えて、予定レポートに固有のいくつかの機能が廃止されることを発表しました。これらの機能には、新規レポートのスケジュール設定機能と、新規データ抽出機能が含まれていました。<p>延長を求めるお客様の要求に応え、Reports and Analytics からの移行を容易にするために、これらの機能へのアクセスを **2023年1月31日（PT）**&#x200B;まで延長することに決定しました。レポートとデータ抽出の両方の有効期限は、引き続き 9 か月に制限されることに注意してください。レポートおよびデータ抽出の配信は、スケジュールが再アクティブ化されない限り、この期間終了後に一時停止されます。<p>繰り返しになりますが、これらの機能は 2023年1月31日（PT）に廃止されます。この日付までに、予定レポートを Adobe Analytics で使用できる他のメカニズムのいずれかに移行する必要があります。その他の質問やサポートについては、アドビのカスタマーケアにお問い合わせください。[詳細情報](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| **Report Builder での予定タスクの一時停止** | 2022年6月8日（PT） | 2022年4月21日（PT）に、パフォーマンスと配信の最適化の一環として、Report Builder のスケジュールされたタスクに変更を加えました。これらの変更には、スケジュールされた配信の「x 回後に終了」機能が削除されることが含まれています。代替案の検討や導入にさらなる時間の確保が必要であるとのお客様の要望に応えて、アドビでは、 **2023年1月31日（PT）**&#x200B;まで限定的にこのオプションを復元することが決定されました。<p>1 時間ごとの Report Builder タスクのスケジュールを継続し、最大 99 回発生した後にタスクを終了させることができます。ロールバックは 1 時間ごとのタスクにのみ適用されることに注意してください。「x 回後に終了する」は、その他のすべての配信間隔（日別、週別、月別、年別）では使用できません。このオプションは、2023年1月31日（PT）に廃止されることに注意してください。その他の質問やサポートについては、アドビのカスタマーケアにお問い合わせください。[詳細情報](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
+| **SFTP アップグレード** | 2022年5月9日（PT） | 以前 2022年5月にアドビがセキュアファイル転送プロトコル（SFTP）サービスをアップグレードし、ファイル転送のセキュリティを強化することをお伝えしました。このアップグレードは **2022年夏**&#x200B;に延期となりました。この変更が行われると、特定の SFTP クライアント設定はサポートされなくなります。これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、お使いの SFTP クライアント（コード、ツール、サービス）が、[ここ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=ja)で詳細に説明された変更に従っていることを確認してください。 |
+| **特定の顧客でサポートされるブラウザー暗号化メソッドへのアップデート** | 2022年3月28日（PT） | アドビでは、2 種類の暗号セキュリティレベルを提供し、1st パーティのデータ収集におけるセキュリティに関するお客様の様々なニーズに対応しています。**2022年6月23日（PT）**&#x200B;に、セキュリティレベルが「高」に設定されているお客様に対して、暗号として知られる特定の HTTPS 暗号化アルゴリズムのサポートを削除します。このアクションは、一部の古いオペレーティングシステムでは最新の暗号化方法に対応していないので、Analytics にデータを送信できなくなったことを意味します。デフォルトの「標準」暗号セキュリティ設定を使用しているお客様には影響はありません。現在「高」の設定を使用しているすべてのお客様には、既にご連絡済みです。この影響を受ける暗号の詳細リスト |
+| **2022年 ISO の地域のアップデート** | 2021年3月11日（PT） | **2022年6月10日（PT）**&#x200B;に、2022年の ISO 地域のアップデートを実施します。このリリース以降、マイナーな地域情報に関するアップデートが提供される可能性があります。 |
+| **[!DNL Reports & Analytics]** のサポート終了 | 2022年1月4日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。 |
 
 {style=&quot;table-layout:auto&quot;}
 

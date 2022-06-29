@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
 workflow-type: tm+mt
 source-wordcount: '3420'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 94%
 | --- | --- |
 | **2022年6月** |  |
 | Experience PlatformEdge ドキュメント | を使用したAdobe Analyticsの実装に関する新しい記事です。 [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en), [モバイル SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en)、および [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en). |
-| フロービジュアライゼーションのドキュメントを更新しました | 次に基づいて [新しい UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
-| モバイルスコアカードでの注釈の共有に関するドキュメント | 表示可能な [Workspace で作成される注釈 — モバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
-| Edge Collection を使用したマーチャンダイジング変数の製品構文バージョンに関するドキュメント | 関連する XDM フィールドを設定することで、製品構文と同等のものを使用してマーチャンダイジング変数を設定できるようになりました。 マーチャンダイジング変数の製品構文の詳細を見る [ここ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja). 製品の構文のマッピングを参照してください [ここ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
+| フロービジュアライゼーションのドキュメントを更新しました | [新規 UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=ja) に基づく |
+| モバイルスコアカードでの注釈の共有に関するドキュメント | [ワークスペースで作成される注釈は、モバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=ja)で表示できます。 |
+| Edge コレクションを使用したマーチャンダイジング変数の製品構文バージョンに関するドキュメント | 関連する XDM フィールドを設定することで、製品構文と同等のものを使用してマーチャンダイジング変数を設定できるようになりました。マーチャンダイジング変数の製品構文について詳しくは、[こちら](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja)を参照してください。製品構文のマッピングについて詳しくは、[こちら](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)を参照してください。 |
 | **2022年5月** |  |
-| Experience Edge を通じてライフサイクルディメンションと指標を入力する | Experience Edge を介して送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法の詳細については、ドキュメントを参照してください。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
+| Experience Edge を通じてライフサイクルディメンションと指標を入力する | Experience Edge を介して送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、ドキュメントを参照してください。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) |
 | **2022年4月** |  |
 | Adobe Analytics ランディングページの更新 | [ワークスペースと Reports &amp; Analytics の共同ランディングページ](/help/analyze/landing.md)を更新し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL ページの概要]パネルに関する新しいトピック | [ページの概要パネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
@@ -46,7 +46,7 @@ ht-degree: 94%
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspace プロジェクトを追加、編集または削除します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 過去のスケジュール済み Report Builder タスクの一時停止に関する更新されたトピック | **2022年4月15日（PT）** より、アドビは、 [2 年以上前に作成されたすべてのスケジュール済み Report Builder タスクを一時停止](/help/analyze/report-builder/r-arb-scheduled-reports.md) する予定です。 |
 | **2021年10月** |  |
-| 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) に関する新しいドキュメントが公開されました |
+| 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja) に関する新しいドキュメントが公開されました |
 | 2021年10月21日（PT） | Analysis Workspace の [メディア再生滞在時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ja) パネルに関する新しいドキュメントが公開されました。 |
 | 2021 年 10 月 7 日（PT） | [モバイルスコアカードのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#viz) に関する新しいドキュメント |
 | **2021年8月** |  |

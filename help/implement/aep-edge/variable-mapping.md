@@ -5,7 +5,7 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 66724724788c406fff3abf30c711090accd2d632
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 89%
 | `environment.ipV4` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`X-Forwarded-For` HTTP ヘッダーを使用して生成します。 |
 | `environment.language` | モバイルディメンション「ロケール」。 |
 | `environment.operatingSystemVersion` | モバイルディメンション「[オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
-| `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | それぞれ [eVar](../../components/dimensions/evar.md) ディメンション。 |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 特定の [リスト prop](../vars/page-vars/prop.md#list-props). |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | それぞれの [リスト prop](../vars/page-vars/prop.md#list-props) 値。 |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | それぞれ [リスト変数](../vars/page-vars/list.md). |
-| `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | それぞれ [Prop](../../components/dimensions/prop.md) ディメンション。 |
-| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 適用 [イベントのシリアル化](../vars/page-vars/events/event-serialization.md) 各 [カスタムイベント](../../components/metrics/custom-events.md) 指標。 |
-| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | それぞれ [カスタムイベント](../../components/metrics/custom-events.md) 指標を必要な量で示します。 |
+| `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | それぞれの [eVar](../../components/dimensions/evar.md) ディメンションを設定します。 |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 特定の[リスト prop](../vars/page-vars/prop.md#list-props) に使用される区切り文字。 |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | それぞれの[リスト prop](../vars/page-vars/prop.md#list-props) 値を含む文字列配列。 |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | それぞれの[リスト変数](../vars/page-vars/list.md)を設定します。 |
+| `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | それぞれの [prop](../../components/dimensions/prop.md) ディメンションを設定します。 |
+| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | それぞれの[カスタムイベント](../../components/metrics/custom-events.md)指標に[イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を適用します。 |
+| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | それぞれの[カスタムイベント](../../components/metrics/custom-events.md)指標を必要な量だけ増分します。 |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud ID サービスの ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)。 |
 | `marketing.trackingCode` | [トラッキングコード](../../components/dimensions/tracking-code.md)ディメンションを設定します。 |
 | `media.mediaTimed.completes.value` | Media Analytics 指標「[コンテンツ完了](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=ja#content-complete)」。 |
