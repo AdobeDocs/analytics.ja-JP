@@ -2,10 +2,10 @@
 title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 66724724788c406fff3abf30c711090accd2d632
+source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 93%
+source-wordcount: '1340'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 93%
 | --- | --- |
 | `application.id` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)」。 |
 | `application.isClose` | モバイル指標「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」の定義に役立ちます。 |
+| `application.isInstall` | モバイル指標を増やすタイミングを判断するのに役立ちます [初回起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isLaunch` | モバイル指標を増やすタイミングを判断するのに役立ちます [初回起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は`close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。設定に役立つ [クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) 指標。 |
 | `application.isInstall` | モバイル指標「[インストール](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `application.isLaunch` | モバイル指標「[起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
@@ -28,10 +30,15 @@ ht-degree: 93%
 | `commerce.checkouts.value` | 「[チェックアウト](../../components/metrics/checkouts.md)」指標を必要な量だけ増分します。 |
 | `commerce.order.currencyCode` | [currencyCode](../vars/config-vars/currencycode.md) 設定変数を設定します。 |
 | `commerce.order.purchaseID` | [purchaseID](../vars/page-vars/purchaseid.md) ページ変数を設定します。 |
+| `commerce.productListAdds.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごへの追加](../../components/metrics/cart-additions.md)」指標に適用します。 |
 | `commerce.productListAdds.value` | インクリメント [買い物かごへの追加](../../components/metrics/cart-additions.md) 指標。 |
+| `commerce.productListOpens.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご](../../components/metrics/carts.md)」指標に適用します。 |
 | `commerce.productListOpens.value` | インクリメント [買い物かご](../../components/metrics/carts.md) 指標。 |
+| `commerce.productListRemovals.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごからの削除](../../components/metrics/cart-removals.md)」指標に適用します。 |
 | `commerce.productListRemovals.value` | インクリメント [買い物かごからの削除](../../components/metrics/cart-removals.md) 指標。 |
+| `commerce.productListViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご表示](../../components/metrics/cart-views.md)」指標に適用します。 |
 | `commerce.productListViews.value` | インクリメント [買い物かご表示](../../components/metrics/cart-views.md) 指標。 |
+| `commerce.productViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[製品表示](../../components/metrics/product-views.md)」指標に適用します。 |
 | `commerce.productViews.value` | インクリメント [製品表示](../../components/metrics/product-views.md) 指標。 |
 | `commerce.purchases.value` | インクリメント [注文](../../components/metrics/orders.md) 指標。 |
 | `device.model` | モバイルディメンション「[デバイス名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
@@ -49,7 +56,8 @@ ht-degree: 93%
 | `environment.connectionType` | [接続タイプ](../../components/dimensions/connection-type.md)ディメンションの設定に役立ちます。 |
 | `environment.ipV4` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`X-Forwarded-For` HTTP ヘッダーを使用して生成します。 |
 | `environment.language` | モバイルディメンション「ロケール」。 |
-| `environment.operatingSystemVersion` | モバイルディメンション「[オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
+| `environment.operatingSystem` | モバイルディメンション「[オペレーティングシステム](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
+| `environment.operatingSystemVersion` | 設定に役立つ [オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) ディメンション。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | それぞれの [eVar](../../components/dimensions/evar.md) ディメンションを設定します。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 特定の[リスト prop](../vars/page-vars/prop.md#list-props) に使用される区切り文字。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | それぞれの[リスト prop](../vars/page-vars/prop.md#list-props) 値を含む文字列配列。 |
@@ -117,12 +125,6 @@ ht-degree: 93%
 {style=&quot;table-layout:auto&quot;}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
-<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
-<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
-<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
-<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
-<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
-<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
 
 ## 他の XDM フィールドを Analytics 変数にマッピングする
 
