@@ -2,9 +2,9 @@
 title: 分類セットの作成
 description: 分類セットを作成する際に使用できるフィールドと説明です。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # 分類セットの作成
 
 分類セットマネージャを使用して、分類セットを作成できます。
+
+>[!NOTE]
+>
+>この機能は現在、限定的なリリースになっています。 この機能にアクセスしたい場合は、Adobeカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。この担当者は、プロビジョニングのリクエストを Classifications チームに転送できます。
 
 **[!UICONTROL コンポーネント]** > **[!UICONTROL 分類セット]** > **[!UICONTROL セット]** > **[!UICONTROL 追加]**
 

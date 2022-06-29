@@ -2,9 +2,9 @@
 title: 分類セットマネージャ
 description: Adobe Analyticsで分類セットを管理します。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # 分類セットマネージャ
 
 分類セットマネージャを使用すると、分類セットを作成、編集または削除できます。
+
+>[!NOTE]
+>
+>この機能は現在、限定的なリリースになっています。 この機能にアクセスしたい場合は、Adobeカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。この担当者は、プロビジョニングのリクエストを Classifications チームに転送できます。
 
 **[!UICONTROL コンポーネント]** > **[!UICONTROL 分類セット]** > **[!UICONTROL セット]**
 

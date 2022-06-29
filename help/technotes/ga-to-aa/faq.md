@@ -3,10 +3,10 @@ title: Adobe Analyticsへの移行に関するよくある質問 (FAQ)
 description: サードパーティプラットフォームからアドビ製品への移行について、よく寄せられる質問にお答えします。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 96%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 アドビ製品への履歴データの移行をご検討の方は、担当のアカウントマネージャーにお問い合わせください。導入コンサルタントは貴社のご協力のもと、Google Analytics からデータを書き出し、アドビのデータ収集サーバーが取り込むことのできるデータソースに変換します。
 
-アドビでは、履歴データの移行は複雑でコストのかかるプロセスなので推奨していません。訪問者の識別については、訪問者情報はプラットフォームによって異なる cookie や形式で保存されるので、アドビ製品にシームレスにポーティングできません。
+履歴データを移動する場合は、 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) を使用すると、任意のオムニチャネルデータソースを取り込むことができます。
 
 **多くのレポートでセグメント化ドロップダウンを使用しています。[!UICONTROL Analysis Workspace] でドロップダウンを再度作成する方法を教えてください。**
 

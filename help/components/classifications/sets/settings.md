@@ -2,9 +2,9 @@
 title: 分類セット設定
 description: 分類セットを作成または編集します。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: c849f216f8dda83070fc3f8d8b1c25fba4d2786a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # 分類セット設定
 
 分類セットを設定、データをアップロード、データをダウンロードします。
+
+>[!NOTE]
+>
+>この機能は現在、限定的なリリースになっています。 この機能にアクセスしたい場合は、Adobeカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。この担当者は、プロビジョニングのリクエストを Classifications チームに転送できます。
 
 **[!UICONTROL コンポーネント]** > **[!UICONTROL 分類セット]** > **[!UICONTROL セット]** > 目的の分類セット名をクリックします。
 
