@@ -4,36 +4,42 @@ title: Analysis Workspaceの指標
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 56fd6dd8450df3ffea78154fafa1e858d5a653a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '409'
+ht-degree: 22%
 
 ---
 
 # 指標
 
-Analysis Workspace には、指標の使用方法が 2 つあります。
+指標を使用すると、Analysis Workspaceでデータポイントを定量化できます。 最も一般的に、ビジュアライゼーションの列として使用され、ディメンションに結び付けられます。
 
-* 標準指標、計算指標、または計算指標テンプレートを[!UICONTROL コンポーネント]メニューからテーブルにドラッグできます。
+Adobeは、Analysis Workspaceで使用する複数のタイプの指標を提供します。
 
-   ![](assets/metrics_icons.png)
+* **標準指標**:プロジェクトで使用するほとんどの指標は標準指標です。 以下に例を示します。 [ページビュー数](/help/components/metrics/page-views.md), [売上高](/help/components/metrics/revenue.md)または [カスタムイベント](/help/components/metrics/custom-events.md). 詳しくは、 [指標の概要](/help/components/metrics/overview.md) （コンポーネントユーザーガイド）を参照してください。
 
-   >[!NOTE]
-   >
-   >これは一見シンプルに見えますが、指標の使用はかなり強力です。レポートに指標を追加するには、適切な指標をテーブルの「指標」セクションにドラッグします。また、ディメンションを指標別に分類して、テーブルビューを細かく制御することもできます。さらに、ディメンションとして指標を挿入したり、指標としてディメンションを挿入したりして、時間外レポートを作成できます。様々なコンポーネントを操作して、機能を確認してください。ほかにも多くのことができます。
+   ![標準指標](assets/standard-metric.png)
 
-* または、**[!UICONTROL コンポーネント]**／**[!UICONTROL 新しい指標]**&#x200B;をクリックします。これにより、既存の指標からカスタム指標を作成できる、[計算指標ビルダー](/help/components/c-calcmetrics/cm-overview.md)が表示されます。
+* **計算指標**:標準指標、静的数値、アルゴリズム関数に基づくユーザー定義の指標。 ユーザー定義の計算指標では、使用可能なコンポーネントのリストに計算ツールアイコンが表示されます。 詳しくは、 [計算指標の概要](/help/components/c-calcmetrics/cm-overview.md) （コンポーネントユーザーガイド）を参照してください。
 
-以下は、フリーフォームテーブルでの指標の操作に関するビデオです。
+   ![計算指標](assets/calculated-metric.png)
+
+* **計算指標テンプレート**:Adobe定義の指標で、計算指標と同じ動作をします。 これらは、Workspace プロジェクト内でそのまま使用することも、コピーを保存してロジックをカスタマイズすることもできます。 計算指標テンプレートは、使用可能なAdobeのリストに指標アイコンを表示します。
+
+   ![計算指標テンプレート](assets/calculated-metric-template.png)
+
+指標は、Analysis Workspace内で柔軟に使用できます。 空のフリーフォームテーブルに指標をドラッグして、その指標がプロジェクトの日付期間にトレンド表示されていることを確認します。 また、ディメンションが存在する場合に指標をドラッグして、各ディメンション項目と比較した指標を確認できます。 既存の指標ヘッダーの上にある指標をドラッグすると、その指標が置き換えられます。ヘッダーの横にある指標をドラッグすると、両方の指標が並べて表示されます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
 ## 計算指標
 
-計算指標をすばやく簡単に作成できるように、フリーフォームテーブルの列の右クリックメニューに「**[!UICONTROL 選択から指標を作成]**」が追加されました。このオプションは、ヘッダー列のセルが 1 つ以上選択されると表示されます。
+計算指標を使用すると、単純な演算子や統計関数を使用して、指標が相互にどのように関連しているかを簡単に確認できます。 計算指標を作成する方法はいくつかあります。
 
-![](assets/calc_metrics.png)
+* 左側のコンポーネントのリストの下にある「指標」ヘッダーの横にあるプラスアイコンをクリックします。
+* に移動します。 **[!UICONTROL コンポーネント]** > **[!UICONTROL 計算指標]** > **[!UICONTROL 追加]**.
+* 列見出しを右クリック > **[!UICONTROL 選択から指標を作成]** （1 つ以上のヘッダー列のセルが選択されている場合）。 このオプションを選択すると、計算指標ルールビルダーを使用しなくても、計算指標が自動的に作成されます。
 
 [計算指標： 実装なしの指標](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=ja)（3:42）
 
