@@ -4,10 +4,10 @@ description: 個々の製品に関連付けられるカスタム変数。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 2624a18896f99aadcfe0a04538ece21c370a28b9
+source-git-commit: 9a94e910d4e837bb9808b5662beebe6214ed4174
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 75%
+source-wordcount: '523'
+ht-degree: 72%
 
 ---
 
@@ -80,7 +80,7 @@ XDM 構造：
 結果の「products」パラメーターが Analytics に渡されます。
 
 ```js
-pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
 ```
 
 ## コンバージョン変数の構文を使用した実装
@@ -107,6 +107,8 @@ s.products = ";Canary";
 
 Analytics フィールドにマッピングされる XDM フィールドを使用して、同じ情報を指定できます。 XDM から Analytics へのすべてのマッピングのリストを確認できます [ここ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). 上記の例の XDM ミラーリングは、次のようになります。
 
+同じまたは前のeVar呼び出しに対して次のイベントを設定します。
+
 ```js
                   "_experience": {
                       "analytics": {
@@ -116,7 +118,12 @@ Analytics フィールドにマッピングされる XDM フィールドを使�
                               }
                           }
                       }
-                  },
+                  }
+```
+
+製品文字列のバインディングイベントと値を設定します。
+
+```js
                   "commerce": {
                       "productViews" : {
                           "value" : 1
