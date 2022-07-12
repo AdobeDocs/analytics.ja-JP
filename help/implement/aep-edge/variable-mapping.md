@@ -5,7 +5,7 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -19,32 +19,32 @@ ht-degree: 92%
 | `application.isClose` | モバイル指標「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」の定義に役立ちます。 |
 | `application.isInstall` | モバイル指標を増やすタイミングを判断するのに役立ちます [初回起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | モバイル指標を増やすタイミングを判断するのに役立ちます [初回起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は`close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。設定に役立つ [クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) 指標。 |
+| `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は `close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」指標の設定に役立ちます。 |
 | `application.isInstall` | モバイル指標「[インストール](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `application.isLaunch` | モバイル指標「[起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `application.name` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」の設定に役立ちます。 |
 | `application.isUpgrade` | モバイル指標「[アップグレード](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `application.version` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」の設定に役立ちます。 |
-| `application.sessionLength` | モバイル指標 [以前のセッションの長さ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.sessionLength` | モバイル指標「[前のセッションの長さ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `commerce.checkouts.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[チェックアウト](../../components/metrics/checkouts.md)」指標に適用します。 |
 | `commerce.checkouts.value` | 「[チェックアウト](../../components/metrics/checkouts.md)」指標を必要な量だけ増分します。 |
 | `commerce.order.currencyCode` | [currencyCode](../vars/config-vars/currencycode.md) 設定変数を設定します。 |
 | `commerce.order.purchaseID` | [purchaseID](../vars/page-vars/purchaseid.md) ページ変数を設定します。 |
 | `commerce.productListAdds.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごへの追加](../../components/metrics/cart-additions.md)」指標に適用します。 |
-| `commerce.productListAdds.value` | インクリメント [買い物かごへの追加](../../components/metrics/cart-additions.md) 指標。 |
+| `commerce.productListAdds.value` | 「[買い物かごへの追加件数](../../components/metrics/cart-additions.md)」指標を増分します。 |
 | `commerce.productListOpens.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご](../../components/metrics/carts.md)」指標に適用します。 |
-| `commerce.productListOpens.value` | インクリメント [買い物かご](../../components/metrics/carts.md) 指標。 |
+| `commerce.productListOpens.value` | 「[買い物かご](../../components/metrics/carts.md)」指標を増分します。 |
 | `commerce.productListRemovals.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごからの削除](../../components/metrics/cart-removals.md)」指標に適用します。 |
-| `commerce.productListRemovals.value` | インクリメント [買い物かごからの削除](../../components/metrics/cart-removals.md) 指標。 |
+| `commerce.productListRemovals.value` | 「[買い物かごからの削除件数](../../components/metrics/cart-removals.md)」指標を増分します。 |
 | `commerce.productListViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご表示](../../components/metrics/cart-views.md)」指標に適用します。 |
-| `commerce.productListViews.value` | インクリメント [買い物かご表示](../../components/metrics/cart-views.md) 指標。 |
+| `commerce.productListViews.value` | 「[買い物かごの表示回数](../../components/metrics/cart-views.md)」指標を増分します。 |
 | `commerce.productViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[製品表示](../../components/metrics/product-views.md)」指標に適用します。 |
-| `commerce.productViews.value` | インクリメント [製品表示](../../components/metrics/product-views.md) 指標。 |
-| `commerce.purchases.value` | インクリメント [注文](../../components/metrics/orders.md) 指標。 |
+| `commerce.productViews.value` | 「[製品表示回数](../../components/metrics/product-views.md)」指標を増分します。 |
+| `commerce.purchases.value` | 「[注文件数](../../components/metrics/orders.md)」指標を増分します。 |
 | `device.model` | モバイルディメンション「[デバイス名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
 | `device.colorDepth` | 「[色深度](../../components/dimensions/color-depth.md)」ディメンションの設定に役立ちます。 |
-| `device.screenHeight` | [画面の解像度](../../components/dimensions/monitor-resolution.md)ディメンションの設定に役立ちます。 |
-| `device.screenWidth` | [画面の解像度](../../components/dimensions/monitor-resolution.md)ディメンションの設定に役立ちます。 |
+| `device.screenHeight` | 「[画面の解像度](../../components/dimensions/monitor-resolution.md)」ディメンションの設定に役立ちます。 |
+| `device.screenWidth` | 「[画面の解像度](../../components/dimensions/monitor-resolution.md)」ディメンションの設定に役立ちます。 |
 | `device.type` | モバイルデバイスのタイプ。 |
 | `environment.browserDetails.acceptLanguage` | [言語](../../components/dimensions/language.md)ディメンションの設定に役立ちます。 |
 | `environment.browserDetails.cookiesEnabled` | [cookie サポート](../../components/dimensions/cookie-support.md)ディメンションを設定します。有効な値は `Y` （ブラウザーが cookie を受け入れる）および `N` （ブラウザーが cookie を拒否する）です。 |
@@ -106,12 +106,12 @@ ht-degree: 92%
 | `placeContext.geo.longitude` | モバイルディメンション「経度」。 |
 | `placeContext.geo.postalCode` | 「[郵便番号](../../components/dimensions/zip-code.md)」ディメンション。 |
 | `placeContext.geo.stateProvince` | 「[米国の州](../../components/dimensions/us-states.md)」ディメンション。 |
-| `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 適用 [製品の構文](../vars/page-vars/products.md) eVar に対するマーチャンダイジング。 |
-| `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 適用 [製品の構文](../vars/page-vars/products.md) マーチャンダイジングをイベントに追加できます。 |
-| `productListItems[].lineItemId` | 「[カテゴリ](../../components/dimensions/category.md)」ディメンション。関連トピック [製品](../vars/page-vars/products.md) ページ変数を使用します。 |
-| `productListItems[].name` | 「[製品](../../components/dimensions/product.md)」ディメンション。関連トピック [製品](../vars/page-vars/products.md) ページ変数を使用します。 |
-| `productListItems[].priceTotal` | [売上高](../../components/metrics/revenue.md)指標を判断するのに役立ちます。関連トピック [製品](../vars/page-vars/products.md) ページ変数を使用します。 |
-| `productListItems[].quantity` | [単位](../../components/metrics/units.md)指標を判断するのに役立ちます。関連トピック [製品](../vars/page-vars/products.md) ページ変数を使用します。 |
+| `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | eVars に [product 構文](../vars/page-vars/products.md)マーチャンダイジングを適用します。 |
+| `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | イベントに [product 構文](../vars/page-vars/products.md)マーチャンダイジングを適用します。 |
+| `productListItems[].lineItemId` | 「[カテゴリ](../../components/dimensions/category.md)」ディメンション。[product](../vars/page-vars/products.md) ページ変数も参照してください。 |
+| `productListItems[].name` | 「[製品](../../components/dimensions/product.md)」ディメンション。[product](../vars/page-vars/products.md) ページ変数も参照してください。 |
+| `productListItems[].priceTotal` | 「[売上高](../../components/metrics/revenue.md)」指標を判断するのに役立ちます。[product](../vars/page-vars/products.md) ページ変数も参照してください。 |
+| `productListItems[].quantity` | 「[単位](../../components/metrics/units.md)」指標を判断するのに役立ちます。[product](../vars/page-vars/products.md) ページ変数も参照してください。 |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 実装変数。 |
 | `web.webInteraction.name` | [カスタムリンク](../../components/dimensions/custom-link.md)、[ダウンロードリンク](../../components/dimensions/download-link.md)、または[出口リンク](../../components/dimensions/exit-link.md)ディメンション（`web.webInteraction.type` の値によって異なります）。 |
 | `web.webInteraction.type` | クリックされたリンクのタイプを判断します。有効な値は `other` （カスタムリンク）、`download` （ダウンロードリンク）、`exit` （出口リンク）です。 |
