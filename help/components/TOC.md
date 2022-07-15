@@ -7,7 +7,7 @@ user-guide-description: セグメント、計算指標、仮想レポートス�
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -230,8 +230,8 @@ ht-degree: 97%
    + 分類セット {#sets}
       + [分類セットの概要](classifications/sets/overview.md)
       + [分類セットマネージャ](classifications/sets/set-manager.md)
-      + [分類セットジョブマネージャ](classifications/sets/job-manager.md)
-      + [分類セットの作成](classifications/sets/create.md)
+      + [分類セットジョブマネージャー](classifications/sets/job-manager.md)
+      + [分類セットを作成](classifications/sets/create.md)
       + [分類セット設定](classifications/sets/settings.md)
    + 分類ルールビルダー {#classifications-rulebuilder}
       + [分類ルールビルダーのワークフロー](classifications/crb/classification-rule-builder.md)

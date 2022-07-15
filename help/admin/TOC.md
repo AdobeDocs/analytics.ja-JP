@@ -5,7 +5,7 @@ user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ ht-degree: 100%
       + [ユニーク訪問者変数の指定](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用事例 - 訪問者 ID の抽出](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [ビデオ管理](admin/video-management.md)
-+ AnalyticsAdmin Console での Adobe {#admin-console}
++ Admin Console での Adobe Analytics {#admin-console}
    + [Admin Console での Adobe Analytics](admin-console/home.md)
    + 権限 {#permissions}
       + [Admin Console での Analytics 権限](admin-console/permissions/summary-tables.md)
