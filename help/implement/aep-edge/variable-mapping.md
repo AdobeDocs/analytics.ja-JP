@@ -5,7 +5,7 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 97%
 | --- | --- |
 | `application.id` | モバイルディメンション「[アプリ ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#dimensions)」。 |
 | `application.isClose` | モバイル指標「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=ja#metrics)」の定義に役立ちます。 |
-| `application.isInstall` | モバイル指標を増やすタイミングを判断するのに役立ちます [初回起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.isLaunch` | モバイル指標を増やすタイミングを判断するのに役立ちます [初回起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isInstall` | モバイル指標である[初回起動数](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)を増やすタイミングを判断するのに役立ちます。 |
+| `application.isLaunch` | モバイル指標である[初回起動数](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)を増やすタイミングを判断するのに役立ちます。 |
 | `application.closeType` | 終了イベントがクラッシュであるかどうかを判断します。有効な値は `close`（ライフサイクルセッションが終了し、前のセッションで一時停止イベントを受け取った場合）、`unknown`（ライフサイクルセッションは一時停止イベントなしで終了する）です。「[クラッシュ](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」指標の設定に役立ちます。 |
 | `application.isInstall` | モバイル指標「[インストール](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
 | `application.isLaunch` | モバイル指標「[起動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)」。 |
@@ -34,11 +34,11 @@ ht-degree: 97%
 | `commerce.productListAdds.value` | 「[買い物かごへの追加件数](../../components/metrics/cart-additions.md)」指標を増分します。 |
 | `commerce.productListOpens.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご](../../components/metrics/carts.md)」指標に適用します。 |
 | `commerce.productListOpens.value` | 「[買い物かご](../../components/metrics/carts.md)」指標を増分します。 |
-| `commerce.productListRemovals.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごからの削除](../../components/metrics/cart-removals.md)」指標に適用します。 |
+| `commerce.productListRemovals.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごからの削除件数](../../components/metrics/cart-removals.md)」指標に適用します。 |
 | `commerce.productListRemovals.value` | 「[買い物かごからの削除件数](../../components/metrics/cart-removals.md)」指標を増分します。 |
-| `commerce.productListViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かご表示](../../components/metrics/cart-views.md)」指標に適用します。 |
+| `commerce.productListViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[買い物かごの表示回数](../../components/metrics/cart-views.md)」指標に適用します。 |
 | `commerce.productListViews.value` | 「[買い物かごの表示回数](../../components/metrics/cart-views.md)」指標を増分します。 |
-| `commerce.productViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[製品表示](../../components/metrics/product-views.md)」指標に適用します。 |
+| `commerce.productViews.id` | [イベントのシリアル化](../vars/page-vars/events/event-serialization.md)を「[製品表示回数](../../components/metrics/product-views.md)」指標に適用します。 |
 | `commerce.productViews.value` | 「[製品表示回数](../../components/metrics/product-views.md)」指標を増分します。 |
 | `commerce.purchases.value` | 「[注文件数](../../components/metrics/orders.md)」指標を増分します。 |
 | `device.model` | モバイルディメンション「[デバイス名](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
@@ -57,7 +57,7 @@ ht-degree: 97%
 | `environment.ipV4` | フォールバックの[ユニーク訪問者](../../components/metrics/unique-visitors.md)識別方法として使用します。通常、`X-Forwarded-For` HTTP ヘッダーを使用して生成します。 |
 | `environment.language` | モバイルディメンション「ロケール」。 |
 | `environment.operatingSystem` | モバイルディメンション「[オペレーティングシステム](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)」。 |
-| `environment.operatingSystemVersion` | 設定に役立つ [オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) ディメンション。 |
+| `environment.operatingSystemVersion` | [オペレーティングシステムのバージョン](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)ディメンションを設定するのに役立ちます。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | それぞれの [eVar](../../components/dimensions/evar.md) ディメンションを設定します。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 特定の[リスト prop](../vars/page-vars/prop.md#list-props) に使用される区切り文字。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | それぞれの[リスト prop](../vars/page-vars/prop.md#list-props) 値を含む文字列配列。 |
