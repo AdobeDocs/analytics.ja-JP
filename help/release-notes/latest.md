@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bedda6ba1f3022562976ada7e73a9514947b5071
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1087'
 ht-degree: 54%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 54%
 # 最新のAdobe Analyticsリリースノート（2022 年 7 月）
 
 **最終更新日**:2022 年 7 月 14 日
-
->[!NOTE]
->
->このページに記載される内容は、リリース前の情報であり、変更される可能性があります。
 
 ## 関連リソース
 
@@ -29,7 +25,7 @@ ht-degree: 54%
 
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
-| XDM でのエッジコレクション用マーチャンダイジング変数のサポート | Experience Edge/Web SDK を介してデータを収集するお客様が XDM を使用して、マーチャンダイジング変数 (eVar) の様々な値を指定できるようにします。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) | 2022年6月29日（PT） |
+| XDM でのエッジコレクション用マーチャンダイジング変数のサポート | Experience Edge/Web SDK を介してデータを収集するお客様が XDM を使用して、マーチャンダイジング変数 (eVar) の様々な値を指定できるようにします。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) | 2022 年 6 月 30 日 |
 
 {style=&quot;table-layout:auto&quot;}
 

@@ -4,10 +4,10 @@ keywords: データフィード;ジョブ;pre列;post列;大文字と小文字�
 title: データフィードに関する FAQ
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 98%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -97,4 +97,5 @@ AWS でも、異なるユーザーアカウントに属するバケット内に�
 
 >[!NOTE]
 >
->[!DNL Analytics] は、バケットの所有者に新しいオブジェクの完全な制御を許可する必要があるポリシーがバケットに含まれているかどうか、またはバケットがデータを書き込むユーザーとは異なるアカウントに属しているかどうかを判断しません。代わりに、[!DNL Analytics] は、フィードのアップロードごとに、バケットの所有者を BucketOwnerFullControl ACL に自動的に追加します。
+>Adobe Analyticsは、新しいオブジェクトをバケットの所有者が完全に制御する必要があるポリシーがバケットにあるかどうか、またはデータを書き込むユーザーとは異なるアカウントにバケットの所有者が存在するかどうかを判断しません。 代わりに、Analytics はバケットの所有者を `BucketOwnerFullControl` 各フィードのアップロードに対する ACL
+
