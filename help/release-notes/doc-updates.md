@@ -4,10 +4,10 @@ description: Adobe Analytics ドキュメントセットの大幅なアップデ
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
+source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 100%
+source-wordcount: '3448'
+ht-degree: 99%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 100%
 | 日付 | 説明 |
 | --- | --- |
 | **2022年6月** |  |
+| Edge Collection の XDM のマーチャンダイジング変数 | に関するドキュメント [Edge Collection 用の XDM でのマーチャンダイジング変数のサポート](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
 | Experience Platform Edge ドキュメント | [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=ja)、[Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=ja)、[Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=ja) 経由の Adobe Analytics の実装に関する新しい記事。 |
 | フロービジュアライゼーションのドキュメントを更新しました | [新規 UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=ja) に基づく |
 | モバイルスコアカードでの注釈の共有に関するドキュメント | [ワークスペースで作成される注釈は、モバイルスコアカード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=ja)で表示できます。 |
