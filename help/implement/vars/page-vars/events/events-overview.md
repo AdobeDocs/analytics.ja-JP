@@ -3,9 +3,9 @@ title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '788'
 ht-degree: 84%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 84%
 
 ## Web SDK を使用するイベント
 
-カスタムイベントは [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 次の XDM フィールドの下：
+カスタムイベントは [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) 次の XDM フィールドの下：
 
 * カスタムイベント 1 ～ 100 が `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * カスタムイベント 101～200 は、 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
 * このパターンは、100 個のイベントごとに、 `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* `eventx.value` を使用して値を指定します。
+* `eventx.id` は、シリアル化のための id を指定するために使用されます。
 * 注文は次にマッピングされます： `commerce.purchases.value`.
 * 単位は、すべての `productListItems[].quantity` フィールド。
 * 売上高は、すべての `productListItems[].priceTotal` フィールド。

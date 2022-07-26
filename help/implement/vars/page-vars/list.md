@@ -3,10 +3,10 @@ title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 85%
+source-wordcount: '368'
+ht-degree: 91%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 85%
 ## レポートスイート設定でのリスト変数の設定
 
 実装で各リスト変数を使用する前に、レポートスイートの設定で各リスト変数を設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/list-var-admin.md)を参照してください。
-
-## Web SDK を使用した変数のリスト
-
-リスト変数は、 [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `_experience.analytics.customDimensions.lists.list1` から `_experience.analytics.customDimensions.lists.list3`.
 
 ## Adobe Analytics拡張機能を使用したリスト変数
 
