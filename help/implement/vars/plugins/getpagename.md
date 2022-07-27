@@ -3,10 +3,10 @@ title: getPageName
 description: 現在の Web サイトのパスから読みやすい pageName を作成します。
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 94%
+source-wordcount: '490'
+ht-degree: 97%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 94%
 
 `getPageName` プラグインは、読みやすく、わかりやすい形式の現在の URL を作成します。レポートで設定しやすく理解しやすい [`pageName`](../page-vars/pagename.md) 値が必要な場合は、このプラグインを使用することをお勧めします。このプラグインは、データレイヤーを介してなど、`pageName` 変数の命名構造が既にある場合は不要です。この変数は、`pageName` 変数を設定する別のソリューションがない場合に最適です。
 
-## Web SDK またはAdobe Analytics拡張機能を使用したプラグインのインストール
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
-1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
-1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
-1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
-   * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
-1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * Extension：Common Analytics Plugins
-   * Action Type：Initialize getPageName
-1. ルールに対する変更を保存して発行します。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getPageName
+1. Save and publish the changes to the rule.-->
 
 ## カスタムコードエディターを使用したプラグインのインストール
 

@@ -3,10 +3,10 @@ title: Numbers Suite
 description: 他の JavaScript 変数で使用する数値を生成および操作します。
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 94%
+source-wordcount: '537'
+ht-degree: 97%
 
 ---
 
@@ -22,21 +22,21 @@ Numbers Suite は一連の JavaScript 関数です。これには、次のプラ
 * **`randomNumber`**：特定の桁数で乱数を生成します。このプラグインは、サードパーティタグを導入し、キャッシュバスティングの乱数が必要な場合に役立ちます。
 * **`twoDecimals`**：数字を小数点以下 2 桁に丸めます。このプラグインは通貨の目的で役立ち、数値を有効な通貨値に丸めることができます。
 
-## Web SDK またはAdobe Analytics拡張機能を使用したプラグインのインストール
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
-1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
-1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
-1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
-   * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
-1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * Extension：Common Analytics Plugins
-   * Action Type：Initialize Numbers Suite
-1. ルールに対する変更を保存して発行します。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize Numbers Suite
+1. Save and publish the changes to the rule.-->
 
 ## カスタムコードエディターを使用したプラグインのインストール
 

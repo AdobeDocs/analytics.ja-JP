@@ -3,10 +3,10 @@ title: manageVars
 description: 一度に複数の Analytics 変数の値を変更します。
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 94%
+source-wordcount: '597'
+ht-degree: 97%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 94%
 
 `manageVars` プラグインを使用すると、複数の Analytics 変数の値を一度に操作できます。また、値を小文字に設定したり、複数の変数値から不要な文字を同時に削除したりすることもできます。複数の変数の値を一度にクリーンアップする場合は、このプラグインを使用することをお勧めします。
 
-## Web SDK またはAdobe Analytics拡張機能を使用したプラグインのインストール
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
-1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
-1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
-1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
-   * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
-1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * Extension：Common Analytics Plugins
-   * Action Type：Initialize manageVars
-1. ルールに対する変更を保存して発行します。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize manageVars
+1. Save and publish the changes to the rule.-->
 
 ## カスタムコードエディターを使用したプラグインのインストール
 

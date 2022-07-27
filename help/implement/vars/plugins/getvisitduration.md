@@ -3,10 +3,10 @@ title: getVisitDuration
 description: 訪問者がサイトに来訪した時間を追跡します。
 feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 92%
+source-wordcount: '360'
+ht-degree: 96%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 92%
 
 `getVisitDuration` プラグインは、訪問者がその時点までサイトに滞在した時間を分単位で追跡します。この時点までのサイトの累積時間を追跡する場合や、アクティビティの実行に要する時間を追跡する場合は、このプラグインを使用することをお勧めします。このプラグインは、イベント間の時間を追跡しません。この機能が必要な場合は、[`getTimeBetweenEvents`](gettimebetweenevents.md) プラグインを使用します。
 
-## Web SDK またはAdobe Analytics拡張機能を使用したプラグインのインストール
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-アドビでは、最も一般的に使用されるプラグインを使用できる拡張機能を提供しています。
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
-1. 目的のタグプロパティをクリックします。
-1. 「[!UICONTROL 拡張機能]」タブに移動し、「[!UICONTROL カタログ]」ボタンをクリックします。
-1. [!UICONTROL Common Analytics Plugins] 拡張機能をインストールして公開します。
-1. まだ「Initialize Plug-ins」というルールを作成していない場合は、次の設定を使用してルールを作成します。
-   * Condition：なし
-   * Events：Core – 読み込まれたライブラリ（ページ上部）
-1. 次の設定を使用して、上記のルールにアクションを追加します。
-   * Extension：Common Analytics Plugins
-   * Action Type：Initialize getVisitDuration
-1. ルールに対する変更を保存して発行します。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getVisitDuration
+1. Save and publish the changes to the rule.-->
 
 ## カスタムコードエディターを使用したプラグインのインストール
 
