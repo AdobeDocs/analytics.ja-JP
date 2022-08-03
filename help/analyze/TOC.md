@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace のほか、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順。
-source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
+source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1053'
 ht-degree: 100%
 
 ---
@@ -73,20 +73,21 @@ ht-degree: 100%
          + [フローの概要](analysis-workspace/visualizations/c-flow/flow.md)
          + [フロービジュアライゼーションの設定](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [ディメンション間のフロー](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [ヒストグラム](analysis-workspace/visualizations/histogram.md)
-      + [主要な指標の概要](analysis-workspace/visualizations/key-metric.md)
-      + [マップ](analysis-workspace/visualizations/map-visualization.md)
-      + [ベン](analysis-workspace/visualizations/venn.md)
       + [面グラフおよび積み重ね面グラフ](analysis-workspace/visualizations/area.md)
       + [棒グラフおよび積み重ね棒グラフ](analysis-workspace/visualizations/bar.md)
       + [ブレットグラフ](analysis-workspace/visualizations/bullet-graph.md)
+      + [コンボグラフ](analysis-workspace/visualizations/combo-charts.md)
       + [ドーナツ](analysis-workspace/visualizations/donut.md)
+      + [ヒストグラム](analysis-workspace/visualizations/histogram.md)
       + [横棒グラフおよび積み重ね横棒グラフ](analysis-workspace/visualizations/horizontal-bar.md)
+      + [主要な指標の概要](analysis-workspace/visualizations/key-metric.md)
       + [行](analysis-workspace/visualizations/line.md)
+      + [マップ](analysis-workspace/visualizations/map-visualization.md)
       + [散布図](analysis-workspace/visualizations/scatterplot.md)
       + [数値の概要と変更概要](analysis-workspace/visualizations/summary-number-change.md)
       + [テキスト](analysis-workspace/visualizations/text.md)
       + [ツリーマップ](analysis-workspace/visualizations/treemap.md)
+      + [ベン](analysis-workspace/visualizations/venn.md)
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
       + [Analytics for Target（A4T）パネル](analysis-workspace/c-panels/a4t-panel.md)
