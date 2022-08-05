@@ -3,13 +3,13 @@ description: 先月、昨年との比較を行うなど、Analysis Workspaceで�
 title: コンボグラフのビジュアライゼーション
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 31%
 
 ---
-
 
 # コンボグラフ
 
@@ -47,8 +47,8 @@ ht-degree: 31%
    | 行の比較タイプ | 定義 |
    | --- | --- |
    | **[!UICONTROL 時間比較]** | 最も一般的なタイプの比較 — この期間と 4 週間前の期間を比較します。 選択した場合 [!UICONTROL 時間の比較]を選択し、比較する期間を 2 番目に選択します。<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL 追加の指標]** | 例えば、 [!UICONTROL 売上高] を別の指標に追加します。<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL 関数]** | 次のような関数を導入できます。 [!UICONTROL 平均] を比較に追加します。 以下のサポートされる関数のリストを参照してください。<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL セカンダリ指標]** | 例えば、 [!UICONTROL 売上高] を別の指標に追加します。<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ ht-degree: 31%
 | **[!UICONTROL Y 軸をゼロに固定]** | グラフに示されるすべての値がゼロよりもかなり上の場合、グラフのデフォルトでは、Y 軸の一番下はゼロ以外になります。このボックスをチェックすると、Y 軸は強制的にゼロになります（グラフは再描画されます）。 |
 
 {style=&quot;table-layout:auto&quot;}
-
-
