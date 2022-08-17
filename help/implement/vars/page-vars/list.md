@@ -3,10 +3,10 @@ title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 91%
+source-wordcount: '522'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,58 @@ ht-degree: 91%
 
 ## レポートスイート設定でのリスト変数の設定
 
-実装で各リスト変数を使用する前に、レポートスイートの設定で各リスト変数を設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/list-var-admin.md)を参照してください。
+実装で各リスト変数を使用する前に、レポートスイートの設定で各リスト変数を設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/list-var-admin.md)を参照してください。この手順は、すべての実装方法に適用されます。
+
+>[!NOTE]
+>
+>Web SDK でマッピングされたフィールドを使用して実装されたリスト変数は、コンマ (&#39;`,`&#39;) です。
+
+## Web SDK を使用した変数のリスト
+
+リスト変数は、 [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `_experience.analytics.customDimensions.lists.list1.list[]` から `_experience.analytics.customDimensions.lists.list3.list[]`. 各配列要素には、 `"value"` 各文字列を格納するオブジェクト。 例えば、次の XDM オブジェクトは `list1` 変数 `"Example value 1,Example value 2,Example value 3"`.
+
+```json
+"xdm": {
+    "_experience": {
+        "analytics": {
+            "customDimensions": {
+                "lists": {
+                    "list1": {
+                        "list": [
+                            {
+                                "value": "Example value 1"
+                            },
+                            {
+                                "value": "Example value 2"
+                            },
+                            {
+                                "value": "Example value 3"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+組織で、コンマ (&#39;`,`&#39;) の代わりに、目的の区切り文字を含むリスト文字列全体をカスタム XDM フィールドに渡すことができます。 で目的の区切り文字を受け入れるように list 変数が設定されていることを確認します。 [レポートスイートの設定](/help/admin/admin/conversion-var-admin/list-var-admin.md).
+
+```json
+"xdm": {
+    "custom_object": {
+        "custom_path": {
+            "custom_listvar": "Example value 1|Example value 2|Example value 3"
+        }
+    }
+}
+```
+
+次のいずれかを実行できます。
+
+* カスタム XDM フィールドを Adobe Experience Edge で目的のリスト変数にマッピングする。または
+* 目的のリスト var をコンテキストデータ変数で上書きする処理ルールを作成します。 詳しくは、 [他の XDM フィールドの Analytics 変数へのマッピング](../../aep-edge/variable-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
 
 ## Adobe Analytics拡張機能を使用したリスト変数
 
@@ -30,7 +81,7 @@ Adobe Analytics拡張機能には、この変数を使用する専用のフィ�
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.list1～s.list3
 
-各リスト変数は、組織固有のカスタム値を含む文字列です。最大バイト数はありません。ただし、各値の最大値は 255 バイトです。使用する区切り文字は、レポートスイート設定で変数を設定する際に決定されます。複数の項目を区切る場合は、スペースを使用しないでください。
+各リスト変数は、組織固有のカスタム値を含む文字列です。最大バイト数はありません。ただし、各値の最大値は 255 バイトです。使用する区切り文字は、 [レポートスイートの設定](/help/admin/admin/conversion-var-admin/list-var-admin.md). 複数の項目を区切る場合は、スペースを使用しないでください。
 
 ```js
 // A list variable configured with a comma as a delimiter
@@ -39,7 +90,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
-> 同じヒットに重複する値を設定した場合、アドビはそれらの値のすべてのインスタンスの重複を排除します。例えば、`s.list1 = "Example,Example";` を設定した場合、1 つのインスタンスがレポートでカウントされます。
+> 同じヒットに重複する値を設定した場合、アドビはそれらの値のすべてのインスタンスの重複を排除します。例えば、`s.list1 = "Brick,Brick";` を設定した場合、1 つのインスタンスがレポートでカウントされます。
 
 ## リスト prop と変数のリストを比較
 

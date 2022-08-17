@@ -4,10 +4,10 @@ description: 個々の製品に関連付けられるカスタム変数。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 9a94e910d4e837bb9808b5662beebe6214ed4174
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 72%
+source-wordcount: '510'
+ht-degree: 75%
 
 ---
 
@@ -42,46 +42,45 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 `eVar1` の値が製品に割り当てられます。この製品を含む以降の成功イベントはすべて eVar 値に配分されます。
 
-### エッジコレクションでの XDM の使用
+### Web SDK を使用した製品構文
 
-「products」変数の各フィールドには、対応する XDM フィールドが入力されます。 XDM から Analytics へのすべてのマッピングのリストを確認できます [ここ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). 以下の例は、productListItems XDM フィールドを組み合わせて products 変数を作成する方法を示しています。
+製品構文マーチャンダイジング変数は、 [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) 複数の異なる XDM フィールドの下に
 
-XDM 構造：
+* 製品構文マーチャンダイジング eVar は、 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` から `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* 製品構文マーチャンダイジングイベントは、 `productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems[]._experience.analytics.event901to1000.event1000.value`. [イベントのシリアル化](events/event-serialization.md) XDM フィールドは、の下にマッピングされます。 `productListItems[]._experience.analytics.event1to100.event1.id` から `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+次の例は、 [製品](products.md) 複数のマーチャンダイジング eVar およびイベントの使用：
 
 ```js
-              "productListItems": [
-                    {
-                        "name": "Bahama Shirt",
-                        "priceTotal": "12.99",
-                        "quantity": 3,
-                        "_experience": {
-                            "analytics": {
-                                "customDimensions" : {
-                                    "eVars" : {
-                                        "eVar10" : "green",
-                                        "eVar33" : "large"
-                                    }
-                                },
-                                "event1to100" : {
-                                    "event4" : {
-                                        "value" : 1
-                                    },
-                                    "event10" : {
-                                        "value" : 2,
-                                        "id" : "abcd"
-                                    }
-                                }
-                            }
-                        }
+"productListItems": [
+    {
+        "name": "Bahama Shirt",
+        "priceTotal": "12.99",
+        "quantity": 3,
+        "_experience": {
+            "analytics": {
+                "customDimensions" : {
+                    "eVars" : {
+                        "eVar10" : "green",
+                        "eVar33" : "large"
                     }
-                ]
+                },
+                "event1to100" : {
+                    "event4" : {
+                        "value" : 1
+                    },
+                    "event10" : {
+                        "value" : 2,
+                        "id" : "abcd"
+                    }
+                }
+            }
+        }
+    }
+]
 ```
 
-結果の「products」パラメーターが Analytics に渡されます。
-
-```js
-pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
-```
+上記の例のオブジェクトは、Adobe Analyticsに `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
 ## コンバージョン変数の構文を使用した実装
 
@@ -103,35 +102,35 @@ s.products = ";Canary";
 * eVar の期限が切れます（「有効期限」の設定に基づきます）。
 * マーチャンダイジング eVar が新しい値で上書きされる。
 
-### エッジコレクションでの XDM の使用
+### Web SDK を使用したコンバージョン変数の構文
 
-Analytics フィールドにマッピングされる XDM フィールドを使用して、同じ情報を指定できます。 XDM から Analytics へのすべてのマッピングのリストを確認できます [ここ](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). 上記の例の XDM ミラーリングは、次のようになります。
+Web SDK を使用したコンバージョン変数構文の動作は、他の [eVar](evar.md) および [イベント](events/events-overview.md). 上記の例の XDM ミラーリングは、次のようになります。
 
 同じまたは前のeVar呼び出しに対して次のイベントを設定します。
 
 ```js
-                  "_experience": {
-                      "analytics": {
-                          "customDimensions": {
-                              "eVars": {
-                                  "eVar1" : "Aviary"
-                              }
-                          }
-                      }
-                  }
+"_experience": {
+    "analytics": {
+        "customDimensions": {
+            "eVars": {
+                "eVar1" : "Aviary"
+            }
+        }
+    }
+}
 ```
 
 製品文字列のバインディングイベントと値を設定します。
 
 ```js
-                  "commerce": {
-                      "productViews" : {
-                          "value" : 1
-                      }
-                  },
-                  "productListItems": [
-                      {
-                          "name": "Canary"
-                      }
-                  ]
+"commerce": {
+    "productViews" : {
+        "value" : 1
+    }
+},
+"productListItems": [
+    {
+        "name": "Canary"
+    }
+]
 ```

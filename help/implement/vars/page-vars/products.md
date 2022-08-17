@@ -3,9 +3,9 @@ title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 74%
 
 ---
@@ -31,8 +31,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->`lineItemId` 標準の Analytics イベントスキーマの一部ではないので、をカスタムフィールドとして追加する必要があります。 今後、専用の「カテゴリ」フィールドを追加します。
-
+>`lineItemId` まだ標準の Analytics イベントスキーマの一部ではないので、をカスタムフィールドとして追加する必要があります。 Adobeは、将来、専用の「カテゴリ」フィールドを追加する予定です。
 
 ## Adobe Analytics拡張機能を使用する製品
 
