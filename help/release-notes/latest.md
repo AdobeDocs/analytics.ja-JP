@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 903139cdc11770f035ca36911c0d5dbf778c62be
+source-git-commit: 21b8e21a0f5488e4e8702d5e7538360add1cd621
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 87%
+source-wordcount: '1264'
+ht-degree: 70%
 
 ---
 
 # 最新のAdobe Analyticsリリースノート（2022 年 8 月）
 
-**最終更新日**:2022 年 8 月 13 日
+**最終更新日**:2022 年 8 月 20 日
 
 ## 関連リソース
 
@@ -25,7 +25,8 @@ ht-degree: 87%
 
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
-| 今月は新機能はありません |  |  |
+| エッジコレクション用の XDM でのリスト変数のサポート | Experience Edge/Web SDK を介してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk) | 2022年8月18日 |
+| 製品文字列変数を設定する際の、Edge コレクション用の XDM の SKU フィールドの使用 | Experience Edge/Web SDK を介してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) | 2022年8月18日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -41,6 +42,7 @@ AN-274281、AN-280956、AN-285670、AN-288176、AN-289221、AN-289665、AN-28976
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
+| **Google Client Hints によるデバイス検索の更新** | 2022年8月19日 | 2022 年 10 月以降、Google Chrome やMicrosoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、Adobeは、ユーザーエージェントに加えて、クライアントヒントの使用を開始します。 これは、Googleの計画に応じて、クライアントヒントを介して渡されるデータの代わりに、ユーザーエージェント文字列から提供される情報を徐々に減らすようにするものです。 クライアントヒントの詳細を表示 [ここ](https://web.dev/user-agent-client-hints/).<p> 10 月までに、AppMeasurement と Web SDK の両方のコレクションライブラリは、クライアントヒントの収集をサポートし、高エントロピーなクライアントヒントを収集するかどうかを設定します。 この変更の一環として、Adobeは、User Agent に関連するすべてのデバイス参照に対して Device Atlas を使用します。 現在、Device Atlas はモバイルのヒットに対してのみ使用されています。 これらの更新により、以前はユーザーエージェント（特に、ブラウザー、ブラウザーのタイプ、オペレーティングシステム、オペレーティングシステムのタイプ、モバイルデバイス）から導き出されたデバイス情報に小さな変更が生じる場合があります。 |
 | **SFTP アップグレード** | 2022年8月12日 | 以前 2022年5月にアドビがセキュアファイル転送プロトコル（SFTP）サービスをアップグレードし、ファイル転送のセキュリティを強化することをお伝えしました。このアップグレードを **2022 年 9 月 8 日**. この変更が行われると、特定の SFTP クライアント設定はサポートされなくなります。これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、お使いの SFTP クライアント（コード、ツール、サービス）が、[ここ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=ja)で詳細に説明された変更に従っていることを確認してください。 |
 | **新しい NetAcuity 通信事業者データベースの更新** | 2022年7月11日（PT） | **2022 年 10 月開始**、 `carrier` Adobe AnalyticsData Warehouseおよび Analytics データフィードのフィールドが変更されます。 従来、その列のデータ形式は `<domain>:<ISP>` でした。Adobeは、これらをマッピングする内部ルックアップテーブルを維持しています `<domain>:<ISP>` の値をAdobe Analyticsのレポートツール (Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など ) でレポート目的で通信事業者名に追加します。 参照ファイル (`carrier.tsv`) には、同じマッピングを使用できるデータフィードも用意されています。<p>この更新により、NetAcuity のより正確な通信事業者データベースを使用して通信事業者のマッピングが強化されます。データフィードの carrier 列のデータの形式は、今後変更されます。 `<domain>:<ISP>` の代わりに、通信事業者名が含まれます。アドビでは、従来のレポートとの継続性をできる限り維持するために、引き続きルックアップテーブルを使用します。アドビがルックアップを適用するレポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）は、より正確なマッピングのメリットを享受できます。新しいデータベースを採用すると、一部のマッピング（特に国際ドメインおよび ISP の場合）は、他のマッピングよりも変更が多くなります。データフィード通信事業者参照ファイル (`carrier.tsv`) は古いマッピングを維持し、新しいマッピングを追加します。<p>Analytics ソースコネクタでは、現在、通信事業者フィールドをマッピングしていないので、通信事業者レポートは、現在、AEP、CJA などでは使用できません。したがって、新しい通信事業者データベースを使用しても、Analytics ソースコネクタから提供されるデータに基づいている限り AEP での影響はありません。 |
 | **IP からジオロケーションへのマッピングの改善** | 2022年7月11日（PT） | IP ルックアップに関する当社のベンダー（Digital Element）は、IP からジオロケーションへのマッピング用に新しく改善されたデータセット（NetAcuity Pulse）にアップグレードしつつあります。 Adobe Analytics では、この新しいデータセットを **2022年10月**&#x200B;の期間に採用します。新しいデータベースは、以前のバージョンよりも正確になります。新しいデータベースを採用する際に、IP からジオロケーションへのマッピングは一部変更または改善されます。<p>すべての Adobe Analytics ツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、データフィードなど）は、新しく改善されたマッピングを自動的に利用します。データフィードのデータの形式は変更されません。Analytics ソースコネクタを通じて提供される CJA データでも、新しいマッピングを自動的に利用します。 |
