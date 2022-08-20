@@ -3,10 +3,10 @@ title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 62%
+source-wordcount: '547'
+ht-degree: 59%
 
 ---
 
@@ -57,6 +57,10 @@ ht-degree: 62%
     }
 }
 ```
+
+>[!NOTE]
+>
+>AdobeXDM スキーマに含まれる `key` オブジェクト `value` 各 `list[]` 配列。 Adobeはこれらを使用しません `key` オブジェクトを使用することをお勧めします。
 
 組織で、コンマ (&#39;`,`&#39;) の代わりに、目的の区切り文字を含むリスト文字列全体をカスタム XDM フィールドに渡すことができます。 で目的の区切り文字を受け入れるように list 変数が設定されていることを確認します。 [レポートスイートの設定](/help/admin/admin/conversion-var-admin/list-var-admin.md).
 
