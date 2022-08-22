@@ -3,20 +3,16 @@ title: データレイヤーの作成
 description: Analytics の実装におけるデータレイヤーと、それらを Adobe Analytics で変数のマッピングに使用する方法について説明します。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 92%
+source-wordcount: '514'
+ht-degree: 63%
 
 ---
 
 # データレイヤーの作成
 
-データレイヤーは、サイト上の JavaScript オブジェクトのフレームワークで、実装で使用されるすべての変数値が含まれます。データレイヤーを使用すると、実装をより詳細に制御することができ、メンテナンスが容易になります。
-
-以下は、データレイヤーの使用に関するビデオです。
-
->[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
+データレイヤーは、サイト上の JavaScript オブジェクトのフレームワークで、Analytics の実装で使用される変数値が含まれます。 Analytics 変数に値を割り当てる際の、より詳細な制御とメンテナンスの容易化が可能です。
 
 ## 前提条件
 
@@ -31,145 +27,18 @@ ht-degree: 92%
    >[!NOTE]
    >
    > アドビ推奨のデータレイヤー仕様に従うことはオプションです。データレイヤーが既に存在する場合、またはアドビの仕様に従わない場合は、どの仕様に従うかを組織で決定してください。
-1. **ブラウザーコンソールを使用して、データレイヤーを検証します**：データレイヤーが作成されたら、任意のブラウザーの開発者コンソールを使用して、データレイヤーが機能していることを検証できます。デベロッパーコンソールは、`F12` キーを使用してほとんどのブラウザーで開くことができます。変数値の例は `digitalData.page.pageInfo.pageID` です。
-1. **Adobe Experience Platformデータ収集を使用して、データレイヤーオブジェクトをデータ要素にマッピングする**:Adobe Experience Platformのデータ収集でデータ要素を作成し、データレイヤーで概要を説明している JavaScript 属性にマッピングします。
-1. **Adobe Analytics のタグ拡張機能を使用して、データ要素を Analytics 変数にマッピング**：ソリューションデザインドキュメントに従って、各データ要素を適切な Analytics 変数に割り当てます。
+1. **ブラウザーコンソールを使用して、データレイヤーを検証します**：データレイヤーが作成されたら、任意のブラウザーの開発者コンソールを使用して、データレイヤーが機能していることを検証できます。デベロッパーコンソールは、`F12` キーを使用してほとんどのブラウザーで開くことができます。変数値の例は `adobeDataLayer.page.title` です。
+1. **Adobe Experience Platformデータ収集を使用して、データレイヤーオブジェクトをデータ要素にマッピングする**:この手順は、組織の実装方法によって異なります。
+   * **Web SDK を使用する場合**:目的のデータレイヤーオブジェクトをAdobe Experience Platform Edge の目的の XDM フィールドにマッピングします。 詳しくは、 [Analytics 変数のマッピング](../aep-edge/variable-mapping.md) を使用して、目的のデータレイヤーマッピングを決定します。
+   * **Analytics 拡張機能を使用する場合**:Adobe Experience Platformデータ収集の「タグ」の下にデータ要素を作成し、目的のデータレイヤーオブジェクトに割り当てます。 次に、Analytics 拡張機能内で、各データ要素を適切な Analytics 変数に割り当てます。
 
 ## 仕様
 
-アドビでは、[Customer Experience デジタルデータコミュニティグループ](https://www.w3.org/community/custexpdata/)によってアウトラインされている [Customer Experience デジタルデータレイヤー](https://www.w3.org/2013/12/ceddl-201312.pdf)に従うことをお勧めします。以下の節では、データレイヤー要素と Adobe Analytics との関わり方について説明します。
+Adobeは、 [Adobeクライアントデータレイヤー](https://github.com/adobe/adobe-client-data-layer/wiki) 新規または再構造化された実装の場合。
 
-包括的なデータレイヤーオブジェクトとして `digitalData` を使用することが推奨されます。次の例は、いくぶん包括的なデータレイヤーの JSON オブジェクトと例の値を示しています。
+組織は、 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf)、または別のカスタムデータレイヤー全体を表示する必要があります。 組織のニーズを満たす一貫したデータレイヤーに合わせることが最も重要です。
 
-```js
-digitalData = {
-    pageInstanceID: "Example page - production",
-    page: {
-        pageInfo: {
-            pageID: "5093",
-            pageName: "Example page",
-            destinationURL: "https://example.com/index.html",
-            referringURL: "https://example.com/referrer.html",
-            sysEnv: "desktop",
-            variant: "2",
-            version: "1.14",
-            breadCrumbs: ["Home","Example group","Example page"],
-            author: "J Smith",
-            issueDate: "Example date",
-            effectiveDate: "Example date",
-            expiryData: "Example date",
-            language: "en-US",
-            geoRegion: "US",
-            industryCodes: "Example industry codes",
-            publisher: "Example publisher"
-        },
-        category: {
-            primaryCategory: "Example page category",
-            subCategory: "Sub-category example"
-        },
-        attributes: {
-            country: "US",
-            language: "en-US"
-        }
-    },
-    product: [{
-        productInfo: {
-            productID: "4859",
-            productName: "Example product",
-            description: "Example description",
-            productURL: "https://example.com/product.html",
-            productImage: "https://example.com/product_image.png",
-            productThumbnail: "https://example.com/product_thumbnail.png",
-            manufacturer: "Example manufacturer",
-            quantity: 1,
-            size: "Product size"
-        },
-        category: {
-            primaryCategory: "Example product category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    cart: {
-        cartID: "934856",
-        price: {
-            basePrice: 200.00,
-            voucherCode: "EXAMPLEVOUCHER1",
-            voucherDiscount: 0.50,
-            currency: "USD",
-            taxRate: 0.20,
-            shipping: 5.00,
-            shippingMethod: "UPS",
-            priceWithTax: 120,
-            cartTotal: 125
-        }
-    },
-    transaction: {
-        transactionID: "694025",
-        profile: {
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com"
-            },
-            address: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            },
-            shippingAddress: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            }
-        }
-    },
-    event: [{
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    component: [{
-        componentInfo: {
-            componentID: "4921",
-            componentName: "Example component"
-        },
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    user: [{
-        segment: "Premium membership",
-        profile: [{
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com",
-                language: "en-US",
-                returningStatus: "New"
-            },
-            social: {
-                facebook: "examplefacebookid",
-                twitter: "exampletwitterhandle"
-            }
-        }]
-    }],
-    privacy: {
-        accessCategories: [{
-            categoryName: "Default",
-            domains: "adobedtm.com"
-        }]
-    },
-    version: "1.0"
-}
-```
+
 
 各オブジェクトとサブオブジェクトの詳細については、[顧客体験デジタルデータレイヤー](https://www.w3.org/2013/12/ceddl-201312.pdf)レポートを使用します。サイトはすべてのオブジェクトを使用するわけではありません。例えば、ニュースサイトをホストする場合、`digitalData.product` オブジェクト配列を使用する可能性は低くなります。
 
