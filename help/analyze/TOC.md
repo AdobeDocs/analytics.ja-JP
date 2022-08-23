@@ -5,7 +5,7 @@ user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analytics の主要な分析およびビジュアライゼーションツールである Analysis Workspace のほか、Adobe Analytics ダッシュボード、Report Builder、Activity Map などのツールの使用手順。
 source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ ht-degree: 100%
       + [数値の概要と変更概要](analysis-workspace/visualizations/summary-number-change.md)
       + [テキスト](analysis-workspace/visualizations/text.md)
       + [ツリーマップ](analysis-workspace/visualizations/treemap.md)
-      + [ベン](analysis-workspace/visualizations/venn.md)
+      + [ベン図　](analysis-workspace/visualizations/venn.md)
    + パネル {#panels}
       + [パネルの概要](analysis-workspace/c-panels/panels.md)
       + [Analytics for Target（A4T）パネル](analysis-workspace/c-panels/a4t-panel.md)
