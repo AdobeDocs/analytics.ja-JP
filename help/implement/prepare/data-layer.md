@@ -3,10 +3,10 @@ title: データレイヤーの作成
 description: Analytics の実装におけるデータレイヤーと、それらを Adobe Analytics で変数のマッピングに使用する方法について説明します。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 63%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -36,11 +36,7 @@ ht-degree: 63%
 
 Adobeは、 [Adobeクライアントデータレイヤー](https://github.com/adobe/adobe-client-data-layer/wiki) 新規または再構造化された実装の場合。
 
-組織は、 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf)、または別のカスタムデータレイヤー全体を表示する必要があります。 組織のニーズを満たす一貫したデータレイヤーに合わせることが最も重要です。
-
-
-
-各オブジェクトとサブオブジェクトの詳細については、[顧客体験デジタルデータレイヤー](https://www.w3.org/2013/12/ceddl-201312.pdf)レポートを使用します。サイトはすべてのオブジェクトを使用するわけではありません。例えば、ニュースサイトをホストする場合、`digitalData.product` オブジェクト配列を使用する可能性は低くなります。
+組織は、 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf)、または他のカスタム仕様全体。 組織のニーズを満たす一貫したデータレイヤーに合わせることが最も重要です。
 
 データレイヤーは拡張可能です。組織に固有の要件がある場合は、そのニーズに合わせてオブジェクトをデータレイヤーに含めることができます。
 
