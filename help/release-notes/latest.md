@@ -4,9 +4,9 @@ description: 現在の Adobe Analytics リリースノートを表示します�
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 21b8e21a0f5488e4e8702d5e7538360add1cd621
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 80%
 
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
-| エッジコレクション用の XDM でのリスト変数のサポート | Experience Edge/Web SDK を介してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
-| 製品文字列変数を設定する際の、Edge コレクション用の XDM の SKU フィールドの使用 | Experience Edge/Web SDK を介してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) | 2022年8月18日（PT） |
+| Edge コレクション用 XDM でのリスト変数のサポート | Experience Edge や Web SDK を介してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ja#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
+| 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Experience Edge や Web SDK を介してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=ja#web-sdk-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E8%A3%BD%E5%93%81) | 2022年8月18日（PT） |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -42,7 +42,7 @@ AN-274281、AN-280956、AN-285670、AN-288176、AN-289221、AN-289665、AN-28976
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Google Client Hints によるデバイス検索の更新** | 2022年8月19日（PT） | 2022 年 10 月以降、Google Chrome やMicrosoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、Adobeは、ユーザーエージェントに加えて、クライアントヒントの使用を開始します。 これは、Googleの計画に応じて、クライアントヒントを介して渡されるデータの代わりに、ユーザーエージェント文字列から提供される情報を徐々に減らすようにするものです。 クライアントヒントの詳細を表示 [ここ](https://web.dev/user-agent-client-hints/).<p> 10 月までに、AppMeasurement と Web SDK の両方のコレクションライブラリは、クライアントヒントの収集をサポートし、高エントロピーなクライアントヒントを収集するかどうかを設定します。 この変更の一環として、Adobeは、User Agent に関連するすべてのデバイス参照に対して Device Atlas を使用します。 現在、Device Atlas はモバイルのヒットに対してのみ使用されています。 これらの更新により、以前はユーザーエージェント（特に、ブラウザー、ブラウザーのタイプ、オペレーティングシステム、オペレーティングシステムのタイプ、モバイルデバイス）から導き出されたデバイス情報に小さな変更が生じる場合があります。 |
+| **Google クライアントヒントによるデバイス検索の更新** | 2022年8月19日（PT） | 2022年10月以降、Google Chrome および Microsoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、アドビは、ユーザーエージェントに加えて、クライアントヒントの使用を開始します。これは、クライアントヒントを介して渡されるデータの代わりに、ユーザーエージェント文字列から提供される情報を徐々に減らす Google の計画に対応するものです。クライアントヒントについて詳しくは、[こちら](https://web.dev/user-agent-client-hints/)を参照してください。<p> 10月までに、AppMeasurement および Web SDK の両方のコレクションライブラリは、クライアントヒントの収集と、高エントロピーなクライアントヒントを収集するかどうかの設定をサポートします。この変更の一環として、アドビは、ユーザーエージェントに関連するすべてのデバイス検索に対して Device Atlas を使用します。現在、Device Atlas はモバイルのヒットに対してのみ使用されています。これらの更新により、以前はユーザーエージェント（特に、ブラウザー、ブラウザーのタイプ、オペレーティングシステム、オペレーティングシステムのタイプ、モバイルデバイス）から導き出されたデバイス情報に小さな変更が生じる場合があります。 |
 | **SFTP アップグレード** | 2022年8月12日（PT） | 以前 2022年5月にアドビがセキュアファイル転送プロトコル（SFTP）サービスをアップグレードし、ファイル転送のセキュリティを強化することをお伝えしました。このアップグレードは **2022年9月7日**（PT）に延期となりました。この変更が行われると、特定の SFTP クライアント設定はサポートされなくなります。これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、お使いの SFTP クライアント（コード、ツール、サービス）が、[ここ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=ja)で詳細に説明された変更に従っていることを確認してください。 |
 | **新しい NetAcuity 通信事業者データベースの更新** | 2022年7月11日（PT） | **2022年10月以降**、Adobe Analytics Data Warehouse および Analytics データフィードの `carrier` フィールドに保存されている通信事業者関連の情報が変更されます。従来、その列のデータ形式は `<domain>:<ISP>` でした。Adobe Analytics レポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）でレポートを作成するために、これらの `<domain>:<ISP>` 値を通信事業者名にマッピングするための内部ルックアップテーブルがメンテナンスされました。ルックアップファイル（`carrier.tsv`）にもデータフィードが用意されているので、同じマッピングを使用できます。<p>この更新により、NetAcuity のより正確な通信事業者データベースを使用して通信事業者のマッピングが強化されます。データフィードの通信事業者列のデータ形式は、今後変更される予定です。`<domain>:<ISP>` の代わりに、通信事業者名が含まれます。アドビでは、従来のレポートとの継続性をできる限り維持するために、引き続きルックアップテーブルを使用します。アドビがルックアップを適用するレポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）は、より正確なマッピングのメリットを享受できます。新しいデータベースを採用すると、一部のマッピング（特に国際ドメインおよび ISP の場合）は、他のマッピングよりも変更が多くなります。データフィード通信事業者ルックアップファイル（`carrier.tsv`）では、古いマッピングが維持され、新しいマッピングが追加されます。<p>Analytics ソースコネクタでは、現在、通信事業者フィールドをマッピングしていないので、通信事業者レポートは、現在、AEP、CJA などでは使用できません。したがって、新しい通信事業者データベースを使用しても、Analytics ソースコネクタから提供されるデータに基づいている限り AEP での影響はありません。 |
 | **IP からジオロケーションへのマッピングの改善** | 2022年7月11日（PT） | IP ルックアップに関する当社のベンダー（Digital Element）は、IP からジオロケーションへのマッピング用に新しく改善されたデータセット（NetAcuity Pulse）にアップグレードしつつあります。 Adobe Analytics では、この新しいデータセットを **2022年10月**&#x200B;の期間に採用します。新しいデータベースは、以前のバージョンよりも正確になります。新しいデータベースを採用する際に、IP からジオロケーションへのマッピングは一部変更または改善されます。<p>すべての Adobe Analytics ツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、データフィードなど）は、新しく改善されたマッピングを自動的に利用します。データフィードのデータの形式は変更されません。Analytics ソースコネクタを通じて提供される CJA データでも、新しいマッピングを自動的に利用します。 |
