@@ -3,10 +3,10 @@ title: データフィードの作成または編集
 description: データフィードを作成または編集する方法について説明します。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 60335be9a60b467969f5e1796ce465a7d453951f
+source-git-commit: ed1a627dafdf10f8a0a65e94b20ab6a3204a5d15
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 56%
+source-wordcount: '948'
+ht-degree: 100%
 
 ---
 
@@ -30,65 +30,23 @@ ht-degree: 56%
 
 宛先フィールドで使用できるフィールドは、宛先のタイプによって異なります。
 
-### Google Cloud Platform
+### FTP
 
-安全な宛先としての GCP ストレージバケットへのアクセス
+データフィードのデータは、アドビまたは顧客のホストする FTP の場所に配信できます。FTP ホスト、ユーザー名、パスワードが必要です。パスフィールドを使用して、フィードファイルをフォルダーに配置します。フォルダーが既に存在する必要があります。指定されたパスが存在しない場合、フィードはエラーをスローします。
 
-**フィールド**
-* *タイプ：* Google Cloud Platform の宛先タイプ
-* *プロジェクト ID :* ストレージバケットが存在する GCP プロジェクト ID
-* *ストレージバケット名：* ドットのないバケット名は、3 ～ 63 文字に制限されます。 ドットを含む名前には、最大 222 文字を含めることができますが、各ドット区切りコンポーネントは、63 文字以下にする必要があります。
-* *パス（オプション）:* &amp; *パスにレポートスイート ID を追加：* 取得または保存するリソースの場所
+![FTP 情報](assets/dest-ftp.jpg)
 
-![GCP 情報](assets/dest-gcp.png)
+### SFTP
 
-**サービスアカウント作成プロセス**
+データフィードの SFTP サポートを利用できます。SFTP ホスト、ユーザー名、および宛先サイトに有効な RSA または DSA 公開鍵が含まれている必要があります。フィードの作成時に、適切な公開キーをダウンロードできます。
 
-ユーザーは、Google Cloud Platform の宛先のサービスアカウントを作成する必要があります。
+![SFTP 情報](assets/dest-sftp.jpg)
 
-Analytics 組織ごとに 1 つの GCP サービスアカウントのみが許可されます。 データフィード用のサービスアカウントが作成されると、組織内のその他すべてのデータフィードに、サービスアカウントが事前に設定されます。
+### S3
 
-![GCP サービスアカウント情報](assets/service-account.png)
+フィードは Amazon S3 バケットに直接送信できます。この宛先タイプには、バケット名、アクセスキー ID および秘密キーが必要です。詳しくは、Amazon S3 ドキュメント内の [Amazon S3 バケットの命名要件](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)を参照してください。
 
-
-### Amazon S3
-
-Amazon S3 バケットストレージは、信頼されたエンティティ内の IAM ロールを介してアクセスします。
-
-**フィールド**
-
-* *タイプ：* Amazon S3 の宛先タイプ
-* *バケット：* S3 バケット名
-* *信頼済みエンティティ ARN:* AWS IAM Entity ARN `arn:aws:iam::<12 digit account number>:user/<username>`
-* *役割 ARN :* AWS IAM Role ARN `arn:aws:iam::<12 digit account number>:role/<role name>`
-* *パス（オプション）:* &amp; *パスにレポートスイート ID を追加：* 取得または保存するリソースの場所
-* *地域の指定（オプション）:* CN 地域を含む、使用可能なすべてのAWS地域のドロップダウン
-
-![Amazon S3 情報](assets/dest-s3-secure.png)
-
-
-**信頼済みエンティティの作成と選択**
-
-ユーザーは、ドロップダウンに表示される任意のオプションから信頼できるエンティティを選択するか、 `Create Entity` 」ボタンをクリックします。
-
-クリック後 `Create Entity` ボタンをクリックすると、ユーザーは認証プロセスにリダイレクトされます。 ユーザーが認証すると、信頼されたエンティティが作成され、ドロップダウンのオプションに追加されます。
-
-ドロップダウンには、このユーザーが組織内で作成した、信頼できるエンティティがすべて一覧表示されます。
-
-![エンティティ情報](assets/entity-creation.png)
-
-従来の方法を使用して、フィードをAmazon S3 バケットに直接送信できます。 詳しくは、Amazon S3 ドキュメント内の [Amazon S3 バケットの命名要件](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)を参照してください。
-
-**フィールド — 非推奨**
-
-* *タイプ：* 非推奨の S3 メソッドの宛先タイプ
-* *バケット：* Amazon S3 Bucket name
-* *パス（オプション）:* &amp; *パスにレポートスイート ID を追加：* 取得または保存するリソースの場所
-* *アクセスキー：* AWSユーザーのアクセスキー ID
-* *秘密鍵：* AWSユーザーの秘密鍵
-* *秘密鍵を確認：* AWSユーザーの秘密鍵を再入力
-
-![S3 情報](assets/dest-s3-dpr.png)
+![S3 情報](assets/dest-s3.jpg)
 
 データフィードのアップロードに使用するユーザーには、次の[権限](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)が必要です。
 
@@ -96,9 +54,12 @@ Amazon S3 バケットストレージは、信頼されたエンティティ内�
 * s3:PutObject
 * s3:PutObjectAcl
 
-Amazon S3 バケットにアップロードするたびに、[!DNL Analytics] は、バケットの所有者を BucketOwnerFullControl ACL に追加します。この ACL は、バケットに必要なポリシーがあるかどうかに関係なく追加されます。詳しくは、[Amazon S3 データフィードの BucketOwnerFullControl 設定とは何ですか？](df-faq.md#BucketOwnerFullControl)を参照してください。
+   >[!NOTE]
+   >
+   >Amazon S3 バケットにアップロードするたびに、[!DNL Analytics] は、バケットの所有者を BucketOwnerFullControl ACL に追加します。この ACL は、バケットに必要なポリシーがあるかどうかに関係なく追加されます。詳しくは、[Amazon S3 データフィードの BucketOwnerFullControl 設定とは何ですか？](df-faq.md#BucketOwnerFullControl)を参照してください。
 
-**サポートされるAWS地域**:
+以下の 16 の標準 AWS 地域がサポートされます（必要に応じて適切な署名アルゴリズムを使用）。
+
 * us-east-2
 * us-east-1
 * us-west-1
@@ -115,77 +76,20 @@ Amazon S3 バケットにアップロードするたびに、[!DNL Analytics] �
 * eu-west-3
 * eu-north-1
 * sa-east-1
-* cn-north-1
-* cn-northwest-1
 
+>[!NOTE]
+>
+>Cn-north-1 地域はサポートされていません。
 
 ### Azure BLOB
 
-ロールベースのアクセス制御 (RBAC) または共有アクセス署名 (SAS) を使用した Azure Blob セキュア宛先。 アクセス制御を選択すると、パネルの内容が更新され、対応するフィールドが反映されます。
+データフィードは Azure BLOB の宛先をサポートしています。コンテナ、アカウント、およびキーが必要です。Amazon は保存データを自動的に暗号化します。データをダウンロードすると、自動的に復号化されます。詳細については、Microsoft Azure ドキュメント内の「[ストレージアカウントの作成](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)」を参照してください。
 
-**フィールド — RBAC**
-* *タイプ：* Azure Blob の宛先の種類
-* *アクセス制御：* RBAC または SAS の使用オプション
-* *Active Directory テナント ID:* Azure アカウントの組織 ID
-* *アプリケーション ID :* Active Directory アダプタからのアプリケーション ID
-* *クライアント秘密鍵：* Azure Client Secret
-* *ストレージアカウント名：* データオブジェクトを含むアカウントの名前
-* *コンテナ名：* 指定されたストレージアカウントに属するコンテナ。
-* *パス（オプション）:* &amp; *パスにレポートスイート ID を追加：* 取得または保存するリソースの場所
-
-![Azure RBAC 情報](assets/dest-azure-rbac.png)
-
-**フィールド — SAS**
-* *タイプ：* Azure Blob の宛先の種類
-* *アクセス制御：* RBAC または SAS の使用オプション
-* *Active Directory テナント ID:* Azure Active Directory インスタンスの ID
-* *アプリケーション ID :* Active Directory アダプタからのアプリケーション ID
-* *クライアント秘密鍵：* Azure Client Secret
-* *キー Vault URI:* Azure Key Vault の場所
-* *キー Vault の秘密鍵名：* セキュリティで保護された Key Vault にアクセスするための秘密鍵名
-* *パス（オプション）:* &amp; *パスにレポートスイート ID を追加：* 取得または保存するリソースの場所
-
-![Azure SAS 情報](assets/dest-azure-sas.png)
-
-**フィールド — 非推奨**
-* *タイプ：* Azure Blob の宛先の種類
-* *コンテナ：* Azure コンテナの名前
-* *パス（オプション）:* &amp; *パスにレポートスイート ID を追加：* 取得または保存するリソースの場所
-* *アカウント：* Azure アカウントの秘密鍵
-* *キー Vault URI:* Azure Key Vault の場所
-* *キー Vault の秘密鍵名：* セキュリティで保護された Key Vault にアクセスするための秘密鍵名
-
-フィード宛先のディスク領域を管理するには、独自のプロセスを実装する必要があります。アドビはサーバーからデータを削除しません。詳細については、Microsoft Azure ドキュメント内の「[ストレージアカウントの作成](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)」を参照してください。
-
-![Azure の廃止された情報](assets/dest-azure-dpr.png)
+![Azure 情報](assets/azure.png)
 
 >[!NOTE]
 >
 >フィード宛先のディスク領域を管理するには、独自のプロセスを実装する必要があります。アドビはサーバーからデータを削除しません。
-
-### FTP — 廃止
-
-**フィールド**
-* *タイプ：* FTP の宛先タイプ
-* *ホスト：* ホストにアクセスするエンドポイント
-* *パス（オプション）:* &amp; *パスにレポートスイート ID を追加：* 取得または保存するリソースの場所
-* *ユーザー名：* ホストのユーザー名
-* *パスワード：* ホストのパスワード
-* *パスワードの確認：* ホストのパスワードを再入力および確認
-
-![FTP 情報](assets/dest-ftp-dpr.png)
-
-### SFTP - 非推奨
-
-データフィードの SFTP サポートを利用できます。SFTP ホスト、ユーザー名、および宛先サイトに有効な RSA または DSA 公開鍵が含まれている必要があります。フィードの作成時に、適切な公開キーをダウンロードできます。
-
-**フィールド**
-* *タイプ：* SFTP の宛先タイプ
-* *ホスト：* ホストにアクセスするエンドポイント
-* *パス（オプション）:* &amp; *パスにレポートスイート ID を追加：* 取得または保存するリソースの場所
-* *RSA 公開鍵：* または *DSA 公開鍵：* ホストにアクセスするための公開鍵
-
-![SFTP 情報](assets/dest-sftp-dpr.png)
 
 ## データ列の定義
 
