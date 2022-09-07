@@ -2,9 +2,9 @@
 title: クロスデバイス分析
 description: デバイスデータをまとめて、デバイス中心のデータから個人中心のデータに変更します。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '883'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
@@ -14,11 +14,7 @@ ht-degree: 100%
 クロスデバイス分析は、Analytics をデバイス中心のビューからユーザー中心のビューに変換する機能です。その結果、アナリストは、ブラウザー、デバイスまたはアプリをまたいだユーザーの行動を把握できます。アドビでは、2 つの包括的なワークフローをサポートし、デバイスデータを相互にリンクします。
 
 * [**フィールドベースのステッチ**](field-based-stitching.md)：決定論的なマッチングのみを使用してデバイスをリンクするため、推奨されるステッチオプションです。仮想レポートスイートでのクロスデバイスステッチのベースとなる Analytics 変数を選択できます。
-* [**デバイスグラフ**](device-graph.md)：CDA は、デバイスグラフと通信し、デバイスをつなぎ合わせます。Co-op グラフでは、決定論的な一致と確率的な一致の両方が使用されます。
-
->[!NOTE]
->
->詳しくは、 [Device Co-op の提供終了](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=ja) を参照してください。
+* [**デバイスグラフ**](device-graph.md)：CDA は、デバイスグラフと通信し、デバイスをつなぎ合わせます。
 
 CDA を使用すると、次のような質問に答えることができます。
 

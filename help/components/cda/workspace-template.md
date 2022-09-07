@@ -2,9 +2,9 @@
 title: CDA Workspace テンプレート
 description: Analysis Workspace 内の CDA テンプレートの各フィールドについて説明します。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: ht
-source-wordcount: '439'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,8 @@ ht-degree: 100%
 
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
-* **Co-op グラフのメンバーに関する特別な注意事項**：Co-op グラフがサポートされる地域とサポートされない地域の訪問者が、レポートスイートのどの部分に含まれているかが表示されます。
 * **ユーザーの ID**：クロスデバイス分析に基づくメソッドを使用して、サイトへの訪問者を識別する頻度を示します。
 * **オーディエンスサイズの測定**：「一意のデバイス」と「人」の比較を表示します。この 2 つの数値の比率は「クロスデバイス圧縮」と呼ばれ、このパネルに表示される計算指標です。この圧縮指標は、次の様々な要因によって異なります。
-   * Co-op グラフまたはプライベートグラフの使用：一般に、Device Co-op を使用する組織は、プライベートグラフを使用する組織よりも圧縮率が高くなる傾向があります。
    * ログイン率：サイトにログインするユーザーが増えるほど、アドビはデバイスをまたいで訪問者を識別し、関連付けられるようになります。サイトのログイン率が低い場合は、圧縮率も低くなります。
    * Experience Cloud ID の有効範囲：ECID を持つ訪問者のみを結び付けることができます。ECID を使用してサイトに来訪した訪問者の割合が低くなると、圧縮率も低くなります。
    * 複数のデバイスの使用：サイトの訪問者が複数のデバイスを使用していない場合は、圧縮率が低くなります。
