@@ -2,10 +2,10 @@
 title: デバイスグラフ
 description: デバイスグラフを使用してデータをステッチする際の前提条件と制限事項を理解します。
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 92%
+source-wordcount: '325'
+ht-degree: 69%
 
 ---
 
@@ -22,15 +22,14 @@ ht-degree: 92%
 >すべての前提条件を満たしていない場合、クロスデバイス分析を有効にできないか、データを結び付ける際に結果の質が低下する可能性があります。
 
 * 「[概要](overview.md)」ページに表示されるすべての前提条件。
-* 組織で、Adobe Experience Platform ID サービス Co-op グラフまたはプライベートグラフを使用する必要があります。Device Co-op ユーザーガイドの「[ホームページ](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ja)」を参照してください。
-* 実装では、Experience Cloud ID サービスの最新バージョンを使用する必要があります。Experience Cloud ID サービスユーザーガイドの「[ホームページ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)」を参照してください。Adobe Experience Platform のタグを使用するほとんどの実装では、既に ECID がデプロイされている可能性があります。
-* 実装ユーザーがログインしたときや電子メールを開いたときなど、個人を識別できるタイミングでは、実装は常にこの `setCustomerIDs` 関数（または相当する SDK）を呼び出します。この要件は、すべてのプラットフォーム（使用する場合はモバイルアプリを含む）に適用されます。Experience Cloud ID サービスユーザーガイドの [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=ja) を参照してください。
+* 組織では、 [Adobe Experience Platform Identity Service プライベートグラフ](https://business.adobe.com/products/experience-platform/identity-service.html). 関連トピック [ホームページ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja) 」を参照してください。
+* 実装では、最新バージョンのExperience CloudID サービス (ECID) を使用する必要があります。 詳しくは、 [ホームページ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) （ ID サービスユーザーガイド）を参照してください。 ほとんどの実装では、 [タグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja) Adobe Experience Platformでは、既に ID サービスがデプロイされている可能性があります。
+* 実装ユーザーがログインしたときや電子メールを開いたときなど、個人を識別できるタイミングでは、実装は常にこの `setCustomerIDs` 関数（または相当する SDK）を呼び出します。この要件は、すべてのプラットフォーム（使用する場合はモバイルアプリを含む）に適用されます。詳しくは、 [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=ja) （ ID サービスユーザーガイド）を参照してください。
 
 ## デバイスグラフに固有の制限
 
 * 従来の Analytics ID はサポートされていません。Experience Cloud ID を持つ訪問者のみを関連付けます。
 * 組織がプライベートグラフを使用している場合、新しいデバイスを結び付けるのに最大 24 時間かかります。
-* Co-op グラフを使用している場合、サイトを訪問する新しいデバイスが関連付けられるまでに最大 2 週間かかる場合があります。CDA での直近の 2 週間の結び付けのレベルは、通常、2 週間よりも古い日付範囲の結び付けのレベルよりも低くなります。
 * サードパーティのデバイスグラフはサポートされていません。
 
 ## 次の手順

@@ -2,10 +2,10 @@
 title: クロスデバイス分析の設定
 description: CDA を有効にする仮想レポートスイートを設定します。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '533'
-ht-degree: 100%
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ CDA は、デバイス間のレポートスイートで、アドビのエンジ�
 
 * Adobe Experience Cloud 組織 ID（英数字の末尾が @AdobeOrg の文字列）
 * CDA で有効にするデバイス間のレポートスイートのレポートスイート ID
-* 使用する CDA の方法（フィールドベースのステッチ、アドビプライベートグラフ、アドビCo-op グラフ）
+* 使用する CDA の方法 ( フィールドベースのステッチまたはAdobeデバイスグラフ )
 * フィールドベースのステッチを使用する場合は、prop またはユーザー ID を含む eVar
 * 再生の頻度とルックバックの期間。オプションとしては、週に 1 回の再生（7 日間のルックバックウィンドウ）や、毎日の再生（1 日間のルックバックウィンドウ）があります。デフォルトでは、7 日間のルックバックウィンドウの週別再生です。この場合、先週のデータは変更される可能性があります（ステッチおよび更新が徐々に行われるため）。
 
