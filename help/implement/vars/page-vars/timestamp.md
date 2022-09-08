@@ -3,10 +3,10 @@ title: タイムスタンプ
 description: ヒットのタイムスタンプを手動で設定します。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 
 ## Web SDK を使用したタイムスタンプ
 
-タイムスタンプ： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `_experience.analytics.session.timestamp`. このフィールドでは、Unix 時間のみがサポートされます。
+タイムスタンプ： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `xdm.timestamp`. このフィールドでは、Unix 時間のみがサポートされます。
 
 ## Adobe Analytics拡張機能を使用したタイムスタンプ
 
