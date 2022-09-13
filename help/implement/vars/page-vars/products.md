@@ -3,10 +3,10 @@ title: 製品
 description: 表示される製品や買い物かごに含まれる製品に関するデータを送信します。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 73%
+source-wordcount: '632'
+ht-degree: 71%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 73%
 * 数量が次にマッピングされています： `productListItems[].quantity`.
 * 価格は `productListItems[].priceTotal`.
 * マーチャンダイジング eVar は `productListItems._experience.analytics.customDimensions.eVars.eVar1` から `productListItems._experience.analytics.customDimensions.eVars.eVar250`に含まれ、製品にバインドするeVarに応じて異なります。
-* マーチャンダイジングイベントのマッピング先 `productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems._experience.analytics.event901to1000.event1000.value`に含まれ、製品にバインドするイベントに応じて異なります。
+* マーチャンダイジングイベントのマッピング先 `productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems._experience.analytics.event901to1000.event1000.value`に含まれ、製品にバインドするイベントに応じて異なります。 これらのフィールドのいずれかにイベントを設定すると、そのイベントは自動的に [イベント](events/events-overview.md) 文字列がAdobe Analyticsに送信されました。
 
 >[!NOTE]
 >
->`lineItemId` まだ標準の Analytics イベントスキーマの一部ではないので、をカスタムフィールドとして追加する必要があります。 Adobeは、将来、専用の「カテゴリ」フィールドを追加する予定です。
+>`lineItemId` は、まだ標準の Analytics イベントスキーマの一部ではないので、カスタムフィールドとして追加する必要があります。 Adobeは、将来、専用の「カテゴリ」フィールドを追加する予定です。
 
 ## Adobe Analytics拡張機能を使用する製品
 
