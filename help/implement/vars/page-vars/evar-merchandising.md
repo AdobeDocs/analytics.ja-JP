@@ -4,10 +4,10 @@ description: 個々の製品に関連付けられるカスタム変数。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 75%
+source-wordcount: '541'
+ht-degree: 71%
 
 ---
 
@@ -48,6 +48,10 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 * 製品構文マーチャンダイジング eVar は、 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` から `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * 製品構文マーチャンダイジングイベントは、 `productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems[]._experience.analytics.event901to1000.event1000.value`. [イベントのシリアル化](events/event-serialization.md) XDM フィールドは、の下にマッピングされます。 `productListItems[]._experience.analytics.event1to100.event1.id` から `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+>[!NOTE]
+>
+>以下でイベントを設定する場合 `productListItems`の場合、イベント文字列で設定する必要はありません。 両方の場所に設定されている場合は、イベント文字列の値が優先されます。
 
 次の例は、 [製品](products.md) 複数のマーチャンダイジング eVar およびイベントの使用：
 
