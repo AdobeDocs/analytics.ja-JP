@@ -3,10 +3,10 @@ title: list
 description: 同じヒットに複数の値を格納するカスタム変数。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 59%
+source-wordcount: '477'
+ht-degree: 67%
 
 ---
 
@@ -24,13 +24,9 @@ ht-degree: 59%
 
 実装で各リスト変数を使用する前に、レポートスイートの設定で各リスト変数を設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/list-var-admin.md)を参照してください。この手順は、すべての実装方法に適用されます。
 
->[!NOTE]
->
->Web SDK でマッピングされたフィールドを使用して実装されたリスト変数は、コンマ (&#39;`,`&#39;) です。
-
 ## Web SDK を使用した変数のリスト
 
-リスト変数は、 [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `_experience.analytics.customDimensions.lists.list1.list[]` から `_experience.analytics.customDimensions.lists.list3.list[]`. 各配列要素には、 `"value"` 各文字列を格納するオブジェクト。 例えば、次の XDM オブジェクトは `list1` 変数 `"Example value 1,Example value 2,Example value 3"`.
+リスト変数は、 [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `_experience.analytics.customDimensions.lists.list1.list[]` から `_experience.analytics.customDimensions.lists.list3.list[]`. 各配列要素には、 `"value"` 各文字列を格納するオブジェクト。 区切り文字を指定する必要はありません。これは、 [レポートスイートの設定](/help/admin/admin/conversion-var-admin/list-var-admin.md). 例えば、コンマ (&#39;`,`&#39;) がリスト変数 1 の区切り文字として設定されている場合、次の XDM オブジェクトは `list1` 変数 `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -61,23 +57,6 @@ ht-degree: 59%
 >[!NOTE]
 >
 >AdobeXDM スキーマに含まれる `key` オブジェクト `value` 各 `list[]` 配列。 Adobeはこれらを使用しません `key` オブジェクトを使用することをお勧めします。
-
-組織で、コンマ (&#39;`,`&#39;) の代わりに、目的の区切り文字を含むリスト文字列全体をカスタム XDM フィールドに渡すことができます。 で目的の区切り文字を受け入れるように list 変数が設定されていることを確認します。 [レポートスイートの設定](/help/admin/admin/conversion-var-admin/list-var-admin.md).
-
-```json
-"xdm": {
-    "custom_object": {
-        "custom_path": {
-            "custom_listvar": "Example value 1|Example value 2|Example value 3"
-        }
-    }
-}
-```
-
-次のいずれかを実行できます。
-
-* カスタム XDM フィールドを Adobe Experience Edge で目的のリスト変数にマッピングする。または
-* 目的のリスト var をコンテキストデータ変数で上書きする処理ルールを作成します。 詳しくは、 [他の XDM フィールドの Analytics 変数へのマッピング](../../aep-edge/variable-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
 
 ## Adobe Analytics拡張機能を使用したリスト変数
 
