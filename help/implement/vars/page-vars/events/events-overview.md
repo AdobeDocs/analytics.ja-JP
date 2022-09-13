@@ -3,10 +3,10 @@ title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
+source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 84%
+source-wordcount: '809'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 
 * カスタムイベント 1 ～ 100 が `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * カスタムイベント 101～200 は、 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* このパターンは、100 個のイベントごとに、 `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` を使用して値を指定します。 `eventx.id` は、シリアル化のための id を指定するために使用されます。
+* このパターンは、100 個のイベントごとに、 `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` は、増分する量を指定するために使用されます。 `eventx.id` は次の場合に使用されます。 [シリアル化](event-serialization.md).
 * 注文は次にマッピングされます： `commerce.purchases.value`.
 * 単位は、すべての `productListItems[].quantity` フィールド。
 * 売上高は、すべての `productListItems[].priceTotal` フィールド。
@@ -32,6 +32,10 @@ ht-degree: 84%
 * 買い物かごからの削除は、 `commerce.productListRemovals.value`.
 * 買い物かご表示は、 `commerce.productListViews.value`.
 * チェックアウトは `commerce.checkouts.value`.
+
+>[!NOTE]
+>
+>イベントが `productListItems` ( 例： `productListItems._experience.analytics.event1.value`) で始まっていて、そのイベントがこのフィールドにまだ存在しない場合、そのイベントはこのフィールドに自動的に追加されます。
 
 ## Adobe Analytics拡張機能を使用するイベント
 
@@ -49,7 +53,7 @@ ht-degree: 84%
 * ドロップダウンで、含めるイベントを選択できます。
 * シリアル化用のオプションのテキストフィールドです。[イベントのシリアル化](event-serialization.md)を参照してください。
 * イベント値のオプションのテキストフィールドです。通貨イベントには通貨を、通貨イベント以外のイベントには整数を含めて、通貨イベントを複数回増やすことができます。例えば、ドロップダウンで `event1` を選択し、このフィールドに `10` を含めると、レポートでは `event1` が 10 ずつ増えます。
-* 別のイベントを追加するボタン。ヒットに含めることのできるイベント数には、妥当な制限はありません。
+* 別のイベントを追加するボタン。1 つのルールに任意の数のイベントを追加できます。
 
 ## AppMeasurement および Analytics 拡張機能のカスタムコードエディターの s.events
 
