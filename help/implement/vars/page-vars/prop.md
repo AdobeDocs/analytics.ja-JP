@@ -3,10 +3,10 @@ title: prop
 description: 実装で使用できるカスタム変数。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 89%
+source-wordcount: '603'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Prop は、好きなだけ使用できるカスタム変数です。prop は、�
 
 ## Web SDK を使用した prop
 
-prop は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `_experience.analytics.customDimensions.props.prop1` から `_experience.analytics.customDimensions.props.prop75`.
+prop は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `_experience.analytics.customDimensions.props.prop1` から `_experience.analytics.customDimensions.props.prop75`. リスト prop は、別々のフィールドセットで指定されます。
 
 ## Adobe Analytics拡張機能を使用する prop
 
@@ -53,13 +53,17 @@ s.prop1 = "Example custom value";
 
 ### リスト prop の設定
 
-レポートスイート設定でリスト prop を有効にします。詳しくは、『管理者ユーザーガイド』の[トラフィック変数](/help/admin/admin/c-traffic-variables/traffic-var.md)を参照してください。目的の区切り文字が正しく設定されていることを確認します。デフォルトの区切り文字は提供されません。
+でリスト prop を有効にする [トラフィック変数](/help/admin/admin/c-traffic-variables/traffic-var.md) 」をクリックします。 目的の区切り文字が正しく設定されていることを確認します。デフォルトの区切り文字は提供されません。
 
 >[!TIP]
 >
-> 実装で使用される一般的な区切り文字は、コンマ（`,`）、コロン（`:`）、セミコロン（`;`）、パイプ（`|`）です。実装に最適な任意の区切り文字を使用できます。
+> 実装で使用される一般的な区切り文字は、コンマ（`,`）、コロン（`:`）、セミコロン（`;`）、パイプ（`|`）です。実装に最適な、拡張されていない ASCII 区切り文字を使用できます。
 
-### リスト prop の設定
+### Web SDK を使用したリスト prop の設定
+
+目的の区切り文字を使用してレポートスイート設定でリスト prop を設定すると、リスト prop はAdobe Analyticsの `_experience.analytics.customDimensions.listProps.prop1.values[]` から `_experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK は、レポートスイートの設定に一覧表示されている正しい区切り文字を自動的に使用します。 XDM フィールドで区切り文字を設定した場合 ( 例： `_experience.analytics.customDimensions.props.prop1.delimiter`) を含めることをお勧めします。これは、レポートスイート設定から自動的に取得される区切り文字を上書きし、リスト prop 文字列を誤って解析する可能性があります。
+
+### Adobe Analytics拡張機能と AppMeasurement を使用したリスト prop の設定
 
 目的の区切り文字を使用してレポートスイートの設定でリスト prop を設定した後は、区切り文字を使用する以外に実装上の違いはありません。
 
