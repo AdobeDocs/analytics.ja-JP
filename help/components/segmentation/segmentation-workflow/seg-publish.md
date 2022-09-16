@@ -4,7 +4,7 @@ title: Experience Cloud へのセグメントの公開
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 100%
 

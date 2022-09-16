@@ -5,7 +5,7 @@ title: SFTP を使用したアドビの FTP アカウントへの接続
 feature: FTP Export
 exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 

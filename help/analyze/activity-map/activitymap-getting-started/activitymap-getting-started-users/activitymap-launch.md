@@ -6,8 +6,8 @@ feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
-source-wordcount: '77'
+workflow-type: tm+mt
+source-wordcount: '75'
 ht-degree: 100%
 
 ---

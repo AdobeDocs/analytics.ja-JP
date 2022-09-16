@@ -4,7 +4,7 @@ title: マーケティングチャネルの権限
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 

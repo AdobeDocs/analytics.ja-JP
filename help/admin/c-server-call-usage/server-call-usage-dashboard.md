@@ -4,7 +4,7 @@ title: 現在のサーバーコールの使用状況の表示
 feature: Server Call Usage
 exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 

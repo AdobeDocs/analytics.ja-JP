@@ -5,7 +5,7 @@ feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 

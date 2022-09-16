@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
 

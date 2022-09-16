@@ -4,7 +4,7 @@ title: セグメントのお気に入りへの登録
 feature: Segmentation
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 

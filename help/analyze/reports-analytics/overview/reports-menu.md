@@ -1,12 +1,12 @@
 ---
 description: Reports & Analytics のレポートメニューの概要を示します。
-title: 'レポートメニュー '
+title: レポートメニュー
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 Reports &amp; Analytics のレポートメニューの概要を示します。
 
 >[!IMPORTANT]
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。 Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 レポートメニューでは、次の機能を提供します。
 

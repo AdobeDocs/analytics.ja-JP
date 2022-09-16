@@ -4,7 +4,7 @@ title: 広告アカウントの管理
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 

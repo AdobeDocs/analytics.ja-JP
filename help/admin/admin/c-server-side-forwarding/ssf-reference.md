@@ -4,7 +4,7 @@ title: サーバー側転送のデータとコードのリファレンス
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## 顧客定義のシグナル {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=ja) も参照してください。
+プレフィックス `c_` が付いたパラメーターは、カスタム定義の変数を示します。[DCS API 呼び出しでサポートされる属性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html) も参照してください。
 
 | シグナル | 説明 |
 | --- |--- |
@@ -53,12 +53,12 @@ ht-degree: 100%
 | `c_colorDepth` | 16 ビットまたは 32 ビットカラーとして指定します。 |
 | `c_connectionType` | 接続のタイプを指定します。次に、オプションを示します。<ul><li>modem</li><li>lan</li></ul> |
 | `c_contextData.*` | 例：<ul><li>AppMeasurement：`s.contextData`</li><li>[category] = &quot;news&quot;;</li><li>シグナル：`c_contextData.category=news`</li></ul> |
-| `c_cookiesEnabled` | Cookie を有効にできるかどうかを指定します。次に、オプションを示します。はい、いいえ、不明 |
+| `c_cookiesEnabled` | Cookie を有効にできるかどうかを指定します。オプションは以下のとおりです。はい、いいえ、不明 |
 | `c_currencyCode` | トランザクションに使用する通貨のタイプ。 |
 | `c_evar#` | カスタム eVar |
 | `c_events` | `s.events` で設定。 |
 | `c_hier#` | カスタム階層変数。 |
-| `c_javaEnabled` | Java を有効にできるかどうかを指定します。次に、オプションを示します。はい、いいえ、不明 |
+| `c_javaEnabled` | Java を有効にできるかどうかを指定します。オプションは以下のとおりです。はい、いいえ、不明 |
 | `c_javaScriptVersion` | ブラウザーでサポートされている JavaScript のバージョン。 |
 | `c_latitude` | 緯度（数値） |
 | `c_linkClick` | オプション：カスタム、ダウンロード終了 |

@@ -4,7 +4,7 @@ title: カスタムレポートの説明
 feature: Admin Tools
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 

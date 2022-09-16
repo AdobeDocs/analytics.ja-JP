@@ -4,7 +4,7 @@ description: 時間の経過に伴うディメンション項目またはデー�
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 

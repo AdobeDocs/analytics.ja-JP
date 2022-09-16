@@ -5,7 +5,7 @@ title: VRS FAQ
 feature: VRS
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 100%
 

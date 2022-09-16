@@ -4,7 +4,7 @@ description: ハッシュの競合とは何かと、どのようにレポート�
 feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 

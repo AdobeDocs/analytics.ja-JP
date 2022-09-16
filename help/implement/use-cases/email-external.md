@@ -4,7 +4,7 @@ description: Adobe Analytics を使用して電子メールコンテンツを追
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 100%
 

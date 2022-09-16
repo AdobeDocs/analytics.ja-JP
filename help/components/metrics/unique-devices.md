@@ -4,7 +4,7 @@ description: 一意のデバイスの数。
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 

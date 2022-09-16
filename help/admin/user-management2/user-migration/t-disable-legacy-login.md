@@ -4,7 +4,7 @@ title: 従来のログインの無効化
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 

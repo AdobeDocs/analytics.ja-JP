@@ -4,7 +4,7 @@ description: 訪問者がサイトに到達する際に使用した検索キー�
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 

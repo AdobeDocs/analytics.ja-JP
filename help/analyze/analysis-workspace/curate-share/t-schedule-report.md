@@ -6,7 +6,7 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
 

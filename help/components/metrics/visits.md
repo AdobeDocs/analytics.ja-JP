@@ -4,7 +4,7 @@ description: 1 回のランディングでの一連のページビュー。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 

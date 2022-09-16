@@ -6,7 +6,7 @@ exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 74%
 
 ## Web SDK を使用したイベント ID の使用
 
-イベントのシリアル化： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) ( 目的のイベント XDM フィールドの `id`. 完全な XDM パスは、シリアル化するイベントに応じて異なります。
+イベントのシリアル化： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) ( 目的のイベント XDM フィールドの `id`. 完全な XDM パスは、シリアル化するイベントに応じて異なります。
 
 例えば、買い物かごへの追加指標をシリアル化する場合、 `commerce.productListAdds.id` XDM フィールドから目的のシリアル化値を取得します。 カスタムイベント 20 をシリアル化する場合は、 `_experience.analytics.event1to100.event20` XDM フィールドから目的のシリアル化値を取得します。
 

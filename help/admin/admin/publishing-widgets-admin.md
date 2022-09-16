@@ -4,10 +4,9 @@ title: 公開ウィジェット
 feature: Admin Tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 exl-id: 97ec07d8-29ad-4ef3-9227-bfdc14a59b97
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '582'
 ht-degree: 100%
 
 ---

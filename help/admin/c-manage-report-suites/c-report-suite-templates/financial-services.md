@@ -4,7 +4,7 @@ title: 金融サービス
 feature: Report Suite Settings
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
 

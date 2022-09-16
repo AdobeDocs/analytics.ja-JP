@@ -4,7 +4,7 @@ description: 指標から訪問の最初のヒットまでの時間。
 feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 

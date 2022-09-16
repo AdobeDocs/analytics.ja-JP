@@ -2,12 +2,12 @@
 description: レポートの項目またはセグメントと他のレポートとの関連付けについて詳しく知りたい場合には、内訳を使用します。これは、別のレポートによるレポートの「内訳」と呼ばれます。
 title: 分類
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 100%
 
 ---

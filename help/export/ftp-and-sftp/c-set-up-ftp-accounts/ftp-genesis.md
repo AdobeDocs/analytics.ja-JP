@@ -5,7 +5,7 @@ title: Data Connectors
 feature: FTP Export
 exl-id: 69225b84-b292-4b16-a5c2-b618c6cd3191
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 

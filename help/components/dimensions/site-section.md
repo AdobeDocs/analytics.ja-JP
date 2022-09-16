@@ -4,7 +4,7 @@ description: サイトセクションの名前。
 feature: Dimensions
 exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 

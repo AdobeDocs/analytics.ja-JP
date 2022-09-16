@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 91%
+source-wordcount: '125'
+ht-degree: 100%
 
 ---
 
@@ -24,5 +24,5 @@ Adobe Report Builder のアンインストール手順です。
 
    Program Files ディレクトリからすべてのファイルおよびフォルダーを完全に削除する場合は、Report Builder をアンインストール後に以下の手順に従います。
 1. **[!UICONTROL スタート]**／**[!UICONTROL コンピューター]**&#x200B;をクリックします。
-1.  [!DNL C:\Program Files\Adobe\]または（64ビット版のWindowsの場合は[!DNL C:\Program Files (x86)\Adobe.]）に移動します。
+1. [!DNL C:\Program Files\Adobe\]、または [!DNL C:\Program Files (x86)\Adobe.]（64 ビット版の Windows の場合は）\Adobe に移動します。
 1. このディレクトリに Report Builder フォルダーがまだ存在する場合は削除します。

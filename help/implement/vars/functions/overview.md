@@ -4,7 +4,7 @@ description: アドビが提供する関数とメソッドを実装で使用す�
 feature: Variables
 exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 

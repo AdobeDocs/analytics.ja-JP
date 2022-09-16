@@ -6,7 +6,7 @@ feature: Cohort Analysis
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: 恒常的なトラフィック増加の指定
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 

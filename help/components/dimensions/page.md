@@ -4,7 +4,7 @@ description: ページの名前。
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%
 

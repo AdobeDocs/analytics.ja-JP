@@ -4,7 +4,7 @@ description: 訪問者のエンゲージメント期限内の最初のマーケ�
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: ダウンロードリンクの名前。
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストでの `lnk_d` 値を持つ `pe` クエリ文字列も持つヒットについて、 ](/help/implement/validate/query-parameters.md) クエリ文字列 [`pev2` からデータを収集します。ヒット内で `pe` クエリ文字列の値が異なる場合、このディメンションはデータを収集しません。
+このディメンションは、イメージリクエストでの `lnk_d` 値を持つ `pe` クエリ文字列も持つヒットについて、クエリ文字列 [`pev2`](/help/implement/validate/query-parameters.md) からデータを収集します。ヒット内で `pe` クエリ文字列の値が異なる場合、このディメンションはデータを収集しません。
 
 AppMeasurement を使用してこのディメンションにデータを送信する場合は、`"d"` のリンクタイプ引数を持つ [`tl()`](/help/implement/vars/functions/tl-method.md) イメージリクエストを送信します。リンク名の引数に必要な値を入力します。
 

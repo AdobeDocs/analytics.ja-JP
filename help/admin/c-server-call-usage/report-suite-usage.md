@@ -4,7 +4,7 @@ title: レポートスイートの使用状況の表示
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 

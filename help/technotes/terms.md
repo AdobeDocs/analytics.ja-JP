@@ -3,7 +3,7 @@ title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
 

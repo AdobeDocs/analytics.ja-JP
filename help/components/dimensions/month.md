@@ -4,7 +4,7 @@ description: 指標が発生した月。
 feature: Dimensions
 exl-id: 77f7aa91-ea2e-482f-9a29-35912efb967a
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、すべての実装で初期設定の状態で動作します。レポートスイートにデータが含まれる場合、このディメンションは機能します。
+このディメンションは、すべての実装において初期設定の状態で動作します。レポートスイートにデータが含まれていれば、このディメンションは機能します。
 
 ## ディメンション項目
 

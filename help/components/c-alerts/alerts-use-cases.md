@@ -4,7 +4,7 @@ title: インテリジェントアラート - 使用例
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
 

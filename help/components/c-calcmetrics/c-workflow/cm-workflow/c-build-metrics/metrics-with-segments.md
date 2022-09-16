@@ -1,10 +1,10 @@
 ---
-description: '個々の指標でセグメント化を行うと、1 つのレポート内の指標を比較できます。 '
+description: 個々の指標でセグメント化を行うと、1 つのレポート内の指標を比較できます。
 title: セグメント化指標
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 

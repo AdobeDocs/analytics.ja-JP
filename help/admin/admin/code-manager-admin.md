@@ -4,7 +4,7 @@ title: コードマネージャー
 feature: Admin Tools
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 

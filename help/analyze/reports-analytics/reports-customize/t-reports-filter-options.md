@@ -2,12 +2,12 @@
 description: フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
 title: レポートデータのフィルタリング
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '674'
 ht-degree: 99%
 
 ---

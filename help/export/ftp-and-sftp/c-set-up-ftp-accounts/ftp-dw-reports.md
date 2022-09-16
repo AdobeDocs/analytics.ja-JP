@@ -5,7 +5,7 @@ title: Data Warehouse が配信するレポート
 feature: FTP Export
 exl-id: d49217a4-33ab-49f8-9207-c5d31e8f798d
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
 

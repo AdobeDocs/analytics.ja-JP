@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
 

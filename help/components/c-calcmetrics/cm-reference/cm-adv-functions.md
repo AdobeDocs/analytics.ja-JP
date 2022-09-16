@@ -4,7 +4,7 @@ title: リファレンス：高度な関数
 feature: Calculated Metrics
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2909'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-count-distinct.png)
 
-レポートにおける「概算顧客数」指標の使用方法を以下に示します。
+レポートにおける「概算顧客数」指標の使用方法を次に示します。
 
 ![](assets/approx-customers.png)
 
@@ -271,7 +271,7 @@ FLOOR(metric)
 |---|---|
 | *metric*  | 丸める指標です。 |
 
-## 以下の値を超える {#concept_A83734A0C0C14646B76D2CC5E677C644}
+## 次よりも大きい {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
 入力された値よりも大きい数字を持つ項目を返します。
 

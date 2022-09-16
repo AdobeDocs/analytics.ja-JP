@@ -4,7 +4,7 @@ description: Analysis Workspace を使用してオーディエンスベースの
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 

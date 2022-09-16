@@ -4,7 +4,7 @@ title: サポートメディア
 feature: Report Suite Settings
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
 

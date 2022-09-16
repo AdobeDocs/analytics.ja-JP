@@ -3,7 +3,7 @@ title: 分類セットの概要
 description: 分類セットを使用して分類データを管理します。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
 

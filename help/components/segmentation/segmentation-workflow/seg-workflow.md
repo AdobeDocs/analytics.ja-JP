@@ -4,7 +4,7 @@ title: セグメントワークフローの概要
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 

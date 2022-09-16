@@ -5,7 +5,7 @@ title: 処理ルールの作成
 feature: Processing Rules
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
 

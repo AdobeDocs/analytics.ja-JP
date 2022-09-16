@@ -4,7 +4,7 @@ description: 変数が設定された（持続的でない）ヒット数。
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%
 

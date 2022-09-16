@@ -4,7 +4,7 @@ description: モバイル属性の参照ファイル。
 feature: Data Feeds
 exl-id: d5130716-2bf2-42ce-811e-26a5081efc18
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 100%
 

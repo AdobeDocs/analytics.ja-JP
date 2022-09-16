@@ -3,7 +3,7 @@ title: Adobe Experience Platform Web SDK を使用した Adobe Analytics の実�
 description: Adobe Experience Platform データ収集の Web SDK 拡張機能を使用して、Adobe Analytics にデータを送信します。
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 source-git-commit: 72b2497c5060f2309f2232a09e46166ac63da944
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 

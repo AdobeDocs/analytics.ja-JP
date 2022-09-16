@@ -4,7 +4,7 @@ title: Advertising Analytics のガイド
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Advertising Analytics を使用すると、すべての Google および Bing �
 
 * Adobe Analytics と統合するアカウントを検索するには、編集権限を持つユーザーのログイン資格情報（Google アカウント ID とパスワードなど）が必要です。
 * Bing 広告の場合、Bing 顧客 ID も必要になります。
-* Internet Explorer 11（または以前のバージョン）を使用している場合、3 つのどの検索エンジンでも [Advertising アカウントを正しく設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)できません。他の Web ブラウザーを使用してください。
+* Internet Explorer 11（または以前のバージョン）を使用している場合、3 つのどの検索エンジンでも [Advertising アカウントを正しく設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)できません。他の web ブラウザーを使用してください。
 
 ## Advertising Analytics の権限 {#section_FCC58EB635954A32990D4E67B52B4369}
 

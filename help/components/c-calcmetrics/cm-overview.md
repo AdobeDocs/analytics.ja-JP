@@ -5,7 +5,7 @@ title: 計算指標および高度な計算（派生）指標
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 

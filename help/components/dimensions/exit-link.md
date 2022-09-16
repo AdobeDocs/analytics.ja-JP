@@ -4,7 +4,7 @@ description: 離脱リンクの名前。
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 

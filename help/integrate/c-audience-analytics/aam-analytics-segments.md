@@ -4,7 +4,7 @@ title: Analytics と Audience Manager のセグメントについて
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
 

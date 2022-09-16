@@ -4,7 +4,7 @@ title: カレンダーのカスタマイズ
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
 

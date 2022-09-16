@@ -4,7 +4,7 @@ title: 分類ルール
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 100%
 
@@ -34,8 +34,8 @@ ht-degree: 100%
 | ルールタイプを選択 | 一致条件を入力 | 分類を設定 | 設定値 |
 |---|---|---|---|
 | 次の語句で始まる | em: | チャネル | 電子メール |
-| 次の語句で終わる | Sale | タイプ | Sale |
-| 次を含む | 2013 | 年 | 2013 |
+| 次の語句で終わる | Sale | タイプ | 販売 |
+| 次を含む | 2013 | 年 | 2013 年 |
 
 ## ルールの処理方法 {#how-rules-are-processed}
 
@@ -57,7 +57,7 @@ about_classification_rules.xml
 
 ## ルールに関する重要な情報
 
-*  [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)で、分類の[!UICONTROL グループ権限]を指定します。
+*    [管理ツール](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)で、分類の[!UICONTROL グループ権限]を指定します。
 
 * **正規表現**：[分類ルールの正規表現](/help/components/classifications/crb/classification-quickstart-rules.md)でヘルプを利用できます。
 
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >レポートスイートは、次の条件を満たした場合&#x200B;*のみ*、このページに表示されます。
    >
    >* レポートスイートに、[!UICONTROL 管理ツール]でその変数に対して定義された分類が 1 つ以上あるとき。
-   >
-   >   （この前提条件については、 [ 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
+      >
+      >   （この前提条件については、 [ 分類ルールセット](/help/components/classifications/crb/classification-rule-set.md) の *変数* を参照してください。）
    >
    >* **[!UICONTROL 使用可能なレポートスイート]**&#x200B;ページでレポートスイートを選択しました。このページは、[ルールセットの追加](/help/components/classifications/crb/classification-rule-set.md)をクリックしてルールセットを作成した後に表示されます。
 

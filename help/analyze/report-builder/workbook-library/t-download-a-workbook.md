@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
@@ -25,5 +25,4 @@ ht-degree: 100%
 >* **編集：**&#x200B;編集のためにワークブックをダウンロードして、開きます。編集のためにダウンロードしたワークブックをアップロードする場合は、手動でアップロードする必要があります。
 >* **削除：**&#x200B;アップロードしたワークブックを削除します。削除するにはワークブックの所有者である必要があります。
 >
-
 

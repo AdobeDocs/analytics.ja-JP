@@ -6,7 +6,7 @@ exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 ## Web SDK を使用した購入 ID
 
-購入 ID は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `commerce.order.purchaseID`.
+購入 ID は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `commerce.order.purchaseID`.
 
 ## Adobe Analytics拡張機能を使用した購入 ID
 

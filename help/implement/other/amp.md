@@ -4,7 +4,7 @@ description: AMP ページへの Adobe Analytics の実装
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 100%
 

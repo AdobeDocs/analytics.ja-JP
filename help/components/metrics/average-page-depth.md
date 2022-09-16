@@ -4,7 +4,7 @@ description: ディメンションが存在するページの平均数。
 feature: Metrics
 exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: 計算指標のワークフロー
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 

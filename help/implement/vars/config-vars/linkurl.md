@@ -6,7 +6,7 @@ exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 61%
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 ## Web SDK を使用した URL のリンク
 
-リンク URL は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `web.webInteraction.URL`.
+リンク URL は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webInteraction.URL`.
 
 ## Adobe Analytics拡張機能を使用したリンク URL
 

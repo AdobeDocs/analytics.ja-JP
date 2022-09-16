@@ -4,7 +4,7 @@ description: 曜日を表します。日付の範囲は関係ありません。
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、すべての実装で初期設定の状態で動作します。レポートスイートにデータが含まれる場合、このディメンションは機能します。
+このディメンションは、すべての実装において初期設定の状態で動作します。レポートスイートにデータが含まれていれば、このディメンションは機能します。
 
 ## ディメンション項目
 

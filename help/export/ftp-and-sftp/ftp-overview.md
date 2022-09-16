@@ -5,7 +5,7 @@ title: Adobe Experience Cloud での FTP および SFTP の使用
 feature: FTP Export
 exl-id: 03111429-6a32-4d0a-bf3c-9ca658de1684
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
 

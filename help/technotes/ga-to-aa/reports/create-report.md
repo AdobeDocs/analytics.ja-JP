@@ -4,7 +4,7 @@ description: Google Analytics などのサードパーティツールに詳し�
 feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Analysis Workspace は既製レポートではなくキャンバスのような�
 
 Analysis Workspace はレポート作成ツールなので、データ収集には影響しません。何が機能するかを確認するためにコンポーネントをプロジェクトに適当にドラッグしても、データに影響はありません。様々なディメンションと指標の組み合わせをワークスペースプロジェクトにドラッグして、利用可能な項目を確認してください。
 
-無効なコンポーネントを誤ってワークスペースプロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 新規]*&#x200B;をクリックして、新しいスレートから始めることもできます。
+無効なコンポーネントを誤って Workspace プロジェクトにドラッグした場合や、手順を 1 つ戻したい場合は、Ctrl + Z キー（Windows）または Command + Z キー（Mac）を押して、最後におこなった操作を元に戻します。左上のメニューで&#x200B;*[!UICONTROL プロジェクト]／[!UICONTROL 新規]*&#x200B;をクリックして、新しいスレートから始めることもできます。
 
 アドビでは、右クリックのコンテキストメニューに Analysis Workspace の多くの機能を追加しました。ほとんどのビジュアライゼーションとコンポーネントは、右クリックすることでより詳細な分析とインタラクションを実行できます。ワークスペース内のコンポーネントを右クリックして、使用可能なオプションを確認できます。
 

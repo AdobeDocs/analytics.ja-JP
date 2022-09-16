@@ -4,7 +4,7 @@ description: アドビと提携し、高トラフィックイベントに待ち�
 feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 100%
 

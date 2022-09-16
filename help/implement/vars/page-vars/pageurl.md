@@ -6,7 +6,7 @@ exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ AppMeasurement は、各ヒットでページ URL を自動的に収集します
 
 ## Web SDK を使用したページ URL
 
-ページ URL は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `web.webPageDetails.URL`.
+ページ URL は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webPageDetails.URL`.
 
 ## Adobe Analytics拡張機能を使用したページ URL
 

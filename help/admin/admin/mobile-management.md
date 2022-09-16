@@ -3,10 +3,9 @@ description: アプリ管理を有効にすると、モバイルアプリケー�
 title: アプリ管理
 feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '623'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,7 @@ Adobe Analytics と Mobile Services のこの統合により、
 
 **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL アプリ管理]**／**[!UICONTROL アプリレポート]**。
 
-## 手順 1.アプリレポートを有効にする {#section_FBADF80AED2B4978A904ABB770B3B931}
+## 手順 1：アプリレポートを有効にする {#section_FBADF80AED2B4978A904ABB770B3B931}
 
 アプリレポート v3.0 を有効にして、次の指標を測定します。
 
@@ -45,7 +44,7 @@ Adobe Analytics と Mobile Services のこの統合により、
 * Mobile Services 内で特定の目標地点（POI）を識別、作成および視覚化します。POI は、モバイル SDK 設定ファイル内に定義する必要があります。
 * Bluetooth ビーコン（UUID、Major、Minor および Proximity）を追跡します。
 
-## 手順 3.（オプション）バックグラウンドヒットの従来のレポートおよび属性を有効にする {#section_1708BCAA87AA4884986F7532759C5DD4}
+## 手順 3.（オプション）バックグラウンドヒットの従来のレポートおよび属性を有効にする  {#section_1708BCAA87AA4884986F7532759C5DD4}
 
 有効なバックグラウンドヒット（アプリがバックグラウンドにあるときに生成されたヒット）とは、ヒットが通常のフォアグラウンドヒットとして扱われることを意味します。有効なバックグラウンドヒットは、通常のレポートに表示され、属性にも影響します。通常、この設定は、レガシー実装との一貫性を保つ目的でのみ使用することをお勧めします。
 

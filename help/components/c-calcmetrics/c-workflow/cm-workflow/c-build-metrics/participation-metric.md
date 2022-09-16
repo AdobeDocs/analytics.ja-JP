@@ -4,7 +4,7 @@ title: パーティシペーション指標
 feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 

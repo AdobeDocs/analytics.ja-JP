@@ -5,7 +5,7 @@ title: 処理ルールで使用可能なディメンション
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 100%
 
@@ -129,11 +129,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照ルートドメイン（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>リファラーのホスト名の最後の 2 つのセクション。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>参照クエリー文字列（読み取り専用） </p> </td> 
-   <td colname="col2"> <p>参照 URL に含まれるクエリー文字列パラメーター。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>参照 URL に含まれるクエリー文字列パラメーター。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP アドレス（読み取り専用） </p> </td> 

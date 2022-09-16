@@ -4,7 +4,7 @@ description: ヒットの元の国。
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 

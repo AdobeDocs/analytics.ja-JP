@@ -4,7 +4,7 @@ description: Adobe Analytics をサイト、プロパティまたはアプリケ
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 

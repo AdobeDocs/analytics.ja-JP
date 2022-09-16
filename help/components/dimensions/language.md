@@ -4,7 +4,7 @@ description: ブラウザーの優先言語設定。
 feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 

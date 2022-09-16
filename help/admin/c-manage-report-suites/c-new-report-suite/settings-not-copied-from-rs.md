@@ -4,7 +4,7 @@ title: ソースレポートスイートからコピーされない設定
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 

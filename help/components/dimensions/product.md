@@ -1,10 +1,10 @@
 ---
-title: '製品         '
+title: 製品
 description: 製品名。
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 

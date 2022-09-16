@@ -3,7 +3,7 @@ title: 有料検索指標のインポート
 description: データソースを使用して有料検索指標（Google AdWords、MSN、Yahoo など）を追跡するように Adobe Analytics を設定する手順。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: 7c5bfadabe2ea851bb881d067d48b4f4700a53c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 100%
 

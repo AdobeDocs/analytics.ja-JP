@@ -6,7 +6,7 @@ exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ eVar は、好きなだけ使用できるカスタム変数です。[ソリュ�
 
 ## Web SDK を使用した eVar
 
-eVar は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `_experience.analytics.customDimensions.eVars.eVar1` から `_experience.analytics.customDimensions.eVars.eVar250`.
+eVar は [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `_experience.analytics.customDimensions.eVars.eVar1` から `_experience.analytics.customDimensions.eVars.eVar250`.
 
 ## Adobe Analytics拡張機能を使用した eVar
 

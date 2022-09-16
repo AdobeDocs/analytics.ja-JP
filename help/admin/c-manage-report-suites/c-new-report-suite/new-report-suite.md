@@ -5,7 +5,7 @@ feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 

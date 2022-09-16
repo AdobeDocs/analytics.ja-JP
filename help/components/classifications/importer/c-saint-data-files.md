@@ -4,9 +4,9 @@ title: 分類データファイル
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 **例：**&#x200B;キャンペーン A のコストが $10,000 の場合、「[!UICONTROL Campaigns^~Cost]」列には値「10000」、「[!UICONTROL Campaigns^~Cost~per]」列には「[!UICONTROL FIXED]」が含まれます。レポートにキャンペーン A のコストを表示すると、日付範囲に対応するキャンペーン A の固定コストとして $10,000 が表示されます。
 
-**例：**&#x200B;キャンペーン B のコストがクリックあたりおよそ $2 である場合、「[!UICONTROL Campaigns^~Cost]」列には「2」、「**[!UICONTROL Campaigns^~Cost~per]**」列には「[!UICONTROL CLICK]」が含まれます。レポートにキャンペーン B のコストを表示するとき、レポートの日付範囲に対応する、その時点の「2 * [クリック数]」が計算されます。これにより、キャンペーン B でのクリック数に基づいて合計コストを計算できます。
+**例：**&#x200B;キャンペーン B のコストがクリックあたりおよそ $2 である場合、「[!UICONTROL Campaigns^~Cost]」列には「2」、「**[!UICONTROL Campaigns^~Cost~per]**」列には「[!UICONTROL CLICK]」が含まれます。レポートにキャンペーン B のコストを表示すると、Adobeは (2) を計算します &#42; [クリック数]) をオンにして、レポートの日付範囲に対応させます。 これにより、キャンペーン B でのクリック数に基づいて合計コストを計算できます。
 
 ### 日付
 
@@ -203,4 +203,4 @@ ht-degree: 100%
 
 ## 分類のトラブルシューティング
 
-* [一般的なアップロードの問題](https://helpx.adobe.com/jp/analytics/kb/common-saint-upload-issues.html)：不適切なファイル形式およびファイルの内容に起因する問題について説明したナレッジベース記事です。
+* [一般的なアップロードの問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：不適切なファイル形式およびファイルの内容に起因する問題について説明したナレッジベース記事です。

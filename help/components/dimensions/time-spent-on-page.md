@@ -4,7 +4,7 @@ description: 訪問者がページに滞在した時間。
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、すべての実装で初期設定の状態で動作します。レポートスイートにデータが含まれる場合、このディメンションは機能します。
+このディメンションは、すべての実装において初期設定の状態で動作します。レポートスイートにデータが含まれていれば、このディメンションは機能します。
 
 ## ディメンション項目
 

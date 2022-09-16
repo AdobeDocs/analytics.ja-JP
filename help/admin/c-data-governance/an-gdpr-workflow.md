@@ -4,7 +4,7 @@ title: プライバシーワークフロー
 feature: Privacy
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 

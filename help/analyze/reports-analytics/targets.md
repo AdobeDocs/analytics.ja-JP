@@ -2,12 +2,12 @@
 description: ターゲットでは、Web サイトのパフォーマンスを測定し、目標に対する達成度をトラッキングできます。例えば、ある地理的な地域からの訪問者数、注文ごとの売上高、または特定のリファラーからのヒット数などを向上することを目標にしているとします。
 title: ターゲット
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 source-git-commit: a51577d1c13cdeaa8ac68175d4695bfd82f394ab
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '562'
 ht-degree: 90%
 
 ---
@@ -22,31 +22,31 @@ ht-degree: 90%
 
 ## [!UICONTROL ターゲットフィールドの説明] {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** /  **[!UICONTROL コンポーネント]** /  **[!UICONTROL すべてのコンポーネント]** /  **[!UICONTROL ターゲット]**
+**[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL ターゲット]**
 
 [!UICONTROL ターゲットの追加/編集]ページのフィールドとオプションについて説明します。
 
 | 要素 | 説明 |
 | --- | --- |
-| [!UICONTROL ターゲット名] | [!UICONTROL ターゲットの管理]ページに表示するターゲット名を指定します。 |
+| [!UICONTROL ターゲット名] | ターゲット名を指定します。この名前は [!UICONTROL ターゲットの管理] ページ。 |
 | [!UICONTROL 適用先] | ターゲットの適用先は、サイト全体または選択した属性または eVar のいずれかを選択できます。 |
 | [!UICONTROL 項目の選択] | 関連アイテムに対してアドバンス検索を実行できるよう、選択した属性または [!UICONTROL eVar の選択フォームを表示します。]‎例えば、「[!UICONTROL 国]」という eVar を選択すると、アイテムリストに選択可能な国名が表示されます。同様に、「[!UICONTROL 製品]」という eVar を選択すると、アイテムリストに選択可能な製品が表示されます。このメニューには、カスタムインサイト変数も表示されます。訪問者の年齢範囲を測定するカスタムインサイト変数を設定している場合は、アイテムリストに「18 ～ 24」、「25 ～ 35」などの年齢範囲が表示されます。 |
 | [!UICONTROL 指標] | ターゲットを指標に適用できます。このメニューには、指定の eVar に適用される指標のみが表示されます。例えば、「[!UICONTROL 製品]」を eVar として選択すると、「[!UICONTROL ページ移動]」などの指標は適用できません。「[!UICONTROL ページ移動]」指標は、Web ページ数 eVar に適用できます。 |
 | [!UICONTROL ピリオド] | ターゲットの[!UICONTROL 日付範囲]設定および[!UICONTROL 精度]設定を定義できます。指定した期間によっては、一部の精度オプションを使用できない場合があります。指標の値を入力する場合は、それぞれの精度の設定に対する値を入力してください。例えば、期間を「2 月」、精度を「週」に設定した場合、2 月の各週ごとの値を入力します。[!UICONTROL ターゲットレポートは、それぞれの精度の設定ごとに表示されます。] |
 | [!UICONTROL values] | 期間および選択した指標に対するターゲット値を指定できます。これらの値は、到達しようとしているターゲット数です。 例えば、売上高に基づいたターゲットで、ある月の売上高目標を $10,000 としている場合は、その月の値フィールドに「10000」と入力します。 |
 
-## [!UICONTROL ターゲット]を追加します。 {#task_94915391E26E4F808F2538AA92BC7E71}
+## を追加します。 [!UICONTROL ターゲット] {#task_94915391E26E4F808F2538AA92BC7E71}
 
 ターゲットを追加する手順を説明します。
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL すべてのコンポーネント]** / **[!UICONTROL ターゲット]**&#x200B;をクリックします。
-1. [!UICONTROL Manage Targets]ページで、「**[!UICONTROL Add New...」をクリックします。]**&#x200B;と入力します。
+1. クリック **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL ターゲット]**.
+1. の [!UICONTROL ターゲットの管理] ページ、クリック **[!UICONTROL 新規追加…]**.
 1. [ターゲットフィールドの説明](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
 1. 「**[!UICONTROL OK]**」をクリックします。
 
-## [!UICONTROL ターゲット]の編集 {#task_946C558D2ECC4922ABD4A5A6183A095A}
+## の編集 [!UICONTROL ターゲット] {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. **[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL すべてのコンポーネント]** / **[!UICONTROL ターゲット]**&#x200B;をクリックします。
+1. クリック **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL ターゲット]**.
 1.  「**[!UICONTROL 管理]**」列で、「**[!UICONTROL 編集]**」アイコンをクリックします。
 1. [ターゲットフィールドの説明](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)で説明したオプションを構成します。
 1. 「**[!UICONTROL OK]**」をクリックします。

@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 100%
 

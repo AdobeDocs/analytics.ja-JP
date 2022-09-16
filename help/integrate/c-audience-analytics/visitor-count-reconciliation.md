@@ -4,7 +4,7 @@ title: 訪問者数の相違
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Adobe Analytics と Adobe Audience Manager には同様の定義の訪問者指�
    <td colname="col3"> <p>ルックバック期間にセグメントのメンバーであったデバイス（Experience Cloud ID）の数。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja"  > AAM：Real-Time Segment Population</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：Real-Time Segment Population</a> </p> </td> 
    <td colname="col3"> <p>ルックバック期間にセグメントのメンバーであり、プロパティにアクセスしたデバイス（Experience Cloud ID）の数。 </p> </td> 
   </tr> 
   <tr> 

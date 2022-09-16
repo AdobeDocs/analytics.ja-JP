@@ -4,7 +4,7 @@ description: 個々のページに値を設定します。
 feature: Variables
 exl-id: 321d0db2-61a3-478e-ab51-8e06c7b2bb7b
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 

@@ -1,5 +1,5 @@
 ---
-title: 'dynamicAccountSelection '
+title: dynamicAccountSelection
 description: dynamicAccountSelection 変数は、動的アカウント選択を有効化または無効化します。
 feature: Implementation Basics
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 98%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 98%
   <tr> 
    <td colname="col1"> " " </td> 
    <td colname="col2"> 次と等しい </td> 
-   <td colname="col3"> <p>引用符をペアで使用しなければエスケープされません。例えば、<span class="term"> 17" Display</span>はフレーズではありません。 </p> </td> 
+   <td colname="col3"> <p>引用符をペアで使用しなければエスケープされません。例： <span class="term"> 17 インチディスプレイ</span> がフレーズではありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
@@ -138,7 +138,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> - </td> 
-   <td colname="col2"> Not </td> 
+   <td colname="col2">  ではない </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 

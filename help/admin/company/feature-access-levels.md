@@ -4,7 +4,7 @@ title: 機能アクセスレベル
 feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%
 

@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1098'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Analysis Workspace では、次のパネルタイプを利用できます。
 | [アトリビューションパネル](attribution.md) | 任意のディメンションとコンバージョン指標を使用して、アトリビューションモデルをすばやく比較および視覚化します。 |
 | [フリーフォームパネル](freeform-panel.md) | 無制限の比較および分類を実行し、ビジュアライゼーションを追加して豊かなデータのストーリーを示します。 |
 | [メディア分平均オーディエンスパネル](average-minute-audience-panel.md) | ピーク表示の詳細と分類および比較機能を使用して、分平均オーディエンスを経時的に分析します。 |
-| [メディアの同時視聴者パネル](media-concurrent-viewers.md) | 同時実行のピークの詳細と分類および比較機能を使用して、経時的に同時視聴者を分析します。 |
+| [メディアの同時視聴者数パネル](media-concurrent-viewers.md) | 同時実行のピークの詳細と分類および比較機能を使用して、経時的に同時視聴者を分析します。 |
 | [メディア再生滞在時間パネル](media-playback-timespent/media-playback-time-spent.md) | 同時実行のピークの詳細と分類および比較機能を使用して、経時的に同時視聴者を分析します。 |
 | [セグメント比較パネル](c-segment-comparison/segment-comparison.md) | すべてのデータポイントで 2 つのセグメントをすばやく比較し、関連性の高い違いを自動的に見つけます。 |
 
@@ -90,7 +90,7 @@ Analysis Workspace では、次のパネルタイプを利用できます。
 
 ![](assets/create-dropdown.png)
 
-プロジェクトにドロップダウンフィルターを追加する方法について詳しくは、[ビデオをご覧ください](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ja)。 
+プロジェクトにドロップダウンフィルターを追加する方法について詳しくは、[ビデオをご覧ください](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=ja)。
 
 ## 右クリックメニュー {#right-click}
 

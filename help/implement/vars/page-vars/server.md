@@ -6,7 +6,7 @@ exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 73%
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 73%
 
 ## Web SDK を使用するサーバー
 
-サーバー： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `web.webPageDetails.server`.
+サーバー： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webPageDetails.server`.
 
 ## Adobe Analytics拡張機能を使用するサーバー
 

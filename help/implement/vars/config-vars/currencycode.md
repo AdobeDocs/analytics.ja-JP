@@ -6,7 +6,7 @@ exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 ## Web SDK を使用した通貨コード
 
-通貨コード： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `commerce.order.currencyCode`.
+通貨コード： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `commerce.order.currencyCode`.
 
 ## Adobe Analytics拡張機能を使用した通貨コード
 

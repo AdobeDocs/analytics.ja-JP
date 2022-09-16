@@ -6,7 +6,7 @@ exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 80%
 
 ## Web SDK を使用したページ名
 
-ページが [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `web.webPageDetails.name`.
+ページが [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webPageDetails.name`.
 
 ## Adobe Analytics拡張機能を使用したページ名
 

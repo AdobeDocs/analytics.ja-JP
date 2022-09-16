@@ -4,7 +4,7 @@ description: カスタムリンクの名前。
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、イメージリクエストでの `lnk_o` 値を持つ `pe` クエリ文字列も持つヒットについて、 ](/help/implement/validate/query-parameters.md) クエリ文字列 [`pev2` からデータを収集します。ヒット内で `pe` クエリ文字列の値が異なる場合、このディメンションはデータを収集しません。
+このディメンションは、イメージリクエストでの `lnk_o` 値を持つ `pe` クエリ文字列も持つヒットについて、クエリ文字列 [`pev2`](/help/implement/validate/query-parameters.md) からデータを収集します。ヒット内で `pe` クエリ文字列の値が異なる場合、このディメンションはデータを収集しません。
 
 AppMeasurement を使用してこのディメンションにデータを送信する場合は、`"o"` のリンクタイプ引数を持つ [`tl()`](/help/implement/vars/functions/tl-method.md) イメージリクエストを送信します。リンク名の引数に必要な値を入力します。
 

@@ -4,7 +4,7 @@ title: コマース
 feature: Report Suite Settings
 exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
 

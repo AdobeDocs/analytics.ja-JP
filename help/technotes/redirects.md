@@ -5,7 +5,7 @@ title: リダイレクトとエイリアス
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 100%
 

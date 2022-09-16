@@ -4,7 +4,7 @@ description: 分類は値をグループにまとめてレポートするため�
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
 

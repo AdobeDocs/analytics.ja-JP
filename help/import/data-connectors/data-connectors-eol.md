@@ -4,7 +4,7 @@ title: Analytics Data Connectors の提供終了前の発表
 feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 100%
 

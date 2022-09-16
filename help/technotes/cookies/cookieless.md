@@ -4,7 +4,7 @@ description: Adobe Analytics のデータ収集を改善するために、ブラ
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
 

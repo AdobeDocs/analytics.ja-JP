@@ -4,7 +4,7 @@ title: リファレンス：基本的な関数
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -178,7 +178,7 @@ QUARTILE(metric,quart)
 | *metric*  | 四分位数を求める指標です。 |
 | *quart* | 四分位数として返す値*を示します。 |
 
-**quart* = 0 の場合、QUARTILE は最小値を返します。*quart* = 1 の場合、QUARTILE は第 1 四分位数（25 番目のパーセンタイル）を返します。*quart* = 2 の場合、QUARTILE は第 1 四分位数（50 番目のパーセンタイル）を返します。*quart* = 3 の場合、QUARTILE は第 1 四分位数（75 番目のパーセンタイル）を返します。*quart* = 4 の場合、QUARTILE は最大値を返します。
+&#42;*quart* = 0 の場合、QUARTILE は最小値を返します。*quart* = 1 の場合、QUARTILE は第 1 四分位数（25 番目のパーセンタイル）を返します。*quart* = 2 の場合、QUARTILE は第 1 四分位数（50 番目のパーセンタイル）を返します。*quart* = 3 の場合、QUARTILE は第 1 四分位数（75 番目のパーセンタイル）を返します。*quart* = 4 の場合、QUARTILE は最大値を返します。
 
 ## ラウンド数 {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -265,7 +265,7 @@ VARIANCE(metric)
 | --- | --- |
 | *metric*  | 平方偏差を求める指標です。 |
 
-平方偏差を計算するには、数字の列全体を見ます。まず、すべての数字の平均を求めます。平均を求めたら、各数字に対して次の計算をおこないます。
+平方偏差を計算するには、数字の列全体を見ます。まず、すべての数字の平均を求めます。平均を求めたら、各数字に対して次の計算を行います。
 
 1. 数字から平均を減算します。
 1. 結果を 2 乗します。

@@ -4,7 +4,7 @@ description: デバイスの IP アドレスに基づくディメンション。
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 

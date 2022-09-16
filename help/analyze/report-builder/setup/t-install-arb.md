@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 94%
+source-wordcount: '140'
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ Report Builder のインストール手順です。
 
 ## 権限
 
-「**[!UICONTROL ツール]**」の下のメニュー項目として「**[!UICONTROL Report Builder]**」が表示されない場合は、Adobe Analytics　管理者に問い合わせ、「Report Builder」権限を持つ製品プロファイルに自分が所属していることを確認してください。[製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja)および [Analytics 権限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)の詳細をご覧ください。
+「**[!UICONTROL ツール]**」の下のメニュー項目として「**[!UICONTROL Report Builder]**」が表示されない場合は、Adobe Analytics　管理者に問い合わせ、「Report Builder」権限を持つ製品プロファイルに自分が所属していることを確認してください。[製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja)および [Analytics 権限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ja)の詳細をご覧ください。

@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 39%
 
 ---
 

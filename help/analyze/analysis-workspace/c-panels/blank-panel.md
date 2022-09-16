@@ -1,12 +1,12 @@
 ---
 description: 任意のビジュアライゼーションの開始点として空のパネルを作成します。
 title: 空のパネル
-feature: パネル
+feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '58'
+workflow-type: tm+mt
+source-wordcount: '57'
 ht-degree: 100%
 
 ---

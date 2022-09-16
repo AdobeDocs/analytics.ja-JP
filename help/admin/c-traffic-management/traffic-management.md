@@ -4,7 +4,7 @@ title: トラフィックの管理
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 100%
 

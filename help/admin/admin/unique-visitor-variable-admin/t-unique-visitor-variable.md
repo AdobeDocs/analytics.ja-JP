@@ -4,7 +4,7 @@ title: ユニーク訪問者変数の指定
 feature: Admin Tools
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
 

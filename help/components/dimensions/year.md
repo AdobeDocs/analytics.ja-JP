@@ -4,7 +4,7 @@ description: 指標が発生した年。
 feature: Dimensions
 exl-id: 872fb659-fb19-40ac-b371-e89c5a5d0274
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、すべての実装で初期設定の状態で動作します。レポートスイートにデータが含まれる場合、このディメンションは機能します。
+このディメンションは、すべての実装において初期設定の状態で動作します。レポートスイートにデータが含まれていれば、このディメンションは機能します。
 
 ## ディメンション項目
 

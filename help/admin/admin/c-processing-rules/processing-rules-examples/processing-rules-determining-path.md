@@ -5,10 +5,9 @@ title: eVar 値を prop にコピーしてパスを指定
 feature: Admin Tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 exl-id: 23c978b9-a159-4364-9214-561a255d23e4
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---

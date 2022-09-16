@@ -4,7 +4,7 @@ description: マーケティングチャネルでの Attribution IQ と Customer
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## ベストプラクティス #1：Attribution IQ を制御分析に活用
 
-マーケティングチャネル分析を微調整するには、既存のマーケティングチャネルアトリビューションの代わりに [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ja#analysis-workspace) を使用することをお勧めします。他のベストプラクティスに従って、Attribution IQ を使用した分析との一貫性と堅牢な制御を確保します。
+マーケティングチャネル分析を微調整するには、既存のマーケティングチャネルアトリビューションの代わりに [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) を使用することをお勧めします。他のベストプラクティスに従って、Attribution IQ を使用した分析との一貫性と堅牢な制御を確保します。
 
 ![](assets/attribution.png)
 

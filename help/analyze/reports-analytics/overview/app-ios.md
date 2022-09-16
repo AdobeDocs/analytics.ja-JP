@@ -2,12 +2,12 @@
 description: iPad アプリケーションを紹介します。
 title: iOS 版 Adobe Analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 04643de2-793f-403b-ba2f-807453efc2fe
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---

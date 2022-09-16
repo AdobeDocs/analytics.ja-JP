@@ -4,7 +4,7 @@ description: サイトで H コードを実装するためのワークフロー�
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 

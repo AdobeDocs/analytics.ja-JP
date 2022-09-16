@@ -4,7 +4,7 @@ description: 現在のヒットから最後の訪問までの日数。
 feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、すべての実装で初期設定の状態で動作します。レポートスイートにデータが含まれる場合、このディメンションは機能します。
+このディメンションは、すべての実装において初期設定の状態で動作します。レポートスイートにデータが含まれていれば、このディメンションは機能します。
 
 ## ディメンション項目
 

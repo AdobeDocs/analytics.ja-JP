@@ -5,7 +5,7 @@ title: レポートスイートを非表示
 feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 

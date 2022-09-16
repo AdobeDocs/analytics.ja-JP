@@ -4,7 +4,7 @@ description: ソリューションデザインドキュメントとは何か、�
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 100%
 

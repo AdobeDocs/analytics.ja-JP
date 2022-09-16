@@ -4,7 +4,7 @@ description: グローバルレポートスイートを使用する利点と要�
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 

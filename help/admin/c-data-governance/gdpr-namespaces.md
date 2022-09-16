@@ -4,7 +4,7 @@ title: 名前空間
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 

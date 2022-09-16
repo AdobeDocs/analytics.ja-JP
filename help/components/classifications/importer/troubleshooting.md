@@ -4,7 +4,7 @@ description: 分類インポーターの使用時に、アップロードに関�
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: Facebook インスタント記事ページに Adobe Analytics を�
 feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 

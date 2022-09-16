@@ -4,7 +4,7 @@ title: リアルタイムレポートの設定
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
 

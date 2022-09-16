@@ -1,6 +1,6 @@
 ---
 description: Web ページトラフィックをリアルタイムで表示し、ページビュー数をランク付けします。これにより、サイトのトレンドをよりすばやく把握できるようになります。
-title: リアルタイムレポート概要
+title: リアルタイムレポートの概要
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin

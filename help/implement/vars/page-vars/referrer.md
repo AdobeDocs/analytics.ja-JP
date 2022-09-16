@@ -6,7 +6,7 @@ exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 
 ## Web SDK を使用したリファラー
 
-リファラー： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) XDM フィールドの下 `web.webReferrer.URL`.
+リファラー： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `web.webReferrer.URL`.
 
 ## Adobe Analytics拡張機能を使用したリファラー
 

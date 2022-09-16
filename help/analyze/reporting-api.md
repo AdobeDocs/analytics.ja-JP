@@ -14,7 +14,7 @@ ht-degree: 92%
 
 # Analytics レポート API
 
-Adobe Analytics API のドキュメントは、 [Adobe開発者](https://developer.adobe.com/analytics-apis/docs/2.0/).
+Adobe Analytics API のドキュメントは、 [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/).
 
 ## Analytics API の比較
 

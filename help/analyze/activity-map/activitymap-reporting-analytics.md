@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '265'
 ht-degree: 92%
 
 ---
@@ -21,7 +21,7 @@ Analytics で権限を設定する方法と、Analytics で使用可能なディ
 ユーザーが Activity Map ディメンションを使用してレポートを作成できるようにするには、管理者が次の設定をおこなう必要があります。
 
 * [Activity Map アクセスグループにユーザーを追加します](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* このグループによるアクセスを許可するレポートスイートを追加します。**[!UICONTROL 管理者]** / **[!UICONTROL すべての管理者]** / **[!UICONTROL Activity Map管理]** / **[!UICONTROL グループ]** / **[!UICONTROL ユーザーアクセス]** / **[!UICONTROL 編集]**&#x200B;に移動します。
+* このグループによるアクセスを許可するレポートスイートを追加します。に移動します。 **[!UICONTROL 管理者]** > **[!UICONTROL すべての管理者]** > **[!UICONTROL ユーザー管理]** > **[!UICONTROL グループ]** > **[!UICONTROL Activity Mapアクセス]** > **[!UICONTROL 編集]**.
 * ディメンションに対するユーザーのアクセス権をカスタマイズします。次の節を参照してください。
 
 ## Analytics Activity Map ディメンション {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}

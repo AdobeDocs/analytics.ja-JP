@@ -4,7 +4,7 @@ title: セキュリティマネージャー
 feature: Company Settings
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: Adobe Analytics のデータを他の Analytics ソリューショ�
 feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 

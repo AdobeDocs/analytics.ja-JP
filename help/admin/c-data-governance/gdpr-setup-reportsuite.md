@@ -4,7 +4,7 @@ title: レポートスイートのデータのラベル設定
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 

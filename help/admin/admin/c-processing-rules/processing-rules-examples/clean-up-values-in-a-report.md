@@ -5,10 +5,9 @@ title: レポート内の値のクリーンアップ
 feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---

@@ -4,7 +4,7 @@ title: カンパニー設定の概要
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 100%
 

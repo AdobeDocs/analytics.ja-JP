@@ -57,7 +57,7 @@ Analysis Workspace の新しい[フォールアウト分析](https://experiencel
 
 ページフローレポートには、訪問者がページにアクセスした順序と使用したナビゲーション方法が表示されます。このレポートは問題を解決するのに役立ちます。
 
-Analysis Workspaceの[フロービジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)を確認します。
+以下を確認します。 [フロービジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) Analysis Workspace!
 
 例えば、**[!UICONTROL レポート]**／**[!UICONTROL パス]**／**[!UICONTROL ページ]**／**[!UICONTROL 次ページのフロー]**&#x200B;をクリックします。
 
@@ -69,7 +69,7 @@ Analysis Workspaceの[フロービジュアライゼーション](https://experi
 
 ## 異常値検出レポートの実行 {#task_4808C96327354D789C075823F5C3A049}
 
-[異常値検出と貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ja)は、Analysis Workspaceでのみ実行できます。
+次を実行できます。 [異常値検出と貢献度分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=ja) Analysis Workspaceでのみ
 
 ## リアルタイムレポートの実行 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -79,7 +79,7 @@ Analysis Workspaceの[フロービジュアライゼーション](https://experi
 
 リアルタイムレポートには、概要レポートと詳細レポートという 2 つのメインレポートがあります。それぞれは複数のレポートレットから構成されています。
 
-詳しくは、[リアルタイムレポートの概要](/help/components/c-real-time-reporting/realtime.md)を参照してください。
+詳しくは、 [リアルタイムレポートの概要](/help/components/c-real-time-reporting/realtime.md) を参照してください。
 
 1. **[!UICONTROL 概要]**&#x200B;レポートとそのコンポーネントをひととおり確認します。![](assets/rtr_overview_report.png)
 

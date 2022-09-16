@@ -4,7 +4,7 @@ title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 100%
 

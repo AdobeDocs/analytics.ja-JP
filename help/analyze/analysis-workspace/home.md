@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Analysis Workspace の概要
 
-Analysis Workspace は分析をすばやく構築してインサイトを共有できる、柔軟なブラウザーツールです。ドラッグ&amp;ドロップのインターフェイスを使用して、分析の作成、ビジュアライゼーションの追加をおこない、データを活用、データセットをキュレーション、組織内の任意のユーザーとプロジェクトを共有およびスケジュールできます。
+Analysis Workspace は分析をすばやく構築してインサイトを共有できる、柔軟なブラウザーツールです。ドラッグ&amp;ドロップのインターフェイスを使用して、分析の作成、ビジュアライゼーションの追加を行い、データを活用、データセットをキュレーション、組織内の任意のユーザーとプロジェクトを共有およびスケジュールできます。
 
 数分しか時間が取れない場合は、この短い概要を視聴し、何ができるかをご確認ください。
 
@@ -21,13 +21,13 @@ Analysis Workspace は分析をすばやく構築してインサイトを共有�
 
 ## Adobe Analytics へのログイン {#login}
 
-Analysis Workspace の使用を開始するには、[experience.adobe.com/analytics](https://experience.adobe.com/analytics) に移動して Adobe Analytics にログインします。これまでに特定のプロジェクトを選択したことがない場合は、Workspace プロジェクトリストのホームページに移動します。
+Analysis Workspace の使用を開始するには、[experience.adobe.com/analytics](https://experience.adobe.com/analytics) に移動して Adobe Analytics にログインします。これまでに特定のプロジェクトを選択したことがない場合は、ワークスペースプロジェクトリストのホームページに移動します。
 
 ![](assets/login-analytics.png)
 
 ## トレーニングチュートリアルの使用 {#training-tutorial}
 
-ログインしたらまず、Analysis Workspace トレーニングチュートリアルに移動します。このチュートリアルでは、Workspace で最初の分析を構築するための一般的な用語と手順を説明します。チュートリアルを開始するには、「**[!UICONTROL 新規プロジェクトを作成]**」をクリックし、新しいプロジェクトモーダル内で「**トレーニングチュートリアル**」を選択します。
+ログインしたらまず、Analysis Workspace トレーニングチュートリアルに移動します。このチュートリアルでは、ワークスペースで最初の分析を構築するための一般的な用語と手順を説明します。チュートリアルを開始するには、「**[!UICONTROL 新規プロジェクトを作成]**」をクリックし、新しいプロジェクトモーダル内で「**トレーニングチュートリアル**」を選択します。
 
 ![](assets/training-tutorial.png)
 
@@ -41,7 +41,7 @@ Analysis Workspace の使用を開始するには、[experience.adobe.com/analyt
 
 ## 分析の構築 {#analysis}
 
-Workspace プロジェクトでは、左パネルから **パネル、テーブル、ビジュアライゼーションおよびコンポーネント** にアクセスします。これらはプロジェクトの構成要素です。
+ワークスペースプロジェクトでは、左パネルから **パネル、テーブル、ビジュアライゼーションおよびコンポーネント** にアクセスします。これらはプロジェクトの構成要素です。
 
 ### コンポーネント
 

@@ -5,7 +5,7 @@ title: Analytics のセグメント化
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 

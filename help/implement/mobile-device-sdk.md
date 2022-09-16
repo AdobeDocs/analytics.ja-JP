@@ -4,7 +4,7 @@ description: 使用するモバイル AppMeasurement ライブラリを決定し
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 100%
 

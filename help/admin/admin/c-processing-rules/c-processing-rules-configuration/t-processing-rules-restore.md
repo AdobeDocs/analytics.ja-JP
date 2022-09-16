@@ -5,7 +5,7 @@ title: 処理ルールの復元
 feature: Processing Rules
 exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 100%
 

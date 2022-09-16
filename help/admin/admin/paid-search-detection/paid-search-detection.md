@@ -1,10 +1,10 @@
 ---
-description: '有料検索検知は、検索エンジンと検索キーワードレポート内の自然検索と有料検索を区別します。 '
+description: 有料検索検知は、検索エンジンと検索キーワードレポート内の自然検索と有料検索を区別します。
 title: 有料検索検知
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 

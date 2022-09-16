@@ -4,7 +4,7 @@ title: GDPR／ePrivacy コンプライアンスおよびサーバー側転送
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 

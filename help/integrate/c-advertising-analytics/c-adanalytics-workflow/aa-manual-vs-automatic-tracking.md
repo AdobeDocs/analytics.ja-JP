@@ -4,7 +4,7 @@ title: トラッキング：手動モードと自動モード
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ solution: Analytics
 feature: API
 exl-id: c9d23fae-2800-42bb-8f8d-adf915cadc62
 source-git-commit: b1ebf6e3548ef73217ffff1cbfb66af82e38fb8f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ title: 分類セットジョブマネージャー
 description: 分類セットから生成された現在の分類ジョブと完了した分類ジョブを表示します。
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 

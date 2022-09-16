@@ -4,7 +4,7 @@ description: 指標と有料検索および自然検索を区別します。
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 

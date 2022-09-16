@@ -4,7 +4,7 @@ description: すべての注文内で購入された製品の合計数。
 feature: Metrics
 exl-id: c7293445-0760-4237-83ae-812224ca6f4b
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 

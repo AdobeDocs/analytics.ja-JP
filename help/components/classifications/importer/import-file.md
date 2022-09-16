@@ -4,7 +4,7 @@ title: ブラウザーおよび FTP インポート
 feature: Classifications
 exl-id: 3b5eb6b4-42a2-4cf7-864b-33a5a7766255
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%
 

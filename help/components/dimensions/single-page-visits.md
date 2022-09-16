@@ -5,8 +5,8 @@ feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 97%
 
 ---
 

@@ -4,7 +4,7 @@ description: 訪問者の地域。
 feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 

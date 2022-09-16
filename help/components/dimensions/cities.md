@@ -4,7 +4,7 @@ description: ヒットの元となった市区町村。
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 

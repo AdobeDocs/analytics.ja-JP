@@ -3,7 +3,7 @@ title: Analytics の統合
 description: 他の場所のデータを Adobe Analytics に統合する方法について説明します。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
 

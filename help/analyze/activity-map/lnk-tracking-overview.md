@@ -1,5 +1,5 @@
 ---
-description: 'Activity Map では、より強力なアルゴリズムを使用してリンクを追跡します。 '
+description: Activity Map では、より強力なアルゴリズムを使用してリンクを追跡します。
 title: 強力なリンクトラッキング
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 feature: Activity Map
@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 1f077234-ff88-46ce-a931-2d21d68042b0
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Activity Map のリンクトラッキングについて詳しくは、[ここ](/
 
 >[!CAUTION]
 >
->Activity Map トラッキングをオンにすると、個人を特定できる情報（PII）のデータを収集できます。このデータは、そのまま使用するか、その他の情報と共に使用して、個人を特定および検索したり、個人と連絡を取ったり、コンテキスト内で個人を特定したりすることができます。
+>Activity Map トラッキングをオンにすると、個人を特定できる情報（PII）のデータを収集できます。 このデータは、そのまま使用するか、その他の情報と共に使用して、個人を特定および検索したり、個人と連絡を取ったり、コンテキスト内で個人を特定したりすることができます。
 
 Activity Map トラッキングによって PII データが収集される可能性がある既知のケースには次のようなものがあります。
 

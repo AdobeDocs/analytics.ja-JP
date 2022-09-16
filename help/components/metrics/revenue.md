@@ -4,7 +4,7 @@ description: すべての注文内で購入された商品の金額。
 feature: Metrics
 exl-id: a70e4d93-704b-46ac-9cec-31ea20d3dcb5
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 

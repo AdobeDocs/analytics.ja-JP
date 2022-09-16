@@ -22,7 +22,7 @@ Web Services API を使用すると、Analytics インターフェイスを通�
 
 ## WSDL:Web サービス開発者向け Web Services API WSDL のダウンロード
 
-訪問 [Adobe開発者](https://developer.adobe.com/analytics-apis/docs/2.0/):Web Services API に関連するドキュメント、サンプルコードおよびフォーラムを提供します。 詳しくは、「Web サービス API の概要」をクリックしてください。
+訪問 [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/):Web Services API に関連するドキュメント、サンプルコードおよびフォーラムを提供します。 詳しくは、「Web サービス API の概要」をクリックしてください。
 
 ## フィルターオプション
 

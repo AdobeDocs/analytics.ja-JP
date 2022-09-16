@@ -4,7 +4,7 @@ description: マーケティングチャネルの処理ルールは、訪問者�
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2163'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ ht-degree: 100%
 
 自然検索は、Web 検索リストでの掲載順位に対して料金を支払わない場合に検索エンジンで決定される掲載位置から貴社の Web サイトを訪問者が見つけた場合に発生します。
 
-Analytics には自然検索の検出は用意されていません。有料検索検知を設定すると、検索リファラーが有料検索リファラーでなかった場合は、リファラーを自然検索リファラーにする必要があるとシステムで判断されます。詳しくは、管理ヘルプの「[有料検索検知](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=ja)」を参照してください。
+Analytics には自然検索の検出は用意されていません。有料検索検知を設定すると、検索リファラーが有料検索リファラーでなかった場合は、リファラーを自然検索リファラーにする必要があるとシステムで判断されます。詳しくは、管理ヘルプの「[有料検索検知](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)」を参照してください。
 
 マーケティングチャネルルールでは、自然検索の設定は次のようになります。
 

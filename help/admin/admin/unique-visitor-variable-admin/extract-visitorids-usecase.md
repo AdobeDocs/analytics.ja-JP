@@ -4,7 +4,7 @@ title: 使用事例 - 訪問者 ID の抽出
 feature: Admin Tools
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
 

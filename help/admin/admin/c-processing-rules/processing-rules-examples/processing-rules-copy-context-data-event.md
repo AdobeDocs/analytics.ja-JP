@@ -2,13 +2,13 @@
 description: 処理ルールで、コンテキストデータ変数に基づいてイベントをトリガーできます。
 subtopic: Processing rules
 title: コンテキストデータ変数を使用したイベントの設定
-feature: 管理ツール
+feature: Admin Tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 95%
+source-wordcount: '163'
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 95%
 
 ![](assets/processing_rule_set_event.png)
 
-実装のヘルプの[コンテキストデータ変数](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html)を参照してください。
+実装のヘルプの[コンテキストデータ変数](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=ja)を参照してください。

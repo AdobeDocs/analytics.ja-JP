@@ -4,7 +4,7 @@ title: 通貨コード
 feature: Admin Tools
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 100%
 

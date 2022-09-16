@@ -5,7 +5,7 @@ role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
@@ -31,12 +31,12 @@ ht-degree: 100%
 
 ![](assets/ann-pdf.png)
 
-## 非トレンドデータを使用した注釈の表示
+## トレンドのないデータを含む注釈の表示
 
-注釈は、非トレンドデータで表示されますが、特定のディメンションに結び付けられる場合があります。その場合は、右下隅の概要注釈にのみ表示されます。次に例を示します。
+トレンドのないデータで、特定のディメンションに関連付けられた注釈が表示されることがあります。その場合は、右下隅の概要注釈にのみ表示されます。次に例を示します。
 
 ![](assets/non-date.png)
 
-概要グラフは、トレンド以外のフリーフォームテーブルや概要数値だけでなく、隅のすべてのビジュアライゼーションタイプに表示されます。また、次のようなビジュアライゼーションにも表示されます。[!UICONTROL ドーナツ]、[!UICONTROL フロー]、[!UICONTROL フォールアウト]、[!UICONTROL コホート]など。
+概要グラフは、トレンドのないフリーフォームテーブルおよび要約数値だけでなく、すべてのビジュアライゼーションのタイプの隅に表示されます。また、[!UICONTROL ドーナツ]、[!UICONTROL フロー]、[!UICONTROL フォールアウト]、[!UICONTROL コホート]などのビジュアライゼーションにも表示されます。
 
 ![](assets/ann-summary.png)

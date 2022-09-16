@@ -1,12 +1,12 @@
 ---
 description: Analysis Workspace のアクセシビリティサポート機能
 title: Analysis Workspace のアクセシビリティ
-feature: Workspace の基本
+feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '657'
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Adobe Analytics の主要な分析ツールである [!UICONTROL Analysis Worksp
 | ショートカット | アクション |
 |---|---|
 | Alt + Shift + 1/2/3 | 別のパネルにジャンプする：[!UICONTROL パネル]、[!UICONTROL ビジュアライゼーション]、[!UICONTROL コンポーネント] |
-| Alt +左向き矢印または右向き矢印 | パネル間の移動 |
+| Alt + 左向き矢印または右向き矢印 | パネル間の移動 |
 | Alt + M | すべてのパネルを折りたたむ／展開 |
 | Alt + Ctrl + M | アクティブパネルを折りたたみ／展開 |
 | Ctrl + / | 左パネルを検索 |

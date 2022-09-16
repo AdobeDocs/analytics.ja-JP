@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: cdbec360-bff9-452c-9564-6b481e7175d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 89%
+source-wordcount: '72'
+ht-degree: 88%
 
 ---
 

@@ -5,7 +5,7 @@ title: DTM 実装の概要
 feature: Implementation Basics
 exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 100%
 

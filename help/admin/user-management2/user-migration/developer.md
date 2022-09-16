@@ -4,7 +4,7 @@ title: ユーザー移行の影響を受ける API
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 

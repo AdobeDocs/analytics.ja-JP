@@ -4,7 +4,7 @@ title: ブランド提携
 feature: Company Settings
 exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 100%
 

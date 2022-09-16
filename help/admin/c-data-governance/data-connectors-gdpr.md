@@ -4,7 +4,7 @@ title: データプライバシーと Data Connectors（Genesis）
 feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 100%
 

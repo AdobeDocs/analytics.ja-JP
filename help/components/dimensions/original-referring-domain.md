@@ -4,7 +4,7 @@ description: 訪問者がクリックスルーしてサイトにアクセスす�
 feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 

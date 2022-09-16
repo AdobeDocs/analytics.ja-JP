@@ -1,5 +1,5 @@
 ---
-description: 'Activity Map の UI は、次の 2 つの部分で構成されています。 '
+description: Activity Map の UI は、次の 2 つの部分で構成されています。
 title: Activity Map ユーザーインターフェイス
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 100%
 
 ---

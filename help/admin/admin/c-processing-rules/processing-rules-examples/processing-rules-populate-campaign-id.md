@@ -5,10 +5,9 @@ title: クエリー文字列パラメーターからのキャンペーン ID の
 feature: Admin Tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 100%
 
 ---

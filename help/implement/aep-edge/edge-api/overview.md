@@ -3,7 +3,7 @@ title: Adobe Experience Platform Edge API を使用した Adobe Analytics の実
 description: Adobe Experience Platform Edge API を使用して、Adobe Analytics にデータを送信します。
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 source-git-commit: 72b2497c5060f2309f2232a09e46166ac63da944
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 

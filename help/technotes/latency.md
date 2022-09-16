@@ -5,7 +5,7 @@ title: データの可用性と遅延
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: イメージリクエストで使用されるすべてのクエリ�
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 100%
 

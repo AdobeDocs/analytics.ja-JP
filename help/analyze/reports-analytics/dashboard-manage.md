@@ -3,12 +3,12 @@ description: ダッシュボードマネージャーを使用して、ダッシ�
 subtopic: Dashboards
 title: ダッシュボードマネージャー
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 98%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 98%
 >
 >ダッシュボードマネージャーを使用する場合は、1 人のユーザーに対して 300 個以下のダッシュボードを使用することをお勧めします。また、マネージャーがすべての共有ダッシュボードを下に読み込むので、ダッシュボードの共有は慎重に行ってください。
 
-**[!UICONTROL Analytics]** / **[!UICONTROL コンポーネント]** / **[!UICONTROL すべてのコンポーネント]** / **[!UICONTROL ダッシュボード]**&#x200B;をクリックします。
+クリック **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL ダッシュボード]**.
 
 | 要素 | 説明 |
 |--- |--- |
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 共有ダッシュボードの管理オプションの使い方を説明します。
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL ダッシュボード]**&#x200B;に移動します。
+1. に移動します。 **[!UICONTROL Analytics]** > **[!UICONTROL コンポーネント]** > **[!UICONTROL すべてのコンポーネント]** > **[!UICONTROL ダッシュボード]**.
 1. 「[!UICONTROL 共有ダッシュボード]」で、管理する共有ダッシュボード（またはレガシーダッシュボード）を探し、次のオプションを 1 つ以上選択します。
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 

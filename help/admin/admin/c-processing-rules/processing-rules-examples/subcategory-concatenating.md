@@ -5,10 +5,9 @@ title: カテゴリとページ名の連結によるサブカテゴリの追加
 feature: Admin Tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 100%
 
 ---

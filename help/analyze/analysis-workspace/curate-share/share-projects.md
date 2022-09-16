@@ -6,13 +6,13 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 100%
 
 ---
 
-# プロジェクトの共有
+# プロジェクトを共有
 
 共有機能を使用すると、プロジェクトを組織内の他の Analysis Workspace ユーザーも利用できるようになります。適用した[キュレーション](curate.md)は、受信者がプロジェクトを開くと反映されます。
 
@@ -66,14 +66,14 @@ ht-degree: 100%
 
 ## 受信者のグループに共有 {#Groups}
 
-すべてのユーザーが、受信者の集まりであるグループにプロジェクトを共有できます。Adobe Analytics は、グループは [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ja) の製品プロファイルによって定義されます。
+すべてのユーザーが、受信者の集まりであるグループにプロジェクトを共有できます。Adobe Analytics は、グループは [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) の製品プロファイルによって定義されます。
 
 * 管理者は、「すべて」を含む任意のグループと共有できます。
 * 管理者以外のユーザーは、「すべて」を除き、自分が属するグループと共有できます。
 
 ## プロジェクトリンクの共有 {#Links}
 
-プロジェクトへのリンクは、**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**&#x200B;で取得できます。クリックすると、受信者はプロジェクトにランディングする前にログインする必要があります。受信者が役割に配置されていない場合は、デフォルトの役割が割り当てられます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。Workspace プロジェクトへの共有可能なリンクを作成する方法について[詳しく説明](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=ja)します。
+プロジェクトへのリンクは、**[!UICONTROL 共有]／[!UICONTROL プロジェクトリンクを取得]**&#x200B;で取得できます。クリックすると、受信者はプロジェクトにランディングする前にログインする必要があります。受信者が役割に配置されていない場合は、デフォルトの役割が割り当てられます。管理者は&#x200B;**[!UICONTROL 編集]**&#x200B;の役割を受け取り、管理者以外は&#x200B;**[!UICONTROL 複製]**&#x200B;の役割を受け取ります。Workspace プロジェクトへの共有可能なリンクを作成する方法について[詳しく説明](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)します。
 
 ## プロジェクトマネージャーでプロジェクトを共有する {#Manager}
 

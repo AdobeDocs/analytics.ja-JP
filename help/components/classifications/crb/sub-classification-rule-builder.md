@@ -4,7 +4,7 @@ title: 下位分類とルールビルダー
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -67,8 +67,8 @@ ht-degree: 100%
 
    | キー | チャネル | 幅広いキャンペーンコード | 幅広いキャンペーンコード&amp;Hat;キャンペーンタイプ | 幅広いキャンペーンコード&amp;Hat;キャンペーンディレクター | ： |
    |---|---|---|---|---|---|
-   | * |  | 111 | ブランド | Suzanne |  |
-   | * |  | 222 | ブランド | Frank |  |
+   | &#42; |  | 111 | ブランド | Suzanne |  |
+   | &#42; |  | 222 | ブランド | Frank |  |
 
 1. 参照テーブルをメンテナンスするために、（この例のような）小さなファイルをアップロードします。
 

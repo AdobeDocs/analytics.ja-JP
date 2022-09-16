@@ -5,7 +5,7 @@ title: FTP アカウントの設定 - 概要
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 

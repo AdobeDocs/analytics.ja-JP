@@ -4,7 +4,7 @@ description: 訪問者のエンゲージメント期限内で最も新しいマ�
 feature: Dimensions
 exl-id: c833a801-b7c6-498c-8094-1a5ad6c22fe4
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
 

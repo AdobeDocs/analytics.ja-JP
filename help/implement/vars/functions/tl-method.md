@@ -6,7 +6,7 @@ exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ Web SDK は、ページビュー呼び出しとリンクトラッキング呼び
 
 * リンク名のマッピング先 `web.webInteraction.name`.
 * URL マッピングのリンク先 `web.webInteraction.URL`.
-* リンクタイプのマッピング先 `web.webInteraction.type`. 有効な値は次のとおりです。 `other` （カスタムリンク） `download` （ダウンロードリンク）、 `exit` （出口リンク）。
+* リンクタイプのマッピング先 `web.webInteraction.type`. 有効な値は `other` （カスタムリンク）、`download` （ダウンロードリンク）、`exit` （出口リンク）です。
 
 ```js
 alloy("sendEvent", {

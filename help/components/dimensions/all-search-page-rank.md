@@ -4,7 +4,7 @@ description: 訪問者がサイトにクリックスルーした検索エンジ�
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 

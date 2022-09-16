@@ -2,9 +2,8 @@
 title: VRS を特定の日付に制限する
 description: ステッチされたデータのみにフォーカスするために VRS の日付範囲を制限する方法を理解します。
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

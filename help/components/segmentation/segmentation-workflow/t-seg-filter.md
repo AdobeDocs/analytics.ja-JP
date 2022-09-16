@@ -4,7 +4,7 @@ title: セグメントのフィルタリング
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%
 

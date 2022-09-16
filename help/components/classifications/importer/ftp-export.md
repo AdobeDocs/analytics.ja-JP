@@ -4,7 +4,7 @@ description: FTP エクスポートは、複数のレポートスイートから
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 

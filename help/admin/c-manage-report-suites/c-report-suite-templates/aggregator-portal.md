@@ -4,7 +4,7 @@ title: 集積ポータル
 feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 100%
 

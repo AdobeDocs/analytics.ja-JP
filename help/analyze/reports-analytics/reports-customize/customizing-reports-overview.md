@@ -2,13 +2,13 @@
 description: レポートの実行後は、レポートをカスタマイズしてニーズに応じたデータの表示、分析を行うことができます。レポートデータをフィルターしたり、データを図示する方法を変更したり、日付精度を変更したりできます。
 title: レポートのカスタマイズの概要
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Reports & Analytics の基本
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 99%
+source-wordcount: '921'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ t_reports_custom.xml
 
 >[!MORELIKETHIS]
 >
->* [メニューのカスタマイズ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
+>* [メニューのカスタマイズ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=ja)
 
 
 ## 日付または日付範囲の選択 {#task_9BEF7D4D839A4748B76E8500D1406C34}

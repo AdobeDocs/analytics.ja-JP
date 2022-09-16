@@ -4,7 +4,7 @@ title: レポートスイートの設定のダウンロード
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
 

@@ -4,10 +4,9 @@ title: Data Warehouse リクエストの管理
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 80%
 
 ---
@@ -31,6 +30,6 @@ Data Warehouse で「**[!UICONTROL リクエスト管理]**」タブを選択し
 * レポートをキュー内の新しい場所にドラッグアンドドロップして優先順位を設定し直します。
 * リクエストがいつ処理を開始したかを確認するには、スケジュール済みのリクエスト ID をクリックして、表示されるポップアップを調べます。
 
-ジョブをクリックすると、そのジョブに対する個々のリクエストが表示されます。
+ジョブをクリックすると、そのジョブの個々のリクエストが表示されます。
 
-* 制限レート：実行中のData Warehouse要求が多すぎます。 他のデータリクエストが完了するまで、リクエストは一時停止します。
+* 制限レート：組織で実行されているData Warehouseリクエストが多すぎます。 リクエストは、他のデータリクエストが完了するまで一時停止します。

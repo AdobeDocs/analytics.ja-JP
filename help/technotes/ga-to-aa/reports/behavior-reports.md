@@ -4,7 +4,7 @@ description: Adobe Analytics で行動レポートを作成する方法につい
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
 

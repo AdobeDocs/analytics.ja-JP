@@ -4,7 +4,7 @@ title: セグメントの積み重ねと置き換え
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 100%
 

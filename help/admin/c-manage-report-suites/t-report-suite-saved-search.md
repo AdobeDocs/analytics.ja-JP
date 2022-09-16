@@ -4,7 +4,7 @@ title: レポートスイートの検索の保存
 feature: Report Suite Settings
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 

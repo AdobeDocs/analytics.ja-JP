@@ -4,7 +4,7 @@ title: 関数の使用
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 

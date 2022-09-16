@@ -5,7 +5,7 @@ title: Audience Analytics ワークフローの概要
 feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 

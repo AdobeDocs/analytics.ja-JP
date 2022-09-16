@@ -5,7 +5,7 @@ title: サーバー側転送の要件
 feature: Server-Side Forwarding
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
 

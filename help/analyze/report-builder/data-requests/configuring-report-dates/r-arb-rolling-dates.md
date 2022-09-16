@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 84%
 
 ---
@@ -26,7 +26,7 @@ Report Builderの相対日付のフィールドの定義。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>式のカスタマイズ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   >カスタマイズされた日付式</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>詳しくは、 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 日付式のカスタマイズ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 基準日 </p> </td> 

@@ -4,7 +4,7 @@ description: Bulk Data Insertion API とフル処理データソースの提供�
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -52,10 +52,10 @@ Bulk Data Insertion API（BDIA）は、追加機能を提供すると同時に�
 | cookiesEnabled | cookiesEnabled | 訪問者がファーストパーティセッション Cookie をサポートしている場合は `Y` または `N` |
 | currencyCode | currencyCode | 売上高の通貨コード（例：`USD`） |
 | customerID.[customerIDType].authState | サポートなし | 訪問者の認証状態。サポートされる値：0、1、2、UNKNOWN、AUTHENTICATED、LOGGED_OUT、または &#39;&#39;（大文字と小文字を区別しない）2 つの連続する一重引用符（&#39;&#39;）により、クエリー文字列から値が省略されます。ヒットが行われると 0 に変換されます。サポートされる authState の数値は、0 = UNKNOWN、1 = AUTHENTICATED、2 = LOGGED_OUT を表します。customerIDType は任意の英数字の文字列にすることができますが、大文字と小文字を区別する必要があります。 |
-| customerID.[customerIDType].id | サポートなし | 使用する顧客 ID。customerIDType は任意の英数字の文字列にすることができますが、大文字と小文字を区別する必要があります。 |
-| customerID.[customerIDType].isMCSeed | サポートなし | Experience Cloud 訪問者 ID のシードであるかどうか。サポートされる値：0、1、TRUE、FALSE、&#39;&#39;（大文字と小文字を区別しない）0、FALSE、または 2 つの連続する一重引用符（&#39;&#39;）を使用すると、クエリー文字列から値が省略されます。customerIDType は任意の英数字の文字列にすることができますが、大文字と小文字を区別する必要があります。 |
+| customerID。[customerIDType].id | サポートなし | 使用する顧客 ID。customerIDType は任意の英数字の文字列にすることができますが、大文字と小文字を区別する必要があります。 |
+| customerID。[customerIDType].isMCSeed | サポートなし | Experience Cloud 訪問者 ID のシードであるかどうか。サポートされる値：0、1、TRUE、FALSE、&#39;&#39;（大文字と小文字を区別しない）0、FALSE、または 2 つの連続する一重引用符（&#39;&#39;）を使用すると、クエリー文字列から値が省略されます。customerIDType は任意の英数字の文字列にすることができますが、大文字と小文字を区別する必要があります。 |
 | eVarN | eVarN。例：`<eVar2>`...`<eVar>` | コンバージョン eVar 名。最大 75 個の eVar（eVar1 ～ eVar75）を使用できます。eVar 名（eVar12 など）や、わかりやすい名前（Ad Campaign 3 など）を指定できます。 |
-| events | events | [イベント文字列](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=ja#vars)。書式設定には s.events 変数と同じ構文を使用しています。例：scAdd、event1、event7 |
+| events | イベント | [イベント文字列](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=ja#vars)。書式設定には s.events 変数と同じ構文を使用しています。例：scAdd、event1、event7 |
 | hierN | hierN。例：`<hier2>`...`</hier2>` | 階層名。最大 5 つの階層を使用できます（ hier1 ～ hier5）。デフォルトの階層名「`hier2`」や、わかりやすい名前（「Yankees」）を指定できます。 |
 | homePage | homePage | 現在のページが訪問者のホームページであるかどうか（Y または N）。 |
 | ipaddress | サポートなし | 訪問者の IP アドレス。 |

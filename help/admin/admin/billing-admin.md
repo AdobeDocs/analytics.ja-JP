@@ -4,7 +4,7 @@ title: 課金
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 

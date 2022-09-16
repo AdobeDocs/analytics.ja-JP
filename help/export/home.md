@@ -3,7 +3,7 @@ title: Analytics 書き出しガイド
 description: このガイドでは、データフィードとData Warehouse を使用して、Adobe Analytics からデータを取得する方法を概説します。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 

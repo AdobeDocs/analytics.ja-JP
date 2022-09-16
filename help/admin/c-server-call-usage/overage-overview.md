@@ -4,7 +4,7 @@ title: サーバーコールの使用状況の概要
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 

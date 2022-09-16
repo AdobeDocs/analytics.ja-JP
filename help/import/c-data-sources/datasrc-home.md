@@ -4,7 +4,7 @@ title: データソースとは何ですか？また、データソースには�
 feature: Data Sources
 exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 

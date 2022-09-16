@@ -6,7 +6,7 @@ exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 79%
 
 ## Web SDK を使用したコンテキストデータ変数
 
-XDM フィールドが [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)の場合、コンテキストデータ変数として自動的に含まれます。 この場合、 [処理ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) を使用して、目的の Analytics 変数にコンテキストデータ変数を割り当てます。
+XDM フィールドが [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)の場合、コンテキストデータ変数として自動的に含まれます。 この場合、 [処理ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) を使用して、目的の Analytics 変数にコンテキストデータ変数を割り当てます。
 
 データストリーム内の正しい XDM フィールドにデータをマッピングするのがベストプラクティスですが、この方法は似たような結果を実現します。
 

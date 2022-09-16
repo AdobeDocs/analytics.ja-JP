@@ -5,7 +5,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col2"> <p>イベント </p> </td> 
    <td colname="col3"> <p>イベント文字列。書式設定には <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=ja"  >s.events</a> 変数と同じ構文を使用しています。 </p> <p>次に例を示します。 </p> 
     <code>
       scAdd,event1,event7 

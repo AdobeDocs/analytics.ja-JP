@@ -4,7 +4,7 @@ description: 現在のヒットから最後の購入までの日数。
 feature: Dimensions
 exl-id: 6f0d9d79-cf40-4de3-9d9f-9b1bc57f97b6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 

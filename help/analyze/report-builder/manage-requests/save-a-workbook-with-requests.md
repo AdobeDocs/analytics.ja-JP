@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 使用するファイル名は 255 文字以内である必要があります。また、ファイル名に次の文字を使用することはできません。
 
-\ ? | > &lt; :/ * &#39; &quot;
+\ ? | > &lt; :/ &#42; &#39; &#39;
 
 最後に、拡張 ASCII 文字セットに含まれない「Unicode 文字」を使用することはできません。
 

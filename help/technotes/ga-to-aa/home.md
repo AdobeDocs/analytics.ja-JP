@@ -4,7 +4,7 @@ description: Google Analytics などの他のプラットフォームに詳し�
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: オペレーティングシステムを表します。バージョ�
 feature: Dimensions
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 

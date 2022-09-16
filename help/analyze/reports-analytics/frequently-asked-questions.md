@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '843'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 Reports &amp; Analytics の Analytics に関して最もよくある質問に対する回答とトラブルシューティングの提案を示します。実装に関するよくある質問については、『実装マニュアル』の「[FAQ](/help/implement/faq.md)」を参照してください。
 
 >[!IMPORTANT]
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。 Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。 2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 **ロックされたマイアカウントのロックを解除する方法を教えてください。**
 

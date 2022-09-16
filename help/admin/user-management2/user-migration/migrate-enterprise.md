@@ -1,10 +1,10 @@
 ---
 description: Enterprise または Federated ID として Analytics ユーザーアカウントを Admin Console に移行する方法。
-title: 'Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 '
+title: Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Admin Console でユーザーを管理するための前提条件。
  </tbody> 
 </table>
 
-[!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/jp/enterprise/using/users.html)を参照してください。
+[!DNL .csv] ファイルのフィールドについての詳細は、[CSV ファイル形式](https://helpx.adobe.com/enterprise/using/users.html)を参照してください。
 
 >[!NOTE]
 >
