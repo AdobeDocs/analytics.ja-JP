@@ -3,10 +3,10 @@ description: ボットルールを使用すると、既知のスパイダーや�
 title: ボットルールの概要
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 97%
+source-wordcount: '1369'
+ht-degree: 96%
 
 ---
 
@@ -118,12 +118,11 @@ ht-degree: 97%
 
 「**[!UICONTROL Export Uploaded Bot File（更新されたボットファイルを書き出し）]**」ボタンをクリックすとる、UI に定義されているすべてのルールが CSV 形式でエクスポートされます。
 
-
 ## データ収集に対するボットルールの影響 {#section_F01A3130E7A04A9993371CF26F6586F2}
 
 ボットルールは、すべての解析データに適用されます。ボットルールによって削除されたデータは、ボットレポートとボットページレポートにのみ表示されます。
 
-VISTA ルールはボットルールの後に適用されます（[処理順序](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)を参照してください）。
+VISTA ルールはボットルールの後に適用されます。 詳しくは、 [処理順序](/help/technotes/processing-order.md) （技術注記ユーザーガイド）を参照してください。
 
 **高ヒット訪問の処理**：訪問において 100 を超えるヒットが発生した場合、訪問において経過した時間（秒数）が訪問のヒット数以下かどうかを判定します。このような場合、長く集中的な訪問はデータを処理する時間がかかるので、訪問が強制的に終了され、新たな訪問として計測が継続されます。一般に、高ヒットの訪問はボット攻撃によるもので、通常の訪問者による閲覧とは考えられません。
 
