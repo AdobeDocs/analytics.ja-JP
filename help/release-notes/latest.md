@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1622f69e4d2a19d72e5748d165567d0bf7c5f83c
+source-git-commit: 835898b2a4c060f2e0202d79c58c73d4928c330d
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1311'
 ht-degree: 62%
 
 ---
 
 # 最新のAdobe Analyticsリリースノート（2022 年 9 月）
 
-**最終更新日**：2022年9月14日（PT）
+**最終更新日**：2022年9月19日（PT）
 
 ## 関連リソース
 
@@ -41,9 +41,9 @@ AN-288519;AN-289300;AN-297387;AN-297465;AN-297520;AN-297641;AN-298134;AN-298351;
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
+| **SFTP アップグレード** | 2022年9月19日（PT） | 以前は、Adobeは、Adobeが 2022 年 9 月に Secure File Transfer Protocol(SFTP) サービスをアップグレードして、ファイル転送のセキュリティを強化することを通知していました。 Adobeにより、このアップグレードはに延期されました **2022 年 9 月 21 日**. この変更がおこなわれると、一部の SFTP クライアント設定はサポートされなくなります。 これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、お使いの SFTP クライアント（コード、ツール、サービス）が、[ここ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=ja)で詳細に説明された変更に従っていることを確認してください。 |
 | **Experience Edge 経由で収集された A4T データを Analytics が処理する方法の変更** | 2022年9月14日（PT） | 2022 年 3 月、Analytics は、A4T データを含む Experience Edge からの一部の呼び出しを処理する方法を変更しました。 ページビュー (`t()`) またはリンクトラッキング (`tl()`) イベントに関する情報です。 このロジックが更新され、 `propositionDisplay` イベントが意図したとおりに変更されていませんでした。 |
 | **Web SDK のリスト変数およびリスト prop の自動区切り文字** | 2022年9月14日（PT） | XDM で区切り文字の上書きが指定されていない限り、リスト変数およびリスト prop で、レポートスイート設定で指定された区切り文字が使用されるようになりました。 詳しくは、 [リスト](/help/implement/vars/page-vars/list.md) 変数を参照してください。 |
-| **SFTP アップグレード** | 2022年9月14日（PT） | 以前は、Adobeは、Adobeが 2022 年 9 月に Secure File Transfer Protocol(SFTP) サービスをアップグレードして、ファイル転送のセキュリティを強化することを通知していました。 Adobeにより、このアップグレードはに延期されました **2022 年 9 月中旬～終盤**. この変更がおこなわれると、一部の SFTP クライアント設定はサポートされなくなります。 これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、お使いの SFTP クライアント（コード、ツール、サービス）が、[ここ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=ja)で詳細に説明された変更に従っていることを確認してください。 |
 | **Data Workbench のサポート終了** | 2022年9月14日（PT） | Adobeは、提供終了のData Workbench効果を期待 **2023 年 12 月 31 日**. ご質問がある場合は、のData Workbenchに代わる解決策について、カスタマーケア担当者にお問い合わせください。 |
 | **Google クライアントヒントによるデバイス検索の更新** | 2022年9月14日（PT） | 開始日 **2022 年 9 月 30 日** Adobeは、Google Chrome やMicrosoft Edge など、Chromium ブラウザーから得られるヒットの特定のデバイス情報を取得する際に、ユーザーエージェントに加えて、クライアントヒントを使用し始めます。 これは、クライアントヒントを介して渡されるデータの代わりに、ユーザーエージェント文字列から提供される情報を徐々に減らす Google の計画に対応するものです。クライアントヒントについて詳しくは、[こちら](https://web.dev/user-agent-client-hints/)を参照してください。<p> 10月までに、AppMeasurement および Web SDK の両方のコレクションライブラリは、クライアントヒントの収集と、高エントロピーなクライアントヒントを収集するかどうかの設定をサポートします。この変更の一環として、アドビは、ユーザーエージェントに関連するすべてのデバイス検索に対して Device Atlas を使用します。現在、Device Atlas はモバイルのヒットに対してのみ使用されています。これらの更新により、以前はユーザーエージェント（特に、ブラウザー、ブラウザーのタイプ、オペレーティングシステム、オペレーティングシステムのタイプ、モバイルデバイス）から導き出されたデバイス情報に小さな変更が生じる場合があります。 |
 | **新しい NetAcuity 通信事業者データベースの更新** | 2022年9月14日（PT） | **2022 年 10 月 6 日以降**、 `carrier` Adobe AnalyticsData Warehouseおよび Analytics データフィードのフィールドが変更されます。 従来、その列のデータ形式は `<domain>:<ISP>` でした。Adobeは、これらをマッピングする内部ルックアップテーブルを維持しています `<domain>:<ISP>` の値をAdobe Analyticsのレポートツール (Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など ) でレポート目的で通信事業者名に追加します。 ルックアップファイル（`carrier.tsv`）にもデータフィードが用意されているので、同じマッピングを使用できます。<p>この更新により、NetAcuity のより正確な通信事業者データベースを使用して通信事業者のマッピングが強化されます。データフィードの通信事業者列のデータ形式は、今後変更される予定です。`<domain>:<ISP>` の代わりに、通信事業者名が含まれます。アドビでは、従来のレポートとの継続性をできる限り維持するために、引き続きルックアップテーブルを使用します。アドビがルックアップを適用するレポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）は、より正確なマッピングのメリットを享受できます。一部のマッピング（特に国際ドメインおよび ISP の場合）は、Adobeが新しいデータベースを採用すると、他のマッピングよりも多く変更されます。 データフィード通信事業者ルックアップファイル（`carrier.tsv`）では、古いマッピングが維持され、新しいマッピングが追加されます。<p>Analytics ソースコネクタは、現在、carrier フィールドをマッピングしていないので、carrier レポートは、現在、Experience Platform、CJA などでは使用できません。 したがって、新しい通信事業者データベースの使用は、Analytics ソースコネクタから提供されるデータに基づくExperience Platform内のデータには影響しません。 |
