@@ -4,18 +4,14 @@ title: コンボグラフのビジュアライゼーション
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
+source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '756'
 ht-degree: 31%
 
 ---
 
 # コンボグラフ
-
->[!NOTE]
->
->この機能は、現在、[限定的なテスト中](/help/release-notes/releases.md)です。
 
 この [!UICONTROL コンボグラフ] ビジュアライゼーションを使用すると、最初にテーブルを作成しなくても、比較ビジュアライゼーションをすばやく簡単に作成できます。データのトレンドを線/棒の組み合わせで簡単に表示できます。
 
