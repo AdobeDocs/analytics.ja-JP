@@ -3,10 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
 workflow-type: tm+mt
-source-wordcount: '2267'
-ht-degree: 100%
+source-wordcount: '2325'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,13 @@ JavaScript 版 [!DNL AppMeasurement] のこれまでのリリースノートで�
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/code-manager-admin.md)でダウンロードできます。
+
+## バージョン 2.23.0
+
+リリース日： **未定**
+
+* AppMeasurement で、Chromium ブラウザー (Google Chrome およびMicrosoft Edge) がデバイス情報の提供に使用する、高エントロピーのユーザーエージェントクライアントヒントのコレクションがサポートされるようになりました。 クライアントヒントは、タグを介して設定するか、「collectHighEntropyUserAgentHints」フラグを使用して設定できます。 高エントロピーのヒントのコレクションは、デフォルトではオフになっています。 ユーザーエージェントのクライアントヒントの詳細は、こちらを参照してください [フォローするリンク].
+
 
 ## バージョン 2.22.4
 
