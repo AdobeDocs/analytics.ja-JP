@@ -1,9 +1,9 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: collectHighEntropyUserAgentHints 変数を使用して、Chromium ブラウザー (Google Chrome やMicrosoft Edge など ) から高エントロピーヒントをAdobeがリクエストするかどうかを決定します。
-source-git-commit: 03d12625a0089672fa0a27f8f720065c5ca16a62
+source-git-commit: 9c386dd26e31b8b2dc2b4a52ae502f9505ec467d
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ## Adobe Analytics Extension を使用して高エントロピーヒントを収集する
 
-「高エントロピーのユーザーエージェントヒントを収集」は、Adobe Analytics拡張機能の設定時に「一般」アコーディオンの下にあるチェックボックスです。
+**[!UICONTROL 高エントロピーのユーザーエージェントヒントを収集]** は、Adobe Analytics拡張機能を設定する際に「一般」アコーディオンの下にあるチェックボックスです。
 
 1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/#/@adobepm/data-collection) Adobe ID 資格情報を使用して、
 
