@@ -1,7 +1,7 @@
 ---
 title: クライアントヒント
 description: クライアントのヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
-source-git-commit: c26012465b998b2d05bd08e8ddb064cd43940449
+source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -17,7 +17,7 @@ Googleでは、User-Agent クライアントのヒントが次の 2 つのカテ
 
 * **低エントロピーのヒント** には、デバイスに関するより一般的な情報が含まれています。 これらのヒントは、Chromium ブラウザーによって自動的に提供されます。
 
-* **高エントロピー** ヒントには、より詳細な情報が含まれます。 これらのヒントは、リクエストでのみ利用できます。 AppMeasurement と Web SDK の両方を、高エントロピーのヒントをリクエストするように設定できます。 デフォルトでは、両方のライブラリが **not** 高エントロピーのヒントを要求する。
+* **高エントロピー** ヒントには、より詳細な情報が含まれます。 これらのヒントは、リクエストでのみ利用できます。 AppMeasurement と Web SDK [設定可能](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) 高エントロピーのヒントを要求する デフォルトでは、両方のライブラリが **not** 高エントロピーのヒントを要求する。
 
 >[!NOTE]
 >

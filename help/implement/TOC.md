@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
 user-guide-description: どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 99%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 100%
       + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
+      + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
