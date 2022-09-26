@@ -2,10 +2,10 @@
 title: 分類セットを作成
 description: 分類セットを作成する際に使用できるフィールドと説明。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+source-git-commit: 759e2b1d2b4fa99cfbb699be18e736600bf358ab
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 100%
+source-wordcount: '188'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この機能は現在、限定リリース中です。この機能へのアクセスをご希望の場合は、アドビカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。プロビジョニングのリクエストは分類チームに転送されます。
+>この機能は、新しい分類アーキテクチャに移行されたレポートスイートを持つすべてのお客様が利用できます。 詳しくは、Adobeカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。
 
 **[!UICONTROL コンポーネント]**／**[!UICONTROL 分類セット]**／**[!UICONTROL セット]**／**[!UICONTROL 追加]**
 
