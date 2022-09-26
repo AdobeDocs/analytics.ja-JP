@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 36abc6f887074a7f79e223277c21223ab1493afa
+source-git-commit: 4c44fab928f7606a64b671a9d300f0ff522d3c68
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1391'
 ht-degree: 58%
 
 ---
@@ -28,7 +28,7 @@ Adobe Analyticsのリリースは [連続配信モデル](releases.md) これに
 | 機能 | 説明 | [ターゲット日](releases.md) |
 | ----------- | ---------- | ------- |
 | Workspace での複合グラフのビジュアライゼーション | 複合グラフを使用すると、Workspace 内で指標をより簡単かつ直感的に比較できます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts.html?lang=ja) | 2022年9月14日（PT） |
-| AppMeasurement バージョン2.23.0 | AppMeasurement で、Chromium ブラウザー (Google Chrome およびMicrosoft Edge) がデバイス情報の提供に使用する、高エントロピーのユーザーエージェントクライアントヒントのコレクションがサポートされるようになりました。 クライアントヒントは、タグを介して設定するか、「collectHighEntropyUserAgentHints」フラグを使用して設定できます。 高エントロピーのヒントのコレクションは、デフォルトではオフになっています。 [詳細情報](/help/technotes/client-hints.md) | 2022年23月9日（PT） |
+| AppMeasurement バージョン2.23.0 | AppMeasurement で、Chromium ブラウザー (Google Chrome およびMicrosoft Edge) がデバイス情報の提供に使用する、高エントロピーのユーザーエージェントクライアントヒントのコレクションがサポートされるようになりました。 クライアントヒントは、タグを介して設定するか、「collectHighEntropyUserAgentHints」フラグを使用して設定できます。 高エントロピーのヒントのコレクションは、デフォルトではオフになっています。 [詳細情報](/help/technotes/client-hints.md) | 2022年22月9日（PT） |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -44,8 +44,8 @@ AN-288519、AN-289300、AN-297387、AN-297465、AN-297520、AN-297641、AN-29813
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Google クライアントヒントによるデバイス検索の更新** | 2022年8月19日（PT） | 2022 年 10 月以降、Google Chrome やMicrosoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、Adobeは、User-Agent に加えて、クライアントヒントの使用を開始します。 これは、Googleの計画に応じて、クライアントヒントを介して渡されるデータの代わりに、User-Agent 文字列から提供される情報を徐々に減らすことです。 クライアントヒントについて詳しくは、[こちら](https://web.dev/user-agent-client-hints/)を参照してください。<p> 10 月までに、AppMeasurement と Web SDK の両方のコレクションライブラリは、クライアントヒントの収集をサポートし、高エントロピーのクライアントヒントを収集するかどうかを設定します。 この変更の一環として、Adobeは、User-Agent に関連するすべてのデバイス参照に Device Atlas を使用します。 現在、Device Atlas はモバイルのヒットに対してのみ使用されています。これらの更新により、以前はユーザーエージェント（特に、ブラウザー、ブラウザーのタイプ、オペレーティングシステム、オペレーティングシステムのタイプ、モバイルデバイス）から導き出されたデバイス情報に小さな変更が生じる場合があります。 [詳細情報](/help/technotes/client-hints.md) |
-| **SFTP アップグレード** | 2022年19月9日（PT） | 以前は、Adobeは、Adobeが 2022 年 9 月に Secure File Transfer Protocol(SFTP) サービスをアップグレードして、ファイル転送のセキュリティを強化することを通知していました。 Adobeにより、このアップグレードはに延期されました **2022 年 9 月 21 日**. この変更がおこなわれると、一部の SFTP クライアント設定はサポートされなくなります。 これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、お使いの SFTP クライアント（コード、ツール、サービス）が、[ここ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=ja)で詳細に説明された変更に従っていることを確認してください。 |
+| **Google クライアントヒントによるデバイス検索の更新** | 2022年8月19日（PT） | 開始日 **2022 年 10 月 6 日** Adobeは、Google Chrome やMicrosoft Edge など、Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、User-Agent に加えて、クライアントヒントを使用し始めます。 これは、Googleの計画に応じて、クライアントヒントを介して渡されるデータの代わりに、User-Agent 文字列から提供される情報を徐々に減らすことです。 クライアントヒントについて詳しくは、[こちら](https://web.dev/user-agent-client-hints/)を参照してください。<p> 10 月までに、AppMeasurement と Web SDK の両方のコレクションライブラリは、クライアントヒントの収集をサポートし、高エントロピーのクライアントヒントを収集するかどうかを設定します。 この変更の一環として、Adobeは、User-Agent に関連するすべてのデバイス参照に Device Atlas を使用します。 現在、Device Atlas はモバイルのヒットに対してのみ使用されています。これらの更新により、以前はユーザーエージェント（特に、ブラウザー、ブラウザーのタイプ、オペレーティングシステム、オペレーティングシステムのタイプ、モバイルデバイス）から導き出されたデバイス情報に小さな変更が生じる場合があります。 [詳細情報](/help/technotes/client-hints.md) |
+| **SFTP アップグレード** | 2022年19月9日（PT） | 以前は、Adobeは、Adobeが 2022 年 9 月に Secure File Transfer Protocol(SFTP) サービスをアップグレードして、ファイル転送のセキュリティを強化することを通知していました。 Adobeがこのアップグレードを実行しました： **2022 年 9 月 21 日**. この変更がおこなわれた場合、一部の SFTP クライアント設定はサポートされなくなりました。 これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、お使いの SFTP クライアント（コード、ツール、サービス）が、[ここ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=ja)で詳細に説明された変更に従っていることを確認してください。 |
 | **Experience Edge 経由で収集された A4T データを Analytics が処理する方法の変更** | 2022年9月14日（PT） | 2022 年 3 月、Analytics は、A4T データを含む Experience Edge からの一部の呼び出しを処理する方法を変更しました。 ページビュー (`t()`) またはリンクトラッキング (`tl()`) イベントに関する情報です。 このロジックが更新され、 `propositionDisplay` イベントが意図したとおりに変更されていませんでした。 |
 | **Web SDK のリスト変数およびリスト prop の自動区切り文字** | 2022年9月14日（PT） | XDM で区切り文字の上書きが指定されていない限り、リスト変数およびリスト prop で、レポートスイート設定で指定された区切り文字が使用されるようになりました。 詳しくは、 [リスト](/help/implement/vars/page-vars/list.md) 変数を参照してください。 |
 | **Data Workbench のサポート終了** | 2022年9月14日（PT） | Adobeは、提供終了のData Workbench効果を期待 **2023 年 12 月 31 日**. ご質問がある場合は、のData Workbenchに代わる解決策について、カスタマーケア担当者にお問い合わせください。 |
