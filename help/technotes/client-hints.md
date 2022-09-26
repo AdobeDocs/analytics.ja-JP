@@ -1,9 +1,9 @@
 ---
 title: クライアントヒント
 description: クライアントのヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '855'
 ht-degree: 5%
 
 ---
@@ -86,9 +86,15 @@ Adobeは、サードパーティの Device Atlas を使用し、このユーザ�
 
 +++
 
++++**クライアントヒントは、安全でない接続でサポートされていますか？
+
+いいえ。クライアントヒントは、HTTPS などの安全な HTTP 接続を通じてのみ収集できます。
+
++++
+
 +++**クライアントヒントは、Adobeソースコネクタを介して AEP および CJA に送信されるデータで使用できますか。**
 
-2023 年上半期には、Adobeソースコネクタを介してデータにクライアントヒントを含める予定です。
+Adobeでは、2023 年上半期に、Adobeソースコネクタを介してデータにクライアントヒントを含める予定です。
 
 +++
 
