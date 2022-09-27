@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
 workflow-type: tm+mt
 source-wordcount: '3467'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 | 更新されたプラグイン | 更新されたバージョンの [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグイン。 |
 | 新しい設定変数 | に関するドキュメント [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
 | 高エントロピーのクライアントヒント | Adobeが [クライアントヒント](/help/technotes/client-hints.md) を追加して、デバイス情報を決定します。 |
-| 処理順序 | 様々なヘルプページが集計され、 [処理順序](/help/technotes/processing-order.md). |
+| 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
 | **2022年8月** |  |
 | Edge コレクション用 XDM でのリスト変数のサポート | Experience Edge や Web SDK を介してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ja#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
 | 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Experience Edge や Web SDK を介してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=ja#web-sdk-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E8%A3%BD%E5%93%81) |
@@ -38,7 +38,7 @@ ht-degree: 95%
 | フロービジュアライゼーションのドキュメントを更新しました | [新規 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) に基づく |
 | モバイルスコアカードでの注釈の共有に関するドキュメント | [Analysis Workspace で作成される注釈は、モバイルスコアカード](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)で表示できます。 |
 | **2022年5月** |  |
-| Experience Edge を通じてライフサイクルディメンションと指標を入力する | Experience Edge 経由で送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。 詳しくは、 [Analytics 変数のマッピング](/help/implement/aep-edge/variable-mapping.md) を参照してください。 |
+| Experience Edge を通じてライフサイクルディメンションと指標を入力する | Experience Edge を介して送信されたモバイルライフサイクルデータが、Analytics レポートに表示されるようになりました。XDM フィールドを既存のモバイルライフサイクルレポートにマッピングする方法について詳しくは、[Analytics 変数のマッピング](/help/implement/aep-edge/variable-mapping.md)を参照してください。 |
 | **2022年4月** |  |
 | Adobe Analytics ランディングページの更新 | [Analysis Workspace と Reports &amp; Analytics の共同ランディングページ](/help/analyze/landing.md)を更新し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL ページの概要]パネルに関する新しいトピック | [ページの概要パネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
