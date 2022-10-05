@@ -4,10 +4,10 @@ description: Adobe Analytics ドキュメントセットの大幅なアップデ
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
+source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
-source-wordcount: '3467'
-ht-degree: 97%
+source-wordcount: '3545'
+ht-degree: 95%
 
 ---
 
@@ -21,8 +21,13 @@ ht-degree: 97%
 
 ## 主なドキュメントのアップデートの詳細
 
-| 日付 | 説明 |
+| 機能 | 説明 |
 | --- | --- |
+| **2022年10月** |  |
+| 主要な指標の概要 | に関する新しいトピック [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md) ビジュアライゼーション。 |
+| 分類セット | 新しいユーザー [分類セット](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) experience は、分類とルールを管理し、顧客が所有する分類データを視覚的に把握できるようにする単一のインターフェイスを提供します。 |
+| モバイルアプリ：カスタム詳細ビュー | に関する新しいトピックです。 [カスタム詳細ビュー](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja). |
+| Data Workbench | Data Workbench [提供終了に関する FAQ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
 | **2022年9月** |  |
 | コンビネーショングラフ | に関する新しいトピック [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md) ビジュアライゼーション。 |
 | 更新されたプラグイン | 更新されたバージョンの [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグイン。 |
@@ -63,7 +68,7 @@ ht-degree: 97%
 | 2021年8月18日（PT） | [A4T と仮想レポートスイート](/help/components/vrs/vrs-a4t.md) に関する新しいトピック |
 | 2021年8月18日（PT） | [アトリビューションのベストプラクティス](/help/analyze/analysis-workspace/attribution/best-practices.md) に関する新しいトピック |
 | 2021年8月5日（PT） | [繰り返しインスタンスのカウント](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=ja) に関する新しいトピック |
-| 2021年8月5日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートに使用できないオプションを示すために、[テンプレート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=ja)、[ブラウザーインポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=ja) および [ブラウザーエクスポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=ja) に関する分類ドキュメントを更新しました。 |
+| 2021年8月5日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートに使用できないオプションを示すために、[テンプレート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[ブラウザーインポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) および [ブラウザーエクスポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) に関する分類ドキュメントを更新しました。 |
 | 2021年8月2日（PT） | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ja) のリブランディングを反映するように複数のページを更新しました |
 | **2021年7月** |  |
 | 2021年7月23日（PT） | [マーチャンダイジング eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja) に関する新しい詳細な説明 |

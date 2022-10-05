@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 実装ガイド
 breadcrumb-title: 実装ガイド
-user-guide-description: どのデータを収集するかをカスタマイズして、Adobe Analytics をさらに活用します。
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+user-guide-description: Adobe Analyticsの実装方法を学ぶ。 収集するデータをカスタマイズして、Analytics のデータを最大限に活用します。
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 99%
+source-wordcount: '409'
+ht-degree: 95%
 
 ---
 
