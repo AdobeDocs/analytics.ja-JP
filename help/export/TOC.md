@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 書き出しガイド
 breadcrumb-title: 書き出しガイド
-user-guide-description: データフィードを使用すると、1 時間ごとにまたは毎日、生データのエクスポートを受け取ることができます。Data Warehouse を使用すると、データのスプレッドシート出力を取得できます。FTP および SFTP を使用してコンピューターとサーバーの間でファイルを転送する方法について説明します。
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+user-guide-description: データフィードを使用して生データを書き出し、Data Warehouseを使用してデータのスプレッドシート出力を取得する方法について説明します。 FTP と SFTP を使用してファイルを転送する方法を説明します。
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 89%
 
 ---
 
