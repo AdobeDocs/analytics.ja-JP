@@ -4,18 +4,14 @@ title: 主要指標の概要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: eee2d5ae8ed76a3efa44e73aefeeb7b9ffc21c62
+source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '598'
 ht-degree: 100%
 
 ---
 
 # 主要指標の概要
-
->[!NOTE]
->
->この機能は、現在、[限定的なテスト中](/help/release-notes/releases.md)です。
 
 この[!UICONTROL 主要指標の概要]ビジュアライゼーションを使用すると、1 つの期間内で重要な指標のトレンドを確認できます。また、2 つの期間にわたる指標のパフォーマンスを比較することもできます。次のような複数のビジュアライゼーションが 1 つのビジュアライゼーションに統合されるメリットがあります。
 
