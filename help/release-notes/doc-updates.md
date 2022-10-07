@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
 source-wordcount: '3545'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -29,10 +29,10 @@ ht-degree: 95%
 | モバイルアプリ：カスタム詳細ビュー | に関する新しいトピックです。 [カスタム詳細ビュー](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja). |
 | Data Workbench | Data Workbench [提供終了に関する FAQ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
 | **2022年9月** |  |
-| コンビネーショングラフ | に関する新しいトピック [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md) ビジュアライゼーション。 |
-| 更新されたプラグイン | 更新されたバージョンの [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグイン。 |
-| 新しい設定変数 | に関するドキュメント [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
-| 高エントロピーのクライアントヒント | Adobeが [クライアントヒント](/help/technotes/client-hints.md) を追加して、デバイス情報を決定します。 |
+| コンビネーショングラフ | [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md)のビジュアライゼーションに関する新しいトピック。 |
+| 更新されたプラグイン | [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグインの更新済みバージョン。 |
+| 新しい設定変数 | [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) に関するドキュメント |
+| 高エントロピーのクライアントヒント | アドビが User-Agent に加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
 | **2022年8月** |  |
 | Edge コレクション用 XDM でのリスト変数のサポート | Experience Edge や Web SDK を介してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ja#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
@@ -49,7 +49,7 @@ ht-degree: 95%
 | [!UICONTROL ページの概要]パネルに関する新しいトピック | [ページの概要パネル](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | [!UICONTROL 次／前の項目]パネルに関する新しいトピック | [次／前のディメンション項目パネル](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022年3月** |  |
-| サポートされる HTTPS 暗号化アルゴリズムに関する新しいトピック | [サポートされる HTTPS 暗号化アルゴリズム](/help/technotes/rdc/encryption-algos.md) 暗号セキュリティレベルが「高」に設定されているお客様の場合 |
+| サポートされる HTTPS 暗号化アルゴリズムに関する新しいトピック | 暗号セキュリティレベルが「高」に設定されているお客様向けに[サポートされている HTTPS 暗号化アルゴリズム](/help/technotes/rdc/encryption-algos.md)。 |
 | Analysis Workspace での注釈に関する新しいドキュメント | [Analysis Workspace の注釈](/help/analyze/analysis-workspace/components/annotations/overview.md) を使用すると、コンテキストデータのニュアンスとインサイトを組織に効果的に伝えることができます。 |
 | Adobe Analytics ランディングページの更新 | Analysis Workspace と Reports &amp; Analytics の共同ランディングページを [更新](/help/analyze/landing.md) し、操作性とナビゲーションのしやすさを改善しました。 |
 | [!UICONTROL 次の項目] または [!UICONTROL 前の項目]ワークスペースパネル | このパネルでは、選択したディメンション項目の後に続く項目、または先行する項目を探索できます。 |
@@ -77,7 +77,7 @@ ht-degree: 95%
 | 2021年6月15日（PT） | [マーケティングチャネルのベストプラクティス](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ja)を更新しました |
 | 2021年6月3日（PT） | [データフィードの実装](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=ja)についての詳細な説明のドキュメントと[こちら](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=ja#BucketOwnerFullControl)を更新しました。 |
 | 2021年5月25日（PT） | [レポートで eVar の大文字と小文字の区別](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ja)に関するドキュメントを更新しました。 |
-| 2021年5月13日（PT） | [Data Warehouse API リクエスト](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)を更新しました。現在は「Hours」をサポートしています。 |
+| 2021年5月13日（PT） | [Data Warehouse API リクエスト](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)を更新しました。「Hours」をサポートするようになりました。 |
 | **2021年3月** |  |
 | 2021年3月、4月 | Adobe Analytics ダッシュボード[エグゼクティブガイド](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=ja)および[キュレーターガイド](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=ja)の更新 |
 | 2021年3月25日（PT） | [!UICONTROL コンポーネント]／[!UICONTROL ユーザー環境設定]ページに関する新しいドキュメント。これにより、ユーザーの [!UICONTROL Analysis Workspace] 設定と関連コンポーネントを管理できます。[!UICONTROL ユーザー環境設定]は、すべての新しいプロジェクトおよびパネルに適用されます。<br>**注意：** 次の設定は、[!UICONTROL ユーザー環境設定]ページに移動しました。<ul><li>レポート設定：3 桁ごとの区切り記号（現在は&#x200B;_数値形式_&#x200B;と呼ばれる）</li><li>レポート設定：CSV 区切り記号</li><li>ワークスペースプロジェクト：ヘルプ／ヒントを有効にする</li><li>ワークスペースプロジェクト：空のパネル「_このパネルを使用して新しいプロジェクトを開始_」オプション</li></ul> |
@@ -119,9 +119,9 @@ ht-degree: 95%
 | 2020年6月18日（PT） | [Attribution IQ：アルゴリズムアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja)に関する新しいドキュメント |
 | 2020年6月18日（PT） | [Attribution IQ：カスタムルックバックウィンドウ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja#lookback-windows)に関する新しいドキュメント |
 | 2020年6月18日（PT） | 共有 ワークスペースプロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja)に関する新しいドキュメント。ワークスペースプロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
-| 2020年6月18日（PT） | [「表示のみ」の ワークスペースプロジェクト](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja)に関する新しいドキュメント。プロジェクトは、「表示可能」としてのみユーザーに共有できます。 「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。 |
+| 2020年6月18日（PT） | [「表示のみ」の ワークスペースプロジェクト](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja)に関する新しいドキュメント。プロジェクトは、「表示可能」としてのみユーザーと共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。 |
 | 2020年6月18日（PT） | 共有 ワークスペースプロジェクトの[プロジェクトの役割](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)に関する新しいドキュメント。ワークスペースプロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。 |
-| 2020年6月18日（PT） | [ワークスペースプロジェクトの共同編集](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)に関する新しいドキュメント。「編集可能」の役割に追加された受信者は、そのユーザーと共有されているプロジェクトを上書き保存できます。 これは、管理者と非管理者の両方に適用されます。 |
+| 2020年6月18日（PT） | [ワークスペースプロジェクトの共同編集](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)に関する新しいドキュメント。「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。 |
 | **2020年5月** |  |
 | 2020年5月31日（PT） | [一括データ挿入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) に関する新しいドキュメント |
 | 2020年5月21日（PT） | [Adobe Analytics ダッシュボード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=ja)に関する新しいドキュメント |
@@ -160,7 +160,7 @@ ht-degree: 95%
 | 2019年11月21日（PT） | [Audience Analytics ワークフローの FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ja) を更新し、LiveStream での可用性を示しました。 |
 | 2019年10月25日（PT） | [Adobe Analytics の主要概念](/help/technotes/terms.md)ページを更新しました。 |
 | 2019年10月10日（PT） | フリーフォームテーブルの合計の更新：2 つの合計（**[!UICONTROL テーブルの合計]**&#x200B;と&#x200B;**[!UICONTROL 総計]**）が含まれるようになりました。テーブルの合計行は、適用された[レポートフィルター](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ja)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
-| 2019年10月10日（PT） | Workspace で、レポートフィルターのオプションに「未指定（なし）」を簡単に削除する機能が追加されました。 |
+| 2019年10月10日（PT） | ワークスペースでは、「未指定 (なし)」を簡単に削除できる機能がレポートフィルターのオプションとして追加されました。 |
 | 2019年10月10日（PT） | ワークスペースでは、紫色の精度コンポーネント（分、時間、日、週、月、四半期、年）は非推奨（廃止予定）となりました。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL 日付範囲]**」に変更されました。 |
 | 2019年10月1日（PT） | [ワークスペースの合計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja#cja-workspace)に関する新しい記事。 |
 | 2019年9月28日（PT） | [JavaScript 実装の設定変数](/help/implement/vars/config-vars/configuration-variables.md)に関する新しい記事を追加しました。 |
