@@ -4,9 +4,9 @@ description: JavaScript 版 AppMeasurement のこれまでのリリースノー�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 ## バージョン 2.23.0
 
-リリース日：**2022 年 9 月 23 日**
+リリース日：**2022年9月23日（PT）**
 
-* AppMeasurement で、Chromium ブラウザー (Google Chrome およびMicrosoft Edge) がデバイス情報の提供に使用する、高エントロピーのユーザーエージェントクライアントヒントのコレクションがサポートされるようになりました。 クライアントヒントは、タグを介して設定するか、「collectHighEntropyUserAgentHints」フラグを使用して設定できます。 高エントロピーのヒントのコレクションは、デフォルトではオフになっています。 ユーザーエージェントの詳細 [クライアントヒント](/help/technotes/client-hints.md).
+* AppMeasurement では、高エントロピーの User-Agent クライアントヒントの収集がサポートされるようになりました。Chromium ブラウザー (Google Chrome および Microsoft Edge) では、これらのヒントを使用してデバイス情報を提供します。タグを使用してクライアントヒントを設定するか、「collectHighEntropyUserAgentHints」フラグを使用することができます。高エントロピーヒントの収集は、デフォルトではオフになっています。User-Agent について詳しくは、[クライアントヒント](/help/technotes/client-hints.md)を参照してください。
 
 
 ## バージョン 2.22.4
@@ -149,7 +149,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 >[!NOTE]
 >
->[!DNL Experience Cloud] ID サービスを使用している場合、訪問者 API 3.0 以降が必要です。関連付けられたコードライブラリ（[!DNL at.js] など）が更新された場合は常に、訪問者 API を最新バージョンにアップグレードすることをお勧めします。[!DNL AppMeasurement.js]
+>[!DNL Experience Cloud] ID サービスを使用している場合、訪問者 API 3.0 以降が必要です。関連付けられたコードライブラリ（[!DNL at.js]、[!DNL AppMeasurement.js]、など）が更新された場合は常に訪問者 API を最新バージョンにアップグレードすることをお勧めします。
 
 * [!DNL AppMeasurement] を更新し、ID のリクエストに更新された Visitor インターフェイスを使用します。（AN-151483）
 * リンクトラッキングがオフになるとリンクトラッキング Cookie が書き込みを継続していた問題を修正しました。（AN-156332）
@@ -456,7 +456,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2013 年 11 月 15 日**
 
 * [ハードビートビデオ指標](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)のサポートを追加しました。
-* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 
