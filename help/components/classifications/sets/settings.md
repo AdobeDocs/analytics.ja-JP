@@ -3,9 +3,9 @@ title: 分類セットの設定
 description: 分類セットを作成または編集します。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: fa0de6241d56e10144b7eefeb72e9d6ed25a9773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->この機能は、新しい分類アーキテクチャに移行されたレポートスイートを持つすべてのお客様が利用できます。 詳しくは、Adobeカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。
+>この機能は、レポートスイートを新しい分類アーキテクチャに移行したお客様が利用できます。 詳しくは、アドビカスタマーケアまたは担当のアカウントマネージャーにお問い合わせください。
 
 **[!UICONTROL コンポーネント]**／**[!UICONTROL 分類セット]**／**[!UICONTROL セット]**／目的の分類セット名をクリックします。
 
