@@ -1,10 +1,10 @@
 ---
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
-source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
-workflow-type: ht
-source-wordcount: '855'
-ht-degree: 100%
+source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+workflow-type: tm+mt
+source-wordcount: '947'
+ht-degree: 77%
 
 ---
 
@@ -21,7 +21,11 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 >[!NOTE]
 >
->2022年10月以降、Chromium ブラウザーの新しいバージョンでは、User-Agent 文字列で表されるオペレーティングシステムのバージョンの「フリーズ」が開始されます。ユーザーがデバイスをアップグレードしても、User-Agent のオペレーティングシステムは変更されません。 そのため、時間の経過とともに、User-Agent で表されるオペレーティングバージョン情報の正確性が低下します。オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
+>2022年10月以降、Chromium ブラウザーの新しいバージョンでは、User-Agent 文字列で表されるオペレーティングシステムのバージョンの「フリーズ」が開始されます。オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
+
+>[!NOTE]
+>
+>AAMでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 次を使用する場合： [AAMへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にする場合があります。
 
 ## よくある質問
 
@@ -49,6 +53,24 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 +++
 
++++**様々なクライアントヒント値は何ですか？**
+
+次の表に、2022 年 10 月現在のクライアントヒントを示します。
+
+| ヒント | 説明 | 高／低エントロピー | 例 |
+| --- | --- | --- | --- | 
+| Sec-CH-UA | ブラウザーと重要なバージョン | 低 | &quot;Google Chrome 84&quot; |
+| Sec-CH-UA-Mobile | モバイルデバイス（true または false） | 低 | TRUE |
+| Sec-CH-UA-Platform | オペレーティングシステム／プラットフォーム | 低 | &quot;Android&quot; |
+| Sec-CH-UA-Arch | サイトのアーキテクチャ | 高 | &quot;arm&quot; |
+| Sec-CH-UA-Bitness | アーキテクチャのビット数 | 高 | &quot;64&quot; |
+| Sec-CH-UA-Full-Version | ブラウザーの完全なバージョン | 高 | &quot;84.0.4143.2&quot; |
+| Sec-CH-UA-Full-Version-List | ブランドとそのバージョンのリスト | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
+| Sec-CH-UA-Model | デバイスモデル | 高 | &quot;Pixel 3&quot; |
+| Sec-CH-UA-Platform-Version | オペレーティングシステム／プラットフォームのバージョン | 高 | &quot;10&quot; |
+
++++
+
 +++**Analytics のデバイスレポートに何か変更はありますか？**
 
 レポートに使用できるデバイスフィールドに変更はありません。これらのフィールドに対して取り込まれるデータは、クライアントヒントの収集を設定するフィールドと方法によって異なる場合があります。
@@ -57,18 +79,19 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 +++**User-Agent から派生する Analytics レポートフィールドはどれですか？**
 
+これらのフィールドは User-Agent から直接派生しますが、User-Agent を使用して、デバイスの詳細に応じて、他のデバイス関連フィールドの値を導き出すことができます。
+
 * [ブラウザー](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=ja)
 * [ブラウザータイプ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=ja)
 * [オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)
 * [オペレーティングシステムの種類](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=ja)
 * [モバイルデバイスとモバイルデバイスタイプ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=ja)
-* [データフィード](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=ja)
 
 +++
 
 +++**高エントロピーのヒントに格納された値から派生する Analytics レポートフィールドはどれですか？**
 
-2022年9月現在、User-Agent のヒントを「フリーズ」するために Google が公開しているタイムラインによれば、2022年10月以降、オペレーティングシステムのバージョンが更新されなくなります。 ユーザーが OS をアップグレードしても、User-Agent の OS バージョンは更新されません。高エントロピーのヒントがないと、Analytics の「オペレーティングシステム」ディメンションに含まれているオペレーティングシステムバージョンの精度が徐々に低下します。
+これは、Googleが User Agent のより多くの部分を「フリーズ」すると、時間の経過と共に変化します。 最初に直接影響を受けるのは、オペレーティングシステムのバージョンを含む「オペレーティングシステム」です。 「凍結」User-Agent のヒントに関するGoogleの公開タイムラインに従い、2022 年 10 月後半から Chromium バージョン 107 でオペレーティングシステムのバージョンが凍結されます。 その時点で、ユーザーエージェントのオペレーティングシステムのバージョンが不正確になる場合があります。
 
 User-Agent の他の部分がフリーズするタイミングについては、[Google が公開しているタイムライン](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)を参照してください。
 
@@ -82,11 +105,11 @@ User-Agent の他の部分がフリーズするタイミングについては、
 
 +++**クライアントヒントの影響を受けるブラウザーはどれですか？**
 
-クライアントヒントは、Google Chrome や Microsoft Edge などの Chromium ブラウザーにのみ適用されます。他のブラウザーやモバイルアプリからのデータは変更されません。
+クライアントヒントは、Google Chrome やMicrosoft Edge などの Chromium ブラウザーにのみ適用されます。 他のブラウザーやモバイルアプリからのデータは変更されません。
 
 +++
 
-+++**クライアントヒントは、安全でない接続でサポートされていますか？
++++**クライアントヒントは、安全でない接続を介してサポートされていますか？**
 
 いいえ。クライアントヒントは、HTTPS などの安全な HTTP 接続を介してのみ収集できます。
 
@@ -104,28 +127,15 @@ Adobe Experience Platform の[スキーマドキュメント](https://github.com
 
 +++
 
-+++**様々なヒントフィールドにはどのようなものがありますか？デバイスレポートに影響するのはどれですか？**
-
-2022年9月現在のクライアントヒントを次の表に示します。
-
-| ヒント | 説明 | 高／低エントロピー | 例 |
-| --- | --- | --- | --- | 
-| Sec-CH-UA | ブラウザーと重要なバージョン | 低 | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | モバイルデバイス（true または false） | 低 | TRUE |
-| Sec-CH-UA-Platform | オペレーティングシステム／プラットフォーム | 低 | &quot;Android&quot; |
-| Sec-CH-UA-Arch | サイトのアーキテクチャ | 高 | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | アーキテクチャのビット数 | 高 | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | ブラウザーの完全なバージョン | 高 | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | ブランドとそのバージョンのリスト | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | デバイスモデル | 高 | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | オペレーティングシステム／プラットフォームのバージョン | 高 | &quot;10&quot; |
-
-+++
-
-
-
 +++**User-Agent のどの部分がいつ「フリーズ」されますか？**
 
 [Google が公開しているタイムライン](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)を参照してください。これは変更される場合があります。
 
 +++
+
++++**AAMサーバー側転送はクライアントヒントをサポートしますか？**
+
+はい。クライアントヒントは、AAMに転送されるデータに含まれます。 AAMでは、機能を完全に維持するために、高エントロピーのヒントを収集する必要があることに注意してください。 次を使用する場合： [AAMへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) 次に、高エントロピーのヒントの収集を有効にすることができます。
+
++++
+
