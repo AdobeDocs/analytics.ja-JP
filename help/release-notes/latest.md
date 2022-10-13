@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2dc8dc9f7dd9671cfa25095e075474d2b5463dc0
+source-git-commit: 6014be392d700fae0df1f178d1f989eb29d03477
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 78%
+source-wordcount: '1569'
+ht-degree: 75%
 
 ---
 
 # 最新のAdobe Analyticsリリースノート（2022 年 10 月）
 
-**最終更新日**:2022 年 10 月 6 日
+**最終更新日**:2022 年 10 月 14 日
 
 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -30,6 +30,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | **[!UICONTROL 主要指標の概要]** 視覚化 | この [!UICONTROL 主要指標の概要] ビジュアライゼーションを使用すると、1 つの期間内で重要な指標がどのようにトレンドを示しているかを確認できます。 また、2 つの期間にわたる指標のパフォーマンスを比較することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | 2022 年 10 月 6 日からの段階的な展開 |
 | 新規 **[!UICONTROL 分類セット]** ユーザーエクスペリエンス | この新しいユーザーエクスペリエンスは、分類とルールを管理する単一のインターフェイスを備え、顧客が所有する分類データをより可視性が高まります。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | 2022 年 10 月 6 日 |
 | モバイルアプリ： **カスタム詳細ビュー** | カスタムの詳細ビューを使用すると、最も重要な情報に焦点を当てることで、オーディエンスと共有する情報に関してさらにターゲットを絞ることができます。 各スコアカードタイルに関連付けられた詳細ビューのレイアウトを変更し、テキストを追加して、エンドユーザーがデータに表示する内容をより深く説明することができます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja) | 2022 年 10 月 6 日 |
+| **複数値の変数で大文字と小文字を区別しない** | 大文字と小文字を区別しない複数値の変数の場合、 `mvvar1` - `mvvar3` のデータフィードでは、自動的に小文字は変換されなくなります。 代わりに、データフィード ( および Analytics ソースコネクタを通じてAdobe Experience Platformおよび CJA に渡されたデータ ) は、ページから渡された元のケースを反映します。 | 2022 年 10 月 24 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
