@@ -1,10 +1,10 @@
 ---
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
-source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 77%
+source-wordcount: '948'
+ht-degree: 75%
 
 ---
 
@@ -99,7 +99,7 @@ User-Agent の他の部分がフリーズするタイミングについては、
 
 +++**アドビでは、クライアントヒントをどのように使用してデバイス情報を取得しますか？**
 
-アドビでは、サードパーティの Device Atlas を使用し、クライアントヒントと User-Agent の両方を使用してデバイス情報を取得します。
+Adobeは、サードパーティの Device Atlas を使用し、クライアントヒントと User-Agent の両方を使用してデバイス情報を取得します。
 
 +++
 
