@@ -1,10 +1,10 @@
 ---
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
-source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
+source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 67%
+source-wordcount: '1073'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,7 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 * **低エントロピーのヒント**&#x200B;には、デバイスに関するより一般的な情報が含まれています。 Chromium ブラウザーによってこれらのヒントが自動的に提供されます。
 
-* **高エントロピー**&#x200B;ヒントには、より詳細な情報が含まれています。 リクエストがあった場合にのみ、これらのヒントを利用できます。AppMeasurement と Web SDK はどちらも、高エントロピーのヒントをリクエストするように[設定できます](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)。デフォルトでは、どちらのライブラリも高エントロピーのヒントをリクエスト&#x200B;**しません**。
+* **高エントロピー**&#x200B;ヒントには、より詳細な情報が含まれています。 リクエストがあった場合にのみ、これらのヒントを利用できます。AppMeasurement と Web SDK はどちらも、高エントロピーのヒントをリクエストするように設定できます。デフォルトでは、どちらのライブラリも高エントロピーのヒントをリクエスト&#x200B;**しません**。
 
 >[!NOTE]
 >
@@ -41,13 +41,9 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 +++**クライアントヒントのコレクションを有効にするにはどうすればよいですか？**
 
-低エントロピーのヒントはブラウザーによって自動的に提供され、デバイスとブラウザー情報を取得するためのアドビのプロセスに含まれます。新しいバージョンの AppMeasurement（2.23.0 以降）および Web SDK（2.12.0 以降）は、高エントロピーのヒントを収集するように設定できます。どちらのライブラリでも、高エントロピーのヒントの収集は&#x200B;**デフォルトで無効**&#x200B;になっています。
+低エントロピーのヒントは、ブラウザによって自動的に提供され、デバイスとブラウザの情報を導き出すために取り込まれます。 Web SDK の新しいバージョン (2.12.0以降 ) および AppMeasurement(2.23.0以降 ) は、それぞれのタグ拡張機能を使用して、または設定オプションを使用して、高エントロピーのヒントを収集するように設定できます。 方向を見る [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) および [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
 
-+++
-
-+++**高エントロピーのヒントを取得するにはどうすればよいですか？**
-
-高エントロピーのヒントは、Web SDK および AppMeasurement ライブラリで、それぞれのタグ拡張機能を介して、または collectHighEntropyUserAgentHints フラグを使用して直接設定できます。
+どちらのライブラリでも、高エントロピーのヒントの収集は&#x200B;**デフォルトで無効**&#x200B;になっています。
 
 +++
 
