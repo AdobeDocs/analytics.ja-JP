@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics リリースノート
 breadcrumb-title: リリースノート
-user-guide-description: Adobe Analyticsの新機能や修正点について説明します。
+user-guide-description: Adobe Analytics の新機能および修正点について説明します。
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '39'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
