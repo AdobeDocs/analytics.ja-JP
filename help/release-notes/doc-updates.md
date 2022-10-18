@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
 source-wordcount: '3545'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 98%
 | 機能 | 説明 |
 | --- | --- |
 | **2022年10月** |  |
-| 主要な指標の概要 | に関する新しいトピック [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md) ビジュアライゼーション。 |
-| 分類セット | 新しいユーザー [分類セット](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) experience は、分類とルールを管理し、顧客が所有する分類データを視覚的に把握できるようにする単一のインターフェイスを提供します。 |
-| モバイルアプリ：カスタム詳細ビュー | に関する新しいトピックです。 [カスタム詳細ビュー](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja). |
-| Data Workbench | Data Workbench [提供終了に関する FAQ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
+| 主要指標の概要 | [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md)ビジュアライゼーションに関する新しいトピック  |
+| 分類セット | 新しいユーザー[分類セット](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ja)エクスペリエンスは、分類とルールを管理できる単一のインターフェイスを提供し、顧客が所有する分類データの可視性を向上させます。 |
+| モバイルアプリ：カスタム詳細ビュー | [カスタム詳細ビュー](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja)に関する新しいトピック |
+| Data Workbench | Data Workbench の[提供終了に関する FAQ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja) |
 | **2022年9月** |  |
 | コンビネーショングラフ | [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md)のビジュアライゼーションに関する新しいトピック。 |
 | 更新されたプラグイン | [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグインの更新済みバージョン。 |
@@ -36,7 +36,7 @@ ht-degree: 98%
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
 | **2022年8月** |  |
 | Edge コレクション用 XDM でのリスト変数のサポート | Experience Edge や Web SDK を介してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ja#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
-| 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Experience Edge や Web SDK を介してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=ja#web-sdk-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E8%A3%BD%E5%93%81) |
+| 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Experience Edge や Web SDK を介してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=ja#web-sdk-を使用する製品) |
 | **2022年6月** |  |
 | Edge コレクション用 XDM でのマーチャンダイジング変数 | [Edge コレクション用 XDM でのマーチャンダイジング変数のサポート](/help/components/dimensions/evar-merchandising.md)に関するドキュメント |
 | Experience Platform Edge ドキュメント | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)、[Edge API](/help/implement/aep-edge/edge-api/overview.md) 経由の Adobe Analytics の実装に関する新しい記事。 |
@@ -68,7 +68,7 @@ ht-degree: 98%
 | 2021年8月18日（PT） | [A4T と仮想レポートスイート](/help/components/vrs/vrs-a4t.md) に関する新しいトピック |
 | 2021年8月18日（PT） | [アトリビューションのベストプラクティス](/help/analyze/analysis-workspace/attribution/best-practices.md) に関する新しいトピック |
 | 2021年8月5日（PT） | [繰り返しインスタンスのカウント](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=ja) に関する新しいトピック |
-| 2021年8月5日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートに使用できないオプションを示すために、[テンプレート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[ブラウザーインポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) および [ブラウザーエクスポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) に関する分類ドキュメントを更新しました。 |
+| 2021年8月5日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートに使用できないオプションを示すために、[テンプレート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=ja)、[ブラウザーインポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=ja) および [ブラウザーエクスポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=ja) に関する分類ドキュメントを更新しました。 |
 | 2021年8月2日（PT） | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ja) のリブランディングを反映するように複数のページを更新しました |
 | **2021年7月** |  |
 | 2021年7月23日（PT） | [マーチャンダイジング eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja) に関する新しい詳細な説明 |
