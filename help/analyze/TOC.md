@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
-workflow-type: ht
-source-wordcount: '1043'
-ht-degree: 100%
+source-git-commit: 51fcb9043b2983336bc1f5d674231eb5f2524142
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 100%
    + プロジェクト {#build-workspace-project}
       + [プロジェクトの概要](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [プロジェクトの保存](analysis-workspace/build-workspace-project/save-projects.md)
+      + Workspace のフォルダー {#workspace-folders}
+         + [Workspace のフォルダーについて](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [フォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [プロジェクトを追加](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [プロジェクトの削除](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [新しいプロジェクトを保存](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
       + [複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [ホットキー（ショートカット）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
