@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 51fcb9043b2983336bc1f5d674231eb5f2524142
+source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1063'
 ht-degree: 98%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 98%
       + [プロジェクトの保存](analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace のフォルダー {#workspace-folders}
          + [Workspace のフォルダーについて](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [フォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [フォルダとサブフォルダの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [プロジェクトを追加](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [プロジェクトの削除](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [新しいプロジェクトを保存](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
