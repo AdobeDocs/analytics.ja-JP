@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
-user-guide-description: 特定の Analytics ツールやコンポーネントに属さない、役立つ記事を含むナレッジベースを参照します。
+user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
