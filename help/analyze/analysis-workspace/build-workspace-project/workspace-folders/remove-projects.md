@@ -3,10 +3,10 @@ description: フォルダーからプロジェクトを削除する方法を説�
 keywords: Analysis Workspace
 title: フォルダーからプロジェクトを削除する
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->この機能は現在、限定リリース中です。一部の画面は変更される場合があります。
+>この機能は現在ベータ版です。 一部の画面は変更される場合があります。
 
 >[!NOTE]
 >

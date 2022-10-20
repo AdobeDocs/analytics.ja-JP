@@ -3,10 +3,10 @@ description: Workspace でフォルダーとサブフォルダーを作成する
 keywords: Analysis Workspace
 title: フォルダーの作成
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 11%
+source-wordcount: '152'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->この機能は現在、限定リリース中です。一部の画面は変更される場合があります。
+>この機能は現在ベータ版です。 一部の画面は変更される場合があります。
 
 ## 新規フォルダーを作成
 

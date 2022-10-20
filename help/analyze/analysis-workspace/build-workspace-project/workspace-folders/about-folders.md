@@ -3,10 +3,10 @@ description: Workspace のフォルダーについて説明します
 keywords: Analysis Workspace
 title: フォルダーの概要
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 2%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ Workspace プロジェクトのフォルダは、Workspace のランディング
 
 >[!NOTE]
 >
->この機能は現在、限定リリース中です。一部の画面は変更される場合があります。
+>この機能は現在ベータ版です。 一部の画面は変更される場合があります。
 
 Workspace プロジェクトのフォルダーを使用すると、ユーザーはプロジェクトを整理し、分類して、取得やアクセスを改善できます。 また、管理者は、共有された会社フォルダーを使用して、コンテンツを簡単に作成して、すべての Workspace ユーザーと共有できます。 
 

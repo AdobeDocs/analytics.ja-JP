@@ -3,10 +3,10 @@ description: Workspace のフォルダーにプロジェクトを保存する方
 keywords: Analysis Workspace
 title: フォルダへのプロジェクトの保存
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->この機能は現在、限定リリース中です。一部の画面は変更される場合があります。
+>この機能は現在ベータ版です。 一部の画面は変更される場合があります。
 
 1. Workspace で、新しいプロジェクトを作成します。
 
