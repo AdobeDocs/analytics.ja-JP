@@ -2,9 +2,9 @@
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
 source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 >[!NOTE]
 >
->クライアントヒントは、2023 年 1 月中旬以降、Analytics デバイス参照プロセスに組み込まれます。 現在、AppMeasurement と Web SDK の両方でヒントデータの収集がサポートされていますが、1 月中旬まではデバイス参照で使用されません。 これは、重要な年末の間にレポートが中断される可能性を防ぐためです。 下記のオペレーティングシステムのバージョンは 10 月から凍結されますが、徐々に展開され、ほとんどのユーザーエージェントが正しい OS バージョンに固定されるので、Chrome 訪問者の 3%未満に影響すると見積もられます。
+>クライアントヒントは、2023年1月中旬以降、Analytics デバイス検索プロセスに組み込まれます。 現在、AppMeasurement と Web SDK の両方でヒントデータの収集がサポートされていますが、1 月中旬まではデバイス検索では使用されません。 これは、年末の重要な時期にレポートが中断される可能性を避けるためです。 下記のオペレーティングシステムのバージョンは 10 月から凍結されますが、この凍結が徐々に展開され、ほとんどのユーザーエージェントが正しい OS バージョンに固定されるので、この影響を受ける Chrome 訪問者は 3％未満と推定されます。
 
 >[!NOTE]
 >
->2022年10月以降、Chromium ブラウザーの新しいバージョンでは、User-Agent 文字列で表されるオペレーティングシステムのバージョンの「フリーズ」が開始されます。オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
+>2022年10月以降、Chromium ブラウザーの新しいバージョンでは、User-Agent 文字列で表されるオペレーティングシステムバージョンの「フリーズ」が開始されます。オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
 
 >[!NOTE]
 >
->AAMでは、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 次を使用する場合： [AAMへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja) 次に、高エントロピーのヒントの収集を有効にする場合があります。
+>AAM では、機能を完全に保持するために、高エントロピーのヒントを収集する必要があります。 [AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
 
 ## よくある質問
 
@@ -41,7 +41,7 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 +++**クライアントヒントのコレクションを有効にするにはどうすればよいですか？**
 
-低エントロピーのヒントは、ブラウザによって自動的に提供され、デバイスとブラウザの情報を導き出すために取り込まれます。 Web SDK の新しいバージョン (2.12.0以降 ) および AppMeasurement(2.23.0以降 ) は、それぞれのタグ拡張機能を使用して、または設定オプションを使用して、高エントロピーのヒントを収集するように設定できます。 方向を見る [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) および [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
+低エントロピーのヒントはブラウザーから自動的に提供され、デバイスとブラウザーの情報を取得するために取り込まれます。Web SDK の新しいバージョン（2.12.0 以降）および AppMeasurement（2.23.0 以降）は、それぞれのタグ拡張機能を使用して、または設定オプションを直接使用して、高エントロピーのヒントを収集するように設定できます。 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja#enabling-high-entropy-client-hints) および [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=ja) の手順を参照してください。
 
 どちらのライブラリでも、高エントロピーのヒントの収集は&#x200B;**デフォルトで無効**&#x200B;になっています。
 
@@ -53,9 +53,9 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 +++
 
-+++**様々なクライアントヒント値は何ですか？**
++++**様々なクライアントヒント値にはどのようなものがありますか？**
 
-次の表に、2022 年 10 月現在のクライアントヒントを示します。
+2022年10月現在のクライアントヒントを次の表に示します。
 
 | ヒント | 説明 | 高／低エントロピー | 例 |
 | --- | --- | --- | --- | 
@@ -79,7 +79,7 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 +++**User-Agent から派生する Analytics レポートフィールドはどれですか？**
 
-これらのフィールドは User-Agent から直接派生しますが、User-Agent を使用して、デバイスの詳細に応じて、他のデバイス関連フィールドの値を導き出すことができます。
+これらのフィールドは User-Agent から直接得られますが、User-Agent を使用すると、デバイスの詳細に応じて、他のデバイス関連フィールドの値を得ることができます。
 
 * [ブラウザー](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=ja)
 * [ブラウザータイプ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=ja)
@@ -97,7 +97,7 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 +++**高エントロピーのヒントに格納された値から派生する Analytics レポートフィールドはどれですか？**
 
-これは、Googleが User Agent のより多くの部分を「フリーズ」すると、時間の経過と共に変化します。 最初に直接影響を受けるのは、オペレーティングシステムのバージョンを含む「オペレーティングシステム」です。 「凍結」User-Agent のヒントに関するGoogleの公開タイムラインに従い、2022 年 10 月後半から Chromium バージョン 107 でオペレーティングシステムのバージョンが凍結されます。 その時点で、ユーザーエージェントのオペレーティングシステムのバージョンが不正確になる場合があります。
+これは、User-Agent のうち Google によって「凍結」される部分が増えるにつれて、徐々に変化します。 最初に直接影響を受けるフィールドは、オペレーティングシステムのバージョンが含まれる「Operating System」です。 User-Agent ヒントの「凍結」に関する Google の公開タイムラインによれば、2022年10月下旬から Chromium バージョン 107 でオペレーティングシステムのバージョンが凍結されます。 その時点で、 User-Agent のオペレーティングシステムバージョンが不正確になる場合があります。
 
 User-Agent の他の部分がフリーズするタイミングについては、[Google が公開しているタイムライン](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)を参照してください。
 
@@ -105,25 +105,25 @@ User-Agent の他の部分がフリーズするタイミングについては、
 
 +++**アドビでは、クライアントヒントをどのように使用してデバイス情報を取得しますか？**
 
-Adobeは、サードパーティの Device Atlas を使用し、クライアントヒントと User-Agent の両方を使用してデバイス情報を取得します。
+アドビでは、サードパーティの Device Atlas を使用していますが、これはクライアントヒントと User-Agent の両方を使用してデバイス情報を取得します。
 
 +++
 
 +++**クライアントヒントの影響を受けるブラウザーはどれですか？**
 
-クライアントヒントは、Google Chrome やMicrosoft Edge などの Chromium ブラウザーにのみ適用されます。 他のブラウザーやモバイルアプリからのデータは変更されません。
+クライアントヒントは、Google Chrome や Microsoft Edge などの Chromium ブラウザーにのみ適用されます。他のブラウザーやモバイルアプリからのデータには変更はありません。
 
 +++
 
-+++**クライアントヒントは、安全でない接続を介してサポートされていますか？**
++++**クライアントヒントは、安全でない接続でサポートされていますか？**
 
 いいえ。クライアントヒントは、HTTPS などの安全な HTTP 接続を介してのみ収集できます。
 
 +++
 
-+++**API 送信を使用する際にクライアントのヒントデータを含める方法を教えてください。**
++++**API 送信を使用する際にクライアントヒントのデータを含めるには、どうすればよいですか？**
 
-を介してこれらを含めるには、ドキュメントを参照してください。 [一括データ挿入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+[一括データ挿入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/) を使用してこれらを含める方法については、ドキュメントを参照してください。
 
 +++
 
@@ -139,9 +139,9 @@ Adobe Experience Platform の[スキーマドキュメント](https://github.com
 
 +++
 
-+++**AAMサーバー側転送はクライアントヒントをサポートしますか？**
++++**AAM サーバーサイド転送はクライアントヒントをサポートしますか？**
 
-はい。クライアントヒントは、AAMに転送されるデータに含まれます。 AAMでは、機能を完全に維持するために、高エントロピーのヒントを収集する必要があることに注意してください。 次を使用する場合： [AAMへのサーバー側転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) 次に、高エントロピーのヒントの収集を有効にすることができます。
+はい。クライアントヒントは、AAM に転送されるデータに含まれます。なお、AAM では、完全な機能を維持するために、高エントロピーのヒントを収集する必要があります。 [AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
 
 +++
 
