@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
 source-wordcount: '1562'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | ----------- | ---------- | ------- |
 | **[!UICONTROL 主要指標の概要]**&#x200B;のビジュアライゼーション | [!UICONTROL 主要指標の概要]のビジュアライゼーションを使用すると、1 つの期間内で重要な指標のトレンドを確認できます。また、2 つの期間で指標のパフォーマンスを比較することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ja) | 2022年10月5日（PT）から段階的にロールアウトを開始 |
 | 新しい&#x200B;**[!UICONTROL 分類セット]**&#x200B;ユーザーエクスペリエンス | この新しいユーザーエクスペリエンスは、分類とルールを管理する単一のインターフェイスを提供し、顧客が所有する分類データの可視性を向上させます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ja) | 2022年10月5日（PT） |
-| モバイルアプリ：**カスタム詳細ビュー** | カスタム詳細ビューを使用すると、最も重要な情報に注目させることで、オーディエンスと共有する情報に関してさらにターゲットを絞ることができます。 各スコアカードタイルに関連付けられている詳細ビューのレイアウトを変更したり、エンドユーザーに表示されるデータ内容をより適切に説明するテキストを追加したりできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja) | 2022年10月5日（PT） |
-| **複数値の変数で大文字と小文字を区別しない** | 大文字と小文字を区別しない複数値の変数の場合、 `mvvar1` - `mvvar3` のデータフィードでは、自動的に小文字は変換されなくなります。 代わりに、データフィード ( および Analytics ソースコネクタを通じてAdobe Experience Platformおよび CJA に渡されたデータ ) は、ページから渡された元のケースを反映します。 | 2022年10月24日（PT） |
+| モバイルアプリ：**カスタム詳細ビュー** | カスタム詳細ビューを使用すると、最も重要な情報に注目させることで、オーディエンスと共有する情報に関してさらにターゲットを絞ることができます。 各スコアカードタイルに関連付けられた詳細ビューのレイアウトを変更し、テキストを追加することで、エンドユーザーに対して表示されるデータの内容をより明確に説明できます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja) | 2022年10月5日（PT） |
+| **大文字と小文字を区別しない複数値の変数** | 大文字と小文字を区別しない複数値の変数の場合、データフィードの `mvvar1`～`mvvar3` に格納される値は、自動的に小文字に変換されることはなくなります。 代わりに、データフィード（および Analytics ソースコネクタを通じて Adobe Experience Platform と CJA に渡されるデータ）は、ページから渡された元のケースを反映します。 | 2022年10月24日（PT） |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -43,8 +43,8 @@ AN-298512、AN-300117、AN-301754、AN-301584、AN-301685、AN-301783、AN-30181
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **Google クライアントヒントによるデバイス検索の更新** | 2022年10月14日（PT） | 2022 年 10 月 26 日に当初予定されていたデバイス参照でのクライアントヒントの使用は、 **2023 年 1 月**. <p> <p>2022 年 10 月以降、Web SDK または AppMeasurement JavaScript ライブラリを使用してクライアントヒントを収集できます。 ただし、クライアントヒントは、2023 年 1 月まで、デバイス参照に組み込まれません。 この日から、Adobeは、Google Chrome やMicrosoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、User-Agent に加えて、クライアントヒントを使用し始めます。 これは、クライアントヒントを介して渡されるデータの代わりに、User-Agent 文字列から提供される情報を徐々に減らす Google の計画に対応するものです。 <p> <p>この変更の一環として、アドビは、User-Agent に関連するすべてのデバイス検索に対して Device Atlas を使用します。[詳細情報](/help/technotes/client-hints.md) |
-| **デフォルトのランディングページ** | 2022年9月29日（PT） | 今年初めに導入された[新しいランディング ページ](/help/analyze/landing.md)は、**2023年1月**&#x200B;にすべてのユーザーにとってデフォルトエクスペリエンスになります。現在のページは非推奨（廃止予定）になり、すべてのユーザーが新しいエクスペリエンスを使用する必要があります。 |
+| **Google クライアントヒントによるデバイス検索の更新** | 2022年10月14日（PT） | デバイス検索でのクライアントヒントの使用は、当初 2022年10月26日に予定されていましたが、 **2023年1月**&#x200B;に延期されました。 <p> <p>2022年10月から、Web SDK または AppMeasurement JavaScript ライブラリを使用してクライアントヒントを収集できるようになります。ただし、クライアントヒントは、2023年1月まではデバイス検索に組み込まれません。 2023年1月にアドビは、Google Chrome および Microsoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、User-Agent に加えてクライアントヒントも使用するようになります。これは、クライアントヒントを介して渡されるデータの代わりに User-Agent 文字列から提供される情報を徐々に減らす Google の計画に対応するものです。 <p> <p>この変更の一環として、アドビでは、User-Agent に関連するすべてのデバイス検索に対して Device Atlas を使用します。[詳細情報](/help/technotes/client-hints.md) |
+| **デフォルトのランディングページ** | 2022年9月29日（PT） | 今年初めに導入された[新しいランディング ページ](/help/analyze/landing.md)は、**2023年1月**&#x200B;にすべてのユーザーにとってデフォルトエクスペリエンスになります。現在のページは廃止される予定で、すべてのユーザーは新しいエクスペリエンスを利用する必要があります。 |
 | **[!UICONTROL 異常値検出]の自動実行条件** | 2022年9月29日（PT） | 現在、[!UICONTROL 異常値検出]は、時系列フリーフォームテーブルのすべての列に対して自動実行されます。 分析のデータを確保したりプロジェクトの読み込みを高速化したりするために、アドビでは異常値検出の自動実行方法を変更します。 **2022年10月26（PT）**&#x200B;以降[!UICONTROL 異常値検出]は、テーブルの最初の指標列でのみ自動実行されます。 必要に応じて、他の列で異常値検出を実行するように列設定を設定できます。 |
 | **新しい NetAcuity 通信事業者データベースの更新** | 2022年9月26日（PT） | この更新は、当初 2022年10月5日（PT）に予定していましたが、**2023年1月**&#x200B;に延期されました。Adobe Analytics Data Warehouse および Analytics データフィードの `carrier` フィールドに保存されている通信事業者関連の情報が変更されます。従来、その列のデータ形式は `<domain>:<ISP>` でした。Adobe Analytics レポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）でレポートを作成するために、これらの `<domain>:<ISP>` 値を通信事業者名にマッピングするための内部ルックアップテーブルがメンテナンスされました。ルックアップファイル（`carrier.tsv`）にもデータフィードが用意されているので、同じマッピングを使用できます。<p>この更新により、NetAcuity のより正確な通信事業者データベースを使用して通信事業者のマッピングが強化されます。データフィードの通信事業者列のデータ形式は、今後変更される予定です。`<domain>:<ISP>` の代わりに、通信事業者名が含まれます。アドビでは、従来のレポートとの継続性をできる限り維持するために、引き続きルックアップテーブルを使用します。アドビがルックアップを適用するレポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）は、より正確なマッピングのメリットを享受できます。新しいデータベースを採用すると、一部のマッピング（特に国際ドメインおよび ISP の場合）は、他のマッピングよりも変更が多くなります。データフィード通信事業者ルックアップファイル（`carrier.tsv`）では、古いマッピングが維持され、新しいマッピングが追加されます。<p>Analytics ソースコネクタでは、現在、通信事業者フィールドのマッピングは行っていません。そのため、通信事業者レポートは、現在、Experience Platform、CJA などでは使用できません。したがって、新しい通信事業者データベースを使用しても、Analytics ソースコネクタから提供されるデータに基づいている限り Experience Platform での影響はありません。 |
 | **IP からジオロケーションへのマッピングの改善** | 2022年9月26日（PT） | IP ルックアップに関する当社のベンダー（Digital Element）は、IP からジオロケーションへのマッピング用に新しく改善されたデータセット（NetAcuity Pulse）にアップグレードしつつあります。当初 2022年10月に予定していましたが、Adobe Analytics では、**2023年1月**&#x200B;にこの新しいデータセットを採用します。新しいデータベースは、以前のバージョンよりも正確になります。新しいデータベースを採用する際に、IP からジオロケーションへのマッピングは一部変更または改善されます。<p>すべての Adobe Analytics ツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、データフィードなど）は、新しく改善されたマッピングを自動的に利用します。データフィードのデータの形式は変更されません。Analytics ソースコネクタを通じて提供される CJA データでも、新しいマッピングを自動的に利用します。 |
@@ -56,10 +56,10 @@ AN-298512、AN-300117、AN-301754、AN-301584、AN-301685、AN-301783、AN-30181
 
 ## 提供終了に関する注意事項
 
-| EOL 製品または機能 | 追加日または更新日 | 説明 |
+| EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
 | **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日（PT） | Reports &amp; Analytics の提供終了（EOL）の一環として、発行リストは **2023年12月**&#x200B;に提供終了になる予定です。新しい発行リストを作成するか既存の発行リストにアクセスして、Analysis Workspace プロジェクトを送信したりスケジュールしたりすることはできなくなります。 [詳細情報](/help/admin/admin/publishing-list.md) |
-| **Data Workbench のサポート終了** | 2022年9月14日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。Data Workbenchに代わる解決策やご質問は、カスタマーケア担当者にお問い合わせください。 [詳細情報](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja) |
+| **Data Workbench のサポート終了** | 2022年9月14日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。Data Workbench の代替ソリューションについて、またはご不明な点がある場合は、カスタマーケア担当者にお問い合わせください。[詳細情報](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja) |
 | **[!DNL Reports & Analytics]** のサポート終了 | 2022年1月4日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。 |
 
 {style=&quot;table-layout:auto&quot;}
