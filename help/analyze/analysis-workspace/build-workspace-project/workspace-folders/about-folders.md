@@ -3,7 +3,9 @@ description: Workspace のフォルダーについて説明します
 keywords: Analysis Workspace
 title: フォルダーの概要
 feature: Workspace Basics
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+hide: true
+hidefromtoc: true
+source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
