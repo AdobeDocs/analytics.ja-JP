@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
+source-git-commit: 56c11dd4f35f7b2de0e124b1bcb005afb356ece6
 workflow-type: tm+mt
-source-wordcount: '3445'
-ht-degree: 100%
+source-wordcount: '3537'
+ht-degree: 96%
 
 ---
 
@@ -38,11 +38,13 @@ ht-degree: 100%
 | `c_color` | カラーパレットのビット深度。「[色深度](/help/components/dimensions/color-depth.md)」ディメンションの計算の一環として使用されます。AppMeasurement では JavaScript 関数 `screen.colorDepth()` が使用されます。 | char(20) |
 | `campaign` | 「[トラッキングコード](/help/components/dimensions/tracking-code.md)」ディメンションで使用される変数。 | varchar(255) |
 | `carrier` | Adobe Advertising Cloud 統合変数。携帯電話会社を指定します。`carrier`ルックアップテーブルを参照します。 | varchar(100) |
+| `ch_hdr` | HTTP リクエストヘッダーで収集されるクライアントヒント。 | テキスト |
+| `ch_js` | User-Agent クライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | テキスト |
 | `channel` | 「[サイトセクション](/help/components/dimensions/site-section.md)」ディメンションで使用される変数。 | varchar(100) |
 | `click_action` | 廃止。レガシー ClickMap ツール内でクリックされたリンクのアドレス。 | varchar(100) |
 | `click_action_type` | 廃止。レガシー ClickMap ツールのリンクタイプ。<br>0：HREF URL<br>1：カスタム ID<br>2：JavaScript onClick イベント<br>3：フォーム要素 | tinyint unsigned |
 | `click_context` | 廃止。リンククリックが発生したページの名前。レガシー ClickMap ツールの一部。 | varchar(255) |
-| `click_context_type` | 廃止。click_context の値がページ名であったかデフォルトのページ URL であったかを示します。<br>0：ページ URL<br>1：ページ名 | tinyint unsigned |
+| `click_context_type` | 廃止。次のかどうかを示します `click_context` ページ名が含まれているか、デフォルトでページ URL に設定されていた。<br>0：ページ URL<br>1：ページ名 | tinyint unsigned |
 | `click_sourceid` | 廃止。クリックされたリンクが配置されているページ上の場所の数値 ID。レガシー ClickMap ツールの一部。 | int unsigned |
 | `click_tag` | 廃止。クリックされた HTML 要素のタイプ。 | char(10) |
 | `clickmaplink` | Activity Map リンク | varchar(255) |
@@ -64,7 +66,7 @@ ht-degree: 100%
 | `date_time` | レポートスイートのタイムゾーンに基づいて判読可能な形式で表現されたヒットの時刻。 | 日時 |
 | `domain` | 「[ドメイン](/help/components/dimensions/domain.md)」ディメンションで使用される変数。訪問者のインターネットアクセスポイントに基づいています。 | varchar(100) |
 | `duplicate_events` | 重複としてカウントされた各イベントを列挙します。 | varchar(255) |
-| `duplicate_purchase` | このヒットの購入イベントが重複しているので無視する必要があることを示すフラグ。 | tinyint unsigned |
+| `duplicate_purchase` | このヒットの購入イベントが重複しているので無視されることを示すフラグ。 | tinyint unsigned |
 | `duplicated_from` | ヒットコピー VISTA ルールを含んだレポートスイートでのみ使用されます。ヒットのコピー元となったレポートスイートを示します。 | varchar(40) |
 | `ef_id` | Adobe Advertising Cloud 統合で使用される `ef_id` | varchar(255) |
 | `evar1 - evar250` | カスタム変数 1 ～ 250。「[eVar](/help/components/dimensions/evar.md)」ディメンションで使用されます。eVar の使用方法は組織ごとに異なります。組織における各 eVar への値の設定方法について詳しくは、それぞれの組織に固有のソリューションデザインドキュメントを参照してください。 | varchar(255) |
@@ -88,8 +90,9 @@ ht-degree: 100%
 | `hitid_low` | `hitid_high` と組み合わせて使用し、ヒットを識別します。 | bigint unsigned |
 | `homepage` | 廃止。現在の URL がブラウザーのホームページかどうかを示します。 | char(1) |
 | `hourly_visitor` | ヒットが新しい時間別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
-| `ip` | イメージリクエストの HTTP ヘッダーに基づく IP アドレス。 | char(20) |
+| `ip` | イメージリクエストの HTTP ヘッダーに基づく IPv4 アドレス。 相互に排他的 `ipv6`;この列に不明化されていない IP アドレスが含まれている場合、 `ipv6` が空白です。 | char(20) |
 | `ip2` | 未使用。IP アドレスに基づく VISTA ルールを含んだレポートスイートのバックエンド参照変数。 | char(20) |
+| `ipv6` | 圧縮された IPv6 アドレス（使用可能な場合）。 IP アドレスが `2001:cDBa:0000:0000:0000:0000:3257:0052`に値を指定しない場合、データフィードには次の値が含まれます。 `2001:cdba::3257:52`. 相互に排他的 `ip`;この列に不明化されていない IP アドレスが含まれている場合、 `ip` が空白です。 | varchar(40) |
 | `j_jscript` | ブラウザーでサポートされている JavaScript のバージョン。 | char(5) |
 | `java_enabled` | Java が有効かどうかを示すフラグ。<br>Y：有効<br>N：無効<br>U：不明 | char(1) |
 | `javascript` | JavaScript のバージョンの参照 ID（`j_jscript` に基づく）。参照テーブルを使用します。 | tinyint unsigned |
@@ -145,7 +148,8 @@ ht-degree: 100%
 | `mobilerelaunchcampaigntrackingcode` | コンテキストデータ変数 `a.launch.campaign.trackingcode` から収集します。キャンペーン立ち上げのトラッキングコードとして、獲得で使用します。 | varchar(255) |
 | `mobileresolution` | モバイルデバイスの解像度。`[Width] x [Height]` 画素数. | varchar(255) |
 | `monthly_visitor` | 当月の月別訪問者であることを示すフラグ。 | tinyint unsigned |
-| `mvvar1`～`mvvar3` | 変数値をリストします。実装に応じたカスタム値の区切りリストを含んでいます。`post_mvvar1`〜`post_mvvar3` の列は元の区切り文字を `--**--` に置き換えます。 | テキスト |
+| `mvvar1`～`mvvar3` | 現在のヒットに設定された値、または以前のヒットから持続した値をリストします。 実装に応じたカスタム値の区切りリストを含んでいます。`post_mvvar1`〜`post_mvvar3` の列は元の区切り文字を `--**--` に置き換えます。 | テキスト |
+| `mvvar1_instances`～`mvvar3_instances` | 現在のヒットで設定されたリスト変数値。 `post_mvvar1_instances`〜`post_mvvar3_instances` の列は元の区切り文字を `--**--` に置き換えます。 | テキスト |
 | `namespace` | 未使用。削除されたフィーチャの一部。 | varchar(50) |
 | `new_visit` | 現在のヒットが新しい訪問であるかどうかを指定するフラグ。訪問がアクティブでなくなった 30 分後にアドビのサーバーによって設定されます。 | tinyint unsigned |
 | `os` | 訪問者のオペレーティングシステムを表す数値 ID。`user_agent` 列に基づきます。`os` ルックアップを使用します。 | int unsigned |
