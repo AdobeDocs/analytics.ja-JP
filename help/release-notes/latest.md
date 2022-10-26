@@ -3,41 +3,37 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
+source-git-commit: 5f94ac8a04510b99ce8838daf55745f524bffd95
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 100%
+source-wordcount: '1429'
+ht-degree: 95%
 
 ---
 
-# 現在の Adobe Analytics リリースノート（2022年10月）
+# 最新のAdobe Analyticsリリースノート（2022 年 10 月/11 月）
 
-**最終更新日**：2022年10月19日（PT）
+**最終更新日**：2022年10月25日（PT）
 
 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
-## 関連リソース
-
-* [2022年の以前のリリースノート](/help/release-notes/2022.md)
-* [Customer Journey Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ja)
-* [Media Analytics リリースノート](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ja)
-* [Adobe Experience Cloud 製品](https://business.adobe.com/jp/products/adobe-experience-cloud-products.html)の最新のリリース更新
-
 ## Adobe Analytics の新機能または更新された機能
 
-| 機能 | 説明 | [ターゲット日](releases.md) |
-| ----------- | ---------- | ------- |
-| **[!UICONTROL 主要指標の概要]**&#x200B;のビジュアライゼーション | [!UICONTROL 主要指標の概要]のビジュアライゼーションを使用すると、1 つの期間内で重要な指標のトレンドを確認できます。また、2 つの期間で指標のパフォーマンスを比較することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ja) | 2022年10月5日（PT）から段階的にロールアウトを開始 |
-| 新しい&#x200B;**[!UICONTROL 分類セット]**&#x200B;ユーザーエクスペリエンス | この新しいユーザーエクスペリエンスは、分類とルールを管理する単一のインターフェイスを提供し、顧客が所有する分類データの可視性を向上させます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ja) | 2022年10月5日（PT） |
-| モバイルアプリ：**カスタム詳細ビュー** | カスタム詳細ビューを使用すると、最も重要な情報に注目させることで、オーディエンスと共有する情報に関してさらにターゲットを絞ることができます。 各スコアカードタイルに関連付けられた詳細ビューのレイアウトを変更し、テキストを追加することで、エンドユーザーに対して表示されるデータの内容をより明確に説明できます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja) | 2022年10月5日（PT） |
-| **大文字と小文字を区別しない複数値の変数** | 大文字と小文字を区別しない複数値の変数の場合、データフィードの `mvvar1`～`mvvar3` に格納される値は、自動的に小文字に変換されることはなくなります。 代わりに、データフィード（および Analytics ソースコネクタを通じて Adobe Experience Platform と CJA に渡されるデータ）は、ページから渡された元のケースを反映します。 | 2022年10月24日（PT） |
+| 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
+| ----------- | ---------- | ------- | ---- |
+| **[!UICONTROL 主要指標の概要]**&#x200B;のビジュアライゼーション | [!UICONTROL 主要指標の概要]のビジュアライゼーションを使用すると、1 つの期間内で重要な指標のトレンドを確認できます。また、2 つの期間で指標のパフォーマンスを比較することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ja) | 2022年10月5日（PT） | 2023 年 10 月 20 日 |
+| **大文字と小文字を区別しない複数値の変数** | 大文字と小文字を区別しない複数値の変数の場合、データフィードの `mvvar1`～`mvvar3` に格納される値は、自動的に小文字に変換されることはなくなります。 代わりに、データフィード（および Analytics ソースコネクタを通じて Adobe Experience Platform と CJA に渡されるデータ）は、ページから渡された元のケースを反映します。 | 該当なし | 2022年10月24日（PT） |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Adobe Analytics の修正点
 
-AN-298512、AN-300117、AN-301754、AN-301584、AN-301685、AN-301783、AN-301818、AN-301825、AN-301834、AN-301965、AN-302095、AN-302189、AN-302269、AN-302290、AN-302301、AN-302348、AN-302531、AN-302533。
+* 最新のMacOSバージョンの名前が正しく「Macintosh」になっていなかった問題を修正しました。 この修正により、OS ディメンションでは、MacOS 11 から始まる「MacOS」バージョンの番号が使用され始めます。 (AN-301834)
+* 「固定日付」の日付範囲で発生していたReport Builderを修正しました。 (AN-303684)
+* データフィード UI が読み込まれない問題を修正しました。 （AN-303803、AN-303784）
 
+### その他の修正点
+
+-295574、AN-296354、AN-297143、AN-299501、AN-301755、AN-302054、AN-302304、AN-302631、AN-302811、AN-303090、AN-303372、AN-、AN-303428、AN-303429、AN-303432、AN-303434、AN-303437、AN-303438、AN-303519、AN-303610、AN-303656、AN-303659、AN-303663、AN-303664、AN-303818、AN-303823、AN-303837、AN-304036、AN-304195、AN-304321、AN-304325、AN-304339、AN-304356、AN-304435、AN-304457、AN-304509、AN-304519、AN-304534
 
 ## Adobe Analytics 管理者向けの重要な注意事項
 
@@ -48,7 +44,6 @@ AN-298512、AN-300117、AN-301754、AN-301584、AN-301685、AN-301783、AN-30181
 | **[!UICONTROL 異常値検出]の自動実行条件** | 2022年9月29日（PT） | 現在、[!UICONTROL 異常値検出]は、時系列フリーフォームテーブルのすべての列に対して自動実行されます。 分析のデータを確保したりプロジェクトの読み込みを高速化したりするために、アドビでは異常値検出の自動実行方法を変更します。 **2022年10月26（PT）**&#x200B;以降[!UICONTROL 異常値検出]は、テーブルの最初の指標列でのみ自動実行されます。 必要に応じて、他の列で異常値検出を実行するように列設定を設定できます。 |
 | **新しい NetAcuity 通信事業者データベースの更新** | 2022年9月26日（PT） | この更新は、当初 2022年10月5日（PT）に予定していましたが、**2023年1月**&#x200B;に延期されました。Adobe Analytics Data Warehouse および Analytics データフィードの `carrier` フィールドに保存されている通信事業者関連の情報が変更されます。従来、その列のデータ形式は `<domain>:<ISP>` でした。Adobe Analytics レポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）でレポートを作成するために、これらの `<domain>:<ISP>` 値を通信事業者名にマッピングするための内部ルックアップテーブルがメンテナンスされました。ルックアップファイル（`carrier.tsv`）にもデータフィードが用意されているので、同じマッピングを使用できます。<p>この更新により、NetAcuity のより正確な通信事業者データベースを使用して通信事業者のマッピングが強化されます。データフィードの通信事業者列のデータ形式は、今後変更される予定です。`<domain>:<ISP>` の代わりに、通信事業者名が含まれます。アドビでは、従来のレポートとの継続性をできる限り維持するために、引き続きルックアップテーブルを使用します。アドビがルックアップを適用するレポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）は、より正確なマッピングのメリットを享受できます。新しいデータベースを採用すると、一部のマッピング（特に国際ドメインおよび ISP の場合）は、他のマッピングよりも変更が多くなります。データフィード通信事業者ルックアップファイル（`carrier.tsv`）では、古いマッピングが維持され、新しいマッピングが追加されます。<p>Analytics ソースコネクタでは、現在、通信事業者フィールドのマッピングは行っていません。そのため、通信事業者レポートは、現在、Experience Platform、CJA などでは使用できません。したがって、新しい通信事業者データベースを使用しても、Analytics ソースコネクタから提供されるデータに基づいている限り Experience Platform での影響はありません。 |
 | **IP からジオロケーションへのマッピングの改善** | 2022年9月26日（PT） | IP ルックアップに関する当社のベンダー（Digital Element）は、IP からジオロケーションへのマッピング用に新しく改善されたデータセット（NetAcuity Pulse）にアップグレードしつつあります。当初 2022年10月に予定していましたが、Adobe Analytics では、**2023年1月**&#x200B;にこの新しいデータセットを採用します。新しいデータベースは、以前のバージョンよりも正確になります。新しいデータベースを採用する際に、IP からジオロケーションへのマッピングは一部変更または改善されます。<p>すべての Adobe Analytics ツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、データフィードなど）は、新しく改善されたマッピングを自動的に利用します。データフィードのデータの形式は変更されません。Analytics ソースコネクタを通じて提供される CJA データでも、新しいマッピングを自動的に利用します。 |
-| **SFTP アップグレード** | 2022年9月19日（PT） | 以前、アドビは、2022年9月にセキュアファイル転送プロトコル（SFTP）サービスをアップグレードし、ファイル転送のセキュリティを強化することをお伝えしました。アドビでは、このアップグレードを **2022年9月20日**（PT）に実施しました。この変更により、特定の SFTP クライアント設定がサポートされなくなりました。これは、SFTP を使用して Adobe Analytics に送信された、または Adobe Analytics から取得されたデータにのみ影響します。FTP プロトコルは影響を受けません。サービスの中断を避けるために、お使いの SFTP クライアント（コード、ツール、サービス）が、[ここ](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=ja)で詳細に説明された変更に従っていることを確認してください。 |
 | **Reports &amp; Analytics での予定レポートの一時停止** | 2022年6月8日（PT） | 2022年4月21日（PT）に、アドビは、以前に発表された Reports &amp; Analytics の提供終了に備えて、予定レポートに固有のいくつかの機能が廃止されることを発表しました。これらの機能には、新規レポートのスケジュール設定機能と、新規データ抽出機能が含まれていました。<p>延長を求めるお客様の要求に応え、Reports &amp; Analytics からの移行を容易にするために、アドビでは、これらの機能へのアクセスを **2023年1月31日（PT）**&#x200B;まで延長することに決定しました。レポートとデータ抽出の両方の有効期限は、引き続き 9 か月に制限されることに注意してください。レポートおよびデータ抽出の配信は、スケジュールが再アクティブ化されない限り、この期間終了後に一時停止されます。<p>繰り返しになりますが、これらの機能は 2023年1月31日（PT）に廃止されます。この日付までに、予定レポートを Adobe Analytics で使用できる他のメカニズムのいずれかに移行する必要があります。その他の質問やサポートについては、アドビのカスタマーケアにお問い合わせください。[詳細情報](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **Report Builder での予定タスクの一時停止** | 2022年6月8日（PT） | 2022年4月21日（PT）に、アドビは、パフォーマンスと配信の最適化の一環として、Report Builder のスケジュールされたタスクに変更を加えました。これらの変更には、スケジュールされた配信の「x 回後に終了」機能の削除が含まれています。代替案の検討や導入にさらなる時間の確保が必要であるとのお客様の要望に応えて、アドビでは、 **2023年1月31日（PT）**&#x200B;まで限定的にこのオプションを復元することが決定されました。<p>1 時間ごとの Report Builder タスクのスケジュールを継続し、最大 99 回発生した後にタスクを終了させることができます。ロールバックは 1 時間ごとのタスクにのみ適用されることに注意してください。「x 回後に終了する」は、その他のすべての配信間隔（日別、週別、月別、年別）では使用できません。このオプションは、2023年1月31日（PT）に廃止されることに注意してください。その他の質問やサポートについては、アドビのカスタマーケアにお問い合わせください。[詳細情報](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 
@@ -67,3 +62,10 @@ AN-298512、AN-300117、AN-301754、AN-301584、AN-301685、AN-301783、AN-30181
 ## AppMeasurement
 
 AppMeasurement リリース（バージョン 2.23.0）の最新のアップデートについては、[JavaScript リリースノートの AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=ja) を参照してください。
+
+## 関連リソース
+
+* [2022年の以前のリリースノート](/help/release-notes/2022.md)
+* [Customer Journey Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=ja)
+* [Media Analytics リリースノート](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=ja)
+* [Adobe Experience Cloud 製品](https://business.adobe.com/jp/products/adobe-experience-cloud-products.html)の最新のリリース更新
