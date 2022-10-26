@@ -1,17 +1,17 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: collectHighEntropyUserAgentHints 変数を使用して、Chromium ブラウザー (Google Chrome やMicrosoft Edge など ) から高エントロピーヒントをAdobeがリクエストするかどうかを決定します。
-source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
+source-git-commit: 885a8f229fa814053e4766f3b38b6e7fb209fc00
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 3%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 
 
 # collectHighEntropyUserAgentHints
 
-高エントロピーのクライアントヒントは、デバイスとブラウザーの識別を改善するためにAdobe Analyticsで使用されます。 クライアントのヒントについて詳しくは、 [この概要と FAQ](/help/technotes/client-hints.md) 同様に [Googleブログ](https://web.dev/user-agent-client-hints/).
+高エントロピーのクライアントヒントは、デバイスとブラウザーの識別を改善するためにAdobe Analyticsで使用されます。 このオプションは、AppMeasurment.js のバージョン2.23.0以降で使用できます。 クライアントのヒントについて詳しくは、 [この概要と FAQ](/help/technotes/client-hints.md) 同様に [Googleブログ](https://web.dev/user-agent-client-hints/).
 
 ## Web SDK を使用した高エントロピーヒントの収集
 
