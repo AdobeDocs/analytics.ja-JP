@@ -3,10 +3,10 @@ description: セグメントをオーディエンスライブラリ、Target お
 title: Experience Cloud へのセグメントの公開
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 100%
+source-wordcount: '1324'
+ht-degree: 96%
 
 ---
 
@@ -55,12 +55,12 @@ Adobe Analytics セグメントを Experience Cloud に公開すると、[!DNL A
 1. セグメントのタイトルと説明を指定します。指定しない場合は、セグメントを保存できません。
 1. 「**[!UICONTROL Experience Cloud にこのセグメントを公開 (*レポートスイート*用)]**」をオンにします。
 
-![](assets/publish-ec.png)
+![公開Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Adobe Analytics の数値と Audience Manager の数値を比較する際には、Analytics でセグメントプレビューを確認する際に、「ユニーク訪問者」の合計ではなく、「Experience Cloud ID を持つ訪問者」を使用してください。
+>Adobe Analyticsの数値とAudience Managerの数値を比較する際は、Analytics でセグメントプレビューを確認する際に、「個別Experience Cloud」の合計ではなく、「訪問者 ID を持つ訪問者」を使用してください。
 >
->![](assets/seg-vis-ecid.png)
+>![訪問者を ECID でセグメント化](assets/seg-vis-ecid.png)
 
 | 要素 | 説明 |
 |---|---|
@@ -83,7 +83,7 @@ Experience Cloud に公開されているセグメントを削除するには、
 1. [!UICONTROL Analytics／コンポーネント／セグメント] に移動します。
 1. 新しい「[!UICONTROL 公開済み]」列に注目します。はい／いいえは、セグメントが Experience Cloud に公開されたかどうかを示します。
 
-![](assets/publish-status.png)
+![公開ステータス](assets/publish-status.png)
 
 ## [!DNL Audience Manager] UUID の取得
 
@@ -94,15 +94,15 @@ Experience Cloud に公開されているセグメントを削除するには、
 
 次のスクリーンショットは、ブラウザーで AAM UUID を取得し、Audience Manager 訪問者プロファイルビューアで AAM UUID を使用して特性とセグメントのメンバーシップを検証する方法を示しています。
 
-**方法 1：Adobe Experience Cloud デバッガーの使用**
+### 方法 1：Adobe Experience Cloud デバッガーの使用
 
 1. Chrome Web Store で [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) をダウンロードしてインストールします。
 1. ページの読み込み時にデバッガーを起動します。
 1. 「Audience Manager」セクションまでスクロールし、現在のブラウザーページで設定されている AAM UUID を見つけます（以下の例の `50814298273775797762943354787774730612` を参照）。
 
-![](assets/debugger.jpg)
+![デバッガー](assets/debugger.jpg)
 
-**方法 2：Chrome Developer Tools（または他のブラウザー開発者ツール）を使用する**
+### 方法 2：Chrome Developer Tools（または他のブラウザー開発者ツール）を使用する
 
 1. ページを読み込む前に Chrome Developer Tools を起動します。
 1. ページを読み込み、アプリケーション／Cookie を確認します。AAM UUID は、サードパーティ Demdex cookie（下の例では [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja) に設定する必要があります）。demdex フィールドは、ブラウザー上の AAM UUID 設定です（以下の例は `50814298273775797762943354787774730612`）。
@@ -113,7 +113,7 @@ Experience Cloud に公開されているセグメントを削除するには、
 
 [!UICONTROL 訪問者プロファイルビューア]が読み込まれると、ブラウザーの AAM UUID がデフォルトで使用されます。他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
 
-![](assets/aam-vpv.png)
+![Audience Managerプロファイルビューア](assets/aam-vpv.png)
 
 ## [!DNL Audience Manager] でセグメント特性を表示する
 
@@ -121,12 +121,12 @@ AAM では、Analytics が Experience Cloud とセグメントを共有するの
 
 1. [!DNL Audience Manager] で、 [!UICONTROL オーディエンスデータ／特性／Analytics 特性] に移動します。Experience Cloud 組織にマップされている各 Analytics レポートスイートのフォルダーが表示されます。これらのフォルダー（特性、セグメントおよびデータソースの場合）は、プロファイルおよび Audiences／People コアサービスが開始またはプロビジョニングされると作成されます。
 1. [!DNL Audience Manager] と共有する、過去にセグメントを作成したレポートスイートのフォルダーを選択します。作成したセグメント／オーディエンスが表示されます。セグメントを共有すると、[!DNL Audience Manager] で次の 2 つがおこなわれます。
-* データが入っていない特性が作成されます。セグメントが[!DNL Analytics] で公開されてから約 8 時間後に、ECID のリストがオンボードされ、[!DNL Audience Manager] および他の Experience Cloud ソリューションと共有されるようになります。
+   * データが入っていない特性が作成されます。セグメントが[!DNL Analytics] で公開されてから約 8 時間後に、ECID のリストがオンボードされ、[!DNL Audience Manager] および他の Experience Cloud ソリューションと共有されるようになります。
 
-![](assets/aam-traits.png)
+      ![Audience Manager の特性](assets/aam-traits.png)
 
-* 1 つの特性セグメントが作成されます。セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
-* 特性の有効期限が 16 日に設定されました（以前は 2 日でした）。
+   * 1 つの特性セグメントが作成されます。セグメントを公開したレポートスイートに関連付けられているデータソースを使用します。
+   * 特性の有効期限が 16 日に設定されました（以前は 2 日でした）。
 
 ## セグメントを [!DNL Adobe Target] で表示する
 

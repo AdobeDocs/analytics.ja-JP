@@ -3,10 +3,10 @@ description: Mobile Services の処理ルールを Adobe Analytics に移行す�
 title: Mobile Services の処理ルールの Adobe Analytics への移行
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
    ![コンテキスト変数](assets/context-var.png)
 
-1. Experience Cloud で、Adobe Analytics に切り替え、Mobile Services で閲覧していたのと同じモバイルレポートスイートにいることを確認します。
+1. Experience Cloudで、Adobe Analyticsに切り替えて、Mobile Services で閲覧していたのと同じモバイルレポートスイートに属していることを確認します。
 1. **[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL 一般]**／**[!UICONTROL 処理ルール]**&#x200B;に移動します。
 1. 「**[!UICONTROL Add Rule]**」をクリックします。
 1. 条件を無視して、Mobile Services に存在するのと同じコンテキスト変数の追加に進みます。
@@ -59,7 +59,7 @@ Analysis Workspace には、モバイル指標とディメンション（レポ�
 テンプレートにアクセスするには：
 
 1. `experience.adobe.com` にログインし、「Analytics」を選択します。
-1. Mobile Services が有効になっているレポートスイートを開いていることを確認します。
+1. Mobile Services が有効になっているレポートスイートにいることを確認します。
 1. 「**[!UICONTROL Workspace]**」タブをクリックします。
 1. 「**[!UICONTROL 新規プロジェクトを作成]**」をクリックします。
 1. 任意のモバイルテンプレートを選択し、「**[!UICONTROL 作成]**」をクリックします。

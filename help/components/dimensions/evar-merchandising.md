@@ -1,18 +1,18 @@
 ---
-title: eVar（マーチャンダイジング）Dimension
+title: eVar（マーチャンダイジングディメンション）
 description: 製品ディメンションに関連付けられるカスタム変数。
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 99%
+source-wordcount: '447'
+ht-degree: 95%
 
 ---
 
 # eVar（マーチャンダイジング）
 
-*このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
+*このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。マーチャンダイジング eVar の実装方法について詳しくは、 [eVar（マーチャンダイジング変数）](/help/implement/vars/page-vars/evar-merchandising.md) を参照してください。*
 
 マーチャンダイジング eVar の仕組みについて詳しくは、[マーチャンダイジング eVar と製品検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja)を参照してください。
 

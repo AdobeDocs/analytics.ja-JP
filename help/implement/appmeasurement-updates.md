@@ -3,10 +3,10 @@ title: JavaScript 版 AppMeasurement リリースノート
 description: JavaScript 版 AppMeasurement のこれまでのリリースノートです。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
-workflow-type: ht
-source-wordcount: '2321'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '2319'
+ht-degree: 99%
 
 ---
 
@@ -275,7 +275,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Experience Cloud] ID サービスのバージョン 1.6.0 には、[!DNL JavaScript] 版 [!DNL AppMeasurement] のバージョン 1.6.3 以降が&#x200B;*必要です*。Experience Cloud ID サービスのバージョン 1.6.0 にアップグレードする場合は、バージョン 1.6.3 以降の [!DNL AppMeasurement] コードを使用してください。
+>Version 1.6.0 of the [!DNL Experience Cloud] ID サービスのバージョン 1.6.0 には、[!DNL JavaScript] 版 [!DNL AppMeasurement] のバージョン 1.6.3 以降が&#x200B;*必要です*。Experience CloudID サービスのバージョン 1.6.0 にアップグレードする場合は、AppMeasurement 1.6.3 以降を使用してください。
 
 ## バージョン 1.6.2
 
@@ -456,7 +456,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2013 年 11 月 15 日**
 
 * [ハードビートビデオ指標](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)のサポートを追加しました。
-* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 

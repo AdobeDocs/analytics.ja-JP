@@ -1,25 +1,25 @@
 ---
-title: eVar（マーチャンダイジング）変数
+title: eVar（マーチャンダイジング変数）
 description: 個々の製品に関連付けられるカスタム変数。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 71%
+source-wordcount: '543'
+ht-degree: 64%
 
 ---
 
 # eVar（マーチャンダイジング）
 
-*このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。マーチャンダイジング eVar がディメンションとして機能する方法について詳しくは、『コンポーネントユーザガイド』の [eVar](/help/components/dimensions/evar-merchandising.md) を参照してください。*
+*このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。マーチャンダイジング eVar がディメンションとして機能する方法について詳しくは、 [eVar（マーチャンダイジングディメンション）](/help/components/dimensions/evar-merchandising.md) 」を参照してください。*
 
 マーチャンダイジング eVar の仕組みについて詳しくは、[マーチャンダイジング eVar と製品検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja)を参照してください。
 
 ## レポートスイート設定での eVar の設定
 
-実装で eVar を使用する前に、各 eVar をレポートスイートの設定で設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
+実装で eVar を使用する前に、レポートスイートの設定でeVarを目的の構文に設定してください。 詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
 >[!WARNING]
 >

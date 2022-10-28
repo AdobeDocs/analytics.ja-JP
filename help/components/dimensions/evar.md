@@ -1,12 +1,12 @@
 ---
-title: eVar(Dimension)
+title: eVar（ディメンション）
 description: レポートで使用できるカスタムディメンション。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 99%
+source-wordcount: '787'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ JavaScript 変数をデータ収集用のイメージリクエストにコンパ
 
 ## ディメンション項目
 
-eVar は実装内にカスタム文字列を含むので、各 eVar のディメンション項目は組織によって決定されます。各 eVar の目的と一般的なディメンション項目を必ず[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)に記録してください。
+eVar は実装内にカスタム文字列を含むので、各 eVar のディメンション項目は組織によって決定されます。各eVarの目的と一般的なディメンション項目を必ず [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md).
 
 ## eVar のしくみ
 

@@ -3,10 +3,10 @@ title: 上位 5 件の KPI の定義
 description: 主要業績評価指標と関連する指標およびディメンションが、ビジネスニーズに密接に合致していることを確認します。
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 94%
 
 ---
 

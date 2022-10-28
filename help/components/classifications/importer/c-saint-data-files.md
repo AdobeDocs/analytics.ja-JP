@@ -3,10 +3,10 @@ description: インポーターを使用すると、分類データを Analytics
 title: 分類データファイル
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 98%
+source-wordcount: '1784'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 * アップロードするファイルは、BOM なしの UTF-8 でエンコードする必要があります。
 * タブ、改行、引用符などの特殊文字は、バージョン 2.1 のファイル形式が指定されており、セルが適切に[エスケープ](/help/components/classifications/importer/t-classifications-escape-data.md)されている場合にのみ使用することができます。特殊文字には、次のものがあります。
 
-   ```
+   ```text
    \t     tab character 
    \r     form feed character 
    \n    newline character 
@@ -53,7 +53,7 @@ ht-degree: 98%
    * v2.0 は引用符を無視し、すべてが指定されたキーと値の一部であると見なします。例えば、&quot;This is &quot;&quot;some value&quot;&quot;&quot; という値を考えてみましょう。v2.0 は、これを文字どおりに &quot;This is &quot;&quot;some value&quot;&quot;&quot; と解釈します。
    * v2.1 は、引用符が Excel ファイルで使用されているファイルフォーマットの一部であると見なすよう分類に指示します。したがって、v2.1 は上記の例を This is &quot;some value&quot; にフォーマットします。
    * ファイル内で v2.1 が指定されているが実際には v2.0 が必要な場合、つまり、Excel のフォーマットとしては不正な方法で引用符が使用されている場合は、問題が生じることがあります。例えば、&quot;VP NO REPS&quot; S/l Dress w/ Overlay という値があるとします。v2.1 では、これは正しくないフォーマットであり（値は開始引用符と終了引用符で囲み、実際の値の一部である引用符は引用符でエスケープする必要があります）、これ以降の行は分類処理がおこなわれません。
-   * ファイルのヘッダー（セル C1）を変更してファイル形式を v2.0 に変更するか、ファイル全体で Excel の引用符を正しく使用してください。
+   * 必ず次のいずれかの操作を行ってください。アップロードするファイルのヘッダー（セル C1）を変更して、ファイル形式を v2.0 に変更するか、ファイル全体で引用する Excel を適切に実装します。
 
 * データファイルの最初にある（コメントなしの）行には、列内の分類データを示す列見出しが含まれます。列見出しには、特定の形式を使用する必要があります。詳しくは、[列見出しの形式](/help/components/classifications/importer/c-saint-data-files.md)を参照してください。
 * データファイルのヘッダー行のすぐ後には、データ行が続きます。データの各行には、列見出しごとに 1 つのデータフィールドを含める必要があります。

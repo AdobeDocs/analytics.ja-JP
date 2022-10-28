@@ -3,10 +3,10 @@ title: デジタルアシスタント向け Analytics
 description: Amazon Alexa や Google Home などのデジタルアシスタントに Adobe Analytics を実装します。
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 100%
+source-wordcount: '1265'
+ht-degree: 98%
 
 ---
 
@@ -113,7 +113,7 @@ Cache-Control: no-cache
 
 例えばユーザーが「Siri、昨夜のディナー代として、ジョンにバンキングアプリから 20 ドル送金して」と言った場合は、その目的は&#x200B;*sendMoney* などになります。
 
-これらの各要求を eVar として送信することで、会話アプリの各目的に関するパスレポートを作成できます。目的がなくてもアプリがリクエストを処理できることを確認します。変数を省略するのではなく、インテントコンテキストデータ変数に「No Intent Specified（インテントが指定されていません）」を渡すことをお勧めします。
+これらの各要求を eVar として送信することで、会話アプリの各目的に関するパスレポートを作成できます。目的を持たずにアプリがリクエストを処理できることを確認します。 変数を省略するのではなく、インテントコンテキストデータ変数に「No Intent Specified（インテントが指定されていません）」を渡すことをお勧めします。
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1

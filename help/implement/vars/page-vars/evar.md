@@ -1,12 +1,12 @@
 ---
-title: eVar変数
+title: eVar（変数）
 description: 実装で使用できるカスタム変数。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 88%
+source-wordcount: '406'
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ eVar は、好きなだけ使用できるカスタム変数です。[ソリュ�
 
 ## レポートスイート設定での eVar の設定
 
-実装で eVar を使用する前に、各 eVar をレポートスイートの設定で設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
+実装で eVar を使用する前に、各eVarをレポートスイートの設定で設定してください。 詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
 ## Web SDK を使用した eVar
 

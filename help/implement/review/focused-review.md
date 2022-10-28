@@ -3,10 +3,10 @@ title: 重点レビュー（各 Web サイトリリース後）
 description: 以下の手順に従って、実装時にエラーが発生しないようにし、KPI に沿って進める必要があります。
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '513'
+ht-degree: 84%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 100%
 
 上位 5 件の主要業績評価指標（KPI）を把握することで、調査が必要な関連指標と関連ディメンションを判断するのに役立ちます。 過去 6 か月間に KPI を更新していない場合や、まだ KPI を作成していない場合は、[これらの手順](/help/implement/review/define-kpis.md)に従ってください。
 
-## 2. KPI 指標と変数が引き続き正常に機能していることを確認します。
+## 2. KPI 指標と変数が引き続き正常に機能することを確認します。
 
-経時的にコードを更新すると、意図しない影響が生じる可能性があります。 [上位 5 件の KPI](/help/implement/review/define-kpis.md)に関連付けられているすべての指標とディメンションが、引き続き正しく機能していることを確認する必要があります。これらは、Web サイトのリリース直後におこなうのが理想です。過去数か月間実行していない場合は、*今すぐ*&#x200B;実施してください次に手順を示します。
+経時的にコードを更新すると、意図しない影響が生じる可能性があります。 次の項目に関連付けられているすべての指標とディメンションが [上位 5 件の KPI](/help/implement/review/define-kpis.md) が正常に機能しない問題を修正しました。 これは、Web サイトのリリース直後におこなうのが理想です。ここ数か月間それを行っていない場合は、それを行ってください *now*. 次に手順を示します。
 
 * ダッシュボードを作成して、これらの重要な指標と変数の時間別トレンドビューを確認します（または、各指標に対して[インテリジェントアラート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=ja#analysis-workspace)を設定します）。 その後、1 ～ 2日監視し、期待するデータが取得され、データが正しいことを確認します。 変曲点を探します。 重要な問題を直ちに修正できるよう備えてください。 不一致が見つかった場合は、データレイヤー、タグマネージャーのルール、処理ルールを調べて理由を見つけます。
 *  [Analytics ヘルスダッシュボード](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)を再実行して、KPI 指標および変数の幅広いトレンドを監視します。
 
-*指標と変数が正しく機能していることを確認する方法の詳細については、Adobe Analytics チャンピオンの Sarah Owen による[これらのヒント](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)をお読みください。*
+*指標と変数が正しく機能していることを確認する方法の詳細については、 [これらのヒントを読む](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) Adobe Analyticsチャンピオンのサラ・オーウェンから*
 
 ## 3. サイトの更新されたセクションのデータをよく調べます。
 

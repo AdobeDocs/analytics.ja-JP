@@ -4,10 +4,10 @@ title: フロービジュアライゼーションの設定
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 89%
+source-wordcount: '1377'
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
    * ドロップダウンメニューを使用して、指標またはディメンションを選択する。
    * ディメンションまたは指標のリストから項目をドラッグする。
-   * 検索を使用して、探している指標またはディメンションを見つける。
+   * 検索を使用して、探しているディメンションまたは指標を見つけます。
 
    例えば、チェックアウトイベントに至るまでのすべての情報を追跡するとします。チェックアウト関連のディメンションまたは指標（[!UICONTROL 注文が存在する]）を「**[!UICONTROL 次で終わる]**」ドロップゾーンにドラッグできます。
 

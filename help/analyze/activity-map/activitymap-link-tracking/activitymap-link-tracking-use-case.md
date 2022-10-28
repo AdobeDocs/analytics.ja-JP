@@ -5,10 +5,10 @@ uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 61%
+source-wordcount: '363'
+ht-degree: 57%
 
 ---
 
@@ -80,6 +80,7 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 >[!IMPORTANT]
 >
 >なお、末尾のセミコロン (`;`) は、 `s_objectID` Activity Map
+
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -138,10 +139,10 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 各「購入」リンクに独自の地域が定義されていることを確認することで、地域をカスタマイズできます。 これをおこなうには、 `"id"` パラメーターを、各「購入」アンカータグの親の 1 つに追加します。
 
 >[!NOTE]
+>
 >あなたは厳密に制限されているわけではありません `"id"` 地域識別子としてのパラメーター。 また、JavaScript 変数を使用して独自の識別子を設定することもできます `"s.ActivityMap.regionIDAttribute"`.
->
->
-><table id="table_250DB52A869C466B942517BABA1C287B">
+
+<table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
   <tr>
    <th colname="col02" class="entry"> コードサンプル </th>
@@ -197,11 +198,12 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
 ## AppMeasurement Activity Map モジュールファイルのカスタマイズ {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
-必ず、変更したコードをテストして、適切に機能することを確認してください。変更後のコードの動作については、アドビでは一切責任を負いません。
+>
+>必ず、変更したコードをテストして、正しく機能することを確認してください。 変更後のコードの動作については、アドビでは一切責任を負いません。
 
 AppMeasurement.js ファイルに（変更した形式で）含めることのできる&#x200B;**一般的な**&#x200B;リンク／領域関数の例を 2 つ示します。
 
-```
+```js
 s.ActivityMap.link = function(ele, linkName) {
   if (linkName) {
     return linkName;
@@ -216,7 +218,7 @@ s.ActivityMap.link = function(ele, linkName) {
 
 この `linkName` が `s.tl()`.
 
-```
+```js
 s.ActivityMap.region = function(ele) {
   var className,
   classNames = {

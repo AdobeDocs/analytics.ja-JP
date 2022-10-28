@@ -1,18 +1,18 @@
 ---
-description: レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。事前にラベルとその意味について学んでおいてください。
+description: レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。
 title: レポートスイートのデータのラベル設定
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '967'
+ht-degree: 97%
 
 ---
 
 # レポートスイートのデータのラベル設定
 
-レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。事前にラベルとその意味について学んでおいてください。
+レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。必ず、ラベルとその定義について理解しておいてください。
 
 >[!NOTE]
 >
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 **例**：データ管理者が、データプライバシー要求を処理するためにデータ主体から電子メールアドレスと Cookie ID を収集する予定だとします。この Cookie ID は Adobe Analytics のレポートスイートに保管されます。電子メールアドレスと Cookie ID のラベルを作成するには、Analytics で Adobe Cloud Platform の Data Usage Labeling &amp; Enforcement（DULE）フレームワークを使用する必要があります。
 
-1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**／**[!UICONTROL （レポートスイートを選択）]**![](assets/privacy_rs_settings.png)の順にクリックします。
+1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**／**[!UICONTROL （レポートスイートを選択）]**![の順にクリックします。プライバシー設定](assets/privacy_rs_settings.png)
 
 1. ラベルを設定する変数のグループを選択します。
 
-   ![](assets/variables.png)
+   ![変数](assets/variables.png)
 
    * **標準ディメンション**（Adobe Analytics のデフォルトのディメンション）
    * **標準指標**（Adobe Analytics のデフォルトの指標）
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 1. （オプション）各変数の隣の情報（i）アイコンをクリックして、最近の 90 日間で最も一般的な値について理解を深めます。（この機能は、 Analytics UI では使用できないので、データ処理ディメンションには使用できません。）
 
-   ![](assets/info.png)
+   ![情報](assets/info.png)
 
 1. チェックボックスをオンにして 1 つ以上の変数を選択してから、右側の&#x200B;**[!UICONTROL 編集]**&#x200B;アイコンをクリックして変数を編集します。
 
-   ![](assets/edit.png)
+   ![編集](assets/edit.png)
 
 1. **ID データ**&#x200B;ラベルダイアログが自動的に開きます。これらのラベルでは、単独または他のデータと組み合わせることで、個人を特定できるデータまたは個人への直接連絡が可能となるデータを分類します。これらのオプションについて詳しくは、[ID データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)を参照してください。
 
@@ -51,15 +51,15 @@ ht-degree: 100%
    >
    >Data Usage Labeling &amp; Enforcement（DULE）フレームワークは、様々なソリューション／サービス／プラットフォームにまたがり、共通の方法で Adobe Experience Cloud 全体のデータに関するメタデータを取得、伝達、利用できるようにすることを目的としています。データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。
 
-   ![](assets/identity_labels.png)
+   ![ID ラベル](assets/identity_labels.png)
 
 1. 「**機密データ**」セクションを開いて、位置情報データに分類される機密データラベルを設定します。これらのオプションについて詳しくは、[機密データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)を参照してください。
 
-   ![](assets/sensitive_data.png)
+   ![機密データ](assets/sensitive_data.png)
 
 1. 「データプライバシーのデータ」セクションを開いて、**データガバナンス**&#x200B;ラベルを設定します。このセクションを使用して、データプライバシーアクセス要求および削除要求用の各変数の処理方法をアドビに知らせ、それらの要求用にデータ主体の ID を探すためにスキャンされる必要がある変数を定義します。これらのオプションについて詳しくは、[データガバナンスラベル（データプライバシー）](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)を参照してください。
 
-   ![](assets/privacy_labels.png)
+   ![プライバシーラベル](assets/privacy_labels.png)
 
 1. すべてのラベル設定が完了したら、「**[!UICONTROL 適用]**」をクリックします。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 1. このグループの一部、またはすべての変数を選択します。
 1. データガバナンスダイアログの右上にある「**[!UICONTROL レポートスイートにコピー]**」をクリックします。
 
-   ![](assets/apply_as_template.png)
+   ![テンプレートとして適用](assets/apply_as_template.png)
 
 1. 「**[!UICONTROL すべて選択]**」をチェックして、選択した変数のラベルをすべてのレポートスイートにコピーするか、ラベルをコピーするレポートスイートを個別に選択します。
 

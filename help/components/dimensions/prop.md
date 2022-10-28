@@ -3,10 +3,10 @@ title: prop
 description: レポートで使用できるカスタムディメンション。
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ JavaScript 変数をデータ収集用のイメージリクエストにコンパ
 
 ## ディメンション項目
 
-prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。各 prop の目的と一般的なディメンション項目を必ず[ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md)に記録してください。
+prop は実装にカスタム文字列を含むので、組織で各 prop のディメンション項目を決定します。各 prop の目的と一般的なディメンション項目を必ず [ソリューションデザインドキュメント](/help/implement/prepare/solution-design.md).
 
 ## 大文字と小文字の区別
 

@@ -5,10 +5,10 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 1. Report Builder メニューの&#x200B;**[!UICONTROL オプション]**&#x200B;を選択します。
 
-   ![](assets/offline_mode.png)
+   ![オフラインモード](assets/offline_mode.png)
 
 1. 「**[!UICONTROL オフラインモードにする（リクエストの作成、編集のみ可能）]**」の横にあるチェックボックスをオンにします。
 1. 「**[!UICONTROL ダミーデータの表示方法]**」フィールドに、リクエストで返すプレースホルダーデータを入力します。例えば、「1」と入力します。
@@ -30,8 +30,8 @@ ht-degree: 100%
 1. リクエストウィザードを使用して、（オフラインモードで）リクエストを作成し、実行します。
 1. プレースホルダーデータとして「1」が指定されたリクエストは次のように表示されます。
 
-   ![](assets/offline_mode_example.png)
+   ![オフラインモードの例](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >
-   >実際のデータを使用してリクエストを実行する前に、オフラインモードを無効にしてください。無効にするには、**[!UICONTROL オプション]**&#x200B;メニューでチェックボックスをオフにします。
+   >実際のデータを使用してリクエストを実行する前に、オフラインモードを必ず無効にしてください。 無効にするには、**[!UICONTROL オプション]**&#x200B;メニューでチェックボックスをオフにします。

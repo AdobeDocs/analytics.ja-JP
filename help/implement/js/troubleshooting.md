@@ -3,10 +3,10 @@ title: JavaScript 実装のトラブルシューティング
 description: JavaScript 実装の一般的な問題とトラブルシューティングに関するベストプラクティスについて説明します。
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '693'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ### 変数を定義する引用符の混合
 
-ベストプラクティスとして、使用する引用符の種類に一貫性があることを確認してください。一重引用符で文字列の開始を指定する場合は、一重引用符を使用して文字列を閉じる必要があります。
+ベストプラクティスとして、使用する引用符のタイプに一貫性があることを確認します。 一重引用符で文字列の開始を指定する場合は、一重引用符を使用して文字列を閉じる必要があります。
 
 例えば、`s.eVar1 = 'Value'` と `s.eVar1 = "Value"` は両方とも有効です。`s.eVar1 = 'Value"` は無効です.
 
