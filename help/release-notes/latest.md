@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 96488440c73acfdc015560012de5481368baed8a
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 94%
+source-wordcount: '1426'
+ht-degree: 93%
 
 ---
 
 # 最新のAdobe Analyticsリリースノート（2022 年 10 月/11 月）
 
-**最終更新日**：2022年10月25日（PT）
+**最終更新日**：2022年10月28日（PT）
 
 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -21,7 +21,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **[!UICONTROL 主要指標の概要]**&#x200B;のビジュアライゼーション | [!UICONTROL 主要指標の概要]のビジュアライゼーションを使用すると、1 つの期間内で重要な指標のトレンドを確認できます。また、2 つの期間で指標のパフォーマンスを比較することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ja) | 2022年10月5日（PT） | 2023 年 10 月 20 日 |
-| **大文字と小文字を区別しない複数値の変数** | 大文字と小文字を区別しない複数値の変数の場合、データフィードの `mvvar1`～`mvvar3` に格納される値は、自動的に小文字に変換されることはなくなります。 代わりに、データフィード（および Analytics ソースコネクタを通じて Adobe Experience Platform と CJA に渡されるデータ）は、ページから渡された元のケースを反映します。 | 該当なし | 2022年10月24日（PT） |
+| **複数値の変数で大文字と小文字が区別されない** | 大文字と小文字を区別しない複数値の変数の場合、 `mvvar1 - mvvar3` および `post_mvvar1 - post_mvvar3` のデータフィードは自動的に小文字にならなくなりました。 代わりに、データフィード（および Analytics ソースコネクタを通じて Adobe Experience Platform と CJA に渡されるデータ）は、ページから渡された元のケースを反映します。 | 該当なし | 2022年10月24日（PT） |
 
 {style=&quot;table-layout:auto&quot;}
 
