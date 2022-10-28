@@ -5,7 +5,7 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 97%
@@ -13,6 +13,8 @@ ht-degree: 97%
 ---
 
 # 異なるレポートタイプの実行
+
+{{ra-eol}}
 
 異なるレポートタイプの実行手順を説明します。
 

@@ -5,7 +5,7 @@ uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 feature: Calendar
 role: User, Admin
 exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 98%
@@ -13,6 +13,8 @@ ht-degree: 98%
 ---
 
 # カレンダーイベント
+
+{{ra-eol}}
 
 カレンダーイベントを追加し、共有イベントを管理する手順を説明します。
 

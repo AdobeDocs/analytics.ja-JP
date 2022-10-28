@@ -5,7 +5,7 @@ uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # 下位関係
+
+{{ra-eol}}
 
 完全な下位関係は、すべてのコンバージョンレポートで有効であるため、eVar を別の eVar によって分類できます。レポート表の分類基準メニューは、標準 Analytics レポートメニューに一致し、選択の整合性を維持しています。
 

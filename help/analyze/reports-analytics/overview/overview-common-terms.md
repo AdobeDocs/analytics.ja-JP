@@ -5,7 +5,7 @@ uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
-source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 93%
@@ -13,6 +13,8 @@ ht-degree: 93%
 ---
 
 # 一般用語
+
+{{ra-eol}}
 
 一般的に使用される Adobe Analytics 用語の紹介。
 

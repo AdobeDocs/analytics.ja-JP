@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1059'
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 0%
       + [プロジェクトの保存](analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace のフォルダー {#workspace-folders}
          + [Workspace のフォルダーについて](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [フォルダとサブフォルダの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [プロジェクトを追加](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [フォルダーとサブフォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [プロジェクトの追加](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [プロジェクトの削除](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [新しいプロジェクトを保存](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [新しいプロジェクトの保存](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
       + [複数のレポートスイート](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [ホットキー（ショートカット）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -82,7 +82,7 @@ ht-degree: 0%
       + [面グラフおよび積み重ね面グラフ](analysis-workspace/visualizations/area.md)
       + [棒グラフおよび積み重ね棒グラフ](analysis-workspace/visualizations/bar.md)
       + [ブレットグラフ](analysis-workspace/visualizations/bullet-graph.md)
-      + [コンボグラフ](analysis-workspace/visualizations/combo-charts.md)
+      + [複合グラフ](analysis-workspace/visualizations/combo-charts.md)
       + [ドーナツ](analysis-workspace/visualizations/donut.md)
       + [ヒストグラム](analysis-workspace/visualizations/histogram.md)
       + [横棒グラフおよび積み重ね横棒グラフ](analysis-workspace/visualizations/horizontal-bar.md)
@@ -305,7 +305,6 @@ ht-degree: 0%
       + [レポートメニュー](reports-analytics/overview/reports-menu.md)
       + [レポートの機能](reports-analytics/overview/report-overview.md)
       + [一般用語](reports-analytics/overview/overview-common-terms.md)
-      + [iOS 版 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [レポートの表示設定とナビゲーション](reports-analytics/report-settings.md)
    + [レポートのスケジュールと配信](reports-analytics/scheduling.md)
    + [予定レポートの提供終了のお知らせ](reports-analytics/scheduled-reports-eol.md)

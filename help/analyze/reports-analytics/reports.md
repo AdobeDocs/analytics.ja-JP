@@ -4,7 +4,7 @@ description: 各レポートで Reports & Analytics が使用するディメン�
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # レポート
+
+{{ra-eol}}
 
 Reports &amp; Analytics の各レポートは、専用のディメンションとデフォルトの指標を使用します。必要に応じて、各レポートの指標を変更し、分類を追加できます。次のリストは、各レポートで使用されるディメンションを示します。
 

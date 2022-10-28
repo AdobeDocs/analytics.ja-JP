@@ -5,7 +5,7 @@ title: Reports & Analytics に関するよくある質問 (FAQ)
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 99%
@@ -13,6 +13,8 @@ ht-degree: 99%
 ---
 
 # よくある質問
+
+{{ra-eol}}
 
 Reports &amp; Analytics の Analytics に関して最もよくある質問に対する回答とトラブルシューティングの提案を示します。実装に関するよくある質問については、『実装マニュアル』の「[FAQ](/help/implement/faq.md)」を参照してください。
 

@@ -5,7 +5,7 @@ title: ダッシュボードおよびレポートレット
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # ダッシュボードおよびレポートレット
+
+{{ra-eol}}
 
 ダッシュボードは、レポートレットと呼ばれるサムネイル表示されたレポートの集まりです。ダッシュボードは、検索方法や訪問者プロファイルのような、特定の切り口で分析するための関連レポートレットをいくつも掲載する場合に特に便利です。
 

@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics テクニカルノート
 breadcrumb-title: テクニカルノート
 user-guide-description: 特定の Analytics ツールやコンポーネントに属さない有益な記事を含むナレッジベースを参照してください。
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '204'
 ht-degree: 98%
 
 ---
@@ -63,3 +63,4 @@ ht-degree: 98%
 + [ログアウトのトラブルシューティング](troubleshoot-sessions.md)
 + [未指定、その他および不明](unspecified.md)
 + [訪問者の移行](visitor-migration.md)
++ [VISTA ルール](vista.md)

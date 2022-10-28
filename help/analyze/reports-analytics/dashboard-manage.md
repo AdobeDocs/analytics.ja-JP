@@ -6,7 +6,7 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 98%
@@ -14,6 +14,8 @@ ht-degree: 98%
 ---
 
 # ダッシュボードマネージャー
+
+{{ra-eol}}
 
 ダッシュボードマネージャーを使用して、ダッシュボードのコピー、共有、アーカイブ、および配信スケジュールの設定を行います。
 
