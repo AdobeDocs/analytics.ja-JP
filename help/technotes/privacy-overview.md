@@ -4,10 +4,10 @@ keywords: プライバシー
 title: プライバシーの概要
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 98%
+source-wordcount: '791'
+ht-degree: 93%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Analytics は次のデータを収集します。
   </tr> 
   <tr> 
    <td colname="col1"> ドイツ </td> 
-   <td colname="col2"> <p>Adobe Analytics に関するデータ処理協定（DPA）をアドビとまだ交わしていない顧客は、Adobe アカウントマネージャーまたはカスタマーサクセスマネージャーに連絡してください。これらのマネージャーがアドビ法務部門と DPA を交わします。 </p> <p>アドビは、Adobe Analytics に関するデータ処理協定（Vertrag über Auftragsdatenverarbeitung – ADV）を用意しており、その内容はバイエルンデータ保護機関（Bayerisches Landesamt für Datenschutzaufsicht – BayLDA）によって確認および認定済みです。ADV はドイツ語と英語で使用できます。 </p> </td> 
+   <td colname="col2"> <p>Adobe AnalyticsのAdobeに関するデータ処理契約をまだお持ちでない場合は、担当のAdobeのアカウントマネージャまたはカスタマーサクセスマネージャに問い合わせてください。この担当者は、Adobe法務部と協力して DPA を導入します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

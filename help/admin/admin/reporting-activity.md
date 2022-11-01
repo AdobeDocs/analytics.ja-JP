@@ -3,9 +3,9 @@ description: レポートアクティビティマネージャーを使用して�
 title: レポートアクティビティマネージャー
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '928'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ Adobe Analyticsで、管理者は **[!UICONTROL 管理者]** > **[!UICONTROL レ
 
 ## 権限
 
-レポートアクティビティを管理するには、Analytics システム管理者権限が必要です。 製品管理者のアクセス権が不十分です。
+レポートアクティビティを管理するには、Analytics 製品管理者権限が必要です。
 
 ## レポートキューを表示
 
@@ -118,7 +118,7 @@ Adobe Analyticsで、管理者は **[!UICONTROL 管理者]** > **[!UICONTROL レ
 
 要求をキャンセルするには
 
-1. 1 つ以上の **[!UICONTROL クエリ ID]** テーブル内で、 **[!UICONTROL リクエストをキャンセル]** 下に
+1. 1 つ以上の **[!UICONTROL クエリ ID]** テーブル内で、 **[!UICONTROL リクエストをキャンセル]** 下に ( 詳細を表示して、一括でリクエストをキャンセルすることもできます。 [!UICONTROL ユーザー], [!UICONTROL プロジェクト]または [!UICONTROL アプリ].)
 1. 内 **[!UICONTROL x クエリのキャンセル]** ウィンドウが表示され、必要に応じてキャンセルメッセージを変更できます。
 1. 「**[!UICONTROL 続行]**」をクリックします。
 
@@ -127,7 +127,6 @@ Adobe Analyticsで、管理者は **[!UICONTROL 管理者]** > **[!UICONTROL レ
 例えば、Workspace のアプリケーションユーザーの場合、プロジェクトには次の通知が表示されます。
 
 ![cancel-user-notice](assets/cancel-user-facing.png)
-
 
 ## よくある質問
 
