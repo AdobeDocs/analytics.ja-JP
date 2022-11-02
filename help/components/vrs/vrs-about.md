@@ -3,9 +3,9 @@ description: 仮想レポートスイートを使用すると、Adobe Analytics 
 title: 仮想レポートスイートの概要
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
+source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '807'
 ht-degree: 95%
 
 ---
@@ -59,6 +59,8 @@ ht-degree: 95%
 | DL レポート、ブックマーク、ダッシュボード、ターゲット、アラート、セグメント、計算指標などの作成： | ○ | ○ |
 | 権限グループへの個別の追加 | ○ | ○ |
 | 管理者機能を使用した個別設定の編集（管理者／レポートスイート） | ×（親レポートスイートの設定を継承） | ○ |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 仮想レポートスイートとマルチスイートタグ付けの組み合わせ {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
