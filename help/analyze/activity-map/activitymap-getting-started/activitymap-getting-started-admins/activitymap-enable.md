@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
@@ -29,13 +29,13 @@ Activity Map のデータは、このバージョン以上の AppMeasurement に
 1. 実装の検証:
 
    1. クリック可能な要素をクリックすると、s_sq という名前の cookie にデータが保存されます。
-   1. Activity Map データは、トラッキングコール時のクエリ文字列で確認できます。次に例を示します。
+   1. Activity Map データは、トラッキングコール時のクエリ文字列で確認できます。以下に例を示します。
 
       ```
       …&c.&a.&Activity Map.&link=My%20Link&region=My%20Region&page=My%20Page&.Activity Map&.a&.c&...
       ```
 
-1. このレポートを&#x200B;**[!UICONTROL 地域別 Activity Map リンク]**&#x200B;によって分割すると、そのページのリンクと地域を確認できます。![](assets/am_breakdown.png){width=&quot;400px&quot;}
+1. このレポートを&#x200B;**[!UICONTROL 地域別 Activity Map リンク]**&#x200B;によって分割すると、そのページのリンクと地域を確認できます。  ![](assets/am_breakdown.png){width="400px"}
 
 ## 手順 2.Activity Map レポートを有効にする {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 

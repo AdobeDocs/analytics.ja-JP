@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,6 @@ ht-degree: 100%
 正しいブラウザープラグインがインストールされている場合は、Web ページから直接 Activity Map を起動できます。
 
 1. ブラウザーのアドレスバーの右側にある Adobe Analytics アイコンをクリックします。\
-   ![](assets/an_icon.png){width=&quot;90px&quot;}
+   ![](assets/an_icon.png){width="90px"}
 1. ログイン用の会社名、ユーザ名およびパスワードを使用してログインします。
 1. アプリケーションが起動し、ツールバーとオーバーレイが表示されます。

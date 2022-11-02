@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 100%
 
 ページレポートの例を示します（**[!UICONTROL レポート]**／**[!UICONTROL サイトコンテンツ]**／**[!UICONTROL ページレポート]**／**[!UICONTROL ページ]**）。
 
-![](assets/pages_report.png){width=&quot;672px&quot;}
+![](assets/pages_report.png){width="672px"}
 
 ## レポートのツールバー {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 レポートデータを意思決定者と共有し、そのデータに基づいてサイトやマーケティング戦略を変更できるようにします。
 
-![](assets/toolbar.png){width=&quot;672px&quot;}
+![](assets/toolbar.png){width="672px"}
 
 「[レポートのカスタマイズ](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)」も参照してください。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 レポートの設定を表示し、レポートの種類の構成、指標の選択などを行うことができます。このグループで使用可能なオプションは、実行するレポートによって変わります。
 
-![](assets/settings_header.png){width=&quot;672px&quot;}
+![](assets/settings_header.png){width="672px"}
 
 詳細については、「[レポートのカスタマイズ](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)」を参照してください。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 カレンダーボタンをクリックして、日付範囲を選択して、日付を指定します。2 つの期間を選択して、パフォーマンスを比較することもできます。
 
-![](assets/calendar_large.png){width=&quot;672px&quot;}
+![](assets/calendar_large.png){width="672px"}
 
 [日付または日付範囲の選択](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)および[日付の比較](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)を参照してください。
 

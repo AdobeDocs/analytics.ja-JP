@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Activity Map ブラウザープラグインには次の特徴があります。
 1. Chrome のアドレスバーに戻って、&quot;`chrome://extensions`&quot; と入力します。
 1. 「デベロッパーモード」ボックスをチェックします。
 1. 「パッケージ化されていない拡張機能を読み込む」をクリックして、解凍したフォルダーをポップアップから選択します。
-1. Adobe Analytics アイコン ![](assets/an_icon.png){width=&quot;70px&quot;} がツールバーに追加されていれば、ダウンロードは成功しています。これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
+1. Adobe Analytics アイコン ![](assets/an_icon.png){width="70px"} がツールバーに追加されていれば、ダウンロードは成功しています。これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
 
 ## Firefox での Activity Map プラグインのインストール {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -45,7 +45,7 @@ Activity Map ブラウザープラグインには次の特徴があります。
 1. 「**[!UICONTROL Activity Map プラグインをインストール]**」をクリックします。
 1. 以下のメッセージが表示されたら、「**[!UICONTROL 許可]**」をクリックします。![](assets/firefox_install2.png)
 1. 「**[!UICONTROL 今すぐインストール]**」をクリックします。
-1. 右上の「**[!UICONTROL メニューを開きます]**」アイコンをクリックして「**[!UICONTROL アドオン]**」を選択します。![](assets/firefox_install3.png){width=&quot;250px&quot;}
+1. 右上の「**[!UICONTROL メニューを開きます]**」アイコンをクリックして「**[!UICONTROL アドオン]**」を選択します。![](assets/firefox_install3.png){width="250px"}
 1. Firefox アドオンの 1 つとして Activity Map が表示されます。
 1. Adobe Analytics アイコン ![](assets/an_icon.png) がツールバーに追加されていれば、ダウンロードは成功しています。これで、ページから [Activity Map を起動](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)できます。
 

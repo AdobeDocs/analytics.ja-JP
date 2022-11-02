@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '853'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Reports &amp; Analytics のレポートメニューの概要を示します。
 
 レポート間を移動するには、階層的なメニューを使用します。「**[!UICONTROL すべてのレポートを表示]**」をクリックするか、矢印キーを使用してメニューをすばやく表示して移動するには、/（フォワードスラッシュ）キーを押してから下向き矢印（↓）を押します。現在のレポートを変更せずにメニューを閉じるには、Esc キーを押します。選択したレポートを読み込むには、Enter キーを押します。
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 個々のレポートについて詳しくは、[ディメンション](/help/components/dimensions/overview.md)を参照してください。
 
