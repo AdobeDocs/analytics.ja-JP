@@ -3,7 +3,7 @@ title: データレイヤーの作成
 description: Analytics の実装におけるデータレイヤーと、それらを Adobe Analytics で変数のマッピングに使用する方法について説明します。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
+source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 60%
@@ -27,6 +27,7 @@ ht-degree: 60%
    >[!NOTE]
    >
    > アドビ推奨のデータレイヤー仕様に従うことはオプションです。データレイヤーが既に存在する場合、またはアドビの仕様に従わない場合は、どの仕様に従うかを組織で決定してください。
+
 1. **ブラウザーコンソールを使用して、データレイヤーを検証します**：データレイヤーが作成されたら、任意のブラウザーの開発者コンソールを使用して、データレイヤーが機能していることを検証できます。デベロッパーコンソールは、`F12` キーを使用してほとんどのブラウザーで開くことができます。変数値の例は `adobeDataLayer.page.title` です。
 1. **Adobe Experience Platformデータ収集を使用して、データレイヤーオブジェクトをデータ要素にマッピングする**:この手順は、組織の実装方法によって異なります。
    * **Web SDK を使用する場合**:目的のデータレイヤーオブジェクトをAdobe Experience Platform Edge の目的の XDM フィールドにマッピングします。 詳しくは、 [Analytics 変数のマッピング](../aep-edge/variable-mapping.md) を使用して、目的のデータレイヤーマッピングを決定します。
