@@ -26,7 +26,7 @@ ht-degree: 100%
       + Workspace のフォルダー {#workspace-folders}
          + [Workspace のフォルダーについて](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [フォルダーとサブフォルダーの作成](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [プロジェクトの追加](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [プロジェクトを追加](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [プロジェクトの削除](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [新しいプロジェクトの保存](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [テンプレート](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -269,10 +269,10 @@ ht-degree: 100%
 + Activity Map {#activity-map}
    + [Activity Map の概要](activity-map/activity-map.md)
    + はじめに {#getting-started}
-      + はじめに（管理者向け）{#get-started-admins}
+      + はじめに（管理者向け） {#get-started-admins}
          + [Activity Map の有効化](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
          + [Activity Map の実装](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + はじめに（ユーザー向け）{#get-started-users}
+      + はじめに（ユーザー向け） {#get-started-users}
          + [Activity Map ブラウザープラグインのインストール](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Activity Map の起動](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [強力なリンクトラッキング](activity-map/lnk-tracking-overview.md)
