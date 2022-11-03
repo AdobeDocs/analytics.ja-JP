@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 5c178ebb86ffc932ecd90f427bd0a5e90fada1cb
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
-source-wordcount: '3526'
-ht-degree: 96%
+source-wordcount: '3599'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,8 @@ ht-degree: 96%
 | **`cust_hit_time_gmt`** | タイムスタンプに対応するレポートスイートの場合のみ。ヒットと共に送信されたタイムスタンプ（UNIX 時間）。 | int |
 | **`cust_visid`** | カスタム訪問者 ID が設定されている場合は、それがこの列に格納されます。 | varchar(255) |
 | **`daily_visitor`** | ヒットが新しい日別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
+| **`dataprivacyconsentoptin`** | で使用される変数 [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md) ディメンション。 複数の値を 1 回のヒットに指定でき、パイプ (`|`) をクリックします。 有効な値は次のとおりです。 `DMP` および `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | で使用される変数 [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md) ディメンション。 複数の値を 1 回のヒットに指定でき、パイプ (`|`) をクリックします。 有効な値は次のとおりです。 `SSF`, `DMP`、および `SELL`. | varchar(100) |
 | **`date_time`** | レポートスイートのタイムゾーンに基づいて判読可能な形式で表現されたヒットの時刻。 | 日時 |
 | **`domain`** | 「[ドメイン](/help/components/dimensions/domain.md)」ディメンションで使用される変数。訪問者のインターネットアクセスポイントに基づいています。 | varchar(100) |
 | **`duplicate_events`** | 重複としてカウントされた各イベントを列挙します。 | varchar(255) |
@@ -201,9 +203,12 @@ ht-degree: 96%
 | **`socialownedpropertypropertyvsapp`** | 廃止。Social 所有プロパティとアプリ | varchar(255) |
 | **`state`** | 状態変数。 | varchar(50) |
 | **`stats_server`** | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
+| **`survey`** | 廃止。Adobe Survey変数。 | テキスト |
+| **`survey_instances`** | 廃止。Adobe Surveyインスタンス変数。 | テキスト |
 | **`t_time_info`** | 訪問者の現地時刻。形式：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action` | テキスト |
 | **`tnt_action`** | Adobe Target 統合で使用されます。ヒットが認定されるすべてのテストを表します。 | テキスト |
+| **`tnt_instances`** | Adobe Target 統合で使用されます。ターゲットインスタンス変数。 | テキスト |
 | **`tnt_post_vista`** | 廃止。代わりに、`post_tnt` を使用してください。 | テキスト |
 | **`transactionid`** | データソースを使用して後から様々なデータポイントをアップロードするための一意の識別子。[`transactionID`](/help/implement/vars/page-vars/transactionid.md) 変数を使用して収集します。 | テキスト |
 | **`truncated_hit`** | イメージリクエストが切り捨てられたことを示すフラグ。部分的なヒットを受信したことを示します。<br>Y：ヒットが切り捨てられました。ヒットの一部を受信しました。<br>N：ヒットが切り捨てられませんでした。すべてのヒットを受信しました。 | char(1) |
@@ -268,7 +273,7 @@ ht-degree: 96%
 | **`visid_low`** | `visid_high` と組み合わせて使用し、訪問者を一意に識別します。 | bigint unsigned |
 | **`visid_new`** | 新しく生成された訪問者 ID がヒットに含まれているかどうかを識別するフラグ。 | char(1) |
 | **`visid_timestamp`** | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX 時間）を示します。 | int |
-| **`visid_type`** | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>0：カスタム訪問者 ID または不明／該当なし<br>1：IP およびユーザーエージェントのフォールバック<br>2：HTTP モバイル加入者ヘッダー<br>3：従来の cookie 値（`s_vi`）<br>4：フォールバック cookie の値（`s_fid`）<br>5：ID サービス | tinyint unsigned |
+| **`visid_type`** | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>`0`:カスタム訪問者 ID または不明/該当なし<br>`1`:IP とユーザーエージェントのフォールバック <br>`2`:HTTP モバイル購読者ヘッダー <br>`3`:従来の cookie 値 (`s_vi`) <br>`4`:フォールバック cookie の値 (`s_fid`) <br>`5`:ID サービス | tinyint unsigned |
 | **`visit_keywords`** | 「[検索キーワード](/help/components/dimensions/search-keyword.md)」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限である varchar(244) が使用されます。 | varchar(244) |
 | **`visit_num`** | 「[訪問回数](/help/components/dimensions/visit-number.md)」ディメンションで使用される変数。1 から始まり、訪問者ごとに新しい訪問が開始されるたびに増分されます。 | int unsigned |
 | **`visit_page_num`** | 「[ヒットの深度](/help/components/dimensions/hit-depth.md)」ディメンションで使用される変数。ユーザーがヒットを生成するたびに 1 ずつ増えます。訪問ごとにリセットされます。 | int unsigned |
