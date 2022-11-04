@@ -4,10 +4,11 @@ description: Adobe Analytics ドキュメントセットの大幅なアップデ
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
+mini-toc-levels: 3
+source-git-commit: 87e32cfdda69303939045b90a7984efafdf05b27
 workflow-type: tm+mt
-source-wordcount: '3545'
-ht-degree: 100%
+source-wordcount: '3550'
+ht-degree: 99%
 
 ---
 
@@ -16,14 +17,17 @@ ht-degree: 100%
 2019年1月以降の Adobe Analytics ドキュメントセットのアップデートについて説明します。
 
 * [!UICONTROL Customer Journey Analytics] の詳細については、 [こちら](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ja) を参照してください。
-* Adobe Analytics の新機能、管理者向け通知、バグ修正の一覧については、最新の [Experience Cloud リリースノート](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja) を参照してください。
-* オーディオおよびビデオのための Adobe Analytics について詳しくは、 [Adobe Analytics でのオーディオおよびビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja) を参照してください。
+* Analytics について詳しくは、Adobe Mediumに関する [Analytics でのオーディオおよびビデオの測定](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja).
 
 ## 主なドキュメントのアップデートの詳細
+
+### 2022 {#22}
 
 | 機能 | 説明 |
 | --- | --- |
 | **2022年10月** |  |
+| Data Workbench | [提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
+| クライアントヒント | 新規 [概要と FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
 | 主要指標の概要 | [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md)ビジュアライゼーションに関する新しいトピック  |
 | 分類セット | 新しいユーザー[分類セット](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ja)エクスペリエンスは、分類とルールを管理できる単一のインターフェイスを提供し、顧客が所有する分類データの可視性を向上させます。 |
 | モバイルアプリ：カスタム詳細ビュー | [カスタム詳細ビュー](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja)に関する新しいトピック |
@@ -59,6 +63,11 @@ ht-degree: 100%
 | モバイルスコアカードプロジェクトのプレビューモード | [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) では、スコアカードを保存して共有する前に、エクスペリエンスをプレビューできます。 |
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspace プロジェクトを追加、編集または削除します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 過去のスケジュール済み Report Builder タスクの一時停止に関する更新されたトピック | **2022年4月15日（PT）** より、アドビは、 [2 年以上前に作成されたすべてのスケジュール済み Report Builder タスクを一時停止](/help/analyze/report-builder/r-arb-scheduled-reports.md) する予定です。 |
+
+### 2021 {#21}
+
+| 機能 | 説明 |
+| --- | --- |
 | **2021年10月** |  |
 | 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja) に関する新しいドキュメントが公開されました |
 | 2021年10月21日（PT） | Analysis Workspace の [メディア再生滞在時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ja) パネルに関する新しいドキュメントが公開されました。 |
@@ -90,6 +99,11 @@ ht-degree: 100%
 | 2021年1月14日（PT） | Analytics ダッシュボードのドキュメントに言語選択オプションを追加しました。 |
 | 2021年1月14日（PT） | 公開画像 URL を参照して、画像を ワークスペースプロジェクトに追加する方法に関するドキュメントを追加しました。 |
 | 2021年1月14日（PT） | ワークスペースのビジュアライゼーションのソースマネージャーと設定マネージャーの結合：ビジュアライゼーションの [!UICONTROL データソース] マネージャー（ドット）と設定マネージャー（歯車）が単一のポップオーバーに結合し、一箇所でソースと設定を簡単に管理できます。 |
+
+### 2020 {#20}
+
+| 機能 | 説明 |
+| --- | --- |
 | **2020年12月** |  |
 | 2020年12月7日（PT） | 「adobedc.net」エンドポイントを含めるか代用するすべての関連ページを修正しました。 |
 | 2020年12月8日（PT） | ワークスペースの[新しいプロジェクトを作成](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=ja)ページを更新しました。 |
@@ -152,7 +166,11 @@ ht-degree: 100%
 | 2020年1月16日（PT） | [フリーフォームテーブルビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja)に関する新しいドキュメント。Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新がおこなわれ、どのテーブルを作成したいかがわかると時間を節約することができます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、ワークスペースで適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
 | 2020年1月14日（PT） | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
 | 2020年1月14日（PT） | [使用する Adobe Analytics ツール](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=ja)ページを変更しました。 |
-| **2019** |  |
+
+### 2019 年 {#19}
+
+| 機能 | 説明 |
+| --- | --- |
 | 2020年12月19日（PT） | デフォルトの [FTP データ保存制限](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=ja)を 10 GB に変更しました。 |
 | 2019年11月29日（PT） | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019年11月25日（PT） | IP ログイン制限実施の提供終了に関する新しいトピック. |
