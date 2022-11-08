@@ -3,7 +3,7 @@ title: 地域データ収集
 description: 地域データ収集に関する情報
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 1016e802f80855aebe0046f48556733652379d33
+source-git-commit: 60c2422ef32a4fadbb975006c111d12878a98f53
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 90%
@@ -54,7 +54,7 @@ RDC には現在、次の場所が含まれています（変更される場合�
 | 利点 | 説明 |
 | --- | --- |
 | パフォーマンス | RDC により、訪問者は最も近い DCC に接続します。これにより、応答時間が最速クラスになり、追跡の精度が向上、読み込み時間が短縮します。 |
-| 冗長性 | DCC と DPC の間の通信が中断されると、アドビの RDC インフラストラクチャはデータをローカルに保存し、通信が復元されたときにそのデータを DPC に転送します。 |
+| 冗長性 | DCC と DPC 間の通信が中断されると、アドビの RDC インフラストラクチャがデータをローカルに保存し、その後そのデータを通信が復旧した際に DPC に送信します。 |
 
 ## RDC のしくみ
 
