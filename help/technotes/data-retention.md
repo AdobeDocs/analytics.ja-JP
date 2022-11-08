@@ -3,10 +3,10 @@ title: データ保持ポリシー
 description: データ保持ポリシーは、アドビがデータを保存する期間を規定しています。
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '618'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics で収集されたデータは、一定の期間保持されま�
 
 ## 現在のデータ保持ポリシーを表示／管理
 
-[!UICONTROL 管理] ツールのデータガバナンスダイアログには、データガバナンス用に設定されているレポートスイートの概要が示されます。また、これらが Experience Cloud 組織にマップされているかどうか、およびこのレポートスイートに対してデータ保持ポリシーが設定されているかどうかも示されます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=ja)
+[!UICONTROL 管理] ツールのデータガバナンスダイアログには、データガバナンス用に設定されているレポートスイートの概要が示されます。また、これらが Experience Cloud 組織にマップされているかどうか、およびこのレポートスイートに対してデータ保持ポリシーが設定されているかどうかも示されます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html)
 
 ## よくある質問
 

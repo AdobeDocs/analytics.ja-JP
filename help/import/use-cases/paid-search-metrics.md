@@ -2,10 +2,10 @@
 title: 有料検索指標のインポート
 description: データソースを使用して有料検索指標（Google AdWords、MSN、Yahoo など）を追跡するように Adobe Analytics を設定する手順。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: 7c5bfadabe2ea851bb881d067d48b4f4700a53c7
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 100%
+source-wordcount: '1210'
+ht-degree: 99%
 
 ---
 
@@ -116,7 +116,7 @@ f. トラッキングコード、インプレッション数、クリック数�
 
 計算指標の追加は、クリック課金の決定を行う際に役立ちます。
 
-例えば、次の[計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=ja#calculated-metrics)を追加できます。
+例えば、次の[計算指標](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics)を追加できます。
 
 | 名前 | 数式 | 指標タイプ | 説明 |
 | --- | --- | --- | --- |

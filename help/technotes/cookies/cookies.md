@@ -3,10 +3,10 @@ title: Adobe Analytics とブラウザーの cookie
 description: トラッキング防止対策が、Adobe Analytics によって設定されたサードパーティ cookie およびファーストパーティ cookie にどのように影響するかを説明します。
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1985'
-ht-degree: 100%
+source-wordcount: '1981'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 ## ブラウザーでの cookie の使用制限
 
 >[!NOTE]
->[クロスデバイス分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=ja#cda)および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja#comparing-cja-to-traditional-adobe-analytics) では、利用可能な場合は、ハッシュ化されたログイン ID など、個人 ID を使用して cookie をまたいで関連付けできます。
+>[クロスデバイス分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda)および [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) では、利用可能な場合は、ハッシュ化されたログイン ID など、個人 ID を使用して cookie をまたいで関連付けできます。
 
 ### サードパーティ cookie の制限
 

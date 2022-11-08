@@ -4,10 +4,10 @@ title: Reports & Analytics の概要
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Experience Cloud を介してログインする手順を説明します。
 | 情報のタイプ | 定義 |
 | --- | --- |
 | 連絡先 |  アカウントに次の個人情報を指定します。<ul><li>名前（必須）</li><li>姓（必須）</li><li>タイトル</li><li>電子メールアドレス（必須）</li><li>電話番号</li></ul> |
-| ログイン | アカウントのユーザー名が表示され、アカウントのパスワードを変更できます。[Reports &amp; Analytics アカウントのパスワードのリセット方法](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=ja) も参照してください。 |
+| ログイン | アカウントのユーザー名が表示され、アカウントのパスワードを変更できます。[Reports &amp; Analytics アカウントのパスワードのリセット方法](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html) も参照してください。 |
 | Web サービス | このアカウントに関連付けられた Web サービスのユーザー名と共通の秘密が表示されます。Web サービス API から Experience Cloud にアクセスする場合、これらの資格情報を使用します。詳しくは、Developer Connection を参照してください。**メモ：**&#x200B;この情報は、アカウントが Web サービスのユーザーとして認可されている場合にのみ表示されます。 |
 | このコンピューターを除外 | cookie を現在のコンピューターに適用し、データ収集から除外します。これはドメイン内のページビューおよび訪問者の数がオンラインアクティビティの影響を受けないようにする場合に役立ちます。**メモ：**&#x200B;この機能を使用するには、ブラウザーで cookie が有効になっている必要があります。コンピューターから cookie を削除した場合、除外 cookie を再び設定する必要があります。 |
 

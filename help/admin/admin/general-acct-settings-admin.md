@@ -4,10 +4,10 @@ title: 一般的なアカウント設定
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 81%
+source-wordcount: '809'
+ht-degree: 83%
 
 ---
 
@@ -36,5 +36,5 @@ ht-degree: 81%
 | 郵便番号オプション | アドビの地域 IP ルックアップで生成されるあらゆる情報を使用する代わりに、郵便番号を指定できます。 |
 | 2 バイト文字のサポート | マルチバイト文字のサポートでは、UTF-8 を使用してレポートスイートに文字が保存されます。この要求を受けると、Web ページの文字セットから UTF-8 文字セットにデータが変換されて、マーケティングレポートで任意の言語を使用できるようになります。既存のレポートスイートのマルチバイト文字サポートを変更する場合は、担当のアカウントマネージャーまたはカスタマーケアにお問い合わせください。 |
 | 有効化済み | このレポートスイートがアクティベートされているかどうかを指定します。 |
-| 基準通貨 | ベースを指定できます [通貨](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=en) を設定します。 |
+| 基準通貨 | ベースを指定できます [通貨](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=ja) を設定します。 |
 | 組織 ID | プロビジョニングされたExperience Cloud会社に関連付けられた ID。 この ID は 24 文字の英数字から成る文字列で、その後に @AdobeOrg（必須）が続きます。 |

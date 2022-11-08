@@ -2,10 +2,10 @@
 title: クロスデバイス分析
 description: デバイスデータをまとめて、デバイス中心のデータから個人中心のデータに変更します。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ CDA を使用するには、次のすべてが必要です。[フィールドベ
 * クロスデバイス分析は、複数のレポートスイートで機能しません。また、複数のレポートスイートのデータを組み合わせることもできません。
 * Adobe Analytics レポートスイートを複数の組織 ID にマッピングすることはできません。CDA は特定のレポートスイート内のデバイスを結び付けるので、CDA を使用して複数の組織 ID をまたいでデータを結び付けることはできません。
 * CDA は、複数の依存コンポーネントを持つ複雑な処理パイプラインを使用します。これは、ベース Analytics レポーティングワークフローと並行して実行されます。 そのため、元のレポートスイートと CDA 仮想レポートスイートの間で、合計ヒット数の約 1％のデータが一致しないことが予想されます。
-* クロスデバイス分析では、仮想レポートスイートとレポートの時間処理を使用しますが、これには独自の制限があります。例えば、現在マーケティングチャネル変数をサポートしていません。これらの制限について詳しくは、 [仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja) と [レポートの時間処理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=ja) を参照してください。
+* クロスデバイス分析では、仮想レポートスイートとレポートの時間処理を使用しますが、これには独自の制限があります。例えば、現在マーケティングチャネル変数をサポートしていません。これらの制限について詳しくは、 [仮想レポートスイート](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=ja) と [レポートの時間処理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations) を参照してください。
 * プライベートグラフでは、Experience Cloud と Adobe Analytics で使用されている[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ja)機能と同じ ID 同期を活用します。ただし、CDA 仮想レポートスイート（プライベートグラフベースかフィールドベースのステッチベースかにはかかわらず）は、残りの顧客属性機能との互換性はありません。つまり、顧客属性ベースのディメンションは、CDA 仮想レポートスイート内では使用できません。
 * 現在、CDA と A4T には互換性がありません。
 * 1.4 API はサポートされません。Power BI コネクタと Report Builder はどちらも 1.4 API に依存しているので、CDA との互換性がありません。

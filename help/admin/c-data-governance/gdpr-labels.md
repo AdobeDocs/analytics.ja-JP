@@ -3,10 +3,10 @@ description: Adobe Analytics 変数のデータプライバシーラベルの例
 title: Analytics 変数のデータプライバシーラベル
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '3913'
-ht-degree: 100%
+source-wordcount: '3909'
+ht-degree: 98%
 
 ---
 
@@ -177,7 +177,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
   <tr> 
    <td colname="col1"> <p>なし </p> </td> 
    <td colname="col2"> <p>この変数には、データプライバシー要求に使用される ID が含まれていません。 </p> </td> 
-   <td colname="col3"> <p>これら他のラベルのいずれかを設定する必要があるのは、[プライバシーサービス API] (https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja) または UI でアクセスリクエストまたは削除リクエストを送信する際に使用する ID がこのフィールドに含まれている場合のみです。 </p> </td> 
+   <td colname="col3"> <p>このフィールドに、[Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) または UI を通じてアクセス要求または削除要求を送信する際に使用する ID が含まれている場合にのみ、他のラベルのいずれかを設定する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -206,7 +206,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
 
 | ラベル | 定義 | その他の要件 |
 | --- | --- | --- |
-| なし | この変数には、データプライバシー要求に使用される ID が含まれていません。 | これら他のラベルのいずれかを設定する必要があるのは、[プライバシーサービス API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja) または UI でアクセスリクエストまたは削除リクエストを送信する際に使用する ID がこのフィールドに含まれている場合のみです。 |
+| なし | この変数には、データプライバシー要求に使用される ID が含まれていません。 | これら他のラベルのいずれかを設定する必要があるのは、[プライバシーサービス API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) または UI でアクセスリクエストまたは削除リクエストを送信する際に使用する ID がこのフィールドに含まれている場合のみです。 |
 | ID-DEVICE | このフィールドには、データプライバシーリクエストのデバイスを識別するために使用できる ID が含まれていますが、共有デバイスの個々のユーザーを区別することはできません。ID を含むすべての変数にこのラベルを指定する必要はありません（このために I1／I2 ラベルがあります）。この変数に保存された ID を使用してデータプライバシー要求を送信し、特定の ID についてこの変数を検索したい場合に、このラベルを使用します。 | I1 または I2 ラベルも必要です。<ul><li>イベントには設定できません。</li><li>マーチャンダイジング eVar には設定できません。</li><li>分類には設定できません。</li></ul> |
 | ID-PERSON | このフィールドには、データプライバシーリクエストで認証済みユーザー（特定のユーザー）の識別に使用できる ID が含まれています。ID を含むすべての変数にこのラベルを指定する必要はありません（このために I1／I2 ラベルがあります）。この変数に保存された ID を使用してデータプライバシー要求を送信し、特定の ID についてこの変数を検索したい場合に、このラベルを使用します。 | I1 または I2 ラベルも必要です。<ul><li>イベントには設定できません。</li><li>マーチャンダイジング eVar には設定できません。</li><li>分類には設定できません。</li></ul> |
 

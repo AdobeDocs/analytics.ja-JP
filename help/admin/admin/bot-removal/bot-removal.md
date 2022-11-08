@@ -3,9 +3,9 @@ title: Adobe Analytics でのボットの削除
 description: Adobe Analytics でボットを削除する方法
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '793'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Adobe Analytics には、レポートからボットトラフィックを削除�
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-このデータ要素を設定したら、[次の手順](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)に従って Adobe Experience Platform のタグを使用して ECID ツールに宣言済み ID を渡します。
+このデータ要素を設定したら、[次の手順](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)に従って Adobe Experience Platform のタグを使用して ECID ツールに宣言済み ID を渡します。
 
 ### 手順 2：セグメント化を使用したボットの識別
 

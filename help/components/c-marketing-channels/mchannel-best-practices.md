@@ -3,16 +3,16 @@ title: Adobe Analytics マーケティングチャネルの実装のベストプ
 description: マーケティングチャネルでの Attribution IQ と Customer Journey Analytics の使用に関するベストプラクティスの更新
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
 # Attribution IQ とマーケティングチャネル — ベストプラクティス
 
-[マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)は、Adobe Analytics の貴重で強力な機能です。マーケティングチャネルの実装に関する現在のガイダンスは、[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=ja#analysis-workspace) も [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ja#cja-usecases) も存在しなかったときに作成されています。
+[マーケティングチャネル](/help/components/c-marketing-channels/c-getting-started-mchannel.md)は、Adobe Analytics の貴重で強力な機能です。マーケティングチャネルの実装に関する現在のガイダンスは、[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html#analysis-workspace) も [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=ja#cja-usecases) も存在しなかったときに作成されています。
 
 マーケティングチャネルの実装を将来的に実証し、Attribution IQ や Customer Journey Analytics との一貫性をレポートに確実に保つために、一連の更新されたベストプラクティスを発行しています。既にマーケティングチャネルを使用している場合は、これらの新しいガイドラインの中から最適なオプションを選択できます。マーケティングチャネルを初めて使用する場合は、すべての新しいベストプラクティスに従うことをお勧めします。
 
@@ -22,19 +22,19 @@ ht-degree: 100%
 
 ## ベストプラクティス #1：Attribution IQ を制御分析に活用
 
-マーケティングチャネル分析を微調整するには、既存のマーケティングチャネルアトリビューションの代わりに [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) を使用することをお勧めします。他のベストプラクティスに従って、Attribution IQ を使用した分析との一貫性と堅牢な制御を確保します。
+マーケティングチャネル分析を微調整するには、既存のマーケティングチャネルアトリビューションの代わりに [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html#analysis-workspace) を使用することをお勧めします。他のベストプラクティスに従って、Attribution IQ を使用した分析との一貫性と堅牢な制御を確保します。
 
 ![](assets/attribution.png)
 
 * 「マーケティングチャネル」と「マーケティングチャネルの詳細」ディメンションの設定では、各マーケティングチャネルインスタンスに対応する、評価対象タッチポイントを設定します。
 * 指標分析の場合、組織は 1 つ以上のアトリビューションモデルに合わせる必要があります。再利用しやすいように、カスタム指標をこのモデルと共に保存します。
-* デフォルトでは、データはラストタッチと訪問者エンゲージメント期間の設定を使用して割り当てられます。Attribution IQ 指標モデルは、ルックバックウィンドウの制御を強化し、[アルゴリズムのアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=ja#analysis-workspace)を含む多様性を提供します。
+* デフォルトでは、データはラストタッチと訪問者エンゲージメント期間の設定を使用して割り当てられます。Attribution IQ 指標モデルは、ルックバックウィンドウの制御を強化し、[アルゴリズムのアトリビューション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html#analysis-workspace)を含む多様性を提供します。
 
 ## ベストプラクティス #2：「直接」および「セッション更新」チャネル定義がない
 
 「直接」および「内部／セッション更新」チャネルをカスタムアトリビューションモデル（Attribution IQ）で使用することはお勧めしません。
 
-組織で「直接」および「セッション更新」が既に設定されている場合は、この場合、ファーストタッチ/ラストタッチの[分類を作成](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=ja)し、ダイレクトチャネルとセッション更新チャネルを未分類のままにすることをお勧めします。分類されたディメンションは、これらのチャネルが設定されていない場合と同じ Attribution IQ 結果を生成します。
+組織で「直接」および「セッション更新」が既に設定されている場合は、この場合、ファーストタッチ/ラストタッチの[分類を作成](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html)し、ダイレクトチャネルとセッション更新チャネルを未分類のままにすることをお勧めします。分類されたディメンションは、これらのチャネルが設定されていない場合と同じ Attribution IQ 結果を生成します。
 
 ![](assets/direct-session-refresh.png)
 

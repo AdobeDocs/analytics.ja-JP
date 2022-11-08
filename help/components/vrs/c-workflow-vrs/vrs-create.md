@@ -4,10 +4,10 @@ keywords: 仮想レポートスイート
 title: 仮想レポートスイートの作成
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 ![](assets/components.png)
 
 1. 「[!UICONTROL コンポーネント]」タブで、Analysis Workspace のこの仮想レポートスイート用のキュレーションを適用するチェックボックスをオンにします。
-VRS キュレーションについて詳しくは、「[仮想レポートスイートコンポーネントのキュレーション](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=ja#virtual-report-suites)」を参照してください。
+VRS キュレーションについて詳しくは、「[仮想レポートスイートコンポーネントのキュレーション](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites)」を参照してください。
 
 1. VRS に含めるコンポーネント（ディメンション、指標、セグメント、または日付範囲）を、[!UICONTROL 含まれるコンポーネント]セクションにドラッグします。
 

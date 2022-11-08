@@ -2,9 +2,9 @@
 title: Adobe Experience Edge での Analytics 変数のマッピング
 description: Edge が Analytics 変数に自動的にマッピングする XDM フィールドを表示します。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 99%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 99%
 
 ## 他の XDM フィールドを Analytics 変数にマッピングする
 
-Adobe Analytics に追加するディメンションまたは指標がある場合は、[コンテキストデータ変数](../vars/page-vars/contextdata.md)を通じて行うことができます。自動的にマッピングされない XDM フィールド要素は、接頭辞 a.x を持つコンテキストデータとして Adobe Analytics に送信されます。その後、[処理ルール](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=ja)を使用すると、このコンテキストデータ変数を目的の Analytics 変数にマップできます。例えば、次のイベントを送信した場合：
+Adobe Analytics に追加するディメンションまたは指標がある場合は、[コンテキストデータ変数](../vars/page-vars/contextdata.md)を通じて行うことができます。自動的にマッピングされない XDM フィールド要素は、接頭辞 a.x を持つコンテキストデータとして Adobe Analytics に送信されます。その後、[処理ルール](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)を使用すると、このコンテキストデータ変数を目的の Analytics 変数にマップできます。例えば、次のイベントを送信した場合：
 
 ```js
 alloy("event",{

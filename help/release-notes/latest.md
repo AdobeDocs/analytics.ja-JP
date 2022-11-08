@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 93%
+source-wordcount: '1422'
+ht-degree: 94%
 
 ---
 
@@ -20,15 +20,15 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **[!UICONTROL 主要指標の概要]**&#x200B;のビジュアライゼーション | [!UICONTROL 主要指標の概要]のビジュアライゼーションを使用すると、1 つの期間内で重要な指標のトレンドを確認できます。また、2 つの期間で指標のパフォーマンスを比較することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=ja) | 2022年10月5日（PT） | 2023 年 10 月 20 日 |
+| **[!UICONTROL 主要指標の概要]**&#x200B;のビジュアライゼーション | [!UICONTROL 主要指標の概要]のビジュアライゼーションを使用すると、1 つの期間内で重要な指標のトレンドを確認できます。また、2 つの期間で指標のパフォーマンスを比較することもできます。[詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 2022年10月5日（PT） | 2023年10月19日（PT） |
 | **複数値の変数で大文字と小文字が区別されない** | 大文字と小文字を区別しない複数値の変数の場合、 `mvvar1 - mvvar3` および `post_mvvar1 - post_mvvar3` のデータフィードは自動的に小文字にならなくなりました。 代わりに、データフィード（および Analytics ソースコネクタを通じて Adobe Experience Platform と CJA に渡されるデータ）は、ページから渡された元のケースを反映します。 | 該当なし | 2022年10月24日（PT） |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Adobe Analytics の修正点
 
-* 最新のMacOSバージョンの名前が正しく「Macintosh」になっていなかった問題を修正しました。 この修正により、OS ディメンションでは、MacOS 11 から始まる「MacOS」バージョンの番号が使用され始めます。 (AN-301834)
-* 「固定日付」の日付範囲で発生していたReport Builderを修正しました。 (AN-303684)
+* 最新のMacOSバージョンの名前が正しく「Macintosh」になっていなかった問題を修正しました。 この修正により、OS ディメンションは、MacOS 11 から始まる「MacOS」バージョン番号を使用し始めます。（AN-301834）
+* 「固定日付」の日付範囲で発生していたReport Builderを修正しました。 （AN-303684）
 * データフィード UI が読み込まれない問題を修正しました。 （AN-303803、AN-303784）
 
 ### その他の修正点
@@ -55,7 +55,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | --- | --- | --- |
 | **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日（PT） | Reports &amp; Analytics の提供終了（EOL）の一環として、発行リストは **2023年12月**&#x200B;に提供終了になる予定です。新しい発行リストを作成するか既存の発行リストにアクセスして、Analysis Workspace プロジェクトを送信したりスケジュールしたりすることはできなくなります。 [詳細情報](/help/admin/admin/publishing-list.md) |
 | **Data Workbench のサポート終了** | 2022年9月14日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。詳しくは、 [Data Workbenchの提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja) 」を参照してください。 ご質問がある場合は、担当のAdobeアカウントマネージャーにお問い合わせください。 |
-| **[!DNL Reports & Analytics]** のサポート終了 | 2022年1月4日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=ja) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。 |
+| **[!DNL Reports & Analytics]** のサポート終了 | 2022年1月4日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。 |
 
 {style=&quot;table-layout:auto&quot;}
 

@@ -3,10 +3,10 @@ title: フル処理データソースの提供終了
 description: Bulk Data Insertion API とフル処理データソースの提供終了と比較の理由。
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 100%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +55,7 @@ Bulk Data Insertion API（BDIA）は、追加機能を提供すると同時に�
 | customerID。[customerIDType].id | サポートなし | 使用する顧客 ID。customerIDType は任意の英数字の文字列にすることができますが、大文字と小文字を区別する必要があります。 |
 | customerID。[customerIDType].isMCSeed | サポートなし | Experience Cloud 訪問者 ID のシードであるかどうか。サポートされる値：0、1、TRUE、FALSE、&#39;&#39;（大文字と小文字を区別しない）0、FALSE、または 2 つの連続する一重引用符（&#39;&#39;）を使用すると、クエリー文字列から値が省略されます。customerIDType は任意の英数字の文字列にすることができますが、大文字と小文字を区別する必要があります。 |
 | eVarN | eVarN。例：`<eVar2>`...`<eVar>` | コンバージョン eVar 名。最大 75 個の eVar（eVar1 ～ eVar75）を使用できます。eVar 名（eVar12 など）や、わかりやすい名前（Ad Campaign 3 など）を指定できます。 |
-| events | イベント | [イベント文字列](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=ja#vars)。書式設定には s.events 変数と同じ構文を使用しています。例：scAdd、event1、event7 |
+| events | イベント | [イベント文字列](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars)。書式設定には s.events 変数と同じ構文を使用しています。例：scAdd、event1、event7 |
 | hierN | hierN。例：`<hier2>`...`</hier2>` | 階層名。最大 5 つの階層を使用できます（ hier1 ～ hier5）。デフォルトの階層名「`hier2`」や、わかりやすい名前（「Yankees」）を指定できます。 |
 | homePage | homePage | 現在のページが訪問者のホームページであるかどうか（Y または N）。 |
 | ipaddress | サポートなし | 訪問者の IP アドレス。 |
@@ -66,7 +66,7 @@ Bulk Data Insertion API（BDIA）は、追加機能を提供すると同時に�
 | linkType | linkType | リンクのタイプ。サポートされる値： `d: Download link`、`e: Exit link`、`o: Custom link` |
 | linkURL | linkURL | リンクの HREF（リンク先 URL）。 |
 | listn。例：list2。 | サポートなし | 変数に渡され、レポートの個別行項目としてレポートされる値の区切りリスト |
-| marketingCloudVisitorID | サポートなし | Experience Cloud ID。詳しくは、 [訪問者の識別](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja#id-service-api) と Experience Cloud 訪問者 ID サービスを参照してください。 |
+| marketingCloudVisitorID | サポートなし | Experience Cloud ID。詳しくは、 [訪問者の識別](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api) と Experience Cloud 訪問者 ID サービスを参照してください。 |
 | サポートなし | charSet | web サイトでサポートされる文字セット。UTF-8、ISO-8859-1 などがあります。 |
 | サポートなし | clickAction | Visitor Click Map のオブジェクト識別子（oid） |
 | サポートなし | clickActionType | Visitor Click Map のオブジェクト識別子タイプ（oidt） |
@@ -91,7 +91,7 @@ Bulk Data Insertion API（BDIA）は、追加機能を提供すると同時に�
 | 都道府県 | 都道府県 | コンバージョンの州の文字列。 |
 | タイムスタンプ | 日付 | YYYY-MM-DDThh:mm:ss±UTC_offset という ISO 8601 日付形式（例：2021-09-01T12:00:00-07:00）、または Unix 時刻形式（1970年1月1日からの経過秒数）を使用します。 |
 | trackingServer | サポートなし | 列ヘッダー経由でのみ指定できます。 |
-| transactionID | サポートなし | 複数チャネルのユーザーアクティビティを結び付けてレポートに利用する場合に使用される共通の値。詳しくは、 [データソースユーザーガイド](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=ja#data-sources) を参照してください。 |
+| transactionID | サポートなし | 複数チャネルのユーザーアクティビティを結び付けてレポートに利用する場合に使用される共通の値。詳しくは、 [データソースユーザーガイド](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources) を参照してください。 |
 | userAgent | サポートなし | ユーザーエージェント文字列 |
-| visitorID | visitorID | 訪問者の Analytics ID。詳しくは、 [訪問者の識別](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を参照してください。 |
+| visitorID | visitorID | 訪問者の Analytics ID。詳しくは、 [訪問者の識別](https://experienceleague.adobe.com/docs/id-service/using/home.html) を参照してください。 |
 | 郵便番号 | 郵便番号 | コンバージョンの郵便番号。 |

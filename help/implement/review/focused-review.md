@@ -3,10 +3,10 @@ title: 重点レビュー（各 Web サイトリリース後）
 description: 以下の手順に従って、実装時にエラーが発生しないようにし、KPI に沿って進める必要があります。
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 84%
+source-wordcount: '511'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 
 指標または変数を最近追加または変更した場合は、ビジネス要件ドキュメント（BRD）およびソリューションデザインリファレンス（SDR）を更新する必要があります。
 
-実装に関するドキュメントがない場合は、変数のリストを書き出し、[このテンプレート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=ja#implementation)を使用して BRD または SDR を作成します。
+実装に関するドキュメントがない場合は、変数のリストを書き出し、[このテンプレート](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation)を使用して BRD または SDR を作成します。
 
 ## 5. データ品質に関するギャップを即座に解決します。
 

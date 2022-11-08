@@ -3,10 +3,10 @@ description: 送信する ID では、Analytics でデータ主体に関連付�
 title: ID 拡張
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 98%
+source-wordcount: '1355'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 "expandIds": true
 ```
 
-このオプションを要求に含める方法の例については、[サンプルの JSON 要求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)を参照してください。詳しくは、[プライバシーサービス API のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)を参照してください。
+このオプションを要求に含める方法の例については、[サンプルの JSON 要求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)を参照してください。詳しくは、[プライバシーサービス API のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)を参照してください。
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -60,7 +60,7 @@ priority フィールドでは、デフォルト値に加え、「low」とい�
 
 >[!NOTE]
 >
->[プライバシーサービス API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) は、時間的制約が厳しいデータプライバシー要求を着実に実行できるようにすることを目的として提供されています。この API をその他の目的に使用することはサポートされておらず、そのような利用はユーザーからの優先度の高いデータプライバシー要求をアドビの他のお客様のためにタイムリーに処理する能力に影響を及ぼす可能性があります。大規模な訪問者グループ全体にわたって間違って送信されたデータを消去するなど、本来の目的とは異なる用途にプライバシーサービス API を使用することは避けください。
+>[プライバシーサービス API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) は、時間的制約が厳しいデータプライバシー要求を着実に実行できるようにすることを目的として提供されています。この API をその他の目的に使用することはサポートされておらず、そのような利用はユーザーからの優先度の高いデータプライバシー要求をアドビの他のお客様のためにタイムリーに処理する能力に影響を及ぼす可能性があります。大規模な訪問者グループ全体にわたって間違って送信されたデータを消去するなど、本来の目的とは異なる用途にプライバシーサービス API を使用することは避けください。
 
 また、データプライバシー削除要求の結果、ヒットが削除（更新または匿名化）された訪問者の状態情報はリセットされるということを認識しておく必要があります。そのような訪問者が再び Web サイトを訪問した場合は、新規訪問者として扱われます。eVar の割り当ては最初からすべてやり直され、訪問回数、リファラー、最初に訪問したページなどの情報も最初から収集し直されます。データフィールドを消去すると、このような望ましくない副次的効果が生じます。これは、プライバシーサービス API がそのような用途に適していない理由の 1 つでもあります。
 

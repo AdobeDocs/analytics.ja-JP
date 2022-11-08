@@ -4,10 +4,10 @@ title: 発行リスト
 feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
-source-git-commit: 2f14b9059601fd0b8d1603cb7dfc4a0b4a3ff55e
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '661'
+ht-degree: 49%
 
 ---
 
@@ -27,7 +27,7 @@ R&amp;A の機能のうち、この日に提供が終了する予定のものの
 
 * 発行リストを使用して、同じバージョンのレポートを複数のユーザーに（レポートスイートの上書きを適用せずに）配布する場合：
 
-   Analysis Workspaceでレポートをプロジェクトとして再作成したら、メールクライアント用に作成した連絡先グループまたは配布リストと Workspace のスケジュール済みプロジェクト機能を組み合わせて、プロジェクトの定期的な配信を送信またはスケジュールできます。 公開リストと同様に、プロジェクトのPDF/CSV バージョンが、グループ/リストの一部であるすべての電子メール ID に送信されます。 詳しくは、 [スケジュール済みプロジェクトはこちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
+   Analysis Workspaceでレポートをプロジェクトとして再作成したら、メールクライアント用に作成した連絡先グループまたは配布リストと Workspace のスケジュール済みプロジェクト機能を組み合わせて、プロジェクトの定期的な配信を送信またはスケジュールできます。 公開リストと同様に、プロジェクトのPDF/CSV バージョンが、グループ/リストの一部であるすべての電子メール ID に送信されます。 詳しくは、 [スケジュール済みプロジェクトはこちら](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
 
 * 発行リストを使用して複数のバージョンのレポートまたはダッシュボードを（レポートスイートの上書き機能を使用して）複数のユーザーに配布する場合：
 

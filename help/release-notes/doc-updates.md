@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 87e32cfdda69303939045b90a7984efafdf05b27
+source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
 workflow-type: tm+mt
-source-wordcount: '3550'
-ht-degree: 99%
+source-wordcount: '3517'
+ht-degree: 94%
 
 ---
 
@@ -25,13 +25,16 @@ ht-degree: 99%
 
 | 機能 | 説明 |
 | --- | --- |
+| **2022年11月** |  |
+| 同意管理変数 | 専用のページ [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md) および [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md). |
+| 複数通貨の更新 | 前後のページ [複数通貨のサポート](/help/technotes/multicurrency.md) が更新されました。 |
 | **2022年10月** |  |
-| Data Workbench | [提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
-| クライアントヒント | 新規 [概要と FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
+| Data Workbench | [提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja) |
+| クライアントヒント | 新規 [概要と FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html). |
 | 主要指標の概要 | [主要指標の概要](/help/analyze/analysis-workspace/visualizations/key-metric.md)ビジュアライゼーションに関する新しいトピック  |
-| 分類セット | 新しいユーザー[分類セット](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=ja)エクスペリエンスは、分類とルールを管理できる単一のインターフェイスを提供し、顧客が所有する分類データの可視性を向上させます。 |
-| モバイルアプリ：カスタム詳細ビュー | [カスタム詳細ビュー](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja)に関する新しいトピック |
-| Data Workbench | Data Workbench の[提供終了に関する FAQ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja) |
+| 分類セット | 新しいユーザー[分類セット](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html)エクスペリエンスは、分類とルールを管理できる単一のインターフェイスを提供し、顧客が所有する分類データの可視性を向上させます。 |
+| モバイルアプリ：カスタム詳細ビュー | [カスタム詳細ビュー](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html)に関する新しいトピック |
+| VISTA | の基本を説明する新しいページ [VISTA ルール](/help/technotes/vista.md). |
 | **2022年9月** |  |
 | コンビネーショングラフ | [コンボグラフ](/help/analyze/analysis-workspace/visualizations/combo-charts.md)のビジュアライゼーションに関する新しいトピック。 |
 | 更新されたプラグイン | [getvalonce](/help/implement/vars/plugins/getvalonce.md) 実装プラグインの更新済みバージョン。 |
@@ -39,8 +42,8 @@ ht-degree: 99%
 | 高エントロピーのクライアントヒント | アドビが User-Agent に加えて[クライアントヒント](/help/technotes/client-hints.md)を使用してデバイス情報を特定している方法に関する新しいトピック。 |
 | 処理順序 | [処理順序](/help/technotes/processing-order.md)に関する単一のヘルプトピックを提供するために、様々なヘルプページが集約されています。 |
 | **2022年8月** |  |
-| Edge コレクション用 XDM でのリスト変数のサポート | Experience Edge や Web SDK を介してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=ja#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
-| 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Experience Edge や Web SDK を介してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=ja#web-sdk-を使用する製品) |
+| Edge コレクション用 XDM でのリスト変数のサポート | Experience Edge や Web SDK を介してデータを収集するお客様が XDM を使用してリスト変数のコンテンツを指定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html#list-variables-using-the-web-sdk) | 2022年8月18日（PT） |
+| 製品文字列変数を設定する際の、Edge コレクション用 XDM の SKU フィールドの使用 | Experience Edge や Web SDK を介してデータを収集するお客様が SKU 値を使用して、products 変数の product フィールドを設定できるようにします。[詳細情報](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html#products-using-the-web-sdk) |
 | **2022年6月** |  |
 | Edge コレクション用 XDM でのマーチャンダイジング変数 | [Edge コレクション用 XDM でのマーチャンダイジング変数のサポート](/help/components/dimensions/evar-merchandising.md)に関するドキュメント |
 | Experience Platform Edge ドキュメント | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md)、[Edge API](/help/implement/aep-edge/edge-api/overview.md) 経由の Adobe Analytics の実装に関する新しい記事。 |
@@ -60,7 +63,7 @@ ht-degree: 99%
 | [!UICONTROL ページの概要]ワークスペースパネル | このパネルでは、選択したページに関する詳細な分析結果を提供します。 |
 | 古い予定レポートの一時停止に関する新しいトピック | **2022年4月15日（PT）** より、アドビは、 [作成日が 2 年を超える予定レポートをすべて一時停止](/help/analyze/reports-analytics/scheduled-reports-eol.md) する予定です。 |
 | **2022年2月** |
-| モバイルスコアカードプロジェクトのプレビューモード | [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#preview) では、スコアカードを保存して共有する前に、エクスペリエンスをプレビューできます。 |
+| モバイルスコアカードプロジェクトのプレビューモード | [プレビューモード](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#preview) では、スコアカードを保存して共有する前に、エクスペリエンスをプレビューできます。 |
 | API プロジェクトエンドポイント | API を使用して、Analysis Workspace プロジェクトを追加、編集または削除します。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 過去のスケジュール済み Report Builder タスクの一時停止に関する更新されたトピック | **2022年4月15日（PT）** より、アドビは、 [2 年以上前に作成されたすべてのスケジュール済み Report Builder タスクを一時停止](/help/analyze/report-builder/r-arb-scheduled-reports.md) する予定です。 |
 
@@ -71,16 +74,16 @@ ht-degree: 99%
 | **2021年10月** |  |
 | 2021年10月21日（PT） | Analysis Workspace の [クイックセグメント](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=ja) に関する新しいドキュメントが公開されました |
 | 2021年10月21日（PT） | Analysis Workspace の [メディア再生滞在時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=ja) パネルに関する新しいドキュメントが公開されました。 |
-| 2021年10月7日（PT） | [モバイルスコアカードのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=ja#viz) に関する新しいドキュメント |
+| 2021年10月7日（PT） | [モバイルスコアカードのビジュアライゼーション](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#apply-visualizations) に関する新しいドキュメント |
 | **2021年8月** |  |
 | 2021年8月18日（PT） | トップレベルの構造を改訂し、1 つの [ランディングページ](https://experienceleague.adobe.com/docs/analytics.html?lang=ja) に統合しました。 |
 | 2021年8月18日（PT） | [A4T と仮想レポートスイート](/help/components/vrs/vrs-a4t.md) に関する新しいトピック |
 | 2021年8月18日（PT） | [アトリビューションのベストプラクティス](/help/analyze/analysis-workspace/attribution/best-practices.md) に関する新しいトピック |
 | 2021年8月5日（PT） | [繰り返しインスタンスのカウント](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=ja) に関する新しいトピック |
-| 2021年8月5日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートに使用できないオプションを示すために、[テンプレート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=ja)、[ブラウザーインポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=ja) および [ブラウザーエクスポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=ja) に関する分類ドキュメントを更新しました。 |
+| 2021年8月5日（PT） | 新しい分類アーキテクチャで有効になっているレポートスイートに使用できないオプションを示すために、[テンプレート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html)、[ブラウザーインポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html) および [ブラウザーエクスポート](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html) に関する分類ドキュメントを更新しました。 |
 | 2021年8月2日（PT） | [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=ja) のリブランディングを反映するように複数のページを更新しました |
 | **2021年7月** |  |
-| 2021年7月23日（PT） | [マーチャンダイジング eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=ja) に関する新しい詳細な説明 |
+| 2021年7月23日（PT） | [マーチャンダイジング eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html) に関する新しい詳細な説明 |
 | 2021年7月15日（PT） | 新しい[Adobe Analytics ランディングページ](/help/analyze/landing.md)に新しいドキュメントを追加しました |
 | **2021年6月** |  |
 | 2021年6月15日（PT） | [マーケティングチャネルのベストプラクティス](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=ja)を更新しました |
@@ -111,7 +114,7 @@ ht-degree: 99%
 | 2020年11月24日（PT） | ワークスペースの[パネルの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja)ページを更新しました。 |
 | 2020年11月24日（PT） | 新しい実装レビューのドキュメント： <ul><li>[完全な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=ja)</li><li>[重点的な実装レビュー](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=ja)</li></ul> |
 | 2020年11月24日（PT） | Analysis Workspace の [ビジュアライゼーションの概要](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=ja) ページを更新しました。 |
-| 2020年11月12日（PT） | [継承された Adobe Analytics の実装](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=ja)の新しいページ。 |
+| 2020年11月12日（PT） | [継承された Adobe Analytics の実装](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html)の新しいページ。 |
 | 2020年11月2日（PT） | [FTP の分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=ja)に関するドキュメントを更新しました。 |
 | **2020年10月** |  |
 | 2020年10月23日（PT） | ワークスペースの線のビジュアライゼーション：[移動平均トレンドラインオプション](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja)：この設定は、 [!UICONTROL 折れ線グラフ] のビジュアライゼーションのトレンドライン設定に追加されました。移動平均は、ローリング平均とも呼ばれ、特定数のデータポイント（「**[!UICONTROL 期間]**」セクションで決定される）を使用して、それらを平均し、その平均値を折れ線グラフのポイントとして使用します。 |
@@ -157,12 +160,12 @@ ht-degree: 99%
 | 2020年2月20日（PT） | ワークスペースデバッガーがヘルプメニューに追加され、ワークスペースリクエストのデバッグがよりシームレスに有効化できるようになりました。[詳細情報...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020年2月18日（PT） | [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 変数を追加しました。 |
 | 2020年2月12日（PT） | [マーケティングチャネルドキュメント](/help/components/c-marketing-channels/c-getting-started-mchannel.md)のアップデートと再編成。 |
-| 2020年2月12日（PT） | [この ワークスペースページ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=ja)に新しいホットキーを追加しました。 |
+| 2020年2月12日（PT） | [この ワークスペースページ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)に新しいホットキーを追加しました。 |
 | 2020年2月7日（PT） | [クロスデバイス分析のセットアップ](/help/components/cda/setup.md)と [FAQ](/help/components/cda/faq.md) のアップデート。 |
 | 2020年2月4日（PT） | [実装ユーザーガイド](/help/implement/home.md)を完全に書き直しました。 |
 | 2020年1月22日（PT） | フリーフォームテーブルページを更新し、新しい[フリーフォームテーブルビルダー](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)の情報を含めました。 |
 | **2020年1月** |  |
-| 2020年1月24日（PT） | ワークスペースの[行設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=ja#cja-workspace)ページを更新しました。 |
+| 2020年1月24日（PT） | ワークスペースの[行設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace)ページを更新しました。 |
 | 2020年1月16日（PT） | [フリーフォームテーブルビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja)に関する新しいドキュメント。Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新がおこなわれ、どのテーブルを作成したいかがわかると時間を節約することができます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、ワークスペースで適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
 | 2020年1月14日（PT） | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
 | 2020年1月14日（PT） | [使用する Adobe Analytics ツール](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=ja)ページを変更しました。 |
@@ -171,18 +174,18 @@ ht-degree: 99%
 
 | 機能 | 説明 |
 | --- | --- |
-| 2020年12月19日（PT） | デフォルトの [FTP データ保存制限](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=ja)を 10 GB に変更しました。 |
+| 2020年12月19日（PT） | デフォルトの [FTP データ保存制限](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html)を 10 GB に変更しました。 |
 | 2019年11月29日（PT） | [データフィードのドキュメント](/help/export/analytics-data-feed/data-feed-overview.md)を改定しました。 |
 | 2019年11月25日（PT） | IP ログイン制限実施の提供終了に関する新しいトピック. |
 | 2019年11月21日（PT） | [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) の新しいドキュメントセット。 |
-| 2019年11月21日（PT） | [Audience Analytics ワークフローの FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ja) を更新し、LiveStream での可用性を示しました。 |
+| 2019年11月21日（PT） | [Audience Analytics ワークフローの FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html) を更新し、LiveStream での可用性を示しました。 |
 | 2019年10月25日（PT） | [Adobe Analytics の主要概念](/help/technotes/terms.md)ページを更新しました。 |
 | 2019年10月10日（PT） | フリーフォームテーブルの合計の更新：2 つの合計（**[!UICONTROL テーブルの合計]**&#x200B;と&#x200B;**[!UICONTROL 総計]**）が含まれるようになりました。テーブルの合計行は、適用された[レポートフィルター](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=ja)を考慮します。以前は、セグメントのみが合計に影響を与えていました。[詳細](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja)<br/>さらに、「**[!UICONTROL 列設定]**」に。「**[!UICONTROL 合計行を表示]**」および「**[!UICONTROL 総計を表示]**」オプションが追加されました。<br/>フリーフォーム合計に対するこの変更により、出力された CSV や PDF データだけでなく、依存するビジュアライゼーション（例：リンクされた **[!UICONTROL 概要番号]**&#x200B;ビジュアライゼーションなど）も更新されます。 |
 | 2019年10月10日（PT） | ワークスペースでは、「未指定 (なし)」を簡単に削除できる機能がレポートフィルターのオプションとして追加されました。 |
 | 2019年10月10日（PT） | ワークスペースでは、紫色の精度コンポーネント（分、時間、日、週、月、四半期、年）は非推奨（廃止予定）となりました。紫色の時間コンポーネントを以前使用したことがある場合、**何もおこなう必要はありません**。<br/>この変更により、紫色の「**[!UICONTROL 日時]**」セクションの名前が、「**[!UICONTROL 日付範囲]**」に変更されました。 |
-| 2019年10月1日（PT） | [ワークスペースの合計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=ja#cja-workspace)に関する新しい記事。 |
+| 2019年10月1日（PT） | [ワークスペースの合計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace)に関する新しい記事。 |
 | 2019年9月28日（PT） | [JavaScript 実装の設定変数](/help/implement/vars/config-vars/configuration-variables.md)に関する新しい記事を追加しました。 |
-| 2019年9月19日（PT） | [論理グループコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=ja#logic-group-containers)について説明するようにセグメント化に関するドキュメントを改訂しました。 |
+| 2019年9月19日（PT） | [論理グループコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html#logic-group-containers)について説明するようにセグメント化に関するドキュメントを改訂しました。 |
 | 2019年9月12日（PT） | [Journey IQ：クロスデバイス分析](/help/components/cda/overview.md)に関する新しい記事を追加しました。 |
 | 2019年9月12日（PT） | [計算指標の合計](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=ja)ドキュメントの更新。 |
 | 2019年8月28日（PT） | [Analytics 向けプログレッシブ Web アプリ（PWA）](/help/technotes/pwa.md)に関する新しい記事を追加しました。 |

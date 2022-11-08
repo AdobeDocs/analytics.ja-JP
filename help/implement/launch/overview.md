@@ -3,9 +3,9 @@ title: Adobe Experience Platformでのタグ付きAdobe Analyticsの実装
 description: タグを使用した Adobe Analytics の実装方法を説明します
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 94%
 
 ---
@@ -33,6 +33,6 @@ Adobe Experience Platform のタグは、他のタグ要件と共に Analytics �
 
 タグは高度にカスタマイズできます。実装に適切なデータを含めることで Adobe Analytics を最大限に活用する方法について説明します。
 
-* [タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)：インターフェイスの仕組みと使用可能な拡張機能について説明します。
+* [タグドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja#)：インターフェイスの仕組みと使用可能な拡張機能について説明します。
 * [Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=ja)：Analytics 拡張機能を使用して、Adobe Analytics にデータを送信します。
 * [実装変数](../vars/overview.md)：データ収集サーバーに送信する変数を決定します。
