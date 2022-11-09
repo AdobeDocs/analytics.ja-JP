@@ -3,10 +3,10 @@ title: Adobe Analytics での滞在時間の計算方法
 description: 滞在時間ディメンションおよび指標の集計ページ。
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: de08ad32d36219ccd7da5470e5821de565bed18b
+source-git-commit: 283b8e23c95b46d091b41ed97ca9bc683e7a33ee
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 94%
+source-wordcount: '1673'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,7 @@ Adobe Analytics 製品全体では、様々な「[!UICONTROL 滞在時間]」指
 | [!UICONTROL 合計滞在時間（秒）] | 訪問者が特定のディメンション項目に関与した合計時間を表します。すべての後続のヒットにわたる値と永続性のインスタンスを含みます。prop の場合、滞在時間には後続のリンクイベントもカウントされます。 | Analysis Workspace、Reports &amp; Analytics、Report Builder（「合計滞在時間」と呼ばれる）、Data Warehouse |
 | [!UICONTROL 訪問別滞在時間]（秒） | 約 *合計滞在時間（秒）/（訪問バウンス）*<br>&#x200B;各訪問で訪問者が特定のディメンション項目に関与した平均時間を表します。 **注意**:この関数の分母は内部指標なので、この指標を個別に計算することはできません。 | Analysis Workspace、Reports &amp; Analytics |
 | [!UICONTROL 訪問者別滞在時間]（秒） | 約 *合計滞在時間（秒）/個別訪問者*<br>&#x200B;訪問者の全期間（cookie の期間）に訪問者が特定のディメンション項目に関与した平均時間を表します。 **注意**:この関数の分母は内部指標なので、この指標を個別に計算することはできません。 | Analysis Workspace、Reports &amp; Analytics |
+| [!UICONTROL 滞在時間/ユーザー（状態）] | 約 *合計モバイルアプリ滞在時間（秒） /個別モバイルアプリ訪問者数*<br>&#x200B;モバイルアプリの訪問者が、訪問者の全期間（cookie の期間）に特定のディメンション項目を操作した平均時間を表します。 **注意**:この関数の分母は内部指標なので、この指標を個別に計算することはできません。 | Analysis Workspace |
 | [!UICONTROL サイトでの平均滞在時間]（秒） | ディメンション項目のシーケンスごとに、訪問者が特定のディメンション項目に関与した合計時間を表します。名前が示すような「サイト」の平均に限定されません。シーケンスについて詳しくは、「滞在時間の計算方法」の節を参照してください。<br>**注意**： この指標は、計算での分母の違いにより、ディメンション項目レベルで「訪問別滞在時間」と異なる可能性が非常に高くなります。 | Analysis Workspace、Reports &amp; Analytics（分単位で表示）、Report Builder（分単位で表示） |
 | [!UICONTROL サイトでの平均時間] | これは、時間 (hh:mm:ss) 形式の場合を除き、*サイトでの平均滞在時間（秒）*&#x200B;と同じ指標です | Analysis Workspace |
 | [!UICONTROL ページでの平均滞在時間] | 廃止された指標です。<br>ディメンション項目の平均時間が必要な場合は、かわりに「サイトでの平均滞在時間」を使用することをお勧めします。 | Report Builder（リクエストにディメンションがある場合） |
