@@ -5,9 +5,9 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
 workflow-type: tm+mt
-source-wordcount: '3621'
+source-wordcount: '3638'
 ht-degree: 93%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 93%
 | 列名 | 列の説明 | データタイプ |
 | --- | --- | --- |
 | **`accept_language`** | イメージリクエストの Accept-Language HTTP ヘッダーで指定されている受け入れ可能なすべての言語のリスト。 | char(20) |
+| **`adload`** | メディア広告の読み込み | varchar(255) |
 | **`aemassetid`** | 一連の Adobe Experience Manager Assets のアセット ID（GUID）に対応する複数値変数。インプレッションイベント数が増分されます。 | テキスト |
 | **`aemassetsource`** | アセットイベントのソースを識別します。Adobe Experience Manager で使用されます。 | varchar(255) |
 | **`aemclickedassetid`** | Adobe Experience Manager アセットのアセット ID。クリックイベント数が増分されます。 | varchar(255) |
@@ -143,6 +144,8 @@ ht-degree: 93%
 | **`mobileplaceaccuracy`** | コンテキストデータ変数 `a.loc.acc` から収集します。収集時の GPS の精度をメートル単位で示します。 | varchar(255) |
 | **`mobileplacecategory`** | コンテキストデータ変数 `a.loc.category` から収集します。特定の場所のカテゴリを示します。 | varchar(255) |
 | **`mobileplaceid`** | コンテキストデータ変数 `a.loc.id` から収集します。特定の目標地点の識別子。 | varchar(255) |
+| **`mobilepushoptin`** | Mobile Services プッシュのオプトイン | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services プッシュペイロード ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services の起動コンテンツ | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Mobile Services の起動メディア | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | Mobile Services の起動ソース | varchar(255) |
@@ -202,7 +205,7 @@ ht-degree: 93%
 | **`socialownedpropertyid`** | 廃止。Social 所有プロパティ ID | varchar(255) |
 | **`socialownedpropertyname`** | 廃止。Social 所有プロパティ名 | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | 廃止。Social 所有プロパティとアプリ | varchar(255) |
-| **`sourceid`** | 。 | int unsigned |
+| **`sourceid`** | ソース ID | int unsigned |
 | **`state`** | 状態変数。 | varchar(50) |
 | **`stats_server`** | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
 | **`survey`** | 廃止。Adobe Survey変数。 次の項目のみ `post` 列が使用可能です。 | テキスト |
@@ -294,6 +297,7 @@ ht-degree: 93%
 
 次の列のリストは未使用で、データは含まれていません。
 
+* `adclassificationcreative`
 * `mobileacquisitionclicks`
 * `mobileactioninapptime`
 * `mobileactiontotaltime`
