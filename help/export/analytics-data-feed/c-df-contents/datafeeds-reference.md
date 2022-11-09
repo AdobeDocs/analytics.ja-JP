@@ -5,10 +5,10 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 94%
+source-wordcount: '3621'
+ht-degree: 93%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 94%
 | **`cust_hit_time_gmt`** | タイムスタンプに対応するレポートスイートの場合のみ。ヒットと共に送信されたタイムスタンプ（UNIX 時間）。 | int |
 | **`cust_visid`** | カスタム訪問者 ID が設定されている場合は、それがこの列に格納されます。 | varchar(255) |
 | **`daily_visitor`** | ヒットが新しい日別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
-| **`dataprivacyconsentoptin`** | で使用される変数 [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md) ディメンション。 複数の値を 1 回のヒットに指定でき、パイプ (`|`) をクリックします。 有効な値は次のとおりです。 `DMP` および `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | で使用される変数 [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md) ディメンション。 複数の値を 1 回のヒットに指定でき、パイプ (`|`) をクリックします。 有効な値は次のとおりです。 `SSF`, `DMP`、および `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | で使用される変数 [同意管理のオプトイン](/help/components/dimensions/cm-opt-in.md) ディメンション。 複数の値を 1 回のヒットに指定でき、パイプ (`\|`) をクリックします。 有効な値は次のとおりです。 `DMP` および `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | で使用される変数 [同意管理のオプトアウト](/help/components/dimensions/cm-opt-out.md) ディメンション。 複数の値を 1 回のヒットに指定でき、パイプ (`\|`) をクリックします。 有効な値は次のとおりです。 `SSF`, `DMP`、および `SELL`. | varchar(100) |
 | **`date_time`** | レポートスイートのタイムゾーンに基づいて判読可能な形式で表現されたヒットの時刻。 | 日時 |
 | **`domain`** | 「[ドメイン](/help/components/dimensions/domain.md)」ディメンションで使用される変数。訪問者のインターネットアクセスポイントに基づいています。 | varchar(100) |
 | **`duplicate_events`** | 重複としてカウントされた各イベントを列挙します。 | varchar(255) |
@@ -163,6 +163,7 @@ ht-degree: 94%
 | **`page_type`** | 「[エラーページ](/help/components/dimensions/pages-not-found.md)」ディメンションの入力に使用。404 エラーページにのみ使用されます。この変数の値は、空か「`ErrorPage`」である必要があります。 | char(20) |
 | **`page_url`** | ヒットの URL。`post_page_url` は、リンクトラッキングのイメージリクエストでは削除され、データタイプ「 varchar（255）」を使用します。 | テキスト |
 | **`pagename`** | 「[ページ](/help/components/dimensions/page.md)」ディメンションの入力に使用されます。[`pagename`](/help/implement/vars/page-vars/pagename.md) 変数が空の場合、Analytics では代わりに `page_url` が使用されます。 | varchar(100) |
+| **`pagename_no_url`** | 類似 `pagename`を返しますが、 `page_url`. 次の項目のみ `post` 列が使用可能です。 | varchar(100) |
 | **`paid_search`** | ヒットが有料検索の検出に一致した場合に設定されるフラグ。 | tinyint unsigned |
 | **`partner_plugins`** | 未使用。削除されたフィーチャの一部。 | varchar(255) |
 | **`persistent_cookie`** | 「[永続的な cookie のサポート](/help/components/dimensions/persistent-cookie-support.md)」ディメンションで使用されます。各ヒットの後で破棄されない Cookie を訪問者がサポートしているかどうかを示します。 | char(1) |
@@ -201,9 +202,10 @@ ht-degree: 94%
 | **`socialownedpropertyid`** | 廃止。Social 所有プロパティ ID | varchar(255) |
 | **`socialownedpropertyname`** | 廃止。Social 所有プロパティ名 | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | 廃止。Social 所有プロパティとアプリ | varchar(255) |
+| **`sourceid`** | 。 | int unsigned |
 | **`state`** | 状態変数。 | varchar(50) |
 | **`stats_server`** | 未使用。ヒットを処理したアドビの内部サーバー。 | char(30) |
-| **`survey`** | 廃止。Adobe Survey変数。 | テキスト |
+| **`survey`** | 廃止。Adobe Survey変数。 次の項目のみ `post` 列が使用可能です。 | テキスト |
 | **`survey_instances`** | 廃止。Adobe Surveyインスタンス変数。 | テキスト |
 | **`t_time_info`** | 訪問者の現地時刻。形式：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Adobe Target 統合で使用されます。現在認定されているすべてのテストを表します。形式は次のとおりです。`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action` | テキスト |
