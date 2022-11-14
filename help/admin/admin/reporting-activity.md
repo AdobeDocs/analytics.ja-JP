@@ -4,9 +4,9 @@ title: レポートアクティビティマネージャー
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '962'
 ht-degree: 7%
 
 ---
@@ -88,7 +88,7 @@ Adobe Analyticsで、管理者は **[!UICONTROL 管理者]** > **[!UICONTROL レ
 
 | 数値の概要 | 説明 |
 | --- | --- |
-| [!UICONTROL ユーザー] | 現在このレポートスイートにレポートリクエストを送信しているユーザーの数。 |
+| [!UICONTROL ユーザー] | このレポートスイートに現在レポートリクエストを送信しているユーザーの数。 |
 | [!UICONTROL プロジェクト] | Workspace プロジェクト、Report Builderワークブックなど。 |
 | [!UICONTROL クエリ] | 現在実行中のクエリの数。 |
 | [!UICONTROL 平均待機時間] | 実行中のすべてのクエリの平均待機時間です。 |
@@ -120,7 +120,10 @@ Adobe Analyticsで、管理者は **[!UICONTROL 管理者]** > **[!UICONTROL レ
 
 要求をキャンセルするには
 
-1. 1 つ以上の **[!UICONTROL クエリ ID]** テーブル内で、 **[!UICONTROL リクエストをキャンセル]** 下に ( 詳細を表示して、一括でリクエストをキャンセルすることもできます。 [!UICONTROL ユーザー], [!UICONTROL プロジェクト]または [!UICONTROL アプリ].)
+1. 1 つ以上の **[!UICONTROL クエリ ID]** テーブル内で、 **[!UICONTROL リクエストをキャンセル]** 下に
+
+   詳細を表示して一括でリクエストをキャンセルすることもできます ( [!UICONTROL ユーザー], [!UICONTROL プロジェクト]または [!UICONTROL アプリ]. キャンセル時にキューに入っていない、または実行されていないプロジェクト、ユーザー、またはアプリケーションに対する以降のリクエストは、アクティビティが更新されても、引き続き表示される場合があります。
+
 1. 内 **[!UICONTROL x クエリのキャンセル]** ウィンドウが表示され、必要に応じてキャンセルメッセージを変更できます。
 1. 「**[!UICONTROL 続行]**」をクリックします。
 
