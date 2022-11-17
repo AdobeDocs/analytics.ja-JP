@@ -3,10 +3,10 @@ description: 新しいアカウントの設定、トラフィックスパイク�
 title: トラフィック増加に対して必要なリードタイム
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: f9462d1b8b2795bec9dab9b479d4885fcaa92b5d
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 78%
 
 ---
 
@@ -24,36 +24,30 @@ Reports &amp; Analytics ユーザーインターフェイスを通じてアラ�
 
 ## ハードウェア割り当てのリードタイム
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> 日別トラフィック予測（ヒット数） </th>
-   <th colname="col2" class="entry"> <p>必要なリードタイム（1 ～ 10 月） </p> </th>
-   <th colname="col3" class="entry"> <p>必要なリードタイム（11 ～ 12 月） </p> </th>
+   <th colname="col1" class="entry"> トラフィック変更タイプ </th>
+   <th colname="col2" class="entry"> 必要なリードタイム </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> ～1,000,000 </td>
-   <td colname="col2"> リードタイム不要 </td>
-   <td colname="col3"> リードタイム不要 </td>
+   <td colname="col1"> 新しいアカウント設定 </td>
+   <td colname="col2"> <ul><li>3 営業日</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 ～ 5,000,000 </td>
-   <td colname="col2"> 2 営業日 </td>
-   <td colname="col3" morerows="3"> 11 ～ 12 月を対象とするすべてのトラフィック増加については、9 月 1 日までに提出する必要があります。休暇中のトラフィック調整に必要な場合に、キャパシティを購入する時間を見込んでいるためです。 </td>
+   <td colname="col1"> 過去 30 日間に比べ、1 日の平均ボリュームでトラフィックの急増または急激な恒常的なトラフィックの増加が 25%に達しました。</td>
+   <td colname="col2"> <ul><li>1 日に 1 億ヒット未満のレポートスイート：通知は不要</li><li>1 日に 1 億件を超えるヒットを含むレポートスイート：5 営業日</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 ～ 10,000,000 </td>
-   <td colname="col2"> 1 週間 </td>
+   <td colname="col1"> 過去 30 日間に対する、1 日の平均ボリュームでのトラフィックの急増または 1 日あたり 25%以上の恒常的なトラフィックの増加</td>
+   <td colname="col2"> <ul><li>5 営業日</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 ～ 25,000,000 </td>
-   <td colname="col2"> 2 週間 </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>25,000,000 ～ </p> </td>
-   <td colname="col2"> 1 ヶ月以上 </td>
+   <td colname="col1"> ホリデーイベント 10 月～ 12 月 </td>
+   <td colname="col2"> <ul><li>1 か月</li></ul> </td>
   </tr>
  </tbody>
 </table>
