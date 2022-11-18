@@ -5,9 +5,9 @@ title: プライバシーの概要
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics は次のデータを収集します。
 | 広告キャンペーンの成功率 | ○ |
 | 製品情報（カラー、価格、スタイル、写真など） | ○ |
 
-&#42;Adobeのお客様が IP の削除を選択しない限り、
+&#42;アドビの顧客が IP の削除を選択していない場合に限ります。
 
 ## プライバシーに関する他の考慮事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
@@ -103,7 +103,7 @@ Adobe Analytics は次のデータを収集します。
   </tr> 
   <tr> 
    <td colname="col1"> ドイツ </td> 
-   <td colname="col2"> <p>Adobe AnalyticsのAdobeに関するデータ処理契約をまだお持ちでない場合は、担当のAdobeのアカウントマネージャまたはカスタマーサクセスマネージャに問い合わせてください。この担当者は、Adobe法務部と協力して DPA を導入します。 </p> </td> 
+   <td colname="col2"> <p>Adobe Analytics のデータ処理契約（DPA）をアドビとの間でまだ締結していない場合は、アドビのアカウントマネージャーまたはカスタマーサクセスマネージャーに連絡してください。これらのマネージャーがアドビ法務部門と連携して DPA を締結します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
