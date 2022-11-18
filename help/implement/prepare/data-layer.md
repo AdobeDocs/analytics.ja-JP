@@ -4,15 +4,15 @@ description: Analytics の実装におけるデータレイヤーと、それら
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # データレイヤーの作成
 
-データレイヤーは、サイト上の JavaScript オブジェクトのフレームワークで、Analytics の実装で使用される変数値が含まれます。 Analytics 変数に値を割り当てる際の、より詳細な制御とメンテナンスの容易化が可能です。
+データレイヤーは、Analytics 実装で使用される変数値を格納したサイト上の JavaScript オブジェクトで構成されるフレームワークです。Analytics 変数に値を割り当てる際の、制御が強化され、メンテナンスが容易になります。
 
 ## 前提条件
 
@@ -29,15 +29,15 @@ ht-degree: 60%
    > アドビ推奨のデータレイヤー仕様に従うことはオプションです。データレイヤーが既に存在する場合、またはアドビの仕様に従わない場合は、どの仕様に従うかを組織で決定してください。
 
 1. **ブラウザーコンソールを使用して、データレイヤーを検証します**：データレイヤーが作成されたら、任意のブラウザーの開発者コンソールを使用して、データレイヤーが機能していることを検証できます。デベロッパーコンソールは、`F12` キーを使用してほとんどのブラウザーで開くことができます。変数値の例は `adobeDataLayer.page.title` です。
-1. **Adobe Experience Platformデータ収集を使用して、データレイヤーオブジェクトをデータ要素にマッピングする**:この手順は、組織の実装方法によって異なります。
-   * **Web SDK を使用する場合**:目的のデータレイヤーオブジェクトをAdobe Experience Platform Edge の目的の XDM フィールドにマッピングします。 詳しくは、 [Analytics 変数のマッピング](../aep-edge/variable-mapping.md) を使用して、目的のデータレイヤーマッピングを決定します。
-   * **Analytics 拡張機能を使用する場合**:Adobe Experience Platformデータ収集の「タグ」の下にデータ要素を作成し、目的のデータレイヤーオブジェクトに割り当てます。 次に、Analytics 拡張機能内で、各データ要素を適切な Analytics 変数に割り当てます。
+1. **Adobe Experience Platform データ収集を使用して、データレイヤーオブジェクトをデータ要素にマッピングする**：この手順は、組織の実装方法によって次のように異なります。
+   * **Web SDK を使用する場合**：目的のデータレイヤーオブジェクトを Adobe Experience Platform Edge の目的の XDM フィールドにマッピングします。目的のデータレイヤーマッピングを決定するには、[Analytics 変数のマッピング](../aep-edge/variable-mapping.md)を参照してください。
+   * **Analytics 拡張機能を使用する場合**：Adobe Experience Platform データ収集のタグにデータ要素を作成して、目的のデータレイヤーオブジェクトに割り当てます。次に、Analytics 拡張機能内で、各データ要素を適切な Analytics 変数に割り当てます。
 
 ## 仕様
 
-Adobeは、 [Adobeクライアントデータレイヤー](https://github.com/adobe/adobe-client-data-layer/wiki) 新規または再構造化された実装の場合。
+アドビでは、新規実装または再構築された実装に [Adobe クライアントデータレイヤー](https://github.com/adobe/adobe-client-data-layer/wiki)を使用することをお勧めします。
 
-組織は、 [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf)、または他のカスタム仕様全体。 組織のニーズを満たす一貫したデータレイヤーに合わせることが最も重要です。
+組織では、[カスタマーエクスペリエンスデジタルデータレイヤー](https://www.w3.org/2013/12/ceddl-201312.pdf)などの他のデータレイヤー仕様や、まったく別のカスタム仕様を自由に使用できます。組織のニーズを満たす一貫したデータレイヤーに合わせることが最も重要です。
 
 データレイヤーは拡張可能です。組織に固有の要件がある場合は、そのニーズに合わせてオブジェクトをデータレイヤーに含めることができます。
 
