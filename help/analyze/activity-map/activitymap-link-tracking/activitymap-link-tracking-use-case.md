@@ -1,20 +1,20 @@
 ---
-description: s_objectID 変数を使用したリンク ID のカスタマイズ、領域のカスタマイズ、AppMeasurement Activity Map モジュールファイルのカスタマイズによってリンクを区別できます。
+description: s_objectID 変数を使用したリンク ID のカスタマイズ、領域のカスタマイズ、AppMeasurement ActivityMap モジュールファイルのカスタマイズによってリンクを区別できます。
 title: 同じリンク ID および領域を参照する複数のリンクの区別
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # 同じリンク ID および領域を参照する複数のリンクの区別
 
-s_objectID 変数を使用したリンク ID のカスタマイズ、領域のカスタマイズ、AppMeasurement Activity Map モジュールファイルのカスタマイズによってリンクを区別できます。
+s_objectID 変数を使用したリンク ID のカスタマイズ、領域のカスタマイズ、AppMeasurement ActivityMap モジュールファイルのカスタマイズによってリンクを区別できます。
 
 例として、リンク ID と領域が同じで、Activity Map によって識別される &quot;Buy&quot; リンクが複数あるとします。
 
@@ -44,26 +44,26 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
    <td colname="col2">
      <br/>
      <br/>
-    購入<br/>
+    Buy<br/>
      <br/>
      <br/>
-    購入<br/>
+    Buy<br/>
      <br/>
      <br/>
-    購入<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    recommendation パネル<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    recommendation パネル<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    recommendation パネル<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
    </td>
@@ -71,15 +71,15 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
  </tbody>
 </table>
 
-これらのリンクの値を区別するには、Web ページとタグをどのようにカスタマイズすればよいでしょうか。オプションは 3 つあります。リンク ID をカスタマイズするか、領域をカスタマイズするか、AppMeasurement Activity Map モジュールファイルをカスタマイズするかです。
+これらのリンクの値を区別するには、Web ページとタグをどのようにカスタマイズすればよいでしょうか。オプションは 3 つあります。リンク ID をカスタマイズするか、領域をカスタマイズするか、AppMeasurement ActivityMap モジュールファイルをカスタマイズするかです。
 
 ## s_objectID を使用したリンク ID のカスタマイズ {#section_01B0D463397B4837B2D46F087A6E5937}
 
-一意のオブジェクト ID を作成する。 `s_objectID`ページ上のリンクまたはリンクの場所の場合は、Activity Mapトラッキングを改善するか、Activity Mapを使用して、リンク URL ではなく、リンクのタイプや場所に関するレポートを作成できます。  変数について詳しくは、[ここ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ja)をクリックしてください。`s_objectID`
+リンクまたはページのリンクの場所に対して固有のオブジェクト ID、`s_objectID` を作成することにより、Activity Map のトラッキングを向上したり、Activity Map を使用して、リンク URL ではなく、リンクタイプやリンクの場所について報告します。 変数について詳しくは、[ここ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=ja)をクリックしてください。`s_objectID`
 
 >[!IMPORTANT]
 >
->なお、末尾のセミコロン (`;`) は、 `s_objectID` Activity Map
+>Activity Map で `s_objectID` を使用する場合、末尾のセミコロン（`;`）は必須です。
 
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
@@ -120,13 +120,13 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
    <td colname="col3">
      <br/>
      <br/>
-    recommendation パネル<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    recommendation パネル<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    recommendation パネル<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
    </td>
@@ -134,13 +134,13 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
  </tbody>
 </table>
 
-## 領域のカスタマイズ {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## 地域のカスタマイズ {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-各「購入」リンクに独自の地域が定義されていることを確認することで、地域をカスタマイズできます。 これをおこなうには、 `"id"` パラメーターを、各「購入」アンカータグの親の 1 つに追加します。
+「Buy」リンクごとに独自の地域を定義することにより、地域をカスタマイズできます。これを行うには、「Buy」アンカータグごとに、親の 1 つに `"id"` パラメーターを追加します。
 
 >[!NOTE]
 >
->あなたは厳密に制限されているわけではありません `"id"` 地域識別子としてのパラメーター。 また、JavaScript 変数を使用して独自の識別子を設定することもできます `"s.ActivityMap.regionIDAttribute"`.
+>地域識別子として、`"id"` パラメーター以外を使用できないというわけではありません。JavaScript の変数 `"s.ActivityMap.regionIDAttribute"` を使用して独自の ID を設定することもできます。
 
 <table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
@@ -168,26 +168,26 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
    <td colname="col2">
      <br/>
      <br/>
-    購入<br/>
+    Buy<br/>
      <br/>
      <br/>
-    購入<br/>
+    Buy<br/>
      <br/>
      <br/>
-    購入<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    地域 a<br/>
+    region a<br/>
      <br/>
      <br/>
-    地域 b<br/>
+    region b<br/>
      <br/>
      <br/>
-    地域 c<br/>
+    region c<br/>
      <br/>
      <br/>
    </td>
@@ -195,11 +195,11 @@ s_objectID 変数を使用したリンク ID のカスタマイズ、領域の�
  </tbody>
 </table>
 
-## AppMeasurement Activity Map モジュールファイルのカスタマイズ {#section_B933BB9F944E4D5389002908A5A881F8}
+## AppMeasurement ActivityMap モジュールファイルのカスタマイズ {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
->必ず、変更したコードをテストして、正しく機能することを確認してください。 変更後のコードの動作については、アドビでは一切責任を負いません。
+>必ず変更したコードをテストして、正しく動作することを確認してください。変更後のコードの動作については、アドビでは一切責任を負いません。
 
 AppMeasurement.js ファイルに（変更した形式で）含めることのできる&#x200B;**一般的な**&#x200B;リンク／領域関数の例を 2 つ示します。
 
@@ -216,7 +216,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-この `linkName` が `s.tl()`.
+`linkName` は、`s.tl()` に対する呼び出し中に渡されます。
 
 ```js
 s.ActivityMap.region = function(ele) {
