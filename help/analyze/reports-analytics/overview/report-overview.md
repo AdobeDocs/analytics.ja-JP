@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -31,11 +31,11 @@ ht-degree: 100%
 
 ## レポートのツールバー {#section_0D674177AE6C4A71B07234DB25910ECD}
 
-レポートデータを意思決定者と共有し、そのデータに基づいてサイトやマーケティング戦略を変更できるようにします。
+レポートデータを意思決定者と共有し、意思決定者がそのデータに基づいてサイトやマーケティング戦略を変更できるようにします。
 
 ![](assets/toolbar.png){width="672px"}
 
-「[レポートのカスタマイズ](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)」も参照してください。
+[レポートのカスタマイズ](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)も参照してください。
 
 ## レポートのヘッダーと設定 {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ![](assets/settings_header.png){width="672px"}
 
-詳細については、「[レポートのカスタマイズ](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)」を参照してください。
+詳しくは、[レポートのカスタマイズ](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)を参照してください。
 
 ## カレンダー {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
