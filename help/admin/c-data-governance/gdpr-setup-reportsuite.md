@@ -1,18 +1,18 @@
 ---
-description: レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。
+description: レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、ID、機密性およびデータガバナンスの各ラベルを割り当てることです。
 title: レポートスイートのデータのラベル設定
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # レポートスイートのデータのラベル設定
 
-レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、識別、機密およびデータガバナンスの各ラベルを割り当てることです。必ず、ラベルとその定義について理解しておいてください。
+レポートスイートのデータにラベルを設定するとは、具体的には、特定のレポートスイート内の各変数に対し、ID、機密性およびデータガバナンスの各ラベルを割り当てることです。まず、ラベルとその定義を熟知しておいてください。
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ ht-degree: 97%
 
 **例**：データ管理者が、データプライバシー要求を処理するためにデータ主体から電子メールアドレスと Cookie ID を収集する予定だとします。この Cookie ID は Adobe Analytics のレポートスイートに保管されます。電子メールアドレスと Cookie ID のラベルを作成するには、Analytics で Adobe Cloud Platform の Data Usage Labeling &amp; Enforcement（DULE）フレームワークを使用する必要があります。
 
-1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**／**[!UICONTROL （レポートスイートを選択）]**![の順にクリックします。プライバシー設定](assets/privacy_rs_settings.png)
+1. Analytics で、**[!UICONTROL 管理者]**／**[!UICONTROL データガバナンス]**／**[!UICONTROL （レポートスイートを選択）]**&#x200B;の順にクリックします。![プライバシー設定](assets/privacy_rs_settings.png)
 
-1. ラベルを設定する変数のグループを選択します。
+1. ラベルを設定する変数グループを選択します。
 
    ![変数](assets/variables.png)
 
@@ -53,7 +53,7 @@ ht-degree: 97%
 
    ![ID ラベル](assets/identity_labels.png)
 
-1. 「**機密データ**」セクションを開いて、位置情報データに分類される機密データラベルを設定します。これらのオプションについて詳しくは、[機密データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)を参照してください。
+1. 「**機密データ**」セクションを開いて機密データラベルを設定します。このラベルは位置情報データを分類するものです。これらのオプションについて詳しくは、[機密データラベル（DULE）](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)を参照してください。
 
    ![機密データ](assets/sensitive_data.png)
 
