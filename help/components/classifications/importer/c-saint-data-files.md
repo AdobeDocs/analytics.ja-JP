@@ -4,9 +4,9 @@ title: 分類データファイル
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1784'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 96%
    * v2.0 は引用符を無視し、すべてが指定されたキーと値の一部であると見なします。例えば、&quot;This is &quot;&quot;some value&quot;&quot;&quot; という値を考えてみましょう。v2.0 は、これを文字どおりに &quot;This is &quot;&quot;some value&quot;&quot;&quot; と解釈します。
    * v2.1 は、引用符が Excel ファイルで使用されているファイルフォーマットの一部であると見なすよう分類に指示します。したがって、v2.1 は上記の例を This is &quot;some value&quot; にフォーマットします。
    * ファイル内で v2.1 が指定されているが実際には v2.0 が必要な場合、つまり、Excel のフォーマットとしては不正な方法で引用符が使用されている場合は、問題が生じることがあります。例えば、&quot;VP NO REPS&quot; S/l Dress w/ Overlay という値があるとします。v2.1 では、これは正しくないフォーマットであり（値は開始引用符と終了引用符で囲み、実際の値の一部である引用符は引用符でエスケープする必要があります）、これ以降の行は分類処理がおこなわれません。
-   * 必ず次のいずれかの操作を行ってください。アップロードするファイルのヘッダー（セル C1）を変更して、ファイル形式を v2.0 に変更するか、ファイル全体で引用する Excel を適切に実装します。
+   * ファイルのヘッダー（セル C1）を変更してファイル形式を v2.0 に変更するか、ファイル全体で Excel の引用符を正しく使用してください。
 
 * データファイルの最初にある（コメントなしの）行には、列内の分類データを示す列見出しが含まれます。列見出しには、特定の形式を使用する必要があります。詳しくは、[列見出しの形式](/help/components/classifications/importer/c-saint-data-files.md)を参照してください。
 * データファイルのヘッダー行のすぐ後には、データ行が続きます。データの各行には、列見出しごとに 1 つのデータフィールドを含める必要があります。
@@ -109,7 +109,7 @@ ht-degree: 96%
 
 ### 分類列の見出し
 
-例えば、Reports &amp; Analytics では、[!UICONTROL キャンペーン]変数は「[!UICONTROL キャンペーン]」および「[!UICONTROL クリエイティブエレメント]」の 2 つに自動的に分類されます。データを「[!UICONTROL キャンペーン]」の分類に追加するために、分類データファイルの列見出しを「[!UICONTROL キャンペーン]」にします。
+例えば、Reports and Analytics では、[!UICONTROL キャンペーン]変数は「[!UICONTROL キャンペーン]」および「[!UICONTROL クリエイティブエレメント]」の 2 つに自動的に分類されます。データを「[!UICONTROL キャンペーン]」の分類に追加するために、分類データファイルの列見出しを「[!UICONTROL キャンペーン]」にします。
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ ht-degree: 96%
 
 **例：**&#x200B;キャンペーン A のコストが $10,000 の場合、「[!UICONTROL Campaigns^~Cost]」列には値「10000」、「[!UICONTROL Campaigns^~Cost~per]」列には「[!UICONTROL FIXED]」が含まれます。レポートにキャンペーン A のコストを表示すると、日付範囲に対応するキャンペーン A の固定コストとして $10,000 が表示されます。
 
-**例：**&#x200B;キャンペーン B のコストがクリックあたりおよそ $2 である場合、「[!UICONTROL Campaigns^~Cost]」列には「2」、「**[!UICONTROL Campaigns^~Cost~per]**」列には「[!UICONTROL CLICK]」が含まれます。レポートにキャンペーン B のコストを表示すると、Adobeは (2) を計算します &#42; [クリック数]) をオンにして、レポートの日付範囲に対応させます。 これにより、キャンペーン B でのクリック数に基づいて合計コストを計算できます。
+**例：**&#x200B;キャンペーン B のコストがクリックあたりおよそ $2 である場合、「[!UICONTROL Campaigns^~Cost]」列には「2」、「**[!UICONTROL Campaigns^~Cost~per]**」列には「[!UICONTROL CLICK]」が含まれます。レポートにキャンペーン B のコストを表示するとき、レポートの日付範囲に対応する、その時点の「2 &#42; [クリック数]」が計算されます。これにより、キャンペーン B でのクリック数に基づいて合計コストを計算できます。
 
 ### 日付
 
@@ -203,4 +203,4 @@ ht-degree: 96%
 
 ## 分類のトラブルシューティング
 
-* [一般的なアップロードの問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：不適切なファイル形式およびファイルの内容に起因する問題について説明したナレッジベース記事です。
+* [一般的なアップロードの問題](https://helpx.adobe.com/jp/analytics/kb/common-saint-upload-issues.html)：不適切なファイル形式およびファイルの内容に起因する問題について説明したナレッジベース記事です。
