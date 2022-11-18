@@ -4,40 +4,40 @@ description: e コマースサイトの場合、ページで扱う通貨を設�
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # currencyCode
 
-コマースを使用するサイトでは、売上高と通貨が Analytics の重要な部分です。多くのサイト、特に複数の国にまたがるサイトでは、異なる通貨が使用されます。以下を使用： `currencyCode` 変数を使用して、売上高属性が正しい通貨になっていることを確認します。
+コマースを使用するサイトでは、売上高と通貨が Analytics の重要な部分です。多くのサイト、特に複数の国にまたがるサイトでは、異なる通貨が使用されます。`currencyCode` 変数を使用して、売上高が正しい通貨になっていることを確認します。
 
-通貨換算では、各ヒットで次のロジックが使用されます。 以下の手順は、売上高の値に適用され、 [`products`](../page-vars/products.md) 変数と、 [成功イベント](/help/admin/admin/c-success-events/success-event.md) 」をクリックします。
+通貨換算では、各ヒットで次のロジックが使用されます。以下の手順は、[`products`](../page-vars/products.md) 変数を設定した収益値と、レポートスイート設定の[成功イベント](/help/admin/admin/c-success-events/success-event.md)で「通貨」としてリストされているすべてのイベントに適用されます。
 
-* If `currencyCode` が定義されていない場合、Adobeは、すべての通貨値がレポートスイートの通貨であると想定します。 詳しくは、 [一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md) レポートスイートの設定で、レポートスイートの通貨を表示します。
+* `currencyCode` が定義されていない場合、アドビはすべての通貨の値がレポートスイートの通貨であると見なします。レポートスイートの通貨を表示するには、レポートスイートの設定で[一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md)を参照してください。
 * `currencyCode` が定義され、レポートスイートの通貨と一致する場合、通貨換算は適用されません。
 * `currencyCode` が定義され、レポートスイートの通貨と異なる場合は、現在の日の為替レートに基づいて通貨換算が適用されます。アドビは [XE](https://xe.com) と提携し、毎日通貨を換算します。レポートスイートに保存される値はすべて、レポートスイートの通貨で表されます。
-* If `currencyCode` が無効な値に設定されている場合、 **ヒット全体が破棄され、データが失われます。** この変数を使用する際は、必ず正しく定義されていることを確認してください。
+* `currencyCode` が無効な値に設定されている場合、**ヒット全体が破棄され、データが失われます。**&#x200B;使用する際は、この変数が正しく定義されていることを必ず確認してください。
 
-この変数は、ヒット間で保持されません。 この変数が、売上高や通貨イベントを含むすべてのページで定義され、レポートスイートのデフォルト通貨と一致しないことを確認してください。
+この変数は、ヒット間で保持されません。この変数が、売上高や通貨イベントを含むすべてのページで定義され、レポートスイートのデフォルト通貨と同じではないことを確認してください。
 
 >[!NOTE]
 >
->通貨コードはページ間で変化する場合がありますが、1 回のヒットのすべての通貨指標で同じ通貨を使用する必要があります。
+>通貨コードはページ間で変更することもできますが、1 回のヒットにおけるすべての通貨指標は同じ通貨を使用する必要があります。
 
-ピリオド **必須** は、この変数を実装する際にすべての通貨の通貨区切り文字として使用されます。 例えば、通常コンマ区切り文字を表示するスウェーデンクローナは、 `products` 変数およびすべての通貨イベントを設定します。 Adobeは、レポートで正しい通貨区切り文字を表示します。
+この変数を実装する場合、通貨区切り記号として&#x200B;**必ず**&#x200B;ピリオドを使用する必要があります。例えば、通常コンマ区切り文字を表示するスウェーデンクローナは、`products` 変数およびすべての通貨イベントではピリオドを使用するように修正する必要があります。アドビは、レポートで正しい通貨区切り記号を表示します。
 
 ## Web SDK を使用した通貨コード
 
-通貨コード： [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) XDM フィールドの下 `commerce.order.currencyCode`.
+通貨コードは、XDM フィールド `commerce.order.currencyCode` で [Adobe Analytics にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
 
-## Adobe Analytics拡張機能を使用した通貨コード
+## Adobe Analytics 拡張機能を使用した通貨コード
 
 「通貨コード」は、Adobe Analytics 拡張機能を設定する際に「[!UICONTROL 一般]」アコーディオンの下にあるフィールドです。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のタグプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL 一般]」アコーディオンを展開すると、「[!UICONTROL 通貨コード]」フィールドが表示されます。
