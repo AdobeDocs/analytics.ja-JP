@@ -4,9 +4,9 @@ title: Experience Cloud へのセグメントの公開
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,12 +55,12 @@ Adobe Analytics セグメントを Experience Cloud に公開すると、[!DNL A
 1. セグメントのタイトルと説明を指定します。指定しない場合は、セグメントを保存できません。
 1. 「**[!UICONTROL Experience Cloud にこのセグメントを公開 (*レポートスイート*用)]**」をオンにします。
 
-![公開Experience Cloud](assets/publish-ec.png)
+![Experience Cloud の公開](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Adobe Analyticsの数値とAudience Managerの数値を比較する際は、Analytics でセグメントプレビューを確認する際に、「個別Experience Cloud」の合計ではなく、「訪問者 ID を持つ訪問者」を使用してください。
+>Adobe Analytics の数値と Audience Manager の数値を比較する際の総「ユニーク訪問者」セグメントプレビューではなく、Analytics でセグメントプレビューを確認する際の「Experience Cloud ID を持つ訪問者」を使用してください。
 >
->![訪問者を ECID でセグメント化](assets/seg-vis-ecid.png)
+>![ECID を持つセグメント訪問者](assets/seg-vis-ecid.png)
 
 | 要素 | 説明 |
 |---|---|
@@ -113,7 +113,7 @@ Experience Cloud に公開されているセグメントを削除するには、
 
 [!UICONTROL 訪問者プロファイルビューア]が読み込まれると、ブラウザーの AAM UUID がデフォルトで使用されます。他のユーザーの特性の関連付けを確認する場合は、「UUID」フィールドに UUID を入力し、「[!UICONTROL 更新]」をクリックします。詳しくは、 [訪問者プロファイルビューア](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=ja) を参照してください。
 
-![Audience Managerプロファイルビューア](assets/aam-vpv.png)
+![Audience Manager プロファイルビューア](assets/aam-vpv.png)
 
 ## [!DNL Audience Manager] でセグメント特性を表示する
 
