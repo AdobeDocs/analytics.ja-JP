@@ -5,13 +5,13 @@ title: フォルダーにプロジェクトを保存
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%
 
 ---
-
 
 # 新しいプロジェクトをフォルダーに保存する
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この機能は現在ベータ版です。 一部の画面は変更される可能性があります。
+>この機能は現在ベータ版です。一部の画面は変更される可能性があります。
 
 1. Workspace で、新しいプロジェクトを作成します。
 

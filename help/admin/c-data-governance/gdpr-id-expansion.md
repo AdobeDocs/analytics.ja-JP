@@ -6,7 +6,7 @@ exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie ID の拡張 </p> </td> 
-   <td colname="col2"> <p>Analytics をご利用の多くのお客様は、以前までは（従来の）<a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ja">Analytics Cookie</a> を使用していましたが、現在は <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja"> ID サービス（ECID）</a>（旧称 Marketing Cloud ID サービス（MCID））を使用しています。移行後に、こうしたお客様の Web サイトを初めて訪問したユーザーの場合は、ECID のみが使用されます。ただし、従来の Cookie しか利用できなかった時期に Web サイトを初めて訪問し、それ以降も訪問し続けているユーザーの場合は、一部のデータで両方の Cookie が使用され、古いデータでは Analytics Cookie のみ、最新のデータでは稀に ECID のみが使用される場合もあります。 </p> <p>Analytics（訪問者 ID）Cookie または ECID で識別された訪問者のすべてのデータが見つかることを確認する必要があります。 このため、現在は ECID を使用し、以前は Analytics Cookie を使用していた場合、いずれかのタイプの ID を使用して要求を送信する場合はいつでも、要求に両方の ID を含めるか、expandIDs オプションを指定する必要があります。expandIDs を指定すると、指定した任意の Cookie ID に対応する他の ECID または Analytics Cookie がないかどうかチェックされます。新しく特定されたこれらの Cookie ID を含めるように要求が自動的に拡張されます。 </p> </td> 
+   <td colname="col2"> <p>Analytics をご利用の多くのお客様は、以前までは（従来の）<a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=ja">Analytics Cookie</a> を使用していましたが、現在は <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja"> ID サービス（ECID）</a>（旧称 Marketing Cloud ID サービス（MCID））を使用しています。移行後に、こうしたお客様の Web サイトを初めて訪問したユーザーの場合は、ECID のみが使用されます。ただし、従来の Cookie しか利用できなかった時期に Web サイトを初めて訪問し、それ以降も訪問し続けているユーザーの場合は、一部のデータで両方の Cookie が使用され、古いデータでは Analytics Cookie のみ、最新のデータでは稀に ECID のみが使用される場合もあります。 </p> <p>Analytics（訪問者 ID）Cookie または ECID で識別された 1 人の訪問者に関するすべてのデータが確実に検索される必要があります。このため、現在は ECID を使用し、以前は Analytics Cookie を使用していた場合、いずれかのタイプの ID を使用して要求を送信する場合はいつでも、要求に両方の ID を含めるか、expandIDs オプションを指定する必要があります。expandIDs を指定すると、指定した任意の Cookie ID に対応する他の ECID または Analytics Cookie がないかどうかチェックされます。新しく特定されたこれらの Cookie ID を含めるように要求が自動的に拡張されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>カスタム ID から Cookie ID への拡張 </p> </td> 

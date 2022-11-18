@@ -5,13 +5,13 @@ title: フォルダーからのプロジェクトの削除
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # フォルダーからのプロジェクトの削除
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この機能は現在ベータ版です。 一部の画面は変更される可能性があります。
+>この機能は現在ベータ版です。一部の画面は変更される可能性があります。
 
 >[!NOTE]
 >

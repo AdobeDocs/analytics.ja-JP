@@ -5,13 +5,13 @@ title: Workspace へのフォルダーの追加
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
 
 ---
-
 
 # フォルダーへのプロジェクトの追加
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この機能は現在ベータ版です。 一部の画面は変更される可能性があります。
+>この機能は現在ベータ版です。一部の画面は変更される可能性があります。
 
 ## テーブル表示から
 

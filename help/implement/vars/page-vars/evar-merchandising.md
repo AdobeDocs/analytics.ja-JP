@@ -7,19 +7,19 @@ mini-toc-levels: 3
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 62%
+ht-degree: 98%
 
 ---
 
 # eVar（マーチャンダイジング）
 
-*このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。マーチャンダイジング eVar がディメンションとして機能する方法について詳しくは、 [eVar（マーチャンダイジングディメンション）](/help/components/dimensions/evar-merchandising.md) 」を参照してください。*
+*このヘルプページでは、マーチャンダイジング eVar の実装方法について説明します。マーチャンダイジング eVar がディメンションとしてどのように機能するかについては、コンポーネントユーザガイドの [eVar（マーチャンダイジングディメンション）](/help/components/dimensions/evar-merchandising.md)を参照してください。*
 
 マーチャンダイジング eVar の仕組みについて詳しくは、[マーチャンダイジング eVar と製品検索方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)を参照してください。
 
 ## レポートスイート設定での eVar の設定
 
-実装で eVar を使用する前に、レポートスイートの設定でeVarを目的の構文に設定してください。 詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
+実装で eVar を使用する前に、必ず、レポートスイートの設定で eVar を目的の構文に設定してください。詳しくは、『管理者ガイド』の[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)を参照してください。
 
 >[!WARNING]
 >
@@ -44,16 +44,16 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ### Web SDK を使用した製品構文
 
-製品構文マーチャンダイジング変数は、 [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja) 複数の異なる XDM フィールドの下に
+製品構文マーチャンダイジング変数は、複数の異なる XDM フィールドで [Adobe Analytics 用にマッピング](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)されます。
 
-* 製品構文マーチャンダイジング eVar は、 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` から `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* 製品構文マーチャンダイジングイベントは、 `productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems[]._experience.analytics.event901to1000.event1000.value`. [イベントのシリアル化](events/event-serialization.md) XDM フィールドは、の下にマッピングされます。 `productListItems[]._experience.analytics.event1to100.event1.id` から `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* 製品構文マーチャンダイジング eVar は、`productListItems[]._experience.analytics.customDimensions.eVars.eVar1` から `productListItems[]._experience.analytics.customDimensions.eVars.eVar250` までにマッピングされます。
+* 製品構文マーチャンダイジングイベントは、`productListItems[]._experience.analytics.event1to100.event1.value` から `productListItems[]._experience.analytics.event901to1000.event1000.value` までにマッピングされます。[イベントのシリアル化](events/event-serialization.md) XDM フィールドは、`productListItems[]._experience.analytics.event1to100.event1.id` から `productListItems[]._experience.analytics.event901to1000.event1000.id` までにマッピングされます。
 
 >[!NOTE]
 >
->以下でイベントを設定する場合 `productListItems`の場合、イベント文字列で設定する必要はありません。 両方の場所に設定されている場合は、イベント文字列の値が優先されます。
+>`productListItems` でイベントを設定する場合は、イベントをイベント文字列で設定する必要はありません。両方で設定されている場合は、イベント文字列の値が優先されます。
 
-次の例は、 [製品](products.md) 複数のマーチャンダイジング eVar およびイベントの使用：
+次の例では、複数のマーチャンダイジング eVar およびイベントを使用した 1 つの[製品](products.md)を示します。
 
 ```js
 "productListItems": [
@@ -84,7 +84,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 ]
 ```
 
-上記の例のオブジェクトは、Adobe Analyticsに `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+上記の例のオブジェクトは、Adobe Analytics に `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"` として送信されることになります。
 
 ## コンバージョン変数の構文を使用した実装
 
@@ -106,11 +106,11 @@ s.products = ";Canary";
 * eVar の期限が切れます（「有効期限」の設定に基づきます）。
 * マーチャンダイジング eVar が新しい値で上書きされる。
 
-### Web SDK を使用したコンバージョン変数の構文
+### Web SDK を使用したコンバージョン変数構文
 
-Web SDK を使用したコンバージョン変数構文の動作は、他の [eVar](evar.md) および [イベント](events/events-overview.md). 上記の例の XDM ミラーリングは、次のようになります。
+Web SDK を使用したコンバージョン変数構文は、他の [eVar](evar.md) および[イベント](events/events-overview.md)の実装と同じように動作します。上記の例を反映した XDM は、次のようになります。
 
-同じまたは前のeVar呼び出しに対して次のイベントを設定します。
+同じまたは前のイベントコールで eVar を設定します。
 
 ```js
 "_experience": {
@@ -124,7 +124,7 @@ Web SDK を使用したコンバージョン変数構文の動作は、他の [e
 }
 ```
 
-製品文字列のバインディングイベントと値を設定します。
+製品文字列の入札イベントと値を設定します。
 
 ```js
 "commerce": {

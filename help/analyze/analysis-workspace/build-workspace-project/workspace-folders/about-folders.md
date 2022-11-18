@@ -5,13 +5,13 @@ title: フォルダーの概要
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
-
 
 # Workspace プロジェクトのフォルダーについて
 
@@ -19,7 +19,7 @@ Workspace プロジェクトのフォルダーは、Workspace のランディン
 
 >[!NOTE]
 >
->この機能は現在ベータ版です。 一部の画面は変更される可能性があります。
+>この機能は現在ベータ版です。一部の画面は変更される可能性があります。
 
 Workspace プロジェクトのフォルダーを使用すると、ユーザーはプロジェクトを整理および分類して、取得やアクセスが容易になるようにできます。 さらに、共有された会社フォルダーを使用すると、管理者は、コンテンツを作成してすべての Workspace ユーザーと共有することが簡単にできます。 
 
