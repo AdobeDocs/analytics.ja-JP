@@ -1,36 +1,36 @@
 ---
-title: Adobe Analyticsの VISTA ルール
-description: VISTA ルールとその機能の詳細を説明します。
+title: Adobe Analytics の VISTA ルール
+description: VISTA ルールとその機能の詳細について説明します。
 source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analyticsの VISTA ルール
+# Adobe Analytics の VISTA ルール
 
-VISTA ルールは、データ収集と処理の間で適用できるカスタムデータ変更の代替形式です。 詳しくは、 [処理順序](processing-order.md) を参照してください。 VISTA ルールは、現在のデータが収集されたときにのみ影響します。既存のデータは変更されません。
+VISTA ルールは、データ収集と処理の間で適用できるカスタムデータ変更の代替形式です。VISTA ルールが適用されるデータパイプラインの正確なステージについて詳しくは、[処理順序](processing-order.md)を参照してください。VISTA ルールは、現在収集されているデータにのみ影響します。既存のデータは変更されません。
 
-VISTA ルールの一般的な使用例を次に示します。
+VISTA ルールの一般的なユースケースには、例えば、次のものがあります。
 
-* Analytics ヒットをレポートスイート間でコピーします（オプションで、コピーしたレポートスイートにデータを変更します）。
-* が提供する使用例を超えるカスタム IP 除外 [IP で除外](/help/admin/admin/exclude-ip.md)
+* レポートスイート間で Analytics ヒットをコピーする（オプションで、コピーしたレポートスイートにデータを変更する）
+* [IP による除外](/help/admin/admin/exclude-ip.md)で提供されるユースケースを超えるカスタム IP 除外
 * 任意の変数値を条件付きまたはグローバルに変更する
-* 他の変数に変数値が重複しています
-* 変数の値に影響を与える可能性のあるAdobeFTP サイトにファイルをアップロードします
+* 変数値を他の変数に複製する
+* 変数値に影響を及ぼす可能性のあるファイルを Adobe FTP サイトにアップロードする
 
-VISTA ルールの多くの使用例は、既に次のようにして提供されています。 [処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md), [ボットルール](/help/admin/admin/bot-removal/bot-rules.md), [仮想レポートスイート](/help/components/vrs/vrs-about.md)またはAdobe Analyticsの実装を更新するだけです。 Adobeは、最後の手段としてのみ VISTA ルールを推奨します。
+VISTA ルールの多くのユースケースは、[処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md)、[ボットルール](/help/admin/admin/bot-removal/bot-rules.md)または[仮想レポートスイート](/help/components/vrs/vrs-about.md)で既に提供されているか、Adobe Analytics 実装を更新するだけで提供されます。アドビでは、VISTA ルールは最後の手段としてのみ使用することをお勧めします。
 
 >[!IMPORTANT]
 >
->VISTA ルールを使用するには、お客様の組織とAdobe Professional Servicesの間で有料契約が必要です。 VISTA ルールを作成または更新する場合は、Adobeのアカウントマネージャーにお問い合わせください。
+>VISTA ルールを使用するには、所属する組織と Adobe Professional Services の間の有料契約が必要です。VISTA ルールを作成または更新する場合は、所属する組織のアドビ担当営業または販売店にお問い合わせください。
 
-## VISTA ルールを作成する
+## VISTA ルールの作成
 
-VISTA ルールを作成するには、Adobe Professional Servicesと連携する必要があります。 VISTA ルールを作成する場合は、担当のAdobeアカウントマネージャーにお問い合わせください。
+VISTA ルールを作成するには、Adobe Professional Services と連携する必要があります。VISTA ルールを作成する場合は、所属する組織のアドビ担当営業または販売店にお問い合わせください。
 
-## 既存の VISTA ルールを見る
+## 既存の VISTA ルールの参照
 
-Adobeには、既存の VISTA ルールを表示する UI は用意されていません。 既存の VISTA ルールのリストを取得するには、担当のAdobeのアカウントマネージャーまたはカスタマーケアに、必要なレポートスイートに問い合わせてください。
+アドビでは、既存の VISTA ルールを表示する UI は提供していません。既存の VISTA ルールのリストを取得するには、所属する組織のアドビ担当営業または販売店またはカスタマーケアに、目的のレポートスイートをお問い合わせください。
