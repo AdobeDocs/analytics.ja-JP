@@ -4,9 +4,9 @@ description: JavaScript 版 AppMeasurement のこれまでのリリースノー�
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ AppMeasurement の最新バージョンは、[Code Manager ](/help/admin/admin/c
 
 リリース日：**2019 年 7 月 15 日**
 
-* Activity Map 拡張機能に ActivityMap スクロールリーチトラッキングが追加されました。（AN-172949）
+* ActivityMap 拡張機能に ActivityMap スクロールリーチトラッキングが追加されました。（AN-172949）
 * AppMeasurement に DIL 9.2 が追加されました（AN-182472）
 
 ## バージョン 2.14.0
@@ -275,7 +275,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Experience Cloud] ID サービスのバージョン 1.6.0 には、[!DNL JavaScript] 版 [!DNL AppMeasurement] のバージョン 1.6.3 以降が&#x200B;*必要です*。Experience CloudID サービスのバージョン 1.6.0 にアップグレードする場合は、AppMeasurement 1.6.3 以降を使用してください。
+>Version 1.6.0 of the [!DNL Experience Cloud] ID サービスのバージョン 1.6.0 には、[!DNL JavaScript] 版 [!DNL AppMeasurement] のバージョン 1.6.3 以降が&#x200B;*必要です*。Experience Cloud ID サービスのバージョン 1.6.0 にアップグレードする場合は、AppMeasurement バージョン 1.6.3 以降を使用してください。
 
 ## バージョン 1.6.2
 
@@ -456,7 +456,7 @@ s_gl が呼び出されると、ライブラリで正しい[!DNL AppMeasurement]
 リリース日：**2013 年 11 月 15 日**
 
 * [ハードビートビデオ指標](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=ja)のサポートを追加しました。
-* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)をサポートするため、`VisitorAPI.js` を同梱しました。
+* [訪問者 ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)をサポートするため、`VisitorAPI.js` を同梱しました。
 
 ## バージョン 1.1.1
 
