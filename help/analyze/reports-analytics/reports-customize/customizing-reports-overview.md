@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ t_reports_select_date.xml
 
 1. 「**[!UICONTROL レポートを実行]**」をクリックします。
 
-## 比較日 {#task_95155C3700774B709F5FB81AE96B0824}
+## 日付の比較 {#task_95155C3700774B709F5FB81AE96B0824}
 
 カレンダーを使用してランクレポート間の日付の比較を実行する手順を説明します。
 
@@ -88,7 +88,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
->ダッシュボード内で主要指標について日付比較を行いたい場合は、2 つの異なるリクエストを使用してデータを [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ja) に取り込みます。その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
+>ダッシュボード内で主要指標について日付比較を行う場合は、2 つの異なるリクエストを使用してデータを [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=ja) に取り込みます。その後、Excel 内でカスタム数式を使用して両者の違いを分析します。
 
 Reports &amp; Analytics のランクレポート間で日付を比較するには、以下のようにします。
 
@@ -98,7 +98,7 @@ Reports &amp; Analytics のランクレポート間で日付を比較するに�
 1. 使用する日付を選択します。
 1. 「**[!UICONTROL レポートを実行]**」をクリックします。
 
-## 割合のグラフとしての表示 {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
+## 割合のグラフ表示 {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
 レポートの表内の割合をグラフとして表示するかどうかを指定する手順を説明します。
 
@@ -113,7 +113,7 @@ t_reports_graph_percent.xml
 1.  [!UICONTROL ページレポート]のように、パーセンテージをサポートするレポートを実行します。
 1.  「割合の表示方法」で「**[!UICONTROL グラフ]**」をクリックします。 
 
-## レポートデータの標準化 {#task_8005B55E59BD479DA67BC618FF8BC94A}
+## レポートデータの正規化 {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
 レポートデータを標準化する手順を説明します。
 
@@ -211,7 +211,7 @@ t_reports_day_of_week.xml
 1. 指定した日付範囲でトレンドレポートを実行します。
 1. 「**[!UICONTROL 曜日]**」リンクをクリックし、曜日をクリックします。
 
-## 「ワークスペースで試す」ボタン  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## 「ワークスペースで試す」ボタン {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 レポートの上部にある「**[!UICONTROL ワークスペースで試す]**」ボタンをクリックすると、同じレポートが Analysis Workspace に読み込まれます。
 
