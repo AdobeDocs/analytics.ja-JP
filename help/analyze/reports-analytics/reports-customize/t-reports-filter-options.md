@@ -1,22 +1,22 @@
 ---
-description: フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
+description: フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりして、レポートを絞り込むことができます。
 title: レポートデータのフィルタリング
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# レポートデータをフィルター {#concept_09DC5B986A644738B12204DAC76A90E1}
+# レポートデータのフィルタリング {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 {{ra-eol}}
 
-フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりできます。
+フィルターを使用すると、フィルターに一致する行項目をレポートに含めたりレポートから除外したりして、レポートを絞り込むことができます。
 
 ## シンプルフィルター {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
@@ -40,7 +40,7 @@ help:Search Keywords Report
 help:Internal Search Term
 ```
 
-## アドバンスフィルター {#section_E016626C084640E8A066B2FDA5B932BF}
+## 高度なフィルター {#section_E016626C084640E8A066B2FDA5B932BF}
 
 アドバンスフィルターでは、複数のフィルターを使用して検索範囲を制御できます。すべてのフィルターに一致することを条件とするか、いずれかのフィルターに一致することを条件とするかは選択できます。
 
@@ -52,11 +52,11 @@ help:Internal Search Term
 
 >[!NOTE]
 >
->フィルターではスペースを使用できません。スペースは検索時に区切り文字と見なされます。
+>フィルターではスペースを使用できません。スペースは検索の区切り文字になるからです。
 
-**含まない**
+**次を含まない**
 
-指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html)をレポートから除外できます。
+指定の単語が行項目のどこにも含まれない場合に一致します。「次を含まない」の条件を使用すると、「unspecified」、「none」、「キーワードを使用できません」、およびその他の[特殊な値](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ja)をレポートから除外できます。
 
 次を含まない。`none`
 
@@ -86,11 +86,11 @@ Mens:Desk & TravelJewelry & Accessories:Accessories:Hats:Mens
 Sale & Values
 ```
 
-**次と等しい**
+**次に等しい**
 
 行項目全体（スペースとその他の文字を含む）が指定のフレーズと等しい場合に一致します。
 
-次と等しい: `mens:desk & travel`
+次に等しい：`mens:desk & travel`
 
 `Mens:Desk & Travel`
 
