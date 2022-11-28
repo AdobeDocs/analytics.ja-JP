@@ -5,9 +5,9 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
+source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
 workflow-type: tm+mt
-source-wordcount: '3638'
+source-wordcount: '3641'
 ht-degree: 96%
 
 ---
@@ -125,13 +125,13 @@ ht-degree: 96%
 | **`mobilecampaignterm`** | この獲得で追跡する有料キーワードまたはその他の用語。モバイルアプリケーションの獲得によって設定されます。 | varchar(255) |
 | **`mobiledayofweek`** | アプリが起動された曜日を表す数値。 | varchar(255) |
 | **`mobiledayssincefirstuse`** | アプリの初回実行時からの経過日数。 | varchar(255) |
-| **`mobiledayssincelastupgrade`** | コンテキストデータ変数 a.DaysSinceLastUpgrade から収集されます。前回のセッションからの経過日数。 | varchar(255) |
+| **`mobiledayssincelastupgrade`** | 廃止 — コンテキストデータ変数 a.DaysSinceLastUpgrade から収集します。 前回のセッションからの経過日数。 | varchar(255) |
 | **`mobiledayssincelastuse`** | アプリの前回実行時からの経過日数。 | varchar(255) |
 | **`mobiledeeplinkid`** | コンテキストデータ変数 `a.deeplink.id` から収集します。獲得レポートで、モバイル獲得リンクの識別子として使用されます。 | varchar(255) |
 | **`mobiledevice`** | モバイルデバイス名。iOS の場合は、コンマ区切りの 2 桁の文字列として格納されます。最初の番号はデバイスの世代を表し、2 番目の番号はデバイスファミリーを表します。 | varchar(255) |
 | **`mobilehourofday`** | アプリが起動された時刻を示します。24 時間形式に従います。 | varchar(255) |
 | **`mobileinstalldate`** | モバイルインストール日。モバイルアプリをユーザーが最初に起動した日を示します。 | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | コンテキストデータ変数 a.LaunchesSinceUpgrade から取得します。前回のアップグレード以降の起動回数を報告します。 | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | 廃止 — コンテキストデータ変数 a.LaunchesSinceUpgrade から収集します。 前回のアップグレード以降の起動回数を報告します。 | varchar(255) |
 | **`mobilelaunchnumber`** | モバイルアプリが起動されるたびに 1 ずつ増分されます。 | varchar(255) |
 | **`mobileltv`** | 廃止。trackLifetimeValue メソッドによって設定されます。 | varchar(255) |
 | **`mobilemessagebuttonname`** | コンテキストデータ変数 `a.message.button.id` から収集します。メッセージを閉じたボタンを識別するために、アプリ内メッセージで使用します。 | varchar(100) |
@@ -139,7 +139,7 @@ ht-degree: 96%
 | **`mobilemessageonline`** | アプリ内メッセージオンライン | varchar(255) |
 | **`mobilemessagepushoptin`** | コンテキストデータ変数 `a.push.optin` から収集します。ユーザーがプッシュメッセージをオプトインする場合は「true」に設定します。それ以外の場合、値は「false」です。 | varchar(255) |
 | **`mobilemessagepushpayloadid`** | コンテキストデータ変数 `a.push.payloadid` から収集します。ペイロード識別子としてプッシュメッセージで使用します。 | varchar(255) |
-| **`mobileosenvironment`** | コンテキストデータ変数 `a.OSEnvironment` から収集します。Android や iOS などの OS 環境を示します。 | varchar(255) |
+| **`mobileosenvironment`** | 廃止 — コンテキストデータ変数から収集 `a.OSEnvironment`. Android や iOS などの OS 環境を示します。 | varchar(255) |
 | **`mobileosversion`** | Mobile Services のオペレーティングシステムのバージョン。 | varchar(255) |
 | **`mobileplaceaccuracy`** | コンテキストデータ変数 `a.loc.acc` から収集します。収集時の GPS の精度をメートル単位で示します。 | varchar(255) |
 | **`mobileplacecategory`** | コンテキストデータ変数 `a.loc.category` から収集します。特定の場所のカテゴリを示します。 | varchar(255) |
