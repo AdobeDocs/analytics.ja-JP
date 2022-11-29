@@ -1,13 +1,13 @@
 ---
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
-source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 88%
 
 ---
-
 
 # クライアントヒントの概要とよくある質問
 
@@ -41,7 +41,7 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 +++**クライアントヒントのコレクションを有効にするにはどうすればよいですか？**
 
-低エントロピーのヒントはブラウザーから自動的に提供され、デバイスとブラウザーの情報を取得するために取り込まれます。Web SDK の新しいバージョン（2.12.0 以降）および AppMeasurement（2.23.0 以降）は、それぞれのタグ拡張機能を使用して、または設定オプションを直接使用して、高エントロピーのヒントを収集するように設定できます。 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja#enabling-high-entropy-client-hints) および [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=ja) の手順を参照してください。
+低エントロピーのヒントはブラウザーから自動的に提供され、デバイスとブラウザーの情報を取得するために取り込まれます。Web SDK の新しいバージョン（2.12.0 以降）および AppMeasurement（2.23.0 以降）は、それぞれのタグ拡張機能を使用して、または設定オプションを直接使用して、高エントロピーのヒントを収集するように設定できます。 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) および [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html) の手順を参照してください。
 
 どちらのライブラリでも、高エントロピーのヒントの収集は&#x200B;**デフォルトで無効**&#x200B;になっています。
 
@@ -81,17 +81,25 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 これらのフィールドは User-Agent から直接得られますが、User-Agent を使用すると、デバイスの詳細に応じて、他のデバイス関連フィールドの値を得ることができます。
 
-* [ブラウザー](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=ja)
-* [ブラウザータイプ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=ja)
-* [オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)
-* [オペレーティングシステムの種類](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=ja)
-* [モバイルデバイスとモバイルデバイスタイプ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=ja)
+* [ブラウザー](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
+* [ブラウザータイプ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [オペレーティングシステム](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [オペレーティングシステムの種類](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [モバイルデバイスとモバイルデバイスタイプ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
 
 +++**User-Agent のどの部分がいつ「フリーズ」されますか？**
 
 [Google が公開しているタイムライン](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)を参照してください。これは変更される場合があります。
+
++++
+
++++**Analytics はユーザーエージェントにどのように依存しますか。**
+
+レポートのデバイス情報は、ユーザーエージェントから取得されます。 ユーザーエージェントとクライアントヒントの両方を利用できる場合は、プロセスを更新しました。
+
+フォールバック ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) は、ユーザーエージェントと IP アドレスから派生します。 この ID は、Cookie を設定できない場合にのみ使用されるので、広く使用されていません
 
 +++
 
@@ -105,7 +113,7 @@ User-Agent の他の部分がフリーズするタイミングについては、
 
 +++**アドビでは、クライアントヒントをどのように使用してデバイス情報を取得しますか？**
 
-アドビでは、サードパーティの Device Atlas を使用していますが、これはクライアントヒントと User-Agent の両方を使用してデバイス情報を取得します。
+Adobeは、サードパーティの Device Atlas を使用し、クライアントのヒントとユーザーエージェントの両方を使用してデバイス情報を取得します。
 
 +++
 
@@ -141,7 +149,6 @@ Adobe Experience Platform の[スキーマドキュメント](https://github.com
 
 +++**AAM サーバーサイド転送はクライアントヒントをサポートしますか？**
 
-はい。クライアントヒントは、AAM に転送されるデータに含まれます。なお、AAM では、完全な機能を維持するために、高エントロピーのヒントを収集する必要があります。 [AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
+はい。クライアントヒントは、AAM に転送されるデータに含まれます。なお、AAM では、完全な機能を維持するために、高エントロピーのヒントを収集する必要があります。 [AAM へのサーバーサイド転送](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を使用している場合は、高エントロピーヒントの収集を有効にした方がよいでしょう。
 
 +++
-
