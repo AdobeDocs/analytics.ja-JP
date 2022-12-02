@@ -3,10 +3,10 @@ title: サポートされる HTTPS 暗号化アルゴリズム
 description: 2022 年 6 月 23 日に、暗号セキュリティレベルを「高」に設定したお客様に対し、SHA1 または CBC を利用した TLS 1.2 暗号のサポートを削除します。
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: a1ae98d6907960135c1dfa03ed10738eac8bec0d
+source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 6%
+source-wordcount: '285'
+ht-degree: 5%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 6%
 * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
 * TLS_RSA_WITH_AES_128_CBC_SHA
 * TLS_RSA_WITH_AES_256_CBC_SHA
+* TLS_RSA_WITH_AES_128_GCM_SHA256
+* TLS_RSA_WITH_AES_256_GCM_SHA384
 
 次のクライアントは、現在の暗号化標準をサポートしていないため、この変更の影響を受けることが知られています。
 
