@@ -3,10 +3,10 @@ title: モバイルディメンション
 description: デバイスの IP アドレスに基づくディメンション。
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 * **携帯電話会社**：このディメンションの値は、Analytics がキャプチャした IP アドレスに基づいてサードパーティ（Digital Elements）のデータを検索することで入力されます。例えば、`"Reliance Jio"`、`"Airtel"`、`"Vodafone"`、`"Verizon"` などの値があります。
 * **モバイルの画面の色**：モバイルデバイスの色深度（ビット）。
 * **モバイル cookie のサポート**：モバイルデバイスが cookie をサポートするかどうかを指定します。ブラウザーが cookie を受け入れた場合、このレポートは状態になりません。ディメンション項目の値には、`"Supported"`、`"Not supported"`、`"Unknown"` が含まれます。
-* **モバイルデバイス**：訪問者が使用するモバイルデバイス。
+* **モバイルデバイス**：訪問者が使用するモバイルデバイス。**注意**:Digital Elements は、新しいデバイスや更新されたデバイスを認識するために、定期的に更新を公開しています。
 * **モバイルデバイス番号**：モバイルデバイスがその番号を送信するかどうかを指定します。ディメンション項目の値には、`"Supported"`、`"Not supported"`、`"Unknown"` が含まれます。
 * **モバイルデバイスタイプ**：モバイルデバイスの種類。例えば、`"Mobile phone"`、`"Tablet"`、`"Media player"`、`"Gaming console"` などの値があります。
 * **モバイル DRM**：モバイルデバイスがサポートする DRM のタイプ。例えば、`"DRM OMA forward"`、`"DRM OMA combined delivery"`、`"DRM OMA separate delivery"` などの値があります。
