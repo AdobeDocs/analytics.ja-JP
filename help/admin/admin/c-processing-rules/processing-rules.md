@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: 処理ルールの概要
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 88%
 
 ---
 
@@ -57,3 +57,7 @@ s.contextData['genre'] = "Youth";
 定義したコンテキストデータ変数をレポートで使用するには、eVar などの変数にコピーする必要があります。
 
 詳しくは、[コンテキストデータ変数の eVar へのコピー](processing-rules-examples/processing-rules-copy-context-data.md)および[コンテキストデータ変数を使用したイベントの設定](processing-rules-examples/processing-rules-copy-context-data-event.md)を参照してください。
+
+## 既知の制限事項
+
+**処理ルールでのカラット (^) の使用。** 処理ルールでカラットを区切り文字として使用する場合や他の目的で使用する場合は、各カラットが 2 カラットで表される必要があります。 例えば、は 1 つのカラットを^^、ダブルカラットを^^^^などとして表します。
