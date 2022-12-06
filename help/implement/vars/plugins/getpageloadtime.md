@@ -3,10 +3,10 @@ title: getPageLoadTime
 description: ページの読み込みにかかる時間を追跡します。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 96%
+source-wordcount: '503'
+ht-degree: 64%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 96%
 > このプラグインはアドビコンサルティングによって提供されており、Adobe Analytics からより多くの価値を引き出すのに役立ちます。アドビカスタマーケアは、インストールやトラブルシューティングを含め、このプラグインに対するサポートをおこないません。このプラグインに関するヘルプが必要な場合は、貴社のアカウントマネージャーにお問い合わせになって、担当コンサルタントとのミーティングを手配してもらってください。
 
 `getPageLoadTime` プラグインは、JavaScript パフォーマンスオブジェクトを使用して、ページの読み込みが完了するまでの時間を測定できます。ページの読み込みに要する時間を測定する場合は、このプラグインを使用することをお勧めします。
+
+>注意/警告：このプラグインを以前のバージョンからアップグレードする場合は、この関数を呼び出すコードも変更する必要がある可能性が高くなります。  実稼動環境にデプロイする前に、実装を確認し、入念にテストしてください
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -38,7 +40,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
@@ -51,22 +53,25 @@ Analytics トラッキングオブジェクトをインスタンス化（[`s_gi`
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getPageLoadTime v2.0.1 with performanceWriteFull, performanceWritePart, performanceCheck, and performanceRead helper functions (Requires AppMeasurement and the p_fo plugin) */
-function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEventEnd&&(clearInterval(window.pi),""===window.cookieRead("s_plt"))){var b=window,d=b.cookieWrite;var c=a.loadEventEnd;var f=a.navigationStart;c=0<=c&&0<=f?6E4>c-f&&0<=c-f?parseFloat((c-f)/1E3).toFixed(2):60:void 0;d.call(b,"s_plt",c);window.cookieWrite("s_pltp",window.pageName)}window.ptc=a.loadEventEnd}if(arguments&&"-v"===arguments[0])return{plugin:"getPageLoadTime",version:"2.0.1"};var e=function(){if("undefined"!==typeof window.s_c_il)for(var a=0,b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof e&&(e.contextData.getPageLoadTime="2.0.1");window.pageName="undefined"!==typeof e&&e.pageName||"";window.cookieWrite=window.cookieWrite||function(a,b,d){if("string"===typeof a){var c=window.location.hostname,f=window.location.hostname.split(".").length-1;if(c&&!/^[0-9.]+$/.test(c)){f=2<f?f:2;var h=c.lastIndexOf(".");if(0<=h){for(;0<=h&&1<f;)h=c.lastIndexOf(".",h-1),f--;h=0<h?c.substring(h):c}}g=h;b="undefined"!==typeof b?""+b:"";if(d||""===b)if(""===b&&(d=-60),"number"===typeof d){var k=new Date;k.setTime(k.getTime()+6E4*d)}else k=d;return a&&(document.cookie=encodeURIComponent(a)+"="+encodeURIComponent(b)+"; path=/;"+(d?" expires="+k.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!==typeof cookieRead)?cookieRead(a)===b:!1}};window.cookieRead=window.cookieRead||function(a){if("string"===typeof a)a=encodeURIComponent(a);else return"";var b=" "+document.cookie,d=b.indexOf(" "+a+"="),c=0>d?d:b.indexOf(";",d);return(a=0>d?"":decodeURIComponent(b.substring(d+2+a.length,0>c?b.length:c)))?a:""};window.p_fo=window.p_fo||function(a){window.__fo||(window.__fo={});if(window.__fo[a])return!1;window.__fo[a]={};return!0};"undefined"!==typeof performance&&p_fo("performance")&&((e=performance,e.clearResourceTimings(),""!==window.cookieRead("s_plt")&&(0<e.timing.loadEventEnd&&clearInterval(window.pi),this._pltLoadTime=window.cookieRead("s_plt"),this._pltPreviousPage=window.cookieRead("s_pltp"),window.cookieWrite("s_plt",""),window.cookieWrite("s_pltp","")),0===e.timing.loadEventEnd)?window.pi=setInterval(function(){l()},250):0<e.timing.loadEventEnd&&(window.ptc?window.ptc===e.timing.loadEventEnd&&1===e.getEntries().length&&(window.pwp=setInterval(function(){var a=performance;0<a.getEntries().length&&(window.ppfe===a.getEntries().length?clearInterval(window.pwp):window.ppfe=a.getEntries().length);""===window.cookieRead("s_plt")&&(window.cookieWrite("s_plt",((a.getEntries()[a.getEntries().length-1].responseEnd-a.getEntries()[0].startTime)/1E3).toFixed(2)),window.cookieWrite("s_pltp",window.pageName))},500)):l()))};
+/* Adobe Consulting Plugin: getPageLoadTime v3.0 */
+!function(){let e=globalThis.window||this;e.getPageLoadTime=function(t){let i=function(){if(e.s_c_il){for(let t in e.s_c_il)if("s_c"===e.s_c_il[t]._c)return e.s_c_il[t]}}();function n(){var i=performance.timing;i.loadEventEnd>0&&(clearInterval(e.pi),""===e.cookieRead("s_plt")&&e.cookieWrite("s_plt",function e(t,i){if(t>=0&&i>=0)return t-i<6e4&&t-i>=0?parseFloat((t-i)/1e3).toFixed(2):60}(i.loadEventEnd,i.navigationStart)+","+t)),e.ptc=i.loadEventEnd}if(i&&(i.contextData.getPageLoadTime="3.1"),t=t||i&&i.pageName||document.location.href,e.cookieWrite=e.cookieWrite||function(t,i,n){if("string"==typeof t){if(g=function(){var t=e.location.hostname,i=e.location.hostname.split(".").length-1;if(t&&!/^[0-9.]+$/.test(t)){i=2<i?i:2;var n=t.lastIndexOf(".");if(0<=n){for(;0<=n&&1<i;)n=t.lastIndexOf(".",n-1),i--;n=0<n?t.substring(n):t}}return n}(),i=void 0!==i?""+i:"",n||""===i){if(""===i&&(n=-60),"number"==typeof n){var o=new Date;o.setTime(o.getTime()+6e4*n)}else o=n}return!!t&&(document.cookie=encodeURIComponent(t)+"="+encodeURIComponent(i)+"; path=/;"+(n?" expires="+o.toUTCString()+";":"")+(g?" domain="+g+";":""),"undefined"!=typeof cookieRead)&&cookieRead(t)===i}},e.cookieRead=e.cookieRead||function(e){if("string"!=typeof e)return"";e=encodeURIComponent(e);var t=" "+document.cookie,i=t.indexOf(" "+e+"="),n=0>i?i:t.indexOf(";",i);return(e=0>i?"":decodeURIComponent(t.substring(i+2+e.length,0>n?t.length:n)))?e:""},e.p_fo=e.p_fo||function(t){return e.__fo||(e.__fo={}),!e.__fo[t]&&(e.__fo[t]={},!0)},performance&&e.p_fo("performance")){var o=performance;o.clearResourceTimings(),""!==e.cookieRead("s_plt")&&(o.timing.loadEventEnd>0&&clearInterval(e.pi),this._pltLoadTime=e.cookieRead("s_plt").split(",")[0],this._pltPreviousPage=e.cookieRead("s_plt").split(",")[1],e.cookieWrite("s_plt","")),0===o.timing.loadEventEnd?e.pi=setInterval(function(){n()},250):o.timing.loadEventEnd>0&&(e.ptc?e.ptc===o.timing.loadEventEnd&&1===o.getEntries().length&&(e.pwp=setInterval(function(){var i;(i=performance).getEntries().length>0&&(e.ppfe===i.getEntries().length?clearInterval(e.pwp):e.ppfe=i.getEntries().length),""===e.cookieRead("s_plt")&&e.cookieWrite("s_plt",((i.getEntries()[i.getEntries().length-1].responseEnd-i.getEntries()[0].startTime)/1e3).toFixed(2)+","+t)},500)):n())}},e.getPageLoadTime.getVersion=function(){return{plugin:"getPageLoadTime",version:"3.0"}}}();
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
 ## プラグインの使用
 
-`getPageLoadTime` 関数では引数を使用しません。この関数は呼び出されても、何も返されません。代わりに、次の変数を設定します。
+`getPercentPageViewed` 関数は次の引数を使用します。
 
-* `s._pltPreviousPage`：前のページ（読み込み時間を関連付けできます）。
-* `s._pltLoadTime`：前のページの読み込みに要した時間（秒）。
+* **`pv`** （オプション、文字列）:ページ読み込み時間を関連付けるディメンションです。  この値は、ページ自体を識別する値と等しくする必要があります。 設定されていない場合、この引数はデフォルトでAdobe AppMeasurement pageName 変数 (s.pageName) に設定され、s.pageName が設定されていない場合は URL に設定されます
 
-getPageLoadTime プラグインは、2 つのファーストパーティ Cookie を作成します。
+この関数を呼び出すと、何も返されません。代わりに、次の変数が設定されます。
 
-* `s_plt`：前のページの読み込みにかかった時間（秒）。ブラウザーセッションの終了時に有効期限が切れます。
-* `s_pltp` 以前の Adobe Analytics イメージリクエストで記録された `s.pageName` 変数の値。ブラウザーセッションの終了時に有効期限が切れます。
+* `window._pltPreviousPage`:前のページの値（つまり、pv 引数に渡された値）
+* `window._pltLoadTime`：前のページの読み込みに要した時間（秒）。
+
+getPageLoadTime プラグインは、1 つのファーストパーティ Cookie を作成します。
+
+* `s_plt`：前のページの読み込みにかかった時間（秒）。また、pv 引数に渡された値も含まれます。  ブラウザーセッションの終了時に有効期限が切れます。
 
 ## 例
 
@@ -76,16 +81,23 @@ getPageLoadTime プラグインは、2 つのファーストパーティ Cookie 
 // 3. Set eVar10 to the name of the previous page
 // 4. Set event100 to the load time (in seconds) of the previous page. A numeric event is required to capture this value.
 // You can then use event100 in calculated metrics to obtain the average page load time per page.
-if(s.pageName) s.getPageLoadTime();
-if(s._pltPreviousPage)
+if(s.pageName) getPageLoadTime();
+if(window._pltPreviousPage)
 {
-  s.prop10 = s._pltLoadTime;
-  s.eVar10 = s._pltPreviousPage
-  s.events = "event100=" + s._pltLoadTime;
+  s.prop10 = window._pltLoadTime;
+  s.eVar10 = window._pltPreviousPage
+  s.events = "event100=" + window._pltLoadTime;
 }
 ```
 
 ## バージョン履歴
+
+### 3.0（2022 年 12 月 7 日）
+
+* プラグインを完全に書き直し、ソリューションに依存しないようにしました。  例えば、AEP Web SDK と互換性があるようになりました
+* を `_pltPreviousPage` および `_pltLoadTime` （AppMeasurement オブジェクト内ではなく）window オブジェクト内の変数
+* s_pltp cookie の必要性を排除 — すべてが s_plt cookie にのみ保存されるようになりました
+* トラブルシューティングに役立つ getVersion 関数が含まれています
 
 ### 2.0.1（2021 年 3 月 26 日（PT））
 
