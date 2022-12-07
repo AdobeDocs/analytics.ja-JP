@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
+source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 97%
@@ -20,6 +20,16 @@ ht-degree: 97%
    + [使用する Adobe Analytics ツールの検討](admin/get-started/which-analytics-tool.md)
    + [Analytics 製品の比較と必要システム構成](admin/get-started/analytics-product-comparison.md)
    + [必要システム構成](admin/get-started/sys-reqs.md)
+   + カンパニー設定 {#company-settings}
+      + [カンパニー設定の概要](admin/get-started/company/c-company-settings.md)
+      + [機能アクセスレベル](admin/get-started/company/feature-access-levels.md)
+      + [Web サービス](admin/get-started/company/web-services-admin.md)
+      + [Report Builder レポート](admin/get-started/company/report-builder-reports-admin.md)
+      + [シングルサインオン](admin/get-started/company/single-signon-admin.md)
+      + [保留中のアクション](admin/get-started/company/pending-actions-admin.md)
+      + [ブランド提携](admin/get-started/company/co-branding-admin.md)
+      + [レポートスイートを非表示](admin/get-started/company/c-hide-report-suites.md)
+      + [セキュリティマネージャー](admin/get-started/company/security-manager.md)
 + 管理ツール {#admin-tools}
    + [管理ツール](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
@@ -117,16 +127,6 @@ ht-degree: 97%
       + [Analytics ツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
    + [Adobe Analyticsの管理者の役割](admin-console/admin-roles-in-analytics.md)
-+ カンパニー設定 {#company-settings}
-   + [カンパニー設定の概要](company/c-company-settings.md)
-   + [機能アクセスレベル](company/feature-access-levels.md)
-   + [Web サービス](company/web-services-admin.md)
-   + [Report Builder レポート](company/report-builder-reports-admin.md)
-   + [シングルサインオン](company/single-signon-admin.md)
-   + [保留中のアクション](company/pending-actions-admin.md)
-   + [ブランド提携](company/co-branding-admin.md)
-   + [レポートスイートを非表示](company/c-hide-report-suites.md)
-   + [セキュリティマネージャー](company/security-manager.md)
 + レポートスイートの管理 {#manage-report-suites}
    + [レポートスイートマネージャー](c-manage-report-suites/report-suites-admin.md)
    + [ロールアップレポートスイートとグローバルレポートスイート](c-manage-report-suites/rollup-report-suite.md)
