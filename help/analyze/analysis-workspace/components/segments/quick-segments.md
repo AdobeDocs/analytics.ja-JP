@@ -4,10 +4,10 @@ title: クイックセグメント
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 71%
+source-wordcount: '943'
+ht-degree: 65%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 71%
 | --- | --- |
 | 名前 | セグメントのデフォルト名は、セグメント内のルール名の組み合わせです。セグメントの名前は変更できます。 |
 | 含む／除く | セグメント定義にコンポーネントを含めるか除外することはできますが、両方に対応していません。 |
-| ヒット／訪問／訪問者コンテナ | クイックセグメントには、ディメンション／指標／日付範囲をセグメントに含める（またはセグメントから除外する）ことができる[セグメントコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)が 1 つだけ含まれます。[!UICONTROL 訪問者]には、訪問およびページビュー全体で訪問者に固有の包括的なデータが含まれます。[!UICONTROL 訪問] コンテナでは、訪問者のデータを訪問に基づいて分類するルールを設定でき、 [!UICONTROL ヒット] コンテナでは、訪問者情報を個々のページビューに基づいて分類できます。デフォルトのコンテナは [!UICONTROL ヒット] です。 |
+| ヒット／訪問／訪問者コンテナ | クイックセグメントには、ディメンション／指標／日付範囲をセグメントに含める（またはセグメントから除外する）ことができる[セグメントコンテナ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)が 1 つだけ含まれます。[!UICONTROL 訪問者]には、訪問およびページビュー全体で訪問者に固有の包括的なデータが含まれます。A [!UICONTROL 訪問] コンテナを使用すると、訪問に基づいて訪問者のデータを分類するルールを設定でき、 [!UICONTROL ヒット] コンテナを使用すると、訪問者情報を個々のページビューに基づいて分類できます。 デフォルトのコンテナは [!UICONTROL ヒット] です。 |
 | コンポーネント（ディメンション／指標／日付範囲） | コンポーネント（ディメンション／指標／日付範囲）とその値を追加して、最大 3 つのルールを定義できます。適切なコンポーネントを見つける方法は 3 つあります。<ul><li>入力を開始すると、[!UICONTROL クイックセグメント]ビルダーが適切なコンポーネントを自動的に見つけます。</li><li>ドロップダウンリストを使用して、コンポーネントを検索します。</li><li>データセットを左側のパネルからドラッグ＆ドロップします。</li></ul> |
 | 演算子 | 標準演算子と [!UICONTROL 個別カウント] 演算子を検索するには、ドロップダウンメニューを使用します。[詳細情報](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=ja) |
 | プラス（+）記号 | 別のルールの追加 |
@@ -94,3 +94,10 @@ ht-degree: 71%
 「このセグメントを使用可能にする」をオンにした場合 をクリックし、 **[!UICONTROL 保存]**&#x200B;の場合、セグメントが左側のレールのコンポーネントリストで使用可能になり、他のプロジェクトで使用できるようになります。 セグメントマネージャから他のユーザーと共有することもできます。
 
 ![プロジェクトのみチェック済み](assets/project-only-checked.png)
+
+## 既知の問題
+
+1. 2 つのエントリと **[!UICONTROL 保存]** これは Test1 です。
+1. クリック **[!UICONTROL 名前を付けて保存]** このクイックセグメントを Test2 として保存します。
+1. Test2 クイックセグメントを編集し、再度 Test2 として保存します。
+Test1 クイックセグメントは、Test2 によって変更されます。
