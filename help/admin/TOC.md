@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
+source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 97%
+source-wordcount: '679'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,15 @@ ht-degree: 97%
       + [ブランド提携](admin/get-started/company/co-branding-admin.md)
       + [レポートスイートを非表示](admin/get-started/company/c-hide-report-suites.md)
       + [セキュリティマネージャー](admin/get-started/company/security-manager.md)
++ Adobe管理コンソールでのユーザー権限 {#admin-console}
+   + [Admin Console での Adobe Analytics](admin-console/home.md)
+   + 権限 {#permissions}
+      + [Admin Console での Analytics 権限](admin-console/permissions/summary-tables.md)
+      + [Adobe Analytics の製品プロファイル](admin-console/permissions/product-profile.md)
+      + [レポートスイートツールの製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
+      + [Analytics ツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
+   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
+   + [Adobe Analyticsの管理者の役割](admin-console/admin-roles-in-analytics.md)
 + 管理ツール {#admin-tools}
    + [管理ツール](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
@@ -118,15 +127,6 @@ ht-degree: 97%
       + [ユニーク訪問者変数の指定](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用事例 - 訪問者 ID の抽出](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [ビデオ管理](admin/video-management.md)
-+ Admin Console での Adobe Analytics {#admin-console}
-   + [Admin Console での Adobe Analytics](admin-console/home.md)
-   + 権限 {#permissions}
-      + [Admin Console での Analytics 権限](admin-console/permissions/summary-tables.md)
-      + [Adobe Analytics の製品プロファイル](admin-console/permissions/product-profile.md)
-      + [レポートスイートツールの製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
-      + [Analytics ツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
-   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
-   + [Adobe Analyticsの管理者の役割](admin-console/admin-roles-in-analytics.md)
 + レポートスイートの管理 {#manage-report-suites}
    + [レポートスイートマネージャー](c-manage-report-suites/report-suites-admin.md)
    + [ロールアップレポートスイートとグローバルレポートスイート](c-manage-report-suites/rollup-report-suite.md)
