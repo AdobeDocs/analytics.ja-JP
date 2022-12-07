@@ -3,10 +3,10 @@ title: 国
 description: ヒットの元の国。
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 89%
+source-wordcount: '308'
+ht-degree: 77%
 
 ---
 
@@ -31,3 +31,4 @@ ht-degree: 89%
 を経由して IP トラフィックをバックホールしています。
 * **Satellite ISP ユーザー**：これらのユーザーは通常、アップリンクの場所から派生しているように見えるので、特定の場所を識別するのは困難です。
 * **軍事および政府の知的財産**：これはしばしば、人員が現在滞在しているベースやオフィスというより、世界中を旅行する人員がホーム場所を経由して入って来ていることを表します。
+* **プライバシー上の理由で IP アドレスを難読化するプロキシ**:Appleのプライベートリレーなどのサービスは、中間またはプロキシを通じてデータをランダムに送信することで、真の IP アドレスを非表示にします。 次に、このプロキシは、Adobeに転送する前に別の IP アドレスを代用します。

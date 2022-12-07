@@ -3,10 +3,10 @@ title: 市区町村
 description: ヒットの元となった市区町村。
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 89%
 
 ---
 
@@ -33,3 +33,4 @@ ht-degree: 100%
 を経由して IP トラフィックをバックホールしています。
 * **Satellite ISP ユーザー**：これらのユーザーは通常、アップリンクの場所から派生しているように見えるので、特定の場所を識別するのは困難です。
 * **軍事および政府の知的財産**：これはしばしば、人員が現在滞在しているベースやオフィスというより、世界中を旅行する人員がホーム場所を経由して入って来ていることを表します。
+* **プライバシー上の理由で IP アドレスを難読化するプロキシ**:Appleのプライベートリレーなどのサービスは、中間またはプロキシを通じてデータをランダムに送信することで、真の IP アドレスを非表示にします。 次に、このプロキシは、Adobeに転送する前に別の IP アドレスを代用します。
