@@ -3,9 +3,9 @@ description: このヘルプページでは、各 Adobe Analytics ツールの�
 title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1164'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,6 @@ Adobe Analytics製品比較について詳しくは、 [Analytics 製品比較](
 * ターゲットをセットアップする。
 * ボットレポートを表示する。
 * ビデオ視聴時間帯、ビューアドロップオフの独自のビデオビジュアライゼーションにアクセスする。
-* 予定レポートで発行リストを活用する。
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ja)** は以下の場合に使用します。
 

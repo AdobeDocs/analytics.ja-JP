@@ -3,9 +3,9 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3c010207764de51ed053b7bf9ee777e68097e411
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1459'
 ht-degree: 96%
 
 ---
@@ -54,7 +54,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | EOL 対象の製品または機能 | 追加日または更新日 | 説明 |
 | --- | --- | --- |
-| **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日（PT） | Reports &amp; Analytics の提供終了（EOL）の一環として、発行リストは **2023年12月**&#x200B;に提供終了になる予定です。新しい発行リストを作成するか既存の発行リストにアクセスして、Analysis Workspace プロジェクトを送信したりスケジュールしたりすることはできなくなります。 [詳細情報](/help/admin/admin/publishing-list.md) |
+| **[!UICONTROL 発行リスト]機能の提供終了（EOL）** | 2022年9月29日（PT） | Reports &amp; Analytics の提供終了（EOL）の一環として、発行リストは **2023年12月**&#x200B;に提供終了になる予定です。新しい発行リストを作成するか既存の発行リストにアクセスして、Analysis Workspace プロジェクトを送信したりスケジュールしたりすることはできなくなります。  |
 | **Data Workbench のサポート終了** | 2022年9月14日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは Data Workbench のサポートを終了する予定です。詳しくは、[Data Workbench の提供終了のお知らせ](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=ja)を参照してください。ご不明な点がある場合は、組織のアドビ担当営業または販売店にお問い合わせください。 |
 | **[!DNL Reports & Analytics]** のサポート終了 | 2022年1月4日（PT） | **2023年12月31日（PT）**&#x200B;をもって、アドビは [!DNL Reports & Analytics] およびそれに付随するレポートと機能を廃止する予定です。[!DNL Reports & Analytics] を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。ほとんどの [!DNL Reports & Analytics] 機能は、[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 内でご利用いただけます。2015年の Analysis Workspace のリリース以降、[!DNL Reports & Analytics] の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。[このお知らせ](https://spark.adobe.com/page/6WnF8JK6IRDhf/)では、提供終了プロセスについて説明します。 |
 

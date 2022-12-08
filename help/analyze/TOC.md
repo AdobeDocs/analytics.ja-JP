@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics ツールガイド
 breadcrumb-title: ツールガイド
 user-guide-description: Analysis Workspace、Analytics ダッシュボード、Report Builder、Activity Map などの Analytics ツールの使用方法について説明します。
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 100%
 
 ---
@@ -171,7 +171,6 @@ ht-degree: 100%
          + [レポートスイートを選択します。Excel の既存のリクエストから](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Excel を使用したレポートスイート ID の調査](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [セグメントの管理](report-builder/data-requests/segmentation.md)
-      + [発行リストの上書きの許可](report-builder/data-requests/allow-publishing-list-overrides.md)
       + レポートタイプ {#report-types}
          + [レポートタイプの概要](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Report Builder のパスレポートおよびパスフォールアウトレポート](report-builder/data-requests/c-report-types/report-path-fallout.md)

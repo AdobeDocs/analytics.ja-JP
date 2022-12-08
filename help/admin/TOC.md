@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '673'
 ht-degree: 96%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 96%
       + [セキュリティマネージャー](get-started/company/security-manager.md)
 + Adobe管理コンソールでのユーザー権限 {#admin-console}
    + [Admin Console での Adobe Analytics](admin-console/home.md)
+   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
+   + [Adobe Analyticsの管理者の役割](admin-console/admin-roles-in-analytics.md)
    + 権限 {#permissions}
       + [Admin Console での Analytics 権限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics の製品プロファイル](admin-console/permissions/product-profile.md)
       + [レポートスイートツールの製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
       + [Analytics ツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
-   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
-   + [Adobe Analyticsの管理者の役割](admin-console/admin-roles-in-analytics.md)
 + 管理ツール {#admin-tools}
    + [管理ツール](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
@@ -72,8 +72,6 @@ ht-degree: 96%
    + 有料検索検知 {#paid-search-detection}
       + [有料検索検知の概要](admin/paid-search-detection/paid-search-detection.md)
       + [有料検索検知の設定](admin/paid-search-detection/t-paid-search-detection.md)
-   + [発行リスト](admin/publishing-list.md)
-   + [公開ウィジェット](admin/publishing-widgets-admin.md)
    + [設定マネージャー](admin/preferences-manager.md)
    + [プライバシー設定](admin/privacy-settings.md)
    + [プライバシーレポート](admin/privacy-reporting.md)
@@ -113,7 +111,6 @@ ht-degree: 96%
       + [サーバー側転送の実装の確認方法](admin/c-server-side-forwarding/ssf-verify.md)
       + [サーバー側転送の FAQ](admin/c-server-side-forwarding/ssf-faq.md)
    + [シンプル化されたレポートメニュー](admin/t-simplified-menu.md)
-   + [ソーシャルの管理](admin/social-management.md)
    + 成功イベント {#success-events}
       + [成功イベントの概要](admin/c-success-events/success-event.md)
       + [成功イベントの設定](admin/c-success-events/t-success-events.md)

@@ -3,9 +3,9 @@ description: Adobe Analytics の管理ツールのインデックス。
 title: 管理ツール
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 100%
 + [指標の表示](metric-visibility.md)
 + [モバイル管理](mobile-management.md)
 + [有料検索検知の概要](paid-search-detection/paid-search-detection.md)
-+ [発行リスト](publishing-list.md)
-+ [公開ウィジェット](publishing-widgets-admin.md)
 + [環境設定マネージャー](preferences-manager.md)
 + [プライバシー設定](privacy-settings.md)
 + [処理ルールの概要](c-processing-rules/processing-rules.md)
@@ -46,7 +44,6 @@ ht-degree: 100%
 + [予定レポートキュー](scheduled-reports-admin.md)
 + [サーバーサイド転送の概要](c-server-side-forwarding/ssf.md)
 + [シンプル化されたレポートメニュー](t-simplified-menu.md)
-+ [ソーシャル管理](social-management.md)
 + [成功イベントの概要](c-success-events/success-event.md)
 + [タイムスタンプオプション](timestamp-optional.md)
 + [トラフィック変数（prop）の概要](c-traffic-variables/traffic-var.md)

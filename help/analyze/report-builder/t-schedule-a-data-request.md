@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '994'
 ht-degree: 98%
 
 ---
@@ -73,7 +73,6 @@ ht-degree: 98%
 | **「ファイルオプション」タブ** |  |
 | ファイル形式 | 配信形式として、Excel 2007（.xlsx）、Excel 2003（.xls）、.pdf、.csv、.mht、.txt または .xml を選択します。 |
 | ファイルの保存先 | 電子メールまたは FTP を指定します。ページのオプションは、選択内容よって異なります。FTP の場合、そのホストが外部からアクセス可能であることを確認する必要があります。 |
-| 発行リスト | 予定ワークブックを複数の発行リストに対して送信する場合、各リストに対してワークブックが一度実行されます。対象レポートスイートは、発行リストに割り当てられたレポートスイートに置き換えられます。 |
 | ファイルコンテンツの言語 | カバーレターに使用する言語を指定します。中国語（簡体または繁体）、ドイツ語、フランス語、日本語、韓国語、ポルトガル語（ブラジル）またはスペイン語を選択することができます。 |
 | **「発行オプション」タブ** |  |
 | Power BI への発行 | <ul><li>ワークブックを Power BI に発行する</li><li>すべての Report Builder リクエストを Power BI データセットテーブルとして発行</li><li>すべてのフォーマット済みテーブルを Power BI データセットテーブルとして発行</li></ul> |

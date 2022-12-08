@@ -4,9 +4,9 @@ title: データリクエスト - リクエストウィザード：ステップ 
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 100%
 1. **セグメント**：データのカスタムサブセット、または作成した規則でフィルターされたデータです。セグメントはヒット、訪問および訪問者に基づいています。セグメントについて詳しくは、[Analytics セグメントガイド](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=ja)を参照してください。
 
    例えば、[!UICONTROL ページレポート]を実行し、初回訪問件数セグメントを適用できます。
-
-1. **発行リストの上書きを許可**：レポートをスケジュールする場合、その配信に使用する発行リストを選択できます。発行リストは **[!UICONTROL Analytics]**／**[!UICONTROL 管理ツール]**&#x200B;で設定しておく必要があります。リクエストで指定されたレポートスイートは、発行リストの各受信者に割り当てられるレポートスイート ID に置き換えられます。詳しくは、[発行リストの上書きの許可](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)を参照してください。
 
 1. **レポートタイプ**：データリクエストで取得するベースのレポートを指定します。リクエストごとに 1 つのレポートを指定します。なお、ベースのレポートに対して複数のディメンションと指標を設定できます。レポートタイプの指標およびディメンションは、「[!UICONTROL リクエストウィザード：ステップ 2]」インターフェイスに表示されます。詳しくは、[レポートタイプの選択](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)を参照してください。
 
