@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 94%
@@ -203,7 +203,7 @@ ht-degree: 94%
 | 2019年4月11日（PT） | ワークスペースの最適化のベストプラクティスに関する機能強化：[パフォーマンスの最適化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019年4月11日（PT） | [ワークスペースのパフォーマンスの最適化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)が更新されました。 |
 | 2019年3月14日（PT） | [地域データ収集](/help/technotes/rdc/regional-data-collection.md)が大幅に更新されました。 |
-| 2019年2月7日（PT） | [一般アカウント設定](/help/admin/admin/general-acct-settings-admin.md)の「IP アドレスの最後のオクテットを 0 に置き換える」と「IP アドレスの難読化」設定が若干更新されました。 |
+| 2019年2月7日（PT） | [一般アカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)の「IP アドレスの最後のオクテットを 0 に置き換える」と「IP アドレスの難読化」設定が若干更新されました。 |
 | 2019年2月1日（PT） | [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 実装プラグインが大幅に更新されました。 |
 | 2019年1月17日（PT） | [コホート分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - コホート分析が大きく改善され、以下の機能が実現しました。<ul><li>セグメントのインクルージョン指標とリターン指標を別々に適用できます。 </li><li>リテンションの代わりにチャーン（離反）を表示できます。</li><li>待ち時間テーブル（インクルージョンイベントの前後の変化）を表示できます。</li><li>コホートディメンションをカスタマイズできます（時間だけでなく eVar の値で訪問者をグループ化できます）。</li><li>ローリングコホート計算を実行する：元のコホートではなく直前の期間からのリテンション／チャーンを計算します。 </li><li>セグメントの適用に加え、インクルージョンフィールドとリターンフィールドに複数の指標を追加できます（計算指標はサポートされません）。</li></ul> |
 | 2019年1月17日（PT） | [表示密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). この新しい設定を使用すると、左側のパネル、フリーフォームテーブルおよびコホートテーブルでの垂直方向のパディングを減らし、1 画面に表示されるデータの量を増やすことができます。プロジェクト／プロジェクト情報および設定から利用できます。 |

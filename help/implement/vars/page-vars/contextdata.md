@@ -3,7 +3,7 @@ title: contextData
 description: コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 80%
@@ -12,13 +12,13 @@ ht-degree: 80%
 
 # contextData
 
-コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。コード内の Analytics 変数に値を明示的に割り当てる代わりに、コンテキストデータ変数でデータを送信できます。次に、処理ルールは、コンテキストデータ変数の値を取得し、それぞれの Analytics 変数に渡します。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)」を参照してください。
+コンテキストデータ変数を使用すると、処理ルールで読み取ることのできる各ページにカスタム変数を定義できます。コード内の Analytics 変数に値を明示的に割り当てる代わりに、コンテキストデータ変数でデータを送信できます。次に、処理ルールは、コンテキストデータ変数の値を取得し、それぞれの Analytics 変数に渡します。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)」を参照してください。
 
 コンテキストデータ変数は、開発チームが番号付き変数ではなく名前付きの要素でデータを収集する場合に役立ちます。例えば、開発チームにページの作成者の `eVar10` への割り当てをリクエストする代わりに、`s.contextData["author"]` への割り当てをリクエストすることができます。その後、組織の Analytics 管理者は、コンテキストデータ変数をレポート用の Analytics 変数にマップする処理ルールを作成できます。開発チームは、最終的に、アドビが提供する多くのページ変数ではなく、コンテキストデータ変数についてのみ懸念することになります。
 
 ## Web SDK を使用したコンテキストデータ変数
 
-XDM フィールドが [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)の場合、コンテキストデータ変数として自動的に含まれます。 この場合、 [処理ルール](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) を使用して、目的の Analytics 変数にコンテキストデータ変数を割り当てます。
+XDM フィールドが [Adobe Analyticsにマッピング済み](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=ja)の場合、コンテキストデータ変数として自動的に含まれます。 この場合、 [処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) を使用して、目的の Analytics 変数にコンテキストデータ変数を割り当てます。
 
 データストリーム内の正しい XDM フィールドにデータをマッピングするのがベストプラクティスですが、この方法は似たような結果を実現します。
 

@@ -3,10 +3,10 @@ title: linkInternalFilters
 description: linkInternalFilters 変数の使用は離脱リンクの自動トラッキングに役立ちます。
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 65%
+ht-degree: 68%
 
 ---
 
@@ -22,7 +22,7 @@ Activity Map では、この変数を使用して、サイト内部のリンク�
 
 >[!NOTE]
 >
->`linkInternalFilters` および [内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)は、別々の目的を満たす個別の機能です。`linkInternalFilters` 変数は、離脱リンクの追跡に特別に機能します。内部 URL フィルターは、参照ドメインなどのトラフィックソースディメンションの操作に役立つ管理者設定です。
+>`linkInternalFilters` および [内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)は、別々の目的を満たす個別の機能です。`linkInternalFilters` 変数は、離脱リンクの追跡に特別に機能します。内部 URL フィルターは、参照ドメインなどのトラフィックソースディメンションの操作に役立つ管理者設定です。
 
 ## Web SDK の出口リンク
 
@@ -34,7 +34,7 @@ Activity Map では、この変数を使用して、サイト内部のリンク�
 
 「追跡しない」フィールドは、Adobe Analytics 拡張機能の設定時に「[!UICONTROL リンクトラッキング]」アコーディオンの下にあるフィルター（通常はドメイン）のコンマ区切りリストです。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL 拡張機能]」タブに移動し、「Adobe Analytics」の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 4. 「[!UICONTROL リンクトラッキング]」アコーディオンを展開すると、「[!UICONTROL アウトバウンドリンク - 追跡しない]」フィールドが表示されます。

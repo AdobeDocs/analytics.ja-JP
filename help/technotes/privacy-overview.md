@@ -4,8 +4,8 @@ keywords: プライバシー
 title: プライバシーの概要
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ Adobe Analytics は次のデータを収集します。
   </tr> 
   <tr> 
    <td colname="col1"> ヨーロッパ </td> 
-   <td colname="col2"> アドビは、EMEA でレポートスイートを設定しているすべての顧客に対して、デフォルトで「IP の不明化（IP Obfuscation）」を「有効 - IP 削除（x.x.x.x）」に設定しています。この設定を使用すると、IP アドレスは、地域ルックアップ後の値（x.x.x.x）に完全に置き換えられ、以後、データポイントとして使用できません。 <p>この基本的な置き換え方法は、一意の特定の IP アドレスにリバースエンジニアリングできません。IP アドレスは不可逆的に不明化されており、顧客もアドビもアクセスできません。その他の IP 不明化設定ついて詳しくは、 </p> <p> 「管理者ユーザーガイド」内の<a href="/help/admin/admin/general-acct-settings-admin.md">一般的なアカウント設定</a>を参照してください。</p> </td>
+   <td colname="col2"> アドビは、EMEA でレポートスイートを設定しているすべての顧客に対して、デフォルトで「IP の不明化（IP Obfuscation）」を「有効 - IP 削除（x.x.x.x）」に設定しています。この設定を使用すると、IP アドレスは、地域ルックアップ後の値（x.x.x.x）に完全に置き換えられ、以後、データポイントとして使用できません。 <p>この基本的な置き換え方法は、一意の特定の IP アドレスにリバースエンジニアリングできません。IP アドレスは不可逆的に不明化されており、顧客もアドビもアクセスできません。その他の IP 不明化設定ついて詳しくは、 </p> <p> 「管理者ユーザーガイド」内の<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md">一般的なアカウント設定</a>を参照してください。</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> グローバル </td> 

@@ -3,7 +3,7 @@ title: すべての検索ページのランク
 description: 訪問者がサイトにクリックスルーした検索エンジンのページを特定します。
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションが機能するには、レポートスイートに[内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)が正しく設定されている必要があります。AppMeasurement は、実装コードを変更せずに、このディメンションを自動的に設定します。
+このディメンションが機能するには、レポートスイートに[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)が正しく設定されている必要があります。AppMeasurement は、実装コードを変更せずに、このディメンションを自動的に設定します。
 
 ## ディメンション項目
 

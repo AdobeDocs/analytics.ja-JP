@@ -5,8 +5,8 @@ uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 例としては、オンラインアンケートにより訪問者の年齢を収集した「年齢層」と名付けたカスタムトラフィックレポートの内訳が挙げられます。このレポートでは、サイトトラフィックの最大部分を占めているのはどの年齢層かを見ることができます。ただし、訪問者の年齢まで取り込んだのであれば、ページビューだけでなくより掘り下げたくなるでしょう。そのために、訪問者がどの検索エンジンを使用したか、どのキーワードを使用したか、地理的場所などに関する分類レポートを生成できます。年齢層と検索エンジンの相関関係を設定します。
 
-レポートを&#x200B;*`Referrer Type`* 別に分類すると、*`Inside Your Site`* のデータポイントが表示される場合があります。この値は、内部 URL フィルターリスト上のリファーラページを示します。管理リファレンスの[内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)を参照してください。
+レポートを&#x200B;*`Referrer Type`* 別に分類すると、*`Inside Your Site`* のデータポイントが表示される場合があります。この値は、内部 URL フィルターリスト上のリファーラページを示します。管理リファレンスの[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を参照してください。
 
 どの Analytics 変数（eVar または prop）も他の任意の変数別に分類できます。レポート表の&#x200B;**[!UICONTROL 分類基準]**&#x200B;メニューは、標準 Analytics レポートメニューに一致しており、選択項目が同じになっています。
 

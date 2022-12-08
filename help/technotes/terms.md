@@ -2,7 +2,7 @@
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -83,7 +83,7 @@ ht-degree: 100%
 * **永続性：**&#x200B;コンバージョン変数の抽象概念で、変数値および個々のヒットで発生するイベントの関連付けを可能にします。「有効期限」も参照してください。
 * **プライマリサーバーコール：**&#x200B;イメージリクエストまたはヒットの別名。主に複数のスイートタグ付けおよび請求のコンテキストで使用されます。同じヒットが複数のレポートスイートに送信される場合、最初のレポートスイートはプライマリサーバーコール、それ以外はセカンダリサーバーコールとなります。このルールは、ページビューやリンクトラッキングを含むすべてのヒットタイプに適用されます。「セカンダリサーバーコール」も参照してください。
 * **処理ルール：**&#x200B;次を参照してください。
-   * 処理ルールとは、Admin Console の特定のルールを使用してデータ収集を変更する方法です。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md)」を参照してください。
+   * 処理ルールとは、Admin Console の特定のルールを使用してデータ収集を変更する方法です。『管理ユーザガイド』の「[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)」を参照してください。
    * マーケティングチャネルの処理ルール。ヒットが属するマーケティングチャネルを決定する一連のルールです。管理ユーザーガイドの「[マーケティングチャネルの処理ルール](/help/admin/admin/marketing-channels-admin.md)」を参照してください。
 * **Prop：**「トラフィック変数」を参照してください。
 * **ランクレポート：**&#x200B;通常、指標を含むディメンションに従うレポート形式を指します。このタイプのレポートでは、サイトで最も多く閲覧されたページなどの上位の項目を確認できます。「トレンドレポート」も参照してください。

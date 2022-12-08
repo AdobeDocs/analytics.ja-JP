@@ -3,7 +3,7 @@ title: Adobe Analytics での獲得レポート
 description: Analysis Workspace を使用して獲得ベースのレポートを作成する方法について説明します。
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
@@ -127,7 +127,7 @@ Adobe Analytics では、カスタム変数（eVar）を使用して UTM パラ�
 
 ## キャンペーン - 有料検索キーワード
 
-有料検索キーワードレポートでは、訪問者が検索エンジンから有料検索リンクをクリックした場合の各キーワードのパフォーマンスを確認できます。Analysis Workspace では&#x200B;**検索キーワード - 有料検索**&#x200B;ディメンションを利用できますが、データを収集するには一回限りの有料検索検知の設定が必要です。設定について詳しくは、管理ユーザーガイドの「[有料検索検知](/help/admin/admin/paid-search-detection/paid-search-detection.md)」を参照してください。
+有料検索キーワードレポートでは、訪問者が検索エンジンから有料検索リンクをクリックした場合の各キーワードのパフォーマンスを確認できます。Analysis Workspace では&#x200B;**検索キーワード - 有料検索**&#x200B;ディメンションを利用できますが、データを収集するには一回限りの有料検索検知の設定が必要です。設定について詳しくは、管理ユーザーガイドの「[有料検索検知](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)」を参照してください。
 
 1. コンポーネントメニューで&#x200B;**検索キーワード - 有料検索**&#x200B;ディメンションを選択し、「ここにディメンションをドロップ」というラベルが付いた大きなフリーフォームテーブル領域にドラッグします。
 2. 自動的に作成された&#x200B;**回数**&#x200B;指標の横にあるワークスペースに適切な指標をドラッグします。各指標の取得方法について詳しくは、[指標の変換ガイド](common-metrics.md)を参照してください。

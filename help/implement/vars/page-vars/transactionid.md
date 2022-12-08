@@ -3,10 +3,10 @@ title: transactionID
 description: この変数を使用して、オンラインとオフラインのデータをリンクします。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
-> この変数を使用する前に、レポートスイートで[!UICONTROL トランザクション ID ストレージ]が有効になっていることを確認してください。詳しくは、『管理者ユーザガイド』の「[一般的なアカウント設定](/help/admin/admin/general-acct-settings-admin.md)」を参照してください。
+> この変数を使用する前に、レポートスイートで[!UICONTROL トランザクション ID ストレージ]が有効になっていることを確認してください。詳しくは、『管理者ユーザガイド』の「[一般的なアカウント設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」を参照してください。
 
 `transactionID` でヒットを設定すると、その時点で設定または持続するすべての Analytics 変数の「スナップショット」が作成されます。一致するトランザクション ID を持つデータソースを通じてアップロードされたデータは、これらの変数値に永続的に結び付けられます。
 
@@ -30,7 +30,7 @@ ht-degree: 89%
 
 トランザクション ID は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。

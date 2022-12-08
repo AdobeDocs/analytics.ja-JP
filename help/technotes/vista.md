@@ -1,13 +1,13 @@
 ---
 title: Adobe Analytics の VISTA ルール
 description: VISTA ルールとその機能の詳細について説明します。
-source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
-workflow-type: ht
+exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics の VISTA ルール
 
@@ -21,7 +21,7 @@ VISTA ルールの一般的なユースケースには、例えば、次のも�
 * 変数値を他の変数に複製する
 * 変数値に影響を及ぼす可能性のあるファイルを Adobe FTP サイトにアップロードする
 
-VISTA ルールの多くのユースケースは、[処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md)、[ボットルール](/help/admin/admin/bot-removal/bot-rules.md)または[仮想レポートスイート](/help/components/vrs/vrs-about.md)で既に提供されているか、Adobe Analytics 実装を更新するだけで提供されます。アドビでは、VISTA ルールは最後の手段としてのみ使用することをお勧めします。
+VISTA ルールの多くのユースケースは、[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)、[ボットルール](/help/admin/admin/bot-removal/bot-rules.md)または[仮想レポートスイート](/help/components/vrs/vrs-about.md)で既に提供されているか、Adobe Analytics 実装を更新するだけで提供されます。アドビでは、VISTA ルールは最後の手段としてのみ使用することをお勧めします。
 
 >[!IMPORTANT]
 >

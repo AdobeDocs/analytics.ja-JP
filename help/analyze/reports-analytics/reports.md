@@ -4,8 +4,8 @@ description: 各レポートで Reports & Analytics が使用するディメン�
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
@@ -19,10 +19,10 @@ Reports &amp; Analytics の各レポートは、専用のディメンション�
 
 >[!NOTE]
 >
->組織の管理者が行ったカスタマイズに応じて、レポートメニューの外観が変わります。詳しくは、『管理者ユーザーガイド』の「[メニューのカスタマイズ](/help/admin/admin/customize-menus.md)」を参照してください。
+>組織の管理者が行ったカスタマイズに応じて、レポートメニューの外観が変わります。詳しくは、『管理者ユーザーガイド』の「[メニューのカスタマイズ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)」を参照してください。
 
 >[!IMPORTANT]
->**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を構成しているレポート、ビジュアライゼーションおよび基盤技術は、アドビの技術標準に適合しなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
+>**2023 年 12 月 31 日**（PT）をもって、アドビは Reports &amp; Analytics およびそれに付随するレポートと機能を廃止する予定です。その時点で、Reports &amp; Analytics およびそのすべてのレポートとスケジュールは機能を停止します。Reports &amp; Analytics を強化するレポート、ビジュアライゼーション、基盤となる技術は、アドビの技術標準規格を満たさなくなりました。Reports &amp; Analytics のほとんどの機能は、Analysis Workspace 内で使用できます。2015年の Analysis Workspace のリリース以降、Reports &amp; Analytics の機能は Analysis Workspace に移行され、同等のワークフロー機能を提供できるようになりました。このお知らせでは、提供終了プロセスについて説明します。
 
 ## サイト指標
 
@@ -119,7 +119,7 @@ Reports &amp; Analytics の各レポートは、専用のディメンション�
 
 ## トラフィックソース
 
-訪問者がサイトに到着する前にどこから来たかを知ることができるレポートが含まれます。これらのレポートは、レポートスイートの設定で[内部 URL フィルター](../../admin/admin/internal-url-filter-admin.md)を正しく設定しない限り、機能しません 。
+訪問者がサイトに到着する前にどこから来たかを知ることができるレポートが含まれます。これらのレポートは、レポートスイートの設定で[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)を正しく設定しない限り、機能しません 。
 
 * 検索キーワード — すべて：[Search keyword](/help/components/dimensions/search-keyword.md) ディメンションを使用します。
 * 検索キーワード — 有料：[Search keyword - paid](/help/components/dimensions/search-keyword.md) ディメンションを使用します。
@@ -230,4 +230,4 @@ Reports &amp; Analytics の各レポートは、専用のディメンション�
 
 >[!NOTE]
 >
->このヘルプページでレポートが見つからない場合は、管理者がフォルダーの名前を変更したり、調整したりした可能性があります。詳しくは、『管理者ユーザーガイド』の「[メニューのカスタマイズ](/help/admin/admin/customize-menus.md)」を参照してください。
+>このヘルプページでレポートが見つからない場合は、管理者がフォルダーの名前を変更したり、調整したりした可能性があります。詳しくは、『管理者ユーザーガイド』の「[メニューのカスタマイズ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)」を参照してください。

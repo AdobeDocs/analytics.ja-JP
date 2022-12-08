@@ -1,7 +1,8 @@
 ---
 title: Adobe Analytics でのデータの処理順序
 description: Adobe Analytics でデータを処理するコンポーネントとサービスの順序について説明します。
-source-git-commit: 0881efeb2ce4f7af96f42bc925e43ce5ba1f64a2
+exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
@@ -31,11 +32,11 @@ Adobe Analytics にデータを送信すると、必要に応じて次の機能�
 1. **ルックアップテーブル**：アドビ内部のルックアップテーブルに依存するディメンション（[ブラウザー](/help/components/dimensions/browser.md)ディメンションなど）は、対応する値に一致します。
 2. [**動的変数**](/help/implement/vars/page-vars/dynamic-variables.md)：イメージリクエストのいずれかの部分に動的変数が検出された場合、その値はコピーされ、独立した値として処理されます。
 3. [**ボットルール**](/help/admin/admin/bot-removal/bot-rules.md)：標準またはカスタムのボットフィルタリングを適用すると、そのデータをレポートから除外できます。
-4. [**処理ルール**](/help/admin/admin/c-processing-rules/processing-rules.md)：組織がデータに適用したカスタムルール。[コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)のそれぞれの変数へのマッピングが含まれます。
+4. [**処理ルール**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)：組織がデータに適用したカスタムルール。[コンテキストデータ変数](/help/implement/vars/page-vars/contextdata.md)のそれぞれの変数へのマッピングが含まれます。
 5. **VISTA ルール**：アドビのコンサルタントがお客様のデータに適用する柔軟なカスタムルール。VISTA ルールは、組織のニーズに応じて、処理ルールの前または後に実行できます。通常、ほとんどの VISTA ルールは処理ルールの後に実行されますが、設定は組織ごとに異なります。既存の VISTA ルールについて詳しくは、アドビ担当営業または販売店にお問い合わせください。
-6. [**マーケティングチャネルの処理ルール**](/help/components/c-marketing-channels/c-rules.md)：[処理ルール](/help/admin/admin/c-processing-rules/processing-rules.md)を使用すると、マーケティングチャネルの処理ルールで使用するデータを準備できます。
+6. [**マーケティングチャネルの処理ルール**](/help/components/c-marketing-channels/c-rules.md)：[処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)を使用すると、マーケティングチャネルの処理ルールで使用するデータを準備できます。
 7. **ジオロケーションデータ**：IP アドレスのルックアップに依存するディメンション（[国](/help/components/dimensions/countries.md)ディメンションなど）が入力されます。
-8. [**IP の不明化**](/help/admin/admin/general-acct-settings-admin.md)：組織が生データの IP アドレスを不明化することを選択した場合、他のすべての処理機能が完了した後に行われます。
+8. [**IP の不明化**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)：組織が生データの IP アドレスを不明化することを選択した場合、他のすべての処理機能が完了した後に行われます。
 
 この時点で、個々のヒットがレポートスイートのデータテーブルに記録されます。標準の[待ち時間](latency.md)間隔の後、レポートで使用できます。
 

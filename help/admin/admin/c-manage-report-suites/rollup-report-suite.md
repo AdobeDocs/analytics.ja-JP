@@ -3,7 +3,7 @@ description: レポートスイートタイプの説明とグローバルレポ�
 title: レポートスイートのアプローチ
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
 >
 >[!DNL Reports & Analytics] はロールアップレポートをサポートする唯一のツールであり、アドビではロールアップの使用を推奨しなくなりました。代わりに、グローバルレポートスイートをマルチスイートタグ付けまたは仮想レポートスイートとともに使用することを検討してください。
 
-ロールアップレポートは、重複排除やセグメントまたはデータの分類を使用せずに、複数のレポートスイートからのデータを単純に集計したものです。ロールアップにはコードの実装は必要ありません。ロールアップレポートを使用するには、[子レポートスイートを実装](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)してから、[!UICONTROL 管理ツール]を使用して[ロールアップレポートに結合](/help/admin/admin/c-manage-report-suites/t-rollups.md)します。
+ロールアップレポートは、重複排除やセグメントまたはデータの分類を使用せずに、複数のレポートスイートからのデータを単純に集計したものです。ロールアップにはコードの実装は必要ありません。ロールアップレポートを使用するには、[子レポートスイートを実装](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)してから、[!UICONTROL 管理ツール]を使用して[ロールアップレポートに結合](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)します。
 
 ロールアップレポートは無料です。子レポートスイートには、独自のサーバーコールが発生しますが、ロールアップには追加のコールは発生しません。ロールアップはレガシー機能で、多くの制限があります。
 

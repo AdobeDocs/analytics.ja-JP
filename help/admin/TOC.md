@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '680'
 ht-degree: 95%
 
 ---
@@ -42,28 +42,6 @@ ht-degree: 95%
 + Analytics 管理者 {#admin-tools}
    + [管理ツール](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
-   + レポートスイートマネージャー {#manage-report-suites}
-      + [レポートスイートの管理](admin/c-manage-report-suites/report-suites-admin.md)
-      + [ロールアップレポートスイートとグローバルレポートスイート](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [ロールアップレポートスイートの作成](admin/c-manage-report-suites/t-rollups.md)
-      + [レポートスイートグループの作成](admin/c-manage-report-suites/t-create-rs-group.md)
-      + [レポートスイートの検索の保存](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [個々のレポートスイートの設定](admin/c-manage-report-suites/individual-rs-settings.md)
-      + [レポートスイートの設定のダウンロード](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + 新しいレポートスイート {#new-report-suite}
-         + [レポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [新しいレポートスイート - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [ソースレポートスイートからコピーされない設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + レポートスイートテンプレート {#report-suite-templates}
-         + [レポートスイートテンプレートの概要](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [集積ポータル](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [コマース](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [コンテンツとメディア](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [デフォルトテンプレート](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [金融サービス](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [ジョブポータル](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [リードジェネレーション](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [サポートメディア](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + ボットの削除 {#bot-removal}
       + [ボットの削除](admin/bot-removal/bot-removal.md)
       + [ボットルールの概要](admin/bot-removal/bot-rules.md)
@@ -79,52 +57,76 @@ ht-degree: 95%
       + [マーチャンダイジング eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [通貨コード](admin/currency.md)
    + [カスタムレポートの説明](admin/custom-desc-admin.md)
-   + [カレンダーのカスタマイズ](admin/custom-calendar.md)
    + [データソース](admin/data-sources.md)
    + [デフォルトの指標](admin/default-metrics.md)
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [検索方法](admin/finding-methods.md)
-   + [一般的なアカウント設定](admin/general-acct-settings-admin.md)
-   + [内部 URL フィルター](admin/internal-url-filter-admin.md)
    + [ログ](admin/logs.md)
    + [マーケティングチャネル](admin/marketing-channels-admin.md)
-   + [メニューのカスタマイズ](admin/customize-menus.md)
    + [指標の表示](admin/metric-visibility.md)
    + [アプリ管理](admin/mobile-management.md)
-   + 有料検索検知 {#paid-search-detection}
-      + [有料検索検知の概要](admin/paid-search-detection/paid-search-detection.md)
-      + [有料検索検知の設定](admin/paid-search-detection/t-paid-search-detection.md)
    + [設定マネージャー](admin/preferences-manager.md)
    + [プライバシー設定](admin/privacy-settings.md)
    + [プライバシーレポート](admin/privacy-reporting.md)
-   + 処理ルール {#processing-rules}
-      + [処理ルールの概要](admin/c-processing-rules/processing-rules.md)
-      + 処理ルールの設定 {#processing-rules-configuration}
-         + [処理ルールの仕組み](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [処理ルールの作成](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-         + [アクティブな処理ルールの表示](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-         + [処理ルール履歴の表示](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-         + [処理ルールの復元](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-         + [他のレポートスイートへの処理ルールのコピー](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-      + [処理ルールで使用可能なディメンション](admin/c-processing-rules/processing-rule-dimensions.md)
-      + 処理ルールの例 {#processing-rules-examples}
-         + [処理ルールの例](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [クエリ文字列パラメーターからのキャンペーン ID の入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-         + [製品の概要ページからの「製品表示」イベントの設定](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-         + [カテゴリとページ名の連結によるサブカテゴリの追加](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-         + [eVar 値を prop にコピーしてパスを指定](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
-         + [レポート内の値のクリーンアップ](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [クエリ文字列パラメーターを使用して内部検索用語を入力](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-         + [コンテキストデータ変数の eVar へのコピー](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-         + [コンテキストデータ変数を使用したイベントの設定](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-         + [ヒットからのイベントの削除](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-      + [処理ルールのヒントとテクニック](admin/c-processing-rules/processing-rules-tips.md)
    + リアルタイムレポート {#real-time-reports}
       + [リアルタイムレポートの概要](admin/realtime/realtime.md)
       + [リアルタイムレポートの設定](admin/realtime/t-realtime-admin.md)
       + [サポートされるリアルタイム指標とディメンション](admin/realtime/realtime-metrics.md)
    + [レポートアクティビティマネージャー](admin/reporting-activity.md)
    + [予定レポートキュー](admin/scheduled-reports-admin.md)
+   + レポートスイートマネージャー {#manage-report-suites}
+      + [レポートスイートの管理](admin/c-manage-report-suites/report-suites-admin.md)
+      + [ロールアップレポートスイートとグローバルレポートスイート](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [レポートスイートの検索の保存](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [個々のレポートスイートの設定](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [レポートスイートの設定のダウンロード](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 新しいレポートスイート {#c-new-report-suite}
+         + [レポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [ロールアップレポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [レポートスイートグループの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [新しいレポートスイート - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [ソースレポートスイートからコピーされない設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + レポートスイートテンプレート {#report-suite-templates}
+         + [レポートスイートテンプレートの概要](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [集積ポータル](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [コマース](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [コンテンツとメディア](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [デフォルトテンプレート](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [金融サービス](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [ジョブポータル](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [リードジェネレーション](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [サポートメディア](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
+      + レポートスイートの設定の編集 {#edit-report-suite}
+         + 一般 {#report-suite-general}
+            + [一般的なアカウント設定](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
+            + [内部 URL フィルター](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + 有料検索検知 {#paid-search-detection}
+               + [有料検索検知の概要](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
+               + [有料検索検知の設定](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
+            + [メニューのカスタマイズ](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+            + [カレンダーのカスタマイズ](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
+            + 処理ルール {#c-processing-rules}
+               + [処理ルールの概要](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
+               + 処理ルールの設定 {#c-processing-rules-configuration}
+                  + [処理ルールの仕組み](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
+                  + [処理ルールの作成](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
+                  + [アクティブな処理ルールの表示](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
+                  + [処理ルール履歴の表示](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
+                  + [処理ルールの復元](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
+                  + [他のレポートスイートへの処理ルールのコピー](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
+                  + [処理ルールで使用可能なディメンション](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
+               + 処理ルールの例 {#processing-rules-examples}
+                  + [処理ルールの例](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
+                  + [クエリ文字列パラメーターからのキャンペーン ID の入力](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+                  + [製品の概要ページからの「製品表示」イベントの設定](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
+                  + [カテゴリとページ名の連結によるサブカテゴリの追加](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
+                  + [eVar 値を prop にコピーしてパスを指定](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
+                  + [レポート内の値のクリーンアップ](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
+                  + [クエリ文字列パラメーターを使用して内部検索用語を入力](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+                  + [コンテキストデータ変数の eVar へのコピー](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
+                  + [コンテキストデータ変数を使用したイベントの設定](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
+                  + [ヒットからのイベントの削除](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
+               + [処理ルールのヒントとテクニック](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
    + サーバー側転送 {#server-side-forwarding}
       + [サーバー側転送の概要](admin/c-server-side-forwarding/ssf.md)
       + [GDPR／ePrivacy コンプライアンスおよびサーバー側転送](admin/c-server-side-forwarding/ssf-gdpr.md)

@@ -3,7 +3,7 @@ title: 検索エンジン
 description: 訪問者がサイトに到達するのに使用した検索エンジン。
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 * 参照ドメインは、アドビによって有効な検索エンジンとして認識されます。
 * 参照 URL にキーワードクエリー文字列パラメーターが存在する。クエリー文字列パラメーターは空白にすることができます（プライバシーに関する慣行が原因で、複数の検索エンジンで使用される場合と同様です）。
 
-有料検索と自然検索を区別したい場合は、[有料検索検知](/help/admin/admin/paid-search-detection/paid-search-detection.md)が必要です。検索エンジンには、複数のディメンションを使用できます。
+有料検索と自然検索を区別したい場合は、[有料検索検知](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)が必要です。検索エンジンには、複数のディメンションを使用できます。
 
 * **検索エンジン**：有料か自然かに関係なく、サイトに到達するために使用する検索エンジン。
 * **検索エンジン — 有料**：サイトに到達するのに使用した検索エンジンで、有料検索検知と一致するもの。
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、Adobe 内部の複数のルックアップテーブルを参照します。各値は、ヒットの[リファラー](referrer.md)（[内部 URL フィルター](/help/admin/admin/internal-url-filter-admin.md)に依存）に基づきます。リファラーディメンションと内部 URL フィルターが正しく設定されていることを確認します。
+このディメンションは、Adobe 内部の複数のルックアップテーブルを参照します。各値は、ヒットの[リファラー](referrer.md)（[内部 URL フィルター](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)に依存）に基づきます。リファラーディメンションと内部 URL フィルターが正しく設定されていることを確認します。
 
 ## ディメンション項目
 

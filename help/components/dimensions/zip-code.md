@@ -3,7 +3,7 @@ title: 郵便番号
 description: 訪問者の郵便番号。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 * `zip` 変数を使用して郵便番号を直接設定します。または
 * 地理特性データから取り込むように設定します。
 
-「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/admin/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。
+「[!UICONTROL 一般的なアカウント設定]」の「[郵便番号](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」オプションは、このディメンションに入力する方法を制御します。
 
 >[!IMPORTANT]
 >

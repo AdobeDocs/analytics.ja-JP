@@ -3,7 +3,7 @@ title: 曜日
 description: 曜日を表します。日付の範囲は関係ありません。
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
@@ -20,4 +20,4 @@ ht-degree: 100%
 
 ## ディメンション項目
 
-ディメンション項目には `Sunday` ～ `Saturday` が含まれ、ヒットが発生した曜日を表します。ディメンション項目のデフォルト順序は、[カスタムカレンダー](/help/admin/admin/custom-calendar.md)の週の最初の曜日に従います。
+ディメンション項目には `Sunday` ～ `Saturday` が含まれ、ヒットが発生した曜日を表します。ディメンション項目のデフォルト順序は、[カスタムカレンダー](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)の週の最初の曜日に従います。
