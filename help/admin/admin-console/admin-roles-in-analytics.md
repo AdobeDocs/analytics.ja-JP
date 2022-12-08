@@ -2,7 +2,8 @@
 title: Adobe Analyticsの管理者の役割
 description: Adobe Analytics の使用開始、一般的な役割タイプ、UI へのログイン方法を説明します。
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 58%
@@ -68,7 +69,7 @@ Experience Platform のデータ収集の製品管理者アクセスは、Analyt
 
 ## 次の手順
 
-[レポートスイートの作成](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md):Analytics 管理者にツールにログインして、データ収集用のレポートスイートを作成してもらう
+[レポートスイートの作成](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md):Analytics 管理者にツールにログインして、データ収集用のレポートスイートを作成してもらう
 
 [Analytics タグプロパティの作成](/help/implement/launch/create-analytics-property.md)：データ収集の管理者をツールにログインさせてプロパティを作成し、サイトに実装します
 

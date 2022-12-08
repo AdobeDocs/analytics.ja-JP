@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -39,9 +39,31 @@ ht-degree: 96%
       + [Adobe Analytics の製品プロファイル](admin-console/permissions/product-profile.md)
       + [レポートスイートツールの製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
       + [Analytics ツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
-+ 管理ツール {#admin-tools}
++ Analytics 管理者 {#admin-tools}
    + [管理ツール](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
+   + レポートスイートマネージャー {#manage-report-suites}
+      + [レポートスイートの管理](admin/c-manage-report-suites/report-suites-admin.md)
+      + [ロールアップレポートスイートとグローバルレポートスイート](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [ロールアップレポートスイートの作成](admin/c-manage-report-suites/t-rollups.md)
+      + [レポートスイートグループの作成](admin/c-manage-report-suites/t-create-rs-group.md)
+      + [レポートスイートの検索の保存](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [個々のレポートスイートの設定](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [レポートスイートの設定のダウンロード](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 新しいレポートスイート {#new-report-suite}
+         + [レポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [新しいレポートスイート - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [ソースレポートスイートからコピーされない設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + レポートスイートテンプレート {#report-suite-templates}
+         + [レポートスイートテンプレートの概要](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [集積ポータル](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [コマース](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [コンテンツとメディア](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [デフォルトテンプレート](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [金融サービス](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [ジョブポータル](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [リードジェネレーション](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [サポートメディア](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + ボットの削除 {#bot-removal}
       + [ボットの削除](admin/bot-removal/bot-removal.md)
       + [ボットルールの概要](admin/bot-removal/bot-rules.md)
@@ -124,28 +146,6 @@ ht-degree: 96%
       + [ユニーク訪問者変数の指定](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用事例 - 訪問者 ID の抽出](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [ビデオ管理](admin/video-management.md)
-+ レポートスイートの管理 {#manage-report-suites}
-   + [レポートスイートマネージャー](c-manage-report-suites/report-suites-admin.md)
-   + [ロールアップレポートスイートとグローバルレポートスイート](c-manage-report-suites/rollup-report-suite.md)
-   + [ロールアップレポートスイートの作成](c-manage-report-suites/t-rollups.md)
-   + レポートスイートテンプレート {#report-suite-templates}
-      + [レポートスイートテンプレートの概要](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [集積ポータル](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [コマース](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [コンテンツとメディア](c-manage-report-suites/c-report-suite-templates/content-media.md)
-      + [デフォルトテンプレート](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-      + [金融サービス](c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [ジョブポータル](c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [リードジェネレーション](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-      + [サポートメディア](c-manage-report-suites/c-report-suite-templates/support-media.md)
-   + [レポートスイートの検索の保存](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [個々のレポートスイートの設定](c-manage-report-suites/individual-rs-settings.md)
-   + [レポートスイートの設定のダウンロード](c-manage-report-suites/t-download-rs-settings.md)
-   + 新しいレポートスイート {#new-report-suite}
-      + [レポートスイートの作成](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [新しいレポートスイート - 設定](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [ソースレポートスイートからコピーされない設定](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-   + [レポートスイートグループの作成](c-manage-report-suites/t-create-rs-group.md)
 + ユーザーと製品の管理（レガシー） {#user-product-management}
    + [ユーザーと製品の管理](user-management2/user-management.md)
    + Adobe Admin Console へのユーザーの移行 {#migrate-users}

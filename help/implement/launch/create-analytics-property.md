@@ -3,10 +3,10 @@ title: タグの Analytics プロパティの作成
 description: タグを使用してスペースを作成し、データの収集方法をカスタマイズします。
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -16,13 +16,13 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 
 ## 前提条件
 
-[レポートスイートの作成](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データ用のサイロを作成します。。
+[レポートスイートの作成](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：収集する Analytics データ用のサイロを作成します。。
 
 ## タグプロパティを作成し、重要な拡張機能をインストール
 
 プロパティは、タグの管理に使用する包括的なコンテナです。拡張機能を使用すれば、製品固有のタグをインストールして設定できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 1. 「**[!UICONTROL 新規プロパティ]**」をクリックします。
 1. プロパティに Web サイトのタイトルなどの名前を付け、Analytics を実装するドメインを入力します。「**[!UICONTROL 保存]**」をクリックします。
 1. 新しく作成したタグプロパティをクリックして、設定を入力します。
@@ -37,7 +37,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 
 データ要素は、変数値を収集するための、サイトの特定の部分に対する参照です。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 1. サイトに実装するタグプロパティをクリックします。
 1. 「**[!UICONTROL データ要素]**」タブをクリックしてから、「**[!UICONTROL データ要素の追加]**」をクリックします。
 1. データ要素に次の設定を指定します。
@@ -58,7 +58,7 @@ Adobe Experience Platform のタグを使用すると、web サイト上で Expe
 
 ルールは、データ要素を Analytics 変数値にマッピングし、それらの値がアドビのサーバーに送信されるタイミングを決定します。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 1. サイトに実装するタグプロパティをクリックします。
 1. 次をクリック： **[!UICONTROL ルール]** 「 」タブで、「 **[!UICONTROL ルールを追加]**. 名前を付ける `Global Rule`.
 1. イベントの横にある「**[!UICONTROL 追加]**」をクリックし、次の設定を入力します。

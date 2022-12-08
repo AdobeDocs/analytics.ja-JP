@@ -3,7 +3,7 @@ description: 複数のスイートタグ付けを実装し、イメージリク�
 title: 複数のスイートタグ付けの実装
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 複数のスイートタグ付けの実装
 
-[複数のスイートタグ付け](/help/admin/c-manage-report-suites/rollup-report-suite.md)を使用すると、イメージリクエストをグローバルレポートスイートだけでなく個々の子レポートスイートに送信して、会社のグローバルレポートスイートデータのサブセットを様々なエンドユーザーに提供できます。
+[複数のスイートタグ付け](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md)を使用すると、イメージリクエストをグローバルレポートスイートだけでなく個々の子レポートスイートに送信して、会社のグローバルレポートスイートデータのサブセットを様々なエンドユーザーに提供できます。
 
 複数のスイートタグ付けを実装するには、eb ページやアプリのトラッキングコードに、グローバルレポートスイートのレポートスイート ID（RSID）と、該当する子レポートスイートの RSID を含める必要があります。
 
