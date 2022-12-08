@@ -3,7 +3,7 @@ description: Adobe Analytics の継続的な機能リリース戦略を説明
 title: Adobe Analytics 機能リリース
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 517c12482ea87a8b600f1d8eab3143ff90ff0524
+source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
@@ -41,4 +41,4 @@ Adobe Analytics リリースは、機能のデプロイメントに向けて、�
 | 質問 | 回答 |
 | --- | --- |
 | 機能への早期アクセスをリクエストできますか？ | いいえ。早期アクセスは許可されません。<br>Analytics の初期の概念をテストする場合は、[Adobe Analytics Labs](/help/analyze/labs.md) で業界をリードする革新的なアイデアに対するフィードバックを提供してみることをお勧めします。 |
-| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analytics パッケージの詳細の表示は、 [機能アクセスレベル](/help/admin/admin/get-started/company/feature-access-levels.md) で確認できます。 |
+| このリリース戦略は、機能へのアクセスに影響を与えますか。 | いいえ。機能が GA に達すると、その機能が Analytics パッケージに含まれている場合はアクセスできます。<br>Analytics パッケージの詳細の表示は、 [機能アクセスレベル](/help/admin/get-started/company/feature-access-levels.md) で確認できます。 |

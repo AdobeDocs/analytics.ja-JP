@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
+source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 96%
@@ -17,19 +17,19 @@ ht-degree: 96%
 + [Analytics 管理ガイド](home.md)
 + [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
 + Analytics 管理の概要 {#admin-overview}
-   + [使用する Adobe Analytics ツールの検討](admin/get-started/which-analytics-tool.md)
-   + [Analytics 製品の比較と必要システム構成](admin/get-started/analytics-product-comparison.md)
-   + [必要システム構成](admin/get-started/sys-reqs.md)
+   + [使用する Adobe Analytics ツールの検討](get-started/which-analytics-tool.md)
+   + [Analytics 製品の比較と必要システム構成](get-started/analytics-product-comparison.md)
+   + [必要システム構成](get-started/sys-reqs.md)
    + カンパニー設定 {#company-settings}
-      + [カンパニー設定の概要](admin/get-started/company/c-company-settings.md)
-      + [機能アクセスレベル](admin/get-started/company/feature-access-levels.md)
-      + [Web サービス](admin/get-started/company/web-services-admin.md)
-      + [Report Builder レポート](admin/get-started/company/report-builder-reports-admin.md)
-      + [シングルサインオン](admin/get-started/company/single-signon-admin.md)
-      + [保留中のアクション](admin/get-started/company/pending-actions-admin.md)
-      + [ブランド提携](admin/get-started/company/co-branding-admin.md)
-      + [レポートスイートを非表示](admin/get-started/company/c-hide-report-suites.md)
-      + [セキュリティマネージャー](admin/get-started/company/security-manager.md)
+      + [カンパニー設定の概要](get-started/company/c-company-settings.md)
+      + [機能アクセスレベル](get-started/company/feature-access-levels.md)
+      + [Web サービス](get-started/company/web-services-admin.md)
+      + [Report Builder レポート](get-started/company/report-builder-reports-admin.md)
+      + [シングルサインオン](get-started/company/single-signon-admin.md)
+      + [保留中のアクション](get-started/company/pending-actions-admin.md)
+      + [ブランド提携](get-started/company/co-branding-admin.md)
+      + [レポートスイートを非表示](get-started/company/c-hide-report-suites.md)
+      + [セキュリティマネージャー](get-started/company/security-manager.md)
 + Adobe管理コンソールでのユーザー権限 {#admin-console}
    + [Admin Console での Adobe Analytics](admin-console/home.md)
    + 権限 {#permissions}
