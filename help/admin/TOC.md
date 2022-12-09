@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -53,7 +53,6 @@ ht-degree: 95%
    + [デフォルトの指標](admin/default-metrics.md)
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [ログ](admin/logs.md)
-   + [マーケティングチャネル](admin/marketing-channels-admin.md)
    + [指標の表示](admin/metric-visibility.md)
    + [アプリ管理](admin/mobile-management.md)
    + [設定マネージャー](admin/preferences-manager.md)
@@ -138,6 +137,13 @@ ht-degree: 95%
                + [成功イベントの概要](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [成功イベントの設定](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [イベントタイプの変更について](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+         + [マーケティングチャネル](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + トラフィック管理 {#traffic-management}
+            + [トラフィックの管理](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [トラフィックスパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [過去のサーバーコールの推定とトラフィックスパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
+            + [恒常的なトラフィック増加の指定](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+            + [トラフィック増加に対して必要なリードタイム](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
    + サーバー側転送 {#server-side-forwarding}
       + [サーバー側転送の概要](admin/c-server-side-forwarding/ssf.md)
       + [GDPR／ePrivacy コンプライアンスおよびサーバー側転送](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -178,10 +184,4 @@ ht-degree: 95%
    + [レポートスイートの使用状況の表示](c-server-call-usage/report-suite-usage.md)
    + [サーバーコールの使用状況アラート](c-server-call-usage/scu-alerts.md)
    + [サーバーコールの使用状況の FAQ](c-server-call-usage/overage-faq.md)
-+ トラフィック管理 {#traffic-management}
-   + [トラフィックの管理](c-traffic-management/traffic-management.md)
-   + [トラフィックスパイクのスケジュール](c-traffic-management/t-traffic-schedule-spike.md)
-   + [過去のサーバーコールの推定とトラフィックスパイクのスケジュール](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-   + [恒常的なトラフィック増加の指定](c-traffic-management/t-traffic-permanent.md)
-   + [トラフィック増加に対して必要なリードタイム](c-traffic-management/traffic-lead-time.md)
 + [管理 API](c-admin-api/c-admin-api.md)

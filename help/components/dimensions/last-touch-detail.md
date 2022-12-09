@@ -3,7 +3,7 @@ title: ラストタッチチャネルの詳細
 description: 訪問者のエンゲージメント期限内の最新のマーケティングチャネルの詳細。
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ab0f0c80c13b9064b40511b59d03d9d899d20df1
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## このディメンションへのデータ入力
 
-このディメンションは、他の変数から値をコピーします。使用される変数は、各[マーケティングチャネル処理ルール](/help/admin/admin/marketing-channels-admin.md)内のチャネル値を参照します。ヒットがマーケティングチャネルの処理ルールと一致する場合、[ラストタッチチャネル](last-touch-channel.md)ディメンションはチャネル名に設定され、このディメンションはルールに設定されたチャネル値に設定されます。
+このディメンションは、他の変数から値をコピーします。使用される変数は、各[マーケティングチャネル処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)内のチャネル値を参照します。ヒットがマーケティングチャネルの処理ルールと一致する場合、[ラストタッチチャネル](last-touch-channel.md)ディメンションはチャネル名に設定され、このディメンションはルールに設定されたチャネル値に設定されます。
 
 このディメンションを特定の値に設定する場合は、次の手順を実行する必要があります。
 
