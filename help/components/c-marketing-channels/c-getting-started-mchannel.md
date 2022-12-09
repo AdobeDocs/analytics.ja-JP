@@ -3,7 +3,7 @@ title: マーケティングチャネル使用の手引き
 description: マーケティングチャネルのワークフロー、自動セットアップ、および複数のレポートスイートにテンプレートレポートスイート設定を適用する方法について説明します。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## マーケティングチャネルのワークフロー
 
-![](assets/step1_icon.png) ビジネス要件に基づき各チャネルを定義する。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) ビジネス要件に基づき各チャネルを定義する。
 
 使用するチャネルを定義することは、マーケティングチャネルの重要な手順の 1 つです。チャネルの定義には、組織内の複数のユーザー間での共同作業が必要です。考慮すべきいくつかの質問を以下に示します。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 チャネルの推奨事項のリストについては、[よくある質問と例](/help/components/c-marketing-channels/c-faq.md)を参照してください。使用するチャネルのリストを作成し、チャネルの作成時にチャネルの有効化と定義を簡単に行えるようにします。
 
-![](assets/step2_icon.png)[!UICONTROL マーケティングチャネルマネージャー]でマーケティングチャネルを追加します。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png)[!UICONTROL マーケティングチャネルマネージャー]でマーケティングチャネルを追加します。
 
 追跡するチャネルを定義したら、**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**&#x200B;でこれらのチャネルを有効にします。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 >
 >マーケティングチャネルが事前に設定されていない場合は、[自動セットアップ](/help/components/c-marketing-channels/c-getting-started-mchannel.md)が表示されます。このセットアップではいくつかの事前定義のチャネルが提供され、これらのチャネルをカスタマイズできます。アドビでは、これらのルールをテンプレートとして使用することをお勧めします。ただし、既に確立されたチャネル定義がある場合は、自動セットアップをスキップすることができます。
 
-![](assets/step3_icon.png)[!UICONTROL マーケティングチャネルの処理ルール]ページで、各チャネルのルールを設定または調整する。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png)[!UICONTROL マーケティングチャネルの処理ルール]ページで、各チャネルのルールを設定または調整する。
 
 [!UICONTROL マーケティングチャネルマネージャー]ページでチャネルを作成したら、ルールを設定して、チャネルからデータを取得しレポートできるようにします。
 

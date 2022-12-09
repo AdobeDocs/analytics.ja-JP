@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -39,14 +39,17 @@ ht-degree: 95%
       + [Adobe Analytics の製品プロファイル](admin-console/permissions/product-profile.md)
       + [レポートスイートツールの製品プロファイル権限](admin-console/permissions/report-suite-tools.md)
       + [Analytics ツールの製品プロファイル権限](admin-console/permissions/analytics-tools.md)
+   + ユーザーと製品の管理（レガシー） {#user-product-management}
+      + [ユーザーと製品の管理](admin-console/user-management2/user-management.md)
+      + Adobe Admin Console へのユーザーの移行 {#migrate-users}
+         + [Admin Console への Analytics ユーザーの移行](admin-console/user-management2/user-migration/c-migration-tool.md)
+         + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](admin-console/user-management2/user-migration/t-migrate-users.md)
+         + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 ](admin-console/user-management2/user-migration/migrate-enterprise.md)
+         + [従来のログインの無効化](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
+         + [移行の影響を受ける API](admin-console/user-management2/user-migration/developer.md)
 + Analytics 管理者 {#admin-tools}
    + [管理ツール](admin/c-admin-tools.md)
    + [課金](admin/billing-admin.md)
-   + ボットの削除 {#bot-removal}
-      + [ボットの削除](admin/bot-removal/bot-removal.md)
-      + [ボットルールの概要](admin/bot-removal/bot-rules.md)
-      + [一般的なボット署名](admin/bot-removal/bot-signatures.md)
-      + [ボットの除外メソッド](admin/bot-removal/bot-exclusion-methods.md)
    + [コードマネージャー](admin/code-manager-admin.md)
    + [通貨コード](admin/currency.md)
    + [データソース](admin/data-sources.md)
@@ -54,21 +57,14 @@ ht-degree: 95%
    + [IP アドレスで除外](admin/exclude-ip.md)
    + [ログ](admin/logs.md)
    + [指標の表示](admin/metric-visibility.md)
-   + [アプリ管理](admin/mobile-management.md)
    + [設定マネージャー](admin/preferences-manager.md)
-   + [プライバシー設定](admin/privacy-settings.md)
    + [プライバシーレポート](admin/privacy-reporting.md)
-   + リアルタイムレポート {#real-time-reports}
-      + [リアルタイムレポートの概要](admin/realtime/realtime.md)
-      + [リアルタイムレポートの設定](admin/realtime/t-realtime-admin.md)
-      + [サポートされるリアルタイム指標とディメンション](admin/realtime/realtime-metrics.md)
    + [レポートアクティビティマネージャー](admin/reporting-activity.md)
    + [予定レポートキュー](admin/scheduled-reports-admin.md)
    + レポートスイートマネージャー {#manage-report-suites}
       + [レポートスイートの管理](admin/c-manage-report-suites/report-suites-admin.md)
       + [ロールアップレポートスイートとグローバルレポートスイート](admin/c-manage-report-suites/rollup-report-suite.md)
       + [レポートスイートの検索の保存](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [個々のレポートスイートの設定](admin/c-manage-report-suites/individual-rs-settings.md)
       + [レポートスイートの設定のダウンロード](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新しいレポートスイート {#c-new-report-suite}
          + [レポートスイートの作成](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
@@ -117,6 +113,20 @@ ht-degree: 95%
                   + [コンテキストデータ変数を使用したイベントの設定](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [ヒットからのイベントの削除](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [処理ルールのヒントとテクニック](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + ボットの削除 {#bot-removal}
+               + [ボットの削除](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
+               + [ボットルールの概要](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [一般的なボット署名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
+               + [ボットの除外メソッド](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
+            + [プライバシー設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+            + [タイムスタンプオプション](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + サーバー側転送 {#server-side-forwarding}
+               + [サーバー側転送の概要](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [GDPR／ePrivacy コンプライアンスおよびサーバー側転送](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
+               + [サーバー側転送の要件](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
+               + [サーバー側転送のデータとコードのリファレンス](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
+               + [サーバー側転送の実装の確認方法](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+               + [サーバー側転送の FAQ](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + トラフィック変数 {#traffic-variables}
             + [トラフィック変数（prop）の概要](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [トラフィック変数レポートの有効化](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
@@ -144,24 +154,20 @@ ht-degree: 95%
             + [過去のサーバーコールの推定とトラフィックスパイクのスケジュール](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
             + [恒常的なトラフィック増加の指定](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
             + [トラフィック増加に対して必要なリードタイム](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
-   + サーバー側転送 {#server-side-forwarding}
-      + [サーバー側転送の概要](admin/c-server-side-forwarding/ssf.md)
-      + [GDPR／ePrivacy コンプライアンスおよびサーバー側転送](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [サーバー側転送の要件](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [サーバー側転送のデータとコードのリファレンス](admin/c-server-side-forwarding/ssf-reference.md)
-      + [サーバー側転送の実装の確認方法](admin/c-server-side-forwarding/ssf-verify.md)
-      + [サーバー側転送の FAQ](admin/c-server-side-forwarding/ssf-faq.md)
+         + [個々のレポートスイートの設定](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
+         + [アプリ管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + リアルタイムレポート {#real-time-reports}
+            + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [リアルタイムレポートの設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
+            + [サポートされるリアルタイム指標とディメンション](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + [シンプル化されたレポートメニュー](admin/t-simplified-menu.md)
-   + [タイムスタンプオプション](admin/timestamp-optional.md)
    + [ビデオ管理](admin/video-management.md)
-+ ユーザーと製品の管理（レガシー） {#user-product-management}
-   + [ユーザーと製品の管理](user-management2/user-management.md)
-   + Adobe Admin Console へのユーザーの移行 {#migrate-users}
-      + [Admin Console への Analytics ユーザーの移行](user-management2/user-migration/c-migration-tool.md)
-      + [Adobe ID 用に Analytics ユーザーアカウントを移行する ](user-management2/user-migration/t-migrate-users.md)
-      + [Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 ](user-management2/user-migration/migrate-enterprise.md)
-      + [従来のログインの無効化](user-management2/user-migration/t-disable-legacy-login.md)
-      + [移行の影響を受ける API](user-management2/user-migration/developer.md)
+   + サーバーコールの使用状況 {#server-call-usage}
+      + [サーバーコールの使用状況の概要](admin/c-server-call-usage/overage-overview.md)
+      + [現在のサーバーコールの使用状況の表示](admin/c-server-call-usage/server-call-usage-dashboard.md)
+      + [レポートスイートの使用状況の表示](admin/c-server-call-usage/report-suite-usage.md)
+      + [サーバーコールの使用状況アラート](admin/c-server-call-usage/scu-alerts.md)
+      + [サーバーコールの使用状況の FAQ](admin/c-server-call-usage/overage-faq.md)
 + データガバナンス {#data-governance}
    + [Adobe Analytics と GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics と CCPA](c-data-governance/an-ccpa-overview.md)
@@ -178,10 +184,4 @@ ht-degree: 95%
    + [ラベル設定の例](c-data-governance/gdpr-labeling-example.md)
    + [データプライバシーと Data Connectors（Genesis）](c-data-governance/data-connectors-gdpr.md)
    + [データプライバシーの用語](c-data-governance/gdpr-terminology.md)
-+ サーバーコールの使用状況 {#server-call-usage}
-   + [サーバーコールの使用状況の概要](c-server-call-usage/overage-overview.md)
-   + [現在のサーバーコールの使用状況の表示](c-server-call-usage/server-call-usage-dashboard.md)
-   + [レポートスイートの使用状況の表示](c-server-call-usage/report-suite-usage.md)
-   + [サーバーコールの使用状況アラート](c-server-call-usage/scu-alerts.md)
-   + [サーバーコールの使用状況の FAQ](c-server-call-usage/overage-faq.md)
 + [管理 API](c-admin-api/c-admin-api.md)

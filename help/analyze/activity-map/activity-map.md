@@ -4,7 +4,7 @@ title: Activity Map とは？
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Activity Map を使用すると、様々なビューを設定することによ�
 * [リンクレポート](activitymap-links-report.md)
 * [ページの詳細](activitymap-page-flow.md)
 * [完全な指標セット](activitymap-complete-metrics.md)
-* [リアルタイム（ライブ）ページ分析](activitymap-realtime.md)
+* [リアルタイム（ライブ）ページ分析](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 * [顧客のセグメント化](activitymap-multiple-segments.md)
 * [カスタマイズ可能なオーバーレイ](activitymap-gainerslosers.md)
 * [オーバーレイの詳細](activitymap-overlay-details.md)

@@ -3,7 +3,7 @@ description: 以下の表に、Analysis Workspace、Reports & Analytics、Report
 title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 94%
@@ -22,8 +22,8 @@ ht-degree: 94%
 | **データの精度** | 集計 | 集計 | 集計 | 集計 | ヒット | ヒット | 集計 |
 | **Experience Cloud ID（ECID）が使用可能** | × | × | × | ○ | ○ | ○ | × |
 | **タイムスタンプが使用可能** | × | × | × | × | ○ | ○ | × |
-| **処理レベル** | 完全処理 | 完全処理済みで、個別の[リアルタイムレポートを使用](/help/components/c-real-time-reporting/realtime.md) | 完全処理済みで、個別の[リアルタイムレポートを使用](/help/components/c-real-time-reporting/realtime.md) | 完全処理 | 完全処理 | 完全処理 | 完全処理 |
-| **管理ボットフィルタデータを含む** <br> [詳細情報](/help/admin/admin/bot-removal/bot-removal.md) | × | ○（個別のボットレポート） | ○（個別のボットレポート） | × | × | × | × |
+| **処理レベル** | 完全処理 | 完全処理済みで、個別の[リアルタイムレポートを使用](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完全処理済みで、個別の[リアルタイムレポートを使用](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完全処理 | 完全処理 | 完全処理 | 完全処理 |
+| **管理ボットフィルタデータを含む** <br> [詳細情報](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | × | ○（個別のボットレポート） | ○（個別のボットレポート） | × | × | × | × |
 | **トラフィックが少ない（ユニークが超過しました）** <br> [詳細情報](/help/technotes/low-traffic.md) | ○ | ○ | ○ | × | × | × | ○ |
 | **表示される行数制限（ページ分割前）** | 400 | 200 | 50000 | 制限なし | 制限なし | 制限なし | 50000 |
 | **複数のレポートスイート** | [○](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | ○（制限あり） | ○ | × | ○ | × | ○ |

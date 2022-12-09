@@ -2,7 +2,7 @@
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -87,7 +87,7 @@ ht-degree: 100%
    * マーケティングチャネルの処理ルール。ヒットが属するマーケティングチャネルを決定する一連のルールです。管理ユーザーガイドの「[マーケティングチャネルの処理ルール](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)」を参照してください。
 * **Prop：**「トラフィック変数」を参照してください。
 * **ランクレポート：**&#x200B;通常、指標を含むディメンションに従うレポート形式を指します。このタイプのレポートでは、サイトで最も多く閲覧されたページなどの上位の項目を確認できます。「トレンドレポート」も参照してください。
-* **リアルタイム：**&#x200B;待ち時間がほとんどない状態で、収集されるとすぐに設定済みの変数を表示します。管理ユーザーガイドの「[リアルタイムレポート](/help/admin/admin/realtime/realtime.md)」を参照してください。
+* **リアルタイム：**&#x200B;待ち時間がほとんどない状態で、収集されるとすぐに設定済みの変数を表示します。管理ユーザーガイドの「[リアルタイムレポート](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)」を参照してください。
 * **Report Builder：** Adobe Analytics データからカスタマイズされたリクエストを作成できる Microsoft Excel アドインです。
 * **レポートスイート：**&#x200B;データの送信先となる包括的なコンテナ。Adobe Analytics のすべてのレポートは、1 つのレポートスイートを参照します。
 * **Reports &amp; Analytics：**&#x200B;旧称 SiteCatalyst。レポートおよび分析のためのブラウザーソリューション。Analytics パッケージのスターターツールです。

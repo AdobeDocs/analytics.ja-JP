@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 処理ルールのしくみ
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -39,7 +39,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールは、保存後すぐにレポートスイートに適用されます。 </p> </td> 
-   <td colname="col2"> <p>処理ルールの変更は、保存後数分以内にレポートスイートに表示される必要があります。処理ルールをテストする際は、テストレポートスイートで<a href="/help/admin/admin/realtime/t-realtime-admin.md">リアルタイムレポート</a>を設定して、処理ルールの結果をすばやく表示できるようにすることをお勧めします。 </p> </td> 
+   <td colname="col2"> <p>処理ルールの変更は、保存後数分以内にレポートスイートに表示される必要があります。処理ルールをテストする際は、テストレポートスイートで<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md">リアルタイムレポート</a>を設定して、処理ルールの結果をすばやく表示できるようにすることをお勧めします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>処理ルールは、コンテキストデータ変数にアクセスする唯一の方法です。 </p> </td> 

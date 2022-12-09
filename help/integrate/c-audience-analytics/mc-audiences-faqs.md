@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: よくあるAudience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 99%
@@ -130,7 +130,7 @@ Audience Analytics を実装するときによくある質問への回答です�
  </tbody> 
 </table>
 
-このトピックに関するその他の FAQ については、[サーバー側転送 FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)を参照してください。
+このトピックに関するその他の FAQ については、[サーバー側転送 FAQ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)を参照してください。
 
 ## 一般事項についてのよくある質問（FAQ） {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 

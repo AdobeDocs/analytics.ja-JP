@@ -2,7 +2,7 @@
 description: リアルタイムレポートを設定するための管理者の手順です。
 title: リアルタイムレポートの設定
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '298'
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 リアルタイムレポートを設定するための管理者の手順です。
 
-[!UICONTROL Reports &amp; Analytics] 内でリアルタイムレポートを設定する手順は、レポートスイートを選択する操作と、そのレポートスイートに対して最大 3 つのレポートを設定する操作で構成されます。
+Reports &amp; Analytics 内でリアルタイムレポートを設定する手順は、レポートスイートを選択する操作と、そのレポートスイートに対して最大 3 つのレポートを設定する操作で構成されます。
 
 1. リアルタイムレポートを有効にするレポートスイートを選択します。
 
@@ -33,13 +33,13 @@ ht-degree: 100%
 1. 「**[!UICONTROL リアルタイムの処理を有効にする]**」設定をオンにします。
 1. 最大 3 つのレポートに対してリアルタイムデータ収集を設定し、レポートあたり 1 つの指標と 3 つのディメンションまたは分類を使用できます。
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    サポートされるリアルタイム指標とディメンションについて詳しくは、「[サポートされる指標とディメンション](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)」を参照してください。
 
    分類を作成している場合は、定義されているディメンションの下に、それらの分類がインデントして表示されます。
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >

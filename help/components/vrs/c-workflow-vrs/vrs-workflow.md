@@ -4,7 +4,7 @@ keywords: 仮想レポートスイート
 title: 仮想レポートスイートのワークフロー
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 100%
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 仮想レポートスイートの実装を計画するために必要な手順の概要です。
 
-![](assets/step1_icon.png)仮想レポートスイートの戦略を策定します。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png)仮想レポートスイートの戦略を策定します。
 
 戦略を決定する際は、[グローバル／マルチスイートタギングの考慮事項](/help/components/vrs/vrs-considerations.md)とよくある質問を確認してください。
 
-![](assets/step2_icon.png)親レポートスイートに 1 つまたは複数のセグメントを適用して[仮想レポートスイートを作成](/help/components/vrs/c-workflow-vrs/vrs-create.md)します。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png)親レポートスイートに 1 つまたは複数のセグメントを適用して[仮想レポートスイートを作成](/help/components/vrs/c-workflow-vrs/vrs-create.md)します。
 
 仮想レポートスイートは、仮想レポートスイートマネージャー（コンポーネント／仮想レポートスイート）で作成します。
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 レポートスイートについての[情報を表示するには](/help/components/vrs/c-workflow-vrs/vrs-view.md)、レポートスイート名の横にある情報アイコンをクリックします。
 
-![](assets/step3_icon.png)データをセグメント表示できるよう、プロジェクトまたはレポートを開いて仮想レポートスイートを選択します。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png)データをセグメント表示できるよう、プロジェクトまたはレポートを開いて仮想レポートスイートを選択します。
 
 ![](assets/step4_icon.png) [ 仮想レポートスイートを管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)します。
 

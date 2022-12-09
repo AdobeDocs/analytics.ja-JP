@@ -4,7 +4,7 @@ keywords: 欠落データ;遅延
 title: データの可用性と遅延
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Adobe Experience Cloud の一部の機能には、標準の処理時間に加え
    * 製品変数に 20 を超える値がある
    * イベントのシリアル化
 
-* IAB ボットフィルタリングを有効にする：[ボットフィルタリング](/help/admin/admin/bot-removal/bot-removal.md)は、ボットやクローラーがレポートスイートを頻繁に訪問する場合に遅延を大幅に削減できます。[Interactive Advertising Bureau](https://www.iab.net/about_the_iab) が更新し管理する IAB ボットリストを使用することが推奨されています。ユーザーは独自のボットルールをカスタマイズして、IAB のボットリストを補完できます。
+* IAB ボットフィルタリングを有効にする：[ボットフィルタリング](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)は、ボットやクローラーがレポートスイートを頻繁に訪問する場合に遅延を大幅に削減できます。[Interactive Advertising Bureau](https://www.iab.net/about_the_iab) が更新し管理する IAB ボットリストを使用することが推奨されています。ユーザーは独自のボットルールをカスタマイズして、IAB のボットリストを補完できます。
 
 ## 遅延の対処法
 

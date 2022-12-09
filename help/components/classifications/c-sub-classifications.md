@@ -3,7 +3,7 @@ description: Adobe Analytics では、単一レベルの分類モデルと複数
 title: 下位分類
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 
 ## 例
 
-![](assets/sample-product-classifications.png)
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
 >[!NOTE]
 >
