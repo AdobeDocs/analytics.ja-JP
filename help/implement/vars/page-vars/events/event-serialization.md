@@ -3,10 +3,10 @@ title: イベントのシリアル化
 description: サイト上の指標の重複を除外するのに役立ちます。
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 76%
 
 ## イベントシリアル化の設定
 
-まず、レポートスイートの設定で、イベントの[!UICONTROL 個別イベントの記録]を[!UICONTROL イベント ID を使用]に設定する必要があります。詳しくは、『管理者ユーザーガイド』の[成功イベント](/help/admin/admin/c-success-events/success-event.md)を参照してください。
+まず、レポートスイートの設定で、イベントの[!UICONTROL 個別イベントの記録]を[!UICONTROL イベント ID を使用]に設定する必要があります。詳しくは、『管理者ユーザーガイド』の[成功イベント](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)を参照してください。
 
 イベント ID を使用する場合、重複除外は次のレベルで発生します。
 
@@ -42,7 +42,7 @@ ht-degree: 76%
 
 イベント ID フィールドは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。

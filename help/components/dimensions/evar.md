@@ -1,12 +1,12 @@
 ---
 title: eVar（ディメンション）
-description: レポートで使用できるカスタムディメンション。
+description: レポートで使用できるカスタムディメンションです。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 *このヘルプページでは、eVar がディメンションとして機能するしくみについて説明します。eVar の実装方法について詳しくは、実装ユーザーガイドの [eVar](/help/implement/vars/page-vars/evar.md) を参照してください。*
 
-eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは最終的に [!UICONTROL eVar] になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。[!UICONTROL レポートスイート設定]の「[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
+eVar は、好きなだけ使用できるカスタム変数です。[ソリューションデザインのドキュメント](/help/implement/prepare/solution-design.md)がある場合、組織固有のほとんどのディメンションは最終的に [!UICONTROL eVar] になります。デフォルトでは、eVar は設定されたヒットを超えても保持されます。[!UICONTROL レポートスイート設定]の「[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)」で、その有効期限と配分をカスタマイズできます。
 
 使用可能な eVar の数は、アドビとの契約によって異なります。アドビとの契約でサポートされている場合は、最大 250 個の eVar を利用できます。
 
@@ -84,7 +84,7 @@ Analysis Workspace は、次のロジックを使用してこのレポートを�
 * デフォルトでは、eVar は最後の配分を使用します。新しい値を指定すると、永続値が上書きされます。
 * デフォルトでは、eVar は訪問の有効期限を使用します。訪問が終了すると、値は `post_evar` 列の行間でコピーされなくなります。
 
-eVar の配分と有効期限は、レポートスイート設定の「[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」で変更できます。
+eVar の配分と有効期限は、レポートスイート設定の「[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)」で変更できます。
 
 ## Prop に対する eVar の値
 

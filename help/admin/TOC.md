@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -48,19 +48,10 @@ ht-degree: 95%
       + [一般的なボット署名](admin/bot-removal/bot-signatures.md)
       + [ボットの除外メソッド](admin/bot-removal/bot-exclusion-methods.md)
    + [コードマネージャー](admin/code-manager-admin.md)
-   + コンバージョン変数 {#conversion-variables}
-      + [コンバージョン変数（eVar）](admin/conversion-var-admin/conversion-var-admin.md)
-      + [コンバージョン変数の編集](admin/conversion-var-admin/t-conversion-variables-admin.md)
-      + [コンバージョンの分類](admin/conversion-var-admin/conversion-classifications.md)
-      + [分類階層](admin/conversion-var-admin/classification-hierarchies.md)
-      + [リスト変数](admin/conversion-var-admin/list-var-admin.md)
-      + [マーチャンダイジング eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [通貨コード](admin/currency.md)
-   + [カスタムレポートの説明](admin/custom-desc-admin.md)
    + [データソース](admin/data-sources.md)
    + [デフォルトの指標](admin/default-metrics.md)
    + [IP アドレスで除外](admin/exclude-ip.md)
-   + [検索方法](admin/finding-methods.md)
    + [ログ](admin/logs.md)
    + [マーケティングチャネル](admin/marketing-channels-admin.md)
    + [指標の表示](admin/metric-visibility.md)
@@ -127,6 +118,26 @@ ht-degree: 95%
                   + [コンテキストデータ変数を使用したイベントの設定](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [ヒットからのイベントの削除](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [処理ルールのヒントとテクニック](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+         + トラフィック変数 {#traffic-variables}
+            + [トラフィック変数（prop）の概要](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [トラフィック変数レポートの有効化](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
+            + [トラフィック分類](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
+            + [カスタムレポートの説明](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
+         + コンバージョン変数 {#conversion-variables}
+            + [コンバージョン変数（eVar）](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [コンバージョン変数の編集](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
+            + [コンバージョンの分類](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
+            + [分類階層](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+            + [リスト変数](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+            + [マーチャンダイジング eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
+            + [検索方法](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+            + ユニーク訪問者変数 {#unique-visitor-variable}
+               + [ユニーク訪問者変数の指定](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+               + [使用事例 - 訪問者 ID の抽出](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+            + 成功イベント {#success-events}
+               + [成功イベントの概要](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
+               + [成功イベントの設定](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
+               + [イベントタイプの変更について](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
    + サーバー側転送 {#server-side-forwarding}
       + [サーバー側転送の概要](admin/c-server-side-forwarding/ssf.md)
       + [GDPR／ePrivacy コンプライアンスおよびサーバー側転送](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -135,18 +146,7 @@ ht-degree: 95%
       + [サーバー側転送の実装の確認方法](admin/c-server-side-forwarding/ssf-verify.md)
       + [サーバー側転送の FAQ](admin/c-server-side-forwarding/ssf-faq.md)
    + [シンプル化されたレポートメニュー](admin/t-simplified-menu.md)
-   + 成功イベント {#success-events}
-      + [成功イベントの概要](admin/c-success-events/success-event.md)
-      + [成功イベントの設定](admin/c-success-events/t-success-events.md)
-      + [イベントタイプの変更について](admin/c-success-events/event-type.md)
    + [タイムスタンプオプション](admin/timestamp-optional.md)
-   + トラフィック変数 {#traffic-variables}
-      + [トラフィック変数（prop）の概要](admin/c-traffic-variables/traffic-var.md)
-      + [トラフィック変数レポートの有効化](admin/c-traffic-variables/t-traffic-variable.md)
-      + [トラフィック分類](admin/c-traffic-variables/traffic-classifications.md)
-   + ユニーク訪問者変数 {#unique-visitor-variable}
-      + [ユニーク訪問者変数の指定](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [使用事例 - 訪問者 ID の抽出](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [ビデオ管理](admin/video-management.md)
 + ユーザーと製品の管理（レガシー） {#user-product-management}
    + [ユーザーと製品の管理](user-management2/user-management.md)

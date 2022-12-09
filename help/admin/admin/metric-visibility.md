@@ -3,7 +3,7 @@ description: メニュー、指標セレクター、計算指標ビルダーお�
 title: 指標の表示
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 メニュー、指標セレクター、計算指標ビルダーおよびセグメントビルダー内の標準（組み込み）指標、カスタムイベントおよび組み込みイベントを非表示にできます。
 
-1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL 成功イベント]**&#x200B;に移動します。[さらに詳しく...](/help/admin/admin/c-success-events/t-success-events.md)
+1. **[!UICONTROL Analytics]**／**[!UICONTROL 管理者]**／**[!UICONTROL レポートスイート]**／**[!UICONTROL 設定を編集]**／**[!UICONTROL コンバージョン]**／**[!UICONTROL 成功イベント]**&#x200B;に移動します。[さらに詳しく...](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. 表示列を「**[!UICONTROL すべての場所で表示]**」、「**[!UICONTROL ビルダー]**」または「**[!UICONTROL すべての場所で非表示]**」のいずれかに設定します。
 
 この設定は、ユーザーインターフェイス内での表示にのみ影響し、指標のデータ収集には影響しません。以下の表に、それぞれの設定がユーザーインターフェイスでの指標の表示／非表示にどのように影響するかを示します。

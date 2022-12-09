@@ -3,7 +3,7 @@ description: Adobe Analytics では、単一レベルの分類モデルと複数
 title: 下位分類
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -16,7 +16,7 @@ Adobe Analytics では、単一レベルの分類モデルと複数レベルの�
 
 >[!NOTE]
 >
->下位分類は、分類をさらに分類する機能です。ただし、[!UICONTROL 階層レポート]の作成に使用する[!UICONTROL 分類階層]と同じものではありません。分類階層の詳細については、「[分類階層](/help/admin/admin/conversion-var-admin/classification-hierarchies.md)」を参照してください。
+>下位分類は、分類をさらに分類する機能です。ただし、[!UICONTROL 階層レポート]の作成に使用する[!UICONTROL 分類階層]と同じものではありません。分類階層の詳細については、「[分類階層](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)」を参照してください。
 
 次に例を示します。
 

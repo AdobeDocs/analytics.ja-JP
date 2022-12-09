@@ -3,10 +3,10 @@ title: events
 description: イベント変数を設定します。この変数は、サイト上のほとんどの指標を制御します。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
+source-git-commit: 62f793491d2f95266a71bc217260353f8c040525
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 79%
 
 ディメンションと指標は、レポートにとって重要な要素です。`events` 変数は、サイト上の多くの指標のデータ収集をおこないます。イベントは、通常、レポートで[指標](/help/components/metrics/overview.md)を増分します。
 
-イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-success-events/success-event.md)」で、成功イベントを作成し、設定していることを確認してください。リンクトラッキングのヒットでカスタムイベントを使用する予定がある場合は、[`linkTrackVars`](../../config-vars/linktrackvars.md) と [`linkTrackEvents`](../../config-vars/linktrackevents.md) が正しく設定され ていることを確認してください。
+イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)」で、成功イベントを作成し、設定していることを確認してください。リンクトラッキングのヒットでカスタムイベントを使用する予定がある場合は、[`linkTrackVars`](../../config-vars/linktrackvars.md) と [`linkTrackEvents`](../../config-vars/linktrackevents.md) が正しく設定され ていることを確認してください。
 
 ## Web SDK を使用するイベント
 
@@ -41,7 +41,7 @@ ht-degree: 79%
 
 イベントは、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
@@ -100,7 +100,7 @@ s.events = "event1=2,event2";
 
 カスタムイベントを変更して、整数の代わりに通貨を使用することができます。通貨イベントは、レポートスイートの通貨と `currencyCode` 変数が一致しない場合、レポートスイートの通貨に自動的に変換されます。配送費、割引、返金の計算に役立ちます。イベントをその製品のみに属性設定する場合は、`products` 変数に通貨イベントを設定できます。
 
-通貨イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-success-events/success-event.md)」で目的のイベントを「通貨」に設定してください。
+通貨イベントを実装する前に、レポートスイートの設定の「[成功イベント](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)」で目的のイベントを「通貨」に設定してください。
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -121,7 +121,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 整数の代わりに小数値を受け入れるカスタムイベントを変更できます。数値イベントは通貨イベントと同様に動作しますが、通貨コンバージョンを使用しない点が異なります。イベントをその製品のみに属性設定する場合は、`products` 変数に数値イベントを設定できます。
 
-数値イベントを実装する前に、レポートスイート設定の「[成功イベント](/help/admin/admin/c-success-events/success-event.md)」で、目的のイベントを「数値」に設定してください。
+数値イベントを実装する前に、レポートスイート設定の「[成功イベント](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)」で、目的のイベントを「数値」に設定してください。
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings

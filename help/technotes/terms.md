@@ -2,7 +2,7 @@
 title: Adobe Analytics で使用されている用語
 description: Adobe Analytics でよく使用される用語を集めた用語集です。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 * **Admin Console：**&#x200B;次を参照してください。
    * 従来の管理ツール。Adobe Analytics のレポートスイート設定を管理します。以前のバージョンの Adobe Analytics では、ユーザー権限もここで管理されていました。『管理ユーザガイド』の「[管理ツール](/help/admin/admin/c-admin-tools.md)」を参照してください。
    * Adobe Admin Console。製品へのアクセス権がプロビジョニングされ、ユーザー権限が管理されます。『管理ユーザガイド』の「[Admin Console](/help/admin/admin-console/home.md)」を参照してください。
-* **配分：** 1 回の訪問でコンバージョン変数に複数の値が設定された場合、その変数の配分設定によって保持される値が決まります。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」を参照してください。
+* **配分：** 1 回の訪問でコンバージョン変数に複数の値が設定された場合、その変数の配分設定によって保持される値が決まります。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)」を参照してください。
 * **Analysis Workspace：**&#x200B;堅牢なカスタム分析プロジェクトを構築し、インサイトを民主化するブラウザーソリューション。Reports and Analytics よりも柔軟にレポートを作成できます。
 * **異常値：**&#x200B;統計的モデリングを使用して検出され、データ内の予期しないトレンドを自動的に見つけます。モデルによって指標を分析し、値の下限、上限、予想される範囲を決定します。『分析ユーザガイド』の「[異常値検出](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)」を参照してください。
 * **AppMeasurement：**&#x200B;データの収集とアドビへの送信に使用するコードライブラリ。『実装ユーザガイド』の「[ホームページ](/help/implement/home.md)」を参照してください。
@@ -55,7 +55,7 @@ ht-degree: 100%
 * **eVar：**「コンバージョン変数」を参照してください。
 * **イベント：**「成功イベント」を参照してください。
 * **ExcelClient：**&#x200B;現在はこの用語は使用されていません。Report Builder の旧名称です。
-* **有効期限：**&#x200B;コンバージョン変数のコンテキストで、値がバックエンドで保持される期間。永続性により、イベントをイベントのヒット前に変数値に関連付けることができます。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)」を参照してください。
+* **有効期限：**&#x200B;コンバージョン変数のコンテキストで、値がバックエンドで保持される期間。永続性により、イベントをイベントのヒット前に変数値に関連付けることができます。『管理ユーザガイド』の「[コンバージョン変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)」を参照してください。
 * **フロー：** Analysis Workspace のビジュアライゼーションの 1 つで、サイト上におけるユーザーの経路を示します。分析ユーザーガイドの「[フロービジュアライゼーション](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)」を参照してください。
 * **Genesis：**&#x200B;現在はこの用語は使用されていません。Data Connectors の旧名称です。
 * **グローバルレポートスイート：**&#x200B;複数のサイトからヒットを収集するレポートスイートに指定された非公式の用語です。
