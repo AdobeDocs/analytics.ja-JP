@@ -3,10 +3,10 @@ description: 従来の Analytics ユーザー管理システムから Admin Cons
 title: Adobe ID 用に Analytics ユーザーアカウントを移行する
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 93%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
    </tr> 
    <tr> 
       <td colname="col1"> <p>申請されたドメイン </p> </td> 
-      <td colname="col2"> <p>ユーザーを Enterprise または Federated ID として移行する場合はシステム管理者であり、かつ、ユーザーを移行する前に Admin Console から利用可能なドメインを申請する必要があります。詳しくは<a href="https://helpx.adobe.com/jp/enterprise/help/identity.html">こちら</a>。 </p> <p>Enterprise またはr Federated ID のドメインを申請する場合は、この手順をスキップして、ユーザーを Adobe ID として移行します。ID タイプの詳細については<a href="https://helpx.adobe.com/enterprise/help/identity.html">ここ</a>をクリックしてください。 </p> </td> 
+      <td colname="col2"> <p>ユーザーを Enterprise ID または Federated ID として移行する場合は、システム管理者で、ユーザーを移行する前にAdobe Admin Console経由で使用可能なドメインを申請する必要があります。 詳しくは<a href="https://helpx.adobe.com/jp/enterprise/help/identity.html">こちら</a>。 </p> <p>Enterprise またはr Federated ID のドメインを申請する場合は、この手順をスキップして、ユーザーを Adobe ID として移行します。ID タイプの詳細については<a href="https://helpx.adobe.com/enterprise/help/identity.html">ここ</a>をクリックしてください。 </p> </td> 
    </tr> 
    </tbody> 
    </table>

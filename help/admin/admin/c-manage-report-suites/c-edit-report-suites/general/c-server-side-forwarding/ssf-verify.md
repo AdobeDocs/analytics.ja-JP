@@ -4,9 +4,9 @@ solution: Analytics
 title: サーバー側転送の実装の確認方法
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '256'
 ht-degree: 84%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!CAUTION]
 >
->応答に `"status":"SUCCESS"` というキーと値のペアまたは 2 x 2 の画像が含まれている場合、サーバー側転送は適切に設定されていません。ID サービスが適切にデプロイされ、App Measurement モジュールがデプロイされ、該当するレポートスイートが正しい組織 ID にマッピングされ、Analytics Admin Console でサーバー側転送が有効になっていることを確認してください。
+>応答に `"status":"SUCCESS"` というキーと値のペアまたは 2 x 2 の画像が含まれている場合、サーバー側転送は適切に設定されていません。ID サービスが適切にデプロイされ、App Measurement モジュールがデプロイされ、該当するレポートスイートが正しい組織 ID にマッピングされ、Analytics 管理ツールでサーバー側転送が有効になっていることを確認してください。
 
 >[!MORELIKETHIS]
 >

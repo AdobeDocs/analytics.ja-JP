@@ -1,22 +1,22 @@
 ---
-description: Enterprise または Federated ID として Analytics ユーザーアカウントを Admin Console に移行する方法。
+description: Enterprise ID または Federated ID として Analytics ユーザーアカウントをAdobe Admin Consoleに移行する方法。
 title: Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 100%
+source-wordcount: '763'
+ht-degree: 75%
 
 ---
 
 # Enterprise ID と Federated ID の Analytics ユーザーアカウントの移行 {#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
-Analytics ユーザーアカウントを Enterprise ID または Federated ID として Admin Console に移行する方法。
+Enterprise ID または Federated ID として Analytics ユーザーアカウントをAdobe Admin Consoleに移行する方法。
 
-## 前提条件  {#prereqs}
+## 前提条件 {#prereqs}
 
-Admin Console でユーザーを管理するための前提条件。
+Adobe Admin Consoleでユーザーを管理するための前提条件。
 
 新しいドメインおよびディレクトリの場合は、次の手順に従います。
 
@@ -36,8 +36,8 @@ Admin Console でユーザーを管理するための前提条件。
 
 * **[!UICONTROL Admin Console]**／**[!UICONTROL ユーザー]**&#x200B;から現在のユーザーリストをダウンロードします。
 
-* リストを比較します（Admin Console でアカウントデータが上書きされるのを防ぐため、重複がないか探します）。
-* Enterprise ID または Federated ID ユーザーを使用して最終版 [!DNL .csv]（**[!UICONTROL Admin Console]**／**[!UICONTROL ユーザー]**&#x200B;から取得したもの）を Admin Console にアップロードします。
+* リストを比較します (Adobe Admin Consoleでアカウントデータが上書きされるのを防ぐため、重複がないか探します )。
+* 完了したをアップロード [!DNL .csv] （から） **[!UICONTROL Admin Console]** > **[!UICONTROL ユーザー]**) をAdobe Admin ConsoleにEnterprise IDまたはFederated IDのユーザーと共に追加します。
 
 既存の Adobe ID ユーザーアカウントを Enterprise ID または Federated ID へ移行する必要がある場合は、Adobe Customer Care に連絡するか、[ユーザー ID の一括切り替え](https://helpx.adobe.com/jp/enterprise/using/bulk-operations.html)をリクエストしてください。
 
@@ -70,19 +70,19 @@ Admin Console でユーザーを管理するための前提条件。
       >
       >この手順の間に、ユーザーリストを整理して、Enterprise ID または Federated ID 移行に有効なメール ID を持つユーザーのみを含めることをお勧めします。
 
-1. [!UICONTROL Admin Console] で、Admin Console ユーザーのリストをダウンロードします。
+1. 内 [!UICONTROL Admin Console]、Adobe Admin Consoleユーザーのリストをダウンロードします。
 
    1. [!UICONTROL Admin Console]／**[!UICONTROL ユーザー]**&#x200B;に移動してから、「[ユーザーリストを CSV に書き出し](https://helpx.adobe.com/jp/enterprise/using/users.html)」をクリックします。
 
       ![](/help/admin/admin-console/user-management2/user-migration/assets/export-csv.png)
 
-   1. 2 つのファイルを比較：書き出された [!DNL .csv] ファイル（この例では [!DNL sample.csv]）の既存の Admin Console ユーザーと、Analytics の [!DNL User Logins List.csv] ファイルのユーザー。
+   1. 2 つのファイルを比較します。書き出されたの既存のAdobe Admin Consoleユーザー [!DNL .csv] ファイル ( [!DNL sample.csv]（この例では）Analytics のユーザーと共に [!DNL User Logins List.csv] ファイル。
 
       >[!IMPORTANT]
       >
-      >重複が見つかったら、それらを Analytics の [!DNL User Logins List.csv] ファイルから削除してください。この手順は、Admin Console の既存の Experience Cloud ユーザー権限が上書きされるのを防ぎ、移行するアカウントのリストを提供します。
+      >重複が見つかったら、それらを Analytics の [!DNL User Logins List.csv] ファイルから削除してください。この手順は、Adobe Admin Consoleの既存のExperience Cloudユーザー権限が上書きされるのを防ぎ、移行するアカウントのリストを提供します。
 
-1. Admin Console から CSV テンプレートをダウンロード：
+1. Adobe Admin Consoleから CSV テンプレートをダウンロードします。
    1. 「ユーザー」タブで、「**[!UICONTROL CSV によるユーザーの追加]**」、「**[!UICONTROL CSV テンプレートのダウンロード]**」の順にクリックします。
 
       ![ステップ情報](/help/admin/admin-console/user-management2/user-migration/assets/add-users-csv.png)
@@ -142,13 +142,13 @@ Admin Console でユーザーを管理するための前提条件。
 >
 >その他の列（[!UICONTROL 製品設定]や[!UICONTROL 管理者の役割]など）は空白にできます。
 
-1. Admin Console の「ユーザー」タブで、「**[!UICONTROL CSV によるユーザーの追加]**」（手順 3 のとおり）をクリックしてテンプレートファイルをアップロードします。
+1. Adobe Admin Consoleの「ユーザー」タブで、「 **[!UICONTROL CSV でのユーザーの追加]** （手順 3 で示すように）。
 1. Analytics で、移行ツールを実行します（[Analytics ユーザーアカウントの移行](/help/admin/admin-console/user-management2/user-migration/t-migrate-users.md)を参照）。
 1. **[!UICONTROL 移行]**／**[!UICONTROL Enterprise ID として移行]**&#x200B;をクリックします。
 
    ![ステップ情報](/help/admin/admin-console/user-management2/user-migration/assets/migrate-as-enterprise.png)
 
-   「**[!UICONTROL 移行]**」をクリックすると、ユーザーは Admin Console の Enterprise ID／Federated ID アカウントにリンクされます。Analytics での従来のユーザーアカウントの権限は、**[!UICONTROL Admin Console]**／**[!UICONTROL Analytics]**／**[!UICONTROL 製品プロファイル]**&#x200B;で Enterprise／Federated ID ログインに付与された権限を照合します。「移行完了」バケットにユーザー ID が表示されます。従来の [!DNL my.omniture.com] アクセスを無効にできます。
+   クリック時 **[!UICONTROL 移行]**」をクリックすると、ユーザーはAdobe Admin ConsoleのEnterprise ID/Federated IDアカウントにリンクされます。 Analytics での従来のユーザーアカウントの権限は、**[!UICONTROL Admin Console]**／**[!UICONTROL Analytics]**／**[!UICONTROL 製品プロファイル]**&#x200B;で Enterprise／Federated ID ログインに付与された権限を照合します。「移行完了」バケットにユーザー ID が表示されます。従来の [!DNL my.omniture.com] アクセスを無効にできます。
 
    ユーザー移行後、「移行ステータス」列のステータスが「**[!UICONTROL 未開始]**」から「**[!UICONTROL 移行済み]**」に変わります。
 
