@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 98%
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 **[!UICONTROL 最頻使用フィルター]**／**[!UICONTROL フィルターを定義]**&#x200B;パネルのフィルターについての情報です。
 
-![](assets/define_filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 次の表に、フィルターの例とフィルターについての情報を示します。
 

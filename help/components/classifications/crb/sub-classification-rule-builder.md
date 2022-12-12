@@ -3,7 +3,7 @@ description: 分類ルールビルダーを下位分類と組み合わせるこ�
 title: 下位分類とルールビルダー
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
 
    例：
 
-   ![ステップ情報](assets/sub_class_create.png)
+   ![ステップ情報](/help/admin/admin/assets/sub_class_create.png)
 
 1. [分類ルールビルダー](/help/components/classifications/crb/classification-rule-builder.md)で、元のトラッキングコードから下位分類キーを分類します。
 

@@ -3,8 +3,8 @@ description: 順次セグメントは、AND や OR ではなく、THEN 演算子
 title: 順次セグメントの構築
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '3827'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 「全員を含む」が設定されているセグメントを作成すると、そのセグメントでは指定されたパターン全体と一致するパスを識別します。これは、同じ訪問者が訪問したときのヒット（ページ A）に続くヒット（ページ B）を探す基本的なシーケンスセグメントの例です。セグメントを「全員を含む」に設定します。
 
-![](assets/sequence-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 | 結果が次の場合： | シーケンス |
 |--- |--- |
@@ -46,9 +46,9 @@ ht-degree: 100%
 
 | 例 | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
-| 全員を含む | A | B | C | D | E | F |
+| 全員を含む | A | B | C | D | E | 金 |
 | シーケンスの前のみ | A | B |  |  |  |  |
-| シーケンスの後のみ |  |  |  | D | E | F |
+| シーケンスの後のみ |  |  |  | D | E | 金 |
 
 **例 2：B の次に D が複数回現れる**
 

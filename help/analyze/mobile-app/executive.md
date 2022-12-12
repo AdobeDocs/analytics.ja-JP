@@ -4,7 +4,7 @@ title: Adobe Analytics ダッシュボードエグゼクティブガイド
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 100%
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 1. スコアカードにセグメントフィルターを適用するには、フィルタードロップダウンをタップし、キュレーターが設定したセグメントを選択します。アプリの[フィルター](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=ja)は、Analytics Workspace と同様に機能します。
 
-   ![セグメントフィルター](assets/segment_filter.png)
+   ![セグメントフィルター](/help/admin/admin/assets/filter.png)
 
 1. スコアカードの更新：スコアカードに興味のあるすべての指標や分類が含まれていない場合は、Analytics チームに連絡してスコアカードの更新を依頼してください。更新されたら、画面上のカードをプルダウンすると、最近追加したデータをロードして更新を表示できます。
 

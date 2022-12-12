@@ -4,7 +4,7 @@ title: レポートアクティビティマネージャー
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 92%
@@ -33,13 +33,13 @@ ht-degree: 92%
 
 レポートアクティビティを管理するには、(Adobe Admin Consoleで )Analytics 製品管理者権限が必要です。
 
-![権限](assets/rep-mgr-permission.png)
+![権限](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## レポートキューの表示
 
 [!UICONTROL レポートアクティビティ]マネージャーの概要ページを開くと、有効なベースレポートスイートのリストが表示されます。
 
-![レポートキュー](assets/reporting-activity1.png)
+![レポートキュー](/help/admin/admin/assets/reporting-activity1.png)
 
 | UI 要素 | 説明 |
 | --- | --- |
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 詳細を表示するレポートスイートのタイトルリンクをクリックします。
 
-![レポートスイート](assets/indiv-report-ste.png)
+![レポートスイート](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### 折れ線グラフ
 
@@ -72,17 +72,17 @@ ht-degree: 92%
 * y 軸は、クエリの平均待ち時間を秒単位で示します。
 * 折れ線グラフの上にマウスポインターを置くと、その時点の時刻と平均待ち時間が表示されます。
 
-   ![詳細](assets/detail.png)
+   ![詳細](/help/admin/admin/assets/detail.png)
 
 ### フィルター
 
 アプリケーション（以下のテーブルのリストを参照）、ユーザーおよびプロジェクトでテーブルをフィルタリングできます。
 
-![フィルター](assets/filter.png)
+![フィルター](/help/admin/admin/assets/filter.png)
 
 ### 概要数値
 
-![フィルター](assets/summary_numbers.png)
+![フィルター](/help/admin/admin/assets/summary_numbers.png)
 
 概要数値には、次の情報が表示されます。
 
@@ -127,11 +127,11 @@ ht-degree: 92%
 1. 表示される **[!UICONTROL x 個のクエリをキャンセル]**&#x200B;ウィンドウで、必要に応じてキャンセルメッセージを変更できます。
 1. 「**[!UICONTROL 続行]**」をクリックします。
 
-   ![cancel-query](assets/cancel-query.png)
+   ![cancel-query](/help/admin/admin/assets/cancel-query.png)
 
 例えば、Workspace のアプリケーションユーザーの場合は、プロジェクトに次の通知が表示されます。
 
-![cancel-user-notice](assets/cancel-user-facing.png)
+![cancel-user-notice](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## よくある質問
 

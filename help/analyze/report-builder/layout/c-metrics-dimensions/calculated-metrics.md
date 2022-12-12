@@ -4,7 +4,7 @@ title: 計算指標
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Report Builder 5.2 では、Adobe Analytics Unified Calculated Metrics がサポ
 
 ## 計算指標のフィルタリング {#section_376E986D3E684999A7CDB08E53854159}
 
-計算指標に&#x200B;**フィルターを設定**&#x200B;するには、フィルターアイコン ![](assets/segment_filter.png) を
+計算指標に&#x200B;**フィルターを設定**&#x200B;するには、フィルターアイコン ![](/help/admin/admin/assets/filter.png) を
 
 クリックします。アドバンスフィルターダイアログに、標準指標と計算指標の両方が入力されます。
 

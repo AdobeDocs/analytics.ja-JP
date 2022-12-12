@@ -4,7 +4,7 @@ title: パネルの概要
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 95%
@@ -64,7 +64,7 @@ Analysis Workspace では、次のパネルタイプを利用できます。
 
 左パネルからパネルのドロップゾーンにセグメントをドラッグ＆ドロップして、パネルのフィルタリングを開始します。
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### アドホックセグメントフィルター
 
@@ -72,7 +72,7 @@ Analysis Workspace では、次のパネルタイプを利用できます。
 
 アドホックセグメントはプロジェクトのローカルなセグメントで、公開しない限り左側のパネルには表示されません。
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### ドロップダウンフィルター {#dropdown-filter}
 

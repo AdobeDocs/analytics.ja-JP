@@ -5,7 +5,7 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Boolean ロジックと AND／OR 検索式を使用して設定する、ラン�
 
 1.  リクエストを作成または編集して、[!UICONTROL リクエストウィザード：ステップ 2] に進みます。
 
-   ![ステップ情報](assets/dimension_filter.png)
+   ![ステップ情報](/help/admin/admin/assets/filter.png)
 
 1.  [!UICONTROL リクエストウィザード：ステップ 2] で、グリッド内のディメンションの隣にあるリンクをクリックし、「**[!UICONTROL フィルター]**」を選択します。
 1.  「[!UICONTROL ページを選択]」フォームで、「**[!UICONTROL ランクから選択]**」を有効にして、次のオプションを設定します。

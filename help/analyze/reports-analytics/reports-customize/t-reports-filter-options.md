@@ -5,8 +5,8 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## シンプルフィルター {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
-![](assets/filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 このシンプルフィルターは大部分のレポートに表示され、特定の行項目をすばやく探し出すために役立ちます。シンプルフィルターでは、特殊文字を使用できません。そのため、`-, ", ', +` およびその他の特殊文字はレポート内のリテラル値に一致します。複数の単語を含む行項目を検索するときは、単語間をスペースで区切ります。
 

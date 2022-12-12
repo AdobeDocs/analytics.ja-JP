@@ -4,7 +4,7 @@ title: 予定レポートキュー
 feature: Admin Tools
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -32,19 +32,19 @@ ht-degree: 100%
 >
 >「**[!UICONTROL レポート名]**」列にはスケジュールされているレポートの名前が表示され、「**[!UICONTROL ファイル名]**」列には「アドバンス配信」オプションで設定したカスタムファイル名が表示されます。その結果、同じレポートタイプのレポートを複数スケジュールして、それぞれにカスタマイズした名前を指定すると、レポート名が同じでファイル名が異なる複数のエントリが予定レポートマネージャーに表示されます。これは、スケジュール中のバックエンドレポートが同じなので、すべてのレポートに対して「レポート名」列のレポート名は同じになりますが、ファイル名は（設定したとおりに）カスタマイズされるからです。
 
-![](assets/show_all_scheduled_reports.png)
+![](/help/admin/admin/assets/show_all_scheduled_reports.png)
 
 ## 高度なフィルター機能 {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 例えば、1 時間ごとにスケジュールされたすべてのレポートをフィルタリングする場合は、**[!UICONTROL アドバンス]**&#x200B;フィルターで&#x200B;**[!UICONTROL 「頻度」「完全に一致する」「1 時間ごと」]**&#x200B;を指定して、「**[!UICONTROL 適用]**」をクリックします。
 
-![](assets/advanced_filtering_schedl_reports.png)
+![](/help/admin/admin/assets/advanced_filtering_schedl_reports.png)
 
 ## レポートキュー {#section_03C866115D354BB182E90BF4D52F1E0B}
 
 このキューを使用して、予定レポートを管理したり、キューを停滞させている予定レポートを削除したりできます（通常、レポートは 4 時間でタイムアウトします）。
 
-![](assets/scheduled_reports_2.png)
+![](/help/admin/admin/assets/scheduled_reports_2.png)
 
 レポートキューでは、「予定レポートを 1 回スキップ」することもできます。「**[!UICONTROL 管理]**」列にある青色のアイコンをクリックします。
 
@@ -52,4 +52,4 @@ ht-degree: 100%
 
 レポートキューインターフェイスで公開された&#x200B;**[!UICONTROL スケジュール ID]** は、予定レポートの問題を解決するために Adobe Client Care に連絡する必要がある場合に役立ちます。
 
-![](assets/schedule_id.png)
+![](/help/admin/admin/assets/schedule_id.png)

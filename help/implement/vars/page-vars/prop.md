@@ -3,10 +3,10 @@ title: prop
 description: 実装で使用できるカスタム変数。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -30,7 +30,7 @@ prop は [Adobe Analyticsにマッピング済み](https://experienceleague.adob
 
 Prop は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
@@ -53,7 +53,7 @@ s.prop1 = "Example custom value";
 
 ### リスト prop の設定
 
-でリスト prop を有効にする [トラフィック変数](/help/admin/admin/c-traffic-variables/traffic-var.md) 」をクリックします。 目的の区切り文字が正しく設定されていることを確認します。デフォルトの区切り文字は提供されません。
+でリスト prop を有効にする [トラフィック変数](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 」をクリックします。 目的の区切り文字が正しく設定されていることを確認します。デフォルトの区切り文字は提供されません。
 
 >[!TIP]
 >
