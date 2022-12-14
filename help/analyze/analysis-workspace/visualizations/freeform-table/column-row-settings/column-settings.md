@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,23 @@ ht-degree: 100%
 
 ## [!UICONTROL 列設定]の編集 {#edit-column-settings}
 
-「[!UICONTROL 列設定]」にアクセスするには、フリーフォームテーブルをプロジェクトにドラッグしてから、列見出しにあるギアアイコンをクリックします。
+個々の列または複数の列の列設定を同時に編集できます。
 
-![](assets/column_settings.png)
+1. Analysis Workspaceで、フリーフォームテーブルをプロジェクトにドラッグします。
 
-**一度に複数の列**&#x200B;の設定を編集できます。複数の列を選択し、いずれかの列の設定アイコンをクリックするだけです。加えた変更が、選択されているセルを含むすべての列に適用されます。
+1. （条件付き）複数の列を同時に編集するには、Shift キーを押しながら、編集する各列を選択します。
+
+1. 編集する列の上にマウスポインターを置いて、歯車アイコンを選択します。
+
+   複数の列を選択した場合、選択した列の歯車アイコンをクリックします。 変更は、選択したすべての列に適用されます。
+
+   ![](assets/column_settings.png)
+
+1. 続行 [列設定](#column-settings).
+
+## 列設定
+
+Analysis Workspaceで列を編集する際には、次の列設定を使用できます。
 
 | 要素 | 説明 |
 | --- | --- |
