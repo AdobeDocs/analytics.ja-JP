@@ -4,9 +4,9 @@ title: Analytics 製品の比較と必要システム構成
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 94%
 
 このページでは、Adobe Analytics の各種製品（Analysis Workspace、Reports &amp; Analytics、Report Builder、Data Warehouse、Data Workbench、データフィード、Analytics API 2.0）の比較を示します。
 
-使用するAdobe Analytics製品について詳しくは、 [使用するAdobe Analyticsツールの検討](/help/admin/get-started/which-analytics-tool.md).
+使用すべき Adobe Analytics 製品について詳しくは、[使用する Adobe Analytics ツールの検討](/help/admin/get-started/which-analytics-tool.md)を参照してください。
 
 | 製品名とヘルプリンク | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=ja) | [データフィード](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **アクセス方法** | [ブラウザー](/help/admin/get-started/sys-reqs.md) | [ブラウザー](/help/admin/get-started/sys-reqs.md) | [Windows 用 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/admin/get-started/sys-reqs.md) | [Windows 64 ビット](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=ja) | ブラウザーを使用してセットアップします。[詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API ツール。Adobe Developerの資格情報を使用してログインします。 [詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **アクセス方法** | [ブラウザー](/help/admin/get-started/sys-reqs.md) | [ブラウザー](/help/admin/get-started/sys-reqs.md) | [Windows 用 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | ブラウザーを使用してセットアップします。[詳細情報](/help/admin/get-started/sys-reqs.md) | [Windows 64 ビット](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=ja) | ブラウザーを使用してセットアップします。[詳細情報](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API ツール。Adobe Developer の資格情報でログインします。[詳細情報](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **データの精度** | 集計 | 集計 | 集計 | 集計 | ヒット | ヒット | 集計 |
 | **Experience Cloud ID（ECID）が使用可能** | × | × | × | ○ | ○ | ○ | × |
 | **タイムスタンプが使用可能** | × | × | × | × | ○ | ○ | × |
