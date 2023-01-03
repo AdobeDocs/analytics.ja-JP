@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8277'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 99%
 | 機能 | 説明 |
 | --- | --- |
 | [単一のディメンションに対して 50,000 個の項目をダウンロード](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=ja#download-items) | セグメントとフィルターが適用されたフリーフォームテーブルで、単一のディメンションに対して 50,000 個の項目をダウンロードできるようになりました。これにより、Analysis Workspace 外の 400 行を超えるデータにアクセスできます。 |
-| [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>[!UICONTROL 線] の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
+| [折れ線グラフのビジュアライゼーションの強化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=ja) | <ul><li>[!UICONTROL 線] の視覚化の X 軸と Y 軸の表示／非表示を切り替えることができます。これは、特に、[!UICONTROL 線]の視覚化がよりコンパクトな場合に役立ちます。</li><li>任意の折れ線グラフのビジュアライゼーションに最小値と最大値のラベルを重ねて、指標の山と谷をすばやく強調表示できます。</li><li>様々な回帰トレンドラインを折れ線グラフのビジュアライゼーションに重ねて、データのトレンドをより簡単に確認できます。「[!UICONTROL 線形]」、「[!UICONTROL 対数]」、「[!UICONTROL 指数]」、「[!UICONTROL 累乗]」、「[!UICONTROL 多項式]」などのオプションがあります。</li></ul> |
 | 新しい日付範囲 | 5 つの新しい日付範囲を追加しました。これにより、今日の日付の部分データを含まない日付範囲（過去 7 日間、過去 14 日間、過去 30 日間、過去 60 日間、過去 90 日間）から選択できます。 |
 
 ## 2020 年 8 月
@@ -76,7 +76,7 @@ ht-degree: 99%
 | Attribution IQ：カスタムルックバックウィンドウ | Attribution IQ で任意のアトリビューションモデルを設定して、レポート期間の最大 90 日前のタッチポイントを含められるようになりました。これにより、通常、前月（または過去数か月）に発生したインタラクションを考慮することで、レポートの初期に発生するイベントのアトリビューション精度を高めます。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete および Ultimate のお客様が利用できます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ja#lookback-windows) |
 | 共有ワークスペースプロジェクトのプロジェクトロール | Workspace プロジェクトを共有する際は、受信者を、使用するプロジェクトエクスペリエンスに応じて、編集、複製、表示の 3 つのプロジェクトの役割のいずれかに受信者を配置できるようになりました。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja) |
 | 表示のみの Workspace プロジェクト | ワークスペースプロジェクトは、「表示可能」としてのみユーザーに共有できます。「表示」受信者が共有プロジェクトを開くと、左側のパネルが表示されず、操作が制限された状態となる、より制限が厳格なプロジェクトエクスペリエンスが提供されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=ja) |
-| ワークスペースプロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| ワークスペースプロジェクトを共同編集できる機能 | 「編集可能」の役割に追加された受信者は、それらのユーザーと共有されているプロジェクトを上書き保存できます。これは、管理者と非管理者の両方に適用されます。[詳細情報...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=ja) |
 | 空白パネルの更新 | 空白パネルにパネルとビジュアライゼーションが追加され、最適な分析ワークフローを、よりシームレスに選択できるようになりました。 |
 | Quick Insights パネル（2020 年 6 月 25 日（PT）） | Quick Insights は、Analysis Workspace のアナリスト以外のユーザーと新規ユーザーに対して、ビジネスの質問にすばやく簡単に答える方法を学ぶためのガイダンスを提供します。[詳細情報...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Workspace の Analytics for Target パネル（2020 年 6 月 25 日（PT）） | Analytics for Target（A4T）パネルを使用すると、Analysis Workspace でリフトと信頼度を使用して Adobe Target のアクティビティとエクスペリエンスを分析できます。[詳細情報...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -811,14 +811,14 @@ ht-degree: 99%
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  > <b>フロー</b></a> 機能の強化 </td>
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  ><b>フロー</b></a> 機能の強化 </td>
    <td colname="col2">
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1">
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">「<span class="wintitle">ラベルの切り捨てを無効化</span>」という新しいビジュアライゼーション設定が追加されました（デフォルト = オフ）。 </li>
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1">  カレンダーの <b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > 変更 </a></b> </td>
+   <td colname="col1">  カレンダーの<b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >変更</a></b> </td>
    <td colname="col2"> Reports &amp; Analytics カレンダーに合わせて、カレンダーが変更されました。
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F">
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">最初のクリックでは、日付範囲の選択を開始します。前または後の日付範囲をハイライト表示し、2 回目のクリックで日付範囲の終了を選択します。最初の日付をクリックしたまま Shift キーを押す（または右クリックする）と、その日付が範囲に追加されます。 </li>
@@ -1051,7 +1051,7 @@ ht-degree: 99%
 2016 年 6 月 16 日（PT）にリリースされた新機能：
 
 * 管理者がユーザーの **[!UICONTROL Analytics]**／「**[!UICONTROL Workspace]**」タブへのアクセスを許可または拒否できる[新しいグループ権限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=ja)。2016 年 6 月 16 日（PT）現在、すべてのユーザーはこのタブにアクセスする権限があります。アクセスを拒否するには、Analysis Workspace アクセスグループからユーザーを削除します。
-*   [セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)は、アクセス権のあるすべての単一の指標およびディメンションを自動分析することで、2 つのセグメント間の最も大きな統計的差異を見つけます。
+*  [セグメント比較パネル](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)では、アクセスできる一つ一つの指標およびディメンションを自動分析することで、2 つのセグメント間の統計的に最も有意な差異を見つけることができます。
 * トップメニューを再配置し、拡張可能になった[新しいプロジェクトメニュー構造](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。例えば、**新しいコホートパネル**&#x200B;を作成すると、空のパネルが作成され、コホートテーブルのビジュアライゼーションがドラッグされます。
 * [新しい左側のパネル](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：パネル、ビジュアライゼーションおよびコンポーネント。
 * 最大 3 セグメントおよび 1 つの指標をドラッグして、ベン図を作成できる新しい[ベン図のビジュアライゼーションタイプ](/help/analyze/analysis-workspace/visualizations/venn.md)。
