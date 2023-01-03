@@ -4,9 +4,9 @@ title: 使用する Adobe Analytics ツールの検討
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 このヘルプページでは、各 Adobe Analytics ツールの推奨される使用例が紹介されています。ここにリストされている順にツールを検討するとよいでしょう。あるツールがニーズを満たさない場合は、次のツールの使用を検討します。
 
-Adobe Analytics製品比較について詳しくは、 [Analytics 製品比較](/help/admin/get-started/analytics-product-comparison.md).
+Adobe Analytics 製品の比較について詳しくは、 [Analytics 製品の比較](/help/admin/get-started/analytics-product-comparison.md)を参照してください。
 
 以下は、様々な Adobe Analytics ツールを比較したビデオです。
 
