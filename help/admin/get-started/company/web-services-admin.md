@@ -4,9 +4,9 @@ title: Web サービス
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Web Services API を使用すると、Analytics インターフェイスを通�
 
 [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) では、権限を更新して、web サービス API へのアクセスを必要とするユーザーを含めることができます。
 
-## WSDL:Web サービス開発者向け Web Services API WSDL のダウンロード
+## WSDL：Web サービス開発者向けの web サービス API WSDL をダウンロードします
 
-訪問 [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/):Web Services API に関連するドキュメント、サンプルコードおよびフォーラムを提供します。 詳しくは、「Web サービス API の概要」をクリックしてください。
+Web サービス API に関連するドキュメント、サンプルコードおよびフォーラムを提供する [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/) を参照してください。詳しくは、「Web サービス API の概要」をクリックしてください。
 
 ## フィルターオプション
 
