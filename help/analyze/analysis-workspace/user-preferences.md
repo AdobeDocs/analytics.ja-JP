@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 941b2b472301c3e99f268ab98976de348573ae1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 | 環境設定 | オプション |
 | --- | --- |
-| Landing page | <ul><li>プロジェクトリスト（デフォルト）</li><li>空のプロジェクト</li><li>特定のプロジェクトリストから選択</li></ul> |
+| ランディングページ | <ul><li>プロジェクトリスト（デフォルト）</li><li>空のプロジェクト</li><li>特定のプロジェクトリストから選択</li></ul> |
 | ヒント | <ul><li>有効（デフォルト）</li><li>無効</li></ul> |
 
 ## プロジェクトの環境設定
