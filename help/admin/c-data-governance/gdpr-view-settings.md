@@ -4,7 +4,7 @@ title: レポートスイートのデータガバナンス設定の表示／管�
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
 ht-degree: 100%
 
