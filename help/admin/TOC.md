@@ -5,9 +5,9 @@ user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
 source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 + [Analytics 管理ガイド](home.md)
 + [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
-+ Analytics 管理の概要 {#admin-overview}
++ Analytics 管理の基本を学ぶ {#admin-overview}
    + [使用する Adobe Analytics ツールの検討](get-started/which-analytics-tool.md)
    + [Analytics 製品の比較と必要システム構成](get-started/analytics-product-comparison.md)
    + [必要システム構成](get-started/sys-reqs.md)
@@ -30,10 +30,10 @@ ht-degree: 95%
       + [ブランド提携](get-started/company/co-branding-admin.md)
       + [レポートスイートを非表示](get-started/company/c-hide-report-suites.md)
       + [セキュリティマネージャー](get-started/company/security-manager.md)
-+ Adobe管理コンソールでのユーザー権限 {#admin-console}
++ Adobe Admin Console でのユーザー権限 {#admin-console}
    + [Admin Console での Adobe Analytics](admin-console/home.md)
-   + [Adobe Analytics first admin guide](admin-console/first-admin-guide.md)
-   + [Adobe Analyticsの管理者の役割](admin-console/admin-roles-in-analytics.md)
+   + [Adobe Analytics はじめての管理ガイド](admin-console/first-admin-guide.md)
+   + [Adobe Analytics の管理者の役割](admin-console/admin-roles-in-analytics.md)
    + 権限 {#permissions}
       + [Admin Console での Analytics 権限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics の製品プロファイル](admin-console/permissions/product-profile.md)
