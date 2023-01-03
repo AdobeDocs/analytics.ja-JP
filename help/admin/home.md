@@ -4,9 +4,9 @@ description: Admin Console でのユーザー管理や製品管理、レポー�
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '328'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,18 +16,18 @@ ht-degree: 93%
 
 このヘルプは、Adobe Analytics の管理者を対象としています。Admin Console でのユーザーと製品の管理、レポートスイート、変数、分類、データ収集の設定に関するヘルプが含まれます。 
 
-Adobe Analytics のビデオの概要は次のとおりです。
+以下は、Adobe Analytics の概説ビデオです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 Adobe Analytics には、現在、管理者向けの以下の 2 つの領域があります。
 
 * Adobe Admin Console：この領域を使用して Experience Cloud ツールをプロビジョニングし、ユーザー権限を管理します。[adminconsole.adobe.com](https://adminconsole.adobe.com) にあります。
-* Analytics 管理ツール：この領域は、レポートスイートおよび変数の管理に使用します。 Adobe Analytics の上部のヘッダーにある「[!UICONTROL 管理者]」をクリックすることでアクセスできます。
+* Analytics Admin Tools：この領域を使用して、レポートスイートおよび変数を管理します。Adobe Analytics の上部のヘッダーにある「[!UICONTROL 管理者]」をクリックすることでアクセスできます。
 
 このガイドでは、以下について説明します。
 
-* Analytics 管理ツールでおこなわれるすべてのタスク。 この領域には、レポートスイート、変数、分類またはデータガバナンスの設定が含まれます。使用可能なレポートスイートおよびカンパニー設定のリストについては、 [管理ツール](admin/c-admin-tools.md) を参照してください。
+* Analytics Admin Tools で行われるすべてのタスク。この領域には、レポートスイート、変数、分類またはデータガバナンスの設定が含まれます。使用可能なレポートスイートおよびカンパニー設定のリストについては、 [管理ツール](admin/c-admin-tools.md) を参照してください。
 * Adobe Admin Console でおこなわれるすべての Analytics 専用タスク。この領域には、製品プロビジョニングおよびユーザー権限管理が含まれます。Adobe Admin Console で可能なアクションのリストについては、 [Adobe Admin Console の Adobe Analytics](admin-console/home.md) を参照してください。
 
 このガイドでは、Adobe Admin Console が提供する多くの汎用機能については説明しません。代わりに、エンタープライズユーザーガイドの [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を参照してください。
@@ -43,7 +43,7 @@ Adobe Analytics には、現在、管理者向けの以下の 2 つの領域が�
 
 ## 主な Analytics リソース
 
-* [カスタマーケアにお問い合わせください](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
+* [カスタマーケアへのお問い合わせ](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=ja#support)
 * [Analytics フォーラム](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics リソース](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=ja)
-* [Experience League](https://experienceleague.adobe.com/?lang=ja#dashboard/learning)
+* [Experience League](https://experienceleague.adobe.com/?lang=ja#home)
