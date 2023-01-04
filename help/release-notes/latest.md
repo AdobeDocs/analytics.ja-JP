@@ -3,10 +3,10 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: be32a2278ac3686d814b25d8a4a857b9f0ddc771
+source-git-commit: 4ab8df2efb8b3175f93f325e9d88feb9457a566a
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 97%
+source-wordcount: '1461'
+ht-degree: 90%
 
 ---
 
@@ -39,8 +39,8 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
-| **IP からジオロケーションへのマッピングの改善** | 2023 年 1 月 5 日 | IP ルックアップに関する当社のベンダー（Digital Element）は、IP からジオロケーションへのマッピング用に新しく改善されたデータセット（NetAcuity Pulse）にアップグレードしつつあります。当初は 2022 年 10 月に予定されていたので、Adobe Analyticsでは、この新しいデータセットを **2023 年 1 月 12 日**. 新しいデータベースは、以前のバージョンよりも正確になります。新しいデータベースを採用する際に、IP からジオロケーションへのマッピングは一部変更または改善されます。<p>すべての Adobe Analytics ツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、データフィードなど）は、新しく改善されたマッピングを自動的に利用します。データフィードのデータの形式は変更されません。Analytics ソースコネクタを通じて提供される CJA データでも、新しいマッピングを自動的に利用します。 |
-| **新しい NetAcuity 通信事業者データベースの更新** | 2023 年 1 月 5 日 | この更新は、もともと 2022 年 10 月 5 日に予定されていたもので、今後は **2023 年 1 月 12 日**. Adobe Analytics Data Warehouse および Analytics データフィードの `carrier` フィールドに保存されている通信事業者関連の情報が変更されます。従来、その列のデータ形式は `<domain>:<ISP>` でした。Adobe Analytics レポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）でレポートを作成するために、これらの `<domain>:<ISP>` 値を通信事業者名にマッピングするための内部ルックアップテーブルがメンテナンスされました。ルックアップファイル（`carrier.tsv`）にもデータフィードが用意されているので、同じマッピングを使用できます。<p>この更新により、NetAcuity のより正確な通信事業者データベースを使用して通信事業者のマッピングが強化されます。データフィードの通信事業者列のデータ形式は、今後変更される予定です。`<domain>:<ISP>` の代わりに、通信事業者名が含まれます。アドビでは、従来のレポートとの継続性をできる限り維持するために、引き続きルックアップテーブルを使用します。アドビがルックアップを適用するレポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）は、より正確なマッピングのメリットを享受できます。新しいデータベースを採用すると、一部のマッピング（特に国際ドメインおよび ISP の場合）は、他のマッピングよりも変更が多くなります。データフィード通信事業者ルックアップファイル（`carrier.tsv`）では、古いマッピングが維持され、新しいマッピングが追加されます。<p>Analytics ソースコネクタでは、現在、通信事業者フィールドのマッピングは行っていません。そのため、通信事業者レポートは、現在、Experience Platform、CJA などでは使用できません。したがって、新しい通信事業者データベースを使用しても、Analytics ソースコネクタから提供されるデータに基づいている限り Experience Platform での影響はありません。 |
+| **IP からジオロケーションへのマッピングの改善** | 2023 年 1 月 5 日 | IP ルックアップに関する当社のベンダー（Digital Element）は、IP からジオロケーションへのマッピング用に新しく改善されたデータセット（NetAcuity Pulse）にアップグレードしつつあります。当初は 2022 年 10 月に予定されていたので、Adobe Analyticsでは、この新しいデータセットを **2023 年 1 月 12 日**. 新しいデータベースは、以前のバージョンよりも正確になります。新しいデータベースを採用する際に、IP からジオロケーションへのマッピングは一部変更または改善されます。<p>すべてのAdobe Analyticsツール (Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、Analytics データフィードなど ) は、新しく改善されたマッピングを自動的に利用します。 データフィードのデータの形式は変更されません。Analytics ソースコネクタを通じて提供される CJA データは、新しいマッピングを自動的に利用します。 |
+| **新しい NetAcuity 通信事業者データベースの更新** | 2023 年 1 月 5 日 | この更新は、もともと 2022 年 10 月 5 日に予定されていたもので、今後は **2023 年 1 月 12 日**. Adobe Analytics Data Warehouse および Analytics データフィードの `carrier` フィールドに保存されている通信事業者関連の情報が変更されます。従来、その列のデータ形式は `<domain>:<ISP>` でした。Adobeは、これらをマッピングする内部ルックアップテーブルを維持しています `<domain>:<ISP>` の値をAdobe Analyticsのレポートツール (Analysis Workspace、Reports &amp; Analytics、Reporting API、Data Warehouse、LiveStream など ) でレポート目的で通信事業者名に変換します。 ルックアップファイル（`carrier.tsv`）にもデータフィードが用意されているので、同じマッピングを使用できます。<p>この更新により、NetAcuity のより正確な通信事業者データベースを使用して通信事業者のマッピングが強化されます。データフィードの通信事業者列のデータ形式は、今後変更される予定です。`<domain>:<ISP>` の代わりに、通信事業者名が含まれます。アドビでは、従来のレポートとの継続性をできる限り維持するために、引き続きルックアップテーブルを使用します。アドビがルックアップを適用するレポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）は、より正確なマッピングのメリットを享受できます。新しいデータベースを採用すると、一部のマッピング（特に国際ドメインおよび ISP の場合）は、他のマッピングよりも変更が多くなります。データフィード通信事業者ルックアップファイル（`carrier.tsv`）では、古いマッピングが維持され、新しいマッピングが追加されます。<p>Analytics ソースコネクタは、現在、通信事業者フィールドをマッピングしていないので、通信事業者レポートは、現在、Experience Platform、CJA などで使用できません。 したがって、新しい通信事業者データベースを使用しても、Analytics ソースコネクタから提供されるデータに基づいている限り Experience Platform での影響はありません。 |
 | **トラフィックスパイク通知のガイドラインを更新しました** | 2022年11月18日（PT） | 以前のガイドラインは、ヒット数に厳密に基づいていました。[新しいガイドライン](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=ja)は、レポートスイートのサイズと増加率の組み合わせに基づいています。 |
 | **Google クライアントヒントによるデバイス検索の更新** | 2022年10月14日（PT） | デバイス検索でのクライアントヒントの使用は、当初 2022年10月26日に予定されていましたが、 **2023年1月**&#x200B;に延期されました。 <p> <p>2022年10月から、Web SDK または AppMeasurement JavaScript ライブラリを使用してクライアントヒントを収集できるようになります。ただし、クライアントヒントは、2023年1月まではデバイス検索に組み込まれません。 2023年1月にアドビは、Google Chrome および Microsoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、User-Agent に加えてクライアントヒントも使用するようになります。これは、クライアントヒントを介して渡されるデータの代わりに User-Agent 文字列から提供される情報を徐々に減らす Google の計画に対応するものです。 <p> <p>この変更の一環として、アドビでは、User-Agent に関連するすべてのデバイス検索に対して Device Atlas を使用します。[詳細情報](/help/technotes/client-hints.md) |
 | **デフォルトのランディングページ** | 2022年9月29日（PT） | 今年初めに導入された[新しいランディング ページ](/help/analyze/landing.md)は、**2023年1月**&#x200B;にすべてのユーザーにとってデフォルトエクスペリエンスになります。現在のページは廃止される予定で、すべてのユーザーは新しいエクスペリエンスを利用する必要があります。 |
