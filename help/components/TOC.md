@@ -133,7 +133,7 @@ ht-degree: 97%
    + [ページビュー数](metrics/page-views.md)
    + [エラーページ（404）](metrics/pages-not-found.md)
    + [PeopleExperience Cloud ID を持つ](metrics/people-with-exp-cloud-id.md)
-   + [人](metrics/people.md)
+   + [People](metrics/people.md)
    + [製品表示](metrics/product-views.md)
    + [リロード回数](metrics/reloads.md)
    + [売上高](metrics/revenue.md)
