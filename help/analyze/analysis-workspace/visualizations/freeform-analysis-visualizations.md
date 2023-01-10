@@ -5,10 +5,10 @@ title: ビジュアライゼーションの概要
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1155'
+ht-degree: 91%
 
 ---
 
@@ -43,9 +43,25 @@ Analysis Workspace では、次のビジュアライゼーションタイプを�
 | [ツリーマップ](/help/analyze/analysis-workspace/visualizations/treemap.md) | ネストされた長方形の集まりとして、（ツリー構造の）階層データが表示されます。 |
 | [ベン](/help/analyze/analysis-workspace/visualizations/venn.md) | 円を使用して、最大 3 つのセグメントの指標の重複を表します。 |
 
-## 設定 {#settings}
+## ビジュアライゼーション設定のカスタマイズ
 
-各ビジュアライゼーションには、管理可能な独自の設定があります。「[!UICONTROL ビジュアライゼーション設定]」にアクセスするには、[!UICONTROL ビジュアライゼーション設定]歯車アイコンをクリックします。
+個々のビジュアライゼーションまたは作成するすべてのビジュアライゼーションのビジュアライゼーション設定をカスタマイズできます。
+
+### 単一のビジュアライゼーションのビジュアライゼーション設定のカスタマイズ
+
+アクセスするには [!UICONTROL ビジュアライゼーション設定] 個々のビジュアライゼーションの場合：
+
+1. Analysis Workspaceで、設定をカスタマイズするビジュアライゼーションの上にマウスポインターを置きます。
+
+1. 歯車アイコンをクリックします。
+
+   各タイプのビジュアライゼーションには、カスタマイズ可能な独自の設定があります。 使用可能な設定について詳しくは、 [設定](#settings).
+
+### 作成するすべてのビジュアライゼーションのビジュアライゼーション設定をカスタマイズ
+
+作成するすべてのビジュアライゼーションの設定をカスタマイズできます。 詳しくは、 [ユーザーの環境設定](/help/analyze/analysis-workspace/user-preferences.md).
+
+## 設定 {#settings}
 
 ![](assets/settings.png)
 

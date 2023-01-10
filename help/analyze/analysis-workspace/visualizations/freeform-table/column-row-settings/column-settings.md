@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+source-git-commit: 1ce29a131302e32a6bafd8cfdb21abb65619b359
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 87%
+source-wordcount: '805'
+ht-degree: 84%
 
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 87%
 
 ## 列設定
 
-Analysis Workspaceで列を編集する際には、次の列設定を使用できます。
+Analysis Workspaceの個々のテーブルに対して、次の列設定を更新できます。詳しくは、 [列設定の編集](#edit-uicontrol-column-settings).
+
+これらの同じ設定の一部は、Analysis Workspaceで作成するすべての新しいプロジェクトに対しても管理できます。詳しくは、 [ユーザーの環境設定](/help/analyze/analysis-workspace/user-preferences.md)
 
 | 要素 | 説明 |
 | --- | --- |
