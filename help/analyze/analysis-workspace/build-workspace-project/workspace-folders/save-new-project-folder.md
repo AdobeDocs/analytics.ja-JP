@@ -3,12 +3,10 @@ description: Workspace のフォルダーにプロジェクトを保存する方
 keywords: Analysis Workspace
 title: フォルダーにプロジェクトを保存
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '70'
 ht-degree: 100%
 
 ---
@@ -16,10 +14,6 @@ ht-degree: 100%
 # 新しいプロジェクトをフォルダーに保存する
 
 新しいプロジェクトを特定のフォルダーに保存するには、プロジェクトを保存ダイアログウィンドウでフォルダー名を選択します。
-
->[!NOTE]
->
->この機能は現在ベータ版です。一部の画面は変更される可能性があります。
 
 1. Workspace で、新しいプロジェクトを作成します。
 
