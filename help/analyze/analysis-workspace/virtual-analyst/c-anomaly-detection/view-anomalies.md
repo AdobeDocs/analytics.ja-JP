@@ -4,10 +4,10 @@ title: Analysis Workspace での異常値の表示
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8be2b622250b1da3ec765592253df2607de67a96
+source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 16%
+source-wordcount: '469'
+ht-degree: 15%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 16%
 
 1. 列ヘッダーの列設定アイコンを選択し、 [!UICONTROL **異常値**] オプションのリストで「 」が選択されている。 詳しくは、 [列設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
-1. 異常値は、テーブルに次のように表示されます。
+1. 設定メニューの外側をクリックして、更新したテーブルを表示します。
 
    ![](assets/anomaly_detected.png)
+
+1. 異常値は、テーブルに次のように表示されます。
 
    A **暗い灰色の三角形** は、データの異常値が検出された各行の右上隅に表示されます。
 
