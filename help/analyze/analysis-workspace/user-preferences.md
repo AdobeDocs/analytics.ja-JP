@@ -4,7 +4,7 @@ description: ユーザーの一般的な環境設定とプロジェクト環境�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 23d2297440e25ab519751d690552c61f6e32133c
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 48%
@@ -43,7 +43,7 @@ Analysis Workspaceで作成するすべての新しいプロジェクトの一�
 | --- | --- |
 | ランディングページ | Adobe Analyticsにアクセスする際に、デフォルトのページとして表示するページを選択します。 <ul><li>プロジェクトリスト（デフォルト）</li><li>空のプロジェクト</li><li>特定のプロジェクトリストから選択</li></ul> |
 | ヒントを表示 | Analysis Workspaceの右下にある青いボックスにヒントを表示します。 <p>このオプションは、デフォルトでは有効になっています。</p> |
-| <span class="preview">左側のパネルグループに表示されるコンポーネント</span> | 左側のレールのコンポーネントメニューに表示する各コンポーネントの数を選択します。 <p>0 を選択すると、コンポーネントはワークスペースの左側のレールからアクセスできなくなります。</p><p>デフォルトでは、次の各項目に対して 5 つのコンポーネントが表示されます。</p> <ul><li>ディメンション</li><li>指標</li><li>フィルター</li><li>日付範囲</li></ul> <p>Analysis Workspaceのコンポーネントについて詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
+| 左側のパネルグループに表示されるコンポーネント | 左側のレールのコンポーネントメニューに表示する各コンポーネントの数を選択します。 <p>0 を選択すると、コンポーネントはワークスペースの左側のレールからアクセスできなくなります。</p><p>デフォルトでは、次の各項目に対して 5 つのコンポーネントが表示されます。</p> <ul><li>ディメンション</li><li>指標</li><li>フィルター</li><li>日付範囲</li></ul> <p>Analysis Workspaceのコンポーネントについて詳しくは、 [コンポーネントの概要](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
 ## プロジェクトの環境設定
 
@@ -57,7 +57,7 @@ Analysis Workspaceで作成するすべての新しいプロジェクトに対�
 | --- | --- | --- |
 | **表示** |  |  |
 |  | [表示密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=ja) | 左側のパネル、フリーフォームテーブル、コホートテーブルでの垂直方向のパディングを減らして、画面に表示するコンテンツの量を選択します。 <ul><li>コンパクト</li><li>快適</li><li>拡張（デフォルト）</li></ul> |
-|  | [カラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ja) | Analysis Workspaceで使用するビジュアライゼーションカラーパレットを選択します。 <ul><li>Adobe が提供するパレット（デフォルト）</li><li><span class="preview">条件付き書式パレット </span></li><li><span class="preview">上/下パレット（分岐）</span><li>カスタム定義パレット</li></ul> |
+|  | [カラーパレット](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=ja) | Analysis Workspaceで使用するビジュアライゼーションカラーパレットを選択します。 <ul><li>Adobe が提供するパレット（デフォルト）</li><li>条件付き書式パレット </li><li>上/下パレット（分岐）<li>カスタム定義パレット</li></ul> |
 | **データ** |  |  |
 |  | [レポートスイート](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja#report-suite) | テーブルとビジュアライゼーションがデータを導き出す場所から選択します。 <ul><li>最新（デフォルト）</li><li>リストから選択された特定のレポートスイート</li></ul> |
 |  | [カレンダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=ja#calendar) | 次のリストから選択します。 <ul><li>アドビが指定する範囲（デフォルトは今月）</li><li>カスタム定義範囲</li></ul> |
