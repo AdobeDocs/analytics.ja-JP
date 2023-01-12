@@ -4,10 +4,10 @@ title: Analysis Workspace での異常値の表示
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
+source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 15%
+source-wordcount: '467'
+ht-degree: 16%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 
    この **点線** は正確な期待値です。
 
-1. 白い点をクリックすると、異常値に関する次の情報が表示されます。
+1. 異常値（白い点）をクリックすると、次の情報が表示されます。
 
    * 異常値が発生した日付
 
