@@ -5,16 +5,16 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
+source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3644'
 ht-degree: 96%
 
 ---
 
 # データ列リファレンス
 
-このページを使用して、各列に含まれるデータを確認します。ほとんどの実装ではすべての列を使用していないので、データフィードの書き出しに含める列を決定する際には、このページを参考にすることができます。
+このページでは、各列に含まれるデータを確認できます。ほとんどの実装ではすべての列を使用していないので、データフィードの書き出しに含める列を決定する際には、このページを参考にすることができます。
 
 >[!IMPORTANT]
 >
@@ -85,7 +85,7 @@ ht-degree: 96%
 | **`geo_country`** | ヒットが発生した国の略称（IP アドレスに基づく）。[国](/help/components/dimensions/countries.md)ディメンションで使用します。 | char(4) |
 | **`geo_dma`** | ヒットが発生したデモグラフィック地域の数値 ID（IP アドレスに基づく）。「[米国 DMA](/help/components/dimensions/us-dma.md)」ディメンションで使用されます。 | int unsigned |
 | **`geo_region`** | ヒットが発生した州または地域の名前（IP アドレスに基づく）。「[地域](/help/components/dimensions/regions.md)」ディメンションで使用されます。 | char(32) |
-| **`geo_zip`** | ヒットが発生した場所の郵便番号（IP アドレスに基づく）。「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの入力に役立ちます。関連トピック `zip`. | varchar(16) |
+| **`geo_zip`** | ヒットが発生した場所の郵便番号（IP アドレスに基づく）。「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの入力に役立ちます。関連トピック「 `zip`」を参照してください。 | varchar(16) |
 | **`hier1 - hier5`** | 階層変数で使用され、値の区切りリストが含まれます。区切り文字は、レポートスイートの設定に基づいて選択されます。 | varchar(255) |
 | **`hit_source`** | ヒットの発生源を示します。ヒットソース 1、2、6 に対して請求が行われます。<br>1：標準的なイメージリクエスト（タイムスタンプなし）<br>2：標準的なイメージリクエスト（タイムスタンプあり）<br>3：ライブデータソースのアップロード（タイムスタンプあり）<br>4：未使用<br>5：汎用データソースのアップロード<br>6：完全な処理データソースのアップロード<br>7：TransactionID データソースのアップロード<br>8：廃止。Adobe Advertising Cloud の以前のバージョンのデータソース<br>9：廃止。Adobe Social サマリ指標<br>10：Audience Manager サーバーサイド転送を使用 | tinyint unsigned |
 | **`hit_time_gmt`** | Unix 時間に基づく、ヒットを受け取ったアドビデータ収集サーバーのタイムスタンプ。 | int |
@@ -129,7 +129,7 @@ ht-degree: 96%
 | **`mobiledayssincelastuse`** | アプリの前回実行時からの経過日数。 | varchar(255) |
 | **`mobiledeeplinkid`** | コンテキストデータ変数 `a.deeplink.id` から収集します。獲得レポートで、モバイル獲得リンクの識別子として使用されます。 | varchar(255) |
 | **`mobiledevice`** | モバイルデバイス名。iOS の場合は、コンマ区切りの 2 桁の文字列として格納されます。最初の番号はデバイスの世代を表し、2 番目の番号はデバイスファミリーを表します。 | varchar(255) |
-| **`mobilehourofday`** | アプリが起動された時刻を示します。24 時間形式に従います。 | varchar(255) |
+| **`mobilehourofday`** | アプリが起動された時刻を、24 時間形式で示します。 | varchar(255) |
 | **`mobileinstalldate`** | モバイルインストール日。モバイルアプリをユーザーが最初に起動した日を示します。 | varchar(255) |
 | **`mobilelaunchessincelastupgrade`** | 廃止 — コンテキストデータ変数 a.LaunchesSinceUpgrade から収集します。 前回のアップグレード以降の起動回数を報告します。 | varchar(255) |
 | **`mobilelaunchnumber`** | モバイルアプリが起動されるたびに 1 ずつ増分されます。 | varchar(255) |
@@ -143,7 +143,7 @@ ht-degree: 96%
 | **`mobileosversion`** | Mobile Services のオペレーティングシステムのバージョン。 | varchar(255) |
 | **`mobileplaceaccuracy`** | コンテキストデータ変数 `a.loc.acc` から収集します。収集時の GPS の精度をメートル単位で示します。 | varchar(255) |
 | **`mobileplacecategory`** | コンテキストデータ変数 `a.loc.category` から収集します。特定の場所のカテゴリを示します。 | varchar(255) |
-| **`mobileplaceid`** | コンテキストデータ変数 `a.loc.id` から収集します。特定の目標地点の識別子。 | varchar(255) |
+| **`mobileplaceid`** | コンテキストデータ変数 `a.loc.id` から収集します。特定の対象地点の識別子。 | varchar(255) |
 | **`mobilepushoptin`** | Mobile Services プッシュのオプトイン | varchar(255) |
 | **`mobilepushpayloadid`** | Mobile Services プッシュペイロード ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Mobile Services の起動コンテンツ | varchar(255) |
@@ -152,7 +152,7 @@ ht-degree: 96%
 | **`mobilerelaunchcampaignterm`** | Mobile Services の起動条件 | varchar(255) |
 | **`mobilerelaunchcampaigntrackingcode`** | コンテキストデータ変数 `a.launch.campaign.trackingcode` から収集します。キャンペーン立ち上げのトラッキングコードとして、獲得で使用します。 | varchar(255) |
 | **`mobileresolution`** | モバイルデバイスの解像度。`[Width] x [Height]` 画素数. | varchar(255) |
-| **`monthly_visitor`** | 当月の月別訪問者であることを示すフラグ。 | tinyint unsigned |
+| **`monthly_visitor`** | 当月固有の訪問者であることを示すフラグ。 | tinyint unsigned |
 | **`mvvar1`**～`mvvar3` | 現在のヒットに設定されたか以前のヒットから保持されているリスト変数値。実装に応じたカスタム値の区切りリストを含んでいます。`post_mvvar1`〜`post_mvvar3` の列は元の区切り文字を `--**--` に置き換えます。 | テキスト |
 | **`mvvar1_instances`**～`mvvar3_instances` | 現在のヒットに設定されたリスト変数値。`post_mvvar1_instances`〜`post_mvvar3_instances` の列は元の区切り文字を `--**--` に置き換えます。 | テキスト |
 | **`namespace`** | 未使用。削除されたフィーチャの一部。 | varchar(50) |
@@ -185,7 +185,7 @@ ht-degree: 96%
 | **`referrer`** | 前のページのページ URL。「[リファラー](/help/components/dimensions/referrer.md)」ディメンションで使用されます。`referrer` のデータ型は varchar(255)、`post_referrer` のデータ型は varchar(244) です。 | varchar(255) |
 | **`resolution`** | モニターの解像度を表す数値 ID。「[画面の解像度](/help/components/dimensions/monitor-resolution.md)」ディメンションで使用されます。`resolution.tsv` ルックアップテーブルを使用します。 | smallint unsigned |
 | **`s_kwcid`** | Adobe Advertising Cloud 統合で使用されるキーワード ID。 | varchar(255) |
-| **`s_resolution`** | 画面解像度の生の値。JavaScript 関数 `screen.width x screen.height` を使用して収集します。 | char(20) |
+| **`s_resolution`** | 画面解像度の未処理の値。JavaScript 関数 `screen.width x screen.height` を使用して収集します。 | char(20) |
 | **`search_engine`** | サイトに訪問者を誘導した検索エンジンを表す数値 ID。`search_engines.tsv` ルックアップを使用します。 | smallint unsigned |
 | **`search_page_num`** | 「[すべての検索ページのランク](/help/components/dimensions/all-search-page-rank.md)」ディメンションで使用されます。ユーザーがクリックスルーしてサイトに到達する前にサイトが表示された検索結果ページを示します。 | smallint unsigned |
 | **`secondary_hit`** | 二次的なヒットを追跡するフラグ。通常、ヒットをコピーするマルチスイートタグ付けおよび VISTA ルールで発生します。 | tinyint unsigned |
@@ -234,7 +234,7 @@ ht-degree: 96%
 | **`video`** | ビデオコンテンツ | varchar(255) |
 | **`videoad`** | ビデオ広告名 | varchar(255) |
 | **`videoadinpod`** | ポッド位置のビデオ広告 | varchar(255) |
-| **`videoadlength`** | ビデオ広告の長さ | varchar(255) |
+| **`videoadlength`** | ビデオ広告の長さ | 整数 |
 | **`videoadload`** | ビデオ広告の読み込み | varchar(255) |
 | **`videoadname`** | ビデオ広告名 | varchar(255) |
 | **`videoadplayername`** | ビデオ広告プレイヤー名 | varchar(255) |
@@ -254,12 +254,13 @@ ht-degree: 96%
 | **`videoepisode`** | ビデオのエピソード | varchar(255) |
 | **`videofeedtype`** | ビデオフィードのタイプ | varchar(255) |
 | **`videogenre`** | ビデオのジャンル | テキスト |
-| **`videolength`** | ビデオの長さ | varchar(255) |
+| **`videolength`** | ビデオの長さ | 整数 |
 | **`videomvpd`** | ビデオ MVPD | varchar(255) |
 | **`videoname`** | ビデオ名 | varchar(255) |
 | **`videonetwork`** | ビデオネットワーク | varchar(255) |
 | **`videopath`** | ビデオパス | varchar(100) |
 | **`videoplayername`** | ビデオプレイヤー名 | varchar(255) |
+| **`videotime`** | ビデオ時間 | 整数 |
 | **`videoqoebitrateaverageevar`** | ビデオ画質平均ビットレート | varchar(255) |
 | **`videoqoebitratechangecountevar`** | ビデオ画質変更回数 | varchar(255) |
 | **`videoqoebuffercountevar`** | ビデオ画質バッファ数 | varchar(255) |
@@ -271,8 +272,8 @@ ht-degree: 96%
 | **`videoqoetimetostartevar`** | ビデオ画質開始時間 | varchar(255) |
 | **`videoseason`** | ビデオシーズン | varchar(255) |
 | **`videosegment`** | ビデオセグメント | varchar(255) |
-| **`videoshow`** | ビデオショー | varchar(255) |
-| **`videoshowtype`** | ビデオショーのタイプ | varchar(255) |
+| **`videoshow`** | ビデオ番組 | varchar(255) |
+| **`videoshowtype`** | ビデオ番組のタイプ | varchar(255) |
 | **`videostreamtype`** | ビデオストリームのタイプ | varchar(255) |
 | **`visid_high`** | `visid_low` と組み合わせて使用し、訪問者を一意に識別します。 | bigint unsigned |
 | **`visid_low`** | `visid_high` と組み合わせて使用し、訪問者を一意に識別します。 | bigint unsigned |
@@ -280,7 +281,7 @@ ht-degree: 96%
 | **`visid_timestamp`** | 訪問者 ID が新しく生成された場合は、訪問者 ID が生成された時刻のタイムスタンプ（UNIX 時間）を示します。 | int |
 | **`visid_type`** | 内部使用のみ。処理の最適化のためにアドビが内部的に使用します。訪問者の識別に使用された方法を表す数値 ID。<br>`0`:カスタム訪問者 ID または不明/該当なし<br>`1`:IP とユーザーエージェントのフォールバック <br>`2`:HTTP モバイル購読者ヘッダー <br>`3`:従来の cookie 値 (`s_vi`) <br>`4`:フォールバック cookie の値 (`s_fid`) <br>`5`:ID サービス | tinyint unsigned |
 | **`visit_keywords`** | 「[検索キーワード](/help/components/dimensions/search-keyword.md)」ディメンションで使用される変数。この列では、アドビが使用するバックエンドロジックに対応するために、標準以外の文字制限である varchar(244) が使用されます。 | varchar(244) |
-| **`visit_num`** | 「[訪問回数](/help/components/dimensions/visit-number.md)」ディメンションで使用される変数。1 から始まり、訪問者ごとに新しい訪問が開始されるたびに増分されます。 | int unsigned |
+| **`visit_num`** | 「[訪問回数](/help/components/dimensions/visit-number.md)」ディメンションで使用される変数。1 から始まり、各訪問者が新しい訪問を開始するたびに増分されます。 | int unsigned |
 | **`visit_page_num`** | 「[ヒットの深度](/help/components/dimensions/hit-depth.md)」ディメンションで使用される変数。ユーザーがヒットを生成するたびに 1 ずつ増えます。訪問ごとにリセットされます。 | int unsigned |
 | **`visit_ref_domain`** | `visit_referrer` 列に基づきます。訪問の最初の参照ドメイン。 | varchar(100) |
 | **`visit_ref_type`** | 訪問の最初のリファラーのリファラータイプを表す数値 ID。`referrer_type.tsv` ルックアップテーブルを使用します。 | tinyint unsigned |
@@ -291,7 +292,7 @@ ht-degree: 96%
 | **`visit_start_time_gmt`** | 訪問の最初のヒットのタイムスタンプ（UNIX 時間）。 | int |
 | **`weekly_visitor`** | ヒットが新しい週別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
 | **`yearly_visitor`** | ヒットが新しい年別訪問者であるかどうかを指定するフラグ。 | tinyint unsigned |
-| **`zip`** | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。関連トピック `geo_zip`. | varchar(50) |
+| **`zip`** | 「[郵便番号](/help/components/dimensions/zip-code.md)」ディメンションの生成に役立ちます。関連トピック 「`geo_zip`」を参照してください。 | varchar(50) |
 
 ## 空の列
 
