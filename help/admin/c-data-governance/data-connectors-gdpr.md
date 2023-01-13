@@ -3,10 +3,10 @@ description: このページには、潜在的にデータ主体の個人を直�
 title: データプライバシーと Data Connectors（Genesis）
 feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '87'
-ht-degree: 100%
+source-git-commit: 6038e38fcbf02877cfb9a34c00c80cd396d181e5
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 80%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**2021年8月19日（PT）**&#x200B;をもって、アドビは Data Connectors 統合を廃止しました。サービス提供終了はあらゆるテクノロジー製品のライフサイクルの一環です。アドビはお客様とパートナーに対して可能な限りシームレスにトランジションをおこなうことを目指します。これらの統合の多くは、Adobe Exchange を通じて利用でき、引き続き利用できます。
+>**2021年8月19日（PT）**&#x200B;をもって、アドビは Data Connectors 統合を廃止しました。サービス提供終了はあらゆるテクノロジー製品のライフサイクルの一環です。アドビはお客様とパートナーに対して可能な限りシームレスにトランジションをおこなうことを目指します。統合の多くは、 [Adobe交換](https://exchange.adobe.com/) そして、引き続き利用することができます。
 
 <!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 

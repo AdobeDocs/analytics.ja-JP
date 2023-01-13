@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
+source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 98%
+source-wordcount: '682'
+ht-degree: 97%
 
 ---
 
@@ -174,14 +174,14 @@ ht-degree: 98%
    + [CNIL 同意除外](c-data-governance/cnil-consent-exemption.md)
    + [よくある質問](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics データプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
-   + [レポートスイートのデータガバナンス設定の表示／管理](c-data-governance/gdpr-view-settings.md)
+   + [Analytics コンポーネントのデータプライバシーラベル](c-data-governance/gdpr-labels.md)
    + [レポートスイートのデータのラベル設定](c-data-governance/gdpr-setup-reportsuite.md)
-   + [アクセス要求および削除要求の送信](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics 変数のデータプライバシーラベル](c-data-governance/gdpr-labels.md)
-   + [名前空間](c-data-governance/gdpr-namespaces.md)
-   + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
+   + [レポートスイートのプライバシーラベルを表示/管理](c-data-governance/gdpr-view-settings.md)
    + [ラベル設定に関するベストプラクティス](c-data-governance/gdpr-analytics-ids.md)
    + [ラベル設定の例](c-data-governance/gdpr-labeling-example.md)
+   + [アクセス要求および削除要求の送信](c-data-governance/gdpr-submit-access-delete.md)
+   + [名前空間](c-data-governance/gdpr-namespaces.md)
+   + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
    + [データプライバシーと Data Connectors（Genesis）](c-data-governance/data-connectors-gdpr.md)
    + [データプライバシーの用語](c-data-governance/gdpr-terminology.md)
 + [管理 API](c-admin-api/c-admin-api.md)

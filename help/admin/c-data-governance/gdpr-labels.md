@@ -3,16 +3,16 @@ description: Adobe Analytics 変数のデータプライバシーラベルの例
 title: Analytics 変数のデータプライバシーラベル
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
-workflow-type: ht
+source-git-commit: 4f7282f22cba344a86efca992ea273af0707cdcf
+workflow-type: tm+mt
 source-wordcount: '3685'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Analytics 変数のデータプライバシーラベル
 
-## データにラベルを設定する理由  {#why-label}
+## データにラベルを付ける理由 {#why-label}
 
 アドビのお客様の多くには、データプライバシー法（GDPR、CCPAなど）を精査した法務チームがあります。これらのチームは、データプライバシー法に準拠するためのデータの取り扱い方法について、独自の結論を出した可能性があります。法律の解釈は企業によって異なり、希望するデータ処理設定もお客様によって異なります。データプライバシーのデータ処理方法とデータセットはお客様によって異なるので、アドビでは、データ管理者であるお客様が、自社のデータの処理設定をカスタマイズできるようにしています。これにより、それぞれのお客様が、ブランドのニーズと保有するデータセットに最適な方法でデータプライバシー要求を処理できます。
 
@@ -28,7 +28,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
 >
 >Data Usage Labeling &amp; Enforcement（DULE）フレームワークは、アドビのすべてのソリューション／サービス／プラットフォームにまたがり、共通の方法で Adobe Experience Cloud 全体のデータに関するメタデータを取得、伝達、利用できるようにすることを目的としています。データ管理者はこのメタデータを利用して、どのデータが個人情報や機密情報に該当するかを指定したり、契約上のどの制限事項がデータと関連しているかを指定したりできます。この初期リリースでは、Analytics は、データプライバシーに関連する DULE ラベルのみを公開しています。他のアドビ製品が DULE ラベルのサポートを実装するのに伴い、将来のリリースでは、追加の機密データラベルに加えて契約のラベルが導入されます。これは、製品間で共有されたデータが法的に許容される方法でのみ使用されることを保証するのに役立ちます。
 
-## 識別データラベル（DULE） {#identity-data-labels}
+## ID データラベル (DULE) {#identity-data-labels}
 
 識別データの「I」ラベルは、個人を特定できるデータまたは個人に連絡できるデータの分類に使用されます。
 
@@ -39,7 +39,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 機密データラベル（DULE） {#sensitive-data-labels}
+## 機密データラベル (DULE) {#sensitive-data-labels}
 
 機密データの「S」ラベルは、地理データなどの機密データの分類に使用されます。将来的に、他のタイプの機密情報を特定するために、追加の機密データラベルが導入される予定です。
 
@@ -89,11 +89,11 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 変数を ID-DEVICE または ID-PERSON としてラベル設定する際の名前空間の提供 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## 変数を ID-DEVICE または ID-PERSON としてラベル設定する際に名前空間を指定します {#provide-namespace}
 
 変数を ID-DEVICE または ID-PERSON としてラベル設定する場合、名前空間を提供するよう指示されます。以前定義した名前空間を使用することも、新しい名前空間を定義することもできます。
 
-### 以前定義した名前空間の使用
+### 以前に定義した名前空間を使用
 
 以前、ログイン会社の任意のレポートスイートの他の変数に ID ラベルを割り当てたことがある場合は、これらの既存の名前空間の 1 つを選択できます。名前空間で既にラベル付けされている他の変数と同じタイプの ID がこの変数に含まれている場合、また要求を送信する際に、それらの ID をすべて検索する必要がある場合、その名前空間を再利用してください。
 
@@ -102,7 +102,7 @@ Adobe Analytics のデータプライバシー実装では、識別データ、�
 
 ![](assets/namespace.png)
 
-### 新しい名前空間の定義
+### 新しい名前空間を定義
 
 また、新しい名前空間を定義することもできます。名前空間文字列は、英数字、アンダースコア、ダッシュおよびスペースに制限することをお勧めします。すべて小文字に変換されます。
 
@@ -142,11 +142,11 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
 | <ul><li>カスタム成功イベント</li><li>マーチャンダイジング eVar</li><li>複数値の変数（mvVar）</li><li>階層変数</li></ul> | <ul><li>S1／S2</li><li>ACC-ALL、ACC-PERSON</li></ul> | <ul><li>I1／I2</li>  <li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON</li></ul> |
 | 分類 | <ul><li>I1／I2、S1／S2</li><li>ACC-ALL、ACC-PERSON</li></ul> | <ul><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON</li></ul> |
 | <ul><li>トラフィック変数（prop）</li><li>コマース変数（非マーチャンダイジング eVar）</li></ul> | すべてのラベル | - |
-| その他のほとんどの変数（*例外については、次の表を参照してください*） | ACC-ALL、ACC-PERSON | <ul><li>I1／I2、S1／S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON）</li></ul> |
+| その他のほとんどの変数（*例外については、次の表を参照してください*） | ACC-ALL、ACC-PERSON | <ul><li>I1／I2、S1／S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON)</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
-## ACC-ALL／ACC-PERSON 以外のラベルを割り当てる／変更することができる変数 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## ACC-ALL／ACC-PERSON 以外のラベルを割り当てる／変更することができる変数 {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -202,14 +202,14 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
    <td colname="col4"> <p>DEL ラベルを削除することはできませんが、DEL-DEVICE または DEL-PERSON、または両方に変更できます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ClickMap アクション（従来）、 </p> <p>ClickMap コンテキスト（従来）、 </p> <p>ページ、 </p> <p>ページ URL, </p> <p>オリジナルエントリページ URL、 </p> <p>リファラー、 </p> <p>訪問開始ページ URL </p> </td> 
+   <td colname="col2"> <p>ClickMap アクション（従来）、 </p> <p>ClickMap コンテキスト（従来）、 </p> <p>ページ、 </p> <p>ページ URL, </p> <p>オリジナル入口ページ URL, </p> <p>リファラー、 </p> <p>訪問開始ページ URL </p> </td> 
    <td colname="col3"> <p>なし／I1／I2 </p> <p>なし／DEL-DEVICE／DEL-PERSON </p> </td> 
    <td colname="col4"> <p>変数に、個人を直接的または間接的に特定できるデータを含む URL パラメーターが追加される場合があります。これらの変数で個人を直接的または間接的に特定できるデータを収集しない実装の場合は、識別ラベルおよび削除ラベルは不要です。 </p> <p>削除によって URL パラメーターはクリアされますが、元の URL は保持されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 削除処理 {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## 削除処理 {#deletion}
 
 Adobe Analytics でのデータプライバシー削除要求は、レポートへの影響を最小限に抑えるように設計されています。ほとんどの場合、レポートに表示される指標は変わりません。データプライバシー削除の前に実行された履歴レポートは、削除の後に実行された同じレポートと一致します。これは、削除されたデータをデータ主体から完全に切り離し、個人を特定できないデータを保持してレポートの値の一貫性を保つことで実現されます。
 
@@ -226,7 +226,7 @@ Adobe Analytics でのデータプライバシー削除要求は、レポート�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 想定される削除ラベルをサポートしていない変数 {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## 想定される削除ラベルをサポートしていない変数 {#no-delete-support}
 
 ここでは、削除に対応していない Analytics 変数について説明します。これらの変数は、変数に含まれているデータのタイプを理解しておらず、変数の名前に基づいて不適切な判断をしかねない Analytics 以外のユーザー（法務チームなど）によって削除されてしまう可能性があります。ここでは、これらの変数の一部をリストします。また、削除が不要な理由や、特定の削除ラベルを必要としない理由も示します。
 
