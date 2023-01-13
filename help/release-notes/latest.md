@@ -3,16 +3,16 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e4468aa0a34654395fe78e70092df77d8f7011f6
+source-git-commit: b6c22fdeab68c55f145ed72002532ed87c06a258
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 60%
+source-wordcount: '1473'
+ht-degree: 58%
 
 ---
 
 # 最新のAdobe Analyticsリリースノート
 
-**最終更新日**:2023 年 1 月 7 日
+**最終更新日**:2023 年 1 月 13 日
 
 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -22,6 +22,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 | ----------- | ---------- | ------- | ---- |
 | **Workspace のフォルダー** | フォルダーを使用すると、プロジェクトを整理および分類して、取得やアクセスを改善できます。 さらに、共有 **[!UICONTROL 会社]** フォルダーを使用すると、管理者は、すべての Workspace ユーザーと簡単にコンテンツを作成および共有できます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | 該当なし | 2023年1月11日（PT） |
 | **デフォルトのランディングページ** | この [新規ランディングページ](/help/analyze/landing.md) 2022 年以前に導入されたは、 **2023 年 1 月 12 日**. 従来のランディングページは廃止され、新しいエクスペリエンスを使用するには全員が必要になります。 | 該当なし | 2023年1月11日（PT） |
+| **プロジェクトマネージャーページは非推奨** | 新しいランディングページのリリースに伴い、 **[!UICONTROL プロジェクトマネージャー]** 次に示すように **[!UICONTROL Adobe Analytics]** > **[!UICONTROL コンポーネント]**. 新しいランディングページには、古いプロジェクトマネージャーページのすべての機能が含まれています。 詳細情報 | 該当なし | 2023年1月11日（PT） |
 | **新しいプロジェクトを自動保存** | Analysis Workspaceは新しく作成したプロジェクトを自動保存するようになりました。 何らかの理由で、手動で保存する前に新しく作成したプロジェクトへのアクセス権が予期せず失われた場合は、プロジェクトの回復バージョンが使用できるようになりました。 以前は、プロジェクトは手動で保存した後にのみ自動保存されていました。 [詳細情報](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | 該当なし | 2023年1月11日（PT） |
 | **ユーザー環境設定の強化** | ユーザーレベルで追加の環境設定を設定できるようになりました ( [!UICONTROL コンポーネント] > [!UICONTROL 環境設定]) をクリックします。 ユーザー環境設定を設定すると、選択はプロジェクト、テーブルおよびビジュアライゼーション全体にわたって行われます。 環境設定ページには、次の新しいタブが含まれ、それぞれに多数の新しい設定オプションが含まれています。<ul><li>フリーフォームテーブル</li><li>ビジュアライゼーション</li></ul>さらに、 **[!UICONTROL 一般]** および **[!UICONTROL プロジェクト]** タブ<p>以前は、これらの環境設定の多くは、個々のプロジェクト、テーブルおよびビジュアライゼーションに対してのみ設定できました。 [詳細情報](/help/analyze/analysis-workspace/user-preferences.md) | 該当なし | 2023年1月11日（PT） |
 
