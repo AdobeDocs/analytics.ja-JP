@@ -3,10 +3,10 @@ description: 貢献度分析は、Adobe Analytics で異常値と見なされた
 title: 貢献度分析で使用される統計的手法
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 100%
 
    ![](assets/cramers-v.png)
 
-1. 各ディメンション項目の場合、ピアソン残差（PR）が、異常な指標と各ディメンション項目の間の関連の測定に使用されます。PR は、標準正規分布に従い、偏差が比較可能でなくてもアルゴリズムで 2 つのランダム変数の PR を比較できます。実際には、エラーは不明で、有限のサンプル補正を使用して見積もられます。
+1. 各ディメンション項目に対して、ピアソン残差 (PR) が、異常な指標と各ディメンション項目の間の関連の測定に使用されます。 PR は、標準正規分布に従い、偏差が比較可能でなくてもアルゴリズムで 2 つのランダム変数の PR を比較できます。実際には、エラーは不明で、有限のサンプル補正を使用して見積もられます。
 
    前の例の表 1 では、国 i および期間 2 の有限サンプル補正を含む PR は、次の式によって得られます。
 
    ![](assets/persons-residual.png)
 
-   ここで、
+   こちらを参照してください,
 
    ![](assets/pr-example.png)
 
