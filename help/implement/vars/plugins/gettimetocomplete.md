@@ -3,10 +3,10 @@ title: getTimeToComplete
 description: タスクの完了に要した時間を測定します。
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 プラグイン拡張機能を使用しない場合は、カスタムコードエディターを使用できます。
 
-1. にログインします。 [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) Adobe ID 資格情報を使用して、
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 1. 目的のプロパティをクリックします。
 1. 「[!UICONTROL 拡張機能]」タブに移動し、Adobe Analytics 拡張機能の下にある「**[!UICONTROL 設定]**」ボタンをクリックします。
 1. 「[!UICONTROL カスタムコードを使用してトラッキングを設定]」アコーディオンを展開すると、「[!UICONTROL エディターを開く]」ボタンが表示されます。
@@ -62,7 +62,8 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 * **`sos`**（オプション、文字列）：`"start"` をタイマーを開始する時に設定します。`"stop"` をタイマーを停止する時に設定します。デフォルト値は `"start"` です。
 * **`cn`**（オプション、文字列）：開始時間を保存する Cookie の名前です。デフォルト値は `"s_gttc"` です。
-* **`exp`**（オプション、整数）：Cookie（およびタイマー）の有効期限が切れる日数です。デフォルトは `0` で、ブラウザーセッションの終わりを表します。
+* **`exp`** （オプション、整数）:秒、時間または日数 ( `tp` 時間分割引数を使用する ) の値を指定する必要があります。 デフォルトは 30 分です。
+* **`tp`** （オプション、文字列）:Cookie（およびタイマー）の有効期限が切れる時間分割文字列。 `exp` 引数。 日の場合は「d」、時間の場合は「h」、秒の場合は「s」に設定します。 これを設定しない場合、Cookie（およびタイマー）の有効期限は、 `exp` 引数がに設定されました。
 
 この関数を呼び出すと、`"start"` と `"stop"` の間にかかった日数、時間数、分数、秒数を含む文字列が返されます。
 
@@ -80,8 +81,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## バージョン履歴
