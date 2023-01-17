@@ -3,9 +3,9 @@ description: Adobe Analytics で Adobe Campaign レポートを有効にする�
 title: Adobe Campaign レポートを Adobe Analytics に統合する方法
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Analytics と Adobe Campaign のこの統合により、
 * Adobe Analytics のパラメーターにより、トラッキングの数式が拡張されます。
 * **[!UICONTROL Analytics]**／**[!UICONTROL レポート]**／**[!UICONTROL Adobe Campaign]** で新しいレポートを追加できます。
 * 5 個の新しい Adobe Campaign 分類が追加されます。
-* 10 個の新しい Adobe Campaign 指標が追加されます。
+* 9 個の新しい Adobe Campaign 指標が追加されます。
 * 6 個の新しい Adobe Campaign ディメンションが追加されます。
 * 15 分ごとにデータが Analytics に同期されます。
 
@@ -60,7 +60,6 @@ Adobe Analytics レポートスイートで、次の Campaign の&#x200B;**指�
 * Adobe Campaign 送信
 * Adobe Campaign 開封
 * Adobe Campaign クリック
-* Adobe Campaign 処理済み
 * Adobe Campaign 配信
 * Adobe Campaign ユニーク開封
 * Adobe Campaign ユニーククリック
