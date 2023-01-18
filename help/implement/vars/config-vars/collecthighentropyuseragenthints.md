@@ -2,16 +2,16 @@
 title: collectHighEntropyUserAgentHints
 description: collectHighEntropyUserAgentHints 変数を使用して、Chromium ブラウザー（Google Chrome や Microsoft Edge など）から高エントロピーヒントをアドビがリクエストするかどうかを決定します。
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: 61d5006a20f13ab5aec9e1b63f4197e9a9c98429
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # collectHighEntropyUserAgentHints
 
-Adobe Analytics は高エントロピーのクライアントヒントを使用して、デバイスとブラウザーの識別を向上させます。このオプションは、AppMeasurement.js のバージョン 2.23.0 以降で使用できます。クライアントヒントについて詳しくは、[この概要と FAQ](/help/technotes/client-hints.md) のほか [Google のブログ](https://web.dev/user-agent-client-hints/)を参照してください。
+Adobe Analytics は高エントロピーのクライアントヒントを使用して、デバイスとブラウザーの識別を向上させます。このオプションは、AppMeasurement.js のバージョン2.23.0以降で使用できます。 クライアントヒントについて詳しくは、[この概要と FAQ](/help/technotes/client-hints.md) のほか [Google のブログ](https://web.dev/user-agent-client-hints/)を参照してください。
 
 ## Web SDK を使用した高エントロピーヒントの収集
 
@@ -21,7 +21,7 @@ Adobe Analytics は高エントロピーのクライアントヒントを使用�
 
 **[!UICONTROL 高エントロピーのユーザーエージェントヒントを収集]**&#x200B;は、Adobe Analytics 拡張機能を設定する際に表示される一般アコーディオンの下にあるチェックボックスです。
 
-1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/#/@adobepm/data-collection)にログインします。
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/#/@adobepm/data-collection) にログインします。
 
 1. 目的の[!UICONTROL タグプロパティ]をクリックします。
 
@@ -35,6 +35,6 @@ Adobe Analytics は高エントロピーのクライアントヒントを使用�
 
 TRUE に設定すると、すべての高エントロピーのヒントがブラウザーからリクエストされます。
 
-`s.collectHighEntropyUserAgentHints = TRUE`
+`s.collectHighEntropyUserAgentHints = true`
 
-`s.collectHighEntropyUserAgentHints = FALSE`
+`s.collectHighEntropyUserAgentHints = false`
