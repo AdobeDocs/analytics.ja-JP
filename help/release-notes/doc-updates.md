@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5e6341663eecaa7ebc99155a9eec085a8b7acf1c
+source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3556'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 0%
 | フォルダー | 専用のページ [フォルダー管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | ユーザー環境設定 | ユーザーの環境設定の多くが、 [環境設定](/help/analyze/analysis-workspace/user-preferences.md). |
 | プロジェクト用に自動保存 | 内の自動保存機能を含めるようコンテンツを更新しました [プロジェクトの保存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
+| ランディングページ | 新規 [ランディングページの更新](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
