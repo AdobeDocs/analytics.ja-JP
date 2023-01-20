@@ -3,10 +3,10 @@ title: ブラウザーの cookie 制限の影響を軽減するオプション
 description: Adobe Analytics のデータ収集を改善するために、ブラウザーの cookie 制限の影響を軽減する方法について説明します。
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 このドキュメントでは、主要なブラウザーが cookie に対するトラッキング防止対策を実装する際に、プロパティやソリューション間で永続的な訪問者の識別を保持するためのオプションについて説明します。
 
-Adobe Analytics は、ファーストパーティ cookie を利用して訪問者のオンサイトアクティビティを記録します。また、Analytics はサードパーティ cookie を利用して、自社の他のドメインでのアクティビティなど、訪問者のオフサイトアクティビティを把握します。サードパーティ cookie は多くのブラウザーでブロックされ、Chrome によるサポートの停止（現在は 2022 年に予定）によって、ほとんど利用できなくなります。ファーストパーティ cookie はすべてのブラウザーで許可されますが、Safari および他のブラウザーでは Apple の [ITP トラッキング防止](https://webkit.org/tracking-prevention)手段として、有効期限が制限されています。ブラウザー cookie に関する現在の制限について詳しくは、「[Adobe Analytics とブラウザーの cookie](cookies.md)」を参照してください。
+Adobe Analytics は、ファーストパーティ cookie を利用して訪問者のオンサイトアクティビティを記録します。また、Analytics はサードパーティ cookie を利用して、自社の他のドメインでのアクティビティなど、訪問者のオフサイトアクティビティを把握します。サードパーティ Cookie は多くのブラウザーでブロックされ、Chrome によるサポートの削除（現在は 2024 年末に予定）により、ほとんど利用できなくなります。 ファーストパーティ cookie はすべてのブラウザーで許可されますが、Safari および他のブラウザーでは Apple の [ITP トラッキング防止](https://webkit.org/tracking-prevention)手段として、有効期限が制限されています。ブラウザー cookie に関する現在の制限について詳しくは、「[Adobe Analytics とブラウザーの cookie](cookies.md)」を参照してください。
 
 これらのブラウザーの制限は、匿名のサードパーティトラッキングから、信頼するユーザーやブランド間での情報の明示的な共有への移行を反映しています。この移行をサポートするために、アドビは、ファーストパーティとの関係を通じて収集された永続的な識別子を含め、お客様が従来の cookie を補完する方法を提供します。
 
@@ -31,6 +31,10 @@ Adobe Analytics は、ファーストパーティ cookie を利用して訪問�
 サーバーサイドの収集は、ブラウザーのメカニズムに依存して cookie を設定するのではなく、独自の識別子を提供する柔軟性を提供します。
 
 [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) または [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) を使用して、Analytics サーバーサイドにデータを送信できます。新しいサーバーサイド実装では、Bulk Data Insertion API をお勧めします。2 つの API の比較については、「[使用する Adobe Analytics ツール](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=ja)」を参照してください。
+
+## Web SDK を使用したファーストパーティデバイス ID(FPID)
+
+Adobe Experience Platform Web SDK では、Adobe生成Experience CloudID(ECID) の代わりに、独自のデバイス識別子を設定および管理することができます。 これらはファーストパーティデバイス ID(FPID) と呼ばれます。 詳しくは[こちら](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.htm?lang=ja)。
 
 ## 詳細情報
 
