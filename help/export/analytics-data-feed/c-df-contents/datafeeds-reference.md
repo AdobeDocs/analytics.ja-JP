@@ -5,9 +5,9 @@ subtopic: data feeds
 title: データ列リファレンス
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
+source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3641'
 ht-degree: 96%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 96%
 | **`browser_width`** | ブラウザーウィンドウの幅（ピクセル単位）。 | smallint unsigned |
 | **`c_color`** | カラーパレットのビット深度。「[色深度](/help/components/dimensions/color-depth.md)」ディメンションの計算の一環として使用されます。AppMeasurement では JavaScript 関数 `screen.colorDepth()` が使用されます。 | char(20) |
 | **`campaign`** | 「[トラッキングコード](/help/components/dimensions/tracking-code.md)」ディメンションで使用される変数。 | varchar(255) |
-| **`carrier`** | Adobe Advertising Cloud 統合変数。携帯電話会社を指定します。`carrier`ルックアップテーブルを参照します。 | varchar(100) |
+| **`carrier`** | Adobe Advertising 統合変数。携帯電話会社を指定します。`carrier`ルックアップテーブルを参照します。 | varchar(100) |
 | **`ch_hdr`** | HTTP リクエストヘッダーを通じて収集されたクライアントヒント。 | テキスト |
 | **`ch_js`** | User-Agent クライアントヒント JavaScript API を通じて収集されたクライアントヒント。 | テキスト |
 | **`channel`** | 「[サイトセクション](/help/components/dimensions/site-section.md)」ディメンションで使用される変数。 | varchar(100) |
@@ -71,7 +71,7 @@ ht-degree: 96%
 | **`duplicate_events`** | 重複としてカウントされた各イベントを列挙します。 | varchar(255) |
 | **`duplicate_purchase`** | このヒットの購入イベントが重複しているので無視されることを示すフラグ。 | tinyint unsigned |
 | **`duplicated_from`** | ヒットコピー VISTA ルールを含んだレポートスイートでのみ使用されます。ヒットがどのレポートスイートからコピーされたかを示します。 | varchar(40) |
-| **`ef_id`** | Adobe Advertising Cloud 統合で使用される `ef_id` | varchar(255) |
+| **`ef_id`** | Adobe Advertising 統合で使用される `ef_id` | varchar(255) |
 | **`evar1 - evar250`** | カスタム変数 1 ～ 250。「[eVar](/help/components/dimensions/evar.md)」ディメンションで使用されます。eVar の使用方法は組織ごとに異なります。組織における各 eVar への値の設定方法について詳しくは、それぞれの組織に固有のソリューションデザインドキュメントを参照してください。 | varchar(255) |
 | **`event_list`** | ヒットで発生したイベントを表す数値 ID のコンマ区切りリスト。デフォルトイベントもカスタムイベント 1 ～ 1000 も含まれています。`event.tsv` ルックアップを使用します。 | テキスト |
 | **`exclude_hit`** | ヒットがレポートから除外されていることを示すフラグ。除外されたヒットに対しては `visit_num` 列が増分されません。<br>1：未使用。削除されたフィーチャの一部。<br>2：未使用。削除されたフィーチャの一部。<br>3：廃止。ユーザーエージェントの除外<br>4：IP アドレスに基づく除外<br>5：重要なヒット情報が欠落しています。例：`page_url`、`pagename`、`page_event`、`event_list`<br> 6：JavaScript でヒットが正しく処理されませんでした<br>7：アカウント固有の除外（VISTA ルールなど）<br>8：未使用。代替のアカウント固有の除外。<br>9：未使用。削除されたフィーチャの一部。<br>10：無効な通貨コード<br>11：タイムスタンプのみのレポートスイートでヒットにタイムスタンプが含まれていない、またはタイムスタンプ以外のレポートスイートでヒットにタイムスタンプが含まれている<br>12:未使用。削除されたフィーチャの一部。<br>13：未使用。削除されたフィーチャの一部。<br>14：Analytics と一致しないターゲットヒット<br>15：現在は使用されていません。<br>16：Analytics ヒットと一致しない Advertising Cloud ヒット | tinyint unsigned |
@@ -184,7 +184,7 @@ ht-degree: 96%
 | **`ref_type`** | ヒットのリファラルのタイプを表す数値 ID。「[リファラータイプ](/help/components/dimensions/referrer-type.md)」ディメンションで使用されます。<br>1：サイト内<br>2：その他の Web サイト<br>3：検索エンジン<br>4：ハードドライブ<br>5：USENET<br>6：手動入力／ブックマーク（リファラーなし）<br>7：電子メール<br>8：JavaScript なし<br>9：ソーシャルネットワーク | tinyint unsigned |
 | **`referrer`** | 前のページのページ URL。「[リファラー](/help/components/dimensions/referrer.md)」ディメンションで使用されます。`referrer` のデータ型は varchar(255)、`post_referrer` のデータ型は varchar(244) です。 | varchar(255) |
 | **`resolution`** | モニターの解像度を表す数値 ID。「[画面の解像度](/help/components/dimensions/monitor-resolution.md)」ディメンションで使用されます。`resolution.tsv` ルックアップテーブルを使用します。 | smallint unsigned |
-| **`s_kwcid`** | Adobe Advertising Cloud 統合で使用されるキーワード ID。 | varchar(255) |
+| **`s_kwcid`** | Adobe Advertising 統合で使用されるキーワード ID。 | varchar(255) |
 | **`s_resolution`** | 画面解像度の未処理の値。JavaScript 関数 `screen.width x screen.height` を使用して収集します。 | char(20) |
 | **`search_engine`** | サイトに訪問者を誘導した検索エンジンを表す数値 ID。`search_engines.tsv` ルックアップを使用します。 | smallint unsigned |
 | **`search_page_num`** | 「[すべての検索ページのランク](/help/components/dimensions/all-search-page-rank.md)」ディメンションで使用されます。ユーザーがクリックスルーしてサイトに到達する前にサイトが表示された検索結果ページを示します。 | smallint unsigned |
