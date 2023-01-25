@@ -4,7 +4,7 @@ title: ジョブポータル
 feature: Report Suite Settings
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
