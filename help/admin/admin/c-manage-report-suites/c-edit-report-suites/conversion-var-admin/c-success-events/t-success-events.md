@@ -4,7 +4,7 @@ title: 成功イベントの設定
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
 ht-degree: 100%
 
