@@ -4,7 +4,7 @@ title: 有料検索検知
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
