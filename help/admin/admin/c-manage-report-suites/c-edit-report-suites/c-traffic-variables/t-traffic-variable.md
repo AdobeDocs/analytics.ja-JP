@@ -4,7 +4,7 @@ title: トラフィック変数レポートの有効化
 feature: Admin Tools
 exl-id: 6c28c1ed-76ec-4df8-a583-3b7ac923569a
 source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '58'
 ht-degree: 100%
 
