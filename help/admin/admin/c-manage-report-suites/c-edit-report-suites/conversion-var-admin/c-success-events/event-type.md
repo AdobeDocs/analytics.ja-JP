@@ -4,7 +4,7 @@ title: イベントタイプの変更について
 feature: Event
 exl-id: 6972431a-bb42-4b7f-b02b-ceef0ff56271
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '43'
 ht-degree: 100%
 
