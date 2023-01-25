@@ -2,7 +2,8 @@
 title: 階層
 description: レポートで使用できるカスタムディメンションです。
 feature: Dimensions
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
