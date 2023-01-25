@@ -5,7 +5,7 @@ title: アクティブな処理ルールの表示
 feature: Processing Rules
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '51'
 ht-degree: 100%
 
