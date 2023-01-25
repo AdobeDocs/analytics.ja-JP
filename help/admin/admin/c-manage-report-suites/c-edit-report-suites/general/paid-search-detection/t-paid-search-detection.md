@@ -4,7 +4,7 @@ title: 有料検索検知の設定
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
 ht-degree: 100%
 
