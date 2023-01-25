@@ -3,7 +3,7 @@ title: 実装モーダル
 description: Adobe Analytics を初めて実装する場合について説明します。
 exl-id: 46d35adf-33f3-422c-abda-5f4b56f803aa
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '21'
 ht-degree: 100%
 
