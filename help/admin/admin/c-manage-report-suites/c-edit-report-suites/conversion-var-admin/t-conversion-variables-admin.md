@@ -4,7 +4,7 @@ title: コンバージョン変数の編集
 feature: Admin Tools
 exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
 ht-degree: 100%
 
