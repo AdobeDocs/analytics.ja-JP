@@ -5,7 +5,7 @@ title: フォルダーにプロジェクトを保存
 feature: Workspace Basics
 exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
 source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
 ht-degree: 100%
 
