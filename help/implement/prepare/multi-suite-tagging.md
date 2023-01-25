@@ -4,7 +4,7 @@ title: 複数のスイートタグ付けの実装
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
