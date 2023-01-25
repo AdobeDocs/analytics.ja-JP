@@ -4,7 +4,7 @@ title: 過去のサーバーコールの推定とトラフィックスパイク�
 feature: Traffic Management
 exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
 source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
 ht-degree: 100%
 
