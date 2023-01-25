@@ -3,9 +3,9 @@ title: オペレーティングシステム
 description: 訪問者のオペレーティングシステム。
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 26de81f090cebb45473a04a2edbe281f1c8591a4
+source-git-commit: 17c441f8855b8ca0604076763817de8d4d3b8efb
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 29%
 
 ---
@@ -28,16 +28,16 @@ ht-degree: 29%
 
 ### Appleオペレーティングシステムの命名規則の変更：
 
-バージョン 11 以降では、Mac OS の代わりに OS X を使用して、Appleオペレーティングシステムを参照します。
+バージョン 11 以降では、OS X ではなくMacOSを使用して、Appleオペレーティングシステムを参照します。
 
 例：
 
-* macOSバージョン10.15.7(UA 文字列でのバージョン10.15.7の表示に関する以下の注意を参照 )。
-* OS X バージョン 11.0.0
+* &quot;OS X 10.15&quot;(UA 文字列での表現に関するバージョン10.15.7に関する下記の注意を参照 )。
+* &quot;MacOS 11.0.0&quot;
 
 ### Mac OS のバージョンが、バージョン10.15.7以降のユーザーエージェントで正しくありません 
 
-2023 年 1 月以降、すべてのブラウザーのユーザーエージェントで、Mac OS のバージョンが10.15.7（新しいバージョンでも）と表示されます。 これは、UA にバージョン 11 を含めると、明らかに一部のウェブサイトで問題が発生したためです。 また、Appleは、UA に誤った OS バージョンを含めると、プライバシーに関する利点があると述べています。
+Appleコンピューター上の User Agent では、新しいバージョンであっても、OS のバージョンが10.15.7と表示されます。 これは、UA にバージョン 11 を含めると、明らかに一部のウェブサイトで問題が発生したためです。 これはに当てはまります。 *すべてのブラウザー* とは、Chromium ブラウザー上のGoogleユーザーエージェントの「フリーズ」とは関係ありません。
 
 クライアントヒントは、プラットフォームのバージョンヒント (「Sec-CH-UA-Platform-Version」) に正しいバージョンが含まれていることに注意してください。 これは高エントロピーのヒントなので、Adobeでは自動的に収集されません。 詳しくは、 [Adobe Analyticsヒント FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 高エントロピーのヒントを収集する方法の詳細
 
