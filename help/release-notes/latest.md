@@ -3,7 +3,7 @@ title: 最新の Analytics リリースノート
 description: 現在の Adobe Analytics リリースノートを表示します。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b6c22fdeab68c55f145ed72002532ed87c06a258
+source-git-commit: a3683ec1697932201593d21b7f5b8f0e304f364e
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 58%
@@ -12,7 +12,7 @@ ht-degree: 58%
 
 # 最新のAdobe Analyticsリリースノート
 
-**最終更新日**:2023 年 1 月 13 日
+**最終更新日**:2023 年 1 月 26 日
 
 Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に基づいて動作します。このモデルにより、機能のデプロイメントに対する、よりスケーラブルかつ段階的なアプローチが可能になります。したがって、これらのリリースノートは月に数回更新されます。リリースノートを定期的に確認してください。
 
@@ -20,7 +20,7 @@ Adobe Analytics リリースは、[継続的な配信モデル](releases.md)に�
 
 | 機能 | 説明 | [ロールアウト開始](releases.md) | [一般公開](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Workspace のフォルダー** | フォルダーを使用すると、プロジェクトを整理および分類して、取得やアクセスを改善できます。 さらに、共有 **[!UICONTROL 会社]** フォルダーを使用すると、管理者は、すべての Workspace ユーザーと簡単にコンテンツを作成および共有できます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | 該当なし | 2023年1月11日（PT） |
+| **Workspace のフォルダー** | フォルダーを使用すると、プロジェクトを整理および分類して、取得やアクセスを改善できます。 さらに、共有 **[!UICONTROL 会社]** フォルダーを使用すると、管理者は、すべての Workspace ユーザーと簡単にコンテンツを作成および共有できます。 [詳細情報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html?lang=ja) | 該当なし | 2023年1月11日（PT） |
 | **デフォルトのランディングページ** | この [新規ランディングページ](/help/analyze/landing.md) 2022 年以前に導入されたは、 **2023 年 1 月 12 日**. 従来のランディングページは廃止され、新しいエクスペリエンスを使用するには全員が必要になります。 | 該当なし | 2023年1月11日（PT） |
 | **プロジェクトマネージャーページは非推奨** | 新しいランディングページのリリースに伴い、 **[!UICONTROL プロジェクトマネージャー]** 次に示すように **[!UICONTROL Adobe Analytics]** > **[!UICONTROL コンポーネント]**. 新しいランディングページには、古いプロジェクトマネージャーページのすべての機能が含まれています。 詳細情報 | 該当なし | 2023年1月11日（PT） |
 | **新しいプロジェクトを自動保存** | Analysis Workspaceは新しく作成したプロジェクトを自動保存するようになりました。 何らかの理由で、手動で保存する前に新しく作成したプロジェクトへのアクセス権が予期せず失われた場合は、プロジェクトの回復バージョンが使用できるようになりました。 以前は、プロジェクトは手動で保存した後にのみ自動保存されていました。 [詳細情報](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | 該当なし | 2023年1月11日（PT） |
@@ -36,12 +36,12 @@ AN-282634;AN-289684;AN-299597;AN-299630;AN-300128;AN-301633;AN-301683;AN-301745;
 
 | 通知 | 追加日または更新日 | 説明 |
 | ----------- | ---------- | ---------- |
+| **Google クライアントヒントによるデバイス検索の更新** | 2023 年 1 月 26 日 | デバイス参照でのクライアントヒントの使用は、次の日に開始されます。 **2023 年 2 月 16 日**. <p> <p>2022 年 10 月以降、Web SDK ライブラリまたは AppMeasurement JavaScript ライブラリを使用してクライアントヒントを収集できるようになります。 しかし、2023 年 2 月まで、クライアントヒントはデバイス参照に組み込まれません。 その時点で、Adobeは、Google Chrome やMicrosoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、User-Agent に加えて、クライアントヒントを使用し始めます。 これは、クライアントヒントを介して渡されるデータの代わりに User-Agent 文字列から提供される情報を徐々に減らす Google の計画に対応するものです。 <p> <p>この変更の一環として、アドビでは、User-Agent に関連するすべてのデバイス検索に対して Device Atlas を使用します。[詳細情報](/help/technotes/client-hints.md) |
 | **Reports &amp; Analytics での予定レポートの一時停止** | 2023 年 1 月 7 日 | これは、Adobeが **2023 年 1 月 31 日**. レポートとデータ抽出の両方の有効期限は、引き続き 9 か月に制限されることに注意してください。レポートおよびデータ抽出の配信は、スケジュールが再アクティブ化されない限り、この期間終了後に一時停止されます。<p>繰り返しになりますが、これらの機能は 2023年1月31日（PT）に廃止されます。この日付までに、予定レポートを Adobe Analytics で使用できる他のメカニズムのいずれかに移行する必要があります。その他の質問やサポートについては、アドビのカスタマーケアにお問い合わせください。[詳細情報](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **Report Builder での予定タスクの一時停止** | 2023 年 1 月 7 日 | オン **2023 年 1 月 31 日**、Adobeは、パフォーマンスと配信の最適化作業の一環として、Report Builderでスケジュールされたタスクに対する変更をロールアウトします。 これらの変更には、スケジュールされた配信の「x 回後に終了」機能の削除が含まれます。<p>1 時間ごとの Report Builder タスクのスケジュールを継続し、最大 99 回発生した後にタスクを終了させることができます。ロールバックは 1 時間ごとのタスクにのみ適用されることに注意してください。「x 回後に終了する」は、その他のすべての配信間隔（日別、週別、月別、年別）では使用できません。このオプションは、2023年1月31日（PT）に廃止されることに注意してください。その他の質問やサポートについては、アドビのカスタマーケアにお問い合わせください。[詳細情報](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **IP からジオロケーションへのマッピングの改善** | 2023 年 1 月 5 日 | IP ルックアップに関する当社のベンダー（Digital Element）は、IP からジオロケーションへのマッピング用に新しく改善されたデータセット（NetAcuity Pulse）にアップグレードしつつあります。当初は 2022 年 10 月に予定されていたので、Adobe Analyticsでは、この新しいデータセットを **2023 年 1 月 12 日**. 新しいデータベースは、以前のバージョンよりも正確になります。新しいデータベースを採用する際に、IP からジオロケーションへのマッピングは一部変更または改善されます。<p>すべてのAdobe Analyticsツール (Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream、Analytics データフィードなど ) は、新しく改善されたマッピングを自動的に利用します。 データフィードのデータの形式は変更されません。Analytics ソースコネクタを通じて提供される CJA データは、新しいマッピングを自動的に利用します。 |
 | **新しい NetAcuity 通信事業者データベースの更新** | 2023 年 1 月 5 日 | この更新は、もともと 2022 年 10 月 5 日に予定されていたもので、今後は **2023 年 1 月 12 日**. Adobe Analytics Data Warehouse および Analytics データフィードの `carrier` フィールドに保存されている通信事業者関連の情報が変更されます。従来、その列のデータ形式は `<domain>:<ISP>` でした。Adobeは、これらをマッピングする内部ルックアップテーブルを維持しています `<domain>:<ISP>` の値をAdobe Analyticsのレポートツール (Analysis Workspace、Reports &amp; Analytics、Reporting API、Data Warehouse、LiveStream など ) でレポート目的で通信事業者名に変換します。 ルックアップファイル（`carrier.tsv`）にもデータフィードが用意されているので、同じマッピングを使用できます。<p>この更新により、NetAcuity のより正確な通信事業者データベースを使用して通信事業者のマッピングが強化されます。データフィードの通信事業者列のデータ形式は、今後変更される予定です。`<domain>:<ISP>` の代わりに、通信事業者名が含まれます。アドビでは、従来のレポートとの継続性をできる限り維持するために、引き続きルックアップテーブルを使用します。アドビがルックアップを適用するレポートツール（Analysis Workspace、Reports &amp; Analytics、レポート API、Data Warehouse、LiveStream など）は、より正確なマッピングのメリットを享受できます。新しいデータベースを採用すると、一部のマッピング（特に国際ドメインおよび ISP の場合）は、他のマッピングよりも変更が多くなります。データフィード通信事業者ルックアップファイル（`carrier.tsv`）では、古いマッピングが維持され、新しいマッピングが追加されます。<p>Analytics ソースコネクタは、現在、通信事業者フィールドをマッピングしていないので、通信事業者レポートは、現在、Experience Platform、CJA などで使用できません。 したがって、新しい通信事業者データベースを使用しても、Analytics ソースコネクタから提供されるデータに基づいている限り Experience Platform での影響はありません。 |
 | **トラフィックスパイク通知のガイドラインを更新しました** | 2022年11月18日（PT） | 以前のガイドラインは、ヒット数に厳密に基づいていました。[新しいガイドライン](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=ja)は、レポートスイートのサイズと増加率の組み合わせに基づいています。 |
-| **Google クライアントヒントによるデバイス検索の更新** | 2023 年 1 月 7 日 | デバイス参照でのクライアントヒントの使用は、次の日に開始されます。 **2023 年 1 月 26 日**. <p> <p>2022 年 10 月以降、Web SDK ライブラリまたは AppMeasurement JavaScript ライブラリを使用してクライアントヒントを収集できるようになります。 ただし、クライアントヒントは、2023年1月まではデバイス検索に組み込まれません。 その時点で、Adobeは、Google Chrome やMicrosoft Edge など Chromium ブラウザーからのヒットに関する特定のデバイス情報を取得する際に、User-Agent に加えて、クライアントヒントを使用し始めます。 これは、クライアントヒントを介して渡されるデータの代わりに User-Agent 文字列から提供される情報を徐々に減らす Google の計画に対応するものです。 <p> <p>この変更の一環として、アドビでは、User-Agent に関連するすべてのデバイス検索に対して Device Atlas を使用します。[詳細情報](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
