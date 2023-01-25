@@ -4,7 +4,7 @@ description: ボットを除外する様々な方法を比較できます。
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
 feature: Bot Removal
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 
