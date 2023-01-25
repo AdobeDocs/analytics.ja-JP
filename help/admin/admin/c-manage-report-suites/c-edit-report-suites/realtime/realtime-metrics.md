@@ -5,7 +5,7 @@ feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
 ht-degree: 100%
 
