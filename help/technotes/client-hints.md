@@ -2,10 +2,10 @@
 title: クライアントヒント
 description: クライアントヒントが User-Agent をデバイス情報のソースとして徐々に置き換える方法について説明します。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
+source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 85%
+source-wordcount: '1230'
+ht-degree: 74%
 
 ---
 
@@ -21,11 +21,11 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 
 >[!NOTE]
 >
->クライアントヒントは、2023 年 1 月 25 日以降、Analytics デバイス参照プロセスに組み込まれます。 現在、AppMeasurement と Web SDK の両方でヒントデータの収集がサポートされていますが、1 月中旬まではデバイス検索では使用されません。 これは、年末の重要な時期にレポートが中断される可能性を避けるためです。 下記のオペレーティングシステムのバージョンは 10 月から凍結されますが、この凍結が徐々に展開され、ほとんどのユーザーエージェントが正しい OS バージョンに固定されるので、この影響を受ける Chrome 訪問者は 3％未満と推定されます。
+>クライアントヒントは、2023 年 2 月 15 日以降、Analytics デバイス参照プロセスに組み込まれます。 現在、AppMeasurement と Web SDK の両方でヒントデータの収集がサポートされていますが、2 月中旬までは、デバイス参照で使用されません。 以下に示すように、10 月以降、オペレーティングシステムのバージョンは凍結されましたが、徐々にロールアウトが行われ、多くのユーザーエージェントが既に固定された OS バージョンを提供しています ( 詳細は [ここ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=ja)) の場合、これは Chrome 訪問者の 3%未満に影響すると推定されます。
 
 >[!NOTE]
 >
->2022年10月以降、Chromium ブラウザーの新しいバージョンでは、User-Agent 文字列で表されるオペレーティングシステムバージョンの「フリーズ」が開始されます。オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
+>2022 年 10 月より、Chromium ブラウザーの新しいバージョンで、User-Agent 文字列で表されるオペレーティングシステムのバージョンを「凍結」し始めました。 オペレーティングシステムのバージョンは高エントロピーのヒントなので、レポートでオペレーティングシステムのバージョンの正確性を維持するには、これらの高エントロピーのヒントを収集するようにコレクションライブラリを設定する必要があります。User-Agent の他のデバイス情報は時間の経過とともにフリーズされ、デバイスレポートの正確性を維持するためにクライアントヒントが必要になります。
 
 >[!NOTE]
 >
@@ -48,6 +48,8 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 低エントロピーのヒントはブラウザーから自動的に提供され、デバイスとブラウザーの情報を取得するために取り込まれます。Web SDK の新しいバージョン（2.12.0 以降）および AppMeasurement（2.23.0 以降）は、それぞれのタグ拡張機能を使用して、または設定オプションを直接使用して、高エントロピーのヒントを収集するように設定できます。 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) および [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html) の手順を参照してください。
 
 どちらのライブラリでも、高エントロピーのヒントの収集は&#x200B;**デフォルトで無効**&#x200B;になっています。
+
+API 経由で送信されたデータ（経由など）の場合 [Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) または [一括データ挿入 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en)の場合、ヒントはペイロードに明示的に含める必要があります。 詳しくは、それぞれのドキュメントを参照してください。
 
 +++
 
@@ -72,6 +74,8 @@ Google では、User-Agent Client Hints が 2 つのカテゴリ（低エント�
 | Sec-CH-UA-Full-Version-List | ブランドとそのバージョンのリスト | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
 | Sec-CH-UA-Model | デバイスモデル | 高 | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | オペレーティングシステム／プラットフォームのバージョン | 高 | &quot;10&quot; |
+
+高エントロピーヒントは、JavaScript 呼び出しを通じて収集され、クエリパラメーターを介して渡されます
 
 +++
 
