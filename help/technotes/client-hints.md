@@ -4,8 +4,8 @@ description: クライアントヒントが User-Agent をデバイス情報の�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
