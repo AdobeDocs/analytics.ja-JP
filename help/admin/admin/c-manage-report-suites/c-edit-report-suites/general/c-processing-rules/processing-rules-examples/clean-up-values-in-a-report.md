@@ -6,7 +6,7 @@ feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
 ht-degree: 100%
 
