@@ -4,13 +4,13 @@ description: 同じヒットに複数の値を格納するカスタム変数。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
 
-# リスト
+# list
 
 リスト変数は、好きなだけ使用できるカスタム変数です。eVar と同様に機能しますが、同じヒットに複数の値を含めることができます。リスト変数には文字制限はありません。
 
