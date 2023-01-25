@@ -4,7 +4,7 @@ title: コンバージョンの分類
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
 ht-degree: 100%
 
