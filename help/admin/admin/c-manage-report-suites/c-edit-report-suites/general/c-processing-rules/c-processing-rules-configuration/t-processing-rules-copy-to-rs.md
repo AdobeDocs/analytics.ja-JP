@@ -5,7 +5,7 @@ title: 他のレポートスイートへの処理ルールのコピー
 feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
 ht-degree: 100%
 
