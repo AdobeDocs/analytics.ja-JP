@@ -5,7 +5,7 @@ title: トラフィック分類
 feature: Admin Tools
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
 ht-degree: 100%
 
