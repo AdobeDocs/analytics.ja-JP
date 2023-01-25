@@ -4,7 +4,7 @@ description: 実装で使用できるカスタム変数。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ eVar は、XDM フィールドの `_experience.analytics.customDimensions.eVars.
 
 eVar は、Analytics 拡張機能の設定時（グローバル変数）またはルールで設定できます。
 
-1. Adobe ID 資格情報を使用して、[Adobe Experience Platform データ収集](https://experience.adobe.com/data-collection)にログインします。
+1. Adobe ID 資格情報を使用して、[Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) にログインします。
 2. 目的のタグプロパティをクリックします。
 3. 「[!UICONTROL ルール]」タブに移動し、目的のルールをクリックします（またはルールを作成します）。
 4. 「[!UICONTROL アクション]」で、既存の「[!UICONTROL Adobe Analytics - 変数を設定]」アクションをクリックするか、「+」アイコンをクリックします。
