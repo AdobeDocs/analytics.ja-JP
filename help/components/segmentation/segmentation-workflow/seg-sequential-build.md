@@ -4,7 +4,7 @@ title: 順次セグメントの構築
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3827'
 ht-degree: 100%
 
@@ -46,9 +46,9 @@ ht-degree: 100%
 
 | 例 | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
-| 全員を含む | A | B | C | D | E | 金 |
+| 全員を含む | A | B | C | D | E | F |
 | シーケンスの前のみ | A | B |  |  |  |  |
-| シーケンスの後のみ |  |  |  | D | E | 金 |
+| シーケンスの後のみ |  |  |  | D | E | F |
 
 **例 2：B の次に D が複数回現れる**
 
