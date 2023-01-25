@@ -5,7 +5,7 @@ title: 仮想レポートスイートのワークフロー
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
 ht-degree: 100%
 
