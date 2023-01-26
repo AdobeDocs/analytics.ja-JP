@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
+source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 97%
@@ -20,16 +20,6 @@ ht-degree: 97%
    + [使用する Adobe Analytics ツールの検討](get-started/which-analytics-tool.md)
    + [Analytics 製品の比較と必要システム構成](get-started/analytics-product-comparison.md)
    + [必要システム構成](get-started/sys-reqs.md)
-   + カンパニー設定 {#company-settings}
-      + [カンパニー設定の概要](get-started/company/c-company-settings.md)
-      + [機能アクセスレベル](get-started/company/feature-access-levels.md)
-      + [Web サービス](get-started/company/web-services-admin.md)
-      + [Report Builder レポート](get-started/company/report-builder-reports-admin.md)
-      + [シングルサインオン](get-started/company/single-signon-admin.md)
-      + [保留中のアクション](get-started/company/pending-actions-admin.md)
-      + [ブランド提携](get-started/company/co-branding-admin.md)
-      + [レポートスイートを非表示](get-started/company/c-hide-report-suites.md)
-      + [セキュリティマネージャー](get-started/company/security-manager.md)
 + Adobe Admin Console でのユーザー権限 {#admin-console}
    + [Admin Console での Adobe Analytics](admin-console/home.md)
    + [Adobe Analytics はじめての管理ガイド](admin-console/first-admin-guide.md)
@@ -160,6 +150,16 @@ ht-degree: 97%
             + [リアルタイムレポートの概要](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [リアルタイムレポートの設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [サポートされるリアルタイム指標とディメンション](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+   + カンパニー設定 {#company-settings}
+      + [カンパニー設定の概要](admin/company/c-company-settings.md)
+      + [機能アクセスレベル](admin/company/feature-access-levels.md)
+      + [Web サービス](admin/company/web-services-admin.md)
+      + [Report Builder レポート](admin/company/report-builder-reports-admin.md)
+      + [シングルサインオン](admin/company/single-signon-admin.md)
+      + [保留中のアクション](admin/company/pending-actions-admin.md)
+      + [ブランド提携](admin/company/co-branding-admin.md)
+      + [レポートスイートを非表示](admin/company/c-hide-report-suites.md)
+      + [セキュリティマネージャー](admin/company/security-manager.md)
    + [シンプル化されたレポートメニュー](admin/t-simplified-menu.md)
    + [ビデオ管理](admin/video-management.md)
    + サーバーコールの使用状況 {#server-call-usage}

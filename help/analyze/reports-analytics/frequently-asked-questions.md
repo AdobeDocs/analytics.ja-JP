@@ -5,7 +5,7 @@ title: Reports & Analytics に関するよくある質問（FAQ）
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
@@ -54,7 +54,7 @@ iOS デバイスでは、デバイスバージョンではなく、ユーザー�
 +++
 
 +++レポートスイートを削除できますか？
-レポートスイートを削除することはできません。ただし、Adobe Analytics のすべてのビューでレポートスイートを非表示にすることはできます。非表示のレポートスイートに送信されるサーバーコールは、引き続き月間契約の上限にカウントされます。詳しくは、『管理者マニュアル』の「[レポートスイートを非表示にする](/help/admin/get-started/company/c-hide-report-suites.md)」を参照してください。
+レポートスイートを削除することはできません。ただし、Adobe Analytics のすべてのビューでレポートスイートを非表示にすることはできます。非表示のレポートスイートに送信されるサーバーコールは、引き続き月間契約の上限にカウントされます。詳しくは、『管理者マニュアル』の「[レポートスイートを非表示にする](/help/admin/admin/company/c-hide-report-suites.md)」を参照してください。
 +++
 
 +++セグメント化を使用する際は、どのコンテナを使用すればよいですか？ ページビュー、訪問、訪問者のうち、どれですか？
