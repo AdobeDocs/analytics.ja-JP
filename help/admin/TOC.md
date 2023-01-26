@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
+source-git-commit: db87f32341e064343f1f233701ed04011f802d94
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 97%
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
@@ -169,19 +169,16 @@ ht-degree: 97%
       + [サーバーコールの使用状況アラート](admin/c-server-call-usage/scu-alerts.md)
       + [サーバーコールの使用状況の FAQ](admin/c-server-call-usage/overage-faq.md)
 + データガバナンス {#data-governance}
-   + [Adobe Analytics と GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics と CCPA](c-data-governance/an-ccpa-overview.md)
-   + [CNIL 同意除外](c-data-governance/cnil-consent-exemption.md)
-   + [よくある質問](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics データプライバシーワークフロー](c-data-governance/an-gdpr-workflow.md)
-   + [Analytics コンポーネントのデータプライバシーラベル](c-data-governance/gdpr-labels.md)
-   + [レポートスイートのデータのラベル設定](c-data-governance/gdpr-setup-reportsuite.md)
-   + [レポートスイートのプライバシーラベルを表示/管理](c-data-governance/gdpr-view-settings.md)
-   + [ラベル設定に関するベストプラクティス](c-data-governance/gdpr-analytics-ids.md)
-   + [ラベル設定の例](c-data-governance/gdpr-labeling-example.md)
+   + [よくある質問](c-data-governance/gdpr-faq.md)
+   + データのラベル付け {#data-labels}
+      + [Analytics コンポーネントのデータプライバシーラベル](c-data-governance/data-labeling/gdpr-labels.md)
+      + [レポートスイートのデータのラベル設定](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [レポートスイートのプライバシーラベルを表示/管理](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [ラベル設定に関するベストプラクティス](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [ラベル設定の例](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [名前空間](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [アクセス要求および削除要求の送信](c-data-governance/gdpr-submit-access-delete.md)
-   + [名前空間](c-data-governance/gdpr-namespaces.md)
    + [ID 拡張](c-data-governance/gdpr-id-expansion.md)
-   + [データプライバシーと Data Connectors（Genesis）](c-data-governance/data-connectors-gdpr.md)
-   + [データプライバシーの用語](c-data-governance/gdpr-terminology.md)
+   + [CNIL 同意除外](c-data-governance/cnil-consent-exemption.md)
 + [管理 API](c-admin-api/c-admin-api.md)

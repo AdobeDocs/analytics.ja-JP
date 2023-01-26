@@ -3,8 +3,8 @@ description: Adobe Analytics のデータガバナンスに関する FAQ
 title: データガバナンスに関するよくある質問（FAQ）
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 100%
 
@@ -30,17 +30,17 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>アドビの製品をご利用のお客様（データ管理者）がデータプライバシー処理のために Adobe Analytics でどのデータプライバシー要求をどの ID にマッピングしているかを調べるにはどうしたらよいですか？</b> </p> </td> 
-   <td colname="col2"> <p>データ管理者が、データ主体からのリクエストの ID を解決する方法を決めます。<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">アドビのデータプライバシー ID 取得タグのデプロイを検討します。</a>開発チームは、データプライバシー要求を処理するためにアドビのデータプライバシー ID 取得タグを使用してユーザー ID（Cookie ID）をキャプチャし、アドビのデータプライバシー API を使用してそれらのユーザー ID を Adobe Experience Cloud の関連ソリューションに送信することで、時間を節約できます。 </p> <p>データプライバシー API は、複数のアドビソリューションをまたいで様々な顧客 ID をサポートできます。データ主体が識別子（カスタム変数 – prop または eVar）と共に要求を送信すると、Adobe Analytics は、指定された識別子について収集されたデータの履歴全体をスキャンします。Analytics prop または eVar に格納されているカスタム ID の設定方法について詳しくは、<a href="/help/admin/c-data-governance/gdpr-namespaces.md">名前空間</a>の Analytics ドキュメントを参照してください。
+   <td colname="col2"> <p>データ管理者が、データ主体からのリクエストの ID を解決する方法を決めます。<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">アドビのデータプライバシー ID 取得タグのデプロイを検討します。</a>開発チームは、データプライバシー要求を処理するためにアドビのデータプライバシー ID 取得タグを使用してユーザー ID（Cookie ID）をキャプチャし、アドビのデータプライバシー API を使用してそれらのユーザー ID を Adobe Experience Cloud の関連ソリューションに送信することで、時間を節約できます。 </p> <p>データプライバシー API は、複数のアドビソリューションをまたいで様々な顧客 ID をサポートできます。データ主体が識別子（カスタム変数 – prop または eVar）と共に要求を送信すると、Adobe Analytics は、指定された識別子について収集されたデータの履歴全体をスキャンします。Analytics prop または eVar に格納されているカスタム ID の設定方法について詳しくは、<a href="/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md">名前空間</a>の Analytics ドキュメントを参照してください。
     </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics データガバナンスは、データプライバシー要求の処理にどのように役立ちますか？</b> </p> </td> 
    <td colname="col2"> <p>データガバナンスは、データ管理者に Analytics データのデータ管理および分類機能を提供する、Adobe Analytics の新しいツールです。この新しいツールにより、アドビの製品をご利用のお客様は、データプライバシーデータのアクセスおよび削除要求の処理をカスタマイズする権利が付与されます。データガバナンスコンソールでは、管理者は、Adobe Analytics に存在する様々なデータ列に適用する設定を定義できます。これらのラベルが定義されると、アドビは、お客様の希望するラベル設定に従って、任意のダウンストリームアクセス要求または削除要求に対応し、処理します。これらのラベル設定に関して、確認および法定代理人の助言を受けるのは、データ管理者の責任です。Adobe Analytics は、GDPR 発行日の 2018 年 5 月 25 日（PT）より前にデータラベルを正しく設定して、データプライバシー API を活用した要求の完了をカスタマイズすることをクライアントに促します。 </p> <p>データガバナンスツールには、以下のデータラベルが含まれます。 </p> 
     <ul id="ul_F25B00EB020B4A639628FB884D0CB4F9"> 
-     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels">ID データラベル：</a>直接または他のデータと組み合わせて個人を特定できるデータを分類するために使用されます。（なし、I1、I2）。 </li> 
-     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels">機密データラベル：</a>適用法の下で機密として定義される可能性のあるデータとしてデータを分類するために使用されます。（なし、S1、S2）。現在の Adobe Analytics での機密データの使用は、適用法の下で適切に取得された正確な位置情報データ（一部の管轄地域で機密データ見なされることがあります）を除いて、通常、禁止されています。 </li> 
-     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels">データプライバシーデータラベル：</a>データプライバシー要求で使用する個人を特定できる識別子を含む可能性があるフィールドまたはデータプライバシー削除要求の一環として削除する必要があるフィールドを定義するために使用されます。これらのラベルは、場合によっては、ID および機密データラベルと重複する可能性があります。 </li> 
-    </ul> <p>データガバナンスラベルについて詳しくは、<a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels">Analytics 変数用のデータプライバシーラベル</a>を参照してください。 </p> </td> 
+     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#identity-data-labels">ID データラベル：</a>直接または他のデータと組み合わせて個人を特定できるデータを分類するために使用されます。（なし、I1、I2）。 </li> 
+     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#sensitive-data-labels">機密データラベル：</a>適用法の下で機密として定義される可能性のあるデータとしてデータを分類するために使用されます。（なし、S1、S2）。現在の Adobe Analytics での機密データの使用は、適用法の下で適切に取得された正確な位置情報データ（一部の管轄地域で機密データ見なされることがあります）を除いて、通常、禁止されています。 </li> 
+     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels">データプライバシーデータラベル：</a>データプライバシー要求で使用する個人を特定できる識別子を含む可能性があるフィールドまたはデータプライバシー削除要求の一環として削除する必要があるフィールドを定義するために使用されます。これらのラベルは、場合によっては、ID および機密データラベルと重複する可能性があります。 </li> 
+    </ul> <p>データガバナンスラベルについて詳しくは、<a href="/help/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels">Analytics 変数用のデータプライバシーラベル</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics でデータプライバシーに対応するには、何から始めればよいですか？</b> </p> </td> 

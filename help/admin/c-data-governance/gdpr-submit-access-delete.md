@@ -3,8 +3,8 @@ description: Adobe Analytics でデータアクセスおよび削除リクエス
 title: アクセス要求および削除要求の送信
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 次の点に注意してください。
 
 * 「companyContexts」セクションにある値「5D7236525AA6D9580A495C6C@AdobeOrg」は、独自の Experience Cloud 組織の値で更新される必要があります。
-* 「タイプ」および「名前空間」フィールドについては、「[名前空間](/help/admin/c-data-governance/gdpr-namespaces.md)」の節に記載されています。
+* 「タイプ」および「名前空間」フィールドについては、「[名前空間](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md)」の節に記載されています。
 * 「説明」フィールドは無視されます。
 * 「キー」フィールドには、任意の値を含めることができます。データプライバシー要求の追跡に使用している内部 ID がある場合、その値をここに配置して、アドビのシステムの要求を独自の社内システムの要求と簡単に一致させることができます。
 
