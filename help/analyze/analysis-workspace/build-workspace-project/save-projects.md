@@ -4,10 +4,10 @@ title: プロジェクトの保存
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
+source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 39%
+source-wordcount: '727'
+ht-degree: 38%
 
 ---
 
@@ -85,10 +85,6 @@ Analysis Workspaceのすべてのプロジェクトは、2 分ごとにローカ
 一度も保存されていない&#x200B;**新規**&#x200B;プロジェクトの場合、未保存の変更は復元できません。
 
 ## 以前のバージョンを開く {#previous-version}
-
->[!NOTE]
->
->以前のバージョンのプロジェクトは、現在、限定的なリリースになっています。
 
 以前のバージョンのプロジェクトを開くには、以下の手順に従います。
 
