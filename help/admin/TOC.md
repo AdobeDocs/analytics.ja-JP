@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理ガイド
 breadcrumb-title: 管理ガイド
 user-guide-description: Experience Cloud Admin Console でのユーザーと製品の管理、レポートスイートの設定など、Analytics の管理タスクについて説明します。
-source-git-commit: db87f32341e064343f1f233701ed04011f802d94
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '648'
 ht-degree: 96%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 96%
 
 + [Analytics 管理ガイド](home.md)
 + [Analytics リリースノート](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=ja)
-+ Analytics 管理の基本を学ぶ {#admin-overview}
-   + [使用する Adobe Analytics ツールの検討](get-started/which-analytics-tool.md)
-   + [Analytics 製品の比較と必要システム構成](get-started/analytics-product-comparison.md)
-   + [必要システム構成](get-started/sys-reqs.md)
 + Adobe Admin Console でのユーザー権限 {#admin-console}
    + [Admin Console での Adobe Analytics](admin-console/home.md)
    + [Adobe Analytics はじめての管理ガイド](admin-console/first-admin-guide.md)

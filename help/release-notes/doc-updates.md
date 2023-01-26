@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '3556'
+source-wordcount: '3549'
 ht-degree: 99%
 
 ---
@@ -178,7 +178,7 @@ ht-degree: 99%
 | 2020年1月24日（PT） | ワークスペースの[行設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=ja#cja-workspace)ページを更新しました。 |
 | 2020年1月16日（PT） | [フリーフォームテーブルビルダー](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=ja)に関する新しいドキュメント。Table Builder を有効にすれば、多くのディメンション、分類、指標およびセグメントをドラッグ＆ドロップして、より複雑なビジネスの質問に回答するテーブルを作成できます。データはすぐには更新されません。代わりに、「**[!UICONTROL ビルド]**」をクリックした後に更新がおこなわれ、どのテーブルを作成したいかがわかると時間を節約することができます。さらに、この機能では次のことが可能です。<ul><li>**プレビュー**：時間をかけて実際のデータをレンダリングする前に表形式でプレビューできます。</li><li>**柔軟な行と分類の設定**：各ディメンション行に対して行と分類レベルを設定できます。以前は、ワークスペースで適用されたデフォルトは、データが返されるまで変更できませんでした。</li><li>**位置で分類**：ディメンション行を、_特定の項目_&#x200B;ではなく常に&#x200B;_位置で分類_（デフォルト）するように設定できます。</li><li>**手動の静的行の並べ替え**：静的な行を手動で並べ替え、必要に応じて表示できます。以前は、静的な行は指標の列またはアルファベット順でのみ並べ替えることができました。</li></ul> |
 | 2020年1月14日（PT） | [Adobe Analytics とブラウザーの cookie](/help/technotes/cookies/cookies.md) を追加しました。 |
-| 2020年1月14日（PT） | [使用する Adobe Analytics ツール](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=ja)ページを変更しました。 |
+| 2020年1月14日（PT） | [使用する Adobe Analytics ツール](/help/analyze/get-started/which-analytics-tool.md)ページを変更しました。 |
 
 ### 2019年 {#19}
 

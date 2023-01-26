@@ -3,10 +3,10 @@ title: ブラウザーの cookie 制限の影響を軽減するオプション
 description: Adobe Analytics のデータ収集を改善するために、ブラウザーの cookie 制限の影響を軽減する方法について説明します。
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 88%
+source-wordcount: '566'
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics は、ファーストパーティ cookie を利用して訪問�
 
 サーバーサイドの収集は、ブラウザーのメカニズムに依存して cookie を設定するのではなく、独自の識別子を提供する柔軟性を提供します。
 
-[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) または [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) を使用して、Analytics サーバーサイドにデータを送信できます。新しいサーバーサイド実装では、Bulk Data Insertion API をお勧めします。2 つの API の比較については、「[使用する Adobe Analytics ツール](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=ja)」を参照してください。
+[Data Insertion API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) または [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) を使用して、Analytics サーバーサイドにデータを送信できます。新しいサーバーサイド実装では、Bulk Data Insertion API をお勧めします。2 つの API の比較については、[使用するAdobe Analyticsツール](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
 ## Web SDK を使用したファーストパーティデバイス ID(FPID)
 
