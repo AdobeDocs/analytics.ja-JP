@@ -5,8 +5,8 @@ feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
