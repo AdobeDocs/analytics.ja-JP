@@ -3,7 +3,7 @@ description: Adobe Analytics 変数のデータプライバシーラベルの例
 title: Analytics 変数のデータプライバシーラベル
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '3685'
 ht-degree: 98%
@@ -133,7 +133,7 @@ ID を含むすべての変数に ID-DEVICE ラベルまたは ID-PERSON ラベ�
 >
 > 名前空間「visitorId」と「customVisitorId」は、Analytics の従来のトラッキング cookie と Analytics の顧客訪問者 ID を識別するために予約されています。これらの名前空間を、カスタムトラフィックやコンバージョン変数に使用しないでください。
 
-## 変数のタイプとそれぞれが対応しているデータプライバシー／DULE ラベル {#variable-types}
+## 変数のタイプとそれぞれが対応しているデータプライバシー/DULE ラベル {#variable-types}
 
 データプライバシー／DULE のラベル設定は、Analytics 変数の 4 つの主要クラスに影響します。すべての変数ですべてのラベルを利用できるわけではありません。以下の表には、各変数で利用できるラベルと利用できないラベルがまとめられています。
 

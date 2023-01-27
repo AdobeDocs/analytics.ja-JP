@@ -3,16 +3,16 @@ description: ヒットデータ、アクセス要求、削除要求のデータ�
 title: ラベル設定の例
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # ラベル設定の例
 
-## ヒットデータのサンプル
+## サンプルのヒットデータ {#hit}
 
 以下のヒットデータがあるとします。
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | いいえ | Z |
 
-## アクセス要求のサンプル
+## アクセス要求の例 {#access}
 
 アクセス要求を送信すると、概要ファイルには次の表に示されている値が含まれます。要求は、デバイスファイルファイルのみ、ユーザーファイルのみまたはどちらか 1 つを返す可能性があります。2 つの概要ファイルは、ユーザー ID が使用され、expandIDs が true の場合にのみ返されます。
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 
 Cookie ID が使用されている場合、expandIDs の設定は出力に影響しないことに注意してください。
 
-## 削除リクエストのサンプル
+## 削除リクエストの例 {#delete}
 
 表の最初の行にある API の値を使用した削除要求の場合、ヒットの表は以下のように更新されます。
 

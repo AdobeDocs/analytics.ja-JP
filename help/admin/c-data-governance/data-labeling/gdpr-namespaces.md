@@ -3,10 +3,10 @@ description: 検索可能にする各 ID には、名前空間が割り当てら
 title: 名前空間
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 また、`"namespace": "AAID"` の代わりに（または追加として）`"namespaceId": 10` を使用することもできます。その場合、その形式を使用できるその他のアドビ製品が表示されます。
 
-## 従来の Analytics トラッキング Cookie：廃止された形式
+## 従来の Analytics トラッキング cookie:廃止されたフォーム
 
 ```
 {

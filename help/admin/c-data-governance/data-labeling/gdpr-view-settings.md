@@ -3,7 +3,7 @@ description: データガバナンスのプライバシーラベル設定ダイ�
 title: データガバナンスのプライバシーラベルを表示/管理
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 44%
@@ -75,7 +75,7 @@ ht-degree: 44%
    >
    >常にコピー先レポートスイートをチェックして、ラベルが適切にコピーされていることを確認する必要があります。これは、ID または DEL ラベルを持つ変数で特に重要です。
 
-## .csv ファイルへの書き出し
+## .csv ファイルへの書き出し {#export-csv}
 
 選択したレポートスイートのすべての変数に関する現在のラベル定義をすべて含む CSV ファイルをダウンロードできます。法務チームがラベル設定の選択を確認し、このオプションを使用してレビューを容易に行うことをお勧めします。 データガバナンス UI にログインしてレビューを実行しなくても、法務チームと .CSV ファイルを共有できます。
 
@@ -85,6 +85,6 @@ ht-degree: 44%
 
 1. すべてのデータガバナンス設定を書き出す 1 つ以上のレポートスイートを選択します。
 
-## プライバシーラベルを編集
+## プライバシーラベルを編集 {#edit}
 
 参照： [レポートスイートのプライバシーラベルの割り当てまたは編集](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).
